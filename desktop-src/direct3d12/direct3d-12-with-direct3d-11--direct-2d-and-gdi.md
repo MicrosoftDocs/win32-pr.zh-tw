@@ -1,0 +1,100 @@
+---
+title: Direct3D 12 interop
+description: D3D12 可以用來撰寫元件化應用程式。
+ms.assetid: 51F7E715-82B6-48D8-A06A-CBBEDF6968F5
+ms.localizationpriority: high
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3b5fcfe2adf756c12f034031675d0c3ac5571b44
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104548460"
+---
+# <a name="direct3d-12-interop"></a><span data-ttu-id="a7c57-103">Direct3D 12 interop</span><span class="sxs-lookup"><span data-stu-id="a7c57-103">Direct3D 12 interop</span></span>
+
+<span data-ttu-id="a7c57-104">D3D12 可以用來撰寫元件化應用程式。</span><span class="sxs-lookup"><span data-stu-id="a7c57-104">D3D12 can be used to write componentized applications.</span></span>
+
+-   [<span data-ttu-id="a7c57-105">Interop 總覽</span><span class="sxs-lookup"><span data-stu-id="a7c57-105">Interop overview</span></span>](#interop-overview)
+-   [<span data-ttu-id="a7c57-106">使用 interop 的原因</span><span class="sxs-lookup"><span data-stu-id="a7c57-106">Reasons for using interop</span></span>](#reasons-for-using-interop)
+    -   [<span data-ttu-id="a7c57-107">共用命令清單</span><span class="sxs-lookup"><span data-stu-id="a7c57-107">Sharing a command list</span></span>](#sharing-a-command-list)
+    -   [<span data-ttu-id="a7c57-108">共用命令佇列</span><span class="sxs-lookup"><span data-stu-id="a7c57-108">Sharing a command queue</span></span>](#sharing-a-command-queue)
+    -   [<span data-ttu-id="a7c57-109">共用同步處理基本專案</span><span class="sxs-lookup"><span data-stu-id="a7c57-109">Sharing sync primitives</span></span>](#sharing-sync-primitives)
+    -   [<span data-ttu-id="a7c57-110">共用資源</span><span class="sxs-lookup"><span data-stu-id="a7c57-110">Sharing resources</span></span>](#sharing-resources)
+    -   [<span data-ttu-id="a7c57-111">選擇 interop 模型</span><span class="sxs-lookup"><span data-stu-id="a7c57-111">Choosing an interop model</span></span>](#choosing-an-interop-model)
+-   [<span data-ttu-id="a7c57-112">Interop Api</span><span class="sxs-lookup"><span data-stu-id="a7c57-112">Interop APIs</span></span>](#interop-apis)
+-   [<span data-ttu-id="a7c57-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="a7c57-113">Related topics</span></span>](#related-topics)
+
+## <a name="interop-overview"></a><span data-ttu-id="a7c57-114">Interop 總覽</span><span class="sxs-lookup"><span data-stu-id="a7c57-114">Interop overview</span></span>
+
+<span data-ttu-id="a7c57-115">D3D12 可能非常強大，而且可讓應用程式使用類似主控台的效率來撰寫圖形程式碼，但並非每個應用程式都需要重新編寫輪子並從頭撰寫整個轉譯引擎。</span><span class="sxs-lookup"><span data-stu-id="a7c57-115">D3D12 can be very powerful, and allow applications to write graphics code with console-like efficiency, but not every application needs to reinvent the wheel and write the entirety of their rendering engine from scratch.</span></span> <span data-ttu-id="a7c57-116">在某些情況下，另一個元件或程式庫已經更妥善地執行，或在其他情況下，部分程式碼的效能並不像正確性和可讀性那麼重要。</span><span class="sxs-lookup"><span data-stu-id="a7c57-116">In some cases, another component or library has already done it better, or in other cases, the performance of a portion of code is not as critical as its correctness and readability.</span></span>
+
+<span data-ttu-id="a7c57-117">本節涵蓋下列 interop 技術：</span><span class="sxs-lookup"><span data-stu-id="a7c57-117">This section covers the following interop techniques:</span></span>
+
+-   <span data-ttu-id="a7c57-118">在相同裝置上的 D3D12 和 D3D12</span><span class="sxs-lookup"><span data-stu-id="a7c57-118">D3D12 and D3D12, on the same device</span></span>
+-   <span data-ttu-id="a7c57-119">在不同裝置上的 D3D12 和 D3D12</span><span class="sxs-lookup"><span data-stu-id="a7c57-119">D3D12 and D3D12, on different devices</span></span>
+-   <span data-ttu-id="a7c57-120">相同裝置上的 D3D12 和 D3D11、D3D10 或 D2D 的任意組合</span><span class="sxs-lookup"><span data-stu-id="a7c57-120">D3D12 and any combination of D3D11, D3D10, or D2D, on the same device</span></span>
+-   <span data-ttu-id="a7c57-121">不同裝置上的 D3D12 和 D3D11、D3D10 或 D2D 的任意組合</span><span class="sxs-lookup"><span data-stu-id="a7c57-121">D3D12 and any combination of D3D11, D3D10, or D2D, on different devices</span></span>
+-   <span data-ttu-id="a7c57-122">D3D12 和 GDI，或 D3D12 和 D3D11 和 GDI</span><span class="sxs-lookup"><span data-stu-id="a7c57-122">D3D12 and GDI, or D3D12 and D3D11 and GDI</span></span>
+
+## <a name="reasons-for-using-interop"></a><span data-ttu-id="a7c57-123">使用 interop 的原因</span><span class="sxs-lookup"><span data-stu-id="a7c57-123">Reasons for using interop</span></span>
+
+<span data-ttu-id="a7c57-124">有幾個原因會讓應用程式 D3D12 interop 與其他 Api。</span><span class="sxs-lookup"><span data-stu-id="a7c57-124">There are several reasons an application would want D3D12 interop with other APIs.</span></span> <span data-ttu-id="a7c57-125">以下是一些範例：</span><span class="sxs-lookup"><span data-stu-id="a7c57-125">Some examples:</span></span>
+
+-   <span data-ttu-id="a7c57-126">增量移植：希望將整個應用程式從 D3D10 或 D3D11 移植到 D3D12，同時讓它在移植程式的中繼階段運作 (，以啟用) 的測試和偵錯工具。</span><span class="sxs-lookup"><span data-stu-id="a7c57-126">Incremental porting: wanting to port an entire application from D3D10 or D3D11 to D3D12, while having it functional at intermediate stages of the porting process (to enable testing and debugging).</span></span>
+-   <span data-ttu-id="a7c57-127">黑色方塊代碼：希望應用程式的特定部分保持原狀，同時移植其餘程式碼。</span><span class="sxs-lookup"><span data-stu-id="a7c57-127">Black box code: wanting to leave a particular portion of an application as-is while porting the rest of the code.</span></span> <span data-ttu-id="a7c57-128">例如，可能不需要將遊戲的 UI 元素移植。</span><span class="sxs-lookup"><span data-stu-id="a7c57-128">For example, there might be no need to port UI elements of a game.</span></span>
+-   <span data-ttu-id="a7c57-129">無法變更的元件：需要使用不是由應用程式所擁有的元件，而這些元件不會寫入目標 D3D12。</span><span class="sxs-lookup"><span data-stu-id="a7c57-129">Unchangeable components: needing to use components which are not owned by the application, which are not written to target D3D12.</span></span>
+-   <span data-ttu-id="a7c57-130">新的元件：不希望移植整個應用程式，而是想要使用以 D3D12 撰寫的新元件。</span><span class="sxs-lookup"><span data-stu-id="a7c57-130">A new component: not wanting to port the entire application, but wanting to use a new component which is written using D3D12.</span></span>
+
+<span data-ttu-id="a7c57-131">在 D3D12 中，interop 有四種主要的方法：</span><span class="sxs-lookup"><span data-stu-id="a7c57-131">There are four main techniques for interop in D3D12:</span></span>
+
+-   <span data-ttu-id="a7c57-132">應用程式可以選擇將開啟的命令清單提供給元件，該元件會將一些額外的轉譯命令記錄至已系結的呈現目標。</span><span class="sxs-lookup"><span data-stu-id="a7c57-132">An app can choose to provide an open command list to a component, which records some additional rendering commands to an already-bound render target.</span></span> <span data-ttu-id="a7c57-133">這相當於提供備妥的裝置內容給 D3D11 中的另一個元件，很適合用來將 UI/文字新增至已系結的背景緩衝區。</span><span class="sxs-lookup"><span data-stu-id="a7c57-133">This is equivalent to providing a prepared device context to another component in D3D11, and is great for things like adding UI/text to an already bound back buffer.</span></span>
+-   <span data-ttu-id="a7c57-134">應用程式可以選擇提供命令佇列給元件，以及所需的目的地資源。</span><span class="sxs-lookup"><span data-stu-id="a7c57-134">An app can choose to provide a command queue to a component, along with a desired destination resource.</span></span> <span data-ttu-id="a7c57-135">這相當於在 D3D11 中使用 [**ClearState**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-clearstate) 或 [**DeviceCoNtextState**](/windows/desktop/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate) api，以提供乾淨的裝置內容給另一個元件。</span><span class="sxs-lookup"><span data-stu-id="a7c57-135">This is equivalent to using [**ClearState**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-clearstate) or [**DeviceContextState**](/windows/desktop/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate) APIs in D3D11 to provide a clean device context to another component.</span></span> <span data-ttu-id="a7c57-136">這就是像是 D2D 的元件的運作方式。</span><span class="sxs-lookup"><span data-stu-id="a7c57-136">This is how components like D2D operate.</span></span>
+-   <span data-ttu-id="a7c57-137">元件可以選擇一個模型，它會產生一個命令清單（可能會以平行方式處理，而應用程式會負責稍後提交）。</span><span class="sxs-lookup"><span data-stu-id="a7c57-137">A component may opt for a model where it produces a command list, potentially in parallel, which the app is responsible for submission at a later time.</span></span> <span data-ttu-id="a7c57-138">必須在元件界限之間提供至少一個資源。</span><span class="sxs-lookup"><span data-stu-id="a7c57-138">At least one resource must be provided across component boundaries.</span></span> <span data-ttu-id="a7c57-139">使用延遲的內容可以在 D3D11 中使用這個相同的技術，不過 D3D12 中的效能比較理想。</span><span class="sxs-lookup"><span data-stu-id="a7c57-139">This same technique is available in D3D11 using deferred contexts, though the performance in D3D12 is more desirable.</span></span>
+-   <span data-ttu-id="a7c57-140">每個元件都有自己的佇列 (s) 和/或裝置 (s) ，而應用程式和元件則需要跨元件界限共用資源和同步處理資訊。</span><span class="sxs-lookup"><span data-stu-id="a7c57-140">Each component has its own queue(s) and/or device(s), and the app and components need to share resources and synchronization information across component boundaries.</span></span> <span data-ttu-id="a7c57-141">這與舊版 `ISurfaceQueue` 和新式 [**IDXGIKeyedMutex**](/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex)相似。</span><span class="sxs-lookup"><span data-stu-id="a7c57-141">This is similar to the legacy `ISurfaceQueue`, and the more modern [**IDXGIKeyedMutex**](/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex).</span></span>
+
+<span data-ttu-id="a7c57-142">這些案例之間的差異在於元件界限之間的共用。</span><span class="sxs-lookup"><span data-stu-id="a7c57-142">The differences between these scenarios is what exactly is shared between the component boundaries.</span></span> <span data-ttu-id="a7c57-143">裝置會假設為共用，但因為它基本上是無狀態的，所以並不是真正相關。</span><span class="sxs-lookup"><span data-stu-id="a7c57-143">The device is assumed to be shared, but since it is basically stateless, it is not really relevant.</span></span> <span data-ttu-id="a7c57-144">索引鍵物件是命令清單、命令佇列、同步物件和資源。</span><span class="sxs-lookup"><span data-stu-id="a7c57-144">The key objects are the command list, the command queue, the sync objects, and the resources.</span></span> <span data-ttu-id="a7c57-145">在共用它們時，每一個都有自己的複雜。</span><span class="sxs-lookup"><span data-stu-id="a7c57-145">Each of these have their own complications when sharing them.</span></span>
+
+### <a name="sharing-a-command-list"></a><span data-ttu-id="a7c57-146">共用命令清單</span><span class="sxs-lookup"><span data-stu-id="a7c57-146">Sharing a command list</span></span>
+
+<span data-ttu-id="a7c57-147">Interop 的最簡單方法只需要與部分引擎共用命令清單。</span><span class="sxs-lookup"><span data-stu-id="a7c57-147">The simplest method of interop requires sharing only a command list with a portion of the engine.</span></span> <span data-ttu-id="a7c57-148">完成轉譯作業之後，命令清單擁有權會傳回給呼叫者。</span><span class="sxs-lookup"><span data-stu-id="a7c57-148">Once the rendering operations have completed, the command list ownership goes back to the caller.</span></span> <span data-ttu-id="a7c57-149">您可以透過堆疊追蹤命令清單的擁有權。</span><span class="sxs-lookup"><span data-stu-id="a7c57-149">The ownership of the command list can be traced through the stack.</span></span> <span data-ttu-id="a7c57-150">由於命令清單是單一執行緒，因此應用程式無法使用這項技術來進行獨特或創新的作業。</span><span class="sxs-lookup"><span data-stu-id="a7c57-150">Since command lists are single threaded, there’s no way for an app to do something unique or innovative using this technique.</span></span>
+
+### <a name="sharing-a-command-queue"></a><span data-ttu-id="a7c57-151">共用命令佇列</span><span class="sxs-lookup"><span data-stu-id="a7c57-151">Sharing a command queue</span></span>
+
+<span data-ttu-id="a7c57-152">在相同的程式中共用裝置的多個元件可能是最常見的技巧。</span><span class="sxs-lookup"><span data-stu-id="a7c57-152">Probably the most common technique for multiple components sharing a device in the same process.</span></span>
+
+<span data-ttu-id="a7c57-153">當命令佇列是共用的單位時，需要呼叫元件，讓它知道所有未處理的命令清單都必須立即提交到命令佇列 (而且任何內部命令佇列都必須) 同步處理。</span><span class="sxs-lookup"><span data-stu-id="a7c57-153">When the command queue is the unit of sharing, there needs to be a call to the component to let it know that all outstanding command lists need to be submitted to the command queue immediately (and any internal command queues need to be synchronized).</span></span> <span data-ttu-id="a7c57-154">這相當於 D3D11 [**Flush**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush) API，它是應用程式可以提交自己的命令清單或同步處理基本專案的唯一方式。</span><span class="sxs-lookup"><span data-stu-id="a7c57-154">This is equivalent to the D3D11 [**Flush**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush) API, and is the only way that the application can submit its own command lists or sync primitives.</span></span>
+
+### <a name="sharing-sync-primitives"></a><span data-ttu-id="a7c57-155">共用同步處理基本專案</span><span class="sxs-lookup"><span data-stu-id="a7c57-155">Sharing sync primitives</span></span>
+
+<span data-ttu-id="a7c57-156">在其本身的裝置及/或命令佇列上運作的元件預期模式是接受 [**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence) 或共用的控制碼，並在開始其工作時使用 uint64 組（它會等待，然後是第二個 ID3D12Fence 或共用的控制碼），以及 uint64 組（當所有工作都完成時，它會發出信號）。</span><span class="sxs-lookup"><span data-stu-id="a7c57-156">The expected pattern for a component which operates on its own devices and/or command queues will be to accept an [**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence) or shared handle, and UINT64 pair upon beginning its work, which it will wait on, and then a second ID3D12Fence or shared handle, and UINT64 pair which it will signal when all work is complete.</span></span> <span data-ttu-id="a7c57-157">這個模式會比對 [**IDXGIKeyedMutex**](/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex) 和 DWM/DXGI 翻轉模型同步處理設計的目前實作為。</span><span class="sxs-lookup"><span data-stu-id="a7c57-157">This pattern matches the current implementation of both [**IDXGIKeyedMutex**](/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex) and the DWM/DXGI flip model synchronization design.</span></span>
+
+### <a name="sharing-resources"></a><span data-ttu-id="a7c57-158">共用資源</span><span class="sxs-lookup"><span data-stu-id="a7c57-158">Sharing resources</span></span>
+
+<span data-ttu-id="a7c57-159">到目前為止，撰寫 D3D12 應用程式以利用多個元件最複雜的部分，就是如何處理跨元件界限共用的資源。</span><span class="sxs-lookup"><span data-stu-id="a7c57-159">By far the most complicated part of writing a D3D12 app which leverages multiple components is how to deal with the resources which are shared across component boundaries.</span></span> <span data-ttu-id="a7c57-160">這主要是因為資源狀態的概念。</span><span class="sxs-lookup"><span data-stu-id="a7c57-160">This is mostly due to the concept of resource states.</span></span> <span data-ttu-id="a7c57-161">雖然資源狀態設計的某些層面是為了處理命令清單間的同步處理，但有些層面會影響命令清單，而影響資源配置以及存取資源資料的一組有效作業或效能特性。</span><span class="sxs-lookup"><span data-stu-id="a7c57-161">While some aspects of the resource state design are meant to deal with intra-command-list synchronization, others do have impact between command lists, affecting resource layout and either valid sets of operations or performance characteristics of accessing the resource data.</span></span>
+
+<span data-ttu-id="a7c57-162">有兩種模式可處理這種複雜的情況，這兩種模式基本上牽涉到元件之間的合約。</span><span class="sxs-lookup"><span data-stu-id="a7c57-162">There are two patterns of dealing with this complication, both of which involve essentially a contract between components.</span></span>
+
+-   <span data-ttu-id="a7c57-163">合約可以由元件開發人員定義並記載。</span><span class="sxs-lookup"><span data-stu-id="a7c57-163">The contract can be defined by the component developer and documented.</span></span> <span data-ttu-id="a7c57-164">這可能會像是「工作開始時，資源必須處於預設狀態，並會在工作完成時恢復為預設狀態」，或是有更複雜的規則，以允許共用深度緩衝區，而不需要強制進行中繼深度解析。</span><span class="sxs-lookup"><span data-stu-id="a7c57-164">This could be as simple as “the resource must be in the default state when work is started, and will be put back in the default state when work is done” or could have more complicated rules to allow things like sharing a depth buffer without forcing intermediate depth resolves.</span></span>
+-   <span data-ttu-id="a7c57-165">合約可在執行時間由應用程式定義，同時在元件界限之間共用資源。</span><span class="sxs-lookup"><span data-stu-id="a7c57-165">The contract can be defined by the application at runtime, at the time when the resource is shared across component boundaries.</span></span> <span data-ttu-id="a7c57-166">它是由相同的兩項資訊所組成：當元件開始使用資源時，該資源將在其中的狀態，以及元件在完成時應保留的狀態。</span><span class="sxs-lookup"><span data-stu-id="a7c57-166">It consists of the same two pieces of information – the state the resource will be in when the component starts using it, and the state the component should leave it in when it finishes.</span></span>
+
+### <a name="choosing-an-interop-model"></a><span data-ttu-id="a7c57-167">選擇 interop 模型</span><span class="sxs-lookup"><span data-stu-id="a7c57-167">Choosing an interop model</span></span>
+
+<span data-ttu-id="a7c57-168">針對大部分的 D3D12 應用程式，共用命令佇列可能是理想的模型。</span><span class="sxs-lookup"><span data-stu-id="a7c57-168">For most D3D12 applications, sharing a command queue is probably the ideal model.</span></span> <span data-ttu-id="a7c57-169">它可讓工作建立和提交擁有完整的擁有權，而不需要額外的記憶體額外負荷，因為有多餘的佇列，而且沒有處理 GPU 同步處理基本專案的效能影響。</span><span class="sxs-lookup"><span data-stu-id="a7c57-169">It allows complete ownership of work creation and submission, without the additional memory overhead from having redundant queues, and without the perf impact of dealing with the GPU sync primitives.</span></span>
+
+<span data-ttu-id="a7c57-170">當元件需要處理不同的佇列屬性（例如類型或優先順序），或一旦共用需要跨越進程界限時，就需要共用同步處理基本專案。</span><span class="sxs-lookup"><span data-stu-id="a7c57-170">Sharing sync primitives is required once the components need to deal with different queue properties, such as type or priority, or once the sharing needs to span process boundaries.</span></span>
+
+<span data-ttu-id="a7c57-171">協力廠商元件無法從外部使用共用或產生命令清單，但可能廣泛地用於遊戲引擎內部的元件中。</span><span class="sxs-lookup"><span data-stu-id="a7c57-171">Sharing or producing command lists are not widely used externally by third party components, but might be widely used in components which are internal to a game engine.</span></span>
+
+## <a name="interop-apis"></a><span data-ttu-id="a7c57-172">Interop Api</span><span class="sxs-lookup"><span data-stu-id="a7c57-172">Interop APIs</span></span>
+
+<span data-ttu-id="a7c57-173">《 [Direct3D 11 on 12](./direct3d-11-on-12.md) 》主題將逐步引導您使用與本主題中所述之互操作類型相關的大部分 API 介面。</span><span class="sxs-lookup"><span data-stu-id="a7c57-173">The [Direct3D 11 on 12](./direct3d-11-on-12.md) topic walks you through the usage of much of the API surface related to the kinds of interoperation described in this topic.</span></span>
+
+<span data-ttu-id="a7c57-174">另請參閱 [ID3D12Device：： CreateSharedHandle](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsharedhandle) 方法，您可以使用此方法，在 Windows 圖形 api 之間共用表面。</span><span class="sxs-lookup"><span data-stu-id="a7c57-174">Also see the [ID3D12Device::CreateSharedHandle](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsharedhandle) method, which you can use to share surfaces between Windows graphics APIs.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="a7c57-175">相關主題</span><span class="sxs-lookup"><span data-stu-id="a7c57-175">Related topics</span></span>
+
+* [<span data-ttu-id="a7c57-176">瞭解 Direct3D 12</span><span class="sxs-lookup"><span data-stu-id="a7c57-176">Understanding Direct3D 12</span></span>](directx-12-getting-started.md)
+* [<span data-ttu-id="a7c57-177">使用 Direct3D 11、Direct3D 10 和 Direct2D</span><span class="sxs-lookup"><span data-stu-id="a7c57-177">Working with Direct3D 11, Direct3D 10 and Direct2D</span></span>](direct3d-12-interop.md)
+* [<span data-ttu-id="a7c57-178">Direct3D 11 on 12</span><span class="sxs-lookup"><span data-stu-id="a7c57-178">Direct3D 11 on 12</span></span>](./direct3d-11-on-12.md)
