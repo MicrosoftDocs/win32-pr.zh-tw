@@ -1,0 +1,190 @@
+---
+title: DirectML 功能等級歷程記錄
+description: TBD
+ms.localizationpriority: high
+ms.topic: article
+ms.date: 11/05/2020
+ms.openlocfilehash: 92f5a004b73d608a3958ae0edfa8c6d6b6a523d6
+ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "104548482"
+---
+# <a name="directml-feature-level-history"></a>DirectML 功能等級歷程記錄
+
+如需一般 DirectML 版本歷程記錄，請參閱 [DirectML 版本歷程記錄](./dml-version-history.md)。
+
+## <a name="dml_feature_level_3_0"></a>DML_FEATURE_LEVEL_3_0
+
+在 DirectML 版本1.4.0 中引進。
+
+已新增下列運算子的支援。
+
+* [DML_OPERATOR_ELEMENT_WISE_BIT_AND](/windows/win32/api/directml/ne-directml-dml_operator_type)
+* **DML_OPERATOR_ELEMENT_WISE_BIT_OR**
+* **DML_OPERATOR_ELEMENT_WISE_BIT_XOR**
+* **DML_OPERATOR_ELEMENT_WISE_BIT_NOT**
+* **DML_OPERATOR_ELEMENT_WISE_BIT_COUNT**
+* **DML_OPERATOR_ELEMENT_WISE_LOGICAL_GREATER_THAN_OR_EQUAL**
+* **DML_OPERATOR_ELEMENT_WISE_LOGICAL_LESS_THAN_OR_EQUAL**
+* **DML_OPERATOR_ACTI加值稅ION_CELU**
+* **DML_OPERATOR_ACTI加值稅ION_RELU_GRAD**
+* **DML_OPERATOR_AVERAGE_POOLING_GRAD**
+* **DML_OPERATOR_MAX_POOLING_GRAD**
+* **DML_OPERATOR_RANDOM_GENERATOR**
+* **DML_OPERATOR_NONZERO_COORDINATES**
+* **DML_OPERATOR_RESAMPLE_GRAD**
+* **DML_OPERATOR_SLICE_GRAD**
+* **DML_OPERATOR_ADAM_OPTIMIZER**
+* **DML_OPERATOR_ARGMIN**
+* **DML_OPERATOR_ARGMAX**
+* **DML_OPERATOR_ROI_ALIGN**
+* **DML_OPERATOR_GATHER_ND1**
+
+已新增下列增強功能。
+
+* Tensor 維度的最大數目已從5增加為8。 請參閱 [DML_TENSOR_DIMENSION_COUNT_MAX1](./direct3d-directml-constants.md)。
+* 對整數資料類型的其他支援已新增至下列運算子。
+  * **DML_OPERATOR_ELEMENT_WISE_POW**
+  * **DML_OPERATOR_ELEMENT_WISE_CONSTANT_POW**
+  * **DML_OPERATOR_MAX_POOLING**、 **DML_OPERATOR_MAX_POOLING1** 和 **DML_OPERATOR_MAX_POOLING2**
+  * 使用 **DML_REDUCE_FUNCTION_ARGMIN** 或 **DML_REDUCE_FUNCTION_ARGMAX** 時 **DML_OPERATOR_REDUCE**
+* 以下是已加入的64位資料類型，並受到 select 運算子的支援。
+  * **DML_TENSOR_DATA_TYPE_FLOAT64**
+  * **DML_TENSOR_DATA_TYPE_UINT64**
+  * **DML_TENSOR_DATA_TYPE_INT64**
+
+已淘汰的功能。
+
+* **DML_REDUCE_FUNCTION_ARGMAX** 與 **DML_REDUCE_FUNCTION_ARGMIN** 已被取代。 您應偏好在其位置使用獨立 **DML_OPERATOR_ARGMIN** 和 **DML_OPERATOR_ARGMAX** 運算子。
+
+## <a name="dml_feature_level_2_1"></a>DML_FEATURE_LEVEL_2_1
+
+在 DirectML 版本1.2.0 中引進。
+
+已新增下列 Api。
+
+* [IDMLDevice1 介面](./directml/nn-directml-idmldevice1.md)
+* Operator graph 支援 (參閱 [IDMLDevice1：： CompileGraph](./directml/nf-directml-idmldevice1-compilegraph.md)
+
+已新增下列運算子的支援。
+
+* **DML_OPERATOR_ELEMENT_WISE_BIT_SHIFT_LEFT**
+* **DML_OPERATOR_ELEMENT_WISE_BIT_SHIFT_RIGHT**
+* **DML_OPERATOR_ELEMENT_WISE_ROUND**
+* **DML_OPERATOR_ELEMENT_WISE_IS_INFINITY**
+* **DML_OPERATOR_ELEMENT_WISE_MODULUS_TRUNCATE**
+* **DML_OPERATOR_ELEMENT_WISE_MODULUS_FLOOR**
+* **DML_OPERATOR_FILL_VALUE_CONSTANT**
+* **DML_OPERATOR_FILL_VALUE_SEQUENCE**
+* **DML_OPERATOR_CUMULATIVE_SUMMATION**
+* **DML_OPERATOR_REVERSE_SUBSEQUENCES**
+* **DML_OPERATOR_GATHER_ELEMENTS**
+* **DML_OPERATOR_GATHER_ND**
+* **DML_OPERATOR_SCATTER_ND**
+* **DML_OPERATOR_MAX_POOLING2**
+* **DML_OPERATOR_SLICE1**
+* **DML_OPERATOR_TOP_K1**
+* **DML_OPERATOR_DEPTH_TO_SPACE1**
+* **DML_OPERATOR_SPACE_TO_DEPTH1**
+* **DML_OPERATOR_MEAN_VARIANCE_NORMALIZATION1**
+* **DML_OPERATOR_RESAMPLE1**
+* **DML_OPERATOR_MATRIX_MULTIPLY_INTEGER**
+* **DML_OPERATOR_QUANTIZED_LINEAR_MATRIX_MULTIPLY**
+* **DML_OPERATOR_CONVOLUTION_INTEGER**
+* **DML_OPERATOR_QUANTIZED_LINEAR_CONVOLUTION**
+
+已新增下列增強功能。
+
+* 對整數資料類型的其他支援已新增至下列運算子。
+  * **DML_OPERATOR_ELEMENT_WISE_IDENTITY**
+  * **DML_OPERATOR_ELEMENT_WISE_ABS**
+  * **DML_OPERATOR_ELEMENT_WISE_ADD**
+  * **DML_OPERATOR_ELEMENT_WISE_CLIP**
+  * **DML_OPERATOR_ELEMENT_WISE_DIVIDE**
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_EQUALS**
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_GREATER_THAN**
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_LESS_THAN**
+  * **DML_OPERATOR_ELEMENT_WISE_MAX**
+  * **DML_OPERATOR_ELEMENT_WISE_MEAN**
+  * **DML_OPERATOR_ELEMENT_WISE_MIN**
+  * **DML_OPERATOR_ELEMENT_WISE_MULTIPLY**
+  * **DML_OPERATOR_ELEMENT_WISE_SUBTRACT**
+  * **DML_OPERATOR_ELEMENT_WISE_THRESHOLD**
+  * **DML_OPERATOR_ELEMENT_WISE_QUANTIZE_LINEAR**
+  * **DML_OPERATOR_ELEMENT_WISE_DEQUANTIZE_LINEAR**
+  * **DML_OPERATOR_ELEMENT_WISE_SIGN**
+  * **DML_OPERATOR_ELEMENT_WISE_IF**
+  * **DML_OPERATOR_ACTI加值稅ION_SHRINK**
+  * **DML_OPERATOR_PADDING**
+  * **DML_OPERATOR_GATHER**
+  * **DML_OPERATOR_SCATTER**
+  * **DML_OPERATOR_DEPTH_TO_SPACE**
+  * **DML_OPERATOR_SPACE_TO_DEPTH**
+  * **DML_OPERATOR_TILE**
+  * **DML_OPERATOR_TOP_K** 和 **DML_OPERATOR_TOP_K1**
+  * **DML_OPERATOR_ONE_HOT**
+  * 使用下列其中一個縮減函數時 **DML_OPERATOR_REDUCE**。
+    * **DML_REDUCE_FUNCTION_ARGMIN**
+    * **DML_REDUCE_FUNCTION_ARGMAX**
+    * **DML_REDUCE_FUNCTION_MAX**
+    * **DML_REDUCE_FUNCTION_MIN**
+    * **DML_REDUCE_FUNCTION_MULTIPLY**
+    * **DML_REDUCE_FUNCTION_SUM**
+* **DML_OPERATOR_GATHER** 的寬鬆 tensor 圖形限制
+
+## <a name="dml_feature_level_2_0"></a>DML_FEATURE_LEVEL_2_0
+
+在 DirectML 版本1.1.0 中引進。
+
+已新增下列 Api。
+* [DMLCreateDevice1 函式](./directml/nf-directml-dmlcreatedevice1.md)
+* [DML_FEATURE_LEVEL 列舉](/windows/win32/api/directml/ne-directml-dml_feature_level)
+* 功能等級查詢 (查看 [DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)) 
+
+已新增下列運算子的支援。
+
+* **DML_OPERATOR_ELEMENT_WISE_SIGN**
+* **DML_OPERATOR_ELEMENT_WISE_IS_NAN**
+* **DML_OPERATOR_ELEMENT_WISE_ERF**
+* **DML_OPERATOR_ELEMENT_WISE_SINH**
+* **DML_OPERATOR_ELEMENT_WISE_COSH**
+* **DML_OPERATOR_ELEMENT_WISE_TANH**
+* **DML_OPERATOR_ELEMENT_WISE_ASINH**
+* **DML_OPERATOR_ELEMENT_WISE_ACOSH**
+* **DML_OPERATOR_ELEMENT_WISE_ATANH**
+* **DML_OPERATOR_ELEMENT_WISE_IF**
+* **DML_OPERATOR_ELEMENT_WISE_ADD1**
+* **DML_OPERATOR_ACTI加值稅ION_SHRINK**
+* **DML_OPERATOR_MAX_POOLING1**
+* **DML_OPERATOR_MAX_UNPOOLING**
+* **DML_OPERATOR_DIAGONAL_MATRIX**
+* **DML_OPERATOR_SCATTER_ELEMENTS**
+* **DML_OPERATOR_SCATTER**
+* **DML_OPERATOR_ONE_HOT**
+* **DML_OPERATOR_RESAMPLE**
+
+已新增下列增強功能。
+
+* 當您系結輸入資源以進行 [IDMLOperatorInitializer](/windows/win32/api/directml/nn-directml-idmloperatorinitializer)的分派時，只要也設定了適當的堆積屬性，就能提供具有 [D3D12_HEAP_TYPE_CUSTOM](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type)) **D3D12_HEAP_TYPE_DEFAULT** (的資源。 請參閱 [DirectML 中的](./dml-binding.md)系結。
+* 除了對 **UINT32** 的現有支援之外，下列邏輯布林運算子現在還支援 **UINT8** 輸出張量。
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_AND**
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_EQUALS**
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_GREATER_THAN**
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_LESS_THAN**
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_NOT**
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_OR**
+  * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_XOR**
+* 5D 啟用函式現在支援在其輸入和輸出張量上使用進展。
+
+## <a name="dml_feature_level_1_0"></a>DML_FEATURE_LEVEL_1_0
+
+引進 DirectML 的功能層級。
+
+## <a name="see-also"></a>另請參閱
+
+[DirectML 版本歷程記錄](./dml-version-history.md) 
+[DML_FEATURE_LEVEL 列舉](/windows/win32/api/directml/ne-directml-dml_feature_level) 
+[DMLCreateDevice1 函式](./directml/nf-directml-dmlcreatedevice1.md) 
+[DML_FEATURE_QUERY_FEATURE_LEVELS 結構](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)
