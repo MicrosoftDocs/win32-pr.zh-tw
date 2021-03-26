@@ -1,0 +1,3190 @@
+- name: Windows Management Instrumentation
+  href: wmi-start-page.md
+  items:
+    - name: 關於 WMI
+      href: about-wmi.md
+      items:
+        - name: WMI 的新功能
+          href: what-s-new-in-wmi.md
+          items:
+            - name: Windows 7 的新功能
+              href: what-s-new-in-windows-7.md
+            - name: Windows Vista 的新功能
+              href: what-s-new-in-windows-vista.md
+        - name: WMI 元件的作業系統可用性
+          href: operating-system-availability-of-wmi-components.md
+        - name: WMI 架構
+          href: wmi-architecture.md
+          items:
+            - name: WMI 基礎結構
+              href: wmi-infrastructure.md
+        - name: 通用訊息模型
+          href: common-information-model.md
+          items:
+            - name: CIM 架構相容性
+              href: cim-schema-compatibility.md
+        - name: 跨命名空間關聯的遍歷
+          href: cross-namespace-association-traversal.md
+        - name: 管理物件格式 (MOF)
+          href: managed-object-format--mof-.md
+        - name: 使用者帳戶控制和 WMI
+          href: user-account-control-and-wmi.md
+        - name: 存取 WMI 安全物件
+          href: access-to-wmi-securable-objects.md
+          items:
+            - name: 存取 WMI 命名空間
+              href: access-to-wmi-namespaces.md
+        - name: 效能程式庫和 WMI
+          href: performance-libraries-and-wmi.md
+        - name: WMI 中的 IPv6 和 IPv4 支援
+          href: ipv6-and-ipv4-support-in-wmi.md
+        - name: 日期和時間格式
+          href: date-and-time-format.md
+          items:
+            - name: CIM_DATETIME
+              href: cim-datetime.md
+            - name: 間隔格式
+              href: interval-format.md
+        - name: 腳本存取 WMI
+          href: scripting-access-to-wmi.md
+        - name: 詳細資訊
+          href: further-information.md
+    - name: 使用 WMI
+      href: using-wmi.md
+      items:
+        - name: 建立 WMI 用戶端
+          href: creating-wmi-clients.md
+          items:
+            - name: 連接至遠端電腦上的 WMI
+              href: connecting-to-wmi-on-a-remote-computer.md
+              items:
+                - name: 設定遠端 WMI 連接
+                  href: connecting-to-wmi-remotely-starting-with-vista.md
+                - name: 保護遠端 WMI 連接
+                  href: securing-a-remote-wmi-connection.md
+                - name: 疑難排解遠端 WMI 連接
+                  href: troubleshooting-a-remote-wmi-connection.md
+                - name: 設定適用于 WMI 的固定埠
+                  href: setting-up-a-fixed-port-for-wmi.md
+                - name: 使用 WMI 委派
+                  href: connecting-to-a-3rd-computer-delegation.md
+                - name: 使用 VBScript 從遠端連線至 WMI
+                  href: connecting-to-wmi-remotely-with-vbscript.md
+                - name: 使用 PowerShell 從遠端連線至 WMI
+                  href: connecting-to-wmi-on-a-remote-computer-by-using-powershell.md
+                - name: 使用 C 遠端連線至 WMI#
+                  href: connecting-to-wmi-remotely-with-c-.md
+                - name: 使用 WMI 從遠端建立進程
+                  href: creating-processes-remotely.md
+            - name: 腳本和應用程式的 WMI 工作
+              href: wmi-tasks-for-scripts-and-applications.md
+              items:
+                - name: WMI 工作：帳戶和網域
+                  href: wmi-tasks--accounts-and-domains.md
+                - name: WMI 工作：電腦硬體
+                  href: wmi-tasks--computer-hardware.md
+                - name: WMI 工作：電腦軟體
+                  href: wmi-tasks--computer-software.md
+                - name: WMI 工作：連接至 WMI 服務
+                  href: wmi-tasks--connecting-to-the-wmi-service.md
+                - name: WMI 工作：日期和時間
+                  href: wmi-tasks--dates-and-times.md
+                - name: WMI 工作：桌面管理
+                  href: wmi-tasks--desktop-management.md
+                - name: WMI 工作：磁碟和檔案系統
+                  href: wmi-tasks--disks-and-file-systems.md
+                - name: WMI 工作：事件記錄
+                  href: wmi-tasks--event-logs.md
+                - name: WMI 工作：檔案和資料夾
+                  href: wmi-tasks--files-and-folders.md
+                - name: WMI 工作：網路功能
+                  href: wmi-tasks--networking.md
+                - name: WMI 工作：作業系統
+                  href: wmi-tasks--operating-systems.md
+                - name: WMI 工作：效能監視
+                  href: wmi-tasks--performance-monitoring.md
+                - name: WMI 工作：印表機和列印
+                  href: wmi-tasks--printers-and-printing.md
+                - name: WMI 工作：處理序
+                  href: wmi-tasks--processes.md
+                - name: WMI 工作：登錄
+                  href: wmi-tasks--registry.md
+                - name: WMI 工作：已排程的工作
+                  href: wmi-tasks--scheduled-tasks.md
+                - name: WMI 工作：服務
+                  href: wmi-tasks--services.md
+            - name: 建立 WMI 應用程式或腳本
+              href: creating-a-wmi-application-or-script.md
+              items:
+                - name: 使用 c + + 建立 WMI 應用程式
+                  href: creating-a-wmi-application-using-c-.md
+                  items:
+                    - name: 初始化 WMI 應用程式的 COM
+                      href: initializing-com-for-a-wmi-application.md
+                    - name: 建立與 WMI 命名空間的連接
+                      href: creating-a-connection-to-a-wmi-namespace.md
+                    - name: 設定 WMI 連接的安全性層級
+                      href: setting-the-security-levels-on-a-wmi-connection.md
+                    - name: 清除和關閉 WMI 應用程式
+                      href: cleaning-up-and-shutting-down-a-wmi-application.md
+                - name: WMI c + + 應用程式範例
+                  href: wmi-c---application-examples.md
+                  items:
+                    - name: 範例：呼叫提供者方法
+                      href: example--calling-a-provider-method.md
+                    - name: 範例：透過 WMI 接收事件通知
+                      href: example--receiving-event-notifications-through-wmi-.md
+                    - name: 範例：以非同步方式從本機電腦取得 WMI 資料
+                      href: example--getting-wmi-data-from-the-local-computer-asynchronously.md
+                    - name: 範例：從遠端電腦取得 WMI 資料
+                      href: example--getting-wmi-data-from-a-remote-computer.md
+                    - name: 範例：從本機電腦取得 WMI 資料
+                      href: example--getting-wmi-data-from-the-local-computer.md
+                    - name: 範例：建立 WMI 應用程式
+                      href: example-creating-a-wmi-application.md
+                - name: 建立 WMI 腳本
+                  href: creating-a-wmi-script.md
+                  items:
+                    - name: 使用 VBScript 連接至 WMI
+                      href: connecting-to-wmi-with-vbscript.md
+                    - name: 建立標記字串
+                      href: constructing-a-moniker-string.md
+                    - name: 使用 SWbemObject 編寫腳本
+                      href: scripting-with-swbemobject.md
+                    - name: 腳本 Helper 物件
+                      href: scripting-helper-objects.md
+                    - name: 使用 WMI 腳本型別程式庫
+                      href: using-the-wmi-scripting-type-library.md
+                - name: 建立受控 WMI 用戶端
+                  href: creating-a-managed-wmi-client.md
+            - name: 監視效能資料
+              href: monitoring-performance-data.md
+              items:
+                - name: 存取腳本中的效能資料
+                  href: accessing-performance-data-in-script.md
+                  items:
+                    - name: 更新腳本中的 WMI 資料
+                      href: refreshing-wmi-data-in-scripts.md
+                - name: 存取 c + + 中的效能資料
+                  href: accessing-performance-data-in-c--.md
+                  items:
+                    - name: 存取 WMI 預先安裝的效能類別
+                      href: accessing-wmi-preinstalled-performance-classes.md
+                - name: 取得統計效能資料
+                  href: obtaining-statistical-performance-data.md
+                - name: 效能監視提供者
+                  href: monitoring-performance-with-the-performance-monitoring-provider.md
+            - name: 接收 WMI 事件
+              href: receiving-a-wmi-event.md
+              items:
+                - name: 判斷要接收的事件種類
+                  href: determining-the-type-of-event-to-receive.md
+                - name: 在您的應用程式期間接收事件
+                  href: receiving-events-for-the-duration-of-your-application.md
+                  items:
+                    - name: 接收非同步事件通知
+                      href: receiving-asynchronous-event-notifications.md
+                    - name: 接收同步和同步事件通知
+                      href: receiving-synchronous-and-semisynchronous-event-notifications.md
+                - name: 隨時接收事件
+                  href: receiving-events-at-all-times.md
+                  items:
+                    - name: 執行實體取用者
+                      href: implementing-a-physical-consumer.md
+                    - name: 建立新的永久事件取用者類別
+                      href: creating-a-new-permanent-event-consumer-class.md
+                    - name: 建立邏輯取用者
+                      href: creating-a-logical-consumer.md
+                    - name: 建立事件篩選器
+                      href: creating-an-event-filter.md
+                    - name: 使用邏輯取用者來系結事件篩選器
+                      href: binding-an-event-filter-with-a-logical-consumer.md
+                    - name: 執行跨命名空間的永久事件訂閱
+                      href: implementing-cross-namespace-permanent-event-subscriptions.md
+                - name: 使用標準取用者監視及回應事件
+                  href: monitoring-and-responding-to-events-with-standard-consumers.md
+                  items:
+                    - name: 根據事件執行腳本
+                      href: running-a-script-based-on-an-event.md
+                    - name: 根據事件傳送電子郵件
+                      href: sending-e-mail-based-on-an-event.md
+                    - name: 根據事件寫入記錄檔
+                      href: writing-to-a-log-file-based-on-an-event.md
+                    - name: 根據事件記錄至 NT 事件記錄檔
+                      href: logging-to-nt-event-log-based-on-an-event.md
+                    - name: 根據事件從命令列執行程式
+                      href: running-a-program-from-the-command-line-based-on-an-event.md
+                    - name: 使用標準字串範本
+                      href: using-standard-string-templates.md
+                - name: 接收計時或重複事件
+                  href: receiving-a-timed-or-repeating-event.md
+                  items:
+                    - name: 使用 Win32_LocalTime 或 Win32_UTCTime 建立計時器事件
+                      href: creating-a-timer-event-with-win32-localtime-or-win32-utctime.md
+                    - name: 使用 __TimerInstruction 建立計時器事件
+                      href: creating-a-timer-event-with---timerinstruction.md
+                - name: 範例：同時監視多個事件查詢
+                  href: example-monitoring-multiple-event-queries-simultaneously.md
+            - name: 監視事件
+              href: monitoring-events.md
+            - name: 使用 WQL 查詢
+              href: querying-with-wql.md
+              items:
+                - name: 要求類別實例資料
+                  href: requesting-class-instance-data.md
+                  items:
+                    - name: 資料查詢的 SELECT 語句
+                      href: select-statement-for-data-queries.md
+                    - name: 資料查詢的 ISA 運算子
+                      href: isa-operator-for-data-queries.md
+                - name: 接收事件通知
+                  href: receiving-event-notifications.md
+                  items:
+                    - name: 事件查詢的 SELECT 語句
+                      href: select-statement-for-event-queries.md
+                    - name: 事件查詢的 ISA 運算子
+                      href: isa-operator-for-event-queries.md
+                - name: 正在抓取類別定義
+                  href: retrieving-class-definitions.md
+                  items:
+                    - name: 架構查詢的 SELECT 語句
+                      href: select-statement-for-schema-queries.md
+                    - name: 架構關聯
+                      href: schema-associations.md
+                    - name: 適用于架構查詢的 ISA 運算子
+                      href: isa-operator-for-schema-queries.md
+                - name: 查詢内嵌物件
+                  href: querying-embedded-objects.md
+            - name: 查詢選用功能的狀態
+              href: querying-the-status-of-optional-features.md
+            - name: 描述 WMI 物件的位置
+              href: describing-the-location-of-a-wmi-object.md
+              items:
+                - name: WMI 物件路徑需求
+                  href: wmi-object-path-requirements.md
+                - name: 描述 WMI 命名空間物件路徑
+                  href: describing-a-wmi-namespace-object-path.md
+                - name: 描述類別物件路徑
+                  href: describing-a-class-object-path.md
+                - name: 描述實例物件路徑
+                  href: describing-an-instance-object-path.md
+                  items:
+                    - name: 64位值的類別實例支援
+                      href: class-instance-support-for-64-bit-values.md
+            - name: 使用 WMI 存取其他作業系統功能
+              href: accessing-other-operating-system-features-with-wmi.md
+              items:
+                - name: 從設備磁碟機存取資料
+                  href: accessing-data-from-device-drivers.md
+                - name: 存取 Active Directory
+                  href: accessing-active-directory.md
+                  items:
+                    - name: 建立和更新 Active Directory 物件
+                      href: creating-and-updating-active-directory-objects.md
+                    - name: 使用適當的 Active Directory 語法
+                      href: using-the-proper-active-directory-syntax.md
+                      items:
+                        - name: 描述 LDAP 命名空間
+                          href: describing-the-ldap-namespace.md
+                        - name: 描述 ADSI 路徑
+                          href: describing-the-adsi-path.md
+                    - name: 將 Active Directory 對應至 WMI
+                      href: mapping-active-directory-to-wmi.md
+                      items:
+                        - name: 對應 Active Directory 類別
+                          href: mapping-active-directory-classes.md
+                        - name: Active Directory 實例的對應
+                          href: mapping-active-directory-instances.md
+                - name: 存取 SNMP 裝置
+                  href: accessing-snmp-devices.md
+                  items:
+                    - name: 設定 WMI SNMP 環境
+                      href: setting-up-the-wmi-snmp-environment.md
+                    - name: 讀取和寫入 SNMP 裝置
+                      href: reading-from-and-writing-to-snmp-devices.md
+                      items:
+                        - name: WMI SNMP 類別相互關聯
+                          href: wmi-snmp-class-correlation.md
+                    - name: 以 WMI 事件的形式接收 SNMP 陷阱
+                      href: receiving-snmp-traps-as-wmi-events.md
+                      items:
+                        - name: 在 SNMP 事件提供者之間進行選擇
+                          href: choosing-between-snmp-event-providers.md
+                        - name: 接收 SNMP 事件
+                          href: receiving-snmp-events.md
+                - name: 建立 WMI 的 Active Server Pages
+                  href: creating-active-server-pages-for-wmi.md
+            - name: 存取 Interop 命名空間中的資料
+              href: accessing-data-in-the-interop-namespace.md
+            - name: 操作類別和實例資訊
+              href: manipulating-class-and-instance-information.md
+              items:
+                - name: 正在抓取 WMI 類別或實例資料
+                  href: retrieving-class-or-instance-data.md
+                  items:
+                    - name: 正在抓取 WMI 類別
+                      href: retrieving-a-class.md
+                    - name: 正在抓取 WMI 實例
+                      href: retrieving-an-instance.md
+                    - name: 正在抓取 WMI 實例的一部分
+                      href: retrieving-part-of-an-instance.md
+                    - name: 存取 WMI 辨識符號
+                      href: accessing-a-qualifier.md
+                - name: 正在抓取錯誤碼
+                  href: retrieving-an-error-code.md
+                - name: 修改實例屬性
+                  href: modifying-an-instance-property.md
+                  items:
+                    - name: 更新整個實例
+                      href: updating-an-entire-instance.md
+                    - name: 更新部分實例
+                      href: updating-part-of-an-instance.md
+                - name: 變更實例的繼承
+                  href: changing-the-inheritance-of-an-instance.md
+                - name: 修改方法
+                  href: modifying-a-method.md
+                - name: 列舉 WMI
+                  href: enumerating-wmi.md
+                  items:
+                    - name: 改善列舉效能
+                      href: improving-enumeration-performance.md
+                - name: 查詢 WMI
+                  href: querying-wmi.md
+                  items:
+                    - name: 叫用同步查詢
+                      href: invoking-a-synchronous-query.md
+                    - name: 叫用非同步查詢
+                      href: invoking-an-asynchronous-query.md
+                - name: 呼叫 WMI 方法
+                  href: calling-a-method.md
+                  items:
+                    - name: 使用 c + + 進行半同步呼叫
+                      href: making-a-semisynchronous-call-with-c--.md
+                    - name: 使用 VBScript 進行半同步呼叫
+                      href: making-a-semisynchronous-call-with-vbscript.md
+                    - name: 使用 c + + 進行非同步呼叫
+                      href: making-an-asynchronous-call-with-c--.md
+                    - name: 進行非同步 WMI 腳本呼叫
+                      href: making-an-asynchronous-call-with-vbscript.md
+                    - name: 呼叫 WMI 方法
+                      href: calling-a-wmi-method.md
+                    - name: 呼叫提供者方法
+                      href: calling-a-provider-method.md
+                    - name: 在 c + + 中建立參數物件
+                      href: creating-parameters-objects-in-c--.md
+                    - name: 建立 InParameters 物件和剖析 OutParameters 物件
+                      href: constructing-inparameters-objects-and-parsing-outparameters-objects.md
+                      items:
+                        - name: 建立 InParameters 物件
+                          href: constructing-inparameters-objects.md
+                        - name: 剖析 OutParameters 物件
+                          href: parsing-outparameters-objects.md
+                - name: 存取 WMI 集合
+                  href: accessing-a-collection.md
+                  items:
+                    - name: 從 WMI 集合移除單一專案
+                      href: removing-a-single-item-from-a-collection.md
+                    - name: 從 WMI 集合移除多個專案
+                      href: removing-multiple-items-from-a-collection.md
+            - name: 將類別連結在一起
+              href: linking-classes-together.md
+              items:
+                - name: 註冊 View 提供者
+                  href: registering-the-view-provider.md
+                - name: 從舊的屬性建立新的實例
+                  href: creating-a-new-instance-from-old-properties.md
+                - name: 在命名空間之間建立實例的關聯
+                  href: associating-instances-between-namespaces.md
+                - name: 建立聯集視圖類別
+                  href: creating-a-union-view-class.md
+                  items:
+                    - name: 更新聯集視圖
+                      href: updating-a-union-view.md
+            - name: 修改系統登錄
+              href: modifying-the-system-registry.md
+              items:
+                - name: 取得登錄資料
+                  href: obtaining-registry-data.md
+                - name: 變更登錄資料
+                  href: changing-registry-data.md
+                - name: 使用系統登錄提供者進行程式設計
+                  href: programming-with-the-system-registry-provider.md
+                  items:
+                    - name: 定義 System Registry 提供者的類別
+                      href: defining-classes-for-the-system-registry-provider.md
+                      items:
+                        - name: 將登錄資料類型對應至 WMI 資料類型
+                          href: mapping-a-registry-data-type-to-a-wmi-data-type.md
+                        - name: 使用限定詞定義登錄類別
+                          href: defining-a-registry-class-with-qualifiers.md
+                    - name: 使用系統登錄提供者作為屬性提供者
+                      href: using-the-system-registry-provider-as-a-property-provider.md
+                    - name: 描述登錄的資源
+                      href: describing-a-resource-for-the-registry.md
+                    - name: 存取未命名的登錄值
+                      href: accessing-an-unnamed-registry-value.md
+                - name: 註冊系統登錄事件
+                  href: registering-for-system-registry-events.md
+                  items:
+                    - name: 建立登錄提供者的 WHERE 子句
+                      href: creating-a-proper-where-clause-for-the-registry-provider.md
+                    - name: 接收登錄事件
+                      href: receiving-registry-events.md
+                - name: 註冊系統登錄提供者
+                  href: registering-the-system-registry-provider.md
+        - name: 建立 WMI 提供者
+          href: creating-wmi-providers.md
+          items:
+            - name: 將資料提供給 WMI
+              href: providing-data-to-wmi.md
+            - name: 開發 WMI 提供者
+              href: developing-a-wmi-provider.md
+              items:
+                - name: 設計受控物件格式 (MOF) 類別
+                  href: designing-managed-object-format--mof--classes.md
+                  items:
+                    - name: 在 WMI 內建立階層
+                      href: creating-hierarchies-within-wmi.md
+                      items:
+                        - name: 使用 MOF 程式碼建立子命名空間
+                          href: creating-a-child-namespace-with-mof-code.md
+                        - name: 使用 MOF 程式碼建立同級命名空間
+                          href: creating-a-sibling-namespace-with-mof-code.md
+                        - name: 使用 WMI API 建立命名空間
+                          href: creating-a-namespace-with-the-wmi-api.md
+                    - name: 建立 WMI 類別
+                      href: creating-a-class.md
+                      items:
+                        - name: 建立 WMI 基類
+                          href: creating-a-base-class.md
+                        - name: 建立 WMI 衍生類別
+                          href: creating-a-derived-class.md
+                        - name: 建立 WMI 方法
+                          href: creating-a-method.md
+                        - name: 新增 WMI 屬性
+                          href: adding-a-property.md
+                        - name: 建立 WMI 別名
+                          href: creating-an-alias.md
+                    - name: 在類別中內嵌物件
+                      href: embedded-objects.md
+                      items:
+                        - name: 建立内嵌物件
+                          href: creating-embedded-objects.md
+                    - name: 宣告關聯類別
+                      href: declaring-an-association-class.md
+                    - name: 建立實例
+                      href: creating-an-instance.md
+                      items:
+                        - name: 使用 c + + 建立和宣告實例
+                          href: creating-and-declaring-an-instance-using-c-.md
+                        - name: 使用 MOF 建立實例
+                          href: creating-an-instance-using-mof.md
+                        - name: 使用 VBScript 建立物件
+                          href: creating-an-object-using-vbscript.md
+                    - name: 刪除類別或實例
+                      href: deleting-a-class-or-instance.md
+                      items:
+                        - name: 刪除實例
+                          href: deleting-an-instance.md
+                        - name: 刪除類別
+                          href: deleting-a-class.md
+                    - name: 建立批註
+                      href: creating-a-comment.md
+                    - name: 新增限定詞
+                      href: adding-a-qualifier.md
+                      items:
+                        - name: 套用辨識符號
+                          href: applying-a-qualifier.md
+                        - name: 描述限定詞類別的辨識符號
+                          href: describing-a-qualifier-with-a-qualifier-flavor.md
+                - name: 藉由撰寫提供者，將資料提供給 WMI
+                  href: supplying-data-to-wmi-by-writing-a-provider.md
+                - name: 將提供者併入應用程式中
+                  href: incorporating-a-provider-in-an-application.md
+                - name: 註冊提供者
+                  href: registering-a-provider.md
+                  items:
+                    - name: 選擇正確的註冊
+                      href: choosing-correct-registration.md
+                - name: 初始化提供者
+                  href: initializing-a-provider.md
+                - name: 對 WMI 進行呼叫
+                  href: making-calls-to-wmi.md
+                - name: 模擬用戶端
+                  href: impersonating-a-client.md
+                - name: 更新提供者
+                  href: updating-a-provider.md
+                - name: 卸載提供者
+                  href: unloading-a-provider.md
+                - name: 撰寫 Interop 的關聯提供者
+                  href: writing-an-association-provider-for-interop.md
+                - name: 撰寫執行個體提供者
+                  href: writing-an-instance-provider.md
+                  items:
+                    - name: 註冊執行個體提供者
+                      href: registering-an-instance-provider.md
+                    - name: 執行執行個體提供者主要介面
+                      href: implementing-the-primary-interface-for-an-instance-provider.md
+                    - name: 提升執行個體提供者的效率
+                      href: improving-the-efficiency-of-an-instance-provider.md
+                    - name: 支援 Partial-Instance 作業
+                      href: supporting-partial-instance-operations.md
+                - name: 撰寫方法提供者
+                  href: writing-a-method-provider.md
+                  items:
+                    - name: 註冊方法提供者
+                      href: registering-a-method-provider.md
+                    - name: 執行方法提供者的主要介面
+                      href: implementing-the-primary-interface-for-a-method-provider.md
+                - name: 撰寫事件提供者
+                  href: writing-an-event-provider.md
+                  items:
+                    - name: 註冊事件提供者
+                      href: registering-an-event-provider.md
+                    - name: 執行事件提供者的主要介面
+                      href: implementing-the-primary-interface-for-an-event-provider.md
+                    - name: 優化事件提供者
+                      href: optimizing-an-event-provider.md
+                - name: 撰寫事件取用者提供者
+                  href: writing-an-event-consumer-provider.md
+                  items:
+                    - name: 註冊事件取用者提供者
+                      href: registering-an-event-consumer-provider.md
+                - name: 撰寫類別提供者
+                  href: writing-a-class-provider.md
+                  items:
+                    - name: 判斷推送或提取狀態
+                      href: determining-push-or-pull-status.md
+                    - name: 註冊類別提供者
+                      href: registering-a-class-provider.md
+                    - name: 執行類別提供者的主要介面
+                      href: implementing-the-primary-interface-for-a-class-provider.md
+                - name: 撰寫屬性提供者
+                  href: writing-a-property-provider.md
+                  items:
+                    - name: 註冊屬性提供者
+                      href: registering-a-property-provider.md
+                    - name: 執行屬性提供者的主要介面
+                      href: implementing-the-primary-interface-for-a-property-provider.md
+                - name: 讓執行個體提供者成為 High-Performance 提供者
+                  href: making-an-instance-provider-into-a-high-performance-provider.md
+                  items:
+                    - name: 註冊 High-Performance 提供者
+                      href: registering-a-high-performance-provider.md
+                    - name: 執行 High-Performance 介面
+                      href: implementing-the-high-performance-interface.md
+                    - name: 支援 Win32_PerfRawData 類別
+                      href: supporting-the-win32-perfrawdata-class.md
+                    - name: 支援 Win32_PerfFormattedData 類別
+                      href: supporting-the-win32-perfformatteddata-class.md
+        - name: 維護 WMI 安全性
+          href: maintaining-wmi-security.md
+          items:
+            - name: 保護 WMI 命名空間
+              href: securing-wmi-namespaces.md
+              items:
+                - name: 設定命名空間安全描述項
+                  href: setting-namespace-security-descriptors.md
+                  items:
+                    - name: 使用 WMI 控制項設定命名空間安全性
+                      href: setting-namespace-security-with-the-wmi-control.md
+                    - name: 設定命名空間建立時的安全性
+                      href: setting-namespace-security-when-the-namespace-is-created.md
+                - name: 需要命名空間的加密連接
+                  href: requiring-an-encrypted-connection-to-a-namespace.md
+                - name: 建立命名空間安全性的繼承
+                  href: establishing-inheritance-of-namespace-security.md
+            - name: 保護您的提供者
+              href: securing-your-provider.md
+              items:
+                - name: 提供者裝載和安全性
+                  href: provider-hosting-and-security.md
+                - name: 用來控制提供者安全性的登錄機碼
+                  href: registry-keys-for-controlling-provider-security-.md
+            - name: 保護 c + + 用戶端和提供者
+              href: securing-c---clients-and-providers.md
+              items:
+                - name: 設定用戶端應用程式處理安全性
+                  href: setting-client-application-process-security.md
+                  items:
+                    - name: 使用 c + + 設定預設進程安全性層級
+                      href: setting-the-default-process-security-level-using-c-.md
+                - name: 在 WMI 中設定驗證
+                  href: setting-authentication-in-wmi.md
+                  items:
+                    - name: 使用 c + + 設定驗證
+                      href: setting-authentication-using-c-.md
+                    - name: 指定伺服器主體名稱
+                      href: specifying-the-server-principal-name.md
+                    - name: 實施掩蓋
+                      href: implementing-cloaking.md
+                - name: 設定 IWbemServices 和其他 proxy 的安全性
+                  href: setting-the-security-on-iwbemservices-and-other-proxies.md
+                - name: 執行具有特殊許可權的作業
+                  href: executing-privileged-operations.md
+                  items:
+                    - name: 使用 c + + 執行特殊許可權作業
+                      href: executing-privileged-operations-using-c-.md
+                - name: 在非同步呼叫上設定安全性
+                  href: setting-security-on-an-asynchronous-call.md
+                  items:
+                    - name: 降低接收器在個別進程中的安全性
+                      href: lowering-the-security-for-a-sink-in-a-separate-process.md
+                - name: 執行存取檢查
+                  href: performing-access-checks.md
+            - name: 保護腳本用戶端
+              href: securing-scripting-clients.md
+              items:
+                - name: 使用 VBScript 設定預設進程安全性等級
+                  href: setting-the-default-process-security-level-using-vbscript.md
+                - name: 使用 VBScript 設定驗證服務
+                  href: setting-the-authentication-service-using-vbscript.md
+                - name: 在 VBScript 中設定非同步呼叫的安全性
+                  href: setting-security-on-an-asynchronous-call-in-vbscript.md
+                - name: 使用 VBScript 執行特殊許可權作業
+                  href: executing-privileged-operations-using-vbscript.md
+                - name: 針對 WMI ASP 腳本設定 IIS 5 和更新版本
+                  href: configuring-iis-5-for-wmi-asp-scripting.md
+            - name: 保護 WMI 事件
+              href: securing-wmi-events.md
+              items:
+                - name: 安全地提供事件
+                  href: providing-events-securely.md
+                - name: 安全地接收事件
+                  href: receiving-events-securely.md
+            - name: 變更安全物件的存取安全性
+              href: changing-access-security-on-securable-objects.md
+        - name: 在64位電腦上取得和提供資料
+          href: getting-and-providing-data-on-a-64-bit-computer.md
+          items:
+            - name: 在64位平臺上要求 WMI 資料
+              href: requesting-wmi-data-on-a-64-bit-platform.md
+            - name: 在64位平臺上提供 WMI 資料
+              href: providing-wmi-data-on-a-64-bit-platform.md
+        - name: 當地語系化 WMI 類別資訊
+          href: localizing-wmi-class-information.md
+          items:
+            - name: 建立當地語系化的類別定義
+              href: creating-localized-class-definitions.md
+            - name: 編譯當地語系化的 MOF 檔案
+              href: compiling-localized-mof-files.md
+            - name: 當地語系化屬性值
+              href: localizing-property-values.md
+              items:
+                - name: 將靜態屬性當地語系化
+                  href: localizing-static-properties.md
+            - name: 正在抓取修改過的類別
+              href: retrieving-amended-classes.md
+              items:
+                - name: 使用適用于 WMI 的腳本 API 來抓取修改過的類別
+                  href: retrieving-amended-classes-using-the-scripting-api-for-wmi.md
+                - name: 使用適用于 WMI 的 COM API 來抓取修改過的類別
+                  href: retrieving-amended-classes-using-the-com-api-for-wmi.md
+            - name: 修改過的類別考慮
+              href: amended-class-considerations.md
+        - name: 以 XML 表示物件
+          href: representing-objects-in-xml.md
+        - name: 使用 WMI 命令列工具
+          href: using-the-wmi-command-line-tools.md
+          items:
+            - name: 啟動和停止 WMI 服務
+              href: starting-and-stopping-the-wmi-service.md
+            - name: 編譯 MOF 檔案
+              href: compiling-mof-files.md
+              items:
+                - name: 在檔案上執行 MOF 編譯器
+                  href: running-the-mof-compiler-on-a-file.md
+                - name: 使用 Floating-Point 值編譯 MOF 程式碼
+                  href: compiling-mof-code-with-floating-point-values.md
+                - name: 使用 MOF 編譯器處理錯誤
+                  href: handling-errors-with-the-mof-compiler.md
+        - name: WMI 疑難排解
+          href: wmi-troubleshooting.md
+          items:
+            - name: 疑難排解 WMI 用戶端應用程式
+              href: troubleshooting-wmi-client-applications.md
+            - name: 追蹤 WMI 活動
+              href: tracing-wmi-activity.md
+            - name: 偵錯工具
+              href: debugging-providers.md
+            - name: 提供者設定和疑難排解類別
+              href: provider-configuration-and-troubleshooting-classes.md
+            - name: 記錄 WMI 活動
+              href: logging-wmi-activity.md
+            - name: 存放庫設定的登錄機碼
+              href: registry-key-for-repository-configuration.md
+    - name: WMI 參考
+      href: wmi-reference.md
+      items:
+        - name: WMI 類別
+          href: wmi-classes.md
+          items:
+            - name: Win32_PrivilegesStatus
+              href: win32-privilegesstatus-wmiprov.md
+            - name: WMI 系統類別
+              href: wmi-system-classes.md
+              items:
+                - name: __AbsoluteTimerInstruction
+                  href: '--absolutetimerinstruction.md'
+                - name: __ACE
+                  href: '--ace.md'
+                - name: __AggregateEvent
+                  href: '--aggregateevent.md'
+                - name: __ArbitratorConfiguration
+                  href: '--arbitratorconfiguration.md'
+                - name: __CacheControl
+                  href: '--cachecontrol.md'
+                - name: __CIMOMIdentification
+                  href: '--cimomidentification.md'
+                - name: __ClassCreationEvent
+                  href: '--classcreationevent.md'
+                - name: __ClassDeletionEvent
+                  href: '--classdeletionevent.md'
+                - name: __ClassModificationEvent
+                  href: '--classmodificationevent.md'
+                - name: __ClassOperationEvent
+                  href: '--classoperationevent.md'
+                - name: __ClassProviderRegistration
+                  href: '--classproviderregistration.md'
+                - name: __ConsumerFailureEvent
+                  href: '--consumerfailureevent.md'
+                - name: __Event
+                  href: '--event.md'
+                - name: __EventConsumer
+                  href: '--eventconsumer.md'
+                - name: __EventConsumerProviderCacheControl
+                  href: '--eventconsumerprovidercachecontrol.md'
+                - name: __EventConsumerProviderRegistration
+                  href: '--eventconsumerproviderregistration.md'
+                - name: __EventDroppedEvent
+                  href: '--eventdroppedevent.md'
+                - name: __EventFilter
+                  href: '--eventfilter.md'
+                - name: __EventGenerator
+                  href: '--eventgenerator.md'
+                - name: __EventProviderCacheControl
+                  href: '--eventprovidercachecontrol.md'
+                - name: __EventProviderRegistration
+                  href: '--eventproviderregistration.md'
+                - name: __EventQueueOverflowEvent
+                  href: '--eventqueueoverflowevent.md'
+                - name: __EventSinkCacheControl
+                  href: '--eventsinkcachecontrol.md'
+                - name: __ExtendedStatus
+                  href: '--extendedstatus.md'
+                - name: __ExtrinsicEvent
+                  href: '--extrinsicevent.md'
+                - name: __FilterToConsumerBinding
+                  href: '--filtertoconsumerbinding.md'
+                - name: __IndicationRelated
+                  href: '--indicationrelated.md'
+                - name: __InstanceCreationEvent
+                  href: '--instancecreationevent.md'
+                - name: __InstanceDeletionEvent
+                  href: '--instancedeletionevent.md'
+                - name: __InstanceModificationEvent
+                  href: '--instancemodificationevent.md'
+                - name: __InstanceOperationEvent
+                  href: '--instanceoperationevent.md'
+                - name: __InstanceProviderRegistration
+                  href: '--instanceproviderregistration.md'
+                - name: __IntervalTimerInstruction
+                  href: '--intervaltimerinstruction.md'
+                - name: __MethodInvocationEvent
+                  href: '--methodinvocationevent.md'
+                - name: __MethodProviderRegistration
+                  href: '--methodproviderregistration.md'
+                - name: __Namespace
+                  href: '--namespace.md'
+                - name: __NamespaceCreationEvent
+                  href: '--namespacecreationevent.md'
+                - name: __NamespaceDeletionEvent
+                  href: '--namespacedeletionevent.md'
+                - name: __NamespaceModificationEvent
+                  href: '--namespacemodificationevent.md'
+                - name: __NamespaceOperationEvent
+                  href: '--namespaceoperationevent.md'
+                - name: __NotifyStatus
+                  href: '--notifystatus.md'
+                - name: __NTLMUser9X
+                  href: '--ntlmuser9x.md'
+                - name: __ObjectProviderCacheControl
+                  href: '--objectprovidercachecontrol.md'
+                - name: __ObjectProviderRegistration
+                  href: '--objectproviderregistration.md'
+                - name: __PARAMETERS
+                  href: '--parameters.md'
+                - name: __PropertyProviderCacheControl
+                  href: '--propertyprovidercachecontrol.md'
+                - name: __PropertyProviderRegistration
+                  href: '--propertyproviderregistration.md'
+                - name: __Provider
+                  href: '--provider.md'
+                - name: __ProviderHostQuotaConfiguration
+                  href: '--providerhostquotaconfiguration.md'
+                - name: __ProviderRegistration
+                  href: '--providerregistration.md'
+                - name: __SecurityDescriptor
+                  href: '--securitydescriptor.md'
+                - name: __SecurityRelatedClass
+                  href: '--securityrelatedclass.md'
+                - name: __SystemClass
+                  href: '--systemclass.md'
+                - name: __SystemEvent
+                  href: '--systemevent.md'
+                - name: __SystemSecurity
+                  href: '--systemsecurity.md'
+                  items:
+                    - name: __SystemSecurity 方法
+                      href: '--systemsecurity-methods.md'
+                      items:
+                        - name: Get9XUserList 方法
+                          href: '--systemsecurity-get9xuserlist.md'
+                        - name: GetCallerAccessRights 方法
+                          href: '--systemsecurity-getcalleraccessrights.md'
+                        - name: GetSD 方法
+                          href: '--systemsecurity-getsd.md'
+                        - name: GetSecurityDescriptor 方法
+                          href: getsecuritydescriptor-method-in-class---systemsecurity-.md
+                        - name: SetSecurityDescriptor 方法
+                          href: setsecuritydescriptor-method-in-class---systemsecurity.md
+                        - name: Set9XUserList 方法
+                          href: '--systemsecurity-set9xuserlist.md'
+                        - name: SetSD 方法
+                          href: '--systemsecurity-setsd.md'
+                - name: __thisNAMESPACE
+                  href: '--thisnamespace.md'
+                - name: __TimerEvent
+                  href: '--timerevent.md'
+                - name: __TimerInstruction
+                  href: '--timerinstruction.md'
+                - name: __TimerNextFiring
+                  href: '--timernextfiring.md'
+                - name: __Trustee
+                  href: '--trustee.md'
+                - name: __Win32Provider
+                  href: '--win32provider.md'
+            - name: MSFT 類別
+              href: msft-classes.md
+              items:
+                - name: 原則提供者類別
+                  href: policy-provider-classes.md
+                - name: WMI 疑難排解類別
+                  href: wmi-troubleshooting-classes.md
+                  items:
+                    - name: 提供者事件疑難排解類別
+                      href: provider-event-troubleshooting-classes.md
+                    - name: ConsumerProvider 疑難排解類別
+                      href: consumerprovider-troubleshooting-classes.md
+                    - name: WMI 服務事件疑難排解類別
+                      href: wmi-service-event-troubleshooting-classes.md
+            - name: CIM 類別
+              href: cimclas.md
+              items:
+                - name: CIM_LastAppliedSettingData
+                  href: cim-lastappliedsettingdata.md
+                - name: CIM_ParentChildSettingData
+                  href: cim-parentchildsettingdata.md
+                - name: CIM_PreviousSettingData
+                  href: cim-previoussettingdata.md
+                - name: CIM_ReferencedProfile
+                  href: cim-referencedprofile.md
+            - name: 標準取用者類別
+              href: standard-consumer-classes.md
+              items:
+                - name: ActiveScriptEventConsumer
+                  href: activescripteventconsumer.md
+                - name: CommandLineEventConsumer
+                  href: commandlineeventconsumer.md
+                - name: LogFileEventConsumer
+                  href: logfileeventconsumer.md
+                - name: NTEventLogEventConsumer
+                  href: nteventlogeventconsumer.md
+                - name: ScriptingStandardConsumerSetting
+                  href: scriptingstandardconsumersetting.md
+                - name: SMTPEventConsumer
+                  href: smtpeventconsumer.md
+        - name: WMI 提供者
+          href: wmi-providers.md
+          items:
+            - name: 格式化效能 Data Provider
+              href: formatted-performance-data-provider.md
+              items:
+                - name: 取得原始和格式化效能資料物件的檔
+                  href: retrieving-raw-and-formatted-performance-data.md
+            - name: 效能計數器提供者
+              href: performance-counter-provider.md
+            - name: 伺服器功能提供者
+              href: server-feature-provider.md
+              items:
+                - name: Win32_ServerFeature
+                  href: win32-serverfeature.md
+            - name: 視圖提供者
+              href: view-provider.md
+            - name: WmiPerfClass 提供者
+              href: wmiperfclass-provider.md
+            - name: WmiPerfInst 提供者
+              href: wmiperfinst-provider.md
+        - name: WMI 提供者架構 c + + 類別
+          href: wmi-c-classes.md
+          items:
+            - name: 提供者架構類別
+              href: provider-framework-classes.md
+              items:
+                - name: CFrameworkQuery
+                  href: /windows/desktop/api/FrQuery/nl-frquery-cframeworkquery
+                  items:
+                    - name: CFrameworkQuery 方法
+                      href: cframeworkquery-methods.md
+                      items:
+                        - name: AllPropertiesAreRequired 方法
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-allpropertiesarerequired
+                        - name: GetQuery 方法
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getquery
+                        - name: GetQueryClassName 方法
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getqueryclassname
+                        - name: GetRequiredProperties 方法
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getrequiredproperties
+                        - name: GetValuesForProp 方法
+                          href: cframeworkquery-getvaluesforprop.md
+                          items:
+                            - name: GetValuesForProp (CHStringArray&，LPCWSTR) 方法
+                              href: /windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_chstringarray_)
+                            - name: GetValuesForProp (LPCWSTR，std：： vector<_bstr_t>&) 方法
+                              href: /windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_std-vector__bstr_t__)
+                        - name: IsPropertyRequired 方法
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-ispropertyrequired
+                        - name: KeysOnly 方法
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-keysonly
+                - name: CInstance
+                  href: /windows/desktop/api/Instance/nl-instance-cinstance
+                  items:
+                    - name: CInstance 方法
+                      href: cinstance-methods.md
+                      items:
+                        - name: Commit 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-commit
+                        - name: Getbool 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getbool
+                        - name: GetByte 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getbyte
+                        - name: GetCHString 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getchstring
+                        - name: GetClassObjectInterface 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getclassobjectinterface
+                        - name: GetDateTime 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getdatetime
+                        - name: GetDOUBLE 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getdouble
+                        - name: GetDWORD 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getdword
+                        - name: GetEmbeddedObject 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getembeddedobject
+                        - name: GetMethodCoNtext 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getmethodcontext
+                        - name: GetStatus 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getstatus
+                        - name: GetStringArray 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getstringarray
+                        - name: GetTimeSpan 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-gettimespan
+                        - name: GetVariant 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getvariant
+                        - name: GetWBEMINT16 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getwbemint16
+                        - name: GetWBEMINT64 方法
+                          href: cinstance-getwbemint64.md
+                          items:
+                            - name: GetWBEMINT64 (LPCWSTR、LONGLONG&) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_longlong_)
+                            - name: GetWBEMINT64 (LPCWSTR、ULONGLONG&) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)
+                            - name: GetWBEMINT64 (LPCWSTR、WBEMINT64&) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)
+                        - name: GetWCHAR 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getwchar
+                        - name: GetWORD 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getword
+                        - name: IsNull 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-isnull
+                        - name: Setbool 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setbool
+                        - name: SetByte 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setbyte
+                        - name: SetCharSplat 方法
+                          href: cinstance-setcharsplat.md
+                          items:
+                            - name: SetCharSplat (LPCWSTR，DWORD) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_dword)
+                            - name: SetCharSplat (LPCWSTR、LPCSTR) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcstr)
+                            - name: SetCharSplat (LPCWSTR、LPCWSTR) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcwstr)
+                        - name: SetCHString 方法
+                          href: cinstance-setchstring.md
+                          items:
+                            - name: SetCHString (LPCWSTR、constCHString&) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setchstring(lpcwstr_constchstring_)
+                            - name: SetCHString (LPCWSTR、LPCSTR) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setchstring(lpcwstr_lpcstr)
+                        - name: SetDateTime 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setdatetime
+                        - name: SetDOUBLE 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setdouble
+                        - name: SetDWORD 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setdword
+                        - name: SetEmbeddedObject 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setembeddedobject
+                        - name: SetNull 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setnull
+                        - name: SetStringArray 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setstringarray
+                        - name: SetTimeSpan 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-settimespan
+                        - name: SetVariant 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setvariant
+                        - name: SetWBEMINT16 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setwbemint16
+                        - name: SetWCHARSplat 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setwcharsplat
+                        - name: SetWBEMINT64 方法
+                          href: cinstance--setwbemint64.md
+                          items:
+                            - name: SetWBEMINT64 (LPCWSTR、constLONGLONG&) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constlonglong)
+                            - name: SetWBEMINT64 (LPCWSTR、constWBEMINT64&) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong)
+                            - name: SetWBEMINT64 (LPCWSTR、constULONGLONG&) 方法
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong)
+                        - name: SetWORD 方法
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setword
+                - name: CThreadBase
+                  href: /windows/desktop/api/ThrdBase/nl-thrdbase-cthreadbase
+                  items:
+                    - name: CThreadBase 列舉
+                      href: cthreadbase-enumerations.md
+                      items:
+                        - name: FlagDefs
+                          href: /previous-versions/windows/desktop/legacy/mt432263(v=vs.85)
+                    - name: CThreadBase 方法
+                      href: cthreadbase-methods.md
+                      items:
+                        - name: BeginRead 方法
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-beginread
+                        - name: BeginWrite 方法
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-beginwrite
+                        - name: CThreadBase 方法
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-cthreadbase
+                        - name: EndRead 方法
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-endread
+                        - name: EndWrite 方法
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-endwrite
+                        - name: OnFinalRelease 方法
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-onfinalrelease
+                - name: CWbemGlueFactory
+                  href: /windows/desktop/api/WbemGlue/nl-wbemglue-cwbemgluefactory
+                  items:
+                    - name: CWbemGlueFactory 方法
+                      href: cwbemgluefactory-methods.md
+                      items:
+                        - name: CWbemGlueFactory 函式
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemgluefactory-cwbemgluefactory(plong)
+                - name: CWbemProviderGlue
+                  href: /windows/desktop/api/WbemGlue/nl-wbemglue-cwbemproviderglue
+                  items:
+                    - name: CWbemProviderGlue 方法
+                      href: cwbemproviderglue-methods.md
+                      items:
+                        - name: FrameworkLoginDLL 方法
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr_plong)
+                        - name: FrameworkLogoffDLL 方法
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr_plong)
+                        - name: GetAllDerivedInstances 方法
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallderivedinstances(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)
+                        - name: GetAllDerivedInstancesAsynch 方法
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallderivedinstancesasynch
+                        - name: GetAllInstances 方法
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallinstances
+                        - name: GetAllInstancesAsynch 方法
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallinstancesasynch
+                        - name: GetEmptyInstance 方法
+                          href: cwbemproviderglue-getemptyinstance.md
+                          items:
+                            - name: GetEmptyInstance (LPCWSTR、CInstance * *、LPCWSTR) 方法
+                              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)
+                            - name: GetEmptyInstance (MethodCoNtext *、LPCWSTR、CInstance * *、LPCWSTR) 方法
+                              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)
+                        - name: GetInstanceByPath 方法
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancebypath(lpcwstr_cinstance_methodcontext)
+                        - name: GetInstanceKeysByPath 方法
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancekeysbypath
+                        - name: GetInstancePropertiesByPath 方法
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancepropertiesbypath
+                        - name: GetInstancesByQuery 方法
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancesbyquery(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)
+                        - name: GetInstancesByQueryAsynch 方法
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancesbyqueryasynch
+                        - name: GetNameSpaceConnection 方法
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getnamespaceconnection(lpcwstr_methodcontext)
+                        - name: IsDerivedFrom 方法
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-isderivedfrom(lpcwstr_lpcwstr_methodcontext_lpcwstr)
+                        - name: SetStatusObject 方法
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-setstatusobject
+                - name: 提供者
+                  href: /windows/desktop/api/Provider/nl-provider-provider
+                  items:
+                    - name: 提供者方法
+                      href: provider-methods.md
+                      items:
+                        - name: Commit 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-commit
+                        - name: CreateNewInstance 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-createnewinstance
+                        - name: DeleteInstance 方法
+                          href: /windows/desktop/api/provider/nf-provider-provider-deleteinstance(parsedobjectpath_long_methodcontext)
+                        - name: EnumerateInstances 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-enumerateinstances
+                        - name: ExecMethod 方法
+                          href: /windows/desktop/api/provider/nf-provider-provider-execmethod(parsedobjectpath_bstr_long_cinstance_cinstance_methodcontext)
+                        - name: ExecQuery 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-execquery
+                        - name: Flush 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-flush
+                        - name: GetLocalComputerName 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-getlocalcomputername
+                        - name: GetLocalInstancePath 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-getlocalinstancepath
+                        - name: GetNamespace 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-getnamespace
+                        - name: GetObject 方法
+                          href: /windows/desktop/api/provider/nf-provider-provider-getobject(cinstance_long_cframeworkquery_)
+                        - name: GetProviderName 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-getprovidername
+                        - name: MakeLocalPath 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-makelocalpath
+                        - name: 提供者方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-provider
+                        - name: PutInstance 方法
+                          href: /windows/desktop/api/provider/nf-provider-provider-putinstance(constcinstance__long)
+                        - name: SetCreationClassName 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-setcreationclassname
+                        - name: ValidateDeletionFlags 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validatedeletionflags
+                        - name: ValidateEnumerationFlags 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validateenumerationflags
+                        - name: ValidateFlags 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validateflags
+                        - name: ValidateGetObjFlags 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validategetobjflags
+                        - name: ValidateMethodFlags 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validatemethodflags
+                        - name: ValidatePutInstanceFlags 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validateputinstanceflags
+                        - name: ValidateQueryFlags 方法
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validatequeryflags
+            - name: 提供者架構公用程式類別
+              href: provider-framework-utility-classes.md
+              items:
+                - name: CHPtrArray
+                  href: /windows/desktop/api/ChPtrArr/nl-chptrarr-chptrarray
+                  items:
+                    - name: CHPtrArray 方法
+                      href: chptrarray-methods.md
+                      items:
+                        - name: CHPtrArray 方法
+                          href: /windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-chptrarray
+                        - name: GetAt 方法
+                          href: /windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-getat
+                        - name: GetSize 方法
+                          href: /windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-getsize
+                        - name: RemoveAll 方法
+                          href: /windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-removeall
+                        - name: 運算子
+                          href: /previous-versions/windows/desktop/legacy/aa384934(v=vs.85)
+                - name: CHString
+                  href: chstring.md
+                  items:
+                    - name: CHString 方法
+                      href: chstring-methods.md
+                      items:
+                        - name: AllocSysString 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-allocsysstring
+                        - name: CHString 函式
+                          href: chstring-chstring.md
+                          items:
+                            - name: CHString () 的函式
+                              href: /windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig
+                            - name: CHString (constCHString&) 的函式
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)
+                            - name: CHString (constunsigned char * ) 的函式
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(constunsignedchar)
+                            - name: CHString (LPCSTR) 的函式
+                              href: /windows/desktop/api/ChString/nf-chstring-chstring-chstring(lpcstr)
+                            - name: CHString (LPCWSTR) 的函式
+                              href: /windows/desktop/api/ChString/nf-chstring-chstring-chstring(lpcwstr)
+                            - name: CHString (LPCWSTR，int) 函數
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(lpcwstr_int)
+                            - name: CHString (WCHAR，int) 函數
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(wchar_int)
+                        - name: Collate 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-collate
+                        - name: Compare 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-compare
+                        - name: CompareNoCase 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-comparenocase
+                        - name: Empty 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-empty
+                        - name: Find 方法
+                          href: chstring-find.md
+                          items:
+                            - name: 尋找 (LPCWSTR) 方法
+                              href: /windows/win32/api/chstring/nf-chstring-chstring-format(lpcwstr_---)
+                            - name: 尋找 (WCHAR) 方法
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-find(lpcwstr)
+                        - name: FindOneOf 方法
+                          href: /windows/win32/api/chstring/nf-chstring-chstring-findoneof
+                        - name: 格式方法
+                          href: chstring-format.md
+                          items:
+                            - name: ' (LPCWSTR，) 方法格式'
+                              href: /previous-versions/windows/desktop/legacy/aa385527(v=vs.85)
+                            - name: 格式 (UINT，) 方法
+                              href: /previous-versions/windows/desktop/legacy/aa385532(v=vs.85)
+                        - name: FormatMessageW 方法
+                          href: chstring-formatmessagew.md
+                          items:
+                            - name: FormatMessageW (LPCWSTR，) 方法
+                              href: /previous-versions/windows/desktop/legacy/aa385515(v=vs.85)
+                            - name: FormatMessageW (UINT，) 方法
+                              href: /previous-versions/windows/desktop/legacy/aa385519(v=vs.85)
+                        - name: FormatV 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-formatv
+                        - name: FreeExtra 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-freeextra
+                        - name: GetAllocLength 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getalloclength
+                        - name: GetAt 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getat(int)
+                        - name: GetBuffer 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getbuffer
+                        - name: GetBufferSetLength 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getbuffersetlength
+                        - name: 的一種方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getdata
+                        - name: GetLength 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getlength
+                        - name: IsEmpty 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-isempty
+                        - name: Left 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-left
+                        - name: LoadStringW 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-loadstringw(uint)
+                        - name: LockBuffer 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-lockbuffer
+                        - name: MakeLower 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-makelower
+                        - name: MakeReverse 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-makereverse
+                        - name: MakeUpper 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-makeupper
+                        - name: Mid 方法
+                          href: chstring-mid.md
+                          items:
+                            - name: Mid (int) 方法
+                              href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int)
+                            - name: Mid (int，int) 方法
+                              href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int_int)
+                        - name: 運算子
+                          href: /previous-versions/windows/desktop/legacy/aa386162(v=vs.85)
+                        - name: CHString：： operator +
+                          href: chstring--operator-plus.md
+                        - name: CHString：： operator + =
+                          href: chstring--operator-plus-equal.md
+                        - name: CHString：： operator =
+                          href: chstring--operator-equal.md
+                        - name: operator = = (constCHString&，constCHString&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385641(v=vs.85)
+                        - name: operator = = (constCHString&，constLPCWSTR&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385645(v=vs.85)
+                        - name: operator> (constCHString&，constCHString&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385665(v=vs.85)
+                        - name: operator> (constCHString&，constLPCWSTR&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385672(v=vs.85)
+                        - name: operator>= (constCHString&，constCHString&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385652(v=vs.85)
+                        - name: operator>= (constCHString&，constLPCWSTR&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385661(v=vs.85)
+                        - name: operator< (constCHString&，constCHString&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385689(v=vs.85)
+                        - name: operator< (constCHString&，constLPCWSTR&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385695(v=vs.85)
+                        - name: operator<= (constCHString&，constCHString&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385676(v=vs.85)
+                        - name: operator<= (constCHString&，constLPCWSTR&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385683(v=vs.85)
+                        - name: operator！ = (constCHString&，constCHString&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385704(v=vs.85)
+                        - name: operator！ = (constCHString&，constLPCWSTR&) 方法
+                          href: /previous-versions/windows/desktop/legacy/aa385763(v=vs.85)
+                        - name: operator LPCWSTR 方法
+                          href: /windows/desktop/api/chstring/nf-chstring-chstring-operatorlpcwstr
+                        - name: ReleaseBuffer 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-releasebuffer
+                        - name: ReverseFind 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-reversefind
+                        - name: Right 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-right
+                        - name: SetAt 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-setat
+                        - name: SpanExcluding 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-spanexcluding
+                        - name: SpanIncluding 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-spanincluding
+                        - name: TrimLeft 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-trimleft
+                        - name: TrimRight 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-trimright
+                        - name: UnlockBuffer 方法
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-unlockbuffer
+                - name: CHStringArray
+                  href: /windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray
+                  items:
+                    - name: CHStringArray 方法
+                      href: chstringarray-methods.md
+                      items:
+                        - name: Add 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-add
+                        - name: Append 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-append
+                        - name: CHStringArray 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-chstringarray
+                        - name: Copy 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-copy
+                        - name: Parameters.alternatefilters.elementat 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-elementat(int)
+                        - name: FreeExtra 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-freeextra
+                        - name: GetAt 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getat(int)
+                        - name: 的一種方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getdata
+                        - name: GetSize 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getsize
+                        - name: System.array.getupperbound 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getupperbound
+                        - name: InsertAt 方法
+                          href: insertat-method-in-class-chstringarray.md
+                          items:
+                            - name: InsertAt (int，CHStringArray * ) 方法
+                              href: /windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-insertat(int_chstringarray)
+                            - name: InsertAt (int，LPCWSTR，int) 方法
+                              href: /previous-versions/windows/desktop/legacy/aa385383(v=vs.85)
+                        - name: 'CHStringArray：： operator [ '
+                          href: chstringarray--operator-brackets.md
+                        - name: RemoveAll 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-removeall
+                        - name: RemoveAt 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-removeat
+                        - name: SetAt 方法
+                          href: /windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)
+                        - name: SetAtGrow 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-setatgrow
+                        - name: SetSize 方法
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-setsize
+                - name: CObjectPathParser
+                  href: /windows/desktop/api/ObjPath/nl-objpath-cobjectpathparser
+                  items:
+                    - name: CObjectPathParser 列舉
+                      href: cobjectpathparser-enumerations.md
+                      items:
+                        - name: ObjectParserFlags
+                          href: /windows/desktop/api/Objpath/ne-objpath-objectparserflags
+                    - name: CObjectPathParser 方法
+                      href: cobjectpathparser-methods.md
+                      items:
+                        - name: CObjectPathParser 方法
+                          href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-cobjectpathparser
+                        - name: Free 方法
+                          href: cobjectpathparser--free.md
+                          items:
+                            - name: 免費的 (LPWSTR) 方法
+                              href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-free(lpwstr)
+                            - name: Free (ParsedObjectPath * ) 方法
+                              href: /windows/desktop/api/objpath/nf-objpath-cobjectpathparser-free(parsedobjectpath)
+                        - name: Parse 方法
+                          href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-parse
+                        - name: UnParse 方法
+                          href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-unparse
+                - name: MethodCoNtext
+                  href: /windows/desktop/api/MethodCo/nl-methodco-methodcontext
+                  items:
+                    - name: MethodCoNtext 方法
+                      href: methodcontext-methods.md
+                      items:
+                        - name: GetStatusObject 方法
+                          href: /windows/desktop/api/MethodCo/nf-methodco-methodcontext-getstatusobject
+                        - name: SetStatusObject 方法
+                          href: /windows/desktop/api/MethodCo/nf-methodco-methodcontext-setstatusobject
+                - name: TRefPointerCollection
+                  href: /windows/desktop/api/RefPtrCo/nl-refptrco-trefpointercollection
+                  items:
+                    - name: TRefPointerCollection 方法
+                      href: trefpointercollection-methods.md
+                      items:
+                        - name: Add 方法
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-add
+                        - name: BeginEnum 方法
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-beginenum
+                        - name: Empty 方法
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-empty
+                        - name: EndEnum 方法
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-endenum
+                        - name: GetNext 方法
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-getnext
+                        - name: GetSize 方法
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-getsize
+                        - name: TRefPointerCollection 方法
+                          href: /windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-trefpointercollection(consttrefpointercollection_)
+                - name: WBEMTime
+                  href: wbemtime.md
+                  items:
+                    - name: WBEMTime 方法
+                      href: wbemtime-methods.md
+                      items:
+                        - name: Clear 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-clear
+                        - name: GetBSTR 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getbstr
+                        - name: GetDMTF 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getdmtf
+                        - name: GetDMTFNonNtfs 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getdmtfnonntfs
+                        - name: GetFILETIME 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getfiletime
+                        - name: GetLocalOffsetForDate 方法
+                          href: wbemtime--getlocaloffsetfordate.md
+                          items:
+                            - name: GetLocalOffsetForDate (constFILETIME * ) 方法
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constfiletime)
+                            - name: GetLocalOffsetForDate (conststruct tm * ) 方法
+                              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(consttm)
+                            - name: GetLocalOffsetForDate (constSYSTEMTIME * ) 方法
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constsystemtime)
+                            - name: GetLocalOffsetForDate (consttime_t&) 方法
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(consttime_t_)
+                        - name: GetStructtm 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getstructtm
+                        - name: GetSYSTEMTIME 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getsystemtime
+                        - name: GetTime 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-gettime
+                        - name: Gettime_t 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-gettime_t
+                        - name: '>isok 方法'
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-isok
+                        - name: operator-運算子
+                          href: wbemtime--operator-minus.md
+                          items:
+                            - name: operator- (constWBEMTime&) 方法
+                              href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+                            - name: operator- (constWBEMTimeSpan&) 方法
+                              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-sub(constwbemtimespan_)
+                        - name: WBEMTime：： operator！ = 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-not-equal-to
+                        - name: WBEMTime：： operator < 方法
+                          href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than
+                        - name: WBEMTime：： operator <= 方法
+                          href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than-equal-to
+                        - name: WBEMTime：： operator = = 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-equal-equal-to
+                        - name: WBEMTime：： operator > 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-greater-than
+                        - name: WBEMTime：： operator >= 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-greater-than-equal-to
+                        - name: operator + 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-add
+                        - name: operator + = 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-add-assign
+                        - name: operator = 運算子
+                          href: wbemtime--operator-equal.md
+                          items:
+                            - name: operator = (constBSTR&) 方法
+                              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-assign(constbstr)
+                            - name: operator = (constFILETIME&) 方法
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constfiletime_)
+                            - name: operator = (conststruct tm&) 方法
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttm_)
+                            - name: operator = (constSYSTEMTIME&) 方法
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constsystemtime_)
+                            - name: operator = (consttime_t&) 方法
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttime_t_)
+                        - name: operator-= 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub-assign
+                        - name: SetDMTF 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-setdmtf
+                        - name: WBEMTime 函式
+                          href: wbemtime-wbemtime.md
+                          items:
+                            - name: WBEMTime () 的函式
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr)
+                            - name: WBEMTime (BSTR) 函數
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr)
+                            - name: WBEMTime (conststruct tm&) 的函式
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttm_)
+                            - name: WBEMTime (constFILETIME&) 的函式
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constfiletime_)
+                            - name: WBEMTime (constSYSTEMTIME&) 的函式
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constsystemtime_)
+                            - name: WBEMTime (consttime_t&) 的函式
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttime_t_)
+                - name: WBEMTimeSpan
+                  href: /windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan
+                  items:
+                    - name: WBEMTimeSpan 方法
+                      href: wbemtimespan-methods.md
+                      items:
+                        - name: WbemTimeSpan 函式
+                          href: wbemtimespan-wbemtimespan.md
+                          items:
+                            - name: WBEMTimeSpan () 的函式
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)
+                            - name: WBEMTimeSpan (BSTR) 函數
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)
+                            - name: WBEMTimeSpan (int，int，int，int，int，int，int) 函數
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(int_int_int_int_int_int_int)
+                        - name: Clear 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-clear
+                        - name: GetBSTR 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-getbstr
+                        - name: GetTime 方法
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-gettime
+                        - name: '>isok 方法'
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-isok
+                        - name: operator= 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-assign(constfiletime_)
+                        - name: operator + 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-add
+                        - name: operator + = 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-add-assign
+                        - name: operator-方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub
+                        - name: operator-= 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub-assign
+                        - name: operator = = 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-equal-equal-to
+                        - name: operator！ = 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-not-equal-to
+                        - name: operator > 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-greater-than
+                        - name: operator >= 方法
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-greater-than-equal-to
+                        - name: operator < 方法
+                          href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than
+                        - name: operator <= 方法
+                          href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than-equal-to
+        - name: 適用于 WMI 的 COM API
+          href: com-api-for-wmi.md
+          items:
+            - name: 自動化介面
+              href: automation-interfaces.md
+            - name: IEnumWbemClassObject
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-ienumwbemclassobject
+              items:
+                - name: IEnumWbemClassObject 方法
+                  href: ienumwbemclassobject-methods.md
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-next
+                    - name: NextAsync 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-nextasync
+                    - name: Reset 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-skip
+            - name: IMofCompiler
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-imofcompiler
+              items:
+                - name: IMofCompiler 方法
+                  href: imofcompiler-methods.md
+                  items:
+                    - name: CompileBuffer 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-imofcompiler-compilebuffer
+                    - name: CompileFile 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-imofcompiler-compilefile
+                    - name: CreateBMOF 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-imofcompiler-createbmof
+            - name: IUnsecuredApartment
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iunsecuredapartment
+              items:
+                - name: IUnsecuredApartment 方法
+                  href: iunsecuredapartment-methods.md
+                  items:
+                    - name: CreateObjectStub 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub
+            - name: IWbemBackupRestore
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbembackuprestore
+              items:
+                - name: IWbemBackupRestore 方法
+                  href: iwbembackuprestore-methods.md
+                  items:
+                    - name: 備份方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-backup
+                    - name: Restore 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-restore
+            - name: IWbemBackupRestoreEx
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbembackuprestoreex
+              items:
+                - name: IWbemBackupRestoreEx 方法
+                  href: iwbembackuprestoreex-methods.md
+                  items:
+                    - name: 備份方法
+                      href: /previous-versions/windows/desktop/legacy/aa391419(v=vs.85)
+                    - name: Restore 方法
+                      href: /previous-versions/windows/desktop/legacy/aa391421(v=vs.85)
+                    - name: Pause 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-pause
+                    - name: Resume 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-resume
+            - name: IWbemCallResult
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult
+              items:
+                - name: IWbemCallResult 方法
+                  href: iwbemcallresult-methods.md
+                  items:
+                    - name: GetCallStatus 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus
+                    - name: GetResultObject 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemcallresult-getresultobject
+                    - name: GetResultServices 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemcallresult-getresultservices
+                    - name: GetResultString 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemcallresult-getresultstring
+            - name: IWbemCausalityAccess
+              href: iwbemcausalityaccess.md
+              items:
+                - name: IWbemCausalityAccess 方法
+                  href: iwbemcausalityaccess-methods.md
+                  items:
+                    - name: GetRequestId 方法
+                      href: iwbemcausalityaccess-getrequestid.md
+                    - name: IsChildOf 方法
+                      href: iwbemcausalityaccess-ischildof.md
+            - name: IWbemClassObject
+              href: /windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject
+              items:
+                - name: IWbemClassObject 方法
+                  href: iwbemclassobject-methods.md
+                  items:
+                    - name: BeginEnumeration 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-beginenumeration
+                    - name: BeginMethodEnumeration 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-beginmethodenumeration
+                    - name: Clone 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-clone
+                    - name: CompareTo 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-compareto
+                    - name: Delete 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-delete
+                    - name: DeleteMethod 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-deletemethod
+                    - name: EndEnumeration 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-endenumeration
+                    - name: EndMethodEnumeration 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-endmethodenumeration
+                    - name: Get 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-get
+                    - name: GetMethod 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethod
+                    - name: GetMethodOrigin 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethodorigin
+                    - name: GetMethodQualifierSet 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethodqualifierset
+                    - name: GetNames 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getnames
+                    - name: GetObjectText 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getobjecttext
+                    - name: GetPropertyOrigin 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getpropertyorigin
+                    - name: GetPropertyQualifierSet 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getpropertyqualifierset
+                    - name: GetQualifierSet 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getqualifierset
+                    - name: InheritsFrom 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-inheritsfrom
+                    - name: Next 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-next
+                    - name: NextMethod 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-nextmethod
+                    - name: Put 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-put
+                    - name: PutMethod 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-putmethod
+                    - name: SpawnDerivedClass 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-spawnderivedclass
+                    - name: SpawnInstance 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-spawninstance
+            - name: IWbemConfigureRefresher
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemconfigurerefresher
+              items:
+                - name: IWbemConfigureRefresher 方法
+                  href: iwbemconfigurerefresher-methods.md
+                  items:
+                    - name: AddEnum 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addenum
+                    - name: AddObjectByPath 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbypath
+                    - name: AddObjectByTemplate 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbytemplate
+                    - name: AddRefresher 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addrefresher
+                    - name: Remove 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-remove
+            - name: IWbemCoNtext
+              href: /windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext
+              items:
+                - name: IWbemCoNtext 方法
+                  href: iwbemcontext-methods.md
+                  items:
+                    - name: BeginEnumeration 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-beginenumeration
+                    - name: Clone 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-clone
+                    - name: DeleteAll 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-deleteall
+                    - name: DeleteValue 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-deletevalue
+                    - name: EndEnumeration 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-endenumeration
+                    - name: GetNames 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-getnames
+                    - name: GetValue 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-getvalue
+                    - name: Next 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-next
+                    - name: SetValue 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-setvalue
+            - name: IWbemDecoupledBasicEventProvider
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledbasiceventprovider
+              items:
+                - name: IWbemDecoupledBasicEventProvider 方法
+                  href: iwbemdecoupledbasiceventprovider-methods.md
+                  items:
+                    - name: GetService 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getservice
+                    - name: GetSink 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getsink
+                    - name: Register 方法
+                      href: /previous-versions/windows/desktop/legacy/aa391480(v=vs.85)
+            - name: IWbemDecoupledRegistrar
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledregistrar
+              items:
+                - name: IWbemDecoupledRegistrar 方法
+                  href: iwbemdecoupledregistrar-methods.md
+                  items:
+                    - name: Register 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register
+                    - name: 取消註冊方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-unregister
+            - name: IWbemEventConsumerProvider
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventconsumerprovider
+              items:
+                - name: IWbemEventConsumerProvider 方法
+                  href: iwbemeventconsumerprovider-methods.md
+                  items:
+                    - name: FindConsumer 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer
+            - name: IWbemEventProvider
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventprovider
+              items:
+                - name: IWbemEventProvider 方法
+                  href: iwbemeventprovider-methods.md
+                  items:
+                    - name: ProvideEvents 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventprovider-provideevents
+            - name: IWbemEventProviderQuerySink
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventproviderquerysink
+              items:
+                - name: IWbemEventProviderQuerySink 方法
+                  href: iwbemeventproviderquerysink-methods.md
+                  items:
+                    - name: CancelQuery 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventproviderquerysink-cancelquery
+                    - name: NewQuery 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventproviderquerysink-newquery
+            - name: IWbemEventProviderSecurity
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventprovidersecurity
+              items:
+                - name: IWbemEventProviderSecurity 方法
+                  href: iwbemeventprovidersecurity-methods.md
+                  items:
+                    - name: AccessCheck 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventprovidersecurity-accesscheck
+            - name: IWbemEventSink
+              href: iwbemeventsink.md
+              items:
+                - name: IWbemEventSink 方法
+                  href: iwbemeventsink-methods.md
+                  items:
+                    - name: GetRestrictedSink 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventsink-getrestrictedsink
+                    - name: IsActive 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventsink-isactive
+                    - name: SetBatchingParameters 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventsink-setbatchingparameters
+                    - name: SetSinkSecurity 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity
+            - name: IWbemHiPerfEnum
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemhiperfenum
+              items:
+                - name: IWbemHiPerfEnum 方法
+                  href: iwbemhiperfenum-methods.md
+                  items:
+                    - name: AddObjects 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-addobjects
+                    - name: GetObjects 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects
+                    - name: RemoveAll 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-removeall
+                    - name: RemoveObjects 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-removeobjects
+            - name: IWbemHiPerfProvider
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemhiperfprovider
+              items:
+                - name: IWbemHiPerfProvider 方法
+                  href: iwbemhiperfprovider-methods.md
+                  items:
+                    - name: CreateRefreshableEnum 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum
+                    - name: CreateRefreshableObject 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject
+                    - name: CreateRefresher 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefresher
+                    - name: GetObjects 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-getobjects
+                    - name: QueryInstances 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-queryinstances
+                    - name: StopRefreshing 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-stoprefreshing
+            - name: IWbemLocator
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator
+              items:
+                - name: IWbemLocator 方法
+                  href: iwbemlocator-methods.md
+                  items:
+                    - name: ConnectServer 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver
+            - name: IWbemObjectAccess
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjectaccess
+              items:
+                - name: IWbemObjectAccess 方法
+                  href: iwbemobjectaccess-methods.md
+                  items:
+                    - name: GetPropertyHandle 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-getpropertyhandle
+                    - name: GetPropertyInfoByHandle 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-getpropertyinfobyhandle
+                    - name: Lock 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-lock
+                    - name: ReadDWORD 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-readdword
+                    - name: ReadPropertyValue 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-readpropertyvalue
+                    - name: ReadQWORD 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-readqword
+                    - name: Unlock 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-unlock
+                    - name: WriteDWORD 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-writedword
+                    - name: WritePropertyValue 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-writepropertyvalue
+                    - name: WriteQWORD 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-writeqword
+            - name: IWbemObjectSink
+              href: iwbemobjectsink.md
+              items:
+                - name: IWbemObjectSink 方法
+                  href: iwbemobjectsink-methods.md
+                  items:
+                    - name: 表示方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate
+                    - name: SetStatus 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus
+            - name: IWbemObjectSinkEx
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjectsinkex
+              items:
+                - name: IWbemObjectSinkEx 方法
+                  href: iwbemobjectsinkex-methods.md
+                  items:
+                    - name: PromptUser 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-promptuser
+                    - name: WriteError 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-writeerror
+                    - name: WriteMessage 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-writemessage
+                    - name: WriteProgress 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-writeprogress
+                    - name: WriteStreamParameter 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-writestreamparameter
+            - name: IWbemObjectTextSrc
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc
+              items:
+                - name: IWbemObjectTextSrc 方法
+                  href: iwbemobjecttextsrc-methods.md
+                  items:
+                    - name: GetText 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext
+            - name: IWbemPath
+              href: /windows/desktop/api/Wmiutils/nn-wmiutils-iwbempath
+              items:
+                - name: IWbemPath 方法
+                  href: iwbempath-methods.md
+                  items:
+                    - name: CreateClassPart 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-createclasspart
+                    - name: DeleteClassPart 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-deleteclasspart
+                    - name: GetClassName 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getclassname
+                    - name: GetInfo 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getinfo
+                      items:
+                        - name: tag_WBEM_PATH_STATUS_FLAG
+                          href: /windows/desktop/api/WMIUtils/ne-wmiutils-tag_wbem_path_status_flag
+                    - name: GetKeyList 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getkeylist
+                    - name: GetNamespaceAt 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getnamespaceat
+                    - name: GetNamespaceCount 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getnamespacecount
+                    - name: GetScope 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getscope
+                    - name: GetScopeAsText 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getscopeastext
+                    - name: GetScopeCount 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getscopecount
+                    - name: Teamfoundationserverfactory.getserver 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getserver
+                    - name: GetText 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-gettext
+                      items:
+                        - name: tag_WBEM_GET_TEXT_FLAGS
+                          href: /windows/desktop/api/WMIUtils/ne-wmiutils-tag_wbem_get_text_flags
+                    - name: IsLocal 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-islocal
+                    - name: IsRelative 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-isrelative
+                    - name: IsRelativeOrChild 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-isrelativeorchild
+                    - name: IsSameClassName 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-issameclassname
+                    - name: RemoveAllNamespaces 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-removeallnamespaces
+                    - name: RemoveAllScopes 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-removeallscopes
+                    - name: RemoveNamespaceAt 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-removenamespaceat
+                    - name: RemoveScope 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-removescope
+                    - name: SetClassName 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-setclassname
+                    - name: SetNamespaceAt 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-setnamespaceat
+                    - name: SetScope 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-setscope
+                    - name: SetServer 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-setserver
+                    - name: SetText 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-settext
+                      items:
+                        - name: tag_WBEM_PATH_CREATE_FLAG
+                          href: /windows/desktop/api/WMIUtils/ne-wmiutils-tag_wbem_path_create_flag
+            - name: IWbemPathKeyList
+              href: /windows/desktop/api/Wmiutils/nn-wmiutils-iwbempathkeylist
+              items:
+                - name: IWbemPathKeyList 方法
+                  href: iwbempathkeylist-methods.md
+                  items:
+                    - name: GetCount 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-getcount
+                    - name: GetInfo 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-getinfo
+                    - name: GetKey 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-getkey
+                    - name: GetKey2 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-getkey2
+                    - name: GetText 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-gettext
+                      items:
+                        - name: tag_WBEM_GET_KEY_FLAGS
+                          href: /windows/desktop/api/WMIUtils/ne-wmiutils-tag_wbem_get_key_flags
+                    - name: MakeSingleton 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-makesingleton
+                    - name: RemoveAllKeys 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-removeallkeys
+                    - name: RemoveKey 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-removekey
+                    - name: SetKey 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-setkey
+                    - name: SetKey2 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-setkey2
+            - name: IWbemPropertyProvider
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbempropertyprovider
+              items:
+                - name: IWbemPropertyProvider 方法
+                  href: iwbempropertyprovider-methods.md
+                  items:
+                    - name: GetProperty 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty
+                    - name: PutProperty 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbempropertyprovider-putproperty
+            - name: IWbemProviderIdentity
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemprovideridentity
+              items:
+                - name: IWbemProviderIdentity 方法
+                  href: iwbemprovideridentity-methods.md
+                  items:
+                    - name: SetRegistrationObject 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemprovideridentity-setregistrationobject
+            - name: IWbemProviderInit
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit
+              items:
+                - name: IWbemProviderInit 方法
+                  href: iwbemproviderinit-methods.md
+                  items:
+                    - name: Initialize 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize
+            - name: IWbemProviderInitSink
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinitsink
+              items:
+                - name: IWbemProviderInitSink 方法
+                  href: iwbemproviderinitsink-methods.md
+                  items:
+                    - name: SetStatus 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinitsink-setstatus
+            - name: IWbemQualifierSet
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemqualifierset
+              items:
+                - name: IWbemQualifierSet 方法
+                  href: iwbemqualifierset-methods.md
+                  items:
+                    - name: BeginEnumeration 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration
+                    - name: Delete 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-delete
+                    - name: EndEnumeration 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-endenumeration
+                    - name: Get 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-get
+                    - name: GetNames 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-getnames
+                    - name: Next 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-next
+                    - name: Put 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-put
+            - name: IWbemQuery
+              href: /windows/desktop/api/Wmiutils/nn-wmiutils-iwbemquery
+              items:
+                - name: IWbemQuery 方法
+                  href: iwbemquery-methods.md
+                  items:
+                    - name: Empty 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-empty
+                    - name: FreeMemory 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-freememory
+                    - name: GetAnalysis 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-getanalysis
+                      items:
+                        - name: SWbemAssocQueryInf
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemassocqueryinf
+                          items:
+                            - name: WMIQ_ASSOCQ_FLAGS
+                              href: /windows/win32/api/WMIUtils/ne-wmiutils-wmiq_assocq_flags
+                        - name: SWbemQueryQualifiedName
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemqueryqualifiedname
+                        - name: SWbemRpnEncodedQuery
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemrpnencodedquery
+                        - name: SWbemRpnConst
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemrpnquerytoken
+                        - name: SWbemRpnQueryToken
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemrpnquerytoken
+                          items:
+                            - name: WMIQ_RPN_TOKEN_FLAGS
+                              href: /windows/win32/api/WMIUtils/ne-wmiutils-wmiq_rpn_token_flags
+                        - name: WMIQ_ANALYSIS_TYPE
+                          href: /windows/win32/api/WMIUtils/ne-wmiutils-wmiq_analysis_type
+                    - name: Parse 方法
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-parse
+            - name: IWbemRefresher
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemrefresher
+              items:
+                - name: IWbemRefresher 方法
+                  href: iwbemrefresher-methods.md
+                  items:
+                    - name: Refresh 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemrefresher-refresh
+            - name: IWbemServices
+              href: /windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices
+              items:
+                - name: IWbemServices 方法
+                  href: iwbemservices-methods.md
+                  items:
+                    - name: CancelAsyncCall 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall
+                    - name: CreateClassEnum 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createclassenum
+                    - name: CreateClassEnumAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createclassenumasync
+                    - name: CreateInstanceEnum 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum
+                    - name: CreateInstanceEnumAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync
+                    - name: DeleteClass 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclass
+                    - name: DeleteClassAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync
+                    - name: DeleteInstance 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstance
+                    - name: DeleteInstanceAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync
+                    - name: ExecMethod 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod
+                    - name: ExecMethodAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethodasync
+                    - name: ExecNotificationQuery 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery
+                    - name: ExecNotificationQueryAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync
+                    - name: ExecQuery 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execquery
+                    - name: ExecQueryAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync
+                    - name: GetObject 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject
+                    - name: GetObjectAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync
+                    - name: OpenNamespace 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-opennamespace
+                    - name: PutClass 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-putclass
+                    - name: PutClassAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-putclassasync
+                    - name: PutInstance 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-putinstance
+                    - name: PutInstanceAsync 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync
+                    - name: QueryObjectSink 方法
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-queryobjectsink
+            - name: IWbemShutdown
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemshutdown
+              items:
+                - name: IWbemShutdown 方法
+                  href: iwbemshutdown-methods.md
+                  items:
+                    - name: Shutdown 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemshutdown-shutdown
+            - name: IWbemStatusCodeText
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemstatuscodetext
+              items:
+                - name: IWbemStatusCodeText 方法
+                  href: iwbemstatuscodetext-methods.md
+                  items:
+                    - name: GetErrorCodeText 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemstatuscodetext-geterrorcodetext
+                    - name: GetFacilityCodeText 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemstatuscodetext-getfacilitycodetext
+            - name: IWbemUnboundObjectSink
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemunboundobjectsink
+              items:
+                - name: IWbemUnboundObjectSink 方法
+                  href: iwbemunboundobjectsink-methods.md
+                  items:
+                    - name: IndicateToConsumer 方法
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemunboundobjectsink-indicatetoconsumer
+            - name: IWbemUnsecuredApartment
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemunsecuredapartment
+              items:
+                - name: IWbemUnsecuredApartment 方法
+                  href: iwbemunsecuredapartment-methods.md
+                  items:
+                    - name: CreateSinkStub 方法
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub
+        - name: 適用于 WMI 的腳本 API
+          href: scripting-api-for-wmi.md
+          items:
+            - name: 腳本 API 物件模型
+              href: scripting-api-object-model.md
+            - name: 腳本 API 的檔慣例
+              href: document-conventions-for-the-scripting-api.md
+            - name: 腳本 API 常數
+              href: scripting-api-constants.md
+              items:
+                - name: WbemAuthenticationLevelEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum
+                - name: WbemChangeFlagEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemchangeflagenum
+                - name: WbemCimTypeEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemcimtypeenum
+                - name: WbemComparisonFlagEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemcomparisonflagenum
+                - name: WbemConnectOptionsEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemconnectoptionsenum
+                - name: WbemErrorEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemerrorenum
+                - name: WbemFlagEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemflagenum
+                - name: WbemImpersonationLevelEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemimpersonationlevelenum
+                - name: WbemObjectTextFormatEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemobjecttextformatenum
+                - name: WbemPrivilegeEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum
+                - name: WbemQueryFlagEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemqueryflagenum
+                - name: WbemTextFlagEnum
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemtextflagenum
+                - name: WbemTimeout
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemtimeout
+            - name: 腳本 API 物件
+              href: scripting-api-objects.md
+              items:
+                - name: SWbemDateTime
+                  href: swbemdatetime.md
+                  items:
+                    - name: SWbemDateTime 方法
+                      href: swbemdatetime-methods.md
+                      items:
+                        - name: GetFileTime 方法
+                          href: swbemdatetime-getfiletime.md
+                        - name: GetVarDate 方法
+                          href: swbemdatetime-getvardate.md
+                        - name: SetFileTime 方法
+                          href: swbemdatetime-setfiletime.md
+                        - name: SetVarDate 方法
+                          href: swbemdatetime-setvardate.md
+                    - name: SWbemDateTime 屬性
+                      href: swbemdatetime-properties.md
+                      items:
+                        - name: Day 屬性
+                          href: swbemdatetime-day.md
+                        - name: DaySpecified 屬性
+                          href: swbemdatetime-dayspecified.md
+                        - name: Hours 屬性
+                          href: swbemdatetime-hours.md
+                        - name: HoursSpecified 屬性
+                          href: swbemdatetime-hoursspecified.md
+                        - name: IsInterval 屬性
+                          href: swbemdatetime-isinterval.md
+                        - name: 微秒屬性
+                          href: swbemdatetime-microseconds.md
+                        - name: MicrosecondsSpecified 屬性
+                          href: swbemdatetime-microsecondsspecified.md
+                        - name: 分鐘屬性
+                          href: swbemdatetime-minutes.md
+                        - name: MinutesSpecified 屬性
+                          href: swbemdatetime-minutesspecified.md
+                        - name: Month 屬性
+                          href: swbemdatetime-month.md
+                        - name: MonthSpecified 屬性
+                          href: swbemdatetime-monthspecified.md
+                        - name: Seconds 屬性
+                          href: swbemdatetime-seconds.md
+                        - name: SecondsSpecified 屬性
+                          href: swbemdatetime-secondsspecified.md
+                        - name: UTC 屬性
+                          href: swbemdatetime-utc.md
+                        - name: UTCSpecified 屬性
+                          href: swbemdatetime-utcspecified.md
+                        - name: Value 屬性
+                          href: swbemdatetime-value.md
+                        - name: Year 屬性
+                          href: swbemdatetime-year.md
+                        - name: YearSpecified 屬性
+                          href: swbemdatetime-yearspecified.md
+                - name: SWbemEventSource
+                  href: swbemeventsource.md
+                  items:
+                    - name: SWbemEventSource 方法
+                      href: swbemeventsource-methods.md
+                      items:
+                        - name: NextEvent 方法
+                          href: swbemeventsource-nextevent.md
+                    - name: SWbemEventSource 屬性
+                      href: swbemeventsource-properties.md
+                      items:
+                        - name: Security_ 屬性
+                          href: swbemeventsource-security-.md
+                - name: SWbemLastError
+                  href: swbemlasterror.md
+                  items:
+                    - name: SWbemLastError 方法
+                      href: swbemlasterror-methods.md
+                      items:
+                        - name: Clone_ 方法
+                          href: swbemlasterror-clone-.md
+                        - name: CompareTo_ 方法
+                          href: swbemlasterror-compareto-.md
+                        - name: GetObjectText_ 方法
+                          href: swbemlasterror-getobjecttext-.md
+                    - name: SWbemLastError 屬性
+                      href: swbemlasterror-properties.md
+                      items:
+                        - name: Path_ 屬性
+                          href: swbemlasterror-path-.md
+                        - name: Properties_ 屬性
+                          href: swbemlasterror-properties-.md
+                - name: Wbemscripting.swbemlocator
+                  href: swbemlocator.md
+                  items:
+                    - name: Wbemscripting.swbemlocator 方法
+                      href: swbemlocator-methods.md
+                      items:
+                        - name: ConnectServer 方法
+                          href: swbemlocator-connectserver.md
+                    - name: Wbemscripting.swbemlocator 屬性
+                      href: swbemlocator-properties.md
+                      items:
+                        - name: Security_ 屬性
+                          href: swbemlocator-security-.md
+                - name: SWbemMethod
+                  href: swbemmethod.md
+                  items:
+                    - name: SWbemMethod 屬性
+                      href: swbemmethod-properties.md
+                      items:
+                        - name: InParameters 屬性
+                          href: swbemmethod-inparameters.md
+                        - name: Name 屬性
+                          href: swbemmethod-name.md
+                        - name: 來源屬性
+                          href: swbemmethod-origin.md
+                        - name: OutParameters 屬性
+                          href: swbemmethod-outparameters.md
+                        - name: Qualifiers_ 屬性
+                          href: swbemmethod-qualifiers-.md
+                - name: SWbemMethodSet
+                  href: swbemmethodset.md
+                  items:
+                    - name: SWbemMethodSet 方法
+                      href: swbemmethodset-methods.md
+                      items:
+                        - name: Item 方法
+                          href: swbemmethodset-item.md
+                    - name: SWbemMethodSet 屬性
+                      href: swbemmethodset-properties.md
+                      items:
+                        - name: Count 屬性
+                          href: swbemmethodset-count.md
+                - name: SWbemNamedValue
+                  href: swbemnamedvalue.md
+                  items:
+                    - name: SWbemNamedValue 屬性
+                      href: swbemnamedvalue-properties.md
+                      items:
+                        - name: Name 屬性
+                          href: swbemnamedvalue-name.md
+                        - name: Value 屬性
+                          href: swbemnamedvalue-value.md
+                - name: SWbemNamedValueSet
+                  href: swbemnamedvalueset.md
+                  items:
+                    - name: SWbemNamedValueSet 方法
+                      href: swbemnamedvalueset-methods.md
+                      items:
+                        - name: Add 方法
+                          href: swbemnamedvalueset-add.md
+                        - name: Clone 方法
+                          href: swbemnamedvalueset-clone.md
+                        - name: DeleteAll 方法
+                          href: swbemnamedvalueset-deleteall.md
+                        - name: Item 方法
+                          href: swbemnamedvalueset-item.md
+                        - name: Remove 方法
+                          href: swbemnamedvalueset-remove.md
+                    - name: SWbemNamedValueSet 屬性
+                      href: swbemnamedvalueset-properties.md
+                      items:
+                        - name: Count 屬性
+                          href: swbemnamedvalueset-count.md
+                - name: SWbemObject
+                  href: swbemobject.md
+                  items:
+                    - name: SWbemObject 方法
+                      href: swbemobject-methods.md
+                      items:
+                        - name: Associators_ 方法
+                          href: swbemobject-associators-.md
+                        - name: AssociatorsAsync_ 方法
+                          href: swbemobject-associatorsasync-.md
+                        - name: Clone_ 方法
+                          href: swbemobject-clone-.md
+                        - name: CompareTo_ 方法
+                          href: swbemobject-compareto-.md
+                        - name: Delete_ 方法
+                          href: swbemobject-delete-.md
+                        - name: DeleteAsync_ 方法
+                          href: swbemobject-deleteasync-.md
+                        - name: ExecMethod_ 方法
+                          href: swbemobject-execmethod-.md
+                        - name: ExecMethodAsync_ 方法
+                          href: swbemobject-execmethodasync-.md
+                        - name: GetObjectText_ 方法
+                          href: swbemobject-getobjecttext-.md
+                        - name: Instances_ 方法
+                          href: swbemobject-instances-.md
+                        - name: InstancesAsync_ 方法
+                          href: swbemobject-instancesasync-.md
+                        - name: Put_ 方法
+                          href: swbemobject-put-.md
+                        - name: PutAsync_ 方法
+                          href: swbemobject-putasync-.md
+                        - name: References_ 方法
+                          href: swbemobject-references-.md
+                        - name: ReferencesAsync_ 方法
+                          href: swbemobject-referencesasync-.md
+                        - name: SpawnDerivedClass_ 方法
+                          href: swbemobject-spawnderivedclass-.md
+                        - name: SpawnInstance_ 方法
+                          href: swbemobject-spawninstance-.md
+                        - name: Subclasses_ 方法
+                          href: swbemobject-subclasses-.md
+                        - name: SubclassesAsync_ 方法
+                          href: swbemobject-subclassesasync-.md
+                    - name: SWbemObject 屬性
+                      href: swbemobject-properties.md
+                      items:
+                        - name: Derivation_ 屬性
+                          href: swbemobject-derivation-.md
+                        - name: Methods_ 屬性
+                          href: swbemobject-methods-.md
+                        - name: Path_ 屬性
+                          href: swbemobject-path-.md
+                        - name: Properties_ 屬性
+                          href: swbemobject-properties-.md
+                        - name: Qualifiers_ 屬性
+                          href: swbemobject-qualifiers-.md
+                        - name: Security_ 屬性
+                          href: swbemobject-security-.md
+                - name: SWbemObjectEx
+                  href: swbemobjectex.md
+                  items:
+                    - name: SWbemObjectEx 方法
+                      href: swbemobjectex-methods.md
+                      items:
+                        - name: GetText_ 方法
+                          href: swbemobjectex-gettext-.md
+                        - name: Refresh_ 方法
+                          href: swbemobjectex-refresh-.md
+                    - name: SWbemObjectEx 屬性
+                      href: swbemobjectex-properties.md
+                      items:
+                        - name: SystemProperties_ 屬性
+                          href: swbemobjectex-systemproperties-.md
+                - name: SWbemObjectPath
+                  href: swbemobjectpath.md
+                  items:
+                    - name: SWbemObjectPath 方法
+                      href: swbemobjectpath-methods.md
+                      items:
+                        - name: SetAsSingleton 方法
+                          href: swbemobjectpath-setassingleton.md
+                    - name: SWbemObjectPath 屬性
+                      href: swbemobjectpath-properties.md
+                      items:
+                        - name: 授權屬性
+                          href: swbemobjectpath-authority.md
+                        - name: 類別屬性
+                          href: swbemobjectpath-class.md
+                        - name: DisplayName 屬性
+                          href: swbemobjectpath-displayname.md
+                        - name: IsClass 屬性
+                          href: swbemobjectpath-isclass.md
+                        - name: IsSingleton 屬性
+                          href: swbemobjectpath-issingleton.md
+                        - name: 索引鍵屬性
+                          href: swbemobjectpath-keys.md
+                        - name: Locale 屬性
+                          href: swbemobjectpath-locale.md
+                        - name: Namespace 屬性
+                          href: swbemobjectpath-namespace.md
+                        - name: ParentNamespace 屬性
+                          href: swbemobjectpath-parentnamespace.md
+                        - name: Path 屬性
+                          href: swbemobjectpath-path.md
+                        - name: Relpath 屬性
+                          href: swbemobjectpath-relpath.md
+                        - name: Security_ 屬性
+                          href: swbemobjectpath-security-.md
+                        - name: 伺服器屬性
+                          href: swbemobjectpath-server.md
+                        - name: SetAsClass 屬性
+                          href: swbemobjectpath-setasclass.md
+                - name: Swbemobjectset 搭配使用
+                  href: swbemobjectset.md
+                  items:
+                    - name: Swbemobjectset 搭配使用方法
+                      href: swbemobjectset-methods.md
+                      items:
+                        - name: Item 方法
+                          href: swbemobjectset-item.md
+                        - name: ItemIndex 方法
+                          href: swbemobjectset-itemindex.md
+                    - name: Swbemobjectset 搭配使用屬性
+                      href: swbemobjectset-properties.md
+                      items:
+                        - name: Count 屬性
+                          href: swbemobjectset-count.md
+                        - name: Security_ 屬性
+                          href: swbemobjectset-security-.md
+                - name: SWbemPrivilege
+                  href: swbemprivilege.md
+                  items:
+                    - name: SWbemPrivilege 屬性
+                      href: swbemprivilege-properties.md
+                      items:
+                        - name: DisplayName 屬性
+                          href: swbemprivilege-displayname.md
+                        - name: '[識別項] 屬性'
+                          href: swbemprivilege-identifier.md
+                        - name: IsEnabled 屬性
+                          href: swbemprivilege-isenabled.md
+                        - name: Name 屬性
+                          href: swbemprivilege-name.md
+                - name: SWbemPrivilegeSet
+                  href: swbemprivilegeset.md
+                  items:
+                    - name: SWbemPrivilegeSet 方法
+                      href: swbemprivilegeset-methods.md
+                      items:
+                        - name: Add 方法
+                          href: swbemprivilegeset-add.md
+                        - name: AddAsString 方法
+                          href: swbemprivilegeset-addasstring.md
+                        - name: DeleteAll 方法
+                          href: swbemprivilegeset-deleteall.md
+                        - name: Item 方法
+                          href: swbemprivilegeset-item.md
+                        - name: Remove 方法
+                          href: swbemprivilegeset-remove.md
+                    - name: SWbemPrivilegeSet 屬性
+                      href: swbemprivilegeset-properties.md
+                      items:
+                        - name: Count 屬性
+                          href: swbemprivilegeset-count.md
+                - name: Swbempropertyset
+                  href: swbemproperty.md
+                  items:
+                    - name: Swbempropertyset 屬性
+                      href: swbemproperty-properties.md
+                      items:
+                        - name: CIMType 屬性
+                          href: swbemproperty-cimtype.md
+                        - name: IsArray 屬性
+                          href: swbemproperty-isarray.md
+                        - name: IsLocal 屬性
+                          href: swbemproperty-islocal.md
+                        - name: Name 屬性
+                          href: swbemproperty-name.md
+                        - name: 來源屬性
+                          href: swbemproperty-origin.md
+                        - name: Qualifiers_ 屬性
+                          href: swbemproperty-qualifiers-.md
+                        - name: Value 屬性
+                          href: swbemproperty-value.md
+                - name: 內含
+                  href: swbempropertyset.md
+                  items:
+                    - name: 內含方法
+                      href: swbempropertyset-methods.md
+                      items:
+                        - name: Add 方法
+                          href: swbempropertyset-add.md
+                        - name: Item 方法
+                          href: swbempropertyset-item.md
+                        - name: Remove 方法
+                          href: swbempropertyset-remove.md
+                    - name: 內含屬性
+                      href: swbempropertyset-properties.md
+                      items:
+                        - name: Count 屬性
+                          href: swbempropertyset-count.md
+                - name: SWbemQualifier
+                  href: swbemqualifier.md
+                  items:
+                    - name: SWbemQualifier 屬性
+                      href: swbemqualifier-properties.md
+                      items:
+                        - name: IsAmended 屬性
+                          href: swbemqualifier-isamended.md
+                        - name: IsLocal 屬性
+                          href: swbemqualifier-islocal.md
+                        - name: PropagatesToInstance 屬性
+                          href: swbemqualifier-propagatestoinstance.md
+                        - name: PropagatesToSubClass 屬性
+                          href: swbemqualifier-propagatestosubclass.md
+                        - name: Value 屬性
+                          href: swbemqualifier-value.md
+                        - name: Name 屬性
+                          href: swbemqualifier-name.md
+                        - name: IsOverridable 屬性
+                          href: swbemqualifier-isoverridable.md
+                - name: SWbemQualifierSet
+                  href: swbemqualifierset.md
+                  items:
+                    - name: SWbemQualifierSet 方法
+                      href: swbemqualifierset-methods.md
+                      items:
+                        - name: Add 方法
+                          href: swbemqualifierset-add.md
+                        - name: Item 方法
+                          href: swbemqualifierset-item.md
+                        - name: Remove 方法
+                          href: swbemqualifierset-remove.md
+                    - name: SWbemQualifierSet 屬性
+                      href: swbemqualifierset-properties.md
+                      items:
+                        - name: Count 屬性
+                          href: swbemqualifierset-count.md
+                - name: SWbemRefreshableItem
+                  href: swbemrefreshableitem.md
+                  items:
+                    - name: SWbemRefreshableItem 方法
+                      href: swbemrefreshableitem-methods.md
+                      items:
+                        - name: Remove 方法
+                          href: swbemrefreshableitem-remove.md
+                    - name: SWbemRefreshableItem 屬性
+                      href: swbemrefreshableitem-properties.md
+                      items:
+                        - name: Index 屬性
+                          href: swbemrefreshableitem-index.md
+                        - name: IsSet 屬性
+                          href: swbemrefreshableitem-isset.md
+                        - name: 物件屬性
+                          href: swbemrefreshableitem-object.md
+                        - name: ObjectSet 屬性
+                          href: swbemrefreshableitem-objectset.md
+                        - name: 複習屬性
+                          href: swbemrefreshableitem-refresher.md
+                - name: SWbemRefresher
+                  href: swbemrefresher.md
+                  items:
+                    - name: SWbemRefresher 方法
+                      href: swbemrefresher-methods.md
+                      items:
+                        - name: Add 方法
+                          href: swbemrefresher-add.md
+                        - name: AddEnum 方法
+                          href: swbemrefresher-addenum.md
+                        - name: DeleteAll 方法
+                          href: swbemrefresher-deleteall.md
+                        - name: Item 方法
+                          href: swbemrefresher-item.md
+                        - name: Refresh 方法
+                          href: swbemrefresher-refresh.md
+                        - name: Remove 方法
+                          href: swbemrefresher-remove.md
+                    - name: SWbemRefresher 屬性
+                      href: swbemrefresher-properties.md
+                      items:
+                        - name: AutoReconnect 屬性
+                          href: swbemrefresher-autoreconnect.md
+                        - name: Count 屬性
+                          href: swbemrefresher-count.md
+                - name: SWbemSecurity
+                  href: swbemsecurity.md
+                  items:
+                    - name: SWbemSecurity 屬性
+                      href: swbemsecurity-properties.md
+                      items:
+                        - name: AuthenticationLevel 屬性
+                          href: swbemsecurity-authenticationlevel.md
+                        - name: ImpersonationLevel 屬性
+                          href: swbemsecurity-impersonationlevel.md
+                        - name: 許可權屬性
+                          href: swbemsecurity-privileges.md
+                - name: SWbemServices
+                  href: swbemservices.md
+                  items:
+                    - name: SWbemServices 方法
+                      href: swbemservices-methods.md
+                      items:
+                        - name: AssociatorsOf 方法
+                          href: swbemservices-associatorsof.md
+                        - name: AssociatorsOfAsync 方法
+                          href: swbemservices-associatorsofasync.md
+                        - name: Delete 方法
+                          href: swbemservices-delete.md
+                        - name: DeleteAsync 方法
+                          href: swbemservices-deleteasync.md
+                        - name: ExecMethod 方法
+                          href: swbemservices-execmethod.md
+                        - name: ExecMethodAsync 方法
+                          href: swbemservices-execmethodasync.md
+                        - name: ExecNotificationQuery 方法
+                          href: swbemservices-execnotificationquery.md
+                        - name: ExecNotificationQueryAsync 方法
+                          href: swbemservices-execnotificationqueryasync.md
+                        - name: ExecQuery 方法
+                          href: swbemservices-execquery.md
+                        - name: ExecQueryAsync 方法
+                          href: swbemservices-execqueryasync.md
+                        - name: Get 方法
+                          href: swbemservices-get.md
+                        - name: GetAsync 方法
+                          href: swbemservices-getasync.md
+                        - name: InstancesOf 方法
+                          href: swbemservices-instancesof.md
+                        - name: InstancesOfAsync 方法
+                          href: swbemservices-instancesofasync.md
+                        - name: ReferencesTo 方法
+                          href: swbemservices-referencesto.md
+                        - name: ReferencesToAsync 方法
+                          href: swbemservices-referencestoasync.md
+                        - name: SubclassesOf 方法
+                          href: swbemservices-subclassesof.md
+                        - name: SubclassesOfAsync 方法
+                          href: swbemservices-subclassesofasync.md
+                    - name: SWbemServices 屬性
+                      href: swbemservices-properties.md
+                      items:
+                        - name: Security_ 屬性
+                          href: swbemservices-security-.md
+                - name: SWbemServicesEx
+                  href: swbemservicesex.md
+                  items:
+                    - name: SWbemServicesEx 方法
+                      href: swbemservicesex-methods.md
+                      items:
+                        - name: Put 方法
+                          href: swbemservicesex-put.md
+                        - name: PutAsync 方法
+                          href: swbemservicesex-putasync.md
+                - name: SWbemSink
+                  href: swbemsink.md
+                  items:
+                    - name: SWbemSink 事件
+                      href: swbemsink-events.md
+                      items:
+                        - name: OnCompleted 事件
+                          href: swbemsink-oncompleted.md
+                        - name: OnObjectPut 事件
+                          href: swbemsink-onobjectput.md
+                        - name: OnObjectReady 事件
+                          href: swbemsink-onobjectready.md
+                        - name: OnProgress 事件
+                          href: swbemsink-onprogress.md
+                    - name: SWbemSink 方法
+                      href: swbemsink-methods.md
+                      items:
+                        - name: Cancel 方法
+                          href: swbemsink-cancel.md
+        - name: WMI 和 SNMP
+          href: snmp-provider.md
+          items:
+            - name: 通知類型宏
+              href: notification-type-macro.md
+              items:
+                - name: OBJECTS 子句
+                  href: objects-clause.md
+                - name: SnmpExtendedNotification
+                  href: snmpextendednotification.md
+                - name: SnmpNotification
+                  href: snmpnotification.md
+            - name: OBJECT 類型宏
+              href: object-type-macro.md
+              items:
+                - name: MIB 物件的 CIM 系統屬性
+                  href: cim-system-properties-for-mib-objects.md
+                - name: MIB 物件的 CIM 類別限定詞
+                  href: cim-class-qualifiers-for-mib-objects.md
+                - name: MIB 物件的 CIM 屬性限定詞
+                  href: cim-property-qualifiers-for-mib-objects.md
+                - name: SNMP 集合
+                  href: snmp-collections.md
+                - name: 語法子句
+                  href: syntax-clause.md
+                - name: INDEX 子句
+                  href: index-clause.md
+                - name: 存取和最大存取權子句
+                  href: access-and-max-access-clauses.md
+            - name: 文字慣例宏
+              href: textual-convention-macro.md
+            - name: TRAP 類型宏
+              href: trap-type-macro.md
+            - name: SNMP 事件
+              href: snmp-events.md
+            - name: SNMP 編譯器錯誤訊息
+              href: snmp-compiler-error-messages.md
+              items:
+                - name: 錯誤101到110
+                  href: errors-101-through-110.md
+                - name: 錯誤201到210
+                  href: errors-201-through-210.md
+                - name: 錯誤211到220
+                  href: errors-211-through-220.md
+                - name: 錯誤221到230
+                  href: errors-221-through-230.md
+                - name: 錯誤231到240
+                  href: errors-231-through-240.md
+                - name: 錯誤281到290
+                  href: errors-281-through-290.md
+                - name: 錯誤1001到1010
+                  href: errors-1001-through-1010.md
+                - name: 錯誤1011到1020
+                  href: errors-1011-through-1020.md
+                - name: 錯誤1021到1030
+                  href: errors-1021-through-1030.md
+                - name: 錯誤1031到1040
+                  href: errors-1031-through-1040.md
+                - name: 錯誤1041到1050
+                  href: errors-1041-through-1050.md
+                - name: 錯誤1051到1060
+                  href: errors-1051-through-1060.md
+                - name: 錯誤1061到1070
+                  href: errors-1061-through-1070.md
+                - name: 錯誤1071到1080
+                  href: errors-1071-through-1080.md
+                - name: 錯誤1081到1090
+                  href: errors-1081-through-1090.md
+                - name: 錯誤1091到1100
+                  href: errors-1091-through-1100.md
+                - name: 錯誤1101到1110
+                  href: errors-1101-through-1110.md
+                - name: 錯誤1451到1460
+                  href: errors-1451-through-1460.md
+                - name: 錯誤1501到1510
+                  href: errors-1501-through-1510.md
+            - name: 一般資訊訊息
+              href: general-information-messages.md
+        - name: WMI 和 SQL
+          href: wmi-and-sql.md
+          items:
+            - name: WQL (SQL for WMI)
+              href: wql-sql-for-wmi.md
+              items:
+                - name: 語句 ASSOCIATORS OF
+                  href: associators-of-statement.md
+                - name: __CLASS 識別碼
+                  href: '--class-identifier.md'
+                - name: GROUP 子句
+                  href: group-clause.md
+                - name: HAVING 子句
+                  href: having-clause.md
+                - name: 語句的參考
+                  href: references-of-statement.md
+                - name: 其中子句
+                  href: where-clause.md
+                  items:
+                    - name: WQL-Supported 日期格式
+                      href: wql-supported-date-formats.md
+                    - name: WQL-Supported 時間格式
+                      href: wql-supported-time-formats.md
+                - name: 在子句內
+                  href: within-clause.md
+                - name: WQL 運算子
+                  href: wql-operators.md
+                  items:
+                    - name: LIKE 運算子
+                      href: like-operator.md
+        - name: WMI 記錄檔
+          href: wmi-log-files.md
+          items:
+            - name: WMI 提供者記錄檔
+              href: wmi-provider-log-files.md
+        - name: WMI 命令列工具
+          href: wmi-command-line-tools.md
+          items:
+            - name: mofcomp.exe
+              href: mofcomp.md
+            - name: smi2smir
+              href: smi2smir.md
+            - name: winmgmt
+              href: winmgmt.md
+            - name: wmiadap
+              href: wmiadap.md
+            - name: wmic
+              href: wmic.md
+        - name: WMI 基礎結構物件和值
+          href: wmi-infrastructure-objects-and-values.md
+          items:
+            - name: WMI 資料類型
+              href: wmi-data-types.md
+            - name: WMI 列舉
+              href: wmi-enumerations.md
+              items:
+                - name: CIMTYPE_ENUMERATION
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-cimtype_enumeration
+                - name: WBEM_BACKUP_RESTORE_FLAGS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_backup_restore_flags
+                - name: WBEM_CHANGE_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_change_flag_type
+                - name: WBEM_COMPARISON_FLAG
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_comparison_flag
+                - name: WBEM_COMPILE_STATUS_INFO
+                  href: /windows/win32/api/Wbemcli/ns-wbemcli-wbem_compile_status_info
+                - name: WBEM_COMPILER_OPTIONS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_compiler_options
+                - name: WBEM_CONDITION_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_condition_flag_type
+                - name: WBEM_CONNECT_OPTIONS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_connect_options
+                - name: WBEM_FLAVOR_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_flavor_type
+                - name: WBEM_GENERIC_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_generic_flag_type
+                - name: WBEM_GENUS_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_genus_type
+                - name: WBEM_LIMITS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_limits
+                - name: WBEM_QUERY_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_query_flag_type
+                - name: WBEM_REFRESHER_FLAGS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_refresher_flags
+                - name: WBEM_SECURITY_FLAGS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_security_flags
+                - name: WBEM_STATUS_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_status_type
+                - name: WBEM_TEXT_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_text_flag_type
+                - name: WBEM_TIMEOUT_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_timeout_type
+                - name: WBEM_UNSECAPP_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_unsecapp_flag_type
+                - name: WBEMSTATUS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbemstatus
+                - name: WMI_OBJ_TEXT
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wmi_obj_text
+            - name: MOF 資料類型
+              href: mof-data-types.md
+              items:
+                - name: 點陣圖和 BitValue 限定詞
+                  href: bitmap-and-bitvalues.md
+                - name: boolean
+                  href: boolean.md
+                - name: DATETIME
+                  href: datetime.md
+                - name: MOF 陣列
+                  href: mof-arrays.md
+                - name: 數字
+                  href: numbers.md
+                - name: OBJECT
+                  href: object.md
+                - name: 參考資料
+                  href: references.md
+                - name: 字串
+                  href: strings.md
+                - name: ValueMap 和值限定詞
+                  href: value-map.md
+                - name: 無效
+                  href: void.md
+                - name: 預處理器命令
+                  href: preprocessor-commands.md
+                  items:
+                    - name: '#include'
+                      href: '-include.md'
+                    - name: '#pragma'
+                      href: '-pragma.md'
+                      items:
+                        - name: pragma 修訂
+                          href: pragma-amendment.md
+                        - name: pragma 自動回復
+                          href: pragma-autorecover.md
+                        - name: pragma classflags
+                          href: pragma-classflags.md
+                        - name: pragma deleteclass
+                          href: pragma-deleteclass.md
+                        - name: pragma deleteinstance
+                          href: pragma-deleteinstance.md
+                        - name: pragma instanceflags
+                          href: pragma-instanceflags.md
+                        - name: pragma 命名空間
+                          href: pragma-namespace.md
+            - name: WMI 事件
+              href: wmi-events.md
+              items:
+                - name: WMI 事件訊息
+                  href: wmi-event-messages.md
+            - name: WMI 效能計數器類型
+              href: wmi-performance-counter-types.md
+              items:
+                - name: 基底計數器類型
+                  href: base-counter-types.md
+                - name: 基本演算法計數器類型
+                  href: basic-algorithm-counter-types.md
+                - name: 計數器演算法計數器類型
+                  href: counter-algorithm-counter-types.md
+                - name: Noncomputational 計數器類型
+                  href: noncomputational-counter-types.md
+                - name: 精確度計時器演算法計數器類型
+                  href: precision-timer-algorithm-counter-types.md
+                - name: 佇列長度演算法計數器類型
+                  href: queue-length-algorithm-counter-types.md
+                - name: 統計計數器類型
+                  href: statistical-counter-types.md
+                  items:
+                    - name: COOKER_AVERAGE
+                      href: cooker-average.md
+                    - name: COOKER_MAX
+                      href: cooker-max.md
+                    - name: COOKER_MIN
+                      href: cooker-min.md
+                    - name: COOKER_RANGE
+                      href: cooker-range.md
+                    - name: COOKER_VARIANCE
+                      href: cooker-variance.md
+                - name: 計時器演算法計數器類型
+                  href: timer-algorithm-counter-types.md
+            - name: WMI 限定詞
+              href: wmi-qualifiers.md
+              items:
+                - name: 中繼限定詞
+                  href: meta-qualifiers.md
+                - name: 選用限定詞
+                  href: optional-qualifiers.md
+                - name: 限定詞類別
+                  href: qualifier-flavors.md
+                - name: 標準限定詞
+                  href: standard-qualifiers.md
+                  items:
+                    - name: 金鑰辨識符號
+                      href: key-qualifier.md
+                - name: WMI-Specific 限定詞
+                  href: wmi-specific-qualifiers.md
+                  items:
+                    - name: 標準 WMI 限定詞
+                      href: standard-wmi-qualifiers.md
+                      items:
+                        - name: CIMType 辨識符號
+                          href: cimtype-qualifier.md
+                        - name: 動態限定詞
+                          href: dynamic-qualifier.md
+                    - name: SNMP 提供者專用的限定詞
+                      href: qualifiers-specific-to-the-snmp-provider.md
+                    - name: 視圖提供者專用的限定詞
+                      href: qualifiers-specific-to-the-view-provider.md
+                      items:
+                        - name: PostJoinFilter 辨識符號
+                          href: postjoinfilter-qualifier.md
+                        - name: PropertySources 辨識符號
+                          href: propertysources-qualifier.md
+                        - name: ViewSources 辨識符號
+                          href: viewsources-qualifier.md
+                        - name: ViewSpaces 辨識符號
+                          href: viewspaces-qualifier.md
+                    - name: WDM 提供者專用的限定詞
+                      href: qualifiers-specific-to-the-wdm-provider.md
+                    - name: WMI 效能類別專用的限定詞
+                      href: qualifiers-specific-to-wmi-performance-classes.md
+                      items:
+                        - name: 效能計數器類別的類別限定詞
+                          href: class-qualifiers-for-performance-counter-classes.md
+                        - name: CounterType 辨識符號
+                          href: countertype-qualifier.md
+                        - name: PerfDetail 辨識符號
+                          href: perfdetail-qualifier.md
+                        - name: 效能計數器類別的屬性限定詞
+                          href: property-qualifiers-for-performance-counter-classes.md
+            - name: WMI 傳回碼
+              href: wmi-return-codes.md
+              items:
+                - name: WMI 錯誤常數
+                  href: wmi-error-constants.md
+                - name: WMI 非錯誤常數
+                  href: wmi-non-error-constants.md
+            - name: WMI 安全性
+              href: wmi-security.md
+              items:
+                - name: WMI 安全性常數
+                  href: wmi-security-constants.md
+                  items:
+                    - name: 事件安全性常數
+                      href: event-security-constants.md
+                    - name: 檔案和目錄存取權限常數
+                      href: file-and-directory-access-rights-constants.md
+                    - name: 命名空間存取權限常數
+                      href: namespace-access-rights-constants.md
+                    - name: 命名空間 ACE 旗標常數
+                      href: namespace-ace-flag-constants.md
+                    - name: 命名空間 ACE 類型常數
+                      href: namespace-ace-type-constants.md
+                    - name: 許可權常數
+                      href: privilege-constants.md
+                - name: WMI 安全描述項物件
+                  href: wmi-security-descriptor-objects.md
+            - name: WMI 系統屬性
+              href: wmi-system-properties.md
+        - name: WMI Windows PowerShell 命令類別的受控參考
+          href: managed-reference-for-wmi-powershell-command-classes.md
+    - name: WMI 詞彙
+      href: wmi-glossary.md
+      items:
+        - name: A
+          href: gloss-a.md
+        - name: C
+          href: gloss-c.md
+        - name: D
+          href: gloss-d.md
+        - name: E
+          href: gloss-e.md
+        - name: F
+          href: gloss-f.md
+        - name: H
+          href: gloss-h.md
+        - name: I
+          href: gloss-i.md
+        - name: K
+          href: gloss-k.md
+        - name: L
+          href: gloss-l.md
+        - name: M
+          href: gloss-m.md
+        - name: 'N'
+          href: gloss-n.md
+        - name: O
+          href: gloss-o.md
+        - name: P
+          href: gloss-p.md
+        - name: Q
+          href: gloss-q.md
+        - name: R
+          href: gloss-r.md
+        - name: S
+          href: gloss-s.md
+        - name: T
+          href: gloss-t.md
+        - name: W
+          href: gloss-w.md
+    - name: 管理基礎結構受控 API
+      items:
+        - name: CimInstance. SetCimSessionComputerName 方法
+          href: mi-managed-api\microsoft.management.infrastructure.ciminstance.setcimsessioncomputername.md
+        - name: CimMofDeserializer 類別
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.md
+        - name: 'CimMofDeserializer：建立方法 () '
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.create.md
+        - name: 'CimMofDeserializer： Create 方法 (String，UInt32) '
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.create_string_uint.md
+        - name: 'CimMofDeserializer. DeserializeClasses 方法 (Byte []，Uint32) '
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint.md
+        - name: 'CimMofDeserializer. DeserializeClasses 方法 (Byte []、Uint32、IEnumerable (CimClass) ) '
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass.md
+        - name: 'CimMofDeserializer. DeserializeClasses 方法 (Byte []、UInt32、IEnumerable (CimClass) 、OnClassNeeded、GetIncludedFileContent) '
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass2.md
+        - name: 'CimMofDeserializer. DeserializeClasses 方法 (Byte []、UInt32、IEnumerable (CimClass) 、String、String、OnClassNeeded、GetIncludedFileContent) '
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass3.md
+        - name: 'CimMofDeserializer. DeserializeInstances 方法 (Byte []，UInt32) '
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint.md
+        - name: 'CimMofDeserializer. DeserializeInstances 方法 (Byte []、UInt32、OnClassNeeded、GetIncludedFileContent) '
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint2.md
+        - name: 'CimMofDeserializer. DeserializeInstances 方法 (Byte []、UInt32、IEnumerable (CimClass) 、OnClassNeeded、GetIncludedFileContent) '
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint3.md
+        - name: CimMofDeserializer. SchemaValidationOption 屬性
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.schemavalidationoption.md
+        - name: CimMofDeserializer. GetIncludedFileContent 委派
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.getincludedfilecontent.md
+        - name: CimMofDeserializer. OnClassNeeded 委派
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.onclassneeded.md
+        - name: MofDeserializerSchemaValidationOption 列舉
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.mofdeserializerschemavalidationoption.md

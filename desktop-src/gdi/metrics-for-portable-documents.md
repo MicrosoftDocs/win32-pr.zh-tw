@@ -1,0 +1,64 @@
+---
+description: 下錶針對需要可移植檔的應用程式，以及允許應用程式抓取這些標準的函式，指定最重要的字型指標。
+ms.assetid: 61f6d244-7397-42af-af58-0ab9d07bf19e
+title: 便攜檔的計量
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9c840b1b8e8014086b97098a44890f170a6bd11d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104972649"
+---
+# <a name="metrics-for-portable-documents"></a><span data-ttu-id="53f93-103">便攜檔的計量</span><span class="sxs-lookup"><span data-stu-id="53f93-103">Metrics for Portable Documents</span></span>
+
+<span data-ttu-id="53f93-104">下錶針對需要可移植檔的應用程式，以及允許應用程式抓取這些標準的函式，指定最重要的字型指標。</span><span class="sxs-lookup"><span data-stu-id="53f93-104">The following table specifies the most important font metrics for applications that require portable documents and the functions that allow an application to retrieve them.</span></span>
+
+
+
+| <span data-ttu-id="53f93-105">函式</span><span class="sxs-lookup"><span data-stu-id="53f93-105">Function</span></span>                                               | <span data-ttu-id="53f93-106">Metric</span><span class="sxs-lookup"><span data-stu-id="53f93-106">Metric</span></span>                | <span data-ttu-id="53f93-107">使用</span><span class="sxs-lookup"><span data-stu-id="53f93-107">Use</span></span>                                                                                                          |
+|--------------------------------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="53f93-108">**>enumfontfamilies**</span><span class="sxs-lookup"><span data-stu-id="53f93-108">**EnumFontFamilies**</span></span>](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa)           | <span data-ttu-id="53f93-109">**ntmSizeEM**</span><span class="sxs-lookup"><span data-stu-id="53f93-109">**ntmSizeEM**</span></span>         | <span data-ttu-id="53f93-110">設計計量的抓取;轉換成裝置計量。</span><span class="sxs-lookup"><span data-stu-id="53f93-110">Retrieval of design metrics; conversion to device metrics.</span></span>                                                   |
+| [<span data-ttu-id="53f93-111">**GetCharABCWidths**</span><span class="sxs-lookup"><span data-stu-id="53f93-111">**GetCharABCWidths**</span></span>](/windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsa)           | <span data-ttu-id="53f93-112">**ABCWidths**</span><span class="sxs-lookup"><span data-stu-id="53f93-112">**ABCWidths**</span></span>         | <span data-ttu-id="53f93-113">在邊界的開頭和結尾、圖片邊界和其他文字分隔字元的精確位置。</span><span class="sxs-lookup"><span data-stu-id="53f93-113">Accurate placement of characters at the start and end of margins, picture boundaries, and other text breaks.</span></span> |
+| [<span data-ttu-id="53f93-114">**GetCharWidth32**</span><span class="sxs-lookup"><span data-stu-id="53f93-114">**GetCharWidth32**</span></span>](/windows/desktop/api/Wingdi/nf-wingdi-getcharwidth32a)               | <span data-ttu-id="53f93-115">**AdvanceWidths**</span><span class="sxs-lookup"><span data-stu-id="53f93-115">**AdvanceWidths**</span></span>     | <span data-ttu-id="53f93-116">字元在行上的位置。</span><span class="sxs-lookup"><span data-stu-id="53f93-116">Placement of characters on a line.</span></span>                                                                           |
+| [<span data-ttu-id="53f93-117">**GetOutlineTextMetrics**</span><span class="sxs-lookup"><span data-stu-id="53f93-117">**GetOutlineTextMetrics**</span></span>](/windows/desktop/api/Wingdi/nf-wingdi-getoutlinetextmetricsa) | <span data-ttu-id="53f93-118">**otmfsType**</span><span class="sxs-lookup"><span data-stu-id="53f93-118">**otmfsType**</span></span>         | <span data-ttu-id="53f93-119">字型內嵌位。</span><span class="sxs-lookup"><span data-stu-id="53f93-119">Font-embedding bits.</span></span>                                                                                         |
+|                                                        | <span data-ttu-id="53f93-120">**otmsCharSlopeRise**</span><span class="sxs-lookup"><span data-stu-id="53f93-120">**otmsCharSlopeRise**</span></span> | <span data-ttu-id="53f93-121">傾斜字型之游標斜率的 Y 元件。</span><span class="sxs-lookup"><span data-stu-id="53f93-121">Y-component for slope of cursor for italic fonts.</span></span>                                                            |
+|                                                        | <span data-ttu-id="53f93-122">**otmsCharSlopeRun**</span><span class="sxs-lookup"><span data-stu-id="53f93-122">**otmsCharSlopeRun**</span></span>  | <span data-ttu-id="53f93-123">傾斜字型之游標斜率的 X 元件。</span><span class="sxs-lookup"><span data-stu-id="53f93-123">X-component for slope of cursor for italic fonts.</span></span>                                                            |
+|                                                        | <span data-ttu-id="53f93-124">**otmAscent**</span><span class="sxs-lookup"><span data-stu-id="53f93-124">**otmAscent**</span></span>         | <span data-ttu-id="53f93-125">行距。</span><span class="sxs-lookup"><span data-stu-id="53f93-125">Line spacing.</span></span>                                                                                                |
+|                                                        | <span data-ttu-id="53f93-126">**otmDescent**</span><span class="sxs-lookup"><span data-stu-id="53f93-126">**otmDescent**</span></span>        | <span data-ttu-id="53f93-127">行距。</span><span class="sxs-lookup"><span data-stu-id="53f93-127">Line spacing.</span></span>                                                                                                |
+|                                                        | <span data-ttu-id="53f93-128">**otmLineGap**</span><span class="sxs-lookup"><span data-stu-id="53f93-128">**otmLineGap**</span></span>        | <span data-ttu-id="53f93-129">行距。</span><span class="sxs-lookup"><span data-stu-id="53f93-129">Line spacing.</span></span>                                                                                                |
+|                                                        | <span data-ttu-id="53f93-130">**otmpFamilyName**</span><span class="sxs-lookup"><span data-stu-id="53f93-130">**otmpFamilyName**</span></span>    | <span data-ttu-id="53f93-131">字型識別。</span><span class="sxs-lookup"><span data-stu-id="53f93-131">Font identification.</span></span>                                                                                         |
+|                                                        | <span data-ttu-id="53f93-132">**otmpStyleName**</span><span class="sxs-lookup"><span data-stu-id="53f93-132">**otmpStyleName**</span></span>     | <span data-ttu-id="53f93-133">字型識別。</span><span class="sxs-lookup"><span data-stu-id="53f93-133">Font identification.</span></span>                                                                                         |
+|                                                        | <span data-ttu-id="53f93-134">**otmpFullName**</span><span class="sxs-lookup"><span data-stu-id="53f93-134">**otmpFullName**</span></span>      | <span data-ttu-id="53f93-135">字型識別 (通常是) 的系列和樣式名稱。</span><span class="sxs-lookup"><span data-stu-id="53f93-135">Font identification (typically, family and style name).</span></span>                                                      |
+
+
+
+ 
+
+<span data-ttu-id="53f93-136">[OtmLineGap](/windows/desktop/api/Wingdi/ns-wingdi-outlinetextmetrica)結構的 **otmsCharSlopeRise**、 **otmsCharSlopeRun**、 **otmAscent**、 **otmDescent** 和 **OUTLINETEXTMETRIC** 成員會進行縮放或轉換，以對應到目前的裝置模式和物理高度 (如 [tmHeight](/windows/win32/api/wingdi/ns-wingdi-newtextmetrica)結構) 的 **NEWTEXTMETRIC** 成員所指定。</span><span class="sxs-lookup"><span data-stu-id="53f93-136">The **otmsCharSlopeRise**, **otmsCharSlopeRun**, **otmAscent**, **otmDescent**, and **otmLineGap** members of the [OUTLINETEXTMETRIC](/windows/desktop/api/Wingdi/ns-wingdi-outlinetextmetrica) structure are scaled or transformed to correspond to the current device mode and physical height (as specified in the **tmHeight** member of the [NEWTEXTMETRIC](/windows/win32/api/wingdi/ns-wingdi-newtextmetrica) structure).</span></span>
+
+<span data-ttu-id="53f93-137">當應用程式必須選取相同的字型時（例如，當檔重新開啟或移至不同的作業系統時），字型識別在這些實例中相當重要。</span><span class="sxs-lookup"><span data-stu-id="53f93-137">Font identification is important in those instances when an application must select the same font, for example, when a document is reopened or moved to a different operating system.</span></span> <span data-ttu-id="53f93-138">當應用程式以完整名稱要求字型時，字型對應程式一律會選取正確的字型。</span><span class="sxs-lookup"><span data-stu-id="53f93-138">The font mapper always selects the correct font when an application requests a font by full name.</span></span> <span data-ttu-id="53f93-139">系列和樣式名稱提供 [標準字型] 對話方塊的輸入，以確保正確放置選取列。</span><span class="sxs-lookup"><span data-stu-id="53f93-139">The family and style names provide input to the standard font dialog box, which ensures that the selection bars are properly placed.</span></span>
+
+<span data-ttu-id="53f93-140">**OtmsCharSlopeRise** 和 **otmsCharSlopeRun** 值會用來產生字型之主要斜體角度的相近近似值。</span><span class="sxs-lookup"><span data-stu-id="53f93-140">The **otmsCharSlopeRise** and **otmsCharSlopeRun** values are used to produce a close approximation of the main italic angle of the font.</span></span> <span data-ttu-id="53f93-141">針對典型的羅馬字型， **otmsCharSlopeRise** 是1，而 **otmsCharSlopeRun** 是0。</span><span class="sxs-lookup"><span data-stu-id="53f93-141">For typical roman fonts, **otmsCharSlopeRise** is 1 and **otmsCharSlopeRun** is 0.</span></span> <span data-ttu-id="53f93-142">若為斜體字型，這些值會嘗試近似字型之主要斜體角度的正弦和余弦 (以逆時針度為單位的) ;請注意，直立字型的斜體角度是0。</span><span class="sxs-lookup"><span data-stu-id="53f93-142">For italic fonts, the values attempt to approximate the sine and cosine of the main italic angle of the font (in counterclockwise degrees past vertical); note that the italic angle for upright fonts is 0.</span></span> <span data-ttu-id="53f93-143">因為這些值不會以設計單位表示，所以不應轉換成裝置單位。</span><span class="sxs-lookup"><span data-stu-id="53f93-143">Because these values are not expressed in design units, they should not be converted into device units.</span></span>
+
+<span data-ttu-id="53f93-144">字元位置和行距計量可讓應用程式計算跨螢幕、印表機、typesetters 或甚至平臺可移植的裝置獨立分行符號。</span><span class="sxs-lookup"><span data-stu-id="53f93-144">The character placement and line spacing metrics enable an application to compute device-independent line breaks that are portable across screens, printers, typesetters, and even platforms.</span></span>
+
+<span data-ttu-id="53f93-145">**執行與裝置無關的頁面配置**</span><span class="sxs-lookup"><span data-stu-id="53f93-145">**To perform device-independent page layout**</span></span>
+
+1.  <span data-ttu-id="53f93-146">將所有設計計量正規化為常見的超高解析度 (UHR) 值 (例如 65536 DPI) ;這可防止發生舍入錯誤。</span><span class="sxs-lookup"><span data-stu-id="53f93-146">Normalize all design metrics to a common ultra-high resolution (UHR) value (for example, 65,536 DPI); this prevents round-off errors.</span></span>
+2.  <span data-ttu-id="53f93-147">根據 UHR 計量和實體頁面寬度計算分行符號;這會產生文字資料流程內線條的起始點和結束點。</span><span class="sxs-lookup"><span data-stu-id="53f93-147">Compute line breaks based on UHR metrics and physical page width; this yields a starting point and an ending point of a line within the text stream.</span></span>
+3.  <span data-ttu-id="53f93-148">以裝置單位計算裝置頁面寬度 (例如，圖元) 。</span><span class="sxs-lookup"><span data-stu-id="53f93-148">Compute the device page width in device units (for example, pixels).</span></span>
+4.  <span data-ttu-id="53f93-149">使用步驟2中計算出來的分行符號，將每一行文字放入裝置頁面寬度。</span><span class="sxs-lookup"><span data-stu-id="53f93-149">Fit each line of text into the device page width, using the line breaks computed in step 2.</span></span>
+5.  <span data-ttu-id="53f93-150">使用 UHR 計量和實體頁面長度來計算分頁符號;這會產生每個頁面的行數。</span><span class="sxs-lookup"><span data-stu-id="53f93-150">Compute page breaks by using UHR metrics and the physical page length; this yields the number of lines per page.</span></span>
+6.  <span data-ttu-id="53f93-151">以裝置單位計算線條高度。</span><span class="sxs-lookup"><span data-stu-id="53f93-151">Compute the line heights in device units.</span></span>
+7.  <span data-ttu-id="53f93-152">使用步驟5中的每頁行和步驟6的線條高度，將文字行放到頁面上。</span><span class="sxs-lookup"><span data-stu-id="53f93-152">Fit the lines of text onto the page, using the lines per page from step 5 and the line heights from step 6.</span></span>
+
+<span data-ttu-id="53f93-153">如果所有應用程式都採用這些技術，開發人員可以確保從某個應用程式移到另一個應用程式的檔，將會保留其原始外觀和格式。</span><span class="sxs-lookup"><span data-stu-id="53f93-153">If all applications adopt these techniques, developers can virtually guarantee that documents moved from one application to another will retain their original appearance and format.</span></span>
+
+ 
+
+ 
+
+
+

@@ -1,0 +1,805 @@
+- name: 行動寬頻
+  href: mobile-broadband-networks-portal.md
+  items:
+    - name: 行動寬頻 API 最佳作法
+      href: mobile-broadband-best-practices.md
+    - name: Mobile 寬頻 API 參考
+      href: mobile-broadband-networks-api-reference.md
+      items:
+        - name: 行動寬頻 API 列舉
+          href: mobile-broadband-networks-api-enumerations.md
+          items:
+            - name: MBN_ACTI加值稅ION_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_activation_state
+            - name: MBN_AUTH_PROTOCOL
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_auth_protocol
+            - name: MBN_BAND_CLASS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_band_class
+            - name: MBN_CELLULAR_CLASS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class
+            - name: MBN_COMPRESSION
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_compression
+            - name: MBN_CONNECTION_MODE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_connection_mode
+            - name: MBN_CONTEXT_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_context_constants
+            - name: MBN_CONTEXT_TYPE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_context_type
+            - name: MBN_CTRL_CAPS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_ctrl_caps
+            - name: MBN_DATA_CLASS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_data_class
+            - name: MBN_DEVICE_SERVICES_INTERFACE_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_device_services_interface_state
+            - name: MBN_INTERFACE_CAPS_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_interface_caps_constants
+            - name: MBN_MSG_STATUS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_msg_status
+            - name: MBN_PIN_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_constants
+            - name: MBN_PIN_FORMAT
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_format
+            - name: MBN_PIN_MODE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_mode
+            - name: MBN_PIN_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_state
+            - name: MBN_PIN_TYPE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_type
+            - name: MBN_PROVIDER_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_constants
+            - name: MBN_PROVIDER_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_state
+            - name: MBN_RADIO
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_radio
+            - name: MBN_READY_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_ready_state
+            - name: MBN_REGISTER_MODE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_register_mode
+            - name: MBN_REGISTER_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_register_state
+            - name: MBN_REGISTRATION_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_registration_constants
+            - name: MBN_SIGNAL_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_signal_constants
+            - name: MBN_SMS_CAPS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_caps
+            - name: MBN_SMS_CDMA_ENCODING
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_encoding
+            - name: MBN_SMS_CDMA_LANG
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_lang
+            - name: MBN_SMS_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-wwaext_sms_constants
+            - name: MBN_SMS_FLAG
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_flag
+            - name: MBN_SMS_FORMAT
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format
+            - name: MBN_SMS_STATUS_FLAG
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_status_flag
+            - name: MBN_VOICE_CALL_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_voice_call_state
+            - name: MBN_VOICE_CLASS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_voice_class
+        - name: 行動寬頻 API 介面
+          href: mobile-broadband-networks-api-interfaces.md
+          items:
+            - name: IMbnConnection
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection
+              items:
+                - name: Connect 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-connect
+                - name: Disconnect 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-disconnect
+                - name: GetActivationNetworkError 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getactivationnetworkerror
+                - name: GetConnectionState 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getconnectionstate
+                - name: GetVoiceCallState 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getvoicecallstate
+                - name: ConnectionID 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-get_connectionid
+                - name: InterfaceID 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-get_interfaceid
+            - name: IMbnConnectionCoNtext
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext
+              items:
+                - name: GetProvisionedCoNtexts 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontext-getprovisionedcontexts
+                - name: SetProvisionedCoNtext 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontext-setprovisionedcontext
+            - name: IMbnConnectionCoNtextEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents
+              items:
+                - name: OnProvisionedCoNtextListChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onprovisionedcontextlistchange
+                - name: OnSetProvisionedCoNtextComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onsetprovisionedcontextcomplete
+            - name: IMbnConnectionEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents
+              items:
+                - name: OnConnectComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectcomplete
+                - name: OnConnectStateChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectstatechange
+                - name: OnDisconnectComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-ondisconnectcomplete
+                - name: OnVoiceCallStateChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onvoicecallstatechange
+            - name: IMbnConnectionManager
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanager
+              items:
+                - name: GetConnection 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanager-getconnection
+                - name: GetConnections 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanager-getconnections
+            - name: IMbnConnectionManagerEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents
+              items:
+                - name: OnConnectionArrival 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanagerevents-onconnectionarrival
+                - name: OnConnectionRemoval 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanagerevents-onconnectionremoval
+            - name: IMbnConnectionProfile
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile
+              items:
+                - name: Delete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-delete
+                - name: GetProfileXmlData 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-getprofilexmldata
+                - name: UpdateProfile 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-updateprofile
+            - name: IMbnConnectionProfileEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofileevents
+              items:
+                - name: OnProfileUpdate 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofileevents-onprofileupdate
+            - name: IMbnConnectionProfileManager
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager
+              items:
+                - name: CreateConnectionProfile 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-createconnectionprofile
+                - name: GetConnectionProfile 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofile
+                - name: GetConnectionProfiles 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofiles
+            - name: IMbnConnectionProfileManagerEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents
+              items:
+                - name: OnConnectionProfileArrival 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofilearrival
+                - name: OnConnectionProfileRemoval 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofileremoval
+            - name: IMbnDeviceService
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice
+              items:
+                - name: QuerySupportedCommands 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querysupportedcommands
+                - name: OpenCommandSession 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opencommandsession
+                - name: CloseCommandSession 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closecommandsession
+                - name: SetCommand 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-setcommand
+                - name: QueryCommand 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querycommand
+                - name: OpenDataSession 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opendatasession
+                - name: CloseDataSession 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closedatasession
+                - name: WriteData 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-writedata
+                - name: IsDataSessionOpen 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_isdatasessionopen
+                - name: InterfaceID 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_interfaceid
+                - name: DeviceServiceID 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid
+                - name: IsCommandSessionOpen 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_iscommandsessionopen
+            - name: IMbnDeviceServicesCoNtext
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext
+              items:
+                - name: EnumerateDeviceServices 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-enumeratedeviceservices
+                - name: GetDeviceService 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-getdeviceservice
+                - name: MaxCommandSize 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxcommandsize
+                - name: MaxDataSize 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxdatasize
+            - name: IMbnDeviceServicesEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents
+              items:
+                - name: OnQuerySupportedCommandsComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerysupportedcommandscomplete
+                - name: OnOpenCommandSessionComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopencommandsessioncomplete
+                - name: OnCloseCommandSessionComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosecommandsessioncomplete
+                - name: OnSetCommandComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onsetcommandcomplete
+                - name: OnQueryCommandComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerycommandcomplete
+                - name: OnEventNotification 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oneventnotification
+                - name: OnOpenDataSessionComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopendatasessioncomplete
+                - name: OnCloseDataSessionComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosedatasessioncomplete
+                - name: OnWriteDataComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onwritedatacomplete
+                - name: OnReadData 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onreaddata
+                - name: OnInterfaceStateChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oninterfacestatechange
+            - name: IMbnDeviceServicesManager
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesmanager
+              items:
+                - name: GetDeviceServicesCoNtext 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesmanager-getdeviceservicescontext
+            - name: IMbnInterface
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterface
+              items:
+                - name: GetConnection 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getconnection
+                - name: GetInterfaceCapability 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getinterfacecapability
+                - name: GetHomeProvider 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-gethomeprovider
+                - name: GetPreferredProviders 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getpreferredproviders
+                - name: GetReadyState 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getreadystate
+                - name: GetSubscriberInformation 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getsubscriberinformation
+                - name: GetVisibleProviders 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getvisibleproviders
+                - name: InEmergencyMode 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-inemergencymode
+                - name: ScanNetwork 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-scannetwork
+                - name: SetPreferredProviders 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-setpreferredproviders
+                - name: InterfaceID 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-get_interfaceid
+            - name: IMbnInterfaceEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents
+              items:
+                - name: OnEmergencyModeChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onemergencymodechange
+                - name: OnInterfaceCapabilityAvailable 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-oninterfacecapabilityavailable
+                - name: OnHomeProviderAvailable 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onhomeprovideravailable
+                - name: OnPreferredProvidersChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onpreferredproviderschange
+                - name: OnReadyStateChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onreadystatechange
+                - name: OnSetPreferredProvidersComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsetpreferredproviderscomplete
+                - name: OnScanNetworkComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onscannetworkcomplete
+                - name: OnSubscriberInformationChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsubscriberinformationchange
+            - name: IMbnInterfaceManager
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanager
+              items:
+                - name: GetInterface 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanager-getinterface
+                - name: GetInterfaces 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanager-getinterfaces
+            - name: IMbnInterfaceManagerEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanagerevents
+              items:
+                - name: OnInterfaceArrival 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanagerevents-oninterfacearrival
+                - name: OnInterfaceRemoval 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanagerevents-oninterfaceremoval
+            - name: IMbnMultiCarrier
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier
+              items:
+                - name: SetHomeProvider 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-sethomeprovider
+                - name: GetPreferredProviders 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getpreferredproviders
+                - name: GetVisibleProviders 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders
+                - name: GetSupportedCellularClasses 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getsupportedcellularclasses
+                - name: GetCurrentCellularClass 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getcurrentcellularclass
+                - name: ScanNetwork 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-scannetwork
+            - name: IMbnMultiCarrierEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents
+              items:
+                - name: OnSetHomeProviderComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onsethomeprovidercomplete
+                - name: OnCurrentCellularClassChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-oncurrentcellularclasschange
+                - name: OnInterfaceCapabilityChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-oninterfacecapabilitychange
+                - name: OnPreferredProvidersChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onpreferredproviderschange
+                - name: OnScanNetworkComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete
+            - name: IMbnPin
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpin
+              items:
+                - name: 變更方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-change
+                - name: Disable 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-disable
+                - name: Enable 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enable
+                - name: Enter 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enter
+                - name: GetPinManager 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-getpinmanager
+                - name: 解除封鎖方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock
+                - name: PinFormat 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinformat
+                - name: PinLengthMax 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmax
+                - name: PinLengthMin 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmin
+                - name: PinMode 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinmode
+                - name: PinType 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pintype
+            - name: IMbnPinEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpinevents
+              items:
+                - name: OnChangeComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onchangecomplete
+                - name: OnDisableComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-ondisablecomplete
+                - name: OnEnableComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onenablecomplete
+                - name: OnEnterComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onentercomplete
+                - name: OnUnblockComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onunblockcomplete
+            - name: IMbnPinManager
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager
+              items:
+                - name: GetPin 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpin
+                - name: GetPinList 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinlist
+                - name: GetPinState 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinstate
+            - name: IMbnPinManagerEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents
+              items:
+                - name: OnGetPinStateComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanagerevents-ongetpinstatecomplete
+                - name: OnPinListAvailable 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanagerevents-onpinlistavailable
+            - name: IMbnRadio
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnradio
+              items:
+                - name: SetSoftwareRadioState 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradio-setsoftwareradiostate
+                - name: HardwareRadioState 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradio-get_hardwareradiostate
+                - name: SoftwareRadioState 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradio-get_softwareradiostate
+            - name: IMbnRadioEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents
+              items:
+                - name: OnRadioStateChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onradiostatechange
+                - name: OnSetSoftwareRadioStateComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onsetsoftwareradiostatecomplete
+            - name: IMbnRegistration
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration
+              items:
+                - name: GetAvailableDataClasses 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getavailabledataclasses
+                - name: GetCurrentDataClass 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getcurrentdataclass
+                - name: GetPacketAttachNetworkError 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getpacketattachnetworkerror
+                - name: GetProviderID 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getproviderid
+                - name: GetProviderName 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getprovidername
+                - name: GetRegisterMode 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistermode
+                - name: GetRegisterState 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregisterstate
+                - name: GetRegistrationNetworkError 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistrationnetworkerror
+                - name: GetRoamingText 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getroamingtext
+                - name: SetRegisterMode 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-setregistermode
+            - name: IMbnRegistrationEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents
+              items:
+                - name: OnPacketServiceStateChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onpacketservicestatechange
+                - name: OnRegisterModeAvailable 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregistermodeavailable
+                - name: OnRegisterStateChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregisterstatechange
+                - name: OnSetRegisterModeComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onsetregistermodecomplete
+            - name: IMbnServiceActivation
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivation
+              items:
+                - name: Activate 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnserviceactivation-activate
+            - name: IMbnServiceActivationEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents
+              items:
+                - name: OnActivationComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnserviceactivationevents-onactivationcomplete
+            - name: IMbnSignal
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal
+              items:
+                - name: GetSignalError 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalerror
+                - name: GetSignalStrength 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalstrength
+            - name: IMbnSignalEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents
+              items:
+                - name: OnSignalStateChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange
+            - name: IMbnSms
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsms
+              items:
+                - name: GetSmsConfiguration 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsconfiguration
+                - name: GetSmsStatus 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsstatus
+                - name: SetSmsConfiguration 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-setsmsconfiguration
+                - name: SmsDelete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsdelete
+                - name: SmsRead 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsread
+                - name: SmsSendCdma 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdma
+                - name: SmsSendCdmaPdu 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdmapdu
+                - name: SmsSendPdu 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendpdu
+            - name: IMbnSmsConfiguration
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration
+              items:
+                - name: CdmaShortMsgSize 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_cdmashortmsgsize
+                - name: MaxMessageIndex 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_maxmessageindex
+                - name: ServiceCenterAddress 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_servicecenteraddress
+                - name: SmsFormat 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_smsformat
+            - name: IMbnSmsEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents
+              items:
+                - name: OnSetSmsConfigurationComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsetsmsconfigurationcomplete
+                - name: OnSmsConfigurationChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsconfigurationchange
+                - name: OnSmsDeleteComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsdeletecomplete
+                - name: OnSmsNewClass0Message 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsnewclass0message
+                - name: OnSmsReadComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsreadcomplete
+                - name: OnSmsSendComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmssendcomplete
+                - name: OnSmsStatusChange 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsstatuschange
+            - name: IMbnSmsReadMsgPdu
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu
+              items:
+                - name: Index 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_index
+                - name: 訊息屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_message
+                - name: PduData 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_pdudata
+                - name: Status 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_status
+            - name: IMbnSmsReadMsgTextCdma
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma
+              items:
+                - name: Address 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_address
+                - name: EncodingID 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_encodingid
+                - name: Index 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_index
+                - name: LanguageID 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_languageid
+                - name: 訊息屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_message
+                - name: SizeInCharacters 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_sizeincharacters
+                - name: Status 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_status
+                - name: Timestamp 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_timestamp
+            - name: IMbnSubscriberInformation
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation
+              items:
+                - name: SimIccID 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_simiccid
+                - name: SubscriberID 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_subscriberid
+                - name: TelephoneNumbers 屬性
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_telephonenumbers
+            - name: IMbnVendorSpecificEvents
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificevents
+              items:
+                - name: OnEventNotification 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificevents-oneventnotification
+                - name: OnSetVendorSpecificComplete 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificevents-onsetvendorspecificcomplete
+            - name: IMbnVendorSpecificOperation
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificoperation
+              items:
+                - name: SetVendorSpecific 方法
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificoperation-setvendorspecific
+        - name: 行動寬頻 API 結構
+          href: mobile-broadband-networks-api-structures.md
+          items:
+            - name: MBN_CONTEXT
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_context
+            - name: MBN_DEVICE_SERVICE
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_device_service
+            - name: MBN_INTERFACE_CAPS
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps
+            - name: MBN_PIN_INFO
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info
+            - name: MBN_PROVIDER
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider
+            - name: MBN_PROVIDER2
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider2
+            - name: MBN_SMS_FILTER
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_filter
+            - name: MBN_SMS_STATUS_INFO
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_status_info
+    - name: 行動寬頻設定檔架構參考
+      href: schema-schema.md
+      items:
+        - name: Mobile 寬頻設定檔架構 v1
+          href: mobile-broadband-profile-schema.md
+          items:
+            - name: Mobile 寬頻設定檔架構 v1 元素
+              href: schema-elements.md
+              items:
+                - name: AccessString (coNtextType) 元素
+                  href: schema-accessstring-contexttype-element.md
+                - name: AuthProtocol (coNtextType) 元素
+                  href: schema-authprotocol-contexttype-element.md
+                - name: AutoConnectOnInternet (MBNProfile) 元素
+                  href: schema-autoconnectoninternet-mbnprofile-element.md
+                - name: 壓縮 (coNtextType) 元素
+                  href: schema-compression-contexttype-element.md
+                - name: ConnectionMode (MBNProfile) 元素
+                  href: schema-connectionmode-mbnprofile-element.md
+                - name: CoNtext (MBNProfile) 元素
+                  href: schema-context-mbnprofile-element.md
+                - name: DataRoamingPartners (MBNProfile) 元素
+                  href: schema-dataroamingpartners-mbnprofile-element.md
+                - name: 描述 (MBNProfile) 元素
+                  href: schema-description-mbnprofile-element.md
+                - name: HomeProviderName (MBNProfile) 元素
+                  href: schema-homeprovidername-mbnprofile-element.md
+                - name: ICONFilePath (MBNProfile) 元素
+                  href: schema-iconfilepath-mbnprofile-element.md
+                - name: IgnorePassword (UserLogonCred) 元素
+                  href: schema-ignorepassword-userlogoncred-element.md
+                - name: IsDefault (MBNProfile) 元素
+                  href: schema-isdefault-mbnprofile-element.md
+                - name: MBNProfile 元素
+                  href: schema-mbnprofile-element.md
+                - name: MBNProfile) 專案的名稱 (
+                  href: schema-name-mbnprofile-element.md
+                - name: 密碼 (UserLogonCred) 元素
+                  href: schema-password-userlogoncred-element.md
+                - name: ProfileCreationType (MBNProfile) 元素
+                  href: schema-profilecreationtype-mbnprofile-element.md
+                - name: 提供者 (DataRoamingPartners) 元素
+                  href: schema-provider-dataroamingpartners-element.md
+                - name: ProviderID (providerType) 元素
+                  href: schema-providerid-providertype-element.md
+                - name: ProviderName (providerType) 元素
+                  href: schema-providername-providertype-element.md
+                - name: SimIccID (MBNProfile) 元素
+                  href: schema-simiccid-mbnprofile-element.md
+                - name: SubscriberID (MBNProfile) 元素
+                  href: schema-subscriberid-mbnprofile-element.md
+                - name: UserLogonCred (coNtextType) 元素
+                  href: schema-userlogoncred-contexttype-element.md
+                - name: UserName (UserLogonCred) 元素
+                  href: schema-username-userlogoncred-element.md
+            - name: Mobile 寬頻設定檔架構 v1 簡單類型
+              href: schema-simple-types.md
+              items:
+                - name: iconFileType 簡單類型
+                  href: schema-iconfiletype-simpletype.md
+                - name: nameType 簡單類型
+                  href: schema-nametype-simpletype.md
+                - name: providerIdType 簡單類型
+                  href: schema-provideridtype-simpletype.md
+                - name: providerNameType 簡單類型
+                  href: schema-providernametype-simpletype.md
+                - name: simIccIDType 簡單類型
+                  href: schema-simiccidtype-simpletype.md
+                - name: subscriberIdType 簡單類型
+                  href: schema-subscriberidtype-simpletype.md
+            - name: Mobile 寬頻設定檔架構 v1 複雜類型
+              href: schema-complex-types.md
+              items:
+                - name: coNtextType 複雜類型
+                  href: schema-contexttype-complextype.md
+                - name: providerType 複雜類型
+                  href: schema-providertype-complextype.md
+        - name: Mobile 寬頻設定檔架構 v2
+          href: mobile-broadband-profile-schema-v2.md
+          items:
+            - name: Mobile 寬頻設定檔架構 v2 元素
+              href: mobile-broadband-profile-schema-v2-elements.md
+              items:
+                - name: DisplayProviderName
+                  href: element-displayprovidername.md
+                - name: IsPurchaseProfile
+                  href: element-ispurchaseprofile.md
+        - name: Mobile 寬頻設定檔架構 v3
+          href: mobile-broadband-profile-schema-v3.md
+          items:
+            - name: 行動寬頻設定檔架構 v3 元素
+              href: mobile-broadband-profile-schema-v3-elements.md
+              items:
+                - name: IsAdditionalPdpCoNtextProfile
+                  href: element-isadditionalpdpcontextprofile.md
+        - name: Mobile 寬頻設定檔架構 v4
+          href: schema-root.md
+          items:
+            - name: 行動寬頻設定檔架構 v4 元素
+              href: root-elements.md
+              items:
+                - name: MBNProfileExt
+                  href: element-mbnprofileext.md
+                  items:
+                    - name: Name
+                      href: element-name.md
+                    - name: 描述
+                      href: element-description.md
+                    - name: ICONFilePath
+                      href: element-iconfilepath.md
+                    - name: IsDefault
+                      href: element-isdefault.md
+                    - name: ProfileCreationType
+                      href: element-profilecreationtype.md
+                    - name: SubscriberID
+                      href: element-subscriberid.md
+                    - name: SimIccID
+                      href: element-simiccid.md
+                    - name: HomeProviderName
+                      href: element-homeprovidername.md
+                    - name: AutoConnectOnInternet
+                      href: element-autoconnectoninternet.md
+                    - name: ConnectionMode
+                      href: element-connectionmode.md
+                    - name: 內容
+                      href: element-context.md
+                      items:
+                        - name: AccessString
+                          href: element-accessstring.md
+                        - name: UserLogonCred
+                          href: element-userlogoncred.md
+                          items:
+                            - name: UserName
+                              href: element-username.md
+                            - name: IgnorePassword
+                              href: element-ignorepassword.md
+                            - name: 密碼
+                              href: element-password.md
+                        - name: 壓縮
+                          href: element-compression.md
+                        - name: AuthProtocol
+                          href: element-authprotocol.md
+                        - name: IPType
+                          href: element-iptype.md
+                    - name: DataRoamingPartners
+                      href: element-dataroamingpartners.md
+                      items:
+                        - name: 提供者
+                          href: element-provider.md
+                    - name: PurposeGroups
+                      href: element-purposegroups.md
+                      items:
+                        - name: PurposeGroupGuid
+                          href: element-purposegroupguid.md
+                    - name: ProfileConditionedOn
+                      href: element-profileconditionedon.md
+                      items:
+                        - name: CellularClass
+                          href: element-cellularclass.md
+                        - name: RATApplicability
+                          href: element-ratapplicability.md
+                        - name: RoamApplicability
+                          href: element-roamapplicability.md
+                        - name: IMSI
+                          href: element-imsi.md
+                        - name: IwlanApplicability
+                          href: element-iwlanapplicability.md
+                    - name: IsProvisioningProfile
+                      href: element-isprovisioningprofile.md
+                    - name: ApnID
+                      href: element-apnid.md
+                    - name: AdminEnable
+                      href: element-adminenable.md
+                    - name: AdminRoamControl
+                      href: element-adminroamcontrol.md
+                    - name: IsExclusiveToOther
+                      href: element-isexclusivetoother.md
+                    - name: IsLongStandingAdditionalPdpCoNtextProfile
+                      href: element-islongstandingadditionalpdpcontextprofile.md
+                    - name: MmsConfiguration
+                      href: element-mmsconfiguration.md
+                      items:
+                        - name: MmscUrl
+                          href: element-mmscurl.md
+                        - name: MmscPort
+                          href: element-mmscport.md
+                        - name: MmsMaximumMessageSize
+                          href: element-mmsmaximummessagesize.md
+                - name: ModemDMConfigProfile
+                  href: element-modemdmconfigprofile.md
+                  items:
+                    - name: Name
+                      href: element-1-name.md
+                    - name: SimIccID
+                      href: element-1-simiccid.md
+                    - name: ApnID
+                      href: element-1-apnid.md
+                    - name: OemConnectionId
+                      href: element-oemconnectionid.md
+                    - name: RoamApplicability
+                      href: element-1-roamapplicability.md
+                    - name: 內容
+                      href: element-1-context.md
+                      items:
+                        - name: AccessString
+                          href: element-1-accessstring.md
+                        - name: UserLogonCred
+                          href: element-1-userlogoncred.md
+                          items:
+                            - name: UserName
+                              href: element-1-username.md
+                            - name: IgnorePassword
+                              href: element-1-ignorepassword.md
+                            - name: 密碼
+                              href: element-1-password.md
+                        - name: 壓縮
+                          href: element-1-compression.md
+                        - name: AuthProtocol
+                          href: element-1-authprotocol.md
+                        - name: IPType
+                          href: element-1-iptype.md
+                    - name: AdminEnable
+                      href: element-1-adminenable.md
+                    - name: AdminRoamControl
+                      href: element-1-adminroamcontrol.md
+                    - name: ProfileCreationType
+                      href: element-1-profilecreationtype.md
+            - name: Mobile 寬頻設定檔架構 v4 簡單類型
+              href: simple-types.md
+              items:
+                - name: guidType 簡單類型
+                  href: simpletype-guidtype.md
+                - name: iwlanApplicabilityType 簡單類型
+                  href: simpletype-iwlanapplicabilitytype.md
+                - name: roamApplicabilityType 簡單類型
+                  href: simpletype-roamapplicabilitytype.md
+                - name: roamControlType 簡單類型
+                  href: simpletype-roamcontroltype.md
