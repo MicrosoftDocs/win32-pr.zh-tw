@@ -1,0 +1,1567 @@
+- name: Windows 應用程式的國際化
+  href: international-support.md
+  items:
+    - name: 使用國際 Windows 開發開始使用
+      href: getting-started-with-international-development.md
+      items:
+        - name: 瞭解國際化
+          href: understanding-internationalization.md
+        - name: 國際化檢查清單
+          href: internationalization-checklist.md
+        - name: 將多語系消費者介面支援新增至應用程式
+          href: creating-a-multilingual-user-interface-application.md
+    - name: 全球化服務
+      href: globalization-services.md
+      items:
+        - name: 擴充語言服務
+          href: extended-linguistic-services.md
+          items:
+            - name: 關於擴充的語言服務
+              href: about-extended-linguistic-services.md
+              items:
+                - name: Microsoft 語言偵測
+                  href: microsoft-language-detection.md
+                - name: Microsoft 腳本偵測
+                  href: microsoft-script-detection.md
+                - name: 音譯服務
+                  href: transliteration-services.md
+            - name: 使用擴充語言服務
+              href: using-extended-linguistic-services.md
+              items:
+                - name: 列舉和釋放服務
+                  href: enumerating-and-freeing-services.md
+                - name: 要求文字辨識
+                  href: requesting-text-recognition.md
+                - name: 提供 ELS 服務的回呼
+                  href: providing-callbacks-for-els-services.md
+            - name: 擴充語言服務參考
+              href: extended-linguistic-services-reference.md
+              items:
+                - name: 擴充的語言服務函數
+                  href: extended-linguistic-services-functions.md
+                  items:
+                    - name: PFN_MAPPINGCALLBACKPROC
+                      href: /windows/desktop/api/Elscore/nc-elscore-pfn_mappingcallbackproc
+                    - name: MappingDoAction
+                      href: /windows/desktop/api/Elscore/nf-elscore-mappingdoaction
+                    - name: MappingFreePropertyBag
+                      href: /windows/desktop/api/Elscore/nf-elscore-mappingfreepropertybag
+                    - name: MappingFreeServices
+                      href: /windows/desktop/api/Elscore/nf-elscore-mappingfreeservices
+                    - name: MappingGetServices
+                      href: /windows/desktop/api/Elscore/nf-elscore-mappinggetservices
+                    - name: MappingRecognizeText
+                      href: /windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext
+                - name: 擴充的語言服務結構
+                  href: extended-linguistic-services-structures.md
+                  items:
+                    - name: MAPPING_DATA_RANGE
+                      href: /windows/win32/api/Elscore/ns-elscore-mapping_data_range
+                    - name: MAPPING_ENUM_OPTIONS
+                      href: /windows/win32/api/Elscore/ns-elscore-mapping_enum_options
+                    - name: MAPPING_OPTIONS
+                      href: /windows/win32/api/Elscore/ns-elscore-mapping_options
+                    - name: MAPPING_PROPERTY_BAG
+                      href: /windows/win32/api/Elscore/ns-elscore-mapping_property_bag
+                    - name: MAPPING_SERVICE_INFO
+                      href: /windows/win32/api/Elscore/ns-elscore-mapping_service_info
+        - name: Unicode 的國際元件 (ICU)
+          href: international-components-for-unicode--icu-.md
+        - name: 國家語言支援
+          href: national-language-support.md
+          items:
+            - name: 關於國家語言支援
+              href: about-national-language-support.md
+              items:
+                - name: 日期和行事曆
+                  href: date-and-calendar.md
+                - name: 數位形狀
+                  href: digit-shapes.md
+                - name: 地區設定和語言
+                  href: locales-and-languages.md
+                  items:
+                    - name: 自訂地區設定
+                      href: custom-locales.md
+                    - name: 語言識別碼
+                      href: language-identifiers.md
+                    - name: 語言名稱
+                      href: language-names.md
+                    - name: 地區設定識別碼
+                      href: locale-identifiers.md
+                    - name: 地區設定名稱
+                      href: locale-names.md
+                    - name: Pseudo-Locales
+                      href: pseudo-locales.md
+                - name: NLS 術語
+                  href: nls-terminology.md
+                - name: 排序
+                  href: sorting.md
+                - name: 時間與日期
+                  href: time-and-date.md
+            - name: 使用國家語言支援
+              href: using-national-language-support.md
+              items:
+                - name: 呼叫 &quot; 地區設定名稱 &quot; 函數
+                  href: calling-the--locale-name--functions.md
+                - name: '處理國際化功能變數名稱 (IDNs) '
+                  href: handling-internationalized-domain-names--idns.md
+                - name: 處理應用程式中的排序
+                  href: handling-sorting-in-your-applications.md
+                - name: 對應地區設定資料
+                  href: mapping-locale-data.md
+                - name: 正在抓取和設定地區設定資訊
+                  href: retrieving-and-setting-locale-information.md
+                - name: 正在抓取時間和日期資訊
+                  href: retrieving-time-and-date-information.md
+                - name: 日本曆的紀元處理方式
+                  href: era-handling-for-the-japanese-calendar.md
+                - name: 使用永久性地區設定資料
+                  href: using-persistent-locale-data.md
+                - name: 使用虛擬地區設定進行當地語系化測試
+                  href: using-pseudo-locales-for-localization-testing.md
+                - name: 使用 Unicode 正規化來代表字串
+                  href: using-unicode-normalization-to-represent-strings.md
+                - name: 使用自訂地區設定
+                  href: working-with-custom-locales.md
+                - name: NLS-國際化功能變數名稱轉換範例
+                  href: nls--internationalized-domain-name--idn--conversion-sample.md
+                - name: NLS-國際化功能變數名稱緩和範例
+                  href: nls--internationalized-domain-name--idn--mitigation-sample.md
+                - name: NLS-以名稱為基礎的 Api 範例
+                  href: nls--name-based-apis-sample.md
+                - name: NLS-Unicode 正規化範例
+                  href: nls--unicode-normalization-sample.md
+            - name: 國家語言支援參考
+              href: national-language-support-reference.md
+              items:
+                - name: 國家語言支援功能
+                  href: national-language-support-functions.md
+                  items:
+                    - name: AdjustCalendarDate
+                      href: adjustcalendardate.md
+                    - name: CompareString
+                      href: /windows/desktop/api/stringapiset/nf-stringapiset-comparestringw
+                    - name: CompareStringEx
+                      href: /windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex
+                    - name: CompareStringOrdinal
+                      href: /windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal
+                    - name: ConvertCalDateTimeToSystemTime
+                      href: convertcaldatetimetosystemtime.md
+                    - name: ConvertDefaultLocale
+                      href: /windows/desktop/api/Winnls/nf-winnls-convertdefaultlocale
+                    - name: ConvertSystemTimeToCalDateTime
+                      href: convertsystemtimetocaldatetime.md
+                    - name: DownlevelGetLocaleScripts
+                      href: downlevelgetlocalescripts.md
+                    - name: DownlevelGetParentLocaleLCID
+                      href: downlevelgetparentlocalelcid.md
+                    - name: DownlevelGetParentLocaleName
+                      href: downlevelgetparentlocalename.md
+                    - name: DownlevelGetStringScripts
+                      href: downlevelgetstringscripts.md
+                    - name: DownlevelLCIDToLocaleName
+                      href: downlevellcidtolocalename.md
+                    - name: DownlevelLocaleNameToLCID
+                      href: downlevellocalenametolcid.md
+                    - name: DownlevelVerifyScripts
+                      href: downlevelverifyscripts.md
+                    - name: EnumCalendarInfo
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumcalendarinfoa
+                    - name: EnumCalendarInfoEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumcalendarinfoexa
+                    - name: EnumCalendarInfoExEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumcalendarinfoexex
+                    - name: EnumDateFormats
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumdateformatsa
+                    - name: EnumDateFormatsEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumdateformatsexa
+                    - name: EnumDateFormatsExEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumdateformatsexex
+                    - name: EnumLanguageGroupLocales
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumlanguagegrouplocalesa
+                    - name: EnumLanguageGroupLocalesProc
+                      href: /windows/desktop/api/winnls/nc-winnls-langgrouplocale_enumproca
+                    - name: EnumLocalesProcEx
+                      href: /windows/desktop/api/winnls/nc-winnls-locale_enumprocex
+                    - name: EnumSystemCodePages
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumsystemcodepagesa
+                    - name: EnumSystemGeoID
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumsystemgeoid
+                    - name: EnumSystemGeoNames
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumsystemgeonames
+                    - name: EnumSystemLanguageGroups
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumsystemlanguagegroupsa
+                    - name: EnumSystemLocales
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesa
+                    - name: EnumSystemLocalesEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesex
+                    - name: EnumTimeFormats
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumtimeformatsa
+                    - name: EnumTimeFormatsEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-enumtimeformatsex
+                    - name: FindNLSString
+                      href: /windows/desktop/api/Winnls/nf-winnls-findnlsstring
+                    - name: FindNLSStringEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-findnlsstringex
+                    - name: FindStringOrdinal
+                      href: /windows/desktop/api/Libloaderapi/nf-libloaderapi-findstringordinal
+                    - name: FoldString
+                      href: /windows/desktop/api/stringapiset/nf-stringapiset-foldstringw
+                    - name: Geo_EnumNameProc
+                      href: /windows/desktop/api/Winnls/nc-winnls-geo_enumnameproc
+                    - name: GetACP
+                      href: /windows/desktop/api/Winnls/nf-winnls-getacp
+                    - name: GetCalendarDateFormatEx
+                      href: getcalendardateformatex.md
+                    - name: GetCalendarInfo
+                      href: /windows/desktop/api/Winnls/nf-winnls-getcalendarinfoa
+                    - name: GetCalendarInfoEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-getcalendarinfoex
+                    - name: GetCalendarSupportedDateRange
+                      href: getcalendarsupporteddaterange.md
+                    - name: GetCPInfo
+                      href: /windows/desktop/api/Winnls/nf-winnls-getcpinfo
+                    - name: GetCPInfoEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-getcpinfoexa
+                    - name: GetCurrencyFormat
+                      href: /windows/desktop/api/Winnls/nf-winnls-getcurrencyformata
+                    - name: GetCurrencyFormatEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-getcurrencyformatex
+                    - name: GetDateFormat
+                      href: /windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata
+                    - name: GetDateFormatEx
+                      href: /windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformatex
+                    - name: GetDurationFormat
+                      href: /windows/desktop/api/Winnls/nf-winnls-getdurationformat
+                    - name: GetDurationFormatEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-getdurationformatex
+                    - name: GetGeoInfo
+                      href: /windows/desktop/api/Winnls/nf-winnls-getgeoinfoa
+                    - name: GetGeoInfoEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-getgeoinfoex
+                    - name: GetLocaleInfo
+                      href: /windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa
+                    - name: GetLocaleInfoEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex
+                    - name: GetNLSVersion
+                      href: /windows/desktop/api/Winnls/nf-winnls-getnlsversion
+                    - name: GetNLSVersionEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-getnlsversionex
+                    - name: GetNumberFormat
+                      href: /windows/desktop/api/Winnls/nf-winnls-getnumberformata
+                    - name: GetNumberFormatEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-getnumberformatex
+                    - name: GetOEMCP
+                      href: /windows/desktop/api/Winnls/nf-winnls-getoemcp
+                    - name: GetStringScripts
+                      href: /windows/desktop/api/Winnls/nf-winnls-getstringscripts
+                    - name: GetStringTypeA
+                      href: /windows/desktop/api/Winnls/nf-winnls-getstringtypea
+                    - name: GetStringTypeEx
+                      href: /previous-versions/aa915530(v=msdn.10)
+                    - name: GetStringTypeW
+                      href: /windows/desktop/api/Stringapiset/nf-stringapiset-getstringtypew
+                    - name: GetSystemDefaultLangID
+                      href: /windows/desktop/api/Winnls/nf-winnls-getsystemdefaultlangid
+                    - name: GetSystemDefaultLCID
+                      href: /windows/desktop/api/Winnls/nf-winnls-getsystemdefaultlcid
+                    - name: GetSystemDefaultLocaleName
+                      href: /windows/desktop/api/Winnls/nf-winnls-getsystemdefaultlocalename
+                    - name: GetThreadLocale
+                      href: /windows/desktop/api/Winnls/nf-winnls-getthreadlocale
+                    - name: GetTimeFormat
+                      href: /windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata
+                    - name: GetTimeFormatEx
+                      href: /windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformatex
+                    - name: GetUserDefaultGeoName
+                      href: /windows/desktop/api/Winnls/nf-winnls-getuserdefaultgeoname
+                    - name: GetUserDefaultLangID
+                      href: /windows/desktop/api/Winnls/nf-winnls-getuserdefaultlangid
+                    - name: GetUserDefaultLCID
+                      href: /windows/desktop/api/Winnls/nf-winnls-getuserdefaultlcid
+                    - name: GetUserDefaultLocaleName
+                      href: /windows/desktop/api/Winnls/nf-winnls-getuserdefaultlocalename
+                    - name: GetUserGeoID
+                      href: /windows/desktop/api/Winnls/nf-winnls-getusergeoid
+                    - name: IdnToAscii
+                      href: /windows/desktop/api/Winnls/nf-winnls-idntoascii
+                    - name: IdnToNameprepUnicode
+                      href: /windows/desktop/api/Winnls/nf-winnls-idntonameprepunicode
+                    - name: IdnToUnicode
+                      href: /windows/desktop/api/Winnls/nf-winnls-idntounicode
+                    - name: IsCalendarLeapYear
+                      href: iscalendarleapyear.md
+                    - name: IsNLSDefinedString
+                      href: /windows/desktop/api/Winnls/nf-winnls-isnlsdefinedstring
+                    - name: IsNormalizedString
+                      href: /windows/desktop/api/Winnls/nf-winnls-isnormalizedstring
+                    - name: IsValidCodePage
+                      href: /windows/desktop/api/Winnls/nf-winnls-isvalidcodepage
+                    - name: IsValidLanguageGroup
+                      href: /windows/desktop/api/Winnls/nf-winnls-isvalidlanguagegroup
+                    - name: IsValidLocale
+                      href: /windows/desktop/api/Winnls/nf-winnls-isvalidlocale
+                    - name: IsValidLocaleName
+                      href: /windows/desktop/api/Winnls/nf-winnls-isvalidlocalename
+                    - name: IsValidNLSVersion
+                      href: /windows/desktop/api/Winnls/nf-winnls-isvalidnlsversion
+                    - name: LCIDToLocaleName
+                      href: /windows/desktop/api/Winnls/nf-winnls-lcidtolocalename
+                    - name: LCMapString
+                      href: /windows/desktop/api/Winnls/nf-winnls-lcmapstringa
+                    - name: LCMapStringEx
+                      href: /windows/desktop/api/Winnls/nf-winnls-lcmapstringex
+                    - name: LoadStringByReference
+                      href: /windows/desktop/api/Winnls/nf-winnls-loadstringbyreference
+                    - name: LocaleNameToLCID
+                      href: /windows/desktop/api/Winnls/nf-winnls-localenametolcid
+                    - name: NormalizeString
+                      href: /windows/desktop/api/Winnls/nf-winnls-normalizestring
+                    - name: NotifyUILanguageChange
+                      href: /windows/desktop/api/Winnls/nf-winnls-notifyuilanguagechange
+                    - name: ResolveLocaleName
+                      href: /windows/desktop/api/Winnls/nf-winnls-resolvelocalename
+                    - name: RtlIsValidLocaleName
+                      href: rtlisvalidlocalename.md
+                    - name: SetCalendarInfo
+                      href: /windows/desktop/api/Winnls/nf-winnls-setcalendarinfoa
+                    - name: SetLocaleInfo
+                      href: /windows/desktop/api/Winnls/nf-winnls-setlocaleinfoa
+                    - name: SetThreadLocale
+                      href: /windows/desktop/api/Winnls/nf-winnls-setthreadlocale
+                    - name: SetUserGeoID
+                      href: /windows/desktop/api/Winnls/nf-winnls-setusergeoid
+                    - name: SetUserGeoName
+                      href: /windows/desktop/api/Winnls/nf-winnls-setusergeoname
+                    - name: UpdateCalendarDayOfWeek
+                      href: updatecalendardayofweek.md
+                    - name: VerifyScripts
+                      href: /windows/desktop/api/Winnls/nf-winnls-verifyscripts
+                - name: 國家語言支援宏
+                  href: national-language-support-macros.md
+                  items:
+                    - name: IS_HIGH_SURROGATE
+                      href: /windows/desktop/api/Winnls/nf-winnls-is_high_surrogate
+                    - name: IS_LOW_SURROGATE
+                      href: /windows/desktop/api/Winnls/nf-winnls-is_low_surrogate
+                    - name: IS_SURROGATE_PAIR
+                      href: /windows/desktop/api/Winnls/nf-winnls-is_surrogate_pair
+                    - name: LANGIDFROMLCID
+                      href: /windows/desktop/api/Winnt/nf-winnt-langidfromlcid
+                    - name: MAKELANGID
+                      href: /windows/desktop/api/Winnt/nf-winnt-makelangid
+                    - name: MAKELCID
+                      href: /windows/desktop/api/Winnt/nf-winnt-makelcid
+                    - name: MAKESORTLCID
+                      href: /windows/desktop/api/Winnt/nf-winnt-makesortlcid
+                    - name: PRIMARYLANGID
+                      href: /windows/desktop/api/Winnt/nf-winnt-primarylangid
+                    - name: SORTIDFROMLCID
+                      href: /windows/desktop/api/Winnt/nf-winnt-sortidfromlcid
+                    - name: SORTVERSIONFROMLCID
+                      href: /windows/desktop/api/Winnt/nf-winnt-sortversionfromlcid
+                    - name: SUBLANGID
+                      href: /windows/desktop/api/Winnt/nf-winnt-sublangid
+                - name: 國家語言支援結構
+                  href: national-language-support-structures.md
+                  items:
+                    - name: CALDATETIME
+                      href: caldatetime.md
+                    - name: CPINFO
+                      href: /windows/win32/api/Winnls/ns-winnls-cpinfo
+                    - name: CPINFOEX
+                      href: /windows/win32/api/Winnls/ns-winnls-cpinfoexa
+                    - name: CURRENCYFMT
+                      href: /windows/win32/api/Winnls/ns-winnls-currencyfmta
+                    - name: NLSVERSIONINFO
+                      href: /windows/desktop/api/Winnls/ns-winnls-nlsversioninfo~r1
+                    - name: NLSVERSIONINFOEX
+                      href: /windows/win32/api/Winnls/ns-winnls-nlsversioninfoex
+                    - name: NUMBERFMT
+                      href: /windows/win32/api/Winnls/ns-winnls-numberfmta
+                - name: 國家語言支援列舉類型
+                  href: national-language-support-enumeration-types.md
+                  items:
+                    - name: CALDATETIME_DATEUNIT
+                      href: caldatetime-dateunit.md
+                    - name: NORM_FORM
+                      href: /windows/win32/api/Winnls/ne-winnls-norm_form
+                    - name: SYSGEOCLASS
+                      href: /windows/desktop/api/Winnls/ne-winnls-sysgeoclass
+                    - name: SYSGEOTYPE
+                      href: /windows/desktop/api/Winnls/ne-winnls-sysgeotype
+                    - name: SYSNLS_FUNCTION
+                      href: /windows/desktop/api/Winnls/ne-winnls-sysnls_function
+                - name: 國家語言支援常數
+                  href: national-language-support-constants.md
+                  items:
+                    - name: 行事曆識別碼
+                      href: calendar-identifiers.md
+                    - name: 行事曆類型資訊
+                      href: calendar-type-information.md
+                    - name: 日、月、年和年代格式的圖片
+                      href: day--month--year--and-era-format-pictures.md
+                    - name: Hour、Minute 和 Second 格式的圖片
+                      href: hour--minute--and-second-format-pictures.md
+                    - name: 語言識別項常數和字串
+                      href: language-identifier-constants-and-strings.md
+                    - name: 地區設定資訊常數
+                      href: locale-information-constants.md
+                      items:
+                        - name: LOCALE_ALL
+                          href: locale-all.md
+                        - name: LOCALE_ALLOW_NEUTRAL
+                          href: locale-allow-neutral.md
+                        - name: LOCALE_ALLOW_NEUTRAL_NAMES
+                          href: locale-allow-neutral-names.md
+                        - name: LOCALE_ALTERNATE_SORTS
+                          href: locale-alternate-sorts.md
+                        - name: LOCALE_CUSTOM * 常數
+                          href: locale-custom-constants.md
+                        - name: LOCALE_FONTSIGNATURE
+                          href: locale-fontsignature.md
+                        - name: LOCALE_ICALENDARTYPE
+                          href: locale-icalendartype.md
+                        - name: LOCALE_ICENTURY
+                          href: locale-icentury.md
+                        - name: LOCALE_ICOUNTRY
+                          href: locale-icountry.md
+                        - name: LOCALE_ICURRDIGITS
+                          href: locale-icurrdigits.md
+                        - name: LOCALE_ICURRENCY
+                          href: locale-icurrency.md
+                        - name: LOCALE_IDATE
+                          href: locale-idate.md
+                        - name: LOCALE_IDAYLZERO
+                          href: locale-idaylzero.md
+                        - name: LOCALE_IDEFAULT * 常數
+                          href: locale-idefault-constants.md
+                        - name: LOCALE_IDIGITS
+                          href: locale-idigits.md
+                        - name: LOCALE_IDIGITSUBSTITUTION
+                          href: locale-idigitsubstitution.md
+                        - name: LOCALE_IFIRSTDAYOFWEEK
+                          href: locale-ifirstdayofweek.md
+                        - name: LOCALE_IFIRSTWEEKOFYEAR
+                          href: locale-ifirstweekofyear.md
+                        - name: LOCALE_IGEOID
+                          href: locale-igeoid.md
+                        - name: LOCALE_IINTLCURRDIGITS
+                          href: locale-iintlcurrdigits.md
+                        - name: LOCALE_ILANGUAGE
+                          href: locale-ilanguage.md
+                        - name: LOCALE_ILDATE
+                          href: locale-ildate.md
+                        - name: LOCALE_ILZERO
+                          href: locale-ilzero.md
+                        - name: LOCALE_IMEASURE
+                          href: locale-imeasure.md
+                        - name: LOCALE_IMONLZERO
+                          href: locale-imonlzero.md
+                        - name: LOCALE_INEGATIVEPERCENT
+                          href: locale-inegativepercent.md
+                        - name: LOCALE_INEG * 常數
+                          href: locale-ineg-constants.md
+                        - name: LOCALE_INEUTRAL
+                          href: locale-ineutral.md
+                        - name: LOCALE_INVARIANT
+                          href: locale-invariant.md
+                        - name: LOCALE_IOPTIONALCALENDAR
+                          href: locale-ioptionalcalendar.md
+                        - name: LOCALE_IPAPERSIZE
+                          href: locale-ipapersize.md
+                        - name: LOCALE_IPOSITIVEPERCENT
+                          href: locale-ipositivepercent.md
+                        - name: LOCALE_IPOS * 常數
+                          href: locale-ipos-constants.md
+                        - name: LOCALE_IREADINGLAYOUT
+                          href: locale-ireadinglayout.md
+                        - name: LOCALE_ITIME
+                          href: locale-itime.md
+                        - name: LOCALE_ITIMEMARKPOSN
+                          href: locale-itimemarkposn.md
+                        - name: LOCALE_ITLZERO
+                          href: locale-itlzero.md
+                        - name: LOCALE_IUSEUTF8LEGACYACP
+                          href: locale_iuseutf8legacyacp.md
+                        - name: LOCALE_IUSEUTF8LEGACYOEMCP
+                          href: locale_iuseutf8legacyoemcp.md
+                        - name: LOCALE_NAME * 常數
+                          href: locale-name-constants.md
+                        - name: LOCALE_NEUTRAL
+                          href: locale-neutral.md
+                        - name: LOCALE_NEUTRALDATA
+                          href: locale-neutraldata.md
+                        - name: LOCALE_NOUSEROVERRIDE
+                          href: locale-nouseroverride.md
+                        - name: LOCALE_REPLACEMENT
+                          href: locale-replacement.md
+                        - name: LOCALE_RETURN * 常數
+                          href: locale-return-constants.md
+                        - name: LOCALE_S1159
+                          href: locale-s1159.md
+                        - name: LOCALE_S2359
+                          href: locale-s2359.md
+                        - name: LOCALE_SABBREV * 常數
+                          href: locale-sabbrev-constants.md
+                        - name: LOCALE_SCONSOLEFALLBACKNAME
+                          href: locale-sconsolefallbackname.md
+                        - name: LOCALE_SCOUNTRY
+                          href: locale-scountry.md
+                        - name: LOCALE_SCURRENCY
+                          href: locale-scurrency.md
+                        - name: LOCALE_SDATE
+                          href: locale-sdate.md
+                        - name: LOCALE_SDAYNAME * 常數
+                          href: locale-sdayname-constants.md
+                        - name: LOCALE_SDECIMAL
+                          href: locale-sdecimal.md
+                        - name: LOCALE_SDURATION
+                          href: locale-sduration.md
+                        - name: LOCALE_SENG * 常數
+                          href: locale-seng-constants.md
+                        - name: LOCALE_SENGLISH * 常數
+                          href: locale-senglish-constants.md
+                        - name: LOCALE_SGROUPING
+                          href: locale-sgrouping.md
+                        - name: LOCALE_SIETFLANGUAGE
+                          href: locale-sietflanguage.md
+                        - name: LOCALE_SINTLSYMBOL
+                          href: locale-sintlsymbol.md
+                        - name: LOCALE_SISO * 常數
+                          href: locale-siso-constants.md
+                        - name: LOCALE_SKEYBOARDSTOINSTALL
+                          href: locale-skeyboardstoinstall.md
+                        - name: LOCALE_SLANGDISPLAYNAME
+                          href: locale-slangdisplayname.md
+                        - name: LOCALE_SLANGUAGE
+                          href: locale-slanguage.md
+                        - name: LOCALE_SLIST
+                          href: locale-slist.md
+                        - name: LOCALE_SLOCALIZED * 常數
+                          href: locale-slocalized-constants.md
+                        - name: LOCALE_SLONGDATE
+                          href: locale-slongdate.md
+                        - name: LOCALE_SMON * 常數
+                          href: locale-smon-constants.md
+                        - name: LOCALE_SMONTHDAY
+                          href: locale-smonthday.md
+                        - name: LOCALE_SMONTHNAME * 常數
+                          href: locale-smonthname-constants.md
+                        - name: LOCALE_SNAME
+                          href: locale-sname.md
+                        - name: LOCALE_SNAN
+                          href: locale-snan.md
+                        - name: LOCALE_SNATIVE * 常數
+                          href: locale-snative-constants.md
+                        - name: LOCALE_SNEGATIVESIGN
+                          href: locale-snegativesign.md
+                        - name: LOCALE_SNEGINFINITY
+                          href: locale-sneginfinity.md
+                        - name: LOCALE_SOPENTYPELANGUAGETAG
+                          href: locale-sopentypelanguagetag.md
+                        - name: LOCALE_SORTNAME
+                          href: locale-sortname.md
+                        - name: LOCALE_SPARENT
+                          href: locale-sparent.md
+                        - name: LOCALE_SPECIFICDATA
+                          href: locale-specificdata.md
+                        - name: LOCALE_SPERCENT
+                          href: locale-spercent.md
+                        - name: LOCALE_SPERMILLE
+                          href: locale-spermille.md
+                        - name: LOCALE_SPOSINFINITY
+                          href: locale-sposinfinity.md
+                        - name: LOCALE_SPOSITIVESIGN
+                          href: locale-spositivesign.md
+                        - name: LOCALE_SSCRIPTS
+                          href: locale-sscripts.md
+                        - name: LOCALE_SSHORTDATE
+                          href: locale-sshortdate.md
+                        - name: LOCALE_SSHORTESTAM
+                          href: locale-sshortestam.md
+                        - name: LOCALE_SSHORTESTDAYNAME * 常數
+                          href: locale-sshortestdayname-constants.md
+                        - name: LOCALE_SSHORTESTPM
+                          href: locale-sshortestpm.md
+                        - name: LOCALE_SSHORTTIME
+                          href: locale-sshorttime.md
+                        - name: LOCALE_SSORT_CONSTANTS
+                          href: locale-ssort-constants.md
+                        - name: LOCALE_STHOUSAND
+                          href: locale-sthousand.md
+                        - name: LOCALE_STIME * 常數
+                          href: locale-stime-constants.md
+                        - name: LOCALE_SUPPLEMENTAL
+                          href: locale-supplemental.md
+                        - name: LOCALE_SYEARMONTH
+                          href: locale-syearmonth.md
+                        - name: LOCALE_SYSTEM_DEFAULT
+                          href: locale-system-default.md
+                        - name: LOCALE_USE_CP_ACP
+                          href: locale-use-cp-acp.md
+                        - name: LOCALE_USER_DEFAULT
+                          href: locale-user-default.md
+                        - name: LOCALE_WINDOWS
+                          href: locale-windows.md
+                    - name: 紙張大小
+                      href: paper-sizes.md
+                    - name: 排序次序識別碼
+                      href: sort-order-identifiers.md
+                    - name: 地理位置資料表
+                      href: table-of-geographical-locations.md
+        - name: 拼寫檢查 API
+          href: spell-checker-api.md
+          items:
+            - name: 關於拼寫檢查 API
+              href: about-the-spell-checker-api.md
+            - name: 拼寫檢查 API 參考
+              href: spell-checker-api-reference.md
+              items:
+                - name: 拼寫檢查介面
+                  href: spell-checker-interfaces.md
+                  items:
+                    - name: IComprehensiveSpellCheckProvider
+                      href: /windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-icomprehensivespellcheckprovider
+                      items:
+                        - name: ComprehensiveCheck 方法
+                          href: icomprehensivespellcheckprovider-comprehensivecheck.md
+                    - name: IEnumSpellingError
+                      href: /windows/desktop/api/Spellcheck/nn-spellcheck-ienumspellingerror
+                      items:
+                        - name: Next 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ienumspellingerror-next
+                    - name: IOptionDescription
+                      href: /windows/desktop/api/Spellcheck/nn-spellcheck-ioptiondescription
+                      items:
+                        - name: Description 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ioptiondescription-get_description
+                        - name: 標題屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ioptiondescription-get_heading
+                        - name: Id 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ioptiondescription-get_id
+                        - name: 標籤屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ioptiondescription-get_labels
+                    - name: ISpellChecker
+                      href: /windows/desktop/api/Spellcheck/nn-spellcheck-ispellchecker
+                      items:
+                        - name: Add 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-add
+                        - name: add_SpellCheckerChanged 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-add_spellcheckerchanged
+                        - name: 自動校正方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-autocorrect
+                        - name: Check 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-check
+                        - name: ComprehensiveCheck 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-comprehensivecheck
+                        - name: GetOptionDescription 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-getoptiondescription
+                        - name: Textview.options.getoptionvalue 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-getoptionvalue
+                        - name: Ignore 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-ignore
+                        - name: remove_SpellCheckerChanged 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-remove_spellcheckerchanged
+                        - name: 建議方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-suggest
+                        - name: Id 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-get_id
+                        - name: LanguageTag 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-get_languagetag
+                        - name: LocalizedName 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-get_localizedname
+                        - name: OptionIds 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-get_optionids
+                    - name: ISpellChecker2
+                      href: /windows/desktop/api/Spellcheck/nn-spellcheck-ispellchecker2
+                      items:
+                        - name: Remove 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker2-remove
+                    - name: ISpellCheckerChangedEventHandler
+                      href: /windows/desktop/api/Spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler
+                      items:
+                        - name: Invoke 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellcheckerchangedeventhandler-invoke
+                    - name: ISpellCheckerFactory
+                      href: /windows/desktop/api/Spellcheck/nn-spellcheck-ispellcheckerfactory
+                      items:
+                        - name: CreateSpellChecker 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellcheckerfactory-createspellchecker
+                        - name: IsSupported 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellcheckerfactory-issupported
+                        - name: SupportedLanguages 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellcheckerfactory-get_supportedlanguages
+                    - name: ISpellCheckProvider
+                      href: /windows/desktop/api/Spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider
+                      items:
+                        - name: Check 方法
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check
+                        - name: GetOptionDescription 方法
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-getoptiondescription
+                        - name: Textview.options.getoptionvalue 方法
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-getoptionvalue
+                        - name: InitializeWordlist 方法
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-initializewordlist
+                        - name: SetOptionValue 方法
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-setoptionvalue
+                        - name: 建議方法
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-suggest
+                        - name: Id 屬性
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-get_id
+                        - name: LanguageTag 屬性
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-get_languagetag
+                        - name: LocalizedName 屬性
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-get_localizedname
+                        - name: OptionIds 屬性
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-get_optionids
+                    - name: ISpellCheckProviderFactory
+                      href: /windows/desktop/api/Spellcheckprovider/nn-spellcheckprovider-ispellcheckproviderfactory
+                      items:
+                        - name: CreateSpellCheckProvider 方法
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-createspellcheckprovider
+                        - name: IsSupported 方法
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported
+                        - name: SupportedLanguages 屬性
+                          href: /windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-get_supportedlanguages
+                    - name: ISpellingError
+                      href: /windows/desktop/api/Spellcheck/nn-spellcheck-ispellingerror
+                      items:
+                        - name: CorrectiveAction 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellingerror-get_correctiveaction
+                        - name: Length 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellingerror-get_length
+                        - name: 取代屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellingerror-get_replacement
+                        - name: StartIndex 屬性
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-ispellingerror-get_startindex
+                    - name: IUserDictionariesRegistrar
+                      href: /windows/desktop/api/Spellcheck/nn-spellcheck-iuserdictionariesregistrar
+                      items:
+                        - name: RegisterUserDictionary 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-iuserdictionariesregistrar-registeruserdictionary
+                        - name: UnregisterUserDictionary 方法
+                          href: /windows/desktop/api/Spellcheck/nf-spellcheck-iuserdictionariesregistrar-unregisteruserdictionary
+                - name: 拼寫檢查列舉
+                  href: spell-checker-enumerations.md
+                  items:
+                    - name: CORRECTIVE_ACTION
+                      href: /windows/desktop/api/SpellCheck/ne-spellcheck-corrective_action
+                    - name: WORDLIST_TYPE
+                      href: /windows/desktop/api/SpellCheck/ne-spellcheck-wordlist_type
+    - name: 輸入方法管理員
+      href: input-method-manager.md
+      items:
+        - name: 關於輸入方法管理員
+          href: about-input-method-manager.md
+          items:
+            - name: 候選清單
+              href: candidate-lists.md
+            - name: 組合字元串
+              href: composition-string.md
+            - name: HexToUnicode IME
+              href: hextounicode-ime.md
+            - name: 快速鍵
+              href: hot-keys.md
+            - name: 輸入法訊息
+              href: ime-messages.md
+            - name: IME 視窗類別
+              href: ime-window-class.md
+            - name: 輸入內容
+              href: input-context.md
+            - name: 狀態、撰寫和候選視窗
+              href: status--composition--and-candidates-windows.md
+        - name: 使用輸入方法管理員
+          href: using-input-method-manager.md
+          items:
+            - name: 開發 IME-Aware 多執行緒應用程式
+              href: developing-ime-aware-multiple-thread-applications.md
+            - name: 在 IME-Aware 應用程式中處理 Unicode
+              href: handling-unicode-in-an-ime-aware-application.md
+            - name: 處理 WM_IME_COMPOSITION 訊息
+              href: processing-the-wm-ime-composition-message.md
+            - name: 搭配 IME 使用漢字重組
+              href: using-reconversion-with-an-ime.md
+        - name: 輸入方法管理員參考
+          href: input-method-manager-reference.md
+          items:
+            - name: 輸入方法管理員列舉
+              href: input-method-manager-enumerations.md
+              items:
+                - name: IMEUCT
+                  href: /windows/desktop/api/Msime/ne-msime-imeuct
+            - name: 輸入方法管理員命令
+              href: input-method-manager-commands.md
+              items:
+                - name: IMC_CLOSESTATUSWINDOW
+                  href: imc-closestatuswindow.md
+                - name: IMC_GETCANDIDATEPOS
+                  href: imc-getcandidatepos.md
+                - name: IMC_GETCOMPOSITIONFONT
+                  href: imc-getcompositionfont.md
+                - name: IMC_GETCOMPOSITIONWINDOW
+                  href: imc-getcompositionwindow.md
+                - name: IMC_GETSTATUSWINDOWPOS
+                  href: imc-getstatuswindowpos.md
+                - name: IMC_OPENSTATUSWINDOW
+                  href: imc-openstatuswindow.md
+                - name: IMC_SETCANDIDATEPOS
+                  href: imc-setcandidatepos.md
+                - name: IMC_SETCOMPOSITIONFONT
+                  href: imc-setcompositionfont.md
+                - name: IMC_SETCOMPOSITIONWINDOW
+                  href: imc-setcompositionwindow.md
+                - name: IMC_SETSTATUSWINDOWPOS
+                  href: imc-setstatuswindowpos.md
+                - name: IMN_CHANGECANDIDATE
+                  href: imn-changecandidate.md
+                - name: IMN_CLOSECANDIDATE
+                  href: imn-closecandidate.md
+                - name: IMN_CLOSESTATUSWINDOW
+                  href: imn-closestatuswindow.md
+                - name: IMN_GUIDELINE
+                  href: imn-guideline.md
+                - name: IMN_OPENCANDIDATE
+                  href: imn-opencandidate.md
+                - name: IMN_OPENSTATUSWINDOW
+                  href: imn-openstatuswindow.md
+                - name: IMN_SETCANDIDATEPOS
+                  href: imn-setcandidatepos.md
+                - name: IMN_SETCOMPOSITIONFONT
+                  href: imn-setcompositionfont.md
+                - name: IMN_SETCOMPOSITIONWINDOW
+                  href: imn-setcompositionwindow.md
+                - name: IMN_SETCONVERSIONMODE
+                  href: imn-setconversionmode.md
+                - name: IMN_SETOPENSTATUS
+                  href: imn-setopenstatus.md
+                - name: IMN_SETSENTENCEMODE
+                  href: imn-setsentencemode.md
+                - name: IMN_SETSTATUSWINDOWPOS
+                  href: imn-setstatuswindowpos.md
+                - name: IMR_CANDIDATEWINDOW
+                  href: imr-candidatewindow.md
+                - name: IMR_COMPOSITIONFONT
+                  href: imr-compositionfont.md
+                - name: IMR_COMPOSITIONWINDOW
+                  href: imr-compositionwindow.md
+                - name: IMR_CONFIRMRECONVERTSTRING
+                  href: imr-confirmreconvertstring.md
+                - name: IMR_DOCUMENTFEED
+                  href: imr-documentfeed.md
+                - name: IMR_QUERYCHARPOSITION
+                  href: imr-querycharposition.md
+                - name: IMR_RECONVERTSTRING
+                  href: imr-reconvertstring.md
+            - name: 輸入方法管理員常數
+              href: input-method-manager-constants.md
+              items:
+                - name: IME 組合字元串值
+                  href: ime-composition-string-values.md
+                - name: IME 轉換模式值
+                  href: ime-conversion-mode-values.md
+                - name: IME 轉義
+                  href: ime-escapes.md
+                - name: 輸入碼熱鍵識別碼
+                  href: ime-hot-key-identifiers.md
+                - name: IME 句子模式值
+                  href: ime-sentence-mode-values.md
+            - name: 輸入方法管理員函數
+              href: input-method-manager-functions.md
+              items:
+                - name: CreateIFECommonInstance
+                  href: /windows/desktop/api/msime/nf-msime-createifecommoninstance
+                - name: CreateIFEDictionaryInstance
+                  href: /windows/desktop/api/msime/nf-msime-createifedictionaryinstance
+                - name: CreateIFELanguageInstance
+                  href: /windows/desktop/api/msime/nf-msime-createifelanguageinstance
+                - name: IMCENUMPROC
+                  href: /windows/desktop/api/Imm/nc-imm-imcenumproc
+                - name: REGISTERWORDENUMPROC
+                  href: /windows/desktop/api/Imm/nc-imm-registerwordenumproca
+                - name: ImmAssociateCoNtext
+                  href: /windows/desktop/api/Imm/nf-imm-immassociatecontext
+                - name: ImmAssociateCoNtextEx
+                  href: /windows/desktop/api/Imm/nf-imm-immassociatecontextex
+                - name: ImmConfigureIME
+                  href: /windows/desktop/api/Imm/nf-imm-immconfigureimea
+                - name: ImmCreateCoNtext
+                  href: /windows/desktop/api/Imm/nf-imm-immcreatecontext
+                - name: ImmDestroyCoNtext
+                  href: /windows/desktop/api/Imm/nf-imm-immdestroycontext
+                - name: ImmDisableIME
+                  href: /windows/desktop/api/Imm/nf-imm-immdisableime
+                - name: ImmDisableLegacyIME
+                  href: /windows/desktop/api/Imm/nf-imm-immdisablelegacyime
+                - name: ImmDisableTextFrameService
+                  href: /windows/desktop/api/Imm/nf-imm-immdisabletextframeservice
+                - name: ImmEnumInputCoNtext
+                  href: /windows/desktop/api/Imm/nf-imm-immenuminputcontext
+                - name: ImmEnumRegisterWord
+                  href: /windows/desktop/api/Imm/nf-imm-immenumregisterworda
+                - name: ImmEscape
+                  href: /windows/desktop/api/Imm/nf-imm-immescapea
+                - name: ImmGetCandidateList
+                  href: /windows/desktop/api/Imm/nf-imm-immgetcandidatelista
+                - name: ImmGetCandidateListCount
+                  href: /windows/desktop/api/Imm/nf-imm-immgetcandidatelistcounta
+                - name: ImmGetCandidateWindow
+                  href: /windows/desktop/api/Imm/nf-imm-immgetcandidatewindow
+                - name: ImmGetCompositionFont
+                  href: /windows/desktop/api/Imm/nf-imm-immgetcompositionfonta
+                - name: ImmGetCompositionString
+                  href: /windows/desktop/api/Imm/nf-imm-immgetcompositionstringa
+                - name: ImmGetCompositionWindow
+                  href: /windows/desktop/api/Imm/nf-imm-immgetcompositionwindow
+                - name: ImmGetCoNtext
+                  href: /windows/desktop/api/Imm/nf-imm-immgetcontext
+                - name: ImmGetConversionList
+                  href: /windows/desktop/api/Imm/nf-imm-immgetconversionlista
+                - name: ImmGetConversionStatus
+                  href: /windows/desktop/api/Imm/nf-imm-immgetconversionstatus
+                - name: ImmGetDefaultIMEWnd
+                  href: /windows/desktop/api/Imm/nf-imm-immgetdefaultimewnd
+                - name: ImmGetDescription
+                  href: /windows/desktop/api/Imm/nf-imm-immgetdescriptiona
+                - name: ImmGetGuideLine
+                  href: /windows/desktop/api/Imm/nf-imm-immgetguidelinea
+                - name: ImmGetIMEFileName
+                  href: /windows/desktop/api/Imm/nf-imm-immgetimefilenamea
+                - name: ImmGetImeMenuItems
+                  href: /windows/desktop/api/Imm/nf-imm-immgetimemenuitemsa
+                - name: ImmGetOpenStatus
+                  href: /windows/desktop/api/Imm/nf-imm-immgetopenstatus
+                - name: ImmGetProperty
+                  href: /windows/desktop/api/Imm/nf-imm-immgetproperty
+                - name: ImmGetRegisterWordStyle
+                  href: /windows/desktop/api/Imm/nf-imm-immgetregisterwordstylea
+                - name: ImmGetStatusWindowPos
+                  href: /windows/desktop/api/Imm/nf-imm-immgetstatuswindowpos
+                - name: ImmGetVirtualKey
+                  href: /windows/desktop/api/Imm/nf-imm-immgetvirtualkey
+                - name: ImmInstallIME
+                  href: /windows/desktop/api/Imm/nf-imm-imminstallimea
+                - name: ImmIsIME
+                  href: /windows/desktop/api/Imm/nf-imm-immisime
+                - name: ImmIsUIMessage
+                  href: /windows/desktop/api/Imm/nf-imm-immisuimessagea
+                - name: ImmNotifyIME
+                  href: /windows/desktop/api/Imm/nf-imm-immnotifyime
+                - name: ImmRegisterWord
+                  href: /windows/desktop/api/Imm/nf-imm-immregisterworda
+                - name: ImmReleaseCoNtext
+                  href: /windows/desktop/api/Imm/nf-imm-immreleasecontext
+                - name: ImmRequestMessage
+                  href: /windows/desktop/api/Immdev/nf-immdev-immrequestmessagea
+                - name: ImmSetCandidateWindow
+                  href: /windows/desktop/api/Imm/nf-imm-immsetcandidatewindow
+                - name: ImmSetCompositionFont
+                  href: /windows/desktop/api/Imm/nf-imm-immsetcompositionfonta
+                - name: ImmSetCompositionString
+                  href: /windows/desktop/api/Imm/nf-imm-immsetcompositionstringa
+                - name: ImmSetCompositionWindow
+                  href: /windows/desktop/api/Imm/nf-imm-immsetcompositionwindow
+                - name: ImmSetConversionStatus
+                  href: /windows/desktop/api/Imm/nf-imm-immsetconversionstatus
+                - name: ImmSetOpenStatus
+                  href: /windows/desktop/api/Imm/nf-imm-immsetopenstatus
+                - name: ImmSetStatusWindowPos
+                  href: /windows/desktop/api/Imm/nf-imm-immsetstatuswindowpos
+                - name: ImmSimulateHotKey
+                  href: /windows/desktop/api/Imm/nf-imm-immsimulatehotkey
+                - name: ImmUnregisterWord
+                  href: /windows/desktop/api/Imm/nf-imm-immunregisterworda
+            - name: 輸入方法管理員介面
+              href: input-method-manager-interfaces.md
+              items:
+                - name: IFECommon
+                  href: /windows/desktop/api/Msime/nn-msime-ifecommon
+                  items:
+                    - name: InvokeDictToolDialog 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifecommon-invokedicttooldialog
+                    - name: InvokeWordRegDialog 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifecommon-invokewordregdialog
+                    - name: IsDefaultIME 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifecommon-isdefaultime
+                    - name: SetDefaultIME 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifecommon-setdefaultime
+                - name: IFEDictionary
+                  href: /windows/desktop/api/Msime/nn-msime-ifedictionary
+                  items:
+                    - name: Close 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-close
+                    - name: 建立方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-create
+                    - name: DisplayProperty 方法
+                      href: /windows/desktop/api/msime/nf-msime-ifedictionary-displayproperty
+                    - name: ExistWord 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-existword
+                    - name: Messageheaders 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-getheader
+                    - name: GetPosTable 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-getpostable
+                    - name: GetWords 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-getwords
+                    - name: NextWords 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-nextwords
+                    - name: Open 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-open
+                    - name: RegisterWord 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-registerword
+                    - name: SetHeader 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifedictionary-setheader
+                - name: IFELanguage
+                  href: /windows/desktop/api/Msime/nn-msime-ifelanguage
+                  items:
+                    - name: Close 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifelanguage-close
+                    - name: GetConversion 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifelanguage-getconversion
+                    - name: GetConversionModeCaps 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifelanguage-getconversionmodecaps
+                    - name: GetJMorphResult 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifelanguage-getjmorphresult
+                    - name: Open 方法
+                      href: /windows/desktop/api/Msime/nf-msime-ifelanguage-open
+                - name: IImePad
+                  href: /windows/desktop/api/Imepad/nn-imepad-iimepad
+                  items:
+                    - name: 要求方法
+                      href: /windows/desktop/api/Imepad/nf-imepad-iimepad-request
+                - name: IImePadApplet
+                  href: /windows/desktop/api/Imepad/nn-imepad-iimepadapplet
+                  items:
+                    - name: CreateUI 方法
+                      href: /windows/desktop/api/Imepad/nf-imepad-iimepadapplet-createui
+                    - name: GetAppletCfg 方法
+                      href: /previous-versions/windows/desktop/legacy/hh851787(v=vs.85)
+                    - name: Initialize 方法
+                      href: /windows/desktop/api/Imepad/nf-imepad-iimepadapplet-initialize
+                    - name: Notify 方法
+                      href: /windows/desktop/api/Imepad/nf-imepad-iimepadapplet-notify
+                    - name: Terminate 方法
+                      href: /windows/desktop/api/Imepad/nf-imepad-iimepadapplet-terminate
+                - name: IImePlugInDictDictionaryList
+                  href: /windows/desktop/api/Msimeapi/nn-msimeapi-iimeplugindictdictionarylist
+                  items:
+                    - name: DeleteDictionary 方法
+                      href: /windows/desktop/api/Msimeapi/nf-msimeapi-iimeplugindictdictionarylist-deletedictionary
+                    - name: GetDictionariesInUse 方法
+                      href: /windows/desktop/api/Msimeapi/nf-msimeapi-iimeplugindictdictionarylist-getdictionariesinuse
+                - name: IImeSpecifyApplets
+                  href: /windows/desktop/api/Imepad/nn-imepad-iimespecifyapplets
+                  items:
+                    - name: GetAppletIIDList 方法
+                      href: /windows/desktop/api/Imepad/nf-imepad-iimespecifyapplets-getappletiidlist
+            - name: 輸入方法管理員訊息
+              href: input-method-manager-messages.md
+              items:
+                - name: WM_IME_CHAR
+                  href: wm-ime-char.md
+                - name: WM_IME_COMPOSITION
+                  href: wm-ime-composition.md
+                - name: WM_IME_COMPOSITIONFULL
+                  href: wm-ime-compositionfull.md
+                - name: WM_IME_CONTROL
+                  href: wm-ime-control.md
+                - name: WM_IME_ENDCOMPOSITION
+                  href: wm-ime-endcomposition.md
+                - name: WM_IME_KEYDOWN
+                  href: wm-ime-keydown.md
+                - name: WM_IME_KEYUP
+                  href: wm-ime-keyup.md
+                - name: WM_IME_NOTIFY
+                  href: wm-ime-notify.md
+                - name: WM_IME_REQUEST
+                  href: wm-ime-request.md
+                - name: WM_IME_SELECT
+                  href: wm-ime-select.md
+                - name: WM_IME_SETCONTEXT
+                  href: wm-ime-setcontext.md
+                - name: WM_IME_STARTCOMPOSITION
+                  href: wm-ime-startcomposition.md
+            - name: 輸入方法管理員結構
+              href: input-method-manager-structures.md
+              items:
+                - name: APPLETIDLIST
+                  href: /windows/win32/api/Imepad/ns-imepad-appletidlist
+                - name: CANDIDATEFORM
+                  href: /windows/win32/api/Imm/ns-imm-candidateform
+                - name: CANDIDATELIST
+                  href: /windows/win32/api/Imm/ns-imm-candidatelist
+                - name: COMPOSITIONFORM
+                  href: /windows/win32/api/Imm/ns-imm-compositionform
+                - name: IMEAPPLETCFG
+                  href: /windows/win32/api/Imepad/ns-imepad-imeappletcfg
+                - name: IMEAPPLETUI
+                  href: /windows/win32/api/Imepad/ns-imepad-imeappletui
+                - name: IMECHARPOSITION
+                  href: /windows/win32/api/Imm/ns-imm-imecharposition
+                - name: IMECOMPOSITIONSTRINGINFO
+                  href: /windows/win32/api/Imepad/ns-imepad-imecompositionstringinfo
+                - name: IMEDLG
+                  href: /windows/win32/api/Msime/ns-msime-imedlg
+                - name: IMESHF
+                  href: /windows/win32/api/Msime/ns-msime-imeshf
+                - name: IMEMENUITEMINFO
+                  href: /windows/win32/api/Imm/ns-imm-imemenuiteminfoa
+                - name: IMEWRD
+                  href: /windows/win32/api/Msime/ns-msime-imewrd
+                - name: POSTBL
+                  href: /windows/win32/api/Msime/ns-msime-postbl
+                - name: RECONVERTSTRING
+                  href: /windows/win32/api/Imm/ns-imm-reconvertstring
+                - name: REGISTERWORD
+                  href: /windows/win32/api/Imm/ns-imm-registerworda
+                - name: STYLEBUF
+                  href: /windows/win32/api/Imm/ns-imm-stylebufa
+    - name: 國際字型和文字顯示
+      href: international-fonts-and-text-display.md
+      items:
+        - name: 國際字型管理
+          href: about-international-fonts-and-text.md
+        - name: 使用 MS Shell Dlg 和 MS Shell Dlg 2
+          href: using-ms-shell-dlg-and-ms-shell-dlg-2.md
+        - name: 國際字型列舉和選取
+          href: using-international-fonts-and-text.md
+        - name: 國際文字顯示
+          href: creating-your-own-format-selection-user-interface.md
+        - name: Uniscribe
+          href: uniscribe.md
+          items:
+            - name: 關於 Uniscribe
+              href: about-uniscribe.md
+              items:
+                - name: 關於複雜字集
+                  href: about-complex-scripts.md
+                - name: 複雜的腳本處理
+                  href: complex-script-processing.md
+                - name: OpenType 字型格式
+                  href: opentype-font-format.md
+                - name: Uniscribe 詞彙
+                  href: uniscribe-glossary.md
+            - name: 使用 Uniscribe
+              href: using-uniscribe.md
+              items:
+                - name: 快取
+                  href: caching.md
+                - name: 判斷腳本是否需要圖像成形
+                  href: determining-if-a-script-requires-glyph-shaping.md
+                - name: 使用 Uniscribe 顯示文字
+                  href: displaying-text-with-uniscribe.md
+                - name: 以雙向字串顯示插入號
+                  href: displaying-the-caret-in-bidirectional-strings.md
+                - name: 管理插入號放置和點擊測試
+                  href: managing-caret-placement-and-hit-testing.md
+                - name: 處理複雜的腳本
+                  href: processing-complex-scripts.md
+                - name: 將滑鼠點擊次數 X 位移轉換成插入號位置
+                  href: translating-mouse-hit-x-offset-to-caret-position.md
+                - name: 使用字元叢集
+                  href: using-character-clusters.md
+                - name: 使用字型回復
+                  href: using-font-fallback.md
+                - name: 使用成形引擎
+                  href: using-shaping-engines.md
+                - name: 使用 ScriptString 函數
+                  href: using-the-scriptstring-functions.md
+                - name: 使用斷詞點
+                  href: using-word-break-points.md
+                - name: 使用插入號位置、對齊點和叢集之間的關聯性
+                  href: working-with-relationships-among-caret-positions--justification-points--and-clusters.md
+            - name: Uniscribe 參考
+              href: uniscribe-reference.md
+              items:
+                - name: Uniscribe 函式
+                  href: uniscribe-functions.md
+                  items:
+                    - name: ScriptApplyDigitSubstitution
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptapplydigitsubstitution
+                    - name: ScriptApplyLogicalWidth
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptapplylogicalwidth
+                    - name: ScriptBreak
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptbreak
+                    - name: ScriptCacheGetHeight
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptcachegetheight
+                    - name: ScriptCPtoX
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptcptox
+                    - name: ScriptFreeCache
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptfreecache
+                    - name: ScriptGetCMap
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptgetcmap
+                    - name: ScriptGetFontAlternateGlyphs
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptgetfontalternateglyphs
+                    - name: ScriptGetFontFeatureTags
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptgetfontfeaturetags
+                    - name: ScriptGetFontLanguageTags
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptgetfontlanguagetags
+                    - name: ScriptGetFontProperties
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptgetfontproperties
+                    - name: ScriptGetFontScriptTags
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptgetfontscripttags
+                    - name: ScriptGetGlyphABCWidth
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptgetglyphabcwidth
+                    - name: ScriptGetLogicalWidths
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptgetlogicalwidths
+                    - name: ScriptGetProperties
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptgetproperties
+                    - name: ScriptIsComplex
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptiscomplex
+                    - name: ScriptItemize
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptitemize
+                    - name: ScriptItemizeOpenType
+                      href: /windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype
+                    - name: ScriptJustify
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptjustify
+                    - name: ScriptLayout
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptlayout
+                    - name: ScriptPlace
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptplace
+                    - name: ScriptPlaceOpenType
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptplaceopentype
+                    - name: ScriptPositionSingleGlyph
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptpositionsingleglyph
+                    - name: ScriptRecordDigitSubstitution
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptrecorddigitsubstitution
+                    - name: ScriptShape
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptshape
+                    - name: ScriptShapeOpenType
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptshapeopentype
+                    - name: ScriptStringAnalyse
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse
+                    - name: ScriptStringCPtoX
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstringcptox
+                    - name: ScriptStringFree
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstringfree
+                    - name: ScriptStringGetLogicalWidths
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstringgetlogicalwidths
+                    - name: ScriptStringGetOrder
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstringgetorder
+                    - name: ScriptStringOut
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstringout
+                    - name: ScriptString_pcOutChars
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstring_pcoutchars
+                    - name: ScriptString_pLogAttr
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstring_plogattr
+                    - name: ScriptString_pSize
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstring_psize
+                    - name: ScriptStringValidate
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstringvalidate
+                    - name: ScriptStringXtoCP
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptstringxtocp
+                    - name: ScriptSubstituteSingleGlyph
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptsubstitutesingleglyph
+                    - name: ScriptTextOut
+                      href: /windows/desktop/api/Usp10/nf-usp10-scripttextout
+                    - name: ScriptXtoCP
+                      href: /windows/desktop/api/Usp10/nf-usp10-scriptxtocp
+                - name: Uniscribe 結構
+                  href: uniscribe-structures.md
+                  items:
+                    - name: GOFFSET
+                      href: /windows/win32/api/Usp10/ns-usp10-goffset
+                    - name: OPENTYPE_FEATURE_RECORD
+                      href: /windows/desktop/api/Usp10/ns-usp10-opentype_feature_record
+                    - name: OPENTYPE_TAG
+                      href: opentype-tag.md
+                    - name: SCRIPT_ANALYSIS
+                      href: /windows/win32/api/Usp10/ns-usp10-script_analysis
+                    - name: SCRIPT_CACHE
+                      href: script-cache.md
+                    - name: SCRIPT_CHARPROP
+                      href: /windows/desktop/api/Usp10/ns-usp10-script_charprop
+                    - name: SCRIPT_CONTROL
+                      href: /windows/win32/api/Usp10/ns-usp10-script_control
+                    - name: SCRIPT_DIGITSUBSTITUTE
+                      href: /windows/win32/api/Usp10/ns-usp10-script_digitsubstitute
+                    - name: SCRIPT_FONTPROPERTIES
+                      href: /windows/desktop/api/Usp10/ns-usp10-script_fontproperties
+                    - name: SCRIPT_GLYPHPROP
+                      href: /windows/desktop/api/Usp10/ns-usp10-script_glyphprop
+                    - name: SCRIPT_ITEM
+                      href: /windows/win32/api/Usp10/ns-usp10-script_item
+                    - name: SCRIPT_LOGATTR
+                      href: /windows/win32/api/Usp10/ns-usp10-script_logattr
+                    - name: SCRIPT_PROPERTIES
+                      href: /windows/desktop/api/Usp10/ns-usp10-script_properties
+                    - name: SCRIPT_STATE
+                      href: /windows/win32/api/Usp10/ns-usp10-script_state
+                    - name: SCRIPT_STRING_ANALYSIS
+                      href: script-string-analysis.md
+                    - name: SCRIPT_TABDEF
+                      href: /windows/win32/api/Usp10/ns-usp10-script_tabdef
+                    - name: SCRIPT_VISATTR
+                      href: /windows/win32/api/Usp10/ns-usp10-script_visattr
+                    - name: TEXTRANGE_PROPERTIES
+                      href: /windows/desktop/api/Usp10/ns-usp10-textrange_properties
+                - name: Uniscribe 列舉類型
+                  href: uniscribe-enumeration-types.md
+                  items:
+                    - name: SCRIPT_JUSTIFY
+                      href: /windows/win32/api/Usp10/ne-usp10-script_justify
+    - name: 多語系使用者介面
+      href: multilingual-user-interface.md
+      items:
+        - name: 關於多語系消費者介面
+          href: about-multilingual-user-interface.md
+          items:
+            - name: 瞭解 MUI
+              href: understanding-mui.md
+              items:
+                - name: MUI 總覽
+                  href: overview-of-mui.md
+                - name: 說明的 MUI 基本概念
+                  href: mui-fundamental-concepts-explained.md
+                - name: 跨 Windows 版本的 MUI 支援演進
+                  href: evolution-of-mui-support-across-windows-versions.md
+                - name: MUI 的優點說明
+                  href: benefits-of-mui-explained.md
+                - name: 瞭解 MUI 的詞彙
+                  href: glossary-for-understanding-mui.md
+            - name: MUI 的可用性
+              href: availability-of-mui.md
+            - name: MUI 資源管理
+              href: mui-resource-management.md
+            - name: 消費者介面語言管理
+              href: user-interface-language-management.md
+            - name: 開發 MUI 應用程式
+              href: development-of-mui-applications.md
+            - name: 應用程式部署
+              href: application-deployment.md
+        - name: 使用多語系消費者介面
+          href: using-multilingual-user-interface.md
+          items:
+            - name: 準備資源
+              href: preparing-resources.md
+              items:
+                - name: 建立基礎語言資源檔
+                  href: creating-the-base-language-resource-file.md
+                - name: 使用登錄字串重新導向
+                  href: using-registry-string-redirection.md
+                - name: 準備資源設定檔
+                  href: preparing-a-resource-configuration-file.md
+            - name: 設定應用程式語言喜好設定
+              href: setting-application-language-preferences.md
+              items:
+                - name: 支援的系統語言設定
+                  href: supporting-system-language-settings.md
+                - name: 支援 Application-Specific 語言設定
+                  href: supporting-application-specific-language-settings.md
+                - name: 在 MUI 主控台應用程式中篩選語言
+                  href: filtering-languages-in-a-mui-console-application.md
+            - name: 尋找 Win32 PE 資源
+              href: locating-win32-pe-resources.md
+              items:
+                - name: 載入 Win32 PE 資源模組
+                  href: loading-a-win32-pe-resource-module.md
+                - name: 正在載入語言資源
+                  href: loading-language-resources.md
+                - name: 尋找重新導向的字串
+                  href: locating-redirected-strings.md
+            - name: 尋找非 Win32 PE 資源
+              href: locating-non-win32-pe-resources.md
+            - name: 當地語系化資源和建立應用程式
+              href: localizing-resources-and-building-the-application.md
+            - name: MUI：系統設定應用程式範例
+              href: mui-system-settings-application-sample.md
+            - name: MUI： (Windows Vista) 的 Application-Specific 設定範例
+              href: mui-application-specific-settings-sample-vista.md
+            - name: 'MUI： (Windows Vista 之前的 Application-Specific 設定範例) '
+              href: mui-application-specific-settings-sample-pre-vista.md
+        - name: 多語系消費者介面參考
+          href: multilingual-user-interface-reference.md
+          items:
+            - name: 多語系消費者介面函式
+              href: multilingual-user-interface-functions.md
+              items:
+                - name: EnumUILanguages
+                  href: /windows/desktop/api/Winnls/nf-winnls-enumuilanguagesa
+                - name: EnumUILanguagesProc
+                  href: /windows/desktop/api/winnls/nc-winnls-uilanguage_enumproca
+                - name: FreeMUILibrary
+                  href: /windows/desktop/api/Muiload/nf-muiload-freemuilibrary
+                - name: GetFileMUIInfo
+                  href: /windows/desktop/api/Winnls/nf-winnls-getfilemuiinfo
+                - name: GetFileMUIPath
+                  href: /windows/desktop/api/Winnls/nf-winnls-getfilemuipath
+                - name: GetProcessPreferredUILanguages
+                  href: /windows/desktop/api/Winnls/nf-winnls-getprocesspreferreduilanguages
+                - name: GetSystemDefaultUILanguage
+                  href: /windows/desktop/api/Winnls/nf-winnls-getsystemdefaultuilanguage
+                - name: GetSystemPreferredUILanguages
+                  href: /windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages
+                - name: GetThreadPreferredUILanguages
+                  href: /windows/desktop/api/Winnls/nf-winnls-getthreadpreferreduilanguages
+                - name: GetThreadUILanguage
+                  href: /windows/desktop/api/Winnls/nf-winnls-getthreaduilanguage
+                - name: GetUILanguageFallbackList
+                  href: /windows/desktop/api/Muiload/nf-muiload-getuilanguagefallbacklist
+                - name: GetUILanguageInfo
+                  href: /windows/desktop/api/Winnls/nf-winnls-getuilanguageinfo
+                - name: GetUserDefaultUILanguage
+                  href: /windows/desktop/api/Winnls/nf-winnls-getuserdefaultuilanguage
+                - name: GetUserPreferredUILanguages
+                  href: /windows/desktop/api/Winnls/nf-winnls-getuserpreferreduilanguages
+                - name: LoadMUILibrary
+                  href: /windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya
+                - name: SetProcessPreferredUILanguages
+                  href: /windows/desktop/api/Winnls/nf-winnls-setprocesspreferreduilanguages
+                - name: SetThreadPreferredUILanguages
+                  href: /windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages
+                - name: SetThreadUILanguage
+                  href: /windows/desktop/api/Winnls/nf-winnls-setthreaduilanguage
+            - name: 多語系消費者介面宏
+              href: multilingual-user-interface-macros.md
+              items:
+                - name: FILEMUIINFO_GET_CULTURE
+                  href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_culture
+                - name: FILEMUIINFO_GET_MAIN_TYPEIDS
+                  href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_main_typeids
+                - name: FILEMUIINFO_GET_MAIN_TYPEID
+                  href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_main_typeid
+                - name: FILEMUIINFO_GET_MAIN_TYPENAMES
+                  href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_main_typenames
+                - name: FILEMUIINFO_GET_MUI_TYPEIDS
+                  href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_mui_typeids
+                - name: FILEMUIINFO_GET_MUI_TYPEID
+                  href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_mui_typeid
+                - name: FILEMUIINFO_GET_MUI_TYPENAMES
+                  href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_mui_typenames
+            - name: 多語系消費者介面結構
+              href: multilingual-user-interface-structures.md
+              items:
+                - name: FILEMUIINFO
+                  href: /windows/win32/api/Winnls/ns-winnls-filemuiinfo
+            - name: 資源公用程式
+              href: resource-utilities.md
+    - name: Unicode 和字元集
+      href: unicode-and-character-sets.md
+      items:
+        - name: 關於 Unicode 和字元集
+          href: about-unicode-and-character-sets.md
+          items:
+            - name: 字元集
+              href: character-sets.md
+              items:
+                - name: 字碼頁
+                  href: code-pages.md
+                - name: 雙位元組字集
+                  href: double-byte-character-sets.md
+                - name: 單一位元組字元集
+                  href: single-byte-character-sets.md
+                - name: 代理和補充字元
+                  href: surrogates-and-supplementary-characters.md
+                - name: Unicode
+                  href: unicode.md
+            - name: 終端使用者定義和私用區域字元
+              href: end-user-defined-characters.md
+              items:
+                - name: 字元集和字型
+                  href: character-sets-and-fonts.md
+                - name: EUDC 登錄專案
+                  href: eudc-registry-entries.md
+                  items:
+                    - name: EUDC
+                      href: eudc.md
+                    - name: EUDCCodeRange
+                      href: eudccoderange.md
+            - name: Windows API 中的 Unicode
+              href: unicode-in-the-windows-api.md
+              items:
+                - name: 自動訊息轉譯
+                  href: automatic-message-translation.md
+                - name: 檔案名中使用的字元集
+                  href: character-sets-used-in-file-names.md
+                - name: 命令列的引數
+                  href: command-line-arguments.md
+                - name: 函數原型的慣例
+                  href: conventions-for-function-prototypes.md
+                - name: 標準 C 函數
+                  href: standard-c-functions.md
+                - name: 字串函數差異
+                  href: string-function-differences.md
+                - name: 字串類型之間的轉譯
+                  href: translation-between-string-types.md
+                - name: 適用於字串的 Windows 資料類型
+                  href: windows-data-types-for-strings.md
+        - name: 使用 Unicode 和字元集
+          href: using-unicode-and-character-sets.md
+          items:
+            - name: 註冊視窗類別
+              href: registering-window-classes.md
+            - name: 子類別化和自動訊息轉譯
+              href: subclassing-and-automatic-message-translation.md
+            - name: 使用沒有 Unicode 對應項的函式
+              href: using-functions-that-have-no-unicode-equivalents.md
+            - name: 使用泛型資料類型
+              href: using-generic-data-types.md
+            - name: 使用 Unicode 中的特殊字元
+              href: using-special-characters-in-unicode.md
+              items:
+                - name: 使用 ASCII 控制代碼0x000D 和0x000A
+                  href: using-ascii-control-codes-0x000d-and-0x000a.md
+                - name: 使用位元組順序標記
+                  href: using-byte-order-marks.md
+                - name: 使用 Escape 序列和控制字元
+                  href: using-escape-sequences-and-control-characters.md
+                - name: 使用線條和段落分隔符號
+                  href: using-line-and-paragraph-separators.md
+                - name: 使用非間距字元和變音符號
+                  href: using-nonspacing-characters-and-diacritics.md
+                - name: 使用以 Null 結尾的字串
+                  href: using-null-terminated-strings.md
+            - name: 撰寫、對應和排序 EUDC 和 PUA 字元
+              href: writing-mapping-and-sorting-eudc-and-pua-characters.md
+        - name: Unicode 和字元集參考
+          href: unicode-and-character-set-reference.md
+          items:
+            - name: Unicode 和字元集函數
+              href: unicode-and-character-set-functions.md
+              items:
+                - name: BytesToUnicode
+                  href: /previous-versions/dd317724(v=vs.85)
+                - name: GetTextCharset
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextcharset
+                - name: GetTextCharsetInfo
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextcharsetinfo
+                - name: IsDBCSLeadByte
+                  href: /windows/desktop/api/Winnls/nf-winnls-isdbcsleadbyte
+                - name: IsDBCSLeadByteEx
+                  href: /windows/desktop/api/Winnls/nf-winnls-isdbcsleadbyteex
+                - name: IsTextUnicode
+                  href: /windows/desktop/api/Winbase/nf-winbase-istextunicode
+                - name: MultiByteToWideChar
+                  href: /windows/desktop/api/Stringapiset/nf-stringapiset-multibytetowidechar
+                - name: NlsDllCodePageTranslation
+                  href: /windows/desktop/api/Gb18030/nf-gb18030-nlsdllcodepagetranslation
+                - name: TranslateCharsetInfo
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-translatecharsetinfo
+                - name: UnicodeToBytes
+                  href: /previous-versions/windows/desktop/legacy/dd374082(v=vs.85)
+                - name: WideCharToMultiByte
+                  href: /windows/desktop/api/Stringapiset/nf-stringapiset-widechartomultibyte
+            - name: Unicode 和字元集宏
+              href: unicode-and-character-set-macros.md
+              items:
+                - name: TEXT
+                  href: /windows/desktop/api/Winnt/nf-winnt-text
+            - name: Unicode 和字元集結構
+              href: unicode-and-character-set-structures.md
+              items:
+                - name: CHARSETINFO
+                  href: /windows/win32/api/Wingdi/ns-wingdi-charsetinfo
+                - name: FONTSIGNATURE
+                  href: /windows/win32/api/Wingdi/ns-wingdi-fontsignature
+                - name: LOCALESIGNATURE
+                  href: /windows/win32/api/Wingdi/ns-wingdi-localesignature
+            - name: Unicode 和字元集常數
+              href: unicode-and-character-set-constants.md
+              items:
+                - name: 字碼頁位欄位
+                  href: code-page-bitfields.md
+                - name: 字碼頁識別碼
+                  href: code-page-identifiers.md
+                - name: Unicode 子集位欄位
+                  href: unicode-subset-bitfields.md
+    - name: 安全性考慮：國際功能
+      href: security-considerations--international-features.md

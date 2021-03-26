@@ -1,0 +1,95 @@
+### YamlMime:Landing
+title: 使用 WIN32 API 建立桌面 Windows 應用程式
+summary: 瞭解如何使用 c + + 和 WIN32 API 來建立適用于 Windows 電腦的桌面應用程式。
+metadata:
+  author: mcleanbyron
+  description: 瞭解如何使用 c + + 和 WIN32 API 來建立適用于 Windows 電腦的桌面應用程式。
+  manager: jken
+  ms.author: mcleans
+  ms.date: 09/15/2019
+  ms.topic: landing-page
+  ms.openlocfilehash: 99090d109a717c1008a11e6a9c9e6cf7a31f2b7c
+  ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 08/19/2020
+  ms.locfileid: "104023314"
+landingContent:
+- title: 開始使用
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 設定您的電腦
+      url: /windows/desktop/desktop-programming
+  - linkListType: tutorial
+    links:
+    - text: 使用 Win32 和 c + + 建立您的第一個應用程式
+      url: ./learnwin32/learn-to-program-for-windows.md
+  - linkListType: download
+    links:
+    - text: 開發工具
+      url: https://developer.microsoft.com/windows/downloads
+    - text: Windows 程式碼範例
+      url: https://developer.microsoft.com/windows/samples
+- title: 開發
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Windows 功能與技術
+      url: desktop-app-technologies.md
+    - text: Windows 10 的現代化應用程式
+      url: /windows/apps/desktop/modernize
+  - linkListType: reference
+    links:
+    - text: 依功能的 WIN32 API 參考
+      url: ./apiindex/windows-api-list.md
+    - text: 依標頭的 WIN32 API 參考
+      url: /windows/win32/api/
+- title: 資源和團體
+  linkLists:
+  - linkListType: download
+    links:
+    - text: Windows 虛擬機器
+      url: https://developer.microsoft.com/windows/downloads/virtual-machines
+  - linkListType: overview
+    links:
+    - text: Windows 傳統型應用程式
+      url: /windows/desktop/appxpkg/windows-desktop-application-program
+    - text: 保持與 Windows 10 相容
+      url: https://developer.microsoft.com/windows/desktop/app-compatibility
+    - text: Windows 開發人員支援
+      url: https://developer.microsoft.com/windows/support
+    - text: Twitter 上的 @WindowsDocs
+      url: https://developer.microsoft.com/games
+    - text: YouTube 上的 OneDevMinute
+      url: https://aka.ms/OneDevMinute
+- title: 相關文件
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 選擇您的桌面平臺
+      url: /windows/apps/desktop/choose-your-platform
+    - text: C++/WinRT
+      url: /windows/uwp/cpp-and-winrt-apis/
+    - text: MSIX 封裝和部署
+      url: /windows/msix/desktop/desktop-to-uwp-root
+    - text: UWP
+      url: /windows/uwp/
+    - text: .NET
+      url: //docs.microsoft.com/dotnet/
+    - text: Windows 8.x 和舊版的文件封存
+      url: /previous-versions/windows/
+- title: 相關技術
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Windows AI
+      url: /windows/ai/
+    - text: Windows IoT
+      url: /windows/iot-core/
+    - text: Windows Mixed Reality
+      url: /windows/mixed-reality/
+    - text: Windows 容器
+      url: /virtualization/#pivot=main&panel=containers
+    - text: 遊戲
+      url: https://developer.microsoft.com/games
