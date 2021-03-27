@@ -1,0 +1,84 @@
+- name: Windows 系統評定工具
+  href: windows-system-assessment-tool-portal.md
+  items:
+    - name: 使用 WinSAT
+      href: using-winsat.md
+    - name: WinSAT 參考
+      href: winsat-reference.md
+      items:
+        - name: WinSAT 列舉
+          href: winsat-enumerations.md
+          items:
+            - name: WINSAT_ASSESSMENT_STATE
+              href: /windows/win32/api/Winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_state
+            - name: WINSAT_ASSESSMENT_TYPE
+              href: /windows/win32/api/Winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_type
+            - name: WINSAT_BITMAP_SIZE
+              href: /windows/win32/api/Winsatcominterfacei/ne-winsatcominterfacei-winsat_bitmap_size
+        - name: WinSAT 介面
+          href: winsat-interfaces.md
+          items:
+            - name: IInitiateWinSATAssessment
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment
+              items:
+                - name: CancelAssessment 方法
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-cancelassessment
+                - name: InitiateAssessment 方法
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment
+                - name: InitiateFormalAssessment 方法
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment
+            - name: IProvideWinSATAssessmentInfo
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo
+              items:
+                - name: Description 屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_description
+                - name: 計分屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_score
+                - name: Title 屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_title
+            - name: IProvideWinSATResultsInfo
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo
+              items:
+                - name: AssessmentDateTime 屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentdatetime
+                - name: AssessmentState 屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate
+                - name: RatingStateDesc 屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_ratingstatedesc
+                - name: SystemRating 屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating
+                - name: GetAssessmentInfo 方法
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo
+            - name: IProvideWinSATVisuals
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatvisuals
+              items:
+                - name: get_Bitmap 方法
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatvisuals-get_bitmap
+            - name: IQueryAllWinSATAssessments
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iqueryallwinsatassessments
+              items:
+                - name: AllXML 屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml
+            - name: IQueryRecentWinSATAssessment
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment
+              items:
+                - name: Info 屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info
+                - name: XML 屬性
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml
+            - name: IWinSATInitiateEvents
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents
+              items:
+                - name: WinSATComplete 方法
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete
+                - name: WinSATUpdate 方法
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatupdate
+        - name: WinSAT MOF 類別
+          href: winsat-mof-classes.md
+          items:
+            - name: Win32_WinSAT
+              href: win32-winsat.md
+        - name: WinSAT 範例
+          href: winsat-samples.md
+        - name: WinSAT 架構
+          href: winsat-schema.md
