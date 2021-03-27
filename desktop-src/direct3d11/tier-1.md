@@ -1,0 +1,43 @@
+---
+title: 第 1 層
+description: 本節描述第 1 層支援。
+ms.assetid: 8E2907D2-EFCB-4F97-9B40-6835A65D3DE5
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 4111fa48dafa7f38a26d5ca09f95898eacef6f55
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103683019"
+---
+# <a name="tier-1"></a><span data-ttu-id="1f7a9-103">第 1 層</span><span class="sxs-lookup"><span data-stu-id="1f7a9-103">Tier 1</span></span>
+
+<span data-ttu-id="1f7a9-104">本節描述第 1 層支援。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-104">This section describes tier 1 support.</span></span>
+
+-   <span data-ttu-id="1f7a9-105">硬體至少為功能層級 11.0。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-105">Hardware at feature level 11.0 minimum.</span></span>
+-   <span data-ttu-id="1f7a9-106">無退出支援。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-106">No quilting support.</span></span>
+-   <span data-ttu-id="1f7a9-107">無 Texture1D 或 Texture3D 支援。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-107">No Texture1D or Texture3D support.</span></span>
+-   <span data-ttu-id="1f7a9-108">無 2、8 或 16 倍多重採樣消除鋸齒 (MSAA) 支援。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-108">No 2, 8 or 16 sample multisample antialiasing (MSAA) support.</span></span> <span data-ttu-id="1f7a9-109">僅需 4x，除非不具 128 bpp 格式。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-109">Only 4x is required, except no 128 bpp formats.</span></span>
+-   <span data-ttu-id="1f7a9-110">無任何標準拌和模式 (64 KB 磚和結尾 MIP 封裝中的配置依硬體廠商而定)。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-110">No standard swizzle pattern (layout within 64KB tiles and tail mip packing is up to the hardware vendor).</span></span>
+-   <span data-ttu-id="1f7a9-111">當有重複的對應時，可以存取磚的限制，如 [圖格存取限制](tile-access-limitations-with-duplicate-mappings-.md)中有重複對應的說明。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-111">Limitations on how tiles can be accessed when there are duplicate mappings, described in [Tile access limitations with duplicate mappings](tile-access-limitations-with-duplicate-mappings-.md).</span></span>
+
+### <a name="limitations-affecting-tier-1-only"></a><span data-ttu-id="1f7a9-112">僅影響第1層的限制</span><span class="sxs-lookup"><span data-stu-id="1f7a9-112">Limitations affecting tier 1 only</span></span>
+
+-   <span data-ttu-id="1f7a9-113">並排顯示的資源可以有 **Null** 對應，但是從中讀取或寫入它們都會產生未定義的結果，包括移除的裝置。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-113">Tiled resources can have **NULL** mappings but reading from them or writing to them produces undefined results, including device removed.</span></span> <span data-ttu-id="1f7a9-114">應用程式能將虛設頁對應至所有空白的區域來避免發生此情況。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-114">Applications can get around this by mapping a single dummy page to all the empty areas.</span></span> <span data-ttu-id="1f7a9-115">如果您要撰寫和轉譯至對應至多個轉譯目標位置的頁面，請務必小心，因為寫入順序將會是未定義的。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-115">Take care if you write and render to a page that is mapped to multiple render target locations because the order of writes will be undefined.</span></span>
+-   <span data-ttu-id="1f7a9-116">無著色器指示可供鉗制 LOD 與對應狀態回應使用。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-116">Shader instructions for clamping LOD and mapped status feedback are not available.</span></span> <span data-ttu-id="1f7a9-117">如需詳細資訊，請參閱 HLSL 並排顯示 [資源暴露](hlsl-tiled-resources-exposure.md)。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-117">For more info, see [HLSL tiled resources exposure](hlsl-tiled-resources-exposure.md).</span></span>
+-   <span data-ttu-id="1f7a9-118">標準磚圖形的對齊條件約束：只保證 mips (從最精細的) 開始，其維度是標準圖格大小的倍數都支援標準磚圖形，而且可以有任意對應/取消對應的個別磚。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-118">Alignment constraints for standard tile shapes: It is only guaranteed that mips (starting from the finest) whose dimensions are all multiples of the standard tile size support the standard tile shapes and can have individual tiles arbitrarily mapped/unmapped.</span></span> <span data-ttu-id="1f7a9-119">磚資源中的第一個 mipmap，其維度不是標準磚大小的倍數，而且所有的 mipmap 都有很大的，可以有非標準的並排顯示圖形，一次就能為這組 mips 設定 N 64KB 的磚， (N 回報給應用程式) 。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-119">The first mipmap in a tiled resource that has any dimension not a multiple of standard tile size, along with all coarser mipmaps, can have a non-standard tiling shape, fitting into N 64KB tiles for this set of mips at once (N reported to the application).</span></span> <span data-ttu-id="1f7a9-120">這些 N 磚被壓縮為一個單位，而且在任何時候都必須由應用程式完全對應或完全不對應，但是每個 N 磚都可以對應至磚集區中的任意斷續位置。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-120">These N tiles are considered packed as one unit, which must be either fully mapped or fully unmapped by the application at any given time, though the mappings of each of the N tiles can be at arbitrarily disjoint locations in a tile pool.</span></span>
+-   <span data-ttu-id="1f7a9-121">在所有維度中，以任何 mipmap 不是標準磚大小的倍數來分割資源，都不能有大於1的陣列大小。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-121">Tiled resources with any mipmaps not a multiple of standard tile size in all dimensions are not allowed to have an array size larger than 1.</span></span>
+-   <span data-ttu-id="1f7a9-122">若要透過 [緩衝區](overviews-direct3d-11-resources-buffers.md) 資源切換磚集區中的圖格，以透過 [材質](overviews-direct3d-11-resources-textures.md) 資源參考相同的圖格，或相反的，則最新的 [**UpdateTileMappings**](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-updatetilemappings) 或 [**CopyTileMappings**](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-copytilemappings) 呼叫，會將對應加入至這些磚集區磚的相同資源維度， (緩衝區和材質 \*) 作為用來存取磚的資源維度。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-122">In order to switch between referencing tiles in a tile pool via a [Buffer](overviews-direct3d-11-resources-buffers.md) resource to referencing the same tiles via a [Texture](overviews-direct3d-11-resources-textures.md) resource, or vice-versa, the most recent call to [**UpdateTileMappings**](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-updatetilemappings) or [**CopyTileMappings**](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-copytilemappings) that defines mappings to those tile pool tiles must be for the same resource dimension (Buffer versus Texture\*) as the resource dimension that will be used to access the tiles.</span></span> <span data-ttu-id="1f7a9-123">否則，行為未定義，包括裝置重設的機會。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-123">Otherwise, behavior is undefined including the chance of device reset.</span></span> <span data-ttu-id="1f7a9-124">舉例來說，例如，呼叫 **UpdateTileMappings** 來定義緩衝區的圖格對應，然後透過 [**Texture2D**](/windows/desktop/direct3dhlsl/sm5-object-texture2d)資源 **UpdateTileMappings** 至磚集區中的相同磚，然後透過緩衝區存取磚就會無效。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-124">So, for example, calling **UpdateTileMappings** to define tile mappings for a Buffer, then **UpdateTileMappings** to the same tiles in the tile pool via a [**Texture2D**](/windows/desktop/direct3dhlsl/sm5-object-texture2d) resource, then accessing the tiles via the Buffer is invalid.</span></span> <span data-ttu-id="1f7a9-125">您可以在切換緩衝區和紋理 (反之亦然) 之間分享的磚時為資源重新定義磚，或是不在緩衝區資源和紋理資源之間分享磚集區中的磚，以避免這種情形。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-125">Work-around operations are to either redefine tile mappings for a resource when switching between Buffer and Texture (or vice versa) sharing tiles or just never sharing tiles in a tile pool between Buffer resources and Texture resources.</span></span>
+-   <span data-ttu-id="1f7a9-126">不支援最小/最大削減篩選。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-126">Min/Max reduction filtering is not supported.</span></span> <span data-ttu-id="1f7a9-127">如需 Min/Max 縮減篩選的詳細資訊，請參閱並排顯示的 [資源紋理取樣功能](tiled-resources-texture-sampling-features.md)。</span><span class="sxs-lookup"><span data-stu-id="1f7a9-127">For info about Min/Max reduction filtering, see [Tiled resources texture sampling features](tiled-resources-texture-sampling-features.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="1f7a9-128">相關主題</span><span class="sxs-lookup"><span data-stu-id="1f7a9-128">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="1f7a9-129">磚資源功能層級</span><span class="sxs-lookup"><span data-stu-id="1f7a9-129">Tiled resources features tiers</span></span>](tiled-resources-features-tiers.md)
+</dt> </dl>
+
+ 
+
+ 

@@ -1,0 +1,19 @@
+- name: DirectX 圖形文章
+  href: directx-graphics-articles-portal.md
+  items:
+    - name: 適用于 Windows 7 的平臺更新
+      href: platform-update-for-windows-7.md
+    - name: Direct3D 9Ex 改進
+      href: direct3d-9ex-improvements.md
+    - name: Windows 圖形 API 之間共用的介面
+      href: surface-sharing-between-windows-graphics-apis.md
+    - name: Windows Advanced 點陣化平臺 (變形) 指南
+      href: directx-warp.md
+    - name: Windows 中的圖形 Api
+      href: graphics-apis-in-windows-vista.md
+    - name: 適用于遊戲開發人員的 Direct3D 11 部署
+      href: direct3d11-deployment.md
+    - name: DirectX Graphic Infrastructure (DXGI) ：最佳作法
+      href: dxgi-best-practices.md
+    - name: 高動態範圍顯示和先進的色彩
+      href: high-dynamic-range.md
