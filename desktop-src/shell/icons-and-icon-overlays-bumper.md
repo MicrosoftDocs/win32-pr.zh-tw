@@ -1,0 +1,33 @@
+---
+description: 圖示和圖示重迭
+title: 圖示和圖示重迭
+ms.topic: article
+ms.date: 05/31/2018
+ms.assetid: e35bb134-dace-44d5-8895-2433d7dbb853
+api_name: ''
+api_type: ''
+api_location: ''
+topic_type:
+- kbArticle
+ms.openlocfilehash: 823dd4c07704188a2af31f89384153cc17a8c5c2
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103849186"
+---
+# <a name="icons-and-icon-overlays"></a>圖示和圖示重迭
+
+-   [自訂圖示](icon.md)
+-   [如何將自訂圖示指派給檔案類型](how-to-assign-a-custom-icon-to-a-file-type.md)
+-   [如何將自訂圖示和標籤指派給磁碟機號](how-to-assign-a-custom-icon-and-label-to-a-drive-letter.md)
+-   [如何建立圖示處理常式](how-to-create-icon-handlers.md)
+-   [如何實行圖示重迭處理常式](how-to-implement-icon-overlay-handlers.md)
+-   [如何註冊圖示重迭處理常式](how-to-register-icon-overlay-handlers.md)
+
+ 
+
+ 
+
+
+
