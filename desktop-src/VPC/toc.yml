@@ -1,0 +1,895 @@
+- name: Windows Virtual PC
+  href: virtual-pc-portal.md
+  items:
+    - name: Windows Virtual PC 參考
+      href: virtual-pc-reference.md
+      items:
+        - name: Windows Virtual PC 常數
+          href: windows-virtual-pc-constants.md
+          items:
+            - name: Windows Virtual PC 特定的 HRESULT 代碼
+              href: hresult-codes-specific-to-windows-virtual-pc.md
+        - name: Windows Virtual PC 列舉
+          href: virtual-pc-enumerations.md
+          items:
+            - name: VMDisplayVideoMode
+              href: vmdisplayvideomode.md
+            - name: VMDriveBusType
+              href: vmdrivebustype.md
+            - name: VMDriveType
+              href: vmdrivetype.md
+            - name: VMDVDDriveAttachmentType
+              href: vmdvddriveattachmenttype.md
+            - name: VMDVDDriveEvent
+              href: vmdvddriveevent.md
+            - name: VMEndpointType
+              href: vmendpointtype.md
+            - name: VMFloppyDiskImageType
+              href: vmfloppydiskimagetype.md
+            - name: VMFloppyDriveAttachmentType
+              href: vmfloppydriveattachmenttype.md
+            - name: vmFloppyDriveEvent
+              href: vmfloppydriveevent.md
+            - name: VMHardDiskType
+              href: vmharddisktype.md
+            - name: VMLogoffType
+              href: vmlogofftype.md
+            - name: VMMouseButton
+              href: vmmousebutton.md
+            - name: VMSerialPortType
+              href: vmserialporttype.md
+            - name: VMShutdownAction
+              href: vmshutdownaction.md
+            - name: VMStartupOption
+              href: vmstartupoption.md
+            - name: VMTaskResult
+              href: vmtaskresult.md
+            - name: VMUndoAction
+              href: vmundoaction.md
+            - name: VMUSBDeviceClassEnum
+              href: vmusbdeviceclassenum.md
+            - name: VMVirtualMachineEvents
+              href: vmvirtualmachineevents.md
+            - name: VMVirtualPCEvent
+              href: vmvirtualpcevent.md
+            - name: VMVMState
+              href: vmvmstate.md
+        - name: Windows Virtual PC 介面
+          href: virtual-pc-interfaces.md
+          items:
+            - name: IVMAccountant
+              href: ivmaccountant.md
+              items:
+                - name: IVMAccountant 屬性
+                  href: ivmaccountant-properties.md
+                  items:
+                    - name: CPUUtilization 屬性
+                      href: ivmaccountant-cpuutilization.md
+                    - name: CPUUtilizationHistory 屬性
+                      href: ivmaccountant-cpuutilizationhistory.md
+                    - name: DiskBytesRead 屬性
+                      href: ivmaccountant-diskbytesread.md
+                    - name: DiskBytesWritten 屬性
+                      href: ivmaccountant-diskbyteswritten.md
+                    - name: NetworkBytesReceived 屬性
+                      href: ivmaccountant-networkbytesreceived.md
+                    - name: NetworkBytesSent 屬性
+                      href: ivmaccountant-networkbytessent.md
+                    - name: 執行時間屬性
+                      href: ivmaccountant-uptime.md
+            - name: IVMDisplay
+              href: ivmdisplay.md
+              items:
+                - name: IVMDisplay 方法
+                  href: ivmdisplay-methods.md
+                  items:
+                    - name: _GenerateThumbnail 方法
+                      href: ivmdisplay--generatethumbnail.md
+                    - name: SetDimensions 方法
+                      href: ivmdisplay-setdimensions.md
+                - name: IVMDisplay 屬性
+                  href: ivmdisplay-properties.md
+                  items:
+                    - name: Graphicswindow.canresize 屬性
+                      href: ivmdisplay-canresize.md
+                    - name: Height 屬性
+                      href: ivmdisplay-height.md
+                    - name: 縮圖屬性
+                      href: ivmdisplay-thumbnail.md
+                    - name: VideoMode 屬性
+                      href: ivmdisplay-videomode.md
+                    - name: Width 屬性
+                      href: ivmdisplay-width.md
+            - name: IVMDVDDrive
+              href: ivmdvddrive.md
+              items:
+                - name: IVMDVDDrive 方法
+                  href: ivmdvddrive-methods.md
+                  items:
+                    - name: AttachHostDrive 方法
+                      href: ivmdvddrive-attachhostdrive.md
+                    - name: AttachImage 方法
+                      href: ivmdvddrive-attachimage.md
+                    - name: ReleaseHostDrive 方法
+                      href: ivmdvddrive-releasehostdrive.md
+                    - name: ReleaseImage 方法
+                      href: ivmdvddrive-releaseimage.md
+                    - name: SetBusLocation 方法
+                      href: ivmdvddrive-setbuslocation.md
+                - name: IVMDVDDrive 屬性
+                  href: ivmdvddrive-properties.md
+                  items:
+                    - name: 附件屬性
+                      href: ivmdvddrive-attachment.md
+                    - name: BusNumber 屬性
+                      href: ivmdvddrive-busnumber.md
+                    - name: DeviceNumber 屬性
+                      href: ivmdvddrive-devicenumber.md
+                    - name: HostDriveLetter 屬性
+                      href: ivmdvddrive-hostdriveletter.md
+                    - name: ImageFile 屬性
+                      href: ivmdvddrive-imagefile.md
+            - name: IVMDVDDriveCollection
+              href: ivmdvddrivecollection.md
+              items:
+                - name: IVMDVDDriveCollection 屬性
+                  href: ivmdvddrivecollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmdvddrivecollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmdvddrivecollection-count.md
+                    - name: Item 屬性
+                      href: ivmdvddrivecollection-item.md
+            - name: IVMDVDDriveEvents
+              href: ivmdvddriveevents.md
+              items:
+                - name: IVMDVDDriveEvents 方法
+                  href: ivmdvddriveevents-methods.md
+                  items:
+                    - name: OnMediaEject 方法
+                      href: ivmdvddriveevents-onmediaeject.md
+                    - name: OnMediaInsert 方法
+                      href: ivmdvddriveevents-onmediainsert.md
+            - name: IVMFloppyDrive
+              href: ivmfloppydrive.md
+              items:
+                - name: IVMFloppyDrive 方法
+                  href: ivmfloppydrive-methods.md
+                  items:
+                    - name: AttachHostDrive 方法
+                      href: ivmfloppydrive-attachhostdrive.md
+                    - name: AttachImage 方法
+                      href: ivmfloppydrive-attachimage.md
+                    - name: ReleaseHostDrive 方法
+                      href: ivmfloppydrive-releasehostdrive.md
+                    - name: ReleaseImage 方法
+                      href: ivmfloppydrive-releaseimage.md
+                - name: IVMFloppyDrive 屬性
+                  href: ivmfloppydrive-properties.md
+                  items:
+                    - name: 附件屬性
+                      href: ivmfloppydrive-attachment.md
+                    - name: DriveNumber 屬性
+                      href: ivmfloppydrive-drivenumber.md
+                    - name: HostDriveLetter 屬性
+                      href: ivmfloppydrive-hostdriveletter.md
+                    - name: ImageFile 屬性
+                      href: ivmfloppydrive-imagefile.md
+            - name: IVMFloppyDriveCollection
+              href: ivmfloppydrivecollection.md
+              items:
+                - name: IVMFloppyDriveCollection 屬性
+                  href: ivmfloppydrivecollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmfloppydrivecollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmfloppydrivecollection-count.md
+                    - name: Item 屬性
+                      href: ivmfloppydrivecollection-item.md
+            - name: IVMFloppyDriveEvents
+              href: ivmfloppydriveevents.md
+              items:
+                - name: IVMFloppyDriveEvents 方法
+                  href: ivmfloppydriveevents-methods.md
+                  items:
+                    - name: OnMediaEject 方法
+                      href: ivmfloppydriveevents-onmediaeject.md
+                    - name: OnMediaInsert 方法
+                      href: ivmfloppydriveevents-onmediainsert.md
+            - name: IVMGuestOS
+              href: ivmguestos.md
+              items:
+                - name: IVMGuestOS 方法
+                  href: ivmguestos-methods.md
+                  items:
+                    - name: GetOsVersionInfo 方法
+                      href: ivmguestos-getosversioninfo.md
+                    - name: GetParameter 方法
+                      href: ivmguestos-getparameter.md
+                    - name: InstallIntegrationComponents 方法
+                      href: ivmguestos-installintegrationcomponents.md
+                    - name: IsUserLoggedOn 方法
+                      href: ivmguestos-isuserloggedon.md
+                    - name: 登出方法
+                      href: ivmguestos-logoff.md
+                    - name: Restart 方法
+                      href: ivmguestos-restart.md
+                    - name: SetParameter 方法
+                      href: ivmguestos-setparameter.md
+                    - name: Shutdown 方法
+                      href: ivmguestos-shutdown.md
+                - name: IVMGuestOS 屬性
+                  href: ivmguestos-properties.md
+                  items:
+                    - name: CanShutdown 屬性
+                      href: ivmguestos-canshutdown.md
+                    - name: ComputerName 屬性
+                      href: ivmguestos-computername.md
+                    - name: CSDVersion 屬性
+                      href: ivmguestos-csdversion.md
+                    - name: HeartbeatPercentage 屬性
+                      href: ivmguestos-heartbeatpercentage.md
+                    - name: IntegrationComponentsVersion 屬性
+                      href: ivmguestos-integrationcomponentsversion.md
+                    - name: IsHeartbeating 屬性
+                      href: ivmguestos-isheartbeating.md
+                    - name: IsHostTimeSyncEnabled 屬性
+                      href: ivmguestos-ishosttimesyncenabled.md
+                    - name: MultipleUserSessionsAllowed 屬性
+                      href: ivmguestos-multipleusersessionsallowed.md
+                    - name: OSBuildNumber 屬性
+                      href: ivmguestos-osbuildnumber.md
+                    - name: OSMajorVersion 屬性
+                      href: ivmguestos-osmajorversion.md
+                    - name: OSMinorVersion 屬性
+                      href: ivmguestos-osminorversion.md
+                    - name: OSName 屬性
+                      href: ivmguestos-osname.md
+                    - name: OSPlatformId 屬性
+                      href: ivmguestos-osplatformid.md
+                    - name: OSVersion 屬性
+                      href: ivmguestos-osversion.md
+                    - name: ProductType 屬性
+                      href: ivmguestos-producttype.md
+                    - name: ScreenLocked 屬性
+                      href: ivmguestos-screenlocked.md
+                    - name: ServicePackMajor 屬性
+                      href: ivmguestos-servicepackmajor.md
+                    - name: ServicePackMinor 屬性
+                      href: ivmguestos-servicepackminor.md
+                    - name: SuiteMask 屬性
+                      href: ivmguestos-suitemask.md
+                    - name: TerminalServerPort 屬性
+                      href: ivmguestos-terminalserverport.md
+                    - name: TerminalServicesInitialized 屬性
+                      href: ivmguestos-terminalservicesinitialized.md
+            - name: IVMHardDisk
+              href: ivmharddisk.md
+              items:
+                - name: IVMHardDisk 方法
+                  href: ivmharddisk-methods.md
+                  items:
+                    - name: Compact 方法
+                      href: ivmharddisk-compact.md
+                    - name: Convert 方法
+                      href: ivmharddisk-convert.md
+                    - name: Merge 方法
+                      href: ivmharddisk-merge.md
+                    - name: MergeTo 方法
+                      href: ivmharddisk-mergeto.md
+                - name: IVMHardDisk 屬性
+                  href: ivmharddisk-properties.md
+                  items:
+                    - name: 檔案屬性
+                      href: ivmharddisk-file.md
+                    - name: HostFreeDiskSpace 屬性
+                      href: ivmharddisk-hostfreediskspace.md
+                    - name: 父屬性
+                      href: ivmharddisk-parent.md
+                    - name: SizeInGuest 屬性
+                      href: ivmharddisk-sizeinguest.md
+                    - name: SizeOnHost 屬性
+                      href: ivmharddisk-sizeonhost.md
+                    - name: Type 屬性
+                      href: ivmharddisk-type.md
+            - name: IVMHardDiskConnection
+              href: ivmharddiskconnection.md
+              items:
+                - name: IVMHardDiskConnection 方法
+                  href: ivmharddiskconnection-methods.md
+                  items:
+                    - name: SetBusLocation 方法
+                      href: ivmharddiskconnection-setbuslocation.md
+                - name: IVMHardDiskConnection 屬性
+                  href: ivmharddiskconnection-properties.md
+                  items:
+                    - name: BusNumber 屬性
+                      href: ivmharddiskconnection-busnumber.md
+                    - name: DeviceNumber 屬性
+                      href: ivmharddiskconnection-devicenumber.md
+                    - name: 硬碟屬性
+                      href: ivmharddiskconnection-harddisk.md
+                    - name: UndoHardDisk 屬性
+                      href: ivmharddiskconnection-undoharddisk.md
+            - name: IVMHardDiskConnectionCollection
+              href: ivmharddiskconnectioncollection.md
+              items:
+                - name: IVMHardDiskConnectionCollection 屬性
+                  href: ivmharddiskconnectioncollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmharddiskconnectioncollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmharddiskconnectioncollection-count.md
+                    - name: Item 屬性
+                      href: ivmharddiskconnectioncollection-item.md
+            - name: IVMHostInfo
+              href: ivmhostinfo.md
+              items:
+                - name: IVMHostInfo 屬性
+                  href: ivmhostinfo-properties.md
+                  items:
+                    - name: DVDDrives 屬性
+                      href: ivmhostinfo-dvddrives.md
+                    - name: FloppyDrives 屬性
+                      href: ivmhostinfo-floppydrives.md
+                    - name: LogicalProcessorCount 屬性
+                      href: ivmhostinfo-logicalprocessorcount.md
+                    - name: Memory 屬性
+                      href: ivmhostinfo-memory.md
+                    - name: MemoryAvail 屬性
+                      href: ivmhostinfo-memoryavail.md
+                    - name: MemoryAvailString 屬性
+                      href: ivmhostinfo-memoryavailstring.md
+                    - name: MemoryTotalString 屬性
+                      href: ivmhostinfo-memorytotalstring.md
+                    - name: MMX 屬性
+                      href: ivmhostinfo-mmx.md
+                    - name: NetworkAdapters 屬性
+                      href: ivmhostinfo-networkadapters.md
+                    - name: NetworkAddresses 屬性
+                      href: ivmhostinfo-networkaddresses.md
+                    - name: 作業系統屬性
+                      href: ivmhostinfo-operatingsystem.md
+                    - name: OSMajorVersion 屬性
+                      href: ivmhostinfo-osmajorversion.md
+                    - name: OSMinorVersion 屬性
+                      href: ivmhostinfo-osminorversion.md
+                    - name: OSServicePackString 屬性
+                      href: ivmhostinfo-osservicepackstring.md
+                    - name: OSVersionString 屬性
+                      href: ivmhostinfo-osversionstring.md
+                    - name: ParallelPort 屬性
+                      href: ivmhostinfo-parallelport.md
+                    - name: PhysicalProcessorCount 屬性
+                      href: ivmhostinfo-physicalprocessorcount.md
+                    - name: ProcessorFeaturesString 屬性
+                      href: ivmhostinfo-processorfeaturesstring.md
+                    - name: ProcessorManufacturerString 屬性
+                      href: ivmhostinfo-processormanufacturerstring.md
+                    - name: '>processorspeed 屬性'
+                      href: ivmhostinfo-processorspeed.md
+                    - name: ProcessorSpeedString 屬性
+                      href: ivmhostinfo-processorspeedstring.md
+                    - name: ProcessorVersionString 屬性
+                      href: ivmhostinfo-processorversionstring.md
+                    - name: Serialport 屬性
+                      href: ivmhostinfo-serialports.md
+                    - name: SSE 屬性
+                      href: ivmhostinfo-sse.md
+                    - name: SSE2 屬性
+                      href: ivmhostinfo-sse2.md
+                    - name: ThreeDNow 屬性
+                      href: ivmhostinfo-threednow.md
+                    - name: UTCTime 屬性
+                      href: ivmhostinfo-utctime.md
+            - name: IVMKeyboard
+              href: ivmkeyboard.md
+              items:
+                - name: IVMKeyboard 方法
+                  href: ivmkeyboard-methods.md
+                  items:
+                    - name: IsPressed 方法
+                      href: ivmkeyboard-ispressed.md
+                    - name: PressAndReleaseKey 方法
+                      href: ivmkeyboard-pressandreleasekey.md
+                    - name: PressKey 方法
+                      href: ivmkeyboard-presskey.md
+                    - name: ReleaseKey 方法
+                      href: ivmkeyboard-releasekey.md
+                    - name: TypeAsciiText 方法
+                      href: ivmkeyboard-typeasciitext.md
+                    - name: TypeKeySequence 方法
+                      href: ivmkeyboard-typekeysequence.md
+                - name: IVMKeyboard 屬性
+                  href: ivmkeyboard-properties.md
+                  items:
+                    - name: HasExclusiveAccess 屬性
+                      href: ivmkeyboard-hasexclusiveaccess.md
+            - name: IVMMouse
+              href: ivmmouse.md
+              items:
+                - name: IVMMouse 方法
+                  href: ivmmouse-methods.md
+                  items:
+                    - name: 按一下方法
+                      href: ivmmouse-click.md
+                    - name: GetButton 方法
+                      href: ivmmouse-getbutton.md
+                    - name: SetButton 方法
+                      href: ivmmouse-setbutton.md
+                - name: IVMMouse 屬性
+                  href: ivmmouse-properties.md
+                  items:
+                    - name: HorizontalPosition 屬性
+                      href: ivmmouse-horizontalposition.md
+                    - name: ScrollWheelPosition 屬性
+                      href: ivmmouse-scrollwheelposition.md
+                    - name: UsingAbsoluteCoordinates 屬性
+                      href: ivmmouse-usingabsolutecoordinates.md
+                    - name: VerticalPosition 屬性
+                      href: ivmmouse-verticalposition.md
+            - name: IVMNetworkAdapter
+              href: ivmnetworkadapter.md
+              items:
+                - name: IVMNetworkAdapter 方法
+                  href: ivmnetworkadapter-methods.md
+                  items:
+                    - name: _ID 方法
+                      href: ivmnetworkadapter--id.md
+                    - name: AttachToVirtualNetwork 方法
+                      href: ivmnetworkadapter-attachtovirtualnetwork.md
+                    - name: DetachFromVirtualNetwork 方法
+                      href: ivmnetworkadapter-detachfromvirtualnetwork.md
+                - name: IVMNetworkAdapter 屬性
+                  href: ivmnetworkadapter-properties.md
+                  items:
+                    - name: EthernetAddress 屬性
+                      href: ivmnetworkadapter-ethernetaddress.md
+                    - name: IsEthernetAddressDynamic 屬性
+                      href: ivmnetworkadapter-isethernetaddressdynamic.md
+                    - name: VirtualMachine 屬性
+                      href: ivmnetworkadapter-virtualmachine.md
+                    - name: VirtualNetwork 屬性
+                      href: ivmnetworkadapter-virtualnetwork.md
+            - name: IVMNetworkAdapterCollection
+              href: ivmnetworkadaptercollection.md
+              items:
+                - name: IVMNetworkAdapterCollection 屬性
+                  href: ivmnetworkadaptercollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmnetworkadaptercollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmnetworkadaptercollection-count.md
+                    - name: Item 屬性
+                      href: ivmnetworkadaptercollection-item.md
+            - name: IVMParallelPort
+              href: ivmparallelport.md
+              items:
+                - name: IVMParallelPort 方法
+                  href: ivmparallelport-methods.md
+                  items:
+                    - name: _ID 方法
+                      href: ivmparallelport--id.md
+                - name: IVMParallelPort 屬性
+                  href: ivmparallelport-properties.md
+                  items:
+                    - name: Name 屬性
+                      href: ivmparallelport-name.md
+            - name: IVMParallelPortCollection
+              href: ivmparallelportcollection.md
+              items:
+                - name: IVMParallelPortCollection 屬性
+                  href: ivmparallelportcollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmparallelportcollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmparallelportcollection-count.md
+                    - name: Item 屬性
+                      href: ivmparallelportcollection-item.md
+            - name: IVMSerialPort
+              href: ivmserialport.md
+              items:
+                - name: IVMSerialPort 方法
+                  href: ivmserialport-methods.md
+                  items:
+                    - name: _ID 方法
+                      href: ivmserialport--id.md
+                    - name: Configure 方法
+                      href: ivmserialport-configure.md
+                - name: IVMSerialPort 屬性
+                  href: ivmserialport-properties.md
+                  items:
+                    - name: ConnectImmediately 屬性
+                      href: ivmserialport-connectimmediately.md
+                    - name: Name 屬性
+                      href: ivmserialport-name.md
+                    - name: Type 屬性
+                      href: ivmserialport-type.md
+            - name: IVMSerialPortCollection
+              href: ivmserialportcollection.md
+              items:
+                - name: IVMSerialPortCollection 屬性
+                  href: ivmserialportcollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmserialportcollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmserialportcollection-count.md
+                    - name: Item 屬性
+                      href: ivmserialportcollection-item.md
+            - name: IVMTask
+              href: ivmtask.md
+              items:
+                - name: IVMTask 方法
+                  href: ivmtask-methods.md
+                  items:
+                    - name: Cancel 方法
+                      href: ivmtask-cancel.md
+                    - name: WaitForCompletion 方法
+                      href: ivmtask-waitforcompletion.md
+                - name: IVMTask 屬性
+                  href: ivmtask-properties.md
+                  items:
+                    - name: Description 屬性
+                      href: ivmtask-description.md
+                    - name: Error 屬性
+                      href: ivmtask-error.md
+                    - name: ErrorDescription 屬性
+                      href: ivmtask-errordescription.md
+                    - name: ID 屬性
+                      href: ivmtask-id.md
+                    - name: 屬性屬性
+                      href: ivmtask-iscancelable.md
+                    - name: C.iscomplete 屬性
+                      href: ivmtask-iscomplete.md
+                    - name: PercentCompleted 屬性
+                      href: ivmtask-percentcompleted.md
+                    - name: Result 屬性
+                      href: ivmtask-result.md
+            - name: IVMTaskCollection
+              href: ivmtaskcollection.md
+              items:
+                - name: IVMTaskCollection 屬性
+                  href: ivmtaskcollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmtaskcollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmtaskcollection-count.md
+                    - name: Item 屬性
+                      href: ivmtaskcollection-item.md
+            - name: IVMUSBDevice
+              href: ivmusbdevice.md
+              items:
+                - name: IVMUSBDevice 屬性
+                  href: ivmusbdevice-properties.md
+                  items:
+                    - name: AttachedToVM 屬性
+                      href: ivmusbdevice-attachedtovm.md
+                    - name: DeviceClass 屬性
+                      href: ivmusbdevice-deviceclass.md
+                    - name: DeviceString 屬性
+                      href: ivmusbdevice-devicestring.md
+                    - name: HubID 屬性
+                      href: ivmusbdevice-hubid.md
+                    - name: ManufacturerString 屬性
+                      href: ivmusbdevice-manufacturerstring.md
+                    - name: 埠屬性
+                      href: ivmusbdevice-port.md
+            - name: IVMUSBDeviceCollection
+              href: ivmusbdevicecollection.md
+              items:
+                - name: IVMUSBDeviceCollection 屬性
+                  href: ivmusbdevicecollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmusbdevicecollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmusbdevicecollection-count.md
+                    - name: Item 屬性
+                      href: ivmusbdevicecollection-item.md
+            - name: IVMVirtualMachine
+              href: ivmvirtualmachine.md
+              items:
+                - name: IVMVirtualMachine 方法
+                  href: ivmvirtualmachine-methods.md
+                  items:
+                    - name: AddDVDROMDrive 方法
+                      href: ivmvirtualmachine-adddvdromdrive.md
+                    - name: AddHardDiskConnection 方法
+                      href: ivmvirtualmachine-addharddiskconnection.md
+                    - name: AddNetworkAdapter 方法
+                      href: ivmvirtualmachine-addnetworkadapter.md
+                    - name: AttachUSBDevice 方法
+                      href: ivmvirtualmachine-attachusbdevice.md
+                    - name: DetachUSBDevice 方法
+                      href: ivmvirtualmachine-detachusbdevice.md
+                    - name: DiscardSavedState 方法
+                      href: ivmvirtualmachine-discardsavedstate.md
+                    - name: DiscardUndoDisks 方法
+                      href: ivmvirtualmachine-discardundodisks.md
+                    - name: GetActivationValue 方法
+                      href: ivmvirtualmachine-getactivationvalue.md
+                    - name: GetConfigurationValue 方法
+                      href: ivmvirtualmachine-getconfigurationvalue.md
+                    - name: MergeUndoDisks 方法
+                      href: ivmvirtualmachine-mergeundodisks.md
+                    - name: Pause 方法
+                      href: ivmvirtualmachine-pause.md
+                    - name: RemoveActivationValue 方法
+                      href: ivmvirtualmachine-removeactivationvalue.md
+                    - name: RemoveConfigurationValue 方法
+                      href: ivmvirtualmachine-removeconfigurationvalue.md
+                    - name: RemoveDVDROMDrive 方法
+                      href: ivmvirtualmachine-removedvdromdrive.md
+                    - name: RemoveHardDiskConnection 方法
+                      href: ivmvirtualmachine-removeharddiskconnection.md
+                    - name: RemoveNetworkAdapter 方法
+                      href: ivmvirtualmachine-removenetworkadapter.md
+                    - name: Reset 方法
+                      href: ivmvirtualmachine-reset.md
+                    - name: Resume 方法
+                      href: ivmvirtualmachine-resume.md
+                    - name: Save 方法
+                      href: ivmvirtualmachine-save.md
+                    - name: SetActivationValue 方法
+                      href: ivmvirtualmachine-setactivationvalue.md
+                    - name: SetConfigurationValue 方法
+                      href: ivmvirtualmachine-setconfigurationvalue.md
+                    - name: StartCommunicationChannel 方法
+                      href: ivmvirtualmachine-startcommunicationchannel.md
+                    - name: Startup 方法
+                      href: ivmvirtualmachine-startup.md
+                    - name: Startup2 方法
+                      href: ivmvirtualmachine-startup2.md
+                    - name: TurnOff 方法
+                      href: ivmvirtualmachine-turnoff.md
+                - name: IVMVirtualMachine 屬性
+                  href: ivmvirtualmachine-properties.md
+                  items:
+                    - name: 會計屬性
+                      href: ivmvirtualmachine-accountant.md
+                    - name: AttachedDriveTypes 屬性
+                      href: ivmvirtualmachine-attacheddrivetypes.md
+                    - name: BaseBoardSerialNumber 屬性
+                      href: ivmvirtualmachine-baseboardserialnumber.md
+                    - name: BIOSGUID 屬性
+                      href: ivmvirtualmachine-biosguid.md
+                    - name: BIOSSerialNumber 屬性
+                      href: ivmvirtualmachine-biosserialnumber.md
+                    - name: ChassisAssetTag 屬性
+                      href: ivmvirtualmachine-chassisassettag.md
+                    - name: ChassisSerialNumber 屬性
+                      href: ivmvirtualmachine-chassisserialnumber.md
+                    - name: ConfigID 屬性
+                      href: ivmvirtualmachine-configid.md
+                    - name: 顯示內容
+                      href: ivmvirtualmachine-display.md
+                    - name: DVDROMDrives 屬性
+                      href: ivmvirtualmachine-dvdromdrives.md
+                    - name: 檔案屬性
+                      href: ivmvirtualmachine-file.md
+                    - name: FloppyDrives 屬性
+                      href: ivmvirtualmachine-floppydrives.md
+                    - name: GuestOS 屬性
+                      href: ivmvirtualmachine-guestos.md
+                    - name: HardDiskConnections 屬性
+                      href: ivmvirtualmachine-harddiskconnections.md
+                    - name: Has3DNow 屬性
+                      href: ivmvirtualmachine-has3dnow.md
+                    - name: HasMMX 屬性
+                      href: ivmvirtualmachine-hasmmx.md
+                    - name: HasSSE 屬性
+                      href: ivmvirtualmachine-hassse.md
+                    - name: HasSSE2 屬性
+                      href: ivmvirtualmachine-hassse2.md
+                    - name: 鍵盤屬性
+                      href: ivmvirtualmachine-keyboard.md
+                    - name: Memory 屬性
+                      href: ivmvirtualmachine-memory.md
+                    - name: 滑鼠屬性
+                      href: ivmvirtualmachine-mouse.md
+                    - name: Name 屬性
+                      href: ivmvirtualmachine-name.md
+                    - name: NetworkAdapters 屬性
+                      href: ivmvirtualmachine-networkadapters.md
+                    - name: 附注屬性
+                      href: ivmvirtualmachine-notes.md
+                    - name: ParallelPorts 屬性
+                      href: ivmvirtualmachine-parallelports.md
+                    - name: '>processorspeed 屬性'
+                      href: ivmvirtualmachine-processorspeed.md
+                    - name: RdpPipeName 屬性
+                      href: ivmvirtualmachine-rdppipename.md
+                    - name: SavedStateFilePath 屬性
+                      href: ivmvirtualmachine-savedstatefilepath.md
+                    - name: Serialport 屬性
+                      href: ivmvirtualmachine-serialports.md
+                    - name: ShutdownActionOnQuit 屬性
+                      href: ivmvirtualmachine-shutdownactiononquit.md
+                    - name: State 屬性
+                      href: ivmvirtualmachine-state.md
+                    - name: 能撤銷的屬性
+                      href: ivmvirtualmachine-undoable.md
+                    - name: UndoAction 屬性
+                      href: ivmvirtualmachine-undoaction.md
+            - name: IVMVirtualMachineCollection
+              href: ivmvirtualmachinecollection.md
+              items:
+                - name: IVMVirtualMachineCollection 屬性
+                  href: ivmvirtualmachinecollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmvirtualmachinecollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmvirtualmachinecollection-count.md
+                    - name: Item 屬性
+                      href: ivmvirtualmachinecollection-item.md
+            - name: IVMVirtualMachineEvents
+              href: ivmvirtualmachineevents.md
+              items:
+                - name: IVMVirtualMachineEvents 方法
+                  href: ivmvirtualmachineevents-methods.md
+                  items:
+                    - name: OnAdditionsAvailable 方法
+                      href: ivmvirtualmachineevents-onadditionsavailable.md
+                    - name: OnAdditionsUninstalled 方法
+                      href: ivmvirtualmachineevents-onadditionsuninstalled.md
+                    - name: OnConfigurationChanged 方法
+                      href: ivmvirtualmachineevents-onconfigurationchanged.md
+                    - name: OnDiskOutOfSpace 方法
+                      href: ivmvirtualmachineevents-ondiskoutofspace.md
+                    - name: OnEnhancedVideoModeChanged 方法
+                      href: ivmvirtualmachineevents-onenhancedvideomodechanged.md
+                    - name: OnGuestLogoff 方法
+                      href: ivmvirtualmachineevents-onguestlogoff.md
+                    - name: OnGuestShutdown 方法
+                      href: ivmvirtualmachineevents-onguestshutdown.md
+                    - name: OnHeartbeatStopped 方法
+                      href: ivmvirtualmachineevents-onheartbeatstopped.md
+                    - name: OnRequestShutdown 方法
+                      href: ivmvirtualmachineevents-onrequestshutdown.md
+                    - name: OnReset 方法
+                      href: ivmvirtualmachineevents-onreset.md
+                    - name: OnStateChange 方法
+                      href: ivmvirtualmachineevents-onstatechange.md
+                    - name: OnTripleFault 方法
+                      href: ivmvirtualmachineevents-ontriplefault.md
+            - name: IVMVirtualNetwork
+              href: ivmvirtualnetwork.md
+              items:
+                - name: IVMVirtualNetwork 方法
+                  href: ivmvirtualnetwork-methods.md
+                  items:
+                    - name: _ID 方法
+                      href: ivmvirtualnetwork--id.md
+                - name: IVMVirtualNetwork 屬性
+                  href: ivmvirtualnetwork-properties.md
+                  items:
+                    - name: HostAdapter 屬性
+                      href: ivmvirtualnetwork-hostadapter.md
+                    - name: 媒體屬性
+                      href: /previous-versions/windows/desktop/legacy/dd796707(v=vs.85)
+                    - name: Name 屬性
+                      href: ivmvirtualnetwork-name.md
+                    - name: NetworkAdapters 屬性
+                      href: ivmvirtualnetwork-networkadapters.md
+            - name: IVMVirtualNetworkCollection
+              href: ivmvirtualnetworkcollection.md
+              items:
+                - name: IVMVirtualNetworkCollection 屬性
+                  href: ivmvirtualnetworkcollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: ivmvirtualnetworkcollection--newenum.md
+                    - name: Count 屬性
+                      href: ivmvirtualnetworkcollection-count.md
+                    - name: Item 屬性
+                      href: ivmvirtualnetworkcollection-item.md
+            - name: IVMVirtualPC
+              href: ivmvirtualpc.md
+              items:
+                - name: IVMVirtualPC 方法
+                  href: ivmvirtualpc-methods.md
+                  items:
+                    - name: CreateDifferencingVirtualHardDisk 方法
+                      href: ivmvirtualpc-createdifferencingvirtualharddisk.md
+                    - name: CreateDynamicVirtualHardDisk 方法
+                      href: ivmvirtualpc-createdynamicvirtualharddisk.md
+                    - name: CreateFixedVirtualHardDisk 方法
+                      href: ivmvirtualpc-createfixedvirtualharddisk.md
+                    - name: CreateFloppyDiskImage 方法
+                      href: ivmvirtualpc-createfloppydiskimage.md
+                    - name: CreateVirtualMachine 方法
+                      href: ivmvirtualpc-createvirtualmachine.md
+                    - name: DeleteVirtualMachine 方法
+                      href: ivmvirtualpc-deletevirtualmachine.md
+                    - name: FindVirtualMachine 方法
+                      href: ivmvirtualpc-findvirtualmachine.md
+                    - name: FindVirtualNetwork 方法
+                      href: ivmvirtualpc-findvirtualnetwork.md
+                    - name: GetConfigurationValue 方法
+                      href: ivmvirtualpc-getconfigurationvalue.md
+                    - name: GetDVDFiles 方法
+                      href: ivmvirtualpc-getdvdfiles.md
+                    - name: GetFloppyDiskFiles 方法
+                      href: ivmvirtualpc-getfloppydiskfiles.md
+                    - name: GetFloppyDiskImageType 方法
+                      href: ivmvirtualpc-getfloppydiskimagetype.md
+                    - name: GetHardDisk 方法
+                      href: ivmvirtualpc-getharddisk.md
+                    - name: GetHardDiskFiles 方法
+                      href: ivmvirtualpc-getharddiskfiles.md
+                    - name: GetVirtualMachineFiles 方法
+                      href: ivmvirtualpc-getvirtualmachinefiles.md
+                    - name: RegisterVirtualMachine 方法
+                      href: ivmvirtualpc-registervirtualmachine.md
+                    - name: RemoveConfigurationValue 方法
+                      href: ivmvirtualpc-removeconfigurationvalue.md
+                    - name: SetConfigurationValue 方法
+                      href: ivmvirtualpc-setconfigurationvalue.md
+                    - name: UnregisterVirtualMachine 方法
+                      href: ivmvirtualpc-unregistervirtualmachine.md
+                - name: IVMVirtualPC 屬性
+                  href: ivmvirtualpc-properties.md
+                  items:
+                    - name: DefaultVMConfigurationPath 屬性
+                      href: ivmvirtualpc-defaultvmconfigurationpath.md
+                    - name: HostInfo 屬性
+                      href: ivmvirtualpc-hostinfo.md
+                    - name: MaximumFloppyDrivesPerVM 屬性
+                      href: ivmvirtualpc-maximumfloppydrivespervm.md
+                    - name: MaximumMemoryPerVM 屬性
+                      href: ivmvirtualpc-maximummemorypervm.md
+                    - name: MaximumNetworkAdaptersPerVM 屬性
+                      href: ivmvirtualpc-maximumnetworkadapterspervm.md
+                    - name: MaximumNumberOfIDEBuses 屬性
+                      href: ivmvirtualpc-maximumnumberofidebuses.md
+                    - name: MaximumParallelPortsPerVM 屬性
+                      href: ivmvirtualpc-maximumparallelportspervm.md
+                    - name: MaximumSerialPortsPerVM 屬性
+                      href: ivmvirtualpc-maximumserialportspervm.md
+                    - name: MinimumMemoryPerVM 屬性
+                      href: ivmvirtualpc-minimummemorypervm.md
+                    - name: Name 屬性
+                      href: ivmvirtualpc-name.md
+                    - name: SearchPaths 屬性
+                      href: ivmvirtualpc-searchpaths.md
+                    - name: SuggestedMaximumMemoryPerVM 屬性
+                      href: ivmvirtualpc-suggestedmaximummemorypervm.md
+                    - name: Tasks 屬性
+                      href: ivmvirtualpc-tasks.md
+                    - name: UnconnectedNetworkAdapters 屬性
+                      href: ivmvirtualpc-unconnectednetworkadapters.md
+                    - name: 執行時間屬性
+                      href: ivmvirtualpc-uptime.md
+                    - name: USBDeviceCollection 屬性
+                      href: ivmvirtualpc-usbdevicecollection.md
+                    - name: Version 屬性
+                      href: ivmvirtualpc-version.md
+                    - name: VirtualMachines 屬性
+                      href: ivmvirtualpc-virtualmachines.md
+                    - name: VirtualNetworks 屬性
+                      href: ivmvirtualpc-virtualnetworks.md
+            - name: IVMVirtualPCEvents
+              href: ivmvirtualpcevents.md
+              items:
+                - name: IVMVirtualPCEvents 方法
+                  href: ivmvirtualpcevents-methods.md
+                  items:
+                    - name: OnEventLogged 方法
+                      href: ivmvirtualpcevents-oneventlogged.md
+                    - name: OnVMStateChange 方法
+                      href: ivmvirtualpcevents-onvmstatechange.md
+        - name: Windows Virtual PC 結構
+          href: windows-virtual-pc-structures.md
+          items:
+            - name: GUESTOSVERSIONINFOEX
+              href: guestosversioninfoex.md
+        - name: 主要序列
+          href: key-sequences.md

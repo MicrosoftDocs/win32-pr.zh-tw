@@ -1,0 +1,164 @@
+---
+Description: '\_當系統或其他應用程式提出要求來繪製應用程式視窗的一部分時，就會傳送 WM 油漆訊息。'
+ms.assetid: afebaa07-cf00-47db-a919-46436f164881
+title: 'WM_PAINT 訊息 (Winuser .h) '
+ms.topic: reference
+ms.custom: snippet-project
+ms.date: 05/31/2018
+ms.openlocfilehash: b13e1779fb54a3db7905cb8fc738ef45558400f5
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104974849"
+---
+# <a name="wm_paint-message"></a><span data-ttu-id="64ce4-103">WM \_ 油漆訊息</span><span class="sxs-lookup"><span data-stu-id="64ce4-103">WM\_PAINT message</span></span>
+
+<span data-ttu-id="64ce4-104">當系統或其他應用程式提出要求來繪製應用程式視窗的一部分時，就會傳送 **WM \_ 油漆** 訊息。</span><span class="sxs-lookup"><span data-stu-id="64ce4-104">The **WM\_PAINT** message is sent when the system or another application makes a request to paint a portion of an application's window.</span></span> <span data-ttu-id="64ce4-105">當呼叫 [**UpdateWindow**](/windows/desktop/api/Winuser/nf-winuser-updatewindow)或 [**RedrawWindow**](/windows/desktop/api/Winuser/nf-winuser-redrawwindow)函式時，或是當應用程式使用 [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage)或 [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea)函數取得 **WM \_ 油漆** 訊息 [**時，就**](/windows/win32/api/winuser/nf-winuser-dispatchmessage)會傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="64ce4-105">The message is sent when the [**UpdateWindow**](/windows/desktop/api/Winuser/nf-winuser-updatewindow) or [**RedrawWindow**](/windows/desktop/api/Winuser/nf-winuser-redrawwindow) function is called, or by the [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) function when the application obtains a **WM\_PAINT** message by using the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) function.</span></span>
+
+<span data-ttu-id="64ce4-106">視窗會透過其 [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) 函數接收此訊息。</span><span class="sxs-lookup"><span data-stu-id="64ce4-106">A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.</span></span>
+
+
+```C++
+LRESULT CALLBACK WindowProc(
+  HWND hwnd, 
+  UINT  uMsg, 
+  WPARAM wParam, 
+  LPARAM lParam     
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="64ce4-107">參數</span><span class="sxs-lookup"><span data-stu-id="64ce4-107">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="64ce4-108">*wParam*</span><span class="sxs-lookup"><span data-stu-id="64ce4-108">*wParam*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="64ce4-109">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="64ce4-109">This parameter is not used.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="64ce4-110">*lParam*</span><span class="sxs-lookup"><span data-stu-id="64ce4-110">*lParam*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="64ce4-111">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="64ce4-111">This parameter is not used.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="64ce4-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="64ce4-112">Return value</span></span>
+
+<span data-ttu-id="64ce4-113">如果應用程式處理此訊息，則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="64ce4-113">An application returns zero if it processes this message.</span></span>
+
+## <a name="example"></a><span data-ttu-id="64ce4-114">範例</span><span class="sxs-lookup"><span data-stu-id="64ce4-114">Example</span></span>
+
+```c
+LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+{
+    switch (uMsg)
+    {
+    case WM_DESTROY:
+        PostQuitMessage(0);
+        return 0;
+
+    case WM_PAINT:
+        {
+            PAINTSTRUCT ps;
+            HDC hdc = BeginPaint(hwnd, &ps);
+
+            // All painting occurs here, between BeginPaint and EndPaint.
+            FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
+            EndPaint(hwnd, &ps);
+        }
+        return 0;
+    }
+
+    return DefWindowProc(hwnd, uMsg, wParam, lParam);
+}
+
+```
+
+<span data-ttu-id="64ce4-115">從 GitHub 上的 [Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples/blob/18cbd05ee44455cd7552804dcf2c9d6db619b412/Samples/Win7Samples/begin/LearnWin32/HelloWorld/cpp/main.cpp) 取得的範例。</span><span class="sxs-lookup"><span data-stu-id="64ce4-115">Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/18cbd05ee44455cd7552804dcf2c9d6db619b412/Samples/Win7Samples/begin/LearnWin32/HelloWorld/cpp/main.cpp) on GitHub.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="64ce4-116">備註</span><span class="sxs-lookup"><span data-stu-id="64ce4-116">Remarks</span></span>
+
+<span data-ttu-id="64ce4-117">**WM \_ 油漆** 訊息是由系統產生，不應由應用程式傳送。</span><span class="sxs-lookup"><span data-stu-id="64ce4-117">The **WM\_PAINT** message is generated by the system and should not be sent by an application.</span></span> <span data-ttu-id="64ce4-118">若要強制視窗繪製到特定的裝置內容，請使用 [**wm \_ 列印**](wm-print.md) 或 [**wm \_ PRINTCLIENT**](wm-printclient.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="64ce4-118">To force a window to draw into a specific device context, use the [**WM\_PRINT**](wm-print.md) or [**WM\_PRINTCLIENT**](wm-printclient.md) message.</span></span> <span data-ttu-id="64ce4-119">請注意，這需要目標視窗支援 **WM \_ PRINTCLIENT** 訊息。</span><span class="sxs-lookup"><span data-stu-id="64ce4-119">Note that this requires the target window to support the **WM\_PRINTCLIENT** message.</span></span> <span data-ttu-id="64ce4-120">最常見的控制項支援 **WM \_ PRINTCLIENT** 訊息。</span><span class="sxs-lookup"><span data-stu-id="64ce4-120">Most common controls support the **WM\_PRINTCLIENT** message.</span></span>
+
+<span data-ttu-id="64ce4-121">[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)函式會驗證更新區域。</span><span class="sxs-lookup"><span data-stu-id="64ce4-121">The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function validates the update region.</span></span> <span data-ttu-id="64ce4-122">如果必須繪製視窗框架，此函式也可以將 [**wm \_ NCPAINT**](wm-ncpaint.md) 訊息傳送至視窗程式，如果必須清除視窗背景，則傳送 [**wm \_ ERASEBKGND**](../winmsg/wm-erasebkgnd.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="64ce4-122">The function may also send the [**WM\_NCPAINT**](wm-ncpaint.md) message to the window procedure if the window frame must be painted and send the [**WM\_ERASEBKGND**](../winmsg/wm-erasebkgnd.md) message if the window background must be erased.</span></span>
+
+<span data-ttu-id="64ce4-123">當應用程式的訊息佇列中沒有其他訊息時，系統會傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="64ce4-123">The system sends this message when there are no other messages in the application's message queue.</span></span> <span data-ttu-id="64ce4-124">[**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) 決定傳送訊息的位置; [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) 會決定要分派的訊息。</span><span class="sxs-lookup"><span data-stu-id="64ce4-124">[**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) determines where to send the message; [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) determines which message to dispatch.</span></span> <span data-ttu-id="64ce4-125">當應用程式訊息佇列中沒有其他訊息時， **GetMessage** 會傳回 **WM \_ 油漆** 訊息，而 **DispatchMessage** 會將訊息傳送至適當的視窗程式。</span><span class="sxs-lookup"><span data-stu-id="64ce4-125">**GetMessage** returns the **WM\_PAINT** message when there are no other messages in the application's message queue, and **DispatchMessage** sends the message to the appropriate window procedure.</span></span>
+
+<span data-ttu-id="64ce4-126">當呼叫 [**RedrawWindow**](/windows/desktop/api/Winuser/nf-winuser-redrawwindow) 並設定 RDW INTERNALPAINT 旗標之後，視窗可能會接收內部繪製訊息 \_ 。</span><span class="sxs-lookup"><span data-stu-id="64ce4-126">A window may receive internal paint messages as a result of calling [**RedrawWindow**](/windows/desktop/api/Winuser/nf-winuser-redrawwindow) with the RDW\_INTERNALPAINT flag set.</span></span> <span data-ttu-id="64ce4-127">在此情況下，視窗可能沒有更新區域。</span><span class="sxs-lookup"><span data-stu-id="64ce4-127">In this case, the window may not have an update region.</span></span> <span data-ttu-id="64ce4-128">應用程式可能會呼叫 [**GetUpdateRect**](/windows/desktop/api/Winuser/nf-winuser-getupdaterect) 函式來判斷視窗是否有更新區域。</span><span class="sxs-lookup"><span data-stu-id="64ce4-128">An application may call the [**GetUpdateRect**](/windows/desktop/api/Winuser/nf-winuser-getupdaterect) function to determine whether the window has an update region.</span></span> <span data-ttu-id="64ce4-129">如果 **GetUpdateRect** 傳回零，則應用程式不需要呼叫 [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) 和 [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) 函數。</span><span class="sxs-lookup"><span data-stu-id="64ce4-129">If **GetUpdateRect** returns zero, the application need not call the [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) and [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) functions.</span></span>
+
+<span data-ttu-id="64ce4-130">應用程式必須藉由查看每個 **wm \_ 油漆** 訊息的內部資料結構來檢查是否有任何必要的內部繪製，因為 **wm \_ 油漆** 訊息可能是因為非 Null 的更新區域和使用 RDW INTERNALPAINT 旗標集的 [**RedrawWindow**](/windows/desktop/api/Winuser/nf-winuser-redrawwindow) 呼叫所造成 \_ 。</span><span class="sxs-lookup"><span data-stu-id="64ce4-130">An application must check for any necessary internal painting by looking at its internal data structures for each **WM\_PAINT** message, because a **WM\_PAINT** message may have been caused by both a non-NULL update region and a call to [**RedrawWindow**](/windows/desktop/api/Winuser/nf-winuser-redrawwindow) with the RDW\_INTERNALPAINT flag set.</span></span>
+
+<span data-ttu-id="64ce4-131">系統只會傳送內部的 **WM \_ 油漆** 訊息一次。</span><span class="sxs-lookup"><span data-stu-id="64ce4-131">The system sends an internal **WM\_PAINT** message only once.</span></span> <span data-ttu-id="64ce4-132">從 [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage)或 [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea)傳回內部的 **wm \_ 油漆** 訊息，或透過 [**UpdateWindow**](/windows/desktop/api/Winuser/nf-winuser-updatewindow)將其傳送至視窗之後，系統不會在視窗失效之前張貼或傳送進一步的 **wm \_ 油漆** 訊息，或直到使用 RDW INTERNALPAINT 旗標設定再次呼叫 [**RedrawWindow**](/windows/desktop/api/Winuser/nf-winuser-redrawwindow)為止 \_ 。</span><span class="sxs-lookup"><span data-stu-id="64ce4-132">After an internal **WM\_PAINT** message is returned from [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) or is sent to a window by [**UpdateWindow**](/windows/desktop/api/Winuser/nf-winuser-updatewindow), the system does not post or send further **WM\_PAINT** messages until the window is invalidated or until [**RedrawWindow**](/windows/desktop/api/Winuser/nf-winuser-redrawwindow) is called again with the RDW\_INTERNALPAINT flag set.</span></span>
+
+<span data-ttu-id="64ce4-133">針對某些常見的控制項，預設的 **WM \_ 油漆** 訊息處理會檢查 *wParam* 參數。</span><span class="sxs-lookup"><span data-stu-id="64ce4-133">For some common controls, the default **WM\_PAINT** message processing checks the *wParam* parameter.</span></span> <span data-ttu-id="64ce4-134">如果 *wParam* 不是 Null，則控制項會假設值為 HDC，並且使用該裝置內容繪製。</span><span class="sxs-lookup"><span data-stu-id="64ce4-134">If *wParam* is non-NULL, the control assumes that the value is an HDC and paints using that device context.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="64ce4-135">規格需求</span><span class="sxs-lookup"><span data-stu-id="64ce4-135">Requirements</span></span>
+
+
+
+| <span data-ttu-id="64ce4-136">需求</span><span class="sxs-lookup"><span data-stu-id="64ce4-136">Requirement</span></span> | <span data-ttu-id="64ce4-137">值</span><span class="sxs-lookup"><span data-stu-id="64ce4-137">Value</span></span> |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="64ce4-138">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="64ce4-138">Minimum supported client</span></span><br/> | <span data-ttu-id="64ce4-139">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="64ce4-139">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                               |
+| <span data-ttu-id="64ce4-140">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="64ce4-140">Minimum supported server</span></span><br/> | <span data-ttu-id="64ce4-141">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="64ce4-141">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="64ce4-142">標頭</span><span class="sxs-lookup"><span data-stu-id="64ce4-142">Header</span></span><br/>                   | <dl> <span data-ttu-id="64ce4-143"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="64ce4-143"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="64ce4-144">另請參閱</span><span class="sxs-lookup"><span data-stu-id="64ce4-144">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="64ce4-145">繪製和繪製總覽</span><span class="sxs-lookup"><span data-stu-id="64ce4-145">Painting and Drawing Overview</span></span>](painting-and-drawing.md)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-146">繪製和繪製訊息</span><span class="sxs-lookup"><span data-stu-id="64ce4-146">Painting and Drawing Messages</span></span>](painting-and-drawing-messages.md)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-147">**BeginPaint**</span><span class="sxs-lookup"><span data-stu-id="64ce4-147">**BeginPaint**</span></span>](/windows/desktop/api/Winuser/nf-winuser-beginpaint)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-148">**DefWindowProc**</span><span class="sxs-lookup"><span data-stu-id="64ce4-148">**DefWindowProc**</span></span>](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-149">**DispatchMessage**</span><span class="sxs-lookup"><span data-stu-id="64ce4-149">**DispatchMessage**</span></span>](/windows/win32/api/winuser/nf-winuser-dispatchmessage)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-150">**EndPaint**</span><span class="sxs-lookup"><span data-stu-id="64ce4-150">**EndPaint**</span></span>](/windows/desktop/api/Winuser/nf-winuser-endpaint)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-151">**GetMessage**</span><span class="sxs-lookup"><span data-stu-id="64ce4-151">**GetMessage**</span></span>](/windows/win32/api/winuser/nf-winuser-getmessage)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-152">**GetUpdateRect**</span><span class="sxs-lookup"><span data-stu-id="64ce4-152">**GetUpdateRect**</span></span>](/windows/desktop/api/Winuser/nf-winuser-getupdaterect)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-153">**PeekMessage**</span><span class="sxs-lookup"><span data-stu-id="64ce4-153">**PeekMessage**</span></span>](/windows/win32/api/winuser/nf-winuser-peekmessagea)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-154">**RedrawWindow**</span><span class="sxs-lookup"><span data-stu-id="64ce4-154">**RedrawWindow**</span></span>](/windows/desktop/api/Winuser/nf-winuser-redrawwindow)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-155">**UpdateWindow**</span><span class="sxs-lookup"><span data-stu-id="64ce4-155">**UpdateWindow**</span></span>](/windows/desktop/api/Winuser/nf-winuser-updatewindow)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-156">**WM \_ ERASEBKGND**</span><span class="sxs-lookup"><span data-stu-id="64ce4-156">**WM\_ERASEBKGND**</span></span>](../winmsg/wm-erasebkgnd.md)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-157">**WM \_ NCPAINT**</span><span class="sxs-lookup"><span data-stu-id="64ce4-157">**WM\_NCPAINT**</span></span>](wm-ncpaint.md)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-158">**WM \_ 列印**</span><span class="sxs-lookup"><span data-stu-id="64ce4-158">**WM\_PRINT**</span></span>](wm-print.md)
+</dt> <dt>
+
+[<span data-ttu-id="64ce4-159">**WM \_ PRINTCLIENT**</span><span class="sxs-lookup"><span data-stu-id="64ce4-159">**WM\_PRINTCLIENT**</span></span>](wm-printclient.md)
+</dt> </dl>
+
+ 
+
+ 
