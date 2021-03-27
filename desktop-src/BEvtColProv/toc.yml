@@ -1,0 +1,40 @@
+- name: 開機事件收集器 WMI 提供者
+  href: boot-event-collector-wmi-provider-portal.md
+  items:
+    - name: TargetForwarding
+      href: targetforwarding.md
+    - name: TargetForwardingDestination
+      href: targetforwardingdestination.md
+    - name: TargetForwardingHistory
+      href: targetforwardinghistory.md
+    - name: 控制
+      href: control.md
+      items:
+        - name: Checkpoint 方法
+          href: control-checkpoint.md
+        - name: DumpDiagnostics 方法
+          href: control-dumpdiagnostics.md
+        - name: FastShutdown 方法
+          href: control-fastshutdown.md
+        - name: Flush 方法
+          href: control-flush.md
+        - name: GetConfiguration 方法
+          href: control-getconfiguration.md
+        - name: IsConfigurationEqual 方法
+          href: control-isconfigurationequal.md
+        - name: ListBackups 方法
+          href: control-listbackups.md
+        - name: Redo 方法
+          href: control-redo.md
+        - name: RestoreFile 方法
+          href: control-restorefile.md
+        - name: RestoreFromTime 方法
+          href: control-restorefromtime.md
+        - name: SetConfiguration 方法
+          href: control-setconfiguration.md
+        - name: Shutdown 方法
+          href: control-shutdown.md
+        - name: Undo 方法
+          href: control-undo.md
+        - name: ValidateConfiguration 方法
+          href: control-validateconfiguration.md

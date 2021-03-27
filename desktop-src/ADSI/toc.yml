@@ -1,0 +1,1332 @@
+- name: Active Directory 服務介面
+  href: active-directory-service-interfaces-adsi.md
+  items:
+    - name: Active Directory 服務介面快速入門教學課程
+      href: adsi-quick-start-tutorials.md
+      items:
+        - name: 設定您的開發環境
+          href: setting-up-your-development-environment.md
+          items:
+            - name: ADSI 的腳本開始使用
+              href: getting-started-with-scripting-for-adsi.md
+            - name: 使用 ASP for ADSI 開始使用
+              href: getting-started-with-asp-for-adsi.md
+            - name: 設定 ADSI 開發的 Visual Basic 6。0
+              href: setting-up-visual-basic-for-adsi-development.md
+            - name: 設定 ADSI 開發的 Visual C++ 6。0
+              href: setting-up-c---for-adsi-development.md
+        - name: 使用 Visual Basic 存取 Active Directory
+          href: accessing-active-directory-using-visual-basic.md
+          items:
+            - name: 教學課程總覽： ADSI 與 Visual Basic
+              href: so-what-is-active-directory.md
+            - name: 案例： Fabrikam Corporation
+              href: scenario--the-fabrikam-corporation.md
+              items:
+                - name: 連接到 Active Directory
+                  href: connecting-to-active-directory.md
+                - name: 系結至 Active Directory 物件
+                  href: binding-to-active-directory-objects.md
+                - name: 建立組織單位
+                  href: creating-an-organizational-unit.md
+                - name: 將現有的使用者移至組織單位
+                  href: moving-existing-users-to-the-organizational-unit.md
+                - name: 在組織單位中建立新的使用者
+                  href: creating-new-users-in-the-organizational-unit.md
+                - name: 將使用者新增至群組
+                  href: adding-users-to-a-group.md
+                - name: 建立新群組
+                  href: creating-a-new-group.md
+                - name: 列舉物件
+                  href: enumerating-objects.md
+                - name: 搜尋物件
+                  href: searching-for-objects.md
+                - name: 重組
+                  href: reorganization.md
+                - name: 聯結異質資料
+                  href: joining-heterogeneous-data.md
+                - name: 建立和執行視圖
+                  href: creating-and-executing-a-view.md
+                - name: 在 SQL Server 和 Active Directory 之間建立異類聯結
+                  href: creating-a-heterogeneous-join-between-sql-server-and-active-directory.md
+            - name: 進階主題
+              href: advanced-topics.md
+              items:
+                - name: RootDSE
+                  href: rootdse.md
+                - name: 委派組織單位
+                  href: delegating-organizational-units.md
+                - name: 擴充 ADSI
+                  href: extending-adsi.md
+                - name: 將 ADSI Visual Basic 程式碼對應至 c + + 程式碼
+                  href: mapping-adsi-visual-basic-code-to-c-code.md
+        - name: Active Directory 服務介面腳本
+          href: adsi-scripting-tutorial.md
+          items:
+            - name: 錯誤和錯誤陷阱
+              href: errors-and-error-trapping.md
+              items:
+                - name: 如何陷阱 ADSI 錯誤
+                  href: how-to-trap-adsi-errors.md
+                - name: 一般錯誤
+                  href: common-errors.md
+    - name: 關於 Active Directory 服務介面
+      href: about-adsi.md
+      items:
+        - name: 多個目錄服務
+          href: multiple-directory-services.md
+        - name: 誰將使用 Active Directory 服務介面？
+          href: who-will-use-active-directory-service-interfaces.md
+        - name: 今天的目錄服務
+          href: directory-services-today.md
+        - name: 使用 Active Directory 服務介面的優點
+          href: benefits-of-using-active-directory-service-interfaces.md
+        - name: ADSI 和使用者帳戶控制
+          href: adsi-and-uac.md
+        - name: ADSI 中的事件追蹤
+          href: adsi-and-etw.md
+        - name: Active Directory 服務介面架構
+          href: active-directory-service-interfaces-architecture.md
+          items:
+            - name: Active Directory 服務介面物件
+              href: active-directory-service-interfaces-objects.md
+            - name: 命名空間
+              href: namespaces.md
+            - name: Active Directory 服務介面提供者
+              href: active-directory-service-interfaces-provider.md
+            - name: ADSI 架構模型
+              href: adsi-schema-model.md
+        - name: 程式設計語言支援
+          href: programming-language-support.md
+        - name: ADSI 屬性和屬性
+          href: adsi-properties-and-attributes.md
+          items:
+            - name: ADSI 屬性快取
+              href: the-adsi-attribute-cache.md
+            - name: Single 與 Multiple Value 屬性
+              href: single-vs--multiple-value-attributes.md
+            - name: Active Directory 操作屬性
+              href: active-directory-operational-attributes.md
+    - name: 使用 Active Directory 服務介面
+      href: using-adsi.md
+      items:
+        - name: 系結至 ADSI 物件
+          href: binding-to-an-adsi-object.md
+          items:
+            - name: 系結字串
+              href: binding-string.md
+            - name: Active Directory 特定的系結類型
+              href: binding-types-specific-to-active-directory.md
+            - name: 混合式環境的系結問題
+              href: binding-issues-for-mixed-environments.md
+            - name: 使用 ADSI 介面以程式設計方式系結
+              href: binding-programmatically-using-an-adsi-interface.md
+              items:
+                - name: 使用 ADSI 函數直接系結至物件
+                  href: using-adsi-functions-to-bind-directly-to-an-object.md
+                  items:
+                    - name: 使用 GetObject 和 ADsGetObject 的系結
+                      href: binding-with-getobject-and-adsgetobject.md
+                    - name: 使用 ADsOpenObject 和 IADsOpenDSObject：： Objdso.opendsobject 系結
+                      href: binding-with-adsopenobject-and-iadsopendsobject-opendsobject.md
+                    - name: 使用加密的系結
+                      href: binding-with-encryption.md
+                - name: 使用 ActiveX 資料物件系結至 ADSI 提供者
+                  href: using-an-activex-data-object-to-bind-to-adsi-providers.md
+            - name: 連接快取
+              href: connection-caching.md
+            - name: 系結至子物件
+              href: binding-to-child-objects.md
+            - name: 系結至物件的父系
+              href: binding-to-an-objectampaposs-parent.md
+            - name: 批次寫入/修改作業的快速系結選項
+              href: fast-binding-option-for-batch-writemodify-operations.md
+            - name: 選擇系結的介面
+              href: choosing-an-interface.md
+        - name: 建立和刪除物件
+          href: creating-and-deleting-objects.md
+        - name: 使用 ADSI 存取及運算元據
+          href: accessing-and-manipulating-data-with-adsi.md
+          items:
+            - name: IADs 和 IDirectoryObject 介面
+              href: the-iads-and-idirectoryobject-interfaces.md
+              items:
+                - name: 使用 IADs 介面
+                  href: using-the-iads-interfaces.md
+                - name: 使用 IDirectoryObject 介面
+                  href: using-the-idirectoryobject-interface.md
+            - name: 使用 ADSI 存取屬性
+              href: accessing-attributes-with-adsi.md
+              items:
+                - name: Get 方法
+                  href: the-get-method.md
+                - name: GetEx 方法
+                  href: the-getex-method.md
+                - name: GetInfo 方法
+                  href: the-getinfo-method.md
+                - name: 使用 GetInfoEx 的優化
+                  href: optimization-using-getinfoex.md
+                  items:
+                    - name: 用於讀取已建立之屬性的範例程式碼
+                      href: example-code-for-reading-a-constructed-attribute.md
+                - name: 使用 IDirectoryObject 介面存取屬性
+                  href: accessing-attributes-with-the-idirectoryobject-interface.md
+                - name: 用於讀取屬性的範例程式碼
+                  href: example-code-for-reading-attributes.md
+            - name: 使用 ADSI 修改屬性
+              href: modifying-attributes-with-adsi.md
+              items:
+                - name: Put 方法
+                  href: the-put-method.md
+                - name: PutEx 方法
+                  href: the-putex-method.md
+                - name: SetInfo 方法
+                  href: the-setinfo-method.md
+                - name: 使用 IDirectoryObject 介面修改屬性
+                  href: modifying-attributes-with-the-idirectoryobject-interface.md
+            - name: 使用 IADsProperty 介面直接存取屬性快取
+              href: accessing-the-property-cache-directly-with-the-iadsproperty-interfaces.md
+              items:
+                - name: 使用 IADsProperty 介面存取屬性快取的範例程式碼
+                  href: example-code-for-using-iadsproperty-interfaces-to-access-the-property-cache.md
+            - name: ADSI 屬性語法
+              href: adsi-attribute-syntax.md
+              items:
+                - name: 將 Active Directory 語法對應至 ADSI 語法
+                  href: mapping-active-directory-syntax-to-adsi-syntax.md
+        - name: 使用 ADSI 架構
+          href: using-the-adsi-schema.md
+          items:
+            - name: 讀取架構
+              href: reading-the-schema.md
+        - name: 集合和群組
+          href: collections-and-groups.md
+        - name: 列舉 ADSI 物件
+          href: enumerating-adsi-objects.md
+          items:
+            - name: 列舉型別
+              href: enumeration.md
+            - name: 列舉 Helper 函數
+              href: enumeration-helper-functions.md
+        - name: 搜尋 Active Directory
+          href: searching-active-directory.md
+          items:
+            - name: 查詢的範圍
+              href: scope-of-query.md
+            - name: 效能和處理大型結果集
+              href: performance-and-handling-large-result-sets.md
+              items:
+                - name: 什麼是快速查詢？
+                  href: what-makes-a-fast-query.md
+                  items:
+                    - name: 編製索引
+                      href: indexing.md
+                    - name: objectCategory 與 objectClass
+                      href: objectcategory-vs--objectclass.md
+                    - name: 轉介
+                      href: referrals.md
+                    - name: 組合查詢字串
+                      href: assembling-query-strings.md
+                    - name: 正在抓取大型結果集
+                      href: retrieving-large-results-sets.md
+                    - name: 僅搜尋屬性
+                      href: search-attributes-only.md
+                    - name: 搜尋大小限制
+                      href: search-size-limit.md
+                    - name: 搜尋時間限制
+                      href: search-time-limit.md
+                    - name: 搜尋超時
+                      href: search-time-out.md
+                    - name: 非同步搜尋
+                      href: asynchronous-searches.md
+                    - name: 屬性範圍抓取
+                      href: attribute-range-retrieval.md
+                      items:
+                        - name: 使用 IADs：： GetInfoEx 進行範圍抓取
+                          href: using-iads--getinfoex-for-range-retrieval.md
+                        - name: 使用 ADO 進行範圍抓取
+                          href: using-ado-for-range-retrieval.md
+                          items:
+                            - name: ADO LDAP 範圍方言
+                              href: ado-ldap-ranging-dialect.md
+                            - name: ADO SQL 範圍方言
+                              href: ado-sql-ranging-dialect.md
+                            - name: 使用範圍取得群組成員的範例程式碼
+                              href: example-code-for-using-ranging-to-retrieve-members-of-a-group.md
+                        - name: 使用 >idirectorysearch 和 IDirectoryObject 進行範圍抓取
+                          href: using-idirectorysearch-and-idirectoryobject-for-range-retrieval.md
+                          items:
+                            - name: 使用 IDirectoryObject 進行範圍的範例程式碼
+                              href: example-code-for-ranging-with-idirectoryobject.md
+                            - name: 使用 >idirectorysearch 進行範圍的範例程式碼
+                              href: example-code-for-ranging-with-idirectorysearch.md
+                - name: 處理結果集
+                  href: processing-a-result-set.md
+                  items:
+                    - name: ' (用戶端) 快取結果'
+                      href: caching-the-result-client-side.md
+                    - name: 排序
+                      href: sorting.md
+            - name: 搜尋篩選語法
+              href: search-filter-syntax.md
+              items:
+                - name: Dialect
+                  href: dialect.md
+                  items:
+                    - name: SQL 方言
+                      href: sql-dialect.md
+                    - name: LDAP 方言
+                      href: ldap-dialect.md
+            - name: 查詢介面
+              href: query-interfaces.md
+              items:
+                - name: 使用 >idirectorysearch 介面搜尋
+                  href: searching-with-idirectorysearch.md
+                  items:
+                    - name: 使用 >idirectorysearch 指定其他搜尋選項
+                      href: specifying-other-search-options-with-idirectorysearch.md
+                      items:
+                        - name: 使用 SetSearchPreference 方法
+                          href: using-the-setsearchpreference-method.md
+                        - name: 使用 >idirectorysearch 進行同步和非同步搜尋
+                          href: synchronous-and-asynchronous-searches-with-idirectorysearch.md
+                        - name: 使用 >idirectorysearch 進行分頁
+                          href: paging-with-idirectorysearch.md
+                        - name: 使用 >idirectorysearch 的結果快取
+                          href: result-caching-with-idirectorysearch.md
+                        - name: 執行屬性範圍查詢
+                          href: performing-an-attribute-scoped-query.md
+                        - name: 使用 >idirectorysearch 排序搜尋結果
+                          href: sorting-the-search-results-with-idirectorysearch.md
+                        - name: 使用 >idirectorysearch 的參考追蹤
+                          href: referral-chasing-with-idirectorysearch.md
+                        - name: 使用 >idirectorysearch 的大小限制
+                          href: size-limit-with-idirectorysearch.md
+                        - name: 使用 >idirectorysearch 的伺服器時間限制
+                          href: server-time-limit-with-idirectorysearch.md
+                        - name: 使用 >idirectorysearch 的用戶端時間限制
+                          href: client-time-limit-with-idirectorysearch.md
+                        - name: 使用 >idirectorysearch 只傳回屬性名稱
+                          href: returning-only-attribute-names-with-idirectorysearch.md
+                          items:
+                            - name: 用於搜尋屬性的範例程式碼
+                              href: example-code-for-searching-for-attributes.md
+                    - name: 如何使用 VLV 搜尋
+                      href: how-to-search-using-vlv.md
+                      items:
+                        - name: 使用 VLV 搜尋的範例程式碼
+                          href: example-code-for-using-a-vlv-search.md
+                    - name: 使用 >idirectorysearch 的範例程式碼
+                      href: example-code-for-using-idirectorysearch.md
+                - name: 使用 ActiveX Data Objects (ADO) 搜尋
+                  href: searching-with-activex-data-objects-ado.md
+                  items:
+                    - name: 從 ADO 修改 ADSI 物件
+                      href: modifying-an-adsi-object-from-ado.md
+                - name: 使用 OLE DB 搜尋
+                  href: searching-with-ole-db.md
+                  items:
+                    - name: 使用 OLE DB 來搜尋 Active Directory 的範例程式碼
+                      href: example-code-for-using-ole-db-to-search-active-directory.md
+            - name: 搜尋二進位資料
+              href: searching-binary-data.md
+            - name: Distributed Query
+              href: distributed-query.md
+        - name: ADSI 安全性模型
+          href: adsi-security-model.md
+          items:
+            - name: 驗證
+              href: authentication.md
+              items:
+                - name: ADSI 與 ASP 的驗證問題
+                  href: authentication-issues-for-adsi-with-asp.md
+            - name: 檔案和登錄機碼上的安全描述項
+              href: security-descriptors-on-files-and-registry-keys.md
+              items:
+                - name: 將 ACE 新增至檔案的範例程式碼
+                  href: example-code-for-adding-an-ace-to-a-file.md
+        - name: ADSI 擴充功能
+          href: adsi-extensions.md
+          items:
+            - name: 使用 ADSI 擴充功能的優點
+              href: benefits-of-using-adsi-extensions.md
+            - name: ADSI 擴充功能架構
+              href: adsi-extension-architecture.md
+            - name: ADSI 如何整合延伸模組
+              href: adsi-and-extensions.md
+            - name: 用戶端會看到什麼？
+              href: what-does-a-client-see.md
+            - name: 從您的延伸模組取得 ADSI 介面
+              href: getting-adsi-interfaces-from-your-extension.md
+            - name: ADSI 擴充功能類型程式庫
+              href: adsi-extension-type-libraries.md
+            - name: 早期繫結支援
+              href: early-binding-support.md
+            - name: 晚期繫結支援
+              href: late-binding-support.md
+              items:
+                - name: 晚期繫結：幕後有什麼進展？
+                  href: late-binding--whatampaposs-happening-under-the-hood.md
+                - name: ADSI 擴充模型中的晚期繫結與 Vtable 存取
+                  href: late-binding-vs--vtable-access-in-the-adsi-extension-model.md
+            - name: IADsExtension 介面
+              href: iadsextension-interface.md
+              items:
+                - name: IADsExtension 使用方式
+                  href: iadsextension-usage.md
+            - name: 支援雙重或分派介面
+              href: supporting-dual-or-dispatch-interfaces.md
+            - name: 使用 ADSI 擴充功能重新使用 COM 匯總規則
+              href: revisiting-com-aggregation-rules-with-adsi-extensions.md
+            - name: 支援相同介面的多個匯總元件的解析
+              href: resolution-of-multiple-aggregation-components-supporting-the-same-interface.md
+            - name: 函數/屬性名稱在延伸模組中的自動化衝突
+              href: resolution-of-functionproperty-name-conflicts-in-automation-in-extensions.md
+              items:
+                - name: 解析函數名稱衝突的範例
+                  href: example-for-resolving-function-name-conflicts.md
+        - name: 搭配 Exchange 使用 ADSI
+          href: using-adsi-with-exchange.md
+        - name: ADSI 公用程式介面
+          href: adsi-utility-interfaces.md
+          items:
+            - name: IADsDeleteOps 介面
+              href: iadsdeleteops-interface.md
+            - name: IADsObjectOptions 介面
+              href: iadsobjectoptions-interface.md
+            - name: IADsPathname 介面
+              href: iadspathname-interface.md
+            - name: IADsNameTranslate 介面
+              href: iadsnametranslate-interface.md
+        - name: 使用 JAVA/COM 編寫 ADSI 程式設計
+          href: programming-adsi-with-javacom.md
+    - name: 執行 Active Directory 服務介面提供者
+      href: implementing-adsi-providers.md
+      items:
+        - name: 提供者的最低需求
+          href: provider-minimum-requirements.md
+          items:
+            - name: 核心執行
+              href: core-implementation.md
+            - name: 選擇性執行
+              href: optional-implementation.md
+            - name: 自訂屬性
+              href: custom-properties.md
+            - name: 雙重介面
+              href: dual-interfaces.md
+        - name: 提供者總覽
+          href: provider-overview.md
+          items:
+            - name: ADSI 元件互動
+              href: adsi-component-interaction.md
+            - name: 架構介面
+              href: schema-interfaces.md
+              items:
+                - name: 架構延伸模組
+                  href: schema-extensions.md
+            - name: 列舉容器物件
+              href: enumerating-container-objects.md
+            - name: 提供者登錄資訊
+              href: provider-registry-information.md
+            - name: 支援查詢
+              href: support-for-queries.md
+            - name: ADSI 提供者的執行問題
+              href: implementation-issues-for-adsi-providers.md
+        - name: ADSI 範例提供者元件
+          href: adsi-example-provider-component.md
+          items:
+            - name: 安裝範例提供者元件
+              href: installing-the-example-provider-component.md
+            - name: 目錄定義
+              href: directory-definition.md
+            - name: 架構管理
+              href: schema-management.md
+            - name: 系結至 Active Directory 物件
+              href: binding-to-an-active-directory-object.md
+            - name: 列舉值物件
+              href: enumerator-objects.md
+            - name: 程式碼總覽
+              href: code-overview.md
+            - name: 程式碼詳細資料
+              href: code-details.md
+              items:
+                - name: CCLSOBJ.Cpp
+                  href: cclsobj-cpp.md
+                - name: CDISPMGR.Cpp
+                  href: cdispmgr-cpp.md
+                - name: CENUMNS.Cpp
+                  href: cenumns-cpp.md
+                - name: CENUMSCH.Cpp
+                  href: cenumsch-cpp.md
+                - name: CENUMOBJ.Cpp
+                  href: cenumobj-cpp.md
+                - name: CENUMVAR.Cpp
+                  href: cenumvar-cpp.md
+                - name: CGENOBJ.Cpp
+                  href: cgenobj-cpp.md
+                - name: 核心。Cpp
+                  href: core-cpp.md
+                - name: CNAMCF.Cpp
+                  href: cnamcf-cpp.md
+                - name: CNAMESP.Cpp
+                  href: cnamesp-cpp.md
+                - name: 常見。Cpp
+                  href: common-cpp.md
+                - name: CPRPOBJ.Cpp
+                  href: cprpobj-cpp.md
+                - name: CPROPS.Cpp
+                  href: cprops-cpp.md
+                - name: CPROV.Cpp
+                  href: cprov-cpp.md
+                - name: CPROVCF.Cpp
+                  href: cprovcf-cpp.md
+                - name: CSCHOBJ.Cpp
+                  href: cschobj-cpp.md
+                - name: GETOBJ.Cpp
+                  href: getobj-cpp.md
+                - name: GLOBALS.Cpp
+                  href: globals-cpp.md
+                - name: Guid。Cpp
+                  href: guid-cpp.md
+                - name: LIBMAIN.Cpp
+                  href: libmain-cpp.md
+                - name: 記憶。Cpp
+                  href: memory-cpp.md
+                - name: 物件。Cpp
+                  href: object-cpp.md
+                - name: 財產。Cpp
+                  href: property-cpp.md
+                - name: 解析。Cpp
+                  href: parse-cpp.md
+                - name: 包。Cpp
+                  href: pack-cpp.md
+                - name: REGDSAPI.Cpp
+                  href: regdsapi-cpp.md
+                - name: STDFACT.Cpp
+                  href: stdfact-cpp.md
+    - name: Active Directory 服務介面參考
+      href: adsi-reference.md
+      items:
+        - name: ADSI 資料類型和常數
+          href: adsi-data-types-and-constants.md
+          items:
+            - name: ADSI 屬性修改類型
+              href: adsi-attribute-modification-types.md
+            - name: ADSI 常數
+              href: adsi-constants.md
+            - name: ADSI 列印工作狀態常數
+              href: adsi-print-job-status-constants.md
+            - name: ADSI 單一資料型別
+              href: adsi-simple-data-types.md
+        - name: ADSI 結構
+          href: adsi-structures.md
+          items:
+            - name: ADS_ATTR_DEF
+              href: /windows/win32/api/Iads/ns-iads-ads_attr_def
+            - name: ADS_ATTR_INFO
+              href: /windows/win32/api/Iads/ns-iads-ads_attr_info
+            - name: ADS_BACKLINK
+              href: /windows/win32/api/Iads/ns-iads-ads_backlink
+            - name: ADS_CASEIGNORE_LIST
+              href: /windows/win32/api/Iads/ns-iads-ads_caseignore_list
+            - name: ADS_CLASS_DEF
+              href: /windows/win32/api/Iads/ns-iads-ads_class_def
+            - name: ADS_DN_WITH_BINARY
+              href: /windows/win32/api/Iads/ns-iads-ads_dn_with_binary
+            - name: ADS_DN_WITH_STRING
+              href: /windows/win32/api/Iads/ns-iads-ads_dn_with_string
+            - name: ADS_EMAIL
+              href: /windows/win32/api/Iads/ns-iads-ads_email
+            - name: ADS_FAXNUMBER
+              href: /windows/win32/api/Iads/ns-iads-ads_faxnumber
+            - name: ADS_HOLD
+              href: /windows/win32/api/Iads/ns-iads-ads_hold
+            - name: ADS_NETADDRESS
+              href: /windows/win32/api/Iads/ns-iads-ads_netaddress
+            - name: ADS_NT_SECURITY_DESCRIPTOR
+              href: /windows/win32/api/Iads/ns-iads-ads_nt_security_descriptor
+            - name: ADS_OBJECT_INFO
+              href: /windows/win32/api/Iads/ns-iads-ads_object_info
+            - name: ADS_OCTET_LIST
+              href: /windows/win32/api/Iads/ns-iads-ads_octet_list
+            - name: ADS_OCTET_STRING
+              href: /windows/win32/api/Iads/ns-iads-ads_octet_string
+            - name: ADS_PATH
+              href: /windows/win32/api/Iads/ns-iads-ads_path
+            - name: ADS_POSTALADDRESS
+              href: /windows/win32/api/Iads/ns-iads-ads_postaladdress
+            - name: ADS_PROV_SPECIFIC
+              href: /windows/win32/api/Iads/ns-iads-ads_prov_specific
+            - name: ADS_REPLICAPOINTER
+              href: /windows/win32/api/Iads/ns-iads-ads_replicapointer
+            - name: ADS_SEARCH_COLUMN
+              href: /windows/desktop/api/Iads/ns-iads-ads_search_column
+            - name: ADS_SEARCHPREF_INFO
+              href: /windows/desktop/api/Iads/ns-iads-ads_searchpref_info
+            - name: ADS_SORTKEY
+              href: /windows/win32/api/Iads/ns-iads-ads_sortkey
+            - name: ADS_TIMESTAMP
+              href: /windows/win32/api/Iads/ns-iads-ads_timestamp
+            - name: ADS_TYPEDNAME
+              href: /windows/win32/api/Iads/ns-iads-ads_typedname
+            - name: ADSVALUE
+              href: /windows/win32/api/Iads/ns-iads-adsvalue
+            - name: ADS_VLV
+              href: /windows/win32/api/Iads/ns-iads-ads_vlv
+        - name: ADSI 列舉
+          href: adsi-enumerations.md
+          items:
+            - name: ADS_ACEFLAG_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_aceflag_enum
+            - name: ADS_ACETYPE_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_acetype_enum
+            - name: ADS_AUTHENTICATION_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_authentication_enum
+            - name: ADS_CHASE_REFERRALS_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_chase_referrals_enum
+            - name: ADS_DEREFENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_derefenum
+            - name: ADS_DISPLAY_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_display_enum
+            - name: ADS_ESCAPE_MODE_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_escape_mode_enum
+            - name: ADS_FLAGTYPE_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_flagtype_enum
+            - name: ADS_FORMAT_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_format_enum
+            - name: ADS_GROUP_TYPE_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_group_type_enum
+            - name: ADS_NAME_INITTYPE_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_name_inittype_enum
+            - name: ADS_NAME_TYPE_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_name_type_enum
+            - name: ADS_OPTION_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_option_enum
+            - name: ADS_PASSWORD_ENCODING_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_password_encoding_enum
+            - name: ADS_PATHTYPE_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_pathtype_enum
+            - name: ADS_PREFERENCES_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_preferences_enum
+            - name: ADS_PROPERTY_OPERATION_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_property_operation_enum
+            - name: ADS_RIGHTS_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_rights_enum
+            - name: ADS_SCOPEENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_scopeenum
+            - name: ADS_SD_CONTROL_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_sd_control_enum
+            - name: ADS_SD_FORMAT_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_sd_format_enum
+            - name: ADS_SD_REVISION_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_sd_revision_enum
+            - name: ADS_SEARCHPREF_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_searchpref_enum
+            - name: ADS_SECURITY_INFO_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_security_info_enum
+            - name: ADS_SETTYPE_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_settype_enum
+            - name: ADS_STATUSENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_statusenum
+            - name: ADS_SYSTEMFLAG_ENUM
+              href: /windows/win32/api/Iads/ne-iads-ads_systemflag_enum
+            - name: ADS_USER_FLAG_ENUM
+              href: /windows/desktop/api/iads/ne-iads-ads_user_flag_enum
+            - name: ADSI_DIALECT_ENUM
+              href: /windows/win32/api/Iads/ne-iads-adsi_dialect_enum
+            - name: ADSTYPEENUM
+              href: /windows/win32/api/Iads/ne-iads-adstypeenum
+        - name: ADSI 函數
+          href: adsi-functions.md
+          items:
+            - name: ADsBuildEnumerator
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adsbuildenumerator
+            - name: ADsBuildVarArrayInt
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adsbuildvararrayint
+            - name: ADsBuildVarArrayStr
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adsbuildvararraystr
+            - name: ADsEncodeBinaryData
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adsencodebinarydata
+            - name: ADsEnumerateNext
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adsenumeratenext
+            - name: ADsFreeEnumerator
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adsfreeenumerator
+            - name: ADsGetLastError
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adsgetlasterror
+            - name: ADsGetObject
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adsgetobject
+            - name: ADsOpenObject
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adsopenobject
+            - name: ADsSetLastError
+              href: /windows/desktop/api/Adshlp/nf-adshlp-adssetlasterror
+            - name: AllocADsMem
+              href: /windows/desktop/api/Adshlp/nf-adshlp-allocadsmem
+            - name: AllocADsStr
+              href: /windows/desktop/api/Adshlp/nf-adshlp-allocadsstr
+            - name: BinarySDToSecurityDescriptor
+              href: /windows/desktop/api/Adshlp/nf-adshlp-binarysdtosecuritydescriptor
+            - name: FreeADsMem
+              href: /windows/desktop/api/Adshlp/nf-adshlp-freeadsmem
+            - name: FreeADsStr
+              href: /windows/desktop/api/Adshlp/nf-adshlp-freeadsstr
+            - name: ReallocADsMem
+              href: /windows/desktop/api/Adshlp/nf-adshlp-reallocadsmem
+            - name: ReallocADsStr
+              href: /windows/desktop/api/Adshlp/nf-adshlp-reallocadsstr
+            - name: SecurityDescriptorToBinarySD
+              href: /windows/desktop/api/Adshlp/nf-adshlp-securitydescriptortobinarysd
+            - name: 過時的 ADSI 函數
+              href: obsolete-adsi-functions.md
+        - name: ADSI 介面
+          href: adsi-interfaces.md
+          items:
+            - name: 依字母順序排列的 ADSI 介面清單
+              href: alphabetical-listing-of-adsi-interfaces.md
+            - name: 介面屬性方法
+              href: interface-property-methods.md
+            - name: 系統提供者的介面實作為
+              href: interface-implementation-of-system-providers.md
+            - name: ADSI 物件和介面
+              href: adsi-objects-and-interfaces.md
+              items:
+                - name: 適用于 LDAP 提供者的 ADSI 物件模型
+                  href: adsi-object-model-for-ldap-providers.md
+                - name: 適用于 WinNT 提供者的 ADSI 物件模型
+                  href: adsi-object-model-for-winnt-providers.md
+            - name: 核心介面
+              href: core-interfaces.md
+              items:
+                - name: IADs
+                  href: /windows/desktop/api/Iads/nn-iads-iads
+                  items:
+                    - name: IADs 屬性方法
+                      href: iads-property-methods.md
+                    - name: IADs：： Get
+                      href: /windows/desktop/api/Iads/nf-iads-iads-get
+                    - name: IADs：： GetEx
+                      href: /windows/desktop/api/Iads/nf-iads-iads-getex
+                    - name: IADs：： GetInfo
+                      href: /windows/desktop/api/Iads/nf-iads-iads-getinfo
+                    - name: IADs：： GetInfoEx
+                      href: /windows/desktop/api/Iads/nf-iads-iads-getinfoex
+                    - name: 'IADs：:P 的內容'
+                      href: /windows/desktop/api/Iads/nf-iads-iads-put
+                    - name: 'IADs：:P utEx'
+                      href: /windows/desktop/api/Iads/nf-iads-iads-putex
+                    - name: IADs：： SetInfo
+                      href: /windows/desktop/api/Iads/nf-iads-iads-setinfo
+                - name: IADsContainer
+                  href: /windows/desktop/api/Iads/nn-iads-iadscontainer
+                  items:
+                    - name: IADsContainer 屬性方法
+                      href: iadscontainer-property-methods.md
+                    - name: 'IADsContainer::CopyHere'
+                      href: /windows/desktop/api/Iads/nf-iads-iadscontainer-copyhere
+                    - name: IADsContainer：： Create
+                      href: /windows/desktop/api/Iads/nf-iads-iadscontainer-create
+                    - name: 'IADsContainer：:D elete'
+                      href: /windows/desktop/api/Iads/nf-iads-iadscontainer-delete
+                    - name: IADsContainer：： get__NewEnum
+                      href: /windows/desktop/api/Iads/nf-iads-iadscontainer-get__newenum
+                    - name: IADsContainer：： GetObject
+                      href: /windows/desktop/api/Iads/nf-iads-iadscontainer-getobject
+                    - name: 'IADsContainer::MoveHere'
+                      href: /windows/desktop/api/Iads/nf-iads-iadscontainer-movehere
+                - name: IADsNamespaces
+                  href: /windows/desktop/api/Iads/nn-iads-iadsnamespaces
+                  items:
+                    - name: IADsNamespaces 屬性方法
+                      href: iadsnamespaces-property-methods.md
+                - name: IADsOpenDSObject
+                  href: /windows/desktop/api/Iads/nn-iads-iadsopendsobject
+                  items:
+                    - name: IADsOpenDSObject：： Objdso.opendsobject
+                      href: /windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject
+            - name: 架構介面
+              href: schema-interfaces.md
+              items:
+                - name: 得到 iadsclass
+                  href: /windows/desktop/api/Iads/nn-iads-iadsclass
+                  items:
+                    - name: 得到 iadsclass 屬性方法
+                      href: iadsclass-property-methods.md
+                    - name: 得到 iadsclass：：限定詞
+                      href: /windows/desktop/api/Iads/nf-iads-iadsclass-qualifiers
+                - name: IADsProperty
+                  href: /windows/desktop/api/Iads/nn-iads-iadsproperty
+                  items:
+                    - name: IADsProperty 屬性方法
+                      href: iadsproperty-property-methods.md
+                    - name: IADsProperty：：限定詞
+                      href: /windows/desktop/api/Iads/nf-iads-iadsproperty-qualifiers
+                - name: IADsSyntax
+                  href: /windows/desktop/api/Iads/nn-iads-iadssyntax
+                  items:
+                    - name: IADsSyntax 屬性方法
+                      href: iadssyntax-property-methods.md
+            - name: 屬性快取介面
+              href: property-cache-interfaces.md
+              items:
+                - name: IADsPropertyEntry
+                  href: /windows/desktop/api/Iads/nn-iads-iadspropertyentry
+                  items:
+                    - name: IADsPropertyEntry 屬性方法
+                      href: iadspropertyentry-property-methods.md
+                - name: IADsPropertyList
+                  href: /windows/desktop/api/Iads/nn-iads-iadspropertylist
+                  items:
+                    - name: IADsPropertyList 屬性方法
+                      href: iadspropertylist-property-methods.md
+                    - name: 'IADsPropertyList::GetPropertyItem'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-getpropertyitem
+                    - name: IADsPropertyList：： Item
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-item
+                    - name: IADsPropertyList：： Next
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-next
+                    - name: 'IADsPropertyList：:P urgePropertyList'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-purgepropertylist
+                    - name: 'IADsPropertyList：:P utPropertyItem'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-putpropertyitem
+                    - name: IADsPropertyList：： Reset
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-reset
+                    - name: 'IADsPropertyList::ResetPropertyItem'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-resetpropertyitem
+                    - name: IADsPropertyList：： Skip
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertylist-skip
+                - name: IADsPropertyValue
+                  href: /windows/desktop/api/Iads/nn-iads-iadspropertyvalue
+                  items:
+                    - name: IADsPropertyValue 屬性方法
+                      href: iadspropertyvalue-property-methods.md
+                    - name: IADsPropertyValue：： Clear
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertyvalue-clear
+                - name: IADsPropertyValue2
+                  href: /windows/desktop/api/Iads/nn-iads-iadspropertyvalue2
+                  items:
+                    - name: 'IADsPropertyValue2::GetObjectProperty'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertyvalue2-getobjectproperty
+                    - name: 'IADsPropertyValue2：:P utObjectProperty'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspropertyvalue2-putobjectproperty
+            - name: 持續性物件介面
+              href: persistent-object-interfaces.md
+              items:
+                - name: IADsCollection
+                  href: /windows/desktop/api/Iads/nn-iads-iadscollection
+                  items:
+                    - name: IADsCollection：： Add
+                      href: /windows/desktop/api/Iads/nf-iads-iadscollection-add
+                    - name: IADsCollection：： get__NewEnum
+                      href: /windows/desktop/api/Iads/nf-iads-iadscollection-get__newenum
+                    - name: IADsCollection：： GetObject
+                      href: /windows/desktop/api/Iads/nf-iads-iadscollection-getobject
+                    - name: IADsCollection：： Remove
+                      href: /windows/desktop/api/Iads/nf-iads-iadscollection-remove
+                - name: IADsComputer
+                  href: /windows/desktop/api/Iads/nn-iads-iadscomputer
+                  items:
+                    - name: IADsComputer 屬性方法
+                      href: iadscomputer-property-methods.md
+                - name: IADsDomain
+                  href: /windows/desktop/api/Iads/nn-iads-iadsdomain
+                  items:
+                    - name: IADsDomain 屬性方法
+                      href: iadsdomain-property-methods.md
+                - name: IADsFileService
+                  href: /windows/desktop/api/Iads/nn-iads-iadsfileservice
+                  items:
+                    - name: IADsFileService 屬性方法
+                      href: iadsfileservice-property-methods.md
+                - name: IADsFileShare
+                  href: /windows/desktop/api/Iads/nn-iads-iadsfileshare
+                  items:
+                    - name: IADsFileShare 屬性方法
+                      href: iadsfileshare-property-methods.md
+                - name: IADsGroup
+                  href: /windows/desktop/api/Iads/nn-iads-iadsgroup
+                  items:
+                    - name: IADsGroup 屬性方法
+                      href: iadsgroup-property-methods.md
+                    - name: IADsGroup：： Add
+                      href: /windows/desktop/api/Iads/nf-iads-iadsgroup-add
+                    - name: IADsGroup：： IsMember
+                      href: /windows/desktop/api/Iads/nf-iads-iadsgroup-ismember
+                    - name: IADsGroup：： Members
+                      href: /windows/desktop/api/Iads/nf-iads-iadsgroup-members
+                    - name: IADsGroup：： Remove
+                      href: /windows/desktop/api/Iads/nf-iads-iadsgroup-remove
+                - name: IADsLocality
+                  href: /windows/desktop/api/Iads/nn-iads-iadslocality
+                  items:
+                    - name: IADsLocality 屬性方法
+                      href: iadslocality-property-methods.md
+                - name: IADsMembers
+                  href: /windows/desktop/api/Iads/nn-iads-iadsmembers
+                  items:
+                    - name: IADsMembers 屬性方法
+                      href: iadsmembers-property-methods.md
+                    - name: IADsMembers：： get__NewEnum
+                      href: /windows/desktop/api/Iads/nf-iads-iadsmembers-get__newenum
+                - name: IADsO
+                  href: /windows/desktop/api/Iads/nn-iads-iadso
+                  items:
+                    - name: IADsO 屬性方法
+                      href: iadso-property-methods.md
+                - name: IADsOU
+                  href: /windows/desktop/api/Iads/nn-iads-iadsou
+                  items:
+                    - name: IADsOU 屬性方法
+                      href: iadsou-property-methods.md
+                - name: IADsPrintJob
+                  href: /windows/desktop/api/Iads/nn-iads-iadsprintjob
+                  items:
+                    - name: IADsPrintJob 屬性方法
+                      href: iadsprintjob-property-methods.md
+                - name: IADsPrintQueue
+                  href: /windows/desktop/api/Iads/nn-iads-iadsprintqueue
+                  items:
+                    - name: IADsPrintQueue 屬性方法
+                      href: iadsprintqueue-property-methods.md
+                - name: IADsService
+                  href: /windows/desktop/api/Iads/nn-iads-iadsservice
+                  items:
+                    - name: IADsService 屬性方法
+                      href: iadsservice-property-methods.md
+                - name: IADsUser
+                  href: /windows/desktop/api/Iads/nn-iads-iadsuser
+                  items:
+                    - name: IADsUser 屬性方法
+                      href: iadsuser-property-methods.md
+                    - name: IADsUser：： ChangePassword
+                      href: /windows/desktop/api/Iads/nf-iads-iadsuser-changepassword
+                    - name: IADsUser：： Groups
+                      href: /windows/desktop/api/Iads/nf-iads-iadsuser-groups
+                    - name: IADsUser：： SetPassword
+                      href: /windows/desktop/api/Iads/nf-iads-iadsuser-setpassword
+            - name: 動態物件介面
+              href: dynamic-object-interfaces.md
+              items:
+                - name: IADsComputerOperations
+                  href: /windows/desktop/api/Iads/nn-iads-iadscomputeroperations
+                  items:
+                    - name: IADsComputerOperations：： Shutdown
+                      href: /windows/desktop/api/Iads/nf-iads-iadscomputeroperations-shutdown
+                    - name: IADsComputerOperations：： Status
+                      href: /windows/desktop/api/Iads/nf-iads-iadscomputeroperations-status
+                - name: IADsFileServiceOperations
+                  href: /windows/desktop/api/Iads/nn-iads-iadsfileserviceoperations
+                  items:
+                    - name: IADsFileServiceOperations：： Resources
+                      href: /windows/desktop/api/Iads/nf-iads-iadsfileserviceoperations-resources
+                    - name: IADsFileServiceOperations：：會話
+                      href: /windows/desktop/api/Iads/nf-iads-iadsfileserviceoperations-sessions
+                - name: IADsPrintJobOperations
+                  href: /windows/desktop/api/Iads/nn-iads-iadsprintjoboperations
+                  items:
+                    - name: IADsPrintJobOperations 屬性方法
+                      href: iadsprintjoboperations-property-methods.md
+                    - name: 'IADsPrintJobOperations：:P ause'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsprintjoboperations-pause
+                    - name: IADsPrintJobOperations：： Resume
+                      href: /windows/desktop/api/Iads/nf-iads-iadsprintjoboperations-resume
+                - name: IADsPrintQueueOperations
+                  href: /windows/desktop/api/Iads/nn-iads-iadsprintqueueoperations
+                  items:
+                    - name: IADsPrintQueueOperations 屬性方法
+                      href: iadsprintqueueoperations-property-methods.md
+                    - name: 'IADsPrintQueueOperations：:P ause'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-pause
+                    - name: 'IADsPrintQueueOperations：:P rintJobs'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-printjobs
+                    - name: 'IADsPrintQueueOperations：:P 強烈'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-purge
+                    - name: IADsPrintQueueOperations：： Resume
+                      href: /windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-resume
+                - name: IADsResource
+                  href: /windows/desktop/api/Iads/nn-iads-iadsresource
+                  items:
+                    - name: IADsResource 屬性方法
+                      href: iadsresource-property-methods.md
+                - name: IADsServiceOperations
+                  href: /windows/desktop/api/Iads/nn-iads-iadsserviceoperations
+                  items:
+                    - name: IADsServiceOperations 屬性方法
+                      href: iadsserviceoperations-property-methods.md
+                    - name: IADsServiceOperations：： Continue
+                      href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-continue
+                    - name: 'IADsServiceOperations：:P ause'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-pause
+                    - name: IADsServiceOperations：： SetPassword
+                      href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-setpassword
+                    - name: IADsServiceOperations：： Start
+                      href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-start
+                    - name: IADsServiceOperations：： Stop
+                      href: /windows/desktop/api/Iads/nf-iads-iadsserviceoperations-stop
+                - name: IADsSession
+                  href: /windows/desktop/api/Iads/nn-iads-iadssession
+                  items:
+                    - name: IADsSession 屬性方法
+                      href: iadssession-property-methods.md
+            - name: 安全性介面
+              href: security-interfaces.md
+              items:
+                - name: IADsAccessControlEntry
+                  href: /windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry
+                  items:
+                    - name: IADsAccessControlEntry 屬性方法
+                      href: iadsaccesscontrolentry-property-methods.md
+                - name: IADsAccessControlList
+                  href: /windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist
+                  items:
+                    - name: IADsAccessControlList 屬性方法
+                      href: iadsaccesscontrollist-property-methods.md
+                    - name: 'IADsAccessControlList::AddAce'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-addace
+                    - name: 'IADsAccessControlList::CopyAccessList'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-copyaccesslist
+                    - name: 'IADsAccessControlList::RemoveAce'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-removeace
+                    - name: IADsAccessControlList：： get__NewEnum
+                      href: /windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-get__newenum
+                - name: IADsSecurityDescriptor
+                  href: /windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor
+                  items:
+                    - name: IADsSecurityDescriptor 屬性方法
+                      href: iadssecuritydescriptor-property-methods.md
+                    - name: IADsSecurityDescriptor：： CopySecurityDescriptor
+                      href: /windows/desktop/api/Iads/nf-iads-iadssecuritydescriptor-copysecuritydescriptor
+                - name: IADsSecurityUtility
+                  href: /windows/desktop/api/Iads/nn-iads-iadssecurityutility
+                  items:
+                    - name: IADsSecurityUtility.SecurityMask
+                      href: /windows/desktop/api/Iads/nf-iads-iadssecurityutility-get_securitymask
+                    - name: 'IADsSecurityUtility::ConvertSecurityDescriptor'
+                      href: /windows/desktop/api/Iads/nf-iads-iadssecurityutility-convertsecuritydescriptor
+                    - name: IADsSecurityUtility：： GetSecurityDescriptor
+                      href: /windows/desktop/api/Iads/nf-iads-iadssecurityutility-getsecuritydescriptor
+                    - name: 'IADsSecurityUtility::SetSecurityDescriptor'
+                      href: /windows/desktop/api/Iads/nf-iads-iadssecurityutility-setsecuritydescriptor
+            - name: 非自動化介面
+              href: non-automation-interfaces.md
+              items:
+                - name: IDirectoryObject
+                  href: /windows/desktop/api/Iads/nn-iads-idirectoryobject
+                  items:
+                    - name: 'IDirectoryObject::CreateDSObject'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-createdsobject
+                    - name: 'IDirectoryObject：:D eleteDSObject'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-deletedsobject
+                    - name: 'IDirectoryObject::GetObjectAttributes'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-getobjectattributes
+                    - name: 'IDirectoryObject::GetObjectInformation'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-getobjectinformation
+                    - name: 'IDirectoryObject::SetObjectAttributes'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectoryobject-setobjectattributes
+                - name: IDirectorySchemaMgmt
+                  href: /windows/desktop/api/Iads/nn-iads-idirectoryschemamgmt
+                - name: '>idirectorysearch'
+                  href: /windows/desktop/api/Iads/nn-iads-idirectorysearch
+                  items:
+                    - name: '>idirectorysearch：： AbandonSearch'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-abandonsearch
+                    - name: '>idirectorysearch：： CloseSearchHandle'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-closesearchhandle
+                    - name: '>idirectorysearch：： ExecuteSearch'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-executesearch
+                    - name: '>idirectorysearch：： FreeColumn'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-freecolumn
+                    - name: '>idirectorysearch：： GetColumn'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getcolumn
+                    - name: '>idirectorysearch：： GetFirstRow'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow
+                    - name: '>idirectorysearch：： GetNextColumnName'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextcolumnname
+                    - name: '>idirectorysearch：： GetNextRow'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow
+                    - name: '>idirectorysearch：： GetPreviousRow'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-getpreviousrow
+                    - name: '>idirectorysearch：： SetSearchPreference'
+                      href: /windows/desktop/api/Iads/nf-iads-idirectorysearch-setsearchpreference
+            - name: 擴充介面
+              href: extension-interfaces.md
+              items:
+                - name: IADsExtension
+                  href: /windows/desktop/api/Iads/nn-iads-iadsextension
+                  items:
+                    - name: IADsExtension：：操作
+                      href: /windows/desktop/api/Iads/nf-iads-iadsextension-operate
+                    - name: 'IADsExtension：:P rivateGetIDsOfNames'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsextension-privategetidsofnames
+                    - name: 'IADsExtension：:P rivateInvoke'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsextension-privateinvoke
+            - name: 公用程式介面
+              href: utility-interfaces.md
+              items:
+                - name: IADsADSystemInfo
+                  href: /windows/desktop/api/Iads/nn-iads-iadsadsysteminfo
+                  items:
+                    - name: IADsADSystemInfo 屬性方法
+                      href: iadsadsysteminfo-property-methods.md
+                    - name: 'IADsADSystemInfo::GetAnyDCName'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsadsysteminfo-getanydcname
+                    - name: 'IADsADSystemInfo::GetDCSiteName'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsadsysteminfo-getdcsitename
+                    - name: 'IADsADSystemInfo::GetTrees'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsadsysteminfo-gettrees
+                    - name: 'IADsADSystemInfo::RefreshSchemaCache'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsadsysteminfo-refreshschemacache
+                - name: IADsDeleteOps
+                  href: /windows/desktop/api/Iads/nn-iads-iadsdeleteops
+                  items:
+                    - name: 'IADsDeleteOps：:D eleteObject'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsdeleteops-deleteobject
+                - name: IADsNameTranslate
+                  href: /windows/desktop/api/Iads/nn-iads-iadsnametranslate
+                  items:
+                    - name: IADsNameTranslate 屬性方法
+                      href: iadsnametranslate-property-methods.md
+                    - name: IADsNameTranslate：： Get
+                      href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-get
+                    - name: 'IADsNameTranslate::GetEx'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-getex
+                    - name: IADsNameTranslate：： Init
+                      href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-init
+                    - name: 'IADsNameTranslate::InitEx'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-initex
+                    - name: IADsNameTranslate：： Set
+                      href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-set
+                    - name: 'IADsNameTranslate::SetEx'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsnametranslate-setex
+                - name: IADsObjectOptions
+                  href: /windows/desktop/api/Iads/nn-iads-iadsobjectoptions
+                  items:
+                    - name: IADsObjectOptions：： GetOption
+                      href: /windows/desktop/api/Iads/nf-iads-iadsobjectoptions-getoption
+                    - name: IADsObjectOptions：： SetOption
+                      href: /windows/desktop/api/Iads/nf-iads-iadsobjectoptions-setoption
+                - name: IADsPathname
+                  href: /windows/desktop/api/Iads/nn-iads-iadspathname
+                  items:
+                    - name: IADsPathname 屬性方法
+                      href: iadspathname-property-methods.md
+                    - name: 'IADsPathname::AddLeafElement'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspathname-addleafelement
+                    - name: 'IADsPathname::CopyPath'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspathname-copypath
+                    - name: IADsPathname：： GetElement
+                      href: /windows/desktop/api/Iads/nf-iads-iadspathname-getelement
+                    - name: 'IADsPathname::GetEscapedElement'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspathname-getescapedelement
+                    - name: 'IADsPathname::GetNumElements'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspathname-getnumelements
+                    - name: 'IADsPathname::RemoveLeafElement'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspathname-removeleafelement
+                    - name: IADsPathname：：取出
+                      href: /windows/desktop/api/Iads/nf-iads-iadspathname-retrieve
+                    - name: IADsPathname：： Set
+                      href: /windows/desktop/api/Iads/nf-iads-iadspathname-set
+                    - name: 'IADsPathname::SetDisplayType'
+                      href: /windows/desktop/api/Iads/nf-iads-iadspathname-setdisplaytype
+                - name: IADsWinNTSystemInfo
+                  href: /windows/desktop/api/Iads/nn-iads-iadswinntsysteminfo
+                  items:
+                    - name: IADsWinNTSystemInfo 屬性方法
+                      href: iadswinntsysteminfo-property-methods.md
+            - name: 資料類型介面
+              href: data-type-interfaces.md
+              items:
+                - name: IADsAcl
+                  href: /windows/desktop/api/Iads/nn-iads-iadsacl
+                  items:
+                    - name: IADsAcl 屬性方法
+                      href: iadsacl-property-methods.md
+                    - name: 'IADsAcl::CopyAcl'
+                      href: /windows/desktop/api/Iads/nf-iads-iadsacl-copyacl
+                - name: IADsBackLink
+                  href: /windows/desktop/api/Iads/nn-iads-iadsbacklink
+                  items:
+                    - name: IADsBackLink 屬性方法
+                      href: iadsbacklink-property-methods.md
+                - name: IADsCaseIgnoreList
+                  href: /windows/desktop/api/Iads/nn-iads-iadscaseignorelist
+                  items:
+                    - name: IADsCaseIgnoreList 屬性方法
+                      href: iadscaseignorelist-property-methods.md
+                - name: IADsDNWithBinary
+                  href: /windows/desktop/api/Iads/nn-iads-iadsdnwithbinary
+                  items:
+                    - name: IADsDNWithBinary 屬性方法
+                      href: iadsdnwithbinary-property-methods.md
+                - name: IADsDNWithString
+                  href: /windows/desktop/api/Iads/nn-iads-iadsdnwithstring
+                  items:
+                    - name: IADsDNWithString 屬性方法
+                      href: iadsdnwithstring-property-methods.md
+                - name: IADsEmail
+                  href: /windows/desktop/api/Iads/nn-iads-iadsemail
+                  items:
+                    - name: IADsEmail 屬性方法
+                      href: iadsemail-property-methods.md
+                - name: IADsFaxNumber
+                  href: /windows/desktop/api/Iads/nn-iads-iadsfaxnumber
+                  items:
+                    - name: IADsFaxNumber 屬性方法
+                      href: iadsfaxnumber-property-methods.md
+                - name: IADsHold
+                  href: /windows/desktop/api/Iads/nn-iads-iadshold
+                  items:
+                    - name: IADsHold 屬性方法
+                      href: iadshold-property-methods.md
+                - name: IADsLargeInteger
+                  href: /windows/desktop/api/Iads/nn-iads-iadslargeinteger
+                  items:
+                    - name: IADsLargeInteger 屬性方法
+                      href: iadslargeinteger-property-methods.md
+                - name: IADsNetAddress
+                  href: /windows/desktop/api/Iads/nn-iads-iadsnetaddress
+                  items:
+                    - name: IADsNetAddress 屬性方法
+                      href: iadsnetaddress-property-methods.md
+                - name: IADsOctetList
+                  href: /windows/desktop/api/Iads/nn-iads-iadsoctetlist
+                  items:
+                    - name: IADsOctetList 屬性方法
+                      href: iadsoctetlist-property-methods.md
+                - name: IADsPath
+                  href: /windows/desktop/api/Iads/nn-iads-iadspath
+                  items:
+                    - name: IADsPath 屬性方法
+                      href: iadspath-property-methods.md
+                - name: IADsPostalAddress
+                  href: /windows/desktop/api/Iads/nn-iads-iadspostaladdress
+                  items:
+                    - name: IADsPostalAddress 屬性方法
+                      href: iadspostaladdress-property-methods.md
+                - name: IADsReplicaPointer
+                  href: /windows/desktop/api/Iads/nn-iads-iadsreplicapointer
+                  items:
+                    - name: IADsReplicaPointer 屬性方法
+                      href: iadsreplicapointer-property-methods.md
+                - name: IADsTimestamp
+                  href: /windows/desktop/api/Iads/nn-iads-iadstimestamp
+                  items:
+                    - name: IADsTimestamp 屬性方法
+                      href: iadstimestamp-property-methods.md
+                - name: IADsTypedName
+                  href: /windows/desktop/api/Iads/nn-iads-iadstypedname
+                  items:
+                    - name: IADsTypedName 屬性方法
+                      href: iadstypedname-property-methods.md
+        - name: ADSI 服務提供者
+          href: adsi-system-providers.md
+          items:
+            - name: ADSI LDAP 提供者
+              href: adsi-ldap-provider.md
+              items:
+                - name: LDAP ADsPath
+                  href: ldap-adspath.md
+                - name: Active Directory 與 LDAP 之間的資料類型對應
+                  href: data-type-mapping-between-active-directory-and-ldap.md
+                - name: LDAP 的 ADSI 物件
+                  href: adsi-objects-of-ldap.md
+                - name: LDAP 語法物件
+                  href: ldap-syntax-object.md
+                - name: LDAP 使用者物件
+                  href: ldap-user-object.md
+                  items:
+                    - name: IADsUser 屬性與 Active Directory 屬性之間的對應
+                      href: mapping-between-iadsuser-properties-and-active-directory-attributes.md
+                    - name: 使用 ADSI LDAP 提供者建立使用者
+                      href: user-creation-with-the-adsi-ldap-provider.md
+                    - name: 使用 LDAP 提供者來設定和變更使用者密碼
+                      href: setting-user-passwords-for-ldap-providers.md
+                    - name: Active Directory 中的使用者管理範例
+                      href: examples-of-user-management-in-active-directory.md
+                      items:
+                        - name: '帳戶已停用 (LDAP 提供者) '
+                          href: account-disabled.md
+                        - name: '帳戶到期 (LDAP 提供者) '
+                          href: account-expiration.md
+                        - name: '帳戶鎖定 (LDAP 提供者) '
+                          href: ldap-account-lockout.md
+                        - name: '密碼永遠不會過期 (LDAP 提供者) '
+                          href: password-never-expires.md
+                        - name: 使用者無法變更 LDAP 提供者) 的密碼 (
+                          href: user-cannot-change-password.md
+                          items:
+                            - name: 讀取使用者無法變更 LDAP 提供者) 的密碼 (
+                              href: reading-user-cannot-change-password-ldap-provider.md
+                            - name: 修改使用者無法變更 LDAP 提供者) 的密碼 (
+                              href: modifying-user-cannot-change-password-ldap-provider.md
+                        - name: '使用者必須在下次登入時變更密碼 (LDAP 提供者) '
+                          href: user-must-change-password-at-next-logon.md
+            - name: ADSI WinNT 提供者
+              href: adsi-winnt-provider.md
+              items:
+                - name: WinNT ADsPath
+                  href: winnt-adspath.md
+                - name: WinNT 的 ADSI 物件
+                  href: adsi-objects-of-winnt.md
+                - name: WinNT 架構
+                  href: winnt-schema.md
+                  items:
+                    - name: WinNT 物件類別階層
+                      href: winnt-object-class-hierarchy.md
+                    - name: WinNT 架構的強制和選擇性屬性
+                      href: winnt-schemaampaposs-mandatory-and-optional-properties.md
+                - name: WinNT 使用者物件
+                  href: winnt-user-object.md
+                  items:
+                    - name: 不支援的 IADsUser 屬性
+                      href: unsupported-iadsuser-properties.md
+                    - name: WinNT 自訂使用者屬性
+                      href: winnt-custom-user-properties.md
+                    - name: WinNT 使用者帳戶管理範例
+                      href: winnt-user-account-management-examples.md
+                      items:
+                        - name: '帳戶已停用 (WinNT 提供者) '
+                          href: winnt-account-disabled.md
+                        - name: ' (WinNT 提供者的帳戶到期) '
+                          href: winnt-account-expiration.md
+                        - name: ' (WinNT 提供者的帳戶鎖定) '
+                          href: winnt-account-lockout.md
+                        - name: ' (WinNT 提供者的物件 SID) '
+                          href: object-sid.md
+                        - name: ' (WinNT 提供者，密碼永遠不會過期) '
+                          href: winnt-password-never-expires.md
+                        - name: '使用者無法變更 (WinNT 提供者的密碼) '
+                          href: winnt-user-cannot-change-password.md
+                          items:
+                            - name: '讀取使用者無法變更 (WinNT 提供者的密碼) '
+                              href: reading-user-cannot-change-password-winnt-provider.md
+                            - name: '修改使用者無法變更 (WinNT 提供者的密碼) '
+                              href: modifying-user-cannot-change-password-winnt-provider.md
+                        - name: '使用者必須在下次登入時變更密碼 (WinNT 提供者) '
+                          href: winnt-user-must-change-password-at-next-logon.md
+            - name: ADSI 路由器
+              href: adsi-router.md
+              items:
+                - name: 在路由器層中執行的 ADSI 物件
+                  href: adsi-objects-implemented-in-the-router-layer.md
+            - name: ADSI 介面的提供者支援
+              href: provider-support-of-adsi-interfaces.md
+        - name: ADSI 錯誤碼
+          href: adsi-error-codes.md
+          items:
+            - name: 一般 COM 錯誤碼
+              href: generic-com-error-codes.md
+            - name: 一般 ADSI 錯誤碼
+              href: generic-adsi-error-codes.md
+            - name: ADSI 的 Win32 錯誤碼
+              href: win32-error-codes-for-adsi.md
+              items:
+                - name: Win32 錯誤碼
+                  href: win32-error-codes.md
+                - name: ADSI 2.0 的 Win32 錯誤碼
+                  href: win32-error-codes-for-adsi-2-0.md
+            - name: ADSI 的 LDAP 錯誤碼
+              href: ldap-error-codes-for-adsi.md
+            - name: ADSI 擴充的錯誤訊息
+              href: adsi-extended-error-messages.md
+              items:
+                - name: 使用 ADSI 錯誤訊息的程式碼範例
+                  href: code-example-for-working-with-adsi-error-messages.md
