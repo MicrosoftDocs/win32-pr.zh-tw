@@ -1,0 +1,262 @@
+- name: DirectDraw
+  href: directdraw.md
+  items:
+    - name: DirectDraw 參考
+      href: directdraw-reference.md
+      items:
+        - name: DirectDraw 介面
+          href: directdraw-interfaces.md
+          items:
+            - name: IDirectDraw7
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdraw7
+              items:
+                - name: Compact 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-compact
+                - name: CreateClipper 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-createclipper
+                - name: CreatePalette 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-createpalette
+                - name: CreateSurface 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-createsurface
+                - name: DuplicateSurface 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-duplicatesurface
+                - name: EnumDisplayModes 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes
+                - name: EnumSurfaces 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-enumsurfaces
+                - name: EvaluateMode 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-evaluatemode
+                - name: FlipToGDISurface 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-fliptogdisurface
+                - name: GetAvailableVidMem 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getavailablevidmem
+                - name: GetCaps 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getcaps
+                - name: GetDeviceIdentifier 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getdeviceidentifier
+                - name: GetDisplayMode 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getdisplaymode
+                - name: GetFourCCCodes 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getfourcccodes
+                - name: GetGDISurface 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getgdisurface
+                - name: GetMonitorFrequency 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getmonitorfrequency
+                - name: GetScanLine 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getscanline
+                - name: GetSurfaceFromDC 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getsurfacefromdc
+                - name: GetVerticalBlankStatus 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getverticalblankstatus
+                - name: Initialize 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-initialize
+                - name: RestoreAllSurfaces 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-restoreallsurfaces
+                - name: RestoreDisplayMode 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-restoredisplaymode
+                - name: SetCooperativeLevel 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-setcooperativelevel
+                - name: SetDisplayMode 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-setdisplaymode
+                - name: StartModeTest 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-startmodetest
+                - name: TestCooperativeLevel 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-testcooperativelevel
+                - name: WaitForVerticalBlank 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-waitforverticalblank
+            - name: IDirectDrawClipper
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawclipper
+              items:
+                - name: GetClipList 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-getcliplist
+                - name: GetHWnd 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-gethwnd
+                - name: Initialize 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-initialize
+                - name: IsClipListChanged 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-iscliplistchanged
+                - name: SetClipList 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-setcliplist
+                - name: SetHWnd 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-sethwnd
+            - name: IDirectDrawColorControl
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawcolorcontrol
+              items:
+                - name: GetColorControls 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawcolorcontrol-getcolorcontrols
+                - name: SetColorControls 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawcolorcontrol-setcolorcontrols
+            - name: IDirectDrawGammaControl
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawgammacontrol
+              items:
+                - name: GetGammaRamp 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawgammacontrol-getgammaramp
+                - name: SetGammaRamp 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp
+            - name: IDirectDrawPalette
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawpalette
+              items:
+                - name: GetCaps 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-getcaps
+                - name: GetEntries 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-getentries
+                - name: Initialize 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-initialize
+                - name: SetEntries 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-setentries
+            - name: IDirectDrawSurface7
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawsurface7
+              items:
+                - name: AddAttachedSurface 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-addattachedsurface
+                - name: AddOverlayDirtyRect 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-addoverlaydirtyrect
+                - name: Blt 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-blt
+                - name: BltBatch 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-bltbatch
+                - name: BltFast 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-bltfast
+                - name: ChangeUniquenessValue 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-changeuniquenessvalue
+                - name: DeleteAttachedSurface 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-deleteattachedsurface
+                - name: EnumAttachedSurfaces 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-enumattachedsurfaces
+                - name: EnumOverlayZOrders 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-enumoverlayzorders
+                - name: Flip 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-flip
+                - name: FreePrivateData 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-freeprivatedata
+                - name: GetAttachedSurface 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getattachedsurface
+                - name: GetBltStatus 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getbltstatus
+                - name: GetCaps 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getcaps
+                - name: GetClipper 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getclipper
+                - name: GetColorKey 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getcolorkey
+                - name: GetDC 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getdc
+                - name: GetDDInterface 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getddinterface
+                - name: GetFlipStatus 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getflipstatus
+                - name: GetLOD 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getlod
+                - name: GetOverlayPosition 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getoverlayposition
+                - name: GetPalette 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getpalette
+                - name: GetPixelFormat 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getpixelformat
+                - name: GetPriority 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getpriority
+                - name: GetPrivateData 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getprivatedata
+                - name: GetSurfaceDesc 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getsurfacedesc
+                - name: GetUniquenessValue 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getuniquenessvalue
+                - name: Initialize 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-initialize
+                - name: IsLost 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-islost
+                - name: Lock 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-lock
+                - name: PageLock 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-pagelock
+                - name: PageUnlock 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-pageunlock
+                - name: ReleaseDC 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-releasedc
+                - name: Restore 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-restore
+                - name: SetClipper 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setclipper
+                - name: SetColorKey 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setcolorkey
+                - name: SetLOD 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setlod
+                - name: SetOverlayPosition 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setoverlayposition
+                - name: SetPalette 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setpalette
+                - name: SetPriority 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setpriority
+                - name: SetPrivateData 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setprivatedata
+                - name: SetSurfaceDesc 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setsurfacedesc
+                - name: Unlock 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-unlock
+                - name: UpdateOverlay 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay
+                - name: UpdateOverlayDisplay 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlaydisplay
+                - name: UpdateOverlayZOrder 方法
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlayzorder
+        - name: DirectDraw 函數
+          href: directdraw-functions.md
+          items:
+            - name: DirectDrawCreate
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawcreate
+            - name: DirectDrawCreateClipper
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawcreateclipper
+            - name: DirectDrawCreateEx
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawcreateex
+            - name: DirectDrawEnumerate
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawenumeratew
+            - name: DirectDrawEnumerateEx
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawenumerateexa
+        - name: DirectDraw 回呼函數
+          href: directdraw-callback-functions.md
+          items:
+            - name: LPDDENUMCALLBACK
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumcallbacka
+            - name: LPDDENUMCALLBACKEX
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumcallbackexa
+            - name: LPDDENUMMODESCALLBACK
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenummodescallback
+            - name: LPDDENUMMODESCALLBACK2
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenummodescallback2
+            - name: LPDDENUMSURFACESCALLBACK
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback
+            - name: LPDDENUMSURFACESCALLBACK2
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback2
+            - name: LPDDENUMSURFACESCALLBACK7
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback7
+        - name: DirectDraw 結構
+          href: directdraw-structures.md
+          items:
+            - name: DDBLTBATCH
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddbltbatch
+            - name: DDBLTFX
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddbltfx
+            - name: DDCAPS
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddcaps_dx3
+            - name: DDCOLORCONTROL
+              href: /previous-versions/windows/hardware/drivers/ff549237(v=vs.85)
+            - name: DDCOLORKEY
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddcolorkey
+            - name: DDDEVICEIDENTIFIER2
+              href: /windows/win32/api/Ddraw/ns-ddraw-dddeviceidentifier2
+            - name: DDGAMMARAMP
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddgammaramp
+            - name: DDOVERLAYFX
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddoverlayfx
+            - name: DDPIXELFORMAT
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddpixelformat
+            - name: DDSCAPS
+              href: /previous-versions/windows/hardware/drivers/ff550286(v=vs.85)
+            - name: DDSCAPS2
+              href: /previous-versions/windows/hardware/drivers/ff550292(v=vs.85)
+            - name: DDSURFACEDESC
+              href: /previous-versions/windows/hardware/drivers/ff550339(v=vs.85)
+            - name: DDSURFACEDESC2
+              href: /previous-versions/windows/hardware/drivers/ff550340(v=vs.85)
+        - name: DirectDraw 傳回碼
+          href: directdraw-return-codes.md
