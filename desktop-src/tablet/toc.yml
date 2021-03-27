@@ -1,0 +1,3068 @@
+- name: 平板電腦
+  href: tablet-pc-development-guide.md
+  items:
+    - name: 開始使用
+      href: getting-started.md
+      items:
+        - name: Tablet PC 平臺歷程記錄
+          href: tablet-pc-platform-history.md
+        - name: Tablet PC 開發的新功能
+          href: what-s-new-in-tablet-pc-development.md
+        - name: 開發環境
+          href: the-development-environment.md
+        - name: 從 Microsoft Visual Studio 參考 SDK
+          href: referencing-the-sdk-from-microsoft-visual-studio.md
+          items:
+            - name: 要參考的程式庫版本
+              href: which-library-version-to-reference.md
+            - name: '受管理的程式庫和控制項 (Tablet PC) '
+              href: managed-library-and-controls--tablet-pc.md
+            - name: 'Windows Presentation Foundation (Tablet PC) '
+              href: windows-presentation-foundation--tablet-pc.md
+            - name: 'COM 程式庫和 ActiveX 控制項 (Tablet PC) '
+              href: com-library-and-activex-controls--tablet-pc.md
+        - name: 常見問題集
+          href: frequently-asked-questions.md
+    - name: 平板電腦程式設計
+      href: programming-the-tablet-pc.md
+      items:
+        - name: 關於手寫辨識
+          href: about-handwriting-recognition.md
+          items:
+            - name: 文字辨識器
+              href: text-recognizers.md
+            - name: 物件辨識器
+              href: object-recognizers.md
+            - name: 使用辨識器集合
+              href: using-the-recognizers-collection.md
+            - name: 辨識器內容
+              href: recognizer-context.md
+            - name: 使用內容改善精確度
+              href: using-context-to-improve-accuracy.md
+              items:
+                - name: Tablet PC 平臺如何使用內容
+                  href: how-the-tablet-pc-platform-uses-context.md
+                  items:
+                    - name: 關於語言模型
+                      href: about-language-models.md
+                    - name: 輸入範圍和 Factoids
+                      href: input-scopes-and-factoids.md
+                    - name: 字典和片語清單
+                      href: dictionaries-and-phrase-lists.md
+                - name: 使用 SetInputScope Api 設定內容
+                  href: setting-context-with-the-setinputscope-apis.md
+                - name: 設定 Ink-Enabled 控制項的內容
+                  href: setting-context-for-ink-enabled-controls.md
+                - name: 設定無視窗控制項的內容
+                  href: setting-context-for-windowless-controls.md
+                - name: 使用正則運算式的自訂輸入範圍
+                  href: custom-input-scopes-with-regular-expressions.md
+                  items:
+                    - name: 正則運算式語法參考
+                      href: regular-expression-syntax-reference.md
+                    - name: 規則運算式範例
+                      href: regular-expression-examples.md
+                - name: 從版本1支援的 Factoids
+                  href: supported-factoids-from-version-1.md
+                  items:
+                    - name: 跨語言的通用 Factoids
+                      href: factoids-common-across-languages.md
+                    - name: 適用于西方語言的 Factoids
+                      href: factoids-for-western-languages.md
+                      items:
+                        - name: 英文 (美國) Factoids
+                          href: english--united-states--factoids.md
+                        - name: 英文 (全球) Factoids
+                          href: english--worldwide--factoids.md
+                        - name: 法文 Factoids
+                          href: french-factoids.md
+                        - name: 德文 Factoids
+                          href: german-factoids.md
+                        - name: 西班牙文 Factoids
+                          href: spanish-factoids.md
+                    - name: 適用于東亞語言的 Factoids
+                      href: factoids-for-east-asian-languages.md
+                      items:
+                        - name: 日文 Factoids
+                          href: japanese-factoids.md
+                        - name: 中文 (簡化) Factoids
+                          href: chinese--simplified--factoids.md
+                        - name: 繁體中文) Factoids (
+                          href: chinese--traditional--factoids.md
+                        - name: 韓文 Factoids
+                          href: korean-factoids.md
+            - name: 字典和 Factoids
+              href: dictionaries-and-factoids.md
+            - name: 辨識區段
+              href: recognition-segments.md
+            - name: 角度文字的辨識
+              href: recognition-of-angled-text.md
+            - name: 辨識器筆觸重新排序支援
+              href: recognizer-stroke-reordering-support.md
+            - name: 使用應用程式字典
+              href: using-application-dictionaries.md
+              items:
+                - name: 瞭解單字清單、辨識器內容和 Factoids
+                  href: understanding-wordlists--the-recognizercontext--and-factoids.md
+                - name: 使用應用程式字典搭配 Tablet PC 平臺 Api
+                  href: using-application-dictionaries-with-the-tablet-pc-platform-apis.md
+                - name: 在 Windows 7 和 Windows Server 2008 R2 中建立手寫辨識的自訂字典
+                  href: creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2.md
+            - name: '信賴屬性 [關於辨識'
+              href: confidence-property--about-recognition.md
+            - name: 替代項目
+              href: alternates.md
+            - name: 筆跡區段和替代項
+              href: ink-segments-and-alternates.md
+            - name: 建立辨識器
+              href: creating-a-recognizer.md
+              items:
+                - name: 辨識 API 架構
+                  href: recognition-api-architecture.md
+                - name: HRECOGNIZER 和 HRECOCONTEXT
+                  href: hrecognizer-and-hrecocontext.md
+                - name: 辨識器 >lattice 結構
+                  href: recognizer-lattice-structure.md
+                - name: 註冊您的辨識器 DLL
+                  href: registering-your-recognizer-dll.md
+                - name: 辨識器執行緒考慮
+                  href: recognizer-threading-considerations.md
+                - name: 一般呼叫順序
+                  href: typical-calling-sequence.md
+                - name: 辨識器 DLL 範例範本
+                  href: recognizer-dll-sample-template.md
+                - name: 手勢的 Unicode 範圍值
+                  href: unicode-range-values-of-gestures.md
+        - name: 存取和操作手寫筆輸入
+          href: accessing-and-manipulating-stylus-input.md
+          items:
+            - name: StylusInput Api 的架構
+              href: architecture-of-the-stylusinput-apis.md
+            - name: 使用 StylusInput Api
+              href: working-with-the-stylusinput-apis.md
+              items:
+                - name: 使用 RealTimeStylus 類別
+                  href: working-with-the-realtimestylus-class.md
+                - name: 外掛程式和 RealTimeStylus 類別
+                  href: plug-ins-and-the-realtimestylus-class.md
+                - name: 外掛程式資料和 RealTimeStylus 類別
+                  href: plug-in-data-and-the-realtimestylus-class.md
+                - name: StylusInput Api 的執行注意事項
+                  href: implementation-notes-for-the-stylusinput-apis.md
+                - name: Ink-Collection 外掛程式
+                  href: ink-collection-plug-ins.md
+                - name: Dynamic-Renderer 外掛程式
+                  href: dynamic-renderer-plug-ins.md
+                - name: 辨識器外掛程式
+                  href: recognizer-plug-ins.md
+            - name: 使用 StylusInput API 時的考慮
+              href: considerations-when-using-the-stylusinput-apis.md
+              items:
+                - name: StylusInput API 的設計考慮
+                  href: design-considerations-for-the-stylusinput-apis.md
+                - name: StylusInput API 的執行緒考慮
+                  href: threading-considerations-for-the-stylusinput-apis.md
+                - name: 串聯的 RealTimeStylus 模型
+                  href: the-cascaded-realtimestylus-model.md
+                - name: StylusInput API 的錯誤處理考慮
+                  href: error-handling-considerations-for-the-stylusinput-apis.md
+                - name: StylusInput API 的效能考慮
+                  href: performance-considerations-for-the-stylusinput-apis.md
+                - name: StylusInput API 的部分信任考慮
+                  href: partial-trust-considerations-for-the-stylusinput-apis.md
+        - name: 建立可轉散發安裝程式
+          href: creating-a-redistributable-setup.md
+        - name: 判斷電腦是否為 Tablet PC
+          href: determining-whether-a-pc-is-a-tablet-pc.md
+        - name: 使用畫筆來清除筆墨
+          href: erasing-ink-with-the-pen.md
+          items:
+            - name: 使用 InkOverlay 物件進行清除
+              href: erasing-by-using-the-inkoverlay-object.md
+            - name: 使用畫筆進行清除
+              href: erasing-by-using-the-pen.md
+        - name: 筆跡分析
+          href: ink-analysis-overview.md
+          items:
+            - name: 筆墨分析 API 使用方式
+              href: ink-analysis-api-usage.md
+            - name: 基本辨識和筆墨分析
+              href: basic-recognition-and-ink-analysis.md
+            - name: 具有筆跡分析的資料 Proxy
+              href: data-proxy-with-ink-analysis.md
+            - name: 資料 Proxy 事件流程
+              href: data-proxy-event-flow.md
+            - name: 分隔物件
+              href: the-divider-object.md
+              items:
+                - name: 具有分隔物件的筆墨分析
+                  href: ink-analyis-with-the-divider-object.md
+                - name: 版面配置分析
+                  href: layout-analysis.md
+                - name: 使用分隔物件
+                  href: working-with-the-divider-object.md
+                - name: 使用 DivisionResult 物件
+                  href: working-with-the-divisionresult-object.md
+                - name: 使用 DivisionUnit 物件
+                  href: working-with-the-divisionunit-object.md
+                - name: 使用筆劃集合
+                  href: working-with-a-strokes-collection.md
+                - name: 使用辨識器內容
+                  href: working-with-a-recognizer-context.md
+                - name: 其他分隔因素考慮
+                  href: other-divider-considerations.md
+        - name: 筆墨控制項
+          href: ink-controls.md
+          items:
+            - name: 將筆墨控制項新增至專案
+              href: adding-ink-controls-to-a-project.md
+            - name: InkEdit 控制項
+              href: inkedit-control.md
+              items:
+                - name: 具現化 InkEdit
+                  href: instantiating-inkedit.md
+                - name: 單字與字元識別的比較
+                  href: word-vs--character-recognition.md
+                - name: 將筆墨顯示為筆墨
+                  href: displaying-ink-as-ink.md
+                - name: 在舊版 Windows 上使用 InkEdit
+                  href: using-inkedit-on-earlier-versions-of-windows.md
+                - name: 使用應用程式字典搭配 InkEdit
+                  href: using-an-application-dictionary-with-inkedit.md
+            - name: InkPicture 控制項
+              href: inkpicture-control.md
+              items:
+                - name: 使用圖片
+                  href: working-with-pictures.md
+                - name: 在舊版 Windows 上使用 InkPicture
+                  href: using-inkpicture-on-earlier-versions-of-windows.md
+        - name: 筆墨互通性
+          href: ink-interoperability.md
+          items:
+            - name: 筆墨資料格式
+              href: ink-data-formats.md
+            - name: 重要互通性案例
+              href: important-interoperability-scenarios.md
+            - name: 持續性格式
+              href: persistence-formats.md
+            - name: 選擇要支援的格式
+              href: choosing-which-formats-to-support.md
+            - name: 建置組塊
+              href: building-blocks.md
+              items:
+                - name: sInk 和 tInk 物件
+                  href: sink-and-tink-objects.md
+            - name: 以 HTML 儲存筆墨
+              href: storing-ink-in-html.md
+        - name: Web 上的筆墨
+          href: ink-on-the-web.md
+          items:
+            - name: 無觸控部署
+              href: no-touch-deployment.md
+            - name: Web 控制項
+              href: web-controls.md
+            - name: Ink-Enabled Web 應用程式
+              href: ink-enabled-web-applications.md
+            - name: 安全性與信任
+              href: security-and-trust.md
+        - name: 畫筆輸入、筆跡和辨識
+          href: pen-input--ink--and-recognition.md
+          items:
+            - name: 筆墨集合
+              href: ink-collection.md
+            - name: 筆墨資料
+              href: ink-data.md
+            - name: 筆跡辨識
+              href: ink-recognition.md
+            - name: 筆跡分析
+              href: ink-analysis.md
+            - name: Windows Server 2008 R2 中的手寫辨識
+              href: handwriting-recognition-in-windows-server-2008-r2.md
+        - name: 數學輸入控制項程式設計
+          href: programming-the-math-input-control.md
+          items:
+            - name: 建立數學輸入控制項
+              href: creating-a-math-input-control.md
+            - name: 自訂數學輸入控制項
+              href: customizing-the-math-input-control.md
+            - name: 從數學輸入控制項接收輸入
+              href: receiving-input-from-the-math-input-control.md
+        - name: 程式設計文字輸入面板
+          href: programming-the-text-input-panel.md
+          items:
+            - name: 適用于 PenInputPanel 使用者的 TextInputPanel
+              href: textinputpanel-for-users-of-peninputpanel.md
+            - name: 使用輸入面板自動完成
+              href: using-input-panel-autocomplete.md
+            - name: 啟用自訂筆墨收集器的文字更正
+              href: enabling-text-correction-for-custom-ink-collectors.md
+            - name: 使用 PenInputPanel 類別來設計輸入面板
+              href: programming-the-input-panel-using-the-peninputpanel-class.md
+              items:
+                - name: 關於輸入面板
+                  href: about-the-input-panel.md
+                - name: 具現化 PenInputPanel 類別
+                  href: instantiating-the-peninputpanel-class.md
+                  items:
+                    - name: 建立 PenInputPanel 物件
+                      href: creating-a-peninputpanel-object.md
+                    - name: 使用 PenInputPanel 搭配下拉式方塊
+                      href: using-the-peninputpanel-with-combo-boxes.md
+                    - name: 顯示輸入面板
+                      href: displaying-the-input-panel.md
+                - name: 模擬支援
+                  href: factoid-support.md
+                - name: Text Services Framework (TSF)
+                  href: text-services-framework.md
+                - name: 最佳做法
+                  href: best-practices.md
+        - name: Tablet PC 執行緒的考慮
+          href: tablet-pc-threading-considerations.md
+          items:
+            - name: 一般執行緒考慮
+              href: general-threading-considerations.md
+            - name: Managed 程式庫執行緒考慮
+              href: managed-library-threading-considerations.md
+            - name: COM 和自動化執行緒考慮
+              href: com-and-automation-threading-considerations.md
+            - name: 可引發事件的執行緒
+              href: threads-on-which-an-event-can-fire.md
+              items:
+                - name: 筆墨物件事件
+                  href: ink-object-events.md
+                - name: InkCollector 物件事件
+                  href: inkcollector-object-events.md
+                - name: InkEdit 控制項事件
+                  href: inkedit-control-events.md
+                - name: InkOverlay 物件事件
+                  href: inkoverlay-object-events.md
+                - name: InkPicture 控制項事件
+                  href: inkpicture-control-events.md
+                - name: PenInputPanel 物件事件
+                  href: peninputpanel-object-events.md
+                - name: RecognizerCoNtext 物件事件
+                  href: recognizercontext-object-events.md
+                - name: 筆觸集合事件
+                  href: strokes-collection-events.md
+        - name: Windows Vista 中的剪取工具支援
+          href: snipping-tool-support-in-windows-vista.md
+        - name: 語音和協助工具
+          href: speech-and-accessibility.md
+          items:
+            - name: 使用 Microsoft Active Accessibility
+              href: using-microsoft-active-accessibility.md
+            - name: 公開控制項和功能表
+              href: exposing-controls-and-menus.md
+              items:
+                - name: 使用標準 Windows 控制項
+                  href: using-standard-windows-controls.md
+                - name: 使用自訂控制項
+                  href: using-custom-controls.md
+                - name: 使用 Active Accessibility 來公開自訂控制項
+                  href: using-active-accessibility-to-expose-custom-controls.md
+                - name: 公開自訂控制項的 Substandard 技術
+                  href: substandard-techniques-for-exposing-custom-controls.md
+                - name: 使用 Owner-Drawn 功能表
+                  href: using-owner-drawn-menus.md
+                - name: 在對話方塊中命名控制項
+                  href: naming-controls-in-dialog-boxes.md
+                  items:
+                    - name: 沒有 Caption 屬性的控制項
+                      href: controls-without-caption-properties.md
+            - name: 公開視窗
+              href: exposing-a-window.md
+              items:
+                - name: 適當地命名視窗
+                  href: naming-a-window-appropriately.md
+                - name: 依函數的函式來識別視窗
+                  href: identifying-a-window-by-its-function.md
+                - name: 公開視窗的內容
+                  href: exposing-the-contents-of-a-window.md
+            - name: 以程式設計方式公開文字
+              href: exposing-text-programmatically.md
+              items:
+                - name: 使用 Active Accessibility 來公開文字
+                  href: using-active-accessibility-to-expose-text.md
+            - name: 參考資料
+              href: references.md
+        - name: 平板電腦和觸控範例
+          href: mobile-pc-and-tablet-pc-samples.md
+          items:
+            - name: Advanced 辨認範例
+              href: advanced-recognition-sample.md
+            - name: 自動宣告表單範例
+              href: auto-claims-form-sample.md
+            - name: 基本筆墨分析範例
+              href: basic-ink-analysis-sample.md
+            - name: 基本識別範例
+              href: basic-recognition-sample.md
+            - name: C + + 事件接收器範例
+              href: c---event-sinks-sample.md
+            - name: 字元自動完成範例
+              href: character-autocomplete-sample.md
+            - name: 筆跡分析掃描的紙張表單
+              href: ink-analysis-scanned-paper-form.md
+            - name: 筆墨 Blog Web 範例
+              href: ink-blog-web-sample.md
+            - name: 筆墨剪貼簿範例
+              href: ink-clipboard-sample.md
+            - name: 筆墨集合範例
+              href: ink-collection-sample.md
+            - name: 筆墨分割範例
+              href: ink-divider-sample.md
+            - name: 筆跡清除範例
+              href: ink-erasing-sample.md
+            - name: 筆墨點擊測試範例
+              href: ink-hit-test-sample.md
+            - name: 筆跡辨識範例
+              href: ink-recognition-sample.md
+            - name: 筆墨序列化範例
+              href: ink-serialization-sample.md
+            - name: 筆墨 Web 控制項範例
+              href: ink-web-control-sample.md
+            - name: 筆墨縮放範例
+              href: ink-zoom-sample.md
+            - name: 多個辨識器範例
+              href: multiple-recognizers-sample.md
+            - name: No-Touch 部署 Web 範例
+              href: no-touch-deployment-web-sample.md
+            - name: PenInputPanel 範例
+              href: peninputpanel-sample.md
+            - name: RealTimeStylus 外掛程式範例
+              href: realtimestylus-plug-in-sample.md
+            - name: RealTimeStylus 筆墨集合範例
+              href: realtimestylus-ink-collection-sample.md
+            - name: 掃描的紙張表單範例
+              href: scanned-paper-form-sample.md
+            - name: Tablet PC 平臺資訊範例
+              href: tablet-pc-platform-info-sample.md
+        - name: Windows Vista 中的觸控輸入支援
+          href: touch-input-support-in-windows-vista.md
+        - name: 使用手勢
+          href: using-gestures.md
+          items:
+            - name: 系統手勢
+              href: system-gestures.md
+              items:
+                - name: 系統事件和滑鼠訊息
+                  href: system-events-and-mouse-messages.md
+                - name: 接聽系統事件
+                  href: listening-to-system-events.md
+                - name: 滑鼠訊息和系統事件的時間軸
+                  href: timeline-of-mouse-messages-and-system-events.md
+                - name: 使用一個畫筆的多重功能
+                  href: multiple-functionality-with-one-pen.md
+            - name: 應用程式手勢
+              href: application-gestures.md
+              items:
+                - name: 應用程式手勢和語義行為
+                  href: application-gestures-and-semantic-behavior.md
+                - name: 僅使用 Microsoft 手勢辨識器
+                  href: using-the-microsoft-gesture-recognizer-only.md
+                - name: 使用自訂手勢辨識器
+                  href: using-a-custom-gesture-recognizer.md
+                - name: 可能與應用程式手勢發生衝突
+                  href: potential-conflicts-with-application-gestures.md
+                  items:
+                    - name: 應用程式手勢之間的衝突
+                      href: conflicts-between-application-gestures.md
+                    - name: 應用程式手勢和字元和符號之間的衝突
+                      href: conflicts-between-application-gestures-and-characters-and-symbols.md
+                      items:
+                        - name: 與拉丁字元和符號衝突
+                          href: conflicts-with-latin-characters-and-symbols.md
+                        - name: 與 East-Asian 字元衝突
+                          href: conflicts-with-east-asian-characters.md
+                - name: 記錄應用程式所使用的手勢
+                  href: documenting-the-gestures-used-by-your-applications.md
+                - name: 未實現的字元
+                  href: unimplemented-glyphs.md
+            - name: 筆觸手勢
+              href: flicks-gestures.md
+        - name: 使用 COM 程式庫
+          href: using-the-com-library.md
+        - name: 使用日誌讀取器元件
+          href: using-the-journal-reader-component.md
+          items:
+            - name: 日誌讀取器架構參考
+              href: journal-reader-schema-reference.md
+              items:
+                - name: 日誌讀取器命名空間元素
+                  href: journal-reader-namespace-elements.md
+                  items:
+                    - name: 替代元素
+                      href: alternate-element.md
+                    - name: AlternateList 元素
+                      href: alternatelist-element.md
+                    - name: Background 元素
+                      href: background-element.md
+                    - name: 基準元素
+                      href: baseline-element.md
+                    - name: Bitmap 元素
+                      href: bitmap-element.md
+                    - name: CanReClassify 元素
+                      href: canreclassify-element.md
+                    - name: 信賴元素
+                      href: confidence-element.md
+                    - name: 'Content 元素 [筆記本讀取器'
+                      href: content-element--journal-reader.md
+                    - name: Date 元素
+                      href: date-element.md
+                    - name: DocImage 元素
+                      href: docimage-element.md
+                    - name: 繪圖元素
+                      href: drawing-element.md
+                    - name: 旗標元素
+                      href: flag-element.md
+                    - name: GroupNode 元素
+                      href: groupnode-element.md
+                    - name: 水準元素
+                      href: horizontal-element.md
+                    - name: Image 項目
+                      href: image-element.md
+                    - name: InkClass 元素
+                      href: inkclass-element.md
+                    - name: InkObject 元素
+                      href: inkobject-element.md
+                    - name: InkWord 元素
+                      href: inkword-element.md
+                    - name: JournalDocument 元素
+                      href: journaldocument-element.md
+                    - name: JournalPage 元素
+                      href: journalpage-element.md
+                    - name: Line 元素
+                      href: line-element.md
+                    - name: LineLayout 元素
+                      href: linelayout-element.md
+                    - name: Margin 元素
+                      href: margin-element.md
+                    - name: 段落元素
+                      href: paragraph-element.md
+                    - name: ParagraphLineMetrics 元素
+                      href: paragraphlinemetrics-element.md
+                    - name: Path 元素
+                      href: path-element.md
+                    - name: 重排元素
+                      href: reflow-element.md
+                    - name: ScalarTransform 元素
+                      href: scalartransform-element.md
+                    - name: 信紙元素
+                      href: stationery-element.md
+                    - name: Text 元素
+                      href: text-element.md
+                    - name: Title 元素
+                      href: title-element.md
+                    - name: TitleArea 元素
+                      href: titlearea-element.md
+                    - name: TitleInfo 元素
+                      href: titleinfo-element.md
+                    - name: 垂直元素
+                      href: vertical-element.md
+                - name: 日誌讀取器命名空間類型
+                  href: journal-reader-namespace-types.md
+                  items:
+                    - name: AlternatesListType complexType
+                      href: alternateslisttype-complex-type.md
+                    - name: BackgroundImageType complexType
+                      href: backgroundimagetype-complex-type.md
+                    - name: BackgroundType complexType
+                      href: backgroundtype-complex-type.md
+                    - name: BaselineType complexType
+                      href: baselinetype-complex-type.md
+                    - name: BoundsType attributeGroup
+                      href: boundstype-attributegroup.md
+                    - name: ColorType simpleType
+                      href: colortype-simple-type.md
+                    - name: ContentGroup 群組
+                      href: contentgroup-group.md
+                    - name: ContentType complexType
+                      href: contenttype-complex-type.md
+                    - name: ContentTypeType simpleType
+                      href: contenttypetype-simple-type.md
+                    - name: DrawingType complexType
+                      href: drawingtype-complex-type.md
+                    - name: FlagType complexType
+                      href: flagtype-complex-type.md
+                    - name: GroupNodeType complexType
+                      href: groupnodetype-complex-type.md
+                    - name: HorizontalType complexType
+                      href: horizontaltype-complex-type.md
+                    - name: ImageType complexType
+                      href: imagetype-complex-type.md
+                    - name: InkWordType complexType
+                      href: inkwordtype-complex-type.md
+                    - name: JournalPageType complexType
+                      href: journalpagetype-complex-type.md
+                    - name: LineLayoutType complexType
+                      href: linelayouttype-complex-type.md
+                    - name: LineLayoutStyleType simpleType
+                      href: linelayoutstyletype-simple-type.md
+                    - name: LineType complexType
+                      href: linetype-complex-type.md
+                    - name: MarginType complexType
+                      href: margintype-complex-type.md
+                    - name: MarginTypeType simpleType
+                      href: margintypetype-simple-type.md
+                    - name: ParagraphType complexType
+                      href: paragraphtype-complex-type.md
+                    - name: ParagraphLineMetricsType complexType
+                      href: paragraphlinemetricstype-complex-type.md
+                    - name: ReflowType complexType
+                      href: reflowtype-complex-type.md
+                    - name: ScalarTransformType complexType
+                      href: scalartransformtype-complex-type.md
+                    - name: StationeryType complexType
+                      href: stationerytype-complex-type.md
+                    - name: TextType complexType
+                      href: texttype-complex-type.md
+                    - name: TitleAreaType complexType
+                      href: titleareatype-complex-type.md
+                    - name: TitleInfoType complexType
+                      href: titleinfotype-complex-type.md
+                    - name: TitleType complexType
+                      href: titletype-complex-type.md
+                    - name: VerticalType complexType
+                      href: verticaltype-complex-type.md
+                - name: 日誌讀取器架構定義
+                  href: journal-reader-schema-definition.md
+        - name: 使用受管理的程式庫
+          href: using-the-managed-library.md
+    - name: Tablet PC API 參考
+      href: tablet-pc-api-reference.md
+      items:
+        - name: 核心 Tablet PC 參考
+          href: core-reference---tablet-pc-com-library.md
+          items:
+            - name: 核心 Tablet PC 類別和介面
+              href: classes-and-interfaces---tablet-pc-com-library.md
+              items:
+                - name: IInkCursor 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor
+                  items:
+                    - name: 按鈕屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_buttons
+                    - name: DrawingAttributes 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_drawingattributes
+                    - name: ID 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_id
+                    - name: 反向屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_inverted
+                    - name: Name 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_name
+                    - name: 平板電腦屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_tablet
+                - name: IInkCursorButton 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton
+                  items:
+                    - name: Name 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_name
+                    - name: Id 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_id
+                    - name: State 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_state
+                - name: IInkCursorButtons 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbuttons
+                  items:
+                    - name: Count 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbuttons-get_count
+                    - name: Item 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbuttons-item
+                - name: IInkCursors 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors
+                  items:
+                    - name: Count 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursors-get_count
+                    - name: Item 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursors-item
+                - name: IInkCustomStrokes 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes
+                  items:
+                    - name: 新增方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-add
+                    - name: Clear 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-clear
+                    - name: Count 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-get_count
+                    - name: Item 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-item
+                    - name: Remove 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-remove
+                - name: IInkDivisionResult 介面
+                  href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult
+                  items:
+                    - name: ResultByType 方法
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-resultbytype
+                    - name: 筆觸屬性
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes
+                - name: IInkDivisionUnit 介面
+                  href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit
+                  items:
+                    - name: DivisionType 屬性
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_divisiontype
+                    - name: RecognitionString 屬性
+                      href: /previous-versions/windows/desktop/legacy/ms703283(v=vs.85)
+                    - name: RotationTransform 屬性
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_rotationtransform
+                    - name: 筆觸屬性
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_strokes
+                    - name: ToString 方法
+                      href: /previous-versions/windows/desktop/legacy/ms699557(v=vs.85)
+                - name: IInkDivisionUnits 介面
+                  href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits
+                  items:
+                    - name: Count 屬性
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunits-get_count
+                    - name: Item 方法
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunits-item
+                - name: IInkExtendedProperties 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties
+                  items:
+                    - name: 新增方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-add
+                    - name: Clear 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-clear
+                    - name: Count 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-get_count
+                    - name: DoesPropertyExist 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-doespropertyexist
+                    - name: Item 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-item
+                    - name: Remove 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove
+                - name: IInkExtendedProperty 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty
+                  items:
+                    - name: Data 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperty-get_data
+                    - name: Guid 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperty-get_guid
+                - name: IInkGesture 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture
+                  items:
+                    - name: 信賴屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_confidence
+                    - name: GetHotPoint 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-gethotpoint
+                    - name: ID 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_id
+                - name: IInkRecognitionAlternate 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate
+                  items:
+                    - name: AlternatesWithConstantPropertyValues 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-alternateswithconstantpropertyvalues
+                    - name: Ascender 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_ascender
+                    - name: 基準屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline
+                    - name: 信賴屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidence
+                    - name: ConfidenceAlternates 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates
+                    - name: 下行屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_descender
+                    - name: GetStrokesFromStrokeRanges 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromstrokeranges
+                    - name: GetStrokesFromTextRange 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromtextrange
+                    - name: GetTextRangeFromStrokes 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-gettextrangefromstrokes
+                    - name: GetPropertyValue 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getpropertyvalue
+                    - name: LineAlternates 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates
+                    - name: LineNumber 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linenumber
+                    - name: 中線屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_midline
+                    - name: 字串屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_string
+                    - name: 筆觸屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_strokes
+                    - name: ToString 方法
+                      href: /previous-versions/windows/desktop/legacy/dd314585(v=vs.85)
+                - name: IInkRecognitionAlternates 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates
+                  items:
+                    - name: Count 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_count
+                    - name: Item 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-item
+                    - name: 筆觸屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_strokes
+                - name: IInkRecognitionResult 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult
+                  items:
+                    - name: GetAlternatesFromSelection 方法
+                      href: /previous-versions/windows/desktop/legacy/ms698186(v=vs.85)
+                    - name: ModifyTopAlternate 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-modifytopalternate
+                    - name: SetResultOnStrokes 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-setresultonstrokes
+                    - name: 筆觸屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_strokes
+                    - name: TopAlternate 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topalternate
+                    - name: TopConfidence 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topconfidence
+                    - name: TopString 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topstring
+                - name: IInkRecognizer 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer
+                  items:
+                    - name: 功能屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_capabilities
+                    - name: CreateRecognizerCoNtext 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-createrecognizercontext
+                    - name: 語言屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_languages
+                    - name: Name 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_name
+                    - name: PreferredPacketDescription 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_preferredpacketdescription
+                    - name: SupportedProperties 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_supportedproperties
+                    - name: ToString 方法
+                      href: /previous-versions/windows/desktop/legacy/dd314588(v=vs.85)
+                    - name: 廠商屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_vendor
+                - name: IInkRecognizer2 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer2
+                  items:
+                    - name: get_Id 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_id
+                    - name: get_UnicodeRanges 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_unicoderanges
+                - name: IInkRecognizerCoNtext2 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizercontext2
+                  items:
+                    - name: EnabledUnicodeRanges 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext2-get_enabledunicoderanges
+                - name: IInkStrokeDisp 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp
+                  items:
+                    - name: BezierCusps 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_beziercusps
+                    - name: BezierPoints 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_bezierpoints
+                    - name: 剪輯方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip
+                    - name: 已刪除屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_deleted
+                    - name: DrawingAttributes 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_drawingattributes
+                    - name: ExtendedProperties 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_extendedproperties
+                    - name: FindIntersections 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-findintersections
+                    - name: GetBoundingBox 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox
+                    - name: GetFlattenedBezierPoints 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getflattenedbezierpoints
+                    - name: GetPacketData 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdata
+                    - name: GetPacketDescriptionPropertyMetrics 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics
+                    - name: GetPacketValuesByProperty 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty
+                    - name: GetPoints 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints
+                    - name: GetRectangleIntersections 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections
+                    - name: System.windows.media.visualtreehelper.hittest 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-hittestcircle
+                    - name: ID 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id
+                    - name: 筆墨屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_ink
+                    - name: Move 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move
+                    - name: NearestPoint 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-nearestpoint
+                    - name: PacketCount 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetcount
+                    - name: PacketDescription 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetdescription
+                    - name: PacketSize 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetsize
+                    - name: PolylineCusps 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_polylinecusps
+                    - name: 輪替方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-rotate
+                    - name: ScaleToRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletorectangle
+                    - name: ScaleTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletransform
+                    - name: SelfIntersections 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_selfintersections
+                    - name: SetPacketValuesByProperty 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty
+                    - name: SetPoints 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpoints
+                    - name: 切變方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-shear
+                    - name: Split 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-split
+                    - name: Transform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-transform
+                - name: IInkTablet 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinktablet
+                  items:
+                    - name: GetPropertyMetrics 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics
+                    - name: IsPacketPropertySupported 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-ispacketpropertysupported
+                    - name: Name 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_name
+                    - name: HardwareCapabilities 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_hardwarecapabilities
+                    - name: MaximumInputRectangle 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_maximuminputrectangle
+                    - name: PlugAndPlayID 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_plugandplayid
+                - name: IInkTablet2 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinktablet2
+                  items:
+                    - name: DeviceKind 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet2-get_devicekind
+                - name: IInkTablet3 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinktablet3
+                  items:
+                    - name: IsMultiTouch 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet3-get_ismultitouch
+                    - name: MaximumCursors 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet3-get_maximumcursors
+                - name: IInkWordList2 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2
+                  items:
+                    - name: AddWords 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist2-addwords
+                - name: InkCollector 類別
+                  href: inkcollector-class.md
+                  items:
+                    - name: AutoRedraw 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_autoredraw
+                    - name: CollectingInk 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectingink
+                    - name: CollectionMode 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode
+                    - name: Cursor 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_cursors
+                    - name: CursorButtonDown 事件
+                      href: inkcollector-cursorbuttondown.md
+                    - name: CursorButtonUp 事件
+                      href: inkcollector-cursorbuttonup.md
+                    - name: CursorDown 事件
+                      href: inkcollector-cursordown.md
+                    - name: CursorInRange 事件
+                      href: inkcollector-cursorinrange.md
+                    - name: CursorOutOfRange 事件
+                      href: inkcollector-cursoroutofrange.md
+                    - name: DoubleClick 事件
+                      href: inkcollector-doubleclick.md
+                    - name: System.windows.controls.inkcanvas.defaultdrawingattributes 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_defaultdrawingattributes
+                    - name: DesiredPacketDescription 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription
+                    - name: DynamicRendering 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_dynamicrendering
+                    - name: Enabled 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled
+                    - name: 手勢事件
+                      href: inkcollector-gesture.md
+                    - name: GetEventInterest 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-geteventinterest
+                    - name: GetGestureStatus 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus
+                    - name: GetWindowInputRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getwindowinputrectangle
+                    - name: hWnd 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd
+                    - name: 筆墨屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_ink
+                    - name: MarginX 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginx
+                    - name: MarginY 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginy
+                    - name: MouseIcon 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon
+                    - name: MousePointer 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mousepointer
+                    - name: MouseDown 事件
+                      href: inkcollector-mousedown.md
+                    - name: MouseMove 事件
+                      href: inkcollector-mousemove.md
+                    - name: MouseUp 事件
+                      href: inkcollector-mouseup.md
+                    - name: 滑鼠滾輪事件
+                      href: inkcollector-mousewheel.md
+                    - name: NewInAirPackets 事件
+                      href: inkcollector-newinairpackets.md
+                    - name: NewPackets 事件
+                      href: inkcollector-newpackets.md
+                    - name: 轉譯器屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_renderer
+                    - name: SetAllTabletsMode 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setalltabletsmode
+                    - name: SetEventInterest 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest
+                    - name: SetGestureStatus 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus
+                    - name: SetSingleTabletIntegratedMode 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setsingletabletintegratedmode
+                    - name: SetWindowInputRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle
+                    - name: 筆觸事件
+                      href: inkcollector-stroke.md
+                    - name: SupportHighContrastInk 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_supporthighcontrastink
+                    - name: SystemGesture 事件
+                      href: inkcollector-systemgesture.md
+                    - name: 平板電腦屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_tablet
+                    - name: TabletAdded 事件
+                      href: inkcollector-tabletadded.md
+                    - name: TabletRemoved 事件
+                      href: inkcollector-tabletremoved.md
+                - name: InkDisp 類別
+                  href: inkdisp-class.md
+                  items:
+                    - name: AddStrokesAtRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-addstrokesatrectangle
+                    - name: CanPaste 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-canpaste
+                    - name: 剪輯方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clip
+                    - name: ClipboardCopy 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy
+                    - name: ClipboardCopyWithRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle
+                    - name: ClipboardPaste 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardpaste
+                    - name: Clone 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone
+                    - name: CreateStroke 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke
+                    - name: CreateStrokes 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes
+                    - name: CustomStrokes 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_customstrokes
+                    - name: DeleteStroke 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke
+                    - name: DeleteStrokes 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestrokes
+                    - name: Dirty 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_dirty
+                    - name: ExtendedProperties 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_extendedproperties
+                    - name: ExtractStrokes 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes
+                    - name: ExtractWithRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractwithrectangle
+                    - name: GetBoundingBox 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-getboundingbox
+                    - name: HitTestCircle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle
+                    - name: HitTestWithLasso 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso
+                    - name: HitTestWithRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithrectangle
+                    - name: InkAdded 事件
+                      href: inkdisp-inkadded.md
+                    - name: InkDeleted 事件
+                      href: inkdisp-inkdeleted.md
+                    - name: 載入方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load
+                    - name: NearestPoint 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-nearestpoint
+                    - name: Save 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save
+                    - name: 筆觸屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_strokes
+                - name: InkDivider 類別
+                  href: inkdivider-class.md
+                  items:
+                    - name: 除法方法
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-divide
+                    - name: LineHeight 屬性
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight
+                    - name: RecognizerCoNtext 屬性
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext
+                    - name: 筆觸屬性
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes
+                - name: InkDrawingAttributes 類別
+                  href: inkdrawingattributes-class.md
+                  items:
+                    - name: 反鋸齒屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_antialiased
+                    - name: Clone 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-clone
+                    - name: Color 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_color
+                    - name: ExtendedProperties 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_extendedproperties
+                    - name: FitToCurve 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_fittocurve
+                    - name: Height 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height
+                    - name: IgnorePressure 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_ignorepressure
+                    - name: PenTip 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_pentip
+                    - name: RasterOperation 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation
+                    - name: 透明度屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_transparency
+                    - name: Width 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width
+                - name: InkOverlay 類別
+                  href: inkoverlay-class.md
+                  items:
+                    - name: AttachMode 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_attachmode
+                    - name: AutoRedraw 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_autoredraw
+                    - name: CollectingInk 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_collectingink
+                    - name: CollectionMode 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_collectionmode
+                    - name: CursorButtonDown 事件
+                      href: inkoverlay-cursorbuttondown.md
+                    - name: CursorButtonUp 事件
+                      href: inkoverlay-cursorbuttonup.md
+                    - name: CursorDown 事件
+                      href: inkoverlay-cursordown.md
+                    - name: CursorInRange 事件
+                      href: inkoverlay-cursorinrange.md
+                    - name: CursorOutOfRange 事件
+                      href: inkoverlay-cursoroutofrange.md
+                    - name: Cursor 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_cursors
+                    - name: System.windows.controls.inkcanvas.defaultdrawingattributes 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_defaultdrawingattributes
+                    - name: DesiredPacketDescription 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_desiredpacketdescription
+                    - name: DoubleClick 事件
+                      href: inkoverlay-doubleclick.md
+                    - name: Draw 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-draw
+                    - name: DynamicRendering 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering
+                    - name: System.windows.controls.inkcanvas.editingmode 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode
+                    - name: Enabled 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_enabled
+                    - name: EraserMode 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode
+                    - name: EraserWidth 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_eraserwidth
+                    - name: 手勢事件
+                      href: inkoverlay-gesture.md
+                    - name: GetEventInterest 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-geteventinterest
+                    - name: GetGestureStatus 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-getgesturestatus
+                    - name: GetWindowInputRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-getwindowinputrectangle
+                    - name: HitTestSelection 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-hittestselection
+                    - name: hWnd 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_hwnd
+                    - name: 筆墨屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_ink
+                    - name: MarginX 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_marginx
+                    - name: MarginY 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_marginy
+                    - name: MouseDown 事件
+                      href: inkoverlay-mousedown.md
+                    - name: MouseIcon 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_mouseicon
+                    - name: MouseMove 事件
+                      href: inkoverlay-mousemove.md
+                    - name: MousePointer 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_mousepointer
+                    - name: MouseUp 事件
+                      href: inkoverlay-mouseup.md
+                    - name: 滑鼠滾輪事件
+                      href: inkoverlay-mousewheel.md
+                    - name: NewInAirPackets 事件
+                      href: inkoverlay-newinairpackets.md
+                    - name: NewPackets 事件
+                      href: inkoverlay-newpackets.md
+                    - name: 繪製事件
+                      href: inkoverlay-painted.md
+                    - name: 繪製事件
+                      href: inkoverlay-painting.md
+                    - name: 轉譯器屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_renderer
+                    - name: Selection 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection
+                    - name: SelectionChanged 事件
+                      href: inkoverlay-selectionchanged.md
+                    - name: SelectionChanging 事件
+                      href: inkoverlay-selectionchanging.md
+                    - name: SelectionMoved 事件
+                      href: inkoverlay-selectionmoved.md
+                    - name: SelectionMoving 事件
+                      href: inkoverlay-selectionmoving.md
+                    - name: SelectionResized 事件
+                      href: inkoverlay-selectionresized.md
+                    - name: SelectionResizing 事件
+                      href: inkoverlay-selectionresizing.md
+                    - name: SetAllTabletsMode 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setalltabletsmode
+                    - name: SetEventInterest 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-seteventinterest
+                    - name: SetGestureStatus 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setgesturestatus
+                    - name: SetSingleTabletIntegratedMode 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setsingletabletintegratedmode
+                    - name: SetWindowInputRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setwindowinputrectangle
+                    - name: 筆觸事件
+                      href: inkoverlay-stroke.md
+                    - name: StrokesDeleted 事件
+                      href: inkoverlay-strokesdeleted.md
+                    - name: StrokesDeleting 事件
+                      href: inkoverlay-strokesdeleting.md
+                    - name: SupportHighContrastInk 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_supporthighcontrastink
+                    - name: SupportHighContrastSelectionUI 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_supporthighcontrastselectionui
+                    - name: SystemGesture 事件
+                      href: inkoverlay-systemgesture.md
+                    - name: 平板電腦屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_tablet
+                    - name: TabletAdded 事件
+                      href: inkoverlay-tabletadded.md
+                    - name: TabletRemoved 事件
+                      href: inkoverlay-tabletremoved.md
+                - name: InkRecognizerCoNtext 類別
+                  href: inkrecognizercontext-class.md
+                  items:
+                    - name: BackgroundRecognize 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize
+                    - name: BackgroundRecognizeWithAlternates 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates
+                    - name: CharacterAutoCompletion 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_characterautocompletionmode
+                    - name: Clone 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-clone
+                    - name: EndInkInput 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-endinkinput
+                    - name: 模擬屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid
+                    - name: Guide 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_guide
+                    - name: IsStringSupported 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-isstringsupported
+                    - name: PrefixText 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext
+                    - name: 辨識事件
+                      href: inkrecognizercontext-recognition.md
+                    - name: RecognitionFlags 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags
+                    - name: RecognitionWithAlternates 事件
+                      href: inkrecognizercontext-recognitionwithalternates.md
+                    - name: 辨識方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize
+                    - name: 辨識器屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognizer
+                    - name: StopBackgroundRecognition 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-stopbackgroundrecognition
+                    - name: 筆觸屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes
+                    - name: SuffixText 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext
+                    - name: 單詞表屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist
+                - name: InkRecognizerGuide 類別
+                  href: inkrecognizerguide-class.md
+                  items:
+                    - name: Columns 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns
+                    - name: DrawnBox 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox
+                    - name: GuideData 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_guidedata
+                    - name: 中線屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_midline
+                    - name: Rows 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows
+                    - name: WritingBox 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox
+                - name: InkRecognizers 集合
+                  href: /previous-versions/windows/desktop/legacy/ms702438(v=vs.85)
+                  items:
+                    - name: Count 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-get_count
+                    - name: GetDefaultRecognizer 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-getdefaultrecognizer
+                    - name: Item 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-item
+                - name: InkRectangle 類別
+                  href: inkrectangle-class.md
+                  items:
+                    - name: 底端屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom
+                    - name: Data 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_data
+                    - name: GetRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-getrectangle
+                    - name: 左方屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left
+                    - name: Right 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right
+                    - name: SetRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-setrectangle
+                    - name: Top 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top
+                - name: InkRenderer 類別
+                  href: inkrenderer-class.md
+                  items:
+                    - name: Draw 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-draw
+                    - name: DrawStroke 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-drawstroke
+                    - name: GetObjectTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform
+                    - name: GetViewTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform
+                    - name: InkSpaceToPixel 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel
+                    - name: InkSpaceToPixelFromPoints 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints
+                    - name: Measure 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measure
+                    - name: MeasureStroke 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measurestroke
+                    - name: Move 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-move
+                    - name: PixelToInkSpace 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspace
+                    - name: PixelToInkSpaceFromPoints 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints
+                    - name: 輪替方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-rotate
+                    - name: ScaleTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-scaletransform
+                    - name: SetObjectTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform
+                    - name: SetViewTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform
+                - name: InkStrokes 集合
+                  href: /previous-versions/windows/desktop/legacy/ms703293(v=vs.85)
+                  items:
+                    - name: 新增方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-add
+                    - name: AddStrokes 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes
+                    - name: 剪輯方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-clip
+                    - name: Count 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_count
+                    - name: GetBoundingBox 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-getboundingbox
+                    - name: 筆墨屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_ink
+                    - name: Item 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-item
+                    - name: ModifyDrawingAttributes 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes
+                    - name: Move 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-move
+                    - name: RecognitionResult 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_recognitionresult
+                    - name: Remove 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-remove
+                    - name: RemoveRecognitionResult 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-removerecognitionresult
+                    - name: RemoveStrokes 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-removestrokes
+                    - name: 輪替方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-rotate
+                    - name: ScaleToRectangle 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-scaletorectangle
+                    - name: ScaleTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-scaletransform
+                    - name: 切變方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-shear
+                    - name: StrokesAdded 事件
+                      href: inkstrokes-strokesadded.md
+                    - name: StrokesRemoved 事件
+                      href: inkstrokes-strokesremoved.md
+                    - name: ToString 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-tostring
+                    - name: Transform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-transform
+                - name: InkTablets 集合
+                  href: /previous-versions/windows/desktop/legacy/ms704832(v=vs.85)
+                  items:
+                    - name: Count 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_count
+                    - name: DefaultTablet 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_defaulttablet
+                    - name: IsPacketPropertySupported 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-ispacketpropertysupported
+                    - name: Item 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-item
+                - name: InkTransform 類別
+                  href: inktransform-class.md
+                  items:
+                    - name: Data 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_data
+                    - name: eDx 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_edx
+                    - name: eDy 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_edy
+                    - name: eM11 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em11
+                    - name: eM12 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em12
+                    - name: eM21 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em21
+                    - name: eM22 屬性
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em22
+                    - name: GetTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-gettransform
+                    - name: 反映方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reflect
+                    - name: Reset 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reset
+                    - name: 輪替方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-rotate
+                    - name: ScaleTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-scaletransform
+                    - name: SetTransform 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-settransform
+                    - name: 切變方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-shear
+                    - name: 轉譯方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-translate
+                - name: InkWordList 類別
+                  href: inkwordlist-class.md
+                  items:
+                    - name: AddWord 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword
+                    - name: Merge 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-merge
+                    - name: RemoveWord 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword
+                - name: PenInputPanel 類別
+                  href: peninputpanel-class.md
+                  items:
+                    - name: AttachedEditWindow 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow
+                    - name: 自動屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow
+                    - name: 忙碌屬性
+                      href: /windows/desktop/api/Peninputpanel/nf-peninputpanel-ipeninputpanel-get_busy
+                    - name: CommitPendingInput 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-commitpendinginput
+                    - name: CurrentPanel 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel
+                    - name: DefaultPanel 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_defaultpanel
+                    - name: EnableTsf 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-enabletsf
+                    - name: 模擬屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_factoid
+                    - name: Height 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_height
+                    - name: System.windows.controls.primitives.popup.horizontaloffset 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset
+                    - name: InputFailed 事件
+                      href: peninputpanel-inputfailed.md
+                    - name: 左方屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left
+                    - name: MoveTo 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto
+                    - name: PanelChanged 事件
+                      href: peninputpanel-panelchanged.md
+                    - name: PanelMoving 事件
+                      href: peninputpanel-panelmoving.md
+                    - name: Refresh 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh
+                    - name: Top 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top
+                    - name: System.windows.controls.primitives.popup.verticaloffset 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset
+                    - name: Visible 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible
+                    - name: VisibleChanged 事件
+                      href: peninputpanel-visiblechanged.md
+                    - name: Width 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_width
+            - name: 核心 Tablet PC 常數
+              href: constants---tablet-pc-com-library.md
+              items:
+                - name: 模擬常數
+                  href: factoid-constants.md
+                - name: PacketPropertyGuids 常數
+                  href: packetpropertyguids-constants.md
+                - name: RecognitionProperty 常數
+                  href: recognitionproperty-constants.md
+            - name: 核心 Tablet PC 列舉
+              href: enumerations--tablet-pc-com-library.md
+              items:
+                - name: InkApplicationGesture 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture
+                - name: InkBoundingBoxMode 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkboundingboxmode
+                - name: InkClipboardFormats 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats
+                - name: InkClipboardModes 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes
+                - name: InkCollectionMode 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcollectionmode
+                - name: InkCollectorEventInterest 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest
+                - name: InkCursorButtonState 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcursorbuttonstate
+                - name: InkDivisionType 列舉
+                  href: /windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype
+                - name: InkExtractFlags 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags
+                - name: InkMouseButton 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkmousebutton
+                - name: InkMousePointer 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkmousepointer
+                - name: InkOverlayAttachMode 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayattachmode
+                - name: InkOverlayEditingMode 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode
+                - name: InkOverlayEraserMode 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode
+                - name: InkPenTip 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpentip
+                - name: InkPersistenceCompressionMode 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpersistencecompressionmode
+                - name: InkPersistenceFormat 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat
+                - name: InkRasterOperation 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrasteroperation
+                - name: InkRecognitionAlternatesSelection 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionalternatesselection
+                - name: InkRecognitionConfidence 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionconfidence
+                - name: InkRecognitionModes 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionmodes
+                - name: InkRecognitionStatus 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionstatus
+                - name: InkRecognizerCapabilities 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercapabilities
+                - name: InkRecognizerCharacterAutoCompletionMode 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercharacterautocompletionmode
+                - name: InkRecoGuide 列舉
+                  href: /windows/win32/api/msinkaut/ns-msinkaut-inkrecoguide
+                - name: InkShiftKeyModifierFlags 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkshiftkeymodifierflags
+                - name: InkSystemGesture 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture
+                - name: ItemSelectionConstants 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants
+                - name: PanelType 列舉
+                  href: /windows/desktop/api/peninputpanel/ne-peninputpanel-paneltype
+                - name: SelectionHitResult 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult
+                - name: TabletHardwareCapabilities 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-tablethardwarecapabilities
+                - name: TabletPropertyMetricUnit 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit
+            - name: 核心 Tablet PC 功能
+              href: functions.md
+              items:
+                - name: AddOneStroke 函式
+                  href: addonestroke.md
+                - name: CallDivide 函式
+                  href: calldivide.md
+                - name: CallDivideResults 函式
+                  href: calldivideresults.md
+                - name: CallDivideResultsStrokeIds 函式
+                  href: calldivideresultsstrokeids.md
+                - name: CreateInkDivider 函式
+                  href: createinkdivider.md
+                - name: DeleteInkDivider 函式
+                  href: deleteinkdivider.md
+                - name: InvokeIDispatch 函式
+                  href: invokeidispatch.md
+                - name: RecognizerCoNtextSet 函式
+                  href: recognizercontextset.md
+                - name: RemoveStrokes 函式
+                  href: /previous-versions/windows/desktop/legacy/cc836538(v=vs.85)
+                - name: SetLineHeight 函式
+                  href: setlineheight.md
+                - name: SetLineRecoCallback 函式
+                  href: setlinerecocallback.md
+        - name: 筆觸參考
+          href: flicks-api-reference.md
+          items:
+            - name: 筆觸訊息
+              href: flicks-messages.md
+              items:
+                - name: WM_TABLET_FLICK
+                  href: wm-tablet-flick-message.md
+                - name: WM_TABLET_QUERYSYSTEMGESTURESTATUS
+                  href: wm-tablet-querysystemgesturestatus-message.md
+            - name: 筆觸列舉
+              href: flicks-enumerations.md
+              items:
+                - name: FLICKDIRECTION 列舉
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-flickdirection
+                - name: FLICKMODE 列舉
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-flickmode
+                - name: FLICKACTION_COMMANDMODE 列舉
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-flickaction_commandcode
+                - name: SCROLLDIRECTION 列舉
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-scrolldirection
+                - name: KEYMODIFIER 列舉
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-keymodifier
+            - name: 筆觸結構
+              href: flicks-structures.md
+              items:
+                - name: FLICK_POINT 結構
+                  href: /windows/desktop/api/tabflicks/ns-tabflicks-flick_point
+                - name: FLICK_DATA 結構
+                  href: /windows/desktop/api/tabflicks/ns-tabflicks-flick_data
+            - name: 筆觸常數
+              href: flicks-constants.md
+        - name: 筆跡分析參考
+          href: ink-analysis-reference.md
+          items:
+            - name: 筆墨分析類別和介面
+              href: classes-and-interfaces---ink-analysis.md
+              items:
+                - name: AnalysisRegion 類別
+                  href: analysisregion.md
+                - name: InkAnalyzer 類別
+                  href: inkanalyzer.md
+                - name: IAnalysisAlternate 介面
+                  href: ianalysisalternate.md
+                  items:
+                    - name: GetAlternateNodes 方法
+                      href: ianalysisalternate-getalternatenodes.md
+                    - name: GetRecognitionConfidence 方法
+                      href: ianalysisalternate-getrecognitionconfidence.md
+                    - name: GetRecognizedString 方法
+                      href: ianalysisalternate-getrecognizedstring.md
+                    - name: GetStrokeIds 方法
+                      href: ianalysisalternate-getstrokeids.md
+                - name: IAnalysisAlternates 介面
+                  href: ianalysisalternates.md
+                  items:
+                    - name: GetAnalysisAlternate 方法
+                      href: ianalysisalternates-getanalysisalternate.md
+                    - name: GetCount 方法
+                      href: ianalysisalternates-getcount.md
+                - name: IAnalysisRegion 介面
+                  href: ianalysisregion.md
+                  items:
+                    - name: Clone 方法
+                      href: ianalysisregion-clone.md
+                    - name: EqualsRegion 方法
+                      href: ianalysisregion-equalsregion.md
+                    - name: ExcludeRectangle 方法
+                      href: ianalysisregion-excluderectangle.md
+                    - name: ExcludeRegion 方法
+                      href: ianalysisregion-excluderegion.md
+                    - name: GetBounds 方法
+                      href: ianalysisregion-getbounds.md
+                    - name: GetRegionScans 方法
+                      href: ianalysisregion-getregionscans.md
+                    - name: IntersectRectangle 方法
+                      href: ianalysisregion-intersectrectangle.md
+                    - name: IntersectRegion 方法
+                      href: ianalysisregion-intersectregion.md
+                    - name: IntersectsWith 方法
+                      href: ianalysisregion-intersectswith.md
+                    - name: IsEmpty 方法
+                      href: ianalysisregion-isempty.md
+                    - name: IsInfinite 方法
+                      href: ianalysisregion-isinfinite.md
+                    - name: MakeEmpty 方法
+                      href: ianalysisregion-makeempty.md
+                    - name: MakeInfinite 方法
+                      href: ianalysisregion-makeinfinite.md
+                    - name: UnionRectangle 方法
+                      href: ianalysisregion-unionrectangle.md
+                    - name: UnionRegion 方法
+                      href: ianalysisregion-unionregion.md
+                - name: IAnalysisStatus 介面
+                  href: ianalysisstatus.md
+                  items:
+                    - name: GetAppliedChangesRegion 方法
+                      href: ianalysisstatus-getappliedchangesregion.md
+                    - name: GetWarnings 方法
+                      href: ianalysisstatus-getwarnings.md
+                    - name: IsSuccessful 方法
+                      href: ianalysisstatus-issuccessful.md
+                - name: IAnalysisWarning 介面
+                  href: ianalysiswarning.md
+                  items:
+                    - name: GetBackgroundError 方法
+                      href: ianalysiswarning-getbackgrounderror.md
+                    - name: GetHint 方法
+                      href: ianalysiswarning-gethint.md
+                    - name: GetNodeIds 方法
+                      href: ianalysiswarning-getnodeids.md
+                    - name: GetWarningCode 方法
+                      href: ianalysiswarning-getwarningcode.md
+                - name: IAnalysisWarnings 介面
+                  href: ianalysiswarnings.md
+                  items:
+                    - name: GetAnalysisWarning 方法
+                      href: ianalysiswarnings-getanalysiswarning.md
+                    - name: GetCount 方法
+                      href: ianalysiswarnings-getcount.md
+                - name: ICoNtextLink 介面
+                  href: icontextlink.md
+                  items:
+                    - name: GetCoNtextLinkDirection
+                      href: icontextlink-getcontextlinkdirection.md
+                    - name: GetDestinationNode
+                      href: icontextlink-getdestinationnode.md
+                    - name: GetSourceNode
+                      href: icontextlink-getsourcenode.md
+                - name: ICoNtextLinks 介面
+                  href: icontextlinks.md
+                  items:
+                    - name: GetCoNtextLink 方法
+                      href: icontextlinks-getcontextlink.md
+                    - name: GetCount 方法
+                      href: icontextlinks-getcount.md
+                - name: ICoNtextNode 介面
+                  href: icontextnode.md
+                  items:
+                    - name: AddCoNtextLink 方法
+                      href: icontextnode-addcontextlink.md
+                    - name: AddPropertyData 方法
+                      href: icontextnode-addpropertydata.md
+                    - name: Confirm 方法
+                      href: icontextnode-confirm.md
+                    - name: ContainsPropertyData 方法
+                      href: icontextnode-containspropertydata.md
+                    - name: CreatePartiallyPopulatedSubNode 方法
+                      href: icontextnode-createpartiallypopulatedsubnode.md
+                    - name: CreateSubNode 方法
+                      href: icontextnode-createsubnode.md
+                    - name: DeleteCoNtextLink 方法
+                      href: icontextnode-deletecontextlink.md
+                    - name: DeleteSubNode 方法
+                      href: icontextnode-deletesubnode.md
+                    - name: GetCoNtextLinks 方法
+                      href: icontextnode-getcontextlinks.md
+                    - name: GetID 方法
+                      href: icontextnode-getid.md
+                    - name: GetLocation 方法
+                      href: icontextnode-getlocation.md
+                    - name: GetParentNode 方法
+                      href: icontextnode-getparentnode.md
+                    - name: GetPartiallyPopulated 方法
+                      href: icontextnode-getpartiallypopulated.md
+                    - name: GetPropertyData 方法
+                      href: icontextnode-getpropertydata.md
+                    - name: GetPropertyDataIds 方法
+                      href: icontextnode-getpropertydataids.md
+                    - name: GetStrokeCount 方法
+                      href: icontextnode-getstrokecount.md
+                    - name: GetStrokeId 方法
+                      href: icontextnode-getstrokeid.md
+                    - name: GetStrokeIds 方法
+                      href: icontextnode-getstrokeids.md
+                    - name: GetStrokePacketDataById 方法
+                      href: icontextnode-getstrokepacketdatabyid.md
+                    - name: GetStrokePacketDescriptionById 方法
+                      href: icontextnode-getstrokepacketdescriptionbyid.md
+                    - name: GetSubNodes 方法
+                      href: icontextnode-getsubnodes.md
+                    - name: GetType 方法
+                      href: icontextnode-gettype.md
+                    - name: GetTypeName 方法
+                      href: icontextnode-gettypename.md
+                    - name: IsAlternateStringSupported 方法
+                      href: icontextnode-isalternatestringsupported.md
+                    - name: IsConfirmed 方法
+                      href: icontextnode-isconfirmed.md
+                    - name: IsStringSupported 方法
+                      href: icontextnode-isstringsupported.md
+                    - name: LoadPropertiesData 方法
+                      href: icontextnode-loadpropertiesdata.md
+                    - name: MoveSubNodeToPosition 方法
+                      href: icontextnode-movesubnodetoposition.md
+                    - name: RemovePropertyData 方法
+                      href: icontextnode-removepropertydata.md
+                    - name: 重做方法
+                      href: icontextnode-reparent.md
+                    - name: ReparentStrokeByIdToNode 方法
+                      href: icontextnode-reparentstrokebyidtonode.md
+                    - name: SavePropertiesData 方法
+                      href: icontextnode-savepropertiesdata.md
+                    - name: SetLocation 方法
+                      href: icontextnode-setlocation.md
+                    - name: SetPartiallyPopulated 方法
+                      href: icontextnode-setpartiallypopulated.md
+                    - name: SetStrokes 方法
+                      href: icontextnode-setstrokes.md
+                - name: ICoNtextNodes 介面
+                  href: icontextnodes.md
+                  items:
+                    - name: AddCoNtextNode 方法
+                      href: icontextnodes-addcontextnode.md
+                    - name: GetCount 方法
+                      href: icontextnodes-getcount.md
+                    - name: GetCoNtextNode 方法
+                      href: icontextnodes-getcontextnode.md
+                    - name: RemoveCoNtextNode 方法
+                      href: icontextnodes-removecontextnode.md
+                - name: IInkAnalysisRecognizer 介面
+                  href: iinkanalysisrecognizer.md
+                  items:
+                    - name: GetCapabilities 方法
+                      href: iinkanalysisrecognizer-getcapabilities.md
+                    - name: GetGuid 方法
+                      href: iinkanalysisrecognizer-getguid.md
+                    - name: GetLanguages 方法
+                      href: iinkanalysisrecognizer-getlanguages.md
+                    - name: GetName 方法
+                      href: iinkanalysisrecognizer-getname.md
+                    - name: GetSupportedProperties 方法
+                      href: iinkanalysisrecognizer-getsupportedproperties.md
+                    - name: GetUnicodeRanges 方法
+                      href: iinkanalysisrecognizer-getunicoderanges.md
+                    - name: GetVendor 方法
+                      href: iinkanalysisrecognizer-getvendor.md
+                    - name: SetAsHighestPriorityInkAnalysisRecognizer 方法
+                      href: iinkanalysisrecognizer-setashighestpriorityinkanalysisrecognizer.md
+                - name: IInkAnalysisRecognizers 介面
+                  href: iinkanalysisrecognizers.md
+                  items:
+                    - name: GetCount 方法
+                      href: iinkanalysisrecognizers-getcount.md
+                    - name: GetInkAnalysisRecognizer 方法
+                      href: iinkanalysisrecognizers-getinkanalysisrecognizer.md
+                - name: IInkAnalyzer 介面
+                  href: iinkanalyzer.md
+                  items:
+                    - name: Abort 方法
+                      href: iinkanalyzer-abort.md
+                    - name: AddStroke 方法
+                      href: iinkanalyzer-addstroke.md
+                    - name: AddStrokeForLanguage 方法
+                      href: iinkanalyzer-addstrokeforlanguage.md
+                    - name: AddStrokes 方法
+                      href: iinkanalyzer-addstrokes.md
+                    - name: AddStrokesForLanguage 方法
+                      href: iinkanalyzer-addstrokesforlanguage.md
+                    - name: AddStrokeToCustomRecognizer 方法
+                      href: iinkanalyzer-addstroketocustomrecognizer.md
+                    - name: AddStrokesToCustomRecognizer 方法
+                      href: iinkanalyzer-addstrokestocustomrecognizer.md
+                    - name: 分析方法
+                      href: iinkanalyzer-analyze.md
+                    - name: BackgroundAnalyze 方法
+                      href: iinkanalyzer-backgroundanalyze.md
+                    - name: ClearStrokeData 方法
+                      href: iinkanalyzer-clearstrokedata.md
+                    - name: CreateAnalysisHint 方法
+                      href: iinkanalyzer-createanalysishint.md
+                    - name: CreateCoNtextNodes 方法
+                      href: iinkanalyzer-createcontextnodes.md
+                    - name: CreateCustomRecognizer 方法
+                      href: iinkanalyzer-createcustomrecognizer.md
+                    - name: DeleteAnalysisHint 方法
+                      href: iinkanalyzer-deleteanalysishint.md
+                    - name: FindInkLeafNodes 方法
+                      href: iinkanalyzer-findinkleafnodes.md
+                    - name: FindInkLeafNodesForStrokes 方法
+                      href: iinkanalyzer-findinkleafnodesforstrokes.md
+                    - name: FindLeafNodes 方法
+                      href: iinkanalyzer-findleafnodes.md
+                    - name: FindNode 方法
+                      href: iinkanalyzer-findnode.md
+                    - name: FindNodesOfType 方法
+                      href: iinkanalyzer-findnodesoftype.md
+                    - name: FindNodesOfTypeForStrokes 方法
+                      href: iinkanalyzer-findnodesoftypeforstrokes.md
+                    - name: FindNodesOfTypeInSubTree 方法
+                      href: iinkanalyzer-findnodesoftypeinsubtree.md
+                    - name: FindNodesWithCallBack 方法
+                      href: iinkanalyzer-findnodeswithcallback.md
+                    - name: FindNodesWithCallBackInSubTree 方法
+                      href: iinkanalyzer-findnodeswithcallbackinsubtree.md
+                    - name: GetAlternates 方法
+                      href: iinkanalyzer-getalternates.md
+                    - name: GetAlternatesForCoNtextNodes 方法
+                      href: iinkanalyzer-getalternatesforcontextnodes.md
+                    - name: GetAlternatesForStrokes
+                      href: iinkanalyzer-getalternatesforstrokes.md
+                    - name: GetAnalysisHints 方法
+                      href: iinkanalyzer-getanalysishints.md
+                    - name: GetAnalysisHintsByName 方法
+                      href: iinkanalyzer-getanalysishintsbyname.md
+                    - name: GetAnalysisModes 方法
+                      href: iinkanalyzer-getanalysismodes.md
+                    - name: GetDirtyRegion 方法
+                      href: iinkanalyzer-getdirtyregion.md
+                    - name: GetInkAnalysisRecognizersByPriority 方法
+                      href: iinkanalyzer-getinkanalysisrecognizersbypriority.md
+                    - name: GetNodesFromTextRange 方法
+                      href: iinkanalyzer-getnodesfromtextrange.md
+                    - name: GetRecognizedString 方法
+                      href: iinkanalyzer-getrecognizedstring.md
+                    - name: GetRootNode 方法
+                      href: iinkanalyzer-getrootnode.md
+                    - name: GetStrokeLanguageId 方法
+                      href: iinkanalyzer-getstrokelanguageid.md
+                    - name: GetStrokeType 方法
+                      href: iinkanalyzer-getstroketype.md
+                    - name: GetTextRangeFromNodes 方法
+                      href: iinkanalyzer-gettextrangefromnodes.md
+                    - name: IsAnalyzing 方法
+                      href: iinkanalyzer-isanalyzing.md
+                    - name: LoadResults 方法
+                      href: iinkanalyzer-loadresults.md
+                    - name: ModifyTopAlternate 方法
+                      href: iinkanalyzer-modifytopalternate.md
+                    - name: ModifyTopAlternateWithConfirmation 方法
+                      href: iinkanalyzer-modifytopalternatewithconfirmation.md
+                    - name: 調解方法
+                      href: iinkanalyzer-reconcile.md
+                    - name: RemoveStroke 方法
+                      href: iinkanalyzer-removestroke.md
+                    - name: RemoveStrokes 方法
+                      href: iinkanalyzer-removestrokes.md
+                    - name: SaveResults 方法
+                      href: iinkanalyzer-saveresults.md
+                    - name: SaveResultsForNodes 方法
+                      href: iinkanalyzer-saveresultsfornodes.md
+                    - name: SaveResultsForStrokes 方法
+                      href: iinkanalyzer-saveresultsforstrokes.md
+                    - name: 搜尋方法
+                      href: iinkanalyzer-search.md
+                    - name: SearchWithLanguageId 方法
+                      href: iinkanalyzer-searchwithlanguageid.md
+                    - name: SetAnalysisModes 方法
+                      href: iinkanalyzer-setanalysismodes.md
+                    - name: SetDirtyRegion 方法
+                      href: iinkanalyzer-setdirtyregion.md
+                    - name: SetHighestPriorityInkAnalysisRecognizer 方法
+                      href: iinkanalyzer-sethighestpriorityinkanalysisrecognizer.md
+                    - name: SetStrokeLanguageId 方法
+                      href: iinkanalyzer-setstrokelanguageid.md
+                    - name: SetStrokesLanguageId 方法
+                      href: iinkanalyzer-setstrokeslanguageid.md
+                    - name: SetStrokesType 方法
+                      href: iinkanalyzer-setstrokestype.md
+                    - name: SetStrokeType 方法
+                      href: iinkanalyzer-setstroketype.md
+                    - name: UpdateStrokesData 方法
+                      href: iinkanalyzer-updatestrokesdata.md
+                - name: IMatchesCriteriaCallBack 介面
+                  href: imatchescriteriacallback.md
+                  items:
+                    - name: EvaluateCoNtextNode 方法
+                      href: imatchescriteriacallback-evaluatecontextnode.md
+            - name: 筆跡分析常數
+              href: ink-analysis-constants.md
+              items:
+                - name: 分析提示屬性
+                  href: analysis-hint-properties.md
+                - name: 內容節點屬性
+                  href: context-node-properties.md
+                - name: 內容節點類型
+                  href: context-node-types.md
+            - name: 筆跡分析列舉
+              href: ink-analysis-enumerations.md
+              items:
+                - name: AnalysisModes 列舉
+                  href: analysismodes.md
+                - name: AnalysisWarningCode 列舉
+                  href: analysiswarningcode.md
+                - name: ConfirmationType 列舉
+                  href: confirmationtype.md
+                - name: CoNtextLinkDirection EnumerationEnumeration
+                  href: contextlinkdirection.md
+                - name: RecognitionConfidence
+                  href: recognitionconfidence.md
+                - name: RecognizerCapabilities 列舉
+                  href: recognizercapabilities.md
+                - name: StrokeType
+                  href: stroketype.md
+            - name: 筆墨分析事件
+              href: ink-analysis-events.md
+              items:
+                - name: _IAnalysisEvents
+                  href: '-ianalysisevents.md'
+                  items:
+                    - name: 活動事件
+                      href: '-ianalysisevents-activity.md'
+                    - name: IntermediateResults 事件
+                      href: '-ianalysisevents-intermediateresults.md'
+                    - name: ReadyToReconcile 事件
+                      href: '-ianalysisevents-readytoreconcile.md'
+                    - name: 結果事件
+                      href: '-ianalysisevents-results.md'
+                    - name: UpdateStrokesCache 事件
+                      href: '-ianalysisevents-updatestrokescache.md'
+                - name: _IAnalysisProxyEvents
+                  href: '-ianalysisproxyevents.md'
+                  items:
+                    - name: CoNtextNodeCreated 事件
+                      href: '-ianalysisproxyevents-contextnodecreated.md'
+                    - name: CoNtextNodeDeleting 事件
+                      href: '-ianalysisproxyevents-contextnodedeleting.md'
+                    - name: CoNtextNodeLinkAdding 事件
+                      href: '-ianalysisproxyevents-contextnodelinkadding.md'
+                    - name: CoNtextNodeLinkDeleting 事件
+                      href: '-ianalysisproxyevents-contextnodelinkdeleting.md'
+                    - name: CoNtextNodeMovingToPosition 事件
+                      href: '-ianalysisproxyevents-contextnodemovingtoposition.md'
+                    - name: CoNtextNodePropertiesUpdated 事件
+                      href: '-ianalysisproxyevents-contextnodepropertiesupdated.md'
+                    - name: CoNtextNodeReparenting 事件
+                      href: '-ianalysisproxyevents-contextnodereparenting.md'
+                    - name: InkAnalyzerStateChanging 事件
+                      href: '-ianalysisproxyevents-inkanalyzerstatechanging.md'
+                    - name: PopulateCoNtextNode 事件
+                      href: '-ianalysisproxyevents-populatecontextnode.md'
+                    - name: StrokeReparented 事件
+                      href: '-ianalysisproxyevents-strokereparented.md'
+            - name: 筆墨分析結構
+              href: ink-analysis-structures.md
+              items:
+                - name: InkAnalysisRecognizerGuide 結構
+                  href: inkanalysisrecognizerguide.md
+        - name: InkEdit 控制項參考
+          href: inkedit-control-reference.md
+          items:
+            - name: InkEdit 事件
+              href: inkedit-events.md
+              items:
+                - name: 變更事件
+                  href: inkedit-change.md
+                - name: 點選事件
+                  href: inkedit-click.md
+                - name: DblClick 事件
+                  href: inkedit-dblclick.md
+                - name: '手勢事件 [InkEdit 控制項'
+                  href: inkedit-gesture.md
+                - name: 'KeyDown 事件 [InkEdit 控制項'
+                  href: inkedit-keydown.md
+                - name: 'KeyPress 事件 [InkEdit 控制項'
+                  href: inkedit-keypress.md
+                - name: 'KeyUp 事件 [InkEdit 控制項'
+                  href: inkedit-keyup.md
+                - name: 'MouseDown 事件 [InkEdit 控制項'
+                  href: inkedit-mousedown.md
+                - name: 'MouseMove 事件 [InkEdit 控制項'
+                  href: inkedit-mousemove.md
+                - name: 'MouseUp 事件 [InkEdit 控制項'
+                  href: inkedit-mouseup.md
+                - name: RecognitionResult 事件
+                  href: inkedit-recognitionresult.md
+                - name: SelChange 事件
+                  href: inkedit-selchange.md
+                - name: '筆觸事件 [InkEdit 控制項'
+                  href: inkedit-stroke.md
+                - name: 'GetGestureStatus 方法 [InkEdit 控制項'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-getgesturestatus
+                - name: '辨識方法 [InkEdit 控制項'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-recognize
+                - name: 'Refresh 方法 [InkEdit 控制項'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-refresh
+                - name: 'SetGestureStatus 方法 [InkEdit 控制項'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus
+                - name: 外觀屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_appearance
+                - name: 背景屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_backcolor
+                - name: BorderStyle 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_borderstyle
+                - name: DisableNoScroll 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_disablenoscroll
+                - name: 'DrawingAttributes 屬性 [InkEdit 控制項'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_drawingattributes
+                - name: Enabled 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_enabled
+                - name: '模擬的屬性 [InkEdit 控制項'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_factoid
+                - name: 字型屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_font
+                - name: hWnd 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_hwnd
+                - name: InkInsertMode 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode
+                - name: InkMode 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode
+                - name: 鎖定的屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_locked
+                - name: MaxLength 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_maxlength
+                - name: MouseIcon 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_mouseicon
+                - name: MousePointer 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_mousepointer
+                - name: 多行屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_multiline
+                - name: RecoTimeout 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout
+                - name: '辨識器屬性 [InkEdit 控制項'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_recognizer
+                - name: 捲軸屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars
+                - name: SelAlignment 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selalignment
+                - name: SelBold 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selbold
+                - name: SelCharOffset 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selcharoffset
+                - name: SelColor 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selcolor
+                - name: SelFontName 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selfontname
+                - name: SelFontSize 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selfontsize
+                - name: SelInks 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selinks
+                - name: SelInksDisplayMode 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selinksdisplaymode
+                - name: SelItalic 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selitalic
+                - name: SelLength 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_sellength
+                - name: SelRTF 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selrtf
+                - name: SelStart 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selstart
+                - name: SelText 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_seltext
+                - name: SelUnderline 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selunderline
+                - name: Status 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_status
+                - name: Text 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_text
+                - name: TextRTF 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_textrtf
+                - name: UseMouseForInput 屬性
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_usemouseforinput
+            - name: InkEdit 列舉
+              href: inkedit-enumerations.md
+              items:
+                - name: AppearanceConstants 列舉
+                  href: /windows/desktop/api/inked/ne-inked-appearanceconstants
+                - name: BorderStyleConstants 列舉
+                  href: /windows/desktop/api/inked/ne-inked-borderstyleconstants
+                - name: InkDisplayMode 列舉
+                  href: /windows/desktop/api/inked/ne-inked-inkdisplaymode
+                - name: InkEditStatus 列舉
+                  href: /windows/desktop/api/inked/ne-inked-inkeditstatus
+                - name: InkInsertMode 列舉
+                  href: /windows/desktop/api/inked/ne-inked-inkinsertmode
+                - name: InkMode 列舉
+                  href: /windows/desktop/api/inked/ne-inked-inkmode
+                - name: MouseButton 列舉
+                  href: /windows/desktop/api/inked/ne-inked-mousebutton
+                - name: ScrollBarsConstants 列舉
+                  href: /windows/desktop/api/inked/ne-inked-scrollbarsconstants
+                - name: SelAlignmentConstants 列舉
+                  href: /windows/desktop/api/inked/ne-inked-selalignmentconstants
+            - name: InkEdit 訊息
+              href: inkedit-messages.md
+              items:
+                - name: 'InkEdit 訊息 (僅限 Win32) '
+                  href: inkedit-messages--win32-only-.md
+            - name: InkEdit 方法
+              href: inkedit-methods.md
+            - name: InkEdit 屬性
+              href: inkedit-properties.md
+            - name: InkEdit 結構
+              href: inkedit-structures.md
+              items:
+                - name: 'IEC_GESTUREINFO 結構 (僅限 Win32) '
+                  href: /windows/desktop/api/inked/ns-inked-iec_gestureinfo
+                - name: 'IEC_RECOGNITIONRESULTINFO 結構 (僅限 Win32) '
+                  href: /windows/desktop/api/inked/ns-inked-iec_recognitionresultinfo
+                - name: 'IEC_STROKEINFO 結構 (僅限 Win32) '
+                  href: /windows/desktop/api/inked/ns-inked-iec_strokeinfo
+        - name: InkPicture 控制項參考
+          href: inkpicture-control-reference.md
+          items:
+            - name: InkPicture 列舉
+              href: inkpicture-enumerations.md
+              items:
+                - name: InkPictureSizeMode 列舉
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpicturesizemode
+            - name: InkPicture 事件
+              href: inkpicture-events.md
+              items:
+                - name: 點選事件
+                  href: inkpicture-click.md
+                - name: CursorButtonDown 事件
+                  href: inkpicture-cursorbuttondown.md
+                - name: CursorButtonUp 事件
+                  href: inkpicture-cursorbuttonup.md
+                - name: CursorDown 事件
+                  href: inkpicture-cursordown.md
+                - name: CursorInRange 事件
+                  href: inkpicture-cursorinrange.md
+                - name: CursorOutOfRange 事件
+                  href: inkpicture-cursoroutofrange.md
+                - name: DblClick 事件
+                  href: inkpicture-dblclick.md
+                - name: 手勢事件
+                  href: inkpicture-gesture.md
+                - name: KeyDown 事件
+                  href: inkpicture-keydown.md
+                - name: 按鍵事件
+                  href: inkpicture-keypress.md
+                - name: KeyUp 事件
+                  href: inkpicture-keyup.md
+                - name: MouseDown 事件
+                  href: inkpicture-mousedown.md
+                - name: MouseEnter 事件
+                  href: inkpicture-mouseenter.md
+                - name: MouseHover 事件
+                  href: inkpicture-mousehover.md
+                - name: MouseLeave 事件
+                  href: inkpicture-mouseleave.md
+                - name: MouseMove 事件
+                  href: inkpicture-mousemove.md
+                - name: MouseUp 事件
+                  href: inkpicture-mouseup.md
+                - name: 滑鼠滾輪事件
+                  href: inkpicture-mousewheel.md
+                - name: NewInAirPackets 事件
+                  href: inkpicture-newinairpackets.md
+                - name: NewPackets 事件
+                  href: inkpicture-newpackets.md
+                - name: 繪製事件
+                  href: inkpicture-painted.md
+                - name: 繪製事件
+                  href: inkpicture-painting.md
+                - name: 調整事件大小
+                  href: inkpicture-resize.md
+                - name: SelectionChanged 事件
+                  href: inkpicture-selectionchanged.md
+                - name: SelectionChanging 事件
+                  href: inkpicture-selectionchanging.md
+                - name: SelectionMoved 事件
+                  href: inkpicture-selectionmoved.md
+                - name: SelectionMoving 事件
+                  href: inkpicture-selectionmoving.md
+                - name: SelectionResized 事件
+                  href: inkpicture-selectionresized.md
+                - name: SelectionResizing 事件
+                  href: inkpicture-selectionresizing.md
+                - name: SizeChanged 事件
+                  href: inkpicture-sizechanged.md
+                - name: SizeModeChanged 事件
+                  href: inkpicture-sizemodechanged.md
+                - name: 筆觸事件
+                  href: inkpicture-stroke.md
+                - name: StrokesAdded 事件
+                  href: inkpicture-strokesadded.md
+                - name: StrokesDeleted 事件
+                  href: inkpicture-strokesdeleted.md
+                - name: StrokesDeleting 事件
+                  href: inkpicture-strokesdeleting.md
+                - name: SystemColorsChanged 事件
+                  href: inkpicture-systemcolorschanged.md
+                - name: SystemGesture 事件
+                  href: inkpicture-systemgesture.md
+                - name: TabletAdded 事件
+                  href: inkpicture-tabletadded.md
+                - name: TabletRemoved 事件
+                  href: inkpicture-tabletremoved.md
+            - name: InkPicture 方法
+              href: inkpicture-methods.md
+              items:
+                - name: GetEventInterest 方法
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-geteventinterest
+                - name: GetGestureStatus 方法
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getgesturestatus
+                - name: GetWindowInputRectangle 方法
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getwindowinputrectangle
+                - name: HitTestSelection 方法
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-hittestselection
+                - name: SetAllTabletsMode 方法
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setalltabletsmode
+                - name: SetEventInterest 方法
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-seteventinterest
+                - name: SetGestureStatus 方法
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus
+                - name: SetSingleTabletIntegratedMode 方法
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setsingletabletintegratedmode
+                - name: SetWindowInputRectangle 方法
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle
+            - name: InkPicture 屬性
+              href: inkpicture-properties.md
+              items:
+                - name: AutoRedraw 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw
+                - name: 背景屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor
+                - name: CollectingInk 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink
+                - name: 'CollectionMode 屬性 [InkPicture 控制項'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode
+                - name: Cursor 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors
+                - name: 'CustomStrokes 屬性 [InkPicture 控制項'
+                  href: /previous-versions/windows/desktop/legacy/ms703274(v=vs.85)
+                - name: System.windows.controls.inkcanvas.defaultdrawingattributes 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes
+                - name: DesiredPacketDescription 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription
+                - name: DynamicRendering 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering
+                - name: 'System.windows.controls.inkcanvas.editingmode 屬性 [InkPicture 控制項'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode
+                - name: 'EraserMode 屬性 [InkPicture 控制項'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode
+                - name: 'Enabled 屬性 [InkPicture 控制項'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled
+                - name: 'EraserWidth 屬性 [InkPicture 控制項'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth
+                - name: hWnd 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd
+                - name: '筆墨屬性 [InkPicture 控制項'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink
+                - name: InkEnabled 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled
+                - name: MarginX 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx
+                - name: MarginY 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy
+                - name: MouseIcon 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mouseicon
+                - name: MousePointer 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer
+                - name: Picture 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture
+                - name: 轉譯器屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer
+                - name: '選取專案屬性 [InkPicture 控制項'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection
+                - name: SizeMode 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode
+                - name: SupportHighContrastInk 屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastink
+                - name: 'SupportHighContrastSelectionUI 屬性 [InkPicture 控制項'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastselectionui
+                - name: 平板電腦屬性
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet
+        - name: 日誌讀取器元件參考
+          href: journal-reader-component-reference.md
+          items:
+            - name: 日誌讀取器元件類別和介面
+              href: journal-reader-component-classes-and-interfaces.md
+              items:
+                - name: IJournalReader 介面
+                  href: ijournalreader.md
+                  items:
+                    - name: ReadFromStream 方法
+                      href: ijournalreader-readfromstream.md
+            - name: 日誌讀取器 Guid
+              href: journal-reader-guids.md
+              items:
+                - name: 自訂屬性 Guid
+                  href: custom-property-guids.md
+        - name: 數學輸入控制項參考
+          href: math-input-control-reference.md
+          items:
+            - name: 數學輸入類別和介面
+              href: mic-classes-and-interfaces.md
+              items:
+                - name: _IMathInputControlEvents
+                  href: /windows/desktop/api/micaut/nn-micaut-_imathinputcontrolevents
+                  items:
+                    - name: Clear 方法
+                      href: /previous-versions/windows/desktop/legacy/dd317350(v=vs.85)
+                    - name: Close 方法
+                      href: /previous-versions/windows/desktop/legacy/dd317351(v=vs.85)
+                    - name: Insert 方法
+                      href: /previous-versions/windows/desktop/legacy/dd317352(v=vs.85)
+                    - name: Paint 方法
+                      href: /previous-versions/windows/desktop/legacy/dd317353(v=vs.85)
+                - name: IMathInputControl
+                  href: /windows/desktop/api/micaut/nn-micaut-imathinputcontrol
+                  items:
+                    - name: AddFunctionName 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-addfunctionname
+                    - name: Clear 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-clear
+                    - name: EnableAutoGrow 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-enableautogrow
+                    - name: EnableExtendedButtons 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-enableextendedbuttons
+                    - name: GetHoverIcon 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-gethovericon
+                    - name: GetPosition 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition
+                    - name: GetPreviewHeight 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getpreviewheight
+                    - name: Hide 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-hide
+                    - name: IsVisible 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-isvisible
+                    - name: LoadInk 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-loadink
+                    - name: RemoveFunctionName 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-removefunctionname
+                    - name: SetCaptionText 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setcaptiontext
+                    - name: SetCustomPaint 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setcustompaint
+                    - name: SetOwnerWindow 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setownerwindow
+                    - name: SetPosition 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition
+                    - name: SetPreviewHeight 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setpreviewheight
+                    - name: Show 方法
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show
+            - name: 數學輸入列舉
+              href: mip-enumerations.md
+              items:
+                - name: MICUIELEMENT 列舉
+                  href: /windows/win32/api/micaut/ne-micaut-micuielement
+                - name: MICUIELEMENTSTATE 列舉
+                  href: /windows/win32/api/micaut/ne-micaut-micuielementstate
+        - name: RealTimeStylus 參考
+          href: realtimestylus-reference.md
+          items:
+            - name: RealTimeStylus 類別和介面
+              href: realtimestylus-classes-and-interfaces.md
+              items:
+                - name: DynamicRenderer 類別
+                  href: /previous-versions/windows/desktop/legacy/ms701168(v=vs.85)
+                - name: GestureRecognizer 類別
+                  href: gesturerecognizer-class.md
+                - name: IDynamicRenderer 介面
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-idynamicrenderer
+                  items:
+                    - name: ClipRectangle 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_cliprectangle
+                    - name: ClipRegion 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_clipregion
+                    - name: DataCacheEnabled
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_datacacheenabled
+                    - name: Draw 方法屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-draw
+                    - name: DrawingAttributes 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_drawingattributes
+                    - name: Enabled 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_enabled
+                    - name: HWND 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_hwnd
+                    - name: Refresh 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-refresh
+                    - name: ReleaseCachedData 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-releasecacheddata
+                - name: IGestureRecognizer 介面
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-igesturerecognizer
+                  items:
+                    - name: EnableGestures 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-enablegestures
+                    - name: Enabled 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-get_enabled
+                    - name: MaxStrokeCount 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-get_maxstrokecount
+                    - name: Reset 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-reset
+                - name: IRealTimeStylus 介面
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus
+                  items:
+                    - name: AddCustomStylusDataToQueue 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-addcustomstylusdatatoqueue
+                    - name: AddStylusAsyncPlugin 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-addstylusasyncplugin
+                    - name: AddStylusSyncPlugin 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-addstylussyncplugin
+                    - name: ChildRealTimeStylusPlugin 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_childrealtimestylusplugin
+                    - name: ClearStylusQueues 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-clearstylusqueues
+                    - name: Enabled 屬性方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_enabled
+                    - name: GetAllTabletCoNtextIds 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getalltabletcontextids
+                    - name: GetDesiredPacketDescription 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getdesiredpacketdescription
+                    - name: GetPacketDescriptionData 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getpacketdescriptiondata
+                    - name: GetStylusAsyncPlugin 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylusasyncplugin
+                    - name: GetStylusAsyncPluginCoun Methodt
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylusasyncplugincount
+                    - name: GetStyluses 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstyluses
+                    - name: GetStylusForId 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylusforid
+                    - name: GetStylusSyncPlugin 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylussyncplugin
+                    - name: GetStylusSyncPluginCount 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylussyncplugincount
+                    - name: GetTablet 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-gettablet
+                    - name: GetTabletCoNtextIdFromTablet 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-gettabletcontextidfromtablet
+                    - name: GetTabletFromTabletCoNtextId 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-gettabletfromtabletcontextid
+                    - name: HWND 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_hwnd
+                    - name: RemoveAllStylusAsyncPlugins 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removeallstylusasyncplugins
+                    - name: RemoveAllStylusSyncPlugins 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removeallstylussyncplugins
+                    - name: RemoveStylusAsyncPlugin 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removestylusasyncplugin
+                    - name: RemoveStylusSyncPlugin 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removestylussyncplugin
+                    - name: SetAllTabletsMode 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-setalltabletsmode
+                    - name: SetDesiredPacketDescription 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-setdesiredpacketdescription
+                    - name: SetSingleTabletMode 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-setsingletabletmode
+                    - name: WindowInputRectangle 屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_windowinputrectangle
+                - name: IRealTimeStylus2 介面
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus2
+                  items:
+                    - name: get_FlicksEnabled 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus2-get_flicksenabled
+                    - name: put_FlicksEnabled 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus2-put_flicksenabled
+                - name: IRealTimeStylus3
+                  href: /windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3
+                  items:
+                    - name: MultiTouchEnabled 屬性
+                      href: /windows/desktop/api/rtscom/nf-rtscom-irealtimestylus3-get_multitouchenabled
+                - name: IRealTimeStylusSynchronization 介面
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-irealtimestylussynchronization
+                  items:
+                    - name: AcquireLock 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylussynchronization-acquirelock
+                    - name: ReleaseLock 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylussynchronization-releaselock
+                - name: IStrokeBuilder 介面
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-istrokebuilder
+                  items:
+                    - name: AppendPackets 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-appendpackets
+                    - name: BeginStroke 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-beginstroke
+                    - name: CreateStroke 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-createstroke
+                    - name: EndStroke 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-endstroke
+                    - name: 筆墨屬性
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-get_ink
+                - name: IStylusAsyncPlugin 介面
+                  href: /windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin
+                - name: IStylusPlugin 介面
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-istylusplugin
+                  items:
+                    - name: CustomStylusDataAdded 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-customstylusdataadded
+                    - name: DataInteres Methodt
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-datainterest
+                    - name: Error 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-error
+                    - name: InAirPackets 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-inairpackets
+                    - name: 封包方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-packets
+                    - name: RealTimeStylusEnabled 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-realtimestylusenabled
+                    - name: RealTimeStylusDisabled 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-realtimestylusdisabled
+                    - name: StylusButtonDown 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusbuttondown
+                    - name: StylusButtonUp 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusbuttonup
+                    - name: StylusDown 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusdown
+                    - name: SystemEvent 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-systemevent
+                    - name: StylusInRange 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusinrange
+                    - name: StylusOutOfRange 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusoutofrange
+                    - name: StylusUp 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusup
+                    - name: TabletAdded 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-tabletadded
+                    - name: TabletRemoved 方法
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-tabletremoved
+                    - name: '>updatemapping 方法'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-updatemapping
+                - name: IStylusSyncPlugin 介面
+                  href: /windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin
+                - name: RealTimeStylus 類別
+                  href: realtimestylus-class.md
+                - name: StrokeBuilder 類別
+                  href: strokebuilder-class.md
+            - name: RealTimeStylus 列舉
+              href: realtimestylus-enumerations.md
+              items:
+                - name: RealTimeStylusDataInterest 列舉
+                  href: /windows/desktop/api/RTSCom/ne-rtscom-realtimestylusdatainterest
+                - name: RealTimeStylusLockType 列舉
+                  href: /windows/desktop/api/RTSCom/ne-rtscom-realtimestyluslocktype
+                - name: StylusQueue 列舉
+                  href: /windows/desktop/api/RTSCom/ne-rtscom-stylusqueue
+            - name: RealTimeStylus 結構
+              href: realtimestylus-structures.md
+              items:
+                - name: StylusInfo 結構
+                  href: /windows/desktop/api/RTSCom/ns-rtscom-stylusinfo
+                - name: SYSTEM_EVENT_DATA 結構
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-system_event_data
+        - name: 辨識器參考
+          href: recognizer-apis.md
+          items:
+            - name: HRECOALT 控制碼
+              href: hrecoalt-handle.md
+              items:
+                - name: DestroyAlternate 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-destroyalternate
+                - name: GetConfidenceLevel 函式
+                  href: /previous-versions/windows/desktop/legacy/ms704829(v=vs.85)
+                - name: GetGuideIndex 函式
+                  href: /previous-versions/windows/desktop/legacy/ms701152(v=vs.85)
+                - name: GetMetrics 函式
+                  href: /previous-versions/windows/desktop/legacy/ms695560(v=vs.85)
+                - name: GetPropertyRanges 函式
+                  href: /previous-versions/windows/desktop/legacy/ms695602(v=vs.85)
+                - name: GetSegmentAlternateList 函式
+                  href: /previous-versions/windows/desktop/legacy/ms701702(v=vs.85)
+                - name: GetString 函式
+                  href: /previous-versions/windows/desktop/legacy/ms704890(v=vs.85)
+                - name: GetStrokeRanges 函式
+                  href: /previous-versions/windows/desktop/legacy/ms705304(v=vs.85)
+            - name: HRECOCONTEXT 控制碼
+              href: hrecocontext-handle.md
+              items:
+                - name: AddStroke 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-addstroke
+                - name: AdviseInkChange 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-adviseinkchange
+                - name: CloneCoNtext 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-clonecontext
+                - name: EndInkInput 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-endinkinput
+                - name: GetAlternateList 函式
+                  href: /previous-versions/windows/desktop/legacy/ms698163(v=vs.85)
+                - name: GetBestAlternate 函式
+                  href: /previous-versions/windows/desktop/legacy/ms699575(v=vs.85)
+                - name: GetBestResultString 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getbestresultstring
+                - name: GetCoNtextPreferenceFlags
+                  href: /windows/desktop/api/recapis/nf-recapis-getcontextpreferenceflags
+                - name: GetCoNtextPropertyList 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getcontextpropertylist
+                - name: GetCoNtextPropertyValue 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getcontextpropertyvalue
+                - name: GetEnabledUnicodeRanges 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getenabledunicoderanges
+                - name: GetGuide 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getguide
+                - name: GetLatticePtr 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getlatticeptr
+                - name: GetLeftSeparator
+                  href: /windows/desktop/api/recapis/nf-recapis-getleftseparator
+                - name: GetRightSeparator
+                  href: /windows/desktop/api/recapis/nf-recapis-getrightseparator
+                - name: IsStringSupported 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-isstringsupported
+                - name: 進程函式
+                  href: /windows/desktop/api/recapis/nf-recapis-process
+                - name: ResetCoNtext 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-resetcontext
+                - name: SetCACMode 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-setcacmode
+                - name: SetCoNtextPropertyValue 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-setcontextpropertyvalue
+                - name: SetEnabledUnicodeRanges 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges
+                - name: SetFactoid 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-setfactoid
+                - name: SetFlags 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-setflags
+                - name: SetGuide 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-setguide
+                - name: SetTextCoNtext 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-settextcontext
+                - name: SetWordList 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-setwordlist
+            - name: HRECOGNIZER 控制碼
+              href: hrecognizer-handle.md
+              items:
+                - name: CreateCoNtext 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-createcontext
+                - name: CreateRecognizer 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-createrecognizer
+                - name: DestroyCoNtext 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-destroycontext
+                - name: DestroyRecognizer 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-destroyrecognizer
+                - name: GetAllRecognizers
+                  href: /windows/desktop/api/recapis/nf-recapis-getallrecognizers
+                - name: GetPreferredPacketDescription 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription
+                - name: GetRecoAttributes 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getrecoattributes
+                - name: GetResultPropertyList 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getresultpropertylist
+                - name: GetUnicodeRanges 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-getunicoderanges
+                - name: LoadCachedAttributes
+                  href: /windows/desktop/api/recapis/nf-recapis-loadcachedattributes
+            - name: HRECOWORDLIST 控制碼
+              href: hrecowordlist-handle.md
+              items:
+                - name: AddWordsToWordList 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-addwordstowordlist
+                - name: DestroyWordList 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-destroywordlist
+                - name: MakeWordList 函式
+                  href: /windows/desktop/api/recapis/nf-recapis-makewordlist
+            - name: 辨識器列舉
+              href: recognizer-api-enumerations.md
+              items:
+                - name: ALT_BREAKS 列舉
+                  href: /windows/win32/api/rectypes/ne-rectypes-alt_breaks
+                - name: CONFIDENCE_LEVEL 列舉
+                  href: /windows/win32/api/rectypes/ne-rectypes-confidence_level
+                - name: LINE_METRICS 列舉
+                  href: /windows/win32/api/rectypes/ne-rectypes-line_metrics
+                - name: PROPERTY_UNITS 列舉
+                  href: /windows/win32/api/tpcshrd/ne-tpcshrd-property_units
+            - name: 辨識器結構
+              href: recognizer-api-structures.md
+              items:
+                - name: CHARACTER_RANGE 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-character_range
+                - name: LATTICE_METRICS 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-lattice_metrics
+                - name: LINE_SEGMENT 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-line_segment
+                - name: PACKET_DESCRIPTION 結構
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-packet_description
+                - name: PACKET_PROPERTY 結構
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-packet_property
+                - name: PROPERTY_METRICS 結構
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-property_metrics
+                - name: RECO_ATTRS 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_attrs
+                - name: RECO_GUIDE 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_guide
+                - name: RECO_LATTICE 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice
+                - name: RECO_LATTICE_COLUMN 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_column
+                - name: RECO_LATTICE_ELEMENT 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_element
+                - name: RECO_LATTICE_PROPERTIES 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_properties
+                - name: RECO_LATTICE_PROPERTY 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_property
+                - name: RECO_RANGE 結構
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_range
+                - name: STROKE_RANGE 結構
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-stroke_range
+            - name: 辨識器 Guid
+              href: recognizer-guids.md
+              items:
+                - name: PacketProperty Guid
+                  href: packetproperty-guids.md
+                - name: 屬性 Guid
+                  href: property-guids.md
+        - name: 文字輸入面板參考
+          href: text-input-panel-reference.md
+          items:
+            - name: 文字輸入面板訊息
+              href: tip-messages.md
+              items:
+                - name: MICROSOFT_TIP_OPENING_MSG 訊息
+                  href: microsoft-tip-opening-msg.md
+            - name: 文字輸入面板列舉
+              href: text-input-panel-enumerations.md
+              items:
+                - name: CorrectionMode 列舉
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode
+                - name: CorrectionPosition 列舉
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-correctionposition
+                - name: EventMask 列舉
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-eventmask
+                - name: InPlaceDirection 列舉
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-inplacedirection
+                - name: InPlaceState 列舉
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate
+                - name: InteractionMode 列舉
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode
+                - name: PanelInputArea 列舉
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea
+            - name: 文字輸入面板介面
+              href: text-input-panel-interfaces.md
+              items:
+                - name: IHandWrittenTextInsertion 介面
+                  href: /windows/desktop/api/peninputpanel/nn-peninputpanel-ihandwrittentextinsertion
+                  items:
+                    - name: InsertInkRecognitionResult 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertinkrecognitionresult
+                    - name: InsertRecognitionResultsArray 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertrecognitionresultsarray
+                - name: ITextInputPanel 介面
+                  href: /windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel
+                  items:
+                    - name: 建議方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise
+                    - name: AttachedEditWindow 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_attachededitwindow
+                    - name: CommitPendingInput 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-commitpendinginput
+                    - name: CurrentCorrectionMode 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentcorrectionmode
+                    - name: CurrentInPlaceState 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinplacestate
+                    - name: CurrentInputArea 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinputarea
+                    - name: CurrentInteractionMode 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinteractionmode
+                    - name: DefaultInPlaceState 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_defaultinplacestate
+                    - name: DefaultInputArea 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_defaultinputarea
+                    - name: ExpandPostInsertionCorrection 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_expandpostinsertioncorrection
+                    - name: InPlaceBoundingRectangle 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_inplaceboundingrectangle
+                    - name: InPlaceVisibleOnFocus 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_inplacevisibleonfocus
+                    - name: PopDownCorrectionHeight 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popdowncorrectionheight
+                    - name: PopUpCorrectionHeight 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popupcorrectionheight
+                    - name: PreferredInPlaceDirection 屬性
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_preferredinplacedirection
+                    - name: SetInPlaceHoverTargetPosition 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacehovertargetposition
+                    - name: SetInPlacePosition 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplaceposition
+                    - name: SetInPlaceVisibility 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility
+                    - name: Unadvise 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-unadvise
+                - name: ITextInputPanelEventSink 介面
+                  href: /windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpaneleventsink
+                  items:
+                    - name: CorrectionModeChanged 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanged
+                    - name: CorrectionModeChanging 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanging
+                    - name: InPlaceSizeChanged 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanged
+                    - name: InPlaceSizeChanging 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanging
+                    - name: InPlaceStateChanged 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanged
+                    - name: InPlaceStateChanging 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanging
+                    - name: InPlaceVisibilityChanged 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanged
+                    - name: InPlaceVisibilityChanging 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanging
+                    - name: InputAreaChanged 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanged
+                    - name: InputAreaChanging 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanging
+                    - name: TextInserted 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserted
+                    - name: TextInserting 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserting
+                - name: ITextInputPanelRunInfo 介面
+                  href: /windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanelruninfo
+                  items:
+                    - name: IsTipRunning 方法
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanelruninfo-istiprunning
+                - name: ITipAutocompleteClient 介面
+                  href: itipautocompleteclient.md
+                  items:
+                    - name: AdviseProvider 方法
+                      href: itipautocompleteclient-adviseprovider.md
+                    - name: PreferredRects 方法
+                      href: itipautocompleteclient-preferredrects.md
+                    - name: RequestShowUI 方法
+                      href: itipautocompleteclient-requestshowui.md
+                    - name: UnadviseProvider 方法
+                      href: itipautocompleteclient-unadviseprovider.md
+                    - name: UserSelection 方法
+                      href: itipautocompleteclient-userselection.md
+                - name: ITipAutocompleteProvider 介面
+                  href: itipautocompleteprovider.md
+                  items:
+                    - name: UpdatePendingText 方法
+                      href: itipautocompleteprovider-updatependingtext.md
+                    - name: Show 方法
+                      href: itipautocompleteprovider-show.md
+    - name: Tablet PC 附錄
+      href: appendices.md
+      items:
+        - name: Windows Presentation Foundation 使用的 COM API
+          href: com-apis-used-by-windows-presentation-foundation.md
+          items:
+            - name: WPF 使用的訊息
+              href: messages--wisp-apis.md
+              items:
+                - name: WM_TABLET_ADDED
+                  href: wm-tablet-added.md
+                - name: WM_TABLET_DELETED
+                  href: wm-tablet-deleted.md
+            - name: WPF 使用的介面
+              href: interfaces--wisp-apis.md
+              items:
+                - name: ITablet 介面
+                  href: itablet.md
+                  items:
+                    - name: CreateCoNtext 方法
+                      href: itablet-createcontext.md
+                    - name: GetCursor 方法
+                      href: /previous-versions/windows/desktop/legacy/aa373535(v=vs.85)
+                    - name: GetCursorCount 方法
+                      href: itablet-getcursorcount.md
+                    - name: GetDefaultCoNtextSettings 方法
+                      href: itablet-getdefaultcontextsettings.md
+                    - name: GetHardwareCaps 方法
+                      href: itablet-gethardwarecaps.md
+                    - name: GetMaxInputRect 方法
+                      href: itablet-getmaxinputrect.md
+                    - name: GetName 方法
+                      href: itablet-getname.md
+                    - name: GetPlugAndPlayId 方法
+                      href: itablet-getplugandplayid.md
+                    - name: GetPropertyMetrics 方法
+                      href: /previous-versions/windows/desktop/legacy/aa367722(v=vs.85)
+                - name: ITablet2 介面
+                  href: itablet2.md
+                  items:
+                    - name: GetDeviceKind 方法
+                      href: itablet2-getdevicekind.md
+                - name: ITablet3
+                  href: itablet3.md
+                  items:
+                    - name: GetMaximumCursors 方法
+                      href: itablet3-getmaximumcursors.md
+                    - name: IsMultiTouch 方法
+                      href: itablet3-ismultitouch.md
+                - name: ITabletCoNtext
+                  href: itabletcontext.md
+                - name: ITabletCoNtextP 介面
+                  href: itabletcontextp.md
+                  items:
+                    - name: IsTopMostHook 方法
+                      href: itabletcontextp-istopmosthook.md
+                    - name: 重迭方法
+                      href: itabletcontextp-overlap.md
+                    - name: TrackInputRect 方法
+                      href: itabletcontextp-trackinputrect.md
+                    - name: UseNamedSharedMemoryCommunications 方法
+                      href: itabletcontextp-usenamedsharedmemorycommunications.md
+                    - name: UseSharedMemoryCommunications 方法
+                      href: itabletcontextp-usesharedmemorycommunications.md
+                - name: ITabletCursor 介面
+                  href: itabletcursor.md
+                  items:
+                    - name: GetButton 方法
+                      href: itabletcursor-getbutton.md
+                    - name: GetButtonCount 方法
+                      href: itabletcursor-getbuttoncount.md
+                    - name: GetID 方法
+                      href: itabletcursor-getid.md
+                    - name: GetName 方法
+                      href: itabletcursor-getname.md
+                    - name: IsInverted 方法
+                      href: itabletcursor-isinverted.md
+                - name: ITabletCursorButton 介面
+                  href: itabletcursorbutton.md
+                  items:
+                    - name: GetGuid 方法
+                      href: itabletcursorbutton-getguid.md
+                    - name: GetName 方法
+                      href: itabletcursorbutton-getname.md
+                - name: ITabletEventSink 介面
+                  href: itableteventsink.md
+                  items:
+                    - name: CoNtextCreate 方法
+                      href: itableteventsink-contextcreate.md
+                    - name: CoNtextDestroy 方法
+                      href: itableteventsink-contextdestroy.md
+                    - name: CursorDown 方法
+                      href: itableteventsink-cursordown.md
+                    - name: CursorInRange 方法
+                      href: itableteventsink-cursorinrange.md
+                    - name: CursorMove 方法
+                      href: itableteventsink-cursormove.md
+                    - name: CursorNew 方法
+                      href: itableteventsink-cursornew.md
+                    - name: CursorOutOfRange 方法
+                      href: itableteventsink-cursoroutofrange.md
+                    - name: CursorUp 方法
+                      href: itableteventsink-cursorup.md
+                    - name: 封包方法
+                      href: itableteventsink-packets.md
+                    - name: SystemEvent 方法
+                      href: itableteventsink-systemevent.md
+                - name: ITabletManager 介面
+                  href: itabletmanager.md
+                  items:
+                    - name: GetTablet 方法
+                      href: /previous-versions/windows/desktop/legacy/aa373683(v=vs.85)
+                    - name: GetTabletCount 方法
+                      href: itabletmanager-gettabletcount.md
+            - name: WPF 使用的列舉
+              href: enumerations--wisp-apis.md
+              items:
+                - name: CONTEXT_ENABLE_TYPE 列舉
+                  href: context-enable-type.md
+                - name: TABLET_DEVICE_KIND 列舉
+                  href: tablet-device-kind.md
+            - name: WPF 使用的結構
+              href: structures--wisp-apis.md
+              items:
+                - name: SHAREDMEMORY_HEADER
+                  href: sharedmemory-header.md
+                - name: SYSTEM_EVENT_DATA
+                  href: system-event-data.md
+                - name: TABLET_CONTEXT_SETTINGS 結構
+                  href: tablet-context-settings.md
+        - name: 使用文字筆墨物件
+          href: working-with-the-text-ink-object.md
+          items:
+            - name: 將文字筆墨物件轉換成筆墨
+              href: converting-a-text-ink-object-to-ink.md
+            - name: 文字筆墨參考
+              href: text-ink-apis.md
+              items:
+                - name: IInkLineInfo 介面
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo
+                  items:
+                    - name: GetCandidate 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getcandidate
+                    - name: '>iformatprovider.getformat 方法'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat
+                    - name: GetInkExtent 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent
+                    - name: 辨識方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-recognize
+                    - name: SetCandidate 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate
+                    - name: SetFormat 方法
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat
+            - name: INKMETRIC 結構
+              href: /windows/win32/api/msinkaut/ns-msinkaut-inkmetric
+    - name: Tablet PC API 詞彙
+      href: glossary.md

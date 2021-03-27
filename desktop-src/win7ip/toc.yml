@@ -1,0 +1,7 @@
+- name: Windows Vista 的平臺更新
+  href: platform-update-for-windows-vista-portal.md
+  items:
+    - name: 關於 Windows Vista 的平臺更新
+      href: platform-update-for-windows-vista-overview.md
+    - name: 開發舊版 Windows 的應用程式
+      href: developing-applications-for-previous-versions-of-windows.md
