@@ -1,0 +1,67 @@
+---
+description: 藉由啟用在 wizard 中裝載的伺服器端頁面，來擴充 WebWizardHost 物件，以確認使用者已通過 Microsoft 帳戶驗證。
+ms.assetid: 44f2431c-82a2-4142-bf20-55fdd0c88008
+title: 'NewWDEvents 物件 (Shldisp) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- NewWDEvents
+api_type:
+- COM
+api_location:
+- Shell32.dll
+ms.openlocfilehash: d1387724609ab29852f1b6a2a8f9df5032def1a5
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103848297"
+---
+# <a name="newwdevents-object"></a>NewWDEvents 物件
+
+藉由啟用在 wizard 中裝載的伺服器端頁面，來擴充 [**WebWizardHost**](webwizardhost.md) 物件，以確認使用者已通過 Microsoft 帳戶驗證。
+
+## <a name="members"></a>成員
+
+**NewWDEvents** 物件具有下列類型的成員：
+
+-   [方法](#methods)
+
+### <a name="methods"></a>方法
+
+**NewWDEvents** 物件有這些方法。
+
+
+
+| 方法                                                            | 描述                                                                                                                         |
+|:------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
+| [**PassportAuthenticate**](inewwdevents-passportauthenticate.md) | 在嚮導中啟用裝載的伺服器端頁面，以確認使用者已通過 Microsoft 帳戶驗證。<br/> |
+
+
+
+ 
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                   |
+| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
+| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+

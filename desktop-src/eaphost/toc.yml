@@ -1,0 +1,746 @@
+- name: 可延伸的驗證通訊協定主機
+  href: portal.md
+  items:
+    - name: 關於 EAPHost
+      href: about-eap-host.md
+      items:
+        - name: EAPHost 的元件
+          href: eaphost-components.md
+        - name: EAP 屬性
+          href: about-eap-attributes.md
+        - name: EAPHost 呼叫順序
+          href: about-eaphost-call-sequences.md
+          items:
+            - name: 要求者 API 呼叫順序
+              href: supplicant-api-call-sequence.md
+            - name: 對等方法 API 呼叫順序
+              href: peer-method-api-call-sequence.md
+            - name: 通道方法 API 呼叫順序
+              href: tunnel-method-api-call-sequence1.md
+            - name: 驗證者方法 API 呼叫順序
+              href: authenticator-method-api-call-sequence.md
+        - name: EAPHost 要求者
+          href: eaphost-supplicants.md
+          items:
+            - name: 設定 EAP 方法消費者介面
+              href: configuring-the-eap-method-user-interface.md
+            - name: 啟用群組原則
+              href: enabling-group-policy.md
+            - name: 為 EAP 方法執行 In-Band NAP 支援
+              href: enabling-in-band-nap-support.md
+            - name: 為 EAP 方法執行 NAP 支援
+              href: implementing-nap-for-eap-methods.md
+            - name: 在要求者和 EAP 方法之間傳送資料
+              href: transferring-data-between-the-supplicant-and-eap-methods.md
+    - name: 使用 EAPHost
+      href: using-eap-host.md
+      items:
+        - name: 設定 EAP 方法的登錄值
+          href: registry-keys-for-eap-methods.md
+          items:
+            - name: EAP 驗證器方法登錄機碼
+              href: eap-authenticator-method-registry-keys.md
+            - name: EAP 對等方法登錄機碼
+              href: eap-peer-method-registry-keys.md
+        - name: 啟用 EAPHost 追蹤
+          href: enabling-tracing.md
+        - name: 執行 EAPHost 的 LEAP 機制
+          href: implementing-the-eaphost-leap-mechanism.md
+        - name: 安裝 EAP 方法
+          href: installing-an-eap-method.md
+        - name: SSO 和 PLAP
+          href: understanding-sso-and-plap.md
+          items:
+            - name: SSO EAPHost API 總覽
+              href: sso-eaphost-api-overview.md
+            - name: SSO EAPHost 案例總覽
+              href: why-eaphost-sso.md
+              items:
+                - name: SSO EAP-TLS PIN 快取行為
+                  href: sso-eap-tls-pin-caching-behavior-.md
+                - name: SSO 密碼變更行為
+                  href: sso-password-change-behavior-.md
+    - name: EAPHost 開發的常見問題
+      href: eaphost-development-frequently-asked-questions.md
+      items:
+        - name: 常見問題的一般問題
+          href: general-frequently-asked-questions.md
+        - name: EAPHost 要求者的常見問題
+          href: eaphost-supplicant-frequently-asked-questions.md
+        - name: EAP 方法的常見問題
+          href: eap-method-frequently-asked-questions.md
+    - name: EAPHost 和舊版架構範例
+      href: eap-host-schemas.md
+      items:
+        - name: Connection Properties
+          href: connection-profiles.md
+          items:
+            - name: EAP MS-CHAPv2 連接屬性
+              href: eap-ms-chapv2-connection-properties.md
+            - name: EAP-TLS 連接屬性
+              href: eap-tls-connection-properties.md
+            - name: PEAP MS-CHAPv2 連接屬性
+              href: peap-ms-chapv2-connection-properties.md
+            - name: PEAP-TLS 連接屬性
+              href: peap-tls-connection-properties.md
+            - name: SDK 連接屬性
+              href: sdk-connection-properties.md
+        - name: 使用者屬性
+          href: user-profiles.md
+          items:
+            - name: EAP MS-CHAPv2 使用者屬性
+              href: eap-ms-chapv2-properties.md
+            - name: EAP-TLS 使用者屬性
+              href: eap-tls-user-properties.md
+            - name: PEAP MS-CHAPv2 使用者屬性
+              href: peap-ms-chapv2-user-properties.md
+            - name: PEAP-TLS 使用者屬性
+              href: peap-tls-user-properties.md
+            - name: SDK 使用者屬性
+              href: sdk-user-properties.md
+    - name: EAPHost API 參考
+      href: eaphost-api-reference.md
+      items:
+        - name: EAPHost 登錄設定
+          href: eaphost-registry-settings.md
+          items:
+            - name: BypassNegotiation
+              href: bypassnegotiation.md
+            - name: AssumePhase2Fragmentation
+              href: assumephase2fragmentation.md
+            - name: OverrideEAPCertificateSelection
+              href: overrideeapcertificateselection.md
+            - name: PeapServerUseAllPurposeCert
+              href: peapserveruseallpurposecert.md
+            - name: PeapServerAcceptAllPurposeCert
+              href: peapserveracceptallpurposecert.md
+            - name: TlsServerUseAllPurposeCert
+              href: tlsserveruseallpurposecert.md
+            - name: TlsServerAcceptAllPurposeCert
+              href: tlsserveracceptallpurposecert.md
+        - name: EAPHost 和舊版架構
+          href: eaphost-schemas.md
+          items:
+            - name: baseeapconnectionpropertiesv1 架構
+              href: baseeapconnectionpropertiesv1schema-schema.md
+              items:
+                - name: baseeapconnectionpropertiesv1 架構元素
+                  href: baseeapconnectionpropertiesv1schema-elements.md
+                  items:
+                    - name: Eap 元素
+                      href: baseeapconnectionpropertiesv1schema-eap-element.md
+                    - name: EapType 元素
+                      href: baseeapconnectionpropertiesv1schema-eaptype-element.md
+                    - name: 輸入 (BaseEapParameters) 元素
+                      href: baseeapconnectionpropertiesv1schema-type-baseeapparameters-element.md
+                - name: baseeapconnectionpropertiesv1 架構複雜類型
+                  href: baseeapconnectionpropertiesv1schema-complex-types.md
+                  items:
+                    - name: BaseEapParameters 複雜類型
+                      href: baseeapconnectionpropertiesv1schema-baseeapparameters-complextype.md
+                    - name: BaseEapTypeParameters 複雜類型
+                      href: baseeapconnectionpropertiesv1schema-baseeaptypeparameters-complextype.md
+            - name: baseeapmethodconfig 架構
+              href: baseeapmethodconfigschema-schema.md
+              items:
+                - name: baseeapmethodconfig 架構複雜類型
+                  href: baseeapmethodconfigschema-complex-types.md
+                  items:
+                    - name: BaseEapMethodConfig 複雜類型
+                      href: baseeapmethodconfigschema-baseeapmethodconfig-complextype.md
+            - name: baseeapmethodusercredentials 架構
+              href: baseeapmethodusercredentialsschema-schema.md
+              items:
+                - name: baseeapmethodusercredentials 架構複雜類型
+                  href: baseeapmethodusercredentialsschema-complex-types.md
+                  items:
+                    - name: BaseEapMethodUserCredentials 複雜類型
+                      href: baseeapmethodusercredentialsschema-baseeapmethodusercredentials-complextype.md
+            - name: baseeapuserpropertiesv1 架構
+              href: baseeapuserpropertiesv1schema-schema.md
+              items:
+                - name: baseeapuserpropertiesv1 架構元素
+                  href: baseeapuserpropertiesv1schema-elements.md
+                  items:
+                    - name: Eap 元素
+                      href: baseeapuserpropertiesv1schema-eap-element.md
+                    - name: EapType 元素
+                      href: baseeapuserpropertiesv1schema-eaptype-element.md
+                    - name: Identity 元素
+                      href: baseeapuserpropertiesv1schema-identity-element.md
+                    - name: 輸入 (BaseEapParameters) 元素
+                      href: baseeapuserpropertiesv1schema-type-baseeapparameters-element.md
+                - name: baseeapuserpropertiesv1 架構複雜類型
+                  href: baseeapuserpropertiesv1schema-complex-types.md
+                  items:
+                    - name: BaseEapParameters 複雜類型
+                      href: baseeapuserpropertiesv1schema-baseeapparameters-complextype.md
+                    - name: BaseEapTypeParameters 複雜類型
+                      href: baseeapuserpropertiesv1schema-baseeaptypeparameters-complextype.md
+            - name: eapcommon 架構
+              href: eapcommonschema-schema.md
+              items:
+                - name: eapcommon 架構元素
+                  href: eapcommonschema-elements.md
+                  items:
+                    - name: 作者 (EapMethodType) 元素
+                      href: eapcommonschema-authorid-eapmethodtype-element.md
+                    - name: 輸入 (EapMethodType) 元素
+                      href: eapcommonschema-type-eapmethodtype-element.md
+                    - name: ' (EapMethodType) 元素的 VendorId'
+                      href: eapcommonschema-vendorid-eapmethodtype-element.md
+                    - name: EapMethodType) 元素的 VendorType (
+                      href: eapcommonschema-vendortype-eapmethodtype-element.md
+                - name: eapcommon 架構複雜類型
+                  href: eapcommonschema-complex-types.md
+                  items:
+                    - name: EapBlob 複雜類型
+                      href: eapcommonschema-eapblob-complextype.md
+                    - name: EapMethodType 複雜類型
+                      href: eapcommonschema-eapmethodtype-complextype.md
+            - name: eapconnectionpropertiesv1 架構
+              href: eapconnectionpropertiesv1schema-schema.md
+              items:
+                - name: eapconnectionpropertiesv1 架構元素
+                  href: eapconnectionpropertiesv1schema-elements.md
+                  items:
+                    - name: 連接) 元素 (連接
+                      href: eapconnectionpropertiesv1schema-connection-connections-element.md
+                    - name: Connections 元素
+                      href: eapconnectionpropertiesv1schema-connections-element.md
+                    - name: ) 元素 (連接名稱
+                      href: eapconnectionpropertiesv1schema-name-connection-element.md
+            - name: eaphostconfig 架構
+              href: eaphostconfigschema-schema.md
+              items:
+                - name: eaphostconfig 架構元素
+                  href: eaphostconfigschema-elements.md
+                  items:
+                    - name: ConfigBlob (EapHostConfig) 元素
+                      href: eaphostconfigschema-configblob-eaphostconfig-element.md
+                    - name: Config (EapHostConfig) 元素
+                      href: eaphostconfigschema-config-eaphostconfig-element.md
+                    - name: EapHostConfig 元素
+                      href: eaphostconfigschema-eaphostconfig-element.md
+                    - name: EapMethod (EapHostConfig) 元素
+                      href: eaphostconfigschema-eapmethod-eaphostconfig-element.md
+            - name: eaphostusercredentials 架構
+              href: eaphostusercredentialsschema-schema.md
+              items:
+                - name: eaphostusercredentials 架構元素
+                  href: eaphostusercredentialsschema-elements.md
+                  items:
+                    - name: CredentialsBlob (EapHostUserCredentials) 元素
+                      href: eaphostusercredentialsschema-credentialsblob-eaphostusercredentials-element.md
+                    - name: 認證 (EapHostUserCredentials) 元素
+                      href: eaphostusercredentialsschema-credentials-eaphostusercredentials-element.md
+                    - name: EapHostUserCredentials 元素
+                      href: eaphostusercredentialsschema-eaphostusercredentials-element.md
+                    - name: EapMethod (EapHostUserCredentials) 元素
+                      href: eaphostusercredentialsschema-eapmethod-eaphostusercredentials-element.md
+            - name: eaptlsconnectionpropertiesv1 架構
+              href: eaptlsconnectionpropertiesv1schema-schema.md
+              items:
+                - name: eaptlsconnectionpropertiesv1 架構元素
+                  href: eaptlsconnectionpropertiesv1schema-elements.md
+                  items:
+                    - name: AcceptServerName (EapType) 元素
+                      href: eaptlsconnectionpropertiesv1schema-tlsextensionstype-peapextensionstype-element.md
+                    - name: CertificateStore (CredentialsSourceParameters) 元素
+                      href: eaptlsconnectionpropertiesv1schema-certificatestore-credentialssourceparameters-element.md
+                    - name: CredentialsSource (EapType) 元素
+                      href: eaptlsconnectionpropertiesv1schema-credentialssource-eaptype-element.md
+                    - name: DifferentUsername (EapType) 元素
+                      href: eaptlsconnectionpropertiesv1schema-differentusername-eaptype-element.md
+                    - name: DisableUserPromptForServerValidation (ServerValidationParameters) 元素
+                      href: eaptlsconnectionpropertiesv1schema-disableuserpromptforservervalidation-servervalidationparameters-element.md
+                    - name: EapType 元素
+                      href: eaptlsconnectionpropertiesv1schema-eaptype-element.md
+                    - name: ServerNames (ServerValidationParameters) 元素
+                      href: eaptlsconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md
+                    - name: PerformServerValidation (EapType) 元素
+                      href: eaptlsconnectionpropertiesv1schema-performservervalidation-peapextensionstype-element.md
+                    - name: ServerValidation (EapType) 元素
+                      href: eaptlsconnectionpropertiesv1schema-servervalidation-eaptype-element.md
+                    - name: SimpleCertSelection (CertSelection) 元素
+                      href: eaptlsconnectionpropertiesv1schema-simplecertselection-certselection-element.md
+                    - name: 智慧卡 (CredentialsSourceParameters) 元素
+                      href: eaptlsconnectionpropertiesv1schema-smartcard-credentialssourceparameters-element.md
+                    - name: TLSExtensions (EapType) 元素
+                      href: eaptlsconnectionpropertiesv1schema-acceptservername-peapextensionstype-element.md
+                    - name: TrustedRootCA (ServerValidationParameters) 元素
+                      href: eaptlsconnectionpropertiesv1schema-trustedrootca-servervalidationparameters-element.md
+                - name: eaptlsconnectionpropertiesv1 架構簡單類型
+                  href: eaptlsconnectionpropertiesv1schema-simple-types.md
+                  items:
+                    - name: emptyString 簡單類型
+                      href: eaptlsconnectionpropertiesv1schema-emptystring-simpletype.md
+                - name: eaptlsconnectionpropertiesv1 架構複雜類型
+                  href: eaptlsconnectionpropertiesv1schema-complex-types.md
+                  items:
+                    - name: CertSelection 複雜類型
+                      href: eaptlsconnectionpropertiesv1schema-certselection-complextype.md
+                    - name: CredentialsSourceParameters 複雜類型
+                      href: eaptlsconnectionpropertiesv1schema-credentialssourceparameters-complextype.md
+                    - name: ServerValidationParameters 複雜類型
+                      href: eaptlsconnectionpropertiesv1schema-servervalidationparameters-complextype.md
+            - name: eaptlsconnectionpropertiesv2 架構
+              href: eaptlsconnectionpropertiesv2schema-schema.md
+              items:
+                - name: eaptlsconnectionpropertiesv2 架構元素
+                  href: eaptlsconnectionpropertiesv2schema-elements.md
+                  items:
+                    - name: AcceptServerName (EapType) 元素
+                      href: eaptlsconnectionpropertiesv2schema-acceptservername-eaptype-element.md
+                    - name: PerformServerValidation (EapType) 元素
+                      href: eaptlsconnectionpropertiesv2shema-tlsextensions-tlsextensionstype-element.md
+                    - name: TLSExtensions (TLSExtensionsType) 元素
+                      href: eaptlsconnectionpropertiesv2schema-performservervalidation-eaptype-element.md
+                - name: eaptlsconnectionpropertiesv2 架構複雜類型
+                  href: eaptlsconnectionpropertiesv2schema-complex-types.md
+                  items:
+                    - name: TLSExtensionsType 複雜類型
+                      href: eaptlsconnectionpropertiesv2schema-tlsextensionstype-complextype.md
+            - name: eaptlsuserpropertiesv1 架構
+              href: eaptlsuserpropertiesv1schema-schema.md
+              items:
+                - name: eaptlsuserpropertiesv1 架構元素
+                  href: eaptlsuserpropertiesv1schema-elements.md
+                  items:
+                    - name: EapType 元素
+                      href: eaptlsuserpropertiesv1schema-eaptype-element.md
+                    - name: UserCert (EapType) 元素
+                      href: eaptlsuserpropertiesv1schema-usercert-eaptype-element.md
+                    - name: Username 元素
+                      href: eaptlsuserpropertiesv1schema-username-element.md
+            - name: eapuserpropertiesv1 架構
+              href: eapuserpropertiesv1schema-schema.md
+              items:
+                - name: eapuserpropertiesv1 架構元素
+                  href: eapuserpropertiesv1schema-elements.md
+                  items:
+                    - name: User 元素
+                      href: eapuserpropertiesv1schema-user-element.md
+            - name: mschapv2connectionpropertiesv1 架構
+              href: mschapv2connectionpropertiesv1schema-schema.md
+              items:
+                - name: mschapv2connectionpropertiesv1 架構元素
+                  href: mschapv2connectionpropertiesv1schema-elements.md
+                  items:
+                    - name: EapType 元素
+                      href: mschapv2connectionpropertiesv1schema-eaptype-element.md
+                    - name: UseWinLogonCredentials (EapType) 元素
+                      href: mschapv2connectionpropertiesv1schema-usewinlogoncredentials-eaptype-element.md
+            - name: mschapv2userpropertiesv1 架構
+              href: mschapv2userpropertiesv1schema-schema.md
+              items:
+                - name: mschapv2userpropertiesv1 架構元素
+                  href: mschapv2userpropertiesv1schema-elements.md
+                  items:
+                    - name: EapType 元素
+                      href: mschapv2userpropertiesv1schema-eaptype-element.md
+                    - name: LogonDomain (EapType) 元素
+                      href: mschapv2userpropertiesv1schema-logondomain-eaptype-element.md
+                    - name: 密碼 (EapType) 元素
+                      href: mschapv2userpropertiesv1schema-password-eaptype-element.md
+                    - name: Username 元素
+                      href: mschapv2userpropertiesv1schema-username-element.md
+            - name: mspeapconnectionpropertiesv1 架構
+              href: mspeapconnectionpropertiesv1schema-schema.md
+              items:
+                - name: mspeapconnectionpropertiesv1 架構元素
+                  href: mspeapconnectionpropertiesv1schema-elements.md
+                  items:
+                    - name: AcceptServerName (PeapExtensionsType) 元素
+                      href: mspeapconnectionpropertiesv1schema-acceptservername-peapextensionstype-element.md
+                    - name: DisableUserPromptForServerValidation (ServerValidationParameters) 元素
+                      href: mspeapconnectionpropertiesv1schema-disableuserpromptforservervalidation-servervalidationparameters-element.md
+                    - name: EapType 元素
+                      href: mspeapconnectionpropertiesv1schema-eaptype-element.md
+                    - name: EnableQuarantineChecks (EapType) 元素
+                      href: mspeapconnectionpropertiesv1schema-enablequarantinechecks-eaptype-element.md
+                    - name: FastReconnect (EapType) 元素
+                      href: mspeapconnectionpropertiesv1schema-fastreconnect-eaptype-element.md
+                    - name: IdentityPrivacy (PeapExtensionsType) 元素
+                      href: mspeapconnectionpropertiesv1schema-identityprivacy-peapextensionstype-element.md
+                    - name: InnerEapOptional (EapType) 元素
+                      href: mspeapconnectionpropertiesv1schema-innereapoptional-eaptype-element.md
+                    - name: PeapExtensions (EapType) 元素
+                      href: mspeapconnectionpropertiesv1schema-peapextensions-eaptype-element.md
+                    - name: PeapExtensionsV2 (PeapExtensionsType) 元素
+                      href: mspeapconnectionpropertiesv1-peapextensionsv2-peapextensionstype-element.md
+                    - name: PerformServerValidation (PeapExtensionsType) 元素
+                      href: mspeapconnectionpropertiesv1schema-performservervalidation-peapextensionstype-element.md
+                    - name: RequireCryptoBinding (EapType) 元素
+                      href: mspeapconnectionpropertiesv1schema-requirecryptobinding-eaptype-element.md
+                    - name: ServerNames (ServerValidationParameters) 元素
+                      href: mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md
+                    - name: ServerValidation (EapType) 元素
+                      href: mspeapconnectionpropertiesv1schema-servervalidation-eaptype-element.md
+                    - name: TrustedRootCA (ServerValidationParameters) 元素
+                      href: mspeapconnectionpropertiesv1schema-trustedrootca-servervalidationparameters-element.md
+                - name: mspeapconnectionpropertiesv1 架構複雜類型
+                  href: mspeapconnectionpropertiesv1schema-complex-types.md
+                  items:
+                    - name: PeapExtensionsType 複雜類型
+                      href: mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md
+                    - name: ServerValidationParameters 複雜類型
+                      href: mspeapconnectionpropertiesv1schema-servervalidationparameters-complextype.md
+            - name: mspeapconnectionpropertiesv2 架構
+              href: mspeapconnectionpropertiesv2schema-schema.md
+              items:
+                - name: mspeapconnectionpropertiesv2 架構元素
+                  href: mspeapconnectionpropertiesv2schema-elements.md
+                  items:
+                    - name: AcceptServerName (PeapExtensionsType) 元素
+                      href: mspeapconnectionpropertiesv2-acceptservername-peapextensionstype-element.md
+                    - name: AnonymousUserName (IdentityPrivacyParameters) 元素
+                      href: mspeapconnectionpropertiesv2-anonymoususername-identityprivacyparameters-element.md
+                    - name: EnableIdentityPrivacy (IdentityPrivacyParameters) 元素
+                      href: mspeapconnectionpropertiesv2-enableidentityprivacy-identityprivacyparameters-element.md
+                    - name: IdentityPrivacy (PeapExtensionsType) 元素
+                      href: mspeapconnectionpropertiesv2-identityprivacy-peapextensionstype-element.md
+                    - name: PeapExtensionsV2 (PeapExtensionsType) 元素
+                      href: mspeapconnectionpropertiesv2-peapextensionsv2-peapextensionstype-element.md
+                    - name: PerformServerValidation (PeapExtensionsType) 元素
+                      href: mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md
+                - name: mspeapconnectionpropertiesv2 架構複雜類型
+                  href: mspeapconnectionpropertiesv2schema-complex-types.md
+                  items:
+                    - name: IdentityPrivacyParameters 複雜類型
+                      href: mspeapconnectionpropertiesv2-identityprivacyparameters-complextype.md
+                    - name: PeapExtensionsTypeV2 複雜類型
+                      href: mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md
+            - name: mspeapuserpropertiesv1 架構
+              href: mspeapuserpropertiesv1schema-schema.md
+              items:
+                - name: mspeapuserpropertiesv1 架構元素
+                  href: mspeapuserpropertiesv1schema-elements.md
+                  items:
+                    - name: EapType 元素
+                      href: mspeapuserpropertiesv1schema-eaptype-element.md
+                    - name: PeapExtensions (EapType) 元素
+                      href: mspeapuserpropertiesv1schema-peapextensions-eaptype-element.md
+                - name: mspeapuserpropertiesv1 架構複雜類型
+                  href: mspeapuserpropertiesv1schema-complex-types.md
+                  items:
+                    - name: PeapExtensionsType 複雜類型
+                      href: mspeapuserpropertiesv1schema-peapextensionstype-complextype.md
+        - name: 常見的 EAPHost API 列舉
+          href: common-eap-host-api-enumerations.md
+          items:
+            - name: EAP_ATTRIBUTE_TYPE
+              href: /windows/win32/api/eaptypes/ne-eaptypes-eap_attribute_type
+            - name: EAP_CONFIG_INPUT_FIELD_TYPE
+              href: /windows/win32/api/eaptypes/ne-eaptypes-eap_config_input_field_type
+            - name: EapCode
+              href: /windows/win32/api/eapmethodtypes/ne-eapmethodtypes-eapcode
+        - name: 常見的 EAPHost API 結構
+          href: common-eap-host-api-structures.md
+          items:
+            - name: EAP_ATTRIBUTE
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_attribute
+            - name: EAP_ATTRIBUTES
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_attributes
+            - name: EAP_CONFIG_INPUT_FIELD_ARRAY
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_config_input_field_array
+            - name: EAP_CONFIG_INPUT_FIELD_DATA
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_config_input_field_data
+            - name: EAP_ERROR
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_error
+            - name: EAP_METHOD_INFO
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_info
+            - name: EAP_METHOD_INFO_EX
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_info_ex
+            - name: EAP_METHOD_INFO_ARRAY
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_info_array
+            - name: EAP_METHOD_INFO_ARRAY_EX
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_info_array_ex
+            - name: EAP_METHOD_TYPE
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_type
+            - name: EAP_TYPE
+              href: /windows/win32/api/eaptypes/ns-eaptypes-eap_type
+            - name: EapPacket
+              href: /windows/win32/api/eapmethodtypes/ns-eapmethodtypes-eappacket
+        - name: 常見的 EAPHost 常數
+          href: common-eap-host-error-constants.md
+          items:
+            - name: EAPHost 常數
+              href: eaphost-constants.md
+            - name: EAP 方法屬性
+              href: eap-method-properties.md
+            - name: EAP 方法旗標
+              href: eap-method-flags.md
+            - name: EAP 相關的錯誤和資訊常數
+              href: eap-related-error-and-information-constants.md
+            - name: EAP_CERT 錯誤常數
+              href: eap-cert-error-constants.md
+        - name: EAPHost 要求者 API 參考
+          href: eap-host-supplicant-api-reference.md
+          items:
+            - name: EAPHost 要求者設定函數
+              href: eap-host-supplicant-configuration-functions.md
+              items:
+                - name: EapHostPeerConfigBlob2Xml
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigblob2xml
+                - name: EapHostPeerConfigXml2Blob
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob
+                - name: EapHostPeerCredentialsXml2Blob
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob
+                - name: EapHostPeerFreeErrorMemory
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory
+                - name: EapHostPeerFreeMemory
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory
+                - name: EapHostPeerGetMethodProperties
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties
+                - name: EapHostPeerGetMethods
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethods
+                - name: EapHostPeerInvokeConfigUI
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui
+                - name: EapHostPeerInvokeIdentityUI
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeidentityui
+                - name: EapHostPeerInvokeInteractiveUI
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui
+                - name: EapHostPeerQueryCredentialInputFields
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields
+                - name: EapHostPeerQueryInteractiveUIInputFields
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryinteractiveuiinputfields
+                - name: EapHostPeerQueryUIBlobFromInteractiveUIInputFields
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuiblobfrominteractiveuiinputfields
+                - name: EapHostPeerQueryUserBlobFromCredentialInputFields
+                  href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields
+            - name: EAPHost 要求者執行時間函數
+              href: eap-host-supplicant-run-time-functions.md
+              items:
+                - name: EapHostPeerBeginSession
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession
+                - name: EapHostPeerClearConnection
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerclearconnection
+                - name: EapHostPeerEndSession
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerendsession
+                - name: EapHostPeerFreeEapError
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror
+                - name: EapHostPeerGetAuthStatus
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetauthstatus
+                - name: EapHostPeerGetDataToUnplumbCredentials
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetdatatounplumbcredentials
+                - name: EapHostPeerGetResponseAttributes
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetresponseattributes
+                - name: EapHostPeerGetIdentity
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetidentity
+                - name: EapHostPeerGetResult
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetresult
+                - name: EapHostPeerFreeRuntimeMemory
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeruntimememory
+                - name: EapHostPeerGetSendPacket
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetsendpacket
+                - name: EapHostPeerGetUICoNtext
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext
+                - name: EapHostPeerInitialize
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize
+                - name: EapHostPeerProcessReceivedPacket
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket
+                - name: EapHostPeerSetResponseAttributes
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetresponseattributes
+                - name: EapHostPeerSetUICoNtext
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetuicontext
+                - name: EapHostPeerUninitialize
+                  href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize
+            - name: EAPHost 要求者回呼
+              href: eap-host-supplicant-callbacks.md
+              items:
+                - name: NotificationHandler
+                  href: /windows/desktop/api/eappapis/nc-eappapis-notificationhandler
+            - name: EAPHost 要求者列舉
+              href: eap-host-supplicant-enumerations.md
+              items:
+                - name: EAP_INTERACTIVE_UI_DATA_TYPE
+                  href: /windows/win32/api/eaptypes/ne-eaptypes-eap_interactive_ui_data_type
+                - name: EAP_METHOD_PROPERTY_TYPE
+                  href: /windows/win32/api/EapTypes/ne-eaptypes-eap_method_property_type
+                - name: EAP_METHOD_PROPERTY_VALUE_TYPE
+                  href: /windows/win32/api/EapTypes/ne-eaptypes-eap_method_property_value_type
+                - name: EAPHOST_AUTH_STATUS
+                  href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphost_auth_status
+                - name: EapHostPeerAuthParams
+                  href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams
+                - name: EapHostPeerMethodResultReason
+                  href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeermethodresultreason
+                - name: EapHostPeerResponseAction
+                  href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction
+                - name: ISOLATION_STATE
+                  href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-isolation_state
+            - name: EAPHost 要求者結構
+              href: eap-host-supplicant-structures.md
+              items:
+                - name: EAP_CRED_LOGON_REQ
+                  href: eap-cred-logon-req.md
+                - name: EAP_CRED_LOGON_RESP
+                  href: eap-cred-logon-resp.md
+                - name: EAP_CRED_REQ
+                  href: eap-cred-req.md
+                - name: EAP_CRED_RESP
+                  href: eap-cred-resp.md
+                - name: EAP_CRED_EXPIRY_REQ
+                  href: /windows/win32/api/eaptypes/ns-eaptypes-eap_cred_expiry_req
+                - name: EAP_INTERACTIVE_UI_DATA
+                  href: /windows/win32/api/eaptypes/ns-eaptypes-eap_interactive_ui_data
+                - name: EAP_METHOD_PROPERTY
+                  href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property
+                - name: EAP_METHOD_PROPERTY_ARRAY
+                  href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property_array
+                - name: EAP_METHOD_PROPERTY_VALUE
+                  href: /windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value
+                - name: EAP_METHOD_PROPERTY_VALUE_BOOL
+                  href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property_value_bool
+                - name: EAP_METHOD_PROPERTY_VALUE_DWORD
+                  href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property_value_dword
+                - name: EAP_METHOD_PROPERTY_VALUE_STRING
+                  href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property_value_string
+                - name: EAP_UI_DATA_FORMAT
+                  href: /windows/desktop/api/eaptypes/ns-eaptypes-eap_ui_data_format
+                - name: EAPHOST_AUTH_INFO
+                  href: /windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info
+                - name: EapHostPeerMethodResult
+                  href: /windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult
+                - name: EapHostPeerNapInfo
+                  href: eaphostpeernapinfo.md
+        - name: EAPHost 對等方法 API 參考
+          href: eap-host-peer-method-api-reference.md
+          items:
+            - name: EAPHost 對等方法設定函數
+              href: eaphost-peer-method-configuration-functions.md
+              items:
+                - name: EapPeerConfigBlob2Xml
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerconfigblob2xml
+                - name: EapPeerConfigXml2Blob
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerconfigxml2blob
+                - name: EapPeerCredentialsXml2Blob
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeercredentialsxml2blob
+                - name: EapPeerFreeErrorMemory
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory
+                - name: EapPeerFreeMemory
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreememory
+                - name: EapPeerGetMethodProperties
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetmethodproperties
+                - name: EapPeerInvokeConfigUI
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeconfigui
+                - name: EapPeerInvokeIdentityUI
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeidentityui
+                - name: EapPeerInvokeInteractiveUI
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeinteractiveui
+                - name: EapPeerQueryCredentialInputFields
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerquerycredentialinputfields
+                - name: EapPeerQueryInteractiveUIInputFields
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryinteractiveuiinputfields
+                - name: EapPeerQueryUIBlobFromInteractiveUIInputFields
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuiblobfrominteractiveuiinputfields
+                - name: EapPeerQueryUserBlobFromCredentialInputFields
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuserblobfromcredentialinputfields
+            - name: EAPHost 對等方法 Run-Time 函式
+              href: eaphost-peer-method-run-time-functions.md
+              items:
+                - name: EapPeerBeginSession
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession
+                - name: EapPeerEndSession
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession
+                - name: EapPeerGetConfigBlobAndUserBlob
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob
+                - name: EapPeerGetIdentity
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetidentity
+                - name: EapPeerGetInfo
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetinfo
+                - name: EapPeerGetResponseAttributes
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes
+                - name: EapPeerGetResponsePacket
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponsepacket
+                - name: EapPeerGetResult
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresult
+                - name: EapPeerGetUICoNtext
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetuicontext
+                - name: EapPeerInitialize
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinitialize
+                - name: EapPeerProcessRequestPacket
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerprocessrequestpacket
+                - name: EapPeerSetCredentials
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials
+                - name: EapPeerSetResponseAttributes
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes
+                - name: EapPeerSetUICoNtext
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetuicontext
+                - name: EapPeerShutdown
+                  href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeershutdown
+            - name: EAPHost 對等方法列舉
+              href: eap-host-peer-method-enumerations.md
+              items:
+                - name: EapCredentialType
+                  href: /windows/win32/api/eaptypes/ne-eaptypes-eapcredentialtype
+                - name: EapPeerMethodResponseAction
+                  href: /windows/win32/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction
+                - name: EapPeerMethodResultReason
+                  href: /windows/win32/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eappeermethodresultreason
+            - name: EAPHost 對等方法結構
+              href: eap-host-peer-method-structures.md
+              items:
+                - name: EapCertificateCredential
+                  href: /windows/win32/api/eaptypes/ns-eaptypes-eapcertificatecredential
+                - name: EapCredential
+                  href: /windows/win32/api/eaptypes/ns-eaptypes-eapcredential
+                - name: EAP_PEER_METHOD_ROUTINES
+                  href: /windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eap_peer_method_routines
+                - name: EapPeerMethodOutput
+                  href: /windows/win32/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-eappeermethodoutput
+                - name: EapPeerMethodResult
+                  href: /windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eappeermethodresult
+                - name: EapSimCredential
+                  href: /windows/win32/api/eaptypes/ns-eaptypes-eapsimcredential
+                - name: EapUsernamePasswordCredential
+                  href: /windows/win32/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential
+        - name: EAPHost 驗證器方法 Api
+          href: eaphost-authenticator-method-apis.md
+          items:
+            - name: EAPHost 驗證器方法函數
+              href: eap-host-authenticator-method-functions.md
+              items:
+                - name: EapMethodAuthenticatorBeginSession
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorbeginsession
+                - name: EapMethodAuthenticatorEndSession
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorendsession
+                - name: EapMethodAuthenticatorFreeErrorMemory
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory
+                - name: EapMethodAuthenticatorGetAttributes
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetattributes
+                - name: EapMethodAuthenticatorFreeMemory
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreememory
+                - name: EapMethodAuthenticatorGetInfo
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetinfo
+                - name: EapMethodAuthenticatorGetResult
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetresult
+                - name: EapMethodAuthenticatorInitialize
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinitialize
+                - name: EapMethodAuthenticatorInvokeConfigUI
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinvokeconfigui
+                - name: EapMethodAuthenticatorReceivePacket
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorreceivepacket
+                - name: EapMethodAuthenticatorSendPacket
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsendpacket
+                - name: EapMethodAuthenticatorSetAttributes
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsetattributes
+                - name: EapMethodAuthenticatorShutdown
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorshutdown
+                - name: EapMethodAuthenticatorUpdateInnerMethodParams
+                  href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorupdateinnermethodparams
+            - name: EAPHost 驗證器方法列舉
+              href: eap-host-authenticator-method-enumerations.md
+              items:
+                - name: EAP_AUTHENTICATOR_SEND_TIMEOUT
+                  href: /windows/win32/api/eapAuthenticatorTypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout
+                - name: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
+                  href: /windows/win32/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action
+            - name: EAPHost 驗證器方法結構
+              href: eap-host-authenticator-method-structures.md
+              items:
+                - name: EAP_AUTHENTICATOR_METHOD_ROUTINES
+                  href: /windows/win32/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-eap_authenticator_method_routines
+                - name: EAP_METHOD_AUTHENTICATOR_RESULT
+                  href: /windows/win32/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-eap_method_authenticator_result

@@ -1,0 +1,50 @@
+- name: Windows 7 開發人員指南
+  href: windows-7-developer-guide.md
+  items:
+    - name: 簡介
+      href: introduction.md
+    - name: 穩固的基礎
+      href: solid-foundation.md
+      items:
+        - name: 相容性和可靠性
+          href: compatibility-and-reliability.md
+        - name: 管理和部署
+          href: management-and-deployment.md
+        - name: 安全性
+          href: security.md
+        - name: 效能
+          href: performance.md
+        - name: 檔和檔週邊設備
+          href: documents-and-document-peripherals.md
+        - name: 存取範圍和全球支援
+          href: accessibility-and-global-support.md
+    - name: 更豐富的應用程式體驗
+      href: richer-application-experiences.md
+      items:
+        - name: 直覺的使用者體驗
+          href: intuitive-user-experience.md
+        - name: 手寫和筆墨
+          href: handwriting-and-ink.md
+        - name: 桌面體驗
+          href: the-desktop-experience.md
+        - name: 管理檔案和資料
+          href: managing-files-and-data.md
+        - name: 高 DPI
+          href: high-dpi.md
+        - name: 使用 DirectX 的高精確度圖形
+          href: high-fidelity-graphics-with-directx.md
+        - name: 媒體平臺
+          href: media-platform.md
+        - name: 裝置
+          href: devices.md
+    - name: Windows 和 Web 的最佳
+      href: the-best-of-windows-and-the-web.md
+      items:
+        - name: 服務
+          href: services.md
+        - name: 同盟搜尋
+          href: federated-search.md
+        - name: 感應器平臺
+          href: sensor-platform.md
+        - name: Internet Explorer 8
+          href: internet-explorer-8.md
