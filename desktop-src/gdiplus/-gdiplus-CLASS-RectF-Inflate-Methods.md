@@ -1,0 +1,41 @@
+---
+description: 本主題列出 RectF 類別的擴充方法。 如需 RectF 類別之方法的完整清單，請參閱 RectF 方法。
+ms.assetid: 5f393247-0209-41b4-a97c-89e4d5d7d55d
+title: 'RectF 擴充方法 (Gdiplustypes) '
+ms.date: 07/02/2019
+ms.topic: reference
+ms.openlocfilehash: 991cc06b75181976181314e5575f134e2b37ab4d
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104974861"
+---
+# <a name="rectfinflate-methods"></a>RectF 擴充方法
+
+本主題列出 [**RectF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rectf) 類別的擴充方法。 如需 **RectF** 類別之方法的完整清單，請參閱 [RectF 方法](-gdiplus-class-rectf-methods.md)。
+
+### <a name="overload-list"></a>多載清單
+
+
+
+| 方法                                                            | 描述                                                                                                                         |
+|:------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
+| [**擴充 (PointF&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_))   | [**RectF：：膨脹**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_))*點*。**X**_點_。**Y** 在頂端和下邊緣。<br/> |
+| [**(真正的真實)**](/previous-versions//ms534953(v=vs.85)) | 頂端和下邊緣的 [**RectF：：膨脹**](/previous-versions//ms534953(v=vs.85))*dxdy* 。<br/>                     |
+
+
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------|-------------------------------------------------------------------------------------------|
+| 標頭<br/> | <dl> <dt>Gdiplustypes。h</dt> </dl> |
+
+
+
+ 
+
+ 
