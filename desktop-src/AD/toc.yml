@@ -1,0 +1,1592 @@
+- name: Active Directory 網域服務
+  href: active-directory-domain-services.md
+  items:
+    - name: 關於 Active Directory Domain Services
+      href: about-active-directory-domain-services.md
+      items:
+        - name: Active Directory Domain Services 的核心概念
+          href: core-concepts-of-active-directory-domain-services.md
+          items:
+            - name: 屬性
+              href: attributes.md
+            - name: 容器和離開
+              href: containers-and-leaves.md
+            - name: 物件名稱和身分識別
+              href: object-names-and-identities.md
+            - name: 命名內容和目錄分割
+              href: naming-contexts-and-partitions.md
+              items:
+                - name: 關於應用程式目錄分割
+                  href: about-application-directory-partitions.md
+            - name: 網域樹狀結構
+              href: domain-trees.md
+            - name: 樹系
+              href: forests.md
+            - name: Active Directory 伺服器和動態 DNS
+              href: active-directory-servers-and-dynamic-dns.md
+            - name: 複寫與資料完整性
+              href: replication-and-data-integrity.md
+              items:
+                - name: Active Directory Domain Services 中的複寫模型
+                  href: replication-model-in-active-directory-domain-services.md
+                  items:
+                    - name: Active Directory Domain Services 的複寫模型功能
+                      href: features-of-the-replication-model-for-active-directory-domain-services.md
+                    - name: 為何 Active Directory Domain Services 使用此複寫模型
+                      href: why-active-directory-domain-services-uses-this-replication-model.md
+                    - name: 程式設計人員在 Active Directory Domain Services 中的複寫模型
+                      href: a-programmerampaposs-model-of-replication-in-active-directory-domain-services.md
+                - name: Active Directory Domain Services 中的複寫行為
+                  href: replication-behavior-in-active-directory-domain-services.md
+                  items:
+                    - name: 對 Directory-Enabled 應用程式的影響
+                      href: impact-on-directory-enabled-applications.md
+                - name: 偵測和避免複寫延遲
+                  href: detecting-and-avoiding-replication-latency.md
+                  items:
+                    - name: 您可以知道什麼，以及何時可以知道？
+                      href: what-can-you-know-and-when-can-you-know-it.md
+                    - name: 時態性位置
+                      href: temporal-locality.md
+                    - name: 頻外信號
+                      href: out-of-band-signaling.md
+                    - name: 有效的日期和時間
+                      href: effective-date-and-time.md
+                    - name: 總和檢查碼和物件計數
+                      href: checksums-and-object-counts.md
+                    - name: 一致性 Guid
+                      href: consistency-guids.md
+                    - name: 版本控制和回溯策略
+                      href: versioning-and-fallback-strategies.md
+        - name: Active Directory Domain Services 架構
+          href: active-directory-domain-services-architecture.md
+          items:
+            - name: 目錄服務代理程式
+              href: directory-system-agent.md
+            - name: 資料模型
+              href: data-model.md
+            - name: 結構描述
+              href: schema.md
+            - name: 管理模型
+              href: administration-model.md
+            - name: 通用類別目錄
+              href: global-catalog.md
+        - name: Active Directory Domain Services 中的安全性
+          href: security-in-active-directory-domain-services.md
+          items:
+            - name: 物件和屬性保護
+              href: object-and-attribute-protection.md
+            - name: 委派
+              href: delegation.md
+            - name: 繼承
+              href: inheritance.md
+        - name: Active Directory 架構
+          href: active-directory-schema.md
+          items:
+            - name: 關於 Active Directory 架構
+              href: about-the-active-directory-schema.md
+            - name: Read-Only Dc 和 Active Directory 架構
+              href: rodc-and-active-directory-schema.md
+            - name: 架構執行
+              href: schema-implementation.md
+              items:
+                - name: 物件識別碼
+                  href: object-identifiers.md
+            - name: 物件類別的特性
+              href: characteristics-of-object-classes.md
+              items:
+                - name: 結構化、抽象類別和輔助類別
+                  href: structural-abstract-and-auxiliary-classes.md
+                - name: Active Directory 架構中的類別繼承
+                  href: class-inheritance-in-the-active-directory-schema.md
+                - name: 物件類別和物件類別
+                  href: object-class-and-object-category.md
+            - name: 屬性的特性
+              href: characteristics-of-attributes.md
+              items:
+                - name: Active Directory Domain Services 中的屬性語法
+                  href: syntaxes-for-attributes-in-active-directory-domain-services.md
+                - name: 索引屬性
+                  href: indexed-attributes.md
+                - name: 將屬性包含在通用類別目錄中
+                  href: attributes-included-in-the-global-catalog.md
+                - name: 連結屬性
+                  href: linked-attributes.md
+            - name: 抽象架構
+              href: the-abstract-schema.md
+    - name: 使用 Active Directory 網域服務
+      href: using-active-directory-domain-services.md
+      items:
+        - name: 系結至 Active Directory Domain Services
+          href: binding-to-active-directory-domain-services.md
+          items:
+            - name: 無伺服器系結和 RootDSE
+              href: serverless-binding-and-rootdse.md
+              items:
+                - name: 取得網域辨別名稱的範例程式碼
+                  href: example-code-for-getting-the-distinguished-name-of-the-domain.md
+            - name: 系結至通用類別目錄
+              href: binding-to-the-global-catalog.md
+              items:
+                - name: 搜尋樹系的範例程式碼
+                  href: example-code-for-searching-a-forest.md
+            - name: 使用 objectGUID 系結至物件
+              href: using-objectguid-to-bind-to-an-object.md
+              items:
+                - name: 用來建立 GUID 之可系結字串表示的範例程式碼
+                  href: example-code-for-creating-a-bindable-string-representation-of-a-guid.md
+                - name: 讀取物件的 objectGUID 並建立 GUID 的字串標記法
+                  href: reading-an-objectampaposs-objectguid-and-creating-a-string-representation-of-the-guid.md
+            - name: 使用 WKGUID 系結至 Well-Known 物件
+              href: binding-to-well-known-objects-using-wkguid.md
+              items:
+                - name: 系結至已知物件的範例程式碼
+                  href: example-code-for-binding-to-well-known-objects.md
+            - name: 使用 SID 系結至物件
+              href: binding-to-an-object-using-a-sid.md
+            - name: 使用 otherWellKnownObjects 屬性啟用 Rename-Safe 系結
+              href: enabling-rename-safe-binding-with-the-otherwellknownobjects-property.md
+              items:
+                - name: 建立容器物件的範例程式碼
+                  href: example-code-for-creating-a-container-object.md
+            - name: 驗證
+              href: authentication.md
+        - name: 在 Active Directory Domain Services 中搜尋
+          href: searching-in-active-directory-domain-services.md
+          items:
+            - name: 決定要尋找的內容
+              href: deciding-what-to-find.md
+              items:
+                - name: 搜尋使用者的範例程式碼
+                  href: example-code-for-searching-for-users.md
+            - name: 決定要搜尋的位置
+              href: where-to-search.md
+              items:
+                - name: 搜尋定義域內容
+                  href: searching-domain-contents.md
+                - name: 搜尋通用類別目錄
+                  href: searching-global-catalog-contents.md
+            - name: 選擇搜尋技術
+              href: choosing-the-search-technology.md
+            - name: 建立查詢篩選
+              href: creating-a-query-filter.md
+              items:
+                - name: 依類別尋找物件
+                  href: finding-objects-by-class.md
+                - name: 依名稱尋找物件
+                  href: finding-objects-by-name.md
+                - name: 尋找要查詢的屬性清單
+                  href: finding-a-list-of-attributes-to-query.md
+                - name: 檢查查詢篩選語法
+                  href: checking-the-query-filter-syntax.md
+                - name: 如何指定比較值
+                  href: how-to-specify-comparison-values.md
+            - name: 決定可針對每個找到的物件取得哪些屬性
+              href: listing-properties-to-retrieve-for-each-object-found.md
+              items:
+                - name: 正在抓取 objectClass 屬性
+                  href: retrieving-the-objectclass-property.md
+            - name: 系結至搜尋起點
+              href: binding-to-a-search-start-point.md
+            - name: 指定搜尋範圍
+              href: search-scope.md
+            - name: 指定其他搜尋選項
+              href: specifying-other-search-options.md
+            - name: 處理搜尋結果
+              href: processing-query-results.md
+            - name: 搜尋安全性的影響
+              href: effects-of-security-on-queries.md
+            - name: 建立有效率的查詢
+              href: creating-efficient-queries.md
+            - name: 元組索引的運作方式
+              href: how-tuple-indexing-works.md
+            - name: 初始、中詞和最終搜尋字串
+              href: search-string-types.md
+            - name: 轉介
+              href: referrals.md
+              items:
+                - name: 當您產生參考時
+                  href: when-referrals-are-generated.md
+                - name: 建立外部參考
+                  href: creating-an-external-referral.md
+                  items:
+                    - name: 建立外部交互參照物件的範例程式碼
+                      href: example-code-for-creating-an-external-crossref-object.md
+            - name: 列舉網域控制站
+              href: enumerating-domain-controllers.md
+        - name: 在 Active Directory Domain Services 中建立和刪除物件
+          href: creating-and-deleting-objects-in-active-directory-domain-services.md
+          items:
+            - name: 正在抓取刪除的物件
+              href: retrieving-deleted-objects.md
+            - name: 還原已刪除的物件
+              href: restoring-deleted-objects.md
+        - name: 移動物件
+          href: moving-objects.md
+          items:
+            - name: 移動物件的範例程式碼
+              href: example-code-for-moving-an-object.md
+        - name: 在 Active Directory Domain Services 中讀取和寫入物件的屬性
+          href: reading-and-writing-attributes-of-objects-in-active-directory-domain-services.md
+          items:
+            - name: 判斷屬性類型
+              href: determining-an-attribute-type.md
+        - name: 控制 Active Directory Domain Services 中的物件存取
+          href: controlling-access-to-objects-in-active-directory-domain-services.md
+          items:
+            - name: 存取控制在 Active Directory Domain Services 中的運作方式
+              href: how-access-control-works-in-active-directory-domain-services.md
+              items:
+                - name: 控制物件和其屬性的存取權
+                  href: controlling-access-to-objects-and-their-properties.md
+                - name: Active Directory Domain Services 物件的存取權限
+                  href: access-rights-for-active-directory-domain-services-objects.md
+                - name: 安全性內容和 Active Directory Domain Services
+                  href: security-contexts-and-active-directory-domain-services.md
+            - name: 安全性如何影響 Active Directory Domain Services 中的作業
+              href: how-security-affects-operations-in-active-directory-domain-services.md
+              items:
+                - name: 存取控制和讀取作業
+                  href: access-control-and-read-operations.md
+                - name: 存取控制和寫入作業
+                  href: access-control-and-write-operations.md
+                - name: 存取控制和物件建立
+                  href: access-control-and-object-creation.md
+                - name: 存取控制和物件刪除
+                  href: access-control-and-object-deletion.md
+            - name: 使用安全描述項的 Api
+              href: apis-for-working-with-security-descriptors.md
+              items:
+                - name: 使用 IADs 取得安全描述項
+                  href: using-iads-to-get-a-security-descriptor.md
+                - name: 使用 IDirectoryObject 取得安全描述項
+                  href: using-idirectoryobject-to-get-a-security-descriptor.md
+                - name: 安全描述項元件
+                  href: security-descriptor-components.md
+                - name: 正在抓取物件的 DACL
+                  href: retrieving-an-objectampaposs-dacl.md
+                - name: 正在抓取物件的 SACL
+                  href: retrieving-an-objectampaposs-sacl.md
+                - name: 讀取物件的安全描述項
+                  href: reading-an-objectampaposs-security-descriptor.md
+                - name: 建立安全描述項的範例程式碼
+                  href: example-code-for-creating-a-security-descriptor.md
+                - name: 列舉 Active Directory Domain Services 中物件之 ACL 的範例程式碼
+                  href: example-code-for-enumerating-the-acl-of-an-active-directory-object.md
+            - name: 設定物件的存取權限
+              href: setting-access-rights-on-an-object.md
+              items:
+                - name: 在目錄物件上設定 ACE 的範例程式碼
+                  href: example-code-for-setting-an-ace-on-a-directory-object.md
+                - name: 設定整個物件的存取權限
+                  href: setting-access-rights-on-the-entire-object.md
+                  items:
+                    - name: 針對物件設定讀取屬性許可權的範例程式碼
+                      href: example-code-for-setting-read-property-rights-on-an-object.md
+                - name: 設定特定屬性的許可權
+                  href: setting-permissions-to-a-specific-property.md
+                - name: 設定屬性群組的許可權
+                  href: setting-permissions-on-a-group-of-properties.md
+                  items:
+                    - name: 設定屬性群組許可權的範例程式碼
+                      href: example-code-for-setting-permissions-on-a-group-of-properties.md
+                - name: 設定子物件作業的許可權
+                  href: setting-permissions-on-child-object-operations.md
+                  items:
+                    - name: 設定子物件作業許可權的範例程式碼
+                      href: example-code-for-setting-permissions-on-child-object-operations.md
+            - name: 如何在新的目錄物件上設定安全描述項
+              href: how-security-descriptors-are-set-on-new-directory-objects.md
+            - name: 建立新目錄物件的安全描述項
+              href: creating-a-security-descriptor-for-a-new-directory-object.md
+            - name: 管理的繼承和委派
+              href: inheritance-and-delegation-of-administration.md
+              items:
+                - name: 存取控制繼承
+                  href: access-control-inheritance.md
+                - name: 設定特定物件類型的許可權
+                  href: setting-rights-to-specific-types-of-objects.md
+                  items:
+                    - name: 設定特定物件類型之許可權的範例程式碼
+                      href: example-code-for-setting-rights-to-specific-types-of-objects.md
+                - name: 將許可權設定為特定物件類型的特定屬性
+                  href: setting-rights-to-specific-properties-of-specific-types-of-objects.md
+                - name: 保護物件不受繼承許可權的影響
+                  href: protecting-objects-from-the-effects-of-inherited-rights.md
+                  items:
+                    - name: 設定和移除 SACL 和 DACL 保護的範例程式碼
+                      href: example-code-for-setting-and-removing-sacl-and-dacl-protection.md
+            - name: 預設安全描述項
+              href: default-security-descriptor.md
+              items:
+                - name: 讀取物件類別的 defaultSecurityDescriptor
+                  href: reading-the-defaultsecuritydescriptor-for-an-object-class.md
+                  items:
+                    - name: 讀取 defaultSecurityDescriptor 的範例程式碼
+                      href: example-code-for-reading-defaultsecuritydescriptor.md
+                - name: 修改物件類別的 defaultSecurityDescriptor
+                  href: modifying-the-defaultsecuritydescriptor-for-an-object-class.md
+            - name: 控制存取權限
+              href: control-access-rights.md
+              items:
+                - name: 建立控制項存取權
+                  href: creating-a-control-access-right.md
+                  items:
+                    - name: 建立控制項存取權的範例程式碼
+                      href: example-code-for-creating-a-control-access-right.md
+                - name: 在物件的 ACL 中設定 Control 存取權限 ACE
+                  href: setting-a-control-access-right-ace-in-an-objectampaposs-acl.md
+                  items:
+                    - name: 設定控制項存取許可權 ACE 的範例程式碼
+                      href: example-code-for-setting-a-control-access-right-ace.md
+                - name: 在物件的 ACL 中檢查控制項存取權
+                  href: checking-a-control-access-right-in-an-objectampaposs-acl.md
+                  items:
+                    - name: 在物件的 ACL 中檢查控制項存取權的範例程式碼
+                      href: example-code-for-checking-a-control-access-right-in-an-objectampaposs-acl.md
+                - name: 讀取物件 ACL 中的 Control 存取權限集合
+                  href: reading-a-control-access-right-set-in-an-objectampaposs-acl.md
+                  items:
+                    - name: 在 ACE 中檢查控制項存取權的範例程式碼
+                      href: example-code-for-checking-for-a-control-access-right-in-an-ace.md
+            - name: 使用 DsAddSidHistory
+              href: using-dsaddsidhistory.md
+            - name: 控制物件可見度
+              href: controlling-object-visibility.md
+            - name: Null Dacl 和空白的 Dacl
+              href: null-dacls-and-empty-dacls.md
+        - name: 擴充架構
+          href: extending-the-schema.md
+          items:
+            - name: 系結至架構的指導方針
+              href: guidelines-for-binding-to-the-schema.md
+            - name: 讀取抽象架構
+              href: reading-the-abstract-schema.md
+              items:
+                - name: 列舉架構類別、屬性和語法的範例程式碼
+                  href: example-code-for-enumerating-schema-classes-attributes-and-syntaxes.md
+            - name: 讀取 attributeSchema 和 classSchema 物件
+              href: reading-attributeschema-and-classschema-objects.md
+              items:
+                - name: 用於搜尋架構物件的範例程式碼
+                  href: example-code-for-searching-for-schema-objects.md
+            - name: 延伸架構之前必須知道的事項
+              href: what-you-must-know-before-extending-the-schema.md
+              items:
+                - name: 架構變更的影響
+                  href: impact-of-schema-changes.md
+                - name: 延伸架構的時機
+                  href: when-to-extend-the-schema.md
+                - name: 架構延伸的限制
+                  href: restrictions-on-schema-extension.md
+                  items:
+                    - name: 查詢類別1或2個架構物件
+                      href: querying-for-category-1-or-2-schema-objects.md
+            - name: 如何延伸架構
+              href: how-to-extend-the-schema.md
+              items:
+                - name: 命名屬性和類別
+                  href: naming-attributes-and-classes.md
+                - name: 停用現有的類別和屬性
+                  href: disabling-existing-classes-and-attributes.md
+                - name: 取得連結識別碼
+                  href: obtaining-a-link-id.md
+                - name: 取得物件識別碼
+                  href: obtaining-an-object-identifier.md
+                  items:
+                    - name: 從 ISO 名稱登錄授權單位取得根 OID
+                      href: obtaining-a-root-oid-from-an-iso-name-registration-authority.md
+                    - name: 從 Microsoft 取得物件識別碼
+                      href: obtaining-an-object-identifier-from-microsoft.md
+                - name: 整合架構延伸與消費者介面
+                  href: integrating-schema-extensions-with-the-user-interface.md
+                - name: 定義新屬性
+                  href: defining-a-new-attribute.md
+                  items:
+                    - name: 建立屬性的範例程式碼
+                      href: example-code-for-creating-an-attribute.md
+                    - name: 選擇語法
+                      href: choosing-a-syntax.md
+                - name: 定義新的類別
+                  href: defining-a-new-class.md
+                  items:
+                    - name: 建立類別的範例程式碼
+                      href: example-code-for-creating-a-class.md
+                - name: 安裝架構延伸模組
+                  href: installing-schema-extensions.md
+                  items:
+                    - name: 記載架構延伸模組
+                      href: documenting-schema-extensions.md
+                    - name: 安裝必須做什麼
+                      href: what-the-installation-must-do.md
+                      items:
+                        - name: 更新架構快取
+                          href: updating-the-schema-cache.md
+                    - name: 安裝架構延伸模組的必要條件
+                      href: prerequisites-for-installing-a-schema-extension.md
+                      items:
+                        - name: 偵測架構主機
+                          href: detecting-the-schema-master.md
+                        - name: 在架構主機上啟用架構變更
+                          href: enabling-schema-changes-at-the-schema-master.md
+                    - name: 架構延伸應用程式的建議
+                      href: recommendations-for-schema-extension-applications.md
+                      items:
+                        - name: 檢查許可權以建立架構物件的範例程式碼
+                          href: example-code-for-checking-for-rights-to-create-schema-objects.md
+                        - name: 更新架構快取的範例程式碼
+                          href: example-code-for-updating-the-schema-cache.md
+                        - name: 偵測架構命名衝突的範例程式碼
+                          href: example-code-for-detecting-schema-naming-collisions.md
+                    - name: 支援的安裝機制
+                      href: supported-installation-mechanisms.md
+                      items:
+                        - name: LDIF 腳本
+                          href: ldif-scripts.md
+                        - name: 逗點分隔值 (CSV) 腳本
+                          href: comma-separated-value-csv-scripts.md
+                        - name: 程式設計延伸
+                          href: programmatic-extension.md
+                          items:
+                            - name: 以程式設計方式延伸架構的範例程式碼
+                              href: example-code-for-extending-the-schema-programmatically.md
+        - name: 擴充目錄物件的消費者介面
+          href: extending-the-user-interface-for-directory-objects.md
+          items:
+            - name: 關於 Active Directory Domain Services 的使用者介面
+              href: about-the-user-interfaces-of-active-directory-domain-services.md
+            - name: 顯示規範
+              href: display-specifiers.md
+              items:
+                - name: DisplaySpecifiers 容器
+                  href: displayspecifiers-container.md
+            - name: 類別和屬性顯示名稱
+              href: class-and-attribute-display-names.md
+            - name: 類別圖示
+              href: class-icons.md
+            - name: 以分葉節點形式來查看容器
+              href: viewing-containers-as-leaf-nodes.md
+            - name: 修改現有的使用者介面
+              href: modifying-existing-user-interfaces.md
+            - name: 新物件類別的消費者介面延伸模組
+              href: user-interface-extension-for-new-object-classes.md
+            - name: 搭配顯示規範使用的屬性頁
+              href: property-pages-for-use-with-display-specifiers.md
+              items:
+                - name: 執行屬性頁 COM 物件
+                  href: implementing-the-property-page-com-object.md
+                  items:
+                    - name: 屬性工作表 COM 物件的執行範例程式碼
+                      href: example-code-for-implementation-of-the-property-sheet-com-object.md
+                - name: 在顯示規範中註冊屬性頁 COM 物件
+                  href: registering-the-property-page-com-object-in-a-display-specifier.md
+            - name: 用於顯示規範的內容功能表
+              href: context-menus-for-use-with-display-specifiers.md
+              items:
+                - name: 執行內容功能表 COM 物件
+                  href: implementing-the-context-menu-com-object.md
+                  items:
+                    - name: 執行內容功能表 COM 物件的範例程式碼
+                      href: example-code-for-implementation-of-the-context-menu-com-object.md
+                - name: 在顯示規範中註冊內容功能表 COM 物件
+                  href: registering-the-context-menu-com-object-in-a-display-specifier.md
+                - name: 註冊靜態內容功能表項目
+                  href: registering-a-static-context-menu-item.md
+                  items:
+                    - name: 安裝靜態內容功能表項目的範例程式碼
+                      href: example-code-for-installing-a-static-context-menu-item.md
+            - name: 物件建立的嚮導
+              href: object-creation-wizards.md
+              items:
+                - name: 執行物件建立延伸模組 COM 物件
+                  href: implementing-the-object-creation-extension-com-object.md
+                - name: 註冊物件建立延伸模組
+                  href: registering-the-object-creation-extension.md
+                - name: 從您的應用程式叫用建立嚮導
+                  href: invoking-creation-wizards-from-your-application.md
+            - name: 使用標準對話方塊來處理 Active Directory Domain Services 中的物件
+              href: using-standard-dialog-boxes-to-handle-objects-in-active-directory-domain-services.md
+              items:
+                - name: 目錄物件選擇器
+                  href: directory-object-picker.md
+                - name: 網域瀏覽器
+                  href: domain-browser.md
+                - name: 容器瀏覽器
+                  href: container-browser.md
+                - name: Active Directory 消費者和電腦屬性工作表
+                  href: active-directory-users-and-computers-property-sheets.md
+            - name: 系統管理通知處理常式
+              href: administrative-notification-handlers.md
+            - name: 散發消費者介面元件
+              href: distributing-user-interface-components.md
+            - name: 應用程式應該如何使用顯示規範
+              href: how-applications-should-use-display-specifiers.md
+            - name: Active Directory 擴充功能的偵錯工具
+              href: debugging-an-active-directory-extension.md
+        - name: 管理使用者
+          href: managing-users.md
+          items:
+            - name: Active Directory Domain Services 中的使用者
+              href: users-in-active-directory-domain-services.md
+            - name: 安全性主體
+              href: security-principals.md
+            - name: 什麼是使用者？
+              href: what-is-a-user.md
+            - name: 系結至使用者容器的範例程式碼
+              href: example-code-for-binding-to-the-users-container.md
+            - name: User 物件屬性
+              href: user-object-attributes.md
+              items:
+                - name: 使用者命名屬性
+                  href: naming-properties.md
+                - name: 使用者安全性屬性
+                  href: security-properties.md
+                - name: 使用者通訊錄屬性
+                  href: address-book-properties.md
+            - name: 建立使用者
+              href: creating-a-user.md
+              items:
+                - name: 建立使用者的範例程式碼
+                  href: example-code-for-creating-a-user.md
+            - name: 列舉使用者
+              href: enumerating-users.md
+            - name: 查詢使用者
+              href: querying-for-users.md
+              items:
+                - name: 使用通用類別目錄在樹系中尋找使用者的範例程式碼
+                  href: example-code-for-using-the-global-catalog-to-find-users-in-a-forest.md
+            - name: 管理成員伺服器與 Windows 2000 Professional 上的使用者
+              href: managing-users-on-member-servers-and-windows-2000-professional.md
+              items:
+                - name: 列舉成員伺服器與 Windows 2000 Professional 上的使用者
+                  href: enumerating-users-on-member-servers-and-windows-2000-professional.md
+                  items:
+                    - name: 列舉成員伺服器使用者的範例程式碼
+                      href: example-code-for-enumerating-users-on-a-member-server.md
+                - name: 在成員伺服器與 Windows 2000 Professional 上建立使用者
+                  href: creating-users-on-member-servers-and-windows-2000-professional.md
+                  items:
+                    - name: 在成員伺服器或 Windows 2000 Professional 上建立使用者的範例程式碼
+                      href: example-code-for-creating-users-on-a-member-server-or-windows-2000-professional.md
+                - name: 刪除成員伺服器與 Windows 2000 Professional 上的使用者
+                  href: deleting-users-on-member-servers-and-windows-2000-professional.md
+                  items:
+                    - name: 在成員伺服器或 Windows 2000 Professional 上刪除使用者的範例程式碼
+                      href: example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional.md
+            - name: CountryCode 和 c 屬性的值
+              href: values-for-the-countrycode-and-c-properties.md
+        - name: 管理群組
+          href: managing-groups.md
+          items:
+            - name: 群組物件
+              href: group-objects.md
+            - name: 如何在存取控制中使用安全性群組
+              href: how-security-groups-are-used-in-access-control.md
+            - name: 在網域中建立群組
+              href: creating-groups-in-a-domain.md
+              items:
+                - name: 建立群組的範例程式碼
+                  href: example-code-for-creating-a-group.md
+            - name: 將成員新增至網域中的群組
+              href: adding-members-to-groups-in-a-domain.md
+              items:
+                - name: 將成員新增至群組的範例程式碼
+                  href: example-code-for-adding-a-member-to-a-group.md
+                - name: 將 objectSid 轉換成可系結字串的範例程式碼
+                  href: example-code-for-converting-an-objectsid-into-a-bindable-string-.md
+            - name: 移除網域中群組的成員
+              href: removing-members-from-groups-in-a-domain.md
+              items:
+                - name: 從群組中移除成員的範例程式碼
+                  href: example-code-for-removing-a-member-from-a-group.md
+            - name: 在另一個群組中嵌套群組
+              href: nesting-a-group-in-another-group.md
+              items:
+                - name: 以原生模式進行的嵌套
+                  href: nesting-in-native-mode.md
+                - name: 在混合模式中進行嵌套
+                  href: nesting-in-mixed-mode.md
+                - name: 一般錯誤
+                  href: common-errors.md
+            - name: 判斷使用者或群組在群組中的成員資格
+              href: determining-a-userampaposs-or-groupampaposs-membership-in-a-group.md
+              items:
+                - name: 檢查群組成員資格的範例程式碼
+                  href: example-code-for-checking-for-membership-in-a-group.md
+            - name: 列舉群組
+              href: enumerating-groups.md
+              items:
+                - name: 列舉定義域中的群組
+                  href: enumerating-groups-in-a-domain.md
+                - name: 依範圍或輸入網域來搜尋群組
+                  href: searching-for-groups-by-scope-or-type-in-a-domain.md
+                - name: 列舉群組中的成員
+                  href: enumerating-members-in-a-group.md
+                  items:
+                    - name: 顯示群組成員的範例程式碼
+                      href: example-code-for-displaying-members-of-a-group.md
+                - name: 列舉包含許多成員的群組
+                  href: enumerating-groups-that-contain-many-members.md
+            - name: 查詢網域中的群組
+              href: querying-for-groups-in-a-domain.md
+              items:
+                - name: 搜尋網域中群組的範例程式碼
+                  href: example-code-for-performing-a-query-in-a-domain.md
+            - name: 變更群組的範圍或類型
+              href: changing-a-groupampaposs-scope-or-type.md
+              items:
+                - name: 變更群組領域的範例程式碼
+                  href: example-code-for-changing-the-scope-of-a-group.md
+            - name: 取得群組的網域 Account-Style 名稱
+              href: getting-the-domain-account-style-name-of-a-group.md
+            - name: 成員伺服器與 Windows 2000 Professional 上的群組
+              href: groups-on-member-servers-and-windows-2000-professional.md
+              items:
+                - name: 列舉本機群組
+                  href: enumerating-local-groups.md
+                  items:
+                    - name: 列舉本機群組的範例程式碼
+                      href: example-code-for-enumerating-local-groups.md
+                - name: 建立本機群組
+                  href: creating-local-groups.md
+                  items:
+                    - name: 建立本機群組的範例程式碼
+                      href: example-code-for-creating-a-local-group.md
+                - name: 刪除本機群組
+                  href: deleting-local-groups.md
+                  items:
+                    - name: 刪除本機群組的範例程式碼
+                      href: example-code-for-deleting-a-local-group.md
+                - name: 將網域物件新增至本機群組
+                  href: adding-domain-objects-to-local-groups.md
+                  items:
+                    - name: 將網域使用者或群組新增至本機群組的範例程式碼
+                      href: example-code-for-adding-a-domain-user-or-group-to-a-local-group.md
+            - name: 哪些應用程式和服務開發人員需要瞭解群組
+              href: what-application-and-service-developers-need-to-know-about-groups.md
+        - name: 追蹤變更
+          href: tracking-changes.md
+          items:
+            - name: 變更追蹤技術總覽
+              href: overview-of-change-tracking-techniques.md
+            - name: Active Directory Domain Services 中的變更通知
+              href: change-notifications-in-active-directory-domain-services.md
+              items:
+                - name: 接收變更通知的範例程式碼
+                  href: example-code-for-receiving-change-notifications.md
+            - name: 使用 DirSync 控制項輪詢變更
+              href: polling-for-changes-using-the-dirsync-control.md
+              items:
+                - name: 使用 ADS_SEARCHPREF_DIRSYNC 的範例程式碼
+                  href: example-code-using-ads-searchpref-dirsync.md
+            - name: 使用 USNChanged 輪詢變更
+              href: polling-for-changes-using-usnchanged.md
+              items:
+                - name: 使用 USNChanged 取出變更的範例程式碼
+                  href: example-code-to-retrieve-changes-using-usnchanged.md
+        - name: 服務發行
+          href: service-publication.md
+          items:
+            - name: 關於服務發行
+              href: about-service-publication.md
+              items:
+                - name: 服務發行的安全性問題
+                  href: security-issues-for-service-publication.md
+                - name: 連接點
+                  href: connection-points.md
+            - name: 使用服務連接點發佈
+              href: publishing-with-service-connection-points.md
+              items:
+                - name: 建立服務連接點的位置
+                  href: where-to-create-a-service-connection-point.md
+                  items:
+                    - name: 在電腦物件下發布
+                      href: publishing-under-a-computer-object.md
+                    - name: 在網域系統容器中發佈
+                      href: publishing-in-a-domain-system-container.md
+                - name: 複寫、主機和資料庫服務的服務連接點
+                  href: service-connection-points-for-replicated-host-based-and-database-services.md
+                - name: 服務連接點屬性
+                  href: service-connection-point-properties.md
+                - name: 建立和維護服務連接點
+                  href: creating-and-maintaining-a-service-connection-point.md
+                  items:
+                    - name: 管理服務連接點的腳本範例
+                      href: script-samples-for-managing-service-connection-points.md
+                      items:
+                        - name: 用於管理服務連接點的 Excel 宏
+                          href: excel-macros-for-managing-service-connection-points.md
+                        - name: 列出所有服務連接點的 VB 腳本
+                          href: vb-script-listing-all-service-connection-points.md
+                    - name: 管理服務連接點的程式碼範例
+                      href: code-samples-for-managing-service-connection-points.md
+                      items:
+                        - name: 建立服務連接點
+                          href: creating-a-service-connection-point.md
+                        - name: 更新服務連接點
+                          href: updating-a-service-connection-point.md
+                        - name: 用戶端如何尋找和使用服務連接點
+                          href: how-clients-find-and-use-a-service-connection-point.md
+            - name: '使用 RPC 名稱服務發行 (RpcNs) '
+              href: publishing-with-the-rpc-name-service-rpcns.md
+            - name: 使用 Windows 通訊端註冊和解決方式發佈
+              href: publishing-with-windows-sockets-registration-and-resolution.md
+              items:
+                - name: 安裝 RnR 服務類別的範例程式碼
+                  href: example-code-for-installing-an-rnr-service-class.md
+                - name: 使用 RnR 發行集來執行 Winsock 服務的範例程式碼
+                  href: example-code-for-implementing-a-winsock-service-with-an-rnr-publication.md
+                - name: 發行 RnR 連接點的範例程式碼
+                  href: example-code-for-publishing-the-rnr-connection-point.md
+                - name: 移除 RnR 連接點的範例程式碼
+                  href: example-code-for-removing-the-rnr-connection-point.md
+                - name: 使用 RnR 查詢找出服務的範例程式碼
+                  href: example-code-for-a-winsock-client-locating-a-service-using-an-rnr-query.md
+            - name: 發行 COM + 服務
+              href: publishing-com-services.md
+        - name: 服務登入帳戶
+          href: service-logon-accounts.md
+          items:
+            - name: 關於服務登入帳戶
+              href: about-service-logon-accounts.md
+            - name: 選取服務登入帳戶的指導方針
+              href: guidelines-for-selecting-a-service-logon-account.md
+              items:
+                - name: 使用本機使用者帳戶做為服務登入帳戶
+                  href: local-user-accounts.md
+                - name: 使用網域使用者帳戶做為服務登入帳戶
+                  href: domain-user-accounts.md
+                - name: 使用 LocalSystem 帳戶做為服務登入帳戶
+                  href: the-localsystem-account.md
+            - name: 設定服務的使用者帳戶
+              href: setting-up-a-serviceampaposs-user-account.md
+            - name: 在主機電腦上安裝服務
+              href: installing-a-service-on-a-host-computer.md
+              items:
+                - name: '將主機電腦上的 [以服務方式登入] 許可權授與許可權'
+                  href: granting-logon-as-service-right-on-the-host-computer.md
+                - name: 測試是否正在網域控制站上執行
+                  href: testing-whether-running-on-a-domain-controller.md
+            - name: 將存取權限授與服務登入帳戶
+              href: granting-access-rights-to-the-service-logon-account.md
+              items:
+                - name: 啟用服務帳戶以存取 SCP 屬性
+                  href: enabling-service-account-to-access-scp-properties.md
+            - name: 登入帳戶維護工作
+              href: logon-account-maintenance-tasks.md
+              items:
+                - name: 變更服務使用者帳戶的密碼
+                  href: changing-the-password-on-a-serviceampaposs-user-account.md
+                - name: 列舉服務的複本
+                  href: enumerating-the-replicas-of-a-service.md
+            - name: 轉換網域帳戶名稱格式
+              href: converting-domain-account-name-formats.md
+        - name: 使用 Kerberos 進行相互驗證
+          href: mutual-authentication-using-kerberos.md
+          items:
+            - name: 關於使用 Kerberos 進行相互驗證
+              href: about-mutual-authentication-using-kerberos.md
+              items:
+                - name: 安全性提供者
+                  href: security-providers.md
+                - name: 完整性和隱私權
+                  href: integrity-and-privacy.md
+                - name: 使用 Kerberos 進行相互驗證的限制
+                  href: limitations-of-mutual-authentication-with-kerberos.md
+            - name: 服務主要名稱
+              href: service-principal-names.md
+              items:
+                - name: 唯一 Spn 的名稱格式
+                  href: name-formats-for-unique-spns.md
+                - name: 服務如何撰寫其 Spn
+                  href: how-a-service-composes-its-spns.md
+                - name: 服務如何註冊其 Spn
+                  href: how-a-service-registers-its-spns.md
+                - name: 用戶端如何撰寫服務的 SPN
+                  href: how-clients-compose-a-serviceampaposs-spn.md
+            - name: 具有 SCP 的 Windows 通訊端服務中的相互驗證
+              href: mutual-authentication-in-a-windows-sockets-service-with-an-scp.md
+              items:
+                - name: 用戶端如何驗證 SCP 型 Windows 通訊端服務
+                  href: how-a-client-authenticates-an-scp-based-windows-sockets-service.md
+                - name: 針對 SCP 型 Windows 通訊端服務撰寫和註冊 Spn
+                  href: composing-and-registering-spns-for-an-scp-based-windows-sockets-service.md
+                  items:
+                    - name: 使用 SCP 撰寫服務的 Spn
+                      href: composing-the-spns-for-a-service-with-an-scp.md
+                    - name: 註冊服務的 Spn
+                      href: registering-the-spns-for-a-service.md
+                - name: Windows 通訊端服務如何驗證用戶端
+                  href: how-a-windows-sockets-service-authenticates-a-client.md
+            - name: RPC 應用程式中的相互驗證
+              href: mutual-authentication-in-rpc-applications.md
+              items:
+                - name: 撰寫 RpcNs 服務的 Spn
+                  href: composing-spns-for-an-rpcns-service.md
+            - name: Windows 通訊端應用程式中的相互驗證
+              href: mutual-authentication-in-windows-sockets-applications.md
+        - name: 備份與還原 Active Directory 伺服器
+          href: backing-up-and-restoring-an-active-directory-server.md
+          items:
+            - name: Active Directory Domain Services 備份的考慮
+              href: considerations-for-active-directory-domain-services-backup.md
+            - name: 備份 Active Directory 伺服器
+              href: backing-up-an-active-directory-server.md
+            - name: 還原 Active Directory 伺服器
+              href: restoring-an-active-directory-server.md
+        - name: 儲存動態資料
+          href: storing-dynamic-data.md
+          items:
+            - name: 動態物件
+              href: dynamic-objects.md
+              items:
+                - name: 建立動態物件
+                  href: creating-dynamic-objects.md
+                - name: 重新整理動態物件
+                  href: refreshing-a-dynamic-object.md
+                - name: 設定 TTL 限制
+                  href: configuration-of-ttl-limits.md
+            - name: 動態輔助類別
+              href: dynamic-auxiliary-classes.md
+              items:
+                - name: 動態連結的輔助類別
+                  href: dynamically-linked-auxiliary-classes.md
+                - name: 靜態連結的輔助類別
+                  href: statically-linked-auxiliary-classes.md
+                - name: 判斷與物件實例相關聯的類別
+                  href: determining-the-classes-associated-with-an-object-instance.md
+                - name: 將輔助類別加入至物件實例
+                  href: adding-an-auxiliary-class-to-an-object-instance.md
+        - name: 應用程式目錄分割
+          href: application-directory-partitions.md
+          items:
+            - name: 應用程式目錄分割複寫
+              href: application-directory-partition-replication.md
+            - name: 應用程式目錄分割安全性
+              href: application-directory-partition-security.md
+            - name: 建立應用程式目錄分割
+              href: creating-an-application-directory-partition.md
+              items:
+                - name: 建立應用程式目錄分割的範例程式碼
+                  href: example-code-for-creating-an-application-directory-partition.md
+                - name: 用於尋找資料分割容器的範例程式碼
+                  href: example-code-for-locating-the-partitions-container.md
+            - name: 刪除應用程式目錄分割
+              href: deleting-an-application-directory-partition.md
+              items:
+                - name: 用來刪除應用程式目錄分割的範例程式碼
+                  href: example-code-for-deleting-an-application-directory-partition.md
+            - name: 列舉樹系中的應用程式目錄分割
+              href: enumerating-application-directory-partitions-in-a-forest.md
+            - name: 尋找應用程式目錄分割主機伺服器
+              href: locating-an-application-directory-partition-host-server.md
+              items:
+                - name: 用於尋找應用程式目錄分割主機伺服器的範例程式碼
+                  href: example-code-for-locating-an-application-directory-partition-host-server.md
+            - name: 新增或刪除應用程式目錄分割複本
+              href: adding-or-deleting-an-application-directory-partition-replica.md
+            - name: 列舉應用程式目錄分割的複本
+              href: enumerating-replicas-of-an-application-directory-partition.md
+            - name: 修改應用程式目錄分割設定
+              href: modifying-application-directory-partition-configuration.md
+        - name: 偵測網域的操作模式
+          href: detecting-the-operation-mode-of-a-domain.md
+          items:
+            - name: 判斷作業模式的範例程式碼
+              href: example-code-for-determining-the-operation-mode.md
+    - name: Active Directory Domain Services 參考
+      href: active-directory-domain-services-reference.md
+      items:
+        - name: Active Directory Domain Services 中的常數
+          href: constants-in-active-directory-domain-services.md
+          items:
+            - name: 消費者介面元素的 Guid
+              href: guids-of-user-interface-elements.md
+            - name: 透過使用者介面傳達的訊息
+              href: messages-communicated-through-user-interfaces.md
+              items:
+                - name: CQPM_CLEARFORM
+                  href: cqpm-clearform.md
+                - name: CQPM_ENABLE
+                  href: cqpm-enable.md
+                - name: CQPM_GETPARAMETERS
+                  href: cqpm-getparameters.md
+                - name: CQPM_HANDLERSPECIFIC
+                  href: cqpm-handlerspecific.md
+                - name: CQPM_HELP
+                  href: cqpm-help.md
+                - name: CQPM_INITIALIZE
+                  href: cqpm-initialize.md
+                - name: CQPM_PERSIST
+                  href: cqpm-persist.md
+                - name: CQPM_RELEASE
+                  href: cqpm-release.md
+                - name: CQPM_SETDEFAULTPARAMETERS
+                  href: cqpm-setdefaultparameters.md
+            - name: CFSTR_DS_DISPLAY_SPEC_OPTIONS
+              href: cfstr-ds-display-spec-options.md
+            - name: CFSTR_DS_MULTISELECTPROPPAGE
+              href: cfstr-ds-multiselectproppage.md
+            - name: CFSTR_DS_PARENTHWND
+              href: cfstr-ds-parenthwnd.md
+            - name: CFSTR_DS_PROPSHEETCONFIG
+              href: cfstr-ds-propsheetconfig.md
+            - name: CFSTR_DSOBJECTNAMES
+              href: cfstr-dsobjectnames.md
+            - name: CFSTR_DSOP_DS_SELECTION_LIST
+              href: cfstr-dsop-ds-selection-list.md
+            - name: CFSTR_DSPROPERTYPAGEINFO
+              href: cfstr-dspropertypageinfo.md
+            - name: CFSTR_DSQUERYPARAMS
+              href: cfstr-dsqueryparams.md
+            - name: CFSTR_DSQUERYSCOPE
+              href: cfstr-dsqueryscope.md
+            - name: BFT 常數
+              href: bft-constants.md
+        - name: Active Directory Domain Services 中的結構
+          href: structures-in-active-directory-domain-services.md
+          items:
+            - name: Active Directory Domain Services 中的管理結構
+              href: admin-structures-in-active-directory-domain-services.md
+              items:
+                - name: 'DSA_NEWOBJ_DISPINFO '
+                  href: /windows/desktop/api/DSAdmin/ns-dsadmin-dsa_newobj_dispinfo
+            - name: 在 Active Directory Domain Services 中顯示結構
+              href: display-structures-in-active-directory-domain-services.md
+              items:
+                - name: CQFORM
+                  href: /windows/desktop/api/Cmnquery/ns-cmnquery-cqform
+                - name: CQPAGE
+                  href: /windows/win32/api/Cmnquery/ns-cmnquery-cqpage
+                - name: DSA_SEC_PAGE_INFO
+                  href: dsa-sec-page-info.md
+                - name: DOMAINDESC
+                  href: /windows/win32/api/Dsclient/ns-dsclient-domaindesc
+                - name: DOMAINTREE
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-domain_tree
+                - name: DSBITEM
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsbitema
+                - name: DSBROWSEINFO
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsbrowseinfoa
+                - name: DSCLASSCREATIONINFO
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsclasscreationinfo
+                - name: DSCOLUMN
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dscolumn
+                - name: DSDISPLAYSPECOPTIONS
+                  href: /windows/win32/api/Dsclient/ns-dsclient-dsdisplayspecoptions
+                - name: DSOBJECT
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsobject
+                - name: DSOBJECTNAMES
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames
+                - name: DSPROPERTYPAGEINFO
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dspropertypageinfo
+                - name: DSQUERYCLASSLIST
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dsqueryclasslist
+                - name: DSQUERYINITPARAMS
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dsqueryinitparams
+                - name: DSQUERYPARAMS
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams
+                - name: OPENQUERYWINDOW
+                  href: /windows/desktop/api/Cmnquery/ns-cmnquery-openquerywindow
+                - name: PROPSHEETCFG
+                  href: propsheetcfg.md
+            - name: Active Directory Domain Services 中的 MMC 屬性頁面結構
+              href: mmc-property-page-structures-in-active-directory-domain-services.md
+              items:
+                - name: ADSPROPERROR
+                  href: /windows/win32/api/Adsprop/ns-adsprop-adsproperror
+                - name: ADSPROPINITPARAMS
+                  href: /windows/win32/api/Adsprop/ns-adsprop-adspropinitparams
+            - name: 網域控制站和複寫管理結構
+              href: domain-controller-and-replication-management-structures.md
+              items:
+                - name: DS_DOMAIN_CONTROLLER_INFO_1
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_1a
+                - name: DS_DOMAIN_CONTROLLER_INFO_2
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_2a
+                - name: DS_DOMAIN_CONTROLLER_INFO_3
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_3a
+                - name: DS_NAME_RESULT
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_name_resulta
+                - name: DS_NAME_RESULT_ITEM
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_name_result_itema
+                - name: DS_REPL_ATTR_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data
+                - name: DS_REPL_ATTR_META_DATA_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_2
+                - name: DS_REPL_ATTR_META_DATA_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_blob
+                - name: DS_REPL_ATTR_VALUE_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data
+                - name: DS_REPL_ATTR_VALUE_META_DATA_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_2
+                - name: DS_REPL_ATTR_VALUE_META_DATA_EXT
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_ext
+                - name: DS_REPL_CURSOR
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor
+                - name: DS_REPL_CURSOR_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_2
+                - name: DS_REPL_CURSOR_3
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_3w
+                - name: DS_REPL_CURSOR_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_blob
+                - name: DS_REPL_CURSORS
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors
+                - name: DS_REPL_CURSORS_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors_2
+                - name: DS_REPL_CURSORS_3
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors_3w
+                - name: DS_REPL_KCC_DSA_FAILURE
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew
+                - name: DS_REPL_KCC_DSA_FAILURES
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw
+                - name: DS_REPL_KCC_DSA_FAILUREW_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew_blob
+                - name: DS_REPL_NEIGHBOR
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw
+                - name: DS_REPL_NEIGHBORS
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborsw
+                - name: DS_REPL_NEIGHBORW_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw_blob
+                - name: DS_REPL_OBJ_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data
+                - name: DS_REPL_OBJ_META_DATA_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2
+                - name: DS_REPL_OP
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw
+                - name: DS_REPL_OPW_BLOB
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw_blob
+                - name: DS_REPL_PENDING_OPS
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_pending_opsw
+                - name: DS_REPL_QUEUE_STATISTICSW
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_queue_statisticsw
+                - name: DS_REPL_VALUE_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data
+                - name: DS_REPL_VALUE_META_DATA_2
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2
+                - name: DS_REPL_VALUE_META_DATA_BLOB
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_blob
+                - name: DS_REPL_VALUE_META_DATA_BLOB_EXT
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_blob_ext
+                - name: DS_REPL_VALUE_META_DATA_EXT
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext
+                - name: DS_REPSYNCALL_ERRINFO
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa
+                - name: DS_REPSYNCALL_SYNC
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_synca
+                - name: DS_REPSYNCALL_UPDATE
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_updatea
+                - name: DS_SCHEMA_GUID_MAP
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_schema_guid_mapa
+                - name: DS_SITE_COST_INFO
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_site_cost_info
+                - name: SCHEDULE
+                  href: /windows/win32/api/Schedule/ns-schedule-schedule
+                - name: SCHEDULE_HEADER
+                  href: /windows/win32/api/Schedule/ns-schedule-schedule_header
+            - name: 目錄服務結構
+              href: directory-service-structures.md
+              items:
+                - name: DOMAIN_CONTROLLER_INFO
+                  href: /windows/win32/api/Dsgetdc/ns-dsgetdc-domain_controller_infoa
+                - name: DS_DOMAIN_TRUSTS
+                  href: /windows/win32/api/Dsgetdc/ns-dsgetdc-ds_domain_trustsa
+                - name: DSROLE_OPERATION_STATE_INFO
+                  href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_operation_state_info
+                - name: DSROLE_PRIMARY_DOMAIN_INFO_BASIC
+                  href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_primary_domain_info_basic
+                - name: DSROLE_UPGRADE_STATUS_INFO
+                  href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_upgrade_status_info
+            - name: 目錄備份結構
+              href: directory-backup-structures.md
+              items:
+                - name: EDB_RSTMAP
+                  href: edb-rstmap.md
+            - name: 物件選擇器對話方塊結構
+              href: object-picker-dialog-box-structures.md
+              items:
+                - name: DS_SELECTION
+                  href: /windows/win32/api/Objsel/ns-objsel-ds_selection
+                - name: DS_SELECTION_LIST
+                  href: /windows/win32/api/Objsel/ns-objsel-ds_selection_list
+                - name: DSOP_FILTER_FLAGS
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_filter_flags
+                - name: DSOP_INIT_INFO
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_init_info
+                - name: DSOP_SCOPE_INIT_INFO
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_scope_init_info
+                - name: DSOP_UPLEVEL_FILTER_FLAGS
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_uplevel_filter_flags
+        - name: Active Directory Domain Services 中的列舉
+          href: enumerations-in-active-directory-domain-services.md
+          items:
+            - name: DS_KCC_TASKID
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_kcc_taskid
+            - name: DS_MANGLE_FOR
+              href: /windows/win32/api/Dsparse/ne-dsparse-ds_mangle_for
+            - name: DS_NAME_ERROR
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_error
+            - name: DS_NAME_FLAGS
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_flags
+            - name: DS_NAME_FORMAT
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_format
+            - name: DS_REPL_INFO_TYPE
+              href: /windows/win32/api/Ntdsapi/ne-ntdsapi-ds_repl_info_type
+            - name: DS_REPL_OP_TYPE
+              href: /windows/win32/api/Ntdsapi/ne-ntdsapi-ds_repl_op_type
+            - name: DS_REPSYNCALL_ERROR
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_repsyncall_error
+            - name: DS_REPSYNCALL_EVENT
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_repsyncall_event
+            - name: DS_SPN_NAME_TYPE
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_spn_name_type
+            - name: DS_SPN_WRITE_OP
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_spn_write_op
+            - name: DSROLE_MACHINE_ROLE
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_machine_role
+            - name: DSROLE_OPERATION_STATE
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_operation_state
+            - name: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_primary_domain_info_level
+            - name: DSROLE_SERVER_STATE
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_server_state
+        - name: Active Directory Domain Services 中的函數
+          href: functions-in-active-directory-domain-services.md
+          items:
+            - name: 在 Active Directory Domain Services 中顯示函數
+              href: display-functions-in-active-directory-domain-services.md
+              items:
+                - name: BFFCallBack
+                  href: /windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback
+                - name: CQAddFormsProc
+                  href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqaddformsproc
+                - name: CQAddPagesProc
+                  href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqaddpagesproc
+                - name: CQPageProc
+                  href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqpageproc
+                - name: DsBrowseForContainer
+                  href: /windows/desktop/api/Dsclient/nf-dsclient-dsbrowseforcontainera
+                - name: DSEnumAttributesCallback
+                  href: /windows/desktop/api/Dsclient/nc-dsclient-lpdsenumattributes
+                - name: DsGetFriendlyClassName
+                  href: /windows/desktop/api/Dsclient/nf-dsclient-dsgetfriendlyclassname
+                - name: DsGetIcon
+                  href: /windows/desktop/api/Dsclient/nf-dsclient-dsgeticon
+            - name: Active Directory Domain Services 中的 MMC 屬性頁函式
+              href: mmc-property-page-functions-in-active-directory-domain-services.md
+              items:
+                - name: ADsPropCheckIfWritable
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropcheckifwritable
+                - name: ADsPropCreateNotifyObj
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj
+                - name: ADsPropGetInitInfo
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropgetinitinfo
+                - name: ADsPropSendErrorMessage
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropsenderrormessage
+                - name: ADsPropSetHwnd
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd
+                - name: ADsPropSetHwndWithTitle
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropsethwndwithtitle
+                - name: ADsPropShowErrorDialog
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog
+            - name: 網域控制站和複寫管理功能
+              href: dc-and-replication-management-functions.md
+              items:
+                - name: DsAddSidHistory
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya
+                - name: DsBind
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbinda
+                - name: DsBindingSetTimeout
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindingsettimeout
+                - name: DsBindToISTG
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindtoistga
+                - name: DsBindWithCred
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithcreda
+                - name: DsBindWithSpn
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithspna
+                - name: DsBindWithSpnEx
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithspnexa
+                - name: DsClientMakeSpnForTargetServer
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsclientmakespnfortargetservera
+                - name: DsCrackNames
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dscracknamesa
+                - name: DsCrackSpn
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dscrackspna
+                - name: DsCrackUnquotedMangledRdn
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dscrackunquotedmangledrdna
+                - name: DsFreeDomainControllerInfo
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreedomaincontrollerinfoa
+                - name: DsFreeNameResult
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreenameresulta
+                - name: DsFreePasswordCredentials
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreepasswordcredentials
+                - name: DsFreeSchemaGuidMap
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreeschemaguidmapa
+                - name: DsFreeSpnArray
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreespnarraya
+                - name: DsGetDomainControllerInfo
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa
+                - name: DsGetRdnW
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsgetrdnw
+                - name: DsGetSpn
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna
+                - name: DsInheritSecurityIdentity
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsinheritsecurityidentitya
+                - name: DsIsMangledDn
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsismangleddna
+                - name: DsIsMangledRdnValue
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsismangledrdnvaluea
+                - name: DsListDomainsInSite
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistdomainsinsitea
+                - name: DsListInfoForServer
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistinfoforservera
+                - name: DsListRoles
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistrolesa
+                - name: DsListServersForDomainInSite
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistserversfordomaininsitea
+                - name: DsListServersInSite
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistserversinsitea
+                - name: DsListSites
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistsitesa
+                - name: DsMakePasswordCredentials
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa
+                - name: DsMakeSpn
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsmakespna
+                - name: DsMapSchemaGuids
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsmapschemaguidsa
+                - name: DsQuerySitesByCost
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsquerysitesbycosta
+                - name: DsQuerySitesFree
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsquerysitesfree
+                - name: DsQuoteRdnValue
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsquoterdnvaluea
+                - name: DsRemoveDsDomain
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsremovedsdomaina
+                - name: DsRemoveDsServer
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsremovedsservera
+                - name: DsReplicaAdd
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaadda
+                - name: DsReplicaConsistencyCheck
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaconsistencycheck
+                - name: DsReplicaDel
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicadela
+                - name: DsReplicaFreeInfo
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicafreeinfo
+                - name: DsReplicaGetInfo
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfow
+                - name: DsReplicaGetInfo2
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfo2w
+                - name: DsReplicaModify
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicamodifya
+                - name: DsReplicaSync
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicasynca
+                - name: DsReplicaSyncAll
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicasyncalla
+                - name: DsReplicaUpdateRefs
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa
+                - name: DsReplicaVerifyObjects
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaverifyobjectsa
+                - name: DsServerRegisterSpn
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsserverregisterspna
+                - name: DsUnBind
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsunbinda
+                - name: DsUnquoteRdnValue
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsunquoterdnvaluea
+                - name: DsWriteAccountSpn
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna
+                - name: SyncUpdateProc
+                  href: /previous-versions/windows/desktop/legacy/ms677968(v=vs.85)
+            - name: 目錄服務功能
+              href: directory-service-functions.md
+              items:
+                - name: DsAddressToSiteNames
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsaddresstositenamesa
+                - name: DsAddressToSiteNamesEx
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsaddresstositenamesexa
+                - name: DsDeregisterDnsHostRecords
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsderegisterdnshostrecordsa
+                - name: DsEnumerateDomainTrusts
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa
+                - name: DsGetDcClose
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew
+                - name: DsGetDcName
+                  href: /windows/desktop/api/DsGetDC/nf-dsgetdc-dsgetdcnamea
+                - name: DsGetDcNext
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta
+                - name: DsGetDcOpen
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena
+                - name: DsGetDcSiteCoverage
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcsitecoveragea
+                - name: DsGetForestTrustInformationW
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetforesttrustinformationw
+                - name: DsGetSiteName
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetsitenamea
+                - name: DsMergeForestTrustInformationW
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsmergeforesttrustinformationw
+                - name: DsRoleFreeMemory
+                  href: /windows/desktop/api/Dsrole/nf-dsrole-dsrolefreememory
+                - name: DsRoleGetPrimaryDomainInformation
+                  href: /windows/desktop/api/Dsrole/nf-dsrole-dsrolegetprimarydomaininformation
+                - name: DsValidateSubnetName
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsvalidatesubnetnamea
+            - name: 目錄備份功能
+              href: directory-backup-functions.md
+              items:
+                - name: DsBackupClose
+                  href: dsbackupclose.md
+                - name: DsBackupEnd
+                  href: dsbackupend.md
+                - name: DsBackupFree
+                  href: dsbackupfree.md
+                - name: DsBackupGetBackupLogs
+                  href: dsbackupgetbackuplogs.md
+                - name: DsBackupGetDatabaseNames
+                  href: dsbackupgetdatabasenames.md
+                - name: DsBackupOpenFile
+                  href: dsbackupopenfile.md
+                - name: DsBackupPrepare
+                  href: dsbackupprepare.md
+                - name: DsBackupRead
+                  href: dsbackupread.md
+                - name: DsBackupTruncateLogs
+                  href: dsbackuptruncatelogs.md
+                - name: DsIsNTDSOnline
+                  href: dsisntdsonline.md
+                - name: DsRestoreEnd
+                  href: dsrestoreend.md
+                - name: DsRestoreGetDatabaseLocations
+                  href: dsrestoregetdatabaselocations.md
+                - name: DsRestorePrepare
+                  href: dsrestoreprepare.md
+                - name: DsRestoreRegister
+                  href: dsrestoreregister.md
+                - name: DsRestoreRegisterComplete
+                  href: dsrestoreregistercomplete.md
+                - name: DsSetAuthIdentity
+                  href: dssetauthidentity.md
+                - name: DsSetCurrentBackupLog
+                  href: dssetcurrentbackuplog.md
+        - name: Active Directory Domain Services 的介面
+          href: interfaces-for-active-directory-domain-services.md
+          items:
+            - name: Active Directory Domain Services 中的管理介面
+              href: admin-interfaces-in-active-directory-domain-services.md
+              items:
+                - name: IDsAdminCreateObj
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj
+                  items:
+                    - name: 'IDsAdminCreateObj::CreateModal'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-createmodal
+                    - name: IDsAdminCreateObj：： Initialize
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-initialize
+                - name: IDsAdminNewObj
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobj
+                  items:
+                    - name: 'IDsAdminNewObj::GetPageCounts'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobj-getpagecounts
+                    - name: IDsAdminNewObj：： SetButtons
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobj-setbuttons
+                - name: IDsAdminNewObjPrimarySite
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobjprimarysite
+                  items:
+                    - name: IDsAdminNewObjPrimarySite：： Commit
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjprimarysite-commit
+                    - name: IDsAdminNewObjPrimarySite：： CreateNew
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjprimarysite-createnew
+                - name: IDsAdminNewObjExt
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobjext
+                  items:
+                    - name: 'IDsAdminNewObjExt::AddPages'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-addpages
+                    - name: 'IDsAdminNewObjExt::GetSummaryInfo'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-getsummaryinfo
+                    - name: IDsAdminNewObjExt：： Initialize
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-initialize
+                    - name: IDsAdminNewObjExt：： OnError
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-onerror
+                    - name: IDsAdminNewObjExt：： SetObject
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-setobject
+                    - name: 'IDsAdminNewObjExt::WriteData'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-writedata
+                - name: IDsAdminNotifyHandler
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnotifyhandler
+                  items:
+                    - name: IDsAdminNotifyHandler：： Begin
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-begin
+                    - name: IDsAdminNotifyHandler：： End
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-end
+                    - name: IDsAdminNotifyHandler：： Initialize
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-initialize
+                    - name: IDsAdminNotifyHandler：： Notify
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-notify
+            - name: 在 Active Directory Domain Services 中顯示介面
+              href: display-interfaces-in-active-directory-domain-services.md
+              items:
+                - name: ICommonQuery
+                  href: /windows/desktop/api/cmnquery/nn-cmnquery-icommonquery
+                  items:
+                    - name: 'ICommonQuery::OpenQueryWindow'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow
+                - name: IDsBrowseDomainTree
+                  href: /windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree
+                  items:
+                    - name: 'IDsBrowseDomainTree::BrowseTo'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto
+                    - name: 'IDsBrowseDomainTree::FlushCachedDomains'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains
+                    - name: 'IDsBrowseDomainTree::FreeDomains'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains
+                    - name: 'IDsBrowseDomainTree::GetDomains'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains
+                    - name: 'IDsBrowseDomainTree::SetComputer'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer
+                - name: IDsDisplaySpecifier
+                  href: /windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier
+                  items:
+                    - name: 'IDsDisplaySpecifier::EnumClassAttributes'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes
+                    - name: 'IDsDisplaySpecifier::GetAttributeADsType'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getattributeadstype
+                    - name: 'IDsDisplaySpecifier::GetClassCreationInfo'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo
+                    - name: 'IDsDisplaySpecifier::GetDisplaySpecifier'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier
+                    - name: 'IDsDisplaySpecifier::GetFriendlyAttributeName'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyattributename
+                    - name: 'IDsDisplaySpecifier::GetFriendlyClassName'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname
+                    - name: 'IDsDisplaySpecifier::GetIcon'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon
+                    - name: 'IDsDisplaySpecifier::GetIconLocation'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticonlocation
+                    - name: 'IDsDisplaySpecifier::IsClassContainer'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-isclasscontainer
+                    - name: 'IDsDisplaySpecifier::SetLanguageID'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setlanguageid
+                    - name: 'IDsDisplaySpecifier::SetServer'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver
+                - name: IPersistQuery
+                  href: /windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery
+                  items:
+                    - name: IPersistQuery：： Clear
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-clear
+                    - name: IPersistQuery：： ReadInt
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readint
+                    - name: IPersistQuery：： ReadString
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstring
+                    - name: 'IPersistQuery::ReadStruct'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstruct
+                    - name: 'IPersistQuery::WriteInt'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writeint
+                    - name: IPersistQuery：： WriteString
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestring
+                    - name: 'IPersistQuery::WriteStruct'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestruct
+                - name: IQueryForm
+                  href: /windows/desktop/api/cmnquery/nn-cmnquery-iqueryform
+                  items:
+                    - name: 'IQueryForm::AddForms'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms
+                    - name: 'IQueryForm::AddPages'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages
+                    - name: IQueryForm：： Initialize
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-initialize
+            - name: 物件選擇器對話方塊介面
+              href: object-picker-dialog-box-interfaces.md
+              items:
+                - name: IDsObjectPickerCredentials
+                  href: /windows/desktop/api/Objsel/nn-objsel-idsobjectpickercredentials
+                  items:
+                    - name: IDsObjectPickerCredentials：： SetCredentials 方法
+                      href: /windows/desktop/api/Objsel/nf-objsel-idsobjectpickercredentials-setcredentials
+                - name: IDsObjectPicker
+                  href: /windows/desktop/api/Objsel/nn-objsel-idsobjectpicker
+                  items:
+                    - name: IDsObjectPicker：： Initialize
+                      href: /windows/desktop/api/Objsel/nf-objsel-idsobjectpicker-initialize
+                    - name: 'IDsObjectPicker::InvokeDialog'
+                      href: /windows/desktop/api/Objsel/nf-objsel-idsobjectpicker-invokedialog
+        - name: Active Directory Domain Services 中的訊息
+          href: messages-in-active-directory-domain-services.md
+          items:
+            - name: WM_ADSPROP_NOTIFY_APPLY
+              href: wm-adsprop-notify-apply.md
+            - name: WM_ADSPROP_NOTIFY_CHANGE
+              href: wm-adsprop-notify-change.md
+            - name: WM_ADSPROP_NOTIFY_ERROR
+              href: wm-adsprop-notify-error.md
+            - name: WM_ADSPROP_NOTIFY_EXIT
+              href: wm-adsprop-notify-exit.md
+            - name: WM_ADSPROP_NOTIFY_FOREGROUND
+              href: wm-adsprop-notify-foreground.md
+            - name: WM_ADSPROP_NOTIFY_PAGEHWND
+              href: wm-adsprop-notify-pagehwnd.md
+            - name: WM_ADSPROP_NOTIFY_PAGEINIT
+              href: wm-adsprop-notify-pageinit.md
+            - name: WM_ADSPROP_NOTIFY_SETFOCUS
+              href: wm-adsprop-notify-setfocus.md
+            - name: WM_ADSPROP_SHEET_CREATE
+              href: wm-adsprop-sheet-create.md
+            - name: WM_DSA_SHEET_CLOSE_NOTIFY
+              href: wm-dsa-sheet-close-notify.md
+            - name: WM_DSA_SHEET_CREATE_NOTIFY
+              href: wm-dsa-sheet-create-notify.md
+        - name: Active Directory Domain Services 中函數的傳回值
+          href: return-values-for-functions-in-active-directory-domain-services.md
+          items:
+            - name: Success
+              href: success.md
+            - name: Active Directory Domain Services 中的備份錯誤
+              href: backup-errors-in-active-directory-domain-services.md
+            - name: Active Directory Domain Services 中的系統錯誤
+              href: system-errors-in-active-directory-domain-services.md
+            - name: 目錄管理員錯誤
+              href: directory-manager-errors.md
+            - name: Active Directory Domain Services 中函式的記錄和復原錯誤
+              href: logging-and-recovery-errors-in-functions-in-active-directory-domain-services.md
+        - name: Active Directory Domain Services 中的消費者介面對應
+          href: user-interface-mappings-in-active-directory-domain-services.md
+          items:
+            - name: Active Directory 消費者和電腦嵌入式管理單元的對應
+              href: mappings-for-the-active-directory-users-and-computers-snap-in.md
+              items:
+                - name: 消費者介面對應的電腦物件
+                  href: computer-object-user-interface-mapping.md
+                - name: 消費者介面對應的網域物件
+                  href: domain-object-user-interface-mapping.md
+                - name: 群組物件消費者介面對應
+                  href: group-object-user-interface-mapping.md
+                - name: 物件屬性工作表
+                  href: object-property-sheet.md
+                - name: 組織單位消費者介面對應
+                  href: organizational-unit-user-interface-mapping.md
+                - name: 印表機物件消費者介面對應
+                  href: printer-object-user-interface-mapping.md
+                - name: 共用資料夾物件消費者介面對應
+                  href: shared-folder-object-user-interface-mapping.md
+                - name: 使用者物件使用者介面對應
+                  href: user-object-user-interface-mapping.md
+        - name: Active Directory Domain Services 的 WMI 提供者參考
+          href: wmi-provider-reference-for-active-directory-domain-services.md
+          items:
+            - name: Active Directory Domain Services 中的 WMI 提供者類別
+              href: wmi-provider-classes-in-active-directory-domain-services.md
+              items:
+                - name: ReplicationProvider1
+                  href: replicationprovider1.md
+                - name: MSAD_DomainController
+                  href: msad-domaincontroller.md
+                  items:
+                    - name: MSAD_DomainController 類別的 ExecuteKCC 方法
+                      href: executekcc-msad-domaincontroller.md
+                - name: MSAD_NamingCoNtext
+                  href: msad-namingcontext.md
+                - name: MSAD_ReplCursor
+                  href: msad-replcursor.md
+                - name: MSAD_ReplNeighbor
+                  href: msad-replneighbor.md
+                  items:
+                    - name: MSAD_ReplNeighbor 類別的 SyncNamingCoNtext 方法
+                      href: syncnamingcontext-msad-replneighbor.md
+                - name: MSAD_ReplPendingOp
+                  href: msad-replpendingop.md

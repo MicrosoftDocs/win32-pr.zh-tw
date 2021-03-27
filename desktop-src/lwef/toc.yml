@@ -1,0 +1,1562 @@
+- name: 舊版 Windows 環境功能
+  href: legacy-windows-environment.md
+  items:
+    - name: 舊版 Shell 功能
+      href: legacy-shell-features.md
+      items:
+        - name: 建立公事包 Reconcilers
+          href: briefcase-reconcilers.md
+        - name: 建立磁片清理處理常式
+          href: disk-cleanup.md
+        - name: 處理螢幕保護裝置
+          href: screen-saver-library.md
+        - name: 實作資料夾檢視
+          href: nse-folderview.md
+        - name: 自訂資料夾的 Web View
+          href: web-view.md
+        - name: 應用程式網際網路快速鍵
+          href: internet-shortcuts.md
+        - name: 使用 Active Desktop 物件
+          href: active-desktop-interface.md
+        - name: 建立資料行處理常式
+          href: column-handlers.md
+        - name: 建立搜尋處理常式
+          href: search-handlers.md
+        - name: 使用預覽動詞來取代 Windows 圖片和傳真檢視器應用程式
+          href: replacing-picture-fax-viewer.md
+        - name: 相片嚮導
+          href: photo-wizards-bumper.md
+          items:
+            - name: 線上列印嚮導
+              href: online-printing-wizard.md
+            - name: 相片列印嚮導
+              href: photo-printing-wizard.md
+        - name: 發佈嚮導
+          href: publishing-wizards.md
+          items:
+            - name: 簡介
+              href: pubwiz-intro.md
+            - name: Client-Side 設計
+              href: pubwiz-client.md
+            - name: Server-Side 設計
+              href: pubwiz-server.md
+            - name: 註冊服務
+              href: pubwiz-reg.md
+            - name: 使用傳送資訊清單
+              href: pubwiz-manifest.md
+        - name: 舊版 Shell 參考
+          href: legacy-shell-reference.md
+          items:
+            - name: IActiveDesktop
+              href: /windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop
+              items:
+                - name: AddDesktopItem
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem
+                - name: AddDesktopItemWithUI
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitemwithui
+                - name: AddUrl
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-addurl
+                - name: ApplyChanges
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges
+                - name: GenerateDesktopItemHtml
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-generatedesktopitemhtml
+                - name: GetDesktopItem
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitem
+                - name: GetDesktopItemByID
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembyid
+                - name: GetDesktopItemBySource
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembysource
+                - name: GetDesktopItemCount
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount
+                - name: GetDesktopItemOptions
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemoptions
+                - name: System.windows.automation.peers.uielementautomationpeer.getpattern
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getpattern
+                - name: GetWallpaper
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaper
+                - name: GetWallpaperOptions
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaperoptions
+                - name: ModifyDesktopItem
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-modifydesktopitem
+                - name: RemoveDesktopItem
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-removedesktopitem
+                - name: SetDesktopItemOptions
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setdesktopitemoptions
+                - name: SetPattern
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setpattern
+                - name: SetWallpaper
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaper
+                - name: SetWallpaperOptions
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaperoptions
+            - name: IActiveDesktopP
+              href: /windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp
+              items:
+                - name: SetSafeMode
+                  href: /windows/desktop/api/shlobj/nf-shlobj-iactivedesktopp-setsafemode
+            - name: IADesktopP2
+              href: /windows/desktop/api/shlobj/nn-shlobj-iadesktopp2
+              items:
+                - name: UpdateAllDesktopSubscriptions
+                  href: /windows/desktop/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions
+            - name: IEmptyVolumeCache
+              href: /windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache
+              items:
+                - name: 停用
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-deactivate
+                - name: GetSpaceUsed
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused
+                - name: 初始化
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize
+                - name: 清除
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-purge
+                - name: Interactivesession.showproperties
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-showproperties
+            - name: IEmptyVolumeCache2
+              href: /windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2
+              items:
+                - name: InitializeEx
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex
+            - name: IEmptyVolumeCacheCallBack
+              href: /windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecachecallback
+              items:
+                - name: PurgeProgress
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecachecallback-purgeprogress
+                - name: ScanProgress
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecachecallback-scanprogress
+            - name: IReconcilableObject
+              href: /windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject
+              items:
+                - name: GetProgressFeedbackMaxEstimate
+                  href: /windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-getprogressfeedbackmaxestimate
+                - name: Reconcile
+                  href: /windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile
+            - name: IReconcileInitiator
+              href: ireconcileinitiator.md
+              items:
+                - name: SetAbortCallback
+                  href: /previous-versions//bb761345(v=vs.85)
+                - name: SetProgressFeedback
+                  href: /previous-versions//bb761347(v=vs.85)
+            - name: WebViewFolderContents
+              href: webviewfoldercontents.md
+              items:
+                - name: WebViewFolderContents 方法
+                  href: webviewfoldercontents-methods-bumper.md
+                  items:
+                    - name: PopupItemMenu
+                      href: webviewfoldercontents-popupitemmenu.md
+                    - name: SelectedItems
+                      href: webviewfoldercontents-selecteditems.md
+                    - name: SelectItem
+                      href: webviewfoldercontents-selectitem.md
+                - name: WebViewFolderContents 屬性
+                  href: webviewfoldercontents-properties-bumper.md
+                  items:
+                    - name: 應用程式
+                      href: webviewfoldercontents-application.md
+                    - name: FocusedItem
+                      href: webviewfoldercontents-focuseditem.md
+                    - name: 資料夾
+                      href: webviewfoldercontents-folder.md
+                    - name: 父代
+                      href: webviewfoldercontents-parent.md
+                    - name: 指令碼
+                      href: webviewfoldercontents-script.md
+                    - name: ViewOptions
+                      href: webviewfoldercontents-viewoptions.md
+                - name: WebViewFolderContents 事件
+                  href: webviewfoldercontents-events-bumper.md
+                  items:
+                    - name: SelectionChanged
+                      href: webviewfoldercontents-selectionchanged.md
+    - name: Microsoft 代理程式
+      href: microsoft-agent.md
+      items:
+        - name: Microsoft 代理程式簡介
+          href: introduction-to-microsoft-agent.md
+        - name: Windows Vista 中的 Microsoft Agent 變更
+          href: microsoft-agent-changes-in-windows-vista.md
+        - name: Microsoft 代理程式消費者介面
+          href: the-microsoft-agent-user-interface.md
+          items:
+            - name: 字元視窗
+              href: the-character-window.md
+            - name: 字元工作列圖示
+              href: the-character-taskbar-icon.md
+            - name: 語音命令視窗
+              href: the-voice-commands-window.md
+            - name: 文字提示
+              href: the-word-balloon.md
+            - name: 接聽提示視窗
+              href: the-listening-tip-window.md
+            - name: '[先進的字元選項] 視窗'
+              href: the-advanced-character-options-window.md
+              items:
+                - name: 輸出頁面
+                  href: the-output-page.md
+                - name: 語音輸入頁面
+                  href: the-speech-input-page.md
+                - name: 著作權頁面
+                  href: the-copyright-page.md
+            - name: '預設的 [字元屬性] 視窗'
+              href: the-default-character-properties-window.md
+        - name: Microsoft Agent 程式設計
+          href: programming-microsoft-agent.md
+          items:
+            - name: 設計字元互動的指導方針
+              href: guidelines-for-designing-character-interaction.md
+              items:
+                - name: 一般字元互動指導方針
+                  href: general-character-interaction-guidelines.md
+                  items:
+                    - name: 非獨佔
+                      href: be-non-exclusive.md
+                    - name: 提供適當的意見反應
+                      href: provide-appropriate-feedback.md
+                    - name: 使用自然變化
+                      href: use-natural-variation.md
+                - name: 社交互動
+                  href: social-interaction.md
+                  items:
+                    - name: 建立個人化
+                      href: create-personality.md
+                    - name: 觀察適當的禮儀
+                      href: observe-appropriate-etiquette.md
+                    - name: 使用讚揚
+                      href: use-praise.md
+                    - name: 建立小組玩家
+                      href: create-a-team-player.md
+                    - name: 考慮性別效應
+                      href: consider-gender-effects.md
+                - name: 語音辨識
+                  href: speech-recognition.md
+                  items:
+                    - name: 聆聽，不只是辨識
+                      href: listen--dont-just-recognize.md
+                    - name: 明確和限制選擇
+                      href: clarify-and-limit-choices.md
+                    - name: 提供良好的錯誤修復
+                      href: provide-good-error-recovery.md
+                - name: 語音輸出
+                  href: speech-output.md
+                  items:
+                    - name: 有效率且自然
+                      href: be-efficient-and-natural.md
+                    - name: 使用主動語音
+                      href: use-the-active-voice.md
+                    - name: 使用適當的計時和強調
+                      href: use-appropriate-timing-and-emphasis.md
+            - name: Microsoft 代理程式設計介面總覽
+              href: microsoft-agent-programming-interface-overview.md
+              items:
+                - name: 動畫服務
+                  href: animation-services.md
+                  items:
+                    - name: 載入字元
+                      href: loading-a-character.md
+                    - name: 正在載入預設字元
+                      href: loading-the-default-character.md
+                    - name: 製作字元動畫
+                      href: animating-a-character.md
+                - name: 輸入服務
+                  href: input-services.md
+                  items:
+                    - name: Input-Active 用戶端
+                      href: input-active-client.md
+                    - name: 快顯功能表支援
+                      href: pop-up-menu-support.md
+                    - name: 語音輸入支援
+                      href: speech-input-support.md
+                    - name: 語音引擎選取專案
+                      href: speech-engine-selection.md
+                    - name: 語音輸入事件
+                      href: speech-input-events.md
+                - name: 語音命令視窗
+                  href: voice-commands-window.md
+                  items:
+                    - name: 接聽秘訣
+                      href: the-listening-tip.md
+                    - name: '[先進的字元選項] 視窗'
+                      href: the-advanced-character-options-window-.md
+                - name: 輸出服務
+                  href: output-services.md
+                  items:
+                    - name: 合成語音支援
+                      href: synthesized-speech-support.md
+                    - name: 音訊輸出支援
+                      href: audio-output-support.md
+                    - name: 文字提示支援
+                      href: word-balloon-support.md
+                    - name: 動畫音效效果
+                      href: animation-sound-effects.md
+            - name: Microsoft Agent 控制項程式設計
+              href: programming-the-microsoft-agent-control.md
+              items:
+                - name: 文件慣例
+                  href: document-conventions.md
+                - name: 存取網頁中的控制項
+                  href: accessing-the-control-in-web-pages.md
+                  items:
+                    - name: 使用 VBScript
+                      href: using-vbscript.md
+                    - name: 使用 JavaScript 和 JScript
+                      href: using-javascript-and-jscript.md
+                - name: 存取語音服務
+                  href: accessing-speech-services-.md
+                - name: 從 Visual Basic 和其他程式設計語言存取控制項
+                  href: accessing-the-control-from-visual-basic-and-other-programming-languages.md
+                  items:
+                    - name: 建立控制項的實例
+                      href: creating-an-instance-of-the-control.md
+                    - name: 存取控制項的方法、屬性和事件
+                      href: accessing-the-controls-methods--properties--and-events.md
+                    - name: 從舊版更新
+                      href: updating-from-previous-version.md
+                - name: 直接存取 Microsoft Agent 服務
+                  href: accessing-microsoft-agent-services-directly.md
+                  items:
+                    - name: 代理程式物件模型
+                      href: the-agent-object-model.md
+                - name: 參考
+                  href: reference-.md
+                  items:
+                    - name: Request 物件
+                      href: the-request-object.md
+                    - name: Agent 控制項
+                      href: the-agent-control.md
+                      items:
+                        - name: 代理程式控制方法
+                          href: agent-control-methods.md
+                          items:
+                            - name: ShowDefaultCharacterProperties 方法
+                              href: showdefaultcharacterproperties-method.md
+                        - name: Agent 控制項屬性
+                          href: agent-control-properties.md
+                          items:
+                            - name: 連接屬性
+                              href: connected-property.md
+                            - name: Name 屬性
+                              href: name-property-a.md
+                            - name: RaiseRequestErrors 屬性
+                              href: raiserequesterrors-property.md
+                        - name: Agent 控制項事件
+                          href: agent-control-events.md
+                          items:
+                            - name: ActivateInput 事件
+                              href: activateinput-event.md
+                            - name: ActiveClientChange 事件
+                              href: activeclientchange-event.md
+                            - name: AgentPropertyChange 事件
+                              href: agentpropertychange-event.md
+                            - name: BalloonHide 事件
+                              href: balloonhide-event.md
+                            - name: BalloonShow 事件
+                              href: balloonshow-event.md
+                            - name: 書簽事件
+                              href: bookmark-event.md
+                            - name: 點選事件
+                              href: click-event.md
+                            - name: 命令事件
+                              href: command-event.md
+                            - name: DblClick 事件
+                              href: dblclick-event.md
+                            - name: DeactivateInput 事件
+                              href: deactivateinput-event.md
+                            - name: DefaultCharacterChange 事件
+                              href: defaultcharacterchange-event.md
+                            - name: DragComplete 事件
+                              href: dragcomplete-event.md
+                            - name: DragStart 事件
+                              href: dragstart-event.md
+                            - name: HelpComplete 事件
+                              href: helpcomplete-event.md
+                            - name: 隱藏事件
+                              href: hide-event.md
+                            - name: IdleComplete 事件
+                              href: idlecomplete-event.md
+                            - name: IdleStart 事件
+                              href: idlestart-event.md
+                            - name: ListenComplete 事件
+                              href: listencomplete-event.md
+                            - name: ListenStart 事件
+                              href: listenstart-event.md
+                            - name: 移動事件
+                              href: move-event.md
+                            - name: RequestComplete 事件
+                              href: requestcomplete-event.md
+                            - name: RequestStart 事件
+                              href: requeststart-event.md
+                            - name: 顯示事件
+                              href: show-event.md
+                            - name: 大小事件
+                              href: size-event.md
+                    - name: 字元物件
+                      href: the-characters-object.md
+                      items:
+                        - name: 字元物件方法
+                          href: characters-object-methods.md
+                          items:
+                            - name: 字元方法
+                              href: character-method.md
+                            - name: 載入方法
+                              href: load-method.md
+                            - name: 卸載方法
+                              href: unload-method.md
+                        - name: 字元物件方法
+                          href: character-object-methods.md
+                          items:
+                            - name: Activate 方法
+                              href: activate-method.md
+                            - name: GestureAt 方法
+                              href: gestureat-method.md
+                            - name: Get 方法
+                              href: get-method.md
+                            - name: Hide 方法
+                              href: hide-method.md
+                            - name: 中斷方法
+                              href: interrupt-method.md
+                            - name: 接聽方法
+                              href: listen-method.md
+                            - name: MoveTo 方法
+                              href: moveto-method.md
+                            - name: Play 方法
+                              href: play-method.md
+                            - name: Show 方法
+                              href: show-method.md
+                            - name: ShowPopupMenu 方法
+                              href: showpopupmenu-method.md
+                            - name: 說話方法
+                              href: speak-method.md
+                            - name: Stop 方法
+                              href: stop-method.md
+                            - name: StopAll 方法
+                              href: stopall-method.md
+                            - name: 思考方法
+                              href: think-method.md
+                            - name: Wait 方法
+                              href: wait-method.md
+                        - name: 字元物件屬性
+                          href: character-object-properties.md
+                          items:
+                            - name: 現用屬性
+                              href: active-property.md
+                            - name: AutoPopupMenu 屬性
+                              href: autopopupmenu-property.md
+                            - name: Description 屬性
+                              href: description-property.md
+                            - name: ExtraData 屬性
+                              href: extradata-property.md
+                            - name: GUID 屬性
+                              href: guid-property.md
+                            - name: HasOtherClients 屬性
+                              href: hasotherclients-property.md
+                            - name: Height 屬性
+                              href: height-property.md
+                            - name: '[上下文] 屬性'
+                              href: helpcontextid-property-ch.md
+                            - name: 內容説明屬性
+                              href: helpfile-property.md
+                            - name: HelpModeOn 屬性
+                              href: helpmodeon-property.md
+                            - name: IdleOn 屬性
+                              href: idleon-property.md
+                            - name: LanguageID 屬性
+                              href: languageid-property.md
+                            - name: 左方屬性
+                              href: left-property.md
+                            - name: MoveCause 屬性
+                              href: movecause-property.md
+                            - name: Name 屬性
+                              href: name-property.md
+                            - name: OriginalHeight 屬性
+                              href: originalheight-property.md
+                            - name: OriginalWidth 屬性
+                              href: originalwidth-property.md
+                            - name: 音調屬性
+                              href: pitch-property.md
+                            - name: SoundEffectsOn 屬性
+                              href: soundeffectson-property.md
+                            - name: 速度屬性
+                              href: speed-property.md
+                            - name: SRModeID 屬性
+                              href: srmodeid-property.md
+                            - name: SRStatus 屬性
+                              href: srstatus-property.md
+                            - name: Top 屬性
+                              href: top-property.md
+                            - name: TTSModeID 屬性
+                              href: ttsmodeid-property.md
+                            - name: Version 屬性
+                              href: version-property.md
+                            - name: VisibilityCause 屬性
+                              href: visibilitycause-property.md
+                            - name: Visible 屬性
+                              href: visible-property-cob.md
+                            - name: Width 屬性
+                              href: width-property-co.md
+                    - name: 命令集合物件
+                      href: the-commands-collection-object.md
+                      items:
+                        - name: 命令物件方法
+                          href: commands-object-methods.md
+                          items:
+                            - name: 新增方法
+                              href: add-method.md
+                            - name: 命令方法
+                              href: command-method.md
+                            - name: Insert 方法
+                              href: insert-method.md
+                            - name: Remove 方法
+                              href: remove-method.md
+                            - name: RemoveAll 方法
+                              href: removeall-method.md
+                        - name: 命令物件屬性
+                          href: commands-object-properties.md
+                          items:
+                            - name: Caption 屬性
+                              href: caption-property-cmds.md
+                            - name: Count 屬性
+                              href: count-property.md
+                            - name: DefaultCommand 屬性
+                              href: defaultcommand-property.md
+                            - name: FontName 屬性
+                              href: fontname-property.md
+                            - name: FontSize 屬性
+                              href: fontsize-property.md
+                            - name: GlobalVoiceCommandsEnabled 屬性
+                              href: globalvoicecommandsenabled-property.md
+                            - name: '[上下文] 屬性'
+                              href: helpcontextid-property.md
+                            - name: Visible 屬性
+                              href: visible-property-cso.md
+                            - name: Voice 屬性
+                              href: voice-property.md
+                            - name: VoiceCaption 屬性
+                              href: voicecaption-property.md
+                    - name: Command 物件
+                      href: the-command-object.md
+                      items:
+                        - name: Command 物件屬性
+                          href: command-object-properties.md
+                          items:
+                            - name: Caption 屬性
+                              href: caption-property.md
+                            - name: 信賴屬性
+                              href: confidence-property.md
+                            - name: ConfidenceText 屬性
+                              href: confidencetext-property.md
+                            - name: Enabled 屬性
+                              href: enabled-property-co.md
+                            - name: '[上下文] 屬性'
+                              href: helpcontextid-property-com.md
+                            - name: Visible 屬性
+                              href: visible-property-cop.md
+                            - name: Voice 屬性
+                              href: voice-property-c.md
+                            - name: VoiceCaption 屬性
+                              href: voicecaption-property-c.md
+                    - name: 球形球形物件
+                      href: the-balloon-object.md
+                      items:
+                        - name: 背景屬性
+                          href: backcolor-property.md
+                        - name: 邊框出屬性
+                          href: bordercolor-property.md
+                        - name: CharsPerLine 屬性
+                          href: charsperline-property.md
+                        - name: Enabled 屬性
+                          href: enabled-property.md
+                        - name: Graphicswindow.fontbold 屬性
+                          href: fontbold-property.md
+                        - name: FontCharSet 屬性
+                          href: fontcharset-property.md
+                        - name: FontItalic 屬性
+                          href: fontitalic-property.md
+                        - name: FontName 屬性
+                          href: fontname-property-bal.md
+                        - name: FontSize 屬性
+                          href: fontsize-property-bal.md
+                        - name: FontStrikeThru 屬性
+                          href: fontstrikethru-property.md
+                        - name: FontUnderline 屬性
+                          href: fontunderline-property.md
+                        - name: 前景屬性
+                          href: forecolor-property.md
+                        - name: NumberOfLines 屬性
+                          href: numberoflines-property.md
+                        - name: Style 屬性
+                          href: style-property.md
+                        - name: Visible 屬性
+                          href: visible-property-bal.md
+                    - name: AnimationNames 集合
+                      href: the-animationnames-collection.md
+                    - name: AudioOutput 物件
+                      href: the-audiooutput-object.md
+                      items:
+                        - name: Enabled 屬性
+                          href: enabled-property-ao.md
+                        - name: SoundEffects 屬性
+                          href: soundeffects-property.md
+                        - name: Status 屬性
+                          href: status-property.md
+                    - name: SpeechInput 物件
+                      href: the-speechinput-object.md
+                      items:
+                        - name: SpeechInput 屬性
+                          href: speechinput-properties.md
+                          items:
+                            - name: Enabled 屬性
+                              href: enabled-property-sio.md
+                            - name: 熱鍵屬性
+                              href: hotkey-property.md
+                            - name: ListeningTip 屬性
+                              href: listeningtip-property.md
+                    - name: CommandsWindow 物件
+                      href: the-commandswindow-object.md
+                      items:
+                        - name: CommandsWindow 屬性
+                          href: commandswindow-properties.md
+                          items:
+                            - name: Height 屬性
+                              href: height-property-cwo.md
+                            - name: 左方屬性
+                              href: left-property-cwo.md
+                            - name: Top 屬性
+                              href: top-property-cwo.md
+                            - name: Visible 屬性
+                              href: visible-property-cwo.md
+                            - name: Width 屬性
+                              href: width-property.md
+                    - name: PropertySheet 物件
+                      href: the-propertysheet-object.md
+                      items:
+                        - name: Height 屬性
+                          href: height-property-pso.md
+                        - name: 左方屬性
+                          href: left-property-pso.md
+                        - name: 頁面屬性
+                          href: page-property.md
+                        - name: Top 屬性
+                          href: top-property-pso.md
+                        - name: Visible 屬性
+                          href: visible-property.md
+                        - name: Width 屬性
+                          href: width-property-pso.md
+            - name: Microsoft 代理程式伺服器介面程式設計
+              href: programming-the-microsoft-agent-server-interface.md
+              items:
+                - name: 將 Microsoft Agent 功能新增至您的應用程式
+                  href: adding-microsoft-agent-functionality-to-your-application.md
+                - name: 載入字元和動畫資料
+                  href: loading-character-and-animation-data.md
+                - name: 建立通知接收
+                  href: creating-a-notification-sink.md
+                - name: 使用 JAVA 存取服務
+                  href: accessing-services-using-java.md
+                - name: 存取語音服務
+                  href: accessing-speech-services.md
+                - name: 參考
+                  href: reference.md
+                  items:
+                    - name: IAgent
+                      href: iagent.md
+                      items:
+                        - name: 'IAgent::GetCharacter'
+                          href: iagent--getcharacter.md
+                        - name: IAgent：： Load
+                          href: iagent--load.md
+                        - name: IAgent：： Register
+                          href: iagent--register.md
+                        - name: IAgent：： UnLoad
+                          href: iagent--unload.md
+                        - name: IAgent：：取消註冊
+                          href: iagent--unregister.md
+                    - name: IAgentAudioOutputProperties
+                      href: iagentaudiooutputproperties.md
+                      items:
+                        - name: IAgentAudioOutputProperties：： GetEnabled
+                          href: iagentaudiooutputproperties--getenabled.md
+                        - name: 'IAgentAudioOutputProperties::GetUsingSoundEffects'
+                          href: iagentaudiooutputproperties--getusingsoundeffects.md
+                    - name: IAgentAudioOutputPropertiesEx
+                      href: iagentaudiooutputpropertiesex.md
+                      items:
+                        - name: IAgentAudioOutputPropertiesEx：： GetStatus
+                          href: iagentaudiooutputpropertiesex--getstatus.md
+                    - name: IAgentBalloon
+                      href: iagentballoon.md
+                      items:
+                        - name: 'IAgentBalloon::GetBackColor'
+                          href: iagentballoon--getbackcolor.md
+                        - name: 'IAgentBalloon::GetBorderColor'
+                          href: iagentballoon--getbordercolor.md
+                        - name: IAgentBalloon：： GetEnabled
+                          href: iagentballoon--getenabled.md
+                        - name: 'IAgentBalloon::GetFontBold'
+                          href: iagentballoon--getfontbold.md
+                        - name: 'IAgentBalloon::GetFontCharSet'
+                          href: iagentballoon--getfontcharset.md
+                        - name: 'IAgentBalloon::GetFontItalic'
+                          href: iagentballoon--getfontitalic.md
+                        - name: 'IAgentBalloon::GetFontName'
+                          href: iagentballoon--getfontname.md
+                        - name: 'IAgentBalloon::GetFontSize'
+                          href: iagentballoon--getfontsize.md
+                        - name: 'IAgentBalloon::GetFontStrikethru'
+                          href: iagentballoon--getfontstrikethru.md
+                        - name: 'IAgentBalloon::GetFontUnderline'
+                          href: iagentballoon--getfontunderline.md
+                        - name: 'IAgentBalloon::GetForeColor'
+                          href: iagentballoon--getforecolor.md
+                        - name: 'IAgentBalloon::GetNumCharsPerLine'
+                          href: iagentballoon--getnumcharsperline.md
+                        - name: 'IAgentBalloon::GetNumLines'
+                          href: iagentballoon--getnumlines.md
+                        - name: IAgentBalloon：： GetVisible
+                          href: iagentballoon--getvisible.md
+                        - name: 'IAgentBalloon::SetFontCharSet'
+                          href: iagentballoon--setfontcharset.md
+                        - name: 'IAgentBalloon::SetFontName'
+                          href: iagentballoon--setfontname.md
+                        - name: 'IAgentBalloon::SetFontSize'
+                          href: iagentballoon--setfontsize.md
+                        - name: 'IAgentBalloon::SetVisible'
+                          href: iagentballoon--setvisible.md
+                    - name: IAgentBalloonEx
+                      href: iagentballoonex.md
+                      items:
+                        - name: 'IAgentBalloonEx::GetStyle'
+                          href: iagentballoonex--getstyle.md
+                        - name: 'IAgentBalloonEx::SetNumCharsPerLine'
+                          href: iagentballoonex--setnumcharsperline.md
+                        - name: 'IAgentBalloonEx::SetNumLines'
+                          href: iagentballoonex--setnumlines.md
+                        - name: IAgentBalloonEx：： >setstyle
+                          href: iagentballoonex--setstyle.md
+                    - name: IAgentCharacter
+                      href: iagentcharacter.md
+                      items:
+                        - name: IAgentCharacter：： Activate
+                          href: iagentcharacter--activate.md
+                        - name: 'IAgentCharacter::GestureAt'
+                          href: iagentcharacter--gestureat.md
+                        - name: IAgentCharacter：： GetDescription
+                          href: iagentcharacter--getdescription.md
+                        - name: 'IAgentCharacter::GetExtraData'
+                          href: iagentcharacter--getextradata.md
+                        - name: 'IAgentCharacter::GetIdleOn'
+                          href: iagentcharacter--getidleon.md
+                        - name: 'IAgentCharacter::GetMoveCause'
+                          href: iagentcharacter--getmovecause.md
+                        - name: IAgentCharacter：： GetName
+                          href: iagentcharacter--getname.md
+                        - name: IAgentCharacter：： GetPosition
+                          href: iagentcharacter--getposition.md
+                        - name: IAgentCharacter：： GetSize
+                          href: iagentcharacter--getsize.md
+                        - name: 'IAgentCharacter::GetSoundEffectsOn'
+                          href: iagentcharacter--getsoundeffectson.md
+                        - name: 'IAgentCharacter::GetTTSPitch'
+                          href: iagentcharacter--getttspitch.md
+                        - name: 'IAgentCharacter::GetTTSSpeed'
+                          href: iagentcharacter--getttsspeed.md
+                        - name: 'IAgentCharacter::GetVisibilityCause'
+                          href: iagentcharacter--getvisibilitycause.md
+                        - name: IAgentCharacter：： GetVisible
+                          href: iagentcharacter--getvisible.md
+                        - name: 'IAgentCharacter::HasOtherClients'
+                          href: iagentcharacter--hasotherclients.md
+                        - name: IAgentCharacter：： Hide
+                          href: iagentcharacter--hide.md
+                        - name: IAgentCharacter：：中斷
+                          href: iagentcharacter--interrupt.md
+                        - name: IAgentCharacter：： MoveTo
+                          href: iagentcharacter--moveto.md
+                        - name: 'IAgentCharacter：:P 的版面配置'
+                          href: iagentcharacter--play.md
+                        - name: 'IAgentCharacter：:P 準備'
+                          href: iagentcharacter--prepare.md
+                        - name: IAgentCharacter：： SetDescription
+                          href: iagentcharacter--setdescription.md
+                        - name: 'IAgentCharacter::SetIdleOn'
+                          href: iagentcharacter--setidleon.md
+                        - name: IAgentCharacter：： SetName
+                          href: iagentcharacter--setname.md
+                        - name: IAgentCharacter：： SetPosition
+                          href: iagentcharacter--setposition.md
+                        - name: IAgentCharacter：： SetSize
+                          href: iagentcharacter--setsize.md
+                        - name: 'IAgentCharacter::SetSoundEffectsOn'
+                          href: iagentcharacter--setsoundeffectson.md
+                        - name: IAgentCharacter：： Show
+                          href: iagentcharacter--show.md
+                        - name: IAgentCharacter：：說話
+                          href: iagentcharacter--speak.md
+                        - name: IAgentCharacter：： Stop
+                          href: iagentcharacter--stop.md
+                        - name: 'IAgentCharacter::StopAll'
+                          href: iagentcharacter--stopall.md
+                        - name: IAgentCharacter：： Wait
+                          href: iagentcharacter--wait.md
+                    - name: IAgentCharacterEx
+                      href: iagentcharacterex.md
+                      items:
+                        - name: 'IAgentCharacterEx::GetActive'
+                          href: iagentcharacterex--getactive.md
+                        - name: 'IAgentCharacterEx::GetAnimationNames'
+                          href: iagentcharacterex--getanimationnames.md
+                        - name: 'IAgentCharacterEx::GetAutoPopupMenu'
+                          href: iagentcharacterex--getautopopupmenu.md
+                        - name: IAgentCharacterEx：： GetGUID
+                          href: iagentcharacterex--getguid.md
+                        - name: 'IAgentCharacterEx::GetHelpCoNtextID'
+                          href: iagentcharacterex--gethelpcontextid.md
+                        - name: 'IAgentCharacterEx::GetHelpFileName'
+                          href: iagentcharacterex--gethelpfilename.md
+                        - name: 'IAgentCharacterEx::GetHelpModeOn'
+                          href: iagentcharacterex--gethelpmodeon.md
+                        - name: 'IAgentCharacterEx::GetLanguageID'
+                          href: iagentcharacterex--getlanguageid.md
+                        - name: 'IAgentCharacterEx::GetOriginalSize'
+                          href: iagentcharacterex--getoriginalsize.md
+                        - name: 'IAgentCharacterEx::GetSRModeID'
+                          href: iagentcharacterex--getsrmodeid.md
+                        - name: 'IAgentCharacterEx::GetSRStatus'
+                          href: iagentcharacterex--getsrstatus.md
+                        - name: 'IAgentCharacterEx::GetTTSModeID'
+                          href: iagentcharacterex--getttsmodeid.md
+                        - name: IAgentCharacterEx：： GetVersion
+                          href: iagentcharacterex--getversion.md
+                        - name: IAgentCharacterEx：：接聽
+                          href: iagentcharacterex--listen.md
+                        - name: 'IAgentCharacterEx::SetAutoPopupMenu'
+                          href: iagentcharacterex--setautopopupmenu.md
+                        - name: 'IAgentCharacterEx::SetHelpCoNtextID'
+                          href: iagentcharacterex--sethelpcontextid.md
+                        - name: 'IAgentCharacterEx::SetHelpFileName'
+                          href: iagentcharacterex--sethelpfilename.md
+                        - name: 'IAgentCharacterEx::SetHelpModeOn'
+                          href: iagentcharacterex--sethelpmodeon.md
+                        - name: 'IAgentCharacterEx::SetLanguageID'
+                          href: iagentcharacterex--setlanguageid.md
+                        - name: 'IAgentCharacterEx::SetSRModeID'
+                          href: iagentcharacterex--setsrmodeid.md
+                        - name: 'IAgentCharacterEx::SetTTSModeID'
+                          href: iagentcharacterex--setttsmodeid.md
+                        - name: 'IAgentCharacterEx::ShowPopupMenu'
+                          href: iagentcharacterex--showpopupmenu.md
+                        - name: IAgentCharacterEx：：試想
+                          href: iagentcharacterex--think.md
+                    - name: IAgentCommand
+                      href: iagentcommand.md
+                      items:
+                        - name: 'IAgentCommand::GetCaption'
+                          href: iagentcommand--getcaption.md
+                        - name: 'IAgentCommand::GetConfidenceText'
+                          href: iagentcommand--getconfidencetext.md
+                        - name: 'IAgentCommand::GetConfidenceThreshold'
+                          href: iagentcommand--getconfidencethreshold.md
+                        - name: IAgentCommand：： GetEnabled
+                          href: iagentcommand--getenabled.md
+                        - name: IAgentCommand：： GetID
+                          href: iagentcommand--getid.md
+                        - name: IAgentCommand：： GetVisible
+                          href: iagentcommand--getvisible.md
+                        - name: 'IAgentCommand::GetVoice'
+                          href: iagentcommand--getvoice.md
+                        - name: 'IAgentCommand::SetCaption'
+                          href: iagentcommand--setcaption.md
+                        - name: 'IAgentCommand::SetConfidenceThreshold'
+                          href: iagentcommand--setconfidencethreshold.md
+                        - name: 'IAgentCommand::SetConfidenceText'
+                          href: iagentcommand--setconfidencetext.md
+                        - name: 'IAgentCommand::SetEnabled'
+                          href: iagentcommand--setenabled.md
+                        - name: 'IAgentCommand::SetVisible'
+                          href: iagentcommand--setvisible.md
+                        - name: 'IAgentCommand::SetVoice'
+                          href: iagentcommand--setvoice.md
+                    - name: IAgentCommandEx
+                      href: iagentcommandex.md
+                      items:
+                        - name: 'IAgentCommandEx::GetHelpCoNtextID'
+                          href: iagentcommandex--gethelpcontextid.md
+                        - name: 'IAgentCommandEx::GetVoiceCaption'
+                          href: iagentcommandex--getvoicecaption.md
+                        - name: 'IAgentCommandEx::SetHelpCoNtextID'
+                          href: iagentcommandex--sethelpcontextid.md
+                        - name: 'IAgentCommandEx::SetVoiceCaption'
+                          href: iagentcommandex--setvoicecaption.md
+                    - name: IAgentCommands
+                      href: iagentcommands.md
+                      items:
+                        - name: IAgentCommands：： Add
+                          href: iagentcommands--add.md
+                        - name: 'IAgentCommands::GetCaption'
+                          href: iagentcommands--getcaption.md
+                        - name: IAgentCommands：： GetCommand
+                          href: iagentcommands--getcommand.md
+                        - name: IAgentCommands：： GetCount
+                          href: iagentcommands--getcount.md
+                        - name: IAgentCommands：： GetVisible
+                          href: iagentcommands--getvisible.md
+                        - name: 'IAgentCommands::GetVoice'
+                          href: iagentcommands--getvoice.md
+                        - name: IAgentCommands：： Insert
+                          href: iagentcommands--insert.md
+                        - name: IAgentCommands：： Remove
+                          href: iagentcommands--remove.md
+                        - name: IAgentCommands：： RemoveAll
+                          href: iagentcommands--removeall.md
+                        - name: 'IAgentCommands::SetCaption'
+                          href: iagentcommands--setcaption.md
+                        - name: 'IAgentCommands::SetVisible'
+                          href: iagentcommands--setvisible.md
+                        - name: 'IAgentCommands::SetVoice'
+                          href: iagentcommands--setvoice.md
+                    - name: IAgentCommandsEx
+                      href: iagentcommandsex.md
+                      items:
+                        - name: 'IAgentCommandsEx::AddEx'
+                          href: iagentcommandsex--addex.md
+                        - name: 'IAgentCommandsEx::GetDefaultID'
+                          href: iagentcommandsex--getdefaultid.md
+                        - name: 'IAgentCommandsEx::GetFontName'
+                          href: iagentcommandsex--getfontname.md
+                        - name: 'IAgentCommandsEx::GetFontSize'
+                          href: iagentcommandsex--getfontsize.md
+                        - name: 'IAgentCommandsEx::GetGlobalVoiceCommandsEnabled'
+                          href: iagentcommandsex--getglobalvoicecommandsenabled.md
+                        - name: 'IAgentCommandsEx::GetHelpCoNtextID'
+                          href: iagentcommandsex--gethelpcontextid.md
+                        - name: 'IAgentCommandsEx::GetVoiceCaption'
+                          href: iagentcommandsex--getvoicecaption.md
+                        - name: 'IAgentCommandsEx::InsertEx'
+                          href: iagentcommandsex--insertex.md
+                        - name: 'IAgentCommandsEx::SetDefaultID'
+                          href: iagentcommandsex--setdefaultid.md
+                        - name: 'IAgentCommandsEx::SetFontName'
+                          href: iagentcommandsex--setfontname.md
+                        - name: 'IAgentCommandsEx::SetFontSize'
+                          href: iagentcommandsex--setfontsize.md
+                        - name: 'IAgentCommandsEx::SetGlobalVoiceCommandsEnabled'
+                          href: iagentcommandsex--setglobalvoicecommandsenabled.md
+                        - name: 'IAgentCommandsEx::SetHelpCoNtextID'
+                          href: iagentcommandsex--sethelpcontextid.md
+                        - name: 'IAgentCommandsEx::SetVoiceCaption'
+                          href: iagentcommandsex--setvoicecaption.md
+                    - name: IAgentCommandWindow
+                      href: iagentcommandwindow.md
+                      items:
+                        - name: IAgentCommandWindow：： GetPosition
+                          href: iagentcommandwindow--getposition.md
+                        - name: IAgentCommandWindow：： GetSize
+                          href: iagentcommandwindow--getsize.md
+                        - name: IAgentCommandWindow：： GetVisible
+                          href: iagentcommandwindow--getvisible.md
+                        - name: 'IAgentCommandWindow::SetVisible'
+                          href: iagentcommandwindow--setvisible.md
+                    - name: IAgentEx
+                      href: iagentex.md
+                      items:
+                        - name: 'IAgentEx::ShowDefaultCharacterProperties'
+                          href: iagentex--showdefaultcharacterproperties.md
+                        - name: IAgentEx：： GetVersion
+                          href: iagentex--getversion.md
+                    - name: IAgentNotifySink
+                      href: events.md
+                      items:
+                        - name: 'IAgentNotifySink::ActivateInputState'
+                          href: iagentnotifysink--activateinputstate.md
+                        - name: 'IAgentNotifySink::BalloonVisibleState'
+                          href: iagentnotifysink---balloonvisiblestate.md
+                        - name: IAgentNotifySink：： Bookmark
+                          href: iagentnotifysink--bookmark.md
+                        - name: IAgentNotifySink：： Click
+                          href: iagentnotifysink--click.md
+                        - name: IAgentNotifySink：： Command
+                          href: iagentnotifysink--command.md
+                        - name: 'IAgentNotifySink：:D blClick'
+                          href: iagentnotifysink--dblclick.md
+                        - name: 'IAgentNotifySink：:D ragComplete'
+                          href: iagentnotifysink--dragcomplete.md
+                        - name: 'IAgentNotifySink：:D ragStart'
+                          href: iagentnotifysink--dragstart.md
+                        - name: IAgentNotifySink：：閒置
+                          href: iagentnotifysink--idle.md
+                        - name: IAgentNotifySink：： Move
+                          href: iagentnotifysink--move.md
+                        - name: 'IAgentNotifySink::RequestComplete'
+                          href: iagentnotifysink--requestcomplete.md
+                        - name: 'IAgentNotifySink::RequestStart'
+                          href: iagentnotifysink--requeststart.md
+                        - name: IAgentNotifySink：： Size
+                          href: iagentnotifysink---size.md
+                        - name: 'IAgentNotifySink::VisibleState'
+                          href: iagentnotifysink--visiblestate.md
+                    - name: IAgentNotifySinkEx
+                      href: iagentnotifysinkex.md
+                      items:
+                        - name: 'IAgentNotifySinkEx::ActiveClientChange'
+                          href: iagentnotifysinkex--activeclientchange.md
+                        - name: 'IAgentNotifySinkEx::AgentPropertyChange'
+                          href: iagentnotifysinkex--agentpropertychange.md
+                        - name: 'IAgentNotifySinkEx：:D efaultCharacterChange'
+                          href: iagentnotifysinkex--defaultcharacterchange.md
+                        - name: 'IAgentNotifySinkEx::HelpComplete'
+                          href: iagentnotifysinkex--helpcomplete.md
+                        - name: 'IAgentNotifySinkEx::ListeningState'
+                          href: iagentnotifysinkex--listeningstate.md
+                    - name: IAgentPropertySheet
+                      href: iagentpropertysheet.md
+                      items:
+                        - name: 'IAgentPropertySheet::GetPage'
+                          href: iagentpropertysheet--getpage.md
+                        - name: IAgentPropertySheet：： GetPosition
+                          href: iagentpropertysheet--getposition.md
+                        - name: IAgentPropertySheet：： GetSize
+                          href: iagentpropertysheet--getsize.md
+                        - name: IAgentPropertySheet：： GetVisible
+                          href: iagentpropertysheet--getvisible.md
+                        - name: 'IAgentPropertySheet::SetPage'
+                          href: iagentpropertysheet--setpage.md
+                        - name: 'IAgentPropertySheet::SetVisible'
+                          href: iagentpropertysheet--setvisible.md
+                    - name: IAgentSpeechInputProperties
+                      href: iagentspeechinputproperties.md
+                      items:
+                        - name: IAgentSpeechInputProperties：： GetEnabled
+                          href: iagentspeechinputproperties--getenabled.md
+                        - name: 'IAgentSpeechInputProperties::GetHotKey'
+                          href: iagentspeechinputproperties--gethotkey.md
+                        - name: 'IAgentSpeechInputProperties::GetListeningTip'
+                          href: iagentspeechinputproperties--getlisteningtip.md
+                    - name: IAgentUserInput
+                      href: iagentuserinput.md
+                      items:
+                        - name: 'IAgentUserInput::GetAllItemData'
+                          href: iagentuserinput--getallitemdata.md
+                        - name: IAgentUserInput：： GetCount
+                          href: iagentuserinput--getcount.md
+                        - name: 'IAgentUserInput::GetItemConfidence'
+                          href: iagentuserinput--getitemconfidence.md
+                        - name: 'IAgentUserInput::GetItemID'
+                          href: iagentuserinput--getitemid.md
+                        - name: IAgentUserInput：： GetItemText
+                          href: iagentuserinput--getitemtext.md
+            - name: 程式設計/腳本常見問題
+              href: programming-scripting-faq.md
+            - name: Microsoft 代理程式錯誤碼
+              href: microsoft-agent-error-codes.md
+        - name: 搭配 Microsoft 代理程式使用語音引擎
+          href: using-speech-engines-with-microsoft-agent.md
+          items:
+            - name: 存取程式碼中的語音引擎
+              href: accessing-a-speech-engine-in-your-code.md
+            - name: Microsoft 代理程式語音輸出標記
+              href: microsoft-agent-speech-output-tags.md
+              items:
+                - name: Chr 標記
+                  href: chr-tag.md
+                - name: Ctx 標記
+                  href: ctx-tag.md
+                - name: Emp 標記
+                  href: emp-tag.md
+                - name: .Lst 標記
+                  href: lst-tag.md
+                - name: 地圖示記
+                  href: map-tag.md
+                - name: Mrk 標記
+                  href: mrk-tag.md
+                - name: Pau 標記
+                  href: pau-tag.md
+                - name: Pit 標記
+                  href: pit-tag.md
+                - name: Rst 標記
+                  href: rst-tag.md
+                - name: Spd 標記
+                  href: spd-tag.md
+                - name: 音量標記
+                  href: vol-tag.md
+            - name: 文字轉換語音引擎文字正規化
+              href: text-to-speech-engines-text-normalization.md
+            - name: 語音引擎支援需求
+              href: speech-engine-support-requirements.md
+              items:
+                - name: 文字轉換語音引擎的需求
+                  href: requirements-for-text-to-speech-engines.md
+                  items:
+                    - name: ITTSCentralW
+                      href: ittscentralw.md
+                    - name: ITTSNotifySinkW
+                      href: ittsnotifysinkw.md
+                    - name: ITTSBufNotifySinkW
+                      href: ittsbufnotifysinkw.md
+                    - name: ITTSAttributesW
+                      href: ittsattributesw.md
+                - name: 語音辨識引擎的需求
+                  href: requirements-for-speech-recognition-engines.md
+                - name: 支援 Microsoft 語言資訊音效編輯工具的需求
+                  href: requirements-for-supporting-the-microsoft-linguistic-information-sound-editing-tool.md
+                  items:
+                    - name: ISRResGraphEx 和 IAttributes
+                      href: isrresgraphex-and-iattributes.md
+            - name: 其他與 Microsoft Agent 相容的語音引擎
+              href: other-speech-engines-compatible-with-microsoft-agent.md
+        - name: 建立 Microsoft Agent 的字元
+          href: creating-characters-for-microsoft-agent.md
+          items:
+            - name: 設計 Microsoft Agent 的字元
+              href: designing-characters-for-microsoft-agent.md
+              items:
+                - name: Characters
+                  href: characters.md
+                - name: 動畫
+                  href: animations.md
+                - name: 代理程式狀態
+                  href: agent-states.md
+                - name: 動畫原則
+                  href: animation-principles.md
+            - name: 使用 Microsoft 代理程式字元編輯器
+              href: using-the-microsoft-agent-character-editor.md
+              items:
+                - name: 啟動代理程式字元編輯器
+                  href: starting-the-agent-character-editor.md
+                - name: 定義新的字元
+                  href: defining-a-new-character.md
+                - name: 建立動畫
+                  href: creating-animations.md
+                - name: 命令參考資料
+                  href: command-reference-.md
+                - name: 工具列按鈕
+                  href: toolbar-buttons-.md
+            - name: 設計 Microsoft Office 的字元
+              href: designing-characters-for-microsoft-office.md
+              items:
+                - name: 動畫設計
+                  href: animation-design.md
+                - name: Office 動畫組
+                  href: the-office-animation-set.md
+                - name: 安裝您的字元
+                  href: installing-your-character.md
+        - name: 使用 Microsoft 語言資訊音效編輯工具
+          href: using-the-microsoft-linguistic-information-sound-editing-tool.md
+          items:
+            - name: 安裝音效編輯器
+              href: installing-the-sound-editor.md
+            - name: 啟動音效編輯器
+              href: starting-the-sound-editor.md
+            - name: 建立新的音效檔
+              href: creating-a-new-sound-file.md
+            - name: 載入現有的音效檔
+              href: loading-an-existing-sound-file.md
+            - name: 產生語言資訊
+              href: generating-linguistic-information.md
+            - name: 儲存音效檔
+              href: saving-a-sound-file.md
+            - name: 使用編輯器搭配不同的語音引擎
+              href: using-the-editor-with-a-different-speech-engine.md
+            - name: 命令參考資料
+              href: command-reference.md
+            - name: 工具列按鈕
+              href: toolbar-buttons.md
+        - name: 疑難排解 Microsoft Agent
+          href: troubleshooting-microsoft-agent.md
+          items:
+            - name: 安裝和頁面載入問題
+              href: installation-and-page-loading-problems.md
+            - name: 輸出問題
+              href: output-problems.md
+            - name: 語音輸入問題
+              href: speech-input-problems.md
+        - name: Microsoft 可用字元的動畫清單
+          href: animation-lists-for-the-characters-available-from-microsoft.md
+          items:
+            - name: 適用于瓶精靈字元的 Microsoft Agent 動畫
+              href: microsoft-agent-animations-for-genie-character.md
+            - name: 適用于 Merlin 字元的 Microsoft Agent 動畫
+              href: microsoft-agent-animations-for-merlin-character.md
+            - name: 適用于 Robby 字元的 Microsoft Agent 動畫
+              href: microsoft-agent-animations-for-robby-character.md
+            - name: 適用于 Peedy 字元的 Microsoft Agent 動畫
+              href: microsoft-agent-animations-for-peedy-character.md
+        - name: 參考書目
+          href: bibliography.md
+    - name: Windows 桌面搜尋2。x
+      href: '-search-2x-wds-overview.md'
+      items:
+        - name: 查詢 (WDS 2.x) 的索引
+          href: '-search-2x-querying-entry-page.md'
+          items:
+            - name: 從 Web Pages 呼叫 WDS
+              href: '-search-2x-wds-browserhelpobject.md'
+            - name: 以程式設計方式呼叫 WDS
+              href: '-search-2x-wds-callingwdsprogrammatically.md'
+            - name: 從命令列呼叫 WDS
+              href: '-search-2x-wds-fromcommandline.md'
+        - name: 擴充索引
+          href: '-search-2x-wds-extendingtheindex.md'
+          items:
+            - name: 開發 IFilter 增益集
+              href: '-search-2x-wds-ifilteraddins.md'
+            - name: 開發通訊協定處理常式增益集
+              href: '-search-2x-wds-phaddins.md'
+              items:
+                - name: 執行 WDS 的通訊協定處理常式
+                  href: '-search-2x-wds-phimplementing.md'
+                - name: 使用 Shell 擴充功能新增圖示和內容功能表
+                  href: '-search-2x-wds-ph-ui-extensions.md'
+                - name: 通知索引變更
+                  href: '-search-2x-wds-notifyingofchanges.md'
+                - name: 自訂通訊協定處理常式消費者介面範例程式碼
+                  href: '-search-2x-wds-ph-ui-samplecode.md'
+                - name: 安裝和註冊通訊協定處理常式
+                  href: '-search-2x-wds-ph-install-registration.md'
+        - name: 結構描述
+          href: '-search-2x-wds-schematable.md'
+        - name: 進階查詢語法
+          href: '-search-2x-wds-aqsreference.md'
+        - name: 認知類型
+          href: '-search-2x-wds-perceivedtype.md'
+        - name: 內容索引服務通訊協定
+          href: '-search-2x-wds-content-indexing-services-protocol.md'
+        - name: WDS 2.x ActiveX 控制項介面
+          href: '-search-activex-control-reference-entry-page.md'
+          items:
+            - name: IPropertyFilter
+              href: '-search-2x-ipropertyfilter.md'
+              items:
+                - name: IndexColumn
+                  href: '-search-2x-ipropertyfilter-indexcolumn.md'
+                - name: LogicOperator
+                  href: '-search-2x-ipropertyfilter-logicoperator.md'
+                - name: NestingDepth
+                  href: '-search-2x-ipropertyfilter-nestingdepth.md'
+                - name: Text
+                  href: '-search-2x-ipropertyfilter-text.md'
+                - name: UID
+                  href: '-search-2x-ipropertyfilter-uid.md'
+            - name: IPropertyFilterCollection
+              href: '-search-2x-ipropertyfiltercollection.md'
+              items:
+                - name: AddItem
+                  href: '-search-2x-ipropertyfiltercollection-additem.md'
+                - name: clear
+                  href: '-search-2x-ipropertyfiltercollection-clear.md'
+                - name: Count
+                  href: '-search-2x-ipropertyfiltercollection-count.md'
+                - name: GetITem
+                  href: '-search-2x-ipropertyfiltercollection-getitem.md'
+                - name: RemoveItem
+                  href: '-search-2x-ipropertyfiltercollection-removeitem.md'
+            - name: IResultProperty
+              href: '-search-2x-iresultproperty.md'
+              items:
+                - name: DataType
+                  href: '-search-2x-iresultproperty-datatype.md'
+                - name: DisplayName
+                  href: '-search-2x-iresultproperty-displayname.md'
+                - name: DisplayState
+                  href: '-search-2x-iresultproperty-displaystate.md'
+                - name: GoBack
+                  href: '-search-2x-iresultproperty-goback.md'
+                - name: GoForward
+                  href: '-search-2x-iresultproperty-goforward.md'
+                - name: 提示
+                  href: '-search-2x-iresultproperty-hint.md'
+                - name: IndexColumn
+                  href: '-search-2x-iresultproperty-indexcolumn.md'
+                - name: UID
+                  href: '-search-2x-iresultproperty-uid.md'
+            - name: IResultsViewer
+              href: '-search-2x-iresultsviewer.md'
+              items:
+                - name: 目錄
+                  href: '-search-2x-iresultsviewer-contents.md'
+                - name: DisplayName
+                  href: '-search-2x-iresultsviewer-displayname.md'
+                - name: EnumSelectedItems
+                  href: '-search-2x-iresultsviewer-enumselecteditems.md'
+                - name: FilterType
+                  href: '-search-2x-iresultsviewer-filtertype.md'
+                - name: GoBack
+                  href: '-search-2x-iresultsviewer-goback.md'
+                - name: GoForward
+                  href: '-search-2x-iresultsviewer-goforward.md'
+                - name: HeaderStyle
+                  href: '-search-2x-iresultsviewer-headerstyle.md'
+                - name: IsUpdateNeeded
+                  href: '-search-2x-iresultsviewer-isupdateneeded.md'
+                - name: ItemStore
+                  href: '-search-2x-iresultsviewer-itemstore.md'
+                - name: PreviewStyle
+                  href: '-search-2x-iresultsviewer-previewstyle.md'
+                - name: PropertyFilters
+                  href: '-search-2x-iresultsviewer-propertyfilters.md'
+                - name: QueryText
+                  href: '-search-2x-iresultsviewer-querytext.md'
+                - name: 重新整理
+                  href: '-search-2x-iresultsviewer-refresh.md'
+                - name: ResultsStyle
+                  href: '-search-2x-iresultsviewer-resultsstyle.md'
+                - name: SortOrderProperty
+                  href: '-search-2x-iresultsviewer-sortorderproperty.md'
+                - name: SortProperty
+                  href: '-search-2x-iresultsviewer-sortproperty.md'
+                - name: 停止
+                  href: '-search-2x-iresultsviewer-stop.md'
+                - name: 更新
+                  href: '-search-2x-iresultsviewer-update.md'
+            - name: IResultType
+              href: '-search-2x-iresulttype.md'
+              items:
+                - name: DisplayName
+                  href: '-search-2x-iresulttype-displayname.md'
+                - name: GetProperty
+                  href: '-search-2x-iresulttype-getproperty.md'
+                - name: PreceivedType
+                  href: '-search-2x-iresulttype-preceivedtype.md'
+                - name: PropertyCount
+                  href: '-search-2x-iresulttype-propertycount.md'
+                - name: UID
+                  href: '-search-2x-iresulttype-uid.md'
+            - name: IResultVerb
+              href: '-search-2x-iresultverb.md'
+              items:
+                - name: DisplayName
+                  href: '-search-2x-iresultverb-displayname.md'
+                - name: Doit r
+                  href: '-search-2x-iresultverb-doit.md'
+                - name: 已啟用
+                  href: '-search-2x-iresultverb-enabled.md'
+                - name: HelpText
+                  href: '-search-2x-iresultverb-helptext.md'
+                - name: 圖示
+                  href: '-search-2x-iresultverb-icon.md'
+                - name: 名稱
+                  href: '-search-2x-iresultverb-name.md'
+            - name: ISearchResult
+              href: '-search-2x-isearchresult.md'
+              items:
+                - name: 可用性
+                  href: '-search-2x-isearchresult-availability.md'
+                - name: DoVerb
+                  href: '-search-2x-isearchresult-doverb.md'
+                - name: GetIcon
+                  href: '-search-2x-isearchresult-geticon.md'
+                - name: GetThumbnail
+                  href: '-search-2x-isearchresult-getthumbnail.md'
+                - name: GetValue
+                  href: '-search-2x-isearchresult-getvalue.md'
+                - name: GetVerb
+                  href: '-search-2x-isearchresult-getverb.md'
+                - name: IconCount
+                  href: '-search-2x-isearchresult-iconcount.md'
+                - name: 索引
+                  href: '-search-2x-isearchresult-index.md'
+                - name: LoadState
+                  href: '-search-2x-isearchresult-loadstate.md'
+                - name: 預覽程式
+                  href: '-search-2x-isearchresult-previewer.md'
+                - name: PutValue
+                  href: '-search-2x-isearchresult-putvalue.md'
+                - name: ThumbnailState
+                  href: '-search-2x-isearchresult-thumbnailstate.md'
+                - name: 類型
+                  href: '-search-2x-isearchresult-type.md'
+                - name: VerbCount
+                  href: '-search-2x-isearchresult-verbcount.md'
+        - name: WDS 2.x 參考
+          href: '-search-2x-reference-entry-page.md'
+          items:
+            - name: WDS 2.x 常數和列舉
+              href: '-search-2x-constants-and-enumerations-entry-page.md'
+              items:
+                - name: ChangeAdviseCodes
+                  href: /previous-versions//aa965736(v=vs.85)
+                - name: ColumnSortOrder
+                  href: /windows/win32/api/mmcobj/ne-mmcobj-_columnsortorder
+                - name: HeaderDisplayStyle
+                  href: '-search-2x-headerdisplaystyleenum.md'
+                - name: PreviewDisplayStyle
+                  href: '-search-2x-previewdisplaystyleenum.md'
+                - name: ResultsDisplayStyle
+                  href: '-search-2x-resultsdisplaystyle.md'
+                - name: ViewContents
+                  href: '-search-2x-viewcontents.md'
+            - name: WDS 2.x 介面
+              href: '-search-2x-interfaces-entry-page.md'
+              items:
+                - name: 'IGatherNotify (已淘汰) '
+                  href: /previous-versions//aa965731(v=vs.85)
+                  items:
+                    - name: 'AddScope (已淘汰) '
+                      href: '-search-2x-igathernotify-addscope.md'
+                    - name: 'Init (已淘汰) '
+                      href: '-search-2x-igathernotify-init.md'
+                    - name: 'OnDataMove (已淘汰) '
+                      href: '-search-2x-igathernotify-ondatamove.md'
+                    - name: 'OnDataChange (已淘汰) '
+                      href: '-search-2x-igathernotify-ondatachange.md'
+                    - name: 'RemoveScope (已淘汰) '
+                      href: /previous-versions//ff431697(v=vs.85)
+                - name: ISearchDesktop
+                  href: /previous-versions//aa965729(v=vs.85)
+                  items:
+                    - name: ExecuteQuery
+                      href: /previous-versions//aa965727(v=vs.85)
+                    - name: ExecuteSQLQuery
+                      href: '-search-2x-isearchdesktop-executesqlquery.md'
+    - name: Windows Defender
+      href: windows-defender-bumper.md
+      items:
+        - name: 參考
+          href: defender-ref-entry.md
+          items:
+            - name: Windows Defender 列舉
+              href: windows-defender-enumerations.md
+              items:
+                - name: MPCALLBACK_TYPE
+                  href: mpcallback-type.md
+                - name: MPCOMPONENT_ID
+                  href: mpcomponent-id.md
+                - name: MPDETECTION_ORIGIN
+                  href: mpdetection-origin.md
+                - name: MPDETECTION_STATE
+                  href: mpdetection-state.md
+                - name: MPEXECUTION_STATUS
+                  href: mpexecution-status.md
+                - name: MP_FASTPATH_TYPE
+                  href: mp-fastpath-type.md
+                - name: MP_HASH_TYPE
+                  href: mp-hash-type.md
+                - name: MPNOTIFY
+                  href: mpnotify.md
+                - name: MP_PERSISTENCE_LIMIT_TYPE
+                  href: mp-persistence-limit-type.md
+                - name: MP_REMOVAL_REASON
+                  href: mp-removal-reason.md
+                - name: MPRESOLVED_REASON
+                  href: mpresolved-reason.md
+                - name: MPSCAN_TYPE
+                  href: mpscan-type.md
+                - name: MP_SIGNATURE_TYPE
+                  href: mp-signature-type.md
+                - name: MPSOURCE
+                  href: mpsource.md
+                - name: MPSTATUS_FLAG
+                  href: mpstatus-flag.md
+                - name: MPTHREAT_ACTION
+                  href: mpthreat-action.md
+                - name: MPTHREAT_CATEGORY
+                  href: mpthreat-category.md
+                - name: MPTHREAT_DETECTION
+                  href: mpthreat-detection.md
+                - name: MPTHREAT_SEVERITY
+                  href: mpthreat-severity.md
+                - name: MPTHREAT_STATUS
+                  href: mpthreat-status.md
+                - name: MPTHREAT_TYPE
+                  href: mpthreat-type.md
+            - name: Windows Defender 函式
+              href: windows-defender-functions.md
+              items:
+                - name: MpErrorMessageFormat
+                  href: mperrormessageformat.md
+                - name: MpFreeMemory
+                  href: mpfreememory.md
+                - name: MpHandleClose
+                  href: mphandleclose.md
+                - name: MpManagerOpen
+                  href: mpmanageropen.md
+                - name: MpManagerStatusQuery
+                  href: mpmanagerstatusquery.md
+                - name: MpManagerStatusQueryEx
+                  href: mpmanagerstatusqueryex.md
+                - name: MpManagerVersionQuery
+                  href: mpmanagerversionquery.md
+                - name: MpScanControl
+                  href: mpscancontrol.md
+                - name: MpScanStart
+                  href: mpscanstart.md
+                - name: MpThreatEnumerate
+                  href: mpthreatenumerate.md
+                - name: MpThreatOpen
+                  href: mpthreatopen.md
+                - name: MpThreatQuery
+                  href: mpthreatquery.md
+                - name: MpUpdateControl
+                  href: mpupdatecontrol.md
+                - name: MpUpdateStart
+                  href: mpupdatestart.md
+                - name: WDEnable
+                  href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdenable
+                - name: WDStatus
+                  href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdstatus
+            - name: Windows Defender 結構
+              href: windows-defender-structures.md
+              items:
+                - name: MPCALLBACK_DATA
+                  href: mpcallback-data.md
+                - name: MPCLEAN_DATA
+                  href: mpclean-data.md
+                - name: MPCLEAN_PRECHECK_DATA
+                  href: mpclean-precheck-data.md
+                - name: MPCOMPONENT_STATUS
+                  href: mpcomponent-status.md
+                - name: MPCOMPONENT_VERSION
+                  href: mpcomponent-version.md
+                - name: MPCONFIGURATION_DATA
+                  href: mpconfiguration-data.md
+                - name: MPENDOFLIFE_DATA
+                  href: mpendoflife-data.md
+                - name: MPEXPIRATION_DATA
+                  href: mpexpiration-data.md
+                - name: MPFASTPATH_DATA
+                  href: mpfastpath-data.md
+                - name: MPHEALTH_DATA
+                  href: mphealth-data.md
+                - name: MPMALWARETOAST_DATA
+                  href: mpmalwaretoast-data.md
+                - name: MPNIS_PRI加值稅E_DATA
+                  href: mpnis-private-data.md
+                - name: MPRESERVED_DATA
+                  href: mpreserved-data.md
+                - name: MPRESOURCE_INFO
+                  href: mpresource-info.md
+                - name: MPRESOURCE_STATS
+                  href: mpresource-stats.md
+                - name: MPSAMPLE_DATA
+                  href: mpsample-data.md
+                - name: MPSCAN_DATA
+                  href: mpscan-data.md
+                - name: MPSCAN_RESOURCES
+                  href: mpscan-resources.md
+                - name: MPSCAN_RESULT
+                  href: mpscan-result.md
+                - name: MPSIGUPDATE_DATA
+                  href: mpsigupdate-data.md
+                - name: MPSTATUS_DATA
+                  href: mpstatus-data.md
+                - name: MPSTATUS_DATAEX_UNUSED
+                  href: mpstatus-dataex-unused.md
+                - name: MPSTATUS_INFO
+                  href: mpstatus-info.md
+                - name: MPTHREAT_DATA
+                  href: mpthreat-data.md
+                - name: MPTHREAT_INFO
+                  href: mpthreat-info.md
+                - name: MPTHREAT_INFOEX_BEHAVIOR
+                  href: mpthreat-infoex-behavior.md
+                - name: MPTHREAT_INFOEX_NIS
+                  href: mpthreat-infoex-nis.md
+                - name: MPTHREAT_INFOEX_UNUSED
+                  href: mpthreat-infoex-unused.md
+                - name: MPTHREAT_LOCALIZED_INFO
+                  href: mpthreat-localized-info.md
+                - name: MPTHREAT_STATS
+                  href: mpthreat-stats.md
+                - name: MPTHREAT_STATS_DATA
+                  href: mpthreat-stats-data.md
+                - name: MPVERSION_INFO
+                  href: mpversion-info.md

@@ -1,0 +1,29 @@
+- name: 開發 Windows 應用程式的使用者介面開始使用
+  href: getting-started-developing-user-interfaces-portal.md
+  items:
+    - name: 消費者介面開發流程的總覽
+      href: the-process.md
+    - name: 設計消費者介面
+      href: designing-a-user-interface.md
+      items:
+        - name: 軟體設計中的可用性
+          href: usability-in-software-design.md
+        - name: 消費者介面原則
+          href: '-user-interface-principles.md'
+        - name: 遵循消費者介面指導方針
+          href: following-guidelines.md
+        - name: 感應消費者介面
+          href: inductive-user-interface.md
+    - name: 執行消費者介面
+      href: implementing-a-user-interface.md
+      items:
+        - name: 建立消費者介面原型
+          href: prototyping-a-user-interface.md
+        - name: 消費者介面技術
+          href: user-interface-technologies-for-windows-applications.md
+    - name: 測試消費者介面
+      href: testing-a-user-interface.md
+    - name: 安全性考慮： Windows 消費者介面
+      href: sec-ui.md
+    - name: 其他資源
+      href: other-resources.md
