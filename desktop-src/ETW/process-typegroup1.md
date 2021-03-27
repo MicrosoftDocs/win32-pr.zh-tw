@@ -1,0 +1,239 @@
+---
+description: 這個類別是處理事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+ms.assetid: 4f06e1af-3f9a-4346-aa50-50f3ee82cd98
+title: Process_TypeGroup1 類別
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Process_TypeGroup1
+- Process_TypeGroup1.UniqueProcessKey
+- Process_TypeGroup1.ProcessId
+- Process_TypeGroup1.ParentId
+- Process_TypeGroup1.SessionId
+- Process_TypeGroup1.ExitStatus
+- Process_TypeGroup1.DirectoryTableBase
+- Process_TypeGroup1.UserSID
+- Process_TypeGroup1.ImageFileName
+- Process_TypeGroup1.CommandLine
+api_type:
+- NA
+api_location: ''
+ms.openlocfilehash: 4ad2ebcd9a3e1563f6e2f4c82d90dd4d2c80112f
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103848260"
+---
+# <a name="process_typegroup1-class"></a>進程 \_ TypeGroup1 類別
+
+這個類別是處理事件的事件種類類別。
+
+以下是從 MOF 程式碼簡化的語法。
+
+## <a name="syntax"></a>語法
+
+``` syntax
+[EventType{1, 2, 3, 4, 39}, EventTypeName{"Start", "End", "DCStart", "DCEnd", "Defunct"}]
+class Process_TypeGroup1 : Process
+{
+  uint32 UniqueProcessKey;
+  uint32 ProcessId;
+  uint32 ParentId;
+  uint32 SessionId;
+  sint32 ExitStatus;
+  uint32 DirectoryTableBase;
+  object UserSID;
+  string ImageFileName;
+  string CommandLine;
+};
+```
+
+## <a name="members"></a>成員
+
+**Process \_ TypeGroup1** 類別具有下列類型的成員：
+
+-   [屬性](#properties)
+
+### <a name="properties"></a>屬性
+
+**Process \_ TypeGroup1** 類別具有這些屬性。
+
+<dl> <dt>
+
+CommandLine
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： WmiDataId (9) 、StringTermination ( "NullTerminated" ) 、Format ( "w" ) 
+</dt> </dl>
+
+進程的完整命令列。
+
+</dd> <dt>
+
+DirectoryTableBase
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： WmiDataId (6) ，指標
+</dt> </dl>
+
+進程之頁面資料表的實體位址。
+
+</dd> <dt>
+
+ExitStatus
+</dt> <dd> <dl> <dt>
+
+資料類型： **sint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： WmiDataId (5) 
+</dt> </dl>
+
+已停止進程的結束狀態。
+
+</dd> <dt>
+
+ImageFileName
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： WmiDataId (8) ，StringTermination ( "NullTerminated" ) 
+</dt> </dl>
+
+進程可執行檔的路徑。
+
+</dd> <dt>
+
+ParentId
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： WmiDataId (3) ，格式 ( "x" ) 
+</dt> </dl>
+
+建立此進程之進程的唯一識別碼。 系統會重複使用處理序識別碼，因此它們只會在該進程的存留期內找出處理常式。 ParentProcessId 所識別的進程可能會終止，因此 ParentProcessId 可能不會參考執行中的進程。 ParentProcessId 也可能不正確地參考重複使用處理序識別碼的進程。
+
+</dd> <dt>
+
+ProcessId
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： WmiDataId (2) ，格式 ( "x" ) 
+</dt> </dl>
+
+您可以用來識別進程的全域處理序識別碼。 此值從建立進程到終止之前都有效。
+
+</dd> <dt>
+
+SessionId
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： WmiDataId (4) 
+</dt> </dl>
+
+作業系統在建立新的會話時所產生的唯一識別碼。 會話從登入到從特定系統登出的一段時間。
+
+</dd> <dt>
+
+UniqueProcessKey
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： WmiDataId (1) ，指標
+</dt> </dl>
+
+核心中處理常式物件的位址。
+
+</dd> <dt>
+
+UserSID
+</dt> <dd> <dl> <dt>
+
+資料類型： **物件**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： WmiDataId (7) ，副檔名 ( "Sid" ) 
+</dt> </dl>
+
+安全性識別元 (SID) 用於事件發生所在的使用者內容。
+
+</dd> </dl>
+
+## <a name="remarks"></a>備註
+
+DCStart 和 DCEnd 事件種類會列舉目前正在執行的進程，包括每次核心會話開始和結束時的閒置和系統進程。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|------------------------------------------------------------|
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>       |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**處理序**](process.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,1114 @@
+- name: 映射主控 API
+  href: portal.md
+  items:
+    - name: 新功能
+      href: what-s-new.md
+    - name: 關於 IMAPI.EXE
+      href: about-imapi.md
+      items:
+        - name: 光碟格式
+          href: disc-formats.md
+    - name: 使用 IMAPI.EXE
+      href: using-imapi.md
+      items:
+        - name: 檢查磁片磁碟機支援
+          href: checking-drive-support.md
+        - name: 檢查媒體支援
+          href: checking-media-support.md
+        - name: 新增開機映射
+          href: adding-a-boot-image.md
+        - name: 燒錄光碟影像
+          href: burning-a-disc.md
+        - name: 建立多會話光碟
+          href: creating-a-multisession-disc.md
+        - name: 監視事件的進度
+          href: monitoring-progress-with-events.md
+        - name: 在燒錄期間防止登出或暫停
+          href: preventing-logoff-or-suspend-during-a-burn.md
+        - name: 提供媒體燒錄裝置的使用者權限
+          href: providing-user-permissions-for-media-burning-devices.md
+        - name: IMAPI.EXE 多會話配置
+          href: imapi-multisession-layout.md
+    - name: IMAPI.EXE 參考
+      href: imapi-reference.md
+      items:
+        - name: IMAPI.EXE 介面
+          href: imapi-interfaces.md
+          items:
+            - name: DDiscFormat2DataEvents
+              href: /windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents
+              items:
+                - name: Update 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-ddiscformat2dataevents-update
+            - name: DDiscFormat2EraseEvents
+              href: /windows/desktop/api/imapi2/nn-imapi2-ddiscformat2eraseevents
+              items:
+                - name: Update 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-ddiscformat2eraseevents-update
+            - name: DDiscFormat2RawCDEvents
+              href: /windows/desktop/api/imapi2/nn-imapi2-ddiscformat2rawcdevents
+              items:
+                - name: Update 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-ddiscformat2rawcdevents-update
+            - name: DDiscFormat2TrackAtOnceEvents
+              href: /windows/desktop/api/imapi2/nn-imapi2-ddiscformat2trackatonceevents
+              items:
+                - name: Update 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-ddiscformat2trackatonceevents-update
+            - name: DDiscMaster2Events
+              href: /windows/desktop/api/imapi2/nn-imapi2-ddiscmaster2events
+              items:
+                - name: NotifyDeviceAdded 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-ddiscmaster2events-notifydeviceadded
+                - name: NotifyDeviceRemoved 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-ddiscmaster2events-notifydeviceremoved
+            - name: DFileSystemImageEvents
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-dfilesystemimageevents
+              items:
+                - name: Update 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-dfilesystemimageevents-update
+            - name: DFileSystemImageImportEvents
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-dfilesystemimageimportevents
+              items:
+                - name: UpdateImport 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-dfilesystemimageimportevents-updateimport
+            - name: DWriteEngine2Events
+              href: /windows/desktop/api/imapi2/nn-imapi2-dwriteengine2events
+              items:
+                - name: Update 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-dwriteengine2events-update
+            - name: IBlockRange
+              href: /windows/desktop/api/imapi2/nn-imapi2-iblockrange
+              items:
+                - name: get_StartLba 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_startlba
+                - name: get_EndLba 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_endlba
+            - name: IBlockRangeList
+              href: /windows/desktop/api/imapi2/nn-imapi2-iblockrangelist
+              items:
+                - name: get_BlockRanges 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iblockrangelist-get_blockranges
+            - name: IBootOptions
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions
+              items:
+                - name: AssignBootImage 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-assignbootimage
+                - name: get_BootImage 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_bootimage
+                - name: get_Emulation 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_emulation
+                - name: get_ImageSize 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_imagesize
+                - name: get_Manufacturer 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_manufacturer
+                - name: get_PlatformId 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_platformid
+                - name: put_Emulation 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_emulation
+                - name: put_Manufacturer 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_manufacturer
+                - name: put_PlatformId 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid
+            - name: IBurnVerification
+              href: /windows/desktop/api/imapi2/nn-imapi2-iburnverification
+              items:
+                - name: get_BurnVerificationLevel 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iburnverification-get_burnverificationlevel
+                - name: put_BurnVerificationLevel 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iburnverification-put_burnverificationlevel
+            - name: IDiscFormat2
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscformat2
+              items:
+                - name: IsCurrentMediaSupported 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2-iscurrentmediasupported
+                - name: IsRecorderSupported 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported
+                - name: get_MediaHeuristicallyBlank 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaheuristicallyblank
+                - name: get_MediaPhysicallyBlank 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank
+                - name: get_SupportedMediaTypes 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_supportedmediatypes
+            - name: IDiscFormat2Data
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscformat2data
+              items:
+                - name: CancelWrite 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-cancelwrite
+                - name: get_BufferUnderrunFreeDisabled 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_bufferunderrunfreedisabled
+                - name: get_ClientName 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_clientname
+                - name: get_CurrentMediaStatus 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentmediastatus
+                - name: get_CurrentPhysicalMediaType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentphysicalmediatype
+                - name: get_CurrentRotationTypeIsPureCAV 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentrotationtypeispurecav
+                - name: get_CurrentWriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentwritespeed
+                - name: get_DisableConsumerDvdCompatibilityMode 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_disableconsumerdvdcompatibilitymode
+                - name: get_ForceMediaToBeClosed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_forcemediatobeclosed
+                - name: get_ForceOverwrite 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_forceoverwrite
+                - name: get_FreeSectorsOnMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_freesectorsonmedia
+                - name: get_LastWrittenAddressOfPreviousSession 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_lastwrittenaddressofprevioussession
+                - name: get_MultisessionInterfaces 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_multisessioninterfaces
+                - name: get_NextWritableAddress 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_nextwritableaddress
+                - name: get_PostgapAlreadyInImage 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_postgapalreadyinimage
+                - name: get_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_recorder
+                - name: get_RequestedRotationTypeIsPureCAV 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_requestedrotationtypeispurecav
+                - name: get_RequestedWriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_requestedwritespeed
+                - name: get_StartAddressOfPreviousSession 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_startaddressofprevioussession
+                - name: get_SupportedWriteSpeedDescriptors 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_supportedwritespeeddescriptors
+                - name: get_SupportedWriteSpeeds 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_supportedwritespeeds
+                - name: get_TotalSectorsOnMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_totalsectorsonmedia
+                - name: get_WriteProtectStatus 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_writeprotectstatus
+                - name: put_BufferUnderrunFreeDisabled 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_bufferunderrunfreedisabled
+                - name: put_ClientName 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_clientname
+                - name: put_DisableConsumerDvdCompatibilityMode 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_disableconsumerdvdcompatibilitymode
+                - name: put_ForceMediaToBeClosed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forcemediatobeclosed
+                - name: put_ForceOverwrite 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forceoverwrite
+                - name: put_PostgapAlreadyInImage 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_postgapalreadyinimage
+                - name: put_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_recorder
+                - name: SetWriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-setwritespeed
+                - name: Write 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write
+            - name: IDiscFormat2DataEventArgs
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscformat2dataeventargs
+              items:
+                - name: get_CurrentAction 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_currentaction
+                - name: get_ElapsedTime 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_elapsedtime
+                - name: get_RemainingTime 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_remainingtime
+                - name: get_TotalTime 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_totaltime
+            - name: IDiscFormat2Erase
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase
+              items:
+                - name: EraseMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-erasemedia
+                - name: get_ClientName 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_clientname
+                - name: get_CurrentPhysicalMediaType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_currentphysicalmediatype
+                - name: get_FullErase 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_fullerase
+                - name: get_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_recorder
+                - name: put_ClientName 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_clientname
+                - name: put_FullErase 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_fullerase
+                - name: put_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_recorder
+            - name: IDiscFormat2RawCD
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd
+              items:
+                - name: CancelWrite 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite
+                - name: get_BufferUnderrunFreeDisabled 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_bufferunderrunfreedisabled
+                - name: get_ClientName 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_clientname
+                - name: get_CurrentPhysicalMediaType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_currentphysicalmediatype
+                - name: get_CurrentRotationTypeIsPureCAV 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_currentrotationtypeispurecav
+                - name: get_CurrentWriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_currentwritespeed
+                - name: get_LastPossibleStartOfLeadout 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_lastpossiblestartofleadout
+                - name: get_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_recorder
+                - name: get_RequestedSectorType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedsectortype
+                - name: get_RequestedRotationTypeIsPureCAV 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedrotationtypeispurecav
+                - name: get_RequestedWriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedwritespeed
+                - name: get_StartOfNextSession 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_startofnextsession
+                - name: get_SupportedSectorTypes 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedsectortypes
+                - name: get_SupportedWriteSpeedDescriptors 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeddescriptors
+                - name: get_SupportedWriteSpeeds 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeds
+                - name: PrepareMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-preparemedia
+                - name: put_BufferUnderrunFreeDisabled 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_bufferunderrunfreedisabled
+                - name: put_ClientName 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_clientname
+                - name: put_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder
+                - name: put_RequestedSectorType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_requestedsectortype
+                - name: ReleaseMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia
+                - name: SetWriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-setwritespeed
+                - name: WriteMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia
+                - name: WriteMedia2 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2
+            - name: IDiscFormat2RawCDEventArgs
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcdeventargs
+              items:
+                - name: get_CurrentAction 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcdeventargs-get_currentaction
+                - name: get_ElapsedTime 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcdeventargs-get_elapsedtime
+                - name: get_RemainingTime 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcdeventargs-get_remainingtime
+            - name: IDiscFormat2TrackAtOnce
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce
+              items:
+                - name: AddAudioTrack 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-addaudiotrack
+                - name: CancelAddTrack 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack
+                - name: get_BufferUnderrunFreeDisabled 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_bufferunderrunfreedisabled
+                - name: get_ClientName 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_clientname
+                - name: get_CurrentPhysicalMediaType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentphysicalmediatype
+                - name: get_CurrentRotationTypeIsPureCAV 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentrotationtypeispurecav
+                - name: get_CurrentWriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentwritespeed
+                - name: get_DoNotFinalizeMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_donotfinalizemedia
+                - name: get_ExpectedTableOfContents 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_expectedtableofcontents
+                - name: get_FreeSectorsOnMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_freesectorsonmedia
+                - name: get_NumberOfExistingTracks 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_numberofexistingtracks
+                - name: get_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_recorder
+                - name: get_RequestedRotationTypeIsPureCAV 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav
+                - name: get_RequestedWriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedwritespeed
+                - name: get_SupportedWriteSpeedDescriptors 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeddescriptors
+                - name: get_SupportedWriteSpeeds 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds
+                - name: get_TotalSectorsOnMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_totalsectorsonmedia
+                - name: get_UsedSectorsOnMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_usedsectorsonmedia
+                - name: PrepareMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-preparemedia
+                - name: put_BufferUnderrunFreeDisabled 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_bufferunderrunfreedisabled
+                - name: put_ClientName 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_clientname
+                - name: put_DoNotFinalizeMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia
+                - name: put_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_recorder
+                - name: ReleaseMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia
+                - name: SetWriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed
+            - name: IDiscFormat2TrackAtOnceEventArgs
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonceeventargs
+              items:
+                - name: get_CurrentAction 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonceeventargs-get_currentaction
+                - name: get_CurrentTrackNumber 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonceeventargs-get_currenttracknumber
+                - name: get_ElapsedTime 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonceeventargs-get_elapsedtime
+                - name: get_RemainingTime 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonceeventargs-get_remainingtime
+            - name: IDiscMaster2
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscmaster2
+              items:
+                - name: get__NewEnum 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum
+                - name: get_Count 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count
+                - name: get_IsSupportedEnvironment 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_issupportedenvironment
+                - name: get_Item 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item
+            - name: IDiscRecorder2
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2
+              items:
+                - name: AcquireExclusiveAccess 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-acquireexclusiveaccess
+                - name: CloseTray 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-closetray
+                - name: DisableMcn 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-disablemcn
+                - name: EjectMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia
+                - name: EnableMcn 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn
+                - name: get_ActiveDiscRecorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_activediscrecorder
+                - name: get_CurrentFeaturePages 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentfeaturepages
+                - name: get_CurrentProfiles 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentprofiles
+                - name: get_DeviceCanLoadMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_devicecanloadmedia
+                - name: get_ExclusiveAccessOwner 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner
+                - name: get_LegacyDeviceNumber 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_legacydevicenumber
+                - name: get_ProductId 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_productid
+                - name: get_ProductRevision 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_productrevision
+                - name: get_SupportedFeaturePages 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages
+                - name: get_SupportedModePages 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedmodepages
+                - name: get_SupportedProfiles 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles
+                - name: get_VendorId 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_vendorid
+                - name: get_VolumeName 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_volumename
+                - name: get_VolumePathNames 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_volumepathnames
+                - name: InitializeDiscRecorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder
+                - name: ReleaseExclusiveAccess 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-releaseexclusiveaccess
+            - name: IDiscRecorder2Ex
+              href: /windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex
+              items:
+                - name: GetAdapterDescriptor 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getadapterdescriptor
+                - name: GetByteAlignmentMask 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getbytealignmentmask
+                - name: GetDeviceDescriptor 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getdevicedescriptor
+                - name: GetDiscInformation 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getdiscinformation
+                - name: GetFeaturePage 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage
+                - name: GetMaximumNonPageAlignedTransferSize 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumnonpagealignedtransfersize
+                - name: GetMaximumPageAlignedTransferSize 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumpagealignedtransfersize
+                - name: GetModePage 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage
+                - name: GetSupportedFeaturePages 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages
+                - name: GetSupportedModePages 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages
+                - name: GetSupportedProfiles 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles
+                - name: GetTrackInformation 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-gettrackinformation
+                - name: ReadDvdStructure 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-readdvdstructure
+                - name: SendCommandGetDataFromDevice 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandgetdatafromdevice
+                - name: SendCommandNoData 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandnodata
+                - name: SendCommandSendDataToDevice 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandsenddatatodevice
+                - name: SendDvdStructure 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-senddvdstructure
+                - name: SetModePage 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-setmodepage
+            - name: IEnumFsiItems
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ienumfsiitems
+              items:
+                - name: Clone 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-clone
+                - name: 下一個方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-next
+                - name: RemoteNext 方法
+                  href: ienumfsiitems-remotenext.md
+                - name: Reset 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-reset
+                - name: Skip 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-skip
+            - name: IEnumProgressItems
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems
+              items:
+                - name: Clone 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-clone
+                - name: 下一個方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-next
+                - name: RemoteNext 方法
+                  href: ienumprogressitems-remotenext.md
+                - name: Reset 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-reset
+                - name: Skip 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ienumprogressitems-skip
+            - name: IFileSystemImage
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage
+              items:
+                - name: CalculateDiscIdentifier 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-calculatediscidentifier
+                - name: ChooseImageDefaults 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaults
+                - name: ChooseImageDefaultsForMediaType 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaultsformediatype
+                - name: CreateDirectoryItem 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createdirectoryitem
+                - name: CreateFileItem 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createfileitem
+                - name: CreateResultImage 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage
+                - name: Exists 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-exists
+                - name: get_BootImageOptions 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions
+                - name: get_ChangePoint 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint
+                - name: get_DirectoryCount 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_directorycount
+                - name: get_FileCount 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filecount
+                - name: get_FileSystemsSupported 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemssupported
+                - name: get_FileSystemsToCreate 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemstocreate
+                - name: get_FreeMediaBlocks 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_freemediablocks
+                - name: get_ImportedVolumeName 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_importedvolumename
+                - name: get_ISO9660InterchangeLevel 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevel
+                - name: get_ISO9660InterchangeLevelsSupported 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported
+                - name: get_MultisessionInterfaces 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces
+                - name: get_Root 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_root
+                - name: get_SessionStartBlock 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_sessionstartblock
+                - name: get_StageFiles 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_stagefiles
+                - name: get_StrictFileSystemCompliance 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_strictfilesystemcompliance
+                - name: get_UDFRevision 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevision
+                - name: get_UDFRevisionsSupported 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevisionssupported
+                - name: get_UsedBlocks 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_usedblocks
+                - name: get_UseRestrictedCharacterSet 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_userestrictedcharacterset
+                - name: get_VolumeName 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumename
+                - name: get_VolumeNameISO9660 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameiso9660
+                - name: get_VolumeNameJoliet 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenamejoliet
+                - name: get_VolumeNameUDF 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameudf
+                - name: get_WorkingDirectory 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_workingdirectory
+                - name: GetDefaultFileSystemForImport 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-getdefaultfilesystemforimport
+                - name: IdentifyFileSystemsOnDisc 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-identifyfilesystemsondisc
+                - name: ImportFileSystem 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem
+                - name: ImportSpecificFileSystem 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem
+                - name: LockInChangePoint 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-lockinchangepoint
+                - name: put_BootImageOptions 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions
+                - name: put_FileSystemsToCreate 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_filesystemstocreate
+                - name: put_FreeMediaBlocks 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_freemediablocks
+                - name: put_ISO9660InterchangeLevel 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_iso9660interchangelevel
+                - name: put_MultisessionInterfaces 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_multisessioninterfaces
+                - name: put_SessionStartBlock 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_sessionstartblock
+                - name: put_StageFiles 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_stagefiles
+                - name: put_StrictFileSystemCompliance 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_strictfilesystemcompliance
+                - name: put_UDFRevision 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_udfrevision
+                - name: put_UseRestrictedCharacterSet 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_userestrictedcharacterset
+                - name: put_VolumeName 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename
+                - name: put_WorkingDirectory 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_workingdirectory
+                - name: RollbackToChangePoint 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-rollbacktochangepoint
+                - name: SetMaxMediaBlocksFromDevice 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-setmaxmediablocksfromdevice
+            - name: IFileSystemImage2
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage2
+              items:
+                - name: get_BootImageOptionsArray 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-get_bootimageoptionsarray
+                - name: put_BootImageOptionsArray 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-put_bootimageoptionsarray
+            - name: IFileSystemImage3
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage3
+              items:
+                - name: get_CreateRedundantUdfMetadataFiles 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-get_createredundantudfmetadatafiles
+                - name: put_CreateRedundantUdfMetadataFiles 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-put_createredundantudfmetadatafiles
+                - name: ProbeSpecificFileSystem 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-probespecificfilesystem
+            - name: IFileSystemImageResult
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult
+              items:
+                - name: get_BlockSize 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_blocksize
+                - name: get_DiscId 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_discid
+                - name: get_ImageStream 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_imagestream
+                - name: get_ProgressItems 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_progressitems
+                - name: get_TotalBlocks 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_totalblocks
+            - name: IFileSystemImageResult2
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult2
+              items:
+                - name: get_ModifiedBlocks 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult2-get_modifiedblocks
+            - name: IFsiDirectoryItem
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem
+              items:
+                - name: 新增方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-add
+                - name: AddDirectory 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory
+                - name: AddFile 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile
+                - name: AddTree 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addtree
+                - name: get__NewEnum 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get__newenum
+                - name: get_Count 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_count
+                - name: get_EnumFsiItems 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_enumfsiitems
+                - name: get_Item 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_item
+                - name: Remove 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove
+                - name: RemoveTree 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-removetree
+            - name: IFsiDirectoryItem2
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem2
+              items:
+                - name: AddTreeWithNamedStreams 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem2-addtreewithnamedstreams
+            - name: IFsiFileItem
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem
+              items:
+                - name: get_Data 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_data
+                - name: get_DataSize 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize
+                - name: get_DataSize32BitHigh 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize32bithigh
+                - name: get_DataSize32BitLow 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize32bitlow
+                - name: put_Data 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-put_data
+            - name: IFsiFileItem2
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2
+              items:
+                - name: get_FsiNamedStreams 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_fsinamedstreams
+                - name: get_IsNamedStream 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_isnamedstream
+                - name: AddStream 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-addstream
+                - name: RemoveStream 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-removestream
+                - name: get_IsRealTime 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_isrealtime
+                - name: put_IsRealTime 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-put_isrealtime
+            - name: IFsiItem
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem
+              items:
+                - name: get_FileSystemName 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-filesystemname
+                - name: get_FileSystemPath 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-filesystempath
+                - name: get_CreationTime 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_creationtime
+                - name: get_FullPath 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_fullpath
+                - name: get_IsHidden 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_ishidden
+                - name: get_LastAccessedTime 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_lastaccessedtime
+                - name: get_LastModifiedTime 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_lastmodifiedtime
+                - name: get_Name 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_name
+                - name: put_CreationTime 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_creationtime
+                - name: put_IsHidden 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_ishidden
+                - name: put_LastAccessedTime 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastaccessedtime
+                - name: put_LastModifiedTime 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastmodifiedtime
+            - name: IFsiNamedStreams
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams
+              items:
+                - name: get_NewEnum 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get__newenum
+                - name: get_Item 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_item
+                - name: get_Count 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_count
+                - name: get_EnumNamedStreams 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_enumnamedstreams
+            - name: IIsoImageManager
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-iisoimagemanager
+              items:
+                - name: get_Path 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_path
+                - name: get_Stream 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_stream
+                - name: SetPath 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath
+                - name: SetStream 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream
+                - name: Validate 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-validate
+            - name: IMultisession
+              href: /windows/desktop/api/imapi2/nn-imapi2-imultisession
+              items:
+                - name: get_ImportRecorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisession-get_importrecorder
+                - name: get_InUse 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisession-get_inuse
+                - name: get_IsSupportedOnCurrentMediaState 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisession-get_issupportedoncurrentmediastate
+                - name: put_InUse 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse
+            - name: IMultisessionRandomWrite
+              href: /windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite
+              items:
+                - name: get_WriteUnitSize 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_writeunitsize
+                - name: get_LastWrittenAddress 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_lastwrittenaddress
+                - name: get_TotalSectorsOnMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_totalsectorsonmedia
+            - name: IMultisessionSequential
+              href: /windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential
+              items:
+                - name: get_FreeSectorsOnMedia 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_freesectorsonmedia
+                - name: get_IsFirstDataSession 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_isfirstdatasession
+                - name: get_LastWrittenAddressOfPreviousSession 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_lastwrittenaddressofprevioussession
+                - name: get_NextWritableAddress 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_nextwritableaddress
+                - name: get_StartAddressOfPreviousSession 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_startaddressofprevioussession
+            - name: IMultisessionSequential2
+              href: /windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential2
+              items:
+                - name: get_WriteUnitSize 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential2-get_writeunitsize
+            - name: IProgressItem
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem
+              items:
+                - name: get_BlockCount 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_blockcount
+                - name: get_Description 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_description
+                - name: get_FirstBlock 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_firstblock
+                - name: get_LastBlock 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_lastblock
+            - name: IProgressItems
+              href: /windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems
+              items:
+                - name: get__NewEnum 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get__newenum
+                - name: get_Count 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_count
+                - name: get_EnumProgressItems 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_enumprogressitems
+                - name: get_Item 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_item
+                - name: ProgressItemFromBlock 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromblock
+                - name: ProgressItemFromDescription 方法
+                  href: /windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromdescription
+            - name: IRawCDImageCreator
+              href: /windows/desktop/api/imapi2/nn-imapi2-irawcdimagecreator
+              items:
+                - name: get_DisableGaplessAudio 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_disablegaplessaudio
+                - name: put_DisableGaplessAudio 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_disablegaplessaudio
+                - name: get_ExpectedTableOfContents 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_expectedtableofcontents
+                - name: get_LastUsedUserSectorInImage 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_lastusedusersectorinimage
+                - name: put_MediaCatalogNumber 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_mediacatalognumber
+                - name: get_MediaCatalogNumber 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_mediacatalognumber
+                - name: get_NumberOfExistingTracks 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_numberofexistingtracks
+                - name: put_ResultingImageType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_resultingimagetype
+                - name: get_ResultingImageType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_resultingimagetype
+                - name: get_StartOfLeadoutLimit 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_startofleadoutlimit
+                - name: get_StartOfLeadout 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_startofleadout
+                - name: put_StartOfLeadoutLimit 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_startofleadoutlimit
+                - name: get_StartingTrackNumber 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_startingtracknumber
+                - name: put_StartingTrackNumber 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_startingtracknumber
+                - name: get_TrackInfo 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_trackinfo
+                - name: AddTrack 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-addtrack
+                - name: AddSubcodeRWGenerator 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-addsubcoderwgenerator
+                - name: AddSpecialPregap 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-addspecialpregap
+                - name: CreateResultImage 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-createresultimage
+            - name: IRawCDImageTrackInfo
+              href: /windows/desktop/api/imapi2/nn-imapi2-irawcdimagetrackinfo
+              items:
+                - name: get_AudioHasPreemphasis 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-get_audiohaspreemphasis
+                - name: put_AudioHasPreemphasis 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-put_audiohaspreemphasis
+                - name: get_DigitalAudioCopySetting 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-get_digitalaudiocopysetting
+                - name: put_DigitalAudioCopySetting 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-put_digitalaudiocopysetting
+                - name: get_ISRC 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-get_isrc
+                - name: put_ISRC 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-put_isrc
+                - name: get_SectorType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-get_sectortype
+                - name: get_StartingLba 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-get_startinglba
+                - name: get_SectorCount 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-get_sectorcount
+                - name: get_TrackIndexes 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-get_trackindexes
+                - name: get_TrackNumber 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-irawcdimagetrackinfo-get_tracknumber
+            - name: IStreamConcatenate
+              href: /windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate
+              items:
+                - name: Append 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append
+                - name: Append2 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2
+                - name: Initialize 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize
+                - name: Initialize2 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize2
+            - name: IStreamInterleave
+              href: /windows/desktop/api/imapi2/nn-imapi2-istreaminterleave
+              items:
+                - name: Initialize 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-istreaminterleave-initialize
+            - name: IStreamPseudoRandomBased
+              href: /windows/desktop/api/imapi2/nn-imapi2-istreampseudorandombased
+              items:
+                - name: get_ExtendedSeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_extendedseed
+                - name: get_Seed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_seed
+                - name: put_ExtendedSeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed
+                - name: put_Seed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_seed
+            - name: IWriteEngine2
+              href: /windows/desktop/api/imapi2/nn-imapi2-iwriteengine2
+              items:
+                - name: CancelWrite 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-cancelwrite
+                - name: get_BytesPerSector 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_bytespersector
+                - name: get_EndingSectorsPerSecond 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_endingsectorspersecond
+                - name: get_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_recorder
+                - name: get_StartingSectorsPerSecond 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_startingsectorspersecond
+                - name: get_UseStreamingWrite12 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_usestreamingwrite12
+                - name: get_WriteInProgress 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_writeinprogress
+                - name: put_BytesPerSector 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_bytespersector
+                - name: put_EndingSectorsPerSecond 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_endingsectorspersecond
+                - name: put_Recorder 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_recorder
+                - name: put_StartingSectorsPerSecond 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_startingsectorspersecond
+                - name: put_UseStreamingWrite12 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_usestreamingwrite12
+                - name: WriteSection 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-writesection
+            - name: IWriteEngine2EventArgs
+              href: /windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs
+              items:
+                - name: get_FreeSystemBuffer 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_freesystembuffer
+                - name: get_LastReadLba 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_lastreadlba
+                - name: get_LastWrittenLba 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_lastwrittenlba
+                - name: get_SectorCount 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_sectorcount
+                - name: get_StartLba 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_startlba
+                - name: get_TotalSystemBuffer 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_totalsystembuffer
+                - name: get_UsedSystemBuffer 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_usedsystembuffer
+            - name: IWriteSpeedDescriptor
+              href: /windows/desktop/api/imapi2/nn-imapi2-iwritespeeddescriptor
+              items:
+                - name: get_MediaType 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwritespeeddescriptor-get_mediatype
+                - name: get_RotationTypeIsPureCAV 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwritespeeddescriptor-get_rotationtypeispurecav
+                - name: get_WriteSpeed 方法
+                  href: /windows/desktop/api/imapi2/nf-imapi2-iwritespeeddescriptor-get_writespeed
+            - name: MsftStreamZero
+              href: msftstreamzero.md
+        - name: IMAPI.EXE 列舉
+          href: imapi-enumerations.md
+          items:
+            - name: EmulationType
+              href: /windows/desktop/api/imapi2fs/ne-imapi2fs-emulationtype
+            - name: FsiFileSystems
+              href: /windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems
+            - name: FsiItemType
+              href: /windows/desktop/api/imapi2fs/ne-imapi2fs-fsiitemtype
+            - name: IMAPI_BURN_VERIFICATION_LEVEL
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_burn_verification_level
+            - name: IMAPI_CD_SECTOR_TYPE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_cd_sector_type
+            - name: IMAPI_CD_TRACK_DIGITAL_COPY_SETTING
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_cd_track_digital_copy_setting
+            - name: IMAPI_FEATURE_PAGE_TYPE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_feature_page_type
+            - name: IMAPI_FORMAT2_DATA_MEDIA_STATE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_format2_data_media_state
+            - name: IMAPI_FORMAT2_DATA_WRITE_ACTION
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_format2_data_write_action
+            - name: IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type
+            - name: IMAPI_FORMAT2_RAW_CD_WRITE_ACTION
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_write_action
+            - name: IMAPI_FORMAT2_TAO_WRITE_ACTION
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_format2_tao_write_action
+            - name: IMAPI_MEDIA_PHYSICAL_TYPE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_media_physical_type
+            - name: IMAPI_MEDIA_WRITE_PROTECT_STATE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_media_write_protect_state
+            - name: IMAPI_MODE_PAGE_REQUEST_TYPE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_mode_page_request_type
+            - name: IMAPI_MODE_PAGE_TYPE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_mode_page_type
+            - name: IMAPI_PROFILE_TYPE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_profile_type
+            - name: IMAPI_READ_TRACK_ADDRESS_TYPE
+              href: /windows/win32/api/imapi2/ne-imapi2-imapi_read_track_address_type
+            - name: PlatformId
+              href: /windows/desktop/api/imapi2fs/ne-imapi2fs-platformid
+        - name: IMAPI.EXE 常數
+          href: imapi-constants.md
+        - name: IMAPI.EXE 傳回值
+          href: imapi-return-values.md
+        - name: IMAPI.EXE 資料類型
+          href: imapi-data-types.md
+        - name: 詞彙
+          href: glossary.md
+    - name: IMAPIv1 支援
+      href: imapiv1.md
+      items:
+        - name: 關於映射主控 API
+          href: about-the-image-mastering-api.md
+        - name: 使用映射主控 API
+          href: using-the-image-mastering-api.md
+          items:
+            - name: 與 IMAPI.EXE 互動
+              href: interacting-with-imapi.md
+            - name: 建立具有多個會話的光碟
+              href: creating-discs-with-multiple-sessions.md
+        - name: IMAPIv1 參考
+          href: imapiv1-reference.md
+          items:
+            - name: IMAPIv1 介面
+              href: imapiv1-interfaces.md
+              items:
+                - name: IDiscMaster
+                  href: /windows/desktop/api/Imapi/nn-imapi-idiscmaster
+                  items:
+                    - name: ClearFormatContent 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-clearformatcontent
+                    - name: Close 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-close
+                    - name: EnumDiscMasterFormats 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-enumdiscmasterformats
+                    - name: EnumDiscRecorders 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-enumdiscrecorders
+                    - name: GetActiveDiscMasterFormat 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-getactivediscmasterformat
+                    - name: GetActiveDiscRecorder 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-getactivediscrecorder
+                    - name: Open 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-open
+                    - name: ProgressAdvise 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-progressadvise
+                    - name: ProgressUnadvise 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-progressunadvise
+                    - name: RecordDisc 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-recorddisc
+                    - name: SetActiveDiscMasterFormat 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-setactivediscmasterformat
+                    - name: SetActiveDiscRecorder 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmaster-setactivediscrecorder
+                - name: IDiscMasterProgressEvents
+                  href: /windows/desktop/api/Imapi/nn-imapi-idiscmasterprogressevents
+                  items:
+                    - name: NotifyAddProgress 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmasterprogressevents-notifyaddprogress
+                    - name: NotifyBlockProgress 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmasterprogressevents-notifyblockprogress
+                    - name: NotifyBurnComplete 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmasterprogressevents-notifyburncomplete
+                    - name: NotifyClosingDisc 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmasterprogressevents-notifyclosingdisc
+                    - name: NotifyEraseComplete 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmasterprogressevents-notifyerasecomplete
+                    - name: NotifyPnPActivity 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmasterprogressevents-notifypnpactivity
+                    - name: NotifyPreparingBurn 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmasterprogressevents-notifypreparingburn
+                    - name: NotifyTrackProgress 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmasterprogressevents-notifytrackprogress
+                    - name: QueryCancel 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscmasterprogressevents-querycancel
+                - name: IDiscRecorder
+                  href: /windows/desktop/api/Imapi/nn-imapi-idiscrecorder
+                  items:
+                    - name: Close 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-close
+                    - name: 退出方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-eject
+                    - name: Erase 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-erase
+                    - name: GetBasePnPID 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-getbasepnpid
+                    - name: GetDisplayNames 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-getdisplaynames
+                    - name: GetPath 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-getpath
+                    - name: GetRecorderGUID 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-getrecorderguid
+                    - name: GetRecorderProperties 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-getrecorderproperties
+                    - name: GetRecorderState 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-getrecorderstate
+                    - name: GetRecorderType 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-getrecordertype
+                    - name: OpenExclusive 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-openexclusive
+                    - name: QueryMediaInfo 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-querymediainfo
+                    - name: QueryMediaType 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-querymediatype
+                    - name: SetRecorderProperties 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-idiscrecorder-setrecorderproperties
+                - name: IJolietDiscMaster
+                  href: /windows/desktop/api/Imapi/nn-imapi-ijolietdiscmaster
+                  items:
+                    - name: AddData 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-ijolietdiscmaster-adddata
+                    - name: GetDataBlockSize 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-ijolietdiscmaster-getdatablocksize
+                    - name: GetJolietProperties 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-ijolietdiscmaster-getjolietproperties
+                    - name: GetTotalDataBlocks 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-ijolietdiscmaster-gettotaldatablocks
+                    - name: GetUsedDataBlocks 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-ijolietdiscmaster-getuseddatablocks
+                    - name: SetJolietProperties 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-ijolietdiscmaster-setjolietproperties
+                - name: IRedbookDiscMaster
+                  href: /windows/desktop/api/Imapi/nn-imapi-iredbookdiscmaster
+                  items:
+                    - name: AddAudioTrackBlocks 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-iredbookdiscmaster-addaudiotrackblocks
+                    - name: CloseAudioTrack 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-iredbookdiscmaster-closeaudiotrack
+                    - name: CreateAudioTrack 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-iredbookdiscmaster-createaudiotrack
+                    - name: GetAudioBlockSize 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-iredbookdiscmaster-getaudioblocksize
+                    - name: GetAvailableAudioTrackBlocks 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-iredbookdiscmaster-getavailableaudiotrackblocks
+                    - name: GetTotalAudioBlocks 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-iredbookdiscmaster-gettotalaudioblocks
+                    - name: GetTotalAudioTracks 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-iredbookdiscmaster-gettotalaudiotracks
+                    - name: GetUsedAudioBlocks 方法
+                      href: /windows/desktop/api/Imapi/nf-imapi-iredbookdiscmaster-getusedaudioblocks
+            - name: IMAPIv1 結果碼
+              href: imapiv1-result-codes.md
