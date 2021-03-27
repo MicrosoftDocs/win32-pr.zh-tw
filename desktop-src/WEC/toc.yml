@@ -1,0 +1,97 @@
+- name: Windows 事件收集器
+  href: windows-event-collector.md
+  items:
+    - name: 使用 Windows 事件收集器
+      href: using-windows-event-collector.md
+      items:
+        - name: 建立收集器起始的訂用帳戶
+          href: creating-an-event-collector-subscription.md
+        - name: 設定來源起始的訂用帳戶
+          href: setting-up-a-source-initiated-subscription.md
+          items:
+            - name: 建立來源起始的訂用帳戶
+              href: creating-a-source-initiated-subscription.md
+        - name: 將事件來源新增至收集器起始的訂用帳戶
+          href: adding-an-event-source-to-an-event-collector-subscription.md
+        - name: 建立硬體事件訂閱
+          href: creating-hardware-event-subscriptions.md
+        - name: 刪除事件收集器訂用帳戶
+          href: deleting-an-event-collector-subscription.md
+        - name: 顯示事件收集器訂用帳戶屬性
+          href: displaying-the-properties-of-an-event-collector-subscription.md
+        - name: 顯示事件收集器訂用帳戶的狀態
+          href: displaying-the-status-of-an-event-collector-subscription.md
+        - name: 列出事件收集器訂閱
+          href: listing-event-collector-subscriptions.md
+        - name: 從收集器起始的訂用帳戶中移除事件來源
+          href: removing-an-event-source-from-an-event-collector-subscription.md
+        - name: 重試事件收集器訂用帳戶
+          href: retrying-an-event-collector-subscription.md
+    - name: Windows 事件收集器參考
+      href: windows-event-collector-reference.md
+      items:
+        - name: Windows 事件收集器常數
+          href: windows-event-collector-constants.md
+        - name: Windows 事件收集器資料類型
+          href: windows-event-collector-data-types.md
+        - name: Windows 事件收集器列舉
+          href: windows-event-collector-enumerations.md
+          items:
+            - name: EC_SUBSCRIPTION_CONFIGURATION_MODE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_configuration_mode
+            - name: EC_SUBSCRIPTION_CONTENT_FORMAT
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_content_format
+            - name: EC_SUBSCRIPTION_CREDENTIALS_TYPE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_credentials_type
+            - name: EC_SUBSCRIPTION_DELIVERY_MODE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_delivery_mode
+            - name: EC_SUBSCRIPTION_PROPERTY_ID
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_property_id
+            - name: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_active_status
+            - name: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_info_id
+            - name: EC_SUBSCRIPTION_TYPE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_type
+            - name: EC_VARIANT_TYPE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_variant_type
+        - name: Windows 事件收集器函式
+          href: windows-event-collector-functions.md
+          items:
+            - name: EcClose
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecclose
+            - name: EcDeleteSubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecdeletesubscription
+            - name: EcEnumNextSubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecenumnextsubscription
+            - name: EcGetObjectArrayProperty
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecgetobjectarrayproperty
+            - name: EcGetObjectArraySize
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecgetobjectarraysize
+            - name: EcGetSubscriptionProperty
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionproperty
+            - name: EcGetSubscriptionRunTimeStatus
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus
+            - name: EcInsertObjectArrayElement
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecinsertobjectarrayelement
+            - name: EcOpenSubscriptionEnum
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecopensubscriptionenum
+            - name: EcOpenSubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription
+            - name: EcSaveSubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecsavesubscription
+            - name: EcSetObjectArrayProperty
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecsetobjectarrayproperty
+            - name: EcSetSubscriptionProperty
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecsetsubscriptionproperty
+            - name: EcRemoveObjectArrayElement
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecremoveobjectarrayelement
+            - name: EcRetrySubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecretrysubscription
+        - name: Windows 事件收集器結構
+          href: windows-event-collector-structures.md
+          items:
+            - name: EC_VARIANT
+              href: /windows/win32/api/Evcoll/ns-evcoll-ec_variant
+        - name: Wecutil.exe
+          href: wecutil.md

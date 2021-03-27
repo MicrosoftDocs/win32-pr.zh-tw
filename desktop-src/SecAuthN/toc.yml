@@ -1,0 +1,2224 @@
+- name: 驗證
+  href: authentication-portal.md
+  items:
+    - name: 關於驗證
+      href: about-authentication.md
+      items:
+        - name: 認證管理
+          href: credentials-management.md
+          items:
+            - name: 認證類型
+              href: kinds-of-credentials.md
+            - name: 使用者名稱格式
+              href: user-name-formats.md
+        - name: LSA 驗證
+          href: lsa-authentication.md
+          items:
+            - name: LSA 驗證模型
+              href: lsa-authentication-model.md
+            - name: LSA 登入會話
+              href: lsa-logon-sessions.md
+            - name: LSA 使用者登入驗證
+              href: lsa-user-logon-authentication.md
+              items:
+                - name: 互動式驗證
+                  href: interactive-authentication.md
+                - name: 非互動式驗證
+                  href: noninteractive-authentication.md
+            - name: 驗證套件
+              href: authentication-packages.md
+              items:
+                - name: Windows 驗證套件
+                  href: windows-authentication-packages.md
+                - name: 安全性支援提供者/驗證套件
+                  href: security-support-provider-authentication-packages.md
+                - name: Microsoft 提供的驗證套件
+                  href: authentication-packages-provided-by-microsoft.md
+                  items:
+                    - name: Kerberos SSP/AP
+                      href: kerberos-ssp-ap.md
+                    - name: MSV1_0 Authentication 套件
+                      href: msv1-0-authentication-package.md
+                - name: 子驗證套件
+                  href: subauthentication-packages.md
+        - name: 網路提供者 API
+          href: network-provider-api.md
+          items:
+            - name: 網路提供者
+              href: network-providers.md
+            - name: 認證管理員
+              href: credential-manager.md
+            - name: 多個提供者路由器
+              href: multiple-provider-router.md
+            - name: 網路提供者所執行的函式
+              href: functions-implemented-by-network-providers.md
+              items:
+                - name: 功能功能
+                  href: capabilities-functions.md
+                - name: 使用者名稱函式
+                  href: user-name-functions.md
+                - name: Device-Redirecting 函式
+                  href: device-redirecting-functions.md
+                - name: Provider-Specific 對話方塊函數
+                  href: provider-specific-dialog-box-functions.md
+                - name: 系統管理功能
+                  href: administrative-functions.md
+                - name: 列舉函數
+                  href: enumeration-functions.md
+            - name: 認證管理 API
+              href: credential-management-api.md
+            - name: 連接通知 API
+              href: connection-notification-api.md
+        - name: 智慧卡驗證
+          href: smart-card-authentication.md
+          items:
+            - name: 智慧卡概念
+              href: smart-card-concepts.md
+              items:
+                - name: 智慧卡讀卡機
+                  href: smart-card-readers.md
+                - name: 智慧卡介面
+                  href: smart-card-interfaces.md
+                - name: 主要服務提供者
+                  href: primary-service-provider.md
+                - name: 將智慧卡引入系統
+                  href: introducing-smart-cards-to-the-system.md
+                - name: 存取智慧卡
+                  href: accessing-a-smart-card.md
+                - name: 與其他服務的關聯性
+                  href: relation-to-other-services.md
+            - name: 智慧卡 Resource Manager
+              href: smart-card-resource-manager.md
+              items:
+                - name: Resource Manager 的執行
+                  href: resource-manager-implementation.md
+                - name: 智慧卡 Resource Manager API
+                  href: smart-card-resource-manager-api.md
+                  items:
+                    - name: 智慧卡資料庫查詢函數
+                      href: smart-card-database-query-functions.md
+                    - name: 智慧卡資料庫管理功能
+                      href: smart-card-database-management-functions.md
+                    - name: Resource Manager 內容函數
+                      href: resource-manager-context-functions.md
+                    - name: Resource Manager 支援函式
+                      href: resource-manager-support-function.md
+                    - name: 智慧卡追蹤功能
+                      href: smart-card-tracking-functions.md
+                    - name: 智慧卡與讀者存取功能
+                      href: smart-card-and-reader-access-functions.md
+                    - name: 直接存取卡的功能
+                      href: direct-card-access-functions.md
+            - name: 智慧卡消費者介面
+              href: smart-card-user-interface.md
+            - name: 智慧卡服務提供者
+              href: smart-card-service-providers.md
+              items:
+                - name: 基底服務提供者
+                  href: base-service-providers.md
+                - name: 建立 ISO7816-4 APDU 命令
+                  href: building-an-iso7816-4-apdu-command.md
+                - name: 廠商包裝函式服務提供者
+                  href: vendor-wrapper-service-provider.md
+        - name: SSPI
+          href: sspi.md
+          items:
+            - name: SSPI 模型
+              href: sspi-model.md
+            - name: 分散式應用程式的 SSPI 選項
+              href: sspi-options-for-distributed-applications.md
+            - name: SSPI 內容語義
+              href: sspi-context-semantics.md
+              items:
+                - name: 非同步內容
+                  href: sspi-asynchronous-contexts.md
+                - name: 內容需求
+                  href: context-requirements.md
+                - name: Connection-Oriented 內容
+                  href: connection-oriented-contexts.md
+                - name: 資料包內容
+                  href: datagram-contexts.md
+                - name: 資料流程內容
+                  href: stream-contexts.md
+            - name: Microsoft 提供的 SSP 套件
+              href: ssp-packages-provided-by-microsoft.md
+              items:
+                - name: 認證安全性支援提供者
+                  href: credential-security-support-provider.md
+                  items:
+                    - name: CredSSP 群組原則設定
+                      href: credssp-group-policy-settings.md
+                - name: Microsoft Negotiate
+                  href: microsoft-negotiate.md
+                - name: Microsoft NTLM
+                  href: microsoft-ntlm.md
+                - name: Microsoft Kerberos (英文)
+                  href: microsoft-kerberos.md
+                  items:
+                    - name: 基本驗證概念
+                      href: basic-authentication-concepts.md
+                      items:
+                        - name: 金鑰驗證
+                          href: key-authentication.md
+                        - name: 驗證器訊息
+                          href: authenticator-messages.md
+                        - name: 金鑰散發
+                          href: key-distribution.md
+                        - name: 會話票證
+                          href: session-tickets.md
+                        - name: Ticket-Granting 票證
+                          href: ticket-granting-tickets.md
+                    - name: Kerberos Subprotocols
+                      href: kerberos-subprotocols.md
+                      items:
+                        - name: 驗證服務交換
+                          href: authentication-service-exchange.md
+                        - name: 票證授權服務交換
+                          href: ticket-granting-service-exchange.md
+                        - name: 用戶端/伺服器交換
+                          href: client-server-exchange.md
+                    - name: Kerberos 模型
+                      href: kerberos-components.md
+                      items:
+                        - name: 金鑰發佈中心
+                          href: key-distribution-center.md
+                        - name: 帳戶資料庫
+                          href: account-database.md
+                        - name: Kerberos 原則
+                          href: kerberos-policy.md
+                    - name: SSPI/Kerberos 與 GSSAPI 的互通性
+                      href: sspi-kerberos-interoperability-with-gssapi.md
+                - name: Microsoft Digest SSP
+                  href: microsoft-digest-ssp.md
+                  items:
+                    - name: 摘要存取通訊協定
+                      href: the-digest-access-protocol.md
+                      items:
+                        - name: 摘要挑戰的內容
+                          href: contents-of-a-digest-challenge.md
+                        - name: 摘要挑戰回應的內容
+                          href: contents-of-a-digest-challenge-response.md
+                    - name: 保護品質和加密
+                      href: quality-of-protection-and-ciphers.md
+                      items:
+                        - name: 保護品質
+                          href: quality-of-protection.md
+                        - name: 加密
+                          href: ciphers.md
+                    - name: Microsoft 摘要式驗證
+                      href: microsoft-digest-authentication.md
+                      items:
+                        - name: 使用 Microsoft Digest 的初始驗證
+                          href: initial-authentication-using-microsoft-digest.md
+                        - name: 使用 Microsoft Digest 來驗證後續要求
+                          href: authenticating-subsequent-requests-using-microsoft-digest.md
+                        - name: 維護連接間的安全性內容
+                          href: maintaining-the-security-context-between-connections.md
+                    - name: Microsoft Digest SSP 的 IETF 規格
+                      href: ietf-specifications-for-microsoft-digest-ssp.md
+                - name: 安全通道
+                  href: secure-channel.md
+                  items:
+                    - name: TLS/SSL (Schannel SSP) 的通訊協定
+                      href: protocols-in-tls-ssl--schannel-ssp-.md
+                      items:
+                        - name: 私用通訊技術
+                          href: private-communications-technology.md
+                        - name: 安全通訊端層通訊協定
+                          href: secure-sockets-layer-protocol.md
+                        - name: 傳輸層安全性通訊協定
+                          href: transport-layer-security-protocol.md
+                          items:
+                            - name: TLS 交握通訊協定
+                              href: tls-handshake-protocol.md
+                            - name: TLS 記錄通訊協定
+                              href: tls-record-protocol.md
+                            - name: TLS 加密套件
+                              href: tls-cipher-suites.md
+                            - name: TLS 與 SSL 的比較
+                              href: tls-versus-ssl.md
+                    - name: Schannel 中的訊息驗證碼
+                      href: message-authentication-codes-in-schannel.md
+                    - name: TLS/SSL (Schannel SSP) 的加密套件
+                      href: cipher-suites-in-schannel.md
+                      items:
+                        - name: Windows 10 v21H1 中的 TLS 加密套件
+                          href: ./tls-cipher-suites-in-windows-server-2022.md
+                        - name: Windows 10 v1903 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-10-v1903.md
+                        - name: Windows 10 v1809 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-10-v1809.md
+                        - name: Windows 10 v1803 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-10-v1803.md
+                        - name: Windows 10 v1709 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-10-v1709.md
+                        - name: Windows 10 v1703 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-10-v1703.md
+                        - name: Windows 10 v1607 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-10-v1607.md
+                        - name: Windows 10 v1511 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-10-v1511.md
+                        - name: Windows 10 v1507 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-10--version-1507.md
+                        - name: Windows 8.1 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-8-1.md
+                        - name: Windows 8 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-8.md
+                        - name: Windows 7 中的 TLS 加密套件
+                          href: tls-cipher-suites-in-windows-7.md
+                        - name: Windows Vista 中的 TLS 加密套件
+                          href: schannel-cipher-suites-in-windows-vista.md
+                        - name: 排列 Schannel 加密套件的優先順序
+                          href: prioritizing-schannel-cipher-suites.md
+                    - name: 'TLS 中的橢圓曲線 (Schannel SSP) '
+                      items:
+                        - name: Windows 10 1607 版和更新版本中的 TLS 橢圓曲線
+                          href: tls-elliptic-curves-in-windows-10-1607-and-later.md
+                        - name: Windows 10 的 TLS 橢圓曲線，版本1507和1511
+                          href: tls-elliptic-curves-in-windows-10-1507-and-1511.md
+                    - name: Schannel 認證
+                      href: schannel-credentials.md
+                    - name: TLS 和 SSL 警示的 Schannel 錯誤碼
+                      href: schannel-error-codes-for-tls-and-ssl-alerts.md
+                    - name: Schannel 和 CryptoAPI
+                      href: schannel-and-cryptoapi.md
+                      items:
+                        - name: 憑證存放區
+                          href: certificate-stores.md
+                        - name: CryptoAPI 2.0 私密金鑰
+                          href: cryptoapi-2-0-private-keys.md
+            - name: 自訂安全性套件
+              href: custom-security-packages.md
+              items:
+                - name: SSP/Ap 與 Ssp
+                  href: ssp-aps-versus-ssps.md
+                - name: LSA 模式與使用者模式的比較
+                  href: lsa-mode-versus-user-mode.md
+                - name: 註冊和安裝安全性套件的限制
+                  href: restrictions-around-registering-and-installing-a-security-package.md
+            - name: 延伸錯誤資訊
+              href: extended-error-information.md
+        - name: Winlogon 和認證提供者
+          href: winlogon-and-credential-providers.md
+          items:
+            - name: Winlogon 和 GINA
+              href: winlogon-and-gina.md
+              items:
+                - name: Winlogon
+                  href: winlogon.md
+                  items:
+                    - name: 正在初始化 Winlogon
+                      href: initializing-winlogon.md
+                    - name: Winlogon 狀態
+                      href: winlogon-states.md
+                    - name: 支援的對話方塊服務超時作業
+                      href: supported-dialog-box-service-time-out-operations.md
+                    - name: 將訊息傳送至 GINA
+                      href: sending-messages-to-the-gina.md
+                - name: 吉娜
+                  href: gina.md
+                  items:
+                    - name: 載入和執行 GINA DLL
+                      href: loading-and-running-a-gina-dll.md
+                    - name: 建立和測試 GINA DLL
+                      href: building-and-testing-a-gina-dll.md
+                - name: 終端機服務 GINA 函式
+                  href: terminal-services-gina-functions.md
+                - name: 與網路提供者的互動
+                  href: interaction-with-network-providers.md
+                - name: 責任和功能
+                  href: responsibilities-and-features.md
+                  items:
+                    - name: Winlogon 的責任
+                      href: responsibilities-of-winlogon.md
+                    - name: GINA 的責任
+                      href: responsibilities-of-the-gina.md
+                    - name: MSGina.dll 功能
+                      href: msgina-dll-features.md
+                - name: Winlogon 和 GINA 之間的互動
+                  href: interaction-between-winlogon-and-gina.md
+                - name: Winlogon 通知套件
+                  href: winlogon-notification-packages.md
+                  items:
+                    - name: 建立 Winlogon 通知套件
+                      href: creating-a-winlogon-notification-package.md
+                    - name: 註冊 Winlogon 通知套件
+                      href: registering-a-winlogon-notification-package.md
+                    - name: Winlogon 通知事件
+                      href: winlogon-notification-events.md
+                    - name: Winlogon 通知套件參考
+                      href: winlogon-notification-package-reference.md
+                      items:
+                        - name: 登錄項目
+                          href: registry-entries.md
+                        - name: 事件處理常式函式原型
+                          href: event-handler-function-prototype.md
+                          items:
+                            - name: WLX_NOTIFICATION_INFO
+                              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_notification_info
+            - name: Windows 中的認證提供者
+              href: credential-providers-in-windows.md
+    - name: 使用驗證
+      href: using-authentication.md
+      items:
+        - name: 建立自訂安全性套件
+          href: creating-custom-security-packages.md
+          items:
+            - name: LSA 模式初始化
+              href: lsa-mode-initialization.md
+            - name: 使用者模式初始化
+              href: user-mode-initialization.md
+            - name: 註冊 SSP/AP Dll
+              href: registering-ssp-ap-dlls.md
+            - name: 使用三部分主體名稱
+              href: using-three-part-principal-names.md
+        - name: 自訂 Winlogon
+          href: customizing-winlogon.md
+        - name: 與 Web 驗證訊息代理程式 Api 整合之線上提供者的使用者入門指南
+          href: getting-started-guidance-for-online-providers-integrating-with-the-web-authentication-broker-apis.md
+          items:
+            - name: 網頁開發的考量
+              href: considerations-for-the-web-page-development.md
+            - name: 如何自訂 UI 元素
+              href: how-to-customize-the-ui-elements.md
+            - name: 驗證網頁的教學課程
+              href: tutorial-for-authenticating-web-pages.md
+              items:
+                - name: Web 網頁驗證
+                  href: authentication-for-web-pages.md
+                - name: Web 網頁的授權
+                  href: authorization-for-web-pages.md
+                - name: 設計驗證網頁的最佳作法
+                  href: best-practices-for-designing-authentication-web-pages.md
+            - name: Web 驗證問題
+              href: web-authentication-problems.md
+            - name: Web 驗證訊息代理程式的常見問題
+              href: faq-for-web-authentication-broker.md
+        - name: 使用網路提供者 API
+          href: using-network-provider-api.md
+          items:
+            - name: 執行網路提供者
+              href: implementing-a-network-provider.md
+            - name: 執行認證管理員
+              href: implementing-a-credential-manager.md
+            - name: 註冊網路提供者和認證管理員
+              href: registering-network-providers-and-credential-managers.md
+            - name: 傳回值給 MPR
+              href: returning-values-to-the-mpr.md
+            - name: 處理緩衝的資料
+              href: handling-buffered-data.md
+            - name: 接收連接通知
+              href: receiving-connection-notifications.md
+            - name: 註冊以接收連接通知
+              href: registering-to-receive-connection-notifications.md
+            - name: 覆寫預設 MPR 逾時間隔
+              href: overriding-the-default-mpr-time-out-interval.md
+        - name: 使用 SSPI
+          href: using-sspi.md
+          items:
+            - name: 搭配大部分安全性封裝和通訊協定使用的程式
+              href: procedures-used-with-most-security-packages-and-protocols.md
+              items:
+                - name: 使用 SecBufferDesc 和之 secbuffer
+                  href: using-secbufferdesc-and-secbuffer.md
+                - name: 初始化 SSPI
+                  href: initializing-sspi.md
+                  items:
+                    - name: 撰寫和安裝安全性支援提供者
+                      href: writing-and-installing-a-security-support-provider.md
+                    - name: 初始化安全性封裝
+                      href: initializing-the-security-package.md
+                    - name: 取得安全性封裝的相關資訊
+                      href: getting-information-about-security-packages.md
+                    - name: 使用安全性封裝
+                      href: using-security-packages.md
+                - name: 使用驗證建立安全連線
+                  href: establishing-a-secure-connection-with-authentication.md
+                  items:
+                    - name: 用戶端內容初始化
+                      href: client-context-initialization.md
+                      items:
+                        - name: 用戶端接續
+                          href: client-continuation.md
+                    - name: 伺服器內容初始化
+                      href: server-context-initialization.md
+                      items:
+                        - name: 伺服器接續
+                          href: server-continuation.md
+                - name: 確保訊息交換期間的通訊完整性
+                  href: ensuring-communication-integrity-during-message-exchange.md
+                - name: 結束 SSPI 會話
+                  href: ending-an-sspi-session.md
+            - name: 範例 SSPI 程式碼
+              href: sample-sspi-code.md
+              items:
+                - name: 使用 SSPI 搭配 Windows 通訊端用戶端
+                  href: using-sspi-with-a-windows-sockets-client.md
+                - name: 搭配 Windows 通訊端伺服器使用 SSPI
+                  href: using-sspi-with-a-windows-sockets-server.md
+                - name: SSPI 用戶端和伺服器的標頭檔
+                  href: header-file-for-sspi-client-and-server.md
+                - name: 之 secbuffer 和 SecBufferDesc 範例程式碼
+                  href: secbuffer-and-secbufferdesc-example-code.md
+                - name: 使用訊息支援
+                  href: using-message-support.md
+                  items:
+                    - name: 簽署訊息
+                      href: signing-a-message.md
+                    - name: 驗證訊息
+                      href: verifying-a-message.md
+                    - name: 加密訊息
+                      href: encrypting-a-message.md
+                    - name: 解密訊息
+                      href: decrypting-a-message.md
+            - name: 具有 Microsoft Digest SSP 工作的 SSPI
+              href: sspi-with-microsoft-digest-ssp-tasks.md
+              items:
+                - name: 取得 Microsoft Digest 的 SSP 認證
+                  href: obtaining-microsoft-digest-ssp-credentials.md
+                  items:
+                    - name: 取得預設摘要認證
+                      href: obtaining-default-digest-credentials.md
+                    - name: 取得替代的摘要認證
+                      href: obtaining-alternate-digest-credentials.md
+                - name: 產生摘要挑戰
+                  href: generating-the-digest-challenge.md
+                - name: 產生摘要挑戰回應
+                  href: generating-the-digest-challenge-response.md
+                  items:
+                    - name: 摘要挑戰回應的輸入緩衝區
+                      href: input-buffers-for-the-digest-challenge-response.md
+                - name: 使用 Microsoft Digest 保護訊息
+                  href: protecting-messages-using-microsoft-digest.md
+                - name: 查詢摘要資訊安全內容屬性
+                  href: querying-digest-security-context-attributes.md
+            - name: 使用 Schannel 建立安全連線
+              href: creating-a-secure-connection-using-schannel.md
+              items:
+                - name: 取得 Schannel 認證
+                  href: obtaining-schannel-credentials.md
+                  items:
+                    - name: 取得 Schannel 認證
+                      href: getting-schannel-credentials.md
+                    - name: 取得 Schannel 的憑證
+                      href: getting-a-certificate-for-schannel.md
+                    - name: 指定 Schannel 密碼和加密的強度
+                      href: specifying-schannel-ciphers-and-cipher-strengths.md
+                - name: 建立 Schannel 安全性內容
+                  href: creating-an-schannel-security-context.md
+                  items:
+                    - name: 使用 Schannel 執行驗證
+                      href: performing-authentication-using-schannel.md
+                    - name: 對應憑證
+                      href: mapping-certificates.md
+                    - name: 手動驗證 Schannel 認證
+                      href: manually-validating-schannel-credentials.md
+                - name: 取得 Schannel 連接的相關資訊
+                  href: getting-information-about-schannel-connections.md
+                  items:
+                    - name: 查詢 Schannel 內容的屬性
+                      href: querying-the-attributes-of-an-schannel-context.md
+                    - name: 查詢 Schannel 認證的屬性
+                      href: querying-the-attributes-of-an-schannel-credential.md
+                - name: 管理 Schannel 連接
+                  href: managing-schannel-connections.md
+                  items:
+                    - name: 使用 Schannel 的負載平衡
+                      href: load-balancing-using-schannel.md
+                    - name: 重新交涉 Schannel 連線
+                      href: renegotiating-an-schannel-connection.md
+                    - name: 辨識重新協商連接的要求
+                      href: recognizing-a-request-to-renegotiate-a-connection.md
+                    - name: 關閉 Schannel 連接
+                      href: shutting-down-an-schannel-connection.md
+                - name: Schannel 傳回的額外緩衝區
+                  href: extra-buffers-returned-by-schannel.md
+                - name: 使用 Schannel 的 PSDK 範例
+                  href: psdk-samples-using-schannel.md
+        - name: 保護自動登入密碼
+          href: protecting-the-automatic-logon-password.md
+    - name: 驗證參考
+      href: authentication-reference.md
+      items:
+        - name: 驗證類別
+          href: authentication-classes.md
+          items:
+            - name: RemoteTpmVirtualSmartCardManager
+              href: /previous-versions/windows/desktop/legacy/hh707166(v=vs.85)
+            - name: TpmVirtualSmartCardManager
+              href: /previous-versions/windows/desktop/legacy/hh707171(v=vs.85)
+        - name: 驗證常數
+          href: authentication-constants.md
+          items:
+            - name: WLX_LOGON_OPTION_XXX
+              href: wlx-logon-option-xxx.md
+            - name: WLX_SAS_TYPE_XXX
+              href: wlx-sas-type-xxx.md
+        - name: 驗證資料類型
+          href: authentication-data-types.md
+          items:
+            - name: PLSA_CLIENT_REQUEST
+              href: plsa-client-request.md
+            - name: SSPI 控制碼
+              href: sspi-handles.md
+            - name: SSPI 狀態碼
+              href: sspi-status-codes.md
+            - name: TimeStamp
+              href: timestamp.md
+        - name: 驗證列舉
+          href: authentication-enumerations.md
+          items:
+            - name: CRED_MARSHAL_TYPE
+              href: /windows/win32/api/WinCred/ne-wincred-cred_marshal_type
+            - name: CRED_PROTECTION_TYPE
+              href: /windows/win32/api/WinCred/ne-wincred-cred_protection_type
+            - name: CREDSPP_SUBMIT_TYPE
+              href: /windows/win32/api/credssp/ne-credssp-credspp_submit_type
+            - name: IDENTITY_TYPE
+              href: /windows/win32/api/identitycommon/ne-identitycommon-identity_type
+            - name: KERB_CERTIFICATE_INFO_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-kerb_certificate_info_type
+            - name: KERB_LOGON_SUBMIT_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-kerb_logon_submit_type
+            - name: KERB_PROFILE_BUFFER_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-kerb_profile_buffer_type
+            - name: KERB_PROTOCOL_MESSAGE_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-kerb_protocol_message_type
+            - name: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
+              href: /windows/desktop/api/Ntsecapi/ne-ntsecapi-lsa_forest_trust_collision_record_type
+            - name: LSA_FOREST_TRUST_RECORD_TYPE
+              href: /windows/desktop/api/Ntsecapi/ne-ntsecapi-lsa_forest_trust_record_type
+            - name: LSA_SID_NAME_MAPPING_OPERATION_TYPE
+              href: /previous-versions/windows/desktop/legacy/dn280710(v=vs.85)
+            - name: LSA_SID_NAME_MAPPING_OPERATION_ERROR
+              href: /previous-versions/windows/desktop/legacy/dn280707(v=vs.85)
+            - name: LSA_TOKEN_INFORMATION_TYPE
+              href: /windows/win32/api/Ntsecpkg/ne-ntsecpkg-lsa_token_information_type
+            - name: MSV1_0_LOGON_SUBMIT_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-msv1_0_logon_submit_type
+            - name: MSV1_0_PROFILE_BUFFER_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-msv1_0_profile_buffer_type
+            - name: MSV1_0_PROTOCOL_MESSAGE_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type
+            - name: PKU2U_LOGON_SUBMIT_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-pku2u_logon_submit_type
+            - name: POLICY_DOMAIN_INFORMATION_CLASS
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_domain_information_class
+            - name: SECPKG_ATTR_LCT_STATUS
+              href: /windows/win32/api/Sspi/ne-sspi-secpkg_attr_lct_status
+            - name: SECPKG_CRED_CLASS
+              href: /windows/win32/api/Sspi/ne-sspi-secpkg_cred_class
+            - name: SECPKG_EXTENDED_INFORMATION_CLASS
+              href: /windows/win32/api/Ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class
+            - name: SECPKG_NAME_TYPE
+              href: /windows/win32/api/Ntsecpkg/ne-ntsecpkg-secpkg_name_type
+            - name: SECPKG_SESSIONINFO_TYPE
+              href: /windows/win32/api/Ntsecpkg/ne-ntsecpkg-secpkg_sessioninfo_type
+            - name: SECURITY_LOGON_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-security_logon_type
+            - name: TPMVSCMGR_ERROR
+              href: /windows/win32/api/Tpmvscmgr/ne-tpmvscmgr-tpmvscmgr_error
+            - name: TPMVSCMGR_STATUS
+              href: /windows/win32/api/Tpmvscmgr/ne-tpmvscmgr-tpmvscmgr_status
+        - name: 驗證函式
+          href: authentication-functions.md
+          items:
+            - name: 'AcceptSecurityCoNtext (一般) '
+              href: acceptsecuritycontext--general.md
+              items:
+                - name: 'AcceptSecurityCoNtext (CredSSP) '
+                  href: acceptsecuritycontext--credssp.md
+                - name: 'AcceptSecurityCoNtext (摘要) '
+                  href: acceptsecuritycontext--digest.md
+                - name: 'AcceptSecurityCoNtext (Kerberos) '
+                  href: acceptsecuritycontext--kerberos.md
+                - name: 'AcceptSecurityCoNtext (Negotiate) '
+                  href: acceptsecuritycontext--negotiate.md
+                - name: 'AcceptSecurityCoNtext (NTLM) '
+                  href: acceptsecuritycontext--ntlm.md
+                - name: 'AcceptSecurityCoNtext (Schannel) '
+                  href: acceptsecuritycontext--schannel.md
+            - name: 'AcquireCredentialsHandle (一般) '
+              href: acquirecredentialshandle--general.md
+              items:
+                - name: 'AcquireCredentialsHandle (CredSSP) '
+                  href: acquirecredentialshandle--credssp.md
+                - name: 'AcquireCredentialsHandle (摘要) '
+                  href: acquirecredentialshandle--digest.md
+                - name: 'AcquireCredentialsHandle (Kerberos) '
+                  href: acquirecredentialshandle--kerberos.md
+                - name: 'AcquireCredentialsHandle (Negotiate) '
+                  href: acquirecredentialshandle--negotiate.md
+                - name: 'AcquireCredentialsHandle (NTLM) '
+                  href: acquirecredentialshandle--ntlm.md
+                - name: 'AcquireCredentialsHandle (Schannel) '
+                  href: acquirecredentialshandle--schannel.md
+            - name: AddConnectNotify
+              href: /windows/desktop/api/Npapi/nf-npapi-addconnectnotify
+            - name: AddSecurityPackage
+              href: /windows/desktop/api/Sspi/nf-sspi-addsecuritypackagea
+            - name: LSA_ADD_CREDENTIAL
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_add_credential
+            - name: LSA_ALLOCATE_CLIENT_BUFFER
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer
+            - name: AllocateHeap
+              href: /previous-versions/windows/desktop/legacy/aa374721(v=vs.85)
+            - name: LSA_ALLOCATE_LSA_HEAP
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap
+            - name: LSA_ALLOCATE_PRI加值稅E_HEAP
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_private_heap
+            - name: LSA_ALLOCATE_SHARED_MEMORY
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_shared_memory
+            - name: ApplyControlToken
+              href: /windows/desktop/api/Sspi/nf-sspi-applycontroltoken
+            - name: LSA_AUDIT_ACCOUNT_LOGON
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_audit_account_logon
+            - name: LSA_AUDIT_LOGON
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_audit_logon
+            - name: LSA_CALL_PACKAGE
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_call_package
+            - name: LSA_CALL_PACKAGEEX
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_call_packageex
+            - name: LSA_CALL_PACKAGE_PASSTHROUGH
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_call_package_passthrough
+            - name: CancelConnectNotify
+              href: /windows/desktop/api/Npapi/nf-npapi-cancelconnectnotify
+            - name: LSA_CANCEL_NOTIFICATION
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_cancel_notification
+            - name: ChangeAccountPassword
+              href: /windows/desktop/api/Sspi/nf-sspi-changeaccountpassworda
+            - name: LSA_CLIENT_CALLBACK
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_client_callback
+            - name: LSA_CLOSE_SAM_USER
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_close_sam_user
+            - name: CompleteAuthToken
+              href: /windows/desktop/api/Sspi/nf-sspi-completeauthtoken
+            - name: LSA_CONVERT_AUTH_DATA_TO_TOKEN
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_convert_auth_data_to_token
+            - name: LSA_COPY_FROM_CLIENT_BUFFER
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_copy_from_client_buffer
+            - name: LSA_COPY_TO_CLIENT_BUFFER
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_copy_to_client_buffer
+            - name: LSA_CRACK_SINGLE_NAME
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_crack_single_name
+            - name: LSA_CREATE_LOGON_SESSION
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_create_logon_session
+            - name: LSA_CREATE_SHARED_MEMORY
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_create_shared_memory
+            - name: CreateThread
+              href: /windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_create_thread
+            - name: LSA_CREATE_TOKEN
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_create_token
+            - name: LSA_CREATE_TOKEN_EX
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_create_token_ex
+            - name: CredDelete
+              href: /windows/desktop/api/WinCred/nf-wincred-creddeletea
+            - name: CredEnumerate
+              href: /windows/desktop/api/WinCred/nf-wincred-credenumeratea
+            - name: CredFindBestCredential
+              href: /windows/desktop/api/WinCred/nf-wincred-credfindbestcredentiala
+            - name: CredFree
+              href: /windows/desktop/api/WinCred/nf-wincred-credfree
+            - name: CredGetSessionTypes
+              href: /windows/desktop/api/WinCred/nf-wincred-credgetsessiontypes
+            - name: CredGetTargetInfo
+              href: /windows/desktop/api/WinCred/nf-wincred-credgettargetinfoa
+            - name: CredFreeCredentialsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-credfreecredentialsfn
+            - name: CredReadFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-credreadfn
+            - name: CredReadDomainCredentialsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-credreaddomaincredentialsfn
+            - name: CrediUnmarshalandDecodeStringFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-crediunmarshalanddecodestringfn
+            - name: CredWriteFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-credwritefn
+            - name: CredIsMarshaledCredential
+              href: /windows/desktop/api/WinCred/nf-wincred-credismarshaledcredentiala
+            - name: CredIsProtected
+              href: /windows/desktop/api/WinCred/nf-wincred-credisprotecteda
+            - name: CredMarshalCredential
+              href: /windows/desktop/api/WinCred/nf-wincred-credmarshalcredentiala
+            - name: CredMarshalTargetInfo
+              href: /windows/desktop/api/NTSecPkg/nf-ntsecpkg-credmarshaltargetinfo
+            - name: CredPackAuthenticationBuffer
+              href: /windows/desktop/api/WinCred/nf-wincred-credpackauthenticationbuffera
+            - name: CredProtect
+              href: /windows/desktop/api/WinCred/nf-wincred-credprotecta
+            - name: CredRead
+              href: /windows/desktop/api/WinCred/nf-wincred-credreada
+            - name: CredReadDomainCredentials
+              href: /windows/desktop/api/WinCred/nf-wincred-credreaddomaincredentialsa
+            - name: CredRename
+              href: /windows/desktop/api/WinCred/nf-wincred-credrenamea
+            - name: CredUICmdLinePromptForCredentials
+              href: /windows/desktop/api/WinCred/nf-wincred-creduicmdlinepromptforcredentialsa
+            - name: CredUIConfirmCredentials
+              href: /windows/desktop/api/WinCred/nf-wincred-creduiconfirmcredentialsa
+            - name: CredUIParseUserName
+              href: /windows/desktop/api/WinCred/nf-wincred-creduiparseusernamea
+            - name: CredUIPromptForCredentials
+              href: /windows/desktop/api/WinCred/nf-wincred-creduipromptforcredentialsa
+            - name: CredUIPromptForWindowsCredentials
+              href: /windows/desktop/api/WinCred/nf-wincred-creduipromptforwindowscredentialsa
+            - name: CredUIReadSSOCredW
+              href: /windows/desktop/api/WinCred/nf-wincred-creduireadssocredw
+            - name: CredUIStoreSSOCredW
+              href: /windows/desktop/api/WinCred/nf-wincred-creduistoressocredw
+            - name: CredUnmarshalCredential
+              href: /windows/desktop/api/WinCred/nf-wincred-credunmarshalcredentiala
+            - name: CredUnPackAuthenticationBuffer
+              href: /windows/desktop/api/WinCred/nf-wincred-credunpackauthenticationbuffera
+            - name: CredUnprotect
+              href: /windows/desktop/api/WinCred/nf-wincred-credunprotecta
+            - name: CredWrite
+              href: /windows/desktop/api/WinCred/nf-wincred-credwritea
+            - name: CredWriteDomainCredentials
+              href: /windows/desktop/api/WinCred/nf-wincred-credwritedomaincredentialsa
+            - name: 'DecryptMessage (一般) '
+              href: decryptmessage--general.md
+              items:
+                - name: 'DecryptMessage (摘要) '
+                  href: decryptmessage--digest.md
+                - name: 'DecryptMessage (Kerberos) '
+                  href: decryptmessage--kerberos.md
+                - name: 'DecryptMessage (Negotiate) '
+                  href: decryptmessage--negotiate.md
+                - name: 'DecryptMessage (NTLM) '
+                  href: decryptmessage--ntlm.md
+                - name: 'DecryptMessage (Schannel) '
+                  href: decryptmessage--schannel.md
+            - name: DeleteConnectedIdentity
+              href: deleteconnectedidentity.md
+            - name: LSA_DELETE_CREDENTIAL
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_delete_credential
+            - name: LSA_DELETE_LOGON_SESSION
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_delete_logon_session
+            - name: DeleteSecurityCoNtext
+              href: /windows/desktop/api/Sspi/nf-sspi-deletesecuritycontext
+            - name: DeleteSecurityPackage
+              href: /windows/desktop/api/Sspi/nf-sspi-deletesecuritypackagea
+            - name: LSA_DELETE_SHARED_MEMORY
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_delete_shared_memory
+            - name: DuplicateHandle
+              href: /windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_duplicate_handle
+            - name: 'EncryptMessage (一般) '
+              href: encryptmessage--general.md
+              items:
+                - name: 'EncryptMessage (摘要) '
+                  href: encryptmessage--digest.md
+                - name: 'EncryptMessage (Kerberos) '
+                  href: encryptmessage--kerberos.md
+                - name: 'EncryptMessage (Negotiate) '
+                  href: encryptmessage--negotiate.md
+                - name: 'EncryptMessage (NTLM) '
+                  href: encryptmessage--ntlm.md
+                - name: 'EncryptMessage (Schannel) '
+                  href: encryptmessage--schannel.md
+            - name: EnumerateSecurityPackages
+              href: /windows/desktop/api/Sspi/nf-sspi-enumeratesecuritypackagesa
+            - name: LSA_EXPAND_AUTH_DATA_FOR_DOMAIN
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_expand_auth_data_for_domain
+            - name: ExportSecurityCoNtext
+              href: /windows/desktop/api/Sspi/nf-sspi-exportsecuritycontext
+            - name: LSA_FREE_CLIENT_BUFFER
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_client_buffer
+            - name: FreeCoNtextBuffer
+              href: /windows/desktop/api/Sspi/nf-sspi-freecontextbuffer
+            - name: FreeCredentialsHandle
+              href: /windows/desktop/api/Sspi/nf-sspi-freecredentialshandle
+            - name: FreeHeap
+              href: /previous-versions/windows/desktop/legacy/aa375418(v=vs.85)
+            - name: LSA_FREE_LSA_HEAP
+              href: /windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap
+            - name: LSA_FREE_PRI加值稅E_HEAP
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_private_heap
+            - name: LSA_FREE_LSA_HEAP
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_lsa_heap
+            - name: LSA_FREE_SHARED_MEMORY
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_shared_memory
+            - name: LSA_GET_AUTH_DATA_FOR_USER
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_auth_data_for_user
+            - name: LSA_GET_CALL_INFO
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_call_info
+            - name: GetCertificateFromCred
+              href: getcertificatefromcred.md
+            - name: LSA_GET_CLIENT_INFO
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_client_info
+            - name: LSA_GET_CREDENTIALS
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_credentials
+            - name: GetOpenCardName
+              href: /windows/desktop/api/Winscard/nf-winscard-getopencardnamea
+            - name: LSA_GET_USER_AUTH_DATA
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_user_auth_data
+            - name: LSA_IMPERSONATE_CLIENT
+              href: /previous-versions/windows/desktop/legacy/aa375494(v=vs.85)
+            - name: ImpersonateSecurityCoNtext
+              href: /windows/desktop/api/Sspi/nf-sspi-impersonatesecuritycontext
+            - name: ImportSecurityCoNtext
+              href: /windows/desktop/api/Sspi/nf-sspi-importsecuritycontexta
+            - name: 'InitializeSecurityCoNtext (一般) '
+              href: initializesecuritycontext--general.md
+              items:
+                - name: 'InitializeSecurityCoNtext (CredSSP) '
+                  href: initializesecuritycontext--credssp.md
+                - name: 'InitializeSecurityCoNtext (摘要) '
+                  href: initializesecuritycontext--digest.md
+                - name: 'InitializeSecurityCoNtext (Kerberos) '
+                  href: initializesecuritycontext--kerberos.md
+                - name: 'InitializeSecurityCoNtext (Negotiate) '
+                  href: initializesecuritycontext--negotiate.md
+                - name: 'InitializeSecurityCoNtext (NTLM) '
+                  href: initializesecuritycontext--ntlm.md
+                - name: 'InitializeSecurityCoNtext (Schannel) '
+                  href: initializesecuritycontext--schannel.md
+            - name: InitSecurityInterface
+              href: /windows/desktop/api/Sspi/nf-sspi-initsecurityinterfacea
+            - name: LogonUser
+              href: /windows/desktop/api/Winbase/nf-winbase-logonusera
+            - name: LogonUserEx
+              href: /windows/desktop/api/Winbase/nf-winbase-logonuserexa
+            - name: LogonUserExExW
+              href: logonuserexexw.md
+            - name: LSA_AP_CALL_PACKAGE
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_ap_call_package
+            - name: LSA_AP_CALL_PACKAGE_PASSTHROUGH
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_ap_call_package_passthrough
+            - name: LsaApCallPackageUntrusted
+              href: /previous-versions/windows/desktop/legacy/aa378218(v=vs.85)
+            - name: LSA_AP_INITIALIZE_PACKAGE
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_ap_initialize_package
+            - name: LSA_AP_LOGON_TERMINATED
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_ap_logon_terminated
+            - name: LSA_AP_LOGON_USER
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user
+            - name: LSA_AP_LOGON_USER_EX
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex
+            - name: LSA_AP_LOGON_USER_EX2
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex2
+            - name: LsaCallAuthenticationPackage
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsacallauthenticationpackage
+            - name: LsaConnectUntrusted
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaconnectuntrusted
+            - name: LsaDeregisterLogonProcess
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaderegisterlogonprocess
+            - name: LsaEnumerateLogonSessions
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumeratelogonsessions
+            - name: LsaFreeReturnBuffer
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsafreereturnbuffer
+            - name: LsaGetAppliedCAPIDs
+              href: /windows/desktop/api/Ntlsa/nf-ntlsa-lsagetappliedcapids
+            - name: LsaGetLogonSessionData
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsagetlogonsessiondata
+            - name: LsaLogonUser
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalogonuser
+            - name: LsaLookupAuthenticationPackage
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage
+            - name: LsaManageSidNameMapping
+              href: /previous-versions/windows/desktop/legacy/jj902653(v=vs.85)
+            - name: LsaOpenPolicy
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaopenpolicy
+            - name: LSA_PROTECT_MEMORY
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_protect_memory
+            - name: LsaQueryCAPs
+              href: /windows/desktop/api/Ntlsa/nf-ntlsa-lsaquerycaps
+            - name: LsaQueryDomainInformationPolicy
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaquerydomaininformationpolicy
+            - name: LsaQueryForestTrustInformation
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaqueryforesttrustinformation
+            - name: LsaQueryInformationPolicy
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy
+            - name: LsaRegisterLogonProcess
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaregisterlogonprocess
+            - name: LsaSetDomainInformationPolicy
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsasetdomaininformationpolicy
+            - name: LsaSetForestTrustInformation
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsasetforesttrustinformation
+            - name: LsaSetInformationPolicy
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsasetinformationpolicy
+            - name: LsaUnprotectMemory
+              href: /previous-versions/windows/desktop/legacy/ff714510(v=vs.85)
+            - name: MakeSignature
+              href: /windows/desktop/api/Sspi/nf-sspi-makesignature
+            - name: LSA_MAP_BUFFER
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_map_buffer
+            - name: Msv1_0SubAuthenticationFilter
+              href: /windows/desktop/api/Subauth/nf-subauth-msv1_0subauthenticationfilter
+            - name: Msv1_0SubAuthenticationRoutine
+              href: /windows/desktop/api/Subauth/nf-subauth-msv1_0subauthenticationroutine
+            - name: Msv1_0SubAuthenticationRoutineGeneric
+              href: /windows/desktop/api/Subauth/nf-subauth-msv1_0subauthenticationroutinegeneric
+            - name: Msv1_0SubAuthenticationRoutineEx
+              href: /windows/desktop/api/Subauth/nf-subauth-msv1_0subauthenticationroutineex
+            - name: NPAddConnection
+              href: /windows/desktop/api/Npapi/nf-npapi-npaddconnection
+            - name: NPAddConnection3
+              href: /windows/desktop/api/Npapi/nf-npapi-npaddconnection3
+            - name: NPCancelConnection
+              href: /windows/desktop/api/Npapi/nf-npapi-npcancelconnection
+            - name: NPCloseEnum
+              href: /windows/desktop/api/Npapi/nf-npapi-npcloseenum
+            - name: NPDeviceMode
+              href: /windows/desktop/api/Npapi/nf-npapi-npdevicemode
+            - name: NPDirectoryNotify
+              href: /windows/desktop/api/Npapi/nf-npapi-npdirectorynotify
+            - name: NPEnumResource
+              href: /windows/desktop/api/Npapi/nf-npapi-npenumresource
+            - name: NPFMXEditPerm
+              href: /windows/desktop/api/Npapi/nf-npapi-npfmxeditperm
+            - name: NPFMXGetPermCaps
+              href: /windows/desktop/api/Npapi/nf-npapi-npfmxgetpermcaps
+            - name: NPFMXGetPermHelp
+              href: /windows/desktop/api/Npapi/nf-npapi-npfmxgetpermhelp
+            - name: NPFormatNetworkName
+              href: /windows/desktop/api/Npapi/nf-npapi-npformatnetworkname
+            - name: NPGetCaps
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetcaps
+            - name: NPGetConnection
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetconnection
+            - name: NPGetConnection3
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetconnection3
+            - name: NPGetConnectionPerformance
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetconnectionperformance
+            - name: NPGetDirectoryType
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetdirectorytype
+            - name: NPGetPropertyText
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetpropertytext
+            - name: NPGetResourceInformation
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetresourceinformation
+            - name: NPGetResourceParent
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetresourceparent
+            - name: NPGetUniversalName
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetuniversalname
+            - name: NPGetUser
+              href: /windows/desktop/api/Npapi/nf-npapi-npgetuser
+            - name: NPLogonNotify
+              href: /windows/desktop/api/Npapi/nf-npapi-nplogonnotify
+            - name: NPOpenEnum
+              href: /windows/desktop/api/Npapi/nf-npapi-npopenenum
+            - name: NPPasswordChangeNotify
+              href: /windows/desktop/api/Npapi/nf-npapi-nppasswordchangenotify
+            - name: NPPropertyDialog
+              href: /windows/desktop/api/Npapi/nf-npapi-nppropertydialog
+            - name: NPSearchDialog
+              href: /windows/desktop/api/Npapi/nf-npapi-npsearchdialog
+            - name: OnProfileLoaded
+              href: onprofileloaded.md
+            - name: LSA_OPEN_SAM_USER
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_open_sam_user
+            - name: LSA_OPEN_TOKEN_BY_LOGON_ID
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_open_token_by_logon_id
+            - name: PstAcquirePrivateKey
+              href: /windows/desktop/api/Certpoleng/nf-certpoleng-pstacquireprivatekey
+            - name: PstGetCertificates
+              href: /windows/desktop/api/Certpoleng/nf-certpoleng-pstgetcertificates
+            - name: PstGetTrustAnchors
+              href: /windows/desktop/api/Certpoleng/nf-certpoleng-pstgettrustanchors
+            - name: PstGetUserNameForCertificate
+              href: /windows/desktop/api/Certpoleng/nf-certpoleng-pstgetusernameforcertificate
+            - name: PstMapCertificate
+              href: /windows/desktop/api/Certpoleng/nf-certpoleng-pstmapcertificate
+            - name: PstValidate
+              href: /windows/desktop/api/Certpoleng/nf-certpoleng-pstvalidate
+            - name: QueryCoNtextAttributesEx
+              href: /windows/desktop/api/Sspi/nf-sspi-querycontextattributesexa
+            - name: 'QueryCoNtextAttributes (一般) '
+              href: querycontextattributes--general.md
+              items:
+                - name: 'QueryCoNtextAttributes (CredSSP) '
+                  href: querycontextattributes--credssp.md
+                - name: 'QueryCoNtextAttributes (摘要) '
+                  href: querycontextattributes--digest.md
+                - name: 'QueryCoNtextAttributes (Kerberos) '
+                  href: querycontextattributes--kerberos.md
+                - name: 'QueryCoNtextAttributes (Negotiate) '
+                  href: querycontextattributes--negotiate.md
+                - name: 'QueryCoNtextAttributes (NTLM) '
+                  href: querycontextattributes--ntlm.md
+                - name: 'QueryCoNtextAttributes (Schannel) '
+                  href: querycontextattributes--schannel.md
+            - name: QueryCredentialsAttributes
+              href: /windows/desktop/api/Sspi/nf-sspi-querycredentialsattributesa
+            - name: QuerySecurityCoNtextToken
+              href: /windows/desktop/api/Sspi/nf-sspi-querysecuritycontexttoken
+            - name: QuerySecurityPackageInfo
+              href: /windows/desktop/api/Sspi/nf-sspi-querysecuritypackageinfoa
+            - name: RegisterCallback
+              href: /previous-versions/windows/desktop/legacy/aa379372(v=vs.85)
+            - name: PLSA_REGISTER_NOTIFICATION
+              href: /windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification
+            - name: RevertSecurityCoNtext
+              href: /windows/desktop/api/Sspi/nf-sspi-revertsecuritycontext
+            - name: SaslAcceptSecurityCoNtext
+              href: /windows/desktop/api/Sspi/nf-sspi-saslacceptsecuritycontext
+            - name: SaslEnumerateProfiles
+              href: /windows/desktop/api/Sspi/nf-sspi-saslenumerateprofilesa
+            - name: SaslGetCoNtextOption
+              href: /windows/desktop/api/Sspi/nf-sspi-saslgetcontextoption
+            - name: SaslGetProfilePackage
+              href: /windows/desktop/api/Sspi/nf-sspi-saslgetprofilepackagea
+            - name: SaslIdentifyPackage
+              href: /windows/desktop/api/Sspi/nf-sspi-saslidentifypackagea
+            - name: SaslInitializeSecurityCoNtext
+              href: /windows/desktop/api/Sspi/nf-sspi-saslinitializesecuritycontexta
+            - name: SaslSetCoNtextOption
+              href: /windows/desktop/api/Sspi/nf-sspi-saslsetcontextoption
+            - name: SCardAccessStartedEvent
+              href: /windows/desktop/api/Winscard/nf-winscard-scardaccessstartedevent
+            - name: SCardAddReaderToGroup
+              href: /windows/desktop/api/Winscard/nf-winscard-scardaddreadertogroupa
+            - name: SCardAudit
+              href: /windows/desktop/api/Winscard/nf-winscard-scardaudit
+            - name: SCardBeginTransaction
+              href: /windows/desktop/api/Winscard/nf-winscard-scardbegintransaction
+            - name: SCardCancel
+              href: /windows/desktop/api/Winscard/nf-winscard-scardcancel
+            - name: SCardConnect
+              href: /windows/desktop/api/Winscard/nf-winscard-scardconnecta
+            - name: SCardControl
+              href: /windows/desktop/api/Winscard/nf-winscard-scardcontrol
+            - name: SCardDisconnect
+              href: /windows/desktop/api/Winscard/nf-winscard-scarddisconnect
+            - name: SCardEndTransaction
+              href: /windows/desktop/api/Winscard/nf-winscard-scardendtransaction
+            - name: SCardEstablishCoNtext
+              href: /windows/desktop/api/Winscard/nf-winscard-scardestablishcontext
+            - name: SCardForgetCardType
+              href: /windows/desktop/api/Winscard/nf-winscard-scardforgetcardtypea
+            - name: SCardForgetReader
+              href: /windows/desktop/api/Winscard/nf-winscard-scardforgetreadera
+            - name: SCardForgetReaderGroup
+              href: /windows/desktop/api/Winscard/nf-winscard-scardforgetreadergroupa
+            - name: SCardFreeMemory
+              href: /windows/desktop/api/Winscard/nf-winscard-scardfreememory
+            - name: SCardGetAttrib
+              href: /windows/desktop/api/Winscard/nf-winscard-scardgetattrib
+            - name: SCardGetCardTypeProviderName
+              href: /windows/desktop/api/Winscard/nf-winscard-scardgetcardtypeprovidernamea
+            - name: SCardGetDeviceTypeId
+              href: /windows/desktop/api/Winscard/nf-winscard-scardgetdevicetypeida
+            - name: SCardGetProviderId
+              href: /windows/desktop/api/Winscard/nf-winscard-scardgetproviderida
+            - name: SCardGetReaderDeviceInstanceId
+              href: /windows/desktop/api/winscard/nf-winscard-scardgetreaderdeviceinstanceida
+            - name: SCardGetReaderIcon
+              href: /windows/desktop/api/winscard/nf-winscard-scardgetreadericona
+            - name: SCardGetStatusChange
+              href: /windows/desktop/api/Winscard/nf-winscard-scardgetstatuschangea
+            - name: SCardGetTransmitCount
+              href: /windows/desktop/api/Winscard/nf-winscard-scardgettransmitcount
+            - name: SCardIntroduceCardType
+              href: /windows/desktop/api/Winscard/nf-winscard-scardintroducecardtypea
+            - name: SCardIntroduceReader
+              href: /windows/desktop/api/Winscard/nf-winscard-scardintroducereadera
+            - name: SCardIntroduceReaderGroup
+              href: /windows/desktop/api/Winscard/nf-winscard-scardintroducereadergroupa
+            - name: SCardIsValidCoNtext
+              href: /windows/desktop/api/Winscard/nf-winscard-scardisvalidcontext
+            - name: SCardListCards
+              href: /windows/desktop/api/Winscard/nf-winscard-scardlistcardsa
+            - name: SCardListInterfaces
+              href: /windows/desktop/api/Winscard/nf-winscard-scardlistinterfacesa
+            - name: SCardListReaderGroups
+              href: /windows/desktop/api/Winscard/nf-winscard-scardlistreadergroupsa
+            - name: SCardListReaders
+              href: /windows/desktop/api/Winscard/nf-winscard-scardlistreadersa
+            - name: SCardListReadersWithDeviceInstanceId
+              href: /windows/desktop/api/winscard/nf-winscard-scardlistreaderswithdeviceinstanceida
+            - name: SCardLocateCards
+              href: /windows/desktop/api/Winscard/nf-winscard-scardlocatecardsa
+            - name: SCardLocateCardsByATR
+              href: /windows/desktop/api/Winscard/nf-winscard-scardlocatecardsbyatra
+            - name: SCardReadCache
+              href: /windows/desktop/api/Winscard/nf-winscard-scardreadcachea
+            - name: SCardReconnect
+              href: /windows/desktop/api/Winscard/nf-winscard-scardreconnect
+            - name: SCardReleaseCoNtext
+              href: /windows/desktop/api/Winscard/nf-winscard-scardreleasecontext
+            - name: SCardReleaseStartedEvent
+              href: /windows/desktop/api/Winscard/nf-winscard-scardreleasestartedevent
+            - name: SCardRemoveReaderFromGroup
+              href: /windows/desktop/api/Winscard/nf-winscard-scardremovereaderfromgroupa
+            - name: SCardSetAttrib
+              href: /windows/desktop/api/Winscard/nf-winscard-scardsetattrib
+            - name: SCardSetCardTypeProviderName
+              href: /windows/desktop/api/Winscard/nf-winscard-scardsetcardtypeprovidernamea
+            - name: SCardStatus
+              href: /windows/desktop/api/Winscard/nf-winscard-scardstatusa
+            - name: SCardTransmit
+              href: /windows/desktop/api/Winscard/nf-winscard-scardtransmit
+            - name: SCardUIDlgSelectCard
+              href: /windows/desktop/api/Winscard/nf-winscard-scarduidlgselectcarda
+            - name: SCardWriteCache
+              href: /windows/desktop/api/Winscard/nf-winscard-scardwritecachea
+            - name: SendSAS
+              href: /windows/desktop/api/Sas/nf-sas-sendsas
+            - name: SetCoNtextAttributes
+              href: /windows/desktop/api/Sspi/nf-sspi-setcontextattributesa
+            - name: SetCredentialsAttributes
+              href: /windows/desktop/api/Sspi/nf-sspi-setcredentialsattributesa
+            - name: SpAcceptCredentialsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spacceptcredentialsfn
+            - name: SpAcceptLsaModeCoNtextFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spacceptlsamodecontextfn
+            - name: SpAcquireCredentialsHandleFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn
+            - name: SpAddCredentialsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spaddcredentialsfn
+            - name: SpApplyControlTokenFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spapplycontroltokenfn
+            - name: SpCompleteAuthTokenFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spcompleteauthtokenfn
+            - name: KspDeleteCoNtextFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-kspdeletecontextfn
+            - name: SpDeleteCredentialsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spdeletecredentialsfn
+            - name: SpExchangeMetaDataFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spexchangemetadatafn
+            - name: SpExportSecurityCoNtextFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spexportsecuritycontextfn
+            - name: SpFormatCredentialsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spformatcredentialsfn
+            - name: SpFreeCredentialsHandleFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spfreecredentialshandlefn
+            - name: SpGetCoNtextTokenFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spgetcontexttokenfn
+            - name: SpGetCredentialsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spgetcredentialsfn
+            - name: SpGetCredUICoNtextFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spgetcreduicontextfn
+            - name: SpGetExtendedInformationFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn
+            - name: SpGetInfoFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spgetinfofn
+            - name: SpGetUserInfoFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spgetuserinfofn
+            - name: SpImportSecurityCoNtextFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spimportsecuritycontextfn
+            - name: SpInitializeFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spinitializefn
+            - name: SpInitLsaModeCoNtextFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spinitlsamodecontextfn
+            - name: SpInitUserModeCoNtextFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spinitusermodecontextfn
+            - name: SpInstanceInitFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spinstanceinitfn
+            - name: SpLsaModeInitializeFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-splsamodeinitializefn
+            - name: KspMakeSignatureFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-kspmakesignaturefn
+            - name: SpMarshallSupplementalCredsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spmarshallsupplementalcredsfn
+            - name: SpQueryCoNtextAttributesFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spquerycontextattributesfn
+            - name: SpQueryCredentialsAttributesFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spquerycredentialsattributesfn
+            - name: SpQueryMetaDataFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spquerymetadatafn
+            - name: SpSaveCredentialsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spsavecredentialsfn
+            - name: SpSealMessageFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spsealmessagefn
+            - name: SpSetExtendedInformationFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn
+            - name: SpShutdownFn
+              href: /previous-versions/windows/desktop/legacy/aa380183(v=vs.85)
+            - name: SpUnsealMessageFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spunsealmessagefn
+            - name: SpUpdateCredentialsFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spupdatecredentialsfn
+            - name: SpUserModeInitializeFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spusermodeinitializefn
+            - name: SpValidateTargetInfoFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spvalidatetargetinfofn
+            - name: KspVerifySignatureFn
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-kspverifysignaturefn
+            - name: SslCrackCertificate
+              href: /windows/desktop/api/Schannel/nf-schannel-sslcrackcertificate
+            - name: SslEmptyCache
+              href: /windows/desktop/api/Schannel/nf-schannel-sslemptycachea
+            - name: SslFreeCertificate
+              href: /windows/desktop/api/Schannel/nf-schannel-sslfreecertificate
+            - name: SslGetServerIdentity
+              href: /windows/desktop/api/Schannel/nf-schannel-sslgetserveridentity
+            - name: SspiCompareAuthIdentities
+              href: /windows/desktop/api/Sspi/nf-sspi-sspicompareauthidentities
+            - name: SspiCopyAuthIdentity
+              href: /windows/desktop/api/Sspi/nf-sspi-sspicopyauthidentity
+            - name: SspiDecryptAuthIdentity
+              href: /windows/desktop/api/Sspi/nf-sspi-sspidecryptauthidentity
+            - name: SspiDecryptAuthIdentityEx
+              href: /windows/desktop/api/Sspi/nf-sspi-sspidecryptauthidentityex
+            - name: SspiEncodeAuthIdentityAsStrings
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiencodeauthidentityasstrings
+            - name: SspiEncodeStringsAsAuthIdentity
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiencodestringsasauthidentity
+            - name: SspiEncryptAuthIdentity
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiencryptauthidentity
+            - name: SspiEncryptAuthIdentityEx
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiencryptauthidentityex
+            - name: SspiExcludePackage
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiexcludepackage
+            - name: SspiFreeAuthIdentity
+              href: /windows/desktop/api/Sspi/nf-sspi-sspifreeauthidentity
+            - name: SspiGetCredUICoNtext
+              href: /windows/desktop/api/Sspi/nf-sspi-sspigetcreduicontext
+            - name: SspiGetTargetHostName
+              href: /windows/desktop/api/Sspi/nf-sspi-sspigettargethostname
+            - name: SspiIsAuthIdentityEncrypted
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiisauthidentityencrypted
+            - name: SspiIsPromptingNeeded
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiispromptingneeded
+            - name: SspiLocalFree
+              href: /windows/desktop/api/Sspi/nf-sspi-sspilocalfree
+            - name: SspiMarshalAuthIdentity
+              href: /windows/desktop/api/Sspi/nf-sspi-sspimarshalauthidentity
+            - name: SspiPrepareForCredRead
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiprepareforcredread
+            - name: SspiPrepareForCredWrite
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiprepareforcredwrite
+            - name: SspiPromptForCredentials
+              href: /windows/desktop/api/Sspi/nf-sspi-sspipromptforcredentialsa
+            - name: SspiUnmarshalAuthIdentity
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiunmarshalauthidentity
+            - name: SspiUnmarshalCredUICoNtext
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiunmarshalcreduicontext
+            - name: SspiUpdateCredentials
+              href: /windows/desktop/api/Sspi/nf-sspi-sspiupdatecredentials
+            - name: SspiValidateAuthIdentity
+              href: /windows/desktop/api/Sspi/nf-sspi-sspivalidateauthidentity
+            - name: SspiZeroAuthIdentity
+              href: /windows/desktop/api/Sspi/nf-sspi-sspizeroauthidentity
+            - name: LSA_UNLOAD_PACKAGE
+              href: /previous-versions/windows/desktop/legacy/aa380520(v=vs.85)
+            - name: LSA_UPDATE_PRIMARY_CREDENTIALS
+              href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_update_primary_credentials
+            - name: VerifySignature
+              href: /windows/desktop/api/Sspi/nf-sspi-verifysignature
+            - name: WlxActivateUserShell
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxactivateusershell
+            - name: WlxAssignShellProtection
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_assign_shell_protection
+            - name: WlxChangePasswordNotify
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify
+            - name: WlxChangePasswordNotifyEx
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify_ex
+            - name: WlxCloseUserDesktop
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_close_user_desktop
+            - name: WlxCreateUserDesktop
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_create_user_desktop
+            - name: WlxDialogBox
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box
+            - name: WlxDialogBoxIndirect
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect
+            - name: WlxDialogBoxIndirectParam
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect_param
+            - name: WlxDialogBoxParam
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_param
+            - name: WlxDisconnect
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_disconnect
+            - name: WlxDisplayLockedNotice
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxdisplaylockednotice
+            - name: WlxDisplaySASNotice
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxdisplaysasnotice
+            - name: WlxDisplayStatusMessage
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxdisplaystatusmessage
+            - name: WlxGetConsoleSwitchCredentials
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxgetconsoleswitchcredentials
+            - name: WlxGetOption
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_get_option
+            - name: WlxGetSourceDesktop
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_get_source_desktop
+            - name: WlxGetStatusMessage
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxgetstatusmessage
+            - name: WlxInitialize
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize
+            - name: WlxIsLockOk
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxislockok
+            - name: WlxIsLogoffOk
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxislogoffok
+            - name: WlxLoggedOnSAS
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxloggedonsas
+            - name: WlxLoggedOutSAS
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxloggedoutsas
+            - name: WlxLogoff
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff
+            - name: WlxMessageBox
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_message_box
+            - name: WlxNegotiate
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxnegotiate
+            - name: WlxNetworkProviderLoad
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxnetworkproviderload
+            - name: WlxQueryClientCredentials
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_client_credentials
+            - name: WlxQueryConsoleSwitchCredentials
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_consoleswitch_credentials
+            - name: WlxQueryInetConnectorCredentials
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ic_credentials
+            - name: WlxQueryTerminalServicesData
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data
+            - name: WlxQueryTsLogonCredentials
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ts_logon_credentials
+            - name: WlxRemoveStatusMessage
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxremovestatusmessage
+            - name: WlxSasNotify
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_sas_notify
+            - name: WlxScreenSaverNotify
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxscreensavernotify
+            - name: WlxSetCoNtextPointer
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_set_context_pointer
+            - name: WlxSetOption
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option
+            - name: WlxSetReturnDesktop
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_set_return_desktop
+            - name: WlxSetTimeout
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_set_timeout
+            - name: WlxShutdown
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxshutdown
+            - name: WlxStartApplication
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxstartapplication
+            - name: WlxSwitchDesktopToUser
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_switch_desktop_to_user
+            - name: WlxSwitchDesktopToWinlogon
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_switch_desktop_to_winlogon
+            - name: WlxUseCtrlAltDel
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_use_ctrl_alt_del
+            - name: WlxWin31Migrate
+              href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_win31_migrate
+            - name: WlxWkstaLockedSAS
+              href: /windows/desktop/api/Winwlx/nf-winwlx-wlxwkstalockedsas
+            - name: WNetSetLastError
+              href: /windows/desktop/api/Npapi/nf-npapi-wnetsetlasterrora
+        - name: 驗證介面
+          href: authentication-interfaces.md
+          items:
+            - name: IAssociatedIdentityProvider
+              href: /windows/desktop/api/IdentityProvider/nn-identityprovider-iassociatedidentityprovider
+              items:
+                - name: IAssociatedIdentityProvider 方法
+                  href: iassociatedidentityprovider-methods.md
+                  items:
+                    - name: AssociateIdentity 方法
+                      href: /windows/desktop/api/IdentityProvider/nf-identityprovider-iassociatedidentityprovider-associateidentity
+                    - name: ChangeCredential 方法
+                      href: /windows/desktop/api/IdentityProvider/nf-identityprovider-iassociatedidentityprovider-changecredential
+                    - name: DisassociateIdentity 方法
+                      href: /windows/desktop/api/IdentityProvider/nf-identityprovider-iassociatedidentityprovider-disassociateidentity
+            - name: IByteBuffer
+              href: ibytebuffer.md
+              items:
+                - name: IByteBuffer 方法
+                  href: ibytebuffer-methods.md
+                  items:
+                    - name: Clone 方法
+                      href: ibytebuffer-clone.md
+                    - name: Commit 方法
+                      href: ibytebuffer-commit.md
+                    - name: CopyTo 方法
+                      href: ibytebuffer-copyto.md
+                    - name: Initialize 方法
+                      href: ibytebuffer-initialize.md
+                    - name: LockRegion 方法
+                      href: ibytebuffer-lockregion.md
+                    - name: Read 方法
+                      href: ibytebuffer-read.md
+                    - name: Revert 方法
+                      href: ibytebuffer-revert.md
+                    - name: Seek 方法
+                      href: ibytebuffer-seek.md
+                    - name: SetSize 方法
+                      href: ibytebuffer-setsize.md
+                    - name: Stat 方法
+                      href: ibytebuffer-stat.md
+                    - name: UnlockRegion 方法
+                      href: ibytebuffer-unlockregion.md
+                    - name: Write 方法
+                      href: ibytebuffer-write.md
+            - name: ICcgDomainAuthCredentials
+              href: iccgdomainauthcredentials.md
+              items:
+                - name: GetPasswordCredentials 方法
+                  href: iccgdomainauthcredentials-getpasswordcredentials.md
+            - name: IConnectedIdentityProvider
+              href: /windows/desktop/api/Identityprovider/nn-identityprovider-iconnectedidentityprovider
+              items:
+                - name: ConnectIdentity 方法
+                  href: /windows/desktop/api/Identityprovider/nf-identityprovider-iconnectedidentityprovider-connectidentity
+                - name: DisconnectIdentity 方法
+                  href: /windows/desktop/api/Identityprovider/nf-identityprovider-iconnectedidentityprovider-disconnectidentity
+                - name: GetUrl 方法
+                  href: /windows/desktop/api/Identityprovider/nf-identityprovider-iconnectedidentityprovider-geturl
+            - name: IIdentityAdvise
+              href: /windows/desktop/api/IdentityProvider/nn-identityprovider-iidentityadvise
+              items:
+                - name: IIdentityAdvise 方法
+                  href: iidentityadvise-methods.md
+                  items:
+                    - name: IdentityUpdated 方法
+                      href: /windows/desktop/api/IdentityProvider/nf-identityprovider-iidentityadvise-identityupdated
+            - name: IIdentityProvider
+              href: /windows/desktop/api/Identityprovider/nn-identityprovider-iidentityprovider
+              items:
+                - name: IIdentityProvider 方法
+                  href: iidentityprovider-methods.md
+                  items:
+                    - name: 建議方法
+                      href: /windows/desktop/api/Identityprovider/nf-identityprovider-iidentityprovider-advise
+                    - name: Create 方法
+                      href: /windows/desktop/api/Identityprovider/nf-identityprovider-iidentityprovider-create
+                    - name: Delete 方法
+                      href: /windows/desktop/api/Identityprovider/nf-identityprovider-iidentityprovider-delete
+                    - name: FindByUniqueID 方法
+                      href: /windows/desktop/api/Identityprovider/nf-identityprovider-iidentityprovider-findbyuniqueid
+                    - name: GetIdentityEnum 方法
+                      href: /windows/desktop/api/Identityprovider/nf-identityprovider-iidentityprovider-getidentityenum
+                    - name: GetProviderPropertyStore 方法
+                      href: /windows/desktop/api/Identityprovider/nf-identityprovider-iidentityprovider-getproviderpropertystore
+                    - name: 匯入方法
+                      href: /windows/desktop/api/Identityprovider/nf-identityprovider-iidentityprovider-import
+                    - name: UnAdvise 方法
+                      href: /windows/desktop/api/Identityprovider/nf-identityprovider-iidentityprovider-unadvise
+            - name: IIdentityStore
+              href: /windows/desktop/api/Identitystore/nn-identitystore-iidentitystore
+              items:
+                - name: IIdentityStore 方法
+                  href: iidentitystore-methods.md
+                  items:
+                    - name: AddToCache 方法
+                      href: /windows/desktop/api/Identitystore/nf-identitystore-iidentitystore-addtocache
+                    - name: ConvertToSid 方法
+                      href: /windows/desktop/api/Identitystore/nf-identitystore-iidentitystore-converttosid
+                    - name: EnumerateIdentities 方法
+                      href: /windows/desktop/api/Identitystore/nf-identitystore-iidentitystore-enumerateidentities
+                    - name: GetAt 方法
+                      href: /windows/desktop/api/Identitystore/nf-identitystore-iidentitystore-getat
+                    - name: GetCount 方法
+                      href: /windows/desktop/api/Identitystore/nf-identitystore-iidentitystore-getcount
+                    - name: Reset 方法
+                      href: /windows/desktop/api/Identitystore/nf-identitystore-iidentitystore-reset
+            - name: ISCard
+              href: iscard.md
+              items:
+                - name: ISCard 方法
+                  href: iscard-methods.md
+                  items:
+                    - name: AttachByHandle 方法
+                      href: iscard-attachbyhandle.md
+                    - name: AttachByReader 方法
+                      href: iscard-attachbyreader.md
+                    - name: Detach 方法
+                      href: iscard-detach.md
+                    - name: get_Atr 方法
+                      href: iscard-get-atr.md
+                    - name: get_CardHandle 方法
+                      href: iscard-get-cardhandle.md
+                    - name: get_CoNtext 方法
+                      href: iscard-get-context.md
+                    - name: get_Protocol 方法
+                      href: iscard-get-protocol.md
+                    - name: get_Status 方法
+                      href: iscard-get-status.md
+                    - name: LockSCard 方法
+                      href: iscard-lockscard.md
+                    - name: 重新附加方法
+                      href: iscard-reattach.md
+                    - name: Transaction 方法
+                      href: iscard-transaction.md
+                    - name: UnlockSCard 方法
+                      href: iscard-unlockscard.md
+            - name: ISCardAuth
+              href: iscardauth.md
+              items:
+                - name: ISCardAuth 方法
+                  href: iscardauth-methods.md
+                  items:
+                    - name: APP_Auth 方法
+                      href: iscardauth-app-auth.md
+                    - name: GetChallenge 方法
+                      href: iscardauth-getchallenge.md
+                    - name: ICC_Auth 方法
+                      href: iscardauth-icc-auth.md
+                    - name: User_Auth 方法
+                      href: iscardauth-user-auth.md
+            - name: ISCardCmd
+              href: iscardcmd.md
+              items:
+                - name: ISCardCmd 方法
+                  href: iscardcmd-methods.md
+                  items:
+                    - name: BuildCmd 方法
+                      href: iscardcmd-buildcmd.md
+                    - name: Clear 方法
+                      href: iscardcmd-clear.md
+                    - name: 封裝方法
+                      href: iscardcmd-encapsulate.md
+                    - name: get_AlternateClassId 方法
+                      href: iscardcmd-get-alternateclassid.md
+                    - name: get_Apdu 方法
+                      href: iscardcmd-get-apdu.md
+                    - name: get_ApduLength 方法
+                      href: iscardcmd-get-apdulength.md
+                    - name: get_ApduReply 方法
+                      href: iscardcmd-get-apdureply.md
+                    - name: get_ApduReplyLength 方法
+                      href: iscardcmd-get-apdureplylength.md
+                    - name: get_ClassId 方法
+                      href: iscardcmd-get-classid.md
+                    - name: get_Data 方法
+                      href: iscardcmd-get-data.md
+                    - name: get_InstructionId 方法
+                      href: iscardcmd-get-instructionid.md
+                    - name: get_LeField 方法
+                      href: iscardcmd-get-lefield.md
+                    - name: get_P1 方法
+                      href: iscardcmd-get-p1.md
+                    - name: get_P2 方法
+                      href: iscardcmd-get-p2.md
+                    - name: get_P3 方法
+                      href: iscardcmd-get-p3.md
+                    - name: get_ReplyNad 方法
+                      href: iscardcmd-get-replynad.md
+                    - name: get_ReplyStatus 方法
+                      href: iscardcmd-get-replystatus.md
+                    - name: get_ReplyStatusSW1 方法
+                      href: iscardcmd-get-replystatussw1.md
+                    - name: get_ReplyStatusSW2 方法
+                      href: iscardcmd-get-replystatussw2.md
+                    - name: put_AlternateClassId 方法
+                      href: iscardcmd-put-alternateclassid.md
+                    - name: put_Apdu 方法
+                      href: iscardcmd-put-apdu.md
+                    - name: put_ApduReply 方法
+                      href: iscardcmd-put-apdureply.md
+                    - name: put_ClassId 方法
+                      href: iscardcmd-put-classid.md
+                    - name: put_Data 方法
+                      href: iscardcmd-put-data.md
+                    - name: put_InstructionId 方法
+                      href: iscardcmd-put-instructionid.md
+                    - name: put_Nad 方法
+                      href: iscardcmd-put-nad.md
+                    - name: put_P1 方法
+                      href: iscardcmd-put-p1.md
+                    - name: put_P2 方法
+                      href: iscardcmd-put-p2.md
+                    - name: put_ReplyStatus 方法
+                      href: iscardcmd-put-replystatus.md
+            - name: ISCardDatabase
+              href: iscarddatabase.md
+              items:
+                - name: ISCardDatabase 方法
+                  href: iscarddatabase-methods.md
+                  items:
+                    - name: GetProviderCardId 方法
+                      href: iscarddatabase-getprovidercardid.md
+                    - name: ListCardInterfaces 方法
+                      href: iscarddatabase-listcardinterfaces.md
+                    - name: ListCards 方法
+                      href: iscarddatabase-listcards.md
+                    - name: ListReaderGroups 方法
+                      href: iscarddatabase-listreadergroups.md
+                    - name: ListReaders 方法
+                      href: iscarddatabase-listreaders.md
+            - name: ISCardFileAccess
+              href: iscardfileaccess.md
+              items:
+                - name: ISCardFileAccess 方法
+                  href: iscardfileaccess-methods.md
+                  items:
+                    - name: ChangeDir 方法
+                      href: iscardfileaccess-changedir.md
+                    - name: Close 方法
+                      href: iscardfileaccess-close.md
+                    - name: Create 方法
+                      href: iscardfileaccess-create.md
+                    - name: Delete 方法
+                      href: iscardfileaccess-delete.md
+                    - name: 目錄方法
+                      href: iscardfileaccess-directory.md
+                    - name: GetCurrentDir 方法
+                      href: iscardfileaccess-getcurrentdir.md
+                    - name: GetFileCapabilities 方法
+                      href: iscardfileaccess-getfilecapabilities.md
+                    - name: GetProperties 方法
+                      href: iscardfileaccess-getproperties.md
+                    - name: 無效方法
+                      href: iscardfileaccess-invalidate.md
+                    - name: Open 方法
+                      href: iscardfileaccess-open.md
+                    - name: Read 方法
+                      href: iscardfileaccess-read.md
+                    - name: 加速復原方法
+                      href: iscardfileaccess-rehabilitate.md
+                    - name: Seek 方法
+                      href: iscardfileaccess-seek.md
+                    - name: SetProperties 方法
+                      href: iscardfileaccess-setproperties.md
+                    - name: Write 方法
+                      href: iscardfileaccess-write.md
+            - name: ISCardISO7816
+              href: iscardiso7816.md
+              items:
+                - name: ISCardISO7816 方法
+                  href: iscardiso7816-methods.md
+                  items:
+                    - name: AppendRecord 方法
+                      href: iscardiso7816-appendrecord.md
+                    - name: EraseBinary 方法
+                      href: iscardiso7816-erasebinary.md
+                    - name: ExternalAuthenticate 方法
+                      href: iscardiso7816-externalauthenticate.md
+                    - name: GetChallenge 方法
+                      href: iscardiso7816-getchallenge.md
+                    - name: 的一種方法
+                      href: iscardiso7816-getdata.md
+                    - name: GetResponse 方法
+                      href: iscardiso7816-getresponse.md
+                    - name: InternalAuthenticate 方法
+                      href: iscardiso7816-internalauthenticate.md
+                    - name: ManageChannel 方法
+                      href: iscardiso7816-managechannel.md
+                    - name: PutData 方法
+                      href: iscardiso7816-putdata.md
+                    - name: ReadBinary 方法
+                      href: iscardiso7816-readbinary.md
+                    - name: ReadRecord 方法
+                      href: iscardiso7816-readrecord.md
+                    - name: SelectFile 方法
+                      href: iscardiso7816-selectfile.md
+                    - name: SetDefaultClassId 方法
+                      href: iscardiso7816-setdefaultclassid.md
+                    - name: UpdateBinary 方法
+                      href: iscardiso7816-updatebinary.md
+                    - name: UpdateRecord 方法
+                      href: iscardiso7816-updaterecord.md
+                    - name: Verify 方法
+                      href: iscardiso7816-verify.md
+                    - name: WriteBinary 方法
+                      href: iscardiso7816-writebinary.md
+                    - name: WriteRecord 方法
+                      href: iscardiso7816-writerecord.md
+            - name: ISCardLocate
+              href: iscardlocate.md
+              items:
+                - name: ISCardLocate 方法
+                  href: iscardlocate-methods.md
+                  items:
+                    - name: ConfigureCardNameSearch 方法
+                      href: iscardlocate-configurecardnamesearch.md
+                    - name: FindCard 方法
+                      href: iscardlocate-findcard.md
+            - name: ISCardManage
+              href: iscardmanage.md
+              items:
+                - name: ISCardManage 方法
+                  href: iscardmanage-methods.md
+                  items:
+                    - name: AttachByHandle 方法
+                      href: iscardmanage-attachbyhandle.md
+                    - name: AttachByIFD 方法
+                      href: iscardmanage-attachbyifd.md
+                    - name: CreateCardAuth 方法
+                      href: iscardmanage-createcardauth.md
+                    - name: CreateCHVerification 方法
+                      href: iscardmanage-createchverification.md
+                    - name: CreateFileAccess 方法
+                      href: iscardmanage-createfileaccess.md
+                    - name: CreateInterface 方法
+                      href: iscardmanage-createinterface.md
+                    - name: Detach 方法
+                      href: iscardmanage-detach.md
+                    - name: Reconnect 方法
+                      href: iscardmanage-reconnect.md
+                    - name: SCardLock 方法
+                      href: iscardmanage-scardlock.md
+                    - name: SCardUnlock 方法
+                      href: iscardmanage-scardunlock.md
+                    - name: Status 方法
+                      href: iscardmanage-status.md
+            - name: ISCardTypeConv
+              href: iscardtypeconv.md
+              items:
+                - name: ISCardTypeConv 方法
+                  href: iscardtypeconv-methods.md
+                  items:
+                    - name: ConvertByteArrayToByteBuffer 方法
+                      href: iscardtypeconv-convertbytearraytobytebuffer.md
+                    - name: ConvertByteBufferToByteArray 方法
+                      href: iscardtypeconv-convertbytebuffertobytearray.md
+                    - name: ConvertByteBufferToSafeArray 方法
+                      href: iscardtypeconv-convertbytebuffertosafearray.md
+                    - name: ConvertSafeArrayToByteBuffer 方法
+                      href: iscardtypeconv-convertsafearraytobytebuffer.md
+                    - name: CreateByteArray 方法
+                      href: iscardtypeconv-createbytearray.md
+                    - name: CreateByteBuffer 方法
+                      href: iscardtypeconv-createbytebuffer.md
+                    - name: CreateSafeArray 方法
+                      href: iscardtypeconv-createsafearray.md
+                    - name: FreeIStreamMemoryPtr 方法
+                      href: iscardtypeconv-freeistreammemoryptr.md
+                    - name: GetAtIStreamMemory 方法
+                      href: iscardtypeconv-getatistreammemory.md
+                    - name: SizeOfIStream 方法
+                      href: iscardtypeconv-sizeofistream.md
+            - name: ISCardVerify
+              href: iscardverify.md
+              items:
+                - name: ISCardVerify 方法
+                  href: iscardverify-methods.md
+                  items:
+                    - name: ChangeCode 方法
+                      href: iscardverify-changecode.md
+                    - name: ResetSecurityState 方法
+                      href: iscardverify-resetsecuritystate.md
+                    - name: 解除封鎖方法
+                      href: /previous-versions/windows/desktop/legacy/aa377269(v=vs.85)
+                    - name: Verify 方法
+                      href: iscardverify-verify.md
+            - name: ITpmVirtualSmartCardManager
+              href: /windows/desktop/api/Tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanager
+              items:
+                - name: CreateVirtualSmartCard 方法
+                  href: /windows/desktop/api/Tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanager-createvirtualsmartcard
+                - name: DestroyVirtualSmartCard 方法
+                  href: /windows/desktop/api/Tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanager-destroyvirtualsmartcard
+            - name: ITpmVirtualSmartCardManagerStatusCallback
+              href: /windows/desktop/api/Tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback
+              items:
+                - name: ReportError 方法
+                  href: /windows/desktop/api/Tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback-reporterror
+                - name: '>reportprogress 方法'
+                  href: /windows/desktop/api/Tpmvscmgr/nf-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback-reportprogress
+        - name: 驗證登錄機碼
+          href: authentication-registry-keys.md
+        - name: 驗證傳回值
+          href: authentication-return-values.md
+          items:
+            - name: 網路安全性傳回值
+              href: network-security-return-values.md
+        - name: 驗證結構
+          href: authentication-structures.md
+          items:
+            - name: CENTRAL_ACCESS_POLICY
+              href: /windows/win32/api/Ntlsa/ns-ntlsa-central_access_policy
+            - name: CENTRAL_ACCESS_POLICY_ENTRY
+              href: /windows/win32/api/Ntlsa/ns-ntlsa-central_access_policy_entry
+            - name: CERT_CREDENTIAL_INFO
+              href: /windows/win32/api/WinCred/ns-wincred-cert_credential_info
+            - name: CREDENTIAL
+              href: /windows/win32/api/WinCred/ns-wincred-credentiala
+            - name: CREDENTIAL_ATTRIBUTE
+              href: /windows/win32/api/WinCred/ns-wincred-credential_attributea
+            - name: CREDENTIAL_TARGET_INFORMATION
+              href: /windows/win32/api/WinCred/ns-wincred-credential_target_informationa
+            - name: CREDSSP_CRED
+              href: /windows/win32/api/Credssp/ns-credssp-credssp_cred
+            - name: CREDUI_INFO
+              href: /windows/win32/api/WinCred/ns-wincred-credui_infoa
+            - name: CREDUIWIN_MARSHALED_CONTEXT
+              href: /windows/win32/api/Sspi/ns-sspi-creduiwin_marshaled_context
+            - name: DOMAIN_PASSWORD_INFORMATION
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-domain_password_information
+            - name: ENCRYPTED_CREDENTIALW
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-encrypted_credentialw
+            - name: KERB_ADD_BINDING_CACHE_ENTRY_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_add_binding_cache_entry_request
+            - name: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_add_binding_cache_entry_ex_request
+            - name: KERB_ADD_CREDENTIALS_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_add_credentials_request
+            - name: KERB_ADD_CREDENTIALS_REQUEST_EX
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_add_credentials_request_ex
+            - name: KERB_BINDING_CACHE_ENTRY_DATA
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_binding_cache_entry_data
+            - name: KERB_CERTIFICATE_HASHINFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_certificate_hashinfo
+            - name: KERB_CERTIFICATE_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_certificate_info
+            - name: KERB_CERTIFICATE_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_certificate_logon
+            - name: KERB_CERTIFICATE_S4U_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_certificate_s4u_logon
+            - name: KERB_CERTIFICATE_UNLOCK_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_certificate_unlock_logon
+            - name: KERB_CHANGEPASSWORD_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_changepassword_request
+            - name: KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_cleanup_machine_pkinit_creds_request
+            - name: KERB_CRYPTO_KEY
+              href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-kerb_crypto_key
+            - name: KERB_EXTERNAL_NAME
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_external_name
+            - name: KERB_EXTERNAL_TICKET
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_external_ticket
+            - name: KERB_INTERACTIVE_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_interactive_logon
+            - name: KERB_INTERACTIVE_PROFILE
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_interactive_profile
+            - name: KERB_INTERACTIVE_UNLOCK_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_interactive_unlock_logon
+            - name: KERB_PURGE_BINDING_CACHE_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_purge_binding_cache_request
+            - name: KERB_PURGE_TKT_CACHE_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_purge_tkt_cache_request
+            - name: KERB_QUERY_BINDING_CACHE_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_query_binding_cache_request
+            - name: KERB_QUERY_BINDING_CACHE_RESPONSE
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_query_binding_cache_response
+            - name: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_request
+            - name: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_response
+            - name: KERB_QUERY_TKT_CACHE_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_query_tkt_cache_request
+            - name: KERB_QUERY_TKT_CACHE_RESPONSE
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_query_tkt_cache_response
+            - name: KERB_RETRIEVE_TKT_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_retrieve_tkt_request
+            - name: KERB_RETRIEVE_TKT_RESPONSE
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_retrieve_tkt_response
+            - name: KERB_S4U_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_s4u_logon
+            - name: KERB_SMARTCARD_CSP_INFO
+              href: kerb-smartcard-csp-info.md
+            - name: KERB_SMART_CARD_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_smart_card_logon
+            - name: KERB_SMART_CARD_UNLOCK_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_smart_card_unlock_logon
+            - name: KERB_TICKET_CACHE_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_ticket_cache_info
+            - name: KERB_TICKET_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_ticket_logon
+            - name: KERB_TICKET_PROFILE
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_ticket_profile
+            - name: KERB_TICKET_UNLOCK_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-kerb_ticket_unlock_logon
+            - name: LSA_DISPATCH_TABLE
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-lsa_dispatch_table
+            - name: LSA_FOREST_TRUST_BINARY_DATA
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_forest_trust_binary_data
+            - name: LSA_FOREST_TRUST_COLLISION_INFORMATION
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_information
+            - name: LSA_FOREST_TRUST_COLLISION_RECORD
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_record
+            - name: LSA_FOREST_TRUST_DOMAIN_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_forest_trust_domain_info
+            - name: LSA_FOREST_TRUST_INFORMATION
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_forest_trust_information
+            - name: LSA_FOREST_TRUST_RECORD
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_forest_trust_record
+            - name: LSA_LAST_INTER_LOGON_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_last_inter_logon_info
+            - name: LSA_SECPKG_FUNCTION_TABLE
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table
+            - name: LSA_SID_NAME_MAPPING_OPERATION_INPUT
+              href: lsa-sid-name-mapping-operation-input.md
+            - name: LSA_SID_NAME_MAPPING_OPERATION_OUTPUT
+              href: lsa-sid-name-mapping-operation-output.md
+            - name: LSA_STRING
+              href: /windows/win32/api/LsaLookup/ns-lsalookup-lsa_string
+            - name: LSA_TOKEN_INFORMATION_Null
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-lsa_token_information_null
+            - name: LSA_TOKEN_INFORMATION_V1
+              href: /previous-versions/windows/desktop/legacy/aa378721(v=vs.85)
+            - name: LSA_TOKEN_INFORMATION_V2
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-lsa_token_information_v1
+            - name: LSA_TOKEN_INFORMATION_V3
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-lsa_token_information_v3
+            - name: MSV1_0_CHANGEPASSWORD_REQUEST
+              href: msv1-0-changepassword-request.md
+            - name: MSV1_0_CHANGEPASSWORD_RESPONSE
+              href: msv1-0-changepassword-response.md
+            - name: MSV1_0_ENUMUSERS_REQUEST
+              href: msv1-0-enumusers-request.md
+            - name: MSV1_0_ENUMUSERS_RESPONSE
+              href: msv1-0-enumusers-response.md
+            - name: MSV1_0_GETUSERINFO_REQUEST
+              href: msv1-0-getuserinfo-request.md
+            - name: MSV1_0_GETUSERINFO_RESPONSE
+              href: msv1-0-getuserinfo-response.md
+            - name: MSV1_0_INTERACTIVE_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-msv1_0_interactive_logon
+            - name: MSV1_0_INTERACTIVE_PROFILE
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-msv1_0_interactive_profile
+            - name: MSV1_0_LM20_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-msv1_0_lm20_logon
+            - name: MSV1_0_LM20_LOGON_PROFILE
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-msv1_0_lm20_logon_profile
+            - name: MSV1_0_SUBAUTH_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-msv1_0_subauth_logon
+            - name: MSV1_0_SUBAUTH_REQUEST
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-msv1_0_subauth_request
+            - name: MSV1_0_SUBAUTH_RESPONSE
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-msv1_0_subauth_response
+            - name: MSV1_0_SUPPLEMENTAL_CREDENTIAL
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-msv1_0_supplemental_credential
+            - name: NETCONNECTINFOSTRUCT
+              href: /windows/win32/api/Winnetwk/ns-winnetwk-netconnectinfostruct
+            - name: NETLOGON_LOGON_IDENTITY_INFO
+              href: /windows/win32/api/Subauth/ns-subauth-netlogon_logon_identity_info
+            - name: NETRESOURCE
+              href: /windows/win32/api/Winnetwk/ns-winnetwk-netresourcea
+            - name: NOTIFYADD
+              href: /windows/win32/api/Npapi/ns-npapi-notifyadd
+            - name: NOTIFYCANCEL
+              href: /windows/win32/api/Npapi/ns-npapi-notifycancel
+            - name: NOTIFYINFO
+              href: /windows/win32/api/Npapi/ns-npapi-notifyinfo
+            - name: OLD_LARGE_INTEGER
+              href: /windows/win32/api/Subauth/ns-subauth-old_large_integer
+            - name: OPENCARD_SEARCH_CRITERIA
+              href: /windows/desktop/api/Winscard/ns-winscard-opencard_search_criteriaa
+            - name: OPENCARDNAME
+              href: /windows/desktop/api/Winscard/ns-winscard-opencardnamea
+            - name: OPENCARDNAME_EX
+              href: /windows/desktop/api/Winscard/ns-winscard-opencardname_exa
+            - name: PKU2U_CERT_BLOB
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-pku2u_cert_blob
+            - name: PKU2U_CERTIFICATE_S4U_LOGON
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-pku2u_certificate_s4u_logon
+            - name: PKU2U_CREDUI_CONTEXT
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-pku2u_credui_context
+            - name: QUOTA_LIMITS
+              href: /windows/win32/api/Winnt/ns-winnt-quota_limits
+            - name: REMOTE_NAME_INFO
+              href: /windows/win32/api/Winnetwk/ns-winnetwk-remote_name_infoa
+            - name: SCARD_ATRMASK
+              href: /windows/win32/api/Winscard/ns-winscard-scard_atrmask
+            - name: SCARD_IO_REQUEST
+              href: scard-io-request.md
+            - name: SCARD_READERSTATE
+              href: /windows/desktop/api/Winscard/ns-winscard-scard_readerstatea
+            - name: SCH_CRED_PUBLIC_CERTCHAIN
+              href: /windows/win32/api/Schannel/ns-schannel-sch_cred_public_certchain
+            - name: SCH_CRED_SECRET_PRIVKEY
+              href: /windows/win32/api/Schannel/ns-schannel-sch_cred_secret_privkey
+            - name: SCHANNEL_ALERT_TOKEN
+              href: /windows/win32/api/Schannel/ns-schannel-schannel_alert_token
+            - name: SCHANNEL_CERT_HASH
+              href: /windows/win32/api/Schannel/ns-schannel-schannel_cert_hash
+            - name: SCHANNEL_CERT_HASH_STORE
+              href: /windows/win32/api/Schannel/ns-schannel-schannel_cert_hash_store
+            - name: SCHANNEL_CLIENT_SIGNATURE
+              href: /windows/win32/api/Schannel/ns-schannel-schannel_client_signature
+            - name: SCHANNEL_CRED
+              href: /windows/win32/api/Schannel/ns-schannel-schannel_cred
+            - name: SCHANNEL_SESSION_TOKEN
+              href: /windows/win32/api/Schannel/ns-schannel-schannel_session_token
+            - name: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+              href: /windows/win32/api/Sspi/ne-sspi-sec_application_protocol_negotiation_status
+            - name: SEC_CHANNEL_BINDINGS
+              href: /windows/win32/api/Sspi/ns-sspi-sec_channel_bindings
+            - name: SEC_WINNT_AUTH_BYTE_VECTOR
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_byte_vector
+            - name: SEC_WINNT_AUTH_CERTIFICATE_DATA
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_certificate_data
+            - name: SEC_WINNT_AUTH_DATA
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_data
+            - name: SEC_WINNT_AUTH_DATA_PASSWORD
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_data_password
+            - name: SEC_WINNT_AUTH_IDENTITY
+              href: /windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a
+            - name: SEC_WINNT_AUTH_IDENTITY_EX
+              href: /windows/desktop/api/Sspi/ns-sspi-_sec_winnt_auth_identity_exa
+            - name: SEC_WINNT_AUTH_IDENTITY_EX2
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_identity_ex2
+            - name: SEC_WINNT_AUTH_PACKED_CREDENTIALS
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_packed_credentials
+            - name: SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_packed_credentials_ex
+            - name: SEC_WINNT_AUTH_SHORT_VECTOR
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_short_vector
+            - name: SEC_WINNT_CREDUI_CONTEXT
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_credui_context
+            - name: SEC_WINNT_CREDUI_CONTEXT_VECTOR
+              href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_credui_context_vector
+            - name: 之 secbuffer
+              href: /windows/win32/api/Sspi/ns-sspi-secbuffer
+            - name: SecBufferDesc
+              href: /windows/win32/api/Sspi/ns-sspi-secbufferdesc
+            - name: SECPKG_BYTE_VECTOR
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_byte_vector
+            - name: SECPKG_CALL_INFO
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_call_info
+            - name: SECPKG_CLIENT_INFO
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_client_info
+            - name: SECPKG_CONTEXT_THUNKS
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_context_thunks
+            - name: SECPKG_CREDENTIAL
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_credential
+            - name: SECPKG_DLL_FUNCTIONS
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_dll_functions
+            - name: SECPKG_EVENT_NOTIFY
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_event_notify
+            - name: SECPKG_EVENT_PACKAGE_CHANGE
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_event_package_change
+            - name: SECPKG_EXTENDED_INFORMATION
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_extended_information
+            - name: SECPKG_EXTRA_OIDS
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_extra_oids
+            - name: SECPKG_FUNCTION_TABLE
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_function_table
+            - name: SECPKG_GSS_INFO
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_gss_info
+            - name: SECPKG_MUTUAL_AUTH_LEVEL
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_mutual_auth_level
+            - name: SECPKG_NEGO2_INFO
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_nego2_info
+            - name: SECPKG_PARAMETERS
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_parameters
+            - name: SECPKG_PRIMARY_CRED
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_primary_cred
+            - name: SECPKG_SERIALIZED_OID
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_serialized_oid
+            - name: SECPKG_SHORT_VECTOR
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_short_vector
+            - name: SECPKG_SUPPLEMENTAL_CRED
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred
+            - name: SECPKG_SUPPLEMENTAL_CRED_ARRAY
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred_array
+            - name: SECPKG_SUPPLIED_CREDENTIAL
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_supplied_credential
+            - name: SECPKG_TARGETINFO
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_targetinfo
+            - name: SECPKG_USER_FUNCTION_TABLE
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_user_function_table
+            - name: SECPKG_WOW_CLIENT_DLL
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-secpkg_wow_client_dll
+            - name: SecPkgCoNtext_AccessToken
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_accesstoken
+            - name: SecPkgCoNtext_Authority
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_authoritya
+            - name: SecPkgCoNtext_Bindings
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_bindings
+            - name: SecPkgCoNtext_ClientCreds
+              href: /windows/win32/api/Credssp/ns-credssp-secpkgcontext_clientcreds
+            - name: SecPkgCoNtext_ClientSpecifiedTarget
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_clientspecifiedtarget
+            - name: SecPkgCoNtext_CipherInfo
+              href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_cipherinfo
+            - name: SecPkgCoNtext_ConnectionInfo
+              href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_connectioninfo
+            - name: SecPkgCoNtext_CredentialName
+              href: /windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_credentialnamea
+            - name: SecPkgCoNtext_CredInfo
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_credinfo
+            - name: SecPkgCoNtext_DceInfo
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_dceinfo
+            - name: SecPkgCoNtext_EapKeyBlock
+              href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_eapkeyblock
+            - name: SecPkgCoNtext_EapPrfInfo
+              href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_eapprfinfo
+            - name: SecPkgCoNtext_Flags
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_flags
+            - name: SecPkgCoNtext_IssuerListInfoEx
+              href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_issuerlistinfoex
+            - name: SecPkgCoNtext_KeyInfo
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_keyinfoa
+            - name: SecPkgCoNtext_KeyingMaterialInfo
+              href: /windows/desktop/api/schannel/ns-schannel-secpkgcontext_keyingmaterialinfo
+            - name: SecPkgCoNtext_EarlyStart
+              href: /windows/win32/api/schannel/ns-schannel-secpkgcontext_earlystart
+            - name: SecPkgCoNtext_KeyingMaterial
+              href: /windows/win32/api/schannel/ns-schannel-secpkgcontext_keyingmaterial
+            - name: SecPkgCoNtext_LastClientTokenStatus
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_lastclienttokenstatus
+            - name: SecPkgCoNtext_Lifespan
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_lifespan
+            - name: SecPkgCoNtext_Names
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_namesa
+            - name: SecPkgCoNtext_NativeNames
+              href: /windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_nativenamesa
+            - name: SecPkgCoNtext_NegoStatus
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_negostatus
+            - name: SecPkgCoNtext_NegotiationInfo
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_negotiationinfoa
+            - name: SecPkgCoNtext_PackageInfo
+              href: /windows/win32/api/sspi/ns-sspi-secpkginfoa
+            - name: SecPkgCoNtext_PasswordExpiry
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_passwordexpiry
+            - name: SecPkgCoNtext_ProtoInfo
+              href: /windows/win32/api/sspi/ns-sspi-secpkgcontext_protoinfoa
+            - name: SecPkgCoNtext_SessionAppData
+              href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_sessionappdata
+            - name: SecPkgCoNtext_SessionInfo
+              href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_sessioninfo
+            - name: SecPkgCoNtext_SessionKey
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_sessionkey
+            - name: SecPkgCoNtext_Sizes
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_sizes
+            - name: SecPkgCoNtext_StreamSizes
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_streamsizes
+            - name: SecPkgCoNtext_SubjectAttributes
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_subjectattributes
+            - name: SecPkgCoNtext_SupportedSignatures
+              href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_supportedsignatures
+            - name: SecPkgCoNtext_TargetInformation
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_targetinformation
+            - name: SecPkgCred_CipherStrengths
+              href: /previous-versions/windows/desktop/legacy/aa380101(v=vs.85)
+            - name: SecPkgCred_SupportedAlgs
+              href: /previous-versions/windows/desktop/legacy/aa380102(v=vs.85)
+            - name: SecPkgCred_SupportedProtocols
+              href: /previous-versions/windows/desktop/legacy/aa380103(v=vs.85)
+            - name: SecPkgCredentials_Cert
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcredentials_cert
+            - name: SecPkgCredentials_KdcProxySettings
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcredentials_kdcproxysettingsw
+            - name: SecPkgCredentials_Names
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcredentials_namesa
+            - name: SecPkgCredentials_SSIProvider
+              href: /windows/win32/api/Sspi/ns-sspi-secpkgcredentials_ssiprovidera
+            - name: SecPkgInfo
+              href: /windows/win32/api/Sspi/ns-sspi-secpkginfoa
+            - name: SECURITY_INTEGER
+              href: /windows/win32/api/Sspi/ns-sspi-security_integer
+            - name: SECURITY_LOGON_SESSION_DATA
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-security_logon_session_data
+            - name: SECURITY_PACKAGE_OPTIONS
+              href: /windows/win32/api/Sspi/ns-sspi-security_package_options
+            - name: SECURITY_STRING
+              href: /windows/win32/api/Sspi/ns-sspi-security_string
+            - name: SecurityFunctionTable
+              href: /windows/win32/api/sspi/ns-sspi-securityfunctiontablea
+            - name: SecurityUserData
+              href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-security_user_data
+            - name: SR_SECURITY_DESCRIPTOR
+              href: /windows/win32/api/Subauth/ns-subauth-sr_security_descriptor
+            - name: UNICODE_STRING
+              href: /windows/win32/api/Subauth/ns-subauth-unicode_string
+            - name: UNIVERSAL_NAME_INFO
+              href: /windows/win32/api/Winnetwk/ns-winnetwk-universal_name_infoa
+            - name: USER_ALL_INFORMATION
+              href: /windows/win32/api/Subauth/ns-subauth-user_all_information
+            - name: USERNAME_TARGET_CREDENTIAL_INFO
+              href: /windows/win32/api/WinCred/ns-wincred-username_target_credential_info
+            - name: WLX_CLIENT_CREDENTIALS_INFO_V1_0
+              href: /windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v1_0
+            - name: WLX_CLIENT_CREDENTIALS_INFO_V2_0
+              href: /windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v2_0
+            - name: WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
+              href: /windows/win32/api/winwlx/ns-winwlx-wlx_consoleswitch_credentials_info_v1_0
+            - name: WLX_DESKTOP
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_desktop
+            - name: WLX_DISPATCH_VERSION_1_0
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_dispatch_version_1_0
+            - name: WLX_DISPATCH_VERSION_1_1
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_dispatch_version_1_1
+            - name: WLX_DISPATCH_VERSION_1_2
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_dispatch_version_1_2
+            - name: WLX_DISPATCH_VERSION_1_3
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_dispatch_version_1_3
+            - name: WLX_DISPATCH_VERSION_1_4
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_dispatch_version_1_4
+            - name: WLX_MPR_NOTIFY_INFO
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_mpr_notify_info
+            - name: WLX_PROFILE_V1_0
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_profile_v1_0
+            - name: WLX_PROFILE_V2_0
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_profile_v2_0
+            - name: WLX_TERMINAL_SERVICES_DATA
+              href: /windows/win32/api/Winwlx/ns-winwlx-wlx_terminal_services_data
+            - name: X509Certificate
+              href: /windows/win32/api/Schannel/ns-schannel-x509certificate
