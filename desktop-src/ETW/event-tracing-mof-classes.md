@@ -1,0 +1,150 @@
+---
+description: 類別是在 \\ 根 \\ wmi 命名空間中定義。
+ms.assetid: b86c3863-b92c-4f6c-b953-3e0638bc915e
+title: 事件追蹤 MOF 類別
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c0a94fb5608ddcdd8a13df2d221adf3d032f6be8
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103943249"
+---
+# <a name="event-tracing-mof-classes"></a><span data-ttu-id="32f1f-103">事件追蹤 MOF 類別</span><span class="sxs-lookup"><span data-stu-id="32f1f-103">Event Tracing MOF Classes</span></span>
+
+<span data-ttu-id="32f1f-104">類別是在 \\ 根 \\ wmi 命名空間中定義。</span><span class="sxs-lookup"><span data-stu-id="32f1f-104">The classes are defined in the \\root\\wmi namespace.</span></span> <span data-ttu-id="32f1f-105">核心事件的 **EventVersion** 限定詞會將類別與特定作業系統產生關聯。</span><span class="sxs-lookup"><span data-stu-id="32f1f-105">The **EventVersion** qualifier for the kernel events associates the class with a specific operating system.</span></span> <span data-ttu-id="32f1f-106">例如，版本零會與 windows 2000、Windows XP 和 Windows Server 2003 的第一版相關聯，以及第二版與 Windows Vista 相關聯。</span><span class="sxs-lookup"><span data-stu-id="32f1f-106">For example, version zero is associated with Windows 2000, version one with Windows XP and Windows Server 2003, and version two with Windows Vista.</span></span>
+
+<span data-ttu-id="32f1f-107">下列 MOF 類別會定義 ETW 事件類別。</span><span class="sxs-lookup"><span data-stu-id="32f1f-107">The following MOF classes define the ETW event classes.</span></span>
+
+-   [<span data-ttu-id="32f1f-108">**EventTrace**</span><span class="sxs-lookup"><span data-stu-id="32f1f-108">**EventTrace**</span></span>](eventtrace.md)
+-   [<span data-ttu-id="32f1f-109">**EventTrace \_ 標頭**</span><span class="sxs-lookup"><span data-stu-id="32f1f-109">**EventTrace\_Header**</span></span>](eventtrace-header.md)
+-   [<span data-ttu-id="32f1f-110">**EventTraceEvent**</span><span class="sxs-lookup"><span data-stu-id="32f1f-110">**EventTraceEvent**</span></span>](eventtraceevent.md)
+-   [<span data-ttu-id="32f1f-111">**遺失的 \_ 事件**</span><span class="sxs-lookup"><span data-stu-id="32f1f-111">**Lost\_Event**</span></span>](lost-event.md)
+-   [<span data-ttu-id="32f1f-112">**MSNT \_ SystemTrace**</span><span class="sxs-lookup"><span data-stu-id="32f1f-112">**MSNT\_SystemTrace**</span></span>](msnt-systemtrace.md)
+-   [<span data-ttu-id="32f1f-113">**RT \_ LostEvent**</span><span class="sxs-lookup"><span data-stu-id="32f1f-113">**RT\_LostEvent**</span></span>](rt-lostevent.md)
+
+<span data-ttu-id="32f1f-114">下列 MOF 類別會定義核心事件類別。</span><span class="sxs-lookup"><span data-stu-id="32f1f-114">The following MOF classes define the kernel events classes.</span></span>
+
+-   [<span data-ttu-id="32f1f-115">**ALPC**</span><span class="sxs-lookup"><span data-stu-id="32f1f-115">**ALPC**</span></span>](alpc.md)
+-   [<span data-ttu-id="32f1f-116">**ALPC \_ 接收 \_ 訊息**</span><span class="sxs-lookup"><span data-stu-id="32f1f-116">**ALPC\_Receive\_Message**</span></span>](alpc-receive-message.md)
+-   [<span data-ttu-id="32f1f-117">**ALPC \_ 傳送 \_ 訊息**</span><span class="sxs-lookup"><span data-stu-id="32f1f-117">**ALPC\_Send\_Message**</span></span>](alpc-send-message.md)
+-   [<span data-ttu-id="32f1f-118">**ALPC \_ Unwait**</span><span class="sxs-lookup"><span data-stu-id="32f1f-118">**ALPC\_Unwait**</span></span>](alpc-unwait.md)
+-   [<span data-ttu-id="32f1f-119">**ALPC \_ 等候 \_ \_ 新 \_ 訊息**</span><span class="sxs-lookup"><span data-stu-id="32f1f-119">**ALPC\_Wait\_For\_New\_Message**</span></span>](alpc-wait-for-new-message.md)
+-   [<span data-ttu-id="32f1f-120">**ALPC \_ 等候 \_ \_ 回復**</span><span class="sxs-lookup"><span data-stu-id="32f1f-120">**ALPC\_Wait\_For\_Reply**</span></span>](alpc-wait-for-reply.md)
+-   [<span data-ttu-id="32f1f-121">**CSwitch**</span><span class="sxs-lookup"><span data-stu-id="32f1f-121">**CSwitch**</span></span>](cswitch.md)
+-   [<span data-ttu-id="32f1f-122">**DPC**</span><span class="sxs-lookup"><span data-stu-id="32f1f-122">**DPC**</span></span>](dpc.md)
+-   [<span data-ttu-id="32f1f-123">**DiskIo**</span><span class="sxs-lookup"><span data-stu-id="32f1f-123">**DiskIo**</span></span>](diskio.md)
+-   [<span data-ttu-id="32f1f-124">**DiskIo \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-124">**DiskIo\_TypeGroup1**</span></span>](diskio-typegroup1.md)
+-   [<span data-ttu-id="32f1f-125">**DiskIo \_ TypeGroup2**</span><span class="sxs-lookup"><span data-stu-id="32f1f-125">**DiskIo\_TypeGroup2**</span></span>](diskio-typegroup2.md)
+-   [<span data-ttu-id="32f1f-126">**DiskIo \_ TypeGroup3**</span><span class="sxs-lookup"><span data-stu-id="32f1f-126">**DiskIo\_TypeGroup3**</span></span>](diskio-typegroup3.md)
+-   [<span data-ttu-id="32f1f-127">**DriverCompleteRequest**</span><span class="sxs-lookup"><span data-stu-id="32f1f-127">**DriverCompleteRequest**</span></span>](drivercompleterequest.md)
+-   [<span data-ttu-id="32f1f-128">**DriverCompleteRequestReturn**</span><span class="sxs-lookup"><span data-stu-id="32f1f-128">**DriverCompleteRequestReturn**</span></span>](drivercompleterequestreturn.md)
+-   [<span data-ttu-id="32f1f-129">**DriverCompletionRoutine**</span><span class="sxs-lookup"><span data-stu-id="32f1f-129">**DriverCompletionRoutine**</span></span>](drivercompletionroutine.md)
+-   [<span data-ttu-id="32f1f-130">**DriverMajorFunctionCall**</span><span class="sxs-lookup"><span data-stu-id="32f1f-130">**DriverMajorFunctionCall**</span></span>](drivermajorfunctioncall.md)
+-   [<span data-ttu-id="32f1f-131">**DriverMajorFunctionReturn**</span><span class="sxs-lookup"><span data-stu-id="32f1f-131">**DriverMajorFunctionReturn**</span></span>](drivermajorfunctionreturn.md)
+-   [<span data-ttu-id="32f1f-132">**FileIo**</span><span class="sxs-lookup"><span data-stu-id="32f1f-132">**FileIo**</span></span>](fileio.md)
+-   [<span data-ttu-id="32f1f-133">**FileIo \_ 建立**</span><span class="sxs-lookup"><span data-stu-id="32f1f-133">**FileIo\_Create**</span></span>](fileio-create.md)
+-   [<span data-ttu-id="32f1f-134">**FileIo \_ DirEnum**</span><span class="sxs-lookup"><span data-stu-id="32f1f-134">**FileIo\_DirEnum**</span></span>](fileio-direnum.md)
+-   [<span data-ttu-id="32f1f-135">**FileIo \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="32f1f-135">**FileIo\_Info**</span></span>](fileio-info.md)
+-   [<span data-ttu-id="32f1f-136">**FileIo \_ 名稱**</span><span class="sxs-lookup"><span data-stu-id="32f1f-136">**FileIo\_Name**</span></span>](fileio-name.md)
+-   [<span data-ttu-id="32f1f-137">**FileIo \_ OpEnd**</span><span class="sxs-lookup"><span data-stu-id="32f1f-137">**FileIo\_OpEnd**</span></span>](fileio-opend.md)
+-   [<span data-ttu-id="32f1f-138">**FileIo \_ ReadWrite**</span><span class="sxs-lookup"><span data-stu-id="32f1f-138">**FileIo\_ReadWrite**</span></span>](fileio-readwrite.md)
+-   [<span data-ttu-id="32f1f-139">**FileIo \_ SimpleOp**</span><span class="sxs-lookup"><span data-stu-id="32f1f-139">**FileIo\_SimpleOp**</span></span>](fileio-simpleop.md)
+-   [<span data-ttu-id="32f1f-140">**FileIo \_ V0**</span><span class="sxs-lookup"><span data-stu-id="32f1f-140">**FileIo\_V0**</span></span>](fileio-v0.md)
+-   [<span data-ttu-id="32f1f-141">**FileIo \_ V0 \_ 名稱**</span><span class="sxs-lookup"><span data-stu-id="32f1f-141">**FileIo\_V0\_Name**</span></span>](fileio-v0-name.md)
+-   [<span data-ttu-id="32f1f-142">**FileIo \_ V1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-142">**FileIo\_V1**</span></span>](fileio-v1.md)
+-   [<span data-ttu-id="32f1f-143">**FileIo \_ V1 \_ 名稱**</span><span class="sxs-lookup"><span data-stu-id="32f1f-143">**FileIo\_V1\_Name**</span></span>](fileio-v1-name.md)
+-   [<span data-ttu-id="32f1f-144">**HWConfig**</span><span class="sxs-lookup"><span data-stu-id="32f1f-144">**HWConfig**</span></span>](hwconfig.md)
+-   [<span data-ttu-id="32f1f-145">**HWConfig \_ CPU**</span><span class="sxs-lookup"><span data-stu-id="32f1f-145">**HWConfig\_CPU**</span></span>](hwconfig-cpu.md)
+-   [<span data-ttu-id="32f1f-146">**HWConfig \_ LogDisk**</span><span class="sxs-lookup"><span data-stu-id="32f1f-146">**HWConfig\_LogDisk**</span></span>](hwconfig-logdisk.md)
+-   [<span data-ttu-id="32f1f-147">**HWConfig \_ NIC**</span><span class="sxs-lookup"><span data-stu-id="32f1f-147">**HWConfig\_NIC**</span></span>](hwconfig-nic.md)
+-   [<span data-ttu-id="32f1f-148">**HWConfig \_ PhyDisk**</span><span class="sxs-lookup"><span data-stu-id="32f1f-148">**HWConfig\_PhyDisk**</span></span>](hwconfig-phydisk.md)
+-   [<span data-ttu-id="32f1f-149">**Image**</span><span class="sxs-lookup"><span data-stu-id="32f1f-149">**Image**</span></span>](image.md)
+-   [<span data-ttu-id="32f1f-150">**映射 \_ 載入**</span><span class="sxs-lookup"><span data-stu-id="32f1f-150">**Image\_Load**</span></span>](image-load.md)
+-   [<span data-ttu-id="32f1f-151">**影像 \_ V0**</span><span class="sxs-lookup"><span data-stu-id="32f1f-151">**Image\_V0**</span></span>](image-v0.md)
+-   [<span data-ttu-id="32f1f-152">**映射 \_ V0 \_ 載入**</span><span class="sxs-lookup"><span data-stu-id="32f1f-152">**Image\_V0\_Load**</span></span>](image-v0-load.md)
+-   [<span data-ttu-id="32f1f-153">**映射 \_ V1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-153">**Image\_V1**</span></span>](image-v1.md)
+-   [<span data-ttu-id="32f1f-154">**映射 \_ V1 \_ 載入**</span><span class="sxs-lookup"><span data-stu-id="32f1f-154">**Image\_V1\_Load**</span></span>](image-v1-load.md)
+-   [<span data-ttu-id="32f1f-155">**ISR**</span><span class="sxs-lookup"><span data-stu-id="32f1f-155">**ISR**</span></span>](isr.md)
+-   [<span data-ttu-id="32f1f-156">**PageFault \_ V2**</span><span class="sxs-lookup"><span data-stu-id="32f1f-156">**PageFault\_V2**</span></span>](pagefault-v2.md)
+-   [<span data-ttu-id="32f1f-157">**PageFault \_ HardFault**</span><span class="sxs-lookup"><span data-stu-id="32f1f-157">**PageFault\_HardFault**</span></span>](pagefault-hardfault.md)
+-   [<span data-ttu-id="32f1f-158">**PageFault \_ ImageLoadBacked**</span><span class="sxs-lookup"><span data-stu-id="32f1f-158">**PageFault\_ImageLoadBacked**</span></span>](pagefault-imageloadbacked.md)
+-   [<span data-ttu-id="32f1f-159">**PageFault \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-159">**PageFault\_TypeGroup1**</span></span>](pagefault-typegroup1.md)
+-   [<span data-ttu-id="32f1f-160">**PerfInfo**</span><span class="sxs-lookup"><span data-stu-id="32f1f-160">**PerfInfo**</span></span>](perfinfo.md)
+-   [<span data-ttu-id="32f1f-161">**處理序**</span><span class="sxs-lookup"><span data-stu-id="32f1f-161">**Process**</span></span>](process.md)
+-   [<span data-ttu-id="32f1f-162">**進程 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-162">**Process\_TypeGroup1**</span></span>](process-typegroup1.md)
+-   [<span data-ttu-id="32f1f-163">**進程 \_ V0**</span><span class="sxs-lookup"><span data-stu-id="32f1f-163">**Process\_V0**</span></span>](process-v0.md)
+-   [<span data-ttu-id="32f1f-164">**進程 \_ V0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-164">**Process\_V0\_TypeGroup1**</span></span>](process-v0-typegroup1.md)
+-   [<span data-ttu-id="32f1f-165">**進程 \_ V1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-165">**Process\_V1**</span></span>](process-v1.md)
+-   [<span data-ttu-id="32f1f-166">**進程 \_ V1 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-166">**Process\_V1\_TypeGroup1**</span></span>](process-v1-typegroup1.md)
+-   [<span data-ttu-id="32f1f-167">**進程 \_ V2**</span><span class="sxs-lookup"><span data-stu-id="32f1f-167">**Process\_V2**</span></span>](process-v2.md)
+-   [<span data-ttu-id="32f1f-168">**進程 \_ V2 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-168">**Process\_V2\_TypeGroup1**</span></span>](process-v2-typegroup1.md)
+-   [<span data-ttu-id="32f1f-169">**進程 \_ V2 \_ TypeGroup2**</span><span class="sxs-lookup"><span data-stu-id="32f1f-169">**Process\_V2\_TypeGroup2**</span></span>](process-v2-typegroup2.md)
+-   [<span data-ttu-id="32f1f-170">**ReadyThread**</span><span class="sxs-lookup"><span data-stu-id="32f1f-170">**ReadyThread**</span></span>](readythread.md)
+-   [<span data-ttu-id="32f1f-171">**登錄**</span><span class="sxs-lookup"><span data-stu-id="32f1f-171">**Registry**</span></span>](registry.md)
+-   [<span data-ttu-id="32f1f-172">**登錄 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-172">**Registry\_TypeGroup1**</span></span>](registry-typegroup1.md)
+-   [<span data-ttu-id="32f1f-173">**登錄 \_ V0**</span><span class="sxs-lookup"><span data-stu-id="32f1f-173">**Registry\_V0**</span></span>](registry-v0.md)
+-   [<span data-ttu-id="32f1f-174">**登錄 \_ V0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-174">**Registry\_V0\_TypeGroup1**</span></span>](registry-v0-typegroup1.md)
+-   [<span data-ttu-id="32f1f-175">**登錄 \_ V1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-175">**Registry\_V1**</span></span>](registry-v1.md)
+-   [<span data-ttu-id="32f1f-176">**登錄 \_ V1 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-176">**Registry\_V1\_TypeGroup1**</span></span>](registry-v1-typegroup1.md)
+-   [<span data-ttu-id="32f1f-177">**SampledProfile**</span><span class="sxs-lookup"><span data-stu-id="32f1f-177">**SampledProfile**</span></span>](sampledprofile.md)
+-   [<span data-ttu-id="32f1f-178">**SplitIo**</span><span class="sxs-lookup"><span data-stu-id="32f1f-178">**SplitIo**</span></span>](splitio.md)
+-   [<span data-ttu-id="32f1f-179">**SplitIo \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="32f1f-179">**SplitIo\_Info**</span></span>](splitio-info.md)
+-   [<span data-ttu-id="32f1f-180">**SysCallEnter**</span><span class="sxs-lookup"><span data-stu-id="32f1f-180">**SysCallEnter**</span></span>](syscallenter.md)
+-   [<span data-ttu-id="32f1f-181">**SysCallExit**</span><span class="sxs-lookup"><span data-stu-id="32f1f-181">**SysCallExit**</span></span>](syscallexit.md)
+-   [<span data-ttu-id="32f1f-182">**SystemConfig**</span><span class="sxs-lookup"><span data-stu-id="32f1f-182">**SystemConfig**</span></span>](systemconfig.md)
+-   [<span data-ttu-id="32f1f-183">**SystemConfig \_ CPU**</span><span class="sxs-lookup"><span data-stu-id="32f1f-183">**SystemConfig\_CPU**</span></span>](systemconfig-cpu.md)
+-   [<span data-ttu-id="32f1f-184">**SystemConfig \_ IDEChannel**</span><span class="sxs-lookup"><span data-stu-id="32f1f-184">**SystemConfig\_IDEChannel**</span></span>](systemconfig-idechannel.md)
+-   [<span data-ttu-id="32f1f-185">**SystemConfig \_ IRQ**</span><span class="sxs-lookup"><span data-stu-id="32f1f-185">**SystemConfig\_IRQ**</span></span>](systemconfig-irq.md)
+-   [<span data-ttu-id="32f1f-186">**SystemConfig \_ LogDisk**</span><span class="sxs-lookup"><span data-stu-id="32f1f-186">**SystemConfig\_LogDisk**</span></span>](systemconfig-logdisk.md)
+-   [<span data-ttu-id="32f1f-187">**SystemConfig \_ 網路**</span><span class="sxs-lookup"><span data-stu-id="32f1f-187">**SystemConfig\_Network**</span></span>](systemconfig-network.md)
+-   [<span data-ttu-id="32f1f-188">**SystemConfig \_ NIC**</span><span class="sxs-lookup"><span data-stu-id="32f1f-188">**SystemConfig\_NIC**</span></span>](systemconfig-nic.md)
+-   [<span data-ttu-id="32f1f-189">**SystemConfig \_ PhyDisk**</span><span class="sxs-lookup"><span data-stu-id="32f1f-189">**SystemConfig\_PhyDisk**</span></span>](systemconfig-phydisk.md)
+-   [<span data-ttu-id="32f1f-190">**SystemConfig \_ PnP**</span><span class="sxs-lookup"><span data-stu-id="32f1f-190">**SystemConfig\_PnP**</span></span>](systemconfig-pnp.md)
+-   [<span data-ttu-id="32f1f-191">**SystemConfig \_ 電源**</span><span class="sxs-lookup"><span data-stu-id="32f1f-191">**SystemConfig\_Power**</span></span>](systemconfig-power.md)
+-   [<span data-ttu-id="32f1f-192">**SystemConfig \_ 服務**</span><span class="sxs-lookup"><span data-stu-id="32f1f-192">**SystemConfig\_Services**</span></span>](systemconfig-services.md)
+-   [<span data-ttu-id="32f1f-193">**SystemConfig \_ 影片**</span><span class="sxs-lookup"><span data-stu-id="32f1f-193">**SystemConfig\_Video**</span></span>](systemconfig-video.md)
+-   [<span data-ttu-id="32f1f-194">**SystemConfig \_ V0 \_ CPU**</span><span class="sxs-lookup"><span data-stu-id="32f1f-194">**SystemConfig\_V0\_CPU**</span></span>](systemconfig-v0-cpu.md)
+-   [<span data-ttu-id="32f1f-195">**SystemConfig \_ V0 \_ LogDisk**</span><span class="sxs-lookup"><span data-stu-id="32f1f-195">**SystemConfig\_V0\_LogDisk**</span></span>](systemconfig-v0-logdisk.md)
+-   [<span data-ttu-id="32f1f-196">**SystemConfig \_ V0 \_ NIC**</span><span class="sxs-lookup"><span data-stu-id="32f1f-196">**SystemConfig\_V0\_NIC**</span></span>](systemconfig-v0-nic.md)
+-   [<span data-ttu-id="32f1f-197">**SystemConfig \_ V0 \_ PhyDisk**</span><span class="sxs-lookup"><span data-stu-id="32f1f-197">**SystemConfig\_V0\_PhyDisk**</span></span>](systemconfig-v0-phydisk.md)
+-   [<span data-ttu-id="32f1f-198">**SystemConfig \_ V0 \_ 電源**</span><span class="sxs-lookup"><span data-stu-id="32f1f-198">**SystemConfig\_V0\_Power**</span></span>](systemconfig-v0-power.md)
+-   [<span data-ttu-id="32f1f-199">**SystemConfig \_ V0 \_ 服務**</span><span class="sxs-lookup"><span data-stu-id="32f1f-199">**SystemConfig\_V0\_Services**</span></span>](systemconfig-v0-services.md)
+-   [<span data-ttu-id="32f1f-200">**SystemConfig \_ V0 \_ 影片**</span><span class="sxs-lookup"><span data-stu-id="32f1f-200">**SystemConfig\_V0\_Video**</span></span>](systemconfig-v0-video.md)
+-   [<span data-ttu-id="32f1f-201">**Tcpip.sys**</span><span class="sxs-lookup"><span data-stu-id="32f1f-201">**TcpIp**</span></span>](tcpip.md)
+-   [<span data-ttu-id="32f1f-202">**TcpIp \_ 失敗**</span><span class="sxs-lookup"><span data-stu-id="32f1f-202">**TcpIp\_Fail**</span></span>](tcpip-fail.md)
+-   [<span data-ttu-id="32f1f-203">**TcpIp \_ SendIPV4**</span><span class="sxs-lookup"><span data-stu-id="32f1f-203">**TcpIp\_SendIPV4**</span></span>](tcpip-sendipv4.md)
+-   [<span data-ttu-id="32f1f-204">**TcpIp \_ SendIPV6**</span><span class="sxs-lookup"><span data-stu-id="32f1f-204">**TcpIp\_SendIPV6**</span></span>](tcpip-sendipv6.md)
+-   [<span data-ttu-id="32f1f-205">**TcpIp \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-205">**TcpIp\_TypeGroup1**</span></span>](tcpip-typegroup1.md)
+-   [<span data-ttu-id="32f1f-206">**TcpIp \_ TypeGroup2**</span><span class="sxs-lookup"><span data-stu-id="32f1f-206">**TcpIp\_TypeGroup2**</span></span>](tcpip-typegroup2.md)
+-   [<span data-ttu-id="32f1f-207">**TcpIp \_ TypeGroup3**</span><span class="sxs-lookup"><span data-stu-id="32f1f-207">**TcpIp\_TypeGroup3**</span></span>](tcpip-typegroup3.md)
+-   [<span data-ttu-id="32f1f-208">**TcpIp \_ TypeGroup4**</span><span class="sxs-lookup"><span data-stu-id="32f1f-208">**TcpIp\_TypeGroup4**</span></span>](tcpip-typegroup4.md)
+-   [<span data-ttu-id="32f1f-209">**TcpIp \_ V0**</span><span class="sxs-lookup"><span data-stu-id="32f1f-209">**TcpIp\_V0**</span></span>](tcpip-v0.md)
+-   [<span data-ttu-id="32f1f-210">**TcpIp \_ V0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-210">**TcpIp\_V0\_TypeGroup1**</span></span>](tcpip-v0-typegroup1.md)
+-   [<span data-ttu-id="32f1f-211">**TcpIp \_ V1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-211">**TcpIp\_V1**</span></span>](tcpip-v1.md)
+-   [<span data-ttu-id="32f1f-212">**TcpIp \_ V1 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-212">**TcpIp\_V1\_TypeGroup1**</span></span>](tcpip-v1-typegroup1.md)
+-   [<span data-ttu-id="32f1f-213">**執行緒**</span><span class="sxs-lookup"><span data-stu-id="32f1f-213">**Thread**</span></span>](thread.md)
+-   [<span data-ttu-id="32f1f-214">**執行緒 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-214">**Thread\_TypeGroup1**</span></span>](thread-typegroup1.md)
+-   [<span data-ttu-id="32f1f-215">**執行緒 \_ V0**</span><span class="sxs-lookup"><span data-stu-id="32f1f-215">**Thread\_V0**</span></span>](thread-v0.md)
+-   [<span data-ttu-id="32f1f-216">**執行緒 \_ V0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-216">**Thread\_V0\_TypeGroup1**</span></span>](thread-v0-typegroup1.md)
+-   [<span data-ttu-id="32f1f-217">**執行緒 \_ V1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-217">**Thread\_V1**</span></span>](thread-v1.md)
+-   [<span data-ttu-id="32f1f-218">**執行緒 \_ V1 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-218">**Thread\_V1\_TypeGroup1**</span></span>](thread-v1-typegroup1.md)
+-   [<span data-ttu-id="32f1f-219">**執行緒 \_ V1 \_ TypeGroup2**</span><span class="sxs-lookup"><span data-stu-id="32f1f-219">**Thread\_V1\_TypeGroup2**</span></span>](thread-v1-typegroup2.md)
+-   [<span data-ttu-id="32f1f-220">**執行緒 \_ V2**</span><span class="sxs-lookup"><span data-stu-id="32f1f-220">**Thread\_V2**</span></span>](thread-v2.md)
+-   [<span data-ttu-id="32f1f-221">**執行緒 \_ V2 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-221">**Thread\_V2\_TypeGroup1**</span></span>](thread-v2-typegroup1.md)
+-   [<span data-ttu-id="32f1f-222">**UdpIp**</span><span class="sxs-lookup"><span data-stu-id="32f1f-222">**UdpIp**</span></span>](udpip.md)
+-   [<span data-ttu-id="32f1f-223">**UdpIp \_ 失敗**</span><span class="sxs-lookup"><span data-stu-id="32f1f-223">**UdpIp\_Fail**</span></span>](udpip-fail.md)
+-   [<span data-ttu-id="32f1f-224">**UdpIp \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-224">**UdpIp\_TypeGroup1**</span></span>](udpip-typegroup1.md)
+-   [<span data-ttu-id="32f1f-225">**UdpIp \_ TypeGroup2**</span><span class="sxs-lookup"><span data-stu-id="32f1f-225">**UdpIp\_TypeGroup2**</span></span>](udpip-typegroup2.md)
+-   [<span data-ttu-id="32f1f-226">**UdpIp \_ V0**</span><span class="sxs-lookup"><span data-stu-id="32f1f-226">**UdpIp\_V0**</span></span>](udpip-v0.md)
+-   [<span data-ttu-id="32f1f-227">**UdpIp \_ V0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-227">**UdpIp\_V0\_TypeGroup1**</span></span>](udpip-v0-typegroup1.md)
+-   [<span data-ttu-id="32f1f-228">**UdpIp \_ V1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-228">**UdpIp\_V1**</span></span>](udpip-v1.md)
+-   [<span data-ttu-id="32f1f-229">**UdpIp \_ V1 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="32f1f-229">**UdpIp\_V1\_TypeGroup1**</span></span>](udpip-v1-typegroup1.md)
+
+ 
+
+ 
+
+
+
