@@ -1,0 +1,177 @@
+- name: 位置 API
+  href: windows-location-api-portal.md
+  items:
+    - name: 位置 API c + + 程式設計參考
+      href: windows-location-programming-reference.md
+      items:
+        - name: COM 介面
+          href: com-interfaces.md
+          items:
+            - name: ICivicAddressReport
+              href: /windows/desktop/api/LocationApi/nn-locationapi-icivicaddressreport
+              items:
+                - name: GetAddressLine1 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline1
+                - name: GetAddressLine2 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline2
+                - name: GetCity 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getcity
+                - name: GetCountryRegion 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getcountryregion
+                - name: GetDetailLevel 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getdetaillevel
+                - name: GetPostalCode 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getpostalcode
+                - name: GetStateProvince 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getstateprovince
+            - name: IDefaultLocation
+              href: /windows/desktop/api/LocationApi/nn-locationapi-idefaultlocation
+              items:
+                - name: GetReport 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-idefaultlocation-getreport
+                - name: SetReport 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-idefaultlocation-setreport
+            - name: ILatLongReport
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilatlongreport
+              items:
+                - name: GetAltitude 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getaltitude
+                - name: GetAltitudeError 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getaltitudeerror
+                - name: GetErrorRadius 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-geterrorradius
+                - name: GetLatitude 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getlatitude
+                - name: GetLongitude 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getlongitude
+            - name: ILocation
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilocation
+              items:
+                - name: GetDesiredAccuracy 方法
+                  href: /windows/desktop/api/LocationApi/nf-locationapi-ilocation-getdesiredaccuracy
+                - name: GetReport 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreport
+                - name: GetReportInterval 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreportinterval
+                - name: GetReportStatus 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreportstatus
+                - name: RegisterForReport 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-registerforreport
+                - name: RequestPermissions 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-requestpermissions
+                - name: SetDesiredAccuracy 方法
+                  href: /windows/desktop/api/LocationApi/nf-locationapi-ilocation-setdesiredaccuracy
+                - name: SetReportInterval 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-setreportinterval
+                - name: UnregisterForReport 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-unregisterforreport
+            - name: ILocationEvents
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationevents
+              items:
+                - name: OnLocationChanged 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationevents-onlocationchanged
+                - name: OnStatusChanged 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged
+            - name: ILocationPower
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationpower
+              items:
+                - name: Connect 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-connect
+                - name: Disconnect 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-disconnect
+            - name: ILocationReport
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationreport
+              items:
+                - name: GetSensorID 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-getsensorid
+                - name: GetTimestamp 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-gettimestamp
+                - name: GetValue 方法
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-getvalue
+        - name: 結構和列舉類型
+          href: structures-and-enumeration-types.md
+          items:
+            - name: LOCATION_DESIRED_ACCURACY
+              href: /previous-versions/windows/desktop/legacy/dd756639(v=vs.85)
+            - name: LOCATION_REPORT_STATUS
+              href: /windows/win32/api/locationapi/ne-locationapi-location_report_status
+    - name: 位置 API 物件模型參考
+      href: windows-location-script-programming-reference.md
+      items:
+        - name: LocationDisp.DispCivicAddressReport
+          href: locationdisp-dispcivicaddressreport.md
+          items:
+            - name: AddressLine1 屬性
+              href: locationdisp-dispcivicaddressreport-addressline1.md
+            - name: AddressLine2 屬性
+              href: locationdisp-dispcivicaddressreport-addressline2.md
+            - name: City 屬性
+              href: locationdisp-dispcivicaddressreport-city.md
+            - name: 國家/地區屬性
+              href: locationdisp-civicaddressreport-countryregion.md
+            - name: DetailLevel 屬性
+              href: locationdisp-dispcivicaddressreport-detaillevel.md
+            - name: 郵遞區號屬性
+              href: locationdisp-dispcivicaddressreport-postalcode.md
+            - name: StateProvince 屬性
+              href: locationdisp-dispcivicaddressreport-stateprovince.md
+            - name: Timestamp 屬性
+              href: locationdisp-dispcivicaddressreport-timestamp.md
+        - name: LocationDisp.CivicAddressReportFactory
+          href: locationdisp-civicaddressreportfactory.md
+          items:
+            - name: CivicAddressReport 屬性
+              href: locationdisp-dispcivicaddressreport-civicaddressreport.md
+            - name: DesiredAccuracy 屬性
+              href: locationdisp-civicaddressreportfactory-desiredaccuracy.md
+            - name: ListenForReports 方法
+              href: locationdisp-civicaddressreportfactory-listenforreports.md
+            - name: ReportInterval 屬性
+              href: locationdisp-civicaddressreportfactory-reportinterval.md
+            - name: RequestPermissions 方法
+              href: locationdisp-civicaddressreportfactory-requestpermissions.md
+            - name: Status 屬性
+              href: locationdisp-civicaddressreportfactory-status.md
+            - name: StopListeningForReports 方法
+              href: locationdisp-civicaddressreportfactory-stoplisteningforreports.md
+        - name: LocationDisp.DispLatLongReport
+          href: locationdisp-displatlongreport.md
+          items:
+            - name: 高度屬性
+              href: locationdisp-displatlongreport-altitude.md
+            - name: AltitudeError 屬性
+              href: locationdisp-displatlongreport-altitudeerror.md
+            - name: ErrorRadius 屬性
+              href: locationdisp-displatlongreport-errorradius.md
+            - name: 緯度屬性
+              href: locationdisp-displatlongreport-latitude.md
+            - name: 經度屬性
+              href: locationdisp-displatlongreport-longitude.md
+            - name: Timestamp 屬性
+              href: locationdisp-displatlongreport-timestamp.md
+        - name: LocationDisp.LatLongReportFactory
+          href: locationdisp-latlongreportfactory.md
+          items:
+            - name: DesiredAccuracy 屬性
+              href: locationdisp-latlongreportfactory-desiredaccuracy.md
+            - name: LatLongReport 屬性
+              href: locationdisp-latlongreportfactory-latlongreport.md
+            - name: ListenForReports 方法
+              href: locationdisp-latlongreportfactory-listenforreports.md
+            - name: ReportInterval 屬性
+              href: locationdisp-latlongreportfactory-reportinterval.md
+            - name: RequestPermissions 方法
+              href: locationdisp-latlongreportfactory-requestpermissions.md
+            - name: Status 屬性
+              href: locationdisp-latlongreportfactory-status.md
+            - name: StopListeningForReports 方法
+              href: /previous-versions/windows/desktop/legacy/dd317718(v=vs.85)
+        - name: LocationDisp 事件
+          href: locationdisp-events.md
+          items:
+            - name: NewCivicAddressReport 事件
+              href: newcivicaddressreport.md
+            - name: NewLatLongReport 事件
+              href: newlatlongreport.md
+            - name: StatusChanged 事件
+              href: statuschanged.md
