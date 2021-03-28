@@ -1,0 +1,95 @@
+---
+title: 'ID3DX11EffectSamplerVariable 介面 (D3dx11effect .h) '
+description: 取樣器介面會存取取樣器狀態。
+ms.assetid: 8d21f829-2145-45f2-a9b4-2fdc06e0a879
+keywords:
+- ID3DX11EffectSamplerVariable 介面 Direct3D 11
+- ID3DX11EffectSamplerVariable 介面 Direct3D 11，描述
+topic_type:
+- apiref
+api_name:
+- ID3DX11EffectSamplerVariable
+api_location:
+- N/A
+- N/A.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 7b5019022cea823566611410cd6e8fd5013380b9
+ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "104116293"
+---
+# <a name="id3dx11effectsamplervariable-interface"></a><span data-ttu-id="b0e98-105">ID3DX11EffectSamplerVariable 介面</span><span class="sxs-lookup"><span data-stu-id="b0e98-105">ID3DX11EffectSamplerVariable interface</span></span>
+
+<span data-ttu-id="b0e98-106">取樣器介面會存取取樣器狀態。</span><span class="sxs-lookup"><span data-stu-id="b0e98-106">A sampler interface accesses sampler state.</span></span>
+
+## <a name="members"></a><span data-ttu-id="b0e98-107">成員</span><span class="sxs-lookup"><span data-stu-id="b0e98-107">Members</span></span>
+
+<span data-ttu-id="b0e98-108">**ID3DX11EffectSamplerVariable** 介面繼承自 [**ID3DX11EffectVariable**](id3dx11effectvariable.md)。</span><span class="sxs-lookup"><span data-stu-id="b0e98-108">The **ID3DX11EffectSamplerVariable** interface inherits from [**ID3DX11EffectVariable**](id3dx11effectvariable.md).</span></span> <span data-ttu-id="b0e98-109">**ID3DX11EffectSamplerVariable** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="b0e98-109">**ID3DX11EffectSamplerVariable** also has these types of members:</span></span>
+
+-   [<span data-ttu-id="b0e98-110">方法</span><span class="sxs-lookup"><span data-stu-id="b0e98-110">Methods</span></span>](#methods)
+
+### <a name="methods"></a><span data-ttu-id="b0e98-111">方法</span><span class="sxs-lookup"><span data-stu-id="b0e98-111">Methods</span></span>
+
+<span data-ttu-id="b0e98-112">**ID3DX11EffectSamplerVariable** 介面具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="b0e98-112">The **ID3DX11EffectSamplerVariable** interface has these methods.</span></span>
+
+
+
+| <span data-ttu-id="b0e98-113">方法</span><span class="sxs-lookup"><span data-stu-id="b0e98-113">Method</span></span>                                                                  | <span data-ttu-id="b0e98-114">描述</span><span class="sxs-lookup"><span data-stu-id="b0e98-114">Description</span></span>                                                         |
+|:------------------------------------------------------------------------|:--------------------------------------------------------------------|
+| [<span data-ttu-id="b0e98-115">**GetBackingStore**</span><span class="sxs-lookup"><span data-stu-id="b0e98-115">**GetBackingStore**</span></span>](id3dx11effectsamplervariable-getbackingstore.md) | <span data-ttu-id="b0e98-116">取得包含取樣器狀態之變數的指標。</span><span class="sxs-lookup"><span data-stu-id="b0e98-116">Get a pointer to a variable that contains sampler state.</span></span><br/> |
+| [<span data-ttu-id="b0e98-117">**GetSampler**</span><span class="sxs-lookup"><span data-stu-id="b0e98-117">**GetSampler**</span></span>](id3dx11effectsamplervariable-getsampler.md)           | <span data-ttu-id="b0e98-118">取得取樣器介面的指標。</span><span class="sxs-lookup"><span data-stu-id="b0e98-118">Get a pointer to a sampler interface.</span></span><br/>                    |
+| [<span data-ttu-id="b0e98-119">**SetSampler**</span><span class="sxs-lookup"><span data-stu-id="b0e98-119">**SetSampler**</span></span>](id3dx11effectsamplervariable-setsampler.md)           | <span data-ttu-id="b0e98-120">設定取樣器狀態。</span><span class="sxs-lookup"><span data-stu-id="b0e98-120">Set sampler state.</span></span><br/>                                       |
+| [<span data-ttu-id="b0e98-121">**UndoSetSampler**</span><span class="sxs-lookup"><span data-stu-id="b0e98-121">**UndoSetSampler**</span></span>](id3dx11effectsamplervariable-undosetsampler.md)   | <span data-ttu-id="b0e98-122">還原先前設定的取樣器狀態。</span><span class="sxs-lookup"><span data-stu-id="b0e98-122">Revert a previously set sampler state.</span></span><br/>                   |
+
+
+
+ 
+
+## <a name="remarks"></a><span data-ttu-id="b0e98-123">備註</span><span class="sxs-lookup"><span data-stu-id="b0e98-123">Remarks</span></span>
+
+<span data-ttu-id="b0e98-124">當將效果讀入記憶體時，就會建立 [**ID3DX11EffectVariable**](id3dx11effectvariable.md) 介面。</span><span class="sxs-lookup"><span data-stu-id="b0e98-124">An [**ID3DX11EffectVariable**](id3dx11effectvariable.md) interface is created when an effect is read into memory.</span></span>
+
+<span data-ttu-id="b0e98-125">效果變數會儲存在備份存放區的記憶體中;套用技術時，備份存放區中的值會複製到裝置。</span><span class="sxs-lookup"><span data-stu-id="b0e98-125">Effect variables are saved in memory in the backing store; when a technique is applied, the values in the backing store are copied to the device.</span></span> <span data-ttu-id="b0e98-126">您可以使用其中一種方法來傳回狀態。</span><span class="sxs-lookup"><span data-stu-id="b0e98-126">You can use either of these methods to return state.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="b0e98-127">DirectX SDK 不提供任何已編譯的二進位檔來產生效果。</span><span class="sxs-lookup"><span data-stu-id="b0e98-127">The DirectX SDK does not supply any compiled binaries for effects.</span></span> <span data-ttu-id="b0e98-128">您必須使用效果11來源來建立效果類型的應用程式。</span><span class="sxs-lookup"><span data-stu-id="b0e98-128">You must use Effects 11 source to build your effects-type application.</span></span> <span data-ttu-id="b0e98-129">如需使用效果11來源的詳細資訊，請參閱 [效果的差異10和效果 11](d3d11-graphics-programming-guide-effects-differences.md)。</span><span class="sxs-lookup"><span data-stu-id="b0e98-129">For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).</span></span>
+
+ 
+
+## <a name="requirements"></a><span data-ttu-id="b0e98-130">規格需求</span><span class="sxs-lookup"><span data-stu-id="b0e98-130">Requirements</span></span>
+
+
+
+| <span data-ttu-id="b0e98-131">需求</span><span class="sxs-lookup"><span data-stu-id="b0e98-131">Requirement</span></span> | <span data-ttu-id="b0e98-132">值</span><span class="sxs-lookup"><span data-stu-id="b0e98-132">Value</span></span> |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="b0e98-133">標頭</span><span class="sxs-lookup"><span data-stu-id="b0e98-133">Header</span></span><br/>  | <dl> <span data-ttu-id="b0e98-134"><dt>D3dx11effect。h</dt></span><span class="sxs-lookup"><span data-stu-id="b0e98-134"><dt>D3dx11effect.h</dt></span></span> </dl>                                                    |
+| <span data-ttu-id="b0e98-135">程式庫</span><span class="sxs-lookup"><span data-stu-id="b0e98-135">Library</span></span><br/> | <dl> <span data-ttu-id="b0e98-136"><dt>N/A (效果11程式庫可在線上作為共用來源使用。 ) </dt></span><span class="sxs-lookup"><span data-stu-id="b0e98-136"><dt>N/A (An Effects 11 library is available online as shared source.)</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="b0e98-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b0e98-137">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="b0e98-138">**ID3DX11EffectVariable**</span><span class="sxs-lookup"><span data-stu-id="b0e98-138">**ID3DX11EffectVariable**</span></span>](id3dx11effectvariable.md)
+</dt> <dt>
+
+[<span data-ttu-id="b0e98-139">效果11介面</span><span class="sxs-lookup"><span data-stu-id="b0e98-139">Effects 11 Interfaces</span></span>](d3d11-graphics-reference-effects11-interfaces.md)
+</dt> <dt>
+
+[<span data-ttu-id="b0e98-140">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="b0e98-140">D3DX Interfaces</span></span>](d3d11-graphics-reference-d3dx11-interfaces.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

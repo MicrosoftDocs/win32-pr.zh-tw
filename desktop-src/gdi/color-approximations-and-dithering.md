@@ -1,0 +1,29 @@
+---
+description: 雖然應用程式可以使用色彩，而不考慮裝置的色彩功能，但產生的輸出可能不會是資訊，而且可以像是謹慎選擇色彩的輸出。
+ms.assetid: 008c8a8e-3456-4727-9b27-00b20ae880a2
+title: 色彩近似值和遞色
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a72e28dbc3ce20a42b53b5ff060d950719e2d861
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104114708"
+---
+# <a name="color-approximations-and-dithering"></a><span data-ttu-id="36f45-103">色彩近似值和遞色</span><span class="sxs-lookup"><span data-stu-id="36f45-103">Color Approximations and Dithering</span></span>
+
+<span data-ttu-id="36f45-104">雖然應用程式可以使用色彩，而不考慮裝置的色彩功能，但產生的輸出可能不會是資訊，而且可以像是謹慎選擇色彩的輸出。</span><span class="sxs-lookup"><span data-stu-id="36f45-104">Although an application can use color without regard to the color capabilities of the device, the resulting output may not be as informative and pleasing as output for which color is carefully chosen.</span></span> <span data-ttu-id="36f45-105">如果有的話，裝置會保證每個可能的色彩值完全相符;因此，如果應用程式要求裝置無法產生的色彩，系統就會使用裝置可以產生的色彩來接近該色彩。</span><span class="sxs-lookup"><span data-stu-id="36f45-105">Few, if any, devices guarantee an exact match for every possible color value; therefore, if an application requests a color that the device cannot generate, the system approximates that color by using a color that the device can generate.</span></span> <span data-ttu-id="36f45-106">例如，如果應用程式嘗試建立黑色和白色印表機的紅色畫筆，則會收到黑色畫筆，而系統會使用黑色作為紅色的近似值。</span><span class="sxs-lookup"><span data-stu-id="36f45-106">For example, if an application attempts to create a red pen for a black and white printer, it will receive a black pen instead the system uses black as the approximation for red.</span></span>
+
+<span data-ttu-id="36f45-107">應用程式可以使用 [**GetNearestColor**](/windows/desktop/api/Wingdi/nf-wingdi-getnearestcolor) 函式，來探索系統是否近似于指定的色彩。</span><span class="sxs-lookup"><span data-stu-id="36f45-107">An application can discover whether the system will approximate a given color by using the [**GetNearestColor**](/windows/desktop/api/Wingdi/nf-wingdi-getnearestcolor) function.</span></span> <span data-ttu-id="36f45-108">此函式會接受色彩值，並傳回裝置可以產生的最接近相符色彩的色彩值。</span><span class="sxs-lookup"><span data-stu-id="36f45-108">The function takes a color value and returns the color value of the closest matching color the device can generate.</span></span> <span data-ttu-id="36f45-109">系統用來判斷此近似值的方法取決於設備磁碟機及其色彩功能。</span><span class="sxs-lookup"><span data-stu-id="36f45-109">The method the system uses to determine this approximation depends on the device driver and its color capabilities.</span></span> <span data-ttu-id="36f45-110">在大多數情況下，近似色彩的整體濃度最接近所要求色彩的亮度。</span><span class="sxs-lookup"><span data-stu-id="36f45-110">In most cases, the approximated color's overall intensity is closest to that of the requested color.</span></span>
+
+<span data-ttu-id="36f45-111">當應用程式建立畫筆或設定文字的色彩時，如果沒有完全相符的結果，系統一律會接近色彩。</span><span class="sxs-lookup"><span data-stu-id="36f45-111">When an application creates a pen or sets the color for text, the system always approximates a color if no exact match exists.</span></span> <span data-ttu-id="36f45-112">當應用程式建立實心筆刷時，系統可能會嘗試透過遞色來模擬要求的色彩。</span><span class="sxs-lookup"><span data-stu-id="36f45-112">When an application creates a solid brush, the system may attempt to simulate the requested color by dithering.</span></span> <span data-ttu-id="36f45-113">*遞* 色會在模式中替換兩個或多個色彩來模擬色彩。</span><span class="sxs-lookup"><span data-stu-id="36f45-113">*Dithering* simulates a color by alternating two or more colors in a pattern.</span></span> <span data-ttu-id="36f45-114">例如，您可以藉由交替不同的紅色和白色組合來模擬不同的粉紅色陰影。</span><span class="sxs-lookup"><span data-stu-id="36f45-114">For example, different shades of pink can be simulated by alternating different combinations of red and white.</span></span> <span data-ttu-id="36f45-115">根據色彩和模式而定，遞色可能會產生合理的模擬。</span><span class="sxs-lookup"><span data-stu-id="36f45-115">Depending on the colors and the pattern, dithering can produce reasonable simulations.</span></span> <span data-ttu-id="36f45-116">它最適合用於單色裝置，因為它會將可用的「色彩」數目擴充至簡單的黑色和白色以外。</span><span class="sxs-lookup"><span data-stu-id="36f45-116">It is most useful for monochrome devices, because it expands the number of available "colors" well beyond simple black and white.</span></span>
+
+<span data-ttu-id="36f45-117">用來建立遞色色彩的方法取決於設備磁碟機。</span><span class="sxs-lookup"><span data-stu-id="36f45-117">The method used to create dithered colors depends on the device driver.</span></span> <span data-ttu-id="36f45-118">大部分的設備磁碟機都使用標準的遞色演算法，此演算法會根據要求的紅色、綠色和藍色色彩的濃度值產生模式。</span><span class="sxs-lookup"><span data-stu-id="36f45-118">Most device drivers use a standard dithering algorithm, which generates a pattern based on the intensity values of the requested red, green, and blue colors.</span></span> <span data-ttu-id="36f45-119">一般而言，任何無法由裝置產生的要求色彩都會受到模擬的要求，但在系統模擬色彩時，不會通知應用程式。</span><span class="sxs-lookup"><span data-stu-id="36f45-119">In general, any requested color that cannot be generated by the device is subject to simulation, but an application is not notified when the system simulates a color.</span></span> <span data-ttu-id="36f45-120">此外，應用程式無法修改或變更設備磁碟機的遞色演算法。</span><span class="sxs-lookup"><span data-stu-id="36f45-120">Furthermore, an application cannot modify or change the dithering algorithm of the device driver.</span></span> <span data-ttu-id="36f45-121">不過，應用程式可以藉由建立和使用模式筆刷來略過演算法。</span><span class="sxs-lookup"><span data-stu-id="36f45-121">An application, however, can bypass the algorithm by creating and using pattern brushes.</span></span> <span data-ttu-id="36f45-122">如此一來，應用程式就會藉由合併點陣圖中用來建立筆刷的純色，來建立自己的遞色色彩。</span><span class="sxs-lookup"><span data-stu-id="36f45-122">In this way, the application creates its own dithered colors by combining solid colors in the bitmap that it uses to create the brush.</span></span>
+
+ 
+
+ 
+
+
+
