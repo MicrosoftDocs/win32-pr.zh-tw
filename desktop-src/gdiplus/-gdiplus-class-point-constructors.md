@@ -1,0 +1,40 @@
+---
+description: 本主題列出 Point 類別的函式。 如需完整的類別清單，請參閱 Point 類別。
+ms.assetid: 27952618-cf2d-4a85-b271-b3950c293ece
+title: Point 函數
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name: ''
+api_type:
+- NA
+api_location: ''
+ms.openlocfilehash: 073e511e0aa3bdba877385bc62a8ce04f13cbf6e
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104991403"
+---
+# <a name="pointpoint-constructors"></a>Point 函數
+
+本主題列出 [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) 類別的函式。 如需完整的類別清單，請參閱 **Point 類別**。
+
+### <a name="overload-list"></a>多載清單
+
+
+
+| 建構函式                                                | 描述                                                                                                                                                                      |
+|:-----------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**&) 的點 (大小**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-point-point(inconstsize_))   | 使用 [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size)物件來初始化 **X** 和 **Y** 資料成員，以建立 [**點**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point)物件。<br/> |
+| [**點 (點&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-point-point(inconstpoint_)) | 建立新的 [**point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) 物件，並從另一個 **point** 物件複製資料成員。<br/>                                           |
+| [**Point (INT，INT)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-point-point(inint_inint))  | 使用兩個整數來初始化 **X** 和 **Y** 資料成員，以建立 [**點**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point)物件。<br/>                                       |
+| [**點 ()**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-point-point)             | 建立 [**點**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) 物件，並將 **X** 和 **Y** 資料成員初始化為零。 這是預設建構函式。<br/>               |
+
+
+
+ 
+
+ 
