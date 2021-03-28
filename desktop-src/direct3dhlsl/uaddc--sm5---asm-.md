@@ -1,0 +1,91 @@
+---
+title: 'uaddc (sm5-asm) '
+description: 帶有 with 的不帶正負號的整數新增。
+ms.assetid: 1007253C-F920-4003-B266-D124A255F731
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: f57f75be617e32c15212207110851520a7a281e2
+ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "104507712"
+---
+# <a name="uaddc-sm5---asm"></a>uaddc (sm5-asm) 
+
+帶有 with 的不帶正負號的整數新增。
+
+
+
+| uaddc dest0 \[ mask \] 、dest1 \[ mask \] 、src0 \[ . swizzle \] 、src1 \[ . swizzle\] |
+|--------------------------------------------------------------------------|
+
+
+
+ 
+
+
+
+| 項目                                                               | 描述                                            |
+|--------------------------------------------------------------------|--------------------------------------------------------|
+| <span id="dest0"></span><span id="DEST0"></span>*dest0*<br/> | \[在 \] 結果中的位址。<br/>               |
+| <span id="dest1"></span><span id="DEST1"></span>*dest1*<br/> | \[\]如果產生，則為1。 否則為 0。<br/> |
+| <span id="src0"></span><span id="SRC0"></span>*src0*<br/>    | \[在 \] 要加入的32位運算元中。<br/>          |
+| <span id="src1"></span><span id="SRC1"></span>*src1*<br/>    | \[在 \] 要加入的32位運算元中。<br/>          |
+
+
+
+ 
+
+## <a name="remarks"></a>備註
+
+如果不需要執行， *dest1* 可以是 Null。
+
+請使用此指示進行高精確度的算數運算。
+
+此指示適用于下列著色器階段：
+
+
+
+| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+|--------|------|--------|----------|-------|---------|
+| X      | X    | X      | X        | X     | X       |
+
+
+
+ 
+
+## <a name="minimum-shader-model"></a>最小著色器模型
+
+下列著色器模型支援此指令：
+
+
+
+| 著色器模型                                              | 支援 |
+|-----------------------------------------------------------|-----------|
+| [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+
+
+
+ 
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[著色器模型5元件 (DirectX HLSL) ](shader-model-5-assembly--directx-hlsl-.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

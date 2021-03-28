@@ -1,0 +1,235 @@
+- name: 系統監視器
+  href: system-monitor-portal.md
+  items:
+    - name: 系統監視器中的新功能
+      href: what-s-new-in-system-monitor.md
+    - name: 使用系統監視器
+      href: using-system-monitor.md
+    - name: 系統監視器參考
+      href: system-monitor-reference.md
+      items:
+        - name: SYSMON 類別
+          href: sysmon-classes.md
+          items:
+            - name: CounterItem
+              href: counteritem.md
+              items:
+                - name: CounterItem 方法
+                  href: counteritem-methods.md
+                  items:
+                    - name: CounterItem.GetDataAt
+                      href: counteritem-getdataat.md
+                    - name: CounterItem.GetStatistics
+                      href: counteritem-getstatistics.md
+                    - name: CounterItem
+                      href: counteritem-getvalue.md
+                - name: CounterItem 屬性
+                  href: counteritem-properties.md
+                  items:
+                    - name: CounterItem。色彩
+                      href: counteritem-color.md
+                    - name: CounterItem. LineStyle
+                      href: counteritem-linestyle.md
+                    - name: CounterItem 路徑
+                      href: counteritem-path.md
+                    - name: CounterItem.ScaleFactor
+                      href: counteritem-scalefactor.md
+                    - name: CounterItem。已選取
+                      href: counteritem-selected.md
+                    - name: CounterItem。值
+                      href: counteritem-value.md
+                    - name: CounterItem。可見
+                      href: counteritem-visible.md
+                    - name: CounterItem 寬度
+                      href: counteritem-width.md
+            - name: Counters
+              href: counters.md
+              items:
+                - name: 計數器方法
+                  href: counters--methods.md
+                  items:
+                    - name: 計數器。新增
+                      href: counters-add.md
+                    - name: 計數器。移除
+                      href: counters-remove.md
+                - name: 計數器屬性
+                  href: counters--properties.md
+                  items:
+                    - name: 計數器。計數
+                      href: counters-count.md
+                    - name: 計數器。專案
+                      href: counters-item.md
+            - name: LogFileItem
+              href: logfileitem.md
+              items:
+                - name: LogFileItem 屬性
+                  href: logfileitem--properties.md
+                  items:
+                    - name: LogFileItem 路徑
+                      href: logfileitem-path.md
+            - name: LogFiles
+              href: logfiles.md
+              items:
+                - name: 記錄檔方法
+                  href: logfiles--methods.md
+                  items:
+                    - name: 記錄檔。新增
+                      href: systemmonitor-logfiles-add.md
+                    - name: 記錄檔。移除
+                      href: systemmonitor-logfiles-remove.md
+                - name: 記錄檔屬性
+                  href: logfiles--properties.md
+                  items:
+                    - name: 記錄檔。計數
+                      href: systemmonitor-logfiles-count.md
+                    - name: 記錄檔。專案
+                      href: systemmonitor-logfiles-item.md
+            - name: SystemMonitor
+              href: systemmonitor.md
+              items:
+                - name: SystemMonitor 事件
+                  href: systemmonitor--events.md
+                  items:
+                    - name: SystemMonitor.OnCounterAdded
+                      href: systemmonitor-oncounteradded.md
+                    - name: SystemMonitor.OnCounterDeleted
+                      href: '-systemmonitor-oncounterdeleted.md'
+                    - name: SystemMonitor.OnCounterSelected
+                      href: '-systemmonitor-oncounterselected.md'
+                    - name: SystemMonitor
+                      href: '-systemmonitor-ondblclick.md'
+                    - name: SystemMonitor.OnSampleCollected
+                      href: '-systemmonitor-onsamplecollected.md'
+                - name: SystemMonitor 方法
+                  href: systemmonitor--methods.md
+                  items:
+                    - name: SystemMonitor.BatchingLock
+                      href: systemmonitor-batchinglock.md
+                    - name: SystemMonitor.BrowseCounters
+                      href: systemmonitor-browsecounters.md
+                    - name: SystemMonitor.ClearData
+                      href: systemmonitor-cleardata.md
+                    - name: SystemMonitor.CollectSample
+                      href: systemmonitor-collectsample.md
+                    - name: SystemMonitor 複製
+                      href: systemmonitor-copy.md
+                    - name: SystemMonitor.DisplayProperties
+                      href: systemmonitor-displayproperties.md
+                    - name: SystemMonitor.GetLogViewRange
+                      href: systemmonitor-getlogviewrange.md
+                    - name: SystemMonitor.LoadSettings
+                      href: systemmonitor-loadsettings.md
+                    - name: SystemMonitor。貼上
+                      href: systemmonitor-paste.md
+                    - name: SystemMonitor
+                      href: systemmonitor-relog.md
+                    - name: SystemMonitor 重設
+                      href: systemmonitor-reset.md
+                    - name: SystemMonitor
+                      href: systemmonitor-saveas.md
+                    - name: SystemMonitor.ScaleToFit
+                      href: systemmonitor-scaletofit.md
+                    - name: SystemMonitor.SetLogViewRange
+                      href: systemmonitor-setlogviewrange.md
+                    - name: SystemMonitor.UpdateGraph
+                      href: systemmonitor-updategraph.md
+                - name: SystemMonitor 屬性
+                  href: systemmonitor--properties.md
+                  items:
+                    - name: SystemMonitor。外觀
+                      href: systemmonitor-appearance.md
+                    - name: SystemMonitor 背景色彩
+                      href: systemmonitor-backcolor.md
+                    - name: SystemMonitor.BackColorCtl
+                      href: systemmonitor-backcolorctl.md
+                    - name: SystemMonitor
+                      href: systemmonitor-borderstyle.md
+                    - name: SystemMonitor.ChartScroll
+                      href: systemmonitor-chartscroll.md
+                    - name: SystemMonitor 計數器
+                      href: systemmonitor-counters.md
+                    - name: SystemMonitor.DataPointCount
+                      href: systemmonitor-datapointcount.md
+                    - name: SystemMonitor. DataSourceType
+                      href: systemmonitor-datasourcetype.md
+                    - name: SystemMonitor
+                      href: systemmonitor-displaytype.md
+                    - name: SystemMonitor.EnableDigitGrouping
+                      href: systemmonitor-enabledigitgrouping.md
+                    - name: SystemMonitor.EnableToolTips
+                      href: systemmonitor-enabletooltips.md
+                    - name: SystemMonitor 字型
+                      href: systemmonitor-font.md
+                    - name: SystemMonitor 的前景
+                      href: systemmonitor-forecolor.md
+                    - name: SystemMonitor.GraphTitle
+                      href: systemmonitor-graphtitle.md
+                    - name: SystemMonitor.GridColor
+                      href: systemmonitor-gridcolor.md
+                    - name: SystemMonitor。醒目提示
+                      href: systemmonitor-highlight.md
+                    - name: SystemMonitor. LogFileName
+                      href: systemmonitor-logfilename.md
+                    - name: SystemMonitor
+                      href: systemmonitor-logfiles.md
+                    - name: SystemMonitor.LogSourceStartTime
+                      href: systemmonitor-logsourcestarttime.md
+                    - name: SystemMonitor.LogSourceStopTime
+                      href: systemmonitor-logsourcestoptime.md
+                    - name: SystemMonitor.LogViewStart
+                      href: systemmonitor-logviewstart.md
+                    - name: SystemMonitor.LogViewStop
+                      href: systemmonitor-logviewstop.md
+                    - name: SystemMonitor.ManualUpdate
+                      href: systemmonitor-manualupdate.md
+                    - name: SystemMonitor.MaximumScale
+                      href: systemmonitor-maximumscale.md
+                    - name: SystemMonitor.MinimumScale
+                      href: systemmonitor-minimumscale.md
+                    - name: SystemMonitor.MonitorDuplicateInstances
+                      href: systemmonitor-monitorduplicateinstances.md
+                    - name: SystemMonitor ReadOnly
+                      href: systemmonitor-readonly.md
+                    - name: SystemMonitor.ReportValueType
+                      href: systemmonitor-reportvaluetype.md
+                    - name: SystemMonitor.ShowHorizontalGrid
+                      href: systemmonitor-showhorizontalgrid.md
+                    - name: SystemMonitor.ShowLegend
+                      href: systemmonitor-showlegend.md
+                    - name: SystemMonitor.ShowScaleLabels
+                      href: systemmonitor-showscalelabels.md
+                    - name: SystemMonitor.ShowTimeAxisLabels
+                      href: systemmonitor-showtimeaxislabels.md
+                    - name: SystemMonitor.ShowToolbar
+                      href: systemmonitor-showtoolbar.md
+                    - name: SystemMonitor.ShowValueBar
+                      href: systemmonitor-showvaluebar.md
+                    - name: SystemMonitor.ShowVerticalGrid
+                      href: systemmonitor-showverticalgrid.md
+                    - name: SystemMonitor.SqlDsnName
+                      href: systemmonitor-sqldsnname.md
+                    - name: SystemMonitor.SqlLogSetName
+                      href: systemmonitor-sqllogsetname.md
+                    - name: SystemMonitor.TimeBarColor
+                      href: systemmonitor-timebarcolor.md
+                    - name: SystemMonitor.UpdateInterval
+                      href: systemmonitor-updateinterval.md
+                    - name: SystemMonitor.YAxisLabel
+                      href: systemmonitor-yaxislabel.md
+        - name: SYSMON 列舉
+          href: sysmon-enumerations.md
+          items:
+            - name: DataSourceTypeConstants
+              href: /windows/win32/api/isysmon/ne-isysmon-datasourcetypeconstants
+            - name: DisplayTypeConstants
+              href: /windows/win32/api/isysmon/ne-isysmon-displaytypeconstants
+            - name: ReportValueTypeConstants
+              href: /windows/win32/api/isysmon/ne-isysmon-reportvaluetypeconstants
+            - name: SysmonBatchReason
+              href: /windows/win32/api/ISysmon/ne-isysmon-sysmonbatchreason
+            - name: SysmonDataType
+              href: /windows/win32/api/ISysmon/ne-isysmon-sysmondatatype
+            - name: SysmonFileType
+              href: /windows/win32/api/ISysmon/ne-isysmon-sysmonfiletype
+        - name: SYSMON 傳回值
+          href: sysmon-return-values.md
