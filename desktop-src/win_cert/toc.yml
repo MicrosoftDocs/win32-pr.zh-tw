@@ -1,0 +1,23 @@
+- name: Windows 認證
+  href: windows-certification-portal.md
+  items:
+    - name: 有哪些優點？
+      href: what-are-the-benefits-.md
+    - name: Windows 桌面應用程式的認證需求
+      href: certification-requirements-for-windows-desktop-apps.md
+      items:
+        - name: 封存： Windows 傳統型應用程式的認證需求3.3 版
+          href: certification-requirements-for-windows-desktop-apps-v3-3.md
+        - name: 封存： Windows 傳統型應用程式的認證需求3.1 版
+          href: archive--certification-requirements-for-windows-desktop-apps-v3-1.md
+        - name: 封存： Windows 傳統型應用程式的認證需求3.0 版
+          href: archive--certification-requirements-for-windows-desktop-apps-v3-0.md
+        - name: 封存： Windows 傳統型應用程式的認證需求1.2 版
+          href: archive--certification-requirements-for-windows-desktop-apps-v1-2.md
+        - name: 封存： Windows 桌面應用程式的認證需求 v1。1
+          href: archive--certification-requirements-for-windows-desktop-apps-v1-1.md
+    - name: 使用 Windows 應用程式認證套件
+      href: using-the-windows-app-certification-kit.md
+      items:
+        - name: Windows 應用程式認證套件測試
+          href: windows-app-certification-kit-tests.md

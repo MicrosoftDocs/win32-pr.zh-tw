@@ -1,0 +1,36 @@
+---
+description: 對顯示裝置的系統選擇區進行變更，可能會對桌面上的 windows 所使用的色彩有很大的影響，有時也會造成不良的影響。
+ms.assetid: 9c470b6f-c0d3-462e-9649-1f39b06bd543
+title: 選用區訊息
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9f19a5458ec89d8d9a0524fd2ec383de740c0179
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104972597"
+---
+# <a name="palette-messages"></a><span data-ttu-id="337f1-103">選用區訊息</span><span class="sxs-lookup"><span data-stu-id="337f1-103">Palette Messages</span></span>
+
+<span data-ttu-id="337f1-104">對顯示裝置的系統選擇區進行變更，可能會對桌面上的 windows 所使用的色彩有很大的影響，有時也會造成不良的影響。</span><span class="sxs-lookup"><span data-stu-id="337f1-104">Changes to the system palette for the display device can have dramatic and sometimes undesirable effects on the colors used in windows on the desktop.</span></span> <span data-ttu-id="337f1-105">為了將這些變更的影響降到最低，系統會提供一組訊息來協助應用程式管理其邏輯調色板，同時確保使用中視窗中的色彩盡可能接近所需的色彩。</span><span class="sxs-lookup"><span data-stu-id="337f1-105">To minimize the impact of these changes, the system provides a set of messages that help applications manage their logical palettes while ensuring that colors in the active window are as close as possible to the colors intended.</span></span>
+
+<span data-ttu-id="337f1-106">系統會在啟用視窗之前，將 [**WM \_ QUERYNEWPALETTE**](wm-querynewpalette.md) 訊息傳送至最上層或重迭的視窗。</span><span class="sxs-lookup"><span data-stu-id="337f1-106">The system sends a [**WM\_QUERYNEWPALETTE**](wm-querynewpalette.md) message to a top-level or overlapped window just before activating the window.</span></span> <span data-ttu-id="337f1-107">此訊息讓應用程式有機會選取並實現其邏輯調色板，讓它能獲得其邏輯調色板最可能的色彩對應。</span><span class="sxs-lookup"><span data-stu-id="337f1-107">This message gives an application the opportunity to select and realize its logical palette so that it receives the best possible mapping of colors for its logical palette.</span></span> <span data-ttu-id="337f1-108">當應用程式收到訊息時，它應該使用 [**SelectPalette**](/windows/desktop/api/Wingdi/nf-wingdi-selectpalette)、 [**UnrealizeObject**](/windows/desktop/api/Wingdi/nf-wingdi-unrealizeobject)和 [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette) 函式來選取並實現邏輯調色板。</span><span class="sxs-lookup"><span data-stu-id="337f1-108">When the application receives the message, it should use the [**SelectPalette**](/windows/desktop/api/Wingdi/nf-wingdi-selectpalette), [**UnrealizeObject**](/windows/desktop/api/Wingdi/nf-wingdi-unrealizeobject), and [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette) functions to select and realize the logical palette.</span></span> <span data-ttu-id="337f1-109">這麼做會指示系統更新系統元件中的色彩，使其色彩盡可能符合邏輯調色板中的多個色彩。</span><span class="sxs-lookup"><span data-stu-id="337f1-109">Doing so directs the system to update colors in the system palette so that its colors match as many colors in the logical palette as possible.</span></span>
+
+<span data-ttu-id="337f1-110">當應用程式因為實現其邏輯調色板而導致系統元件的變更時，系統會將 [**WM \_ PALETTECHANGED**](wm-palettechanged.md) 訊息傳送至所有最上層和重迭的視窗。</span><span class="sxs-lookup"><span data-stu-id="337f1-110">When an application causes changes to the system palette as a result of realizing its logical palette, the system sends a [**WM\_PALETTECHANGED**](wm-palettechanged.md) message to all top-level and overlapped windows.</span></span> <span data-ttu-id="337f1-111">此訊息讓應用程式有機會更新其視窗的用戶端區域中的色彩，並以更接近預期色彩的色彩來取代已變更的色彩。</span><span class="sxs-lookup"><span data-stu-id="337f1-111">This message gives applications the opportunity to update the colors in the client areas of their windows, replacing colors that have changed with colors that more closely match the intended colors.</span></span> <span data-ttu-id="337f1-112">接收 **WM \_ PALETTECHANGED** 訊息的應用程式應該使用 [**UnrealizeObject**](/windows/desktop/api/Wingdi/nf-wingdi-unrealizeobject) 和 [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette) 來重設與所有非作用中視窗相關聯的邏輯調色板，然後使用 [**UpdateColors**](/windows/desktop/api/Wingdi/nf-wingdi-updatecolors) 函式，針對每個非使用中的視窗更新工作區中的色彩。</span><span class="sxs-lookup"><span data-stu-id="337f1-112">An application that receives the **WM\_PALETTECHANGED** message should use [**UnrealizeObject**](/windows/desktop/api/Wingdi/nf-wingdi-unrealizeobject) and [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette) to reset the logical palettes associated with all inactive windows and then update the colors in the client area for each inactive window by using the [**UpdateColors**](/windows/desktop/api/Wingdi/nf-wingdi-updatecolors) function.</span></span> <span data-ttu-id="337f1-113">這項技術並不保證會有最大的精確色彩相符專案;不過，它確實會確保邏輯調色板中的色彩會對應到系統調色板中合理的色彩。</span><span class="sxs-lookup"><span data-stu-id="337f1-113">This technique does not guarantee the greatest number of exact color matches; however, it does ensure that colors in the logical palette are mapped to reasonable colors in the system palette.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="337f1-114">若要避免建立無限迴圈，應用程式永遠不應該知道控制碼符合在 [**WM \_ PALETTECHANGED**](wm-palettechanged.md)訊息的 *wParam* 參數中所傳遞之控制碼的視窗的調色板。</span><span class="sxs-lookup"><span data-stu-id="337f1-114">To avoid creating an infinite loop, an application should never realize the palette for the window whose handle matches the handle passed in the *wParam* parameter of the [**WM\_PALETTECHANGED**](wm-palettechanged.md) message.</span></span>
+
+ 
+
+<span data-ttu-id="337f1-115">[**UpdateColors**](/windows/desktop/api/Wingdi/nf-wingdi-updatecolors)函式通常會比重繪區域更快地更新非作用中視窗的工作區。</span><span class="sxs-lookup"><span data-stu-id="337f1-115">The [**UpdateColors**](/windows/desktop/api/Wingdi/nf-wingdi-updatecolors) function typically updates a client area of an inactive window faster than redrawing the area.</span></span> <span data-ttu-id="337f1-116">不過，由於 **UpdateColors** 會根據系統元件的每個圖元色彩來執行色彩轉譯，因此對此函式的每個呼叫都會導致某些色彩精確度遺失。</span><span class="sxs-lookup"><span data-stu-id="337f1-116">However, because **UpdateColors** performs color translation based on the color of each pixel before the system palette changed, each call to this function results in the loss of some color accuracy.</span></span> <span data-ttu-id="337f1-117">這表示當視窗變成使用中狀態時， **UpdateColors** 無法用來更新色彩。</span><span class="sxs-lookup"><span data-stu-id="337f1-117">This means **UpdateColors** cannot be used to update colors when the window becomes active.</span></span> <span data-ttu-id="337f1-118">在這種情況下，應用程式應該重新繪製工作區。</span><span class="sxs-lookup"><span data-stu-id="337f1-118">In such cases, the application should redraw the client area.</span></span>
+
+<span data-ttu-id="337f1-119">當對邏輯元件進行變更時，系統可能會傳送 [**WM \_ QUERYNEWPALETTE**](wm-querynewpalette.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="337f1-119">The system may send the [**WM\_QUERYNEWPALETTE**](wm-querynewpalette.md) message when changes to the logical palette are made.</span></span> <span data-ttu-id="337f1-120">此外，系統可能會在系統調色板即將變更時，將 [**WM \_ PALETTEISCHANGING**](wm-paletteischanging.md) 訊息傳送至所有最上層和重迭的視窗。</span><span class="sxs-lookup"><span data-stu-id="337f1-120">Also, the system may send the [**WM\_PALETTEISCHANGING**](wm-paletteischanging.md) message to all top-level and overlapped windows when the system palette is about to change.</span></span>
+
+ 
+
+ 
+
+
+

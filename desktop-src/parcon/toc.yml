@@ -1,0 +1,223 @@
+- name: 家長監護
+  href: parental-controls-portal.md
+  items:
+    - name: Windows 8 父母控制項的新功能
+      href: what-s-new-in-windows-8-parental-controls.md
+    - name: Windows 7 父母控制項的新功能
+      href: what-s-new-in-windows-7-parental-controls.md
+    - name: 關於家長監護
+      href: about-parental-controls.md
+      items:
+        - name: 家長監護問題陳述
+          href: parental-controls-problem-statement.md
+        - name: Windows 系列安全性解決方案
+          href: windows-family-safety-solution.md
+        - name: 家長監護主要設計決策
+          href: parental-controls-key-design-decisions.md
+        - name: 家長監護
+          href: parental-controls-robustness.md
+        - name: 家長監護功能集
+          href: parental-controls-feature-set.md
+          items:
+            - name: 家長監護 Top-Level 消費者介面
+              href: parental-controls-top-level-user-interface.md
+            - name: 家長監護活動報告
+              href: parental-controls-activity-reporting.md
+            - name: 家長監護 In-Box 限制和使用者介面
+              href: parental-controls-in-box-restrictions-and-user-interfaces.md
+            - name: 家長監護 API 總覽
+              href: parental-controls-api-overview.md
+            - name: 家長監護擴充功能總覽
+              href: parental-controls-extensibility-features-overview.md
+        - name: 家長監護 SKU 可用性
+          href: parental-controls-sku-availability.md
+    - name: 使用家長監護
+      href: using-parental-controls.md
+      items:
+        - name: 將解決方案對應到家長監護基礎結構
+          href: mapping-solutions-onto-the-parental-controls-infrastructure.md
+        - name: 家長監護帳戶身分識別的關聯
+          href: association-of-account-identities-for-parental-controls.md
+        - name: 家長監護和使用者帳戶控制
+          href: parental-controls-and-user-account-control.md
+        - name: 使用家長監護 Api
+          href: using-parental-controls-apis.md
+          items:
+            - name: 使用家長監護設定 Api
+              href: using-parental-controls-settings-apis.md
+            - name: 使用適用于家長監護的記錄 Api
+              href: using-logging-apis-for-parental-controls.md
+    - name: 家長監護參考
+      href: parental-controls-reference.md
+      items:
+        - name: 家長監護記錄
+          href: parental-controls-logging.md
+          items:
+            - name: 家長監護記錄列舉
+              href: parental-controls-logging-enumerations.md
+              items:
+                - name: WPC_ARGS_CONVERSATIONINITEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_conversationinitevent
+                - name: WPC_ARGS_CONVERSATIONJOINEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_conversationjoinevent
+                - name: WPC_ARGS_CONVERSATIONLEAVEEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_conversationleaveevent
+                - name: WPC_ARGS_CUSTOMEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_customevent
+                - name: WPC_ARGS_EMAILCONTACTEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_emailcontactevent
+                - name: WPC_ARGS_EMAILRECEIVEDEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_emailreceievedevent
+                - name: WPC_ARGS_EMAILSENTEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_emailsentevent
+                - name: WPC_ARGS_FILEDOWNLOADEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_filedownloadevent
+                - name: WPC_ARGS_GAMESTARTEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_gamestartevent
+                - name: WPC_ARGS_IMCONTACTEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_imcontactevent
+                - name: WPC_ARGS_IMFEATUREEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_imfeatureevent
+                - name: WPC_ARGS_MEDIADOWNLOADEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_mediadownloadevent
+                - name: WPC_ARGS_MEDIAPLAYBACKEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_mediaplaybackevent
+                - name: WPC_ARGS_SAFERAPPBLOCKED
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_saferappblocked
+                - name: WPC_ARGS_SETTINGSCHANGEEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_settingschangeevent
+                - name: WPC_ARGS_URLVISITEVENT
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_args_urlvisitevent
+                - name: WPC_MEDIA_EXPLICIT_TYPE
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_media_explicit
+                - name: WPC_MEDIA_TYPE
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpc_media_type
+                - name: WPCFLAG_IM_FEATURE
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpcflag_im_feature
+                - name: WPCFLAG_IM_LEAVE_FLAG
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpcflag_im_leave
+                - name: WPCFLAG_ISBLOCKED
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpcflag_isblocked
+                - name: WPCFLAG_LOGOFF_TYPE
+                  href: /windows/win32/api/Wpcevent/ne-wpcevent-wpcflag_logoff_type
+            - name: 家長監護記錄事件
+              href: parental-controls-logging-events.md
+              items:
+                - name: WPCEVENT_CUSTOM 事件
+                  href: wpcevent-custom-event.md
+                - name: WPCEVENT_EMAIL_CONTACT 事件
+                  href: wpcevent-email-contact-event.md
+                - name: WPCEVENT_EMAIL_RECEIVED 事件
+                  href: wpcevent-email-received-event.md
+                - name: WPCEVENT_EMAIL_SENT 事件
+                  href: wpcevent-email-sent-event.md
+                - name: WPCEVENT_GAME_START 事件
+                  href: wpcevent-game-start-event.md
+                - name: WPCEVENT_IM_CONTACT 事件
+                  href: wpcevent-im-contact-event.md
+                - name: WPCEVENT_IM_FEATURE 事件
+                  href: wpcevent-im-feature-event.md
+                - name: WPCEVENT_IM_INVITATION 事件
+                  href: wpcevent-im-invitation-event.md
+                - name: WPCEVENT_IM_JOIN 事件
+                  href: wpcevent-im-join-event.md
+                - name: WPCEVENT_IM_LEAVE 事件
+                  href: wpcevent-im-leave-event.md
+                - name: WPCEVENT_MEDIA_PLAYBACK 事件
+                  href: wpcevent-media-playback-event.md
+                - name: WPCEVENT_SYS_SETTINGCHANGE
+                  href: wpcevent-sys-settingchange-event.md
+                - name: WPCEVENT_SYSTEM_APPBLOCKED 事件
+                  href: wpcevent-system-appblocked-event.md
+                - name: WPCEVENT_WEB_FILEDOWNLOAD 事件
+                  href: wpcevent-web-filedownload-event.md
+                - name: WPCEVENT_WEB_URLVISIT 事件
+                  href: wpcevent-web-urlvisit-event.md
+        - name: 家長監護最小合規性 API
+          href: parental-controls-minimum-compliance-api.md
+          items:
+            - name: IWindowsParentalControls
+              href: /windows/desktop/api/Wpcapi/nn-wpcapi-iwindowsparentalcontrols
+              items:
+                - name: IWindowsParentalControls 方法
+                  href: iwindowsparentalcontrols-methods.md
+                  items:
+                    - name: GetGamesSettings 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwindowsparentalcontrols-getgamessettings
+                    - name: GetUserSettings 方法
+                      href: /windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings
+                    - name: GetVisibility 方法
+                      href: /windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility
+                    - name: GetWebFilterInfo 方法
+                      href: /windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo
+                    - name: GetWebSettings 方法
+                      href: /windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings
+            - name: IWPCGamesSettings
+              href: /windows/desktop/api/Wpcapi/nn-wpcapi-iwpcgamessettings
+              items:
+                - name: IWPCGamesSettings 方法
+                  href: iwpcgamessettings-methods.md
+                  items:
+                    - name: IsBlocked 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcgamessettings-isblocked
+            - name: IWPCSettings
+              href: /windows/desktop/api/Wpcapi/nn-wpcapi-iwpcsettings
+              items:
+                - name: IWPCSettings 方法
+                  href: iwpcsettings-methods.md
+                  items:
+                    - name: GetLastSettingsChangeTime 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcsettings-getlastsettingschangetime
+                    - name: GetRestrictions 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcsettings-getrestrictions
+                    - name: IsLoggingRequired 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcsettings-isloggingrequired
+            - name: IWPCWebSettings
+              href: /windows/desktop/api/Wpcapi/nn-wpcapi-iwpcwebsettings
+              items:
+                - name: IWPCWebSettings 方法
+                  href: iwpcwebsettings-methods.md
+                  items:
+                    - name: GetSettings 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcwebsettings-getsettings
+                    - name: RequestURLOverride 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcwebsettings-requesturloverride
+        - name: 家長監護的 WMI 提供者 API
+          href: parental-controls-wmi-provider-api.md
+          items:
+            - name: IWPCProviderConfig
+              href: /windows/desktop/api/Wpcapi/nn-wpcapi-iwpcproviderconfig
+              items:
+                - name: IWPCProviderConfig 方法
+                  href: iwpcproviderconfig-methods.md
+                  items:
+                    - name: Configure 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcproviderconfig-configure
+                    - name: GetUserSummary 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcproviderconfig-getusersummary
+                    - name: RequestOverride 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcproviderconfig-requestoverride
+            - name: IWPCProviderState
+              href: /windows/desktop/api/Wpcapi/nn-wpcapi-iwpcproviderstate
+              items:
+                - name: IWPCProviderState 方法
+                  href: iwpcproviderstate-methods.md
+                  items:
+                    - name: Disable 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcproviderstate-disable
+                    - name: Enable 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcproviderstate-enable
+            - name: IWPCProviderSupport
+              href: /windows/desktop/api/Wpcapi/nn-wpcapi-iwpcprovidersupport
+              items:
+                - name: IWPCProviderSupport 方法
+                  href: iwpcprovidersupport-methods.md
+                  items:
+                    - name: GetCurrent 方法
+                      href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwpcprovidersupport-getcurrent
+            - name: 家長監護的 WMI 提供者架構
+              href: parental-controls-wmi-provider-schema.md
+    - name: 家長監護範例
+      href: parental-controls-samples.md
+    - name: 家長監護詞彙
+      href: parental-controls-glossary.md
