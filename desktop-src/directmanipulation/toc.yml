@@ -1,0 +1,264 @@
+- name: 直接操作
+  href: direct-manipulation-portal.md
+  items:
+    - name: 區和內容
+      href: directmanipulation-viewports-and-content.md
+    - name: 在 DirectManipulation 中使用多個區
+      href: directmanipulation-multiple-vieports.md
+    - name: 使用 DirectManipulation 處理輸入
+      href: directmanipulation-processing-input-with-directmanipulation.md
+    - name: 撰寫引擎
+      href: directmanipulation-composition-engine.md
+    - name: 直接操作參考
+      href: direct-manipulation-reference.md
+      items:
+        - name: 直接操作常數
+          href: direct-manipulation-constants.md
+        - name: 直接操作 Guid
+          href: direct-manipulation-guids.md
+        - name: 直接操作列舉
+          href: direct-manipulation-enumerations.md
+          items:
+            - name: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_autoscroll_configuration
+            - name: DIRECTMANIPULATION_CONFIGURATION
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_configuration
+            - name: DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_configuration
+            - name: DIRECTMANIPULATION_DRAG_DROP_STATUS
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_status
+            - name: DIRECTMANIPULATION_GESTURE_CONFIGURATION
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_gesture_configuration
+            - name: DIRECTMANIPULATION_HITTEST_TYPE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_hittest_type
+            - name: DIRECTMANIPULATION_HORIZONTALALIGNMENT
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_horizontalalignment
+            - name: DIRECTMANIPULATION_INPUT_MODE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_input_mode
+            - name: DIRECTMANIPULATION_INTERACTION_TYPE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_interaction_type
+            - name: DIRECTMANIPULATION_MOTION_TYPES
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_motion_types
+            - name: DIRECTMANIPULATION_SNAPPOINT_COORDINATE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_coordinate
+            - name: DIRECTMANIPULATION_SNAPPOINT_TYPE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_type
+            - name: DIRECTMANIPULATION_STATUS
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_status
+            - name: DIRECTMANIPULATION_VERTICALALIGNMENT
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_verticalalignment
+            - name: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_viewport_options
+        - name: 直接操作介面
+          href: direct-manipulation-interfaces.md
+          items:
+            - name: IDirectManipulationAutoScrollBehavior
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationautoscrollbehavior
+              items:
+                - name: SetConfiguration 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationautoscrollbehavior-setconfiguration
+            - name: IDirectManipulationCompositor
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor
+              items:
+                - name: AddContent 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-addcontent
+                - name: Flush 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-flush
+                - name: RemoveContent 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-removecontent
+                - name: SetUpdateManager 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-setupdatemanager
+            - name: IDirectManipulationCompositor2
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor2
+              items:
+                - name: AddContentWithCrossProcessChaining 方法
+                  href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor2-addcontentwithcrossprocesschaining
+            - name: IDirectManipulationContent
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcontent
+              items:
+                - name: GetContentRect 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getcontentrect
+                - name: GetContentTransform 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getcontenttransform
+                - name: GetOutputTransform 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getoutputtransform
+                - name: GetTag 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-gettag
+                - name: GetViewport 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getviewport
+                - name: SetContentRect 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-setcontentrect
+                - name: SetTag 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-settag
+                - name: SyncContentTransform 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-synccontenttransform
+            - name: IDirectManipulationDeferContactService
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdefercontactservice
+              items:
+                - name: CancelContact 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-cancelcontact
+                - name: CancelDeferral 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-canceldeferral
+                - name: DeferContact 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-defercontact
+            - name: IDirectManipulationDragDropBehavior
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdragdropbehavior
+              items:
+                - name: SetConfiguration 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropbehavior-setconfiguration
+                - name: GetStatus 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropbehavior-getstatus
+            - name: IDirectManipulationDragDropEventHandler
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdragdropeventhandler
+              items:
+                - name: OnDragDropStatusChange 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropeventhandler-ondragdropstatuschange
+            - name: IDirectManipulationFrameInfoProvider
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationframeinfoprovider
+              items:
+                - name: GetNextFrameInfo 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationframeinfoprovider-getnextframeinfo
+            - name: IDirectManipulationInteractionEventHandler
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationinteractioneventhandler
+              items:
+                - name: OnInteraction 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationinteractioneventhandler-oninteraction
+            - name: IDirectManipulationManager
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager
+              items:
+                - name: Activate 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-activate
+                - name: CreateContent 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createcontent
+                - name: CreateViewport 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createviewport
+                - name: Deactivate 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-deactivate
+                - name: GetUpdateManager 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-getupdatemanager
+                - name: ProcessInput 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-processinput
+                - name: RegisterHitTestTarget 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-registerhittesttarget
+            - name: IDirectManipulationManager2
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager2
+              items:
+                - name: CreateBehavior 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager2-createbehavior
+            - name: IDirectManipulationManager3
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager3
+              items:
+                - name: GetService 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager3-getservice
+            - name: IDirectManipulationPrimaryContent
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationprimarycontent
+              items:
+                - name: GetCenterPoint 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getcenterpoint
+                - name: GetInertiaEndTransform 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getinertiaendtransform
+                - name: SetHorizontalAlignment 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-sethorizontalalignment
+                - name: SetSnapCoordinate 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapcoordinate
+                - name: SetSnapInterval 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapinterval
+                - name: SetSnapPoints 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnappoints
+                - name: SetSnapType 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnaptype
+                - name: SetVerticalAlignment 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setverticalalignment
+                - name: SetZoomBoundaries 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setzoomboundaries
+            - name: IDirectManipulationUpdateHandler
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationupdatehandler
+              items:
+                - name: Update 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatehandler-update
+            - name: IDirectManipulationUpdateManager
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationupdatemanager
+              items:
+                - name: RegisterWaitHandleCallback 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-registerwaithandlecallback
+                - name: UnregisterWaitHandleCallback 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-unregisterwaithandlecallback
+                - name: Update 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-update
+            - name: IDirectManipulationViewport
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport
+              items:
+                - name: 放棄方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-abandon
+                - name: ActivateConfiguration 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration
+                - name: AddConfiguration 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addconfiguration
+                - name: AddContent 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addcontent
+                - name: AddEventHandler 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addeventhandler
+                - name: Disable 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-disable
+                - name: Enable 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-enable
+                - name: GetPrimaryContent 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getprimarycontent
+                - name: GetStatus 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getstatus
+                - name: GetTag 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-gettag
+                - name: GetViewportRect 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getviewportrect
+                - name: ReleaseAllContacts 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-releaseallcontacts
+                - name: ReleaseContact 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-releasecontact
+                - name: RemoveConfiguration 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removeconfiguration
+                - name: RemoveContent 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removecontent
+                - name: RemoveEventHandler 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removeeventhandler
+                - name: SetChaining 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setchaining
+                - name: SetContact 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact
+                - name: SetInputMode 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setinputmode
+                - name: SetManualGesture 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setmanualgesture
+                - name: SetTag 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-settag
+                - name: SetUpdateMode 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setupdatemode
+                - name: SetViewportOptions 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportoptions
+                - name: SetViewportRect 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportrect
+                - name: SetViewportTransform 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewporttransform
+                - name: Stop 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-stop
+                - name: SyncDisplayTransform 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-syncdisplaytransform
+                - name: ZoomToRect 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-zoomtorect
+            - name: IDirectManipulationViewport2
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport2
+              items:
+                - name: AddBehavior 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-addbehavior
+                - name: RemoveBehavior 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-removebehavior
+                - name: RemoveAllBehaviors 方法
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-removeallbehaviors
+            - name: IDirectManipulationViewportEventHandler
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewporteventhandler
+              items:
+                - name: OnContentUpdated 方法
+                  href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-oncontentupdated
+                - name: OnViewportStatusChanged 方法
+                  href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-onviewportstatuschanged
+                - name: OnViewportUpdated 方法
+                  href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-onviewportupdated
