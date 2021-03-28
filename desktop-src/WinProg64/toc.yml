@@ -1,0 +1,82 @@
+- name: 64 位元 Windows 程式設計手冊
+  href: programming-guide-for-64-bit-windows.md
+  items:
+    - name: 準備開始64位 Windows
+      href: getting-ready-for-64-bit-windows.md
+      items:
+        - name: 抽象資料模型
+          href: abstract-data-models.md
+        - name: 新的資料類型
+          href: the-new-data-types.md
+        - name: 環境
+          href: the-environment.md
+        - name: 工具
+          href: the-tools.md
+        - name: 使用指標的規則
+          href: rules-for-using-pointers.md
+        - name: 虛擬位址空間
+          href: virtual-address-space.md
+        - name: 對齊錯誤
+          href: fault-alignments.md
+        - name: 進程互通性
+          href: process-interoperability.md
+        - name: 驅動程式
+          href: drivers.md
+    - name: 設計64位相容介面
+      href: designing-64-bit-compatible-interfaces.md
+      items:
+        - name: 變更現有介面
+          href: changing-an-existing-interface.md
+        - name: 避免資訊隱藏
+          href: avoiding-information-hiding.md
+        - name: 避免多型
+          href: avoiding-polymorphism.md
+        - name: 在 IDL 檔案中使用新的資料類型
+          href: using-new-data-types-in-your-idl-file.md
+        - name: 為64位 Windows 準備您的應用程式
+          href: preparing-your-application-for-64-bit-windows.md
+    - name: 執行32位應用程式
+      href: running-32-bit-applications.md
+      items:
+        - name: WOW64 下的效能和記憶體耗用量
+          href: performance-and-memory-consumption.md
+        - name: WOW64 執行詳細資料
+          href: wow64-implementation-details.md
+        - name: 登錄重新導向程式
+          href: registry-redirector.md
+          items:
+            - name: 登錄反映
+              href: registry-reflection.md
+            - name: 受 WOW64 影響的登錄機碼
+              href: shared-registry-keys.md
+            - name: 存取替代登錄視圖
+              href: accessing-an-alternate-registry-view.md
+            - name: WOW64 上的登錄重新導向範例
+              href: example-of-registry-reflection-and-redirection-on-wow64.md
+            - name: 64位 Windows 中的遠端登入存取
+              href: remote-registry-access-in-64-bit-windows.md
+        - name: 檔案系統重新導向程式
+          href: file-system-redirector.md
+        - name: WOW64 下的記憶體管理
+          href: memory-management.md
+        - name: WOW64 下的處理器親和性
+          href: processor-affinity.md
+        - name: 32位和64位應用程式之間的處理序間通訊
+          href: interprocess-communication.md
+        - name: 64位系統上的應用程式安裝
+          href: application-installation.md
+        - name: WOW64 下的例外狀況處理
+          href: exception-handling-under-wow64.md
+        - name: 調試 WOW64
+          href: debugging-wow64.md
+    - name: 移轉提示
+      href: migration-tips.md
+      items:
+        - name: 一般移植指導方針
+          href: general-porting-guidelines.md
+        - name: 儲存64位值
+          href: storing-a-64-bit-value.md
+        - name: 常見的編譯器錯誤
+          href: common-compiler-errors.md
+        - name: 其他考量
+          href: additional-considerations.md
