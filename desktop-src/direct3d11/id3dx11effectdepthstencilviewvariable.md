@@ -1,0 +1,91 @@
+---
+title: 'ID3DX11EffectDepthStencilViewVariable 介面 (D3dx11effect .h) '
+description: 深度樣板視圖變數介面會存取深度樣板視圖。
+ms.assetid: 316bf0cc-a7cd-4a40-932a-d566e3c2001e
+keywords:
+- ID3DX11EffectDepthStencilViewVariable 介面 Direct3D 11
+- ID3DX11EffectDepthStencilViewVariable 介面 Direct3D 11，描述
+topic_type:
+- apiref
+api_name:
+- ID3DX11EffectDepthStencilViewVariable
+api_location:
+- N/A
+- N/A.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 51961bd1300157eef4acb4dd15484d5146a166f7
+ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "104196347"
+---
+# <a name="id3dx11effectdepthstencilviewvariable-interface"></a>ID3DX11EffectDepthStencilViewVariable 介面
+
+深度樣板視圖變數介面會存取深度樣板視圖。
+
+## <a name="members"></a>成員
+
+**ID3DX11EffectDepthStencilViewVariable** 介面繼承自 [**ID3DX11EffectVariable**](id3dx11effectvariable.md)。 **ID3DX11EffectDepthStencilViewVariable** 也有下列類型的成員：
+
+-   [方法](#methods)
+
+### <a name="methods"></a>方法
+
+**ID3DX11EffectDepthStencilViewVariable** 介面具有這些方法。
+
+
+
+| 方法                                                                                     | 描述                                              |
+|:-------------------------------------------------------------------------------------------|:---------------------------------------------------------|
+| [**GetDepthStencil**](id3dx11effectdepthstencilviewvariable-getdepthstencil.md)           | 取得深度樣板查看資源。<br/>            |
+| [**GetDepthStencilArray**](id3dx11effectdepthstencilviewvariable-getdepthstencilarray.md) | 取得深度樣板視圖資源的陣列。<br/> |
+| [**SetDepthStencil**](id3dx11effectdepthstencilviewvariable-setdepthstencil.md)           | 設定深度範本-view 資源。<br/>            |
+| [**SetDepthStencilArray**](id3dx11effectdepthstencilviewvariable-setdepthstencilarray.md) | 設定深度樣板視圖資源的陣列。<br/> |
+
+
+
+ 
+
+## <a name="remarks"></a>備註
+
+> [!Note]  
+> DirectX SDK 不提供任何已編譯的二進位檔來產生效果。 您必須使用效果11來源來建立效果類型的應用程式。 如需使用效果11來源的詳細資訊，請參閱 [效果的差異10和效果 11](d3d11-graphics-programming-guide-effects-differences.md)。
+
+ 
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| 標頭<br/>  | <dl> <dt>D3dx11effect。h</dt> </dl>                                                    |
+| 程式庫<br/> | <dl> <dt>N/A (效果11程式庫可在線上作為共用來源使用。 ) </dt> </dl> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**ID3DX11EffectVariable**](id3dx11effectvariable.md)
+</dt> <dt>
+
+[效果11介面](d3d11-graphics-reference-effects11-interfaces.md)
+</dt> <dt>
+
+[D3DX 介面](d3d11-graphics-reference-d3dx11-interfaces.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
