@@ -1,0 +1,128 @@
+- name: 分散式檔案系統
+  href: distributed-file-system.md
+  items:
+    - name: 分散式檔案系統 (DFS) 函式
+      href: distributed-file-system-dfs-functions.md
+    - name: 安全性函數
+      href: security-functions.md
+    - name: DFS 伺服器目標優先順序
+      href: dfs-server-target-prioritization.md
+    - name: 分散式檔案系統參考
+      href: distributed-file-system-reference.md
+      items:
+        - name: 分散式檔案系統控制代碼
+          href: distributed-file-system-control-codes.md
+          items:
+            - name: FSCTL_DFS_GET_PKT_ENTRY_STATE
+              href: fsctl-dfs-get-pkt-entry-state.md
+        - name: 分散式檔案系統列舉
+          href: distributed-file-system-enumeration-types.md
+          items:
+            - name: DFS_NAMESPACE_VERSION_ORIGIN
+              href: /windows/desktop/api/lmdfs/ne-lmdfs-dfs_namespace_version_origin
+            - name: DFS_TARGET_PRIORITY_CLASS
+              href: /windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1
+        - name: 分散式檔案系統函式
+          href: distributed-file-system-functions.md
+          items:
+            - name: NetDfsAdd 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsadd
+            - name: NetDfsAddFtRoot 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddftroot
+            - name: NetDfsAddRootTarget 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddroottarget
+            - name: NetDfsAddStdRoot 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddstdroot
+            - name: NetDfsEnum 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum
+            - name: NetDfsGetClientInfo 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo
+            - name: NetDfsGetFtContainerSecurity 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetftcontainersecurity
+            - name: NetDfsGetInfo 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo
+            - name: NetDfsGetSecurity 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsecurity
+            - name: NetDfsGetStdContainerSecurity 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetstdcontainersecurity
+            - name: NetDfsGetSupportedNamespaceVersion 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsupportednamespaceversion
+            - name: NetDfsMove 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsmove
+            - name: NetDfsRemove 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremove
+            - name: NetDfsRemoveFtRoot 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftroot
+            - name: NetDfsRemoveFtRootForced 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftrootforced
+            - name: NetDfsRemoveRootTarget 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveroottarget
+            - name: NetDfsRemoveStdRoot 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremovestdroot
+            - name: NetDfsSetClientInfo 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetclientinfo
+            - name: NetDfsSetFtContainerSecurity 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetftcontainersecurity
+            - name: NetDfsSetInfo 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo
+            - name: NetDfsSetSecurity 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetsecurity
+            - name: NetDfsSetStdContainerSecurity 函式
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetstdcontainersecurity
+        - name: 分散式檔案系統結構
+          href: distributed-file-system-structures.md
+          items:
+            - name: DFS_GET_PKT_ENTRY_STATE_ARG
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_get_pkt_entry_state_arg
+            - name: _DFS_INFO_1 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_1
+            - name: _DFS_INFO_2 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_2
+            - name: _DFS_INFO_3 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_3
+            - name: _DFS_INFO_4 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_4
+            - name: _DFS_INFO_5 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_5
+            - name: _DFS_INFO_6 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_6
+            - name: _DFS_INFO_7 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_7
+            - name: _DFS_INFO_8 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_8
+            - name: _DFS_INFO_9 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_9
+            - name: _DFS_INFO_50 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_50
+            - name: _DFS_INFO_100 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_100
+            - name: _DFS_INFO_101 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_101
+            - name: _DFS_INFO_102 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_102
+            - name: _DFS_INFO_103 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_103
+            - name: _DFS_INFO_104 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_104
+            - name: _DFS_INFO_105 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_105
+            - name: _DFS_INFO_106 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_106
+            - name: _DFS_INFO_107 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_107
+            - name: _DFS_INFO_150 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_150
+            - name: _DFS_INFO_200 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_200
+            - name: _DFS_INFO_300 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_300
+            - name: _DFS_STORAGE_INFO 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_storage_info
+            - name: _DFS_STORAGE_INFO_1 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_storage_info_1
+            - name: _DFS_SUPPORTED_NAMESPACE_VERSION_INFO 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_supported_namespace_version_info
+            - name: _DFS_TARGET_PRIORITY 結構
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_target_priority
+            - name: _DFS_TARGET_PRIORITY_CLASS 列舉
+              href: /windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1

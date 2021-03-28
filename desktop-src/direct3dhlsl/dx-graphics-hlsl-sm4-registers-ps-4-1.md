@@ -1,0 +1,69 @@
+---
+title: 註冊-ps_4_1
+description: 本章節包含圖元著色器第4版所執行之輸入和輸出暫存器的參考資訊 \_ 。
+ms.assetid: d3f3e264-569e-43a6-a06b-a512d36a7b53
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 1cf70a24ad2fa7e77f7a5a90f6ec247179464f5c
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103932212"
+---
+# <a name="registers---ps_4_1"></a><span data-ttu-id="67bd6-103">註冊-ps \_ 4 \_ 1</span><span class="sxs-lookup"><span data-stu-id="67bd6-103">Registers - ps\_4\_1</span></span>
+
+<span data-ttu-id="67bd6-104">本章節包含圖元著色器第4版所執行之輸入和輸出暫存器的參考資訊 \_ 。</span><span class="sxs-lookup"><span data-stu-id="67bd6-104">This section contains reference information for the input and output registers implemented by pixel shader version 4\_1.</span></span>
+
+## <a name="input-registers"></a><span data-ttu-id="67bd6-105">輸入暫存器</span><span class="sxs-lookup"><span data-stu-id="67bd6-105">Input Registers</span></span>
+
+
+
+| <span data-ttu-id="67bd6-106">註冊</span><span class="sxs-lookup"><span data-stu-id="67bd6-106">Register</span></span>      | <span data-ttu-id="67bd6-107">Name</span><span class="sxs-lookup"><span data-stu-id="67bd6-107">Name</span></span> | <span data-ttu-id="67bd6-108">Count</span><span class="sxs-lookup"><span data-stu-id="67bd6-108">Count</span></span>              | <span data-ttu-id="67bd6-109">R/W</span><span class="sxs-lookup"><span data-stu-id="67bd6-109">R/W</span></span> | <span data-ttu-id="67bd6-110">維度</span><span class="sxs-lookup"><span data-stu-id="67bd6-110">Dimension</span></span> | <span data-ttu-id="67bd6-111">R 可編制索引\#</span><span class="sxs-lookup"><span data-stu-id="67bd6-111">Indexable by r\#</span></span> | <span data-ttu-id="67bd6-112">Defaults</span><span class="sxs-lookup"><span data-stu-id="67bd6-112">Defaults</span></span> | <span data-ttu-id="67bd6-113">需要 DCL</span><span class="sxs-lookup"><span data-stu-id="67bd6-113">Requires DCL</span></span> |
+|---------------|------|--------------------|-----|-----------|------------------|----------|--------------|
+| <span data-ttu-id="67bd6-114">R\#</span><span class="sxs-lookup"><span data-stu-id="67bd6-114">r\#</span></span>           |      | <span data-ttu-id="67bd6-115">4096 (r \# + x \# \[ n \]) </span><span class="sxs-lookup"><span data-stu-id="67bd6-115">4096(r\#+x\#\[n\])</span></span> | <span data-ttu-id="67bd6-116">R/W</span><span class="sxs-lookup"><span data-stu-id="67bd6-116">R/W</span></span> | <span data-ttu-id="67bd6-117">4</span><span class="sxs-lookup"><span data-stu-id="67bd6-117">4</span></span>         | <span data-ttu-id="67bd6-118">否</span><span class="sxs-lookup"><span data-stu-id="67bd6-118">No</span></span>               | <span data-ttu-id="67bd6-119">None</span><span class="sxs-lookup"><span data-stu-id="67bd6-119">None</span></span>     | <span data-ttu-id="67bd6-120">Yes</span><span class="sxs-lookup"><span data-stu-id="67bd6-120">Yes</span></span>          |
+| <span data-ttu-id="67bd6-121">x \# \[ n\]</span><span class="sxs-lookup"><span data-stu-id="67bd6-121">x\#\[n\]</span></span>      |      | <span data-ttu-id="67bd6-122">4096 (r \# + x \# \[ n \]) </span><span class="sxs-lookup"><span data-stu-id="67bd6-122">4096(r\#+x\#\[n\])</span></span> | <span data-ttu-id="67bd6-123">R/W</span><span class="sxs-lookup"><span data-stu-id="67bd6-123">R/W</span></span> | <span data-ttu-id="67bd6-124">4</span><span class="sxs-lookup"><span data-stu-id="67bd6-124">4</span></span>         | <span data-ttu-id="67bd6-125">是</span><span class="sxs-lookup"><span data-stu-id="67bd6-125">Yes</span></span>              | <span data-ttu-id="67bd6-126">無</span><span class="sxs-lookup"><span data-stu-id="67bd6-126">None</span></span>     | <span data-ttu-id="67bd6-127">Yes</span><span class="sxs-lookup"><span data-stu-id="67bd6-127">Yes</span></span>          |
+| <span data-ttu-id="67bd6-128">V\#</span><span class="sxs-lookup"><span data-stu-id="67bd6-128">v\#</span></span>           |      | <span data-ttu-id="67bd6-129">32</span><span class="sxs-lookup"><span data-stu-id="67bd6-129">32</span></span>                 | <span data-ttu-id="67bd6-130">R</span><span class="sxs-lookup"><span data-stu-id="67bd6-130">R</span></span>   | <span data-ttu-id="67bd6-131">4</span><span class="sxs-lookup"><span data-stu-id="67bd6-131">4</span></span>         | <span data-ttu-id="67bd6-132">是</span><span class="sxs-lookup"><span data-stu-id="67bd6-132">Yes</span></span>              | <span data-ttu-id="67bd6-133">無</span><span class="sxs-lookup"><span data-stu-id="67bd6-133">None</span></span>     | <span data-ttu-id="67bd6-134">Yes</span><span class="sxs-lookup"><span data-stu-id="67bd6-134">Yes</span></span>          |
+| <span data-ttu-id="67bd6-135">10gbase-t\#</span><span class="sxs-lookup"><span data-stu-id="67bd6-135">t\#</span></span>           |      | <span data-ttu-id="67bd6-136">128</span><span class="sxs-lookup"><span data-stu-id="67bd6-136">128</span></span>                | <span data-ttu-id="67bd6-137">R</span><span class="sxs-lookup"><span data-stu-id="67bd6-137">R</span></span>   | <span data-ttu-id="67bd6-138">1</span><span class="sxs-lookup"><span data-stu-id="67bd6-138">1</span></span>         | <span data-ttu-id="67bd6-139">否</span><span class="sxs-lookup"><span data-stu-id="67bd6-139">No</span></span>               | <span data-ttu-id="67bd6-140">None</span><span class="sxs-lookup"><span data-stu-id="67bd6-140">None</span></span>     | <span data-ttu-id="67bd6-141">Yes</span><span class="sxs-lookup"><span data-stu-id="67bd6-141">Yes</span></span>          |
+| <span data-ttu-id="67bd6-142">s\#</span><span class="sxs-lookup"><span data-stu-id="67bd6-142">s\#</span></span>           |      | <span data-ttu-id="67bd6-143">16</span><span class="sxs-lookup"><span data-stu-id="67bd6-143">16</span></span>                 | <span data-ttu-id="67bd6-144">R</span><span class="sxs-lookup"><span data-stu-id="67bd6-144">R</span></span>   | <span data-ttu-id="67bd6-145">1</span><span class="sxs-lookup"><span data-stu-id="67bd6-145">1</span></span>         | <span data-ttu-id="67bd6-146">否</span><span class="sxs-lookup"><span data-stu-id="67bd6-146">No</span></span>               | <span data-ttu-id="67bd6-147">None</span><span class="sxs-lookup"><span data-stu-id="67bd6-147">None</span></span>     | <span data-ttu-id="67bd6-148">Yes</span><span class="sxs-lookup"><span data-stu-id="67bd6-148">Yes</span></span>          |
+| <span data-ttu-id="67bd6-149">cb \# \[ 索引\]</span><span class="sxs-lookup"><span data-stu-id="67bd6-149">cb\#\[index\]</span></span> |      | <span data-ttu-id="67bd6-150">15</span><span class="sxs-lookup"><span data-stu-id="67bd6-150">15</span></span>                 | <span data-ttu-id="67bd6-151">R</span><span class="sxs-lookup"><span data-stu-id="67bd6-151">R</span></span>   | <span data-ttu-id="67bd6-152">4</span><span class="sxs-lookup"><span data-stu-id="67bd6-152">4</span></span>         | <span data-ttu-id="67bd6-153">是 (內容) </span><span class="sxs-lookup"><span data-stu-id="67bd6-153">Yes(Contents)</span></span>    | <span data-ttu-id="67bd6-154">無</span><span class="sxs-lookup"><span data-stu-id="67bd6-154">None</span></span>     | <span data-ttu-id="67bd6-155">Yes</span><span class="sxs-lookup"><span data-stu-id="67bd6-155">Yes</span></span>          |
+| <span data-ttu-id="67bd6-156">icb \[ 索引\]</span><span class="sxs-lookup"><span data-stu-id="67bd6-156">icb\[index\]</span></span>  |      | <span data-ttu-id="67bd6-157">1</span><span class="sxs-lookup"><span data-stu-id="67bd6-157">1</span></span>                  | <span data-ttu-id="67bd6-158">R</span><span class="sxs-lookup"><span data-stu-id="67bd6-158">R</span></span>   | <span data-ttu-id="67bd6-159">4</span><span class="sxs-lookup"><span data-stu-id="67bd6-159">4</span></span>         | <span data-ttu-id="67bd6-160">是 (內容) </span><span class="sxs-lookup"><span data-stu-id="67bd6-160">Yes(Contents)</span></span>    | <span data-ttu-id="67bd6-161">無</span><span class="sxs-lookup"><span data-stu-id="67bd6-161">None</span></span>     | <span data-ttu-id="67bd6-162">Yes</span><span class="sxs-lookup"><span data-stu-id="67bd6-162">Yes</span></span>          |
+
+
+
+ 
+
+## <a name="output-registers"></a><span data-ttu-id="67bd6-163">輸出暫存器</span><span class="sxs-lookup"><span data-stu-id="67bd6-163">Output Registers</span></span>
+
+
+
+| <span data-ttu-id="67bd6-164">註冊</span><span class="sxs-lookup"><span data-stu-id="67bd6-164">Register</span></span> | <span data-ttu-id="67bd6-165">Name</span><span class="sxs-lookup"><span data-stu-id="67bd6-165">Name</span></span>             | <span data-ttu-id="67bd6-166">Count</span><span class="sxs-lookup"><span data-stu-id="67bd6-166">Count</span></span> | <span data-ttu-id="67bd6-167">R/W</span><span class="sxs-lookup"><span data-stu-id="67bd6-167">R/W</span></span> | <span data-ttu-id="67bd6-168">維度</span><span class="sxs-lookup"><span data-stu-id="67bd6-168">Dimension</span></span> | <span data-ttu-id="67bd6-169">R 可編制索引\#</span><span class="sxs-lookup"><span data-stu-id="67bd6-169">Indexable by r\#</span></span> | <span data-ttu-id="67bd6-170">Defaults</span><span class="sxs-lookup"><span data-stu-id="67bd6-170">Defaults</span></span> | <span data-ttu-id="67bd6-171">需要 DCL</span><span class="sxs-lookup"><span data-stu-id="67bd6-171">Requires DCL</span></span> |
+|----------|------------------|-------|-----|-----------|------------------|----------|--------------|
+| <span data-ttu-id="67bd6-172">NULL</span><span class="sxs-lookup"><span data-stu-id="67bd6-172">NULL</span></span>     | <span data-ttu-id="67bd6-173">捨棄結果</span><span class="sxs-lookup"><span data-stu-id="67bd6-173">Discard Result</span></span>   | <span data-ttu-id="67bd6-174">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-174">N/A</span></span>   | <span data-ttu-id="67bd6-175">W</span><span class="sxs-lookup"><span data-stu-id="67bd6-175">W</span></span>   | <span data-ttu-id="67bd6-176">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-176">N/A</span></span>       | <span data-ttu-id="67bd6-177">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-177">N/A</span></span>              | <span data-ttu-id="67bd6-178">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-178">N/A</span></span>      | <span data-ttu-id="67bd6-179">否</span><span class="sxs-lookup"><span data-stu-id="67bd6-179">No</span></span>           |
+| <span data-ttu-id="67bd6-180">輸出\#</span><span class="sxs-lookup"><span data-stu-id="67bd6-180">o\#</span></span>      | <span data-ttu-id="67bd6-181">輸出暫存器</span><span class="sxs-lookup"><span data-stu-id="67bd6-181">Output Register</span></span>  | <span data-ttu-id="67bd6-182">8</span><span class="sxs-lookup"><span data-stu-id="67bd6-182">8</span></span>     | <span data-ttu-id="67bd6-183">W</span><span class="sxs-lookup"><span data-stu-id="67bd6-183">W</span></span>   | <span data-ttu-id="67bd6-184">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-184">N/A</span></span>       | <span data-ttu-id="67bd6-185">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-185">N/A</span></span>              | <span data-ttu-id="67bd6-186">4</span><span class="sxs-lookup"><span data-stu-id="67bd6-186">4</span></span>        | <span data-ttu-id="67bd6-187">否</span><span class="sxs-lookup"><span data-stu-id="67bd6-187">No</span></span>           |
+| <span data-ttu-id="67bd6-188">oDepth</span><span class="sxs-lookup"><span data-stu-id="67bd6-188">oDepth</span></span>   | <span data-ttu-id="67bd6-189">輸出深度</span><span class="sxs-lookup"><span data-stu-id="67bd6-189">Output Depth</span></span>     | <span data-ttu-id="67bd6-190">1</span><span class="sxs-lookup"><span data-stu-id="67bd6-190">1</span></span>     | <span data-ttu-id="67bd6-191">W</span><span class="sxs-lookup"><span data-stu-id="67bd6-191">W</span></span>   | <span data-ttu-id="67bd6-192">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-192">N/A</span></span>       | <span data-ttu-id="67bd6-193">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-193">N/A</span></span>              | <span data-ttu-id="67bd6-194">1</span><span class="sxs-lookup"><span data-stu-id="67bd6-194">1</span></span>        | <span data-ttu-id="67bd6-195">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-195">N/A</span></span>          |
+| <span data-ttu-id="67bd6-196">oMask</span><span class="sxs-lookup"><span data-stu-id="67bd6-196">oMask</span></span>    | <span data-ttu-id="67bd6-197">輸出 MSAA 遮罩</span><span class="sxs-lookup"><span data-stu-id="67bd6-197">Output MSAA Mask</span></span> | <span data-ttu-id="67bd6-198">1</span><span class="sxs-lookup"><span data-stu-id="67bd6-198">1</span></span>     | <span data-ttu-id="67bd6-199">W</span><span class="sxs-lookup"><span data-stu-id="67bd6-199">W</span></span>   | <span data-ttu-id="67bd6-200">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-200">N/A</span></span>       | <span data-ttu-id="67bd6-201">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-201">N/A</span></span>              | <span data-ttu-id="67bd6-202">1</span><span class="sxs-lookup"><span data-stu-id="67bd6-202">1</span></span>        | <span data-ttu-id="67bd6-203">N/A</span><span class="sxs-lookup"><span data-stu-id="67bd6-203">N/A</span></span>          |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="67bd6-204">相關主題</span><span class="sxs-lookup"><span data-stu-id="67bd6-204">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="67bd6-205">著色器模型4</span><span class="sxs-lookup"><span data-stu-id="67bd6-205">Shader Model 4</span></span>](dx-graphics-hlsl-sm4.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
