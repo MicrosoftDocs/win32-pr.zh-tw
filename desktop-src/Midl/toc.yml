@@ -1,0 +1,720 @@
+- name: 'Microsoft 介面定義語言 (MIDL) '
+  href: midl-start-page.md
+  items:
+    - name: 關於本指南
+      href: about-this-guide-2.md
+    - name: 使用 MIDL 編譯器
+      href: using-the-midl-compiler-2.md
+      items:
+        - name: 叫用 MIDL 編譯器
+          href: invoking-the-midl-compiler.md
+        - name: 回應檔
+          href: response-files.md
+        - name: 使用 C/c + +-預處理器與 MIDL
+          href: using-c-c-preprocessor-with-midl.md
+          items:
+            - name: C-MIDL 的預處理器需求
+              href: c-preprocessor-requirements-for-midl.md
+            - name: '處理 IDL 檔案中的 #defines'
+              href: dealing-with-defines-in-idl-files-2.md
+            - name: 驗證預處理器選項
+              href: verifying-preprocessor-options.md
+            - name: 正在儲存預處理器輸出
+              href: saving-preprocessor-output.md
+        - name: C/c + +-編譯器考慮
+          href: c-c-compiler-considerations.md
+          items:
+            - name: C-編譯器封裝問題
+              href: c-compiler-packing-issues.md
+            - name: C-Proxy/Stub 的編譯器定義
+              href: c-compiler-definitions-for-proxy-stubs.md
+        - name: 使用 __midl 預先定義的常數
+          href: using-the---midl-predefined-constant.md
+        - name: MIDL 和 RPC
+          href: midl-and-rpc.md
+          items:
+            - name: 針對 RPC 介面產生的檔案
+              href: files-generated-for-an-rpc-interface.md
+              items:
+                - name: 用戶端存根
+                  href: the-client-stub.md
+                - name: 伺服器 Stub
+                  href: the-server-stub.md
+                - name: 標頭檔
+                  href: the-header-file.md
+            - name: 以特定32位或64位平臺為目標的存根
+              href: targeting-stubs-for-specific-32-bit-or-64-bit-platforms.md
+        - name: MIDL 和 COM
+          href: midl-and-com.md
+          items:
+            - name: 針對 COM 介面產生的檔案
+              href: files-generated-for-a-com-interface.md
+              items:
+                - name: 介面 Proxy 檔案
+                  href: the-interface-proxy-file.md
+                - name: 標頭檔
+                  href: the-header-files.md
+                - name: 介面 UUID 檔案
+                  href: the-interface-uuid-file.md
+                - name: 介面註冊檔案
+                  href: the-interface-registration-file.md
+            - name: 封送處理 OLE 資料類型
+              href: marshaling-ole-data-types.md
+        - name: MIDL 和 ODL
+          href: midl-and-odl.md
+          items:
+            - name: 使用 MIDL 產生類型程式庫
+              href: generating-a-type-library-with-midl-2.md
+            - name: 產生類型程式庫所需的其他檔案
+              href: additional-files-required-to-generate-a-type-library-2.md
+            - name: MIDL 與 Mktyplib.exe 之間的差異
+              href: differences-between-midl-and-mktyplib.md
+            - name: MIDL 中的 ODL 語言功能
+              href: odl-language-features-in-midl.md
+            - name: 從單一 IDL 檔案產生 Proxy DLL 和型別程式庫
+              href: generating-a-proxy-dll-and-a-type-library-from-a-single-idl-file-2.md
+        - name: MIDLRT.EXE 根據和 Windows 執行階段元件
+          href: midlrt-and-windows-runtime-components.md
+          items:
+            - name: MDMERGE 和中繼資料檔案
+              href: mdmerge-and-metadata-files.md
+              items:
+                - name: /i
+                  href: '-mdmerge-i.md'
+                - name: /metadata_dir
+                  href: '-mdmerge-metadata-dir.md'
+                - name: /n
+                  href: '-mdmerge-n.md'
+                - name: /o
+                  href: '-mdmerge-o.md'
+                - name: /partial
+                  href: '-mdmerge-partial.md'
+                - name: /v
+                  href: '-mdmerge-v.md'
+            - name: /enum_class
+              href: '-enum-class.md'
+            - name: /metadata_dir
+              href: '-metadata-dir.md'
+            - name: /nomidl
+              href: '-nomidl.md'
+            - name: /nomd
+              href: '-nomd.md'
+            - name: /ns_prefix
+              href: '-ns-prefix.md'
+            - name: /winmd
+              href: '-winmd.md'
+            - name: /winrt
+              href: '-winrt.md'
+    - name: 介面定義和型別程式庫
+      href: interface-definitions-and-type-libraries.md
+      items:
+        - name: 分散式物件中的介面
+          href: interfaces-in-distributed-objects.md
+        - name: COM、DCOM 和型別程式庫
+          href: com-dcom-and-type-libraries.md
+        - name: ' (IDL) 檔案的介面定義'
+          href: interface-definition-idl-file.md
+          items:
+            - name: 介面主體中的資料類型
+              href: data-types-in-the-interface-body.md
+              items:
+                - name: 型別定義、結構宣告和匯入
+                  href: type-definitions-construct-declarations-and-imports.md
+        - name: IDL 屬性
+          href: idl-attributes.md
+          items:
+            - name: 別名和封送處理屬性
+              href: aliasing-and-marshaling-attributes.md
+            - name: 非同步屬性
+              href: asynchronous-attributes.md
+            - name: 陣列和 Sized-Pointer 屬性
+              href: array-and-sized-pointer-attributes.md
+            - name: 資料類型屬性
+              href: data-type-attributes.md
+            - name: 方向屬性
+              href: directional-attributes.md
+            - name: 函式呼叫屬性
+              href: function-call-attributes.md
+            - name: 介面標頭屬性
+              href: interface-header-attributes.md
+            - name: 效能屬性
+              href: performance-attributes.md
+            - name: 指標類型屬性
+              href: pointer-type-attributes.md
+            - name: Structure 和 Union 屬性
+              href: structure-and-union-attributes.md
+            - name: 類型程式庫屬性
+              href: type-library-attributes.md
+        - name: '應用程式佈建檔 (ACF) '
+          href: application-configuration-file-acf-.md
+        - name: ACF 屬性
+          href: acf-attributes.md
+          items:
+            - name: 系結 ACF 屬性
+              href: binding-acf-attributes.md
+            - name: 存根優化 ACF 屬性
+              href: stub-optimization-acf-attributes.md
+            - name: Type-Conversion 和封送處理 ACF 屬性
+              href: type-conversion-and-marshaling-acf-attributes.md
+            - name: 記憶體管理 ACF 屬性
+              href: memory-management-acf-attributes.md
+            - name: 錯誤和例外狀況處理 ACF 屬性
+              href: error-and-exception-handling-acf-attributes.md
+            - name: 在 IDL 檔案中使用 ACF 屬性
+              href: using-acf-attributes-in-an-idl-file.md
+        - name: MIDL 資料類型
+          href: midl-data-types.md
+          items:
+            - name: MIDL 基底類型
+              href: midl-base-types.md
+              items:
+                - name: MIDL 預先定義和基底類型
+                  href: midl-predefined-and-base-types.md
+                - name: 帶正負號和不帶正負號類型
+                  href: signed-vs--unsigned-types.md
+                - name: 其他 MIDL 資料類型
+                  href: other-midl-data-types.md
+            - name: MIDL 陣列
+              href: midl-arrays.md
+            - name: MIDL 類型定義
+              href: midl-type-definitions.md
+            - name: MIDL 列舉類型
+              href: midl-enumerated-types.md
+            - name: MIDL 結構
+              href: midl-structures.md
+            - name: MIDL 等位
+              href: midl-unions.md
+              items:
+                - name: 封裝聯集
+                  href: encapsulated-unions.md
+                - name: Nonencapsulated 聯集
+                  href: nonencapsulated-unions.md
+            - name: MIDL 系結控制碼
+              href: midl-binding-handles.md
+        - name: 匯入檔案和型別程式庫
+          href: importing-files-and-type-libraries.md
+        - name: 匯入系統標頭檔
+          href: importing-system-header-files.md
+    - name: MIDL Command-Line 參考
+      href: midl-command-line-reference.md
+      items:
+        - name: 一般 MIDL 命令列語法
+          href: general-midl-command-line-syntax.md
+        - name: 回應檔命令
+          href: the-response-file-command.md
+        - name: /acf
+          href: '-acf.md'
+        - name: /align
+          href: '-align.md'
+        - name: /amd64
+          href: '-amd64.md'
+        - name: /app_config
+          href: '-app-config.md'
+        - name: /backward_compat
+          href: '-backward-compat.md'
+        - name: /c_ext
+          href: '-c-ext.md'
+        - name: /caux
+          href: '-caux.md'
+        - name: /char
+          href: '-char.md'
+        - name: /client
+          href: '-client.md'
+        - name: /confirm
+          href: '-confirm.md'
+        - name: /cpp_cmd
+          href: '-cpp-cmd.md'
+        - name: /cpp_opt
+          href: '-cpp-opt.md'
+        - name: /cstruct_out
+          href: '-cstruct-out.md'
+        - name: /cstub
+          href: '-cstub.md'
+        - name: /D
+          href: '-d.md'
+        - name: /dlldata
+          href: '-dlldata.md'
+        - name: /env
+          href: '-env.md'
+        - name: /error
+          href: '-error.md'
+        - name: /h
+          href: '-h.md'
+        - name: /header
+          href: '-header.md'
+        - name: '/help (/？ ) '
+          href: '-help-.md'
+        - name: /I
+          href: '-i.md'
+        - name: /ia64
+          href: '-ia64.md'
+        - name: /iid
+          href: '-iid.md'
+        - name: /import
+          href: '-import.md'
+        - name: /lcid
+          href: '-lcid.md'
+        - name: /mktyplib203
+          href: '-mktyplib203.md'
+        - name: /ms_ext
+          href: '-ms-ext.md'
+        - name: /ms_union
+          href: '-ms-union.md'
+        - name: /msc_ver
+          href: '-msc-ver.md'
+        - name: /new
+          href: '-new.md'
+        - name: /newtlb
+          href: '-newtlb.md'
+        - name: /no_cpp、/nocpp
+          href: '-no-cpp-nocpp.md'
+        - name: /no_default_epv
+          href: '-no-default-epv.md'
+        - name: /no_def_idir
+          href: '-no-def-idir.md'
+        - name: /no_format_opt
+          href: '-no-format-opt.md'
+        - name: /no_robust
+          href: '-no-robust.md'
+        - name: /no_warn
+          href: '-no-warn.md'
+        - name: /nologo
+          href: '-nologo.md'
+        - name: /notlb
+          href: '-notlb.md'
+        - name: /o
+          href: '-o.md'
+        - name: /Oi
+          href: '-oi.md'
+        - name: /old
+          href: '-old.md'
+        - name: /oldtlb
+          href: '-oldtlb.md'
+        - name: /oldnames
+          href: '-oldnames.md'
+        - name: /Os
+          href: '-os.md'
+        - name: /osf
+          href: '-osf.md'
+        - name: /out
+          href: '-out.md'
+        - name: /pack
+          href: '-pack.md'
+        - name: /prefix
+          href: '-prefix.md'
+        - name: /protocol
+          href: '-protocol.md'
+        - name: /proxy
+          href: '-proxy.md'
+        - name: /robust
+          href: '-robust.md'
+        - name: /rpcss
+          href: '-rpcss.md'
+        - name: /sal
+          href: '-sal.md'
+        - name: /sal_local
+          href: '-sal-local.md'
+        - name: /saux
+          href: '-saux.md'
+        - name: /savePP
+          href: '-savepp.md'
+        - name: /server
+          href: '-server.md'
+        - name: /sstub
+          href: '-sstub.md'
+        - name: /syntax_check
+          href: '-syntax-check.md'
+        - name: /<system>
+          href: '-system-.md'
+        - name: /target
+          href: '-target.md'
+        - name: /tlb
+          href: '-tlb.md'
+        - name: /U
+          href: '-u.md'
+        - name: /use_epv
+          href: '-use-epv.md'
+        - name: /version_stamp
+          href: '-version-stamp.md'
+        - name: /W
+          href: '-w.md'
+        - name: /warn
+          href: '-warn.md'
+        - name: /win32
+          href: '-win32.md'
+        - name: /win64
+          href: '-win64.md'
+        - name: /WX
+          href: '-wx.md'
+        - name: /Zp
+          href: '-zp.md'
+        - name: /Zs
+          href: '-zs.md'
+    - name: MIDL 語言參考
+      href: midl-language-reference.md
+      items:
+        - name: 保留關鍵字
+          href: reserved-keywords.md
+        - name: 內容控制碼的混合模式序列化
+          href: mixed-mode-serialization-of-context-handles.md
+        - name: aggregatable
+          href: aggregatable.md
+        - name: allocate
+          href: allocate.md
+        - name: annotate
+          href: annotate.md
+        - name: appobject
+          href: appobject.md
+        - name: 陣列
+          href: arrays-1.md
+        - name: async
+          href: async.md
+        - name: async_uuid
+          href: async-uuid.md
+        - name: auto_handle
+          href: auto-handle.md
+        - name: bindable
+          href: bindable.md
+        - name: Boolean
+          href: boolean.md
+        - name: broadcast
+          href: broadcast.md
+        - name: byte
+          href: byte.md
+        - name: byte_count
+          href: byte-count.md
+        - name: call_as
+          href: call-as.md
+        - name: 回撥
+          href: callback.md
+        - name: char
+          href: char-idl.md
+        - name: coclass
+          href: coclass.md
+        - name: code
+          href: code.md
+        - name: comm_status
+          href: comm-status.md
+        - name: const
+          href: const.md
+        - name: coNtext_handle
+          href: context-handle.md
+        - name: coNtext_handle_noserialize
+          href: context-handle-noserialize.md
+        - name: coNtext_handle_serialize
+          href: context-handle-serialize.md
+        - name: 控制項
+          href: control.md
+        - name: cpp_quote
+          href: cpp-quote.md
+        - name: custom
+          href: custom.md
+        - name: declare_guid
+          href: declare-guid.md
+        - name: 解碼
+          href: decode.md
+        - name: default
+          href: default.md
+        - name: defaultbind
+          href: defaultbind.md
+        - name: defaultcollelem
+          href: defaultcollelem.md
+        - name: defaultvalue
+          href: defaultvalue.md
+        - name: defaultvtable
+          href: defaultvtable.md
+        - name: disable_consistency_check
+          href: disable-consistence-check.md
+        - name: dispinterface
+          href: dispinterface.md
+        - name: displaybind
+          href: displaybind.md
+        - name: 'dllname (str) '
+          href: dllname-str-.md
+        - name: double
+          href: double.md
+        - name: dual
+          href: dual.md
+        - name: enable_allocate
+          href: enable-allocate.md
+        - name: 編碼
+          href: encode.md
+        - name: 端點
+          href: endpoint.md
+        - name: entry
+          href: entry.md
+        - name: 列舉
+          href: enum.md
+        - name: error_status_t
+          href: error-status-t.md
+        - name: explicit_handle
+          href: explicit-handle.md
+        - name: fault_status
+          href: fault-status.md
+        - name: first_is
+          href: first-is.md
+        - name: FLOAT
+          href: float.md
+        - name: force_allocate
+          href: force-allocate.md
+        - name: 處理
+          href: handle.md
+        - name: handle_t
+          href: handle-t.md
+        - name: helpcontext
+          href: helpcontext.md
+        - name: helpfile
+          href: helpfile.md
+        - name: helpstring
+          href: helpstring.md
+        - name: helpstringcontext
+          href: helpstringcontext.md
+        - name: helpstringdll
+          href: helpstringdll.md
+        - name: 隱藏
+          href: hidden.md
+        - name: 超
+          href: hyper.md
+        - name: id
+          href: id.md
+        - name: idempotent
+          href: idempotent.md
+        - name: ignore
+          href: ignore.md
+        - name: iid_is
+          href: iid-is.md
+        - name: immediatebind
+          href: immediatebind.md
+        - name: implicit_handle
+          href: implicit-handle.md
+        - name: import
+          href: import.md
+        - name: importlib
+          href: importlib.md
+        - name: in
+          href: in.md
+        - name: include
+          href: include.md
+        - name: in_line
+          href: in-line.md
+        - name: int
+          href: int.md
+        - name: __int3264
+          href: '--int3264.md'
+        - name: __int64
+          href: '--int64.md'
+        - name: 介面
+          href: interface.md
+        - name: last_is
+          href: last-is.md
+        - name: lcid
+          href: lcid.md
+        - name: length_is
+          href: length-is.md
+        - name: 圖書館
+          href: library.md
+        - name: licensed
+          href: licensed.md
+        - name: 本機
+          href: local.md
+        - name: long
+          href: long.md
+        - name: max_is
+          href: max-is.md
+        - name: 也許
+          href: maybe.md
+        - name: message
+          href: message.md
+        - name: midl_pragma 警告
+          href: midl-pragma-warning.md
+        - name: midl_user_allocate
+          href: midl-user-allocate-1.md
+        - name: midl_user_free
+          href: midl-user-free-1.md
+        - name: min_is
+          href: min-is.md
+        - name: name
+          href: module.md
+        - name: ms_union
+          href: ms-union-attrib.md
+        - name: ncacn_at_dsp
+          href: ncacn-at-dsp.md
+        - name: ncacn_dnet_nsp
+          href: ncacn-dnet-nsp.md
+        - name: ncacn_HTTP
+          href: ncacn-http.md
+        - name: ncacn_ip_tcp
+          href: ncacn-ip-tcp.md
+        - name: ncacn_nb_ipx
+          href: ncacn-nb-ipx.md
+        - name: ncacn_nb_nb
+          href: ncacn-nb-nb.md
+        - name: ncacn_nb_tcp
+          href: ncacn-nb-tcp.md
+        - name: ncacn_np
+          href: ncacn-np.md
+        - name: ncacn_spx
+          href: ncacn-spx.md
+        - name: ncacn_vns_spp
+          href: ncacn-vns-spp.md
+        - name: ncadg_ip_udp
+          href: ncadg-ip-udp.md
+        - name: ncadg_ipx
+          href: ncadg-ipx.md
+        - name: ncadg_mq
+          href: ncadg-mq.md
+        - name: ncalrpc
+          href: ncalrpc.md
+        - name: 了 nocode
+          href: nocode.md
+        - name: nonbrowsable
+          href: nonbrowsable.md
+        - name: noncreatable
+          href: noncreatable.md
+        - name: nonextensible
+          href: nonextensible.md
+        - name: 通知
+          href: notify.md
+        - name: notify_flag
+          href: notify-flag.md
+        - name: 物件 (object)
+          href: object.md
+        - name: odl
+          href: odl.md
+        - name: oleautomation
+          href: oleautomation.md
+        - name: optimize
+          href: optimize.md
+        - name: 選擇性
+          href: optional.md
+        - name: out
+          href: out-idl.md
+        - name: out_of_line
+          href: out-of-line.md
+        - name: partial_ignore
+          href: partial-ignore.md
+        - name: 管道
+          href: pipe.md
+        - name: pointer_default
+          href: pointer-default.md
+        - name: pragma
+          href: pragma.md
+        - name: propget
+          href: propget.md
+        - name: propput
+          href: propput.md
+        - name: propputref
+          href: propputref.md
+        - name: proxy
+          href: proxy.md
+        - name: ptr
+          href: ptr.md
+        - name: public
+          href: public.md
+        - name: range
+          href: range.md
+        - name: readonly
+          href: readonly.md
+        - name: ref
+          href: ref.md
+        - name: represent_as
+          href: represent-as.md
+        - name: requestedit
+          href: requestedit.md
+        - name: restricted
+          href: restricted.md
+        - name: retval
+          href: retval.md
+        - name: sh_composition
+          href: sh-composition.md
+        - name: sh_event
+          href: sh-event.md
+        - name: sh_file
+          href: sh-file.md
+        - name: sh_job
+          href: sh-job.md
+        - name: sh_mutex
+          href: sh-mutex.md
+        - name: sh_pipe
+          href: sh-pipe.md
+        - name: sh_process
+          href: sh-process.md
+        - name: sh_reg_key
+          href: sh-reg-key.md
+        - name: sh_section
+          href: sh-section.md
+        - name: sh_semaphore
+          href: sh-semaphore.md
+        - name: sh_socket
+          href: sh-socket.md
+        - name: sh_thread
+          href: sh-thread.md
+        - name: sh_token
+          href: sh-token.md
+        - name: shape
+          href: shape.md
+        - name: short
+          href: short.md
+        - name: signed
+          href: signed.md
+        - name: size_is
+          href: size-is.md
+        - name: 小型
+          href: small.md
+        - name: source
+          href: source.md
+        - name: strict_coNtext_handle
+          href: strict-context-handle.md
+        - name: 字串
+          href: string.md
+        - name: struct
+          href: struct.md
+        - name: switch
+          href: switch.md
+        - name: switch_is
+          href: switch-is.md
+        - name: switch_type
+          href: switch-type.md
+        - name: system_handle
+          href: system-handle.md
+        - name: transmit_as
+          href: transmit-as.md
+        - name: typedef
+          href: typedef.md
+        - name: type_strict_coNtext_handle
+          href: type-strict-context-handle.md
+        - name: union
+          href: union.md
+        - name: uidefault
+          href: uidefault.md
+        - name: unique
+          href: unique.md
+        - name: unsigned
+          href: unsigned.md
+        - name: user_marshal
+          href: user-marshal.md
+        - name: usesgetlasterror
+          href: usesgetlasterror.md
+        - name: uuid
+          href: uuid.md
+        - name: v1_enum
+          href: v1-enum.md
+        - name: vararg
+          href: vararg.md
+        - name: version
+          href: version.md
+        - name: void
+          href: void.md
+        - name: wchar_t
+          href: wchar-t.md
+        - name: wire_marshal
+          href: wire-marshal.md
+    - name: MIDL 編譯器錯誤和警告
+      href: midl-compiler-errors-and-warnings.md
+      items:
+        - name: 錯誤和警告訊息格式
+          href: error-and-warning-message-formats.md
+        - name: 預處理器錯誤
+          href: preprocessor-errors.md
+        - name: 編譯器錯誤
+          href: compiler-errors.md
