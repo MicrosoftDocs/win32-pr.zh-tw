@@ -1,0 +1,18 @@
+- name: 使用 DirectX 建立您的第一個 Windows 應用程式
+  href: building-your-first-directx-app.md
+  items:
+    - name: 使用 DirectX 進行開發的必要條件
+      href: pre-requisites-for-developing-a-tailored-c---with-directx-app.md
+    - name: 開始使用適用于 Windows 的 DirectX
+      href: getting-started-with-a-directx-game.md
+      items:
+        - name: 使用 DirectX 裝置資源
+          href: work-with-dxgi.md
+        - name: 瞭解 Direct3D 11 轉譯管線
+          href: understand-the-directx-11-2-graphics-pipeline.md
+        - name: 使用著色器和著色器資源
+          href: work-with-shaders-and-shader-resources.md
+        - name: DirectX framework 的完整程式碼
+          href: complete-code-sample-for-using-a-corewindow-with-directx.md
+    - name: 桌面 DirectX 應用程式的藍圖
+      href: roadmap-for-metro-style-apps-using-directx.md
