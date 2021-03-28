@@ -1,0 +1,2305 @@
+- name: 憑證註冊 API
+  href: certenroll-portal.md
+  items:
+    - name: 關於憑證註冊 API
+      href: about-the-certificate-enrollment-api.md
+      items:
+        - name: 公開金鑰基礎結構
+          href: public-key-infrastructure.md
+          items:
+            - name: X.509 公開金鑰憑證
+              href: about-x-509-public-key-certificates.md
+              items:
+                - name: 基本欄位
+                  href: about-basic-fields.md
+                - name: 第2版欄位
+                  href: about-version-2-fields.md
+                - name: 第3版擴充功能
+                  href: about-version-3-extensions.md
+            - name: PKI 元素
+              href: about-pki-components.md
+              items:
+                - name: 憑證授權單位
+                  href: about-certification-authorities.md
+                - name: 憑證目錄
+                  href: about-certificate-directory.md
+                - name: 金鑰修復伺服器
+                  href: about-key-recovery-server.md
+            - name: 信任模型
+              href: about-trust-models.md
+              items:
+                - name: 憑證階層
+                  href: about-certificate-hierarchy.md
+                - name: 交叉認證
+                  href: about-cross-certification.md
+                - name: 憑證鏈結
+                  href: about-certificate-chain.md
+        - name: 憑證要求編碼
+          href: about-certificate-request-encoding.md
+          items:
+            - name: ASN. 1 語法和編碼簡介
+              href: about-introduction-to-asn-1-syntax-and-encoding.md
+            - name: ASN. 1 類型系統
+              href: about-asn-1-type-system.md
+              items:
+                - name: 基本類型
+                  href: about-basic-types.md
+                - name: 字串類型
+                  href: about-string-types.md
+                - name: 結構化類型
+                  href: about-constructed-types.md
+            - name: 可辨別編碼規則
+              href: distinguished-encoding-rules.md
+              items:
+                - name: DER 傳送語法
+                  href: about-der-transfer-syntax.md
+                  items:
+                    - name: 編碼的標記位元組
+                      href: about-encoded-tag-bytes.md
+                    - name: 編碼的長度和值位元組
+                      href: about-encoded-length-and-value-bytes.md
+                - name: 以 DER 編碼的 ASN. 1 類型
+                  href: about-der-encoding-of-asn-1-types.md
+                  items:
+                    - name: 位字串
+                      href: about-bit-string.md
+                    - name: BOOLEAN
+                      href: about-boolean.md
+                    - name: INTEGER
+                      href: about-integer.md
+                    - name: 'NULL'
+                      href: about-null.md
+                    - name: 物件識別碼
+                      href: about-object-identifier.md
+                    - name: 八位字串
+                      href: about-octet-string.md
+                    - name: BMPString
+                      href: about-bmpstring.md
+                    - name: IA5String
+                      href: about-ia5string.md
+                    - name: PrintableString
+                      href: about-printablestring.md
+                    - name: UTF8String
+                      href: about-utf8string.md
+                    - name: SEQUENCE
+                      href: about-sequence.md
+                    - name: SET
+                      href: about-set.md
+        - name: 憑證要求
+          href: certificate-requests.md
+          items:
+            - name: Subject Names
+              href: subject-names.md
+              items:
+                - name: 建立主體名稱
+                  href: creating-a-subject-name.md
+                - name: 編碼主體名稱
+                  href: encoding-a-subject-name.md
+            - name: 屬性
+              href: attributes.md
+              items:
+                - name: 支援的屬性
+                  href: supported-attributes.md
+                - name: 屬性架構
+                  href: attribute-architecture.md
+                - name: 'PKCS #7 屬性'
+                  href: pkcs--7-attributes.md
+                - name: 'PKCS #10 屬性'
+                  href: pkcs--10-attributes.md
+                - name: CMC 屬性
+                  href: cmc-attributes.md
+            - name: 延伸模組
+              href: extensions.md
+              items:
+                - name: 支援的延伸模組
+                  href: supported-extensions.md
+                - name: 'PKCS #10 擴充功能'
+                  href: pkcs--10-extensions.md
+                - name: CMC 延伸模組
+                  href: cmc-extensions.md
+        - name: 範例要求
+          href: sample-requests.md
+          items:
+            - name: 'PKCS #10 要求'
+              href: pkcs--10-request.md
+              items:
+                - name: 'PKCS #10 編碼的 ASN. 1'
+                  href: pkcs--10-encoded-asn-1.md
+            - name: CMC 要求
+              href: cmc-request.md
+              items:
+                - name: CMC 編碼的 ASN. 1
+                  href: cmc-encoded-asn-1.md
+            - name: 'PKCS #7 續約要求'
+              href: pkcs--7--renewal-request.md
+              items:
+                - name: 'PKCS #7 更新編碼的 ASN. 1'
+                  href: pkcs--7-renewal-encoded-asn-1.md
+            - name: CMC 續約要求
+              href: cmc-renewal-request.md
+              items:
+                - name: CMC 更新編碼的 ASN. 1
+                  href: cmc--renewal-encoded-asn-1.md
+            - name: 金鑰產生要求
+              href: key-generation-request.md
+              items:
+                - name: 金鑰產生編碼的 ASN. 1
+                  href: key-generation-encoded-asn-1.md
+            - name: 'PKCS #7 EOBO 要求'
+              href: pkcs--7-eobo-request.md
+              items:
+                - name: 'PKCS #7 EOBO 編碼的 ASN. 1'
+                  href: pkcs--7-eobo-encoded-asn-1.md
+            - name: CMC EOBO 要求
+              href: cmc-eobo-request.md
+              items:
+                - name: CMC EOBO 編碼的 ASN. 1
+                  href: cmc-eobo-encoded-asn-1.md
+            - name: CMC 金鑰封存要求
+              href: cmc-key-archival-request.md
+              items:
+                - name: CMC 金鑰保存已編碼的 ASN. 1
+                  href: cmc-key-archival-encoded-asn-1.md
+    - name: 使用憑證註冊 API
+      href: using-the-certificate-enrollment-api.md
+      items:
+        - name: 將 Xenroll.dll 對應至 CertEnroll.dll
+          href: mapping-xenroll-dll-to-certenroll-dll.md
+          items:
+            - name: 憑證要求功能
+              href: certificate-request-functions.md
+            - name: 憑證回應功能
+              href: certificate-response-functions.md
+            - name: 屬性函式
+              href: attribute-functions.md
+            - name: 擴充功能
+              href: extension-functions.md
+            - name: 外部屬性函式
+              href: external-property-functions.md
+            - name: 私用和公開金鑰函數
+              href: private-and-public-key-functions.md
+            - name: 密碼編譯服務提供者函數
+              href: cryptographic-service-provider-functions.md
+            - name: 憑證存放區功能
+              href: certificate-store-functions.md
+            - name: 個人資訊交換功能
+              href: personal-information-exchange-functions.md
+            - name: 輔助函式
+              href: helper-functions.md
+        - name: 使用包含的範例
+          href: using-the-included-samples.md
+          items:
+            - name: createCNGCustomCMC
+              href: createcngcustomcmc.md
+            - name: enrollCommon
+              href: enrollcommon.md
+            - name: enrollCustomCMC
+              href: enrollcustomcmc.md
+            - name: enrollCustomPKCS10
+              href: enrollcustompkcs10.md
+            - name: enrollCustomPKCS10_2
+              href: enrollcustompkcs10-2.md
+            - name: enrollEOBOCMC
+              href: enrolleobocmc.md
+            - name: enrollFromPublicKey
+              href: enrollfrompublickey.md
+            - name: enrollKeyArchivalCMC
+              href: enrollkeyarchivalcmc.md
+            - name: enrollNestedCMC
+              href: enrollnestedcmc.md
+            - name: enrollPKCS7
+              href: enrollpkcs7.md
+            - name: enrollRenewalPKCS7
+              href: enrollrenewalpkcs7.md
+            - name: enrollSimpleMachineCert
+              href: enrollsimplemachinecert.md
+            - name: enrollSimpleUserCert
+              href: enrollsimpleusercert.md
+            - name: enrollWithIX509EnrollmentHelper
+              href: enrollwithix509enrollmenthelper.md
+            - name: installResponseFromPFX
+              href: installresponsefrompfx.md
+        - name: 瞭解密碼編譯提供者
+          href: understanding-cryptographic-providers.md
+          items:
+            - name: CryptoAPI 密碼編譯服務提供者
+              href: cryptoapi-cryptographic-service-providers.md
+            - name: CNG 密碼編譯演算法提供者
+              href: cng-cryptographic-algorithm-providers.md
+            - name: CNG 金鑰儲存提供者
+              href: cng-key-storage-providers.md
+            - name: 列舉已安裝的提供者
+              href: enumerating-installed-providers.md
+    - name: 憑證註冊 API 參考
+      href: certificate-enrollment-api-reference.md
+      items:
+        - name: CertEnroll 介面
+          href: certenroll-interfaces.md
+          items:
+            - name: 憑證要求介面
+              href: certificate-request-interfaces.md
+              items:
+                - name: IX509CertificateRequest
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequest
+                  items:
+                    - name: IX509CertificateRequest 方法
+                      href: ix509certificaterequest-methods.md
+                      items:
+                        - name: 編碼方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-encode
+                        - name: GetInnerRequest 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-getinnerrequest
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-initialize
+                        - name: ResetForEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-resetforencode
+                    - name: IX509CertificateRequest 屬性
+                      href: ix509certificaterequest-properties.md
+                      items:
+                        - name: AlternateSignatureAlgorithm 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_alternatesignaturealgorithm
+                        - name: ClientId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_clientid
+                        - name: CspInformations 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_cspinformations
+                        - name: EnrollmentCoNtext 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_enrollmentcontext
+                        - name: HashAlgorithm 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_hashalgorithm
+                        - name: ParentWindow 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_parentwindow
+                        - name: RawData 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_rawdata
+                        - name: RenewalCertificate 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_renewalcertificate
+                        - name: 無訊息屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_silent
+                        - name: SuppressDefaults 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_suppressdefaults
+                        - name: Type 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_type
+                        - name: UICoNtextMessage 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_uicontextmessage
+                - name: IX509CertificateRequestCertificate
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestcertificate
+                  items:
+                    - name: IX509CertificateRequestCertificate 方法
+                      href: ix509certificaterequestcertificate-methods.md
+                      items:
+                        - name: CheckPublicKeySignature 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-checkpublickeysignature
+                    - name: IX509CertificateRequestCertificate 屬性
+                      href: ix509certificaterequestcertificate-properties.md
+                      items:
+                        - name: 簽發者屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_issuer
+                        - name: NotAfter 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_notafter
+                        - name: NotBefore 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_notbefore
+                        - name: SerialNumber 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_serialnumber
+                        - name: SignerCertificate 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_signercertificate
+                - name: IX509CertificateRequestCertificate2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestcertificate2
+                  items:
+                    - name: IX509CertificateRequestCertificate2 方法
+                      href: ix509certificaterequestcertificate2-methods.md
+                      items:
+                        - name: InitializeFromPrivateKeyTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcertificate2-initializefromprivatekeytemplate
+                        - name: InitializeFromTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcertificate2-initializefromtemplate
+                    - name: IX509CertificateRequestCertificate2 屬性
+                      href: ix509certificaterequestcertificate2-properties.md
+                      items:
+                        - name: PolicyServer 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcertificate2-get_policyserver
+                        - name: 範本屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcertificate2-get_template
+                - name: IX509CertificateRequestCmc
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestcmc
+                  items:
+                    - name: IX509CertificateRequestCmc 方法
+                      href: ix509certificaterequestcmc-methods.md
+                      items:
+                        - name: InitializeFromInnerRequestTemplateName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-initializefrominnerrequesttemplatename
+                    - name: IX509CertificateRequestCmc 屬性
+                      href: ix509certificaterequestcmc-properties.md
+                      items:
+                        - name: ArchivePrivateKey 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_archiveprivatekey
+                        - name: CriticalExtensions 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_criticalextensions
+                        - name: CryptAttributes 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_cryptattributes
+                        - name: EncryptedKeyHash 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_encryptedkeyhash
+                        - name: EncryptionAlgorithm 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_encryptionalgorithm
+                        - name: EncryptionStrength 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_encryptionstrength
+                        - name: KeyArchivalCertificate 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_keyarchivalcertificate
+                        - name: NameValuePairs 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_namevaluepairs
+                        - name: NullSigned 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_nullsigned
+                        - name: SenderNonce 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_sendernonce
+                        - name: SignatureInformation 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_signatureinformation
+                        - name: SignerCertificates 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_signercertificates
+                        - name: SuppressOids 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_suppressoids
+                        - name: TemplateObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_templateobjectid
+                        - name: TransactionId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_transactionid
+                        - name: X509Extensions 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_x509extensions
+                - name: IX509CertificateRequestCmc2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestcmc2
+                  items:
+                    - name: IX509CertificateRequestCmc2 方法
+                      href: ix509certificaterequestcmc2-methods.md
+                      items:
+                        - name: CheckCertificateSignature 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-checkcertificatesignature
+                        - name: CheckSignature 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-checksignature
+                        - name: InitializeFromInnerRequestTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-initializefrominnerrequesttemplate
+                        - name: InitializeFromTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-initializefromtemplate
+                    - name: IX509CertificateRequestCmc2 屬性
+                      href: ix509certificaterequestcmc2-properties.md
+                      items:
+                        - name: PolicyServer 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-get_policyserver
+                        - name: 範本屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-get_template
+                - name: IX509CertificateRequestPkcs10
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10
+                  items:
+                    - name: IX509CertificateRequestPkcs10 方法
+                      href: ix509certificaterequestpkcs10-methods.md
+                      items:
+                        - name: CheckSignature 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-checksignature
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializedecode
+                        - name: InitializeFromCertificate 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromcertificate
+                        - name: InitializeFromPrivateKey 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromprivatekey
+                        - name: InitializeFromPublicKey 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializefrompublickey
+                        - name: InitializeFromTemplateName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromtemplatename
+                        - name: IsSmartCard 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-issmartcard
+                        - name: GetCspStatuses 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-getcspstatuses
+                    - name: IX509CertificateRequestPkcs10 屬性
+                      href: ix509certificaterequestpkcs10-properties.md
+                      items:
+                        - name: CriticalExtensions 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_criticalextensions
+                        - name: CryptAttributes 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_cryptattributes
+                        - name: CspStatuses 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_cspstatuses
+                        - name: KeyContainerNamePrefix 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_keycontainernameprefix
+                        - name: NullSigned 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_nullsigned
+                        - name: OldCertificate 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_oldcertificate
+                        - name: PrivateKey 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_privatekey
+                        - name: PublicKey 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_publickey
+                        - name: RawDataToBeSigned 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_rawdatatobesigned
+                        - name: ReuseKey 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_reusekey
+                        - name: Signature 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_signature
+                        - name: SignatureInformation 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_signatureinformation
+                        - name: SmimeCapabilities 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_smimecapabilities
+                        - name: Subject 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_subject
+                        - name: SuppressOids 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_suppressoids
+                        - name: TemplateObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_templateobjectid
+                        - name: X509Extensions 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_x509extensions
+                - name: IX509CertificateRequestPkcs10V2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestpkcs10v2
+                  items:
+                    - name: IX509CertificateRequestPkcs10V2 方法
+                      href: ix509certificaterequestpkcs10v2-methods.md
+                      items:
+                        - name: InitializeFromPrivateKeyTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-initializefromprivatekeytemplate
+                        - name: InitializeFromPublicKeyTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-initializefrompublickeytemplate
+                        - name: InitializeFromTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-initializefromtemplate
+                    - name: IX509CertificateRequestPkcs10V2 屬性
+                      href: ix509certificaterequestpkcs10v2-properties.md
+                      items:
+                        - name: PolicyServer 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-get_policyserver
+                        - name: 範本屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-get_template
+                - name: IX509CertificateRequestPkcs10V3
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestpkcs10v3
+                  items:
+                    - name: IX509CertificateRequestPkcs10V3 屬性
+                      href: ix509certificaterequestpkcs10v3-properties.md
+                      items:
+                        - name: AttestationEncryptionCertificate 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_attestationencryptioncertificate
+                        - name: AttestPrivateKey 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_attestprivatekey
+                        - name: ChallengePassword 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_challengepassword
+                        - name: EncryptionAlgorithm 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_encryptionalgorithm
+                        - name: EncryptionStrength 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_encryptionstrength
+                        - name: NameValuePairs 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_namevaluepairs
+                - name: IX509CertificateRequestPkcs7
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs7
+                  items:
+                    - name: IX509CertificateRequestPkcs7 方法
+                      href: ix509certificaterequestpkcs7-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializedecode
+                        - name: InitializeFromCertificate 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromcertificate
+                        - name: InitializeFromInnerRequest 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializefrominnerrequest
+                        - name: InitializeFromTemplateName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromtemplatename
+                    - name: IX509CertificateRequestPkcs7 屬性
+                      href: ix509certificaterequestpkcs7-properties.md
+                      items:
+                        - name: RequesterName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-get_requestername
+                        - name: SignerCertificate 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-get_signercertificate
+                - name: IX509CertificateRequestPkcs7V2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestpkcs7v2
+                  items:
+                    - name: IX509CertificateRequestPkcs7V2 方法
+                      href: ix509certificaterequestpkcs7v2-methods.md
+                      items:
+                        - name: CheckCertificateSignature 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs7v2-checkcertificatesignature
+                        - name: InitializeFromTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs7v2-initializefromtemplate
+                    - name: IX509CertificateRequestPkcs7V2 屬性
+                      href: ix509certificaterequestpkcs7v2-properties.md
+                      items:
+                        - name: PolicyServer 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs7v2-get_policyserver
+                        - name: 範本屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs7v2-get_template
+            - name: 憑證註冊介面
+              href: certificate-enrollment-interfaces.md
+              items:
+                - name: IX509Enrollment
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment
+                  items:
+                    - name: IX509Enrollment 方法
+                      href: ix509enrollment-methods.md
+                      items:
+                        - name: CreatePFX 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createpfx
+                        - name: CreateRequest 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createrequest
+                        - name: 註冊方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-initialize
+                        - name: '>initializefromrequest 方法'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-initializefromrequest
+                        - name: InitializeFromTemplateName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-initializefromtemplatename
+                        - name: InstallResponse 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse
+                    - name: IX509Enrollment 屬性
+                      href: ix509enrollment-properties.md
+                      items:
+                        - name: CAConfigString 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_caconfigstring
+                        - name: Certificate 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_certificate
+                        - name: CertificateDescription 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_certificatedescription
+                        - name: Enrollment.certificatefriendlyname 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_certificatefriendlyname
+                        - name: EnrollmentCoNtext 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_enrollmentcontext
+                        - name: NameValuePairs 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_namevaluepairs
+                        - name: ParentWindow 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_parentwindow
+                        - name: 要求屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_request
+                        - name: RequestId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_requestid
+                        - name: 回應屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_response
+                        - name: 無訊息屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_silent
+                        - name: Status 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_status
+                - name: IX509Enrollment2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509enrollment2
+                  items:
+                    - name: IX509Enrollment2 方法
+                      href: ix509enrollment2-methods.md
+                      items:
+                        - name: InitializeFromTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-initializefromtemplate
+                        - name: InstallResponse2 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-installresponse2
+                    - name: IX509Enrollment2 屬性
+                      href: ix509enrollment2-properties.md
+                      items:
+                        - name: PolicyServer 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-get_policyserver
+                        - name: RequestIdString 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-get_requestidstring
+                        - name: 範本屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-get_template
+                - name: IX509EnrollmentHelper
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509enrollmenthelper
+                  items:
+                    - name: IX509EnrollmentHelper 方法
+                      href: ix509enrollmenthelper-methods.md
+                      items:
+                        - name: AddEnrollmentServer 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmenthelper-addenrollmentserver
+                        - name: AddPolicyServer 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmenthelper-addpolicyserver
+                        - name: 註冊方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmenthelper-enroll
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmenthelper-initialize
+                - name: IX509EnrollmentStatus
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentstatus
+                  items:
+                    - name: IX509EnrollmentStatus 方法
+                      href: ix509enrollmentstatus-methods.md
+                      items:
+                        - name: AppendText 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-appendtext
+                    - name: IX509EnrollmentStatus 屬性
+                      href: ix509enrollmentstatus-properties.md
+                      items:
+                        - name: 顯示內容
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_display
+                        - name: Error 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_error
+                        - name: ErrorText 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_errortext
+                        - name: 選取的屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_selected
+                        - name: Status 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_status
+                        - name: Text 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_text
+                - name: IX509SCEPEnrollment
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509scepenrollment
+                  items:
+                    - name: IX509SCEPEnrollment 方法
+                      href: ix509scepenrollment-methods.md
+                      items:
+                        - name: CreateRequestMessage 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-createrequestmessage
+                        - name: CreateRetrieveCertificateMessage 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-createretrievecertificatemessage
+                        - name: CreateRetrievePendingMessage 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-createretrievependingmessage
+                        - name: DeleteRequest 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-deleterequest
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-initialize
+                        - name: InitializeForPending 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-initializeforpending
+                        - name: ProcessResponseMessage 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-processresponsemessage
+                    - name: IX509SCEPEnrollment 屬性
+                      href: ix509scepenrollment-properties.md
+                      items:
+                        - name: Certificate 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_certificate
+                        - name: Enrollment.certificatefriendlyname 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_certificatefriendlyname
+                        - name: FailInfo 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_failinfo
+                        - name: OldCertificate 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_oldcertificate
+                        - name: 要求屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_request
+                        - name: ServerCapabilities 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-put_servercapabilities
+                        - name: SignerCertificate 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_signercertificate
+                        - name: 無訊息屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-put_silent
+                        - name: Status 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_status
+                        - name: TransactionId 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_transactionid
+            - name: 憑證註冊 Factory 介面
+              href: certificate-enrollment-factory-interfaces.md
+              items:
+                - name: IX509EnrollmentWebClassFactory
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentwebclassfactory
+                  items:
+                    - name: IX509EnrollmentWebClassFactory 方法
+                      href: ix509enrollmentwebclassfactory-methods.md
+                      items:
+                        - name: CreateObject 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentwebclassfactory-createobject
+                - name: IX509MachineEnrollmentFactory
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509machineenrollmentfactory
+                  items:
+                    - name: IX509MachineEnrollmentFactory 方法
+                      href: ix509machineenrollmentfactory-methods.md
+                      items:
+                        - name: CreateObject 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509machineenrollmentfactory-createobject
+            - name: 憑證擴充介面
+              href: certificate-extension-interfaces.md
+              items:
+                - name: IAlternativeName
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ialternativename
+                  items:
+                    - name: IAlternativeName 方法
+                      href: ialternativename-methods.md
+                      items:
+                        - name: InitializeFromOtherName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-initializefromothername
+                        - name: InitializeFromRawData 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-initializefromrawdata
+                        - name: InitializeFromString 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-initializefromstring
+                    - name: IAlternativeName 屬性
+                      href: ialternativename-properties.md
+                      items:
+                        - name: ObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-get_objectid
+                        - name: RawData 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-get_rawdata
+                        - name: StrValue 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-get_strvalue
+                        - name: Type 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-get_type
+                - name: IAlternativeNames
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ialternativenames
+                  items:
+                    - name: IAlternativeNames 方法
+                      href: ialternativenames-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-remove
+                    - name: IAlternativeNames 屬性
+                      href: ialternativenames-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-get_itembyindex
+                - name: ICertificatePolicy
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertificatepolicy
+                  items:
+                    - name: ICertificatePolicy 方法
+                      href: icertificatepolicy-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicy-initialize
+                    - name: ICertificatePolicy 屬性
+                      href: icertificatepolicy-properties.md
+                      items:
+                        - name: ObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicy-get_objectid
+                        - name: PolicyQualifiers 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicy-get_policyqualifiers
+                - name: ICertificatePolicies
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertificatepolicies
+                  items:
+                    - name: ICertificatePolicies 方法
+                      href: icertificatepolicies-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-remove
+                    - name: ICertificatePolicies 屬性
+                      href: icertificatepolicies-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-get_itembyindex
+                - name: IPolicyQualifier
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier
+                  items:
+                    - name: IPolicyQualifier 方法
+                      href: ipolicyqualifier-methods.md
+                      items:
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-initializeencode
+                    - name: IPolicyQualifier 屬性
+                      href: ipolicyqualifier-properties.md
+                      items:
+                        - name: ObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_objectid
+                        - name: 限定詞屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_qualifier
+                        - name: RawData 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_rawdata
+                        - name: Type 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_type
+                - name: IPolicyQualifiers
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifiers
+                  items:
+                    - name: IPolicyQualifiers 方法
+                      href: ipolicyqualifiers-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-remove
+                    - name: IPolicyQualifiers 屬性
+                      href: ipolicyqualifiers-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-get_itembyindex
+                - name: IX509Extension
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extension
+                  items:
+                    - name: IX509Extension 方法
+                      href: ix509extension-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extension-initialize
+                    - name: IX509Extension 屬性
+                      href: ix509extension-properties.md
+                      items:
+                        - name: 重大屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extension-get_critical
+                        - name: ObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extension-get_objectid
+                        - name: RawData 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extension-get_rawdata
+                - name: IX509ExtensionAlternativeNames
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionalternativenames
+                  items:
+                    - name: IX509ExtensionAlternativeNames 方法
+                      href: ix509extensionalternativenames-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionalternativenames-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionalternativenames-initializeencode
+                    - name: IX509ExtensionAlternativeNames 屬性
+                      href: ix509extensionalternativenames-properties.md
+                      items:
+                        - name: AlternativeNames 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionalternativenames-get_alternativenames
+                - name: IX509ExtensionAuthorityKeyIdentifier
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionauthoritykeyidentifier
+                  items:
+                    - name: IX509ExtensionAuthorityKeyIdentifier 方法
+                      href: ix509extensionauthoritykeyidentifier-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionauthoritykeyidentifier-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionauthoritykeyidentifier-initializeencode
+                    - name: IX509ExtensionAuthorityKeyIdentifier 屬性
+                      href: ix509extensionauthoritykeyidentifier-properties.md
+                      items:
+                        - name: AuthorityKeyIdentifier 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionauthoritykeyidentifier-get_authoritykeyidentifier
+                - name: IX509ExtensionBasicConstraints
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionbasicconstraints
+                  items:
+                    - name: IX509ExtensionBasicConstraints 方法
+                      href: ix509extensionbasicconstraints-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-initializeencode
+                    - name: IX509ExtensionBasicConstraints 屬性
+                      href: ix509extensionbasicconstraints-properties.md
+                      items:
+                        - name: IsCA 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-get_isca
+                        - name: PathLenConstraint 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-get_pathlenconstraint
+                - name: IX509ExtensionCertificatePolicies
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensioncertificatepolicies
+                  items:
+                    - name: IX509ExtensionCertificatePolicies 方法
+                      href: ix509extensioncertificatepolicies-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensioncertificatepolicies-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensioncertificatepolicies-initializeencode
+                    - name: IX509ExtensionCertificatePolicies 屬性
+                      href: ix509extensioncertificatepolicies-properties.md
+                      items:
+                        - name: 原則屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensioncertificatepolicies-get_policies
+                - name: IX509ExtensionMSApplicationPolicies
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionmsapplicationpolicies
+                  items:
+                    - name: IX509ExtensionMSApplicationPolicies 方法
+                      href: ix509extensionmsapplicationpolicies-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionmsapplicationpolicies-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionmsapplicationpolicies-initializeencode
+                    - name: IX509ExtensionMSApplicationPolicies 屬性
+                      href: ix509extensionmsapplicationpolicies-properties.md
+                      items:
+                        - name: 原則屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionmsapplicationpolicies-get_policies
+                - name: IX509ExtensionEnhancedKeyUsage
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage
+                  items:
+                    - name: IX509ExtensionEnhancedKeyUsage 方法
+                      href: ix509extensionenhancedkeyusage-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionenhancedkeyusage-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionenhancedkeyusage-initializeencode
+                    - name: IX509ExtensionEnhancedKeyUsage 屬性
+                      href: ix509extensionenhancedkeyusage-properties.md
+                      items:
+                        - name: EnhancedKeyUsage 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionenhancedkeyusage-get_enhancedkeyusage
+                - name: IX509ExtensionKeyUsage
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionkeyusage
+                  items:
+                    - name: IX509ExtensionKeyUsage 方法
+                      href: ix509extensionkeyusage-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionkeyusage-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionkeyusage-initializeencode
+                    - name: IX509ExtensionKeyUsage 屬性
+                      href: ix509extensionkeyusage-properties.md
+                      items:
+                        - name: KeyUsage 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionkeyusage-get_keyusage
+                - name: IX509Extensions
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensions
+                  items:
+                    - name: IX509Extensions 方法
+                      href: ix509extensions-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-add
+                        - name: '>addrange 方法'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-addrange
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-remove
+                    - name: IX509Extensions 屬性
+                      href: ix509extensions-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-get_count
+                        - name: IndexByObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-get_indexbyobjectid
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-get_itembyindex
+                - name: IX509ExtensionSmimeCapabilities
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionsmimecapabilities
+                  items:
+                    - name: IX509ExtensionSmimeCapabilities 方法
+                      href: ix509extensionsmimecapabilities-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsmimecapabilities-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsmimecapabilities-initializeencode
+                    - name: IX509ExtensionSmimeCapabilities 屬性
+                      href: ix509extensionsmimecapabilities-properties.md
+                      items:
+                        - name: SmimeCapabilities 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsmimecapabilities-get_smimecapabilities
+                - name: IX509ExtensionSubjectKeyIdentifier
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionsubjectkeyidentifier
+                  items:
+                    - name: IX509ExtensionSubjectKeyIdentifier 方法
+                      href: ix509extensionsubjectkeyidentifier-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsubjectkeyidentifier-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsubjectkeyidentifier-initializeencode
+                    - name: IX509ExtensionSubjectKeyIdentifier 屬性
+                      href: ix509extensionsubjectkeyidentifier-properties.md
+                      items:
+                        - name: SubjectKeyIdentifier 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsubjectkeyidentifier-get_subjectkeyidentifier
+                - name: IX509ExtensionTemplate
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensiontemplate
+                  items:
+                    - name: IX509ExtensionTemplate 方法
+                      href: ix509extensiontemplate-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-initializeencode
+                    - name: IX509ExtensionTemplate 屬性
+                      href: ix509extensiontemplate-properties.md
+                      items:
+                        - name: MajorVersion 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-get_majorversion
+                        - name: MinorVersion 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-get_minorversion
+                        - name: TemplateOid 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-get_templateoid
+                - name: IX509ExtensionTemplateName
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensiontemplatename
+                  items:
+                    - name: IX509ExtensionTemplateName 方法
+                      href: ix509extensiontemplatename-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplatename-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplatename-initializeencode
+                    - name: IX509ExtensionTemplateName 屬性
+                      href: ix509extensiontemplatename-properties.md
+                      items:
+                        - name: TemplateName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplatename-get_templatename
+                - name: ISmimeCapabilities
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ismimecapabilities
+                  items:
+                    - name: ISmimeCapabilities 方法
+                      href: ismimecapabilities-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-add
+                        - name: AddAvailableSmimeCapabilities 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-addavailablesmimecapabilities
+                        - name: AddFromCsp 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-addfromcsp
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-remove
+                    - name: ISmimeCapabilities 屬性
+                      href: ismimecapabilities-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-get_itembyindex
+                - name: ISmimeCapability
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ismimecapability
+                  items:
+                    - name: ISmimeCapability 方法
+                      href: ismimecapability-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapability-initialize
+                    - name: ISmimeCapability 屬性
+                      href: ismimecapability-properties.md
+                      items:
+                        - name: BitCount 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapability-get_bitcount
+                        - name: ObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapability-get_objectid
+            - name: 憑證屬性介面
+              href: certificate-attribute-interfaces.md
+              items:
+                - name: ICryptAttribute
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icryptattribute
+                  items:
+                    - name: ICryptAttribute 方法
+                      href: icryptattribute-methods.md
+                      items:
+                        - name: InitializeFromObjectId 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-initializefromobjectid
+                        - name: InitializeFromValues 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-initializefromvalues
+                    - name: ICryptAttribute 屬性
+                      href: icryptattribute-properties.md
+                      items:
+                        - name: ObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-get_objectid
+                        - name: Values 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-get_values
+                - name: ICryptAttributes
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icryptattributes
+                  items:
+                    - name: ICryptAttributes 方法
+                      href: icryptattributes-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-add
+                        - name: '>addrange 方法'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-addrange
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-remove
+                    - name: ICryptAttributes 屬性
+                      href: icryptattributes-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-get_count
+                        - name: IndexByObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-get_indexbyobjectid
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-get_itembyindex
+                - name: IX509Attribute
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attribute
+                  items:
+                    - name: IX509Attribute 方法
+                      href: ix509attribute-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attribute-initialize
+                    - name: IX509Attribute 屬性
+                      href: ix509attribute-properties.md
+                      items:
+                        - name: ObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attribute-get_objectid
+                        - name: RawData 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attribute-get_rawdata
+                - name: IX509AttributeClientId
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid
+                  items:
+                    - name: IX509AttributeClientId 方法
+                      href: ix509attributeclientid-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-initializeencode
+                    - name: IX509AttributeClientId 屬性
+                      href: ix509attributeclientid-properties.md
+                      items:
+                        - name: ClientId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_clientid
+                        - name: MachineDnsName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_machinednsname
+                        - name: ProcessName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_processname
+                        - name: UserSamName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_usersamname
+                - name: IX509AttributeExtensions
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeextensions
+                  items:
+                    - name: IX509AttributeExtensions 方法
+                      href: ix509attributeextensions-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeextensions-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeextensions-initializeencode
+                    - name: IX509AttributeExtensions 屬性
+                      href: ix509attributeextensions-properties.md
+                      items:
+                        - name: X509Extensions 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeextensions-get_x509extensions
+                - name: IX509AttributeArchiveKey
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekey
+                  items:
+                    - name: IX509AttributeArchiveKey 方法
+                      href: ix509attributearchivekey-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-initializeencode
+                    - name: IX509AttributeArchiveKey 屬性
+                      href: ix509attributearchivekey-properties.md
+                      items:
+                        - name: EncryptionAlgorithm 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptionalgorithm
+                        - name: EncryptedKeyBlob 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptedkeyblob
+                        - name: EncryptionStrength 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptionstrength
+                - name: IX509AttributeArchiveKeyHash
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash
+                  items:
+                    - name: IX509AttributeArchiveKeyHash 方法
+                      href: ix509attributearchivekeyhash-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-initializedecode
+                        - name: InitializeEncodeFromEncryptedKeyBlob 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-initializeencodefromencryptedkeyblob
+                    - name: IX509AttributeArchiveKeyHash 屬性
+                      href: ix509attributearchivekeyhash-properties.md
+                      items:
+                        - name: EncryptedKeyHashBlob 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-get_encryptedkeyhashblob
+                - name: IX509AttributeCspProvider
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributecspprovider
+                  items:
+                    - name: IX509AttributeCspProvider 方法
+                      href: ix509attributecspprovider-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-initializeencode
+                    - name: IX509AttributeCspProvider 屬性
+                      href: ix509attributecspprovider-properties.md
+                      items:
+                        - name: KeySpec 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-get_keyspec
+                        - name: ProviderName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-get_providername
+                        - name: Signature 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-get_signature
+                - name: IX509AttributeOSVersion
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeosversion
+                  items:
+                    - name: IX509AttributeOSVersion 方法
+                      href: ix509attributeosversion-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeosversion-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeosversion-initializeencode
+                    - name: IX509AttributeOSVersion 屬性
+                      href: ix509attributeosversion-properties.md
+                      items:
+                        - name: OSVersion 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeosversion-get_osversion
+                - name: IX509AttributeRenewalCertificate
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributerenewalcertificate
+                  items:
+                    - name: IX509AttributeRenewalCertificate 方法
+                      href: ix509attributerenewalcertificate-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributerenewalcertificate-initializedecode
+                        - name: InitializeEncode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributerenewalcertificate-initializeencode
+                    - name: IX509AttributeRenewalCertificate 屬性
+                      href: ix509attributerenewalcertificate-properties.md
+                      items:
+                        - name: RenewalCertificate 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributerenewalcertificate-get_renewalcertificate
+                - name: IX509Attributes
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes
+                  items:
+                    - name: IX509Attributes 方法
+                      href: ix509attributes-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-remove
+                    - name: IX509Attributes 屬性
+                      href: ix509attributes-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get_itembyindex
+                - name: IX509NameValuePair
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509namevaluepair
+                  items:
+                    - name: IX509NameValuePair 方法
+                      href: ix509namevaluepair-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepair-initialize
+                    - name: IX509NameValuePair 屬性
+                      href: ix509namevaluepair-properties.md
+                      items:
+                        - name: Name 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepair-get_name
+                        - name: 值屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepair-get_value
+                - name: IX509NameValuePairs
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509namevaluepairs
+                  items:
+                    - name: IX509NameValuePairs 方法
+                      href: ix509namevaluepairs-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-remove
+                    - name: IX509NameValuePairs 屬性
+                      href: ix509namevaluepairs-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-get_itembyindex
+            - name: 憑證屬性介面
+              href: certificate-property-interfaces.md
+              items:
+                - name: ICertProperties
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertproperties
+                  items:
+                    - name: ICertProperties 方法
+                      href: icertproperties-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-clear
+                        - name: InitializeFromCertificate 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-initializefromcertificate
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-remove
+                    - name: ICertProperties 屬性
+                      href: icertproperties-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-get_itembyindex
+                - name: ICertProperty
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertproperty
+                  items:
+                    - name: ICertProperty 方法
+                      href: icertproperty-methods.md
+                      items:
+                        - name: InitializeDecode 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-initializedecode
+                        - name: InitializeFromCertificate 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-initializefromcertificate
+                        - name: RemoveFromCertificate 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-removefromcertificate
+                        - name: SetValueOnCertificate 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-setvalueoncertificate
+                    - name: ICertProperty 屬性
+                      href: icertproperty-properties.md
+                      items:
+                        - name: PropertyId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-get_propertyid
+                        - name: RawData 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-get_rawdata
+                - name: ICertPropertyArchived
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyarchived
+                  items:
+                    - name: ICertPropertyArchived 方法
+                      href: icertpropertyarchived-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyarchived-initialize
+                    - name: ICertPropertyArchived 屬性
+                      href: icertpropertyarchived-properties.md
+                      items:
+                        - name: 封存的屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyarchived-get_archived
+                - name: ICertPropertyArchivedKeyHash
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyarchivedkeyhash
+                  items:
+                    - name: ICertPropertyArchivedKeyHash 方法
+                      href: icertpropertyarchivedkeyhash-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyarchivedkeyhash-initialize
+                    - name: ICertPropertyArchivedKeyHash 屬性
+                      href: icertpropertyarchivedkeyhash-properties.md
+                      items:
+                        - name: ArchivedKeyHash 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyarchivedkeyhash-get_archivedkeyhash
+                - name: ICertPropertyAutoEnroll
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyautoenroll
+                  items:
+                    - name: ICertPropertyAutoEnroll 方法
+                      href: icertpropertyautoenroll-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyautoenroll-initialize
+                    - name: ICertPropertyAutoEnroll 屬性
+                      href: icertpropertyautoenroll-properties.md
+                      items:
+                        - name: TemplateName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyautoenroll-get_templatename
+                - name: ICertPropertyBackedUp
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertybackedup
+                  items:
+                    - name: ICertPropertyBackedUp 方法
+                      href: icertpropertybackedup-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-initialize
+                        - name: InitializeFromCurrentTime 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-initializefromcurrenttime
+                    - name: ICertPropertyBackedUp 屬性
+                      href: icertpropertybackedup-properties.md
+                      items:
+                        - name: BackedUpValue 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-get_backedupvalue
+                        - name: BackedUpTime 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-get_backeduptime
+                - name: ICertPropertyDescription
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertydescription
+                  items:
+                    - name: ICertPropertyDescription 方法
+                      href: icertpropertydescription-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertydescription-initialize
+                    - name: ICertPropertyDescription 屬性
+                      href: icertpropertydescription-properties.md
+                      items:
+                        - name: Description 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertydescription-get_description
+                - name: ICertPropertyEnrollment
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment
+                  items:
+                    - name: ICertPropertyEnrollment 方法
+                      href: icertpropertyenrollment-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-initialize
+                    - name: ICertPropertyEnrollment 屬性
+                      href: icertpropertyenrollment-properties.md
+                      items:
+                        - name: CADnsName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_cadnsname
+                        - name: CAName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_caname
+                        - name: FriendlyName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_friendlyname
+                        - name: RequestId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_requestid
+                - name: ICertPropertyEnrollmentPolicyServer
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver
+                  items:
+                    - name: ICertPropertyEnrollmentPolicyServer 方法
+                      href: icertpropertyenrollmentpolicyserver-methods.md
+                      items:
+                        - name: GetAuthentication 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getauthentication
+                        - name: GetEnrollmentServerAuthentication 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverauthentication
+                        - name: GetEnrollmentServerUrl 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverurl
+                        - name: GetPolicyServerId 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverid
+                        - name: GetPolicyServerUrl 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl
+                        - name: GetPropertyFlags 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpropertyflags
+                        - name: GetRequestIdString 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getrequestidstring
+                        - name: GetUrlFlags 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-geturlflags
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize
+                - name: ICertPropertyFriendlyName
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyfriendlyname
+                  items:
+                    - name: ICertPropertyFriendlyName 方法
+                      href: icertpropertyfriendlyname-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyfriendlyname-initialize
+                    - name: ICertPropertyFriendlyName 屬性
+                      href: icertpropertyfriendlyname-properties.md
+                      items:
+                        - name: FriendlyName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyfriendlyname-get_friendlyname
+                - name: ICertPropertyKeyProvInfo
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertykeyprovinfo
+                  items:
+                    - name: ICertPropertyKeyProvInfo 方法
+                      href: icertpropertykeyprovinfo-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertykeyprovinfo-initialize
+                    - name: ICertPropertyKeyProvInfo 屬性
+                      href: icertpropertykeyprovinfo-properties.md
+                      items:
+                        - name: PrivateKey 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertykeyprovinfo-get_privatekey
+                - name: ICertPropertyRenewal
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyrenewal
+                  items:
+                    - name: ICertPropertyRenewal 方法
+                      href: icertpropertyrenewal-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-initialize
+                        - name: InitializeFromCertificateHash 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-initializefromcertificatehash
+                    - name: ICertPropertyRenewal 屬性
+                      href: icertpropertyrenewal-properties.md
+                      items:
+                        - name: 續約屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-get_renewal
+                - name: ICertPropertyRequestOriginator
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyrequestoriginator
+                  items:
+                    - name: ICertPropertyRequestOriginator 方法
+                      href: icertpropertyrequestoriginator-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrequestoriginator-initialize
+                        - name: InitializeFromLocalRequestOriginator 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrequestoriginator-initializefromlocalrequestoriginator
+                    - name: ICertPropertyRequestOriginator 屬性
+                      href: icertpropertyrequestoriginator-properties.md
+                      items:
+                        - name: RequestOriginator 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrequestoriginator-get_requestoriginator
+                - name: ICertPropertySHA1Hash
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertysha1hash
+                  items:
+                    - name: ICertPropertySHA1Hash 方法
+                      href: icertpropertysha1hash-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertysha1hash-initialize
+                    - name: ICertPropertySHA1Hash 屬性
+                      href: icertpropertysha1hash-properties.md
+                      items:
+                        - name: SHA1Hash 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertysha1hash-get_sha1hash
+            - name: 憑證範本介面
+              href: certificate-template-interfaces.md
+              items:
+                - name: IX509CertificateTemplate
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplate
+                  items:
+                    - name: IX509CertificateTemplate 屬性
+                      href: ix509certificatetemplate-properties.md
+                      items:
+                        - name: Property 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplate-get_property
+                - name: IX509CertificateTemplates
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplates
+                  items:
+                    - name: IX509CertificateTemplates 方法
+                      href: ix509certificatetemplates-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-remove
+                    - name: IX509CertificateTemplates 屬性
+                      href: ix509certificatetemplates-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get_count
+                        - name: ItemByName 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get_itembyname
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get_itembyindex
+                        - name: ItemByOid 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get_itembyoid
+                - name: IX509CertificateTemplateWritable
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplatewritable
+                  items:
+                    - name: IX509CertificateTemplateWritable 方法
+                      href: ix509certificatetemplatewritable-methods.md
+                      items:
+                        - name: Commit 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplatewritable-commit
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplatewritable-initialize
+                    - name: IX509CertificateTemplateWritable 屬性
+                      href: ix509certificatetemplatewritable-properties.md
+                      items:
+                        - name: Property 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplatewritable-get_property
+                        - name: 範本屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplatewritable-get_template
+            - name: 憑證原則伺服器介面
+              href: certificate-policy-server-interfaces.md
+              items:
+                - name: IX509EnrollmentPolicyServer
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509enrollmentpolicyserver
+                  items:
+                    - name: IX509EnrollmentPolicyServer 方法
+                      href: ix509enrollmentpolicyserver-methods.md
+                      items:
+                        - name: Export 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-export
+                        - name: GetAllowUnTrustedCA 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getallowuntrustedca
+                        - name: GetAuthFlags 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getauthflags
+                        - name: GetCacheDir 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcachedir
+                        - name: GetCachePath 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcachepath
+                        - name: GetCAs 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas
+                        - name: GetCAsForTemplate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcasfortemplate
+                        - name: GetCustomOids 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcustomoids
+                        - name: GetFriendlyName 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getfriendlyname
+                        - name: GetIsDefaultCEP 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getisdefaultcep
+                        - name: GetLastUpdateTime 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getlastupdatetime
+                        - name: GetNextUpdateTime 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getnextupdatetime
+                        - name: GetPolicyServerId 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getpolicyserverid
+                        - name: GetPolicyServerUrl 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getpolicyserverurl
+                        - name: Templatedescriptor.gettemplates 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-gettemplates
+                        - name: GetUseClientId 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getuseclientid
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-initialize
+                        - name: InitializeImport 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-initializeimport
+                        - name: LoadPolicy 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy
+                        - name: QueryChanges 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-querychanges
+                        - name: SetCredential 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-setcredential
+                        - name: Validate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-validate
+                    - name: IX509EnrollmentPolicyServer 屬性
+                      href: ix509enrollmentpolicyserver-properties.md
+                      items:
+                        - name: Cost 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-get_cost
+                - name: IX509PolicyServerListManager
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509policyserverlistmanager
+                  items:
+                    - name: IX509PolicyServerListManager 方法
+                      href: ix509policyserverlistmanager-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-clear
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-initialize
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-remove
+                    - name: IX509PolicyServerListManager 屬性
+                      href: ix509policyserverlistmanager-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-get_itembyindex
+                - name: IX509PolicyServerUrl
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509policyserverurl
+                  items:
+                    - name: IX509PolicyServerUrl 方法
+                      href: ix509policyserverurl-methods.md
+                      items:
+                        - name: GetStringProperty 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-getstringproperty
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-initialize
+                        - name: RemoveFromRegistry 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-removefromregistry
+                        - name: SetStringProperty 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-setstringproperty
+                        - name: UpdateRegistry 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-updateregistry
+                    - name: IX509PolicyServerUrl 屬性
+                      href: ix509policyserverurl-properties.md
+                      items:
+                        - name: AuthFlags 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_authflags
+                        - name: Cost 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_cost
+                        - name: 預設屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_default
+                        - name: Flags 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_flags
+                        - name: Url 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_url
+            - name: 憑證簽章和金鑰介面
+              href: certificate-signature-and-key-interfaces.md
+              items:
+                - name: ISignerCertificate
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-isignercertificate
+                  items:
+                    - name: ISignerCertificate 方法
+                      href: isignercertificate-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-initialize
+                    - name: ISignerCertificate 屬性
+                      href: isignercertificate-properties.md
+                      items:
+                        - name: Certificate 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_certificate
+                        - name: ParentWindow 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_parentwindow
+                        - name: 釘選屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-put_pin
+                        - name: PrivateKey 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_privatekey
+                        - name: SignatureInformation 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_signatureinformation
+                        - name: 無訊息屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_silent
+                        - name: UICoNtextMessage 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_uicontextmessage
+                - name: ISignerCertificates
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-isignercertificates
+                  items:
+                    - name: ISignerCertificates 方法
+                      href: isignercertificates-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-clear
+                        - name: Find 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-find
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-remove
+                    - name: ISignerCertificates 屬性
+                      href: isignercertificates-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-get_itembyindex
+                - name: IX509PrivateKey
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509privatekey
+                  items:
+                    - name: IX509PrivateKey 方法
+                      href: ix509privatekey-methods.md
+                      items:
+                        - name: Close 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-close
+                        - name: Create 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-create
+                        - name: Delete 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-delete
+                        - name: Export 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-export
+                        - name: ExportPublicKey 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-exportpublickey
+                        - name: 匯入方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-import
+                        - name: Open 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-open
+                        - name: Verify 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-verify
+                    - name: IX509PrivateKey 屬性
+                      href: ix509privatekey-properties.md
+                      items:
+                        - name: 演算法屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_algorithm
+                        - name: Certificate 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_certificate
+                        - name: 容器屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_containername
+                        - name: ContainerNamePrefix 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_containernameprefix
+                        - name: CspInformations 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_cspinformations
+                        - name: CspStatus 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_cspstatus
+                        - name: DefaultContainer 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_defaultcontainer
+                        - name: Description 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_description
+                        - name: 現有屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_existing
+                        - name: ExportPolicy 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_exportpolicy
+                        - name: FriendlyName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_friendlyname
+                        - name: KeyProtection 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_keyprotection
+                        - name: KeySpec 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_keyspec
+                        - name: KeyUsage 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_keyusage
+                        - name: LegacyCsp 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_legacycsp
+                        - name: Length 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_length
+                        - name: MachineCoNtext 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_machinecontext
+                        - name: 開啟的屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_opened
+                        - name: ParentWindow 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_parentwindow
+                        - name: 釘選屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-put_pin
+                        - name: ProviderName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_providername
+                        - name: ProviderType 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_providertype
+                        - name: ReaderName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_readername
+                        - name: SecurityDescriptor 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_securitydescriptor
+                        - name: 無訊息屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_silent
+                        - name: UICoNtextMessage 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_uicontextmessage
+                        - name: UniqueContainerName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_uniquecontainername
+                - name: IX509PublicKey
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509publickey
+                  items:
+                    - name: IX509PublicKey 方法
+                      href: ix509publickey-methods.md
+                      items:
+                        - name: ComputeKeyIdentifier 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-computekeyidentifier
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-initialize
+                        - name: InitializeFromEncodedPublicKeyInfo 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-initializefromencodedpublickeyinfo
+                    - name: IX509PublicKey 屬性
+                      href: ix509publickey-properties.md
+                      items:
+                        - name: 演算法屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-get_algorithm
+                        - name: EncodedKey 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-get_encodedkey
+                        - name: EncodedParameters 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-get_encodedparameters
+                        - name: Length 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-get_length
+                - name: IX509SignatureInformation
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509signatureinformation
+                  items:
+                    - name: IX509SignatureInformation 方法
+                      href: ix509signatureinformation-methods.md
+                      items:
+                        - name: GetSignatureAlgorithm 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm
+                        - name: SetDefaultValues 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-setdefaultvalues
+                    - name: IX509SignatureInformation 屬性
+                      href: ix509signatureinformation-properties.md
+                      items:
+                        - name: AlternateSignatureAlgorithm 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithm
+                        - name: AlternateSignatureAlgorithmSet 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithmset
+                        - name: HashAlgorithm 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_hashalgorithm
+                        - name: NullSigned 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_nullsigned
+                        - name: Parameters 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_parameters
+                        - name: PublicKeyAlgorithm 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_publickeyalgorithm
+            - name: 憑證授權單位單位介面
+              href: certification-authority-interfaces.md
+              items:
+                - name: ICertificationAuthorities
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-icertificationauthorities
+                  items:
+                    - name: ICertificationAuthorities 方法
+                      href: icertificationauthorities-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-clear
+                        - name: ComputeSiteCosts 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-computesitecosts
+                        - name: Remove 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-remove
+                    - name: ICertificationAuthorities 屬性
+                      href: icertificationauthorities-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-get_itembyindex
+                        - name: ItemByName 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-get_itembyname
+                - name: ICertificationAuthority
+                  href: /windows/desktop/api/certenroll/nn-certenroll-icertificationauthority
+                  items:
+                    - name: ICertificationAuthority 屬性
+                      href: icertificationauthority-properties.md
+                      items:
+                        - name: Property 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthority-get_property
+            - name: 密碼編譯提供者介面
+              href: cryptographic-provider-interfaces.md
+              items:
+                - name: ICspAlgorithm
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspalgorithm
+                  items:
+                    - name: ICspAlgorithm 方法
+                      href: icspalgorithm-methods.md
+                      items:
+                        - name: GetAlgorithmOid 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-getalgorithmoid
+                    - name: ICspAlgorithm 屬性
+                      href: icspalgorithm-properties.md
+                      items:
+                        - name: DefaultLength 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_defaultlength
+                        - name: IncrementLength 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_incrementlength
+                        - name: LongName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_longname
+                        - name: MaxLength 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_maxlength
+                        - name: MinLength 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_minlength
+                        - name: Name 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_name
+                        - name: 作業屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_operations
+                        - name: Type 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_type
+                        - name: 有效屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_valid
+                - name: ICspAlgorithms
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspalgorithms
+                  items:
+                    - name: ICspAlgorithms 方法
+                      href: icspalgorithms-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-remove
+                    - name: ICspAlgorithms 屬性
+                      href: icspalgorithms-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get_count
+                        - name: IndexByObjectId 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get_indexbyobjectid
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get_itembyindex
+                        - name: ItemByName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get_itembyname
+                - name: ICspInformation
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspinformation
+                  items:
+                    - name: ICspInformation 方法
+                      href: icspinformation-methods.md
+                      items:
+                        - name: GetCspStatusFromOperations 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-getcspstatusfromoperations
+                        - name: GetDefaultSecurityDescriptor 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-getdefaultsecuritydescriptor
+                        - name: InitializeFromName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-initializefromname
+                        - name: InitializeFromType 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-initializefromtype
+                    - name: ICspInformation 屬性
+                      href: icspinformation-properties.md
+                      items:
+                        - name: CspAlgorithms 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_cspalgorithms
+                        - name: HasHardwareRandomNumberGenerator 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_hashardwarerandomnumbergenerator
+                        - name: IsHardwareDevice 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_ishardwaredevice
+                        - name: IsRemovable 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_isremovable
+                        - name: IsSmartCard 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_issmartcard
+                        - name: IsSoftwareDevice 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_issoftwaredevice
+                        - name: KeySpec 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_keyspec
+                        - name: LegacyCsp 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_legacycsp
+                        - name: MaxKeyContainerNameLength 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_maxkeycontainernamelength
+                        - name: Name 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_name
+                        - name: Type 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_type
+                        - name: 有效屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_valid
+                        - name: Version 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_version
+                - name: ICspInformations
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspinformations
+                  items:
+                    - name: ICspInformations 方法
+                      href: icspinformations-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-add
+                        - name: AddAvailableCsps 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-addavailablecsps
+                        - name: GetCspStatusesFromOperations 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-getcspstatusesfromoperations
+                        - name: GetCspStatusFromProviderName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-getcspstatusfromprovidername
+                        - name: GetEncryptionCspAlgorithms 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-getencryptioncspalgorithms
+                        - name: GetHashAlgorithms 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-gethashalgorithms
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-remove
+                    - name: ICspInformations 屬性
+                      href: icspinformations-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-get_itembyindex
+                        - name: ItemByName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-get_itembyname
+                - name: ICspStatus
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspstatus
+                  items:
+                    - name: ICspStatus 方法
+                      href: icspstatus-methods.md
+                      items:
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-initialize
+                    - name: ICspStatus 屬性
+                      href: icspstatus-properties.md
+                      items:
+                        - name: CspAlgorithm 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_cspalgorithm
+                        - name: CspInformation 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_cspinformation
+                        - name: DisplayName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_displayname
+                        - name: EnrollmentStatus 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_enrollmentstatus
+                        - name: 序數屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_ordinal
+                - name: ICspStatuses
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspstatuses
+                  items:
+                    - name: ICspStatuses 方法
+                      href: icspstatuses-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-add
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-remove
+                    - name: ICspStatuses 屬性
+                      href: icspstatuses-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyindex
+                        - name: ItemByName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyname
+                        - name: ItemByOperations 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyoperations
+                        - name: ItemByOrdinal 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyordinal
+                        - name: ItemByProvider 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyprovider
+            - name: Helper 介面
+              href: helper-interfaces.md
+              items:
+                - name: IBinaryConverter
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ibinaryconverter
+                  items:
+                    - name: IBinaryConverter 方法
+                      href: ibinaryconverter-methods.md
+                      items:
+                        - name: StringToString 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ibinaryconverter-stringtostring
+                        - name: StringToVariantByteArray 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ibinaryconverter-stringtovariantbytearray
+                        - name: VariantByteArrayToString 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ibinaryconverter-variantbytearraytostring
+                - name: ICertificateAttestationChallenge
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-icertificateattestationchallenge
+                  items:
+                    - name: ICertificateAttestationChallenge 方法
+                      href: icertificateattestationchallenge-methods.md
+                      items:
+                        - name: DecryptChallenge 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificateattestationchallenge-decryptchallenge
+                        - name: Initialize 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificateattestationchallenge-initialize
+                    - name: ICertificateAttestationChallenge 屬性
+                      href: icertificateattestationchallenge-properties.md
+                      items:
+                        - name: RequestID 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificateattestationchallenge-get_requestid
+                - name: IObjectId
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-iobjectid
+                  items:
+                    - name: IObjectId 方法
+                      href: iobjectid-methods.md
+                      items:
+                        - name: InitializeFromAlgorithmName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-initializefromalgorithmname
+                        - name: InitializeFromName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-initializefromname
+                        - name: InitializeFromValue 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-initializefromvalue
+                        - name: GetAlgorithmName 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-getalgorithmname
+                    - name: IObjectId 屬性
+                      href: iobjectid-properties.md
+                      items:
+                        - name: FriendlyName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-get_friendlyname
+                        - name: Name 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-get_name
+                        - name: 值屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-get_value
+                - name: IObjectIds
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-iobjectids
+                  items:
+                    - name: IObjectIds 方法
+                      href: iobjectids-methods.md
+                      items:
+                        - name: 新增方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-add
+                        - name: '>addrange 方法'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-addrange
+                        - name: Clear 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-clear
+                        - name: Remove 方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-remove
+                    - name: IObjectIds 屬性
+                      href: iobjectids-properties.md
+                      items:
+                        - name: _NewEnum 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get__newenum
+                        - name: Count 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get_count
+                        - name: ItemByIndex 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get_itembyindex
+                - name: IX500DistinguishedName
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname
+                  items:
+                    - name: IX500DistinguishedName 方法
+                      href: ix500distinguishedname-methods.md
+                      items:
+                        - name: 解碼方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix500distinguishedname-decode
+                        - name: 編碼方法
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix500distinguishedname-encode
+                    - name: IX500DistinguishedName 屬性
+                      href: ix500distinguishedname-properties.md
+                      items:
+                        - name: EncodedName 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix500distinguishedname-get_encodedname
+                        - name: Name 屬性
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix500distinguishedname-get_name
+                - name: IX509EndorsementKey
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509endorsementkey
+                  items:
+                    - name: IX509EndorsementKey 方法
+                      href: ix509endorsementkey-methods.md
+                      items:
+                        - name: AddCertificate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-addcertificate
+                        - name: Close 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-close
+                        - name: ExportPublicKey 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-exportpublickey
+                        - name: GetCertificateByIndex 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-getcertificatebyindex
+                        - name: GetCertificateCount 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-getcertificatecount
+                        - name: Open 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-open
+                        - name: RemoveCertificate 方法
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-removecertificate
+                    - name: IX509EndorsementKey 屬性
+                      href: ix509endorsementkey-properties.md
+                      items:
+                        - name: Length 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-get_length
+                        - name: 開啟的屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-get_opened
+                        - name: ProviderName 屬性
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-get_providername
+        - name: CertEnroll 列舉
+          href: certenroll-enumerations.md
+          items:
+            - name: AlgorithmFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-algorithmflags
+            - name: AlgorithmOperationFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-algorithmoperationflags
+            - name: AlgorithmType
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-algorithmtype
+            - name: AlternativeNameType
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-alternativenametype
+            - name: CERTENROLL_OBJECTID
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-certenroll_objectid
+            - name: CERTENROLL_PROPERTYID
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-certenroll_propertyid
+            - name: CommitTemplateFlags
+              href: /windows/desktop/api/Certenroll/ne-certenroll-committemplateflags
+            - name: EncodingType
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-encodingtype
+            - name: EnrollmentCAProperty
+              href: /windows/desktop/api/Certenroll/ne-certenroll-enrollmentcaproperty
+            - name: EnrollmentDisplayStatus
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-enrollmentdisplaystatus
+            - name: EnrollmentEnrollStatus
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-enrollmentenrollstatus
+            - name: EnrollmentPolicyFlags
+              href: /windows/desktop/api/Certenroll/ne-certenroll-enrollmentpolicyflags
+            - name: EnrollmentPolicyServerPropertyFlags
+              href: /windows/desktop/api/Certenroll/ne-certenroll-enrollmentpolicyserverpropertyflags
+            - name: EnrollmentSelectionStatus
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-enrollmentselectionstatus
+            - name: EnrollmentTemplateProperty
+              href: /windows/desktop/api/Certenroll/ne-certenroll-enrollmenttemplateproperty
+            - name: InnerRequestLevel
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-innerrequestlevel
+            - name: InstallResponseRestrictionFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-installresponserestrictionflags
+            - name: KeyIdentifierHashAlgorithm
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-keyidentifierhashalgorithm
+            - name: ObjectIdGroupId
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-objectidgroupid
+            - name: ObjectIdPublicKeyFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-objectidpublickeyflags
+            - name: PFXExportOptions
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-pfxexportoptions
+            - name: Pkcs10AllowedSignatureTypes
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-pkcs10allowedsignaturetypes
+            - name: PolicyQualifierType
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-policyqualifiertype
+            - name: PolicyServerUrlFlags
+              href: /windows/desktop/api/Certenroll/ne-certenroll-policyserverurlflags
+            - name: PolicyServerUrlPropertyID
+              href: /windows/desktop/api/Certenroll/ne-certenroll-policyserverurlpropertyid
+            - name: RequestClientInfoClientId
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-requestclientinfoclientid
+            - name: WebEnrollmentFlags
+              href: /windows/desktop/api/Certenroll/ne-certenroll-webenrollmentflags
+            - name: WebSecurityLevel
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-websecuritylevel
+            - name: X500NameFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x500nameflags
+            - name: X509CertificateEnrollmentCoNtext
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificateenrollmentcontext
+            - name: X509CertificateTemplateEnrollmentFlag
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificatetemplateenrollmentflag
+            - name: X509CertificateTemplateGeneralFlag
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificatetemplategeneralflag
+            - name: X509CertificateTemplatePrivateKeyFlag
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificatetemplateprivatekeyflag
+            - name: X509CertificateTemplateSubjectNameFlag
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificatetemplatesubjectnameflag
+            - name: X509EnrollmentPolicyExportFlags
+              href: /windows/desktop/api/Certenroll/ne-certenroll-x509enrollmentpolicyexportflags
+            - name: X509EnrollmentPolicyLoadOption
+              href: /windows/desktop/api/Certenroll/ne-certenroll-x509enrollmentpolicyloadoption
+            - name: X509KeySpec
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509keyspec
+            - name: X509KeyUsageFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509keyusageflags
+            - name: X509PrivateKeyExportFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509privatekeyexportflags
+            - name: X509PrivateKeyProtection
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509privatekeyprotection
+            - name: X509PrivateKeyUsageFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509privatekeyusageflags
+            - name: X509PrivateKeyVerify
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509privatekeyverify
+            - name: X509ProviderType
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509providertype
+            - name: X509RequestInheritOptions
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509requestinheritoptions
+            - name: X509RequestType
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509requesttype
+            - name: X509SCEPDisposition
+              href: /windows/desktop/api/certpol/ne-certpol-x509scepdisposition
+            - name: X509SCEPFailInfo
+              href: /windows/desktop/api/certpol/ne-certpol-x509scepfailinfo
