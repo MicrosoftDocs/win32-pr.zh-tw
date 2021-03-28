@@ -1,0 +1,56 @@
+---
+description: 您可以使用增強型中繼檔的控制碼來完成下列工作：
+ms.assetid: 8f887c38-6cfa-4918-aa44-dd5fb837b40b
+title: 增強的中繼檔作業
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 18ba9e2ac2f14c4436c039a66cc3211b471c0461
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104114664"
+---
+# <a name="enhanced-metafile-operations"></a><span data-ttu-id="cd2a0-103">增強的中繼檔作業</span><span class="sxs-lookup"><span data-stu-id="cd2a0-103">Enhanced Metafile Operations</span></span>
+
+<span data-ttu-id="cd2a0-104">您可以使用增強型中繼檔的控制碼來完成下列工作：</span><span class="sxs-lookup"><span data-stu-id="cd2a0-104">You can use the handle to an enhanced metafile to accomplish the following tasks:</span></span>
+
+-   <span data-ttu-id="cd2a0-105">顯示儲存在增強型中繼檔中的圖片。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-105">Display the picture stored in an enhanced metafile.</span></span>
+-   <span data-ttu-id="cd2a0-106">建立增強型中繼檔的複本。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-106">Create copies of an enhanced metafile.</span></span>
+-   <span data-ttu-id="cd2a0-107">編輯增強的中繼檔。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-107">Edit an enhanced metafile.</span></span>
+-   <span data-ttu-id="cd2a0-108">取出儲存在增強型中繼檔中的選擇性描述。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-108">Retrieve the optional description stored in an enhanced metafile.</span></span>
+-   <span data-ttu-id="cd2a0-109">取出增強型中繼檔標頭的複本。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-109">Retrieve a copy of an enhanced-metafile header.</span></span>
+-   <span data-ttu-id="cd2a0-110">取出增強型中繼檔的二進位版本。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-110">Retrieve a binary version of an enhanced metafile.</span></span>
+-   <span data-ttu-id="cd2a0-111">列舉選擇性調色板中的色彩。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-111">Enumerate the colors in the optional palette.</span></span>
+
+<span data-ttu-id="cd2a0-112">本主題其餘部分的各節將討論這些工作。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-112">These tasks are discussed in the sections in the remainder of this topic.</span></span>
+
+## <a name="display-the-picture-stored-in-an-enhanced-metafile"></a><span data-ttu-id="cd2a0-113">顯示儲存在增強型中繼檔中的圖片</span><span class="sxs-lookup"><span data-stu-id="cd2a0-113">Display the Picture Stored in an Enhanced Metafile</span></span>
+
+<span data-ttu-id="cd2a0-114">您可以使用 [**PlayEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-playenhmetafile) 函式來顯示儲存在增強型中繼檔中的圖片。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-114">You can display the picture stored in an enhanced metafile using the [**PlayEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-playenhmetafile) function.</span></span> <span data-ttu-id="cd2a0-115">將函式傳遞給增強中繼檔的控制碼，而不需要考慮增強型中繼檔記錄的格式。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-115">Pass the function a handle to the enhanced metafile, without being concerned with the format of the enhanced metafile records.</span></span> <span data-ttu-id="cd2a0-116">不過，有時候您會想要列舉增強中繼檔中的記錄，以搜尋特定的 GDI 函數，並以某種方式修改函式的參數。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-116">However, it is sometimes desirable to enumerate the records in the enhanced metafile to search for a particular GDI function and modify the parameters of the function in some manner.</span></span> <span data-ttu-id="cd2a0-117">若要這樣做，您可以使用 [**EnumEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile) 並提供回呼函數 [**EnhMetaFileProc**](/windows/win32/api/wingdi/nc-wingdi-enhmfenumproc)，以處理增強的中繼檔記錄。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-117">To do this, you can use [**EnumEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile) and provide a callback function, [**EnhMetaFileProc**](/windows/win32/api/wingdi/nc-wingdi-enhmfenumproc), to process the enhanced metafile records.</span></span> <span data-ttu-id="cd2a0-118">若要修改增強型中繼檔記錄的參數，您必須知道記錄中的參數格式。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-118">To modify the parameters for an enhanced metafile record, you must know the format of the parameters within the record.</span></span>
+
+## <a name="create-copies-of-an-enhanced-metafile"></a><span data-ttu-id="cd2a0-119">建立增強型中繼檔的複本</span><span class="sxs-lookup"><span data-stu-id="cd2a0-119">Create Copies of an Enhanced Metafile</span></span>
+
+<span data-ttu-id="cd2a0-120">有些應用程式會在讓使用者改變原始檔之前，建立暫存備份 (或複製檔案的) 複本。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-120">Some applications create temporary backup (or duplicate) copies of a file before enabling the user to alter the original.</span></span> <span data-ttu-id="cd2a0-121">應用程式可以藉由呼叫 [**CopyEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-copyenhmetafilea) 函式、提供識別增強型中繼檔的控制碼，以及提供新檔案名稱的指標，建立增強型中繼檔的備份複本。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-121">An application can create a backup copy of an enhanced metafile by calling the [**CopyEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-copyenhmetafilea) function, supplying a handle that identifies the enhanced metafile, and supplying a pointer to the name of the new file.</span></span>
+
+<span data-ttu-id="cd2a0-122">若要建立以記憶體為基礎的增強格式中繼檔，請呼叫 [**SetEnhMetaFileBits**](/windows/desktop/api/Wingdi/nf-wingdi-setenhmetafilebits) 函數。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-122">To create a memory-based enhanced-format metafile, call the [**SetEnhMetaFileBits**](/windows/desktop/api/Wingdi/nf-wingdi-setenhmetafilebits) function.</span></span>
+
+## <a name="edit-an-enhanced-metafile"></a><span data-ttu-id="cd2a0-123">編輯增強的中繼檔</span><span class="sxs-lookup"><span data-stu-id="cd2a0-123">Edit an Enhanced Metafile</span></span>
+
+<span data-ttu-id="cd2a0-124">大部分繪圖、圖例以及電腦輔助設計 (CAD) 應用程式都需要一種方式來編輯儲存在增強中繼檔中的圖片。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-124">Most drawing, illustration, and computer-aided design (CAD) applications require a means of editing a picture stored in an enhanced metafile.</span></span> <span data-ttu-id="cd2a0-125">雖然編輯增強的中繼檔是很複雜的工作，但是您可以搭配其他函式使用 [**EnumEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile) 函式，以在您的應用程式中提供這項功能。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-125">Although editing an enhanced metafile is a complex task, you can use the [**EnumEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile) function in combination with other functions to provide this capability in your application.</span></span> <span data-ttu-id="cd2a0-126">**EnumEnhMetaFile** 函式和其相關聯的回呼函數 [**EnhMetaFileProc**](/windows/win32/api/wingdi/nc-wingdi-enhmfenumproc)，可讓應用程式處理增強中繼檔中的個別記錄。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-126">The **EnumEnhMetaFile** function and its associated callback function, [**EnhMetaFileProc**](/windows/win32/api/wingdi/nc-wingdi-enhmfenumproc), enable the application to process individual records in an enhanced metafile.</span></span>
+
+## <a name="retrieve-the-optional-description-stored-in-an-enhanced-metafile"></a><span data-ttu-id="cd2a0-127">取出儲存在增強型中繼檔中的選擇性描述</span><span class="sxs-lookup"><span data-stu-id="cd2a0-127">Retrieve the Optional Description Stored in an Enhanced Metafile</span></span>
+
+<span data-ttu-id="cd2a0-128">有些應用程式會在 [ **開啟** ] 對話方塊中，以對應的檔案名顯示增強型中繼檔的文字描述。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-128">Some applications display the text description of an enhanced metafile with the corresponding file name in the **Open** dialog box.</span></span> <span data-ttu-id="cd2a0-129">您可以使用 [**GetEnhMetaFileHeader**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafileheader) 函式來抓取中繼檔標頭，並檢查其中一個成員，以判斷這個字串是否存在於增強的中繼檔中。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-129">You can determine whether this string exists in an enhanced metafile by retrieving the metafile header with the [**GetEnhMetaFileHeader**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafileheader) function and examining one of its members.</span></span> <span data-ttu-id="cd2a0-130">如果字串存在，應用程式會藉由呼叫 [**GetEnhMetaFileDescription**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafiledescriptiona) 函式來進行抓取。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-130">If the string exists, the application retrieves it by calling the [**GetEnhMetaFileDescription**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafiledescriptiona) function.</span></span>
+
+## <a name="retrieve-a-binary-version-of-an-enhanced-metafile"></a><span data-ttu-id="cd2a0-131">取出增強型中繼檔的二進位版本</span><span class="sxs-lookup"><span data-stu-id="cd2a0-131">Retrieve a Binary Version of an Enhanced Metafile</span></span>
+
+<span data-ttu-id="cd2a0-132">您可以藉由呼叫 [**GetEnhMetaFileBits**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafilebits) 函數來取出中繼檔的內容;不過，在抓取內容之前，您必須指定檔案的大小。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-132">You can retrieve the contents of a metafile by calling the [**GetEnhMetaFileBits**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafilebits) function; however, before retrieving the contents, you must specify the size of the file.</span></span> <span data-ttu-id="cd2a0-133">若要取得大小，您可以使用 [**GetEnhMetaFileHeader**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafileheader) 函數，並檢查適當的成員。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-133">To get the size, you can use the [**GetEnhMetaFileHeader**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafileheader) function and examine the appropriate member.</span></span>
+
+## <a name="enumerate-the-colors-in-the-optional-palette"></a><span data-ttu-id="cd2a0-134">列舉選擇性調色板中的色彩</span><span class="sxs-lookup"><span data-stu-id="cd2a0-134">Enumerate the Colors in the Optional Palette</span></span>
+
+<span data-ttu-id="cd2a0-135">若要在各種輸出裝置上顯示圖片時達到一致的色彩，您可以呼叫 [**CreatePalette**](/windows/desktop/api/Wingdi/nf-wingdi-createpalette) 函式，並將邏輯調色板儲存在增強的中繼檔中。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-135">To achieve consistent colors when a picture is displayed on various output devices, you can call the [**CreatePalette**](/windows/desktop/api/Wingdi/nf-wingdi-createpalette) function and store a logical palette in an enhanced metafile.</span></span> <span data-ttu-id="cd2a0-136">顯示儲存在增強型中繼檔中之圖片的應用程式會抓取這個調色板，並在顯示圖片之前呼叫 [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette) 函式。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-136">An application that displays the picture stored in the enhanced metafile retrieves this palette and calls the [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette) function before displaying the picture.</span></span> <span data-ttu-id="cd2a0-137">若要判斷調色板是否儲存在增強型中繼檔中，請取出中繼檔標頭，並檢查適當的成員。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-137">To determine whether a palette is stored in an enhanced metafile, retrieve the metafile header and examine the appropriate member.</span></span> <span data-ttu-id="cd2a0-138">如果有調色板，您可以呼叫 [**GetEnhMetaFilePaletteEntries**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafilepaletteentries) 函式來取出邏輯調色板。</span><span class="sxs-lookup"><span data-stu-id="cd2a0-138">If a palette exists, you can call the [**GetEnhMetaFilePaletteEntries**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafilepaletteentries) function to retrieve the logical palette.</span></span>
+
+ 
+
+ 
