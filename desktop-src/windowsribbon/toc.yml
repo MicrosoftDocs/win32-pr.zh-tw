@@ -1,0 +1,605 @@
+- name: Windows 功能區架構
+  href: '-uiplat-windowsribbon-entry.md'
+  items:
+    - name: 功能區架構概述
+      href: windowsribbon-overviews-entry.md
+      items:
+        - name: Windows 功能區架構簡介
+          href: windowsribbon-introduction.md
+        - name: 使用功能區標記宣告命令和控制項
+          href: windowsribbon-schema.md
+    - name: 功能區架構開發人員指南
+      href: windowsribbon-guides-entry.md
+      items:
+        - name: 建立功能區應用程式
+          href: windowsribbon-stepbystep.md
+        - name: 遷移至 Windows 功能區架構
+          href: ribbon-migration.md
+        - name: 瞭解命令和控制項
+          href: windowsribbon-commandscontrols.md
+        - name: 接聽功能區事件
+          href: listening-for-ribbon-events.md
+        - name: 指定功能區影像資源
+          href: windowsribbon-imageformats.md
+        - name: 透過大小定義和調整原則自訂功能區
+          href: windowsribbon-templates.md
+        - name: 使用資源庫
+          href: ribbon-controls-galleries.md
+        - name: 顯示內容索引標籤
+          href: ribbon-contextualtabs.md
+        - name: 使用應用程式模式重新設定功能區
+          href: ribbon-applicationmodes.md
+        - name: 自訂功能區色彩
+          href: ribbon-color.md
+        - name: 顯示功能區
+          href: ribbon-visibility.md
+        - name: 保存功能區狀態
+          href: ribbon-statepersistence.md
+        - name: 編譯功能區標記
+          href: windowsribbon-intentcl.md
+        - name: 瞭解標記編譯器訊息
+          href: windowsribbon-compilationerrors.md
+    - name: 功能區架構控制項程式庫
+      href: windowsribbon-controls-entry.md
+      items:
+        - name: 應用程式功能表
+          href: windowsribbon-controls-applicationmenu.md
+        - name: 按鈕
+          href: windowsribbon-controls-button.md
+        - name: 核取方塊
+          href: windowsribbon-controls-checkbox.md
+        - name: 下拉式方塊
+          href: windowsribbon-controls-combobox.md
+        - name: 內容快顯視窗
+          href: windowsribbon-controls-contextpopup.md
+        - name: Drop-Down 按鈕
+          href: windowsribbon-controls-dropdownbutton.md
+        - name: Drop-Down 色彩選擇器
+          href: windowsribbon-controls-dropdowncolorpicker.md
+        - name: Drop-Down 資源庫
+          href: windowsribbon-controls-dropdowngallery.md
+        - name: 字型控制項
+          href: windowsribbon-controls-fontcontrol.md
+        - name: Group
+          href: windowsribbon-controls-group.md
+        - name: 說明按鈕
+          href: windowsribbon-controls-helpbutton.md
+        - name: In-Ribbon 資源庫
+          href: windowsribbon-controls-inribbongallery.md
+        - name: 功能表群組
+          href: windowsribbon-controls-menugroup.md
+        - name: 快速存取工具列
+          href: windowsribbon-controls-quickaccesstoolbar.md
+        - name: 最近的項目
+          href: windowsribbon-controls-recentitems.md
+        - name: Spinner
+          href: windowsribbon-controls-spinner.md
+        - name: Split Button
+          href: windowsribbon-controls-splitbutton.md
+        - name: 分割按鈕資源庫
+          href: windowsribbon-controls-splitbuttongallery.md
+        - name: 索引標籤
+          href: windowsribbon-controls-tab.md
+        - name: Tab 群組
+          href: windowsribbon-controls-tabgroup.md
+        - name: 切換按鈕
+          href: windowsribbon-controls-togglebutton.md
+    - name: 功能區架構參考
+      href: windowsribbon-reference-entry.md
+      items:
+        - name: 標記元素
+          href: windowsribbon-reference-markup-elements.md
+          items:
+            - name: 命令和資源
+              href: windowsribbon-reference-elements-command.md
+              items:
+                - name: 命令
+                  href: windowsribbon-element-command.md
+                  items:
+                    - name: 註解
+                      href: windowsribbon-element-command-comment.md
+                    - name: 識別碼
+                      href: windowsribbon-element-command-id.md
+                    - name: Keytip
+                      href: windowsribbon-element-command-keytip.md
+                    - name: LabelDescription
+                      href: windowsribbon-element-command-labeldescription.md
+                    - name: LabelTitle
+                      href: windowsribbon-element-command-labeltitle.md
+                    - name: LargeHighContrastImages
+                      href: windowsribbon-element-command-largehighcontrastimages.md
+                    - name: LargeImages
+                      href: windowsribbon-element-command-largeimages.md
+                    - name: Name
+                      href: windowsribbon-element-command-name.md
+                    - name: SmallHighContrastImages
+                      href: windowsribbon-element-command-smallhighcontrastimages.md
+                    - name: SmallImages
+                      href: windowsribbon-element-command-smallimages.md
+                    - name: 符號
+                      href: windowsribbon-element-command-symbol.md
+                    - name: TooltipDescription
+                      href: windowsribbon-element-command-tooltipdescription.md
+                    - name: TooltipTitle
+                      href: windowsribbon-element-command-tooltiptitle.md
+                - name: Image
+                  href: windowsribbon-element-image.md
+                  items:
+                    - name: 來源
+                      href: windowsribbon-element-image-source.md
+                - name: String
+                  href: windowsribbon-element-string.md
+                  items:
+                    - name: Content
+                      href: windowsribbon-element-string-content.md
+                    - name: 識別碼
+                      href: windowsribbon-element-string-id.md
+                    - name: 符號
+                      href: windowsribbon-element-string-symbol.md
+            - name: 檢視
+              href: windowsribbon-reference-elements-view.md
+              items:
+                - name: CoNtextPopup
+                  href: windowsribbon-element-contextpopup.md
+                  items:
+                    - name: CoNtextMaps
+                      href: windowsribbon-element-contextpopup-contextmaps.md
+                    - name: CoNtextmenu
+                      href: windowsribbon-element-contextpopup-contextmenus.md
+                    - name: MiniToolbars
+                      href: windowsribbon-element-contextpopup-minitoolbars.md
+                - name: 功能區
+                  href: windowsribbon-element-ribbon.md
+                  items:
+                    - name: ApplicationMenu
+                      href: windowsribbon-element-ribbon-applicationmenu.md
+                    - name: CoNtextualTabs
+                      href: windowsribbon-element-ribbon-contextualtabs.md
+                    - name: HelpButton
+                      href: windowsribbon-element-ribbon-helpbutton.md
+                    - name: QuickAccessToolbar
+                      href: windowsribbon-element-ribbon-quickaccesstoolbar.md
+                    - name: SizeDefinitions
+                      href: windowsribbon-element-ribbon-sizedefinitions.md
+                    - name: 定位點
+                      href: windowsribbon-element-ribbon-tabs.md
+            - name: 控制項
+              href: windowsribbon-reference-elements-control.md
+              items:
+                - name: ApplicationMenu
+                  href: windowsribbon-element-applicationmenu.md
+                  items:
+                    - name: RecentItems
+                      href: windowsribbon-element-applicationmenu-recentitems.md
+                - name: 按鈕
+                  href: windowsribbon-element-button.md
+                - name: 核取方塊
+                  href: windowsribbon-element-checkbox.md
+                - name: ComboBox
+                  href: windowsribbon-element-combobox.md
+                - name: CoNtextMap
+                  href: windowsribbon-element-contextmap.md
+                - name: ContextMenu
+                  href: windowsribbon-element-contextmenu.md
+                - name: DropDownButton
+                  href: windowsribbon-element-dropdownbutton.md
+                - name: DropDownColorPicker
+                  href: windowsribbon-element-dropdowncolorpicker.md
+                - name: DropDownGallery
+                  href: windowsribbon-element-dropdowngallery.md
+                  items:
+                    - name: MenuGroups
+                      href: windowsribbon-element-dropdowngallery-menugroups.md
+                    - name: MenuLayout
+                      href: windowsribbon-element-dropdowngallery-menulayout.md
+                - name: FontControl
+                  href: windowsribbon-element-fontcontrol.md
+                - name: Group
+                  href: windowsribbon-element-group.md
+                - name: HelpButton
+                  href: windowsribbon-element-helpbutton.md
+                - name: InRibbonGallery
+                  href: windowsribbon-element-inribbongallery.md
+                  items:
+                    - name: MenuGroups
+                      href: windowsribbon-element-inribbongallery-menugroups.md
+                    - name: MenuLayout
+                      href: windowsribbon-element-inribbongallery-menulayout.md
+                - name: MenuGroup
+                  href: windowsribbon-element-menugroup.md
+                - name: 浮動工具列
+                  href: windowsribbon-element-minitoolbar.md
+                - name: QuickAccessToolbar
+                  href: windowsribbon-element-quickaccesstoolbar.md
+                  items:
+                    - name: ApplicationDefaults
+                      href: windowsribbon-element-quickaccesstoolbar-applicationdefaults.md
+                - name: RecentItems
+                  href: windowsribbon-element-recentitems.md
+                - name: Spinner
+                  href: windowsribbon-element-spinner.md
+                - name: SplitButton
+                  href: windowsribbon-element-splitbutton.md
+                  items:
+                    - name: ButtonItem
+                      href: windowsribbon-element-splitbutton-buttonitem.md
+                    - name: MenuGroups
+                      href: windowsribbon-element-splitbutton-menugroups.md
+                - name: SplitButtonGallery
+                  href: windowsribbon-element-splitbuttongallery.md
+                  items:
+                    - name: MenuGroups
+                      href: windowsribbon-element-splitbuttongallery-menugroups.md
+                    - name: MenuLayout
+                      href: windowsribbon-element-splitbuttongallery-menulayout.md
+                - name: 索引標籤
+                  href: windowsribbon-element-tab.md
+                  items:
+                    - name: ScalingPolicy
+                      href: windowsribbon-element-tab-scalingpolicy.md
+                - name: TabGroup
+                  href: windowsribbon-element-tabgroup.md
+                - name: ToggleButton
+                  href: windowsribbon-element-togglebutton.md
+            - name: 其他
+              href: windowsribbon-reference-elements-other.md
+              items:
+                - name: 應用程式
+                  href: windowsribbon-element-application.md
+                  items:
+                    - name: 命令
+                      href: windowsribbon-element-application-commands.md
+                    - name: 檢視
+                      href: windowsribbon-element-application-views.md
+                - name: ColumnBreak
+                  href: windowsribbon-element-columnbreak.md
+                - name: ControlGroup
+                  href: windowsribbon-element-controlgroup.md
+                - name: ControlNameDefinition
+                  href: windowsribbon-element-controlnamedefinition.md
+                - name: ControlNameMap
+                  href: windowsribbon-element-controlnamemap.md
+                - name: ControlSizeDefinition
+                  href: windowsribbon-element-controlsizedefinition.md
+                - name: DynamicUI
+                  href: windowsribbon-element-dynamicui.md
+                - name: FlowMenuLayout
+                  href: windowsribbon-element-flowmenulayout.md
+                - name: GroupSizeDefinition
+                  href: windowsribbon-element-groupsizedefinition.md
+                - name: 資料列
+                  href: windowsribbon-element-row.md
+                - name: 調整
+                  href: windowsribbon-element-scale.md
+                - name: ScalingPolicy
+                  href: windowsribbon-element-scalingpolicy.md
+                  items:
+                    - name: IdealSizes
+                      href: windowsribbon-element-scalingpolicy-idealsizes.md
+                - name: SizeDefinition
+                  href: windowsribbon-element-sizedefinition.md
+                - name: VerticalMenuLayout
+                  href: windowsribbon-element-verticalmenulayout.md
+        - name: 常數和列舉
+          href: windowsribbon-reference-enumerations.md
+          items:
+            - name: UI_ALL_COMMANDS
+              href: windowsribbon-ui-all-commands.md
+            - name: UI_COLLECTION_INVALIDINDEX
+              href: windowsribbon-ui-collection-invalidindex.md
+            - name: UI_COLLECTIONCHANGE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_collectionchange
+            - name: UI_COMMANDCATEGORY
+              href: /previous-versions/windows/desktop/legacy/hh448736(v=vs.85)
+            - name: UI_COMMANDTYPE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_commandtype
+            - name: UI_CONTEXTAVAILABILITY
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_contextavailability
+            - name: UI_CONTROLDOCK
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_controldock
+            - name: UI_EVENTLOCATION
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_eventlocation
+            - name: UI_EVENTTYPE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_eventtype
+            - name: UI_EXECUTIONVERB
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_executionverb
+            - name: UI_FONTDELTASIZE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_fontdeltasize
+            - name: UI_FONTPROPERTIES
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_fontproperties
+            - name: UI_FONTUNDERLINE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_fontunderline
+            - name: UI_FONTVERTICALPOSITION
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_fontverticalposition
+            - name: UI_INVALIDATIONS
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_invalidations
+            - name: UI_OWNERSHIP
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_ownership
+            - name: UI_SWATCHCOLORMODE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_swatchcolormode
+            - name: UI_SWATCHCOLORTYPE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_swatchcolortype
+            - name: UI_VIEWTYPE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_viewtype
+            - name: UI_VIEWVERB
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_viewverb
+        - name: 介面
+          href: windowsribbon-reference-interfaces.md
+          items:
+            - name: IUIApplication
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiapplication
+              items:
+                - name: OnCreateUICommand
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand
+                - name: OnDestroyUICommand
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiapplication-ondestroyuicommand
+                - name: OnViewChanged
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiapplication-onviewchanged
+            - name: IUICollection
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuicollection
+              items:
+                - name: 加
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-add
+                - name: 清除
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-clear
+                - name: GetCount
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-getcount
+                - name: GetItem
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-getitem
+                - name: 插入
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-insert
+                - name: RemoveAt
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-removeat
+                - name: 取代
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-replace
+            - name: IUICollectionChangedEvent
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuicollectionchangedevent
+              items:
+                - name: OnChanged
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged
+            - name: IUICommandHandler
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuicommandhandler
+              items:
+                - name: 執行
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicommandhandler-execute
+                - name: UpdateProperty
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicommandhandler-updateproperty
+            - name: IUICoNtextualUI
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuicontextualui
+              items:
+                - name: ShowAtLocation
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicontextualui-showatlocation
+            - name: IUIEventingManager
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuieventingmanager
+              items:
+                - name: SetEventLogger 方法
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuieventingmanager-seteventlogger
+            - name: IUIEventLogger
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuieventlogger
+              items:
+                - name: OnUIEvent
+                  href: /windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent
+            - name: IUIFramework
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiframework
+              items:
+                - name: 損毀
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-destroy
+                - name: FlushPendingInvalidations
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-flushpendinginvalidations
+                - name: GetUICommandProperty
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-getuicommandproperty
+                - name: GetView
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-getview
+                - name: 初始化
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-initialize
+                - name: InvalidateUICommand
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-invalidateuicommand
+                - name: LoadUI
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-loadui
+                - name: SetModes
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-setmodes
+                - name: SetUICommandProperty
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-setuicommandproperty
+            - name: IUIImage
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiimage
+              items:
+                - name: GetBitmap
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiimage-getbitmap
+            - name: IUIImageFromBitmap
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiimagefrombitmap
+              items:
+                - name: CreateImage
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiimagefrombitmap-createimage
+            - name: IUIRibbon
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiribbon
+              items:
+                - name: GetHeight
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiribbon-getheight
+                - name: LoadSettingsFromStream
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream
+                - name: SaveSettingsToStream
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiribbon-savesettingstostream
+            - name: IUISimplePropertySet
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuisimplepropertyset
+              items:
+                - name: GetValue
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue
+        - name: 物件
+          href: windowsribbon-reference-objects.md
+          items:
+            - name: UIRibbonFramework
+              href: /previous-versions/windows/desktop/legacy/dd742706(v=vs.85)
+            - name: UIRibbonImageFromBitmapFactory
+              href: /previous-versions/windows/desktop/legacy/dd742707(v=vs.85)
+        - name: 屬性索引鍵
+          href: windowsribbon-reference-properties.md
+          items:
+            - name: 集合屬性
+              href: windowsribbon-reference-properties-collection.md
+              items:
+                - name: UI_PKEY_Categories
+                  href: windowsribbon-reference-properties-uipkey-categories.md
+                - name: UI_PKEY_CategoryId
+                  href: windowsribbon-reference-properties-uipkey-categoryid.md
+                - name: UI_PKEY_CommandId
+                  href: windowsribbon-reference-properties-uipkey-commandid.md
+                - name: UI_PKEY_CommandType
+                  href: windowsribbon-reference-properties-uipkey-commandtype.md
+                - name: UI_PKEY_ItemImage
+                  href: windowsribbon-reference-properties-uipkey-itemimage.md
+                - name: UI_PKEY_ItemsSource
+                  href: windowsribbon-reference-properties-uipkey-itemssource.md
+                - name: UI_PKEY_SelectedItem
+                  href: windowsribbon-reference-properties-uipkey-selecteditem.md
+            - name: 色彩選擇器屬性
+              href: windowsribbon-reference-properties-colorpicker.md
+              items:
+                - name: UI_PKEY_AutomaticColorLabel
+                  href: windowsribbon-reference-properties-uipkey-automaticcolorlabel.md
+                - name: UI_PKEY_Color
+                  href: windowsribbon-reference-properties-uipkey-color.md
+                - name: UI_PKEY_ColorMode
+                  href: ui-pkey-colormode.md
+                - name: UI_PKEY_ColorType
+                  href: windowsribbon-reference-properties-uipkey-colortype.md
+                - name: UI_PKEY_MoreColorsLabel
+                  href: windowsribbon-reference-properties-uipkey-morecolorslabel.md
+                - name: UI_PKEY_NoColorLabel
+                  href: windowsribbon-reference-properties-uipkey-nocolorlabel.md
+                - name: UI_PKEY_RecentColorsCategoryLabel
+                  href: windowsribbon-reference-properties-uipkey-recentcolorscategorylabel.md
+                - name: UI_PKEY_StandardColors
+                  href: windowsribbon-reference-properties-uipkey-standardcolors.md
+                - name: UI_PKEY_StandardColorsCategoryLabel
+                  href: windowsribbon-reference-properties-uipkey-standardcolorscategorylabel.md
+                - name: UI_PKEY_StandardColorsTooltips
+                  href: windowsribbon-reference-properties-uipkey-standardcolorstooltips.md
+                - name: UI_PKEY_ThemeColors
+                  href: windowsribbon-reference-properties-uipkey-themecolors.md
+                - name: UI_PKEY_ThemeColorsCategoryLabel
+                  href: windowsribbon-reference-properties-uipkey-themecolorscategorylabel.md
+                - name: UI_PKEY_ThemeColorsTooltips
+                  href: windowsribbon-reference-properties-uipkey-themecolorstooltips.md
+            - name: 字型屬性
+              href: windowsribbon-reference-properties-fontcontrol.md
+              items:
+                - name: UI_PKEY_FontProperties
+                  href: windowsribbon-reference-properties-uipkey-fontproperties.md
+                - name: UI_PKEY_FontProperties_BackgroundColor
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolor.md
+                - name: UI_PKEY_FontProperties_BackgroundColorType
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md
+                - name: UI_PKEY_FontProperties_Bold
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-bold.md
+                - name: UI_PKEY_FontProperties_ChangedProperties
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-changedproperties.md
+                - name: UI_PKEY_FontProperties_DeltaSize
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-deltasize.md
+                - name: UI_PKEY_FontProperties_Family
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-family.md
+                - name: UI_PKEY_FontProperties_ForegroundColor
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolor.md
+                - name: UI_PKEY_FontProperties_ForegroundColorType
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolortype.md
+                - name: UI_PKEY_FontProperties_Italic
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-italic.md
+                - name: UI_PKEY_FontProperties_Size
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-size.md
+                - name: UI_PKEY_FontProperties_Strikethrough
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-strikethrough.md
+                - name: UI_PKEY_FontProperties_Underline
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-underline.md
+                - name: UI_PKEY_FontProperties_VerticalPositioning
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-verticalpositioning.md
+            - name: 架構屬性
+              href: windowsribbon-reference-properties-framework.md
+              items:
+                - name: UI_PKEY_GlobalBackgroundColor
+                  href: windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md
+                - name: UI_PKEY_GlobalHighlightColor
+                  href: windowsribbon-reference-properties-uipkey-globalhighlightcolor.md
+                - name: UI_PKEY_GlobalTextColor
+                  href: windowsribbon-reference-properties-uipkey-globaltextcolor.md
+            - name: 資料屬性
+              href: windowsribbon-reference-properties-resource.md
+              items:
+                - name: UI_PKEY_Keytip
+                  href: windowsribbon-reference-properties-uipkey-keytip.md
+                - name: UI_PKEY_Label
+                  href: windowsribbon-reference-properties-uipkey-label.md
+                - name: UI_PKEY_LabelDescription
+                  href: windowsribbon-reference-properties-uipkey-labeldescription.md
+                - name: UI_PKEY_LargeHighContrastImage
+                  href: windowsribbon-reference-properties-uipkey-largehighcontrastimage.md
+                - name: UI_PKEY_LargeImage
+                  href: windowsribbon-reference-properties-uipkey-largeimage.md
+                - name: UI_PKEY_SmallHighContrastImage
+                  href: windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md
+                - name: UI_PKEY_SmallImage
+                  href: windowsribbon-reference-properties-uipkey-smallimage.md
+                - name: UI_PKEY_TooltipDescription
+                  href: windowsribbon-reference-properties-uipkey-tooltipdescription.md
+                - name: UI_PKEY_TooltipTitle
+                  href: windowsribbon-reference-properties-uipkey-tooltiptitle.md
+            - name: 功能區屬性
+              href: windowsribbon-reference-properties-ribbon.md
+              items:
+                - name: UI_PKEY_Minimized
+                  href: windowsribbon-reference-properties-uipkey-minimized.md
+                - name: UI_PKEY_QuickAccessToolbarDock
+                  href: windowsribbon-reference-properties-uipkey-quickaccesstoolbardock.md
+                - name: UI_PKEY_Viewable
+                  href: windowsribbon-reference-properties-uipkey-viewable.md
+            - name: 狀態屬性
+              href: windowsribbon-reference-properties-state.md
+              items:
+                - name: UI_PKEY_BooleanValue
+                  href: windowsribbon-reference-properties-uipkey-booleanvalue.md
+                - name: UI_PKEY_CoNtextAvailable
+                  href: windowsribbon-reference-properties-uipkey-contextavailable.md
+                - name: UI_PKEY_DecimalPlaces
+                  href: windowsribbon-reference-properties-uipkey-decimalplaces.md
+                - name: UI_PKEY_DecimalValue
+                  href: windowsribbon-reference-properties-uipkey-decimalvalue.md
+                - name: UI_PKEY_Enabled
+                  href: windowsribbon-reference-properties-uipkey-enabled.md
+                - name: UI_PKEY_FormatString
+                  href: windowsribbon-reference-properties-uipkey-formatstring.md
+                - name: UI_PKEY_Increment
+                  href: windowsribbon-reference-properties-uipkey-increment.md
+                - name: UI_PKEY_MaxValue
+                  href: windowsribbon-reference-properties-uipkey-maxvalue.md
+                - name: UI_PKEY_MinValue
+                  href: windowsribbon-reference-properties-uipkey-minvalue.md
+                - name: UI_PKEY_Pinned
+                  href: windowsribbon-reference-properties-uipkey-pinned.md
+                - name: UI_PKEY_RecentItems
+                  href: windowsribbon-reference-properties-uipkey-recentitems.md
+                - name: UI_PKEY_RepresentativeString
+                  href: windowsribbon-reference-properties-uipkey-representativestring.md
+                - name: UI_PKEY_StringValue
+                  href: windowsribbon-reference-properties-uipkey-stringvalue.md
+        - name: 結構
+          href: structures.md
+          items:
+            - name: UI_EVENTPARAMS
+              href: /windows/win32/api/Uiribbon/ns-uiribbon-ui_eventparams
+            - name: UI_EVENTPARAMS_COMMAND
+              href: /windows/win32/api/Uiribbon/ns-uiribbon-ui_eventparams_command
+    - name: 功能區架構範例
+      href: windowsribbon-samples-entry.md
+      items:
+        - name: SimpleRibbon 範例
+          href: windowsribbon-sample1.md
+        - name: CoNtextPopup 範例
+          href: windowsribbon-contextpopupsample.md
+        - name: DropDownColorPicker 範例
+          href: windowsribbon-dropdowncolorpickersample.md
+        - name: 資源庫範例
+          href: windowsribbon-gallerysample.md
+        - name: HTMLEditRibbon 範例
+          href: windowsribbon-htmleditribbonsample.md
+        - name: FontControl 範例
+          href: windowsribbon-fontcontrolsample.md
+    - name: 功能區架構詞彙
+      href: windowsribbon-glossary.md

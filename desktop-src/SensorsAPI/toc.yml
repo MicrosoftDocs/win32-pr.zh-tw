@@ -1,0 +1,218 @@
+- name: 感應器 API
+  href: portal.md
+  items:
+    - name: 開始使用
+      href: getting-started.md
+      items:
+        - name: Windows 感應器和位置平台的總覽
+          href: introduction-to-the-sensor-and-location-platform-in-windows.md
+        - name: 感應器和位置平臺的隱私權與安全性
+          href: privacy-and-security-in-the-sensor-and-location-platform.md
+        - name: 應用程式開發的一般需求
+          href: general-requirements-for-application-development.md
+        - name: 關於範例和工具
+          href: about-the-samples.md
+    - name: 關於感應器 API
+      href: about-the-sensor-api.md
+      items:
+        - name: 感應器管理員物件
+          href: the-sensor-manager.md
+        - name: 感應器物件
+          href: the-sensor-object.md
+        - name: 感應器集合物件
+          href: the-sensor-collection-object.md
+        - name: 感應器資料包表物件
+          href: the-sensor-data-report-object.md
+        - name: 關於感應器 API 事件
+          href: about-sensor-events.md
+        - name: 關於感應器常數
+          href: about-sensor-constants.md
+        - name: 管理使用者權限
+          href: managing-user-permissions.md
+        - name: 關於邏輯感應器
+          href: about-logical-sensors.md
+    - name: 感應器 API 程式設計指南
+      href: sensor-api-programming-guide.md
+      items:
+        - name: 取出感應器物件
+          href: retrieving-a-sensor.md
+        - name: 要求使用者權限
+          href: requesting-user-permissions.md
+        - name: 正在抓取和設定感應器屬性
+          href: setting-and-retrieving-sensor-properties.md
+        - name: 檢查支援的感應器資料欄位
+          href: checking-for-supported-sensor-data-fields.md
+        - name: 使用感應器 API 事件
+          href: using-sensor-api-events.md
+        - name: 正在捕獲感應器資料值
+          href: retrieving-sensor-data-fields.md
+        - name: 正在抓取向量類型
+          href: retrieving-vector-types.md
+        - name: 使用邏輯感應器
+          href: using-logical-sensors.md
+        - name: 建立 Light-Aware 使用者介面
+          href: creating-light-aware-user-interfaces.md
+          items:
+            - name: Light-Aware 的使用者介面基礎
+              href: fundamentals-of-light-aware-user-interfaces.md
+            - name: Light-Aware 使用者介面的範例
+              href: examples-of-light-aware-user-interfaces.md
+            - name: 優化使用者體驗
+              href: optimizing-the-user-experience.md
+            - name: 瞭解和解讀 Lux 值
+              href: understanding-and-interpreting-lux-values.md
+            - name: 使用 Light 感應器資料
+              href: handling-data-from-multiple-light-sensors.md
+    - name: 感應器 API 程式設計參考
+      href: sensor-api-programming-reference.md
+      items:
+        - name: COM 介面
+          href: windows-sensors-com-interfaces.md
+          items:
+            - name: ILocationPermissions
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions
+              items:
+                - name: GetGlobalLocationPermission 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-getgloballocationpermission
+                - name: CheckLocationCapability 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-checklocationcapability
+            - name: ILogicalSensorManager
+              href: /previous-versions/windows/desktop/legacy/dd318934(v=vs.85)
+              items:
+                - name: Connect 方法
+                  href: /previous-versions/windows/desktop/legacy/dd374029(v=vs.85)
+                - name: Disconnect 方法
+                  href: /previous-versions/windows/desktop/legacy/dd374030(v=vs.85)
+                - name: 卸載方法
+                  href: /previous-versions/windows/desktop/legacy/dd374031(v=vs.85)
+            - name: ISensor
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensor
+              items:
+                - name: GetCategory 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getcategory
+                - name: 的一種方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getdata
+                - name: GetEventInterest 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-geteventinterest
+                - name: GetFriendlyName 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getfriendlyname
+                - name: GetID 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getid
+                - name: GetProperties 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties
+                - name: GetProperty 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperty
+                - name: '>getstate 方法'
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getstate
+                - name: GetSupportedDataFields 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getsupporteddatafields
+                - name: GetType 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-gettype
+                - name: SetEventInterest 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest
+                - name: SetEventSink 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventsink
+                - name: SetProperties 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-setproperties
+                - name: SupportsDataField 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-supportsdatafield
+                - name: SupportsEvent 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-supportsevent
+            - name: ISensorCollection
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection
+              items:
+                - name: 新增方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-add
+                - name: Clear 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-clear
+                - name: GetAt 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-getat
+                - name: GetCount 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-getcount
+                - name: Remove 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-remove
+                - name: RemoveByID 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-removebyid
+            - name: ISensorDataReport
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport
+              items:
+                - name: GetSensorValue 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensordatareport-getsensorvalue
+                - name: GetSensorValues 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensordatareport-getsensorvalues
+                - name: GetTimestamp 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensordatareport-gettimestamp
+            - name: ISensorEvents
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents
+              items:
+                - name: OnEvent 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onevent
+                - name: OnDataUpdated 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-ondataupdated
+                - name: OnLeave 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onleave
+                - name: OnStateChanged 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged
+            - name: ISensorManager
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager
+              items:
+                - name: GetSensorByID 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid
+                - name: GetSensorsByCategory 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorsbycategory
+                - name: GetSensorsByType 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorsbytype
+                - name: RequestPermissions 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions
+                - name: SetEventSink 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-seteventsink
+            - name: ISensorManagerEvents
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents
+              items:
+                - name: OnSensorEnter 方法
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanagerevents-onsensorenter
+        - name: 列舉類型
+          href: enumeration-types.md
+          items:
+            - name: MagnetometerAccuracy
+              href: /windows/desktop/api/sensorsapi/ne-sensorsapi-magnetometeraccuracy
+            - name: SensorConnectionType
+              href: /windows/desktop/api/sensorsapi/ne-sensorsapi-sensorconnectiontype
+            - name: SensorState
+              href: /windows/desktop/api/sensorsapi/ne-sensorsapi-sensorstate
+        - name: 常數
+          href: constants.md
+          items:
+            - name: 感應器類別、類型和資料欄位
+              href: sensor-categories--types--and-datafields.md
+              items:
+                - name: SENSOR_CATEGORY_ALL
+                  href: sensor-category-all.md
+                - name: SENSOR_CATEGORY_BIOMETRIC
+                  href: sensor-category-biometric.md
+                - name: SENSOR_CATEGORY_ELECTRICAL
+                  href: sensor-category-electrical.md
+                - name: SENSOR_CATEGORY_ENVIRONMENTAL
+                  href: sensor-category-environmental.md
+                - name: SENSOR_CATEGORY_LIGHT
+                  href: sensor-category-light.md
+                - name: SENSOR_CATEGORY_LOCATION
+                  href: sensor-category-location.md
+                - name: SENSOR_CATEGORY_MECHANICAL
+                  href: sensor-category-mechanical.md
+                - name: SENSOR_CATEGORY_MOTION
+                  href: sensor-category-motion.md
+                - name: SENSOR_CATEGORY_ORIENTATION
+                  href: sensor-category-orientation.md
+                - name: SENSOR_CATEGORY_OTHER
+                  href: sensor-category-other.md
+                - name: SENSOR_CATEGORY_SCANNER
+                  href: sensor-category-scanner.md
+                - name: SENSOR_CATEGORY_UNSUPPORTED
+                  href: sensor-category-unsupported.md
+            - name: 感應器屬性
+              href: sensor-properties.md
+            - name: 事件常數
+              href: event-constants.md
+    - name: 感應器 API 詞彙
+      href: sensors-glossary.md
