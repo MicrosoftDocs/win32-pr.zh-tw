@@ -1,0 +1,3024 @@
+- name: Windows 屬性系統
+  href: windows-properties-system.md
+  items:
+    - name: 屬性系統概觀
+      href: property-system-overview.md
+    - name: 屬性系統開發人員指南
+      href: property-system-developer-s-guide.md
+      items:
+        - name: 建立自訂屬性
+          href: building-property-handlers-property-schemas.md
+          items:
+            - name: 瞭解屬性描述架構
+              href: propdesc-schema-entry.md
+        - name: 執行屬性處理常式
+          href: building-property-handlers.md
+          items:
+            - name: 瞭解屬性處理常式
+              href: building-property-handlers-properties.md
+            - name: 使用種類名稱
+              href: building-property-handlers-user-friendly-kind-names.md
+            - name: 使用屬性清單
+              href: building-property-handlers-property-lists.md
+            - name: 初始化屬性處理常式
+              href: building-property-handlers-property-handlers.md
+            - name: 註冊和散發屬性處理常式
+              href: prophand-reg-dist.md
+            - name: 屬性處理常式的最佳作法和常見問題
+              href: prophand-bestprac-faq.md
+    - name: 屬性系統參考
+      href: property-system-reference.md
+      items:
+        - name: Windows 屬性
+          href: props.md
+          items:
+            - name: 音訊
+              href: audio-bumper.md
+              items:
+                - name: ChannelCount
+                  href: props-system-audio-channelcount.md
+                - name: 系統. 壓縮
+                  href: props-system-audio-compression.md
+                - name: EncodingBitrate
+                  href: props-system-audio-encodingbitrate.md
+                - name: System.string. Format
+                  href: props-system-audio-format.md
+                - name: IsVariableBitRate
+                  href: props-system-audio-isvariablebitrate.md
+                - name: PeakValue
+                  href: props-system-audio-peakvalue.md
+                - name: SampleRate
+                  href: props-system-audio-samplerate.md
+                - name: SampleSize
+                  href: props-system-audio-samplesize.md
+                - name: StreamName
+                  href: props-system-audio-streamname.md
+                - name: StreamNumber
+                  href: props-system-audio-streamnumber.md
+            - name: Calendar
+              href: calendar-bumper.md
+              items:
+                - name: System.object。持續時間
+                  href: props-system-calendar-duration.md
+                - name: IsOnline
+                  href: props-system-calendar-isonline.md
+                - name: IsRecurring
+                  href: props-system-calendar-isrecurring.md
+                - name: 系統日曆。位置
+                  href: props-system-calendar-location.md
+                - name: OptionalAttendeeAddresses
+                  href: props-system-calendar-optionalattendeeaddresses.md
+                - name: OptionalAttendeeNames
+                  href: props-system-calendar-optionalattendeenames.md
+                - name: OrganizerAddress
+                  href: props-system-calendar-organizeraddress.md
+                - name: OrganizerName
+                  href: props-system-calendar-organizername.md
+                - name: ReminderTime
+                  href: props-system-calendar-remindertime.md
+                - name: RequiredAttendeeAddresses
+                  href: props-system-calendar-requiredattendeeaddresses.md
+                - name: RequiredAttendeeNames
+                  href: props-system-calendar-requiredattendeenames.md
+                - name: 系統日曆
+                  href: props-system-calendar-resources.md
+                - name: ResponseStatus
+                  href: props-system-calendar-responsestatus.md
+                - name: ShowTimeAs
+                  href: props-system-calendar-showtimeas.md
+                - name: ShowTimeAsText
+                  href: props-system-calendar-showtimeastext.md
+            - name: 通訊
+              href: communication-bumper.md
+              items:
+                - name: System.servicemodel
+                  href: props-system-communication-accountname.md
+                - name: DateItemExpires
+                  href: props-system-communication-dateitemexpires.md
+                - name: 系統。方向
+                  href: props-system-communication-direction.md
+                - name: FollowupIconIndex
+                  href: props-system-communication-followupiconindex.md
+                - name: HeaderItem
+                  href: props-system-communication-headeritem.md
+                - name: PolicyTag
+                  href: props-system-communication-policytag.md
+                - name: SecurityFlags
+                  href: props-system-communication-securityflags.md
+                - name: System.object
+                  href: props-system-communication-suffix.md
+                - name: TaskStatus
+                  href: props-system-communication-taskstatus.md
+                - name: TaskStatusText
+                  href: props-system-communication-taskstatustext.md
+            - name: 電腦
+              href: computer-bumper.md
+              items:
+                - name: DecoratedFreeSpace
+                  href: props-system-computer-decoratedfreespace.md
+            - name: Contact
+              href: contact-bumper.md
+              items:
+                - name: AccountPictureDynamicVideo
+                  href: props-system-contact-accountpicturedynamicvideo.md
+                - name: AccountPictureLarge
+                  href: props-system-contact-accountpicturelarge.md
+                - name: AccountPictureSmall
+                  href: props-system-contact-accountpicturesmall.md
+                - name: System.object
+                  href: props-system-contact-anniversary.md
+                - name: AssistantName
+                  href: props-system-contact-assistantname.md
+                - name: AssistantTelephone
+                  href: props-system-contact-assistanttelephone.md
+                - name: System.object。生日
+                  href: props-system-contact-birthday.md
+                - name: BusinessAddress
+                  href: props-system-contact-businessaddress.md
+                - name: BusinessAddress1Country
+                  href: props-system-contact-businessaddress1country.md
+                - name: BusinessAddress1Locality
+                  href: props-system-contact-businessaddress1locality.md
+                - name: BusinessAddress1PostalCode
+                  href: props-system-contact-businessaddress1postalcode.md
+                - name: BusinessAddress1Region
+                  href: props-system-contact-businessaddress1region.md
+                - name: BusinessAddress1Street
+                  href: props-system-contact-businessaddress1street.md
+                - name: BusinessAddress2Country
+                  href: props-system-contact-businessaddress2country.md
+                - name: BusinessAddress2Locality
+                  href: props-system-contact-businessaddress2locality.md
+                - name: BusinessAddress2PostalCode
+                  href: props-system-contact-businessaddress2postalcode.md
+                - name: BusinessAddress2Region
+                  href: props-system-contact-businessaddress2region.md
+                - name: BusinessAddress2Street
+                  href: props-system-contact-businessaddress2street.md
+                - name: BusinessAddress3Country
+                  href: props-system-contact-businessaddress3country.md
+                - name: BusinessAddress3Locality
+                  href: props-system-contact-businessaddress3locality.md
+                - name: BusinessAddress3PostalCode
+                  href: props-system-contact-businessaddress3postalcode.md
+                - name: BusinessAddress3Region
+                  href: props-system-contact-businessaddress3region.md
+                - name: BusinessAddress3Street
+                  href: props-system-contact-businessaddress3street.md
+                - name: BusinessAddressCity
+                  href: props-system-contact-businessaddresscity.md
+                - name: BusinessAddressCountry
+                  href: props-system-contact-businessaddresscountry.md
+                - name: BusinessAddressPostalCode
+                  href: props-system-contact-businessaddresspostalcode.md
+                - name: BusinessAddressPostOfficeBox
+                  href: props-system-contact-businessaddresspostofficebox.md
+                - name: BusinessAddressState
+                  href: props-system-contact-businessaddressstate.md
+                - name: BusinessAddressStreet
+                  href: props-system-contact-businessaddressstreet.md
+                - name: BusinessEmailAddresses
+                  href: props-system-contact-businessemailaddresses.md
+                - name: BusinessFaxNumber
+                  href: props-system-contact-businessfaxnumber.md
+                - name: BusinessHomePage
+                  href: props-system-contact-businesshomepage.md
+                - name: BusinessTelephone
+                  href: props-system-contact-businesstelephone.md
+                - name: CallbackTelephone
+                  href: props-system-contact-callbacktelephone.md
+                - name: CarTelephone
+                  href: props-system-contact-cartelephone.md
+                - name: System.object
+                  href: props-system-contact-children.md
+                - name: CompanyMainTelephone
+                  href: props-system-contact-companymaintelephone.md
+                - name: ConnectedServiceDisplayName
+                  href: props-system-contact-connectedservicedisplayname.md
+                - name: ConnectedServiceIdentities
+                  href: props-system-contact-connectedserviceidentities.md
+                - name: ConnectedServiceName
+                  href: props-system-contact-connectedservicename.md
+                - name: ConnectedServiceSupportedActions
+                  href: props-system-contact-connectedservicesupportedactions.md
+                - name: DataSuppliers
+                  href: props-system-contact-datasuppliers.md
+                - name: System. Contact
+                  href: props-system-contact-department.md
+                - name: DisplayBusinessPhoneNumbers
+                  href: props-system-contact-displaybusinessphonenumbers.md
+                - name: DisplayHomePhoneNumbers
+                  href: props-system-contact-displayhomephonenumbers.md
+                - name: DisplayMobilePhoneNumbers
+                  href: props-system-contact-displaymobilephonenumbers.md
+                - name: DisplayOtherPhoneNumbers
+                  href: props-system-contact-displayotherphonenumbers.md
+                - name: EmailAddress
+                  href: props-system-contact-emailaddress.md
+                - name: EmailAddress2
+                  href: props-system-contact-emailaddress2.md
+                - name: EmailAddress3
+                  href: props-system-contact-emailaddress3.md
+                - name: EmailAddresses
+                  href: props-system-contact-emailaddresses.md
+                - name: EmailName
+                  href: props-system-contact-emailname.md
+                - name: FileAsName
+                  href: props-system-contact-fileasname.md
+                - name: System.object
+                  href: props-system-contact-firstname.md
+                - name: System.object
+                  href: props-system-contact-fullname.md
+                - name: System.string
+                  href: props-system-contact-gender.md
+                - name: GenderValue
+                  href: props-system-contact-gendervalue.md
+                - name: System.object
+                  href: props-system-contact-hobbies.md
+                - name: HomeAddress
+                  href: props-system-contact-homeaddress.md
+                - name: HomeAddress1Country
+                  href: props-system-contact-homeaddress1country.md
+                - name: HomeAddress1Locality
+                  href: props-system-contact-homeaddress1locality.md
+                - name: HomeAddress1PostalCode
+                  href: props-system-contact-homeaddress1postalcode.md
+                - name: HomeAddress1Region
+                  href: props-system-contact-homeaddress1region.md
+                - name: HomeAddress1Street
+                  href: props-system-contact-homeaddress1street.md
+                - name: HomeAddress2Country
+                  href: props-system-contact-homeaddress2country.md
+                - name: HomeAddress2Locality
+                  href: props-system-contact-homeaddress2locality.md
+                - name: HomeAddress2PostalCode
+                  href: props-system-contact-homeaddress2postalcode.md
+                - name: HomeAddress2Region
+                  href: props-system-contact-homeaddress2region.md
+                - name: HomeAddress2Street
+                  href: props-system-contact-homeaddress2street.md
+                - name: HomeAddress3Country
+                  href: props-system-contact-homeaddress3country.md
+                - name: HomeAddress3Locality
+                  href: props-system-contact-homeaddress3locality.md
+                - name: HomeAddress3PostalCode
+                  href: props-system-contact-homeaddress3postalcode.md
+                - name: HomeAddress3Region
+                  href: props-system-contact-homeaddress3region.md
+                - name: HomeAddress3Street
+                  href: props-system-contact-homeaddress3street.md
+                - name: HomeAddressCity
+                  href: props-system-contact-homeaddresscity.md
+                - name: HomeAddressCountry
+                  href: props-system-contact-homeaddresscountry.md
+                - name: HomeAddressPostalCode
+                  href: props-system-contact-homeaddresspostalcode.md
+                - name: HomeAddressPostOfficeBox
+                  href: props-system-contact-homeaddresspostofficebox.md
+                - name: HomeAddressState
+                  href: props-system-contact-homeaddressstate.md
+                - name: HomeAddressStreet
+                  href: props-system-contact-homeaddressstreet.md
+                - name: HomeEmailAddresses
+                  href: props-system-contact-homeemailaddresses.md
+                - name: HomeFaxNumber
+                  href: props-system-contact-homefaxnumber.md
+                - name: HomeTelephone
+                  href: props-system-contact-hometelephone.md
+                - name: IMAddress
+                  href: props-system-contact-imaddress.md
+                - name: System.Contact.Initials
+                  href: props-system-contact-initials.md
+                - name: System.object CompanyNamePhonetic
+                  href: props-system-contact-ja-companynamephonetic.md
+                - name: System.object FirstNamePhonetic
+                  href: props-system-contact-ja-firstnamephonetic.md
+                - name: System.object LastNamePhonetic
+                  href: props-system-contact-ja-lastnamephonetic.md
+                - name: JobInfo1CompanyAddress
+                  href: props-system-contact-jobinfo1companyaddress.md
+                - name: JobInfo1CompanyName
+                  href: props-system-contact-jobinfo1companyname.md
+                - name: JobInfo1Department
+                  href: props-system-contact-jobinfo1department.md
+                - name: JobInfo1Manager
+                  href: props-system-contact-jobinfo1manager.md
+                - name: JobInfo1OfficeLocation
+                  href: props-system-contact-jobinfo1officelocation.md
+                - name: JobInfo1Title
+                  href: props-system-contact-jobinfo1title.md
+                - name: JobInfo1YomiCompanyName
+                  href: props-system-contact-jobinfo1yomicompanyname.md
+                - name: JobInfo2CompanyAddress
+                  href: props-system-contact-jobinfo2companyaddress.md
+                - name: JobInfo2CompanyName
+                  href: props-system-contact-jobinfo2companyname.md
+                - name: JobInfo2Department
+                  href: props-system-contact-jobinfo2department.md
+                - name: JobInfo2Manager
+                  href: props-system-contact-jobinfo2manager.md
+                - name: JobInfo2OfficeLocation
+                  href: props-system-contact-jobinfo2officelocation.md
+                - name: JobInfo2Title
+                  href: props-system-contact-jobinfo2title.md
+                - name: JobInfo2YomiCompanyName
+                  href: props-system-contact-jobinfo2yomicompanyname.md
+                - name: JobInfo3CompanyAddress
+                  href: props-system-contact-jobinfo3companyaddress.md
+                - name: JobInfo3CompanyName
+                  href: props-system-contact-jobinfo3companyname.md
+                - name: JobInfo3Department
+                  href: props-system-contact-jobinfo3department.md
+                - name: JobInfo3Manager
+                  href: props-system-contact-jobinfo3manager.md
+                - name: JobInfo3OfficeLocation
+                  href: props-system-contact-jobinfo3officelocation.md
+                - name: JobInfo3Title
+                  href: props-system-contact-jobinfo3title.md
+                - name: JobInfo3YomiCompanyName
+                  href: props-system-contact-jobinfo3yomicompanyname.md
+                - name: JobTitle
+                  href: props-system-contact-jobtitle.md
+                - name: System. Contact. Label
+                  href: props-system-contact-label.md
+                - name: System.object
+                  href: props-system-contact-lastname.md
+                - name: MailingAddress
+                  href: props-system-contact-mailingaddress.md
+                - name: MiddleName
+                  href: props-system-contact-middlename.md
+                - name: MobileTelephone
+                  href: props-system-contact-mobiletelephone.md
+                - name: System.object
+                  href: props-system-contact-nickname.md
+                - name: OfficeLocation
+                  href: props-system-contact-officelocation.md
+                - name: OtherAddress
+                  href: props-system-contact-otheraddress.md
+                - name: OtherAddress1Country
+                  href: props-system-contact-otheraddress1country.md
+                - name: OtherAddress1Locality
+                  href: props-system-contact-otheraddress1locality.md
+                - name: OtherAddress1PostalCode
+                  href: props-system-contact-otheraddress1postalcode.md
+                - name: OtherAddress1Region
+                  href: props-system-contact-otheraddress1region.md
+                - name: OtherAddress1Street
+                  href: props-system-contact-otheraddress1street.md
+                - name: OtherAddress2Country
+                  href: props-system-contact-otheraddress2country.md
+                - name: OtherAddress2Locality
+                  href: props-system-contact-otheraddress2locality.md
+                - name: OtherAddress2PostalCode
+                  href: props-system-contact-otheraddress2postalcode.md
+                - name: OtherAddress2Region
+                  href: props-system-contact-otheraddress2region.md
+                - name: OtherAddress2Street
+                  href: props-system-contact-otheraddress2street.md
+                - name: OtherAddress3Country
+                  href: props-system-contact-otheraddress3country.md
+                - name: OtherAddress3Locality
+                  href: props-system-contact-otheraddress3locality.md
+                - name: OtherAddress3PostalCode
+                  href: props-system-contact-otheraddress3postalcode.md
+                - name: OtherAddress3Region
+                  href: props-system-contact-otheraddress3region.md
+                - name: OtherAddress3Street
+                  href: props-system-contact-otheraddress3street.md
+                - name: OtherAddressCity
+                  href: props-system-contact-otheraddresscity.md
+                - name: OtherAddressCountry
+                  href: props-system-contact-otheraddresscountry.md
+                - name: OtherAddressPostalCode
+                  href: props-system-contact-otheraddresspostalcode.md
+                - name: OtherAddressPostOfficeBox
+                  href: props-system-contact-otheraddresspostofficebox.md
+                - name: OtherAddressState
+                  href: props-system-contact-otheraddressstate.md
+                - name: OtherAddressStreet
+                  href: props-system-contact-otheraddressstreet.md
+                - name: OtherEmailAddresses
+                  href: props-system-contact-otheremailaddresses.md
+                - name: PagerTelephone
+                  href: props-system-contact-pagertelephone.md
+                - name: PersonalTitle
+                  href: props-system-contact-personaltitle.md
+                - name: PhoneNumbersCanonical
+                  href: props-system-contact-phonenumberscanonical.md
+                - name: Contact. Prefix
+                  href: props-system-contact-prefix.md
+                - name: PrimaryAddressCity
+                  href: props-system-contact-primaryaddresscity.md
+                - name: PrimaryAddressCountry
+                  href: props-system-contact-primaryaddresscountry.md
+                - name: PrimaryAddressPostalCode
+                  href: props-system-contact-primaryaddresspostalcode.md
+                - name: PrimaryAddressPostOfficeBox
+                  href: props-system-contact-primaryaddresspostofficebox.md
+                - name: PrimaryAddressState
+                  href: props-system-contact-primaryaddressstate.md
+                - name: PrimaryAddressStreet
+                  href: props-system-contact-primaryaddressstreet.md
+                - name: PrimaryEmailAddress
+                  href: props-system-contact-primaryemailaddress.md
+                - name: PrimaryTelephone
+                  href: props-system-contact-primarytelephone.md
+                - name: System.object
+                  href: props-system-contact-profession.md
+                - name: SpouseName
+                  href: props-system-contact-spousename.md
+                - name: System. Contact
+                  href: props-system-contact-suffix.md
+                - name: TelexNumber
+                  href: props-system-contact-telexnumber.md
+                - name: TTYTDDTelephone
+                  href: props-system-contact-ttytddtelephone.md
+                - name: System. Contact
+                  href: props-system-contact-webpage.md
+                - name: Webpage2
+                  href: props-system-contact-webpage2.md
+                - name: Webpage3
+                  href: props-system-contact-webpage3.md
+            - name: 核心
+              href: core-bumper.md
+              items:
+                - name: System. AcquisitionID
+                  href: props-system-acquisitionid.md
+                - name: System. ApplicationDefinedProperties
+                  href: props-system-applicationdefinedproperties.md
+                - name: System.servicemodel
+                  href: props-system-applicationname.md
+                - name: System. AppZoneIdentifier
+                  href: props-system-appzoneidentifier.md
+                - name: System.Author
+                  href: props-system-author.md
+                - name: System. CachedFileUpdaterContentIdForConflictResolution
+                  href: props-system-cachedfileupdatercontentidforconflictresolution.md
+                - name: System. CachedFileUpdaterContentIdForStream
+                  href: props-system-cachedfileupdatercontentidforstream.md
+                - name: 系統容量
+                  href: props-system-capacity.md
+                - name: System. Category
+                  href: props-system-category.md
+                - name: System. Comment
+                  href: props-system-comment.md
+                - name: Company
+                  href: props-system-company.md
+                - name: System.object
+                  href: props-system-computername.md
+                - name: System. ContainedItems
+                  href: props-system-containeditems.md
+                - name: System. ContentStatus
+                  href: props-system-contentstatus.md
+                - name: System.object
+                  href: props-system-contenttype.md
+                - name: 系統著作權
+                  href: props-system-copyright.md
+                - name: System. CreatorAppId
+                  href: props-system-creatorappid.md
+                - name: System. CreatorOpenWithUIOptions
+                  href: props-system-creatoropenwithuioptions.md
+                - name: System. DataObjectFormat
+                  href: props-system-dataobjectformat.md
+                - name: System. DateAccessed
+                  href: props-system-dateaccessed.md
+                - name: System. DateAcquired
+                  href: props-system-dateacquired.md
+                - name: System. DateArchived
+                  href: props-system-datearchived.md
+                - name: System. DateCompleted
+                  href: props-system-datecompleted.md
+                - name: System. DateCreated
+                  href: props-system-datecreated.md
+                - name: System. DateImported
+                  href: props-system-dateimported.md
+                - name: System. DateModified
+                  href: props-system-datemodified.md
+                - name: System. DefaultSaveLocationDisplay
+                  href: props-system-defaultsavelocationdisplay.md
+                - name: System. DueDate
+                  href: props-system-duedate.md
+                - name: System.object
+                  href: props-system-enddate.md
+                - name: System. ExpandoProperties
+                  href: props-system-expandoproperties.md
+                - name: System. FileAllocationSize
+                  href: props-system-fileallocationsize.md
+                - name: System. FileAttributes
+                  href: props-system-fileattributes.md
+                - name: System. FileCount
+                  href: props-system-filecount.md
+                - name: System. FileDescription
+                  href: props-system-filedescription.md
+                - name: System. FileExtension
+                  href: props-system-fileextension.md
+                - name: System. FileFRN
+                  href: props-system-filefrn.md
+                - name: System.string
+                  href: props-system-filename.md
+                - name: System. FileOfflineAvailabilityStatus
+                  href: props-system-fileofflineavailabilitystatus.md
+                - name: System. FileOwner
+                  href: props-system-fileowner.md
+                - name: System. FilePlaceholderStatus
+                  href: props-system-fileplaceholderstatus.md
+                - name: System. FileVersion
+                  href: props-system-fileversion.md
+                - name: System. FindData
+                  href: props-system-finddata.md
+                - name: System. FlagColor
+                  href: props-system-flagcolor.md
+                - name: System. FlagColorText
+                  href: props-system-flagcolortext.md
+                - name: System. FlagStatus
+                  href: props-system-flagstatus.md
+                - name: System. FlagStatusText
+                  href: props-system-flagstatustext.md
+                - name: System. FolderKind
+                  href: props-system-folderkind.md
+                - name: System. FolderNameDisplay
+                  href: props-system-foldernamedisplay.md
+                - name: System.servicemodel
+                  href: props-system-freespace.md
+                - name: System. 全文檢索
+                  href: props-system-fulltext.md
+                - name: System. HighKeywords
+                  href: props-system-highkeywords.md
+                - name: System. ImageParsingName
+                  href: props-system-imageparsingname.md
+                - name: System. 重要性
+                  href: props-system-importance.md
+                - name: System. ImportanceText
+                  href: props-system-importancetext.md
+                - name: System. IsAttachment
+                  href: props-system-isattachment.md
+                - name: System. IsDefaultNonOwnerSaveLocation
+                  href: props-system-isdefaultnonownersavelocation.md
+                - name: System. IsDefaultSaveLocation
+                  href: props-system-isdefaultsavelocation.md
+                - name: System. IsDeleted
+                  href: props-system-isdeleted.md
+                - name: System. IsEncrypted
+                  href: props-system-isencrypted.md
+                - name: System. IsFlagged
+                  href: props-system-isflagged.md
+                - name: System. IsFlaggedComplete
+                  href: props-system-isflaggedcomplete.md
+                - name: System. IsIncomplete
+                  href: props-system-isincomplete.md
+                - name: System. IsLocationSupported
+                  href: props-system-islocationsupported.md
+                - name: System. IsPinnedToNameSpaceTree
+                  href: props-system-ispinnedtonamespacetree.md
+                - name: System. IsRead
+                  href: props-system-isread.md
+                - name: System. IsSearchOnlyItem
+                  href: props-system-issearchonlyitem.md
+                - name: System. IsSendToTarget
+                  href: props-system-issendtotarget.md
+                - name: System. IsShared
+                  href: props-system-isshared.md
+                - name: System. ItemAuthors
+                  href: props-system-itemauthors.md
+                - name: System. ItemClassType
+                  href: props-system-itemclasstype.md
+                - name: System. ItemDate
+                  href: props-system-itemdate.md
+                - name: System. ItemFolderNameDisplay
+                  href: props-system-itemfoldernamedisplay.md
+                - name: System. ItemFolderPathDisplay
+                  href: props-system-itemfolderpathdisplay.md
+                - name: System. ItemFolderPathDisplayNarrow
+                  href: props-system-itemfolderpathdisplaynarrow.md
+                - name: System.servicemodel
+                  href: props-system-itemname.md
+                - name: System.ItemNameDisplay
+                  href: props-system-itemnamedisplay.md
+                - name: System. ItemNameDisplayWithoutExtension
+                  href: props-system-itemnamedisplaywithoutextension.md
+                - name: System. ItemNamePrefix
+                  href: props-system-itemnameprefix.md
+                - name: System. ItemNameSortOverride
+                  href: props-system-itemnamesortoverride.md
+                - name: System. ItemParticipants
+                  href: props-system-itemparticipants.md
+                - name: System. ItemPathDisplay
+                  href: props-system-itempathdisplay.md
+                - name: System. ItemPathDisplayNarrow
+                  href: props-system-itempathdisplaynarrow.md
+                - name: System. ItemSubType
+                  href: props-system-itemsubtype.md
+                - name: System.servicemodel
+                  href: props-system-itemtype.md
+                - name: System. ItemTypeText
+                  href: props-system-itemtypetext.md
+                - name: System. ItemUrl
+                  href: props-system-itemurl.md
+                - name: System.Keywords
+                  href: props-system-keywords.md
+                - name: System.string
+                  href: props-system-kind.md
+                - name: System. KindText
+                  href: props-system-kindtext.md
+                - name: System. Language
+                  href: props-system-language.md
+                - name: System. LastSyncError
+                  href: props-system-lastsyncerror.md
+                - name: System. LastWriterPackageFamilyName
+                  href: props-system-lastwriterpackagefamilyname.md
+                - name: System. LowKeywords
+                  href: props-system-lowkeywords.md
+                - name: System. MediumKeywords
+                  href: props-system-mediumkeywords.md
+                - name: System. MileageInformation
+                  href: props-system-mileageinformation.md
+                - name: System. MIMEType
+                  href: props-system-mimetype.md
+                - name: System.string
+                  href: props-system-null.md
+                - name: System. OfflineAvailability
+                  href: props-system-offlineavailability.md
+                - name: System. OfflineStatus
+                  href: props-system-offlinestatus.md
+                - name: System. OriginalFileName
+                  href: props-system-originalfilename.md
+                - name: System. OwnerSID
+                  href: props-system-ownersid.md
+                - name: System. ParentalRating
+                  href: props-system-parentalrating.md
+                - name: System. ParentalRatingReason
+                  href: props-system-parentalratingreason.md
+                - name: System. ParentalRatingsOrganization
+                  href: props-system-parentalratingsorganization.md
+                - name: System. ParsingBindCoNtext
+                  href: props-system-parsingbindcontext.md
+                - name: System. ParsingName
+                  href: props-system-parsingname.md
+                - name: System. ParsingPath
+                  href: props-system-parsingpath.md
+                - name: System.PerceivedType
+                  href: props-system-perceivedtype.md
+                - name: System. PercentFull
+                  href: props-system-percentfull.md
+                - name: System. Priority
+                  href: props-system-priority.md
+                - name: System. PriorityText
+                  href: props-system-prioritytext.md
+                - name: System. 專案
+                  href: props-system-project.md
+                - name: System. ProviderItemID
+                  href: props-system-provideritemid.md
+                - name: 系統評分
+                  href: props-system-rating.md
+                - name: System. Event.ratingtext
+                  href: props-system-ratingtext.md
+                - name: System. RemoteConflictingFile
+                  href: props-system-remoteconflictingfile.md
+                - name: 系統敏感性
+                  href: props-system-sensitivity.md
+                - name: System. SensitivityText
+                  href: props-system-sensitivitytext.md
+                - name: System. SFGAOFlags
+                  href: props-system-sfgaoflags.md
+                - name: System. SharedWith
+                  href: props-system-sharedwith.md
+                - name: System. ShareUserRating
+                  href: props-system-shareuserrating.md
+                - name: System. SharingStatus
+                  href: props-system-sharingstatus.md
+                - name: OmitFromView
+                  href: props-system-shell-omitfromview.md
+                - name: System. SimpleRating
+                  href: props-system-simplerating.md
+                - name: System. Size
+                  href: props-system-size.md
+                - name: System. SoftwareUsed
+                  href: props-system-softwareused.md
+                - name: System. SourceItem
+                  href: props-system-sourceitem.md
+                - name: System. SourcePackageFamilyName
+                  href: props-system-sourcepackagefamilyname.md
+                - name: System. 開始日期
+                  href: props-system-startdate.md
+                - name: 系統。狀態
+                  href: props-system-status.md
+                - name: System. StorageProviderCallerVersionInformation
+                  href: props-system-storageprovidercallerversioninformation.md
+                - name: System. StorageProviderError
+                  href: props-system-storageprovidererror.md
+                - name: System. StorageProviderFileChecksum
+                  href: props-system-storageproviderfilechecksum.md
+                - name: System. StorageProviderFileIdentifier
+                  href: props-system-storageproviderfileidentifier.md
+                - name: System. StorageProviderFileRemoteUri
+                  href: props-system-storageproviderfileremoteuri.md
+                - name: System. StorageProviderFileVersion
+                  href: props-system-storageproviderfileversion.md
+                - name: System. StorageProviderFileVersionWaterline
+                  href: props-system-storageproviderfileversionwaterline.md
+                - name: System. StorageProviderId
+                  href: props-system-storageproviderid.md
+                - name: System. StorageProviderShareStatuses
+                  href: props-system-storageprovidersharestatuses.md
+                - name: System. StorageProviderSharingStatus
+                  href: props-system-storageprovidersharingstatus.md
+                - name: System. StorageProviderStatus
+                  href: props-system-storageproviderstatus.md
+                - name: System. Subject
+                  href: props-system-subject.md
+                - name: System. SyncTransferStatus
+                  href: props-system-synctransferstatus.md
+                - name: 系統. 縮圖
+                  href: props-system-thumbnail.md
+                - name: System. ThumbnailCacheId
+                  href: props-system-thumbnailcacheid.md
+                - name: System. ThumbnailStream
+                  href: props-system-thumbnailstream.md
+                - name: System.Title
+                  href: props-system-title.md
+                - name: System. TitleSortOverride
+                  href: props-system-titlesortoverride.md
+                - name: System. TotalFileSize
+                  href: props-system-totalfilesize.md
+                - name: 系統商標
+                  href: props-system-trademarks.md
+                - name: System. TransferOrder
+                  href: props-system-transferorder.md
+                - name: System. TransferPosition
+                  href: props-system-transferposition.md
+                - name: System. TransferSize
+                  href: props-system-transfersize.md
+                - name: System.object
+                  href: props-system-volumeid.md
+                - name: System. ZoneIdentifier
+                  href: props-system-zoneidentifier.md
+            - name: 裝置
+              href: devices-bumper.md
+              items:
+                - name: PrinterURL
+                  href: props-system-device-printerurl.md
+                - name: DeviceInterface 藍牙. DeviceAddress
+                  href: props-system-deviceinterface-bluetooth-deviceaddress.md
+                - name: DeviceInterface。
+                  href: props-system-deviceinterface-bluetooth-flags.md
+                - name: DeviceInterface 藍牙. LastConnectedTime
+                  href: props-system-deviceinterface-bluetooth-lastconnectedtime.md
+                - name: DeviceInterface，製造商
+                  href: props-system-deviceinterface-bluetooth-manufacturer.md
+                - name: DeviceInterface 藍牙. ModelNumber
+                  href: props-system-deviceinterface-bluetooth-modelnumber.md
+                - name: DeviceInterface。
+                  href: props-system-deviceinterface-bluetooth-productid.md
+                - name: DeviceInterface 藍牙. ProductVersion
+                  href: props-system-deviceinterface-bluetooth-productversion.md
+                - name: DeviceInterface 藍牙. ServiceGuid
+                  href: props-system-deviceinterface-bluetooth-serviceguid.md
+                - name: DeviceInterface。
+                  href: props-system-deviceinterface-bluetooth-vendorid.md
+                - name: DeviceInterface 藍牙. VendorIdSource
+                  href: props-system-deviceinterface-bluetooth-vendoridsource.md
+                - name: DeviceInterface. IsReadOnly
+                  href: props-system-deviceinterface-hid-isreadonly.md
+                - name: DeviceInterface。 ProductId
+                  href: props-system-deviceinterface-hid-productid.md
+                - name: DeviceInterface. UsageId
+                  href: props-system-deviceinterface-hid-usageid.md
+                - name: DeviceInterface. UsagePage
+                  href: props-system-deviceinterface-hid-usagepage.md
+                - name: DeviceInterface。
+                  href: props-system-deviceinterface-hid-vendorid.md
+                - name: DeviceInterface. VersionNumber
+                  href: props-system-deviceinterface-hid-versionnumber.md
+                - name: DeviceInterface. PrinterDriverDirectory
+                  href: props-system-deviceinterface-printerdriverdirectory.md
+                - name: DeviceInterface. PrinterDriverName
+                  href: props-system-deviceinterface-printerdrivername.md
+                - name: DeviceInterface. PrinterEnumerationFlag
+                  href: props-system-deviceinterface-printerenumerationflag.md
+                - name: DeviceInterface. PrinterName
+                  href: props-system-deviceinterface-printername.md
+                - name: DeviceInterface. PrinterPortName
+                  href: props-system-deviceinterface-printerportname.md
+                - name: DeviceInterface. SupportsNfc
+                  href: props-system-deviceinterface-proximity-supportsnfc.md
+                - name: DeviceInterface. PortName
+                  href: props-system-deviceinterface-serial-portname.md
+                - name: DeviceInterface. UsbProductId
+                  href: props-system-deviceinterface-serial-usbproductid.md
+                - name: DeviceInterface. UsbVendorId
+                  href: props-system-deviceinterface-serial-usbvendorid.md
+                - name: DeviceInterface. WinUsb. DeviceInterfaceClasses
+                  href: props-system-deviceinterface-winusb-deviceinterfaceclasses.md
+                - name: DeviceInterface. WinUsb. UsbClass
+                  href: props-system-deviceinterface-winusb-usbclass.md
+                - name: DeviceInterface. WinUsb. UsbProductId
+                  href: props-system-deviceinterface-winusb-usbproductid.md
+                - name: DeviceInterface. WinUsb. UsbProtocol
+                  href: props-system-deviceinterface-winusb-usbprotocol.md
+                - name: DeviceInterface. WinUsb. UsbSubClass
+                  href: props-system-deviceinterface-winusb-usbsubclass.md
+                - name: DeviceInterface. WinUsb. UsbVendorId
+                  href: props-system-deviceinterface-winusb-usbvendorid.md
+                - name: System.Devices.Aep.AepId
+                  href: props-system-devices-aep-aepid.md
+                - name: Aep 的主要版本。
+                  href: props-system-devices-aep-bluetooth-cod-major.md
+                - name: AepService 藍牙. CacheMode
+                  href: props-system-devices-aepservice-bluetooth-cachemode.md
+                - name: AepService 藍牙. ServiceGuid
+                  href: props-system-devices-aepservice-bluetooth-serviceguid.md
+                - name: AepService 藍牙. TargetDevice
+                  href: props-system-devices-aepservice-bluetooth-targetdevice.md
+                - name: Aep...。
+                  href: props-system-devices-aep-bluetooth-cod-minor.md
+                - name: Aep....。
+                  href: props-system-devices-aep-bluetooth-cod-services-audio.md
+                - name: Aep... a。
+                  href: props-system-devices-aep-bluetooth-cod-services-capturing.md
+                - name: Aep，資訊的資訊。
+                  href: props-system-devices-aep-bluetooth-cod-services-information.md
+                - name: Aep.... LimitedDiscovery
+                  href: props-system-devices-aep-bluetooth-cod-services-limiteddiscovery.md
+                - name: Aep....。
+                  href: props-system-devices-aep-bluetooth-cod-services-networking.md
+                - name: Aep.... ObjectXfer
+                  href: props-system-devices-aep-bluetooth-cod-services-objectxfer.md
+                - name: Aep.....。
+                  href: props-system-devices-aep-bluetooth-cod-services-positioning.md
+                - name: Aep....。
+                  href: props-system-devices-aep-bluetooth-cod-services-rendering.md
+                - name: Aep....。
+                  href: props-system-devices-aep-bluetooth-cod-services-telephony.md
+                - name: Aep... AddressType
+                  href: props-system-devices-aep-bluetooth-le-addresstype.md
+                - name: Aep...。
+                  href: props-system-devices-aep-bluetooth-le-appearance.md
+                - name: Aep...... 類別目錄
+                  href: props-system-devices-aep-bluetooth-le-appearance-category.md
+                - name: Aep。分類子類別目錄
+                  href: props-system-devices-aep-bluetooth-le-appearance-subcategory.md
+                - name: Aep... IsConnectable
+                  href: props-system-devices-aep-bluetooth-le-isconnectable.md
+                - name: System.Devices.Aep.CanPair
+                  href: props-system-devices-aep-canpair.md
+                - name: System.Devices.Aep.Category
+                  href: props-system-devices-aep-category.md
+                - name: System.Devices.Aep.ContainerId
+                  href: props-system-devices-aep-containerid.md
+                - name: System.Devices.Aep.DeviceAddress
+                  href: props-system-devices-aep-deviceaddress.md
+                - name: System.Devices.Aep.IsConnected
+                  href: props-system-devices-aep-isconnected.md
+                - name: System.Devices.Aep.IsPaired
+                  href: props-system-devices-aep-ispaired.md
+                - name: System.Devices.Aep.IsPresent
+                  href: props-system-devices-aep-ispresent.md
+                - name: System.Devices.Aep.Manufacturer
+                  href: props-system-devices-aep-manufacturer.md
+                - name: System.Devices.Aep.ModelId
+                  href: props-system-devices-aep-modelid.md
+                - name: System.Devices.Aep.ModelName
+                  href: props-system-devices-aep-modelname.md
+                - name: Aep. PointOfService. ConnectionTypes
+                  href: props-system-devices-aep-pointofservice-connectiontypes.md
+                - name: System.Devices.Aep.ProtocolId
+                  href: props-system-devices-aep-protocolid.md
+                - name: System.Devices.Aep.SignalStrength
+                  href: props-system-devices-aep-signalstrength.md
+                - name: System.Devices.AepContainer.CanPair
+                  href: props-system-devices-aepcontainer-canpair.md
+                - name: System.Devices.AepContainer.Categories
+                  href: props-system-devices-aepcontainer-categories.md
+                - name: System.Devices.AepContainer.Children
+                  href: props-system-devices-aepcontainer-children.md
+                - name: System.Devices.AepContainer.ContainerId
+                  href: props-system-devices-aepcontainer-containerid.md
+                - name: AepContainer. DialProtocol. InstalledApplications
+                  href: props-system-devices-aepcontainer-dialprotocol-installedapplications.md
+                - name: System.Devices.AepContainer.IsPaired
+                  href: props-system-devices-aepcontainer-ispaired.md
+                - name: System.Devices.AepContainer.IsPresent
+                  href: props-system-devices-aepcontainer-ispresent.md
+                - name: System.Devices.AepContainer.Manufacturer
+                  href: props-system-devices-aepcontainer-manufacturer.md
+                - name: System.Devices.AepContainer.ModelIds
+                  href: props-system-devices-aepcontainer-modelids.md
+                - name: System.Devices.AepContainer.ModelName
+                  href: props-system-devices-aepcontainer-modelname.md
+                - name: System.Devices.AepContainer.ProtocolIds
+                  href: props-system-devices-aepcontainer-protocolids.md
+                - name: System.Devices.AepContainer.SupportedUriSchemes
+                  href: props-system-devices-aepcontainer-supportedurischemes.md
+                - name: System.Devices.AepContainer.SupportsAudio
+                  href: props-system-devices-aepcontainer-supportsaudio.md
+                - name: AepContainer. SupportsCapturing
+                  href: props-system-devices-aepcontainer-supportscapturing.md
+                - name: System.Devices.AepContainer.SupportsImages
+                  href: props-system-devices-aepcontainer-supportsimages.md
+                - name: AepContainer. SupportsInformation
+                  href: props-system-devices-aepcontainer-supportsinformation.md
+                - name: AepContainer. SupportsLimitedDiscovery
+                  href: props-system-devices-aepcontainer-supportslimiteddiscovery.md
+                - name: AepContainer. SupportsNetworking
+                  href: props-system-devices-aepcontainer-supportsnetworking.md
+                - name: AepContainer. SupportsObjectTransfer
+                  href: props-system-devices-aepcontainer-supportsobjecttransfer.md
+                - name: AepContainer. SupportsPositioning
+                  href: props-system-devices-aepcontainer-supportspositioning.md
+                - name: AepContainer. SupportsRendering
+                  href: props-system-devices-aepcontainer-supportsrendering.md
+                - name: AepContainer. SupportsTelephony
+                  href: props-system-devices-aepcontainer-supportstelephony.md
+                - name: System.Devices.AepContainer.SupportsVideo
+                  href: props-system-devices-aepcontainer-supportsvideo.md
+                - name: System.Devices.AepService.AepId
+                  href: props-system-devices-aepservice-aepid.md
+                - name: AepService. GattService. CacheMode
+                  href: props-system-devices-aepservice-bluetooth-gattservice-cachemode.md
+                - name: AepService. GattService. 裝置
+                  href: props-system-devices-aepservice-bluetooth-gattservice-device.md
+                - name: AepService. RfcommService. CacheMode
+                  href: props-system-devices-aepservice-bluetooth-rfcommservice-cachemode.md
+                - name: AepService. RfcommService. 裝置
+                  href: props-system-devices-aepservice-bluetooth-rfcommservice-device.md
+                - name: System.Devices.AepService.ContainerId
+                  href: props-system-devices-aepservice-containerid.md
+                - name: AepService FriendlyName
+                  href: props-system-devices-aepservice-friendlyname.md
+                - name: AepService. ServiceInterfaces。
+                  href: props-system-devices-aepservice-iot-serviceinterfaces.md
+                - name: System.Devices.AepService.ParentAepIsPaired
+                  href: props-system-devices-aepservice-parentaepispaired.md
+                - name: System.Devices.AepService.ProtocolId
+                  href: props-system-devices-aepservice-protocolid.md
+                - name: System.Devices.AepService.ServiceClassId
+                  href: props-system-devices-aepservice-serviceclassid.md
+                - name: AepService. ServiceId
+                  href: props-system-devices-aepservice-serviceid.md
+                - name: AppPackageFamilyName
+                  href: props-system-devices-apppackagefamilyname.md
+                - name: System.Devices.AudioDevice.Microphone.SensitivityInDbfs
+                  href: props-system-devices-audiodevice-microphone-sensitivityindbfs.md
+                - name: System.Devices.AudioDevice.Microphone.SignalToNoiseRatioInDb
+                  href: props-system-devices-audiodevice-microphone-signaltonoiseratioindb.md
+                - name: System.Devices.AudioDevice.RawProcessingSupported
+                  href: props-system-devices-audiodevice-rawprocessingsupported.md
+                - name: System.Devices.AudioDevice.SpeechProcessingSupported
+                  href: props-system-devices-audiodevice-speechprocessingsupported.md
+                - name: System.Devices.BatteryLife
+                  href: props-system-devices-batterylife.md
+                - name: System.Devices.BatteryPlusCharging
+                  href: props-system-devices-batterypluscharging.md
+                - name: System.Devices.BatteryPlusChargingText
+                  href: props-system-devices-batterypluschargingtext.md
+                - name: System.Devices.Category
+                  href: props-system-devices-category.md
+                - name: CategoryGroup
+                  href: props-system-devices-categorygroup.md
+                - name: System.Devices.CategoryIds
+                  href: props-system-devices-categoryids.md
+                - name: System.Devices.CategoryPlural
+                  href: props-system-devices-categoryplural.md
+                - name: ChargingState
+                  href: props-system-devices-chargingstate.md
+                - name: System.object
+                  href: props-system-devices-children.md
+                - name: System.Devices.ClassGuid
+                  href: props-system-devices-classguid.md
+                - name: System.Devices.CompatibleIds
+                  href: props-system-devices-compatibleids.md
+                - name: System.Devices.Connected
+                  href: props-system-devices-connected.md
+                - name: System.Devices.ContainerId
+                  href: props-system-devices-containerid.md
+                - name: DefaultTooltip
+                  href: props-system-devices-defaulttooltip.md
+                - name: System.Devices.DeviceCapabilities
+                  href: props-system-devices-devicecapabilities.md
+                - name: DeviceCharacteristics
+                  href: props-system-devices-devicecharacteristics.md
+                - name: DeviceDescription1
+                  href: props-system-devices-devicedescription1.md
+                - name: DeviceDescription2
+                  href: props-system-devices-devicedescription2.md
+                - name: System.Devices.DeviceHasProblem
+                  href: props-system-devices-devicehasproblem.md
+                - name: System.Devices.DeviceInstanceId
+                  href: props-system-devices-deviceinstanceid.md
+                - name: System.Devices.DeviceManufacturer
+                  href: props-system-devices-devicemanufacturer.md
+                - name: DevObjectType
+                  href: props-system-devices-devobjecttype.md
+                - name: DialProtocol. InstalledApplications
+                  href: props-system-devices-dialprotocol-installedapplications.md
+                - name: DiscoveryMethod
+                  href: props-system-devices-discoverymethod.md
+                - name: Dnssd 網域
+                  href: props-system-devices-dnssd-domain.md
+                - name: Dnssd FullName
+                  href: props-system-devices-dnssd-fullname.md
+                - name: Dnssd。主機名稱
+                  href: props-system-devices-dnssd-hostname.md
+                - name: Dnssd. InstanceName
+                  href: props-system-devices-dnssd-instancename.md
+                - name: Dnssd. NetworkAdapterId
+                  href: props-system-devices-dnssd-networkadapterid.md
+                - name: Dnssd. PortNumber
+                  href: props-system-devices-dnssd-portnumber.md
+                - name: Dnssd. Priority
+                  href: props-system-devices-dnssd-priority.md
+                - name: Dnssd. ServiceName
+                  href: props-system-devices-dnssd-servicename.md
+                - name: Dnssd. TextAttributes
+                  href: props-system-devices-dnssd-textattributes.md
+                - name: Dnssd. Ttl
+                  href: props-system-devices-dnssd-ttl.md
+                - name: Dnssd 權數
+                  href: props-system-devices-dnssd-weight.md
+                - name: System.servicemodel
+                  href: props-system-devices-friendlyname.md
+                - name: FunctionPaths
+                  href: props-system-devices-functionpaths.md
+                - name: System.Devices.GlyphIcon
+                  href: props-system-devices-glyphicon.md
+                - name: System.Devices.HardwareIds
+                  href: props-system-devices-hardwareids.md
+                - name: System.Devices.Icon
+                  href: props-system-devices-icon.md
+                - name: InLocalMachineContainer
+                  href: props-system-devices-inlocalmachinecontainer.md
+                - name: System.Devices.InterfaceClassGuid
+                  href: props-system-devices-interfaceclassguid.md
+                - name: System.Devices.InterfaceEnabled
+                  href: props-system-devices-interfaceenabled.md
+                - name: InterfacePaths
+                  href: props-system-devices-interfacepaths.md
+                - name: System.string
+                  href: props-system-devices-ipaddress.md
+                - name: System.Devices.IsDefault
+                  href: props-system-devices-isdefault.md
+                - name: IsNetworkConnected
+                  href: props-system-devices-isnetworkconnected.md
+                - name: IsShared
+                  href: props-system-devices-isshared.md
+                - name: IsSoftwareInstalling
+                  href: props-system-devices-issoftwareinstalling.md
+                - name: LaunchDeviceStageFromExplorer
+                  href: props-system-devices-launchdevicestagefromexplorer.md
+                - name: System.Devices.LocalMachine
+                  href: props-system-devices-localmachine.md
+                - name: LocationPaths
+                  href: props-system-devices-locationpaths.md
+                - name: System.Devices.Manufacturer
+                  href: props-system-devices-manufacturer.md
+                - name: MetadataPath
+                  href: props-system-devices-metadatapath.md
+                - name: System.Devices.MicrophoneArray.Geometry
+                  href: props-system-devices-microphonearray-geometry.md
+                - name: MissedCalls
+                  href: props-system-devices-missedcalls.md
+                - name: ModelId
+                  href: props-system-devices-modelid.md
+                - name: System.Devices.ModelName
+                  href: props-system-devices-modelname.md
+                - name: ModelNumber
+                  href: props-system-devices-modelnumber.md
+                - name: NetworkedTooltip
+                  href: props-system-devices-networkedtooltip.md
+                - name: NetworkName
+                  href: props-system-devices-networkname.md
+                - name: NetworkType
+                  href: props-system-devices-networktype.md
+                - name: NewPictures
+                  href: props-system-devices-newpictures.md
+                - name: 系統。通知
+                  href: props-system-devices-notification.md
+                - name: LowBattery。
+                  href: props-system-devices-notifications-lowbattery.md
+                - name: MissedCall。
+                  href: props-system-devices-notifications-missedcall.md
+                - name: '>newmessage。'
+                  href: props-system-devices-notifications-newmessage.md
+                - name: NewVoicemail。
+                  href: props-system-devices-notifications-newvoicemail.md
+                - name: StorageFull。
+                  href: props-system-devices-notifications-storagefull.md
+                - name: StorageFullLinkText。
+                  href: props-system-devices-notifications-storagefulllinktext.md
+                - name: NotificationStore
+                  href: props-system-devices-notificationstore.md
+                - name: NotWorkingProperly
+                  href: props-system-devices-notworkingproperly.md
+                - name: System.Devices.Paired
+                  href: props-system-devices-paired.md
+                - name: System.Devices.Parent
+                  href: props-system-devices-parent.md
+                - name: PhysicalDeviceLocation
+                  href: props-system-devices-physicaldevicelocation.md
+                - name: PlaybackPositionPercent
+                  href: props-system-devices-playbackpositionpercent.md
+                - name: PlaybackState
+                  href: props-system-devices-playbackstate.md
+                - name: PlaybackTitle
+                  href: props-system-devices-playbacktitle.md
+                - name: System.Devices.Present
+                  href: props-system-devices-present.md
+                - name: PresentationUrl
+                  href: props-system-devices-presentationurl.md
+                - name: PrimaryCategory
+                  href: props-system-devices-primarycategory.md
+                - name: RemainingDuration
+                  href: props-system-devices-remainingduration.md
+                - name: RestrictedInterface
+                  href: props-system-devices-restrictedinterface.md
+                - name: 系統。漫遊
+                  href: props-system-devices-roaming.md
+                - name: SafeRemovalRequired
+                  href: props-system-devices-saferemovalrequired.md
+                - name: Serviceaddress.uri
+                  href: props-system-devices-serviceaddress.md
+                - name: ServiceId
+                  href: props-system-devices-serviceid.md
+                - name: SharedTooltip
+                  href: props-system-devices-sharedtooltip.md
+                - name: SignalStrength
+                  href: props-system-devices-signalstrength.md
+                - name: ReaderKind。
+                  href: props-system-devices-smartcards-readerkind.md
+                - name: 系統。狀態
+                  href: props-system-devices-status.md
+                - name: Status1
+                  href: props-system-devices-status1.md
+                - name: Status2
+                  href: props-system-devices-status2.md
+                - name: StorageCapacity
+                  href: props-system-devices-storagecapacity.md
+                - name: StorageFreeSpace
+                  href: props-system-devices-storagefreespace.md
+                - name: StorageFreeSpacePercent
+                  href: props-system-devices-storagefreespacepercent.md
+                - name: TextMessages
+                  href: props-system-devices-textmessages.md
+                - name: 系統信箱
+                  href: props-system-devices-voicemail.md
+                - name: WiaDeviceType
+                  href: props-system-devices-wiadevicetype.md
+                - name: InterfaceGuid。
+                  href: props-system-devices-wifi-interfaceguid.md
+                - name: WiFiDirect. DeviceAddress
+                  href: props-system-devices-wifidirect-deviceaddress.md
+                - name: WiFiDirect。
+                  href: props-system-devices-wifidirect-groupid.md
+                - name: WiFiDirect. InformationElements
+                  href: props-system-devices-wifidirect-informationelements.md
+                - name: WiFiDirect. InterfaceAddress
+                  href: props-system-devices-wifidirect-interfaceaddress.md
+                - name: WiFiDirect. InterfaceGuid
+                  href: props-system-devices-wifidirect-interfaceguid.md
+                - name: WiFiDirect. IsConnected
+                  href: props-system-devices-wifidirect-isconnected.md
+                - name: WiFiDirect. IsLegacyDevice
+                  href: props-system-devices-wifidirect-islegacydevice.md
+                - name: WiFiDirect. IsMiracastLcpSupported
+                  href: props-system-devices-wifidirect-ismiracastlcpsupported.md
+                - name: WiFiDirect. IsVisible
+                  href: props-system-devices-wifidirect-isvisible.md
+                - name: WiFiDirect. MiracastVersion
+                  href: props-system-devices-wifidirect-miracastversion.md
+                - name: WiFiDirect。
+                  href: props-system-devices-wifidirect-services.md
+                - name: WiFiDirect. SupportedChannelList
+                  href: props-system-devices-wifidirect-supportedchannellist.md
+                - name: WiFiDirectServices. AdvertisementId
+                  href: props-system-devices-wifidirectservices-advertisementid.md
+                - name: WiFiDirectServices. RequestServiceInformation
+                  href: props-system-devices-wifidirectservices-requestserviceinformation.md
+                - name: WiFiDirectServices. Serviceaddress.uri
+                  href: props-system-devices-wifidirectservices-serviceaddress.md
+                - name: WiFiDirectServices. ServiceConfigMethods
+                  href: props-system-devices-wifidirectservices-serviceconfigmethods.md
+                - name: WiFiDirectServices. ServiceInformation
+                  href: props-system-devices-wifidirectservices-serviceinformation.md
+                - name: WiFiDirectServices. ServiceName
+                  href: props-system-devices-wifidirectservices-servicename.md
+                - name: WinPhone8CameraFlags
+                  href: props-system-devices-winphone8cameraflags.md
+                - name: System.object. InterfaceGuid
+                  href: props-system-devices-wwan-interfaceguid.md
+                - name: 系統可攜性
+                  href: props-system-storage-portable.md
+                - name: RemovableMedia
+                  href: props-system-storage-removablemedia.md
+                - name: System.Storage.SystemCritical
+                  href: props-system-storage-systemcritical.md
+            - name: 文件
+              href: document-bumper.md
+              items:
+                - name: System.Doc>ument。ByteCount
+                  href: props-system-document-bytecount.md
+                - name: System.Doc>ument。CharacterCount
+                  href: props-system-document-charactercount.md
+                - name: System.Doc>ument。ClientID
+                  href: props-system-document-clientid.md
+                - name: System.Doc>ument。貢獻
+                  href: props-system-document-contributor.md
+                - name: System.Doc>ument。DateCreated
+                  href: props-system-document-datecreated.md
+                - name: System.Doc>ument。DatePrinted
+                  href: props-system-document-dateprinted.md
+                - name: System.Doc>ument。DateSaved
+                  href: props-system-document-datesaved.md
+                - name: System.Doc>ument。劃分
+                  href: props-system-document-division.md
+                - name: System.Document.DocumentID
+                  href: props-system-document-documentid.md
+                - name: System.Doc>ument。HiddenSlideCount
+                  href: props-system-document-hiddenslidecount.md
+                - name: System.Doc>ument。LastAuthor
+                  href: props-system-document-lastauthor.md
+                - name: System.Doc>ument。LineCount
+                  href: props-system-document-linecount.md
+                - name: System.Doc>ument。經理
+                  href: props-system-document-manager.md
+                - name: System.Doc>ument。MultimediaClipCount
+                  href: props-system-document-multimediaclipcount.md
+                - name: System.Doc>ument。NoteCount
+                  href: props-system-document-notecount.md
+                - name: System.Doc>ument。PageCount
+                  href: props-system-document-pagecount.md
+                - name: System.Doc>ument。ParagraphCount
+                  href: props-system-document-paragraphcount.md
+                - name: System.Doc>ument。PresentationFormat
+                  href: props-system-document-presentationformat.md
+                - name: System.Doc>ument。RevisionNumber
+                  href: props-system-document-revisionnumber.md
+                - name: System.Doc>ument。安全
+                  href: props-system-document-security.md
+                - name: System.Doc>ument。SlideCount
+                  href: props-system-document-slidecount.md
+                - name: System.Doc>ument。範本
+                  href: props-system-document-template.md
+                - name: System.Doc>ument。TotalEditingTime
+                  href: props-system-document-totaleditingtime.md
+                - name: System.Doc>ument。版本
+                  href: props-system-document-version.md
+                - name: System.Doc>ument。WordCount
+                  href: props-system-document-wordcount.md
+            - name: DRM
+              href: drm-bumper.md
+              items:
+                - name: DatePlayExpires
+                  href: props-system-drm-dateplayexpires.md
+                - name: DatePlayStarts
+                  href: props-system-drm-dateplaystarts.md
+                - name: System.object。描述
+                  href: props-system-drm-description.md
+                - name: IsDisabled
+                  href: props-system-drm-isdisabled.md
+                - name: IsProtected
+                  href: props-system-drm-isprotected.md
+                - name: PlayCount
+                  href: props-system-drm-playcount.md
+            - name: GPS
+              href: gps-bumper.md
+              items:
+                - name: GPS
+                  href: props-system-gps-altitude.md
+                - name: AltitudeDenominator
+                  href: props-system-gps-altitudedenominator.md
+                - name: AltitudeNumerator
+                  href: props-system-gps-altitudenumerator.md
+                - name: AltitudeRef
+                  href: props-system-gps-altituderef.md
+                - name: AreaInformation
+                  href: props-system-gps-areainformation.md
+                - name: 系統 GPS。 Date
+                  href: props-system-gps-date.md
+                - name: DestBearing
+                  href: props-system-gps-destbearing.md
+                - name: DestBearingDenominator
+                  href: props-system-gps-destbearingdenominator.md
+                - name: DestBearingNumerator
+                  href: props-system-gps-destbearingnumerator.md
+                - name: DestBearingRef
+                  href: props-system-gps-destbearingref.md
+                - name: DestDistance
+                  href: props-system-gps-destdistance.md
+                - name: DestDistanceDenominator
+                  href: props-system-gps-destdistancedenominator.md
+                - name: DestDistanceNumerator
+                  href: props-system-gps-destdistancenumerator.md
+                - name: DestDistanceRef
+                  href: props-system-gps-destdistanceref.md
+                - name: DestLatitude
+                  href: props-system-gps-destlatitude.md
+                - name: DestLatitudeDenominator
+                  href: props-system-gps-destlatitudedenominator.md
+                - name: DestLatitudeNumerator
+                  href: props-system-gps-destlatitudenumerator.md
+                - name: DestLatitudeRef
+                  href: props-system-gps-destlatituderef.md
+                - name: DestLongitude
+                  href: props-system-gps-destlongitude.md
+                - name: DestLongitudeDenominator
+                  href: props-system-gps-destlongitudedenominator.md
+                - name: DestLongitudeNumerator
+                  href: props-system-gps-destlongitudenumerator.md
+                - name: DestLongitudeRef
+                  href: props-system-gps-destlongituderef.md
+                - name: 系統 GPS
+                  href: props-system-gps-differential.md
+                - name: GPS
+                  href: props-system-gps-dop.md
+                - name: DOPDenominator
+                  href: props-system-gps-dopdenominator.md
+                - name: DOPNumerator
+                  href: props-system-gps-dopnumerator.md
+                - name: ImgDirection
+                  href: props-system-gps-imgdirection.md
+                - name: ImgDirectionDenominator
+                  href: props-system-gps-imgdirectiondenominator.md
+                - name: ImgDirectionNumerator
+                  href: props-system-gps-imgdirectionnumerator.md
+                - name: ImgDirectionRef
+                  href: props-system-gps-imgdirectionref.md
+                - name: 系統 GPS
+                  href: props-system-gps-latitude.md
+                - name: LatitudeDecimal
+                  href: props-system-gps-latitudedecimal.md
+                - name: LatitudeDenominator
+                  href: props-system-gps-latitudedenominator.md
+                - name: LatitudeNumerator
+                  href: props-system-gps-latitudenumerator.md
+                - name: LatitudeRef
+                  href: props-system-gps-latituderef.md
+                - name: System.servicemodel
+                  href: props-system-gps-longitude.md
+                - name: LongitudeDecimal
+                  href: props-system-gps-longitudedecimal.md
+                - name: LongitudeDenominator
+                  href: props-system-gps-longitudedenominator.md
+                - name: LongitudeNumerator
+                  href: props-system-gps-longitudenumerator.md
+                - name: LongitudeRef
+                  href: props-system-gps-longituderef.md
+                - name: MapDatum
+                  href: props-system-gps-mapdatum.md
+                - name: MeasureMode
+                  href: props-system-gps-measuremode.md
+                - name: ProcessingMethod
+                  href: props-system-gps-processingmethod.md
+                - name: 系統 GPS
+                  href: props-system-gps-satellites.md
+                - name: GPS. 速度
+                  href: props-system-gps-speed.md
+                - name: SpeedDenominator
+                  href: props-system-gps-speeddenominator.md
+                - name: SpeedNumerator
+                  href: props-system-gps-speednumerator.md
+                - name: SpeedRef
+                  href: props-system-gps-speedref.md
+                - name: 系統 GPS。狀態
+                  href: props-system-gps-status.md
+                - name: GPS. 追蹤
+                  href: props-system-gps-track.md
+                - name: TrackDenominator
+                  href: props-system-gps-trackdenominator.md
+                - name: TrackNumerator
+                  href: props-system-gps-tracknumerator.md
+                - name: TrackRef
+                  href: props-system-gps-trackref.md
+                - name: System.servicemodel
+                  href: props-system-gps-versionid.md
+            - name: 記錄
+              href: history-bumper.md
+              items:
+                - name: VisitCount
+                  href: props-system-history-visitcount.md
+            - name: 身分識別
+              href: identity-buffer.md
+              items:
+                - name: System. Identity
+                  href: props-system-identity.md
+                - name: System.string
+                  href: props-system-identity-blob.md
+                - name: System.servicemodel
+                  href: props-system-identity-displayname.md
+                - name: InternetSid
+                  href: props-system-identity-internetsid.md
+                - name: IsMeIdentity
+                  href: props-system-identity-ismeidentity.md
+                - name: KeyProviderCoNtext
+                  href: props-system-identity-keyprovidercontext.md
+                - name: KeyProviderName
+                  href: props-system-identity-keyprovidername.md
+                - name: LogonStatusString
+                  href: props-system-identity-logonstatusstring.md
+                - name: PrimaryEmailAddress
+                  href: props-system-identity-primaryemailaddress.md
+                - name: PrimarySid
+                  href: props-system-identity-primarysid.md
+                - name: ProviderData
+                  href: props-system-identity-providerdata.md
+                - name: System.servicemodel
+                  href: props-system-identity-providerid.md
+                - name: QualifiedUserName
+                  href: props-system-identity-qualifiedusername.md
+                - name: System.servicemodel
+                  href: props-system-identity-uniqueid.md
+                - name: System.servicemodel。 UserName
+                  href: props-system-identity-username.md
+                - name: System.IdentityProvider.Name
+                  href: props-system-identityprovider-name.md
+                - name: IdentityProvider。圖片
+                  href: props-system-identityprovider-picture.md
+            - name: Image
+              href: image-bumper.md
+              items:
+                - name: BitDepth
+                  href: props-system-image-bitdepth.md
+                - name: ColorSpace
+                  href: props-system-image-colorspace.md
+                - name: CompressedBitsPerPixel
+                  href: props-system-image-compressedbitsperpixel.md
+                - name: CompressedBitsPerPixelDenominator
+                  href: props-system-image-compressedbitsperpixeldenominator.md
+                - name: CompressedBitsPerPixelNumerator
+                  href: props-system-image-compressedbitsperpixelnumerator.md
+                - name: 系統映射壓縮
+                  href: props-system-image-compression.md
+                - name: CompressionText
+                  href: props-system-image-compressiontext.md
+                - name: 系統維度
+                  href: props-system-image-dimensions.md
+                - name: HorizontalResolution
+                  href: props-system-image-horizontalresolution.md
+                - name: HorizontalSize
+                  href: props-system-image-horizontalsize.md
+                - name: ImageID
+                  href: props-system-image-imageid.md
+                - name: ResolutionUnit
+                  href: props-system-image-resolutionunit.md
+                - name: VerticalResolution
+                  href: props-system-image-verticalresolution.md
+                - name: VerticalSize
+                  href: props-system-image-verticalsize.md
+            - name: 日誌
+              href: journal-bumper.md
+              items:
+                - name: 系統日誌。連絡人
+                  href: props-system-journal-contacts.md
+                - name: '>entrytype'
+                  href: props-system-journal-entrytype.md
+            - name: LayoutPattern
+              href: layoutpattern-bumper.md
+              items:
+                - name: LayoutPattern. ContentViewModeForBrowse
+                  href: props-system-layoutpattern-contentviewmodeforbrowse.md
+                - name: LayoutPattern. ContentViewModeForSearch
+                  href: props-system-layoutpattern-contentviewmodeforsearch.md
+            - name: 連結
+              href: link-bumper.md
+              items:
+                - name: SelectionCount
+                  href: props-system-history-selectioncount.md
+                - name: TargetUrlHostName
+                  href: props-system-history-targeturlhostname.md
+                - name: System.string
+                  href: props-system-link-arguments.md
+                - name: 系統連結。批註
+                  href: props-system-link-comment.md
+                - name: DateVisited
+                  href: props-system-link-datevisited.md
+                - name: 系統連結。描述
+                  href: props-system-link-description.md
+                - name: FeedItemLocalId
+                  href: props-system-link-feeditemlocalid.md
+                - name: 系統連結。狀態
+                  href: props-system-link-status.md
+                - name: TargetExtension
+                  href: props-system-link-targetextension.md
+                - name: TargetParsingPath
+                  href: props-system-link-targetparsingpath.md
+                - name: TargetSFGAOFlags
+                  href: props-system-link-targetsfgaoflags.md
+                - name: TargetUrlHostName
+                  href: props-system-link-targeturlhostname.md
+                - name: TargetUrlPath
+                  href: props-system-link-targeturlpath.md
+            - name: 媒體
+              href: media-bumper.md
+              items:
+                - name: AuthorUrl
+                  href: props-system-media-authorurl.md
+                - name: AverageLevel
+                  href: props-system-media-averagelevel.md
+                - name: ClassPrimaryID
+                  href: props-system-media-classprimaryid.md
+                - name: ClassSecondaryID
+                  href: props-system-media-classsecondaryid.md
+                - name: CollectionGroupID
+                  href: props-system-media-collectiongroupid.md
+                - name: CollectionID
+                  href: props-system-media-collectionid.md
+                - name: ContentDistributor
+                  href: props-system-media-contentdistributor.md
+                - name: ContentID
+                  href: props-system-media-contentid.md
+                - name: CreatorApplication
+                  href: props-system-media-creatorapplication.md
+                - name: CreatorApplicationVersion
+                  href: props-system-media-creatorapplicationversion.md
+                - name: DateEncoded
+                  href: props-system-media-dateencoded.md
+                - name: DateReleased
+                  href: props-system-media-datereleased.md
+                - name: DlnaProfileID
+                  href: props-system-media-dlnaprofileid.md
+                - name: System.object。持續時間
+                  href: props-system-media-duration.md
+                - name: DVDID
+                  href: props-system-media-dvdid.md
+                - name: EncodedBy
+                  href: props-system-media-encodedby.md
+                - name: EncodingSettings
+                  href: props-system-media-encodingsettings.md
+                - name: EpisodeNumber
+                  href: props-system-media-episodenumber.md
+                - name: FrameCount
+                  href: props-system-media-framecount.md
+                - name: MCDI
+                  href: props-system-media-mcdi.md
+                - name: MetadataContentProvider
+                  href: props-system-media-metadatacontentprovider.md
+                - name: 系統. 媒體生產者
+                  href: props-system-media-producer.md
+                - name: PromotionUrl
+                  href: props-system-media-promotionurl.md
+                - name: Set-protectiontype
+                  href: props-system-media-protectiontype.md
+                - name: ProviderRating
+                  href: props-system-media-providerrating.md
+                - name: ProviderStyle
+                  href: props-system-media-providerstyle.md
+                - name: 系統。發行者
+                  href: props-system-media-publisher.md
+                - name: SeasonNumber
+                  href: props-system-media-seasonnumber.md
+                - name: SeriesName
+                  href: props-system-media-seriesname.md
+                - name: SubscriptionContentId
+                  href: props-system-media-subscriptioncontentid.md
+                - name: '[系統] 副標題'
+                  href: props-system-media-subtitle.md
+                - name: ThumbnailLargePath
+                  href: props-system-media-thumbnaillargepath.md
+                - name: ThumbnailLargeUri
+                  href: props-system-media-thumbnaillargeuri.md
+                - name: ThumbnailSmallPath
+                  href: props-system-media-thumbnailsmallpath.md
+                - name: ThumbnailSmallUri
+                  href: props-system-media-thumbnailsmalluri.md
+                - name: UniqueFileIdentifier
+                  href: props-system-media-uniquefileidentifier.md
+                - name: UserNoAutoInfo
+                  href: props-system-media-usernoautoinfo.md
+                - name: UserWebUrl
+                  href: props-system-media-userweburl.md
+                - name: 系統. 媒體寫入器
+                  href: props-system-media-writer.md
+                - name: Year
+                  href: props-system-media-year.md
+            - name: 訊息
+              href: message-bumper.md
+              items:
+                - name: AttachmentContents
+                  href: props-system-message-attachmentcontents.md
+                - name: AttachmentNames
+                  href: props-system-message-attachmentnames.md
+                - name: BccAddress
+                  href: props-system-message-bccaddress.md
+                - name: BccName
+                  href: props-system-message-bccname.md
+                - name: CcAddress
+                  href: props-system-message-ccaddress.md
+                - name: CcName
+                  href: props-system-message-ccname.md
+                - name: ConversationID
+                  href: props-system-message-conversationid.md
+                - name: ConversationIndex
+                  href: props-system-message-conversationindex.md
+                - name: DateReceived
+                  href: props-system-message-datereceived.md
+                - name: DateSent
+                  href: props-system-message-datesent.md
+                - name: System.object
+                  href: props-system-message-flags.md
+                - name: FromAddress
+                  href: props-system-message-fromaddress.md
+                - name: FromName
+                  href: props-system-message-fromname.md
+                - name: HasAttachments
+                  href: props-system-message-hasattachments.md
+                - name: IsFwdOrReply
+                  href: props-system-message-isfwdorreply.md
+                - name: MessageClass
+                  href: props-system-message-messageclass.md
+                - name: 系統。參與者
+                  href: props-system-message-participants.md
+                - name: ProofInProgress
+                  href: props-system-message-proofinprogress.md
+                - name: SenderAddress
+                  href: props-system-message-senderaddress.md
+                - name: SenderName
+                  href: props-system-message-sendername.md
+                - name: System.Message.Store
+                  href: props-system-message-store.md
+                - name: ToAddress
+                  href: props-system-message-toaddress.md
+                - name: ToDoFlags
+                  href: props-system-message-todoflags.md
+                - name: ToDoTitle
+                  href: props-system-message-todotitle.md
+                - name: ToName
+                  href: props-system-message-toname.md
+            - name: 音樂
+              href: music-bumper.md
+              items:
+                - name: AlbumArtist
+                  href: props-system-music-albumartist.md
+                - name: AlbumArtistSortOverride
+                  href: props-system-music-albumartistsortoverride.md
+                - name: AlbumID
+                  href: props-system-music-albumid.md
+                - name: AlbumTitle
+                  href: props-system-music-albumtitle.md
+                - name: AlbumTitleSortOverride
+                  href: props-system-music-albumtitlesortoverride.md
+                - name: 系統音樂
+                  href: props-system-music-artist.md
+                - name: ArtistSortOverride
+                  href: props-system-music-artistsortoverride.md
+                - name: BeatsPerMinute
+                  href: props-system-music-beatsperminute.md
+                - name: 系統音樂編輯器
+                  href: props-system-music-composer.md
+                - name: ComposerSortOverride
+                  href: props-system-music-composersortoverride.md
+                - name: System.servicemodel
+                  href: props-system-music-conductor.md
+                - name: ContentGroupDescription
+                  href: props-system-music-contentgroupdescription.md
+                - name: DiscNumber
+                  href: props-system-music-discnumber.md
+                - name: DisplayArtist
+                  href: props-system-music-displayartist.md
+                - name: System.object
+                  href: props-system-music-genre.md
+                - name: System.Music.InitialKey
+                  href: props-system-music-initialkey.md
+                - name: IsCompilation
+                  href: props-system-music-iscompilation.md
+                - name: 歌詞
+                  href: props-system-music-lyrics.md
+                - name: System.object
+                  href: props-system-music-mood.md
+                - name: PartOfSet
+                  href: props-system-music-partofset.md
+                - name: 系統音樂。
+                  href: props-system-music-period.md
+                - name: SynchronizedLyrics
+                  href: props-system-music-synchronizedlyrics.md
+                - name: TrackNumber
+                  href: props-system-music-tracknumber.md
+            - name: 注意
+              href: note-bumper.md
+              items:
+                - name: System. Note. Color
+                  href: props-system-note-color.md
+                - name: ColorText
+                  href: props-system-note-colortext.md
+            - name: Photo
+              href: photo-bumper.md
+              items:
+                - name: System.servicemodel
+                  href: props-system-photo-aperture.md
+                - name: ApertureDenominator
+                  href: props-system-photo-aperturedenominator.md
+                - name: ApertureNumerator
+                  href: props-system-photo-aperturenumerator.md
+                - name: 系統相片。亮度
+                  href: props-system-photo-brightness.md
+                - name: BrightnessDenominator
+                  href: props-system-photo-brightnessdenominator.md
+                - name: BrightnessNumerator
+                  href: props-system-photo-brightnessnumerator.md
+                - name: CameraManufacturer
+                  href: props-system-photo-cameramanufacturer.md
+                - name: CameraModel
+                  href: props-system-photo-cameramodel.md
+                - name: CameraSerialNumber
+                  href: props-system-photo-cameraserialnumber.md
+                - name: 對比
+                  href: props-system-photo-contrast.md
+                - name: ContrastText
+                  href: props-system-photo-contrasttext.md
+                - name: DateTaken
+                  href: props-system-photo-datetaken.md
+                - name: DigitalZoom
+                  href: props-system-photo-digitalzoom.md
+                - name: DigitalZoomDenominator
+                  href: props-system-photo-digitalzoomdenominator.md
+                - name: DigitalZoomNumerator
+                  href: props-system-photo-digitalzoomnumerator.md
+                - name: 系統相片. 事件
+                  href: props-system-photo-event.md
+                - name: EXIFVersion
+                  href: props-system-photo-exifversion.md
+                - name: ExposureBias
+                  href: props-system-photo-exposurebias.md
+                - name: ExposureBiasDenominator
+                  href: props-system-photo-exposurebiasdenominator.md
+                - name: ExposureBiasNumerator
+                  href: props-system-photo-exposurebiasnumerator.md
+                - name: ExposureIndex
+                  href: props-system-photo-exposureindex.md
+                - name: ExposureIndexDenominator
+                  href: props-system-photo-exposureindexdenominator.md
+                - name: ExposureIndexNumerator
+                  href: props-system-photo-exposureindexnumerator.md
+                - name: ExposureProgram
+                  href: props-system-photo-exposureprogram.md
+                - name: ExposureProgramText
+                  href: props-system-photo-exposureprogramtext.md
+                - name: ExposureTime
+                  href: props-system-photo-exposuretime.md
+                - name: ExposureTimeDenominator
+                  href: props-system-photo-exposuretimedenominator.md
+                - name: ExposureTimeNumerator
+                  href: props-system-photo-exposuretimenumerator.md
+                - name: ： Flash
+                  href: props-system-photo-flash.md
+                - name: FlashEnergy
+                  href: props-system-photo-flashenergy.md
+                - name: FlashEnergyDenominator
+                  href: props-system-photo-flashenergydenominator.md
+                - name: FlashEnergyNumerator
+                  href: props-system-photo-flashenergynumerator.md
+                - name: FlashManufacturer
+                  href: props-system-photo-flashmanufacturer.md
+                - name: FlashModel
+                  href: props-system-photo-flashmodel.md
+                - name: FlashText
+                  href: props-system-photo-flashtext.md
+                - name: FNumber
+                  href: props-system-photo-fnumber.md
+                - name: FNumberDenominator
+                  href: props-system-photo-fnumberdenominator.md
+                - name: FNumberNumerator
+                  href: props-system-photo-fnumbernumerator.md
+                - name: FocalLength
+                  href: props-system-photo-focallength.md
+                - name: FocalLengthDenominator
+                  href: props-system-photo-focallengthdenominator.md
+                - name: FocalLengthInFilm
+                  href: props-system-photo-focallengthinfilm.md
+                - name: FocalLengthNumerator
+                  href: props-system-photo-focallengthnumerator.md
+                - name: FocalPlaneXResolution
+                  href: props-system-photo-focalplanexresolution.md
+                - name: FocalPlaneXResolutionDenominator
+                  href: props-system-photo-focalplanexresolutiondenominator.md
+                - name: FocalPlaneXResolutionNumerator
+                  href: props-system-photo-focalplanexresolutionnumerator.md
+                - name: FocalPlaneYResolution
+                  href: props-system-photo-focalplaneyresolution.md
+                - name: FocalPlaneYResolutionDenominator
+                  href: props-system-photo-focalplaneyresolutiondenominator.md
+                - name: FocalPlaneYResolutionNumerator
+                  href: props-system-photo-focalplaneyresolutionnumerator.md
+                - name: GainControl
+                  href: props-system-photo-gaincontrol.md
+                - name: GainControlDenominator
+                  href: props-system-photo-gaincontroldenominator.md
+                - name: GainControlNumerator
+                  href: props-system-photo-gaincontrolnumerator.md
+                - name: GainControlText
+                  href: props-system-photo-gaincontroltext.md
+                - name: ISOSpeed
+                  href: props-system-photo-isospeed.md
+                - name: LensManufacturer
+                  href: props-system-photo-lensmanufacturer.md
+                - name: LensModel
+                  href: props-system-photo-lensmodel.md
+                - name: LightSource
+                  href: props-system-photo-lightsource.md
+                - name: MakerNote
+                  href: props-system-photo-makernote.md
+                - name: MakerNoteOffset
+                  href: props-system-photo-makernoteoffset.md
+                - name: MaxAperture
+                  href: props-system-photo-maxaperture.md
+                - name: MaxApertureDenominator
+                  href: props-system-photo-maxaperturedenominator.md
+                - name: MaxApertureNumerator
+                  href: props-system-photo-maxaperturenumerator.md
+                - name: MeteringMode
+                  href: props-system-photo-meteringmode.md
+                - name: MeteringModeText
+                  href: props-system-photo-meteringmodetext.md
+                - name: '[列印]'
+                  href: props-system-photo-orientation.md
+                - name: OrientationText
+                  href: props-system-photo-orientationtext.md
+                - name: PeopleNames
+                  href: props-system-photo-peoplenames.md
+                - name: PhotometricInterpretation
+                  href: props-system-photo-photometricinterpretation.md
+                - name: PhotometricInterpretationText
+                  href: props-system-photo-photometricinterpretationtext.md
+                - name: ProgramMode
+                  href: props-system-photo-programmode.md
+                - name: ProgramModeText
+                  href: props-system-photo-programmodetext.md
+                - name: RelatedSoundFile
+                  href: props-system-photo-relatedsoundfile.md
+                - name: 照相
+                  href: props-system-photo-saturation.md
+                - name: SaturationText
+                  href: props-system-photo-saturationtext.md
+                - name: System.string
+                  href: props-system-photo-sharpness.md
+                - name: SharpnessText
+                  href: props-system-photo-sharpnesstext.md
+                - name: ShutterSpeed
+                  href: props-system-photo-shutterspeed.md
+                - name: ShutterSpeedDenominator
+                  href: props-system-photo-shutterspeeddenominator.md
+                - name: ShutterSpeedNumerator
+                  href: props-system-photo-shutterspeednumerator.md
+                - name: SubjectDistance
+                  href: props-system-photo-subjectdistance.md
+                - name: SubjectDistanceDenominator
+                  href: props-system-photo-subjectdistancedenominator.md
+                - name: SubjectDistanceNumerator
+                  href: props-system-photo-subjectdistancenumerator.md
+                - name: TagViewAggregate
+                  href: props-system-photo-tagviewaggregate.md
+                - name: TranscodedForSync
+                  href: props-system-photo-transcodedforsync.md
+                - name: WhiteBalance
+                  href: props-system-photo-whitebalance.md
+                - name: WhiteBalanceText
+                  href: props-system-photo-whitebalancetext.md
+            - name: PropGroup
+              href: propgroup-bumper.md
+              items:
+                - name: PropGroup。 Advanced
+                  href: props-system-propgroup-advanced.md
+                - name: PropGroup 音訊
+                  href: props-system-propgroup-audio.md
+                - name: PropGroup 行事曆
+                  href: props-system-propgroup-calendar.md
+                - name: PropGroup 攝影機
+                  href: props-system-propgroup-camera.md
+                - name: PropGroup。連絡人
+                  href: props-system-propgroup-contact.md
+                - name: PropGroup。內容
+                  href: props-system-propgroup-content.md
+                - name: PropGroup。描述
+                  href: props-system-propgroup-description.md
+                - name: PropGroup 檔案系統
+                  href: props-system-propgroup-filesystem.md
+                - name: PropGroup. 一般
+                  href: props-system-propgroup-general.md
+                - name: PropGroup GPS
+                  href: props-system-propgroup-gps.md
+                - name: PropGroup。映射
+                  href: props-system-propgroup-image.md
+                - name: PropGroup
+                  href: props-system-propgroup-media.md
+                - name: PropGroup. MediaAdvanced
+                  href: props-system-propgroup-mediaadvanced.md
+                - name: PropGroup。訊息
+                  href: props-system-propgroup-message.md
+                - name: PropGroup 音樂
+                  href: props-system-propgroup-music.md
+                - name: PropGroup
+                  href: props-system-propgroup-origin.md
+                - name: PropGroup. PhotoAdvanced
+                  href: props-system-propgroup-photoadvanced.md
+                - name: PropGroup. RecordedTV
+                  href: props-system-propgroup-recordedtv.md
+                - name: PropGroup 影片
+                  href: props-system-propgroup-video.md
+            - name: PropList
+              href: proplist-bumper.md
+              items:
+                - name: System. InfoTipText
+                  href: props-system-infotiptext.md
+                - name: PropList. ConflictPrompt
+                  href: props-system-proplist-conflictprompt.md
+                - name: PropList. ContentViewModeForBrowse
+                  href: props-system-proplist-contentviewmodeforbrowse.md
+                - name: PropList. ContentViewModeForSearch
+                  href: props-system-proplist-contentviewmodeforsearch.md
+                - name: PropList. ExtendedTileInfo
+                  href: props-system-proplist-extendedtileinfo.md
+                - name: PropList. FileOperationPrompt
+                  href: props-system-proplist-fileoperationprompt.md
+                - name: PropList. FullDetails
+                  href: props-system-proplist-fulldetails.md
+                - name: PropList
+                  href: props-system-proplist-infotip.md
+                - name: PropList. NonPersonal
+                  href: props-system-proplist-nonpersonal.md
+                - name: PropList. PreviewDetails
+                  href: props-system-proplist-previewdetails.md
+                - name: PropList. PreviewTitle
+                  href: props-system-proplist-previewtitle.md
+                - name: PropList. QuickTip
+                  href: props-system-proplist-quicktip.md
+                - name: PropList. TileInfo
+                  href: props-system-proplist-tileinfo.md
+                - name: PropList. XPDetailsPanel
+                  href: props-system-proplist-xpdetailspanel.md
+            - name: RecordedTV
+              href: recordedtv-bumper.md
+              items:
+                - name: RecordedTV. ChannelNumber
+                  href: props-system-recordedtv-channelnumber.md
+                - name: RecordedTV 點數
+                  href: props-system-recordedtv-credits.md
+                - name: RecordedTV. DateContentExpires
+                  href: props-system-recordedtv-datecontentexpires.md
+                - name: RecordedTV. EpisodeName
+                  href: props-system-recordedtv-episodename.md
+                - name: RecordedTV. IsATSCContent
+                  href: props-system-recordedtv-isatsccontent.md
+                - name: RecordedTV. IsClosedCaptioningAvailable
+                  href: props-system-recordedtv-isclosedcaptioningavailable.md
+                - name: RecordedTV. IsDTVContent
+                  href: props-system-recordedtv-isdtvcontent.md
+                - name: RecordedTV. IsHDContent
+                  href: props-system-recordedtv-ishdcontent.md
+                - name: RecordedTV. IsRepeatBroadcast
+                  href: props-system-recordedtv-isrepeatbroadcast.md
+                - name: RecordedTV. IsSAP
+                  href: props-system-recordedtv-issap.md
+                - name: RecordedTV. NetworkAffiliation
+                  href: props-system-recordedtv-networkaffiliation.md
+                - name: RecordedTV. OriginalBroadcastDate
+                  href: props-system-recordedtv-originalbroadcastdate.md
+                - name: RecordedTV. ProgramDescription
+                  href: props-system-recordedtv-programdescription.md
+                - name: RecordedTV. RecordingTime
+                  href: props-system-recordedtv-recordingtime.md
+                - name: RecordedTV. StationCallSign
+                  href: props-system-recordedtv-stationcallsign.md
+                - name: RecordedTV. StationName
+                  href: props-system-recordedtv-stationname.md
+            - name: 安全性
+              href: security-buffer.md
+              items:
+                - name: AllowedEnterpriseDataProtectionIdentities
+                  href: props-system-security-allowedenterprisedataprotectionidentities.md
+                - name: EncryptionOwners
+                  href: props-system-security-encryptionowners.md
+                - name: EncryptionOwnersDisplay
+                  href: props-system-security-encryptionownersdisplay.md
+            - name: 搜尋
+              href: search-bumper.md
+              items:
+                - name: AutoSummary
+                  href: props-system-search-autosummary.md
+                - name: ContainerHash
+                  href: props-system-search-containerhash.md
+                - name: 搜尋. 內容
+                  href: props-system-search-contents.md
+                - name: System.servicemodel
+                  href: props-system-search-entryid.md
+                - name: ExtendedProperties
+                  href: props-system-search-extendedproperties.md
+                - name: GatherTime
+                  href: props-system-search-gathertime.md
+                - name: 擊中數
+                  href: props-system-search-hitcount.md
+                - name: IsClosedDirectory
+                  href: props-system-search-iscloseddirectory.md
+                - name: IsFullyContained
+                  href: props-system-search-isfullycontained.md
+                - name: QueryFocusedSummary
+                  href: props-system-search-queryfocusedsummary.md
+                - name: QueryFocusedSummaryWithFallback
+                  href: props-system-search-queryfocusedsummarywithfallback.md
+                - name: QueryPropertyHits
+                  href: props-system-search-querypropertyhits.md
+                - name: System. Rank
+                  href: props-system-search-rank.md
+                - name: System.Search.Store
+                  href: props-system-search-store.md
+                - name: UrlToIndex
+                  href: props-system-search-urltoindex.md
+                - name: UrlToIndexWithModificationTime
+                  href: props-system-search-urltoindexwithmodificationtime.md
+            - name: 殼層
+              href: shell-bumper.md
+              items:
+                - name: System. DescriptionID
+                  href: props-system-descriptionid.md
+                - name: System. InternalName
+                  href: props-system-internalname.md
+                - name: System. LibraryLocationsCount
+                  href: props-system-librarylocationscount.md
+                - name: TargetSFGAOFlagsStrings
+                  href: props-system-link-targetsfgaoflagsstrings.md
+                - name: TargetUrl
+                  href: props-system-link-targeturl.md
+                - name: System. NamespaceCLSID
+                  href: props-system-namespaceclsid.md
+                - name: SFGAOFlagsStrings
+                  href: props-system-shell-sfgaoflagsstrings.md
+                - name: System. StatusBarSelectedItemCount
+                  href: props-system-statusbarselecteditemcount.md
+                - name: System. StatusBarViewItemCount
+                  href: props-system-statusbarviewitemcount.md
+            - name: 軟體
+              href: software-bumper.md
+              items:
+                - name: AppUserModel. ExcludeFromShowInNewInstall
+                  href: props-system-appusermodel-excludefromshowinnewinstall.md
+                - name: System.AppUserModel.ID
+                  href: props-system-appusermodel-id.md
+                - name: AppUserModel. IsDestListSeparator
+                  href: props-system-appusermodel-isdestlistseparator.md
+                - name: AppUserModel. IsDualMode
+                  href: props-system-appusermodel-isdualmode.md
+                - name: AppUserModel. PreventPinning
+                  href: props-system-appusermodel-preventpinning.md
+                - name: AppUserModel. RelaunchCommand
+                  href: props-system-appusermodel-relaunchcommand.md
+                - name: AppUserModel. RelaunchDisplayNameResource
+                  href: props-system-appusermodel-relaunchdisplaynameresource.md
+                - name: AppUserModel. RelaunchIconResource
+                  href: props-system-appusermodel-relaunchiconresource.md
+                - name: AppUserModel. StartPinOption
+                  href: props-system-appusermodel-startpinoption.md
+                - name: AppUserModel. ToastActivatorCLSID
+                  href: props-system-appusermodel-toastactivatorclsid.md
+                - name: EdgeGesture. DisableTouchWhenFullscreen
+                  href: props-system-edgegesture-disabletouchwhenfullscreen.md
+                - name: DateLastUsed
+                  href: props-system-software-datelastused.md
+                - name: System. Software。
+                  href: props-system-software-productname.md
+            - name: 補充
+              href: supplemental-bumper.md
+              items:
+                - name: AlbumID
+                  href: props-system-supplemental-albumid.md
+                - name: 系統補充. ResourceId
+                  href: props-system-supplemental-resourceid.md
+            - name: 同步
+              href: sync-bumper.md
+              items:
+                - name: 系統同步。批註
+                  href: props-system-sync-comments.md
+                - name: ConflictDescription
+                  href: props-system-sync-conflictdescription.md
+                - name: ConflictFirstLocation
+                  href: props-system-sync-conflictfirstlocation.md
+                - name: ConflictSecondLocation
+                  href: props-system-sync-conflictsecondlocation.md
+                - name: HandlerCollectionID
+                  href: props-system-sync-handlercollectionid.md
+                - name: HandlerID
+                  href: props-system-sync-handlerid.md
+                - name: H
+                  href: props-system-sync-handlername.md
+                - name: HandlerType
+                  href: props-system-sync-handlertype.md
+                - name: HandlerTypeLabel
+                  href: props-system-sync-handlertypelabel.md
+                - name: System.object。 ItemID
+                  href: props-system-sync-itemid.md
+                - name: System.object
+                  href: props-system-sync-itemname.md
+                - name: System.componentmodel.progresschangedeventargs.progresspercentage
+                  href: props-system-sync-progresspercentage.md
+                - name: System. Sync. State
+                  href: props-system-sync-state.md
+                - name: 系統同步。狀態
+                  href: props-system-sync-status.md
+            - name: Task
+              href: task-bumper.md
+              items:
+                - name: BillingInformation
+                  href: props-system-task-billinginformation.md
+                - name: CompletionStatus
+                  href: props-system-task-completionstatus.md
+                - name: 系統工作。擁有者
+                  href: props-system-task-owner.md
+            - name: 影片
+              href: video-bumper.md
+              items:
+                - name: 系統 Video. 壓縮
+                  href: props-system-video-compression.md
+                - name: System.servicemodel
+                  href: props-system-video-director.md
+                - name: EncodingBitrate
+                  href: props-system-video-encodingbitrate.md
+                - name: FourCC
+                  href: props-system-video-fourcc.md
+                - name: FrameHeight
+                  href: props-system-video-frameheight.md
+                - name: System.string
+                  href: props-system-video-framerate.md
+                - name: FrameWidth
+                  href: props-system-video-framewidth.md
+                - name: HorizontalAspectRatio
+                  href: props-system-video-horizontalaspectratio.md
+                - name: IsSpherical
+                  href: props-system-video-isspherical.md
+                - name: IsStereo
+                  href: props-system-video-isstereo.md
+                - name: 系統。方向
+                  href: props-system-video-orientation.md
+                - name: SampleSize
+                  href: props-system-video-samplesize.md
+                - name: StreamName
+                  href: props-system-video-streamname.md
+                - name: StreamNumber
+                  href: props-system-video-streamnumber.md
+                - name: TotalBitrate
+                  href: props-system-video-totalbitrate.md
+                - name: TranscodedForSync
+                  href: props-system-video-transcodedforsync.md
+                - name: VerticalAspectRatio
+                  href: props-system-video-verticalaspectratio.md
+            - name: 磁碟區
+              href: volume-bumper.md
+              items:
+                - name: System.string. FileSystem
+                  href: props-system-volume-filesystem.md
+                - name: IsMappedDrive
+                  href: props-system-volume-ismappeddrive.md
+                - name: IsRoot
+                  href: props-system-volume-isroot.md
+        - name: 屬性描述架構
+          href: property-description-schema.md
+          items:
+            - name: System.management.automation.aliasinfo
+              href: propdesc-schema-aliasinfo.md
+            - name: booleanFormat
+              href: propdesc-schema-booleanformat.md
+            - name: dateTimeFormat
+              href: propdesc-schema-datetimeformat.md
+            - name: displayInfo
+              href: propdesc-schema-displayinfo.md
+            - name: drawControl
+              href: propdesc-schema-drawcontrol.md
+            - name: editControl
+              href: propdesc-schema-editcontrol.md
+            - name: 列舉
+              href: propdesc-schema-enum.md
+            - name: enumeratedList
+              href: propdesc-schema-enumeratedlist.md
+            - name: enumRange
+              href: propdesc-schema-enumrange.md
+            - name: filterControl
+              href: propdesc-schema-filtercontrol.md
+            - name: image
+              href: propdesc-schema-image.md
+            - name: labelInfo
+              href: propdesc-schema-labelinfo.md
+            - name: '>cultureinfo.numberformat'
+              href: propdesc-schema-numberformat.md
+            - name: propertyDescription
+              href: propdesc-schema-propertydescription.md
+            - name: propertyDescriptionList
+              href: propdesc-schema-propertydescriptionlist.md
+            - name: queryControl
+              href: propdesc-schema-querycontrol.md
+            - name: relatedProperty
+              href: propdesc-schema-relatedproperty.md
+            - name: relatedPropertyInfo
+              href: propdesc-schema-relatedpropertyinfo.md
+            - name: searchInfo
+              href: propdesc-schema-searchinfo.md
+            - name: stringFormat
+              href: propdesc-schema-stringformat.md
+            - name: typeInfo
+              href: propdesc-schema-typeinfo.md
+        - name: 屬性集
+          href: property-sets.md
+          items:
+            - name: DBPROPSET_MSIDXS_ROWSETEXT
+              href: dbpropset-msidxs-rowsetext.md
+        - name: 介面
+          href: interfaces.md
+          items:
+            - name: IPropertyChange
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertychange
+              items:
+                - name: ApplyToPropVariant
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertychange-applytopropvariant
+            - name: IPropertyChangeArray
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertychangearray
+              items:
+                - name: Append
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-append
+                - name: AppendOrReplace
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-appendorreplace
+                - name: GetAt
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-getat
+                - name: GetCount
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-getcount
+                - name: InsertAt
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-insertat
+                - name: IsKeyInArray
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-iskeyinarray
+                - name: RemoveAt
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-removeat
+            - name: IPropertyDescription
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescription
+              items:
+                - name: CoerceToCanonicalValue
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-coercetocanonicalvalue
+                - name: FormatForDisplay
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-formatfordisplay
+                - name: GetAggregationType
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getaggregationtype
+                - name: GetCanonicalName
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getcanonicalname
+                - name: GetColumnState
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getcolumnstate
+                - name: GetConditionType
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getconditiontype
+                - name: GetDefaultColumnWidth
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getdefaultcolumnwidth
+                - name: GetDisplayName
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getdisplayname
+                - name: GetDisplayType
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getdisplaytype
+                - name: GetEditInvitation
+                  href: /windows/desktop/api/propsys/nf-propsys-ipropertydescription-geteditinvitation
+                - name: GetEnumTypeList
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getenumtypelist
+                - name: GetGroupingRange
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getgroupingrange
+                - name: GetPropertyKey
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getpropertykey
+                - name: GetPropertyType
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getpropertytype
+                - name: GetRelativeDescription
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getrelativedescription
+                - name: GetRelativeDescriptionType
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getrelativedescriptiontype
+                - name: GetSortDescription
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getsortdescription
+                - name: GetSortDescriptionLabel
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getsortdescriptionlabel
+                - name: GetTypeFlags
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-gettypeflags
+                - name: GetViewFlags
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-getviewflags
+                - name: IsValueCanonical
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription-isvaluecanonical
+            - name: IPropertyDescription2
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescription2
+              items:
+                - name: GetImageReferenceForValue
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescription2-getimagereferenceforvalue
+            - name: IPropertyDescriptionAliasInfo
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescriptionaliasinfo
+              items:
+                - name: GetAdditionalSortByAliases
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionaliasinfo-getadditionalsortbyaliases
+                - name: GetSortByAlias
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionaliasinfo-getsortbyalias
+            - name: IPropertyDescriptionList
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescriptionlist
+              items:
+                - name: GetAt
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionlist-getat
+                - name: GetCount
+                  href: /windows/desktop/api/propsys/nf-propsys-ipropertydescriptionlist-getcount
+            - name: IPropertyDescriptionRelatedPropertyInfo
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescriptionrelatedpropertyinfo
+              items:
+                - name: GetRelatedProperty
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionrelatedpropertyinfo-getrelatedproperty
+            - name: IPropertyDescriptionSearchInfo
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertydescriptionsearchinfo
+              items:
+                - name: GetColumnIndexType
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionsearchinfo-getcolumnindextype
+                - name: GetMaxSize
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionsearchinfo-getmaxsize
+                - name: GetProjectionString
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionsearchinfo-getprojectionstring
+                - name: GetSearchInfoFlags
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertydescriptionsearchinfo-getsearchinfoflags
+            - name: IPropertyEnumType
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertyenumtype
+              items:
+                - name: GetDisplayText
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getdisplaytext
+                - name: GetEnumType
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getenumtype
+                - name: GetRangeMinValue
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getrangeminvalue
+                - name: GetRangeSetValue
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getrangesetvalue
+                - name: GetValue
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype-getvalue
+            - name: IPropertyEnumType2
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertyenumtype2
+              items:
+                - name: GetImageReference
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtype2-getimagereference
+            - name: IPropertyEnumTypeList
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertyenumtypelist
+              items:
+                - name: FindMatchingIndex
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtypelist-findmatchingindex
+                - name: GetAt
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtypelist-getat
+                - name: GetConditionAt
+                  href: /windows/desktop/api/propsys/nf-propsys-ipropertyenumtypelist-getconditionat
+                - name: GetCount
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertyenumtypelist-getcount
+            - name: IPropertyStore
+              href: /windows/desktop/api/propsys/nn-propsys-ipropertystore
+              items:
+                - name: Commit
+                  href: /previous-versions/windows/desktop/legacy/bb761470(v=vs.85)
+                - name: GetAt
+                  href: /previous-versions/windows/desktop/legacy/bb761471(v=vs.85)
+                - name: GetCount
+                  href: /previous-versions/windows/desktop/legacy/bb761472(v=vs.85)
+                - name: GetValue
+                  href: /previous-versions/windows/desktop/legacy/bb761473(v=vs.85)
+                - name: SetValue
+                  href: /previous-versions/windows/desktop/legacy/bb761475(v=vs.85)
+            - name: IPropertyStoreCache
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertystorecache
+              items:
+                - name: GetState
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorecache-getstate
+                - name: GetValueAndState
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorecache-getvalueandstate
+                - name: SetValueAndState
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorecache-setvalueandstate
+            - name: IPropertyStoreCapabilities
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertystorecapabilities
+              items:
+                - name: IsPropertyWritable
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorecapabilities-ispropertywritable
+            - name: IPropertyStoreFactory
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertystorefactory
+              items:
+                - name: GetPropertyStore
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorefactory-getpropertystore
+                - name: GetPropertyStoreForKeys
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertystorefactory-getpropertystoreforkeys
+            - name: IPropertySystem
+              href: /windows/desktop/api/Propsys/nn-propsys-ipropertysystem
+              items:
+                - name: EnumeratePropertyDescriptions
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-enumeratepropertydescriptions
+                - name: FormatForDisplay
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-formatfordisplay
+                - name: FormatForDisplayAlloc
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-formatfordisplayalloc
+                - name: GetPropertyDescription
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-getpropertydescription
+                - name: GetPropertyDescriptionByName
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-getpropertydescriptionbyname
+                - name: GetPropertyDescriptionListFromString
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring
+                - name: RefreshPropertySchema
+                  href: /windows/desktop/api/propsys/nf-propsys-ipropertysystem-refreshpropertyschema
+                - name: RegisterPropertySchema
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-registerpropertyschema
+                - name: UnregisterPropertySchema
+                  href: /windows/desktop/api/Propsys/nf-propsys-ipropertysystem-unregisterpropertyschema
+            - name: IPropertyUI
+              href: /windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ipropertyui
+              items:
+                - name: FormatForDisplay
+                  href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-formatfordisplay
+                - name: GetCanonicalName
+                  href: /previous-versions/windows/desktop/legacy/dd758076(v=vs.85)
+                - name: GetDefaultWidth
+                  href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-getdefaultwidth
+                - name: GetDisplayName
+                  href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-getdisplayname
+                - name: GetFlags
+                  href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-getflags
+                - name: GetHelpInfo
+                  href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-gethelpinfo
+                - name: GetPropertyDescription
+                  href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-getpropertydescription
+                - name: ParsePropertyName
+                  href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-ipropertyui-parsepropertyname
+        - name: 函式
+          href: functions.md
+          items:
+            - name: 屬性包函數
+              href: property-bag-functions.md
+              items:
+                - name: PSPropertyBag_Delete
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_delete
+                - name: PSPropertyBag_ReadBOOL
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readbool
+                - name: PSPropertyBag_ReadBSTR
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readbstr
+                - name: PSPropertyBag_ReadDWORD
+                  href: /windows/desktop/api/propsys/nf-propsys-pspropertybag_readdword
+                - name: PSPropertyBag_ReadGUID
+                  href: /windows/desktop/api/propsys/nf-propsys-pspropertybag_readguid
+                - name: PSPropertyBag_ReadInt
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readint
+                - name: PSPropertyBag_ReadLONG
+                  href: /windows/desktop/api/propsys/nf-propsys-pspropertybag_readlong
+                - name: PSPropertyBag_ReadPOINTL
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readpointl
+                - name: PSPropertyBag_ReadPOINTS
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readpoints
+                - name: PSPropertyBag_ReadPropertyKey
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readpropertykey
+                - name: PSPropertyBag_ReadRECTL
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readrectl
+                - name: PSPropertyBag_ReadSHORT
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readshort
+                - name: PSPropertyBag_ReadStr
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readstr
+                - name: PSPropertyBag_ReadStrAlloc
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readstralloc
+                - name: PSPropertyBag_ReadStream
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readstream
+                - name: PSPropertyBag_ReadType
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readtype
+                - name: PSPropertyBag_ReadULONGLONG
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readulonglong
+                - name: PSPropertyBag_ReadUnknown
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_readunknown
+                - name: PSPropertyBag_WriteBOOL
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writebool
+                - name: PSPropertyBag_WriteBSTR
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writebstr
+                - name: PSPropertyBag_WriteDWORD
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writedword
+                - name: PSPropertyBag_WriteGUID
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeguid
+                - name: PSPropertyBag_WriteInt
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeint
+                - name: PSPropertyBag_WriteLONG
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writelong
+                - name: PSPropertyBag_WritePOINTL
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writepointl
+                - name: PSPropertyBag_WritePOINTS
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writepoints
+                - name: PSPropertyBag_WritePropertyKey
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writepropertykey
+                - name: PSPropertyBag_WriteRECTL
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writerectl
+                - name: PSPropertyBag_WriteSHORT
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeshort
+                - name: PSPropertyBag_WriteStr
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writestr
+                - name: PSPropertyBag_WriteStream
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writestream
+                - name: PSPropertyBag_WriteULONGLONG
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeulonglong
+                - name: PSPropertyBag_WriteUnknown
+                  href: /windows/desktop/api/Propsys/nf-propsys-pspropertybag_writeunknown
+            - name: PROPVARIANT 和 VARIANT 函式
+              href: functions-propvarutil.md
+              items:
+                - name: ClearPropVariantArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-clearpropvariantarray
+                - name: ClearVariantArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-clearvariantarray
+                - name: FreePropVariantArray
+                  href: /windows/desktop/api/Propidl/nf-propidl-freepropvariantarray
+                - name: InitPropVariantFromBoolean
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromboolean
+                - name: InitPropVariantFromBooleanVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfrombooleanvector
+                - name: InitPropVariantFromBuffer
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfrombuffer
+                - name: InitPropVariantFromCLSID
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromclsid
+                - name: InitPropVariantFromDouble
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromdouble
+                - name: InitPropVariantFromDoubleVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromdoublevector
+                - name: InitPropVariantFromFileTime
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromfiletime
+                - name: InitPropVariantFromFileTimeVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromfiletimevector
+                - name: InitPropVariantFromGUIDAsBuffer
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromguidasbuffer
+                - name: InitPropVariantFromGUIDAsString
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromguidasstring
+                - name: InitPropVariantFromInt16
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint16
+                - name: InitPropVariantFromInt16Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint16vector
+                - name: InitPropVariantFromInt32
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint32
+                - name: InitPropVariantFromInt32Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint32vector
+                - name: InitPropVariantFromInt64
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint64
+                - name: InitPropVariantFromInt64Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromint64vector
+                - name: InitPropVariantFromPropVariantVectorElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfrompropvariantvectorelem
+                - name: InitPropVariantFromResource
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromresource
+                - name: InitPropVariantFromString
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromstring
+                - name: InitPropVariantFromStringAsVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromstringasvector
+                - name: InitPropVariantFromStringVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromstringvector
+                - name: InitPropVariantFromStrRet
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromstrret
+                - name: InitPropVariantFromUInt16
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint16
+                - name: InitPropVariantFromUInt16Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint16vector
+                - name: InitPropVariantFromUInt32
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint32
+                - name: InitPropVariantFromUInt32Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint32vector
+                - name: InitPropVariantFromUInt64
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint64
+                - name: InitPropVariantFromUInt64Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantfromuint64vector
+                - name: InitPropVariantVectorFromPropVariant
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initpropvariantvectorfrompropvariant
+                - name: InitVariantFromBoolean
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromboolean
+                - name: InitVariantFromBooleanArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfrombooleanarray
+                - name: InitVariantFromBuffer
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfrombuffer
+                - name: InitVariantFromDispatch
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromdispatch
+                - name: InitVariantFromDosDateTime
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromdosdatetime
+                - name: InitVariantFromDouble
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromdouble
+                - name: InitVariantFromDoubleArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromdoublearray
+                - name: InitVariantFromFileTime
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromfiletime
+                - name: InitVariantFromFileTimeArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromfiletimearray
+                - name: InitVariantFromGUIDAsBuffer
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromguidasbuffer
+                - name: InitVariantFromGUIDAsString
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromguidasstring
+                - name: InitVariantFromInt16
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint16
+                - name: InitVariantFromInt16Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint16array
+                - name: InitVariantFromInt32
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint32
+                - name: InitVariantFromInt32Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint32array
+                - name: InitVariantFromInt64
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint64
+                - name: InitVariantFromInt64Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromint64array
+                - name: InitVariantFromResource
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromresource
+                - name: InitVariantFromString
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromstring
+                - name: InitVariantFromStringArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromstringarray
+                - name: InitVariantFromStrRet
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromstrret
+                - name: InitVariantFromUInt16
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint16
+                - name: InitVariantFromUInt16Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint16array
+                - name: InitVariantFromUInt32
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint32
+                - name: InitVariantFromUInt32Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint32array
+                - name: InitVariantFromUInt64
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint64
+                - name: InitVariantFromUInt64Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromuint64array
+                - name: InitVariantFromVariantArrayElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-initvariantfromvariantarrayelem
+                - name: IsPropVariantString
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-ispropvariantstring
+                - name: IsPropVariantVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-ispropvariantvector
+                - name: IsVariantArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvariantarray
+                - name: IsVariantString
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvariantstring
+                - name: IsVarTypeFloat
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypefloat
+                - name: IsVarTypeInteger
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypeinteger
+                - name: IsVarTypeNumber
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypenumber
+                - name: IsVarTypeSignedInteger
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypesignedinteger
+                - name: IsVarTypeUnsignedInteger
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-isvartypeunsignedinteger
+                - name: PropVariantChangeType
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantchangetype
+                - name: PropVariantClear
+                  href: /windows/desktop/api/Propidl/nf-propidl-propvariantclear
+                - name: PropVariantCompare
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantcompare
+                - name: PropVariantCompareEx
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantcompareex
+                - name: PropVariantCopy
+                  href: /windows/desktop/api/Propidl/nf-propidl-propvariantcopy
+                - name: PropVariantGetBooleanElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetbooleanelem
+                - name: PropVariantGetDoubleElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetdoubleelem
+                - name: PropVariantGetElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetelem
+                - name: PropVariantGetElementCount
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetelementcount
+                - name: PropVariantGetFileTimeElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetfiletimeelem
+                - name: PropVariantGetInt16Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetint16elem
+                - name: PropVariantGetInt32Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetint32elem
+                - name: PropVariantGetInt64Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetint64elem
+                - name: PropVariantGetStringElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetstringelem
+                - name: PropVariantGetUInt16Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetuint16elem
+                - name: PropVariantGetUInt32Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetuint32elem
+                - name: PropVariantGetUInt64Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvariantgetuint64elem
+                - name: PropVariantToBoolean
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoboolean
+                - name: PropVariantToBooleanVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobooleanvector
+                - name: PropVariantToBooleanVectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobooleanvectoralloc
+                - name: PropVariantToBooleanWithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobooleanwithdefault
+                - name: PropVariantToBSTR
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobstr
+                - name: PropVariantToBuffer
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttobuffer
+                - name: PropVariantToCLSID
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoclsid
+                - name: PropVariantToDouble
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttodouble
+                - name: PropVariantToDoubleVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttodoublevector
+                - name: PropVariantToDoubleVectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttodoublevectoralloc
+                - name: PropVariantToDoubleWithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttodoublewithdefault
+                - name: PropVariantToFileTime
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttofiletime
+                - name: PropVariantToFileTimeVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttofiletimevector
+                - name: PropVariantToFileTimeVectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttofiletimevectoralloc
+                - name: PropVariantToGUID
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoguid
+                - name: PropVariantToInt16
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint16
+                - name: PropVariantToInt16Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint16vector
+                - name: PropVariantToInt16VectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint16vectoralloc
+                - name: PropVariantToInt16WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint16withdefault
+                - name: PropVariantToInt32
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint32
+                - name: PropVariantToInt32Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint32vector
+                - name: PropVariantToInt32VectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint32vectoralloc
+                - name: PropVariantToInt32WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint32withdefault
+                - name: PropVariantToInt64
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint64
+                - name: PropVariantToInt64Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint64vector
+                - name: PropVariantToInt64VectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint64vectoralloc
+                - name: PropVariantToInt64WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttoint64withdefault
+                - name: PropVariantToString
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostring
+                - name: PropVariantToStringAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostringalloc
+                - name: PropVariantToStringVector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostringvector
+                - name: PropVariantToStringVectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostringvectoralloc
+                - name: PropVariantToStringWithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostringwithdefault
+                - name: PropVariantToStrRet
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttostrret
+                - name: PropVariantToUInt16
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint16
+                - name: PropVariantToUInt16Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint16vector
+                - name: PropVariantToUInt16VectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint16vectoralloc
+                - name: PropVariantToUInt16WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint16withdefault
+                - name: PropVariantToUInt32
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint32
+                - name: PropVariantToUInt32Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint32vector
+                - name: PropVariantToUInt32VectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint32vectoralloc
+                - name: PropVariantToUInt32WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint32withdefault
+                - name: PropVariantToUInt64
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint64
+                - name: PropVariantToUInt64Vector
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint64vector
+                - name: PropVariantToUInt64VectorAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint64vectoralloc
+                - name: PropVariantToUInt64WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttouint64withdefault
+                - name: PropVariantToVariant
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-propvarianttovariant
+                - name: PropVariantToWinRTPropertyValue
+                  href: /windows/desktop/api/propsys/nf-propsys-propvarianttowinrtpropertyvalue
+                - name: SHPropStgCreate
+                  href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgcreate
+                - name: SHPropStgReadMultiple
+                  href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgreadmultiple
+                - name: SHPropStgWriteMultiple
+                  href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgwritemultiple
+                - name: StgDeserializePropVariant
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-stgdeserializepropvariant
+                - name: StgSerializePropVariant
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-stgserializepropvariant
+                - name: VariantCompare
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantcompare
+                - name: VariantGetBooleanElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetbooleanelem
+                - name: VariantGetDoubleElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetdoubleelem
+                - name: VariantGetElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetelem
+                - name: VariantGetElementCount
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetelementcount
+                - name: VariantGetInt16Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetint16elem
+                - name: VariantGetInt32Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetint32elem
+                - name: VariantGetInt64Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetint64elem
+                - name: VariantGetStringElem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetstringelem
+                - name: VariantGetUInt16Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetuint16elem
+                - name: VariantGetUInt32Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetuint32elem
+                - name: VariantGetUInt64Elem
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-variantgetuint64elem
+                - name: VariantToBoolean
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoboolean
+                - name: VariantToBooleanArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttobooleanarray
+                - name: VariantToBooleanArrayAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttobooleanarrayalloc
+                - name: VariantToBooleanWithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttobooleanwithdefault
+                - name: VariantToBuffer
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttobuffer
+                - name: VariantToDosDateTime
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodosdatetime
+                - name: VariantToDouble
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodouble
+                - name: VariantToDoubleArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodoublearray
+                - name: VariantToDoubleArrayAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodoublearrayalloc
+                - name: VariantToDoubleWithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttodoublewithdefault
+                - name: VariantToFileTime
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttofiletime
+                - name: VariantToGUID
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoguid
+                - name: VariantToInt16
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint16
+                - name: VariantToInt16Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint16array
+                - name: VariantToInt16ArrayAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint16arrayalloc
+                - name: VariantToInt16WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint16withdefault
+                - name: VariantToInt32
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint32
+                - name: VariantToInt32Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint32array
+                - name: VariantToInt32ArrayAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint32arrayalloc
+                - name: VariantToInt32WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint32withdefault
+                - name: VariantToInt64
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint64
+                - name: VariantToInt64Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint64array
+                - name: VariantToInt64ArrayAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint64arrayalloc
+                - name: VariantToInt64WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttoint64withdefault
+                - name: VariantToPropVariant
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttopropvariant
+                - name: VariantToString
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostring
+                - name: VariantToStringAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostringalloc
+                - name: VariantToStringArray
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostringarray
+                - name: VariantToStringArrayAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostringarrayalloc
+                - name: VariantToStringWithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostringwithdefault
+                - name: VariantToStrRet
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttostrret
+                - name: VariantToUInt16
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint16
+                - name: VariantToUInt16Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint16array
+                - name: VariantToUInt16ArrayAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint16arrayalloc
+                - name: VariantToUInt16WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint16withdefault
+                - name: VariantToUInt32
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint32
+                - name: VariantToUInt32Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint32array
+                - name: VariantToUInt32ArrayAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint32arrayalloc
+                - name: VariantToUInt32WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint32withdefault
+                - name: VariantToUInt64
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint64
+                - name: VariantToUInt64Array
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint64array
+                - name: VariantToUInt64ArrayAlloc
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint64arrayalloc
+                - name: VariantToUInt64WithDefault
+                  href: /windows/desktop/api/Propvarutil/nf-propvarutil-varianttouint64withdefault
+                - name: WinRTPropertyValueToPropVariant
+                  href: /windows/desktop/api/Propsys/nf-propsys-winrtpropertyvaluetopropvariant
+            - name: PifMgr_CloseProperties
+              href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_closeproperties
+            - name: PifMgr_GetProperties
+              href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_getproperties
+            - name: PifMgr_OpenProperties
+              href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_openproperties
+            - name: PifMgr_SetProperties
+              href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_setproperties
+            - name: PSCoerceToCanonicalValue
+              href: /windows/desktop/api/Propsys/nf-propsys-pscoercetocanonicalvalue
+            - name: PSCreateAdapterFromPropertyStore
+              href: /windows/desktop/api/Propsys/nf-propsys-pscreateadapterfrompropertystore
+            - name: PSCreateDelayedMultiplexPropertyStore
+              href: /windows/desktop/api/Propsys/nf-propsys-pscreatedelayedmultiplexpropertystore
+            - name: PSCreateMemoryPropertyStore
+              href: /windows/desktop/api/Propsys/nf-propsys-pscreatememorypropertystore
+            - name: PSCreateMemoryPropertyStoreMarshalByValue
+              href: /previous-versions/windows/desktop/legacy/mt712605(v=vs.85)
+            - name: PSCreateMultiplexPropertyStore
+              href: /windows/desktop/api/Propsys/nf-propsys-pscreatemultiplexpropertystore
+            - name: PSCreatePropertyChangeArray
+              href: /windows/desktop/api/Propsys/nf-propsys-pscreatepropertychangearray
+            - name: PSCreatePropertyStoreFromObject
+              href: /windows/desktop/api/Propsys/nf-propsys-pscreatepropertystorefromobject
+            - name: PSCreatePropertyStoreFromPropertySetStorage
+              href: /windows/desktop/api/Propsys/nf-propsys-pscreatepropertystorefrompropertysetstorage
+            - name: PSCreateSimplePropertyChange
+              href: /windows/desktop/api/Propsys/nf-propsys-pscreatesimplepropertychange
+            - name: PSEnumeratePropertyDescriptions
+              href: /windows/desktop/api/Propsys/nf-propsys-psenumeratepropertydescriptions
+            - name: PSFormatForDisplay
+              href: /windows/desktop/api/Propsys/nf-propsys-psformatfordisplay
+            - name: PSFormatForDisplayAlloc
+              href: /windows/desktop/api/Propsys/nf-propsys-psformatfordisplayalloc
+            - name: PSFormatPropertyValue
+              href: /windows/desktop/api/Propsys/nf-propsys-psformatpropertyvalue
+            - name: PSGetImageReferenceForValue
+              href: /windows/desktop/api/propsys/nf-propsys-psgetimagereferenceforvalue
+            - name: PSGetItemPropertyHandler
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetitempropertyhandler
+            - name: PSGetItemPropertyHandlerWithCreateObject
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetitempropertyhandlerwithcreateobject
+            - name: PSGetNamedPropertyFromPropertyStorage
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetnamedpropertyfrompropertystorage
+            - name: PSGetNameFromPropertyKey
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetnamefrompropertykey
+            - name: PSGetPropertyDescription
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertydescription
+            - name: PSGetPropertyDescriptionByName
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertydescriptionbyname
+            - name: PSGetPropertyDescriptionListFromString
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertydescriptionlistfromstring
+            - name: PSGetPropertyFromPropertyStorage
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertyfrompropertystorage
+            - name: PSGetPropertyKeyFromName
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertykeyfromname
+            - name: PSGetPropertySystem
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertysystem
+            - name: PSGetPropertyValue
+              href: /windows/desktop/api/Propsys/nf-propsys-psgetpropertyvalue
+            - name: PSLookupPropertyHandlerCLSID
+              href: /windows/desktop/api/Propsys/nf-propsys-pslookuppropertyhandlerclsid
+            - name: PSPropertyKeyFromString
+              href: /windows/desktop/api/Propsys/nf-propsys-pspropertykeyfromstring
+            - name: PSRefreshPropertySchema
+              href: /windows/desktop/api/propsys/nf-propsys-psrefreshpropertyschema
+            - name: PSRegisterPropertySchema
+              href: /windows/desktop/api/Propsys/nf-propsys-psregisterpropertyschema
+            - name: PSSetPropertyValue
+              href: /windows/desktop/api/Propsys/nf-propsys-pssetpropertyvalue
+            - name: PSStringFromPropertyKey
+              href: /windows/desktop/api/Propsys/nf-propsys-psstringfrompropertykey
+            - name: PSUnregisterPropertySchema
+              href: /windows/desktop/api/Propsys/nf-propsys-psunregisterpropertyschema
+            - name: SHAddDefaultPropertiesByExt
+              href: /windows/desktop/api/Shobjidl/nf-shobjidl-shadddefaultpropertiesbyext
+            - name: SHGetPropertyStoreForWindow
+              href: /windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow
+            - name: SHGetPropertyStoreFromIDList
+              href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-shgetpropertystorefromidlist
+            - name: SHGetPropertyStoreFromParsingName
+              href: /windows/desktop/api/Shobjidl_core/nf-shobjidl_core-shgetpropertystorefromparsingname
+            - name: SHPropStgCreate
+              href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgcreate
+            - name: SHPropStgReadMultiple
+              href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgreadmultiple
+            - name: SHPropStgWriteMultiple
+              href: /windows/desktop/api/Shlobj_core/nf-shlobj_core-shpropstgwritemultiple
+        - name: 結構
+          href: structures.md
+          items:
+            - name: PROPERTYKEY
+              href: /windows/win32/api/wtypes/ns-wtypes-propertykey
+            - name: PROPPRG
+              href: /windows/desktop/api/Shlobj_core/ns-shlobj_core-propprg
+        - name: 常數、列舉和旗標
+          href: constants--enumerations--and-flags.md
+          items:
+            - name: GETPROPERTYSTOREFLAGS
+              href: /windows/desktop/api/Propsys/ne-propsys-getpropertystoreflags
+            - name: PDOPSTATUS
+              href: /windows/desktop/api/Shobjidl_core/ne-shobjidl_core-pdopstatus
+            - name: PKA_FLAGS
+              href: /windows/desktop/api/Propsys/ne-propsys-pka_flags
+            - name: PLACEHOLDER_STATES
+              href: /windows/desktop/api/Shobjidl_core/ne-shobjidl_core-placeholder_states
+            - name: PROPDESC_AGGREGATION_TYPE
+              href: /windows/desktop/api/Propsys/ne-propsys-propdesc_aggregation_type
+            - name: PROPDESC_COLUMNINDEX_TYPE
+              href: /windows/desktop/api/Propsys/ne-propsys-propdesc_columnindex_type
+            - name: PROPDESC_CONDITION_TYPE
+              href: /windows/desktop/api/Propsys/ne-propsys-propdesc_condition_type
+            - name: PROPDESC_ENUMFILTER
+              href: /windows/desktop/api/Propsys/ne-propsys-propdesc_enumfilter
+            - name: PROPDESC_FORMAT_FLAGS
+              href: /windows/desktop/api/Propsys/ne-propsys-propdesc_format_flags
+            - name: PROPDESC_RELATIVEDESCRIPTION_TYPE
+              href: /windows/desktop/api/Propsys/ne-propsys-propdesc_relativedescription_type
+            - name: PROPDESC_SEARCHINFO_FLAGS
+              href: /windows/desktop/api/Propsys/ne-propsys-propdesc_searchinfo_flags
+            - name: PROPDESC_TYPE_FLAGS
+              href: /windows/desktop/api/Propsys/ne-propsys-propdesc_type_flags
+            - name: PROPDESC_VIEW_FLAGS
+              href: /windows/desktop/api/Propsys/ne-propsys-propdesc_view_flags
+            - name: PROPERTYUI_FLAGS
+              href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags
+            - name: PROPVAR_COMPARE_UNIT
+              href: /windows/desktop/api/PropVarUtil/ne-propvarutil-propvar_compare_unit
+            - name: PSC_STATE
+              href: /windows/desktop/api/Propsys/ne-propsys-psc_state
+            - name: SYNC_ENGINE_STATE_FLAGS
+              href: /windows/desktop/api/Shobjidl/ne-shobjidl-sync_engine_state_flags
+            - name: SYNC_TRANSFER_STATUS
+              href: /windows/desktop/api/Shobjidl_core/ne-shobjidl_core-sync_transfer_status
+    - name: 屬性系統程式碼範例
+      href: property-system-code-samples.md

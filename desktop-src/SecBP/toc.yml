@@ -1,0 +1,32 @@
+- name: 安全性 Api 的最佳作法
+  href: best-practices-for-the-security-apis.md
+  items:
+    - name: 以特殊許可權執行
+      href: running-with-special-privileges.md
+      items:
+        - name: 以系統管理員許可權執行
+          href: running-with-administrator-privileges.md
+        - name: 要求使用者提供認證
+          href: asking-the-user-for-credentials.md
+        - name: 變更權杖中的許可權
+          href: changing-privileges-in-a-token.md
+        - name: 將許可權指派給帳戶
+          href: assigning-privileges-to-an-account.md
+    - name: 避免緩衝區溢位
+      href: avoiding-buffer-overruns.md
+    - name: 控制流程防護
+      href: control-flow-guard.md
+      items:
+        - name: PE 中繼資料
+          href: pe-metadata.md
+    - name: 建立 DACL
+      href: creating-a-dacl.md
+    - name: 處理密碼
+      href: handling-passwords.md
+      items:
+        - name: 密碼威脅評估
+          href: password-threat-assessment.md
+        - name: 威脅緩和技巧
+          href: threat-mitigation-techniques.md
+    - name: 如何優化您的 MSDN Library 搜尋
+      href: how-to-optimize-your-msdn-library-search.md

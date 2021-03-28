@@ -1,0 +1,1437 @@
+- name: Opengl
+  href: opengl.md
+  items:
+    - name: 法律資訊
+      href: legal-information.md
+    - name: OpenGL 簡介
+      href: introduction-to-opengl.md
+      items:
+        - name: 基本和命令
+          href: primitives-and-commands.md
+        - name: OpenGL 圖形控制項
+          href: opengl-graphic-control.md
+        - name: 執行模型
+          href: execution-model.md
+        - name: 基本 OpenGL 操作
+          href: basic-opengl-operation.md
+        - name: OpenGL 函數名稱
+          href: opengl-function-names.md
+        - name: OpenGL 處理管線
+          href: opengl-processing-pipeline.md
+          items:
+            - name: 頂點
+              href: vertices.md
+              items:
+                - name: 輸入資料
+                  href: input-data.md
+                - name: 矩陣轉換
+                  href: matrix-transformations.md
+                - name: 設定光源和著色
+                  href: setting-lighting-and-coloring.md
+                - name: 產生材質座標
+                  href: generating-texture-coordinates.md
+                - name: 組合基本專案
+                  href: assembling-primitives.md
+                - name: 頂點參考
+                  href: vertices-reference.md
+            - name: 基本
+              href: primitives.md
+              items:
+                - name: 裁剪
+                  href: clipping.md
+                - name: 轉換成視窗座標
+                  href: transforming-to-window-coordinates.md
+                - name: 點陣化
+                  href: rasterizing.md
+                - name: 基本參考
+                  href: primitives-reference.md
+            - name: 片段
+              href: fragments.md
+              items:
+                - name: 圖元擁有權測試
+                  href: pixel-ownership-test.md
+                - name: 剪式測試
+                  href: scissor-test.md
+                - name: Alpha 測試
+                  href: alpha-test.md
+                - name: 樣板測試
+                  href: stencil-test.md
+                - name: 深度緩衝區測試
+                  href: depth-buffer-test.md
+                - name: 混合
+                  href: blending.md
+                - name: 抖動
+                  href: dithering.md
+                - name: 邏輯作業
+                  href: logical-operations.md
+                - name: 片段參考
+                  href: fragments-reference.md
+            - name: 阻擋的
+              href: pixels.md
+              items:
+                - name: 畫面格緩衝區作業
+                  href: framebuffer-operations.md
+                - name: 讀取或複製圖元
+                  href: reading-or-copying-pixels.md
+                - name: 圖元參考
+                  href: pixels-reference.md
+        - name: 使用評估工具
+          href: using-evaluators.md
+          items:
+            - name: 評估工具參考
+              href: evaluators-reference.md
+        - name: 執行選取專案和意見反應
+          href: performing-selection-and-feedback.md
+          items:
+            - name: 選取
+              href: selection.md
+            - name: 意見反應
+              href: feedback.md
+            - name: 選取範圍和意見反應參考
+              href: selection-and-feedback-reference.md
+        - name: 使用顯示清單
+          href: using-display-lists.md
+          items:
+            - name: 顯示清單參考
+              href: display-lists-reference.md
+        - name: 管理模式和執行
+          href: managing-modes-and-execution.md
+          items:
+            - name: 模式和執行參考
+              href: modes-and-execution-reference.md
+        - name: 取得狀態資訊
+          href: obtaining-state-information.md
+          items:
+            - name: 使用查詢函數
+              href: using-the-query-functions.md
+            - name: 錯誤處理
+              href: error-handling.md
+            - name: OpenGL 錯誤碼
+              href: opengl-error-codes.md
+            - name: 儲存和還原狀態變數集
+              href: saving-and-restoring-sets-of-state-variables.md
+            - name: OpenGL 狀態變數
+              href: opengl-state-variables.md
+            - name: 狀態資訊參考
+              href: state-information-reference.md
+        - name: OpenGL 公用程式庫
+          href: opengl-utility-library.md
+          items:
+            - name: 正在初始化
+              href: initializing.md
+            - name: 操作影像以用於紋理
+              href: manipulating-images-for-use-in-texturing.md
+            - name: 轉換座標
+              href: transforming-coordinates.md
+            - name: 鑲嵌多邊形
+              href: tessellating-polygons.md
+            - name: 使用回呼函式
+              href: using-callback-functions.md
+            - name: 使用鑲嵌式物件
+              href: using-tessellation-objects.md
+            - name: 指定回呼
+              href: specifying-callbacks.md
+            - name: 指定要鑲嵌的多邊形
+              href: specifying-the-polygon-to-be-tessellated.md
+            - name: 轉譯簡單的表面
+              href: rendering-simple-surfaces.md
+            - name: 使用 NURBS 曲線和表面
+              href: using-nurbs-curves-and-surfaces.md
+            - name: 處理錯誤
+              href: handling-errors.md
+    - name: OpenGL 的 Windows 擴充功能
+      href: windows-extensions-to-opengl.md
+      items:
+        - name: Windows 上的 OpenGL
+          href: opengl-on-windows-nt--windows-2000--and-windows-95-98.md
+          items:
+            - name: 檔指南
+              href: guide-to-documentation.md
+            - name: 單元
+              href: components.md
+            - name: 一般實行和硬體實作為
+              href: generic-implementation-and-hardware-implementations.md
+              items:
+                - name: 限制
+                  href: limitations.md
+            - name: 轉譯內容
+              href: rendering-contexts.md
+              items:
+                - name: 轉譯內容函式
+                  href: rendering-context-functions.md
+            - name: 像素格式
+              href: pixel-formats.md
+              items:
+                - name: 像素格式函數
+                  href: pixel-format-functions.md
+            - name: 前端、背面和其他緩衝區
+              href: front--back--and-other-buffers.md
+              items:
+                - name: 緩衝區函數
+                  href: buffer-functions.md
+            - name: 字型和文字
+              href: fonts-and-text.md
+              items:
+                - name: 字型和文字函數
+                  href: font-and-text-functions.md
+            - name: OpenGL 色彩模式和 Windows 調色板管理
+              href: opengl-color-modes-and-windows-palette-management.md
+              items:
+                - name: 調色板和調色板管理員
+                  href: palettes-and-the-palette-manager.md
+                - name: 元件感知
+                  href: palette-awareness.md
+                - name: 從畫面格緩衝區讀取色彩值
+                  href: reading-color-values-from-the-framebuffer.md
+                - name: 選擇 RGBA 和 Color-Index 模式
+                  href: choosing-between-rgba-and-color-index-mode.md
+                - name: RGBA 模式和 Windows 元件管理
+                  href: rgba-mode-and-windows-palette-management.md
+                - name: Color-Index 模式和 Windows 調色板管理
+                  href: color-index-mode-and-windows-palette-management.md
+            - name: 重迭、基礎和主要平面
+              href: overlay--underlay--and-main-planes.md
+            - name: 共用顯示清單
+              href: sharing-display-lists.md
+            - name: 擴充 OpenGL 函數
+              href: extending-opengl-functions.md
+            - name: GLX 和 WGL/Windows
+              href: glx-and-wgl-win32.md
+            - name: 在 Windows 上使用 OpenGL
+              href: using-opengl-on-windows-nt-2000-and-windows-95-98.md
+              items:
+                - name: 標頭檔
+                  href: header-files.md
+                - name: 像素格式工作
+                  href: pixel-format-tasks.md
+                  items:
+                    - name: 選擇和設定 Best-Match 像素格式
+                      href: choosing-and-setting-a-best-match-pixel-format.md
+                    - name: 檢查裝置內容的目前像素格式
+                      href: examining-a-device-contexts-current-pixel-format.md
+                    - name: 檢查裝置支援的像素格式
+                      href: examining-a-devices-supported-pixel-formats.md
+                - name: 轉譯內容工作
+                  href: rendering-context-tasks.md
+                  items:
+                    - name: 建立轉譯內容並使其成為最新的
+                      href: creating-a-rendering-context-and-making-it-current.md
+                    - name: 使轉譯內容不是最新的
+                      href: making-a-rendering-context-not-current.md
+                    - name: 刪除轉譯內容
+                      href: deleting-a-rendering-context.md
+                - name: 使用雙緩衝區繪製
+                  href: drawing-with-double-buffers.md
+                - name: 在 Double-Buffered OpenGL 視窗中繪製文字
+                  href: drawing-text-in-a-double-buffered-opengl-window.md
+                - name: 列印 OpenGL 影像
+                  href: printing-an-opengl-image.md
+                - name: 將 OpenGL 影像複製到剪貼簿
+                  href: copying-an-opengl-image-to-the-clipboard.md
+                - name: 多執行緒 OpenGL 繪圖策略
+                  href: multithread-opengl-drawing-strategies.md
+                - name: 使用輔助資源庫
+                  href: using-the-auxiliary-library.md
+            - name: 適用于 OpenGL 的 Windows 擴充功能參考
+              href: reference-for-win-32-extensions-to-opengl.md
+              items:
+                - name: WGL 函式
+                  href: wgl-functions.md
+                - name: Windows 函數
+                  href: win32-functions.md
+                - name: 結構
+                  href: structures.md
+        - name: WGL 和 Windows 參考
+          href: wgl-and-windows-reference.md
+          items:
+            - name: ChoosePixelFormat
+              href: /windows/desktop/api/wingdi/nf-wingdi-choosepixelformat
+            - name: DescribePixelFormat
+              href: /windows/desktop/api/wingdi/nf-wingdi-describepixelformat
+            - name: GetEnhMetaFilePixelFormat
+              href: /windows/desktop/api/wingdi/nf-wingdi-getenhmetafilepixelformat
+            - name: GetPixelFormat
+              href: /windows/desktop/api/wingdi/nf-wingdi-getpixelformat
+            - name: SetPixelFormat
+              href: /windows/desktop/api/wingdi/nf-wingdi-setpixelformat
+            - name: SwapBuffers
+              href: /windows/desktop/api/wingdi/nf-wingdi-swapbuffers
+            - name: wglCreateCoNtext
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext
+            - name: wglCreateLayerCoNtext
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglcreatelayercontext
+            - name: wglCopyCoNtext
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglcopycontext
+            - name: wglDeleteCoNtext
+              href: /windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext
+            - name: wglDescribeLayerPlane
+              href: /windows/desktop/api/wingdi/nf-wingdi-wgldescribelayerplane
+            - name: wglGetCurrentCoNtext
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentcontext
+            - name: wglGetCurrentDC
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentdc
+            - name: wglGetLayerPaletteEntries
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglgetlayerpaletteentries
+            - name: wglGetProcAddress
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglgetprocaddress
+            - name: wglMakeCurrent
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent
+            - name: wglRealizeLayerPalette
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglrealizelayerpalette
+            - name: wglSetLayerPaletteEntries
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglsetlayerpaletteentries
+            - name: wglShareLists
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglsharelists
+            - name: wglSwapLayerBuffers
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglswaplayerbuffers
+            - name: wglUseFontBitmaps
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa
+            - name: wglUseFontOutlines
+              href: /windows/desktop/api/wingdi/nf-wingdi-wglusefontoutlinesa
+            - name: GLYPHMETRICSFLOAT
+              href: /windows/win32/api/wingdi/ns-wingdi-glyphmetricsfloat
+            - name: LAYERPLANEDESCRIPTOR
+              href: /windows/win32/api/Wingdi/ns-wingdi-layerplanedescriptor
+            - name: PIXELFORMATDESCRIPTOR
+              href: /windows/win32/api/Wingdi/ns-wingdi-pixelformatdescriptor
+            - name: POINTFLOAT
+              href: /windows/win32/api/wingdi/ns-wingdi-pointfloat
+    - name: 程式設計提示
+      href: programming-tips.md
+      items:
+        - name: OpenGL 正確性秘訣
+          href: opengl-correctness-tips.md
+        - name: OpenGL 效能秘訣
+          href: opengl-performance-tips.md
+        - name: 安全性考慮： OpenGL
+          href: security-considerations--opengl.md
+    - name: OpenGL 參考
+      href: opengl-reference.md
+      items:
+        - name: 狀態變數
+          href: state-variables.md
+          items:
+            - name: 屬性群組
+              href: attribute-groups.md
+            - name: 目前值和相關資料的狀態變數
+              href: state-variables-for-current-values-and-associated-data.md
+            - name: 轉換狀態變數
+              href: transformation-state-variables.md
+            - name: 著色狀態變數
+              href: coloring-state-variables.md
+            - name: 光源狀態變數
+              href: lighting-state-variables.md
+            - name: 柵格化狀態變數
+              href: rasterization-state-variables.md
+            - name: 紋理狀態變數
+              href: texturing-state-variables.md
+            - name: 圖元作業
+              href: pixel-operations.md
+            - name: 畫面格緩衝區控制項狀態變數
+              href: framebuffer-control-state-variables.md
+            - name: 圖元狀態變數
+              href: pixel-state-variables.md
+            - name: 評估工具狀態變數
+              href: evaluator-state-variables.md
+            - name: 提示狀態變數
+              href: hint-state-variables.md
+            - name: Implementation-Dependent 狀態變數
+              href: implementation-dependent-state-variables.md
+            - name: Implementation-Dependent Pixel-Depth 狀態變數
+              href: implementation-dependent-pixel-depth-state-variables.md
+            - name: 其他狀態變數
+              href: miscellaneous-state-variables.md
+        - name: GL 函數
+          href: gl-functions.md
+          items:
+            - name: glAccum
+              href: glaccum.md
+            - name: glAddSwapHintRectWIN
+              href: gladdswaphintrectwin.md
+            - name: glAlphaFunc
+              href: glalphafunc.md
+            - name: glAreTexturesResident
+              href: glaretexturesresident.md
+            - name: glArrayElement
+              href: glarrayelement.md
+            - name: glBegin
+              href: glbegin.md
+            - name: glBindTexture
+              href: glbindtexture.md
+            - name: glBitmap
+              href: glbitmap.md
+            - name: glBlendFunc
+              href: glblendfunc.md
+            - name: glCallList
+              href: glcalllist.md
+            - name: glCallLists
+              href: glcalllists.md
+            - name: glClear
+              href: glclear.md
+            - name: glClearAccum
+              href: glclearaccum.md
+            - name: glClearColor
+              href: glclearcolor.md
+            - name: glClearDepth
+              href: glcleardepth.md
+            - name: glClearIndex
+              href: glclearindex.md
+            - name: glClearStencil
+              href: glclearstencil.md
+            - name: glClipPlane
+              href: glclipplane.md
+            - name: glColor 函式
+              href: glcolor-functions.md
+              items:
+                - name: glColor3b
+                  href: glcolor3b.md
+                - name: glColor3bv
+                  href: glcolor3bv.md
+                - name: glColor3d
+                  href: glcolor3d.md
+                - name: glColor3dv
+                  href: glcolor3dv.md
+                - name: glColor3f
+                  href: glcolor3f.md
+                - name: glColor3fv
+                  href: glcolor3fv.md
+                - name: glColor3i
+                  href: glcolor3i.md
+                - name: glColor3iv
+                  href: glcolor3iv.md
+                - name: glColor3s
+                  href: glcolor3s.md
+                - name: glColor3sv
+                  href: glcolor3sv.md
+                - name: glColor3ub
+                  href: glcolor3ub.md
+                - name: glColor3ubv
+                  href: glcolor3ubv.md
+                - name: glColor3ui
+                  href: glcolor3ui.md
+                - name: glColor3uiv
+                  href: glcolor3uiv.md
+                - name: glColor3us
+                  href: glcolor3us.md
+                - name: glColor3usv
+                  href: glcolor3usv.md
+                - name: glColor4b
+                  href: glcolor4b.md
+                - name: glColor4bv
+                  href: glcolor4bv.md
+                - name: glColor4d
+                  href: glcolor4d.md
+                - name: glColor4dv
+                  href: glcolor4dv.md
+                - name: glColor4f
+                  href: glcolor4f.md
+                - name: glColor4fv
+                  href: glcolor4fv.md
+                - name: glColor4i
+                  href: glcolor4i.md
+                - name: glColor4iv
+                  href: glcolor4iv.md
+                - name: glColor4s
+                  href: glcolor4s.md
+                - name: glColor4sv
+                  href: glcolor4sv.md
+                - name: glColor4ub
+                  href: glcolor4ub.md
+                - name: glColor4ubv
+                  href: glcolor4ubv.md
+                - name: glColor4ui
+                  href: glcolor4ui.md
+                - name: glColor4uiv
+                  href: glcolor4uiv.md
+                - name: glColor4us
+                  href: glcolor4us.md
+                - name: glColor4usv
+                  href: glcolor4usv.md
+            - name: glColorMask
+              href: glcolormask.md
+            - name: glColorMaterial
+              href: glcolormaterial.md
+            - name: glColorPointer
+              href: glcolorpointer.md
+            - name: glColorTableEXT
+              href: glcolortableext.md
+            - name: glColorSubTableEXT
+              href: glcolorsubtableext.md
+            - name: glCopyPixels
+              href: glcopypixels.md
+            - name: glCopyTexImage1D
+              href: glcopyteximage1d.md
+            - name: glCopyTexImage2D
+              href: glcopyteximage2d.md
+            - name: glCopyTexSubImage1D
+              href: glcopytexsubimage1d.md
+            - name: glCopyTexSubImage2D
+              href: glcopytexsubimage2d.md
+            - name: glCullFace
+              href: glcullface.md
+            - name: glDeleteLists
+              href: gldeletelists.md
+            - name: glDeleteTextures
+              href: gldeletetextures.md
+            - name: glDepthFunc
+              href: gldepthfunc.md
+            - name: glDepthMask
+              href: gldepthmask.md
+            - name: glDepthRange
+              href: gldepthrange.md
+            - name: glDisable
+              href: gldisable.md
+            - name: glDisableClientState
+              href: gldisableclientstate.md
+            - name: glDrawArrays
+              href: gldrawarrays.md
+            - name: glDrawBuffer
+              href: gldrawbuffer.md
+            - name: glDrawElements
+              href: gldrawelements.md
+            - name: glDrawPixels
+              href: gldrawpixels.md
+            - name: glEdgeFlag 函式
+              href: gledgeflag-functions.md
+              items:
+                - name: glEdgeFlag
+                  href: gledgeflag.md
+                - name: glEdgeFlagv
+                  href: gledgeflagv.md
+            - name: glEdgeFlagPointer
+              href: gledgeflagpointer.md
+            - name: glEnable
+              href: glenable.md
+            - name: glEnableClientState
+              href: glenableclientstate.md
+            - name: glEnd
+              href: glend.md
+            - name: glEndList
+              href: glendlist.md
+            - name: glEvalCoord 函式
+              href: glevalcoord-functions.md
+              items:
+                - name: glEvalCoord1d
+                  href: glevalcoord1d.md
+                - name: glEvalCoord1dv
+                  href: glevalcoord1dv.md
+                - name: glEvalCoord1f
+                  href: glevalcoord1f.md
+                - name: glEvalCoord1fv
+                  href: glevalcoord1fv.md
+                - name: glEvalCoord2d
+                  href: glevalcoord2d.md
+                - name: glEvalCoord2dv
+                  href: glevalcoord2dv.md
+                - name: glEvalCoord2f
+                  href: glevalcoord2f.md
+                - name: glEvalCoord2fv
+                  href: glevalcoord2fv.md
+            - name: glEvalMesh 函式
+              href: glevalmesh-functions.md
+              items:
+                - name: glEvalMesh1
+                  href: glevalmesh1.md
+                - name: glEvalMesh2
+                  href: glevalmesh2.md
+            - name: glEvalPoint 函式
+              href: glevalpoint.md
+              items:
+                - name: glEvalPoint1
+                  href: glevalpoint1.md
+                - name: glEvalPoint2
+                  href: glevalpoint2.md
+            - name: glFeedbackBuffer
+              href: glfeedbackbuffer.md
+            - name: glFinish
+              href: glfinish.md
+            - name: glFlush
+              href: glflush.md
+            - name: glFog 函式
+              href: glfog.md
+              items:
+                - name: glFogf
+                  href: glfogf.md
+                - name: glFogfv
+                  href: glfogfv.md
+                - name: glFogi
+                  href: glfogi.md
+                - name: glFogiv
+                  href: glfogiv.md
+            - name: glFrontFace
+              href: glfrontface.md
+            - name: glFrustum
+              href: glfrustum.md
+            - name: glGenLists
+              href: glgenlists.md
+            - name: glGenTextures
+              href: glgentextures.md
+            - name: glGet
+              href: glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md
+              items:
+                - name: glGetBooleanv
+                  href: glgetbooleanv.md
+                - name: glGetDoublev
+                  href: glgetdoublev.md
+                - name: glGetFloatv
+                  href: glgetfloatv.md
+                - name: glGetIntegerv
+                  href: glgetintegerv.md
+            - name: glGetClipPlane
+              href: glgetclipplane.md
+            - name: glGetColorTableEXT
+              href: glgetcolortableext.md
+            - name: glGetColorTableParameterfvEXT
+              href: glgetcolortableparameterfvext.md
+            - name: glGetColorTableParameterivEXT
+              href: glgetcolortableparameterivext.md
+            - name: glGetError
+              href: glgeterror.md
+            - name: glGetLight 函式
+              href: glgetlight.md
+              items:
+                - name: glGetLightfv
+                  href: glgetlightfv.md
+                - name: glGetLightiv
+                  href: glgetlightiv.md
+            - name: glGetMap 函式
+              href: glgetmap.md
+              items:
+                - name: glGetMapdv
+                  href: glgetmapdv.md
+                - name: glGetMapfv
+                  href: glgetmapfv.md
+                - name: glGetMapiv
+                  href: glgetmapiv.md
+            - name: glGetMaterial 函式
+              href: glgetmaterial.md
+              items:
+                - name: glGetMaterialfv
+                  href: glgetmaterialfv.md
+                - name: glGetMaterialiv
+                  href: glgetmaterialiv.md
+            - name: glGetPixelMap 函式
+              href: glgetpixelmap.md
+              items:
+                - name: glGetPixelMapfv
+                  href: glgetpixelmapfv.md
+                - name: glGetPixelMapuiv
+                  href: glgetpixelmapuiv.md
+                - name: glGetPixelMapusv
+                  href: glgetpixelmapusv.md
+            - name: glGetPointerv
+              href: glgetpointerv.md
+            - name: glGetPolygonStipple
+              href: glgetpolygonstipple.md
+            - name: glGetString
+              href: glgetstring.md
+            - name: glGetTexEnv 函式
+              href: glgettexenv.md
+              items:
+                - name: glGetTexEnvfv
+                  href: glgettexenvfv.md
+                - name: glGetTexEnviv
+                  href: glgettexenviv.md
+            - name: glGetTexGen 函式
+              href: glgettexgen.md
+              items:
+                - name: glGetTexGendv
+                  href: glgettexgendv.md
+                - name: glGetTexGenfv
+                  href: glgettexgenfv.md
+                - name: glGetTexGeniv
+                  href: glgettexgeniv.md
+            - name: glGetTexImage
+              href: glgetteximage.md
+            - name: glGetTexLevelParameter 函式
+              href: glgettexlevelparameter.md
+              items:
+                - name: glGetTexLevelParameterfv
+                  href: glgettexlevelparameterfv.md
+                - name: glGetTexLevelParameteriv
+                  href: glgettexlevelparameteriv.md
+            - name: glGetTexParameter 函式
+              href: glgettexparameter.md
+              items:
+                - name: glGetTexParameterfv
+                  href: glgettexparameterfv.md
+                - name: glGetTexParameteriv
+                  href: glgettexparameteriv.md
+            - name: glHint
+              href: glhint.md
+            - name: glIndex 函式
+              href: glindex-functions.md
+              items:
+                - name: glIndexd
+                  href: glindexd.md
+                - name: glIndexdv
+                  href: glindexdv.md
+                - name: glIndexf
+                  href: glindexf.md
+                - name: glIndexfv
+                  href: glindexfv.md
+                - name: glIndexi
+                  href: glindexi.md
+                - name: glIndexiv
+                  href: glindexiv.md
+                - name: glIndexs
+                  href: glindexs.md
+                - name: glIndexsv
+                  href: glindexsv.md
+            - name: glIndexMask
+              href: glindexmask.md
+            - name: glIndexPointer
+              href: glindexpointer.md
+            - name: glInitNames
+              href: glinitnames.md
+            - name: glInterleavedArrays
+              href: glinterleavedarrays.md
+            - name: glIsEnabled
+              href: glisenabled.md
+            - name: glIsList
+              href: glislist.md
+            - name: glIsTexture
+              href: glistexture.md
+            - name: glLight 函式
+              href: gllight-functions.md
+              items:
+                - name: glLightf
+                  href: gllightf.md
+                - name: glLightfv
+                  href: gllightfv.md
+                - name: glLighti
+                  href: gllighti.md
+                - name: glLightiv
+                  href: gllightiv.md
+            - name: glLightModel 函式
+              href: gllightmodel-functions.md
+              items:
+                - name: glLightModelf
+                  href: gllightmodelf.md
+                - name: glLightModelfv
+                  href: gllightmodelfv.md
+                - name: glLightModeli
+                  href: gllightmodeli.md
+                - name: glLightModeliv
+                  href: gllightmodeliv.md
+            - name: glLineStipple
+              href: gllinestipple.md
+            - name: glLineWidth
+              href: gllinewidth.md
+            - name: glListBase
+              href: gllistbase.md
+            - name: glLoadIdentity
+              href: glloadidentity.md
+            - name: glLoadMatrix 函式
+              href: glloadmatrix.md
+              items:
+                - name: glLoadMatrixd
+                  href: glloadmatrixd.md
+                - name: glLoadMatrixf
+                  href: glloadmatrixf.md
+            - name: glLoadName
+              href: glloadname.md
+            - name: glLogicOp
+              href: gllogicop.md
+            - name: glMap1 函式
+              href: glmap1.md
+              items:
+                - name: glMap1d
+                  href: glmap1d.md
+                - name: glMap1f
+                  href: glmap1f.md
+            - name: glMap2 函式
+              href: glmap2.md
+              items:
+                - name: glMap2d
+                  href: glmap2d.md
+                - name: glMap2f
+                  href: glmap2f.md
+            - name: glMapGrid 函式
+              href: glmapgrid-functions.md
+              items:
+                - name: glMapGrid1d
+                  href: glmapgrid1d.md
+                - name: glMapGrid1f
+                  href: glmapgrid1f.md
+                - name: glMapGrid2d
+                  href: glmapgrid2d.md
+                - name: glMapGrid2f
+                  href: glmapgrid2f.md
+            - name: glMaterial 函式
+              href: glmaterial-functions.md
+              items:
+                - name: glMaterialf
+                  href: glmaterialf.md
+                - name: glMaterialfv
+                  href: glmaterialfv.md
+                - name: glMateriali
+                  href: glmateriali.md
+                - name: glMaterialiv
+                  href: glmaterialiv.md
+            - name: glMatrixMode
+              href: glmatrixmode.md
+            - name: glMultMatrix 函式
+              href: glmultmatrix.md
+              items:
+                - name: glMultMatrixd
+                  href: glmultmatrixd.md
+                - name: glMultMatrixf
+                  href: glmultmatrixf.md
+            - name: glNewList
+              href: glnewlist.md
+            - name: glNormal 函式
+              href: glnormal-functions.md
+              items:
+                - name: glNormal3b
+                  href: glnormal3b.md
+                - name: glNormal3bv
+                  href: glnormal3bv.md
+                - name: glNormal3d
+                  href: glnormal3d.md
+                - name: glNormal3dv
+                  href: glnormal3dv.md
+                - name: glNormal3f
+                  href: glnormal3f.md
+                - name: glNormal3fv
+                  href: glnormal3fv.md
+                - name: glNormal3i
+                  href: glnormal3i.md
+                - name: glNormal3iv
+                  href: glnormal3iv.md
+                - name: glNormal3s
+                  href: glnormal3s.md
+                - name: glNormal3sv
+                  href: glnormal3sv.md
+            - name: glNormalPointer
+              href: glnormalpointer.md
+            - name: glOrtho
+              href: glortho.md
+            - name: glPassThrough
+              href: glpassthrough.md
+            - name: glPixelMap 函式
+              href: glpixelmap.md
+              items:
+                - name: glPixelMapfv
+                  href: glpixelmapfv.md
+                - name: glPixelMapuiv
+                  href: glpixelmapuiv.md
+                - name: glPixelMapusv
+                  href: glpixelmapusv.md
+            - name: glPixelStore 函式
+              href: glpixelstore-functions.md
+              items:
+                - name: glPixelStoref
+                  href: glpixelstoref.md
+                - name: glPixelStorei
+                  href: glpixelstorei.md
+            - name: glPixelTransfer 函式
+              href: glpixeltransfer.md
+              items:
+                - name: glPixelTransferf
+                  href: glpixeltransferf.md
+                - name: glPixelTransferi
+                  href: glpixeltransferi.md
+            - name: glPixelZoom
+              href: glpixelzoom.md
+            - name: glPointSize
+              href: glpointsize.md
+            - name: glPolygonMode
+              href: glpolygonmode.md
+            - name: glPolygonOffset
+              href: glpolygonoffset.md
+            - name: glPolygonStipple
+              href: glpolygonstipple.md
+            - name: glPopAttrib
+              href: glpopattrib.md
+            - name: glPopClientAttrib
+              href: glpopclientattrib.md
+            - name: glPopMatrix
+              href: glpopmatrix.md
+            - name: glPopName
+              href: glpopname.md
+            - name: glPrioritizeTextures
+              href: glprioritizetextures.md
+            - name: glPushAttrib
+              href: glpushattrib.md
+            - name: glPushClientAttrib
+              href: glpushclientattrib.md
+            - name: glPushMatrix
+              href: glpushmatrix.md
+            - name: glPushName
+              href: glpushname.md
+            - name: glRasterPos 函式
+              href: glrasterpos-functions.md
+              items:
+                - name: glRasterPos2d
+                  href: glrasterpos2d.md
+                - name: glRasterPos2dv
+                  href: glrasterpos2dv.md
+                - name: glRasterPos2f
+                  href: glrasterpos2f.md
+                - name: glRasterPos2fv
+                  href: glrasterpos2fv.md
+                - name: glRasterPos2i
+                  href: glrasterpos2i.md
+                - name: glRasterPos2iv
+                  href: glrasterpos2iv.md
+                - name: glRasterPos2s
+                  href: glrasterpos2s.md
+                - name: glRasterPos2sv
+                  href: glrasterpos2sv.md
+                - name: glRasterPos3d
+                  href: glrasterpos3d.md
+                - name: glRasterPos3dv
+                  href: glrasterpos3dv.md
+                - name: glRasterPos3f
+                  href: glrasterpos3f.md
+                - name: glRasterPos3fv
+                  href: glrasterpos3fv.md
+                - name: glRasterPos3i
+                  href: glrasterpos3i.md
+                - name: glRasterPos3iv
+                  href: glrasterpos3iv.md
+                - name: glRasterPos3s
+                  href: glrasterpos3s.md
+                - name: glRasterPos3sv
+                  href: glrasterpos3sv.md
+                - name: glRasterPos4d
+                  href: glrasterpos4d.md
+                - name: glRasterPos4dv
+                  href: glrasterpos4dv.md
+                - name: glRasterPos4f
+                  href: glrasterpos4f.md
+                - name: glRasterPos4fv
+                  href: glrasterpos4fv.md
+                - name: glRasterPos4i
+                  href: glrasterpos4i.md
+                - name: glRasterPos4iv
+                  href: glrasterpos4iv.md
+                - name: glRasterPos4s
+                  href: glrasterpos4s.md
+                - name: glRasterPos4sv
+                  href: glrasterpos4sv.md
+            - name: glReadBuffer
+              href: glreadbuffer.md
+            - name: glReadPixels
+              href: glreadpixels.md
+            - name: glRect 函式
+              href: glrect-functions.md
+              items:
+                - name: glRectd
+                  href: glrectd.md
+                - name: glRectdv
+                  href: glrectdv.md
+                - name: glRectf
+                  href: glrectf.md
+                - name: glRectfv
+                  href: glrectfv.md
+                - name: glRecti
+                  href: glrecti.md
+                - name: glRectiv
+                  href: glrectiv.md
+                - name: glRects
+                  href: glrects.md
+                - name: glRectsv
+                  href: glrectsv.md
+            - name: glRenderMode
+              href: glrendermode.md
+            - name: glRotate 函式
+              href: glrotate.md
+              items:
+                - name: glRotated
+                  href: glrotated.md
+                - name: glRotatef
+                  href: glrotatef.md
+            - name: glScale 函式
+              href: glscale.md
+              items:
+                - name: glScaled
+                  href: glscaled.md
+                - name: glScalef
+                  href: glscalef.md
+            - name: glScissor
+              href: glscissor.md
+            - name: glSelectBuffer
+              href: glselectbuffer.md
+            - name: glShadeModel
+              href: glshademodel.md
+            - name: glStencilFunc
+              href: glstencilfunc.md
+            - name: glStencilMask
+              href: glstencilmask.md
+            - name: glStencilOp
+              href: glstencilop.md
+            - name: glTexCoord 函式
+              href: gltexcoord-functions.md
+              items:
+                - name: glTexCoord1d
+                  href: gltexcoord1d.md
+                - name: glTexCoord1dv
+                  href: gltexcoord1dv.md
+                - name: glTexCoord1f
+                  href: gltexcoord1f.md
+                - name: glTexCoord1fv
+                  href: gltexcoord1fv.md
+                - name: glTexCoord1i
+                  href: gltexcoord1i.md
+                - name: glTexCoord1iv
+                  href: gltexcoord1iv.md
+                - name: glTexCoord1s
+                  href: gltexcoord1s.md
+                - name: glTexCoord1sv
+                  href: gltexcoord1sv.md
+                - name: glTexCoord2d
+                  href: gltexcoord2d.md
+                - name: glTexCoord2dv
+                  href: gltexcoord2dv.md
+                - name: glTexCoord2fv
+                  href: gltexcoord2fv.md
+                - name: glTexCoord2i
+                  href: gltexcoord2i.md
+                - name: glTexCoord2iv
+                  href: gltexcoord2iv.md
+                - name: glTexCoord2s
+                  href: gltexcoord2s.md
+                - name: glTexCoord2sv
+                  href: gltexcoord2sv.md
+                - name: glTexCoord3d
+                  href: gltexcoord3d.md
+                - name: glTexCoord3dv
+                  href: gltexcoord3dv.md
+                - name: glTexCoord3f
+                  href: gltexcoord3f.md
+                - name: glTexCoord3fv
+                  href: gltexcoord3fv.md
+                - name: glTexCoord3i
+                  href: gltexcoord3i.md
+                - name: glTexCoord3iv
+                  href: gltexcoord3iv.md
+                - name: glTexCoord3s
+                  href: gltexcoord3s.md
+                - name: glTexCoord3sv
+                  href: gltexcoord3sv.md
+                - name: glTexCoord4d
+                  href: gltexcoord4d.md
+                - name: glTexCoord4dv
+                  href: gltexcoord4dv.md
+                - name: glTexCoord4f
+                  href: gltexcoord4f.md
+                - name: glTexCoord4fv
+                  href: gltexcoord4fv.md
+                - name: glTexCoord4i
+                  href: gltexcoord4i.md
+                - name: glTexCoord4iv
+                  href: gltexcoord4iv.md
+                - name: glTexCoord4s
+                  href: gltexcoord4s.md
+                - name: glTexCoord4sv
+                  href: gltexcoord4sv.md
+            - name: glTexCoordPointer
+              href: gltexcoordpointer.md
+            - name: glTexEnv 函式
+              href: gltexenv-functions.md
+              items:
+                - name: glTexEnvf
+                  href: gltexenvf.md
+                - name: glTexEnvfv
+                  href: gltexenvfv.md
+                - name: glTexEnvi
+                  href: gltexenvi.md
+                - name: glTexEnviv
+                  href: gltexenviv.md
+            - name: glTexGen 函式
+              href: gltexgen-functions.md
+              items:
+                - name: glTexGend
+                  href: gltexgend.md
+                - name: glTexGendv
+                  href: gltexgendv.md
+                - name: glTexGenf
+                  href: gltexgenf.md
+                - name: glTexGenfv
+                  href: gltexgenfv.md
+                - name: glTexGeni
+                  href: gltexgeni.md
+                - name: glTexGeniv
+                  href: gltexgeniv.md
+            - name: glTexImage1D
+              href: glteximage1d.md
+            - name: glTexImage2D
+              href: glteximage2d.md
+            - name: glTexParameter 函式
+              href: gltexparameter-functions.md
+              items:
+                - name: glTexParameterf
+                  href: gltexparameterf.md
+                - name: glTexParameterfv
+                  href: gltexparameterfv.md
+                - name: glTexParameteri
+                  href: gltexparameteri.md
+                - name: glTexParameteriv
+                  href: gltexparameteriv.md
+            - name: glTexSubImage1D
+              href: gltexsubimage1d.md
+            - name: glTexSubImage2D
+              href: gltexsubimage2d.md
+            - name: glTranslate 函式
+              href: gltranslate.md
+              items:
+                - name: glTranslated
+                  href: gltranslated.md
+                - name: glTranslatef
+                  href: gltranslatef.md
+            - name: glVertex 函式
+              href: glvertex-functions.md
+              items:
+                - name: glVertex2d
+                  href: glvertex2d.md
+                - name: glVertex2dv
+                  href: glvertex2dv.md
+                - name: glVertex2f
+                  href: glvertex2f.md
+                - name: glVertex2fv
+                  href: glvertex2fv.md
+                - name: glVertex2i
+                  href: glvertex2i.md
+                - name: glVertex2iv
+                  href: glvertex2iv.md
+                - name: glVertex2s
+                  href: glvertex2s.md
+                - name: glVertex2sv
+                  href: glvertex2sv.md
+                - name: glVertex3d
+                  href: glvertex3d.md
+                - name: glVertex3dv
+                  href: glvertex3dv.md
+                - name: glVertex3f
+                  href: glvertex3f.md
+                - name: glVertex3fv
+                  href: glvertex3fv.md
+                - name: glVertex3i
+                  href: glvertex3i.md
+                - name: glVertex3iv
+                  href: glvertex3iv.md
+                - name: glVertex3s
+                  href: glvertex3s.md
+                - name: glVertex3sv
+                  href: glvertex3sv.md
+                - name: glVertex4d
+                  href: glvertex4d.md
+                - name: glVertex4dv
+                  href: glvertex4dv.md
+                - name: glVertex4f
+                  href: glvertex4f.md
+                - name: glVertex4fv
+                  href: glvertex4fv.md
+                - name: glVertex4i
+                  href: glvertex4i.md
+                - name: glVertex4iv
+                  href: glvertex4iv.md
+                - name: glVertex4s
+                  href: glvertex4s.md
+                - name: glVertex4sv
+                  href: glvertex4sv.md
+            - name: glVertexPointer
+              href: glvertexpointer.md
+            - name: glViewport
+              href: glviewport.md
+        - name: X.GLU 隊函式
+          href: glu-functions.md
+          items:
+            - name: gluBeginCurve
+              href: glubegincurve.md
+            - name: gluBeginPolygon
+              href: glubeginpolygon.md
+            - name: gluBeginSurface
+              href: glubeginsurface.md
+            - name: gluBeginTrim
+              href: glubegintrim.md
+            - name: gluBuild1DMipmaps
+              href: glubuild1dmipmaps.md
+            - name: gluBuild2DMipmaps
+              href: glubuild2dmipmaps.md
+            - name: gluCylinder
+              href: glucylinder.md
+            - name: gluDeleteNurbsRenderer
+              href: gludeletenurbsrenderer.md
+            - name: gluDeleteQuadric
+              href: gludeletequadric.md
+            - name: gluDeleteTess
+              href: gludeletetess.md
+            - name: gluDisk
+              href: gludisk.md
+            - name: gluEndCurve
+              href: gluendcurve.md
+            - name: gluEndPolygon
+              href: gluendpolygon.md
+            - name: gluEndSurface
+              href: gluendsurface.md
+            - name: gluEndTrim
+              href: gluendtrim.md
+            - name: gluErrorString
+              href: gluerrorstring.md
+            - name: gluGetNurbsProperty
+              href: glugetnurbsproperty.md
+            - name: gluGetString
+              href: glugetstring.md
+            - name: gluGetTessProperty
+              href: glugettessproperty.md
+            - name: gluLoadSamplingMatrices
+              href: gluloadsamplingmatrices.md
+            - name: gluLookAt
+              href: glulookat.md
+            - name: gluNewNurbsRenderer
+              href: glunewnurbsrenderer.md
+            - name: gluNewQuadric
+              href: glunewquadric.md
+            - name: gluNewTess
+              href: glunewtess.md
+            - name: gluNextContour
+              href: glunextcontour.md
+            - name: gluNurbsCallback
+              href: glunurbs.md
+            - name: gluNurbsCurve
+              href: glunurbscurve.md
+            - name: gluNurbsProperty
+              href: glunurbsproperty.md
+            - name: gluNurbsSurface
+              href: glunurbssurface.md
+            - name: gluOrtho2D
+              href: gluortho2d.md
+            - name: gluPartialDisk
+              href: glupartialdisk.md
+            - name: gluPerspective
+              href: gluperspective.md
+            - name: gluPickMatrix
+              href: glupickmatrix.md
+            - name: gluProject
+              href: gluproject.md
+            - name: gluPwlCurve
+              href: glupwlcurve.md
+            - name: gluQuadricCallback
+              href: gluquadric.md
+            - name: gluQuadricDrawStyle
+              href: gluquadricdrawstyle.md
+            - name: gluQuadricNormals
+              href: gluquadricnormals.md
+            - name: gluQuadricOrientation
+              href: gluquadricorientation.md
+            - name: gluQuadricTexture
+              href: gluquadrictexture.md
+            - name: gluScaleImage
+              href: gluscaleimage.md
+            - name: gluSphere
+              href: glusphere.md
+            - name: gluTessBeginContour
+              href: glutessbegincontour.md
+            - name: gluTessBeginPolygon
+              href: glutessbeginpolygon.md
+            - name: gluTessCallback
+              href: glutess.md
+            - name: gluTessEndContour
+              href: glutessendcontour.md
+            - name: gluTessEndPolygon
+              href: glutessendpolygon.md
+            - name: gluTessNormal
+              href: glutessnormal.md
+            - name: gluTessProperty
+              href: glutessproperty.md
+            - name: gluTessVertex
+              href: glutessvertex.md
+            - name: gluUnProject
+              href: gluunproject.md
+    - name: 移植至 OpenGL
+      href: porting-to-opengl.md
+      items:
+        - name: 移植至適用于 Windows 的 OpenGL 的簡介
+          href: introduction-to-porting-to-opengl-for-windows-nt--windows-2000--and-windows-95-98.md
+          items:
+            - name: 移植 X 視窗系統應用程式
+              href: porting-x-window-system-applications.md
+            - name: 翻譯 GLX 程式庫
+              href: translating-the-glx-library.md
+            - name: 移植裝置內容和像素格式
+              href: porting-device-contexts-and-pixel-formats.md
+              items:
+                - name: GLX 像素格式的程式碼範例
+                  href: glx-pixel-format-code-sample.md
+                - name: Windows 像素格式的程式碼範例
+                  href: win32-pixel-format-code-sample.md
+            - name: 移植轉譯內容
+              href: porting-rendering-contexts.md
+              items:
+                - name: GLX 轉譯內容程式碼範例
+                  href: glx-rendering-context-code-sample.md
+                - name: Windows 轉譯內容程式碼範例
+                  href: win32-rendering-context-code-sample.md
+            - name: 移植 GLX Pixmap 程式碼
+              href: porting-glx-pixmap-code.md
+            - name: 移植其他 GLX 程式碼
+              href: porting-other-glx-code.md
+            - name: 移植範例
+              href: a-porting-sample.md
+              items:
+                - name: X 視窗系統 OpenGL 程式
+                  href: an-x-window-system-opengl-program.md
+                - name: 已移植至 Windows 的程式
+                  href: the-program-ported-to-win32.md
+            - name: 從鳶尾花 GL 移植應用程式
+              href: porting-applications-from-iris-gl.md
+            - name: 特殊鳶尾花 GL 移植問題
+              href: special-iris-gl-porting-issues.md
+              items:
+                - name: 移植 greset
+                  href: porting-greset.md
+                - name: 移植鳶尾花 GL &quot; Get &quot; 函數
+                  href: porting-iris-gl-get-functions.md
+                - name: 需要目前圖形位置的埠程式碼
+                  href: porting-code-that-requires-a-current-graphics-position.md
+                  items:
+                    - name: 移植螢幕和緩衝區清除命令
+                      href: porting-screen-and-buffer-clearing-commands.md
+                    - name: 移植矩陣和轉換函數
+                      href: porting-matrix-and-transformation-functions.md
+                    - name: 移植 MSINGLE 模式程式碼
+                      href: porting-msingle-mode-code.md
+                    - name: 移植可取得矩陣和轉換的函式
+                      href: porting-functions-that-get-matrices-and-transformations.md
+                    - name: 移植區、Screenmasks 和 Scrboxes
+                      href: porting-viewports--screenmasks--and-scrboxes.md
+                    - name: 移植裁剪平面
+                      href: porting-clipping-planes.md
+                - name: 移植繪圖函數
+                  href: porting-drawing-functions.md
+                  items:
+                    - name: 鳶尾花 GL 球體程式庫
+                      href: the-iris-gl-sphere-library.md
+                    - name: 移植 v 函數
+                      href: porting-v-functions.md
+                    - name: 移植 bgn/end 命令
+                      href: porting-bgn-end-commands.md
+                    - name: 移植點
+                      href: porting-points.md
+                    - name: 移植線
+                      href: porting-lines.md
+                    - name: 移植多邊形和 Quadrilaterals
+                      href: porting-polygons-and-quadrilaterals.md
+                    - name: 移植三角形
+                      href: porting-triangles.md
+                    - name: 移植弧形和圓形
+                      href: porting-arcs-and-circles.md
+                    - name: 移植球體
+                      href: porting-spheres.md
+                - name: 移植色彩、陰影和 Writemask 程式碼
+                  href: porting-color--shading--and-writemask-code.md
+                  items:
+                    - name: 移植色彩呼叫
+                      href: porting-color-calls.md
+                    - name: 移植網底模型
+                      href: porting-shading-models.md
+                - name: 移植圖元作業
+                  href: porting-pixel-operations.md
+                - name: 移植深度提示和霧化命令
+                  href: porting-depth-cueing-and-fog-commands.md
+                - name: 移植曲線和介面函式
+                  href: porting-curve-and-surface-functions.md
+                  items:
+                    - name: 移植 NURBS 物件
+                      href: porting-nurbs-objects.md
+                    - name: 移植 NURBS 曲線
+                      href: porting-nurbs-curves.md
+                    - name: 移植修剪曲線
+                      href: porting-trimming-curves.md
+                    - name: 移植 NURBS 表面
+                      href: porting-nurbs-surfaces.md
+                - name: 移植消除鋸齒功能
+                  href: porting-antialiasing-functions.md
+                  items:
+                    - name: 移植混合程式碼
+                      href: porting-blending-code.md
+                    - name: 移植 afunction 測試函式
+                      href: porting-afunction-test-functions.md
+                    - name: 使用消除鋸齒功能
+                      href: using-antialiasing-functions.md
+                - name: 移植累積的緩衝區呼叫
+                  href: porting-accumulation-buffer-calls.md
+                - name: 移植樣板平面呼叫
+                  href: porting-stencil-plane-calls.md
+                - name: 移植顯示清單
+                  href: porting-display-lists.md
+                  items:
+                    - name: 移植 bbox2 函式
+                      href: porting-the-bbox2-function.md
+                    - name: 移植已編輯的顯示清單
+                      href: porting-edited-display-lists.md
+                    - name: 顯示清單的範例埠
+                      href: a-sample-port-of-a-display-list.md
+                - name: 移植 Defs、系結和集合
+                  href: porting-defs--binds--and-sets.md
+                - name: 移植光源和材質函數
+                  href: porting-lighting-and-materials-functions.md
+                - name: 移植材質函數
+                  href: porting-texture-functions.md
+                  items:
+                    - name: 翻譯 tevdef
+                      href: translating-tevdef.md
+                    - name: 翻譯 texdef
+                      href: translating-texdef.md
+                    - name: 翻譯 texgen
+                      href: translating-texgen.md
+                - name: 移植挑選函數
+                  href: porting-picking-functions.md
+                - name: 移植意見函數
+                  href: porting-feedback-functions.md
+        - name: OpenGL 函數及其鳶尾花 GL 對等專案
+          href: opengl-functions-and-their-iris-gl-equivalents.md
+        - name: 鳶尾花 GL 和 OpenGL 差異
+          href: iris-gl-and-opengl-differences.md
+    - name: OpenGL 詞彙
+      href: opengl-glossary.md
+      items:
+        - name: A
+          href: a.md
+        - name: B
+          href: b.md
+        - name: C
+          href: c.md
+        - name: D
+          href: d.md
+        - name: E
+          href: e.md
+        - name: F
+          href: f.md
+        - name: G
+          href: g.md
+        - name: H
+          href: h.md
+        - name: I
+          href: i.md
+        - name: J K
+          href: jk.md
+        - name: L
+          href: l.md
+        - name: M
+          href: m.md
+        - name: 'N'
+          href: n.md
+        - name: O
+          href: o.md
+        - name: P
+          href: p.md
+        - name: Q
+          href: q.md
+        - name: R
+          href: r.md
+        - name: S
+          href: s.md
+        - name: T
+          href: t.md
+        - name: U V
+          href: u-v.md
+        - name: W
+          href: w.md
+        - name: X Y Z
+          href: x-y-z.md
+    - name: 附錄
+      href: about-opengl.md
