@@ -1,0 +1,77 @@
+- name: 系統事件通知服務
+  href: system-event-notification-service-portal.md
+  items:
+    - name: 關於系統事件通知服務
+      href: about-system-event-notification-service.md
+      items:
+        - name: 適用于 SENS 的行動計算設定
+          href: mobile-computing-configurations-for-sens.md
+        - name: SENS 的應用程式案例
+          href: application-scenarios-for-sens.md
+        - name: 通知
+          href: notifications.md
+        - name: SENS 架構
+          href: sens-architecture.md
+    - name: SENS 參考
+      href: sens-reference.md
+      items:
+        - name: IsDestinationReachable
+          href: /windows/desktop/api/Sensapi/nf-sensapi-isdestinationreachablea
+          items:
+            - name: QOCINFO
+              href: /windows/win32/api/Sensapi/ns-sensapi-qocinfo
+        - name: IsNetworkAlive
+          href: /windows/desktop/api/Sensapi/nf-sensapi-isnetworkalive
+        - name: SENS 物件
+          href: sens-object.md
+          items:
+            - name: ISensLogon
+              href: /windows/desktop/api/Sensevts/nn-sensevts-isenslogon
+              items:
+                - name: DisplayLock 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-displaylock
+                - name: DisplayUnLock 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-displayunlock
+                - name: 登出方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-logoff
+                - name: 登入方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-logon
+                - name: StartScreenSaver 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-startscreensaver
+                - name: StartShell 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-startshell
+                - name: StopScreenSaver 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-stopscreensaver
+            - name: ISensLogon2
+              href: /windows/desktop/api/Sensevts/nn-sensevts-isenslogon2
+              items:
+                - name: 登出方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-logoff
+                - name: 登入方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-logon
+                - name: SessionDisconnect 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-sessiondisconnect
+                - name: SessionReconnect 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-sessionreconnect
+                - name: PostShell 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-postshell
+            - name: ISensNetwork
+              href: /windows/desktop/api/Sensevts/nn-sensevts-isensnetwork
+              items:
+                - name: ConnectionLost 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensnetwork-connectionlost
+                - name: ConnectionMade 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensnetwork-connectionmade
+                - name: ConnectionMadeNoQOCInfo 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensnetwork-connectionmadenoqocinfo
+                - name: SENS_QOCINFO
+                  href: /windows/desktop/api/Sensevts/ns-sensevts-sens_qocinfo
+            - name: ISensOnNow
+              href: /windows/desktop/api/Sensevts/nn-sensevts-isensonnow
+              items:
+                - name: BatteryLow 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensonnow-batterylow
+                - name: OnACPower 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensonnow-onacpower
+                - name: OnBatteryPower 方法
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensonnow-onbatterypower

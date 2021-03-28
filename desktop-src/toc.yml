@@ -1,0 +1,616 @@
+- name: 桌面 Win32 應用程式
+  href: ./index.yml
+  items:
+    - name: 開始使用
+      items:
+        - name: 概觀
+          href: ./desktop-programming.md
+        - name: 最新消息
+          href: ./whats-new.md
+        - name: 建立您的第一個 c + + Win32 應用程式
+          href: ./learnwin32/learn-to-program-for-windows.md
+        - name: 使用 DirectX 建立您的第一個 Windows 應用程式
+          href: ./direct3dgetstarted/building-your-first-directx-app.md
+        - name: 使用 Windows 標頭
+          href: ./winprog/using-the-windows-headers.md
+        - name: 平臺指南
+          items:
+            - name: 64 位元 Windows 程式設計手冊
+              href: ./winprog64/programming-guide-for-64-bit-windows.md
+            - name: 適用于 Windows 的相容性操作手冊
+              href: ./w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md
+            - name: Windows 7 指南
+              href: ./windows-7.md
+              items:
+                - name: Windows 7 和 Windows Server 2008 R2 應用程式品質操作手冊
+                  href: ./win7appqual/windows-7-application-quality-cookbook.md
+                - name: Windows 7 開發人員指南
+                  href: ./win7devguide/windows-7-developer-guide.md
+                - name: Windows Vista 的平臺更新
+                  href: ./win7ip/platform-update-for-windows-vista-portal.md
+    - name: 設計
+      href: ./uxguide/guidelines.md
+    - name: 開發
+      href: null
+      items:
+        - name: 桌面應用程式技術
+          items:
+            - name: 概觀
+              href: ./desktop-app-technologies.md
+            - name: 協助工具選項
+              items:
+                - name: 概觀
+                  href: ./accessibility/accessibility.md
+                - name: Windows 協助工具和自動化的新增功能
+                  href: ./accessibility/accessibility-whatsnew.md
+                - name: 開發可存取的 Windows 應用程式
+                  href: ./accessibility/accessibility-appdev.md
+                - name: 開發可存取的 UI 架構
+                  href: accessibility/accessibility-uiframeworkdev.md
+                - name: 開發 Windows 的輔助技術
+                  href: ./accessibility/accessibility-atdev.md
+                - name: 測試協助工具
+                  href: ./accessibility/accessibility-testwithuia.md
+                - name: 舊版的協助工具和自動化技術
+                  href: ./accessibility/accessibility-legacy.md
+                - name: 協助工具和自動化功能參考
+                  href: ./accessibility/accessibility-reference-old.md
+            - name: 桌面應用程式消費者介面
+              items:
+                - name: 概觀
+                  href: ./windows-application-ui-development.md
+                - name: 開發 Windows 應用程式的使用者介面開始使用
+                  href: ./appuistart/getting-started-developing-user-interfaces-portal.md
+                - name: Windows 應用程式的國際化
+                  href: ./intl/international-support.md
+                - name: 使用者互動
+                  items:
+                    - name: 概觀
+                      href: ./user-interaction.md
+                    - name: 直接操作
+                      href: ./directmanipulation/direct-manipulation-portal.md
+                    - name: 筆跡輸入
+                      href: ./input_ink/input-ink-portal.md
+                    - name: 輸入意見設定
+                      href: ./input_feedback/input-feedback-configuration-portal.md
+                    - name: 輸入來源識別
+                      href: ./input_sourceid/input-source-identification-portal.md
+                    - name: 互動內容
+                      href: ./input_intcontext/interaction-context-portal.md
+                    - name: 指標裝置堆疊
+                      href: ./input_pointerdevice/pointer-device-stack-portal.md
+                    - name: 指標輸入訊息和通知
+                      href: ./inputmsg/messages-and-notifications-portal.md
+                    - name: 星形控制器輸入
+                      href: ./input_radial/radialcontroller-portal.md
+                    - name: Text Services Framework (TSF)
+                      href: ./tsf/text-services-framework.md
+                    - name: 觸控輸入點擊測試
+                      href: ./input_touchhittest/touch-hit-testing-portal.md
+                    - name: 觸控輸入插入
+                      href: ./input_touchinjection/touch-injection-portal.md
+                    - name: 舊版使用者互動功能
+                      items:
+                        - name: 概觀
+                          href: ./legacy-user-interaction-features.md
+                        - name: 觸控輸入
+                          href: ./wintouch/windows-touch-portal.md
+                        - name: 鍵盤和滑鼠輸入
+                          href: ./inputdev/user-input.md
+                        - name: MultiPoint 滑鼠
+                          href: 'https://msdn.microsoft.com/library/windows/desktop/ff877472.aspx'
+                        - name: 平板電腦
+                          href: ./tablet/tablet-pc-development-guide.md
+                - name: Windows 和訊息
+                  href: ./winmsg/windowing.md
+                - name: 桌面視窗管理員
+                  href: ./dwm/dwm-overview.md
+                - name: 對話方塊
+                  href: ./dlgbox/dialog-boxes.md
+                - name: 功能表與其他資源
+                  href: ./menurc/resources.md
+                - name: 資料交換
+                  href: ./dataxchg/data-exchange.md
+                - name: 高 DPI
+                  href: ./hidpi/high-dpi-desktop-application-development-on-windows.md
+                - name: Windows 動畫管理員
+                  href: ./uianimation/-main-portal.md
+                - name: Windows 控制項
+                  href: ./controls/window-controls.md
+                - name: Windows 功能區架構
+                  href: ./windowsribbon/-uiplat-windowsribbon-entry.md
+            - name: 桌面環境
+              items:
+                - name: 概觀
+                  href: ./user-interface.md
+                - name: Windows Shell
+                  href: ./shell/shell-entry.md
+                - name: Windows 屬性系統
+                  href: ./properties/windows-properties-system.md
+                - name: Windows 搜尋
+                  href: ./search/windows-search.md
+                - name: 視窗工作站和桌上型電腦
+                  href: ./winstation/window-stations-and-desktops.md
+                - name: 舊版 Windows 環境功能
+                  href: /windows/win32/api/_lwef/
+            - name: 應用程式安裝與服務
+              items:
+                - name: 概觀
+                  href: ./application-installing-and-servicing.md
+                - name: 隔離應用程式和並存組件
+                  href: ./sbscs/isolated-applications-and-side-by-side-assemblies-portal.md
+                - name: 封裝、部署和查詢 UWP 應用程式
+                  href: ./appxpkg/appx-portal.md
+                - name: 開發人員授權
+                  href: ./devlic/developer-licensing-portal.md
+                - name: 重新開機管理員
+                  href: ./rstmgr/restart-manager-portal.md
+                - name: 更新 Orchestrator
+                  href: ./UpdateOrchestrator/index.md
+                - name: Windows Installer
+                  href: ./msi/windows-installer-portal.md
+            - name: 音訊和影片
+              items:
+                - name: 概觀
+                  href: ./audio-and-video.md
+                - name: 核心音訊 Api
+                  href: ./coreaudio/core-audio-apis-in-windows-vista.md
+                - name: DirectShow
+                  href: ./directshow/directshow.md
+                - name: Microsoft 媒體基礎
+                  href: ./medfound/microsoft-media-foundation-sdk.md
+                - name: Windows Media Format 11 SDK
+                  href: ./wmformat/windows-media-format-11-sdk.md
+                - name: Windows Media Player SDK
+                  href: ./wmp/windows-media-player-sdk.md
+                - name: 媒體串流 API
+                  href: ./mediastreaming/media-streaming-api-portal.md
+                - name: Windows 多媒體
+                  href: ./multimedia/windows-multimedia-start-page.md
+            - name: 資料存取和儲存
+              items:
+                - name: 概觀
+                  href: ./data-access-and-storage.md
+                - name: 背景智慧型傳送服務
+                  href: ./bits/background-intelligent-transfer-service-portal.md
+                - name: 備份
+                  href: ./backup/backup.md
+                - name: 雲端同步引擎
+                  href: ./cfapi/cloud-files-api-portal.md
+                - name: 分散式檔案系統
+                  href: /windows/win32/api/_dfs/
+                - name: 可擴充儲存引擎
+                  href: ./extensible-storage-engine/extensible-storage-engine.md
+                - name: 映射主控 API
+                  href: ./imapi/portal.md
+                - name: 影像處理 API
+                  href: /previous-versions/msdn10/dd851933(v=msdn.10)
+                - name: 本機檔案系統
+                  href: ./fileio/file-systems.md
+                - name: 投射的檔案系統
+                  href: ./projfs/projected-file-system.md
+                - name: 持續性記憶體程式設計
+                  href: ./persistent-memory-programming-in-windows---nvml-integration.md
+                - name: 虛擬儲存體
+                  href: /windows/desktop/VStor/virtual-storage
+                - name: 虛擬磁碟服務
+                  href: /windows/desktop/VDS/virtual-disk-service-portal
+                - name: 磁碟區陰影複製服務
+                  href: ./vss/volume-shadow-copy-service-portal.md
+            - name: 裝置
+              items:
+                - name: 概觀
+                  href: ./devices.md
+                - name: 通訊資源
+                  href: ./devio/communications-resources.md
+                - name: 裝置存取
+                  href: ./deviceaccess/device-access-broker-api-portal.md
+                - name: 位置 API
+                  href: ./locationapi/windows-location-api-portal.md
+                - name: 感應器 API
+                  href: ./sensorsapi/portal.md
+                - name: UPnP API
+                  href: ./upnp/universal-plug-and-play-start-page.md
+                - name: 裝置上的 Web 服務
+                  href: wsdapi/wsd-portal.md
+                - name: WIA
+                  href: ./wsdapi/wsd-portal.md
+            - name: Windows Media 裝置管理員 11 SDK
+              href: ./wmdm/windows-media-device-manager-11-sdk.md
+            - name: Windows 可攜式裝置
+              items:
+                - name: 概觀
+                  href: windows-portable-devices.md
+                - name: WPD 應用程式設計介面
+                  href: ./wpd_sdk/wpd-application-programming-interface.md
+            - name: 診斷
+              items:
+                - name: 概觀
+                  href: ./diagnostics.md
+                - name: 調試和錯誤處理
+                  items:
+                    - name: 概觀
+                      href: ./debugging-and-error-handling.md
+                    - name: 應用程式復原和重新啟動
+                      href: ./recovery/application-recovery-and-restart-portal.md
+                    - name: 錯誤處理
+                      href: ./debug/error-handling.md
+                - name: 網路診斷架構
+                  href: ./ndf/portal.md
+                - name: 網路監視器
+                  href: ./netmon2/network-monitor.md
+                - name: 效能計數器
+                  href: ./perfctrs/performance-counters-portal.md
+                - name: 進程快照
+                  href: /windows/win32/api/_proc_snap/
+                - name: 進程狀態 API
+                  href: ./psapi/process-status-helper.md
+                - name: 系統事件通知服務
+                  href: ./sens/system-event-notification-service-portal.md
+                - name: 系統監視器
+                  href: ./sysmon/system-monitor-portal.md
+                - name: Tool Help Library
+                  href: ./toolhelp/tool-help-library.md
+                - name: Windows 錯誤報告
+                  href: ./wer/windows-error-reporting.md
+                - name: Windows 事件
+                  items:
+                    - name: 概觀
+                      href: ./events/windows-events.md
+                    - name: TraceLogging
+                      href: ./tracelogging/trace-logging-portal.md
+                    - name: 事件追蹤
+                      href: ./etw/event-tracing-portal.md
+                    - name: 事件記錄
+                      href: ./eventlog/event-logging.md
+                    - name: Windows 事件記錄檔
+                      href: ./wes/windows-event-log.md
+                    - name: Windows 事件收集器
+                      href: ./wec/windows-event-collector.md
+            - name: 文件和列印
+              href: ./printdocs/documents-and-printing.md
+            - name: 圖形和遊戲
+              items:
+                - name: 概觀
+                  href: ./graphics-and-multimedia.md
+                - name: DirectX 圖形和遊戲
+                  items:
+                    - name: 概觀
+                      href: ./directx.md
+                    - name: DirectX 圖形入門
+                      href: ./getting-started-with-directx-graphics.md
+                    - name: 使用 COM 進行 DirectX 程式設計
+                      href: ./prog-dx-with-com.md
+                    - name: Direct2D
+                      href: ./direct2d/direct2d-portal.md
+                    - name: Direct3D
+                      items:
+                        - name: 概觀
+                          href: ./direct3d.md
+                        - name: 開始使用 Direct3D
+                          href: ./getting-started-with-direct3d.md
+                        - name: Direct3D 12 圖形
+                          href: ./direct3d12/direct3d-12-graphics.md
+                        - name: Direct3D 11 圖形
+                          href: ./direct3d11/atoc-dx-graphics-direct3d-11.md
+                        - name: DXGI
+                          href: ./direct3ddxgi/dx-graphics-dxgi.md
+                        - name: HLSL
+                          href: ./direct3dhlsl/dx-graphics-hlsl.md
+                        - name: DDS
+                          href: ./direct3ddds/dx-graphics-dds.md
+                    - name: DXCore
+                      href: ./dxcore/dxcore.md
+                    - name: DirectWrite
+                      href: ./directwrite/direct-write-portal.md
+                    - name: DirectXMath
+                      href: ./dxmath/directxmath-portal.md
+                    - name: windowsnumerics .h Api
+                      href: ./numerics_h/windowsnumerics-h-apis-portal.md
+                    - name: 傳統 DirectX 圖形
+                      items:
+                        - name: 概觀
+                          href: ./directx.md
+                        - name: Direct3D 10 圖形
+                          href: ./direct3d10/d3d10-graphics.md
+                        - name: Direct3D 9 圖形
+                          href: ./direct3d9/dx9-graphics-reference.md
+                        - name: DirectDraw
+                          href: ./directdraw/directdraw.md
+                        - name: 技術文章
+                          href: ./dxtecharts/dx9-technical-articles.md
+                        - name: DirectX SDK 在哪裡？
+                          href: ./directx-sdk--august-2009-.md
+                    - name: 適用于 DirectX 圖形的工具
+                      href: /windows/desktop/direct3dtools/dx-graphics-tools
+                    - name: DirectX 圖形文章
+                      href: ./direct3darticles/directx-graphics-articles-portal.md
+                    - name: XAudio2 API
+                      href: ./xaudio2/xaudio2-apis-portal.md
+                    - name: XInput 遊戲控制器 Api
+                      href: ./xinput/xinput-game-controller-apis-portal.md
+                - name: DirectComposition
+                  href: ./directcomp/directcomposition-portal.md
+                - name: GDI+
+                  href: ./gdiplus/-gdiplus-gdi-start.md
+                - name: Windows GDI
+                  href: ./gdi/windows-gdi.md
+                - name: 監視器組態
+                  href: ./monitor/monitor-configuration.md
+                - name: Opengl
+                  href: ./opengl/opengl.md
+                - name: Windows Imaging Component
+                  href: ./wic/-wic-lh.md
+                - name: Windows Mixed Reality
+                  href: ./mixedreality/mixed-reality-portal.md
+                - name: Windows 色彩系統
+                  href: ./wcs/windows-color-system.md
+            - name: 網路功能和網際網路
+              items:
+                - name: 概觀
+                  href: ./networking.md
+                - name: 傳遞最佳化
+                  href: delivery_optimization/delivery-optimization-portal.md
+                - name: 網域名稱系統
+                  href: ./dns/dns-start-page.md
+                - name: HTTP 伺服器 API \(英文\)
+                  href: ./http/http-api-start-page.md
+                - name: IP 協助程式
+                  href: ./iphlp/ip-helper-start-page.md
+                - name: 訊息佇列
+                  href: /previous-versions/windows/desktop/legacy/ms711472(v=vs.85)
+                - name: 網路介面
+                  href: ./network-interfaces.md
+                - name: 網路清單管理員
+                  href: ./nla/portal.md
+                - name: 網路管理
+                  href: ./netmgmt/network-management.md
+                - name: 網路共用管理
+                  href: ./netshare/network-share-management.md
+                - name: 對等
+                  href: ./p2psdk/portal.md
+                - name: 遠端程序呼叫
+                  href: ./rpc/rpc-start-page.md
+                - name: 路由及遠端存取服務
+                  href: ./rras/portal.md
+                - name: 簡易網路管理通訊協定
+                  href: ./snmp/snmp-start-page.md
+                - name: 電話語音應用程式設計介面
+                  href: Tapi/telephony-application-programming-interfaces.md
+                - name: Teredo
+                  href: ./teredo/portal.md
+                - name: WebSocket 通訊協定元件 API
+                  href: ./websock/web-socket-protocol-component-api-portal.md
+                - name: Windows 篩選平台
+                  href: ./fwp/windows-filtering-platform-start-page.md
+                - name: Windows 網路
+                  href: ./wnet/windows-networking-wnet-.md
+                - name: Windows 通訊端2
+                  href: ./winsock/windows-sockets-start-page-2.md
+                - name: 無線網路
+                  items:
+                    - name: 概觀
+                      href: ./wireless-networking.md
+                    - name: Bluetooth
+                      href: ./bluetooth/bluetooth-start-page.md
+                    - name: 行動寬頻
+                      href: ./mbn/mobile-broadband-networks-portal.md
+                    - name: 原生 Wifi
+                      href: ./nativewifi/portal.md
+                    - name: Windows Connect Now
+                      href: ./wcn/portal.md
+                    - name: Windows 連線管理員
+                      href: ./wcm/windows-connection-manager-portal.md
+                - name: WebDAV
+                  href: ./webdav/webdav-portal.md
+                - name: Windows HTTP 服務
+                  href: ./winhttp/winhttp-start-page.md
+                - name: Windows 網際網路
+                  href: ./wininet/portal.md
+                - name: Windows Web 服務
+                  href: ./wsw/portal.md
+            - name: 安全性及身分識別
+              items:
+                - name: 總覽
+                  href: ./security.md
+                - name: 反惡意程式碼掃描介面
+                  href: ./amsi/antimalware-scan-interface-portal.md
+                - name: 驗證
+                  href: ./secauthn/authentication-portal.md
+                - name: 授權
+                  href: ./secauthz/authorization-portal.md
+                - name: 安全性 Api 的最佳作法
+                  href: ./secbp/best-practices-for-the-security-apis.md
+                - name: 憑證註冊 API
+                  href: ./seccertenroll/certenroll-portal.md
+                - name: 密碼編譯
+                  href: ./seccrypto/cryptography-portal.md
+                - name: 密碼編譯 API：新一代
+                  href: ./seccng/cng-portal.md
+                - name: 目錄、身分識別和存取服務
+                  href: null
+                  items:
+                    - name: 目錄服務
+                      href: null
+                      items:
+                        - name: 目錄
+                          href: null
+                          items:
+                            - name: Active Directory Domain Services
+                              href: ./ad/active-directory-domain-services.md
+                            - name: Active Directory 架構
+                              href: ./adschema/active-directory-schema.md
+                        - name: 目錄存取技術
+                          href: null
+                          items:
+                            - name: Active Directory 服務介面
+                              href: ./adsi/active-directory-service-interfaces-adsi.md
+                    - name: 存取管理服務
+                      href: null
+                      items:
+                        - name: Active Directory Federation Services
+                          items:
+                            - name: 概觀
+                              href: ./srvnodes/active-directory-federation-services.md
+                            - name: Active Directory Federation Services 概觀
+                              href: /previous-versions/windows/desktop/legacy/ms674895(v=vs.85)
+                - name: 可延伸的驗證通訊協定
+                  href: ./eap/eap-start-page.md
+                - name: 可延伸的驗證通訊協定主機
+                  href: ./eaphost/portal.md
+                - name: 網路存取保護
+                  href: ./nap/network-access-protection-start-page.md
+                - name: 網路原則伺服器
+                  href: ./nps/portal.md
+                - name: 家長監護
+                  href: ./parcon/parental-controls-portal.md
+                - name: Rights Management
+                  items:
+                    - name: 概觀
+                      href: ./srvnodes/rights-management.md
+                    - name: RMS 案例、程式碼和工具
+                      href: ./srvnodes/rms-code-samples-and-tools.md
+                - name: 安全性管理
+                  href: ./secmgmt/management-portal.md
+                - name: 安全性詞彙
+                  href: ./secgloss/security-glossary.md
+                - name: TPM 基本服務
+                  href: ./tbs/tpm-base-services-portal.md
+                - name: Windows 生物特徵辨識架構
+                  href: ./secbiomet/biometric-service-api-portal.md
+            - name: 系統服務
+              items:
+                - name: 概觀
+                  href: ./system-services.md
+                - name: 元件物件模型
+                  href: ./com/component-object-model--com--portal.md
+                - name: Microsoft 介面定義語言
+                  href: ./midl/midl-start-page.md
+                - name: 結構化儲存體
+                  href: ./stg/structured-storage-start-page.md
+                - name: COM+
+                  href: ./cossdk/component-services-portal.md
+                - name: 壓縮 API
+                  href: ./cmpapi/-compression-portal.md
+                - name: 動態連結程式庫
+                  href: ./dlls/dynamic-link-libraries.md
+                - name: 處理序間通訊
+                  href: ./ipc/interprocess-communications.md
+                - name: 核心交易管理員
+                  href: ./ktm/kernel-transaction-manager-portal.md
+                - name: 記憶體管理
+                  href: ./memory/memory-management.md
+                - name: 電源管理
+                  href: ./power/power-management-portal.md
+                - name: 處理序和執行緒
+                  href: ./procthread/processes-and-threads.md
+                - name: 遠端桌面服務問題
+                  href: ./termserv/terminal-services-portal.md
+                - name: 服務
+                  href: ./services/services.md
+                - name: 設定 API
+                  href: ./setupapi/setup-api-portal.md
+                - name: 同步處理
+                  href: ./sync/synchronization.md
+                - name: Windows 系統資訊
+                  href: ./sysinfo/windows-system-information.md
+            - name: Windows Machine Learning
+              href: ./machinelearning/machine-learning-portal.md
+            - name: 開發人員注意事項
+              href: ./devnotes/developer-notes.md
+        - name: 使用伺服器技術進行開發
+          items:
+            - name: 概觀
+              href: ./server-and-system-technologies.md
+            - name: 目錄、身分識別和存取服務
+              href: ./srvnodes/directory--identity--and-access-services.md
+              items:
+                - name: 目錄服務
+                  href: ./srvnodes/directory-services.md
+                  items:
+                    - name: 目錄
+                      href: ./srvnodes/directories.md
+                    - name: 目錄存取技術
+                      href: ./srvnodes/directory-access-technologies.md
+                - name: 識別服務
+                  href: ./srvnodes/identity-services.md
+                  items:
+                    - name: 身分識別生命週期管理員2007
+                      href: ./srvnodes/identity-lifecycle-manager-2007.md
+                - name: 存取管理服務
+                  href: ./srvnodes/access-management-services.md
+                  items:
+                    - name: Active Directory Federation Services
+                      href: ./srvnodes/active-directory-federation-services.md
+            - name: Rights Management
+              href: ./srvnodes/rights-management.md
+              items:
+                - name: RMS 程式碼範例和工具
+                  href: ./srvnodes/rms-code-samples-and-tools.md
+            - name: 系統管理
+              href: ./srvnodes/system-administration.md
+              items:
+                - name: 群組原則
+                  items:
+                    - name: 概觀
+                      href: ./srvnodes/group-policy.md
+                    - name: GPMC 類別庫參考
+                      href: /previous-versions/windows/desktop/wmi_v2/class-library/gpmc-class-library-reference
+                - name: Microsoft Management Console (MMC)
+                  href: ./srvnodes/microsoft-management-console--mmc-.md
+                  items:
+                    - name: Microsoft Management Console 3.0
+                      href: ./srvnodes/microsoft-management-console-3-0.md
+                - name: Windows Server Update Services
+                  href: ./srvnodes/windows-server-update-services.md
+                  items:
+                    - name: Windows Server Update Services 2.0 類別庫
+                      href: ./srvnodes/windows-server-update-services-2-0-class-library.md
+            - name: 虛擬化
+              href: ./srvnodes/virtualization.md
+            - name: WMI/MI/OMI 提供者
+              href: ./srvnodes/wmi-mi-omi-providers.md
+            - name: Windows Server
+              href: ./srvnodes/windows-server.md
+              items:
+                - name: Windows Server 2012 R2 和 Windows Server 2012 的新功能
+                  href: ./srvnodes/what-s-new-for-windows-server-2012-r2.md
+                - name: Mobile 裝置管理註冊
+                  href: ./mdmreg/mobile-device-management-registration-portal.md
+                - name: '[系統還原]'
+                  href: ./sr/system-restore-portal.md
+                - name: 系統關閉
+                  href: ./shutdown/system-shutdown.md
+                - name: 工作排程器
+                  href: ./taskschd/task-scheduler-start-page.md
+                - name: Windows Deployment Services
+                  href: ./wds/windows-deployment-services-portal.md
+                - name: Windows Management Instrumentation
+                  href: ./wmisdk/wmi-start-page.md
+                - name: Windows 管理基礎結構管理的 API
+                  href: /previous-versions/windows/desktop/wmi_v2/mi-managed-api/mt738833(v=vs.85)
+                - name: WMI 提供者
+                  href: null
+                  items:
+                    - name: 開機事件收集器 WMI 提供者
+                      href: ./bevtcolprov/boot-event-collector-wmi-provider-portal.md
+                    - name: Hyper-v 管理
+                      href: ./hyperv_v2/hyper-v-management.md
+                    - name: MDM 橋接器 WMI 提供者
+                      href: ./dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md
+                    - name: Windows 系統評定工具
+                      href: ./winsat/windows-system-assessment-tool-portal.md
+                    - name: WMI 核心提供者
+                      href: ./wmicoreprov/wmi-core-provider-.md
+                - name: Windows 遠端管理
+                  href: ./winrm/portal.md
+                - name: Windows 資源保護
+                  href: ./wfp/windows-resource-protection-portal.md
+        - name: API 索引
+          href: ./apiindex/api-index-portal.md
+        - name: Windows 執行階段 c + + 參考
+          href: ./winrt/reference.md
+        - name: Windows 認證
+          href: ./win_cert/windows-certification-portal.md
+    - name: Desktop Win32 程式碼範例
+      href: ./desktop-win32-code-samples.md
