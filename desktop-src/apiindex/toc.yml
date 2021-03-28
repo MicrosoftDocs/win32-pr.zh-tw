@@ -1,0 +1,17 @@
+- name: API 索引
+  href: api-index-portal.md
+  items:
+    - name: Windows API 清單
+      href: windows-api-list.md
+    - name: Windows API 集合
+      items:
+        - name: 概觀
+          href: windows-apisets.md
+        - name: API 集合載入器作業
+          href: api-set-loader-operation.md
+        - name: 偵測 API 集合可用性
+          href: detect-api-set-availability.md
+        - name: Windows 傘程式庫
+          href: windows-umbrella-libraries.md
+    - name: 從桌面應用程式呼叫的 WinRT Api
+      href: uwp-apis-callable-from-a-classic-desktop-app.md

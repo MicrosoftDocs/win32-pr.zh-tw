@@ -1,0 +1,1135 @@
+- name: 磁碟區陰影複製服務
+  href: volume-shadow-copy-service-portal.md
+  items:
+    - name: 磁碟區陰影複製服務總覽
+      href: volume-shadow-copy-service-overview.md
+      items:
+        - name: VSS 的新功能
+          href: what-s-new-in-vss.md
+          items:
+            - name: Windows Server 2008 R2 和 Windows 7 中 VSS 的新功能
+              href: what-s-new-in-vss-in-windows-server-2008-r2-and-windows-7.md
+            - name: Windows Server 2008 和 Windows Vista SP1 中 VSS 的新功能
+              href: what-s-new-in-vss-in-windows-server-2008-and-windows-vista-sp1.md
+            - name: Windows Vista 中 VSS 的新功能
+              href: what-s-new-in-vss-in-windows-vista.md
+              items:
+                - name: 備份與還原的應用程式相容性
+                  href: application-compatibility-for-backup-and-restore.md
+                  items:
+                    - name: 移植備份應用程式
+                      href: porting-backup-applications.md
+                    - name: 備份與還原系統狀態
+                      href: locating-additional-system-files.md
+                    - name: 使用檔案系統和安全性功能
+                      href: working-with-file-system-and-security-features.md
+                    - name: 連接點
+                      href: junction-points.md
+            - name: Windows Server 2003 SP1 中 VSS 的新功能
+              href: what-s-new-in-vss-in-windows-server-2003-sp1.md
+            - name: Windows Server 2003 中 VSS 的新功能
+              href: what-s-new-in-vss-in-windows-server-2003.md
+              items:
+                - name: Windows Server 2003 中的 VSS API 變更摘要
+                  href: summary-of-vss-api-changes-in-the-current-release.md
+                - name: Windows Server 2003 中提供的新功能
+                  href: new-functionality-available-in-the-current-release.md
+                - name: 從 Windows Server 2003 移除的功能
+                  href: functionality-removed-from-the-current-release.md
+                - name: Windows Server 2003 的語義變更
+                  href: semantic-changes-to-the-current-release.md
+                - name: Windows Server 2003 中的限制
+                  href: restrictions-in-the-current-release-of-vss.md
+        - name: 關於磁碟區陰影複製服務
+          href: about-the-volume-shadow-copy-service.md
+          items:
+            - name: 一般磁片區備份問題
+              href: common-volume-backup-issues.md
+            - name: VSS 模型
+              href: the-vss-model.md
+            - name: 基本 VSS 概念
+              href: basic-vss-concepts.md
+              items:
+                - name: 磁碟區陰影複製服務
+                  href: the-volume-shadow-copy-service.md
+                - name: 陰影複製和陰影複製集
+                  href: shadow-copies-and-shadow-copy-sets.md
+                - name: 提供者
+                  href: providers.md
+                - name: 要求者
+                  href: requestors.md
+                - name: 寫入器
+                  href: writers.md
+            - name: 內建 VSS 寫入器
+              href: in-box-vss-writers.md
+        - name: 使用磁碟區陰影複製服務
+          href: using-the-volume-shadow-copy-service.md
+          items:
+            - name: VSS 應用程式相容性
+              href: usage-conventions.md
+            - name: 設定 VSS
+              href: configuring-vss.md
+              items:
+                - name: 陰影複製內容設定
+                  href: shadow-copy-context-configurations.md
+                - name: VSS 備份設定
+                  href: vss-backup-configurations.md
+                  items:
+                    - name: VSS 備份狀態
+                      href: vss-backup-state.md
+                    - name: 寫入器備份架構支援
+                      href: writer-backup-schema-support.md
+                    - name: 檔案層級架構支援
+                      href: file-level-schema-support.md
+                - name: VSS 還原設定
+                  href: vss-restore-configurations.md
+                  items:
+                    - name: VSS 還原狀態
+                      href: vss-restore-state.md
+                    - name: 設定 VSS 還原方法
+                      href: setting-vss-restore-methods.md
+                    - name: 設定 VSS 還原目標
+                      href: setting-vss-restore-targets.md
+                    - name: 設定 VSS 還原選項
+                      href: setting-vss-restore-options.md
+            - name: VSS 中繼資料
+              href: vss-metadata.md
+              items:
+                - name: 使用寫入器元資料檔案
+                  href: working-with-the-writer-metadata-document.md
+                  items:
+                    - name: 寫入器元資料檔案生命週期
+                      href: writer-metadata-document-life-cycle.md
+                    - name: 寫入器元資料檔案內容
+                      href: writer-metadata-document-contents.md
+                - name: 使用備份元件檔
+                  href: working-with-the-backup-components-document.md
+                  items:
+                    - name: 備份元件檔生命週期
+                      href: backup-components-document-life-cycle.md
+                    - name: 備份元件檔內容
+                      href: backup-components-document-contents.md
+                - name: VSS 中繼資料元件
+                  href: vss-metadata-components.md
+                  items:
+                    - name: 元件類型
+                      href: component-types.md
+                    - name: 作者的元件定義
+                      href: definition-of-components-by-writers.md
+                    - name: 要求者使用元件
+                      href: use-of-components-by-the-requestor.md
+            - name: 使用 Selectability 和邏輯路徑
+              href: working-with-selectability-and-logical-paths.md
+              items:
+                - name: 元件的邏輯路徑
+                  href: logical-pathing-of-components.md
+                - name: 使用 Selectability 進行備份
+                  href: working-with-selectability-for-backup.md
+                - name: 使用 Selectability 進行還原和子元件
+                  href: working-with-selectability-for-restore-and-subcomponents.md
+                - name: Selectability 和使用元件屬性
+                  href: selectability-and-working-with-component-properties.md
+                - name: 不同寫入器所管理元件之間的相依性
+                  href: dependencies-between-components-managed-by-different-writers.md
+            - name: 在 VSS 下處理備份的總覽
+              href: overview-of-processing-a-backup-under-vss.md
+              items:
+                - name: 備份初始化的總覽
+                  href: overview-of-backup-initialization.md
+                - name: 備份探索階段總覽
+                  href: overview-of-the-backup-discovery-phase.md
+                - name: 備份前工作總覽
+                  href: overview-of-pre-backup-tasks.md
+                - name: 檔的實際備份總覽
+                  href: overview-of-actual-backup-of-files.md
+                - name: 備份終止的總覽
+                  href: overview-of-backup-termination.md
+            - name: 在 VSS 下處理還原的總覽
+              href: overview-of-processing-a-restore-under-vss.md
+              items:
+                - name: 還原初始化的總覽
+                  href: overview-of-restore-initialization.md
+                - name: 準備還原的總覽
+                  href: overview-of-preparing-for-restore.md
+                - name: 實際檔案還原的總覽
+                  href: overview-of-actual-file-restoration.md
+                - name: 還原清除和終止的總覽
+                  href: overview-of-restore-clean-up-and-termination.md
+            - name: 開發 VSS 硬體提供者
+              href: developing-vss-hardware-providers.md
+              items:
+                - name: 陰影複製提供者註冊和載入
+                  href: shadow-copy-provider-registration-and-loading.md
+                - name: 為提供者建立陰影複製
+                  href: shadow-copy-creation-for-providers.md
+                - name: 硬體提供者互動和行為
+                  href: hardware-provider-interactions-and-behaviors.md
+                  items:
+                    - name: 陰影複製建立程式
+                      href: the-shadow-copy-creation-process.md
+                    - name: 陰影複製提供者的必要行為
+                      href: required-behaviors-for-shadow-copy-providers.md
+                    - name: 陰影複製提供者中的狀態轉換
+                      href: state-transitions-in-shadow-copy-providers.md
+                    - name: 陰影複製提供者中的錯誤處理
+                      href: error-handling-in-shadow-copy-providers.md
+        - name: VSS 執行詳細資料
+          href: vss-implementation-details.md
+          items:
+            - name: VSS 備份的執行詳細資料
+              href: implementation-details-for-vss-backups.md
+              items:
+                - name: 正在產生備份組
+                  href: generating-a-backup-set.md
+                - name: 增量和差異備份
+                  href: incremental-and-differential-backups.md
+                  items:
+                    - name: VSS 增量和差異備份中的寫入器角色
+                      href: writer-role-in-vss-incremental-and-differential-backups.md
+                    - name: VSS 增量和差異備份中的要求者角色
+                      href: requestor-role-in-vss-incremental-and-differential-backups.md
+                    - name: 備份複雜存放區的寫入器角色
+                      href: writer-role-in-backing-up-complex-stores.md
+                    - name: 備份複雜存放區的要求者角色
+                      href: requestor-role-in-backing-up-complex-stores.md
+                - name: 不含寫入器參與的備份
+                  href: backups-without-writer-participation.md
+                - name: 使用裝載的資料夾和重新分析點
+                  href: working-with-reparse-and-mount-points.md
+            - name: VSS 還原的執行詳細資料
+              href: implementation-details-for-vss-restores.md
+              items:
+                - name: 正在產生還原集
+                  href: generating-a-restore-set.md
+                - name: 還原增量和差異備份
+                  href: restoring-incremental-and-differential-backups.md
+                - name: 不含寫入器參與的還原
+                  href: restores-without-writer-participation.md
+            - name: 非預設備份和還原位置
+              href: non-default-backup-and-restore-locations.md
+              items:
+                - name: 在備份期間使用替代路徑
+                  href: working-with-alternate-paths-during-backup.md
+                - name: 在還原期間使用替代位置
+                  href: working-with-alternate-locations-during-restore.md
+                - name: 在還原期間使用新目標
+                  href: working-with-new-targets-during-restore.md
+                - name: 使用部分檔案
+                  href: working-with-partial-files.md
+                - name: 使用導向的目標
+                  href: working-with-directed-targets.md
+            - name: 建立陰影複製的執行詳細資料
+              href: implementation-details-for-creating-shadow-copies.md
+              items:
+                - name: 備份的簡易陰影複製建立
+                  href: simple-shadow-copy-creation-for-backup.md
+                - name: 陰影複製建立詳細資料
+                  href: shadow-copy-creation-details.md
+                - name: 排除陰影複製中的檔案
+                  href: excluding-files-from-shadow-copies.md
+                - name: 選取提供者
+                  href: selecting-providers.md
+            - name: 使用陰影複製的執行詳細資料
+              href: implementation-details-for-using-shadow-copies.md
+              items:
+                - name: 要求者存取陰影複製的資料
+                  href: requestor-access-to-shadow-copied-data.md
+                - name: 匯入可轉移的陰影複製磁片區
+                  href: importing-transportable-shadow-copied-volumes.md
+                  items:
+                    - name: 使用可轉移陰影複製的磁片區快速復原
+                      href: fast-recovery-using-transportable-shadow-copied-volumes.md
+                - name: 公開及呈現陰影複製的磁片區
+                  href: exposing-and-surfacing-shadow-copied-volumes.md
+                - name: 中斷陰影複製
+                  href: breaking-shadow-copies.md
+        - name: 針對 VSS 應用程式進行疑難排解
+          href: troubleshooting-vss-applications.md
+          items:
+            - name: VSS 下的事件和錯誤處理
+              href: event-and-error-handling-under-vss.md
+              items:
+                - name: 判斷寫入器狀態
+                  href: determining-writer-status.md
+                - name: VSS 錯誤記錄
+                  href: vss-error-logging.md
+                - name: 寫入器錯誤和 Vetoes
+                  href: writer-errors-and-vetoes.md
+                - name: 中止 VSS 作業
+                  href: aborting-vss-operations.md
+                - name: 處理 BackupShutdown 事件
+                  href: handling-backupshutdown-events.md
+            - name: VSS 安全性問題
+              href: vss-security-issues.md
+              items:
+                - name: 寫入器的安全性考慮
+                  href: security-considerations-for-writers.md
+                - name: 要求者的安全性考慮
+                  href: security-considerations-for-requestors.md
+            - name: 特殊 VSS 使用案例
+              href: special-vss-usage-cases.md
+              items:
+                - name: 停止服務以供要求者還原
+                  href: stopping-services-for-restore-by-requestors.md
+                - name: 在 Windows Server 2003 R2 和 Windows Server 2003 SP1 中備份和還原系統狀態
+                  href: backing-up-and-restoring-system-state-under-vss.md
+                - name: 使用 VSS 自動化系統復原進行嚴重損壞修復
+                  href: using-vss-automated-system-recovery-for-disaster-recovery.md
+                  items:
+                    - name: 使用追蹤工具搭配 ASR 應用程式
+                      href: using-tracing-tools-with-vss-asr-applications.md
+                - name: 自訂備份和還原
+                  href: custom-backups-and-restores.md
+                  items:
+                    - name: Active Directory 的 VSS 備份和還原
+                      href: vss-backup-and-restore-of-the-active-directory.md
+                    - name: 備份和還原 FRS-Replicated SYSVOL 資料夾
+                      href: backing-up-and-restoring-an-frs-replicated-sysvol-folder.md
+                    - name: 叢集資料庫的 VSS 備份和還原
+                      href: vss-backups-and-restores-of-the-cluster-database.md
+                    - name: VSS 下的登錄備份和還原作業
+                      href: registry-backup-and-restore-operations-under-vss.md
+                    - name: 在 VSS 下備份和還原 COM + 類別註冊資料庫
+                      href: backing-up-and-restoring-the-com-class-registration-database-under-vss.md
+        - name: VSS 工具和範例
+          href: vss-tools-and-samples.md
+          items:
+            - name: 使用追蹤工具搭配 VSS
+              href: using-tracing-tools-with-vss.md
+            - name: 使用 VSS 診斷
+              href: using-vss-diagnostics.md
+            - name: VssSampleProvider 工具和範例
+              href: vsssampleprovider-tool-and-sample.md
+            - name: VShadow 工具和範例
+              href: vshadow-tool-and-sample.md
+              items:
+                - name: VShadow 工具範例
+                  href: vshadow-tool-examples.md
+            - name: BETest 工具
+              href: betest-tool.md
+            - name: VSS 測試編寫器工具
+              href: vss-test-writer-tool.md
+    - name: 磁片區陰影複製參考
+      href: volume-shadow-copy-reference.md
+      items:
+        - name: 磁片區陰影複製 API 類別
+          href: volume-shadow-copy-api-classes.md
+          items:
+            - name: CVssWriter
+              href: /windows/desktop/api/VsWriter/nl-vswriter-cvsswriter
+              items:
+                - name: CVssWriter 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-cvsswriter
+                - name: ~ CVssWriter 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-~cvsswriter
+                - name: AreComponentsSelected 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-arecomponentsselected
+                - name: GetBackupType 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getbackuptype
+                - name: GetContext 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcontext
+                - name: GetCurrentLevel 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcurrentlevel
+                - name: GetCurrentSnapshotSetId 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcurrentsnapshotsetid
+                - name: GetCurrentVolumeArray 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcurrentvolumearray
+                - name: GetCurrentVolumeCount 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcurrentvolumecount
+                - name: GetRestoreType 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getrestoretype
+                - name: GetSnapshotDeviceName 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getsnapshotdevicename
+                - name: Initialize 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-initialize
+                - name: InstallAlternateWriter 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-installalternatewriter
+                - name: IsBootableSystemStateBackedUp 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-isbootablesystemstatebackedup
+                - name: IsPartialFileSupportEnabled 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-ispartialfilesupportenabled
+                - name: IsPathAffected 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-ispathaffected
+                - name: OnAbort 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onabort
+                - name: OnBackOffIOOnVolume 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackoffioonvolume
+                - name: OnContinueIOOnVolume 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-oncontinueioonvolume
+                - name: OnBackupComplete 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete
+                - name: OnBackupShutdown 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupshutdown
+                - name: OnFreeze 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onfreeze
+                - name: OnIdentify 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onidentify
+                - name: OnPostRestore 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostrestore
+                - name: OnPostSnapshot 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostsnapshot
+                - name: OnPrepareBackup 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpreparebackup
+                - name: OnPrepareSnapshot 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpreparesnapshot
+                - name: OnPreRestore 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onprerestore
+                - name: OnThaw 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onthaw
+                - name: OnVSSApplicationStartup 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onvssapplicationstartup
+                - name: OnVssShutdown 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onvssshutdown
+                - name: SetWriterFailure 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-setwriterfailure
+                - name: 訂閱者法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-subscribe
+                - name: 取消訂閱方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-unsubscribe
+            - name: CVssWriterEx
+              href: /windows/desktop/api/VsWriter/nl-vswriter-cvsswriterex
+              items:
+                - name: GetIdentifyInformation 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex-getidentifyinformation
+                - name: InitializeEx 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex-initializeex
+                - name: OnIdentifyEx 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex-onidentifyex
+                - name: SubscribeEx 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex-subscribeex
+            - name: CVssWriterEx2
+              href: /windows/desktop/api/VsWriter/nl-vswriter-cvsswriterex2
+              items:
+                - name: GetSessionId 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex2-getsessionid
+                - name: IsWriterShuttingDown 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex2-iswritershuttingdown
+                - name: SetWriterFailureEx 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex2-setwriterfailureex
+        - name: 磁片區陰影複製 API 資料類型
+          href: volume-shadow-copy-api-data-types.md
+        - name: 磁片區陰影複製 API 列舉
+          href: volume-shadow-copy-api-enumeration-types.md
+          items:
+            - name: VSS_ALTERNATE_WRITER_STATE
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_alternate_writer_state
+            - name: VSS_APPLICATION_LEVEL
+              href: /windows/win32/api/Vss/ne-vss-vss_application_level
+            - name: VSS_BACKUP_SCHEMA
+              href: /windows/win32/api/Vss/ne-vss-vss_backup_schema
+            - name: VSS_BACKUP_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_backup_type
+            - name: VSS_COMPONENT_FLAGS
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_component_flags
+            - name: VSS_COMPONENT_TYPE
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_component_type
+            - name: VSS_FILE_RESTORE_STATUS
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_file_restore_status
+            - name: VSS_FILE_SPEC_BACKUP_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_file_spec_backup_type
+            - name: _VSS_HARDWARE_OPTIONS
+              href: /windows/win32/api/Vss/ne-vss-vss_hardware_options
+            - name: VSS_MGMT_OBJECT_TYPE
+              href: /windows/win32/api/VsMgmt/ne-vsmgmt-vss_mgmt_object_type
+            - name: VSS_OBJECT_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_object_type
+            - name: VSS_PROTECTION_FAULT
+              href: /windows/win32/api/VsMgmt/ne-vsmgmt-vss_protection_fault
+            - name: VSS_PROTECTION_LEVEL
+              href: /windows/win32/api/VsMgmt/ne-vsmgmt-vss_protection_level
+            - name: _VSS_PROVIDER_CAPABILITIES
+              href: /windows/win32/api/vss/ne-vss-vss_provider_capabilities
+            - name: VSS_PROVIDER_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_provider_type
+            - name: VSS_RECOVERY_OPTIONS
+              href: /windows/win32/api/Vss/ne-vss-vss_recovery_options
+            - name: VSS_RESTORE_TARGET
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_restore_target
+            - name: VSS_RESTORE_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_restore_type
+            - name: VSS_RESTOREMETHOD_ENUM
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_restoremethod_enum
+            - name: VSS_ROLLFORWARD_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_rollforward_type
+            - name: VSS_SNAPSHOT_COMPATIBILITY
+              href: /windows/win32/api/Vss/ne-vss-vss_snapshot_compatibility
+            - name: _VSS_SNAPSHOT_CONTEXT
+              href: /windows/win32/api/Vss/ne-vss-vss_snapshot_context
+            - name: VSS_SNAPSHOT_PROPERTY_ID
+              href: /windows/win32/api/Vss/ne-vss-vss_snapshot_property_id
+            - name: VSS_SNAPSHOT_STATE
+              href: /windows/win32/api/Vss/ne-vss-vss_snapshot_state
+            - name: VSS_SOURCE_TYPE
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_source_type
+            - name: VSS_SUBSCRIBE_MASK
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_subscribe_mask
+            - name: VSS_USAGE_TYPE
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_usage_type
+            - name: _VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+              href: /windows/win32/api/Vss/ne-vss-vss_volume_snapshot_attributes
+            - name: VSS_WRITER_STATE
+              href: /windows/win32/api/Vss/ne-vss-vss_writer_state
+            - name: VSS_WRITERRESTORE_ENUM
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_writerrestore_enum
+        - name: 磁片區陰影複製 API 函數
+          href: volume-shadow-copy-api-functions.md
+          items:
+            - name: CreateVssBackupComponents
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-createvssbackupcomponents
+            - name: CreateVssExamineWriterMetadata
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-createvssexaminewritermetadata
+            - name: CreateVssExpressWriter
+              href: /windows/desktop/api/VsWriter/nf-vswriter-createvssexpresswriter
+            - name: System.xml.linq.xcontainer.createwriter
+              href: /windows/desktop/api/vswriter/nf-vswriter-createwriter
+            - name: CreateWriterEx
+              href: /windows/desktop/api/vswriter/nf-vswriter-createwriterex
+            - name: IsVolumeSnapshotted
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-isvolumesnapshotted
+            - name: ShouldBlockRevert
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-shouldblockrevert
+            - name: VssFreeSnapshotProperties
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-vssfreesnapshotproperties
+        - name: 磁片區陰影複製 API 介面
+          href: volume-shadow-copy-api-interfaces.md
+          items:
+            - name: IVssAdmin
+              href: /windows/desktop/api/VsAdmin/nn-vsadmin-ivssadmin
+              items:
+                - name: AbortAllSnapshotsInProgress 方法
+                  href: /windows/desktop/api/VsAdmin/nf-vsadmin-ivssadmin-abortallsnapshotsinprogress
+                - name: QueryProviders 方法
+                  href: /windows/desktop/api/VsAdmin/nf-vsadmin-ivssadmin-queryproviders
+                - name: RegisterProvider 方法
+                  href: /windows/desktop/api/VsAdmin/nf-vsadmin-ivssadmin-registerprovider
+                - name: UnregisterProvider 方法
+                  href: /windows/desktop/api/VsAdmin/nf-vsadmin-ivssadmin-unregisterprovider
+            - name: IVssAsync
+              href: /windows/desktop/api/Vss/nn-vss-ivssasync
+              items:
+                - name: Cancel 方法
+                  href: /windows/desktop/api/Vss/nf-vss-ivssasync-cancel
+                - name: QueryStatus 方法
+                  href: /windows/desktop/api/Vss/nf-vss-ivssasync-querystatus
+                - name: Wait 方法
+                  href: /windows/desktop/api/Vss/nf-vss-ivssasync-wait
+            - name: '>ivssbackupcomponents'
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents
+              items:
+                - name: AbortBackup 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup
+                - name: AddAlternativeLocationMapping 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping
+                - name: AddComponent 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent
+                - name: AddNewTarget 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addnewtarget
+                - name: AddRestoreSubcomponent 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent
+                - name: AddToSnapshotSet 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset
+                - name: BackupComplete 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete
+                - name: BreakSnapshotSet 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset
+                - name: DeleteSnapshots 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots
+                - name: DisableWriterClasses 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses
+                - name: DisableWriterInstances 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances
+                - name: DoSnapshotSet 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset
+                - name: EnableWriterClasses 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses
+                - name: ExposeSnapshot 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot
+                - name: FreeWriterMetadata 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-freewritermetadata
+                - name: FreeWriterStatus 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus
+                - name: GatherWriterMetadata 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata
+                - name: GatherWriterStatus 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus
+                - name: GetSnapshotProperties 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties
+                - name: GetWriterComponents 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents
+                - name: GetWriterComponentsCount 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount
+                - name: GetWriterMetadata 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata
+                - name: GetWriterMetadataCount 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadatacount
+                - name: GetWriterStatus 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus
+                - name: GetWriterStatusCount 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatuscount
+                - name: ImportSnapshots 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-importsnapshots
+                - name: InitializeForBackup 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup
+                - name: InitializeForRestore 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore
+                - name: IsVolumeSupported 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-isvolumesupported
+                - name: PostRestore 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-postrestore
+                - name: PrepareForBackup 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup
+                - name: PreRestore 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore
+                - name: 查詢方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-query
+                - name: QueryRevertStatus 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-queryrevertstatus
+                - name: RevertToSnapshot 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-reverttosnapshot
+                - name: SaveAsXML 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml
+                - name: SetAdditionalRestores 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores
+                - name: SetBackupOptions 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupoptions
+                - name: SetBackupState 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate
+                - name: SetBackupSucceeded 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded
+                - name: SetContext 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setcontext
+                - name: SetFileRestoreStatus 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setfilerestorestatus
+                - name: SetPreviousBackupStamp 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp
+                - name: SetRangesFilePath 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath
+                - name: SetRestoreOptions 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions
+                - name: SetRestoreState 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestorestate
+                - name: SetSelectedForRestore 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore
+                - name: StartSnapshotSet 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset
+            - name: IVssBackupComponentsEx
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponentsex
+              items:
+                - name: GetWriterMetadataEx 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex-getwritermetadataex
+                - name: SetSelectedForRestoreEx 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex
+            - name: IVssBackupComponentsEx2
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponentsex2
+              items:
+                - name: BreakSnapshotSetEx 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex
+                - name: FastRecovery 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-fastrecovery
+                - name: PreFastRecovery 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-prefastrecovery
+                - name: SetAuthoritativeRestore 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setauthoritativerestore
+                - name: SetRestoreName 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename
+                - name: SetRollForward 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward
+                - name: UnexposeSnapshot 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-unexposesnapshot
+            - name: IVssBackupComponentsEx3
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponentsex3
+              items:
+                - name: AddSnapshotToRecoverySet 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex3-addsnapshottorecoveryset
+                - name: GetSessionId 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex3-getsessionid
+                - name: GetWriterStatusEx 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex3-getwriterstatusex
+                - name: RecoverSet 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex3-recoverset
+            - name: IVssBackupComponentsEx4
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponentsex4
+              items:
+                - name: GetRootAndLogicalPrefixPaths 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex4-getrootandlogicalprefixpaths
+            - name: '>ivsscomponent'
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent
+              items:
+                - name: AddDifferencedFilesByLastModifyLSN 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifylsn
+                - name: AddDifferencedFilesByLastModifyTime 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime
+                - name: AddDirectedTarget 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddirectedtarget
+                - name: AddPartialFile 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-addpartialfile
+                - name: GetAdditionalRestores 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getadditionalrestores
+                - name: GetAlternateLocationMapping 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getalternatelocationmapping
+                - name: GetAlternateLocationMappingCount 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getalternatelocationmappingcount
+                - name: GetBackupMetadata 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupmetadata
+                - name: GetBackupOptions 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupoptions
+                - name: GetBackupStamp 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupstamp
+                - name: GetBackupSucceeded 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupsucceeded
+                - name: GetComponentName 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponentname
+                - name: GetComponentType 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponenttype
+                - name: GetDifferencedFile 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile
+                - name: GetDifferencedFilesCount 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfilescount
+                - name: GetDirectedTarget 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtarget
+                - name: GetDirectedTargetCount 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtargetcount
+                - name: GetFileRestoreStatus 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getfilerestorestatus
+                - name: GetLogicalPath 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getlogicalpath
+                - name: GetNewTarget 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtarget
+                - name: GetNewTargetCount 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtargetcount
+                - name: GetPartialFile 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfile
+                - name: GetPartialFileCount 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfilecount
+                - name: GetPostRestoreFailureMsg 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg
+                - name: GetPreRestoreFailureMsg 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg
+                - name: GetPreviousBackupStamp 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpreviousbackupstamp
+                - name: GetRestoreMetadata 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoremetadata
+                - name: GetRestoreOptions 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoreoptions
+                - name: GetRestoreSubcomponent 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoresubcomponent
+                - name: GetRestoreSubcomponentCount 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoresubcomponentcount
+                - name: GetRestoreTarget 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoretarget
+                - name: IsSelectedForRestore 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-isselectedforrestore
+                - name: SetBackupMetadata 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setbackupmetadata
+                - name: SetBackupStamp 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setbackupstamp
+                - name: SetPostRestoreFailureMsg 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setpostrestorefailuremsg
+                - name: SetPreRestoreFailureMsg 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setprerestorefailuremsg
+                - name: SetRestoreMetadata 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setrestoremetadata
+                - name: SetRestoreTarget 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setrestoretarget
+            - name: IVssComponentEx
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscomponentex
+              items:
+                - name: GetAuthoritativeRestore 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getauthoritativerestore
+                - name: GetPostSnapshotFailureMsg 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getpostsnapshotfailuremsg
+                - name: GetPrepareForBackupFailureMsg 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getprepareforbackupfailuremsg
+                - name: GetRestoreName 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getrestorename
+                - name: GetRollForward 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getrollforward
+                - name: SetPostSnapshotFailureMsg 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-setpostsnapshotfailuremsg
+                - name: SetPrepareForBackupFailureMsg 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-setprepareforbackupfailuremsg
+            - name: IVssComponentEx2
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscomponentex2
+              items:
+                - name: GetFailure 方法
+                  href: /windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-getfailure
+                - name: SetFailure 方法
+                  href: /windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure
+            - name: IVssCreateExpressWriterMetadata
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscreateexpresswritermetadata
+              items:
+                - name: AddComponent 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-addcomponent
+                - name: AddComponentDependency 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-addcomponentdependency
+                - name: AddExcludeFiles 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-addexcludefiles
+                - name: AddFilesToFileGroup 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-addfilestofilegroup
+                - name: SaveAsXML 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-saveasxml
+                - name: SetBackupSchema 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-setbackupschema
+                - name: SetRestoreMethod 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-setrestoremethod
+            - name: IVssCreateWriterMetadata
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscreatewritermetadata
+              items:
+                - name: AddAlternateLocationMapping 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping
+                - name: AddComponent 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponent
+                - name: AddComponentDependency 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency
+                - name: AddDatabaseFiles 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles
+                - name: AddDatabaseLogFiles 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles
+                - name: AddExcludeFiles 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles
+                - name: AddFilesToFileGroup 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup
+                - name: AddIncludeFiles 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addincludefiles
+                - name: GetDocument 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-getdocument
+                - name: SaveAsXML 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-saveasxml
+                - name: SetBackupSchema 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema
+                - name: SetRestoreMethod 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod
+            - name: IVssCreateWriterMetadataEx
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscreatewritermetadataex
+              items:
+                - name: AddExcludeFilesFromSnapshot 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot
+            - name: IVssDifferentialSoftwareSnapshotMgmt
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt
+              items:
+                - name: AddDiffArea 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea
+                - name: ChangeDiffAreaMaximumSize 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize
+                - name: QueryDiffAreasForSnapshot 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforsnapshot
+                - name: QueryDiffAreasForVolume 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforvolume
+                - name: QueryDiffAreasOnVolume 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume
+                - name: QueryVolumesSupportedForDiffAreas 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas
+            - name: IVssDifferentialSoftwareSnapshotMgmt2
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2
+              items:
+                - name: ChangeDiffAreaMaximumSizeEx 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex
+                - name: MigrateDiffAreas 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-migratediffareas
+                - name: QueryMigrationStatus 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-querymigrationstatus
+                - name: SetSnapshotPriority 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-setsnapshotpriority
+            - name: IVssDifferentialSoftwareSnapshotMgmt3
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3
+              items:
+                - name: ClearVolumeProtectFault 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-clearvolumeprotectfault
+                - name: DeleteUnusedDiffAreas 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-deleteunuseddiffareas
+                - name: GetVolumeProtectLevel 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-getvolumeprotectlevel
+                - name: QuerySnapshotDeltaBitmap 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-querysnapshotdeltabitmap
+                - name: SetVolumeProtectLevel 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-setvolumeprotectlevel
+            - name: IVssEnumMgmtObject
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivssenummgmtobject
+              items:
+                - name: Clone 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssenummgmtobject-clone
+                - name: Next 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssenummgmtobject-next
+                - name: Reset 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssenummgmtobject-reset
+                - name: Skip 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssenummgmtobject-skip
+            - name: IVssEnumObject
+              href: /windows/desktop/api/Vss/nn-vss-ivssenumobject
+              items:
+                - name: Clone 方法
+                  href: /windows/desktop/api/Vss/nf-vss-ivssenumobject-clone
+                - name: Next 方法
+                  href: /windows/desktop/api/Vss/nf-vss-ivssenumobject-next
+                - name: Reset 方法
+                  href: /windows/desktop/api/Vss/nf-vss-ivssenumobject-reset
+                - name: Skip 方法
+                  href: /windows/desktop/api/Vss/nf-vss-ivssenumobject-skip
+            - name: IVssExamineWriterMetadata
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssexaminewritermetadata
+              items:
+                - name: GetAlternateLocationMapping 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping
+                - name: GetBackupSchema 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema
+                - name: GetComponent 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent
+                - name: GetDocument 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getdocument
+                - name: GetExcludeFile 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getexcludefile
+                - name: GetFileCounts 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getfilecounts
+                - name: GetIdentity 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getidentity
+                - name: GetIncludeFile 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getincludefile
+                - name: GetRestoreMethod 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod
+                - name: LoadFromXML 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-loadfromxml
+                - name: SaveAsXML 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml
+            - name: IVssExamineWriterMetadataEx
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssexaminewritermetadataex
+              items:
+                - name: GetIdentityEx 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex
+            - name: IVssExamineWriterMetadataEx2
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssexaminewritermetadataex2
+              items:
+                - name: GetExcludeFromSnapshotCount 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotcount
+                - name: GetExcludeFromSnapshotFile 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile
+                - name: GetVersion 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex2-getversion
+            - name: IVssExpressWriter
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivssexpresswriter
+              items:
+                - name: CreateMetadata 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivssexpresswriter-createmetadata
+                - name: LoadMetadata 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivssexpresswriter-loadmetadata
+                - name: Register 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivssexpresswriter-register
+                - name: 取消註冊方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivssexpresswriter-unregister
+            - name: IVssFileShareSnapshotProvider
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivssfilesharesnapshotprovider
+              items:
+                - name: BeginPrepareSnapshot 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-beginpreparesnapshot
+                - name: DeleteSnapshots 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-deletesnapshots
+                - name: GetSnapshotProperties 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-getsnapshotproperties
+                - name: IsPathSnapshotted 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-ispathsnapshotted
+                - name: IsPathSupported 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-ispathsupported
+                - name: 查詢方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-query
+                - name: SetCoNtext 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-setcontext
+                - name: SetSnapshotProperty 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-setsnapshotproperty
+            - name: IVssHardwareSnapshotProvider
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivsshardwaresnapshotprovider
+              items:
+                - name: AreLunsSupported 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported
+                - name: BeginPrepareSnapshot 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot
+                - name: FillInLunInfo 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo
+                - name: GetTargetLuns 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns
+                - name: LocateLuns 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-locateluns
+                - name: OnLunEmpty 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-onlunempty
+            - name: IVssHardwareSnapshotProviderEx
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivsshardwaresnapshotproviderex
+              items:
+                - name: GetProviderCapabilities 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotproviderex-getprovidercapabilities
+                - name: OnLunStateChange 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange
+                - name: OnReuseLuns 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotproviderex-onreuseluns
+                - name: ResyncLuns 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotproviderex-resyncluns
+            - name: IVssProviderCreateSnapshotSet
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivssprovidercreatesnapshotset
+              items:
+                - name: AbortSnapshots 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots
+                - name: CommitSnapshots 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots
+                - name: EndPrepareSnapshots 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-endpreparesnapshots
+                - name: PostCommitSnapshots 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots
+                - name: PostFinalCommitSnapshots 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postfinalcommitsnapshots
+                - name: PreCommitSnapshots 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-precommitsnapshots
+                - name: PreFinalCommitSnapshots 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-prefinalcommitsnapshots
+            - name: IVssProviderNotifications
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivssprovidernotifications
+              items:
+                - name: OnLoad 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidernotifications-onload
+                - name: OnUnload 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidernotifications-onunload
+            - name: IVssSnapshotMgmt
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivsssnapshotmgmt
+              items:
+                - name: GetProviderMgmtInterface 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivsssnapshotmgmt-getprovidermgmtinterface
+                - name: QuerySnapshotsByVolume 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivsssnapshotmgmt-querysnapshotsbyvolume
+                - name: QueryVolumesSupportedForSnapshots 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivsssnapshotmgmt-queryvolumessupportedforsnapshots
+            - name: IVssSnapshotMgmt2
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivsssnapshotmgmt2
+              items:
+                - name: GetMinDiffAreaSize 方法
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivsssnapshotmgmt2-getmindiffareasize
+            - name: IVssSoftwareSnapshotProvider
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivsssoftwaresnapshotprovider
+              items:
+                - name: BeginPrepareSnapshot 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-beginpreparesnapshot
+                - name: DeleteSnapshots 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-deletesnapshots
+                - name: GetSnapshotProperties 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties
+                - name: IsVolumeSnapshotted 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-isvolumesnapshotted
+                - name: IsVolumeSupported 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-isvolumesupported
+                - name: 查詢方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-query
+                - name: QueryRevertStatus 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-queryrevertstatus
+                - name: RevertToSnapshot 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-reverttosnapshot
+                - name: SetContext 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-setcontext
+                - name: SetSnapshotProperty 方法
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-setsnapshotproperty
+            - name: IVssWMComponent
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivsswmcomponent
+              items:
+                - name: FreeComponentInfo 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-freecomponentinfo
+                - name: GetComponentInfo 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getcomponentinfo
+                - name: GetDatabaseFile 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabasefile
+                - name: GetDatabaseLogFile 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile
+                - name: GetDependency 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdependency
+                - name: GetFile 方法
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getfile
+            - name: IVssWMDependency
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsswmdependency
+              items:
+                - name: GetWriterId 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getwriterid
+                - name: GetLogicalPath 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getlogicalpath
+                - name: GetComponentName 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getcomponentname
+            - name: IVssWMFiledesc
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsswmfiledesc
+              items:
+                - name: GetAlternateLocation 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getalternatelocation
+                - name: GetBackupTypeMask 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getbackuptypemask
+                - name: GetFilespec 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getfilespec
+                - name: GetPath 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getpath
+                - name: GetRecursive 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getrecursive
+            - name: IVssWriterComponents
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents
+              items:
+                - name: GetComponent 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent
+                - name: GetComponentCount 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponentcount
+                - name: GetWriterInfo 方法
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getwriterinfo
+            - name: IVssWriterComponentsExt
+              href: /windows/desktop/api/vsbackup/nl-vsbackup-ivsswritercomponentsext
+        - name: 磁片區陰影複製 API 結構
+          href: volume-shadow-copy-api-structures.md
+          items:
+            - name: VSS_COMPONENTINFO
+              href: /windows/win32/api/VsBackup/ns-vsbackup-vss_componentinfo
+            - name: VSS_DIFF_AREA_PROP
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_diff_area_prop
+            - name: VSS_DIFF_VOLUME_PROP
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_diff_volume_prop
+            - name: VSS_MGMT_OBJECT_PROP
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_mgmt_object_prop
+            - name: VSS_MGMT_OBJECT_UNION
+              href: /windows/desktop/api/VsMgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001
+            - name: VSS_OBJECT_PROP
+              href: /windows/win32/api/Vss/ns-vss-vss_object_prop
+            - name: VSS_OBJECT_UNION
+              href: /windows/desktop/api/Vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001
+            - name: VSS_PROVIDER_PROP
+              href: /windows/win32/api/Vss/ns-vss-vss_provider_prop
+            - name: VSS_SNAPSHOT_PROP
+              href: /windows/win32/api/Vss/ns-vss-vss_snapshot_prop
+            - name: VSS_VOLUME_PROP
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_volume_prop
+            - name: VSS_VOLUME_PROTECTION_INFO
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_volume_protection_info
+    - name: 磁片區陰影複製詞彙
+      href: volume-shadow-copy-glossary.md
+      items:
+        - name: A
+          href: vssgloss-a.md
+        - name: B
+          href: vssgloss-b.md
+        - name: C
+          href: vssgloss-c.md
+        - name: D
+          href: vssgloss-d.md
+        - name: E
+          href: vssgloss-e.md
+        - name: F
+          href: vssgloss-f.md
+        - name: G
+          href: vssgloss-g.md
+        - name: H
+          href: vssgloss-h.md
+        - name: I
+          href: vssgloss-i.md
+        - name: L
+          href: vssgloss-l.md
+        - name: 'N'
+          href: vssgloss-n.md
+        - name: O
+          href: vssgloss-o.md
+        - name: P
+          href: vssgloss-p.md
+        - name: R
+          href: vssgloss-r.md
+        - name: S
+          href: vssgloss-s.md
+        - name: T
+          href: vssgloss-t.md
+        - name: V
+          href: vssgloss-v.md
+        - name: W
+          href: vssgloss-w.md
