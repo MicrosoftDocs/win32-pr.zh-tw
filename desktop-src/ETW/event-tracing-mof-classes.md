@@ -1,0 +1,150 @@
+---
+description: 類別是在 \\ 根 \\ wmi 命名空間中定義。
+ms.assetid: b86c3863-b92c-4f6c-b953-3e0638bc915e
+title: 事件追蹤 MOF 類別
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c0a94fb5608ddcdd8a13df2d221adf3d032f6be8
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103943249"
+---
+# <a name="event-tracing-mof-classes"></a>事件追蹤 MOF 類別
+
+類別是在 \\ 根 \\ wmi 命名空間中定義。 核心事件的 **EventVersion** 限定詞會將類別與特定作業系統產生關聯。 例如，版本零會與 windows 2000、Windows XP 和 Windows Server 2003 的第一版相關聯，以及第二版與 Windows Vista 相關聯。
+
+下列 MOF 類別會定義 ETW 事件類別。
+
+-   [**EventTrace**](eventtrace.md)
+-   [**EventTrace \_ 標頭**](eventtrace-header.md)
+-   [**EventTraceEvent**](eventtraceevent.md)
+-   [**遺失的 \_ 事件**](lost-event.md)
+-   [**MSNT \_ SystemTrace**](msnt-systemtrace.md)
+-   [**RT \_ LostEvent**](rt-lostevent.md)
+
+下列 MOF 類別會定義核心事件類別。
+
+-   [**ALPC**](alpc.md)
+-   [**ALPC \_ 接收 \_ 訊息**](alpc-receive-message.md)
+-   [**ALPC \_ 傳送 \_ 訊息**](alpc-send-message.md)
+-   [**ALPC \_ Unwait**](alpc-unwait.md)
+-   [**ALPC \_ 等候 \_ \_ 新 \_ 訊息**](alpc-wait-for-new-message.md)
+-   [**ALPC \_ 等候 \_ \_ 回復**](alpc-wait-for-reply.md)
+-   [**CSwitch**](cswitch.md)
+-   [**DPC**](dpc.md)
+-   [**DiskIo**](diskio.md)
+-   [**DiskIo \_ TypeGroup1**](diskio-typegroup1.md)
+-   [**DiskIo \_ TypeGroup2**](diskio-typegroup2.md)
+-   [**DiskIo \_ TypeGroup3**](diskio-typegroup3.md)
+-   [**DriverCompleteRequest**](drivercompleterequest.md)
+-   [**DriverCompleteRequestReturn**](drivercompleterequestreturn.md)
+-   [**DriverCompletionRoutine**](drivercompletionroutine.md)
+-   [**DriverMajorFunctionCall**](drivermajorfunctioncall.md)
+-   [**DriverMajorFunctionReturn**](drivermajorfunctionreturn.md)
+-   [**FileIo**](fileio.md)
+-   [**FileIo \_ 建立**](fileio-create.md)
+-   [**FileIo \_ DirEnum**](fileio-direnum.md)
+-   [**FileIo \_ 資訊**](fileio-info.md)
+-   [**FileIo \_ 名稱**](fileio-name.md)
+-   [**FileIo \_ OpEnd**](fileio-opend.md)
+-   [**FileIo \_ ReadWrite**](fileio-readwrite.md)
+-   [**FileIo \_ SimpleOp**](fileio-simpleop.md)
+-   [**FileIo \_ V0**](fileio-v0.md)
+-   [**FileIo \_ V0 \_ 名稱**](fileio-v0-name.md)
+-   [**FileIo \_ V1**](fileio-v1.md)
+-   [**FileIo \_ V1 \_ 名稱**](fileio-v1-name.md)
+-   [**HWConfig**](hwconfig.md)
+-   [**HWConfig \_ CPU**](hwconfig-cpu.md)
+-   [**HWConfig \_ LogDisk**](hwconfig-logdisk.md)
+-   [**HWConfig \_ NIC**](hwconfig-nic.md)
+-   [**HWConfig \_ PhyDisk**](hwconfig-phydisk.md)
+-   [**Image**](image.md)
+-   [**映射 \_ 載入**](image-load.md)
+-   [**影像 \_ V0**](image-v0.md)
+-   [**映射 \_ V0 \_ 載入**](image-v0-load.md)
+-   [**映射 \_ V1**](image-v1.md)
+-   [**映射 \_ V1 \_ 載入**](image-v1-load.md)
+-   [**ISR**](isr.md)
+-   [**PageFault \_ V2**](pagefault-v2.md)
+-   [**PageFault \_ HardFault**](pagefault-hardfault.md)
+-   [**PageFault \_ ImageLoadBacked**](pagefault-imageloadbacked.md)
+-   [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md)
+-   [**PerfInfo**](perfinfo.md)
+-   [**處理序**](process.md)
+-   [**進程 \_ TypeGroup1**](process-typegroup1.md)
+-   [**進程 \_ V0**](process-v0.md)
+-   [**進程 \_ V0 \_ TypeGroup1**](process-v0-typegroup1.md)
+-   [**進程 \_ V1**](process-v1.md)
+-   [**進程 \_ V1 \_ TypeGroup1**](process-v1-typegroup1.md)
+-   [**進程 \_ V2**](process-v2.md)
+-   [**進程 \_ V2 \_ TypeGroup1**](process-v2-typegroup1.md)
+-   [**進程 \_ V2 \_ TypeGroup2**](process-v2-typegroup2.md)
+-   [**ReadyThread**](readythread.md)
+-   [**登錄**](registry.md)
+-   [**登錄 \_ TypeGroup1**](registry-typegroup1.md)
+-   [**登錄 \_ V0**](registry-v0.md)
+-   [**登錄 \_ V0 \_ TypeGroup1**](registry-v0-typegroup1.md)
+-   [**登錄 \_ V1**](registry-v1.md)
+-   [**登錄 \_ V1 \_ TypeGroup1**](registry-v1-typegroup1.md)
+-   [**SampledProfile**](sampledprofile.md)
+-   [**SplitIo**](splitio.md)
+-   [**SplitIo \_ 資訊**](splitio-info.md)
+-   [**SysCallEnter**](syscallenter.md)
+-   [**SysCallExit**](syscallexit.md)
+-   [**SystemConfig**](systemconfig.md)
+-   [**SystemConfig \_ CPU**](systemconfig-cpu.md)
+-   [**SystemConfig \_ IDEChannel**](systemconfig-idechannel.md)
+-   [**SystemConfig \_ IRQ**](systemconfig-irq.md)
+-   [**SystemConfig \_ LogDisk**](systemconfig-logdisk.md)
+-   [**SystemConfig \_ 網路**](systemconfig-network.md)
+-   [**SystemConfig \_ NIC**](systemconfig-nic.md)
+-   [**SystemConfig \_ PhyDisk**](systemconfig-phydisk.md)
+-   [**SystemConfig \_ PnP**](systemconfig-pnp.md)
+-   [**SystemConfig \_ 電源**](systemconfig-power.md)
+-   [**SystemConfig \_ 服務**](systemconfig-services.md)
+-   [**SystemConfig \_ 影片**](systemconfig-video.md)
+-   [**SystemConfig \_ V0 \_ CPU**](systemconfig-v0-cpu.md)
+-   [**SystemConfig \_ V0 \_ LogDisk**](systemconfig-v0-logdisk.md)
+-   [**SystemConfig \_ V0 \_ NIC**](systemconfig-v0-nic.md)
+-   [**SystemConfig \_ V0 \_ PhyDisk**](systemconfig-v0-phydisk.md)
+-   [**SystemConfig \_ V0 \_ 電源**](systemconfig-v0-power.md)
+-   [**SystemConfig \_ V0 \_ 服務**](systemconfig-v0-services.md)
+-   [**SystemConfig \_ V0 \_ 影片**](systemconfig-v0-video.md)
+-   [**Tcpip.sys**](tcpip.md)
+-   [**TcpIp \_ 失敗**](tcpip-fail.md)
+-   [**TcpIp \_ SendIPV4**](tcpip-sendipv4.md)
+-   [**TcpIp \_ SendIPV6**](tcpip-sendipv6.md)
+-   [**TcpIp \_ TypeGroup1**](tcpip-typegroup1.md)
+-   [**TcpIp \_ TypeGroup2**](tcpip-typegroup2.md)
+-   [**TcpIp \_ TypeGroup3**](tcpip-typegroup3.md)
+-   [**TcpIp \_ TypeGroup4**](tcpip-typegroup4.md)
+-   [**TcpIp \_ V0**](tcpip-v0.md)
+-   [**TcpIp \_ V0 \_ TypeGroup1**](tcpip-v0-typegroup1.md)
+-   [**TcpIp \_ V1**](tcpip-v1.md)
+-   [**TcpIp \_ V1 \_ TypeGroup1**](tcpip-v1-typegroup1.md)
+-   [**執行緒**](thread.md)
+-   [**執行緒 \_ TypeGroup1**](thread-typegroup1.md)
+-   [**執行緒 \_ V0**](thread-v0.md)
+-   [**執行緒 \_ V0 \_ TypeGroup1**](thread-v0-typegroup1.md)
+-   [**執行緒 \_ V1**](thread-v1.md)
+-   [**執行緒 \_ V1 \_ TypeGroup1**](thread-v1-typegroup1.md)
+-   [**執行緒 \_ V1 \_ TypeGroup2**](thread-v1-typegroup2.md)
+-   [**執行緒 \_ V2**](thread-v2.md)
+-   [**執行緒 \_ V2 \_ TypeGroup1**](thread-v2-typegroup1.md)
+-   [**UdpIp**](udpip.md)
+-   [**UdpIp \_ 失敗**](udpip-fail.md)
+-   [**UdpIp \_ TypeGroup1**](udpip-typegroup1.md)
+-   [**UdpIp \_ TypeGroup2**](udpip-typegroup2.md)
+-   [**UdpIp \_ V0**](udpip-v0.md)
+-   [**UdpIp \_ V0 \_ TypeGroup1**](udpip-v0-typegroup1.md)
+-   [**UdpIp \_ V1**](udpip-v1.md)
+-   [**UdpIp \_ V1 \_ TypeGroup1**](udpip-v1-typegroup1.md)
+
+ 
+
+ 
+
+
+

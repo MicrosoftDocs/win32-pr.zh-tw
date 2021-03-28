@@ -1,0 +1,85 @@
+- name: 動態連結程式庫
+  href: dynamic-link-libraries.md
+  items:
+    - name: 關於 Dynamic-Link 程式庫
+      href: about-dynamic-link-libraries.md
+      items:
+        - name: 動態連結的優點
+          href: advantages-of-dynamic-linking.md
+        - name: Dynamic-Link 程式庫建立
+          href: dynamic-link-library-creation.md
+        - name: Dynamic-Link 程式庫 Entry-Point 函數
+          href: dynamic-link-library-entry-point-function.md
+        - name: Load-Time 動態連結
+          href: load-time-dynamic-linking.md
+        - name: Run-Time 動態連結
+          href: run-time-dynamic-linking.md
+        - name: Dynamic-Link 程式庫搜尋順序
+          href: dynamic-link-library-search-order.md
+        - name: Dynamic-Link 程式庫資料
+          href: dynamic-link-library-data.md
+        - name: Dynamic-Link 程式庫重新導向
+          href: dynamic-link-library-redirection.md
+        - name: Dynamic-Link 程式庫更新
+          href: dynamic-link-library-updates.md
+        - name: Dynamic-Link 程式庫安全性
+          href: dynamic-link-library-security.md
+        - name: 安全開機和 AppInit Dll
+          href: secure-boot-and-appinit-dlls.md
+        - name: Dynamic-Link 程式庫的最佳作法
+          href: dynamic-link-library-best-practices.md
+    - name: 使用 Dynamic-Link 程式庫
+      href: using-dynamic-link-libraries.md
+      items:
+        - name: 建立簡單的 Dynamic-Link 程式庫
+          href: creating-a-simple-dynamic-link-library.md
+        - name: 使用 Load-Time 動態連結
+          href: using-load-time-dynamic-linking.md
+        - name: 使用 Run-Time 動態連結
+          href: using-run-time-dynamic-linking.md
+        - name: 使用 Dynamic-Link 程式庫中的共用記憶體
+          href: using-shared-memory-in-a-dynamic-link-library.md
+        - name: 使用 Dynamic-Link 程式庫中的執行緒區域儲存區
+          href: using-thread-local-storage-in-a-dynamic-link-library.md
+    - name: Dynamic-Link 程式庫參考
+      href: dynamic-link-library-reference.md
+      items:
+        - name: Dynamic-Link 程式庫函數
+          href: dynamic-link-library-functions.md
+          items:
+            - name: AddDllDirectory
+              href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-adddlldirectory
+            - name: DisableThreadLibraryCalls
+              href: /windows/desktop/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls
+            - name: DllMain
+              href: dllmain.md
+            - name: FreeLibrary
+              href: /windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary
+            - name: FreeLibraryAndExitThread
+              href: /windows/desktop/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread
+            - name: GetDllDirectory
+              href: /windows/desktop/api/WinBase/nf-winbase-getdlldirectorya
+            - name: GetModuleFileName
+              href: /windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea
+            - name: GetModuleHandle
+              href: /windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea
+            - name: GetModuleHandleEx
+              href: /windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandleexa
+            - name: GetProcAddress
+              href: /windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress
+            - name: LoadLibrary
+              href: /windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya
+            - name: LoadLibraryEx
+              href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa
+            - name: LoadModule
+              href: /windows/desktop/api/Winbase/nf-winbase-loadmodule
+            - name: '>loadpackagedlibrary'
+              href: /windows/desktop/api/Winbase/nf-winbase-loadpackagedlibrary
+            - name: QueryOptionalDelayLoadedAPI
+              href: /windows/desktop/api/libloaderapi2/nf-libloaderapi2-queryoptionaldelayloadedapi
+            - name: RemoveDllDirectory
+              href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-removedlldirectory
+            - name: SetDefaultDllDirectories
+              href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-setdefaultdlldirectories
+            - name: SetDllDirectory
+              href: /windows/desktop/api/Winbase/nf-winbase-setdlldirectorya
