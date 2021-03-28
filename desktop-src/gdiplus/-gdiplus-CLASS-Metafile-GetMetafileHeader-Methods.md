@@ -1,0 +1,34 @@
+---
+description: 本主題列出中繼檔類別的 GetMetafileHeader 方法。 如需中繼檔類別之方法的完整清單，請參閱中繼檔方法。
+ms.assetid: 8ad423a9-5557-41e6-b634-9d9dfe604b09
+title: GetMetafileHeader 方法
+ms.date: 07/02/2019
+ms.topic: reference
+ms.openlocfilehash: cfef68a421311120a23d5c170dee4d4bf19dd143
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104973013"
+---
+# <a name="metafilegetmetafileheader-methods"></a>GetMetafileHeader 方法
+
+本主題列出 [**中繼檔**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-metafile) 類別的 GetMetafileHeader 方法。 如需 **中繼檔** 類別之方法的完整清單，請參閱 [中繼檔方法](-gdiplus-class-metafile-methods.md)。
+
+### <a name="overload-list"></a>多載清單
+
+
+
+| 方法                                                                                                                                                          | 描述                                                                                                                                                                           |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**GetMetafileHeader (MetafileHeader \*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(outmetafileheader))                                                                | [**中繼檔：： GetMetafileHeader**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(outmetafileheader))方法會取得標頭。<br/>                                                       |
+| [**GetMetafileHeader (WCHAR \* 、MetafileHeader \*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inconstwchar_outmetafileheader))                                               | [**中繼檔：： GetMetafileHeader**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inconstwchar_outmetafileheader))方法會取得標頭。<br/>                                              |
+| [**GetMetafileHeader (IStream \* ，MetafileHeader \*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inistream_outmetafileheader))                                               | [**中繼檔：： GetMetafileHeader**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inistream_outmetafileheader))方法會取得標頭。<br/>                                                |
+| [**GetMetafileHeader (HENHMETAFILE \* 、MetafileHeader \*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inhenhmetafile_outmetafileheader))                                            | [**中繼檔：： GetMetafileHeader**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inhenhmetafile_outmetafileheader))方法會取得標頭。<br/>                                                  |
+| [**GetMetafileHeader (HMETAFILE、WmfPlaceableFileHeader \* 、MetafileHeader \*)**](/previous-versions//ms535278(v=vs.85)) | [**中繼檔：： GetMetafileHeader**](/previous-versions//ms535278(v=vs.85))方法會取得這個中繼檔的中繼檔標頭。<br/> |
+
+
+
+ 
+
+ 
