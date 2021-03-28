@@ -1,0 +1,126 @@
+- name: 監視器組態
+  href: monitor-configuration.md
+  items:
+    - name: 關於監視設定
+      href: about-monitor-configuration.md
+    - name: 使用監視設定
+      href: using-monitor-configuration.md
+      items:
+        - name: 使用 High-Level 監視設定函數
+          href: using-the-high-level-monitor-configuration-functions.md
+        - name: 使用 Low-Level 監視設定函數
+          href: using-the-low-level-monitor-configuration-functions.md
+    - name: 監視設定參考
+      href: monitor-configuration-reference.md
+      items:
+        - name: 監視設定函數
+          href: monitor-configuration-functions.md
+          items:
+            - name: CapabilitiesRequestAndCapabilitiesReply 函式
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-capabilitiesrequestandcapabilitiesreply
+            - name: DDCCIGetCapabilitiesString
+              href: ddccigetcapabilitiesstring.md
+            - name: DDCCIGetCapabilitiesStringLength
+              href: ddccigetcapabilitiesstringlength.md
+            - name: DDCCIGetTimingReport
+              href: ddccigettimingreport.md
+            - name: DDCCIGetVCPFeature
+              href: ddccigetvcpfeature.md
+            - name: DDCCISaveCurrentSettings
+              href: ddccisavecurrentsettings.md
+            - name: DDCCISetVCPFeature
+              href: ddccisetvcpfeature.md
+            - name: DegaussMonitor 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-degaussmonitor
+            - name: DestroyPhysicalMonitor 函式
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-destroyphysicalmonitor
+            - name: DestroyPhysicalMonitorInternal
+              href: destroyphysicalmonitorinternal.md
+            - name: DestroyPhysicalMonitors 函式
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-destroyphysicalmonitors
+            - name: GetCapabilitiesStringLength 函式
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-getcapabilitiesstringlength
+            - name: GetMonitorBrightness 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorbrightness
+            - name: GetMonitorCapabilities 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorcapabilities
+            - name: GetMonitorColorTemperature 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorcolortemperature
+            - name: GetMonitorContrast 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorcontrast
+            - name: GetMonitorDisplayAreaPosition 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitordisplayareaposition
+            - name: GetMonitorDisplayAreaSize 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitordisplayareasize
+            - name: GetMonitorRedGreenOrBlueDrive 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluedrive
+            - name: GetMonitorRedGreenOrBlueGain 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluegain
+            - name: GetMonitorTechnologyType 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitortechnologytype
+            - name: GetNumberOfPhysicalMonitors
+              href: getnumberofphysicalmonitors.md
+            - name: GetNumberOfPhysicalMonitorsFromHMONITOR 函式
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromhmonitor
+            - name: GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 函式
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromidirect3ddevice9
+            - name: GetPhysicalMonitorDescription
+              href: getphysicalmonitordescription.md
+            - name: GetPhysicalMonitors
+              href: getphysicalmonitors.md
+            - name: GetPhysicalMonitorsFromHMONITOR 函式
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor
+            - name: GetPhysicalMonitorsFromIDirect3DDevice9 函式
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9
+            - name: GetTimingReport 函式
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-gettimingreport
+            - name: GetVCPFeatureAndVCPFeatureReply 函式
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-getvcpfeatureandvcpfeaturereply
+            - name: RestoreMonitorFactoryColorDefaults 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-restoremonitorfactorycolordefaults
+            - name: RestoreMonitorFactoryDefaults 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults
+            - name: SaveCurrentMonitorSettings 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-savecurrentmonitorsettings
+            - name: SaveCurrentSettings 函式
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-savecurrentsettings
+            - name: SetMonitorBrightness 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorbrightness
+            - name: SetMonitorColorTemperature 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorcolortemperature
+            - name: SetMonitorContrast 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorcontrast
+            - name: SetMonitorDisplayAreaPosition 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitordisplayareaposition
+            - name: SetMonitorDisplayAreaSize 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitordisplayareasize
+            - name: SetMonitorRedGreenOrBlueDrive 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluedrive
+            - name: SetMonitorRedGreenOrBlueGain 函式
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluegain
+            - name: SetVCPFeature 函式
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-setvcpfeature
+        - name: 監視設定結構
+          href: monitor-configuration-structures.md
+          items:
+            - name: MC_TIMING_REPORT 結構
+              href: /windows/win32/api/LowLevelMonitorConfigurationAPI/ns-lowlevelmonitorconfigurationapi-mc_timing_report
+            - name: PHYSICAL_MONITOR 結構
+              href: /windows/win32/api/PhysicalMonitorEnumerationAPI/ns-physicalmonitorenumerationapi-physical_monitor
+        - name: 監視設定列舉類型
+          href: monitor-configuration-enumeration-types.md
+          items:
+            - name: MC_COLOR_TEMPERATURE 列舉
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_color_temperature
+            - name: MC_DISPLAY_TECHNOLOGY_TYPE 列舉
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_display_technology_type
+            - name: MC_DRIVE_TYPE 列舉
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_drive_type
+            - name: MC_GAIN_TYPE 列舉
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_gain_type
+            - name: MC_POSITION_TYPE 列舉
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_position_type
+            - name: MC_SIZE_TYPE 列舉
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_size_type
+            - name: MC_VCP_CODE_TYPE 列舉
+              href: /windows/win32/api/LowLevelMonitorConfigurationAPI/ne-lowlevelmonitorconfigurationapi-mc_vcp_code_type

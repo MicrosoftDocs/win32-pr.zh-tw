@@ -1,0 +1,119 @@
+- name: 開始使用 Win32 和 C++
+  href: learn-to-program-for-windows.md
+  items:
+    - name: C + + 中的 Win32 程式設計簡介
+      items:
+        - name: 概觀
+          href: introduction-to-windows-programming-in-c--.md
+        - name: 準備您的開發環境
+          href: prepare-your-development-environment.md
+        - name: Windows 編碼慣例
+          href: windows-coding-conventions.md
+        - name: 處理字串
+          href: working-with-strings.md
+        - name: 什麼是視窗？
+          href: what-is-a-window-.md
+        - name: WinMain：應用程式進入點
+          href: winmain--the-application-entry-point.md
+    - name: 模組1。 您的第一個 Windows 程式
+      items:
+        - name: 概觀
+          href: your-first-windows-program.md
+        - name: 建立視窗
+          href: creating-a-window.md
+        - name: 視窗訊息
+          href: window-messages.md
+        - name: 撰寫視窗程式
+          href: writing-the-window-procedure.md
+        - name: 繪製視窗
+          href: painting-the-window.md
+        - name: 關閉視窗
+          href: closing-the-window.md
+        - name: 管理應用程式狀態
+          href: managing-application-state-.md
+    - name: 模組2。 在您的 Windows 程式中使用 COM
+      items:
+        - name: 概觀
+          href: module-2--using-com-in-your-windows-program.md
+        - name: 什麼是 COM 介面？
+          href: what-is-a-com-interface-.md
+        - name: 初始化 COM 程式庫
+          href: initializing-the-com-library.md
+        - name: COM 中的錯誤碼
+          href: error-codes-in-com.md
+        - name: 在 COM 中建立物件
+          href: creating-an-object-in-com.md
+        - name: 範例：開啟對話方塊
+          href: example--the-open-dialog-box.md
+        - name: 管理物件的存留期
+          href: managing-the-lifetime-of-an-object.md
+        - name: 要求物件提供介面
+          href: asking-an-object-for-an-interface.md
+        - name: COM 中的記憶體配置
+          href: memory-allocation-in-com.md
+        - name: COM 編碼作法
+          href: com-coding-practices.md
+        - name: COM 中的錯誤處理
+          href: error-handling-in-com.md
+    - name: 模組3。 Windows 圖形
+      items:
+        - name: 概觀
+          href: module-3---windows-graphics.md
+        - name: Windows 圖形架構總覽
+          href: overview-of-the-windows-graphics-architecture.md
+        - name: 桌面視窗管理員
+          href: the-desktop-window-manager.md
+        - name: 保留模式與立即模式
+          href: retained-mode-versus-immediate-mode.md
+        - name: 您的第一個 Direct2D 計畫
+          href: your-first-direct2d-program.md
+        - name: 呈現目標、裝置和資源
+          href: render-targets--devices--and-resources.md
+        - name: 使用 Direct2D 繪製
+          href: drawing-with-direct2d.md
+        - name: DPI 和 Device-Independent 圖元
+          href: dpi-and-device-independent-pixels.md
+        - name: 在 Direct2D 中使用色彩
+          href: using-color-in-direct2d.md
+        - name: 在 Direct2D 中套用轉換
+          href: applying-transforms-in-direct2d.md
+        - name: 附錄：矩陣轉換
+          href: appendix--matrix-transforms.md
+    - name: 模組4： 使用者輸入
+      items:
+        - name: 概觀
+          href: module-4--user-input.md
+        - name: 滑鼠輸入
+          href: mouse-input.md
+        - name: 回應滑鼠點擊
+          href: mouse-clicks.md
+        - name: 滑鼠移動
+          href: mouse-movement.md
+        - name: 其他滑鼠操作
+          href: other-mouse-operations.md
+        - name: 鍵盤輸入
+          href: keyboard-input.md
+        - name: 快速鍵對應表
+          href: accelerator-tables.md
+        - name: 設定游標影像
+          href: setting-the-cursor-image.md
+        - name: 使用者輸入：擴充的範例
+          href: user-input--extended-example.md
+    - name: 使用 Win32 的開始：範例程式碼
+      items:
+        - name: 概觀
+          href: learn-to-program-for-windows--sample-code.md
+        - name: Windows Hello World 範例
+          href: windows-hello-world-sample.md
+        - name: BaseWindow 範例
+          href: basewindow-sample.md
+        - name: 開啟對話方塊範例
+          href: open-dialog-box-sample.md
+        - name: Direct2D 圓形範例
+          href: direct2d-circle-sample.md
+        - name: Direct2D 時鐘範例
+          href: direct2d-clock-sample.md
+        - name: 繪製圓形範例
+          href: draw-circle-sample.md
+        - name: 簡單繪圖範例
+          href: simple-drawing-sample.md
