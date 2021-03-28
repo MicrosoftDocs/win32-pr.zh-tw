@@ -1,0 +1,60 @@
+- name: 系統關閉
+  href: system-shutdown.md
+  items:
+    - name: Windows Vista 的關機變更
+      href: shutdown-changes-for-windows-vista.md
+    - name: 關於系統關機
+      href: about-system-shutdown.md
+      items:
+        - name: 登出
+          href: logging-off.md
+        - name: 關閉
+          href: shutting-down.md
+        - name: 關機事件追蹤器
+          href: shutdown-event-tracker.md
+    - name: 使用系統關機
+      href: using-system-shutdown.md
+      items:
+        - name: 如何關機系統
+          href: how-to-shut-down-the-system.md
+        - name: 如何登出目前的使用者
+          href: how-to-log-off-the-current-user.md
+        - name: 如何鎖定工作站
+          href: how-to-lock-the-workstation.md
+        - name: 顯示關機對話方塊
+          href: displaying-the-shutdown-dialog-box.md
+    - name: 系統關機參考
+      href: system-shutdown-reference.md
+      items:
+        - name: 系統關機功能
+          href: system-shutdown-functions.md
+          items:
+            - name: AbortSystemShutdown
+              href: /windows/desktop/api/Winreg/nf-winreg-abortsystemshutdowna
+            - name: ExitWindows
+              href: /windows/desktop/api/Winuser/nf-winuser-exitwindows
+            - name: ExitWindowsEx
+              href: /windows/desktop/api/Winuser/nf-winuser-exitwindowsex
+            - name: InitiateShutdown
+              href: /windows/desktop/api/Winreg/nf-winreg-initiateshutdowna
+            - name: InitiateSystemShutdown
+              href: /windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna
+            - name: InitiateSystemShutdownEx
+              href: /windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdownexa
+            - name: '>lockworkstation'
+              href: /windows/desktop/api/Winuser/nf-winuser-lockworkstation
+            - name: ShutdownBlockReasonCreate
+              href: /windows/desktop/api/Winuser/nf-winuser-shutdownblockreasoncreate
+            - name: ShutdownBlockReasonDestroy
+              href: /windows/desktop/api/Winuser/nf-winuser-shutdownblockreasondestroy
+            - name: ShutdownBlockReasonQuery
+              href: /windows/desktop/api/Winuser/nf-winuser-shutdownblockreasonquery
+        - name: 系統關機訊息
+          href: system-shutdown-messages.md
+          items:
+            - name: WM_ENDSESSION
+              href: wm-endsession.md
+            - name: WM_QUERYENDSESSION
+              href: wm-queryendsession.md
+        - name: 系統關機原因代碼
+          href: system-shutdown-reason-codes.md
