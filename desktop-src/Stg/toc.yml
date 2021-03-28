@@ -1,0 +1,624 @@
+- name: 結構化儲存體
+  href: structured-storage-start-page.md
+  items:
+    - name: 關於結構化儲存體
+      href: about-structured-storage.md
+      items:
+        - name: 結構化儲存體的優點
+          href: benefits-of-structured-storage.md
+          items:
+            - name: 檔案系統的演進
+              href: the-evolution-of-file-systems.md
+            - name: 儲存體和資料流程
+              href: storages-and-streams.md
+            - name: 複合檔案
+              href: compound-files.md
+        - name: 結構化儲存基礎
+          href: structured-storage-fundamentals.md
+          items:
+            - name: COM 物件和結構化儲存體
+              href: com-objects-and-structured-storage.md
+            - name: 儲存體物件命名慣例
+              href: storage-object-naming-conventions.md
+            - name: 結構化儲存介面
+              href: structured-storage-interfaces.md
+            - name: 結構化儲存體 API 函數
+              href: structured-storage-api-functions.md
+              items:
+                - name: 結構化儲存體存取模式
+                  href: structured-storage-access-modes.md
+                  items:
+                    - name: 交易旗標
+                      href: transaction-flags.md
+                    - name: 儲存體建立旗標
+                      href: storage-creation-flags.md
+                    - name: 暫時建立旗標
+                      href: temporary-creation-flags.md
+                    - name: 優先權旗標
+                      href: priority-flags.md
+                    - name: 存取權限旗標
+                      href: access-permission-flags.md
+                    - name: 共用存取旗標
+                      href: shared-access-flags.md
+            - name: 屬性和屬性集
+              href: properties-and-property-sets.md
+              items:
+                - name: 摘要資訊屬性集
+                  href: the-summary-information-property-set.md
+                - name: 預先定義的屬性集格式識別碼
+                  href: predefined-property-set-format-identifiers.md
+                - name: DocumentSummaryInformation 和使用者設定的屬性集
+                  href: the-documentsummaryinformation-and-userdefined-property-sets.md
+            - name: 結構化儲存體序列化屬性集格式
+              href: structured-storage-serialized-property-set-format.md
+              items:
+                - name: 屬性集標頭
+                  href: property-set-header.md
+                  items:
+                    - name: Byte-Order 指標
+                      href: byte-order-indicator.md
+                    - name: 格式版本
+                      href: format-version.md
+                    - name: 作業系統版本
+                      href: operating-system-versions.md
+                    - name: 類別識別碼
+                      href: class-identifier.md
+                    - name: 保留
+                      href: reserved.md
+                - name: 格式識別碼/位移組
+                  href: format-identifier-offset-pair.md
+                  items:
+                    - name: 格式識別碼
+                      href: format-identifiers.md
+                    - name: 配置格式識別碼
+                      href: allocating-format-identifiers.md
+                - name: 區段
+                  href: section.md
+                  items:
+                    - name: 區段的大小
+                      href: size-of-section.md
+                    - name: 屬性計數
+                      href: count-of-properties.md
+                    - name: 屬性識別碼/位移組
+                      href: property-identifiers-offset-pairs.md
+                    - name: 類型指標
+                      href: type-indicators.md
+                - name: 保留的屬性識別碼
+                  href: reserved-property-identifiers.md
+                  items:
+                    - name: 屬性集顯示名稱字典
+                      href: property-set-display-name-dictionary.md
+        - name: 非同步存放裝置
+          href: asynchronous-storage.md
+          items:
+            - name: 儲存模式
+              href: storage-modes.md
+            - name: 非同步複合檔案
+              href: asynchronous-compound-files.md
+            - name: 非同步綁定和儲存的運作方式
+              href: how-asynchronous-binding-and-storage-work.md
+            - name: 複合檔案優化
+              href: compound-file-optimization.md
+    - name: 使用結構化儲存體
+      href: using-structured-storage.md
+      items:
+        - name: 如何建立範例
+          href: how-to-build-samples.md
+          items:
+            - name: 環境設定
+              href: environment-setup.md
+            - name: 生成
+              href: makefiles.md
+            - name: 使用 Visual Studio
+              href: using-visual-studio.md
+            - name: 解壓縮程式代碼範例
+              href: extracting-the-code-samples.md
+            - name: 編碼樣式慣例
+              href: coding-style-conventions.md
+        - name: 結構化儲存體範例
+          href: structured-storage-samples.md
+          items:
+            - name: '結構化儲存體用戶端範例 (StoClien) '
+              href: structured-storage-client-sample--stoclien-.md
+              items:
+                - name: StoClien 總覽
+                  href: stoclien-overview.md
+                  items:
+                    - name: StoClien 作業
+                      href: stoclien-operations.md
+                - name: 建立並執行 StoClien 範例
+                  href: create-and-run-stoclien-sample.md
+                  items:
+                    - name: CGuiPaper 類別宣告
+                      href: cguipaper-class-declaration.md
+                    - name: CGuiPaper 方法
+                      href: cguipaper-methods.md
+                      items:
+                        - name: InkStart 方法
+                          href: inkstart-method.md
+                        - name: InkDraw 方法
+                          href: inkdraw-method.md
+                        - name: PaintWin 方法
+                          href: paintwin-method.md
+                    - name: CMainWindow
+                      href: cmainwindow.md
+                    - name: CPapFile 類別和方法
+                      href: cpapfile-class-and-methods.md
+                      items:
+                        - name: Init 方法-CPapFile
+                          href: init-method---cpapfile.md
+                        - name: 儲存方法-CPapFile
+                          href: save-method---cpapfile.md
+                        - name: Load 方法-CPapFile
+                          href: load-method---cpapfile.md
+            - name: '結構化儲存體伺服器範例 (StoServe) '
+              href: structured-storage-server-sample--stoserve-.md
+              items:
+                - name: StoServe 總覽
+                  href: stoserve-overview.md
+                - name: 使用 StoServe
+                  href: using-stoserve.md
+                - name: 建立並執行 StoServe 範例
+                  href: create-and-run-stoserve-sample.md
+                  items:
+                    - name: IPaper 方法
+                      href: ipaper-methods.md
+                      items:
+                        - name: IPaper：： Load
+                          href: ipaper--load.md
+                        - name: IPaper：：重繪
+                          href: ipaper--redraw.md
+                        - name: IPaper：： Save
+                          href: ipaper--save.md
+                    - name: IPaperSink 方法
+                      href: ipapersink-methods.md
+                    - name: 結構-StoServe
+                      href: structures---stoserve.md
+                    - name: Unicode 考慮
+                      href: unicode-considerations.md
+        - name: 管理屬性
+          href: managing-properties.md
+          items:
+            - name: 屬性儲存體考慮
+              href: property-storage-considerations.md
+        - name: 管理屬性集
+          href: managing-property-sets.md
+          items:
+            - name: COM 中的屬性集執行
+              href: property-set-implementations-in-com.md
+              items:
+                - name: 屬性集考慮
+                  href: property-set-considerations.md
+                  items:
+                    - name: IPropertySetStorage 實行考慮
+                      href: ipropertysetstorage-implementation-considerations.md
+                      items:
+                        - name: IStorage 中的名稱
+                          href: names-in-istorage.md
+                        - name: 屬性集的儲存和資料流程物件
+                          href: storage-vs--stream-for-a-property-set.md
+                        - name: 設定屬性集類別識別碼
+                          href: setting-the-property-set-class-identifier.md
+                        - name: 同步處理點
+                          href: synchronization-points.md
+                        - name: 字碼頁和 Unicode 字串
+                          href: code-pages-and-unicode-strings.md
+                        - name: Dictionary
+                          href: dictionary.md
+                        - name: 延伸模組
+                          href: extensions.md
+                        - name: 屬性集序列化
+                          href: version-0-vs--version-1-property-set-serialization.md
+                - name: 儲存屬性集
+                  href: storing-property-sets.md
+                - name: 效能特色
+                  href: performance-characteristics.md
+                - name: 執行摘要資訊屬性集
+                  href: implementing-the-summary-information-property-set.md
+    - name: 結構化儲存體參考
+      href: structured-storage-reference.md
+      items:
+        - name: 介面
+          href: interfaces.md
+          items:
+            - name: IDirectWriterLock
+              href: /windows/desktop/api/Objidl/nn-objidl-idirectwriterlock
+              items:
+                - name: HaveWriteAccess
+                  href: /windows/desktop/api/Objidl/nf-objidl-idirectwriterlock-havewriteaccess
+                - name: ReleaseWriteAccess
+                  href: /windows/desktop/api/Objidl/nf-objidl-idirectwriterlock-releasewriteaccess
+                - name: WaitForWriteAccess
+                  href: /windows/desktop/api/Objidl/nf-objidl-idirectwriterlock-waitforwriteaccess
+                - name: IDirectWriterLock-複合檔案執行
+                  href: idirectwriterlock-compound-file-implementation.md
+            - name: IEnumSTATPROPSETSTG
+              href: /windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg
+              items:
+                - name: 複製
+                  href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-clone
+                - name: 下一個
+                  href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-next
+                - name: RemoteNext
+                  href: /previous-versions/windows/desktop/legacy/aa379206(v=vs.85)
+                - name: 重設
+                  href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-reset
+                - name: 跳過
+                  href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-skip
+                - name: IEnumSTATPROPSETSTG-複合檔案執行
+                  href: ienumstatpropsetstg-compound-file-implementation.md
+            - name: IEnumSTATPROPSTG
+              href: /windows/desktop/api/propidl/nn-propidl-ienumstatpropstg
+              items:
+                - name: 複製
+                  href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-clone
+                - name: 下一個
+                  href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next
+                - name: RemoteNext
+                  href: /previous-versions/windows/desktop/legacy/aa379214(v=vs.85)
+                - name: 重設
+                  href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset
+                - name: 跳過
+                  href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip
+                - name: IEnumSTATPROPSTG-複合檔案執行
+                  href: ienumstatpropstg-compound-file-implementation.md
+            - name: IEnumSTATSTG
+              href: /windows/desktop/api/Objidl/nn-objidl-ienumstatstg
+              items:
+                - name: 複製
+                  href: /windows/desktop/api/Objidl/nf-objidl-ienumstatstg-clone
+                - name: 下一個
+                  href: /windows/desktop/api/Objidl/nf-objidl-ienumstatstg-next
+                - name: RemoteNext
+                  href: /previous-versions/windows/desktop/legacy/aa379220(v=vs.85)
+                - name: 重設
+                  href: /windows/desktop/api/Objidl/nf-objidl-ienumstatstg-reset
+                - name: 跳過
+                  href: /windows/desktop/api/Objidl/nf-objidl-ienumstatstg-skip
+            - name: IFillLockBytes
+              href: /windows/desktop/api/Objidl/nn-objidl-ifilllockbytes
+              items:
+                - name: FillAppend
+                  href: /windows/desktop/api/Objidl/nf-objidl-ifilllockbytes-fillappend
+                - name: FillAt
+                  href: /windows/desktop/api/Objidl/nf-objidl-ifilllockbytes-fillat
+                - name: RemoteFillAppend
+                  href: /previous-versions/windows/desktop/legacy/aa379228(v=vs.85)
+                - name: RemoteFillAt
+                  href: /previous-versions/windows/desktop/legacy/aa379229(v=vs.85)
+                - name: SetFillSize
+                  href: /windows/desktop/api/Objidl/nf-objidl-ifilllockbytes-setfillsize
+                - name: Terminate
+                  href: /windows/desktop/api/Objidl/nf-objidl-ifilllockbytes-terminate
+                - name: IFillLockBytes-實
+                  href: ifilllockbytes-implementation.md
+            - name: ILayoutStorage
+              href: /windows/desktop/api/Objidl/nn-objidl-ilayoutstorage
+              items:
+                - name: BeginMonitor
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilayoutstorage-beginmonitor
+                - name: EndMonitor
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilayoutstorage-endmonitor
+                - name: LayoutScript
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilayoutstorage-layoutscript
+                - name: ReLayoutDocfile
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilayoutstorage-relayoutdocfile
+                - name: ReLayoutDocfileOnILockBytes
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilayoutstorage-relayoutdocfileonilockbytes
+            - name: ILockBytes
+              href: /windows/desktop/api/Objidl/nn-objidl-ilockbytes
+              items:
+                - name: 清除
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilockbytes-flush
+                - name: LockRegion
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilockbytes-lockregion
+                - name: ReadAt
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilockbytes-readat
+                - name: RemoteReadAt
+                  href: /previous-versions/windows/desktop/legacy/aa379245(v=vs.85)
+                - name: RemoteWriteAt
+                  href: /previous-versions/windows/desktop/legacy/aa379246(v=vs.85)
+                - name: SetSize
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilockbytes-setsize
+                - name: 統計
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilockbytes-stat
+                - name: UnlockRegion
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilockbytes-unlockregion
+                - name: WriteAt
+                  href: /windows/desktop/api/Objidl/nf-objidl-ilockbytes-writeat
+                - name: ILockBytes-File-Based 執行
+                  href: ilockbytes-file-based-implementation.md
+                - name: ILockBytes-全域記憶體執行
+                  href: ilockbytes-global-memory-implementation.md
+            - name: IMemoryAllocator
+              href: imemoryallocator.md
+              items:
+                - name: 分配
+                  href: imemoryallocator-allocate.md
+                - name: 免費
+                  href: imemoryallocator-free.md
+            - name: IPropertySetStorage
+              href: /windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage
+              items:
+                - name: 建立
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create
+                - name: 刪除
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-delete
+                - name: 列舉
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-enum
+                - name: 開啟
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open
+                - name: IPropertySetStorage-Compound 檔案的執行
+                  href: ipropertysetstorage-compound-file-implementation.md
+                - name: IPropertySetStorage-NTFS 檔案系統執行
+                  href: ipropertysetstorage-ntfs-file-system-implementation.md
+                - name: IPropertySetStorage-獨立執行
+                  href: ipropertysetstorage-stand-alone-implementation.md
+            - name: IPropertyStorage
+              href: /windows/desktop/api/Propidl/nn-propidl-ipropertystorage
+              items:
+                - name: Commit
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-commit
+                - name: DeleteMultiple
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-deletemultiple
+                - name: DeletePropertyNames
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-deletepropertynames
+                - name: 列舉
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum
+                - name: ReadMultiple
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple
+                - name: ReadPropertyNames
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readpropertynames
+                - name: RemoteDeleteMultiple
+                  href: /previous-versions/windows/desktop/legacy/aa379977(v=vs.85)
+                - name: RemoteReadMultiple
+                  href: /previous-versions/windows/desktop/legacy/aa379978(v=vs.85)
+                - name: RemoteWriteMultiple
+                  href: /previous-versions/windows/desktop/legacy/aa379979(v=vs.85)
+                - name: Revert
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-revert
+                - name: SetClass
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-setclass
+                - name: SetTimes
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-settimes
+                - name: 統計
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-stat
+                - name: WriteMultiple
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple
+                - name: WritePropertyNames
+                  href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writepropertynames
+                - name: IPropertyStorage-複合檔案執行
+                  href: ipropertystorage-compound-file-implementation.md
+                - name: IPropertyStorage-NTFS 檔案系統執行
+                  href: ipropertystorage-ntfs-file-system-implementation.md
+                - name: IPropertyStorage-獨立執行
+                  href: ipropertystorage-stand-alone-implementation.md
+                - name: 獨立和複合檔案案執行之間的差異
+                  href: differences-between-stand-alone-and-compound-file-implementations.md
+            - name: IRootStorage
+              href: /windows/desktop/api/Objidl/nn-objidl-irootstorage
+              items:
+                - name: SwitchToFile
+                  href: /windows/desktop/api/Objidl/nf-objidl-irootstorage-switchtofile
+                - name: IRootStorage-複合檔案執行
+                  href: irootstorage-compound-file-implementation.md
+            - name: ISequentialStream
+              href: /windows/desktop/api/Objidl/nn-objidl-isequentialstream
+              items:
+                - name: 讀取
+                  href: /windows/desktop/api/Objidl/nf-objidl-isequentialstream-read
+                - name: RemoteRead
+                  href: /previous-versions/windows/desktop/legacy/aa380012(v=vs.85)
+                - name: RemoteWrite
+                  href: /previous-versions/windows/desktop/legacy/aa380013(v=vs.85)
+                - name: 寫入
+                  href: /windows/desktop/api/Objidl/nf-objidl-isequentialstream-write
+            - name: IStorage
+              href: /windows/desktop/api/Objidl/nn-objidl-istorage
+              items:
+                - name: Commit
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-commit
+                - name: CopyTo
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-copyto
+                - name: CreateStorage
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-createstorage
+                - name: CreateStream
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-createstream
+                - name: DestroyElement
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-destroyelement
+                - name: EnumElements
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-enumelements
+                - name: MoveElementTo
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-moveelementto
+                - name: OpenStorage
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-openstorage
+                - name: OpenStream
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-openstream
+                - name: RemoteEnumElements
+                  href: /previous-versions/windows/desktop/legacy/aa380026(v=vs.85)
+                - name: RemoteOpenStream
+                  href: /previous-versions/windows/desktop/legacy/aa380027(v=vs.85)
+                - name: RenameElement
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-renameelement
+                - name: Revert
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-revert
+                - name: SetClass
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-setclass
+                - name: SetElementTimes
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-setelementtimes
+                - name: SetStateBits
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-setstatebits
+                - name: 統計
+                  href: /windows/desktop/api/Objidl/nf-objidl-istorage-stat
+                - name: IStorage-複合檔案執行
+                  href: istorage-compound-file-implementation.md
+            - name: IStream
+              href: /windows/desktop/api/Objidl/nn-objidl-istream
+              items:
+                - name: 複製
+                  href: /windows/desktop/api/Objidl/nf-objidl-istream-clone
+                - name: Commit
+                  href: /windows/desktop/api/Objidl/nf-objidl-istream-commit
+                - name: CopyTo
+                  href: /windows/desktop/api/Objidl/nf-objidl-istream-copyto
+                - name: LockRegion
+                  href: /windows/desktop/api/Objidl/nf-objidl-istream-lockregion
+                - name: RemoteCopyTo
+                  href: /previous-versions/windows/desktop/legacy/aa380040(v=vs.85)
+                - name: RemoteSeek
+                  href: /previous-versions/windows/desktop/legacy/aa380041(v=vs.85)
+                - name: Revert
+                  href: /windows/desktop/api/Objidl/nf-objidl-istream-revert
+                - name: Seek
+                  href: /windows/desktop/api/Objidl/nf-objidl-istream-seek
+                - name: SetSize
+                  href: /windows/desktop/api/Objidl/nf-objidl-istream-setsize
+                - name: 統計
+                  href: /windows/desktop/api/Objidl/nf-objidl-istream-stat
+                - name: UnlockRegion
+                  href: /windows/desktop/api/Objidl/nf-objidl-istream-unlockregion
+                - name: IStream 複合檔案執行
+                  href: istream-compound-file-implementation.md
+        - name: 函式
+          href: functions.md
+          items:
+            - name: CreateILockBytesOnHGlobal
+              href: /windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal
+            - name: CreateStreamOnHGlobal
+              href: /windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal
+            - name: FmtIdToPropStgName
+              href: /windows/desktop/api/coml2api/nf-coml2api-fmtidtopropstgname
+            - name: FreePropVariantArray
+              href: /windows/desktop/api/propidl/nf-propidl-freepropvariantarray
+            - name: GetConvertStg
+              href: /windows/desktop/api/coml2api/nf-coml2api-getconvertstg
+            - name: GetHGlobalFromILockBytes
+              href: /windows/desktop/api/coml2api/nf-coml2api-gethglobalfromilockbytes
+            - name: GetHGlobalFromStream
+              href: /windows/desktop/api/combaseapi/nf-combaseapi-gethglobalfromstream
+            - name: OleConvertIStorageToOLESTREAM
+              href: /windows/desktop/api/Ole2/nf-ole2-oleconvertistoragetoolestream
+            - name: OleConvertIStorageToOLESTREAMEx
+              href: /windows/desktop/api/Ole2/nf-ole2-oleconvertistoragetoolestreamex
+            - name: OleConvertOLESTREAMToIStorage
+              href: /windows/desktop/api/Ole2/nf-ole2-oleconvertolestreamtoistorage
+            - name: OleConvertOLESTREAMToIStorageEx
+              href: /windows/desktop/api/Ole2/nf-ole2-oleconvertolestreamtoistorageex
+            - name: PropStgNameToFmtId
+              href: /windows/desktop/api/coml2api/nf-coml2api-propstgnametofmtid
+            - name: PropVariantClear
+              href: /windows/desktop/api/propidl/nf-propidl-propvariantclear
+            - name: PropVariantCopy
+              href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+            - name: PropVariantInit
+              href: /windows/desktop/api/PropIdl/nf-propidl-propvariantinit
+            - name: ReadClassStg
+              href: /windows/desktop/api/coml2api/nf-coml2api-readclassstg
+            - name: ReadClassStm
+              href: /windows/desktop/api/coml2api/nf-coml2api-readclassstm
+            - name: ReadFmtUserTypeStg
+              href: /windows/desktop/api/Ole2/nf-ole2-readfmtusertypestg
+            - name: StgConvertPropertyToVariant
+              href: /windows/desktop/api/Propidl/nf-propidl-stgconvertpropertytovariant
+            - name: SetConvertStg
+              href: /windows/desktop/api/Ole2/nf-ole2-setconvertstg
+            - name: StgConvertVariantToProperty
+              href: /windows/desktop/api/Propidl/nf-propidl-stgconvertvarianttoproperty
+            - name: StgCreateDocfile
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile
+            - name: StgCreateDocfileOnILockBytes
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfileonilockbytes
+            - name: StgCreatePropSetStg
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgcreatepropsetstg
+            - name: StgCreatePropStg
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgcreatepropstg
+            - name: StgCreateStorageEx
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex
+            - name: StgDeserializePropVariant
+              href: /windows/desktop/api/Propvarutil/nf-propvarutil-stgdeserializepropvariant
+            - name: StgGetIFillLockBytesOnFile
+              href: /windows/desktop/api/Objbase/nf-objbase-stggetifilllockbytesonfile
+            - name: StgGetIFillLockBytesOnILockBytes
+              href: /windows/desktop/api/Objbase/nf-objbase-stggetifilllockbytesonilockbytes
+            - name: StgIsStorageFile
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgisstoragefile
+            - name: StgIsStorageILockBytes
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgisstorageilockbytes
+            - name: StgOpenAsyncDocfileOnIFillLockBytes
+              href: /windows/desktop/api/Objbase/nf-objbase-stgopenasyncdocfileonifilllockbytes
+            - name: StgOpenLayoutDocfile
+              href: /windows/desktop/api/Objbase/nf-objbase-stgopenlayoutdocfile
+            - name: StgOpenPropStg
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgopenpropstg
+            - name: StgOpenStorage
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgopenstorage
+            - name: StgOpenStorageEx
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex
+            - name: StgOpenStorageOnILockBytes
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgopenstorageonilockbytes
+            - name: StgPropertyLengthAsVariant
+              href: /windows/desktop/api/Propapi/nf-propapi-stgpropertylengthasvariant
+            - name: StgSetTimes
+              href: /windows/desktop/api/coml2api/nf-coml2api-stgsettimes
+            - name: StgSerializePropVariant
+              href: /windows/desktop/api/Propvarutil/nf-propvarutil-stgserializepropvariant
+            - name: WriteClassStg
+              href: /windows/desktop/api/coml2api/nf-coml2api-writeclassstg
+            - name: WriteClassStm
+              href: /windows/desktop/api/coml2api/nf-coml2api-writeclassstm
+            - name: WriteFmtUserTypeStg
+              href: /windows/desktop/api/Ole2/nf-ole2-writefmtusertypestg
+        - name: 結構
+          href: structures.md
+          items:
+            - name: PROPSPEC
+              href: /windows/win32/api/propidl/ns-propidl-propspec
+            - name: PROPVARIANT
+              href: /windows/win32/api/propidl/ns-propidl-propvariant
+            - name: RemSNB
+              href: /windows/win32/api/Objidl/ns-objidl-remsnb
+            - name: 瑞士 央行
+              href: snb.md
+            - name: STATPROPSETSTG
+              href: /windows/win32/api/propidl/ns-propidl-statpropsetstg
+            - name: STATPROPSTG
+              href: /windows/win32/api/propidl/ns-propidl-statpropstg
+            - name: STATSTG
+              href: /windows/win32/api/Objidl/ns-objidl-statstg
+            - name: STGOPTIONS
+              href: /windows/win32/api/coml2api/ns-coml2api-stgoptions
+            - name: StorageLayout
+              href: /windows/win32/api/Objidl/ns-objidl-storagelayout
+        - name: 列舉
+          href: enumerations.md
+          items:
+            - name: LOCKTYPE
+              href: /windows/win32/api/Objidl/ne-objidl-locktype
+            - name: STATFLAG
+              href: /windows/win32/api/WTypes/ne-wtypes-statflag
+            - name: STGC
+              href: /windows/win32/api/WTypes/ne-wtypes-stgc
+            - name: STGFMT
+              href: /previous-versions/windows/desktop/legacy/aa380330(v=vs.85)
+            - name: STGMOVE
+              href: /windows/win32/api/WTypes/ne-wtypes-stgmove
+            - name: STGTY
+              href: /windows/win32/api/Objidl/ne-objidl-stgty
+            - name: STREAM_SEEK
+              href: /windows/win32/api/Objidl/ne-objidl-stream_seek
+        - name: 常數
+          href: constants.md
+          items:
+            - name: PROPSETFLAG 常數
+              href: propsetflag-constants.md
+            - name: STGM 常數
+              href: stgm-constants.md
+        - name: 範例
+          href: samples.md
+          items:
+            - name: WriteRead 範例
+              href: writeread-sample.md
+            - name: EnumAll 範例
+              href: enumall-sample.md
+            - name: StgCreatePropSetStg 範例
+              href: stgcreatepropsetstg-sample.md

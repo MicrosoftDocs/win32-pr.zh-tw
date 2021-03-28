@@ -1,0 +1,38 @@
+- name: Teredo
+  href: portal.md
+  items:
+    - name: 關於 Teredo
+      href: about-teredo.md
+      items:
+        - name: Teredo 元件
+          href: teredo-components.md
+        - name: Teredo 位址
+          href: teredo-addresses.md
+        - name: IPv6 連線能力與 Teredo
+          href: ipv6-connectivity-and-teredo.md
+        - name: Teredo 的名稱解析
+          href: name-resolution-for-teredo.md
+        - name: Teredo 安全性模型
+          href: the-teredo-security-model.md
+    - name: 使用 Teredo
+      href: using-teredo.md
+      items:
+        - name: 執行 Teredo
+          href: implementing-teredo.md
+        - name: 執行 Teredo 安全性模型
+          href: implementing-the-teredo-security-model.md
+          items:
+            - name: 執行 Teredo 的防火牆篩選器
+              href: implementing-firewall-filters-for-teredo.md
+            - name: Teredo 的必要防火牆例外
+              href: required-firewall-exceptions-for-teredo.md
+            - name: Teredo 的 Windows 篩選平台例外狀況
+              href: required-windows-filtering-platform-exceptions-for-teredo.md
+        - name: 透過 Teredo 接收請求的流量
+          href: receiving-solicited-traffic-over-teredo.md
+        - name: 透過 Teredo 接收未經要求的流量
+          href: receiving-unsolicited-traffic-over-teredo.md
+        - name: 使用 Teredo 搭配 IP Helper
+          href: using-teredo-with-ip-helper.md
+        - name: 在 Windows XP 中使用 Teredo
+          href: using-teredo-in-windows-xp.md
