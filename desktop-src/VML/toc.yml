@@ -1,0 +1,752 @@
+- name: 'Vector Markup Language (VML) '
+  href: web-workshop---specs---standards----introduction-to-vector-markup-language--vml-.md
+  items:
+    - name: VML 簡介
+      href: msdn-online-vml-introduction.md
+      items:
+        - name: 基本的 VML 類型
+          href: basic-vml-types.md
+        - name: 關於 VML 的常見問題
+          href: frequently-asked-questions-about-vml.md
+        - name: 附錄
+          href: web-workshop---how-to-use-vml-on-web-pages----appendix.md
+    - name: 如何在 Web 網頁上使用 VML
+      href: web-workshop---specs---standards----how-to-use-vml-on-web-pages.md
+      items:
+        - name: 繪製基本圖形
+          href: web-workshop---how-to-use-vml-on-web-pages----drawing-basic-shapes.md
+        - name: 使用預先定義的圖形
+          href: web-workshop---how-to-use-vml-on-web-pages----using-predefined-shapes.md
+        - name: 著色圖形
+          href: web-workshop---how-to-use-vml-on-web-pages----coloring-shapes.md
+        - name: 調整形狀
+          href: web-workshop---how-to-use-vml-on-web-pages----scaling-shapes.md
+        - name: 定點陣圖形
+          href: web-workshop---how-to-use-vml-on-web-pages----positioning-shapes.md
+        - name: 將圖形分組
+          href: web-workshop---how-to-use-vml-on-web-pages----grouping-shapes.md
+        - name: 使用 Shapetype 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----shapetype--element.md
+        - name: 使用 Stroke 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----stroke--element.md
+        - name: 使用 Fill 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----fill--element.md
+        - name: 使用 Image 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----image--element.md
+        - name: 使用 Background 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----background--element.md
+        - name: 使用 Shadow 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----shadow--element.md
+        - name: 使用 Path 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----path--element.md
+        - name: 使用 Textbox 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----textbox--element.md
+        - name: 使用本機座標空間
+          href: web-workshop---how-to-use-vml-on-web-pages----local-coordinate-space.md
+        - name: 使用公式元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----formulas--element.md
+        - name: 使用 Handles 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----handles--element.md
+        - name: 使用 Textpath 元素
+          href: web-workshop---how-to-use-vml-on-web-pages-----textpath--element.md
+    - name: VML 物件模型參考
+      href: msdn-online-vector-markup-language-object-model-reference.md
+      items:
+        - name: Shape 元素
+          href: shape-element--vml.md
+          items:
+            - name: 屬性
+              href: attributes.md
+              items:
+                - name: 形容詞
+                  href: adj-attribute.md
+                - name: AllowInCell
+                  href: allowincell-attribute.md
+                - name: AllowOverlap
+                  href: msdn-online-vml-allowoverlap-attribute.md
+                - name: Alt
+                  href: msdn-online-vml-alt-attribute.md
+                - name: BorderBottomColor
+                  href: msdn-online-vml-borderbottomcolor-attribute.md
+                - name: BorderLeftColor
+                  href: msdn-online-vml-borderleftcolor-attribute.md
+                - name: BorderRightColor
+                  href: msdn-online-vml-borderrightcolor-attribute.md
+                - name: BorderTopColor
+                  href: msdn-online-vml-bordertopcolor-attribute.md
+                - name: 子彈
+                  href: msdn-online-vml-bullet-attribute.md
+                - name: 按鈕
+                  href: msdn-online-vml-button-attribute.md
+                - name: BWMode
+                  href: msdn-online-vml-bwmode-attribute.md
+                - name: BWNormal
+                  href: msdn-online-vml-bwnormal-attribute.md
+                - name: BWPure
+                  href: msdn-online-vml-bwpure-attribute.md
+                - name: 類別
+                  href: msdn-online-vml-class-attribute.md
+                - name: ConnectorType
+                  href: msdn-online-vml-connectortype-attribute.md
+                - name: CoordOrigin
+                  href: msdn-online-vml-coordorigin-attribute.md
+                - name: CoordSize
+                  href: msdn-online-vml-coordsize-attribute.md
+                - name: DoubleClickNotify
+                  href: msdn-online-vml-doubleclicknotify-attribute.md
+                - name: FillColor
+                  href: msdn-online-vml-fillcolor-attribute.md
+                - name: 已
+                  href: msdn-online-vml-filled-attribute.md
+                - name: 翻轉
+                  href: msdn-online-vml-flip-attribute.md
+                - name: ForceDash
+                  href: msdn-online-vml-forcedash-attribute.md
+                - name: 高度
+                  href: msdn-online-vml-height-attribute.md
+                - name: HR
+                  href: msdn-online-vml-hr-attribute.md
+                - name: HRAlign
+                  href: msdn-online-vml-hralign-attribute.md
+                - name: Href
+                  href: href-attribute--shape--vml.md
+                - name: HRHeight
+                  href: msdn-online-vml-hrheight-attribute.md
+                - name: HRNoShade
+                  href: msdn-online-vml-hrnoshade-attribute.md
+                - name: HRPct
+                  href: msdn-online-vml-hrpct-attribute.md
+                - name: HRStd
+                  href: msdn-online-vml-hrstd-attribute.md
+                - name: HRWidth
+                  href: msdn-online-vml-hrwidth-attribute.md
+                - name: 識別碼
+                  href: id-attribute--vml.md
+                - name: Left
+                  href: msdn-online-vml-left-attribute.md
+                - name: Margin-Bottom
+                  href: msdn-online-vml-margin-bottom-attribute.md
+                - name: Margin-Left
+                  href: msdn-online-vml-margin-left-attribute.md
+                - name: Margin-Right
+                  href: msdn-online-vml-margin-right-attribute.md
+                - name: Margin-Top
+                  href: msdn-online-vml-margin-top-attribute.md
+                - name: OnMouseOver
+                  href: msdn-online-vml-onmouseover-attribute.md
+                - name: MSO-位置-水準-相對
+                  href: msdn-online-vml-mso-position-horizontal-relative-attribute.md
+                - name: MSO-位置-垂直-相對
+                  href: msdn-online-vml-mso-position-vertical-relative-attribute.md
+                - name: MSO-位置-水準
+                  href: msdn-online-vml-mso-position-horizontal-attribute.md
+                - name: MSO-位置-垂直
+                  href: msdn-online-vml-mso-position-vertical-attribute.md
+                - name: MSO-換行編輯
+                  href: msdn-online-vml-mso-wrap-edited-attribute.md
+                - name: MSO-換行模式
+                  href: msdn-online-vml-mso-wrap-mode-attribute.md
+                - name: MSO-換行距離-下
+                  href: msdn-online-vml-mso-wrap-distance-bottom-attribute.md
+                - name: MSO-換行距離-左方
+                  href: msdn-online-vml-mso-wrap-distance-left-attribute.md
+                - name: MSO-換行-右
+                  href: msdn-online-vml-mso-wrap-distance-right-attribute.md
+                - name: MSO-換行距離-頂端
+                  href: msdn-online-vml-mso-wrap-distance-top-attribute.md
+                - name: OLEIcon
+                  href: msdn-online-vml-oleicon-attribute.md
+                - name: OnEd
+                  href: msdn-online-vml-oned-attribute.md
+                - name: 路徑
+                  href: msdn-online-vml-path-attribute.md
+                - name: 位置
+                  href: position-attribute--shape--vml.md
+                - name: PreferRelative
+                  href: msdn-online-vml-preferrelative-attribute.md
+                - name: 列印
+                  href: msdn-online-vml-print-attribute.md
+                - name: ReGroupID
+                  href: msdn-online-vml-regroupid-attribute.md
+                - name: RelativePosition
+                  href: msdn-online-vml-relativeposition-attribute.md
+                - name: 旋轉
+                  href: rotation-attribute--shape--vml.md
+                - name: RuleInitiator
+                  href: msdn-online-vml-ruleinitiator-attribute.md
+                - name: RuleProxy
+                  href: msdn-online-vml-ruleproxy-attribute.md
+                - name: Spt
+                  href: msdn-online-vml-spt-attribute.md
+                - name: StrokeColor
+                  href: msdn-online-vml-strokecolor-attribute.md
+                - name: 撫摸
+                  href: msdn-online-vml-stroked-attribute.md
+                - name: StrokeWeight
+                  href: msdn-online-vml-strokeweight-attribute.md
+                - name: TableLimits
+                  href: msdn-online-vml-tablelimits-attribute.md
+                - name: TableProperties
+                  href: msdn-online-vml-tableproperties-attribute.md
+                - name: 目標
+                  href: msdn-online-vml-target-attribute.md
+                - name: 標題
+                  href: title-attribute--shape--vml.md
+                - name: 頁首
+                  href: msdn-online-vml-top-attribute.md
+                - name: 類型
+                  href: type-attribute--shape--vml.md
+                - name: UserDrawn
+                  href: msdn-online-vml-userdrawn-attribute.md
+                - name: UserHidden
+                  href: msdn-online-vml-userhidden-attribute.md
+                - name: 可見性
+                  href: msdn-online-vml-visibility-attribute.md
+                - name: 寬度
+                  href: msdn-online-vml-width-attribute.md
+                - name: WrapCoords
+                  href: msdn-online-vml-wrapcoords-attribute.md
+                - name: Z-索引
+                  href: msdn-online-vml-z-index-attribute.md
+        - name: Shape 的子項目
+          href: subelements-of-shape.md
+          items:
+            - name: 標注元素
+              href: msdn-online-vml-callout-element.md
+              items:
+                - name: AccentBar 屬性
+                  href: msdn-online-vml-accentbar-attribute.md
+                - name: Angle 屬性
+                  href: angle-attribute--callout--vml.md
+                - name: 距離屬性
+                  href: msdn-online-vml-distance-attribute.md
+                - name: Drop 屬性
+                  href: msdn-online-vml-drop-attribute.md
+                - name: DropAuto 屬性
+                  href: msdn-online-vml-dropauto-attribute.md
+                - name: Ext 屬性
+                  href: ext-attribute--callout--vml.md
+                - name: 間距屬性
+                  href: msdn-online-vml-gap-attribute.md
+                - name: Length 屬性
+                  href: msdn-online-vml-length-attribute.md
+                - name: LengthSpecified 屬性
+                  href: msdn-online-vml-lengthspecified-attribute.md
+                - name: MinusX 屬性
+                  href: msdn-online-vml-minusx-attribute.md
+                - name: MinusY 屬性
+                  href: msdn-online-vml-minusy-attribute.md
+                - name: On 屬性
+                  href: on-attribute--callout--vml.md
+                - name: TextBorder 屬性
+                  href: msdn-online-vml-textborder-attribute.md
+                - name: Type 屬性
+                  href: type-attribute--callout--vml.md
+            - name: 延伸元素
+              href: msdn-online-vml-extrusion-element.md
+              items:
+                - name: AutoRotationCenter 屬性
+                  href: msdn-online-vml-autorotationcenter-attribute.md
+                - name: BackDepth 屬性
+                  href: msdn-online-vml-backdepth-attribute.md
+                - name: 亮度屬性
+                  href: msdn-online-vml-brightness-attribute.md
+                - name: Color 屬性
+                  href: color-attribute--extrusion--vml.md
+                - name: ColorMode 屬性
+                  href: msdn-online-vml-colormode-attribute.md
+                - name: Diffusity 屬性
+                  href: msdn-online-vml-diffusity-attribute.md
+                - name: 邊緣屬性
+                  href: msdn-online-vml-edge-attribute.md
+                - name: Ext 屬性
+                  href: ext-attribute--extrusion--vml.md
+                - name: Facet 屬性
+                  href: msdn-online-vml-facet-attribute.md
+                - name: ForeDepth 屬性
+                  href: msdn-online-vml-foredepth-attribute.md
+                - name: LightFace 屬性
+                  href: msdn-online-vml-lightface-attribute.md
+                - name: LightHarsh 屬性
+                  href: msdn-online-vml-lightharsh-attribute.md
+                - name: LightHarsh2 屬性
+                  href: msdn-online-vml-lightharsh2-attribute.md
+                - name: LightLevel 屬性
+                  href: msdn-online-vml-lightlevel-attribute.md
+                - name: LightLevel2 屬性
+                  href: msdn-online-vml-lightlevel2-attribute.md
+                - name: LightPosition 屬性
+                  href: msdn-online-vml-lightposition-attribute.md
+                - name: LightPosition2 屬性
+                  href: msdn-online-vml-lightposition2-attribute.md
+                - name: LockRotationCenter 屬性
+                  href: msdn-online-vml-lockrotationcenter-attribute.md
+                - name: 金屬屬性
+                  href: msdn-online-vml-metal-attribute.md
+                - name: On 屬性
+                  href: on-attribute--extrusion--vml.md
+                - name: 方向屬性
+                  href: msdn-online-vml-orientation-attribute.md
+                - name: OrientationAngle 屬性
+                  href: msdn-online-vml-orientationangle-attribute.md
+                - name: 平面屬性
+                  href: msdn-online-vml-plane-attribute.md
+                - name: Render 屬性
+                  href: msdn-online-vml-render-attribute.md
+                - name: RotationAngle 屬性
+                  href: msdn-online-vml-rotationangle-attribute.md
+                - name: RotationCenter 屬性
+                  href: msdn-online-vml-rotationcenter-attribute.md
+                - name: 反光屬性
+                  href: msdn-online-vml-shininess-attribute.md
+                - name: SkewAmt 屬性
+                  href: msdn-online-vml-skewamt-attribute.md
+                - name: SkewAngle 屬性
+                  href: msdn-online-vml-skewangle-attribute.md
+                - name: Specularity 屬性
+                  href: msdn-online-vml-specularity-attribute.md
+                - name: Type 屬性
+                  href: type-attribute--extrusion--vml.md
+                - name: 視點屬性
+                  href: msdn-online-vml-viewpoint-attribute.md
+                - name: ViewpointOrigin 屬性
+                  href: msdn-online-vml-viewpointorigin-attribute.md
+            - name: Fill 元素
+              href: msdn-online-vml-fill-element.md
+              items:
+                - name: AlignShape 屬性
+                  href: msdn-online-vml-alignshape-attribute.md
+                - name: AltHRef 屬性
+                  href: althref-attribute--fill--vml.md
+                - name: Angle 屬性
+                  href: angle-attribute--fill--vml.md
+                - name: 外觀屬性
+                  href: msdn-online-vml-aspect-attribute.md
+                - name: Color 屬性
+                  href: color-attribute--fill--vml.md
+                - name: Color2 屬性
+                  href: color2-attribute--fill--vml.md
+                - name: 色彩屬性
+                  href: msdn-online-vml-colors-attribute.md
+                - name: DetectMouseClick 屬性
+                  href: detectmouseclick-attribute--fill--vml.md
+                - name: 焦點屬性
+                  href: msdn-online-vml-focus-attribute.md
+                - name: FocusPosition 屬性
+                  href: msdn-online-vml-focusposition-attribute.md
+                - name: FocusSize 屬性
+                  href: msdn-online-vml-focussize-attribute.md
+                - name: HRef 屬性
+                  href: href-attribute--fill--vml.md
+                - name: ID 屬性
+                  href: id-attribute--fill--vml.md
+                - name: Method 屬性
+                  href: msdn-online-vml-method-attribute.md
+                - name: On 屬性
+                  href: on-attribute--fill--vml.md
+                - name: 不透明度屬性
+                  href: opacity-attribute--fill--vml.md
+                - name: Opacity2 屬性
+                  href: msdn-online-vml-opacity2-attribute.md
+                - name: 來源屬性
+                  href: origin-attribute--fill--vml.md
+                - name: Position 屬性
+                  href: position-attribute--fill--vml.md
+                - name: Size 屬性
+                  href: size-attribute--fill--vml.md
+                - name: Src 屬性
+                  href: src-attribute--fill--vml.md
+                - name: Title 屬性
+                  href: title-attribute--fill--vml.md
+                - name: Type 屬性
+                  href: type-attribute--fill--vml.md
+            - name: 公式元素
+              href: msdn-online-vml-formulas-element.md
+              items:
+                - name: F 元素
+                  href: msdn-online-vml-f-element.md
+                  items:
+                    - name: Eqn 屬性
+                      href: msdn-online-vml-eqn-attribute.md
+            - name: Handles 元素
+              href: msdn-online-vml-handles-element.md
+              items:
+                - name: H 元素
+                  href: msdn-online-vml-h-element.md
+                  items:
+                    - name: InvX 屬性
+                      href: msdn-online-vml-invx-attribute.md
+                    - name: InvY 屬性
+                      href: msdn-online-vml-invy-attribute.md
+                    - name: Map 屬性
+                      href: msdn-online-vml-map-attribute.md
+                    - name: 極座標屬性
+                      href: msdn-online-vml-polar-attribute.md
+                    - name: Position 屬性
+                      href: position-attribute--h--vml.md
+                    - name: RadiusRange 屬性
+                      href: msdn-online-vml-radiusrange-attribute.md
+                    - name: 切換屬性
+                      href: msdn-online-vml-switch-attribute.md
+                    - name: XRange 屬性
+                      href: msdn-online-vml-xrange-attribute.md
+                    - name: YRange 屬性
+                      href: msdn-online-vml-yrange-attribute.md
+            - name: Imagedata 元素
+              href: msdn-online-vml-imagedata-element.md
+              items:
+                - name: AltHRef 屬性
+                  href: althref-attribute--imagedata--vml.md
+                - name: Bilevel 屬性
+                  href: msdn-online-vml-bilevel-attribute.md
+                - name: BlackLevel 屬性
+                  href: msdn-online-vml-blacklevel-attribute.md
+                - name: Chromakey 屬性
+                  href: msdn-online-vml-chromakey-attribute.md
+                - name: CropBottom 屬性
+                  href: msdn-online-vml-cropbottom-attribute.md
+                - name: CropLeft 屬性
+                  href: msdn-online-vml-cropleft-attribute.md
+                - name: CropRight 屬性
+                  href: msdn-online-vml-cropright-attribute.md
+                - name: CropTop 屬性
+                  href: msdn-online-vml-croptop-attribute.md
+                - name: DetectMouseClick 屬性
+                  href: detectmouseclick-attribute--imagedata--vml.md
+                - name: EmbossColor 屬性
+                  href: msdn-online-vml-embosscolor-attribute.md
+                - name: 增益屬性
+                  href: msdn-online-vml-gain-attribute.md
+                - name: Gamma 屬性
+                  href: msdn-online-vml-gamma-attribute.md
+                - name: 灰階屬性
+                  href: msdn-online-vml-grayscale-attribute.md
+                - name: HRef 屬性
+                  href: href-attribute--imagedata--vml.md
+                - name: ID 屬性
+                  href: id-attribute--image--vml.md
+                - name: Movie 屬性
+                  href: msdn-online-vml-movie-attribute.md
+                - name: OLEID 屬性
+                  href: msdn-online-vml-oleid-attribute.md
+                - name: Src 屬性
+                  href: src-attribute--imagedata--vml.md
+                - name: Title 屬性
+                  href: title-attribute--imagedata--vml.md
+            - name: 鎖定元素
+              href: msdn-online-vml-locks-element.md
+              items:
+                - name: AdjustHandles 屬性
+                  href: msdn-online-vml-adjusthandles-attribute.md
+                - name: AspectRatio 屬性
+                  href: msdn-online-vml-aspectratio-attribute.md
+                - name: 裁剪屬性
+                  href: msdn-online-vml-cropping-attribute.md
+                - name: Ext 屬性
+                  href: ext-attribute--lock--vml.md
+                - name: 群組屬性
+                  href: msdn-online-vml-grouping-attribute.md
+                - name: Position 屬性
+                  href: position-attribute--lock--vml.md
+                - name: 旋轉屬性
+                  href: rotation-attribute--lock--vml.md
+                - name: Selection 屬性
+                  href: msdn-online-vml-selection-attribute.md
+                - name: ShapeType 屬性
+                  href: msdn-online-vml-shapetype-attribute.md
+                - name: Text 屬性
+                  href: msdn-online-vml-text-attribute.md
+                - name: 頂點屬性
+                  href: msdn-online-vml-vertices-attribute.md
+            - name: Path 元素
+              href: msdn-online-vml-path-element.md
+              items:
+                - name: ArrowOK 屬性
+                  href: msdn-online-vml-arrowok-attribute.md
+                - name: ConnectAngles 屬性
+                  href: msdn-online-vml-connectangles-attribute.md
+                - name: ConnectLocs 屬性
+                  href: msdn-online-vml-connectlocs-attribute.md
+                - name: ConnectType 屬性
+                  href: msdn-online-vml-connecttype-attribute.md
+                - name: ExtrusionOK 屬性
+                  href: msdn-online-vml-extrusionok-attribute.md
+                - name: FillOK 屬性
+                  href: msdn-online-vml-fillok-attribute.md
+                - name: GradientShapeOK 屬性
+                  href: msdn-online-vml-gradientshapeok-attribute.md
+                - name: ID 屬性
+                  href: id-attribute--path--vml.md
+                - name: Limo 屬性
+                  href: msdn-online-vml-limo-attribute.md
+                - name: ShadowOK 屬性
+                  href: msdn-online-vml-shadowok-attribute.md
+                - name: StrokeOK 屬性
+                  href: msdn-online-vml-strokeok-attribute.md
+                - name: TextBoxRect 屬性
+                  href: msdn-online-vml-textboxrect-attribute.md
+                - name: TextPathOK 屬性
+                  href: msdn-online-vml-textpathok-attribute.md
+                - name: V 屬性
+                  href: msdn-online-vml-v-attribute.md
+            - name: Shadow 元素
+              href: msdn-online-vml-shadow-element.md
+              items:
+                - name: Color 屬性
+                  href: color-attribute--shadow--vml.md
+                - name: Color2 屬性
+                  href: color2-attribute--shadow--vml.md
+                - name: ID 屬性
+                  href: id-attribute--shadow--vml.md
+                - name: 矩陣屬性
+                  href: matrix-attribute--shadow--vml.md
+                - name: 遮蔽屬性
+                  href: msdn-online-vml-obscured-attribute.md
+                - name: Offset 屬性
+                  href: offset-attribute--shadow--vml.md
+                - name: Offset2 屬性
+                  href: msdn-online-vml-offset2-attribute.md
+                - name: On 屬性
+                  href: on-attribute--shadow--vml.md
+                - name: 不透明度屬性
+                  href: opacity-attribute--shadow--vml.md
+                - name: 來源屬性
+                  href: origin-attribute--shadow--vml.md
+                - name: Type 屬性
+                  href: type-attribute--shadow--vml.md
+            - name: 扭曲元素
+              href: msdn-online-vml-skew-element.md
+              items:
+                - name: Ext 屬性
+                  href: ext-attribute--skew--vml.md
+                - name: ID 屬性
+                  href: id-attribute--skew--vml.md
+                - name: 矩陣屬性
+                  href: matrix-attribute--skew--vml.md
+                - name: Offset 屬性
+                  href: offset-attribute--skew--vml.md
+                - name: On 屬性
+                  href: on-attribute--skew--vml.md
+                - name: 來源屬性
+                  href: origin-attribute--skew--vml.md
+            - name: Stroke 元素
+              href: msdn-online-vml-stroke-element.md
+              items:
+                - name: AltHRef 屬性
+                  href: althref-attribute--stroke--vml.md
+                - name: Color 屬性
+                  href: color-attribute--stroke--vml.md
+                - name: Color2 屬性
+                  href: color2-attribute--stroke--vml.md
+                - name: DashStyle 屬性
+                  href: msdn-online-vml-dashstyle-attribute.md
+                - name: EndArrow 屬性
+                  href: msdn-online-vml-endarrow-attribute.md
+                - name: EndArrowLength 屬性
+                  href: msdn-online-vml-endarrowlength-attribute.md
+                - name: EndArrowWidth 屬性
+                  href: msdn-online-vml-endarrowwidth-attribute.md
+                - name: EndCap 屬性
+                  href: msdn-online-vml-endcap-attribute.md
+                - name: FillType 屬性
+                  href: msdn-online-vml-filltype-attribute.md
+                - name: HRef 屬性
+                  href: href-attribute--stroke--vml.md
+                - name: ID 屬性
+                  href: id-attribute--stroke--vml.md
+                - name: ImageAlignShape 屬性
+                  href: msdn-online-vml-imagealignshape-attribute.md
+                - name: ImageAspect 屬性
+                  href: msdn-online-vml-imageaspect-attribute.md
+                - name: ImageSize 屬性
+                  href: msdn-online-vml-imagesize-attribute.md
+                - name: JoinStyle 屬性
+                  href: msdn-online-vml-joinstyle-attribute.md
+                - name: LineStyle 屬性
+                  href: msdn-online-vml-linestyle-attribute.md
+                - name: MiterLimit 屬性
+                  href: msdn-online-vml-miterlimit-attribute.md
+                - name: On 屬性
+                  href: on-attribute--stroke--vml.md
+                - name: 不透明度屬性
+                  href: opacity-attribute--stroke--vml.md
+                - name: Src 屬性
+                  href: src-attribute--stroke--vml.md
+                - name: StartArrow 屬性
+                  href: msdn-online-vml-startarrow-attribute.md
+                - name: StartArrowLength 屬性
+                  href: msdn-online-vml-startarrowlength-attribute.md
+                - name: StartArrowWidth 屬性
+                  href: msdn-online-vml-startarrowwidth-attribute.md
+                - name: Title 屬性
+                  href: title-attribute--stroke--vml.md
+                - name: 權數屬性
+                  href: msdn-online-vml-weight-attribute.md
+            - name: TextBox 元素
+              href: msdn-online-vml-textbox-element.md
+              items:
+                - name: Direction 屬性
+                  href: msdn-online-vml-direction-attribute.md
+                - name: ID 屬性
+                  href: id-attribute--textbox--vml.md
+                - name: 內凹屬性
+                  href: msdn-online-vml-inset-attribute.md
+                - name: InsetMode 屬性
+                  href: msdn-online-vml-insetmode-attribute.md
+                - name: Layout-Flow 屬性
+                  href: msdn-online-vml-layout-flow-attribute.md
+                - name: MSO 方向-Alt 屬性
+                  href: msdn-online-vml-mso-direction-alt-attribute.md
+                - name: MSO 符合圖形至文字的屬性
+                  href: msdn-online-vml-mso-fit-shape-to-text-attribute.md
+                - name: MSO 符合文字到圖形的屬性
+                  href: msdn-online-vml-mso-fit-text-to-shape-attribute.md
+                - name: MSO-版面配置--Alt 屬性
+                  href: msdn-online-vml-mso-layout-flow-alt-attribute.md
+                - name: MSO-下一個 Textbox 屬性
+                  href: msdn-online-vml-mso-next-textbox-attribute.md
+                - name: MSO-Rotate 屬性
+                  href: msdn-online-vml-mso-rotate-attribute.md
+                - name: MSO-文字縮放屬性
+                  href: msdn-online-vml-mso-text-scale-attribute.md
+                - name: SingleClick 屬性
+                  href: msdn-online-vml-singleclick-attribute.md
+                - name: V 文字錨點屬性
+                  href: msdn-online-vml-v-text-anchor-attribute.md
+            - name: TextPath 元素
+              href: msdn-online-vml-textpath-element.md
+              items:
+                - name: FitPath 屬性
+                  href: msdn-online-vml-fitpath-attribute.md
+                - name: FitShape 屬性
+                  href: msdn-online-vml-fitshape-attribute.md
+                - name: Font-Family 屬性
+                  href: msdn-online-vml-font-family-attribute.md
+                - name: Font-Size 屬性
+                  href: msdn-online-vml-font-size-attribute.md
+                - name: Font-Style 屬性
+                  href: msdn-online-vml-font-style-attribute.md
+                - name: Font-Variant 屬性
+                  href: msdn-online-vml-font-variant-attribute.md
+                - name: Font-Weight 屬性
+                  href: msdn-online-vml-font-weight-attribute.md
+                - name: 字型屬性
+                  href: msdn-online-vml-font-attribute.md
+                - name: MSO-Text-Shadow 屬性
+                  href: msdn-online-vml-mso-text-shadow-attribute.md
+                - name: On 屬性
+                  href: on-attribute--textpath--vml.md
+                - name: 字串屬性
+                  href: msdn-online-vml-string-attribute.md
+                - name: Text-Decoration 屬性
+                  href: msdn-online-vml-text-decoration-attribute.md
+                - name: Trim 屬性
+                  href: msdn-online-vml-trim-attribute.md
+                - name: V-旋轉字母屬性
+                  href: msdn-online-vml-v-rotate-letters-attribute.md
+                - name: V 相同的字母高度屬性
+                  href: msdn-online-vml-v-same-letter-heights-attribute.md
+                - name: V 文字對齊屬性
+                  href: msdn-online-vml-v-text-align-attribute.md
+                - name: V 文字間距屬性
+                  href: msdn-online-vml-v-text-kern-attribute.md
+                - name: V-Text-Reverse 屬性
+                  href: msdn-online-vml-v-text-reverse-attribute.md
+                - name: V 文字間距模式屬性
+                  href: msdn-online-vml-v-text-spacing-mode-attribute.md
+                - name: V 文字間距屬性
+                  href: msdn-online-vml-v-text-spacing-attribute.md
+                - name: XScale 屬性
+                  href: msdn-online-vml-xscale-attribute.md
+        - name: 預先定義的圖形
+          href: predefined-shapes.md
+          items:
+            - name: 弧線元素
+              href: msdn-online-vml-arc-element.md
+              items:
+                - name: '>startangle 屬性'
+                  href: msdn-online-vml-startangle-attribute.md
+                - name: EndAngle 屬性
+                  href: msdn-online-vml-endangle-attribute.md
+            - name: 曲線元素
+              href: msdn-online-vml-curve-element.md
+              items:
+                - name: Control1 屬性
+                  href: msdn-online-vml-control1-attribute.md
+                - name: Control2 屬性
+                  href: msdn-online-vml-control2-attribute.md
+                - name: From 屬性
+                  href: from-attribute--curve--vml.md
+                - name: To 屬性
+                  href: to-attribute--curve--vml.md
+            - name: Image 元素
+              href: msdn-online-vml-image-element.md
+            - name: Line 元素
+              href: msdn-online-vml-line-element.md
+              items:
+                - name: From 屬性
+                  href: from-attribute--line--vml.md
+                - name: To 屬性
+                  href: to-attribute--line--vml.md
+            - name: Oval 元素
+              href: msdn-online-vml-oval-element.md
+            - name: 聚合線條元素
+              href: msdn-online-vml-polyline-element.md
+              items:
+                - name: Points 屬性
+                  href: msdn-online-vml-points-attribute.md
+            - name: Rect 元素
+              href: msdn-online-vml-rect-element.md
+            - name: RoundRect 元素
+              href: msdn-online-vml-roundrect-element.md
+              items:
+                - name: ArcSize 屬性
+                  href: msdn-online-vml-arcsize-attribute.md
+        - name: 其他元素
+          href: other-elements.md
+          items:
+            - name: Group 元素
+              href: msdn-online-vml-group-element.md
+            - name: ShapeType 元素
+              href: msdn-online-vml-shapetype-element.md
+              items:
+                - name: Master 屬性
+                  href: msdn-online-vml-master-attribute.md
+            - name: VMLFrame 元素
+              href: msdn-online-vml-vmlframe-element.md
+              items:
+                - name: 剪輯屬性
+                  href: msdn-online-vml-clip-attribute.md
+                - name: ID 屬性
+                  href: id-attribute--vmlframe--vml.md
+                - name: 來源屬性
+                  href: origin-attribute--vmlframe--vml.md
+                - name: Size 屬性
+                  href: size-attribute--vmlframe.md
+                - name: Src 屬性
+                  href: src-attribute--vmlframe--vml.md
+                - name: 樣式屬性
+                  href: msdn-online-vml-style-attribute.md
+        - name: VML 資料類型
+          href: vml-data-types.md
+          items:
+            - name: IVgAdjustments 資料類型
+              href: msdn-online-vml-ivgadjustments-data-type.md
+            - name: IVgColor
+              href: msdn-online-vml-ivgcolor.md
+            - name: IVgPoints 資料類型
+              href: msdn-online-vml-ivgpoints-data-type.md
+            - name: IVgVector2D 資料類型
+              href: msdn-online-vml-ivgvector2d-data-type.md
+            - name: VgAngleInDegrees 資料類型
+              href: msdn-online-vml-vgangleindegrees-data-type.md
+            - name: VgBlackWhiteMode
+              href: msdn-online-vml-vgblackwhitemode.md
+            - name: VgFraction 資料類型
+              href: msdn-online-vml-vgfraction-data-type.md
+            - name: VGLength
+              href: msdn-online-vml-vglength.md
+            - name: VgTriState
+              href: msdn-online-vml-vgtristate.md
+        - name: VML 單位
+          href: msdn-online-vml-units.md

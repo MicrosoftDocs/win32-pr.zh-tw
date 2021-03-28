@@ -1,0 +1,14 @@
+- name: 開發人員授權
+  href: developer-licensing-portal.md
+  items:
+    - name: 開發人員授權 Api
+      href: developer-license-apis.md
+      items:
+        - name: CheckDeveloperLicense
+          href: /windows/desktop/api/wsdevlicensing/nf-wsdevlicensing-checkdeveloperlicense
+        - name: AcquireDeveloperLicense
+          href: /windows/desktop/api/wsdevlicensing/nf-wsdevlicensing-acquiredeveloperlicense
+        - name: RemoveDeveloperLicense
+          href: /windows/desktop/api/wsdevlicensing/nf-wsdevlicensing-removedeveloperlicense
+    - name: 開發人員授權隱私權聲明
+      href: developer-license-privacy-statement.md

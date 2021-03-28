@@ -1,0 +1,388 @@
+- name: UPnP API
+  href: universal-plug-and-play-start-page.md
+  items:
+    - name: UPnP Api 的新功能
+      href: what-s-new-in-upnp.md
+    - name: UPnP 架構總覽
+      href: overview-of-universal-plug-and-play.md
+    - name: 組態設定
+      href: configuration-settings.md
+    - name: 控制點 API
+      href: control-point-api.md
+      items:
+        - name: 關於控制點 API
+          href: about-the-control-point-api-with-upnp-technology.md
+          items:
+            - name: 控制點基本概念
+              href: control-point-basics.md
+              items:
+                - name: 什麼是控制點物件模型？
+                  href: what-is-the-control-point-object-model.md
+                - name: 控制點 API 的基本動作為何？
+                  href: what-are-the-basic-actions-of-the-control-point-api.md
+            - name: 尋找裝置
+              href: finding-devices.md
+              items:
+                - name: 建立裝置搜尋工具
+                  href: creating-the-device-finder.md
+                - name: 非同步搜尋
+                  href: asynchronous-searching.md
+                - name: 同步搜尋
+                  href: synchronous-searching.md
+                - name: 同步搜尋所傳回的裝置集合
+                  href: device-collections-returned-by-synchronous-searches.md
+            - name: 描述裝置
+              href: describing-devices.md
+            - name: 控制裝置
+              href: controlling-devices.md
+              items:
+                - name: 取得服務物件
+                  href: obtaining-service-objects.md
+                - name: 註冊回呼
+                  href: registering-a-callback.md
+                - name: 查詢狀態變數
+                  href: querying-state-variables.md
+                - name: 叫用動作
+                  href: invoking-actions.md
+        - name: 使用控制點 API
+          href: using-the-control-point-api-with-upnp-technology.md
+          items:
+            - name: 控制點安全性考慮
+              href: upnp-control-point-security-considerations.md
+            - name: 控制點程式設計考慮
+              href: upnp-control-point-programming-considerations.md
+            - name: 在 c + + 中以非同步方式搜尋
+              href: searching-asynchronously-in-c-.md
+            - name: 在 Visual Basic 中註冊回呼
+              href: registering-a-callback-in-visual-basic.md
+            - name: 建立簡報網頁
+              href: creating-a-presentation-web-page.md
+            - name: 裝置錯誤碼
+              href: device-error-codes.md
+            - name: 使用泛型控制點範例程式碼
+              href: using-the-generic-control-point-sample-code.md
+              items:
+                - name: 控制裝置
+                  href: controlling-a-device.md
+                - name: 探索裝置
+                  href: discovering-devices.md
+                - name: 一般使用者控制點應用程式
+                  href: generic-user-control-point-application.md
+        - name: 控制點 API 參考
+          href: control-point-api-with-upnp-technology-reference.md
+          items:
+            - name: IUPnPAddressFamilyControl
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpaddressfamilycontrol
+              items:
+                - name: GetAddressFamily 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpaddressfamilycontrol-getaddressfamily
+                - name: SetAddressFamily 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpaddressfamilycontrol-setaddressfamily
+            - name: IUPnPAsyncResult
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpasyncresult
+              items:
+                - name: AsyncOperationComplete 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete
+            - name: IUPnPDescriptionDocument
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdescriptiondocument
+              items:
+                - name: Abort 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-abort
+                - name: DeviceByUDN 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-devicebyudn
+                - name: 載入方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-load
+                - name: LoadAsync 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-loadasync
+                - name: LoadResult 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_loadresult
+                - name: ReadyState 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_readystate
+                - name: RootDevice 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-rootdevice
+            - name: IUPnPDescriptionDocumentCallback
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdescriptiondocumentcallback
+              items:
+                - name: System.web.ui.page.loadcomplete 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocumentcallback-loadcomplete
+            - name: IUPnPDevice
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevice
+              items:
+                - name: 子系方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_children
+                - name: Description 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_description
+                - name: FriendlyName 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_friendlyname
+                - name: HasChildren 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren
+                - name: IconURL 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevice-iconurl
+                - name: IsRootDevice 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_isrootdevice
+                - name: ManufacturerName 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturername
+                - name: ManufacturerURL 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturerurl
+                - name: ModelName 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelname
+                - name: ModelNumber 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelnumber
+                - name: ModelURL 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelurl
+                - name: ParentDevice 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_parentdevice
+                - name: PresentationURL 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_presentationurl
+                - name: RootDevice 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_rootdevice
+                - name: SerialNumber 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_serialnumber
+                - name: 服務方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_services
+                - name: Type 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_type
+                - name: UniqueDeviceName 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename
+                - name: UPC 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_upc
+            - name: IUPnPDeviceDocumentAccess
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicedocumentaccess
+              items:
+                - name: GetDocumentURL 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicedocumentaccess-getdocumenturl
+            - name: IUPnPDeviceDocumentAccessEx
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicedocumentaccessex
+              items:
+                - name: GetDocument 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicedocumentaccessex-getdocument
+            - name: IUPnPDeviceFinder
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicefinder
+              items:
+                - name: CancelAsyncFind 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-cancelasyncfind
+                - name: CreateAsyncFind 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-createasyncfind
+                - name: FindByType 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-findbytype
+                - name: FindByUDN 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-findbyudn
+                - name: StartAsyncFind 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-startasyncfind
+            - name: IUPnPDeviceFinderAddCallbackWithInterface
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface
+              items:
+                - name: DeviceAddedWithInterface 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinderaddcallbackwithinterface-deviceaddedwithinterface
+            - name: IUPnPDeviceFinderCallback
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicefindercallback
+              items:
+                - name: DeviceAdded 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefindercallback-deviceadded
+                - name: DeviceRemoved 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefindercallback-deviceremoved
+                - name: SearchComplete 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefindercallback-searchcomplete
+            - name: IUPnPDevices
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevices
+              items:
+                - name: _NewEnum 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevices-get__newenum
+                - name: Count 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_count
+                - name: Item 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_item
+            - name: IUPnPHttpHeaderControl
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnphttpheadercontrol
+              items:
+                - name: AddRequestHeaders 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnphttpheadercontrol-addrequestheaders
+            - name: IUPnPService
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpservice
+              items:
+                - name: AddCallback 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservice-addcallback
+                - name: Id 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservice-get_id
+                - name: InvokeAction 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservice-invokeaction
+                - name: LastTransportStatus 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus
+                - name: QueryStateVariable 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservice-querystatevariable
+                - name: ServiceTypeIdentifier 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservice-get_servicetypeidentifier
+            - name: IUPnPServiceAsync
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpserviceasync
+              items:
+                - name: BeginInvokeAction 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-begininvokeaction
+                - name: EndInvokeAction 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-endinvokeaction
+                - name: BeginQueryStateVariable 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable
+                - name: EndQueryStateVariable 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-endquerystatevariable
+                - name: BeginSubscribeToEvents 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents
+                - name: EndSubscribeToEvents 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-endsubscribetoevents
+                - name: BeginSCPDDownload 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-beginscpddownload
+                - name: EndSCPDDownload 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-endscpddownload
+                - name: CancelAsyncOperation 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-cancelasyncoperation
+            - name: IUPnPServiceCallback
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpservicecallback
+              items:
+                - name: ServiceInstanceDied 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservicecallback-serviceinstancedied
+                - name: StateVariableChanged 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservicecallback-statevariablechanged
+            - name: IUPnPServiceDocumentAccess
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpservicedocumentaccess
+              items:
+                - name: GetDocumentURL 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservicedocumentaccess-getdocumenturl
+                - name: GetDocument 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservicedocumentaccess-getdocument
+            - name: IUPnPServiceEnumProperty
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpserviceenumproperty
+              items:
+                - name: SetServiceEnumProperty 方法
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceenumproperty-setserviceenumproperty
+            - name: IUPnPServices
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpservices
+              items:
+                - name: _NewEnum 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservices-get__newenum
+                - name: Count 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservices-get_count
+                - name: Item 方法
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservices-get_item
+    - name: 裝置主機 API
+      href: device-host-api.md
+      items:
+        - name: 關於裝置主機 API
+          href: about-the-device-host-api-with-upnp-technology.md
+          items:
+            - name: 執行託管裝置
+              href: implementing-a-hosted-device.md
+              items:
+                - name: 建立裝置描述
+                  href: creating-a-device-description.md
+                - name: 執行裝置行為
+                  href: implementing-device-behavior.md
+            - name: 向裝置主機註冊託管裝置
+              href: registering-a-hosted-device-with-the-device-host.md
+            - name: 裝置提供者
+              href: device-providers.md
+            - name: 事件
+              href: eventing.md
+            - name: 簡報
+              href: presentation.md
+        - name: 使用裝置主機 API
+          href: using-the-device-host-api-with-upnp-technology.md
+          items:
+            - name: 裝置主機安全性考慮
+              href: device-host-security-considerations.md
+            - name: 裝置主機程式設計考慮
+              href: device-host-programming-considerations.md
+            - name: 服務物件錯誤處理
+              href: service-object-error-handling.md
+            - name: 將服務描述資料類型對應至 IDL 資料類型
+              href: mapping-service-description-data-types-to-idl-data-types.md
+            - name: 如何向裝置主機註冊裝置
+              href: how-to-register-a-device-with-the-device-host.md
+            - name: 取消註冊裝置
+              href: unregistering-a-device.md
+            - name: 執行裝置提供者
+              href: implementing-a-device-provider.md
+            - name: 使用暗暗裝置範例程式碼
+              href: using-the-dimmer-device-sample-code.md
+        - name: 裝置主機 API 參考
+          href: device-host-api-with-upnp-technology-reference.md
+          items:
+            - name: IUPnPDeviceControl
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpdevicecontrol
+              items:
+                - name: GetServiceObject 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpdevicecontrol-getserviceobject
+                - name: Initialize 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpdevicecontrol-initialize
+            - name: IUPnPDeviceProvider
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpdeviceprovider
+              items:
+                - name: Start 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpdeviceprovider-start
+                - name: Stop 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpdeviceprovider-stop
+            - name: IUPnPEventSink
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpeventsink
+              items:
+                - name: OnStateChanged 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsink-onstatechanged
+                - name: OnStateChangedSafe 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsink-onstatechangedsafe
+            - name: IUPnPEventSource
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpeventsource
+              items:
+                - name: 建議方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsource-advise
+                - name: Unadvise 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsource-unadvise
+            - name: IUPnPRegistrar
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpregistrar
+              items:
+                - name: GetUniqueDeviceName 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-getuniquedevicename
+                - name: '>registerdevice.js 方法'
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-registerdevice
+                - name: RegisterDeviceProvider 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-registerdeviceprovider
+                - name: RegisterRunningDevice 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice
+                - name: UnregisterDevice 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-unregisterdevice
+                - name: UnregisterDeviceProvider 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-unregisterdeviceprovider
+            - name: IUPnPRemoteEndpointInfo
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpremoteendpointinfo
+              items:
+                - name: GetDwordValue 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpremoteendpointinfo-getdwordvalue
+                - name: GetGuidValue 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpremoteendpointinfo-getguidvalue
+                - name: GetStringValue 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpremoteendpointinfo-getstringvalue
+            - name: IUPnPReregistrar
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpreregistrar
+              items:
+                - name: ReregisterDevice 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpreregistrar-reregisterdevice
+                - name: ReregisterRunningDevice 方法
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpreregistrar-reregisterrunningdevice
+    - name: 詞彙
+      href: glossary-gly.md
+      items:
+        - name: A
+          href: a-gly.md
+        - name: C
+          href: c-gly.md
+        - name: D
+          href: d-gly.md
+        - name: E
+          href: e-gly.md
+        - name: H
+          href: h-gly.md
+        - name: 'N'
+          href: n-gly.md
+        - name: P
+          href: p-gly.md
+        - name: R
+          href: r-gly.md
+        - name: S
+          href: s-gly.md
+        - name: U
+          href: u-gly.md
