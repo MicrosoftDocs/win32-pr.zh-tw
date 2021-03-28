@@ -1,0 +1,74 @@
+- name: '[系統還原]'
+  href: system-restore-portal.md
+  items:
+    - name: 關於系統還原
+      href: about-system-restore.md
+      items:
+        - name: 監視系統
+          href: monitoring-the-system.md
+        - name: 還原系統
+          href: restoring-the-system.md
+        - name: 還原點
+          href: restore-points.md
+        - name: 系統還原 API
+          href: system-restore-api.md
+          items:
+            - name: 呼叫 SRSetRestorePoint
+              href: calling-srsetrestorepoint.md
+            - name: 還原點描述文字
+              href: restore-point-description-text.md
+            - name: SRSetRestorePoint 的嵌套呼叫
+              href: nested-calls-to-srsetrestorepoint.md
+            - name: 設定系統還原
+              href: configuring-system-restore.md
+    - name: 使用系統還原
+      href: using-system-restore.md
+    - name: 系統還原參考
+      href: system-restore-reference.md
+      items:
+        - name: 系統還原函式
+          href: system-restore-functions.md
+          items:
+            - name: SRRemoveRestorePoint
+              href: /windows/desktop/api/SRRestorePtAPI/nf-srrestoreptapi-srremoverestorepoint
+            - name: SRSetRestorePoint
+              href: /windows/desktop/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa
+        - name: 系統還原結構
+          href: system-restore-structures.md
+          items:
+            - name: RESTOREPOINTINFO
+              href: /windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa
+            - name: STATEMGRSTATUS
+              href: /windows/win32/api/srrestoreptapi/ns-srrestoreptapi-statemgrstatus
+        - name: 系統還原 WMI 類別
+          href: system-restore-wmi-classes.md
+          items:
+            - name: SystemRestore
+              href: systemrestore.md
+              items:
+                - name: CreateRestorePoint 方法
+                  href: createrestorepoint-systemrestore.md
+                - name: Disable 方法
+                  href: disable-systemrestore.md
+                - name: Enable 方法
+                  href: enable-systemrestore.md
+                - name: GetLastRestoreStatus 方法
+                  href: getlastrestorestatus-systemrestore.md
+                - name: Restore 方法
+                  href: restore-systemrestore.md
+            - name: SystemRestoreConfig
+              href: systemrestoreconfig.md
+        - name: 受監視的副檔名
+          href: monitored-file-extensions.md
+    - name: 舊版系統還原參考
+      href: legacy-system-restore-reference.md
+      items:
+        - name: 舊版系統還原結構
+          href: legacy-system-restore-structures.md
+          items:
+            - name: CHANGE_LOG_ENTRY
+              href: change-log-entry.md
+            - name: CHANGE_LOG_HEADER
+              href: change-log-header.md
+            - name: RECORD_HEADER
+              href: record-header.md

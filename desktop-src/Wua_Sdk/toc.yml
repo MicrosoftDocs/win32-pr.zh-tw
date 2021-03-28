@@ -1,0 +1,1253 @@
+- name: Windows Update 代理程式 API
+  href: portal-client.md
+  items:
+    - name: 使用 Windows Update 代理程式 API
+      href: using-the-windows-update-agent-api.md
+      items:
+        - name: Windows Update 代理程式物件模型
+          href: windows-update-agent-object-model.md
+        - name: 判斷 WUA 的目前版本
+          href: determining-the-current-version-of-wua.md
+        - name: 正在更新 Windows Update 代理程式
+          href: updating-the-windows-update-agent.md
+        - name: 更新 Windows Update 代理程式標頭檔
+          href: updating-windows-update-agent-header-files.md
+        - name: 使用 WUA 離線掃描更新
+          href: using-wua-to-scan-for-updates-offline.md
+        - name: WUA API 中安全的方法和屬性
+          href: secured-methods-and-properties-in-the-wua-api.md
+        - name: 搜尋、下載及安裝更新
+          href: searching--downloading--and-installing-updates.md
+        - name: 搜尋、下載及安裝特定更新
+          href: searching--downloading--and-installing-specific-updates.md
+        - name: Opt-In 至 Microsoft Update
+          href: opt-in-to-microsoft-update.md
+        - name: 從遠端電腦使用 WUA
+          href: using-wua-from-a-remote-computer.md
+        - name: 非同步 WUA 作業的指導方針
+          href: guidelines-for-asynchronous-wua-operations.md
+        - name: 從次要登入使用 WUA (以) 進程的方式執行
+          href: using-wua-from-a-secondary-logon--run-as--process.md
+        - name: WUA 成功和錯誤碼
+          href: wua-success-and-error-codes-.md
+        - name: WUA 網路錯誤代碼
+          href: wua-networking-error-codes-.md
+    - name: Windows Update 代理程式資訊的其他來源
+      href: other-sources-of-windows-update-agent-information.md
+    - name: Windows Update 代理程式 (WUA) API 參考
+      href: windows-update-agent--wua--api-reference.md
+      items:
+        - name: 列舉
+          href: enumerations.md
+          items:
+            - name: AddServiceFlag
+              href: /windows/win32/api/Wuapi/ne-wuapi-addserviceflag
+            - name: AutoDownloadMode
+              href: /windows/win32/api/Wuapi/ne-wuapi-autodownloadmode
+            - name: AutomaticUpdatesNotificationLevel
+              href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatesnotificationlevel
+            - name: AutomaticUpdatesPermissionType
+              href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatespermissiontype
+            - name: AutomaticUpdatesScheduledInstallationDay
+              href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatesscheduledinstallationday
+            - name: AutomaticUpdatesUserType
+              href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatesusertype
+            - name: AutoSelectionMode
+              href: /windows/win32/api/Wuapi/ne-wuapi-autoselectionmode
+            - name: DeploymentAction
+              href: /windows/win32/api/Wuapi/ne-wuapi-deploymentaction
+            - name: DownloadPhase
+              href: /windows/win32/api/Wuapi/ne-wuapi-downloadphase
+            - name: DownloadPriority
+              href: /windows/win32/api/Wuapi/ne-wuapi-downloadpriority
+            - name: InstallationImpact
+              href: /windows/win32/api/Wuapi/ne-wuapi-installationimpact
+            - name: InstallationRebootBehavior
+              href: /windows/win32/api/Wuapi/ne-wuapi-installationrebootbehavior
+            - name: OperationResultCode
+              href: /windows/win32/api/Wuapi/ne-wuapi-operationresultcode
+            - name: SearchScope
+              href: /windows/win32/api/Wuapi/ne-wuapi-searchscope
+            - name: Serverselection.sqlpolicy
+              href: /windows/win32/api/wuapicommon/ne-wuapicommon-serverselection
+            - name: UpdateEndpointAuthTokenType
+              href: updateendpointauthtokentype.md
+            - name: UpdateEndpointType
+              href: updateendpointtype.md
+            - name: UpdateExceptionCoNtext
+              href: /windows/win32/api/Wuapi/ne-wuapi-updateexceptioncontext
+            - name: UpdateLockdownOption
+              href: /windows/win32/api/Wuapi/ne-wuapi-updatelockdownoption
+            - name: Character
+              href: /windows/win32/api/Wuapi/ne-wuapi-updateoperation
+            - name: UpdateServiceOption
+              href: /windows/win32/api/Wuapi/ne-wuapi-updateserviceoption
+            - name: UpdateServiceRegistrationState
+              href: /windows/win32/api/Wuapi/ne-wuapi-updateserviceregistrationstate
+            - name: UpdateType
+              href: /windows/win32/api/Wuapi/ne-wuapi-updatetype
+        - name: 介面
+          href: interfaces.md
+          items:
+            - name: IAutomaticUpdates
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdates
+              items:
+                - name: IAutomaticUpdates 方法
+                  href: iautomaticupdates-methods.md
+                  items:
+                    - name: DetectNow 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-detectnow
+                    - name: EnableService 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-enableservice
+                    - name: Pause 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-pause
+                    - name: Resume 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-resume
+                    - name: ShowSettingsDialog 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-showsettingsdialog
+                - name: IAutomaticUpdates 屬性
+                  href: iautomaticupdates-properties.md
+                  items:
+                    - name: ServiceEnabled 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_serviceenabled
+                    - name: Settings 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_settings
+            - name: IAutomaticUpdates2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdates2
+              items:
+                - name: IAutomaticUpdates2 方法
+                  href: iautomaticupdates2-methods.md
+                  items:
+                    - name: 結果方法
+                      href: /previous-versions/windows/desktop/bb513699(v=vs.85)
+            - name: IAutomaticUpdatesResults
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatesresults
+              items:
+                - name: IAutomaticUpdatesResults 屬性
+                  href: iautomaticupdatesresults-properties.md
+                  items:
+                    - name: LastInstallationSuccessDate 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatesresults-get_lastinstallationsuccessdate
+                    - name: LastSearchSuccessDate 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatesresults-get_lastsearchsuccessdate
+            - name: IAutomaticUpdatesSettings
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatessettings
+              items:
+                - name: IAutomaticUpdatesSettings 方法
+                  href: iautomaticupdatessettings-methods.md
+                  items:
+                    - name: Refresh 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-refresh
+                    - name: Save 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-save
+                - name: IAutomaticUpdatesSettings 屬性
+                  href: iautomaticupdatessettings-properties.md
+                  items:
+                    - name: NotificationLevel 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel
+                    - name: ReadOnly 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_readonly
+                    - name: Required 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_required
+                    - name: ScheduledInstallationDay 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationday
+                    - name: ScheduledInstallationTime 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationtime
+            - name: IAutomaticUpdatesSettings2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatessettings2
+              items:
+                - name: IAutomaticUpdatesSettings2 方法
+                  href: iautomaticupdatessettings2-methods.md
+                  items:
+                    - name: CheckPermission 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings2-checkpermission
+                - name: IAutomaticUpdatesSettings2 屬性
+                  href: iautomaticupdatessettings2-properties.md
+                  items:
+                    - name: IncludeRecommendedUpdates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings2-get_includerecommendedupdates
+            - name: IAutomaticUpdatesSettings3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatessettings3
+              items:
+                - name: IAutomaticUpdatesSettings3 屬性
+                  href: iautomaticupdatessettings3-properties.md
+                  items:
+                    - name: FeaturedUpdatesEnabled 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled
+                    - name: NonAdministratorsElevated 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings3-get_nonadministratorselevated
+            - name: ICategory
+              href: /windows/desktop/api/Wuapi/nn-wuapi-icategory
+              items:
+                - name: ICategory 屬性
+                  href: icategory-properties.md
+                  items:
+                    - name: 類別類別屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_categoryid
+                    - name: 子系屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_children
+                    - name: Description 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_description
+                    - name: 影像屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_image
+                    - name: Name 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_name
+                    - name: Order 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_order
+                    - name: 父屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_parent
+                    - name: Type 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_type
+                    - name: Updates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_updates
+            - name: ICategoryCollection
+              href: /windows/desktop/api/Wuapi/nn-wuapi-icategorycollection
+              items:
+                - name: ICategoryCollection 屬性
+                  href: icategorycollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get__newenum
+                    - name: Count 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get_count
+                    - name: Item 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get_item
+            - name: IDownloadCompletedCallback
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadcompletedcallback
+              items:
+                - name: IDownloadCompletedCallback 方法
+                  href: idownloadcompletedcallback-methods.md
+                  items:
+                    - name: Invoke 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadcompletedcallback-invoke
+            - name: IDownloadCompletedCallbackArgs
+              href: /previous-versions/windows/desktop/aa385859(v=vs.85)
+            - name: IDownloadJob
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadjob
+              items:
+                - name: IDownloadJob 方法
+                  href: idownloadjob-methods.md
+                  items:
+                    - name: 清除方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-cleanup
+                    - name: GetProgress 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-getprogress
+                    - name: RequestAbort 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-requestabort
+                - name: IDownloadJob 屬性
+                  href: idownloadjob-properties.md
+                  items:
+                    - name: AsyncState 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_asyncstate
+                    - name: IsCompleted 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_iscompleted
+                    - name: Updates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_updates
+            - name: IDownloadProgress
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadprogress
+              items:
+                - name: IDownloadProgress 方法
+                  href: idownloadprogress-methods.md
+                  items:
+                    - name: GetUpdateResult 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-getupdateresult
+                - name: IDownloadProgress 屬性
+                  href: idownloadprogress-properties.md
+                  items:
+                    - name: CurrentUpdateBytesDownloaded 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdatebytesdownloaded
+                    - name: CurrentUpdateBytesToDownload 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdatebytestodownload
+                    - name: CurrentUpdateDownloadPhase 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdatedownloadphase
+                    - name: CurrentUpdateIndex 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdateindex
+                    - name: CurrentUpdatePercentComplete 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdatepercentcomplete
+                    - name: 百分比屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_percentcomplete
+                    - name: TotalBytesDownloaded 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_totalbytesdownloaded
+                    - name: TotalBytesToDownload 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_totalbytestodownload
+            - name: IDownloadProgressChangedCallback
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadprogresschangedcallback
+              items:
+                - name: IDownloadProgressChangedCallback 方法
+                  href: idownloadprogresschangedcallback-methods.md
+                  items:
+                    - name: Invoke 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke
+            - name: IDownloadProgressChangedCallbackArgs
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadprogresschangedcallbackargs
+              items:
+                - name: IDownloadChangedCallbackArgs 屬性
+                  href: idownloadchangedcallbackargs-properties.md
+                  items:
+                    - name: 進度屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogresschangedcallbackargs-get_progress
+            - name: IDownloadResult
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadresult
+              items:
+                - name: IDownloadResult 方法
+                  href: idownloadresult-methods.md
+                  items:
+                    - name: GetUpdateResult 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-getupdateresult
+                - name: IDownloadResult 屬性
+                  href: idownloadresult-properties.md
+                  items:
+                    - name: HResult 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-get_hresult
+                    - name: ResultCode 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-get_resultcode
+            - name: IImageInformation
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iimageinformation
+              items:
+                - name: IImageInformation 屬性
+                  href: iimageinformation-properties.md
+                  items:
+                    - name: AltText 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iimageinformation-get_alttext
+                    - name: Height 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iimageinformation-get_height
+                    - name: Source 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iimageinformation-get_source
+                    - name: Width 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iimageinformation-get_width
+            - name: IInstallationAgent
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationagent
+              items:
+                - name: RecordInstallationResult 方法
+                  href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationagent-recordinstallationresult
+            - name: IInstallationBehavior
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationbehavior
+              items:
+                - name: IInstallationBehavior 屬性
+                  href: iinstallationbehavior-properties.md
+                  items:
+                    - name: CanRequestUserInput 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationbehavior-get_canrequestuserinput
+                    - name: 影響屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationbehavior-get_impact
+                    - name: RebootBehavior 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationbehavior-get_rebootbehavior
+                    - name: RequiresNetworkConnectivity 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationbehavior-get_requiresnetworkconnectivity
+            - name: IInstallationCompletedCallback
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationcompletedcallback
+              items:
+                - name: IInstallationCompletedCallback 方法
+                  href: iinstallationcompletedcallback-methods.md
+                  items:
+                    - name: Invoke 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationcompletedcallback-invoke
+            - name: IInstallationCompletedCallbackArgs
+              href: /previous-versions/windows/desktop/aa385908(v=vs.85)
+            - name: IInstallationJob
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationjob
+              items:
+                - name: IInstallationJob 方法
+                  href: iinstallationjob-methods.md
+                  items:
+                    - name: 清除方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-cleanup
+                    - name: GetProgress 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-getprogress
+                    - name: RequestAbort 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-requestabort
+                - name: IInstallationJob 屬性
+                  href: iinstallationjob-properties.md
+                  items:
+                    - name: AsyncState 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-get_asyncstate
+                    - name: IsCompleted 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-get_iscompleted
+                    - name: Updates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-get_updates
+            - name: IInstallationProgress
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationprogress
+              items:
+                - name: IInstallationProgress 方法
+                  href: iinstallationprogress-methods.md
+                  items:
+                    - name: GetUpdateResult 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogress-getupdateresult
+                - name: IInstallationProgress 屬性
+                  href: iinstallationprogress-properties.md
+                  items:
+                    - name: CurrentUpdateIndex 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogress-get_currentupdateindex
+                    - name: CurrentUpdatePercentComplete 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogress-get_currentupdatepercentcomplete
+                    - name: 百分比屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogress-get_percentcomplete
+            - name: IInstallationProgressChangedCallback
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationprogresschangedcallback
+              items:
+                - name: IInstallationProgressChangedCallback 方法
+                  href: iinstallationprogresschangedcallback-methods.md
+                  items:
+                    - name: Invoke 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogresschangedcallback-invoke
+            - name: IInstallationProgressChangedCallbackArgs
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationprogresschangedcallbackargs
+              items:
+                - name: IInstallationProgressChangedCallbackArgs 屬性
+                  href: iinstallationprogresschangedcallbackargs-properties.md
+                  items:
+                    - name: 進度屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogresschangedcallbackargs-get_progress
+            - name: IInstallationResult
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationresult
+              items:
+                - name: IInstallationResult 方法
+                  href: iinstallationresult-methods.md
+                  items:
+                    - name: GetUpdateResult 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationresult-getupdateresult
+                - name: IInstallationResult 屬性
+                  href: iinstallationresult-properties.md
+                  items:
+                    - name: HResult 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationresult-get_hresult
+                    - name: RebootRequired 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationresult-get_rebootrequired
+                    - name: ResultCode 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationresult-get_resultcode
+            - name: IInvalidProductLicenseException
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinvalidproductlicenseexception
+              items:
+                - name: IInvalidProductLicenseException 屬性
+                  href: iinvalidproductlicenseexception-properties.md
+                  items:
+                    - name: Product 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinvalidproductlicenseexception-get_product
+            - name: ISearchCompletedCallback
+              href: /windows/desktop/api/Wuapi/nn-wuapi-isearchcompletedcallback
+              items:
+                - name: ISearchCompletedCallback 方法
+                  href: isearchcompletedcallback-methods.md
+                  items:
+                    - name: Invoke 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchcompletedcallback-invoke
+            - name: ISearchCompletedCallbackArgs
+              href: /previous-versions/windows/desktop/aa386067(v=vs.85)
+            - name: ISearchJob
+              href: /windows/desktop/api/Wuapi/nn-wuapi-isearchjob
+              items:
+                - name: ISearchJob 方法
+                  href: isearchjob-methods.md
+                  items:
+                    - name: 清除方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchjob-cleanup
+                    - name: RequestAbort 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchjob-requestabort
+                - name: ISearchJob 屬性
+                  href: isearchjob-properties.md
+                  items:
+                    - name: AsyncState 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchjob-get_asyncstate
+                    - name: IsCompleted 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchjob-get_iscompleted
+            - name: ISearchResult
+              href: /windows/desktop/api/Wuapi/nn-wuapi-isearchresult
+              items:
+                - name: ISearchResult 屬性
+                  href: isearchresult-properties.md
+                  items:
+                    - name: ResultCode 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_resultcode
+                    - name: RootCategories 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_rootcategories
+                    - name: Updates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_updates
+                    - name: 警告屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_warnings
+            - name: IStringCollection
+              href: /windows/desktop/api/Wuapi/nn-wuapi-istringcollection
+              items:
+                - name: IStringCollection 方法
+                  href: istringcollection-methods.md
+                  items:
+                    - name: 新增方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-add
+                    - name: Clear 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-clear
+                    - name: 複製方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-copy
+                    - name: Insert 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-insert
+                    - name: RemoveAt 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-removeat
+                - name: IStringCollection 屬性
+                  href: istringcollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get__newenum
+                    - name: Count 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get_count
+                    - name: Item 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get_item
+                    - name: ReadOnly 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get_readonly
+            - name: ISystemInformation
+              href: /windows/desktop/api/Wuapi/nn-wuapi-isysteminformation
+              items:
+                - name: ISystemInformation 屬性
+                  href: isysteminformation-properties.md
+                  items:
+                    - name: OemHardwareSupportLink 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isysteminformation-get_oemhardwaresupportlink
+                    - name: RebootRequired 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isysteminformation-get_rebootrequired
+            - name: IUpdate
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate
+              items:
+                - name: IUpdate 方法
+                  href: iupdate-methods.md
+                  items:
+                    - name: AcceptEula 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-accepteula
+                    - name: CopyFromCache 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-copyfromcache
+                - name: IUpdate 屬性
+                  href: iupdate-properties.md
+                  items:
+                    - name: AutoSelectOnWebSites 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_autoselectonwebsites
+                    - name: BundledUpdates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_bundledupdates
+                    - name: CanRequireSource 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_canrequiresource
+                    - name: Category 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_categories
+                    - name: 期限屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_deadline
+                    - name: DeltaCompressedContentAvailable 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_deltacompressedcontentavailable
+                    - name: DeltaCompressedContentPreferred 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_deltacompressedcontentpreferred
+                    - name: DeploymentAction 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_deploymentaction
+                    - name: Description 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_description
+                    - name: DownloadContents 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_downloadcontents
+                    - name: DownloadPriority 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_downloadpriority
+                    - name: EulaAccepted 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_eulaaccepted
+                    - name: EulaText 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_eulatext
+                    - name: HandlerID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_handlerid
+                    - name: 識別屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_identity
+                    - name: 影像屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_image
+                    - name: InstallationBehavior 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_installationbehavior
+                    - name: IsBeta 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isbeta
+                    - name: IsDownloaded 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isdownloaded
+                    - name: IsHidden 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_ishidden
+                    - name: IsInstalled 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isinstalled
+                    - name: IsMandatory 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_ismandatory
+                    - name: IsUninstallable 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isuninstallable
+                    - name: KBArticleIDs 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_kbarticleids
+                    - name: 語言屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_languages
+                    - name: LastDeploymentChangeTime 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_lastdeploymentchangetime
+                    - name: MaxDownloadSize 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_maxdownloadsize
+                    - name: MinDownloadSize 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_mindownloadsize
+                    - name: MoreInfoUrls 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_moreinfourls
+                    - name: MsrcSeverity 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_msrcseverity
+                    - name: RecommendedCPUSpeed 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_recommendedcpuspeed
+                    - name: RecommendedHardDiskSpace 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_recommendedharddiskspace
+                    - name: RecommendedMemory 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_recommendedmemory
+                    - name: ReleaseNotes 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_releasenotes
+                    - name: SecurityBulletinIDs 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_securitybulletinids
+                    - name: SupersededUpdateIDs 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_supersededupdateids
+                    - name: SupportUrl 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_supporturl
+                    - name: Title 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_title
+                    - name: Type 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_type
+                    - name: UninstallationBehavior 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationbehavior
+                    - name: UninstallationNotes 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationnotes
+                    - name: UninstallationSteps 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationsteps
+            - name: IUpdate2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate2
+              items:
+                - name: IUpdate2 方法
+                  href: iupdate2-methods.md
+                  items:
+                    - name: CopyToCache 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate2-copytocache
+                - name: IUpdate2 屬性
+                  href: iupdate2-properties.md
+                  items:
+                    - name: CveIDs 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate2-get_cveids
+                    - name: IsPresent 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate2-get_ispresent
+                    - name: RebootRequired 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate2-get_rebootrequired
+            - name: IUpdate3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate3
+              items:
+                - name: IUpdate3 屬性
+                  href: iupdate3-properties.md
+                  items:
+                    - name: BrowseOnly 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate3-get_browseonly
+            - name: IUpdate4
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate4
+              items:
+                - name: IUpdate4 屬性
+                  href: iupdate4-properties.md
+                  items:
+                    - name: PerUser 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate4-get_peruser
+            - name: IUpdate5
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate5
+              items:
+                - name: IUpdate5 屬性
+                  href: iupdate5-properties.md
+                  items:
+                    - name: AutoDownload 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate5-get_autodownload
+                    - name: AutoSelection 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate5-get_autoselection
+            - name: IUpdateCollection
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatecollection
+              items:
+                - name: IUpdateCollection 方法
+                  href: iupdatecollection-methods.md
+                  items:
+                    - name: 新增方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-add
+                    - name: Clear 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-clear
+                    - name: 複製方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-copy
+                    - name: Insert 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-insert
+                    - name: RemoveAt 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-removeat
+                - name: IUpdateCollection 屬性
+                  href: iupdatecollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get__newenum
+                    - name: Count 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get_count
+                    - name: Item 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get_item
+                    - name: ReadOnly 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get_readonly
+            - name: IUpdateDownloadContent
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadcontent
+              items:
+                - name: IUpdateDownloadContent 屬性
+                  href: iupdatedownloadcontent-properties.md
+                  items:
+                    - name: DownloadUrl 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontent-get_downloadurl
+            - name: IUpdateDownloadContent2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadcontent2
+              items:
+                - name: IUpdateDownloadContent2 屬性
+                  href: iupdatedownloadcontent2-properties.md
+                  items:
+                    - name: IsDeltaCompressedContent 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontent2-get_isdeltacompressedcontent
+            - name: IUpdateDownloadContentCollection
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadcontentcollection
+              items:
+                - name: IUpdateDownloadContentCollection 屬性
+                  href: iupdatedownloadcontentcollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get__newenum
+                    - name: Count 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get_count
+                    - name: Item 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get_item
+            - name: IUpdateDownloader
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloader
+              items:
+                - name: IUpdateDownloader 方法
+                  href: iupdatedownloader-methods.md
+                  items:
+                    - name: BeginDownload 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-begindownload
+                    - name: 下載方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-download
+                    - name: EndDownload 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-enddownload
+                - name: IUpdateDownloader 屬性
+                  href: iupdatedownloader-properties.md
+                  items:
+                    - name: ClientApplicationID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_clientapplicationid
+                    - name: IsForced 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_isforced
+                    - name: Priority 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_priority
+                    - name: Updates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_updates
+            - name: IUpdateDownloadResult
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadresult
+              items:
+                - name: IUpdateDownloadResult 屬性
+                  href: iupdatedownloadresult-properties.md
+                  items:
+                    - name: HResult 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadresult-get_hresult
+                    - name: ResultCode 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadresult-get_resultcode
+            - name: IUpdateEndpointAuthProvider
+              href: iupdateendpointauthprovider.md
+              items:
+                - name: IUpdateEndpointAuthProvider 方法
+                  href: iupdateendpointauthprovider-medthods.md
+                  items:
+                    - name: GetEndpointToken 方法
+                      href: iupdateendpointauthprovider-getendpointtoken.md
+                    - name: GetPreferredEndpointTokenType 方法
+                      href: iupdateendpointauthprovider-getpreferredendpointtokentype.md
+            - name: IUpdateEndpointAuthToken
+              href: iupdateendpointauthtoken.md
+              items:
+                - name: IUpdateEndpointAuthToken 方法
+                  href: iupdateendpointauthtoken-methods.md
+                  items:
+                    - name: TokenData 方法
+                      href: iupdateendpointauthtoken-tokendata.md
+                    - name: TokenType 方法
+                      href: iupdateendpointauthtoken-tokentype.md
+                    - name: ServiceID 方法
+                      href: iupdateendpointauthtoken-serviceid.md
+                    - name: SigningKey 方法
+                      href: iupdateendpointauthtoken-signingkey.md
+                    - name: TokenReferenceAttached 方法
+                      href: iupdateendpointauthtoken-tokenreferenceattached.md
+                    - name: TokenReferenceUnattached 方法
+                      href: iupdateendpointauthtoken-tokenreferenceunattached.md
+            - name: IUpdateEndpointProvider
+              href: iupdateendpointprovider.md
+              items:
+                - name: IUpdateEndpointProvider 方法
+                  href: iupdateendpointprovider-medthods.md
+                  items:
+                    - name: GetServiceEndpoint 方法
+                      href: iupdateendpointauthprovider-getserviceendpoint.md
+            - name: IUpdateException
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateexception
+              items:
+                - name: IUpdateException 屬性
+                  href: iupdateexception-properties.md
+                  items:
+                    - name: Context 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexception-get_context
+                    - name: HResult 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexception-get_hresult
+                    - name: 訊息屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexception-get_message
+            - name: IUpdateExceptionCollection
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateexceptioncollection
+              items:
+                - name: IUpdateExceptionCollection 屬性
+                  href: iupdateexceptioncollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexceptioncollection-get__newenum
+                    - name: Count 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexceptioncollection-get_count
+                    - name: Item 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexceptioncollection-get_item
+            - name: IUpdateHistoryEntry
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatehistoryentry
+              items:
+                - name: IUpdateHistoryEntry 屬性
+                  href: iupdatehistoryentry-properties.md
+                  items:
+                    - name: ClientApplicationID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_clientapplicationid
+                    - name: Date 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_date
+                    - name: Description 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_description
+                    - name: HResult 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_hresult
+                    - name: Operation 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_operation
+                    - name: ResultCode 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_resultcode
+                    - name: Serverselection.sqlpolicy 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_serverselection
+                    - name: ServiceID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_serviceid
+                    - name: SupportUrl 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_supporturl
+                    - name: Title 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_title
+                    - name: UninstallationNotes 屬性
+                      href: /windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_uninstallationnotes
+                    - name: UninstallationSteps 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_uninstallationsteps
+                    - name: UnmappedResultCode 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_unmappedresultcode
+                    - name: UpdateIdentity 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_updateidentity
+            - name: IUpdateHistoryEntry2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatehistoryentry2
+              items:
+                - name: IUpdateHistoryEntry2 屬性
+                  href: iupdatehistoryentry2-properties.md
+                  items:
+                    - name: Category 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry2-get_categories
+            - name: IUpdateHistoryEntryCollection
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatehistoryentrycollection
+              items:
+                - name: IUpdateHistoryEntryCollection 屬性
+                  href: iupdatehistoryentrycollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentrycollection-get__newenum
+                    - name: Count 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentrycollection-get_count
+                    - name: Item 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentrycollection-get_item
+            - name: IUpdateIdentity
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateidentity
+              items:
+                - name: IUpdateIdentity 屬性
+                  href: iupdateidentity-properties.md
+                  items:
+                    - name: RevisionNumber 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateidentity-get_revisionnumber
+                    - name: UpdateID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateidentity-get_updateid
+            - name: IUpdateInstallationResult
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateinstallationresult
+              items:
+                - name: IUpdateInstallationResult 屬性
+                  href: iupdateinstallationresult-properties.md
+                  items:
+                    - name: HResult 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstallationresult-get_hresult
+                    - name: RebootRequired 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstallationresult-get_rebootrequired
+                    - name: ResultCode 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstallationresult-get_resultcode
+            - name: IUpdateInstaller
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateinstaller
+              items:
+                - name: IUpdateInstaller 方法
+                  href: iupdateinstaller-methods.md
+                  items:
+                    - name: BeginInstall 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-begininstall
+                    - name: BeginUninstall 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-beginuninstall
+                    - name: EndInstall 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-endinstall
+                    - name: EndUninstall 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-enduninstall
+                    - name: Install 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-install
+                    - name: RunWizard 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-runwizard
+                    - name: 卸載方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-uninstall
+                - name: IUpdateInstaller 屬性
+                  href: iupdateinstaller-properties.md
+                  items:
+                    - name: AllowSourcePrompts 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_allowsourceprompts
+                    - name: ClientApplicationID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_clientapplicationid
+                    - name: System.componentmodel.backgroundworker.isbusy 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_isbusy
+                    - name: IsForced 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_isforced
+                    - name: ParentHwnd 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_parenthwnd
+                    - name: ParentWindow 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_parentwindow
+                    - name: RebootRequiredBeforeInstallation 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_rebootrequiredbeforeinstallation
+                    - name: Updates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_updates
+            - name: IUpdateInstaller2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateinstaller2
+              items:
+                - name: IUpdateInstaller2 屬性
+                  href: iupdateinstaller2-properties.md
+                  items:
+                    - name: ForceQuiet 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller2-get_forcequiet
+            - name: IUpdateLockdown
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatelockdown
+              items:
+                - name: IUpdateLockdown 方法
+                  href: iupdatelockdown-methods.md
+                  items:
+                    - name: 鎖定方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatelockdown-lockdown
+            - name: IUpdateSearcher
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesearcher
+              items:
+                - name: IUpdateSearcher 方法
+                  href: iupdatesearcher-methods.md
+                  items:
+                    - name: BeginSearch 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-beginsearch
+                    - name: EndSearch 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-endsearch
+                    - name: EscapeString 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-escapestring
+                    - name: GetTotalHistoryCount 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-gettotalhistorycount
+                    - name: QueryHistory 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-queryhistory
+                    - name: 搜尋方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-search
+                - name: IUpdateSearcher 屬性
+                  href: iupdatesearcher-properties.md
+                  items:
+                    - name: CanAutomaticallyUpgradeService 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_canautomaticallyupgradeservice
+                    - name: ClientApplicationID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_clientapplicationid
+                    - name: IncludePotentiallySupersededUpdates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates
+                    - name: 線上屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_online
+                    - name: ServiceID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_serviceid
+                    - name: Serverselection.sqlpolicy 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_serverselection
+            - name: IUpdateSearcher2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesearcher2
+              items:
+                - name: IUpdateSearcher2 屬性
+                  href: iupdatesearcher2-properties.md
+                  items:
+                    - name: IgnoreDownloadPriority 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher2-get_ignoredownloadpriority
+            - name: IUpdateSearcher3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesearcher3
+              items:
+                - name: IUpdateSearcher3 方法
+                  href: iupdatesearcher3-properties.md
+                  items:
+                    - name: SearchScope 方法
+                      href: /previous-versions/windows/desktop/ee694850(v=vs.85)
+            - name: IUpdateService
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservice
+              items:
+                - name: IUpdateService 屬性
+                  href: iupdateservice-properties.md
+                  items:
+                    - name: CanRegisterWithAU 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_canregisterwithau
+                    - name: ContentValidationCert 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_contentvalidationcert
+                    - name: ExpirationDate 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_expirationdate
+                    - name: IsManaged 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_ismanaged
+                    - name: IsRegisteredWithAU 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_isregisteredwithau
+                    - name: IsScanPackageService 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_isscanpackageservice
+                    - name: IssueDate 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_issuedate
+                    - name: Name 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_name
+                    - name: OffersWindowsUpdates 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_offerswindowsupdates
+                    - name: RedirectUrls 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_redirecturls
+                    - name: ServiceID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_serviceid
+                    - name: ServiceUrl 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_serviceurl
+                    - name: SetupPrefix 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_setupprefix
+            - name: IUpdateService2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservice2
+              items:
+                - name: IUpdateService2 屬性
+                  href: iupdateservice2-properties.md
+                  items:
+                    - name: IsDefaultAUService 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice2-get_isdefaultauservice
+            - name: IUpdateServiceCollection
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservicecollection
+              items:
+                - name: IUpdateServiceCollection 屬性
+                  href: iupdateservicecollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get__newenum
+                    - name: Count 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get_count
+                    - name: Item 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get_item
+            - name: IUpdateServiceManager
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager
+              items:
+                - name: IUpdateServiceManager 方法
+                  href: iupdateservicemanager-methods.md
+                  items:
+                    - name: AddScanPackageService 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-addscanpackageservice
+                    - name: AddService 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-addservice
+                    - name: RegisterServiceWithAU 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-registerservicewithau
+                    - name: RemoveService 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-removeservice
+                    - name: SetOption 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-setoption
+                    - name: UnregisterServiceWithAU 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-unregisterservicewithau
+                - name: IUpdateServiceManager 屬性
+                  href: iupdateservicemanager-properties.md
+                  items:
+                    - name: Services 屬性
+                      href: /windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-get_services
+            - name: IUpdateServiceManager2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager2
+              items:
+                - name: IUpdateServiceManager2 方法
+                  href: iupdateservicemanager2-methods.md
+                  items:
+                    - name: AddService2 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-addservice2
+                    - name: QueryServiceRegistration 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-queryserviceregistration
+                - name: IUpdateServiceManager2 屬性
+                  href: iupdateservicemanager2-properties.md
+                  items:
+                    - name: ClientApplicationID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-get_clientapplicationid
+            - name: IUpdateServiceRegistration
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateserviceregistration
+              items:
+                - name: IUpdateServiceRegistration 屬性
+                  href: iupdateserviceregistration-properties.md
+                  items:
+                    - name: IsPendingRegistrationWithAU 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateserviceregistration-get_ispendingregistrationwithau
+                    - name: '>registrationstate 屬性'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateserviceregistration-get_registrationstate
+                    - name: 服務屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateserviceregistration-get_service
+            - name: IUpdateSession
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesession
+              items:
+                - name: IUpdateSession 方法
+                  href: iupdatesession-methods.md
+                  items:
+                    - name: CreateUpdateDownloader 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-createupdatedownloader
+                    - name: CreateUpdateInstaller 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-createupdateinstaller
+                    - name: CreateUpdateSearcher 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-createupdatesearcher
+                - name: IUpdateSession 屬性
+                  href: iupdatesession-properties.md
+                  items:
+                    - name: ClientApplicationID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-get_clientapplicationid
+                    - name: ReadOnly 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-get_readonly
+                    - name: WebProxy 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-get_webproxy
+            - name: IUpdateSession2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesession2
+              items:
+                - name: IUpdateSession2 屬性
+                  href: iupdatesession2-properties.md
+                  items:
+                    - name: UserLocale 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession2-get_userlocale
+            - name: IUpdateSession3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesession3
+              items:
+                - name: IUpdateSession3 方法
+                  href: iupdatesession3-methods.md
+                  items:
+                    - name: CreateUpdateServiceManager 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession3-createupdateservicemanager
+                    - name: QueryHistory 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession3-queryhistory
+            - name: IWebProxy
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwebproxy
+              items:
+                - name: IWebProxy 方法
+                  href: iwebproxy-methods.md
+                  items:
+                    - name: PromptForCredentials 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-promptforcredentials
+                    - name: PromptForCredentialsFromHwnd 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-promptforcredentialsfromhwnd
+                    - name: SetPassword 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-setpassword
+                - name: IWebProxy 屬性
+                  href: iwebproxy-properties.md
+                  items:
+                    - name: Address 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_address
+                    - name: 自動檢測屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_autodetect
+                    - name: BypassList 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_bypasslist
+                    - name: BypassProxyOnLocal 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_bypassproxyonlocal
+                    - name: ReadOnly 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_readonly
+                    - name: UserName 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_username
+            - name: IWindowsDriverUpdate
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate
+              items:
+                - name: IWindowsDriverUpdate 屬性
+                  href: iwindowsdriverupdate-properties.md
+                  items:
+                    - name: DeviceProblemNumber 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_deviceproblemnumber
+                    - name: DeviceStatus 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_devicestatus
+                    - name: DriverClass 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driverclass
+                    - name: DriverHardwareID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driverhardwareid
+                    - name: DriverManufacturer 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_drivermanufacturer
+                    - name: DriverModel 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_drivermodel
+                    - name: DriverProvider 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driverprovider
+                    - name: DriverVerDate 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driververdate
+            - name: IWindowsDriverUpdate2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate2
+              items:
+                - name: IWindowsDriverUpdate2 方法
+                  href: iwindowsdriverupdate2-methods.md
+                  items:
+                    - name: CopyToCache 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate2-copytocache
+                - name: IWindowsDriverUpdate2 屬性
+                  href: iwindowsdriverupdate2-properties.md
+                  items:
+                    - name: CveIDs 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate2-get_cveids
+                    - name: IsPresent 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate2-get_ispresent
+                    - name: RebootRequired 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate2-get_rebootrequired
+            - name: IWindowsDriverUpdate3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate3
+              items:
+                - name: IWindowsDriverUpdate3 屬性
+                  href: iwindowsdriverupdate3-properties.md
+                  items:
+                    - name: BrowseOnly 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate3-get_browseonly
+            - name: IWindowsDriverUpdate4
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate4
+              items:
+                - name: IWindowsDriverUpdate4 屬性
+                  href: iwindowsdriverupdate4-properties.md
+                  items:
+                    - name: PerUser 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate4-get_peruser
+                    - name: WindowsDriverUpdateEntries 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate4-get_windowsdriverupdateentries
+            - name: IWindowsDriverUpdate5
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate5
+              items:
+                - name: IWindowsDriverUpdate5 屬性
+                  href: iwindowsdriverupdate5-properties.md
+                  items:
+                    - name: AutoDownload 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autodownload
+                    - name: AutoSelection 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autoselection
+            - name: IWindowsDriverUpdateEntry
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentry
+              items:
+                - name: IWindowsDriverUpdateEntry 屬性
+                  href: iwindowsdriverupdateentry-properties.md
+                  items:
+                    - name: DeviceProblemNumber 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_deviceproblemnumber
+                    - name: DeviceStatus 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_devicestatus
+                    - name: DriverClass 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_driverclass
+                    - name: DriverHardwareID 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_driverhardwareid
+                    - name: DriverManufacturer 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_drivermanufacturer
+                    - name: DriverModel 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_drivermodel
+                    - name: DriverProvider 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_driverprovider
+                    - name: DriverVerDate 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_driververdate
+            - name: IWindowsDriverUpdateEntryCollection
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentrycollection
+              items:
+                - name: IWindowsDriverUpdateEntryCollection 屬性
+                  href: iwindowsdriverupdateentrycollection-properties.md
+                  items:
+                    - name: _NewEnum 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get__newenum
+                    - name: Count 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get_count
+                    - name: Item 屬性
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get_item
+            - name: IWindowsUpdateAgentInfo
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsupdateagentinfo
+              items:
+                - name: IWindowsUpdateAgentInfo 方法
+                  href: iwindowsupdateagentinfo-methods.md
+                  items:
+                    - name: GetInfo 方法
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsupdateagentinfo-getinfo
+        - name: 結構
+          href: structures.md
+          items:
+            - name: UpdateEndpointProxySettings
+              href: updateendpointproxysettings.md
