@@ -1,0 +1,161 @@
+---
+description: 下列常數代表事件追蹤會話可能的記錄模式。
+ms.assetid: d12aaecb-776a-4476-9ba4-16af30fde9c2
+title: 記錄模式常數
+ms.topic: article
+ms.date: 06/03/2020
+ms.openlocfilehash: daa0233346718040653edbc75a10615f9fd31765
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104972285"
+---
+# <a name="logging-mode-constants"></a>記錄模式常數
+
+下列常數代表事件追蹤會話可能的記錄模式。
+
+常數用於 [**事件 \_ 追蹤 \_**](/windows/win32/api/evntrace/ns-evntrace-event_trace_logfilea)記錄檔、[**事件 \_ 追蹤 \_ 屬性**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)和追蹤記錄檔 [**\_ \_ 標頭**](/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header)結構的 **LogFileMode** 成員。 這些常數定義于 *Evntrace .h* 標頭檔中。
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>[模式]</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>EVENT_TRACE_FILE_MODE_NONE</strong> (0x00000000) </td>
+<td>與沒有指定最大檔案大小的 <strong>EVENT_TRACE_FILE_MODE_SEQUENTIAL</strong> 相同。</td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_FILE_MODE_SEQUENTIAL</strong> (0x00000001) </td>
+<td>依序將事件寫入記錄檔;當檔案到達大小上限時，就會停止。請勿使用 with <strong>EVENT_TRACE_FILE_MODE_CIRCULAR</strong> 或 <strong>EVENT_TRACE_FILE_MODE_NEWFILE</strong>。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_FILE_MODE_CIRCULAR</strong> (0x00000002) </td>
+<td>將事件寫入記錄檔。 當檔案到達大小上限時，最舊的事件就會取代為傳入的事件。請注意，迴圈記錄檔的內容在多處理器電腦上可能不會出現順序。<br/> 請勿搭配 <strong>EVENT_TRACE_FILE_MODE_APPEND</strong>、 <strong>EVENT_TRACE_FILE_MODE_NEWFILE</strong>或 <strong>EVENT_TRACE_FILE_MODE_SEQUENTIAL</strong>使用。<br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_FILE_MODE_APPEND</strong> (0x00000004) </td>
+<td>將事件附加至現有的連續記錄檔。 如果檔案不存在，會加以建立。 只有當您指定時鐘解析度的 <a href="wnode-header.md"><strong>系統時間時</strong></a> 才使用，否則 <a href="/windows/win32/api/evntrace/nf-evntrace-processtrace"><strong>ProcessTrace</strong></a> 會傳回不正確時間戳記的事件。 使用 <strong>EVENT_TRACE_FILE_MODE_APPEND</strong>時，必須明確提供 <strong>BufferSize</strong>、 <strong>NumberOfProcessors</strong>和 <strong>ClockType</strong> 的值，而且在記錄器和附加的檔案中都必須相同。<br/> 請勿搭配 <strong>EVENT_TRACE_REAL_TIME_MODE</strong>、 <strong>EVENT_TRACE_FILE_MODE_CIRCULAR</strong>、 <strong>EVENT_TRACE_FILE_MODE_NEWFILE</strong>或 <strong>EVENT_TRACE_PRI加值稅E_LOGGER_MODE</strong>使用。<br/> <strong>Windows 2000：</strong> 不支援這個值。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_FILE_MODE_NEWFILE</strong> (0x00000008) </td>
+<td>當檔案到達大小上限時，自動切換至新的記錄檔。 必須設定<a href="/windows/win32/api/evntrace/ns-evntrace-event_trace_properties"><strong>EVENT_TRACE_PROPERTIES</strong></a>的<strong>MaximumFileSize</strong>成員。指定的檔案名必須是格式化的字串 (例如，字串包含% d，例如 c:\test%d.etl) 。 每次建立新檔案時，都會遞增計數器並使用其值、更新格式化的字串，然後使用產生的字串做為檔案名。<br/> 私用事件追蹤會話不允許此選項，且不應該用於 NT 核心記錄器會話。<br/> 請勿搭配 <strong>EVENT_TRACE_FILE_MODE_CIRCULAR</strong>、 <strong>EVENT_TRACE_FILE_MODE_APPEND</strong> 或 <strong>EVENT_TRACE_FILE_MODE_SEQUENTIAL</strong>使用。<br/> <strong>Windows 2000：</strong> 不支援這個值。<br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_FILE_MODE_PREALLOCATE</strong> (0x00000020) </td>
+<td>保留 <a href="/windows/win32/api/evntrace/ns-evntrace-event_trace_properties"><strong>EVENT_TRACE_PROPERTIES。預先 MaximumFileSize</strong></a> 記錄檔的磁碟空間的位元組。 檔案會在記錄期間佔用整個空間，同時針對迴圈和連續記錄檔。 當您停止會話時，記錄檔會縮減為所需的大小。 您必須設定 <a href="/windows/win32/api/evntrace/ns-evntrace-event_trace_properties"><strong>EVENT_TRACE_PROPERTIES。MaximumFileSize</strong></a>。<br/> 您無法使用私用事件追蹤會話的模式。<br/> <strong>Windows 2000：</strong> 不支援這個值。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_NONSTOPPABLE_MODE</strong> (0x00000040) </td>
+<td>無法停止記錄會話。 只有自動記錄器支援此模式。 Windows Vista 及更新版本支援此選項。<br/>.</td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_SECURE_MODE</strong> (0X00000080) </td>
+<td>限制誰可以將事件記錄到具有 <a href="/windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol"><strong>TRACELOG_LOG_EVENT</strong></a> 許可權的會話。 Windows Vista 和更新版本支援這個選項。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_REAL_TIME_MODE</strong> (0x00000100) </td>
+<td>即時將事件傳遞給取用者。 清除緩衝區時，不會在提供者寫入事件時傳遞事件。 如果沒有取用者可以取用事件，您就不應該啟用即時模式，因為當緩衝區已滿時，對記錄事件的呼叫最後會失敗。 在 Windows Vista 之前，如果未使用事件，則會捨棄事件。請勿在 Windows XP orWindows Server 2003 的一個進程中指定一個以上的即時取用者。 相反地，讓一個執行緒取用事件，並將事件散發給其他人。<br/> <strong>在 Windows Vista 之前：</strong> 您不應該使用即時模式，因為支援的事件速率遠低於從記錄檔讀取 (事件可能會) 卸載。 此外，在具有多個處理器的電腦上不保證事件順序。 即時模式更適合用於低流量、通知類型事件。<br/> <br/> 您可以將此模式與其他記錄檔模式結合;不過，請勿搭配 EVENT_TRACE_PRI加值稅E_LOGGER_MODE 使用此模式。 請注意，如果您將此模式與其他記錄檔模式結合，則會每秒排清緩衝區一次，導致部分填滿的緩衝區寫入至您的記錄檔。 例如，如果您使用64k 緩衝區，而您的記錄速率是每秒1個事件，則服務會在您的記錄檔中寫入 64k/秒。<br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_DELAY_OPEN_FILE_MODE</strong> (0x00000200) </td>
+<td>在事件發生之前，會使用此模式來延遲開啟記錄檔。 <br/>
+<blockquote>
+<strong>注意：</strong><br />
+在 Windows Vista 或更新版本上，不適用此模式。
+</blockquote>
+<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_BUFFERING_MODE</strong> (0x00000400) </td>
+<td>這個模式會將事件寫入至圓形記憶體緩衝區。 寫入超過緩衝區總大小的事件會收回最舊的事件仍在緩衝區中剩餘的事件。 此記憶體緩衝區的大小是 <strong>MinimumBuffers</strong> 和 <strong>BufferSize</strong> 的乘積 (請參閱 <a href="/windows/win32/api/evntrace/ns-evntrace-event_trace_properties"><strong>EVENT_TRACE_PROPERTIES</strong></a>) 。此公式的結果是，任何使用 <strong>EVENT_TRACE_BUFFERING_MODE</strong> 的緩衝區都會忽略 <strong>MaximumBuffers</strong> 值。<br/> 事件不會寫入記錄檔或即時傳遞，而且 ETW 不會排清緩衝區。 若要取得緩衝區的快照集，請呼叫 <a href="/windows/win32/api/evntrace/nf-evntrace-flushtracea"><strong>FlushTrace</strong></a> 函數。<br/> 此模式特別適用于將設備磁碟機與使用 <a href="/windows-hardware/drivers/devtest/trace-session">WMITrace</a> 核心偵錯工具擴充功能來查看記憶體中緩衝區內容的功能。<br/> 請勿搭配 <strong>EVENT_TRACE_FILE_MODE_SEQUENTIAL</strong>、 <strong>EVENT_TRACE_FILE_MODE_CIRCULAR</strong>、 <strong>EVENT_TRACE_FILE_MODE_APPEND</strong>、 <strong>EVENT_TRACE_FILE_MODE_NEWFILE</strong>或 <strong>EVENT_TRACE_REAL_TIME_MODE</strong>使用。<br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_PRI加值稅E_LOGGER_MODE</strong> (0x00000800) </td>
+<td>建立使用者模式事件追蹤會話，該會話會在與事件追蹤提供者相同的進程中執行。 緩衝區的記憶體來自進程的記憶體。 不需要來自核心之資料的處理常式可以使用私用事件追蹤會話，來消除與核心模式轉換相關聯的額外負荷。<br/> 如果提供者是由多個進程所註冊，ETW 會將處理序識別碼附加至記錄檔名稱，以建立唯一的記錄檔名稱。 例如，如果控制器將記錄檔名稱指定為 c:\mylogs\myprivatelog.etl，ETW 會將記錄檔建立為 c:\mylogs\ myprivatelog.etl_nnnn，其中 nnnn 是處理序識別碼。 處理序識別碼不會附加至註冊提供者的第一個進程，它只會附加至註冊提供者的後續進程。<br/> 私用事件追蹤會話具有下列限制：<br/>
+<ul>
+<li>私用會話只能記錄正在執行之進程的執行緒的事件。</li>
+<li>每個進程最多可有八個私用會話。</li>
+<li>私用會話無法搭配即時傳遞使用。</li>
+<li>私用會話所產生的事件不包含核心模式與使用者模式指示的執行時間，或是所使用 CPU 時間的執行緒層級詳細資料。</li>
+</ul>
+處理序識別碼篩選器和可執行檔名稱篩選器現在可在全系統私用記錄器啟動時傳遞至會話控制項 Api。 為了取得跨進程案例的最佳結果，應該將相同的篩選器傳遞給會話期間的每個控制作業，包括提供者啟用/diasble 呼叫。 請注意，篩選的格式與 <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex2"><strong>EnableTraceEx2</strong></a>所使用的篩選器相同。 <br/> 您可以使用此模式搭配 <strong>EVENT_TRACE_PRI加值稅E_IN_PROC</strong> 模式。<br/> <strong>在 Windows 10 之前，版本1703：</strong> 只有 LocalSystem、系統管理員和在提高許可權的進程中執行的系統管理員群組使用者可以建立私人會話。 如果您包含 <strong>EVENT_TRACE_PRI加值稅E_IN_PROC</strong> 旗標，任何使用者都可以建立同進程私用會話。 此外，在舊版的 Windows 中，每個進程只能有一個私用會話 (除非也指定了 EVENT_TRACE_PRI加值稅E_IN_PROC 模式，在此情況下，您最多可以建立三個同進程私用會話) 。 <br/> <strong>在 Windows Vista 之前：</strong> Performance Log Users 群組中的使用者也可以建立私用會話。<br/> <br/> 請勿搭配 EVENT_TRACE_REAL_TIME_MODE 使用。<br/> <strong>在 windows 7 和 Windows Server 2008 R2 之前：</strong> 請勿搭配 EVENT_TRACE_FILE_MODE_NEWFILE 使用。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_ADD_HEADER_MODE</strong> (0x00001000) </td>
+<td>此選項會將標頭新增至記錄檔。<br/>
+<blockquote>
+<strong>注意：</strong><br />
+在 Windows Vista 或更新版本上，不適用此模式。
+</blockquote>
+<br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_USE_KBYTES_FOR_SIZE</strong> (0x00002000) </td>
+<td>使用 kb 做為指定檔案大小的度量單位。 預設測量單位是 mb。 此模式適用于自動<a href="configuring-and-starting-an-autologger-session.md">記錄器</a>會話的<strong>MaxFileSize</strong>登錄值，以及<a href="/windows/win32/api/evntrace/ns-evntrace-event_trace_properties"><strong>EVENT_TRACE_PROPERTIES</strong></a>的<strong>MaximumFileSize</strong>成員。 Windows Vista 和更新版本支援這個選項。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_USE_GLOBAL_SEQUENCE</strong> (0x00004000) </td>
+<td>使用在事件追蹤會話之間唯一的序號。 此模式只適用于使用 <a href="/windows/win32/api/evntrace/nf-evntrace-tracemessage"><strong>TraceMessage</strong></a> 函式所記錄的事件。 如需詳細資訊，請參閱 <strong>TraceMessage</strong> 以取得使用方式詳細資料。<br/> <strong>EVENT_TRACE_USE_GLOBAL_SEQUENCE</strong> 和 <strong>EVENT_TRACE_USE_LOCAL_SEQUENCE</strong> 是互斥的。<br/> <strong>Windows 2000：</strong> 不支援這個值。<br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_USE_LOCAL_SEQUENCE</strong> (0x00008000) </td>
+<td>使用唯一適用于個別事件追蹤會話的序號。 此模式只適用于使用 <a href="/windows/win32/api/evntrace/nf-evntrace-tracemessage"><strong>TraceMessage</strong></a> 函式所記錄的事件。 如需詳細資訊，請參閱 <strong>TraceMessage</strong> 以取得使用方式詳細資料。<br/> <strong>EVENT_TRACE_USE_GLOBAL_SEQUENCE</strong> 和 <strong>EVENT_TRACE_USE_LOCAL_SEQUENCE</strong> 是互斥的。<br/> <strong>Windows 2000：</strong> 不支援這個值。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_RELOG_MODE</strong> (0x00010000) </td>
+<td>記錄事件，但不包含 <a href="/windows/win32/api/evntrace/ns-evntrace-event_trace_header"><strong>EVENT_TRACE_HEADER</strong></a>。
+<blockquote>
+<strong>注意：</strong><br />
+不應使用這個模式。 它是保留供內部使用。
+</blockquote>
+<br/> <strong>Windows 2000：</strong> 不支援這個值。<br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_PRI加值稅E_IN_PROC</strong> (0x00020000) </td>
+<td>搭配使用 <strong>EVENT_TRACE_PRI加值稅E_LOGGER_MODE</strong> 模式來啟動私人會話。 這個模式會強制只有註冊提供者 GUID 的進程可以使用該 GUID 來開機記錄器會話。<br/> 您最多可以為每個進程建立三個同進程私用會話。<br/> Windows Vista 和更新版本支援這個選項。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_MODE_RESERVED</strong> (0x00100000) </td>
+<td>此選項可用來發出堆積和重要區段追蹤的信號。 Windows Vista 和更新版本支援這個選項。<br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_STOP_ON_HYBRID_SHUTDOWN</strong> (0x00400000) </td>
+<td>此選項會停止混合式關機的記錄。 如果未指定 <strong>EVENT_TRACE_STOP_ON_HYBRID_SHUTDOWN</strong> 或 <strong>EVENT_TRACE_PERSIST_ON_HYBRID_SHUTDOWN</strong> ，ETW 會根據呼叫端是否來自會話0來選擇預設值。Windows 8 和 Windows Server 2012 都支援此選項。 <br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_PERSIST_ON_HYBRID_SHUTDOWN</strong> (0x00800000) </td>
+<td>此選項會繼續記錄混合式關機。 如果未指定 <strong>EVENT_TRACE_STOP_ON_HYBRID_SHUTDOWN</strong> 或 <strong>EVENT_TRACE_PERSIST_ON_HYBRID_SHUTDOWN</strong> ，ETW 會根據呼叫端是否來自會話0來選擇預設值。Windows 8 和 Windows Server 2012 都支援此選項。 <br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_USE_PAGED_MEMORY</strong> (0x01000000) </td>
+<td>使用分頁記憶體。 建議使用此設定，讓事件不會佔用未分頁的記憶體。非分頁緩衝區使用非分頁式記憶體來取得緩衝區空間。 因為非分頁緩衝區永遠不會分頁，所以記錄會話的執行效果很好。 使用可分頁的緩衝區會耗用較少的資源。<br/> 核心模式提供者和系統記錄器無法將事件記錄到指定此記錄模式的會話中。<br/> 如果已設定 <strong>EVENT_TRACE_PRI加值稅E_LOGGER_MODE</strong> ，則會忽略這個模式。<br/> 您無法使用此模式搭配 NT Kernel 記錄器。<br/> <strong>Windows 2000：</strong> 不支援這個值。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_SYSTEM_LOGGER_MODE</strong> (0x02000000) </td>
+<td>此選項會從 SystemTraceProvider 接收事件。 如果 [ <a href="/windows/win32/api/evntrace/nf-evntrace-starttracea"><strong>StartTrace</strong></a><em>屬性</em> ] 參數 <strong>LogFileMode</strong> 包含此旗標，則記錄器將會是系統記錄器。Windows 8 和 Windows Server 2012 都支援此選項。 <br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_INDEPENDENT_SESSION_MODE</strong> (0x08000000) </td>
+<td>指出在其他會話中 <a href="/windows/desktop/api/Evntprov/nf-evntprov-eventwrite"><strong>EventWrite</strong></a> 失敗時，不應該影響記錄會話。 如果沒有這個旗標，如果事件無法發行至提供者啟用的其中一個會話，該事件就不會發佈至任何會話。 當設定這個旗標時，若無法將事件寫入至一個會話，就不會導致 <strong>EventWrite</strong> 函式在其他會話中傳回錯誤碼。 <br/> 請勿搭配 <strong>EVENT_TRACE_PRI加值稅E_LOGGER_MODE</strong>使用。 <br/> Windows 8.1、Windows Server 2012 R2 和更新版本都支援此選項。<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>EVENT_TRACE_NO_PER_PROCESSOR_BUFFERING</strong> (0x10000000) </td>
+<td>將記錄在不同處理器上的事件寫入至一般緩衝區。 當使用系統時間在不同的處理器上發佈事件時，使用此模式可以消除事件不按照順序出現的問題。 這種模式也可以消除迴圈記錄檔在多處理器電腦上放置事件的問題。<br/> 如果您未使用此模式，而且您使用系統時間，則事件在多個處理器電腦上可能不會出現順序。 這是因為 ETW 緩衝區與處理器（而非執行緒）相關聯。 如此一來，當執行緒從一個 CPU 切換到另一個 CPU 時，與後者 CPU 相關聯的緩衝區可以在與先前 CPU 相關聯的磁片之前，先排清到磁片。<br/> 如果您預期會有大量的事件 (例如，每秒1000個以上的事件) ，您就不應該使用這個模式。<br/> 請注意，此事件不包含處理器號碼。<br/> Windows 7、Windows Server 2008 R2 和更新版本都支援此選項。<br/></td>
+</tr>
+<tr class="even">
+<td><strong>EVENT_TRACE_ADDTO_TRIAGE_DUMP</strong> (0x80000000) </td>
+<td>此選項會將 ETW 緩衝區新增至分級傾印。 Windows 8 和 Windows Server 2012 都支援此選項。 <br/></td>
+</tr>
+</tbody>
+</table>
