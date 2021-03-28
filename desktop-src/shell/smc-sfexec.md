@@ -1,0 +1,66 @@
+---
+description: 執行隨附的 SMDATA 結構中指定的 Shell 資料夾專案。
+title: 'SMC_SFEXEC 訊息 (Shobjidl.h .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+ms.assetid: bb8f6434-0936-460f-b7dc-39be58bb70ce
+api_name:
+- SMC_SFEXEC
+api_type:
+- HeaderDef
+api_location:
+- Shobjidl.h
+topic_type:
+- APIRef
+- kbSyntax
+ms.openlocfilehash: b4e414cd7dab9968882272b19b9b21b95da0f1d7
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104973444"
+---
+# <a name="smc_sfexec-message"></a><span data-ttu-id="897f0-103">SMC \_ SFEXEC 訊息</span><span class="sxs-lookup"><span data-stu-id="897f0-103">SMC\_SFEXEC message</span></span>
+
+<span data-ttu-id="897f0-104">執行隨附的 [**SMDATA**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata) 結構中指定的 Shell 資料夾專案。</span><span class="sxs-lookup"><span data-stu-id="897f0-104">Execute the Shell folder item specified in the accompanying [**SMDATA**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata) structure.</span></span>
+
+
+```C++
+SMC_SFEXEC
+            
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="897f0-105">參數</span><span class="sxs-lookup"><span data-stu-id="897f0-105">Parameters</span></span>
+
+<span data-ttu-id="897f0-106">此訊息沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="897f0-106">This message has no parameters.</span></span>
+
+## <a name="return-value"></a><span data-ttu-id="897f0-107">傳回值</span><span class="sxs-lookup"><span data-stu-id="897f0-107">Return value</span></span>
+
+<span data-ttu-id="897f0-108">返回 \_ [確定]。</span><span class="sxs-lookup"><span data-stu-id="897f0-108">Return S\_OK.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="897f0-109">備註</span><span class="sxs-lookup"><span data-stu-id="897f0-109">Remarks</span></span>
+
+<span data-ttu-id="897f0-110">此通知是由 [**IShellMenuCallback：： CallbackSM**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) 方法所接收。</span><span class="sxs-lookup"><span data-stu-id="897f0-110">This notification is received by the [**IShellMenuCallback::CallbackSM**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) method.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="897f0-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="897f0-111">Requirements</span></span>
+
+
+
+| <span data-ttu-id="897f0-112">需求</span><span class="sxs-lookup"><span data-stu-id="897f0-112">Requirement</span></span> | <span data-ttu-id="897f0-113">值</span><span class="sxs-lookup"><span data-stu-id="897f0-113">Value</span></span> |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| <span data-ttu-id="897f0-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="897f0-114">Minimum supported client</span></span><br/> | <span data-ttu-id="897f0-115">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="897f0-115">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                              |
+| <span data-ttu-id="897f0-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="897f0-116">Minimum supported server</span></span><br/> | <span data-ttu-id="897f0-117">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="897f0-117">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="897f0-118">標頭</span><span class="sxs-lookup"><span data-stu-id="897f0-118">Header</span></span><br/>                   | <dl> <span data-ttu-id="897f0-119"><dt>Shobjidl.h。h</dt></span><span class="sxs-lookup"><span data-stu-id="897f0-119"><dt>Shobjidl.h</dt></span></span> </dl>   |
+| <span data-ttu-id="897f0-120">Idl</span><span class="sxs-lookup"><span data-stu-id="897f0-120">IDL</span></span><br/>                      | <dl> <span data-ttu-id="897f0-121"><dt>Shobjidl.h .idl</dt></span><span class="sxs-lookup"><span data-stu-id="897f0-121"><dt>Shobjidl.idl</dt></span></span> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+

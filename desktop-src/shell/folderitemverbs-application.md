@@ -1,0 +1,28 @@
+---
+description: FolderItemVerbs。應用程式屬性
+ms.assetid: 87e2c5a0-0162-493a-8924-d8c251e31c38
+title: FolderItemVerbs。應用程式屬性
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- kbSyntax
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 14384dc6e0ed84871d58cf728e1c269ebc30b0d9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104973205"
+---
+# <a name="folderitemverbsapplication-property"></a><span data-ttu-id="3e138-103">FolderItemVerbs。應用程式屬性</span><span class="sxs-lookup"><span data-stu-id="3e138-103">FolderItemVerbs.Application property</span></span>
+
+<span data-ttu-id="3e138-104">這個屬性未實作。</span><span class="sxs-lookup"><span data-stu-id="3e138-104">This property is not implemented.</span></span>
+
+ 
+
+ 
+
+
+
