@@ -1,0 +1,613 @@
+- name: Windows 遠端管理
+  href: portal.md
+  items:
+    - name: 關於 Windows 遠端管理
+      href: about-windows-remote-management.md
+      items:
+        - name: WinRM 2.0 的新功能
+          href: whats-new-in-winrm.md
+        - name: Windows 遠端管理的安裝和設定
+          href: installation-and-configuration-for-windows-remote-management.md
+        - name: Windows 遠端管理架構
+          href: windows-remote-management-architecture.md
+        - name: WS-Management 通訊協定
+          href: ws-management-protocol.md
+        - name: Windows 遠端管理中的腳本
+          href: scripting-in-windows-remote-management.md
+        - name: 遠端連線的驗證
+          href: authentication-for-remote-connections.md
+        - name: Proxy 伺服器和 WinRM
+          href: proxy-servers-and-winrm.md
+        - name: Windows 遠端管理和 WMI
+          href: windows-remote-management-and-wmi.md
+        - name: 透過關聯遍歷進行的 DMTF 設定檔探索
+          href: dmtf-association-traversal.md
+        - name: 管理託管服務的基礎結構
+          href: winrm-application-hosting.md
+        - name: IIS 主機外掛程式設定
+          href: iis-host-plug-in-configuration.md
+        - name: WinRM 服務外掛程式設定
+          href: wsman-service-plug-in-configuration.md
+        - name: 遠端 Shell 基礎結構改進
+          href: remote-shell-infrastructure-improvements.md
+          items:
+            - name: WinRM 中的多重躍點支援
+              href: multi-hop-support.md
+            - name: 遠端 Shell 的配額管理
+              href: quotas.md
+        - name: 資源 URI
+          href: resource-uris.md
+          items:
+            - name: URI 首碼
+              href: uri-prefixes.md
+        - name: 遠端硬體管理
+          href: remote-hardware-management.md
+        - name: 事件
+          href: events.md
+    - name: 使用 Windows 遠端管理
+      href: using-windows-remote-management.md
+      items:
+        - name: WinRM 最佳作法
+          href: winrm-best-practices.md
+        - name: 偵測遠端電腦是否支援 WS-Management 的通訊協定
+          href: detecting-whether-a-remote-computer-supports-ws-management-protocol.md
+        - name: 從本機電腦取得資料
+          href: obtaining-data-from-the-local-computer.md
+        - name: 從遠端電腦取得資料
+          href: obtaining-data-from-a-remote-computer.md
+        - name: 列舉或列出資源的所有實例
+          href: enumerating-or-listing-all-instances-of-a-resource.md
+        - name: 查詢資源的特定實例
+          href: querying-for-specific-instances-of-a-resource.md
+        - name: 顯示 WinRM 腳本的 XML 輸出
+          href: displaying-xml-output-from-winrm-scripts.md
+    - name: Windows 遠端管理參考
+      href: windows-remote-management-reference.md
+      items:
+        - name: WinRM 用戶端 Shell API
+          href: client-shell-api.md
+          items:
+            - name: 用戶端 Shell API 額外函式
+              href: client-shell-api-additional-functions.md
+              items:
+                - name: WSManGetErrorMessage
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmangeterrormessage
+                - name: WSManGetSessionOptionAsDword
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmangetsessionoptionasdword
+                - name: WSManGetSessionOptionAsString
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmangetsessionoptionasstring
+                - name: WSManSetSessionOption
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmansetsessionoption
+            - name: 用戶端 Shell API 核心函數
+              href: client-shell-api-core-functions.md
+              items:
+                - name: WSManCloseCommand
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanclosecommand
+                - name: WSManCloseOperation
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmancloseoperation
+                - name: WSManCloseSession
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanclosesession
+                - name: WSManCloseShell
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmancloseshell
+                - name: WSManConnectShell
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanconnectshell
+                - name: WSManConnectShellCommand
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanconnectshellcommand
+                - name: WSManCreateSession
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmancreatesession
+                - name: WSManCreateShell
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmancreateshell
+                - name: WSManCreateShellEx
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmancreateshellex
+                - name: WSManDeinitialize
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmandeinitialize
+                - name: WSManDisconnectShell
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmandisconnectshell
+                - name: WSManInitialize
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmaninitialize
+                - name: WSManReceiveShellOutput
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanreceiveshelloutput
+                - name: WSManReconnectShell
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanreconnectshell
+                - name: WSManReconnectShellCommand
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanreconnectshellcommand
+                - name: WSManRunShellCommand
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanrunshellcommand
+                - name: WSManRunShellCommandEx
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanrunshellcommandex
+                - name: WSManSendShellInput
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmansendshellinput
+                - name: WSManSignalShell
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmansignalshell
+            - name: 用戶端 Shell API 列舉
+              href: client-shell-api-enumerations.md
+              items:
+                - name: WSManAuthenticationFlags
+                  href: /windows/desktop/api/Wsman/ne-wsman-wsmanauthenticationflags
+                - name: WSManCallbackFlags
+                  href: /windows/desktop/api/Wsman/ne-wsman-wsmancallbackflags
+                - name: WSManDataType
+                  href: /windows/desktop/api/Wsman/ne-wsman-wsmandatatype
+                - name: WSManProxyAccessType
+                  href: /windows/desktop/api/Wsman/ne-wsman-wsmanproxyaccesstype
+                - name: New-wsmansessionoption
+                  href: /windows/desktop/api/Wsman/ne-wsman-wsmansessionoption
+            - name: 用戶端 Shell API 結構和定義
+              href: client-shell-api-structures.md
+              items:
+                - name: WSMAN_AUTHENTICATION_CREDENTIALS
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_authentication_credentials
+                - name: WSMAN_DATA
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_data
+                - name: WSMAN_DATA_BINARY
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_data_binary
+                - name: WSMAN_DATA_TEXT
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_data_text
+                - name: WSMAN_ENVIRONMENT_VARIABLE
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_environment_variable
+                - name: WSMAN_ENVIRONMENT_VARIABLE_SET
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_environment_variable_set
+                - name: WSMAN_ERROR
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_error
+                - name: WSMAN_KEY
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_key
+                - name: WSMAN_OPTION
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_option
+                - name: WSMAN_OPTION_SET
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_option_set
+                - name: WSMAN_PROXY_INFO
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_proxy_info
+                - name: WSMAN_RECEIVE_DATA_RESULT
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_receive_data_result
+                - name: WSMAN_RESPONSE_DATA
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_response_data
+                - name: WSMAN_SELECTOR_SET
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_selector_set
+                - name: WSMAN_SHELL_ASYNC
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_async
+                - name: WSMAN_SHELL_COMPLETION_FUNCTION
+                  href: /windows/desktop/api/wsman/nc-wsman-wsman_shell_completion_function
+                - name: WSMAN_SHELL_DISCONNECT_INFO
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_disconnect_info
+                - name: WSMAN_SHELL_STARTUP_INFO
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_startup_info_v10
+                - name: WSMAN_STREAM_ID_SET
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_stream_id_set
+                - name: WSMAN_USERNAME_PASSWORD_CREDS
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_username_password_creds
+        - name: WinRM 外掛程式 API
+          href: winrm-plugin-api.md
+          items:
+            - name: 授權外掛程式進入點
+              href: authorization-plug-in-entry-points.md
+              items:
+                - name: WSMAN_PLUGIN_AUTHORIZE_OPERATION
+                  href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation
+                - name: WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA
+                  href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota
+                - name: WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
+                  href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_release_context
+                - name: WSMAN_PLUGIN_AUTHORIZE_USER
+                  href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_user
+            - name: 授權外掛程式方法
+              href: authorization-plug-in-methods.md
+              items:
+                - name: WSManPluginAuthzOperationComplete
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginauthzoperationcomplete
+                - name: WSManPluginAuthzQueryQuotaComplete
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginauthzqueryquotacomplete
+                - name: WSManPluginAuthzUserComplete
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginauthzusercomplete
+            - name: 作業外掛程式進入點
+              href: operations-plug-in-entry-points.md
+              items:
+                - name: WSMAN_PLUGIN_COMMAND
+                  href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_command
+                - name: WSMAN_PLUGIN_CONNECT
+                  href: /windows/desktop/api/WsMan/nc-wsman-wsman_plugin_connect
+                - name: WSMAN_PLUGIN_RECEIVE
+                  href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_receive
+                - name: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
+                  href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_release_command_context
+                - name: WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT
+                  href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_release_shell_context
+                - name: WSMAN_PLUGIN_SEND
+                  href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_send
+                - name: WSMAN_PLUGIN_SHELL
+                  href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_shell
+                - name: WSMAN_PLUGIN_SHUTDOWN
+                  href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_shutdown
+                - name: WSMAN_PLUGIN_SIGNAL
+                  href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_signal
+                - name: WSMAN_PLUGIN_STARTUP
+                  href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_startup
+            - name: 操作外掛程式方法
+              href: operations-plug-in-methods.md
+              items:
+                - name: WSManPluginFreeRequestDetails
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginfreerequestdetails
+                - name: WSManPluginGetOperationParameters
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanplugingetoperationparameters
+                - name: WSManPluginOperationComplete
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginoperationcomplete
+                - name: WSManPluginReceiveResult
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginreceiveresult
+                - name: WSManPluginReportCoNtext
+                  href: /windows/desktop/api/Wsman/nf-wsman-wsmanpluginreportcontext
+            - name: WinRM 外掛程式 API 結構
+              href: winrm-plug-in-api-structures.md
+              items:
+                - name: WSMAN_AUTHZ_QUOTA
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_authz_quota
+                - name: WSMAN_CERTIFICATE_DETAILS
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_certificate_details
+                - name: WSMAN_COMMAND_ARG_SET
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_command_arg_set
+                - name: WSMAN_FILTER
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_filter
+                - name: WSMAN_FRAGMENT
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_fragment
+                - name: WSMAN_OPERATION_INFO
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_operation_info
+                - name: WSMAN_PLUGIN_REQUEST
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_plugin_request
+                - name: WSMAN_SENDER_DETAILS
+                  href: /windows/win32/api/Wsman/ns-wsman-wsman_sender_details
+        - name: WinRM 腳本 API
+          href: winrm-scripting-api.md
+          items:
+            - name: ConnectionOptions
+              href: connectionoptions.md
+              items:
+                - name: ConnectionOptions 屬性
+                  href: connectionoptions-properties.md
+                  items:
+                    - name: Password 屬性
+                      href: connectionoptions-password.md
+                    - name: UserName 屬性
+                      href: connectionoptions-username.md
+            - name: 列舉值
+              href: enumerator.md
+              items:
+                - name: 列舉值方法
+                  href: enumerator-methods.md
+                  items:
+                    - name: ReadItem 方法
+                      href: enumerator-readitem.md
+                - name: 列舉值屬性
+                  href: enumerator-properties.md
+                  items:
+                    - name: AtEndOfStream 屬性
+                      href: enumerator-atendofstream.md
+                    - name: Error 屬性
+                      href: enumerator-error.md
+            - name: ResourceLocator
+              href: resourcelocator.md
+              items:
+                - name: ResourceLocator 方法
+                  href: resourcelocator-methods.md
+                  items:
+                    - name: AddOption 方法
+                      href: resourcelocator-addoption.md
+                    - name: AddSelector 方法
+                      href: resourcelocator-addselector.md
+                    - name: ClearOptions 方法
+                      href: resourcelocator-clearoptions.md
+                    - name: ClearSelectors 方法
+                      href: resourcelocator-clearselectors.md
+                - name: ResourceLocator 屬性
+                  href: resourcelocator-properties.md
+                  items:
+                    - name: Error 屬性
+                      href: resourcelocator-error.md
+                    - name: FragmentDialect 屬性
+                      href: resourcelocator-fragmentdialect.md
+                    - name: FragmentPath 屬性
+                      href: resourcelocator-fragmentpath.md
+                    - name: MustUnderstandOptions 屬性
+                      href: resourcelocator-mustunderstandoptions.md
+                    - name: ResourceURI 屬性
+                      href: resourcelocator-resourceuri.md
+            - name: 工作階段
+              href: session.md
+              items:
+                - name: 會話方法
+                  href: session-methods.md
+                  items:
+                    - name: Create 方法
+                      href: session-create.md
+                    - name: Delete 方法
+                      href: session-delete.md
+                    - name: 列舉方法
+                      href: session-enumerate.md
+                    - name: Get 方法
+                      href: session-get.md
+                    - name: 識別方法
+                      href: session-identify.md
+                    - name: Invoke 方法
+                      href: session-invoke.md
+                    - name: Put 方法
+                      href: session-put.md
+                - name: 工作階段屬性
+                  href: session-properties.md
+                  items:
+                    - name: BatchItems 屬性
+                      href: session-batchitems.md
+                    - name: Error 屬性
+                      href: session-error.md
+                    - name: Timeout 屬性
+                      href: session-timeout.md
+            - name: WSMan
+              href: wsman.md
+              items:
+                - name: WSMan 方法
+                  href: wsman-methods.md
+                  items:
+                    - name: CreateConnectionOptions 方法
+                      href: wsman-createconnectionoptions.md
+                    - name: CreateResourceLocator 方法
+                      href: wsman-createresourcelocator.md
+                    - name: CreateSession 方法
+                      href: wsman-createsession.md
+                    - name: EnumerationFlagHierarchyDeep 方法
+                      href: wsman-enumerationflaghierarchydeep.md
+                    - name: EnumerationFlagHierarchyDeepBasePropsOnly 方法
+                      href: wsman-enumerationflaghierarchydeepbasepropsonly.md
+                    - name: EnumerationFlagHierarchyShallow 方法
+                      href: wsman-enumerationflaghierarchyshallow.md
+                    - name: EnumerationFlagNonXmlText 方法
+                      href: wsman-enumerationflagnonxmltext.md
+                    - name: EnumerationFlagReturnEPR 方法
+                      href: wsman-enumerationflagreturnepr.md
+                    - name: EnumerationFlagReturnObject 方法
+                      href: wsman-enumerationflagreturnobject.md
+                    - name: EnumerationFlagReturnObjectAndEPR 方法
+                      href: wsman-enumerationflagreturnobjectandepr.md
+                    - name: GetErrorMessage 方法
+                      href: wsman-geterrormessage.md
+                    - name: SessionFlagCredUsernamePassword 方法
+                      href: wsman-sessionflagcredusernamepassword.md
+                    - name: SessionFlagEnableSPNServerPort 方法
+                      href: wsman-sessionflagenablespnserverport.md
+                    - name: SessionFlagNoEncryption 方法
+                      href: wsman-sessionflagnoencryption.md
+                    - name: SessionFlagSkipCACheck 方法
+                      href: wsman-sessionflagskipcacheck.md
+                    - name: SessionFlagSkipCNCheck 方法
+                      href: wsman-sessionflagskipcncheck.md
+                    - name: SessionFlagUseBasic 方法
+                      href: wsman-sessionflagusebasic.md
+                    - name: SessionFlagUseClientCertificate 方法
+                      href: wsman-sessionflaguseclientcert.md
+                    - name: SessionFlagUseCredSsp 方法
+                      href: wsman-sessionflagusecredssp.md
+                    - name: SessionFlagUseDigest 方法
+                      href: wsman-sessionflagusedigest.md
+                    - name: SessionFlagUseKerberos 方法
+                      href: wsman-sessionflagusekerberos.md
+                    - name: SessionFlagUseNegotiate 方法
+                      href: wsman-sessionflagusenegotiate.md
+                    - name: SessionFlagUseNoAuthentication 方法
+                      href: wsman-sessionflagusenoauthentication.md
+                    - name: SessionFlagUTF8 方法
+                      href: wsman-sessionflagutf8.md
+                - name: WSMan 屬性
+                  href: wsman-properties.md
+                  items:
+                    - name: 命令列屬性
+                      href: wsman-commandline.md
+                    - name: Error 屬性
+                      href: wsman-error.md
+        - name: WinRM c + + API
+          href: winrm-c---api.md
+          items:
+            - name: IWSMan
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsman
+              items:
+                - name: IWSMan 方法
+                  href: iwsman-methods.md
+                  items:
+                    - name: CreateConnectionOptions 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-createconnectionoptions
+                    - name: CreateSession 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-createsession
+                - name: IWSMan 屬性
+                  href: iwsman-properties.md
+                  items:
+                    - name: 命令列屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-get_commandline
+                    - name: Error 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-get_error
+            - name: IWSManConnectionOptions
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanconnectionoptions
+              items:
+                - name: IWSManConnectionOptions 屬性
+                  href: iwsmanconnectionoptions-properties.md
+                  items:
+                    - name: Password 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptions-put_password
+                    - name: UserName 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptions-get_username
+            - name: IWSManConnectionOptionsEx
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanconnectionoptionsex
+              items:
+                - name: IWSManConnectionOptionsEx 屬性
+                  href: iwsmanconnectionoptionsex-properties.md
+                  items:
+                    - name: CertificateThumbprint 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex-get_certificatethumbprint
+            - name: IWSManConnectionOptionsEx2
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanconnectionoptionsex2
+              items:
+                - name: IWSManConnectionOptionsEx2 方法
+                  href: iwsmanconnectionoptionsex2-methods.md
+                  items:
+                    - name: ProxyAuthenticationUseBasic 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyauthenticationusebasic
+                    - name: ProxyAuthenticationUseDigest 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyauthenticationusedigest
+                    - name: ProxyAuthenticationUseNegotiate 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyauthenticationusenegotiate
+                    - name: ProxyAutoDetect 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyautodetect
+                    - name: ProxyIEConfig 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyieconfig
+                    - name: ProxyNoProxyServer 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxynoproxyserver
+                    - name: ProxyWinHttpConfig 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxywinhttpconfig
+                    - name: SetProxy 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-setproxy
+            - name: IWSManEnumerator
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanenumerator
+              items:
+                - name: IWSManEnumerator 方法
+                  href: iwsmanenumerator-methods.md
+                  items:
+                    - name: ReadItem 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanenumerator-readitem
+                - name: IWSManEnumerator 屬性
+                  href: iwsmanenumerator-properties.md
+                  items:
+                    - name: AtEndOfStream 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanenumerator-get_atendofstream
+                    - name: Error 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanenumerator-get_error
+            - name: IWSManEx
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex
+              items:
+                - name: IWSManEx 方法
+                  href: iwsmanex-methods.md
+                  items:
+                    - name: CreateResourceLocator 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-createresourcelocator
+                    - name: EnumerationFlagHierarchyDeep 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeep
+                    - name: EnumerationFlagHierarchyDeepBasePropsOnly 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeepbasepropsonly
+                    - name: EnumerationFlagHierarchyShallow 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchyshallow
+                    - name: EnumerationFlagNonXmlText 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagnonxmltext
+                    - name: EnumerationFlagReturnEPR 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnepr
+                    - name: EnumerationFlagReturnObject 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobject
+                    - name: EnumerationFlagReturnObjectAndEPR 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobjectandepr
+                    - name: GetErrorMessage 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-geterrormessage
+                    - name: SessionFlagCredUsernamePassword 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagcredusernamepassword
+                    - name: SessionFlagEnableSPNServerPort 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagenablespnserverport
+                    - name: SessionFlagNoEncryption 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagnoencryption
+                    - name: SessionFlagSkipCACheck 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagskipcacheck
+                    - name: SessionFlagSkipCNCheck 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagskipcncheck
+                    - name: SessionFlagUseBasic 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusebasic
+                    - name: SessionFlagUseDigest 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusedigest
+                    - name: SessionFlagUseKerberos 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusekerberos
+                    - name: SessionFlagUseNegotiate 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusenegotiate
+                    - name: SessionFlagUseNoAuthentication 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusenoauthentication
+                    - name: SessionFlagUTF8 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagutf8
+            - name: IWSManEx2
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex2
+              items:
+                - name: IWSManEx2 方法
+                  href: iwsmanex2-methods.md
+                  items:
+                    - name: SessionFlagUseClientCertificate 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex2-sessionflaguseclientcertificate
+            - name: IWSManEx3
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex3
+              items:
+                - name: IWSManEx3 方法
+                  href: iwsmanex3-methods.md
+                  items:
+                    - name: SessionFlagUseCredSsp 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex3-sessionflagusecredssp
+            - name: IWSManResourceLocator
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator
+              items:
+                - name: IWSManResourceLocator 方法
+                  href: iwsmanresourcelocator-methods.md
+                  items:
+                    - name: AddOption 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-addoption
+                    - name: AddSelector 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-addselector
+                    - name: ClearOptions 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-clearoptions
+                    - name: ClearSelectors 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-clearselectors
+                - name: IWSManResourceLocator 屬性
+                  href: iwsmanresourcelocator-properties.md
+                  items:
+                    - name: Error 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_error
+                    - name: FragmentDialect 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentdialect
+                    - name: FragmentPath 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentpath
+                    - name: MustUnderstandOptions 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_mustunderstandoptions
+                    - name: ResourceURI 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_resourceuri
+            - name: Iwsmansession.invoke
+              href: /windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmansession
+              items:
+                - name: Iwsmansession.invoke 方法
+                  href: iwsmansession-methods.md
+                  items:
+                    - name: Create 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-create
+                    - name: Delete 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-delete
+                    - name: 列舉方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate
+                    - name: Get 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-get
+                    - name: 識別方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-identify
+                    - name: Invoke 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-invoke
+                    - name: Put 方法
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-put
+                - name: Iwsmansession.invoke 屬性
+                  href: iwsmansession-properties.md
+                  items:
+                    - name: BatchItems 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-get_batchitems
+                    - name: Error 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-get_error
+                    - name: Timeout 屬性
+                      href: /windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-get_timeout
+            - name: WinRM 常數和列舉
+              href: winrm-constants-and-enumerations.md
+              items:
+                - name: 會話常數
+                  href: session-constants.md
+                  items:
+                    - name: 驗證常數
+                      href: authentication-constants.md
+                    - name: 其他會話常數
+                      href: other-session-constants.md
+                - name: 列舉常數
+                  href: enumeration-constants.md
+                - name: WSManProxyAccessTypeFlags
+                  href: /windows/win32/api/WSManDisp/ne-wsmandisp-wsmanproxyaccesstypeflags
+                - name: WSManProxyAuthenticationFlags
+                  href: /windows/win32/api/WSManDisp/ne-wsmandisp-wsmanproxyauthenticationflags
+        - name: WinRM Windows PowerShell 命令類別的受控參考
+          href: winrm-powershell-commandlets.md
+    - name: Windows 遠端管理詞彙
+      href: windows-remote-management-glossary.md

@@ -1,0 +1,4973 @@
+- name: Active Directory 架構
+  href: active-directory-schema.md
+  items:
+    - name: Active Directory 架構術語
+      href: active-directory-schema-site.md
+    - name: 類別
+      href: classes.md
+      items:
+        - name: 所有類別
+          href: classes-all.md
+          items:
+            - name: account
+              href: c-account.md
+            - name: ACS-Policy
+              href: c-acspolicy.md
+            - name: ACS-資源-限制
+              href: c-acsresourcelimits.md
+            - name: ACS-Subnet
+              href: c-acssubnet.md
+            - name: 通訊錄-容器
+              href: c-addressbookcontainer.md
+            - name: Address-Template
+              href: c-addresstemplate.md
+            - name: Application-Entity
+              href: c-applicationentity.md
+            - name: Application-Process
+              href: c-applicationprocess.md
+            - name: Application-Settings
+              href: c-applicationsettings.md
+            - name: 應用程式-網站-設定
+              href: c-applicationsitesettings.md
+            - name: Application-Version
+              href: c-applicationversion.md
+            - name: Attribute-Schema
+              href: c-attributeschema.md
+            - name: bootableDevice
+              href: c-bootabledevice.md
+            - name: Builtin-Domain
+              href: c-builtindomain.md
+            - name: Category-Registration
+              href: c-categoryregistration.md
+            - name: Certification-Authority
+              href: c-certificationauthority.md
+            - name: Class-Registration
+              href: c-classregistration.md
+            - name: Class-Schema
+              href: c-classschema.md
+            - name: Class-Store
+              href: c-classstore.md
+            - name: Com-連接點
+              href: c-comconnectionpoint.md
+            - name: 電腦
+              href: c-computer.md
+            - name: 組態
+              href: c-configuration.md
+            - name: Connection-Point
+              href: c-connectionpoint.md
+            - name: Contact
+              href: c-contact.md
+            - name: 容器
+              href: c-container.md
+            - name: Control-存取權限
+              href: c-controlaccessright.md
+            - name: 國家/地區
+              href: c-country.md
+            - name: CRL-發佈點
+              href: c-crldistributionpoint.md
+            - name: 交叉參考
+              href: c-crossref.md
+            - name: 交叉參考容器
+              href: c-crossrefcontainer.md
+            - name: 裝置
+              href: c-device.md
+            - name: Dfs-Configuration
+              href: c-dfsconfiguration.md
+            - name: DHCP-Class
+              href: c-dhcpclass.md
+            - name: Display-Specifier
+              href: c-displayspecifier.md
+            - name: Display-Template
+              href: c-displaytemplate.md
+            - name: Dmd
+              href: c-dmd.md
+            - name: Dns-Node
+              href: c-dnsnode.md
+            - name: Dns-Zone
+              href: c-dnszone.md
+            - name: 文件
+              href: c-document.md
+            - name: documentSeries
+              href: c-documentseries.md
+            - name: 網域
+              href: c-domain.md
+            - name: 網域 DNS
+              href: c-domaindns.md
+            - name: Domain-Policy
+              href: c-domainpolicy.md
+            - name: domainRelatedObject
+              href: c-domainrelatedobject.md
+            - name: DSA
+              href: c-dsa.md
+            - name: DS-UI-設定
+              href: c-dsuisettings.md
+            - name: Dynamic-Object
+              href: c-dynamicobject.md
+            - name: 檔案-連結-追蹤
+              href: c-filelinktracking.md
+            - name: 檔案-連結追蹤-進入
+              href: c-filelinktrackingentry.md
+            - name: 外部安全性-主體
+              href: c-foreignsecurityprincipal.md
+            - name: friendlyCountry
+              href: c-friendlycountry.md
+            - name: FT-Dfs
+              href: c-ftdfs.md
+            - name: Group
+              href: c-group.md
+            - name: 名稱群組
+              href: c-groupofnames.md
+            - name: groupOfUniqueNames
+              href: c-groupofuniquenames.md
+            - name: 群組-原則-容器
+              href: c-grouppolicycontainer.md
+            - name: ieee802Device
+              href: c-ieee802device.md
+            - name: 索引-伺服器-目錄
+              href: c-indexservercatalog.md
+            - name: inetOrgPerson
+              href: c-inetorgperson.md
+            - name: Infrastructure-Update
+              href: c-infrastructureupdate.md
+            - name: Intellimirror-Group
+              href: c-intellimirrorgroup.md
+            - name: Intellimirror-SCP
+              href: c-intellimirrorscp.md
+            - name: 站間-傳輸
+              href: c-intersitetransport.md
+            - name: 站間-傳輸-容器
+              href: c-intersitetransportcontainer.md
+            - name: ipHost
+              href: c-iphost.md
+            - name: ipNetwork
+              href: c-ipnetwork.md
+            - name: ipProtocol
+              href: c-ipprotocol.md
+            - name: Ipsec-Base
+              href: c-ipsecbase.md
+            - name: Ipsec-Filter
+              href: c-ipsecfilter.md
+            - name: Ipsec-ISAKMP-原則
+              href: c-ipsecisakmppolicy.md
+            - name: Ipsec-協調原則
+              href: c-ipsecnegotiationpolicy.md
+            - name: Ipsec-NFA
+              href: c-ipsecnfa.md
+            - name: Ipsec-Policy
+              href: c-ipsecpolicy.md
+            - name: ipService
+              href: c-ipservice.md
+            - name: Leaf
+              href: c-leaf.md
+            - name: 授權-網站-設定
+              href: c-licensingsitesettings.md
+            - name: 連結-追蹤-物件-移動資料表
+              href: c-linktrackobjectmovetable.md
+            - name: 連結-追蹤-OMT-Entry
+              href: c-linktrackomtentry.md
+            - name: 連結-追蹤-音量-進入
+              href: c-linktrackvolentry.md
+            - name: 連結-追蹤-磁片區資料表
+              href: c-linktrackvolumetable.md
+            - name: 位置
+              href: c-locality.md
+            - name: 遺失並找出
+              href: c-lostandfound.md
+            - name: Mail-Recipient
+              href: c-mailrecipient.md
+            - name: 會議
+              href: c-meeting.md
+            - name: ms-Authz-存取-原則
+              href: c-msauthz-centralaccesspolicies.md
+            - name: ms-Authz-存取-原則
+              href: c-msauthz-centralaccesspolicy.md
+            - name: ms-Authz-存取-規則
+              href: c-msauthz-centralaccessrule.md
+            - name: ms-Authz-集中存取-規則
+              href: c-msauthz-centralaccessrules.md
+            - name: ms-COM-資料分割
+              href: c-mscom-partition.md
+            - name: PartitionSet
+              href: c-mscom-partitionset.md
+            - name: ms-DFS-Deleted-Link-v2
+              href: c-msdfs-deletedlinkv2.md
+            - name: ms-DFS-Link-v2
+              href: c-msdfs-linkv2.md
+            - name: ms-DFS-Namespace-Anchor
+              href: c-msdfs-namespaceanchor.md
+            - name: ms-DFS-Namespace-v2
+              href: c-msdfs-namespacev2.md
+            - name: ms-DFSR-連接
+              href: c-msdfsr-connection.md
+            - name: ms-DFSR-內容
+              href: c-msdfsr-content.md
+            - name: ms-DFSR-ContentSet
+              href: c-msdfsr-contentset.md
+            - name: ms-DFSR-GlobalSettings
+              href: c-msdfsr-globalsettings.md
+            - name: ms-DFSR-LocalSettings
+              href: c-msdfsr-localsettings.md
+            - name: ms-DFSR-成員
+              href: c-msdfsr-member.md
+            - name: ms-DFSR-ReplicationGroup
+              href: c-msdfsr-replicationgroup.md
+            - name: ms-DFSR-訂閱者
+              href: c-msdfsr-subscriber.md
+            - name: ms-DFSR-訂用帳戶
+              href: c-msdfsr-subscription.md
+            - name: 毫秒-DFSR-拓撲
+              href: c-msdfsr-topology.md
+            - name: ms-DNS-伺服器-設定
+              href: c-msdns-serversettings.md
+            - name: ms DS-應用程式-設定
+              href: c-msds-app-configuration.md
+            - name: ms DS-應用程式-資料
+              href: c-msds-appdata.md
+            - name: ms-chap-Az-管理管理員
+              href: c-msds-azadminmanager.md
+            - name: ms DS-Az-應用程式
+              href: c-msds-azapplication.md
+            - name: ms-chap-Az-Operation
+              href: c-msds-azoperation.md
+            - name: ms DS-Az-Role
+              href: c-msds-azrole.md
+            - name: ms DS-Az-範圍
+              href: c-msds-azscope.md
+            - name: ms DS-Az-Task
+              href: c-msds-aztask.md
+            - name: ms DS 可系結-物件
+              href: c-msds-bindableobject.md
+            - name: ms DS-系結-Proxy
+              href: c-msds-bindproxy.md
+            - name: ms-DS-宣告-轉換-原則
+              href: c-msds-claimstransformationpolicies.md
+            - name: ms-DS-宣告-轉換-原則類型
+              href: c-msds-claimstransformationpolicytype.md
+            - name: ms-DS-宣告類型
+              href: c-msds-claimtype.md
+            - name: ms-DS------Property-Base
+              href: c-msds-claimtypepropertybase.md
+            - name: ms-DS-宣告類型
+              href: c-msds-claimtypes.md
+            - name: ms-DS-群組管理-服務-帳戶
+              href: c-msds-groupmanagedserviceaccount.md
+            - name: ms DS 管理-服務-帳戶
+              href: c-msds-managedserviceaccount.md
+            - name: ms-DS-選用-功能
+              href: c-msds-optionalfeature.md
+            - name: ms-DS-Password-Settings
+              href: c-msds-passwordsettings.md
+            - name: ms-DS-Password-Settings-Container
+              href: c-msds-passwordsettingscontainer.md
+            - name: ms DS-配額-容器
+              href: c-msds-quotacontainer.md
+            - name: ms-DS-配額-控制
+              href: c-msds-quotacontrol.md
+            - name: ms DS-資源-屬性
+              href: c-msds-resourceproperties.md
+            - name: ms DS-資源-屬性
+              href: c-msds-resourceproperty.md
+            - name: ms-DS-資源-屬性清單
+              href: c-msds-resourcepropertylist.md
+            - name: ms-DS-服務-連接點-發行集-服務
+              href: c-msds-serviceconnectionpointpublicationservice.md
+            - name: ms DS-數值型別
+              href: c-msds-valuetype.md
+            - name: Ms-exch-assistant-name-Configuration-容器
+              href: c-msexchconfigurationcontainer.md
+            - name: ms-FVE-RecoveryInformation
+              href: c-msfve-recoveryinformation.md
+            - name: ms-ieee-80211-原則
+              href: c-msieee80211-policy.md
+            - name: 毫秒-映射-PostScanProcess
+              href: c-msimaging-postscanprocess.md
+            - name: 毫秒-映射-PSPs
+              href: c-msimaging-psps.md
+            - name: Kds 根金鑰->prov-RootKey
+              href: c-mskds-provrootkey.md
+            - name: Kds 根金鑰->prov-ServerConfiguration
+              href: c-mskds-provserverconfiguration.md
+            - name: MSMQ-Configuration
+              href: c-msmqconfiguration.md
+            - name: MSMQ-自訂-收件者
+              href: c-msmq-custom-recipient.md
+            - name: MSMQ-企業-設定
+              href: c-msmqenterprisesettings.md
+            - name: MSMQ-Group
+              href: c-msmq-group.md
+            - name: MSMQ 遷移-使用者
+              href: c-msmqmigrateduser.md
+            - name: MSMQ-Queue
+              href: c-msmqqueue.md
+            - name: MSMQ-Settings
+              href: c-msmqsettings.md
+            - name: MSMQ-網站連結
+              href: c-msmqsitelink.md
+            - name: ms-net-ieee-80211-GroupPolicy
+              href: c-ms-net-ieee-80211-grouppolicy.md
+            - name: ms-net-ieee-8023-GroupPolicy
+              href: c-ms-net-ieee-8023-grouppolicy.md
+            - name: ms-PKI-企業-Oid
+              href: c-mspki-enterprise-oid.md
+            - name: ms-PKI-金鑰復原-代理程式
+              href: c-mspki-key-recovery-agent.md
+            - name: ms-PKI-私用金鑰-復原代理程式
+              href: c-mspki-privatekeyrecoveryagent.md
+            - name: 毫秒-列印-ConnectionPolicy
+              href: c-msprint-connectionpolicy.md
+            - name: msSFU-30-網域資訊
+              href: c-mssfu30domaininfo.md
+            - name: msSFU-30-Mail-別名
+              href: c-mssfu30mailaliases.md
+            - name: msSFU-30-Net-Id
+              href: c-mssfu30netid.md
+            - name: msSFU-30-網路-使用者
+              href: c-mssfu30networkuser.md
+            - name: msSFU-30-NIS-對應-Config
+              href: c-mssfu30nismapconfig.md
+            - name: ms SPP-啟用-物件
+              href: c-msspp-activationobject.md
+            - name: SPP-啟用-物件-容器
+              href: c-msspp-activationobjectscontainer.md
+            - name: OLAPCube
+              href: c-ms-sql-olapcube.md
+            - name: OLAPDatabase
+              href: c-ms-sql-olapdatabase.md
+            - name: Olapserver.server
+              href: c-ms-sql-olapserver.md
+            - name: SQLDatabase
+              href: c-ms-sql-sqldatabase.md
+            - name: SQLPublication
+              href: c-ms-sql-sqlpublication.md
+            - name: SQLRepository
+              href: c-ms-sql-sqlrepository.md
+            - name: MS-CHAP-SQLServer
+              href: c-ms-sql-sqlserver.md
+            - name: ms-TAPI-Rt-會議
+              href: c-mstapi-rtconference.md
+            - name: ms-TAPI-Rt-Person
+              href: c-mstapi-rtperson.md
+            - name: ms-TPM-資訊-物件
+              href: c-mstpm-informationobject.md
+            - name: ms-TPM-資訊-物件-容器
+              href: c-mstpm-informationobjectscontainer.md
+            - name: IntRangeParam
+              href: c-mswmi-intrangeparam.md
+            - name: IntSetParam
+              href: c-mswmi-intsetparam.md
+            - name: MergeablePolicyTemplate
+              href: c-mswmi-mergeablepolicytemplate.md
+            - name: ObjectEncoding
+              href: c-mswmi-objectencoding.md
+            - name: PolicyTemplate
+              href: c-mswmi-policytemplate.md
+            - name: PolicyType
+              href: c-mswmi-policytype.md
+            - name: RangeParam
+              href: c-mswmi-rangeparam.md
+            - name: RealRangeParam
+              href: c-mswmi-realrangeparam.md
+            - name: ms-WMI-規則
+              href: c-mswmi-rule.md
+            - name: ShadowObject
+              href: c-mswmi-shadowobject.md
+            - name: SimplePolicyTemplate
+              href: c-mswmi-simplepolicytemplate.md
+            - name: ms-WMI-Som
+              href: c-mswmi-som.md
+            - name: StringSetParam
+              href: c-mswmi-stringsetparam.md
+            - name: UintRangeParam
+              href: c-mswmi-uintrangeparam.md
+            - name: UintSetParam
+              href: c-mswmi-uintsetparam.md
+            - name: UnknownRangeParam
+              href: c-mswmi-unknownrangeparam.md
+            - name: WMIGPO
+              href: c-mswmi-wmigpo.md
+            - name: nisMap
+              href: c-nismap.md
+            - name: nisNetgroup
+              href: c-nisnetgroup.md
+            - name: nisObject
+              href: c-nisobject.md
+            - name: NTDS-Connection
+              href: c-ntdsconnection.md
+            - name: NTDS-DSA
+              href: c-ntdsdsa.md
+            - name: NTDS-DSA-RO
+              href: c-ntdsdsaro.md
+            - name: NTDS-Service
+              href: c-ntdsservice.md
+            - name: NTDS-Site-設定
+              href: c-ntdssitesettings.md
+            - name: NTFRS-Member
+              href: c-ntfrsmember.md
+            - name: NTFRS-複本集
+              href: c-ntfrsreplicaset.md
+            - name: NTFRS-Settings
+              href: c-ntfrssettings.md
+            - name: NTFRS-Subscriber
+              href: c-ntfrssubscriber.md
+            - name: NTFRS-Subscriptions
+              href: c-ntfrssubscriptions.md
+            - name: oncRpc
+              href: c-oncrpc.md
+            - name: 組織
+              href: c-organization.md
+            - name: Organizational-Person
+              href: c-organizationalperson.md
+            - name: Organizational-Role
+              href: c-organizationalrole.md
+            - name: Organizational-Unit
+              href: c-organizationalunit.md
+            - name: Package-Registration
+              href: c-packageregistration.md
+            - name: 個人
+              href: c-person.md
+            - name: Physical-Location
+              href: c-physicallocation.md
+            - name: PKI-憑證-範本
+              href: c-pkicertificatetemplate.md
+            - name: PKI-註冊-服務
+              href: c-pkienrollmentservice.md
+            - name: posixAccount
+              href: c-posixaccount.md
+            - name: posixGroup
+              href: c-posixgroup.md
+            - name: Print-Queue
+              href: c-printqueue.md
+            - name: Query-Policy
+              href: c-querypolicy.md
+            - name: 遠端郵件-收件者
+              href: c-remotemailrecipient.md
+            - name: 遠端存放服務-點
+              href: c-remotestorageservicepoint.md
+            - name: Residential-Person
+              href: c-residentialperson.md
+            - name: rFC822LocalPart
+              href: c-rfc822localpart.md
+            - name: RID-Manager
+              href: c-ridmanager.md
+            - name: RID-Set
+              href: c-ridset.md
+            - name: 房間
+              href: c-room.md
+            - name: Rpc-Container
+              href: c-rpccontainer.md
+            - name: rpc-Entry
+              href: c-rpcentry.md
+            - name: rpc 群組
+              href: c-rpcgroup.md
+            - name: rpc-設定檔
+              href: c-rpcprofile.md
+            - name: rpc 設定檔-元素
+              href: c-rpcprofileelement.md
+            - name: rpc-伺服器
+              href: c-rpcserver.md
+            - name: rpc-Server 元素
+              href: c-rpcserverelement.md
+            - name: RRAS-管理-連接點
+              href: c-rrasadministrationconnectionpoint.md
+            - name: RRAS-管理-字典
+              href: c-rrasadministrationdictionary.md
+            - name: Sam-Domain
+              href: c-samdomain.md
+            - name: Sam-網域-基礎
+              href: c-samdomainbase.md
+            - name: Sam-Server
+              href: c-samserver.md
+            - name: 祕密
+              href: c-secret.md
+            - name: Security-Object
+              href: c-securityobject.md
+            - name: Security-Principal
+              href: c-securityprincipal.md
+            - name: 伺服器
+              href: c-server.md
+            - name: Servers-Container
+              href: c-serverscontainer.md
+            - name: 服務管理-點
+              href: c-serviceadministrationpoint.md
+            - name: Service-Class
+              href: c-serviceclass.md
+            - name: 服務-連接點
+              href: c-serviceconnectionpoint.md
+            - name: Service-Instance
+              href: c-serviceinstance.md
+            - name: shadowAccount
+              href: c-shadowaccount.md
+            - name: simpleSecurityObject
+              href: c-simplesecurityobject.md
+            - name: 網站
+              href: c-site.md
+            - name: Site-Link
+              href: c-sitelink.md
+            - name: 網站-連結-橋接器
+              href: c-sitelinkbridge.md
+            - name: Sites-Container
+              href: c-sitescontainer.md
+            - name: 儲存體
+              href: c-storage.md
+            - name: 子網路
+              href: c-subnet.md
+            - name: Subnet-Container
+              href: c-subnetcontainer.md
+            - name: Ubschema
+              href: c-subschema.md
+            - name: 頁首
+              href: c-top.md
+            - name: Trusted-Domain
+              href: c-trusteddomain.md
+            - name: Type-Library
+              href: c-typelibrary.md
+            - name: User
+              href: c-user.md
+            - name: 磁碟區
+              href: c-volume.md
+        - name: 結構化類別
+          href: classes-structural.md
+          items:
+            - name: account
+              href: c-account.md
+            - name: ACS-Policy
+              href: c-acspolicy.md
+            - name: ACS-資源-限制
+              href: c-acsresourcelimits.md
+            - name: ACS-Subnet
+              href: c-acssubnet.md
+            - name: 通訊錄-容器
+              href: c-addressbookcontainer.md
+            - name: Address-Template
+              href: c-addresstemplate.md
+            - name: Application-Entity
+              href: c-applicationentity.md
+            - name: Application-Process
+              href: c-applicationprocess.md
+            - name: Application-Version
+              href: c-applicationversion.md
+            - name: Attribute-Schema
+              href: c-attributeschema.md
+            - name: Builtin-Domain
+              href: c-builtindomain.md
+            - name: Category-Registration
+              href: c-categoryregistration.md
+            - name: Certification-Authority
+              href: c-certificationauthority.md
+            - name: Class-Registration
+              href: c-classregistration.md
+            - name: Class-Schema
+              href: c-classschema.md
+            - name: Class-Store
+              href: c-classstore.md
+            - name: Com-連接點
+              href: c-comconnectionpoint.md
+            - name: 電腦
+              href: c-computer.md
+            - name: 組態
+              href: c-configuration.md
+            - name: Contact
+              href: c-contact.md
+            - name: 容器
+              href: c-container.md
+            - name: Control-存取權限
+              href: c-controlaccessright.md
+            - name: CRL-發佈點
+              href: c-crldistributionpoint.md
+            - name: 交叉參考
+              href: c-crossref.md
+            - name: 交叉參考容器
+              href: c-crossrefcontainer.md
+            - name: Dfs-Configuration
+              href: c-dfsconfiguration.md
+            - name: DHCP-Class
+              href: c-dhcpclass.md
+            - name: Display-Specifier
+              href: c-displayspecifier.md
+            - name: Display-Template
+              href: c-displaytemplate.md
+            - name: Dmd
+              href: c-dmd.md
+            - name: Dns-Node
+              href: c-dnsnode.md
+            - name: Dns-Zone
+              href: c-dnszone.md
+            - name: 文件
+              href: c-document.md
+            - name: documentSeries
+              href: c-documentseries.md
+            - name: 網域 DNS
+              href: c-domaindns.md
+            - name: Domain-Policy
+              href: c-domainpolicy.md
+            - name: DSA
+              href: c-dsa.md
+            - name: DS-UI-設定
+              href: c-dsuisettings.md
+            - name: 檔案-連結-追蹤
+              href: c-filelinktracking.md
+            - name: 檔案-連結追蹤-進入
+              href: c-filelinktrackingentry.md
+            - name: 外部安全性-主體
+              href: c-foreignsecurityprincipal.md
+            - name: friendlyCountry
+              href: c-friendlycountry.md
+            - name: FT-Dfs
+              href: c-ftdfs.md
+            - name: Group
+              href: c-group.md
+            - name: groupOfUniqueNames
+              href: c-groupofuniquenames.md
+            - name: 群組-原則-容器
+              href: c-grouppolicycontainer.md
+            - name: 索引-伺服器-目錄
+              href: c-indexservercatalog.md
+            - name: inetOrgPerson
+              href: c-inetorgperson.md
+            - name: Infrastructure-Update
+              href: c-infrastructureupdate.md
+            - name: Intellimirror-Group
+              href: c-intellimirrorgroup.md
+            - name: Intellimirror-SCP
+              href: c-intellimirrorscp.md
+            - name: 站間-傳輸
+              href: c-intersitetransport.md
+            - name: 站間-傳輸-容器
+              href: c-intersitetransportcontainer.md
+            - name: ipNetwork
+              href: c-ipnetwork.md
+            - name: ipProtocol
+              href: c-ipprotocol.md
+            - name: Ipsec-Filter
+              href: c-ipsecfilter.md
+            - name: Ipsec-ISAKMP-原則
+              href: c-ipsecisakmppolicy.md
+            - name: Ipsec-協調原則
+              href: c-ipsecnegotiationpolicy.md
+            - name: Ipsec-NFA
+              href: c-ipsecnfa.md
+            - name: Ipsec-Policy
+              href: c-ipsecpolicy.md
+            - name: ipService
+              href: c-ipservice.md
+            - name: 授權-網站-設定
+              href: c-licensingsitesettings.md
+            - name: 連結-追蹤-物件-移動資料表
+              href: c-linktrackobjectmovetable.md
+            - name: 連結-追蹤-OMT-Entry
+              href: c-linktrackomtentry.md
+            - name: 連結-追蹤-音量-進入
+              href: c-linktrackvolentry.md
+            - name: 連結-追蹤-磁片區資料表
+              href: c-linktrackvolumetable.md
+            - name: 位置
+              href: c-locality.md
+            - name: 遺失並找出
+              href: c-lostandfound.md
+            - name: 會議
+              href: c-meeting.md
+            - name: ms-Authz-存取-原則
+              href: c-msauthz-centralaccesspolicies.md
+            - name: ms-Authz-存取-原則
+              href: c-msauthz-centralaccesspolicy.md
+            - name: ms-Authz-存取-規則
+              href: c-msauthz-centralaccessrule.md
+            - name: ms-Authz-集中存取-規則
+              href: c-msauthz-centralaccessrules.md
+            - name: ms-COM-資料分割
+              href: c-mscom-partition.md
+            - name: PartitionSet
+              href: c-mscom-partitionset.md
+            - name: ms-DFS-Deleted-Link-v2
+              href: c-msdfs-deletedlinkv2.md
+            - name: ms-DFS-Link-v2
+              href: c-msdfs-linkv2.md
+            - name: ms-DFS-Namespace-Anchor
+              href: c-msdfs-namespaceanchor.md
+            - name: ms-DFS-Namespace-v2
+              href: c-msdfs-namespacev2.md
+            - name: ms-DFSR-連接
+              href: c-msdfsr-connection.md
+            - name: ms-DFSR-內容
+              href: c-msdfsr-content.md
+            - name: ms-DFSR-ContentSet
+              href: c-msdfsr-contentset.md
+            - name: ms-DFSR-GlobalSettings
+              href: c-msdfsr-globalsettings.md
+            - name: ms-DFSR-LocalSettings
+              href: c-msdfsr-localsettings.md
+            - name: ms-DFSR-成員
+              href: c-msdfsr-member.md
+            - name: ms-DFSR-ReplicationGroup
+              href: c-msdfsr-replicationgroup.md
+            - name: ms-DFSR-訂閱者
+              href: c-msdfsr-subscriber.md
+            - name: ms-DFSR-訂用帳戶
+              href: c-msdfsr-subscription.md
+            - name: 毫秒-DFSR-拓撲
+              href: c-msdfsr-topology.md
+            - name: ms-DNS-伺服器-設定
+              href: c-msdns-serversettings.md
+            - name: ms DS-應用程式-設定
+              href: c-msds-app-configuration.md
+            - name: ms DS-應用程式-資料
+              href: c-msds-appdata.md
+            - name: ms-chap-Az-管理管理員
+              href: c-msds-azadminmanager.md
+            - name: ms DS-Az-應用程式
+              href: c-msds-azapplication.md
+            - name: ms-chap-Az-Operation
+              href: c-msds-azoperation.md
+            - name: ms DS-Az-Role
+              href: c-msds-azrole.md
+            - name: ms DS-Az-範圍
+              href: c-msds-azscope.md
+            - name: ms DS-Az-Task
+              href: c-msds-aztask.md
+            - name: ms-DS-宣告-轉換-原則
+              href: c-msds-claimstransformationpolicies.md
+            - name: ms-DS-宣告-轉換-原則類型
+              href: c-msds-claimstransformationpolicytype.md
+            - name: ms-DS-宣告類型
+              href: c-msds-claimtype.md
+            - name: ms-DS-宣告類型
+              href: c-msds-claimtypes.md
+            - name: ms-DS-群組管理-服務-帳戶
+              href: c-msds-groupmanagedserviceaccount.md
+            - name: ms DS 管理-服務-帳戶
+              href: c-msds-managedserviceaccount.md
+            - name: ms-DS-選用-功能
+              href: c-msds-optionalfeature.md
+            - name: ms-DS-Password-Settings
+              href: c-msds-passwordsettings.md
+            - name: ms-DS-Password-Settings-Container
+              href: c-msds-passwordsettingscontainer.md
+            - name: ms DS-配額-容器
+              href: c-msds-quotacontainer.md
+            - name: ms-DS-配額-控制
+              href: c-msds-quotacontrol.md
+            - name: ms DS-資源-屬性
+              href: c-msds-resourceproperties.md
+            - name: ms DS-資源-屬性
+              href: c-msds-resourceproperty.md
+            - name: ms-DS-資源-屬性清單
+              href: c-msds-resourcepropertylist.md
+            - name: ms-DS-服務-連接點-發行集-服務
+              href: c-msds-serviceconnectionpointpublicationservice.md
+            - name: ms DS-數值型別
+              href: c-msds-valuetype.md
+            - name: Ms-exch-assistant-name-Configuration-容器
+              href: c-msexchconfigurationcontainer.md
+            - name: ms-FVE-RecoveryInformation
+              href: c-msfve-recoveryinformation.md
+            - name: ms-ieee-80211-原則
+              href: c-msieee80211-policy.md
+            - name: 毫秒-映射-PostScanProcess
+              href: c-msimaging-postscanprocess.md
+            - name: 毫秒-映射-PSPs
+              href: c-msimaging-psps.md
+            - name: Kds 根金鑰->prov-RootKey
+              href: c-mskds-provrootkey.md
+            - name: Kds 根金鑰->prov-ServerConfiguration
+              href: c-mskds-provserverconfiguration.md
+            - name: MSMQ-Configuration
+              href: c-msmqconfiguration.md
+            - name: MSMQ-自訂-收件者
+              href: c-msmq-custom-recipient.md
+            - name: MSMQ-企業-設定
+              href: c-msmqenterprisesettings.md
+            - name: MSMQ-Group
+              href: c-msmq-group.md
+            - name: MSMQ 遷移-使用者
+              href: c-msmqmigrateduser.md
+            - name: MSMQ-Queue
+              href: c-msmqqueue.md
+            - name: MSMQ-Settings
+              href: c-msmqsettings.md
+            - name: MSMQ-網站連結
+              href: c-msmqsitelink.md
+            - name: ms-net-ieee-80211-GroupPolicy
+              href: c-ms-net-ieee-80211-grouppolicy.md
+            - name: ms-net-ieee-8023-GroupPolicy
+              href: c-ms-net-ieee-8023-grouppolicy.md
+            - name: ms-PKI-企業-Oid
+              href: c-mspki-enterprise-oid.md
+            - name: ms-PKI-金鑰復原-代理程式
+              href: c-mspki-key-recovery-agent.md
+            - name: ms-PKI-私用金鑰-復原代理程式
+              href: c-mspki-privatekeyrecoveryagent.md
+            - name: 毫秒-列印-ConnectionPolicy
+              href: c-msprint-connectionpolicy.md
+            - name: msSFU-30-網域資訊
+              href: c-mssfu30domaininfo.md
+            - name: msSFU-30-Mail-別名
+              href: c-mssfu30mailaliases.md
+            - name: msSFU-30-Net-Id
+              href: c-mssfu30netid.md
+            - name: msSFU-30-網路-使用者
+              href: c-mssfu30networkuser.md
+            - name: msSFU-30-NIS-對應-Config
+              href: c-mssfu30nismapconfig.md
+            - name: ms SPP-啟用-物件
+              href: c-msspp-activationobject.md
+            - name: SPP-啟用-物件-容器
+              href: c-msspp-activationobjectscontainer.md
+            - name: OLAPCube
+              href: c-ms-sql-olapcube.md
+            - name: OLAPDatabase
+              href: c-ms-sql-olapdatabase.md
+            - name: Olapserver.server
+              href: c-ms-sql-olapserver.md
+            - name: SQLDatabase
+              href: c-ms-sql-sqldatabase.md
+            - name: SQLPublication
+              href: c-ms-sql-sqlpublication.md
+            - name: SQLRepository
+              href: c-ms-sql-sqlrepository.md
+            - name: MS-CHAP-SQLServer
+              href: c-ms-sql-sqlserver.md
+            - name: ms-TAPI-Rt-會議
+              href: c-mstapi-rtconference.md
+            - name: ms-TAPI-Rt-Person
+              href: c-mstapi-rtperson.md
+            - name: ms-TPM-資訊-物件
+              href: c-mstpm-informationobject.md
+            - name: ms-TPM-資訊-物件-容器
+              href: c-mstpm-informationobjectscontainer.md
+            - name: IntRangeParam
+              href: c-mswmi-intrangeparam.md
+            - name: IntSetParam
+              href: c-mswmi-intsetparam.md
+            - name: MergeablePolicyTemplate
+              href: c-mswmi-mergeablepolicytemplate.md
+            - name: ObjectEncoding
+              href: c-mswmi-objectencoding.md
+            - name: PolicyTemplate
+              href: c-mswmi-policytemplate.md
+            - name: PolicyType
+              href: c-mswmi-policytype.md
+            - name: RangeParam
+              href: c-mswmi-rangeparam.md
+            - name: RealRangeParam
+              href: c-mswmi-realrangeparam.md
+            - name: ms-WMI-規則
+              href: c-mswmi-rule.md
+            - name: ShadowObject
+              href: c-mswmi-shadowobject.md
+            - name: SimplePolicyTemplate
+              href: c-mswmi-simplepolicytemplate.md
+            - name: ms-WMI-Som
+              href: c-mswmi-som.md
+            - name: StringSetParam
+              href: c-mswmi-stringsetparam.md
+            - name: UintRangeParam
+              href: c-mswmi-uintrangeparam.md
+            - name: UintSetParam
+              href: c-mswmi-uintsetparam.md
+            - name: UnknownRangeParam
+              href: c-mswmi-unknownrangeparam.md
+            - name: WMIGPO
+              href: c-mswmi-wmigpo.md
+            - name: nisMap
+              href: c-nismap.md
+            - name: nisNetgroup
+              href: c-nisnetgroup.md
+            - name: nisObject
+              href: c-nisobject.md
+            - name: NTDS-Connection
+              href: c-ntdsconnection.md
+            - name: NTDS-DSA
+              href: c-ntdsdsa.md
+            - name: NTDS-DSA-RO
+              href: c-ntdsdsaro.md
+            - name: NTDS-Service
+              href: c-ntdsservice.md
+            - name: NTDS-Site-設定
+              href: c-ntdssitesettings.md
+            - name: NTFRS-Member
+              href: c-ntfrsmember.md
+            - name: NTFRS-複本集
+              href: c-ntfrsreplicaset.md
+            - name: NTFRS-Settings
+              href: c-ntfrssettings.md
+            - name: NTFRS-Subscriber
+              href: c-ntfrssubscriber.md
+            - name: NTFRS-Subscriptions
+              href: c-ntfrssubscriptions.md
+            - name: oncRpc
+              href: c-oncrpc.md
+            - name: 組織
+              href: c-organization.md
+            - name: Organizational-Role
+              href: c-organizationalrole.md
+            - name: Organizational-Unit
+              href: c-organizationalunit.md
+            - name: Package-Registration
+              href: c-packageregistration.md
+            - name: Physical-Location
+              href: c-physicallocation.md
+            - name: PKI-憑證-範本
+              href: c-pkicertificatetemplate.md
+            - name: PKI-註冊-服務
+              href: c-pkienrollmentservice.md
+            - name: Print-Queue
+              href: c-printqueue.md
+            - name: Query-Policy
+              href: c-querypolicy.md
+            - name: 遠端郵件-收件者
+              href: c-remotemailrecipient.md
+            - name: 遠端存放服務-點
+              href: c-remotestorageservicepoint.md
+            - name: Residential-Person
+              href: c-residentialperson.md
+            - name: rFC822LocalPart
+              href: c-rfc822localpart.md
+            - name: RID-Manager
+              href: c-ridmanager.md
+            - name: RID-Set
+              href: c-ridset.md
+            - name: 房間
+              href: c-room.md
+            - name: Rpc-Container
+              href: c-rpccontainer.md
+            - name: rpc 群組
+              href: c-rpcgroup.md
+            - name: rpc-設定檔
+              href: c-rpcprofile.md
+            - name: rpc 設定檔-元素
+              href: c-rpcprofileelement.md
+            - name: rpc-伺服器
+              href: c-rpcserver.md
+            - name: rpc-Server 元素
+              href: c-rpcserverelement.md
+            - name: RRAS-管理-連接點
+              href: c-rrasadministrationconnectionpoint.md
+            - name: RRAS-管理-字典
+              href: c-rrasadministrationdictionary.md
+            - name: Sam-Server
+              href: c-samserver.md
+            - name: 祕密
+              href: c-secret.md
+            - name: 伺服器
+              href: c-server.md
+            - name: Servers-Container
+              href: c-serverscontainer.md
+            - name: 服務管理-點
+              href: c-serviceadministrationpoint.md
+            - name: Service-Class
+              href: c-serviceclass.md
+            - name: 服務-連接點
+              href: c-serviceconnectionpoint.md
+            - name: Service-Instance
+              href: c-serviceinstance.md
+            - name: 網站
+              href: c-site.md
+            - name: Site-Link
+              href: c-sitelink.md
+            - name: 網站-連結-橋接器
+              href: c-sitelinkbridge.md
+            - name: Sites-Container
+              href: c-sitescontainer.md
+            - name: 儲存體
+              href: c-storage.md
+            - name: 子網路
+              href: c-subnet.md
+            - name: Subnet-Container
+              href: c-subnetcontainer.md
+            - name: Ubschema
+              href: c-subschema.md
+            - name: Trusted-Domain
+              href: c-trusteddomain.md
+            - name: Type-Library
+              href: c-typelibrary.md
+            - name: User
+              href: c-user.md
+            - name: 磁碟區
+              href: c-volume.md
+        - name: 抽象類別
+          href: classes-abstract.md
+          items:
+            - name: Application-Settings
+              href: c-applicationsettings.md
+            - name: 應用程式-網站-設定
+              href: c-applicationsitesettings.md
+            - name: Connection-Point
+              href: c-connectionpoint.md
+            - name: Country
+              href: c-country.md
+            - name: 裝置
+              href: c-device.md
+            - name: 網域
+              href: c-domain.md
+            - name: 名稱群組
+              href: c-groupofnames.md
+            - name: Ipsec-Base
+              href: c-ipsecbase.md
+            - name: Leaf
+              href: c-leaf.md
+            - name: ms-DS------Property-Base
+              href: c-msds-claimtypepropertybase.md
+            - name: Organizational-Person
+              href: c-organizationalperson.md
+            - name: 個人
+              href: c-person.md
+            - name: rpc-Entry
+              href: c-rpcentry.md
+            - name: Security-Object
+              href: c-securityobject.md
+            - name: 頁首
+              href: c-top.md
+        - name: 輔助類別
+          href: classes-auxiliary.md
+          items:
+            - name: bootableDevice
+              href: c-bootabledevice.md
+            - name: domainRelatedObject
+              href: c-domainrelatedobject.md
+            - name: Dynamic-Object
+              href: c-dynamicobject.md
+            - name: ieee802Device
+              href: c-ieee802device.md
+            - name: ipHost
+              href: c-iphost.md
+            - name: Mail-Recipient
+              href: c-mailrecipient.md
+            - name: ms DS 可系結-物件
+              href: c-msds-bindableobject.md
+            - name: ms DS-系結-Proxy
+              href: c-msds-bindproxy.md
+            - name: posixAccount
+              href: c-posixaccount.md
+            - name: posixGroup
+              href: c-posixgroup.md
+            - name: Sam-Domain
+              href: c-samdomain.md
+            - name: Sam-網域-基礎
+              href: c-samdomainbase.md
+            - name: Security-Principal
+              href: c-securityprincipal.md
+            - name: shadowAccount
+              href: c-shadowaccount.md
+            - name: simpleSecurityObject
+              href: c-simplesecurityobject.md
+    - name: 屬性
+      href: attributes.md
+      items:
+        - name: 所有屬性
+          href: attributes-all.md
+          items:
+            - name: Account-Expires
+              href: a-accountexpires.md
+            - name: 帳戶-名稱-歷程記錄
+              href: a-accountnamehistory.md
+            - name: ACS-匯總-權杖-每位使用者的費率
+              href: a-acsaggregatetokenrateperuser.md
+            - name: ACS-Allocable-RSVP-頻寬
+              href: a-acsallocablersvpbandwidth.md
+            - name: ACS-快取-超時
+              href: a-acscachetimeout.md
+            - name: ACS-Direction
+              href: a-acsdirection.md
+            - name: ACS-DSBM-DeadTime
+              href: a-acsdsbmdeadtime.md
+            - name: ACS-DSBM-Priority
+              href: a-acsdsbmpriority.md
+            - name: ACS-DSBM-重新整理
+              href: a-acsdsbmrefresh.md
+            - name: ACS-啟用-ACS-服務
+              href: a-acsenableacsservice.md
+            - name: ACS-啟用-RSVP-帳戶處理
+              href: a-acsenablersvpaccounting.md
+            - name: ACS-啟用-RSVP-訊息記錄
+              href: a-acsenablersvpmessagelogging.md
+            - name: ACS-事件-記錄層級
+              href: a-acseventloglevel.md
+            - name: ACS-身分識別名稱
+              href: a-acsidentityname.md
+            - name: ACS-最大匯總-每位使用者的尖峰率
+              href: a-acsmaxaggregatepeakrateperuser.md
+            - name: ACS-每個流程的最大持續時間
+              href: a-acsmaxdurationperflow.md
+            - name: ACS-最大-SDU-大小
+              href: a-acsmaximumsdusize.md
+            - name: ACS-最大帳戶-檔案
+              href: a-acsmaxnoofaccountfiles.md
+            - name: ACS-最大-無記錄檔
+              href: a-acsmaxnooflogfiles.md
+            - name: ACS-最大尖峰頻寬
+              href: a-acsmaxpeakbandwidth.md
+            - name: ACS-每個流量的最大尖峰頻寬
+              href: a-acsmaxpeakbandwidthperflow.md
+            - name: ACS-最大----------------File
+              href: a-acsmaxsizeofrsvpaccountfile.md
+            - name: ACS-大小上限-記錄檔
+              href: a-acsmaxsizeofrsvplogfile.md
+            - name: ACS-最大權杖-每個流程的 Bucket
+              href: a-acsmaxtokenbucketperflow.md
+            - name: ACS-最大權杖-每個流程的速率
+              href: a-acsmaxtokenrateperflow.md
+            - name: ACS-最小延遲-變化
+              href: a-acsminimumdelayvariation.md
+            - name: ACS-最小延遲
+              href: a-acsminimumlatency.md
+            - name: ACS-最小-Policed-大小
+              href: a-acsminimumpolicedsize.md
+            - name: ACS-非保留-最大 SDU-大小
+              href: a-acsnonreservedmaxsdusize.md
+            - name: ACS-非保留-最小-Policed-大小
+              href: a-acsnonreservedminpolicedsize.md
+            - name: ACS-非保留的尖峰率
+              href: a-acsnonreservedpeakrate.md
+            - name: ACS-非保留-權杖-大小
+              href: a-acsnonreservedtokensize.md
+            - name: ACS-非保留的 Tx-限制
+              href: a-acsnonreservedtxlimit.md
+            - name: ACS-非保留-德克薩斯維大小
+              href: a-acsnonreservedtxsize.md
+            - name: ACS-許可權位
+              href: a-acspermissionbits.md
+            - name: ACS-原則-名稱
+              href: a-acspolicyname.md
+            - name: ACS-Priority
+              href: a-acspriority.md
+            - name: ACS-RSVP-帳戶-檔案-位置
+              href: a-acsrsvpaccountfileslocation.md
+            - name: ACS-RSVP-記錄檔-位置
+              href: a-acsrsvplogfileslocation.md
+            - name: ACS-伺服器清單
+              href: a-acsserverlist.md
+            - name: ACS-服務類型
+              href: a-acsservicetype.md
+            - name: ACS-當日時間
+              href: a-acstimeofday.md
+            - name: ACS-總計-無流程
+              href: a-acstotalnoofflows.md
+            - name: Additional-Information
+              href: a-notes.md
+            - name: 其他受信任的服務名稱
+              href: a-additionaltrustedservicenames.md
+            - name: 位址
+              href: a-streetaddress.md
+            - name: 位址-書籍-根目錄
+              href: a-addressbookroots.md
+            - name: Address-Book-Roots2
+              href: a-addressbookroots2.md
+            - name: 位址-輸入-顯示資料表
+              href: a-addressentrydisplaytable.md
+            - name: 位址-輸入-顯示資料表-MSDOS.SYS
+              href: a-addressentrydisplaytablemsdos.md
+            - name: Address-Home
+              href: a-homepostaladdress.md
+            - name: Address-Syntax
+              href: a-addresssyntax.md
+            - name: Address-Type
+              href: a-addresstype.md
+            - name: 系統管理-內容功能表
+              href: a-admincontextmenu.md
+            - name: Admin-Count
+              href: a-admincount.md
+            - name: Admin-Description
+              href: a-admindescription.md
+            - name: 系統管理員-顯示名稱
+              href: a-admindisplayname.md
+            - name: 系統管理-多重複選-屬性頁
+              href: a-adminmultiselectpropertypages.md
+            - name: 管理-屬性頁
+              href: a-adminpropertypages.md
+            - name: Allowed-Attributes
+              href: a-allowedattributes.md
+            - name: 允許-屬性-有效
+              href: a-allowedattributeseffective.md
+            - name: 允許-子類別
+              href: a-allowedchildclasses.md
+            - name: 允許-子類別-有效
+              href: a-allowedchildclasseseffective.md
+            - name: Alt-Security-身分識別
+              href: a-altsecurityidentities.md
+            - name: Anr
+              href: a-anr.md
+            - name: Application-Name
+              href: a-applicationname.md
+            - name: Applies-To
+              href: a-appliesto.md
+            - name: 應用程式架構版本
+              href: a-appschemaversion.md
+            - name: Asset-Number
+              href: a-assetnumber.md
+            - name: Assistant
+              href: a-assistant.md
+            - name: associatedDomain
+              href: a-associateddomain.md
+            - name: associatedName
+              href: a-associatedname.md
+            - name: Assoc-NT-帳戶
+              href: a-assocntaccount.md
+            - name: attributeCertificateAttribute
+              href: a-attributecertificateattribute.md
+            - name: 屬性-顯示名稱
+              href: a-attributedisplaynames.md
+            - name: 屬性識別碼
+              href: a-attributeid.md
+            - name: 屬性-安全性-GUID
+              href: a-attributesecurityguid.md
+            - name: Attribute-Syntax
+              href: a-attributesyntax.md
+            - name: Attribute-Types
+              href: a-attributetypes.md
+            - name: 音訊
+              href: a-audio.md
+            - name: Auditing-Policy
+              href: a-auditingpolicy.md
+            - name: Authentication-Options
+              href: a-authenticationoptions.md
+            - name: 授權單位-撤銷清單
+              href: a-authorityrevocationlist.md
+            - name: Auxiliary-Class
+              href: a-auxiliaryclass.md
+            - name: 錯誤的密碼時間
+              href: a-badpasswordtime.md
+            - name: 錯誤-Pwd-計數
+              href: a-badpwdcount.md
+            - name: Birth-Location
+              href: a-birthlocation.md
+            - name: bootFile
+              href: a-bootfile.md
+            - name: bootParameter
+              href: a-bootparameter.md
+            - name: 橋頭-伺服器-清單-BL
+              href: a-bridgeheadserverlistbl.md
+            - name: 橋頭-傳輸-清單
+              href: a-bridgeheadtransportlist.md
+            - name: '>buildingname'
+              href: a-buildingname.md
+            - name: 內建-建立時間
+              href: a-builtincreationtime.md
+            - name: 內建-已修改-計數
+              href: a-builtinmodifiedcount.md
+            - name: Business-Category
+              href: a-businesscategory.md
+            - name: 每分鐘位元組
+              href: a-bytesperminute.md
+            - name: CA-Certificate
+              href: a-cacertificate.md
+            - name: CA-憑證-DN
+              href: a-cacertificatedn.md
+            - name: CA-Connect
+              href: a-caconnect.md
+            - name: Canonical-Name
+              href: a-canonicalname.md
+            - name: 可升級-腳本
+              href: a-canupgradescript.md
+            - name: carLicense
+              href: a-carlicense.md
+            - name: 目錄
+              href: a-catalogs.md
+            - name: 類別
+              href: a-categories.md
+            - name: Category-Id
+              href: a-categoryid.md
+            - name: CA-Usages
+              href: a-causages.md
+            - name: CA-WEB-URL
+              href: a-caweburl.md
+            - name: 憑證授權單位單位-物件
+              href: a-certificateauthorityobject.md
+            - name: 憑證-撤銷清單
+              href: a-certificaterevocationlist.md
+            - name: Certificate-Templates
+              href: a-certificatetemplates.md
+            - name: 類別-顯示名稱
+              href: a-classdisplayname.md
+            - name: Code-Page
+              href: a-codepage.md
+            - name: COM-ClassID
+              href: a-comclassid.md
+            - name: COM-CLSID
+              href: a-comclsid.md
+            - name: COM-InterfaceID
+              href: a-cominterfaceid.md
+            - name: 註解
+              href: a-info.md
+            - name: Common-Name
+              href: a-cn.md
+            - name: COM-其他-進程識別碼
+              href: a-comotherprogid.md
+            - name: 公司
+              href: a-company.md
+            - name: COM-ProgID
+              href: a-comprogid.md
+            - name: COM-視為類別識別碼
+              href: a-comtreatasclassid.md
+            - name: COM-Typelib-Id
+              href: a-comtypelibid.md
+            - name: COM-唯一-LIBID
+              href: a-comuniquelibid.md
+            - name: 內容-索引-允許
+              href: a-contentindexingallowed.md
+            - name: Context-Menu
+              href: a-contextmenu.md
+            - name: 控制存取權
+              href: a-controlaccessrights.md
+            - name: 成本
+              href: a-cost.md
+            - name: Country-Code
+              href: a-countrycode.md
+            - name: Country-Name
+              href: a-c.md
+            - name: Create-Dialog
+              href: a-createdialog.md
+            - name: 建立時間戳記
+              href: a-createtimestamp.md
+            - name: 建立-Wizard-Ext
+              href: a-createwizardext.md
+            - name: Creation-Time
+              href: a-creationtime.md
+            - name: Creation-Wizard
+              href: a-creationwizard.md
+            - name: 建立者
+              href: a-creator.md
+            - name: CRL-Object
+              href: a-crlobject.md
+            - name: CRL-資料分割-撤銷清單
+              href: a-crlpartitionedrevocationlist.md
+            - name: 跨憑證配對
+              href: a-crosscertificatepair.md
+            - name: Current-Location
+              href: a-currentlocation.md
+            - name: Current-父系-CA
+              href: a-currentparentca.md
+            - name: Current-Value
+              href: a-currentvalue.md
+            - name: Curr.errlog-電腦識別碼
+              href: a-currmachineid.md
+            - name: DBCS-Pwd
+              href: a-dbcspwd.md
+            - name: 預設類別-存放區
+              href: a-defaultclassstore.md
+            - name: Default-Group
+              href: a-defaultgroup.md
+            - name: 預設值-隱藏-值
+              href: a-defaulthidingvalue.md
+            - name: 預設-本機-原則-物件
+              href: a-defaultlocalpolicyobject.md
+            - name: 預設-物件-類別
+              href: a-defaultobjectcategory.md
+            - name: Default-Priority
+              href: a-defaultpriority.md
+            - name: 預設-安全性-描述元
+              href: a-defaultsecuritydescriptor.md
+            - name: 差異-撤銷清單
+              href: a-deltarevocationlist.md
+            - name: department
+              href: a-department.md
+            - name: departmentNumber
+              href: a-departmentnumber.md
+            - name: Description
+              href: a-description.md
+            - name: Desktop-Profile
+              href: a-desktopprofile.md
+            - name: Destination-Indicator
+              href: a-destinationindicator.md
+            - name: dhcp 類別
+              href: a-dhcpclasses.md
+            - name: dhcp-旗標
+              href: a-dhcpflags.md
+            - name: dhcp-識別
+              href: a-dhcpidentification.md
+            - name: dhcp 遮罩
+              href: a-dhcpmask.md
+            - name: dhcp-MaxKey
+              href: a-dhcpmaxkey.md
+            - name: dhcp-Obj-Description
+              href: a-dhcpobjdescription.md
+            - name: dhcp-Obj-名稱
+              href: a-dhcpobjname.md
+            - name: dhcp-選項
+              href: a-dhcpoptions.md
+            - name: dhcp-屬性
+              href: a-dhcpproperties.md
+            - name: dhcp-範圍
+              href: a-dhcpranges.md
+            - name: dhcp-保留
+              href: a-dhcpreservations.md
+            - name: dhcp 伺服器
+              href: a-dhcpservers.md
+            - name: dhcp-網站
+              href: a-dhcpsites.md
+            - name: dhcp 狀態
+              href: a-dhcpstate.md
+            - name: dhcp-子網
+              href: a-dhcpsubnets.md
+            - name: dhcp 類型
+              href: a-dhcptype.md
+            - name: dhcp-唯一金鑰
+              href: a-dhcpuniquekey.md
+            - name: dhcp-更新時間
+              href: a-dhcpupdatetime.md
+            - name: 顯示名稱
+              href: a-displayname.md
+            - name: 顯示-名稱-可列印
+              href: a-displaynameprintable.md
+            - name: DIT-內容-規則
+              href: a-ditcontentrules.md
+            - name: 部門
+              href: a-division.md
+            - name: DMD-Location
+              href: a-dmdlocation.md
+            - name: DMD-Name
+              href: a-dmdname.md
+            - name: DN-參考-更新
+              href: a-dnreferenceupdate.md
+            - name: Dns-允許-動態
+              href: a-dnsallowdynamic.md
+            - name: Dns-允許-XFR
+              href: a-dnsallowxfr.md
+            - name: DNS-主機名稱
+              href: a-dnshostname.md
+            - name: Dns-通知-次要
+              href: a-dnsnotifysecondaries.md
+            - name: DNS-Property
+              href: a-dnsproperty.md
+            - name: Dns-Record
+              href: a-dnsrecord.md
+            - name: Dns-Root
+              href: a-dnsroot.md
+            - name: Dns-安全-次要資料庫
+              href: a-dnssecuresecondaries.md
+            - name: DNS-Tombstoned
+              href: a-dnstombstoned.md
+            - name: documentAuthor
+              href: a-documentauthor.md
+            - name: documentIdentifier
+              href: a-documentidentifier.md
+            - name: documentLocation
+              href: a-documentlocation.md
+            - name: documentPublisher
+              href: a-documentpublisher.md
+            - name: documentTitle
+              href: a-documenttitle.md
+            - name: documentVersion
+              href: a-documentversion.md
+            - name: 網域-憑證-授權單位
+              href: a-domaincas.md
+            - name: Domain-Component
+              href: a-dc.md
+            - name: 網域交互參考
+              href: a-domaincrossref.md
+            - name: 網域識別碼
+              href: a-domainid.md
+            - name: Domain-Identifier
+              href: a-domainidentifier.md
+            - name: 網域原則-物件
+              href: a-domainpolicyobject.md
+            - name: 網域原則-參考
+              href: a-domainpolicyreference.md
+            - name: Domain-Replica
+              href: a-domainreplica.md
+            - name: 全網域原則
+              href: a-domainwidepolicy.md
+            - name: 喝
+              href: a-drink.md
+            - name: Driver-Name
+              href: a-drivername.md
+            - name: Driver-Version
+              href: a-driverversion.md
+            - name: DSA-Signature
+              href: a-dsasignature.md
+            - name: DS-核心-傳播-資料
+              href: a-dscorepropagationdata.md
+            - name: DS-Heuristics
+              href: a-dsheuristics.md
+            - name: DS-UI-管理員-最大值
+              href: a-dsuiadminmaximum.md
+            - name: DS-UI-系統管理-通知
+              href: a-dsuiadminnotification.md
+            - name: DS-UI-Shell-最大值
+              href: a-dsuishellmaximum.md
+            - name: 動態-LDAP-伺服器
+              href: a-dynamicldapserver.md
+            - name: EFSPolicy
+              href: a-efspolicy.md
+            - name: 電子郵件地址
+              href: a-mail.md
+            - name: 員工識別碼
+              href: a-employeeid.md
+            - name: Employee-Number
+              href: a-employeenumber.md
+            - name: Employee-Type
+              href: a-employeetype.md
+            - name: 已啟用
+              href: a-enabled.md
+            - name: Enabled-Connection
+              href: a-enabledconnection.md
+            - name: Enrollment-Providers
+              href: a-enrollmentproviders.md
+            - name: 專案-TTL
+              href: a-entryttl.md
+            - name: 擴充屬性資訊
+              href: a-extendedattributeinfo.md
+            - name: 擴充字元-允許
+              href: a-extendedcharsallowed.md
+            - name: 擴充類別資訊
+              href: a-extendedclassinfo.md
+            - name: Extension-Name
+              href: a-extensionname.md
+            - name: Extra-Columns
+              href: a-extracolumns.md
+            - name: 傳真-電話號碼
+              href: a-facsimiletelephonenumber.md
+            - name: File-Ext-Priority
+              href: a-fileextpriority.md
+            - name: Flags
+              href: a-flags.md
+            - name: Flat-Name
+              href: a-flatname.md
+            - name: Force-Logoff
+              href: a-forcelogoff.md
+            - name: Foreign-Identifier
+              href: a-foreignidentifier.md
+            - name: Friendly-Names
+              href: a-friendlynames.md
+            - name: From-Entry
+              href: a-fromentry.md
+            - name: From-Server
+              href: a-fromserver.md
+            - name: Frs-電腦-參考
+              href: a-frscomputerreference.md
+            - name: Frs-電腦-參考-BL
+              href: a-frscomputerreferencebl.md
+            - name: FRS-控制-資料建立
+              href: a-frscontroldatacreation.md
+            - name: FRS-控制-輸入-待處理專案
+              href: a-frscontrolinboundbacklog.md
+            - name: FRS-控制-輸出-待處理專案
+              href: a-frscontroloutboundbacklog.md
+            - name: FRS-目錄-篩選
+              href: a-frsdirectoryfilter.md
+            - name: FRS-DS-輪詢
+              href: a-frsdspoll.md
+            - name: FRS-Extensions
+              href: a-frsextensions.md
+            - name: FRS-錯誤-條件
+              href: a-frsfaultcondition.md
+            - name: FRS-檔案-篩選
+              href: a-frsfilefilter.md
+            - name: FRS-Flags
+              href: a-frsflags.md
+            - name: FRS 層級限制
+              href: a-frslevellimit.md
+            - name: FRS-成員參考
+              href: a-frsmemberreference.md
+            - name: FRS-成員參考-BL
+              href: a-frsmemberreferencebl.md
+            - name: FRS-夥伴驗證層級
+              href: a-frspartnerauthlevel.md
+            - name: FRS-主要成員
+              href: a-frsprimarymember.md
+            - name: FRS-複本集-GUID
+              href: a-frsreplicasetguid.md
+            - name: FRS-複本集類型
+              href: a-frsreplicasettype.md
+            - name: FRS-根目錄路徑
+              href: a-frsrootpath.md
+            - name: FRS-根目錄-安全性
+              href: a-frsrootsecurity.md
+            - name: FRS-服務-命令
+              href: a-frsservicecommand.md
+            - name: FRS-服務-命令-狀態
+              href: a-frsservicecommandstatus.md
+            - name: FRS-暫存路徑
+              href: a-frsstagingpath.md
+            - name: FRS-時間-最後一個命令
+              href: a-frstimelastcommand.md
+            - name: FRS 時間-上次設定-變更
+              href: a-frstimelastconfigchange.md
+            - name: FRS-更新-超時
+              href: a-frsupdatetimeout.md
+            - name: FRS-Version
+              href: a-frsversion.md
+            - name: FRS-版本-GUID
+              href: a-frsversionguid.md
+            - name: FRS-工作路徑
+              href: a-frsworkingpath.md
+            - name: FSMO 角色-擁有者
+              href: a-fsmoroleowner.md
+            - name: 垃圾 Coll 期間
+              href: a-garbagecollperiod.md
+            - name: gecos
+              href: a-gecos.md
+            - name: Generated-Connection
+              href: a-generatedconnection.md
+            - name: Generation-Qualifier
+              href: a-generationqualifier.md
+            - name: gidNumber
+              href: a-gidnumber.md
+            - name: 指定的名稱
+              href: a-givenname.md
+            - name: 全域通訊清單
+              href: a-globaladdresslist.md
+            - name: Global-Address-List2
+              href: a-globaladdresslist2.md
+            - name: 控管-識別碼
+              href: a-governsid.md
+            - name: GPC-File-Sys-Path
+              href: a-gpcfilesyspath.md
+            - name: GPC-功能-版本
+              href: a-gpcfunctionalityversion.md
+            - name: GPC-電腦延伸模組名稱
+              href: a-gpcmachineextensionnames.md
+            - name: GPC-使用者延伸-名稱
+              href: a-gpcuserextensionnames.md
+            - name: GPC-WQL-篩選
+              href: a-gpcwqlfilter.md
+            - name: GP-Link
+              href: a-gplink.md
+            - name: GP-Options
+              href: a-gpoptions.md
+            - name: Group-Attributes
+              href: a-groupattributes.md
+            - name: 群組-成員資格-SAM
+              href: a-groupmembershipsam.md
+            - name: Group-Priority
+              href: a-grouppriority.md
+            - name: 群組到忽略
+              href: a-groupstoignore.md
+            - name: Group-Type
+              href: a-grouptype.md
+            - name: 具有-Master-Nc
+              href: a-hasmasterncs.md
+            - name: 具有-Partial-Replica-Nc
+              href: a-haspartialreplicancs.md
+            - name: Help-Data16
+              href: a-helpdata16.md
+            - name: Help-Data32
+              href: a-helpdata32.md
+            - name: 說明檔-檔案名
+              href: a-helpfilename.md
+            - name: 從-AB 隱藏
+              href: a-hidefromab.md
+            - name: Home-Directory
+              href: a-homedirectory.md
+            - name: Home-Drive
+              href: a-homedrive.md
+            - name: 主機
+              href: a-host.md
+            - name: houseIdentifier
+              href: a-houseidentifier.md
+            - name: Icon-Path
+              href: a-iconpath.md
+            - name: Implemented-Categories
+              href: a-implementedcategories.md
+            - name: IndexedScopes
+              href: a-indexedscopes.md
+            - name: 初始-驗證-傳入
+              href: a-initialauthincoming.md
+            - name: 初始-驗證-外寄
+              href: a-initialauthoutgoing.md
+            - name: 縮寫
+              href: a-initials.md
+            - name: 安裝-Ui 層級
+              href: a-installuilevel.md
+            - name: Instance-Type
+              href: a-instancetype.md
+            - name: 國際 ISDN 號碼
+              href: a-internationalisdnnumber.md
+            - name: 網站間拓撲-容錯移轉
+              href: a-intersitetopologyfailover.md
+            - name: 網站間拓撲-產生器
+              href: a-intersitetopologygenerator.md
+            - name: 網站間-拓撲-更新
+              href: a-intersitetopologyrenew.md
+            - name: Invocation-Id
+              href: a-invocationid.md
+            - name: ipHostNumber
+              href: a-iphostnumber.md
+            - name: ipNetmaskNumber
+              href: a-ipnetmasknumber.md
+            - name: ipNetworkNumber
+              href: a-ipnetworknumber.md
+            - name: ipProtocolNumber
+              href: a-ipprotocolnumber.md
+            - name: Ipsec-Data
+              href: a-ipsecdata.md
+            - name: Ipsec-資料類型
+              href: a-ipsecdatatype.md
+            - name: Ipsec-Filter-Reference
+              href: a-ipsecfilterreference.md
+            - name: Ipsec 識別碼
+              href: a-ipsecid.md
+            - name: Ipsec-ISAKMP-參考
+              href: a-ipsecisakmpreference.md
+            - name: Ipsec-Name
+              href: a-ipsecname.md
+            - name: IPSEC-協商-原則-動作
+              href: a-ipsecnegotiationpolicyaction.md
+            - name: Ipsec-協商-原則-參考
+              href: a-ipsecnegotiationpolicyreference.md
+            - name: IPSEC-協調-原則-類型
+              href: a-ipsecnegotiationpolicytype.md
+            - name: Ipsec-NFA-Reference
+              href: a-ipsecnfareference.md
+            - name: Ipsec-擁有者-參考
+              href: a-ipsecownersreference.md
+            - name: Ipsec-原則-參考
+              href: a-ipsecpolicyreference.md
+            - name: ipServicePort
+              href: a-ipserviceport.md
+            - name: ipServiceProtocol
+              href: a-ipserviceprotocol.md
+            - name: 為關鍵-系統物件
+              href: a-iscriticalsystemobject.md
+            - name: Is-Defunct
+              href: a-isdefunct.md
+            - name: Is-Deleted
+              href: a-isdeleted.md
+            - name: Is-Ephemeral
+              href: a-isephemeral.md
+            - name: 是-DL 的成員
+              href: a-memberof.md
+            - name: 是-Partial 屬性集的成員
+              href: a-ismemberofpartialattributeset.md
+            - name: 是-許可權-持有者
+              href: a-isprivilegeholder.md
+            - name: Is-Recycled
+              href: a-isrecycled.md
+            - name: 是-單一值
+              href: a-issinglevalued.md
+            - name: jpegPhoto
+              href: a-jpegphoto.md
+            - name: 關鍵字
+              href: a-keywords.md
+            - name: Knowledge-Information
+              href: a-knowledgeinformation.md
+            - name: labeledURI
+              href: a-labeleduri.md
+            - name: 上次備份-還原時間
+              href: a-lastbackuprestorationtime.md
+            - name: 上次內容-內容索引
+              href: a-lastcontentindexed.md
+            - name: 最後一個已知-父系
+              href: a-lastknownparent.md
+            - name: Last-Logoff
+              href: a-lastlogoff.md
+            - name: Last-Logon
+              href: a-lastlogon.md
+            - name: 上次登入時間戳記
+              href: a-lastlogontimestamp.md
+            - name: 上次設定時間
+              href: a-lastsettime.md
+            - name: 上次更新順序
+              href: a-lastupdatesequence.md
+            - name: LDAP-管理-限制
+              href: a-ldapadminlimits.md
+            - name: LDAP-顯示名稱
+              href: a-ldapdisplayname.md
+            - name: LDAP-IPDeny-清單
+              href: a-ldapipdenylist.md
+            - name: 舊版-Exchange-DN
+              href: a-legacyexchangedn.md
+            - name: 連結識別碼
+              href: a-linkid.md
+            - name: 連結-追蹤-秘密
+              href: a-linktracksecret.md
+            - name: Lm-Pwd-歷程記錄
+              href: a-lmpwdhistory.md
+            - name: 地區設定識別碼
+              href: a-localeid.md
+            - name: Locality-Name
+              href: a-l.md
+            - name: 當地語系化-顯示識別碼
+              href: a-localizationdisplayid.md
+            - name: Localized-Description
+              href: a-localizeddescription.md
+            - name: 本機原則-旗標
+              href: a-localpolicyflags.md
+            - name: 本機原則-參考
+              href: a-localpolicyreference.md
+            - name: Location
+              href: a-location.md
+            - name: Lockout-Duration
+              href: a-lockoutduration.md
+            - name: 鎖定-觀察-視窗
+              href: a-lockoutobservationwindow.md
+            - name: Lockout-Threshold
+              href: a-lockoutthreshold.md
+            - name: Lockout-Time
+              href: a-lockouttime.md
+            - name: loginShell
+              href: a-loginshell.md
+            - name: 標誌
+              href: a-thumbnaillogo.md
+            - name: Logon-Count
+              href: a-logoncount.md
+            - name: Logon-Hours
+              href: a-logonhours.md
+            - name: Logon-Workstation
+              href: a-logonworkstation.md
+            - name: LSA-建立時間
+              href: a-lsacreationtime.md
+            - name: LSA-已修改-計數
+              href: a-lsamodifiedcount.md
+            - name: macAddress
+              href: a-macaddress.md
+            - name: Machine-Architecture
+              href: a-machinearchitecture.md
+            - name: 電腦-密碼-變更間隔
+              href: a-machinepasswordchangeinterval.md
+            - name: Machine-Role
+              href: a-machinerole.md
+            - name: 全電腦原則
+              href: a-machinewidepolicy.md
+            - name: Managed-By
+              href: a-managedby.md
+            - name: Managed-Objects
+              href: a-managedobjects.md
+            - name: Manager
+              href: a-manager.md
+            - name: MAPI 識別碼
+              href: a-mapiid.md
+            - name: Marshalled-Interface
+              href: a-marshalledinterface.md
+            - name: Mastered-By
+              href: a-masteredby.md
+            - name: 最大-Pwd-使用期限
+              href: a-maxpwdage.md
+            - name: 最大續約-期限
+              href: a-maxrenewage.md
+            - name: Max-Storage
+              href: a-maxstorage.md
+            - name: 最大票證-存留期
+              href: a-maxticketage.md
+            - name: May-Contain
+              href: a-maycontain.md
+            - name: meetingAdvertiseScope
+              href: a-meetingadvertisescope.md
+            - name: meetingApplication
+              href: a-meetingapplication.md
+            - name: meetingBandwidth
+              href: a-meetingbandwidth.md
+            - name: meetingBlob
+              href: a-meetingblob.md
+            - name: meetingContactInfo
+              href: a-meetingcontactinfo.md
+            - name: meetingDescription
+              href: a-meetingdescription.md
+            - name: meetingEndTime
+              href: a-meetingendtime.md
+            - name: meetingID
+              href: a-meetingid.md
+            - name: meetingIP
+              href: a-meetingip.md
+            - name: meetingIsEncrypted
+              href: a-meetingisencrypted.md
+            - name: meetingKeyword
+              href: a-meetingkeyword.md
+            - name: meetingLanguage
+              href: a-meetinglanguage.md
+            - name: meetingLocation
+              href: a-meetinglocation.md
+            - name: meetingMaxParticipants
+              href: a-meetingmaxparticipants.md
+            - name: meetingName
+              href: a-meetingname.md
+            - name: meetingOriginator
+              href: a-meetingoriginator.md
+            - name: meetingOwner
+              href: a-meetingowner.md
+            - name: meetingProtocol
+              href: a-meetingprotocol.md
+            - name: meetingRating
+              href: a-meetingrating.md
+            - name: meetingRecurrence
+              href: a-meetingrecurrence.md
+            - name: meetingScope
+              href: a-meetingscope.md
+            - name: meetingStartTime
+              href: a-meetingstarttime.md
+            - name: meetingType
+              href: a-meetingtype.md
+            - name: meetingURL
+              href: a-meetingurl.md
+            - name: 成員
+              href: a-member.md
+            - name: memberNisNetgroup
+              href: a-membernisnetgroup.md
+            - name: memberUid
+              href: a-memberuid.md
+            - name: MHS 或-Address
+              href: a-mhsoraddress.md
+            - name: 最小-Pwd-使用期限
+              href: a-minpwdage.md
+            - name: 最小-Pwd-長度
+              href: a-minpwdlength.md
+            - name: 最小票證-年齡
+              href: a-minticketage.md
+            - name: Modified-Count
+              href: a-modifiedcount.md
+            - name: 修改計數-最近-Prom
+              href: a-modifiedcountatlastprom.md
+            - name: 修改時間戳記
+              href: a-modifytimestamp.md
+            - name: Moniker
+              href: a-moniker.md
+            - name: 標記-顯示名稱
+              href: a-monikerdisplayname.md
+            - name: 移動樹狀結構狀態
+              href: a-movetreestate.md
+            - name: ms-Authz-存取原則-識別碼
+              href: a-msauthz-centralaccesspolicyid.md
+            - name: ms-Authz-有效-安全性-原則
+              href: a-msauthz-effectivesecuritypolicy.md
+            - name: ms-Authz-最新-安全性-原則
+              href: a-msauthz-lasteffectivesecuritypolicy.md
+            - name: ms Authz-成員--內建-存取原則
+              href: a-msauthz-memberrulesincentralaccesspolicy.md
+            - name: ms/Authz-成員--集中-存取-原則-BL
+              href: a-msauthz-memberrulesincentralaccesspolicybl.md
+            - name: ms-Authz-建議的安全性原則
+              href: a-msauthz-proposedsecuritypolicy.md
+            - name: ms-Authz-資源-條件
+              href: a-msauthz-resourcecondition.md
+            - name: DefaultPartitionLink
+              href: a-mscom-defaultpartitionlink.md
+            - name: ms-COM-ObjectId
+              href: a-mscom-objectid.md
+            - name: PartitionLink
+              href: a-mscom-partitionlink.md
+            - name: PartitionSetLink
+              href: a-mscom-partitionsetlink.md
+            - name: UserLink
+              href: a-mscom-userlink.md
+            - name: UserPartitionSetLink
+              href: a-mscom-userpartitionsetlink.md
+            - name: Mscope-Id
+              href: a-mscopeid.md
+            - name: ms-DFS-Comment-v2
+              href: a-msdfs-commentv2.md
+            - name: ms-DFS-Generation-GUID-v2
+              href: a-msdfs-generationguidv2.md
+            - name: ms-DFS-Last-Modified-v2
+              href: a-msdfs-lastmodifiedv2.md
+            - name: ms-DFS-Link-Identity-GUID-v2
+              href: a-msdfs-linkidentityguidv2.md
+            - name: ms-DFS-Link-Path-v2
+              href: a-msdfs-linkpathv2.md
+            - name: ms-DFS-Link-Security-Descriptor-v2
+              href: a-msdfs-linksecuritydescriptorv2.md
+            - name: ms-DFS-Namespace-Identity-GUID-v2
+              href: a-msdfs-namespaceidentityguidv2.md
+            - name: ms-DFS-Properties-v2
+              href: a-msdfs-propertiesv2.md
+            - name: ms-DFSR-CachePolicy
+              href: a-msdfsr-cachepolicy.md
+            - name: ms-DFSR-CommonStagingPath
+              href: a-msdfsr-commonstagingpath.md
+            - name: ms-DFSR-CommonStagingSizeInMb
+              href: a-msdfsr-commonstagingsizeinmb.md
+            - name: ms-DFSR-ComputerReference
+              href: a-msdfsr-computerreference.md
+            - name: ms-DFSR-ComputerReferenceBL
+              href: a-msdfsr-computerreferencebl.md
+            - name: ms-DFSR-ConflictPath
+              href: a-msdfsr-conflictpath.md
+            - name: ms-DFSR-ConflictSizeInMb
+              href: a-msdfsr-conflictsizeinmb.md
+            - name: ms-DFSR-ContentSetGuid
+              href: a-msdfsr-contentsetguid.md
+            - name: ms-DFSR-DefaultCompressionExclusionFilter
+              href: a-msdfsr-defaultcompressionexclusionfilter.md
+            - name: ms-DFSR-DeletedPath
+              href: a-msdfsr-deletedpath.md
+            - name: ms-DFSR-DeletedSizeInMb
+              href: a-msdfsr-deletedsizeinmb.md
+            - name: ms-DFSR-DfsLinkTarget
+              href: a-msdfsr-dfslinktarget.md
+            - name: ms-DFSR-DfsPath
+              href: a-msdfsr-dfspath.md
+            - name: ms-DFSR-DirectoryFilter
+              href: a-msdfsr-directoryfilter.md
+            - name: ms-DFSR-DisablePacketPrivacy
+              href: a-msdfsr-disablepacketprivacy.md
+            - name: 啟用 ms-DFSR
+              href: a-msdfsr-enabled.md
+            - name: ms-DFSR-擴充功能
+              href: a-msdfsr-extension.md
+            - name: 毫秒-DFSR-FileFilter
+              href: a-msdfsr-filefilter.md
+            - name: ms-DFSR-旗標
+              href: a-msdfsr-flags.md
+            - name: ms-DFSR-關鍵字
+              href: a-msdfsr-keywords.md
+            - name: ms-DFSR-MaxAgeInCacheInMin
+              href: a-msdfsr-maxageincacheinmin.md
+            - name: ms-DFSR-MemberReference
+              href: a-msdfsr-memberreference.md
+            - name: ms-DFSR-MemberReferenceBL
+              href: a-msdfsr-memberreferencebl.md
+            - name: ms-DFSR-MinDurationCacheInMin
+              href: a-msdfsr-mindurationcacheinmin.md
+            - name: ms-DFSR-OnDemandExclusionDirectoryFilter
+              href: a-msdfsr-ondemandexclusiondirectoryfilter.md
+            - name: ms-DFSR-OnDemandExclusionFileFilter
+              href: a-msdfsr-ondemandexclusionfilefilter.md
+            - name: ms-DFSR-選項
+              href: a-msdfsr-options.md
+            - name: ms-DFSR-Options2
+              href: a-msdfsr-options2.md
+            - name: ms-DFSR-優先順序
+              href: a-msdfsr-priority.md
+            - name: ms-DFSR-RdcEnabled
+              href: a-msdfsr-rdcenabled.md
+            - name: ms-DFSR-RdcMinFileSizeInKb
+              href: a-msdfsr-rdcminfilesizeinkb.md
+            - name: ms-DFSR-ReadOnly
+              href: a-msdfsr-readonly.md
+            - name: ms-DFSR-ReplicationGroupGuid
+              href: a-msdfsr-replicationgroupguid.md
+            - name: ms-DFSR-ReplicationGroupType
+              href: a-msdfsr-replicationgrouptype.md
+            - name: ms-DFSR-RootFence
+              href: a-msdfsr-rootfence.md
+            - name: ms-DFSR-RootPath
+              href: a-msdfsr-rootpath.md
+            - name: ms-DFSR-RootSizeInMb
+              href: a-msdfsr-rootsizeinmb.md
+            - name: 毫秒-DFSR-排程
+              href: a-msdfsr-schedule.md
+            - name: ms-DFSR-StagingCleanupTriggerInPercent
+              href: a-msdfsr-stagingcleanuptriggerinpercent.md
+            - name: ms-DFSR-StagingPath
+              href: a-msdfsr-stagingpath.md
+            - name: ms-DFSR-StagingSizeInMb
+              href: a-msdfsr-stagingsizeinmb.md
+            - name: ms-DFSR-TombstoneExpiryInMin
+              href: a-msdfsr-tombstoneexpiryinmin.md
+            - name: ms-DFSR-版本
+              href: a-msdfsr-version.md
+            - name: ms-DFS-Schema-Major-Version
+              href: a-msdfs-schemamajorversion.md
+            - name: ms-DFS-Schema-Minor-Version
+              href: a-msdfs-schemaminorversion.md
+            - name: ms-DFS-Short-Name-Link-Path-v2
+              href: a-msdfs-shortnamelinkpathv2.md
+            - name: ms-DFS-Target-List-v2
+              href: a-msdfs-targetlistv2.md
+            - name: ms-DFS-Ttl-v2
+              href: a-msdfs-ttlv2.md
+            - name: ms-DNS-DNSKEY-記錄
+              href: a-msdns-dnskeyrecords.md
+            - name: ms-DNS-DNSKEY-記錄集-TTL
+              href: a-msdns-dnskeyrecordsetttl.md
+            - name: ms-DNS-DS-記錄演算法
+              href: a-msdns-dsrecordalgorithms.md
+            - name: ms-DNS-DS-記錄集-TTL
+              href: a-msdns-dsrecordsetttl.md
+            - name: ms-DNS-已簽署
+              href: a-msdns-issigned.md
+            - name: Keymaster-區域
+              href: a-msdns-keymasterzones.md
+            - name: ms-DNS-維護-信任-錨點
+              href: a-msdns-maintaintrustanchor.md
+            - name: ms-DNS-NSEC3-目前-Salt
+              href: a-msdns-nsec3currentsalt.md
+            - name: ms-DNS-NSEC3-雜湊演算法
+              href: a-msdns-nsec3hashalgorithm.md
+            - name: ms-DNS-NSEC3-反覆運算
+              href: a-msdns-nsec3iterations.md
+            - name: ms-DNS-NSEC3-輸出
+              href: a-msdns-nsec3optout.md
+            - name: ms-DNS-NSEC3-隨機-Salt 長度
+              href: a-msdns-nsec3randomsaltlength.md
+            - name: ms-DNS-NSEC3-使用者-Salt
+              href: a-msdns-nsec3usersalt.md
+            - name: ms-DNS-父系-具有-安全的委派
+              href: a-msdns-parenthassecuredelegation.md
+            - name: ms DNS-傳播時間
+              href: a-msdns-propagationtime.md
+            - name: RFC5011-金鑰變換
+              href: a-msdns-rfc5011keyrollovers.md
+            - name: ms-DNS-安全委派-輪詢期間
+              href: a-msdns-securedelegationpollingperiod.md
+            - name: ms-DNS-簽章-開始-位移
+              href: a-msdns-signatureinceptionoffset.md
+            - name: ms DNS-簽署-金鑰描述元
+              href: a-msdns-signingkeydescriptors.md
+            - name: ms DNS-簽署-金鑰
+              href: a-msdns-signingkeys.md
+            - name: ms-DNS-Sign-NSEC3
+              href: a-msdns-signwithnsec3.md
+            - name: MS-DRM-身分識別憑證
+              href: a-msdrm-identitycertificate.md
+            - name: ms-DS-其他 Dns-主機名稱
+              href: a-msds-additionaldnshostname.md
+            - name: ms DS-其他-Sam-帳戶-名稱
+              href: a-msds-additionalsamaccountname.md
+            - name: ms-DS-允許的 DNS 尾碼
+              href: a-msds-alloweddnssuffixes.md
+            - name: 以 ms DS 允許的身分識別，其他身分識別
+              href: a-msds-allowedtoactonbehalfofotheridentity.md
+            - name: 允許對委派的 ms DS
+              href: a-msds-allowedtodelegateto.md
+            - name: MS-DS-所有使用者-信任-配額
+              href: a-msds-alluserstrustquota.md
+            - name: ms-DS-適用于資源類型
+              href: a-msds-appliestoresourcetypes.md
+            - name: ms-DS-Immed-從屬
+              href: a-msds-approx-immed-subordinates.md
+            - name: ms-DS-AuthenticatedAt-DC
+              href: a-msds-authenticatedatdc.md
+            - name: ms-DS-AuthenticatedTo-Accountlist
+              href: a-msds-authenticatedtoaccountlist.md
+            - name: ms DS 輔助類別
+              href: a-msds-auxiliary-classes.md
+            - name: ms DS-Az-應用程式-資料
+              href: a-msds-azapplicationdata.md
+            - name: ms-DS-Az-應用程式名稱
+              href: a-msds-azapplicationname.md
+            - name: ms DS-Az-應用程式版本
+              href: a-msds-azapplicationversion.md
+            - name: ms-chap-Az-Biz-Rule
+              href: a-msds-azbizrule.md
+            - name: ms-chap-Az-Biz-Rule-Language
+              href: a-msds-azbizrulelanguage.md
+            - name: ms-chap-Az-Class-ID
+              href: a-msds-azclassid.md
+            - name: ms-chap-Az-Domain-Timeout
+              href: a-msds-azdomaintimeout.md
+            - name: ms DS-Az-產生-審核
+              href: a-msds-azgenerateaudits.md
+            - name: ms DS-Az-Generic-資料
+              href: a-msds-azgenericdata.md
+            - name: ms-chap-Az-最後匯入-Biz-規則-路徑
+              href: a-msds-azlastimportedbizrulepath.md
+            - name: ms DS-Az-LDAP-查詢
+              href: a-msds-azldapquery.md
+            - name: ms-chap-Az-主要版本
+              href: a-msds-azmajorversion.md
+            - name: ms-chap-Az-次要版本
+              href: a-msds-azminorversion.md
+            - name: ms-DS-Az-Object-Guid
+              href: a-msds-azobjectguid.md
+            - name: ms-DS-Az-Operation-ID
+              href: a-msds-azoperationid.md
+            - name: ms-chap-Az-範圍名稱
+              href: a-msds-azscopename.md
+            - name: ms DS-Az-腳本-引擎-快取-最大值
+              href: a-msds-azscriptenginecachemax.md
+            - name: ms DS-Az-Script-Timeout
+              href: a-msds-azscripttimeout.md
+            - name: ms-chap-Az-Task-角色定義
+              href: a-msds-aztaskisroledefinition.md
+            - name: ms DS-行為-版本
+              href: a-msds-behavior-version.md
+            - name: ms-DS-BridgeHead-Servers-Used
+              href: a-msds-bridgeheadserversused.md
+            - name: ms-DS-位元組陣列
+              href: a-msds-bytearray.md
+            - name: ms DS-快取-成員資格
+              href: a-msds-cached-membership.md
+            - name: ms DS 快取-成員資格時間戳記
+              href: a-msds-cached-membership-time-stamp.md
+            - name: ms-DS-宣告-屬性-來源
+              href: a-msds-claimattributesource.md
+            - name: ms-chap-----單一值
+              href: a-msds-claimissinglevalued.md
+            - name: ms DS-----------------限制
+              href: a-msds-claimisvaluespacerestricted.md
+            - name: ms DS-宣告-可能值
+              href: a-msds-claimpossiblevalues.md
+            - name: ms DS--------可能值-
+              href: a-msds-claimsharespossiblevalueswith.md
+            - name: ms-chap--------可能-值-BL
+              href: a-msds-claimsharespossiblevalueswithbl.md
+            - name: ms-DS-宣告-來源
+              href: a-msds-claimsource.md
+            - name: ms-DS-宣告-來源類型
+              href: a-msds-claimsourcetype.md
+            - name: ms-DS-宣告類型-適用于類別
+              href: a-msds-claimtypeappliestoclass.md
+            - name: ms-DS-宣告-數值型別
+              href: a-msds-claimvaluetype.md
+            - name: MS DS-一致性-子計數
+              href: a-ms-ds-consistencychildcount.md
+            - name: MS-DS-Consistency-Guid
+              href: a-ms-ds-consistencyguid.md
+            - name: MS-DS-Creator-SID
+              href: a-ms-ds-creatorsid.md
+            - name: ms DS-日期時間
+              href: a-msds-datetime.md
+            - name: ms DS-預設配額
+              href: a-msds-defaultquota.md
+            - name: ms-DS-已刪除-物件-存留期
+              href: a-msds-deletedobjectlifetime.md
+            - name: ms DS-停用-實例
+              href: a-msds-disableforinstances.md
+            - name: ms-DS-停用-實例-BL
+              href: a-msds-disableforinstancesbl.md
+            - name: DnsRootAlias
+              href: a-msds-dnsrootalias.md
+            - name: ms DS-輸出-宣告-轉換-原則
+              href: a-msds-egressclaimstransformationpolicy.md
+            - name: 啟用 ms DS-功能
+              href: a-msds-enabledfeature.md
+            - name: 啟用 ms DS-功能-BL
+              href: a-msds-enabledfeaturebl.md
+            - name: ms DS-進入-存留時間
+              href: a-msds-entry-time-to-die.md
+            - name: ExecuteScriptPassword
+              href: a-msds-executescriptpassword.md
+            - name: ms DS-External-Key
+              href: a-msds-externalkey.md
+            - name: ms-DS-外部存放區
+              href: a-msds-externalstore.md
+            - name: ms DS-失敗-互動式登入-計數
+              href: a-msds-failedinteractivelogoncount.md
+            - name: ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon
+              href: a-msds-failedinteractivelogoncountatlastsuccessfullogon.md
+            - name: ms-DS-篩選-容器
+              href: a-msds-filtercontainers.md
+            - name: ms DS-產生識別碼
+              href: a-msds-generationid.md
+            - name: GeoCoordinates-海拔
+              href: a-msds-geocoordinatesaltitude.md
+            - name: GeoCoordinates-緯度
+              href: a-msds-geocoordinateslatitude.md
+            - name: GeoCoordinates-經度
+              href: a-msds-geocoordinateslongitude.md
+            - name: GroupMSAMembership
+              href: a-msds-groupmsamembership.md
+            - name: ms-DS-HAB-Seniority-Index
+              href: a-msds-habseniorityindex.md
+            - name: ms-DS-Nc
+              href: a-msds-hasdomainncs.md
+            - name: ms-DS-Has-Full-Replica-NCs
+              href: a-msds-hasfullreplicancs.md
+            - name: ms-DS-具現化-Nc
+              href: a-msds-hasinstantiatedncs.md
+            - name: ms-DS-Nc
+              href: a-msds-hasmasterncs.md
+            - name: ms DS-主機-服務-帳戶
+              href: a-msds-hostserviceaccount.md
+            - name: ms-DS-服務-帳戶-BL
+              href: a-msds-hostserviceaccountbl.md
+            - name: ms-DS-輸入-宣告-轉換-原則
+              href: a-msds-ingressclaimstransformationpolicy.md
+            - name: ms DS-整數
+              href: a-msds-integer.md
+            - name: IntId
+              href: a-msds-intid.md
+            - name: ms-DS-Is-Domain-For
+              href: a-msds-isdomainfor.md
+            - name: ms-DS-Is-Full-Replica-For
+              href: a-msds-isfullreplicafor.md
+            - name: ms-DS-isGC
+              href: a-msds-isgc.md
+            - name: ms-DS-Is-Partial-Replica-For
+              href: a-msds-ispartialreplicafor.md
+            - name: ms-chap-可能-值-存在
+              href: a-msds-ispossiblevaluespresent.md
+            - name: ms-chap---主要電腦-
+              href: a-msds-isprimarycomputerfor.md
+            - name: ms-DS-isRODC
+              href: a-msds-isrodc.md
+            - name: ms-chap-使用中-資源安全性屬性
+              href: a-msds-isusedasresourcesecurityattribute.md
+            - name: ms-DS-Is-User-Cachable-At-Rodc
+              href: a-msds-isusercachableatrodc.md
+            - name: KeyVersionNumber
+              href: a-msds-keyversionnumber.md
+            - name: ms-DS-KrbTgt-Link
+              href: a-msds-krbtgtlink.md
+            - name: ms-DS-KrbTgt-Link-BL
+              href: a-msds-krbtgtlinkbl.md
+            - name: ms DS-上次失敗-互動式登入時間
+              href: a-msds-lastfailedinteractivelogontime.md
+            - name: ms-DS-最近-RDN
+              href: a-msds-lastknownrdn.md
+            - name: ms-DS-上次成功-互動式登入時間
+              href: a-msds-lastsuccessfulinteractivelogontime.md
+            - name: ms DS-本機有效-刪除時間
+              href: a-msds-localeffectivedeletiontime.md
+            - name: ms DS-本機有效-回收時間
+              href: a-msds-localeffectiverecycletime.md
+            - name: ms DS-鎖定-持續時間
+              href: a-msds-lockoutduration.md
+            - name: ms DS-鎖定-觀察-視窗
+              href: a-msds-lockoutobservationwindow.md
+            - name: ms DS-鎖定-閾值
+              href: a-msds-lockoutthreshold.md
+            - name: ms DS-登入時間-同步處理間隔
+              href: a-msds-logontimesyncinterval.md
+            - name: MS-DS-電腦帳戶-配額
+              href: a-ms-ds-machineaccountquota.md
+            - name: ManagedPassword
+              href: a-msds-managedpassword.md
+            - name: ManagedPasswordId
+              href: a-msds-managedpasswordid.md
+            - name: ManagedPasswordInterval
+              href: a-msds-managedpasswordinterval.md
+            - name: ManagedPasswordPreviousId
+              href: a-msds-managedpasswordpreviousid.md
+            - name: ms DS-主要-依據
+              href: a-msds-masteredby.md
+            - name: ms DS-最大密碼-使用期限
+              href: a-msds-maximumpasswordage.md
+            - name: ms DS-最大值
+              href: a-msds-maxvalues.md
+            - name: ms DS-成員--Az-Role
+              href: a-msds-membersforazrole.md
+            - name: ms DS-成員--Az-Role-BL
+              href: a-msds-membersforazrolebl.md
+            - name: ms DS-資源-屬性清單
+              href: a-msds-membersofresourcepropertylist.md
+            - name: ms-chap-資源--BL 的成員
+              href: a-msds-membersofresourcepropertylistbl.md
+            - name: ms-chap-最小密碼-使用期限
+              href: a-msds-minimumpasswordage.md
+            - name: ms-DS-密碼長度下限
+              href: a-msds-minimumpasswordlength.md
+            - name: ms DS-NC-複寫-資料指標
+              href: a-msds-ncreplcursors.md
+            - name: ms DS-----複本-位置
+              href: a-msds-nc-replica-locations.md
+            - name: ms-DS-NC-複寫-輸入-相鄰
+              href: a-msds-ncreplinboundneighbors.md
+            - name: ms DS-NC-複寫-輸出-相鄰
+              href: a-msds-ncreploutboundneighbors.md
+            - name: ms-DS-NC-RO-Replica-Locations
+              href: a-msds-nc-ro-replica-locations.md
+            - name: ms-DS-NC-RO-Replica-Locations-BL
+              href: a-msds-nc-ro-replica-locations-bl.md
+            - name: ms-DS-NC-Type
+              href: a-msds-nctype.md
+            - name: ms-DS-Never-Reveal-Group
+              href: a-msds-neverrevealgroup.md
+            - name: ms DS-非成員
+              href: a-msds-nonmembers.md
+            - name: ms DS-非成員-BL
+              href: a-msds-nonmembersbl.md
+            - name: ms DS-非安全性群組-額外類別
+              href: a-msds-non-security-group-extra-classes.md
+            - name: ms-DS-物件參考
+              href: a-msds-objectreference.md
+            - name: BL-------物件參考
+              href: a-msds-objectreferencebl.md
+            - name: OIDToGroup-連結
+              href: a-msds-oidtogrouplink.md
+            - name: OIDToGroup-連結-BL
+              href: a-msds-oidtogrouplinkbl.md
+            - name: ms DS-作業--Az-Role
+              href: a-msds-operationsforazrole.md
+            - name: BL-------------------
+              href: a-msds-operationsforazrolebl.md
+            - name: ms DS-作業--Az-Task
+              href: a-msds-operationsforaztask.md
+            - name: BL-------------工作-
+              href: a-msds-operationsforaztaskbl.md
+            - name: ms-DS-選用-功能-旗標
+              href: a-msds-optionalfeatureflags.md
+            - name: ms-DS-選用-功能-GUID
+              href: a-msds-optionalfeatureguid.md
+            - name: ms DS-其他-設定
+              href: a-msds-other-settings.md
+            - name: ms DS-密碼-複雜度-已啟用
+              href: a-msds-passwordcomplexityenabled.md
+            - name: ms-DS-密碼-歷程記錄-長度
+              href: a-msds-passwordhistorylength.md
+            - name: ms DS-密碼可還原-加密-啟用
+              href: a-msds-passwordreversibleencryptionenabled.md
+            - name: ms-DS-密碼-設定-優先順序
+              href: a-msds-passwordsettingsprecedence.md
+            - name: 每一使用者的 MS-信任-配額
+              href: a-msds-perusertrustquota.md
+            - name: 每一使用者的 MS DS-信任
+              href: a-msds-perusertrusttombstonesquota.md
+            - name: ms-DS-Phonetic-Company-Name
+              href: a-msds-phoneticcompanyname.md
+            - name: ms-DS-Phonetic-Department
+              href: a-msds-phoneticdepartment.md
+            - name: ms-DS-Phonetic-Display-Name
+              href: a-msds-phoneticdisplayname.md
+            - name: ms-DS-Phonetic-First-Name
+              href: a-msds-phoneticfirstname.md
+            - name: ms-DS-Phonetic-Last-Name
+              href: a-msds-phoneticlastname.md
+            - name: ms-DS-埠-LDAP
+              href: a-msds-portldap.md
+            - name: ms-DS-埠-SSL
+              href: a-msds-portssl.md
+            - name: ms DS-慣用-GC-網站
+              href: a-msds-preferred-gc-site.md
+            - name: ms-DS-主要電腦
+              href: a-msds-primarycomputer.md
+            - name: ms-DS-Principal-Name
+              href: a-msds-principalname.md
+            - name: ms-DS-Promotion-Settings
+              href: a-msds-promotionsettings.md
+            - name: PSO-已套用
+              href: a-msds-psoapplied.md
+            - name: PSO-適用于
+              href: a-msds-psoappliesto.md
+            - name: ms DS-配額-數量
+              href: a-msds-quotaamount.md
+            - name: ms DS-配額-有效
+              href: a-msds-quotaeffective.md
+            - name: ms DS-配額-信任者
+              href: a-msds-quotatrustee.md
+            - name: ms DS-使用配額
+              href: a-msds-quotaused.md
+            - name: ms-DS-複寫-屬性中繼資料
+              href: a-msds-replattributemetadata.md
+            - name: ms-DS-複寫-驗證模式
+              href: a-msds-replauthenticationmode.md
+            - name: MS-DS-複寫-NC-原因
+              href: a-ms-ds-replicatesncreason.md
+            - name: ReplicationEpoch
+              href: a-msds-replicationepoch.md
+            - name: ms DS-複寫-通知-第一個-DSA-延遲
+              href: a-msds-replication-notify-first-dsa-delay.md
+            - name: ms DS-複寫-通知-後續-DSA-延遲
+              href: a-msds-replication-notify-subsequent-dsa-delay.md
+            - name: ms-DS-複製-值中繼資料
+              href: a-msds-replvaluemetadata.md
+            - name: ms-DS-必要網域-行為-版本
+              href: a-msds-requireddomainbehaviorversion.md
+            - name: ms-DS-必要-樹系行為-版本
+              href: a-msds-requiredforestbehaviorversion.md
+            - name: ms-DS-結果-PSO
+              href: a-msds-resultantpso.md
+            - name: ms-DS-已停用-複寫-NC-簽章
+              href: a-msds-retiredreplncsignatures.md
+            - name: ms-DS-Revealed-DSAs
+              href: a-msds-revealeddsas.md
+            - name: ms-DS-Revealed-List
+              href: a-msds-revealedlist.md
+            - name: ms-DS-Revealed-List-BL
+              href: a-msds-revealedlistbl.md
+            - name: ms-DS-Revealed-Users
+              href: a-msds-revealedusers.md
+            - name: ms-DS-Reveal-OnDemand-Group
+              href: a-msds-revealondemandgroup.md
+            - name: ms ds-架構-擴充功能
+              href: a-msds-schema-extensions.md
+            - name: ms-DS-SCP-容器
+              href: a-msds-scpcontainer.md
+            - name: ms DS-SD-Reference-網域
+              href: a-msds-sdreferencedomain.md
+            - name: ms-DS-Secondary-KrbTgt-Number
+              href: a-msds-secondarykrbtgtnumber.md
+            - name: ms-DS-安全性群組-額外類別
+              href: a-msds-security-group-extra-classes.md
+            - name: ms-DS-Seniority-Index
+              href: a-msds-seniorityindex.md
+            - name: ms DS-服務-帳戶
+              href: a-msds-serviceaccount.md
+            - name: ms-DS-服務-帳戶-BL
+              href: a-msds-serviceaccountbl.md
+            - name: ms-DS-服務-帳戶-DNS-網域
+              href: a-msds-serviceaccountdnsdomain.md
+            - name: ms DS-設定
+              href: a-msds-settings.md
+            - name: ms-DS-網站-親和性
+              href: a-msds-site-affinity.md
+            - name: ms-DS-SiteName
+              href: a-msds-sitename.md
+            - name: ms-DS-來源-物件-DN
+              href: a-msds-sourceobjectdn.md
+            - name: ms DS-SPN-尾碼
+              href: a-msds-spnsuffixes.md
+            - name: 支援的 ms DS-加密類型
+              href: a-msds-supportedencryptiontypes.md
+            - name: ms DS-工作--Az-角色
+              href: a-msds-tasksforazrole.md
+            - name: ms-chap---------BL
+              href: a-msds-tasksforazrolebl.md
+            - name: ms DS-工作--Az-Task
+              href: a-msds-tasksforaztask.md
+            - name: ms DS-工作--Az-Task-BL
+              href: a-msds-tasksforaztaskbl.md
+            - name: ms DS-TDO-出口-BL
+              href: a-msds-tdoegressbl.md
+            - name: ms-DS-TDO-輸入-BL
+              href: a-msds-tdoingressbl.md
+            - name: ms-DS-標記-配額因素
+              href: a-msds-tombstonequotafactor.md
+            - name: ms-DS-最上層配額-使用量
+              href: a-msds-topquotausage.md
+            - name: ms-DS-轉換-規則
+              href: a-msds-transformationrules.md
+            - name: ms-DS-轉換-規則-已編譯
+              href: a-msds-transformationrulescompiled.md
+            - name: ms-DS-信任-樹系信任資訊
+              href: a-msds-trustforesttrustinfo.md
+            - name: UpdateScript
+              href: a-msds-updatescript.md
+            - name: ms DS-使用者-帳戶-自動鎖定
+              href: a-ms-ds-useraccountautolocked.md
+            - name: ms-DS-使用者-帳戶-控制項計算
+              href: a-msds-user-account-control-computed.md
+            - name: ms DS-使用者-帳戶-已停用
+              href: a-msds-useraccountdisabled.md
+            - name: ms DS-使用者不會過期-密碼
+              href: a-msds-userdontexpirepassword.md
+            - name: ms DS-使用者加密-文字-允許的密碼
+              href: a-ms-ds-userencryptedtextpasswordallowed.md
+            - name: ms-DS-使用者密碼-已過期
+              href: a-msds-userpasswordexpired.md
+            - name: ms-DS-User-Password-Expiry-Time-Computed
+              href: a-msds-userpasswordexpirytimecomputed.md
+            - name: ms-DS-使用者-密碼-非必要
+              href: a-ms-ds-userpasswordnotrequired.md
+            - name: ms DS-USN-上次同步-成功
+              href: a-msds-usnlastsyncsuccess.md
+            - name: ms-DS-數值型別參考
+              href: a-msds-valuetypereference.md
+            - name: ms-chap-------Reference-BL
+              href: a-msds-valuetypereferencebl.md
+            - name: Ms-exch-assistant-name-助理-名稱
+              href: a-msexchassistantname.md
+            - name: Ms-exch-assistant-name-內部識別碼
+              href: a-msexchhouseidentifier.md
+            - name: Ms-exch-assistant-name-LabeledURI
+              href: a-msexchlabeleduri.md
+            - name: Ms-exch-assistant-name-擁有者-BL
+              href: a-ownerbl.md
+            - name: ms-FRS-中樞成員
+              href: a-msfrs-hub-member.md
+            - name: 毫秒-FRS-拓撲-Pref
+              href: a-msfrs-topology-pref.md
+            - name: ms-FVE-KeyPackage
+              href: a-msfve-keypackage.md
+            - name: ms-FVE-RecoveryGuid
+              href: a-msfve-recoveryguid.md
+            - name: ms-FVE-RecoveryPassword
+              href: a-msfve-recoverypassword.md
+            - name: ms-FVE-VolumeGuid
+              href: a-msfve-volumeguid.md
+            - name: ms-ieee-80211-資料
+              href: a-msieee80211-data.md
+            - name: ms-chap-ieee-80211-資料類型
+              href: a-msieee80211-datatype.md
+            - name: ms-chap-ieee-80211-識別碼
+              href: a-msieee80211-id.md
+            - name: Msi-檔案清單
+              href: a-msifilelist.md
+            - name: ms-IIS-FTP-Dir
+              href: a-msiis-ftpdir.md
+            - name: ms-IIS-FTP-根目錄
+              href: a-msiis-ftproot.md
+            - name: 毫秒-影像-雜湊演算法
+              href: a-msimaging-hashalgorithm.md
+            - name: 毫秒-影像處理-PSP-識別碼
+              href: a-msimaging-pspidentifier.md
+            - name: 毫秒-影像處理-PSP-字串
+              href: a-msimaging-pspstring.md
+            - name: ms-影像處理指紋-雜湊
+              href: a-msimaging-thumbprinthash.md
+            - name: Msi-Script
+              href: a-msiscript.md
+            - name: Msi-腳本-名稱
+              href: a-msiscriptname.md
+            - name: Msi-腳本-路徑
+              href: a-msiscriptpath.md
+            - name: Msi-腳本-大小
+              href: a-msiscriptsize.md
+            - name: Kds 根金鑰-Createtimefilterend
+              href: a-mskds-createtime.md
+            - name: Kds 根金鑰-DomainID
+              href: a-mskds-domainid.md
+            - name: Kds 根金鑰-KDF-AlgorithmID
+              href: a-mskds-kdfalgorithmid.md
+            - name: Kds 根金鑰-KDF-Param
+              href: a-mskds-kdfparam.md
+            - name: Kds 根金鑰-PrivateKey-Length
+              href: a-mskds-privatekeylength.md
+            - name: Kds 根金鑰-PublicKey-Length
+              href: a-mskds-publickeylength.md
+            - name: Kds 根金鑰-RootKeyData
+              href: a-mskds-rootkeydata.md
+            - name: Kds 根金鑰-SecretAgreement-AlgorithmID
+              href: a-mskds-secretagreementalgorithmid.md
+            - name: Kds 根金鑰-SecretAgreement-Param
+              href: a-mskds-secretagreementparam.md
+            - name: Kds 根金鑰-UseStartTime
+              href: a-mskds-usestarttime.md
+            - name: Kds 根金鑰-版本
+              href: a-mskds-version.md
+            - name: MSMQ-Authenticate
+              href: a-msmqauthenticate.md
+            - name: MSMQ-基本優先順序
+              href: a-msmqbasepriority.md
+            - name: MSMQ-電腦類型
+              href: a-msmqcomputertype.md
+            - name: MSMQ-電腦類型-Ex
+              href: a-msmqcomputertypeex.md
+            - name: MSMQ-Cost
+              href: a-msmqcost.md
+            - name: MSMQ-CSP-名稱
+              href: a-msmqcspname.md
+            - name: MSMQ 相依用戶端-服務
+              href: a-msmqdependentclientservice.md
+            - name: MSMQ 相依-用戶端服務
+              href: a-msmqdependentclientservices.md
+            - name: MSMQ-Digests
+              href: a-msmqdigests.md
+            - name: MSMQ-摘要-Svrmig.mig
+              href: a-msmqdigestsmig.md
+            - name: MSMQ-Ds-服務
+              href: a-msmqdsservice.md
+            - name: MSMQ-Ds-服務
+              href: a-msmqdsservices.md
+            - name: MSMQ-加密-金鑰
+              href: a-msmqencryptkey.md
+            - name: MSMQ-Foreign
+              href: a-msmqforeign.md
+            - name: MSMQ 路由傳送伺服器
+              href: a-msmqinroutingservers.md
+            - name: MSMQ-Interval1
+              href: a-msmqinterval1.md
+            - name: MSMQ-Interval2
+              href: a-msmqinterval2.md
+            - name: MSMQ-Journal
+              href: a-msmqjournal.md
+            - name: MSMQ 日誌-配額
+              href: a-msmqjournalquota.md
+            - name: MSMQ-Label
+              href: a-msmqlabel.md
+            - name: MSMQ 標籤-例如
+              href: a-msmqlabelex.md
+            - name: MSMQ-長期期限
+              href: a-msmqlonglived.md
+            - name: MSMQ-Migrated
+              href: a-msmqmigrated.md
+            - name: MSMQ-多播-位址
+              href: a-msmq-multicastaddress.md
+            - name: MSMQ-名稱樣式
+              href: a-msmqnamestyle.md
+            - name: MSMQ-Nt4-旗標
+              href: a-msmqnt4flags.md
+            - name: MSMQ-Nt4-存根
+              href: a-msmqnt4stub.md
+            - name: MSMQ-OS 類型
+              href: a-msmqostype.md
+            - name: MSMQ 輸出路由-伺服器
+              href: a-msmqoutroutingservers.md
+            - name: MSMQ-擁有者識別碼
+              href: a-msmqownerid.md
+            - name: MSMQ-上站-閘道
+              href: a-msmqprevsitegates.md
+            - name: MSMQ-隱私權層級
+              href: a-msmqprivacylevel.md
+            - name: MSMQ-QM-ID
+              href: a-msmqqmid.md
+            - name: MSMQ-佇列-日誌-配額
+              href: a-msmqqueuejournalquota.md
+            - name: MSMQ-佇列-名稱-Ext
+              href: a-msmqqueuenameext.md
+            - name: MSMQ-佇列-配額
+              href: a-msmqqueuequota.md
+            - name: MSMQ-佇列類型
+              href: a-msmqqueuetype.md
+            - name: MSMQ-Quota
+              href: a-msmqquota.md
+            - name: MSMQ-收件者-Msmq.formatname
+              href: a-msmq-recipient-formatname.md
+            - name: MSMQ-路由服務
+              href: a-msmqroutingservice.md
+            - name: MSMQ 路由服務
+              href: a-msmqroutingservices.md
+            - name: MSMQ 安全-來源
+              href: a-msmq-securedsource.md
+            - name: MSMQ-Services
+              href: a-msmqservices.md
+            - name: MSMQ-服務類型
+              href: a-msmqservicetype.md
+            - name: MSMQ-簽署憑證
+              href: a-msmqsigncertificates.md
+            - name: MSMQ-簽署-憑證-Svrmig.mig
+              href: a-msmqsigncertificatesmig.md
+            - name: MSMQ-簽署金鑰
+              href: a-msmqsignkey.md
+            - name: MSMQ-網站1
+              href: a-msmqsite1.md
+            - name: MSMQ-網站2
+              href: a-msmqsite2.md
+            - name: MSMQ-網站-外部
+              href: a-msmqsiteforeign.md
+            - name: MSMQ-網站-閘道
+              href: a-msmqsitegates.md
+            - name: MSMQ-網站-閘道-Svrmig.mig
+              href: a-msmqsitegatesmig.md
+            - name: MSMQ-網站識別碼
+              href: a-msmqsiteid.md
+            - name: MSMQ-網站名稱
+              href: a-msmqsitename.md
+            - name: MSMQ-網站名稱-例如
+              href: a-msmqsitenameex.md
+            - name: MSMQ-Sites
+              href: a-msmqsites.md
+            - name: MSMQ-Transactional
+              href: a-msmqtransactional.md
+            - name: MSMQ-使用者 Sid
+              href: a-msmqusersid.md
+            - name: MSMQ-Version
+              href: a-msmqversion.md
+            - name: ms-net-ieee-80211-GP-PolicyData
+              href: a-ms-net-ieee-80211-gp-policydata.md
+            - name: ms-net-ieee-80211-GP-PolicyGUID
+              href: a-ms-net-ieee-80211-gp-policyguid.md
+            - name: ms-net-ieee-80211-GP-PolicyReserved
+              href: a-ms-net-ieee-80211-gp-policyreserved.md
+            - name: ms-net-ieee-8023-GP-PolicyData
+              href: a-ms-net-ieee-8023-gp-policydata.md
+            - name: ms-net-ieee-8023-GP-PolicyGUID
+              href: a-ms-net-ieee-8023-gp-policyguid.md
+            - name: ms-net-ieee-8023-GP-PolicyReserved
+              href: a-ms-net-ieee-8023-gp-policyreserved.md
+            - name: msNPAllowDialin
+              href: a-msnpallowdialin.md
+            - name: msNPCalledStationID
+              href: a-msnpcalledstationid.md
+            - name: msNPCallingStationID
+              href: a-msnpcallingstationid.md
+            - name: msNPSavedCallingStationID
+              href: a-msnpsavedcallingstationid.md
+            - name: ms-PKI-AccountCredentials
+              href: a-mspkiaccountcredentials.md
+            - name: ms-PKI-憑證-應用程式-原則
+              href: a-mspki-certificate-application-policy.md
+            - name: ms-PKI-憑證名稱-旗標
+              href: a-mspki-certificate-name-flag.md
+            - name: ms-PKI-憑證-原則
+              href: a-mspki-certificate-policy.md
+            - name: ms-PKI-Cert-Template-OID
+              href: a-mspki-cert-template-oid.md
+            - name: ms-PKI-認證-漫遊-權杖
+              href: a-mspki-credentialroamingtokens.md
+            - name: ms-PKI-DPAPIMasterKeys
+              href: a-mspkidpapimasterkeys.md
+            - name: ms-PKI-註冊-旗標
+              href: a-mspki-enrollment-flag.md
+            - name: ms-PKI-註冊-伺服器
+              href: a-mspki-enrollment-servers.md
+            - name: ms-PKI-基本金鑰大小
+              href: a-mspki-minimal-key-size.md
+            - name: ms PKI-OID-Attribute
+              href: a-mspki-oid-attribute.md
+            - name: ms-PKI-OID-CPS
+              href: a-mspki-oid-cps.md
+            - name: ms-PKI-OID-LocalizedName
+              href: a-mspki-oidlocalizedname.md
+            - name: ms-PKI-OID-使用者-注意事項
+              href: a-mspki-oid-user-notice.md
+            - name: ms-PKI-私用金鑰旗標
+              href: a-mspki-private-key-flag.md
+            - name: ms-PKI-RA-應用程式原則
+              href: a-mspki-ra-application-policies.md
+            - name: ms-PKI-RA-原則
+              href: a-mspki-ra-policies.md
+            - name: ms-PKI-RA-簽章
+              href: a-mspki-ra-signature.md
+            - name: ms-PKI-RoamingTimeStamp
+              href: a-mspkiroamingtimestamp.md
+            - name: ms-PKI-網站名稱
+              href: a-mspki-site-name.md
+            - name: ms-PKI-取代-範本
+              href: a-mspki-supersede-templates.md
+            - name: ms-PKI-範本-次要修訂
+              href: a-mspki-template-minor-revision.md
+            - name: ms-PKI-Template-Schema-Version
+              href: a-mspki-template-schema-version.md
+            - name: msRADIUSCallbackNumber
+              href: a-msradiuscallbacknumber.md
+            - name: ms-RADIUS-FramedInterfaceId
+              href: a-msradius-framedinterfaceid.md
+            - name: msRADIUSFramedIPAddress
+              href: a-msradiusframedipaddress.md
+            - name: ms-RADIUS-FramedIpv6Prefix
+              href: a-msradius-framedipv6prefix.md
+            - name: ms-RADIUS-FramedIpv6Route
+              href: a-msradius-framedipv6route.md
+            - name: msRADIUSFramedRoute
+              href: a-msradiusframedroute.md
+            - name: ms-RADIUS-SavedFramedInterfaceId
+              href: a-msradius-savedframedinterfaceid.md
+            - name: ms-RADIUS-SavedFramedIpv6Prefix
+              href: a-msradius-savedframedipv6prefix.md
+            - name: ms-RADIUS-SavedFramedIpv6Route
+              href: a-msradius-savedframedipv6route.md
+            - name: msRADIUSServiceType
+              href: a-msradiusservicetype.md
+            - name: msRASSavedCallbackNumber
+              href: a-msrassavedcallbacknumber.md
+            - name: msRASSavedFramedIPAddress
+              href: a-msrassavedframedipaddress.md
+            - name: msRASSavedFramedRoute
+              href: a-msrassavedframedroute.md
+            - name: ms RRAS-屬性
+              href: a-msrrasattribute.md
+            - name: ms RRAS-廠商-屬性-Entry
+              href: a-msrrasvendorattributeentry.md
+            - name: msSFU-30-別名
+              href: a-mssfu30aliases.md
+            - name: msSFU-30-Crypt-方法
+              href: a-mssfu30cryptmethod.md
+            - name: msSFU-30-網域
+              href: a-mssfu30domains.md
+            - name: msSFU-30-欄位-分隔符號
+              href: a-mssfu30fieldseparator.md
+            - name: msSFU-30-欄位內-分隔符號
+              href: a-mssfu30intrafieldseparator.md
+            - name: msSFU-30-有效-容器
+              href: a-mssfu30isvalidcontainer.md
+            - name: msSFU-30-索引鍵-屬性
+              href: a-mssfu30keyattributes.md
+            - name: msSFU-30-索引鍵-值
+              href: a-mssfu30keyvalues.md
+            - name: msSFU-30-地圖-篩選
+              href: a-mssfu30mapfilter.md
+            - name: msSFU-30-主伺服器-名稱
+              href: a-mssfu30masterservername.md
+            - name: msSFU-30-Max-Gid-Number
+              href: a-mssfu30maxgidnumber.md
+            - name: msSFU-30-Max-Uid-Number
+              href: a-mssfu30maxuidnumber.md
+            - name: msSFU-30-名稱
+              href: a-mssfu30name.md
+            - name: msSFU-30-網路-網域-網域間主機
+              href: a-mssfu30netgrouphostatdomain.md
+            - name: msSFU-30-網路-使用者-網域
+              href: a-mssfu30netgroupuseratdomain.md
+            - name: msSFU-30-Nis-網域
+              href: a-mssfu30nisdomain.md
+            - name: msSFU-30-NSMAP-欄位-位置
+              href: a-mssfu30nsmapfieldposition.md
+            - name: msSFU-30-訂購編號
+              href: a-mssfu30ordernumber.md
+            - name: msSFU-30-Posix-成員
+              href: a-mssfu30posixmember.md
+            - name: msSFU-30-Posix-成員
+              href: a-mssfu30posixmemberof.md
+            - name: msSFU-30-結果-屬性
+              href: a-mssfu30resultattributes.md
+            - name: msSFU-30-搜尋-屬性
+              href: a-mssfu30searchattributes.md
+            - name: msSFU-30-搜尋-容器
+              href: a-mssfu30searchcontainer.md
+            - name: msSFU-30-Yp-伺服器
+              href: a-mssfu30ypservers.md
+            - name: ms-SPP-Config-授權
+              href: a-msspp-configlicense.md
+            - name: SPP-確認-識別碼
+              href: a-msspp-confirmationid.md
+            - name: SPP-CSVLK-部分產品金鑰
+              href: a-msspp-csvlkpartialproductkey.md
+            - name: SPP-CSVLK-Pid
+              href: a-msspp-csvlkpid.md
+            - name: SPP-CSVLK-Sku-Id
+              href: a-msspp-csvlkskuid.md
+            - name: SPP-安裝-識別碼
+              href: a-msspp-installationid.md
+            - name: SPP-發佈-授權
+              href: a-msspp-issuancelicense.md
+            - name: SPP-KMS-識別碼
+              href: a-msspp-kmsids.md
+            - name: SPP-線上-授權
+              href: a-msspp-onlinelicense.md
+            - name: SPP-電話-授權
+              href: a-msspp-phonelicense.md
+            - name: MS-SQL-別名
+              href: a-ms-sql-alias.md
+            - name: AllowAnonymousSubscription
+              href: a-ms-sql-allowanonymoussubscription.md
+            - name: AllowImmediateUpdatingSubscription
+              href: a-ms-sql-allowimmediateupdatingsubscription.md
+            - name: AllowKnownPullSubscription
+              href: a-ms-sql-allowknownpullsubscription.md
+            - name: AllowQueuedUpdatingSubscription
+              href: a-ms-sql-allowqueuedupdatingsubscription.md
+            - name: AllowSnapshotFilesFTPDownloading
+              href: a-ms-sql-allowsnapshotfilesftpdownloading.md
+            - name: MS-CHAP-AppleTalk
+              href: a-ms-sql-appletalk.md
+            - name: MS-SQL-應用程式
+              href: a-ms-sql-applications.md
+            - name: MS-SQL-組建
+              href: a-ms-sql-build.md
+            - name: CharacterSet
+              href: a-ms-sql-characterset.md
+            - name: MS-CHAP-叢集
+              href: a-ms-sql-clustered.md
+            - name: ConnectionURL
+              href: a-ms-sql-connectionurl.md
+            - name: MS-SQL-連絡人
+              href: a-ms-sql-contact.md
+            - name: CreationDate
+              href: a-ms-sql-creationdate.md
+            - name: MS-SQL-資料庫
+              href: a-ms-sql-database.md
+            - name: MS-SQL-Description
+              href: a-ms-sql-description.md
+            - name: GPSHeight
+              href: a-ms-sql-gpsheight.md
+            - name: GPSLatitude
+              href: a-ms-sql-gpslatitude.md
+            - name: GPSLongitude
+              href: a-ms-sql-gpslongitude.md
+            - name: InformationDirectory
+              href: a-ms-sql-informationdirectory.md
+            - name: InformationURL
+              href: a-ms-sql-informationurl.md
+            - name: MS-CHAP-關鍵字
+              href: a-ms-sql-keywords.md
+            - name: MS-CHAP-語言
+              href: a-ms-sql-language.md
+            - name: LastBackupDate
+              href: a-ms-sql-lastbackupdate.md
+            - name: LastDiagnosticDate
+              href: a-ms-sql-lastdiagnosticdate.md
+            - name: LastUpdatedDate
+              href: a-ms-sql-lastupdateddate.md
+            - name: MS-CHAP-位置
+              href: a-ms-sql-location.md
+            - name: MS-CHAP-記憶體
+              href: a-ms-sql-memory.md
+            - name: MS-CHAP-多重通訊協定
+              href: a-ms-sql-multiprotocol.md
+            - name: MS-SQL-名稱
+              href: a-ms-sql-name.md
+            - name: NamedPipe
+              href: a-ms-sql-namedpipe.md
+            - name: PublicationURL
+              href: a-ms-sql-publicationurl.md
+            - name: TRANSACT-SQL-發行者
+              href: a-ms-sql-publisher.md
+            - name: '>registeredowner'
+              href: a-ms-sql-registeredowner.md
+            - name: ServiceAccount
+              href: a-ms-sql-serviceaccount.md
+            - name: MS-SQL-大小
+              href: a-ms-sql-size.md
+            - name: MS-CHAP-SortOrder
+              href: a-ms-sql-sortorder.md
+            - name: MS-CHAP-SPX
+              href: a-ms-sql-spx.md
+            - name: MS-SQL-狀態
+              href: a-ms-sql-status.md
+            - name: MS-SQL-TCPIP
+              href: a-ms-sql-tcpip.md
+            - name: ThirdParty
+              href: a-ms-sql-thirdparty.md
+            - name: MS-CHAP 類型
+              href: a-ms-sql-type.md
+            - name: UnicodeSortOrder
+              href: a-ms-sql-unicodesortorder.md
+            - name: MS-SQL-版本
+              href: a-ms-sql-version.md
+            - name: Vines
+              href: a-ms-sql-vines.md
+            - name: ms-TAPI-會議-Blob
+              href: a-mstapi-conferenceblob.md
+            - name: ms-TAPI-Ip 位址
+              href: a-mstapi-ipaddress.md
+            - name: ms-chap-通訊協定-識別碼
+              href: a-mstapi-protocolid.md
+            - name: ms-TAPI-唯一識別碼
+              href: a-mstapi-uid.md
+            - name: ms-TPM-OwnerInformation
+              href: a-mstpm-ownerinformation.md
+            - name: ms-TPM-擁有者-資訊-暫存
+              href: a-mstpm-ownerinformationtemp.md
+            - name: ms-TPM-Srk-Pub-指紋
+              href: a-mstpm-srkpubthumbprint.md
+            - name: ms-chap-tpm--電腦的資訊
+              href: a-mstpm-tpminformationforcomputer.md
+            - name: ms-chap-tpm--------------BL
+              href: a-mstpm-tpminformationforcomputerbl.md
+            - name: ms-TS-Allow-Logon
+              href: a-mstsallowlogon.md
+            - name: ms-TS-Broken-Connection-Action
+              href: a-mstsbrokenconnectionaction.md
+            - name: ms-TS-Connect-Client-Drives
+              href: a-mstsconnectclientdrives.md
+            - name: ms-TS-Connect-Printer-Drives
+              href: a-mstsconnectprinterdrives.md
+            - name: ms-TS-Default-To-Main-Printer
+              href: a-mstsdefaulttomainprinter.md
+            - name: ms-TS-端點-資料
+              href: a-mstsendpointdata.md
+            - name: ms-TS-端點-外掛程式
+              href: a-mstsendpointplugin.md
+            - name: ms-TS-端點類型
+              href: a-mstsendpointtype.md
+            - name: MS-TS-ExpireDate
+              href: a-mstsexpiredate.md
+            - name: MS-TS-ExpireDate2
+              href: a-mstsexpiredate2.md
+            - name: MS-TS-ExpireDate3
+              href: a-mstsexpiredate3.md
+            - name: MS-TS-ExpireDate4
+              href: a-mstsexpiredate4.md
+            - name: ms-TS-Home-Directory
+              href: a-mstshomedirectory.md
+            - name: ms-TS-Home-Drive
+              href: a-mstshomedrive.md
+            - name: ms-TS-Initial-Program
+              href: a-mstsinitialprogram.md
+            - name: MS-TS-LicenseVersion
+              href: a-mstslicenseversion.md
+            - name: MS-TS-LicenseVersion2
+              href: a-mstslicenseversion2.md
+            - name: MS-TS-LicenseVersion3
+              href: a-mstslicenseversion3.md
+            - name: MS-TS-LicenseVersion4
+              href: a-mstslicenseversion4.md
+            - name: MS-TSLS-Property01
+              href: a-mstslsproperty01.md
+            - name: MS-TSLS-Property02
+              href: a-mstslsproperty02.md
+            - name: MS-TS-ManagingLS
+              href: a-mstsmanagingls.md
+            - name: MS-TS-ManagingLS2
+              href: a-mstsmanagingls2.md
+            - name: MS-TS-ManagingLS3
+              href: a-mstsmanagingls3.md
+            - name: MS-TS-ManagingLS4
+              href: a-mstsmanagingls4.md
+            - name: ms-TS-Max-Connection-Time
+              href: a-mstsmaxconnectiontime.md
+            - name: ms-TS-Max-Disconnection-Time
+              href: a-mstsmaxdisconnectiontime.md
+            - name: ms-TS-Max-Idle-Time
+              href: a-mstsmaxidletime.md
+            - name: ms-TS-主要-桌面
+              href: a-mstsprimarydesktop.md
+            - name: ms-TS-主要-桌面-BL
+              href: a-mstsprimarydesktopbl.md
+            - name: ms-TS-Profile-Path
+              href: a-mstsprofilepath.md
+            - name: MS-TS-Property01
+              href: a-mstsproperty01.md
+            - name: MS-TS-Property02
+              href: a-mstsproperty02.md
+            - name: ms-TS-Reconnection-Action
+              href: a-mstsreconnectionaction.md
+            - name: ms-TS-Remote-Control
+              href: a-mstsremotecontrol.md
+            - name: ms-TS-次要-桌面-BL
+              href: a-mstssecondarydesktopbl.md
+            - name: ms-TS-次要-桌上型電腦
+              href: a-mstssecondarydesktops.md
+            - name: ms-TS-Work-Directory
+              href: a-mstsworkdirectory.md
+            - name: ms-WMI-作者
+              href: a-mswmi-author.md
+            - name: ChangeDate
+              href: a-mswmi-changedate.md
+            - name: ms WMI 類別
+              href: a-mswmi-class.md
+            - name: ClassDefinition
+              href: a-mswmi-classdefinition.md
+            - name: CreationDate
+              href: a-mswmi-creationdate.md
+            - name: 拼出動植物
+              href: a-mswmi-genus.md
+            - name: ms-WMI-識別碼
+              href: a-mswmi-id.md
+            - name: int8Default
+              href: a-mswmi-int8default.md
+            - name: int8Max
+              href: a-mswmi-int8max.md
+            - name: int8Min
+              href: a-mswmi-int8min.md
+            - name: int8ValidValues
+              href: a-mswmi-int8validvalues.md
+            - name: intDefault
+              href: a-mswmi-intdefault.md
+            - name: intFlags1
+              href: a-mswmi-intflags1.md
+            - name: intFlags2
+              href: a-mswmi-intflags2.md
+            - name: intFlags3
+              href: a-mswmi-intflags3.md
+            - name: intFlags4
+              href: a-mswmi-intflags4.md
+            - name: intMax
+              href: a-mswmi-intmax.md
+            - name: intMin
+              href: a-mswmi-intmin.md
+            - name: intValidValues
+              href: a-mswmi-intvalidvalues.md
+            - name: ms-WMI-Mof
+              href: a-mswmi-mof.md
+            - name: ms-WMI-名稱
+              href: a-mswmi-name.md
+            - name: NormalizedClass
+              href: a-mswmi-normalizedclass.md
+            - name: Parm1
+              href: a-mswmi-parm1.md
+            - name: Parm2
+              href: a-mswmi-parm2.md
+            - name: Parm3
+              href: a-mswmi-parm3.md
+            - name: Parm4
+              href: a-mswmi-parm4.md
+            - name: ms-WMI-PropertyName
+              href: a-mswmi-propertyname.md
+            - name: ms-WMI-查詢
+              href: a-mswmi-query.md
+            - name: QueryLanguage
+              href: a-mswmi-querylanguage.md
+            - name: ScopeGuid
+              href: a-mswmi-scopeguid.md
+            - name: SourceOrganization
+              href: a-mswmi-sourceorganization.md
+            - name: stringDefault
+              href: a-mswmi-stringdefault.md
+            - name: stringValidValues
+              href: a-mswmi-stringvalidvalues.md
+            - name: '>targetclass'
+              href: a-mswmi-targetclass.md
+            - name: ms-WMI-TargetNameSpace
+              href: a-mswmi-targetnamespace.md
+            - name: TargetObject
+              href: a-mswmi-targetobject.md
+            - name: TargetPath
+              href: a-mswmi-targetpath.md
+            - name: ms-WMI-TargetType
+              href: a-mswmi-targettype.md
+            - name: Must-Contain
+              href: a-mustcontain.md
+            - name: 名稱-服務-旗標
+              href: a-nameserviceflags.md
+            - name: NC-Name
+              href: a-ncname.md
+            - name: NETBIOS-Name
+              href: a-netbiosname.md
+            - name: netboot-允許-新增-用戶端
+              href: a-netbootallownewclients.md
+            - name: netboot-僅限回應-有效-用戶端
+              href: a-netbootansweronlyvalidclients.md
+            - name: netboot-解答-要求
+              href: a-netbootanswerrequests.md
+            - name: netboot-目前-用戶端計數
+              href: a-netbootcurrentclientcount.md
+            - name: Netboot-GUID
+              href: a-netbootguid.md
+            - name: Netboot-Initialization
+              href: a-netbootinitialization.md
+            - name: netboot-IntelliMirror-作業系統
+              href: a-netbootintellimirroroses.md
+            - name: netboot-限制-用戶端
+              href: a-netbootlimitclients.md
+            - name: netboot-本機安裝-作業系統
+              href: a-netbootlocallyinstalledoses.md
+            - name: Netboot-電腦-檔案-路徑
+              href: a-netbootmachinefilepath.md
+            - name: netboot-最大用戶端
+              href: a-netbootmaxclients.md
+            - name: Netboot-鏡像-資料檔案
+              href: a-netbootmirrordatafile.md
+            - name: netboot-新增-電腦-命名原則
+              href: a-netbootnewmachinenamingpolicy.md
+            - name: netboot-新增-電腦-OU
+              href: a-netbootnewmachineou.md
+            - name: netboot-SCP-BL
+              href: a-netbootscpbl.md
+            - name: netboot-伺服器
+              href: a-netbootserver.md
+            - name: Netboot-SIF-File
+              href: a-netbootsiffile.md
+            - name: netboot-工具
+              href: a-netboottools.md
+            - name: Network-Address
+              href: a-networkaddress.md
+            - name: 下一層-存放區
+              href: a-nextlevelstore.md
+            - name: 下一步-Rid
+              href: a-nextrid.md
+            - name: nisMapEntry
+              href: a-nismapentry.md
+            - name: nisMapName
+              href: a-nismapname.md
+            - name: nisNetgroupTriple
+              href: a-nisnetgrouptriple.md
+            - name: 非安全性成員
+              href: a-nonsecuritymember.md
+            - name: 非安全性成員-BL
+              href: a-nonsecuritymemberbl.md
+            - name: Notification-List
+              href: a-notificationlist.md
+            - name: NT 群組-成員
+              href: a-ntgroupmembers.md
+            - name: NT-混合網域
+              href: a-ntmixeddomain.md
+            - name: Nt-Pwd-歷程記錄
+              href: a-ntpwdhistory.md
+            - name: NT-Security-描述元
+              href: a-ntsecuritydescriptor.md
+            - name: Obj-Dist 名稱
+              href: a-distinguishedname.md
+            - name: Object-Category
+              href: a-objectcategory.md
+            - name: Object-Class
+              href: a-objectclass.md
+            - name: 物件類別-類別目錄
+              href: a-objectclasscategory.md
+            - name: Object-Classes
+              href: a-objectclasses.md
+            - name: Object-Count
+              href: a-objectcount.md
+            - name: Object-Guid
+              href: a-objectguid.md
+            - name: Object-Sid
+              href: a-objectsid.md
+            - name: Object-Version
+              href: a-objectversion.md
+            - name: OEM-Information
+              href: a-oeminformation.md
+            - name: OM-物件類別
+              href: a-omobjectclass.md
+            - name: OM-Syntax
+              href: a-omsyntax.md
+            - name: OMT-Guid
+              href: a-omtguid.md
+            - name: OMT-Indx-Guid
+              href: a-omtindxguid.md
+            - name: oncRpcNumber
+              href: a-oncrpcnumber.md
+            - name: Operating-System
+              href: a-operatingsystem.md
+            - name: 作業系統-修復程式
+              href: a-operatingsystemhotfix.md
+            - name: 作業系統-Service Pack
+              href: a-operatingsystemservicepack.md
+            - name: 作業系統版本
+              href: a-operatingsystemversion.md
+            - name: Operator-Count
+              href: a-operatorcount.md
+            - name: Option-Description
+              href: a-optiondescription.md
+            - name: 選項
+              href: a-options.md
+            - name: Options-Location
+              href: a-optionslocation.md
+            - name: organizationalStatus
+              href: a-organizationalstatus.md
+            - name: 組織單位-名稱
+              href: a-ou.md
+            - name: Organization-Name
+              href: a-o.md
+            - name: 原始-顯示資料表
+              href: a-originaldisplaytable.md
+            - name: 原始-顯示資料表-MSDOS.SYS
+              href: a-originaldisplaytablemsdos.md
+            - name: 其他-登入工作站
+              href: a-otherloginworkstations.md
+            - name: Other-Mailbox
+              href: a-othermailbox.md
+            - name: Other-Name
+              href: a-middlename.md
+            - name: 其他知名物件
+              href: a-otherwellknownobjects.md
+            - name: 擁有者
+              href: a-owner.md
+            - name: Package-Flags
+              href: a-packageflags.md
+            - name: Package-Name
+              href: a-packagename.md
+            - name: Package-Type
+              href: a-packagetype.md
+            - name: 父系-CA
+              href: a-parentca.md
+            - name: 上層 CA-憑證鏈
+              href: a-parentcacertificatechain.md
+            - name: Parent-GUID
+              href: a-parentguid.md
+            - name: 部分屬性-刪除-清單
+              href: a-partialattributedeletionlist.md
+            - name: 部分屬性集
+              href: a-partialattributeset.md
+            - name: Pek-金鑰-變更間隔
+              href: a-pekkeychangeinterval.md
+            - name: Pek-List
+              href: a-peklist.md
+            - name: 擱置-CA-憑證
+              href: a-pendingcacertificates.md
+            - name: 暫止-父系-CA
+              href: a-pendingparentca.md
+            - name: 每個訊息-對話方塊-顯示資料表
+              href: a-permsgdialogdisplaytable.md
+            - name: 每一 Recip-對話方塊-顯示資料表
+              href: a-perrecipdialogdisplaytable.md
+            - name: Personal-Title
+              href: a-personaltitle.md
+            - name: 電話-傳真-其他
+              href: a-otherfacsimiletelephonenumber.md
+            - name: 電話-首頁-其他
+              href: a-otherhomephone.md
+            - name: 電話-首頁-主要
+              href: a-homephone.md
+            - name: 電話-Ip-其他
+              href: a-otheripphone.md
+            - name: 電話-Ip-主要
+              href: a-ipphone.md
+            - name: 電話-ISDN-主要
+              href: a-primaryinternationalisdnnumber.md
+            - name: 行動電話-其他
+              href: a-othermobile.md
+            - name: 行動電話-主要
+              href: a-mobile.md
+            - name: Phone-辦公室-其他
+              href: a-othertelephone.md
+            - name: 手機-傳呼-其他
+              href: a-otherpager.md
+            - name: 手機-呼機-主要
+              href: a-pager.md
+            - name: 相片
+              href: a-photo.md
+            - name: 實體傳遞-辦公室-名稱
+              href: a-physicaldeliveryofficename.md
+            - name: 實體位置-物件
+              href: a-physicallocationobject.md
+            - name: Picture
+              href: a-thumbnailphoto.md
+            - name: PKI-重大-擴充功能
+              href: a-pkicriticalextensions.md
+            - name: PKI-預設-Csp
+              href: a-pkidefaultcsps.md
+            - name: PKI-預設金鑰-規格
+              href: a-pkidefaultkeyspec.md
+            - name: PKI-註冊-存取
+              href: a-pkienrollmentaccess.md
+            - name: PKI-到期期間
+              href: a-pkiexpirationperiod.md
+            - name: PKI-擴充金鑰-使用方式
+              href: a-pkiextendedkeyusage.md
+            - name: PKI-金鑰-使用方式
+              href: a-pkikeyusage.md
+            - name: PKI-最大發行深度
+              href: a-pkimaxissuingdepth.md
+            - name: PKI-重迭-期間
+              href: a-pkioverlapperiod.md
+            - name: PKT
+              href: a-pkt.md
+            - name: PKT-Guid
+              href: a-pktguid.md
+            - name: 原則-複寫-旗標
+              href: a-policyreplicationflags.md
+            - name: Port-Name
+              href: a-portname.md
+            - name: Possible-Inferiors
+              href: a-possibleinferiors.md
+            - name: Poss-Superiors
+              href: a-posssuperiors.md
+            - name: Postal-Address
+              href: a-postaladdress.md
+            - name: Postal-Code
+              href: a-postalcode.md
+            - name: 郵局-Box
+              href: a-postofficebox.md
+            - name: 慣用傳遞方法
+              href: a-preferreddeliverymethod.md
+            - name: preferredLanguage
+              href: a-preferredlanguage.md
+            - name: 慣用-OU
+              href: a-preferredou.md
+            - name: Prefix-Map
+              href: a-prefixmap.md
+            - name: Presentation-Address
+              href: a-presentationaddress.md
+            - name: 上一個 CA-憑證
+              href: a-previouscacertificates.md
+            - name: 上一個-父系-CA
+              href: a-previousparentca.md
+            - name: 主要群組-識別碼
+              href: a-primarygroupid.md
+            - name: 主要群組-Token
+              href: a-primarygrouptoken.md
+            - name: Print-Attributes
+              href: a-printattributes.md
+            - name: 列印-Bin 名稱
+              href: a-printbinnames.md
+            - name: Print-Collate
+              href: a-printcollate.md
+            - name: Print-Color
+              href: a-printcolor.md
+            - name: 列印-雙工-支援
+              href: a-printduplexsupported.md
+            - name: 列印-結束時間
+              href: a-printendtime.md
+            - name: Printer-Name
+              href: a-printername.md
+            - name: 列印-表單名稱
+              href: a-printformname.md
+            - name: 列印-保留列印-工作
+              href: a-printkeepprintedjobs.md
+            - name: Print-Language
+              href: a-printlanguage.md
+            - name: 列印-MAC 位址
+              href: a-printmacaddress.md
+            - name: 列印-最大複本
+              href: a-printmaxcopies.md
+            - name: 列印-最大解析度-支援
+              href: a-printmaxresolutionsupported.md
+            - name: 列印-最大-X-範圍
+              href: a-printmaxxextent.md
+            - name: 列印-最大-Y-範圍
+              href: a-printmaxyextent.md
+            - name: 列印-媒體就緒
+              href: a-printmediaready.md
+            - name: 列印-媒體-支援
+              href: a-printmediasupported.md
+            - name: Print-Memory
+              href: a-printmemory.md
+            - name: 列印-最小-X-範圍
+              href: a-printminxextent.md
+            - name: 列印-最小-Y-範圍
+              href: a-printminyextent.md
+            - name: 列印-網路位址
+              href: a-printnetworkaddress.md
+            - name: Print-Notify
+              href: a-printnotify.md
+            - name: 列印-編號
+              href: a-printnumberup.md
+            - name: 列印方向-支援
+              href: a-printorientationssupported.md
+            - name: Print-Owner
+              href: a-printowner.md
+            - name: 列印-每分鐘頁面
+              href: a-printpagesperminute.md
+            - name: Print-Rate
+              href: a-printrate.md
+            - name: 列印-費率-單位
+              href: a-printrateunit.md
+            - name: 列印-分隔符號-檔案
+              href: a-printseparatorfile.md
+            - name: 列印-共用-名稱
+              href: a-printsharename.md
+            - name: Print-Spooling
+              href: a-printspooling.md
+            - name: 列印-裝訂-支援
+              href: a-printstaplingsupported.md
+            - name: 列印-開始時間
+              href: a-printstarttime.md
+            - name: Print-Status
+              href: a-printstatus.md
+            - name: 優先順序
+              href: a-priority.md
+            - name: 預先設定的時間
+              href: a-priorsettime.md
+            - name: Prior-Value
+              href: a-priorvalue.md
+            - name: Private-Key
+              href: a-privatekey.md
+            - name: Privilege-Attributes
+              href: a-privilegeattributes.md
+            - name: 許可權-顯示名稱
+              href: a-privilegedisplayname.md
+            - name: Privilege-Holder
+              href: a-privilegeholder.md
+            - name: Privilege-Value
+              href: a-privilegevalue.md
+            - name: Product-Code
+              href: a-productcode.md
+            - name: Profile-Path
+              href: a-profilepath.md
+            - name: Proxy-物件名稱
+              href: a-proxiedobjectname.md
+            - name: Proxy-Addresses
+              href: a-proxyaddresses.md
+            - name: Proxy 產生-已啟用
+              href: a-proxygenerationenabled.md
+            - name: Proxy-Lifetime
+              href: a-proxylifetime.md
+            - name: 公開金鑰-原則
+              href: a-publickeypolicy.md
+            - name: Purported-Search
+              href: a-purportedsearch.md
+            - name: Pwd-歷程記錄-長度
+              href: a-pwdhistorylength.md
+            - name: Pwd-上次設定
+              href: a-pwdlastset.md
+            - name: Pwd-Properties
+              href: a-pwdproperties.md
+            - name: 服務品質
+              href: a-qualityofservice.md
+            - name: Query-Filter
+              href: a-queryfilter.md
+            - name: QueryPoint
+              href: a-querypoint.md
+            - name: 查詢-原則-BL
+              href: a-querypolicybl.md
+            - name: 查詢-原則-物件
+              href: a-querypolicyobject.md
+            - name: Range-Lower
+              href: a-rangelower.md
+            - name: Range-Upper
+              href: a-rangeupper.md
+            - name: RDN
+              href: a-name.md
+            - name: RDN-Att-ID
+              href: a-rdnattid.md
+            - name: Registered-Address
+              href: a-registeredaddress.md
+            - name: 遠端伺服器名稱
+              href: a-remoteservername.md
+            - name: Remote-Source
+              href: a-remotesource.md
+            - name: 遠端來源類型
+              href: a-remotesourcetype.md
+            - name: 遠端儲存體-GUID
+              href: a-remotestorageguid.md
+            - name: Replica-Source
+              href: a-replicasource.md
+            - name: Repl-Interval
+              href: a-replinterval.md
+            - name: 複寫-屬性中繼資料
+              href: a-replpropertymetadata.md
+            - name: 複寫-拓撲-持續執行
+              href: a-repltopologystayofexecution.md
+            - name: 複寫-UpToDate-向量
+              href: a-repluptodatevector.md
+            - name: 報表
+              href: a-directreports.md
+            - name: Reps-From
+              href: a-repsfrom.md
+            - name: Reps-To
+              href: a-repsto.md
+            - name: Required-Categories
+              href: a-requiredcategories.md
+            - name: 已淘汰-複寫-DSA-簽章
+              href: a-retiredrepldsasignatures.md
+            - name: 修訂版
+              href: a-revision.md
+            - name: 擺脫
+              href: a-rid.md
+            - name: RID-組態集區
+              href: a-ridallocationpool.md
+            - name: RID 可用-集區
+              href: a-ridavailablepool.md
+            - name: RID 管理員-參考
+              href: a-ridmanagerreference.md
+            - name: RID-下一個 RID
+              href: a-ridnextrid.md
+            - name: RID-先前組態集區
+              href: a-ridpreviousallocationpool.md
+            - name: RID-Set 參考
+              href: a-ridsetreferences.md
+            - name: RID-已使用集區
+              href: a-ridusedpool.md
+            - name: Rights-Guid
+              href: a-rightsguid.md
+            - name: Role-Occupant
+              href: a-roleoccupant.md
+            - name: roomNumber
+              href: a-roomnumber.md
+            - name: Root-Trust
+              href: a-roottrust.md
+            - name: rpc-Ns-批註
+              href: a-rpcnsannotation.md
+            - name: rpc-Ns-系結
+              href: a-rpcnsbindings.md
+            - name: rpc-Ns-Codeset
+              href: a-rpcnscodeset.md
+            - name: rpc-Ns-Entry-旗標
+              href: a-rpcnsentryflags.md
+            - name: rpc-Ns-群組
+              href: a-rpcnsgroup.md
+            - name: rpc-Ns-Interface-ID
+              href: a-rpcnsinterfaceid.md
+            - name: rpc-Ns-物件識別碼
+              href: a-rpcnsobjectid.md
+            - name: rpc-Ns-優先順序
+              href: a-rpcnspriority.md
+            - name: rpc-Ns-設定檔-Entry
+              href: a-rpcnsprofileentry.md
+            - name: rpc-Ns-傳輸-語法
+              href: a-rpcnstransfersyntax.md
+            - name: SAM-帳戶-名稱
+              href: a-samaccountname.md
+            - name: SAM-帳戶-類型
+              href: a-samaccounttype.md
+            - name: SAM-Domain-Updates
+              href: a-samdomainupdates.md
+            - name: 排程
+              href: a-schedule.md
+            - name: 架構-旗標-例如
+              href: a-schemaflagsex.md
+            - name: 架構識別碼-GUID
+              href: a-schemaidguid.md
+            - name: Schema-Info
+              href: a-schemainfo.md
+            - name: Schema-Update
+              href: a-schemaupdate.md
+            - name: Schema-Version
+              href: a-schemaversion.md
+            - name: Scope-Flags
+              href: a-scopeflags.md
+            - name: Script-Path
+              href: a-scriptpath.md
+            - name: SD-Rights-有效
+              href: a-sdrightseffective.md
+            - name: Search-Flags
+              href: a-searchflags.md
+            - name: Search-Guide
+              href: a-searchguide.md
+            - name: secretary
+              href: a-secretary.md
+            - name: Security-Identifier
+              href: a-securityidentifier.md
+            - name: See-Also
+              href: a-seealso.md
+            - name: Seq-Notification
+              href: a-seqnotification.md
+            - name: Serial-Number
+              href: a-serialnumber.md
+            - name: Server-Name
+              href: a-servername.md
+            - name: Server-Reference
+              href: a-serverreference.md
+            - name: 伺服器參考-BL
+              href: a-serverreferencebl.md
+            - name: Server-Role
+              href: a-serverrole.md
+            - name: Server-State
+              href: a-serverstate.md
+            - name: 服務系結資訊
+              href: a-servicebindinginformation.md
+            - name: 服務類別識別碼
+              href: a-serviceclassid.md
+            - name: 服務類別資訊
+              href: a-serviceclassinfo.md
+            - name: 服務類別名稱
+              href: a-serviceclassname.md
+            - name: 服務-DNS-名稱
+              href: a-servicednsname.md
+            - name: 服務-DNS-名稱-類型
+              href: a-servicednsnametype.md
+            - name: 服務實例版本
+              href: a-serviceinstanceversion.md
+            - name: 服務主體名稱
+              href: a-serviceprincipalname.md
+            - name: Setup-Command
+              href: a-setupcommand.md
+            - name: shadowExpire
+              href: a-shadowexpire.md
+            - name: shadowFlag
+              href: a-shadowflag.md
+            - name: shadowInactive
+              href: a-shadowinactive.md
+            - name: shadowLastChange
+              href: a-shadowlastchange.md
+            - name: shadowMax
+              href: a-shadowmax.md
+            - name: shadowMin
+              href: a-shadowmin.md
+            - name: shadowWarning
+              href: a-shadowwarning.md
+            - name: Shell-內容功能表
+              href: a-shellcontextmenu.md
+            - name: Shell-屬性頁
+              href: a-shellpropertypages.md
+            - name: 簡短伺服器名稱
+              href: a-shortservername.md
+            - name: 顯示位址-書籍
+              href: a-showinaddressbook.md
+            - name: 顯示-內建-僅限視圖
+              href: a-showinadvancedviewonly.md
+            - name: SID-History
+              href: a-sidhistory.md
+            - name: Signature-Algorithms
+              href: a-signaturealgorithms.md
+            - name: 網站-GUID
+              href: a-siteguid.md
+            - name: 網站連結清單
+              href: a-sitelinklist.md
+            - name: Site-List
+              href: a-sitelist.md
+            - name: Site-Object
+              href: a-siteobject.md
+            - name: 網站-物件-BL
+              href: a-siteobjectbl.md
+            - name: Site-Server
+              href: a-siteserver.md
+            - name: SMTP-郵寄地址
+              href: a-mailaddress.md
+            - name: SPN-Mappings
+              href: a-spnmappings.md
+            - name: 州/省名稱
+              href: a-st.md
+            - name: Street-Address
+              href: a-street.md
+            - name: 結構物件類別
+              href: a-structuralobjectclass.md
+            - name: 子類別
+              href: a-subclassof.md
+            - name: Sub-Refs
+              href: a-subrefs.md
+            - name: SubSchemaSubEntry
+              href: a-subschemasubentry.md
+            - name: 高階 DNS-根目錄
+              href: a-superiordnsroot.md
+            - name: 超級範圍-描述
+              href: a-superscopedescription.md
+            - name: Super-Scopes
+              href: a-superscopes.md
+            - name: Supplemental-Credentials
+              href: a-supplementalcredentials.md
+            - name: 支援-應用程式內容
+              href: a-supportedapplicationcontext.md
+            - name: Surname
+              href: a-sn.md
+            - name: Sync-Attributes
+              href: a-syncattributes.md
+            - name: Sync-Membership
+              href: a-syncmembership.md
+            - name: Sync-With-Object
+              href: a-syncwithobject.md
+            - name: 同步-使用-SID
+              href: a-syncwithsid.md
+            - name: 系統輔助類別
+              href: a-systemauxiliaryclass.md
+            - name: System-Flags
+              href: a-systemflags.md
+            - name: 系統-可能包含
+              href: a-systemmaycontain.md
+            - name: 系統-必須包含
+              href: a-systemmustcontain.md
+            - name: System-Only
+              href: a-systemonly.md
+            - name: 系統-Poss-Superiors
+              href: a-systemposssuperiors.md
+            - name: Telephone-Number
+              href: a-telephonenumber.md
+            - name: Teletex-終端機-識別碼
+              href: a-teletexterminalidentifier.md
+            - name: Telex-Number
+              href: a-telexnumber.md
+            - name: Telex-Primary
+              href: a-primarytelexnumber.md
+            - name: Template-Roots
+              href: a-templateroots.md
+            - name: Template-Roots2
+              href: a-templateroots2.md
+            - name: Terminal-Server
+              href: a-terminalserver.md
+            - name: Text-Country
+              href: a-co.md
+            - name: 文字編碼或位址
+              href: a-textencodedoraddress.md
+            - name: Time-Refresh
+              href: a-timerefresh.md
+            - name: 時間-音量-變更
+              href: a-timevolchange.md
+            - name: 標題
+              href: a-title.md
+            - name: Token-Groups
+              href: a-tokengroups.md
+            - name: 權杖-群組-全域和通用
+              href: a-tokengroupsglobalanduniversal.md
+            - name: 權杖群組-無-GC-可接受
+              href: a-tokengroupsnogcacceptable.md
+            - name: Tombstone-Lifetime
+              href: a-tombstonelifetime.md
+            - name: 傳輸-位址-屬性
+              href: a-transportaddressattribute.md
+            - name: 傳輸-DLL-名稱
+              href: a-transportdllname.md
+            - name: Transport-Type
+              href: a-transporttype.md
+            - name: 視為分葉
+              href: a-treatasleaf.md
+            - name: Tree-Name
+              href: a-treename.md
+            - name: Trust-Attributes
+              href: a-trustattributes.md
+            - name: 信任-驗證-連入
+              href: a-trustauthincoming.md
+            - name: 信任-驗證-外寄
+              href: a-trustauthoutgoing.md
+            - name: Trust-Direction
+              href: a-trustdirection.md
+            - name: Trust-Parent
+              href: a-trustparent.md
+            - name: Trust-Partner
+              href: a-trustpartner.md
+            - name: 信任-Posix-Offset
+              href: a-trustposixoffset.md
+            - name: Trust-Type
+              href: a-trusttype.md
+            - name: UAS-Compat
+              href: a-uascompat.md
+            - name: uid
+              href: a-uid.md
+            - name: uidNumber
+              href: a-uidnumber.md
+            - name: UNC-Name
+              href: a-uncname.md
+            - name: Unicode-Pwd
+              href: a-unicodepwd.md
+            - name: 唯一
+              href: a-uniqueidentifier.md
+            - name: uniqueMember
+              href: a-uniquemember.md
+            - name: unixHomeDirectory
+              href: a-unixhomedirectory.md
+            - name: unixUserPassword
+              href: a-unixuserpassword.md
+            - name: unstructuredAddress
+              href: a-unstructuredaddress.md
+            - name: unstructuredName
+              href: a-unstructuredname.md
+            - name: 升級-產品代碼
+              href: a-upgradeproductcode.md
+            - name: UPN-Suffixes
+              href: a-upnsuffixes.md
+            - name: 使用者帳戶控制
+              href: a-useraccountcontrol.md
+            - name: User-Cert
+              href: a-usercert.md
+            - name: userClass
+              href: a-userclass.md
+            - name: User-Comment
+              href: a-comment.md
+            - name: User-Parameters
+              href: a-userparameters.md
+            - name: User-Password
+              href: a-userpassword.md
+            - name: userPKCS12
+              href: a-userpkcs12.md
+            - name: 使用者主體名稱
+              href: a-userprincipalname.md
+            - name: 使用者共用資料夾
+              href: a-usersharedfolder.md
+            - name: 使用者共用資料夾-其他
+              href: a-usersharedfolderother.md
+            - name: 使用者 SMIME-憑證
+              href: a-usersmimecertificate.md
+            - name: User-Workstations
+              href: a-userworkstations.md
+            - name: USN-Changed
+              href: a-usnchanged.md
+            - name: USN-Created
+              href: a-usncreated.md
+            - name: USN-已移除-最後-Obj
+              href: a-usndsalastobjremoved.md
+            - name: USN-Intersite
+              href: a-usnintersite.md
+            - name: USN-最後-Obj-Rem
+              href: a-usnlastobjrem.md
+            - name: USN-Source
+              href: a-usnsource.md
+            - name: Valid-Accesses
+              href: a-validaccesses.md
+            - name: 廠商
+              href: a-vendor.md
+            - name: Version-Number
+              href: a-versionnumber.md
+            - name: 版本號碼-Hi
+              href: a-versionnumberhi.md
+            - name: 版本號碼-Lo
+              href: a-versionnumberlo.md
+            - name: Vol-資料表-GUID
+              href: a-voltableguid.md
+            - name: Vol-資料表-Idx-GUID
+              href: a-voltableidxguid.md
+            - name: Volume-Count
+              href: a-volumecount.md
+            - name: Wbem-Path
+              href: a-wbempath.md
+            - name: 知名物件
+              href: a-wellknownobjects.md
+            - name: When-Changed
+              href: a-whenchanged.md
+            - name: When-Created
+              href: a-whencreated.md
+            - name: Winsock-Addresses
+              href: a-winsockaddresses.md
+            - name: WWW-首頁
+              href: a-wwwhomepage.md
+            - name: WWW-頁面-其他
+              href: a-url.md
+            - name: X121-Address
+              href: a-x121address.md
+            - name: x500uniqueIdentifier
+              href: a-x500uniqueidentifier.md
+            - name: X509-Cert
+              href: a-usercertificate.md
+        - name: 連結屬性
+          href: attributes-linked.md
+          items:
+            - name: Address-Book-Roots2
+              href: a-addressbookroots2.md
+            - name: 橋頭-伺服器-清單-BL
+              href: a-bridgeheadserverlistbl.md
+            - name: 橋頭-傳輸-清單
+              href: a-bridgeheadtransportlist.md
+            - name: Frs-電腦-參考
+              href: a-frscomputerreference.md
+            - name: Frs-電腦-參考-BL
+              href: a-frscomputerreferencebl.md
+            - name: FRS-成員參考
+              href: a-frsmemberreference.md
+            - name: FRS-成員參考-BL
+              href: a-frsmemberreferencebl.md
+            - name: FRS-主要成員
+              href: a-frsprimarymember.md
+            - name: Global-Address-List2
+              href: a-globaladdresslist2.md
+            - name: 具有-Master-Nc
+              href: a-hasmasterncs.md
+            - name: 具有-Partial-Replica-Nc
+              href: a-haspartialreplicancs.md
+            - name: 是-DL 的成員
+              href: a-memberof.md
+            - name: 是-許可權-持有者
+              href: a-isprivilegeholder.md
+            - name: Managed-By
+              href: a-managedby.md
+            - name: Managed-Objects
+              href: a-managedobjects.md
+            - name: Manager
+              href: a-manager.md
+            - name: Mastered-By
+              href: a-masteredby.md
+            - name: 成員
+              href: a-member.md
+            - name: ms Authz-成員--內建-存取原則
+              href: a-msauthz-memberrulesincentralaccesspolicy.md
+            - name: ms/Authz-成員--集中-存取-原則-BL
+              href: a-msauthz-memberrulesincentralaccesspolicybl.md
+            - name: PartitionLink
+              href: a-mscom-partitionlink.md
+            - name: PartitionSetLink
+              href: a-mscom-partitionsetlink.md
+            - name: UserLink
+              href: a-mscom-userlink.md
+            - name: UserPartitionSetLink
+              href: a-mscom-userpartitionsetlink.md
+            - name: ms-DFSR-ComputerReference
+              href: a-msdfsr-computerreference.md
+            - name: ms-DFSR-ComputerReferenceBL
+              href: a-msdfsr-computerreferencebl.md
+            - name: ms-DFSR-MemberReference
+              href: a-msdfsr-memberreference.md
+            - name: ms-DFSR-MemberReferenceBL
+              href: a-msdfsr-memberreferencebl.md
+            - name: ms-DS-AuthenticatedAt-DC
+              href: a-msds-authenticatedatdc.md
+            - name: ms-DS-AuthenticatedTo-Accountlist
+              href: a-msds-authenticatedtoaccountlist.md
+            - name: ms-DS-BridgeHead-Servers-Used
+              href: a-msds-bridgeheadserversused.md
+            - name: ms DS--------可能值-
+              href: a-msds-claimsharespossiblevalueswith.md
+            - name: ms-chap--------可能-值-BL
+              href: a-msds-claimsharespossiblevalueswithbl.md
+            - name: ms-DS-宣告類型-適用于類別
+              href: a-msds-claimtypeappliestoclass.md
+            - name: ms DS-停用-實例
+              href: a-msds-disableforinstances.md
+            - name: ms-DS-停用-實例-BL
+              href: a-msds-disableforinstancesbl.md
+            - name: ms DS-輸出-宣告-轉換-原則
+              href: a-msds-egressclaimstransformationpolicy.md
+            - name: 啟用 ms DS-功能
+              href: a-msds-enabledfeature.md
+            - name: 啟用 ms DS-功能-BL
+              href: a-msds-enabledfeaturebl.md
+            - name: ms-DS-Nc
+              href: a-msds-hasdomainncs.md
+            - name: ms-DS-Has-Full-Replica-NCs
+              href: a-msds-hasfullreplicancs.md
+            - name: ms-DS-具現化-Nc
+              href: a-msds-hasinstantiatedncs.md
+            - name: ms-DS-Nc
+              href: a-msds-hasmasterncs.md
+            - name: ms DS-主機-服務-帳戶
+              href: a-msds-hostserviceaccount.md
+            - name: ms-DS-服務-帳戶-BL
+              href: a-msds-hostserviceaccountbl.md
+            - name: ms-DS-輸入-宣告-轉換-原則
+              href: a-msds-ingressclaimstransformationpolicy.md
+            - name: ms-DS-Is-Domain-For
+              href: a-msds-isdomainfor.md
+            - name: ms-DS-Is-Full-Replica-For
+              href: a-msds-isfullreplicafor.md
+            - name: ms-DS-Is-Partial-Replica-For
+              href: a-msds-ispartialreplicafor.md
+            - name: ms-chap---主要電腦-
+              href: a-msds-isprimarycomputerfor.md
+            - name: ms-DS-KrbTgt-Link
+              href: a-msds-krbtgtlink.md
+            - name: ms-DS-KrbTgt-Link-BL
+              href: a-msds-krbtgtlinkbl.md
+            - name: ms DS-主要-依據
+              href: a-msds-masteredby.md
+            - name: ms DS-成員--Az-Role
+              href: a-msds-membersforazrole.md
+            - name: ms DS-成員--Az-Role-BL
+              href: a-msds-membersforazrolebl.md
+            - name: ms DS-資源-屬性清單
+              href: a-msds-membersofresourcepropertylist.md
+            - name: ms-chap-資源--BL 的成員
+              href: a-msds-membersofresourcepropertylistbl.md
+            - name: ms DS-----複本-位置
+              href: a-msds-nc-replica-locations.md
+            - name: ms-DS-NC-RO-Replica-Locations
+              href: a-msds-nc-ro-replica-locations.md
+            - name: ms-DS-NC-RO-Replica-Locations-BL
+              href: a-msds-nc-ro-replica-locations-bl.md
+            - name: ms-DS-Never-Reveal-Group
+              href: a-msds-neverrevealgroup.md
+            - name: ms DS-非成員
+              href: a-msds-nonmembers.md
+            - name: ms DS-非成員-BL
+              href: a-msds-nonmembersbl.md
+            - name: ms-DS-物件參考
+              href: a-msds-objectreference.md
+            - name: BL-------物件參考
+              href: a-msds-objectreferencebl.md
+            - name: OIDToGroup-連結
+              href: a-msds-oidtogrouplink.md
+            - name: OIDToGroup-連結-BL
+              href: a-msds-oidtogrouplinkbl.md
+            - name: ms DS-作業--Az-Role
+              href: a-msds-operationsforazrole.md
+            - name: BL-------------------
+              href: a-msds-operationsforazrolebl.md
+            - name: ms DS-作業--Az-Task
+              href: a-msds-operationsforaztask.md
+            - name: BL-------------工作-
+              href: a-msds-operationsforaztaskbl.md
+            - name: ms-DS-主要電腦
+              href: a-msds-primarycomputer.md
+            - name: PSO-已套用
+              href: a-msds-psoapplied.md
+            - name: PSO-適用于
+              href: a-msds-psoappliesto.md
+            - name: ms-DS-Revealed-DSAs
+              href: a-msds-revealeddsas.md
+            - name: ms-DS-Revealed-Users
+              href: a-msds-revealedusers.md
+            - name: ms-DS-Reveal-OnDemand-Group
+              href: a-msds-revealondemandgroup.md
+            - name: ms DS-SD-Reference-網域
+              href: a-msds-sdreferencedomain.md
+            - name: ms DS-服務-帳戶
+              href: a-msds-serviceaccount.md
+            - name: ms-DS-服務-帳戶-BL
+              href: a-msds-serviceaccountbl.md
+            - name: ms DS-工作--Az-角色
+              href: a-msds-tasksforazrole.md
+            - name: ms-chap---------BL
+              href: a-msds-tasksforazrolebl.md
+            - name: ms DS-工作--Az-Task
+              href: a-msds-tasksforaztask.md
+            - name: ms DS-工作--Az-Task-BL
+              href: a-msds-tasksforaztaskbl.md
+            - name: ms DS-TDO-出口-BL
+              href: a-msds-tdoegressbl.md
+            - name: ms-DS-TDO-輸入-BL
+              href: a-msds-tdoingressbl.md
+            - name: ms-DS-數值型別參考
+              href: a-msds-valuetypereference.md
+            - name: ms-chap-------Reference-BL
+              href: a-msds-valuetypereferencebl.md
+            - name: Ms-exch-assistant-name-擁有者-BL
+              href: a-ownerbl.md
+            - name: ms-FRS-中樞成員
+              href: a-msfrs-hub-member.md
+            - name: ms-PKI-AccountCredentials
+              href: a-mspkiaccountcredentials.md
+            - name: ms-PKI-認證-漫遊-權杖
+              href: a-mspki-credentialroamingtokens.md
+            - name: ms-PKI-DPAPIMasterKeys
+              href: a-mspkidpapimasterkeys.md
+            - name: msSFU-30-Posix-成員
+              href: a-mssfu30posixmember.md
+            - name: msSFU-30-Posix-成員
+              href: a-mssfu30posixmemberof.md
+            - name: ms-chap-tpm--電腦的資訊
+              href: a-mstpm-tpminformationforcomputer.md
+            - name: ms-chap-tpm--------------BL
+              href: a-mstpm-tpminformationforcomputerbl.md
+            - name: ms-TS-主要-桌面
+              href: a-mstsprimarydesktop.md
+            - name: ms-TS-主要-桌面-BL
+              href: a-mstsprimarydesktopbl.md
+            - name: ms-TS-次要-桌面-BL
+              href: a-mstssecondarydesktopbl.md
+            - name: ms-TS-次要-桌上型電腦
+              href: a-mstssecondarydesktops.md
+            - name: netboot-SCP-BL
+              href: a-netbootscpbl.md
+            - name: netboot-伺服器
+              href: a-netbootserver.md
+            - name: 非安全性成員
+              href: a-nonsecuritymember.md
+            - name: 非安全性成員-BL
+              href: a-nonsecuritymemberbl.md
+            - name: 擁有者
+              href: a-owner.md
+            - name: Privilege-Holder
+              href: a-privilegeholder.md
+            - name: 查詢-原則-BL
+              href: a-querypolicybl.md
+            - name: 查詢-原則-物件
+              href: a-querypolicyobject.md
+            - name: 報表
+              href: a-directreports.md
+            - name: Server-Reference
+              href: a-serverreference.md
+            - name: 伺服器參考-BL
+              href: a-serverreferencebl.md
+            - name: 網站連結清單
+              href: a-sitelinklist.md
+            - name: Site-List
+              href: a-sitelist.md
+            - name: Site-Object
+              href: a-siteobject.md
+            - name: 網站-物件-BL
+              href: a-siteobjectbl.md
+            - name: Sync-Membership
+              href: a-syncmembership.md
+            - name: Template-Roots2
+              href: a-templateroots2.md
+        - name: 索引屬性
+          href: attributes-indexed.md
+          items:
+            - name: Alt-Security-身分識別
+              href: a-altsecurityidentities.md
+            - name: Birth-Location
+              href: a-birthlocation.md
+            - name: COM-ClassID
+              href: a-comclassid.md
+            - name: Common-Name
+              href: a-cn.md
+            - name: dhcp 類型
+              href: a-dhcptype.md
+            - name: 顯示名稱
+              href: a-displayname.md
+            - name: Dns-Root
+              href: a-dnsroot.md
+            - name: DNS-Tombstoned
+              href: a-dnstombstoned.md
+            - name: 電子郵件地址
+              href: a-mail.md
+            - name: File-Ext-Priority
+              href: a-fileextpriority.md
+            - name: Flat-Name
+              href: a-flatname.md
+            - name: From-Server
+              href: a-fromserver.md
+            - name: FSMO 角色-擁有者
+              href: a-fsmoroleowner.md
+            - name: gidNumber
+              href: a-gidnumber.md
+            - name: 指定的名稱
+              href: a-givenname.md
+            - name: Group-Attributes
+              href: a-groupattributes.md
+            - name: Group-Type
+              href: a-grouptype.md
+            - name: Implemented-Categories
+              href: a-implementedcategories.md
+            - name: Invocation-Id
+              href: a-invocationid.md
+            - name: 關鍵字
+              href: a-keywords.md
+            - name: 上次登入時間戳記
+              href: a-lastlogontimestamp.md
+            - name: LDAP-顯示名稱
+              href: a-ldapdisplayname.md
+            - name: 舊版-Exchange-DN
+              href: a-legacyexchangedn.md
+            - name: Locality-Name
+              href: a-l.md
+            - name: Location
+              href: a-location.md
+            - name: ms-DFSR-DfsPath
+              href: a-msdfsr-dfspath.md
+            - name: ms-DFSR-ReplicationGroupGuid
+              href: a-msdfsr-replicationgroupguid.md
+            - name: ms DS-其他-Sam-帳戶-名稱
+              href: a-msds-additionalsamaccountname.md
+            - name: ms-DS-Az-Object-Guid
+              href: a-msds-azobjectguid.md
+            - name: ms DS 快取-成員資格時間戳記
+              href: a-msds-cached-membership-time-stamp.md
+            - name: MS-DS-Creator-SID
+              href: a-ms-ds-creatorsid.md
+            - name: ms DS-進入-存留時間
+              href: a-msds-entry-time-to-die.md
+            - name: GeoCoordinates-海拔
+              href: a-msds-geocoordinatesaltitude.md
+            - name: GeoCoordinates-緯度
+              href: a-msds-geocoordinateslatitude.md
+            - name: GeoCoordinates-經度
+              href: a-msds-geocoordinateslongitude.md
+            - name: ms-DS-HAB-Seniority-Index
+              href: a-msds-habseniorityindex.md
+            - name: ms-DS-Phonetic-Company-Name
+              href: a-msds-phoneticcompanyname.md
+            - name: ms-DS-Phonetic-Department
+              href: a-msds-phoneticdepartment.md
+            - name: ms-DS-Phonetic-Display-Name
+              href: a-msds-phoneticdisplayname.md
+            - name: ms-DS-Phonetic-First-Name
+              href: a-msds-phoneticfirstname.md
+            - name: ms-DS-Phonetic-Last-Name
+              href: a-msds-phoneticlastname.md
+            - name: ms-DS-主要電腦
+              href: a-msds-primarycomputer.md
+            - name: ms-DS-Secondary-KrbTgt-Number
+              href: a-msds-secondarykrbtgtnumber.md
+            - name: ms-DS-Seniority-Index
+              href: a-msds-seniorityindex.md
+            - name: ms-DS-網站-親和性
+              href: a-msds-site-affinity.md
+            - name: ms-FVE-RecoveryGuid
+              href: a-msfve-recoveryguid.md
+            - name: ms-FVE-VolumeGuid
+              href: a-msfve-volumeguid.md
+            - name: MSMQ-Digests
+              href: a-msmqdigests.md
+            - name: MSMQ-Label
+              href: a-msmqlabel.md
+            - name: MSMQ 標籤-例如
+              href: a-msmqlabelex.md
+            - name: MSMQ-擁有者識別碼
+              href: a-msmqownerid.md
+            - name: MSMQ-佇列類型
+              href: a-msmqqueuetype.md
+            - name: ms-PKI-Cert-Template-OID
+              href: a-mspki-cert-template-oid.md
+            - name: msSFU-30-網域
+              href: a-mssfu30domains.md
+            - name: msSFU-30-有效-容器
+              href: a-mssfu30isvalidcontainer.md
+            - name: msSFU-30-主伺服器-名稱
+              href: a-mssfu30masterservername.md
+            - name: msSFU-30-Max-Gid-Number
+              href: a-mssfu30maxgidnumber.md
+            - name: msSFU-30-Max-Uid-Number
+              href: a-mssfu30maxuidnumber.md
+            - name: msSFU-30-名稱
+              href: a-mssfu30name.md
+            - name: msSFU-30-網路-網域-網域間主機
+              href: a-mssfu30netgrouphostatdomain.md
+            - name: msSFU-30-網路-使用者-網域
+              href: a-mssfu30netgroupuseratdomain.md
+            - name: msSFU-30-Nis-網域
+              href: a-mssfu30nisdomain.md
+            - name: msSFU-30-訂購編號
+              href: a-mssfu30ordernumber.md
+            - name: msSFU-30-Yp-伺服器
+              href: a-mssfu30ypservers.md
+            - name: SPP-KMS-識別碼
+              href: a-msspp-kmsids.md
+            - name: MS-SQL-別名
+              href: a-ms-sql-alias.md
+            - name: MS-SQL-資料庫
+              href: a-ms-sql-database.md
+            - name: MS-SQL-名稱
+              href: a-ms-sql-name.md
+            - name: MS-SQL-版本
+              href: a-ms-sql-version.md
+            - name: ms-TPM-Srk-Pub-指紋
+              href: a-mstpm-srkpubthumbprint.md
+            - name: MS-TS-ExpireDate
+              href: a-mstsexpiredate.md
+            - name: MS-TS-ExpireDate2
+              href: a-mstsexpiredate2.md
+            - name: MS-TS-ExpireDate3
+              href: a-mstsexpiredate3.md
+            - name: MS-TS-ExpireDate4
+              href: a-mstsexpiredate4.md
+            - name: MS-TS-LicenseVersion
+              href: a-mstslicenseversion.md
+            - name: MS-TS-LicenseVersion2
+              href: a-mstslicenseversion2.md
+            - name: MS-TS-LicenseVersion3
+              href: a-mstslicenseversion3.md
+            - name: MS-TS-LicenseVersion4
+              href: a-mstslicenseversion4.md
+            - name: MS-TSLS-Property01
+              href: a-mstslsproperty01.md
+            - name: MS-TSLS-Property02
+              href: a-mstslsproperty02.md
+            - name: MS-TS-ManagingLS
+              href: a-mstsmanagingls.md
+            - name: MS-TS-ManagingLS2
+              href: a-mstsmanagingls2.md
+            - name: MS-TS-ManagingLS3
+              href: a-mstsmanagingls3.md
+            - name: MS-TS-ManagingLS4
+              href: a-mstsmanagingls4.md
+            - name: MS-TS-Property01
+              href: a-mstsproperty01.md
+            - name: MS-TS-Property02
+              href: a-mstsproperty02.md
+            - name: NETBIOS-Name
+              href: a-netbiosname.md
+            - name: Netboot-GUID
+              href: a-netbootguid.md
+            - name: Object-Category
+              href: a-objectcategory.md
+            - name: Object-Class
+              href: a-objectclass.md
+            - name: Object-Guid
+              href: a-objectguid.md
+            - name: Object-Sid
+              href: a-objectsid.md
+            - name: OMT-Indx-Guid
+              href: a-omtindxguid.md
+            - name: 組織單位-名稱
+              href: a-ou.md
+            - name: Package-Flags
+              href: a-packageflags.md
+            - name: 實體傳遞-辦公室-名稱
+              href: a-physicaldeliveryofficename.md
+            - name: 實體位置-物件
+              href: a-physicallocationobject.md
+            - name: 主要群組-識別碼
+              href: a-primarygroupid.md
+            - name: Proxy-Addresses
+              href: a-proxyaddresses.md
+            - name: RDN
+              href: a-name.md
+            - name: Required-Categories
+              href: a-requiredcategories.md
+            - name: rpc-Ns-Interface-ID
+              href: a-rpcnsinterfaceid.md
+            - name: rpc-Ns-物件識別碼
+              href: a-rpcnsobjectid.md
+            - name: rpc-Ns-傳輸-語法
+              href: a-rpcnstransfersyntax.md
+            - name: SAM-帳戶-名稱
+              href: a-samaccountname.md
+            - name: SAM-帳戶-類型
+              href: a-samaccounttype.md
+            - name: 服務類別名稱
+              href: a-serviceclassname.md
+            - name: 服務主體名稱
+              href: a-serviceprincipalname.md
+            - name: 顯示-內建-僅限視圖
+              href: a-showinadvancedviewonly.md
+            - name: SID-History
+              href: a-sidhistory.md
+            - name: Surname
+              href: a-sn.md
+            - name: Terminal-Server
+              href: a-terminalserver.md
+            - name: 時間-音量-變更
+              href: a-timevolchange.md
+            - name: Trust-Partner
+              href: a-trustpartner.md
+            - name: uidNumber
+              href: a-uidnumber.md
+            - name: UNC-Name
+              href: a-uncname.md
+            - name: 使用者帳戶控制
+              href: a-useraccountcontrol.md
+            - name: 使用者主體名稱
+              href: a-userprincipalname.md
+            - name: USN-Changed
+              href: a-usnchanged.md
+            - name: USN-Created
+              href: a-usncreated.md
+            - name: USN-Intersite
+              href: a-usnintersite.md
+            - name: Vol-資料表-Idx-GUID
+              href: a-voltableidxguid.md
+        - name: 全域屬性
+          href: attributes-global.md
+          items:
+            - name: Alt-Security-身分識別
+              href: a-altsecurityidentities.md
+            - name: CA-Certificate
+              href: a-cacertificate.md
+            - name: CA-憑證-DN
+              href: a-cacertificatedn.md
+            - name: Certificate-Templates
+              href: a-certificatetemplates.md
+            - name: Common-Name
+              href: a-cn.md
+            - name: Country-Name
+              href: a-c.md
+            - name: Description
+              href: a-description.md
+            - name: 顯示名稱
+              href: a-displayname.md
+            - name: DNS-主機名稱
+              href: a-dnshostname.md
+            - name: Domain-Component
+              href: a-dc.md
+            - name: Driver-Name
+              href: a-drivername.md
+            - name: DS-核心-傳播-資料
+              href: a-dscorepropagationdata.md
+            - name: 電子郵件地址
+              href: a-mail.md
+            - name: Flags
+              href: a-flags.md
+            - name: Frs-電腦-參考
+              href: a-frscomputerreference.md
+            - name: FRS-成員參考
+              href: a-frsmemberreference.md
+            - name: 指定的名稱
+              href: a-givenname.md
+            - name: GP-Link
+              href: a-gplink.md
+            - name: Group-Type
+              href: a-grouptype.md
+            - name: Instance-Type
+              href: a-instancetype.md
+            - name: Is-Deleted
+              href: a-isdeleted.md
+            - name: Is-Recycled
+              href: a-isrecycled.md
+            - name: 關鍵字
+              href: a-keywords.md
+            - name: 上次登入時間戳記
+              href: a-lastlogontimestamp.md
+            - name: LDAP-顯示名稱
+              href: a-ldapdisplayname.md
+            - name: 舊版-Exchange-DN
+              href: a-legacyexchangedn.md
+            - name: Locality-Name
+              href: a-l.md
+            - name: Location
+              href: a-location.md
+            - name: Manager
+              href: a-manager.md
+            - name: meetingBlob
+              href: a-meetingblob.md
+            - name: meetingDescription
+              href: a-meetingdescription.md
+            - name: meetingName
+              href: a-meetingname.md
+            - name: meetingProtocol
+              href: a-meetingprotocol.md
+            - name: 成員
+              href: a-member.md
+            - name: MS-DRM-身分識別憑證
+              href: a-msdrm-identitycertificate.md
+            - name: 啟用 ms DS-功能
+              href: a-msds-enabledfeature.md
+            - name: ms DS-進入-存留時間
+              href: a-msds-entry-time-to-die.md
+            - name: ms-DS-HAB-Seniority-Index
+              href: a-msds-habseniorityindex.md
+            - name: ms-DS-Phonetic-Company-Name
+              href: a-msds-phoneticcompanyname.md
+            - name: ms-DS-Phonetic-Department
+              href: a-msds-phoneticdepartment.md
+            - name: ms-DS-Phonetic-Display-Name
+              href: a-msds-phoneticdisplayname.md
+            - name: ms-DS-Phonetic-First-Name
+              href: a-msds-phoneticfirstname.md
+            - name: ms-DS-Phonetic-Last-Name
+              href: a-msds-phoneticlastname.md
+            - name: ms-DS-主要電腦
+              href: a-msds-primarycomputer.md
+            - name: ms-DS-Seniority-Index
+              href: a-msds-seniorityindex.md
+            - name: ms-DS-信任-樹系信任資訊
+              href: a-msds-trustforesttrustinfo.md
+            - name: ms-FVE-RecoveryGuid
+              href: a-msfve-recoveryguid.md
+            - name: ms-FVE-VolumeGuid
+              href: a-msfve-volumeguid.md
+            - name: MSMQ-Authenticate
+              href: a-msmqauthenticate.md
+            - name: MSMQ-基本優先順序
+              href: a-msmqbasepriority.md
+            - name: MSMQ 相依-用戶端服務
+              href: a-msmqdependentclientservices.md
+            - name: MSMQ-Digests
+              href: a-msmqdigests.md
+            - name: MSMQ-摘要-Svrmig.mig
+              href: a-msmqdigestsmig.md
+            - name: MSMQ-Ds-服務
+              href: a-msmqdsservices.md
+            - name: MSMQ-加密-金鑰
+              href: a-msmqencryptkey.md
+            - name: MSMQ-Foreign
+              href: a-msmqforeign.md
+            - name: MSMQ 路由傳送伺服器
+              href: a-msmqinroutingservers.md
+            - name: MSMQ-Journal
+              href: a-msmqjournal.md
+            - name: MSMQ-Label
+              href: a-msmqlabel.md
+            - name: MSMQ 標籤-例如
+              href: a-msmqlabelex.md
+            - name: MSMQ-多播-位址
+              href: a-msmq-multicastaddress.md
+            - name: MSMQ-OS 類型
+              href: a-msmqostype.md
+            - name: MSMQ 輸出路由-伺服器
+              href: a-msmqoutroutingservers.md
+            - name: MSMQ-擁有者識別碼
+              href: a-msmqownerid.md
+            - name: MSMQ-隱私權層級
+              href: a-msmqprivacylevel.md
+            - name: MSMQ-佇列-日誌-配額
+              href: a-msmqqueuejournalquota.md
+            - name: MSMQ-佇列-名稱-Ext
+              href: a-msmqqueuenameext.md
+            - name: MSMQ-佇列-配額
+              href: a-msmqqueuequota.md
+            - name: MSMQ-佇列類型
+              href: a-msmqqueuetype.md
+            - name: MSMQ 路由服務
+              href: a-msmqroutingservices.md
+            - name: MSMQ 安全-來源
+              href: a-msmq-securedsource.md
+            - name: MSMQ-服務類型
+              href: a-msmqservicetype.md
+            - name: MSMQ-簽署憑證
+              href: a-msmqsigncertificates.md
+            - name: MSMQ-簽署-憑證-Svrmig.mig
+              href: a-msmqsigncertificatesmig.md
+            - name: MSMQ-簽署金鑰
+              href: a-msmqsignkey.md
+            - name: MSMQ-Sites
+              href: a-msmqsites.md
+            - name: MSMQ-Transactional
+              href: a-msmqtransactional.md
+            - name: MSMQ-使用者 Sid
+              href: a-msmqusersid.md
+            - name: ms-PKI-註冊-伺服器
+              href: a-mspki-enrollment-servers.md
+            - name: ms-PKI-網站名稱
+              href: a-mspki-site-name.md
+            - name: ms RRAS-屬性
+              href: a-msrrasattribute.md
+            - name: MS-SQL-別名
+              href: a-ms-sql-alias.md
+            - name: MS-SQL-資料庫
+              href: a-ms-sql-database.md
+            - name: MS-SQL-名稱
+              href: a-ms-sql-name.md
+            - name: MS-SQL-版本
+              href: a-ms-sql-version.md
+            - name: Netboot-GUID
+              href: a-netbootguid.md
+            - name: Netboot-電腦-檔案-路徑
+              href: a-netbootmachinefilepath.md
+            - name: NT-Security-描述元
+              href: a-ntsecuritydescriptor.md
+            - name: Obj-Dist 名稱
+              href: a-distinguishedname.md
+            - name: Object-Category
+              href: a-objectcategory.md
+            - name: Object-Class
+              href: a-objectclass.md
+            - name: Object-Guid
+              href: a-objectguid.md
+            - name: Object-Sid
+              href: a-objectsid.md
+            - name: 組織單位-名稱
+              href: a-ou.md
+            - name: Organization-Name
+              href: a-o.md
+            - name: 部分屬性-刪除-清單
+              href: a-partialattributedeletionlist.md
+            - name: 部分屬性集
+              href: a-partialattributeset.md
+            - name: 電話-首頁-主要
+              href: a-homephone.md
+            - name: 電話-Ip-其他
+              href: a-otheripphone.md
+            - name: 電話-Ip-主要
+              href: a-ipphone.md
+            - name: PKI-重大-擴充功能
+              href: a-pkicriticalextensions.md
+            - name: PKI-預設-Csp
+              href: a-pkidefaultcsps.md
+            - name: PKI-預設金鑰-規格
+              href: a-pkidefaultkeyspec.md
+            - name: PKI-註冊-存取
+              href: a-pkienrollmentaccess.md
+            - name: PKI-到期期間
+              href: a-pkiexpirationperiod.md
+            - name: PKI-擴充金鑰-使用方式
+              href: a-pkiextendedkeyusage.md
+            - name: PKI-金鑰-使用方式
+              href: a-pkikeyusage.md
+            - name: PKI-最大發行深度
+              href: a-pkimaxissuingdepth.md
+            - name: PKI-重迭-期間
+              href: a-pkioverlapperiod.md
+            - name: Poss-Superiors
+              href: a-posssuperiors.md
+            - name: 主要群組-識別碼
+              href: a-primarygroupid.md
+            - name: Print-Color
+              href: a-printcolor.md
+            - name: 列印-雙工-支援
+              href: a-printduplexsupported.md
+            - name: Printer-Name
+              href: a-printername.md
+            - name: 列印-最大解析度-支援
+              href: a-printmaxresolutionsupported.md
+            - name: 列印-媒體就緒
+              href: a-printmediaready.md
+            - name: Print-Memory
+              href: a-printmemory.md
+            - name: 列印-每分鐘頁面
+              href: a-printpagesperminute.md
+            - name: Print-Rate
+              href: a-printrate.md
+            - name: 列印-費率-單位
+              href: a-printrateunit.md
+            - name: 列印-共用-名稱
+              href: a-printsharename.md
+            - name: 列印-裝訂-支援
+              href: a-printstaplingsupported.md
+            - name: Proxy-物件名稱
+              href: a-proxiedobjectname.md
+            - name: Range-Lower
+              href: a-rangelower.md
+            - name: Range-Upper
+              href: a-rangeupper.md
+            - name: RDN
+              href: a-name.md
+            - name: 複寫-屬性中繼資料
+              href: a-replpropertymetadata.md
+            - name: 複寫-UpToDate-向量
+              href: a-repluptodatevector.md
+            - name: Reps-From
+              href: a-repsfrom.md
+            - name: Reps-To
+              href: a-repsto.md
+            - name: SAM-帳戶-名稱
+              href: a-samaccountname.md
+            - name: SAM-帳戶-類型
+              href: a-samaccounttype.md
+            - name: Security-Identifier
+              href: a-securityidentifier.md
+            - name: Server-Name
+              href: a-servername.md
+            - name: 服務系結資訊
+              href: a-servicebindinginformation.md
+            - name: 服務類別識別碼
+              href: a-serviceclassid.md
+            - name: 服務類別資訊
+              href: a-serviceclassinfo.md
+            - name: 服務實例版本
+              href: a-serviceinstanceversion.md
+            - name: 服務主體名稱
+              href: a-serviceprincipalname.md
+            - name: 簡短伺服器名稱
+              href: a-shortservername.md
+            - name: SID-History
+              href: a-sidhistory.md
+            - name: Signature-Algorithms
+              href: a-signaturealgorithms.md
+            - name: 州/省名稱
+              href: a-st.md
+            - name: Street-Address
+              href: a-street.md
+            - name: Sub-Refs
+              href: a-subrefs.md
+            - name: Surname
+              href: a-sn.md
+            - name: 系統-Poss-Superiors
+              href: a-systemposssuperiors.md
+            - name: Telephone-Number
+              href: a-telephonenumber.md
+            - name: Trust-Attributes
+              href: a-trustattributes.md
+            - name: Trust-Direction
+              href: a-trustdirection.md
+            - name: Trust-Partner
+              href: a-trustpartner.md
+            - name: Trust-Type
+              href: a-trusttype.md
+            - name: UNC-Name
+              href: a-uncname.md
+            - name: 使用者帳戶控制
+              href: a-useraccountcontrol.md
+            - name: User-Cert
+              href: a-usercert.md
+            - name: 使用者主體名稱
+              href: a-userprincipalname.md
+            - name: 使用者 SMIME-憑證
+              href: a-usersmimecertificate.md
+            - name: USN-Changed
+              href: a-usnchanged.md
+            - name: USN-Created
+              href: a-usncreated.md
+            - name: USN-最後-Obj-Rem
+              href: a-usnlastobjrem.md
+            - name: Version-Number
+              href: a-versionnumber.md
+            - name: 知名物件
+              href: a-wellknownobjects.md
+            - name: When-Changed
+              href: a-whenchanged.md
+            - name: When-Created
+              href: a-whencreated.md
+            - name: Winsock-Addresses
+              href: a-winsockaddresses.md
+            - name: X509-Cert
+              href: a-usercertificate.md
+        - name: ANR 屬性
+          href: attributes-anr.md
+          items:
+            - name: 顯示名稱
+              href: a-displayname.md
+            - name: 指定的名稱
+              href: a-givenname.md
+            - name: 舊版-Exchange-DN
+              href: a-legacyexchangedn.md
+            - name: ms DS-其他-Sam-帳戶-名稱
+              href: a-msds-additionalsamaccountname.md
+            - name: ms-DS-Phonetic-Company-Name
+              href: a-msds-phoneticcompanyname.md
+            - name: ms-DS-Phonetic-Department
+              href: a-msds-phoneticdepartment.md
+            - name: ms-DS-Phonetic-Display-Name
+              href: a-msds-phoneticdisplayname.md
+            - name: ms-DS-Phonetic-First-Name
+              href: a-msds-phoneticfirstname.md
+            - name: ms-DS-Phonetic-Last-Name
+              href: a-msds-phoneticlastname.md
+            - name: 實體傳遞-辦公室-名稱
+              href: a-physicaldeliveryofficename.md
+            - name: Proxy-Addresses
+              href: a-proxyaddresses.md
+            - name: RDN
+              href: a-name.md
+            - name: SAM-帳戶-名稱
+              href: a-samaccountname.md
+            - name: Surname
+              href: a-sn.md
+    - name: 語法
+      href: syntaxes.md
+      items:
+        - name: Boolean
+          href: s-boolean.md
+        - name: 列舉型別
+          href: s-enumeration.md
+        - name: '列舉 (傳遞機制) '
+          href: s-enumeration-delivery-mechanism.md
+        - name: '列舉 (匯出-資訊層級) '
+          href: s-enumeration-export-information-level.md
+        - name: ' (慣用傳遞方法) 列舉'
+          href: s-enumeration-preferred-delivery-method.md
+        - name: 整數
+          href: s-integer.md
+        - name: 間隔
+          href: s-interval.md
+        - name: LargeInteger
+          href: s-largeinteger.md
+        - name: Object(Access-Point)
+          href: s-object-access-point.md
+        - name: Object(DN-Binary)
+          href: s-object-dn-binary.md
+        - name: Object(DN-String)
+          href: s-object-dn-string.md
+        - name: Object(DS-DN)
+          href: s-object-ds-dn.md
+        - name: Object(OR-Name)
+          href: s-object-or-name.md
+        - name: Object(Presentation-Address)
+          href: s-object-presentation-address.md
+        - name: Object(Replica-Link)
+          href: s-object-replica-link.md
+        - name: '字串 (區分大小寫) '
+          href: s-string-case-sensitive.md
+        - name: String(Generalized-Time)
+          href: s-string-generalized-time.md
+        - name: String(IA5)
+          href: s-string-ia5.md
+        - name: String(NT-Sec-Desc)
+          href: s-string-nt-sec-desc.md
+        - name: String(Numeric)
+          href: s-string-numeric.md
+        - name: String(Object-Identifier)
+          href: s-string-object-identifier.md
+        - name: String(Octet)
+          href: s-string-octet.md
+        - name: String(Printable)
+          href: s-string-printable.md
+        - name: String(Sid)
+          href: s-string-sid.md
+        - name: String(Teletex)
+          href: s-string-teletex.md
+        - name: String(Unicode)
+          href: s-string-unicode.md
+        - name: String(UTC-Time)
+          href: s-string-utc-time.md
+    - name: 控制存取權限
+      href: control-access-rights.md
+      items:
+        - name: 擴充許可權
+          href: extended-rights.md
+          items:
+            - name: Abandon-Replication
+              href: r-abandon-replication.md
+            - name: Add-GUID
+              href: r-add-guid.md
+            - name: Allocate-Rids
+              href: r-allocate-rids.md
+            - name: 允許驗證
+              href: r-allowed-to-authenticate.md
+            - name: 套用-群組-原則
+              href: r-apply-group-policy.md
+            - name: Certificate-Enrollment
+              href: r-certificate-enrollment.md
+            - name: 變更-網域-主機
+              href: r-change-domain-master.md
+            - name: 變更基礎結構-主要
+              href: r-change-infrastructure-master.md
+            - name: 變更-PDC
+              href: r-change-pdc.md
+            - name: 變更-Rid-Master
+              href: r-change-rid-master.md
+            - name: 變更-架構-Master
+              href: r-change-schema-master.md
+            - name: 建立-輸入-樹系-信任
+              href: r-create-inbound-forest-trust.md
+            - name: 進行垃圾收集
+              href: r-do-garbage-collection.md
+            - name: 網域管理-伺服器
+              href: r-domain-administer-server.md
+            - name: DS-檢查過時-幻像
+              href: r-ds-check-stale-phantoms.md
+            - name: DS-複製-網域控制站
+              href: r-ds-clone-domain-controller.md
+            - name: DS-執行-意圖-腳本
+              href: r-ds-execute-intentions-script.md
+            - name: DS-安裝-複本
+              href: r-ds-install-replica.md
+            - name: DS-查詢-自我配額
+              href: r-ds-query-self-quota.md
+            - name: DS-複寫-取得-變更
+              href: r-ds-replication-get-changes.md
+            - name: DS-複寫-取得-變更-全部
+              href: r-ds-replication-get-changes-all.md
+            - name: DS-複寫--已篩選-已篩選設定
+              href: r-ds-replication-get-changes-in-filtered-set.md
+            - name: DS-複寫-管理-拓撲
+              href: r-ds-replication-manage-topology.md
+            - name: DS-複寫-監視-拓撲
+              href: r-ds-replication-monitor-topology.md
+            - name: DS 複寫-同步處理
+              href: r-ds-replication-synchronize.md
+            - name: 啟用每位使用者可反向加密-密碼
+              href: r-enable-per-user-reversibly-encrypted-password.md
+            - name: 產生-RSoP-記錄
+              href: r-generate-rsop-logging.md
+            - name: 產生-RSoP-規劃
+              href: r-generate-rsop-planning.md
+            - name: 管理-選用-功能
+              href: r-manage-optional-features.md
+            - name: 遷移-SID-歷程記錄
+              href: r-migrate-sid-history.md
+            - name: msmq-開啟連接器
+              href: r-msmq-open-connector.md
+            - name: msmq-查看
+              href: r-msmq-peek.md
+            - name: msmq-查看-電腦-日誌
+              href: r-msmq-peek-computer-journal.md
+            - name: msmq-查看無效信件
+              href: r-msmq-peek-dead-letter.md
+            - name: msmq 接收
+              href: r-msmq-receive.md
+            - name: msmq-接收-電腦-日誌
+              href: r-msmq-receive-computer-journal.md
+            - name: msmq-接收-寄不出的信件
+              href: r-msmq-receive-dead-letter.md
+            - name: msmq-接收日誌
+              href: r-msmq-receive-journal.md
+            - name: msmq-傳送
+              href: r-msmq-send.md
+            - name: 開啟-通訊錄
+              href: r-open-address-book.md
+            - name: 唯讀-複寫-秘密-同步處理
+              href: r-read-only-replication-secret-synchronization.md
+            - name: Reanimate-Tombstones
+              href: r-reanimate-tombstones.md
+            - name: Recalculate-Hierarchy
+              href: r-recalculate-hierarchy.md
+            - name: 重新計算-安全性-繼承
+              href: r-recalculate-security-inheritance.md
+            - name: Receive-As
+              href: r-receive-as.md
+            - name: 重新整理-群組-快取
+              href: r-refresh-group-cache.md
+            - name: 重載-SSL 憑證
+              href: r-reload-ssl-certificate.md
+            - name: 執行-保護-管理群組-工作
+              href: r-run-protect-admin-groups-task.md
+            - name: SAM-列舉-整個網域
+              href: r-sam-enumerate-entire-domain.md
+            - name: Send-As
+              href: r-send-as.md
+            - name: Send-To
+              href: r-send-to.md
+            - name: 未過期密碼
+              href: r-unexpire-password.md
+            - name: 更新-密碼-不需要位
+              href: r-update-password-not-required-bit.md
+            - name: 更新-架構-快取
+              href: r-update-schema-cache.md
+            - name: 使用者-變更-密碼
+              href: r-user-change-password.md
+            - name: 使用者-強制-變更-密碼
+              href: r-user-force-change-password.md
+        - name: 屬性集
+          href: property-sets.md
+          items:
+            - name: DNS-主機名稱-屬性
+              href: r-dns-host-name-attributes.md
+            - name: 網域-其他-參數
+              href: r-domain-other-parameters.md
+            - name: Domain-Password
+              href: r-domain-password.md
+            - name: Email-Information
+              href: r-email-information.md
+            - name: General-Information
+              href: r-general-information.md
+            - name: 成員資格
+              href: r-membership.md
+            - name: MS-TS-GatewayAccess
+              href: r-ms-ts-gatewayaccess.md
+            - name: Personal-Information
+              href: r-personal-information.md
+            - name: Private-Information
+              href: r-private-information.md
+            - name: Public-Information
+              href: r-public-information.md
+            - name: RAS-Information
+              href: r-ras-information.md
+            - name: 終端機-伺服器-授權-伺服器
+              href: r-terminal-server-license-server.md
+            - name: 使用者帳戶-限制
+              href: r-user-account-restrictions.md
+            - name: User-Logon
+              href: r-user-logon.md
+            - name: Web-Information
+              href: r-web-information.md
+        - name: 驗證的寫入
+          href: validated-writes.md
+          items:
+            - name: Self-Membership
+              href: r-self-membership.md
+            - name: 已驗證-DNS-主機名稱
+              href: r-validated-dns-host-name.md
+            - name: 已驗證--DS-其他 DNS-主機名稱
+              href: r-validated-ms-ds-additional-dns-host-name.md
+            - name: 已驗證-DS-行為-版本
+              href: r-validated-ms-ds-behavior-version.md
+            - name: 已驗證-SPN
+              href: r-validated-spn.md
+    - name: RootDSE
+      href: rootdse.md

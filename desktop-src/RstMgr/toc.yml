@@ -1,0 +1,83 @@
+- name: 重新開機管理員
+  href: restart-manager-portal.md
+  items:
+    - name: 關於重新開機管理員
+      href: about-restart-manager.md
+      items:
+        - name: 應用程式和服務的指導方針
+          href: guidelines-for-applications-and-services.md
+          items:
+            - name: 應用程式的指導方針
+              href: guidelines-for-applications.md
+            - name: 服務的指導方針
+              href: guidelines-for-services.md
+            - name: 重要的系統服務
+              href: critical-system-services.md
+    - name: 使用重新開機管理員
+      href: using-restart-manager.md
+      items:
+        - name: 搭配主要安裝程式使用重新開機管理員
+          href: using-restart-manager-with-a-primary-installer.md
+        - name: 搭配次要安裝程式使用重新開機管理員
+          href: using-restart-manager-with-a-secondary-installer.md
+        - name: 取得重新開機管理員操作的狀態
+          href: getting-the-status-of-a-restart-manager-operation.md
+        - name: 取消目前的重新開機管理員操作
+          href: canceling-the-current-restart-manager-operation.md
+    - name: 重新開機管理員參考
+      href: restart-manager-reference.md
+      items:
+        - name: 重新開機管理員回呼函數
+          href: callback-functions.md
+          items:
+            - name: RM_WRITE_STATUS_CALLBACK
+              href: /windows/desktop/api/restartmanager/nc-restartmanager-rm_write_status_callback
+        - name: 重新開機管理員列舉
+          href: enumerations.md
+          items:
+            - name: RM_APP_STATUS
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_status
+            - name: RM_APP_TYPE
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_type
+            - name: RM_FILTER_ACTION
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_action
+            - name: RM_FILTER_TRIGGER
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_trigger
+            - name: RM_REBOOT_REASON
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_reboot_reason
+            - name: RM_SHUTDOWN_TYPE
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_shutdown_type
+        - name: 重新開機管理員函式
+          href: functions.md
+          items:
+            - name: RmAddFilter
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmaddfilter
+            - name: RmCancelCurrentTask
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmcancelcurrenttask
+            - name: RmEndSession
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmendsession
+            - name: RmGetFilterList
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmgetfilterlist
+            - name: RmGetList
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmgetlist
+            - name: RmJoinSession
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmjoinsession
+            - name: RmRegisterResources
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmregisterresources
+            - name: RmRemoveFilter
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmremovefilter
+            - name: RmRestart
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmrestart
+            - name: RmShutdown
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown
+            - name: RmStartSession
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmstartsession
+        - name: 重新開機管理員結構
+          href: structures.md
+          items:
+            - name: RM_FILTER_INFO
+              href: /windows/win32/api/RestartManager/ns-restartmanager-rm_filter_info
+            - name: RM_PROCESS_INFO
+              href: /windows/win32/api/RestartManager/ns-restartmanager-rm_process_info
+            - name: RM_UNIQUE_PROCESS
+              href: /windows/win32/api/RestartManager/ns-restartmanager-rm_unique_process
