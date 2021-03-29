@@ -1,0 +1,119 @@
+---
+description: 建立並傳回新的 ShellWindows 物件，該物件為這個 ShellWindows 物件的複本。
+title: 'ShellWindows._NewEnum 方法 (Exdisp) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- ShellWindows._NewEnum
+api_type:
+- COM
+api_location:
+- Shell32.dll
+ms.assetid: 85e84c13-62aa-4502-b642-ca55273a800d
+ms.openlocfilehash: ded5ae2c337e80359c012fb63a37aa13cc43b5fa
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104194802"
+---
+# <a name="shellwindows_newenum-method"></a>ShellWindows。 \_NewEnum 方法
+
+建立並傳回新的 [**ShellWindows**](shellwindows.md) 物件，該物件為這個 **ShellWindows** 物件的複本。
+
+## <a name="syntax"></a>語法
+
+
+```JScript
+retVal = ShellWindows._NewEnum()
+```
+
+
+
+## <a name="parameters"></a>參數
+
+這個方法沒有任何參數。
+
+## <a name="return-value"></a>傳回值
+
+類型： **[ **IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\*\***
+
+[**ShellWindows**](shellwindows.md)物件複製的物件參考。
+
+## <a name="examples"></a>範例
+
+下列範例顯示使用中的 **\_ NewEnum** 。 VBScript 和 Visual Basic 會顯示適當的使用方式。 這個方法不能與 JScript 一起使用。
+
+VBScript
+
+
+```VB
+<script language="VBScript">
+    function fnShellWindowsNewEnumVB()
+        dim objShell
+        dim objShellWindows
+        
+        set objShell = CreateObject("shell.application")
+        set objShellWindows = objshell.Shell_Windows
+
+        if (not objShellWindows is nothing) then
+            dim objEnumItems
+            
+            for each objEnumItems in objShellWindows
+                alert(objEnumItems.Type)
+            next
+        end if
+
+        set objShellWindows = nothing
+        set objShell = nothing
+    end function
+ </script>
+```
+
+
+
+Visual Basic：
+
+
+```VB
+Private Sub fnShellWindowsNewEnumVB()
+    Dim objShell        As Shell
+    Dim objShellWindows As ShellWindows
+    
+    Set objShell = New Shell
+    Set objShellWindows = objshell.Shell_Windows
+
+    If (Not objShellWindows Is Nothing) Then
+        Dim vEnumItem As Variant
+        
+        For Each vEnumItem In objShellWindows
+            Debug.Print vEnumItem.Type
+        Next vEnumItem
+    End If
+
+    Set objShellWindows = Nothing
+    Set objShell = Nothing
+End Sub
+```
+
+
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
+| 標頭<br/>                   | <dl> <dt>Exdisp。h</dt> </dl>                            |
+| DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
+
+
+
+ 
+
+ 
