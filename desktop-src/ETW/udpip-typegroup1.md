@@ -1,0 +1,217 @@
+---
+description: 此類別是 UDP/IP IPv4 傳送和接收事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+ms.assetid: f04e0b4c-6a2b-4452-9bdf-38c08b487863
+title: UdpIp_TypeGroup1 類別
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- UdpIp_TypeGroup1
+- UdpIp_TypeGroup1.PID
+- UdpIp_TypeGroup1.size
+- UdpIp_TypeGroup1.daddr
+- UdpIp_TypeGroup1.saddr
+- UdpIp_TypeGroup1.dport
+- UdpIp_TypeGroup1.sport
+- UdpIp_TypeGroup1.seqnum
+- UdpIp_TypeGroup1.connid
+api_type:
+- NA
+api_location: ''
+ms.openlocfilehash: 8d977841cbfe9a88d14056d77a9b943f4d5d4a3e
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104972808"
+---
+# <a name="udpip_typegroup1-class"></a><span data-ttu-id="36926-104">UdpIp \_ TypeGroup1 類別</span><span class="sxs-lookup"><span data-stu-id="36926-104">UdpIp\_TypeGroup1 class</span></span>
+
+<span data-ttu-id="36926-105">此類別是 UDP/IP IPv4 傳送和接收事件的事件種類類別。</span><span class="sxs-lookup"><span data-stu-id="36926-105">This class is the event type class for UDP/IP IPv4 send and receive events.</span></span>
+
+<span data-ttu-id="36926-106">以下是從 MOF 程式碼簡化的語法。</span><span class="sxs-lookup"><span data-stu-id="36926-106">The following syntax is simplified from MOF code.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="36926-107">語法</span><span class="sxs-lookup"><span data-stu-id="36926-107">Syntax</span></span>
+
+``` syntax
+[EventType{10, 11}, EventTypeName{"SendIPV4", "RecvIPV4"}]
+class UdpIp_TypeGroup1 : UdpIp
+{
+  uint32 PID;
+  uint32 size;
+  object daddr;
+  object saddr;
+  object dport;
+  object sport;
+  uint32 seqnum;
+  uint32 connid;
+};
+```
+
+## <a name="members"></a><span data-ttu-id="36926-108">成員</span><span class="sxs-lookup"><span data-stu-id="36926-108">Members</span></span>
+
+<span data-ttu-id="36926-109">**UdpIp \_ TypeGroup1** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="36926-109">The **UdpIp\_TypeGroup1** class has these types of members:</span></span>
+
+-   [<span data-ttu-id="36926-110">屬性</span><span class="sxs-lookup"><span data-stu-id="36926-110">Properties</span></span>](#properties)
+
+### <a name="properties"></a><span data-ttu-id="36926-111">屬性</span><span class="sxs-lookup"><span data-stu-id="36926-111">Properties</span></span>
+
+<span data-ttu-id="36926-112">**UdpIp \_ TypeGroup1** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="36926-112">The **UdpIp\_TypeGroup1** class has these properties.</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="36926-113">connid</span><span class="sxs-lookup"><span data-stu-id="36926-113">connid</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="36926-114">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="36926-114">Data type: **uint32**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-115">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="36926-115">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-116">限定詞： WmiDataId (8) ，指標</span><span class="sxs-lookup"><span data-stu-id="36926-116">Qualifiers: WmiDataId(8), Pointer</span></span>
+</dt> </dl>
+
+<span data-ttu-id="36926-117">唯一的連接識別碼，可讓屬於相同連接的事件相互關聯。</span><span class="sxs-lookup"><span data-stu-id="36926-117">A unique connection identifier to correlate events belonging to the same connection.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="36926-118">daddr</span><span class="sxs-lookup"><span data-stu-id="36926-118">daddr</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="36926-119">資料類型： **物件**</span><span class="sxs-lookup"><span data-stu-id="36926-119">Data type: **object**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-120">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="36926-120">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-121">限定詞： WmiDataId (3) ，副檔名 ( "IPAddrV4" ) </span><span class="sxs-lookup"><span data-stu-id="36926-121">Qualifiers: WmiDataId(3), Extension("IPAddrV4")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="36926-122">目的地 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="36926-122">Destination IP address.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="36926-123">dport</span><span class="sxs-lookup"><span data-stu-id="36926-123">dport</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="36926-124">資料類型： **物件**</span><span class="sxs-lookup"><span data-stu-id="36926-124">Data type: **object**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-125">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="36926-125">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-126">限定詞： WmiDataId (5) ，擴充 ( "Port" ) </span><span class="sxs-lookup"><span data-stu-id="36926-126">Qualifiers: WmiDataId(5), Extension("Port")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="36926-127">目的地埠號碼。</span><span class="sxs-lookup"><span data-stu-id="36926-127">Destination port number.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="36926-128">PID</span><span class="sxs-lookup"><span data-stu-id="36926-128">PID</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="36926-129">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="36926-129">Data type: **uint32**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="36926-130">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-131">限定詞： WmiDataId (1) </span><span class="sxs-lookup"><span data-stu-id="36926-131">Qualifiers: WmiDataId(1)</span></span>
+</dt> </dl>
+
+<span data-ttu-id="36926-132">與要求相關聯之進程的識別碼。</span><span class="sxs-lookup"><span data-stu-id="36926-132">Identifier of the process associated with the request.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="36926-133">saddr</span><span class="sxs-lookup"><span data-stu-id="36926-133">saddr</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="36926-134">資料類型： **物件**</span><span class="sxs-lookup"><span data-stu-id="36926-134">Data type: **object**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-135">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="36926-135">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-136">限定詞： WmiDataId (4) ，副檔名 ( "IPAddrV4" ) </span><span class="sxs-lookup"><span data-stu-id="36926-136">Qualifiers: WmiDataId(4), Extension("IPAddrV4")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="36926-137">來源 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="36926-137">Source IP address.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="36926-138">seqnum</span><span class="sxs-lookup"><span data-stu-id="36926-138">seqnum</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="36926-139">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="36926-139">Data type: **uint32**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-140">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="36926-140">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-141">限定詞： WmiDataId (7) </span><span class="sxs-lookup"><span data-stu-id="36926-141">Qualifiers: WmiDataId(7)</span></span>
+</dt> </dl>
+
+<span data-ttu-id="36926-142">序號。</span><span class="sxs-lookup"><span data-stu-id="36926-142">Sequence number.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="36926-143">{1}size{2}</span><span class="sxs-lookup"><span data-stu-id="36926-143">size</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="36926-144">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="36926-144">Data type: **uint32**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-145">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="36926-145">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-146">限定詞： WmiDataId (2) </span><span class="sxs-lookup"><span data-stu-id="36926-146">Qualifiers: WmiDataId(2)</span></span>
+</dt> </dl>
+
+<span data-ttu-id="36926-147">封包的大小。</span><span class="sxs-lookup"><span data-stu-id="36926-147">Size of the packet.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="36926-148">運動</span><span class="sxs-lookup"><span data-stu-id="36926-148">sport</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="36926-149">資料類型： **物件**</span><span class="sxs-lookup"><span data-stu-id="36926-149">Data type: **object**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-150">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="36926-150">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="36926-151">限定詞： WmiDataId (6) ，擴充 ( "Port" ) </span><span class="sxs-lookup"><span data-stu-id="36926-151">Qualifiers: WmiDataId(6), Extension("Port")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="36926-152">來源埠號碼。</span><span class="sxs-lookup"><span data-stu-id="36926-152">Source port number.</span></span>
+
+</dd> </dl>
+
+## <a name="requirements"></a><span data-ttu-id="36926-153">規格需求</span><span class="sxs-lookup"><span data-stu-id="36926-153">Requirements</span></span>
+
+
+
+| <span data-ttu-id="36926-154">需求</span><span class="sxs-lookup"><span data-stu-id="36926-154">Requirement</span></span> | <span data-ttu-id="36926-155">值</span><span class="sxs-lookup"><span data-stu-id="36926-155">Value</span></span> |
+|-------------------------------------|------------------------------------------------------|
+| <span data-ttu-id="36926-156">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="36926-156">Minimum supported client</span></span><br/> | <span data-ttu-id="36926-157">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="36926-157">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="36926-158">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="36926-158">Minimum supported server</span></span><br/> | <span data-ttu-id="36926-159">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="36926-159">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="36926-160">另請參閱</span><span class="sxs-lookup"><span data-stu-id="36926-160">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="36926-161">**UdpIp**</span><span class="sxs-lookup"><span data-stu-id="36926-161">**UdpIp**</span></span>](udpip.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
