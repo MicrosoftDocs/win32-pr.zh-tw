@@ -1,0 +1,226 @@
+- name: 安全性 WMI 提供者
+  href: secprov-portal.md
+  items:
+    - name: 關於安全性 WMI 提供者
+      href: about-security-wmi-providers.md
+    - name: 安全性 WMI 提供者參考
+      href: security-wmi-providers-reference.md
+      items:
+        - name: BitLocker 磁碟機加密提供者
+          href: bitlocker-drive-encryption-provider.md
+          items:
+            - name: Win32_EncryptableVolume
+              href: win32-encryptablevolume.md
+              items:
+                - name: Win32_EncryptableVolume 方法
+                  href: win32-encryptablevolume-methods.md
+                  items:
+                    - name: BackupRecoveryInformationToActiveDirectory 方法
+                      href: backuprecoveryinformationtoactivedirectory-win32-encryptablevolume.md
+                    - name: ChangeExternalKey 方法
+                      href: changeexternalkey-win32-encryptablevolume.md
+                    - name: ChangePassphrase 方法
+                      href: changepassphrase-win32-encryptablevolume.md
+                    - name: ChangePIN 方法
+                      href: changepin-win32-encryptablevolume.md
+                    - name: ClearAllAutoUnlockKeys 方法
+                      href: clearallautounlockkeys-win32-encryptablevolume.md
+                    - name: 解密方法
+                      href: decrypt-win32-encryptablevolume.md
+                    - name: DeleteKeyProtector 方法
+                      href: deletekeyprotector-win32-encryptablevolume.md
+                    - name: DeleteKeyProtectors 方法
+                      href: deletekeyprotectors-win32-encryptablevolume.md
+                    - name: DisableAutoUnlock 方法
+                      href: disableautounlock-win32-encryptablevolume.md
+                    - name: DisableKeyProtectors 方法
+                      href: disablekeyprotectors-win32-encryptablevolume.md
+                    - name: EnableAutoUnlock 方法
+                      href: enableautounlock-win32-encryptablevolume.md
+                    - name: EnableKeyProtectors 方法
+                      href: enablekeyprotectors-win32-encryptablevolume.md
+                    - name: Encrypt 方法
+                      href: encrypt-win32-encryptablevolume.md
+                    - name: EncryptAfterHardwareTest 方法
+                      href: encryptafterhardwaretest-win32-encryptablevolume.md
+                    - name: FindValidCertificates 方法
+                      href: findvalidcertificates-win32-encryptablevolume.md
+                    - name: GetConversionStatus 方法
+                      href: getconversionstatus-win32-encryptablevolume.md
+                    - name: GetEncryptionMethod 方法
+                      href: getencryptionmethod-win32-encryptablevolume.md
+                    - name: GetExternalKeyFileName 方法
+                      href: getexternalkeyfilename-win32-encryptablevolume.md
+                    - name: GetExternalKeyFromFile 方法
+                      href: getexternalkeyfromfile-win32-encryptablevolume.md
+                    - name: GetHardwareEncryptionStatus 方法
+                      href: gethardwareencryptionstatus-win32-encryptablevolume.md
+                    - name: GetHardwareTestStatus 方法
+                      href: gethardwareteststatus-win32-encryptablevolume.md
+                    - name: GetIdentificationField 方法
+                      href: getidentificationfield-win32-encryptablevolume.md
+                    - name: GetKeyPackage 方法
+                      href: getkeypackage-win32-encryptablevolume.md
+                    - name: GetKeyProtectorAdSidInformation 方法
+                      href: getkeyprotectoradsidinformation-win32-encryptablevolume.md
+                    - name: GetKeyProtectorCertificate 方法
+                      href: getkeyprotectorcertificate-win32-encryptablevolume.md
+                    - name: GetKeyProtectorExternalKey 方法
+                      href: getkeyprotectorexternalkey-win32-encryptablevolume.md
+                    - name: GetKeyProtectorFriendlyName 方法
+                      href: getkeyprotectorfriendlyname-win32-encryptablevolume.md
+                    - name: GetKeyProtectorNumericalPassword 方法
+                      href: getkeyprotectornumericalpassword-win32-encryptablevolume.md
+                    - name: GetKeyProtectorPlatformValidationProfile 方法
+                      href: getkeyprotectorplatformvalidationprofile-win32-encryptablevolume.md
+                    - name: GetKeyProtectors 方法
+                      href: getkeyprotectors-win32-encryptablevolume.md
+                    - name: GetKeyProtectorType 方法
+                      href: getkeyprotectortype-win32-encryptablevolume.md
+                    - name: GetLockStatus 方法
+                      href: getlockstatus-win32-encryptablevolume.md
+                    - name: GetProtectionStatus 方法
+                      href: getprotectionstatus-win32-encryptablevolume.md
+                    - name: GetSuspendCount 方法
+                      href: getsuspendcount-win32-encryptablevolume.md
+                    - name: GetVersion 方法
+                      href: getversion-win32-encryptablevolume.md
+                    - name: IsAutoUnlockEnabled 方法
+                      href: isautounlockenabled-win32-encryptablevolume.md
+                    - name: IsAutoUnlockKeyStored 方法
+                      href: isautounlockkeystored-win32-encryptablevolume.md
+                    - name: IsKeyProtectorAvailable 方法
+                      href: iskeyprotectoravailable-win32-encryptablevolume.md
+                    - name: IsNumericalPasswordValid 方法
+                      href: isnumericalpasswordvalid-win32-encryptablevolume.md
+                    - name: Lock 方法
+                      href: lock-win32-encryptablevolume.md
+                    - name: PauseConversion 方法
+                      href: pauseconversion-win32-encryptablevolume.md
+                    - name: PrepareVolume 方法
+                      href: preparevolume-win32-encryptablevolume.md
+                    - name: ProtectKeyWithAdSid 方法
+                      href: protectkeywithadsid-win32-encryptablevolume.md
+                    - name: ProtectKeyWithCertificateFile 方法
+                      href: protectkeywithcertificatefile-win32-encryptablevolume.md
+                    - name: ProtectKeyWithCertificateThumbprint 方法
+                      href: protectkeywithcertificatethumbprint-win32-encryptablevolume.md
+                    - name: ProtectKeyWithExternalKey 方法
+                      href: protectkeywithexternalkey-win32-encryptablevolume.md
+                    - name: ProtectKeyWithNumericalPassword 方法
+                      href: protectkeywithnumericalpassword-win32-encryptablevolume.md
+                    - name: ProtectKeyWithPassphrase 方法
+                      href: protectkeywithpassphrase-win32-encryptablevolume.md
+                    - name: ProtectKeyWithTPM 方法
+                      href: protectkeywithtpm-win32-encryptablevolume.md
+                    - name: ProtectKeyWithTPMAndPIN 方法
+                      href: protectkeywithtpmandpin-win32-encryptablevolume.md
+                    - name: ProtectKeyWithTPMAndPINAndStartupKey 方法
+                      href: protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md
+                    - name: ProtectKeyWithTPMAndStartupKey 方法
+                      href: protectkeywithtpmandstartupkey-win32-encryptablevolume.md
+                    - name: ResumeConversion 方法
+                      href: resumeconversion-win32-encryptablevolume.md
+                    - name: SaveExternalKeyToFile 方法
+                      href: saveexternalkeytofile-win32-encryptablevolume.md
+                    - name: SetIdentificationField 方法
+                      href: setidentificationfield-win32-encryptablevolume.md
+                    - name: UnlockWithAdSid 方法
+                      href: unlockwithadsid-win32-encryptablevolume.md
+                    - name: UnlockWithCertificateFile 方法
+                      href: unlockwithcertificatefile-win32-encryptablevolume.md
+                    - name: UnlockWithCertificateThumbprint 方法
+                      href: unlockwithcertificatethumbprint-win32-encryptablevolume.md
+                    - name: UnlockWithExternalKey 方法
+                      href: unlockwithexternalkey-win32-encryptablevolume.md
+                    - name: UnlockWithNumericalPassword 方法
+                      href: unlockwithnumericalpassword-win32-encryptablevolume.md
+                    - name: UnlockWithPassphrase 方法
+                      href: unlockwithpassphrase-win32-encryptablevolume.md
+                    - name: UpgradeVolume 方法
+                      href: upgradevolume-win32-encryptablevolume.md
+        - name: 信賴平臺模組提供者
+          href: trusted-platform-module-provider.md
+          items:
+            - name: Win32_Tpm
+              href: win32-tpm.md
+              items:
+                - name: Win32_Tpm 方法
+                  href: win32-tpm-methods.md
+                  items:
+                    - name: AddBlockedCommand 方法
+                      href: addblockedcommand-win32-tpm.md
+                    - name: ChangeOwnerAuth 方法
+                      href: changeownerauth-win32-tpm.md
+                    - name: Clear 方法
+                      href: clear-win32-tpm.md
+                    - name: ConvertToOwnerAuth 方法
+                      href: converttoownerauth-win32-tpm.md
+                    - name: CreateEndorsementKeyPair 方法
+                      href: createendorsementkeypair-win32-tpm.md
+                    - name: Disable 方法
+                      href: disable-win32-tpm.md
+                    - name: DisableAutoProvisioning 方法
+                      href: win32-tpm-disableautoprovisioning.md
+                    - name: Enable 方法
+                      href: enable-win32-tpm.md
+                    - name: EnableAutoProvisioning 方法
+                      href: win32-tpm-enableautoprovisioning.md
+                    - name: GetOwnerAuth 方法
+                      href: win32-tpm-getownerauth.md
+                    - name: GetPhysicalPresenceConfirmationStatus 方法
+                      href: win32-tpm-getphysicalpresenceconfirmationstatus.md
+                    - name: GetPhysicalPresenceRequest 方法
+                      href: getphysicalpresencerequest-win32-tpm.md
+                    - name: GetPhysicalPresenceResponse 方法
+                      href: getphysicalpresenceresponse-win32-tpm.md
+                    - name: GetPhysicalPresenceTransition 方法
+                      href: getphysicalpresencetransition-win32-tpm.md
+                    - name: GetSrkADThumbprint 方法
+                      href: win32-tpm-getsrkadthumbprint.md
+                    - name: GetSrkPublicKeyModulus 方法
+                      href: win32-tpm-getsrkpublickeymodulus.md
+                    - name: ImportOwnerAuth 方法
+                      href: win32-tpm-importownerauth.md
+                    - name: IsActivated 方法
+                      href: isactivated-win32-tpm.md
+                    - name: IsAutoProvisioningEnabled 方法
+                      href: win32-tpm-isautoprovisioningenabled.md
+                    - name: IsCommandBlocked 方法
+                      href: iscommandblocked-win32-tpm.md
+                    - name: IsCommandPresent 方法
+                      href: iscommandpresent-win32-tpm.md
+                    - name: IsEnabled 方法
+                      href: isenabled-win32-tpm.md
+                    - name: IsEndorsementKeyPairPresent 方法
+                      href: isendorsementkeypairpresent-win32-tpm.md
+                    - name: IsOwned 方法
+                      href: isowned-win32-tpm.md
+                    - name: IsOwnerClearDisabled 方法
+                      href: isownercleardisabled-win32-tpm.md
+                    - name: IsOwnershipAllowed 方法
+                      href: isownershipallowed-win32-tpm.md
+                    - name: IsPhysicalClearDisabled 方法
+                      href: isphysicalcleardisabled-win32-tpm.md
+                    - name: IsPhysicalPresenceHardwareEnabled 方法
+                      href: isphysicalpresencehardwareenabled-win32-tpm.md
+                    - name: IsReady 方法
+                      href: win32-tpm-isready.md
+                    - name: IsReadyInformation 方法
+                      href: win32-tpm-isreadyinformation.md
+                    - name: IsSrkAuthCompatible 方法
+                      href: issrkauthcompatible-win32-tpm.md
+                    - name: 布建方法
+                      href: win32-tpm-provision.md
+                    - name: RemoveBlockedCommand 方法
+                      href: removeblockedcommand-win32-tpm.md
+                    - name: ResetAuthLockOut 方法
+                      href: resetauthlockout-win32-tpm.md
+                    - name: ResetSrkAuth 方法
+                      href: resetsrkauth-win32-tpm.md
+                    - name: SelfTest 方法
+                      href: selftest-win32-tpm.md
+                    - name: SetPhysicalPresenceRequest 方法
+                      href: setphysicalpresencerequest-win32-tpm.md
+                    - name: TakeOwnership 方法
+                      href: takeownership-win32-tpm.md
