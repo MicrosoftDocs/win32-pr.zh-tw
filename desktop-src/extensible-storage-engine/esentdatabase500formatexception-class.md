@@ -1,0 +1,77 @@
+---
+description: 深入瞭解： EsentDatabase500FormatException 類別
+title: EsentDatabase500FormatException 類別
+TOCTitle: EsentDatabase500FormatException class
+ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabase500FormatException
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabase500formatexception(v=EXCHG.10)
+ms:contentKeyID: 55101408
+ms.date: 07/30/2014
+ms.topic: reference
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.EsentDatabase500FormatException
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name:
+- Microsoft.Isam.Esent.Interop.EsentDatabase500FormatException
+topic_type:
+- kbSyntax
+- apiref
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: 4dbc7d565753550f0bcbdddca8fef60cefbcbabb
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103851652"
+---
+# <a name="esentdatabase500formatexception-class"></a><span data-ttu-id="df7dd-103">EsentDatabase500FormatException 類別</span><span class="sxs-lookup"><span data-stu-id="df7dd-103">EsentDatabase500FormatException class</span></span>
+
+<span data-ttu-id="df7dd-104">JET_err 的基類。Database500Format 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="df7dd-104">Base class for JET_err.Database500Format exceptions.</span></span>
+
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="df7dd-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="df7dd-105">Inheritance hierarchy</span></span>
+
+[<span data-ttu-id="df7dd-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="df7dd-106">System.Object</span></span>](/dotnet/api/system.object)  
+  [<span data-ttu-id="df7dd-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="df7dd-107">System.Exception</span></span>](/dotnet/api/system.exception)  
+    [<span data-ttu-id="df7dd-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="df7dd-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
+      [<span data-ttu-id="df7dd-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="df7dd-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
+        [<span data-ttu-id="df7dd-110">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="df7dd-110">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
+          [<span data-ttu-id="df7dd-111">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="df7dd-111">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
+            <span data-ttu-id="df7dd-112">EsentDatabase500FormatException （.）</span><span class="sxs-lookup"><span data-stu-id="df7dd-112">Microsoft.Isam.Esent.Interop.EsentDatabase500FormatException</span></span>  
+
+<span data-ttu-id="df7dd-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="df7dd-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="df7dd-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="df7dd-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="df7dd-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="df7dd-115">Syntax</span></span>
+
+``` vb
+'Declaration
+<SerializableAttribute> _
+Public NotInheritable Class EsentDatabase500FormatException _
+    Inherits EsentObsoleteException
+'Usage
+Dim instance As EsentDatabase500FormatException
+```
+
+``` csharp
+[SerializableAttribute]
+public sealed class EsentDatabase500FormatException : EsentObsoleteException
+```
+
+## <a name="thread-safety"></a><span data-ttu-id="df7dd-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="df7dd-116">Thread safety</span></span>
+
+<span data-ttu-id="df7dd-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="df7dd-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="df7dd-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="df7dd-118">Any instance members are not guaranteed to be thread safe.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="df7dd-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="df7dd-119">See also</span></span>
+
+#### <a name="reference"></a><span data-ttu-id="df7dd-120">參考</span><span class="sxs-lookup"><span data-stu-id="df7dd-120">Reference</span></span>
+
+[<span data-ttu-id="df7dd-121">EsentDatabase500FormatException 成員</span><span class="sxs-lookup"><span data-stu-id="df7dd-121">EsentDatabase500FormatException members</span></span>](./esentdatabase500formatexception-members.md)
+
+[<span data-ttu-id="df7dd-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="df7dd-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
