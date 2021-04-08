@@ -20,20 +20,20 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673275"
 ---
-# <a name="opengl-error-codes"></a><span data-ttu-id="49b69-111">OpenGL 錯誤碼</span><span class="sxs-lookup"><span data-stu-id="49b69-111">OpenGL Error Codes</span></span>
+# <a name="opengl-error-codes"></a><span data-ttu-id="53542-111">OpenGL 錯誤碼</span><span class="sxs-lookup"><span data-stu-id="53542-111">OpenGL Error Codes</span></span>
 
-<span data-ttu-id="49b69-112">OpenGL 包含下列錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="49b69-112">OpenGL includes the following error codes.</span></span>
+<span data-ttu-id="53542-112">OpenGL 包含下列錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="53542-112">OpenGL includes the following error codes.</span></span>
 
 
 
-| <span data-ttu-id="49b69-113">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="49b69-113">Error code</span></span>             | <span data-ttu-id="49b69-114">描述</span><span class="sxs-lookup"><span data-stu-id="49b69-114">Description</span></span>                                 |
+| <span data-ttu-id="53542-113">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="53542-113">Error code</span></span>             | <span data-ttu-id="53542-114">描述</span><span class="sxs-lookup"><span data-stu-id="53542-114">Description</span></span>                                 |
 |------------------------|---------------------------------------------|
-| <span data-ttu-id="49b69-115">GL \_ 無效 \_ 列舉</span><span class="sxs-lookup"><span data-stu-id="49b69-115">GL\_INVALID\_ENUM</span></span>      | <span data-ttu-id="49b69-116">**GLenum** 引數超出範圍。</span><span class="sxs-lookup"><span data-stu-id="49b69-116">**GLenum** argument out of range.</span></span>           |
-| <span data-ttu-id="49b69-117">GL \_ 無效 \_ 值</span><span class="sxs-lookup"><span data-stu-id="49b69-117">GL\_INVALID\_VALUE</span></span>     | <span data-ttu-id="49b69-118">數值引數超出範圍。</span><span class="sxs-lookup"><span data-stu-id="49b69-118">Numeric argument out of range.</span></span>              |
-| <span data-ttu-id="49b69-119">GL \_ 不正確 \_ 操作</span><span class="sxs-lookup"><span data-stu-id="49b69-119">GL\_INVALID\_OPERATION</span></span> | <span data-ttu-id="49b69-120">作業在目前狀態中不合法。</span><span class="sxs-lookup"><span data-stu-id="49b69-120">Operation illegal in current state.</span></span>         |
-| <span data-ttu-id="49b69-121">GL \_ 堆疊 \_ 溢位</span><span class="sxs-lookup"><span data-stu-id="49b69-121">GL\_STACK\_OVERFLOW</span></span>    | <span data-ttu-id="49b69-122">函數會導致堆疊溢位。</span><span class="sxs-lookup"><span data-stu-id="49b69-122">Function would cause a stack overflow.</span></span>      |
-| <span data-ttu-id="49b69-123">GL \_ 堆疊 \_ 下溢</span><span class="sxs-lookup"><span data-stu-id="49b69-123">GL\_STACK\_UNDERFLOW</span></span>   | <span data-ttu-id="49b69-124">函數會導致堆疊下溢。</span><span class="sxs-lookup"><span data-stu-id="49b69-124">Function would cause a stack underflow.</span></span>     |
-| <span data-ttu-id="49b69-125">GL \_ \_ 記憶體不足 \_</span><span class="sxs-lookup"><span data-stu-id="49b69-125">GL\_OUT\_OF\_MEMORY</span></span>    | <span data-ttu-id="49b69-126">剩餘的記憶體不足，無法執行函數。</span><span class="sxs-lookup"><span data-stu-id="49b69-126">Not enough memory left to execute function.</span></span> |
+| <span data-ttu-id="53542-115">GL \_ 無效 \_ 列舉</span><span class="sxs-lookup"><span data-stu-id="53542-115">GL\_INVALID\_ENUM</span></span>      | <span data-ttu-id="53542-116">**GLenum** 引數超出範圍。</span><span class="sxs-lookup"><span data-stu-id="53542-116">**GLenum** argument out of range.</span></span>           |
+| <span data-ttu-id="53542-117">GL \_ 無效 \_ 值</span><span class="sxs-lookup"><span data-stu-id="53542-117">GL\_INVALID\_VALUE</span></span>     | <span data-ttu-id="53542-118">數值引數超出範圍。</span><span class="sxs-lookup"><span data-stu-id="53542-118">Numeric argument out of range.</span></span>              |
+| <span data-ttu-id="53542-119">GL \_ 不正確 \_ 操作</span><span class="sxs-lookup"><span data-stu-id="53542-119">GL\_INVALID\_OPERATION</span></span> | <span data-ttu-id="53542-120">作業在目前狀態中不合法。</span><span class="sxs-lookup"><span data-stu-id="53542-120">Operation illegal in current state.</span></span>         |
+| <span data-ttu-id="53542-121">GL \_ 堆疊 \_ 溢位</span><span class="sxs-lookup"><span data-stu-id="53542-121">GL\_STACK\_OVERFLOW</span></span>    | <span data-ttu-id="53542-122">函數會導致堆疊溢位。</span><span class="sxs-lookup"><span data-stu-id="53542-122">Function would cause a stack overflow.</span></span>      |
+| <span data-ttu-id="53542-123">GL \_ 堆疊 \_ 下溢</span><span class="sxs-lookup"><span data-stu-id="53542-123">GL\_STACK\_UNDERFLOW</span></span>   | <span data-ttu-id="53542-124">函數會導致堆疊下溢。</span><span class="sxs-lookup"><span data-stu-id="53542-124">Function would cause a stack underflow.</span></span>     |
+| <span data-ttu-id="53542-125">GL \_ \_ 記憶體不足 \_</span><span class="sxs-lookup"><span data-stu-id="53542-125">GL\_OUT\_OF\_MEMORY</span></span>    | <span data-ttu-id="53542-126">剩餘的記憶體不足，無法執行函數。</span><span class="sxs-lookup"><span data-stu-id="53542-126">Not enough memory left to execute function.</span></span> |
 
 
 

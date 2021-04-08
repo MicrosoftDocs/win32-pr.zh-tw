@@ -15,15 +15,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673019"
 ---
-# <a name="sessionfullcalculatorclientexample"></a><span data-ttu-id="39b1c-106">SessionfullCalculatorClientExample</span><span class="sxs-lookup"><span data-stu-id="39b1c-106">SessionfullCalculatorClientExample</span></span>
+# <a name="sessionfullcalculatorclientexample"></a><span data-ttu-id="36d5e-106">SessionfullCalculatorClientExample</span><span class="sxs-lookup"><span data-stu-id="36d5e-106">SessionfullCalculatorClientExample</span></span>
 
-<span data-ttu-id="39b1c-107">與會話計算機服務交談的用戶端應用程式。</span><span class="sxs-lookup"><span data-stu-id="39b1c-107">Client application to talk to a sessionful calculator service.</span></span>
+<span data-ttu-id="36d5e-107">與會話計算機服務交談的用戶端應用程式。</span><span class="sxs-lookup"><span data-stu-id="36d5e-107">Client application to talk to a sessionful calculator service.</span></span>
 
--   [<span data-ttu-id="39b1c-108">SessionfullCalculatorClient .cpp</span><span class="sxs-lookup"><span data-stu-id="39b1c-108">SessionfullCalculatorClient.cpp</span></span>](#sessionfullcalculatorclientcpp)
--   [<span data-ttu-id="39b1c-109">SessionBasedCalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="39b1c-109">SessionBasedCalculatorService.wsdl</span></span>](#sessionbasedcalculatorservicewsdl)
--   [<span data-ttu-id="39b1c-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="39b1c-110">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="36d5e-108">SessionfullCalculatorClient .cpp</span><span class="sxs-lookup"><span data-stu-id="36d5e-108">SessionfullCalculatorClient.cpp</span></span>](#sessionfullcalculatorclientcpp)
+-   [<span data-ttu-id="36d5e-109">SessionBasedCalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="36d5e-109">SessionBasedCalculatorService.wsdl</span></span>](#sessionbasedcalculatorservicewsdl)
+-   [<span data-ttu-id="36d5e-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="36d5e-110">Makefile</span></span>](#makefile)
 
-## <a name="sessionfullcalculatorclientcpp"></a><span data-ttu-id="39b1c-111">SessionfullCalculatorClient .cpp</span><span class="sxs-lookup"><span data-stu-id="39b1c-111">SessionfullCalculatorClient.cpp</span></span>
+## <a name="sessionfullcalculatorclientcpp"></a><span data-ttu-id="36d5e-111">SessionfullCalculatorClient .cpp</span><span class="sxs-lookup"><span data-stu-id="36d5e-111">SessionfullCalculatorClient.cpp</span></span>
 
 
 ```C++
@@ -283,7 +283,7 @@ Exit:
 
 
 
-## <a name="sessionbasedcalculatorservicewsdl"></a><span data-ttu-id="39b1c-112">SessionBasedCalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="39b1c-112">SessionBasedCalculatorService.wsdl</span></span>
+## <a name="sessionbasedcalculatorservicewsdl"></a><span data-ttu-id="36d5e-112">SessionBasedCalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="36d5e-112">SessionBasedCalculatorService.wsdl</span></span>
 
 ``` syntax
 <?xml version="1.0" encoding="UTF-8"?>
@@ -414,7 +414,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="39b1c-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="39b1c-113">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="36d5e-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="36d5e-113">Makefile</span></span>
 
 ``` syntax
 !include <Win32.Mak>

@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673751"
 ---
-# <a name="how-to-create-a-client-side-proxy-ui-automation-provider"></a><span data-ttu-id="25355-103">如何) 消費者介面自動化提供者建立 Client-Side (Proxy</span><span class="sxs-lookup"><span data-stu-id="25355-103">How to Create a Client-Side (Proxy) UI Automation Provider</span></span>
+# <a name="how-to-create-a-client-side-proxy-ui-automation-provider"></a><span data-ttu-id="e2de8-103">如何) 消費者介面自動化提供者建立 Client-Side (Proxy</span><span class="sxs-lookup"><span data-stu-id="e2de8-103">How to Create a Client-Side (Proxy) UI Automation Provider</span></span>
 
-<span data-ttu-id="25355-104">本主題包含範例程式碼，示範如何執行用戶端或 proxy 的 Microsoft 消費者介面自動化提供者。</span><span class="sxs-lookup"><span data-stu-id="25355-104">This topic contains example code that shows how to implement a client-side, or proxy, Microsoft UI Automation provider.</span></span>
+<span data-ttu-id="e2de8-104">本主題包含範例程式碼，示範如何執行用戶端或 proxy 的 Microsoft 消費者介面自動化提供者。</span><span class="sxs-lookup"><span data-stu-id="e2de8-104">This topic contains example code that shows how to implement a client-side, or proxy, Microsoft UI Automation provider.</span></span>
 
--   [<span data-ttu-id="25355-105">範例1：列舉 Proxy Factory 資料表</span><span class="sxs-lookup"><span data-stu-id="25355-105">Example 1: Enumerating the Proxy Factory Table</span></span>](#example-1-enumerating-the-proxy-factory-table)
--   [<span data-ttu-id="25355-106">範例2：針對按鈕控制項執行簡單的 Proxy</span><span class="sxs-lookup"><span data-stu-id="25355-106">Example 2: Implementing a Simple Proxy for Button Controls</span></span>](#example-2-implementing-a-simple-proxy-for-button-controls)
--   [<span data-ttu-id="25355-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="25355-107">Related topics</span></span>](#related-topics)
+-   [<span data-ttu-id="e2de8-105">範例1：列舉 Proxy Factory 資料表</span><span class="sxs-lookup"><span data-stu-id="e2de8-105">Example 1: Enumerating the Proxy Factory Table</span></span>](#example-1-enumerating-the-proxy-factory-table)
+-   [<span data-ttu-id="e2de8-106">範例2：針對按鈕控制項執行簡單的 Proxy</span><span class="sxs-lookup"><span data-stu-id="e2de8-106">Example 2: Implementing a Simple Proxy for Button Controls</span></span>](#example-2-implementing-a-simple-proxy-for-button-controls)
+-   [<span data-ttu-id="e2de8-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="e2de8-107">Related topics</span></span>](#related-topics)
 
-## <a name="example-1-enumerating-the-proxy-factory-table"></a><span data-ttu-id="25355-108">範例1：列舉 Proxy Factory 資料表</span><span class="sxs-lookup"><span data-stu-id="25355-108">Example 1: Enumerating the Proxy Factory Table</span></span>
+## <a name="example-1-enumerating-the-proxy-factory-table"></a><span data-ttu-id="e2de8-108">範例1：列舉 Proxy Factory 資料表</span><span class="sxs-lookup"><span data-stu-id="e2de8-108">Example 1: Enumerating the Proxy Factory Table</span></span>
 
-<span data-ttu-id="25355-109">下列範例程式碼會列舉 proxy factory 資料表中的專案，並顯示所支援控制項的類別名稱。</span><span class="sxs-lookup"><span data-stu-id="25355-109">The following example code enumerates the entries in the proxy factory table and displays the class name of the supported control.</span></span> <span data-ttu-id="25355-110">針對不是由作業系統提供的 proxy，系統會顯示映射名稱。</span><span class="sxs-lookup"><span data-stu-id="25355-110">For proxies that are not supplied with the operating system, the image name is displayed.</span></span>
+<span data-ttu-id="e2de8-109">下列範例程式碼會列舉 proxy factory 資料表中的專案，並顯示所支援控制項的類別名稱。</span><span class="sxs-lookup"><span data-stu-id="e2de8-109">The following example code enumerates the entries in the proxy factory table and displays the class name of the supported control.</span></span> <span data-ttu-id="e2de8-110">針對不是由作業系統提供的 proxy，系統會顯示映射名稱。</span><span class="sxs-lookup"><span data-stu-id="e2de8-110">For proxies that are not supplied with the operating system, the image name is displayed.</span></span>
 
 
 ```C++
@@ -70,9 +70,9 @@ HRESULT GetProxyTable()
 
 
 
-## <a name="example-2-implementing-a-simple-proxy-for-button-controls"></a><span data-ttu-id="25355-111">範例2：針對按鈕控制項執行簡單的 Proxy</span><span class="sxs-lookup"><span data-stu-id="25355-111">Example 2: Implementing a Simple Proxy for Button Controls</span></span>
+## <a name="example-2-implementing-a-simple-proxy-for-button-controls"></a><span data-ttu-id="e2de8-111">範例2：針對按鈕控制項執行簡單的 Proxy</span><span class="sxs-lookup"><span data-stu-id="e2de8-111">Example 2: Implementing a Simple Proxy for Button Controls</span></span>
 
-<span data-ttu-id="25355-112">下列範例程式碼會針對具有 "Button" 類別名稱的控制項來執行簡單的 proxy，並將 proxy 的專案加入至 proxy factory 資料表。</span><span class="sxs-lookup"><span data-stu-id="25355-112">The following example code implements a simple proxy for controls that have the "Button" class name, and adds an entry for the proxy to the proxy factory table.</span></span> <span data-ttu-id="25355-113">此範例會使用 [記事本] 的 [字型] 對話方塊來示範 proxy。</span><span class="sxs-lookup"><span data-stu-id="25355-113">This example uses the Font dialog box of Notepad to demonstrate the proxy.</span></span>
+<span data-ttu-id="e2de8-112">下列範例程式碼會針對具有 "Button" 類別名稱的控制項來執行簡單的 proxy，並將 proxy 的專案加入至 proxy factory 資料表。</span><span class="sxs-lookup"><span data-stu-id="e2de8-112">The following example code implements a simple proxy for controls that have the "Button" class name, and adds an entry for the proxy to the proxy factory table.</span></span> <span data-ttu-id="e2de8-113">此範例會使用 [記事本] 的 [字型] 對話方塊來示範 proxy。</span><span class="sxs-lookup"><span data-stu-id="e2de8-113">This example uses the Font dialog box of Notepad to demonstrate the proxy.</span></span>
 
 
 ```C++
@@ -362,17 +362,17 @@ cleanup:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="25355-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="25355-114">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e2de8-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="e2de8-114">Related topics</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="25355-115">**概念**</span><span class="sxs-lookup"><span data-stu-id="25355-115">**Conceptual**</span></span>
+<span data-ttu-id="e2de8-115">**概念**</span><span class="sxs-lookup"><span data-stu-id="e2de8-115">**Conceptual**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="25355-116">執行 Client-Side 消費者介面自動化提供者</span><span class="sxs-lookup"><span data-stu-id="25355-116">Implementing a Client-Side UI Automation Provider</span></span>](uiauto-serversideprovider.md)
+[<span data-ttu-id="e2de8-116">執行 Client-Side 消費者介面自動化提供者</span><span class="sxs-lookup"><span data-stu-id="e2de8-116">Implementing a Client-Side UI Automation Provider</span></span>](uiauto-serversideprovider.md)
 </dt> <dt>
 
-[<span data-ttu-id="25355-117">消費者介面自動化提供者的使用說明主題</span><span class="sxs-lookup"><span data-stu-id="25355-117">How-To Topics for UI Automation Providers</span></span>](uiauto-howto-topics-for-uiautomation-providers.md)
+[<span data-ttu-id="e2de8-117">消費者介面自動化提供者的使用說明主題</span><span class="sxs-lookup"><span data-stu-id="e2de8-117">How-To Topics for UI Automation Providers</span></span>](uiauto-howto-topics-for-uiautomation-providers.md)
 </dt> </dl>
 
  

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673539"
 ---
-# <a name="http-server-sample-application"></a><span data-ttu-id="da74d-103">HTTP 伺服器範例應用程式</span><span class="sxs-lookup"><span data-stu-id="da74d-103">HTTP Server Sample Application</span></span>
+# <a name="http-server-sample-application"></a><span data-ttu-id="cca87-103">HTTP 伺服器範例應用程式</span><span class="sxs-lookup"><span data-stu-id="cca87-103">HTTP Server Sample Application</span></span>
 
-<span data-ttu-id="da74d-104">下列範例應用程式顯示如何使用 HTTP 伺服器 API 來執行伺服器端工作。</span><span class="sxs-lookup"><span data-stu-id="da74d-104">The following sample application shows how to use the HTTP Server API to perform server-side tasks.</span></span> <span data-ttu-id="da74d-105">第一個範例中包含的 "precomp .h" 檔案包含執行範例所需的所有標頭，例如：</span><span class="sxs-lookup"><span data-stu-id="da74d-105">The "precomp.h" file included in the first example includes all the headers necessary to run the samples, for example:</span></span>
+<span data-ttu-id="cca87-104">下列範例應用程式顯示如何使用 HTTP 伺服器 API 來執行伺服器端工作。</span><span class="sxs-lookup"><span data-stu-id="cca87-104">The following sample application shows how to use the HTTP Server API to perform server-side tasks.</span></span> <span data-ttu-id="cca87-105">第一個範例中包含的 "precomp .h" 檔案包含執行範例所需的所有標頭，例如：</span><span class="sxs-lookup"><span data-stu-id="cca87-105">The "precomp.h" file included in the first example includes all the headers necessary to run the samples, for example:</span></span>
 
 
 ```C++
@@ -38,7 +38,7 @@ ms.locfileid: "103673539"
 
 
 
-## <a name="main-and-preliminaries"></a><span data-ttu-id="da74d-106">Main 和準備工作</span><span class="sxs-lookup"><span data-stu-id="da74d-106">Main and Preliminaries</span></span>
+## <a name="main-and-preliminaries"></a><span data-ttu-id="cca87-106">Main 和準備工作</span><span class="sxs-lookup"><span data-stu-id="cca87-106">Main and Preliminaries</span></span>
 
 
 ```C++
@@ -122,7 +122,7 @@ int __cdecl wmain(
 
 
 
-## <a name="initialize-the-http-service"></a><span data-ttu-id="da74d-107">初始化 HTTP 服務</span><span class="sxs-lookup"><span data-stu-id="da74d-107">Initialize the HTTP Service</span></span>
+## <a name="initialize-the-http-service"></a><span data-ttu-id="cca87-107">初始化 HTTP 服務</span><span class="sxs-lookup"><span data-stu-id="cca87-107">Initialize the HTTP Service</span></span>
 
 
 ```C++
@@ -158,7 +158,7 @@ int __cdecl wmain(
 
 
 
-## <a name="register-the-urls-to-listen-on"></a><span data-ttu-id="da74d-108">註冊要接聽的 Url</span><span class="sxs-lookup"><span data-stu-id="da74d-108">Register the URLs to Listen On</span></span>
+## <a name="register-the-urls-to-listen-on"></a><span data-ttu-id="cca87-108">註冊要接聽的 Url</span><span class="sxs-lookup"><span data-stu-id="cca87-108">Register the URLs to Listen On</span></span>
 
 
 ```C++
@@ -196,7 +196,7 @@ int __cdecl wmain(
 
 
 
-## <a name="call-the-routine-to-receive-a-request"></a><span data-ttu-id="da74d-109">呼叫常式以接收要求</span><span class="sxs-lookup"><span data-stu-id="da74d-109">Call the Routine to Receive a Request</span></span>
+## <a name="call-the-routine-to-receive-a-request"></a><span data-ttu-id="cca87-109">呼叫常式以接收要求</span><span class="sxs-lookup"><span data-stu-id="cca87-109">Call the Routine to Receive a Request</span></span>
 
 
 ```C++
@@ -206,7 +206,7 @@ int __cdecl wmain(
 
 
 
-## <a name="cleanup-the-http-server-api"></a><span data-ttu-id="da74d-110">清除 HTTP 伺服器 API</span><span class="sxs-lookup"><span data-stu-id="da74d-110">Cleanup the HTTP Server API</span></span>
+## <a name="cleanup-the-http-server-api"></a><span data-ttu-id="cca87-110">清除 HTTP 伺服器 API</span><span class="sxs-lookup"><span data-stu-id="cca87-110">Cleanup the HTTP Server API</span></span>
 
 
 ```C++
@@ -241,7 +241,7 @@ CleanUp:
 
 
 
-## <a name="receive-a-request"></a><span data-ttu-id="da74d-111">接收要求</span><span class="sxs-lookup"><span data-stu-id="da74d-111">Receive a Request</span></span>
+## <a name="receive-a-request"></a><span data-ttu-id="cca87-111">接收要求</span><span class="sxs-lookup"><span data-stu-id="cca87-111">Receive a Request</span></span>
 
 
 ```C++
@@ -309,7 +309,7 @@ DWORD DoReceiveRequests(
 
 
 
-## <a name="handle-the-http-request"></a><span data-ttu-id="da74d-112">處理 HTTP 要求</span><span class="sxs-lookup"><span data-stu-id="da74d-112">Handle the HTTP Request</span></span>
+## <a name="handle-the-http-request"></a><span data-ttu-id="cca87-112">處理 HTTP 要求</span><span class="sxs-lookup"><span data-stu-id="cca87-112">Handle the HTTP Request</span></span>
 
 
 ```C++
@@ -422,7 +422,7 @@ DWORD DoReceiveRequests(
 
 
 
-## <a name="send-an-http-response"></a><span data-ttu-id="da74d-113">傳送 HTTP 回應</span><span class="sxs-lookup"><span data-stu-id="da74d-113">Send an HTTP Response</span></span>
+## <a name="send-an-http-response"></a><span data-ttu-id="cca87-113">傳送 HTTP 回應</span><span class="sxs-lookup"><span data-stu-id="cca87-113">Send an HTTP Response</span></span>
 
 
 ```C++
@@ -508,7 +508,7 @@ DWORD SendHttpResponse(
 
 
 
-## <a name="send-an-http-post-response"></a><span data-ttu-id="da74d-114">傳送 HTTP POST 回應</span><span class="sxs-lookup"><span data-stu-id="da74d-114">Send an HTTP POST Response</span></span>
+## <a name="send-an-http-post-response"></a><span data-ttu-id="cca87-114">傳送 HTTP POST 回應</span><span class="sxs-lookup"><span data-stu-id="cca87-114">Send an HTTP POST Response</span></span>
 
 
 ```C++

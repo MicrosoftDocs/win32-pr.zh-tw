@@ -14,20 +14,20 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671131"
 ---
-# <a name="packcpp"></a><span data-ttu-id="28636-104">包。Cpp</span><span class="sxs-lookup"><span data-stu-id="28636-104">PACK.CPP</span></span>
+# <a name="packcpp"></a><span data-ttu-id="3eee7-104">包。Cpp</span><span class="sxs-lookup"><span data-stu-id="3eee7-104">PACK.CPP</span></span>
 
-<span data-ttu-id="28636-105">在範例提供者元件中，會在 pack 中找到封裝和解壓縮資料類型的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="28636-105">In the example provider component, a code example of packing and unpacking data types into VARIANTs is found in pack.cpp.</span></span> <span data-ttu-id="28636-106">當屬性已載入或從屬性快取中移除時，會使用下列函式：</span><span class="sxs-lookup"><span data-stu-id="28636-106">The following functions are used when properties are loaded to, and removed from, the property cache:</span></span>
+<span data-ttu-id="3eee7-105">在範例提供者元件中，會在 pack 中找到封裝和解壓縮資料類型的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="3eee7-105">In the example provider component, a code example of packing and unpacking data types into VARIANTs is found in pack.cpp.</span></span> <span data-ttu-id="3eee7-106">當屬性已載入或從屬性快取中移除時，會使用下列函式：</span><span class="sxs-lookup"><span data-stu-id="3eee7-106">The following functions are used when properties are loaded to, and removed from, the property cache:</span></span>
 
--   <span data-ttu-id="28636-107">**PackStringinVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-107">**PackStringinVariant**</span></span>
--   <span data-ttu-id="28636-108">**UnpackStringinVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-108">**UnpackStringinVariant**</span></span>
--   <span data-ttu-id="28636-109">**PackLONGinVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-109">**PackLONGinVariant**</span></span>
--   <span data-ttu-id="28636-110">**UnpackLONGfromVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-110">**UnpackLONGfromVariant**</span></span>
--   <span data-ttu-id="28636-111">**PackDATEinVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-111">**PackDATEinVariant**</span></span>
--   <span data-ttu-id="28636-112">**UnpackDATEinVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-112">**UnpackDATEinVariant**</span></span>
--   <span data-ttu-id="28636-113">**PackVARIANT \_ BOOLinVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-113">**PackVARIANT\_BOOLinVariant**</span></span>
--   <span data-ttu-id="28636-114">**UnpackVARIANT \_ BOOLfromVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-114">**UnpackVARIANT\_BOOLfromVariant**</span></span>
--   <span data-ttu-id="28636-115">**PackVARIANTinVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-115">**PackVARIANTinVariant**</span></span>
--   <span data-ttu-id="28636-116">**UnpackVARIANTfromVariant**</span><span class="sxs-lookup"><span data-stu-id="28636-116">**UnpackVARIANTfromVariant**</span></span>
+-   <span data-ttu-id="3eee7-107">**PackStringinVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-107">**PackStringinVariant**</span></span>
+-   <span data-ttu-id="3eee7-108">**UnpackStringinVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-108">**UnpackStringinVariant**</span></span>
+-   <span data-ttu-id="3eee7-109">**PackLONGinVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-109">**PackLONGinVariant**</span></span>
+-   <span data-ttu-id="3eee7-110">**UnpackLONGfromVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-110">**UnpackLONGfromVariant**</span></span>
+-   <span data-ttu-id="3eee7-111">**PackDATEinVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-111">**PackDATEinVariant**</span></span>
+-   <span data-ttu-id="3eee7-112">**UnpackDATEinVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-112">**UnpackDATEinVariant**</span></span>
+-   <span data-ttu-id="3eee7-113">**PackVARIANT \_ BOOLinVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-113">**PackVARIANT\_BOOLinVariant**</span></span>
+-   <span data-ttu-id="3eee7-114">**UnpackVARIANT \_ BOOLfromVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-114">**UnpackVARIANT\_BOOLfromVariant**</span></span>
+-   <span data-ttu-id="3eee7-115">**PackVARIANTinVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-115">**PackVARIANTinVariant**</span></span>
+-   <span data-ttu-id="3eee7-116">**UnpackVARIANTfromVariant**</span><span class="sxs-lookup"><span data-stu-id="3eee7-116">**UnpackVARIANTfromVariant**</span></span>
 
  
 

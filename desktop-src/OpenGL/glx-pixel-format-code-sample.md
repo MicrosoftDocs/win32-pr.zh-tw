@@ -17,9 +17,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671411"
 ---
-# <a name="glx-pixel-format-code-sample"></a><span data-ttu-id="19e1c-108">GLX 像素格式的程式碼範例</span><span class="sxs-lookup"><span data-stu-id="19e1c-108">GLX Pixel Format Code Sample</span></span>
+# <a name="glx-pixel-format-code-sample"></a><span data-ttu-id="c26e7-108">GLX 像素格式的程式碼範例</span><span class="sxs-lookup"><span data-stu-id="c26e7-108">GLX Pixel Format Code Sample</span></span>
 
-<span data-ttu-id="19e1c-109">下列程式碼範例顯示 X 視窗系統 OpenGL 程式如何使用 GLX 的視覺化/像素格式函式。</span><span class="sxs-lookup"><span data-stu-id="19e1c-109">The code sample below shows how an X Window System OpenGL program uses GLX visual/pixel formatting functions.</span></span>
+<span data-ttu-id="c26e7-109">下列程式碼範例顯示 X 視窗系統 OpenGL 程式如何使用 GLX 的視覺化/像素格式函式。</span><span class="sxs-lookup"><span data-stu-id="c26e7-109">The code sample below shows how an X Window System OpenGL program uses GLX visual/pixel formatting functions.</span></span>
 
 
 ```C++
@@ -38,7 +38,7 @@ static int attributes[] = {GLX_DEPTH_SIZE, 16, GLX_DOUBLEBUFFER, None};
 
 
 
-<span data-ttu-id="19e1c-110">視覺效果可以用來建立視窗和轉譯內容。</span><span class="sxs-lookup"><span data-stu-id="19e1c-110">The Visual can be used to create a window and a rendering context.</span></span>
+<span data-ttu-id="c26e7-110">視覺效果可以用來建立視窗和轉譯內容。</span><span class="sxs-lookup"><span data-stu-id="c26e7-110">The Visual can be used to create a window and a rendering context.</span></span>
 
  
 

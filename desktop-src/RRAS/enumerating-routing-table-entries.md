@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103840159"
 ---
-# <a name="enumerating-routing-table-entries"></a><span data-ttu-id="dc8bb-104">列舉路由表專案</span><span class="sxs-lookup"><span data-stu-id="dc8bb-104">Enumerating Routing Table Entries</span></span>
+# <a name="enumerating-routing-table-entries"></a><span data-ttu-id="85824-104">列舉路由表專案</span><span class="sxs-lookup"><span data-stu-id="85824-104">Enumerating Routing Table Entries</span></span>
 
-<span data-ttu-id="dc8bb-105">列舉函數可讓用戶端取得特定類型的路由表物件 (路由、目的地和下一個躍點) 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="dc8bb-105">The enumeration functions allow a client to retrieve information about a specific type of routing table object (routes, destinations, and next hops).</span></span> <span data-ttu-id="dc8bb-106">路由通訊協定和系統管理程式都可以使用這些函式來找出特定資料。</span><span class="sxs-lookup"><span data-stu-id="dc8bb-106">Both routing protocols and administration programs can use these functions to locate specific data.</span></span>
+<span data-ttu-id="85824-105">列舉函數可讓用戶端取得特定類型的路由表物件 (路由、目的地和下一個躍點) 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="85824-105">The enumeration functions allow a client to retrieve information about a specific type of routing table object (routes, destinations, and next hops).</span></span> <span data-ttu-id="85824-106">路由通訊協定和系統管理程式都可以使用這些函式來找出特定資料。</span><span class="sxs-lookup"><span data-stu-id="85824-106">Both routing protocols and administration programs can use these functions to locate specific data.</span></span>
 
-<span data-ttu-id="dc8bb-107">如需示範如何使用這些函數的範例程式碼，請參閱 [列舉所有目的地](enumerate-all-destinations.md) 和 [列舉所有路由](enumerate-all-routes.md)。</span><span class="sxs-lookup"><span data-stu-id="dc8bb-107">For sample code that shows how to use these functions, see [Enumerate All Destinations](enumerate-all-destinations.md) and [Enumerate All Routes](enumerate-all-routes.md).</span></span>
+<span data-ttu-id="85824-107">如需示範如何使用這些函數的範例程式碼，請參閱 [列舉所有目的地](enumerate-all-destinations.md) 和 [列舉所有路由](enumerate-all-routes.md)。</span><span class="sxs-lookup"><span data-stu-id="85824-107">For sample code that shows how to use these functions, see [Enumerate All Destinations](enumerate-all-destinations.md) and [Enumerate All Routes](enumerate-all-routes.md).</span></span>
 
  
 

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674020"
 ---
-# <a name="cc-code-example-retrieving-trigger-strings"></a><span data-ttu-id="2f220-103">C/c + + 程式碼範例：正在抓取觸發字串</span><span class="sxs-lookup"><span data-stu-id="2f220-103">C/C++ Code Example: Retrieving Trigger Strings</span></span>
+# <a name="cc-code-example-retrieving-trigger-strings"></a><span data-ttu-id="380fb-103">C/c + + 程式碼範例：正在抓取觸發字串</span><span class="sxs-lookup"><span data-stu-id="380fb-103">C/C++ Code Example: Retrieving Trigger Strings</span></span>
 
-<span data-ttu-id="2f220-104">此範例會針對與已知工作相關聯的所有觸發程式，抓取觸發程式字串。</span><span class="sxs-lookup"><span data-stu-id="2f220-104">This example retrieves a trigger string for all the triggers associated with a known task.</span></span>
+<span data-ttu-id="380fb-104">此範例會針對與已知工作相關聯的所有觸發程式，抓取觸發程式字串。</span><span class="sxs-lookup"><span data-stu-id="380fb-104">This example retrieves a trigger string for all the triggers associated with a known task.</span></span>
 
 
 ```C++
@@ -134,11 +134,11 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="2f220-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="2f220-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="380fb-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="380fb-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2f220-106">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="2f220-106">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
+[<span data-ttu-id="380fb-106">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="380fb-106">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
  

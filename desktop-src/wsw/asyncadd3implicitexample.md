@@ -15,13 +15,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673927"
 ---
-# <a name="asyncadd3implicitexample"></a><span data-ttu-id="28793-106">AsyncAdd3ImplicitExample</span><span class="sxs-lookup"><span data-stu-id="28793-106">AsyncAdd3ImplicitExample</span></span>
+# <a name="asyncadd3implicitexample"></a><span data-ttu-id="57728-106">AsyncAdd3ImplicitExample</span><span class="sxs-lookup"><span data-stu-id="57728-106">AsyncAdd3ImplicitExample</span></span>
 
-<span data-ttu-id="28793-107">此範例說明如何使用 [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute)來執行複雜的非同步函式。</span><span class="sxs-lookup"><span data-stu-id="28793-107">This example illustrates implementing a complex asynchronous function using [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute).</span></span>
+<span data-ttu-id="57728-107">此範例說明如何使用 [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute)來執行複雜的非同步函式。</span><span class="sxs-lookup"><span data-stu-id="57728-107">This example illustrates implementing a complex asynchronous function using [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute).</span></span>
 
-<span data-ttu-id="28793-108">此範例會執行非同步函式 ' AddThree '，此函式會藉由建立可非同步新增兩個整數的現有 Add 函數，將三個整數相加。</span><span class="sxs-lookup"><span data-stu-id="28793-108">The example implements an asynchronous function 'AddThree' which adds three integers together by building upon an existing Add function which can add two integers asynchronously.</span></span>
+<span data-ttu-id="57728-108">此範例會執行非同步函式 ' AddThree '，此函式會藉由建立可非同步新增兩個整數的現有 Add 函數，將三個整數相加。</span><span class="sxs-lookup"><span data-stu-id="57728-108">The example implements an asynchronous function 'AddThree' which adds three integers together by building upon an existing Add function which can add two integers asynchronously.</span></span>
 
-## <a name="asyncadd3implicitcpp"></a><span data-ttu-id="28793-109">AsyncAdd3Implicit .cpp</span><span class="sxs-lookup"><span data-stu-id="28793-109">AsyncAdd3Implicit.cpp</span></span>
+## <a name="asyncadd3implicitcpp"></a><span data-ttu-id="57728-109">AsyncAdd3Implicit .cpp</span><span class="sxs-lookup"><span data-stu-id="57728-109">AsyncAdd3Implicit.cpp</span></span>
 
 
 ```C++

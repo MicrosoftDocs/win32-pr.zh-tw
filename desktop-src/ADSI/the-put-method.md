@@ -16,9 +16,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839123"
 ---
-# <a name="the-put-method"></a><span data-ttu-id="17a55-106">Put 方法</span><span class="sxs-lookup"><span data-stu-id="17a55-106">The Put Method</span></span>
+# <a name="the-put-method"></a><span data-ttu-id="9ef05-106">Put 方法</span><span class="sxs-lookup"><span data-stu-id="9ef05-106">The Put Method</span></span>
 
-<span data-ttu-id="17a55-107">[**IADs：:P**](/windows/desktop/api/Iads/nf-iads-iads-put) ui 方法會依名稱將 Active Directory 物件的屬性值儲存至屬性快取中。</span><span class="sxs-lookup"><span data-stu-id="17a55-107">The [**IADs::Put**](/windows/desktop/api/Iads/nf-iads-iads-put) method saves the value for a property for an Active Directory object by name into the property cache.</span></span> <span data-ttu-id="17a55-108">使用 [**IADs：:P utex**](/windows/desktop/api/Iads/nf-iads-iads-putex) 將多重值屬性儲存至屬性快取，或從物件中移除屬性。</span><span class="sxs-lookup"><span data-stu-id="17a55-108">Use [**IADs::PutEx**](/windows/desktop/api/Iads/nf-iads-iads-putex) to save multi-valued properties to the property cache, or to remove a property from an object.</span></span> <span data-ttu-id="17a55-109">在呼叫 [**IADs：： SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) 之前，這些值不會保存到基礎目錄服務。</span><span class="sxs-lookup"><span data-stu-id="17a55-109">These values are not persisted to the underlying directory service until [**IADs::SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) is called.</span></span>
+<span data-ttu-id="9ef05-107">[**IADs：:P**](/windows/desktop/api/Iads/nf-iads-iads-put) ui 方法會依名稱將 Active Directory 物件的屬性值儲存至屬性快取中。</span><span class="sxs-lookup"><span data-stu-id="9ef05-107">The [**IADs::Put**](/windows/desktop/api/Iads/nf-iads-iads-put) method saves the value for a property for an Active Directory object by name into the property cache.</span></span> <span data-ttu-id="9ef05-108">使用 [**IADs：:P utex**](/windows/desktop/api/Iads/nf-iads-iads-putex) 將多重值屬性儲存至屬性快取，或從物件中移除屬性。</span><span class="sxs-lookup"><span data-stu-id="9ef05-108">Use [**IADs::PutEx**](/windows/desktop/api/Iads/nf-iads-iads-putex) to save multi-valued properties to the property cache, or to remove a property from an object.</span></span> <span data-ttu-id="9ef05-109">在呼叫 [**IADs：： SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) 之前，這些值不會保存到基礎目錄服務。</span><span class="sxs-lookup"><span data-stu-id="9ef05-109">These values are not persisted to the underlying directory service until [**IADs::SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) is called.</span></span>
 
 
 ```VB
@@ -53,7 +53,7 @@ End Sub
 
 
 
-<span data-ttu-id="17a55-110">下列程式碼範例示範如何搭配單一值使用 [**IADs：:P 的內容**](/windows/desktop/api/Iads/nf-iads-iads-put) ：</span><span class="sxs-lookup"><span data-stu-id="17a55-110">The following code example shows how to use [**IADs::Put**](/windows/desktop/api/Iads/nf-iads-iads-put) with a single value:</span></span>
+<span data-ttu-id="9ef05-110">下列程式碼範例示範如何搭配單一值使用 [**IADs：:P 的內容**](/windows/desktop/api/Iads/nf-iads-iads-put) ：</span><span class="sxs-lookup"><span data-stu-id="9ef05-110">The following code example shows how to use [**IADs::Put**](/windows/desktop/api/Iads/nf-iads-iads-put) with a single value:</span></span>
 
 
 ```VB
@@ -82,7 +82,7 @@ CleanUp:
 
 
 
-<span data-ttu-id="17a55-111">下列程式碼範例示範如何使用 [**IADs：**](/windows/desktop/api/Iads/nf-iads-iads-put) 具有多個值的:P 長時間：</span><span class="sxs-lookup"><span data-stu-id="17a55-111">The following code example shows how to use [**IADs::Put**](/windows/desktop/api/Iads/nf-iads-iads-put) with multiple values:</span></span>
+<span data-ttu-id="9ef05-111">下列程式碼範例示範如何使用 [**IADs：**](/windows/desktop/api/Iads/nf-iads-iads-put) 具有多個值的:P 長時間：</span><span class="sxs-lookup"><span data-stu-id="9ef05-111">The following code example shows how to use [**IADs::Put**](/windows/desktop/api/Iads/nf-iads-iads-put) with multiple values:</span></span>
 
 
 ```VB
@@ -115,7 +115,7 @@ CleanUp:
 
 
 
-<span data-ttu-id="17a55-112">下列程式碼範例示範如何使用 [**IADs：**](/windows/desktop/api/Iads/nf-iads-iads-put) 具有多個值和單一值的:P 長時間：</span><span class="sxs-lookup"><span data-stu-id="17a55-112">The following code example shows how to use [**IADs::Put**](/windows/desktop/api/Iads/nf-iads-iads-put) with both multiple and single values:</span></span>
+<span data-ttu-id="9ef05-112">下列程式碼範例示範如何使用 [**IADs：**](/windows/desktop/api/Iads/nf-iads-iads-put) 具有多個值和單一值的:P 長時間：</span><span class="sxs-lookup"><span data-stu-id="9ef05-112">The following code example shows how to use [**IADs::Put**](/windows/desktop/api/Iads/nf-iads-iads-put) with both multiple and single values:</span></span>
 
 
 ```C++

@@ -16,11 +16,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674084"
 ---
-# <a name="logfileitem-properties"></a><span data-ttu-id="2591b-103">LogFileItem 屬性</span><span class="sxs-lookup"><span data-stu-id="2591b-103">LogFileItem Properties</span></span>
+# <a name="logfileitem-properties"></a><span data-ttu-id="a1597-103">LogFileItem 屬性</span><span class="sxs-lookup"><span data-stu-id="a1597-103">LogFileItem Properties</span></span>
 
-<span data-ttu-id="2591b-104">[**LogFileItem**](logfileitem.md)類別具有下列屬性：</span><span class="sxs-lookup"><span data-stu-id="2591b-104">The [**LogFileItem**](logfileitem.md) class has the following property:</span></span>
+<span data-ttu-id="a1597-104">[**LogFileItem**](logfileitem.md)類別具有下列屬性：</span><span class="sxs-lookup"><span data-stu-id="a1597-104">The [**LogFileItem**](logfileitem.md) class has the following property:</span></span>
 
--   [<span data-ttu-id="2591b-105">**路徑**</span><span class="sxs-lookup"><span data-stu-id="2591b-105">**Path**</span></span>](logfileitem-path.md)
+-   [<span data-ttu-id="a1597-105">**路徑**</span><span class="sxs-lookup"><span data-stu-id="a1597-105">**Path**</span></span>](logfileitem-path.md)
 
  
 

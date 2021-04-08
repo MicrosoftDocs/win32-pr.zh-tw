@@ -24,34 +24,34 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674096"
 ---
-# <a name="glrasterpos-functions"></a><span data-ttu-id="22078-115">glRasterPos 函式</span><span class="sxs-lookup"><span data-stu-id="22078-115">glRasterPos Functions</span></span>
+# <a name="glrasterpos-functions"></a><span data-ttu-id="26b92-115">glRasterPos 函式</span><span class="sxs-lookup"><span data-stu-id="26b92-115">glRasterPos Functions</span></span>
 
-<span data-ttu-id="22078-116">這些函數會指定圖元作業的點陣位置：</span><span class="sxs-lookup"><span data-stu-id="22078-116">These functions specify the raster position for pixel operations:</span></span>
+<span data-ttu-id="26b92-116">這些函數會指定圖元作業的點陣位置：</span><span class="sxs-lookup"><span data-stu-id="26b92-116">These functions specify the raster position for pixel operations:</span></span>
 
--   [<span data-ttu-id="22078-117">**glRasterPos2d**</span><span class="sxs-lookup"><span data-stu-id="22078-117">**glRasterPos2d**</span></span>](glrasterpos2d.md)
--   [<span data-ttu-id="22078-118">**glRasterPos2f**</span><span class="sxs-lookup"><span data-stu-id="22078-118">**glRasterPos2f**</span></span>](glrasterpos2f.md)
--   [<span data-ttu-id="22078-119">**glRasterPos2i**</span><span class="sxs-lookup"><span data-stu-id="22078-119">**glRasterPos2i**</span></span>](glrasterpos2i.md)
--   [<span data-ttu-id="22078-120">**glRasterPos2s**</span><span class="sxs-lookup"><span data-stu-id="22078-120">**glRasterPos2s**</span></span>](glrasterpos2s.md)
--   [<span data-ttu-id="22078-121">**glRasterPos3d**</span><span class="sxs-lookup"><span data-stu-id="22078-121">**glRasterPos3d**</span></span>](glrasterpos3d.md)
--   [<span data-ttu-id="22078-122">**glRasterPos3f**</span><span class="sxs-lookup"><span data-stu-id="22078-122">**glRasterPos3f**</span></span>](glrasterpos3f.md)
--   [<span data-ttu-id="22078-123">**glRasterPos3i**</span><span class="sxs-lookup"><span data-stu-id="22078-123">**glRasterPos3i**</span></span>](glrasterpos3i.md)
--   [<span data-ttu-id="22078-124">**glRasterPos3s**</span><span class="sxs-lookup"><span data-stu-id="22078-124">**glRasterPos3s**</span></span>](glrasterpos3s.md)
--   [<span data-ttu-id="22078-125">**glRasterPos4d**</span><span class="sxs-lookup"><span data-stu-id="22078-125">**glRasterPos4d**</span></span>](glrasterpos4d.md)
--   [<span data-ttu-id="22078-126">**glRasterPos4f**</span><span class="sxs-lookup"><span data-stu-id="22078-126">**glRasterPos4f**</span></span>](glrasterpos4f.md)
--   [<span data-ttu-id="22078-127">**glRasterPos4i**</span><span class="sxs-lookup"><span data-stu-id="22078-127">**glRasterPos4i**</span></span>](glrasterpos4i.md)
--   [<span data-ttu-id="22078-128">**glRasterPos4s**</span><span class="sxs-lookup"><span data-stu-id="22078-128">**glRasterPos4s**</span></span>](glrasterpos4s.md)
--   [<span data-ttu-id="22078-129">**glRasterPos2dv**</span><span class="sxs-lookup"><span data-stu-id="22078-129">**glRasterPos2dv**</span></span>](glrasterpos2dv.md)
--   [<span data-ttu-id="22078-130">**glRasterPos2fv**</span><span class="sxs-lookup"><span data-stu-id="22078-130">**glRasterPos2fv**</span></span>](glrasterpos2fv.md)
--   [<span data-ttu-id="22078-131">**glRasterPos2iv**</span><span class="sxs-lookup"><span data-stu-id="22078-131">**glRasterPos2iv**</span></span>](glrasterpos2iv.md)
--   [<span data-ttu-id="22078-132">**glRasterPos2sv**</span><span class="sxs-lookup"><span data-stu-id="22078-132">**glRasterPos2sv**</span></span>](glrasterpos2sv.md)
--   [<span data-ttu-id="22078-133">**glRasterPos3dv**</span><span class="sxs-lookup"><span data-stu-id="22078-133">**glRasterPos3dv**</span></span>](glrasterpos3dv.md)
--   [<span data-ttu-id="22078-134">**glRasterPos3fv**</span><span class="sxs-lookup"><span data-stu-id="22078-134">**glRasterPos3fv**</span></span>](glrasterpos3fv.md)
--   [<span data-ttu-id="22078-135">**glRasterPos3iv**</span><span class="sxs-lookup"><span data-stu-id="22078-135">**glRasterPos3iv**</span></span>](glrasterpos3iv.md)
--   [<span data-ttu-id="22078-136">**glRasterPos3sv**</span><span class="sxs-lookup"><span data-stu-id="22078-136">**glRasterPos3sv**</span></span>](glrasterpos3sv.md)
--   [<span data-ttu-id="22078-137">**glRasterPos4dv**</span><span class="sxs-lookup"><span data-stu-id="22078-137">**glRasterPos4dv**</span></span>](glrasterpos4dv.md)
--   [<span data-ttu-id="22078-138">**glRasterPos4fv**</span><span class="sxs-lookup"><span data-stu-id="22078-138">**glRasterPos4fv**</span></span>](glrasterpos4fv.md)
--   [<span data-ttu-id="22078-139">**glRasterPos4iv**</span><span class="sxs-lookup"><span data-stu-id="22078-139">**glRasterPos4iv**</span></span>](glrasterpos4iv.md)
--   [<span data-ttu-id="22078-140">**glRasterPos4sv**</span><span class="sxs-lookup"><span data-stu-id="22078-140">**glRasterPos4sv**</span></span>](glrasterpos4sv.md)
+-   [<span data-ttu-id="26b92-117">**glRasterPos2d**</span><span class="sxs-lookup"><span data-stu-id="26b92-117">**glRasterPos2d**</span></span>](glrasterpos2d.md)
+-   [<span data-ttu-id="26b92-118">**glRasterPos2f**</span><span class="sxs-lookup"><span data-stu-id="26b92-118">**glRasterPos2f**</span></span>](glrasterpos2f.md)
+-   [<span data-ttu-id="26b92-119">**glRasterPos2i**</span><span class="sxs-lookup"><span data-stu-id="26b92-119">**glRasterPos2i**</span></span>](glrasterpos2i.md)
+-   [<span data-ttu-id="26b92-120">**glRasterPos2s**</span><span class="sxs-lookup"><span data-stu-id="26b92-120">**glRasterPos2s**</span></span>](glrasterpos2s.md)
+-   [<span data-ttu-id="26b92-121">**glRasterPos3d**</span><span class="sxs-lookup"><span data-stu-id="26b92-121">**glRasterPos3d**</span></span>](glrasterpos3d.md)
+-   [<span data-ttu-id="26b92-122">**glRasterPos3f**</span><span class="sxs-lookup"><span data-stu-id="26b92-122">**glRasterPos3f**</span></span>](glrasterpos3f.md)
+-   [<span data-ttu-id="26b92-123">**glRasterPos3i**</span><span class="sxs-lookup"><span data-stu-id="26b92-123">**glRasterPos3i**</span></span>](glrasterpos3i.md)
+-   [<span data-ttu-id="26b92-124">**glRasterPos3s**</span><span class="sxs-lookup"><span data-stu-id="26b92-124">**glRasterPos3s**</span></span>](glrasterpos3s.md)
+-   [<span data-ttu-id="26b92-125">**glRasterPos4d**</span><span class="sxs-lookup"><span data-stu-id="26b92-125">**glRasterPos4d**</span></span>](glrasterpos4d.md)
+-   [<span data-ttu-id="26b92-126">**glRasterPos4f**</span><span class="sxs-lookup"><span data-stu-id="26b92-126">**glRasterPos4f**</span></span>](glrasterpos4f.md)
+-   [<span data-ttu-id="26b92-127">**glRasterPos4i**</span><span class="sxs-lookup"><span data-stu-id="26b92-127">**glRasterPos4i**</span></span>](glrasterpos4i.md)
+-   [<span data-ttu-id="26b92-128">**glRasterPos4s**</span><span class="sxs-lookup"><span data-stu-id="26b92-128">**glRasterPos4s**</span></span>](glrasterpos4s.md)
+-   [<span data-ttu-id="26b92-129">**glRasterPos2dv**</span><span class="sxs-lookup"><span data-stu-id="26b92-129">**glRasterPos2dv**</span></span>](glrasterpos2dv.md)
+-   [<span data-ttu-id="26b92-130">**glRasterPos2fv**</span><span class="sxs-lookup"><span data-stu-id="26b92-130">**glRasterPos2fv**</span></span>](glrasterpos2fv.md)
+-   [<span data-ttu-id="26b92-131">**glRasterPos2iv**</span><span class="sxs-lookup"><span data-stu-id="26b92-131">**glRasterPos2iv**</span></span>](glrasterpos2iv.md)
+-   [<span data-ttu-id="26b92-132">**glRasterPos2sv**</span><span class="sxs-lookup"><span data-stu-id="26b92-132">**glRasterPos2sv**</span></span>](glrasterpos2sv.md)
+-   [<span data-ttu-id="26b92-133">**glRasterPos3dv**</span><span class="sxs-lookup"><span data-stu-id="26b92-133">**glRasterPos3dv**</span></span>](glrasterpos3dv.md)
+-   [<span data-ttu-id="26b92-134">**glRasterPos3fv**</span><span class="sxs-lookup"><span data-stu-id="26b92-134">**glRasterPos3fv**</span></span>](glrasterpos3fv.md)
+-   [<span data-ttu-id="26b92-135">**glRasterPos3iv**</span><span class="sxs-lookup"><span data-stu-id="26b92-135">**glRasterPos3iv**</span></span>](glrasterpos3iv.md)
+-   [<span data-ttu-id="26b92-136">**glRasterPos3sv**</span><span class="sxs-lookup"><span data-stu-id="26b92-136">**glRasterPos3sv**</span></span>](glrasterpos3sv.md)
+-   [<span data-ttu-id="26b92-137">**glRasterPos4dv**</span><span class="sxs-lookup"><span data-stu-id="26b92-137">**glRasterPos4dv**</span></span>](glrasterpos4dv.md)
+-   [<span data-ttu-id="26b92-138">**glRasterPos4fv**</span><span class="sxs-lookup"><span data-stu-id="26b92-138">**glRasterPos4fv**</span></span>](glrasterpos4fv.md)
+-   [<span data-ttu-id="26b92-139">**glRasterPos4iv**</span><span class="sxs-lookup"><span data-stu-id="26b92-139">**glRasterPos4iv**</span></span>](glrasterpos4iv.md)
+-   [<span data-ttu-id="26b92-140">**glRasterPos4sv**</span><span class="sxs-lookup"><span data-stu-id="26b92-140">**glRasterPos4sv**</span></span>](glrasterpos4sv.md)
 
  
 

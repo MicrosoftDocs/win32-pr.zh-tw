@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839835"
 ---
-# <a name="setting-up-a-simple-sha"></a><span data-ttu-id="5a428-103">設定簡單的 SHA</span><span class="sxs-lookup"><span data-stu-id="5a428-103">Setting Up a Simple SHA</span></span>
+# <a name="setting-up-a-simple-sha"></a><span data-ttu-id="d2e98-103">設定簡單的 SHA</span><span class="sxs-lookup"><span data-stu-id="d2e98-103">Setting Up a Simple SHA</span></span>
 
 > [!Note]  
-> <span data-ttu-id="5a428-104">從 Windows 10 開始，無法使用網路存取保護平臺</span><span class="sxs-lookup"><span data-stu-id="5a428-104">The Network Access Protection platform is not available starting with Windows 10</span></span>
+> <span data-ttu-id="d2e98-104">從 Windows 10 開始，無法使用網路存取保護平臺</span><span class="sxs-lookup"><span data-stu-id="d2e98-104">The Network Access Protection platform is not available starting with Windows 10</span></span>
 
  
 
-<span data-ttu-id="5a428-105">下列範例會設定簡單的系統健康情況代理程式 (SHA) ，並顯示兩個選擇性動作：健全狀況的聲明 (SoH) 變更通知和 SoH 快取排清。</span><span class="sxs-lookup"><span data-stu-id="5a428-105">The following example sets up a simple system health agent (SHA) and shows two optional actions: Statement of Health (SoH) change notification and flushing of the SoH cache.</span></span> <span data-ttu-id="5a428-106">請注意，在此範例中，錯誤處理不會包含在主要 () 函數中。</span><span class="sxs-lookup"><span data-stu-id="5a428-106">Note that error processing is not included in the main() function for simplicity of this example.</span></span>
+<span data-ttu-id="d2e98-105">下列範例會設定簡單的系統健康情況代理程式 (SHA) ，並顯示兩個選擇性動作：健全狀況的聲明 (SoH) 變更通知和 SoH 快取排清。</span><span class="sxs-lookup"><span data-stu-id="d2e98-105">The following example sets up a simple system health agent (SHA) and shows two optional actions: Statement of Health (SoH) change notification and flushing of the SoH cache.</span></span> <span data-ttu-id="d2e98-106">請注意，在此範例中，錯誤處理不會包含在主要 () 函數中。</span><span class="sxs-lookup"><span data-stu-id="d2e98-106">Note that error processing is not included in the main() function for simplicity of this example.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="5a428-107">NAP SDK 也包含一組完整的範例程式碼，可在中 \\ 找到。範例 \\ NetDS \\ NAP .。。SDK 安裝的目錄。</span><span class="sxs-lookup"><span data-stu-id="5a428-107">The NAP SDK also contains a full set of sample code, found in the ...\\Samples\\NetDS\\NAP... directory of your SDK installation.</span></span> <span data-ttu-id="5a428-108">此範例集包含 SHA、系統健全狀況驗證程式 (SHV) 和強制用戶端 (EC) 。</span><span class="sxs-lookup"><span data-stu-id="5a428-108">This sample set includes an SHA, system health validator (SHV), and enforcement client (EC).</span></span> <span data-ttu-id="5a428-109">它有完整的工作 NAP 案例，可設定 SHA-SHV 與 SHA-1 之間的通訊。</span><span class="sxs-lookup"><span data-stu-id="5a428-109">It has full working NAP scenarios setting up communication between SHA-SHV and SHA-EC.</span></span>
+> <span data-ttu-id="d2e98-107">NAP SDK 也包含一組完整的範例程式碼，可在中 \\ 找到。範例 \\ NetDS \\ NAP .。。SDK 安裝的目錄。</span><span class="sxs-lookup"><span data-stu-id="d2e98-107">The NAP SDK also contains a full set of sample code, found in the ...\\Samples\\NetDS\\NAP... directory of your SDK installation.</span></span> <span data-ttu-id="d2e98-108">此範例集包含 SHA、系統健全狀況驗證程式 (SHV) 和強制用戶端 (EC) 。</span><span class="sxs-lookup"><span data-stu-id="d2e98-108">This sample set includes an SHA, system health validator (SHV), and enforcement client (EC).</span></span> <span data-ttu-id="d2e98-109">它有完整的工作 NAP 案例，可設定 SHA-SHV 與 SHA-1 之間的通訊。</span><span class="sxs-lookup"><span data-stu-id="d2e98-109">It has full working NAP scenarios setting up communication between SHA-SHV and SHA-EC.</span></span>
 
  
 

@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673835"
 ---
-# <a name="glgetmaterial-functions"></a><span data-ttu-id="cac52-103">glGetMaterial 函式</span><span class="sxs-lookup"><span data-stu-id="cac52-103">glGetMaterial Functions</span></span>
+# <a name="glgetmaterial-functions"></a><span data-ttu-id="a5c85-103">glGetMaterial 函式</span><span class="sxs-lookup"><span data-stu-id="a5c85-103">glGetMaterial Functions</span></span>
 
-<span data-ttu-id="cac52-104">這些函數會傳回材質參數：</span><span class="sxs-lookup"><span data-stu-id="cac52-104">These functions return material parameters:</span></span>
+<span data-ttu-id="a5c85-104">這些函數會傳回材質參數：</span><span class="sxs-lookup"><span data-stu-id="a5c85-104">These functions return material parameters:</span></span>
 
--   [<span data-ttu-id="cac52-105">**glGetMaterialfv**</span><span class="sxs-lookup"><span data-stu-id="cac52-105">**glGetMaterialfv**</span></span>](glgetmaterialfv.md)
--   [<span data-ttu-id="cac52-106">**glGetMaterialiv**</span><span class="sxs-lookup"><span data-stu-id="cac52-106">**glGetMaterialiv**</span></span>](glgetmaterialiv.md)
+-   [<span data-ttu-id="a5c85-105">**glGetMaterialfv**</span><span class="sxs-lookup"><span data-stu-id="a5c85-105">**glGetMaterialfv**</span></span>](glgetmaterialfv.md)
+-   [<span data-ttu-id="a5c85-106">**glGetMaterialiv**</span><span class="sxs-lookup"><span data-stu-id="a5c85-106">**glGetMaterialiv**</span></span>](glgetmaterialiv.md)
 
  
 

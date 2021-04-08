@@ -12,11 +12,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839140"
 ---
-# <a name="reading-the-schema"></a><span data-ttu-id="05a38-103">讀取架構</span><span class="sxs-lookup"><span data-stu-id="05a38-103">Reading the Schema</span></span>
+# <a name="reading-the-schema"></a><span data-ttu-id="eefbf-103">讀取架構</span><span class="sxs-lookup"><span data-stu-id="eefbf-103">Reading the Schema</span></span>
 
-<span data-ttu-id="05a38-104">大部分的提供者都支援隨附于 Active Directory 的架構。</span><span class="sxs-lookup"><span data-stu-id="05a38-104">Most providers support the schema that is shipped with Active Directory.</span></span> <span data-ttu-id="05a38-105">架構包含類別和屬性定義。</span><span class="sxs-lookup"><span data-stu-id="05a38-105">The schema contains class and attribute definitions.</span></span> <span data-ttu-id="05a38-106">ADSI 會將 "Provider://schema" 中的架構抽象化。</span><span class="sxs-lookup"><span data-stu-id="05a38-106">ADSI abstracts the schema in "Provider://schema".</span></span> <span data-ttu-id="05a38-107">每個物件都會攜帶其類別定義所在的架構位置。</span><span class="sxs-lookup"><span data-stu-id="05a38-107">Each object carries the schema location in which its class is defined.</span></span> <span data-ttu-id="05a38-108">您可以使用 [**IADs：： get \_ 類別**](iads-property-methods.md) 屬性方法來取得此資訊。</span><span class="sxs-lookup"><span data-stu-id="05a38-108">You can use the [**IADs::get\_Class**](iads-property-methods.md) property method to obtain this information.</span></span>
+<span data-ttu-id="eefbf-104">大部分的提供者都支援隨附于 Active Directory 的架構。</span><span class="sxs-lookup"><span data-stu-id="eefbf-104">Most providers support the schema that is shipped with Active Directory.</span></span> <span data-ttu-id="eefbf-105">架構包含類別和屬性定義。</span><span class="sxs-lookup"><span data-stu-id="eefbf-105">The schema contains class and attribute definitions.</span></span> <span data-ttu-id="eefbf-106">ADSI 會將 "Provider://schema" 中的架構抽象化。</span><span class="sxs-lookup"><span data-stu-id="eefbf-106">ADSI abstracts the schema in "Provider://schema".</span></span> <span data-ttu-id="eefbf-107">每個物件都會攜帶其類別定義所在的架構位置。</span><span class="sxs-lookup"><span data-stu-id="eefbf-107">Each object carries the schema location in which its class is defined.</span></span> <span data-ttu-id="eefbf-108">您可以使用 [**IADs：： get \_ 類別**](iads-property-methods.md) 屬性方法來取得此資訊。</span><span class="sxs-lookup"><span data-stu-id="eefbf-108">You can use the [**IADs::get\_Class**](iads-property-methods.md) property method to obtain this information.</span></span>
 
-<span data-ttu-id="05a38-109">若要系結至特定網域上的架構容器，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="05a38-109">To bind to the schema container on a particular domain, do the following:</span></span>
+<span data-ttu-id="eefbf-109">若要系結至特定網域上的架構容器，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="eefbf-109">To bind to the schema container on a particular domain, do the following:</span></span>
 
 
 ```VB
@@ -34,7 +34,7 @@ hr = ADsGetObject(L&quot;LDAP://Fabrikam/Schema&quot;, IID_IADsContainer, (void*
 
 
 
-<span data-ttu-id="05a38-110">若要列出架構容器中的資訊，請系結至容器，並列舉容器中的每個物件，如下所示：</span><span class="sxs-lookup"><span data-stu-id="05a38-110">To list information in the schema container, bind to the container and enumerate each object in the container as shown in the following:</span></span>
+<span data-ttu-id="eefbf-110">若要列出架構容器中的資訊，請系結至容器，並列舉容器中的每個物件，如下所示：</span><span class="sxs-lookup"><span data-stu-id="eefbf-110">To list information in the schema container, bind to the container and enumerate each object in the container as shown in the following:</span></span>
 
 
 ```VB
@@ -113,7 +113,7 @@ IADsContainer *pSchema=NULL;
 
 
 
-<span data-ttu-id="05a38-111">您也可以系結至物件並取得架構位置，如下所示：</span><span class="sxs-lookup"><span data-stu-id="05a38-111">You can also bind to an object and get the schema location, as shown in the following:</span></span>
+<span data-ttu-id="eefbf-111">您也可以系結至物件並取得架構位置，如下所示：</span><span class="sxs-lookup"><span data-stu-id="eefbf-111">You can also bind to an object and get the schema location, as shown in the following:</span></span>
 
 
 ```VB

@@ -14,14 +14,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839147"
 ---
-# <a name="property-cache-interfaces"></a><span data-ttu-id="7c7df-104">屬性快取介面</span><span class="sxs-lookup"><span data-stu-id="7c7df-104">Property Cache Interfaces</span></span>
+# <a name="property-cache-interfaces"></a><span data-ttu-id="47bdf-104">屬性快取介面</span><span class="sxs-lookup"><span data-stu-id="47bdf-104">Property Cache Interfaces</span></span>
 
-<span data-ttu-id="7c7df-105">屬性快取介面是設計來使用快取中的屬性。</span><span class="sxs-lookup"><span data-stu-id="7c7df-105">The property cache interfaces are designed to work with properties in cache.</span></span> <span data-ttu-id="7c7df-106">它們是由下列介面所組成：</span><span class="sxs-lookup"><span data-stu-id="7c7df-106">They consist of the following interfaces:</span></span>
+<span data-ttu-id="47bdf-105">屬性快取介面是設計來使用快取中的屬性。</span><span class="sxs-lookup"><span data-stu-id="47bdf-105">The property cache interfaces are designed to work with properties in cache.</span></span> <span data-ttu-id="47bdf-106">它們是由下列介面所組成：</span><span class="sxs-lookup"><span data-stu-id="47bdf-106">They consist of the following interfaces:</span></span>
 
--   [<span data-ttu-id="7c7df-107">**IADsPropertyEntry**</span><span class="sxs-lookup"><span data-stu-id="7c7df-107">**IADsPropertyEntry**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)
--   [<span data-ttu-id="7c7df-108">**IADsPropertyList**</span><span class="sxs-lookup"><span data-stu-id="7c7df-108">**IADsPropertyList**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertylist)
--   [<span data-ttu-id="7c7df-109">**IADsPropertyValue**</span><span class="sxs-lookup"><span data-stu-id="7c7df-109">**IADsPropertyValue**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue)
--   [<span data-ttu-id="7c7df-110">**IADsPropertyValue2**</span><span class="sxs-lookup"><span data-stu-id="7c7df-110">**IADsPropertyValue2**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2)
+-   [<span data-ttu-id="47bdf-107">**IADsPropertyEntry**</span><span class="sxs-lookup"><span data-stu-id="47bdf-107">**IADsPropertyEntry**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)
+-   [<span data-ttu-id="47bdf-108">**IADsPropertyList**</span><span class="sxs-lookup"><span data-stu-id="47bdf-108">**IADsPropertyList**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertylist)
+-   [<span data-ttu-id="47bdf-109">**IADsPropertyValue**</span><span class="sxs-lookup"><span data-stu-id="47bdf-109">**IADsPropertyValue**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue)
+-   [<span data-ttu-id="47bdf-110">**IADsPropertyValue2**</span><span class="sxs-lookup"><span data-stu-id="47bdf-110">**IADsPropertyValue2**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2)
 
  
 

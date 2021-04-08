@@ -12,23 +12,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672955"
 ---
-# <a name="deleting-an-event-collector-subscription"></a><span data-ttu-id="2818c-103">刪除事件收集器訂用帳戶</span><span class="sxs-lookup"><span data-stu-id="2818c-103">Deleting an Event Collector Subscription</span></span>
+# <a name="deleting-an-event-collector-subscription"></a><span data-ttu-id="09e24-103">刪除事件收集器訂用帳戶</span><span class="sxs-lookup"><span data-stu-id="09e24-103">Deleting an Event Collector Subscription</span></span>
 
-<span data-ttu-id="2818c-104">您可以從本機電腦刪除事件收集器訂用帳戶。</span><span class="sxs-lookup"><span data-stu-id="2818c-104">You can delete an Event Collector subscription from a local computer.</span></span> <span data-ttu-id="2818c-105">您必須知道訂用帳戶的名稱，才能將其刪除。</span><span class="sxs-lookup"><span data-stu-id="2818c-105">You must know the name of the subscription before you can delete it.</span></span> <span data-ttu-id="2818c-106">如需如何列出本機電腦上目前訂用帳戶的詳細資訊，請參閱 [列出事件收集器訂閱](listing-event-collector-subscriptions.md)，或在命令提示字元中輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="2818c-106">For more information about how to list the current subscriptions on a local computer, see [Listing Event Collector Subscriptions](listing-event-collector-subscriptions.md), or type the following command at the command prompt:</span></span>
+<span data-ttu-id="09e24-104">您可以從本機電腦刪除事件收集器訂用帳戶。</span><span class="sxs-lookup"><span data-stu-id="09e24-104">You can delete an Event Collector subscription from a local computer.</span></span> <span data-ttu-id="09e24-105">您必須知道訂用帳戶的名稱，才能將其刪除。</span><span class="sxs-lookup"><span data-stu-id="09e24-105">You must know the name of the subscription before you can delete it.</span></span> <span data-ttu-id="09e24-106">如需如何列出本機電腦上目前訂用帳戶的詳細資訊，請參閱 [列出事件收集器訂閱](listing-event-collector-subscriptions.md)，或在命令提示字元中輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="09e24-106">For more information about how to list the current subscriptions on a local computer, see [Listing Event Collector Subscriptions](listing-event-collector-subscriptions.md), or type the following command at the command prompt:</span></span>
 
-<span data-ttu-id="2818c-107">**>wecutil es**</span><span class="sxs-lookup"><span data-stu-id="2818c-107">**wecutil es**</span></span>
+<span data-ttu-id="09e24-107">**>wecutil es**</span><span class="sxs-lookup"><span data-stu-id="09e24-107">**wecutil es**</span></span>
 
 > [!Note]
 >
-> <span data-ttu-id="2818c-108">您可以使用此範例刪除事件收集器訂用帳戶，或在命令提示字元中輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="2818c-108">You can use this example to delete an Event Collector subscription or you can type the following command at the command prompt:</span></span>
+> <span data-ttu-id="09e24-108">您可以使用此範例刪除事件收集器訂用帳戶，或在命令提示字元中輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="09e24-108">You can use this example to delete an Event Collector subscription or you can type the following command at the command prompt:</span></span>
 >
-> <span data-ttu-id="2818c-109">**>wecutil ds** *SubscriptionName*</span><span class="sxs-lookup"><span data-stu-id="2818c-109">**wecutil ds** *SubscriptionName*</span></span>
+> <span data-ttu-id="09e24-109">**>wecutil ds** *SubscriptionName*</span><span class="sxs-lookup"><span data-stu-id="09e24-109">**wecutil ds** *SubscriptionName*</span></span>
 
  
 
-<span data-ttu-id="2818c-110">在您取出要刪除的事件收集器訂用帳戶名稱之後，您可以提供訂用帳戶的名稱做為 [**EcDeleteSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecdeletesubscription)的參數。</span><span class="sxs-lookup"><span data-stu-id="2818c-110">After you retrieve the name of the Event Collector subscription to delete, you can provide the name of the subscription as a parameter to [**EcDeleteSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecdeletesubscription).</span></span>
+<span data-ttu-id="09e24-110">在您取出要刪除的事件收集器訂用帳戶名稱之後，您可以提供訂用帳戶的名稱做為 [**EcDeleteSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecdeletesubscription)的參數。</span><span class="sxs-lookup"><span data-stu-id="09e24-110">After you retrieve the name of the Event Collector subscription to delete, you can provide the name of the subscription as a parameter to [**EcDeleteSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecdeletesubscription).</span></span>
 
-<span data-ttu-id="2818c-111">下列 c + + 程式碼範例顯示如何刪除事件收集器訂閱。</span><span class="sxs-lookup"><span data-stu-id="2818c-111">The following C++ code example shows how to delete an Event Collector subscription.</span></span>
+<span data-ttu-id="09e24-111">下列 c + + 程式碼範例顯示如何刪除事件收集器訂閱。</span><span class="sxs-lookup"><span data-stu-id="09e24-111">The following C++ code example shows how to delete an Event Collector subscription.</span></span>
 
 
 ```C++
@@ -74,14 +74,14 @@ void __cdecl wmain()
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="2818c-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="2818c-112">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="09e24-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="09e24-112">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2818c-113">列出事件收集器訂閱</span><span class="sxs-lookup"><span data-stu-id="2818c-113">Listing Event Collector Subscriptions</span></span>](listing-event-collector-subscriptions.md)
+[<span data-ttu-id="09e24-113">列出事件收集器訂閱</span><span class="sxs-lookup"><span data-stu-id="09e24-113">Listing Event Collector Subscriptions</span></span>](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[<span data-ttu-id="2818c-114">Windows 事件收集器參考</span><span class="sxs-lookup"><span data-stu-id="2818c-114">Windows Event Collector Reference</span></span>](windows-event-collector-reference.md)
+[<span data-ttu-id="09e24-114">Windows 事件收集器參考</span><span class="sxs-lookup"><span data-stu-id="09e24-114">Windows Event Collector Reference</span></span>](windows-event-collector-reference.md)
 </dt> </dl>
 
  

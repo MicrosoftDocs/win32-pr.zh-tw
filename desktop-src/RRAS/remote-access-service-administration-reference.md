@@ -14,13 +14,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839855"
 ---
-# <a name="remote-access-service-administration-reference"></a><span data-ttu-id="16dd2-105">遠端存取服務管理參考</span><span class="sxs-lookup"><span data-stu-id="16dd2-105">Remote Access Service Administration Reference</span></span>
+# <a name="remote-access-service-administration-reference"></a><span data-ttu-id="e1f1a-105">遠端存取服務管理參考</span><span class="sxs-lookup"><span data-stu-id="e1f1a-105">Remote Access Service Administration Reference</span></span>
 
-<span data-ttu-id="16dd2-106">開發遠端存取服務的管理應用程式時，請使用下列函數、結構和列舉類型。</span><span class="sxs-lookup"><span data-stu-id="16dd2-106">Use the following functions, structures, and enumerated types when developing administration applications for the Remote Access Service.</span></span>
+<span data-ttu-id="e1f1a-106">開發遠端存取服務的管理應用程式時，請使用下列函數、結構和列舉類型。</span><span class="sxs-lookup"><span data-stu-id="e1f1a-106">Use the following functions, structures, and enumerated types when developing administration applications for the Remote Access Service.</span></span>
 
--   [<span data-ttu-id="16dd2-107">RAS 管理功能</span><span class="sxs-lookup"><span data-stu-id="16dd2-107">RAS Administration Functions</span></span>](ras-administration-functions.md)
--   [<span data-ttu-id="16dd2-108">RAS 管理結構</span><span class="sxs-lookup"><span data-stu-id="16dd2-108">RAS Administration Structures</span></span>](ras-administration-structures.md)
--   [<span data-ttu-id="16dd2-109">RAS 管理列舉</span><span class="sxs-lookup"><span data-stu-id="16dd2-109">RAS Administration Enumerations</span></span>](ras-administration-enumerations.md)
+-   [<span data-ttu-id="e1f1a-107">RAS 管理功能</span><span class="sxs-lookup"><span data-stu-id="e1f1a-107">RAS Administration Functions</span></span>](ras-administration-functions.md)
+-   [<span data-ttu-id="e1f1a-108">RAS 管理結構</span><span class="sxs-lookup"><span data-stu-id="e1f1a-108">RAS Administration Structures</span></span>](ras-administration-structures.md)
+-   [<span data-ttu-id="e1f1a-109">RAS 管理列舉</span><span class="sxs-lookup"><span data-stu-id="e1f1a-109">RAS Administration Enumerations</span></span>](ras-administration-enumerations.md)
 
  
 
