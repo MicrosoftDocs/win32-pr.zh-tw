@@ -1,0 +1,52 @@
+---
+title: 播放清單的類型
+description: 播放清單的類型
+ms.assetid: 292c51e6-ae19-4b8c-a52a-45c9f860c14f
+keywords:
+- Windows Media 中繼檔播放清單，關於
+- 播放清單，關於
+- 中繼檔播放清單，關於
+- Windows Media 中繼檔播放清單，類型
+- 播放清單，類型
+- 中繼檔播放清單，類型
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: f5fde41caeace1fe49018ab1f6f3e86384d377ca
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104021095"
+---
+# <a name="types-of-playlists"></a>播放清單的類型
+
+Windows Media 中繼檔播放清單（在本檔中稱為播放清單）有. 地板蠟、. 300k.wvx 或 .asx 的副檔名。 使用這些副檔名的播放清單，可分別用來存取副檔名為 .wma、.wmv 和 .asf 的 Windows Media 檔案。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[**中繼檔延伸指導方針**](metafile-extension-guidelines.md)
+</dt> <dt>
+
+[**使用中繼檔播放清單**](using-metafile-playlists.md)
+</dt> <dt>
+
+[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+</dt> <dt>
+
+[**Windows Media 中繼檔指南**](windows-media-metafile-guide.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
