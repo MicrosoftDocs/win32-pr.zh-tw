@@ -1,0 +1,169 @@
+---
+title: 如何拖曳影像
+description: 本主題示範如何在螢幕上拖曳影像。 拖曳函式平滑且沒有游標閃爍地移動彩色影像。 遮罩影像和未遮罩影像都可以拖曳。
+ms.assetid: 84AFA770-F495-4312-9631-3335BA8CC799
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: da495ef9ee0895c04a856f456fcda3e3125f2957
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "103683199"
+---
+# <a name="how-to-drag-an-image"></a>如何拖曳影像
+
+本主題示範如何在螢幕上拖曳影像。 拖曳函式平滑且沒有游標閃爍地移動彩色影像。 遮罩影像和未遮罩影像都可以拖曳。
+
+## <a name="what-you-need-to-know"></a>您必須知道的事項
+
+### <a name="technologies"></a>技術
+
+-   [Windows 控制項](window-controls.md)
+
+### <a name="prerequisites"></a>必要條件
+
+-   C/C++
+-   Windows 消費者介面程式設計
+
+## <a name="instructions"></a>指示
+
+### <a name="step-1-begin-the-drag-operation"></a>步驟1：開始拖曳作業。
+
+使用 [**ImageList \_ BeginDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_begindrag) 函數開始拖曳作業。
+
+下列 c + + 程式碼範例中的使用者定義函式是為了回應滑鼠按鍵的訊息（例如， [**WM \_ LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown)）而被呼叫。 此函式會決定使用者是否已在影像的周框中按一下。 如果使用者已按一下，此函式會捕捉滑鼠輸入、從工作區中清除影像，並計算影像內作用點的位置。 此函式會將作用點設定為與滑鼠游標的作用點一致。 然後，此函式會呼叫 [**ImageList \_ BeginDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_begindrag)來開始拖曳作業。
+
+
+```C++
+// StartDragging - begins dragging a bitmap. 
+// Returns TRUE if successful, or FALSE otherwise. 
+// hwnd - handle to the window in which the bitmap is dragged. 
+// ptCur - coordinates of the cursor. 
+// himl - handle to the image list. 
+// 
+// Global variables 
+//     g_rcImage - bounding rectangle of the image to drag. 
+//     g_nImage - index of the image. 
+//     g_ptHotSpot - location of the image's hot spot. 
+//     g_cxBorder and g_cyBorder - width and height of border. 
+//     g_cyCaption and g_cyMenu - height of title bar and menu bar. 
+extern RECT g_rcImage; 
+extern int g_nImage; 
+extern POINT g_ptHotSpot; 
+ 
+BOOL StartDragging(HWND hwnd, POINT ptCur, HIMAGELIST himl) 
+{ 
+    // Return if the cursor is not in the bounding rectangle of 
+    // the image. 
+    if (!PtInRect(&g_rcImage, ptCur)) 
+        return FALSE; 
+ 
+    // Capture the mouse input. 
+    SetCapture(hwnd); 
+ 
+    // Erase the image from the client area. 
+    InvalidateRect(hwnd, &g_rcImage, TRUE); 
+    UpdateWindow(hwnd); 
+ 
+    // Calculate the location of the hot spot, and save it. 
+    g_ptHotSpot.x = ptCur.x - g_rcImage.left; 
+    g_ptHotSpot.y = ptCur.y - g_rcImage.top; 
+ 
+    // Begin the drag operation. 
+    if (!ImageList_BeginDrag(himl, g_nImage, 
+            g_ptHotSpot.x, g_ptHotSpot.y)) 
+        return FALSE; 
+ 
+    // Set the initial location of the image, and make it visible. 
+    // Because the ImageList_DragEnter function expects coordinates to 
+    // be relative to the upper-left corner of the given window, the 
+    // width of the border, title bar, and menu bar need to be taken 
+    // into account. 
+    
+    ImageList_DragEnter(hwnd, ptCur.x + g_cxBorder, 
+        ptCur.y + g_cyBorder + g_cyCaption + g_cyMenu); 
+ 
+    g_fDragging = TRUE; 
+ 
+    return TRUE; 
+} 
+```
+
+
+
+### <a name="step-2-move-the-image"></a>步驟2：移動影像。
+
+[**ImageList \_ DragMove**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_dragmove)函式會將影像移至新的位置。
+
+下列 c + + 程式碼範例中的使用者定義函數是為了回應 [**WM \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) 訊息而呼叫的。 它會將影像拖曳至新的位置。
+
+
+```C++
+// MoveTheImage - drags an image to the specified coordinates. 
+// Returns TRUE if successful, or FALSE otherwise. 
+// ptCur - new coordinates for the image. 
+BOOL MoveTheImage(POINT ptCur) 
+{ 
+    if (!ImageList_DragMove(ptCur.x, ptCur.y)) 
+        return FALSE; 
+ 
+    return TRUE; 
+} 
+
+```
+
+
+
+### <a name="step-3-end-the-drag-operation"></a>步驟3：結束拖曳作業。
+
+下列 c + + 程式碼範例中的使用者定義函數會呼叫 [**ImageList \_ EndDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_enddrag) 函式來結束拖曳作業。 然後，它會呼叫 [**ImageList \_ DragLeave**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_dragleave) 函式來解除鎖定視窗，並隱藏拖曳影像，讓視窗得以更新。
+
+
+```C++
+// StopDragging - ends a drag operation and draws the image 
+// at its final location. 
+// Returns TRUE if successful, or FALSE otherwise. 
+// hwnd - handle to the window in which the bitmap is dragged. 
+// himl - handle to the image list. 
+// ptCur - coordinates of the cursor. 
+// 
+// Global variable 
+//     g_ptHotSpot - location of the image's hot spot. 
+ 
+extern POINT g_ptHotSpot; 
+ 
+BOOL StopDragging(HWND hwnd, HIMAGELIST himl, POINT ptCur) 
+{ 
+    ImageList_EndDrag(); 
+    ImageList_DragLeave(hwnd); 
+ 
+    g_fDragging = FALSE; 
+ 
+    DrawTheImage(hwnd, himl, ptCur.x - g_ptHotSpot.x, 
+        ptCur.y - g_ptHotSpot.y); 
+ 
+    ReleaseCapture(); 
+    return TRUE; 
+} 
+
+```
+
+
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[影像清單參考](bumper-image-lists-image-lists-reference.md)
+</dt> <dt>
+
+[關於影像清單](image-lists.md)
+</dt> <dt>
+
+[使用影像清單](using-image-lists.md)
+</dt> </dl>
+
+ 
+
+ 
