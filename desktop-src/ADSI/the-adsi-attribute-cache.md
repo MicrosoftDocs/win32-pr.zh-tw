@@ -1,0 +1,42 @@
+---
+title: ADSI 屬性快取
+description: ADSI 物件模型提供每個 ADSI 物件的用戶端屬性快取。
+ms.assetid: 0d2b4117-11f2-4b39-8fe5-3b176e4256f4
+ms.tgt_platform: multiple
+keywords:
+- ADSI 屬性快取 ADSI
+- ADSI ADSI，使用，利用 ADSI、屬性快取存取及運算元據
+- 屬性 ADSI，屬性快取
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: df3062ed5862f11e9db5dadd83b80ac624218c81
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103671116"
+---
+# <a name="the-adsi-attribute-cache"></a><span data-ttu-id="bed8e-106">ADSI 屬性快取</span><span class="sxs-lookup"><span data-stu-id="bed8e-106">The ADSI Attribute Cache</span></span>
+
+<span data-ttu-id="bed8e-107">ADSI 物件模型提供每個 ADSI 物件的用戶端屬性快取。</span><span class="sxs-lookup"><span data-stu-id="bed8e-107">The ADSI object model provides a client-side attribute cache for each ADSI object.</span></span> <span data-ttu-id="bed8e-108">屬性快取相當於記憶體中的資料表，其中包含已下載的大部分物件屬性的名稱和值。</span><span class="sxs-lookup"><span data-stu-id="bed8e-108">The attribute cache is comparable to a table in memory that contains the names and values of most object attributes that have been downloaded.</span></span> <span data-ttu-id="bed8e-109">某些屬性（例如操作屬性）不會被快取。</span><span class="sxs-lookup"><span data-stu-id="bed8e-109">Some attributes, such as operational attributes, are not cached.</span></span> <span data-ttu-id="bed8e-110">ADSI 使用屬性快取來增強屬性操作的效能，並新增屬性讀取和寫入作業的 transactioning 功能。</span><span class="sxs-lookup"><span data-stu-id="bed8e-110">ADSI uses property caching to enhance the performance of attribute manipulation and add transactioning capability for attribute read and write operations.</span></span> <span data-ttu-id="bed8e-111">這項功能對於以沒有原生批次處理機制可設定屬性的語言（例如 Microsoft Visual Basic 開發系統）所撰寫的客戶而言非常重要。</span><span class="sxs-lookup"><span data-stu-id="bed8e-111">This capability is critical for clients written in languages that have no native batching mechanism for setting attributes, such as Microsoft Visual Basic development system.</span></span> <span data-ttu-id="bed8e-112">如果沒有 ADSI 屬性快取，這類用戶端就必須在每次讀取或寫入屬性時存取伺服器。</span><span class="sxs-lookup"><span data-stu-id="bed8e-112">Without the ADSI property cache, such clients would have to access the server every time an attribute is read or written.</span></span>
+
+<span data-ttu-id="bed8e-113">建立物件或第一次系結至時，物件的屬性快取是空的。</span><span class="sxs-lookup"><span data-stu-id="bed8e-113">When an object is created or first bound to, the property cache for the object is empty.</span></span> <span data-ttu-id="bed8e-114">呼叫 [**IADs：： GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) 方法時，ADSI 會將物件的要求屬性從基礎目錄服務載入至本機快取。</span><span class="sxs-lookup"><span data-stu-id="bed8e-114">When the [**IADs::GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) method is called, ADSI loads the requested attributes for the object from the underlying directory service into the local cache.</span></span> <span data-ttu-id="bed8e-115">當特定的屬性值被讀取，且快取是空的時，ADSI 會對 **IADs：： GetInfo** 方法進行隱含呼叫。</span><span class="sxs-lookup"><span data-stu-id="bed8e-115">When a specific attribute value is read and the cache is empty, ADSI makes an implicit call to the **IADs::GetInfo** method.</span></span> <span data-ttu-id="bed8e-116">填滿快取時，所有屬性讀取作業只適用于快取的內容。</span><span class="sxs-lookup"><span data-stu-id="bed8e-116">When the cache is filled, all attribute read operations work on the contents of the cache only.</span></span>
+
+<span data-ttu-id="bed8e-117">寫入屬性值時，新的值會儲存在本機快取中，直到呼叫 [**IADs：： SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) 方法為止。</span><span class="sxs-lookup"><span data-stu-id="bed8e-117">When an attribute value is written, the new value is stored in the local cache until the [**IADs::SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) method is called.</span></span> <span data-ttu-id="bed8e-118">呼叫 **IADs：： SetInfo** 方法時，快取中的屬性會認可至基礎目錄服務。</span><span class="sxs-lookup"><span data-stu-id="bed8e-118">When the **IADs::SetInfo** method is called, the attributes in the cache are committed to the underlying directory service.</span></span> <span data-ttu-id="bed8e-119">在呼叫 **IADs：： SetInfo** 方法之後，值會保留在快取中，直到以另一個對 [**IADs：： GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) 方法的呼叫明確重新整理為止。</span><span class="sxs-lookup"><span data-stu-id="bed8e-119">After the **IADs::SetInfo** method is called, the values remain in the cache until explicitly refreshed with another call to the [**IADs::GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) method.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="bed8e-120">必須謹慎使用 [**IADs：： GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) 方法，因為這個方法一律會從基礎目錄服務覆寫快取中的屬性值，即使快取的值已變更也一樣。</span><span class="sxs-lookup"><span data-stu-id="bed8e-120">The [**IADs::GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) method must be used carefully because this method will always overwrite the attribute values in the cache from the underlying directory service, even if the cached value has been changed.</span></span> <span data-ttu-id="bed8e-121">也就是說，它會覆寫快取中已變更的屬性值，但在呼叫 [**IADs：： SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) 方法時，不會認可到基礎目錄服務。</span><span class="sxs-lookup"><span data-stu-id="bed8e-121">That is, it will overwrite attribute values that have been changed in the cache, but not committed to the underlying directory service with a call to the [**IADs::SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) method.</span></span>
+
+ 
+
+<span data-ttu-id="bed8e-122">下圖顯示用來在快取上操作的不同方法。</span><span class="sxs-lookup"><span data-stu-id="bed8e-122">The following figure shows the different methods used to operate on the cache.</span></span>
+
+![adsi 屬性快取](images/ds2propc.png)
+
+ 
+
+ 
+
+
+
+
