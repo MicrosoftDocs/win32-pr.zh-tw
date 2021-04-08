@@ -1,0 +1,40 @@
+---
+title: 移植繪圖函數
+description: 移植繪圖函數
+ms.assetid: 3f932c9e-7f25-466c-98ba-6a8a6aa6cacc
+keywords:
+- 鳶尾花 GL 移植，繪製函數
+- 從鳶尾花 GL 進行移植，繪製函式
+- 從鳶尾花 GL 移植至 OpenGL，繪製函數
+- 從鳶尾花 GL、繪圖函式移植的 OpenGL
+- 繪圖函式，從鳶尾花 GL 進行移植
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2adeeeb244f746f6f75491905f06115aef00418d
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103671839"
+---
+# <a name="porting-drawing-functions"></a>移植繪圖函數
+
+下列各節討論如何移植鳶尾花 GL 繪圖基本專案。
+
+-   [鳶尾花 GL 球體程式庫](the-iris-gl-sphere-library.md)
+-   [移植 v 函數](porting-v-functions.md)
+-   [移植 bgn/end 命令](porting-bgn-end-commands.md)
+-   [移植點](porting-points.md)
+-   [移植線](porting-lines.md)
+-   [移植多邊形和 Quadrilaterals](porting-polygons-and-quadrilaterals.md)
+-   [移植三角形](porting-triangles.md)
+-   [移植弧形和圓形](porting-arcs-and-circles.md)
+-   [移植球體](porting-spheres.md)
+
+ 
+
+ 
+
+
+
+
