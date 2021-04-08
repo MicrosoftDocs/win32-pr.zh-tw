@@ -1,0 +1,45 @@
+---
+title: 片段快取
+description: HTTP 伺服器 API 提供的功能可讓使用者將資料片段儲存在快取中，以用於快速形成 HTTP 回應。
+ms.assetid: 0f9a768e-723c-4c7b-a746-6b817441409c
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a3979fb03c4f8898644329fd27eafb7007adbcc9
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103932002"
+---
+# <a name="fragment-cache"></a><span data-ttu-id="1b93c-103">片段快取</span><span class="sxs-lookup"><span data-stu-id="1b93c-103">Fragment Cache</span></span>
+
+<span data-ttu-id="1b93c-104">HTTP 伺服器 API 提供的功能可讓使用者將資料片段儲存在快取中，以用於快速形成 HTTP 回應。</span><span class="sxs-lookup"><span data-stu-id="1b93c-104">The HTTP Server API provides functionality for users to store data fragments in a cache for use in rapidly forming HTTP responses.</span></span>
+
+<span data-ttu-id="1b93c-105">您可以藉由呼叫 [**HttpAddFragmentToCache**](/windows/desktop/api/Http/nf-http-httpaddfragmenttocache) 函式，將片段新增至快取。</span><span class="sxs-lookup"><span data-stu-id="1b93c-105">Fragments can be added to the cache by calling the [**HttpAddFragmentToCache**](/windows/desktop/api/Http/nf-http-httpaddfragmenttocache) function.</span></span> <span data-ttu-id="1b93c-106">片段是由包含在 *pUrlPrefix* 參數中的 URL 來識別。</span><span class="sxs-lookup"><span data-stu-id="1b93c-106">A Fragment is identified by a URL contained in the *pUrlPrefix* parameter.</span></span> <span data-ttu-id="1b93c-107">使用現有片段的 URL 呼叫這個函式會覆寫現有的片段。</span><span class="sxs-lookup"><span data-stu-id="1b93c-107">A call to this function with the URL of an existing fragment overwrites the existing fragment.</span></span>
+
+<span data-ttu-id="1b93c-108">一開始加入片段的要求佇列擁有者可以刪除或覆寫片段。</span><span class="sxs-lookup"><span data-stu-id="1b93c-108">A fragment can be deleted or overwritten by the owner of the request queue that initially added the fragment.</span></span> <span data-ttu-id="1b93c-109">以 UrlPrefix 呼叫的 [**HttpFlushResponseCache**](/windows/desktop/api/Http/nf-http-httpflushresponsecache) 函式會刪除該前置詞內的所有片段，以及該 UrlPrefix 的階層式下階。</span><span class="sxs-lookup"><span data-stu-id="1b93c-109">The [**HttpFlushResponseCache**](/windows/desktop/api/Http/nf-http-httpflushresponsecache) function called with a UrlPrefix deletes all fragments within that prefix as well as the hierarchical descendants of that UrlPrefix.</span></span> <span data-ttu-id="1b93c-110">[**HttpReadFragmentFromCache**](/windows/desktop/api/Http/nf-http-httpreadfragmentfromcache)函式會讀取整個片段或片段內指定的位元組範圍。</span><span class="sxs-lookup"><span data-stu-id="1b93c-110">The [**HttpReadFragmentFromCache**](/windows/desktop/api/Http/nf-http-httpreadfragmentfromcache) function reads in the entire fragment or a specified byte range within the fragment.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="1b93c-111">將片段新增至快取並不保證可供未來傳送回應的呼叫使用。</span><span class="sxs-lookup"><span data-stu-id="1b93c-111">Adding a fragment to the cache does not guarantee that it is available for future calls to send a response.</span></span> <span data-ttu-id="1b93c-112">片段快取專案可能會在任何時間變得無法使用。</span><span class="sxs-lookup"><span data-stu-id="1b93c-112">Fragment cache entries can become unavailable at any time.</span></span> <span data-ttu-id="1b93c-113">使用無法使用之片段的呼叫會失敗。</span><span class="sxs-lookup"><span data-stu-id="1b93c-113">A call that uses a fragment that is not available fails.</span></span> <span data-ttu-id="1b93c-114">使用片段快取的應用程式必須準備好處理此失敗。</span><span class="sxs-lookup"><span data-stu-id="1b93c-114">Applications that use the fragment cache must be prepared to handle this failure.</span></span>
+
+ 
+
+## <a name="sending-a-response-with-a-fragment"></a><span data-ttu-id="1b93c-115">使用片段傳送回應</span><span class="sxs-lookup"><span data-stu-id="1b93c-115">Sending a Response With a Fragment</span></span>
+
+<span data-ttu-id="1b93c-116">片段可以用來形成 HTTP 回應實體主體的所有或部分。</span><span class="sxs-lookup"><span data-stu-id="1b93c-116">Fragments can be used to form all or portions of an HTTP responses entity body.</span></span> <span data-ttu-id="1b93c-117">您可以藉由在 [**HTTP \_ 回應**](http-response.md)結構中指定 [**HTTP \_ 資料 \_ 區塊**](/windows/desktop/api/Http/ns-http-http_data_chunk)結構的陣列，在一個呼叫 [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse)函式的情況中傳送回應和實體主體。</span><span class="sxs-lookup"><span data-stu-id="1b93c-117">You can send a response and entity body in one call to the [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) function by specifying an array of [**HTTP\_DATA\_CHUNK**](/windows/desktop/api/Http/ns-http-http_data_chunk) structures in the [**HTTP\_RESPONSE**](http-response.md) structure.</span></span>
+
+<span data-ttu-id="1b93c-118">[**HTTP \_ 資料 \_ 區塊**](/windows/desktop/api/Http/ns-http-http_data_chunk)可以指定記憶體區塊、已開啟檔案的控制碼或片段快取專案。</span><span class="sxs-lookup"><span data-stu-id="1b93c-118">An [**HTTP\_DATA\_CHUNK**](/windows/desktop/api/Http/ns-http-http_data_chunk) can specify a block of memory, a handle to an already opened file or a fragment cache entry.</span></span> <span data-ttu-id="1b93c-119">這些會分別對應 **至 \_ HTTP \_ 資料區塊** 類型： **HttpDataChunkFromMemory**、 **HttpDataChunkFromFileHandle** 和 **HttpDataChunkFromFragmentCache**。</span><span class="sxs-lookup"><span data-stu-id="1b93c-119">These correspond to the **HTTP\_DATA\_CHUNK** types: **HttpDataChunkFromMemory**, **HttpDataChunkFromFileHandle**, and **HttpDataChunkFromFragmentCache**, respectively.</span></span> <span data-ttu-id="1b93c-120">HTTP 快取中的完整回應也可以做為 [**HTTP \_ 回應**](http-response.md) 結構中的片段，雖然不建議使用這種作法。</span><span class="sxs-lookup"><span data-stu-id="1b93c-120">Full responses in the HTTP cache can also be used as fragments in the [**HTTP\_RESPONSE**](http-response.md) structure, although this practice is not recommended.</span></span>
+
+<span data-ttu-id="1b93c-121">[**Http \_ 回應**](http-response.md)結構包含 [**HTTP \_ 資料 \_ 區塊**](/windows/desktop/api/Http/ns-http-http_data_chunk)結構陣列的指標，其中包含回應的實體主體。</span><span class="sxs-lookup"><span data-stu-id="1b93c-121">The [**HTTP\_RESPONSE**](http-response.md) structure contains a pointer to an array of [**HTTP\_DATA\_CHUNK**](/windows/desktop/api/Http/ns-http-http_data_chunk) structures that comprise the entity body of the response.</span></span> <span data-ttu-id="1b93c-122">**Http \_ 回應** 結構也包含指定 **HTTP \_ 資料 \_ 區塊** 結構陣列維度的相符計數。</span><span class="sxs-lookup"><span data-stu-id="1b93c-122">The **HTTP\_RESPONSE** structure also contains a matching count which specifies the dimension of the array of **HTTP\_DATA\_CHUNK** structures.</span></span> <span data-ttu-id="1b93c-123">**HTTP \_ 資料 \_ 區塊** 結構中的 HttpDataChunkFromFragmentCache 值會指定資料區塊的片段快取類型。</span><span class="sxs-lookup"><span data-stu-id="1b93c-123">The HttpDataChunkFromFragmentCache value in the **HTTP\_DATA\_CHUNK** structure specifies the fragment cache type of the data chunk.</span></span> <span data-ttu-id="1b93c-124">**HTTP \_ 資料 \_ 區塊** 結構也會指定片段名稱。</span><span class="sxs-lookup"><span data-stu-id="1b93c-124">The **HTTP\_DATA\_CHUNK** structure also specifies the fragment name.</span></span>
+
+<span data-ttu-id="1b93c-125">\_ \_ \_ 如果有任何片段快取專案無法使用，則包含快取片段的回應會失敗，並找不到錯誤路徑。</span><span class="sxs-lookup"><span data-stu-id="1b93c-125">A response that contains a cached fragment fails with an ERROR\_PATH\_NOT\_FOUND if any of the fragment cache entries are not available.</span></span> <span data-ttu-id="1b93c-126">由於片段快取專案不保證可供使用，因此應用程式必須準備好處理這種情況。</span><span class="sxs-lookup"><span data-stu-id="1b93c-126">Since the fragment cache entries are not guaranteed to be available, applications must be prepared to handle this case.</span></span> <span data-ttu-id="1b93c-127">處理此案例的其中一種方式是嘗試重新加入片段快取專案，然後重新傳送回應。</span><span class="sxs-lookup"><span data-stu-id="1b93c-127">One way to handle this case is to attempt to re-add the fragment cache entry and resend the response.</span></span> <span data-ttu-id="1b93c-128">如果發生重複的失敗，應用程式可以使用儲存在記憶體緩衝區中的資料區塊，而不是片段快取專案。</span><span class="sxs-lookup"><span data-stu-id="1b93c-128">If repeated failures occur, the application can use data chunks stored in memory buffers instead of fragment cache entries.</span></span>
+
+<span data-ttu-id="1b93c-129">片段快取專案也可以在 [**HttpSendResponseEntityBody**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) 函數中指定。</span><span class="sxs-lookup"><span data-stu-id="1b93c-129">Fragment cache entries can also be specified in the [**HttpSendResponseEntityBody**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) function.</span></span> <span data-ttu-id="1b93c-130">這段程式碼會加入至 [**HTTP \_ 資料 \_ 區塊**](/windows/desktop/api/Http/ns-http-http_data_chunk) 結構中的實體主體，如上所述。</span><span class="sxs-lookup"><span data-stu-id="1b93c-130">The fragment is added to the entity body in the [**HTTP\_DATA\_CHUNK**](/windows/desktop/api/Http/ns-http-http_data_chunk) structure as described above.</span></span> <span data-ttu-id="1b93c-131">同樣地，如果有任何指定的片段快取專案無法使用，則傳送可能會失敗。</span><span class="sxs-lookup"><span data-stu-id="1b93c-131">Again, the send can fail if any of the specified fragment cache entries are not available.</span></span>
+
+ 
+
+ 
+
+
+
+
