@@ -1,0 +1,797 @@
+---
+description: 表示以 Windows 為基礎的環境中的使用中網路連接。
+ms.assetid: e16e5f13-ea28-4d75-9978-4ff2ef5e5506
+ms.tgt_platform: multiple
+title: Win32_NetworkConnection 類別
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Win32_NetworkConnection
+- Win32_NetworkConnection.Caption
+- Win32_NetworkConnection.Description
+- Win32_NetworkConnection.InstallDate
+- Win32_NetworkConnection.Status
+- Win32_NetworkConnection.AccessMask
+- Win32_NetworkConnection.Comment
+- Win32_NetworkConnection.ConnectionState
+- Win32_NetworkConnection.ConnectionType
+- Win32_NetworkConnection.DisplayType
+- Win32_NetworkConnection.LocalName
+- Win32_NetworkConnection.Name
+- Win32_NetworkConnection.Persistent
+- Win32_NetworkConnection.ProviderName
+- Win32_NetworkConnection.RemoteName
+- Win32_NetworkConnection.RemotePath
+- Win32_NetworkConnection.ResourceType
+- Win32_NetworkConnection.UserName
+api_type:
+- DllExport
+api_location:
+- CIMWin32.dll
+ms.openlocfilehash: 96d91008ff8ad2f947e6c9957d16c4f007d15e47
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103689132"
+---
+# <a name="win32_networkconnection-class"></a><span data-ttu-id="f8eaa-103">Win32 \_ NetworkConnection 類別</span><span class="sxs-lookup"><span data-stu-id="f8eaa-103">Win32\_NetworkConnection class</span></span>
+
+<span data-ttu-id="f8eaa-104">**Win32 \_ NetworkConnection** [WMI 類別](../wmisdk/retrieving-a-class.md)代表以 Windows 為基礎的環境中的作用中網路連接。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-104">The **Win32\_NetworkConnection** [WMI class](../wmisdk/retrieving-a-class.md)represents an active network connection in a Windows-based environment.</span></span>
+
+<span data-ttu-id="f8eaa-105">下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-105">The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.</span></span> <span data-ttu-id="f8eaa-106">屬性和方法是以字母順序排列，而不是 MOF 順序。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-106">Properties and methods are in alphabetic order, not MOF order.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="f8eaa-107">語法</span><span class="sxs-lookup"><span data-stu-id="f8eaa-107">Syntax</span></span>
+
+``` syntax
+[Dynamic, Provider("CIMWin32"), UUID("{8502C4CD-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
+class Win32_NetworkConnection : CIM_LogicalElement
+{
+  string   Caption;
+  string   Description;
+  datetime InstallDate;
+  string   Status;
+  uint32   AccessMask;
+  string   Comment;
+  string   ConnectionState;
+  string   ConnectionType;
+  string   DisplayType;
+  string   LocalName;
+  string   Name;
+  boolean  Persistent;
+  string   ProviderName;
+  string   RemoteName;
+  string   RemotePath;
+  string   ResourceType;
+  string   UserName;
+};
+```
+
+## <a name="members"></a><span data-ttu-id="f8eaa-108">成員</span><span class="sxs-lookup"><span data-stu-id="f8eaa-108">Members</span></span>
+
+<span data-ttu-id="f8eaa-109">**Win32 \_ NetworkConnection** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="f8eaa-109">The **Win32\_NetworkConnection** class has these types of members:</span></span>
+
+-   [<span data-ttu-id="f8eaa-110">屬性</span><span class="sxs-lookup"><span data-stu-id="f8eaa-110">Properties</span></span>](#properties)
+
+### <a name="properties"></a><span data-ttu-id="f8eaa-111">屬性</span><span class="sxs-lookup"><span data-stu-id="f8eaa-111">Properties</span></span>
+
+<span data-ttu-id="f8eaa-112">**Win32 \_ NetworkConnection** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-112">The **Win32\_NetworkConnection** class has these properties.</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="f8eaa-113">**AccessMask**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-113">**AccessMask**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-114">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-114">Data type: **uint32**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-115">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-115">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-116">限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-116">Qualifiers: [**Schema**](../wmisdk/standard-qualifiers.md) ("Win32")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-117">由使用者或群組所持有之指定檔案或目錄的存取權限清單，而該檔案是由其傳回的實例。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-117">List of access rights to the given file or directory held by the user or group on whose behalf the instance is returned.</span></span> <span data-ttu-id="f8eaa-118">在 FAT 磁片區上，會改為傳回 [ **完整 \_ 存取** ] 值，表示物件上未設定任何安全性。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-118">On FAT volumes, the **FULL\_ACCESS** value is returned instead, indicating no security has been set on the object.</span></span>
+
+<dt>
+
+<span id="FILE_READ_DATA__file__or_FILE_LIST_DIRECTORY__directory_"></span><span id="file_read_data__file__or_file_list_directory__directory_"></span><span id="FILE_READ_DATA__FILE__OR_FILE_LIST_DIRECTORY__DIRECTORY_"></span>
+
+<span data-ttu-id="f8eaa-119"><span id="FILE_READ_DATA__file__or_FILE_LIST_DIRECTORY__directory_"></span><span id="file_read_data__file__or_file_list_directory__directory_"></span><span id="FILE_READ_DATA__FILE__OR_FILE_LIST_DIRECTORY__DIRECTORY_"></span>**檔案 \_讀取 \_ 資料 (檔) 或檔案 \_ 清單 \_ 目錄 (目錄)** (1) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-119"><span id="FILE_READ_DATA__file__or_FILE_LIST_DIRECTORY__directory_"></span><span id="file_read_data__file__or_file_list_directory__directory_"></span><span id="FILE_READ_DATA__FILE__OR_FILE_LIST_DIRECTORY__DIRECTORY_"></span>**FILE\_READ\_DATA (file) or FILE\_LIST\_DIRECTORY (directory)** (1)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-120">授與從檔案讀取資料的許可權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-120">Grants the right to read data from the file.</span></span> <span data-ttu-id="f8eaa-121">若為目錄，此值會授與許可權來列出目錄的內容。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-121">For a directory, this value grants the right to list the contents of the directory.</span></span>
+
+</dd> <dt>
+
+<span id="FILE_WRITE_DATA__file__or_FILE_ADD_FILE__directory_"></span><span id="file_write_data__file__or_file_add_file__directory_"></span><span id="FILE_WRITE_DATA__FILE__OR_FILE_ADD_FILE__DIRECTORY_"></span>
+
+<span data-ttu-id="f8eaa-122"><span id="FILE_WRITE_DATA__file__or_FILE_ADD_FILE__directory_"></span><span id="file_write_data__file__or_file_add_file__directory_"></span><span id="FILE_WRITE_DATA__FILE__OR_FILE_ADD_FILE__DIRECTORY_"></span>**檔案 \_寫入 \_ 資料 (檔案) 或檔案 \_ 新增檔案 \_ (目錄)** (2) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-122"><span id="FILE_WRITE_DATA__file__or_FILE_ADD_FILE__directory_"></span><span id="file_write_data__file__or_file_add_file__directory_"></span><span id="FILE_WRITE_DATA__FILE__OR_FILE_ADD_FILE__DIRECTORY_"></span>**FILE\_WRITE\_DATA (file) or FILE\_ADD\_FILE (directory)** (2)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-123">授與將資料寫入檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-123">Grants the right to write data to the file.</span></span> <span data-ttu-id="f8eaa-124">若為目錄，此值會授與在目錄中建立檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-124">For a directory, this value grants the right to create a file in the directory.</span></span>
+
+</dd> <dt>
+
+<span id="FILE_APPEND_DATA__file__or_FILE_ADD_SUBDIRECTORY"></span><span id="file_append_data__file__or_file_add_subdirectory"></span><span id="FILE_APPEND_DATA__FILE__OR_FILE_ADD_SUBDIRECTORY"></span>
+
+<span data-ttu-id="f8eaa-125"><span id="FILE_APPEND_DATA__file__or_FILE_ADD_SUBDIRECTORY"></span><span id="file_append_data__file__or_file_add_subdirectory"></span><span id="FILE_APPEND_DATA__FILE__OR_FILE_ADD_SUBDIRECTORY"></span>**檔案 \_\_將資料附加)  (檔案，或 \_ 將檔案新增 \_ 子目錄** (4) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-125"><span id="FILE_APPEND_DATA__file__or_FILE_ADD_SUBDIRECTORY"></span><span id="file_append_data__file__or_file_add_subdirectory"></span><span id="FILE_APPEND_DATA__FILE__OR_FILE_ADD_SUBDIRECTORY"></span>**FILE\_APPEND\_DATA (file) or FILE\_ADD\_SUBDIRECTORY** (4)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-126">授與將資料附加至檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-126">Grants the right to append data to the file.</span></span> <span data-ttu-id="f8eaa-127">若為目錄，此值會授與建立子目錄的許可權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-127">For a directory, this value grants the right to create a subdirectory.</span></span>
+
+</dd> <dt>
+
+<span id="FILE_READ_EA"></span><span id="file_read_ea"></span>
+
+<span data-ttu-id="f8eaa-128"><span id="FILE_READ_EA"></span><span id="file_read_ea"></span>**檔案 \_讀取 \_ EA** (8) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-128"><span id="FILE_READ_EA"></span><span id="file_read_ea"></span>**FILE\_READ\_EA** (8)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-129">授與讀取擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-129">Grants the right to read extended attributes.</span></span>
+
+</dd> <dt>
+
+<span id="FILE_WRITE_EA"></span><span id="file_write_ea"></span>
+
+<span data-ttu-id="f8eaa-130"><span id="FILE_WRITE_EA"></span><span id="file_write_ea"></span>**檔案 \_將 \_ EA 寫入** (16) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-130"><span id="FILE_WRITE_EA"></span><span id="file_write_ea"></span>**FILE\_WRITE\_EA** (16)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-131">授予寫入擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-131">Grants the right to write extended attributes.</span></span>
+
+</dd> <dt>
+
+<span id="FILE_EXECUTE__file__or_FILE_TRAVERSE__directory_"></span><span id="file_execute__file__or_file_traverse__directory_"></span><span id="FILE_EXECUTE__FILE__OR_FILE_TRAVERSE__DIRECTORY_"></span>
+
+<span data-ttu-id="f8eaa-132"><span id="FILE_EXECUTE__file__or_FILE_TRAVERSE__directory_"></span><span id="file_execute__file__or_file_traverse__directory_"></span><span id="FILE_EXECUTE__FILE__OR_FILE_TRAVERSE__DIRECTORY_"></span>**檔案 \_執行 (檔案) 或檔案往返 \_ (目錄)** (32) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-132"><span id="FILE_EXECUTE__file__or_FILE_TRAVERSE__directory_"></span><span id="file_execute__file__or_file_traverse__directory_"></span><span id="FILE_EXECUTE__FILE__OR_FILE_TRAVERSE__DIRECTORY_"></span>**FILE\_EXECUTE (file) or FILE\_TRAVERSE (directory)** (32)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-133">授與許可權來執行檔案。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-133">Grants the right to execute a file.</span></span> <span data-ttu-id="f8eaa-134">若為目錄，可以進行目錄的往返。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-134">For a directory, the directory can be traversed.</span></span>
+
+</dd> <dt>
+
+<span id="FILE_DELETE_CHILD__directory_"></span><span id="file_delete_child__directory_"></span><span id="FILE_DELETE_CHILD__DIRECTORY_"></span>
+
+<span data-ttu-id="f8eaa-135"><span id="FILE_DELETE_CHILD__directory_"></span><span id="file_delete_child__directory_"></span><span id="FILE_DELETE_CHILD__DIRECTORY_"></span>**檔案 \_刪除 \_ 子 (目錄)** (64) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-135"><span id="FILE_DELETE_CHILD__directory_"></span><span id="file_delete_child__directory_"></span><span id="FILE_DELETE_CHILD__DIRECTORY_"></span>**FILE\_DELETE\_CHILD (directory)** (64)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-136">授與刪除目錄的許可權，以及它所包含的所有檔案 (其子) ，即使檔案是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-136">Grants the right to delete a directory and all of the files it contains (its children), even if the files are read-only.</span></span>
+
+</dd> <dt>
+
+<span id="FILE_READ_ATTRIBUTES"></span><span id="file_read_attributes"></span>
+
+<span data-ttu-id="f8eaa-137"><span id="FILE_READ_ATTRIBUTES"></span><span id="file_read_attributes"></span>**檔案 \_讀取 \_ 屬性** (128) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-137"><span id="FILE_READ_ATTRIBUTES"></span><span id="file_read_attributes"></span>**FILE\_READ\_ATTRIBUTES** (128)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-138">授與讀取檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-138">Grants the right to read file attributes.</span></span>
+
+</dd> <dt>
+
+<span id="FILE_WRITE_ATTRIBUTES"></span><span id="file_write_attributes"></span>
+
+<span data-ttu-id="f8eaa-139"><span id="FILE_WRITE_ATTRIBUTES"></span><span id="file_write_attributes"></span>**檔案 \_將 \_ 屬性寫入** (256) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-139"><span id="FILE_WRITE_ATTRIBUTES"></span><span id="file_write_attributes"></span>**FILE\_WRITE\_ATTRIBUTES** (256)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-140">授與變更檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-140">Grants the right to change file attributes.</span></span>
+
+</dd> <dt>
+
+<span id="DELETE"></span><span id="delete"></span>
+
+<span data-ttu-id="f8eaa-141"><span id="DELETE"></span><span id="delete"></span>**刪除** (65536) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-141"><span id="DELETE"></span><span id="delete"></span>**DELETE** (65536)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-142">授與刪除存取權。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-142">Grants delete access.</span></span>
+
+</dd> <dt>
+
+<span id="READ_CONTROL"></span><span id="read_control"></span>
+
+<span data-ttu-id="f8eaa-143"><span id="READ_CONTROL"></span><span id="read_control"></span>**讀取 \_控制** (131072) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-143"><span id="READ_CONTROL"></span><span id="read_control"></span>**READ\_CONTROL** (131072)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-144">授與安全描述項和擁有者的讀取權限。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-144">Grants read access to the security descriptor and owner.</span></span>
+
+</dd> <dt>
+
+<span id="WRITE_DAC"></span><span id="write_dac"></span>
+
+<span data-ttu-id="f8eaa-145"><span id="WRITE_DAC"></span><span id="write_dac"></span>**寫入 \_DAC** (262144) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-145"><span id="WRITE_DAC"></span><span id="write_dac"></span>**WRITE\_DAC** (262144)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-146">授與任意存取控制清單 (DACL) 的寫入權限。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-146">Grants write access to the discretionary access control list (DACL).</span></span>
+
+</dd> <dt>
+
+<span id="WRITE_OWNER"></span><span id="write_owner"></span>
+
+<span data-ttu-id="f8eaa-147"><span id="WRITE_OWNER"></span><span id="write_owner"></span>**寫入 \_擁有** 者 (524288) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-147"><span id="WRITE_OWNER"></span><span id="write_owner"></span>**WRITE\_OWNER** (524288)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-148">指派寫入擁有者。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-148">Assigns the write owner.</span></span>
+
+</dd> <dt>
+
+<span id="SYNCHRONIZE"></span><span id="synchronize"></span>
+
+<span data-ttu-id="f8eaa-149"><span id="SYNCHRONIZE"></span><span id="synchronize"></span>**同步處理** (1048576) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-149"><span id="SYNCHRONIZE"></span><span id="synchronize"></span>**SYNCHRONIZE** (1048576)</span></span>
+
+
+</dt> <dd>
+
+<span data-ttu-id="f8eaa-150">同步存取，並允許進程等候物件進入已發出信號的狀態。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-150">Synchronizes access and allows a process to wait for an object to enter the signaled state.</span></span>
+
+</dd> </dl>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-151">**標題**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-151">**Caption**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-152">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-152">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-153">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-153">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-154">限定詞： [**MaxLen**](../wmisdk/standard-qualifiers.md) (64) ， [**DisplayName**](../wmisdk/standard-qualifiers.md) ( "Caption" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-154">Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Caption")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-155">物件的簡短文字描述。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-155">A short textual description of the object.</span></span>
+
+<span data-ttu-id="f8eaa-156">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-156">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-157">**註解**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-157">**Comment**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-158">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-158">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-159">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-159">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-160">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路結構 \| [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| *lpComment*" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-160">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)\|*lpComment*")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-161">網路提供者所提供的批註。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-161">Comment supplied by the network provider.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-162">**ConnectionState**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-162">**ConnectionState**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-163">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-163">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-164">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-164">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-165">限定詞： [**MaxLen**](../wmisdk/standard-qualifiers.md) (20) ， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| 網路管理結構 \| [**使用 \_ INFO \_ 1**](/windows/win32/api/lmuse/ns-lmuse-use_info_1) \| **ui1 \_ status**" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-165">Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (20), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**USE\_INFO\_1**](/windows/win32/api/lmuse/ns-lmuse-use_info_1)\|**ui1\_status**")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-166">網路連接的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-166">Current state of the network connection.</span></span>
+
+<dt>
+
+<span id="Connected"></span><span id="connected"></span><span id="CONNECTED"></span>
+
+<span data-ttu-id="f8eaa-167">**連接** 的 ( 「已連線」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-167">**Connected** ("Connected")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Error"></span><span id="error"></span><span id="ERROR"></span>
+
+<span data-ttu-id="f8eaa-168">**錯誤** ( 「錯誤」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-168">**Error** ("Error")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Paused"></span><span id="paused"></span><span id="PAUSED"></span>
+
+<span data-ttu-id="f8eaa-169">**暫停** ( 「已暫停」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-169">**Paused** ("Paused")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Disconnected"></span><span id="disconnected"></span><span id="DISCONNECTED"></span>
+
+<span data-ttu-id="f8eaa-170">**中斷** 連線 ( 「已中斷連線」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-170">**Disconnected** ("Disconnected")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Connecting"></span><span id="connecting"></span><span id="CONNECTING"></span>
+
+<span data-ttu-id="f8eaa-171">**連接** ( 「正在連接」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-171">**Connecting** ("Connecting")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Reconnecting"></span><span id="reconnecting"></span><span id="RECONNECTING"></span>
+
+<span data-ttu-id="f8eaa-172">重新 **連接** ( 「重新連接」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-172">**Reconnecting** ("Reconnecting")</span></span>
+
+
+</dt> <dd></dd> </dl>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-173">**ConnectionType**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-173">**ConnectionType**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-174">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-174">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-175">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-175">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-176">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路結構 \| [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **dwScope**" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-176">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)\|**dwScope**")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-177">用來連線到網路之連接的持續性類型。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-177">Persistence type of the connection used for connecting to the network.</span></span>
+
+<dt>
+
+<span id="Current_Connection"></span><span id="current_connection"></span><span id="CURRENT_CONNECTION"></span>
+
+<span data-ttu-id="f8eaa-178">**目前的連接** ( 目前的連線」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-178">**Current Connection** ("Current Connection")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Persistent_Connection"></span><span id="persistent_connection"></span><span id="PERSISTENT_CONNECTION"></span>
+
+<span data-ttu-id="f8eaa-179">**持續** 連線 ( 「持續連線」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-179">**Persistent Connection** ("Persistent Connection")</span></span>
+
+
+</dt> <dd></dd> </dl>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-180">**說明**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-180">**Description**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-181">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-181">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-182">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-182">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-183">限定詞： [**DisplayName**](../wmisdk/standard-qualifiers.md) ( "Description" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-183">Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Description")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-184">物件的文字描述。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-184">A textual description of the object.</span></span>
+
+<span data-ttu-id="f8eaa-185">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-185">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-186">**DisplayType**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-186">**DisplayType**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-187">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-187">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-188">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-188">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-189">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路結構 \| [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **dwDisplayType**" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-189">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)\|**dwDisplayType**")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-190">網路物件應顯示在網路流覽使用者介面中。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-190">Network object should be displayed in a network browsing user interface.</span></span>
+
+<dt>
+
+<span id="Domain"></span><span id="domain"></span><span id="DOMAIN"></span>
+
+<span data-ttu-id="f8eaa-191">**網域** ( "domain" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-191">**Domain** ("Domain")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Generic"></span><span id="generic"></span><span id="GENERIC"></span>
+
+<span data-ttu-id="f8eaa-192">**泛型** ( "generic" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-192">**Generic** ("Generic")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Server"></span><span id="server"></span><span id="SERVER"></span>
+
+<span data-ttu-id="f8eaa-193">**伺服器** ( "server" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-193">**Server** ("Server")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Share"></span><span id="share"></span><span id="SHARE"></span>
+
+<span data-ttu-id="f8eaa-194">**共用** ( 「共用」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-194">**Share** ("Share")</span></span>
+
+
+</dt> <dd></dd> </dl>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-195">**InstallDate**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-195">**InstallDate**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-196">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-196">Data type: **datetime**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-197">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-197">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-198">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "MIF。DMTF \| 元件 \| 001.5 ") ， [**DisplayName**](../wmisdk/standard-qualifiers.md) (" 安裝日期 ") </span><span class="sxs-lookup"><span data-stu-id="f8eaa-198">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Install Date")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-199">指出物件的安裝時間。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-199">Indicates when the object was installed.</span></span> <span data-ttu-id="f8eaa-200">缺少值並不表示物件未安裝。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-200">Lack of a value does not indicate that the object is not installed.</span></span>
+
+<span data-ttu-id="f8eaa-201">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-201">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-202">**LocalName**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-202">**LocalName**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-203">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-203">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-204">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-204">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-205">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路結構 \| [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpLocalName**" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-205">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)\|**lpLocalName**")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-206">已連線網路裝置的本機名稱。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-206">Local name of the connected network device.</span></span>
+
+<span data-ttu-id="f8eaa-207">範例： "c： \\ public"</span><span class="sxs-lookup"><span data-stu-id="f8eaa-207">Example: "c:\\public"</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-208">**名稱**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-208">**Name**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-209">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-209">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-210">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-210">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-211">限定詞： [**key**](../wmisdk/key-qualifier.md)、 [**Override**](../wmisdk/standard-qualifiers.md) ( "Name" ) 、 [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路結構 \| [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-211">Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-212">目前網路連接的名稱。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-212">Name of the current network connection.</span></span> <span data-ttu-id="f8eaa-213">它是 **RemoteName** 和 **LocalName** 中的值組合。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-213">It is the combination of the values in **RemoteName** and **LocalName**.</span></span>
+
+<span data-ttu-id="f8eaa-214">範例： " \\ \\ NTRELEASE (c： \\ public) "</span><span class="sxs-lookup"><span data-stu-id="f8eaa-214">Example: "\\\\NTRELEASE (c:\\public)"</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-215">**持續**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-215">**Persistent**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-216">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-216">Data type: **boolean**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-217">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-217">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-218">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路功能 \| [**WNetEnumResource**](/windows/win32/api/winnetwk/nf-winnetwk-wnetenumresourcea)" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-218">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Functions\|[**WNetEnumResource**](/windows/win32/api/winnetwk/nf-winnetwk-wnetenumresourcea)")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-219">作業系統會在下一次登入時自動重新連接連線。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-219">Connection will be reconnected automatically by the operating system on the next logon.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-220">**ProviderName**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-220">**ProviderName**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-221">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-221">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-222">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-222">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-223">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路結構 \| [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpProvider**" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-223">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)\|**lpProvider**")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-224">擁有資源的提供者名稱。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-224">Name of the provider that owns the resource.</span></span> <span data-ttu-id="f8eaa-225">如果提供者名稱未知，則這個屬性可以是 **Null** 。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-225">This property can be **NULL** if the provider name is unknown.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-226">**RemoteName**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-226">**RemoteName**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-227">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-227">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-228">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-228">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-229">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路結構 \| [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpRemoteName**" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-229">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)\|**lpRemoteName**")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-230">網路資源的遠端網路資源名稱。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-230">Remote network resource name for a network resource.</span></span> <span data-ttu-id="f8eaa-231">若為目前或持續連線， **RemoteName** 會在 **LocalName** 屬性中包含與值名稱相關聯的網路名稱。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-231">For a current or persistent connection, **RemoteName** contains the network name associated with the name of the value in the **LocalName** property.</span></span> <span data-ttu-id="f8eaa-232">**RemoteName** 中的名稱必須遵循網路提供者的命名慣例。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-232">The name in **RemoteName** must follow the network provider's naming conventions.</span></span>
+
+<span data-ttu-id="f8eaa-233">範例： " \\ \\ NTRELEASE"</span><span class="sxs-lookup"><span data-stu-id="f8eaa-233">Example: "\\\\NTRELEASE"</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-234">**[RemotePath]**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-234">**RemotePath**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-235">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-235">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-236">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-236">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-237">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路結構 \| [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpRemoteName**" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-237">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)\|**lpRemoteName**")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-238">網路資源的完整路徑。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-238">Full path to the network resource.</span></span>
+
+<span data-ttu-id="f8eaa-239">範例： " \\ \\ infosrv1 \\ public"</span><span class="sxs-lookup"><span data-stu-id="f8eaa-239">Example: "\\\\infosrv1\\public"</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-240">**ResourceType**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-240">**ResourceType**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-241">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-241">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-242">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-242">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-243">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路結構 \| [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **dwType**" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-243">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)\|**dwType**")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-244">要列舉或連接的資源類型。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-244">Type of resource to enumerate or connect to.</span></span>
+
+<dt>
+
+<span id="Disk"></span><span id="disk"></span><span id="DISK"></span>
+
+<span data-ttu-id="f8eaa-245">**磁片** ( 「磁片」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-245">**Disk** ("Disk")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Print"></span><span id="print"></span><span id="PRINT"></span>
+
+<span data-ttu-id="f8eaa-246">**列印** ( "print" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-246">**Print** ("Print")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Any"></span><span id="any"></span><span id="ANY"></span>
+
+<span data-ttu-id="f8eaa-247">**任何** ( 「任何」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-247">**Any** ("Any")</span></span>
+
+
+</dt> <dd></dd> </dl>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-248">**狀態**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-248">**Status**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-249">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-249">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-250">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-250">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-251">限定詞： [**MaxLen**](../wmisdk/standard-qualifiers.md) (10) ， [**DisplayName**](../wmisdk/standard-qualifiers.md) ( "Status" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-251">Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (10), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Status")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-252">表示物件目前狀態的字串。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-252">String that indicates the current status of the object.</span></span> <span data-ttu-id="f8eaa-253">您可以定義操作和非運作狀態。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-253">Operational and non-operational status can be defined.</span></span> <span data-ttu-id="f8eaa-254">操作狀態可以包含「確定」、「降級」和「Pred 失敗」。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-254">Operational status can include "OK", "Degraded", and "Pred Fail".</span></span> <span data-ttu-id="f8eaa-255">「Pred 失敗」表示專案正常運作，但正在預測失敗 (例如，啟用智慧型硬碟) 。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-255">"Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).</span></span>
+
+<span data-ttu-id="f8eaa-256">非操作狀態可能包括「錯誤」、「開始」、「正在停止」和「服務」。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-256">Non-operational status can include "Error", "Starting", "Stopping", and "Service".</span></span> <span data-ttu-id="f8eaa-257">「服務」可以在磁片鏡像重新同步處理、重載使用者權限清單或其他系統管理工作時套用。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-257">"Service" can apply during disk mirror-resilvering, reloading a user permissions list, or other administrative work.</span></span> <span data-ttu-id="f8eaa-258">並非所有這類工作都在線上，但是受控元素不是「確定」，也不是其中一個其他狀態。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-258">Not all such work is online, but the managed element is neither "OK" nor in one of the other states.</span></span>
+
+<span data-ttu-id="f8eaa-259">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-259">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+
+<span data-ttu-id="f8eaa-260">包括下列值：</span><span class="sxs-lookup"><span data-stu-id="f8eaa-260">Values include the following:</span></span>
+
+<dt>
+
+<span id="OK"></span><span id="ok"></span>
+
+<span data-ttu-id="f8eaa-261">**確定** ( [確定] ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-261">**OK** ("OK")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Error"></span><span id="error"></span><span id="ERROR"></span>
+
+<span data-ttu-id="f8eaa-262">**錯誤** ( 「錯誤」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-262">**Error** ("Error")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>
+
+<span data-ttu-id="f8eaa-263">**降級** ( 「降級」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-263">**Degraded** ("Degraded")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
+
+<span data-ttu-id="f8eaa-264">**未知** 的 ( 「未知」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-264">**Unknown** ("Unknown")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Pred_Fail"></span><span id="pred_fail"></span><span id="PRED_FAIL"></span>
+
+<span data-ttu-id="f8eaa-265">**Pred 失敗** ( 「Pred 失敗」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-265">**Pred Fail** ("Pred Fail")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>
+
+<span data-ttu-id="f8eaa-266">**開始** ( 「開始」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-266">**Starting** ("Starting")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>
+
+<span data-ttu-id="f8eaa-267">**停止** ( 「正在停止」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-267">**Stopping** ("Stopping")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Service"></span><span id="service"></span><span id="SERVICE"></span>
+
+<span data-ttu-id="f8eaa-268">**服務** ( 「服務」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-268">**Service** ("Service")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>
+
+<span data-ttu-id="f8eaa-269">**壓力** ( 「壓力」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-269">**Stressed** ("Stressed")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="NonRecover"></span><span id="nonrecover"></span><span id="NONRECOVER"></span>
+
+<span data-ttu-id="f8eaa-270">**NonRecover** ( "NonRecover" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-270">**NonRecover** ("NonRecover")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>
+
+<span data-ttu-id="f8eaa-271">**沒有連絡人** ( 「沒有連絡人」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-271">**No Contact** ("No Contact")</span></span>
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Lost_Comm"></span><span id="lost_comm"></span><span id="LOST_COMM"></span>
+
+<span data-ttu-id="f8eaa-272">**遺失的 comm** ( 「遺失的通訊」 ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-272">**Lost Comm** ("Lost Comm")</span></span>
+
+
+</dt> <dd></dd> </dl>
+
+</dd> <dt>
+
+<span data-ttu-id="f8eaa-273">**使用者名稱**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-273">**UserName**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="f8eaa-274">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-274">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-275">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f8eaa-275">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="f8eaa-276">限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Windows 網路功能 \| [**WNetGetUser**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetusera)" ) </span><span class="sxs-lookup"><span data-stu-id="f8eaa-276">Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Windows Networking Functions\|[**WNetGetUser**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetusera)")</span></span>
+</dt> </dl>
+
+<span data-ttu-id="f8eaa-277">用來建立網路連線的使用者名稱或預設使用者名稱。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-277">User name or the default user name used to establish a network connection.</span></span>
+
+<span data-ttu-id="f8eaa-278">範例： "SYSTEM"</span><span class="sxs-lookup"><span data-stu-id="f8eaa-278">Example: "SYSTEM"</span></span>
+
+</dd> </dl>
+
+## <a name="remarks"></a><span data-ttu-id="f8eaa-279">備註</span><span class="sxs-lookup"><span data-stu-id="f8eaa-279">Remarks</span></span>
+
+<span data-ttu-id="f8eaa-280">**Win32 \_ NetworkConnection** 類別衍生自 [**CIM \_ LogicalElement**](cim-logicalelement.md)。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-280">The **Win32\_NetworkConnection** class is derived from [**CIM\_LogicalElement**](cim-logicalelement.md).</span></span>
+
+## <a name="examples"></a><span data-ttu-id="f8eaa-281">範例</span><span class="sxs-lookup"><span data-stu-id="f8eaa-281">Examples</span></span>
+
+<span data-ttu-id="f8eaa-282">下列 VBScript 程式碼範例會抓取局域網路連接的資訊。</span><span class="sxs-lookup"><span data-stu-id="f8eaa-282">The following VBScript code sample retrieves information on the local network connection.</span></span>
+
+
+```VB
+On Error Resume Next
+strComputer = "."
+Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\Root\CIMv2")
+Set colItems = objWMIService.ExecQuery("Select * from Win32_NetworkConnection",,48)
+For Each objItem in colItems
+    Wscript.Echo "AccessMask: " & objItem.AccessMask
+    Wscript.Echo "Caption: " & objItem.Caption
+    Wscript.Echo "Comment: " & objItem.Comment
+    Wscript.Echo "ConnectionState: " & objItem.ConnectionState
+    Wscript.Echo "ConnectionType: " & objItem.ConnectionType
+    Wscript.Echo "Description: " & objItem.Description
+    Wscript.Echo "DisplayType: " & objItem.DisplayType
+    Wscript.Echo "InstallDate: " & objItem.InstallDate
+    Wscript.Echo "LocalName: " & objItem.LocalName
+    Wscript.Echo "Name: " & objItem.Name
+    Wscript.Echo "Persistent: " & objItem.Persistent
+    Wscript.Echo "ProviderName: " & objItem.ProviderName
+    Wscript.Echo "RemoteName: " & objItem.RemoteName
+    Wscript.Echo "RemotePath: " & objItem.RemotePath
+    Wscript.Echo "ResourceType: " & objItem.ResourceType
+    Wscript.Echo "Status: " & objItem.Status
+    Wscript.Echo "UserName: " & objItem.UserName
+Next
+```
+
+
+
+## <a name="requirements"></a><span data-ttu-id="f8eaa-283">規格需求</span><span class="sxs-lookup"><span data-stu-id="f8eaa-283">Requirements</span></span>
+
+
+
+| <span data-ttu-id="f8eaa-284">需求</span><span class="sxs-lookup"><span data-stu-id="f8eaa-284">Requirement</span></span> | <span data-ttu-id="f8eaa-285">值</span><span class="sxs-lookup"><span data-stu-id="f8eaa-285">Value</span></span> |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| <span data-ttu-id="f8eaa-286">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f8eaa-286">Minimum supported client</span></span><br/> | <span data-ttu-id="f8eaa-287">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="f8eaa-287">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="f8eaa-288">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f8eaa-288">Minimum supported server</span></span><br/> | <span data-ttu-id="f8eaa-289">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="f8eaa-289">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="f8eaa-290">命名空間</span><span class="sxs-lookup"><span data-stu-id="f8eaa-290">Namespace</span></span><br/>                | <span data-ttu-id="f8eaa-291">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="f8eaa-291">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="f8eaa-292">MOF</span><span class="sxs-lookup"><span data-stu-id="f8eaa-292">MOF</span></span><br/>                      | <dl> <span data-ttu-id="f8eaa-293"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="f8eaa-293"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="f8eaa-294">DLL</span><span class="sxs-lookup"><span data-stu-id="f8eaa-294">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f8eaa-295"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f8eaa-295"><dt>CIMWin32.dll</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="f8eaa-296">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f8eaa-296">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="f8eaa-297">**CIM \_ LogicalElement**</span><span class="sxs-lookup"><span data-stu-id="f8eaa-297">**CIM\_LogicalElement**</span></span>](cim-logicalelement.md)
+</dt> <dt>
+
+[<span data-ttu-id="f8eaa-298">作業系統類別</span><span class="sxs-lookup"><span data-stu-id="f8eaa-298">Operating System Classes</span></span>](./operating-system-classes.md)
+</dt> </dl>
+
+ 
+
+ 

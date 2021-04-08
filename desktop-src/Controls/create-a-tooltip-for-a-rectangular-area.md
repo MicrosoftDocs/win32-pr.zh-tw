@@ -11,30 +11,30 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671968"
 ---
-# <a name="how-to-create-a-tooltip-for-a-rectangular-area"></a><span data-ttu-id="e8130-103">如何建立矩形區域的工具提示</span><span class="sxs-lookup"><span data-stu-id="e8130-103">How to Create a Tooltip for a Rectangular Area</span></span>
+# <a name="how-to-create-a-tooltip-for-a-rectangular-area"></a><span data-ttu-id="53520-103">如何建立矩形區域的工具提示</span><span class="sxs-lookup"><span data-stu-id="53520-103">How to Create a Tooltip for a Rectangular Area</span></span>
 
-<span data-ttu-id="e8130-104">下列範例示範如何建立視窗整個工作區的標準工具提示控制項。</span><span class="sxs-lookup"><span data-stu-id="e8130-104">The following example demonstrates how to create a standard tooltip control for a window's entire client area.</span></span>
+<span data-ttu-id="53520-104">下列範例示範如何建立視窗整個工作區的標準工具提示控制項。</span><span class="sxs-lookup"><span data-stu-id="53520-104">The following example demonstrates how to create a standard tooltip control for a window's entire client area.</span></span>
 
-<span data-ttu-id="e8130-105">下圖顯示當滑鼠指標位於對話方塊的用戶端視窗內時，所顯示的工具提示。</span><span class="sxs-lookup"><span data-stu-id="e8130-105">The following illustration shows the tooltip that is displayed when the mouse pointer is within the client window of a dialog box.</span></span> <span data-ttu-id="e8130-106">對話方塊的控制碼已傳遞至上述範例中所示的函式。</span><span class="sxs-lookup"><span data-stu-id="e8130-106">The handle of the dialog box was passed to the function shown in the preceding example.</span></span>
+<span data-ttu-id="53520-105">下圖顯示當滑鼠指標位於對話方塊的用戶端視窗內時，所顯示的工具提示。</span><span class="sxs-lookup"><span data-stu-id="53520-105">The following illustration shows the tooltip that is displayed when the mouse pointer is within the client window of a dialog box.</span></span> <span data-ttu-id="53520-106">對話方塊的控制碼已傳遞至上述範例中所示的函式。</span><span class="sxs-lookup"><span data-stu-id="53520-106">The handle of the dialog box was passed to the function shown in the preceding example.</span></span>
 
 ![對話方塊的螢幕擷取畫面;滑鼠指標位於用戶端視窗內，並顯示工具提示](images/tt-rectangle.png)
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="e8130-108">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="e8130-108">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="53520-108">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="53520-108">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="e8130-109">技術</span><span class="sxs-lookup"><span data-stu-id="e8130-109">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="53520-109">技術</span><span class="sxs-lookup"><span data-stu-id="53520-109">Technologies</span></span>
 
--   [<span data-ttu-id="e8130-110">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="e8130-110">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="53520-110">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="53520-110">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="e8130-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="e8130-111">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="53520-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="53520-111">Prerequisites</span></span>
 
--   <span data-ttu-id="e8130-112">C/C++</span><span class="sxs-lookup"><span data-stu-id="e8130-112">C/C++</span></span>
--   <span data-ttu-id="e8130-113">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="e8130-113">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="53520-112">C/C++</span><span class="sxs-lookup"><span data-stu-id="53520-112">C/C++</span></span>
+-   <span data-ttu-id="53520-113">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="53520-113">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="e8130-114">指示</span><span class="sxs-lookup"><span data-stu-id="e8130-114">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="53520-114">指示</span><span class="sxs-lookup"><span data-stu-id="53520-114">Instructions</span></span>
 
-### <a name="create-a-tooltip-for-a-rectangular-area"></a><span data-ttu-id="e8130-115">建立矩形區域的工具提示</span><span class="sxs-lookup"><span data-stu-id="e8130-115">Create a Tooltip for a Rectangular Area</span></span>
+### <a name="create-a-tooltip-for-a-rectangular-area"></a><span data-ttu-id="53520-115">建立矩形區域的工具提示</span><span class="sxs-lookup"><span data-stu-id="53520-115">Create a Tooltip for a Rectangular Area</span></span>
 
-<span data-ttu-id="e8130-116">下列範例示範如何建立視窗整個工作區的標準工具提示控制項。</span><span class="sxs-lookup"><span data-stu-id="e8130-116">The following example demonstrates how to create a standard tooltip control for a window's entire client area.</span></span>
+<span data-ttu-id="53520-116">下列範例示範如何建立視窗整個工作區的標準工具提示控制項。</span><span class="sxs-lookup"><span data-stu-id="53520-116">The following example demonstrates how to create a standard tooltip control for a window's entire client area.</span></span>
 
 
 ```C++
@@ -67,11 +67,11 @@ void CreateToolTipForRect(HWND hwndParent)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="e8130-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="e8130-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="53520-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="53520-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e8130-118">使用工具提示控制項</span><span class="sxs-lookup"><span data-stu-id="e8130-118">Using Tooltip Controls</span></span>](using-tooltip-contro.md)
+[<span data-ttu-id="53520-118">使用工具提示控制項</span><span class="sxs-lookup"><span data-stu-id="53520-118">Using Tooltip Controls</span></span>](using-tooltip-contro.md)
 </dt> </dl>
 
  

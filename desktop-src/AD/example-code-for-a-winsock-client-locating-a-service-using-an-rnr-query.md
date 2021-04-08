@@ -16,9 +16,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671324"
 ---
-# <a name="example-code-for-locating-a-service-using-an-rnr-query"></a><span data-ttu-id="9f7f2-106">使用 RnR 查詢找出服務的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="9f7f2-106">Example Code for Locating a Service Using an RnR Query</span></span>
+# <a name="example-code-for-locating-a-service-using-an-rnr-query"></a><span data-ttu-id="331f4-106">使用 RnR 查詢找出服務的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="331f4-106">Example Code for Locating a Service Using an RnR Query</span></span>
 
-<span data-ttu-id="9f7f2-107">下列程式碼範例會找出範例 Winsock 服務並連接至該服務。</span><span class="sxs-lookup"><span data-stu-id="9f7f2-107">The following code example locates the example Winsock service and connects to it.</span></span>
+<span data-ttu-id="331f4-107">下列程式碼範例會找出範例 Winsock 服務並連接至該服務。</span><span class="sxs-lookup"><span data-stu-id="331f4-107">The following code example locates the example Winsock service and connects to it.</span></span>
 
 
 ```C++

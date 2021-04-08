@@ -17,21 +17,21 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839536"
 ---
-# <a name="creating-the-volumethumb-file"></a><span data-ttu-id="1f32f-108">建立 VolumeThumb 檔案</span><span class="sxs-lookup"><span data-stu-id="1f32f-108">Creating the VolumeThumb File</span></span>
+# <a name="creating-the-volumethumb-file"></a><span data-ttu-id="3b9c8-108">建立 VolumeThumb 檔案</span><span class="sxs-lookup"><span data-stu-id="3b9c8-108">Creating the VolumeThumb File</span></span>
 
-<span data-ttu-id="1f32f-109">VolumeThumb 檔案包含將用於磁片區的捲軸的捲動方塊影像。</span><span class="sxs-lookup"><span data-stu-id="1f32f-109">The VolumeThumb file contains the thumb image that will be used with a Volume trackbar.</span></span>
+<span data-ttu-id="3b9c8-109">VolumeThumb 檔案包含將用於磁片區的捲軸的捲動方塊影像。</span><span class="sxs-lookup"><span data-stu-id="3b9c8-109">The VolumeThumb file contains the thumb image that will be used with a Volume trackbar.</span></span>
 
-<span data-ttu-id="1f32f-110">下圖是 VolumeThumb 檔。</span><span class="sxs-lookup"><span data-stu-id="1f32f-110">The following image is the VolumeThumb file.</span></span>
+<span data-ttu-id="3b9c8-110">下圖是 VolumeThumb 檔。</span><span class="sxs-lookup"><span data-stu-id="3b9c8-110">The following image is the VolumeThumb file.</span></span>
 
 ![volumethumb 檔案](images/ceswmvol.png)
 
-<span data-ttu-id="1f32f-112">這包含兩個 thumb 影像。</span><span class="sxs-lookup"><span data-stu-id="1f32f-112">This contains the two thumb images.</span></span> <span data-ttu-id="1f32f-113">左邊的是一般狀態，右側的則是已推送的狀態。</span><span class="sxs-lookup"><span data-stu-id="1f32f-113">The one on the left is the normal state, and the one on the right is the pushed state.</span></span> <span data-ttu-id="1f32f-114">沒有已停用的狀態。</span><span class="sxs-lookup"><span data-stu-id="1f32f-114">There is no disabled state.</span></span> <span data-ttu-id="1f32f-115">如果停用了 [已停用]，則會從超級檔案顯示已停用的程式背景影像。</span><span class="sxs-lookup"><span data-stu-id="1f32f-115">If a trackbar is disabled, the disabled background image of the trackbar is displayed from the Super file.</span></span>
+<span data-ttu-id="3b9c8-112">這包含兩個 thumb 影像。</span><span class="sxs-lookup"><span data-stu-id="3b9c8-112">This contains the two thumb images.</span></span> <span data-ttu-id="3b9c8-113">左邊的是一般狀態，右側的則是已推送的狀態。</span><span class="sxs-lookup"><span data-stu-id="3b9c8-113">The one on the left is the normal state, and the one on the right is the pushed state.</span></span> <span data-ttu-id="3b9c8-114">沒有已停用的狀態。</span><span class="sxs-lookup"><span data-stu-id="3b9c8-114">There is no disabled state.</span></span> <span data-ttu-id="3b9c8-115">如果停用了 [已停用]，則會從超級檔案顯示已停用的程式背景影像。</span><span class="sxs-lookup"><span data-stu-id="3b9c8-115">If a trackbar is disabled, the disabled background image of the trackbar is displayed from the Super file.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="1f32f-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="1f32f-116">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3b9c8-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="3b9c8-116">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="1f32f-117">**建立藝術**</span><span class="sxs-lookup"><span data-stu-id="1f32f-117">**Creating the Art**</span></span>](creating-the-art.md)
+[<span data-ttu-id="3b9c8-117">**建立藝術**</span><span class="sxs-lookup"><span data-stu-id="3b9c8-117">**Creating the Art**</span></span>](creating-the-art.md)
 </dt> </dl>
 
  

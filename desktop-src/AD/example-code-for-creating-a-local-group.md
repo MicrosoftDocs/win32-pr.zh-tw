@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671315"
 ---
-# <a name="example-code-for-creating-a-local-group"></a><span data-ttu-id="1ee45-104">建立本機群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="1ee45-104">Example Code for Creating a Local Group</span></span>
+# <a name="example-code-for-creating-a-local-group"></a><span data-ttu-id="57630-104">建立本機群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="57630-104">Example Code for Creating a Local Group</span></span>
 
-<span data-ttu-id="1ee45-105">下列 c + + 程式碼範例會在成員伺服器上建立本機群組，或在 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦上建立本機群組。</span><span class="sxs-lookup"><span data-stu-id="1ee45-105">The following C++ code example creates a local group on a member server or a computer running on Windows NT Workstation or Windows 2000 Professional.</span></span>
+<span data-ttu-id="57630-105">下列 c + + 程式碼範例會在成員伺服器上建立本機群組，或在 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦上建立本機群組。</span><span class="sxs-lookup"><span data-stu-id="57630-105">The following C++ code example creates a local group on a member server or a computer running on Windows NT Workstation or Windows 2000 Professional.</span></span>
 
 
 ```C++
@@ -145,7 +145,7 @@ HRESULT CreateMachineLocalGroup(
 
 
 
-<span data-ttu-id="1ee45-106">下列 Visual Basic 程式碼範例會在成員伺服器上建立本機群組，或在 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦上建立本機群組。</span><span class="sxs-lookup"><span data-stu-id="1ee45-106">The following Visual Basic code example creates a local group on a member server or a computer running on Windows NT Workstation or Windows 2000 Professional.</span></span>
+<span data-ttu-id="57630-106">下列 Visual Basic 程式碼範例會在成員伺服器上建立本機群組，或在 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦上建立本機群組。</span><span class="sxs-lookup"><span data-stu-id="57630-106">The following Visual Basic code example creates a local group on a member server or a computer running on Windows NT Workstation or Windows 2000 Professional.</span></span>
 
 
 ```VB

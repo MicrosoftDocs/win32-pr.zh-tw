@@ -14,14 +14,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672147"
 ---
-# <a name="evaluators-reference"></a><span data-ttu-id="06d85-105">評估工具參考</span><span class="sxs-lookup"><span data-stu-id="06d85-105">Evaluators Reference</span></span>
+# <a name="evaluators-reference"></a><span data-ttu-id="133ca-105">評估工具參考</span><span class="sxs-lookup"><span data-stu-id="133ca-105">Evaluators Reference</span></span>
 
--   [<span data-ttu-id="06d85-106">**glEvalCoord**</span><span class="sxs-lookup"><span data-stu-id="06d85-106">**glEvalCoord**</span></span>](glevalcoord-functions.md)
--   [<span data-ttu-id="06d85-107">**glEvalMesh**</span><span class="sxs-lookup"><span data-stu-id="06d85-107">**glEvalMesh**</span></span>](glevalmesh-functions.md)
--   [<span data-ttu-id="06d85-108">**glEvalPoint**</span><span class="sxs-lookup"><span data-stu-id="06d85-108">**glEvalPoint**</span></span>](glevalpoint.md)
--   [<span data-ttu-id="06d85-109">**glMap1**</span><span class="sxs-lookup"><span data-stu-id="06d85-109">**glMap1**</span></span>](glmap1.md)
--   [<span data-ttu-id="06d85-110">**glMap2**</span><span class="sxs-lookup"><span data-stu-id="06d85-110">**glMap2**</span></span>](glmap2.md)
--   [<span data-ttu-id="06d85-111">**glMapGrid**</span><span class="sxs-lookup"><span data-stu-id="06d85-111">**glMapGrid**</span></span>](glmapgrid-functions.md)
+-   [<span data-ttu-id="133ca-106">**glEvalCoord**</span><span class="sxs-lookup"><span data-stu-id="133ca-106">**glEvalCoord**</span></span>](glevalcoord-functions.md)
+-   [<span data-ttu-id="133ca-107">**glEvalMesh**</span><span class="sxs-lookup"><span data-stu-id="133ca-107">**glEvalMesh**</span></span>](glevalmesh-functions.md)
+-   [<span data-ttu-id="133ca-108">**glEvalPoint**</span><span class="sxs-lookup"><span data-stu-id="133ca-108">**glEvalPoint**</span></span>](glevalpoint.md)
+-   [<span data-ttu-id="133ca-109">**glMap1**</span><span class="sxs-lookup"><span data-stu-id="133ca-109">**glMap1**</span></span>](glmap1.md)
+-   [<span data-ttu-id="133ca-110">**glMap2**</span><span class="sxs-lookup"><span data-stu-id="133ca-110">**glMap2**</span></span>](glmap2.md)
+-   [<span data-ttu-id="133ca-111">**glMapGrid**</span><span class="sxs-lookup"><span data-stu-id="133ca-111">**glMapGrid**</span></span>](glmapgrid-functions.md)
 
  
 

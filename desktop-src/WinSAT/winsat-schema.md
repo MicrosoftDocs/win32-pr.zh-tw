@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839659"
 ---
-# <a name="winsat-schema"></a><span data-ttu-id="e1cc8-103">WinSAT 架構</span><span class="sxs-lookup"><span data-stu-id="e1cc8-103">WinSAT Schema</span></span>
+# <a name="winsat-schema"></a><span data-ttu-id="e7862-103">WinSAT 架構</span><span class="sxs-lookup"><span data-stu-id="e7862-103">WinSAT Schema</span></span>
 
-<span data-ttu-id="e1cc8-104">\[在 Windows 8.1 之後，可能會變更或無法釋放 WinSAT 列舉。\]</span><span class="sxs-lookup"><span data-stu-id="e1cc8-104">\[WinSAT enumerations may be altered or unavailable for releases after Windows 8.1.\]</span></span>
+<span data-ttu-id="e7862-104">\[在 Windows 8.1 之後，可能會變更或無法釋放 WinSAT 列舉。\]</span><span class="sxs-lookup"><span data-stu-id="e7862-104">\[WinSAT enumerations may be altered or unavailable for releases after Windows 8.1.\]</span></span>
 
-<span data-ttu-id="e1cc8-105">您可以使用 Windows 系統評定工具 (WinSAT) 架構來判斷要執行的有效 XPath 查詢。</span><span class="sxs-lookup"><span data-stu-id="e1cc8-105">You can use the Windows System Assessment Tool (WinSAT) schema to determine valid XPath queries to run.</span></span> <span data-ttu-id="e1cc8-106">若要執行 XPath 查詢，請參閱下列其中一種方法：</span><span class="sxs-lookup"><span data-stu-id="e1cc8-106">To run an XPath query, see one of the following methods:</span></span>
+<span data-ttu-id="e7862-105">您可以使用 Windows 系統評定工具 (WinSAT) 架構來判斷要執行的有效 XPath 查詢。</span><span class="sxs-lookup"><span data-stu-id="e7862-105">You can use the Windows System Assessment Tool (WinSAT) schema to determine valid XPath queries to run.</span></span> <span data-ttu-id="e7862-106">若要執行 XPath 查詢，請參閱下列其中一種方法：</span><span class="sxs-lookup"><span data-stu-id="e7862-106">To run an XPath query, see one of the following methods:</span></span>
 
--   [<span data-ttu-id="e1cc8-107">**IQueryAllWinSATAssessments：： get \_ AllXML**</span><span class="sxs-lookup"><span data-stu-id="e1cc8-107">**IQueryAllWinSATAssessments::get\_AllXML**</span></span>](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml)
--   [<span data-ttu-id="e1cc8-108">**IQueryRecentWinSATAssessment：： get \_ XML**</span><span class="sxs-lookup"><span data-stu-id="e1cc8-108">**IQueryRecentWinSATAssessment::get\_XML**</span></span>](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml)
+-   [<span data-ttu-id="e7862-107">**IQueryAllWinSATAssessments：： get \_ AllXML**</span><span class="sxs-lookup"><span data-stu-id="e7862-107">**IQueryAllWinSATAssessments::get\_AllXML**</span></span>](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml)
+-   [<span data-ttu-id="e7862-108">**IQueryRecentWinSATAssessment：： get \_ XML**</span><span class="sxs-lookup"><span data-stu-id="e7862-108">**IQueryRecentWinSATAssessment::get\_XML**</span></span>](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml)
 
-<span data-ttu-id="e1cc8-109">當您呼叫 [**get \_ AllXML**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml)方法時， **WinSAT** 元素可將 **WinsatAssessments** 元素作為父元素。</span><span class="sxs-lookup"><span data-stu-id="e1cc8-109">The **WinSAT** element can have a **WinsatAssessments** element as a parent element when you call the [**get\_AllXML**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml) method.</span></span>
+<span data-ttu-id="e7862-109">當您呼叫 [**get \_ AllXML**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml)方法時， **WinSAT** 元素可將 **WinsatAssessments** 元素作為父元素。</span><span class="sxs-lookup"><span data-stu-id="e7862-109">The **WinSAT** element can have a **WinsatAssessments** element as a parent element when you call the [**get\_AllXML**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml) method.</span></span>
 
-<span data-ttu-id="e1cc8-110">以下是您可以用來判斷 XPath 的 WinSAT 架構。</span><span class="sxs-lookup"><span data-stu-id="e1cc8-110">The following is the WinSAT schema that you can use to determine the XPath.</span></span>
+<span data-ttu-id="e7862-110">以下是您可以用來判斷 XPath 的 WinSAT 架構。</span><span class="sxs-lookup"><span data-stu-id="e7862-110">The following is the WinSAT schema that you can use to determine the XPath.</span></span>
 
 
 ```xsd

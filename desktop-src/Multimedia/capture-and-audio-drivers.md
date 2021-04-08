@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671928"
 ---
-# <a name="capture-and-audio-drivers"></a><span data-ttu-id="febea-103">捕獲和音訊驅動程式</span><span class="sxs-lookup"><span data-stu-id="febea-103">Capture and Audio Drivers</span></span>
+# <a name="capture-and-audio-drivers"></a><span data-ttu-id="2a524-103">捕獲和音訊驅動程式</span><span class="sxs-lookup"><span data-stu-id="2a524-103">Capture and Audio Drivers</span></span>
 
-<span data-ttu-id="febea-104">捕捉驅動程式和基礎硬體可以決定影片捕獲的數個層面，包括可接受的影片來源、顯示選項、格式和壓縮選項。</span><span class="sxs-lookup"><span data-stu-id="febea-104">A capture driver and the underlying hardware can dictate several aspects of video capture, including acceptable video sources, display options, formats, and compression options.</span></span> <span data-ttu-id="febea-105">音訊驅動程式會指定音訊格式，以及搭配已捕捉音訊資料使用的選擇性壓縮選項。</span><span class="sxs-lookup"><span data-stu-id="febea-105">An audio driver specifies the audio format and an optional compression option used with captured audio data.</span></span>
+<span data-ttu-id="2a524-104">捕捉驅動程式和基礎硬體可以決定影片捕獲的數個層面，包括可接受的影片來源、顯示選項、格式和壓縮選項。</span><span class="sxs-lookup"><span data-stu-id="2a524-104">A capture driver and the underlying hardware can dictate several aspects of video capture, including acceptable video sources, display options, formats, and compression options.</span></span> <span data-ttu-id="2a524-105">音訊驅動程式會指定音訊格式，以及搭配已捕捉音訊資料使用的選擇性壓縮選項。</span><span class="sxs-lookup"><span data-stu-id="2a524-105">An audio driver specifies the audio format and an optional compression option used with captured audio data.</span></span>
 
  
 

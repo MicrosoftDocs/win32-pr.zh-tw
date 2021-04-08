@@ -22,11 +22,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839584"
 ---
-# <a name="example-code-for-redistribution-setup"></a><span data-ttu-id="a3afd-113">轉散發設定的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="a3afd-113">Example Code for Redistribution Setup</span></span>
+# <a name="example-code-for-redistribution-setup"></a><span data-ttu-id="5be3b-113">轉散發設定的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="5be3b-113">Example Code for Redistribution Setup</span></span>
 
-<span data-ttu-id="a3afd-114">當您在應用程式中包含轉散發套件時，當您在安裝程式常式中叫用轉散發套件時，可以使用/Q： A 旗標。</span><span class="sxs-lookup"><span data-stu-id="a3afd-114">When including the redistribution package in your application, you can use the /Q:A flag when you invoke the redistribution package in your setup routine.</span></span> <span data-ttu-id="a3afd-115">這會隱藏使用者介面 (UI) 。</span><span class="sxs-lookup"><span data-stu-id="a3afd-115">This suppresses the user interface (UI).</span></span>
+<span data-ttu-id="5be3b-114">當您在應用程式中包含轉散發套件時，當您在安裝程式常式中叫用轉散發套件時，可以使用/Q： A 旗標。</span><span class="sxs-lookup"><span data-stu-id="5be3b-114">When including the redistribution package in your application, you can use the /Q:A flag when you invoke the redistribution package in your setup routine.</span></span> <span data-ttu-id="5be3b-115">這會隱藏使用者介面 (UI) 。</span><span class="sxs-lookup"><span data-stu-id="5be3b-115">This suppresses the user interface (UI).</span></span>
 
-<span data-ttu-id="a3afd-116">下列範例程式碼可以在您的安裝程式常式中用來以無訊息模式執行轉散發套件，並在電腦必須重新開機時通知您的設定常式。</span><span class="sxs-lookup"><span data-stu-id="a3afd-116">The following example code can be used in your setup routine to run the redistribution packages in quiet mode and notify your setup routine when the computer must be restarted.</span></span>
+<span data-ttu-id="5be3b-116">下列範例程式碼可以在您的安裝程式常式中用來以無訊息模式執行轉散發套件，並在電腦必須重新開機時通知您的設定常式。</span><span class="sxs-lookup"><span data-stu-id="5be3b-116">The following example code can be used in your setup routine to run the redistribution packages in quiet mode and notify your setup routine when the computer must be restarted.</span></span>
 
 
 ```C++
@@ -207,11 +207,11 @@ BOOL SystemNeedsReboot( void )
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="a3afd-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="a3afd-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="5be3b-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="5be3b-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a3afd-118">**軟體轉散發**</span><span class="sxs-lookup"><span data-stu-id="a3afd-118">**Software Redistribution**</span></span>](software-redistribution.md)
+[<span data-ttu-id="5be3b-118">**軟體轉散發**</span><span class="sxs-lookup"><span data-stu-id="5be3b-118">**Software Redistribution**</span></span>](software-redistribution.md)
 </dt> </dl>
 
  

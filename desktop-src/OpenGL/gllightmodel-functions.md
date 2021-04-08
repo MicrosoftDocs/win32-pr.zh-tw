@@ -20,14 +20,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672088"
 ---
-# <a name="gllightmodel-functions"></a><span data-ttu-id="b35fe-111">glLightModel 函式</span><span class="sxs-lookup"><span data-stu-id="b35fe-111">glLightModel Functions</span></span>
+# <a name="gllightmodel-functions"></a><span data-ttu-id="ed6e0-111">glLightModel 函式</span><span class="sxs-lookup"><span data-stu-id="ed6e0-111">glLightModel Functions</span></span>
 
-<span data-ttu-id="b35fe-112">這些函數會設定光源模型參數：</span><span class="sxs-lookup"><span data-stu-id="b35fe-112">These functions set lighting model parameters:</span></span>
+<span data-ttu-id="ed6e0-112">這些函數會設定光源模型參數：</span><span class="sxs-lookup"><span data-stu-id="ed6e0-112">These functions set lighting model parameters:</span></span>
 
--   [<span data-ttu-id="b35fe-113">**glLightModelf**</span><span class="sxs-lookup"><span data-stu-id="b35fe-113">**glLightModelf**</span></span>](gllightmodelf.md)
--   [<span data-ttu-id="b35fe-114">**glLightModelfv**</span><span class="sxs-lookup"><span data-stu-id="b35fe-114">**glLightModelfv**</span></span>](gllightmodelfv.md)
--   [<span data-ttu-id="b35fe-115">**glLightModeli**</span><span class="sxs-lookup"><span data-stu-id="b35fe-115">**glLightModeli**</span></span>](gllightmodeli.md)
--   [<span data-ttu-id="b35fe-116">**glLightModeliv**</span><span class="sxs-lookup"><span data-stu-id="b35fe-116">**glLightModeliv**</span></span>](gllightmodeliv.md)
+-   [<span data-ttu-id="ed6e0-113">**glLightModelf**</span><span class="sxs-lookup"><span data-stu-id="ed6e0-113">**glLightModelf**</span></span>](gllightmodelf.md)
+-   [<span data-ttu-id="ed6e0-114">**glLightModelfv**</span><span class="sxs-lookup"><span data-stu-id="ed6e0-114">**glLightModelfv**</span></span>](gllightmodelfv.md)
+-   [<span data-ttu-id="ed6e0-115">**glLightModeli**</span><span class="sxs-lookup"><span data-stu-id="ed6e0-115">**glLightModeli**</span></span>](gllightmodeli.md)
+-   [<span data-ttu-id="ed6e0-116">**glLightModeliv**</span><span class="sxs-lookup"><span data-stu-id="ed6e0-116">**glLightModeliv**</span></span>](gllightmodeliv.md)
 
  
 
