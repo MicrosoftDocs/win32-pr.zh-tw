@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671680"
 ---
-# <a name="setting-l2tp-and-pptp-ports-of-local-rras-service"></a><span data-ttu-id="4ef02-105">設定本機 RRAS 服務的 L2TP 和 PPTP 埠</span><span class="sxs-lookup"><span data-stu-id="4ef02-105">Setting L2TP and PPTP ports of local RRAS service</span></span>
+# <a name="setting-l2tp-and-pptp-ports-of-local-rras-service"></a><span data-ttu-id="4e1cd-105">設定本機 RRAS 服務的 L2TP 和 PPTP 埠</span><span class="sxs-lookup"><span data-stu-id="4e1cd-105">Setting L2TP and PPTP ports of local RRAS service</span></span>
 
-<span data-ttu-id="4ef02-106">此範例會取得並設定本機 RRAS 服務的 L2TP 和 PPTP 埠設定。</span><span class="sxs-lookup"><span data-stu-id="4ef02-106">This example gets and sets the L2TP and PPTP port configuration of the local RRAS service.</span></span> <span data-ttu-id="4ef02-107">它會假設呼叫進程具有足夠的許可權可存取本機 RRAS 服務。</span><span class="sxs-lookup"><span data-stu-id="4ef02-107">It assumes the calling process has sufficient privileges to access the local RRAS service.</span></span>
+<span data-ttu-id="4e1cd-106">此範例會取得並設定本機 RRAS 服務的 L2TP 和 PPTP 埠設定。</span><span class="sxs-lookup"><span data-stu-id="4e1cd-106">This example gets and sets the L2TP and PPTP port configuration of the local RRAS service.</span></span> <span data-ttu-id="4e1cd-107">它會假設呼叫進程具有足夠的許可權可存取本機 RRAS 服務。</span><span class="sxs-lookup"><span data-stu-id="4e1cd-107">It assumes the calling process has sufficient privileges to access the local RRAS service.</span></span>
 
 
 ```C++

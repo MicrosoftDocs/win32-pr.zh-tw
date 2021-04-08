@@ -19,9 +19,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671307"
 ---
-# <a name="example-code-for-creating-users-on-a-member-server-or-windows-2000-professional"></a><span data-ttu-id="a3a11-104">在成員伺服器或 Windows 2000 Professional 上建立使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="a3a11-104">Example Code for Creating Users on a Member Server or Windows 2000 Professional</span></span>
+# <a name="example-code-for-creating-users-on-a-member-server-or-windows-2000-professional"></a><span data-ttu-id="52d71-104">在成員伺服器或 Windows 2000 Professional 上建立使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="52d71-104">Example Code for Creating Users on a Member Server or Windows 2000 Professional</span></span>
 
-<span data-ttu-id="a3a11-105">下列 Visual Basic 程式碼範例會在成員伺服器或 Windows 2000 Professional 上建立使用者。</span><span class="sxs-lookup"><span data-stu-id="a3a11-105">The following Visual Basic code example creates a user on a member server or Windows 2000 Professional.</span></span>
+<span data-ttu-id="52d71-105">下列 Visual Basic 程式碼範例會在成員伺服器或 Windows 2000 Professional 上建立使用者。</span><span class="sxs-lookup"><span data-stu-id="52d71-105">The following Visual Basic code example creates a user on a member server or Windows 2000 Professional.</span></span>
 
 
 ```VB

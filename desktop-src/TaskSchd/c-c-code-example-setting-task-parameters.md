@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672431"
 ---
-# <a name="cc-code-example-setting-task-parameters"></a><span data-ttu-id="cef92-105">C/c + + 程式碼範例：設定工作參數</span><span class="sxs-lookup"><span data-stu-id="cef92-105">C/C++ Code Example: Setting Task Parameters</span></span>
+# <a name="cc-code-example-setting-task-parameters"></a><span data-ttu-id="f447d-105">C/c + + 程式碼範例：設定工作參數</span><span class="sxs-lookup"><span data-stu-id="f447d-105">C/C++ Code Example: Setting Task Parameters</span></span>
 
-<span data-ttu-id="cef92-106">此範例會清除與已知工作相關聯的所有命令列參數。</span><span class="sxs-lookup"><span data-stu-id="cef92-106">This example clears all command-line parameters associated with a known task.</span></span> <span data-ttu-id="cef92-107">此範例假設本機電腦上已有工作和測試工作。</span><span class="sxs-lookup"><span data-stu-id="cef92-107">This example assumes that the task and the test task already exist on the local computer.</span></span>
+<span data-ttu-id="f447d-106">此範例會清除與已知工作相關聯的所有命令列參數。</span><span class="sxs-lookup"><span data-stu-id="f447d-106">This example clears all command-line parameters associated with a known task.</span></span> <span data-ttu-id="f447d-107">此範例假設本機電腦上已有工作和測試工作。</span><span class="sxs-lookup"><span data-stu-id="f447d-107">This example assumes that the task and the test task already exist on the local computer.</span></span>
 
 
 ```C++
@@ -132,11 +132,11 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="cef92-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="cef92-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="f447d-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="f447d-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="cef92-109">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="cef92-109">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
+[<span data-ttu-id="f447d-109">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="f447d-109">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
  

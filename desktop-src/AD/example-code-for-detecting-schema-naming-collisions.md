@@ -14,13 +14,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671303"
 ---
-# <a name="example-code-for-detecting-schema-naming-collisions"></a><span data-ttu-id="f4ad8-104">偵測架構命名衝突的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="f4ad8-104">Example Code for Detecting Schema Naming Collisions</span></span>
+# <a name="example-code-for-detecting-schema-naming-collisions"></a><span data-ttu-id="cbbd8-104">偵測架構命名衝突的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="cbbd8-104">Example Code for Detecting Schema Naming Collisions</span></span>
 
-<span data-ttu-id="f4ad8-105">本主題包含偵測架構命名衝突的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="f4ad8-105">This topic includes a code example that detects schema naming collisions.</span></span>
+<span data-ttu-id="cbbd8-105">本主題包含偵測架構命名衝突的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="cbbd8-105">This topic includes a code example that detects schema naming collisions.</span></span>
 
-<span data-ttu-id="f4ad8-106">下列 C/c + + 程式碼範例會查詢 **classSchema** 或 **attributeSchema** 物件上索引鍵命名屬性的架構。</span><span class="sxs-lookup"><span data-stu-id="f4ad8-106">The following C/C++ code example queries the schema for the key naming attributes on a **classSchema** or **attributeSchema** object.</span></span>
+<span data-ttu-id="cbbd8-106">下列 C/c + + 程式碼範例會查詢 **classSchema** 或 **attributeSchema** 物件上索引鍵命名屬性的架構。</span><span class="sxs-lookup"><span data-stu-id="cbbd8-106">The following C/C++ code example queries the schema for the key naming attributes on a **classSchema** or **attributeSchema** object.</span></span>
 
-<span data-ttu-id="f4ad8-107">如果發現衝突的屬性或類別，則會傳回 **TRUE** 。</span><span class="sxs-lookup"><span data-stu-id="f4ad8-107">It returns **TRUE** if conflicting attributes or classes are found.</span></span> <span data-ttu-id="f4ad8-108">如果具有指定之 **cn**、 **lDAPDisplayName**、 **OID**、 **schemaIDGUID** 或 **linkID** 的屬性或類別與架構不衝突，則會傳回 **FALSE** ，因此可以安全地新增至架構。</span><span class="sxs-lookup"><span data-stu-id="f4ad8-108">It returns **FALSE** if the attribute or class with the specified **cn**, **lDAPDisplayName**, **OID**, **schemaIDGUID**, or **linkID** does not conflict with the schema and, therefore, is safe to add to the schema.</span></span>
+<span data-ttu-id="cbbd8-107">如果發現衝突的屬性或類別，則會傳回 **TRUE** 。</span><span class="sxs-lookup"><span data-stu-id="cbbd8-107">It returns **TRUE** if conflicting attributes or classes are found.</span></span> <span data-ttu-id="cbbd8-108">如果具有指定之 **cn**、 **lDAPDisplayName**、 **OID**、 **schemaIDGUID** 或 **linkID** 的屬性或類別與架構不衝突，則會傳回 **FALSE** ，因此可以安全地新增至架構。</span><span class="sxs-lookup"><span data-stu-id="cbbd8-108">It returns **FALSE** if the attribute or class with the specified **cn**, **lDAPDisplayName**, **OID**, **schemaIDGUID**, or **linkID** does not conflict with the schema and, therefore, is safe to add to the schema.</span></span>
 
 
 ```C++

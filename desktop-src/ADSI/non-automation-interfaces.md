@@ -14,13 +14,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839164"
 ---
-# <a name="non-automation-interfaces"></a><span data-ttu-id="797cf-104">非自動化介面</span><span class="sxs-lookup"><span data-stu-id="797cf-104">Non-Automation Interfaces</span></span>
+# <a name="non-automation-interfaces"></a><span data-ttu-id="62904-104">非自動化介面</span><span class="sxs-lookup"><span data-stu-id="62904-104">Non-Automation Interfaces</span></span>
 
-<span data-ttu-id="797cf-105">本節說明下列非自動化 ADSI 介面：</span><span class="sxs-lookup"><span data-stu-id="797cf-105">This section describes the following non-Automation ADSI interfaces:</span></span>
+<span data-ttu-id="62904-105">本節說明下列非自動化 ADSI 介面：</span><span class="sxs-lookup"><span data-stu-id="62904-105">This section describes the following non-Automation ADSI interfaces:</span></span>
 
--   [<span data-ttu-id="797cf-106">**IDirectoryObject**</span><span class="sxs-lookup"><span data-stu-id="797cf-106">**IDirectoryObject**</span></span>](/windows/desktop/api/Iads/nn-iads-idirectoryobject)
--   [<span data-ttu-id="797cf-107">**IDirectorySchemaMgmt**</span><span class="sxs-lookup"><span data-stu-id="797cf-107">**IDirectorySchemaMgmt**</span></span>](/windows/desktop/api/Iads/nn-iads-idirectoryschemamgmt)
--   [<span data-ttu-id="797cf-108">**>idirectorysearch**</span><span class="sxs-lookup"><span data-stu-id="797cf-108">**IDirectorySearch**</span></span>](/windows/desktop/api/Iads/nn-iads-idirectorysearch)
+-   [<span data-ttu-id="62904-106">**IDirectoryObject**</span><span class="sxs-lookup"><span data-stu-id="62904-106">**IDirectoryObject**</span></span>](/windows/desktop/api/Iads/nn-iads-idirectoryobject)
+-   [<span data-ttu-id="62904-107">**IDirectorySchemaMgmt**</span><span class="sxs-lookup"><span data-stu-id="62904-107">**IDirectorySchemaMgmt**</span></span>](/windows/desktop/api/Iads/nn-iads-idirectoryschemamgmt)
+-   [<span data-ttu-id="62904-108">**>idirectorysearch**</span><span class="sxs-lookup"><span data-stu-id="62904-108">**IDirectorySearch**</span></span>](/windows/desktop/api/Iads/nn-iads-idirectorysearch)
 
  
 

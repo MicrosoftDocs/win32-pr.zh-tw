@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839232"
 ---
-# <a name="binding-to-an-objects-parent"></a><span data-ttu-id="2e214-104">系結至物件的父系</span><span class="sxs-lookup"><span data-stu-id="2e214-104">Binding to an Object's Parent</span></span>
+# <a name="binding-to-an-objects-parent"></a><span data-ttu-id="70435-104">系結至物件的父系</span><span class="sxs-lookup"><span data-stu-id="70435-104">Binding to an Object's Parent</span></span>
 
-<span data-ttu-id="2e214-105">在 ADSI 中，每個目錄物件都是由公開 [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) 介面的 ADSI COM 物件表示。</span><span class="sxs-lookup"><span data-stu-id="2e214-105">In ADSI, every directory object is represented by an ADSI COM object that exposes the [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) interface.</span></span> <span data-ttu-id="2e214-106">若要取得物件的父容器，請使用 [**IADs：： get \_ 父**](iads-property-methods.md) 方法取得父物件的 adspath，然後系結至父系的 adspath。</span><span class="sxs-lookup"><span data-stu-id="2e214-106">To obtain the parent container of an object, use the [**IADs::get\_Parent**](iads-property-methods.md) method to obtain the ADsPath of the parent object, then bind to the ADsPath of the parent.</span></span>
+<span data-ttu-id="70435-105">在 ADSI 中，每個目錄物件都是由公開 [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) 介面的 ADSI COM 物件表示。</span><span class="sxs-lookup"><span data-stu-id="70435-105">In ADSI, every directory object is represented by an ADSI COM object that exposes the [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) interface.</span></span> <span data-ttu-id="70435-106">若要取得物件的父容器，請使用 [**IADs：： get \_ 父**](iads-property-methods.md) 方法取得父物件的 adspath，然後系結至父系的 adspath。</span><span class="sxs-lookup"><span data-stu-id="70435-106">To obtain the parent container of an object, use the [**IADs::get\_Parent**](iads-property-methods.md) method to obtain the ADsPath of the parent object, then bind to the ADsPath of the parent.</span></span>
 
-<span data-ttu-id="2e214-107">下列 c + + 程式碼範例顯示如何取得物件的父系。</span><span class="sxs-lookup"><span data-stu-id="2e214-107">The following C++ code example shows how to obtain the parent of an object .</span></span>
+<span data-ttu-id="70435-107">下列 c + + 程式碼範例顯示如何取得物件的父系。</span><span class="sxs-lookup"><span data-stu-id="70435-107">The following C++ code example shows how to obtain the parent of an object .</span></span>
 
 
 ```C++

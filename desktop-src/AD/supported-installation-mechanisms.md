@@ -14,14 +14,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671216"
 ---
-# <a name="supported-installation-mechanisms"></a><span data-ttu-id="a9a8a-104">支援的安裝機制</span><span class="sxs-lookup"><span data-stu-id="a9a8a-104">Supported Installation Mechanisms</span></span>
+# <a name="supported-installation-mechanisms"></a><span data-ttu-id="67f69-104">支援的安裝機制</span><span class="sxs-lookup"><span data-stu-id="67f69-104">Supported Installation Mechanisms</span></span>
 
-<span data-ttu-id="a9a8a-105">Active Directory Domain Services 支援四種擴充 Active Directory 架構的機制。</span><span class="sxs-lookup"><span data-stu-id="a9a8a-105">Active Directory Domain Services support four mechanisms for extending the Active Directory schema.</span></span> <span data-ttu-id="a9a8a-106">您可以使用來延伸 Active Directory 架構</span><span class="sxs-lookup"><span data-stu-id="a9a8a-106">You can extend the Active Directory schema by using</span></span>
+<span data-ttu-id="67f69-105">Active Directory Domain Services 支援四種擴充 Active Directory 架構的機制。</span><span class="sxs-lookup"><span data-stu-id="67f69-105">Active Directory Domain Services support four mechanisms for extending the Active Directory schema.</span></span> <span data-ttu-id="67f69-106">您可以使用來延伸 Active Directory 架構</span><span class="sxs-lookup"><span data-stu-id="67f69-106">You can extend the Active Directory schema by using</span></span>
 
--   <span data-ttu-id="a9a8a-107">慣用) 的[LDIF 腳本](ldif-scripts.md) (</span><span class="sxs-lookup"><span data-stu-id="a9a8a-107">[LDIF Scripts](ldif-scripts.md) (preferred)</span></span>
--   [<span data-ttu-id="a9a8a-108">逗點分隔值 (CSV) 腳本</span><span class="sxs-lookup"><span data-stu-id="a9a8a-108">Comma-separated Value (CSV) Scripts</span></span>](comma-separated-value-csv-scripts.md)
--   [<span data-ttu-id="a9a8a-109">程式設計延伸</span><span class="sxs-lookup"><span data-stu-id="a9a8a-109">Programmatic Extension</span></span>](programmatic-extension.md)
--   <span data-ttu-id="a9a8a-110">以及 [延伸目錄物件的消費者介面](extending-the-user-interface-for-directory-objects.md)。</span><span class="sxs-lookup"><span data-stu-id="a9a8a-110">and by [Extending the User Interface for Directory Objects](extending-the-user-interface-for-directory-objects.md).</span></span>
+-   <span data-ttu-id="67f69-107">慣用) 的[LDIF 腳本](ldif-scripts.md) (</span><span class="sxs-lookup"><span data-stu-id="67f69-107">[LDIF Scripts](ldif-scripts.md) (preferred)</span></span>
+-   [<span data-ttu-id="67f69-108">逗點分隔值 (CSV) 腳本</span><span class="sxs-lookup"><span data-stu-id="67f69-108">Comma-separated Value (CSV) Scripts</span></span>](comma-separated-value-csv-scripts.md)
+-   [<span data-ttu-id="67f69-109">程式設計延伸</span><span class="sxs-lookup"><span data-stu-id="67f69-109">Programmatic Extension</span></span>](programmatic-extension.md)
+-   <span data-ttu-id="67f69-110">以及 [延伸目錄物件的消費者介面](extending-the-user-interface-for-directory-objects.md)。</span><span class="sxs-lookup"><span data-stu-id="67f69-110">and by [Extending the User Interface for Directory Objects](extending-the-user-interface-for-directory-objects.md).</span></span>
 
  
 

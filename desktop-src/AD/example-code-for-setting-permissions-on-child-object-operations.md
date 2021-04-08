@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839323"
 ---
-# <a name="example-code-for-setting-permissions-on-child-object-operations"></a><span data-ttu-id="872f1-104">設定子物件作業許可權的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="872f1-104">Example Code for Setting Permissions on Child Object Operations</span></span>
+# <a name="example-code-for-setting-permissions-on-child-object-operations"></a><span data-ttu-id="585ff-104">設定子物件作業許可權的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="585ff-104">Example Code for Setting Permissions on Child Object Operations</span></span>
 
-<span data-ttu-id="872f1-105">下列 C 和 c + + 程式碼範例會建立一個 ACE，以將使用者物件的建立許可權指派給指定的信任者。</span><span class="sxs-lookup"><span data-stu-id="872f1-105">The following C and C++ code example creates an ACE that assigns creation rights for user objects to the specified trustee.</span></span>
+<span data-ttu-id="585ff-105">下列 C 和 c + + 程式碼範例會建立一個 ACE，以將使用者物件的建立許可權指派給指定的信任者。</span><span class="sxs-lookup"><span data-stu-id="585ff-105">The following C and C++ code example creates an ACE that assigns creation rights for user objects to the specified trustee.</span></span>
 
 
 ```C++

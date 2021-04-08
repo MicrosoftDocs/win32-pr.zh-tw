@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672868"
 ---
-# <a name="translating-to-c-from-java"></a><span data-ttu-id="4d396-103">從 JAVA 轉換成 c + +</span><span class="sxs-lookup"><span data-stu-id="4d396-103">Translating to C++ from Java</span></span>
+# <a name="translating-to-c-from-java"></a><span data-ttu-id="5489b-103">從 JAVA 轉換成 c + +</span><span class="sxs-lookup"><span data-stu-id="5489b-103">Translating to C++ from Java</span></span>
 
-<span data-ttu-id="4d396-104">JAVA 會隱含地處理指標和記憶體管理。</span><span class="sxs-lookup"><span data-stu-id="4d396-104">Java handles pointers and memory management implicitly.</span></span> <span data-ttu-id="4d396-105">在 c + + 中，您的應用程式會負責配置和解除配置記憶體，以及執行任何必要的指標算術。</span><span class="sxs-lookup"><span data-stu-id="4d396-105">In C++, your application is responsible for allocating and deallocating memory, and for performing any necessary pointer arithmetic.</span></span>
+<span data-ttu-id="5489b-104">JAVA 會隱含地處理指標和記憶體管理。</span><span class="sxs-lookup"><span data-stu-id="5489b-104">Java handles pointers and memory management implicitly.</span></span> <span data-ttu-id="5489b-105">在 c + + 中，您的應用程式會負責配置和解除配置記憶體，以及執行任何必要的指標算術。</span><span class="sxs-lookup"><span data-stu-id="5489b-105">In C++, your application is responsible for allocating and deallocating memory, and for performing any necessary pointer arithmetic.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="4d396-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="4d396-106">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="5489b-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="5489b-106">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4d396-107">轉換成 c + +</span><span class="sxs-lookup"><span data-stu-id="4d396-107">Translating to C++</span></span>](translating-to-c--.md)
+[<span data-ttu-id="5489b-107">轉換成 c + +</span><span class="sxs-lookup"><span data-stu-id="5489b-107">Translating to C++</span></span>](translating-to-c--.md)
 </dt> </dl>
 
  

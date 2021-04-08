@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839327"
 ---
-# <a name="example-code-for-reading-defaultsecuritydescriptor"></a><span data-ttu-id="9579d-104">讀取 defaultSecurityDescriptor 的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="9579d-104">Example Code for Reading defaultSecurityDescriptor</span></span>
+# <a name="example-code-for-reading-defaultsecuritydescriptor"></a><span data-ttu-id="3ae25-104">讀取 defaultSecurityDescriptor 的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="3ae25-104">Example Code for Reading defaultSecurityDescriptor</span></span>
 
-<span data-ttu-id="9579d-105">下列程式碼範例會讀取指定之物件類別的 **defaultSecurityDescriptor** 。</span><span class="sxs-lookup"><span data-stu-id="9579d-105">The following code example reads the **defaultSecurityDescriptor** for a specified object class.</span></span>
+<span data-ttu-id="3ae25-105">下列程式碼範例會讀取指定之物件類別的 **defaultSecurityDescriptor** 。</span><span class="sxs-lookup"><span data-stu-id="3ae25-105">The following code example reads the **defaultSecurityDescriptor** for a specified object class.</span></span>
 
 
 ```C++

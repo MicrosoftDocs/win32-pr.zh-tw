@@ -15,17 +15,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103670928"
 ---
-# <a name="sending-asf-data-over-a-network"></a><span data-ttu-id="58de8-106">透過網路傳送 ASF 資料</span><span class="sxs-lookup"><span data-stu-id="58de8-106">Sending ASF Data Over a Network</span></span>
+# <a name="sending-asf-data-over-a-network"></a><span data-ttu-id="eb112-106">透過網路傳送 ASF 資料</span><span class="sxs-lookup"><span data-stu-id="eb112-106">Sending ASF Data Over a Network</span></span>
 
-<span data-ttu-id="58de8-107">Windows Media Format SDK 支援透過網路傳送 ASF 資料的兩種不同方式：</span><span class="sxs-lookup"><span data-stu-id="58de8-107">The Windows Media Format SDK supports two different ways send ASF data over a network:</span></span>
+<span data-ttu-id="eb112-107">Windows Media Format SDK 支援透過網路傳送 ASF 資料的兩種不同方式：</span><span class="sxs-lookup"><span data-stu-id="eb112-107">The Windows Media Format SDK supports two different ways send ASF data over a network:</span></span>
 
--   <span data-ttu-id="58de8-108">應用程式可以使用 HTTP 通訊協定廣播 ASF 資料。</span><span class="sxs-lookup"><span data-stu-id="58de8-108">The application can broadcast the ASF data using HTTP protocol.</span></span>
--   <span data-ttu-id="58de8-109">應用程式可以將 ASF 資料推送至 Windows Media 伺服器上的發行端點。</span><span class="sxs-lookup"><span data-stu-id="58de8-109">The application can push the ASF data to a publishing point on a Windows Media server.</span></span> <span data-ttu-id="58de8-110">然後伺服器會散發資料。</span><span class="sxs-lookup"><span data-stu-id="58de8-110">The server then distributes the data.</span></span>
+-   <span data-ttu-id="eb112-108">應用程式可以使用 HTTP 通訊協定廣播 ASF 資料。</span><span class="sxs-lookup"><span data-stu-id="eb112-108">The application can broadcast the ASF data using HTTP protocol.</span></span>
+-   <span data-ttu-id="eb112-109">應用程式可以將 ASF 資料推送至 Windows Media 伺服器上的發行端點。</span><span class="sxs-lookup"><span data-stu-id="eb112-109">The application can push the ASF data to a publishing point on a Windows Media server.</span></span> <span data-ttu-id="eb112-110">然後伺服器會散發資料。</span><span class="sxs-lookup"><span data-stu-id="eb112-110">The server then distributes the data.</span></span>
 
-<span data-ttu-id="58de8-111">下列主題將說明這些功能：</span><span class="sxs-lookup"><span data-stu-id="58de8-111">The following topics describe these features:</span></span>
+<span data-ttu-id="eb112-111">下列主題將說明這些功能：</span><span class="sxs-lookup"><span data-stu-id="eb112-111">The following topics describe these features:</span></span>
 
--   [<span data-ttu-id="58de8-112">廣播 ASF 資料</span><span class="sxs-lookup"><span data-stu-id="58de8-112">Broadcasting ASF Data</span></span>](broadcasting-asf-data.md)
--   [<span data-ttu-id="58de8-113">將 ASF 資料傳送至發行端點</span><span class="sxs-lookup"><span data-stu-id="58de8-113">Sending ASF Data to a Publishing Point</span></span>](sending-asf-data-to-a-publishing-point.md)
+-   [<span data-ttu-id="eb112-112">廣播 ASF 資料</span><span class="sxs-lookup"><span data-stu-id="eb112-112">Broadcasting ASF Data</span></span>](broadcasting-asf-data.md)
+-   [<span data-ttu-id="eb112-113">將 ASF 資料傳送至發行端點</span><span class="sxs-lookup"><span data-stu-id="eb112-113">Sending ASF Data to a Publishing Point</span></span>](sending-asf-data-to-a-publishing-point.md)
 
  
 

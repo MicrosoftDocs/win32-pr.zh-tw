@@ -12,9 +12,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839196"
 ---
-# <a name="enumerator-objects"></a><span data-ttu-id="22a04-103">列舉值物件</span><span class="sxs-lookup"><span data-stu-id="22a04-103">Enumerator Objects</span></span>
+# <a name="enumerator-objects"></a><span data-ttu-id="bed31-103">列舉值物件</span><span class="sxs-lookup"><span data-stu-id="bed31-103">Enumerator Objects</span></span>
 
-<span data-ttu-id="22a04-104">範例提供者元件程式碼提供為 ADs 命名空間物件建立列舉值物件的實 (cenumns .cpp) 、一般 ADSI 容器物件 (cenumobj .cpp) 、ADSI 架構容器物件 (cenumsch .cpp) 。</span><span class="sxs-lookup"><span data-stu-id="22a04-104">The example provider component code supplies the implementation of creating enumerator objects for the ADs namespace object (cenumns.cpp), generic ADSI container objects (cenumobj.cpp), ADSI schema container objects (cenumsch.cpp).</span></span>
+<span data-ttu-id="bed31-104">範例提供者元件程式碼提供為 ADs 命名空間物件建立列舉值物件的實 (cenumns .cpp) 、一般 ADSI 容器物件 (cenumobj .cpp) 、ADSI 架構容器物件 (cenumsch .cpp) 。</span><span class="sxs-lookup"><span data-stu-id="bed31-104">The example provider component code supplies the implementation of creating enumerator objects for the ADs namespace object (cenumns.cpp), generic ADSI container objects (cenumobj.cpp), ADSI schema container objects (cenumsch.cpp).</span></span>
 
  
 

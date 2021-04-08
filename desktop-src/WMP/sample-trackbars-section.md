@@ -17,9 +17,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103840447"
 ---
-# <a name="sample-trackbars-section"></a><span data-ttu-id="59fa3-108">範例 Trackbars 區段</span><span class="sxs-lookup"><span data-stu-id="59fa3-108">Sample Trackbars Section</span></span>
+# <a name="sample-trackbars-section"></a><span data-ttu-id="ba1d5-108">範例 Trackbars 區段</span><span class="sxs-lookup"><span data-stu-id="ba1d5-108">Sample Trackbars Section</span></span>
 
-<span data-ttu-id="59fa3-109">下列各行顯示面板定義檔案的一般 Trackbars 區段：</span><span class="sxs-lookup"><span data-stu-id="59fa3-109">The following lines show a typical Trackbars section of a skin definition file:</span></span>
+<span data-ttu-id="ba1d5-109">下列各行顯示面板定義檔案的一般 Trackbars 區段：</span><span class="sxs-lookup"><span data-stu-id="ba1d5-109">The following lines show a typical Trackbars section of a skin definition file:</span></span>
 
 
 ```C++
@@ -33,13 +33,13 @@ ms.locfileid: "103840447"
 
 
 
-<span data-ttu-id="59fa3-110">上述範例定義了一個可讓使用者藉由點擊和拖曳 SeekThumb 影像來搜尋媒體專案的顯示。</span><span class="sxs-lookup"><span data-stu-id="59fa3-110">The preceding example defines a trackbar that allows the user to seek through a media item by tapping and dragging the SeekThumb image.</span></span>
+<span data-ttu-id="ba1d5-110">上述範例定義了一個可讓使用者藉由點擊和拖曳 SeekThumb 影像來搜尋媒體專案的顯示。</span><span class="sxs-lookup"><span data-stu-id="ba1d5-110">The preceding example defines a trackbar that allows the user to seek through a media item by tapping and dragging the SeekThumb image.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="59fa3-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="59fa3-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ba1d5-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="ba1d5-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="59fa3-112">**Trackbars**</span><span class="sxs-lookup"><span data-stu-id="59fa3-112">**Trackbars**</span></span>](trackbars.md)
+[<span data-ttu-id="ba1d5-112">**Trackbars**</span><span class="sxs-lookup"><span data-stu-id="ba1d5-112">**Trackbars**</span></span>](trackbars.md)
 </dt> </dl>
 
  

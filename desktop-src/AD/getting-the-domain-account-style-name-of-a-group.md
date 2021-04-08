@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839319"
 ---
-# <a name="getting-the-domain-account-style-name-of-a-group"></a><span data-ttu-id="0f425-104">取得群組的網域 Account-Style 名稱</span><span class="sxs-lookup"><span data-stu-id="0f425-104">Getting the Domain Account-Style Name of a Group</span></span>
+# <a name="getting-the-domain-account-style-name-of-a-group"></a><span data-ttu-id="7719e-104">取得群組的網域 Account-Style 名稱</span><span class="sxs-lookup"><span data-stu-id="7719e-104">Getting the Domain Account-Style Name of a Group</span></span>
 
-<span data-ttu-id="0f425-105">使用者、群組、電腦和其他安全性主體可以網域帳戶形式表示。</span><span class="sxs-lookup"><span data-stu-id="0f425-105">Users, groups, computers, and other security principals can be represented in domain account form.</span></span> <span data-ttu-id="0f425-106">網域帳戶 (舊版 Windows NT) 所使用的登入名稱格式如下：</span><span class="sxs-lookup"><span data-stu-id="0f425-106">Domain account (the logon name used in earlier versions of Windows NT) has the following form:</span></span>
+<span data-ttu-id="7719e-105">使用者、群組、電腦和其他安全性主體可以網域帳戶形式表示。</span><span class="sxs-lookup"><span data-stu-id="7719e-105">Users, groups, computers, and other security principals can be represented in domain account form.</span></span> <span data-ttu-id="7719e-106">網域帳戶 (舊版 Windows NT) 所使用的登入名稱格式如下：</span><span class="sxs-lookup"><span data-stu-id="7719e-106">Domain account (the logon name used in earlier versions of Windows NT) has the following form:</span></span>
 
 
 ```C++
@@ -25,9 +25,9 @@ ms.locfileid: "103839319"
 
 
 
-<span data-ttu-id="0f425-107">其中 " <domain> " 是包含使用者 Windows NT 網域的名稱，而 " <account> " 是指定使用者的 **samAccountName** 屬性。</span><span class="sxs-lookup"><span data-stu-id="0f425-107">Where "<domain>" is the name of the Windows NT domain that contains the user and "<account>" is the **samAccountName** property of the specified user.</span></span> <span data-ttu-id="0f425-108">例如： "Fabrikam \\ jeffsmith"。</span><span class="sxs-lookup"><span data-stu-id="0f425-108">For example: "Fabrikam\\jeffsmith".</span></span>
+<span data-ttu-id="7719e-107">其中 " <domain> " 是包含使用者 Windows NT 網域的名稱，而 " <account> " 是指定使用者的 **samAccountName** 屬性。</span><span class="sxs-lookup"><span data-stu-id="7719e-107">Where "<domain>" is the name of the Windows NT domain that contains the user and "<account>" is the **samAccountName** property of the specified user.</span></span> <span data-ttu-id="7719e-108">例如： "Fabrikam \\ jeffsmith"。</span><span class="sxs-lookup"><span data-stu-id="7719e-108">For example: "Fabrikam\\jeffsmith".</span></span>
 
-<span data-ttu-id="0f425-109">網域帳戶表單可以在安全描述項中指定 ACE 內的信任者。</span><span class="sxs-lookup"><span data-stu-id="0f425-109">The domain account form can specify the trustee in an ACE in a security descriptor.</span></span> <span data-ttu-id="0f425-110">它也會用於執行 Windows 版本 NT 4.0 及更早版本之電腦上的登入名稱。</span><span class="sxs-lookup"><span data-stu-id="0f425-110">It is also used for the logon name on computers running Windows version NT 4.0 and earlier.</span></span>
+<span data-ttu-id="7719e-109">網域帳戶表單可以在安全描述項中指定 ACE 內的信任者。</span><span class="sxs-lookup"><span data-stu-id="7719e-109">The domain account form can specify the trustee in an ACE in a security descriptor.</span></span> <span data-ttu-id="7719e-110">它也會用於執行 Windows 版本 NT 4.0 及更早版本之電腦上的登入名稱。</span><span class="sxs-lookup"><span data-stu-id="7719e-110">It is also used for the logon name on computers running Windows version NT 4.0 and earlier.</span></span>
 
 
 ```C++
