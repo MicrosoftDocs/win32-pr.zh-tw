@@ -1,0 +1,28 @@
+---
+title: 指定搜尋範圍
+description: 您可以將搜尋範圍指定為基底、單一層級或子樹搜尋。
+ms.assetid: b02354c2-7b95-4911-8ae3-4a261d3ca2d3
+ms.tgt_platform: multiple
+keywords:
+- 指定搜尋範圍 AD
+- Active Directory、搜尋、指定搜尋範圍
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c7ff076e0410088c69eace25f204241c1c51c6fb
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "103681641"
+---
+# <a name="specifying-the-search-scope"></a><span data-ttu-id="6c485-105">指定搜尋範圍</span><span class="sxs-lookup"><span data-stu-id="6c485-105">Specifying the Search Scope</span></span>
+
+<span data-ttu-id="6c485-106">您可以將搜尋範圍指定為基底、單一層級或子樹搜尋。</span><span class="sxs-lookup"><span data-stu-id="6c485-106">You can specify the scope of a search as either a base, one-level, or subtree search.</span></span> <span data-ttu-id="6c485-107">使用 **ads \_ SEARCHPREF \_ 搜尋 \_ 範圍** 旗標搭配 [**ads \_ SCOPEENUM**](/windows/win32/api/iads/ne-iads-ads_scopeenum) 列舉的值，以指定搜尋範圍。</span><span class="sxs-lookup"><span data-stu-id="6c485-107">Use the **ADS\_SEARCHPREF\_SEARCH\_SCOPE** flag with the values of the [**ADS\_SCOPEENUM**](/windows/win32/api/iads/ne-iads-ads_scopeenum) enumeration to specify the search scope.</span></span> <span data-ttu-id="6c485-108">下列清單包含搜尋類型的描述：</span><span class="sxs-lookup"><span data-stu-id="6c485-108">The following list includes descriptions of the search types:</span></span>
+
+-   <span data-ttu-id="6c485-109">**基底**。</span><span class="sxs-lookup"><span data-stu-id="6c485-109">**Base**.</span></span> <span data-ttu-id="6c485-110">基底搜尋會將搜尋限制為基底物件。</span><span class="sxs-lookup"><span data-stu-id="6c485-110">A base search limits the search to the base object.</span></span> <span data-ttu-id="6c485-111">傳回的物件數目上限一律為一個。</span><span class="sxs-lookup"><span data-stu-id="6c485-111">The maximum number of objects returned is always one.</span></span> <span data-ttu-id="6c485-112">這項搜尋有助於確認物件是否存在，以便取得群組成員資格。</span><span class="sxs-lookup"><span data-stu-id="6c485-112">This search is useful to verify the existence of an object for retrieving group membership.</span></span> <span data-ttu-id="6c485-113">例如，如果您有物件辨別名稱，而且必須根據路徑確認物件是否存在，您可以使用一層級的搜尋。</span><span class="sxs-lookup"><span data-stu-id="6c485-113">For example, if you have an object distinguished name, and you must verify the object's existence based on the path, you can use a one-level search.</span></span> <span data-ttu-id="6c485-114">如果搜尋失敗，您可以假設物件可能已重新命名或移至不同的位置，或您已獲得關於物件的錯誤資訊。</span><span class="sxs-lookup"><span data-stu-id="6c485-114">If the search fails, you can assume that the object may have been renamed or moved to a different location, or you were given the wrong information about the object.</span></span> <span data-ttu-id="6c485-115">請注意，如果您想要重新流覽物件，您應該儲存物件的全域唯一識別碼 (GUID) ，而不是分辨名稱。</span><span class="sxs-lookup"><span data-stu-id="6c485-115">Be aware that you should store the globally unique identifier (GUID) of the object instead of the distinguished name, if you wish to revisit an object.</span></span> <span data-ttu-id="6c485-116">GUID 一律會參考相同的物件，無論物件在目錄階層中的位置為何。</span><span class="sxs-lookup"><span data-stu-id="6c485-116">The GUID will always reference the same object, regardless of where the object is located within the directory hierarchy.</span></span>
+-   <span data-ttu-id="6c485-117">**一個層級**。</span><span class="sxs-lookup"><span data-stu-id="6c485-117">**One-level**.</span></span> <span data-ttu-id="6c485-118">單一層級的搜尋僅限於基底物件的直屬子系，但會排除基底物件本身。</span><span class="sxs-lookup"><span data-stu-id="6c485-118">A one-level search is restricted to the immediate children of a base object, but excludes the base object itself.</span></span> <span data-ttu-id="6c485-119">這項設定可以針對父物件的直屬子物件，執行目標搜尋。</span><span class="sxs-lookup"><span data-stu-id="6c485-119">This setting can perform a targeted search for immediate child objects of a parent object.</span></span> <span data-ttu-id="6c485-120">例如，請考慮父物件 P1 及其直屬子系： C1、C2 和 C3。</span><span class="sxs-lookup"><span data-stu-id="6c485-120">For example, consider a parent object P1 and its immediate children: C1, C2, and C3.</span></span> <span data-ttu-id="6c485-121">一層搜尋會針對搜尋準則評估 C1、C2 和 C3，但不會評估 P1。</span><span class="sxs-lookup"><span data-stu-id="6c485-121">A one-level search evaluates C1, C2, and C3 against the search criteria, but does not evaluate P1.</span></span> <span data-ttu-id="6c485-122">使用一層級的搜尋來列舉物件的所有子系。</span><span class="sxs-lookup"><span data-stu-id="6c485-122">Use a one-level search to enumerate all children of an object.</span></span> <span data-ttu-id="6c485-123">[**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer)列舉會轉譯為一層級的搜尋。</span><span class="sxs-lookup"><span data-stu-id="6c485-123">An [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) enumeration translates to a one-level search.</span></span>
+-   <span data-ttu-id="6c485-124">**子樹**。</span><span class="sxs-lookup"><span data-stu-id="6c485-124">**Subtree**.</span></span> <span data-ttu-id="6c485-125">子樹搜尋 (或深層搜尋) 包含所有子物件以及基底物件。</span><span class="sxs-lookup"><span data-stu-id="6c485-125">A subtree search (or a deep search) includes all child objects as well as the base object.</span></span> <span data-ttu-id="6c485-126">您可以要求 LDAP 提供者，以對其他 LDAP 目錄服務（包括其他目錄網域或樹系）的參考。</span><span class="sxs-lookup"><span data-stu-id="6c485-126">You can request the LDAP provider to chase referrals to other LDAP directory services, including other directory domains or forests.</span></span>
+
+ 
+
+ 
