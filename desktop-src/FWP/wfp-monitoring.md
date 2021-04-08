@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671492"
 ---
-# <a name="wfp-monitoring"></a><span data-ttu-id="1513a-103">WFP 監視</span><span class="sxs-lookup"><span data-stu-id="1513a-103">WFP Monitoring</span></span>
+# <a name="wfp-monitoring"></a><span data-ttu-id="66b01-103">WFP 監視</span><span class="sxs-lookup"><span data-stu-id="66b01-103">WFP Monitoring</span></span>
 
-<span data-ttu-id="1513a-104">本節提供 Windows 篩選平台 (WFP) 監視系統的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="1513a-104">This section provides information about the Windows Filtering Platform (WFP) monitoring system.</span></span>
+<span data-ttu-id="66b01-104">本節提供 Windows 篩選平台 (WFP) 監視系統的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="66b01-104">This section provides information about the Windows Filtering Platform (WFP) monitoring system.</span></span>
 
 <dl>
 
-[<span data-ttu-id="1513a-105">稽核</span><span class="sxs-lookup"><span data-stu-id="1513a-105">Auditing</span></span>](auditing-and-logging.md)  
-[<span data-ttu-id="1513a-106">Logging</span><span class="sxs-lookup"><span data-stu-id="1513a-106">Logging</span></span>](logging.md)  
-[<span data-ttu-id="1513a-107">變更通知</span><span class="sxs-lookup"><span data-stu-id="1513a-107">Change Notifications</span></span>](change-notifications.md)  
+[<span data-ttu-id="66b01-105">稽核</span><span class="sxs-lookup"><span data-stu-id="66b01-105">Auditing</span></span>](auditing-and-logging.md)  
+[<span data-ttu-id="66b01-106">Logging</span><span class="sxs-lookup"><span data-stu-id="66b01-106">Logging</span></span>](logging.md)  
+[<span data-ttu-id="66b01-107">變更通知</span><span class="sxs-lookup"><span data-stu-id="66b01-107">Change Notifications</span></span>](change-notifications.md)  
 </dl>
 
  

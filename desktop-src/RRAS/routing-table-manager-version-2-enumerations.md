@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839976"
 ---
-# <a name="routing-table-manager-version-2-enumerations"></a><span data-ttu-id="7b3c7-105">路由表管理員第2版列舉</span><span class="sxs-lookup"><span data-stu-id="7b3c7-105">Routing Table Manager Version 2 Enumerations</span></span>
+# <a name="routing-table-manager-version-2-enumerations"></a><span data-ttu-id="0d695-105">路由表管理員第2版列舉</span><span class="sxs-lookup"><span data-stu-id="0d695-105">Routing Table Manager Version 2 Enumerations</span></span>
 
-<span data-ttu-id="7b3c7-106">RTMv2 函數會使用下列列舉：</span><span class="sxs-lookup"><span data-stu-id="7b3c7-106">The RTMv2 functions use the following enumeration:</span></span>
+<span data-ttu-id="0d695-106">RTMv2 函數會使用下列列舉：</span><span class="sxs-lookup"><span data-stu-id="0d695-106">The RTMv2 functions use the following enumeration:</span></span>
 
-[<span data-ttu-id="7b3c7-107">**RTM \_ 事件 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="7b3c7-107">**RTM\_EVENT\_TYPE**</span></span>](/windows/desktop/api/Rtmv2/ne-rtmv2-rtm_event_type)
+[<span data-ttu-id="0d695-107">**RTM \_ 事件 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="0d695-107">**RTM\_EVENT\_TYPE**</span></span>](/windows/desktop/api/Rtmv2/ne-rtmv2-rtm_event_type)
 
  
 

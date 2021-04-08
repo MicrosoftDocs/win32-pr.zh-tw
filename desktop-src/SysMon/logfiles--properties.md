@@ -16,12 +16,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103840252"
 ---
-# <a name="logfiles-properties"></a><span data-ttu-id="33f54-103">記錄檔屬性</span><span class="sxs-lookup"><span data-stu-id="33f54-103">LogFiles Properties</span></span>
+# <a name="logfiles-properties"></a><span data-ttu-id="8528f-103">記錄檔屬性</span><span class="sxs-lookup"><span data-stu-id="8528f-103">LogFiles Properties</span></span>
 
-<span data-ttu-id="33f54-104">記錄 [**檔類別具有**](logfiles.md) 下列屬性：</span><span class="sxs-lookup"><span data-stu-id="33f54-104">The [**LogFiles**](logfiles.md) class has the following properties:</span></span>
+<span data-ttu-id="8528f-104">記錄 [**檔類別具有**](logfiles.md) 下列屬性：</span><span class="sxs-lookup"><span data-stu-id="8528f-104">The [**LogFiles**](logfiles.md) class has the following properties:</span></span>
 
--   [<span data-ttu-id="33f54-105">**計數**</span><span class="sxs-lookup"><span data-stu-id="33f54-105">**Count**</span></span>](systemmonitor-logfiles-count.md)
--   [<span data-ttu-id="33f54-106">**項目**</span><span class="sxs-lookup"><span data-stu-id="33f54-106">**Item**</span></span>](systemmonitor-logfiles-item.md)
+-   [<span data-ttu-id="8528f-105">**計數**</span><span class="sxs-lookup"><span data-stu-id="8528f-105">**Count**</span></span>](systemmonitor-logfiles-count.md)
+-   [<span data-ttu-id="8528f-106">**項目**</span><span class="sxs-lookup"><span data-stu-id="8528f-106">**Item**</span></span>](systemmonitor-logfiles-item.md)
 
  
 

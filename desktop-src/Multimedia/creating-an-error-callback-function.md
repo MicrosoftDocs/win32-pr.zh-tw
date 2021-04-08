@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673172"
 ---
-# <a name="creating-an-error-callback-function"></a><span data-ttu-id="70e03-104">建立錯誤回呼函數</span><span class="sxs-lookup"><span data-stu-id="70e03-104">Creating an Error Callback Function</span></span>
+# <a name="creating-an-error-callback-function"></a><span data-ttu-id="2753c-104">建立錯誤回呼函數</span><span class="sxs-lookup"><span data-stu-id="2753c-104">Creating an Error Callback Function</span></span>
 
-<span data-ttu-id="70e03-105">下列範例是簡單的錯誤回呼函數。</span><span class="sxs-lookup"><span data-stu-id="70e03-105">The following example is a simple error callback function.</span></span> <span data-ttu-id="70e03-106">使用 [**capSetCallbackOnError**](/windows/desktop/api/Vfw/nf-vfw-capsetcallbackonerror) 宏註冊此回呼。</span><span class="sxs-lookup"><span data-stu-id="70e03-106">Register this callback by using the [**capSetCallbackOnError**](/windows/desktop/api/Vfw/nf-vfw-capsetcallbackonerror) macro.</span></span>
+<span data-ttu-id="2753c-105">下列範例是簡單的錯誤回呼函數。</span><span class="sxs-lookup"><span data-stu-id="2753c-105">The following example is a simple error callback function.</span></span> <span data-ttu-id="2753c-106">使用 [**capSetCallbackOnError**](/windows/desktop/api/Vfw/nf-vfw-capsetcallbackonerror) 宏註冊此回呼。</span><span class="sxs-lookup"><span data-stu-id="2753c-106">Register this callback by using the [**capSetCallbackOnError**](/windows/desktop/api/Vfw/nf-vfw-capsetcallbackonerror) macro.</span></span>
 
 
 ```
@@ -48,11 +48,11 @@ LRESULT PASCAL ErrorCallbackProc(HWND hWnd, int nErrID,
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="70e03-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="70e03-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2753c-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="2753c-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="70e03-108">使用影片捕獲</span><span class="sxs-lookup"><span data-stu-id="70e03-108">Using Video Capture</span></span>](using-video-capture.md)
+[<span data-ttu-id="2753c-108">使用影片捕獲</span><span class="sxs-lookup"><span data-stu-id="2753c-108">Using Video Capture</span></span>](using-video-capture.md)
 </dt> </dl>
 
  

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839735"
 ---
-# <a name="installing-a-provider"></a><span data-ttu-id="103c7-103">安裝提供者</span><span class="sxs-lookup"><span data-stu-id="103c7-103">Installing a Provider</span></span>
+# <a name="installing-a-provider"></a><span data-ttu-id="468b4-103">安裝提供者</span><span class="sxs-lookup"><span data-stu-id="468b4-103">Installing a Provider</span></span>
 
-<span data-ttu-id="103c7-104">下列範例程式碼示範 Windows 篩選平台的提供者安裝操作。</span><span class="sxs-lookup"><span data-stu-id="103c7-104">The following sample code demonstrates the provider installation operation of the Windows Filtering Platform.</span></span>
+<span data-ttu-id="468b4-104">下列範例程式碼示範 Windows 篩選平台的提供者安裝操作。</span><span class="sxs-lookup"><span data-stu-id="468b4-104">The following sample code demonstrates the provider installation operation of the Windows Filtering Platform.</span></span>
 
 
 ```C++

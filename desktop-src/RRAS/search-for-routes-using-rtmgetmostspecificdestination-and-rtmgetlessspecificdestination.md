@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839460"
 ---
-# <a name="search-for-routes-using-a-prefix-tree"></a><span data-ttu-id="0228e-103">使用前置詞樹狀目錄搜尋路由</span><span class="sxs-lookup"><span data-stu-id="0228e-103">Search for Routes Using a Prefix Tree</span></span>
+# <a name="search-for-routes-using-a-prefix-tree"></a><span data-ttu-id="0dcd8-103">使用前置詞樹狀目錄搜尋路由</span><span class="sxs-lookup"><span data-stu-id="0dcd8-103">Search for Routes Using a Prefix Tree</span></span>
 
-<span data-ttu-id="0228e-104">下列範例程式碼示範如何使用 [**RtmGetMostSpecificDestination**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetmostspecificdestination) 和 [**RtmGetLessSpecificDestination**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetlessspecificdestination) 來向上查看路由表中的前置詞樹狀結構。</span><span class="sxs-lookup"><span data-stu-id="0228e-104">The following sample code shows how to use [**RtmGetMostSpecificDestination**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetmostspecificdestination) and [**RtmGetLessSpecificDestination**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetlessspecificdestination) to walk up the prefix tree in the routing table.</span></span>
+<span data-ttu-id="0dcd8-104">下列範例程式碼示範如何使用 [**RtmGetMostSpecificDestination**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetmostspecificdestination) 和 [**RtmGetLessSpecificDestination**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetlessspecificdestination) 來向上查看路由表中的前置詞樹狀結構。</span><span class="sxs-lookup"><span data-stu-id="0dcd8-104">The following sample code shows how to use [**RtmGetMostSpecificDestination**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetmostspecificdestination) and [**RtmGetLessSpecificDestination**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetlessspecificdestination) to walk up the prefix tree in the routing table.</span></span>
 
 
 ```C++

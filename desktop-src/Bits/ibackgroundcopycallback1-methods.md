@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671620"
 ---
-# <a name="ibackgroundcopycallback1-methods"></a><span data-ttu-id="04c9e-103">IBackgroundCopyCallback1 方法</span><span class="sxs-lookup"><span data-stu-id="04c9e-103">IBackgroundCopyCallback1 Methods</span></span>
+# <a name="ibackgroundcopycallback1-methods"></a><span data-ttu-id="3522d-103">IBackgroundCopyCallback1 方法</span><span class="sxs-lookup"><span data-stu-id="3522d-103">IBackgroundCopyCallback1 Methods</span></span>
 
-<span data-ttu-id="04c9e-104">[**IBackgroundCopyCallback1**](/windows/desktop/api/Qmgr/nn-qmgr-ibackgroundcopycallback1)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="04c9e-104">The [**IBackgroundCopyCallback1**](/windows/desktop/api/Qmgr/nn-qmgr-ibackgroundcopycallback1) interface exposes the following methods.</span></span>
+<span data-ttu-id="3522d-104">[**IBackgroundCopyCallback1**](/windows/desktop/api/Qmgr/nn-qmgr-ibackgroundcopycallback1)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="3522d-104">The [**IBackgroundCopyCallback1**](/windows/desktop/api/Qmgr/nn-qmgr-ibackgroundcopycallback1) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="04c9e-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="04c9e-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3522d-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="3522d-105">In this section</span></span>
 
--   [<span data-ttu-id="04c9e-106">**OnStatus 方法**</span><span class="sxs-lookup"><span data-stu-id="04c9e-106">**OnStatus Method**</span></span>](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopycallback1-onstatus)
+-   [<span data-ttu-id="3522d-106">**OnStatus 方法**</span><span class="sxs-lookup"><span data-stu-id="3522d-106">**OnStatus Method**</span></span>](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopycallback1-onstatus)
 
  
 

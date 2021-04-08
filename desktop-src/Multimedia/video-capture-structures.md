@@ -14,20 +14,20 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671924"
 ---
-# <a name="video-capture-structures"></a><span data-ttu-id="7137e-105">影片捕獲結構</span><span class="sxs-lookup"><span data-stu-id="7137e-105">Video Capture Structures</span></span>
+# <a name="video-capture-structures"></a><span data-ttu-id="5409a-105">影片捕獲結構</span><span class="sxs-lookup"><span data-stu-id="5409a-105">Video Capture Structures</span></span>
 
-<span data-ttu-id="7137e-106">影片捕獲會使用下列結構。</span><span class="sxs-lookup"><span data-stu-id="7137e-106">The following structures are used with video capture.</span></span>
+<span data-ttu-id="5409a-106">影片捕獲會使用下列結構。</span><span class="sxs-lookup"><span data-stu-id="5409a-106">The following structures are used with video capture.</span></span>
 
--   [<span data-ttu-id="7137e-107">**CAPDRIVERCAPS**</span><span class="sxs-lookup"><span data-stu-id="7137e-107">**CAPDRIVERCAPS**</span></span>](/windows/win32/api/vfw/ns-vfw-capdrivercaps)
--   [<span data-ttu-id="7137e-108">**CAPINFOCHUNK**</span><span class="sxs-lookup"><span data-stu-id="7137e-108">**CAPINFOCHUNK**</span></span>](/windows/win32/api/vfw/ns-vfw-capinfochunk)
--   [<span data-ttu-id="7137e-109">**CAPSTATUS**</span><span class="sxs-lookup"><span data-stu-id="7137e-109">**CAPSTATUS**</span></span>](/windows/win32/api/vfw/ns-vfw-capstatus)
--   [<span data-ttu-id="7137e-110">**CAPTUREPARMS**</span><span class="sxs-lookup"><span data-stu-id="7137e-110">**CAPTUREPARMS**</span></span>](/windows/win32/api/vfw/ns-vfw-captureparms)
+-   [<span data-ttu-id="5409a-107">**CAPDRIVERCAPS**</span><span class="sxs-lookup"><span data-stu-id="5409a-107">**CAPDRIVERCAPS**</span></span>](/windows/win32/api/vfw/ns-vfw-capdrivercaps)
+-   [<span data-ttu-id="5409a-108">**CAPINFOCHUNK**</span><span class="sxs-lookup"><span data-stu-id="5409a-108">**CAPINFOCHUNK**</span></span>](/windows/win32/api/vfw/ns-vfw-capinfochunk)
+-   [<span data-ttu-id="5409a-109">**CAPSTATUS**</span><span class="sxs-lookup"><span data-stu-id="5409a-109">**CAPSTATUS**</span></span>](/windows/win32/api/vfw/ns-vfw-capstatus)
+-   [<span data-ttu-id="5409a-110">**CAPTUREPARMS**</span><span class="sxs-lookup"><span data-stu-id="5409a-110">**CAPTUREPARMS**</span></span>](/windows/win32/api/vfw/ns-vfw-captureparms)
 
-## <a name="related-topics"></a><span data-ttu-id="7137e-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="7137e-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="5409a-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="5409a-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7137e-112">影片捕獲參考</span><span class="sxs-lookup"><span data-stu-id="7137e-112">Video Capture Reference</span></span>](video-capture-reference.md)
+[<span data-ttu-id="5409a-112">影片捕獲參考</span><span class="sxs-lookup"><span data-stu-id="5409a-112">Video Capture Reference</span></span>](video-capture-reference.md)
 </dt> </dl>
 
  

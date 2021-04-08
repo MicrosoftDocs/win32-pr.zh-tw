@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672196"
 ---
-# <a name="cc-code-example-creating-an-idle-trigger"></a><span data-ttu-id="e687d-104">C/c + + 程式碼範例：建立閒置觸發程式</span><span class="sxs-lookup"><span data-stu-id="e687d-104">C/C++ Code Example: Creating an Idle Trigger</span></span>
+# <a name="cc-code-example-creating-an-idle-trigger"></a><span data-ttu-id="5fb3a-104">C/c + + 程式碼範例：建立閒置觸發程式</span><span class="sxs-lookup"><span data-stu-id="5fb3a-104">C/C++ Code Example: Creating an Idle Trigger</span></span>
 
-<span data-ttu-id="e687d-105">這個範例會建立現有工作的閒置觸發程式。</span><span class="sxs-lookup"><span data-stu-id="e687d-105">This example creates an idle trigger for an existing task.</span></span> <span data-ttu-id="e687d-106">如需有關閒置條件的詳細資訊，請參閱工作 [閒置條件](task-idle-conditions.md)。</span><span class="sxs-lookup"><span data-stu-id="e687d-106">For information about idle conditions, see [Task Idle Conditions](task-idle-conditions.md).</span></span>
+<span data-ttu-id="5fb3a-105">這個範例會建立現有工作的閒置觸發程式。</span><span class="sxs-lookup"><span data-stu-id="5fb3a-105">This example creates an idle trigger for an existing task.</span></span> <span data-ttu-id="5fb3a-106">如需有關閒置條件的詳細資訊，請參閱工作 [閒置條件](task-idle-conditions.md)。</span><span class="sxs-lookup"><span data-stu-id="5fb3a-106">For information about idle conditions, see [Task Idle Conditions](task-idle-conditions.md).</span></span>
 
 
 ```C++
@@ -190,11 +190,11 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="e687d-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="e687d-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="5fb3a-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="5fb3a-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e687d-108">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="e687d-108">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
+[<span data-ttu-id="5fb3a-108">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="5fb3a-108">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
  

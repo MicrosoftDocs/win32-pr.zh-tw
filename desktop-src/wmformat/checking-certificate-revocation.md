@@ -29,17 +29,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673023"
 ---
-# <a name="checking-certificate-revocation"></a><span data-ttu-id="7797a-120">檢查憑證撤銷</span><span class="sxs-lookup"><span data-stu-id="7797a-120">Checking Certificate Revocation</span></span>
+# <a name="checking-certificate-revocation"></a><span data-ttu-id="b24d5-120">檢查憑證撤銷</span><span class="sxs-lookup"><span data-stu-id="b24d5-120">Checking Certificate Revocation</span></span>
 
-<span data-ttu-id="7797a-121">將內容匯入 Windows Media DRM 時，您必須確認此集合中沒有任何憑證存在於撤銷清單中，以確定憑證集合中沒有任何憑證遭到撤銷。</span><span class="sxs-lookup"><span data-stu-id="7797a-121">When importing content into Windows Media DRM, you must ensure that no certificate in a certificate collection has been revoked by verifying that no certificate in the collection is in the revocation list.</span></span> <span data-ttu-id="7797a-122">撤銷清單是使用 [**IWMDRMSecurity：： GetRevocationData**](iwmdrmsecurity-getrevocationdata.md) 方法來解壓縮。</span><span class="sxs-lookup"><span data-stu-id="7797a-122">The revocation list is extracted by using the [**IWMDRMSecurity::GetRevocationData**](iwmdrmsecurity-getrevocationdata.md) method.</span></span>
+<span data-ttu-id="b24d5-121">將內容匯入 Windows Media DRM 時，您必須確認此集合中沒有任何憑證存在於撤銷清單中，以確定憑證集合中沒有任何憑證遭到撤銷。</span><span class="sxs-lookup"><span data-stu-id="b24d5-121">When importing content into Windows Media DRM, you must ensure that no certificate in a certificate collection has been revoked by verifying that no certificate in the collection is in the revocation list.</span></span> <span data-ttu-id="b24d5-122">撤銷清單是使用 [**IWMDRMSecurity：： GetRevocationData**](iwmdrmsecurity-getrevocationdata.md) 方法來解壓縮。</span><span class="sxs-lookup"><span data-stu-id="b24d5-122">The revocation list is extracted by using the [**IWMDRMSecurity::GetRevocationData**](iwmdrmsecurity-getrevocationdata.md) method.</span></span>
 
-<span data-ttu-id="7797a-123">然後，您可以使用 [**IWMDRMSecurity：： CheckCertForRevocation**](iwmdrmsecurity-checkcertforrevocation.md) 方法來確認憑證未被撤銷。</span><span class="sxs-lookup"><span data-stu-id="7797a-123">You then use the [**IWMDRMSecurity::CheckCertForRevocation**](iwmdrmsecurity-checkcertforrevocation.md) method to verify that the certificate is not revoked.</span></span>
+<span data-ttu-id="b24d5-123">然後，您可以使用 [**IWMDRMSecurity：： CheckCertForRevocation**](iwmdrmsecurity-checkcertforrevocation.md) 方法來確認憑證未被撤銷。</span><span class="sxs-lookup"><span data-stu-id="b24d5-123">You then use the [**IWMDRMSecurity::CheckCertForRevocation**](iwmdrmsecurity-checkcertforrevocation.md) method to verify that the certificate is not revoked.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="7797a-124">相關主題</span><span class="sxs-lookup"><span data-stu-id="7797a-124">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="b24d5-124">相關主題</span><span class="sxs-lookup"><span data-stu-id="b24d5-124">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7797a-125">**DRM 匯入**</span><span class="sxs-lookup"><span data-stu-id="7797a-125">**DRM Import**</span></span>](drm-import.md)
+[<span data-ttu-id="b24d5-125">**DRM 匯入**</span><span class="sxs-lookup"><span data-stu-id="b24d5-125">**DRM Import**</span></span>](drm-import.md)
 </dt> </dl>
 
  

@@ -20,15 +20,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672451"
 ---
-# <a name="custom-file-and-stream-handler-interfaces"></a><span data-ttu-id="212aa-111">自訂檔案和資料流程處理常式介面</span><span class="sxs-lookup"><span data-stu-id="212aa-111">Custom File and Stream Handler Interfaces</span></span>
+# <a name="custom-file-and-stream-handler-interfaces"></a><span data-ttu-id="cc6a1-111">自訂檔案和資料流程處理常式介面</span><span class="sxs-lookup"><span data-stu-id="cc6a1-111">Custom File and Stream Handler Interfaces</span></span>
 
-<span data-ttu-id="212aa-112">下列介面與自訂檔案和資料流程處理常式搭配使用。</span><span class="sxs-lookup"><span data-stu-id="212aa-112">The following interfaces used with custom file and stream handlers.</span></span>
+<span data-ttu-id="cc6a1-112">下列介面與自訂檔案和資料流程處理常式搭配使用。</span><span class="sxs-lookup"><span data-stu-id="cc6a1-112">The following interfaces used with custom file and stream handlers.</span></span>
 
--   [<span data-ttu-id="212aa-113">**IAVIEditStream**</span><span class="sxs-lookup"><span data-stu-id="212aa-113">**IAVIEditStream**</span></span>](/windows/desktop/api/Vfw/nn-vfw-iavieditstream)
--   [<span data-ttu-id="212aa-114">**IAVIFile**</span><span class="sxs-lookup"><span data-stu-id="212aa-114">**IAVIFile**</span></span>](/windows/desktop/api/Vfw/nn-vfw-iavifile)
--   [<span data-ttu-id="212aa-115">**IAVIStream**</span><span class="sxs-lookup"><span data-stu-id="212aa-115">**IAVIStream**</span></span>](/windows/desktop/api/Vfw/nn-vfw-iavistream)
--   [<span data-ttu-id="212aa-116">**IAVIStreaming**</span><span class="sxs-lookup"><span data-stu-id="212aa-116">**IAVIStreaming**</span></span>](/windows/desktop/api/Vfw/nn-vfw-iavistreaming)
--   [<span data-ttu-id="212aa-117">**IGetFrame**</span><span class="sxs-lookup"><span data-stu-id="212aa-117">**IGetFrame**</span></span>](/windows/desktop/api/Vfw/nn-vfw-igetframe)
+-   [<span data-ttu-id="cc6a1-113">**IAVIEditStream**</span><span class="sxs-lookup"><span data-stu-id="cc6a1-113">**IAVIEditStream**</span></span>](/windows/desktop/api/Vfw/nn-vfw-iavieditstream)
+-   [<span data-ttu-id="cc6a1-114">**IAVIFile**</span><span class="sxs-lookup"><span data-stu-id="cc6a1-114">**IAVIFile**</span></span>](/windows/desktop/api/Vfw/nn-vfw-iavifile)
+-   [<span data-ttu-id="cc6a1-115">**IAVIStream**</span><span class="sxs-lookup"><span data-stu-id="cc6a1-115">**IAVIStream**</span></span>](/windows/desktop/api/Vfw/nn-vfw-iavistream)
+-   [<span data-ttu-id="cc6a1-116">**IAVIStreaming**</span><span class="sxs-lookup"><span data-stu-id="cc6a1-116">**IAVIStreaming**</span></span>](/windows/desktop/api/Vfw/nn-vfw-iavistreaming)
+-   [<span data-ttu-id="cc6a1-117">**IGetFrame**</span><span class="sxs-lookup"><span data-stu-id="cc6a1-117">**IGetFrame**</span></span>](/windows/desktop/api/Vfw/nn-vfw-igetframe)
 
  
 

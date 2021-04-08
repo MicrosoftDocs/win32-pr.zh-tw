@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672503"
 ---
-# <a name="creating-a-presentation-web-page"></a><span data-ttu-id="c9dc1-104">建立簡報網頁</span><span class="sxs-lookup"><span data-stu-id="c9dc1-104">Creating a Presentation Web Page</span></span>
+# <a name="creating-a-presentation-web-page"></a><span data-ttu-id="e4e16-104">建立簡報網頁</span><span class="sxs-lookup"><span data-stu-id="e4e16-104">Creating a Presentation Web Page</span></span>
 
-<span data-ttu-id="c9dc1-105">本節中的範例程式碼會使用具有 UPnP 技術的控制點 API，建立簡單的網頁來控制虛構的 UPnP 型媒體播放機裝置。</span><span class="sxs-lookup"><span data-stu-id="c9dc1-105">The sample code in this section uses the Control Point API with UPnP technology to create a simple Web page to control a fictitious UPnP-based media player devices.</span></span> <span data-ttu-id="c9dc1-106">下圖顯示此網頁。</span><span class="sxs-lookup"><span data-stu-id="c9dc1-106">The Web page is shown in the following illustration.</span></span>
+<span data-ttu-id="e4e16-105">本節中的範例程式碼會使用具有 UPnP 技術的控制點 API，建立簡單的網頁來控制虛構的 UPnP 型媒體播放機裝置。</span><span class="sxs-lookup"><span data-stu-id="e4e16-105">The sample code in this section uses the Control Point API with UPnP technology to create a simple Web page to control a fictitious UPnP-based media player devices.</span></span> <span data-ttu-id="e4e16-106">下圖顯示此網頁。</span><span class="sxs-lookup"><span data-stu-id="e4e16-106">The Web page is shown in the following illustration.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="c9dc1-107">此範例程式碼僅適用于在 Windows 下執行的瀏覽器;它無法在其他作業系統下執行的瀏覽器中運作。</span><span class="sxs-lookup"><span data-stu-id="c9dc1-107">This sample code only works for browsers running under Windows; it does not work in browsers running under other operating systems.</span></span>
+> <span data-ttu-id="e4e16-107">此範例程式碼僅適用于在 Windows 下執行的瀏覽器;它無法在其他作業系統下執行的瀏覽器中運作。</span><span class="sxs-lookup"><span data-stu-id="e4e16-107">This sample code only works for browsers running under Windows; it does not work in browsers running under other operating systems.</span></span>
 
  
 

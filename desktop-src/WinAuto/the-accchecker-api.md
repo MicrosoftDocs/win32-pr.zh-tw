@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839443"
 ---
-# <a name="the-accchecker-api"></a><span data-ttu-id="6c2eb-104">AccChecker API</span><span class="sxs-lookup"><span data-stu-id="6c2eb-104">The AccChecker API</span></span>
+# <a name="the-accchecker-api"></a><span data-ttu-id="880f6-104">AccChecker API</span><span class="sxs-lookup"><span data-stu-id="880f6-104">The AccChecker API</span></span>
 
-<span data-ttu-id="6c2eb-105">AccChecker API 支援自動化測試。</span><span class="sxs-lookup"><span data-stu-id="6c2eb-105">The AccChecker API supports automated testing.</span></span> <span data-ttu-id="6c2eb-106">使用手動測試 AccChecker GUI 來篩選應用程式之後，您可以撰寫自動化測試，以併入使用 GUI 工具建立的訊息和隱藏記錄。</span><span class="sxs-lookup"><span data-stu-id="6c2eb-106">After screening an application by using manual testing with the AccChecker GUI, you can write automated tests that incorporate the message and suppression logs created with the GUI tool.</span></span>
+<span data-ttu-id="880f6-105">AccChecker API 支援自動化測試。</span><span class="sxs-lookup"><span data-stu-id="880f6-105">The AccChecker API supports automated testing.</span></span> <span data-ttu-id="880f6-106">使用手動測試 AccChecker GUI 來篩選應用程式之後，您可以撰寫自動化測試，以併入使用 GUI 工具建立的訊息和隱藏記錄。</span><span class="sxs-lookup"><span data-stu-id="880f6-106">After screening an application by using manual testing with the AccChecker GUI, you can write automated tests that incorporate the message and suppression logs created with the GUI tool.</span></span>
 
-<span data-ttu-id="6c2eb-107">下列程式碼範例示範如何使用 AccChecker API，在 [Windows 防火牆] 控制台應用程式中測試 tab 鍵功能。</span><span class="sxs-lookup"><span data-stu-id="6c2eb-107">The following code example demonstrates how to use the AccChecker API to test tabbing functionality in the Windows Firewall control panel application.</span></span>
+<span data-ttu-id="880f6-107">下列程式碼範例示範如何使用 AccChecker API，在 [Windows 防火牆] 控制台應用程式中測試 tab 鍵功能。</span><span class="sxs-lookup"><span data-stu-id="880f6-107">The following code example demonstrates how to use the AccChecker API to test tabbing functionality in the Windows Firewall control panel application.</span></span>
 
 
 ```CSharp
@@ -65,11 +65,11 @@ public class TestCases : TestBase
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="6c2eb-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="6c2eb-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="880f6-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="880f6-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6c2eb-109">UI 協助工具檢查程式</span><span class="sxs-lookup"><span data-stu-id="6c2eb-109">UI Accessibility Checker</span></span>](ui-accessibility-checker.md)
+[<span data-ttu-id="880f6-109">UI 協助工具檢查程式</span><span class="sxs-lookup"><span data-stu-id="880f6-109">UI Accessibility Checker</span></span>](ui-accessibility-checker.md)
 </dt> </dl>
 
  

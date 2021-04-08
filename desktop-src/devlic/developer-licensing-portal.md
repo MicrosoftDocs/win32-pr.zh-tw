@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839716"
 ---
-# <a name="developer-licensing"></a><span data-ttu-id="ddfbf-103">開發人員授權</span><span class="sxs-lookup"><span data-stu-id="ddfbf-103">Developer licensing</span></span>
+# <a name="developer-licensing"></a><span data-ttu-id="771a9-103">開發人員授權</span><span class="sxs-lookup"><span data-stu-id="771a9-103">Developer licensing</span></span>
 
-## <a name="purpose"></a><span data-ttu-id="ddfbf-104">目的</span><span class="sxs-lookup"><span data-stu-id="ddfbf-104">Purpose</span></span>
+## <a name="purpose"></a><span data-ttu-id="771a9-104">目的</span><span class="sxs-lookup"><span data-stu-id="771a9-104">Purpose</span></span>
 
-<span data-ttu-id="ddfbf-105">開發人員授權可讓您取得、檢查或移除開發人員授權。</span><span class="sxs-lookup"><span data-stu-id="ddfbf-105">Developer licensing enables you to get, check, or remove a developer license.</span></span>
+<span data-ttu-id="771a9-105">開發人員授權可讓您取得、檢查或移除開發人員授權。</span><span class="sxs-lookup"><span data-stu-id="771a9-105">Developer licensing enables you to get, check, or remove a developer license.</span></span>
 
  
 
