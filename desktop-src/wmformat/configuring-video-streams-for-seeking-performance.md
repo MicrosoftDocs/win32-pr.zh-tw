@@ -1,0 +1,56 @@
+---
+title: 設定影片串流以搜尋效能
+description: 設定影片串流以搜尋效能
+ms.assetid: 2df507f9-60a5-4489-b3db-7fe15604e625
+keywords:
+- 串流，設定影片串流
+- 編解碼器，設定影片串流
+- 影片串流，設定
+- 影片串流，效能
+- 效能、影片串流
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 33b4fc68e0b3a91cf135d29dc7123d5af88db84c
+ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "103681393"
+---
+# <a name="configuring-video-streams-for-seeking-performance"></a>設定影片串流以搜尋效能
+
+有些播放應用程式會對個別資料流程執行許多搜尋。 搜尋是一個區域，根據資料流程的設定而定，效能可能會有很大的差異。 如果您知道您的內容需要針對快速搜尋進行優化，您可以量身打造您的串流設定以改善效能。
+
+影響影片中搜尋作業速度的最大因素就是主要畫面格的間距。 因為主要畫面格之間的每個畫面格都必須根據其前面的畫面格來重建，所以廣泛的主要畫面格結果會比搜尋時間更長。 例如，如果影片資料流程的每秒30個畫面格的最大索引鍵-畫面格間距為10秒，主要畫面格之間可能會有300的框架。 如果您搜尋到最後一個 [*delta 框架*](wmformat-glossary.md)，則必須重建299的框架，才能解壓縮框架。 如果每個畫面格重建花費了 .01 秒，則搜尋需要大約3秒的時間。 如果您想要提高搜尋效率，請降低主要畫面格間距的協助。 但是，如果您設定的主要畫面格太緊密，可能會失去品質。
+
+您可以藉由呼叫 [**IWMVideoMediaProps：： SetMaxKeyFrameSpacing**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-setmaxkeyframespacing)來設定最大的主要畫面格間距。 下表列出建議值（根據資料流程的位元速率）。 這些值可提供良好的平衡來尋找效能和品質。 SDK 不會在主要畫面格之間的時間強制執行任何限制。 一般情況下，超過30秒的時間可能會在內容透過網路進行串流處理，以及在本機播放時，對搜尋時間造成負面影響。
+
+
+
+| 位元速率             | 建議的最大索引鍵框架間距 |
+|----------------------|-------------------------------------|
+| 22 kbps 至 300 Kbps  | 8秒                           |
+| 300 kbps 到 600 Kbps | 6 秒                           |
+| 600 Kbps 至 2 Mbps   | 4 秒                           |
+| 2 Mbps 和更新版本    | 3 秒                           |
+
+
+
+ 
+
+如需在搜尋影片檔案時取得最佳效能的詳細資訊，請參閱 [取得最佳的影片尋找效能](getting-the-best-video-seeking-performance.md)。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[**設定資料流程**](configuring-streams.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
