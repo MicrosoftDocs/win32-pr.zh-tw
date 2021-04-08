@@ -1,0 +1,27 @@
+---
+title: 儲存錄製的內容
+description: 儲存錄製的內容
+ms.assetid: 0c159c44-f96c-4c08-bd3f-9e65b413026c
+keywords:
+- MCIWndSave 宏
+- MCIWndSaveDialog 宏
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 55bb2cd89a72af4412b2555dd9b7c88f2d277ac8
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103673164"
+---
+# <a name="saving-recorded-content"></a>儲存錄製的內容
+
+完成記錄之後，您可以使用 [**MCIWndSave**](/windows/desktop/api/Vfw/nf-vfw-mciwndsave) 或 [**MCIWndSaveDialog**](/windows/desktop/api/Vfw/nf-vfw-mciwndsavedialog) 宏或使用 [**GetSaveFileNamePreview**](/windows/desktop/api/Vfw/nf-vfw-getsavefilenamepreviewa) 函數搭配 **MCIWndSave** 來儲存內容。 **MCIWndSave** 宏會將資料儲存在與 [MCIWnd] 視窗相關聯的檔案中。 **MCIWndSaveDialog** 宏可讓使用者指定檔案名，並將記錄的資料儲存在指定的檔案中。 **GetSaveFileNamePreview** 函式會顯示選擇檔案的 [ **SaveAs** ] 對話方塊，讓使用者預覽 (播放) 檔案。 當現有檔案的名稱指定于 [ **SaveAs** ] 對話方塊時， **GetSaveFileNamePreview** 會在對話方塊中提供一個小控制項，讓使用者預覽檔案的內容。 您可以使用 **MCIWndSave**，將記錄的資料儲存在使用 **GetSaveFileNamePreview** 所選取的檔案中。
+
+ 
+
+ 
+
+
+
+
