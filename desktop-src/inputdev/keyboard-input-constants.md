@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672463"
 ---
-# <a name="keyboard-input-constants"></a><span data-ttu-id="87882-103">鍵盤輸入常數</span><span class="sxs-lookup"><span data-stu-id="87882-103">Keyboard Input Constants</span></span>
+# <a name="keyboard-input-constants"></a><span data-ttu-id="94397-103">鍵盤輸入常數</span><span class="sxs-lookup"><span data-stu-id="94397-103">Keyboard Input Constants</span></span>
 
--   [<span data-ttu-id="87882-104">虛擬金鑰碼</span><span class="sxs-lookup"><span data-stu-id="87882-104">Virtual-Key Codes</span></span>](virtual-key-codes.md)
+-   [<span data-ttu-id="94397-104">虛擬金鑰碼</span><span class="sxs-lookup"><span data-stu-id="94397-104">Virtual-Key Codes</span></span>](virtual-key-codes.md)
 
  
 

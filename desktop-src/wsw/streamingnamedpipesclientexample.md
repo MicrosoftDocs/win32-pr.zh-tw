@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839675"
 ---
-# <a name="streamingnamedpipesclientexample"></a><span data-ttu-id="73db7-103">StreamingNamedPipesClientExample</span><span class="sxs-lookup"><span data-stu-id="73db7-103">StreamingNamedPipesClientExample</span></span>
+# <a name="streamingnamedpipesclientexample"></a><span data-ttu-id="53e18-103">StreamingNamedPipesClientExample</span><span class="sxs-lookup"><span data-stu-id="53e18-103">StreamingNamedPipesClientExample</span></span>
 
-<span data-ttu-id="73db7-104">此範例顯示以串流方式傳送單向訊息的具名管道用戶端。</span><span class="sxs-lookup"><span data-stu-id="73db7-104">This example shows a named pipes client that sends one-way messages in a steaming fashion.</span></span>
+<span data-ttu-id="53e18-104">此範例顯示以串流方式傳送單向訊息的具名管道用戶端。</span><span class="sxs-lookup"><span data-stu-id="53e18-104">This example shows a named pipes client that sends one-way messages in a steaming fashion.</span></span>
 
--   [<span data-ttu-id="73db7-105">StreamingNamedPipesClient .cpp</span><span class="sxs-lookup"><span data-stu-id="73db7-105">StreamingNamedPipesClient.cpp</span></span>](#streamingnamedpipesclientcpp)
--   [<span data-ttu-id="73db7-106">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="73db7-106">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="73db7-107">Makefile</span><span class="sxs-lookup"><span data-stu-id="73db7-107">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="53e18-105">StreamingNamedPipesClient .cpp</span><span class="sxs-lookup"><span data-stu-id="53e18-105">StreamingNamedPipesClient.cpp</span></span>](#streamingnamedpipesclientcpp)
+-   [<span data-ttu-id="53e18-106">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="53e18-106">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="53e18-107">Makefile</span><span class="sxs-lookup"><span data-stu-id="53e18-107">Makefile</span></span>](#makefile)
 
-## <a name="streamingnamedpipesclientcpp"></a><span data-ttu-id="73db7-108">StreamingNamedPipesClient .cpp</span><span class="sxs-lookup"><span data-stu-id="73db7-108">StreamingNamedPipesClient.cpp</span></span>
+## <a name="streamingnamedpipesclientcpp"></a><span data-ttu-id="53e18-108">StreamingNamedPipesClient .cpp</span><span class="sxs-lookup"><span data-stu-id="53e18-108">StreamingNamedPipesClient.cpp</span></span>
 
 
 ```C++
@@ -266,7 +266,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="73db7-109">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="73db7-109">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="53e18-109">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="53e18-109">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -377,7 +377,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="73db7-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="73db7-110">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="53e18-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="53e18-110">Makefile</span></span>
 
 ``` syntax
 #------------------------------------------------------------

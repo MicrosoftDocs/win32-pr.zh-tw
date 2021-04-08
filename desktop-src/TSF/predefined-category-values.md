@@ -11,29 +11,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671767"
 ---
-# <a name="predefined-category-values"></a><span data-ttu-id="a8ade-103">預先定義的類別值</span><span class="sxs-lookup"><span data-stu-id="a8ade-103">Predefined Category Values</span></span>
+# <a name="predefined-category-values"></a><span data-ttu-id="e45b7-103">預先定義的類別值</span><span class="sxs-lookup"><span data-stu-id="e45b7-103">Predefined Category Values</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="a8ade-104">規格需求</span><span class="sxs-lookup"><span data-stu-id="a8ade-104">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e45b7-104">規格需求</span><span class="sxs-lookup"><span data-stu-id="e45b7-104">Requirements</span></span>
 
-<span data-ttu-id="a8ade-105">可轉散發套件 **：** 在 Windows 2000 上需要 TSF 1.0。</span><span class="sxs-lookup"><span data-stu-id="a8ade-105">**Redistributable:** Requires TSF 1.0 on Windows 2000.</span></span>
-
- 
-
-<span data-ttu-id="a8ade-106">**標頭：** 宣告于 Msctf .idl 和 Msctf 中。</span><span class="sxs-lookup"><span data-stu-id="a8ade-106">**Header:** Declared in Msctf.idl and Msctf.h.</span></span>
+<span data-ttu-id="e45b7-105">可轉散發套件 **：** 在 Windows 2000 上需要 TSF 1.0。</span><span class="sxs-lookup"><span data-stu-id="e45b7-105">**Redistributable:** Requires TSF 1.0 on Windows 2000.</span></span>
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="a8ade-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="a8ade-107">Related topics</span></span>
+<span data-ttu-id="e45b7-106">**標頭：** 宣告于 Msctf .idl 和 Msctf 中。</span><span class="sxs-lookup"><span data-stu-id="e45b7-106">**Header:** Declared in Msctf.idl and Msctf.h.</span></span>
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="e45b7-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="e45b7-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a8ade-108">**ITfCategoryMgr::EnumItemsInCategory**</span><span class="sxs-lookup"><span data-stu-id="a8ade-108">**ITfCategoryMgr::EnumItemsInCategory**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-enumitemsincategory)
+[<span data-ttu-id="e45b7-108">**ITfCategoryMgr::EnumItemsInCategory**</span><span class="sxs-lookup"><span data-stu-id="e45b7-108">**ITfCategoryMgr::EnumItemsInCategory**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-enumitemsincategory)
 </dt> <dt>
 
-[<span data-ttu-id="a8ade-109">**ITfCategoryMgr::RegisterCategory**</span><span class="sxs-lookup"><span data-stu-id="a8ade-109">**ITfCategoryMgr::RegisterCategory**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-registercategory)
+[<span data-ttu-id="e45b7-109">**ITfCategoryMgr::RegisterCategory**</span><span class="sxs-lookup"><span data-stu-id="e45b7-109">**ITfCategoryMgr::RegisterCategory**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-registercategory)
 </dt> <dt>
 
-[<span data-ttu-id="a8ade-110">**ITfInputProcessorProfiles::GetDefaultLanguageProfile**</span><span class="sxs-lookup"><span data-stu-id="a8ade-110">**ITfInputProcessorProfiles::GetDefaultLanguageProfile**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getdefaultlanguageprofile)
+[<span data-ttu-id="e45b7-110">**ITfInputProcessorProfiles::GetDefaultLanguageProfile**</span><span class="sxs-lookup"><span data-stu-id="e45b7-110">**ITfInputProcessorProfiles::GetDefaultLanguageProfile**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getdefaultlanguageprofile)
 </dt> </dl>
 
  

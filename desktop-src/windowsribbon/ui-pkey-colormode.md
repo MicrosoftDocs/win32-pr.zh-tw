@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671452"
 ---
-# <a name="ui_pkey_colormode"></a><span data-ttu-id="9c1b5-103">UI \_ PKEY \_ ColorMode</span><span class="sxs-lookup"><span data-stu-id="9c1b5-103">UI\_PKEY\_ColorMode</span></span>
+# <a name="ui_pkey_colormode"></a><span data-ttu-id="94afd-103">UI \_ PKEY \_ ColorMode</span><span class="sxs-lookup"><span data-stu-id="94afd-103">UI\_PKEY\_ColorMode</span></span>
 
-<span data-ttu-id="9c1b5-104">識別 UI \_ PKEY \_ ColorMode 屬性。</span><span class="sxs-lookup"><span data-stu-id="9c1b5-104">Identifies the UI\_PKEY\_ColorMode property.</span></span>
+<span data-ttu-id="94afd-104">識別 UI \_ PKEY \_ ColorMode 屬性。</span><span class="sxs-lookup"><span data-stu-id="94afd-104">Identifies the UI\_PKEY\_ColorMode property.</span></span>
 
 ```
 propertyDescription
@@ -25,15 +25,15 @@ propertyDescription
       type = UI_SWATCHCOLORMODE
 ```
 
-## <a name="remarks"></a><span data-ttu-id="9c1b5-105">備註</span><span class="sxs-lookup"><span data-stu-id="9c1b5-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="94afd-105">備註</span><span class="sxs-lookup"><span data-stu-id="94afd-105">Remarks</span></span>
 
-<span data-ttu-id="9c1b5-106">屬性值來自 [**UI \_ SWATCHCOLORMODE**](/windows/desktop/api/Uiribbon/ne-uiribbon-ui_swatchcolormode) 列舉。</span><span class="sxs-lookup"><span data-stu-id="9c1b5-106">The property value is from the [**UI\_SWATCHCOLORMODE**](/windows/desktop/api/Uiribbon/ne-uiribbon-ui_swatchcolormode) enumeration.</span></span>
+<span data-ttu-id="94afd-106">屬性值來自 [**UI \_ SWATCHCOLORMODE**](/windows/desktop/api/Uiribbon/ne-uiribbon-ui_swatchcolormode) 列舉。</span><span class="sxs-lookup"><span data-stu-id="94afd-106">The property value is from the [**UI\_SWATCHCOLORMODE**](/windows/desktop/api/Uiribbon/ne-uiribbon-ui_swatchcolormode) enumeration.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="9c1b5-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="9c1b5-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="94afd-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="94afd-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9c1b5-108">色彩選擇器屬性</span><span class="sxs-lookup"><span data-stu-id="9c1b5-108">Color Picker Properties</span></span>](windowsribbon-reference-properties-colorpicker.md)
+[<span data-ttu-id="94afd-108">色彩選擇器屬性</span><span class="sxs-lookup"><span data-stu-id="94afd-108">Color Picker Properties</span></span>](windowsribbon-reference-properties-colorpicker.md)
 </dt> </dl>
 
  

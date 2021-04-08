@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839555"
 ---
-# <a name="asynchronous-example-makefile"></a><span data-ttu-id="93d7d-103">非同步範例 Makefile</span><span class="sxs-lookup"><span data-stu-id="93d7d-103">Asynchronous Example Makefile</span></span>
+# <a name="asynchronous-example-makefile"></a><span data-ttu-id="9e1e1-103">非同步範例 Makefile</span><span class="sxs-lookup"><span data-stu-id="9e1e1-103">Asynchronous Example Makefile</span></span>
 
-<span data-ttu-id="93d7d-104">以下是 [非同步範例應用程式](asynchronous-example-application.md)的 makefile。</span><span class="sxs-lookup"><span data-stu-id="93d7d-104">The following is the makefile for the [asynchronous example application](asynchronous-example-application.md).</span></span>
+<span data-ttu-id="9e1e1-104">以下是 [非同步範例應用程式](asynchronous-example-application.md)的 makefile。</span><span class="sxs-lookup"><span data-stu-id="9e1e1-104">The following is the makefile for the [asynchronous example application](asynchronous-example-application.md).</span></span>
 
 ``` syntax
 #----- Include the SDK's WIN32.MAK to pick up defines-------------------

@@ -13,16 +13,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839619"
 ---
-# <a name="midl-array-attributes-used-in-rpc"></a><span data-ttu-id="3bfec-104">RPC 中使用的 MIDL 陣列屬性</span><span class="sxs-lookup"><span data-stu-id="3bfec-104">MIDL Array Attributes Used in RPC</span></span>
+# <a name="midl-array-attributes-used-in-rpc"></a><span data-ttu-id="19850-104">RPC 中使用的 MIDL 陣列屬性</span><span class="sxs-lookup"><span data-stu-id="19850-104">MIDL Array Attributes Used in RPC</span></span>
 
-<span data-ttu-id="3bfec-105">本節討論下列主題中的 MIDL 陣列屬性：</span><span class="sxs-lookup"><span data-stu-id="3bfec-105">This section discusses the MIDL array attributes in the following topics:</span></span>
+<span data-ttu-id="19850-105">本節討論下列主題中的 MIDL 陣列屬性：</span><span class="sxs-lookup"><span data-stu-id="19850-105">This section discusses the MIDL array attributes in the following topics:</span></span>
 
--   <span data-ttu-id="3bfec-106">[\[大小 \_ 為 \] Attribute](the-size-is-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="3bfec-106">[The \[size\_is\] Attribute](the-size-is-attribute.md)</span></span>
--   <span data-ttu-id="3bfec-107">[\[長度 \_ 為 \] 屬性](the-length-is-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="3bfec-107">[The \[length\_is\] Attribute](the-length-is-attribute.md)</span></span>
--   <span data-ttu-id="3bfec-108">[\[第一個 \_ 是 \] 和 \[ 最後一個 \_ 是 \] 屬性](the-first-is-and-last-is-attributes.md)</span><span class="sxs-lookup"><span data-stu-id="3bfec-108">[The \[first\_is\] and \[last\_is\] Attributes](the-first-is-and-last-is-attributes.md)</span></span>
--   <span data-ttu-id="3bfec-109">[\[Max \_ 為 \] 屬性](the-max-is-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="3bfec-109">[The \[max\_is\] Attribute](the-max-is-attribute.md)</span></span>
--   [<span data-ttu-id="3bfec-110">合併陣列屬性</span><span class="sxs-lookup"><span data-stu-id="3bfec-110">Combining Array Attributes</span></span>](combining-array-attributes.md)
--   <span data-ttu-id="3bfec-111">[\[ \] 陣列中的字串屬性](the-string-attribute-in-arrays.md)</span><span class="sxs-lookup"><span data-stu-id="3bfec-111">[The \[string\] Attribute in Arrays](the-string-attribute-in-arrays.md)</span></span>
+-   <span data-ttu-id="19850-106">[\[大小 \_ 為 \] Attribute](the-size-is-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="19850-106">[The \[size\_is\] Attribute](the-size-is-attribute.md)</span></span>
+-   <span data-ttu-id="19850-107">[\[長度 \_ 為 \] 屬性](the-length-is-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="19850-107">[The \[length\_is\] Attribute](the-length-is-attribute.md)</span></span>
+-   <span data-ttu-id="19850-108">[\[第一個 \_ 是 \] 和 \[ 最後一個 \_ 是 \] 屬性](the-first-is-and-last-is-attributes.md)</span><span class="sxs-lookup"><span data-stu-id="19850-108">[The \[first\_is\] and \[last\_is\] Attributes](the-first-is-and-last-is-attributes.md)</span></span>
+-   <span data-ttu-id="19850-109">[\[Max \_ 為 \] 屬性](the-max-is-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="19850-109">[The \[max\_is\] Attribute](the-max-is-attribute.md)</span></span>
+-   [<span data-ttu-id="19850-110">合併陣列屬性</span><span class="sxs-lookup"><span data-stu-id="19850-110">Combining Array Attributes</span></span>](combining-array-attributes.md)
+-   <span data-ttu-id="19850-111">[\[ \] 陣列中的字串屬性](the-string-attribute-in-arrays.md)</span><span class="sxs-lookup"><span data-stu-id="19850-111">[The \[string\] Attribute in Arrays](the-string-attribute-in-arrays.md)</span></span>
 
  
 

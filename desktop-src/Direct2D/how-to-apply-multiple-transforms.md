@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671775"
 ---
-# <a name="how-to-apply-multiple-transforms-to-an-object"></a><span data-ttu-id="2b997-103">如何將多個轉換套用至物件</span><span class="sxs-lookup"><span data-stu-id="2b997-103">How to Apply Multiple Transforms to an Object</span></span>
+# <a name="how-to-apply-multiple-transforms-to-an-object"></a><span data-ttu-id="74b92-103">如何將多個轉換套用至物件</span><span class="sxs-lookup"><span data-stu-id="74b92-103">How to Apply Multiple Transforms to an Object</span></span>
 
-<span data-ttu-id="2b997-104">若要對物件執行多個轉換，表示會將數個轉換合併成一個。</span><span class="sxs-lookup"><span data-stu-id="2b997-104">To perform multiple transforms on an object means to combine several transforms into one.</span></span> <span data-ttu-id="2b997-105">也就是說，從每個轉換矩陣取得輸出，然後使用它做為下一個輸入的輸入，藉以取得所有矩陣轉換的累積效果。</span><span class="sxs-lookup"><span data-stu-id="2b997-105">That is, taking the output from each transformation matrix and using it as the input for the next, thereby getting the cumulative effects of all the matrix transformations.</span></span>
+<span data-ttu-id="74b92-104">若要對物件執行多個轉換，表示會將數個轉換合併成一個。</span><span class="sxs-lookup"><span data-stu-id="74b92-104">To perform multiple transforms on an object means to combine several transforms into one.</span></span> <span data-ttu-id="74b92-105">也就是說，從每個轉換矩陣取得輸出，然後使用它做為下一個輸入的輸入，藉以取得所有矩陣轉換的累積效果。</span><span class="sxs-lookup"><span data-stu-id="74b92-105">That is, taking the output from each transformation matrix and using it as the input for the next, thereby getting the cumulative effects of all the matrix transformations.</span></span>
 
-<span data-ttu-id="2b997-106">假設兩個轉換矩陣（旋轉和平移）會一起相乘。</span><span class="sxs-lookup"><span data-stu-id="2b997-106">Suppose two transformation matrices, rotation and translation, are multiplied together.</span></span> <span data-ttu-id="2b997-107">結果是新的矩陣，可執行旋轉和轉譯的功能。</span><span class="sxs-lookup"><span data-stu-id="2b997-107">The result is a new matrix that performs the functions of both rotation and translation.</span></span> <span data-ttu-id="2b997-108">因為矩陣乘法不是可交換的，所以旋轉轉換乘以平移轉換，與平移轉換乘以旋轉轉換不同。</span><span class="sxs-lookup"><span data-stu-id="2b997-108">Because matrix multiplication is not commutative, a rotation transformation multiplied by a translation transformation is different from the translation transformation multiplied by the rotation transformation.</span></span>
+<span data-ttu-id="74b92-106">假設兩個轉換矩陣（旋轉和平移）會一起相乘。</span><span class="sxs-lookup"><span data-stu-id="74b92-106">Suppose two transformation matrices, rotation and translation, are multiplied together.</span></span> <span data-ttu-id="74b92-107">結果是新的矩陣，可執行旋轉和轉譯的功能。</span><span class="sxs-lookup"><span data-stu-id="74b92-107">The result is a new matrix that performs the functions of both rotation and translation.</span></span> <span data-ttu-id="74b92-108">因為矩陣乘法不是可交換的，所以旋轉轉換乘以平移轉換，與平移轉換乘以旋轉轉換不同。</span><span class="sxs-lookup"><span data-stu-id="74b92-108">Because matrix multiplication is not commutative, a rotation transformation multiplied by a translation transformation is different from the translation transformation multiplied by the rotation transformation.</span></span>
 
-<span data-ttu-id="2b997-109">下列程式碼範例會示範如何套用旋轉，再加上平移，然後再以旋轉進行轉譯。</span><span class="sxs-lookup"><span data-stu-id="2b997-109">The following code examples show how to apply rotation followed by translation, and then translation followed by rotation.</span></span> <span data-ttu-id="2b997-110">請注意，轉譯結果不同。</span><span class="sxs-lookup"><span data-stu-id="2b997-110">Notice that the rendering results are different.</span></span>
+<span data-ttu-id="74b92-109">下列程式碼範例會示範如何套用旋轉，再加上平移，然後再以旋轉進行轉譯。</span><span class="sxs-lookup"><span data-stu-id="74b92-109">The following code examples show how to apply rotation followed by translation, and then translation followed by rotation.</span></span> <span data-ttu-id="74b92-110">請注意，轉譯結果不同。</span><span class="sxs-lookup"><span data-stu-id="74b92-110">Notice that the rendering results are different.</span></span>
 
 
 ```C++
@@ -85,18 +85,18 @@ m_pRenderTarget->DrawRectangle(rectangle, m_pTransformedShapeBrush);
 
 
 
-<span data-ttu-id="2b997-111">程式碼會產生下圖中顯示的輸出。</span><span class="sxs-lookup"><span data-stu-id="2b997-111">The code produces the output shown in the following illustration.</span></span>
+<span data-ttu-id="74b92-111">程式碼會產生下圖中顯示的輸出。</span><span class="sxs-lookup"><span data-stu-id="74b92-111">The code produces the output shown in the following illustration.</span></span>
 
 ![已轉譯然後旋轉的一個矩形圖例，以及一個已旋轉然後轉譯的矩形](images/multipletransforms.png)
 
-## <a name="related-topics"></a><span data-ttu-id="2b997-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="2b997-113">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="74b92-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="74b92-113">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2b997-114">Direct2D 參考</span><span class="sxs-lookup"><span data-stu-id="2b997-114">Direct2D Reference</span></span>](reference.md)
+[<span data-ttu-id="74b92-114">Direct2D 參考</span><span class="sxs-lookup"><span data-stu-id="74b92-114">Direct2D Reference</span></span>](reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="2b997-115">Direct2D 轉換總覽</span><span class="sxs-lookup"><span data-stu-id="2b997-115">Direct2D Transforms Overview</span></span>](direct2d-transforms-overview.md)
+[<span data-ttu-id="74b92-115">Direct2D 轉換總覽</span><span class="sxs-lookup"><span data-stu-id="74b92-115">Direct2D Transforms Overview</span></span>](direct2d-transforms-overview.md)
 </dt> </dl>
 
  

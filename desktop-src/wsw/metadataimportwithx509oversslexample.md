@@ -15,11 +15,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672163"
 ---
-# <a name="metadataimportwithx509oversslexample"></a><span data-ttu-id="6f71e-106">MetadataImportWithX509OverSslExample</span><span class="sxs-lookup"><span data-stu-id="6f71e-106">MetadataImportWithX509OverSslExample</span></span>
+# <a name="metadataimportwithx509oversslexample"></a><span data-ttu-id="bc572-106">MetadataImportWithX509OverSslExample</span><span class="sxs-lookup"><span data-stu-id="bc572-106">MetadataImportWithX509OverSslExample</span></span>
 
-<span data-ttu-id="6f71e-107">此範例說明如何從支援使用 X509 權杖的端點（使用 [**ws \_ XML \_ 權杖 \_ 訊息 \_ 安全性 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding) 系結與 [**ws \_ SSL \_ 傳輸 \_ 安全性 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)系結）匯入中繼資料。</span><span class="sxs-lookup"><span data-stu-id="6f71e-107">This example illustrates importing metadata from an endpoint that supports using a X509 token using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding).</span></span>
+<span data-ttu-id="bc572-107">此範例說明如何從支援使用 X509 權杖的端點（使用 [**ws \_ XML \_ 權杖 \_ 訊息 \_ 安全性 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding) 系結與 [**ws \_ SSL \_ 傳輸 \_ 安全性 \_**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)系結）匯入中繼資料。</span><span class="sxs-lookup"><span data-stu-id="bc572-107">This example illustrates importing metadata from an endpoint that supports using a X509 token using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding).</span></span>
 
-## <a name="metadataimportwithx509oversslexamplecpp"></a><span data-ttu-id="6f71e-108">MetadataImportWithX509OverSslExample .cpp</span><span class="sxs-lookup"><span data-stu-id="6f71e-108">MetadataImportWithX509OverSslExample.cpp</span></span>
+## <a name="metadataimportwithx509oversslexamplecpp"></a><span data-ttu-id="bc572-108">MetadataImportWithX509OverSslExample .cpp</span><span class="sxs-lookup"><span data-stu-id="bc572-108">MetadataImportWithX509OverSslExample.cpp</span></span>
 
 
 ```C++
@@ -583,14 +583,14 @@ Exit:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="6f71e-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="6f71e-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bc572-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="bc572-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6f71e-110">**WS \_ XML \_ 權杖 \_ 訊息 \_ 安全性 \_ 系結**</span><span class="sxs-lookup"><span data-stu-id="6f71e-110">**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**</span></span>](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding)
+[<span data-ttu-id="bc572-110">**WS \_ XML \_ 權杖 \_ 訊息 \_ 安全性 \_ 系結**</span><span class="sxs-lookup"><span data-stu-id="bc572-110">**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**</span></span>](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding)
 </dt> <dt>
 
-[<span data-ttu-id="6f71e-111">**WS \_ SSL \_ 傳輸 \_ 安全性 \_ 系結**</span><span class="sxs-lookup"><span data-stu-id="6f71e-111">**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**</span></span>](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)
+[<span data-ttu-id="bc572-111">**WS \_ SSL \_ 傳輸 \_ 安全性 \_ 系結**</span><span class="sxs-lookup"><span data-stu-id="bc572-111">**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**</span></span>](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)
 </dt> </dl>
 
  

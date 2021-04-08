@@ -18,9 +18,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839687"
 ---
-# <a name="implementing-imediaobjectfreestreamingresources"></a><span data-ttu-id="38d77-109">執行 IMediaObject：： FreeStreamingResources</span><span class="sxs-lookup"><span data-stu-id="38d77-109">Implementing IMediaObject::FreeStreamingResources</span></span>
+# <a name="implementing-imediaobjectfreestreamingresources"></a><span data-ttu-id="bf8e4-109">執行 IMediaObject：： FreeStreamingResources</span><span class="sxs-lookup"><span data-stu-id="bf8e4-109">Implementing IMediaObject::FreeStreamingResources</span></span>
 
-<span data-ttu-id="38d77-110">在外掛程式物件終結之前，您的程式碼必須先釋放任何配置的記憶體。</span><span class="sxs-lookup"><span data-stu-id="38d77-110">It is important that your code releases any allocated memory before the plug-in object is destroyed.</span></span> <span data-ttu-id="38d77-111">Windows Media Player 會呼叫 **FreeStreamingResources** 以允許您這樣做。</span><span class="sxs-lookup"><span data-stu-id="38d77-111">Windows Media Player calls **FreeStreamingResources** to allow you to do this.</span></span> <span data-ttu-id="38d77-112">基於安全考慮，外掛程式 wizard 建立的範例會在 **FinalRelease** 方法中包含對 **FreeStreamingResources** 的呼叫，以確保釋放記憶體。</span><span class="sxs-lookup"><span data-stu-id="38d77-112">For safety, the sample created by the plug-in wizard includes a call to **FreeStreamingResources** in the **FinalRelease** method to ensure that the memory is freed.</span></span> <span data-ttu-id="38d77-113">您必須將下列程式碼新增至 Echo 範例的 **FreeStreamingResources** ：</span><span class="sxs-lookup"><span data-stu-id="38d77-113">You must add the following code to **FreeStreamingResources** for the Echo sample:</span></span>
+<span data-ttu-id="bf8e4-110">在外掛程式物件終結之前，您的程式碼必須先釋放任何配置的記憶體。</span><span class="sxs-lookup"><span data-stu-id="bf8e4-110">It is important that your code releases any allocated memory before the plug-in object is destroyed.</span></span> <span data-ttu-id="bf8e4-111">Windows Media Player 會呼叫 **FreeStreamingResources** 以允許您這樣做。</span><span class="sxs-lookup"><span data-stu-id="bf8e4-111">Windows Media Player calls **FreeStreamingResources** to allow you to do this.</span></span> <span data-ttu-id="bf8e4-112">基於安全考慮，外掛程式 wizard 建立的範例會在 **FinalRelease** 方法中包含對 **FreeStreamingResources** 的呼叫，以確保釋放記憶體。</span><span class="sxs-lookup"><span data-stu-id="bf8e4-112">For safety, the sample created by the plug-in wizard includes a call to **FreeStreamingResources** in the **FinalRelease** method to ensure that the memory is freed.</span></span> <span data-ttu-id="bf8e4-113">您必須將下列程式碼新增至 Echo 範例的 **FreeStreamingResources** ：</span><span class="sxs-lookup"><span data-stu-id="bf8e4-113">You must add the following code to **FreeStreamingResources** for the Echo sample:</span></span>
 
 
 ```
@@ -36,11 +36,11 @@ if (m_pbDelayBuffer)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="38d77-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="38d77-114">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bf8e4-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="bf8e4-114">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="38d77-115">**使用串流資源**</span><span class="sxs-lookup"><span data-stu-id="38d77-115">**Working with Streaming Resources**</span></span>](working-with-streaming-resources.md)
+[<span data-ttu-id="bf8e4-115">**使用串流資源**</span><span class="sxs-lookup"><span data-stu-id="bf8e4-115">**Working with Streaming Resources**</span></span>](working-with-streaming-resources.md)
 </dt> </dl>
 
  

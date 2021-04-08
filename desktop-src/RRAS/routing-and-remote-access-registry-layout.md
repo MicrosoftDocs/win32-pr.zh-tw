@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839983"
 ---
-# <a name="routing-and-remote-access-registry-layout"></a><span data-ttu-id="693df-104">路由及遠端存取登錄版面配置</span><span class="sxs-lookup"><span data-stu-id="693df-104">Routing and Remote Access Registry Layout</span></span>
+# <a name="routing-and-remote-access-registry-layout"></a><span data-ttu-id="f1636-104">路由及遠端存取登錄版面配置</span><span class="sxs-lookup"><span data-stu-id="f1636-104">Routing and Remote Access Registry Layout</span></span>
 
-<span data-ttu-id="693df-105">下列語法顯示路由器服務的登錄版面配置範例。</span><span class="sxs-lookup"><span data-stu-id="693df-105">The following syntax shows an example registry layout for the router service.</span></span>
+<span data-ttu-id="f1636-105">下列語法顯示路由器服務的登錄版面配置範例。</span><span class="sxs-lookup"><span data-stu-id="f1636-105">The following syntax shows an example registry layout for the router service.</span></span>
 
 ``` syntax
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\RasMan 
@@ -132,9 +132,9 @@ HKEY_LOCAL_MACHINE\Software\Microsoft
                 <guid4>: REG_SZ: ddmadmin.dll
 ```
 
-<span data-ttu-id="693df-106">系統中安裝的每個路由器管理員都有一個在路由器金鑰下建立的登錄機碼。</span><span class="sxs-lookup"><span data-stu-id="693df-106">Every router manager installed in the system has a registry key created under the Router key.</span></span> <span data-ttu-id="693df-107">DLLPath 變數會指定對應至路由器管理員的 DLL 位置，而 ProtocolID 變數會指定路由器管理員的通訊協定系列識別碼。</span><span class="sxs-lookup"><span data-stu-id="693df-107">The DLLPath variable specifies the location of the DLL that corresponds to the router manager and the ProtocolID variable specifies the protocol family identifier for the router manager.</span></span>
+<span data-ttu-id="f1636-106">系統中安裝的每個路由器管理員都有一個在路由器金鑰下建立的登錄機碼。</span><span class="sxs-lookup"><span data-stu-id="f1636-106">Every router manager installed in the system has a registry key created under the Router key.</span></span> <span data-ttu-id="f1636-107">DLLPath 變數會指定對應至路由器管理員的 DLL 位置，而 ProtocolID 變數會指定路由器管理員的通訊協定系列識別碼。</span><span class="sxs-lookup"><span data-stu-id="f1636-107">The DLLPath variable specifies the location of the DLL that corresponds to the router manager and the ProtocolID variable specifies the protocol family identifier for the router manager.</span></span>
 
-<span data-ttu-id="693df-108">介面索引鍵會填入從路由器設定新增至本機系統的介面。</span><span class="sxs-lookup"><span data-stu-id="693df-108">The Interfaces key is populated with the interfaces that have been added to the local system from the Router configuration.</span></span> <span data-ttu-id="693df-109">每個介面都有相關聯的類型 (內部、專用或動態) ，以及每個路由器管理員 (IP 和 IPX 的子機碼，例如) 。</span><span class="sxs-lookup"><span data-stu-id="693df-109">Each interface has an associated Type (Internal, Dedicated, or Dynamic) and subkeys for each router manager (IP and IPX, for example).</span></span>
+<span data-ttu-id="f1636-108">介面索引鍵會填入從路由器設定新增至本機系統的介面。</span><span class="sxs-lookup"><span data-stu-id="f1636-108">The Interfaces key is populated with the interfaces that have been added to the local system from the Router configuration.</span></span> <span data-ttu-id="f1636-109">每個介面都有相關聯的類型 (內部、專用或動態) ，以及每個路由器管理員 (IP 和 IPX 的子機碼，例如) 。</span><span class="sxs-lookup"><span data-stu-id="f1636-109">Each interface has an associated Type (Internal, Dedicated, or Dynamic) and subkeys for each router manager (IP and IPX, for example).</span></span>
 
  
 

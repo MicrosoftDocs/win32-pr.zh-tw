@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673152"
 ---
-# <a name="assembling-primitives"></a><span data-ttu-id="d92de-105">組合基本專案</span><span class="sxs-lookup"><span data-stu-id="d92de-105">Assembling Primitives</span></span>
+# <a name="assembling-primitives"></a><span data-ttu-id="bf38c-105">組合基本專案</span><span class="sxs-lookup"><span data-stu-id="bf38c-105">Assembling Primitives</span></span>
 
-<span data-ttu-id="d92de-106">執行所有必要的計算之後，頂點會組合成 [基本](primitives.md) 點、線段或多邊形，以及每個頂點的相關邊緣旗標、色彩和材質資訊。</span><span class="sxs-lookup"><span data-stu-id="d92de-106">Once all necessary calculations have been performed, vertices are assembled into [primitives](primitives.md) points, line segments, or polygons together with the relevant edge flag, color, and texture information for each vertex.</span></span>
+<span data-ttu-id="bf38c-106">執行所有必要的計算之後，頂點會組合成 [基本](primitives.md) 點、線段或多邊形，以及每個頂點的相關邊緣旗標、色彩和材質資訊。</span><span class="sxs-lookup"><span data-stu-id="bf38c-106">Once all necessary calculations have been performed, vertices are assembled into [primitives](primitives.md) points, line segments, or polygons together with the relevant edge flag, color, and texture information for each vertex.</span></span>
 
  
 

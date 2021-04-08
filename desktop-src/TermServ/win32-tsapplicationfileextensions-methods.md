@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671484"
 ---
-# <a name="win32_tsapplicationfileextensions-methods"></a><span data-ttu-id="68845-103">Win32 \_ TSApplicationFileExtensions 方法</span><span class="sxs-lookup"><span data-stu-id="68845-103">Win32\_TSApplicationFileExtensions Methods</span></span>
+# <a name="win32_tsapplicationfileextensions-methods"></a><span data-ttu-id="07958-103">Win32 \_ TSApplicationFileExtensions 方法</span><span class="sxs-lookup"><span data-stu-id="07958-103">Win32\_TSApplicationFileExtensions Methods</span></span>
 
-<span data-ttu-id="68845-104">[**Win32 \_ TSApplicationFileExtensions**](win32-tsapplicationfileextensions.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="68845-104">The [**Win32\_TSApplicationFileExtensions**](win32-tsapplicationfileextensions.md) class exposes the following methods.</span></span>
+<span data-ttu-id="07958-104">[**Win32 \_ TSApplicationFileExtensions**](win32-tsapplicationfileextensions.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="07958-104">The [**Win32\_TSApplicationFileExtensions**](win32-tsapplicationfileextensions.md) class exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="68845-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="68845-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="07958-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="07958-105">In this section</span></span>
 
--   [<span data-ttu-id="68845-106">**FileAssociations 方法**</span><span class="sxs-lookup"><span data-stu-id="68845-106">**FileAssociations method**</span></span>](fileassociations-win32-tsapplicationfileextensions.md)
--   [<span data-ttu-id="68845-107">**FileExtensions 方法**</span><span class="sxs-lookup"><span data-stu-id="68845-107">**FileExtensions method**</span></span>](fileextensions-win32-tsapplicationfileextensions.md)
+-   [<span data-ttu-id="07958-106">**FileAssociations 方法**</span><span class="sxs-lookup"><span data-stu-id="07958-106">**FileAssociations method**</span></span>](fileassociations-win32-tsapplicationfileextensions.md)
+-   [<span data-ttu-id="07958-107">**FileExtensions 方法**</span><span class="sxs-lookup"><span data-stu-id="07958-107">**FileExtensions method**</span></span>](fileextensions-win32-tsapplicationfileextensions.md)
 
  
 
