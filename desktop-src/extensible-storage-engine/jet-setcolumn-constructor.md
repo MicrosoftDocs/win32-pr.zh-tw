@@ -31,12 +31,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847834"
 ---
-# <a name="jet_setcolumn-constructor"></a><span data-ttu-id="3e119-103">JET_SETCOLUMN 的函式</span><span class="sxs-lookup"><span data-stu-id="3e119-103">JET_SETCOLUMN constructor</span></span>
+# <a name="jet_setcolumn-constructor"></a><span data-ttu-id="bfe1c-103">JET_SETCOLUMN 的函式</span><span class="sxs-lookup"><span data-stu-id="bfe1c-103">JET_SETCOLUMN constructor</span></span>
 
-<span data-ttu-id="3e119-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="3e119-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="3e119-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="3e119-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="bfe1c-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="bfe1c-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="bfe1c-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="bfe1c-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3e119-106">語法</span><span class="sxs-lookup"><span data-stu-id="3e119-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bfe1c-106">語法</span><span class="sxs-lookup"><span data-stu-id="bfe1c-106">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,12 +50,12 @@ Dim instance As New JET_SETCOLUMN()
 public JET_SETCOLUMN()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="3e119-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3e119-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bfe1c-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bfe1c-107">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="3e119-108">參考</span><span class="sxs-lookup"><span data-stu-id="3e119-108">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="bfe1c-108">參考</span><span class="sxs-lookup"><span data-stu-id="bfe1c-108">Reference</span></span>
 
-[<span data-ttu-id="3e119-109">JET_SETCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="3e119-109">JET_SETCOLUMN class</span></span>](./jet-setcolumn-class.md)
+[<span data-ttu-id="bfe1c-109">JET_SETCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="bfe1c-109">JET_SETCOLUMN class</span></span>](./jet-setcolumn-class.md)
 
-[<span data-ttu-id="3e119-110">JET_SETCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="3e119-110">JET_SETCOLUMN members</span></span>](./jet-setcolumn-members.md)
+[<span data-ttu-id="bfe1c-110">JET_SETCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="bfe1c-110">JET_SETCOLUMN members</span></span>](./jet-setcolumn-members.md)
 
-[<span data-ttu-id="3e119-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="3e119-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="bfe1c-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="bfe1c-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

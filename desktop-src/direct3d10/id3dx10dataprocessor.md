@@ -21,52 +21,52 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/15/2021
 ms.locfileid: "103854096"
 ---
-# <a name="id3dx10dataprocessor-interface"></a><span data-ttu-id="95eda-103">ID3DX10DataProcessor 介面</span><span class="sxs-lookup"><span data-stu-id="95eda-103">ID3DX10DataProcessor interface</span></span>
+# <a name="id3dx10dataprocessor-interface"></a><span data-ttu-id="9e767-103">ID3DX10DataProcessor 介面</span><span class="sxs-lookup"><span data-stu-id="9e767-103">ID3DX10DataProcessor interface</span></span>
 
-<span data-ttu-id="95eda-104">[**ID3DX10ThreadPump 介面**](id3dx10threadpump.md)使用的資料處理物件，以非同步方式處理載入的資料。</span><span class="sxs-lookup"><span data-stu-id="95eda-104">Data processing object used by [**ID3DX10ThreadPump Interface**](id3dx10threadpump.md) for processing loaded data asynchronously.</span></span>
+<span data-ttu-id="9e767-104">[**ID3DX10ThreadPump 介面**](id3dx10threadpump.md)使用的資料處理物件，以非同步方式處理載入的資料。</span><span class="sxs-lookup"><span data-stu-id="9e767-104">Data processing object used by [**ID3DX10ThreadPump Interface**](id3dx10threadpump.md) for processing loaded data asynchronously.</span></span>
 
-## <a name="members"></a><span data-ttu-id="95eda-105">成員</span><span class="sxs-lookup"><span data-stu-id="95eda-105">Members</span></span>
+## <a name="members"></a><span data-ttu-id="9e767-105">成員</span><span class="sxs-lookup"><span data-stu-id="9e767-105">Members</span></span>
 
-<span data-ttu-id="95eda-106">**ID3DX10DataProcessor** 介面繼承自 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)介面。</span><span class="sxs-lookup"><span data-stu-id="95eda-106">The **ID3DX10DataProcessor** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.</span></span> <span data-ttu-id="95eda-107">**ID3DX10DataProcessor** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="95eda-107">**ID3DX10DataProcessor** also has these types of members:</span></span>
+<span data-ttu-id="9e767-106">**ID3DX10DataProcessor** 介面繼承自 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)介面。</span><span class="sxs-lookup"><span data-stu-id="9e767-106">The **ID3DX10DataProcessor** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.</span></span> <span data-ttu-id="9e767-107">**ID3DX10DataProcessor** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="9e767-107">**ID3DX10DataProcessor** also has these types of members:</span></span>
 
--   [<span data-ttu-id="95eda-108">方法</span><span class="sxs-lookup"><span data-stu-id="95eda-108">Methods</span></span>](#methods)
+-   [<span data-ttu-id="9e767-108">方法</span><span class="sxs-lookup"><span data-stu-id="9e767-108">Methods</span></span>](#methods)
 
-### <a name="methods"></a><span data-ttu-id="95eda-109">方法</span><span class="sxs-lookup"><span data-stu-id="95eda-109">Methods</span></span>
+### <a name="methods"></a><span data-ttu-id="9e767-109">方法</span><span class="sxs-lookup"><span data-stu-id="9e767-109">Methods</span></span>
 
-<span data-ttu-id="95eda-110">**ID3DX10DataProcessor** 介面具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="95eda-110">The **ID3DX10DataProcessor** interface has these methods.</span></span>
+<span data-ttu-id="9e767-110">**ID3DX10DataProcessor** 介面具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="9e767-110">The **ID3DX10DataProcessor** interface has these methods.</span></span>
 
 
 
-| <span data-ttu-id="95eda-111">方法</span><span class="sxs-lookup"><span data-stu-id="95eda-111">Method</span></span>                                                                | <span data-ttu-id="95eda-112">描述</span><span class="sxs-lookup"><span data-stu-id="95eda-112">Description</span></span>                                                                                                                         |
+| <span data-ttu-id="9e767-111">方法</span><span class="sxs-lookup"><span data-stu-id="9e767-111">Method</span></span>                                                                | <span data-ttu-id="9e767-112">描述</span><span class="sxs-lookup"><span data-stu-id="9e767-112">Description</span></span>                                                                                                                         |
 |:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="95eda-113">**CreateDeviceObject**</span><span class="sxs-lookup"><span data-stu-id="95eda-113">**CreateDeviceObject**</span></span>](id3dx10dataprocessor-createdeviceobject.md) | <span data-ttu-id="95eda-114">建立裝置物件。</span><span class="sxs-lookup"><span data-stu-id="95eda-114">Create a device object.</span></span><br/>                                                                                                  |
-| [<span data-ttu-id="95eda-115">**摧毀**</span><span class="sxs-lookup"><span data-stu-id="95eda-115">**Destroy**</span></span>](id3dx10dataprocessor-destroy.md)                       | <span data-ttu-id="95eda-116">在工作專案完成後， [**ID3DX10ThreadPump 介面**](id3dx10threadpump.md) 用來終結處理器。</span><span class="sxs-lookup"><span data-stu-id="95eda-116">Used by a [**ID3DX10ThreadPump Interface**](id3dx10threadpump.md) to destroy the processor after a work item completes.</span></span><br/> |
-| [<span data-ttu-id="95eda-117">**處理序**</span><span class="sxs-lookup"><span data-stu-id="95eda-117">**Process**</span></span>](id3dx10dataprocessor-process.md)                       | <span data-ttu-id="95eda-118">處理一些資料。</span><span class="sxs-lookup"><span data-stu-id="95eda-118">Process some data.</span></span><br/>                                                                                                       |
+| [<span data-ttu-id="9e767-113">**CreateDeviceObject**</span><span class="sxs-lookup"><span data-stu-id="9e767-113">**CreateDeviceObject**</span></span>](id3dx10dataprocessor-createdeviceobject.md) | <span data-ttu-id="9e767-114">建立裝置物件。</span><span class="sxs-lookup"><span data-stu-id="9e767-114">Create a device object.</span></span><br/>                                                                                                  |
+| [<span data-ttu-id="9e767-115">**摧毀**</span><span class="sxs-lookup"><span data-stu-id="9e767-115">**Destroy**</span></span>](id3dx10dataprocessor-destroy.md)                       | <span data-ttu-id="9e767-116">在工作專案完成後， [**ID3DX10ThreadPump 介面**](id3dx10threadpump.md) 用來終結處理器。</span><span class="sxs-lookup"><span data-stu-id="9e767-116">Used by a [**ID3DX10ThreadPump Interface**](id3dx10threadpump.md) to destroy the processor after a work item completes.</span></span><br/> |
+| [<span data-ttu-id="9e767-117">**處理序**</span><span class="sxs-lookup"><span data-stu-id="9e767-117">**Process**</span></span>](id3dx10dataprocessor-process.md)                       | <span data-ttu-id="9e767-118">處理一些資料。</span><span class="sxs-lookup"><span data-stu-id="9e767-118">Process some data.</span></span><br/>                                                                                                       |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="95eda-119">備註</span><span class="sxs-lookup"><span data-stu-id="95eda-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9e767-119">備註</span><span class="sxs-lookup"><span data-stu-id="9e767-119">Remarks</span></span>
 
-<span data-ttu-id="95eda-120">可以繼承這個物件，並重新定義其成員。</span><span class="sxs-lookup"><span data-stu-id="95eda-120">This object can be inherited and its members redefined.</span></span> <span data-ttu-id="95eda-121">這麼做可讓您自訂 API 來處理您自己的自訂檔案格式。</span><span class="sxs-lookup"><span data-stu-id="95eda-121">Doing so would enable you to customize the API for processing your own custom file formats.</span></span>
+<span data-ttu-id="9e767-120">可以繼承這個物件，並重新定義其成員。</span><span class="sxs-lookup"><span data-stu-id="9e767-120">This object can be inherited and its members redefined.</span></span> <span data-ttu-id="9e767-121">這麼做可讓您自訂 API 來處理您自己的自訂檔案格式。</span><span class="sxs-lookup"><span data-stu-id="9e767-121">Doing so would enable you to customize the API for processing your own custom file formats.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="95eda-122">規格需求</span><span class="sxs-lookup"><span data-stu-id="95eda-122">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9e767-122">規格需求</span><span class="sxs-lookup"><span data-stu-id="9e767-122">Requirements</span></span>
 
 
 
-| <span data-ttu-id="95eda-123">需求</span><span class="sxs-lookup"><span data-stu-id="95eda-123">Requirement</span></span> | <span data-ttu-id="95eda-124">值</span><span class="sxs-lookup"><span data-stu-id="95eda-124">Value</span></span> |
+| <span data-ttu-id="9e767-123">需求</span><span class="sxs-lookup"><span data-stu-id="9e767-123">Requirement</span></span> | <span data-ttu-id="9e767-124">值</span><span class="sxs-lookup"><span data-stu-id="9e767-124">Value</span></span> |
 |--------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="95eda-125">標頭</span><span class="sxs-lookup"><span data-stu-id="95eda-125">Header</span></span><br/>  | <dl> <span data-ttu-id="95eda-126"><dt>D3DX10。h</dt></span><span class="sxs-lookup"><span data-stu-id="95eda-126"><dt>D3DX10.h</dt></span></span> </dl>   |
-| <span data-ttu-id="95eda-127">程式庫</span><span class="sxs-lookup"><span data-stu-id="95eda-127">Library</span></span><br/> | <dl> <span data-ttu-id="95eda-128"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="95eda-128"><dt>D3DX10.lib</dt></span></span> </dl> |
+| <span data-ttu-id="9e767-125">標頭</span><span class="sxs-lookup"><span data-stu-id="9e767-125">Header</span></span><br/>  | <dl> <span data-ttu-id="9e767-126"><dt>D3DX10。h</dt></span><span class="sxs-lookup"><span data-stu-id="9e767-126"><dt>D3DX10.h</dt></span></span> </dl>   |
+| <span data-ttu-id="9e767-127">程式庫</span><span class="sxs-lookup"><span data-stu-id="9e767-127">Library</span></span><br/> | <dl> <span data-ttu-id="9e767-128"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="9e767-128"><dt>D3DX10.lib</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="95eda-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="95eda-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9e767-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9e767-129">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="95eda-130">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="95eda-130">D3DX Interfaces</span></span>](d3d10-graphics-reference-d3dx10-interfaces.md)
+[<span data-ttu-id="9e767-130">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="9e767-130">D3DX Interfaces</span></span>](d3d10-graphics-reference-d3dx10-interfaces.md)
 </dt> </dl>
 
  

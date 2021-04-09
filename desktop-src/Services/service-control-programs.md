@@ -11,24 +11,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847923"
 ---
-# <a name="service-control-programs"></a><span data-ttu-id="295fa-103">服務控制程式</span><span class="sxs-lookup"><span data-stu-id="295fa-103">Service Control Programs</span></span>
+# <a name="service-control-programs"></a><span data-ttu-id="1204c-103">服務控制程式</span><span class="sxs-lookup"><span data-stu-id="1204c-103">Service Control Programs</span></span>
 
-<span data-ttu-id="295fa-104">服務控制程式會啟動並控制服務。</span><span class="sxs-lookup"><span data-stu-id="295fa-104">A service control program starts and controls services.</span></span> <span data-ttu-id="295fa-105">其會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="295fa-105">It performs the following actions:</span></span>
+<span data-ttu-id="1204c-104">服務控制程式會啟動並控制服務。</span><span class="sxs-lookup"><span data-stu-id="1204c-104">A service control program starts and controls services.</span></span> <span data-ttu-id="1204c-105">其會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="1204c-105">It performs the following actions:</span></span>
 
--   <span data-ttu-id="295fa-106">啟動服務或驅動程式服務（如果啟動類型是服務 \_ 需求 \_ 開始）。</span><span class="sxs-lookup"><span data-stu-id="295fa-106">Starts a service or driver service, if the start type is SERVICE\_DEMAND\_START.</span></span>
--   <span data-ttu-id="295fa-107">將控制要求傳送至執行中的服務。</span><span class="sxs-lookup"><span data-stu-id="295fa-107">Sends control requests to a running service.</span></span>
--   <span data-ttu-id="295fa-108">查詢正在執行之服務的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="295fa-108">Queries the current status of a running service.</span></span>
+-   <span data-ttu-id="1204c-106">啟動服務或驅動程式服務（如果啟動類型是服務 \_ 需求 \_ 開始）。</span><span class="sxs-lookup"><span data-stu-id="1204c-106">Starts a service or driver service, if the start type is SERVICE\_DEMAND\_START.</span></span>
+-   <span data-ttu-id="1204c-107">將控制要求傳送至執行中的服務。</span><span class="sxs-lookup"><span data-stu-id="1204c-107">Sends control requests to a running service.</span></span>
+-   <span data-ttu-id="1204c-108">查詢正在執行之服務的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="1204c-108">Queries the current status of a running service.</span></span>
 
-<span data-ttu-id="295fa-109">這些動作需要服務物件的開啟控制碼。</span><span class="sxs-lookup"><span data-stu-id="295fa-109">These actions require an open handle to the service object.</span></span> <span data-ttu-id="295fa-110">若要取得控制碼，服務控制程式必須：</span><span class="sxs-lookup"><span data-stu-id="295fa-110">To obtain the handle, the service control program must:</span></span>
+<span data-ttu-id="1204c-109">這些動作需要服務物件的開啟控制碼。</span><span class="sxs-lookup"><span data-stu-id="1204c-109">These actions require an open handle to the service object.</span></span> <span data-ttu-id="1204c-110">若要取得控制碼，服務控制程式必須：</span><span class="sxs-lookup"><span data-stu-id="1204c-110">To obtain the handle, the service control program must:</span></span>
 
-1.  <span data-ttu-id="295fa-111">您可以使用 [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) 函式來取得指定電腦上之 SCM 資料庫的控制碼。</span><span class="sxs-lookup"><span data-stu-id="295fa-111">Use the [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) function to obtain a handle to the SCM database on a specified machine.</span></span>
-2.  <span data-ttu-id="295fa-112">使用 [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea) 或 [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) 函數來取得服務物件的控制碼。</span><span class="sxs-lookup"><span data-stu-id="295fa-112">Use the [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea) or [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) function to obtain a handle to the service object.</span></span>
+1.  <span data-ttu-id="1204c-111">您可以使用 [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) 函式來取得指定電腦上之 SCM 資料庫的控制碼。</span><span class="sxs-lookup"><span data-stu-id="1204c-111">Use the [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) function to obtain a handle to the SCM database on a specified machine.</span></span>
+2.  <span data-ttu-id="1204c-112">使用 [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea) 或 [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) 函數來取得服務物件的控制碼。</span><span class="sxs-lookup"><span data-stu-id="1204c-112">Use the [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea) or [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) function to obtain a handle to the service object.</span></span>
 
-<span data-ttu-id="295fa-113">如需詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="295fa-113">For more information, see the following topics:</span></span>
+<span data-ttu-id="1204c-113">如需詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="1204c-113">For more information, see the following topics:</span></span>
 
--   [<span data-ttu-id="295fa-114">服務啟動</span><span class="sxs-lookup"><span data-stu-id="295fa-114">Service Startup</span></span>](service-startup.md)
--   [<span data-ttu-id="295fa-115">服務控制要求</span><span class="sxs-lookup"><span data-stu-id="295fa-115">Service Control Requests</span></span>](service-control-requests.md)
--   [<span data-ttu-id="295fa-116">使用 SC 控制服務</span><span class="sxs-lookup"><span data-stu-id="295fa-116">Controlling a Service Using SC</span></span>](controlling-a-service-using-sc.md)
+-   [<span data-ttu-id="1204c-114">服務啟動</span><span class="sxs-lookup"><span data-stu-id="1204c-114">Service Startup</span></span>](service-startup.md)
+-   [<span data-ttu-id="1204c-115">服務控制要求</span><span class="sxs-lookup"><span data-stu-id="1204c-115">Service Control Requests</span></span>](service-control-requests.md)
+-   [<span data-ttu-id="1204c-116">使用 SC 控制服務</span><span class="sxs-lookup"><span data-stu-id="1204c-116">Controlling a Service Using SC</span></span>](controlling-a-service-using-sc.md)
 
  
 

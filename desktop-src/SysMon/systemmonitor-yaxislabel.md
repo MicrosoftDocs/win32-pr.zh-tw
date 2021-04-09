@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843736"
 ---
-# <a name="systemmonitoryaxislabel-property"></a><span data-ttu-id="83ea8-106">SystemMonitor. YAxisLabel 屬性</span><span class="sxs-lookup"><span data-stu-id="83ea8-106">SystemMonitor.YAxisLabel property</span></span>
+# <a name="systemmonitoryaxislabel-property"></a><span data-ttu-id="e78a5-106">SystemMonitor. YAxisLabel 屬性</span><span class="sxs-lookup"><span data-stu-id="e78a5-106">SystemMonitor.YAxisLabel property</span></span>
 
-<span data-ttu-id="83ea8-107">抓取或設定圖形垂直 (Y) 軸的標籤。</span><span class="sxs-lookup"><span data-stu-id="83ea8-107">Retrieves or sets the label of the vertical (Y) axis of the graph.</span></span>
+<span data-ttu-id="e78a5-107">抓取或設定圖形垂直 (Y) 軸的標籤。</span><span class="sxs-lookup"><span data-stu-id="e78a5-107">Retrieves or sets the label of the vertical (Y) axis of the graph.</span></span>
 
-<span data-ttu-id="83ea8-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="83ea8-108">This property is read-only.</span></span>
+<span data-ttu-id="e78a5-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="e78a5-108">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="83ea8-109">語法</span><span class="sxs-lookup"><span data-stu-id="83ea8-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e78a5-109">語法</span><span class="sxs-lookup"><span data-stu-id="e78a5-109">Syntax</span></span>
 
 
 ```VB
@@ -38,29 +38,29 @@ Property YAxisLabel As String
 
 
 
-## <a name="property-value"></a><span data-ttu-id="83ea8-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="83ea8-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="e78a5-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="e78a5-110">Property value</span></span>
 
-<span data-ttu-id="83ea8-111">圖形垂直 (Y) 軸的標籤。</span><span class="sxs-lookup"><span data-stu-id="83ea8-111">Label of the vertical (Y) axis of the graph.</span></span> <span data-ttu-id="83ea8-112">標題的長度上限為128個字元。</span><span class="sxs-lookup"><span data-stu-id="83ea8-112">The maximum length of the title is 128 characters.</span></span> <span data-ttu-id="83ea8-113">如果標題超過128個字元，則會截斷標題。</span><span class="sxs-lookup"><span data-stu-id="83ea8-113">If the title exceeds 128 characters, the title is truncated.</span></span>
+<span data-ttu-id="e78a5-111">圖形垂直 (Y) 軸的標籤。</span><span class="sxs-lookup"><span data-stu-id="e78a5-111">Label of the vertical (Y) axis of the graph.</span></span> <span data-ttu-id="e78a5-112">標題的長度上限為128個字元。</span><span class="sxs-lookup"><span data-stu-id="e78a5-112">The maximum length of the title is 128 characters.</span></span> <span data-ttu-id="e78a5-113">如果標題超過128個字元，則會截斷標題。</span><span class="sxs-lookup"><span data-stu-id="e78a5-113">If the title exceeds 128 characters, the title is truncated.</span></span>
 
-<span data-ttu-id="83ea8-114">**WINDOWS XP 和 windows 2000：** 標題的長度沒有限制。</span><span class="sxs-lookup"><span data-stu-id="83ea8-114">**Windows XP and Windows 2000:** There is no limit to the length of the title.</span></span>
+<span data-ttu-id="e78a5-114">**WINDOWS XP 和 windows 2000：** 標題的長度沒有限制。</span><span class="sxs-lookup"><span data-stu-id="e78a5-114">**Windows XP and Windows 2000:** There is no limit to the length of the title.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="83ea8-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="83ea8-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e78a5-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="e78a5-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="83ea8-116">需求</span><span class="sxs-lookup"><span data-stu-id="83ea8-116">Requirement</span></span> | <span data-ttu-id="83ea8-117">值</span><span class="sxs-lookup"><span data-stu-id="83ea8-117">Value</span></span> |
+| <span data-ttu-id="e78a5-116">需求</span><span class="sxs-lookup"><span data-stu-id="e78a5-116">Requirement</span></span> | <span data-ttu-id="e78a5-117">值</span><span class="sxs-lookup"><span data-stu-id="e78a5-117">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="83ea8-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="83ea8-118">Minimum supported client</span></span><br/> | <span data-ttu-id="83ea8-119">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="83ea8-119">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
-| <span data-ttu-id="83ea8-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="83ea8-120">Minimum supported server</span></span><br/> | <span data-ttu-id="83ea8-121">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="83ea8-121">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="83ea8-122">DLL</span><span class="sxs-lookup"><span data-stu-id="83ea8-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="83ea8-123"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="83ea8-123"><dt>Sysmon.ocx</dt></span></span> </dl> |
+| <span data-ttu-id="e78a5-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e78a5-118">Minimum supported client</span></span><br/> | <span data-ttu-id="e78a5-119">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e78a5-119">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
+| <span data-ttu-id="e78a5-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e78a5-120">Minimum supported server</span></span><br/> | <span data-ttu-id="e78a5-121">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e78a5-121">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="e78a5-122">DLL</span><span class="sxs-lookup"><span data-stu-id="e78a5-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="e78a5-123"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="e78a5-123"><dt>Sysmon.ocx</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="83ea8-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="83ea8-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e78a5-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e78a5-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="83ea8-125">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="83ea8-125">**SystemMonitor**</span></span>](systemmonitor.md)
+[<span data-ttu-id="e78a5-125">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="e78a5-125">**SystemMonitor**</span></span>](systemmonitor.md)
 </dt> </dl>
 
  

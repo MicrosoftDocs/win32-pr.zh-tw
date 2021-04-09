@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844315"
 ---
-# <a name="getcurrentvmmplugin-method-of-the-win32_sessiondirectoryvmmplugin-class"></a><span data-ttu-id="30d20-106">Win32 SessionDirectoryVMMPlugin 類別的 GetCurrentVMMPlugin 方法 \_</span><span class="sxs-lookup"><span data-stu-id="30d20-106">GetCurrentVMMPlugin method of the Win32\_SessionDirectoryVMMPlugin class</span></span>
+# <a name="getcurrentvmmplugin-method-of-the-win32_sessiondirectoryvmmplugin-class"></a><span data-ttu-id="27f3d-106">Win32 SessionDirectoryVMMPlugin 類別的 GetCurrentVMMPlugin 方法 \_</span><span class="sxs-lookup"><span data-stu-id="27f3d-106">GetCurrentVMMPlugin method of the Win32\_SessionDirectoryVMMPlugin class</span></span>
 
-<span data-ttu-id="30d20-107">取得已啟用的最高優先順序外掛程式。</span><span class="sxs-lookup"><span data-stu-id="30d20-107">Gets the highest priority plug-in that is enabled.</span></span>
+<span data-ttu-id="27f3d-107">取得已啟用的最高優先順序外掛程式。</span><span class="sxs-lookup"><span data-stu-id="27f3d-107">Gets the highest priority plug-in that is enabled.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="30d20-108">語法</span><span class="sxs-lookup"><span data-stu-id="30d20-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="27f3d-108">語法</span><span class="sxs-lookup"><span data-stu-id="27f3d-108">Syntax</span></span>
 
 
 ```mof
@@ -44,75 +44,75 @@ uint32 GetCurrentVMMPlugin(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="30d20-109">參數</span><span class="sxs-lookup"><span data-stu-id="30d20-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="27f3d-109">參數</span><span class="sxs-lookup"><span data-stu-id="27f3d-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="30d20-110">*sName* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="30d20-110">*sName* \[out\]</span></span>
+<span data-ttu-id="27f3d-110">*sName* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="27f3d-110">*sName* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="30d20-111">外掛程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="30d20-111">The name of the plug-in.</span></span>
+<span data-ttu-id="27f3d-111">外掛程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="27f3d-111">The name of the plug-in.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="30d20-112">*sProvider* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="30d20-112">*sProvider* \[out\]</span></span>
+<span data-ttu-id="27f3d-112">*sProvider* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="27f3d-112">*sProvider* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="30d20-113">外掛程式提供者的名稱。</span><span class="sxs-lookup"><span data-stu-id="30d20-113">The name of the plug-in provider.</span></span>
+<span data-ttu-id="27f3d-113">外掛程式提供者的名稱。</span><span class="sxs-lookup"><span data-stu-id="27f3d-113">The name of the plug-in provider.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="30d20-114">*sServiceLocation* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="30d20-114">*sServiceLocation* \[out\]</span></span>
+<span data-ttu-id="27f3d-114">*sServiceLocation* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="27f3d-114">*sServiceLocation* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="30d20-115">外掛程式應聯絡的服務位置。</span><span class="sxs-lookup"><span data-stu-id="30d20-115">The service location that the plug-in should contact.</span></span>
+<span data-ttu-id="27f3d-115">外掛程式應聯絡的服務位置。</span><span class="sxs-lookup"><span data-stu-id="27f3d-115">The service location that the plug-in should contact.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="30d20-116">*sClassID* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="30d20-116">*sClassID* \[out\]</span></span>
+<span data-ttu-id="27f3d-116">*sClassID* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="27f3d-116">*sClassID* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="30d20-117">外掛程式的類別識別碼。</span><span class="sxs-lookup"><span data-stu-id="30d20-117">The class identifier of the plug-in.</span></span>
+<span data-ttu-id="27f3d-117">外掛程式的類別識別碼。</span><span class="sxs-lookup"><span data-stu-id="27f3d-117">The class identifier of the plug-in.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="30d20-118">*優先順序* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="30d20-118">*Priority* \[out\]</span></span>
+<span data-ttu-id="27f3d-118">*優先順序* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="27f3d-118">*Priority* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="30d20-119">外掛程式的優先順序。</span><span class="sxs-lookup"><span data-stu-id="30d20-119">The priority of the plug-in.</span></span> <span data-ttu-id="30d20-120">值愈高，外掛程式的優先順序愈高。</span><span class="sxs-lookup"><span data-stu-id="30d20-120">The higher the value, the higher the priority of the plug-in.</span></span>
+<span data-ttu-id="27f3d-119">外掛程式的優先順序。</span><span class="sxs-lookup"><span data-stu-id="27f3d-119">The priority of the plug-in.</span></span> <span data-ttu-id="27f3d-120">值愈高，外掛程式的優先順序愈高。</span><span class="sxs-lookup"><span data-stu-id="27f3d-120">The higher the value, the higher the priority of the plug-in.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="30d20-121">*已啟用* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="30d20-121">*Enabled* \[out\]</span></span>
+<span data-ttu-id="27f3d-121">*已啟用* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="27f3d-121">*Enabled* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="30d20-122">指出外掛程式是否已啟用或停用。</span><span class="sxs-lookup"><span data-stu-id="30d20-122">Indicates whether the plug-in is enabled or disabled.</span></span> <span data-ttu-id="30d20-123">如果外掛程式已啟用則 **為 True** ，否則為 **false** 。</span><span class="sxs-lookup"><span data-stu-id="30d20-123">**True** if the plug-in is enabled or **false** otherwise.</span></span>
+<span data-ttu-id="27f3d-122">指出外掛程式是否已啟用或停用。</span><span class="sxs-lookup"><span data-stu-id="27f3d-122">Indicates whether the plug-in is enabled or disabled.</span></span> <span data-ttu-id="27f3d-123">如果外掛程式已啟用則 **為 True** ，否則為 **false** 。</span><span class="sxs-lookup"><span data-stu-id="27f3d-123">**True** if the plug-in is enabled or **false** otherwise.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="30d20-124">傳回值</span><span class="sxs-lookup"><span data-stu-id="30d20-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="27f3d-124">傳回值</span><span class="sxs-lookup"><span data-stu-id="27f3d-124">Return value</span></span>
 
-<span data-ttu-id="30d20-125">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="30d20-125">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="30d20-126">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="30d20-126">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
+<span data-ttu-id="27f3d-125">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="27f3d-125">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="27f3d-126">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="27f3d-126">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="30d20-127">規格需求</span><span class="sxs-lookup"><span data-stu-id="30d20-127">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="27f3d-127">規格需求</span><span class="sxs-lookup"><span data-stu-id="27f3d-127">Requirements</span></span>
 
 
 
-| <span data-ttu-id="30d20-128">需求</span><span class="sxs-lookup"><span data-stu-id="30d20-128">Requirement</span></span> | <span data-ttu-id="30d20-129">值</span><span class="sxs-lookup"><span data-stu-id="30d20-129">Value</span></span> |
+| <span data-ttu-id="27f3d-128">需求</span><span class="sxs-lookup"><span data-stu-id="27f3d-128">Requirement</span></span> | <span data-ttu-id="27f3d-129">值</span><span class="sxs-lookup"><span data-stu-id="27f3d-129">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="30d20-130">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="30d20-130">Minimum supported client</span></span><br/> | <span data-ttu-id="30d20-131">都不支援</span><span class="sxs-lookup"><span data-stu-id="30d20-131">None supported</span></span><br/>                                                              |
-| <span data-ttu-id="30d20-132">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="30d20-132">Minimum supported server</span></span><br/> | <span data-ttu-id="30d20-133">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="30d20-133">Windows Server 2008 R2</span></span><br/>                                                      |
-| <span data-ttu-id="30d20-134">命名空間</span><span class="sxs-lookup"><span data-stu-id="30d20-134">Namespace</span></span><br/>                | <span data-ttu-id="30d20-135">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="30d20-135">Root\\CIMv2\\TerminalServices</span></span><br/>                                               |
-| <span data-ttu-id="30d20-136">MOF</span><span class="sxs-lookup"><span data-stu-id="30d20-136">MOF</span></span><br/>                      | <dl> <span data-ttu-id="30d20-137"><dt>TssdWmi mof</dt></span><span class="sxs-lookup"><span data-stu-id="30d20-137"><dt>TssdWmi.mof</dt></span></span> </dl> |
-| <span data-ttu-id="30d20-138">DLL</span><span class="sxs-lookup"><span data-stu-id="30d20-138">DLL</span></span><br/>                      | <dl> <span data-ttu-id="30d20-139"><dt>TssdWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="30d20-139"><dt>TssdWmi.dll</dt></span></span> </dl> |
+| <span data-ttu-id="27f3d-130">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="27f3d-130">Minimum supported client</span></span><br/> | <span data-ttu-id="27f3d-131">都不支援</span><span class="sxs-lookup"><span data-stu-id="27f3d-131">None supported</span></span><br/>                                                              |
+| <span data-ttu-id="27f3d-132">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="27f3d-132">Minimum supported server</span></span><br/> | <span data-ttu-id="27f3d-133">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="27f3d-133">Windows Server 2008 R2</span></span><br/>                                                      |
+| <span data-ttu-id="27f3d-134">命名空間</span><span class="sxs-lookup"><span data-stu-id="27f3d-134">Namespace</span></span><br/>                | <span data-ttu-id="27f3d-135">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="27f3d-135">Root\\CIMv2\\TerminalServices</span></span><br/>                                               |
+| <span data-ttu-id="27f3d-136">MOF</span><span class="sxs-lookup"><span data-stu-id="27f3d-136">MOF</span></span><br/>                      | <dl> <span data-ttu-id="27f3d-137"><dt>TssdWmi mof</dt></span><span class="sxs-lookup"><span data-stu-id="27f3d-137"><dt>TssdWmi.mof</dt></span></span> </dl> |
+| <span data-ttu-id="27f3d-138">DLL</span><span class="sxs-lookup"><span data-stu-id="27f3d-138">DLL</span></span><br/>                      | <dl> <span data-ttu-id="27f3d-139"><dt>TssdWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="27f3d-139"><dt>TssdWmi.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="30d20-140">另請參閱</span><span class="sxs-lookup"><span data-stu-id="30d20-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27f3d-140">另請參閱</span><span class="sxs-lookup"><span data-stu-id="27f3d-140">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="30d20-141">**Win32 \_ SessionDirectoryVMMPlugin**</span><span class="sxs-lookup"><span data-stu-id="30d20-141">**Win32\_SessionDirectoryVMMPlugin**</span></span>](win32-sessiondirectoryvmmplugin.md)
+[<span data-ttu-id="27f3d-141">**Win32 \_ SessionDirectoryVMMPlugin**</span><span class="sxs-lookup"><span data-stu-id="27f3d-141">**Win32\_SessionDirectoryVMMPlugin**</span></span>](win32-sessiondirectoryvmmplugin.md)
 </dt> </dl>
 
  

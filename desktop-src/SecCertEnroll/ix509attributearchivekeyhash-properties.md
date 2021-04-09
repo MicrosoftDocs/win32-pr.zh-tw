@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691412"
 ---
-# <a name="ix509attributearchivekeyhash-properties"></a><span data-ttu-id="bbfb9-103">IX509AttributeArchiveKeyHash 屬性</span><span class="sxs-lookup"><span data-stu-id="bbfb9-103">IX509AttributeArchiveKeyHash Properties</span></span>
+# <a name="ix509attributearchivekeyhash-properties"></a><span data-ttu-id="6468c-103">IX509AttributeArchiveKeyHash 屬性</span><span class="sxs-lookup"><span data-stu-id="6468c-103">IX509AttributeArchiveKeyHash Properties</span></span>
 
-<span data-ttu-id="bbfb9-104">[**IX509AttributeArchiveKeyHash**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="bbfb9-104">The [**IX509AttributeArchiveKeyHash**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash) interface exposes the following properties.</span></span>
+<span data-ttu-id="6468c-104">[**IX509AttributeArchiveKeyHash**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="6468c-104">The [**IX509AttributeArchiveKeyHash**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="bbfb9-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="bbfb9-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6468c-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="6468c-105">In this section</span></span>
 
--   [<span data-ttu-id="bbfb9-106">**EncryptedKeyHashBlob 屬性**</span><span class="sxs-lookup"><span data-stu-id="bbfb9-106">**EncryptedKeyHashBlob Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-get_encryptedkeyhashblob)
+-   [<span data-ttu-id="6468c-106">**EncryptedKeyHashBlob 屬性**</span><span class="sxs-lookup"><span data-stu-id="6468c-106">**EncryptedKeyHashBlob Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-get_encryptedkeyhashblob)
 
  
 

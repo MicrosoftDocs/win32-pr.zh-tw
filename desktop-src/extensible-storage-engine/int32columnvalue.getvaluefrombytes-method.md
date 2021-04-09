@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691319"
 ---
-# <a name="int32columnvaluegetvaluefrombytes-method"></a><span data-ttu-id="1d165-103">Int32ColumnValue. GetValueFromBytes 方法</span><span class="sxs-lookup"><span data-stu-id="1d165-103">Int32ColumnValue.GetValueFromBytes method</span></span>
+# <a name="int32columnvaluegetvaluefrombytes-method"></a><span data-ttu-id="99d2b-103">Int32ColumnValue. GetValueFromBytes 方法</span><span class="sxs-lookup"><span data-stu-id="99d2b-103">Int32ColumnValue.GetValueFromBytes method</span></span>
 
-<span data-ttu-id="1d165-104">從 ESENT 取出資料，將資料解碼，並設定 ColumnValue 物件中的值。</span><span class="sxs-lookup"><span data-stu-id="1d165-104">Given data retrieved from ESENT, decode the data and set the value in the ColumnValue object.</span></span>
+<span data-ttu-id="99d2b-104">從 ESENT 取出資料，將資料解碼，並設定 ColumnValue 物件中的值。</span><span class="sxs-lookup"><span data-stu-id="99d2b-104">Given data retrieved from ESENT, decode the data and set the value in the ColumnValue object.</span></span>
 
-<span data-ttu-id="1d165-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="1d165-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="1d165-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="1d165-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="99d2b-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="99d2b-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="99d2b-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="99d2b-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1d165-107">語法</span><span class="sxs-lookup"><span data-stu-id="1d165-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="99d2b-107">語法</span><span class="sxs-lookup"><span data-stu-id="99d2b-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -67,40 +67,40 @@ protected override void GetValueFromBytes(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="1d165-108">參數</span><span class="sxs-lookup"><span data-stu-id="1d165-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="99d2b-108">參數</span><span class="sxs-lookup"><span data-stu-id="99d2b-108">Parameters</span></span>
 
-  - <span data-ttu-id="1d165-109">value</span><span class="sxs-lookup"><span data-stu-id="1d165-109">value</span></span>  
-    <span data-ttu-id="1d165-110">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="1d165-110">Type: \[\]</span></span>  
+  - <span data-ttu-id="99d2b-109">value</span><span class="sxs-lookup"><span data-stu-id="99d2b-109">value</span></span>  
+    <span data-ttu-id="99d2b-110">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="99d2b-110">Type: \[\]</span></span>  
     
-    <span data-ttu-id="1d165-111">位元組陣列。</span><span class="sxs-lookup"><span data-stu-id="1d165-111">An array of bytes.</span></span>
+    <span data-ttu-id="99d2b-111">位元組陣列。</span><span class="sxs-lookup"><span data-stu-id="99d2b-111">An array of bytes.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1d165-112">startIndex</span><span class="sxs-lookup"><span data-stu-id="1d165-112">startIndex</span></span>  
-    <span data-ttu-id="1d165-113">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="1d165-113">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="99d2b-112">startIndex</span><span class="sxs-lookup"><span data-stu-id="99d2b-112">startIndex</span></span>  
+    <span data-ttu-id="99d2b-113">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="99d2b-113">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="1d165-114">位元組內的開始位置。</span><span class="sxs-lookup"><span data-stu-id="1d165-114">The starting position within the bytes.</span></span>
+    <span data-ttu-id="99d2b-114">位元組內的開始位置。</span><span class="sxs-lookup"><span data-stu-id="99d2b-114">The starting position within the bytes.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1d165-115">count</span><span class="sxs-lookup"><span data-stu-id="1d165-115">count</span></span>  
-    <span data-ttu-id="1d165-116">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="1d165-116">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="99d2b-115">count</span><span class="sxs-lookup"><span data-stu-id="99d2b-115">count</span></span>  
+    <span data-ttu-id="99d2b-116">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="99d2b-116">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="1d165-117">要解碼的位元組數。</span><span class="sxs-lookup"><span data-stu-id="1d165-117">The number of bytes to decode.</span></span>
+    <span data-ttu-id="99d2b-117">要解碼的位元組數。</span><span class="sxs-lookup"><span data-stu-id="99d2b-117">The number of bytes to decode.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1d165-118">err</span><span class="sxs-lookup"><span data-stu-id="1d165-118">err</span></span>  
-    <span data-ttu-id="1d165-119">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="1d165-119">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="99d2b-118">err</span><span class="sxs-lookup"><span data-stu-id="99d2b-118">err</span></span>  
+    <span data-ttu-id="99d2b-119">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="99d2b-119">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="1d165-120">從 ESENT 傳回的錯誤。</span><span class="sxs-lookup"><span data-stu-id="1d165-120">The error returned from ESENT.</span></span>
+    <span data-ttu-id="99d2b-120">從 ESENT 傳回的錯誤。</span><span class="sxs-lookup"><span data-stu-id="99d2b-120">The error returned from ESENT.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1d165-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1d165-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="99d2b-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="99d2b-121">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="1d165-122">參考</span><span class="sxs-lookup"><span data-stu-id="1d165-122">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="99d2b-122">參考</span><span class="sxs-lookup"><span data-stu-id="99d2b-122">Reference</span></span>
 
-[<span data-ttu-id="1d165-123">Int32ColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="1d165-123">Int32ColumnValue class</span></span>](./int32columnvalue-class.md)
+[<span data-ttu-id="99d2b-123">Int32ColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="99d2b-123">Int32ColumnValue class</span></span>](./int32columnvalue-class.md)
 
-[<span data-ttu-id="1d165-124">Int32ColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="1d165-124">Int32ColumnValue members</span></span>](./int32columnvalue-members.md)
+[<span data-ttu-id="99d2b-124">Int32ColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="99d2b-124">Int32ColumnValue members</span></span>](./int32columnvalue-members.md)
 
-[<span data-ttu-id="1d165-125">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="1d165-125">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="99d2b-125">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="99d2b-125">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

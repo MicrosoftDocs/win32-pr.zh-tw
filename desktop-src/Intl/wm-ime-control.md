@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848057"
 ---
-# <a name="wm_ime_control-message"></a><span data-ttu-id="d1a88-103">WM_IME_CONTROL 訊息</span><span class="sxs-lookup"><span data-stu-id="d1a88-103">WM_IME_CONTROL message</span></span>
+# <a name="wm_ime_control-message"></a><span data-ttu-id="41fe5-103">WM_IME_CONTROL 訊息</span><span class="sxs-lookup"><span data-stu-id="41fe5-103">WM_IME_CONTROL message</span></span>
 
-<span data-ttu-id="d1a88-104">由應用程式傳送以指示輸入法視窗執行要求的命令。</span><span class="sxs-lookup"><span data-stu-id="d1a88-104">Sent by an application to direct the IME window to carry out the requested command.</span></span> <span data-ttu-id="d1a88-105">應用程式會使用這個訊息來控制它所建立的 IME 視窗。</span><span class="sxs-lookup"><span data-stu-id="d1a88-105">The application uses this message to control the IME window that it has created.</span></span> <span data-ttu-id="d1a88-106">為了傳送此訊息，應用程式會使用下列參數呼叫 [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) 函數。</span><span class="sxs-lookup"><span data-stu-id="d1a88-106">To send this message, the application calls the [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) function with the following parameters.</span></span>
+<span data-ttu-id="41fe5-104">由應用程式傳送以指示輸入法視窗執行要求的命令。</span><span class="sxs-lookup"><span data-stu-id="41fe5-104">Sent by an application to direct the IME window to carry out the requested command.</span></span> <span data-ttu-id="41fe5-105">應用程式會使用這個訊息來控制它所建立的 IME 視窗。</span><span class="sxs-lookup"><span data-stu-id="41fe5-105">The application uses this message to control the IME window that it has created.</span></span> <span data-ttu-id="41fe5-106">為了傳送此訊息，應用程式會使用下列參數呼叫 [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) 函數。</span><span class="sxs-lookup"><span data-stu-id="41fe5-106">To send this message, the application calls the [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) function with the following parameters.</span></span>
 
 
 ```C++
@@ -27,99 +27,99 @@ SendMessage(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="d1a88-107">參數</span><span class="sxs-lookup"><span data-stu-id="d1a88-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="41fe5-107">參數</span><span class="sxs-lookup"><span data-stu-id="41fe5-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="d1a88-108">*hwnd*</span><span class="sxs-lookup"><span data-stu-id="d1a88-108">*hwnd*</span></span> 
+<span data-ttu-id="41fe5-108">*hwnd*</span><span class="sxs-lookup"><span data-stu-id="41fe5-108">*hwnd*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="d1a88-109">視窗的控制碼。</span><span class="sxs-lookup"><span data-stu-id="d1a88-109">Handle to the window.</span></span>
+<span data-ttu-id="41fe5-109">視窗的控制碼。</span><span class="sxs-lookup"><span data-stu-id="41fe5-109">Handle to the window.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d1a88-110">*wParam*</span><span class="sxs-lookup"><span data-stu-id="d1a88-110">*wParam*</span></span> 
+<span data-ttu-id="41fe5-110">*wParam*</span><span class="sxs-lookup"><span data-stu-id="41fe5-110">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="d1a88-111">命令。</span><span class="sxs-lookup"><span data-stu-id="d1a88-111">The command.</span></span> <span data-ttu-id="d1a88-112">這個參數的值可以是下列其中一個：</span><span class="sxs-lookup"><span data-stu-id="d1a88-112">This parameter can have one of the following values:</span></span>
+<span data-ttu-id="41fe5-111">命令。</span><span class="sxs-lookup"><span data-stu-id="41fe5-111">The command.</span></span> <span data-ttu-id="41fe5-112">這個參數的值可以是下列其中一個：</span><span class="sxs-lookup"><span data-stu-id="41fe5-112">This parameter can have one of the following values:</span></span>
 
 <dl>
-<dd><span data-ttu-id="d1a88-113"><a href="imc-closestatuswindow.md">IMC_CLOSESTATUSWINDOW</a></span><span class="sxs-lookup"><span data-stu-id="d1a88-113"><a href="imc-closestatuswindow.md">IMC_CLOSESTATUSWINDOW</a></span></span></dd> 
-<dd><span data-ttu-id="d1a88-114"><a href="imc-getcandidatepos.md">IMC_GETCANDIDATEPOS</a></span><span class="sxs-lookup"><span data-stu-id="d1a88-114"><a href="imc-getcandidatepos.md">IMC_GETCANDIDATEPOS</a></span></span></dd> 
-<dd><span data-ttu-id="d1a88-115"><a href="imc-getcompositionfont.md">IMC_GETCOMPOSITIONFONT</a></span><span class="sxs-lookup"><span data-stu-id="d1a88-115"><a href="imc-getcompositionfont.md">IMC_GETCOMPOSITIONFONT</a></span></span></dd> 
-<dd><span data-ttu-id="d1a88-116"><a href="imc-getcompositionwindow.md">IMC_GETCOMPOSITIONWINDOW</a></span><span class="sxs-lookup"><span data-stu-id="d1a88-116"><a href="imc-getcompositionwindow.md">IMC_GETCOMPOSITIONWINDOW</a></span></span></dd> 
-<dd><span data-ttu-id="d1a88-117"><a href="imc-getstatuswindowpos.md">IMC_GETSTATUSWINDOWPOS</a></span><span class="sxs-lookup"><span data-stu-id="d1a88-117"><a href="imc-getstatuswindowpos.md">IMC_GETSTATUSWINDOWPOS</a></span></span></dd> 
-<dd><span data-ttu-id="d1a88-118"><a href="imc-openstatuswindow.md">IMC_OPENSTATUSWINDOW</a></span><span class="sxs-lookup"><span data-stu-id="d1a88-118"><a href="imc-openstatuswindow.md">IMC_OPENSTATUSWINDOW</a></span></span></dd> 
-<dd><span data-ttu-id="d1a88-119"><a href="imc-setcandidatepos.md">IMC_SETCANDIDATEPOS</a></span><span class="sxs-lookup"><span data-stu-id="d1a88-119"><a href="imc-setcandidatepos.md">IMC_SETCANDIDATEPOS</a></span></span></dd> 
-<dd><span data-ttu-id="d1a88-120"><a href="imc-setcompositionfont.md">IMC_SETCOMPOSITIONFONT</a>></span><span class="sxs-lookup"><span data-stu-id="d1a88-120"><a href="imc-setcompositionfont.md">IMC_SETCOMPOSITIONFONT</a>></span></span></dd> 
-<dd><span data-ttu-id="d1a88-121"><a href="imc-setcompositionwindow.md">IMC_SETCOMPOSITIONWINDOW</a></span><span class="sxs-lookup"><span data-stu-id="d1a88-121"><a href="imc-setcompositionwindow.md">IMC_SETCOMPOSITIONWINDOW</a></span></span></dd> 
-<dd><span data-ttu-id="d1a88-122"><a href="imc-setstatuswindowpos.md">IMC_SETSTATUSWINDOWPOS</a></span><span class="sxs-lookup"><span data-stu-id="d1a88-122"><a href="imc-setstatuswindowpos.md">IMC_SETSTATUSWINDOWPOS</a></span></span></dd> 
+<dd><span data-ttu-id="41fe5-113"><a href="imc-closestatuswindow.md">IMC_CLOSESTATUSWINDOW</a></span><span class="sxs-lookup"><span data-stu-id="41fe5-113"><a href="imc-closestatuswindow.md">IMC_CLOSESTATUSWINDOW</a></span></span></dd> 
+<dd><span data-ttu-id="41fe5-114"><a href="imc-getcandidatepos.md">IMC_GETCANDIDATEPOS</a></span><span class="sxs-lookup"><span data-stu-id="41fe5-114"><a href="imc-getcandidatepos.md">IMC_GETCANDIDATEPOS</a></span></span></dd> 
+<dd><span data-ttu-id="41fe5-115"><a href="imc-getcompositionfont.md">IMC_GETCOMPOSITIONFONT</a></span><span class="sxs-lookup"><span data-stu-id="41fe5-115"><a href="imc-getcompositionfont.md">IMC_GETCOMPOSITIONFONT</a></span></span></dd> 
+<dd><span data-ttu-id="41fe5-116"><a href="imc-getcompositionwindow.md">IMC_GETCOMPOSITIONWINDOW</a></span><span class="sxs-lookup"><span data-stu-id="41fe5-116"><a href="imc-getcompositionwindow.md">IMC_GETCOMPOSITIONWINDOW</a></span></span></dd> 
+<dd><span data-ttu-id="41fe5-117"><a href="imc-getstatuswindowpos.md">IMC_GETSTATUSWINDOWPOS</a></span><span class="sxs-lookup"><span data-stu-id="41fe5-117"><a href="imc-getstatuswindowpos.md">IMC_GETSTATUSWINDOWPOS</a></span></span></dd> 
+<dd><span data-ttu-id="41fe5-118"><a href="imc-openstatuswindow.md">IMC_OPENSTATUSWINDOW</a></span><span class="sxs-lookup"><span data-stu-id="41fe5-118"><a href="imc-openstatuswindow.md">IMC_OPENSTATUSWINDOW</a></span></span></dd> 
+<dd><span data-ttu-id="41fe5-119"><a href="imc-setcandidatepos.md">IMC_SETCANDIDATEPOS</a></span><span class="sxs-lookup"><span data-stu-id="41fe5-119"><a href="imc-setcandidatepos.md">IMC_SETCANDIDATEPOS</a></span></span></dd> 
+<dd><span data-ttu-id="41fe5-120"><a href="imc-setcompositionfont.md">IMC_SETCOMPOSITIONFONT</a>></span><span class="sxs-lookup"><span data-stu-id="41fe5-120"><a href="imc-setcompositionfont.md">IMC_SETCOMPOSITIONFONT</a>></span></span></dd> 
+<dd><span data-ttu-id="41fe5-121"><a href="imc-setcompositionwindow.md">IMC_SETCOMPOSITIONWINDOW</a></span><span class="sxs-lookup"><span data-stu-id="41fe5-121"><a href="imc-setcompositionwindow.md">IMC_SETCOMPOSITIONWINDOW</a></span></span></dd> 
+<dd><span data-ttu-id="41fe5-122"><a href="imc-setstatuswindowpos.md">IMC_SETSTATUSWINDOWPOS</a></span><span class="sxs-lookup"><span data-stu-id="41fe5-122"><a href="imc-setstatuswindowpos.md">IMC_SETSTATUSWINDOWPOS</a></span></span></dd> 
 </dl>
 </dd>
 
 <dt>
 
-<span data-ttu-id="d1a88-123">*lParam*</span><span class="sxs-lookup"><span data-stu-id="d1a88-123">*lParam*</span></span> 
+<span data-ttu-id="41fe5-123">*lParam*</span><span class="sxs-lookup"><span data-stu-id="41fe5-123">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="d1a88-124">命令特有的資料，其格式取決於 *wParam* 參數的值。</span><span class="sxs-lookup"><span data-stu-id="d1a88-124">Command-specific data, with format dependent on the value of the *wParam* parameter.</span></span> <span data-ttu-id="d1a88-125">如需詳細資訊，請參閱每個命令的說明文件。</span><span class="sxs-lookup"><span data-stu-id="d1a88-125">For more information, refer to the documentation for each command.</span></span>
+<span data-ttu-id="41fe5-124">命令特有的資料，其格式取決於 *wParam* 參數的值。</span><span class="sxs-lookup"><span data-stu-id="41fe5-124">Command-specific data, with format dependent on the value of the *wParam* parameter.</span></span> <span data-ttu-id="41fe5-125">如需詳細資訊，請參閱每個命令的說明文件。</span><span class="sxs-lookup"><span data-stu-id="41fe5-125">For more information, refer to the documentation for each command.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="d1a88-126">傳回值</span><span class="sxs-lookup"><span data-stu-id="d1a88-126">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="41fe5-126">傳回值</span><span class="sxs-lookup"><span data-stu-id="41fe5-126">Return value</span></span>
 
-<span data-ttu-id="d1a88-127">訊息會傳回命令特定的值。</span><span class="sxs-lookup"><span data-stu-id="d1a88-127">The message returns a command-specific value.</span></span>
+<span data-ttu-id="41fe5-127">訊息會傳回命令特定的值。</span><span class="sxs-lookup"><span data-stu-id="41fe5-127">The message returns a command-specific value.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="d1a88-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="d1a88-128">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="41fe5-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="41fe5-128">Requirements</span></span>
 
 
 
-| <span data-ttu-id="d1a88-129">需求</span><span class="sxs-lookup"><span data-stu-id="d1a88-129">Requirement</span></span> | <span data-ttu-id="d1a88-130">值</span><span class="sxs-lookup"><span data-stu-id="d1a88-130">Value</span></span> |
+| <span data-ttu-id="41fe5-129">需求</span><span class="sxs-lookup"><span data-stu-id="41fe5-129">Requirement</span></span> | <span data-ttu-id="41fe5-130">值</span><span class="sxs-lookup"><span data-stu-id="41fe5-130">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="d1a88-131">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d1a88-131">Minimum supported client</span></span><br/> | <span data-ttu-id="d1a88-132">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d1a88-132">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                                                                                                |
-| <span data-ttu-id="d1a88-133">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d1a88-133">Minimum supported server</span></span><br/> | <span data-ttu-id="d1a88-134">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d1a88-134">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                                                                                                      |
-| <span data-ttu-id="d1a88-135">標頭</span><span class="sxs-lookup"><span data-stu-id="d1a88-135">Header</span></span><br/>                   | <dl> <span data-ttu-id="d1a88-136"><dt>Winuser (包含 Windows .h) ;</dt><dt>Imm (包括 Windows .h) </dt></span><span class="sxs-lookup"><span data-stu-id="d1a88-136"><dt>Winuser.h (include Windows.h); </dt> <dt>Imm.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="41fe5-131">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="41fe5-131">Minimum supported client</span></span><br/> | <span data-ttu-id="41fe5-132">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="41fe5-132">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                                                                                                |
+| <span data-ttu-id="41fe5-133">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="41fe5-133">Minimum supported server</span></span><br/> | <span data-ttu-id="41fe5-134">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="41fe5-134">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                                                                                                      |
+| <span data-ttu-id="41fe5-135">標頭</span><span class="sxs-lookup"><span data-stu-id="41fe5-135">Header</span></span><br/>                   | <dl> <span data-ttu-id="41fe5-136"><dt>Winuser (包含 Windows .h) ;</dt><dt>Imm (包括 Windows .h) </dt></span><span class="sxs-lookup"><span data-stu-id="41fe5-136"><dt>Winuser.h (include Windows.h); </dt> <dt>Imm.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="d1a88-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d1a88-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="41fe5-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="41fe5-137">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d1a88-138">輸入方法管理員</span><span class="sxs-lookup"><span data-stu-id="d1a88-138">Input Method Manager</span></span>](input-method-manager.md)
+[<span data-ttu-id="41fe5-138">輸入方法管理員</span><span class="sxs-lookup"><span data-stu-id="41fe5-138">Input Method Manager</span></span>](input-method-manager.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-139">輸入方法管理員訊息</span><span class="sxs-lookup"><span data-stu-id="d1a88-139">Input Method Manager Messages</span></span>](input-method-manager-messages.md)
+[<span data-ttu-id="41fe5-139">輸入方法管理員訊息</span><span class="sxs-lookup"><span data-stu-id="41fe5-139">Input Method Manager Messages</span></span>](input-method-manager-messages.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-140">IMC_CLOSESTATUSWINDOW</span><span class="sxs-lookup"><span data-stu-id="d1a88-140">IMC_CLOSESTATUSWINDOW</span></span>](imc-closestatuswindow.md)
+[<span data-ttu-id="41fe5-140">IMC_CLOSESTATUSWINDOW</span><span class="sxs-lookup"><span data-stu-id="41fe5-140">IMC_CLOSESTATUSWINDOW</span></span>](imc-closestatuswindow.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-141">IMC_GETCANDIDATEPOS</span><span class="sxs-lookup"><span data-stu-id="d1a88-141">IMC_GETCANDIDATEPOS</span></span>](imc-getcandidatepos.md)
+[<span data-ttu-id="41fe5-141">IMC_GETCANDIDATEPOS</span><span class="sxs-lookup"><span data-stu-id="41fe5-141">IMC_GETCANDIDATEPOS</span></span>](imc-getcandidatepos.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-142">IMC_GETCOMPOSITIONFONT</span><span class="sxs-lookup"><span data-stu-id="d1a88-142">IMC_GETCOMPOSITIONFONT</span></span>](imc-getcompositionfont.md)
+[<span data-ttu-id="41fe5-142">IMC_GETCOMPOSITIONFONT</span><span class="sxs-lookup"><span data-stu-id="41fe5-142">IMC_GETCOMPOSITIONFONT</span></span>](imc-getcompositionfont.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-143">IMC_GETCOMPOSITIONWINDOW</span><span class="sxs-lookup"><span data-stu-id="d1a88-143">IMC_GETCOMPOSITIONWINDOW</span></span>](imc-getcompositionwindow.md)
+[<span data-ttu-id="41fe5-143">IMC_GETCOMPOSITIONWINDOW</span><span class="sxs-lookup"><span data-stu-id="41fe5-143">IMC_GETCOMPOSITIONWINDOW</span></span>](imc-getcompositionwindow.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-144">IMC_GETSTATUSWINDOWPOS</span><span class="sxs-lookup"><span data-stu-id="d1a88-144">IMC_GETSTATUSWINDOWPOS</span></span>](imc-getstatuswindowpos.md)
+[<span data-ttu-id="41fe5-144">IMC_GETSTATUSWINDOWPOS</span><span class="sxs-lookup"><span data-stu-id="41fe5-144">IMC_GETSTATUSWINDOWPOS</span></span>](imc-getstatuswindowpos.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-145">IMC_OPENSTATUSWINDOW</span><span class="sxs-lookup"><span data-stu-id="d1a88-145">IMC_OPENSTATUSWINDOW</span></span>](imc-openstatuswindow.md)
+[<span data-ttu-id="41fe5-145">IMC_OPENSTATUSWINDOW</span><span class="sxs-lookup"><span data-stu-id="41fe5-145">IMC_OPENSTATUSWINDOW</span></span>](imc-openstatuswindow.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-146">IMC_SETCANDIDATEPOS</span><span class="sxs-lookup"><span data-stu-id="d1a88-146">IMC_SETCANDIDATEPOS</span></span>](imc-setcandidatepos.md)
+[<span data-ttu-id="41fe5-146">IMC_SETCANDIDATEPOS</span><span class="sxs-lookup"><span data-stu-id="41fe5-146">IMC_SETCANDIDATEPOS</span></span>](imc-setcandidatepos.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-147">IMC_SETCOMPOSITIONFONT</span><span class="sxs-lookup"><span data-stu-id="d1a88-147">IMC_SETCOMPOSITIONFONT</span></span>](imc-setcompositionfont.md)
+[<span data-ttu-id="41fe5-147">IMC_SETCOMPOSITIONFONT</span><span class="sxs-lookup"><span data-stu-id="41fe5-147">IMC_SETCOMPOSITIONFONT</span></span>](imc-setcompositionfont.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-148">IMC_SETCOMPOSITIONWINDOW</span><span class="sxs-lookup"><span data-stu-id="d1a88-148">IMC_SETCOMPOSITIONWINDOW</span></span>](imc-setcompositionwindow.md)
+[<span data-ttu-id="41fe5-148">IMC_SETCOMPOSITIONWINDOW</span><span class="sxs-lookup"><span data-stu-id="41fe5-148">IMC_SETCOMPOSITIONWINDOW</span></span>](imc-setcompositionwindow.md)
 </dt> <dt>
 
-[<span data-ttu-id="d1a88-149">IMC_SETSTATUSWINDOWPOS</span><span class="sxs-lookup"><span data-stu-id="d1a88-149">IMC_SETSTATUSWINDOWPOS</span></span>](imc-setstatuswindowpos.md)
+[<span data-ttu-id="41fe5-149">IMC_SETSTATUSWINDOWPOS</span><span class="sxs-lookup"><span data-stu-id="41fe5-149">IMC_SETSTATUSWINDOWPOS</span></span>](imc-setstatuswindowpos.md)
 </dt> </dl>
 
  

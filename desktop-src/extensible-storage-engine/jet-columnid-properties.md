@@ -14,39 +14,39 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691311"
 ---
-# <a name="jet_columnid-properties"></a><span data-ttu-id="324b0-103">JET_COLUMNID 屬性</span><span class="sxs-lookup"><span data-stu-id="324b0-103">JET_COLUMNID properties</span></span>
+# <a name="jet_columnid-properties"></a><span data-ttu-id="a36ed-103">JET_COLUMNID 屬性</span><span class="sxs-lookup"><span data-stu-id="a36ed-103">JET_COLUMNID properties</span></span>
 
-<span data-ttu-id="324b0-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="324b0-104">Include protected members</span></span>  
-<span data-ttu-id="324b0-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="324b0-105">Include inherited members</span></span>  
+<span data-ttu-id="a36ed-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="a36ed-104">Include protected members</span></span>  
+<span data-ttu-id="a36ed-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="a36ed-105">Include inherited members</span></span>  
 
-<span data-ttu-id="324b0-106">[JET_COLUMNID](./jet-columnid-structure.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="324b0-106">The [JET_COLUMNID](./jet-columnid-structure.md) type exposes the following members.</span></span>
+<span data-ttu-id="a36ed-106">[JET_COLUMNID](./jet-columnid-structure.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="a36ed-106">The [JET_COLUMNID](./jet-columnid-structure.md) type exposes the following members.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="324b0-107">屬性</span><span class="sxs-lookup"><span data-stu-id="324b0-107">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="a36ed-107">屬性</span><span class="sxs-lookup"><span data-stu-id="a36ed-107">Properties</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="324b0-108">名稱</span><span class="sxs-lookup"><span data-stu-id="324b0-108">Name</span></span></th>
-<th><span data-ttu-id="324b0-109">描述</span><span class="sxs-lookup"><span data-stu-id="324b0-109">Description</span></span></th>
+<th><span data-ttu-id="a36ed-108">名稱</span><span class="sxs-lookup"><span data-stu-id="a36ed-108">Name</span></span></th>
+<th><span data-ttu-id="a36ed-109">描述</span><span class="sxs-lookup"><span data-stu-id="a36ed-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><span data-ttu-id="324b0-112"><a href="hh578195(v=exchg.10).md">零</a></span><span class="sxs-lookup"><span data-stu-id="324b0-112"><a href="hh578195(v=exchg.10).md">Nil</a></span></span></td>
-<td><span data-ttu-id="324b0-113">取得 null JET_COLUMNID。</span><span class="sxs-lookup"><span data-stu-id="324b0-113">Gets a null JET_COLUMNID.</span></span></td>
+<td><span data-ttu-id="a36ed-112"><a href="hh578195(v=exchg.10).md">零</a></span><span class="sxs-lookup"><span data-stu-id="a36ed-112"><a href="hh578195(v=exchg.10).md">Nil</a></span></span></td>
+<td><span data-ttu-id="a36ed-113">取得 null JET_COLUMNID。</span><span class="sxs-lookup"><span data-stu-id="a36ed-113">Gets a null JET_COLUMNID.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="324b0-114">頁首</span><span class="sxs-lookup"><span data-stu-id="324b0-114">Top</span></span>
+<span data-ttu-id="a36ed-114">頁首</span><span class="sxs-lookup"><span data-stu-id="a36ed-114">Top</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="324b0-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="324b0-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a36ed-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a36ed-115">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="324b0-116">參考</span><span class="sxs-lookup"><span data-stu-id="324b0-116">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="a36ed-116">參考</span><span class="sxs-lookup"><span data-stu-id="a36ed-116">Reference</span></span>
 
-[<span data-ttu-id="324b0-117">JET_COLUMNID 結構</span><span class="sxs-lookup"><span data-stu-id="324b0-117">JET_COLUMNID structure</span></span>](./jet-columnid-structure.md)
+[<span data-ttu-id="a36ed-117">JET_COLUMNID 結構</span><span class="sxs-lookup"><span data-stu-id="a36ed-117">JET_COLUMNID structure</span></span>](./jet-columnid-structure.md)
 
-[<span data-ttu-id="324b0-118">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="324b0-118">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="a36ed-118">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="a36ed-118">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

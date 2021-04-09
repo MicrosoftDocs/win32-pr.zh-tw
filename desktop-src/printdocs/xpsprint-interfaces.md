@@ -11,35 +11,35 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692284"
 ---
-# <a name="xps-print-api-interfaces"></a><span data-ttu-id="dd9d5-103">XPS 列印 API 介面</span><span class="sxs-lookup"><span data-stu-id="dd9d5-103">XPS Print API Interfaces</span></span>
+# <a name="xps-print-api-interfaces"></a><span data-ttu-id="1e467-103">XPS 列印 API 介面</span><span class="sxs-lookup"><span data-stu-id="1e467-103">XPS Print API Interfaces</span></span>
 
-<span data-ttu-id="dd9d5-104">\[本節所述的介面已被取代。</span><span class="sxs-lookup"><span data-stu-id="dd9d5-104">\[The interfaces described in this section are deprecated.</span></span> <span data-ttu-id="dd9d5-105">用戶端應用程式應該改用 [列印檔案套件 API](./tailored-app-printing-api.md) 。\]</span><span class="sxs-lookup"><span data-stu-id="dd9d5-105">Client applications should use the [Print Document Package API](./tailored-app-printing-api.md) instead.\]</span></span>
+<span data-ttu-id="1e467-104">\[本節所述的介面已被取代。</span><span class="sxs-lookup"><span data-stu-id="1e467-104">\[The interfaces described in this section are deprecated.</span></span> <span data-ttu-id="1e467-105">用戶端應用程式應該改用 [列印檔案套件 API](./tailored-app-printing-api.md) 。\]</span><span class="sxs-lookup"><span data-stu-id="1e467-105">Client applications should use the [Print Document Package API](./tailored-app-printing-api.md) instead.\]</span></span>
 
-<span data-ttu-id="dd9d5-106">\[IXpsPrintJob 不受支援，未來可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="dd9d5-106">\[IXpsPrintJob is not supported and may be altered or unavailable in the future.</span></span> <span data-ttu-id="dd9d5-107">\]</span><span class="sxs-lookup"><span data-stu-id="dd9d5-107">\]</span></span>
+<span data-ttu-id="1e467-106">\[IXpsPrintJob 不受支援，未來可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="1e467-106">\[IXpsPrintJob is not supported and may be altered or unavailable in the future.</span></span> <span data-ttu-id="1e467-107">\]</span><span class="sxs-lookup"><span data-stu-id="1e467-107">\]</span></span>
 
-<span data-ttu-id="dd9d5-108">\[IXpsPrintJobStream 不受支援，未來可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="dd9d5-108">\[IXpsPrintJobStream is not supported and may be altered or unavailable in the future.</span></span> <span data-ttu-id="dd9d5-109">\]</span><span class="sxs-lookup"><span data-stu-id="dd9d5-109">\]</span></span>
+<span data-ttu-id="1e467-108">\[IXpsPrintJobStream 不受支援，未來可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="1e467-108">\[IXpsPrintJobStream is not supported and may be altered or unavailable in the future.</span></span> <span data-ttu-id="1e467-109">\]</span><span class="sxs-lookup"><span data-stu-id="1e467-109">\]</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="dd9d5-110">本節內容</span><span class="sxs-lookup"><span data-stu-id="dd9d5-110">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1e467-110">本節內容</span><span class="sxs-lookup"><span data-stu-id="1e467-110">In this section</span></span>
 
 
 
-| <span data-ttu-id="dd9d5-111">介面</span><span class="sxs-lookup"><span data-stu-id="dd9d5-111">Interface</span></span>                                                   | <span data-ttu-id="dd9d5-112">描述</span><span class="sxs-lookup"><span data-stu-id="dd9d5-112">Description</span></span>                                                                               |
+| <span data-ttu-id="1e467-111">介面</span><span class="sxs-lookup"><span data-stu-id="1e467-111">Interface</span></span>                                                   | <span data-ttu-id="1e467-112">描述</span><span class="sxs-lookup"><span data-stu-id="1e467-112">Description</span></span>                                                                               |
 |-------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="dd9d5-113">**IXpsPrintJob**</span><span class="sxs-lookup"><span data-stu-id="dd9d5-113">**IXpsPrintJob**</span></span>](/windows/desktop/api/XpsPrint/nn-xpsprint-ixpsprintjob)<br/>             | <span data-ttu-id="dd9d5-114">提供目前進行中之列印工作的存取權。</span><span class="sxs-lookup"><span data-stu-id="dd9d5-114">Provides access to a print job that is currently in progress.</span></span><br/>                  |
-| [<span data-ttu-id="dd9d5-115">**IXpsPrintJobStream**</span><span class="sxs-lookup"><span data-stu-id="dd9d5-115">**IXpsPrintJobStream**</span></span>](/windows/desktop/api/XpsPrint/nn-xpsprint-ixpsprintjobstream)<br/> | <span data-ttu-id="dd9d5-116">唯讀資料流程介面，應用程式會在其中寫入列印工作資料。</span><span class="sxs-lookup"><span data-stu-id="dd9d5-116">A write-only stream interface into which an application writes print job data.</span></span><br/> |
+| [<span data-ttu-id="1e467-113">**IXpsPrintJob**</span><span class="sxs-lookup"><span data-stu-id="1e467-113">**IXpsPrintJob**</span></span>](/windows/desktop/api/XpsPrint/nn-xpsprint-ixpsprintjob)<br/>             | <span data-ttu-id="1e467-114">提供目前進行中之列印工作的存取權。</span><span class="sxs-lookup"><span data-stu-id="1e467-114">Provides access to a print job that is currently in progress.</span></span><br/>                  |
+| [<span data-ttu-id="1e467-115">**IXpsPrintJobStream**</span><span class="sxs-lookup"><span data-stu-id="1e467-115">**IXpsPrintJobStream**</span></span>](/windows/desktop/api/XpsPrint/nn-xpsprint-ixpsprintjobstream)<br/> | <span data-ttu-id="1e467-116">唯讀資料流程介面，應用程式會在其中寫入列印工作資料。</span><span class="sxs-lookup"><span data-stu-id="1e467-116">A write-only stream interface into which an application writes print job data.</span></span><br/> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="dd9d5-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="dd9d5-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1e467-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="1e467-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="dd9d5-118">文件</span><span class="sxs-lookup"><span data-stu-id="dd9d5-118">Documents</span></span>](./jobbindalldocuments.md)
+[<span data-ttu-id="1e467-118">文件</span><span class="sxs-lookup"><span data-stu-id="1e467-118">Documents</span></span>](./jobbindalldocuments.md)
 </dt> <dt>
 
-[<span data-ttu-id="dd9d5-119">XML Paper Specification</span><span class="sxs-lookup"><span data-stu-id="dd9d5-119">XML Paper Specification</span></span>](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[<span data-ttu-id="1e467-119">XML Paper Specification</span><span class="sxs-lookup"><span data-stu-id="1e467-119">XML Paper Specification</span></span>](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

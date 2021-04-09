@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691415"
 ---
-# <a name="ix509attributearchivekeyhash-methods"></a><span data-ttu-id="2e91b-103">IX509AttributeArchiveKeyHash 方法</span><span class="sxs-lookup"><span data-stu-id="2e91b-103">IX509AttributeArchiveKeyHash Methods</span></span>
+# <a name="ix509attributearchivekeyhash-methods"></a><span data-ttu-id="0bc15-103">IX509AttributeArchiveKeyHash 方法</span><span class="sxs-lookup"><span data-stu-id="0bc15-103">IX509AttributeArchiveKeyHash Methods</span></span>
 
-<span data-ttu-id="2e91b-104">[**IX509AttributeArchiveKeyHash**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="2e91b-104">The [**IX509AttributeArchiveKeyHash**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash) interface exposes the following methods.</span></span>
+<span data-ttu-id="0bc15-104">[**IX509AttributeArchiveKeyHash**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="0bc15-104">The [**IX509AttributeArchiveKeyHash**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="2e91b-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="2e91b-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0bc15-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0bc15-105">In this section</span></span>
 
--   [<span data-ttu-id="2e91b-106">**InitializeDecode 方法**</span><span class="sxs-lookup"><span data-stu-id="2e91b-106">**InitializeDecode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-initializedecode)
--   [<span data-ttu-id="2e91b-107">**InitializeEncodeFromEncryptedKeyBlob 方法**</span><span class="sxs-lookup"><span data-stu-id="2e91b-107">**InitializeEncodeFromEncryptedKeyBlob Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-initializeencodefromencryptedkeyblob)
+-   [<span data-ttu-id="0bc15-106">**InitializeDecode 方法**</span><span class="sxs-lookup"><span data-stu-id="0bc15-106">**InitializeDecode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-initializedecode)
+-   [<span data-ttu-id="0bc15-107">**InitializeEncodeFromEncryptedKeyBlob 方法**</span><span class="sxs-lookup"><span data-stu-id="0bc15-107">**InitializeEncodeFromEncryptedKeyBlob Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-initializeencodefromencryptedkeyblob)
 
  
 

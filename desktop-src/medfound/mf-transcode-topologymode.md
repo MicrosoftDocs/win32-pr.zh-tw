@@ -11,69 +11,69 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848317"
 ---
-# <a name="mf_transcode_topologymode-attribute"></a><span data-ttu-id="50b37-103">MF \_ 轉碼 \_ TOPOLOGYMODE 屬性</span><span class="sxs-lookup"><span data-stu-id="50b37-103">MF\_TRANSCODE\_TOPOLOGYMODE attribute</span></span>
+# <a name="mf_transcode_topologymode-attribute"></a><span data-ttu-id="e1f2a-103">MF \_ 轉碼 \_ TOPOLOGYMODE 屬性</span><span class="sxs-lookup"><span data-stu-id="e1f2a-103">MF\_TRANSCODE\_TOPOLOGYMODE attribute</span></span>
 
-<span data-ttu-id="50b37-104">針對拓撲載入器是否會載入以硬體為基礎的轉換，指定轉碼拓撲。</span><span class="sxs-lookup"><span data-stu-id="50b37-104">Specifies for a transcode topology whether the topology loader will load hardware-based transforms.</span></span>
+<span data-ttu-id="e1f2a-104">針對拓撲載入器是否會載入以硬體為基礎的轉換，指定轉碼拓撲。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-104">Specifies for a transcode topology whether the topology loader will load hardware-based transforms.</span></span>
 
-<span data-ttu-id="50b37-105">拓撲模式會指定硬體轉換 (例如硬體編解碼器) 是否可用於轉碼拓撲中。</span><span class="sxs-lookup"><span data-stu-id="50b37-105">The topology mode specifies whether hardware transforms (such as hardware codecs) may be used in the transcode topology.</span></span> <span data-ttu-id="50b37-106">應用程式可以藉由呼叫 [**IMFTranscodeProfile：： SetContainerAttributes**](/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes)，將此屬性儲存在轉碼設定檔中。</span><span class="sxs-lookup"><span data-stu-id="50b37-106">The application can store this attribute in a transcode profile by calling [**IMFTranscodeProfile::SetContainerAttributes**](/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes).</span></span>
+<span data-ttu-id="e1f2a-105">拓撲模式會指定硬體轉換 (例如硬體編解碼器) 是否可用於轉碼拓撲中。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-105">The topology mode specifies whether hardware transforms (such as hardware codecs) may be used in the transcode topology.</span></span> <span data-ttu-id="e1f2a-106">應用程式可以藉由呼叫 [**IMFTranscodeProfile：： SetContainerAttributes**](/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes)，將此屬性儲存在轉碼設定檔中。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-106">The application can store this attribute in a transcode profile by calling [**IMFTranscodeProfile::SetContainerAttributes**](/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes).</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="50b37-107">資料類型</span><span class="sxs-lookup"><span data-stu-id="50b37-107">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="e1f2a-107">資料類型</span><span class="sxs-lookup"><span data-stu-id="e1f2a-107">Data type</span></span>
 
-<span data-ttu-id="50b37-108">**[**MF \_以 UINT32 形式儲存的轉碼 \_ TOPOLOGYMODE \_ 旗標**](/windows/desktop/api/mfidl/ne-mfidl-mf_transcode_topologymode_flags)** </span><span class="sxs-lookup"><span data-stu-id="50b37-108">**[**MF\_TRANSCODE\_TOPOLOGYMODE\_FLAGS**](/windows/desktop/api/mfidl/ne-mfidl-mf_transcode_topologymode_flags)** stored as **UINT32**</span></span>
+<span data-ttu-id="e1f2a-108">**[**MF \_以 UINT32 形式儲存的轉碼 \_ TOPOLOGYMODE \_ 旗標**](/windows/desktop/api/mfidl/ne-mfidl-mf_transcode_topologymode_flags)** </span><span class="sxs-lookup"><span data-stu-id="e1f2a-108">**[**MF\_TRANSCODE\_TOPOLOGYMODE\_FLAGS**](/windows/desktop/api/mfidl/ne-mfidl-mf_transcode_topologymode_flags)** stored as **UINT32**</span></span>
 
-## <a name="getset"></a><span data-ttu-id="50b37-109">取得/設定</span><span class="sxs-lookup"><span data-stu-id="50b37-109">Get/set</span></span>
+## <a name="getset"></a><span data-ttu-id="e1f2a-109">取得/設定</span><span class="sxs-lookup"><span data-stu-id="e1f2a-109">Get/set</span></span>
 
-<span data-ttu-id="50b37-110">若要取得這個屬性，請呼叫 [**IMFAttributes：： GetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32)。</span><span class="sxs-lookup"><span data-stu-id="50b37-110">To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32).</span></span>
+<span data-ttu-id="e1f2a-110">若要取得這個屬性，請呼叫 [**IMFAttributes：： GetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32)。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-110">To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32).</span></span>
 
-<span data-ttu-id="50b37-111">若要設定這個屬性，請呼叫 [**IMFAttributes：： SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32)。</span><span class="sxs-lookup"><span data-stu-id="50b37-111">To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).</span></span>
+<span data-ttu-id="e1f2a-111">若要設定這個屬性，請呼叫 [**IMFAttributes：： SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32)。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-111">To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="50b37-112">備註</span><span class="sxs-lookup"><span data-stu-id="50b37-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e1f2a-112">備註</span><span class="sxs-lookup"><span data-stu-id="e1f2a-112">Remarks</span></span>
 
-<span data-ttu-id="50b37-113">此屬性是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="50b37-113">This attribute is optional.</span></span> <span data-ttu-id="50b37-114">它必須有下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="50b37-114">It must have one of the following values.</span></span>
+<span data-ttu-id="e1f2a-113">此屬性是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-113">This attribute is optional.</span></span> <span data-ttu-id="e1f2a-114">它必須有下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-114">It must have one of the following values.</span></span>
 
 
 
-| <span data-ttu-id="50b37-115">值</span><span class="sxs-lookup"><span data-stu-id="50b37-115">Value</span></span>                                              | <span data-ttu-id="50b37-116">描述</span><span class="sxs-lookup"><span data-stu-id="50b37-116">Description</span></span>                                                                                                                                                                                                                                                                       |
+| <span data-ttu-id="e1f2a-115">值</span><span class="sxs-lookup"><span data-stu-id="e1f2a-115">Value</span></span>                                              | <span data-ttu-id="e1f2a-116">描述</span><span class="sxs-lookup"><span data-stu-id="e1f2a-116">Description</span></span>                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="50b37-117">**允許的 MF \_ 轉碼 \_ TOPOLOGYMODE \_ 硬體 \_**</span><span class="sxs-lookup"><span data-stu-id="50b37-117">**MF\_TRANSCODE\_TOPOLOGYMODE\_HARDWARE\_ALLOWED**</span></span> | <span data-ttu-id="50b37-118">拓撲載入器會載入以硬體為基礎的 MFTs，例如硬體解碼器（如果有的話）。</span><span class="sxs-lookup"><span data-stu-id="50b37-118">The Topology Loader will load hardware-based MFTs, such as hardware decoders, when available.</span></span><br/> <span data-ttu-id="50b37-119">如果找不到硬體解碼器，或硬體解碼器因為某些原因而無法連線，拓撲載入器會自動切換回軟體解碼。</span><span class="sxs-lookup"><span data-stu-id="50b37-119">The Topology Loader automatically falls back to software decoding if no hardware decoder is found, or if a hardware decoder fails to connect for some reason.</span></span><br/> |
-| <span data-ttu-id="50b37-120">**\_僅限 MF 轉碼 \_ TOPOLOGYMODE \_ 軟體 \_**</span><span class="sxs-lookup"><span data-stu-id="50b37-120">**MF\_TRANSCODE\_TOPOLOGYMODE\_SOFTWARE\_ONLY**</span></span>    | <span data-ttu-id="50b37-121">拓撲載入器只會載入軟體 MFTs，包括軟體解碼器。</span><span class="sxs-lookup"><span data-stu-id="50b37-121">The Topology Loader will load only software MFTs, including software decoders.</span></span>                                                                                                                                                                                                    |
+| <span data-ttu-id="e1f2a-117">**允許的 MF \_ 轉碼 \_ TOPOLOGYMODE \_ 硬體 \_**</span><span class="sxs-lookup"><span data-stu-id="e1f2a-117">**MF\_TRANSCODE\_TOPOLOGYMODE\_HARDWARE\_ALLOWED**</span></span> | <span data-ttu-id="e1f2a-118">拓撲載入器會載入以硬體為基礎的 MFTs，例如硬體解碼器（如果有的話）。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-118">The Topology Loader will load hardware-based MFTs, such as hardware decoders, when available.</span></span><br/> <span data-ttu-id="e1f2a-119">如果找不到硬體解碼器，或硬體解碼器因為某些原因而無法連線，拓撲載入器會自動切換回軟體解碼。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-119">The Topology Loader automatically falls back to software decoding if no hardware decoder is found, or if a hardware decoder fails to connect for some reason.</span></span><br/> |
+| <span data-ttu-id="e1f2a-120">**\_僅限 MF 轉碼 \_ TOPOLOGYMODE \_ 軟體 \_**</span><span class="sxs-lookup"><span data-stu-id="e1f2a-120">**MF\_TRANSCODE\_TOPOLOGYMODE\_SOFTWARE\_ONLY**</span></span>    | <span data-ttu-id="e1f2a-121">拓撲載入器只會載入軟體 MFTs，包括軟體解碼器。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-121">The Topology Loader will load only software MFTs, including software decoders.</span></span>                                                                                                                                                                                                    |
 
 
 
  
 
-<span data-ttu-id="50b37-122">預設值為 **\_ \_ \_ \_ 僅限 MF 轉碼 TOPOLOGYMODE SOFTWARE**。</span><span class="sxs-lookup"><span data-stu-id="50b37-122">The default value is **MF\_TRANSCODE\_TOPOLOGYMODE\_SOFTWARE\_ONLY**.</span></span>
+<span data-ttu-id="e1f2a-122">預設值為 **\_ \_ \_ \_ 僅限 MF 轉碼 TOPOLOGYMODE SOFTWARE**。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-122">The default value is **MF\_TRANSCODE\_TOPOLOGYMODE\_SOFTWARE\_ONLY**.</span></span>
 
-<span data-ttu-id="50b37-123">如果拓撲載入器將硬體 MFT 插入拓撲中，它會在 [拓撲] 節點上設定 [ [mft \_ 列舉 \_ 硬體 \_ URL] \_ 屬性](mft-enum-hardware-url-attribute.md) 屬性。</span><span class="sxs-lookup"><span data-stu-id="50b37-123">If the Topology Loader inserts a hardware MFT into the topology, it sets the [MFT\_ENUM\_HARDWARE\_URL\_Attribute](mft-enum-hardware-url-attribute.md) attribute on the topology node.</span></span> <span data-ttu-id="50b37-124">若要檢查硬體 MFT 是否存在，請列舉已解析拓撲中的節點，並檢查此屬性是否存在。</span><span class="sxs-lookup"><span data-stu-id="50b37-124">To check whether a hardware MFT is present, enumerate the nodes in the resolved topology and check whether this attribute is present.</span></span>
+<span data-ttu-id="e1f2a-123">如果拓撲載入器將硬體 MFT 插入拓撲中，它會在 [拓撲] 節點上設定 [ [mft \_ 列舉 \_ 硬體 \_ URL] \_ 屬性](mft-enum-hardware-url-attribute.md) 屬性。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-123">If the Topology Loader inserts a hardware MFT into the topology, it sets the [MFT\_ENUM\_HARDWARE\_URL\_Attribute](mft-enum-hardware-url-attribute.md) attribute on the topology node.</span></span> <span data-ttu-id="e1f2a-124">若要檢查硬體 MFT 是否存在，請列舉已解析拓撲中的節點，並檢查此屬性是否存在。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-124">To check whether a hardware MFT is present, enumerate the nodes in the resolved topology and check whether this attribute is present.</span></span>
 
-<span data-ttu-id="50b37-125">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="50b37-125">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
+<span data-ttu-id="e1f2a-125">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="e1f2a-125">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="50b37-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="50b37-126">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e1f2a-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="e1f2a-126">Requirements</span></span>
 
 
 
-| <span data-ttu-id="50b37-127">需求</span><span class="sxs-lookup"><span data-stu-id="50b37-127">Requirement</span></span> | <span data-ttu-id="50b37-128">值</span><span class="sxs-lookup"><span data-stu-id="50b37-128">Value</span></span> |
+| <span data-ttu-id="e1f2a-127">需求</span><span class="sxs-lookup"><span data-stu-id="e1f2a-127">Requirement</span></span> | <span data-ttu-id="e1f2a-128">值</span><span class="sxs-lookup"><span data-stu-id="e1f2a-128">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="50b37-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="50b37-129">Minimum supported client</span></span><br/> | <span data-ttu-id="50b37-130">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="50b37-130">Windows 7 \[desktop apps only\]</span></span><br/>                                         |
-| <span data-ttu-id="50b37-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="50b37-131">Minimum supported server</span></span><br/> | <span data-ttu-id="50b37-132">僅限 Windows Server 2008 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="50b37-132">Windows Server 2008 R2 \[desktop apps only\]</span></span><br/>                            |
-| <span data-ttu-id="50b37-133">標頭</span><span class="sxs-lookup"><span data-stu-id="50b37-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="50b37-134"><dt>Mfidl。h</dt></span><span class="sxs-lookup"><span data-stu-id="50b37-134"><dt>Mfidl.h</dt></span></span> </dl> |
+| <span data-ttu-id="e1f2a-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e1f2a-129">Minimum supported client</span></span><br/> | <span data-ttu-id="e1f2a-130">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e1f2a-130">Windows 7 \[desktop apps only\]</span></span><br/>                                         |
+| <span data-ttu-id="e1f2a-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e1f2a-131">Minimum supported server</span></span><br/> | <span data-ttu-id="e1f2a-132">僅限 Windows Server 2008 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e1f2a-132">Windows Server 2008 R2 \[desktop apps only\]</span></span><br/>                            |
+| <span data-ttu-id="e1f2a-133">標頭</span><span class="sxs-lookup"><span data-stu-id="e1f2a-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="e1f2a-134"><dt>Mfidl。h</dt></span><span class="sxs-lookup"><span data-stu-id="e1f2a-134"><dt>Mfidl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="50b37-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="50b37-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1f2a-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e1f2a-135">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="50b37-136">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="50b37-136">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="e1f2a-136">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="e1f2a-136">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="50b37-137">轉碼 API</span><span class="sxs-lookup"><span data-stu-id="50b37-137">Transcode API</span></span>](transcode-api.md)
+[<span data-ttu-id="e1f2a-137">轉碼 API</span><span class="sxs-lookup"><span data-stu-id="e1f2a-137">Transcode API</span></span>](transcode-api.md)
 </dt> <dt>
 
-[<span data-ttu-id="50b37-138">**IMFTranscodeProfile::GetContainerAttributes**</span><span class="sxs-lookup"><span data-stu-id="50b37-138">**IMFTranscodeProfile::GetContainerAttributes**</span></span>](/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-getcontainerattributes)
+[<span data-ttu-id="e1f2a-138">**IMFTranscodeProfile::GetContainerAttributes**</span><span class="sxs-lookup"><span data-stu-id="e1f2a-138">**IMFTranscodeProfile::GetContainerAttributes**</span></span>](/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-getcontainerattributes)
 </dt> <dt>
 
-[<span data-ttu-id="50b37-139">**IMFTranscodeProfile::SetContainerAttributes**</span><span class="sxs-lookup"><span data-stu-id="50b37-139">**IMFTranscodeProfile::SetContainerAttributes**</span></span>](/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes)
+[<span data-ttu-id="e1f2a-139">**IMFTranscodeProfile::SetContainerAttributes**</span><span class="sxs-lookup"><span data-stu-id="e1f2a-139">**IMFTranscodeProfile::SetContainerAttributes**</span></span>](/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes)
 </dt> </dl>
 
  

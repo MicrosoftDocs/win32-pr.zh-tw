@@ -28,13 +28,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843775"
 ---
-# <a name="microsoftdns_keytype-class"></a><span data-ttu-id="4184d-105">MicrosoftDNS \_ KEYType 類別</span><span class="sxs-lookup"><span data-stu-id="4184d-105">MicrosoftDNS\_KEYType class</span></span>
+# <a name="microsoftdns_keytype-class"></a><span data-ttu-id="a5557-105">MicrosoftDNS \_ KEYType 類別</span><span class="sxs-lookup"><span data-stu-id="a5557-105">MicrosoftDNS\_KEYType class</span></span>
 
-<span data-ttu-id="4184d-106">代表金鑰資源記錄之 [**MicrosoftDNS \_ ResourceRecord**](microsoftdns-resourcerecord.md) 的子類別。</span><span class="sxs-lookup"><span data-stu-id="4184d-106">The subclass of [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md) that represents a KEY Resource Record.</span></span>
+<span data-ttu-id="a5557-106">代表金鑰資源記錄之 [**MicrosoftDNS \_ ResourceRecord**](microsoftdns-resourcerecord.md) 的子類別。</span><span class="sxs-lookup"><span data-stu-id="a5557-106">The subclass of [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md) that represents a KEY Resource Record.</span></span>
 
-<span data-ttu-id="4184d-107">以下是從 MOF 程式碼簡化的語法。</span><span class="sxs-lookup"><span data-stu-id="4184d-107">The following syntax is simplified from MOF code.</span></span>
+<span data-ttu-id="a5557-107">以下是從 MOF 程式碼簡化的語法。</span><span class="sxs-lookup"><span data-stu-id="a5557-107">The following syntax is simplified from MOF code.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4184d-108">語法</span><span class="sxs-lookup"><span data-stu-id="4184d-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a5557-108">語法</span><span class="sxs-lookup"><span data-stu-id="a5557-108">Syntax</span></span>
 
 ``` syntax
 class MicrosoftDNS_KEYType : MicrosoftDNS_ResourceRecord
@@ -46,53 +46,53 @@ class MicrosoftDNS_KEYType : MicrosoftDNS_ResourceRecord
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="4184d-109">成員</span><span class="sxs-lookup"><span data-stu-id="4184d-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="a5557-109">成員</span><span class="sxs-lookup"><span data-stu-id="a5557-109">Members</span></span>
 
-<span data-ttu-id="4184d-110">**MicrosoftDNS \_ KEYType** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="4184d-110">The **MicrosoftDNS\_KEYType** class has these types of members:</span></span>
+<span data-ttu-id="a5557-110">**MicrosoftDNS \_ KEYType** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="a5557-110">The **MicrosoftDNS\_KEYType** class has these types of members:</span></span>
 
--   [<span data-ttu-id="4184d-111">方法</span><span class="sxs-lookup"><span data-stu-id="4184d-111">Methods</span></span>](#methods)
--   [<span data-ttu-id="4184d-112">屬性</span><span class="sxs-lookup"><span data-stu-id="4184d-112">Properties</span></span>](#properties)
+-   [<span data-ttu-id="a5557-111">方法</span><span class="sxs-lookup"><span data-stu-id="a5557-111">Methods</span></span>](#methods)
+-   [<span data-ttu-id="a5557-112">屬性</span><span class="sxs-lookup"><span data-stu-id="a5557-112">Properties</span></span>](#properties)
 
-### <a name="methods"></a><span data-ttu-id="4184d-113">方法</span><span class="sxs-lookup"><span data-stu-id="4184d-113">Methods</span></span>
+### <a name="methods"></a><span data-ttu-id="a5557-113">方法</span><span class="sxs-lookup"><span data-stu-id="a5557-113">Methods</span></span>
 
-<span data-ttu-id="4184d-114">**MicrosoftDNS \_ KEYType** 類別具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="4184d-114">The **MicrosoftDNS\_KEYType** class has these methods.</span></span>
+<span data-ttu-id="a5557-114">**MicrosoftDNS \_ KEYType** 類別具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="a5557-114">The **MicrosoftDNS\_KEYType** class has these methods.</span></span>
 
 
 
-| <span data-ttu-id="4184d-115">方法</span><span class="sxs-lookup"><span data-stu-id="4184d-115">Method</span></span>                             | <span data-ttu-id="4184d-116">描述</span><span class="sxs-lookup"><span data-stu-id="4184d-116">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                        |
+| <span data-ttu-id="a5557-115">方法</span><span class="sxs-lookup"><span data-stu-id="a5557-115">Method</span></span>                             | <span data-ttu-id="a5557-116">描述</span><span class="sxs-lookup"><span data-stu-id="a5557-116">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:-----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="4184d-117">**CreateInstanceFromPropertyData**</span><span class="sxs-lookup"><span data-stu-id="4184d-117">**CreateInstanceFromPropertyData**</span></span> | <span data-ttu-id="4184d-118">根據方法的輸入參數中的資料具現化金鑰資源記錄：記錄的 DNS 伺服器名稱、容器名稱、擁有者名稱、類別 (預設 = IN) 、存留時間值，以及 WINS 對應旗標、反向查閱超時、WINS 快取超時和要附加的功能變數名稱。</span><span class="sxs-lookup"><span data-stu-id="4184d-118">Instantiates a KEY Resource Record based on the data in the method's input parameters: the record's DNS Server Name, Container Name, Owner Name, class (default = IN), time-to-live value, and WINS mapping flag, reverse look-up time out, WINS cache time out and domain name to append.</span></span> <span data-ttu-id="4184d-119">它會將新物件的參考傳回做為輸出參數。</span><span class="sxs-lookup"><span data-stu-id="4184d-119">It returns a reference to the new object as an output parameter.</span></span> <br/> <span data-ttu-id="4184d-120">限定詞：實作為、靜態</span><span class="sxs-lookup"><span data-stu-id="4184d-120">Qualifiers: Implemented, static</span></span><br/> |
-| <span data-ttu-id="4184d-121">**修改**</span><span class="sxs-lookup"><span data-stu-id="4184d-121">**Modify**</span></span>                         | <span data-ttu-id="4184d-122">將 TTL、對應旗標、查閱超時、快取超時和結果網域，更新為指定為此方法之輸入參數的值。</span><span class="sxs-lookup"><span data-stu-id="4184d-122">Updates the TTL, mapping flag, look-up time out, cache time out, and result domain to the values specified as the input parameters of this method.</span></span> <span data-ttu-id="4184d-123">如果未指定參數的新值，則不會變更參數的目前值。</span><span class="sxs-lookup"><span data-stu-id="4184d-123">If a new value for a parameter is not specified, then the current value for the parameter is not changed.</span></span> <span data-ttu-id="4184d-124">方法會將修改過之物件的參考傳回為輸出參數。</span><span class="sxs-lookup"><span data-stu-id="4184d-124">The method returns a reference to the modified object as an output parameter.</span></span> <br/> <span data-ttu-id="4184d-125">限定詞：實作為</span><span class="sxs-lookup"><span data-stu-id="4184d-125">Qualifiers: Implemented</span></span><br/>                          |
+| <span data-ttu-id="a5557-117">**CreateInstanceFromPropertyData**</span><span class="sxs-lookup"><span data-stu-id="a5557-117">**CreateInstanceFromPropertyData**</span></span> | <span data-ttu-id="a5557-118">根據方法的輸入參數中的資料具現化金鑰資源記錄：記錄的 DNS 伺服器名稱、容器名稱、擁有者名稱、類別 (預設 = IN) 、存留時間值，以及 WINS 對應旗標、反向查閱超時、WINS 快取超時和要附加的功能變數名稱。</span><span class="sxs-lookup"><span data-stu-id="a5557-118">Instantiates a KEY Resource Record based on the data in the method's input parameters: the record's DNS Server Name, Container Name, Owner Name, class (default = IN), time-to-live value, and WINS mapping flag, reverse look-up time out, WINS cache time out and domain name to append.</span></span> <span data-ttu-id="a5557-119">它會將新物件的參考傳回做為輸出參數。</span><span class="sxs-lookup"><span data-stu-id="a5557-119">It returns a reference to the new object as an output parameter.</span></span> <br/> <span data-ttu-id="a5557-120">限定詞：實作為、靜態</span><span class="sxs-lookup"><span data-stu-id="a5557-120">Qualifiers: Implemented, static</span></span><br/> |
+| <span data-ttu-id="a5557-121">**修改**</span><span class="sxs-lookup"><span data-stu-id="a5557-121">**Modify**</span></span>                         | <span data-ttu-id="a5557-122">將 TTL、對應旗標、查閱超時、快取超時和結果網域，更新為指定為此方法之輸入參數的值。</span><span class="sxs-lookup"><span data-stu-id="a5557-122">Updates the TTL, mapping flag, look-up time out, cache time out, and result domain to the values specified as the input parameters of this method.</span></span> <span data-ttu-id="a5557-123">如果未指定參數的新值，則不會變更參數的目前值。</span><span class="sxs-lookup"><span data-stu-id="a5557-123">If a new value for a parameter is not specified, then the current value for the parameter is not changed.</span></span> <span data-ttu-id="a5557-124">方法會將修改過之物件的參考傳回為輸出參數。</span><span class="sxs-lookup"><span data-stu-id="a5557-124">The method returns a reference to the modified object as an output parameter.</span></span> <br/> <span data-ttu-id="a5557-125">限定詞：實作為</span><span class="sxs-lookup"><span data-stu-id="a5557-125">Qualifiers: Implemented</span></span><br/>                          |
 
 
 
  
 
-### <a name="properties"></a><span data-ttu-id="4184d-126">屬性</span><span class="sxs-lookup"><span data-stu-id="4184d-126">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="a5557-126">屬性</span><span class="sxs-lookup"><span data-stu-id="a5557-126">Properties</span></span>
 
-<span data-ttu-id="4184d-127">**MicrosoftDNS \_ KEYType** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="4184d-127">The **MicrosoftDNS\_KEYType** class has these properties.</span></span>
+<span data-ttu-id="a5557-127">**MicrosoftDNS \_ KEYType** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="a5557-127">The **MicrosoftDNS\_KEYType** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="4184d-128">**演算法**</span><span class="sxs-lookup"><span data-stu-id="4184d-128">**Algorithm**</span></span>
+<span data-ttu-id="a5557-128">**演算法**</span><span class="sxs-lookup"><span data-stu-id="a5557-128">**Algorithm**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="4184d-129">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="4184d-129">Data type: **uint16**</span></span>
+<span data-ttu-id="a5557-129">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="a5557-129">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="4184d-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="4184d-130">Access type: Read-only</span></span>
+<span data-ttu-id="a5557-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="a5557-130">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="4184d-131">與資源記錄中指定的金鑰搭配使用的演算法。</span><span class="sxs-lookup"><span data-stu-id="4184d-131">Algorithm used with the key specified in the resource record.</span></span> <span data-ttu-id="4184d-132">指派的值如下表所示。</span><span class="sxs-lookup"><span data-stu-id="4184d-132">The assigned values are shown in the following table.</span></span>
+<span data-ttu-id="a5557-131">與資源記錄中指定的金鑰搭配使用的演算法。</span><span class="sxs-lookup"><span data-stu-id="a5557-131">Algorithm used with the key specified in the resource record.</span></span> <span data-ttu-id="a5557-132">指派的值如下表所示。</span><span class="sxs-lookup"><span data-stu-id="a5557-132">The assigned values are shown in the following table.</span></span>
 
 
 
-| <span data-ttu-id="4184d-133">值</span><span class="sxs-lookup"><span data-stu-id="4184d-133">Value</span></span>                                                                                                | <span data-ttu-id="4184d-134">意義</span><span class="sxs-lookup"><span data-stu-id="4184d-134">Meaning</span></span>                                |
+| <span data-ttu-id="a5557-133">值</span><span class="sxs-lookup"><span data-stu-id="a5557-133">Value</span></span>                                                                                                | <span data-ttu-id="a5557-134">意義</span><span class="sxs-lookup"><span data-stu-id="a5557-134">Meaning</span></span>                                |
 |------------------------------------------------------------------------------------------------------|----------------------------------------|
-| <span id="1"></span><dl> <span data-ttu-id="4184d-135"><dt>**1**</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-135"><dt>**1**</dt></span></span> </dl> | <span data-ttu-id="4184d-136">RSA/MD5 (RFC 2537) </span><span class="sxs-lookup"><span data-stu-id="4184d-136">RSA/MD5 (RFC 2537)</span></span><br/>          |
-| <span id="2"></span><dl> <span data-ttu-id="4184d-137"><dt>**2**</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-137"><dt>**2**</dt></span></span> </dl> | <span data-ttu-id="4184d-138">Diffie-Hellman (RFC 2539) </span><span class="sxs-lookup"><span data-stu-id="4184d-138">Diffie-Hellman (RFC 2539)</span></span><br/>   |
-| <span id="3"></span><dl> <span data-ttu-id="4184d-139"><dt>**3**</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-139"><dt>**3**</dt></span></span> </dl> | <span data-ttu-id="4184d-140">DSA (RFC 2536) </span><span class="sxs-lookup"><span data-stu-id="4184d-140">DSA (RFC 2536)</span></span><br/>              |
-| <span id="4"></span><dl> <span data-ttu-id="4184d-141"><dt>**4**</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-141"><dt>**4**</dt></span></span> </dl> | <span data-ttu-id="4184d-142">橢圓曲線密碼編譯</span><span class="sxs-lookup"><span data-stu-id="4184d-142">Elliptic curve cryptography</span></span><br/> |
+| <span id="1"></span><dl> <span data-ttu-id="a5557-135"><dt>**1**</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-135"><dt>**1**</dt></span></span> </dl> | <span data-ttu-id="a5557-136">RSA/MD5 (RFC 2537) </span><span class="sxs-lookup"><span data-stu-id="a5557-136">RSA/MD5 (RFC 2537)</span></span><br/>          |
+| <span id="2"></span><dl> <span data-ttu-id="a5557-137"><dt>**2**</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-137"><dt>**2**</dt></span></span> </dl> | <span data-ttu-id="a5557-138">Diffie-Hellman (RFC 2539) </span><span class="sxs-lookup"><span data-stu-id="a5557-138">Diffie-Hellman (RFC 2539)</span></span><br/>   |
+| <span id="3"></span><dl> <span data-ttu-id="a5557-139"><dt>**3**</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-139"><dt>**3**</dt></span></span> </dl> | <span data-ttu-id="a5557-140">DSA (RFC 2536) </span><span class="sxs-lookup"><span data-stu-id="a5557-140">DSA (RFC 2536)</span></span><br/>              |
+| <span id="4"></span><dl> <span data-ttu-id="a5557-141"><dt>**4**</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-141"><dt>**4**</dt></span></span> </dl> | <span data-ttu-id="a5557-142">橢圓曲線密碼編譯</span><span class="sxs-lookup"><span data-stu-id="a5557-142">Elliptic curve cryptography</span></span><br/> |
 
 
 
@@ -100,39 +100,39 @@ class MicrosoftDNS_KEYType : MicrosoftDNS_ResourceRecord
 
 </dd> <dt>
 
-<span data-ttu-id="4184d-143">**旗標**</span><span class="sxs-lookup"><span data-stu-id="4184d-143">**Flags**</span></span>
+<span data-ttu-id="a5557-143">**旗標**</span><span class="sxs-lookup"><span data-stu-id="a5557-143">**Flags**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="4184d-144">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="4184d-144">Data type: **uint16**</span></span>
+<span data-ttu-id="a5557-144">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="a5557-144">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="4184d-145">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="4184d-145">Access type: Read-only</span></span>
+<span data-ttu-id="a5557-145">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="a5557-145">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="4184d-146">用來指定對應的旗標，如 IETF RFC 2535 中所述。</span><span class="sxs-lookup"><span data-stu-id="4184d-146">Flags used to specify mapping, as described in IETF RFC 2535.</span></span>
+<span data-ttu-id="a5557-146">用來指定對應的旗標，如 IETF RFC 2535 中所述。</span><span class="sxs-lookup"><span data-stu-id="a5557-146">Flags used to specify mapping, as described in IETF RFC 2535.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="4184d-147">**通訊協定**</span><span class="sxs-lookup"><span data-stu-id="4184d-147">**Protocol**</span></span>
+<span data-ttu-id="a5557-147">**通訊協定**</span><span class="sxs-lookup"><span data-stu-id="a5557-147">**Protocol**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="4184d-148">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="4184d-148">Data type: **uint16**</span></span>
+<span data-ttu-id="a5557-148">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="a5557-148">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="4184d-149">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="4184d-149">Access type: Read-only</span></span>
+<span data-ttu-id="a5557-149">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="a5557-149">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="4184d-150">可以使用資源記錄中所指定金鑰的通訊協定。</span><span class="sxs-lookup"><span data-stu-id="4184d-150">Protocol for which the key specified in the resource record can be used.</span></span> <span data-ttu-id="4184d-151">指派的值如下表所示。</span><span class="sxs-lookup"><span data-stu-id="4184d-151">The assigned values are shown in the following table.</span></span>
+<span data-ttu-id="a5557-150">可以使用資源記錄中所指定金鑰的通訊協定。</span><span class="sxs-lookup"><span data-stu-id="a5557-150">Protocol for which the key specified in the resource record can be used.</span></span> <span data-ttu-id="a5557-151">指派的值如下表所示。</span><span class="sxs-lookup"><span data-stu-id="a5557-151">The assigned values are shown in the following table.</span></span>
 
 
 
-| <span data-ttu-id="4184d-152">值</span><span class="sxs-lookup"><span data-stu-id="4184d-152">Value</span></span>                                                                                                    | <span data-ttu-id="4184d-153">意義</span><span class="sxs-lookup"><span data-stu-id="4184d-153">Meaning</span></span>                  |
+| <span data-ttu-id="a5557-152">值</span><span class="sxs-lookup"><span data-stu-id="a5557-152">Value</span></span>                                                                                                    | <span data-ttu-id="a5557-153">意義</span><span class="sxs-lookup"><span data-stu-id="a5557-153">Meaning</span></span>                  |
 |----------------------------------------------------------------------------------------------------------|--------------------------|
-| <span id="1"></span><dl> <span data-ttu-id="4184d-154"><dt>**1**</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-154"><dt>**1**</dt></span></span> </dl>     | <span data-ttu-id="4184d-155">TLS</span><span class="sxs-lookup"><span data-stu-id="4184d-155">TLS</span></span><br/>           |
-| <span id="2"></span><dl> <span data-ttu-id="4184d-156"><dt>**2**</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-156"><dt>**2**</dt></span></span> </dl>     | <span data-ttu-id="4184d-157">電子郵件</span><span class="sxs-lookup"><span data-stu-id="4184d-157">E-Mail</span></span><br/>        |
-| <span id="3"></span><dl> <span data-ttu-id="4184d-158"><dt>**3**</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-158"><dt>**3**</dt></span></span> </dl>     | <span data-ttu-id="4184d-159">DNSSEC</span><span class="sxs-lookup"><span data-stu-id="4184d-159">DNSSEC</span></span><br/>        |
-| <span id="4"></span><dl> <span data-ttu-id="4184d-160"><dt>**4**</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-160"><dt>**4**</dt></span></span> </dl>     | <span data-ttu-id="4184d-161">IPsec</span><span class="sxs-lookup"><span data-stu-id="4184d-161">IPsec</span></span><br/>         |
-| <span id="255"></span><dl> <span data-ttu-id="4184d-162"><dt>**255**</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-162"><dt>**255**</dt></span></span> </dl> | <span data-ttu-id="4184d-163">所有通訊協定</span><span class="sxs-lookup"><span data-stu-id="4184d-163">All protocols</span></span><br/> |
+| <span id="1"></span><dl> <span data-ttu-id="a5557-154"><dt>**1**</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-154"><dt>**1**</dt></span></span> </dl>     | <span data-ttu-id="a5557-155">TLS</span><span class="sxs-lookup"><span data-stu-id="a5557-155">TLS</span></span><br/>           |
+| <span id="2"></span><dl> <span data-ttu-id="a5557-156"><dt>**2**</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-156"><dt>**2**</dt></span></span> </dl>     | <span data-ttu-id="a5557-157">電子郵件</span><span class="sxs-lookup"><span data-stu-id="a5557-157">E-Mail</span></span><br/>        |
+| <span id="3"></span><dl> <span data-ttu-id="a5557-158"><dt>**3**</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-158"><dt>**3**</dt></span></span> </dl>     | <span data-ttu-id="a5557-159">DNSSEC</span><span class="sxs-lookup"><span data-stu-id="a5557-159">DNSSEC</span></span><br/>        |
+| <span id="4"></span><dl> <span data-ttu-id="a5557-160"><dt>**4**</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-160"><dt>**4**</dt></span></span> </dl>     | <span data-ttu-id="a5557-161">IPsec</span><span class="sxs-lookup"><span data-stu-id="a5557-161">IPsec</span></span><br/>         |
+| <span id="255"></span><dl> <span data-ttu-id="a5557-162"><dt>**255**</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-162"><dt>**255**</dt></span></span> </dl> | <span data-ttu-id="a5557-163">所有通訊協定</span><span class="sxs-lookup"><span data-stu-id="a5557-163">All protocols</span></span><br/> |
 
 
 
@@ -140,43 +140,43 @@ class MicrosoftDNS_KEYType : MicrosoftDNS_ResourceRecord
 
 </dd> <dt>
 
-<span data-ttu-id="4184d-164">**PublicKey**</span><span class="sxs-lookup"><span data-stu-id="4184d-164">**PublicKey**</span></span>
+<span data-ttu-id="a5557-164">**PublicKey**</span><span class="sxs-lookup"><span data-stu-id="a5557-164">**PublicKey**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="4184d-165">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="4184d-165">Data type: **string**</span></span>
+<span data-ttu-id="a5557-165">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="a5557-165">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="4184d-166">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="4184d-166">Access type: Read-only</span></span>
+<span data-ttu-id="a5557-166">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="a5557-166">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="4184d-167">公開金鑰，以基底64表示，如 RFC 2535 的附錄 A 所述。</span><span class="sxs-lookup"><span data-stu-id="4184d-167">Public key, represented in base 64 as described in Appendix A of RFC 2535.</span></span>
+<span data-ttu-id="a5557-167">公開金鑰，以基底64表示，如 RFC 2535 的附錄 A 所述。</span><span class="sxs-lookup"><span data-stu-id="a5557-167">Public key, represented in base 64 as described in Appendix A of RFC 2535.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="4184d-168">規格需求</span><span class="sxs-lookup"><span data-stu-id="4184d-168">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="a5557-168">規格需求</span><span class="sxs-lookup"><span data-stu-id="a5557-168">Requirements</span></span>
 
 
 
-| <span data-ttu-id="4184d-169">需求</span><span class="sxs-lookup"><span data-stu-id="4184d-169">Requirement</span></span> | <span data-ttu-id="4184d-170">值</span><span class="sxs-lookup"><span data-stu-id="4184d-170">Value</span></span> |
+| <span data-ttu-id="a5557-169">需求</span><span class="sxs-lookup"><span data-stu-id="a5557-169">Requirement</span></span> | <span data-ttu-id="a5557-170">值</span><span class="sxs-lookup"><span data-stu-id="a5557-170">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="4184d-171">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4184d-171">Minimum supported client</span></span><br/> | <span data-ttu-id="4184d-172">都不支援</span><span class="sxs-lookup"><span data-stu-id="4184d-172">None supported</span></span><br/>                                                              |
-| <span data-ttu-id="4184d-173">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4184d-173">Minimum supported server</span></span><br/> | <span data-ttu-id="4184d-174">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4184d-174">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                   |
-| <span data-ttu-id="4184d-175">命名空間</span><span class="sxs-lookup"><span data-stu-id="4184d-175">Namespace</span></span><br/>                | <span data-ttu-id="4184d-176">根 \\ MicrosoftDNS</span><span class="sxs-lookup"><span data-stu-id="4184d-176">Root\\MicrosoftDNS</span></span><br/>                                                          |
-| <span data-ttu-id="4184d-177">MOF</span><span class="sxs-lookup"><span data-stu-id="4184d-177">MOF</span></span><br/>                      | <dl> <span data-ttu-id="4184d-178"><dt>Dnsprov mof</dt></span><span class="sxs-lookup"><span data-stu-id="4184d-178"><dt>Dnsprov.mof</dt></span></span> </dl> |
+| <span data-ttu-id="a5557-171">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a5557-171">Minimum supported client</span></span><br/> | <span data-ttu-id="a5557-172">都不支援</span><span class="sxs-lookup"><span data-stu-id="a5557-172">None supported</span></span><br/>                                                              |
+| <span data-ttu-id="a5557-173">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a5557-173">Minimum supported server</span></span><br/> | <span data-ttu-id="a5557-174">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a5557-174">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                   |
+| <span data-ttu-id="a5557-175">命名空間</span><span class="sxs-lookup"><span data-stu-id="a5557-175">Namespace</span></span><br/>                | <span data-ttu-id="a5557-176">根 \\ MicrosoftDNS</span><span class="sxs-lookup"><span data-stu-id="a5557-176">Root\\MicrosoftDNS</span></span><br/>                                                          |
+| <span data-ttu-id="a5557-177">MOF</span><span class="sxs-lookup"><span data-stu-id="a5557-177">MOF</span></span><br/>                      | <dl> <span data-ttu-id="a5557-178"><dt>Dnsprov mof</dt></span><span class="sxs-lookup"><span data-stu-id="a5557-178"><dt>Dnsprov.mof</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="4184d-179">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4184d-179">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a5557-179">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a5557-179">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4184d-180">**MicrosoftDNS KEYType 類別的 CreateInstanceFromPropertyData 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="4184d-180">**CreateInstanceFromPropertyData Method of the MicrosoftDNS\_KEYType Class**</span></span>](microsoftdns-keytype-createinstancefrompropertydata.md)
+[<span data-ttu-id="a5557-180">**MicrosoftDNS KEYType 類別的 CreateInstanceFromPropertyData 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="a5557-180">**CreateInstanceFromPropertyData Method of the MicrosoftDNS\_KEYType Class**</span></span>](microsoftdns-keytype-createinstancefrompropertydata.md)
 </dt> <dt>
 
-[<span data-ttu-id="4184d-181">**Modify MicrosoftDNS \_ KEYType 類別的方法**</span><span class="sxs-lookup"><span data-stu-id="4184d-181">**Modify Method of the MicrosoftDNS\_KEYType Class**</span></span>](microsoftdns-keytype-modify.md)
+[<span data-ttu-id="a5557-181">**Modify MicrosoftDNS \_ KEYType 類別的方法**</span><span class="sxs-lookup"><span data-stu-id="a5557-181">**Modify Method of the MicrosoftDNS\_KEYType Class**</span></span>](microsoftdns-keytype-modify.md)
 </dt> <dt>
 
-[<span data-ttu-id="4184d-182">**MicrosoftDNS \_ ResourceRecord**</span><span class="sxs-lookup"><span data-stu-id="4184d-182">**MicrosoftDNS\_ResourceRecord**</span></span>](microsoftdns-resourcerecord.md)
+[<span data-ttu-id="a5557-182">**MicrosoftDNS \_ ResourceRecord**</span><span class="sxs-lookup"><span data-stu-id="a5557-182">**MicrosoftDNS\_ResourceRecord**</span></span>](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
  

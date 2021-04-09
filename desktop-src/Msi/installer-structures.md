@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847905"
 ---
-# <a name="installer-structures"></a><span data-ttu-id="03c0f-103">安裝程式結構</span><span class="sxs-lookup"><span data-stu-id="03c0f-103">Installer Structures</span></span>
+# <a name="installer-structures"></a><span data-ttu-id="e4f94-103">安裝程式結構</span><span class="sxs-lookup"><span data-stu-id="e4f94-103">Installer Structures</span></span>
 
-<span data-ttu-id="03c0f-104">Windows Installer 會使用下列結構。</span><span class="sxs-lookup"><span data-stu-id="03c0f-104">The Windows Installer uses the following structures.</span></span>
+<span data-ttu-id="e4f94-104">Windows Installer 會使用下列結構。</span><span class="sxs-lookup"><span data-stu-id="e4f94-104">The Windows Installer uses the following structures.</span></span>
 
--   [<span data-ttu-id="03c0f-105">**MSIFILEHASHINFO**</span><span class="sxs-lookup"><span data-stu-id="03c0f-105">**MSIFILEHASHINFO**</span></span>](/windows/desktop/api/Msi/ns-msi-msifilehashinfo)
--   [<span data-ttu-id="03c0f-106">**MSIPATCHSEQUENCEINFO**</span><span class="sxs-lookup"><span data-stu-id="03c0f-106">**MSIPATCHSEQUENCEINFO**</span></span>](/windows/win32/api/msi/ns-msi-msipatchsequenceinfoa)
+-   [<span data-ttu-id="e4f94-105">**MSIFILEHASHINFO**</span><span class="sxs-lookup"><span data-stu-id="e4f94-105">**MSIFILEHASHINFO**</span></span>](/windows/desktop/api/Msi/ns-msi-msifilehashinfo)
+-   [<span data-ttu-id="e4f94-106">**MSIPATCHSEQUENCEINFO**</span><span class="sxs-lookup"><span data-stu-id="e4f94-106">**MSIPATCHSEQUENCEINFO**</span></span>](/windows/win32/api/msi/ns-msi-msipatchsequenceinfoa)
 
  
 

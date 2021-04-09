@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692499"
 ---
-# <a name="reporting-events"></a><span data-ttu-id="a5b4b-105">報告事件</span><span class="sxs-lookup"><span data-stu-id="a5b4b-105">Reporting Events</span></span>
+# <a name="reporting-events"></a><span data-ttu-id="0cbb0-105">報告事件</span><span class="sxs-lookup"><span data-stu-id="0cbb0-105">Reporting Events</span></span>
 
-<span data-ttu-id="a5b4b-106">若要報告事件，您必須先在訊息文字檔中定義事件。</span><span class="sxs-lookup"><span data-stu-id="a5b4b-106">To report events, you must first define the events in a message text file.</span></span> <span data-ttu-id="a5b4b-107">如需撰寫訊息文字檔的詳細資訊，請參閱 [訊息文字檔](message-text-files.md)。</span><span class="sxs-lookup"><span data-stu-id="a5b4b-107">For details on writing a message text file, see [Message Text Files](message-text-files.md).</span></span> <span data-ttu-id="a5b4b-108">下圖顯示此範例中使用的訊息文字檔。</span><span class="sxs-lookup"><span data-stu-id="a5b4b-108">The following shows the message text file used in this example.</span></span>
+<span data-ttu-id="0cbb0-106">若要報告事件，您必須先在訊息文字檔中定義事件。</span><span class="sxs-lookup"><span data-stu-id="0cbb0-106">To report events, you must first define the events in a message text file.</span></span> <span data-ttu-id="0cbb0-107">如需撰寫訊息文字檔的詳細資訊，請參閱 [訊息文字檔](message-text-files.md)。</span><span class="sxs-lookup"><span data-stu-id="0cbb0-107">For details on writing a message text file, see [Message Text Files](message-text-files.md).</span></span> <span data-ttu-id="0cbb0-108">下圖顯示此範例中使用的訊息文字檔。</span><span class="sxs-lookup"><span data-stu-id="0cbb0-108">The following shows the message text file used in this example.</span></span>
 
 
 ```C++
@@ -122,19 +122,19 @@ gallons%0
 
 
 
-<span data-ttu-id="a5b4b-109">若要編譯訊息文字檔，請使用下列命令：</span><span class="sxs-lookup"><span data-stu-id="a5b4b-109">To compile the message text file, use the following command:</span></span>
+<span data-ttu-id="0cbb0-109">若要編譯訊息文字檔，請使用下列命令：</span><span class="sxs-lookup"><span data-stu-id="0cbb0-109">To compile the message text file, use the following command:</span></span>
 
-<span data-ttu-id="a5b4b-110">**mc-U provider.mc**</span><span class="sxs-lookup"><span data-stu-id="a5b4b-110">**mc -U provider.mc**</span></span>
+<span data-ttu-id="0cbb0-110">**mc-U provider.mc**</span><span class="sxs-lookup"><span data-stu-id="0cbb0-110">**mc -U provider.mc**</span></span>
 
-<span data-ttu-id="a5b4b-111">若要編譯訊息編譯器產生的資源，請使用下列命令：</span><span class="sxs-lookup"><span data-stu-id="a5b4b-111">To compile the resources that the message compiler generated, use the following command:</span></span>
+<span data-ttu-id="0cbb0-111">若要編譯訊息編譯器產生的資源，請使用下列命令：</span><span class="sxs-lookup"><span data-stu-id="0cbb0-111">To compile the resources that the message compiler generated, use the following command:</span></span>
 
-<span data-ttu-id="a5b4b-112">**rc 提供者 .rc**</span><span class="sxs-lookup"><span data-stu-id="a5b4b-112">**rc provider.rc**</span></span>
+<span data-ttu-id="0cbb0-112">**rc 提供者 .rc**</span><span class="sxs-lookup"><span data-stu-id="0cbb0-112">**rc provider.rc**</span></span>
 
-<span data-ttu-id="a5b4b-113">若要建立包含訊息資料表字串資源的僅包含資源的 DLL，請使用下列命令 (您可以從 Visual Studio 命令提示字元執行命令) ：</span><span class="sxs-lookup"><span data-stu-id="a5b4b-113">To create the resource-only DLL that contains the message table string resources, use the following command (you can run the command from a Visual Studio Command Prompt):</span></span>
+<span data-ttu-id="0cbb0-113">若要建立包含訊息資料表字串資源的僅包含資源的 DLL，請使用下列命令 (您可以從 Visual Studio 命令提示字元執行命令) ：</span><span class="sxs-lookup"><span data-stu-id="0cbb0-113">To create the resource-only DLL that contains the message table string resources, use the following command (you can run the command from a Visual Studio Command Prompt):</span></span>
 
-<span data-ttu-id="a5b4b-114">**連結-dll-noentry 提供者 .res**</span><span class="sxs-lookup"><span data-stu-id="a5b4b-114">**link -dll -noentry provider.res**</span></span>
+<span data-ttu-id="0cbb0-114">**連結-dll-noentry 提供者 .res**</span><span class="sxs-lookup"><span data-stu-id="0cbb0-114">**link -dll -noentry provider.res**</span></span>
 
-<span data-ttu-id="a5b4b-115">以下顯示編譯器為上述訊息文字檔所產生的標頭檔。</span><span class="sxs-lookup"><span data-stu-id="a5b4b-115">The following shows the header file that the compiler generated for the above message text file.</span></span> <span data-ttu-id="a5b4b-116">將標頭檔包含在您的專案中。</span><span class="sxs-lookup"><span data-stu-id="a5b4b-116">Include the header file in your project.</span></span>
+<span data-ttu-id="0cbb0-115">以下顯示編譯器為上述訊息文字檔所產生的標頭檔。</span><span class="sxs-lookup"><span data-stu-id="0cbb0-115">The following shows the header file that the compiler generated for the above message text file.</span></span> <span data-ttu-id="0cbb0-116">將標頭檔包含在您的專案中。</span><span class="sxs-lookup"><span data-stu-id="0cbb0-116">Include the header file in your project.</span></span>
 
 
 ```C++
@@ -273,7 +273,7 @@ gallons%0
 
 
 
-<span data-ttu-id="a5b4b-117">下列範例顯示如何使用 [**ReportEvent**](/windows/desktop/api/Winbase/nf-winbase-reporteventa) 函式來寫入上述訊息文字檔中定義的事件。</span><span class="sxs-lookup"><span data-stu-id="a5b4b-117">The following example shows how to use the [**ReportEvent**](/windows/desktop/api/Winbase/nf-winbase-reporteventa) function to write the events defined in the above message text file.</span></span>
+<span data-ttu-id="0cbb0-117">下列範例顯示如何使用 [**ReportEvent**](/windows/desktop/api/Winbase/nf-winbase-reporteventa) 函式來寫入上述訊息文字檔中定義的事件。</span><span class="sxs-lookup"><span data-stu-id="0cbb0-117">The following example shows how to use the [**ReportEvent**](/windows/desktop/api/Winbase/nf-winbase-reporteventa) function to write the events defined in the above message text file.</span></span>
 
 
 ```C++
@@ -356,19 +356,19 @@ cleanup:
 
 
 
-<span data-ttu-id="a5b4b-118">執行此範例之前，請在登錄中註冊提供者。</span><span class="sxs-lookup"><span data-stu-id="a5b4b-118">Before running this example, register the provider in the registry.</span></span> <span data-ttu-id="a5b4b-119">如需登錄設定的詳細資訊，請參閱 [事件來源](event-sources.md)。</span><span class="sxs-lookup"><span data-stu-id="a5b4b-119">For details on the registry settings, see [Event Sources](event-sources.md).</span></span> <span data-ttu-id="a5b4b-120">在下列機碼底下新增 "MyEventProvider" 作為登錄機碼：</span><span class="sxs-lookup"><span data-stu-id="a5b4b-120">Add "MyEventProvider" as a registry key under the following key:</span></span>
+<span data-ttu-id="0cbb0-118">執行此範例之前，請在登錄中註冊提供者。</span><span class="sxs-lookup"><span data-stu-id="0cbb0-118">Before running this example, register the provider in the registry.</span></span> <span data-ttu-id="0cbb0-119">如需登錄設定的詳細資訊，請參閱 [事件來源](event-sources.md)。</span><span class="sxs-lookup"><span data-stu-id="0cbb0-119">For details on the registry settings, see [Event Sources](event-sources.md).</span></span> <span data-ttu-id="0cbb0-120">在下列機碼底下新增 "MyEventProvider" 作為登錄機碼：</span><span class="sxs-lookup"><span data-stu-id="0cbb0-120">Add "MyEventProvider" as a registry key under the following key:</span></span>
 
-<span data-ttu-id="a5b4b-121">**HKEY \_ 本機 \_ 電腦 \\ 系統 \\ CurrentControlSet \\ 服務 \\ eventlog \\ 應用程式**</span><span class="sxs-lookup"><span data-stu-id="a5b4b-121">**HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\services\\eventlog\\Application**</span></span>
+<span data-ttu-id="0cbb0-121">**HKEY \_ 本機 \_ 電腦 \\ 系統 \\ CurrentControlSet \\ 服務 \\ eventlog \\ 應用程式**</span><span class="sxs-lookup"><span data-stu-id="0cbb0-121">**HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\services\\eventlog\\Application**</span></span>
 
-<span data-ttu-id="a5b4b-122">以下顯示要為 "MyEventProvider" 登錄機碼設定的登錄值。</span><span class="sxs-lookup"><span data-stu-id="a5b4b-122">The following shows the registry values to set for the "MyEventProvider" registry key.</span></span>
+<span data-ttu-id="0cbb0-122">以下顯示要為 "MyEventProvider" 登錄機碼設定的登錄值。</span><span class="sxs-lookup"><span data-stu-id="0cbb0-122">The following shows the registry values to set for the "MyEventProvider" registry key.</span></span>
 
-| <span data-ttu-id="a5b4b-123">值名稱</span><span class="sxs-lookup"><span data-stu-id="a5b4b-123">Value name</span></span>           | <span data-ttu-id="a5b4b-124">類型</span><span class="sxs-lookup"><span data-stu-id="a5b4b-124">Type</span></span>       | <span data-ttu-id="a5b4b-125">[數值資料]</span><span class="sxs-lookup"><span data-stu-id="a5b4b-125">Value data</span></span>           |
+| <span data-ttu-id="0cbb0-123">值名稱</span><span class="sxs-lookup"><span data-stu-id="0cbb0-123">Value name</span></span>           | <span data-ttu-id="0cbb0-124">類型</span><span class="sxs-lookup"><span data-stu-id="0cbb0-124">Type</span></span>       | <span data-ttu-id="0cbb0-125">[數值資料]</span><span class="sxs-lookup"><span data-stu-id="0cbb0-125">Value data</span></span>           |
 |----------------------|------------|----------------------|
-| <span data-ttu-id="a5b4b-126">CategoryCount</span><span class="sxs-lookup"><span data-stu-id="a5b4b-126">CategoryCount</span></span>        | <span data-ttu-id="a5b4b-127">REG \_ DWORD</span><span class="sxs-lookup"><span data-stu-id="a5b4b-127">REG\_DWORD</span></span> | <span data-ttu-id="a5b4b-128">0x00000003</span><span class="sxs-lookup"><span data-stu-id="a5b4b-128">0x00000003</span></span>           |
-| <span data-ttu-id="a5b4b-129">CategoryMessageFile</span><span class="sxs-lookup"><span data-stu-id="a5b4b-129">CategoryMessageFile</span></span>  | <span data-ttu-id="a5b4b-130">REG \_ SZ</span><span class="sxs-lookup"><span data-stu-id="a5b4b-130">REG\_SZ</span></span>    | <span data-ttu-id="a5b4b-131">*路徑* \\provider.dll</span><span class="sxs-lookup"><span data-stu-id="a5b4b-131">*path*\\provider.dll</span></span> |
-| <span data-ttu-id="a5b4b-132">EventMessageFile</span><span class="sxs-lookup"><span data-stu-id="a5b4b-132">EventMessageFile</span></span>     | <span data-ttu-id="a5b4b-133">REG \_ SZ</span><span class="sxs-lookup"><span data-stu-id="a5b4b-133">REG\_SZ</span></span>    | <span data-ttu-id="a5b4b-134">*路徑* \\provider.dll</span><span class="sxs-lookup"><span data-stu-id="a5b4b-134">*path*\\provider.dll</span></span> |
-| <span data-ttu-id="a5b4b-135">ParameterMessageFile</span><span class="sxs-lookup"><span data-stu-id="a5b4b-135">ParameterMessageFile</span></span> | <span data-ttu-id="a5b4b-136">REG \_ SZ</span><span class="sxs-lookup"><span data-stu-id="a5b4b-136">REG\_SZ</span></span>    | <span data-ttu-id="a5b4b-137">*路徑* \\provider.dll</span><span class="sxs-lookup"><span data-stu-id="a5b4b-137">*path*\\provider.dll</span></span> |
-| <span data-ttu-id="a5b4b-138">TypesSupported</span><span class="sxs-lookup"><span data-stu-id="a5b4b-138">TypesSupported</span></span>       | <span data-ttu-id="a5b4b-139">REG \_ DWORD</span><span class="sxs-lookup"><span data-stu-id="a5b4b-139">REG\_DWORD</span></span> | <span data-ttu-id="a5b4b-140">0x00000007</span><span class="sxs-lookup"><span data-stu-id="a5b4b-140">0x00000007</span></span>           |
+| <span data-ttu-id="0cbb0-126">CategoryCount</span><span class="sxs-lookup"><span data-stu-id="0cbb0-126">CategoryCount</span></span>        | <span data-ttu-id="0cbb0-127">REG \_ DWORD</span><span class="sxs-lookup"><span data-stu-id="0cbb0-127">REG\_DWORD</span></span> | <span data-ttu-id="0cbb0-128">0x00000003</span><span class="sxs-lookup"><span data-stu-id="0cbb0-128">0x00000003</span></span>           |
+| <span data-ttu-id="0cbb0-129">CategoryMessageFile</span><span class="sxs-lookup"><span data-stu-id="0cbb0-129">CategoryMessageFile</span></span>  | <span data-ttu-id="0cbb0-130">REG \_ SZ</span><span class="sxs-lookup"><span data-stu-id="0cbb0-130">REG\_SZ</span></span>    | <span data-ttu-id="0cbb0-131">*路徑* \\provider.dll</span><span class="sxs-lookup"><span data-stu-id="0cbb0-131">*path*\\provider.dll</span></span> |
+| <span data-ttu-id="0cbb0-132">EventMessageFile</span><span class="sxs-lookup"><span data-stu-id="0cbb0-132">EventMessageFile</span></span>     | <span data-ttu-id="0cbb0-133">REG \_ SZ</span><span class="sxs-lookup"><span data-stu-id="0cbb0-133">REG\_SZ</span></span>    | <span data-ttu-id="0cbb0-134">*路徑* \\provider.dll</span><span class="sxs-lookup"><span data-stu-id="0cbb0-134">*path*\\provider.dll</span></span> |
+| <span data-ttu-id="0cbb0-135">ParameterMessageFile</span><span class="sxs-lookup"><span data-stu-id="0cbb0-135">ParameterMessageFile</span></span> | <span data-ttu-id="0cbb0-136">REG \_ SZ</span><span class="sxs-lookup"><span data-stu-id="0cbb0-136">REG\_SZ</span></span>    | <span data-ttu-id="0cbb0-137">*路徑* \\provider.dll</span><span class="sxs-lookup"><span data-stu-id="0cbb0-137">*path*\\provider.dll</span></span> |
+| <span data-ttu-id="0cbb0-138">TypesSupported</span><span class="sxs-lookup"><span data-stu-id="0cbb0-138">TypesSupported</span></span>       | <span data-ttu-id="0cbb0-139">REG \_ DWORD</span><span class="sxs-lookup"><span data-stu-id="0cbb0-139">REG\_DWORD</span></span> | <span data-ttu-id="0cbb0-140">0x00000007</span><span class="sxs-lookup"><span data-stu-id="0cbb0-140">0x00000007</span></span>           |
 
 
 

@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853576"
 ---
-# <a name="ip-address-macros"></a><span data-ttu-id="350a8-103">IP 位址宏</span><span class="sxs-lookup"><span data-stu-id="350a8-103">IP Address Macros</span></span>
+# <a name="ip-address-macros"></a><span data-ttu-id="aa7b6-103">IP 位址宏</span><span class="sxs-lookup"><span data-stu-id="aa7b6-103">IP Address Macros</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="350a8-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="350a8-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="aa7b6-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="aa7b6-104">In This Section</span></span>
 
--   [<span data-ttu-id="350a8-105">**第一個 \_ IPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="350a8-105">**FIRST\_IPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-first_ipaddress)
--   [<span data-ttu-id="350a8-106">**第四個 \_ IPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="350a8-106">**FOURTH\_IPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-fourth_ipaddress)
--   [<span data-ttu-id="350a8-107">**MAKEIPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="350a8-107">**MAKEIPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-makeipaddress)
--   [<span data-ttu-id="350a8-108">**MAKEIPRANGE**</span><span class="sxs-lookup"><span data-stu-id="350a8-108">**MAKEIPRANGE**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-makeiprange)
--   [<span data-ttu-id="350a8-109">**第二個 \_ IPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="350a8-109">**SECOND\_IPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-second_ipaddress)
--   [<span data-ttu-id="350a8-110">**第三個 \_ IPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="350a8-110">**THIRD\_IPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-third_ipaddress)
+-   [<span data-ttu-id="aa7b6-105">**第一個 \_ IPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="aa7b6-105">**FIRST\_IPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-first_ipaddress)
+-   [<span data-ttu-id="aa7b6-106">**第四個 \_ IPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="aa7b6-106">**FOURTH\_IPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-fourth_ipaddress)
+-   [<span data-ttu-id="aa7b6-107">**MAKEIPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="aa7b6-107">**MAKEIPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-makeipaddress)
+-   [<span data-ttu-id="aa7b6-108">**MAKEIPRANGE**</span><span class="sxs-lookup"><span data-stu-id="aa7b6-108">**MAKEIPRANGE**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-makeiprange)
+-   [<span data-ttu-id="aa7b6-109">**第二個 \_ IPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="aa7b6-109">**SECOND\_IPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-second_ipaddress)
+-   [<span data-ttu-id="aa7b6-110">**第三個 \_ IPADDRESS**</span><span class="sxs-lookup"><span data-stu-id="aa7b6-110">**THIRD\_IPADDRESS**</span></span>](/windows/desktop/api/Commctrl/nf-commctrl-third_ipaddress)
 
  
 

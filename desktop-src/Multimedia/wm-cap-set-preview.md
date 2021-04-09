@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "104106115"
 ---
-# <a name="wm_cap_set_preview-message"></a><span data-ttu-id="76774-104">WM \_ CAP \_ 設定 \_ 預覽訊息</span><span class="sxs-lookup"><span data-stu-id="76774-104">WM\_CAP\_SET\_PREVIEW message</span></span>
+# <a name="wm_cap_set_preview-message"></a><span data-ttu-id="2c792-104">WM \_ CAP \_ 設定 \_ 預覽訊息</span><span class="sxs-lookup"><span data-stu-id="2c792-104">WM\_CAP\_SET\_PREVIEW message</span></span>
 
-<span data-ttu-id="76774-105">**WM \_ CAP \_ 集 \_ 預覽** 訊息會啟用或停用預覽模式。</span><span class="sxs-lookup"><span data-stu-id="76774-105">The **WM\_CAP\_SET\_PREVIEW** message enables or disables preview mode.</span></span> <span data-ttu-id="76774-106">在 [預覽] 模式中，畫面格會從捕獲硬體傳輸到系統記憶體，然後使用 GDI 函數顯示在 [捕捉] 視窗中。</span><span class="sxs-lookup"><span data-stu-id="76774-106">In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions.</span></span> <span data-ttu-id="76774-107">您可以使用 [**capPreview**](/windows/desktop/api/Vfw/nf-vfw-cappreview) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="76774-107">You can send this message explicitly or by using the [**capPreview**](/windows/desktop/api/Vfw/nf-vfw-cappreview) macro.</span></span>
+<span data-ttu-id="2c792-105">**WM \_ CAP \_ 集 \_ 預覽** 訊息會啟用或停用預覽模式。</span><span class="sxs-lookup"><span data-stu-id="2c792-105">The **WM\_CAP\_SET\_PREVIEW** message enables or disables preview mode.</span></span> <span data-ttu-id="2c792-106">在 [預覽] 模式中，畫面格會從捕獲硬體傳輸到系統記憶體，然後使用 GDI 函數顯示在 [捕捉] 視窗中。</span><span class="sxs-lookup"><span data-stu-id="2c792-106">In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions.</span></span> <span data-ttu-id="2c792-107">您可以使用 [**capPreview**](/windows/desktop/api/Vfw/nf-vfw-cappreview) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="2c792-107">You can send this message explicitly or by using the [**capPreview**](/windows/desktop/api/Vfw/nf-vfw-cappreview) macro.</span></span>
 
 
 ```C++
@@ -34,47 +34,47 @@ lParam = 0L;
 
 
 
-## <a name="parameters"></a><span data-ttu-id="76774-108">參數</span><span class="sxs-lookup"><span data-stu-id="76774-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2c792-108">參數</span><span class="sxs-lookup"><span data-stu-id="2c792-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="76774-109"><span id="f"></span><span id="F"></span>*F*</span><span class="sxs-lookup"><span data-stu-id="76774-109"><span id="f"></span><span id="F"></span>*f*</span></span>
+<span data-ttu-id="2c792-109"><span id="f"></span><span id="F"></span>*F*</span><span class="sxs-lookup"><span data-stu-id="2c792-109"><span id="f"></span><span id="F"></span>*f*</span></span>
 </dt> <dd>
 
-<span data-ttu-id="76774-110">預覽旗標。</span><span class="sxs-lookup"><span data-stu-id="76774-110">Preview flag.</span></span> <span data-ttu-id="76774-111">針對此參數指定 **TRUE** 以啟用預覽模式，或指定 **FALSE** 來停用它。</span><span class="sxs-lookup"><span data-stu-id="76774-111">Specify **TRUE** for this parameter to enable preview mode or **FALSE** to disable it.</span></span>
+<span data-ttu-id="2c792-110">預覽旗標。</span><span class="sxs-lookup"><span data-stu-id="2c792-110">Preview flag.</span></span> <span data-ttu-id="2c792-111">針對此參數指定 **TRUE** 以啟用預覽模式，或指定 **FALSE** 來停用它。</span><span class="sxs-lookup"><span data-stu-id="2c792-111">Specify **TRUE** for this parameter to enable preview mode or **FALSE** to disable it.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="76774-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="76774-112">Return Value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2c792-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="2c792-112">Return Value</span></span>
 
-<span data-ttu-id="76774-113">如果成功則傳回 **TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="76774-113">Returns **TRUE** if successful or **FALSE** otherwise.</span></span>
+<span data-ttu-id="2c792-113">如果成功則傳回 **TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="2c792-113">Returns **TRUE** if successful or **FALSE** otherwise.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="76774-114">備註</span><span class="sxs-lookup"><span data-stu-id="76774-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2c792-114">備註</span><span class="sxs-lookup"><span data-stu-id="2c792-114">Remarks</span></span>
 
-<span data-ttu-id="76774-115">預覽模式會使用大量的 CPU 資源。</span><span class="sxs-lookup"><span data-stu-id="76774-115">The preview mode uses substantial CPU resources.</span></span> <span data-ttu-id="76774-116">當另一個應用程式具有焦點時，應用程式可以停用預覽或降低預覽率。</span><span class="sxs-lookup"><span data-stu-id="76774-116">Applications can disable preview or lower the preview rate when another application has the focus.</span></span> <span data-ttu-id="76774-117">[**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus)結構的 **fLiveWindow** 成員會指出目前是否已啟用預覽模式。</span><span class="sxs-lookup"><span data-stu-id="76774-117">The **fLiveWindow** member of the [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) structure indicates if preview mode is currently enabled.</span></span>
+<span data-ttu-id="2c792-115">預覽模式會使用大量的 CPU 資源。</span><span class="sxs-lookup"><span data-stu-id="2c792-115">The preview mode uses substantial CPU resources.</span></span> <span data-ttu-id="2c792-116">當另一個應用程式具有焦點時，應用程式可以停用預覽或降低預覽率。</span><span class="sxs-lookup"><span data-stu-id="2c792-116">Applications can disable preview or lower the preview rate when another application has the focus.</span></span> <span data-ttu-id="2c792-117">[**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus)結構的 **fLiveWindow** 成員會指出目前是否已啟用預覽模式。</span><span class="sxs-lookup"><span data-stu-id="2c792-117">The **fLiveWindow** member of the [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) structure indicates if preview mode is currently enabled.</span></span>
 
-<span data-ttu-id="76774-118">啟用預覽模式會自動停用覆迭模式。</span><span class="sxs-lookup"><span data-stu-id="76774-118">Enabling preview mode automatically disables overlay mode.</span></span>
+<span data-ttu-id="2c792-118">啟用預覽模式會自動停用覆迭模式。</span><span class="sxs-lookup"><span data-stu-id="2c792-118">Enabling preview mode automatically disables overlay mode.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="76774-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="76774-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2c792-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="2c792-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="76774-120">需求</span><span class="sxs-lookup"><span data-stu-id="76774-120">Requirement</span></span> | <span data-ttu-id="76774-121">值</span><span class="sxs-lookup"><span data-stu-id="76774-121">Value</span></span> |
+| <span data-ttu-id="2c792-120">需求</span><span class="sxs-lookup"><span data-stu-id="2c792-120">Requirement</span></span> | <span data-ttu-id="2c792-121">值</span><span class="sxs-lookup"><span data-stu-id="2c792-121">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="76774-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="76774-122">Minimum supported client</span></span><br/> | <span data-ttu-id="76774-123">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="76774-123">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                       |
-| <span data-ttu-id="76774-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="76774-124">Minimum supported server</span></span><br/> | <span data-ttu-id="76774-125">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="76774-125">Windows 2000 Server \[desktop apps only\]</span></span><br/>                             |
-| <span data-ttu-id="76774-126">標頭</span><span class="sxs-lookup"><span data-stu-id="76774-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="76774-127"><dt>Vfw。h</dt></span><span class="sxs-lookup"><span data-stu-id="76774-127"><dt>Vfw.h</dt></span></span> </dl> |
+| <span data-ttu-id="2c792-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2c792-122">Minimum supported client</span></span><br/> | <span data-ttu-id="2c792-123">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2c792-123">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                       |
+| <span data-ttu-id="2c792-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2c792-124">Minimum supported server</span></span><br/> | <span data-ttu-id="2c792-125">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2c792-125">Windows 2000 Server \[desktop apps only\]</span></span><br/>                             |
+| <span data-ttu-id="2c792-126">標頭</span><span class="sxs-lookup"><span data-stu-id="2c792-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="2c792-127"><dt>Vfw。h</dt></span><span class="sxs-lookup"><span data-stu-id="2c792-127"><dt>Vfw.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="76774-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="76774-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2c792-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2c792-128">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="76774-129">影片捕獲</span><span class="sxs-lookup"><span data-stu-id="76774-129">Video Capture</span></span>](video-capture.md)
+[<span data-ttu-id="2c792-129">影片捕獲</span><span class="sxs-lookup"><span data-stu-id="2c792-129">Video Capture</span></span>](video-capture.md)
 </dt> <dt>
 
-[<span data-ttu-id="76774-130">影片捕獲訊息</span><span class="sxs-lookup"><span data-stu-id="76774-130">Video Capture Messages</span></span>](video-capture-messages.md)
+[<span data-ttu-id="2c792-130">影片捕獲訊息</span><span class="sxs-lookup"><span data-stu-id="2c792-130">Video Capture Messages</span></span>](video-capture-messages.md)
 </dt> </dl>
 
  

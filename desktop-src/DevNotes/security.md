@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847174"
 ---
-# <a name="security-developer-notes"></a><span data-ttu-id="352c8-103">安全性 (開發人員注意事項) </span><span class="sxs-lookup"><span data-stu-id="352c8-103">Security (Developer Notes)</span></span>
+# <a name="security-developer-notes"></a><span data-ttu-id="a146d-103">安全性 (開發人員注意事項) </span><span class="sxs-lookup"><span data-stu-id="a146d-103">Security (Developer Notes)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="352c8-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="352c8-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a146d-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="a146d-104">In this section</span></span>
 
--   [<span data-ttu-id="352c8-105">**IIsolatedAppLauncher**</span><span class="sxs-lookup"><span data-stu-id="352c8-105">**IIsolatedAppLauncher**</span></span>](/windows/desktop/api/isolatedapplauncher/nn-isolatedapplauncher-iisolatedapplauncher)
--   [<span data-ttu-id="352c8-106">**FveEnableRawAccessW**</span><span class="sxs-lookup"><span data-stu-id="352c8-106">**FveEnableRawAccessW**</span></span>](fveenablerawaccessw.md)
--   [<span data-ttu-id="352c8-107">IPassportManager3 附加元件</span><span class="sxs-lookup"><span data-stu-id="352c8-107">IPassportManager3 Add-ons</span></span>](ipassportmanager3-add-ons.md)
--   [<span data-ttu-id="352c8-108">Ntsecpkg</span><span class="sxs-lookup"><span data-stu-id="352c8-108">Ntsecpkg</span></span>](ntsecpkg.md)
--   [<span data-ttu-id="352c8-109">更安全的 API</span><span class="sxs-lookup"><span data-stu-id="352c8-109">Safer API</span></span>](safer-api.md)
--   [<span data-ttu-id="352c8-110">Windows 資訊安全中心</span><span class="sxs-lookup"><span data-stu-id="352c8-110">Windows Security Center</span></span>](windows-security-center.md)
+-   [<span data-ttu-id="a146d-105">**IIsolatedAppLauncher**</span><span class="sxs-lookup"><span data-stu-id="a146d-105">**IIsolatedAppLauncher**</span></span>](/windows/desktop/api/isolatedapplauncher/nn-isolatedapplauncher-iisolatedapplauncher)
+-   [<span data-ttu-id="a146d-106">**FveEnableRawAccessW**</span><span class="sxs-lookup"><span data-stu-id="a146d-106">**FveEnableRawAccessW**</span></span>](fveenablerawaccessw.md)
+-   [<span data-ttu-id="a146d-107">IPassportManager3 附加元件</span><span class="sxs-lookup"><span data-stu-id="a146d-107">IPassportManager3 Add-ons</span></span>](ipassportmanager3-add-ons.md)
+-   [<span data-ttu-id="a146d-108">Ntsecpkg</span><span class="sxs-lookup"><span data-stu-id="a146d-108">Ntsecpkg</span></span>](ntsecpkg.md)
+-   [<span data-ttu-id="a146d-109">更安全的 API</span><span class="sxs-lookup"><span data-stu-id="a146d-109">Safer API</span></span>](safer-api.md)
+-   [<span data-ttu-id="a146d-110">Windows 資訊安全中心</span><span class="sxs-lookup"><span data-stu-id="a146d-110">Windows Security Center</span></span>](windows-security-center.md)
 
  
 

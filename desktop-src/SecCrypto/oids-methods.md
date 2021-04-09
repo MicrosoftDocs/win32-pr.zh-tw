@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848399"
 ---
-# <a name="oids-methods"></a><span data-ttu-id="55a69-103">Oid 方法</span><span class="sxs-lookup"><span data-stu-id="55a69-103">OIDs Methods</span></span>
+# <a name="oids-methods"></a><span data-ttu-id="4e36a-103">Oid 方法</span><span class="sxs-lookup"><span data-stu-id="4e36a-103">OIDs Methods</span></span>
 
-<span data-ttu-id="55a69-104">[**Oid**](oids.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="55a69-104">The [**OIDs**](oids.md) object exposes the following methods.</span></span>
+<span data-ttu-id="4e36a-104">[**Oid**](oids.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="4e36a-104">The [**OIDs**](oids.md) object exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="55a69-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="55a69-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4e36a-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="4e36a-105">In this section</span></span>
 
--   [<span data-ttu-id="55a69-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="55a69-106">**Add Method**</span></span>](oids-add.md)
--   [<span data-ttu-id="55a69-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="55a69-107">**Clear Method**</span></span>](oids-clear.md)
--   [<span data-ttu-id="55a69-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="55a69-108">**Remove Method**</span></span>](oids-remove.md)
+-   [<span data-ttu-id="4e36a-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="4e36a-106">**Add Method**</span></span>](oids-add.md)
+-   [<span data-ttu-id="4e36a-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="4e36a-107">**Clear Method**</span></span>](oids-clear.md)
+-   [<span data-ttu-id="4e36a-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="4e36a-108">**Remove Method**</span></span>](oids-remove.md)
 
  
 

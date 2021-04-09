@@ -27,14 +27,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847649"
 ---
-# <a name="apiretrievecolumnasint64-method-jet_sesid-jet_tableid-jet_columnid"></a><span data-ttu-id="ffe8b-103">RetrieveColumnAsInt64 方法 (JET_SESID、JET_TABLEID、JET_COLUMNID) </span><span class="sxs-lookup"><span data-stu-id="ffe8b-103">Api.RetrieveColumnAsInt64 method (JET_SESID, JET_TABLEID, JET_COLUMNID)</span></span>
+# <a name="apiretrievecolumnasint64-method-jet_sesid-jet_tableid-jet_columnid"></a><span data-ttu-id="7ccdf-103">RetrieveColumnAsInt64 方法 (JET_SESID、JET_TABLEID、JET_COLUMNID) </span><span class="sxs-lookup"><span data-stu-id="7ccdf-103">Api.RetrieveColumnAsInt64 method (JET_SESID, JET_TABLEID, JET_COLUMNID)</span></span>
 
-<span data-ttu-id="ffe8b-104">從目前的記錄抓取單一資料行值。</span><span class="sxs-lookup"><span data-stu-id="ffe8b-104">Retrieves a single column value from the current record.</span></span> <span data-ttu-id="ffe8b-105">記錄是與索引項目相關聯的記錄，位於資料指標的目前位置。</span><span class="sxs-lookup"><span data-stu-id="ffe8b-105">The record is that record associated with the index entry at the current position of the cursor.</span></span>
+<span data-ttu-id="7ccdf-104">從目前的記錄抓取單一資料行值。</span><span class="sxs-lookup"><span data-stu-id="7ccdf-104">Retrieves a single column value from the current record.</span></span> <span data-ttu-id="7ccdf-105">記錄是與索引項目相關聯的記錄，位於資料指標的目前位置。</span><span class="sxs-lookup"><span data-stu-id="7ccdf-105">The record is that record associated with the index entry at the current position of the cursor.</span></span>
 
-<span data-ttu-id="ffe8b-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="ffe8b-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="ffe8b-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="ffe8b-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="7ccdf-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="7ccdf-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="7ccdf-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="7ccdf-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ffe8b-108">語法</span><span class="sxs-lookup"><span data-stu-id="ffe8b-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7ccdf-108">語法</span><span class="sxs-lookup"><span data-stu-id="7ccdf-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -61,40 +61,40 @@ public static Nullable<long> RetrieveColumnAsInt64(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="ffe8b-109">參數</span><span class="sxs-lookup"><span data-stu-id="ffe8b-109">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="7ccdf-109">參數</span><span class="sxs-lookup"><span data-stu-id="7ccdf-109">Parameters</span></span>
 
-  - <span data-ttu-id="ffe8b-110">sesid</span><span class="sxs-lookup"><span data-stu-id="ffe8b-110">sesid</span></span>  
-    <span data-ttu-id="ffe8b-111">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="ffe8b-111">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="7ccdf-110">sesid</span><span class="sxs-lookup"><span data-stu-id="7ccdf-110">sesid</span></span>  
+    <span data-ttu-id="7ccdf-111">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="7ccdf-111">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="ffe8b-112">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="ffe8b-112">The session to use.</span></span>
+    <span data-ttu-id="7ccdf-112">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="7ccdf-112">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="ffe8b-113">tableid</span><span class="sxs-lookup"><span data-stu-id="ffe8b-113">tableid</span></span>  
-    <span data-ttu-id="ffe8b-114">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="ffe8b-114">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="7ccdf-113">tableid</span><span class="sxs-lookup"><span data-stu-id="7ccdf-113">tableid</span></span>  
+    <span data-ttu-id="7ccdf-114">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="7ccdf-114">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="ffe8b-115">從中取出資料行的資料指標。</span><span class="sxs-lookup"><span data-stu-id="ffe8b-115">The cursor to retrieve the column from.</span></span>
+    <span data-ttu-id="7ccdf-115">從中取出資料行的資料指標。</span><span class="sxs-lookup"><span data-stu-id="7ccdf-115">The cursor to retrieve the column from.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="ffe8b-116">columnid</span><span class="sxs-lookup"><span data-stu-id="ffe8b-116">columnid</span></span>  
-    <span data-ttu-id="ffe8b-117">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="ffe8b-117">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
+  - <span data-ttu-id="7ccdf-116">columnid</span><span class="sxs-lookup"><span data-stu-id="7ccdf-116">columnid</span></span>  
+    <span data-ttu-id="7ccdf-117">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="7ccdf-117">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
     
-    <span data-ttu-id="ffe8b-118">要取出的 columnid。</span><span class="sxs-lookup"><span data-stu-id="ffe8b-118">The columnid to retrieve.</span></span>
+    <span data-ttu-id="7ccdf-118">要取出的 columnid。</span><span class="sxs-lookup"><span data-stu-id="7ccdf-118">The columnid to retrieve.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="ffe8b-119">傳回值</span><span class="sxs-lookup"><span data-stu-id="ffe8b-119">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="7ccdf-119">傳回值</span><span class="sxs-lookup"><span data-stu-id="7ccdf-119">Return value</span></span>
 
-<span data-ttu-id="ffe8b-120">類型： [可為 null](/dotnet/api/system.nullable-1)\<[Int64](/dotnet/api/system.int64)\></span><span class="sxs-lookup"><span data-stu-id="ffe8b-120">Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[Int64](/dotnet/api/system.int64)\></span></span>  
-<span data-ttu-id="ffe8b-121">從資料行取出的資料很長。</span><span class="sxs-lookup"><span data-stu-id="ffe8b-121">The data retrieved from the column as a long.</span></span> <span data-ttu-id="ffe8b-122">如果資料行是 null，則為 null。</span><span class="sxs-lookup"><span data-stu-id="ffe8b-122">Null if the column is null.</span></span>  
+<span data-ttu-id="7ccdf-120">類型： [可為 null](/dotnet/api/system.nullable-1)\<[Int64](/dotnet/api/system.int64)\></span><span class="sxs-lookup"><span data-stu-id="7ccdf-120">Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[Int64](/dotnet/api/system.int64)\></span></span>  
+<span data-ttu-id="7ccdf-121">從資料行取出的資料很長。</span><span class="sxs-lookup"><span data-stu-id="7ccdf-121">The data retrieved from the column as a long.</span></span> <span data-ttu-id="7ccdf-122">如果資料行是 null，則為 null。</span><span class="sxs-lookup"><span data-stu-id="7ccdf-122">Null if the column is null.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="ffe8b-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ffe8b-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7ccdf-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7ccdf-123">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="ffe8b-124">參考</span><span class="sxs-lookup"><span data-stu-id="ffe8b-124">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="7ccdf-124">參考</span><span class="sxs-lookup"><span data-stu-id="7ccdf-124">Reference</span></span>
 
-[<span data-ttu-id="ffe8b-125">Api 類別</span><span class="sxs-lookup"><span data-stu-id="ffe8b-125">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="7ccdf-125">Api 類別</span><span class="sxs-lookup"><span data-stu-id="7ccdf-125">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="ffe8b-126">Api 成員</span><span class="sxs-lookup"><span data-stu-id="ffe8b-126">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="7ccdf-126">Api 成員</span><span class="sxs-lookup"><span data-stu-id="7ccdf-126">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="ffe8b-127">RetrieveColumnAsInt64 多載</span><span class="sxs-lookup"><span data-stu-id="ffe8b-127">RetrieveColumnAsInt64 overload</span></span>](./api.retrievecolumnasint64-method.md)
+[<span data-ttu-id="7ccdf-127">RetrieveColumnAsInt64 多載</span><span class="sxs-lookup"><span data-stu-id="7ccdf-127">RetrieveColumnAsInt64 overload</span></span>](./api.retrievecolumnasint64-method.md)
 
-[<span data-ttu-id="ffe8b-128">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ffe8b-128">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="7ccdf-128">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="7ccdf-128">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

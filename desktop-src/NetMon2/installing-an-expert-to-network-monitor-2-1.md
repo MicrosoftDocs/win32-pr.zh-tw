@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103853123"
 ---
-# <a name="installing-an-expert-to-network-monitor-21"></a><span data-ttu-id="573b7-104">安裝專家來網路監視器2。1</span><span class="sxs-lookup"><span data-stu-id="573b7-104">Installing an Expert to Network Monitor 2.1</span></span>
+# <a name="installing-an-expert-to-network-monitor-21"></a><span data-ttu-id="edf9b-104">安裝專家來網路監視器2。1</span><span class="sxs-lookup"><span data-stu-id="edf9b-104">Installing an Expert to Network Monitor 2.1</span></span>
 
-<span data-ttu-id="573b7-105">若要安裝專家 DLL，請將它複製到網路監視器 \\ 專家子目錄 (例如，C： \\ Program Files \\ NetMon2 \\ 專家) 。</span><span class="sxs-lookup"><span data-stu-id="573b7-105">To install an expert DLL, copy it to the Network Monitor\\Experts subdirectory (for example, C:\\Program Files\\NetMon2\\Experts).</span></span> <span data-ttu-id="573b7-106">安裝之後，將會在下一次網路監視器開始時，辨識專家並可供使用。</span><span class="sxs-lookup"><span data-stu-id="573b7-106">After installation, the expert will be recognized and available the next time Network Monitor starts.</span></span>
+<span data-ttu-id="edf9b-105">若要安裝專家 DLL，請將它複製到網路監視器 \\ 專家子目錄 (例如，C： \\ Program Files \\ NetMon2 \\ 專家) 。</span><span class="sxs-lookup"><span data-stu-id="edf9b-105">To install an expert DLL, copy it to the Network Monitor\\Experts subdirectory (for example, C:\\Program Files\\NetMon2\\Experts).</span></span> <span data-ttu-id="edf9b-106">安裝之後，將會在下一次網路監視器開始時，辨識專家並可供使用。</span><span class="sxs-lookup"><span data-stu-id="edf9b-106">After installation, the expert will be recognized and available the next time Network Monitor starts.</span></span>
 
-<span data-ttu-id="573b7-107">下圖顯示從範例程式碼建立並複製到專家子目錄的 MyExpert DLL （MyExpert） \\ 。</span><span class="sxs-lookup"><span data-stu-id="573b7-107">The following illustration shows MyExpert DLL, MyExpert built from the sample code and copied to the \\Experts subdirectory.</span></span>
+<span data-ttu-id="edf9b-107">下圖顯示從範例程式碼建立並複製到專家子目錄的 MyExpert DLL （MyExpert） \\ 。</span><span class="sxs-lookup"><span data-stu-id="edf9b-107">The following illustration shows MyExpert DLL, MyExpert built from the sample code and copied to the \\Experts subdirectory.</span></span>
 
 ![myexpert dll](images/expick1.png)
 

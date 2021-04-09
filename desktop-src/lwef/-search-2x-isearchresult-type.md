@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853855"
 ---
-# <a name="isearchresulttype-method"></a><span data-ttu-id="70ab8-107">ISearchResult：： Type 方法</span><span class="sxs-lookup"><span data-stu-id="70ab8-107">ISearchResult::Type method</span></span>
+# <a name="isearchresulttype-method"></a><span data-ttu-id="e6196-107">ISearchResult：： Type 方法</span><span class="sxs-lookup"><span data-stu-id="e6196-107">ISearchResult::Type method</span></span>
 
-<span data-ttu-id="70ab8-108">這個方法尚未實作。</span><span class="sxs-lookup"><span data-stu-id="70ab8-108">This method is not implemented.</span></span>
+<span data-ttu-id="e6196-108">這個方法尚未實作。</span><span class="sxs-lookup"><span data-stu-id="e6196-108">This method is not implemented.</span></span>
 
  
 

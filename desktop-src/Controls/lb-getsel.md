@@ -21,51 +21,51 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843796"
 ---
-# <a name="lb_getsel-message"></a><span data-ttu-id="0dfcf-104">LB \_ GETSEL 訊息</span><span class="sxs-lookup"><span data-stu-id="0dfcf-104">LB\_GETSEL message</span></span>
+# <a name="lb_getsel-message"></a><span data-ttu-id="137ad-104">LB \_ GETSEL 訊息</span><span class="sxs-lookup"><span data-stu-id="137ad-104">LB\_GETSEL message</span></span>
 
-<span data-ttu-id="0dfcf-105">取得專案的選取狀態。</span><span class="sxs-lookup"><span data-stu-id="0dfcf-105">Gets the selection state of an item.</span></span>
+<span data-ttu-id="137ad-105">取得專案的選取狀態。</span><span class="sxs-lookup"><span data-stu-id="137ad-105">Gets the selection state of an item.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="0dfcf-106">參數</span><span class="sxs-lookup"><span data-stu-id="0dfcf-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="137ad-106">參數</span><span class="sxs-lookup"><span data-stu-id="137ad-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="0dfcf-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="0dfcf-107">*wParam*</span></span> 
+<span data-ttu-id="137ad-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="137ad-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="0dfcf-108">項目之以零起始的索引。</span><span class="sxs-lookup"><span data-stu-id="0dfcf-108">The zero-based index of the item.</span></span>
+<span data-ttu-id="137ad-108">項目之以零起始的索引。</span><span class="sxs-lookup"><span data-stu-id="137ad-108">The zero-based index of the item.</span></span>
 
-<span data-ttu-id="0dfcf-109">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *wParam* 參數限制為16位值。</span><span class="sxs-lookup"><span data-stu-id="0dfcf-109">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values.</span></span> <span data-ttu-id="0dfcf-110">這表示清單方塊不能包含超過32767個專案。</span><span class="sxs-lookup"><span data-stu-id="0dfcf-110">This means list boxes cannot contain more than 32,767 items.</span></span> <span data-ttu-id="0dfcf-111">雖然限制專案數目，但清單方塊中專案的總大小（以位元組為單位）只受限於可用的記憶體。</span><span class="sxs-lookup"><span data-stu-id="0dfcf-111">Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.</span></span>
+<span data-ttu-id="137ad-109">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *wParam* 參數限制為16位值。</span><span class="sxs-lookup"><span data-stu-id="137ad-109">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values.</span></span> <span data-ttu-id="137ad-110">這表示清單方塊不能包含超過32767個專案。</span><span class="sxs-lookup"><span data-stu-id="137ad-110">This means list boxes cannot contain more than 32,767 items.</span></span> <span data-ttu-id="137ad-111">雖然限制專案數目，但清單方塊中專案的總大小（以位元組為單位）只受限於可用的記憶體。</span><span class="sxs-lookup"><span data-stu-id="137ad-111">Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0dfcf-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="0dfcf-112">*lParam*</span></span> 
+<span data-ttu-id="137ad-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="137ad-112">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="0dfcf-113">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="0dfcf-113">This parameter is not used.</span></span>
+<span data-ttu-id="137ad-113">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="137ad-113">This parameter is not used.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="0dfcf-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="0dfcf-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="137ad-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="137ad-114">Return value</span></span>
 
-<span data-ttu-id="0dfcf-115">如果選取專案，則傳回值大於零;否則，它是零。</span><span class="sxs-lookup"><span data-stu-id="0dfcf-115">If an item is selected, the return value is greater than zero; otherwise, it is zero.</span></span> <span data-ttu-id="0dfcf-116">如果發生錯誤，傳回值為 LB \_ ERR。</span><span class="sxs-lookup"><span data-stu-id="0dfcf-116">If an error occurs, the return value is LB\_ERR.</span></span>
+<span data-ttu-id="137ad-115">如果選取專案，則傳回值大於零;否則，它是零。</span><span class="sxs-lookup"><span data-stu-id="137ad-115">If an item is selected, the return value is greater than zero; otherwise, it is zero.</span></span> <span data-ttu-id="137ad-116">如果發生錯誤，傳回值為 LB \_ ERR。</span><span class="sxs-lookup"><span data-stu-id="137ad-116">If an error occurs, the return value is LB\_ERR.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="0dfcf-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="0dfcf-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="137ad-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="137ad-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="0dfcf-118">需求</span><span class="sxs-lookup"><span data-stu-id="0dfcf-118">Requirement</span></span> | <span data-ttu-id="0dfcf-119">值</span><span class="sxs-lookup"><span data-stu-id="0dfcf-119">Value</span></span> |
+| <span data-ttu-id="137ad-118">需求</span><span class="sxs-lookup"><span data-stu-id="137ad-118">Requirement</span></span> | <span data-ttu-id="137ad-119">值</span><span class="sxs-lookup"><span data-stu-id="137ad-119">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="0dfcf-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="0dfcf-120">Minimum supported client</span></span><br/> | <span data-ttu-id="0dfcf-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0dfcf-121">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="0dfcf-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="0dfcf-122">Minimum supported server</span></span><br/> | <span data-ttu-id="0dfcf-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0dfcf-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="0dfcf-124">標頭</span><span class="sxs-lookup"><span data-stu-id="0dfcf-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="0dfcf-125"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="0dfcf-125"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="137ad-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="137ad-120">Minimum supported client</span></span><br/> | <span data-ttu-id="137ad-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="137ad-121">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="137ad-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="137ad-122">Minimum supported server</span></span><br/> | <span data-ttu-id="137ad-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="137ad-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="137ad-124">標頭</span><span class="sxs-lookup"><span data-stu-id="137ad-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="137ad-125"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="137ad-125"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="0dfcf-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0dfcf-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="137ad-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="137ad-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="0dfcf-127">**LB \_ SETSEL**</span><span class="sxs-lookup"><span data-stu-id="0dfcf-127">**LB\_SETSEL**</span></span>](lb-setsel.md)
+[<span data-ttu-id="137ad-127">**LB \_ SETSEL**</span><span class="sxs-lookup"><span data-stu-id="137ad-127">**LB\_SETSEL**</span></span>](lb-setsel.md)
 </dt> </dl>
 
  
