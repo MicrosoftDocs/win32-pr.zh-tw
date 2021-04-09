@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689723"
 ---
-# <a name="getccinstptr-function"></a><span data-ttu-id="92c9b-103">GetCCInstPtr 函式</span><span class="sxs-lookup"><span data-stu-id="92c9b-103">GetCCInstPtr function</span></span>
+# <a name="getccinstptr-function"></a><span data-ttu-id="facf2-103">GetCCInstPtr 函式</span><span class="sxs-lookup"><span data-stu-id="facf2-103">GetCCInstPtr function</span></span>
 
-<span data-ttu-id="92c9b-104">**GetCCInstPtr** 函式會將指標傳回至已加入至抓取內容的實例資料。</span><span class="sxs-lookup"><span data-stu-id="92c9b-104">The **GetCCInstPtr** function returns the pointer to the instance data added to the capture context.</span></span>
+<span data-ttu-id="facf2-104">**GetCCInstPtr** 函式會將指標傳回至已加入至抓取內容的實例資料。</span><span class="sxs-lookup"><span data-stu-id="facf2-104">The **GetCCInstPtr** function returns the pointer to the instance data added to the capture context.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="92c9b-105">語法</span><span class="sxs-lookup"><span data-stu-id="92c9b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="facf2-105">語法</span><span class="sxs-lookup"><span data-stu-id="facf2-105">Syntax</span></span>
 
 
 ```C++
@@ -33,47 +33,47 @@ LPVOID WINAPI GetCCInstPtr(void);
 
 
 
-## <a name="parameters"></a><span data-ttu-id="92c9b-106">參數</span><span class="sxs-lookup"><span data-stu-id="92c9b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="facf2-106">參數</span><span class="sxs-lookup"><span data-stu-id="facf2-106">Parameters</span></span>
 
-<span data-ttu-id="92c9b-107">此函式沒有參數。</span><span class="sxs-lookup"><span data-stu-id="92c9b-107">This function has no parameters.</span></span>
+<span data-ttu-id="facf2-107">此函式沒有參數。</span><span class="sxs-lookup"><span data-stu-id="facf2-107">This function has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="92c9b-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="92c9b-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="facf2-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="facf2-108">Return value</span></span>
 
-<span data-ttu-id="92c9b-109">如果函式成功，則傳回值是特定捕獲之實例資料的指標。</span><span class="sxs-lookup"><span data-stu-id="92c9b-109">If the function is successful, the return value is a pointer to the instance data of a specific capture.</span></span>
+<span data-ttu-id="facf2-109">如果函式成功，則傳回值是特定捕獲之實例資料的指標。</span><span class="sxs-lookup"><span data-stu-id="facf2-109">If the function is successful, the return value is a pointer to the instance data of a specific capture.</span></span>
 
-<span data-ttu-id="92c9b-110">如果函式不成功，則傳回值為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="92c9b-110">If the function is unsuccessful, the return value is **NULL**.</span></span>
+<span data-ttu-id="facf2-110">如果函式不成功，則傳回值為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="facf2-110">If the function is unsuccessful, the return value is **NULL**.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="92c9b-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="92c9b-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="facf2-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="facf2-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="92c9b-112">需求</span><span class="sxs-lookup"><span data-stu-id="92c9b-112">Requirement</span></span> | <span data-ttu-id="92c9b-113">值</span><span class="sxs-lookup"><span data-stu-id="92c9b-113">Value</span></span> |
+| <span data-ttu-id="facf2-112">需求</span><span class="sxs-lookup"><span data-stu-id="facf2-112">Requirement</span></span> | <span data-ttu-id="facf2-113">值</span><span class="sxs-lookup"><span data-stu-id="facf2-113">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="92c9b-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="92c9b-114">Minimum supported client</span></span><br/> | <span data-ttu-id="92c9b-115">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="92c9b-115">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                           |
-| <span data-ttu-id="92c9b-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="92c9b-116">Minimum supported server</span></span><br/> | <span data-ttu-id="92c9b-117">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="92c9b-117">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                 |
-| <span data-ttu-id="92c9b-118">標頭</span><span class="sxs-lookup"><span data-stu-id="92c9b-118">Header</span></span><br/>                   | <dl> <span data-ttu-id="92c9b-119"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="92c9b-119"><dt>Netmon.h</dt></span></span> </dl>  |
-| <span data-ttu-id="92c9b-120">程式庫</span><span class="sxs-lookup"><span data-stu-id="92c9b-120">Library</span></span><br/>                  | <dl> <span data-ttu-id="92c9b-121"><dt>Nmapi .lib</dt></span><span class="sxs-lookup"><span data-stu-id="92c9b-121"><dt>Nmapi.lib</dt></span></span> </dl> |
-| <span data-ttu-id="92c9b-122">DLL</span><span class="sxs-lookup"><span data-stu-id="92c9b-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="92c9b-123"><dt>Nmapi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="92c9b-123"><dt>Nmapi.dll</dt></span></span> </dl> |
+| <span data-ttu-id="facf2-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="facf2-114">Minimum supported client</span></span><br/> | <span data-ttu-id="facf2-115">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="facf2-115">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                           |
+| <span data-ttu-id="facf2-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="facf2-116">Minimum supported server</span></span><br/> | <span data-ttu-id="facf2-117">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="facf2-117">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="facf2-118">標頭</span><span class="sxs-lookup"><span data-stu-id="facf2-118">Header</span></span><br/>                   | <dl> <span data-ttu-id="facf2-119"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="facf2-119"><dt>Netmon.h</dt></span></span> </dl>  |
+| <span data-ttu-id="facf2-120">程式庫</span><span class="sxs-lookup"><span data-stu-id="facf2-120">Library</span></span><br/>                  | <dl> <span data-ttu-id="facf2-121"><dt>Nmapi .lib</dt></span><span class="sxs-lookup"><span data-stu-id="facf2-121"><dt>Nmapi.lib</dt></span></span> </dl> |
+| <span data-ttu-id="facf2-122">DLL</span><span class="sxs-lookup"><span data-stu-id="facf2-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="facf2-123"><dt>Nmapi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="facf2-123"><dt>Nmapi.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="92c9b-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="92c9b-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="facf2-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="facf2-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="92c9b-125">SetCCInstPtr</span><span class="sxs-lookup"><span data-stu-id="92c9b-125">SetCCInstPtr</span></span>](setccinstptr.md)
+[<span data-ttu-id="facf2-125">SetCCInstPtr</span><span class="sxs-lookup"><span data-stu-id="facf2-125">SetCCInstPtr</span></span>](setccinstptr.md)
 </dt> <dt>
 
-[<span data-ttu-id="92c9b-126">CCHeapAlloc</span><span class="sxs-lookup"><span data-stu-id="92c9b-126">CCHeapAlloc</span></span>](ccheapalloc.md)
+[<span data-ttu-id="facf2-126">CCHeapAlloc</span><span class="sxs-lookup"><span data-stu-id="facf2-126">CCHeapAlloc</span></span>](ccheapalloc.md)
 </dt> <dt>
 
-[<span data-ttu-id="92c9b-127">CCHeapFree</span><span class="sxs-lookup"><span data-stu-id="92c9b-127">CCHeapFree</span></span>](ccheapfree.md)
+[<span data-ttu-id="facf2-127">CCHeapFree</span><span class="sxs-lookup"><span data-stu-id="facf2-127">CCHeapFree</span></span>](ccheapfree.md)
 </dt> <dt>
 
-[<span data-ttu-id="92c9b-128">CCHeapReAlloc</span><span class="sxs-lookup"><span data-stu-id="92c9b-128">CCHeapReAlloc</span></span>](ccheaprealloc.md)
+[<span data-ttu-id="facf2-128">CCHeapReAlloc</span><span class="sxs-lookup"><span data-stu-id="facf2-128">CCHeapReAlloc</span></span>](ccheaprealloc.md)
 </dt> <dt>
 
-[<span data-ttu-id="92c9b-129">CCHeapSize</span><span class="sxs-lookup"><span data-stu-id="92c9b-129">CCHeapSize</span></span>](ccheapsize.md)
+[<span data-ttu-id="facf2-129">CCHeapSize</span><span class="sxs-lookup"><span data-stu-id="facf2-129">CCHeapSize</span></span>](ccheapsize.md)
 </dt> </dl>
 
  

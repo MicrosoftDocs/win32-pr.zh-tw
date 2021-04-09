@@ -13,13 +13,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103933873"
 ---
-# <a name="samples-structured-storage"></a><span data-ttu-id="62199-104"> (結構化儲存體) 的範例</span><span class="sxs-lookup"><span data-stu-id="62199-104">Samples (Structured Storage)</span></span>
+# <a name="samples-structured-storage"></a><span data-ttu-id="9c192-104"> (結構化儲存體) 的範例</span><span class="sxs-lookup"><span data-stu-id="9c192-104">Samples (Structured Storage)</span></span>
 
-<span data-ttu-id="62199-105">結構化儲存體檔中包含數個範例應用程式。</span><span class="sxs-lookup"><span data-stu-id="62199-105">Several sample applications are included with the Structured Storage documentation.</span></span> <span data-ttu-id="62199-106">範例包括：</span><span class="sxs-lookup"><span data-stu-id="62199-106">The samples include:</span></span>
+<span data-ttu-id="9c192-105">結構化儲存體檔中包含數個範例應用程式。</span><span class="sxs-lookup"><span data-stu-id="9c192-105">Several sample applications are included with the Structured Storage documentation.</span></span> <span data-ttu-id="9c192-106">範例包括：</span><span class="sxs-lookup"><span data-stu-id="9c192-106">The samples include:</span></span>
 
--   [<span data-ttu-id="62199-107">WriteRead 範例</span><span class="sxs-lookup"><span data-stu-id="62199-107">WriteRead Sample</span></span>](writeread-sample.md)
--   [<span data-ttu-id="62199-108">EnumAll 範例</span><span class="sxs-lookup"><span data-stu-id="62199-108">EnumAll Sample</span></span>](enumall-sample.md)
--   [<span data-ttu-id="62199-109">StgCreatePropSetStg 範例</span><span class="sxs-lookup"><span data-stu-id="62199-109">StgCreatePropSetStg Sample</span></span>](stgcreatepropsetstg-sample.md)
+-   [<span data-ttu-id="9c192-107">WriteRead 範例</span><span class="sxs-lookup"><span data-stu-id="9c192-107">WriteRead Sample</span></span>](writeread-sample.md)
+-   [<span data-ttu-id="9c192-108">EnumAll 範例</span><span class="sxs-lookup"><span data-stu-id="9c192-108">EnumAll Sample</span></span>](enumall-sample.md)
+-   [<span data-ttu-id="9c192-109">StgCreatePropSetStg 範例</span><span class="sxs-lookup"><span data-stu-id="9c192-109">StgCreatePropSetStg Sample</span></span>](stgcreatepropsetstg-sample.md)
 
  
 

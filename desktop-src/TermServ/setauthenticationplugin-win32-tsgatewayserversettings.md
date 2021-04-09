@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686428"
 ---
-# <a name="setauthenticationplugin-method-of-the-win32_tsgatewayserversettings-class"></a><span data-ttu-id="bd9f2-106">Win32 TSGatewayServerSettings 類別的 SetAuthenticationPlugin 方法 \_</span><span class="sxs-lookup"><span data-stu-id="bd9f2-106">SetAuthenticationPlugin method of the Win32\_TSGatewayServerSettings class</span></span>
+# <a name="setauthenticationplugin-method-of-the-win32_tsgatewayserversettings-class"></a><span data-ttu-id="ea5b3-106">Win32 TSGatewayServerSettings 類別的 SetAuthenticationPlugin 方法 \_</span><span class="sxs-lookup"><span data-stu-id="ea5b3-106">SetAuthenticationPlugin method of the Win32\_TSGatewayServerSettings class</span></span>
 
-<span data-ttu-id="bd9f2-107">設定遠端桌面閘道 (RD 閘道) server 的目前驗證外掛程式。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-107">Sets the current authentication plug-in for the Remote Desktop Gateway (RD Gateway) server.</span></span>
+<span data-ttu-id="ea5b3-107">設定遠端桌面閘道 (RD 閘道) server 的目前驗證外掛程式。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-107">Sets the current authentication plug-in for the Remote Desktop Gateway (RD Gateway) server.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bd9f2-108">語法</span><span class="sxs-lookup"><span data-stu-id="bd9f2-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ea5b3-108">語法</span><span class="sxs-lookup"><span data-stu-id="ea5b3-108">Syntax</span></span>
 
 
 ```mof
@@ -39,55 +39,55 @@ uint32 SetAuthenticationPlugin(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="bd9f2-109">參數</span><span class="sxs-lookup"><span data-stu-id="bd9f2-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ea5b3-109">參數</span><span class="sxs-lookup"><span data-stu-id="ea5b3-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="bd9f2-110">*PluginName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="bd9f2-110">*PluginName* \[in\]</span></span>
+<span data-ttu-id="ea5b3-110">*PluginName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="ea5b3-110">*PluginName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="bd9f2-111">類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bd9f2-111">Type: **string**</span></span>
+<span data-ttu-id="ea5b3-111">類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="ea5b3-111">Type: **string**</span></span>
 
-<span data-ttu-id="bd9f2-112">新目前驗證外掛程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-112">The name of the new current authentication plug-in.</span></span>
+<span data-ttu-id="ea5b3-112">新目前驗證外掛程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-112">The name of the new current authentication plug-in.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="bd9f2-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="bd9f2-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ea5b3-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="ea5b3-113">Return value</span></span>
 
-<span data-ttu-id="bd9f2-114">類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="bd9f2-114">Type: **uint32**</span></span>
+<span data-ttu-id="ea5b3-114">類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="ea5b3-114">Type: **uint32**</span></span>
 
-<span data-ttu-id="bd9f2-115">如果方法成功，則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-115">If the method succeeds, it returns zero.</span></span> <span data-ttu-id="bd9f2-116">如果方法失敗，則會傳回非零值。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-116">If the method is unsuccessful, it returns a nonzero value.</span></span> <span data-ttu-id="bd9f2-117">如需錯誤碼清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md)。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-117">For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).</span></span>
+<span data-ttu-id="ea5b3-115">如果方法成功，則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-115">If the method succeeds, it returns zero.</span></span> <span data-ttu-id="ea5b3-116">如果方法失敗，則會傳回非零值。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-116">If the method is unsuccessful, it returns a nonzero value.</span></span> <span data-ttu-id="ea5b3-117">如需錯誤碼清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md)。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-117">For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="bd9f2-118">備註</span><span class="sxs-lookup"><span data-stu-id="bd9f2-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ea5b3-118">備註</span><span class="sxs-lookup"><span data-stu-id="ea5b3-118">Remarks</span></span>
 
-<span data-ttu-id="bd9f2-119">您必須呼叫 [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md) 方法，才能讓驗證外掛程式運作。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-119">You must call the [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md) method to allow the authentication plug-in to work.</span></span>
+<span data-ttu-id="ea5b3-119">您必須呼叫 [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md) 方法，才能讓驗證外掛程式運作。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-119">You must call the [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md) method to allow the authentication plug-in to work.</span></span>
 
-<span data-ttu-id="bd9f2-120">您必須是 Administrators 群組的成員，才能呼叫這個方法。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-120">You must be a member of the Administrators group to call this method.</span></span>
+<span data-ttu-id="ea5b3-120">您必須是 Administrators 群組的成員，才能呼叫這個方法。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-120">You must be a member of the Administrators group to call this method.</span></span>
 
-<span data-ttu-id="bd9f2-121">受控物件格式 (MOF) 檔包含 Windows Management Instrumentation (WMI) 類別的定義。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-121">Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes.</span></span> <span data-ttu-id="bd9f2-122">MOF 檔案不會安裝為 Microsoft Windows 軟體開發套件 (SDK) 的一部分。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-122">MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK).</span></span> <span data-ttu-id="bd9f2-123">當您使用伺服器管理員新增相關聯的角色時，它們會安裝在伺服器上。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-123">They are installed on the server when you add the associated role by using the Server Manager.</span></span> <span data-ttu-id="bd9f2-124">如需 MOF 檔案的詳細資訊，請參閱 [受控物件格式 (mof) ](/windows/desktop/WmiSdk/managed-object-format--mof-)。</span><span class="sxs-lookup"><span data-stu-id="bd9f2-124">For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).</span></span>
+<span data-ttu-id="ea5b3-121">受控物件格式 (MOF) 檔包含 Windows Management Instrumentation (WMI) 類別的定義。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-121">Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes.</span></span> <span data-ttu-id="ea5b3-122">MOF 檔案不會安裝為 Microsoft Windows 軟體開發套件 (SDK) 的一部分。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-122">MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK).</span></span> <span data-ttu-id="ea5b3-123">當您使用伺服器管理員新增相關聯的角色時，它們會安裝在伺服器上。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-123">They are installed on the server when you add the associated role by using the Server Manager.</span></span> <span data-ttu-id="ea5b3-124">如需 MOF 檔案的詳細資訊，請參閱 [受控物件格式 (mof) ](/windows/desktop/WmiSdk/managed-object-format--mof-)。</span><span class="sxs-lookup"><span data-stu-id="ea5b3-124">For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="bd9f2-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="bd9f2-125">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ea5b3-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="ea5b3-125">Requirements</span></span>
 
 
 
-| <span data-ttu-id="bd9f2-126">需求</span><span class="sxs-lookup"><span data-stu-id="bd9f2-126">Requirement</span></span> | <span data-ttu-id="bd9f2-127">值</span><span class="sxs-lookup"><span data-stu-id="bd9f2-127">Value</span></span> |
+| <span data-ttu-id="ea5b3-126">需求</span><span class="sxs-lookup"><span data-stu-id="ea5b3-126">Requirement</span></span> | <span data-ttu-id="ea5b3-127">值</span><span class="sxs-lookup"><span data-stu-id="ea5b3-127">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| <span data-ttu-id="bd9f2-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="bd9f2-128">Minimum supported client</span></span><br/> | <span data-ttu-id="bd9f2-129">都不支援</span><span class="sxs-lookup"><span data-stu-id="bd9f2-129">None supported</span></span><br/>                                                                |
-| <span data-ttu-id="bd9f2-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="bd9f2-130">Minimum supported server</span></span><br/> | <span data-ttu-id="bd9f2-131">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="bd9f2-131">Windows Server 2008 R2</span></span><br/>                                                        |
-| <span data-ttu-id="bd9f2-132">命名空間</span><span class="sxs-lookup"><span data-stu-id="bd9f2-132">Namespace</span></span><br/>                | <span data-ttu-id="bd9f2-133">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="bd9f2-133">Root\\CIMv2\\TerminalServices</span></span><br/>                                                 |
-| <span data-ttu-id="bd9f2-134">MOF</span><span class="sxs-lookup"><span data-stu-id="bd9f2-134">MOF</span></span><br/>                      | <dl> <span data-ttu-id="bd9f2-135"><dt>TSGateway mof</dt></span><span class="sxs-lookup"><span data-stu-id="bd9f2-135"><dt>TSGateway.mof</dt></span></span> </dl> |
-| <span data-ttu-id="bd9f2-136">DLL</span><span class="sxs-lookup"><span data-stu-id="bd9f2-136">DLL</span></span><br/>                      | <dl> <span data-ttu-id="bd9f2-137"><dt>AagWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="bd9f2-137"><dt>AagWmi.dll</dt></span></span> </dl>    |
+| <span data-ttu-id="ea5b3-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ea5b3-128">Minimum supported client</span></span><br/> | <span data-ttu-id="ea5b3-129">都不支援</span><span class="sxs-lookup"><span data-stu-id="ea5b3-129">None supported</span></span><br/>                                                                |
+| <span data-ttu-id="ea5b3-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ea5b3-130">Minimum supported server</span></span><br/> | <span data-ttu-id="ea5b3-131">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="ea5b3-131">Windows Server 2008 R2</span></span><br/>                                                        |
+| <span data-ttu-id="ea5b3-132">命名空間</span><span class="sxs-lookup"><span data-stu-id="ea5b3-132">Namespace</span></span><br/>                | <span data-ttu-id="ea5b3-133">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="ea5b3-133">Root\\CIMv2\\TerminalServices</span></span><br/>                                                 |
+| <span data-ttu-id="ea5b3-134">MOF</span><span class="sxs-lookup"><span data-stu-id="ea5b3-134">MOF</span></span><br/>                      | <dl> <span data-ttu-id="ea5b3-135"><dt>TSGateway mof</dt></span><span class="sxs-lookup"><span data-stu-id="ea5b3-135"><dt>TSGateway.mof</dt></span></span> </dl> |
+| <span data-ttu-id="ea5b3-136">DLL</span><span class="sxs-lookup"><span data-stu-id="ea5b3-136">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ea5b3-137"><dt>AagWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ea5b3-137"><dt>AagWmi.dll</dt></span></span> </dl>    |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="bd9f2-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bd9f2-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ea5b3-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ea5b3-138">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="bd9f2-139">**Win32 \_ TSGatewayServerSettings**</span><span class="sxs-lookup"><span data-stu-id="bd9f2-139">**Win32\_TSGatewayServerSettings**</span></span>](win32-tsgatewayserversettings.md)
+[<span data-ttu-id="ea5b3-139">**Win32 \_ TSGatewayServerSettings**</span><span class="sxs-lookup"><span data-stu-id="ea5b3-139">**Win32\_TSGatewayServerSettings**</span></span>](win32-tsgatewayserversettings.md)
 </dt> <dt>
 
-[<span data-ttu-id="bd9f2-140">**RecycleRpcApplicationPools**</span><span class="sxs-lookup"><span data-stu-id="bd9f2-140">**RecycleRpcApplicationPools**</span></span>](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)
+[<span data-ttu-id="ea5b3-140">**RecycleRpcApplicationPools**</span><span class="sxs-lookup"><span data-stu-id="ea5b3-140">**RecycleRpcApplicationPools**</span></span>](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)
 </dt> </dl>
 
  

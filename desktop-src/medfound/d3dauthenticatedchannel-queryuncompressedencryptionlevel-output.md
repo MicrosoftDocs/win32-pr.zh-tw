@@ -20,13 +20,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104111808"
 ---
-# <a name="d3dauthenticatedchannel_queryuncompressedencryptionlevel_output-structure"></a><span data-ttu-id="806c1-103">D3DAUTHENTICATEDCHANNEL \_ QUERYUNCOMPRESSEDENCRYPTIONLEVEL \_ 輸出結構</span><span class="sxs-lookup"><span data-stu-id="806c1-103">D3DAUTHENTICATEDCHANNEL\_QUERYUNCOMPRESSEDENCRYPTIONLEVEL\_OUTPUT structure</span></span>
+# <a name="d3dauthenticatedchannel_queryuncompressedencryptionlevel_output-structure"></a><span data-ttu-id="cb3ff-103">D3DAUTHENTICATEDCHANNEL \_ QUERYUNCOMPRESSEDENCRYPTIONLEVEL \_ 輸出結構</span><span class="sxs-lookup"><span data-stu-id="cb3ff-103">D3DAUTHENTICATEDCHANNEL\_QUERYUNCOMPRESSEDENCRYPTIONLEVEL\_OUTPUT structure</span></span>
 
-<span data-ttu-id="806c1-104">包含對 [**D3DAUTHENTICATEDQUERY \_ CURRENTENCRYPTIONWHENACCESSIBLE**](d3dauthenticatedquery-currentencryptionwhenaccessible.md) 查詢的回應。</span><span class="sxs-lookup"><span data-stu-id="806c1-104">Contains the response to a [**D3DAUTHENTICATEDQUERY\_CURRENTENCRYPTIONWHENACCESSIBLE**](d3dauthenticatedquery-currentencryptionwhenaccessible.md) query.</span></span>
+<span data-ttu-id="cb3ff-104">包含對 [**D3DAUTHENTICATEDQUERY \_ CURRENTENCRYPTIONWHENACCESSIBLE**](d3dauthenticatedquery-currentencryptionwhenaccessible.md) 查詢的回應。</span><span class="sxs-lookup"><span data-stu-id="cb3ff-104">Contains the response to a [**D3DAUTHENTICATEDQUERY\_CURRENTENCRYPTIONWHENACCESSIBLE**](d3dauthenticatedquery-currentencryptionwhenaccessible.md) query.</span></span>
 
-<span data-ttu-id="806c1-105">若要傳送此查詢，請呼叫 [**IDirect3DAuthenticatedChannel9：： query**](/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query)。</span><span class="sxs-lookup"><span data-stu-id="806c1-105">To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query).</span></span>
+<span data-ttu-id="cb3ff-105">若要傳送此查詢，請呼叫 [**IDirect3DAuthenticatedChannel9：： query**](/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query)。</span><span class="sxs-lookup"><span data-stu-id="cb3ff-105">To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="806c1-106">語法</span><span class="sxs-lookup"><span data-stu-id="806c1-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cb3ff-106">語法</span><span class="sxs-lookup"><span data-stu-id="cb3ff-106">Syntax</span></span>
 
 
 ```C++
@@ -38,44 +38,44 @@ typedef struct _D3DAUTHENTICATEDCHANNEL_QUERYUNCOMPRESSEDENCRYPTIONLEVEL_OUTPUT 
 
 
 
-## <a name="members"></a><span data-ttu-id="806c1-107">成員</span><span class="sxs-lookup"><span data-stu-id="806c1-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="cb3ff-107">成員</span><span class="sxs-lookup"><span data-stu-id="cb3ff-107">Members</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="806c1-108">**輸出**</span><span class="sxs-lookup"><span data-stu-id="806c1-108">**Output**</span></span>
+<span data-ttu-id="cb3ff-108">**輸出**</span><span class="sxs-lookup"><span data-stu-id="cb3ff-108">**Output**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="806c1-109">包含訊息驗證碼 (MAC) 和其他資料的 [**D3DAUTHENTICATEDCHANNEL \_ 查詢 \_ 輸出**](d3dauthenticatedchannel-query-output.md) 結構。</span><span class="sxs-lookup"><span data-stu-id="806c1-109">A [**D3DAUTHENTICATEDCHANNEL\_QUERY\_OUTPUT**](d3dauthenticatedchannel-query-output.md) structure that contains a Message Authentication Code (MAC) and other data.</span></span>
+<span data-ttu-id="cb3ff-109">包含訊息驗證碼 (MAC) 和其他資料的 [**D3DAUTHENTICATEDCHANNEL \_ 查詢 \_ 輸出**](d3dauthenticatedchannel-query-output.md) 結構。</span><span class="sxs-lookup"><span data-stu-id="cb3ff-109">A [**D3DAUTHENTICATEDCHANNEL\_QUERY\_OUTPUT**](d3dauthenticatedchannel-query-output.md) structure that contains a Message Authentication Code (MAC) and other data.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="806c1-110">**EncryptionGuid**</span><span class="sxs-lookup"><span data-stu-id="806c1-110">**EncryptionGuid**</span></span>
+<span data-ttu-id="cb3ff-110">**EncryptionGuid**</span><span class="sxs-lookup"><span data-stu-id="cb3ff-110">**EncryptionGuid**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="806c1-111">指定目前加密類型的 GUID。</span><span class="sxs-lookup"><span data-stu-id="806c1-111">A GUID that specifies the current encryption type.</span></span>
+<span data-ttu-id="cb3ff-111">指定目前加密類型的 GUID。</span><span class="sxs-lookup"><span data-stu-id="cb3ff-111">A GUID that specifies the current encryption type.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="806c1-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="806c1-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="cb3ff-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="cb3ff-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="806c1-113">需求</span><span class="sxs-lookup"><span data-stu-id="806c1-113">Requirement</span></span> | <span data-ttu-id="806c1-114">值</span><span class="sxs-lookup"><span data-stu-id="806c1-114">Value</span></span> |
+| <span data-ttu-id="cb3ff-113">需求</span><span class="sxs-lookup"><span data-stu-id="cb3ff-113">Requirement</span></span> | <span data-ttu-id="cb3ff-114">值</span><span class="sxs-lookup"><span data-stu-id="cb3ff-114">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="806c1-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="806c1-115">Minimum supported client</span></span><br/> | <span data-ttu-id="806c1-116">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="806c1-116">Windows 7 \[desktop apps only\]</span></span><br/>                                             |
-| <span data-ttu-id="806c1-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="806c1-117">Minimum supported server</span></span><br/> | <span data-ttu-id="806c1-118">僅限 Windows Server 2008 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="806c1-118">Windows Server 2008 R2 \[desktop apps only\]</span></span><br/>                                |
-| <span data-ttu-id="806c1-119">標頭</span><span class="sxs-lookup"><span data-stu-id="806c1-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="806c1-120"><dt>D3d9types。h</dt></span><span class="sxs-lookup"><span data-stu-id="806c1-120"><dt>D3d9types.h</dt></span></span> </dl> |
+| <span data-ttu-id="cb3ff-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="cb3ff-115">Minimum supported client</span></span><br/> | <span data-ttu-id="cb3ff-116">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="cb3ff-116">Windows 7 \[desktop apps only\]</span></span><br/>                                             |
+| <span data-ttu-id="cb3ff-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="cb3ff-117">Minimum supported server</span></span><br/> | <span data-ttu-id="cb3ff-118">僅限 Windows Server 2008 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="cb3ff-118">Windows Server 2008 R2 \[desktop apps only\]</span></span><br/>                                |
+| <span data-ttu-id="cb3ff-119">標頭</span><span class="sxs-lookup"><span data-stu-id="cb3ff-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="cb3ff-120"><dt>D3d9types。h</dt></span><span class="sxs-lookup"><span data-stu-id="cb3ff-120"><dt>D3d9types.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="806c1-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="806c1-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb3ff-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cb3ff-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="806c1-122">Direct3D 影片結構</span><span class="sxs-lookup"><span data-stu-id="806c1-122">Direct3D Video Structures</span></span>](direct3d-video-structures.md)
+[<span data-ttu-id="cb3ff-122">Direct3D 影片結構</span><span class="sxs-lookup"><span data-stu-id="cb3ff-122">Direct3D Video Structures</span></span>](direct3d-video-structures.md)
 </dt> <dt>
 
-[<span data-ttu-id="806c1-123">**IDirect3DAuthenticatedChannel9：： Query**</span><span class="sxs-lookup"><span data-stu-id="806c1-123">**IDirect3DAuthenticatedChannel9::Query**</span></span>](/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query)
+[<span data-ttu-id="cb3ff-123">**IDirect3DAuthenticatedChannel9：： Query**</span><span class="sxs-lookup"><span data-stu-id="cb3ff-123">**IDirect3DAuthenticatedChannel9::Query**</span></span>](/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query)
 </dt> </dl>
 
  

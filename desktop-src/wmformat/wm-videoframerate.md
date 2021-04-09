@@ -19,23 +19,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103932725"
 ---
-# <a name="wmvideoframerate"></a><span data-ttu-id="f0788-104">WM/VideoFrameRate</span><span class="sxs-lookup"><span data-stu-id="f0788-104">WM/VideoFrameRate</span></span>
+# <a name="wmvideoframerate"></a><span data-ttu-id="b89ef-104">WM/VideoFrameRate</span><span class="sxs-lookup"><span data-stu-id="b89ef-104">WM/VideoFrameRate</span></span>
 
-<span data-ttu-id="f0788-105">**WM/VideoFrameRate** 屬性包含串流中影片的速率（以每秒的畫面格數為單位）。</span><span class="sxs-lookup"><span data-stu-id="f0788-105">The **WM/VideoFrameRate** attribute contains the rate, in frames per second, of the video in a stream.</span></span>
+<span data-ttu-id="b89ef-105">**WM/VideoFrameRate** 屬性包含串流中影片的速率（以每秒的畫面格數為單位）。</span><span class="sxs-lookup"><span data-stu-id="b89ef-105">The **WM/VideoFrameRate** attribute contains the rate, in frames per second, of the video in a stream.</span></span>
 
-## <a name="global-constant"></a><span data-ttu-id="f0788-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="f0788-106">Global Constant</span></span>
+## <a name="global-constant"></a><span data-ttu-id="b89ef-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="b89ef-106">Global Constant</span></span>
 
-<span data-ttu-id="f0788-107">g \_ wszWMVideoFrameRate</span><span class="sxs-lookup"><span data-stu-id="f0788-107">g\_wszWMVideoFrameRate</span></span>
+<span data-ttu-id="b89ef-107">g \_ wszWMVideoFrameRate</span><span class="sxs-lookup"><span data-stu-id="b89ef-107">g\_wszWMVideoFrameRate</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="f0788-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="f0788-108">Data Type</span></span>
+## <a name="data-type"></a><span data-ttu-id="b89ef-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="b89ef-108">Data Type</span></span>
 
-<span data-ttu-id="f0788-109">**WMT \_ 類型 \_ DWORD**</span><span class="sxs-lookup"><span data-stu-id="f0788-109">**WMT\_TYPE\_DWORD**</span></span>
+<span data-ttu-id="b89ef-109">**WMT \_ 類型 \_ DWORD**</span><span class="sxs-lookup"><span data-stu-id="b89ef-109">**WMT\_TYPE\_DWORD**</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f0788-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f0788-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b89ef-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b89ef-110">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f0788-111">**屬性清單**</span><span class="sxs-lookup"><span data-stu-id="f0788-111">**Attribute List**</span></span>](attribute-list.md)
+[<span data-ttu-id="b89ef-111">**屬性清單**</span><span class="sxs-lookup"><span data-stu-id="b89ef-111">**Attribute List**</span></span>](attribute-list.md)
 </dt> </dl>
 
  

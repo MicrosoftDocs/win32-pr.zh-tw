@@ -13,11 +13,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "104024147"
 ---
-# <a name="defaulticon"></a><span data-ttu-id="de6e1-104">DefaultIcon</span><span class="sxs-lookup"><span data-stu-id="de6e1-104">DefaultIcon</span></span>
+# <a name="defaulticon"></a><span data-ttu-id="b54dd-104">DefaultIcon</span><span class="sxs-lookup"><span data-stu-id="b54dd-104">DefaultIcon</span></span>
 
-<span data-ttu-id="de6e1-105">提供 iconic 物件簡報的預設圖示資訊。</span><span class="sxs-lookup"><span data-stu-id="de6e1-105">Provides default icon information for iconic presentations of objects.</span></span>
+<span data-ttu-id="b54dd-105">提供 iconic 物件簡報的預設圖示資訊。</span><span class="sxs-lookup"><span data-stu-id="b54dd-105">Provides default icon information for iconic presentations of objects.</span></span>
 
-## <a name="registry-entry"></a><span data-ttu-id="de6e1-106">登錄項目</span><span class="sxs-lookup"><span data-stu-id="de6e1-106">Registry Entry</span></span>
+## <a name="registry-entry"></a><span data-ttu-id="b54dd-106">登錄項目</span><span class="sxs-lookup"><span data-stu-id="b54dd-106">Registry Entry</span></span>
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
@@ -25,11 +25,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
       DefaultIcon = path, resourceID
 ```
 
-## <a name="remarks"></a><span data-ttu-id="de6e1-107">備註</span><span class="sxs-lookup"><span data-stu-id="de6e1-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b54dd-107">備註</span><span class="sxs-lookup"><span data-stu-id="b54dd-107">Remarks</span></span>
 
-<span data-ttu-id="de6e1-108">這是 **REG \_ SZ** 值，可指定物件應用程式之可執行檔名稱的完整路徑，以及可執行檔中圖示的資源索引。</span><span class="sxs-lookup"><span data-stu-id="de6e1-108">This is a **REG\_SZ** value that specifies the full path to the executable name of the object application and the resource index of the icon within the executable.</span></span>
+<span data-ttu-id="b54dd-108">這是 **REG \_ SZ** 值，可指定物件應用程式之可執行檔名稱的完整路徑，以及可執行檔中圖示的資源索引。</span><span class="sxs-lookup"><span data-stu-id="b54dd-108">This is a **REG\_SZ** value that specifies the full path to the executable name of the object application and the resource index of the icon within the executable.</span></span>
 
-<span data-ttu-id="de6e1-109">例如，當控制項最小化至圖示時， **DefaultIcon** 會識別要使用的圖示。</span><span class="sxs-lookup"><span data-stu-id="de6e1-109">**DefaultIcon** identifies the icon to use when, for example, a control is minimized to an icon.</span></span> <span data-ttu-id="de6e1-110">此專案包含伺服器應用程式之可執行檔名稱的完整路徑，以及可執行檔中圖示的資源索引。</span><span class="sxs-lookup"><span data-stu-id="de6e1-110">This entry contains the full path to the executable name of the server application and the resource index of the icon within the executable.</span></span> <span data-ttu-id="de6e1-111">應用程式可以使用 **DefaultIcon** 所提供的資訊，透過 [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticona)取得圖示控制碼。</span><span class="sxs-lookup"><span data-stu-id="de6e1-111">Applications can use the information provided by **DefaultIcon** to obtain an icon handle with [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticona).</span></span>
+<span data-ttu-id="b54dd-109">例如，當控制項最小化至圖示時， **DefaultIcon** 會識別要使用的圖示。</span><span class="sxs-lookup"><span data-stu-id="b54dd-109">**DefaultIcon** identifies the icon to use when, for example, a control is minimized to an icon.</span></span> <span data-ttu-id="b54dd-110">此專案包含伺服器應用程式之可執行檔名稱的完整路徑，以及可執行檔中圖示的資源索引。</span><span class="sxs-lookup"><span data-stu-id="b54dd-110">This entry contains the full path to the executable name of the server application and the resource index of the icon within the executable.</span></span> <span data-ttu-id="b54dd-111">應用程式可以使用 **DefaultIcon** 所提供的資訊，透過 [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticona)取得圖示控制碼。</span><span class="sxs-lookup"><span data-stu-id="b54dd-111">Applications can use the information provided by **DefaultIcon** to obtain an icon handle with [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticona).</span></span>
 
  
 

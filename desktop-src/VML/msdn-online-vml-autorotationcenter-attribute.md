@@ -11,36 +11,36 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682612"
 ---
-# <a name="vml-autorotationcenter-attribute"></a><span data-ttu-id="82433-103">VML AutoRotationCenter 屬性</span><span class="sxs-lookup"><span data-stu-id="82433-103">VML AutoRotationCenter Attribute</span></span>
+# <a name="vml-autorotationcenter-attribute"></a><span data-ttu-id="8d157-103">VML AutoRotationCenter 屬性</span><span class="sxs-lookup"><span data-stu-id="8d157-103">VML AutoRotationCenter Attribute</span></span>
 
-<span data-ttu-id="82433-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="82433-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="82433-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="82433-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+<span data-ttu-id="8d157-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="8d157-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="8d157-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="8d157-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="82433-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="82433-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="82433-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="82433-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="82433-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="82433-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="82433-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="82433-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+> <span data-ttu-id="8d157-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="8d157-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="8d157-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="8d157-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="8d157-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="8d157-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="8d157-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="8d157-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
 
  
 
-<span data-ttu-id="82433-110">決定旋轉的中心是否為視角的幾何中心。</span><span class="sxs-lookup"><span data-stu-id="82433-110">Determines whether the center of rotation will be the geometric center of the extrusion.</span></span> <span data-ttu-id="82433-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="82433-111">Read/write.</span></span> <span data-ttu-id="82433-112">**VgTriState**。</span><span class="sxs-lookup"><span data-stu-id="82433-112">**VgTriState**.</span></span>
+<span data-ttu-id="8d157-110">決定旋轉的中心是否為視角的幾何中心。</span><span class="sxs-lookup"><span data-stu-id="8d157-110">Determines whether the center of rotation will be the geometric center of the extrusion.</span></span> <span data-ttu-id="8d157-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="8d157-111">Read/write.</span></span> <span data-ttu-id="8d157-112">**VgTriState**。</span><span class="sxs-lookup"><span data-stu-id="8d157-112">**VgTriState**.</span></span>
 
-<span data-ttu-id="82433-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="82433-113">**Applies To**</span></span>
+<span data-ttu-id="8d157-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="8d157-113">**Applies To**</span></span>
 
-[<span data-ttu-id="82433-114">擠壓</span><span class="sxs-lookup"><span data-stu-id="82433-114">Extrusion</span></span>](msdn-online-vml-extrusion-element.md)
+[<span data-ttu-id="8d157-114">擠壓</span><span class="sxs-lookup"><span data-stu-id="8d157-114">Extrusion</span></span>](msdn-online-vml-extrusion-element.md)
 
-<span data-ttu-id="82433-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="82433-115">**Tag Syntax**</span></span>
+<span data-ttu-id="8d157-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="8d157-115">**Tag Syntax**</span></span>
 
-<span data-ttu-id="82433-116"><o： *element* autorotationcenter = " *expression* " ></span><span class="sxs-lookup"><span data-stu-id="82433-116"><o: *element* autorotationcenter=" *expression* "></span></span>
+<span data-ttu-id="8d157-116"><o： *element* autorotationcenter = " *expression* " ></span><span class="sxs-lookup"><span data-stu-id="8d157-116"><o: *element* autorotationcenter=" *expression* "></span></span>
 
-<span data-ttu-id="82433-117">**指令碼語法**</span><span class="sxs-lookup"><span data-stu-id="82433-117">**Script Syntax**</span></span>
+<span data-ttu-id="8d157-117">**指令碼語法**</span><span class="sxs-lookup"><span data-stu-id="8d157-117">**Script Syntax**</span></span>
 
-<span data-ttu-id="82433-118"> autorotationcenter = "*expression*"</span><span class="sxs-lookup"><span data-stu-id="82433-118">*element* .autorotationcenter="*expression*"</span></span>
+<span data-ttu-id="8d157-118"> autorotationcenter = "*expression*"</span><span class="sxs-lookup"><span data-stu-id="8d157-118">*element* .autorotationcenter="*expression*"</span></span>
 
-<span data-ttu-id="82433-119">*運算式* =\*\* autorotationcenter</span><span class="sxs-lookup"><span data-stu-id="82433-119">*expression*=*element*.autorotationcenter</span></span>
+<span data-ttu-id="8d157-119">*運算式* =\*\* autorotationcenter</span><span class="sxs-lookup"><span data-stu-id="8d157-119">*expression*=*element*.autorotationcenter</span></span>
 
-<span data-ttu-id="82433-120">**備註**</span><span class="sxs-lookup"><span data-stu-id="82433-120">**Remarks**</span></span>
+<span data-ttu-id="8d157-120">**備註**</span><span class="sxs-lookup"><span data-stu-id="8d157-120">**Remarks**</span></span>
 
-<span data-ttu-id="82433-121">拉伸圖形的幾何中心為0、0、0。</span><span class="sxs-lookup"><span data-stu-id="82433-121">The geometric center of an extruded shape is 0,0,0.</span></span> <span data-ttu-id="82433-122">如果這個屬性的值為 **False**，則旋轉的中心是由 [RotationCenter](msdn-online-vml-rotationcenter-attribute.md) 屬性所決定。</span><span class="sxs-lookup"><span data-stu-id="82433-122">If the value of this attribute is **False**, the center of rotation is determined by the [RotationCenter](msdn-online-vml-rotationcenter-attribute.md) attribute.</span></span> <span data-ttu-id="82433-123">預設值為 **False**。</span><span class="sxs-lookup"><span data-stu-id="82433-123">The default is **False**.</span></span>
+<span data-ttu-id="8d157-121">拉伸圖形的幾何中心為0、0、0。</span><span class="sxs-lookup"><span data-stu-id="8d157-121">The geometric center of an extruded shape is 0,0,0.</span></span> <span data-ttu-id="8d157-122">如果這個屬性的值為 **False**，則旋轉的中心是由 [RotationCenter](msdn-online-vml-rotationcenter-attribute.md) 屬性所決定。</span><span class="sxs-lookup"><span data-stu-id="8d157-122">If the value of this attribute is **False**, the center of rotation is determined by the [RotationCenter](msdn-online-vml-rotationcenter-attribute.md) attribute.</span></span> <span data-ttu-id="8d157-123">預設值為 **False**。</span><span class="sxs-lookup"><span data-stu-id="8d157-123">The default is **False**.</span></span>
 
-<span data-ttu-id="82433-124">*Microsoft Office Extensions 屬性*</span><span class="sxs-lookup"><span data-stu-id="82433-124">*Microsoft Office Extensions Attribute*</span></span>
+<span data-ttu-id="8d157-124">*Microsoft Office Extensions 屬性*</span><span class="sxs-lookup"><span data-stu-id="8d157-124">*Microsoft Office Extensions Attribute*</span></span>
 
  
 

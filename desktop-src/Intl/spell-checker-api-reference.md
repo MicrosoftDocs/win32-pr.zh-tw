@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852791"
 ---
-# <a name="spell-checking-api-reference"></a><span data-ttu-id="00a1a-103">拼寫檢查 API 參考</span><span class="sxs-lookup"><span data-stu-id="00a1a-103">Spell Checking API Reference</span></span>
+# <a name="spell-checking-api-reference"></a><span data-ttu-id="3f368-103">拼寫檢查 API 參考</span><span class="sxs-lookup"><span data-stu-id="3f368-103">Spell Checking API Reference</span></span>
 
-<span data-ttu-id="00a1a-104">下列主題會定義屬於拼寫檢查 API 一部分的元素：</span><span class="sxs-lookup"><span data-stu-id="00a1a-104">The following topics define the elements that are part of the Spell Checking API:</span></span>
+<span data-ttu-id="3f368-104">下列主題會定義屬於拼寫檢查 API 一部分的元素：</span><span class="sxs-lookup"><span data-stu-id="3f368-104">The following topics define the elements that are part of the Spell Checking API:</span></span>
 
--   [<span data-ttu-id="00a1a-105">拼寫檢查介面</span><span class="sxs-lookup"><span data-stu-id="00a1a-105">Spell Checking Interfaces</span></span>](spell-checker-interfaces.md)
--   [<span data-ttu-id="00a1a-106">拼寫檢查列舉</span><span class="sxs-lookup"><span data-stu-id="00a1a-106">Spell Checking Enumerations</span></span>](spell-checker-enumerations.md)
+-   [<span data-ttu-id="3f368-105">拼寫檢查介面</span><span class="sxs-lookup"><span data-stu-id="3f368-105">Spell Checking Interfaces</span></span>](spell-checker-interfaces.md)
+-   [<span data-ttu-id="3f368-106">拼寫檢查列舉</span><span class="sxs-lookup"><span data-stu-id="3f368-106">Spell Checking Enumerations</span></span>](spell-checker-enumerations.md)
 
  
 

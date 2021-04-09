@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "103933070"
 ---
-# <a name="example-code-for-setting-permissions-on-a-group-of-properties"></a><span data-ttu-id="5e070-104">設定屬性群組許可權的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="5e070-104">Example Code for Setting Permissions on a Group of Properties</span></span>
+# <a name="example-code-for-setting-permissions-on-a-group-of-properties"></a><span data-ttu-id="88466-104">設定屬性群組許可權的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="88466-104">Example Code for Setting Permissions on a Group of Properties</span></span>
 
-<span data-ttu-id="5e070-105">下列 C 和 c + + 程式碼範例會建立一個 ACE，以將使用者物件之 [**個人資訊**](/windows/desktop/ADSchema/r-personal-information) 屬性集的讀取和寫入存取權指派給指定的信任者。</span><span class="sxs-lookup"><span data-stu-id="5e070-105">The following C and C++ code examples create an ACE that assigns read and write access to the attributes of the [**Personal Information**](/windows/desktop/ADSchema/r-personal-information) property set of user objects to the specified trustee.</span></span>
+<span data-ttu-id="88466-105">下列 C 和 c + + 程式碼範例會建立一個 ACE，以將使用者物件之 [**個人資訊**](/windows/desktop/ADSchema/r-personal-information) 屬性集的讀取和寫入存取權指派給指定的信任者。</span><span class="sxs-lookup"><span data-stu-id="88466-105">The following C and C++ code examples create an ACE that assigns read and write access to the attributes of the [**Personal Information**](/windows/desktop/ADSchema/r-personal-information) property set of user objects to the specified trustee.</span></span>
 
 
 ```C++

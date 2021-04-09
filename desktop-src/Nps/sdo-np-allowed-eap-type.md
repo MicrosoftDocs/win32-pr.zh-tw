@@ -12,24 +12,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682394"
 ---
-# <a name="np-allowed-eap-type"></a><span data-ttu-id="8901b-103">NP-允許-EAP-類型</span><span class="sxs-lookup"><span data-stu-id="8901b-103">NP-Allowed-EAP-Type</span></span>
+# <a name="np-allowed-eap-type"></a><span data-ttu-id="b9638-103">NP-允許-EAP-類型</span><span class="sxs-lookup"><span data-stu-id="b9638-103">NP-Allowed-EAP-Type</span></span>
 
-<span data-ttu-id="8901b-104">允許連接的 EAP 加密模式。</span><span class="sxs-lookup"><span data-stu-id="8901b-104">EAP encryption modes permitted for a connection.</span></span>
+<span data-ttu-id="b9638-104">允許連接的 EAP 加密模式。</span><span class="sxs-lookup"><span data-stu-id="b9638-104">EAP encryption modes permitted for a connection.</span></span>
 
-<span data-ttu-id="8901b-105">**LDAP 名稱：** msNPAllowedEapType</span><span class="sxs-lookup"><span data-stu-id="8901b-105">**LDAP Name:** msNPAllowedEapType</span></span>
+<span data-ttu-id="b9638-105">**LDAP 名稱：** msNPAllowedEapType</span><span class="sxs-lookup"><span data-stu-id="b9638-105">**LDAP Name:** msNPAllowedEapType</span></span>
 
-<span data-ttu-id="8901b-106">**識別碼：** 4106 = [ **IAS \_ 屬性 \_ NP \_ 允許的 \_ EAP \_ 類型**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span><span class="sxs-lookup"><span data-stu-id="8901b-106">**ID:** 4106 = [**IAS\_ATTRIBUTE\_NP\_ALLOWED\_EAP\_TYPE**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span></span>
+<span data-ttu-id="b9638-106">**識別碼：** 4106 = [ **IAS \_ 屬性 \_ NP \_ 允許的 \_ EAP \_ 類型**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span><span class="sxs-lookup"><span data-stu-id="b9638-106">**ID:** 4106 = [**IAS\_ATTRIBUTE\_NP\_ALLOWED\_EAP\_TYPE**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span></span>
 
-<span data-ttu-id="8901b-107">**語法：** 整數</span><span class="sxs-lookup"><span data-stu-id="8901b-107">**Syntax:** Integer</span></span>
+<span data-ttu-id="b9638-107">**語法：** 整數</span><span class="sxs-lookup"><span data-stu-id="b9638-107">**Syntax:** Integer</span></span>
 
-<span data-ttu-id="8901b-108">**值：  **</span><span class="sxs-lookup"><span data-stu-id="8901b-108">**Values:  **</span></span>
+<span data-ttu-id="b9638-108">**值：  **</span><span class="sxs-lookup"><span data-stu-id="b9638-108">**Values:  **</span></span>
 
-<span data-ttu-id="8901b-109">由網際網路指派號碼授權單位所定義 (IANA) 在可延伸驗證通訊協定中的可延伸 [驗證通訊協定 (EAP) ](https://www.iana.org/assignments/eap-numbers) 登錄檔（以 [RFC 3748](https://www.ietf.org/rfc/rfc3748.txt)為基礎</span><span class="sxs-lookup"><span data-stu-id="8901b-109">Defined by the Internet Assigned Numbers Authority (IANA) in the [Extensible Authentication Protocol (EAP) Registry](https://www.iana.org/assignments/eap-numbers) document based on [RFC 3748](https://www.ietf.org/rfc/rfc3748.txt).</span></span>
+<span data-ttu-id="b9638-109">由網際網路指派號碼授權單位所定義 (IANA) 在可延伸驗證通訊協定中的可延伸 [驗證通訊協定 (EAP) ](https://www.iana.org/assignments/eap-numbers) 登錄檔（以 [RFC 3748](https://www.ietf.org/rfc/rfc3748.txt)為基礎</span><span class="sxs-lookup"><span data-stu-id="b9638-109">Defined by the Internet Assigned Numbers Authority (IANA) in the [Extensible Authentication Protocol (EAP) Registry](https://www.iana.org/assignments/eap-numbers) document based on [RFC 3748](https://www.ietf.org/rfc/rfc3748.txt).</span></span>
 
--   <span data-ttu-id="8901b-110">**MD5-挑戰** (4) </span><span class="sxs-lookup"><span data-stu-id="8901b-110">**MD5-Challenge** (4)</span></span>
--   <span data-ttu-id="8901b-111">**EAP \_TLS** (13) </span><span class="sxs-lookup"><span data-stu-id="8901b-111">**EAP\_TLS** (13)</span></span>
--   <span data-ttu-id="8901b-112">**PEAP** (25) </span><span class="sxs-lookup"><span data-stu-id="8901b-112">**PEAP** (25)</span></span>
--   <span data-ttu-id="8901b-113">**MS-EAP 驗證** (26) </span><span class="sxs-lookup"><span data-stu-id="8901b-113">**MS-EAP-Authentication** (26)</span></span>
+-   <span data-ttu-id="b9638-110">**MD5-挑戰** (4) </span><span class="sxs-lookup"><span data-stu-id="b9638-110">**MD5-Challenge** (4)</span></span>
+-   <span data-ttu-id="b9638-111">**EAP \_TLS** (13) </span><span class="sxs-lookup"><span data-stu-id="b9638-111">**EAP\_TLS** (13)</span></span>
+-   <span data-ttu-id="b9638-112">**PEAP** (25) </span><span class="sxs-lookup"><span data-stu-id="b9638-112">**PEAP** (25)</span></span>
+-   <span data-ttu-id="b9638-113">**MS-EAP 驗證** (26) </span><span class="sxs-lookup"><span data-stu-id="b9638-113">**MS-EAP-Authentication** (26)</span></span>
 
  
 

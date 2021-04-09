@@ -31,24 +31,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851995"
 ---
-# <a name="esentdtccallbackunexpectederrorexception-class"></a><span data-ttu-id="fa3cc-103">EsentDTCCallbackUnexpectedErrorException 類別</span><span class="sxs-lookup"><span data-stu-id="fa3cc-103">EsentDTCCallbackUnexpectedErrorException class</span></span>
+# <a name="esentdtccallbackunexpectederrorexception-class"></a><span data-ttu-id="8e022-103">EsentDTCCallbackUnexpectedErrorException 類別</span><span class="sxs-lookup"><span data-stu-id="8e022-103">EsentDTCCallbackUnexpectedErrorException class</span></span>
 
-<span data-ttu-id="fa3cc-104">JET_err 的基類。DTCCallbackUnexpectedError 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="fa3cc-104">Base class for JET_err.DTCCallbackUnexpectedError exceptions.</span></span>
+<span data-ttu-id="8e022-104">JET_err 的基類。DTCCallbackUnexpectedError 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="8e022-104">Base class for JET_err.DTCCallbackUnexpectedError exceptions.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="fa3cc-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="fa3cc-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="8e022-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="8e022-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="fa3cc-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="fa3cc-106">System.Object</span></span>](/dotnet/api/system.object)  
-  [<span data-ttu-id="fa3cc-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="fa3cc-107">System.Exception</span></span>](/dotnet/api/system.exception)  
-    [<span data-ttu-id="fa3cc-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="fa3cc-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
-      [<span data-ttu-id="fa3cc-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="fa3cc-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
-        [<span data-ttu-id="fa3cc-110">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="fa3cc-110">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
-          [<span data-ttu-id="fa3cc-111">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="fa3cc-111">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
-            <span data-ttu-id="fa3cc-112">EsentDTCCallbackUnexpectedErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="fa3cc-112">Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException</span></span>  
+[<span data-ttu-id="8e022-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="8e022-106">System.Object</span></span>](/dotnet/api/system.object)  
+  [<span data-ttu-id="8e022-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="8e022-107">System.Exception</span></span>](/dotnet/api/system.exception)  
+    [<span data-ttu-id="8e022-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="8e022-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
+      [<span data-ttu-id="8e022-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="8e022-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
+        [<span data-ttu-id="8e022-110">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="8e022-110">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
+          [<span data-ttu-id="8e022-111">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="8e022-111">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
+            <span data-ttu-id="8e022-112">EsentDTCCallbackUnexpectedErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="8e022-112">Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException</span></span>  
 
-<span data-ttu-id="fa3cc-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="fa3cc-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="fa3cc-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="fa3cc-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="8e022-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="8e022-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="8e022-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8e022-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fa3cc-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="fa3cc-115">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8e022-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="8e022-115">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -64,14 +64,14 @@ Dim instance As EsentDTCCallbackUnexpectedErrorException
 public sealed class EsentDTCCallbackUnexpectedErrorException : EsentObsoleteException
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="fa3cc-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="fa3cc-116">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="8e022-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="8e022-116">Thread safety</span></span>
 
-<span data-ttu-id="fa3cc-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="fa3cc-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="fa3cc-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="fa3cc-118">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="8e022-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="8e022-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="8e022-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="8e022-118">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="fa3cc-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fa3cc-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e022-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8e022-119">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="fa3cc-120">參考</span><span class="sxs-lookup"><span data-stu-id="fa3cc-120">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="8e022-120">參考</span><span class="sxs-lookup"><span data-stu-id="8e022-120">Reference</span></span>
 
-[<span data-ttu-id="fa3cc-121">EsentDTCCallbackUnexpectedErrorException 成員</span><span class="sxs-lookup"><span data-stu-id="fa3cc-121">EsentDTCCallbackUnexpectedErrorException members</span></span>](./esentdtccallbackunexpectederrorexception-members.md)
+[<span data-ttu-id="8e022-121">EsentDTCCallbackUnexpectedErrorException 成員</span><span class="sxs-lookup"><span data-stu-id="8e022-121">EsentDTCCallbackUnexpectedErrorException members</span></span>](./esentdtccallbackunexpectederrorexception-members.md)
 
-[<span data-ttu-id="fa3cc-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="fa3cc-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="8e022-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="8e022-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

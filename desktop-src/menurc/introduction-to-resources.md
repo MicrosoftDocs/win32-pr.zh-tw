@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932594"
 ---
-# <a name="introduction-to-resources"></a><span data-ttu-id="8d84c-103">資源簡介</span><span class="sxs-lookup"><span data-stu-id="8d84c-103">Introduction to Resources</span></span>
+# <a name="introduction-to-resources"></a><span data-ttu-id="12ca7-103">資源簡介</span><span class="sxs-lookup"><span data-stu-id="12ca7-103">Introduction to Resources</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="8d84c-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="8d84c-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="12ca7-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="12ca7-104">In This Section</span></span>
 
--   [<span data-ttu-id="8d84c-105">資源概覽</span><span class="sxs-lookup"><span data-stu-id="8d84c-105">Resource Overviews</span></span>](resources-overviews.md)
--   [<span data-ttu-id="8d84c-106">資源參考</span><span class="sxs-lookup"><span data-stu-id="8d84c-106">Resource Reference</span></span>](resources-reference.md)
+-   [<span data-ttu-id="12ca7-105">資源概覽</span><span class="sxs-lookup"><span data-stu-id="12ca7-105">Resource Overviews</span></span>](resources-overviews.md)
+-   [<span data-ttu-id="12ca7-106">資源參考</span><span class="sxs-lookup"><span data-stu-id="12ca7-106">Resource Reference</span></span>](resources-reference.md)
 
  
 

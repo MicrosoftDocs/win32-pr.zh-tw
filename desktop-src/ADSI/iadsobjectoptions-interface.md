@@ -16,11 +16,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103931837"
 ---
-# <a name="iadsobjectoptions-interface"></a><span data-ttu-id="444d0-106">IADsObjectOptions 介面</span><span class="sxs-lookup"><span data-stu-id="444d0-106">IADsObjectOptions Interface</span></span>
+# <a name="iadsobjectoptions-interface"></a><span data-ttu-id="c0742-106">IADsObjectOptions 介面</span><span class="sxs-lookup"><span data-stu-id="c0742-106">IADsObjectOptions Interface</span></span>
 
-<span data-ttu-id="444d0-107">[**IADsObjectOptions**](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions)介面可讓您直接存取來設定和取得提供者特定的選項。</span><span class="sxs-lookup"><span data-stu-id="444d0-107">The [**IADsObjectOptions**](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions) interface enables direct access to setting and retrieving provider-specific options.</span></span>
+<span data-ttu-id="c0742-107">[**IADsObjectOptions**](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions)介面可讓您直接存取來設定和取得提供者特定的選項。</span><span class="sxs-lookup"><span data-stu-id="c0742-107">The [**IADsObjectOptions**](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions) interface enables direct access to setting and retrieving provider-specific options.</span></span>
 
-<span data-ttu-id="444d0-108">其中一個 Active Directory 物件選項是傳回伺服器的主機名稱。</span><span class="sxs-lookup"><span data-stu-id="444d0-108">One of the Active Directory object options is to return the host name of a server.</span></span> <span data-ttu-id="444d0-109">下列程式碼範例會使用介面來取出通用類別目錄伺服器的主機名稱。</span><span class="sxs-lookup"><span data-stu-id="444d0-109">The following code example uses the interface to retrieve the host name of the global catalog server.</span></span>
+<span data-ttu-id="c0742-108">其中一個 Active Directory 物件選項是傳回伺服器的主機名稱。</span><span class="sxs-lookup"><span data-stu-id="c0742-108">One of the Active Directory object options is to return the host name of a server.</span></span> <span data-ttu-id="c0742-109">下列程式碼範例會使用介面來取出通用類別目錄伺服器的主機名稱。</span><span class="sxs-lookup"><span data-stu-id="c0742-109">The following code example uses the interface to retrieve the host name of the global catalog server.</span></span>
 
 
 ```C++

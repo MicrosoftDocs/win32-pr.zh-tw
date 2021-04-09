@@ -19,27 +19,27 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103932746"
 ---
-# <a name="wmmediaoriginalchannel"></a><span data-ttu-id="d3793-104">WM/MediaOriginalChannel</span><span class="sxs-lookup"><span data-stu-id="d3793-104">WM/MediaOriginalChannel</span></span>
+# <a name="wmmediaoriginalchannel"></a><span data-ttu-id="72b62-104">WM/MediaOriginalChannel</span><span class="sxs-lookup"><span data-stu-id="72b62-104">WM/MediaOriginalChannel</span></span>
 
-<span data-ttu-id="d3793-105">**WM/MediaOriginalChannel** 屬性包含廣播內容的通道。</span><span class="sxs-lookup"><span data-stu-id="d3793-105">The **WM/MediaOriginalChannel** attribute contains the channel on which the content was broadcast.</span></span>
+<span data-ttu-id="72b62-105">**WM/MediaOriginalChannel** 屬性包含廣播內容的通道。</span><span class="sxs-lookup"><span data-stu-id="72b62-105">The **WM/MediaOriginalChannel** attribute contains the channel on which the content was broadcast.</span></span>
 
-## <a name="global-constant"></a><span data-ttu-id="d3793-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="d3793-106">Global Constant</span></span>
+## <a name="global-constant"></a><span data-ttu-id="72b62-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="72b62-106">Global Constant</span></span>
 
-<span data-ttu-id="d3793-107">g \_ wszWMMediaOriginalChannel</span><span class="sxs-lookup"><span data-stu-id="d3793-107">g\_wszWMMediaOriginalChannel</span></span>
+<span data-ttu-id="72b62-107">g \_ wszWMMediaOriginalChannel</span><span class="sxs-lookup"><span data-stu-id="72b62-107">g\_wszWMMediaOriginalChannel</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="d3793-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="d3793-108">Data Type</span></span>
+## <a name="data-type"></a><span data-ttu-id="72b62-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="72b62-108">Data Type</span></span>
 
-<span data-ttu-id="d3793-109">**WMT \_ 類型 \_ 字串**</span><span class="sxs-lookup"><span data-stu-id="d3793-109">**WMT\_TYPE\_STRING**</span></span>
+<span data-ttu-id="72b62-109">**WMT \_ 類型 \_ 字串**</span><span class="sxs-lookup"><span data-stu-id="72b62-109">**WMT\_TYPE\_STRING**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d3793-110">備註</span><span class="sxs-lookup"><span data-stu-id="d3793-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="72b62-110">備註</span><span class="sxs-lookup"><span data-stu-id="72b62-110">Remarks</span></span>
 
-<span data-ttu-id="d3793-111">這個屬性是用於廣播電視。</span><span class="sxs-lookup"><span data-stu-id="d3793-111">This attribute is used for broadcast television.</span></span>
+<span data-ttu-id="72b62-111">這個屬性是用於廣播電視。</span><span class="sxs-lookup"><span data-stu-id="72b62-111">This attribute is used for broadcast television.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d3793-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d3793-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="72b62-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="72b62-112">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d3793-113">**屬性清單**</span><span class="sxs-lookup"><span data-stu-id="d3793-113">**Attribute List**</span></span>](attribute-list.md)
+[<span data-ttu-id="72b62-113">**屬性清單**</span><span class="sxs-lookup"><span data-stu-id="72b62-113">**Attribute List**</span></span>](attribute-list.md)
 </dt> </dl>
 
  

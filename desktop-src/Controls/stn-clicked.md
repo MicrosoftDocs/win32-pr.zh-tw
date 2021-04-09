@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843136"
 ---
-# <a name="stn_clicked-notification-code"></a><span data-ttu-id="5e057-105">STN \_ 按一下通知碼</span><span class="sxs-lookup"><span data-stu-id="5e057-105">STN\_CLICKED notification code</span></span>
+# <a name="stn_clicked-notification-code"></a><span data-ttu-id="ee390-105">STN \_ 按一下通知碼</span><span class="sxs-lookup"><span data-stu-id="ee390-105">STN\_CLICKED notification code</span></span>
 
-<span data-ttu-id="5e057-106">\_當使用者按一下具有 [**SS \_ 通知**](static-control-styles.md)樣式的靜態控制項時，會傳送 STN 點擊通知碼。</span><span class="sxs-lookup"><span data-stu-id="5e057-106">The STN\_CLICKED notification code is sent when the user clicks a static control that has the [**SS\_NOTIFY**](static-control-styles.md) style.</span></span> <span data-ttu-id="5e057-107">控制項的父視窗會透過 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 訊息接收此通知碼。</span><span class="sxs-lookup"><span data-stu-id="5e057-107">The parent window of the control receives this notification code through the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.</span></span>
+<span data-ttu-id="ee390-106">\_當使用者按一下具有 [**SS \_ 通知**](static-control-styles.md)樣式的靜態控制項時，會傳送 STN 點擊通知碼。</span><span class="sxs-lookup"><span data-stu-id="ee390-106">The STN\_CLICKED notification code is sent when the user clicks a static control that has the [**SS\_NOTIFY**](static-control-styles.md) style.</span></span> <span data-ttu-id="ee390-107">控制項的父視窗會透過 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 訊息接收此通知碼。</span><span class="sxs-lookup"><span data-stu-id="ee390-107">The parent window of the control receives this notification code through the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.</span></span>
 
 
 ```C++
@@ -35,62 +35,62 @@ STN_CLICKED
 
 
 
-## <a name="parameters"></a><span data-ttu-id="5e057-108">參數</span><span class="sxs-lookup"><span data-stu-id="5e057-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ee390-108">參數</span><span class="sxs-lookup"><span data-stu-id="ee390-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="5e057-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="5e057-109">*wParam*</span></span> 
+<span data-ttu-id="ee390-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="ee390-109">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="5e057-110">[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))包含靜態控制項的識別碼。</span><span class="sxs-lookup"><span data-stu-id="5e057-110">The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the static control.</span></span> <span data-ttu-id="5e057-111">[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))會指定通知碼。</span><span class="sxs-lookup"><span data-stu-id="5e057-111">The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.</span></span>
+<span data-ttu-id="ee390-110">[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))包含靜態控制項的識別碼。</span><span class="sxs-lookup"><span data-stu-id="ee390-110">The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the static control.</span></span> <span data-ttu-id="ee390-111">[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))會指定通知碼。</span><span class="sxs-lookup"><span data-stu-id="ee390-111">The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="5e057-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="5e057-112">*lParam*</span></span> 
+<span data-ttu-id="ee390-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="ee390-112">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="5e057-113">靜態控制項的控制碼。</span><span class="sxs-lookup"><span data-stu-id="5e057-113">Handle to the static control.</span></span>
+<span data-ttu-id="ee390-113">靜態控制項的控制碼。</span><span class="sxs-lookup"><span data-stu-id="ee390-113">Handle to the static control.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="5e057-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="5e057-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ee390-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="ee390-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="5e057-115">需求</span><span class="sxs-lookup"><span data-stu-id="5e057-115">Requirement</span></span> | <span data-ttu-id="5e057-116">值</span><span class="sxs-lookup"><span data-stu-id="5e057-116">Value</span></span> |
+| <span data-ttu-id="ee390-115">需求</span><span class="sxs-lookup"><span data-stu-id="ee390-115">Requirement</span></span> | <span data-ttu-id="ee390-116">值</span><span class="sxs-lookup"><span data-stu-id="ee390-116">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="5e057-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5e057-117">Minimum supported client</span></span><br/> | <span data-ttu-id="5e057-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5e057-118">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="5e057-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5e057-119">Minimum supported server</span></span><br/> | <span data-ttu-id="5e057-120">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5e057-120">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="5e057-121">標頭</span><span class="sxs-lookup"><span data-stu-id="5e057-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="5e057-122"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="5e057-122"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="ee390-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ee390-117">Minimum supported client</span></span><br/> | <span data-ttu-id="ee390-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ee390-118">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="ee390-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ee390-119">Minimum supported server</span></span><br/> | <span data-ttu-id="ee390-120">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ee390-120">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="ee390-121">標頭</span><span class="sxs-lookup"><span data-stu-id="ee390-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="ee390-122"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="ee390-122"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="5e057-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5e057-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ee390-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ee390-123">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="5e057-124">**參考**</span><span class="sxs-lookup"><span data-stu-id="5e057-124">**Reference**</span></span>
+<span data-ttu-id="ee390-124">**參考**</span><span class="sxs-lookup"><span data-stu-id="ee390-124">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="5e057-125">STN \_ DBLCLK</span><span class="sxs-lookup"><span data-stu-id="5e057-125">STN\_DBLCLK</span></span>](stn-dblclk.md)
+[<span data-ttu-id="ee390-125">STN \_ DBLCLK</span><span class="sxs-lookup"><span data-stu-id="ee390-125">STN\_DBLCLK</span></span>](stn-dblclk.md)
 </dt> <dt>
 
-<span data-ttu-id="5e057-126">**概念**</span><span class="sxs-lookup"><span data-stu-id="5e057-126">**Conceptual**</span></span>
+<span data-ttu-id="ee390-126">**概念**</span><span class="sxs-lookup"><span data-stu-id="ee390-126">**Conceptual**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="5e057-127">靜態控制項</span><span class="sxs-lookup"><span data-stu-id="5e057-127">Static Controls</span></span>](static-controls.md)
+[<span data-ttu-id="ee390-127">靜態控制項</span><span class="sxs-lookup"><span data-stu-id="ee390-127">Static Controls</span></span>](static-controls.md)
 </dt> <dt>
 
-<span data-ttu-id="5e057-128">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="5e057-128">**Other Resources**</span></span>
+<span data-ttu-id="ee390-128">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="ee390-128">**Other Resources**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="5e057-129">[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="5e057-129">[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))</span></span>
+<span data-ttu-id="ee390-129">[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="ee390-129">[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))</span></span>
 </dt> <dt>
 
-<span data-ttu-id="5e057-130">[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="5e057-130">[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))</span></span>
+<span data-ttu-id="ee390-130">[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="ee390-130">[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="5e057-131">**WM \_ 命令**</span><span class="sxs-lookup"><span data-stu-id="5e057-131">**WM\_COMMAND**</span></span>](/windows/desktop/menurc/wm-command)
+[<span data-ttu-id="ee390-131">**WM \_ 命令**</span><span class="sxs-lookup"><span data-stu-id="ee390-131">**WM\_COMMAND**</span></span>](/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  

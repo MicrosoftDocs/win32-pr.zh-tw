@@ -11,60 +11,60 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689351"
 ---
-# <a name="color-control-transform-dsp"></a><span data-ttu-id="dd5f6-103">色彩控制轉換 DSP</span><span class="sxs-lookup"><span data-stu-id="dd5f6-103">Color Control Transform DSP</span></span>
+# <a name="color-control-transform-dsp"></a><span data-ttu-id="8bfba-103">色彩控制轉換 DSP</span><span class="sxs-lookup"><span data-stu-id="8bfba-103">Color Control Transform DSP</span></span>
 
-<span data-ttu-id="dd5f6-104">調整影片資料流程的色彩特性。</span><span class="sxs-lookup"><span data-stu-id="dd5f6-104">Adjusts the color characteristics of a video stream.</span></span>
+<span data-ttu-id="8bfba-104">調整影片資料流程的色彩特性。</span><span class="sxs-lookup"><span data-stu-id="8bfba-104">Adjusts the color characteristics of a video stream.</span></span>
 
-## <a name="clsid"></a><span data-ttu-id="dd5f6-105">CLSID</span><span class="sxs-lookup"><span data-stu-id="dd5f6-105">CLSID</span></span>
+## <a name="clsid"></a><span data-ttu-id="8bfba-105">CLSID</span><span class="sxs-lookup"><span data-stu-id="8bfba-105">CLSID</span></span>
 
-<span data-ttu-id="dd5f6-106">CLSID \_ CColorControlDmo</span><span class="sxs-lookup"><span data-stu-id="dd5f6-106">CLSID\_CColorControlDmo</span></span>
+<span data-ttu-id="8bfba-106">CLSID \_ CColorControlDmo</span><span class="sxs-lookup"><span data-stu-id="8bfba-106">CLSID\_CColorControlDmo</span></span>
 
-## <a name="interfaces"></a><span data-ttu-id="dd5f6-107">介面</span><span class="sxs-lookup"><span data-stu-id="dd5f6-107">Interfaces</span></span>
+## <a name="interfaces"></a><span data-ttu-id="8bfba-107">介面</span><span class="sxs-lookup"><span data-stu-id="8bfba-107">Interfaces</span></span>
 
--   <span data-ttu-id="dd5f6-108">**IMediaObject**</span><span class="sxs-lookup"><span data-stu-id="dd5f6-108">**IMediaObject**</span></span>
--   <span data-ttu-id="dd5f6-109">**IMFTransform**</span><span class="sxs-lookup"><span data-stu-id="dd5f6-109">**IMFTransform**</span></span>
--   <span data-ttu-id="dd5f6-110">**IPropertyStore**</span><span class="sxs-lookup"><span data-stu-id="dd5f6-110">**IPropertyStore**</span></span>
+-   <span data-ttu-id="8bfba-108">**IMediaObject**</span><span class="sxs-lookup"><span data-stu-id="8bfba-108">**IMediaObject**</span></span>
+-   <span data-ttu-id="8bfba-109">**IMFTransform**</span><span class="sxs-lookup"><span data-stu-id="8bfba-109">**IMFTransform**</span></span>
+-   <span data-ttu-id="8bfba-110">**IPropertyStore**</span><span class="sxs-lookup"><span data-stu-id="8bfba-110">**IPropertyStore**</span></span>
 
-## <a name="formats"></a><span data-ttu-id="dd5f6-111">格式</span><span class="sxs-lookup"><span data-stu-id="dd5f6-111">Formats</span></span>
+## <a name="formats"></a><span data-ttu-id="8bfba-111">格式</span><span class="sxs-lookup"><span data-stu-id="8bfba-111">Formats</span></span>
 
--   <span data-ttu-id="dd5f6-112">RGB 24</span><span class="sxs-lookup"><span data-stu-id="dd5f6-112">RGB 24</span></span>
--   <span data-ttu-id="dd5f6-113">RGB 32</span><span class="sxs-lookup"><span data-stu-id="dd5f6-113">RGB 32</span></span>
--   <span data-ttu-id="dd5f6-114">RGB 555</span><span class="sxs-lookup"><span data-stu-id="dd5f6-114">RGB 555</span></span>
--   <span data-ttu-id="dd5f6-115">RGB 565</span><span class="sxs-lookup"><span data-stu-id="dd5f6-115">RGB 565</span></span>
--   <span data-ttu-id="dd5f6-116">AYUV</span><span class="sxs-lookup"><span data-stu-id="dd5f6-116">AYUV</span></span>
--   <span data-ttu-id="dd5f6-117">UYVY</span><span class="sxs-lookup"><span data-stu-id="dd5f6-117">UYVY</span></span>
--   <span data-ttu-id="dd5f6-118">YUY2</span><span class="sxs-lookup"><span data-stu-id="dd5f6-118">YUY2</span></span>
--   <span data-ttu-id="dd5f6-119">YV12</span><span class="sxs-lookup"><span data-stu-id="dd5f6-119">YV12</span></span>
+-   <span data-ttu-id="8bfba-112">RGB 24</span><span class="sxs-lookup"><span data-stu-id="8bfba-112">RGB 24</span></span>
+-   <span data-ttu-id="8bfba-113">RGB 32</span><span class="sxs-lookup"><span data-stu-id="8bfba-113">RGB 32</span></span>
+-   <span data-ttu-id="8bfba-114">RGB 555</span><span class="sxs-lookup"><span data-stu-id="8bfba-114">RGB 555</span></span>
+-   <span data-ttu-id="8bfba-115">RGB 565</span><span class="sxs-lookup"><span data-stu-id="8bfba-115">RGB 565</span></span>
+-   <span data-ttu-id="8bfba-116">AYUV</span><span class="sxs-lookup"><span data-stu-id="8bfba-116">AYUV</span></span>
+-   <span data-ttu-id="8bfba-117">UYVY</span><span class="sxs-lookup"><span data-stu-id="8bfba-117">UYVY</span></span>
+-   <span data-ttu-id="8bfba-118">YUY2</span><span class="sxs-lookup"><span data-stu-id="8bfba-118">YUY2</span></span>
+-   <span data-ttu-id="8bfba-119">YV12</span><span class="sxs-lookup"><span data-stu-id="8bfba-119">YV12</span></span>
 
-## <a name="properties"></a><span data-ttu-id="dd5f6-120">屬性</span><span class="sxs-lookup"><span data-stu-id="dd5f6-120">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="8bfba-120">屬性</span><span class="sxs-lookup"><span data-stu-id="8bfba-120">Properties</span></span>
 
--   [<span data-ttu-id="dd5f6-121">MFPKEY \_ 色彩 \_ 亮度</span><span class="sxs-lookup"><span data-stu-id="dd5f6-121">MFPKEY\_COLOR\_BRIGHTNESS</span></span>](mfpkey-color-brightness.md)
--   [<span data-ttu-id="dd5f6-122">MFPKEY \_ 色彩 \_ 對比</span><span class="sxs-lookup"><span data-stu-id="dd5f6-122">MFPKEY\_COLOR\_CONTRAST</span></span>](mfpkey-color-contrast.md)
--   [<span data-ttu-id="dd5f6-123">MFPKEY \_ 色彩 \_ 色調</span><span class="sxs-lookup"><span data-stu-id="dd5f6-123">MFPKEY\_COLOR\_HUE</span></span>](mfpkey-color-hue.md)
--   [<span data-ttu-id="dd5f6-124">MFPKEY \_ 色彩 \_ 飽和度</span><span class="sxs-lookup"><span data-stu-id="dd5f6-124">MFPKEY\_COLOR\_SATURATION</span></span>](mfpkey-color-saturation.md)
+-   [<span data-ttu-id="8bfba-121">MFPKEY \_ 色彩 \_ 亮度</span><span class="sxs-lookup"><span data-stu-id="8bfba-121">MFPKEY\_COLOR\_BRIGHTNESS</span></span>](mfpkey-color-brightness.md)
+-   [<span data-ttu-id="8bfba-122">MFPKEY \_ 色彩 \_ 對比</span><span class="sxs-lookup"><span data-stu-id="8bfba-122">MFPKEY\_COLOR\_CONTRAST</span></span>](mfpkey-color-contrast.md)
+-   [<span data-ttu-id="8bfba-123">MFPKEY \_ 色彩 \_ 色調</span><span class="sxs-lookup"><span data-stu-id="8bfba-123">MFPKEY\_COLOR\_HUE</span></span>](mfpkey-color-hue.md)
+-   [<span data-ttu-id="8bfba-124">MFPKEY \_ 色彩 \_ 飽和度</span><span class="sxs-lookup"><span data-stu-id="8bfba-124">MFPKEY\_COLOR\_SATURATION</span></span>](mfpkey-color-saturation.md)
 
-## <a name="remarks"></a><span data-ttu-id="dd5f6-125">備註</span><span class="sxs-lookup"><span data-stu-id="dd5f6-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8bfba-125">備註</span><span class="sxs-lookup"><span data-stu-id="8bfba-125">Remarks</span></span>
 
-<span data-ttu-id="dd5f6-126">此 DSP 會修改影片資料流程的內容。</span><span class="sxs-lookup"><span data-stu-id="dd5f6-126">This DSP modifies the contents of the video stream.</span></span> <span data-ttu-id="dd5f6-127">針對播放，您可以使用 **IMFVideoProcessor** 介面（可控制圖形配接器的影片處理），更有效率地達成類似效果。</span><span class="sxs-lookup"><span data-stu-id="dd5f6-127">For playback, you might be able to achieve similar effects more efficiently by using the **IMFVideoProcessor** interface, which controls video processing in the graphics card.</span></span>
+<span data-ttu-id="8bfba-126">此 DSP 會修改影片資料流程的內容。</span><span class="sxs-lookup"><span data-stu-id="8bfba-126">This DSP modifies the contents of the video stream.</span></span> <span data-ttu-id="8bfba-127">針對播放，您可以使用 **IMFVideoProcessor** 介面（可控制圖形配接器的影片處理），更有效率地達成類似效果。</span><span class="sxs-lookup"><span data-stu-id="8bfba-127">For playback, you might be able to achieve similar effects more efficiently by using the **IMFVideoProcessor** interface, which controls video processing in the graphics card.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="dd5f6-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="dd5f6-128">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8bfba-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="8bfba-128">Requirements</span></span>
 
 
 
-| <span data-ttu-id="dd5f6-129">需求</span><span class="sxs-lookup"><span data-stu-id="dd5f6-129">Requirement</span></span> | <span data-ttu-id="dd5f6-130">值</span><span class="sxs-lookup"><span data-stu-id="dd5f6-130">Value</span></span> |
+| <span data-ttu-id="8bfba-129">需求</span><span class="sxs-lookup"><span data-stu-id="8bfba-129">Requirement</span></span> | <span data-ttu-id="8bfba-130">值</span><span class="sxs-lookup"><span data-stu-id="8bfba-130">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="dd5f6-131">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="dd5f6-131">Minimum supported client</span></span><br/> | <span data-ttu-id="dd5f6-132">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="dd5f6-132">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
-| <span data-ttu-id="dd5f6-133">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="dd5f6-133">Minimum supported server</span></span><br/> | <span data-ttu-id="dd5f6-134">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="dd5f6-134">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="dd5f6-135">標頭</span><span class="sxs-lookup"><span data-stu-id="dd5f6-135">Header</span></span><br/>                   | <dl> <span data-ttu-id="dd5f6-136"><dt>Wmcodecdsp。h</dt></span><span class="sxs-lookup"><span data-stu-id="dd5f6-136"><dt>Wmcodecdsp.h</dt></span></span> </dl> |
-| <span data-ttu-id="dd5f6-137">DLL</span><span class="sxs-lookup"><span data-stu-id="dd5f6-137">DLL</span></span><br/>                      | <dl> <span data-ttu-id="dd5f6-138"><dt>Mfvdsp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="dd5f6-138"><dt>Mfvdsp.dll</dt></span></span> </dl>   |
+| <span data-ttu-id="8bfba-131">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8bfba-131">Minimum supported client</span></span><br/> | <span data-ttu-id="8bfba-132">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8bfba-132">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="8bfba-133">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8bfba-133">Minimum supported server</span></span><br/> | <span data-ttu-id="8bfba-134">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8bfba-134">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="8bfba-135">標頭</span><span class="sxs-lookup"><span data-stu-id="8bfba-135">Header</span></span><br/>                   | <dl> <span data-ttu-id="8bfba-136"><dt>Wmcodecdsp。h</dt></span><span class="sxs-lookup"><span data-stu-id="8bfba-136"><dt>Wmcodecdsp.h</dt></span></span> </dl> |
+| <span data-ttu-id="8bfba-137">DLL</span><span class="sxs-lookup"><span data-stu-id="8bfba-137">DLL</span></span><br/>                      | <dl> <span data-ttu-id="8bfba-138"><dt>Mfvdsp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="8bfba-138"><dt>Mfvdsp.dll</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="dd5f6-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dd5f6-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8bfba-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8bfba-139">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="dd5f6-140">數位訊號處理器</span><span class="sxs-lookup"><span data-stu-id="dd5f6-140">Digital Signal Processors</span></span>](windowsmediadigitalsignalprocessors.md)
+[<span data-ttu-id="8bfba-140">數位訊號處理器</span><span class="sxs-lookup"><span data-stu-id="8bfba-140">Digital Signal Processors</span></span>](windowsmediadigitalsignalprocessors.md)
 </dt> </dl>
 
  

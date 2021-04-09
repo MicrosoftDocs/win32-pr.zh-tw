@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685939"
 ---
-# <a name="installlayoutortipuserreg-function"></a><span data-ttu-id="e1a25-104">InstallLayoutOrTipUserReg 函式</span><span class="sxs-lookup"><span data-stu-id="e1a25-104">InstallLayoutOrTipUserReg function</span></span>
+# <a name="installlayoutortipuserreg-function"></a><span data-ttu-id="74cbe-104">InstallLayoutOrTipUserReg 函式</span><span class="sxs-lookup"><span data-stu-id="74cbe-104">InstallLayoutOrTipUserReg function</span></span>
 
-<span data-ttu-id="e1a25-105">為指定的使用者啟用指定的鍵盤配置或文字服務。</span><span class="sxs-lookup"><span data-stu-id="e1a25-105">Enables the specified keyboard layouts or text services for the specified user.</span></span>
+<span data-ttu-id="74cbe-105">為指定的使用者啟用指定的鍵盤配置或文字服務。</span><span class="sxs-lookup"><span data-stu-id="74cbe-105">Enables the specified keyboard layouts or text services for the specified user.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e1a25-106">語法</span><span class="sxs-lookup"><span data-stu-id="e1a25-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="74cbe-106">語法</span><span class="sxs-lookup"><span data-stu-id="74cbe-106">Syntax</span></span>
 
 
 ```C++
@@ -40,57 +40,57 @@ BOOL CALLBACK InstallLayoutOrTipUserReg(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="e1a25-107">參數</span><span class="sxs-lookup"><span data-stu-id="e1a25-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="74cbe-107">參數</span><span class="sxs-lookup"><span data-stu-id="74cbe-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="e1a25-108">*pszUserReg* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="e1a25-108">*pszUserReg* \[in, optional\]</span></span>
+<span data-ttu-id="74cbe-108">*pszUserReg* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="74cbe-108">*pszUserReg* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e1a25-109">使用者的登錄路徑。</span><span class="sxs-lookup"><span data-stu-id="e1a25-109">The registry path of the user.</span></span> <span data-ttu-id="e1a25-110">如果此參數為 **Null**， \_ \_ 則會使用 HKEY 目前的使用者。</span><span class="sxs-lookup"><span data-stu-id="e1a25-110">If this parameter is **NULL**, HKEY\_CURRENT\_USER is used.</span></span>
+<span data-ttu-id="74cbe-109">使用者的登錄路徑。</span><span class="sxs-lookup"><span data-stu-id="74cbe-109">The registry path of the user.</span></span> <span data-ttu-id="74cbe-110">如果此參數為 **Null**， \_ \_ 則會使用 HKEY 目前的使用者。</span><span class="sxs-lookup"><span data-stu-id="74cbe-110">If this parameter is **NULL**, HKEY\_CURRENT\_USER is used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e1a25-111">*pszSystemReg* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="e1a25-111">*pszSystemReg* \[in, optional\]</span></span>
+<span data-ttu-id="74cbe-111">*pszSystemReg* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="74cbe-111">*pszSystemReg* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e1a25-112">系統的登錄路徑。</span><span class="sxs-lookup"><span data-stu-id="e1a25-112">The registry path of the system.</span></span> <span data-ttu-id="e1a25-113">如果此參數為 **Null**， \_ \_ \\ 則會使用 HKEY 本機電腦系統。</span><span class="sxs-lookup"><span data-stu-id="e1a25-113">If this parameter is **NULL**, HKEY\_LOCAL\_MACHINE\\System is used.</span></span>
+<span data-ttu-id="74cbe-112">系統的登錄路徑。</span><span class="sxs-lookup"><span data-stu-id="74cbe-112">The registry path of the system.</span></span> <span data-ttu-id="74cbe-113">如果此參數為 **Null**， \_ \_ \\ 則會使用 HKEY 本機電腦系統。</span><span class="sxs-lookup"><span data-stu-id="74cbe-113">If this parameter is **NULL**, HKEY\_LOCAL\_MACHINE\\System is used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e1a25-114">*pszSoftwareReg* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="e1a25-114">*pszSoftwareReg* \[in, optional\]</span></span>
+<span data-ttu-id="74cbe-114">*pszSoftwareReg* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="74cbe-114">*pszSoftwareReg* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e1a25-115">軟體的登錄路徑。</span><span class="sxs-lookup"><span data-stu-id="e1a25-115">The registry path of the software.</span></span> <span data-ttu-id="e1a25-116">如果此參數為 **Null**， \_ \_ \\ 則會使用 HKEY 本機電腦軟體。</span><span class="sxs-lookup"><span data-stu-id="e1a25-116">If this parameter is **NULL**, HKEY\_LOCAL\_MACHINE\\Software is used.</span></span>
+<span data-ttu-id="74cbe-115">軟體的登錄路徑。</span><span class="sxs-lookup"><span data-stu-id="74cbe-115">The registry path of the software.</span></span> <span data-ttu-id="74cbe-116">如果此參數為 **Null**， \_ \_ \\ 則會使用 HKEY 本機電腦軟體。</span><span class="sxs-lookup"><span data-stu-id="74cbe-116">If this parameter is **NULL**, HKEY\_LOCAL\_MACHINE\\Software is used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e1a25-117">*psz* \[在\]</span><span class="sxs-lookup"><span data-stu-id="e1a25-117">*psz* \[in\]</span></span>
+<span data-ttu-id="74cbe-117">*psz* \[在\]</span><span class="sxs-lookup"><span data-stu-id="74cbe-117">*psz* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e1a25-118">表示鍵盤配置清單或文字服務配置檔案清單的字串。</span><span class="sxs-lookup"><span data-stu-id="e1a25-118">A string that represents the keyboard layout list or text services profile list.</span></span>
+<span data-ttu-id="74cbe-118">表示鍵盤配置清單或文字服務配置檔案清單的字串。</span><span class="sxs-lookup"><span data-stu-id="74cbe-118">A string that represents the keyboard layout list or text services profile list.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e1a25-119">*dwFlags* \[在\]</span><span class="sxs-lookup"><span data-stu-id="e1a25-119">*dwFlags* \[in\]</span></span>
+<span data-ttu-id="74cbe-119">*dwFlags* \[在\]</span><span class="sxs-lookup"><span data-stu-id="74cbe-119">*dwFlags* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e1a25-120">指定下列旗標的位位。</span><span class="sxs-lookup"><span data-stu-id="e1a25-120">A bitfield that specifies the following flags.</span></span>
+<span data-ttu-id="74cbe-120">指定下列旗標的位位。</span><span class="sxs-lookup"><span data-stu-id="74cbe-120">A bitfield that specifies the following flags.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="e1a25-121">下列識別碼未在公用標頭檔中定義。</span><span class="sxs-lookup"><span data-stu-id="e1a25-121">The following identifiers are not defined in a public header file.</span></span> <span data-ttu-id="e1a25-122">您必須使用十六進位值或 \# 定義識別碼。</span><span class="sxs-lookup"><span data-stu-id="e1a25-122">You must either use the hexadecimal value or \#define the identifiers.</span></span> <span data-ttu-id="e1a25-123">例如，若要使用 **ILOT \_ 卸載** ，您必須 `#define ILOT_UNINSTALL 0x00000001` 將程式碼包含在程式碼中。</span><span class="sxs-lookup"><span data-stu-id="e1a25-123">For example, to use **ILOT\_UNINSTALL** you must include `#define ILOT_UNINSTALL 0x00000001` in your code.</span></span>
+> <span data-ttu-id="74cbe-121">下列識別碼未在公用標頭檔中定義。</span><span class="sxs-lookup"><span data-stu-id="74cbe-121">The following identifiers are not defined in a public header file.</span></span> <span data-ttu-id="74cbe-122">您必須使用十六進位值或 \# 定義識別碼。</span><span class="sxs-lookup"><span data-stu-id="74cbe-122">You must either use the hexadecimal value or \#define the identifiers.</span></span> <span data-ttu-id="74cbe-123">例如，若要使用 **ILOT \_ 卸載** ，您必須 `#define ILOT_UNINSTALL 0x00000001` 將程式碼包含在程式碼中。</span><span class="sxs-lookup"><span data-stu-id="74cbe-123">For example, to use **ILOT\_UNINSTALL** you must include `#define ILOT_UNINSTALL 0x00000001` in your code.</span></span>
 
  
 
 
 
-| <span data-ttu-id="e1a25-124">值</span><span class="sxs-lookup"><span data-stu-id="e1a25-124">Value</span></span>                                                                                                                                                                                                                                                                      | <span data-ttu-id="e1a25-125">意義</span><span class="sxs-lookup"><span data-stu-id="e1a25-125">Meaning</span></span>                                                                    |
+| <span data-ttu-id="74cbe-124">值</span><span class="sxs-lookup"><span data-stu-id="74cbe-124">Value</span></span>                                                                                                                                                                                                                                                                      | <span data-ttu-id="74cbe-125">意義</span><span class="sxs-lookup"><span data-stu-id="74cbe-125">Meaning</span></span>                                                                    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| <span id="ILOT_UNINSTALL"></span><span id="ilot_uninstall"></span><dl> <span data-ttu-id="e1a25-126"><dt>**ILOT \_卸載**</dt> <dt>0x00000001</dt></span><span class="sxs-lookup"><span data-stu-id="e1a25-126"><dt>**ILOT\_UNINSTALL**</dt> <dt>0x00000001</dt></span></span> </dl>                                           | <span data-ttu-id="e1a25-127">與 **ILOT \_ 已停用**。</span><span class="sxs-lookup"><span data-stu-id="e1a25-127">Same as **ILOT\_DISABLED**.</span></span><br/>                                     |
-| <span id="ILOT_DEFPROFILE"></span><span id="ilot_defprofile"></span><dl> <span data-ttu-id="e1a25-128"><dt>**ILOT \_DEFPROFILE**</dt> <dt>0x00000002</dt></span><span class="sxs-lookup"><span data-stu-id="e1a25-128"><dt>**ILOT\_DEFPROFILE**</dt> <dt>0x00000002</dt></span></span> </dl>                                        | <span data-ttu-id="e1a25-129">將指定的版面配置或提示設定為預設專案。</span><span class="sxs-lookup"><span data-stu-id="e1a25-129">Sets the specified layout or tip as a default item.</span></span><br/>             |
-| <span id="ILOT_NOAPPLYTOCURRENTSESSION"></span><span id="ilot_noapplytocurrentsession"></span><dl> <span data-ttu-id="e1a25-130"><dt>**ILOT \_NOAPPLYTOCURRENTSESSION**</dt> <dt>0x00000020</dt></span><span class="sxs-lookup"><span data-stu-id="e1a25-130"><dt>**ILOT\_NOAPPLYTOCURRENTSESSION**</dt> <dt>0x00000020</dt></span></span> </dl> | <span data-ttu-id="e1a25-131">這項設定會儲存，但不會套用到目前的會話。</span><span class="sxs-lookup"><span data-stu-id="e1a25-131">The setting is saved but is not applied to the current session.</span></span><br/> |
-| <span id="ILOT_CLEANINSTALL"></span><span id="ilot_cleaninstall"></span><dl> <span data-ttu-id="e1a25-132"><dt>**ILOT \_CLEANINSTALL**</dt> <dt>0x00000040</dt></span><span class="sxs-lookup"><span data-stu-id="e1a25-132"><dt>**ILOT\_CLEANINSTALL**</dt> <dt>0x00000040</dt></span></span> </dl>                                  | <span data-ttu-id="e1a25-133">停用所有目前的鍵盤配置和文字服務。</span><span class="sxs-lookup"><span data-stu-id="e1a25-133">Disables all of the current keyboard layouts and text services.</span></span><br/> |
-| <span id="ILOT_DISABLED"></span><span id="ilot_disabled"></span><dl> <span data-ttu-id="e1a25-134"><dt>**ILOT \_停用**</dt>的 <dt>0x00000080</dt></span><span class="sxs-lookup"><span data-stu-id="e1a25-134"><dt>**ILOT\_DISABLED**</dt> <dt>0x00000080</dt></span></span> </dl>                                              | <span data-ttu-id="e1a25-135">停用指定的鍵盤配置和文字服務。</span><span class="sxs-lookup"><span data-stu-id="e1a25-135">Disables the specified keyboard layout and text service.</span></span><br/>        |
+| <span id="ILOT_UNINSTALL"></span><span id="ilot_uninstall"></span><dl> <span data-ttu-id="74cbe-126"><dt>**ILOT \_卸載**</dt> <dt>0x00000001</dt></span><span class="sxs-lookup"><span data-stu-id="74cbe-126"><dt>**ILOT\_UNINSTALL**</dt> <dt>0x00000001</dt></span></span> </dl>                                           | <span data-ttu-id="74cbe-127">與 **ILOT \_ 已停用**。</span><span class="sxs-lookup"><span data-stu-id="74cbe-127">Same as **ILOT\_DISABLED**.</span></span><br/>                                     |
+| <span id="ILOT_DEFPROFILE"></span><span id="ilot_defprofile"></span><dl> <span data-ttu-id="74cbe-128"><dt>**ILOT \_DEFPROFILE**</dt> <dt>0x00000002</dt></span><span class="sxs-lookup"><span data-stu-id="74cbe-128"><dt>**ILOT\_DEFPROFILE**</dt> <dt>0x00000002</dt></span></span> </dl>                                        | <span data-ttu-id="74cbe-129">將指定的版面配置或提示設定為預設專案。</span><span class="sxs-lookup"><span data-stu-id="74cbe-129">Sets the specified layout or tip as a default item.</span></span><br/>             |
+| <span id="ILOT_NOAPPLYTOCURRENTSESSION"></span><span id="ilot_noapplytocurrentsession"></span><dl> <span data-ttu-id="74cbe-130"><dt>**ILOT \_NOAPPLYTOCURRENTSESSION**</dt> <dt>0x00000020</dt></span><span class="sxs-lookup"><span data-stu-id="74cbe-130"><dt>**ILOT\_NOAPPLYTOCURRENTSESSION**</dt> <dt>0x00000020</dt></span></span> </dl> | <span data-ttu-id="74cbe-131">這項設定會儲存，但不會套用到目前的會話。</span><span class="sxs-lookup"><span data-stu-id="74cbe-131">The setting is saved but is not applied to the current session.</span></span><br/> |
+| <span id="ILOT_CLEANINSTALL"></span><span id="ilot_cleaninstall"></span><dl> <span data-ttu-id="74cbe-132"><dt>**ILOT \_CLEANINSTALL**</dt> <dt>0x00000040</dt></span><span class="sxs-lookup"><span data-stu-id="74cbe-132"><dt>**ILOT\_CLEANINSTALL**</dt> <dt>0x00000040</dt></span></span> </dl>                                  | <span data-ttu-id="74cbe-133">停用所有目前的鍵盤配置和文字服務。</span><span class="sxs-lookup"><span data-stu-id="74cbe-133">Disables all of the current keyboard layouts and text services.</span></span><br/> |
+| <span id="ILOT_DISABLED"></span><span id="ilot_disabled"></span><dl> <span data-ttu-id="74cbe-134"><dt>**ILOT \_停用**</dt>的 <dt>0x00000080</dt></span><span class="sxs-lookup"><span data-stu-id="74cbe-134"><dt>**ILOT\_DISABLED**</dt> <dt>0x00000080</dt></span></span> </dl>                                              | <span data-ttu-id="74cbe-135">停用指定的鍵盤配置和文字服務。</span><span class="sxs-lookup"><span data-stu-id="74cbe-135">Disables the specified keyboard layout and text service.</span></span><br/>        |
 
 
 
@@ -98,30 +98,30 @@ BOOL CALLBACK InstallLayoutOrTipUserReg(
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="e1a25-136">傳回值</span><span class="sxs-lookup"><span data-stu-id="e1a25-136">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="74cbe-136">傳回值</span><span class="sxs-lookup"><span data-stu-id="74cbe-136">Return value</span></span>
 
 
 
-| <span data-ttu-id="e1a25-137">傳回碼</span><span class="sxs-lookup"><span data-stu-id="e1a25-137">Return code</span></span>                                                                         | <span data-ttu-id="e1a25-138">Description</span><span class="sxs-lookup"><span data-stu-id="e1a25-138">Description</span></span>                               |
+| <span data-ttu-id="74cbe-137">傳回碼</span><span class="sxs-lookup"><span data-stu-id="74cbe-137">Return code</span></span>                                                                         | <span data-ttu-id="74cbe-138">Description</span><span class="sxs-lookup"><span data-stu-id="74cbe-138">Description</span></span>                               |
 |-------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <span data-ttu-id="e1a25-139"><dt>**真**</dt></span><span class="sxs-lookup"><span data-stu-id="e1a25-139"><dt>**TRUE**</dt></span></span> </dl> | <span data-ttu-id="e1a25-140">函數成功。</span><span class="sxs-lookup"><span data-stu-id="e1a25-140">The function was successful.</span></span><br/>   |
-| <dl> <span data-ttu-id="e1a25-141"><dt>**FASE**</dt></span><span class="sxs-lookup"><span data-stu-id="e1a25-141"><dt>**FASE**</dt></span></span> </dl> | <span data-ttu-id="e1a25-142">發生未指定的錯誤。</span><span class="sxs-lookup"><span data-stu-id="e1a25-142">An unspecified error occurred.</span></span><br/> |
+| <dl> <span data-ttu-id="74cbe-139"><dt>**真**</dt></span><span class="sxs-lookup"><span data-stu-id="74cbe-139"><dt>**TRUE**</dt></span></span> </dl> | <span data-ttu-id="74cbe-140">函數成功。</span><span class="sxs-lookup"><span data-stu-id="74cbe-140">The function was successful.</span></span><br/>   |
+| <dl> <span data-ttu-id="74cbe-141"><dt>**FASE**</dt></span><span class="sxs-lookup"><span data-stu-id="74cbe-141"><dt>**FASE**</dt></span></span> </dl> | <span data-ttu-id="74cbe-142">發生未指定的錯誤。</span><span class="sxs-lookup"><span data-stu-id="74cbe-142">An unspecified error occurred.</span></span><br/> |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="e1a25-143">備註</span><span class="sxs-lookup"><span data-stu-id="e1a25-143">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="74cbe-143">備註</span><span class="sxs-lookup"><span data-stu-id="74cbe-143">Remarks</span></span>
 
-<span data-ttu-id="e1a25-144">版面配置清單的字串格式為：</span><span class="sxs-lookup"><span data-stu-id="e1a25-144">The string format of the layout list is:</span></span>
+<span data-ttu-id="74cbe-144">版面配置清單的字串格式為：</span><span class="sxs-lookup"><span data-stu-id="74cbe-144">The string format of the layout list is:</span></span>
 
-<span data-ttu-id="e1a25-145"><LangID 1>： <KLID 1>; \[...<LangID N>:<KLID N></span><span class="sxs-lookup"><span data-stu-id="e1a25-145"><LangID 1>:<KLID 1>;\[...<LangID N>:<KLID N></span></span>
+<span data-ttu-id="74cbe-145"><LangID 1>： <KLID 1>; \[...<LangID N>:<KLID N></span><span class="sxs-lookup"><span data-stu-id="74cbe-145"><LangID 1>:<KLID 1>;\[...<LangID N>:<KLID N></span></span>
 
-<span data-ttu-id="e1a25-146">文字服務配置檔案清單的字串格式為：</span><span class="sxs-lookup"><span data-stu-id="e1a25-146">The string format of the text service profile list is:</span></span>
+<span data-ttu-id="74cbe-146">文字服務配置檔案清單的字串格式為：</span><span class="sxs-lookup"><span data-stu-id="74cbe-146">The string format of the text service profile list is:</span></span>
 
-<span data-ttu-id="e1a25-147">&lt;LangID 1&gt;： {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx} {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx} {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}; < a0/</span><span class="sxs-lookup"><span data-stu-id="e1a25-147"><LangID 1>:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};</span></span>
+<span data-ttu-id="74cbe-147">&lt;LangID 1&gt;： {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx} {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx} {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}; < a0/</span><span class="sxs-lookup"><span data-stu-id="74cbe-147"><LangID 1>:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};</span></span>
 
-<span data-ttu-id="e1a25-148">以下是 *psz* 參數值的範例：</span><span class="sxs-lookup"><span data-stu-id="e1a25-148">The following is an example of a value for the *psz* parameter:</span></span>
+<span data-ttu-id="74cbe-148">以下是 *psz* 參數值的範例：</span><span class="sxs-lookup"><span data-stu-id="74cbe-148">The following is an example of a value for the *psz* parameter:</span></span>
 
 
 ```C++
@@ -132,12 +132,12 @@ BOOL CALLBACK InstallLayoutOrTipUserReg(
 
 
 
-## <a name="examples"></a><span data-ttu-id="e1a25-149">範例</span><span class="sxs-lookup"><span data-stu-id="e1a25-149">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="74cbe-149">範例</span><span class="sxs-lookup"><span data-stu-id="74cbe-149">Examples</span></span>
 
-<span data-ttu-id="e1a25-150">沒有可定義此函式的匯入程式庫，因此必須使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 和 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)取得此函式的指標。</span><span class="sxs-lookup"><span data-stu-id="e1a25-150">There is no import library available that defines this function, so it is necessary to obtain a pointer to this function using [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress).</span></span> <span data-ttu-id="e1a25-151">下列範例示範如何取得此函式的指標。</span><span class="sxs-lookup"><span data-stu-id="e1a25-151">The following example demonstrates how to obtain a pointer to this function.</span></span>
+<span data-ttu-id="74cbe-150">沒有可定義此函式的匯入程式庫，因此必須使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 和 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)取得此函式的指標。</span><span class="sxs-lookup"><span data-stu-id="74cbe-150">There is no import library available that defines this function, so it is necessary to obtain a pointer to this function using [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress).</span></span> <span data-ttu-id="74cbe-151">下列範例示範如何取得此函式的指標。</span><span class="sxs-lookup"><span data-stu-id="74cbe-151">The following example demonstrates how to obtain a pointer to this function.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="e1a25-152">不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。</span><span class="sxs-lookup"><span data-stu-id="e1a25-152">Using [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL.</span></span> <span data-ttu-id="e1a25-153">請參閱 [動態連結程式庫搜尋順序](/windows/desktop/Dlls/dynamic-link-library-search-order) ，以取得如何使用不同版本的 Microsoft Windows 正確載入 dll 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="e1a25-153">Refer to [Dynamic-Link Library Search Order](/windows/desktop/Dlls/dynamic-link-library-search-order) for information on how to correctly load DLLs with different versions of Microsoft Windows.</span></span>
+> <span data-ttu-id="74cbe-152">不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。</span><span class="sxs-lookup"><span data-stu-id="74cbe-152">Using [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL.</span></span> <span data-ttu-id="74cbe-153">請參閱 [動態連結程式庫搜尋順序](/windows/desktop/Dlls/dynamic-link-library-search-order) ，以取得如何使用不同版本的 Microsoft Windows 正確載入 dll 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="74cbe-153">Refer to [Dynamic-Link Library Search Order](/windows/desktop/Dlls/dynamic-link-library-search-order) for information on how to correctly load DLLs with different versions of Microsoft Windows.</span></span>
 
  
 
@@ -175,15 +175,15 @@ else
 
 
 
-## <a name="requirements"></a><span data-ttu-id="e1a25-154">規格需求</span><span class="sxs-lookup"><span data-stu-id="e1a25-154">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="74cbe-154">規格需求</span><span class="sxs-lookup"><span data-stu-id="74cbe-154">Requirements</span></span>
 
 
 
-| <span data-ttu-id="e1a25-155">需求</span><span class="sxs-lookup"><span data-stu-id="e1a25-155">Requirement</span></span> | <span data-ttu-id="e1a25-156">值</span><span class="sxs-lookup"><span data-stu-id="e1a25-156">Value</span></span> |
+| <span data-ttu-id="74cbe-155">需求</span><span class="sxs-lookup"><span data-stu-id="74cbe-155">Requirement</span></span> | <span data-ttu-id="74cbe-156">值</span><span class="sxs-lookup"><span data-stu-id="74cbe-156">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="e1a25-157">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e1a25-157">Minimum supported client</span></span><br/> | <span data-ttu-id="e1a25-158">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e1a25-158">Windows Vista \[desktop apps only\]</span></span><br/>                                       |
-| <span data-ttu-id="e1a25-159">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e1a25-159">Minimum supported server</span></span><br/> | <span data-ttu-id="e1a25-160">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e1a25-160">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                 |
-| <span data-ttu-id="e1a25-161">DLL</span><span class="sxs-lookup"><span data-stu-id="e1a25-161">DLL</span></span><br/>                      | <dl> <span data-ttu-id="e1a25-162"><dt>Input.dll</dt></span><span class="sxs-lookup"><span data-stu-id="e1a25-162"><dt>Input.dll</dt></span></span> </dl> |
+| <span data-ttu-id="74cbe-157">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="74cbe-157">Minimum supported client</span></span><br/> | <span data-ttu-id="74cbe-158">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="74cbe-158">Windows Vista \[desktop apps only\]</span></span><br/>                                       |
+| <span data-ttu-id="74cbe-159">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="74cbe-159">Minimum supported server</span></span><br/> | <span data-ttu-id="74cbe-160">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="74cbe-160">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="74cbe-161">DLL</span><span class="sxs-lookup"><span data-stu-id="74cbe-161">DLL</span></span><br/>                      | <dl> <span data-ttu-id="74cbe-162"><dt>Input.dll</dt></span><span class="sxs-lookup"><span data-stu-id="74cbe-162"><dt>Input.dll</dt></span></span> </dl> |
 
 
 

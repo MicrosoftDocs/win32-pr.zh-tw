@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932561"
 ---
-# <a name="examples-of-incremental-encoding"></a><span data-ttu-id="e16f5-104">遞增編碼範例</span><span class="sxs-lookup"><span data-stu-id="e16f5-104">Examples of Incremental Encoding</span></span>
+# <a name="examples-of-incremental-encoding"></a><span data-ttu-id="46ec5-104">遞增編碼範例</span><span class="sxs-lookup"><span data-stu-id="46ec5-104">Examples of Incremental Encoding</span></span>
 
-<span data-ttu-id="e16f5-105">下一節會提供範例，說明如何使用類型編碼的遞增樣式序列化控制碼。</span><span class="sxs-lookup"><span data-stu-id="e16f5-105">The following section provides an example of how to use the incremental style serializing handle for type encoding.</span></span>
+<span data-ttu-id="46ec5-105">下一節會提供範例，說明如何使用類型編碼的遞增樣式序列化控制碼。</span><span class="sxs-lookup"><span data-stu-id="46ec5-105">The following section provides an example of how to use the incremental style serializing handle for type encoding.</span></span>
 
 ``` syntax
 /* This is an acf file. MooType is defined in the idl file */
@@ -28,7 +28,7 @@ typedef [ encode,decode ] MooType;
 }
 ```
 
-<span data-ttu-id="e16f5-106">下列摘要表示相關的應用程式片段。</span><span class="sxs-lookup"><span data-stu-id="e16f5-106">The following excerpt represents the relevant application fragments.</span></span>
+<span data-ttu-id="46ec5-106">下列摘要表示相關的應用程式片段。</span><span class="sxs-lookup"><span data-stu-id="46ec5-106">The following excerpt represents the relevant application fragments.</span></span>
 
 
 ```C++
