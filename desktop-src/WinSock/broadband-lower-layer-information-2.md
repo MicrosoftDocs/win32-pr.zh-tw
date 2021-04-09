@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690416"
 ---
-# <a name="broadband-lower-layer-information"></a><span data-ttu-id="05725-103">寬頻較低層資訊</span><span class="sxs-lookup"><span data-stu-id="05725-103">Broadband Lower Layer Information</span></span>
+# <a name="broadband-lower-layer-information"></a><span data-ttu-id="36a9b-103">寬頻較低層資訊</span><span class="sxs-lookup"><span data-stu-id="36a9b-103">Broadband Lower Layer Information</span></span>
 
-<span data-ttu-id="05725-104">此區段會列出寬頻較低層級資訊的類型定義。</span><span class="sxs-lookup"><span data-stu-id="05725-104">This section lists the type definition for the broadband lower-layer information.</span></span>
+<span data-ttu-id="36a9b-104">此區段會列出寬頻較低層級資訊的類型定義。</span><span class="sxs-lookup"><span data-stu-id="36a9b-104">This section lists the type definition for the broadband lower-layer information.</span></span>
 
 ``` syntax
 #include <windows.h>

@@ -12,18 +12,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103685441"
 ---
-# <a name="c-upnp-apis"></a><span data-ttu-id="4e724-103">C (UPnP Api) </span><span class="sxs-lookup"><span data-stu-id="4e724-103">C (UPnP APIs)</span></span>
+# <a name="c-upnp-apis"></a><span data-ttu-id="0a6f9-103">C (UPnP Api) </span><span class="sxs-lookup"><span data-stu-id="0a6f9-103">C (UPnP APIs)</span></span>
 
-<span data-ttu-id="4e724-104">包含以字母 C 為開頭的 UPnP 相關詞彙。</span><span class="sxs-lookup"><span data-stu-id="4e724-104">Contains UPnP-related terms that begin with the letter C.</span></span>
+<span data-ttu-id="0a6f9-104">包含以字母 C 為開頭的 UPnP 相關詞彙。</span><span class="sxs-lookup"><span data-stu-id="0a6f9-104">Contains UPnP-related terms that begin with the letter C.</span></span>
 
-<span data-ttu-id="4e724-105">[B C](a-gly.md) [D](d-gly.md) [E](e-gly.md) F G [H](h-gly.md) I J K L M [N](n-gly.md) O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T W [](u-gly.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="4e724-105">[A](a-gly.md) B C [D](d-gly.md) [E](e-gly.md) F G [H](h-gly.md) I J K L M [N](n-gly.md) O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T [U](u-gly.md) V W X Y Z</span></span>
+<span data-ttu-id="0a6f9-105">[B C](a-gly.md) [D](d-gly.md) [E](e-gly.md) F G [H](h-gly.md) I J K L M [N](n-gly.md) O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T W [](u-gly.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="0a6f9-105">[A](a-gly.md) B C [D](d-gly.md) [E](e-gly.md) F G [H](h-gly.md) I J K L M [N](n-gly.md) O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T [U](u-gly.md) V W X Y Z</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="4e724-106"><span id="upnp.c_1_gly"></span><span id="UPNP.C_1_GLY"></span>**控制點**</span><span class="sxs-lookup"><span data-stu-id="4e724-106"><span id="upnp.c_1_gly"></span><span id="UPNP.C_1_GLY"></span>**control point**</span></span>
+<span data-ttu-id="0a6f9-106"><span id="upnp.c_1_gly"></span><span id="UPNP.C_1_GLY"></span>**控制點**</span><span class="sxs-lookup"><span data-stu-id="0a6f9-106"><span id="upnp.c_1_gly"></span><span id="UPNP.C_1_GLY"></span>**control point**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4e724-107">控制點是一種控制器 (例如，應用程式) ，可抓取裝置和服務描述、將動作傳送至服務、查詢服務狀態變數，以及接收來自服務的事件。</span><span class="sxs-lookup"><span data-stu-id="4e724-107">A control point is a controller (such as an application) that retrieves device and service descriptions, sends actions to services, queries service state variables and receives events from services.</span></span> <span data-ttu-id="4e724-108">允許使用者使用或執行裝置的應用程式（例如 CD 播放機裝置）視為控制點。</span><span class="sxs-lookup"><span data-stu-id="4e724-108">Applications that allow a user to use or run a device, such as a CD player device, are considered control points.</span></span>
+<span data-ttu-id="0a6f9-107">控制點是一種控制器 (例如，應用程式) ，可抓取裝置和服務描述、將動作傳送至服務、查詢服務狀態變數，以及接收來自服務的事件。</span><span class="sxs-lookup"><span data-stu-id="0a6f9-107">A control point is a controller (such as an application) that retrieves device and service descriptions, sends actions to services, queries service state variables and receives events from services.</span></span> <span data-ttu-id="0a6f9-108">允許使用者使用或執行裝置的應用程式（例如 CD 播放機裝置）視為控制點。</span><span class="sxs-lookup"><span data-stu-id="0a6f9-108">Applications that allow a user to use or run a device, such as a CD player device, are considered control points.</span></span>
 
 </dd> </dl>
 

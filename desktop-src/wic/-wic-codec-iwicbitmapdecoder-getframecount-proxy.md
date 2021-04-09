@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690296"
 ---
-# <a name="iwicbitmapdecoder_getframecount_proxy-function"></a><span data-ttu-id="ef66d-103">IWICBitmapDecoder \_ GetFrameCount \_ Proxy 函式</span><span class="sxs-lookup"><span data-stu-id="ef66d-103">IWICBitmapDecoder\_GetFrameCount\_Proxy function</span></span>
+# <a name="iwicbitmapdecoder_getframecount_proxy-function"></a><span data-ttu-id="afcae-103">IWICBitmapDecoder \_ GetFrameCount \_ Proxy 函式</span><span class="sxs-lookup"><span data-stu-id="afcae-103">IWICBitmapDecoder\_GetFrameCount\_Proxy function</span></span>
 
-<span data-ttu-id="ef66d-104">[**GetFrameCount**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount)方法的 Proxy 函式。</span><span class="sxs-lookup"><span data-stu-id="ef66d-104">Proxy function for the [**GetFrameCount**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount) method.</span></span>
+<span data-ttu-id="afcae-104">[**GetFrameCount**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount)方法的 Proxy 函式。</span><span class="sxs-lookup"><span data-stu-id="afcae-104">Proxy function for the [**GetFrameCount**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount) method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ef66d-105">語法</span><span class="sxs-lookup"><span data-stu-id="ef66d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="afcae-105">語法</span><span class="sxs-lookup"><span data-stu-id="afcae-105">Syntax</span></span>
 
 
 ```C++
@@ -37,45 +37,45 @@ HRESULT IWICBitmapDecoder_GetFrameCount_Proxy(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="ef66d-106">參數</span><span class="sxs-lookup"><span data-stu-id="ef66d-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="afcae-106">參數</span><span class="sxs-lookup"><span data-stu-id="afcae-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="ef66d-107">*這 \_* \[ 中的 PTR\]</span><span class="sxs-lookup"><span data-stu-id="ef66d-107">*THIS\_PTR* \[in\]</span></span>
+<span data-ttu-id="afcae-107">*這 \_* \[ 中的 PTR\]</span><span class="sxs-lookup"><span data-stu-id="afcae-107">*THIS\_PTR* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="ef66d-108">類型： \**[**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) \** _</span><span class="sxs-lookup"><span data-stu-id="ef66d-108">Type: \**[**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)\** _</span></span>
+<span data-ttu-id="afcae-108">類型： \**[**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) \** _</span><span class="sxs-lookup"><span data-stu-id="afcae-108">Type: \**[**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)\** _</span></span>
 
-<span data-ttu-id="ef66d-109">這個 [_ *IWICBitmapDecoder* \*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)物件的指標。</span><span class="sxs-lookup"><span data-stu-id="ef66d-109">Pointer to this [_ *IWICBitmapDecoder*\*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) object.</span></span>
+<span data-ttu-id="afcae-109">這個 [_ *IWICBitmapDecoder* \*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)物件的指標。</span><span class="sxs-lookup"><span data-stu-id="afcae-109">Pointer to this [_ *IWICBitmapDecoder*\*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) object.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="ef66d-110">*pCount* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="ef66d-110">*pCount* \[out\]</span></span>
+<span data-ttu-id="afcae-110">*pCount* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="afcae-110">*pCount* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="ef66d-111">類型： \**UINT \** _</span><span class="sxs-lookup"><span data-stu-id="ef66d-111">Type: \**UINT\** _</span></span>
+<span data-ttu-id="afcae-111">類型： \**UINT \** _</span><span class="sxs-lookup"><span data-stu-id="afcae-111">Type: \**UINT\** _</span></span>
 
-<span data-ttu-id="ef66d-112">指標，接收影像中的總畫面數。</span><span class="sxs-lookup"><span data-stu-id="ef66d-112">A pointer that receives the total number of frames in the image.</span></span>
+<span data-ttu-id="afcae-112">指標，接收影像中的總畫面數。</span><span class="sxs-lookup"><span data-stu-id="afcae-112">A pointer that receives the total number of frames in the image.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="ef66d-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="ef66d-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="afcae-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="afcae-113">Return value</span></span>
 
-<span data-ttu-id="ef66d-114">類型： _ *HRESULT*\*</span><span class="sxs-lookup"><span data-stu-id="ef66d-114">Type: _ *HRESULT*\*</span></span>
+<span data-ttu-id="afcae-114">類型： _ *HRESULT*\*</span><span class="sxs-lookup"><span data-stu-id="afcae-114">Type: _ *HRESULT*\*</span></span>
 
-<span data-ttu-id="ef66d-115">如果此函式成功，則會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="ef66d-115">If this function succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="ef66d-116">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="ef66d-116">Otherwise, it returns an **HRESULT** error code.</span></span>
+<span data-ttu-id="afcae-115">如果此函式成功，則會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="afcae-115">If this function succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="afcae-116">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="afcae-116">Otherwise, it returns an **HRESULT** error code.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ef66d-117">備註</span><span class="sxs-lookup"><span data-stu-id="ef66d-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="afcae-117">備註</span><span class="sxs-lookup"><span data-stu-id="afcae-117">Remarks</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="ef66d-118">需求</span><span class="sxs-lookup"><span data-stu-id="ef66d-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="afcae-118">需求</span><span class="sxs-lookup"><span data-stu-id="afcae-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="ef66d-119">需求</span><span class="sxs-lookup"><span data-stu-id="ef66d-119">Requirement</span></span> | <span data-ttu-id="ef66d-120">值</span><span class="sxs-lookup"><span data-stu-id="ef66d-120">Value</span></span> |
+| <span data-ttu-id="afcae-119">需求</span><span class="sxs-lookup"><span data-stu-id="afcae-119">Requirement</span></span> | <span data-ttu-id="afcae-120">值</span><span class="sxs-lookup"><span data-stu-id="afcae-120">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="ef66d-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ef66d-121">Minimum supported client</span></span><br/> | <span data-ttu-id="ef66d-122">Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ef66d-122">Windows XP with SP2, Windows Vista \[desktop apps only\]</span></span><br/>                                                                                              |
-| <span data-ttu-id="ef66d-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ef66d-123">Minimum supported server</span></span><br/> | <span data-ttu-id="ef66d-124">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ef66d-124">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                                                                             |
-| <span data-ttu-id="ef66d-125">DLL</span><span class="sxs-lookup"><span data-stu-id="ef66d-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ef66d-126"><dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt></span><span class="sxs-lookup"><span data-stu-id="ef66d-126"><dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt></span></span> </dl> |
+| <span data-ttu-id="afcae-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="afcae-121">Minimum supported client</span></span><br/> | <span data-ttu-id="afcae-122">Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="afcae-122">Windows XP with SP2, Windows Vista \[desktop apps only\]</span></span><br/>                                                                                              |
+| <span data-ttu-id="afcae-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="afcae-123">Minimum supported server</span></span><br/> | <span data-ttu-id="afcae-124">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="afcae-124">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                                                                             |
+| <span data-ttu-id="afcae-125">DLL</span><span class="sxs-lookup"><span data-stu-id="afcae-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="afcae-126"><dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt></span><span class="sxs-lookup"><span data-stu-id="afcae-126"><dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt></span></span> </dl> |
 
 
 

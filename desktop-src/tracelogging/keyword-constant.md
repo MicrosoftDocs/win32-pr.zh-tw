@@ -19,34 +19,34 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686211"
 ---
-# <a name="keyword-constant"></a><span data-ttu-id="6cce3-103">關鍵字常數</span><span class="sxs-lookup"><span data-stu-id="6cce3-103">Keyword constant</span></span>
+# <a name="keyword-constant"></a><span data-ttu-id="7a52b-103">關鍵字常數</span><span class="sxs-lookup"><span data-stu-id="7a52b-103">Keyword constant</span></span>
 
-<span data-ttu-id="6cce3-104">包含將在活動 s 的開始和停止事件中使用之關鍵字的值。</span><span class="sxs-lookup"><span data-stu-id="6cce3-104">Contains the value of the keyword that will be used in the activity s start and stop events.</span></span>
+<span data-ttu-id="7a52b-104">包含將在活動 s 的開始和停止事件中使用之關鍵字的值。</span><span class="sxs-lookup"><span data-stu-id="7a52b-104">Contains the value of the keyword that will be used in the activity s start and stop events.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="6cce3-105"><span id="Keyword"></span><span id="keyword"></span><span id="KEYWORD"></span>**關鍵 字**</span><span class="sxs-lookup"><span data-stu-id="6cce3-105"><span id="Keyword"></span><span id="keyword"></span><span id="KEYWORD"></span>**Keyword**</span></span>
+<span data-ttu-id="7a52b-105"><span id="Keyword"></span><span id="keyword"></span><span id="KEYWORD"></span>**關鍵 字**</span><span class="sxs-lookup"><span data-stu-id="7a52b-105"><span id="Keyword"></span><span id="keyword"></span><span id="KEYWORD"></span>**Keyword**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="6cce3-106">UINT64</span><span class="sxs-lookup"><span data-stu-id="6cce3-106">UINT64</span></span>
+<span data-ttu-id="7a52b-106">UINT64</span><span class="sxs-lookup"><span data-stu-id="7a52b-106">UINT64</span></span>
 </dt> <dt>
 
 
 
-<span data-ttu-id="6cce3-107">將在活動的開始和停止事件中使用之關鍵字的值。</span><span class="sxs-lookup"><span data-stu-id="6cce3-107">The value of the keyword that will be used in the activity s start and stop events.</span></span>
+<span data-ttu-id="7a52b-107">將在活動的開始和停止事件中使用之關鍵字的值。</span><span class="sxs-lookup"><span data-stu-id="7a52b-107">The value of the keyword that will be used in the activity s start and stop events.</span></span>
 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="6cce3-108">規格需求</span><span class="sxs-lookup"><span data-stu-id="6cce3-108">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="7a52b-108">規格需求</span><span class="sxs-lookup"><span data-stu-id="7a52b-108">Requirements</span></span>
 
 
 
-| <span data-ttu-id="6cce3-109">需求</span><span class="sxs-lookup"><span data-stu-id="6cce3-109">Requirement</span></span> | <span data-ttu-id="6cce3-110">值</span><span class="sxs-lookup"><span data-stu-id="6cce3-110">Value</span></span> |
+| <span data-ttu-id="7a52b-109">需求</span><span class="sxs-lookup"><span data-stu-id="7a52b-109">Requirement</span></span> | <span data-ttu-id="7a52b-110">值</span><span class="sxs-lookup"><span data-stu-id="7a52b-110">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="6cce3-111">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6cce3-111">Minimum supported client</span></span><br/> | <span data-ttu-id="6cce3-112">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="6cce3-112">Windows Vista</span></span><br/>                                                                          |
-| <span data-ttu-id="6cce3-113">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6cce3-113">Minimum supported server</span></span><br/> | <span data-ttu-id="6cce3-114">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="6cce3-114">Windows Server 2012 R2</span></span><br/>                                                                 |
-| <span data-ttu-id="6cce3-115">標頭</span><span class="sxs-lookup"><span data-stu-id="6cce3-115">Header</span></span><br/>                   | <dl> <span data-ttu-id="6cce3-116"><dt>Traceloggingactivity。h</dt></span><span class="sxs-lookup"><span data-stu-id="6cce3-116"><dt>Traceloggingactivity.h</dt></span></span> </dl> |
+| <span data-ttu-id="7a52b-111">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7a52b-111">Minimum supported client</span></span><br/> | <span data-ttu-id="7a52b-112">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="7a52b-112">Windows Vista</span></span><br/>                                                                          |
+| <span data-ttu-id="7a52b-113">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7a52b-113">Minimum supported server</span></span><br/> | <span data-ttu-id="7a52b-114">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="7a52b-114">Windows Server 2012 R2</span></span><br/>                                                                 |
+| <span data-ttu-id="7a52b-115">標頭</span><span class="sxs-lookup"><span data-stu-id="7a52b-115">Header</span></span><br/>                   | <dl> <span data-ttu-id="7a52b-116"><dt>Traceloggingactivity。h</dt></span><span class="sxs-lookup"><span data-stu-id="7a52b-116"><dt>Traceloggingactivity.h</dt></span></span> </dl> |
 
 
 

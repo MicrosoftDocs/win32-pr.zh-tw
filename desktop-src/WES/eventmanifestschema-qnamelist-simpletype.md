@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685464"
 ---
-# <a name="qnamelist-simple-type"></a><span data-ttu-id="1e1bc-104">QNameList 簡單類型</span><span class="sxs-lookup"><span data-stu-id="1e1bc-104">QNameList Simple Type</span></span>
+# <a name="qnamelist-simple-type"></a><span data-ttu-id="6e0c0-104">QNameList 簡單類型</span><span class="sxs-lookup"><span data-stu-id="6e0c0-104">QNameList Simple Type</span></span>
 
-<span data-ttu-id="1e1bc-105">定義限定名稱的清單。</span><span class="sxs-lookup"><span data-stu-id="1e1bc-105">Defines a list of qualified names.</span></span>
+<span data-ttu-id="6e0c0-105">定義限定名稱的清單。</span><span class="sxs-lookup"><span data-stu-id="6e0c0-105">Defines a list of qualified names.</span></span>
 
 ``` syntax
 <xs:simpleType name="QNameList">
@@ -32,14 +32,14 @@ ms.locfileid: "103685464"
 </xs:simpleType>
 ```
 
-## <a name="requirements"></a><span data-ttu-id="1e1bc-106">規格需求</span><span class="sxs-lookup"><span data-stu-id="1e1bc-106">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6e0c0-106">規格需求</span><span class="sxs-lookup"><span data-stu-id="6e0c0-106">Requirements</span></span>
 
 
 
-| <span data-ttu-id="1e1bc-107">需求</span><span class="sxs-lookup"><span data-stu-id="1e1bc-107">Requirement</span></span> | <span data-ttu-id="1e1bc-108">值</span><span class="sxs-lookup"><span data-stu-id="1e1bc-108">Value</span></span> |
+| <span data-ttu-id="6e0c0-107">需求</span><span class="sxs-lookup"><span data-stu-id="6e0c0-107">Requirement</span></span> | <span data-ttu-id="6e0c0-108">值</span><span class="sxs-lookup"><span data-stu-id="6e0c0-108">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="1e1bc-109">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1e1bc-109">Minimum supported client</span></span><br/> | <span data-ttu-id="1e1bc-110">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1e1bc-110">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="1e1bc-111">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1e1bc-111">Minimum supported server</span></span><br/> | <span data-ttu-id="1e1bc-112">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1e1bc-112">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="6e0c0-109">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6e0c0-109">Minimum supported client</span></span><br/> | <span data-ttu-id="6e0c0-110">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6e0c0-110">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="6e0c0-111">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6e0c0-111">Minimum supported server</span></span><br/> | <span data-ttu-id="6e0c0-112">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6e0c0-112">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 

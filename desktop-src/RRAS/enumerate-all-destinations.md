@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021502"
 ---
-# <a name="enumerate-all-destinations"></a><span data-ttu-id="2a230-103">列舉所有目的地</span><span class="sxs-lookup"><span data-stu-id="2a230-103">Enumerate All Destinations</span></span>
+# <a name="enumerate-all-destinations"></a><span data-ttu-id="05e04-103">列舉所有目的地</span><span class="sxs-lookup"><span data-stu-id="05e04-103">Enumerate All Destinations</span></span>
 
-<span data-ttu-id="2a230-104">下列範例程式碼顯示如何列舉路由表中的所有目的地。</span><span class="sxs-lookup"><span data-stu-id="2a230-104">The following sample code shows how to enumerate all destinations in the routing table.</span></span>
+<span data-ttu-id="05e04-104">下列範例程式碼顯示如何列舉路由表中的所有目的地。</span><span class="sxs-lookup"><span data-stu-id="05e04-104">The following sample code shows how to enumerate all destinations in the routing table.</span></span>
 
 
 ```C++

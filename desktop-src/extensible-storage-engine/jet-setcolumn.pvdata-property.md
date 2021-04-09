@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689924"
 ---
-# <a name="jet_setcolumnpvdata-property"></a><span data-ttu-id="b485e-103">JET_SETCOLUMN pvData 屬性</span><span class="sxs-lookup"><span data-stu-id="b485e-103">JET_SETCOLUMN.pvData property</span></span>
+# <a name="jet_setcolumnpvdata-property"></a><span data-ttu-id="539b5-103">JET_SETCOLUMN pvData 屬性</span><span class="sxs-lookup"><span data-stu-id="539b5-103">JET_SETCOLUMN.pvData property</span></span>
 
-<span data-ttu-id="b485e-104">取得或設定要設定之資料的指標。</span><span class="sxs-lookup"><span data-stu-id="b485e-104">Gets or sets a pointer to the data to set.</span></span>
+<span data-ttu-id="539b5-104">取得或設定要設定之資料的指標。</span><span class="sxs-lookup"><span data-stu-id="539b5-104">Gets or sets a pointer to the data to set.</span></span>
 
-<span data-ttu-id="b485e-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="b485e-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="b485e-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="b485e-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="539b5-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="539b5-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="539b5-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="539b5-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b485e-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="b485e-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="539b5-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="539b5-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.pvData = value
 public byte[] pvData { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="b485e-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="b485e-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="539b5-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="539b5-108">Property value</span></span>
 
-<span data-ttu-id="b485e-109">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="b485e-109">Type: \[\]</span></span>  
+<span data-ttu-id="539b5-109">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="539b5-109">Type: \[\]</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="b485e-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b485e-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="539b5-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="539b5-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="b485e-111">參考</span><span class="sxs-lookup"><span data-stu-id="b485e-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="539b5-111">參考</span><span class="sxs-lookup"><span data-stu-id="539b5-111">Reference</span></span>
 
-[<span data-ttu-id="b485e-112">JET_SETCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="b485e-112">JET_SETCOLUMN class</span></span>](./jet-setcolumn-class.md)
+[<span data-ttu-id="539b5-112">JET_SETCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="539b5-112">JET_SETCOLUMN class</span></span>](./jet-setcolumn-class.md)
 
-[<span data-ttu-id="b485e-113">JET_SETCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="b485e-113">JET_SETCOLUMN members</span></span>](./jet-setcolumn-members.md)
+[<span data-ttu-id="539b5-113">JET_SETCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="539b5-113">JET_SETCOLUMN members</span></span>](./jet-setcolumn-members.md)
 
-[<span data-ttu-id="b485e-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="b485e-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="539b5-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="539b5-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -16,29 +16,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021088"
 ---
-# <a name="inertia-and-manipulation-reference"></a><span data-ttu-id="1dd0c-107">慣性和操作參考</span><span class="sxs-lookup"><span data-stu-id="1dd0c-107">Inertia and Manipulation Reference</span></span>
+# <a name="inertia-and-manipulation-reference"></a><span data-ttu-id="852c2-107">慣性和操作參考</span><span class="sxs-lookup"><span data-stu-id="852c2-107">Inertia and Manipulation Reference</span></span>
 
-<span data-ttu-id="1dd0c-108">本章節包含 intertia 和操作的參考。</span><span class="sxs-lookup"><span data-stu-id="1dd0c-108">This section contains references for intertia and manipulation.</span></span>
+<span data-ttu-id="852c2-108">本章節包含 intertia 和操作的參考。</span><span class="sxs-lookup"><span data-stu-id="852c2-108">This section contains references for intertia and manipulation.</span></span>
 
-<span data-ttu-id="1dd0c-109">下列各節會組成 Windows Touch 的慣性和操作 Api。</span><span class="sxs-lookup"><span data-stu-id="1dd0c-109">The following sections make up the inertia and manipulation APIs for Windows Touch.</span></span>
+<span data-ttu-id="852c2-109">下列各節會組成 Windows Touch 的慣性和操作 Api。</span><span class="sxs-lookup"><span data-stu-id="852c2-109">The following sections make up the inertia and manipulation APIs for Windows Touch.</span></span>
 
 
 
-| <span data-ttu-id="1dd0c-110">區段</span><span class="sxs-lookup"><span data-stu-id="1dd0c-110">Section</span></span>                                                          | <span data-ttu-id="1dd0c-111">描述</span><span class="sxs-lookup"><span data-stu-id="1dd0c-111">Description</span></span>                                                       |
+| <span data-ttu-id="852c2-110">區段</span><span class="sxs-lookup"><span data-stu-id="852c2-110">Section</span></span>                                                          | <span data-ttu-id="852c2-111">描述</span><span class="sxs-lookup"><span data-stu-id="852c2-111">Description</span></span>                                                       |
 |------------------------------------------------------------------|-------------------------------------------------------------------|
-| [<span data-ttu-id="1dd0c-112">類別和介面</span><span class="sxs-lookup"><span data-stu-id="1dd0c-112">Classes and Interfaces</span></span>](intertmanip-classes-and-interfaces.md) | <span data-ttu-id="1dd0c-113">包含慣性和操作的類別和介面。</span><span class="sxs-lookup"><span data-stu-id="1dd0c-113">Contains the classes and interfaces for inertia and manipulation.</span></span> |
-| [<span data-ttu-id="1dd0c-114">常數</span><span class="sxs-lookup"><span data-stu-id="1dd0c-114">Constants</span></span>](imanipulationprocessor-constants.md)                | <span data-ttu-id="1dd0c-115">包含慣性和操作的常數。</span><span class="sxs-lookup"><span data-stu-id="1dd0c-115">Contains the constants for inertia and manipulation.</span></span>              |
-| [<span data-ttu-id="1dd0c-116">列舉</span><span class="sxs-lookup"><span data-stu-id="1dd0c-116">Enumerations</span></span>](rts-functions.md)                                | <span data-ttu-id="1dd0c-117">包含慣性和操作的列舉。</span><span class="sxs-lookup"><span data-stu-id="1dd0c-117">Contains the enumerations for inertia and manipulation.</span></span>           |
+| [<span data-ttu-id="852c2-112">類別和介面</span><span class="sxs-lookup"><span data-stu-id="852c2-112">Classes and Interfaces</span></span>](intertmanip-classes-and-interfaces.md) | <span data-ttu-id="852c2-113">包含慣性和操作的類別和介面。</span><span class="sxs-lookup"><span data-stu-id="852c2-113">Contains the classes and interfaces for inertia and manipulation.</span></span> |
+| [<span data-ttu-id="852c2-114">常數</span><span class="sxs-lookup"><span data-stu-id="852c2-114">Constants</span></span>](imanipulationprocessor-constants.md)                | <span data-ttu-id="852c2-115">包含慣性和操作的常數。</span><span class="sxs-lookup"><span data-stu-id="852c2-115">Contains the constants for inertia and manipulation.</span></span>              |
+| [<span data-ttu-id="852c2-116">列舉</span><span class="sxs-lookup"><span data-stu-id="852c2-116">Enumerations</span></span>](rts-functions.md)                                | <span data-ttu-id="852c2-117">包含慣性和操作的列舉。</span><span class="sxs-lookup"><span data-stu-id="852c2-117">Contains the enumerations for inertia and manipulation.</span></span>           |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="1dd0c-118">相關主題</span><span class="sxs-lookup"><span data-stu-id="1dd0c-118">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="852c2-118">相關主題</span><span class="sxs-lookup"><span data-stu-id="852c2-118">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="1dd0c-119">Windows Touch 程式設計參考</span><span class="sxs-lookup"><span data-stu-id="1dd0c-119">Windows Touch Programming Reference</span></span>](windows-touch-programming-reference.md)
+[<span data-ttu-id="852c2-119">Windows Touch 程式設計參考</span><span class="sxs-lookup"><span data-stu-id="852c2-119">Windows Touch Programming Reference</span></span>](windows-touch-programming-reference.md)
 </dt> </dl>
 
  

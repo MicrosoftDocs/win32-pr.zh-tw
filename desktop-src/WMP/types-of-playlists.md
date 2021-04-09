@@ -23,24 +23,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021095"
 ---
-# <a name="types-of-playlists"></a><span data-ttu-id="14b33-109">播放清單的類型</span><span class="sxs-lookup"><span data-stu-id="14b33-109">Types of Playlists</span></span>
+# <a name="types-of-playlists"></a><span data-ttu-id="51b94-109">播放清單的類型</span><span class="sxs-lookup"><span data-stu-id="51b94-109">Types of Playlists</span></span>
 
-<span data-ttu-id="14b33-110">Windows Media 中繼檔播放清單（在本檔中稱為播放清單）有. 地板蠟、. 300k.wvx 或 .asx 的副檔名。</span><span class="sxs-lookup"><span data-stu-id="14b33-110">Windows Media metafile playlists, simply referred to as playlists in this document, have .wax, .wvx, or .asx extensions.</span></span> <span data-ttu-id="14b33-111">使用這些副檔名的播放清單，可分別用來存取副檔名為 .wma、.wmv 和 .asf 的 Windows Media 檔案。</span><span class="sxs-lookup"><span data-stu-id="14b33-111">Playlists with these extensions are used to access Windows Media files with .wma, .wmv, and .asf file name extensions, respectively.</span></span>
+<span data-ttu-id="51b94-110">Windows Media 中繼檔播放清單（在本檔中稱為播放清單）有. 地板蠟、. 300k.wvx 或 .asx 的副檔名。</span><span class="sxs-lookup"><span data-stu-id="51b94-110">Windows Media metafile playlists, simply referred to as playlists in this document, have .wax, .wvx, or .asx extensions.</span></span> <span data-ttu-id="51b94-111">使用這些副檔名的播放清單，可分別用來存取副檔名為 .wma、.wmv 和 .asf 的 Windows Media 檔案。</span><span class="sxs-lookup"><span data-stu-id="51b94-111">Playlists with these extensions are used to access Windows Media files with .wma, .wmv, and .asf file name extensions, respectively.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="14b33-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="14b33-112">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="51b94-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="51b94-112">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="14b33-113">**中繼檔延伸指導方針**</span><span class="sxs-lookup"><span data-stu-id="14b33-113">**Metafile Extension Guidelines**</span></span>](metafile-extension-guidelines.md)
+[<span data-ttu-id="51b94-113">**中繼檔延伸指導方針**</span><span class="sxs-lookup"><span data-stu-id="51b94-113">**Metafile Extension Guidelines**</span></span>](metafile-extension-guidelines.md)
 </dt> <dt>
 
-[<span data-ttu-id="14b33-114">**使用中繼檔播放清單**</span><span class="sxs-lookup"><span data-stu-id="14b33-114">**Using Metafile Playlists**</span></span>](using-metafile-playlists.md)
+[<span data-ttu-id="51b94-114">**使用中繼檔播放清單**</span><span class="sxs-lookup"><span data-stu-id="51b94-114">**Using Metafile Playlists**</span></span>](using-metafile-playlists.md)
 </dt> <dt>
 
-[<span data-ttu-id="14b33-115">**Windows Media 中繼檔元素參考**</span><span class="sxs-lookup"><span data-stu-id="14b33-115">**Windows Media Metafile Elements Reference**</span></span>](windows-media-metafile-elements-reference.md)
+[<span data-ttu-id="51b94-115">**Windows Media 中繼檔元素參考**</span><span class="sxs-lookup"><span data-stu-id="51b94-115">**Windows Media Metafile Elements Reference**</span></span>](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="14b33-116">**Windows Media 中繼檔指南**</span><span class="sxs-lookup"><span data-stu-id="14b33-116">**Windows Media Metafile Guide**</span></span>](windows-media-metafile-guide.md)
+[<span data-ttu-id="51b94-116">**Windows Media 中繼檔指南**</span><span class="sxs-lookup"><span data-stu-id="51b94-116">**Windows Media Metafile Guide**</span></span>](windows-media-metafile-guide.md)
 </dt> </dl>
 
  
