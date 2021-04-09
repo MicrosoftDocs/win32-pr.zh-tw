@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104022059"
 ---
-# <a name="opening-the-playback-window"></a><span data-ttu-id="6784d-104">開啟播放視窗</span><span class="sxs-lookup"><span data-stu-id="6784d-104">Opening the Playback Window</span></span>
+# <a name="opening-the-playback-window"></a><span data-ttu-id="1caa0-104">開啟播放視窗</span><span class="sxs-lookup"><span data-stu-id="1caa0-104">Opening the Playback Window</span></span>
 
-<span data-ttu-id="6784d-105">下列範例示範如何使用 [**MCI \_ OPEN**](mci-open.md) 命令來設定父視窗，並建立該視窗的子系。</span><span class="sxs-lookup"><span data-stu-id="6784d-105">The following example shows how to use the [**MCI\_OPEN**](mci-open.md) command to set a parent window and create a child of that window.</span></span>
+<span data-ttu-id="1caa0-105">下列範例示範如何使用 [**MCI \_ OPEN**](mci-open.md) 命令來設定父視窗，並建立該視窗的子系。</span><span class="sxs-lookup"><span data-stu-id="1caa0-105">The following example shows how to use the [**MCI\_OPEN**](mci-open.md) command to set a parent window and create a child of that window.</span></span>
 
 
 ```C++

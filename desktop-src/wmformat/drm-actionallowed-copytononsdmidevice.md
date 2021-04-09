@@ -19,29 +19,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/19/2020
 ms.locfileid: "104023070"
 ---
-# <a name="drm_actionallowed_copytononsdmidevice"></a><span data-ttu-id="98fcf-104">DRM \_ ActionAllowed \_ CopyToNonSDMIDevice</span><span class="sxs-lookup"><span data-stu-id="98fcf-104">DRM\_ActionAllowed\_CopyToNonSDMIDevice</span></span>
+# <a name="drm_actionallowed_copytononsdmidevice"></a><span data-ttu-id="332d8-104">DRM \_ ActionAllowed \_ CopyToNonSDMIDevice</span><span class="sxs-lookup"><span data-stu-id="332d8-104">DRM\_ActionAllowed\_CopyToNonSDMIDevice</span></span>
 
-<span data-ttu-id="98fcf-105">**DRM \_ ActionAllowed \_ CopyToNonSDMIDevice** 屬性會指出是否允許將內容複寫到非 SDMI 裝置</span><span class="sxs-lookup"><span data-stu-id="98fcf-105">The **DRM\_ActionAllowed\_CopyToNonSDMIDevice** attribute indicates whether the content is allowed to be copied to a non-SDMI device</span></span>
+<span data-ttu-id="332d8-105">**DRM \_ ActionAllowed \_ CopyToNonSDMIDevice** 屬性會指出是否允許將內容複寫到非 SDMI 裝置</span><span class="sxs-lookup"><span data-stu-id="332d8-105">The **DRM\_ActionAllowed\_CopyToNonSDMIDevice** attribute indicates whether the content is allowed to be copied to a non-SDMI device</span></span>
 
-## <a name="global-constant"></a><span data-ttu-id="98fcf-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="98fcf-106">Global Constant</span></span>
+## <a name="global-constant"></a><span data-ttu-id="332d8-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="332d8-106">Global Constant</span></span>
 
-<span data-ttu-id="98fcf-107">g \_ wszWMDRM \_ ActionAllowed \_ CopyToNonSDMIDevice</span><span class="sxs-lookup"><span data-stu-id="98fcf-107">g\_wszWMDRM\_ActionAllowed\_CopyToNonSDMIDevice</span></span>
+<span data-ttu-id="332d8-107">g \_ wszWMDRM \_ ActionAllowed \_ CopyToNonSDMIDevice</span><span class="sxs-lookup"><span data-stu-id="332d8-107">g\_wszWMDRM\_ActionAllowed\_CopyToNonSDMIDevice</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="98fcf-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="98fcf-108">Data Type</span></span>
+## <a name="data-type"></a><span data-ttu-id="332d8-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="332d8-108">Data Type</span></span>
 
-<span data-ttu-id="98fcf-109">**WMT \_ 類型 \_ BOOL**</span><span class="sxs-lookup"><span data-stu-id="98fcf-109">**WMT\_TYPE\_BOOL**</span></span>
+<span data-ttu-id="332d8-109">**WMT \_ 類型 \_ BOOL**</span><span class="sxs-lookup"><span data-stu-id="332d8-109">**WMT\_TYPE\_BOOL**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="98fcf-110">備註</span><span class="sxs-lookup"><span data-stu-id="98fcf-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="332d8-110">備註</span><span class="sxs-lookup"><span data-stu-id="332d8-110">Remarks</span></span>
 
-<span data-ttu-id="98fcf-111">Windows Media DRM 10 授權使用複製動作來限制複製到裝置。</span><span class="sxs-lookup"><span data-stu-id="98fcf-111">Windows Media DRM 10 licenses use the Copy action to restrict copying to devices.</span></span> <span data-ttu-id="98fcf-112">您應該檢查 [**DRM \_ ActionAllowed \_ Copy**](drm-actionallowed-copy.md) 屬性，以判斷是否允許複製。</span><span class="sxs-lookup"><span data-stu-id="98fcf-112">You should check the [**DRM\_ActionAllowed\_Copy**](drm-actionallowed-copy.md) property to determine whether copying is allowed.</span></span>
+<span data-ttu-id="332d8-111">Windows Media DRM 10 授權使用複製動作來限制複製到裝置。</span><span class="sxs-lookup"><span data-stu-id="332d8-111">Windows Media DRM 10 licenses use the Copy action to restrict copying to devices.</span></span> <span data-ttu-id="332d8-112">您應該檢查 [**DRM \_ ActionAllowed \_ Copy**](drm-actionallowed-copy.md) 屬性，以判斷是否允許複製。</span><span class="sxs-lookup"><span data-stu-id="332d8-112">You should check the [**DRM\_ActionAllowed\_Copy**](drm-actionallowed-copy.md) property to determine whether copying is allowed.</span></span>
 
-<span data-ttu-id="98fcf-113">這是使用 [**IWMDRMReader：： GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty)取出的唯讀屬性。</span><span class="sxs-lookup"><span data-stu-id="98fcf-113">This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).</span></span>
+<span data-ttu-id="332d8-113">這是使用 [**IWMDRMReader：： GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty)取出的唯讀屬性。</span><span class="sxs-lookup"><span data-stu-id="332d8-113">This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="98fcf-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="98fcf-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="332d8-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="332d8-114">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="98fcf-115">**DRM 屬性**</span><span class="sxs-lookup"><span data-stu-id="98fcf-115">**DRM Properties**</span></span>](drm-properties.md)
+[<span data-ttu-id="332d8-115">**DRM 屬性**</span><span class="sxs-lookup"><span data-stu-id="332d8-115">**DRM Properties**</span></span>](drm-properties.md)
 </dt> </dl>
 
  

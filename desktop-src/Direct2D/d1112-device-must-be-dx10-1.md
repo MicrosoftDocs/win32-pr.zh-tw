@@ -20,23 +20,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 06/11/2020
 ms.locfileid: "104023186"
 ---
-# <a name="d1112-device-must-be-dx11"></a><span data-ttu-id="3592f-104">D1112：裝置必須是 DX11 相互作用</span><span class="sxs-lookup"><span data-stu-id="3592f-104">D1112: Device Must Be DX11</span></span>
+# <a name="d1112-device-must-be-dx11"></a><span data-ttu-id="9741f-104">D1112：裝置必須是 DX11 相互作用</span><span class="sxs-lookup"><span data-stu-id="9741f-104">D1112: Device Must Be DX11</span></span>
 
-<span data-ttu-id="3592f-105">與 DXGI 介面相關聯的裝置必須是 D3D11 裝置。</span><span class="sxs-lookup"><span data-stu-id="3592f-105">The device associated with the DXGI surface must be a D3D11 device.</span></span>
+<span data-ttu-id="9741f-105">與 DXGI 介面相關聯的裝置必須是 D3D11 裝置。</span><span class="sxs-lookup"><span data-stu-id="9741f-105">The device associated with the DXGI surface must be a D3D11 device.</span></span>
 
 
 
 |             |         |
 |-------------|---------|
-| <span data-ttu-id="3592f-106">錯誤層級</span><span class="sxs-lookup"><span data-stu-id="3592f-106">Error Level</span></span> | <span data-ttu-id="3592f-107">警告</span><span class="sxs-lookup"><span data-stu-id="3592f-107">Warning</span></span> |
+| <span data-ttu-id="9741f-106">錯誤層級</span><span class="sxs-lookup"><span data-stu-id="9741f-106">Error Level</span></span> | <span data-ttu-id="9741f-107">警告</span><span class="sxs-lookup"><span data-stu-id="9741f-107">Warning</span></span> |
 
 
 
  
 
-## <a name="possible-causes"></a><span data-ttu-id="3592f-108">可能的原因</span><span class="sxs-lookup"><span data-stu-id="3592f-108">Possible Causes</span></span>
+## <a name="possible-causes"></a><span data-ttu-id="9741f-108">可能的原因</span><span class="sxs-lookup"><span data-stu-id="9741f-108">Possible Causes</span></span>
 
-<span data-ttu-id="3592f-109">嘗試使用 [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) 搭配非 Direct3D11 裝置所建立的 DXGI 介面。</span><span class="sxs-lookup"><span data-stu-id="3592f-109">There was an attempt to use the [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) with a DXGI surface created by a non-Direct3D11 device.</span></span>
+<span data-ttu-id="9741f-109">嘗試使用 [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) 搭配非 Direct3D11 裝置所建立的 DXGI 介面。</span><span class="sxs-lookup"><span data-stu-id="9741f-109">There was an attempt to use the [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) with a DXGI surface created by a non-Direct3D11 device.</span></span>
 
  
 

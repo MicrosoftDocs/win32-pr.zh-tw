@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "104023212"
 ---
-# <a name="specifying-other-search-options"></a><span data-ttu-id="608ec-105">指定其他搜尋選項</span><span class="sxs-lookup"><span data-stu-id="608ec-105">Specifying Other Search Options</span></span>
+# <a name="specifying-other-search-options"></a><span data-ttu-id="42cca-105">指定其他搜尋選項</span><span class="sxs-lookup"><span data-stu-id="42cca-105">Specifying Other Search Options</span></span>
 
-<span data-ttu-id="608ec-106">Active Directory Domain Services 支援搜尋技術所提供的大部分搜尋選項。</span><span class="sxs-lookup"><span data-stu-id="608ec-106">Active Directory Domain Services support most search options provided by the search technology.</span></span> <span data-ttu-id="608ec-107">如需其他搜尋選項的詳細資訊，請參閱 [使用 >idirectorysearch 指定其他搜尋選項](/windows/desktop/ADSI/specifying-other-search-options-with-idirectorysearch)。</span><span class="sxs-lookup"><span data-stu-id="608ec-107">For more information about additional search options, see [Specifying Other Search Options with IDirectorySearch](/windows/desktop/ADSI/specifying-other-search-options-with-idirectorysearch).</span></span>
+<span data-ttu-id="42cca-106">Active Directory Domain Services 支援搜尋技術所提供的大部分搜尋選項。</span><span class="sxs-lookup"><span data-stu-id="42cca-106">Active Directory Domain Services support most search options provided by the search technology.</span></span> <span data-ttu-id="42cca-107">如需其他搜尋選項的詳細資訊，請參閱 [使用 >idirectorysearch 指定其他搜尋選項](/windows/desktop/ADSI/specifying-other-search-options-with-idirectorysearch)。</span><span class="sxs-lookup"><span data-stu-id="42cca-107">For more information about additional search options, see [Specifying Other Search Options with IDirectorySearch](/windows/desktop/ADSI/specifying-other-search-options-with-idirectorysearch).</span></span>
 
  
 

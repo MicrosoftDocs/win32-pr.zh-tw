@@ -19,26 +19,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/19/2020
 ms.locfileid: "104023050"
 ---
-# <a name="dsp-plug-in-enumeration-types"></a><span data-ttu-id="4a223-110">DSP 外掛程式列舉類型</span><span class="sxs-lookup"><span data-stu-id="4a223-110">DSP Plug-in Enumeration Types</span></span>
+# <a name="dsp-plug-in-enumeration-types"></a><span data-ttu-id="78cef-110">DSP 外掛程式列舉類型</span><span class="sxs-lookup"><span data-stu-id="78cef-110">DSP Plug-in Enumeration Types</span></span>
 
-<span data-ttu-id="4a223-111">Windows Media Player SDK 會實作為建立 DSP 外掛程式的下列列舉型別。</span><span class="sxs-lookup"><span data-stu-id="4a223-111">The Windows Media Player SDK implements the following enumeration type for creating DSP plug-ins.</span></span>
+<span data-ttu-id="78cef-111">Windows Media Player SDK 會實作為建立 DSP 外掛程式的下列列舉型別。</span><span class="sxs-lookup"><span data-stu-id="78cef-111">The Windows Media Player SDK implements the following enumeration type for creating DSP plug-ins.</span></span>
 
 
 
-| <span data-ttu-id="4a223-112">列舉類型</span><span class="sxs-lookup"><span data-stu-id="4a223-112">Enumeration Type</span></span>                                        | <span data-ttu-id="4a223-113">Description</span><span class="sxs-lookup"><span data-stu-id="4a223-113">Description</span></span>                                                                                    |
+| <span data-ttu-id="78cef-112">列舉類型</span><span class="sxs-lookup"><span data-stu-id="78cef-112">Enumeration Type</span></span>                                        | <span data-ttu-id="78cef-113">Description</span><span class="sxs-lookup"><span data-stu-id="78cef-113">Description</span></span>                                                                                    |
 |---------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="4a223-114">WMPPlugin \_ 帽</span><span class="sxs-lookup"><span data-stu-id="4a223-114">WMPPlugin\_Caps</span></span>](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps)                   | <span data-ttu-id="4a223-115">搭配 **IWMPPlugin：： GetCaps** 使用，指出外掛程式是否可以在格式之間轉換。</span><span class="sxs-lookup"><span data-stu-id="4a223-115">Used with **IWMPPlugin::GetCaps** to indicate whether the plug-in can convert between formats.</span></span> |
-| [<span data-ttu-id="4a223-116">WMPServices \_ StreamState</span><span class="sxs-lookup"><span data-stu-id="4a223-116">WMPServices\_StreamState</span></span>](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate) | <span data-ttu-id="4a223-117">表示資料流程目前已停止、已暫停或現正播放。</span><span class="sxs-lookup"><span data-stu-id="4a223-117">Indicates the whether the stream is currently stopped, paused, or playing.</span></span>                     |
+| [<span data-ttu-id="78cef-114">WMPPlugin \_ 帽</span><span class="sxs-lookup"><span data-stu-id="78cef-114">WMPPlugin\_Caps</span></span>](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps)                   | <span data-ttu-id="78cef-115">搭配 **IWMPPlugin：： GetCaps** 使用，指出外掛程式是否可以在格式之間轉換。</span><span class="sxs-lookup"><span data-stu-id="78cef-115">Used with **IWMPPlugin::GetCaps** to indicate whether the plug-in can convert between formats.</span></span> |
+| [<span data-ttu-id="78cef-116">WMPServices \_ StreamState</span><span class="sxs-lookup"><span data-stu-id="78cef-116">WMPServices\_StreamState</span></span>](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate) | <span data-ttu-id="78cef-117">表示資料流程目前已停止、已暫停或現正播放。</span><span class="sxs-lookup"><span data-stu-id="78cef-117">Indicates the whether the stream is currently stopped, paused, or playing.</span></span>                     |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="4a223-118">相關主題</span><span class="sxs-lookup"><span data-stu-id="4a223-118">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="78cef-118">相關主題</span><span class="sxs-lookup"><span data-stu-id="78cef-118">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4a223-119">**DSP 外掛程式程式設計參考**</span><span class="sxs-lookup"><span data-stu-id="4a223-119">**DSP Plug-ins Programming Reference**</span></span>](dsp-plug-ins-programming-reference.md)
+[<span data-ttu-id="78cef-119">**DSP 外掛程式程式設計參考**</span><span class="sxs-lookup"><span data-stu-id="78cef-119">**DSP Plug-ins Programming Reference**</span></span>](dsp-plug-ins-programming-reference.md)
 </dt> </dl>
 
  

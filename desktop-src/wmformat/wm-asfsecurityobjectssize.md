@@ -19,29 +19,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/19/2020
 ms.locfileid: "104023020"
 ---
-# <a name="wmasfsecurityobjectssize"></a><span data-ttu-id="2b4f9-104">WM/ASFSecurityObjectsSize</span><span class="sxs-lookup"><span data-stu-id="2b4f9-104">WM/ASFSecurityObjectsSize</span></span>
+# <a name="wmasfsecurityobjectssize"></a><span data-ttu-id="3d8e7-104">WM/ASFSecurityObjectsSize</span><span class="sxs-lookup"><span data-stu-id="3d8e7-104">WM/ASFSecurityObjectsSize</span></span>
 
-<span data-ttu-id="2b4f9-105">**WM/ASFSecurityObjectsSize** 屬性包含 ASF 檔案標頭中 DRM 相關物件的大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="2b4f9-105">The **WM/ASFSecurityObjectsSize** attribute contains the size, in bytes, of the DRM-related objects in the header of the ASF file.</span></span>
+<span data-ttu-id="3d8e7-105">**WM/ASFSecurityObjectsSize** 屬性包含 ASF 檔案標頭中 DRM 相關物件的大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="3d8e7-105">The **WM/ASFSecurityObjectsSize** attribute contains the size, in bytes, of the DRM-related objects in the header of the ASF file.</span></span>
 
-## <a name="global-constant"></a><span data-ttu-id="2b4f9-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="2b4f9-106">Global Constant</span></span>
+## <a name="global-constant"></a><span data-ttu-id="3d8e7-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="3d8e7-106">Global Constant</span></span>
 
-<span data-ttu-id="2b4f9-107">g \_ wszWMASFSecurityObjectsSize</span><span class="sxs-lookup"><span data-stu-id="2b4f9-107">g\_wszWMASFSecurityObjectsSize</span></span>
+<span data-ttu-id="3d8e7-107">g \_ wszWMASFSecurityObjectsSize</span><span class="sxs-lookup"><span data-stu-id="3d8e7-107">g\_wszWMASFSecurityObjectsSize</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="2b4f9-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="2b4f9-108">Data Type</span></span>
+## <a name="data-type"></a><span data-ttu-id="3d8e7-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="3d8e7-108">Data Type</span></span>
 
-<span data-ttu-id="2b4f9-109">**WMT \_ 類型 \_ QWORD**</span><span class="sxs-lookup"><span data-stu-id="2b4f9-109">**WMT\_TYPE\_QWORD**</span></span>
+<span data-ttu-id="3d8e7-109">**WMT \_ 類型 \_ QWORD**</span><span class="sxs-lookup"><span data-stu-id="3d8e7-109">**WMT\_TYPE\_QWORD**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2b4f9-110">備註</span><span class="sxs-lookup"><span data-stu-id="2b4f9-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3d8e7-110">備註</span><span class="sxs-lookup"><span data-stu-id="3d8e7-110">Remarks</span></span>
 
-<span data-ttu-id="2b4f9-111">這個屬性是唯讀的，而且會套用至整個檔案 (stream 0) 。</span><span class="sxs-lookup"><span data-stu-id="2b4f9-111">This attribute is read-only, and applies to the entire file (stream 0).</span></span>
+<span data-ttu-id="3d8e7-111">這個屬性是唯讀的，而且會套用至整個檔案 (stream 0) 。</span><span class="sxs-lookup"><span data-stu-id="3d8e7-111">This attribute is read-only, and applies to the entire file (stream 0).</span></span>
 
-<span data-ttu-id="2b4f9-112">您只能從中繼資料編輯器物件使用 [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) 介面的方法，以抓取此屬性。</span><span class="sxs-lookup"><span data-stu-id="2b4f9-112">You can only retrieve this attribute by using the methods of the [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) interface from the metadata editor object.</span></span>
+<span data-ttu-id="3d8e7-112">您只能從中繼資料編輯器物件使用 [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) 介面的方法，以抓取此屬性。</span><span class="sxs-lookup"><span data-stu-id="3d8e7-112">You can only retrieve this attribute by using the methods of the [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) interface from the metadata editor object.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2b4f9-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2b4f9-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3d8e7-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3d8e7-113">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2b4f9-114">**屬性清單**</span><span class="sxs-lookup"><span data-stu-id="2b4f9-114">**Attribute List**</span></span>](attribute-list.md)
+[<span data-ttu-id="3d8e7-114">**屬性清單**</span><span class="sxs-lookup"><span data-stu-id="3d8e7-114">**Attribute List**</span></span>](attribute-list.md)
 </dt> </dl>
 
  

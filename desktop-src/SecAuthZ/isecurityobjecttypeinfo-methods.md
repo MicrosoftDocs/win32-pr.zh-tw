@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694656"
 ---
-# <a name="isecurityobjecttypeinfo-methods"></a><span data-ttu-id="beb0b-103">ISecurityObjectTypeInfo 方法</span><span class="sxs-lookup"><span data-stu-id="beb0b-103">ISecurityObjectTypeInfo Methods</span></span>
+# <a name="isecurityobjecttypeinfo-methods"></a><span data-ttu-id="d1254-103">ISecurityObjectTypeInfo 方法</span><span class="sxs-lookup"><span data-stu-id="d1254-103">ISecurityObjectTypeInfo Methods</span></span>
 
-<span data-ttu-id="beb0b-104">[**ISecurityObjectTypeInfo**](/windows/win32/api/aclui/nn-aclui-isecurityobjecttypeinfo)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="beb0b-104">The [**ISecurityObjectTypeInfo**](/windows/win32/api/aclui/nn-aclui-isecurityobjecttypeinfo) interface exposes the following methods.</span></span>
+<span data-ttu-id="d1254-104">[**ISecurityObjectTypeInfo**](/windows/win32/api/aclui/nn-aclui-isecurityobjecttypeinfo)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="d1254-104">The [**ISecurityObjectTypeInfo**](/windows/win32/api/aclui/nn-aclui-isecurityobjecttypeinfo) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="beb0b-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="beb0b-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d1254-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d1254-105">In this section</span></span>
 
--   [<span data-ttu-id="beb0b-106">**GetInheritSource 方法**</span><span class="sxs-lookup"><span data-stu-id="beb0b-106">**GetInheritSource Method**</span></span>](/windows/win32/api/aclui/nf-aclui-isecurityobjecttypeinfo-getinheritsource)
+-   [<span data-ttu-id="d1254-106">**GetInheritSource 方法**</span><span class="sxs-lookup"><span data-stu-id="d1254-106">**GetInheritSource Method**</span></span>](/windows/win32/api/aclui/nf-aclui-isecurityobjecttypeinfo-getinheritsource)
 
  
 

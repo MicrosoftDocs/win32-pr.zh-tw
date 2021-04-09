@@ -19,17 +19,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021938"
 ---
-# <a name="drawdib-macros"></a><span data-ttu-id="c8f50-110">DrawDib 宏</span><span class="sxs-lookup"><span data-stu-id="c8f50-110">DrawDib Macros</span></span>
+# <a name="drawdib-macros"></a><span data-ttu-id="afebe-110">DrawDib 宏</span><span class="sxs-lookup"><span data-stu-id="afebe-110">DrawDib Macros</span></span>
 
-<span data-ttu-id="c8f50-111">下列宏會與 DrawDib 搭配使用。</span><span class="sxs-lookup"><span data-stu-id="c8f50-111">The following macro is used with DrawDib.</span></span>
+<span data-ttu-id="afebe-111">下列宏會與 DrawDib 搭配使用。</span><span class="sxs-lookup"><span data-stu-id="afebe-111">The following macro is used with DrawDib.</span></span>
 
-[<span data-ttu-id="c8f50-112">**DrawDibUpdate**</span><span class="sxs-lookup"><span data-stu-id="c8f50-112">**DrawDibUpdate**</span></span>](/windows/desktop/api/Vfw/nf-vfw-drawdibupdate)
+[<span data-ttu-id="afebe-112">**DrawDibUpdate**</span><span class="sxs-lookup"><span data-stu-id="afebe-112">**DrawDibUpdate**</span></span>](/windows/desktop/api/Vfw/nf-vfw-drawdibupdate)
 
-## <a name="related-topics"></a><span data-ttu-id="c8f50-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="c8f50-113">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="afebe-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="afebe-113">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c8f50-114">DrawDib 參考</span><span class="sxs-lookup"><span data-stu-id="c8f50-114">DrawDib Reference</span></span>](drawdib-reference.md)
+[<span data-ttu-id="afebe-114">DrawDib 參考</span><span class="sxs-lookup"><span data-stu-id="afebe-114">DrawDib Reference</span></span>](drawdib-reference.md)
 </dt> </dl>
 
  

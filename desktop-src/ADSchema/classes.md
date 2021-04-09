@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/11/2019
 ms.locfileid: "104022936"
 ---
-# <a name="classes-ad-schema"></a><span data-ttu-id="3df23-103"> (AD 架構) 的類別</span><span class="sxs-lookup"><span data-stu-id="3df23-103">Classes (AD Schema)</span></span>
+# <a name="classes-ad-schema"></a><span data-ttu-id="6d130-103"> (AD 架構) 的類別</span><span class="sxs-lookup"><span data-stu-id="6d130-103">Classes (AD Schema)</span></span>
 
-<span data-ttu-id="3df23-104">下列類別類型是由 Active Directory 定義。</span><span class="sxs-lookup"><span data-stu-id="3df23-104">The following types of classes are defined by Active Directory.</span></span>
+<span data-ttu-id="6d130-104">下列類別類型是由 Active Directory 定義。</span><span class="sxs-lookup"><span data-stu-id="6d130-104">The following types of classes are defined by Active Directory.</span></span>
 
 <dl>
 
-[<span data-ttu-id="3df23-105">所有類別</span><span class="sxs-lookup"><span data-stu-id="3df23-105">All Classes</span></span>](classes-all.md)  
-[<span data-ttu-id="3df23-106">結構化類別</span><span class="sxs-lookup"><span data-stu-id="3df23-106">Structural Classes</span></span>](classes-structural.md)  
-[<span data-ttu-id="3df23-107">抽象類別</span><span class="sxs-lookup"><span data-stu-id="3df23-107">Abstract Classes</span></span>](classes-abstract.md)  
-[<span data-ttu-id="3df23-108">輔助類別</span><span class="sxs-lookup"><span data-stu-id="3df23-108">Auxiliary Classes</span></span>](classes-auxiliary.md)  
+[<span data-ttu-id="6d130-105">所有類別</span><span class="sxs-lookup"><span data-stu-id="6d130-105">All Classes</span></span>](classes-all.md)  
+[<span data-ttu-id="6d130-106">結構化類別</span><span class="sxs-lookup"><span data-stu-id="6d130-106">Structural Classes</span></span>](classes-structural.md)  
+[<span data-ttu-id="6d130-107">抽象類別</span><span class="sxs-lookup"><span data-stu-id="6d130-107">Abstract Classes</span></span>](classes-abstract.md)  
+[<span data-ttu-id="6d130-108">輔助類別</span><span class="sxs-lookup"><span data-stu-id="6d130-108">Auxiliary Classes</span></span>](classes-auxiliary.md)  
 </dl>
 
  
