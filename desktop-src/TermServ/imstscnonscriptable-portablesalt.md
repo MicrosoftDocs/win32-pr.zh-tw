@@ -54,13 +54,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686129"
 ---
-# <a name="imstscnonscriptableportablesalt-property"></a><span data-ttu-id="73993-118">IMsTscNonScriptable：:P ortableSalt 屬性</span><span class="sxs-lookup"><span data-stu-id="73993-118">IMsTscNonScriptable::PortableSalt property</span></span>
+# <a name="imstscnonscriptableportablesalt-property"></a><span data-ttu-id="f2c27-118">IMsTscNonScriptable：:P ortableSalt 屬性</span><span class="sxs-lookup"><span data-stu-id="f2c27-118">IMsTscNonScriptable::PortableSalt property</span></span>
 
-<span data-ttu-id="73993-119">這個屬性不再受到支援。</span><span class="sxs-lookup"><span data-stu-id="73993-119">This property is no longer supported.</span></span>
+<span data-ttu-id="f2c27-119">這個屬性不再受到支援。</span><span class="sxs-lookup"><span data-stu-id="f2c27-119">This property is no longer supported.</span></span>
 
-<span data-ttu-id="73993-120">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="73993-120">This property is read/write.</span></span>
+<span data-ttu-id="f2c27-120">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="f2c27-120">This property is read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="73993-121">Syntax</span><span class="sxs-lookup"><span data-stu-id="73993-121">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f2c27-121">Syntax</span><span class="sxs-lookup"><span data-stu-id="f2c27-121">Syntax</span></span>
 
 
 ```C++
@@ -75,53 +75,53 @@ HRESULT get_PortableSalt(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="73993-122">屬性值</span><span class="sxs-lookup"><span data-stu-id="73993-122">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="f2c27-122">屬性值</span><span class="sxs-lookup"><span data-stu-id="f2c27-122">Property value</span></span>
 
-<span data-ttu-id="73993-123">便攜編碼密碼的新便攜 salt 部分。</span><span class="sxs-lookup"><span data-stu-id="73993-123">The new portable salt part for a portable encoded password.</span></span>
+<span data-ttu-id="f2c27-123">便攜編碼密碼的新便攜 salt 部分。</span><span class="sxs-lookup"><span data-stu-id="f2c27-123">The new portable salt part for a portable encoded password.</span></span>
 
-## <a name="error-codes"></a><span data-ttu-id="73993-124">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="73993-124">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="f2c27-124">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="f2c27-124">Error codes</span></span>
 
-<span data-ttu-id="73993-125">傳回 **E \_ >notimpl**。</span><span class="sxs-lookup"><span data-stu-id="73993-125">Returns **E\_NOTIMPL**.</span></span>
+<span data-ttu-id="f2c27-125">傳回 **E \_ >notimpl**。</span><span class="sxs-lookup"><span data-stu-id="f2c27-125">Returns **E\_NOTIMPL**.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="73993-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="73993-126">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f2c27-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="f2c27-126">Requirements</span></span>
 
 
 
-| <span data-ttu-id="73993-127">需求</span><span class="sxs-lookup"><span data-stu-id="73993-127">Requirement</span></span> | <span data-ttu-id="73993-128">值</span><span class="sxs-lookup"><span data-stu-id="73993-128">Value</span></span> |
+| <span data-ttu-id="f2c27-127">需求</span><span class="sxs-lookup"><span data-stu-id="f2c27-127">Requirement</span></span> | <span data-ttu-id="f2c27-128">值</span><span class="sxs-lookup"><span data-stu-id="f2c27-128">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="73993-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="73993-129">Minimum supported client</span></span><br/> | <span data-ttu-id="73993-130">都不支援</span><span class="sxs-lookup"><span data-stu-id="73993-130">None supported</span></span><br/>                                                              |
-| <span data-ttu-id="73993-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="73993-131">Minimum supported server</span></span><br/> | <span data-ttu-id="73993-132">都不支援</span><span class="sxs-lookup"><span data-stu-id="73993-132">None supported</span></span><br/>                                                              |
-| <span data-ttu-id="73993-133">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="73993-133">End of client support</span></span><br/>    | <span data-ttu-id="73993-134">都不支援</span><span class="sxs-lookup"><span data-stu-id="73993-134">None supported</span></span><br/>                                                              |
-| <span data-ttu-id="73993-135">伺服器支援結束</span><span class="sxs-lookup"><span data-stu-id="73993-135">End of server support</span></span><br/>    | <span data-ttu-id="73993-136">都不支援</span><span class="sxs-lookup"><span data-stu-id="73993-136">None supported</span></span><br/>                                                              |
-| <span data-ttu-id="73993-137">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="73993-137">Type library</span></span><br/>             | <dl> <span data-ttu-id="73993-138"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="73993-138"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="73993-139">DLL</span><span class="sxs-lookup"><span data-stu-id="73993-139">DLL</span></span><br/>                      | <dl> <span data-ttu-id="73993-140"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="73993-140"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="73993-141">IID</span><span class="sxs-lookup"><span data-stu-id="73993-141">IID</span></span><br/>                      | <span data-ttu-id="73993-142">IID \_ IMsTscNonScriptable 定義為 c1e6743a-41c1-4a74-832a-0dd06c1c7a0e</span><span class="sxs-lookup"><span data-stu-id="73993-142">IID\_IMsTscNonScriptable is defined as c1e6743a-41c1-4a74-832a-0dd06c1c7a0e</span></span><br/> |
+| <span data-ttu-id="f2c27-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f2c27-129">Minimum supported client</span></span><br/> | <span data-ttu-id="f2c27-130">都不支援</span><span class="sxs-lookup"><span data-stu-id="f2c27-130">None supported</span></span><br/>                                                              |
+| <span data-ttu-id="f2c27-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f2c27-131">Minimum supported server</span></span><br/> | <span data-ttu-id="f2c27-132">都不支援</span><span class="sxs-lookup"><span data-stu-id="f2c27-132">None supported</span></span><br/>                                                              |
+| <span data-ttu-id="f2c27-133">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="f2c27-133">End of client support</span></span><br/>    | <span data-ttu-id="f2c27-134">都不支援</span><span class="sxs-lookup"><span data-stu-id="f2c27-134">None supported</span></span><br/>                                                              |
+| <span data-ttu-id="f2c27-135">伺服器支援結束</span><span class="sxs-lookup"><span data-stu-id="f2c27-135">End of server support</span></span><br/>    | <span data-ttu-id="f2c27-136">都不支援</span><span class="sxs-lookup"><span data-stu-id="f2c27-136">None supported</span></span><br/>                                                              |
+| <span data-ttu-id="f2c27-137">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="f2c27-137">Type library</span></span><br/>             | <dl> <span data-ttu-id="f2c27-138"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f2c27-138"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="f2c27-139">DLL</span><span class="sxs-lookup"><span data-stu-id="f2c27-139">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f2c27-140"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f2c27-140"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="f2c27-141">IID</span><span class="sxs-lookup"><span data-stu-id="f2c27-141">IID</span></span><br/>                      | <span data-ttu-id="f2c27-142">IID \_ IMsTscNonScriptable 定義為 c1e6743a-41c1-4a74-832a-0dd06c1c7a0e</span><span class="sxs-lookup"><span data-stu-id="f2c27-142">IID\_IMsTscNonScriptable is defined as c1e6743a-41c1-4a74-832a-0dd06c1c7a0e</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="73993-143">另請參閱</span><span class="sxs-lookup"><span data-stu-id="73993-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f2c27-143">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f2c27-143">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="73993-144">**IMsRdpClientNonScriptable**</span><span class="sxs-lookup"><span data-stu-id="73993-144">**IMsRdpClientNonScriptable**</span></span>](imsrdpclientnonscriptable-interface.md)
+[<span data-ttu-id="f2c27-144">**IMsRdpClientNonScriptable**</span><span class="sxs-lookup"><span data-stu-id="f2c27-144">**IMsRdpClientNonScriptable**</span></span>](imsrdpclientnonscriptable-interface.md)
 </dt> <dt>
 
-[<span data-ttu-id="73993-145">**IMsRdpClientNonScriptable2**</span><span class="sxs-lookup"><span data-stu-id="73993-145">**IMsRdpClientNonScriptable2**</span></span>](imsrdpclientnonscriptable2.md)
+[<span data-ttu-id="f2c27-145">**IMsRdpClientNonScriptable2**</span><span class="sxs-lookup"><span data-stu-id="f2c27-145">**IMsRdpClientNonScriptable2**</span></span>](imsrdpclientnonscriptable2.md)
 </dt> <dt>
 
-[<span data-ttu-id="73993-146">**IMsRdpClientNonScriptable3**</span><span class="sxs-lookup"><span data-stu-id="73993-146">**IMsRdpClientNonScriptable3**</span></span>](imsrdpclientnonscriptable3.md)
+[<span data-ttu-id="f2c27-146">**IMsRdpClientNonScriptable3**</span><span class="sxs-lookup"><span data-stu-id="f2c27-146">**IMsRdpClientNonScriptable3**</span></span>](imsrdpclientnonscriptable3.md)
 </dt> <dt>
 
-[<span data-ttu-id="73993-147">**IMsRdpClientNonScriptable4**</span><span class="sxs-lookup"><span data-stu-id="73993-147">**IMsRdpClientNonScriptable4**</span></span>](imsrdpclientnonscriptable4.md)
+[<span data-ttu-id="f2c27-147">**IMsRdpClientNonScriptable4**</span><span class="sxs-lookup"><span data-stu-id="f2c27-147">**IMsRdpClientNonScriptable4**</span></span>](imsrdpclientnonscriptable4.md)
 </dt> <dt>
 
-[<span data-ttu-id="73993-148">**IMsRdpClientNonScriptable5**</span><span class="sxs-lookup"><span data-stu-id="73993-148">**IMsRdpClientNonScriptable5**</span></span>](imsrdpclientnonscriptable5.md)
+[<span data-ttu-id="f2c27-148">**IMsRdpClientNonScriptable5**</span><span class="sxs-lookup"><span data-stu-id="f2c27-148">**IMsRdpClientNonScriptable5**</span></span>](imsrdpclientnonscriptable5.md)
 </dt> <dt>
 
-[<span data-ttu-id="73993-149">**IMsTscNonScriptable**</span><span class="sxs-lookup"><span data-stu-id="73993-149">**IMsTscNonScriptable**</span></span>](imstscnonscriptable-interface.md)
+[<span data-ttu-id="f2c27-149">**IMsTscNonScriptable**</span><span class="sxs-lookup"><span data-stu-id="f2c27-149">**IMsTscNonScriptable**</span></span>](imstscnonscriptable-interface.md)
 </dt> <dt>
 
-[<span data-ttu-id="73993-150">**PortablePassword**</span><span class="sxs-lookup"><span data-stu-id="73993-150">**PortablePassword**</span></span>](imstscnonscriptable-portablepassword.md)
+[<span data-ttu-id="f2c27-150">**PortablePassword**</span><span class="sxs-lookup"><span data-stu-id="f2c27-150">**PortablePassword**</span></span>](imstscnonscriptable-portablepassword.md)
 </dt> </dl>
 
  

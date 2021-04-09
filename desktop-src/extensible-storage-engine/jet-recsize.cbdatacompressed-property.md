@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689588"
 ---
-# <a name="jet_recsizecbdatacompressed-property"></a><span data-ttu-id="47f9c-103">JET_RECSIZE cbDataCompressed 屬性</span><span class="sxs-lookup"><span data-stu-id="47f9c-103">JET_RECSIZE.cbDataCompressed property</span></span>
+# <a name="jet_recsizecbdatacompressed-property"></a><span data-ttu-id="bb048-103">JET_RECSIZE cbDataCompressed 屬性</span><span class="sxs-lookup"><span data-stu-id="bb048-103">JET_RECSIZE.cbDataCompressed property</span></span>
 
-<span data-ttu-id="47f9c-104">取得記錄中使用者資料的壓縮大小。</span><span class="sxs-lookup"><span data-stu-id="47f9c-104">Gets the compressed size of user data in record.</span></span> <span data-ttu-id="47f9c-105">如果沒有將內建的 long 值壓縮) ，這就會與 [cbData](./jet-recsize.cbdata-property.md) 相同。</span><span class="sxs-lookup"><span data-stu-id="47f9c-105">This is the same as [cbData](./jet-recsize.cbdata-property.md) if no intrinsic long-values are compressed).</span></span>
+<span data-ttu-id="bb048-104">取得記錄中使用者資料的壓縮大小。</span><span class="sxs-lookup"><span data-stu-id="bb048-104">Gets the compressed size of user data in record.</span></span> <span data-ttu-id="bb048-105">如果沒有將內建的 long 值壓縮) ，這就會與 [cbData](./jet-recsize.cbdata-property.md) 相同。</span><span class="sxs-lookup"><span data-stu-id="bb048-105">This is the same as [cbData](./jet-recsize.cbdata-property.md) if no intrinsic long-values are compressed).</span></span>
 
-<span data-ttu-id="47f9c-106">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="47f9c-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
-<span data-ttu-id="47f9c-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="47f9c-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="bb048-106">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="bb048-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
+<span data-ttu-id="bb048-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="bb048-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="47f9c-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="47f9c-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bb048-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="bb048-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,16 +58,16 @@ value = instance.cbDataCompressed
 public long cbDataCompressed { get; internal set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="47f9c-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="47f9c-109">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="bb048-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="bb048-109">Property value</span></span>
 
-<span data-ttu-id="47f9c-110">類型： [Int64](/dotnet/api/system.int64)</span><span class="sxs-lookup"><span data-stu-id="47f9c-110">Type: [System.Int64](/dotnet/api/system.int64)</span></span>  
+<span data-ttu-id="bb048-110">類型： [Int64](/dotnet/api/system.int64)</span><span class="sxs-lookup"><span data-stu-id="bb048-110">Type: [System.Int64](/dotnet/api/system.int64)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="47f9c-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="47f9c-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bb048-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bb048-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="47f9c-112">參考</span><span class="sxs-lookup"><span data-stu-id="47f9c-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="bb048-112">參考</span><span class="sxs-lookup"><span data-stu-id="bb048-112">Reference</span></span>
 
-[<span data-ttu-id="47f9c-113">JET_RECSIZE 結構</span><span class="sxs-lookup"><span data-stu-id="47f9c-113">JET_RECSIZE structure</span></span>](./jet-recsize-structure2.md)
+[<span data-ttu-id="bb048-113">JET_RECSIZE 結構</span><span class="sxs-lookup"><span data-stu-id="bb048-113">JET_RECSIZE structure</span></span>](./jet-recsize-structure2.md)
 
-[<span data-ttu-id="47f9c-114">JET_RECSIZE 成員</span><span class="sxs-lookup"><span data-stu-id="47f9c-114">JET_RECSIZE members</span></span>](./jet-recsize-members.md)
+[<span data-ttu-id="bb048-114">JET_RECSIZE 成員</span><span class="sxs-lookup"><span data-stu-id="bb048-114">JET_RECSIZE members</span></span>](./jet-recsize-members.md)
 
-[<span data-ttu-id="47f9c-115">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="47f9c-115">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)
+[<span data-ttu-id="bb048-115">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="bb048-115">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)

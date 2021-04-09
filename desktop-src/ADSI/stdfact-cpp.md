@@ -12,9 +12,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "103683091"
 ---
-# <a name="stdfactcpp"></a><span data-ttu-id="2ec93-104">STDFACT.Cpp</span><span class="sxs-lookup"><span data-stu-id="2ec93-104">STDFACT.CPP</span></span>
+# <a name="stdfactcpp"></a><span data-ttu-id="adf93-104">STDFACT.Cpp</span><span class="sxs-lookup"><span data-stu-id="adf93-104">STDFACT.CPP</span></span>
 
-<span data-ttu-id="2ec93-105">在範例提供者元件中，顯示標準 [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) 實 Stdfact 的程式碼範例位於 .cpp 中。</span><span class="sxs-lookup"><span data-stu-id="2ec93-105">In the example provider component, a code example showing the standard [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) implementation is in Stdfact.cpp.</span></span> <span data-ttu-id="2ec93-106">如需詳細資訊，請參閱 **IClassFactory**。</span><span class="sxs-lookup"><span data-stu-id="2ec93-106">For more information, see **IClassFactory**.</span></span>
+<span data-ttu-id="adf93-105">在範例提供者元件中，顯示標準 [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) 實 Stdfact 的程式碼範例位於 .cpp 中。</span><span class="sxs-lookup"><span data-stu-id="adf93-105">In the example provider component, a code example showing the standard [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) implementation is in Stdfact.cpp.</span></span> <span data-ttu-id="adf93-106">如需詳細資訊，請參閱 **IClassFactory**。</span><span class="sxs-lookup"><span data-stu-id="adf93-106">For more information, see **IClassFactory**.</span></span>
 
  
 

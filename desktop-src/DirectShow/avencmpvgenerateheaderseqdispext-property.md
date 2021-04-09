@@ -11,44 +11,44 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103687579"
 ---
-# <a name="avencmpvgenerateheaderseqdispext-property"></a><span data-ttu-id="6a28e-104">AVEncMPVGenerateHeaderSeqDispExt 屬性</span><span class="sxs-lookup"><span data-stu-id="6a28e-104">AVEncMPVGenerateHeaderSeqDispExt property</span></span>
+# <a name="avencmpvgenerateheaderseqdispext-property"></a><span data-ttu-id="a4e25-104">AVEncMPVGenerateHeaderSeqDispExt 屬性</span><span class="sxs-lookup"><span data-stu-id="a4e25-104">AVEncMPVGenerateHeaderSeqDispExt property</span></span>
 
-<span data-ttu-id="6a28e-105">指定編碼器是否產生順序顯示延伸標頭。</span><span class="sxs-lookup"><span data-stu-id="6a28e-105">Specifies whether the encoder generates sequence display extension headers.</span></span> <span data-ttu-id="6a28e-106">這個屬性會套用至 MPEG 視頻編碼器。</span><span class="sxs-lookup"><span data-stu-id="6a28e-106">This property applies to MPEG video encoders.</span></span>
+<span data-ttu-id="a4e25-105">指定編碼器是否產生順序顯示延伸標頭。</span><span class="sxs-lookup"><span data-stu-id="a4e25-105">Specifies whether the encoder generates sequence display extension headers.</span></span> <span data-ttu-id="a4e25-106">這個屬性會套用至 MPEG 視頻編碼器。</span><span class="sxs-lookup"><span data-stu-id="a4e25-106">This property applies to MPEG video encoders.</span></span>
 
-<span data-ttu-id="6a28e-107">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="6a28e-107">This property is read/write.</span></span>
+<span data-ttu-id="a4e25-107">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="a4e25-107">This property is read/write.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="6a28e-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="6a28e-108">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="a4e25-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="a4e25-108">Data type</span></span>
 
-<span data-ttu-id="6a28e-109">**變異 \_BOOL** (**VT \_ bool**) </span><span class="sxs-lookup"><span data-stu-id="6a28e-109">**VARIANT\_BOOL** (**VT\_BOOL**)</span></span>
+<span data-ttu-id="a4e25-109">**變異 \_BOOL** (**VT \_ bool**) </span><span class="sxs-lookup"><span data-stu-id="a4e25-109">**VARIANT\_BOOL** (**VT\_BOOL**)</span></span>
 
-## <a name="property-guid"></a><span data-ttu-id="6a28e-110">屬性 GUID</span><span class="sxs-lookup"><span data-stu-id="6a28e-110">Property GUID</span></span>
+## <a name="property-guid"></a><span data-ttu-id="a4e25-110">屬性 GUID</span><span class="sxs-lookup"><span data-stu-id="a4e25-110">Property GUID</span></span>
 
-<span data-ttu-id="6a28e-111">**CODECAPI \_ AVEncMPVGenerateHeaderSeqDispExt**</span><span class="sxs-lookup"><span data-stu-id="6a28e-111">**CODECAPI\_AVEncMPVGenerateHeaderSeqDispExt**</span></span>
+<span data-ttu-id="a4e25-111">**CODECAPI \_ AVEncMPVGenerateHeaderSeqDispExt**</span><span class="sxs-lookup"><span data-stu-id="a4e25-111">**CODECAPI\_AVEncMPVGenerateHeaderSeqDispExt**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6a28e-112">備註</span><span class="sxs-lookup"><span data-stu-id="6a28e-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a4e25-112">備註</span><span class="sxs-lookup"><span data-stu-id="a4e25-112">Remarks</span></span>
 
-<span data-ttu-id="6a28e-113">如果值為 **VARIANT \_ TRUE**，編碼器會產生順序顯示延伸標頭。</span><span class="sxs-lookup"><span data-stu-id="6a28e-113">If the value is **VARIANT\_TRUE**, the encoder generates sequence display extension headers.</span></span>
+<span data-ttu-id="a4e25-113">如果值為 **VARIANT \_ TRUE**，編碼器會產生順序顯示延伸標頭。</span><span class="sxs-lookup"><span data-stu-id="a4e25-113">If the value is **VARIANT\_TRUE**, the encoder generates sequence display extension headers.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="6a28e-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="6a28e-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="a4e25-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="a4e25-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="6a28e-115">需求</span><span class="sxs-lookup"><span data-stu-id="6a28e-115">Requirement</span></span> | <span data-ttu-id="6a28e-116">值</span><span class="sxs-lookup"><span data-stu-id="6a28e-116">Value</span></span> |
+| <span data-ttu-id="a4e25-115">需求</span><span class="sxs-lookup"><span data-stu-id="a4e25-115">Requirement</span></span> | <span data-ttu-id="a4e25-116">值</span><span class="sxs-lookup"><span data-stu-id="a4e25-116">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="6a28e-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6a28e-117">Minimum supported client</span></span><br/> | <span data-ttu-id="6a28e-118">Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6a28e-118">Windows 2000 Professional \[desktop apps \| UWP apps\]</span></span><br/>                     |
-| <span data-ttu-id="6a28e-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6a28e-119">Minimum supported server</span></span><br/> | <span data-ttu-id="6a28e-120">Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6a28e-120">Windows 2000 Server \[desktop apps \| UWP apps\]</span></span><br/>                           |
-| <span data-ttu-id="6a28e-121">標頭</span><span class="sxs-lookup"><span data-stu-id="6a28e-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="6a28e-122"><dt>Codecapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="6a28e-122"><dt>Codecapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="a4e25-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a4e25-117">Minimum supported client</span></span><br/> | <span data-ttu-id="a4e25-118">Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a4e25-118">Windows 2000 Professional \[desktop apps \| UWP apps\]</span></span><br/>                     |
+| <span data-ttu-id="a4e25-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a4e25-119">Minimum supported server</span></span><br/> | <span data-ttu-id="a4e25-120">Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a4e25-120">Windows 2000 Server \[desktop apps \| UWP apps\]</span></span><br/>                           |
+| <span data-ttu-id="a4e25-121">標頭</span><span class="sxs-lookup"><span data-stu-id="a4e25-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="a4e25-122"><dt>Codecapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="a4e25-122"><dt>Codecapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="6a28e-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6a28e-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a4e25-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a4e25-123">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6a28e-124">編解碼器 API 屬性</span><span class="sxs-lookup"><span data-stu-id="6a28e-124">Codec API Properties</span></span>](codec-api-properties.md)
+[<span data-ttu-id="a4e25-124">編解碼器 API 屬性</span><span class="sxs-lookup"><span data-stu-id="a4e25-124">Codec API Properties</span></span>](codec-api-properties.md)
 </dt> <dt>
 
-[<span data-ttu-id="6a28e-125">**ICodecAPI 介面**</span><span class="sxs-lookup"><span data-stu-id="6a28e-125">**ICodecAPI Interface**</span></span>](/windows/desktop/api/Strmif/nn-strmif-icodecapi)
+[<span data-ttu-id="a4e25-125">**ICodecAPI 介面**</span><span class="sxs-lookup"><span data-stu-id="a4e25-125">**ICodecAPI Interface**</span></span>](/windows/desktop/api/Strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  

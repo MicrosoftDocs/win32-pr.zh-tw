@@ -21,13 +21,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685981"
 ---
-# <a name="ras_ppp_projection_result-structure"></a><span data-ttu-id="b8ed0-104">RAS \_ PPP \_ 投射 \_ 結果結構</span><span class="sxs-lookup"><span data-stu-id="b8ed0-104">RAS\_PPP\_PROJECTION\_RESULT structure</span></span>
+# <a name="ras_ppp_projection_result-structure"></a><span data-ttu-id="9d25b-104">RAS \_ PPP \_ 投射 \_ 結果結構</span><span class="sxs-lookup"><span data-stu-id="9d25b-104">RAS\_PPP\_PROJECTION\_RESULT structure</span></span>
 
-<span data-ttu-id="b8ed0-105">\[Windows Vista 不支援 **RAS \_ PPP \_ 投射 \_ 結果** 結構。\]</span><span class="sxs-lookup"><span data-stu-id="b8ed0-105">\[The **RAS\_PPP\_PROJECTION\_RESULT** structure is not supported as of Windows Vista.\]</span></span>
+<span data-ttu-id="9d25b-105">\[Windows Vista 不支援 **RAS \_ PPP \_ 投射 \_ 結果** 結構。\]</span><span class="sxs-lookup"><span data-stu-id="9d25b-105">\[The **RAS\_PPP\_PROJECTION\_RESULT** structure is not supported as of Windows Vista.\]</span></span>
 
-<span data-ttu-id="b8ed0-106">**RAS \_ ppp \_ 投射 \_ 結果** 結構是用來報告埠之各種 PPP 投影作業的結果。</span><span class="sxs-lookup"><span data-stu-id="b8ed0-106">The **RAS\_PPP\_PROJECTION\_RESULT** structure is used to report the results of the various PPP projection operations for a port.</span></span>
+<span data-ttu-id="9d25b-106">**RAS \_ ppp \_ 投射 \_ 結果** 結構是用來報告埠之各種 PPP 投影作業的結果。</span><span class="sxs-lookup"><span data-stu-id="9d25b-106">The **RAS\_PPP\_PROJECTION\_RESULT** structure is used to report the results of the various PPP projection operations for a port.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b8ed0-107">語法</span><span class="sxs-lookup"><span data-stu-id="b8ed0-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9d25b-107">語法</span><span class="sxs-lookup"><span data-stu-id="9d25b-107">Syntax</span></span>
 
 
 ```C++
@@ -41,82 +41,82 @@ typedef struct _RAS_PPP_PROJECTION_RESULT {
 
 
 
-## <a name="members"></a><span data-ttu-id="b8ed0-108">成員</span><span class="sxs-lookup"><span data-stu-id="b8ed0-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="9d25b-108">成員</span><span class="sxs-lookup"><span data-stu-id="9d25b-108">Members</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="b8ed0-109">**nbf**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-109">**nbf**</span></span>
+<span data-ttu-id="9d25b-109">**nbf**</span><span class="sxs-lookup"><span data-stu-id="9d25b-109">**nbf**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="b8ed0-110">此為 [**RAS \_ ppp \_ NBFCP \_ 結果**](ras-ppp-nbfcp-result-str.md) 結構，會報告 PPP NetBEUI Framer (NBF) 投影作業的結果。</span><span class="sxs-lookup"><span data-stu-id="b8ed0-110">A [**RAS\_PPP\_NBFCP\_RESULT**](ras-ppp-nbfcp-result-str.md) structure that reports the result of a PPP NetBEUI Framer (NBF) projection operation.</span></span>
+<span data-ttu-id="9d25b-110">此為 [**RAS \_ ppp \_ NBFCP \_ 結果**](ras-ppp-nbfcp-result-str.md) 結構，會報告 PPP NetBEUI Framer (NBF) 投影作業的結果。</span><span class="sxs-lookup"><span data-stu-id="9d25b-110">A [**RAS\_PPP\_NBFCP\_RESULT**](ras-ppp-nbfcp-result-str.md) structure that reports the result of a PPP NetBEUI Framer (NBF) projection operation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b8ed0-111">**Ip**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-111">**ip**</span></span>
+<span data-ttu-id="9d25b-111">**Ip**</span><span class="sxs-lookup"><span data-stu-id="9d25b-111">**ip**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="b8ed0-112">[**RAS \_ ppp \_ IPCP \_ 結果**](ras-ppp-ipcp-result-str.md)結構，會報告 PPP 網際網路通訊協定 (IP) 投影作業的結果。</span><span class="sxs-lookup"><span data-stu-id="b8ed0-112">A [**RAS\_PPP\_IPCP\_RESULT**](ras-ppp-ipcp-result-str.md) structure that reports the result of a PPP Internet Protocol (IP) projection operation.</span></span>
+<span data-ttu-id="9d25b-112">[**RAS \_ ppp \_ IPCP \_ 結果**](ras-ppp-ipcp-result-str.md)結構，會報告 PPP 網際網路通訊協定 (IP) 投影作業的結果。</span><span class="sxs-lookup"><span data-stu-id="9d25b-112">A [**RAS\_PPP\_IPCP\_RESULT**](ras-ppp-ipcp-result-str.md) structure that reports the result of a PPP Internet Protocol (IP) projection operation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b8ed0-113">**Ipx**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-113">**ipx**</span></span>
+<span data-ttu-id="9d25b-113">**Ipx**</span><span class="sxs-lookup"><span data-stu-id="9d25b-113">**ipx**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="b8ed0-114">[**RAS \_ ppp \_ IPXCP \_ 結果**](ras-ppp-ipxcp-result-str.md)結構，會報告 PPP 網際網路封包交換 (IPX) 投影作業的結果。</span><span class="sxs-lookup"><span data-stu-id="b8ed0-114">A [**RAS\_PPP\_IPXCP\_RESULT**](ras-ppp-ipxcp-result-str.md) structure that reports the result of a PPP Internetwork Packet Exchange (IPX) projection operation.</span></span>
+<span data-ttu-id="9d25b-114">[**RAS \_ ppp \_ IPXCP \_ 結果**](ras-ppp-ipxcp-result-str.md)結構，會報告 PPP 網際網路封包交換 (IPX) 投影作業的結果。</span><span class="sxs-lookup"><span data-stu-id="9d25b-114">A [**RAS\_PPP\_IPXCP\_RESULT**](ras-ppp-ipxcp-result-str.md) structure that reports the result of a PPP Internetwork Packet Exchange (IPX) projection operation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b8ed0-115">**at**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-115">**at**</span></span>
+<span data-ttu-id="9d25b-115">**at**</span><span class="sxs-lookup"><span data-stu-id="9d25b-115">**at**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="b8ed0-116">[**RAS \_ PPP 的 \_ ATCP \_ 結果**](ras-ppp-atcp-result-str.md)結構。</span><span class="sxs-lookup"><span data-stu-id="b8ed0-116">A [**RAS\_PPP\_ATCP\_RESULT**](ras-ppp-atcp-result-str.md) structure.</span></span>
+<span data-ttu-id="9d25b-116">[**RAS \_ PPP 的 \_ ATCP \_ 結果**](ras-ppp-atcp-result-str.md)結構。</span><span class="sxs-lookup"><span data-stu-id="9d25b-116">A [**RAS\_PPP\_ATCP\_RESULT**](ras-ppp-atcp-result-str.md) structure.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="b8ed0-117">備註</span><span class="sxs-lookup"><span data-stu-id="b8ed0-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9d25b-117">備註</span><span class="sxs-lookup"><span data-stu-id="9d25b-117">Remarks</span></span>
 
-<span data-ttu-id="b8ed0-118">此結構會報告 NetBEUI、TCP/IP 和 IPX 通訊協定的投射結果。</span><span class="sxs-lookup"><span data-stu-id="b8ed0-118">This structure reports the projection results for NetBEUI, TCP/IP, and IPX protocols.</span></span> <span data-ttu-id="b8ed0-119">每個 PPP 結構都有一個 **dwError** 成員，指出結構中的其他資訊是否有效。</span><span class="sxs-lookup"><span data-stu-id="b8ed0-119">Each PPP structure has a **dwError** member that indicates whether the other information in the structure is valid.</span></span> <span data-ttu-id="b8ed0-120">如果 **DWERROR** 沒有 \_ 錯誤，則其他資訊是有效的。</span><span class="sxs-lookup"><span data-stu-id="b8ed0-120">If **dwError** is NO\_ERROR, the other information is valid.</span></span> <span data-ttu-id="b8ed0-121">如果 **dwError** 是 winerror.h. h 或 Raserror 中的其中一個錯誤碼，則其他資訊無效。</span><span class="sxs-lookup"><span data-stu-id="b8ed0-121">If **dwError** is one of the error codes in Winerror.h or Raserror.h, the other information is not valid.</span></span>
+<span data-ttu-id="9d25b-118">此結構會報告 NetBEUI、TCP/IP 和 IPX 通訊協定的投射結果。</span><span class="sxs-lookup"><span data-stu-id="9d25b-118">This structure reports the projection results for NetBEUI, TCP/IP, and IPX protocols.</span></span> <span data-ttu-id="9d25b-119">每個 PPP 結構都有一個 **dwError** 成員，指出結構中的其他資訊是否有效。</span><span class="sxs-lookup"><span data-stu-id="9d25b-119">Each PPP structure has a **dwError** member that indicates whether the other information in the structure is valid.</span></span> <span data-ttu-id="9d25b-120">如果 **DWERROR** 沒有 \_ 錯誤，則其他資訊是有效的。</span><span class="sxs-lookup"><span data-stu-id="9d25b-120">If **dwError** is NO\_ERROR, the other information is valid.</span></span> <span data-ttu-id="9d25b-121">如果 **dwError** 是 winerror.h. h 或 Raserror 中的其中一個錯誤碼，則其他資訊無效。</span><span class="sxs-lookup"><span data-stu-id="9d25b-121">If **dwError** is one of the error codes in Winerror.h or Raserror.h, the other information is not valid.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="b8ed0-122">規格需求</span><span class="sxs-lookup"><span data-stu-id="b8ed0-122">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9d25b-122">規格需求</span><span class="sxs-lookup"><span data-stu-id="9d25b-122">Requirements</span></span>
 
 
 
-| <span data-ttu-id="b8ed0-123">需求</span><span class="sxs-lookup"><span data-stu-id="b8ed0-123">Requirement</span></span> | <span data-ttu-id="b8ed0-124">值</span><span class="sxs-lookup"><span data-stu-id="b8ed0-124">Value</span></span> |
+| <span data-ttu-id="9d25b-123">需求</span><span class="sxs-lookup"><span data-stu-id="9d25b-123">Requirement</span></span> | <span data-ttu-id="9d25b-124">值</span><span class="sxs-lookup"><span data-stu-id="9d25b-124">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="b8ed0-125">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b8ed0-125">Minimum supported client</span></span><br/> | <span data-ttu-id="b8ed0-126">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b8ed0-126">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                           |
-| <span data-ttu-id="b8ed0-127">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b8ed0-127">Minimum supported server</span></span><br/> | <span data-ttu-id="b8ed0-128">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b8ed0-128">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                 |
-| <span data-ttu-id="b8ed0-129">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="b8ed0-129">End of client support</span></span><br/>    | <span data-ttu-id="b8ed0-130">Windows XP</span><span class="sxs-lookup"><span data-stu-id="b8ed0-130">Windows XP</span></span><br/>                                                                |
-| <span data-ttu-id="b8ed0-131">伺服器支援結束</span><span class="sxs-lookup"><span data-stu-id="b8ed0-131">End of server support</span></span><br/>    | <span data-ttu-id="b8ed0-132">Windows Server 2003</span><span class="sxs-lookup"><span data-stu-id="b8ed0-132">Windows Server 2003</span></span><br/>                                                       |
-| <span data-ttu-id="b8ed0-133">標頭</span><span class="sxs-lookup"><span data-stu-id="b8ed0-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="b8ed0-134"><dt>Rassapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="b8ed0-134"><dt>Rassapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="9d25b-125">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9d25b-125">Minimum supported client</span></span><br/> | <span data-ttu-id="9d25b-126">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9d25b-126">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                           |
+| <span data-ttu-id="9d25b-127">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9d25b-127">Minimum supported server</span></span><br/> | <span data-ttu-id="9d25b-128">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9d25b-128">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="9d25b-129">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="9d25b-129">End of client support</span></span><br/>    | <span data-ttu-id="9d25b-130">Windows XP</span><span class="sxs-lookup"><span data-stu-id="9d25b-130">Windows XP</span></span><br/>                                                                |
+| <span data-ttu-id="9d25b-131">伺服器支援結束</span><span class="sxs-lookup"><span data-stu-id="9d25b-131">End of server support</span></span><br/>    | <span data-ttu-id="9d25b-132">Windows Server 2003</span><span class="sxs-lookup"><span data-stu-id="9d25b-132">Windows Server 2003</span></span><br/>                                                       |
+| <span data-ttu-id="9d25b-133">標頭</span><span class="sxs-lookup"><span data-stu-id="9d25b-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="9d25b-134"><dt>Rassapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="9d25b-134"><dt>Rassapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="b8ed0-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b8ed0-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9d25b-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9d25b-135">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b8ed0-136">遠端存取服務 (RAS) 總覽</span><span class="sxs-lookup"><span data-stu-id="b8ed0-136">Remote Access Service (RAS) Overview</span></span>](about-remote-access-service.md)
+[<span data-ttu-id="9d25b-136">遠端存取服務 (RAS) 總覽</span><span class="sxs-lookup"><span data-stu-id="9d25b-136">Remote Access Service (RAS) Overview</span></span>](about-remote-access-service.md)
 </dt> <dt>
 
-[<span data-ttu-id="b8ed0-137">RAS 伺服器管理結構</span><span class="sxs-lookup"><span data-stu-id="b8ed0-137">RAS Server Administration Structures</span></span>](ras-server-administration-structures.md)
+[<span data-ttu-id="9d25b-137">RAS 伺服器管理結構</span><span class="sxs-lookup"><span data-stu-id="9d25b-137">RAS Server Administration Structures</span></span>](ras-server-administration-structures.md)
 </dt> <dt>
 
-[<span data-ttu-id="b8ed0-138">**RAS \_ 埠 \_ 1**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-138">**RAS\_PORT\_1**</span></span>](ras-port-1-str.md)
+[<span data-ttu-id="9d25b-138">**RAS \_ 埠 \_ 1**</span><span class="sxs-lookup"><span data-stu-id="9d25b-138">**RAS\_PORT\_1**</span></span>](ras-port-1-str.md)
 </dt> <dt>
 
-[<span data-ttu-id="b8ed0-139">**RAS \_ PPP \_ ATCP \_ 結果**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-139">**RAS\_PPP\_ATCP\_RESULT**</span></span>](ras-ppp-atcp-result-str.md)
+[<span data-ttu-id="9d25b-139">**RAS \_ PPP \_ ATCP \_ 結果**</span><span class="sxs-lookup"><span data-stu-id="9d25b-139">**RAS\_PPP\_ATCP\_RESULT**</span></span>](ras-ppp-atcp-result-str.md)
 </dt> <dt>
 
-[<span data-ttu-id="b8ed0-140">**RAS \_ PPP \_ IPCP \_ 結果**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-140">**RAS\_PPP\_IPCP\_RESULT**</span></span>](ras-ppp-ipcp-result-str.md)
+[<span data-ttu-id="9d25b-140">**RAS \_ PPP \_ IPCP \_ 結果**</span><span class="sxs-lookup"><span data-stu-id="9d25b-140">**RAS\_PPP\_IPCP\_RESULT**</span></span>](ras-ppp-ipcp-result-str.md)
 </dt> <dt>
 
-[<span data-ttu-id="b8ed0-141">**RAS \_ PPP \_ IPXCP \_ 結果**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-141">**RAS\_PPP\_IPXCP\_RESULT**</span></span>](ras-ppp-ipxcp-result-str.md)
+[<span data-ttu-id="9d25b-141">**RAS \_ PPP \_ IPXCP \_ 結果**</span><span class="sxs-lookup"><span data-stu-id="9d25b-141">**RAS\_PPP\_IPXCP\_RESULT**</span></span>](ras-ppp-ipxcp-result-str.md)
 </dt> <dt>
 
-[<span data-ttu-id="b8ed0-142">**RAS \_ PPP \_ NBFCP \_ 結果**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-142">**RAS\_PPP\_NBFCP\_RESULT**</span></span>](ras-ppp-nbfcp-result-str.md)
+[<span data-ttu-id="9d25b-142">**RAS \_ PPP \_ NBFCP \_ 結果**</span><span class="sxs-lookup"><span data-stu-id="9d25b-142">**RAS\_PPP\_NBFCP\_RESULT**</span></span>](ras-ppp-nbfcp-result-str.md)
 </dt> <dt>
 
-[<span data-ttu-id="b8ed0-143">**RasAdminPortGetInfo**</span><span class="sxs-lookup"><span data-stu-id="b8ed0-143">**RasAdminPortGetInfo**</span></span>](rasadminportgetinfo.md)
+[<span data-ttu-id="9d25b-143">**RasAdminPortGetInfo**</span><span class="sxs-lookup"><span data-stu-id="9d25b-143">**RasAdminPortGetInfo**</span></span>](rasadminportgetinfo.md)
 </dt> </dl>
 
  

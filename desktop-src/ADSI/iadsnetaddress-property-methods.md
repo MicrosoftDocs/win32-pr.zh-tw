@@ -28,25 +28,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686205"
 ---
-# <a name="iadsnetaddress-property-methods"></a><span data-ttu-id="77fd1-105">IADsNetAddress 屬性方法</span><span class="sxs-lookup"><span data-stu-id="77fd1-105">IADsNetAddress Property Methods</span></span>
+# <a name="iadsnetaddress-property-methods"></a><span data-ttu-id="ee014-105">IADsNetAddress 屬性方法</span><span class="sxs-lookup"><span data-stu-id="ee014-105">IADsNetAddress Property Methods</span></span>
 
-<span data-ttu-id="77fd1-106">[**IADsNetAddress**](/windows/desktop/api/Iads/nn-iads-iadsnetaddress)介面的 property 方法會設定下表所述的屬性。</span><span class="sxs-lookup"><span data-stu-id="77fd1-106">The property method of the [**IADsNetAddress**](/windows/desktop/api/Iads/nn-iads-iadsnetaddress) interface sets the property described in the following table.</span></span> <span data-ttu-id="77fd1-107">如需詳細資訊，請參閱 [介面屬性方法](interface-property-methods.md)。</span><span class="sxs-lookup"><span data-stu-id="77fd1-107">For more information, see [Interface Property Methods](interface-property-methods.md).</span></span>
+<span data-ttu-id="ee014-106">[**IADsNetAddress**](/windows/desktop/api/Iads/nn-iads-iadsnetaddress)介面的 property 方法會設定下表所述的屬性。</span><span class="sxs-lookup"><span data-stu-id="ee014-106">The property method of the [**IADsNetAddress**](/windows/desktop/api/Iads/nn-iads-iadsnetaddress) interface sets the property described in the following table.</span></span> <span data-ttu-id="ee014-107">如需詳細資訊，請參閱 [介面屬性方法](interface-property-methods.md)。</span><span class="sxs-lookup"><span data-stu-id="ee014-107">For more information, see [Interface Property Methods](interface-property-methods.md).</span></span>
 
-## <a name="properties"></a><span data-ttu-id="77fd1-108">屬性</span><span class="sxs-lookup"><span data-stu-id="77fd1-108">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="ee014-108">屬性</span><span class="sxs-lookup"><span data-stu-id="ee014-108">Properties</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="77fd1-109">**位址**</span><span class="sxs-lookup"><span data-stu-id="77fd1-109">**Address**</span></span>
-<span data-ttu-id="77fd1-110"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="77fd1-110"></dt> <dd> <dl></span></span>
+<span data-ttu-id="ee014-109">**位址**</span><span class="sxs-lookup"><span data-stu-id="ee014-109">**Address**</span></span>
+<span data-ttu-id="ee014-110"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="ee014-110"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="77fd1-111">網路位址。</span><span class="sxs-lookup"><span data-stu-id="77fd1-111">A network address.</span></span>
+<span data-ttu-id="ee014-111">網路位址。</span><span class="sxs-lookup"><span data-stu-id="ee014-111">A network address.</span></span>
 
 <dt>
 
-<span data-ttu-id="77fd1-112">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="77fd1-112">Access type: Read/write</span></span>
+<span data-ttu-id="ee014-112">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="ee014-112">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="77fd1-113">腳本資料類型： **VARIANT**</span><span class="sxs-lookup"><span data-stu-id="77fd1-113">Scripting data type: **VARIANT**</span></span>
+<span data-ttu-id="ee014-113">腳本資料類型： **VARIANT**</span><span class="sxs-lookup"><span data-stu-id="ee014-113">Scripting data type: **VARIANT**</span></span>
 </dt> <dt>
 
 
@@ -64,17 +64,17 @@ HRESULT put_Address(
 
 </dt> </dl> </dd> <dt>
 
-<span data-ttu-id="77fd1-114">**AddressType**</span><span class="sxs-lookup"><span data-stu-id="77fd1-114">**AddressType**</span></span>
-<span data-ttu-id="77fd1-115"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="77fd1-115"></dt> <dd> <dl></span></span>
+<span data-ttu-id="ee014-114">**AddressType**</span><span class="sxs-lookup"><span data-stu-id="ee014-114">**AddressType**</span></span>
+<span data-ttu-id="ee014-115"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="ee014-115"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="77fd1-116">通訊協定的類型。</span><span class="sxs-lookup"><span data-stu-id="77fd1-116">A type of communication protocols.</span></span>
+<span data-ttu-id="ee014-116">通訊協定的類型。</span><span class="sxs-lookup"><span data-stu-id="ee014-116">A type of communication protocols.</span></span>
 
 <dt>
 
-<span data-ttu-id="77fd1-117">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="77fd1-117">Access type: Read/write</span></span>
+<span data-ttu-id="ee014-117">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="ee014-117">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="77fd1-118">編寫資料類型的腳本： **LONG**</span><span class="sxs-lookup"><span data-stu-id="77fd1-118">Scripting data type: **LONG**</span></span>
+<span data-ttu-id="ee014-118">編寫資料類型的腳本： **LONG**</span><span class="sxs-lookup"><span data-stu-id="ee014-118">Scripting data type: **LONG**</span></span>
 </dt> <dt>
 
 
@@ -94,28 +94,28 @@ HRESULT put_AddressType(
 
  
 
-## <a name="requirements"></a><span data-ttu-id="77fd1-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="77fd1-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ee014-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="ee014-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="77fd1-120">需求</span><span class="sxs-lookup"><span data-stu-id="77fd1-120">Requirement</span></span> | <span data-ttu-id="77fd1-121">值</span><span class="sxs-lookup"><span data-stu-id="77fd1-121">Value</span></span> |
+| <span data-ttu-id="ee014-120">需求</span><span class="sxs-lookup"><span data-stu-id="ee014-120">Requirement</span></span> | <span data-ttu-id="ee014-121">值</span><span class="sxs-lookup"><span data-stu-id="ee014-121">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="77fd1-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="77fd1-122">Minimum supported client</span></span><br/> | <span data-ttu-id="77fd1-123">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="77fd1-123">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="77fd1-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="77fd1-124">Minimum supported server</span></span><br/> | <span data-ttu-id="77fd1-125">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="77fd1-125">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="77fd1-126">標頭</span><span class="sxs-lookup"><span data-stu-id="77fd1-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="77fd1-127"><dt>Iads。h</dt></span><span class="sxs-lookup"><span data-stu-id="77fd1-127"><dt>Iads.h</dt></span></span> </dl>       |
-| <span data-ttu-id="77fd1-128">DLL</span><span class="sxs-lookup"><span data-stu-id="77fd1-128">DLL</span></span><br/>                      | <dl> <span data-ttu-id="77fd1-129"><dt>Activeds.dll</dt></span><span class="sxs-lookup"><span data-stu-id="77fd1-129"><dt>Activeds.dll</dt></span></span> </dl> |
-| <span data-ttu-id="77fd1-130">IID</span><span class="sxs-lookup"><span data-stu-id="77fd1-130">IID</span></span><br/>                      | <span data-ttu-id="77fd1-131">IID \_ IADsNetAddress 定義為 B21A50A9-4080-11D1-A3AC-00C04FB950DC</span><span class="sxs-lookup"><span data-stu-id="77fd1-131">IID\_IADsNetAddress is defined as B21A50A9-4080-11D1-A3AC-00C04FB950DC</span></span><br/>       |
+| <span data-ttu-id="ee014-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ee014-122">Minimum supported client</span></span><br/> | <span data-ttu-id="ee014-123">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="ee014-123">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="ee014-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ee014-124">Minimum supported server</span></span><br/> | <span data-ttu-id="ee014-125">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="ee014-125">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="ee014-126">標頭</span><span class="sxs-lookup"><span data-stu-id="ee014-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="ee014-127"><dt>Iads。h</dt></span><span class="sxs-lookup"><span data-stu-id="ee014-127"><dt>Iads.h</dt></span></span> </dl>       |
+| <span data-ttu-id="ee014-128">DLL</span><span class="sxs-lookup"><span data-stu-id="ee014-128">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ee014-129"><dt>Activeds.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ee014-129"><dt>Activeds.dll</dt></span></span> </dl> |
+| <span data-ttu-id="ee014-130">IID</span><span class="sxs-lookup"><span data-stu-id="ee014-130">IID</span></span><br/>                      | <span data-ttu-id="ee014-131">IID \_ IADsNetAddress 定義為 B21A50A9-4080-11D1-A3AC-00C04FB950DC</span><span class="sxs-lookup"><span data-stu-id="ee014-131">IID\_IADsNetAddress is defined as B21A50A9-4080-11D1-A3AC-00C04FB950DC</span></span><br/>       |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="77fd1-132">另請參閱</span><span class="sxs-lookup"><span data-stu-id="77fd1-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ee014-132">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ee014-132">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="77fd1-133">**IADsNetAddress**</span><span class="sxs-lookup"><span data-stu-id="77fd1-133">**IADsNetAddress**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsnetaddress)
+[<span data-ttu-id="ee014-133">**IADsNetAddress**</span><span class="sxs-lookup"><span data-stu-id="ee014-133">**IADsNetAddress**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsnetaddress)
 </dt> <dt>
 
-[<span data-ttu-id="77fd1-134">**ADS \_ NETADDRESS**</span><span class="sxs-lookup"><span data-stu-id="77fd1-134">**ADS\_NETADDRESS**</span></span>](/windows/win32/api/iads/ns-iads-ads_netaddress)
+[<span data-ttu-id="ee014-134">**ADS \_ NETADDRESS**</span><span class="sxs-lookup"><span data-stu-id="ee014-134">**ADS\_NETADDRESS**</span></span>](/windows/win32/api/iads/ns-iads-ads_netaddress)
 </dt> </dl>
 
  

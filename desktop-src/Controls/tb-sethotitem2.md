@@ -21,41 +21,41 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686195"
 ---
-# <a name="tb_sethotitem2-message"></a><span data-ttu-id="0a7d9-104">TB \_ SETHOTITEM2 訊息</span><span class="sxs-lookup"><span data-stu-id="0a7d9-104">TB\_SETHOTITEM2 message</span></span>
+# <a name="tb_sethotitem2-message"></a><span data-ttu-id="a756d-104">TB \_ SETHOTITEM2 訊息</span><span class="sxs-lookup"><span data-stu-id="a756d-104">TB\_SETHOTITEM2 message</span></span>
 
-<span data-ttu-id="0a7d9-105">設定工具列中的熱專案。</span><span class="sxs-lookup"><span data-stu-id="0a7d9-105">Sets the hot item in a toolbar.</span></span>
+<span data-ttu-id="a756d-105">設定工具列中的熱專案。</span><span class="sxs-lookup"><span data-stu-id="a756d-105">Sets the hot item in a toolbar.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="0a7d9-106">參數</span><span class="sxs-lookup"><span data-stu-id="0a7d9-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a756d-106">參數</span><span class="sxs-lookup"><span data-stu-id="a756d-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="0a7d9-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="0a7d9-107">*wParam*</span></span> 
+<span data-ttu-id="a756d-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="a756d-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="0a7d9-108">將設為經常性存取之專案的索引。</span><span class="sxs-lookup"><span data-stu-id="0a7d9-108">Index of the item that will be made hot.</span></span> <span data-ttu-id="0a7d9-109">如果這個值是-1，則沒有任何專案會是經常性的。</span><span class="sxs-lookup"><span data-stu-id="0a7d9-109">If this value is -1, none of the items will be hot.</span></span>
+<span data-ttu-id="a756d-108">將設為經常性存取之專案的索引。</span><span class="sxs-lookup"><span data-stu-id="a756d-108">Index of the item that will be made hot.</span></span> <span data-ttu-id="a756d-109">如果這個值是-1，則沒有任何專案會是經常性的。</span><span class="sxs-lookup"><span data-stu-id="a756d-109">If this value is -1, none of the items will be hot.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0a7d9-110">*lParam*</span><span class="sxs-lookup"><span data-stu-id="0a7d9-110">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="0a7d9-111">HICF \_ xxx 旗標的組合。</span><span class="sxs-lookup"><span data-stu-id="0a7d9-111">A combination of HICF\_xxx flags.</span></span> <span data-ttu-id="0a7d9-112">請參閱 <a href="/windows/win32/api/commctrl/ns-commctrl-nmtbhotitem">**NMTBHOTITEM**</a>。</span><span class="sxs-lookup"><span data-stu-id="0a7d9-112">See <a href="/windows/win32/api/commctrl/ns-commctrl-nmtbhotitem">**NMTBHOTITEM**</a>.</span></span></dd> </dl>
+<span data-ttu-id="a756d-110">*lParam*</span><span class="sxs-lookup"><span data-stu-id="a756d-110">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="a756d-111">HICF \_ xxx 旗標的組合。</span><span class="sxs-lookup"><span data-stu-id="a756d-111">A combination of HICF\_xxx flags.</span></span> <span data-ttu-id="a756d-112">請參閱 <a href="/windows/win32/api/commctrl/ns-commctrl-nmtbhotitem">**NMTBHOTITEM**</a>。</span><span class="sxs-lookup"><span data-stu-id="a756d-112">See <a href="/windows/win32/api/commctrl/ns-commctrl-nmtbhotitem">**NMTBHOTITEM**</a>.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="0a7d9-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="0a7d9-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a756d-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="a756d-113">Return value</span></span>
 
-<span data-ttu-id="0a7d9-114">傳回先前熱專案的索引，如果沒有熱專案，則傳回-1。</span><span class="sxs-lookup"><span data-stu-id="0a7d9-114">Returns the index of the previous hot item, or -1 if there was no hot item.</span></span>
+<span data-ttu-id="a756d-114">傳回先前熱專案的索引，如果沒有熱專案，則傳回-1。</span><span class="sxs-lookup"><span data-stu-id="a756d-114">Returns the index of the previous hot item, or -1 if there was no hot item.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0a7d9-115">備註</span><span class="sxs-lookup"><span data-stu-id="0a7d9-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a756d-115">備註</span><span class="sxs-lookup"><span data-stu-id="a756d-115">Remarks</span></span>
 
-<span data-ttu-id="0a7d9-116">未針對沒有 [**TBSTYLE \_ 平面**](toolbar-control-and-button-styles.md) 樣式的工具列定義此訊息的行為。</span><span class="sxs-lookup"><span data-stu-id="0a7d9-116">The behavior of this message is not defined for toolbars that do not have the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) style.</span></span>
+<span data-ttu-id="a756d-116">未針對沒有 [**TBSTYLE \_ 平面**](toolbar-control-and-button-styles.md) 樣式的工具列定義此訊息的行為。</span><span class="sxs-lookup"><span data-stu-id="a756d-116">The behavior of this message is not defined for toolbars that do not have the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) style.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="0a7d9-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="0a7d9-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="a756d-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="a756d-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="0a7d9-118">需求</span><span class="sxs-lookup"><span data-stu-id="0a7d9-118">Requirement</span></span> | <span data-ttu-id="0a7d9-119">值</span><span class="sxs-lookup"><span data-stu-id="0a7d9-119">Value</span></span> |
+| <span data-ttu-id="a756d-118">需求</span><span class="sxs-lookup"><span data-stu-id="a756d-118">Requirement</span></span> | <span data-ttu-id="a756d-119">值</span><span class="sxs-lookup"><span data-stu-id="a756d-119">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="0a7d9-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="0a7d9-120">Minimum supported client</span></span><br/> | <span data-ttu-id="0a7d9-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0a7d9-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="0a7d9-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="0a7d9-122">Minimum supported server</span></span><br/> | <span data-ttu-id="0a7d9-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0a7d9-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="0a7d9-124">標頭</span><span class="sxs-lookup"><span data-stu-id="0a7d9-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="0a7d9-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="0a7d9-125"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="a756d-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a756d-120">Minimum supported client</span></span><br/> | <span data-ttu-id="a756d-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a756d-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="a756d-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a756d-122">Minimum supported server</span></span><br/> | <span data-ttu-id="a756d-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a756d-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="a756d-124">標頭</span><span class="sxs-lookup"><span data-stu-id="a756d-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="a756d-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="a756d-125"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

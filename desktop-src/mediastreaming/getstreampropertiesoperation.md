@@ -21,38 +21,38 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103682006"
 ---
-# <a name="getstreampropertiesoperation-class"></a><span data-ttu-id="71299-105">GetStreamPropertiesOperation 類別</span><span class="sxs-lookup"><span data-stu-id="71299-105">GetStreamPropertiesOperation class</span></span>
+# <a name="getstreampropertiesoperation-class"></a><span data-ttu-id="f3f6f-105">GetStreamPropertiesOperation 類別</span><span class="sxs-lookup"><span data-stu-id="f3f6f-105">GetStreamPropertiesOperation class</span></span>
 
-<span data-ttu-id="71299-106">註冊當 [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) 啟動的非同步作業完成時叫用的事件處理常式，並提供方法來傳回作業的結果。</span><span class="sxs-lookup"><span data-stu-id="71299-106">Registers an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) completes, and provides a method that returns the results of the operation.</span></span>
+<span data-ttu-id="f3f6f-106">註冊當 [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) 啟動的非同步作業完成時叫用的事件處理常式，並提供方法來傳回作業的結果。</span><span class="sxs-lookup"><span data-stu-id="f3f6f-106">Registers an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) completes, and provides a method that returns the results of the operation.</span></span>
 
-<span data-ttu-id="71299-107">**GetStreamPropertiesOperation** 具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="71299-107">**GetStreamPropertiesOperation** has these types of members:</span></span>
+<span data-ttu-id="f3f6f-107">**GetStreamPropertiesOperation** 具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="f3f6f-107">**GetStreamPropertiesOperation** has these types of members:</span></span>
 
--   [<span data-ttu-id="71299-108">方法</span><span class="sxs-lookup"><span data-stu-id="71299-108">Methods</span></span>](#methods)
--   [<span data-ttu-id="71299-109">屬性</span><span class="sxs-lookup"><span data-stu-id="71299-109">Properties</span></span>](#getstreampropertiesoperation-class)
+-   [<span data-ttu-id="f3f6f-108">方法</span><span class="sxs-lookup"><span data-stu-id="f3f6f-108">Methods</span></span>](#methods)
+-   [<span data-ttu-id="f3f6f-109">屬性</span><span class="sxs-lookup"><span data-stu-id="f3f6f-109">Properties</span></span>](#getstreampropertiesoperation-class)
 
-### <a name="methods"></a><span data-ttu-id="71299-110">方法</span><span class="sxs-lookup"><span data-stu-id="71299-110">Methods</span></span>
+### <a name="methods"></a><span data-ttu-id="f3f6f-110">方法</span><span class="sxs-lookup"><span data-stu-id="f3f6f-110">Methods</span></span>
 
-<span data-ttu-id="71299-111">**GetStreamPropertiesOperation** 類別有這些方法。</span><span class="sxs-lookup"><span data-stu-id="71299-111">The **GetStreamPropertiesOperation** class has these methods.</span></span>
+<span data-ttu-id="f3f6f-111">**GetStreamPropertiesOperation** 類別有這些方法。</span><span class="sxs-lookup"><span data-stu-id="f3f6f-111">The **GetStreamPropertiesOperation** class has these methods.</span></span>
 
 
 
-| <span data-ttu-id="71299-112">方法</span><span class="sxs-lookup"><span data-stu-id="71299-112">Method</span></span>                                                        | <span data-ttu-id="71299-113">描述</span><span class="sxs-lookup"><span data-stu-id="71299-113">Description</span></span>                                                                                                                                          |
+| <span data-ttu-id="f3f6f-112">方法</span><span class="sxs-lookup"><span data-stu-id="f3f6f-112">Method</span></span>                                                        | <span data-ttu-id="f3f6f-113">描述</span><span class="sxs-lookup"><span data-stu-id="f3f6f-113">Description</span></span>                                                                                                                                          |
 |:--------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="71299-114">**GetResults**</span><span class="sxs-lookup"><span data-stu-id="71299-114">**GetResults**</span></span>](getstreampropertiesoperation-getresults.md) | <span data-ttu-id="71299-115">傳回 [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85))啟動的非同步作業結果。</span><span class="sxs-lookup"><span data-stu-id="71299-115">Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)).</span></span><br/> |
+| [<span data-ttu-id="f3f6f-114">**GetResults**</span><span class="sxs-lookup"><span data-stu-id="f3f6f-114">**GetResults**</span></span>](getstreampropertiesoperation-getresults.md) | <span data-ttu-id="f3f6f-115">傳回 [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85))啟動的非同步作業結果。</span><span class="sxs-lookup"><span data-stu-id="f3f6f-115">Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)).</span></span><br/> |
 
 
 
  
 
-### <a name="properties"></a><span data-ttu-id="71299-116">屬性</span><span class="sxs-lookup"><span data-stu-id="71299-116">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="f3f6f-116">屬性</span><span class="sxs-lookup"><span data-stu-id="f3f6f-116">Properties</span></span>
 
-<span data-ttu-id="71299-117">**GetStreamPropertiesOperation** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="71299-117">The **GetStreamPropertiesOperation** class has these properties.</span></span>
+<span data-ttu-id="f3f6f-117">**GetStreamPropertiesOperation** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="f3f6f-117">The **GetStreamPropertiesOperation** class has these properties.</span></span>
 
 
 
-| <span data-ttu-id="71299-118">屬性</span><span class="sxs-lookup"><span data-stu-id="71299-118">Property</span></span>                                                               | <span data-ttu-id="71299-119">存取類型</span><span class="sxs-lookup"><span data-stu-id="71299-119">Access type</span></span>           | <span data-ttu-id="71299-120">Description</span><span class="sxs-lookup"><span data-stu-id="71299-120">Description</span></span>                                                                                                                                                                                   |
+| <span data-ttu-id="f3f6f-118">屬性</span><span class="sxs-lookup"><span data-stu-id="f3f6f-118">Property</span></span>                                                               | <span data-ttu-id="f3f6f-119">存取類型</span><span class="sxs-lookup"><span data-stu-id="f3f6f-119">Access type</span></span>           | <span data-ttu-id="f3f6f-120">Description</span><span class="sxs-lookup"><span data-stu-id="f3f6f-120">Description</span></span>                                                                                                                                                                                   |
 |:-----------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="71299-121">**Completed**</span><span class="sxs-lookup"><span data-stu-id="71299-121">**Completed**</span></span>](getstreampropertiesoperation-completed.md)<br/> | <span data-ttu-id="71299-122">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="71299-122">Read/write</span></span><br/> | <span data-ttu-id="71299-123">取得或設定當 [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) 啟動的非同步作業完成時叫用的事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="71299-123">Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) is completed.</span></span><br/> |
+| [<span data-ttu-id="f3f6f-121">**Completed**</span><span class="sxs-lookup"><span data-stu-id="f3f6f-121">**Completed**</span></span>](getstreampropertiesoperation-completed.md)<br/> | <span data-ttu-id="f3f6f-122">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="f3f6f-122">Read/write</span></span><br/> | <span data-ttu-id="f3f6f-123">取得或設定當 [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) 啟動的非同步作業完成時叫用的事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="f3f6f-123">Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) is completed.</span></span><br/> |
 
 
 

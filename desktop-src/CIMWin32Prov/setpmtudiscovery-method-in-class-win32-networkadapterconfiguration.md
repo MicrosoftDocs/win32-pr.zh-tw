@@ -21,13 +21,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103688959"
 ---
-# <a name="setpmtudiscovery-method-of-the-win32_networkadapterconfiguration-class"></a><span data-ttu-id="0d262-103">Win32 >networkadapterconfiguration 類別的 SetPMTUDiscovery 方法 \_</span><span class="sxs-lookup"><span data-stu-id="0d262-103">SetPMTUDiscovery method of the Win32\_NetworkAdapterConfiguration class</span></span>
+# <a name="setpmtudiscovery-method-of-the-win32_networkadapterconfiguration-class"></a><span data-ttu-id="ad8a6-103">Win32 >networkadapterconfiguration 類別的 SetPMTUDiscovery 方法 \_</span><span class="sxs-lookup"><span data-stu-id="ad8a6-103">SetPMTUDiscovery method of the Win32\_NetworkAdapterConfiguration class</span></span>
 
-<span data-ttu-id="0d262-104">**SetPMTUDiscovery** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)靜態方法可用來在遠端主機的路徑上，啟用 (MTU) 探索的最大傳輸單位。</span><span class="sxs-lookup"><span data-stu-id="0d262-104">The **SetPMTUDiscovery** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) static method is used to enable Maximum Transmission Unit (MTU) discovery over the path to a remote host.</span></span>
+<span data-ttu-id="ad8a6-104">**SetPMTUDiscovery** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)靜態方法可用來在遠端主機的路徑上，啟用 (MTU) 探索的最大傳輸單位。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-104">The **SetPMTUDiscovery** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) static method is used to enable Maximum Transmission Unit (MTU) discovery over the path to a remote host.</span></span>
 
-<span data-ttu-id="0d262-105">本主題使用受控物件格式 (MOF) 語法。</span><span class="sxs-lookup"><span data-stu-id="0d262-105">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="0d262-106">如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。</span><span class="sxs-lookup"><span data-stu-id="0d262-106">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
+<span data-ttu-id="ad8a6-105">本主題使用受控物件格式 (MOF) 語法。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-105">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="ad8a6-106">如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-106">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0d262-107">語法</span><span class="sxs-lookup"><span data-stu-id="0d262-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ad8a6-107">語法</span><span class="sxs-lookup"><span data-stu-id="ad8a6-107">Syntax</span></span>
 
 
 ```mof
@@ -38,411 +38,411 @@ uint32 SetPMTUDiscovery(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="0d262-108">參數</span><span class="sxs-lookup"><span data-stu-id="0d262-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ad8a6-108">參數</span><span class="sxs-lookup"><span data-stu-id="ad8a6-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="0d262-109">*PMTUDiscoveryEnabled* \[在\]</span><span class="sxs-lookup"><span data-stu-id="0d262-109">*PMTUDiscoveryEnabled* \[in\]</span></span>
+<span data-ttu-id="ad8a6-109">*PMTUDiscoveryEnabled* \[在\]</span><span class="sxs-lookup"><span data-stu-id="ad8a6-109">*PMTUDiscoveryEnabled* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-110">若為 **true**，則會啟用 TCP 來嘗試探索遠端主機路徑上 (MTU) 或最大的封包大小的最大傳輸單位。</span><span class="sxs-lookup"><span data-stu-id="0d262-110">If **true**, TCP is enabled to attempt to discover the Maximum Transmission Unit (MTU) or largest packet size over the path to a remote host.</span></span> <span data-ttu-id="0d262-111">預設值為 **True**。</span><span class="sxs-lookup"><span data-stu-id="0d262-111">The default is **true**.</span></span>
+<span data-ttu-id="ad8a6-110">若為 **true**，則會啟用 TCP 來嘗試探索遠端主機路徑上 (MTU) 或最大的封包大小的最大傳輸單位。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-110">If **true**, TCP is enabled to attempt to discover the Maximum Transmission Unit (MTU) or largest packet size over the path to a remote host.</span></span> <span data-ttu-id="ad8a6-111">預設值為 **True**。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-111">The default is **true**.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="0d262-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="0d262-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ad8a6-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="ad8a6-112">Return value</span></span>
 
-<span data-ttu-id="0d262-113">如果不需要重新開機，則會傳回 0 (零) 的值，1 (一個) 在需要重新開機時成功完成，而如果發生錯誤，則為不同的數位。</span><span class="sxs-lookup"><span data-stu-id="0d262-113">Returns a value of 0 (zero) for a successful completion when no reboot is required, 1 (one) for a successful completion when a reboot is required, and a different number if there is an error.</span></span> <span data-ttu-id="0d262-114">如需錯誤碼的詳細資訊，請參閱 [**WMI 錯誤常數**](/windows/desktop/WmiSdk/wmi-error-constants) 或 [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum)。</span><span class="sxs-lookup"><span data-stu-id="0d262-114">For more information on error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).</span></span> <span data-ttu-id="0d262-115">如需一般 **HRESULT** 值，請參閱 [系統錯誤碼](/windows/desktop/Debug/system-error-codes)。</span><span class="sxs-lookup"><span data-stu-id="0d262-115">For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).</span></span>
+<span data-ttu-id="ad8a6-113">如果不需要重新開機，則會傳回 0 (零) 的值，1 (一個) 在需要重新開機時成功完成，而如果發生錯誤，則為不同的數位。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-113">Returns a value of 0 (zero) for a successful completion when no reboot is required, 1 (one) for a successful completion when a reboot is required, and a different number if there is an error.</span></span> <span data-ttu-id="ad8a6-114">如需錯誤碼的詳細資訊，請參閱 [**WMI 錯誤常數**](/windows/desktop/WmiSdk/wmi-error-constants) 或 [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum)。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-114">For more information on error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).</span></span> <span data-ttu-id="ad8a6-115">如需一般 **HRESULT** 值，請參閱 [系統錯誤碼](/windows/desktop/Debug/system-error-codes)。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-115">For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="0d262-116">**成功完成，不需要重新開機**</span><span class="sxs-lookup"><span data-stu-id="0d262-116">**Successful completion, no reboot required**</span></span>
+<span data-ttu-id="ad8a6-116">**成功完成，不需要重新開機**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-116">**Successful completion, no reboot required**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-117">0</span><span class="sxs-lookup"><span data-stu-id="0d262-117">0</span></span>
+<span data-ttu-id="ad8a6-117">0</span><span class="sxs-lookup"><span data-stu-id="ad8a6-117">0</span></span>
 
-<span data-ttu-id="0d262-118">成功完成，不需要重新開機。</span><span class="sxs-lookup"><span data-stu-id="0d262-118">Successful completion, no reboot required.</span></span>
+<span data-ttu-id="ad8a6-118">成功完成，不需要重新開機。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-118">Successful completion, no reboot required.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-119">**成功完成，需要重新開機**</span><span class="sxs-lookup"><span data-stu-id="0d262-119">**Successful completion, reboot required**</span></span>
+<span data-ttu-id="ad8a6-119">**成功完成，需要重新開機**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-119">**Successful completion, reboot required**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-120">1</span><span class="sxs-lookup"><span data-stu-id="0d262-120">1</span></span>
+<span data-ttu-id="ad8a6-120">1</span><span class="sxs-lookup"><span data-stu-id="ad8a6-120">1</span></span>
 
-<span data-ttu-id="0d262-121">成功完成，需要重新開機。</span><span class="sxs-lookup"><span data-stu-id="0d262-121">Successful completion, reboot required.</span></span>
+<span data-ttu-id="ad8a6-121">成功完成，需要重新開機。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-121">Successful completion, reboot required.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-122">**此平臺不支援的方法**</span><span class="sxs-lookup"><span data-stu-id="0d262-122">**Method not supported on this platform**</span></span>
+<span data-ttu-id="ad8a6-122">**此平臺不支援的方法**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-122">**Method not supported on this platform**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-123">64</span><span class="sxs-lookup"><span data-stu-id="0d262-123">64</span></span>
+<span data-ttu-id="ad8a6-123">64</span><span class="sxs-lookup"><span data-stu-id="ad8a6-123">64</span></span>
 
-<span data-ttu-id="0d262-124">此平臺不支援方法。</span><span class="sxs-lookup"><span data-stu-id="0d262-124">Method not supported on this platform.</span></span>
+<span data-ttu-id="ad8a6-124">此平臺不支援方法。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-124">Method not supported on this platform.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-125">**未知的失敗**</span><span class="sxs-lookup"><span data-stu-id="0d262-125">**Unknown failure**</span></span>
+<span data-ttu-id="ad8a6-125">**未知的失敗**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-125">**Unknown failure**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-126">65</span><span class="sxs-lookup"><span data-stu-id="0d262-126">65</span></span>
+<span data-ttu-id="ad8a6-126">65</span><span class="sxs-lookup"><span data-stu-id="ad8a6-126">65</span></span>
 
-<span data-ttu-id="0d262-127">未知的失敗。</span><span class="sxs-lookup"><span data-stu-id="0d262-127">Unknown failure.</span></span>
+<span data-ttu-id="ad8a6-127">未知的失敗。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-127">Unknown failure.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-128">**不正確子網路遮罩**</span><span class="sxs-lookup"><span data-stu-id="0d262-128">**Invalid subnet mask**</span></span>
+<span data-ttu-id="ad8a6-128">**不正確子網路遮罩**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-128">**Invalid subnet mask**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-129">66</span><span class="sxs-lookup"><span data-stu-id="0d262-129">66</span></span>
+<span data-ttu-id="ad8a6-129">66</span><span class="sxs-lookup"><span data-stu-id="ad8a6-129">66</span></span>
 
-<span data-ttu-id="0d262-130">不正確子網路遮罩。</span><span class="sxs-lookup"><span data-stu-id="0d262-130">Invalid subnet mask.</span></span>
+<span data-ttu-id="ad8a6-130">不正確子網路遮罩。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-130">Invalid subnet mask.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-131">**處理傳回的實例時發生錯誤**</span><span class="sxs-lookup"><span data-stu-id="0d262-131">**An error occurred while processing an Instance that was returned**</span></span>
+<span data-ttu-id="ad8a6-131">**處理傳回的實例時發生錯誤**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-131">**An error occurred while processing an Instance that was returned**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-132">67</span><span class="sxs-lookup"><span data-stu-id="0d262-132">67</span></span>
+<span data-ttu-id="ad8a6-132">67</span><span class="sxs-lookup"><span data-stu-id="ad8a6-132">67</span></span>
 
-<span data-ttu-id="0d262-133">處理傳回的實例時發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="0d262-133">An error occurred while processing an instance that was returned.</span></span>
+<span data-ttu-id="ad8a6-133">處理傳回的實例時發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-133">An error occurred while processing an instance that was returned.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-134">**不正確輸入參數**</span><span class="sxs-lookup"><span data-stu-id="0d262-134">**Invalid input parameter**</span></span>
+<span data-ttu-id="ad8a6-134">**不正確輸入參數**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-134">**Invalid input parameter**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-135">68</span><span class="sxs-lookup"><span data-stu-id="0d262-135">68</span></span>
+<span data-ttu-id="ad8a6-135">68</span><span class="sxs-lookup"><span data-stu-id="ad8a6-135">68</span></span>
 
-<span data-ttu-id="0d262-136">不正確輸入參數。</span><span class="sxs-lookup"><span data-stu-id="0d262-136">Invalid input parameter.</span></span>
+<span data-ttu-id="ad8a6-136">不正確輸入參數。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-136">Invalid input parameter.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-137">**指定了超過5個閘道**</span><span class="sxs-lookup"><span data-stu-id="0d262-137">**More than 5 gateways specified**</span></span>
+<span data-ttu-id="ad8a6-137">**指定了超過5個閘道**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-137">**More than 5 gateways specified**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-138">69</span><span class="sxs-lookup"><span data-stu-id="0d262-138">69</span></span>
+<span data-ttu-id="ad8a6-138">69</span><span class="sxs-lookup"><span data-stu-id="ad8a6-138">69</span></span>
 
-<span data-ttu-id="0d262-139">指定了五個以上的閘道。</span><span class="sxs-lookup"><span data-stu-id="0d262-139">More than five gateways specified.</span></span>
+<span data-ttu-id="ad8a6-139">指定了五個以上的閘道。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-139">More than five gateways specified.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-140">**不正確 IP 位址**</span><span class="sxs-lookup"><span data-stu-id="0d262-140">**Invalid IP address**</span></span>
+<span data-ttu-id="ad8a6-140">**不正確 IP 位址**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-140">**Invalid IP address**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-141">70</span><span class="sxs-lookup"><span data-stu-id="0d262-141">70</span></span>
+<span data-ttu-id="ad8a6-141">70</span><span class="sxs-lookup"><span data-stu-id="ad8a6-141">70</span></span>
 
-<span data-ttu-id="0d262-142">IP 位址無效。</span><span class="sxs-lookup"><span data-stu-id="0d262-142">Invalid IP address.</span></span>
+<span data-ttu-id="ad8a6-142">IP 位址無效。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-142">Invalid IP address.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-143">**閘道 IP 位址無效**</span><span class="sxs-lookup"><span data-stu-id="0d262-143">**Invalid gateway IP address**</span></span>
+<span data-ttu-id="ad8a6-143">**閘道 IP 位址無效**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-143">**Invalid gateway IP address**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-144">71</span><span class="sxs-lookup"><span data-stu-id="0d262-144">71</span></span>
+<span data-ttu-id="ad8a6-144">71</span><span class="sxs-lookup"><span data-stu-id="ad8a6-144">71</span></span>
 
-<span data-ttu-id="0d262-145">閘道 IP 位址無效。</span><span class="sxs-lookup"><span data-stu-id="0d262-145">Invalid gateway IP address.</span></span>
+<span data-ttu-id="ad8a6-145">閘道 IP 位址無效。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-145">Invalid gateway IP address.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-146">**存取所要求資訊的登錄時發生錯誤**</span><span class="sxs-lookup"><span data-stu-id="0d262-146">**An error occurred while accessing the Registry for the requested information**</span></span>
+<span data-ttu-id="ad8a6-146">**存取所要求資訊的登錄時發生錯誤**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-146">**An error occurred while accessing the Registry for the requested information**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-147">72</span><span class="sxs-lookup"><span data-stu-id="0d262-147">72</span></span>
+<span data-ttu-id="ad8a6-147">72</span><span class="sxs-lookup"><span data-stu-id="ad8a6-147">72</span></span>
 
-<span data-ttu-id="0d262-148">存取所要求資訊的登錄時發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="0d262-148">An error occurred while accessing the registry for the requested information.</span></span>
+<span data-ttu-id="ad8a6-148">存取所要求資訊的登錄時發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-148">An error occurred while accessing the registry for the requested information.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-149">**不正確功能變數名稱**</span><span class="sxs-lookup"><span data-stu-id="0d262-149">**Invalid domain name**</span></span>
+<span data-ttu-id="ad8a6-149">**不正確功能變數名稱**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-149">**Invalid domain name**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-150">73</span><span class="sxs-lookup"><span data-stu-id="0d262-150">73</span></span>
+<span data-ttu-id="ad8a6-150">73</span><span class="sxs-lookup"><span data-stu-id="ad8a6-150">73</span></span>
 
-<span data-ttu-id="0d262-151">功能變數名稱無效。</span><span class="sxs-lookup"><span data-stu-id="0d262-151">Invalid domain name.</span></span>
+<span data-ttu-id="ad8a6-151">功能變數名稱無效。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-151">Invalid domain name.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-152">**不正確主機名稱**</span><span class="sxs-lookup"><span data-stu-id="0d262-152">**Invalid host name**</span></span>
+<span data-ttu-id="ad8a6-152">**不正確主機名稱**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-152">**Invalid host name**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-153">74</span><span class="sxs-lookup"><span data-stu-id="0d262-153">74</span></span>
+<span data-ttu-id="ad8a6-153">74</span><span class="sxs-lookup"><span data-stu-id="ad8a6-153">74</span></span>
 
-<span data-ttu-id="0d262-154">不正確主機名稱。</span><span class="sxs-lookup"><span data-stu-id="0d262-154">Invalid host name.</span></span>
+<span data-ttu-id="ad8a6-154">不正確主機名稱。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-154">Invalid host name.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-155">**未定義主要/次要 WINS 伺服器**</span><span class="sxs-lookup"><span data-stu-id="0d262-155">**No primary/secondary WINS server defined**</span></span>
+<span data-ttu-id="ad8a6-155">**未定義主要/次要 WINS 伺服器**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-155">**No primary/secondary WINS server defined**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-156">75</span><span class="sxs-lookup"><span data-stu-id="0d262-156">75</span></span>
+<span data-ttu-id="ad8a6-156">75</span><span class="sxs-lookup"><span data-stu-id="ad8a6-156">75</span></span>
 
-<span data-ttu-id="0d262-157">未定義主要或次要 WINS 伺服器。</span><span class="sxs-lookup"><span data-stu-id="0d262-157">No primary or secondary WINS server defined.</span></span>
+<span data-ttu-id="ad8a6-157">未定義主要或次要 WINS 伺服器。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-157">No primary or secondary WINS server defined.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-158">**檔案無效**</span><span class="sxs-lookup"><span data-stu-id="0d262-158">**Invalid file**</span></span>
+<span data-ttu-id="ad8a6-158">**檔案無效**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-158">**Invalid file**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-159">76</span><span class="sxs-lookup"><span data-stu-id="0d262-159">76</span></span>
+<span data-ttu-id="ad8a6-159">76</span><span class="sxs-lookup"><span data-stu-id="ad8a6-159">76</span></span>
 
-<span data-ttu-id="0d262-160">檔案無效。</span><span class="sxs-lookup"><span data-stu-id="0d262-160">Invalid file.</span></span>
+<span data-ttu-id="ad8a6-160">檔案無效。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-160">Invalid file.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-161">**系統路徑無效**</span><span class="sxs-lookup"><span data-stu-id="0d262-161">**Invalid system path**</span></span>
+<span data-ttu-id="ad8a6-161">**系統路徑無效**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-161">**Invalid system path**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-162">77</span><span class="sxs-lookup"><span data-stu-id="0d262-162">77</span></span>
+<span data-ttu-id="ad8a6-162">77</span><span class="sxs-lookup"><span data-stu-id="ad8a6-162">77</span></span>
 
-<span data-ttu-id="0d262-163">不正確系統路徑。</span><span class="sxs-lookup"><span data-stu-id="0d262-163">Invalid system path.</span></span>
+<span data-ttu-id="ad8a6-163">不正確系統路徑。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-163">Invalid system path.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-164">**檔案複製失敗**</span><span class="sxs-lookup"><span data-stu-id="0d262-164">**File copy failed**</span></span>
+<span data-ttu-id="ad8a6-164">**檔案複製失敗**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-164">**File copy failed**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-165">78</span><span class="sxs-lookup"><span data-stu-id="0d262-165">78</span></span>
+<span data-ttu-id="ad8a6-165">78</span><span class="sxs-lookup"><span data-stu-id="ad8a6-165">78</span></span>
 
-<span data-ttu-id="0d262-166">檔案複製失敗。</span><span class="sxs-lookup"><span data-stu-id="0d262-166">File copy failed.</span></span>
+<span data-ttu-id="ad8a6-166">檔案複製失敗。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-166">File copy failed.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-167">**不正確安全性參數**</span><span class="sxs-lookup"><span data-stu-id="0d262-167">**Invalid security parameter**</span></span>
+<span data-ttu-id="ad8a6-167">**不正確安全性參數**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-167">**Invalid security parameter**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-168">79</span><span class="sxs-lookup"><span data-stu-id="0d262-168">79</span></span>
+<span data-ttu-id="ad8a6-168">79</span><span class="sxs-lookup"><span data-stu-id="ad8a6-168">79</span></span>
 
-<span data-ttu-id="0d262-169">不正確安全性參數。</span><span class="sxs-lookup"><span data-stu-id="0d262-169">Invalid security parameter.</span></span>
+<span data-ttu-id="ad8a6-169">不正確安全性參數。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-169">Invalid security parameter.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-170">**無法設定 TCP/IP 服務**</span><span class="sxs-lookup"><span data-stu-id="0d262-170">**Unable to configure TCP/IP service**</span></span>
+<span data-ttu-id="ad8a6-170">**無法設定 TCP/IP 服務**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-170">**Unable to configure TCP/IP service**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-171">80</span><span class="sxs-lookup"><span data-stu-id="0d262-171">80</span></span>
+<span data-ttu-id="ad8a6-171">80</span><span class="sxs-lookup"><span data-stu-id="ad8a6-171">80</span></span>
 
-<span data-ttu-id="0d262-172">無法設定 TCP/IP 服務。</span><span class="sxs-lookup"><span data-stu-id="0d262-172">Unable to configure TCP/IP service.</span></span>
+<span data-ttu-id="ad8a6-172">無法設定 TCP/IP 服務。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-172">Unable to configure TCP/IP service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-173">**無法設定 DHCP 服務**</span><span class="sxs-lookup"><span data-stu-id="0d262-173">**Unable to configure DHCP service**</span></span>
+<span data-ttu-id="ad8a6-173">**無法設定 DHCP 服務**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-173">**Unable to configure DHCP service**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-174">81</span><span class="sxs-lookup"><span data-stu-id="0d262-174">81</span></span>
+<span data-ttu-id="ad8a6-174">81</span><span class="sxs-lookup"><span data-stu-id="ad8a6-174">81</span></span>
 
-<span data-ttu-id="0d262-175">無法設定 DHCP 服務。</span><span class="sxs-lookup"><span data-stu-id="0d262-175">Unable to configure DHCP service.</span></span>
+<span data-ttu-id="ad8a6-175">無法設定 DHCP 服務。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-175">Unable to configure DHCP service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-176">**無法更新 DHCP 租用**</span><span class="sxs-lookup"><span data-stu-id="0d262-176">**Unable to renew DHCP lease**</span></span>
+<span data-ttu-id="ad8a6-176">**無法更新 DHCP 租用**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-176">**Unable to renew DHCP lease**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-177">82</span><span class="sxs-lookup"><span data-stu-id="0d262-177">82</span></span>
+<span data-ttu-id="ad8a6-177">82</span><span class="sxs-lookup"><span data-stu-id="ad8a6-177">82</span></span>
 
-<span data-ttu-id="0d262-178">無法更新 DHCP 租用。</span><span class="sxs-lookup"><span data-stu-id="0d262-178">Unable to renew DHCP lease.</span></span>
+<span data-ttu-id="ad8a6-178">無法更新 DHCP 租用。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-178">Unable to renew DHCP lease.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-179">**無法發行 DHCP 租用**</span><span class="sxs-lookup"><span data-stu-id="0d262-179">**Unable to release DHCP lease**</span></span>
+<span data-ttu-id="ad8a6-179">**無法發行 DHCP 租用**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-179">**Unable to release DHCP lease**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-180">83</span><span class="sxs-lookup"><span data-stu-id="0d262-180">83</span></span>
+<span data-ttu-id="ad8a6-180">83</span><span class="sxs-lookup"><span data-stu-id="ad8a6-180">83</span></span>
 
-<span data-ttu-id="0d262-181">無法釋放 DHCP 租用。</span><span class="sxs-lookup"><span data-stu-id="0d262-181">Unable to release DHCP lease.</span></span>
+<span data-ttu-id="ad8a6-181">無法釋放 DHCP 租用。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-181">Unable to release DHCP lease.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-182">**介面卡上未啟用 IP**</span><span class="sxs-lookup"><span data-stu-id="0d262-182">**IP not enabled on adapter**</span></span>
+<span data-ttu-id="ad8a6-182">**介面卡上未啟用 IP**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-182">**IP not enabled on adapter**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-183">84</span><span class="sxs-lookup"><span data-stu-id="0d262-183">84</span></span>
+<span data-ttu-id="ad8a6-183">84</span><span class="sxs-lookup"><span data-stu-id="ad8a6-183">84</span></span>
 
-<span data-ttu-id="0d262-184">介面卡上未啟用 IP。</span><span class="sxs-lookup"><span data-stu-id="0d262-184">IP not enabled on adapter.</span></span>
+<span data-ttu-id="ad8a6-184">介面卡上未啟用 IP。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-184">IP not enabled on adapter.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-185">**未在介面卡上啟用 IPX**</span><span class="sxs-lookup"><span data-stu-id="0d262-185">**IPX not enabled on adapter**</span></span>
+<span data-ttu-id="ad8a6-185">**未在介面卡上啟用 IPX**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-185">**IPX not enabled on adapter**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-186">85</span><span class="sxs-lookup"><span data-stu-id="0d262-186">85</span></span>
+<span data-ttu-id="ad8a6-186">85</span><span class="sxs-lookup"><span data-stu-id="ad8a6-186">85</span></span>
 
-<span data-ttu-id="0d262-187">未在介面卡上啟用 IPX。</span><span class="sxs-lookup"><span data-stu-id="0d262-187">IPX not enabled on adapter.</span></span>
+<span data-ttu-id="ad8a6-187">未在介面卡上啟用 IPX。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-187">IPX not enabled on adapter.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-188">**畫面格/網路編號界限錯誤**</span><span class="sxs-lookup"><span data-stu-id="0d262-188">**Frame/network number bounds error**</span></span>
+<span data-ttu-id="ad8a6-188">**畫面格/網路編號界限錯誤**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-188">**Frame/network number bounds error**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-189">86</span><span class="sxs-lookup"><span data-stu-id="0d262-189">86</span></span>
+<span data-ttu-id="ad8a6-189">86</span><span class="sxs-lookup"><span data-stu-id="ad8a6-189">86</span></span>
 
-<span data-ttu-id="0d262-190">畫面格或網路編號界限錯誤。</span><span class="sxs-lookup"><span data-stu-id="0d262-190">Frame or network number bounds error.</span></span>
+<span data-ttu-id="ad8a6-190">畫面格或網路編號界限錯誤。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-190">Frame or network number bounds error.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-191">**不正確框架類型**</span><span class="sxs-lookup"><span data-stu-id="0d262-191">**Invalid frame type**</span></span>
+<span data-ttu-id="ad8a6-191">**不正確框架類型**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-191">**Invalid frame type**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-192">87</span><span class="sxs-lookup"><span data-stu-id="0d262-192">87</span></span>
+<span data-ttu-id="ad8a6-192">87</span><span class="sxs-lookup"><span data-stu-id="ad8a6-192">87</span></span>
 
-<span data-ttu-id="0d262-193">不正確畫面格類型。</span><span class="sxs-lookup"><span data-stu-id="0d262-193">Invalid frame type.</span></span>
+<span data-ttu-id="ad8a6-193">不正確畫面格類型。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-193">Invalid frame type.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-194">**不正確網路編號**</span><span class="sxs-lookup"><span data-stu-id="0d262-194">**Invalid network number**</span></span>
+<span data-ttu-id="ad8a6-194">**不正確網路編號**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-194">**Invalid network number**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-195">88</span><span class="sxs-lookup"><span data-stu-id="0d262-195">88</span></span>
+<span data-ttu-id="ad8a6-195">88</span><span class="sxs-lookup"><span data-stu-id="ad8a6-195">88</span></span>
 
-<span data-ttu-id="0d262-196">網路編號無效。</span><span class="sxs-lookup"><span data-stu-id="0d262-196">Invalid network number.</span></span>
+<span data-ttu-id="ad8a6-196">網路編號無效。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-196">Invalid network number.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-197">**重複的網路編號**</span><span class="sxs-lookup"><span data-stu-id="0d262-197">**Duplicate network number**</span></span>
+<span data-ttu-id="ad8a6-197">**重複的網路編號**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-197">**Duplicate network number**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-198">89</span><span class="sxs-lookup"><span data-stu-id="0d262-198">89</span></span>
+<span data-ttu-id="ad8a6-198">89</span><span class="sxs-lookup"><span data-stu-id="ad8a6-198">89</span></span>
 
-<span data-ttu-id="0d262-199">網路編號重複。</span><span class="sxs-lookup"><span data-stu-id="0d262-199">Duplicate network number.</span></span>
+<span data-ttu-id="ad8a6-199">網路編號重複。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-199">Duplicate network number.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-200">**參數超出範圍**</span><span class="sxs-lookup"><span data-stu-id="0d262-200">**Parameter out of bounds**</span></span>
+<span data-ttu-id="ad8a6-200">**參數超出範圍**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-200">**Parameter out of bounds**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-201">90</span><span class="sxs-lookup"><span data-stu-id="0d262-201">90</span></span>
+<span data-ttu-id="ad8a6-201">90</span><span class="sxs-lookup"><span data-stu-id="ad8a6-201">90</span></span>
 
-<span data-ttu-id="0d262-202">參數超出範圍。</span><span class="sxs-lookup"><span data-stu-id="0d262-202">Parameter out of bounds.</span></span>
+<span data-ttu-id="ad8a6-202">參數超出範圍。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-202">Parameter out of bounds.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-203">**拒絕存取**</span><span class="sxs-lookup"><span data-stu-id="0d262-203">**Access denied**</span></span>
+<span data-ttu-id="ad8a6-203">**拒絕存取**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-203">**Access denied**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-204">91</span><span class="sxs-lookup"><span data-stu-id="0d262-204">91</span></span>
+<span data-ttu-id="ad8a6-204">91</span><span class="sxs-lookup"><span data-stu-id="ad8a6-204">91</span></span>
 
-<span data-ttu-id="0d262-205">拒絕存取。</span><span class="sxs-lookup"><span data-stu-id="0d262-205">Access denied.</span></span>
+<span data-ttu-id="ad8a6-205">拒絕存取。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-205">Access denied.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-206">**記憶體不足**</span><span class="sxs-lookup"><span data-stu-id="0d262-206">**Out of memory**</span></span>
+<span data-ttu-id="ad8a6-206">**記憶體不足**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-206">**Out of memory**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-207">92</span><span class="sxs-lookup"><span data-stu-id="0d262-207">92</span></span>
+<span data-ttu-id="ad8a6-207">92</span><span class="sxs-lookup"><span data-stu-id="ad8a6-207">92</span></span>
 
-<span data-ttu-id="0d262-208">記憶體不足。</span><span class="sxs-lookup"><span data-stu-id="0d262-208">Out of memory.</span></span>
+<span data-ttu-id="ad8a6-208">記憶體不足。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-208">Out of memory.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-209">**已經存在**</span><span class="sxs-lookup"><span data-stu-id="0d262-209">**Already exists**</span></span>
+<span data-ttu-id="ad8a6-209">**已經存在**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-209">**Already exists**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-210">93</span><span class="sxs-lookup"><span data-stu-id="0d262-210">93</span></span>
+<span data-ttu-id="ad8a6-210">93</span><span class="sxs-lookup"><span data-stu-id="ad8a6-210">93</span></span>
 
-<span data-ttu-id="0d262-211">已經存在。</span><span class="sxs-lookup"><span data-stu-id="0d262-211">Already exists.</span></span>
+<span data-ttu-id="ad8a6-211">已經存在。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-211">Already exists.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-212">**找不到路徑、檔案或物件**</span><span class="sxs-lookup"><span data-stu-id="0d262-212">**Path, file or object not found**</span></span>
+<span data-ttu-id="ad8a6-212">**找不到路徑、檔案或物件**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-212">**Path, file or object not found**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-213">94</span><span class="sxs-lookup"><span data-stu-id="0d262-213">94</span></span>
+<span data-ttu-id="ad8a6-213">94</span><span class="sxs-lookup"><span data-stu-id="ad8a6-213">94</span></span>
 
-<span data-ttu-id="0d262-214">找不到路徑、檔案或物件。</span><span class="sxs-lookup"><span data-stu-id="0d262-214">Path, file, or object not found.</span></span>
+<span data-ttu-id="ad8a6-214">找不到路徑、檔案或物件。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-214">Path, file, or object not found.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-215">**無法通知服務**</span><span class="sxs-lookup"><span data-stu-id="0d262-215">**Unable to notify service**</span></span>
+<span data-ttu-id="ad8a6-215">**無法通知服務**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-215">**Unable to notify service**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-216">95</span><span class="sxs-lookup"><span data-stu-id="0d262-216">95</span></span>
+<span data-ttu-id="ad8a6-216">95</span><span class="sxs-lookup"><span data-stu-id="ad8a6-216">95</span></span>
 
-<span data-ttu-id="0d262-217">無法通知服務。</span><span class="sxs-lookup"><span data-stu-id="0d262-217">Unable to notify service.</span></span>
+<span data-ttu-id="ad8a6-217">無法通知服務。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-217">Unable to notify service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-218">**無法通知 DNS 服務**</span><span class="sxs-lookup"><span data-stu-id="0d262-218">**Unable to notify DNS service**</span></span>
+<span data-ttu-id="ad8a6-218">**無法通知 DNS 服務**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-218">**Unable to notify DNS service**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-219">96</span><span class="sxs-lookup"><span data-stu-id="0d262-219">96</span></span>
+<span data-ttu-id="ad8a6-219">96</span><span class="sxs-lookup"><span data-stu-id="ad8a6-219">96</span></span>
 
-<span data-ttu-id="0d262-220">無法通知 DNS 服務。</span><span class="sxs-lookup"><span data-stu-id="0d262-220">Unable to notify DNS service.</span></span>
+<span data-ttu-id="ad8a6-220">無法通知 DNS 服務。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-220">Unable to notify DNS service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-221">**介面無法設定**</span><span class="sxs-lookup"><span data-stu-id="0d262-221">**Interface not configurable**</span></span>
+<span data-ttu-id="ad8a6-221">**介面無法設定**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-221">**Interface not configurable**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-222">97</span><span class="sxs-lookup"><span data-stu-id="0d262-222">97</span></span>
+<span data-ttu-id="ad8a6-222">97</span><span class="sxs-lookup"><span data-stu-id="ad8a6-222">97</span></span>
 
-<span data-ttu-id="0d262-223">介面無法設定。</span><span class="sxs-lookup"><span data-stu-id="0d262-223">Interface not configurable.</span></span>
+<span data-ttu-id="ad8a6-223">介面無法設定。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-223">Interface not configurable.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-224">**並非所有 DHCP 租用都可以釋出/更新**</span><span class="sxs-lookup"><span data-stu-id="0d262-224">**Not all DHCP leases could be released/renewed**</span></span>
+<span data-ttu-id="ad8a6-224">**並非所有 DHCP 租用都可以釋出/更新**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-224">**Not all DHCP leases could be released/renewed**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-225">98</span><span class="sxs-lookup"><span data-stu-id="0d262-225">98</span></span>
+<span data-ttu-id="ad8a6-225">98</span><span class="sxs-lookup"><span data-stu-id="ad8a6-225">98</span></span>
 
-<span data-ttu-id="0d262-226">並非所有 DHCP 租用都可以釋出或更新。</span><span class="sxs-lookup"><span data-stu-id="0d262-226">Not all DHCP leases could be released or renewed.</span></span>
+<span data-ttu-id="ad8a6-226">並非所有 DHCP 租用都可以釋出或更新。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-226">Not all DHCP leases could be released or renewed.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-227">**未在介面卡上啟用 DHCP**</span><span class="sxs-lookup"><span data-stu-id="0d262-227">**DHCP not enabled on adapter**</span></span>
+<span data-ttu-id="ad8a6-227">**未在介面卡上啟用 DHCP**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-227">**DHCP not enabled on adapter**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-228">100</span><span class="sxs-lookup"><span data-stu-id="0d262-228">100</span></span>
+<span data-ttu-id="ad8a6-228">100</span><span class="sxs-lookup"><span data-stu-id="ad8a6-228">100</span></span>
 
-<span data-ttu-id="0d262-229">未在介面卡上啟用 DHCP。</span><span class="sxs-lookup"><span data-stu-id="0d262-229">DHCP not enabled on adapter.</span></span>
+<span data-ttu-id="ad8a6-229">未在介面卡上啟用 DHCP。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-229">DHCP not enabled on adapter.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0d262-230">**其他**</span><span class="sxs-lookup"><span data-stu-id="0d262-230">**Other**</span></span>
+<span data-ttu-id="ad8a6-230">**其他**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-230">**Other**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0d262-231">101 4294967295</span><span class="sxs-lookup"><span data-stu-id="0d262-231">101 4294967295</span></span>
+<span data-ttu-id="ad8a6-231">101 4294967295</span><span class="sxs-lookup"><span data-stu-id="ad8a6-231">101 4294967295</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="0d262-232">備註</span><span class="sxs-lookup"><span data-stu-id="0d262-232">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ad8a6-232">備註</span><span class="sxs-lookup"><span data-stu-id="ad8a6-232">Remarks</span></span>
 
-<span data-ttu-id="0d262-233">藉由探索路徑 MTU 並將 TCP 區段限制為此大小，TCP 可以在連接具有不同 Mtu 之網路的路徑中，排除路由器上的片段。</span><span class="sxs-lookup"><span data-stu-id="0d262-233">By discovering the Path MTU and limiting TCP segments to this size, TCP can eliminate fragmentation at routers along the path that connect networks with different MTUs.</span></span> <span data-ttu-id="0d262-234">片段會對 TCP 輸送量和網路擁塞造成負面影響。</span><span class="sxs-lookup"><span data-stu-id="0d262-234">Fragmentation adversely affects TCP throughput and network congestion.</span></span> <span data-ttu-id="0d262-235">將此參數設定為 **FALSE** ，會將576個位元組的 MTU 用於非本機子網上電腦的所有連接。</span><span class="sxs-lookup"><span data-stu-id="0d262-235">Setting this parameter to **FALSE** causes an MTU of 576 bytes to be used for all connections that are not to machines on the local subnet</span></span>
+<span data-ttu-id="ad8a6-233">藉由探索路徑 MTU 並將 TCP 區段限制為此大小，TCP 可以在連接具有不同 Mtu 之網路的路徑中，排除路由器上的片段。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-233">By discovering the Path MTU and limiting TCP segments to this size, TCP can eliminate fragmentation at routers along the path that connect networks with different MTUs.</span></span> <span data-ttu-id="ad8a6-234">片段會對 TCP 輸送量和網路擁塞造成負面影響。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-234">Fragmentation adversely affects TCP throughput and network congestion.</span></span> <span data-ttu-id="ad8a6-235">將此參數設定為 **FALSE** ，會將576個位元組的 MTU 用於非本機子網上電腦的所有連接。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-235">Setting this parameter to **FALSE** causes an MTU of 576 bytes to be used for all connections that are not to machines on the local subnet</span></span>
 
-## <a name="examples"></a><span data-ttu-id="0d262-236">範例</span><span class="sxs-lookup"><span data-stu-id="0d262-236">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="ad8a6-236">範例</span><span class="sxs-lookup"><span data-stu-id="ad8a6-236">Examples</span></span>
 
-<span data-ttu-id="0d262-237">[ [在所有網路介面卡上啟用 PMTU 探索](https://Gallery.TechNet.Microsoft.Com/dd68dc8d-d452-484c-add7-2da5c87c3568) ] VBScript 範例可讓電腦自動探索網路上的最大傳輸單位。</span><span class="sxs-lookup"><span data-stu-id="0d262-237">The [Enable PMTU Discovery on all Network Adapters](https://Gallery.TechNet.Microsoft.Com/dd68dc8d-d452-484c-add7-2da5c87c3568) VBScript sample enables a computer to automatically discover the maximum transmission unit on a network.</span></span>
+<span data-ttu-id="ad8a6-237">[ [在所有網路介面卡上啟用 PMTU 探索](https://Gallery.TechNet.Microsoft.Com/dd68dc8d-d452-484c-add7-2da5c87c3568) ] VBScript 範例可讓電腦自動探索網路上的最大傳輸單位。</span><span class="sxs-lookup"><span data-stu-id="ad8a6-237">The [Enable PMTU Discovery on all Network Adapters](https://Gallery.TechNet.Microsoft.Com/dd68dc8d-d452-484c-add7-2da5c87c3568) VBScript sample enables a computer to automatically discover the maximum transmission unit on a network.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="0d262-238">規格需求</span><span class="sxs-lookup"><span data-stu-id="0d262-238">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ad8a6-238">規格需求</span><span class="sxs-lookup"><span data-stu-id="ad8a6-238">Requirements</span></span>
 
 
 
-| <span data-ttu-id="0d262-239">需求</span><span class="sxs-lookup"><span data-stu-id="0d262-239">Requirement</span></span> | <span data-ttu-id="0d262-240">值</span><span class="sxs-lookup"><span data-stu-id="0d262-240">Value</span></span> |
+| <span data-ttu-id="ad8a6-239">需求</span><span class="sxs-lookup"><span data-stu-id="ad8a6-239">Requirement</span></span> | <span data-ttu-id="ad8a6-240">值</span><span class="sxs-lookup"><span data-stu-id="ad8a6-240">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="0d262-241">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="0d262-241">Minimum supported client</span></span><br/> | <span data-ttu-id="0d262-242">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="0d262-242">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="0d262-243">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="0d262-243">Minimum supported server</span></span><br/> | <span data-ttu-id="0d262-244">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="0d262-244">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="0d262-245">命名空間</span><span class="sxs-lookup"><span data-stu-id="0d262-245">Namespace</span></span><br/>                | <span data-ttu-id="0d262-246">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="0d262-246">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="0d262-247">MOF</span><span class="sxs-lookup"><span data-stu-id="0d262-247">MOF</span></span><br/>                      | <dl> <span data-ttu-id="0d262-248"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="0d262-248"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="0d262-249">DLL</span><span class="sxs-lookup"><span data-stu-id="0d262-249">DLL</span></span><br/>                      | <dl> <span data-ttu-id="0d262-250"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="0d262-250"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="ad8a6-241">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ad8a6-241">Minimum supported client</span></span><br/> | <span data-ttu-id="ad8a6-242">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="ad8a6-242">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="ad8a6-243">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ad8a6-243">Minimum supported server</span></span><br/> | <span data-ttu-id="ad8a6-244">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="ad8a6-244">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="ad8a6-245">命名空間</span><span class="sxs-lookup"><span data-stu-id="ad8a6-245">Namespace</span></span><br/>                | <span data-ttu-id="ad8a6-246">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="ad8a6-246">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="ad8a6-247">MOF</span><span class="sxs-lookup"><span data-stu-id="ad8a6-247">MOF</span></span><br/>                      | <dl> <span data-ttu-id="ad8a6-248"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="ad8a6-248"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="ad8a6-249">DLL</span><span class="sxs-lookup"><span data-stu-id="ad8a6-249">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ad8a6-250"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ad8a6-250"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="0d262-251">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0d262-251">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ad8a6-251">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ad8a6-251">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="0d262-252">電腦系統硬體類別</span><span class="sxs-lookup"><span data-stu-id="0d262-252">Computer System Hardware Classes</span></span>](computer-system-hardware-classes.md)
+[<span data-ttu-id="ad8a6-252">電腦系統硬體類別</span><span class="sxs-lookup"><span data-stu-id="ad8a6-252">Computer System Hardware Classes</span></span>](computer-system-hardware-classes.md)
 </dt> <dt>
 
-[<span data-ttu-id="0d262-253">**Win32 \_ >networkadapterconfiguration**</span><span class="sxs-lookup"><span data-stu-id="0d262-253">**Win32\_NetworkAdapterConfiguration**</span></span>](win32-networkadapterconfiguration.md)
+[<span data-ttu-id="ad8a6-253">**Win32 \_ >networkadapterconfiguration**</span><span class="sxs-lookup"><span data-stu-id="ad8a6-253">**Win32\_NetworkAdapterConfiguration**</span></span>](win32-networkadapterconfiguration.md)
 </dt> <dt>
 
-[<span data-ttu-id="0d262-254">WMI 工作：網路功能</span><span class="sxs-lookup"><span data-stu-id="0d262-254">WMI Tasks: Networking</span></span>](/windows/desktop/WmiSdk/wmi-tasks--networking)
+[<span data-ttu-id="ad8a6-254">WMI 工作：網路功能</span><span class="sxs-lookup"><span data-stu-id="ad8a6-254">WMI Tasks: Networking</span></span>](/windows/desktop/WmiSdk/wmi-tasks--networking)
 </dt> <dt>
 
-[<span data-ttu-id="0d262-255">WMI 工作：帳戶和網域</span><span class="sxs-lookup"><span data-stu-id="0d262-255">WMI Tasks: Accounts and Domains</span></span>](/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
+[<span data-ttu-id="ad8a6-255">WMI 工作：帳戶和網域</span><span class="sxs-lookup"><span data-stu-id="ad8a6-255">WMI Tasks: Accounts and Domains</span></span>](/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
 </dt> <dt>
 
-[<span data-ttu-id="0d262-256">WMI 中的 IPv6 和 IPv4 支援</span><span class="sxs-lookup"><span data-stu-id="0d262-256">IPv6 and IPv4 Support in WMI</span></span>](/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
+[<span data-ttu-id="ad8a6-256">WMI 中的 IPv6 和 IPv4 支援</span><span class="sxs-lookup"><span data-stu-id="ad8a6-256">IPv6 and IPv4 Support in WMI</span></span>](/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
 </dt> </dl>
 
  

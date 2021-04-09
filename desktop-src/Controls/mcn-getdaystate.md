@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685955"
 ---
-# <a name="mcn_getdaystate-notification-code"></a><span data-ttu-id="8e4f5-105">MCN \_ GETDAYSTATE 通知碼</span><span class="sxs-lookup"><span data-stu-id="8e4f5-105">MCN\_GETDAYSTATE notification code</span></span>
+# <a name="mcn_getdaystate-notification-code"></a><span data-ttu-id="b512d-105">MCN \_ GETDAYSTATE 通知碼</span><span class="sxs-lookup"><span data-stu-id="b512d-105">MCN\_GETDAYSTATE notification code</span></span>
 
-<span data-ttu-id="8e4f5-106">由月曆控制項傳送，可要求有關如何顯示個別日期的資訊。</span><span class="sxs-lookup"><span data-stu-id="8e4f5-106">Sent by a month calendar control to request information about how individual days should be displayed.</span></span> <span data-ttu-id="8e4f5-107">此通知碼只會由使用 [**MCS \_ DAYSTATE**](month-calendar-control-styles.md) 樣式的月曆控制項來傳送，而且會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="8e4f5-107">This notification code is sent only by month calendar controls that use the [**MCS\_DAYSTATE**](month-calendar-control-styles.md) style, and it is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="b512d-106">由月曆控制項傳送，可要求有關如何顯示個別日期的資訊。</span><span class="sxs-lookup"><span data-stu-id="b512d-106">Sent by a month calendar control to request information about how individual days should be displayed.</span></span> <span data-ttu-id="b512d-107">此通知碼只會由使用 [**MCS \_ DAYSTATE**](month-calendar-control-styles.md) 樣式的月曆控制項來傳送，而且會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="b512d-107">This notification code is sent only by month calendar controls that use the [**MCS\_DAYSTATE**](month-calendar-control-styles.md) style, and it is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -34,34 +34,34 @@ MCN_GETDAYSTATE
 
 
 
-## <a name="parameters"></a><span data-ttu-id="8e4f5-108">參數</span><span class="sxs-lookup"><span data-stu-id="8e4f5-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b512d-108">參數</span><span class="sxs-lookup"><span data-stu-id="b512d-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="8e4f5-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="8e4f5-109">*lParam*</span></span> 
+<span data-ttu-id="b512d-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="b512d-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="8e4f5-110">[**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate)結構的指標。</span><span class="sxs-lookup"><span data-stu-id="8e4f5-110">Pointer to an [**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate) structure.</span></span> <span data-ttu-id="8e4f5-111">結構包含控制項需要資訊之時間範圍的相關資訊，並且會接收提供此資料的陣列位址。</span><span class="sxs-lookup"><span data-stu-id="8e4f5-111">The structure contains information about the time frame for which the control needs information, and it receives the address of an array that provides this data.</span></span>
+<span data-ttu-id="b512d-110">[**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate)結構的指標。</span><span class="sxs-lookup"><span data-stu-id="b512d-110">Pointer to an [**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate) structure.</span></span> <span data-ttu-id="b512d-111">結構包含控制項需要資訊之時間範圍的相關資訊，並且會接收提供此資料的陣列位址。</span><span class="sxs-lookup"><span data-stu-id="b512d-111">The structure contains information about the time frame for which the control needs information, and it receives the address of an array that provides this data.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="8e4f5-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="8e4f5-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b512d-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="b512d-112">Return value</span></span>
 
-<span data-ttu-id="8e4f5-113">沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="8e4f5-113">No return value.</span></span>
+<span data-ttu-id="b512d-113">沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="b512d-113">No return value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8e4f5-114">備註</span><span class="sxs-lookup"><span data-stu-id="8e4f5-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b512d-114">備註</span><span class="sxs-lookup"><span data-stu-id="b512d-114">Remarks</span></span>
 
-<span data-ttu-id="8e4f5-115">處理此通知碼可讓您的應用程式藉由指定以粗體顯示特定日期，來自訂其顯示。</span><span class="sxs-lookup"><span data-stu-id="8e4f5-115">Handling this notification code allows your application to customize its display by specifying that certain days be displayed in bold.</span></span>
+<span data-ttu-id="b512d-115">處理此通知碼可讓您的應用程式藉由指定以粗體顯示特定日期，來自訂其顯示。</span><span class="sxs-lookup"><span data-stu-id="b512d-115">Handling this notification code allows your application to customize its display by specifying that certain days be displayed in bold.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="8e4f5-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="8e4f5-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b512d-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="b512d-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="8e4f5-117">需求</span><span class="sxs-lookup"><span data-stu-id="8e4f5-117">Requirement</span></span> | <span data-ttu-id="8e4f5-118">值</span><span class="sxs-lookup"><span data-stu-id="8e4f5-118">Value</span></span> |
+| <span data-ttu-id="b512d-117">需求</span><span class="sxs-lookup"><span data-stu-id="b512d-117">Requirement</span></span> | <span data-ttu-id="b512d-118">值</span><span class="sxs-lookup"><span data-stu-id="b512d-118">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="8e4f5-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8e4f5-119">Minimum supported client</span></span><br/> | <span data-ttu-id="8e4f5-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8e4f5-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="8e4f5-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8e4f5-121">Minimum supported server</span></span><br/> | <span data-ttu-id="8e4f5-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8e4f5-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="8e4f5-123">標頭</span><span class="sxs-lookup"><span data-stu-id="8e4f5-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="8e4f5-124"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="8e4f5-124"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="b512d-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b512d-119">Minimum supported client</span></span><br/> | <span data-ttu-id="b512d-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b512d-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="b512d-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b512d-121">Minimum supported server</span></span><br/> | <span data-ttu-id="b512d-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b512d-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="b512d-123">標頭</span><span class="sxs-lookup"><span data-stu-id="b512d-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="b512d-124"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="b512d-124"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

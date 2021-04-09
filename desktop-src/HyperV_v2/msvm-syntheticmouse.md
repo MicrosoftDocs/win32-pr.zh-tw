@@ -73,13 +73,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689775"
 ---
-# <a name="msvm_syntheticmouse-class"></a><span data-ttu-id="caa27-103">Msvm \_ SyntheticMouse 類別</span><span class="sxs-lookup"><span data-stu-id="caa27-103">Msvm\_SyntheticMouse class</span></span>
+# <a name="msvm_syntheticmouse-class"></a><span data-ttu-id="49d01-103">Msvm \_ SyntheticMouse 類別</span><span class="sxs-lookup"><span data-stu-id="49d01-103">Msvm\_SyntheticMouse class</span></span>
 
-<span data-ttu-id="caa27-104">代表綜合滑鼠裝置。</span><span class="sxs-lookup"><span data-stu-id="caa27-104">Represents a synthetic mouse device.</span></span>
+<span data-ttu-id="49d01-104">代表綜合滑鼠裝置。</span><span class="sxs-lookup"><span data-stu-id="49d01-104">Represents a synthetic mouse device.</span></span>
 
-<span data-ttu-id="caa27-105">下列語法已簡化受控物件格式 (MOF) 程式碼，並且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="caa27-105">The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.</span></span>
+<span data-ttu-id="49d01-105">下列語法已簡化受控物件格式 (MOF) 程式碼，並且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="49d01-105">The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="caa27-106">語法</span><span class="sxs-lookup"><span data-stu-id="caa27-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="49d01-106">語法</span><span class="sxs-lookup"><span data-stu-id="49d01-106">Syntax</span></span>
 
 ``` syntax
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
@@ -137,62 +137,62 @@ class Msvm_SyntheticMouse : CIM_PointingDevice
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="caa27-107">成員</span><span class="sxs-lookup"><span data-stu-id="caa27-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="49d01-107">成員</span><span class="sxs-lookup"><span data-stu-id="49d01-107">Members</span></span>
 
-<span data-ttu-id="caa27-108">**Msvm \_ SyntheticMouse** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="caa27-108">The **Msvm\_SyntheticMouse** class has these types of members:</span></span>
+<span data-ttu-id="49d01-108">**Msvm \_ SyntheticMouse** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="49d01-108">The **Msvm\_SyntheticMouse** class has these types of members:</span></span>
 
--   [<span data-ttu-id="caa27-109">方法</span><span class="sxs-lookup"><span data-stu-id="caa27-109">Methods</span></span>](#methods)
--   [<span data-ttu-id="caa27-110">屬性</span><span class="sxs-lookup"><span data-stu-id="caa27-110">Properties</span></span>](#properties)
+-   [<span data-ttu-id="49d01-109">方法</span><span class="sxs-lookup"><span data-stu-id="49d01-109">Methods</span></span>](#methods)
+-   [<span data-ttu-id="49d01-110">屬性</span><span class="sxs-lookup"><span data-stu-id="49d01-110">Properties</span></span>](#properties)
 
-### <a name="methods"></a><span data-ttu-id="caa27-111">方法</span><span class="sxs-lookup"><span data-stu-id="caa27-111">Methods</span></span>
+### <a name="methods"></a><span data-ttu-id="49d01-111">方法</span><span class="sxs-lookup"><span data-stu-id="49d01-111">Methods</span></span>
 
-<span data-ttu-id="caa27-112">**Msvm \_ SyntheticMouse** 類別具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="caa27-112">The **Msvm\_SyntheticMouse** class has these methods.</span></span>
+<span data-ttu-id="49d01-112">**Msvm \_ SyntheticMouse** 類別具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="49d01-112">The **Msvm\_SyntheticMouse** class has these methods.</span></span>
 
 
 
-| <span data-ttu-id="caa27-113">方法</span><span class="sxs-lookup"><span data-stu-id="caa27-113">Method</span></span>                                                                 | <span data-ttu-id="caa27-114">描述</span><span class="sxs-lookup"><span data-stu-id="caa27-114">Description</span></span>                                                                   |
+| <span data-ttu-id="49d01-113">方法</span><span class="sxs-lookup"><span data-stu-id="49d01-113">Method</span></span>                                                                 | <span data-ttu-id="49d01-114">描述</span><span class="sxs-lookup"><span data-stu-id="49d01-114">Description</span></span>                                                                   |
 |:-----------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [<span data-ttu-id="caa27-115">**ClickButton**</span><span class="sxs-lookup"><span data-stu-id="caa27-115">**ClickButton**</span></span>](clickbutton-msvm-syntheticmouse.md)                 | <span data-ttu-id="caa27-116">模擬指定裝置按鈕的按鈕點擊。</span><span class="sxs-lookup"><span data-stu-id="caa27-116">Simulates a button click of the specified device button.</span></span><br/>           |
-| <span data-ttu-id="caa27-117">**EnableDevice**</span><span class="sxs-lookup"><span data-stu-id="caa27-117">**EnableDevice**</span></span>                                                       | <span data-ttu-id="caa27-118">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="caa27-118">This method is not supported.</span></span><br/>                                      |
-| [<span data-ttu-id="caa27-119">**GetButtonState**</span><span class="sxs-lookup"><span data-stu-id="caa27-119">**GetButtonState**</span></span>](getbuttonstate-msvm-syntheticmouse.md)           | <span data-ttu-id="caa27-120">抓取指定裝置按鈕的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-120">Retrieves the current state of the specified device button.</span></span><br/>        |
-| <span data-ttu-id="caa27-121">**OnlineDevice**</span><span class="sxs-lookup"><span data-stu-id="caa27-121">**OnlineDevice**</span></span>                                                       | <span data-ttu-id="caa27-122">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="caa27-122">This method is not supported.</span></span><br/>                                      |
-| <span data-ttu-id="caa27-123">**QuiesceDevice**</span><span class="sxs-lookup"><span data-stu-id="caa27-123">**QuiesceDevice**</span></span>                                                      | <span data-ttu-id="caa27-124">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="caa27-124">This method is not supported.</span></span><br/>                                      |
-| [<span data-ttu-id="caa27-125">**RequestStateChange**</span><span class="sxs-lookup"><span data-stu-id="caa27-125">**RequestStateChange**</span></span>](msvm-syntheticmouse-requeststatechange.md)   | <span data-ttu-id="caa27-126">要求狀態變更</span><span class="sxs-lookup"><span data-stu-id="caa27-126">Requests a state change</span></span><br/>                                            |
-| [<span data-ttu-id="caa27-127">**重設**</span><span class="sxs-lookup"><span data-stu-id="caa27-127">**Reset**</span></span>](msvm-syntheticmouse-reset.md)                             | <span data-ttu-id="caa27-128">重設裝置。</span><span class="sxs-lookup"><span data-stu-id="caa27-128">Resets the device.</span></span><br/>                                                 |
-| <span data-ttu-id="caa27-129">**RestoreProperties**</span><span class="sxs-lookup"><span data-stu-id="caa27-129">**RestoreProperties**</span></span>                                                  | <span data-ttu-id="caa27-130">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="caa27-130">This method is not supported.</span></span><br/>                                      |
-| <span data-ttu-id="caa27-131">**SaveProperties**</span><span class="sxs-lookup"><span data-stu-id="caa27-131">**SaveProperties**</span></span>                                                     | <span data-ttu-id="caa27-132">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="caa27-132">This method is not supported.</span></span><br/>                                      |
-| [<span data-ttu-id="caa27-133">**SetAbsolutePosition**</span><span class="sxs-lookup"><span data-stu-id="caa27-133">**SetAbsolutePosition**</span></span>](setabsoluteposition-msvm-syntheticmouse.md) | <span data-ttu-id="caa27-134">設定滑鼠游標的水準和垂直位置。</span><span class="sxs-lookup"><span data-stu-id="caa27-134">Sets the horizontal and vertical position of the mouse cursor.</span></span><br/>     |
-| [<span data-ttu-id="caa27-135">**SetButtonState**</span><span class="sxs-lookup"><span data-stu-id="caa27-135">**SetButtonState**</span></span>](setbuttonstate-msvm-syntheticmouse.md)           | <span data-ttu-id="caa27-136">設定指定裝置按鈕的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-136">Sets the current state of the specified device button.</span></span><br/>             |
-| <span data-ttu-id="caa27-137">**SetPowerState**</span><span class="sxs-lookup"><span data-stu-id="caa27-137">**SetPowerState**</span></span>                                                      | <span data-ttu-id="caa27-138">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="caa27-138">This method is not supported.</span></span><br/>                                      |
-| [<span data-ttu-id="caa27-139">**SetScrollPosition**</span><span class="sxs-lookup"><span data-stu-id="caa27-139">**SetScrollPosition**</span></span>](setscrollposition-msvm-syntheticmouse.md)     | <span data-ttu-id="caa27-140">設定指向指標裝置之滾輪控制項的 z 座標。</span><span class="sxs-lookup"><span data-stu-id="caa27-140">Sets the z-coordinate of the wheel control of the pointing device.</span></span><br/> |
+| [<span data-ttu-id="49d01-115">**ClickButton**</span><span class="sxs-lookup"><span data-stu-id="49d01-115">**ClickButton**</span></span>](clickbutton-msvm-syntheticmouse.md)                 | <span data-ttu-id="49d01-116">模擬指定裝置按鈕的按鈕點擊。</span><span class="sxs-lookup"><span data-stu-id="49d01-116">Simulates a button click of the specified device button.</span></span><br/>           |
+| <span data-ttu-id="49d01-117">**EnableDevice**</span><span class="sxs-lookup"><span data-stu-id="49d01-117">**EnableDevice**</span></span>                                                       | <span data-ttu-id="49d01-118">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="49d01-118">This method is not supported.</span></span><br/>                                      |
+| [<span data-ttu-id="49d01-119">**GetButtonState**</span><span class="sxs-lookup"><span data-stu-id="49d01-119">**GetButtonState**</span></span>](getbuttonstate-msvm-syntheticmouse.md)           | <span data-ttu-id="49d01-120">抓取指定裝置按鈕的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-120">Retrieves the current state of the specified device button.</span></span><br/>        |
+| <span data-ttu-id="49d01-121">**OnlineDevice**</span><span class="sxs-lookup"><span data-stu-id="49d01-121">**OnlineDevice**</span></span>                                                       | <span data-ttu-id="49d01-122">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="49d01-122">This method is not supported.</span></span><br/>                                      |
+| <span data-ttu-id="49d01-123">**QuiesceDevice**</span><span class="sxs-lookup"><span data-stu-id="49d01-123">**QuiesceDevice**</span></span>                                                      | <span data-ttu-id="49d01-124">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="49d01-124">This method is not supported.</span></span><br/>                                      |
+| [<span data-ttu-id="49d01-125">**RequestStateChange**</span><span class="sxs-lookup"><span data-stu-id="49d01-125">**RequestStateChange**</span></span>](msvm-syntheticmouse-requeststatechange.md)   | <span data-ttu-id="49d01-126">要求狀態變更</span><span class="sxs-lookup"><span data-stu-id="49d01-126">Requests a state change</span></span><br/>                                            |
+| [<span data-ttu-id="49d01-127">**重設**</span><span class="sxs-lookup"><span data-stu-id="49d01-127">**Reset**</span></span>](msvm-syntheticmouse-reset.md)                             | <span data-ttu-id="49d01-128">重設裝置。</span><span class="sxs-lookup"><span data-stu-id="49d01-128">Resets the device.</span></span><br/>                                                 |
+| <span data-ttu-id="49d01-129">**RestoreProperties**</span><span class="sxs-lookup"><span data-stu-id="49d01-129">**RestoreProperties**</span></span>                                                  | <span data-ttu-id="49d01-130">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="49d01-130">This method is not supported.</span></span><br/>                                      |
+| <span data-ttu-id="49d01-131">**SaveProperties**</span><span class="sxs-lookup"><span data-stu-id="49d01-131">**SaveProperties**</span></span>                                                     | <span data-ttu-id="49d01-132">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="49d01-132">This method is not supported.</span></span><br/>                                      |
+| [<span data-ttu-id="49d01-133">**SetAbsolutePosition**</span><span class="sxs-lookup"><span data-stu-id="49d01-133">**SetAbsolutePosition**</span></span>](setabsoluteposition-msvm-syntheticmouse.md) | <span data-ttu-id="49d01-134">設定滑鼠游標的水準和垂直位置。</span><span class="sxs-lookup"><span data-stu-id="49d01-134">Sets the horizontal and vertical position of the mouse cursor.</span></span><br/>     |
+| [<span data-ttu-id="49d01-135">**SetButtonState**</span><span class="sxs-lookup"><span data-stu-id="49d01-135">**SetButtonState**</span></span>](setbuttonstate-msvm-syntheticmouse.md)           | <span data-ttu-id="49d01-136">設定指定裝置按鈕的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-136">Sets the current state of the specified device button.</span></span><br/>             |
+| <span data-ttu-id="49d01-137">**SetPowerState**</span><span class="sxs-lookup"><span data-stu-id="49d01-137">**SetPowerState**</span></span>                                                      | <span data-ttu-id="49d01-138">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="49d01-138">This method is not supported.</span></span><br/>                                      |
+| [<span data-ttu-id="49d01-139">**SetScrollPosition**</span><span class="sxs-lookup"><span data-stu-id="49d01-139">**SetScrollPosition**</span></span>](setscrollposition-msvm-syntheticmouse.md)     | <span data-ttu-id="49d01-140">設定指向指標裝置之滾輪控制項的 z 座標。</span><span class="sxs-lookup"><span data-stu-id="49d01-140">Sets the z-coordinate of the wheel control of the pointing device.</span></span><br/> |
 
 
 
  
 
-### <a name="properties"></a><span data-ttu-id="caa27-141">屬性</span><span class="sxs-lookup"><span data-stu-id="caa27-141">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="49d01-141">屬性</span><span class="sxs-lookup"><span data-stu-id="49d01-141">Properties</span></span>
 
-<span data-ttu-id="caa27-142">**Msvm \_ SyntheticMouse** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="caa27-142">The **Msvm\_SyntheticMouse** class has these properties.</span></span>
+<span data-ttu-id="49d01-142">**Msvm \_ SyntheticMouse** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="49d01-142">The **Msvm\_SyntheticMouse** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="caa27-143">**AbsoluteCoordinates**</span><span class="sxs-lookup"><span data-stu-id="caa27-143">**AbsoluteCoordinates**</span></span>
+<span data-ttu-id="49d01-143">**AbsoluteCoordinates**</span><span class="sxs-lookup"><span data-stu-id="49d01-143">**AbsoluteCoordinates**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-144">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="caa27-144">Data type: **boolean**</span></span>
+<span data-ttu-id="49d01-144">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="49d01-144">Data type: **boolean**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-145">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-145">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-145">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-145">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-146">指出裝置是否在絕對或相對座標上運作。</span><span class="sxs-lookup"><span data-stu-id="caa27-146">Indicates whether the device operates on absolute or relative coordinates.</span></span>
+<span data-ttu-id="49d01-146">指出裝置是否在絕對或相對座標上運作。</span><span class="sxs-lookup"><span data-stu-id="49d01-146">Indicates whether the device operates on absolute or relative coordinates.</span></span>
 
 
 
-| <span data-ttu-id="caa27-147">值</span><span class="sxs-lookup"><span data-stu-id="caa27-147">Value</span></span>                                                                                | <span data-ttu-id="caa27-148">意義</span><span class="sxs-lookup"><span data-stu-id="caa27-148">Meaning</span></span>                                           |
+| <span data-ttu-id="49d01-147">值</span><span class="sxs-lookup"><span data-stu-id="49d01-147">Value</span></span>                                                                                | <span data-ttu-id="49d01-148">意義</span><span class="sxs-lookup"><span data-stu-id="49d01-148">Meaning</span></span>                                           |
 |--------------------------------------------------------------------------------------|---------------------------------------------------|
-| <dl> <span data-ttu-id="caa27-149"><dt>**對**</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-149"><dt>**True**</dt></span></span> </dl>  | <span data-ttu-id="caa27-150">裝置的座標是絕對的。</span><span class="sxs-lookup"><span data-stu-id="caa27-150">The device's coordinates are absolute.</span></span><br/> |
-| <dl> <span data-ttu-id="caa27-151"><dt>**否**</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-151"><dt>**False**</dt></span></span> </dl> | <span data-ttu-id="caa27-152">裝置的座標是相對的。</span><span class="sxs-lookup"><span data-stu-id="caa27-152">The device's coordinates are relative.</span></span><br/> |
+| <dl> <span data-ttu-id="49d01-149"><dt>**對**</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-149"><dt>**True**</dt></span></span> </dl>  | <span data-ttu-id="49d01-150">裝置的座標是絕對的。</span><span class="sxs-lookup"><span data-stu-id="49d01-150">The device's coordinates are absolute.</span></span><br/> |
+| <dl> <span data-ttu-id="49d01-151"><dt>**否**</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-151"><dt>**False**</dt></span></span> </dl> | <span data-ttu-id="49d01-152">裝置的座標是相對的。</span><span class="sxs-lookup"><span data-stu-id="49d01-152">The device's coordinates are relative.</span></span><br/> |
 
 
 
@@ -200,22 +200,22 @@ class Msvm_SyntheticMouse : CIM_PointingDevice
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-153">**AdditionalAvailability**</span><span class="sxs-lookup"><span data-stu-id="caa27-153">**AdditionalAvailability**</span></span>
+<span data-ttu-id="49d01-153">**AdditionalAvailability**</span><span class="sxs-lookup"><span data-stu-id="49d01-153">**AdditionalAvailability**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-154">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="caa27-154">Data type: **uint16** array</span></span>
+<span data-ttu-id="49d01-154">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="49d01-154">Data type: **uint16** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-155">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-155">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-155">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-155">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-156">裝置的任何額外可用性和狀態，超出 **可用性** 屬性中指定的範圍。</span><span class="sxs-lookup"><span data-stu-id="caa27-156">Any additional availability and status of the device, beyond that specified in the **Availability** property.</span></span> <span data-ttu-id="caa27-157">**Availability** 屬性代表裝置的主要狀態和可用性。</span><span class="sxs-lookup"><span data-stu-id="caa27-157">The **Availability** property denotes the primary status and availability of the device.</span></span> <span data-ttu-id="caa27-158">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-158">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
+<span data-ttu-id="49d01-156">裝置的任何額外可用性和狀態，超出 **可用性** 屬性中指定的範圍。</span><span class="sxs-lookup"><span data-stu-id="49d01-156">Any additional availability and status of the device, beyond that specified in the **Availability** property.</span></span> <span data-ttu-id="49d01-157">**Availability** 屬性代表裝置的主要狀態和可用性。</span><span class="sxs-lookup"><span data-stu-id="49d01-157">The **Availability** property denotes the primary status and availability of the device.</span></span> <span data-ttu-id="49d01-158">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-158">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
 
 
 
-| <span data-ttu-id="caa27-159">值</span><span class="sxs-lookup"><span data-stu-id="caa27-159">Value</span></span>                                                                          | <span data-ttu-id="caa27-160">意義</span><span class="sxs-lookup"><span data-stu-id="caa27-160">Meaning</span></span>                   |
+| <span data-ttu-id="49d01-159">值</span><span class="sxs-lookup"><span data-stu-id="49d01-159">Value</span></span>                                                                          | <span data-ttu-id="49d01-160">意義</span><span class="sxs-lookup"><span data-stu-id="49d01-160">Meaning</span></span>                   |
 |--------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>{6}</dt> </dl> | <span data-ttu-id="caa27-161">不適用</span><span class="sxs-lookup"><span data-stu-id="caa27-161">Not Applicable</span></span><br/> |
+| <dl> <dt>{6}</dt> </dl> | <span data-ttu-id="49d01-161">不適用</span><span class="sxs-lookup"><span data-stu-id="49d01-161">Not Applicable</span></span><br/> |
 
 
 
@@ -223,22 +223,22 @@ class Msvm_SyntheticMouse : CIM_PointingDevice
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-162">**可用性**</span><span class="sxs-lookup"><span data-stu-id="caa27-162">**Availability**</span></span>
+<span data-ttu-id="49d01-162">**可用性**</span><span class="sxs-lookup"><span data-stu-id="49d01-162">**Availability**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-163">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-163">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-163">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-163">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-164">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-164">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-164">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-164">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-165">裝置的主要可用性和狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-165">The primary availability and status of the device.</span></span> <span data-ttu-id="caa27-166">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-166">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
+<span data-ttu-id="49d01-165">裝置的主要可用性和狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-165">The primary availability and status of the device.</span></span> <span data-ttu-id="49d01-166">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-166">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
 
 
 
-| <span data-ttu-id="caa27-167">值</span><span class="sxs-lookup"><span data-stu-id="caa27-167">Value</span></span>                                                                        | <span data-ttu-id="caa27-168">意義</span><span class="sxs-lookup"><span data-stu-id="caa27-168">Meaning</span></span>                   |
+| <span data-ttu-id="49d01-167">值</span><span class="sxs-lookup"><span data-stu-id="49d01-167">Value</span></span>                                                                        | <span data-ttu-id="49d01-168">意義</span><span class="sxs-lookup"><span data-stu-id="49d01-168">Meaning</span></span>                   |
 |------------------------------------------------------------------------------|---------------------------|
-| <dl> <span data-ttu-id="caa27-169"><dt>6</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-169"><dt>6</dt></span></span> </dl> | <span data-ttu-id="caa27-170">不適用</span><span class="sxs-lookup"><span data-stu-id="caa27-170">Not Applicable</span></span><br/> |
+| <dl> <span data-ttu-id="49d01-169"><dt>6</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-169"><dt>6</dt></span></span> </dl> | <span data-ttu-id="49d01-170">不適用</span><span class="sxs-lookup"><span data-stu-id="49d01-170">Not Applicable</span></span><br/> |
 
 
 
@@ -246,195 +246,195 @@ class Msvm_SyntheticMouse : CIM_PointingDevice
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-171">**AvailableRequestedStates**</span><span class="sxs-lookup"><span data-stu-id="caa27-171">**AvailableRequestedStates**</span></span>
+<span data-ttu-id="49d01-171">**AvailableRequestedStates**</span><span class="sxs-lookup"><span data-stu-id="49d01-171">**AvailableRequestedStates**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-172">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="caa27-172">Data type: **uint16** array</span></span>
+<span data-ttu-id="49d01-172">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="49d01-172">Data type: **uint16** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-173">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-173">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-173">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-173">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-174">指出 **RequestStateChange** 方法的 *RequestedState* 參數可能的值。</span><span class="sxs-lookup"><span data-stu-id="caa27-174">Indicates the possible values for the *RequestedState* parameter of the **RequestStateChange** method.</span></span> <span data-ttu-id="caa27-175">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))，而且一律設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="caa27-175">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.</span></span>
+<span data-ttu-id="49d01-174">指出 **RequestStateChange** 方法的 *RequestedState* 參數可能的值。</span><span class="sxs-lookup"><span data-stu-id="49d01-174">Indicates the possible values for the *RequestedState* parameter of the **RequestStateChange** method.</span></span> <span data-ttu-id="49d01-175">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))，而且一律設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="49d01-175">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-176">**標題**</span><span class="sxs-lookup"><span data-stu-id="caa27-176">**Caption**</span></span>
+<span data-ttu-id="49d01-176">**標題**</span><span class="sxs-lookup"><span data-stu-id="49d01-176">**Caption**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-177">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-177">Data type: **string**</span></span>
+<span data-ttu-id="49d01-177">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-177">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-178">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-178">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-178">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-178">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-179">物件的簡短描述。</span><span class="sxs-lookup"><span data-stu-id="caa27-179">A short description of the object.</span></span> <span data-ttu-id="caa27-180">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-180">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+<span data-ttu-id="49d01-179">物件的簡短描述。</span><span class="sxs-lookup"><span data-stu-id="49d01-179">A short description of the object.</span></span> <span data-ttu-id="49d01-180">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-180">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-181">**CommunicationStatus**</span><span class="sxs-lookup"><span data-stu-id="caa27-181">**CommunicationStatus**</span></span>
+<span data-ttu-id="49d01-181">**CommunicationStatus**</span><span class="sxs-lookup"><span data-stu-id="49d01-181">**CommunicationStatus**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-182">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-182">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-182">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-182">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-183">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-183">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-183">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-183">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-184">指出檢測與基礎受管理元素通訊的能力。</span><span class="sxs-lookup"><span data-stu-id="caa27-184">Indicates the ability of the instrumentation to communicate with the underlying managed element.</span></span> <span data-ttu-id="caa27-185">**Null** 值表示不會執行此屬性。</span><span class="sxs-lookup"><span data-stu-id="caa27-185">A **Null** value indicates that this property is not implemented.</span></span> <span data-ttu-id="caa27-186">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-186">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
+<span data-ttu-id="49d01-184">指出檢測與基礎受管理元素通訊的能力。</span><span class="sxs-lookup"><span data-stu-id="49d01-184">Indicates the ability of the instrumentation to communicate with the underlying managed element.</span></span> <span data-ttu-id="49d01-185">**Null** 值表示不會執行此屬性。</span><span class="sxs-lookup"><span data-stu-id="49d01-185">A **Null** value indicates that this property is not implemented.</span></span> <span data-ttu-id="49d01-186">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-186">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="caa27-187"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="caa27-187"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
+<span data-ttu-id="49d01-187"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="49d01-187"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-188"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span> (1) **無法使用**</span><span class="sxs-lookup"><span data-stu-id="caa27-188"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span>**Not Available** (1)</span></span>
+<span data-ttu-id="49d01-188"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span> (1) **無法使用**</span><span class="sxs-lookup"><span data-stu-id="49d01-188"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span>**Not Available** (1)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-189"><span id="Communication_OK"></span><span id="communication_ok"></span><span id="COMMUNICATION_OK"></span>**通訊正常** (2) </span><span class="sxs-lookup"><span data-stu-id="caa27-189"><span id="Communication_OK"></span><span id="communication_ok"></span><span id="COMMUNICATION_OK"></span>**Communication OK** (2)</span></span>
+<span data-ttu-id="49d01-189"><span id="Communication_OK"></span><span id="communication_ok"></span><span id="COMMUNICATION_OK"></span>**通訊正常** (2) </span><span class="sxs-lookup"><span data-stu-id="49d01-189"><span id="Communication_OK"></span><span id="communication_ok"></span><span id="COMMUNICATION_OK"></span>**Communication OK** (2)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-190"><span id="Lost_Communication"></span><span id="lost_communication"></span><span id="LOST_COMMUNICATION"></span>**遺失通訊** (3) </span><span class="sxs-lookup"><span data-stu-id="caa27-190"><span id="Lost_Communication"></span><span id="lost_communication"></span><span id="LOST_COMMUNICATION"></span>**Lost Communication** (3)</span></span>
+<span data-ttu-id="49d01-190"><span id="Lost_Communication"></span><span id="lost_communication"></span><span id="LOST_COMMUNICATION"></span>**遺失通訊** (3) </span><span class="sxs-lookup"><span data-stu-id="49d01-190"><span id="Lost_Communication"></span><span id="lost_communication"></span><span id="LOST_COMMUNICATION"></span>**Lost Communication** (3)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-191"><span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>**沒有連絡人** (4) </span><span class="sxs-lookup"><span data-stu-id="caa27-191"><span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>**No Contact** (4)</span></span>
+<span data-ttu-id="49d01-191"><span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>**沒有連絡人** (4) </span><span class="sxs-lookup"><span data-stu-id="49d01-191"><span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>**No Contact** (4)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-192"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="caa27-192"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
+<span data-ttu-id="49d01-192"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="49d01-192"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-193"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。</span><span class="sxs-lookup"><span data-stu-id="caa27-193"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..</span></span> <span data-ttu-id="caa27-194">)</span><span class="sxs-lookup"><span data-stu-id="caa27-194">)</span></span>
+<span data-ttu-id="49d01-193"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。</span><span class="sxs-lookup"><span data-stu-id="49d01-193"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..</span></span> <span data-ttu-id="49d01-194">)</span><span class="sxs-lookup"><span data-stu-id="49d01-194">)</span></span>
 </dt> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-195">**CreationClassName**</span><span class="sxs-lookup"><span data-stu-id="caa27-195">**CreationClassName**</span></span>
+<span data-ttu-id="49d01-195">**CreationClassName**</span><span class="sxs-lookup"><span data-stu-id="49d01-195">**CreationClassName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-196">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-196">Data type: **string**</span></span>
+<span data-ttu-id="49d01-196">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-196">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-197">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-197">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-197">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-197">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-198">限定詞： **MaxLen** (256) </span><span class="sxs-lookup"><span data-stu-id="caa27-198">Qualifiers: **MaxLen** (256)</span></span>
+<span data-ttu-id="49d01-198">限定詞： **MaxLen** (256) </span><span class="sxs-lookup"><span data-stu-id="49d01-198">Qualifiers: **MaxLen** (256)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-199">建立實例時所使用之類別或子類別的名稱。</span><span class="sxs-lookup"><span data-stu-id="caa27-199">The name of the class or subclass used in the creation of an instance.</span></span> <span data-ttu-id="caa27-200">搭配類別的其他索引鍵屬性使用時，此屬性可讓類別和其子類別的所有實例都能唯一識別。</span><span class="sxs-lookup"><span data-stu-id="caa27-200">When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified.</span></span> <span data-ttu-id="caa27-201">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-201">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
+<span data-ttu-id="49d01-199">建立實例時所使用之類別或子類別的名稱。</span><span class="sxs-lookup"><span data-stu-id="49d01-199">The name of the class or subclass used in the creation of an instance.</span></span> <span data-ttu-id="49d01-200">搭配類別的其他索引鍵屬性使用時，此屬性可讓類別和其子類別的所有實例都能唯一識別。</span><span class="sxs-lookup"><span data-stu-id="49d01-200">When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified.</span></span> <span data-ttu-id="49d01-201">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-201">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-202">**說明**</span><span class="sxs-lookup"><span data-stu-id="caa27-202">**Description**</span></span>
+<span data-ttu-id="49d01-202">**說明**</span><span class="sxs-lookup"><span data-stu-id="49d01-202">**Description**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-203">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-203">Data type: **string**</span></span>
+<span data-ttu-id="49d01-203">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-203">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-204">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-204">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-204">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-204">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-205">對物件的描述。</span><span class="sxs-lookup"><span data-stu-id="caa27-205">A description of the object.</span></span> <span data-ttu-id="caa27-206">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-206">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+<span data-ttu-id="49d01-205">對物件的描述。</span><span class="sxs-lookup"><span data-stu-id="49d01-205">A description of the object.</span></span> <span data-ttu-id="49d01-206">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-206">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-207">**DetailedStatus**</span><span class="sxs-lookup"><span data-stu-id="caa27-207">**DetailedStatus**</span></span>
+<span data-ttu-id="49d01-207">**DetailedStatus**</span><span class="sxs-lookup"><span data-stu-id="49d01-207">**DetailedStatus**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-208">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-208">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-208">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-208">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-209">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-209">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-209">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-209">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-210">補充 **PrimaryStatus** 屬性與其他狀態詳細資料。</span><span class="sxs-lookup"><span data-stu-id="caa27-210">Compliments the **PrimaryStatus** property with additional status detail.</span></span> <span data-ttu-id="caa27-211">**Null** 值表示不會執行此屬性。</span><span class="sxs-lookup"><span data-stu-id="caa27-211">A **Null** value indicates that this property is not implemented.</span></span> <span data-ttu-id="caa27-212">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-212">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
+<span data-ttu-id="49d01-210">補充 **PrimaryStatus** 屬性與其他狀態詳細資料。</span><span class="sxs-lookup"><span data-stu-id="49d01-210">Compliments the **PrimaryStatus** property with additional status detail.</span></span> <span data-ttu-id="49d01-211">**Null** 值表示不會執行此屬性。</span><span class="sxs-lookup"><span data-stu-id="49d01-211">A **Null** value indicates that this property is not implemented.</span></span> <span data-ttu-id="49d01-212">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-212">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="caa27-213"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span> (0) **無法使用**</span><span class="sxs-lookup"><span data-stu-id="caa27-213"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span>**Not Available** (0)</span></span>
+<span data-ttu-id="49d01-213"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span> (0) **無法使用**</span><span class="sxs-lookup"><span data-stu-id="49d01-213"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span>**Not Available** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-214"><span id="No_Additional_Information"></span><span id="no_additional_information"></span><span id="NO_ADDITIONAL_INFORMATION"></span>**沒有其他資訊** (1) </span><span class="sxs-lookup"><span data-stu-id="caa27-214"><span id="No_Additional_Information"></span><span id="no_additional_information"></span><span id="NO_ADDITIONAL_INFORMATION"></span>**No Additional Information** (1)</span></span>
+<span data-ttu-id="49d01-214"><span id="No_Additional_Information"></span><span id="no_additional_information"></span><span id="NO_ADDITIONAL_INFORMATION"></span>**沒有其他資訊** (1) </span><span class="sxs-lookup"><span data-stu-id="49d01-214"><span id="No_Additional_Information"></span><span id="no_additional_information"></span><span id="NO_ADDITIONAL_INFORMATION"></span>**No Additional Information** (1)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-215"><span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>**壓力** (2) </span><span class="sxs-lookup"><span data-stu-id="caa27-215"><span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>**Stressed** (2)</span></span>
+<span data-ttu-id="49d01-215"><span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>**壓力** (2) </span><span class="sxs-lookup"><span data-stu-id="49d01-215"><span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>**Stressed** (2)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-216"><span id="Predictive_Failure"></span><span id="predictive_failure"></span><span id="PREDICTIVE_FAILURE"></span>**預測性失敗** (3) </span><span class="sxs-lookup"><span data-stu-id="caa27-216"><span id="Predictive_Failure"></span><span id="predictive_failure"></span><span id="PREDICTIVE_FAILURE"></span>**Predictive Failure** (3)</span></span>
+<span data-ttu-id="49d01-216"><span id="Predictive_Failure"></span><span id="predictive_failure"></span><span id="PREDICTIVE_FAILURE"></span>**預測性失敗** (3) </span><span class="sxs-lookup"><span data-stu-id="49d01-216"><span id="Predictive_Failure"></span><span id="predictive_failure"></span><span id="PREDICTIVE_FAILURE"></span>**Predictive Failure** (3)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-217"><span id="Non-Recoverable_Error"></span><span id="non-recoverable_error"></span><span id="NON-RECOVERABLE_ERROR"></span>**無法復原的錯誤** (4) </span><span class="sxs-lookup"><span data-stu-id="caa27-217"><span id="Non-Recoverable_Error"></span><span id="non-recoverable_error"></span><span id="NON-RECOVERABLE_ERROR"></span>**Non-Recoverable Error** (4)</span></span>
+<span data-ttu-id="49d01-217"><span id="Non-Recoverable_Error"></span><span id="non-recoverable_error"></span><span id="NON-RECOVERABLE_ERROR"></span>**無法復原的錯誤** (4) </span><span class="sxs-lookup"><span data-stu-id="49d01-217"><span id="Non-Recoverable_Error"></span><span id="non-recoverable_error"></span><span id="NON-RECOVERABLE_ERROR"></span>**Non-Recoverable Error** (4)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-218"><span id="Supporting_Entity_in_Error"></span><span id="supporting_entity_in_error"></span><span id="SUPPORTING_ENTITY_IN_ERROR"></span>**錯誤中的支援實體** (5) </span><span class="sxs-lookup"><span data-stu-id="caa27-218"><span id="Supporting_Entity_in_Error"></span><span id="supporting_entity_in_error"></span><span id="SUPPORTING_ENTITY_IN_ERROR"></span>**Supporting Entity in Error** (5)</span></span>
+<span data-ttu-id="49d01-218"><span id="Supporting_Entity_in_Error"></span><span id="supporting_entity_in_error"></span><span id="SUPPORTING_ENTITY_IN_ERROR"></span>**錯誤中的支援實體** (5) </span><span class="sxs-lookup"><span data-stu-id="49d01-218"><span id="Supporting_Entity_in_Error"></span><span id="supporting_entity_in_error"></span><span id="SUPPORTING_ENTITY_IN_ERROR"></span>**Supporting Entity in Error** (5)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-219"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="caa27-219"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
+<span data-ttu-id="49d01-219"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="49d01-219"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-220"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。</span><span class="sxs-lookup"><span data-stu-id="caa27-220"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..</span></span> <span data-ttu-id="caa27-221">)</span><span class="sxs-lookup"><span data-stu-id="caa27-221">)</span></span>
+<span data-ttu-id="49d01-220"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。</span><span class="sxs-lookup"><span data-stu-id="49d01-220"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..</span></span> <span data-ttu-id="49d01-221">)</span><span class="sxs-lookup"><span data-stu-id="49d01-221">)</span></span>
 </dt> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-222">**DeviceID**</span><span class="sxs-lookup"><span data-stu-id="caa27-222">**DeviceID**</span></span>
+<span data-ttu-id="49d01-222">**DeviceID**</span><span class="sxs-lookup"><span data-stu-id="49d01-222">**DeviceID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-223">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-223">Data type: **string**</span></span>
+<span data-ttu-id="49d01-223">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-223">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-224">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-224">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-224">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-224">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-225">限定詞： **MaxLen** (64) </span><span class="sxs-lookup"><span data-stu-id="caa27-225">Qualifiers: **MaxLen** (64)</span></span>
+<span data-ttu-id="49d01-225">限定詞： **MaxLen** (64) </span><span class="sxs-lookup"><span data-stu-id="49d01-225">Qualifiers: **MaxLen** (64)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-226">用來唯一命名邏輯裝置的位址或其他識別資訊。</span><span class="sxs-lookup"><span data-stu-id="caa27-226">An address or other identifying information to uniquely name the logical device.</span></span> <span data-ttu-id="caa27-227">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，而且一律設定為 "Microsoft：*GUID*"。</span><span class="sxs-lookup"><span data-stu-id="caa27-227">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is always set to "Microsoft:*GUID*".</span></span>
+<span data-ttu-id="49d01-226">用來唯一命名邏輯裝置的位址或其他識別資訊。</span><span class="sxs-lookup"><span data-stu-id="49d01-226">An address or other identifying information to uniquely name the logical device.</span></span> <span data-ttu-id="49d01-227">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，而且一律設定為 "Microsoft：*GUID*"。</span><span class="sxs-lookup"><span data-stu-id="49d01-227">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is always set to "Microsoft:*GUID*".</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-228">**ElementName**</span><span class="sxs-lookup"><span data-stu-id="caa27-228">**ElementName**</span></span>
+<span data-ttu-id="49d01-228">**ElementName**</span><span class="sxs-lookup"><span data-stu-id="49d01-228">**ElementName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-229">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-229">Data type: **string**</span></span>
+<span data-ttu-id="49d01-229">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-229">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-230">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-230">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-230">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-230">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-231">物件的顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="caa27-231">A display name for the object.</span></span> <span data-ttu-id="caa27-232">除了索引鍵屬性、身分識別資料和描述資訊之外，此屬性還可讓每個實例定義顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="caa27-232">This property allows each instance to define a display name in addition to its key properties, identity data, and description information.</span></span> <span data-ttu-id="caa27-233">**CIM \_ ManagedSystemElement** 類別的 [**Name**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)屬性也會定義為顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="caa27-233">The [**Name**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement) property of the **CIM\_ManagedSystemElement** class is also defined as a display name.</span></span> <span data-ttu-id="caa27-234">但是，它通常是一個重要的子類別。</span><span class="sxs-lookup"><span data-stu-id="caa27-234">But, it is often subclassed to be a Key.</span></span> <span data-ttu-id="caa27-235">相同的屬性可以同時傳達身分識別和顯示名稱，而不會有不一致的情況。</span><span class="sxs-lookup"><span data-stu-id="caa27-235">It is not reasonable that the same property can convey both identity and a display name, without inconsistencies.</span></span> <span data-ttu-id="caa27-236">如果 [**名稱**](msvm-keyboard.md) 存在，而且不是索引鍵 (例如針對 LogicalDevice) 的實例，則 **名稱** 和 **ElementName** 屬性都可以同時存在相同的資訊。</span><span class="sxs-lookup"><span data-stu-id="caa27-236">Where [**Name**](msvm-keyboard.md) exists and is not a Key (such as for instances of LogicalDevice), the same information can be present in both the **Name** and **ElementName** properties.</span></span> <span data-ttu-id="caa27-237">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-237">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+<span data-ttu-id="49d01-231">物件的顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="49d01-231">A display name for the object.</span></span> <span data-ttu-id="49d01-232">除了索引鍵屬性、身分識別資料和描述資訊之外，此屬性還可讓每個實例定義顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="49d01-232">This property allows each instance to define a display name in addition to its key properties, identity data, and description information.</span></span> <span data-ttu-id="49d01-233">**CIM \_ ManagedSystemElement** 類別的 [**Name**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)屬性也會定義為顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="49d01-233">The [**Name**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement) property of the **CIM\_ManagedSystemElement** class is also defined as a display name.</span></span> <span data-ttu-id="49d01-234">但是，它通常是一個重要的子類別。</span><span class="sxs-lookup"><span data-stu-id="49d01-234">But, it is often subclassed to be a Key.</span></span> <span data-ttu-id="49d01-235">相同的屬性可以同時傳達身分識別和顯示名稱，而不會有不一致的情況。</span><span class="sxs-lookup"><span data-stu-id="49d01-235">It is not reasonable that the same property can convey both identity and a display name, without inconsistencies.</span></span> <span data-ttu-id="49d01-236">如果 [**名稱**](msvm-keyboard.md) 存在，而且不是索引鍵 (例如針對 LogicalDevice) 的實例，則 **名稱** 和 **ElementName** 屬性都可以同時存在相同的資訊。</span><span class="sxs-lookup"><span data-stu-id="49d01-236">Where [**Name**](msvm-keyboard.md) exists and is not a Key (such as for instances of LogicalDevice), the same information can be present in both the **Name** and **ElementName** properties.</span></span> <span data-ttu-id="49d01-237">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-237">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-238">**EnabledDefault**</span><span class="sxs-lookup"><span data-stu-id="caa27-238">**EnabledDefault**</span></span>
+<span data-ttu-id="49d01-238">**EnabledDefault**</span><span class="sxs-lookup"><span data-stu-id="49d01-238">**EnabledDefault**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-239">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-239">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-239">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-239">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-240">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-240">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-240">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-240">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-241">系統管理員的預設或啟動設定，適用于元素的 **EnabledState** 。</span><span class="sxs-lookup"><span data-stu-id="caa27-241">An administrator's default or startup configuration for the **EnabledState** of an element.</span></span> <span data-ttu-id="caa27-242">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。</span><span class="sxs-lookup"><span data-stu-id="caa27-242">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).</span></span>
+<span data-ttu-id="49d01-241">系統管理員的預設或啟動設定，適用于元素的 **EnabledState** 。</span><span class="sxs-lookup"><span data-stu-id="49d01-241">An administrator's default or startup configuration for the **EnabledState** of an element.</span></span> <span data-ttu-id="49d01-242">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。</span><span class="sxs-lookup"><span data-stu-id="49d01-242">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-243">**EnabledState**</span><span class="sxs-lookup"><span data-stu-id="caa27-243">**EnabledState**</span></span>
+<span data-ttu-id="49d01-243">**EnabledState**</span><span class="sxs-lookup"><span data-stu-id="49d01-243">**EnabledState**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-244">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-244">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-244">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-244">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-245">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-245">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-245">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-245">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-246">專案的已啟用和停用狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-246">The enabled and disabled states of an element.</span></span> <span data-ttu-id="caa27-247">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。</span><span class="sxs-lookup"><span data-stu-id="caa27-247">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).</span></span>
+<span data-ttu-id="49d01-246">專案的已啟用和停用狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-246">The enabled and disabled states of an element.</span></span> <span data-ttu-id="49d01-247">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。</span><span class="sxs-lookup"><span data-stu-id="49d01-247">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).</span></span>
 
 
 
-| <span data-ttu-id="caa27-248">值</span><span class="sxs-lookup"><span data-stu-id="caa27-248">Value</span></span>                                                                                                                                                                                                                           | <span data-ttu-id="caa27-249">意義</span><span class="sxs-lookup"><span data-stu-id="caa27-249">Meaning</span></span>                                                                  |
+| <span data-ttu-id="49d01-248">值</span><span class="sxs-lookup"><span data-stu-id="49d01-248">Value</span></span>                                                                                                                                                                                                                           | <span data-ttu-id="49d01-249">意義</span><span class="sxs-lookup"><span data-stu-id="49d01-249">Meaning</span></span>                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span><dl> <span data-ttu-id="caa27-250"><dt>**已啟用**</dt> <dt>2</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-250"><dt>**Enabled**</dt> <dt>2</dt></span></span> </dl>     | <span data-ttu-id="caa27-251">來賓虛擬機器支援綜合滑鼠。</span><span class="sxs-lookup"><span data-stu-id="caa27-251">The guest virtual machine supports a synthetic mouse.</span></span><br/>         |
-| <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span><dl> <span data-ttu-id="caa27-252"><dt>**停用**</dt> <dt>3</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-252"><dt>**Disabled**</dt> <dt>3</dt></span></span> </dl> | <span data-ttu-id="caa27-253">來賓虛擬機器不支援綜合滑鼠。</span><span class="sxs-lookup"><span data-stu-id="caa27-253">The guest virtual machine does not support a synthetic mouse.</span></span><br/> |
+| <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span><dl> <span data-ttu-id="49d01-250"><dt>**已啟用**</dt> <dt>2</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-250"><dt>**Enabled**</dt> <dt>2</dt></span></span> </dl>     | <span data-ttu-id="49d01-251">來賓虛擬機器支援綜合滑鼠。</span><span class="sxs-lookup"><span data-stu-id="49d01-251">The guest virtual machine supports a synthetic mouse.</span></span><br/>         |
+| <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span><dl> <span data-ttu-id="49d01-252"><dt>**停用**</dt> <dt>3</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-252"><dt>**Disabled**</dt> <dt>3</dt></span></span> </dl> | <span data-ttu-id="49d01-253">來賓虛擬機器不支援綜合滑鼠。</span><span class="sxs-lookup"><span data-stu-id="49d01-253">The guest virtual machine does not support a synthetic mouse.</span></span><br/> |
 
 
 
@@ -442,51 +442,51 @@ class Msvm_SyntheticMouse : CIM_PointingDevice
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-254">**ErrorCleared**</span><span class="sxs-lookup"><span data-stu-id="caa27-254">**ErrorCleared**</span></span>
+<span data-ttu-id="49d01-254">**ErrorCleared**</span><span class="sxs-lookup"><span data-stu-id="49d01-254">**ErrorCleared**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-255">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="caa27-255">Data type: **boolean**</span></span>
+<span data-ttu-id="49d01-255">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="49d01-255">Data type: **boolean**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-256">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-256">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-256">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-256">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-257">指出現在是否已清除 **LastErrorCode** 中報告的錯誤。</span><span class="sxs-lookup"><span data-stu-id="caa27-257">Indicates whether the error reported in **LastErrorCode** is now cleared.</span></span> <span data-ttu-id="caa27-258">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="caa27-258">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
+<span data-ttu-id="49d01-257">指出現在是否已清除 **LastErrorCode** 中報告的錯誤。</span><span class="sxs-lookup"><span data-stu-id="49d01-257">Indicates whether the error reported in **LastErrorCode** is now cleared.</span></span> <span data-ttu-id="49d01-258">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="49d01-258">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-259">**ErrorDescription**</span><span class="sxs-lookup"><span data-stu-id="caa27-259">**ErrorDescription**</span></span>
+<span data-ttu-id="49d01-259">**ErrorDescription**</span><span class="sxs-lookup"><span data-stu-id="49d01-259">**ErrorDescription**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-260">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-260">Data type: **string**</span></span>
+<span data-ttu-id="49d01-260">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-260">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-261">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-261">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-261">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-261">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-262">字串，提供 **LastErrorCode** 中所記錄錯誤的詳細資訊，以及可採取之任何矯正措施的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="caa27-262">A string that provides more information about the error recorded in **LastErrorCode** and information about any corrective actions that can be taken.</span></span> <span data-ttu-id="caa27-263">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="caa27-263">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
+<span data-ttu-id="49d01-262">字串，提供 **LastErrorCode** 中所記錄錯誤的詳細資訊，以及可採取之任何矯正措施的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="49d01-262">A string that provides more information about the error recorded in **LastErrorCode** and information about any corrective actions that can be taken.</span></span> <span data-ttu-id="49d01-263">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="49d01-263">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-264">**Handedness**</span><span class="sxs-lookup"><span data-stu-id="caa27-264">**Handedness**</span></span>
+<span data-ttu-id="49d01-264">**Handedness**</span><span class="sxs-lookup"><span data-stu-id="49d01-264">**Handedness**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-265">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-265">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-265">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-265">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-266">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-266">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-266">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-266">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-267">適用于右手邊或左邊作業的指標裝置設定。</span><span class="sxs-lookup"><span data-stu-id="caa27-267">The configuration of the pointing device for right-hand or left-hand operation.</span></span> <span data-ttu-id="caa27-268">這個屬性繼承自 [**CIM \_ PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-268">This property is inherited from [**CIM\_PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice).</span></span>
+<span data-ttu-id="49d01-267">適用于右手邊或左邊作業的指標裝置設定。</span><span class="sxs-lookup"><span data-stu-id="49d01-267">The configuration of the pointing device for right-hand or left-hand operation.</span></span> <span data-ttu-id="49d01-268">這個屬性繼承自 [**CIM \_ PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-268">This property is inherited from [**CIM\_PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice).</span></span>
 
 
 
-| <span data-ttu-id="caa27-269">值</span><span class="sxs-lookup"><span data-stu-id="caa27-269">Value</span></span>                                                                        | <span data-ttu-id="caa27-270">意義</span><span class="sxs-lookup"><span data-stu-id="caa27-270">Meaning</span></span>                            |
+| <span data-ttu-id="49d01-269">值</span><span class="sxs-lookup"><span data-stu-id="49d01-269">Value</span></span>                                                                        | <span data-ttu-id="49d01-270">意義</span><span class="sxs-lookup"><span data-stu-id="49d01-270">Meaning</span></span>                            |
 |------------------------------------------------------------------------------|------------------------------------|
-| <dl> <span data-ttu-id="caa27-271"><dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-271"><dt>0</dt></span></span> </dl> | <span data-ttu-id="caa27-272">Unknown</span><span class="sxs-lookup"><span data-stu-id="caa27-272">Unknown</span></span><br/>                 |
-| <dl> <span data-ttu-id="caa27-273"><dt>1</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-273"><dt>1</dt></span></span> </dl> | <span data-ttu-id="caa27-274">不適用。</span><span class="sxs-lookup"><span data-stu-id="caa27-274">Not applicable.</span></span><br/>         |
-| <dl> <span data-ttu-id="caa27-275"><dt>2</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-275"><dt>2</dt></span></span> </dl> | <span data-ttu-id="caa27-276">右手操作。</span><span class="sxs-lookup"><span data-stu-id="caa27-276">Right handed operation.</span></span><br/> |
-| <dl> <span data-ttu-id="caa27-277"><dt>3</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-277"><dt>3</dt></span></span> </dl> | <span data-ttu-id="caa27-278">左手操作。</span><span class="sxs-lookup"><span data-stu-id="caa27-278">Left handed operation.</span></span><br/>  |
+| <dl> <span data-ttu-id="49d01-271"><dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-271"><dt>0</dt></span></span> </dl> | <span data-ttu-id="49d01-272">Unknown</span><span class="sxs-lookup"><span data-stu-id="49d01-272">Unknown</span></span><br/>                 |
+| <dl> <span data-ttu-id="49d01-273"><dt>1</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-273"><dt>1</dt></span></span> </dl> | <span data-ttu-id="49d01-274">不適用。</span><span class="sxs-lookup"><span data-stu-id="49d01-274">Not applicable.</span></span><br/>         |
+| <dl> <span data-ttu-id="49d01-275"><dt>2</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-275"><dt>2</dt></span></span> </dl> | <span data-ttu-id="49d01-276">右手操作。</span><span class="sxs-lookup"><span data-stu-id="49d01-276">Right handed operation.</span></span><br/> |
+| <dl> <span data-ttu-id="49d01-277"><dt>3</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-277"><dt>3</dt></span></span> </dl> | <span data-ttu-id="49d01-278">左手操作。</span><span class="sxs-lookup"><span data-stu-id="49d01-278">Left handed operation.</span></span><br/>  |
 
 
 
@@ -494,269 +494,269 @@ class Msvm_SyntheticMouse : CIM_PointingDevice
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-279">**HealthState**</span><span class="sxs-lookup"><span data-stu-id="caa27-279">**HealthState**</span></span>
+<span data-ttu-id="49d01-279">**HealthState**</span><span class="sxs-lookup"><span data-stu-id="49d01-279">**HealthState**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-280">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-280">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-280">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-280">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-281">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-281">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-281">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-281">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-282">專案目前的健康情況。</span><span class="sxs-lookup"><span data-stu-id="caa27-282">The current health of the element.</span></span> <span data-ttu-id="caa27-283">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-283">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
+<span data-ttu-id="49d01-282">專案目前的健康情況。</span><span class="sxs-lookup"><span data-stu-id="49d01-282">The current health of the element.</span></span> <span data-ttu-id="49d01-283">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-283">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-284">**HorizontalPosition**</span><span class="sxs-lookup"><span data-stu-id="caa27-284">**HorizontalPosition**</span></span>
+<span data-ttu-id="49d01-284">**HorizontalPosition**</span><span class="sxs-lookup"><span data-stu-id="49d01-284">**HorizontalPosition**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-285">資料類型： **sint32**</span><span class="sxs-lookup"><span data-stu-id="caa27-285">Data type: **sint32**</span></span>
+<span data-ttu-id="49d01-285">資料類型： **sint32**</span><span class="sxs-lookup"><span data-stu-id="49d01-285">Data type: **sint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-286">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-286">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-286">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-286">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-287">指標裝置的絕對 x 座標。</span><span class="sxs-lookup"><span data-stu-id="caa27-287">The absolute x-coordinate of the pointing device.</span></span>
+<span data-ttu-id="49d01-287">指標裝置的絕對 x 座標。</span><span class="sxs-lookup"><span data-stu-id="49d01-287">The absolute x-coordinate of the pointing device.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-288">**IdentifyingDescriptions**</span><span class="sxs-lookup"><span data-stu-id="caa27-288">**IdentifyingDescriptions**</span></span>
+<span data-ttu-id="49d01-288">**IdentifyingDescriptions**</span><span class="sxs-lookup"><span data-stu-id="49d01-288">**IdentifyingDescriptions**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-289">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="caa27-289">Data type: **string** array</span></span>
+<span data-ttu-id="49d01-289">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="49d01-289">Data type: **string** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-290">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-290">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-290">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-290">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-291">自由格式字串的陣列，提供 [**OtherIdentifyingInfo**](msvm-keyboard.md) 陣列中專案背後的說明和詳細資料。</span><span class="sxs-lookup"><span data-stu-id="caa27-291">An array of free-form strings that provide explanations and details behind the entries in the [**OtherIdentifyingInfo**](msvm-keyboard.md) array.</span></span> <span data-ttu-id="caa27-292">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-292">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
+<span data-ttu-id="49d01-291">自由格式字串的陣列，提供 [**OtherIdentifyingInfo**](msvm-keyboard.md) 陣列中專案背後的說明和詳細資料。</span><span class="sxs-lookup"><span data-stu-id="49d01-291">An array of free-form strings that provide explanations and details behind the entries in the [**OtherIdentifyingInfo**](msvm-keyboard.md) array.</span></span> <span data-ttu-id="49d01-292">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-292">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-293">**InstallDate**</span><span class="sxs-lookup"><span data-stu-id="caa27-293">**InstallDate**</span></span>
+<span data-ttu-id="49d01-293">**InstallDate**</span><span class="sxs-lookup"><span data-stu-id="49d01-293">**InstallDate**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-294">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="caa27-294">Data type: **datetime**</span></span>
+<span data-ttu-id="49d01-294">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="49d01-294">Data type: **datetime**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-295">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-295">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-295">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-295">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-296">建立虛擬機器的日期和時間。</span><span class="sxs-lookup"><span data-stu-id="caa27-296">The date and time at which the virtual machine was created.</span></span> <span data-ttu-id="caa27-297">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-297">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
+<span data-ttu-id="49d01-296">建立虛擬機器的日期和時間。</span><span class="sxs-lookup"><span data-stu-id="49d01-296">The date and time at which the virtual machine was created.</span></span> <span data-ttu-id="49d01-297">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-297">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-298">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="caa27-298">**InstanceID**</span></span>
+<span data-ttu-id="49d01-298">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="49d01-298">**InstanceID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-299">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-299">Data type: **string**</span></span>
+<span data-ttu-id="49d01-299">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-299">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-300">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-300">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-300">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-300">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-301">限定詞：索引 **鍵**</span><span class="sxs-lookup"><span data-stu-id="caa27-301">Qualifiers: **Key**</span></span>
+<span data-ttu-id="49d01-301">限定詞：索引 **鍵**</span><span class="sxs-lookup"><span data-stu-id="49d01-301">Qualifiers: **Key**</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-302">唯一識別此類別的實例。</span><span class="sxs-lookup"><span data-stu-id="caa27-302">Uniquely identifies an instance of this class.</span></span> <span data-ttu-id="caa27-303">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-303">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+<span data-ttu-id="49d01-302">唯一識別此類別的實例。</span><span class="sxs-lookup"><span data-stu-id="49d01-302">Uniquely identifies an instance of this class.</span></span> <span data-ttu-id="49d01-303">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-303">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-304">**IsLocked**</span><span class="sxs-lookup"><span data-stu-id="caa27-304">**IsLocked**</span></span>
+<span data-ttu-id="49d01-304">**IsLocked**</span><span class="sxs-lookup"><span data-stu-id="49d01-304">**IsLocked**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-305">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="caa27-305">Data type: **boolean**</span></span>
+<span data-ttu-id="49d01-305">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="49d01-305">Data type: **boolean**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-306">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-306">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-306">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-306">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-307">指出裝置是否已鎖定，防止使用者輸入或輸出。</span><span class="sxs-lookup"><span data-stu-id="caa27-307">Indicates whether the device is locked, preventing user input or output.</span></span> <span data-ttu-id="caa27-308">這個屬性繼承自 [**CIM \_ UserDevice**](/windows/desktop/CIMWin32Prov/cim-userdevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-308">This property is inherited from [**CIM\_UserDevice**](/windows/desktop/CIMWin32Prov/cim-userdevice).</span></span>
+<span data-ttu-id="49d01-307">指出裝置是否已鎖定，防止使用者輸入或輸出。</span><span class="sxs-lookup"><span data-stu-id="49d01-307">Indicates whether the device is locked, preventing user input or output.</span></span> <span data-ttu-id="49d01-308">這個屬性繼承自 [**CIM \_ UserDevice**](/windows/desktop/CIMWin32Prov/cim-userdevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-308">This property is inherited from [**CIM\_UserDevice**](/windows/desktop/CIMWin32Prov/cim-userdevice).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-309">**LastErrorCode**</span><span class="sxs-lookup"><span data-stu-id="caa27-309">**LastErrorCode**</span></span>
+<span data-ttu-id="49d01-309">**LastErrorCode**</span><span class="sxs-lookup"><span data-stu-id="49d01-309">**LastErrorCode**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-310">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="caa27-310">Data type: **uint32**</span></span>
+<span data-ttu-id="49d01-310">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="49d01-310">Data type: **uint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-311">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-311">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-311">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-311">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-312">邏輯裝置所報告的最後一個錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="caa27-312">The last error code reported by the logical device.</span></span> <span data-ttu-id="caa27-313">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="caa27-313">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
+<span data-ttu-id="49d01-312">邏輯裝置所報告的最後一個錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="49d01-312">The last error code reported by the logical device.</span></span> <span data-ttu-id="49d01-313">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="49d01-313">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-314">**MaxQuiesceTime**</span><span class="sxs-lookup"><span data-stu-id="caa27-314">**MaxQuiesceTime**</span></span>
+<span data-ttu-id="49d01-314">**MaxQuiesceTime**</span><span class="sxs-lookup"><span data-stu-id="49d01-314">**MaxQuiesceTime**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-315">資料類型： **uint64**</span><span class="sxs-lookup"><span data-stu-id="caa27-315">Data type: **uint64**</span></span>
+<span data-ttu-id="49d01-315">資料類型： **uint64**</span><span class="sxs-lookup"><span data-stu-id="49d01-315">Data type: **uint64**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-316">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-316">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-316">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-316">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-317">這個屬性已被取代。</span><span class="sxs-lookup"><span data-stu-id="caa27-317">This property has been deprecated.</span></span> <span data-ttu-id="caa27-318">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-318">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
+<span data-ttu-id="49d01-317">這個屬性已被取代。</span><span class="sxs-lookup"><span data-stu-id="49d01-317">This property has been deprecated.</span></span> <span data-ttu-id="49d01-318">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-318">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-319">**名稱**</span><span class="sxs-lookup"><span data-stu-id="caa27-319">**Name**</span></span>
+<span data-ttu-id="49d01-319">**名稱**</span><span class="sxs-lookup"><span data-stu-id="49d01-319">**Name**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-320">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-320">Data type: **string**</span></span>
+<span data-ttu-id="49d01-320">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-320">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-321">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-321">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-321">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-321">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-322">限定詞： **MaxLen** (1024) </span><span class="sxs-lookup"><span data-stu-id="caa27-322">Qualifiers: **MaxLen** (1024)</span></span>
+<span data-ttu-id="49d01-322">限定詞： **MaxLen** (1024) </span><span class="sxs-lookup"><span data-stu-id="49d01-322">Qualifiers: **MaxLen** (1024)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-323">已知物件的標籤。</span><span class="sxs-lookup"><span data-stu-id="caa27-323">The label by which the object is known.</span></span> <span data-ttu-id="caa27-324">子類別化時，可以將這個屬性覆寫為索引鍵屬性。</span><span class="sxs-lookup"><span data-stu-id="caa27-324">When subclassed, this property can be overridden to be a key property.</span></span> <span data-ttu-id="caa27-325">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-325">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
+<span data-ttu-id="49d01-323">已知物件的標籤。</span><span class="sxs-lookup"><span data-stu-id="49d01-323">The label by which the object is known.</span></span> <span data-ttu-id="49d01-324">子類別化時，可以將這個屬性覆寫為索引鍵屬性。</span><span class="sxs-lookup"><span data-stu-id="49d01-324">When subclassed, this property can be overridden to be a key property.</span></span> <span data-ttu-id="49d01-325">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-325">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-326">**NumberOfButtons**</span><span class="sxs-lookup"><span data-stu-id="caa27-326">**NumberOfButtons**</span></span>
+<span data-ttu-id="49d01-326">**NumberOfButtons**</span><span class="sxs-lookup"><span data-stu-id="49d01-326">**NumberOfButtons**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-327">資料類型： **uint8**</span><span class="sxs-lookup"><span data-stu-id="caa27-327">Data type: **uint8**</span></span>
+<span data-ttu-id="49d01-327">資料類型： **uint8**</span><span class="sxs-lookup"><span data-stu-id="49d01-327">Data type: **uint8**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-328">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-328">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-328">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-328">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-329">指標裝置上的按鈕數目。</span><span class="sxs-lookup"><span data-stu-id="caa27-329">The number of buttons on the pointing device.</span></span> <span data-ttu-id="caa27-330">這個屬性繼承自 [**CIM \_ PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-330">This property is inherited from [**CIM\_PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice).</span></span>
+<span data-ttu-id="49d01-329">指標裝置上的按鈕數目。</span><span class="sxs-lookup"><span data-stu-id="49d01-329">The number of buttons on the pointing device.</span></span> <span data-ttu-id="49d01-330">這個屬性繼承自 [**CIM \_ PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-330">This property is inherited from [**CIM\_PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-331">**OperatingStatus**</span><span class="sxs-lookup"><span data-stu-id="caa27-331">**OperatingStatus**</span></span>
+<span data-ttu-id="49d01-331">**OperatingStatus**</span><span class="sxs-lookup"><span data-stu-id="49d01-331">**OperatingStatus**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-332">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-332">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-332">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-332">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-333">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-333">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-333">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-333">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-334">提供專案操作條件的目前狀態資訊，並可用於提供關於 **EnabledState** 屬性值的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="caa27-334">Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property.</span></span> <span data-ttu-id="caa27-335">**Null** 值表示不會執行此屬性。</span><span class="sxs-lookup"><span data-stu-id="caa27-335">A **Null** value indicates that this property is not implemented.</span></span> <span data-ttu-id="caa27-336">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-336">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
+<span data-ttu-id="49d01-334">提供專案操作條件的目前狀態資訊，並可用於提供關於 **EnabledState** 屬性值的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="49d01-334">Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property.</span></span> <span data-ttu-id="49d01-335">**Null** 值表示不會執行此屬性。</span><span class="sxs-lookup"><span data-stu-id="49d01-335">A **Null** value indicates that this property is not implemented.</span></span> <span data-ttu-id="49d01-336">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-336">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="caa27-337"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="caa27-337"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
+<span data-ttu-id="49d01-337"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="49d01-337"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-338"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span> (1) **無法使用**</span><span class="sxs-lookup"><span data-stu-id="caa27-338"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span>**Not Available** (1)</span></span>
+<span data-ttu-id="49d01-338"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span> (1) **無法使用**</span><span class="sxs-lookup"><span data-stu-id="49d01-338"><span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span>**Not Available** (1)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-339"><span id="Servicing"></span><span id="servicing"></span><span id="SERVICING"></span>**服務** (2) </span><span class="sxs-lookup"><span data-stu-id="caa27-339"><span id="Servicing"></span><span id="servicing"></span><span id="SERVICING"></span>**Servicing** (2)</span></span>
+<span data-ttu-id="49d01-339"><span id="Servicing"></span><span id="servicing"></span><span id="SERVICING"></span>**服務** (2) </span><span class="sxs-lookup"><span data-stu-id="49d01-339"><span id="Servicing"></span><span id="servicing"></span><span id="SERVICING"></span>**Servicing** (2)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-340"><span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>**開始** (3) </span><span class="sxs-lookup"><span data-stu-id="caa27-340"><span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>**Starting** (3)</span></span>
+<span data-ttu-id="49d01-340"><span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>**開始** (3) </span><span class="sxs-lookup"><span data-stu-id="49d01-340"><span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>**Starting** (3)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-341"><span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>**停止** (4) </span><span class="sxs-lookup"><span data-stu-id="caa27-341"><span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>**Stopping** (4)</span></span>
+<span data-ttu-id="49d01-341"><span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>**停止** (4) </span><span class="sxs-lookup"><span data-stu-id="49d01-341"><span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>**Stopping** (4)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-342"><span id="Stopped"></span><span id="stopped"></span><span id="STOPPED"></span>**已停止** (5) </span><span class="sxs-lookup"><span data-stu-id="caa27-342"><span id="Stopped"></span><span id="stopped"></span><span id="STOPPED"></span>**Stopped** (5)</span></span>
+<span data-ttu-id="49d01-342"><span id="Stopped"></span><span id="stopped"></span><span id="STOPPED"></span>**已停止** (5) </span><span class="sxs-lookup"><span data-stu-id="49d01-342"><span id="Stopped"></span><span id="stopped"></span><span id="STOPPED"></span>**Stopped** (5)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-343"><span id="Aborted"></span><span id="aborted"></span><span id="ABORTED"></span>已 **中止** (6) </span><span class="sxs-lookup"><span data-stu-id="caa27-343"><span id="Aborted"></span><span id="aborted"></span><span id="ABORTED"></span>**Aborted** (6)</span></span>
+<span data-ttu-id="49d01-343"><span id="Aborted"></span><span id="aborted"></span><span id="ABORTED"></span>已 **中止** (6) </span><span class="sxs-lookup"><span data-stu-id="49d01-343"><span id="Aborted"></span><span id="aborted"></span><span id="ABORTED"></span>**Aborted** (6)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-344"><span id="Dormant"></span><span id="dormant"></span><span id="DORMANT"></span>**休眠** (7) </span><span class="sxs-lookup"><span data-stu-id="caa27-344"><span id="Dormant"></span><span id="dormant"></span><span id="DORMANT"></span>**Dormant** (7)</span></span>
+<span data-ttu-id="49d01-344"><span id="Dormant"></span><span id="dormant"></span><span id="DORMANT"></span>**休眠** (7) </span><span class="sxs-lookup"><span data-stu-id="49d01-344"><span id="Dormant"></span><span id="dormant"></span><span id="DORMANT"></span>**Dormant** (7)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-345"><span id="Completed"></span><span id="completed"></span><span id="COMPLETED"></span>**已完成** (8) </span><span class="sxs-lookup"><span data-stu-id="caa27-345"><span id="Completed"></span><span id="completed"></span><span id="COMPLETED"></span>**Completed** (8)</span></span>
+<span data-ttu-id="49d01-345"><span id="Completed"></span><span id="completed"></span><span id="COMPLETED"></span>**已完成** (8) </span><span class="sxs-lookup"><span data-stu-id="49d01-345"><span id="Completed"></span><span id="completed"></span><span id="COMPLETED"></span>**Completed** (8)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-346"><span id="Migrating"></span><span id="migrating"></span><span id="MIGRATING"></span>**遷移** (9) </span><span class="sxs-lookup"><span data-stu-id="caa27-346"><span id="Migrating"></span><span id="migrating"></span><span id="MIGRATING"></span>**Migrating** (9)</span></span>
+<span data-ttu-id="49d01-346"><span id="Migrating"></span><span id="migrating"></span><span id="MIGRATING"></span>**遷移** (9) </span><span class="sxs-lookup"><span data-stu-id="49d01-346"><span id="Migrating"></span><span id="migrating"></span><span id="MIGRATING"></span>**Migrating** (9)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-347"><span id="Emigrating"></span><span id="emigrating"></span><span id="EMIGRATING"></span>**Emigrating** (10) </span><span class="sxs-lookup"><span data-stu-id="caa27-347"><span id="Emigrating"></span><span id="emigrating"></span><span id="EMIGRATING"></span>**Emigrating** (10)</span></span>
+<span data-ttu-id="49d01-347"><span id="Emigrating"></span><span id="emigrating"></span><span id="EMIGRATING"></span>**Emigrating** (10) </span><span class="sxs-lookup"><span data-stu-id="49d01-347"><span id="Emigrating"></span><span id="emigrating"></span><span id="EMIGRATING"></span>**Emigrating** (10)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-348"><span id="Immigrating"></span><span id="immigrating"></span><span id="IMMIGRATING"></span>**Immigrating** (11) </span><span class="sxs-lookup"><span data-stu-id="caa27-348"><span id="Immigrating"></span><span id="immigrating"></span><span id="IMMIGRATING"></span>**Immigrating** (11)</span></span>
+<span data-ttu-id="49d01-348"><span id="Immigrating"></span><span id="immigrating"></span><span id="IMMIGRATING"></span>**Immigrating** (11) </span><span class="sxs-lookup"><span data-stu-id="49d01-348"><span id="Immigrating"></span><span id="immigrating"></span><span id="IMMIGRATING"></span>**Immigrating** (11)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-349"><span id="Snapshotting"></span><span id="snapshotting"></span><span id="SNAPSHOTTING"></span>**快照** (12) </span><span class="sxs-lookup"><span data-stu-id="caa27-349"><span id="Snapshotting"></span><span id="snapshotting"></span><span id="SNAPSHOTTING"></span>**Snapshotting** (12)</span></span>
+<span data-ttu-id="49d01-349"><span id="Snapshotting"></span><span id="snapshotting"></span><span id="SNAPSHOTTING"></span>**快照** (12) </span><span class="sxs-lookup"><span data-stu-id="49d01-349"><span id="Snapshotting"></span><span id="snapshotting"></span><span id="SNAPSHOTTING"></span>**Snapshotting** (12)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-350"><span id="Shutting_Down"></span><span id="shutting_down"></span><span id="SHUTTING_DOWN"></span>正在 **關閉** (13) </span><span class="sxs-lookup"><span data-stu-id="caa27-350"><span id="Shutting_Down"></span><span id="shutting_down"></span><span id="SHUTTING_DOWN"></span>**Shutting Down** (13)</span></span>
+<span data-ttu-id="49d01-350"><span id="Shutting_Down"></span><span id="shutting_down"></span><span id="SHUTTING_DOWN"></span>正在 **關閉** (13) </span><span class="sxs-lookup"><span data-stu-id="49d01-350"><span id="Shutting_Down"></span><span id="shutting_down"></span><span id="SHUTTING_DOWN"></span>**Shutting Down** (13)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-351"><span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>**在測試** (14) </span><span class="sxs-lookup"><span data-stu-id="caa27-351"><span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>**In Test** (14)</span></span>
+<span data-ttu-id="49d01-351"><span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>**在測試** (14) </span><span class="sxs-lookup"><span data-stu-id="49d01-351"><span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>**In Test** (14)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-352"><span id="Transitioning"></span><span id="transitioning"></span><span id="TRANSITIONING"></span>**轉換** (15) </span><span class="sxs-lookup"><span data-stu-id="caa27-352"><span id="Transitioning"></span><span id="transitioning"></span><span id="TRANSITIONING"></span>**Transitioning** (15)</span></span>
+<span data-ttu-id="49d01-352"><span id="Transitioning"></span><span id="transitioning"></span><span id="TRANSITIONING"></span>**轉換** (15) </span><span class="sxs-lookup"><span data-stu-id="49d01-352"><span id="Transitioning"></span><span id="transitioning"></span><span id="TRANSITIONING"></span>**Transitioning** (15)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-353"><span id="In_Service"></span><span id="in_service"></span><span id="IN_SERVICE"></span>**在服務** (16) </span><span class="sxs-lookup"><span data-stu-id="caa27-353"><span id="In_Service"></span><span id="in_service"></span><span id="IN_SERVICE"></span>**In Service** (16)</span></span>
+<span data-ttu-id="49d01-353"><span id="In_Service"></span><span id="in_service"></span><span id="IN_SERVICE"></span>**在服務** (16) </span><span class="sxs-lookup"><span data-stu-id="49d01-353"><span id="In_Service"></span><span id="in_service"></span><span id="IN_SERVICE"></span>**In Service** (16)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-354"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="caa27-354"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
+<span data-ttu-id="49d01-354"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="49d01-354"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-355"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。</span><span class="sxs-lookup"><span data-stu-id="caa27-355"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..</span></span> <span data-ttu-id="caa27-356">)</span><span class="sxs-lookup"><span data-stu-id="caa27-356">)</span></span>
+<span data-ttu-id="49d01-355"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。</span><span class="sxs-lookup"><span data-stu-id="49d01-355"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..</span></span> <span data-ttu-id="49d01-356">)</span><span class="sxs-lookup"><span data-stu-id="49d01-356">)</span></span>
 </dt> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-357">**OperationalStatus**</span><span class="sxs-lookup"><span data-stu-id="caa27-357">**OperationalStatus**</span></span>
+<span data-ttu-id="49d01-357">**OperationalStatus**</span><span class="sxs-lookup"><span data-stu-id="49d01-357">**OperationalStatus**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-358">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="caa27-358">Data type: **uint16** array</span></span>
+<span data-ttu-id="49d01-358">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="49d01-358">Data type: **uint16** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-359">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-359">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-359">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-359">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-360">專案的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-360">The current status of the element.</span></span> <span data-ttu-id="caa27-361">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-361">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
+<span data-ttu-id="49d01-360">專案的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-360">The current status of the element.</span></span> <span data-ttu-id="49d01-361">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-361">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-362">**OtherEnabledState**</span><span class="sxs-lookup"><span data-stu-id="caa27-362">**OtherEnabledState**</span></span>
+<span data-ttu-id="49d01-362">**OtherEnabledState**</span><span class="sxs-lookup"><span data-stu-id="49d01-362">**OtherEnabledState**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-363">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-363">Data type: **string**</span></span>
+<span data-ttu-id="49d01-363">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-363">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-364">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-364">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-364">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-364">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-365">當 **EnabledState** 屬性設定為 1 (其他) 時，元素的啟用或停用狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-365">The enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other).</span></span> <span data-ttu-id="caa27-366">當 **EnabledState** 是1以外的任何值時，這個屬性必須設定為 **Null** 。</span><span class="sxs-lookup"><span data-stu-id="caa27-366">This property must be set to **Null** when **EnabledState** is any value other than 1.</span></span> <span data-ttu-id="caa27-367">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。</span><span class="sxs-lookup"><span data-stu-id="caa27-367">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).</span></span>
+<span data-ttu-id="49d01-365">當 **EnabledState** 屬性設定為 1 (其他) 時，元素的啟用或停用狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-365">The enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other).</span></span> <span data-ttu-id="49d01-366">當 **EnabledState** 是1以外的任何值時，這個屬性必須設定為 **Null** 。</span><span class="sxs-lookup"><span data-stu-id="49d01-366">This property must be set to **Null** when **EnabledState** is any value other than 1.</span></span> <span data-ttu-id="49d01-367">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。</span><span class="sxs-lookup"><span data-stu-id="49d01-367">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-368">**OtherIdentifyingInfo**</span><span class="sxs-lookup"><span data-stu-id="caa27-368">**OtherIdentifyingInfo**</span></span>
+<span data-ttu-id="49d01-368">**OtherIdentifyingInfo**</span><span class="sxs-lookup"><span data-stu-id="49d01-368">**OtherIdentifyingInfo**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-369">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="caa27-369">Data type: **string** array</span></span>
+<span data-ttu-id="49d01-369">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="49d01-369">Data type: **string** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-370">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-370">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-370">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-370">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-371">除了裝置識別碼資訊以外的任何其他資料，可用來識別邏輯裝置。</span><span class="sxs-lookup"><span data-stu-id="caa27-371">Any additional data, beyond device ID information, that could be used to identify a logical device.</span></span> <span data-ttu-id="caa27-372">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-372">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
+<span data-ttu-id="49d01-371">除了裝置識別碼資訊以外的任何其他資料，可用來識別邏輯裝置。</span><span class="sxs-lookup"><span data-stu-id="49d01-371">Any additional data, beyond device ID information, that could be used to identify a logical device.</span></span> <span data-ttu-id="49d01-372">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-372">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-373">**PointingType**</span><span class="sxs-lookup"><span data-stu-id="caa27-373">**PointingType**</span></span>
+<span data-ttu-id="49d01-373">**PointingType**</span><span class="sxs-lookup"><span data-stu-id="49d01-373">**PointingType**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-374">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-374">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-374">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-374">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-375">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-375">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-375">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-375">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-376">指標裝置的類型。</span><span class="sxs-lookup"><span data-stu-id="caa27-376">The type of pointing device.</span></span> <span data-ttu-id="caa27-377">這個屬性繼承自 [**CIM \_ PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-377">This property is inherited from [**CIM\_PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice).</span></span>
+<span data-ttu-id="49d01-376">指標裝置的類型。</span><span class="sxs-lookup"><span data-stu-id="49d01-376">The type of pointing device.</span></span> <span data-ttu-id="49d01-377">這個屬性繼承自 [**CIM \_ PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-377">This property is inherited from [**CIM\_PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice).</span></span>
 
 
 
-| <span data-ttu-id="caa27-378">值</span><span class="sxs-lookup"><span data-stu-id="caa27-378">Value</span></span>                                                                        | <span data-ttu-id="caa27-379">意義</span><span class="sxs-lookup"><span data-stu-id="caa27-379">Meaning</span></span>          |
+| <span data-ttu-id="49d01-378">值</span><span class="sxs-lookup"><span data-stu-id="49d01-378">Value</span></span>                                                                        | <span data-ttu-id="49d01-379">意義</span><span class="sxs-lookup"><span data-stu-id="49d01-379">Meaning</span></span>          |
 |------------------------------------------------------------------------------|------------------|
-| <dl> <span data-ttu-id="caa27-380"><dt>3</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-380"><dt>3</dt></span></span> </dl> | <span data-ttu-id="caa27-381">滑鼠</span><span class="sxs-lookup"><span data-stu-id="caa27-381">Mouse</span></span><br/> |
+| <dl> <span data-ttu-id="49d01-380"><dt>3</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-380"><dt>3</dt></span></span> </dl> | <span data-ttu-id="49d01-381">滑鼠</span><span class="sxs-lookup"><span data-stu-id="49d01-381">Mouse</span></span><br/> |
 
 
 
@@ -764,94 +764,94 @@ class Msvm_SyntheticMouse : CIM_PointingDevice
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-382">**PowerManagementCapabilities**</span><span class="sxs-lookup"><span data-stu-id="caa27-382">**PowerManagementCapabilities**</span></span>
+<span data-ttu-id="49d01-382">**PowerManagementCapabilities**</span><span class="sxs-lookup"><span data-stu-id="49d01-382">**PowerManagementCapabilities**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-383">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="caa27-383">Data type: **uint16** array</span></span>
+<span data-ttu-id="49d01-383">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="49d01-383">Data type: **uint16** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-384">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-384">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-384">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-384">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-385">裝置的電源管理功能。</span><span class="sxs-lookup"><span data-stu-id="caa27-385">The power management capabilities of the device.</span></span> <span data-ttu-id="caa27-386">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="caa27-386">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
+<span data-ttu-id="49d01-385">裝置的電源管理功能。</span><span class="sxs-lookup"><span data-stu-id="49d01-385">The power management capabilities of the device.</span></span> <span data-ttu-id="49d01-386">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="49d01-386">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-387">**PowerManagementSupported**</span><span class="sxs-lookup"><span data-stu-id="caa27-387">**PowerManagementSupported**</span></span>
+<span data-ttu-id="49d01-387">**PowerManagementSupported**</span><span class="sxs-lookup"><span data-stu-id="49d01-387">**PowerManagementSupported**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-388">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="caa27-388">Data type: **boolean**</span></span>
+<span data-ttu-id="49d01-388">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="49d01-388">Data type: **boolean**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-389">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-389">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-389">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-389">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-390">指出裝置是否可以受電源管理。</span><span class="sxs-lookup"><span data-stu-id="caa27-390">Indicates whether the device can be power managed.</span></span> <span data-ttu-id="caa27-391">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="caa27-391">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
+<span data-ttu-id="49d01-390">指出裝置是否可以受電源管理。</span><span class="sxs-lookup"><span data-stu-id="49d01-390">Indicates whether the device can be power managed.</span></span> <span data-ttu-id="49d01-391">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="49d01-391">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-392">**PowerOnHours**</span><span class="sxs-lookup"><span data-stu-id="caa27-392">**PowerOnHours**</span></span>
+<span data-ttu-id="49d01-392">**PowerOnHours**</span><span class="sxs-lookup"><span data-stu-id="49d01-392">**PowerOnHours**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-393">資料類型： **uint64**</span><span class="sxs-lookup"><span data-stu-id="caa27-393">Data type: **uint64**</span></span>
+<span data-ttu-id="49d01-393">資料類型： **uint64**</span><span class="sxs-lookup"><span data-stu-id="49d01-393">Data type: **uint64**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-394">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-394">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-394">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-394">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-395">此裝置自上一次電源週期起開啟電源的連續小時數。</span><span class="sxs-lookup"><span data-stu-id="caa27-395">The number of consecutive hours that this device has been powered on since its last power cycle.</span></span> <span data-ttu-id="caa27-396">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="caa27-396">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
+<span data-ttu-id="49d01-395">此裝置自上一次電源週期起開啟電源的連續小時數。</span><span class="sxs-lookup"><span data-stu-id="49d01-395">The number of consecutive hours that this device has been powered on since its last power cycle.</span></span> <span data-ttu-id="49d01-396">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="49d01-396">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-397">**PrimaryStatus**</span><span class="sxs-lookup"><span data-stu-id="caa27-397">**PrimaryStatus**</span></span>
+<span data-ttu-id="49d01-397">**PrimaryStatus**</span><span class="sxs-lookup"><span data-stu-id="49d01-397">**PrimaryStatus**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-398">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-398">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-398">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-398">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-399">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-399">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-399">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-399">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-400">提供高層級的狀態資訊。</span><span class="sxs-lookup"><span data-stu-id="caa27-400">Provides high level status information.</span></span> <span data-ttu-id="caa27-401">這個屬性應該與 **DetailedStatus** 屬性一起使用，以提供元素和其子元件的高階和詳細健全狀況狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-401">This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents.</span></span> <span data-ttu-id="caa27-402">**Null** 值表示不會執行此屬性。</span><span class="sxs-lookup"><span data-stu-id="caa27-402">A **Null** value indicates that this property is not implemented.</span></span> <span data-ttu-id="caa27-403">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-403">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
+<span data-ttu-id="49d01-400">提供高層級的狀態資訊。</span><span class="sxs-lookup"><span data-stu-id="49d01-400">Provides high level status information.</span></span> <span data-ttu-id="49d01-401">這個屬性應該與 **DetailedStatus** 屬性一起使用，以提供元素和其子元件的高階和詳細健全狀況狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-401">This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents.</span></span> <span data-ttu-id="49d01-402">**Null** 值表示不會執行此屬性。</span><span class="sxs-lookup"><span data-stu-id="49d01-402">A **Null** value indicates that this property is not implemented.</span></span> <span data-ttu-id="49d01-403">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-403">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="caa27-404"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="caa27-404"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
+<span data-ttu-id="49d01-404"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="49d01-404"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-405"><span id="OK"></span><span id="ok"></span>**確定** (1) </span><span class="sxs-lookup"><span data-stu-id="caa27-405"><span id="OK"></span><span id="ok"></span>**OK** (1)</span></span>
+<span data-ttu-id="49d01-405"><span id="OK"></span><span id="ok"></span>**確定** (1) </span><span class="sxs-lookup"><span data-stu-id="49d01-405"><span id="OK"></span><span id="ok"></span>**OK** (1)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-406"><span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span> (2) **降級**</span><span class="sxs-lookup"><span data-stu-id="caa27-406"><span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>**Degraded** (2)</span></span>
+<span data-ttu-id="49d01-406"><span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span> (2) **降級**</span><span class="sxs-lookup"><span data-stu-id="49d01-406"><span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>**Degraded** (2)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-407"><span id="Error"></span><span id="error"></span><span id="ERROR"></span>**錯誤** (3) </span><span class="sxs-lookup"><span data-stu-id="caa27-407"><span id="Error"></span><span id="error"></span><span id="ERROR"></span>**Error** (3)</span></span>
+<span data-ttu-id="49d01-407"><span id="Error"></span><span id="error"></span><span id="ERROR"></span>**錯誤** (3) </span><span class="sxs-lookup"><span data-stu-id="49d01-407"><span id="Error"></span><span id="error"></span><span id="ERROR"></span>**Error** (3)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-408"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="caa27-408"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
+<span data-ttu-id="49d01-408"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="49d01-408"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-409"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。</span><span class="sxs-lookup"><span data-stu-id="caa27-409"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..</span></span> <span data-ttu-id="caa27-410">)</span><span class="sxs-lookup"><span data-stu-id="caa27-410">)</span></span>
+<span data-ttu-id="49d01-409"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。</span><span class="sxs-lookup"><span data-stu-id="49d01-409"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..</span></span> <span data-ttu-id="49d01-410">)</span><span class="sxs-lookup"><span data-stu-id="49d01-410">)</span></span>
 </dt> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-411">**RequestedState**</span><span class="sxs-lookup"><span data-stu-id="caa27-411">**RequestedState**</span></span>
+<span data-ttu-id="49d01-411">**RequestedState**</span><span class="sxs-lookup"><span data-stu-id="49d01-411">**RequestedState**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-412">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-412">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-412">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-412">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-413">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-413">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-413">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-413">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-414">上次要求或預期的專案狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-414">The last requested or desired state for the element.</span></span> <span data-ttu-id="caa27-415">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。</span><span class="sxs-lookup"><span data-stu-id="caa27-415">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).</span></span>
+<span data-ttu-id="49d01-414">上次要求或預期的專案狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-414">The last requested or desired state for the element.</span></span> <span data-ttu-id="49d01-415">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。</span><span class="sxs-lookup"><span data-stu-id="49d01-415">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).</span></span>
 
 
 
-| <span data-ttu-id="caa27-416">值</span><span class="sxs-lookup"><span data-stu-id="caa27-416">Value</span></span>                                                                         | <span data-ttu-id="caa27-417">意義</span><span class="sxs-lookup"><span data-stu-id="caa27-417">Meaning</span></span>                   |
+| <span data-ttu-id="49d01-416">值</span><span class="sxs-lookup"><span data-stu-id="49d01-416">Value</span></span>                                                                         | <span data-ttu-id="49d01-417">意義</span><span class="sxs-lookup"><span data-stu-id="49d01-417">Meaning</span></span>                   |
 |-------------------------------------------------------------------------------|---------------------------|
-| <dl> <span data-ttu-id="caa27-418"><dt>12</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-418"><dt>12</dt></span></span> </dl> | <span data-ttu-id="caa27-419">不適用</span><span class="sxs-lookup"><span data-stu-id="caa27-419">Not Applicable</span></span><br/> |
+| <dl> <span data-ttu-id="49d01-418"><dt>12</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-418"><dt>12</dt></span></span> </dl> | <span data-ttu-id="49d01-419">不適用</span><span class="sxs-lookup"><span data-stu-id="49d01-419">Not Applicable</span></span><br/> |
 
 
 
@@ -859,187 +859,187 @@ class Msvm_SyntheticMouse : CIM_PointingDevice
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-420">**解決方法**</span><span class="sxs-lookup"><span data-stu-id="caa27-420">**Resolution**</span></span>
+<span data-ttu-id="49d01-420">**解決方法**</span><span class="sxs-lookup"><span data-stu-id="49d01-420">**Resolution**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-421">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="caa27-421">Data type: **uint32**</span></span>
+<span data-ttu-id="49d01-421">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="49d01-421">Data type: **uint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-422">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-422">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-422">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-422">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-423">指標裝置的追蹤解析度（以每英寸計數計算）。</span><span class="sxs-lookup"><span data-stu-id="caa27-423">The tracking resolution of the pointing device, in counts per inch.</span></span> <span data-ttu-id="caa27-424">這個屬性繼承自 [**CIM \_ PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-424">This property is inherited from [**CIM\_PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice).</span></span>
+<span data-ttu-id="49d01-423">指標裝置的追蹤解析度（以每英寸計數計算）。</span><span class="sxs-lookup"><span data-stu-id="49d01-423">The tracking resolution of the pointing device, in counts per inch.</span></span> <span data-ttu-id="49d01-424">這個屬性繼承自 [**CIM \_ PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-424">This property is inherited from [**CIM\_PointingDevice**](/windows/desktop/CIMWin32Prov/cim-pointingdevice).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-425">**ScrollPosition**</span><span class="sxs-lookup"><span data-stu-id="caa27-425">**ScrollPosition**</span></span>
+<span data-ttu-id="49d01-425">**ScrollPosition**</span><span class="sxs-lookup"><span data-stu-id="49d01-425">**ScrollPosition**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-426">資料類型： **sint32**</span><span class="sxs-lookup"><span data-stu-id="caa27-426">Data type: **sint32**</span></span>
+<span data-ttu-id="49d01-426">資料類型： **sint32**</span><span class="sxs-lookup"><span data-stu-id="49d01-426">Data type: **sint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-427">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-427">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-427">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-427">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-428">限定詞： [**單位**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Mickeys" ) </span><span class="sxs-lookup"><span data-stu-id="caa27-428">Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("Mickeys")</span></span>
+<span data-ttu-id="49d01-428">限定詞： [**單位**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Mickeys" ) </span><span class="sxs-lookup"><span data-stu-id="49d01-428">Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("Mickeys")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-429">滑鼠裝置的 z 座標位置。</span><span class="sxs-lookup"><span data-stu-id="caa27-429">The z-coordinate position of the mouse device.</span></span>
+<span data-ttu-id="49d01-429">滑鼠裝置的 z 座標位置。</span><span class="sxs-lookup"><span data-stu-id="49d01-429">The z-coordinate position of the mouse device.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-430">**狀態**</span><span class="sxs-lookup"><span data-stu-id="caa27-430">**Status**</span></span>
+<span data-ttu-id="49d01-430">**狀態**</span><span class="sxs-lookup"><span data-stu-id="49d01-430">**Status**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-431">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-431">Data type: **string**</span></span>
+<span data-ttu-id="49d01-431">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-431">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-432">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-432">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-432">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-432">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-433">物件的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-433">The current status of the object.</span></span> <span data-ttu-id="caa27-434">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="caa27-434">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.</span></span>
+<span data-ttu-id="49d01-433">物件的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-433">The current status of the object.</span></span> <span data-ttu-id="49d01-434">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="49d01-434">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-435">**StatusDescriptions**</span><span class="sxs-lookup"><span data-stu-id="caa27-435">**StatusDescriptions**</span></span>
+<span data-ttu-id="49d01-435">**StatusDescriptions**</span><span class="sxs-lookup"><span data-stu-id="49d01-435">**StatusDescriptions**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-436">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="caa27-436">Data type: **string** array</span></span>
+<span data-ttu-id="49d01-436">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="49d01-436">Data type: **string** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-437">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-437">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-437">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-437">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-438">描述各種 [**OperationalStatus**](msvm-bioselement.md) 陣列值的字串。</span><span class="sxs-lookup"><span data-stu-id="caa27-438">Strings that describe the various [**OperationalStatus**](msvm-bioselement.md) array values.</span></span> <span data-ttu-id="caa27-439">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="caa27-439">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
+<span data-ttu-id="49d01-438">描述各種 [**OperationalStatus**](msvm-bioselement.md) 陣列值的字串。</span><span class="sxs-lookup"><span data-stu-id="49d01-438">Strings that describe the various [**OperationalStatus**](msvm-bioselement.md) array values.</span></span> <span data-ttu-id="49d01-439">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。</span><span class="sxs-lookup"><span data-stu-id="49d01-439">This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-440">**StatusInfo**</span><span class="sxs-lookup"><span data-stu-id="caa27-440">**StatusInfo**</span></span>
+<span data-ttu-id="49d01-440">**StatusInfo**</span><span class="sxs-lookup"><span data-stu-id="49d01-440">**StatusInfo**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-441">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-441">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-441">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-441">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-442">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-442">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-442">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-442">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-443">邏輯裝置的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-443">The current state of the logical device.</span></span> <span data-ttu-id="caa27-444">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="caa27-444">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
+<span data-ttu-id="49d01-443">邏輯裝置的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-443">The current state of the logical device.</span></span> <span data-ttu-id="49d01-444">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="49d01-444">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-445">**SystemCreationClassName**</span><span class="sxs-lookup"><span data-stu-id="caa27-445">**SystemCreationClassName**</span></span>
+<span data-ttu-id="49d01-445">**SystemCreationClassName**</span><span class="sxs-lookup"><span data-stu-id="49d01-445">**SystemCreationClassName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-446">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-446">Data type: **string**</span></span>
+<span data-ttu-id="49d01-446">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-446">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-447">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-447">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-447">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-447">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-448">限定詞： **MaxLen** (256) </span><span class="sxs-lookup"><span data-stu-id="caa27-448">Qualifiers: **MaxLen** (256)</span></span>
+<span data-ttu-id="49d01-448">限定詞： **MaxLen** (256) </span><span class="sxs-lookup"><span data-stu-id="49d01-448">Qualifiers: **MaxLen** (256)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-449">範圍系統的建立類別名稱。</span><span class="sxs-lookup"><span data-stu-id="caa27-449">The creation class name of the scoping system.</span></span> <span data-ttu-id="caa27-450">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-450">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
+<span data-ttu-id="49d01-449">範圍系統的建立類別名稱。</span><span class="sxs-lookup"><span data-stu-id="49d01-449">The creation class name of the scoping system.</span></span> <span data-ttu-id="49d01-450">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-450">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-451">**SystemName**</span><span class="sxs-lookup"><span data-stu-id="caa27-451">**SystemName**</span></span>
+<span data-ttu-id="49d01-451">**SystemName**</span><span class="sxs-lookup"><span data-stu-id="49d01-451">**SystemName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-452">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="caa27-452">Data type: **string**</span></span>
+<span data-ttu-id="49d01-452">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="49d01-452">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-453">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-453">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-453">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-453">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-454">限定詞： **MaxLen** (256) </span><span class="sxs-lookup"><span data-stu-id="caa27-454">Qualifiers: **MaxLen** (256)</span></span>
+<span data-ttu-id="49d01-454">限定詞： **MaxLen** (256) </span><span class="sxs-lookup"><span data-stu-id="49d01-454">Qualifiers: **MaxLen** (256)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-455">範圍系統的名稱。</span><span class="sxs-lookup"><span data-stu-id="caa27-455">The name of the scoping system.</span></span> <span data-ttu-id="caa27-456">此值會對應至範圍虛擬機器之 Msvm 的非程式類型類別的 [**名稱**](msvm-computersystem.md)屬性值。 **\_**</span><span class="sxs-lookup"><span data-stu-id="caa27-456">This value corresponds to the value of the [**Name**](msvm-computersystem.md) property of the **Msvm\_ComputerSystem** class for the scoping virtual machine.</span></span> <span data-ttu-id="caa27-457">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="caa27-457">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
+<span data-ttu-id="49d01-455">範圍系統的名稱。</span><span class="sxs-lookup"><span data-stu-id="49d01-455">The name of the scoping system.</span></span> <span data-ttu-id="49d01-456">此值會對應至範圍虛擬機器之 Msvm 的非程式類型類別的 [**名稱**](msvm-computersystem.md)屬性值。 **\_**</span><span class="sxs-lookup"><span data-stu-id="49d01-456">This value corresponds to the value of the [**Name**](msvm-computersystem.md) property of the **Msvm\_ComputerSystem** class for the scoping virtual machine.</span></span> <span data-ttu-id="49d01-457">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。</span><span class="sxs-lookup"><span data-stu-id="49d01-457">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-458">**TimeOfLastStateChange**</span><span class="sxs-lookup"><span data-stu-id="caa27-458">**TimeOfLastStateChange**</span></span>
+<span data-ttu-id="49d01-458">**TimeOfLastStateChange**</span><span class="sxs-lookup"><span data-stu-id="49d01-458">**TimeOfLastStateChange**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-459">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="caa27-459">Data type: **datetime**</span></span>
+<span data-ttu-id="49d01-459">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="49d01-459">Data type: **datetime**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-460">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-460">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-460">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-460">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-461">專案的已啟用狀態上次變更的日期或時間。</span><span class="sxs-lookup"><span data-stu-id="caa27-461">The date or time when the enabled state of the element last changed.</span></span> <span data-ttu-id="caa27-462">如果未變更元素的狀態，且已填入此屬性，則必須將它設定為0間隔值。</span><span class="sxs-lookup"><span data-stu-id="caa27-462">If the state of the element has not changed and this property is populated, then it must be set to a 0 interval value.</span></span> <span data-ttu-id="caa27-463">如果已要求狀態變更，但遭到拒絕或尚未處理，則必須更新屬性。</span><span class="sxs-lookup"><span data-stu-id="caa27-463">If a state change was requested, but rejected or not yet processed, the property must not be updated.</span></span> <span data-ttu-id="caa27-464">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))，而且一律設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="caa27-464">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.</span></span>
+<span data-ttu-id="49d01-461">專案的已啟用狀態上次變更的日期或時間。</span><span class="sxs-lookup"><span data-stu-id="49d01-461">The date or time when the enabled state of the element last changed.</span></span> <span data-ttu-id="49d01-462">如果未變更元素的狀態，且已填入此屬性，則必須將它設定為0間隔值。</span><span class="sxs-lookup"><span data-stu-id="49d01-462">If the state of the element has not changed and this property is populated, then it must be set to a 0 interval value.</span></span> <span data-ttu-id="49d01-463">如果已要求狀態變更，但遭到拒絕或尚未處理，則必須更新屬性。</span><span class="sxs-lookup"><span data-stu-id="49d01-463">If a state change was requested, but rejected or not yet processed, the property must not be updated.</span></span> <span data-ttu-id="49d01-464">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))，而且一律設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="49d01-464">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-465">**TotalPowerOnHours**</span><span class="sxs-lookup"><span data-stu-id="caa27-465">**TotalPowerOnHours**</span></span>
+<span data-ttu-id="49d01-465">**TotalPowerOnHours**</span><span class="sxs-lookup"><span data-stu-id="49d01-465">**TotalPowerOnHours**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-466">資料類型： **uint64**</span><span class="sxs-lookup"><span data-stu-id="caa27-466">Data type: **uint64**</span></span>
+<span data-ttu-id="49d01-466">資料類型： **uint64**</span><span class="sxs-lookup"><span data-stu-id="49d01-466">Data type: **uint64**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-467">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-467">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-467">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-467">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-468">此裝置已獲得電源的總時數。</span><span class="sxs-lookup"><span data-stu-id="caa27-468">The total number of hours that this device has been powered.</span></span> <span data-ttu-id="caa27-469">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="caa27-469">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
+<span data-ttu-id="49d01-468">此裝置已獲得電源的總時數。</span><span class="sxs-lookup"><span data-stu-id="49d01-468">The total number of hours that this device has been powered.</span></span> <span data-ttu-id="49d01-469">這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。</span><span class="sxs-lookup"><span data-stu-id="49d01-469">This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-470">**TransitioningToState**</span><span class="sxs-lookup"><span data-stu-id="caa27-470">**TransitioningToState**</span></span>
+<span data-ttu-id="49d01-470">**TransitioningToState**</span><span class="sxs-lookup"><span data-stu-id="49d01-470">**TransitioningToState**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-471">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="caa27-471">Data type: **uint16**</span></span>
+<span data-ttu-id="49d01-471">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="49d01-471">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-472">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-472">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-472">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-472">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-473">指出實例正在轉換的目標狀態。</span><span class="sxs-lookup"><span data-stu-id="caa27-473">Indicates the target state to which the instance is transitioning.</span></span> <span data-ttu-id="caa27-474">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))，而且一律設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="caa27-474">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.</span></span>
+<span data-ttu-id="49d01-473">指出實例正在轉換的目標狀態。</span><span class="sxs-lookup"><span data-stu-id="49d01-473">Indicates the target state to which the instance is transitioning.</span></span> <span data-ttu-id="49d01-474">這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))，而且一律設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="49d01-474">This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="caa27-475">**VerticalPosition**</span><span class="sxs-lookup"><span data-stu-id="caa27-475">**VerticalPosition**</span></span>
+<span data-ttu-id="49d01-475">**VerticalPosition**</span><span class="sxs-lookup"><span data-stu-id="49d01-475">**VerticalPosition**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="caa27-476">資料類型： **sint32**</span><span class="sxs-lookup"><span data-stu-id="caa27-476">Data type: **sint32**</span></span>
+<span data-ttu-id="49d01-476">資料類型： **sint32**</span><span class="sxs-lookup"><span data-stu-id="49d01-476">Data type: **sint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="caa27-477">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="caa27-477">Access type: Read-only</span></span>
+<span data-ttu-id="49d01-477">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="49d01-477">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="caa27-478">指標裝置的絕對 y 座標。</span><span class="sxs-lookup"><span data-stu-id="caa27-478">The absolute y-coordinate of the pointing device.</span></span>
+<span data-ttu-id="49d01-478">指標裝置的絕對 y 座標。</span><span class="sxs-lookup"><span data-stu-id="49d01-478">The absolute y-coordinate of the pointing device.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="caa27-479">備註</span><span class="sxs-lookup"><span data-stu-id="caa27-479">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="49d01-479">備註</span><span class="sxs-lookup"><span data-stu-id="49d01-479">Remarks</span></span>
 
-<span data-ttu-id="caa27-480">存取 **Msvm \_ SyntheticMouse** 類別可能受 UAC 篩選所限制。</span><span class="sxs-lookup"><span data-stu-id="caa27-480">Access to the **Msvm\_SyntheticMouse** class might be restricted by UAC Filtering.</span></span> <span data-ttu-id="caa27-481">如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi)。</span><span class="sxs-lookup"><span data-stu-id="caa27-481">For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).</span></span>
+<span data-ttu-id="49d01-480">存取 **Msvm \_ SyntheticMouse** 類別可能受 UAC 篩選所限制。</span><span class="sxs-lookup"><span data-stu-id="49d01-480">Access to the **Msvm\_SyntheticMouse** class might be restricted by UAC Filtering.</span></span> <span data-ttu-id="49d01-481">如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi)。</span><span class="sxs-lookup"><span data-stu-id="49d01-481">For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="caa27-482">規格需求</span><span class="sxs-lookup"><span data-stu-id="caa27-482">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="49d01-482">規格需求</span><span class="sxs-lookup"><span data-stu-id="49d01-482">Requirements</span></span>
 
 
 
-| <span data-ttu-id="caa27-483">需求</span><span class="sxs-lookup"><span data-stu-id="caa27-483">Requirement</span></span> | <span data-ttu-id="caa27-484">值</span><span class="sxs-lookup"><span data-stu-id="caa27-484">Value</span></span> |
+| <span data-ttu-id="49d01-483">需求</span><span class="sxs-lookup"><span data-stu-id="49d01-483">Requirement</span></span> | <span data-ttu-id="49d01-484">值</span><span class="sxs-lookup"><span data-stu-id="49d01-484">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="caa27-485">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="caa27-485">Minimum supported client</span></span><br/> | <span data-ttu-id="caa27-486">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="caa27-486">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
-| <span data-ttu-id="caa27-487">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="caa27-487">Minimum supported server</span></span><br/> | <span data-ttu-id="caa27-488">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="caa27-488">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="caa27-489">命名空間</span><span class="sxs-lookup"><span data-stu-id="caa27-489">Namespace</span></span><br/>                | <span data-ttu-id="caa27-490">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="caa27-490">Root\\Virtualization\\V2</span></span><br/>                                                                     |
-| <span data-ttu-id="caa27-491">MOF</span><span class="sxs-lookup"><span data-stu-id="caa27-491">MOF</span></span><br/>                      | <dl> <span data-ttu-id="caa27-492"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-492"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="caa27-493">DLL</span><span class="sxs-lookup"><span data-stu-id="caa27-493">DLL</span></span><br/>                      | <dl> <span data-ttu-id="caa27-494"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="caa27-494"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="49d01-485">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="49d01-485">Minimum supported client</span></span><br/> | <span data-ttu-id="49d01-486">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="49d01-486">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
+| <span data-ttu-id="49d01-487">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="49d01-487">Minimum supported server</span></span><br/> | <span data-ttu-id="49d01-488">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="49d01-488">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="49d01-489">命名空間</span><span class="sxs-lookup"><span data-stu-id="49d01-489">Namespace</span></span><br/>                | <span data-ttu-id="49d01-490">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="49d01-490">Root\\Virtualization\\V2</span></span><br/>                                                                     |
+| <span data-ttu-id="49d01-491">MOF</span><span class="sxs-lookup"><span data-stu-id="49d01-491">MOF</span></span><br/>                      | <dl> <span data-ttu-id="49d01-492"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-492"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="49d01-493">DLL</span><span class="sxs-lookup"><span data-stu-id="49d01-493">DLL</span></span><br/>                      | <dl> <span data-ttu-id="49d01-494"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="49d01-494"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="caa27-495">另請參閱</span><span class="sxs-lookup"><span data-stu-id="caa27-495">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="49d01-495">另請參閱</span><span class="sxs-lookup"><span data-stu-id="49d01-495">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="caa27-496">**CIM \_ PointingDevice**</span><span class="sxs-lookup"><span data-stu-id="caa27-496">**CIM\_PointingDevice**</span></span>](cim-pointingdevice.md)
+[<span data-ttu-id="49d01-496">**CIM \_ PointingDevice**</span><span class="sxs-lookup"><span data-stu-id="49d01-496">**CIM\_PointingDevice**</span></span>](cim-pointingdevice.md)
 </dt> <dt>
 
-[<span data-ttu-id="caa27-497">**CIM \_ PointingDevice**</span><span class="sxs-lookup"><span data-stu-id="caa27-497">**CIM\_PointingDevice**</span></span>](/windows/desktop/CIMWin32Prov/cim-pointingdevice)
+[<span data-ttu-id="49d01-497">**CIM \_ PointingDevice**</span><span class="sxs-lookup"><span data-stu-id="49d01-497">**CIM\_PointingDevice**</span></span>](/windows/desktop/CIMWin32Prov/cim-pointingdevice)
 </dt> <dt>
 
-[<span data-ttu-id="caa27-498">輸入類別</span><span class="sxs-lookup"><span data-stu-id="caa27-498">Input Classes</span></span>](input-classes.md)
+[<span data-ttu-id="49d01-498">輸入類別</span><span class="sxs-lookup"><span data-stu-id="49d01-498">Input Classes</span></span>](input-classes.md)
 </dt> </dl>
 
  

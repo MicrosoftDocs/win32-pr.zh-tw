@@ -24,9 +24,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103685405"
 ---
-# <a name="glossary-text-services-framework"></a><span data-ttu-id="32b7b-115">詞彙 (文字服務架構) </span><span class="sxs-lookup"><span data-stu-id="32b7b-115">Glossary (Text Services Framework)</span></span>
+# <a name="glossary-text-services-framework"></a><span data-ttu-id="f7b47-115">詞彙 (文字服務架構) </span><span class="sxs-lookup"><span data-stu-id="f7b47-115">Glossary (Text Services Framework)</span></span>
 
-<span data-ttu-id="32b7b-116">[ ](a.md) [B](b.md)[C](c.md)[D](d.md)[E](e.md)[F](f.md)[G](g.md)[H](h.md)[I](i.md)[J](j.md)[K](k.md)[L](l.md)[M](m.md)[N](n.md)[O](o.md)[P](p.md)[Q](q.md)[R](r.md)[S](s.md)[T](t.md)[](u.md)[](v.md)[W](w.md)[X](x.md)[Y](y.md)[Z](z.md)</span><span class="sxs-lookup"><span data-stu-id="32b7b-116">[A](a.md)[B](b.md)[C](c.md)[D](d.md)[E](e.md)[F](f.md)[G](g.md)[H](h.md)[I](i.md)[J](j.md)[K](k.md)[L](l.md)[M](m.md)[N](n.md)[O](o.md)[P](p.md)[Q](q.md)[R](r.md)[S](s.md)[T](t.md)[U](u.md)[V](v.md)[W](w.md)[X](x.md)[Y](y.md)[Z](z.md)</span></span>
+<span data-ttu-id="f7b47-116">[ ](a.md) [B](b.md)[C](c.md)[D](d.md)[E](e.md)[F](f.md)[G](g.md)[H](h.md)[I](i.md)[J](j.md)[K](k.md)[L](l.md)[M](m.md)[N](n.md)[O](o.md)[P](p.md)[Q](q.md)[R](r.md)[S](s.md)[T](t.md)[](u.md)[](v.md)[W](w.md)[X](x.md)[Y](y.md)[Z](z.md)</span><span class="sxs-lookup"><span data-stu-id="f7b47-116">[A](a.md)[B](b.md)[C](c.md)[D](d.md)[E](e.md)[F](f.md)[G](g.md)[H](h.md)[I](i.md)[J](j.md)[K](k.md)[L](l.md)[M](m.md)[N](n.md)[O](o.md)[P](p.md)[Q](q.md)[R](r.md)[S](s.md)[T](t.md)[U](u.md)[V](v.md)[W](w.md)[X](x.md)[Y](y.md)[Z](z.md)</span></span>
 
  
 

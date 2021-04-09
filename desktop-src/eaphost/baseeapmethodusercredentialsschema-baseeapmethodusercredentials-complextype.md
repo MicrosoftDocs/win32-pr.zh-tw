@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "103683077"
 ---
-# <a name="baseeapmethodusercredentials-complex-type"></a><span data-ttu-id="040ad-105">BaseEapMethodUserCredentials 複雜類型</span><span class="sxs-lookup"><span data-stu-id="040ad-105">BaseEapMethodUserCredentials Complex Type</span></span>
+# <a name="baseeapmethodusercredentials-complex-type"></a><span data-ttu-id="f4a2c-105">BaseEapMethodUserCredentials 複雜類型</span><span class="sxs-lookup"><span data-stu-id="f4a2c-105">BaseEapMethodUserCredentials Complex Type</span></span>
 
-<span data-ttu-id="040ad-106">**BaseEapMethodUserCredentials** 複雜型別是方法認證資料的預留位置元素。</span><span class="sxs-lookup"><span data-stu-id="040ad-106">The **BaseEapMethodUserCredentials** complex type is a placeholder element for method credential data.</span></span>
+<span data-ttu-id="f4a2c-106">**BaseEapMethodUserCredentials** 複雜型別是方法認證資料的預留位置元素。</span><span class="sxs-lookup"><span data-stu-id="f4a2c-106">The **BaseEapMethodUserCredentials** complex type is a placeholder element for method credential data.</span></span>
 
 ``` syntax
 <xs:complexType name="BaseEapMethodUserCredentials">
@@ -38,29 +38,29 @@ ms.locfileid: "103683077"
 </xs:complexType>
 ```
 
-## <a name="remarks"></a><span data-ttu-id="040ad-107">備註</span><span class="sxs-lookup"><span data-stu-id="040ad-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f4a2c-107">備註</span><span class="sxs-lookup"><span data-stu-id="f4a2c-107">Remarks</span></span>
 
-<span data-ttu-id="040ad-108">EAP 方法會執行 **BaseEapMethodUserCredentials** 內容的架構驗證。</span><span class="sxs-lookup"><span data-stu-id="040ad-108">The EAP method performs schema validation on the contents of **BaseEapMethodUserCredentials**.</span></span>
+<span data-ttu-id="f4a2c-108">EAP 方法會執行 **BaseEapMethodUserCredentials** 內容的架構驗證。</span><span class="sxs-lookup"><span data-stu-id="f4a2c-108">The EAP method performs schema validation on the contents of **BaseEapMethodUserCredentials**.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="040ad-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="040ad-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f4a2c-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="f4a2c-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="040ad-110">角色</span><span class="sxs-lookup"><span data-stu-id="040ad-110">Role</span></span> | <span data-ttu-id="040ad-111">最低支援作業系統版本</span><span class="sxs-lookup"><span data-stu-id="040ad-111">Minimum supported OS version</span></span> |
+| <span data-ttu-id="f4a2c-110">角色</span><span class="sxs-lookup"><span data-stu-id="f4a2c-110">Role</span></span> | <span data-ttu-id="f4a2c-111">最低支援作業系統版本</span><span class="sxs-lookup"><span data-stu-id="f4a2c-111">Minimum supported OS version</span></span> |
 |------|------------------------------|
-| <span data-ttu-id="040ad-112">用戶端</span><span class="sxs-lookup"><span data-stu-id="040ad-112">Client</span></span><br/> | <span data-ttu-id="040ad-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="040ad-113">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="040ad-114">伺服器</span><span class="sxs-lookup"><span data-stu-id="040ad-114">Server</span></span><br/> | <span data-ttu-id="040ad-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="040ad-115">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="f4a2c-112">用戶端</span><span class="sxs-lookup"><span data-stu-id="f4a2c-112">Client</span></span><br/> | <span data-ttu-id="f4a2c-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f4a2c-113">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="f4a2c-114">伺服器</span><span class="sxs-lookup"><span data-stu-id="f4a2c-114">Server</span></span><br/> | <span data-ttu-id="f4a2c-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f4a2c-115">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="040ad-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="040ad-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f4a2c-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f4a2c-116">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="040ad-117">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="040ad-117">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="f4a2c-117">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="f4a2c-117">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> <dt>
 
-[<span data-ttu-id="040ad-118">baseeapmethodusercredentials 架構</span><span class="sxs-lookup"><span data-stu-id="040ad-118">baseeapmethodusercredentials Schema</span></span>](baseeapmethodusercredentialsschema-schema.md)
+[<span data-ttu-id="f4a2c-118">baseeapmethodusercredentials 架構</span><span class="sxs-lookup"><span data-stu-id="f4a2c-118">baseeapmethodusercredentials Schema</span></span>](baseeapmethodusercredentialsschema-schema.md)
 </dt> </dl>
 
  

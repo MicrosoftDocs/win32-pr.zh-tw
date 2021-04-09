@@ -21,61 +21,61 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685841"
 ---
-# <a name="em_stopgrouptyping-message"></a><span data-ttu-id="36913-105">EM \_ STOPGROUPTYPING 訊息</span><span class="sxs-lookup"><span data-stu-id="36913-105">EM\_STOPGROUPTYPING message</span></span>
+# <a name="em_stopgrouptyping-message"></a><span data-ttu-id="5dbd0-105">EM \_ STOPGROUPTYPING 訊息</span><span class="sxs-lookup"><span data-stu-id="5dbd0-105">EM\_STOPGROUPTYPING message</span></span>
 
-<span data-ttu-id="36913-106">停止 rich edit 控制項，使其無法將其他輸入動作收集到目前的復原動作。</span><span class="sxs-lookup"><span data-stu-id="36913-106">Stops a rich edit control from collecting additional typing actions into the current undo action.</span></span> <span data-ttu-id="36913-107">控制項會將下一個輸入動作（如果有的話）儲存至復原佇列中的新動作。</span><span class="sxs-lookup"><span data-stu-id="36913-107">The control stores the next typing action, if any, into a new action in the undo queue.</span></span>
+<span data-ttu-id="5dbd0-106">停止 rich edit 控制項，使其無法將其他輸入動作收集到目前的復原動作。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-106">Stops a rich edit control from collecting additional typing actions into the current undo action.</span></span> <span data-ttu-id="5dbd0-107">控制項會將下一個輸入動作（如果有的話）儲存至復原佇列中的新動作。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-107">The control stores the next typing action, if any, into a new action in the undo queue.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="36913-108">參數</span><span class="sxs-lookup"><span data-stu-id="36913-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5dbd0-108">參數</span><span class="sxs-lookup"><span data-stu-id="5dbd0-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="36913-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="36913-109">*wParam*</span></span> 
+<span data-ttu-id="5dbd0-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="5dbd0-109">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="36913-110">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="36913-110">Not used; must be zero.</span></span>
+<span data-ttu-id="5dbd0-110">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-110">Not used; must be zero.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="36913-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="36913-111">*lParam*</span></span> 
+<span data-ttu-id="5dbd0-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="5dbd0-111">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="36913-112">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="36913-112">Not used; must be zero.</span></span>
+<span data-ttu-id="5dbd0-112">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-112">Not used; must be zero.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="36913-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="36913-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5dbd0-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="5dbd0-113">Return value</span></span>
 
-<span data-ttu-id="36913-114">傳回值為零。</span><span class="sxs-lookup"><span data-stu-id="36913-114">The return value is zero.</span></span> <span data-ttu-id="36913-115">此訊息無法失敗。</span><span class="sxs-lookup"><span data-stu-id="36913-115">This message cannot fail.</span></span>
+<span data-ttu-id="5dbd0-114">傳回值為零。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-114">The return value is zero.</span></span> <span data-ttu-id="5dbd0-115">此訊息無法失敗。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-115">This message cannot fail.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="36913-116">備註</span><span class="sxs-lookup"><span data-stu-id="36913-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5dbd0-116">備註</span><span class="sxs-lookup"><span data-stu-id="5dbd0-116">Remarks</span></span>
 
-<span data-ttu-id="36913-117">Rich edit 控制項會將連續的輸入動作（包括使用 **倒退鍵** 刪除的字元）分組成單一復原動作，直到發生下列其中一個事件為止：</span><span class="sxs-lookup"><span data-stu-id="36913-117">A rich edit control groups consecutive typing actions, including characters deleted by using the **BackSpace** key, into a single undo action until one of the following events occurs:</span></span>
+<span data-ttu-id="5dbd0-117">Rich edit 控制項會將連續的輸入動作（包括使用 **倒退鍵** 刪除的字元）分組成單一復原動作，直到發生下列其中一個事件為止：</span><span class="sxs-lookup"><span data-stu-id="5dbd0-117">A rich edit control groups consecutive typing actions, including characters deleted by using the **BackSpace** key, into a single undo action until one of the following events occurs:</span></span>
 
--   <span data-ttu-id="36913-118">控制項收到 **EM \_ STOPGROUPTYPING** 訊息。</span><span class="sxs-lookup"><span data-stu-id="36913-118">The control receives an **EM\_STOPGROUPTYPING** message.</span></span>
--   <span data-ttu-id="36913-119">控制項失去焦點。</span><span class="sxs-lookup"><span data-stu-id="36913-119">The control loses focus.</span></span>
--   <span data-ttu-id="36913-120">使用者可以使用方向鍵或按一下滑鼠來移動目前的選取範圍。</span><span class="sxs-lookup"><span data-stu-id="36913-120">The user moves the current selection, either by using the arrow keys or by clicking the mouse.</span></span>
--   <span data-ttu-id="36913-121">使用者按下 **Delete** 鍵。</span><span class="sxs-lookup"><span data-stu-id="36913-121">The user presses the **Delete** key.</span></span>
--   <span data-ttu-id="36913-122">使用者執行任何其他動作，例如 **不包含輸入** 的貼上作業。</span><span class="sxs-lookup"><span data-stu-id="36913-122">The user performs any other action, such as a paste operation that does **not** involve typing.</span></span>
+-   <span data-ttu-id="5dbd0-118">控制項收到 **EM \_ STOPGROUPTYPING** 訊息。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-118">The control receives an **EM\_STOPGROUPTYPING** message.</span></span>
+-   <span data-ttu-id="5dbd0-119">控制項失去焦點。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-119">The control loses focus.</span></span>
+-   <span data-ttu-id="5dbd0-120">使用者可以使用方向鍵或按一下滑鼠來移動目前的選取範圍。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-120">The user moves the current selection, either by using the arrow keys or by clicking the mouse.</span></span>
+-   <span data-ttu-id="5dbd0-121">使用者按下 **Delete** 鍵。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-121">The user presses the **Delete** key.</span></span>
+-   <span data-ttu-id="5dbd0-122">使用者執行任何其他動作，例如 **不包含輸入** 的貼上作業。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-122">The user performs any other action, such as a paste operation that does **not** involve typing.</span></span>
 
-<span data-ttu-id="36913-123">您可以傳送 **EM \_ STOPGROUPTYPING** 訊息，將連續的輸入動作分成較小的復原群組。</span><span class="sxs-lookup"><span data-stu-id="36913-123">You can send the **EM\_STOPGROUPTYPING** message to break consecutive typing actions into smaller undo groups.</span></span> <span data-ttu-id="36913-124">例如，您可以在每個字元之後或每個斷字字元之後傳送 **EM \_ STOPGROUPTYPING** 。</span><span class="sxs-lookup"><span data-stu-id="36913-124">For example, you could send **EM\_STOPGROUPTYPING** after each character or at each word break.</span></span>
+<span data-ttu-id="5dbd0-123">您可以傳送 **EM \_ STOPGROUPTYPING** 訊息，將連續的輸入動作分成較小的復原群組。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-123">You can send the **EM\_STOPGROUPTYPING** message to break consecutive typing actions into smaller undo groups.</span></span> <span data-ttu-id="5dbd0-124">例如，您可以在每個字元之後或每個斷字字元之後傳送 **EM \_ STOPGROUPTYPING** 。</span><span class="sxs-lookup"><span data-stu-id="5dbd0-124">For example, you could send **EM\_STOPGROUPTYPING** after each character or at each word break.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="36913-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="36913-125">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5dbd0-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="5dbd0-125">Requirements</span></span>
 
 
 
-| <span data-ttu-id="36913-126">需求</span><span class="sxs-lookup"><span data-stu-id="36913-126">Requirement</span></span> | <span data-ttu-id="36913-127">值</span><span class="sxs-lookup"><span data-stu-id="36913-127">Value</span></span> |
+| <span data-ttu-id="5dbd0-126">需求</span><span class="sxs-lookup"><span data-stu-id="5dbd0-126">Requirement</span></span> | <span data-ttu-id="5dbd0-127">值</span><span class="sxs-lookup"><span data-stu-id="5dbd0-127">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="36913-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="36913-128">Minimum supported client</span></span><br/> | <span data-ttu-id="36913-129">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="36913-129">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="36913-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="36913-130">Minimum supported server</span></span><br/> | <span data-ttu-id="36913-131">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="36913-131">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="36913-132">標頭</span><span class="sxs-lookup"><span data-stu-id="36913-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="36913-133"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="36913-133"><dt>Richedit.h</dt></span></span> </dl> |
+| <span data-ttu-id="5dbd0-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5dbd0-128">Minimum supported client</span></span><br/> | <span data-ttu-id="5dbd0-129">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5dbd0-129">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="5dbd0-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5dbd0-130">Minimum supported server</span></span><br/> | <span data-ttu-id="5dbd0-131">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5dbd0-131">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="5dbd0-132">標頭</span><span class="sxs-lookup"><span data-stu-id="5dbd0-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="5dbd0-133"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="5dbd0-133"><dt>Richedit.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="36913-134">另請參閱</span><span class="sxs-lookup"><span data-stu-id="36913-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5dbd0-134">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5dbd0-134">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="36913-135">**EM \_ 復原**</span><span class="sxs-lookup"><span data-stu-id="36913-135">**EM\_UNDO**</span></span>](em-undo.md)
+[<span data-ttu-id="5dbd0-135">**EM \_ 復原**</span><span class="sxs-lookup"><span data-stu-id="5dbd0-135">**EM\_UNDO**</span></span>](em-undo.md)
 </dt> </dl>
 
  

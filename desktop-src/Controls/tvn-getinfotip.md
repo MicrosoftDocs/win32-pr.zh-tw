@@ -23,9 +23,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686096"
 ---
-# <a name="tvn_getinfotip-notification-code"></a><span data-ttu-id="8957d-106">IZDEBSKI \_ GETINFOTIP 通知碼</span><span class="sxs-lookup"><span data-stu-id="8957d-106">TVN\_GETINFOTIP notification code</span></span>
+# <a name="tvn_getinfotip-notification-code"></a><span data-ttu-id="1db19-106">IZDEBSKI \_ GETINFOTIP 通知碼</span><span class="sxs-lookup"><span data-stu-id="1db19-106">TVN\_GETINFOTIP notification code</span></span>
 
-<span data-ttu-id="8957d-107">由具有 [**電視 \_**](tree-view-control-window-styles.md) 提示樣式的樹狀檢視控制項所傳送。</span><span class="sxs-lookup"><span data-stu-id="8957d-107">Sent by a tree-view control that has the [**TVS\_INFOTIP**](tree-view-control-window-styles.md) style.</span></span> <span data-ttu-id="8957d-108">當控制項要求要顯示在工具提示中的其他文字資訊時，就會傳送此通知碼。</span><span class="sxs-lookup"><span data-stu-id="8957d-108">This notification code is sent when the control is requesting additional text information to be displayed in a tooltip.</span></span> <span data-ttu-id="8957d-109">通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="8957d-109">The notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="1db19-107">由具有 [**電視 \_**](tree-view-control-window-styles.md) 提示樣式的樹狀檢視控制項所傳送。</span><span class="sxs-lookup"><span data-stu-id="1db19-107">Sent by a tree-view control that has the [**TVS\_INFOTIP**](tree-view-control-window-styles.md) style.</span></span> <span data-ttu-id="1db19-108">當控制項要求要顯示在工具提示中的其他文字資訊時，就會傳送此通知碼。</span><span class="sxs-lookup"><span data-stu-id="1db19-108">This notification code is sent when the control is requesting additional text information to be displayed in a tooltip.</span></span> <span data-ttu-id="1db19-109">通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="1db19-109">The notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -36,35 +36,35 @@ TVN_GETINFOTIP
 
 
 
-## <a name="parameters"></a><span data-ttu-id="8957d-110">參數</span><span class="sxs-lookup"><span data-stu-id="8957d-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1db19-110">參數</span><span class="sxs-lookup"><span data-stu-id="1db19-110">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="8957d-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="8957d-111">*lParam*</span></span> 
+<span data-ttu-id="1db19-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="1db19-111">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="8957d-112">[**NMTVGETINFOTIP**](/windows/win32/api/commctrl/ns-commctrl-nmtvgetinfotipa)結構的指標，其中包含此通知碼的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="8957d-112">Pointer to an [**NMTVGETINFOTIP**](/windows/win32/api/commctrl/ns-commctrl-nmtvgetinfotipa) structure that contains information about this notification code.</span></span>
+<span data-ttu-id="1db19-112">[**NMTVGETINFOTIP**](/windows/win32/api/commctrl/ns-commctrl-nmtvgetinfotipa)結構的指標，其中包含此通知碼的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="1db19-112">Pointer to an [**NMTVGETINFOTIP**](/windows/win32/api/commctrl/ns-commctrl-nmtvgetinfotipa) structure that contains information about this notification code.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="8957d-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="8957d-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1db19-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="1db19-113">Return value</span></span>
 
-<span data-ttu-id="8957d-114">控制項會忽略此通知碼的傳回值。</span><span class="sxs-lookup"><span data-stu-id="8957d-114">The control ignores the return value for this notification code.</span></span>
+<span data-ttu-id="1db19-114">控制項會忽略此通知碼的傳回值。</span><span class="sxs-lookup"><span data-stu-id="1db19-114">The control ignores the return value for this notification code.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8957d-115">備註</span><span class="sxs-lookup"><span data-stu-id="8957d-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1db19-115">備註</span><span class="sxs-lookup"><span data-stu-id="1db19-115">Remarks</span></span>
 
-<span data-ttu-id="8957d-116">此通知碼僅由具有 [**電視 \_**](tree-view-control-window-styles.md) 提示樣式的樹狀檢視控制項所傳送。</span><span class="sxs-lookup"><span data-stu-id="8957d-116">This notification code is only sent by tree-view controls that have the [**TVS\_INFOTIP**](tree-view-control-window-styles.md) style.</span></span>
+<span data-ttu-id="1db19-116">此通知碼僅由具有 [**電視 \_**](tree-view-control-window-styles.md) 提示樣式的樹狀檢視控制項所傳送。</span><span class="sxs-lookup"><span data-stu-id="1db19-116">This notification code is only sent by tree-view controls that have the [**TVS\_INFOTIP**](tree-view-control-window-styles.md) style.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="8957d-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="8957d-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="1db19-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="1db19-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="8957d-118">需求</span><span class="sxs-lookup"><span data-stu-id="8957d-118">Requirement</span></span> | <span data-ttu-id="8957d-119">值</span><span class="sxs-lookup"><span data-stu-id="8957d-119">Value</span></span> |
+| <span data-ttu-id="1db19-118">需求</span><span class="sxs-lookup"><span data-stu-id="1db19-118">Requirement</span></span> | <span data-ttu-id="1db19-119">值</span><span class="sxs-lookup"><span data-stu-id="1db19-119">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="8957d-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8957d-120">Minimum supported client</span></span><br/> | <span data-ttu-id="8957d-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8957d-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="8957d-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8957d-122">Minimum supported server</span></span><br/> | <span data-ttu-id="8957d-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8957d-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="8957d-124">標頭</span><span class="sxs-lookup"><span data-stu-id="8957d-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="8957d-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="8957d-125"><dt>Commctrl.h</dt></span></span> </dl> |
-| <span data-ttu-id="8957d-126">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="8957d-126">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="8957d-127">**Izdebski \_GETINFOTIPW** (Unicode) 和 **izdebski \_ GETINFOTIPA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="8957d-127">**TVN\_GETINFOTIPW** (Unicode) and **TVN\_GETINFOTIPA** (ANSI)</span></span><br/>             |
+| <span data-ttu-id="1db19-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1db19-120">Minimum supported client</span></span><br/> | <span data-ttu-id="1db19-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1db19-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="1db19-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1db19-122">Minimum supported server</span></span><br/> | <span data-ttu-id="1db19-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1db19-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="1db19-124">標頭</span><span class="sxs-lookup"><span data-stu-id="1db19-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="1db19-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="1db19-125"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="1db19-126">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="1db19-126">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="1db19-127">**Izdebski \_GETINFOTIPW** (Unicode) 和 **izdebski \_ GETINFOTIPA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="1db19-127">**TVN\_GETINFOTIPW** (Unicode) and **TVN\_GETINFOTIPA** (ANSI)</span></span><br/>             |
 
 
 
