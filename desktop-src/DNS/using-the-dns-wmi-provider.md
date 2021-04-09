@@ -13,11 +13,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674728"
 ---
-# <a name="using-the-dns-wmi-provider"></a><span data-ttu-id="dc60b-104">使用 DNS WMI 提供者</span><span class="sxs-lookup"><span data-stu-id="dc60b-104">Using the DNS WMI Provider</span></span>
+# <a name="using-the-dns-wmi-provider"></a><span data-ttu-id="5b0a5-104">使用 DNS WMI 提供者</span><span class="sxs-lookup"><span data-stu-id="5b0a5-104">Using the DNS WMI Provider</span></span>
 
-<span data-ttu-id="dc60b-105">DNS WMI 提供者定義了 WMI [*CIM 類別*](c-gly.md) ，可讓您的應用程式控制 DNS 伺服器。</span><span class="sxs-lookup"><span data-stu-id="dc60b-105">The DNS WMI Provider defines WMI [*CIM classes*](c-gly.md) that enable your application to control a DNS Server.</span></span> <span data-ttu-id="dc60b-106">下列各節提供可協助您開始使用 DNS WMI 提供者的總覽資訊。</span><span class="sxs-lookup"><span data-stu-id="dc60b-106">The following sections provide overview information that can help you get started using the DNS WMI Provider.</span></span> <span data-ttu-id="dc60b-107">提供範例腳本的連結，示範如何利用 DNS WMI 提供者。</span><span class="sxs-lookup"><span data-stu-id="dc60b-107">Links are provided to sample scripts that demonstrate how to make use of the DNS WMI Provider.</span></span>
+<span data-ttu-id="5b0a5-105">DNS WMI 提供者定義了 WMI [*CIM 類別*](c-gly.md) ，可讓您的應用程式控制 DNS 伺服器。</span><span class="sxs-lookup"><span data-stu-id="5b0a5-105">The DNS WMI Provider defines WMI [*CIM classes*](c-gly.md) that enable your application to control a DNS Server.</span></span> <span data-ttu-id="5b0a5-106">下列各節提供可協助您開始使用 DNS WMI 提供者的總覽資訊。</span><span class="sxs-lookup"><span data-stu-id="5b0a5-106">The following sections provide overview information that can help you get started using the DNS WMI Provider.</span></span> <span data-ttu-id="5b0a5-107">提供範例腳本的連結，示範如何利用 DNS WMI 提供者。</span><span class="sxs-lookup"><span data-stu-id="5b0a5-107">Links are provided to sample scripts that demonstrate how to make use of the DNS WMI Provider.</span></span>
 
-<span data-ttu-id="dc60b-108">如需有關基本 WMI 作業的詳細資訊，請參閱平臺軟體發展工具組 (SDK) 中的 Windows Management Instrumentation (WMI) 。</span><span class="sxs-lookup"><span data-stu-id="dc60b-108">For more information about basic WMI operations, refer to Windows Management Instrumentation (WMI) in the Platform Software Development Kit (SDK).</span></span>
+<span data-ttu-id="5b0a5-108">如需有關基本 WMI 作業的詳細資訊，請參閱平臺軟體發展工具組 (SDK) 中的 Windows Management Instrumentation (WMI) 。</span><span class="sxs-lookup"><span data-stu-id="5b0a5-108">For more information about basic WMI operations, refer to Windows Management Instrumentation (WMI) in the Platform Software Development Kit (SDK).</span></span>
 
  
 

@@ -17,15 +17,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932471"
 ---
-# <a name="using-joysticks"></a><span data-ttu-id="c8686-108">使用操縱杆</span><span class="sxs-lookup"><span data-stu-id="c8686-108">Using Joysticks</span></span>
+# <a name="using-joysticks"></a><span data-ttu-id="2c101-108">使用操縱杆</span><span class="sxs-lookup"><span data-stu-id="2c101-108">Using Joysticks</span></span>
 
-<span data-ttu-id="c8686-109">本節包含的範例示範如何執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="c8686-109">This section contains examples demonstrating how to perform the following tasks:</span></span>
+<span data-ttu-id="2c101-109">本節包含的範例示範如何執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="2c101-109">This section contains examples demonstrating how to perform the following tasks:</span></span>
 
--   [<span data-ttu-id="c8686-110">取得驅動程式功能</span><span class="sxs-lookup"><span data-stu-id="c8686-110">Getting the Driver Capabilities</span></span>](getting-the-driver-capabilities.md)
--   [<span data-ttu-id="c8686-111">捕獲搖桿輸入</span><span class="sxs-lookup"><span data-stu-id="c8686-111">Capturing Joystick Input</span></span>](capturing-joystick-input.md)
--   [<span data-ttu-id="c8686-112">處理操縱杆訊息</span><span class="sxs-lookup"><span data-stu-id="c8686-112">Processing Joystick Messages</span></span>](processing-joystick-messages.md)
+-   [<span data-ttu-id="2c101-110">取得驅動程式功能</span><span class="sxs-lookup"><span data-stu-id="2c101-110">Getting the Driver Capabilities</span></span>](getting-the-driver-capabilities.md)
+-   [<span data-ttu-id="2c101-111">捕獲搖桿輸入</span><span class="sxs-lookup"><span data-stu-id="2c101-111">Capturing Joystick Input</span></span>](capturing-joystick-input.md)
+-   [<span data-ttu-id="2c101-112">處理操縱杆訊息</span><span class="sxs-lookup"><span data-stu-id="2c101-112">Processing Joystick Messages</span></span>](processing-joystick-messages.md)
 
-<span data-ttu-id="c8686-113">這些範例取自簡單的搖桿應用程式，此應用程式會從搖桿服務抓取位置和按鈕狀態資訊、播放波形-音訊資源，以及在使用者按下游戲杆按鈕時，在螢幕上繪製專案符號孔。</span><span class="sxs-lookup"><span data-stu-id="c8686-113">The examples are taken from a simple joystick application that retrieves position and button-state information from the joystick services, plays waveform-audio resources, and paints bullet holes on the screen when a user presses the joystick buttons.</span></span>
+<span data-ttu-id="2c101-113">這些範例取自簡單的搖桿應用程式，此應用程式會從搖桿服務抓取位置和按鈕狀態資訊、播放波形-音訊資源，以及在使用者按下游戲杆按鈕時，在螢幕上繪製專案符號孔。</span><span class="sxs-lookup"><span data-stu-id="2c101-113">The examples are taken from a simple joystick application that retrieves position and button-state information from the joystick services, plays waveform-audio resources, and paints bullet holes on the screen when a user presses the joystick buttons.</span></span>
 
  
 

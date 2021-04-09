@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932179"
 ---
-# <a name="itspubplugin-methods"></a><span data-ttu-id="cb383-103">ItsPubPlugin 方法</span><span class="sxs-lookup"><span data-stu-id="cb383-103">ItsPubPlugin Methods</span></span>
+# <a name="itspubplugin-methods"></a><span data-ttu-id="b6cfa-103">ItsPubPlugin 方法</span><span class="sxs-lookup"><span data-stu-id="b6cfa-103">ItsPubPlugin Methods</span></span>
 
-<span data-ttu-id="cb383-104">[**ItsPubPlugin**](/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="cb383-104">The [**ItsPubPlugin**](/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin) interface exposes the following methods.</span></span>
+<span data-ttu-id="b6cfa-104">[**ItsPubPlugin**](/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="b6cfa-104">The [**ItsPubPlugin**](/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="cb383-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="cb383-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b6cfa-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b6cfa-105">In this section</span></span>
 
--   [<span data-ttu-id="cb383-106">**GetCacheLastUpdateTime 方法**</span><span class="sxs-lookup"><span data-stu-id="cb383-106">**GetCacheLastUpdateTime method**</span></span>](/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getcachelastupdatetime)
--   [<span data-ttu-id="cb383-107">**GetResource 方法**</span><span class="sxs-lookup"><span data-stu-id="cb383-107">**GetResource method**</span></span>](/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getresource)
--   [<span data-ttu-id="cb383-108">**GetResourceList 方法**</span><span class="sxs-lookup"><span data-stu-id="cb383-108">**GetResourceList method**</span></span>](/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getresourcelist)
--   [<span data-ttu-id="cb383-109">**ResolveResource 方法**</span><span class="sxs-lookup"><span data-stu-id="cb383-109">**ResolveResource method**</span></span>](/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-resolveresource)
+-   [<span data-ttu-id="b6cfa-106">**GetCacheLastUpdateTime 方法**</span><span class="sxs-lookup"><span data-stu-id="b6cfa-106">**GetCacheLastUpdateTime method**</span></span>](/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getcachelastupdatetime)
+-   [<span data-ttu-id="b6cfa-107">**GetResource 方法**</span><span class="sxs-lookup"><span data-stu-id="b6cfa-107">**GetResource method**</span></span>](/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getresource)
+-   [<span data-ttu-id="b6cfa-108">**GetResourceList 方法**</span><span class="sxs-lookup"><span data-stu-id="b6cfa-108">**GetResourceList method**</span></span>](/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getresourcelist)
+-   [<span data-ttu-id="b6cfa-109">**ResolveResource 方法**</span><span class="sxs-lookup"><span data-stu-id="b6cfa-109">**ResolveResource method**</span></span>](/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-resolveresource)
 
  
 

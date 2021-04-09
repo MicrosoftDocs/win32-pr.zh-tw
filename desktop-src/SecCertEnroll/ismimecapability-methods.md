@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944955"
 ---
-# <a name="ismimecapability-methods"></a><span data-ttu-id="39d90-103">ISmimeCapability 方法</span><span class="sxs-lookup"><span data-stu-id="39d90-103">ISmimeCapability Methods</span></span>
+# <a name="ismimecapability-methods"></a><span data-ttu-id="0fd30-103">ISmimeCapability 方法</span><span class="sxs-lookup"><span data-stu-id="0fd30-103">ISmimeCapability Methods</span></span>
 
-<span data-ttu-id="39d90-104">[**ISmimeCapability**](/windows/desktop/api/CertEnroll/nn-certenroll-ismimecapability)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="39d90-104">The [**ISmimeCapability**](/windows/desktop/api/CertEnroll/nn-certenroll-ismimecapability) interface exposes the following methods.</span></span>
+<span data-ttu-id="0fd30-104">[**ISmimeCapability**](/windows/desktop/api/CertEnroll/nn-certenroll-ismimecapability)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="0fd30-104">The [**ISmimeCapability**](/windows/desktop/api/CertEnroll/nn-certenroll-ismimecapability) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="39d90-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="39d90-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0fd30-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0fd30-105">In this section</span></span>
 
--   [<span data-ttu-id="39d90-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="39d90-106">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ismimecapability-initialize)
+-   [<span data-ttu-id="0fd30-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="0fd30-106">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ismimecapability-initialize)
 
  
 

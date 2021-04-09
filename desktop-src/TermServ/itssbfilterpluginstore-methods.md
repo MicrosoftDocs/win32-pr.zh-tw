@@ -12,32 +12,32 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932248"
 ---
-# <a name="itssbfilterpluginstore-methods"></a><span data-ttu-id="893e5-103">ITsSbFilterPluginStore 方法</span><span class="sxs-lookup"><span data-stu-id="893e5-103">ITsSbFilterPluginStore Methods</span></span>
+# <a name="itssbfilterpluginstore-methods"></a><span data-ttu-id="9e8a4-103">ITsSbFilterPluginStore 方法</span><span class="sxs-lookup"><span data-stu-id="9e8a4-103">ITsSbFilterPluginStore Methods</span></span>
 
-<span data-ttu-id="893e5-104">[**ITsSbFilterPluginStore**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="893e5-104">The [**ITsSbFilterPluginStore**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore) interfaces exposes the following methods.</span></span>
+<span data-ttu-id="9e8a4-104">[**ITsSbFilterPluginStore**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="9e8a4-104">The [**ITsSbFilterPluginStore**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore) interfaces exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="893e5-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="893e5-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9e8a4-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="9e8a4-105">In this section</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="893e5-106">**DeleteProperties 方法**</span><span class="sxs-lookup"><span data-stu-id="893e5-106">**DeleteProperties method**</span></span>](/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-deleteproperties)
+[<span data-ttu-id="9e8a4-106">**DeleteProperties 方法**</span><span class="sxs-lookup"><span data-stu-id="9e8a4-106">**DeleteProperties method**</span></span>](/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-deleteproperties)
 </dt> <dd>
 
-<span data-ttu-id="893e5-107">刪除屬性。</span><span class="sxs-lookup"><span data-stu-id="893e5-107">Deletes a property.</span></span>
+<span data-ttu-id="9e8a4-107">刪除屬性。</span><span class="sxs-lookup"><span data-stu-id="9e8a4-107">Deletes a property.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="893e5-108">**EnumerateProperties 方法**</span><span class="sxs-lookup"><span data-stu-id="893e5-108">**EnumerateProperties method**</span></span>](/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-enumerateproperties)
+[<span data-ttu-id="9e8a4-108">**EnumerateProperties 方法**</span><span class="sxs-lookup"><span data-stu-id="9e8a4-108">**EnumerateProperties method**</span></span>](/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-enumerateproperties)
 </dt> <dd>
 
-<span data-ttu-id="893e5-109">列舉屬性集。</span><span class="sxs-lookup"><span data-stu-id="893e5-109">Enumerates a property set.</span></span>
+<span data-ttu-id="9e8a4-109">列舉屬性集。</span><span class="sxs-lookup"><span data-stu-id="9e8a4-109">Enumerates a property set.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="893e5-110">**SaveProperties 方法**</span><span class="sxs-lookup"><span data-stu-id="893e5-110">**SaveProperties method**</span></span>](/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-saveproperties)
+[<span data-ttu-id="9e8a4-110">**SaveProperties 方法**</span><span class="sxs-lookup"><span data-stu-id="9e8a4-110">**SaveProperties method**</span></span>](/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-saveproperties)
 </dt> <dd>
 
-<span data-ttu-id="893e5-111">儲存屬性集。</span><span class="sxs-lookup"><span data-stu-id="893e5-111">Saves a property set.</span></span>
+<span data-ttu-id="9e8a4-111">儲存屬性集。</span><span class="sxs-lookup"><span data-stu-id="9e8a4-111">Saves a property set.</span></span>
 
 </dd> </dl>
 

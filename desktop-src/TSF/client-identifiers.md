@@ -17,24 +17,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932031"
 ---
-# <a name="client-identifiers"></a><span data-ttu-id="3a2f6-108">用戶端識別碼</span><span class="sxs-lookup"><span data-stu-id="3a2f6-108">Client Identifiers</span></span>
+# <a name="client-identifiers"></a><span data-ttu-id="ada29-108">用戶端識別碼</span><span class="sxs-lookup"><span data-stu-id="ada29-108">Client Identifiers</span></span>
 
-## <a name="applications"></a><span data-ttu-id="3a2f6-109">應用程式</span><span class="sxs-lookup"><span data-stu-id="3a2f6-109">Applications</span></span>
+## <a name="applications"></a><span data-ttu-id="ada29-109">應用程式</span><span class="sxs-lookup"><span data-stu-id="ada29-109">Applications</span></span>
 
-<span data-ttu-id="3a2f6-110">應用程式會藉由呼叫 [ITfThreadMgr：： Activate](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate)來取得其用戶端識別碼。</span><span class="sxs-lookup"><span data-stu-id="3a2f6-110">An application obtains its client identifier by calling [ITfThreadMgr::Activate](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate).</span></span>
+<span data-ttu-id="ada29-110">應用程式會藉由呼叫 [ITfThreadMgr：： Activate](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate)來取得其用戶端識別碼。</span><span class="sxs-lookup"><span data-stu-id="ada29-110">An application obtains its client identifier by calling [ITfThreadMgr::Activate](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate).</span></span>
 
-## <a name="text-services"></a><span data-ttu-id="3a2f6-111">文字服務</span><span class="sxs-lookup"><span data-stu-id="3a2f6-111">Text Services</span></span>
+## <a name="text-services"></a><span data-ttu-id="ada29-111">文字服務</span><span class="sxs-lookup"><span data-stu-id="ada29-111">Text Services</span></span>
 
-<span data-ttu-id="3a2f6-112">當呼叫 text service [ITfTextInputProcessor：： Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate) 方法時，文字服務會取得其用戶端識別碼。</span><span class="sxs-lookup"><span data-stu-id="3a2f6-112">A text service obtains its client identifier when the text service [ITfTextInputProcessor::Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate) method is called.</span></span>
+<span data-ttu-id="ada29-112">當呼叫 text service [ITfTextInputProcessor：： Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate) 方法時，文字服務會取得其用戶端識別碼。</span><span class="sxs-lookup"><span data-stu-id="ada29-112">A text service obtains its client identifier when the text service [ITfTextInputProcessor::Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate) method is called.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="3a2f6-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="3a2f6-113">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ada29-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="ada29-113">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="3a2f6-114">ITfThreadMgr：： Activate</span><span class="sxs-lookup"><span data-stu-id="3a2f6-114">ITfThreadMgr::Activate</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate)
+[<span data-ttu-id="ada29-114">ITfThreadMgr：： Activate</span><span class="sxs-lookup"><span data-stu-id="ada29-114">ITfThreadMgr::Activate</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate)
 </dt> <dt>
 
-[<span data-ttu-id="3a2f6-115">ITfTextInputProcessor：： Activate</span><span class="sxs-lookup"><span data-stu-id="3a2f6-115">ITfTextInputProcessor::Activate</span></span>](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate)
+[<span data-ttu-id="ada29-115">ITfTextInputProcessor：： Activate</span><span class="sxs-lookup"><span data-stu-id="ada29-115">ITfTextInputProcessor::Activate</span></span>](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate)
 </dt> </dl>
 
  

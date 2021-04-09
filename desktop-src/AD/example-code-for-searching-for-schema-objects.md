@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103931885"
 ---
-# <a name="example-code-for-searching-for-schema-objects"></a><span data-ttu-id="f449f-104">用於搜尋架構物件的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="f449f-104">Example Code for Searching for Schema Objects</span></span>
+# <a name="example-code-for-searching-for-schema-objects"></a><span data-ttu-id="69b8a-104">用於搜尋架構物件的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="69b8a-104">Example Code for Searching for Schema Objects</span></span>
 
-<span data-ttu-id="f449f-105">本主題包含用來搜尋架構物件的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="f449f-105">This topic includes a code example used to search for schema objects.</span></span>
+<span data-ttu-id="69b8a-105">本主題包含用來搜尋架構物件的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="69b8a-105">This topic includes a code example used to search for schema objects.</span></span>
 
-<span data-ttu-id="f449f-106">下列 c + + 程式碼範例示範如何搜尋在 **systemFlags** 屬性中設定了位的架構物件。</span><span class="sxs-lookup"><span data-stu-id="f449f-106">The following C++ code example shows how to search for schema objects that have bits set in the **systemFlags** attribute.</span></span>
+<span data-ttu-id="69b8a-106">下列 c + + 程式碼範例示範如何搜尋在 **systemFlags** 屬性中設定了位的架構物件。</span><span class="sxs-lookup"><span data-stu-id="69b8a-106">The following C++ code example shows how to search for schema objects that have bits set in the **systemFlags** attribute.</span></span>
 
 
 ```C++
@@ -152,7 +152,7 @@ HRESULT PrintAttributesByType(IDirectorySearch *pSchemaNC,
 
 
 
-<span data-ttu-id="f449f-107">下列 C 和 c + + 程式碼範例示範如何搜尋已複寫至通用類別目錄的架構物件。</span><span class="sxs-lookup"><span data-stu-id="f449f-107">The following C and C++ code example shows how to search for schema objects replicated to the global catalog.</span></span>
+<span data-ttu-id="69b8a-107">下列 C 和 c + + 程式碼範例示範如何搜尋已複寫至通用類別目錄的架構物件。</span><span class="sxs-lookup"><span data-stu-id="69b8a-107">The following C and C++ code example shows how to search for schema objects replicated to the global catalog.</span></span>
 
 
 ```C++
@@ -260,7 +260,7 @@ HRESULT PrintGCAttributes(IDirectorySearch *pSchemaNC)
 
 
 
-<span data-ttu-id="f449f-108">下列 C 和 c + + 程式碼範例示範如何搜尋已編制索引的架構物件。</span><span class="sxs-lookup"><span data-stu-id="f449f-108">The following C and C++ code example shows how to search for indexed schema objects.</span></span>
+<span data-ttu-id="69b8a-108">下列 C 和 c + + 程式碼範例示範如何搜尋已編制索引的架構物件。</span><span class="sxs-lookup"><span data-stu-id="69b8a-108">The following C and C++ code example shows how to search for indexed schema objects.</span></span>
 
 
 ```C++

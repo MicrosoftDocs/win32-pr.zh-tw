@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932206"
 ---
-# <a name="ndf-helper-class-extension-with-handoff"></a><span data-ttu-id="10aab-103">具有遞交的 NDF Helper 類別延伸</span><span class="sxs-lookup"><span data-stu-id="10aab-103">NDF Helper Class Extension with Handoff</span></span>
+# <a name="ndf-helper-class-extension-with-handoff"></a><span data-ttu-id="f1cba-103">具有遞交的 NDF Helper 類別延伸</span><span class="sxs-lookup"><span data-stu-id="f1cba-103">NDF Helper Class Extension with Handoff</span></span>
 
-<span data-ttu-id="10aab-104">此協助程式類別對於第一個範例中所編碼的 SimpleFileHelperClass 具有低健康情況的相依性。</span><span class="sxs-lookup"><span data-stu-id="10aab-104">This Helper Class has a low-health dependency on the SimpleFileHelperClass coded in the first example.</span></span>
+<span data-ttu-id="f1cba-104">此協助程式類別對於第一個範例中所編碼的 SimpleFileHelperClass 具有低健康情況的相依性。</span><span class="sxs-lookup"><span data-stu-id="f1cba-104">This Helper Class has a low-health dependency on the SimpleFileHelperClass coded in the first example.</span></span>
 
-<span data-ttu-id="10aab-105">第二個遞交 helper 類別是簡單的傳遞 helper 類別，不會執行任何診斷本身。</span><span class="sxs-lookup"><span data-stu-id="10aab-105">The second handoff helper class is a simple pass-through helper class which does not perform any diagnosis itself.</span></span> <span data-ttu-id="10aab-106">相反地，它一律會為 SimpleFileHelperClass 產生較低的健康情況假設。</span><span class="sxs-lookup"><span data-stu-id="10aab-106">Instead, it always generates lower health hypothesis for the SimpleFileHelperClass.</span></span> <span data-ttu-id="10aab-107">這在作為預留位置，以供未來在此協助程式類別中新增診斷功能時，是很有用的。</span><span class="sxs-lookup"><span data-stu-id="10aab-107">This is useful in serving as a placeholder for future addition of diagnostics capability in this helper class.</span></span> <span data-ttu-id="10aab-108">「遞交協助程式」類別會執行兩個方法。</span><span class="sxs-lookup"><span data-stu-id="10aab-108">The handoff helper class implements two methods.</span></span>
+<span data-ttu-id="f1cba-105">第二個遞交 helper 類別是簡單的傳遞 helper 類別，不會執行任何診斷本身。</span><span class="sxs-lookup"><span data-stu-id="f1cba-105">The second handoff helper class is a simple pass-through helper class which does not perform any diagnosis itself.</span></span> <span data-ttu-id="f1cba-106">相反地，它一律會為 SimpleFileHelperClass 產生較低的健康情況假設。</span><span class="sxs-lookup"><span data-stu-id="f1cba-106">Instead, it always generates lower health hypothesis for the SimpleFileHelperClass.</span></span> <span data-ttu-id="f1cba-107">這在作為預留位置，以供未來在此協助程式類別中新增診斷功能時，是很有用的。</span><span class="sxs-lookup"><span data-stu-id="f1cba-107">This is useful in serving as a placeholder for future addition of diagnostics capability in this helper class.</span></span> <span data-ttu-id="f1cba-108">「遞交協助程式」類別會執行兩個方法。</span><span class="sxs-lookup"><span data-stu-id="f1cba-108">The handoff helper class implements two methods.</span></span>
 
-<span data-ttu-id="10aab-109">LowHealth 方法是用來將診斷狀態設定為 DS \_ 不定。</span><span class="sxs-lookup"><span data-stu-id="10aab-109">The LowHealth method is used to set the Diagnosis Status to DS\_INDETERMINATE.</span></span> <span data-ttu-id="10aab-110">這會讓 NDF 呼叫 GetLowerHypotheses。</span><span class="sxs-lookup"><span data-stu-id="10aab-110">This makes NDF call GetLowerHypotheses.</span></span>
+<span data-ttu-id="f1cba-109">LowHealth 方法是用來將診斷狀態設定為 DS \_ 不定。</span><span class="sxs-lookup"><span data-stu-id="f1cba-109">The LowHealth method is used to set the Diagnosis Status to DS\_INDETERMINATE.</span></span> <span data-ttu-id="f1cba-110">這會讓 NDF 呼叫 GetLowerHypotheses。</span><span class="sxs-lookup"><span data-stu-id="f1cba-110">This makes NDF call GetLowerHypotheses.</span></span>
 
 
 ```C++
@@ -38,7 +38,7 @@ HRESULT HandOffTestHelperClass::LowHealth(
 
 
 
-<span data-ttu-id="10aab-111">接下來，會執行 GetLowerHypotheses，告訴 NDF 要診斷哪一個 Helper 類別。</span><span class="sxs-lookup"><span data-stu-id="10aab-111">Next, GetLowerHypotheses is implemented to tell NDF which Helper Class to diagnose.</span></span>
+<span data-ttu-id="f1cba-111">接下來，會執行 GetLowerHypotheses，告訴 NDF 要診斷哪一個 Helper 類別。</span><span class="sxs-lookup"><span data-stu-id="f1cba-111">Next, GetLowerHypotheses is implemented to tell NDF which Helper Class to diagnose.</span></span>
 
 
 ```C++

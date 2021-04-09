@@ -15,17 +15,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932382"
 ---
-# <a name="device-specific-command-sets"></a><span data-ttu-id="f2a0e-106">Device-Specific 命令集</span><span class="sxs-lookup"><span data-stu-id="f2a0e-106">Device-Specific Command Sets</span></span>
+# <a name="device-specific-command-sets"></a><span data-ttu-id="ee531-106">Device-Specific 命令集</span><span class="sxs-lookup"><span data-stu-id="ee531-106">Device-Specific Command Sets</span></span>
 
-<span data-ttu-id="f2a0e-107">下列主題列出每種裝置類型所支援的命令：</span><span class="sxs-lookup"><span data-stu-id="f2a0e-107">The following topics list the commands supported by each device type:</span></span>
+<span data-ttu-id="ee531-107">下列主題列出每種裝置類型所支援的命令：</span><span class="sxs-lookup"><span data-stu-id="ee531-107">The following topics list the commands supported by each device type:</span></span>
 
--   [<span data-ttu-id="f2a0e-108">CD 音訊命令集</span><span class="sxs-lookup"><span data-stu-id="f2a0e-108">CD Audio Command Set</span></span>](cd-audio-command-set.md)
--   [<span data-ttu-id="f2a0e-109">數位影片命令集</span><span class="sxs-lookup"><span data-stu-id="f2a0e-109">Digital-Video Command Set</span></span>](digital-video-command-set.md)
--   [<span data-ttu-id="f2a0e-110">MIDI Sequencer 命令集</span><span class="sxs-lookup"><span data-stu-id="f2a0e-110">MIDI Sequencer Command Set</span></span>](midi-sequencer-command-set.md)
--   [<span data-ttu-id="f2a0e-111">VCR 命令集</span><span class="sxs-lookup"><span data-stu-id="f2a0e-111">VCR Command Set</span></span>](vcr-command-set.md)
--   [<span data-ttu-id="f2a0e-112">Videodisc 命令集</span><span class="sxs-lookup"><span data-stu-id="f2a0e-112">Videodisc Command Set</span></span>](videodisc-command-set.md)
--   [<span data-ttu-id="f2a0e-113">影片-覆蓋命令集</span><span class="sxs-lookup"><span data-stu-id="f2a0e-113">Video-Overlay Command Set</span></span>](video-overlay-command-set.md)
--   [<span data-ttu-id="f2a0e-114">波形-音訊命令集</span><span class="sxs-lookup"><span data-stu-id="f2a0e-114">Waveform-Audio Command Set</span></span>](waveform-audio-command-set.md)
+-   [<span data-ttu-id="ee531-108">CD 音訊命令集</span><span class="sxs-lookup"><span data-stu-id="ee531-108">CD Audio Command Set</span></span>](cd-audio-command-set.md)
+-   [<span data-ttu-id="ee531-109">數位影片命令集</span><span class="sxs-lookup"><span data-stu-id="ee531-109">Digital-Video Command Set</span></span>](digital-video-command-set.md)
+-   [<span data-ttu-id="ee531-110">MIDI Sequencer 命令集</span><span class="sxs-lookup"><span data-stu-id="ee531-110">MIDI Sequencer Command Set</span></span>](midi-sequencer-command-set.md)
+-   [<span data-ttu-id="ee531-111">VCR 命令集</span><span class="sxs-lookup"><span data-stu-id="ee531-111">VCR Command Set</span></span>](vcr-command-set.md)
+-   [<span data-ttu-id="ee531-112">Videodisc 命令集</span><span class="sxs-lookup"><span data-stu-id="ee531-112">Videodisc Command Set</span></span>](videodisc-command-set.md)
+-   [<span data-ttu-id="ee531-113">影片-覆蓋命令集</span><span class="sxs-lookup"><span data-stu-id="ee531-113">Video-Overlay Command Set</span></span>](video-overlay-command-set.md)
+-   [<span data-ttu-id="ee531-114">波形-音訊命令集</span><span class="sxs-lookup"><span data-stu-id="ee531-114">Waveform-Audio Command Set</span></span>](waveform-audio-command-set.md)
 
  
 

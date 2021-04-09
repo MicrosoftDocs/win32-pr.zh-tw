@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932131"
 ---
-# <a name="cc-code-example-creating-a-task-using-newworkitem"></a><span data-ttu-id="a3ae6-103">C/c + + 程式碼範例：使用 NewWorkItem 建立工作</span><span class="sxs-lookup"><span data-stu-id="a3ae6-103">C/C++ Code Example: Creating a Task Using NewWorkItem</span></span>
+# <a name="cc-code-example-creating-a-task-using-newworkitem"></a><span data-ttu-id="382a6-103">C/c + + 程式碼範例：使用 NewWorkItem 建立工作</span><span class="sxs-lookup"><span data-stu-id="382a6-103">C/C++ Code Example: Creating a Task Using NewWorkItem</span></span>
 
-<span data-ttu-id="a3ae6-104">這個範例會建立單一工作。</span><span class="sxs-lookup"><span data-stu-id="a3ae6-104">This example creates a single task.</span></span>
+<span data-ttu-id="382a6-104">這個範例會建立單一工作。</span><span class="sxs-lookup"><span data-stu-id="382a6-104">This example creates a single task.</span></span>
 
 
 ```C++
@@ -118,11 +118,11 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="a3ae6-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="a3ae6-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="382a6-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="382a6-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a3ae6-106">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="a3ae6-106">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
+[<span data-ttu-id="382a6-106">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="382a6-106">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
  
