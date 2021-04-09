@@ -21,13 +21,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932347"
 ---
-# <a name="selecting-items-for-ripping"></a><span data-ttu-id="e4e9a-112">選取要進行翻錄的專案</span><span class="sxs-lookup"><span data-stu-id="e4e9a-112">Selecting Items for Ripping</span></span>
+# <a name="selecting-items-for-ripping"></a><span data-ttu-id="71395-112">選取要進行翻錄的專案</span><span class="sxs-lookup"><span data-stu-id="71395-112">Selecting Items for Ripping</span></span>
 
-<span data-ttu-id="e4e9a-113">有時候使用者不會想要在 CD 上翻錄每個曲目。</span><span class="sxs-lookup"><span data-stu-id="e4e9a-113">Sometimes a user does not want to rip every track on a CD.</span></span> <span data-ttu-id="e4e9a-114">Windows Media Player 提供介面來指定要針對翻錄選取的追蹤。</span><span class="sxs-lookup"><span data-stu-id="e4e9a-114">Windows Media Player provides an interface for specifying which tracks are selected for ripping.</span></span> <span data-ttu-id="e4e9a-115">通常在 CD 翻錄應用程式中有一個使用者介面，可讓使用者在 CD 的曲目清單中選取核取方塊。</span><span class="sxs-lookup"><span data-stu-id="e4e9a-115">Typically in a CD ripping application there is a user interface that lets the user select check boxes in a list of tracks on the CD.</span></span>
+<span data-ttu-id="71395-113">有時候使用者不會想要在 CD 上翻錄每個曲目。</span><span class="sxs-lookup"><span data-stu-id="71395-113">Sometimes a user does not want to rip every track on a CD.</span></span> <span data-ttu-id="71395-114">Windows Media Player 提供介面來指定要針對翻錄選取的追蹤。</span><span class="sxs-lookup"><span data-stu-id="71395-114">Windows Media Player provides an interface for specifying which tracks are selected for ripping.</span></span> <span data-ttu-id="71395-115">通常在 CD 翻錄應用程式中有一個使用者介面，可讓使用者在 CD 的曲目清單中選取核取方塊。</span><span class="sxs-lookup"><span data-stu-id="71395-115">Typically in a CD ripping application there is a user interface that lets the user select check boxes in a list of tracks on the CD.</span></span>
 
-<span data-ttu-id="e4e9a-116">預設可能不會針對翻錄選取某些曲目。</span><span class="sxs-lookup"><span data-stu-id="e4e9a-116">Some tracks might not be selected for ripping by default.</span></span> <span data-ttu-id="e4e9a-117">如果 Windows Media Player 程式庫中已經有一個曲目，它就不會自動選取以進行翻錄。</span><span class="sxs-lookup"><span data-stu-id="e4e9a-117">If a track is already in the Windows Media Player library, it will not be automatically selected for ripping.</span></span> <span data-ttu-id="e4e9a-118">本節中的第二個程式碼範例會示範如何略過預設值，並在已翻錄的情況下手動選取要進行翻錄的播放軌。</span><span class="sxs-lookup"><span data-stu-id="e4e9a-118">The second code example in this section demonstrates how to bypass the default value and manually select a track for ripping if it has already been ripped.</span></span>
+<span data-ttu-id="71395-116">預設可能不會針對翻錄選取某些曲目。</span><span class="sxs-lookup"><span data-stu-id="71395-116">Some tracks might not be selected for ripping by default.</span></span> <span data-ttu-id="71395-117">如果 Windows Media Player 程式庫中已經有一個曲目，它就不會自動選取以進行翻錄。</span><span class="sxs-lookup"><span data-stu-id="71395-117">If a track is already in the Windows Media Player library, it will not be automatically selected for ripping.</span></span> <span data-ttu-id="71395-118">本節中的第二個程式碼範例會示範如何略過預設值，並在已翻錄的情況下手動選取要進行翻錄的播放軌。</span><span class="sxs-lookup"><span data-stu-id="71395-118">The second code example in this section demonstrates how to bypass the default value and manually select a track for ripping if it has already been ripped.</span></span>
 
-<span data-ttu-id="e4e9a-119">下列程式碼範例示範如何判斷是否已選取要進行翻錄的追蹤：</span><span class="sxs-lookup"><span data-stu-id="e4e9a-119">The following code example demonstrates how to determine whether a track is selected for ripping:</span></span>
+<span data-ttu-id="71395-119">下列程式碼範例示範如何判斷是否已選取要進行翻錄的追蹤：</span><span class="sxs-lookup"><span data-stu-id="71395-119">The following code example demonstrates how to determine whether a track is selected for ripping:</span></span>
 
 
 ```C++
@@ -71,7 +71,7 @@ HRESULT CMainDlg::IsTrackSelected(long lIndex, bool &bSelected)
 
 
 
-<span data-ttu-id="e4e9a-120">下列程式碼範例示範如何指定是否已選取要進行翻錄的追蹤。</span><span class="sxs-lookup"><span data-stu-id="e4e9a-120">The following code example demonstrates how to specify whether a track is selected for ripping.</span></span>
+<span data-ttu-id="71395-120">下列程式碼範例示範如何指定是否已選取要進行翻錄的追蹤。</span><span class="sxs-lookup"><span data-stu-id="71395-120">The following code example demonstrates how to specify whether a track is selected for ripping.</span></span>
 
 
 ```C++
@@ -115,20 +115,20 @@ HRESULT CMainDlg::SelectTrack (long lIndex, bool bSelected)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="e4e9a-121">相關主題</span><span class="sxs-lookup"><span data-stu-id="e4e9a-121">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="71395-121">相關主題</span><span class="sxs-lookup"><span data-stu-id="71395-121">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e4e9a-122">**將 CD 翻錄**</span><span class="sxs-lookup"><span data-stu-id="e4e9a-122">**Ripping a CD**</span></span>](ripping-a-cd.md)
+[<span data-ttu-id="71395-122">**將 CD 翻錄**</span><span class="sxs-lookup"><span data-stu-id="71395-122">**Ripping a CD**</span></span>](ripping-a-cd.md)
 </dt> <dt>
 
-[<span data-ttu-id="e4e9a-123">**擷取轉錄介面**</span><span class="sxs-lookup"><span data-stu-id="e4e9a-123">**Retrieving the Ripping Interface**</span></span>](retrieving-the-ripping-interface.md)
+[<span data-ttu-id="71395-123">**擷取轉錄介面**</span><span class="sxs-lookup"><span data-stu-id="71395-123">**Retrieving the Ripping Interface**</span></span>](retrieving-the-ripping-interface.md)
 </dt> <dt>
 
-[<span data-ttu-id="e4e9a-124">**啟動 Rip 進程**</span><span class="sxs-lookup"><span data-stu-id="e4e9a-124">**Starting the Rip Process**</span></span>](starting-the-rip-process.md)
+[<span data-ttu-id="71395-124">**啟動 Rip 進程**</span><span class="sxs-lookup"><span data-stu-id="71395-124">**Starting the Rip Process**</span></span>](starting-the-rip-process.md)
 </dt> <dt>
 
-[<span data-ttu-id="e4e9a-125">**正在抓取 Rip 狀態**</span><span class="sxs-lookup"><span data-stu-id="e4e9a-125">**Retrieving the Rip Status**</span></span>](retrieving-the-rip-status.md)
+[<span data-ttu-id="71395-125">**正在抓取 Rip 狀態**</span><span class="sxs-lookup"><span data-stu-id="71395-125">**Retrieving the Rip Status**</span></span>](retrieving-the-rip-status.md)
 </dt> </dl>
 
  

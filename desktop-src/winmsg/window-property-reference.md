@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945153"
 ---
-# <a name="window-property-reference"></a><span data-ttu-id="97dde-103">視窗屬性參考</span><span class="sxs-lookup"><span data-stu-id="97dde-103">Window Property Reference</span></span>
+# <a name="window-property-reference"></a><span data-ttu-id="f5303-103">視窗屬性參考</span><span class="sxs-lookup"><span data-stu-id="f5303-103">Window Property Reference</span></span>
 
--   [<span data-ttu-id="97dde-104">視窗屬性函式</span><span class="sxs-lookup"><span data-stu-id="97dde-104">Window Property Functions</span></span>](window-property-functions.md)
+-   [<span data-ttu-id="f5303-104">視窗屬性函式</span><span class="sxs-lookup"><span data-stu-id="f5303-104">Window Property Functions</span></span>](window-property-functions.md)
 
  
 

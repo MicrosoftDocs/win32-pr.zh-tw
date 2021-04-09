@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932330"
 ---
-# <a name="verifying-the-output-device"></a><span data-ttu-id="e5764-104">驗證輸出裝置</span><span class="sxs-lookup"><span data-stu-id="e5764-104">Verifying the Output Device</span></span>
+# <a name="verifying-the-output-device"></a><span data-ttu-id="4a049-104">驗證輸出裝置</span><span class="sxs-lookup"><span data-stu-id="4a049-104">Verifying the Output Device</span></span>
 
-<span data-ttu-id="e5764-105">開啟排序器之後，您應該檢查是否有可使用的 MIDI 對應工具，並將其選取為輸出裝置。</span><span class="sxs-lookup"><span data-stu-id="e5764-105">After opening the sequencer, you should check whether the MIDI mapper was available and selected as the output device.</span></span> <span data-ttu-id="e5764-106">下列範例會使用 [**mci \_ STATUS**](mci-status.md) 命令，確認 MIDI 對應程式是 MCI sequencer 的輸出裝置。</span><span class="sxs-lookup"><span data-stu-id="e5764-106">The following example uses the [**MCI\_ STATUS**](mci-status.md) command to verify that the MIDI mapper is the output device for the MCI sequencer.</span></span>
+<span data-ttu-id="4a049-105">開啟排序器之後，您應該檢查是否有可使用的 MIDI 對應工具，並將其選取為輸出裝置。</span><span class="sxs-lookup"><span data-stu-id="4a049-105">After opening the sequencer, you should check whether the MIDI mapper was available and selected as the output device.</span></span> <span data-ttu-id="4a049-106">下列範例會使用 [**mci \_ STATUS**](mci-status.md) 命令，確認 MIDI 對應程式是 MCI sequencer 的輸出裝置。</span><span class="sxs-lookup"><span data-stu-id="4a049-106">The following example uses the [**MCI\_ STATUS**](mci-status.md) command to verify that the MIDI mapper is the output device for the MCI sequencer.</span></span>
 
 
 ```C++

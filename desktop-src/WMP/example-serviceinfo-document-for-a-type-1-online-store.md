@@ -23,9 +23,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674523"
 ---
-# <a name="example-serviceinfo-document-for-a-type-1-online-store"></a><span data-ttu-id="b68ec-114">類型1線上商店的範例 ServiceInfo 檔</span><span class="sxs-lookup"><span data-stu-id="b68ec-114">Example ServiceInfo Document for a Type 1 Online Store</span></span>
+# <a name="example-serviceinfo-document-for-a-type-1-online-store"></a><span data-ttu-id="ed4dd-114">類型1線上商店的範例 ServiceInfo 檔</span><span class="sxs-lookup"><span data-stu-id="ed4dd-114">Example ServiceInfo Document for a Type 1 Online Store</span></span>
 
-<span data-ttu-id="b68ec-115">下列程式碼範例顯示完整的 ServiceInfo.xml 檔。</span><span class="sxs-lookup"><span data-stu-id="b68ec-115">The following code example shows a complete ServiceInfo.xml document.</span></span> <span data-ttu-id="b68ec-116">您可以使用這個 XML 做為您自己的 ServiceInfo 檔的起點。</span><span class="sxs-lookup"><span data-stu-id="b68ec-116">You can use this XML as a starting point for your own ServiceInfo document.</span></span>
+<span data-ttu-id="ed4dd-115">下列程式碼範例顯示完整的 ServiceInfo.xml 檔。</span><span class="sxs-lookup"><span data-stu-id="ed4dd-115">The following code example shows a complete ServiceInfo.xml document.</span></span> <span data-ttu-id="ed4dd-116">您可以使用這個 XML 做為您自己的 ServiceInfo 檔的起點。</span><span class="sxs-lookup"><span data-stu-id="ed4dd-116">You can use this XML as a starting point for your own ServiceInfo document.</span></span>
 
 
 ```C++
@@ -87,17 +87,17 @@ ms.locfileid: "103674523"
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="b68ec-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="b68ec-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ed4dd-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="ed4dd-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b68ec-118">**類型1線上商店的程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="b68ec-118">**Programming Guide for Type 1 Online Stores**</span></span>](programming-guide-for-type-1-online-stores.md)
+[<span data-ttu-id="ed4dd-118">**類型1線上商店的程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="ed4dd-118">**Programming Guide for Type 1 Online Stores**</span></span>](programming-guide-for-type-1-online-stores.md)
 </dt> <dt>
 
-[<span data-ttu-id="b68ec-119">**類型1線上商店的 ServiceInfo 檔**</span><span class="sxs-lookup"><span data-stu-id="b68ec-119">**ServiceInfo Document for a Type 1 Online Store**</span></span>](serviceinfo-document-for-a-type-1-online-store.md)
+[<span data-ttu-id="ed4dd-119">**類型1線上商店的 ServiceInfo 檔**</span><span class="sxs-lookup"><span data-stu-id="ed4dd-119">**ServiceInfo Document for a Type 1 Online Store**</span></span>](serviceinfo-document-for-a-type-1-online-store.md)
 </dt> <dt>
 
-[<span data-ttu-id="b68ec-120">**ServiceInfo 檔**</span><span class="sxs-lookup"><span data-stu-id="b68ec-120">**ServiceInfo Document**</span></span>](serviceinfo-document.md)
+[<span data-ttu-id="ed4dd-120">**ServiceInfo 檔**</span><span class="sxs-lookup"><span data-stu-id="ed4dd-120">**ServiceInfo Document**</span></span>](serviceinfo-document.md)
 </dt> </dl>
 
  

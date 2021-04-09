@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695140"
 ---
-# <a name="apijetrenamecolumn-method"></a><span data-ttu-id="3a3a8-103">JetRenameColumn 方法</span><span class="sxs-lookup"><span data-stu-id="3a3a8-103">Api.JetRenameColumn method</span></span>
+# <a name="apijetrenamecolumn-method"></a><span data-ttu-id="db188-103">JetRenameColumn 方法</span><span class="sxs-lookup"><span data-stu-id="db188-103">Api.JetRenameColumn method</span></span>
 
-<span data-ttu-id="3a3a8-104">變更現有資料行的名稱。</span><span class="sxs-lookup"><span data-stu-id="3a3a8-104">Changes the name of an existing column.</span></span>
+<span data-ttu-id="db188-104">變更現有資料行的名稱。</span><span class="sxs-lookup"><span data-stu-id="db188-104">Changes the name of an existing column.</span></span>
 
-<span data-ttu-id="3a3a8-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="3a3a8-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="3a3a8-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="3a3a8-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="db188-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="db188-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="db188-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="db188-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3a3a8-107">語法</span><span class="sxs-lookup"><span data-stu-id="3a3a8-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="db188-107">語法</span><span class="sxs-lookup"><span data-stu-id="db188-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -68,47 +68,47 @@ public static void JetRenameColumn(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="3a3a8-108">參數</span><span class="sxs-lookup"><span data-stu-id="3a3a8-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="db188-108">參數</span><span class="sxs-lookup"><span data-stu-id="db188-108">Parameters</span></span>
 
-  - <span data-ttu-id="3a3a8-109">sesid</span><span class="sxs-lookup"><span data-stu-id="3a3a8-109">sesid</span></span>  
-    <span data-ttu-id="3a3a8-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="3a3a8-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="db188-109">sesid</span><span class="sxs-lookup"><span data-stu-id="db188-109">sesid</span></span>  
+    <span data-ttu-id="db188-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="db188-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="3a3a8-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="3a3a8-111">The session to use.</span></span>
+    <span data-ttu-id="db188-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="db188-111">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="3a3a8-112">tableid</span><span class="sxs-lookup"><span data-stu-id="3a3a8-112">tableid</span></span>  
-    <span data-ttu-id="3a3a8-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="3a3a8-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="db188-112">tableid</span><span class="sxs-lookup"><span data-stu-id="db188-112">tableid</span></span>  
+    <span data-ttu-id="db188-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="db188-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="3a3a8-114">包含資料行的資料表。</span><span class="sxs-lookup"><span data-stu-id="3a3a8-114">The table containing the column.</span></span>
+    <span data-ttu-id="db188-114">包含資料行的資料表。</span><span class="sxs-lookup"><span data-stu-id="db188-114">The table containing the column.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="3a3a8-115">NAME</span><span class="sxs-lookup"><span data-stu-id="3a3a8-115">name</span></span>  
-    <span data-ttu-id="3a3a8-116">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="3a3a8-116">Type: [System.String](/dotnet/api/system.string)</span></span>  
+  - <span data-ttu-id="db188-115">NAME</span><span class="sxs-lookup"><span data-stu-id="db188-115">name</span></span>  
+    <span data-ttu-id="db188-116">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="db188-116">Type: [System.String](/dotnet/api/system.string)</span></span>  
     
-    <span data-ttu-id="3a3a8-117">資料行名稱。</span><span class="sxs-lookup"><span data-stu-id="3a3a8-117">The name of the column.</span></span>
+    <span data-ttu-id="db188-117">資料行名稱。</span><span class="sxs-lookup"><span data-stu-id="db188-117">The name of the column.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="3a3a8-118">newName</span><span class="sxs-lookup"><span data-stu-id="3a3a8-118">newName</span></span>  
-    <span data-ttu-id="3a3a8-119">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="3a3a8-119">Type: [System.String](/dotnet/api/system.string)</span></span>  
+  - <span data-ttu-id="db188-118">newName</span><span class="sxs-lookup"><span data-stu-id="db188-118">newName</span></span>  
+    <span data-ttu-id="db188-119">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="db188-119">Type: [System.String](/dotnet/api/system.string)</span></span>  
     
-    <span data-ttu-id="3a3a8-120">資料行的新名稱。</span><span class="sxs-lookup"><span data-stu-id="3a3a8-120">The new name of the column.</span></span>
+    <span data-ttu-id="db188-120">資料行的新名稱。</span><span class="sxs-lookup"><span data-stu-id="db188-120">The new name of the column.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="3a3a8-121">grbit</span><span class="sxs-lookup"><span data-stu-id="3a3a8-121">grbit</span></span>  
-    <span data-ttu-id="3a3a8-122">型別： [RenameColumnGrbit](./renamecolumngrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="3a3a8-122">Type: [Microsoft.Isam.Esent.Interop.RenameColumnGrbit](./renamecolumngrbit-enumeration.md)</span></span>  
+  - <span data-ttu-id="db188-121">grbit</span><span class="sxs-lookup"><span data-stu-id="db188-121">grbit</span></span>  
+    <span data-ttu-id="db188-122">型別： [RenameColumnGrbit](./renamecolumngrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="db188-122">Type: [Microsoft.Isam.Esent.Interop.RenameColumnGrbit](./renamecolumngrbit-enumeration.md)</span></span>  
     
-    <span data-ttu-id="3a3a8-123">資料行重新命名選項。</span><span class="sxs-lookup"><span data-stu-id="3a3a8-123">Column rename options.</span></span>
+    <span data-ttu-id="db188-123">資料行重新命名選項。</span><span class="sxs-lookup"><span data-stu-id="db188-123">Column rename options.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="3a3a8-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3a3a8-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="db188-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="db188-124">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="3a3a8-125">參考</span><span class="sxs-lookup"><span data-stu-id="3a3a8-125">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="db188-125">參考</span><span class="sxs-lookup"><span data-stu-id="db188-125">Reference</span></span>
 
-[<span data-ttu-id="3a3a8-126">Api 類別</span><span class="sxs-lookup"><span data-stu-id="3a3a8-126">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="db188-126">Api 類別</span><span class="sxs-lookup"><span data-stu-id="db188-126">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="3a3a8-127">Api 成員</span><span class="sxs-lookup"><span data-stu-id="3a3a8-127">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="db188-127">Api 成員</span><span class="sxs-lookup"><span data-stu-id="db188-127">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="3a3a8-128">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="3a3a8-128">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="db188-128">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="db188-128">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

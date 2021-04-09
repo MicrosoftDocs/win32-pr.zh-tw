@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674848"
 ---
-# <a name="uninstalling-a-provider"></a><span data-ttu-id="70a74-103">卸載提供者</span><span class="sxs-lookup"><span data-stu-id="70a74-103">Uninstalling a Provider</span></span>
+# <a name="uninstalling-a-provider"></a><span data-ttu-id="7f716-103">卸載提供者</span><span class="sxs-lookup"><span data-stu-id="7f716-103">Uninstalling a Provider</span></span>
 
-<span data-ttu-id="70a74-104">下列範例程式碼示範移除提供者安裝所需的程式。</span><span class="sxs-lookup"><span data-stu-id="70a74-104">The following sample code demonstrates the process required to remove a provider installation.</span></span>
+<span data-ttu-id="7f716-104">下列範例程式碼示範移除提供者安裝所需的程式。</span><span class="sxs-lookup"><span data-stu-id="7f716-104">The following sample code demonstrates the process required to remove a provider installation.</span></span>
 
 
 ```C++

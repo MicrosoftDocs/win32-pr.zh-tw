@@ -12,9 +12,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932079"
 ---
-# <a name="dvc-client-plug-in-example"></a><span data-ttu-id="fd9a8-103">DVC 用戶端外掛程式範例</span><span class="sxs-lookup"><span data-stu-id="fd9a8-103">DVC Client Plug-in Example</span></span>
+# <a name="dvc-client-plug-in-example"></a><span data-ttu-id="13392-103">DVC 用戶端外掛程式範例</span><span class="sxs-lookup"><span data-stu-id="13392-103">DVC Client Plug-in Example</span></span>
 
-<span data-ttu-id="fd9a8-104">下列 c + + 程式碼範例提供如何) 用戶端動態虛擬通道 (DVC) 外掛程式建立遠端桌面連線 (RDC 的範例。</span><span class="sxs-lookup"><span data-stu-id="fd9a8-104">The following C++ code sample provides an example of how to create a Remote Desktop Connection (RDC) client dynamic virtual channel (DVC) plug-in.</span></span>
+<span data-ttu-id="13392-104">下列 c + + 程式碼範例提供如何) 用戶端動態虛擬通道 (DVC) 外掛程式建立遠端桌面連線 (RDC 的範例。</span><span class="sxs-lookup"><span data-stu-id="13392-104">The following C++ code sample provides an example of how to create a Remote Desktop Connection (RDC) client dynamic virtual channel (DVC) plug-in.</span></span>
 
 
 ```C++

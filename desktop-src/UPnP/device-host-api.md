@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674968"
 ---
-# <a name="device-host-api"></a><span data-ttu-id="23c3f-104">裝置主機 API</span><span class="sxs-lookup"><span data-stu-id="23c3f-104">Device Host API</span></span>
+# <a name="device-host-api"></a><span data-ttu-id="4c33a-104">裝置主機 API</span><span class="sxs-lookup"><span data-stu-id="4c33a-104">Device Host API</span></span>
 
-<span data-ttu-id="23c3f-105">本檔會定義使用 UPnP™技術組成裝置主機 API 的 COM 物件和介面。</span><span class="sxs-lookup"><span data-stu-id="23c3f-105">This document defines the COM objects and interfaces that comprise the Device Host API with UPnP™ technology.</span></span> <span data-ttu-id="23c3f-106">它也會描述寫入此 API 的裝置必須執行的物件和介面。</span><span class="sxs-lookup"><span data-stu-id="23c3f-106">It also describes the objects and interfaces that a device written to this API must implement.</span></span>
+<span data-ttu-id="4c33a-105">本檔會定義使用 UPnP™技術組成裝置主機 API 的 COM 物件和介面。</span><span class="sxs-lookup"><span data-stu-id="4c33a-105">This document defines the COM objects and interfaces that comprise the Device Host API with UPnP™ technology.</span></span> <span data-ttu-id="4c33a-106">它也會描述寫入此 API 的裝置必須執行的物件和介面。</span><span class="sxs-lookup"><span data-stu-id="4c33a-106">It also describes the objects and interfaces that a device written to this API must implement.</span></span>
 
--   [<span data-ttu-id="23c3f-107">關於裝置主機 API</span><span class="sxs-lookup"><span data-stu-id="23c3f-107">About the Device Host API</span></span>](about-the-device-host-api-with-upnp-technology.md)
--   [<span data-ttu-id="23c3f-108">使用裝置主機 API</span><span class="sxs-lookup"><span data-stu-id="23c3f-108">Using the Device Host API</span></span>](using-the-device-host-api-with-upnp-technology.md)
--   [<span data-ttu-id="23c3f-109">裝置主機 API 參考</span><span class="sxs-lookup"><span data-stu-id="23c3f-109">Device Host API Reference</span></span>](device-host-api-with-upnp-technology-reference.md)
+-   [<span data-ttu-id="4c33a-107">關於裝置主機 API</span><span class="sxs-lookup"><span data-stu-id="4c33a-107">About the Device Host API</span></span>](about-the-device-host-api-with-upnp-technology.md)
+-   [<span data-ttu-id="4c33a-108">使用裝置主機 API</span><span class="sxs-lookup"><span data-stu-id="4c33a-108">Using the Device Host API</span></span>](using-the-device-host-api-with-upnp-technology.md)
+-   [<span data-ttu-id="4c33a-109">裝置主機 API 參考</span><span class="sxs-lookup"><span data-stu-id="4c33a-109">Device Host API Reference</span></span>](device-host-api-with-upnp-technology-reference.md)
 
  
 

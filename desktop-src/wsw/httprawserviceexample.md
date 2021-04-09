@@ -15,11 +15,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674364"
 ---
-# <a name="httprawserviceexample"></a><span data-ttu-id="07b23-106">HttpRawServiceExample</span><span class="sxs-lookup"><span data-stu-id="07b23-106">HttpRawServiceExample</span></span>
+# <a name="httprawserviceexample"></a><span data-ttu-id="f359c-106">HttpRawServiceExample</span><span class="sxs-lookup"><span data-stu-id="f359c-106">HttpRawServiceExample</span></span>
 
-<span data-ttu-id="07b23-107">此範例示範如何使用服務主機來處理原始 (非 SOAP) HTTP 要求。</span><span class="sxs-lookup"><span data-stu-id="07b23-107">This example shows how to use service host to handle raw (non-SOAP) HTTP requests.</span></span>
+<span data-ttu-id="f359c-107">此範例示範如何使用服務主機來處理原始 (非 SOAP) HTTP 要求。</span><span class="sxs-lookup"><span data-stu-id="f359c-107">This example shows how to use service host to handle raw (non-SOAP) HTTP requests.</span></span>
 
-## <a name="httprawservicecpp"></a><span data-ttu-id="07b23-108">HttpRawService .cpp</span><span class="sxs-lookup"><span data-stu-id="07b23-108">HttpRawService.cpp</span></span>
+## <a name="httprawservicecpp"></a><span data-ttu-id="f359c-108">HttpRawService .cpp</span><span class="sxs-lookup"><span data-stu-id="f359c-108">HttpRawService.cpp</span></span>
 
 
 ```C++

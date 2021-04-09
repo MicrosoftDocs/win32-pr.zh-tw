@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103931916"
 ---
-# <a name="ibackgroundcopyqmgr-methods"></a><span data-ttu-id="8daf7-103">IBackgroundCopyQMgr 方法</span><span class="sxs-lookup"><span data-stu-id="8daf7-103">IBackgroundCopyQMgr Methods</span></span>
+# <a name="ibackgroundcopyqmgr-methods"></a><span data-ttu-id="b2c85-103">IBackgroundCopyQMgr 方法</span><span class="sxs-lookup"><span data-stu-id="b2c85-103">IBackgroundCopyQMgr Methods</span></span>
 
-<span data-ttu-id="8daf7-104">[**IBackgroundCopyQMgr**](/windows/desktop/api/Qmgr/nn-qmgr-ibackgroundcopyqmgr)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="8daf7-104">The [**IBackgroundCopyQMgr**](/windows/desktop/api/Qmgr/nn-qmgr-ibackgroundcopyqmgr) interface exposes the following methods.</span></span>
+<span data-ttu-id="b2c85-104">[**IBackgroundCopyQMgr**](/windows/desktop/api/Qmgr/nn-qmgr-ibackgroundcopyqmgr)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="b2c85-104">The [**IBackgroundCopyQMgr**](/windows/desktop/api/Qmgr/nn-qmgr-ibackgroundcopyqmgr) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="8daf7-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="8daf7-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b2c85-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b2c85-105">In this section</span></span>
 
--   [<span data-ttu-id="8daf7-106">**CreateGroup 方法**</span><span class="sxs-lookup"><span data-stu-id="8daf7-106">**CreateGroup Method**</span></span>](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopyqmgr-creategroup)
--   [<span data-ttu-id="8daf7-107">**EnumGroups 方法**</span><span class="sxs-lookup"><span data-stu-id="8daf7-107">**EnumGroups Method**</span></span>](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopyqmgr-enumgroups)
--   [<span data-ttu-id="8daf7-108">**GetGroup 方法**</span><span class="sxs-lookup"><span data-stu-id="8daf7-108">**GetGroup Method**</span></span>](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopyqmgr-getgroup)
+-   [<span data-ttu-id="b2c85-106">**CreateGroup 方法**</span><span class="sxs-lookup"><span data-stu-id="b2c85-106">**CreateGroup Method**</span></span>](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopyqmgr-creategroup)
+-   [<span data-ttu-id="b2c85-107">**EnumGroups 方法**</span><span class="sxs-lookup"><span data-stu-id="b2c85-107">**EnumGroups Method**</span></span>](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopyqmgr-enumgroups)
+-   [<span data-ttu-id="b2c85-108">**GetGroup 方法**</span><span class="sxs-lookup"><span data-stu-id="b2c85-108">**GetGroup Method**</span></span>](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopyqmgr-getgroup)
 
  
 

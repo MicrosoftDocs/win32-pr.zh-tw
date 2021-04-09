@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850548"
 ---
-# <a name="ix509publickey-methods"></a><span data-ttu-id="8e77c-103">IX509PublicKey 方法</span><span class="sxs-lookup"><span data-stu-id="8e77c-103">IX509PublicKey Methods</span></span>
+# <a name="ix509publickey-methods"></a><span data-ttu-id="35ae8-103">IX509PublicKey 方法</span><span class="sxs-lookup"><span data-stu-id="35ae8-103">IX509PublicKey Methods</span></span>
 
-<span data-ttu-id="8e77c-104">[**IX509PublicKey**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509publickey)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="8e77c-104">The [**IX509PublicKey**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509publickey) interface exposes the following methods.</span></span>
+<span data-ttu-id="35ae8-104">[**IX509PublicKey**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509publickey)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="35ae8-104">The [**IX509PublicKey**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509publickey) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="8e77c-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="8e77c-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="35ae8-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="35ae8-105">In this section</span></span>
 
--   [<span data-ttu-id="8e77c-106">**ComputeKeyIdentifier 方法**</span><span class="sxs-lookup"><span data-stu-id="8e77c-106">**ComputeKeyIdentifier Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-computekeyidentifier)
--   [<span data-ttu-id="8e77c-107">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="8e77c-107">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-initialize)
--   [<span data-ttu-id="8e77c-108">**InitializeFromEncodedPublicKeyInfo 方法**</span><span class="sxs-lookup"><span data-stu-id="8e77c-108">**InitializeFromEncodedPublicKeyInfo Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-initializefromencodedpublickeyinfo)
+-   [<span data-ttu-id="35ae8-106">**ComputeKeyIdentifier 方法**</span><span class="sxs-lookup"><span data-stu-id="35ae8-106">**ComputeKeyIdentifier Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-computekeyidentifier)
+-   [<span data-ttu-id="35ae8-107">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="35ae8-107">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-initialize)
+-   [<span data-ttu-id="35ae8-108">**InitializeFromEncodedPublicKeyInfo 方法**</span><span class="sxs-lookup"><span data-stu-id="35ae8-108">**InitializeFromEncodedPublicKeyInfo Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-initializefromencodedpublickeyinfo)
 
  
 

@@ -27,14 +27,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695456"
 ---
-# <a name="jet_logtimeequals-method-jet_logtime"></a><span data-ttu-id="875fd-103">JET_LOGTIME。Equals 方法 (JET_LOGTIME) </span><span class="sxs-lookup"><span data-stu-id="875fd-103">JET_LOGTIME.Equals method (JET_LOGTIME)</span></span>
+# <a name="jet_logtimeequals-method-jet_logtime"></a><span data-ttu-id="903f4-103">JET_LOGTIME。Equals 方法 (JET_LOGTIME) </span><span class="sxs-lookup"><span data-stu-id="903f4-103">JET_LOGTIME.Equals method (JET_LOGTIME)</span></span>
 
-<span data-ttu-id="875fd-104">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="875fd-104">Returns a value indicating whether this instance is equal to another instance.</span></span>
+<span data-ttu-id="903f4-104">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="903f4-104">Returns a value indicating whether this instance is equal to another instance.</span></span>
 
-<span data-ttu-id="875fd-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="875fd-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="875fd-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="875fd-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="903f4-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="903f4-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="903f4-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="903f4-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="875fd-107">語法</span><span class="sxs-lookup"><span data-stu-id="875fd-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="903f4-107">語法</span><span class="sxs-lookup"><span data-stu-id="903f4-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -55,30 +55,30 @@ public bool Equals(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="875fd-108">參數</span><span class="sxs-lookup"><span data-stu-id="875fd-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="903f4-108">參數</span><span class="sxs-lookup"><span data-stu-id="903f4-108">Parameters</span></span>
 
-  - <span data-ttu-id="875fd-109">其他</span><span class="sxs-lookup"><span data-stu-id="875fd-109">other</span></span>  
-    <span data-ttu-id="875fd-110">類型： [Microsoft.Isam.Esent.Interop.JET_LOGTIME](./jet-logtime-structure2.md)</span><span class="sxs-lookup"><span data-stu-id="875fd-110">Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](./jet-logtime-structure2.md)</span></span>  
+  - <span data-ttu-id="903f4-109">其他</span><span class="sxs-lookup"><span data-stu-id="903f4-109">other</span></span>  
+    <span data-ttu-id="903f4-110">類型： [Microsoft.Isam.Esent.Interop.JET_LOGTIME](./jet-logtime-structure2.md)</span><span class="sxs-lookup"><span data-stu-id="903f4-110">Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](./jet-logtime-structure2.md)</span></span>  
     
-    <span data-ttu-id="875fd-111">要與這個實例比較的實例。</span><span class="sxs-lookup"><span data-stu-id="875fd-111">An instance to compare with this instance.</span></span>
+    <span data-ttu-id="903f4-111">要與這個實例比較的實例。</span><span class="sxs-lookup"><span data-stu-id="903f4-111">An instance to compare with this instance.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="875fd-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="875fd-112">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="903f4-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="903f4-112">Return value</span></span>
 
-<span data-ttu-id="875fd-113">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="875fd-113">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
-<span data-ttu-id="875fd-114">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="875fd-114">True if the two instances are equal.</span></span>  
+<span data-ttu-id="903f4-113">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="903f4-113">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
+<span data-ttu-id="903f4-114">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="903f4-114">True if the two instances are equal.</span></span>  
 
-#### <a name="implements"></a><span data-ttu-id="875fd-115">實作</span><span class="sxs-lookup"><span data-stu-id="875fd-115">Implements</span></span>
+#### <a name="implements"></a><span data-ttu-id="903f4-115">實作</span><span class="sxs-lookup"><span data-stu-id="903f4-115">Implements</span></span>
 
-[<span data-ttu-id="875fd-116">IEquatable \<T\> 。等於 (T) </span><span class="sxs-lookup"><span data-stu-id="875fd-116">IEquatable\<T\>.Equals(T)</span></span>](/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_)  
+[<span data-ttu-id="903f4-116">IEquatable \<T\> 。等於 (T) </span><span class="sxs-lookup"><span data-stu-id="903f4-116">IEquatable\<T\>.Equals(T)</span></span>](/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_)  
 
-## <a name="see-also"></a><span data-ttu-id="875fd-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="875fd-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="903f4-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="903f4-117">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="875fd-118">參考</span><span class="sxs-lookup"><span data-stu-id="875fd-118">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="903f4-118">參考</span><span class="sxs-lookup"><span data-stu-id="903f4-118">Reference</span></span>
 
-[<span data-ttu-id="875fd-119">JET_LOGTIME 結構</span><span class="sxs-lookup"><span data-stu-id="875fd-119">JET_LOGTIME structure</span></span>](./jet-logtime-structure2.md)
+[<span data-ttu-id="903f4-119">JET_LOGTIME 結構</span><span class="sxs-lookup"><span data-stu-id="903f4-119">JET_LOGTIME structure</span></span>](./jet-logtime-structure2.md)
 
-[<span data-ttu-id="875fd-120">JET_LOGTIME 成員</span><span class="sxs-lookup"><span data-stu-id="875fd-120">JET_LOGTIME members</span></span>](./jet-logtime-members.md)
+[<span data-ttu-id="903f4-120">JET_LOGTIME 成員</span><span class="sxs-lookup"><span data-stu-id="903f4-120">JET_LOGTIME members</span></span>](./jet-logtime-members.md)
 
-[<span data-ttu-id="875fd-121">等於多載</span><span class="sxs-lookup"><span data-stu-id="875fd-121">Equals overload</span></span>](./jet-logtime.equals-method.md)
+[<span data-ttu-id="903f4-121">等於多載</span><span class="sxs-lookup"><span data-stu-id="903f4-121">Equals overload</span></span>](./jet-logtime.equals-method.md)
 
-[<span data-ttu-id="875fd-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="875fd-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="903f4-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="903f4-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

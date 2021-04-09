@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932386"
 ---
-# <a name="shared-functions"></a><span data-ttu-id="4c237-103">共用函數</span><span class="sxs-lookup"><span data-stu-id="4c237-103">Shared Functions</span></span>
+# <a name="shared-functions"></a><span data-ttu-id="35571-103">共用函數</span><span class="sxs-lookup"><span data-stu-id="35571-103">Shared Functions</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="4c237-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="4c237-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="35571-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="35571-104">In this section</span></span>
 
--   [<span data-ttu-id="4c237-105">**FwpmFreeMemory0**</span><span class="sxs-lookup"><span data-stu-id="4c237-105">**FwpmFreeMemory0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfreememory0)
+-   [<span data-ttu-id="35571-105">**FwpmFreeMemory0**</span><span class="sxs-lookup"><span data-stu-id="35571-105">**FwpmFreeMemory0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfreememory0)
 
  
 

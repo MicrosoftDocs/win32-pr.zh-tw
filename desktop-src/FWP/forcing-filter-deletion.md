@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674560"
 ---
-# <a name="forcing-filter-deletion"></a><span data-ttu-id="20d8c-103">強制刪除篩選</span><span class="sxs-lookup"><span data-stu-id="20d8c-103">Forcing Filter Deletion</span></span>
+# <a name="forcing-filter-deletion"></a><span data-ttu-id="2ba46-103">強制刪除篩選</span><span class="sxs-lookup"><span data-stu-id="2ba46-103">Forcing Filter Deletion</span></span>
 
-<span data-ttu-id="20d8c-104">下列範例程式碼示範如何讓具有 TakeOwnership 許可權的使用者可以刪除篩選。</span><span class="sxs-lookup"><span data-stu-id="20d8c-104">The following sample code demonstrates how to make a user with the TakeOwnership privilege capable of deleting a filter.</span></span>
+<span data-ttu-id="2ba46-104">下列範例程式碼示範如何讓具有 TakeOwnership 許可權的使用者可以刪除篩選。</span><span class="sxs-lookup"><span data-stu-id="2ba46-104">The following sample code demonstrates how to make a user with the TakeOwnership privilege capable of deleting a filter.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="20d8c-105">在卸載期間，安裝應用程式可能會使用這項功能，以確保所有物件都已成功刪除。</span><span class="sxs-lookup"><span data-stu-id="20d8c-105">A setup application might use this feature during an uninstall to ensure that all objects are successfully deleted.</span></span>
+> <span data-ttu-id="2ba46-105">在卸載期間，安裝應用程式可能會使用這項功能，以確保所有物件都已成功刪除。</span><span class="sxs-lookup"><span data-stu-id="2ba46-105">A setup application might use this feature during an uninstall to ensure that all objects are successfully deleted.</span></span>
 
  
 

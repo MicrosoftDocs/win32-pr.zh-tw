@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932219"
 ---
-# <a name="multiple-annotations-on-a-single-accessible-element"></a><span data-ttu-id="9175b-104">單一可存取元素上的多個注釋</span><span class="sxs-lookup"><span data-stu-id="9175b-104">Multiple Annotations on a Single Accessible Element</span></span>
+# <a name="multiple-annotations-on-a-single-accessible-element"></a><span data-ttu-id="319f6-104">單一可存取元素上的多個注釋</span><span class="sxs-lookup"><span data-stu-id="319f6-104">Multiple Annotations on a Single Accessible Element</span></span>
 
-<span data-ttu-id="9175b-105">目前可存取的專案每個屬性只支援一個注釋。</span><span class="sxs-lookup"><span data-stu-id="9175b-105">Currently an accessible element supports only one annotation per property.</span></span> <span data-ttu-id="9175b-106">屬性的後續批註會取代並覆寫該屬性的先前批註。</span><span class="sxs-lookup"><span data-stu-id="9175b-106">Successive annotations on a property replace and override earlier annotations of that property.</span></span>
+<span data-ttu-id="319f6-105">目前可存取的專案每個屬性只支援一個注釋。</span><span class="sxs-lookup"><span data-stu-id="319f6-105">Currently an accessible element supports only one annotation per property.</span></span> <span data-ttu-id="319f6-106">屬性的後續批註會取代並覆寫該屬性的先前批註。</span><span class="sxs-lookup"><span data-stu-id="319f6-106">Successive annotations on a property replace and override earlier annotations of that property.</span></span>
 
  
 

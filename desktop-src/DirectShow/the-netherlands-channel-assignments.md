@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851372"
 ---
-# <a name="the-netherlands-channel-assignments"></a><span data-ttu-id="5ddec-103">荷蘭通道指派</span><span class="sxs-lookup"><span data-stu-id="5ddec-103">The Netherlands Channel Assignments</span></span>
+# <a name="the-netherlands-channel-assignments"></a><span data-ttu-id="d5658-103">荷蘭通道指派</span><span class="sxs-lookup"><span data-stu-id="d5658-103">The Netherlands Channel Assignments</span></span>
 
-<span data-ttu-id="5ddec-104">本主題列出用於荷蘭的類比電視微調的頻率資料表。</span><span class="sxs-lookup"><span data-stu-id="5ddec-104">This topic lists the frequency tables used for analog TV tuning for the Netherlands.</span></span>
+<span data-ttu-id="d5658-104">本主題列出用於荷蘭的類比電視微調的頻率資料表。</span><span class="sxs-lookup"><span data-stu-id="d5658-104">This topic lists the frequency tables used for analog TV tuning for the Netherlands.</span></span>
 
-<span data-ttu-id="5ddec-105">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="5ddec-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="d5658-105">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="d5658-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="5ddec-106">在 Windows 7 中引進了下列通道指派。</span><span class="sxs-lookup"><span data-stu-id="5ddec-106">The following channel assignments were introduced in Windows 7.</span></span> <span data-ttu-id="5ddec-107">先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。</span><span class="sxs-lookup"><span data-stu-id="5ddec-107">Previously, the [Unicable Frequency Table](unicable-frequency-table.md) was used.</span></span>
+<span data-ttu-id="d5658-106">在 Windows 7 中引進了下列通道指派。</span><span class="sxs-lookup"><span data-stu-id="d5658-106">The following channel assignments were introduced in Windows 7.</span></span> <span data-ttu-id="d5658-107">先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。</span><span class="sxs-lookup"><span data-stu-id="d5658-107">Previously, the [Unicable Frequency Table](unicable-frequency-table.md) was used.</span></span>
 
-## <a name="cable-assignments"></a><span data-ttu-id="5ddec-108">纜線指派</span><span class="sxs-lookup"><span data-stu-id="5ddec-108">Cable Assignments</span></span>
+## <a name="cable-assignments"></a><span data-ttu-id="d5658-108">纜線指派</span><span class="sxs-lookup"><span data-stu-id="d5658-108">Cable Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -518,11 +518,11 @@ ms.locfileid: "103851372"
        376000000L,      // 491 TV491
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="5ddec-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="5ddec-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d5658-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="d5658-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="5ddec-110">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="5ddec-110">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="d5658-110">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="d5658-110">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  
