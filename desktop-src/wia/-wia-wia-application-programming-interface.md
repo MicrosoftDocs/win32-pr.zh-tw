@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690560"
 ---
-# <a name="wia-application-programming-interface"></a><span data-ttu-id="e338c-103">WIA 應用程式設計介面</span><span class="sxs-lookup"><span data-stu-id="e338c-103">WIA Application Programming Interface</span></span>
+# <a name="wia-application-programming-interface"></a><span data-ttu-id="2e744-103">WIA 應用程式設計介面</span><span class="sxs-lookup"><span data-stu-id="2e744-103">WIA Application Programming Interface</span></span>
 
-<span data-ttu-id="e338c-104">本節包含 Windows 映像取得 (WIA) 所提供的 API 元素的參考資訊。</span><span class="sxs-lookup"><span data-stu-id="e338c-104">This section contains reference information for the API elements that are provided by Windows Image Acquisition (WIA).</span></span> <span data-ttu-id="e338c-105">參考資料分成下列類別：</span><span class="sxs-lookup"><span data-stu-id="e338c-105">The reference material is divided into the following categories:</span></span>
+<span data-ttu-id="2e744-104">本節包含 Windows 映像取得 (WIA) 所提供的 API 元素的參考資訊。</span><span class="sxs-lookup"><span data-stu-id="2e744-104">This section contains reference information for the API elements that are provided by Windows Image Acquisition (WIA).</span></span> <span data-ttu-id="2e744-105">參考資料分成下列類別：</span><span class="sxs-lookup"><span data-stu-id="2e744-105">The reference material is divided into the following categories:</span></span>
 
--   [<span data-ttu-id="e338c-106">介面</span><span class="sxs-lookup"><span data-stu-id="e338c-106">Interfaces</span></span>](-wia-interfaces.md)
--   [<span data-ttu-id="e338c-107">函數</span><span class="sxs-lookup"><span data-stu-id="e338c-107">Functions</span></span>](-wia-functions.md)
--   [<span data-ttu-id="e338c-108">結構</span><span class="sxs-lookup"><span data-stu-id="e338c-108">Structures</span></span>](-wia-structures.md)
--   [<span data-ttu-id="e338c-109">列舉</span><span class="sxs-lookup"><span data-stu-id="e338c-109">Enumerations</span></span>](-wia-enumerations.md)
--   [<span data-ttu-id="e338c-110">常數</span><span class="sxs-lookup"><span data-stu-id="e338c-110">Constants</span></span>](-wia-constants.md)
+-   [<span data-ttu-id="2e744-106">介面</span><span class="sxs-lookup"><span data-stu-id="2e744-106">Interfaces</span></span>](-wia-interfaces.md)
+-   [<span data-ttu-id="2e744-107">函數</span><span class="sxs-lookup"><span data-stu-id="2e744-107">Functions</span></span>](-wia-functions.md)
+-   [<span data-ttu-id="2e744-108">結構</span><span class="sxs-lookup"><span data-stu-id="2e744-108">Structures</span></span>](-wia-structures.md)
+-   [<span data-ttu-id="2e744-109">列舉</span><span class="sxs-lookup"><span data-stu-id="2e744-109">Enumerations</span></span>](-wia-enumerations.md)
+-   [<span data-ttu-id="2e744-110">常數</span><span class="sxs-lookup"><span data-stu-id="2e744-110">Constants</span></span>](-wia-constants.md)
 
  
 

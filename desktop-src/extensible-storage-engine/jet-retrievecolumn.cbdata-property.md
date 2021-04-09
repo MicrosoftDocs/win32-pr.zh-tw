@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690916"
 ---
-# <a name="jet_retrievecolumncbdata-property"></a><span data-ttu-id="6b19a-103">JET_RETRIEVECOLUMN cbData 屬性</span><span class="sxs-lookup"><span data-stu-id="6b19a-103">JET_RETRIEVECOLUMN.cbData property</span></span>
+# <a name="jet_retrievecolumncbdata-property"></a><span data-ttu-id="16279-103">JET_RETRIEVECOLUMN cbData 屬性</span><span class="sxs-lookup"><span data-stu-id="16279-103">JET_RETRIEVECOLUMN.cbData property</span></span>
 
-<span data-ttu-id="6b19a-104">取得或設定 [pvData](./jet-retrievecolumn.pvdata-property.md) 緩衝區的大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="6b19a-104">Gets or sets the size of the [pvData](./jet-retrievecolumn.pvdata-property.md) buffer, in bytes.</span></span> <span data-ttu-id="6b19a-105">抓取資料行作業將不會在 pvData 中儲存比 cbData 更多的資料。</span><span class="sxs-lookup"><span data-stu-id="6b19a-105">The retrieve column operation will not store more data in pvData than cbData.</span></span>
+<span data-ttu-id="16279-104">取得或設定 [pvData](./jet-retrievecolumn.pvdata-property.md) 緩衝區的大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="16279-104">Gets or sets the size of the [pvData](./jet-retrievecolumn.pvdata-property.md) buffer, in bytes.</span></span> <span data-ttu-id="16279-105">抓取資料行作業將不會在 pvData 中儲存比 cbData 更多的資料。</span><span class="sxs-lookup"><span data-stu-id="16279-105">The retrieve column operation will not store more data in pvData than cbData.</span></span>
 
-<span data-ttu-id="6b19a-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6b19a-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="6b19a-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6b19a-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="16279-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="16279-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="16279-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="16279-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6b19a-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="6b19a-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="16279-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="16279-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.cbData = value
 public int cbData { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="6b19a-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="6b19a-109">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="16279-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="16279-109">Property value</span></span>
 
-<span data-ttu-id="6b19a-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="6b19a-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="16279-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="16279-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="6b19a-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6b19a-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="16279-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="16279-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="6b19a-112">參考</span><span class="sxs-lookup"><span data-stu-id="6b19a-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="16279-112">參考</span><span class="sxs-lookup"><span data-stu-id="16279-112">Reference</span></span>
 
-[<span data-ttu-id="6b19a-113">JET_RETRIEVECOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="6b19a-113">JET_RETRIEVECOLUMN class</span></span>](./jet-retrievecolumn-class.md)
+[<span data-ttu-id="16279-113">JET_RETRIEVECOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="16279-113">JET_RETRIEVECOLUMN class</span></span>](./jet-retrievecolumn-class.md)
 
-[<span data-ttu-id="6b19a-114">JET_RETRIEVECOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="6b19a-114">JET_RETRIEVECOLUMN members</span></span>](./jet-retrievecolumn-members.md)
+[<span data-ttu-id="16279-114">JET_RETRIEVECOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="16279-114">JET_RETRIEVECOLUMN members</span></span>](./jet-retrievecolumn-members.md)
 
-[<span data-ttu-id="6b19a-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="6b19a-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="16279-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="16279-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

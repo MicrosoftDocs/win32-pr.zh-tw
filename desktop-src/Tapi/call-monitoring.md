@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849426"
 ---
-# <a name="call-monitoring"></a><span data-ttu-id="c27c1-103">呼叫監視</span><span class="sxs-lookup"><span data-stu-id="c27c1-103">Call Monitoring</span></span>
+# <a name="call-monitoring"></a><span data-ttu-id="27cd4-103">呼叫監視</span><span class="sxs-lookup"><span data-stu-id="27cd4-103">Call Monitoring</span></span>
 
-<span data-ttu-id="c27c1-104">呼叫監視包含媒體、數位和音調監視，如下列主題所述。</span><span class="sxs-lookup"><span data-stu-id="c27c1-104">Call monitoring includes media, digit, and tone monitoring, as described in the following topics.</span></span>
+<span data-ttu-id="27cd4-104">呼叫監視包含媒體、數位和音調監視，如下列主題所述。</span><span class="sxs-lookup"><span data-stu-id="27cd4-104">Call monitoring includes media, digit, and tone monitoring, as described in the following topics.</span></span>
 
--   [<span data-ttu-id="c27c1-105">媒體監視</span><span class="sxs-lookup"><span data-stu-id="c27c1-105">Media Monitoring</span></span>](media-monitoring.md)
--   [<span data-ttu-id="c27c1-106">數位監視</span><span class="sxs-lookup"><span data-stu-id="c27c1-106">Digit Monitoring</span></span>](digit-monitoring.md)
--   [<span data-ttu-id="c27c1-107">語氣監視</span><span class="sxs-lookup"><span data-stu-id="c27c1-107">Tone Monitoring</span></span>](tone-monitoring.md)
+-   [<span data-ttu-id="27cd4-105">媒體監視</span><span class="sxs-lookup"><span data-stu-id="27cd4-105">Media Monitoring</span></span>](media-monitoring.md)
+-   [<span data-ttu-id="27cd4-106">數位監視</span><span class="sxs-lookup"><span data-stu-id="27cd4-106">Digit Monitoring</span></span>](digit-monitoring.md)
+-   [<span data-ttu-id="27cd4-107">語氣監視</span><span class="sxs-lookup"><span data-stu-id="27cd4-107">Tone Monitoring</span></span>](tone-monitoring.md)
 
  
 
