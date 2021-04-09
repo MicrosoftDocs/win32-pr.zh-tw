@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103670900"
 ---
-# <a name="router-information-enumerations"></a><span data-ttu-id="772db-103">路由器資訊列舉</span><span class="sxs-lookup"><span data-stu-id="772db-103">Router Information Enumerations</span></span>
+# <a name="router-information-enumerations"></a><span data-ttu-id="47d26-103">路由器資訊列舉</span><span class="sxs-lookup"><span data-stu-id="47d26-103">Router Information Enumerations</span></span>
 
-<span data-ttu-id="772db-104">呼叫資訊標頭函數時，請使用下列資訊類型。</span><span class="sxs-lookup"><span data-stu-id="772db-104">Use the following information types when calling information header functions.</span></span>
+<span data-ttu-id="47d26-104">呼叫資訊標頭函數時，請使用下列資訊類型。</span><span class="sxs-lookup"><span data-stu-id="47d26-104">Use the following information types when calling information header functions.</span></span>
 
--   [<span data-ttu-id="772db-105">路由器資訊區塊的 IP 資訊類型</span><span class="sxs-lookup"><span data-stu-id="772db-105">IP Information Types for Router Information Blocks</span></span>](ip-information-types-for-router-information-blocks.md)
--   [<span data-ttu-id="772db-106">路由器資訊區塊的 IPv6 資訊類型</span><span class="sxs-lookup"><span data-stu-id="772db-106">IPv6 Information Types for Router Information Blocks</span></span>](ipv6-information-types-for-router-information-blocks.md)
--   [<span data-ttu-id="772db-107">路由器資訊區塊的 IPX 資訊類型</span><span class="sxs-lookup"><span data-stu-id="772db-107">IPX Information Types for Router Information Blocks</span></span>](ipx-information-types-for-router-information-blocks.md)
+-   [<span data-ttu-id="47d26-105">路由器資訊區塊的 IP 資訊類型</span><span class="sxs-lookup"><span data-stu-id="47d26-105">IP Information Types for Router Information Blocks</span></span>](ip-information-types-for-router-information-blocks.md)
+-   [<span data-ttu-id="47d26-106">路由器資訊區塊的 IPv6 資訊類型</span><span class="sxs-lookup"><span data-stu-id="47d26-106">IPv6 Information Types for Router Information Blocks</span></span>](ipv6-information-types-for-router-information-blocks.md)
+-   [<span data-ttu-id="47d26-107">路由器資訊區塊的 IPX 資訊類型</span><span class="sxs-lookup"><span data-stu-id="47d26-107">IPX Information Types for Router Information Blocks</span></span>](ipx-information-types-for-router-information-blocks.md)
 
  
 

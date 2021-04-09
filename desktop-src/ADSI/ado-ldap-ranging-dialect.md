@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839252"
 ---
-# <a name="ado-ldap-ranging-dialect"></a><span data-ttu-id="d816a-104">ADO LDAP 範圍方言</span><span class="sxs-lookup"><span data-stu-id="d816a-104">ADO LDAP Ranging Dialect</span></span>
+# <a name="ado-ldap-ranging-dialect"></a><span data-ttu-id="7b82c-104">ADO LDAP 範圍方言</span><span class="sxs-lookup"><span data-stu-id="7b82c-104">ADO LDAP Ranging Dialect</span></span>
 
-<span data-ttu-id="d816a-105">使用 ActiveX 目錄物件 (ADO) 搭配 LDAP 方言時，屬性和範圍規範不需要引號。</span><span class="sxs-lookup"><span data-stu-id="d816a-105">When using ActiveX Directory Objects (ADO) with the LDAP dialect, the attribute and range specifier do not require quotation marks.</span></span>
+<span data-ttu-id="7b82c-105">使用 ActiveX 目錄物件 (ADO) 搭配 LDAP 方言時，屬性和範圍規範不需要引號。</span><span class="sxs-lookup"><span data-stu-id="7b82c-105">When using ActiveX Directory Objects (ADO) with the LDAP dialect, the attribute and range specifier do not require quotation marks.</span></span>
 
-<span data-ttu-id="d816a-106">以下是 ADO LDAP 方言的範例。</span><span class="sxs-lookup"><span data-stu-id="d816a-106">The following is an example of the ADO LDAP dialect.</span></span>
+<span data-ttu-id="7b82c-106">以下是 ADO LDAP 方言的範例。</span><span class="sxs-lookup"><span data-stu-id="7b82c-106">The following is an example of the ADO LDAP dialect.</span></span>
 
 
 ```C++

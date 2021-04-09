@@ -12,11 +12,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839335"
 ---
-# <a name="example-code-for-converting-an-objectsid-into-a-bindable-string"></a><span data-ttu-id="bb624-103">將 objectSid 轉換成可系結字串的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="bb624-103">Example Code for Converting an objectSid into a Bindable String</span></span>
+# <a name="example-code-for-converting-an-objectsid-into-a-bindable-string"></a><span data-ttu-id="c8dac-103">將 objectSid 轉換成可系結字串的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="c8dac-103">Example Code for Converting an objectSid into a Bindable String</span></span>
 
-<span data-ttu-id="bb624-104">本主題包含將 **objectSid** 轉換為可系結字串的程式碼範例，以將屬於下層網域的成員加入至上層網域中的群組。</span><span class="sxs-lookup"><span data-stu-id="bb624-104">This topic contains a code example that converts an **objectSid** to a bindable string to add a member that belongs to a down-level domain to a group in an up-level domain.</span></span>
+<span data-ttu-id="c8dac-104">本主題包含將 **objectSid** 轉換為可系結字串的程式碼範例，以將屬於下層網域的成員加入至上層網域中的群組。</span><span class="sxs-lookup"><span data-stu-id="c8dac-104">This topic contains a code example that converts an **objectSid** to a bindable string to add a member that belongs to a down-level domain to a group in an up-level domain.</span></span>
 
-<span data-ttu-id="bb624-105">下列 c + + 程式碼範例示範如何將 **objectSid** 轉換為可系結字串。</span><span class="sxs-lookup"><span data-stu-id="bb624-105">The following C++ code example shows how to convert an **objectSid** into a bindable string.</span></span>
+<span data-ttu-id="c8dac-105">下列 c + + 程式碼範例示範如何將 **objectSid** 轉換為可系結字串。</span><span class="sxs-lookup"><span data-stu-id="c8dac-105">The following C++ code example shows how to convert an **objectSid** into a bindable string.</span></span>
 
 
 ```C++

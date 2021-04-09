@@ -16,17 +16,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671139"
 ---
-# <a name="modifying-an-adsi-object-from-ado"></a><span data-ttu-id="4a449-107">從 ADO 修改 ADSI 物件</span><span class="sxs-lookup"><span data-stu-id="4a449-107">Modifying an ADSI Object from ADO</span></span>
+# <a name="modifying-an-adsi-object-from-ado"></a><span data-ttu-id="12aec-107">從 ADO 修改 ADSI 物件</span><span class="sxs-lookup"><span data-stu-id="12aec-107">Modifying an ADSI Object from ADO</span></span>
 
-<span data-ttu-id="4a449-108">適用于 Windows 2000 和 DS 用戶端的 ADSI 包含唯讀的 OLE DB 提供者。</span><span class="sxs-lookup"><span data-stu-id="4a449-108">ADSI for Windows 2000 and DS Client includes a read-only OLE DB provider.</span></span> <span data-ttu-id="4a449-109">這表示您目前無法在 SQL 方言中發出 UPDATE 語句。</span><span class="sxs-lookup"><span data-stu-id="4a449-109">This means that you cannot, at present, issue the UPDATE statement in the SQL dialect.</span></span>
+<span data-ttu-id="12aec-108">適用于 Windows 2000 和 DS 用戶端的 ADSI 包含唯讀的 OLE DB 提供者。</span><span class="sxs-lookup"><span data-stu-id="12aec-108">ADSI for Windows 2000 and DS Client includes a read-only OLE DB provider.</span></span> <span data-ttu-id="12aec-109">這表示您目前無法在 SQL 方言中發出 UPDATE 語句。</span><span class="sxs-lookup"><span data-stu-id="12aec-109">This means that you cannot, at present, issue the UPDATE statement in the SQL dialect.</span></span>
 
-<span data-ttu-id="4a449-110">**修改從 ADO 查詢傳回的物件**</span><span class="sxs-lookup"><span data-stu-id="4a449-110">**To modify an object returned from an ADO query**</span></span>
+<span data-ttu-id="12aec-110">**修改從 ADO 查詢傳回的物件**</span><span class="sxs-lookup"><span data-stu-id="12aec-110">**To modify an object returned from an ADO query**</span></span>
 
-1.  <span data-ttu-id="4a449-111">指定屬性名稱時，請要求 **ADsPath** ，如同「選取 ADsPath，...」。</span><span class="sxs-lookup"><span data-stu-id="4a449-111">Request the **ADsPath** when specifying an attribute name, as in "SELECT ADsPath, ..."</span></span>
-2.  <span data-ttu-id="4a449-112">執行查詢並取得 **ADsPath** 屬性。</span><span class="sxs-lookup"><span data-stu-id="4a449-112">Execute the query and get the **ADsPath** attribute.</span></span>
-3.  <span data-ttu-id="4a449-113">使用 **ADsPath** 系結至記錄集，並修改屬性。</span><span class="sxs-lookup"><span data-stu-id="4a449-113">Bind to the record set using **ADsPath**, and modify the attributes.</span></span>
+1.  <span data-ttu-id="12aec-111">指定屬性名稱時，請要求 **ADsPath** ，如同「選取 ADsPath，...」。</span><span class="sxs-lookup"><span data-stu-id="12aec-111">Request the **ADsPath** when specifying an attribute name, as in "SELECT ADsPath, ..."</span></span>
+2.  <span data-ttu-id="12aec-112">執行查詢並取得 **ADsPath** 屬性。</span><span class="sxs-lookup"><span data-stu-id="12aec-112">Execute the query and get the **ADsPath** attribute.</span></span>
+3.  <span data-ttu-id="12aec-113">使用 **ADsPath** 系結至記錄集，並修改屬性。</span><span class="sxs-lookup"><span data-stu-id="12aec-113">Bind to the record set using **ADsPath**, and modify the attributes.</span></span>
 
-<span data-ttu-id="4a449-114">下列程式碼範例示範如何在執行上述範例中所述的步驟之後修改 ADSI 物件。</span><span class="sxs-lookup"><span data-stu-id="4a449-114">The following code example shows how to modify an ADSI object after performing the steps outlined in the preceding example.</span></span>
+<span data-ttu-id="12aec-114">下列程式碼範例示範如何在執行上述範例中所述的步驟之後修改 ADSI 物件。</span><span class="sxs-lookup"><span data-stu-id="12aec-114">The following code example shows how to modify an ADSI object after performing the steps outlined in the preceding example.</span></span>
 
 
 ```VB

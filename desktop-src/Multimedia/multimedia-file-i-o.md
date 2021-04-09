@@ -25,13 +25,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103840396"
 ---
-# <a name="multimedia-file-io"></a><span data-ttu-id="08b2c-116">多媒體檔案 i/o</span><span class="sxs-lookup"><span data-stu-id="08b2c-116">Multimedia File I/O</span></span>
+# <a name="multimedia-file-io"></a><span data-ttu-id="cadb1-116">多媒體檔案 i/o</span><span class="sxs-lookup"><span data-stu-id="cadb1-116">Multimedia File I/O</span></span>
 
-<span data-ttu-id="08b2c-117">多媒體檔案 i/o 服務提供的功能比標準作業系統服務更多功能，包括支援緩衝處理的 i/o、資源交換檔案格式 (RIFF) 檔案、記憶體檔案和自訂儲存體系統。</span><span class="sxs-lookup"><span data-stu-id="08b2c-117">The multimedia file I/O services provide more functionality than the standard operating system services, including support for buffered I/O, resource interchange file format (RIFF) files, memory files, and custom storage systems.</span></span> <span data-ttu-id="08b2c-118">此外，多媒體檔案 i/o 服務已針對對效能敏感的應用程式進行優化。</span><span class="sxs-lookup"><span data-stu-id="08b2c-118">In addition, the multimedia file I/O services are optimized for applications sensitive to performance.</span></span>
+<span data-ttu-id="cadb1-117">多媒體檔案 i/o 服務提供的功能比標準作業系統服務更多功能，包括支援緩衝處理的 i/o、資源交換檔案格式 (RIFF) 檔案、記憶體檔案和自訂儲存體系統。</span><span class="sxs-lookup"><span data-stu-id="cadb1-117">The multimedia file I/O services provide more functionality than the standard operating system services, including support for buffered I/O, resource interchange file format (RIFF) files, memory files, and custom storage systems.</span></span> <span data-ttu-id="cadb1-118">此外，多媒體檔案 i/o 服務已針對對效能敏感的應用程式進行優化。</span><span class="sxs-lookup"><span data-stu-id="cadb1-118">In addition, the multimedia file I/O services are optimized for applications sensitive to performance.</span></span>
 
--   [<span data-ttu-id="08b2c-119">關於多媒體檔案 i/o</span><span class="sxs-lookup"><span data-stu-id="08b2c-119">About Multimedia File I/O</span></span>](about-multimedia-file-i-o.md)
--   [<span data-ttu-id="08b2c-120">使用多媒體檔案 i/o</span><span class="sxs-lookup"><span data-stu-id="08b2c-120">Using Multimedia File I/O</span></span>](using-multimedia-file-i-o.md)
--   [<span data-ttu-id="08b2c-121">多媒體檔案 i/o 參考</span><span class="sxs-lookup"><span data-stu-id="08b2c-121">Multimedia File I/O Reference</span></span>](multimedia-file-i-o-reference.md)
+-   [<span data-ttu-id="cadb1-119">關於多媒體檔案 i/o</span><span class="sxs-lookup"><span data-stu-id="cadb1-119">About Multimedia File I/O</span></span>](about-multimedia-file-i-o.md)
+-   [<span data-ttu-id="cadb1-120">使用多媒體檔案 i/o</span><span class="sxs-lookup"><span data-stu-id="cadb1-120">Using Multimedia File I/O</span></span>](using-multimedia-file-i-o.md)
+-   [<span data-ttu-id="cadb1-121">多媒體檔案 i/o 參考</span><span class="sxs-lookup"><span data-stu-id="cadb1-121">Multimedia File I/O Reference</span></span>](multimedia-file-i-o-reference.md)
 
  
 

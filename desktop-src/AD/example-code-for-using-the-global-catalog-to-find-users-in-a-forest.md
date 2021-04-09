@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671287"
 ---
-# <a name="example-code-for-using-the-global-catalog-to-find-users-in-a-forest"></a><span data-ttu-id="dca05-104">使用通用類別目錄在樹系中尋找使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="dca05-104">Example Code for Using the Global Catalog to Find Users in a Forest</span></span>
+# <a name="example-code-for-using-the-global-catalog-to-find-users-in-a-forest"></a><span data-ttu-id="3ee02-104">使用通用類別目錄在樹系中尋找使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="3ee02-104">Example Code for Using the Global Catalog to Find Users in a Forest</span></span>
 
-<span data-ttu-id="dca05-105">本主題包含用來搜尋樹系中使用者的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="dca05-105">This topic includes code examples used to search for users in a forest.</span></span>
+<span data-ttu-id="3ee02-105">本主題包含用來搜尋樹系中使用者的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="3ee02-105">This topic includes code examples used to search for users in a forest.</span></span>
 
-<span data-ttu-id="dca05-106">下列 Visual Basic 程式碼範例示範如何使用 ADSI 來搜尋樹系中的使用者。</span><span class="sxs-lookup"><span data-stu-id="dca05-106">The following Visual Basic code example shows how to use ADSI to search for users in a forest.</span></span>
+<span data-ttu-id="3ee02-106">下列 Visual Basic 程式碼範例示範如何使用 ADSI 來搜尋樹系中的使用者。</span><span class="sxs-lookup"><span data-stu-id="3ee02-106">The following Visual Basic code example shows how to use ADSI to search for users in a forest.</span></span>
 
 
 ```VB
@@ -81,7 +81,7 @@ End Sub
 
 
 
-<span data-ttu-id="dca05-107">下列 c + + 程式碼範例會使用 ADSI 來搜尋樹系中的使用者。</span><span class="sxs-lookup"><span data-stu-id="dca05-107">The following C++ code example uses ADSI to search for users in a forest.</span></span>
+<span data-ttu-id="3ee02-107">下列 c + + 程式碼範例會使用 ADSI 來搜尋樹系中的使用者。</span><span class="sxs-lookup"><span data-stu-id="3ee02-107">The following C++ code example uses ADSI to search for users in a forest.</span></span>
 
 
 ```C++

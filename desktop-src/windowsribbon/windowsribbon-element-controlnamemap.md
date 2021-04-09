@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103841303"
 ---
-# <a name="controlnamemap-element"></a><span data-ttu-id="f3135-104">ControlNameMap 元素</span><span class="sxs-lookup"><span data-stu-id="f3135-104">ControlNameMap element</span></span>
+# <a name="controlnamemap-element"></a><span data-ttu-id="0c261-104">ControlNameMap 元素</span><span class="sxs-lookup"><span data-stu-id="0c261-104">ControlNameMap element</span></span>
 
-<span data-ttu-id="f3135-105">表示自訂 [**SizeDefinition**](windowsribbon-element-sizedefinition.md) 版面配置範本中控制項名稱的容器。</span><span class="sxs-lookup"><span data-stu-id="f3135-105">Represents a container for control names in a custom [**SizeDefinition**](windowsribbon-element-sizedefinition.md) layout template.</span></span>
+<span data-ttu-id="0c261-105">表示自訂 [**SizeDefinition**](windowsribbon-element-sizedefinition.md) 版面配置範本中控制項名稱的容器。</span><span class="sxs-lookup"><span data-stu-id="0c261-105">Represents a container for control names in a custom [**SizeDefinition**](windowsribbon-element-sizedefinition.md) layout template.</span></span>
 
-## <a name="usage"></a><span data-ttu-id="f3135-106">使用方式</span><span class="sxs-lookup"><span data-stu-id="f3135-106">Usage</span></span>
+## <a name="usage"></a><span data-ttu-id="0c261-106">使用方式</span><span class="sxs-lookup"><span data-stu-id="0c261-106">Usage</span></span>
 
 ``` syntax
 <ControlNameMap>
@@ -32,39 +32,39 @@ ms.locfileid: "103841303"
 </ControlNameMap>
 ```
 
-## <a name="attributes"></a><span data-ttu-id="f3135-107">屬性</span><span class="sxs-lookup"><span data-stu-id="f3135-107">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="0c261-107">屬性</span><span class="sxs-lookup"><span data-stu-id="0c261-107">Attributes</span></span>
 
-<span data-ttu-id="f3135-108">沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="f3135-108">There are no attributes.</span></span>
+<span data-ttu-id="0c261-108">沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="0c261-108">There are no attributes.</span></span>
 
-## <a name="child-elements"></a><span data-ttu-id="f3135-109">子元素</span><span class="sxs-lookup"><span data-stu-id="f3135-109">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="0c261-109">子元素</span><span class="sxs-lookup"><span data-stu-id="0c261-109">Child elements</span></span>
 
 
 
-| <span data-ttu-id="f3135-110">元素</span><span class="sxs-lookup"><span data-stu-id="f3135-110">Element</span></span>                                                                                 | <span data-ttu-id="f3135-111">描述</span><span class="sxs-lookup"><span data-stu-id="f3135-111">Description</span></span>                                        |
+| <span data-ttu-id="0c261-110">元素</span><span class="sxs-lookup"><span data-stu-id="0c261-110">Element</span></span>                                                                                 | <span data-ttu-id="0c261-111">描述</span><span class="sxs-lookup"><span data-stu-id="0c261-111">Description</span></span>                                        |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------|
-| [<span data-ttu-id="f3135-112">**ControlNameDefinition**</span><span class="sxs-lookup"><span data-stu-id="f3135-112">**ControlNameDefinition**</span></span>](windowsribbon-element-controlnamedefinition.md)<br/> | <span data-ttu-id="f3135-113">可能會發生一次或多次</span><span class="sxs-lookup"><span data-stu-id="f3135-113">May occur one or more times</span></span><br/> <br/> |
+| [<span data-ttu-id="0c261-112">**ControlNameDefinition**</span><span class="sxs-lookup"><span data-stu-id="0c261-112">**ControlNameDefinition**</span></span>](windowsribbon-element-controlnamedefinition.md)<br/> | <span data-ttu-id="0c261-113">可能會發生一次或多次</span><span class="sxs-lookup"><span data-stu-id="0c261-113">May occur one or more times</span></span><br/> <br/> |
 
 
 
-## <a name="parent-elements"></a><span data-ttu-id="f3135-114">父元素</span><span class="sxs-lookup"><span data-stu-id="f3135-114">Parent elements</span></span>
+## <a name="parent-elements"></a><span data-ttu-id="0c261-114">父元素</span><span class="sxs-lookup"><span data-stu-id="0c261-114">Parent elements</span></span>
 
 
 
-| <span data-ttu-id="f3135-115">元素</span><span class="sxs-lookup"><span data-stu-id="f3135-115">Element</span></span>                                                                   |
+| <span data-ttu-id="0c261-115">元素</span><span class="sxs-lookup"><span data-stu-id="0c261-115">Element</span></span>                                                                   |
 |---------------------------------------------------------------------------|
-| [<span data-ttu-id="f3135-116">**SizeDefinition**</span><span class="sxs-lookup"><span data-stu-id="f3135-116">**SizeDefinition**</span></span>](windowsribbon-element-sizedefinition.md)<br/> |
+| [<span data-ttu-id="0c261-116">**SizeDefinition**</span><span class="sxs-lookup"><span data-stu-id="0c261-116">**SizeDefinition**</span></span>](windowsribbon-element-sizedefinition.md)<br/> |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="f3135-117">備註</span><span class="sxs-lookup"><span data-stu-id="f3135-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0c261-117">備註</span><span class="sxs-lookup"><span data-stu-id="0c261-117">Remarks</span></span>
 
-<span data-ttu-id="f3135-118">選擇性。</span><span class="sxs-lookup"><span data-stu-id="f3135-118">Optional.</span></span>
+<span data-ttu-id="0c261-118">選擇性。</span><span class="sxs-lookup"><span data-stu-id="0c261-118">Optional.</span></span>
 
-<span data-ttu-id="f3135-119">每個 [**SizeDefinition**](windowsribbon-element-sizedefinition.md) 元素最多可能會發生一次。</span><span class="sxs-lookup"><span data-stu-id="f3135-119">May occur at most once for each [**SizeDefinition**](windowsribbon-element-sizedefinition.md) element.</span></span>
+<span data-ttu-id="0c261-119">每個 [**SizeDefinition**](windowsribbon-element-sizedefinition.md) 元素最多可能會發生一次。</span><span class="sxs-lookup"><span data-stu-id="0c261-119">May occur at most once for each [**SizeDefinition**](windowsribbon-element-sizedefinition.md) element.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="f3135-120">範例</span><span class="sxs-lookup"><span data-stu-id="f3135-120">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="0c261-120">範例</span><span class="sxs-lookup"><span data-stu-id="0c261-120">Examples</span></span>
 
-<span data-ttu-id="f3135-121">下列程式碼範例示範具有 **ControlNameMap** 元素之自訂四個按鈕 [**SizeDefinition**](windowsribbon-element-sizedefinition.md)版面配置範本的基本標記。</span><span class="sxs-lookup"><span data-stu-id="f3135-121">The following code example demonstrates the basic markup for a custom four-button [**SizeDefinition**](windowsribbon-element-sizedefinition.md) layout template with a **ControlNameMap** element.</span></span>
+<span data-ttu-id="0c261-121">下列程式碼範例示範具有 **ControlNameMap** 元素之自訂四個按鈕 [**SizeDefinition**](windowsribbon-element-sizedefinition.md)版面配置範本的基本標記。</span><span class="sxs-lookup"><span data-stu-id="0c261-121">The following code example demonstrates the basic markup for a custom four-button [**SizeDefinition**](windowsribbon-element-sizedefinition.md) layout template with a **ControlNameMap** element.</span></span>
 
 
 ```XML
@@ -154,22 +154,22 @@ ms.locfileid: "103841303"
 
 
 
-## <a name="element-information"></a><span data-ttu-id="f3135-122">項目資訊</span><span class="sxs-lookup"><span data-stu-id="f3135-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="0c261-122">項目資訊</span><span class="sxs-lookup"><span data-stu-id="0c261-122">Element information</span></span>
 
 
 
 |                                     |           |
 |-------------------------------------|-----------|
-| <span data-ttu-id="f3135-123">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="f3135-123">Minimum supported system</span></span><br/> | <span data-ttu-id="f3135-124">Windows 7</span><span class="sxs-lookup"><span data-stu-id="f3135-124">Windows 7</span></span> |
-| <span data-ttu-id="f3135-125">可以是空的</span><span class="sxs-lookup"><span data-stu-id="f3135-125">Can be empty</span></span>                        | <span data-ttu-id="f3135-126">否</span><span class="sxs-lookup"><span data-stu-id="f3135-126">No</span></span>        |
+| <span data-ttu-id="0c261-123">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="0c261-123">Minimum supported system</span></span><br/> | <span data-ttu-id="0c261-124">Windows 7</span><span class="sxs-lookup"><span data-stu-id="0c261-124">Windows 7</span></span> |
+| <span data-ttu-id="0c261-125">可以是空的</span><span class="sxs-lookup"><span data-stu-id="0c261-125">Can be empty</span></span>                        | <span data-ttu-id="0c261-126">否</span><span class="sxs-lookup"><span data-stu-id="0c261-126">No</span></span>        |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f3135-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f3135-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0c261-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0c261-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f3135-128">透過大小定義和調整原則自訂功能區</span><span class="sxs-lookup"><span data-stu-id="f3135-128">Customizing a Ribbon Through Size Definitions and Scaling Policies</span></span>](windowsribbon-templates.md)
+[<span data-ttu-id="0c261-128">透過大小定義和調整原則自訂功能區</span><span class="sxs-lookup"><span data-stu-id="0c261-128">Customizing a Ribbon Through Size Definitions and Scaling Policies</span></span>](windowsribbon-templates.md)
 </dt> </dl>
 
  

@@ -13,11 +13,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103670887"
 ---
-# <a name="baseinterface"></a><span data-ttu-id="eaf36-104">Typeinterface</span><span class="sxs-lookup"><span data-stu-id="eaf36-104">BaseInterface</span></span>
+# <a name="baseinterface"></a><span data-ttu-id="2949f-104">Typeinterface</span><span class="sxs-lookup"><span data-stu-id="2949f-104">BaseInterface</span></span>
 
-<span data-ttu-id="eaf36-105">識別目前的介面衍生來源的介面。</span><span class="sxs-lookup"><span data-stu-id="eaf36-105">Identifies the interface from which the current interface is derived.</span></span>
+<span data-ttu-id="2949f-105">識別目前的介面衍生來源的介面。</span><span class="sxs-lookup"><span data-stu-id="2949f-105">Identifies the interface from which the current interface is derived.</span></span>
 
-## <a name="registry-entry"></a><span data-ttu-id="eaf36-106">登錄項目</span><span class="sxs-lookup"><span data-stu-id="eaf36-106">Registry Entry</span></span>
+## <a name="registry-entry"></a><span data-ttu-id="2949f-106">登錄項目</span><span class="sxs-lookup"><span data-stu-id="2949f-106">Registry Entry</span></span>
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface
@@ -25,15 +25,15 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface
       BaseInterface = name
 ```
 
-## <a name="remarks"></a><span data-ttu-id="eaf36-107">備註</span><span class="sxs-lookup"><span data-stu-id="eaf36-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2949f-107">備註</span><span class="sxs-lookup"><span data-stu-id="2949f-107">Remarks</span></span>
 
-<span data-ttu-id="eaf36-108">這是 **REG \_ SZ** 值。</span><span class="sxs-lookup"><span data-stu-id="eaf36-108">This is a **REG\_SZ** value.</span></span>
+<span data-ttu-id="2949f-108">這是 **REG \_ SZ** 值。</span><span class="sxs-lookup"><span data-stu-id="2949f-108">This is a **REG\_SZ** value.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="eaf36-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="eaf36-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2949f-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="2949f-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="eaf36-110">**介面**</span><span class="sxs-lookup"><span data-stu-id="eaf36-110">**Interface**</span></span>](interface-key.md)
+[<span data-ttu-id="2949f-110">**介面**</span><span class="sxs-lookup"><span data-stu-id="2949f-110">**Interface**</span></span>](interface-key.md)
 </dt> </dl>
 
  

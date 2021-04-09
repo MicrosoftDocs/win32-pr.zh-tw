@@ -15,15 +15,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103670927"
 ---
-# <a name="httpclientwithsslexample"></a><span data-ttu-id="14243-106">HttpClientWithSslExample</span><span class="sxs-lookup"><span data-stu-id="14243-106">HttpClientWithSslExample</span></span>
+# <a name="httpclientwithsslexample"></a><span data-ttu-id="1f2fd-106">HttpClientWithSslExample</span><span class="sxs-lookup"><span data-stu-id="1f2fd-106">HttpClientWithSslExample</span></span>
 
-<span data-ttu-id="14243-107">此範例顯示傳送要求-回復訊息（具有 SSL 傳輸安全性）的 HTTP 用戶端。</span><span class="sxs-lookup"><span data-stu-id="14243-107">This example shows a HTTP client that sends request-reply messages, with SSL transport security.</span></span>
+<span data-ttu-id="1f2fd-107">此範例顯示傳送要求-回復訊息（具有 SSL 傳輸安全性）的 HTTP 用戶端。</span><span class="sxs-lookup"><span data-stu-id="1f2fd-107">This example shows a HTTP client that sends request-reply messages, with SSL transport security.</span></span>
 
--   [<span data-ttu-id="14243-108">HttpClientWithSsl .cpp</span><span class="sxs-lookup"><span data-stu-id="14243-108">HttpClientWithSsl.cpp</span></span>](#httpclientwithsslcpp)
--   [<span data-ttu-id="14243-109">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="14243-109">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="14243-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="14243-110">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="1f2fd-108">HttpClientWithSsl .cpp</span><span class="sxs-lookup"><span data-stu-id="1f2fd-108">HttpClientWithSsl.cpp</span></span>](#httpclientwithsslcpp)
+-   [<span data-ttu-id="1f2fd-109">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="1f2fd-109">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="1f2fd-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="1f2fd-110">Makefile</span></span>](#makefile)
 
-## <a name="httpclientwithsslcpp"></a><span data-ttu-id="14243-111">HttpClientWithSsl .cpp</span><span class="sxs-lookup"><span data-stu-id="14243-111">HttpClientWithSsl.cpp</span></span>
+## <a name="httpclientwithsslcpp"></a><span data-ttu-id="1f2fd-111">HttpClientWithSsl .cpp</span><span class="sxs-lookup"><span data-stu-id="1f2fd-111">HttpClientWithSsl.cpp</span></span>
 
 
 ```C++
@@ -422,7 +422,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="14243-112">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="14243-112">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="1f2fd-112">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="1f2fd-112">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -533,7 +533,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="14243-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="14243-113">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="1f2fd-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="1f2fd-113">Makefile</span></span>
 
 ``` syntax
 #------------------------------------------------------------

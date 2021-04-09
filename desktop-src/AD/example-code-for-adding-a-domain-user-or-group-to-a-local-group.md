@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671323"
 ---
-# <a name="example-code-for-adding-a-domain-user-or-group-to-a-local-group"></a><span data-ttu-id="c20ed-104">將網域使用者或群組新增至本機群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="c20ed-104">Example Code for Adding a Domain User or Group to a Local Group</span></span>
+# <a name="example-code-for-adding-a-domain-user-or-group-to-a-local-group"></a><span data-ttu-id="72b59-104">將網域使用者或群組新增至本機群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="72b59-104">Example Code for Adding a Domain User or Group to a Local Group</span></span>
 
-<span data-ttu-id="c20ed-105">下列 c + + 程式碼範例會將網域使用者或群組新增到成員伺服器上的本機群組或 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦。</span><span class="sxs-lookup"><span data-stu-id="c20ed-105">The following C++ code example adds a domain user or group to a local group on a member server or a computer running on Windows NT Workstation or Windows 2000 Professional.</span></span>
+<span data-ttu-id="72b59-105">下列 c + + 程式碼範例會將網域使用者或群組新增到成員伺服器上的本機群組或 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦。</span><span class="sxs-lookup"><span data-stu-id="72b59-105">The following C++ code example adds a domain user or group to a local group on a member server or a computer running on Windows NT Workstation or Windows 2000 Professional.</span></span>
 
 
 ```C++
@@ -106,7 +106,7 @@ HRESULT AddDomainUserToLocalGroup(LPCWSTR pwszComputerName,
 
 
 
-<span data-ttu-id="c20ed-106">下列 Visual Basic 程式碼範例會將網域使用者或群組新增到成員伺服器上的本機群組，或 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦。</span><span class="sxs-lookup"><span data-stu-id="c20ed-106">The following Visual Basic code example adds a domain user or group to a local group on a member server or a computer running on Windows NT Workstation or Windows 2000 Professional.</span></span>
+<span data-ttu-id="72b59-106">下列 Visual Basic 程式碼範例會將網域使用者或群組新增到成員伺服器上的本機群組，或 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦。</span><span class="sxs-lookup"><span data-stu-id="72b59-106">The following Visual Basic code example adds a domain user or group to a local group on a member server or a computer running on Windows NT Workstation or Windows 2000 Professional.</span></span>
 
 
 ```VB

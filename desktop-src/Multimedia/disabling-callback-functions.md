@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672784"
 ---
-# <a name="disabling-callback-functions"></a><span data-ttu-id="76a67-105">停用回呼函數</span><span class="sxs-lookup"><span data-stu-id="76a67-105">Disabling Callback Functions</span></span>
+# <a name="disabling-callback-functions"></a><span data-ttu-id="0acfa-105">停用回呼函數</span><span class="sxs-lookup"><span data-stu-id="0acfa-105">Disabling Callback Functions</span></span>
 
-<span data-ttu-id="76a67-106">您可以永久或暫時停用任何回呼函式，方法是在傳送適當的訊息來設定回呼函式時，指定 **Null** 來取代回呼函數。</span><span class="sxs-lookup"><span data-stu-id="76a67-106">You can permanently or temporarily disable any of the callback functions by specifying **NULL** in place of the callback function when sending the appropriate message to set a callback function.</span></span>
+<span data-ttu-id="0acfa-106">您可以永久或暫時停用任何回呼函式，方法是在傳送適當的訊息來設定回呼函式時，指定 **Null** 來取代回呼函數。</span><span class="sxs-lookup"><span data-stu-id="0acfa-106">You can permanently or temporarily disable any of the callback functions by specifying **NULL** in place of the callback function when sending the appropriate message to set a callback function.</span></span>
 
  
 
