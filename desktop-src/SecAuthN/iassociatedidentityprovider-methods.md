@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694151"
 ---
-# <a name="iassociatedidentityprovider-methods"></a><span data-ttu-id="b4c19-103">IAssociatedIdentityProvider 方法</span><span class="sxs-lookup"><span data-stu-id="b4c19-103">IAssociatedIdentityProvider Methods</span></span>
+# <a name="iassociatedidentityprovider-methods"></a><span data-ttu-id="646bc-103">IAssociatedIdentityProvider 方法</span><span class="sxs-lookup"><span data-stu-id="646bc-103">IAssociatedIdentityProvider Methods</span></span>
 
-<span data-ttu-id="b4c19-104">[**IAssociatedIdentityProvider**](/windows/desktop/api/IdentityProvider/nn-identityprovider-iassociatedidentityprovider)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="b4c19-104">The [**IAssociatedIdentityProvider**](/windows/desktop/api/IdentityProvider/nn-identityprovider-iassociatedidentityprovider) interface exposes the following methods.</span></span>
+<span data-ttu-id="646bc-104">[**IAssociatedIdentityProvider**](/windows/desktop/api/IdentityProvider/nn-identityprovider-iassociatedidentityprovider)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="646bc-104">The [**IAssociatedIdentityProvider**](/windows/desktop/api/IdentityProvider/nn-identityprovider-iassociatedidentityprovider) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="b4c19-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b4c19-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="646bc-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="646bc-105">In this section</span></span>
 
--   [<span data-ttu-id="b4c19-106">**AssociateIdentity 方法**</span><span class="sxs-lookup"><span data-stu-id="b4c19-106">**AssociateIdentity Method**</span></span>](/windows/desktop/api/IdentityProvider/nf-identityprovider-iassociatedidentityprovider-associateidentity)
--   [<span data-ttu-id="b4c19-107">**ChangeCredential 方法**</span><span class="sxs-lookup"><span data-stu-id="b4c19-107">**ChangeCredential Method**</span></span>](/windows/desktop/api/IdentityProvider/nf-identityprovider-iassociatedidentityprovider-changecredential)
--   [<span data-ttu-id="b4c19-108">**DisassociateIdentity 方法**</span><span class="sxs-lookup"><span data-stu-id="b4c19-108">**DisassociateIdentity Method**</span></span>](/windows/desktop/api/IdentityProvider/nf-identityprovider-iassociatedidentityprovider-disassociateidentity)
+-   [<span data-ttu-id="646bc-106">**AssociateIdentity 方法**</span><span class="sxs-lookup"><span data-stu-id="646bc-106">**AssociateIdentity Method**</span></span>](/windows/desktop/api/IdentityProvider/nf-identityprovider-iassociatedidentityprovider-associateidentity)
+-   [<span data-ttu-id="646bc-107">**ChangeCredential 方法**</span><span class="sxs-lookup"><span data-stu-id="646bc-107">**ChangeCredential Method**</span></span>](/windows/desktop/api/IdentityProvider/nf-identityprovider-iassociatedidentityprovider-changecredential)
+-   [<span data-ttu-id="646bc-108">**DisassociateIdentity 方法**</span><span class="sxs-lookup"><span data-stu-id="646bc-108">**DisassociateIdentity Method**</span></span>](/windows/desktop/api/IdentityProvider/nf-identityprovider-iassociatedidentityprovider-disassociateidentity)
 
  
 

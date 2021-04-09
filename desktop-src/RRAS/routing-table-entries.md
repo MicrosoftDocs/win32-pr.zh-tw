@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673083"
 ---
-# <a name="routing-table-entries"></a><span data-ttu-id="4b6b3-103">路由表專案</span><span class="sxs-lookup"><span data-stu-id="4b6b3-103">Routing Table Entries</span></span>
+# <a name="routing-table-entries"></a><span data-ttu-id="8c1a6-103">路由表專案</span><span class="sxs-lookup"><span data-stu-id="8c1a6-103">Routing Table Entries</span></span>
 
-<span data-ttu-id="4b6b3-104">路由表包含三種類型的專案： [目的地](destinations.md)、 [路由](routes-and-the-best-route.md)和 [下一個躍點](next-hops.md)。</span><span class="sxs-lookup"><span data-stu-id="4b6b3-104">The routing table consists of three types of entries: [destinations](destinations.md), [routes](routes-and-the-best-route.md), and [next hops](next-hops.md).</span></span>
+<span data-ttu-id="8c1a6-104">路由表包含三種類型的專案： [目的地](destinations.md)、 [路由](routes-and-the-best-route.md)和 [下一個躍點](next-hops.md)。</span><span class="sxs-lookup"><span data-stu-id="8c1a6-104">The routing table consists of three types of entries: [destinations](destinations.md), [routes](routes-and-the-best-route.md), and [next hops](next-hops.md).</span></span>
 
  
 

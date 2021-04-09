@@ -22,11 +22,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843500"
 ---
-# <a name="mpthreat_stats-structure"></a><span data-ttu-id="b5945-105">MPTHREAT \_ 統計結構</span><span class="sxs-lookup"><span data-stu-id="b5945-105">MPTHREAT\_STATS structure</span></span>
+# <a name="mpthreat_stats-structure"></a><span data-ttu-id="ee5c6-105">MPTHREAT \_ 統計結構</span><span class="sxs-lookup"><span data-stu-id="ee5c6-105">MPTHREAT\_STATS structure</span></span>
 
-<span data-ttu-id="b5945-106">威脅相關的統計資料。</span><span class="sxs-lookup"><span data-stu-id="b5945-106">Threat-related statistics.</span></span>
+<span data-ttu-id="ee5c6-106">威脅相關的統計資料。</span><span class="sxs-lookup"><span data-stu-id="ee5c6-106">Threat-related statistics.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b5945-107">語法</span><span class="sxs-lookup"><span data-stu-id="b5945-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ee5c6-107">語法</span><span class="sxs-lookup"><span data-stu-id="ee5c6-107">Syntax</span></span>
 
 
 ```C++
@@ -39,52 +39,52 @@ typedef struct tagMPTHREAT_STATS {
 
 
 
-## <a name="members"></a><span data-ttu-id="b5945-108">成員</span><span class="sxs-lookup"><span data-stu-id="b5945-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="ee5c6-108">成員</span><span class="sxs-lookup"><span data-stu-id="ee5c6-108">Members</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="b5945-109">**ThreatCount**</span><span class="sxs-lookup"><span data-stu-id="b5945-109">**ThreatCount**</span></span>
+<span data-ttu-id="ee5c6-109">**ThreatCount**</span><span class="sxs-lookup"><span data-stu-id="ee5c6-109">**ThreatCount**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="b5945-110">類型： **UINT**</span><span class="sxs-lookup"><span data-stu-id="b5945-110">Type: **UINT**</span></span>
+<span data-ttu-id="ee5c6-110">類型： **UINT**</span><span class="sxs-lookup"><span data-stu-id="ee5c6-110">Type: **UINT**</span></span>
 
 </dd> <dd>
 
-<span data-ttu-id="b5945-111">偵測到的威脅數目。</span><span class="sxs-lookup"><span data-stu-id="b5945-111">Number of threats detected.</span></span>
+<span data-ttu-id="ee5c6-111">偵測到的威脅數目。</span><span class="sxs-lookup"><span data-stu-id="ee5c6-111">Number of threats detected.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b5945-112">**SuspiciousThreatCount**</span><span class="sxs-lookup"><span data-stu-id="b5945-112">**SuspiciousThreatCount**</span></span>
+<span data-ttu-id="ee5c6-112">**SuspiciousThreatCount**</span><span class="sxs-lookup"><span data-stu-id="ee5c6-112">**SuspiciousThreatCount**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="b5945-113">類型： **UINT**</span><span class="sxs-lookup"><span data-stu-id="b5945-113">Type: **UINT**</span></span>
+<span data-ttu-id="ee5c6-113">類型： **UINT**</span><span class="sxs-lookup"><span data-stu-id="ee5c6-113">Type: **UINT**</span></span>
 
 </dd> <dd>
 
-<span data-ttu-id="b5945-114">使用行為監視偵測到的威脅數目。</span><span class="sxs-lookup"><span data-stu-id="b5945-114">Number of threats detected with behavior monitoring.</span></span>
+<span data-ttu-id="ee5c6-114">使用行為監視偵測到的威脅數目。</span><span class="sxs-lookup"><span data-stu-id="ee5c6-114">Number of threats detected with behavior monitoring.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b5945-115">**已保留**</span><span class="sxs-lookup"><span data-stu-id="b5945-115">**Reserved**</span></span>
+<span data-ttu-id="ee5c6-115">**已保留**</span><span class="sxs-lookup"><span data-stu-id="ee5c6-115">**Reserved**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="b5945-116">類型： **UINT \[ 4 \]**</span><span class="sxs-lookup"><span data-stu-id="b5945-116">Type: **UINT\[4\]**</span></span>
+<span data-ttu-id="ee5c6-116">類型： **UINT \[ 4 \]**</span><span class="sxs-lookup"><span data-stu-id="ee5c6-116">Type: **UINT\[4\]**</span></span>
 
 </dd> <dd>
 
-<span data-ttu-id="b5945-117">保留供日後使用的欄位。</span><span class="sxs-lookup"><span data-stu-id="b5945-117">Fields reserved for future use.</span></span>
+<span data-ttu-id="ee5c6-117">保留供日後使用的欄位。</span><span class="sxs-lookup"><span data-stu-id="ee5c6-117">Fields reserved for future use.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="b5945-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="b5945-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ee5c6-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="ee5c6-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="b5945-119">需求</span><span class="sxs-lookup"><span data-stu-id="b5945-119">Requirement</span></span> | <span data-ttu-id="b5945-120">值</span><span class="sxs-lookup"><span data-stu-id="b5945-120">Value</span></span> |
+| <span data-ttu-id="ee5c6-119">需求</span><span class="sxs-lookup"><span data-stu-id="ee5c6-119">Requirement</span></span> | <span data-ttu-id="ee5c6-120">值</span><span class="sxs-lookup"><span data-stu-id="ee5c6-120">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="b5945-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b5945-121">Minimum supported client</span></span><br/> | <span data-ttu-id="b5945-122">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b5945-122">Windows 8 \[desktop apps only\]</span></span><br/>                                            |
-| <span data-ttu-id="b5945-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b5945-123">Minimum supported server</span></span><br/> | <span data-ttu-id="b5945-124">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b5945-124">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="b5945-125">標頭</span><span class="sxs-lookup"><span data-stu-id="b5945-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="b5945-126"><dt>MpClient。h</dt></span><span class="sxs-lookup"><span data-stu-id="b5945-126"><dt>MpClient.h</dt></span></span> </dl> |
+| <span data-ttu-id="ee5c6-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ee5c6-121">Minimum supported client</span></span><br/> | <span data-ttu-id="ee5c6-122">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ee5c6-122">Windows 8 \[desktop apps only\]</span></span><br/>                                            |
+| <span data-ttu-id="ee5c6-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ee5c6-123">Minimum supported server</span></span><br/> | <span data-ttu-id="ee5c6-124">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ee5c6-124">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="ee5c6-125">標頭</span><span class="sxs-lookup"><span data-stu-id="ee5c6-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="ee5c6-126"><dt>MpClient。h</dt></span><span class="sxs-lookup"><span data-stu-id="ee5c6-126"><dt>MpClient.h</dt></span></span> </dl> |
 
 
 

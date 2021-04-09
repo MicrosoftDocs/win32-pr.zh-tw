@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692372"
 ---
-# <a name="isremotenpp-function"></a><span data-ttu-id="00103-103">IsRemoteNPP 函式</span><span class="sxs-lookup"><span data-stu-id="00103-103">IsRemoteNPP function</span></span>
+# <a name="isremotenpp-function"></a><span data-ttu-id="118e0-103">IsRemoteNPP 函式</span><span class="sxs-lookup"><span data-stu-id="118e0-103">IsRemoteNPP function</span></span>
 
-<span data-ttu-id="00103-104">**IsRemoteNPP** 函數會指出指定的 BLOB 是否指定遠端 NPP。</span><span class="sxs-lookup"><span data-stu-id="00103-104">The **IsRemoteNPP** function indicates whether the given BLOB specifies a remote NPP.</span></span>
+<span data-ttu-id="118e0-104">**IsRemoteNPP** 函數會指出指定的 BLOB 是否指定遠端 NPP。</span><span class="sxs-lookup"><span data-stu-id="118e0-104">The **IsRemoteNPP** function indicates whether the given BLOB specifies a remote NPP.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="00103-105">語法</span><span class="sxs-lookup"><span data-stu-id="00103-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="118e0-105">語法</span><span class="sxs-lookup"><span data-stu-id="118e0-105">Syntax</span></span>
 
 
 ```C++
@@ -35,38 +35,38 @@ BOOL IsRemoteNPP(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="00103-106">參數</span><span class="sxs-lookup"><span data-stu-id="00103-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="118e0-106">參數</span><span class="sxs-lookup"><span data-stu-id="118e0-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="00103-107">*hBlob* \[在\]</span><span class="sxs-lookup"><span data-stu-id="00103-107">*hBlob* \[in\]</span></span>
+<span data-ttu-id="118e0-107">*hBlob* \[在\]</span><span class="sxs-lookup"><span data-stu-id="118e0-107">*hBlob* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="00103-108">BLOB 的控制碼。</span><span class="sxs-lookup"><span data-stu-id="00103-108">Handle to a BLOB.</span></span>
+<span data-ttu-id="118e0-108">BLOB 的控制碼。</span><span class="sxs-lookup"><span data-stu-id="118e0-108">Handle to a BLOB.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="00103-109">傳回值</span><span class="sxs-lookup"><span data-stu-id="00103-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="118e0-109">傳回值</span><span class="sxs-lookup"><span data-stu-id="118e0-109">Return value</span></span>
 
-<span data-ttu-id="00103-110">如果函式成功，則傳回值為 **TRUE**。</span><span class="sxs-lookup"><span data-stu-id="00103-110">If the function is successful, the return value is **TRUE**.</span></span>
+<span data-ttu-id="118e0-110">如果函式成功，則傳回值為 **TRUE**。</span><span class="sxs-lookup"><span data-stu-id="118e0-110">If the function is successful, the return value is **TRUE**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="00103-111">備註</span><span class="sxs-lookup"><span data-stu-id="00103-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="118e0-111">備註</span><span class="sxs-lookup"><span data-stu-id="118e0-111">Remarks</span></span>
 
-<span data-ttu-id="00103-112">您可以使用此函式來測試遠端類別是否存在。</span><span class="sxs-lookup"><span data-stu-id="00103-112">Use this function to test whether a remote category exists.</span></span>
+<span data-ttu-id="118e0-112">您可以使用此函式來測試遠端類別是否存在。</span><span class="sxs-lookup"><span data-stu-id="118e0-112">Use this function to test whether a remote category exists.</span></span>
 
-<span data-ttu-id="00103-113">確定遠端和本機電腦名稱稱不同。</span><span class="sxs-lookup"><span data-stu-id="00103-113">Make certain that the remote and local computer names are different.</span></span>
+<span data-ttu-id="118e0-113">確定遠端和本機電腦名稱稱不同。</span><span class="sxs-lookup"><span data-stu-id="118e0-113">Make certain that the remote and local computer names are different.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="00103-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="00103-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="118e0-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="118e0-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="00103-115">需求</span><span class="sxs-lookup"><span data-stu-id="00103-115">Requirement</span></span> | <span data-ttu-id="00103-116">值</span><span class="sxs-lookup"><span data-stu-id="00103-116">Value</span></span> |
+| <span data-ttu-id="118e0-115">需求</span><span class="sxs-lookup"><span data-stu-id="118e0-115">Requirement</span></span> | <span data-ttu-id="118e0-116">值</span><span class="sxs-lookup"><span data-stu-id="118e0-116">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="00103-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="00103-117">Minimum supported client</span></span><br/> | <span data-ttu-id="00103-118">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="00103-118">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                              |
-| <span data-ttu-id="00103-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="00103-119">Minimum supported server</span></span><br/> | <span data-ttu-id="00103-120">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="00103-120">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="00103-121">標頭</span><span class="sxs-lookup"><span data-stu-id="00103-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="00103-122"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="00103-122"><dt>Netmon.h</dt></span></span> </dl>     |
-| <span data-ttu-id="00103-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="00103-123">Library</span></span><br/>                  | <dl> <span data-ttu-id="00103-124"><dt>Npptools .lib</dt></span><span class="sxs-lookup"><span data-stu-id="00103-124"><dt>Npptools.lib</dt></span></span> </dl> |
-| <span data-ttu-id="00103-125">DLL</span><span class="sxs-lookup"><span data-stu-id="00103-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="00103-126"><dt>Npptools.dll</dt></span><span class="sxs-lookup"><span data-stu-id="00103-126"><dt>Npptools.dll</dt></span></span> </dl> |
+| <span data-ttu-id="118e0-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="118e0-117">Minimum supported client</span></span><br/> | <span data-ttu-id="118e0-118">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="118e0-118">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                              |
+| <span data-ttu-id="118e0-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="118e0-119">Minimum supported server</span></span><br/> | <span data-ttu-id="118e0-120">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="118e0-120">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="118e0-121">標頭</span><span class="sxs-lookup"><span data-stu-id="118e0-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="118e0-122"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="118e0-122"><dt>Netmon.h</dt></span></span> </dl>     |
+| <span data-ttu-id="118e0-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="118e0-123">Library</span></span><br/>                  | <dl> <span data-ttu-id="118e0-124"><dt>Npptools .lib</dt></span><span class="sxs-lookup"><span data-stu-id="118e0-124"><dt>Npptools.lib</dt></span></span> </dl> |
+| <span data-ttu-id="118e0-125">DLL</span><span class="sxs-lookup"><span data-stu-id="118e0-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="118e0-126"><dt>Npptools.dll</dt></span><span class="sxs-lookup"><span data-stu-id="118e0-126"><dt>Npptools.dll</dt></span></span> </dl> |
 
 
 

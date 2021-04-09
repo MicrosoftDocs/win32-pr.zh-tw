@@ -13,16 +13,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672876"
 ---
-# <a name="structured-storage-reference"></a><span data-ttu-id="3ef4e-104">結構化儲存體參考</span><span class="sxs-lookup"><span data-stu-id="3ef4e-104">Structured Storage Reference</span></span>
+# <a name="structured-storage-reference"></a><span data-ttu-id="a7d64-104">結構化儲存體參考</span><span class="sxs-lookup"><span data-stu-id="a7d64-104">Structured Storage Reference</span></span>
 
-<span data-ttu-id="3ef4e-105">本節提供結構化儲存體之程式設計項目的參考資料。</span><span class="sxs-lookup"><span data-stu-id="3ef4e-105">This section provides reference material for the programming elements of Structured Storage.</span></span>
+<span data-ttu-id="a7d64-105">本節提供結構化儲存體之程式設計項目的參考資料。</span><span class="sxs-lookup"><span data-stu-id="a7d64-105">This section provides reference material for the programming elements of Structured Storage.</span></span>
 
--   [<span data-ttu-id="3ef4e-106">介面</span><span class="sxs-lookup"><span data-stu-id="3ef4e-106">Interfaces</span></span>](interfaces.md)
--   [<span data-ttu-id="3ef4e-107">函數</span><span class="sxs-lookup"><span data-stu-id="3ef4e-107">Functions</span></span>](functions.md)
--   [<span data-ttu-id="3ef4e-108">結構</span><span class="sxs-lookup"><span data-stu-id="3ef4e-108">Structures</span></span>](structures.md)
--   [<span data-ttu-id="3ef4e-109">列舉</span><span class="sxs-lookup"><span data-stu-id="3ef4e-109">Enumerations</span></span>](enumerations.md)
--   [<span data-ttu-id="3ef4e-110">常數</span><span class="sxs-lookup"><span data-stu-id="3ef4e-110">Constants</span></span>](constants.md)
--   [<span data-ttu-id="3ef4e-111">範例</span><span class="sxs-lookup"><span data-stu-id="3ef4e-111">Samples</span></span>](samples.md)
+-   [<span data-ttu-id="a7d64-106">介面</span><span class="sxs-lookup"><span data-stu-id="a7d64-106">Interfaces</span></span>](interfaces.md)
+-   [<span data-ttu-id="a7d64-107">函數</span><span class="sxs-lookup"><span data-stu-id="a7d64-107">Functions</span></span>](functions.md)
+-   [<span data-ttu-id="a7d64-108">結構</span><span class="sxs-lookup"><span data-stu-id="a7d64-108">Structures</span></span>](structures.md)
+-   [<span data-ttu-id="a7d64-109">列舉</span><span class="sxs-lookup"><span data-stu-id="a7d64-109">Enumerations</span></span>](enumerations.md)
+-   [<span data-ttu-id="a7d64-110">常數</span><span class="sxs-lookup"><span data-stu-id="a7d64-110">Constants</span></span>](constants.md)
+-   [<span data-ttu-id="a7d64-111">範例</span><span class="sxs-lookup"><span data-stu-id="a7d64-111">Samples</span></span>](samples.md)
 
  
 

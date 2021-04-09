@@ -21,45 +21,45 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844088"
 ---
-# <a name="lvm_getunicodeformat-message"></a><span data-ttu-id="ddbdb-105">LVM \_ GETUNICODEFORMAT 訊息</span><span class="sxs-lookup"><span data-stu-id="ddbdb-105">LVM\_GETUNICODEFORMAT message</span></span>
+# <a name="lvm_getunicodeformat-message"></a><span data-ttu-id="3da2d-105">LVM \_ GETUNICODEFORMAT 訊息</span><span class="sxs-lookup"><span data-stu-id="3da2d-105">LVM\_GETUNICODEFORMAT message</span></span>
 
-<span data-ttu-id="ddbdb-106">抓取控制項的 UNICODE 字元格式旗標。</span><span class="sxs-lookup"><span data-stu-id="ddbdb-106">Retrieves the UNICODE character format flag for the control.</span></span> <span data-ttu-id="ddbdb-107">您可以明確地傳送此訊息，或使用 [**ListView \_ GetUnicodeFormat**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getunicodeformat) 宏。</span><span class="sxs-lookup"><span data-stu-id="ddbdb-107">You can send this message explicitly or use the [**ListView\_GetUnicodeFormat**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getunicodeformat) macro.</span></span>
+<span data-ttu-id="3da2d-106">抓取控制項的 UNICODE 字元格式旗標。</span><span class="sxs-lookup"><span data-stu-id="3da2d-106">Retrieves the UNICODE character format flag for the control.</span></span> <span data-ttu-id="3da2d-107">您可以明確地傳送此訊息，或使用 [**ListView \_ GetUnicodeFormat**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getunicodeformat) 宏。</span><span class="sxs-lookup"><span data-stu-id="3da2d-107">You can send this message explicitly or use the [**ListView\_GetUnicodeFormat**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getunicodeformat) macro.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="ddbdb-108">參數</span><span class="sxs-lookup"><span data-stu-id="ddbdb-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3da2d-108">參數</span><span class="sxs-lookup"><span data-stu-id="3da2d-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="ddbdb-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="ddbdb-109">*wParam*</span></span> 
-</dt> <dd><span data-ttu-id="ddbdb-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="ddbdb-110">Must be zero.</span></span></dd> <dt>
+<span data-ttu-id="3da2d-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="3da2d-109">*wParam*</span></span> 
+</dt> <dd><span data-ttu-id="3da2d-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="3da2d-110">Must be zero.</span></span></dd> <dt>
 
-<span data-ttu-id="ddbdb-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="ddbdb-111">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="ddbdb-112">必須為零。</span><span class="sxs-lookup"><span data-stu-id="ddbdb-112">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="3da2d-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="3da2d-111">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="3da2d-112">必須為零。</span><span class="sxs-lookup"><span data-stu-id="3da2d-112">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="ddbdb-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="ddbdb-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3da2d-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="3da2d-113">Return value</span></span>
 
-<span data-ttu-id="ddbdb-114">傳回控制項的 Unicode 格式旗標。</span><span class="sxs-lookup"><span data-stu-id="ddbdb-114">Returns the Unicode format flag for the control.</span></span> <span data-ttu-id="ddbdb-115">如果這個值為非零值，則控制項會使用 Unicode 字元。</span><span class="sxs-lookup"><span data-stu-id="ddbdb-115">If this value is nonzero, the control is using Unicode characters.</span></span> <span data-ttu-id="ddbdb-116">如果這個值為零，則控制項會使用 ANSI 字元。</span><span class="sxs-lookup"><span data-stu-id="ddbdb-116">If this value is zero, the control is using ANSI characters.</span></span>
+<span data-ttu-id="3da2d-114">傳回控制項的 Unicode 格式旗標。</span><span class="sxs-lookup"><span data-stu-id="3da2d-114">Returns the Unicode format flag for the control.</span></span> <span data-ttu-id="3da2d-115">如果這個值為非零值，則控制項會使用 Unicode 字元。</span><span class="sxs-lookup"><span data-stu-id="3da2d-115">If this value is nonzero, the control is using Unicode characters.</span></span> <span data-ttu-id="3da2d-116">如果這個值為零，則控制項會使用 ANSI 字元。</span><span class="sxs-lookup"><span data-stu-id="3da2d-116">If this value is zero, the control is using ANSI characters.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ddbdb-117">備註</span><span class="sxs-lookup"><span data-stu-id="ddbdb-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3da2d-117">備註</span><span class="sxs-lookup"><span data-stu-id="3da2d-117">Remarks</span></span>
 
-<span data-ttu-id="ddbdb-118">如需此訊息的討論，請參閱 [**CCM \_ GETUNICODEFORMAT**](ccm-getunicodeformat.md) 的備註。</span><span class="sxs-lookup"><span data-stu-id="ddbdb-118">See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a discussion of this message.</span></span>
+<span data-ttu-id="3da2d-118">如需此訊息的討論，請參閱 [**CCM \_ GETUNICODEFORMAT**](ccm-getunicodeformat.md) 的備註。</span><span class="sxs-lookup"><span data-stu-id="3da2d-118">See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a discussion of this message.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="ddbdb-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="ddbdb-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3da2d-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="3da2d-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="ddbdb-120">需求</span><span class="sxs-lookup"><span data-stu-id="ddbdb-120">Requirement</span></span> | <span data-ttu-id="ddbdb-121">值</span><span class="sxs-lookup"><span data-stu-id="ddbdb-121">Value</span></span> |
+| <span data-ttu-id="3da2d-120">需求</span><span class="sxs-lookup"><span data-stu-id="3da2d-120">Requirement</span></span> | <span data-ttu-id="3da2d-121">值</span><span class="sxs-lookup"><span data-stu-id="3da2d-121">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="ddbdb-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ddbdb-122">Minimum supported client</span></span><br/> | <span data-ttu-id="ddbdb-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ddbdb-123">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="ddbdb-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ddbdb-124">Minimum supported server</span></span><br/> | <span data-ttu-id="ddbdb-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ddbdb-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="ddbdb-126">標頭</span><span class="sxs-lookup"><span data-stu-id="ddbdb-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="ddbdb-127"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="ddbdb-127"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="3da2d-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3da2d-122">Minimum supported client</span></span><br/> | <span data-ttu-id="3da2d-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3da2d-123">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="3da2d-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3da2d-124">Minimum supported server</span></span><br/> | <span data-ttu-id="3da2d-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3da2d-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="3da2d-126">標頭</span><span class="sxs-lookup"><span data-stu-id="3da2d-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="3da2d-127"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="3da2d-127"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="ddbdb-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ddbdb-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3da2d-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3da2d-128">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ddbdb-129">**LVM \_ SETUNICODEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="ddbdb-129">**LVM\_SETUNICODEFORMAT**</span></span>](lvm-setunicodeformat.md)
+[<span data-ttu-id="3da2d-129">**LVM \_ SETUNICODEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="3da2d-129">**LVM\_SETUNICODEFORMAT**</span></span>](lvm-setunicodeformat.md)
 </dt> </dl>
 
  

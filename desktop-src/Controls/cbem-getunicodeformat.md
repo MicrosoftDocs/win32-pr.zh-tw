@@ -21,45 +21,45 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844351"
 ---
-# <a name="cbem_getunicodeformat-message"></a><span data-ttu-id="f502f-104">CBEM \_ GETUNICODEFORMAT 訊息</span><span class="sxs-lookup"><span data-stu-id="f502f-104">CBEM\_GETUNICODEFORMAT message</span></span>
+# <a name="cbem_getunicodeformat-message"></a><span data-ttu-id="544ca-104">CBEM \_ GETUNICODEFORMAT 訊息</span><span class="sxs-lookup"><span data-stu-id="544ca-104">CBEM\_GETUNICODEFORMAT message</span></span>
 
-<span data-ttu-id="f502f-105">取得控制項的 UNICODE 字元格式旗標。</span><span class="sxs-lookup"><span data-stu-id="f502f-105">Gets the UNICODE character format flag for the control.</span></span>
+<span data-ttu-id="544ca-105">取得控制項的 UNICODE 字元格式旗標。</span><span class="sxs-lookup"><span data-stu-id="544ca-105">Gets the UNICODE character format flag for the control.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="f502f-106">參數</span><span class="sxs-lookup"><span data-stu-id="f502f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="544ca-106">參數</span><span class="sxs-lookup"><span data-stu-id="544ca-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="f502f-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="f502f-107">*wParam*</span></span> 
-</dt> <dd><span data-ttu-id="f502f-108">必須為零。</span><span class="sxs-lookup"><span data-stu-id="f502f-108">Must be zero.</span></span></dd> <dt>
+<span data-ttu-id="544ca-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="544ca-107">*wParam*</span></span> 
+</dt> <dd><span data-ttu-id="544ca-108">必須為零。</span><span class="sxs-lookup"><span data-stu-id="544ca-108">Must be zero.</span></span></dd> <dt>
 
-<span data-ttu-id="f502f-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="f502f-109">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="f502f-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="f502f-110">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="544ca-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="544ca-109">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="544ca-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="544ca-110">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="f502f-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="f502f-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="544ca-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="544ca-111">Return value</span></span>
 
-<span data-ttu-id="f502f-112">傳回控制項的 Unicode 格式旗標。</span><span class="sxs-lookup"><span data-stu-id="f502f-112">Returns the Unicode format flag for the control.</span></span> <span data-ttu-id="f502f-113">如果這個值為非零值，則控制項會使用 Unicode 字元。</span><span class="sxs-lookup"><span data-stu-id="f502f-113">If this value is nonzero, the control is using Unicode characters.</span></span> <span data-ttu-id="f502f-114">如果這個值為零，則控制項會使用 ANSI 字元。</span><span class="sxs-lookup"><span data-stu-id="f502f-114">If this value is zero, the control is using ANSI characters.</span></span>
+<span data-ttu-id="544ca-112">傳回控制項的 Unicode 格式旗標。</span><span class="sxs-lookup"><span data-stu-id="544ca-112">Returns the Unicode format flag for the control.</span></span> <span data-ttu-id="544ca-113">如果這個值為非零值，則控制項會使用 Unicode 字元。</span><span class="sxs-lookup"><span data-stu-id="544ca-113">If this value is nonzero, the control is using Unicode characters.</span></span> <span data-ttu-id="544ca-114">如果這個值為零，則控制項會使用 ANSI 字元。</span><span class="sxs-lookup"><span data-stu-id="544ca-114">If this value is zero, the control is using ANSI characters.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f502f-115">備註</span><span class="sxs-lookup"><span data-stu-id="f502f-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="544ca-115">備註</span><span class="sxs-lookup"><span data-stu-id="544ca-115">Remarks</span></span>
 
-<span data-ttu-id="f502f-116">如需此訊息的討論，請參閱 [**CCM \_ GETUNICODEFORMAT**](ccm-getunicodeformat.md) 的備註。</span><span class="sxs-lookup"><span data-stu-id="f502f-116">See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a discussion of this message.</span></span>
+<span data-ttu-id="544ca-116">如需此訊息的討論，請參閱 [**CCM \_ GETUNICODEFORMAT**](ccm-getunicodeformat.md) 的備註。</span><span class="sxs-lookup"><span data-stu-id="544ca-116">See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a discussion of this message.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f502f-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="f502f-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="544ca-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="544ca-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f502f-118">需求</span><span class="sxs-lookup"><span data-stu-id="f502f-118">Requirement</span></span> | <span data-ttu-id="f502f-119">值</span><span class="sxs-lookup"><span data-stu-id="f502f-119">Value</span></span> |
+| <span data-ttu-id="544ca-118">需求</span><span class="sxs-lookup"><span data-stu-id="544ca-118">Requirement</span></span> | <span data-ttu-id="544ca-119">值</span><span class="sxs-lookup"><span data-stu-id="544ca-119">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="f502f-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f502f-120">Minimum supported client</span></span><br/> | <span data-ttu-id="f502f-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f502f-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="f502f-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f502f-122">Minimum supported server</span></span><br/> | <span data-ttu-id="f502f-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f502f-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="f502f-124">標頭</span><span class="sxs-lookup"><span data-stu-id="f502f-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="f502f-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="f502f-125"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="544ca-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="544ca-120">Minimum supported client</span></span><br/> | <span data-ttu-id="544ca-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="544ca-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="544ca-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="544ca-122">Minimum supported server</span></span><br/> | <span data-ttu-id="544ca-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="544ca-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="544ca-124">標頭</span><span class="sxs-lookup"><span data-stu-id="544ca-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="544ca-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="544ca-125"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f502f-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f502f-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="544ca-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="544ca-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f502f-127">**CBEM \_ SETUNICODEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="f502f-127">**CBEM\_SETUNICODEFORMAT**</span></span>](cbem-setunicodeformat.md)
+[<span data-ttu-id="544ca-127">**CBEM \_ SETUNICODEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="544ca-127">**CBEM\_SETUNICODEFORMAT**</span></span>](cbem-setunicodeformat.md)
 </dt> </dl>
 
  

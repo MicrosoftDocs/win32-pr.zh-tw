@@ -11,31 +11,31 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692323"
 ---
-# <a name="mfprotection_acp-attribute"></a><span data-ttu-id="9116c-103">MFPROTECTION \_ ACP 屬性</span><span class="sxs-lookup"><span data-stu-id="9116c-103">MFPROTECTION\_ACP attribute</span></span>
+# <a name="mfprotection_acp-attribute"></a><span data-ttu-id="6d10b-103">MFPROTECTION \_ ACP 屬性</span><span class="sxs-lookup"><span data-stu-id="6d10b-103">MFPROTECTION\_ACP attribute</span></span>
 
-<span data-ttu-id="9116c-104">指定 (ACP) 保護的類比禁止複製。</span><span class="sxs-lookup"><span data-stu-id="9116c-104">Specifies Analog Copy Protection (ACP) protection.</span></span>
+<span data-ttu-id="6d10b-104">指定 (ACP) 保護的類比禁止複製。</span><span class="sxs-lookup"><span data-stu-id="6d10b-104">Specifies Analog Copy Protection (ACP) protection.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="9116c-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="9116c-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="6d10b-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="6d10b-105">Data type</span></span>
 
-<span data-ttu-id="9116c-106">**GUID**</span><span class="sxs-lookup"><span data-stu-id="9116c-106">**GUID**</span></span>
+<span data-ttu-id="6d10b-106">**GUID**</span><span class="sxs-lookup"><span data-stu-id="6d10b-106">**GUID**</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="9116c-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="9116c-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6d10b-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="6d10b-107">Requirements</span></span>
 
 
 
-| <span data-ttu-id="9116c-108">需求</span><span class="sxs-lookup"><span data-stu-id="9116c-108">Requirement</span></span> | <span data-ttu-id="9116c-109">值</span><span class="sxs-lookup"><span data-stu-id="9116c-109">Value</span></span> |
+| <span data-ttu-id="6d10b-108">需求</span><span class="sxs-lookup"><span data-stu-id="6d10b-108">Requirement</span></span> | <span data-ttu-id="6d10b-109">值</span><span class="sxs-lookup"><span data-stu-id="6d10b-109">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="9116c-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9116c-110">Minimum supported client</span></span><br/> | <span data-ttu-id="9116c-111">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9116c-111">Windows 8 \[desktop apps only\]</span></span><br/>                                         |
-| <span data-ttu-id="9116c-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9116c-112">Minimum supported server</span></span><br/> | <span data-ttu-id="9116c-113">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9116c-113">Windows Server 2012 \[desktop apps only\]</span></span><br/>                               |
-| <span data-ttu-id="9116c-114">標頭</span><span class="sxs-lookup"><span data-stu-id="9116c-114">Header</span></span><br/>                   | <dl> <span data-ttu-id="9116c-115"><dt>Mfidl。h</dt></span><span class="sxs-lookup"><span data-stu-id="9116c-115"><dt>Mfidl.h</dt></span></span> </dl> |
+| <span data-ttu-id="6d10b-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6d10b-110">Minimum supported client</span></span><br/> | <span data-ttu-id="6d10b-111">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6d10b-111">Windows 8 \[desktop apps only\]</span></span><br/>                                         |
+| <span data-ttu-id="6d10b-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6d10b-112">Minimum supported server</span></span><br/> | <span data-ttu-id="6d10b-113">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6d10b-113">Windows Server 2012 \[desktop apps only\]</span></span><br/>                               |
+| <span data-ttu-id="6d10b-114">標頭</span><span class="sxs-lookup"><span data-stu-id="6d10b-114">Header</span></span><br/>                   | <dl> <span data-ttu-id="6d10b-115"><dt>Mfidl。h</dt></span><span class="sxs-lookup"><span data-stu-id="6d10b-115"><dt>Mfidl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="9116c-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9116c-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6d10b-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6d10b-116">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9116c-117">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="9116c-117">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="6d10b-117">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="6d10b-117">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> </dl>
 
  

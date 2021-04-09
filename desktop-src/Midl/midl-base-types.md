@@ -13,13 +13,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103931786"
 ---
-# <a name="midl-base-types"></a><span data-ttu-id="f9c0d-104">MIDL 基底類型</span><span class="sxs-lookup"><span data-stu-id="f9c0d-104">MIDL Base Types</span></span>
+# <a name="midl-base-types"></a><span data-ttu-id="cbdbe-104">MIDL 基底類型</span><span class="sxs-lookup"><span data-stu-id="cbdbe-104">MIDL Base Types</span></span>
 
-<span data-ttu-id="f9c0d-105">若要透過網路傳輸，所有資料類型都必須解析成 MIDL 基底類型或預先定義的類型。</span><span class="sxs-lookup"><span data-stu-id="f9c0d-105">To be transmitted over a network, all data types must resolve to a MIDL base type or predefined type.</span></span> <span data-ttu-id="f9c0d-106">本節提供 MIDL 定義的預先定義和基底類型：</span><span class="sxs-lookup"><span data-stu-id="f9c0d-106">This section presents the predefined and base types that MIDL defines:</span></span>
+<span data-ttu-id="cbdbe-105">若要透過網路傳輸，所有資料類型都必須解析成 MIDL 基底類型或預先定義的類型。</span><span class="sxs-lookup"><span data-stu-id="cbdbe-105">To be transmitted over a network, all data types must resolve to a MIDL base type or predefined type.</span></span> <span data-ttu-id="cbdbe-106">本節提供 MIDL 定義的預先定義和基底類型：</span><span class="sxs-lookup"><span data-stu-id="cbdbe-106">This section presents the predefined and base types that MIDL defines:</span></span>
 
--   [<span data-ttu-id="f9c0d-107">MIDL 預先定義和基底類型</span><span class="sxs-lookup"><span data-stu-id="f9c0d-107">MIDL Predefined and Base Types</span></span>](midl-predefined-and-base-types.md)
--   [<span data-ttu-id="f9c0d-108">帶正負號和不帶正負號類型</span><span class="sxs-lookup"><span data-stu-id="f9c0d-108">Signed and Unsigned Types</span></span>](signed-vs--unsigned-types.md)
--   [<span data-ttu-id="f9c0d-109">其他 MIDL 資料類型</span><span class="sxs-lookup"><span data-stu-id="f9c0d-109">Other MIDL Data Types</span></span>](other-midl-data-types.md)
+-   [<span data-ttu-id="cbdbe-107">MIDL 預先定義和基底類型</span><span class="sxs-lookup"><span data-stu-id="cbdbe-107">MIDL Predefined and Base Types</span></span>](midl-predefined-and-base-types.md)
+-   [<span data-ttu-id="cbdbe-108">帶正負號和不帶正負號類型</span><span class="sxs-lookup"><span data-stu-id="cbdbe-108">Signed and Unsigned Types</span></span>](signed-vs--unsigned-types.md)
+-   [<span data-ttu-id="cbdbe-109">其他 MIDL 資料類型</span><span class="sxs-lookup"><span data-stu-id="cbdbe-109">Other MIDL Data Types</span></span>](other-midl-data-types.md)
 
  
 

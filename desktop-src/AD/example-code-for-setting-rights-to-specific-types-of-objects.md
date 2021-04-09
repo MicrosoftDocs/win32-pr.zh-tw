@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671288"
 ---
-# <a name="example-code-for-setting-rights-to-specific-types-of-objects"></a><span data-ttu-id="d102d-104">設定特定物件類型之許可權的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="d102d-104">Example Code for Setting Rights to Specific Types of Objects</span></span>
+# <a name="example-code-for-setting-rights-to-specific-types-of-objects"></a><span data-ttu-id="65ff0-104">設定特定物件類型之許可權的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="65ff0-104">Example Code for Setting Rights to Specific Types of Objects</span></span>
 
-<span data-ttu-id="d102d-105">下列 C/c + + 程式碼範例會建立一個 ACE，指派由指定的物件類型繼承的許可權，但在目前的物件上並不有效。</span><span class="sxs-lookup"><span data-stu-id="d102d-105">The following C/C++ code example creates an ACE that assigns rights that are inherited by the specified type of object, but are not effective on the current object.</span></span>
+<span data-ttu-id="65ff0-105">下列 C/c + + 程式碼範例會建立一個 ACE，指派由指定的物件類型繼承的許可權，但在目前的物件上並不有效。</span><span class="sxs-lookup"><span data-stu-id="65ff0-105">The following C/C++ code example creates an ACE that assigns rights that are inherited by the specified type of object, but are not effective on the current object.</span></span>
 
 
 ```C++

@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839220"
 ---
-# <a name="code-example-for-working-with-adsi-error-messages"></a><span data-ttu-id="88b0c-104">使用 ADSI 錯誤訊息的程式碼範例</span><span class="sxs-lookup"><span data-stu-id="88b0c-104">Code Example for Working with ADSI Error Messages</span></span>
+# <a name="code-example-for-working-with-adsi-error-messages"></a><span data-ttu-id="5c1b3-104">使用 ADSI 錯誤訊息的程式碼範例</span><span class="sxs-lookup"><span data-stu-id="5c1b3-104">Code Example for Working with ADSI Error Messages</span></span>
 
-<span data-ttu-id="88b0c-105">下列程式碼範例示範如何取出 ADSI 錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="88b0c-105">The following code example shows how to retrieve an ADSI error message.</span></span>
+<span data-ttu-id="5c1b3-105">下列程式碼範例示範如何取出 ADSI 錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="5c1b3-105">The following code example shows how to retrieve an ADSI error message.</span></span>
 
 
 ```C++

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673183"
 ---
-# <a name="ui_pkey_decimalplaces"></a><span data-ttu-id="f382d-103">UI \_ PKEY \_ 小數</span><span class="sxs-lookup"><span data-stu-id="f382d-103">UI\_PKEY\_DecimalPlaces</span></span>
+# <a name="ui_pkey_decimalplaces"></a><span data-ttu-id="1e6ca-103">UI \_ PKEY \_ 小數</span><span class="sxs-lookup"><span data-stu-id="1e6ca-103">UI\_PKEY\_DecimalPlaces</span></span>
 
-<span data-ttu-id="f382d-104">識別 UI \_ PKEY \_ 小數屬性。</span><span class="sxs-lookup"><span data-stu-id="f382d-104">Identifies the UI\_PKEY\_DecimalPlaces property.</span></span>
+<span data-ttu-id="1e6ca-104">識別 UI \_ PKEY \_ 小數屬性。</span><span class="sxs-lookup"><span data-stu-id="1e6ca-104">Identifies the UI\_PKEY\_DecimalPlaces property.</span></span>
 
 ```
 propertyDescription
@@ -25,15 +25,15 @@ propertyDescription
       type = VT_UI4
 ```
 
-## <a name="remarks"></a><span data-ttu-id="f382d-105">備註</span><span class="sxs-lookup"><span data-stu-id="f382d-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1e6ca-105">備註</span><span class="sxs-lookup"><span data-stu-id="1e6ca-105">Remarks</span></span>
 
-<span data-ttu-id="f382d-106">\_ \_ 應用程式會使用 UI PKEY 小數值來查詢[微調](windowsribbon-controls-spinner.md)控制項之 [編輯] 欄位中的小數點後所顯示的位數。</span><span class="sxs-lookup"><span data-stu-id="f382d-106">UI\_PKEY\_DecimalPlaces is used by an application to query the number of digits shown after the decimal point in the edit field of the [Spinner](windowsribbon-controls-spinner.md) control.</span></span>
+<span data-ttu-id="1e6ca-106">\_ \_ 應用程式會使用 UI PKEY 小數值來查詢[微調](windowsribbon-controls-spinner.md)控制項之 [編輯] 欄位中的小數點後所顯示的位數。</span><span class="sxs-lookup"><span data-stu-id="1e6ca-106">UI\_PKEY\_DecimalPlaces is used by an application to query the number of digits shown after the decimal point in the edit field of the [Spinner](windowsribbon-controls-spinner.md) control.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="f382d-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="f382d-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1e6ca-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="1e6ca-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f382d-108">狀態屬性</span><span class="sxs-lookup"><span data-stu-id="f382d-108">State Properties</span></span>](windowsribbon-reference-properties-state.md)
+[<span data-ttu-id="1e6ca-108">狀態屬性</span><span class="sxs-lookup"><span data-stu-id="1e6ca-108">State Properties</span></span>](windowsribbon-reference-properties-state.md)
 </dt> </dl>
 
  

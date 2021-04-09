@@ -12,17 +12,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692188"
 ---
-# <a name="swbemmethod-properties"></a><span data-ttu-id="6aac0-103">SWbemMethod 屬性</span><span class="sxs-lookup"><span data-stu-id="6aac0-103">SWbemMethod Properties</span></span>
+# <a name="swbemmethod-properties"></a><span data-ttu-id="1366e-103">SWbemMethod 屬性</span><span class="sxs-lookup"><span data-stu-id="1366e-103">SWbemMethod Properties</span></span>
 
-<span data-ttu-id="6aac0-104">[**SWbemMethod**](swbemmethod.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="6aac0-104">The [**SWbemMethod**](swbemmethod.md) object exposes the following properties.</span></span>
+<span data-ttu-id="1366e-104">[**SWbemMethod**](swbemmethod.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="1366e-104">The [**SWbemMethod**](swbemmethod.md) object exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="6aac0-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="6aac0-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1366e-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="1366e-105">In this section</span></span>
 
--   [<span data-ttu-id="6aac0-106">**InParameters 屬性**</span><span class="sxs-lookup"><span data-stu-id="6aac0-106">**InParameters property**</span></span>](swbemmethod-inparameters.md)
--   [<span data-ttu-id="6aac0-107">**Name 屬性**</span><span class="sxs-lookup"><span data-stu-id="6aac0-107">**Name property**</span></span>](swbemmethod-name.md)
--   [<span data-ttu-id="6aac0-108">**來源屬性**</span><span class="sxs-lookup"><span data-stu-id="6aac0-108">**Origin property**</span></span>](swbemmethod-origin.md)
--   [<span data-ttu-id="6aac0-109">**OutParameters 屬性**</span><span class="sxs-lookup"><span data-stu-id="6aac0-109">**OutParameters property**</span></span>](swbemmethod-outparameters.md)
--   [<span data-ttu-id="6aac0-110">**限定詞 \_ 屬性**</span><span class="sxs-lookup"><span data-stu-id="6aac0-110">**Qualifiers\_ property**</span></span>](swbemmethod-qualifiers-.md)
+-   [<span data-ttu-id="1366e-106">**InParameters 屬性**</span><span class="sxs-lookup"><span data-stu-id="1366e-106">**InParameters property**</span></span>](swbemmethod-inparameters.md)
+-   [<span data-ttu-id="1366e-107">**Name 屬性**</span><span class="sxs-lookup"><span data-stu-id="1366e-107">**Name property**</span></span>](swbemmethod-name.md)
+-   [<span data-ttu-id="1366e-108">**來源屬性**</span><span class="sxs-lookup"><span data-stu-id="1366e-108">**Origin property**</span></span>](swbemmethod-origin.md)
+-   [<span data-ttu-id="1366e-109">**OutParameters 屬性**</span><span class="sxs-lookup"><span data-stu-id="1366e-109">**OutParameters property**</span></span>](swbemmethod-outparameters.md)
+-   [<span data-ttu-id="1366e-110">**限定詞 \_ 屬性**</span><span class="sxs-lookup"><span data-stu-id="1366e-110">**Qualifiers\_ property**</span></span>](swbemmethod-qualifiers-.md)
 
  
 

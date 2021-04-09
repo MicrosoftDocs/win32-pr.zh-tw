@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673176"
 ---
-# <a name="using-http-server-api"></a><span data-ttu-id="aa873-104">使用 HTTP 伺服器 API</span><span class="sxs-lookup"><span data-stu-id="aa873-104">Using HTTP Server API</span></span>
+# <a name="using-http-server-api"></a><span data-ttu-id="e12fe-104">使用 HTTP 伺服器 API</span><span class="sxs-lookup"><span data-stu-id="e12fe-104">Using HTTP Server API</span></span>
 
-<span data-ttu-id="aa873-105">應用程式原始程式檔包含 Http .h 標頭檔，以存取 HTTP 伺服器 API 的函式原型和結構定義。</span><span class="sxs-lookup"><span data-stu-id="aa873-105">Application program source files include the Http.h header file to access function prototypes and structure definitions for the HTTP Server API.</span></span> <span data-ttu-id="aa873-106">開發人員可以使用 Httpapi.dll .lib 程式庫檔案來建立使用 HTTP 伺服器 API 的應用程式。</span><span class="sxs-lookup"><span data-stu-id="aa873-106">Developers can use the Httpapi.lib library file to build applications that use the HTTP Server API.</span></span> <span data-ttu-id="aa873-107">應用程式會在執行時間連結至 Httpapi.dll。</span><span class="sxs-lookup"><span data-stu-id="aa873-107">At runtime, applications link to the Httpapi.dll.</span></span>
+<span data-ttu-id="e12fe-105">應用程式原始程式檔包含 Http .h 標頭檔，以存取 HTTP 伺服器 API 的函式原型和結構定義。</span><span class="sxs-lookup"><span data-stu-id="e12fe-105">Application program source files include the Http.h header file to access function prototypes and structure definitions for the HTTP Server API.</span></span> <span data-ttu-id="e12fe-106">開發人員可以使用 Httpapi.dll .lib 程式庫檔案來建立使用 HTTP 伺服器 API 的應用程式。</span><span class="sxs-lookup"><span data-stu-id="e12fe-106">Developers can use the Httpapi.lib library file to build applications that use the HTTP Server API.</span></span> <span data-ttu-id="e12fe-107">應用程式會在執行時間連結至 Httpapi.dll。</span><span class="sxs-lookup"><span data-stu-id="e12fe-107">At runtime, applications link to the Httpapi.dll.</span></span>
 
  
 

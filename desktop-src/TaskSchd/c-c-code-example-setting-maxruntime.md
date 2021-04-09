@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672432"
 ---
-# <a name="cc-code-example-setting-maxruntime"></a><span data-ttu-id="4f0db-105">C/c + + 程式碼範例：設定 MaxRunTime</span><span class="sxs-lookup"><span data-stu-id="4f0db-105">C/C++ Code Example: Setting MaxRunTime</span></span>
+# <a name="cc-code-example-setting-maxruntime"></a><span data-ttu-id="fe42f-105">C/c + + 程式碼範例：設定 MaxRunTime</span><span class="sxs-lookup"><span data-stu-id="fe42f-105">C/C++ Code Example: Setting MaxRunTime</span></span>
 
-<span data-ttu-id="4f0db-106">此範例會設定已知工作的執行時間上限，以毫秒為單位)  (設定。</span><span class="sxs-lookup"><span data-stu-id="4f0db-106">This example sets the maximum run time (set in milliseconds) of a known task.</span></span> <span data-ttu-id="4f0db-107">此範例假設本機電腦上已有工作和測試工作。</span><span class="sxs-lookup"><span data-stu-id="4f0db-107">This example assumes that the task and the test task already exist on the local computer.</span></span>
+<span data-ttu-id="fe42f-106">此範例會設定已知工作的執行時間上限，以毫秒為單位)  (設定。</span><span class="sxs-lookup"><span data-stu-id="fe42f-106">This example sets the maximum run time (set in milliseconds) of a known task.</span></span> <span data-ttu-id="fe42f-107">此範例假設本機電腦上已有工作和測試工作。</span><span class="sxs-lookup"><span data-stu-id="fe42f-107">This example assumes that the task and the test task already exist on the local computer.</span></span>
 
 
 ```C++
@@ -134,11 +134,11 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="4f0db-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="4f0db-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="fe42f-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="fe42f-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4f0db-109">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="4f0db-109">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
+[<span data-ttu-id="fe42f-109">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="fe42f-109">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
  

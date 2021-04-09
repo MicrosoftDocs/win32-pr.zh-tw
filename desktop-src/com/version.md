@@ -13,11 +13,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103843004"
 ---
-# <a name="version-com"></a><span data-ttu-id="d466f-104">COM)  (版本</span><span class="sxs-lookup"><span data-stu-id="d466f-104">Version (COM)</span></span>
+# <a name="version-com"></a><span data-ttu-id="4630a-104">COM)  (版本</span><span class="sxs-lookup"><span data-stu-id="4630a-104">Version (COM)</span></span>
 
-<span data-ttu-id="d466f-105">指定控制項的版本號碼。</span><span class="sxs-lookup"><span data-stu-id="d466f-105">Specifies the version number of the control.</span></span>
+<span data-ttu-id="4630a-105">指定控制項的版本號碼。</span><span class="sxs-lookup"><span data-stu-id="4630a-105">Specifies the version number of the control.</span></span>
 
-## <a name="registry-entry"></a><span data-ttu-id="d466f-106">登錄項目</span><span class="sxs-lookup"><span data-stu-id="d466f-106">Registry Entry</span></span>
+## <a name="registry-entry"></a><span data-ttu-id="4630a-106">登錄項目</span><span class="sxs-lookup"><span data-stu-id="4630a-106">Registry Entry</span></span>
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
@@ -25,11 +25,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
       Version = value
 ```
 
-## <a name="remarks"></a><span data-ttu-id="d466f-107">備註</span><span class="sxs-lookup"><span data-stu-id="d466f-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4630a-107">備註</span><span class="sxs-lookup"><span data-stu-id="4630a-107">Remarks</span></span>
 
-<span data-ttu-id="d466f-108">這是 **REG \_ SZ** 值。</span><span class="sxs-lookup"><span data-stu-id="d466f-108">This is a **REG\_SZ** value.</span></span>
+<span data-ttu-id="4630a-108">這是 **REG \_ SZ** 值。</span><span class="sxs-lookup"><span data-stu-id="4630a-108">This is a **REG\_SZ** value.</span></span>
 
-<span data-ttu-id="d466f-109">版本號碼應符合與控制項相關聯的類型程式庫版本。</span><span class="sxs-lookup"><span data-stu-id="d466f-109">The version number should match the version of the type library associated with the control.</span></span>
+<span data-ttu-id="4630a-109">版本號碼應符合與控制項相關聯的類型程式庫版本。</span><span class="sxs-lookup"><span data-stu-id="4630a-109">The version number should match the version of the type library associated with the control.</span></span>
 
  
 

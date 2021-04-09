@@ -11,43 +11,43 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692952"
 ---
-# <a name="registermimeinfo-action"></a><span data-ttu-id="73de7-103">RegisterMIMEInfo 動作</span><span class="sxs-lookup"><span data-stu-id="73de7-103">RegisterMIMEInfo Action</span></span>
+# <a name="registermimeinfo-action"></a><span data-ttu-id="7d89e-103">RegisterMIMEInfo 動作</span><span class="sxs-lookup"><span data-stu-id="7d89e-103">RegisterMIMEInfo Action</span></span>
 
-<span data-ttu-id="73de7-104">RegisterMIMEInfo 動作會向系統註冊 MIME 相關的登錄資訊。</span><span class="sxs-lookup"><span data-stu-id="73de7-104">The RegisterMIMEInfo action registers MIME-related registry information with the system.</span></span>
+<span data-ttu-id="7d89e-104">RegisterMIMEInfo 動作會向系統註冊 MIME 相關的登錄資訊。</span><span class="sxs-lookup"><span data-stu-id="7d89e-104">The RegisterMIMEInfo action registers MIME-related registry information with the system.</span></span>
 
-## <a name="sequence-restrictions"></a><span data-ttu-id="73de7-105">順序限制</span><span class="sxs-lookup"><span data-stu-id="73de7-105">Sequence Restrictions</span></span>
+## <a name="sequence-restrictions"></a><span data-ttu-id="7d89e-105">順序限制</span><span class="sxs-lookup"><span data-stu-id="7d89e-105">Sequence Restrictions</span></span>
 
-<span data-ttu-id="73de7-106">RegisterMIMEInfo 動作必須位於 [InstallFiles](installfiles-action.md) 動作、 [UnregisterMIMEInfo](unregistermimeinfo-action.md) 動作、 [RegisterClassInfo](registerclassinfo-action.md) 動作和 [RegisterExtensionInfo](registerextensioninfo-action.md) 動作之後。</span><span class="sxs-lookup"><span data-stu-id="73de7-106">The RegisterMIMEInfo action must come after the [InstallFiles](installfiles-action.md) action, [UnregisterMIMEInfo](unregistermimeinfo-action.md) action, [RegisterClassInfo](registerclassinfo-action.md) action, and the [RegisterExtensionInfo](registerextensioninfo-action.md) action.</span></span>
+<span data-ttu-id="7d89e-106">RegisterMIMEInfo 動作必須位於 [InstallFiles](installfiles-action.md) 動作、 [UnregisterMIMEInfo](unregistermimeinfo-action.md) 動作、 [RegisterClassInfo](registerclassinfo-action.md) 動作和 [RegisterExtensionInfo](registerextensioninfo-action.md) 動作之後。</span><span class="sxs-lookup"><span data-stu-id="7d89e-106">The RegisterMIMEInfo action must come after the [InstallFiles](installfiles-action.md) action, [UnregisterMIMEInfo](unregistermimeinfo-action.md) action, [RegisterClassInfo](registerclassinfo-action.md) action, and the [RegisterExtensionInfo](registerextensioninfo-action.md) action.</span></span>
 
-<span data-ttu-id="73de7-107">下列群組中的動作順序會受到限制。</span><span class="sxs-lookup"><span data-stu-id="73de7-107">The sequencing of the actions in the following group is restricted.</span></span> <span data-ttu-id="73de7-108">如果這些動作的任何子集在順序資料表中一起發生，它們必須具有相同的相對順序順序，如下所示：</span><span class="sxs-lookup"><span data-stu-id="73de7-108">If any subset of these actions occur together in a sequence table, they must have the same relative sequence order as shown:</span></span>
+<span data-ttu-id="7d89e-107">下列群組中的動作順序會受到限制。</span><span class="sxs-lookup"><span data-stu-id="7d89e-107">The sequencing of the actions in the following group is restricted.</span></span> <span data-ttu-id="7d89e-108">如果這些動作的任何子集在順序資料表中一起發生，它們必須具有相同的相對順序順序，如下所示：</span><span class="sxs-lookup"><span data-stu-id="7d89e-108">If any subset of these actions occur together in a sequence table, they must have the same relative sequence order as shown:</span></span>
 
--   [<span data-ttu-id="73de7-109">UnregisterClassInfo</span><span class="sxs-lookup"><span data-stu-id="73de7-109">UnregisterClassInfo</span></span>](unregisterclassinfo-action.md)
--   [<span data-ttu-id="73de7-110">UnregisterExtensionInfo</span><span class="sxs-lookup"><span data-stu-id="73de7-110">UnregisterExtensionInfo</span></span>](unregisterextensioninfo-action.md)
--   [<span data-ttu-id="73de7-111">UnregisterProgIdInfo</span><span class="sxs-lookup"><span data-stu-id="73de7-111">UnregisterProgIdInfo</span></span>](unregisterprogidinfo-action.md)
--   [<span data-ttu-id="73de7-112">UnregisterMIMEInfo</span><span class="sxs-lookup"><span data-stu-id="73de7-112">UnregisterMIMEInfo</span></span>](unregistermimeinfo-action.md)
--   [<span data-ttu-id="73de7-113">RegisterClassInfo</span><span class="sxs-lookup"><span data-stu-id="73de7-113">RegisterClassInfo</span></span>](registerclassinfo-action.md)
--   [<span data-ttu-id="73de7-114">RegisterExtensionInfo</span><span class="sxs-lookup"><span data-stu-id="73de7-114">RegisterExtensionInfo</span></span>](registerextensioninfo-action.md)
--   [<span data-ttu-id="73de7-115">RegisterProgIdInfo</span><span class="sxs-lookup"><span data-stu-id="73de7-115">RegisterProgIdInfo</span></span>](registerprogidinfo-action.md)
--   <span data-ttu-id="73de7-116">RegisterMIMEInfo</span><span class="sxs-lookup"><span data-stu-id="73de7-116">RegisterMIMEInfo</span></span>
+-   [<span data-ttu-id="7d89e-109">UnregisterClassInfo</span><span class="sxs-lookup"><span data-stu-id="7d89e-109">UnregisterClassInfo</span></span>](unregisterclassinfo-action.md)
+-   [<span data-ttu-id="7d89e-110">UnregisterExtensionInfo</span><span class="sxs-lookup"><span data-stu-id="7d89e-110">UnregisterExtensionInfo</span></span>](unregisterextensioninfo-action.md)
+-   [<span data-ttu-id="7d89e-111">UnregisterProgIdInfo</span><span class="sxs-lookup"><span data-stu-id="7d89e-111">UnregisterProgIdInfo</span></span>](unregisterprogidinfo-action.md)
+-   [<span data-ttu-id="7d89e-112">UnregisterMIMEInfo</span><span class="sxs-lookup"><span data-stu-id="7d89e-112">UnregisterMIMEInfo</span></span>](unregistermimeinfo-action.md)
+-   [<span data-ttu-id="7d89e-113">RegisterClassInfo</span><span class="sxs-lookup"><span data-stu-id="7d89e-113">RegisterClassInfo</span></span>](registerclassinfo-action.md)
+-   [<span data-ttu-id="7d89e-114">RegisterExtensionInfo</span><span class="sxs-lookup"><span data-stu-id="7d89e-114">RegisterExtensionInfo</span></span>](registerextensioninfo-action.md)
+-   [<span data-ttu-id="7d89e-115">RegisterProgIdInfo</span><span class="sxs-lookup"><span data-stu-id="7d89e-115">RegisterProgIdInfo</span></span>](registerprogidinfo-action.md)
+-   <span data-ttu-id="7d89e-116">RegisterMIMEInfo</span><span class="sxs-lookup"><span data-stu-id="7d89e-116">RegisterMIMEInfo</span></span>
 
-<span data-ttu-id="73de7-117">例如，RegisterMIMEInfo 必須在 [UnregisterMIMEInfo](unregistermimeinfo-action.md) 的順序資料表中。</span><span class="sxs-lookup"><span data-stu-id="73de7-117">For example, RegisterMIMEInfo must come after [UnregisterMIMEInfo](unregistermimeinfo-action.md) in the sequence table.</span></span>
+<span data-ttu-id="7d89e-117">例如，RegisterMIMEInfo 必須在 [UnregisterMIMEInfo](unregistermimeinfo-action.md) 的順序資料表中。</span><span class="sxs-lookup"><span data-stu-id="7d89e-117">For example, RegisterMIMEInfo must come after [UnregisterMIMEInfo](unregistermimeinfo-action.md) in the sequence table.</span></span>
 
-## <a name="actiondata-messages"></a><span data-ttu-id="73de7-118">ActionData 訊息</span><span class="sxs-lookup"><span data-stu-id="73de7-118">ActionData Messages</span></span>
+## <a name="actiondata-messages"></a><span data-ttu-id="7d89e-118">ActionData 訊息</span><span class="sxs-lookup"><span data-stu-id="7d89e-118">ActionData Messages</span></span>
 
 
 
-| <span data-ttu-id="73de7-119">欄位</span><span class="sxs-lookup"><span data-stu-id="73de7-119">Field</span></span> | <span data-ttu-id="73de7-120">動作資料的描述</span><span class="sxs-lookup"><span data-stu-id="73de7-120">Description of action data</span></span>                   |
+| <span data-ttu-id="7d89e-119">欄位</span><span class="sxs-lookup"><span data-stu-id="7d89e-119">Field</span></span> | <span data-ttu-id="7d89e-120">動作資料的描述</span><span class="sxs-lookup"><span data-stu-id="7d89e-120">Description of action data</span></span>                   |
 |-------|----------------------------------------------|
-| <span data-ttu-id="73de7-121">\[1\]</span><span class="sxs-lookup"><span data-stu-id="73de7-121">\[1\]</span></span> | <span data-ttu-id="73de7-122">已註冊之 MIME 內容類型的識別碼。</span><span class="sxs-lookup"><span data-stu-id="73de7-122">Identifier of registered MIME content type.</span></span>  |
-| <span data-ttu-id="73de7-123">\[2\]</span><span class="sxs-lookup"><span data-stu-id="73de7-123">\[2\]</span></span> | <span data-ttu-id="73de7-124">與 MIME 內容類型相關聯的副檔名。</span><span class="sxs-lookup"><span data-stu-id="73de7-124">Extension associated with MIME content type.</span></span> |
+| <span data-ttu-id="7d89e-121">\[1\]</span><span class="sxs-lookup"><span data-stu-id="7d89e-121">\[1\]</span></span> | <span data-ttu-id="7d89e-122">已註冊之 MIME 內容類型的識別碼。</span><span class="sxs-lookup"><span data-stu-id="7d89e-122">Identifier of registered MIME content type.</span></span>  |
+| <span data-ttu-id="7d89e-123">\[2\]</span><span class="sxs-lookup"><span data-stu-id="7d89e-123">\[2\]</span></span> | <span data-ttu-id="7d89e-124">與 MIME 內容類型相關聯的副檔名。</span><span class="sxs-lookup"><span data-stu-id="7d89e-124">Extension associated with MIME content type.</span></span> |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="73de7-125">備註</span><span class="sxs-lookup"><span data-stu-id="73de7-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7d89e-125">備註</span><span class="sxs-lookup"><span data-stu-id="7d89e-125">Remarks</span></span>
 
-<span data-ttu-id="73de7-126">RegisterMIMEInfo 動作會註冊 [mime 資料表](mime-table.md) 中，已選取要安裝對應類別伺服器或延伸模組伺服器之伺服器的所有 mime 資訊。</span><span class="sxs-lookup"><span data-stu-id="73de7-126">The RegisterMIMEInfo action registers all MIME information for servers from the [MIME table](mime-table.md) for which the corresponding class server or extension server has been selected to be installed.</span></span>
+<span data-ttu-id="7d89e-126">RegisterMIMEInfo 動作會註冊 [mime 資料表](mime-table.md) 中，已選取要安裝對應類別伺服器或延伸模組伺服器之伺服器的所有 mime 資訊。</span><span class="sxs-lookup"><span data-stu-id="7d89e-126">The RegisterMIMEInfo action registers all MIME information for servers from the [MIME table](mime-table.md) for which the corresponding class server or extension server has been selected to be installed.</span></span>
 
  
 
