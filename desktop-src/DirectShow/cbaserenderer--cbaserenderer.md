@@ -19,11 +19,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103687815"
 ---
-# <a name="cbaserenderercbaserenderer-destructor"></a><span data-ttu-id="81908-103">CBaseRenderer. ~ CBaseRenderer 的函式</span><span class="sxs-lookup"><span data-stu-id="81908-103">CBaseRenderer.~CBaseRenderer destructor</span></span>
+# <a name="cbaserenderercbaserenderer-destructor"></a><span data-ttu-id="d2b10-103">CBaseRenderer. ~ CBaseRenderer 的函式</span><span class="sxs-lookup"><span data-stu-id="d2b10-103">CBaseRenderer.~CBaseRenderer destructor</span></span>
 
-<span data-ttu-id="81908-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="81908-104">Destructor method.</span></span>
+<span data-ttu-id="d2b10-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="d2b10-104">Destructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="81908-105">語法</span><span class="sxs-lookup"><span data-stu-id="81908-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d2b10-105">語法</span><span class="sxs-lookup"><span data-stu-id="d2b10-105">Syntax</span></span>
 
 
 ```C++
@@ -32,11 +32,11 @@ ms.locfileid: "103687815"
 
 
 
-## <a name="see-also"></a><span data-ttu-id="81908-106">另請參閱</span><span class="sxs-lookup"><span data-stu-id="81908-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d2b10-106">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d2b10-106">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="81908-107">**CBaseRenderer 類別**</span><span class="sxs-lookup"><span data-stu-id="81908-107">**CBaseRenderer Class**</span></span>](cbaserenderer.md)
+[<span data-ttu-id="d2b10-107">**CBaseRenderer 類別**</span><span class="sxs-lookup"><span data-stu-id="d2b10-107">**CBaseRenderer Class**</span></span>](cbaserenderer.md)
 </dt> </dl>
 
  

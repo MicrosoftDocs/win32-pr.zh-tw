@@ -31,12 +31,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689979"
 ---
-# <a name="esentslvfilestaleexception-constructor"></a><span data-ttu-id="719c5-103">EsentSLVFileStaleException 函式</span><span class="sxs-lookup"><span data-stu-id="719c5-103">EsentSLVFileStaleException constructor</span></span>
+# <a name="esentslvfilestaleexception-constructor"></a><span data-ttu-id="c585e-103">EsentSLVFileStaleException 函式</span><span class="sxs-lookup"><span data-stu-id="c585e-103">EsentSLVFileStaleException constructor</span></span>
 
-<span data-ttu-id="719c5-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="719c5-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="719c5-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="719c5-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="c585e-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c585e-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="c585e-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c585e-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="719c5-106">語法</span><span class="sxs-lookup"><span data-stu-id="719c5-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c585e-106">語法</span><span class="sxs-lookup"><span data-stu-id="c585e-106">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,12 +50,12 @@ Dim instance As New EsentSLVFileStaleException()
 public EsentSLVFileStaleException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="719c5-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="719c5-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c585e-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c585e-107">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="719c5-108">參考</span><span class="sxs-lookup"><span data-stu-id="719c5-108">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="c585e-108">參考</span><span class="sxs-lookup"><span data-stu-id="c585e-108">Reference</span></span>
 
-[<span data-ttu-id="719c5-109">EsentSLVFileStaleException 類別</span><span class="sxs-lookup"><span data-stu-id="719c5-109">EsentSLVFileStaleException class</span></span>](./esentslvfilestaleexception-class.md)
+[<span data-ttu-id="c585e-109">EsentSLVFileStaleException 類別</span><span class="sxs-lookup"><span data-stu-id="c585e-109">EsentSLVFileStaleException class</span></span>](./esentslvfilestaleexception-class.md)
 
-[<span data-ttu-id="719c5-110">EsentSLVFileStaleException 成員</span><span class="sxs-lookup"><span data-stu-id="719c5-110">EsentSLVFileStaleException members</span></span>](./esentslvfilestaleexception-members.md)
+[<span data-ttu-id="c585e-110">EsentSLVFileStaleException 成員</span><span class="sxs-lookup"><span data-stu-id="c585e-110">EsentSLVFileStaleException members</span></span>](./esentslvfilestaleexception-members.md)
 
-[<span data-ttu-id="719c5-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="719c5-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="c585e-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c585e-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
