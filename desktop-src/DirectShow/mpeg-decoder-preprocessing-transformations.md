@@ -1,0 +1,128 @@
+---
+description: MPEG 解碼器前置處理轉換
+ms.assetid: c7ae0137-0d02-46da-9532-738d805e327d
+title: MPEG 解碼器前置處理轉換
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b70df51b26ec3fa25d67a03a4e494869a2f25760
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "103688204"
+---
+# <a name="mpeg-decoder-preprocessing-transformations"></a>MPEG 解碼器前置處理轉換
+
+**黑邊和 PanScan**
+
+4x3 影像的組成方式，是將影像的頂端和底部填補 (稱為黑邊影像) 或藉由將影像的4x3 部分解壓縮 (稱為 PanScan 影像) 。 功能表和子圖片串流會在最後的影片影像上方重迭。 16x9 比例影像會以 4x3 anamorphic 格式儲存。 將 anamorphic 4x3 外觀比例720x480 來源影片延伸至16x9 的外觀比例，形成原始的16x9 外觀影像。
+
+以下說明如何正確地顯示每個模式及其重點：
+
+-   **寬銀幕：** 來源影片會延伸至 [輸出] 視窗的最大16x9 區域。 重點是相對於16x9 區域內的。 黑色橫條應該加入至頂端和底部或側邊，以維護16x9 區域。
+-   **平移掃描：** 從16x9 影片中，使用 MPEG2 串流中提供的水準位移，將4x3 子視窗解壓縮。 將4x3 子視窗放到輸出用戶端視窗的最大4x3 區域。 醒目提示的座標是相對於4x3 輸出視窗，與來源16x9 影片沒有任何關聯性。 黑色橫條應該加入至頂端和底部或側邊，以維護4x3 區域。
+-   **黑邊：** 計算輸出視窗的最大4x3 區域。 黑色橫條應該加入至頂端和底部或側邊，以維護4x3 區域。 來源 anamorphic 4x3 影片 (代表16x9 影像) 放置在4x3 區域內的最大16x9 子視窗中。 黑色橫條應新增至子視窗的頂端和底部，以維護16x9 區域。 醒目提示的座標是相對於4x3 區域，沒有與來源16x9 影片的關聯性。 磁片可能會在16x9 區域以外的地方指定醒目提示 (但仍在 [4x3] 視窗) 。 針對 4x3 video，影片會放在輸出用戶端視窗的最大4x3 輸出區域中。 黑色橫條應該加入至頂端和底部或側邊，以維護4x3 區域。
+
+**使用 DVD 導覽器和 VMR 的 MPEG 前置處理**
+
+目前，解碼器會傳遞格式 \_ MPEG2 \_ 影片媒體類型 (其格式區塊指向 [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) 結構) 。 在輸出針腳上，此解碼器會產生格式 \_ VideoInfo2 的媒體類型，其格式區塊會指向 [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) 結構。 結構的 **>dwreserved** 欄位已重新命名為 **dwControls** 旗標。
+
+**DwControlFlags** 成員現在會包含新的位。
+
+
+
+|                          |            |
+|--------------------------|------------|
+| 使用的 AMCONTROL \_          | 0x00000001 |
+| AMCONTROL \_ PAD \_ 至 \_ 4x3  | 0x00000002 |
+| AMCONTROL \_ PAD \_ 至 \_ 16x9 | 0x00000004 |
+
+
+
+ 
+
+\_使用的 AMCONTROL 可用來測試是否支援這些新的旗標。 來源篩選器應設定 AMCONTROL \_ 使用旗標，並查看 QueryAccept (媒體) 是否在下游 pin 上成功。 如果拒絕，則無法使用 AMCONTROL 旗標，而且 dwReserved1 必須設定為0。
+
+AMCONTROL \_ PAD \_ TO \_ 4x3 指出影像應該填補並顯示在4x3 區域中。
+
+AMCONTROL \_ PAD \_ TO \_ 16x9 指出影像應該填補並顯示在16x9 區域中。
+
+此解碼器應該盲目地複製或處理位。 如果此解碼器本身執行上下黑邊縮，則必須改變圖元外觀比例、填補影像，並移除對應的 AMCONTROL \_ \* 位。
+
+MPEG2VIDEOINFO. dwFlags 現在包含三個旗標，可用來控制內容的顯示方式：
+
+-   `AMMPEG2_DoPanScan (0x00000001)`：如果已設定此旗標，則 MPEG-2 視頻解碼器應該根據圖片顯示延伸模組中的平移掃描向量來裁剪輸出 \_ 影像 \_ ，並將圖片外觀比例變更為4x3。 VMR 不應該收到具有此旗標的16x9 範例。 簡單的實作為可能會改變來源矩形，以指出具有左邊緣等於圖片顯示延伸模組中顯示位移的540寬來源 \_ 區域 \_ 。
+-   `AMMPEG2_LetterboxAnalogOut (0x00000020)`：當硬體解碼器將此資料流程顯示為影片輸出時 (通常是卡片) 上的 SVIDEO 連接器，它應該套用規則，以顯示4x3 顯示器上的16x9 範例。
+
+    軟體解碼器 (或產生傳送至 VMR) 之輸出的硬體解碼器，在處理影像時有兩個選項：
+
+    1.  忽略此旗標，並將 VideoInfoHeader2 內容傳遞至 VMR (AMCONTROL \_ PAD \_ to \_ 4x3 旗標將已由) 範例的 [DVD 導覽器](dvd-navigator-filter.md) 設定。 VMR 將會遇到 16x9 video 範例，其中包含 AMCONTROL \_ PAD \_ TO \_ 4x3 旗標以及4x3 子圖片 stream。 應用程式必須將兩個數據流的輸出正規化目的矩形設定為相同的寬度。
+    2.  藉由填補影像的頂端和底部，並將影像外觀比例設定為 4x3 (請參閱) 上述黑邊，並將 AMCONTROL 板從4x3 移除 VIDEOINFOHEADER2 位，以將 anamorphic 資料流程轉換成4x3 影像 \_ \_ \_ 。
+
+    Blend 影片和子圖片資料流程的 DirectXVA 解碼器將必須處理此旗標。 如果硬體無法調整混合的子圖片，則該解碼器應該產生個別的子圖片資料流程，讓 VMR 與影片 blend。
+
+-   `AMMPEG2_WidescreenAnalogOut (0x00000200)`：當硬體解碼器將此資料流程顯示為視頻輸出時 (通常是卡片) 上的 SVIDEO 連接器，它應該假設 16x9 (anamorphic) 顯示。
+
+    軟體解碼器 (，或產生傳送至 VMR) 之輸出的硬體解碼器，在處理 anamorphic 映射時有兩個選項：
+
+    1.  忽略此旗標，並將 VideoInfoHeader2 內容複寫到 VMR。 VMR 會將4x3 影像填補至16x9 （如果有 AMCONTROL \_ pad） \_ \_ 16x9 設定。
+    2.  將輸出影像填補至16x9 影像，並將 AMCONTROL \_ PAD 移 \_ 至 \_ 16x9 位。
+
+大部分的解碼器都應該使用 **GetMediaType** 來偵測輸入釘選上的媒體變更，並將 **MPEG2INFOHEADER**) 包含的 **VIDEOINFOHEADER2** (內容複寫到輸出圖釘。 它們可能只會處理 PanScan 位。
+
+下列範例程式碼示範如何將 **VIDEOINFOHEADER2** 內容從輸入釘選到輸出圖釘。
+
+
+```C++
+#include <dvdmedia.h>
+HRESULT CopyMPeg2ToVideoInfoHeader2(CMediaSample* pInSample, CMediaSample* pOutSample)
+{
+    HRESULT hr = S_OK;
+    // Check for a media type on the input sample.
+    AM_MEDIA_TYPE* pInType;
+    if (pInSample->GetMediaType(&pInType) == S_OK) 
+    {
+        // Make sure it's an MPEG2 Video format.
+        if ((pInType->formattype == FORMAT_MPEG2_VIDEO) &&
+            (pInType->cbFormat >= sizeof(MPEG2VIDEOINFO)))
+        {
+            hr = S_OK; // Initialize hr for the CMediaType constructor.
+            CMediaType outType(*pInType, &hr);
+            if (FAILED(hr))
+            {
+                DeleteMediaType( pInType );
+                return hr;
+            }
+
+            // Set the format type GUID.
+            outType.SetFormatType(&FORMAT_VideoInfo2);
+                
+            // Truncate the format block to include just the VIDEOINFOHEADER part.
+            MPEG2VIDEOINFO *pMPeg2Header = (MPEG2VIDEOINFO*)pInType->pbFormat;
+            BYTE *pVIH = (BYTE*)&pMPeg2Header->hdr;
+            hr = (outType.SetFormat(pVIH, sizeof(VIDEOINFOHEADER2)) ? S_OK : E_OUTOFMEMORY);
+            if (SUCCEEDED(hr))
+            {
+                hr = pOutSample->SetMediaType(&outType);
+            }
+        } 
+        else 
+        {
+            ASSERT(FALSE); // Not a MPEG2 header.
+            hr = VFW_E_INVALIDMEDIATYPE;
+        }
+        DeleteMediaType( pInType );
+    } 
+
+    return hr;
+}
+```
+
+
+
+ 
+
+ 
+
+
+
