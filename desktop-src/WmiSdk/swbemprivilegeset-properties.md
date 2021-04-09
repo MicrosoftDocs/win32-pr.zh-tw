@@ -12,13 +12,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692167"
 ---
-# <a name="swbemprivilegeset-properties"></a><span data-ttu-id="dc594-103">SWbemPrivilegeSet 屬性</span><span class="sxs-lookup"><span data-stu-id="dc594-103">SWbemPrivilegeSet Properties</span></span>
+# <a name="swbemprivilegeset-properties"></a><span data-ttu-id="12df4-103">SWbemPrivilegeSet 屬性</span><span class="sxs-lookup"><span data-stu-id="12df4-103">SWbemPrivilegeSet Properties</span></span>
 
-<span data-ttu-id="dc594-104">[**SWbemPrivilegeSet**](swbemprivilegeset.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="dc594-104">The [**SWbemPrivilegeSet**](swbemprivilegeset.md) object exposes the following properties.</span></span>
+<span data-ttu-id="12df4-104">[**SWbemPrivilegeSet**](swbemprivilegeset.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="12df4-104">The [**SWbemPrivilegeSet**](swbemprivilegeset.md) object exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="dc594-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="dc594-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="12df4-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="12df4-105">In this section</span></span>
 
--   [<span data-ttu-id="dc594-106">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="dc594-106">**Count property**</span></span>](swbemprivilegeset-count.md)
+-   [<span data-ttu-id="12df4-106">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="12df4-106">**Count property**</span></span>](swbemprivilegeset-count.md)
 
  
 

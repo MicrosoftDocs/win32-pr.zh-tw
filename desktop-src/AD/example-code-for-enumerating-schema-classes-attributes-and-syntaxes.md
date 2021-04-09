@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020851"
 ---
-# <a name="example-code-for-enumerating-schema-classes-attributes-and-syntaxes"></a><span data-ttu-id="10a6a-104">列舉架構類別、屬性和語法的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="10a6a-104">Example Code for Enumerating Schema Classes, Attributes, and Syntaxes</span></span>
+# <a name="example-code-for-enumerating-schema-classes-attributes-and-syntaxes"></a><span data-ttu-id="43557-104">列舉架構類別、屬性和語法的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="43557-104">Example Code for Enumerating Schema Classes, Attributes, and Syntaxes</span></span>
 
-<span data-ttu-id="10a6a-105">下列 c + + 範例顯示如何列舉抽象架構中的類別、屬性和語法。</span><span class="sxs-lookup"><span data-stu-id="10a6a-105">The following C++ example shows how to enumerate the classes, attributes, and syntaxes in the abstract schema.</span></span>
+<span data-ttu-id="43557-105">下列 c + + 範例顯示如何列舉抽象架構中的類別、屬性和語法。</span><span class="sxs-lookup"><span data-stu-id="43557-105">The following C++ example shows how to enumerate the classes, attributes, and syntaxes in the abstract schema.</span></span>
 
 
 ```C++
@@ -167,7 +167,7 @@ cleanup:
 
 
 
-<span data-ttu-id="10a6a-106">下列 Visual Basic 程式碼範例會讀取抽象架構，以列舉結構化、抽象和輔助物件類別。</span><span class="sxs-lookup"><span data-stu-id="10a6a-106">The following Visual Basic code example reads the abstract schema to enumerate the structural, abstract, and auxiliary object classes.</span></span> <span data-ttu-id="10a6a-107">然後，此範例會列舉單一值和多重值屬性類別。</span><span class="sxs-lookup"><span data-stu-id="10a6a-107">The example then enumerates the single-valued and multi-valued attribute classes.</span></span>
+<span data-ttu-id="43557-106">下列 Visual Basic 程式碼範例會讀取抽象架構，以列舉結構化、抽象和輔助物件類別。</span><span class="sxs-lookup"><span data-stu-id="43557-106">The following Visual Basic code example reads the abstract schema to enumerate the structural, abstract, and auxiliary object classes.</span></span> <span data-ttu-id="43557-107">然後，此範例會列舉單一值和多重值屬性類別。</span><span class="sxs-lookup"><span data-stu-id="43557-107">The example then enumerates the single-valued and multi-valued attribute classes.</span></span>
 
 
 ```VB

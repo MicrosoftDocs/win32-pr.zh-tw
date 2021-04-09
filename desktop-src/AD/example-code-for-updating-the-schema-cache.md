@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020848"
 ---
-# <a name="example-code-for-updating-the-schema-cache"></a><span data-ttu-id="d1fda-104">更新架構快取的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="d1fda-104">Example Code for Updating the Schema Cache</span></span>
+# <a name="example-code-for-updating-the-schema-cache"></a><span data-ttu-id="59b3b-104">更新架構快取的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="59b3b-104">Example Code for Updating the Schema Cache</span></span>
 
-<span data-ttu-id="d1fda-105">下列 C/c + + 函式會取得架構主機 (GetSchemaMasterDNSName) 的 DNS 名稱，並更新架構主機 (UpdateSchemaMasterCache) 的架構快取。</span><span class="sxs-lookup"><span data-stu-id="d1fda-105">The following C/C++ functions get the DNS name of the schema master (GetSchemaMasterDNSName) and update the schema cache at the schema master (UpdateSchemaMasterCache).</span></span> <span data-ttu-id="d1fda-106">若要使用這些函式，請呼叫 GetSchemaMasterDNSName 來取得架構主機 DNS 名稱，將架構主要 DNS 名稱傳遞給 UpdateSchemaMasterCache，並在包含架構主機 DNS 名稱的字串上呼叫 CoTaskMemFree。</span><span class="sxs-lookup"><span data-stu-id="d1fda-106">To use these functions, call GetSchemaMasterDNSName to get the schema master DNS name, pass the schema master DNS name to UpdateSchemaMasterCache, call CoTaskMemFree on string containing the schema master DNS name.</span></span>
+<span data-ttu-id="59b3b-105">下列 C/c + + 函式會取得架構主機 (GetSchemaMasterDNSName) 的 DNS 名稱，並更新架構主機 (UpdateSchemaMasterCache) 的架構快取。</span><span class="sxs-lookup"><span data-stu-id="59b3b-105">The following C/C++ functions get the DNS name of the schema master (GetSchemaMasterDNSName) and update the schema cache at the schema master (UpdateSchemaMasterCache).</span></span> <span data-ttu-id="59b3b-106">若要使用這些函式，請呼叫 GetSchemaMasterDNSName 來取得架構主機 DNS 名稱，將架構主要 DNS 名稱傳遞給 UpdateSchemaMasterCache，並在包含架構主機 DNS 名稱的字串上呼叫 CoTaskMemFree。</span><span class="sxs-lookup"><span data-stu-id="59b3b-106">To use these functions, call GetSchemaMasterDNSName to get the schema master DNS name, pass the schema master DNS name to UpdateSchemaMasterCache, call CoTaskMemFree on string containing the schema master DNS name.</span></span>
 
-<span data-ttu-id="d1fda-107">如需詳細資訊，請參閱 [更新架構](updating-the-schema-cache.md)快取。</span><span class="sxs-lookup"><span data-stu-id="d1fda-107">For more information, see [Updating the Schema Cache](updating-the-schema-cache.md).</span></span>
+<span data-ttu-id="59b3b-107">如需詳細資訊，請參閱 [更新架構](updating-the-schema-cache.md)快取。</span><span class="sxs-lookup"><span data-stu-id="59b3b-107">For more information, see [Updating the Schema Cache](updating-the-schema-cache.md).</span></span>
 
 
 ```C++

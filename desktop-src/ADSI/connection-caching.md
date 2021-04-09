@@ -15,13 +15,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020803"
 ---
-# <a name="connection-caching"></a><span data-ttu-id="25957-105">連接快取</span><span class="sxs-lookup"><span data-stu-id="25957-105">Connection Caching</span></span>
+# <a name="connection-caching"></a><span data-ttu-id="8e957-105">連接快取</span><span class="sxs-lookup"><span data-stu-id="8e957-105">Connection Caching</span></span>
 
-<span data-ttu-id="25957-106">當連接到伺服器時，會在用戶端電腦上快取連接控制碼，直到該連線關閉為止。</span><span class="sxs-lookup"><span data-stu-id="25957-106">When a connection to a server is made, the connection handle is cached on the client computer for that process until that connection is closed.</span></span> <span data-ttu-id="25957-107">如果在後續連線中使用相同的伺服器、埠和認證，而且只有 **ads \_ 快速 \_** 系結或 **ads \_ 伺服器 \_** 系結驗證旗標不同，ADSI 將會重複使用現有的連接。</span><span class="sxs-lookup"><span data-stu-id="25957-107">If the same server, port, and credentials are used in a subsequent connection, and only the **ADS\_FAST\_BIND** or **ADS\_SERVER\_BIND** authentication flags differ, ADSI will reuse the existing connection.</span></span> <span data-ttu-id="25957-108">ADSI 會以每個進程為基礎執行此連接快取。</span><span class="sxs-lookup"><span data-stu-id="25957-108">ADSI performs this connection caching on a per-process basis.</span></span>
+<span data-ttu-id="8e957-106">當連接到伺服器時，會在用戶端電腦上快取連接控制碼，直到該連線關閉為止。</span><span class="sxs-lookup"><span data-stu-id="8e957-106">When a connection to a server is made, the connection handle is cached on the client computer for that process until that connection is closed.</span></span> <span data-ttu-id="8e957-107">如果在後續連線中使用相同的伺服器、埠和認證，而且只有 **ads \_ 快速 \_** 系結或 **ads \_ 伺服器 \_** 系結驗證旗標不同，ADSI 將會重複使用現有的連接。</span><span class="sxs-lookup"><span data-stu-id="8e957-107">If the same server, port, and credentials are used in a subsequent connection, and only the **ADS\_FAST\_BIND** or **ADS\_SERVER\_BIND** authentication flags differ, ADSI will reuse the existing connection.</span></span> <span data-ttu-id="8e957-108">ADSI 會以每個進程為基礎執行此連接快取。</span><span class="sxs-lookup"><span data-stu-id="8e957-108">ADSI performs this connection caching on a per-process basis.</span></span>
 
-<span data-ttu-id="25957-109">若要提高效能，請盡可能重複使用現有的連接。</span><span class="sxs-lookup"><span data-stu-id="25957-109">To increase performance, reuse existing connections when possible.</span></span>
+<span data-ttu-id="8e957-109">若要提高效能，請盡可能重複使用現有的連接。</span><span class="sxs-lookup"><span data-stu-id="8e957-109">To increase performance, reuse existing connections when possible.</span></span>
 
-<span data-ttu-id="25957-110">下列程式碼範例示範連接快取的運作方式。</span><span class="sxs-lookup"><span data-stu-id="25957-110">The following code example shows how connection caching works.</span></span>
+<span data-ttu-id="8e957-110">下列程式碼範例示範連接快取的運作方式。</span><span class="sxs-lookup"><span data-stu-id="8e957-110">The following code example shows how connection caching works.</span></span>
 
 
 ```VB

@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103846499"
 ---
-# <a name="importing-the-drivers-public-key"></a><span data-ttu-id="3888b-103">匯入驅動程式公開金鑰</span><span class="sxs-lookup"><span data-stu-id="3888b-103">Importing the Drivers Public Key</span></span>
+# <a name="importing-the-drivers-public-key"></a><span data-ttu-id="e1ea6-103">匯入驅動程式公開金鑰</span><span class="sxs-lookup"><span data-stu-id="e1ea6-103">Importing the Drivers Public Key</span></span>
 
-<span data-ttu-id="3888b-104">驅動程式的 RSA 公開金鑰包含在憑證之分葉節點的模數和指數標記中。</span><span class="sxs-lookup"><span data-stu-id="3888b-104">The driver's RSA public key is contained in the Modulus and Exponent tags of the certificate's leaf node.</span></span> <span data-ttu-id="3888b-105">這兩個值都是以 base64 編碼，而且必須進行解碼。</span><span class="sxs-lookup"><span data-stu-id="3888b-105">Both values are base64-encoded and must be decoded.</span></span> <span data-ttu-id="3888b-106">如果您使用的是 Microsoft CryptoAPI，必須將金鑰匯入密碼編譯服務提供者 (CSP) ，也就是執行密碼編譯演算法的模組。</span><span class="sxs-lookup"><span data-stu-id="3888b-106">If you are using Microsoft's CryptoAPI, you must import the key into a cryptographic service provider (CSP), which is the module that implements the cryptographic algorithms.</span></span>
+<span data-ttu-id="e1ea6-104">驅動程式的 RSA 公開金鑰包含在憑證之分葉節點的模數和指數標記中。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-104">The driver's RSA public key is contained in the Modulus and Exponent tags of the certificate's leaf node.</span></span> <span data-ttu-id="e1ea6-105">這兩個值都是以 base64 編碼，而且必須進行解碼。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-105">Both values are base64-encoded and must be decoded.</span></span> <span data-ttu-id="e1ea6-106">如果您使用的是 Microsoft CryptoAPI，必須將金鑰匯入密碼編譯服務提供者 (CSP) ，也就是執行密碼編譯演算法的模組。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-106">If you are using Microsoft's CryptoAPI, you must import the key into a cryptographic service provider (CSP), which is the module that implements the cryptographic algorithms.</span></span>
 
-<span data-ttu-id="3888b-107">若要將來自 base64 編碼的模數和指數轉換成二進位陣列，請使用 **CryptStringToBinary** 函式，如下列程式碼所示。</span><span class="sxs-lookup"><span data-stu-id="3888b-107">To convert the modulus and exponents from base64 encoding to binary arrays, use the **CryptStringToBinary** function, as shown in the following code.</span></span> <span data-ttu-id="3888b-108">呼叫函數一次，以取得位元組陣列的大小。</span><span class="sxs-lookup"><span data-stu-id="3888b-108">Call the function once to get the size of the byte array.</span></span> <span data-ttu-id="3888b-109">然後配置緩衝區，並再次呼叫函式。</span><span class="sxs-lookup"><span data-stu-id="3888b-109">Then allocate the buffer and call the function again.</span></span>
+<span data-ttu-id="e1ea6-107">若要將來自 base64 編碼的模數和指數轉換成二進位陣列，請使用 **CryptStringToBinary** 函式，如下列程式碼所示。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-107">To convert the modulus and exponents from base64 encoding to binary arrays, use the **CryptStringToBinary** function, as shown in the following code.</span></span> <span data-ttu-id="e1ea6-108">呼叫函數一次，以取得位元組陣列的大小。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-108">Call the function once to get the size of the byte array.</span></span> <span data-ttu-id="e1ea6-109">然後配置緩衝區，並再次呼叫函式。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-109">Then allocate the buffer and call the function again.</span></span>
 
 
 ```C++
@@ -40,9 +40,9 @@ BYTE *pbBuffer = new BYTE [cbLen];
 
 
 
-<span data-ttu-id="3888b-110">Base64 編碼的陣列是以大到小的順序，而 CryptoAPI 預期的數位是以位元組由小到大的順序，所以您需要交換從 **CryptStringToBinary** 傳回的陣列位元組順序。</span><span class="sxs-lookup"><span data-stu-id="3888b-110">The base64-encoded array is in big-endian order, whereas the CryptoAPI expects the number in little-endian order, so you need to swap the byte order of the array that is returned from **CryptStringToBinary**.</span></span> <span data-ttu-id="3888b-111">模數為256個位元組，但已解碼的位元組陣列可能小於256個位元組。</span><span class="sxs-lookup"><span data-stu-id="3888b-111">The modulus is 256 bytes, but the decoded byte array might be less than 256 bytes.</span></span> <span data-ttu-id="3888b-112">若是如此，您將需要配置256個位元組的新陣列、將資料複製到新的陣列，並以零填補陣列的前方。</span><span class="sxs-lookup"><span data-stu-id="3888b-112">If so, you will need to allocate a new array that is 256 bytes, copy the data into the new array, and pad the front of the array with zeros.</span></span> <span data-ttu-id="3888b-113">指數是 DWORD (4 位元組的) 值。</span><span class="sxs-lookup"><span data-stu-id="3888b-113">The exponent is a DWORD (4-byte) value.</span></span>
+<span data-ttu-id="e1ea6-110">Base64 編碼的陣列是以大到小的順序，而 CryptoAPI 預期的數位是以位元組由小到大的順序，所以您需要交換從 **CryptStringToBinary** 傳回的陣列位元組順序。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-110">The base64-encoded array is in big-endian order, whereas the CryptoAPI expects the number in little-endian order, so you need to swap the byte order of the array that is returned from **CryptStringToBinary**.</span></span> <span data-ttu-id="e1ea6-111">模數為256個位元組，但已解碼的位元組陣列可能小於256個位元組。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-111">The modulus is 256 bytes, but the decoded byte array might be less than 256 bytes.</span></span> <span data-ttu-id="e1ea6-112">若是如此，您將需要配置256個位元組的新陣列、將資料複製到新的陣列，並以零填補陣列的前方。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-112">If so, you will need to allocate a new array that is 256 bytes, copy the data into the new array, and pad the front of the array with zeros.</span></span> <span data-ttu-id="e1ea6-113">指數是 DWORD (4 位元組的) 值。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-113">The exponent is a DWORD (4-byte) value.</span></span>
 
-<span data-ttu-id="3888b-114">取得模數和指數值之後，您可以將金鑰匯入預設密碼編譯服務提供者 (CSP) ，如下列程式碼所示：</span><span class="sxs-lookup"><span data-stu-id="3888b-114">After you have the modulus and exponent values, you can import the key into the default cryptographic service provider (CSP), as shown in the following code:</span></span>
+<span data-ttu-id="e1ea6-114">取得模數和指數值之後，您可以將金鑰匯入預設密碼編譯服務提供者 (CSP) ，如下列程式碼所示：</span><span class="sxs-lookup"><span data-stu-id="e1ea6-114">After you have the modulus and exponent values, you can import the key into the default cryptographic service provider (CSP), as shown in the following code:</span></span>
 
 
 ```C++
@@ -90,13 +90,13 @@ CryptImportKey(hCSP, pBlob, cbKeyBlob, 0, 0, &hRSAKey)
 
 
 
-<span data-ttu-id="3888b-115">現在您可以使用 CryptoAPI，利用驅動程式的公開金鑰來加密命令和狀態要求。</span><span class="sxs-lookup"><span data-stu-id="3888b-115">Now you can use the CryptoAPI to encrypt commands and status requests with the driver's public key.</span></span>
+<span data-ttu-id="e1ea6-115">現在您可以使用 CryptoAPI，利用驅動程式的公開金鑰來加密命令和狀態要求。</span><span class="sxs-lookup"><span data-stu-id="e1ea6-115">Now you can use the CryptoAPI to encrypt commands and status requests with the driver's public key.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="3888b-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="3888b-116">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e1ea6-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="e1ea6-116">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="3888b-117">使用認證輸出保護通訊協定 (COPP) </span><span class="sxs-lookup"><span data-stu-id="3888b-117">Using Certified Output Protection Protocol (COPP)</span></span>](using-certified-output-protection-protocol--copp.md)
+[<span data-ttu-id="e1ea6-117">使用認證輸出保護通訊協定 (COPP) </span><span class="sxs-lookup"><span data-stu-id="e1ea6-117">Using Certified Output Protection Protocol (COPP)</span></span>](using-certified-output-protection-protocol--copp.md)
 </dt> </dl>
 
  

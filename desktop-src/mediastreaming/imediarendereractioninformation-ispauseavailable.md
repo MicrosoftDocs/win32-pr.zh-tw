@@ -22,11 +22,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103842239"
 ---
-# <a name="imediarendereractioninformationispauseavailable-method"></a><span data-ttu-id="c26c1-106">IMediaRendererActionInformation：： IsPauseAvailable 方法</span><span class="sxs-lookup"><span data-stu-id="c26c1-106">IMediaRendererActionInformation::IsPauseAvailable method</span></span>
+# <a name="imediarendereractioninformationispauseavailable-method"></a><span data-ttu-id="d4c95-106">IMediaRendererActionInformation：： IsPauseAvailable 方法</span><span class="sxs-lookup"><span data-stu-id="d4c95-106">IMediaRendererActionInformation::IsPauseAvailable method</span></span>
 
-<span data-ttu-id="c26c1-107">抓取值，這個值表示 DMR 目前是否接受 [**PauseAsync**](imediarenderer-pauseasync.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="c26c1-107">Retrieves a value that indicates whether the DMR is currently accepting the [**PauseAsync**](imediarenderer-pauseasync.md) method.</span></span>
+<span data-ttu-id="d4c95-107">抓取值，這個值表示 DMR 目前是否接受 [**PauseAsync**](imediarenderer-pauseasync.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="d4c95-107">Retrieves a value that indicates whether the DMR is currently accepting the [**PauseAsync**](imediarenderer-pauseasync.md) method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c26c1-108">語法</span><span class="sxs-lookup"><span data-stu-id="c26c1-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d4c95-108">語法</span><span class="sxs-lookup"><span data-stu-id="d4c95-108">Syntax</span></span>
 
 
 ```C++
@@ -37,36 +37,36 @@ HRESULT IsPauseAvailable(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="c26c1-109">參數</span><span class="sxs-lookup"><span data-stu-id="c26c1-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d4c95-109">參數</span><span class="sxs-lookup"><span data-stu-id="d4c95-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c26c1-110">*值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="c26c1-110">*value* \[out\]</span></span>
+<span data-ttu-id="d4c95-110">*值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="d4c95-110">*value* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="c26c1-111">如果 DMR 目前接受 [**PauseAsync**](imediarenderer-pauseasync.md)方法，則布林值為 **True** ，否則為 **False** 。</span><span class="sxs-lookup"><span data-stu-id="c26c1-111">A boolean value that is **True** if the DMR is currently accepting the [**PauseAsync**](imediarenderer-pauseasync.md) method and **False** if it is not.</span></span>
+<span data-ttu-id="d4c95-111">如果 DMR 目前接受 [**PauseAsync**](imediarenderer-pauseasync.md)方法，則布林值為 **True** ，否則為 **False** 。</span><span class="sxs-lookup"><span data-stu-id="d4c95-111">A boolean value that is **True** if the DMR is currently accepting the [**PauseAsync**](imediarenderer-pauseasync.md) method and **False** if it is not.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="c26c1-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="c26c1-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d4c95-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="d4c95-112">Return value</span></span>
 
-<span data-ttu-id="c26c1-113">方法會傳回 **HRESULT**。</span><span class="sxs-lookup"><span data-stu-id="c26c1-113">The method returns an **HRESULT**.</span></span> <span data-ttu-id="c26c1-114">可能的值包括 (但不限於) 下表中的這些值。</span><span class="sxs-lookup"><span data-stu-id="c26c1-114">Possible values include, but are not limited to, those in the following table.</span></span>
+<span data-ttu-id="d4c95-113">方法會傳回 **HRESULT**。</span><span class="sxs-lookup"><span data-stu-id="d4c95-113">The method returns an **HRESULT**.</span></span> <span data-ttu-id="d4c95-114">可能的值包括 (但不限於) 下表中的這些值。</span><span class="sxs-lookup"><span data-stu-id="d4c95-114">Possible values include, but are not limited to, those in the following table.</span></span>
 
 
 
-| <span data-ttu-id="c26c1-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="c26c1-115">Return code</span></span>                                                                          | <span data-ttu-id="c26c1-116">Description</span><span class="sxs-lookup"><span data-stu-id="c26c1-116">Description</span></span>                      |
+| <span data-ttu-id="d4c95-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="d4c95-115">Return code</span></span>                                                                          | <span data-ttu-id="d4c95-116">Description</span><span class="sxs-lookup"><span data-stu-id="d4c95-116">Description</span></span>                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
-| <dl> <span data-ttu-id="c26c1-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="c26c1-117"><dt>**S\_OK**</dt></span></span> </dl> | <span data-ttu-id="c26c1-118">此方法已成功。</span><span class="sxs-lookup"><span data-stu-id="c26c1-118">The method succeeded.</span></span><br/> |
+| <dl> <span data-ttu-id="d4c95-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="d4c95-117"><dt>**S\_OK**</dt></span></span> </dl> | <span data-ttu-id="d4c95-118">此方法已成功。</span><span class="sxs-lookup"><span data-stu-id="d4c95-118">The method succeeded.</span></span><br/> |
 
 
 
  
 
-## <a name="see-also"></a><span data-ttu-id="c26c1-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c26c1-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d4c95-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d4c95-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c26c1-120">**IMediaRendererActionInformation**</span><span class="sxs-lookup"><span data-stu-id="c26c1-120">**IMediaRendererActionInformation**</span></span>](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-imediarendereractioninformation)
+[<span data-ttu-id="d4c95-120">**IMediaRendererActionInformation**</span><span class="sxs-lookup"><span data-stu-id="d4c95-120">**IMediaRendererActionInformation**</span></span>](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-imediarendereractioninformation)
 </dt> </dl>
 
  

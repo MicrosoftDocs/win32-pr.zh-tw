@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020900"
 ---
-# <a name="ibitsextensionsetupfactory-methods"></a><span data-ttu-id="885af-103">IBITSExtensionSetupFactory 方法</span><span class="sxs-lookup"><span data-stu-id="885af-103">IBITSExtensionSetupFactory Methods</span></span>
+# <a name="ibitsextensionsetupfactory-methods"></a><span data-ttu-id="73f83-103">IBITSExtensionSetupFactory 方法</span><span class="sxs-lookup"><span data-stu-id="73f83-103">IBITSExtensionSetupFactory Methods</span></span>
 
-<span data-ttu-id="885af-104">[**IBITSExtensionSetupFactory**](/windows/desktop/api/Bitscfg/nn-bitscfg-ibitsextensionsetupfactory)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="885af-104">The [**IBITSExtensionSetupFactory**](/windows/desktop/api/Bitscfg/nn-bitscfg-ibitsextensionsetupfactory) interface exposes the following methods.</span></span>
+<span data-ttu-id="73f83-104">[**IBITSExtensionSetupFactory**](/windows/desktop/api/Bitscfg/nn-bitscfg-ibitsextensionsetupfactory)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="73f83-104">The [**IBITSExtensionSetupFactory**](/windows/desktop/api/Bitscfg/nn-bitscfg-ibitsextensionsetupfactory) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="885af-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="885af-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="73f83-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="73f83-105">In this section</span></span>
 
--   [<span data-ttu-id="885af-106">**GetObject 方法**</span><span class="sxs-lookup"><span data-stu-id="885af-106">**GetObject Method**</span></span>](/windows/desktop/api/Bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject)
+-   [<span data-ttu-id="73f83-106">**GetObject 方法**</span><span class="sxs-lookup"><span data-stu-id="73f83-106">**GetObject Method**</span></span>](/windows/desktop/api/Bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject)
 
  
 

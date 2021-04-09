@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020958"
 ---
-# <a name="ibackgroundcopycallback2-methods"></a><span data-ttu-id="fc9e1-103">IBackgroundCopyCallback2 方法</span><span class="sxs-lookup"><span data-stu-id="fc9e1-103">IBackgroundCopyCallback2 Methods</span></span>
+# <a name="ibackgroundcopycallback2-methods"></a><span data-ttu-id="56000-103">IBackgroundCopyCallback2 方法</span><span class="sxs-lookup"><span data-stu-id="56000-103">IBackgroundCopyCallback2 Methods</span></span>
 
-<span data-ttu-id="fc9e1-104">[**IBackgroundCopyCallback2**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopycallback2)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="fc9e1-104">The [**IBackgroundCopyCallback2**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopycallback2) interface exposes the following methods.</span></span>
+<span data-ttu-id="56000-104">[**IBackgroundCopyCallback2**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopycallback2)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="56000-104">The [**IBackgroundCopyCallback2**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopycallback2) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="fc9e1-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="fc9e1-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="56000-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="56000-105">In this section</span></span>
 
--   [<span data-ttu-id="fc9e1-106">**FileTransferred 方法**</span><span class="sxs-lookup"><span data-stu-id="fc9e1-106">**FileTransferred Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred)
+-   [<span data-ttu-id="56000-106">**FileTransferred 方法**</span><span class="sxs-lookup"><span data-stu-id="56000-106">**FileTransferred Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred)
 
  
 

@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020860"
 ---
-# <a name="example-code-for-changing-the-scope-of-a-group"></a><span data-ttu-id="34e7c-104">變更群組領域的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="34e7c-104">Example Code for Changing the Scope of a Group</span></span>
+# <a name="example-code-for-changing-the-scope-of-a-group"></a><span data-ttu-id="e1cb1-104">變更群組領域的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="e1cb1-104">Example Code for Changing the Scope of a Group</span></span>
 
-<span data-ttu-id="34e7c-105">下列 c + + 程式碼範例會變更群組的範圍。</span><span class="sxs-lookup"><span data-stu-id="34e7c-105">The following C++ code example changes the scope of a group.</span></span>
+<span data-ttu-id="e1cb1-105">下列 c + + 程式碼範例會變更群組的範圍。</span><span class="sxs-lookup"><span data-stu-id="e1cb1-105">The following C++ code example changes the scope of a group.</span></span>
 
 
 ```C++
@@ -54,7 +54,7 @@ ms.locfileid: "104020860"
 
 
 
-<span data-ttu-id="34e7c-106">下列 Visual Basic 程式碼範例會變更群組的範圍。</span><span class="sxs-lookup"><span data-stu-id="34e7c-106">The following Visual Basic code example changes the scope of a group.</span></span>
+<span data-ttu-id="e1cb1-106">下列 Visual Basic 程式碼範例會變更群組的範圍。</span><span class="sxs-lookup"><span data-stu-id="e1cb1-106">The following Visual Basic code example changes the scope of a group.</span></span>
 
 
 ```VB

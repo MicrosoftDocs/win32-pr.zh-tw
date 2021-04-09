@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933419"
 ---
-# <a name="retrieving-a-collection"></a><span data-ttu-id="02d21-103">正在抓取集合</span><span class="sxs-lookup"><span data-stu-id="02d21-103">Retrieving a Collection</span></span>
+# <a name="retrieving-a-collection"></a><span data-ttu-id="55fea-103">正在抓取集合</span><span class="sxs-lookup"><span data-stu-id="55fea-103">Retrieving a Collection</span></span>
 
 > [!Note]  
-> <span data-ttu-id="02d21-104">從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。</span><span class="sxs-lookup"><span data-stu-id="02d21-104">Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008.</span></span> <span data-ttu-id="02d21-105">本主題的內容適用于 IAS 和 NPS。</span><span class="sxs-lookup"><span data-stu-id="02d21-105">The content of this topic applies to both IAS and NPS.</span></span> <span data-ttu-id="02d21-106">在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。</span><span class="sxs-lookup"><span data-stu-id="02d21-106">Throughout the text, NPS is used to refer to all versions of the service, including the versions originally referred to as IAS.</span></span>
+> <span data-ttu-id="55fea-104">從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。</span><span class="sxs-lookup"><span data-stu-id="55fea-104">Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008.</span></span> <span data-ttu-id="55fea-105">本主題的內容適用于 IAS 和 NPS。</span><span class="sxs-lookup"><span data-stu-id="55fea-105">The content of this topic applies to both IAS and NPS.</span></span> <span data-ttu-id="55fea-106">在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。</span><span class="sxs-lookup"><span data-stu-id="55fea-106">Throughout the text, NPS is used to refer to all versions of the service, including the versions originally referred to as IAS.</span></span>
 
  
 
-<span data-ttu-id="02d21-107">下列程式碼會抓取網路原則伺服器的用戶端集合。</span><span class="sxs-lookup"><span data-stu-id="02d21-107">The following code retrieves the clients collection for the Network Policy Server.</span></span>
+<span data-ttu-id="55fea-107">下列程式碼會抓取網路原則伺服器的用戶端集合。</span><span class="sxs-lookup"><span data-stu-id="55fea-107">The following code retrieves the clients collection for the Network Policy Server.</span></span>
 
 
 ```C++
@@ -109,42 +109,42 @@ ms.locfileid: "103933419"
 
 
 
-## <a name="remarks"></a><span data-ttu-id="02d21-108">備註</span><span class="sxs-lookup"><span data-stu-id="02d21-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="55fea-108">備註</span><span class="sxs-lookup"><span data-stu-id="55fea-108">Remarks</span></span>
 
-<span data-ttu-id="02d21-109">PSdoServiceControl 變數包含 NPS 的伺服器資料物件指標。</span><span class="sxs-lookup"><span data-stu-id="02d21-109">The pSdoServiceControl variable contains a pointer to a Server Data Object for NPS.</span></span> <span data-ttu-id="02d21-110">如需詳細資訊，請參閱「取得 [服務 SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo)」主題。</span><span class="sxs-lookup"><span data-stu-id="02d21-110">For more information, see the topic [Retrieving a Service SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo).</span></span>
+<span data-ttu-id="55fea-109">PSdoServiceControl 變數包含 NPS 的伺服器資料物件指標。</span><span class="sxs-lookup"><span data-stu-id="55fea-109">The pSdoServiceControl variable contains a pointer to a Server Data Object for NPS.</span></span> <span data-ttu-id="55fea-110">如需詳細資訊，請參閱「取得 [服務 SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo)」主題。</span><span class="sxs-lookup"><span data-stu-id="55fea-110">For more information, see the topic [Retrieving a Service SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo).</span></span>
 
-<span data-ttu-id="02d21-111">VtClientsCollection 變數的類型為[ \_ variant \_ t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60))。</span><span class="sxs-lookup"><span data-stu-id="02d21-111">The vtClientsCollection variable is of type [\_variant\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60)).</span></span> <span data-ttu-id="02d21-112">\_Variant \_ t 物件會封裝或括住 [**variant**](/windows/win32/api/oaidl/ns-oaidl-variant)資料類型。</span><span class="sxs-lookup"><span data-stu-id="02d21-112">A \_variant\_t object encapsulates, or encloses, the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) data type.</span></span> <span data-ttu-id="02d21-113">類別會管理資源配置和解除配置，並視需要對 [**VariantInit**](/windows/win32/api/oleauto/nf-oleauto-variantinit) 和 [**VariantClear**](/windows/win32/api/oleauto/nf-oleauto-variantclear) 進行函式呼叫。</span><span class="sxs-lookup"><span data-stu-id="02d21-113">The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](/windows/win32/api/oleauto/nf-oleauto-variantinit) and [**VariantClear**](/windows/win32/api/oleauto/nf-oleauto-variantclear) as appropriate.</span></span>
+<span data-ttu-id="55fea-111">VtClientsCollection 變數的類型為[ \_ variant \_ t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60))。</span><span class="sxs-lookup"><span data-stu-id="55fea-111">The vtClientsCollection variable is of type [\_variant\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60)).</span></span> <span data-ttu-id="55fea-112">\_Variant \_ t 物件會封裝或括住 [**variant**](/windows/win32/api/oaidl/ns-oaidl-variant)資料類型。</span><span class="sxs-lookup"><span data-stu-id="55fea-112">A \_variant\_t object encapsulates, or encloses, the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) data type.</span></span> <span data-ttu-id="55fea-113">類別會管理資源配置和解除配置，並視需要對 [**VariantInit**](/windows/win32/api/oleauto/nf-oleauto-variantinit) 和 [**VariantClear**](/windows/win32/api/oleauto/nf-oleauto-variantclear) 進行函式呼叫。</span><span class="sxs-lookup"><span data-stu-id="55fea-113">The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](/windows/win32/api/oleauto/nf-oleauto-variantinit) and [**VariantClear**](/windows/win32/api/oleauto/nf-oleauto-variantclear) as appropriate.</span></span>
 
-<span data-ttu-id="02d21-114">在呼叫 "pSdo->GetProperty () " 之後，vtProtocolsCollection 變數會指定物件。</span><span class="sxs-lookup"><span data-stu-id="02d21-114">After the call to "pSdo->GetProperty()", the vtProtocolsCollection variable specifies an object.</span></span> <span data-ttu-id="02d21-115">VtProtocolsCollection 的 **pdispVal** 成員包含物件的 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 介面指標。</span><span class="sxs-lookup"><span data-stu-id="02d21-115">The **pdispVal** member of vtProtocolsCollection contains a pointer to the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface for the object.</span></span>
+<span data-ttu-id="55fea-114">在呼叫 "pSdo->GetProperty () " 之後，vtProtocolsCollection 變數會指定物件。</span><span class="sxs-lookup"><span data-stu-id="55fea-114">After the call to "pSdo->GetProperty()", the vtProtocolsCollection variable specifies an object.</span></span> <span data-ttu-id="55fea-115">VtProtocolsCollection 的 **pdispVal** 成員包含物件的 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 介面指標。</span><span class="sxs-lookup"><span data-stu-id="55fea-115">The **pdispVal** member of vtProtocolsCollection contains a pointer to the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface for the object.</span></span>
 
-<span data-ttu-id="02d21-116">上述範例程式碼可以調整以取得其他 NPS 集合，例如 NPS 要求處理常式集合。</span><span class="sxs-lookup"><span data-stu-id="02d21-116">The above sample code can be adapted to retrieve other NPS collections, for example the NPS Request Handlers collections.</span></span> <span data-ttu-id="02d21-117">[**IASPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)列舉型別會列舉對應至可用 NPS 集合的值。</span><span class="sxs-lookup"><span data-stu-id="02d21-117">The [**IASPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties) enumeration type enumerated values that correspond to the available NPS collections.</span></span>
+<span data-ttu-id="55fea-116">上述範例程式碼可以調整以取得其他 NPS 集合，例如 NPS 要求處理常式集合。</span><span class="sxs-lookup"><span data-stu-id="55fea-116">The above sample code can be adapted to retrieve other NPS collections, for example the NPS Request Handlers collections.</span></span> <span data-ttu-id="55fea-117">[**IASPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)列舉型別會列舉對應至可用 NPS 集合的值。</span><span class="sxs-lookup"><span data-stu-id="55fea-117">The [**IASPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties) enumeration type enumerated values that correspond to the available NPS collections.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="02d21-118">相關主題</span><span class="sxs-lookup"><span data-stu-id="02d21-118">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="55fea-118">相關主題</span><span class="sxs-lookup"><span data-stu-id="55fea-118">Related topics</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="02d21-119">[\_variant \_ t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60))</span><span class="sxs-lookup"><span data-stu-id="02d21-119">[\_variant\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60))</span></span>
+<span data-ttu-id="55fea-119">[\_variant \_ t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60))</span><span class="sxs-lookup"><span data-stu-id="55fea-119">[\_variant\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60))</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="02d21-120">**IASPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="02d21-120">**IASPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
+[<span data-ttu-id="55fea-120">**IASPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="55fea-120">**IASPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> <dt>
 
-[<span data-ttu-id="02d21-121">**ISdo：： GetProperty**</span><span class="sxs-lookup"><span data-stu-id="02d21-121">**ISdo::GetProperty**</span></span>](/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty)
+[<span data-ttu-id="55fea-121">**ISdo：： GetProperty**</span><span class="sxs-lookup"><span data-stu-id="55fea-121">**ISdo::GetProperty**</span></span>](/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty)
 </dt> <dt>
 
-[<span data-ttu-id="02d21-122">**ISdoCollection**</span><span class="sxs-lookup"><span data-stu-id="02d21-122">**ISdoCollection**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdocollection)
+[<span data-ttu-id="55fea-122">**ISdoCollection**</span><span class="sxs-lookup"><span data-stu-id="55fea-122">**ISdoCollection**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdocollection)
 </dt> <dt>
 
-[<span data-ttu-id="02d21-123">正在抓取服務 SDO</span><span class="sxs-lookup"><span data-stu-id="02d21-123">Retrieving a Service SDO</span></span>](/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
+[<span data-ttu-id="55fea-123">正在抓取服務 SDO</span><span class="sxs-lookup"><span data-stu-id="55fea-123">Retrieving a Service SDO</span></span>](/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
 </dt> <dt>
 
-[<span data-ttu-id="02d21-124">**VariantClear**</span><span class="sxs-lookup"><span data-stu-id="02d21-124">**VariantClear**</span></span>](/windows/win32/api/oleauto/nf-oleauto-variantclear)
+[<span data-ttu-id="55fea-124">**VariantClear**</span><span class="sxs-lookup"><span data-stu-id="55fea-124">**VariantClear**</span></span>](/windows/win32/api/oleauto/nf-oleauto-variantclear)
 </dt> <dt>
 
-[<span data-ttu-id="02d21-125">**VariantInit**</span><span class="sxs-lookup"><span data-stu-id="02d21-125">**VariantInit**</span></span>](/windows/win32/api/oleauto/nf-oleauto-variantinit)
+[<span data-ttu-id="55fea-125">**VariantInit**</span><span class="sxs-lookup"><span data-stu-id="55fea-125">**VariantInit**</span></span>](/windows/win32/api/oleauto/nf-oleauto-variantinit)
 </dt> <dt>
 
-[<span data-ttu-id="02d21-126">**變異**</span><span class="sxs-lookup"><span data-stu-id="02d21-126">**VARIANT**</span></span>](/windows/win32/api/oaidl/ns-oaidl-variant)
+[<span data-ttu-id="55fea-126">**變異**</span><span class="sxs-lookup"><span data-stu-id="55fea-126">**VARIANT**</span></span>](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
  

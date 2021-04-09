@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103845828"
 ---
-# <a name="denmark-channel-assignments"></a><span data-ttu-id="daaa5-103">丹麥通道指派</span><span class="sxs-lookup"><span data-stu-id="daaa5-103">Denmark Channel Assignments</span></span>
+# <a name="denmark-channel-assignments"></a><span data-ttu-id="04a49-103">丹麥通道指派</span><span class="sxs-lookup"><span data-stu-id="04a49-103">Denmark Channel Assignments</span></span>
 
-<span data-ttu-id="daaa5-104">本主題列出用於丹麥進行類比電視微調的頻率資料表。</span><span class="sxs-lookup"><span data-stu-id="daaa5-104">This topic lists the frequency tables used for analog TV tuning for Denmark.</span></span>
+<span data-ttu-id="04a49-104">本主題列出用於丹麥進行類比電視微調的頻率資料表。</span><span class="sxs-lookup"><span data-stu-id="04a49-104">This topic lists the frequency tables used for analog TV tuning for Denmark.</span></span>
 
-<span data-ttu-id="daaa5-105">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="daaa5-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="04a49-105">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="04a49-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="daaa5-106">在 Windows 7 中引進了下列通道指派。</span><span class="sxs-lookup"><span data-stu-id="daaa5-106">The following channel assignments were introduced in Windows 7.</span></span> <span data-ttu-id="daaa5-107">先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。</span><span class="sxs-lookup"><span data-stu-id="daaa5-107">Previously, the [Unicable Frequency Table](unicable-frequency-table.md) was used.</span></span>
+<span data-ttu-id="04a49-106">在 Windows 7 中引進了下列通道指派。</span><span class="sxs-lookup"><span data-stu-id="04a49-106">The following channel assignments were introduced in Windows 7.</span></span> <span data-ttu-id="04a49-107">先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。</span><span class="sxs-lookup"><span data-stu-id="04a49-107">Previously, the [Unicable Frequency Table](unicable-frequency-table.md) was used.</span></span>
 
-## <a name="cable-assignments"></a><span data-ttu-id="daaa5-108">纜線指派</span><span class="sxs-lookup"><span data-stu-id="daaa5-108">Cable Assignments</span></span>
+## <a name="cable-assignments"></a><span data-ttu-id="04a49-108">纜線指派</span><span class="sxs-lookup"><span data-stu-id="04a49-108">Cable Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -134,11 +134,11 @@ ms.locfileid: "103845828"
        855250000L,      // 107 K69
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="daaa5-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="daaa5-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="04a49-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="04a49-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="daaa5-110">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="daaa5-110">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="04a49-110">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="04a49-110">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  

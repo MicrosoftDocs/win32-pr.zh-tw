@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843363"
 ---
-# <a name="em_setstorytype-message"></a><span data-ttu-id="35baf-104">EM \_ SETSTORYTYPE 訊息</span><span class="sxs-lookup"><span data-stu-id="35baf-104">EM\_SETSTORYTYPE message</span></span>
+# <a name="em_setstorytype-message"></a><span data-ttu-id="b13c9-104">EM \_ SETSTORYTYPE 訊息</span><span class="sxs-lookup"><span data-stu-id="b13c9-104">EM\_SETSTORYTYPE message</span></span>
 
-<span data-ttu-id="35baf-105">設定案例類型。</span><span class="sxs-lookup"><span data-stu-id="35baf-105">Sets the story type.</span></span>
+<span data-ttu-id="b13c9-105">設定案例類型。</span><span class="sxs-lookup"><span data-stu-id="b13c9-105">Sets the story type.</span></span>
 
 
 ```C++
@@ -32,37 +32,37 @@ ms.locfileid: "103843363"
 
 
 
-## <a name="parameters"></a><span data-ttu-id="35baf-106">參數</span><span class="sxs-lookup"><span data-stu-id="35baf-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b13c9-106">參數</span><span class="sxs-lookup"><span data-stu-id="b13c9-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="35baf-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="35baf-107">*wParam*</span></span> 
+<span data-ttu-id="b13c9-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="b13c9-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="35baf-108">故事索引。</span><span class="sxs-lookup"><span data-stu-id="35baf-108">The story index.</span></span>
+<span data-ttu-id="b13c9-108">故事索引。</span><span class="sxs-lookup"><span data-stu-id="b13c9-108">The story index.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="35baf-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="35baf-109">*lParam*</span></span> 
+<span data-ttu-id="b13c9-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="b13c9-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="35baf-110">新的案例類型。</span><span class="sxs-lookup"><span data-stu-id="35baf-110">The new story type.</span></span> <span data-ttu-id="35baf-111">如需故事類型的清單，請參閱 [**EM \_ GETSTORYTYPE**](em-getstorytype.md)。</span><span class="sxs-lookup"><span data-stu-id="35baf-111">For a list of story types, see [**EM\_GETSTORYTYPE**](em-getstorytype.md).</span></span>
+<span data-ttu-id="b13c9-110">新的案例類型。</span><span class="sxs-lookup"><span data-stu-id="b13c9-110">The new story type.</span></span> <span data-ttu-id="b13c9-111">如需故事類型的清單，請參閱 [**EM \_ GETSTORYTYPE**](em-getstorytype.md)。</span><span class="sxs-lookup"><span data-stu-id="b13c9-111">For a list of story types, see [**EM\_GETSTORYTYPE**](em-getstorytype.md).</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="35baf-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="35baf-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b13c9-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="b13c9-112">Return value</span></span>
 
-<span data-ttu-id="35baf-113">已設定的案例類型。</span><span class="sxs-lookup"><span data-stu-id="35baf-113">The story type that was set.</span></span>
+<span data-ttu-id="b13c9-113">已設定的案例類型。</span><span class="sxs-lookup"><span data-stu-id="b13c9-113">The story type that was set.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="35baf-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="35baf-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b13c9-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="b13c9-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="35baf-115">需求</span><span class="sxs-lookup"><span data-stu-id="35baf-115">Requirement</span></span> | <span data-ttu-id="35baf-116">值</span><span class="sxs-lookup"><span data-stu-id="35baf-116">Value</span></span> |
+| <span data-ttu-id="b13c9-115">需求</span><span class="sxs-lookup"><span data-stu-id="b13c9-115">Requirement</span></span> | <span data-ttu-id="b13c9-116">值</span><span class="sxs-lookup"><span data-stu-id="b13c9-116">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="35baf-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="35baf-117">Minimum supported client</span></span><br/> | <span data-ttu-id="35baf-118">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="35baf-118">Windows 8 \[desktop apps only\]</span></span><br/>                                            |
-| <span data-ttu-id="35baf-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="35baf-119">Minimum supported server</span></span><br/> | <span data-ttu-id="35baf-120">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="35baf-120">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="35baf-121">標頭</span><span class="sxs-lookup"><span data-stu-id="35baf-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="35baf-122"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="35baf-122"><dt>Richedit.h</dt></span></span> </dl> |
+| <span data-ttu-id="b13c9-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b13c9-117">Minimum supported client</span></span><br/> | <span data-ttu-id="b13c9-118">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b13c9-118">Windows 8 \[desktop apps only\]</span></span><br/>                                            |
+| <span data-ttu-id="b13c9-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b13c9-119">Minimum supported server</span></span><br/> | <span data-ttu-id="b13c9-120">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b13c9-120">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="b13c9-121">標頭</span><span class="sxs-lookup"><span data-stu-id="b13c9-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="b13c9-122"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="b13c9-122"><dt>Richedit.h</dt></span></span> </dl> |
 
 
 

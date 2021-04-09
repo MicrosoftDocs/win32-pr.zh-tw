@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020858"
 ---
-# <a name="example-code-for-creating-a-bindable-string-representation-of-a-guid"></a><span data-ttu-id="f7a31-104">用來建立 GUID 之可系結字串表示的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="f7a31-104">Example Code for Creating a Bindable String Representation of a GUID</span></span>
+# <a name="example-code-for-creating-a-bindable-string-representation-of-a-guid"></a><span data-ttu-id="9b26d-104">用來建立 GUID 之可系結字串表示的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="9b26d-104">Example Code for Creating a Bindable String Representation of a GUID</span></span>
 
-<span data-ttu-id="f7a31-105">下列程式碼範例可用來傳回可以用來系結至物件之 GUID 的字串表示。</span><span class="sxs-lookup"><span data-stu-id="f7a31-105">The following code example can be used to return a string representation of a GUID that can be used to bind to the object.</span></span>
+<span data-ttu-id="9b26d-105">下列程式碼範例可用來傳回可以用來系結至物件之 GUID 的字串表示。</span><span class="sxs-lookup"><span data-stu-id="9b26d-105">The following code example can be used to return a string representation of a GUID that can be used to bind to the object.</span></span>
 
 
 ```C++

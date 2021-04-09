@@ -12,11 +12,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020747"
 ---
-# <a name="checking-the-query-filter-syntax"></a><span data-ttu-id="a7e2a-104">檢查查詢篩選語法</span><span class="sxs-lookup"><span data-stu-id="a7e2a-104">Checking the Query Filter Syntax</span></span>
+# <a name="checking-the-query-filter-syntax"></a><span data-ttu-id="dcc85-104">檢查查詢篩選語法</span><span class="sxs-lookup"><span data-stu-id="dcc85-104">Checking the Query Filter Syntax</span></span>
 
-<span data-ttu-id="a7e2a-105">LDAP API 提供簡單的語法驗證函式。</span><span class="sxs-lookup"><span data-stu-id="a7e2a-105">The LDAP API provides a simple syntax-verification function.</span></span> <span data-ttu-id="a7e2a-106">請注意，它只會驗證語法，而不會驗證篩選中指定的屬性是否存在。</span><span class="sxs-lookup"><span data-stu-id="a7e2a-106">Be aware that it only verifies the syntax and not the existence of the properties specified in the filter.</span></span>
+<span data-ttu-id="dcc85-105">LDAP API 提供簡單的語法驗證函式。</span><span class="sxs-lookup"><span data-stu-id="dcc85-105">The LDAP API provides a simple syntax-verification function.</span></span> <span data-ttu-id="dcc85-106">請注意，它只會驗證語法，而不會驗證篩選中指定的屬性是否存在。</span><span class="sxs-lookup"><span data-stu-id="dcc85-106">Be aware that it only verifies the syntax and not the existence of the properties specified in the filter.</span></span>
 
-<span data-ttu-id="a7e2a-107">下列函式會驗證查詢篩選準則的語法，如果篩選有效則傳回 **s \_ OK** ，否則傳回 \_ FALSE。</span><span class="sxs-lookup"><span data-stu-id="a7e2a-107">The following function verifies the syntax of the query filter and returns **S\_OK** if the filter is valid or S\_FALSE if it is not.</span></span>
+<span data-ttu-id="dcc85-107">下列函式會驗證查詢篩選準則的語法，如果篩選有效則傳回 **s \_ OK** ，否則傳回 \_ FALSE。</span><span class="sxs-lookup"><span data-stu-id="dcc85-107">The following function verifies the syntax of the query filter and returns **S\_OK** if the filter is valid or S\_FALSE if it is not.</span></span>
 
 
 ```C++

@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020954"
 ---
-# <a name="qmgr-structures"></a><span data-ttu-id="3b5ce-103">QMGR 結構</span><span class="sxs-lookup"><span data-stu-id="3b5ce-103">QMGR Structures</span></span>
+# <a name="qmgr-structures"></a><span data-ttu-id="4fb2c-103">QMGR 結構</span><span class="sxs-lookup"><span data-stu-id="4fb2c-103">QMGR Structures</span></span>
 
-<span data-ttu-id="3b5ce-104">\[佇列管理員 (QMGR) 結構可在主題的需求一節中指定的作業系統中使用。</span><span class="sxs-lookup"><span data-stu-id="3b5ce-104">\[Queue Manager (QMGR) structures are available for use in the operating systems specified in a topic's Requirements section.</span></span> <span data-ttu-id="3b5ce-105">在後續的版本中，我們可能會修改其功能或不再提供。</span><span class="sxs-lookup"><span data-stu-id="3b5ce-105">They may be altered or unavailable in subsequent versions.</span></span> <span data-ttu-id="3b5ce-106">請改用 [BITS 結構和等位](bits-c---structures-and-unions.md)。\]</span><span class="sxs-lookup"><span data-stu-id="3b5ce-106">Instead, use the [BITS Structures and Unions](bits-c---structures-and-unions.md).\]</span></span>
+<span data-ttu-id="4fb2c-104">\[佇列管理員 (QMGR) 結構可在主題的需求一節中指定的作業系統中使用。</span><span class="sxs-lookup"><span data-stu-id="4fb2c-104">\[Queue Manager (QMGR) structures are available for use in the operating systems specified in a topic's Requirements section.</span></span> <span data-ttu-id="4fb2c-105">在後續的版本中，我們可能會修改其功能或不再提供。</span><span class="sxs-lookup"><span data-stu-id="4fb2c-105">They may be altered or unavailable in subsequent versions.</span></span> <span data-ttu-id="4fb2c-106">請改用 [BITS 結構和等位](bits-c---structures-and-unions.md)。\]</span><span class="sxs-lookup"><span data-stu-id="4fb2c-106">Instead, use the [BITS Structures and Unions](bits-c---structures-and-unions.md).\]</span></span>
 
-<span data-ttu-id="3b5ce-107">佇列管理員 (QMGR) [介面](qmgr-interfaces.md) 會使用下列結構。</span><span class="sxs-lookup"><span data-stu-id="3b5ce-107">The Queue Manager (QMGR) [interfaces](qmgr-interfaces.md) use the following structures.</span></span>
+<span data-ttu-id="4fb2c-107">佇列管理員 (QMGR) [介面](qmgr-interfaces.md) 會使用下列結構。</span><span class="sxs-lookup"><span data-stu-id="4fb2c-107">The Queue Manager (QMGR) [interfaces](qmgr-interfaces.md) use the following structures.</span></span>
 
 
 
-| <span data-ttu-id="3b5ce-108">結構</span><span class="sxs-lookup"><span data-stu-id="3b5ce-108">Structure</span></span>                                     | <span data-ttu-id="3b5ce-109">目的</span><span class="sxs-lookup"><span data-stu-id="3b5ce-109">Purpose</span></span>                                                                   |
+| <span data-ttu-id="4fb2c-108">結構</span><span class="sxs-lookup"><span data-stu-id="4fb2c-108">Structure</span></span>                                     | <span data-ttu-id="4fb2c-109">目的</span><span class="sxs-lookup"><span data-stu-id="4fb2c-109">Purpose</span></span>                                                                   |
 |-----------------------------------------------|---------------------------------------------------------------------------|
-| [<span data-ttu-id="3b5ce-110">**FILESETINFO**</span><span class="sxs-lookup"><span data-stu-id="3b5ce-110">**FILESETINFO**</span></span>](/windows/desktop/api/Qmgr/ns-qmgr-filesetinfo)<br/> | <span data-ttu-id="3b5ce-111">識別要下載之檔案的遠端和本機名稱。</span><span class="sxs-lookup"><span data-stu-id="3b5ce-111">Identifies the remote and local names of the file to download.</span></span><br/> |
-| <span data-ttu-id="3b5ce-112">**背景 \_ 複製 \_ 時間**</span><span class="sxs-lookup"><span data-stu-id="3b5ce-112">**BACKGROUND\_COPY\_TIMES**</span></span><br/>        | <span data-ttu-id="3b5ce-113">不支援。</span><span class="sxs-lookup"><span data-stu-id="3b5ce-113">Not supported.</span></span><br/>                                                 |
+| [<span data-ttu-id="4fb2c-110">**FILESETINFO**</span><span class="sxs-lookup"><span data-stu-id="4fb2c-110">**FILESETINFO**</span></span>](/windows/desktop/api/Qmgr/ns-qmgr-filesetinfo)<br/> | <span data-ttu-id="4fb2c-111">識別要下載之檔案的遠端和本機名稱。</span><span class="sxs-lookup"><span data-stu-id="4fb2c-111">Identifies the remote and local names of the file to download.</span></span><br/> |
+| <span data-ttu-id="4fb2c-112">**背景 \_ 複製 \_ 時間**</span><span class="sxs-lookup"><span data-stu-id="4fb2c-112">**BACKGROUND\_COPY\_TIMES**</span></span><br/>        | <span data-ttu-id="4fb2c-113">不支援。</span><span class="sxs-lookup"><span data-stu-id="4fb2c-113">Not supported.</span></span><br/>                                                 |
 
 
 

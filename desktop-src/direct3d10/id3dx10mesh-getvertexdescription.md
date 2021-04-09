@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/15/2021
 ms.locfileid: "103946109"
 ---
-# <a name="id3dx10meshgetvertexdescription-method"></a><span data-ttu-id="62b57-104">ID3DX10Mesh：： GetVertexDescription 方法</span><span class="sxs-lookup"><span data-stu-id="62b57-104">ID3DX10Mesh::GetVertexDescription method</span></span>
+# <a name="id3dx10meshgetvertexdescription-method"></a><span data-ttu-id="03c93-104">ID3DX10Mesh：： GetVertexDescription 方法</span><span class="sxs-lookup"><span data-stu-id="03c93-104">ID3DX10Mesh::GetVertexDescription method</span></span>
 
-<span data-ttu-id="62b57-105">存取傳遞至 [**D3DX10CreateMesh**](d3d10-d3dx10createmesh.md)的頂點描述。</span><span class="sxs-lookup"><span data-stu-id="62b57-105">Access the vertex description passed into [**D3DX10CreateMesh**](d3d10-d3dx10createmesh.md).</span></span> <span data-ttu-id="62b57-106">頂點描述描述網格頂點緩衝區的版面配置。</span><span class="sxs-lookup"><span data-stu-id="62b57-106">The vertex description describes the layout of the mesh's vertex buffers.</span></span>
+<span data-ttu-id="03c93-105">存取傳遞至 [**D3DX10CreateMesh**](d3d10-d3dx10createmesh.md)的頂點描述。</span><span class="sxs-lookup"><span data-stu-id="03c93-105">Access the vertex description passed into [**D3DX10CreateMesh**](d3d10-d3dx10createmesh.md).</span></span> <span data-ttu-id="03c93-106">頂點描述描述網格頂點緩衝區的版面配置。</span><span class="sxs-lookup"><span data-stu-id="03c93-106">The vertex description describes the layout of the mesh's vertex buffers.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="62b57-107">語法</span><span class="sxs-lookup"><span data-stu-id="62b57-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="03c93-107">語法</span><span class="sxs-lookup"><span data-stu-id="03c93-107">Syntax</span></span>
 
 
 ```C++
@@ -37,53 +37,53 @@ HRESULT GetVertexDescription(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="62b57-108">參數</span><span class="sxs-lookup"><span data-stu-id="62b57-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="03c93-108">參數</span><span class="sxs-lookup"><span data-stu-id="03c93-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="62b57-109">*ppDesc* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="62b57-109">*ppDesc* \[out\]</span></span>
+<span data-ttu-id="03c93-109">*ppDesc* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="03c93-109">*ppDesc* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="62b57-110">Type： **Const [**D3D10 \_ INPUT \_ ELEMENT \_ DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc) \* \***</span><span class="sxs-lookup"><span data-stu-id="62b57-110">Type: **const [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc)\*\***</span></span>
+<span data-ttu-id="03c93-110">Type： **Const [**D3D10 \_ INPUT \_ ELEMENT \_ DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc) \* \***</span><span class="sxs-lookup"><span data-stu-id="03c93-110">Type: **const [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc)\*\***</span></span>
 
-<span data-ttu-id="62b57-111">描述網格頂點緩衝區配置的輸入元素陣列。</span><span class="sxs-lookup"><span data-stu-id="62b57-111">Array of input elements that describe the layout of the mesh's vertex buffers.</span></span> <span data-ttu-id="62b57-112">請參閱 [**D3D10 \_ 輸入 \_ 元素 \_ DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc)。</span><span class="sxs-lookup"><span data-stu-id="62b57-112">See [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc).</span></span>
+<span data-ttu-id="03c93-111">描述網格頂點緩衝區配置的輸入元素陣列。</span><span class="sxs-lookup"><span data-stu-id="03c93-111">Array of input elements that describe the layout of the mesh's vertex buffers.</span></span> <span data-ttu-id="03c93-112">請參閱 [**D3D10 \_ 輸入 \_ 元素 \_ DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc)。</span><span class="sxs-lookup"><span data-stu-id="03c93-112">See [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="62b57-113">*pDeclCount* \[在\]</span><span class="sxs-lookup"><span data-stu-id="62b57-113">*pDeclCount* \[in\]</span></span>
+<span data-ttu-id="03c93-113">*pDeclCount* \[在\]</span><span class="sxs-lookup"><span data-stu-id="03c93-113">*pDeclCount* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="62b57-114">類型： **[ **UINT**](../winprog/windows-data-types.md)\***</span><span class="sxs-lookup"><span data-stu-id="62b57-114">Type: **[**UINT**](../winprog/windows-data-types.md)\***</span></span>
+<span data-ttu-id="03c93-114">類型： **[ **UINT**](../winprog/windows-data-types.md)\***</span><span class="sxs-lookup"><span data-stu-id="03c93-114">Type: **[**UINT**](../winprog/windows-data-types.md)\***</span></span>
 
-<span data-ttu-id="62b57-115">PpDesc 中輸入元素的數目。</span><span class="sxs-lookup"><span data-stu-id="62b57-115">The number of input elements in ppDesc.</span></span>
+<span data-ttu-id="03c93-115">PpDesc 中輸入元素的數目。</span><span class="sxs-lookup"><span data-stu-id="03c93-115">The number of input elements in ppDesc.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="62b57-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="62b57-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="03c93-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="03c93-116">Return value</span></span>
 
-<span data-ttu-id="62b57-117">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="62b57-117">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
+<span data-ttu-id="03c93-117">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="03c93-117">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
 
-<span data-ttu-id="62b57-118">傳回值是 [Direct3D 10 傳回碼](d3d10-graphics-reference-returnvalues.md)中列出的其中一個值。</span><span class="sxs-lookup"><span data-stu-id="62b57-118">The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).</span></span>
+<span data-ttu-id="03c93-118">傳回值是 [Direct3D 10 傳回碼](d3d10-graphics-reference-returnvalues.md)中列出的其中一個值。</span><span class="sxs-lookup"><span data-stu-id="03c93-118">The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="62b57-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="62b57-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="03c93-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="03c93-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="62b57-120">需求</span><span class="sxs-lookup"><span data-stu-id="62b57-120">Requirement</span></span> | <span data-ttu-id="62b57-121">值</span><span class="sxs-lookup"><span data-stu-id="62b57-121">Value</span></span> |
+| <span data-ttu-id="03c93-120">需求</span><span class="sxs-lookup"><span data-stu-id="03c93-120">Requirement</span></span> | <span data-ttu-id="03c93-121">值</span><span class="sxs-lookup"><span data-stu-id="03c93-121">Value</span></span> |
 |--------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="62b57-122">標頭</span><span class="sxs-lookup"><span data-stu-id="62b57-122">Header</span></span><br/>  | <dl> <span data-ttu-id="62b57-123"><dt>D3DX10。h</dt></span><span class="sxs-lookup"><span data-stu-id="62b57-123"><dt>D3DX10.h</dt></span></span> </dl>   |
-| <span data-ttu-id="62b57-124">程式庫</span><span class="sxs-lookup"><span data-stu-id="62b57-124">Library</span></span><br/> | <dl> <span data-ttu-id="62b57-125"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="62b57-125"><dt>D3DX10.lib</dt></span></span> </dl> |
+| <span data-ttu-id="03c93-122">標頭</span><span class="sxs-lookup"><span data-stu-id="03c93-122">Header</span></span><br/>  | <dl> <span data-ttu-id="03c93-123"><dt>D3DX10。h</dt></span><span class="sxs-lookup"><span data-stu-id="03c93-123"><dt>D3DX10.h</dt></span></span> </dl>   |
+| <span data-ttu-id="03c93-124">程式庫</span><span class="sxs-lookup"><span data-stu-id="03c93-124">Library</span></span><br/> | <dl> <span data-ttu-id="03c93-125"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="03c93-125"><dt>D3DX10.lib</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="62b57-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="62b57-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="03c93-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="03c93-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="62b57-127">ID3DX10Mesh</span><span class="sxs-lookup"><span data-stu-id="62b57-127">ID3DX10Mesh</span></span>](id3dx10mesh.md)
+[<span data-ttu-id="03c93-127">ID3DX10Mesh</span><span class="sxs-lookup"><span data-stu-id="03c93-127">ID3DX10Mesh</span></span>](id3dx10mesh.md)
 </dt> <dt>
 
-[<span data-ttu-id="62b57-128">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="62b57-128">D3DX Interfaces</span></span>](d3d10-graphics-reference-d3dx10-interfaces.md)
+[<span data-ttu-id="03c93-128">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="03c93-128">D3DX Interfaces</span></span>](d3d10-graphics-reference-d3dx10-interfaces.md)
 </dt> </dl>
 
  

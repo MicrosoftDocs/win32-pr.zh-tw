@@ -15,11 +15,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020764"
 ---
-# <a name="readattributeexample"></a><span data-ttu-id="2d4ca-106">ReadAttributeExample</span><span class="sxs-lookup"><span data-stu-id="2d4ca-106">ReadAttributeExample</span></span>
+# <a name="readattributeexample"></a><span data-ttu-id="92f20-106">ReadAttributeExample</span><span class="sxs-lookup"><span data-stu-id="92f20-106">ReadAttributeExample</span></span>
 
-<span data-ttu-id="2d4ca-107">此範例會讀取屬性。</span><span class="sxs-lookup"><span data-stu-id="2d4ca-107">This example reads an attribute.</span></span>
+<span data-ttu-id="92f20-107">此範例會讀取屬性。</span><span class="sxs-lookup"><span data-stu-id="92f20-107">This example reads an attribute.</span></span>
 
-## <a name="readattributecpp"></a><span data-ttu-id="2d4ca-108">ReadAttribute .cpp</span><span class="sxs-lookup"><span data-stu-id="2d4ca-108">ReadAttribute.cpp</span></span>
+## <a name="readattributecpp"></a><span data-ttu-id="92f20-108">ReadAttribute .cpp</span><span class="sxs-lookup"><span data-stu-id="92f20-108">ReadAttribute.cpp</span></span>
 
 
 ```C++

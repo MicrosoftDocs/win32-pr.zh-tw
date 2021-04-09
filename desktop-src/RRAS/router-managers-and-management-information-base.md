@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103842507"
 ---
-# <a name="router-managers-and-management-information-base"></a><span data-ttu-id="3df9e-103">路由器管理員和管理資訊基礎</span><span class="sxs-lookup"><span data-stu-id="3df9e-103">Router Managers and Management Information Base</span></span>
+# <a name="router-managers-and-management-information-base"></a><span data-ttu-id="0925d-103">路由器管理員和管理資訊基礎</span><span class="sxs-lookup"><span data-stu-id="0925d-103">Router Managers and Management Information Base</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="3df9e-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="3df9e-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0925d-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="0925d-104">In this section</span></span>
 
--   [<span data-ttu-id="3df9e-105">關於使用 MIB 的路由器管理</span><span class="sxs-lookup"><span data-stu-id="3df9e-105">About Router Management with MIB</span></span>](/windows/desktop/RRAS/about-router-management-with-mib)
--   [<span data-ttu-id="3df9e-106">使用路由器管理 MIB API</span><span class="sxs-lookup"><span data-stu-id="3df9e-106">Using the Router Management MIB API</span></span>](using-the-router-management-mib-api.md)
--   [<span data-ttu-id="3df9e-107">路由器管理 MIB 參考</span><span class="sxs-lookup"><span data-stu-id="3df9e-107">Router Management MIB Reference</span></span>](router-management-mib-reference.md)
+-   [<span data-ttu-id="0925d-105">關於使用 MIB 的路由器管理</span><span class="sxs-lookup"><span data-stu-id="0925d-105">About Router Management with MIB</span></span>](/windows/desktop/RRAS/about-router-management-with-mib)
+-   [<span data-ttu-id="0925d-106">使用路由器管理 MIB API</span><span class="sxs-lookup"><span data-stu-id="0925d-106">Using the Router Management MIB API</span></span>](using-the-router-management-mib-api.md)
+-   [<span data-ttu-id="0925d-107">路由器管理 MIB 參考</span><span class="sxs-lookup"><span data-stu-id="0925d-107">Router Management MIB Reference</span></span>](router-management-mib-reference.md)
 
  
 

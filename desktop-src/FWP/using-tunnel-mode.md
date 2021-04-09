@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020949"
 ---
-# <a name="using-tunnel-mode"></a><span data-ttu-id="459d1-103">使用通道模式</span><span class="sxs-lookup"><span data-stu-id="459d1-103">Using Tunnel Mode</span></span>
+# <a name="using-tunnel-mode"></a><span data-ttu-id="b205a-103">使用通道模式</span><span class="sxs-lookup"><span data-stu-id="b205a-103">Using Tunnel Mode</span></span>
 
-<span data-ttu-id="459d1-104">下列範例程式碼示範如何使用 Windows 篩選平台 (WFP) API 來設定點對點 IPsec 通道。</span><span class="sxs-lookup"><span data-stu-id="459d1-104">The following sample code demonstrates how to configure a point-to-point IPsec tunnel using the Windows Filtering Platform (WFP) API.</span></span>
+<span data-ttu-id="b205a-104">下列範例程式碼示範如何使用 Windows 篩選平台 (WFP) API 來設定點對點 IPsec 通道。</span><span class="sxs-lookup"><span data-stu-id="b205a-104">The following sample code demonstrates how to configure a point-to-point IPsec tunnel using the Windows Filtering Platform (WFP) API.</span></span>
 
 
 ```C++

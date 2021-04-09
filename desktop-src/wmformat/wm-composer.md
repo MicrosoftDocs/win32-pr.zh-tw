@@ -19,23 +19,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103932754"
 ---
-# <a name="wmcomposer"></a><span data-ttu-id="f2f1e-104">WM/編輯器</span><span class="sxs-lookup"><span data-stu-id="f2f1e-104">WM/Composer</span></span>
+# <a name="wmcomposer"></a><span data-ttu-id="75398-104">WM/編輯器</span><span class="sxs-lookup"><span data-stu-id="75398-104">WM/Composer</span></span>
 
-<span data-ttu-id="f2f1e-105">**WM/編輯器** 屬性包含音樂編輯器的名稱。</span><span class="sxs-lookup"><span data-stu-id="f2f1e-105">The **WM/Composer** attribute contains the name of the music composer.</span></span>
+<span data-ttu-id="75398-105">**WM/編輯器** 屬性包含音樂編輯器的名稱。</span><span class="sxs-lookup"><span data-stu-id="75398-105">The **WM/Composer** attribute contains the name of the music composer.</span></span>
 
-## <a name="global-constant"></a><span data-ttu-id="f2f1e-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="f2f1e-106">Global Constant</span></span>
+## <a name="global-constant"></a><span data-ttu-id="75398-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="75398-106">Global Constant</span></span>
 
-<span data-ttu-id="f2f1e-107">g \_ wszWMComposer</span><span class="sxs-lookup"><span data-stu-id="f2f1e-107">g\_wszWMComposer</span></span>
+<span data-ttu-id="75398-107">g \_ wszWMComposer</span><span class="sxs-lookup"><span data-stu-id="75398-107">g\_wszWMComposer</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="f2f1e-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="f2f1e-108">Data Type</span></span>
+## <a name="data-type"></a><span data-ttu-id="75398-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="75398-108">Data Type</span></span>
 
-<span data-ttu-id="f2f1e-109">**WMT \_ 類型 \_ 字串**</span><span class="sxs-lookup"><span data-stu-id="f2f1e-109">**WMT\_TYPE\_STRING**</span></span>
+<span data-ttu-id="75398-109">**WMT \_ 類型 \_ 字串**</span><span class="sxs-lookup"><span data-stu-id="75398-109">**WMT\_TYPE\_STRING**</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f2f1e-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f2f1e-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="75398-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="75398-110">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f2f1e-111">**屬性清單**</span><span class="sxs-lookup"><span data-stu-id="f2f1e-111">**Attribute List**</span></span>](attribute-list.md)
+[<span data-ttu-id="75398-111">**屬性清單**</span><span class="sxs-lookup"><span data-stu-id="75398-111">**Attribute List**</span></span>](attribute-list.md)
 </dt> </dl>
 
  
