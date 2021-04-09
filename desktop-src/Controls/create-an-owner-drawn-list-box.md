@@ -11,31 +11,31 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2020
 ms.locfileid: "103933752"
 ---
-# <a name="how-to-create-an-owner-drawn-list-box"></a><span data-ttu-id="a7442-103">如何建立 Owner-Drawn 清單方塊</span><span class="sxs-lookup"><span data-stu-id="a7442-103">How to Create an Owner-Drawn List Box</span></span>
+# <a name="how-to-create-an-owner-drawn-list-box"></a><span data-ttu-id="03222-103">如何建立 Owner-Drawn 清單方塊</span><span class="sxs-lookup"><span data-stu-id="03222-103">How to Create an Owner-Drawn List Box</span></span>
 
-<span data-ttu-id="a7442-104">本主題示範如何執行主控描繪清單方塊。</span><span class="sxs-lookup"><span data-stu-id="a7442-104">This topic demonstrates how to implement an owner-drawn list box.</span></span>
+<span data-ttu-id="03222-104">本主題示範如何執行主控描繪清單方塊。</span><span class="sxs-lookup"><span data-stu-id="03222-104">This topic demonstrates how to implement an owner-drawn list box.</span></span>
 
-<span data-ttu-id="a7442-105">本主題中的 c + + 程式碼範例示範如何繪製包含五個主控描繪專案的清單方塊：四個繪圖實作為一個分支。</span><span class="sxs-lookup"><span data-stu-id="a7442-105">The C++ code example in this topic shows how to draw a list box that contains five owner-drawn items: four drawing implements and a fork.</span></span> <span data-ttu-id="a7442-106">每個清單專案都會顯示為點陣圖，後面接著物件的名稱。</span><span class="sxs-lookup"><span data-stu-id="a7442-106">Each list item appears as a bitmap followed by the name of the object.</span></span> <span data-ttu-id="a7442-107">按鈕會提示使用者選取一個與其他專案不同的專案。</span><span class="sxs-lookup"><span data-stu-id="a7442-107">A button prompts the user to select one item that is not like the others.</span></span> <span data-ttu-id="a7442-108">選擇已選取分支的按鈕會顯示「您是 right！」</span><span class="sxs-lookup"><span data-stu-id="a7442-108">Choosing the button with the fork selected displays a "You're right!"</span></span> <span data-ttu-id="a7442-109">訊息並關閉對話方塊。</span><span class="sxs-lookup"><span data-stu-id="a7442-109">message and closes the dialog box.</span></span> <span data-ttu-id="a7442-110">選擇已選取任何其他清單專案的按鈕會顯示「再試一次！」</span><span class="sxs-lookup"><span data-stu-id="a7442-110">Choosing the button with any other list item selected displays a "Try again!"</span></span> <span data-ttu-id="a7442-111">回應。</span><span class="sxs-lookup"><span data-stu-id="a7442-111">message.</span></span>
+<span data-ttu-id="03222-105">本主題中的 c + + 程式碼範例示範如何繪製包含五個主控描繪專案的清單方塊：四個繪圖實作為一個分支。</span><span class="sxs-lookup"><span data-stu-id="03222-105">The C++ code example in this topic shows how to draw a list box that contains five owner-drawn items: four drawing implements and a fork.</span></span> <span data-ttu-id="03222-106">每個清單專案都會顯示為點陣圖，後面接著物件的名稱。</span><span class="sxs-lookup"><span data-stu-id="03222-106">Each list item appears as a bitmap followed by the name of the object.</span></span> <span data-ttu-id="03222-107">按鈕會提示使用者選取一個與其他專案不同的專案。</span><span class="sxs-lookup"><span data-stu-id="03222-107">A button prompts the user to select one item that is not like the others.</span></span> <span data-ttu-id="03222-108">選擇已選取分支的按鈕會顯示「您是 right！」</span><span class="sxs-lookup"><span data-stu-id="03222-108">Choosing the button with the fork selected displays a "You're right!"</span></span> <span data-ttu-id="03222-109">訊息並關閉對話方塊。</span><span class="sxs-lookup"><span data-stu-id="03222-109">message and closes the dialog box.</span></span> <span data-ttu-id="03222-110">選擇已選取任何其他清單專案的按鈕會顯示「再試一次！」</span><span class="sxs-lookup"><span data-stu-id="03222-110">Choosing the button with any other list item selected displays a "Try again!"</span></span> <span data-ttu-id="03222-111">回應。</span><span class="sxs-lookup"><span data-stu-id="03222-111">message.</span></span>
 
-<span data-ttu-id="a7442-112">除了標準的清單方塊樣式之外，清單方塊還具有 [**磅 \_ OWNERDRAWFIXED**](list-box-styles.md) 和 [**磅 \_ HASSTRINGS**](list-box-styles.md) 樣式。</span><span class="sxs-lookup"><span data-stu-id="a7442-112">The list box has the [**LBS\_OWNERDRAWFIXED**](list-box-styles.md) and [**LBS\_HASSTRINGS**](list-box-styles.md) styles, in addition to the standard list box styles.</span></span>
+<span data-ttu-id="03222-112">除了標準的清單方塊樣式之外，清單方塊還具有 [**磅 \_ OWNERDRAWFIXED**](list-box-styles.md) 和 [**磅 \_ HASSTRINGS**](list-box-styles.md) 樣式。</span><span class="sxs-lookup"><span data-stu-id="03222-112">The list box has the [**LBS\_OWNERDRAWFIXED**](list-box-styles.md) and [**LBS\_HASSTRINGS**](list-box-styles.md) styles, in addition to the standard list box styles.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="a7442-113">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="a7442-113">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="03222-113">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="03222-113">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="a7442-114">技術</span><span class="sxs-lookup"><span data-stu-id="a7442-114">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="03222-114">技術</span><span class="sxs-lookup"><span data-stu-id="03222-114">Technologies</span></span>
 
--   [<span data-ttu-id="a7442-115">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="a7442-115">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="03222-115">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="03222-115">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="a7442-116">必要條件</span><span class="sxs-lookup"><span data-stu-id="a7442-116">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="03222-116">必要條件</span><span class="sxs-lookup"><span data-stu-id="03222-116">Prerequisites</span></span>
 
--   <span data-ttu-id="a7442-117">C/C++</span><span class="sxs-lookup"><span data-stu-id="a7442-117">C/C++</span></span>
--   <span data-ttu-id="a7442-118">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="a7442-118">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="03222-117">C/C++</span><span class="sxs-lookup"><span data-stu-id="03222-117">C/C++</span></span>
+-   <span data-ttu-id="03222-118">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="03222-118">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="a7442-119">指示</span><span class="sxs-lookup"><span data-stu-id="a7442-119">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="03222-119">指示</span><span class="sxs-lookup"><span data-stu-id="03222-119">Instructions</span></span>
 
 
-<span data-ttu-id="a7442-120">若要初始化主控描繪清單方塊，您的應用程式必須針對每個清單方塊專案載入文字字串和相關聯的點陣圖。</span><span class="sxs-lookup"><span data-stu-id="a7442-120">To initialize an owner-drawn list box, your application must load the text string and associated bitmap for each list box item.</span></span>
+<span data-ttu-id="03222-120">若要初始化主控描繪清單方塊，您的應用程式必須針對每個清單方塊專案載入文字字串和相關聯的點陣圖。</span><span class="sxs-lookup"><span data-stu-id="03222-120">To initialize an owner-drawn list box, your application must load the text string and associated bitmap for each list box item.</span></span>
 
-<span data-ttu-id="a7442-121">在下列 c + + 程式碼範例中，對話方塊程式會藉由傳送 [**lb \_ ADDSTRING**](lb-addstring.md)訊息來設定文字，然後傳送 [**lb \_ SETITEMDATA**](lb-setitemdata.md)訊息來使點陣圖與每個清單方塊專案產生關聯，藉此初始化清單方塊（ **IDC \_ 列出 \_ 內容**）。</span><span class="sxs-lookup"><span data-stu-id="a7442-121">In the following C++ code example, the dialog box procedure initializes the list box, **IDC\_LIST\_STUFF**, by sending the [**LB\_ADDSTRING**](lb-addstring.md) message to set the text, and then sends the [**LB\_SETITEMDATA**](lb-setitemdata.md) message to associate a bitmap with each list box item.</span></span> <span data-ttu-id="a7442-122">程式碼也會藉由處理 wm [**\_ MEASUREITEM**](wm-measureitem.md) 訊息來設定每個清單方塊專案的高度，並藉由處理 [**wm \_ DRAWITEM**](wm-drawitem.md) 訊息來繪製每個專案的文字和點陣圖。</span><span class="sxs-lookup"><span data-stu-id="a7442-122">The code also sets the height of each list box item by processing the [**WM\_MEASUREITEM**](wm-measureitem.md) message and draws the text and bitmap for each item by processing the [**WM\_DRAWITEM**](wm-drawitem.md) message.</span></span>
+<span data-ttu-id="03222-121">在下列 c + + 程式碼範例中，對話方塊程式會藉由傳送 [**lb \_ ADDSTRING**](lb-addstring.md)訊息來設定文字，然後傳送 [**lb \_ SETITEMDATA**](lb-setitemdata.md)訊息來使點陣圖與每個清單方塊專案產生關聯，藉此初始化清單方塊（ **IDC \_ 列出 \_ 內容**）。</span><span class="sxs-lookup"><span data-stu-id="03222-121">In the following C++ code example, the dialog box procedure initializes the list box, **IDC\_LIST\_STUFF**, by sending the [**LB\_ADDSTRING**](lb-addstring.md) message to set the text, and then sends the [**LB\_SETITEMDATA**](lb-setitemdata.md) message to associate a bitmap with each list box item.</span></span> <span data-ttu-id="03222-122">程式碼也會藉由處理 wm [**\_ MEASUREITEM**](wm-measureitem.md) 訊息來設定每個清單方塊專案的高度，並藉由處理 [**wm \_ DRAWITEM**](wm-drawitem.md) 訊息來繪製每個專案的文字和點陣圖。</span><span class="sxs-lookup"><span data-stu-id="03222-122">The code also sets the height of each list box item by processing the [**WM\_MEASUREITEM**](wm-measureitem.md) message and draws the text and bitmap for each item by processing the [**WM\_DRAWITEM**](wm-drawitem.md) message.</span></span>
 
 
 
@@ -264,17 +264,17 @@ INT_PTR CALLBACK DlgDrawProc(HWND hDlg, UINT message,
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="a7442-123">相關主題</span><span class="sxs-lookup"><span data-stu-id="a7442-123">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="03222-123">相關主題</span><span class="sxs-lookup"><span data-stu-id="03222-123">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a7442-124">清單方塊控制項參考</span><span class="sxs-lookup"><span data-stu-id="a7442-124">List Box Control Reference</span></span>](bumper-list-box-list-box-control-reference.md)
+[<span data-ttu-id="03222-124">清單方塊控制項參考</span><span class="sxs-lookup"><span data-stu-id="03222-124">List Box Control Reference</span></span>](bumper-list-box-list-box-control-reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="a7442-125">關於清單方塊</span><span class="sxs-lookup"><span data-stu-id="a7442-125">About List Boxes</span></span>](about-list-boxes.md)
+[<span data-ttu-id="03222-125">關於清單方塊</span><span class="sxs-lookup"><span data-stu-id="03222-125">About List Boxes</span></span>](about-list-boxes.md)
 </dt> <dt>
 
-[<span data-ttu-id="a7442-126">使用清單方塊</span><span class="sxs-lookup"><span data-stu-id="a7442-126">Using List Boxes</span></span>](using-list-boxes.md)
+[<span data-ttu-id="03222-126">使用清單方塊</span><span class="sxs-lookup"><span data-stu-id="03222-126">Using List Boxes</span></span>](using-list-boxes.md)
 </dt> </dl>
 
  

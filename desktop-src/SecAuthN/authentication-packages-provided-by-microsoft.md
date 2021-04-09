@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103693508"
 ---
-# <a name="authentication-packages-provided-by-microsoft"></a><span data-ttu-id="ff24b-103">Microsoft 提供的驗證套件</span><span class="sxs-lookup"><span data-stu-id="ff24b-103">Authentication Packages Provided by Microsoft</span></span>
+# <a name="authentication-packages-provided-by-microsoft"></a><span data-ttu-id="9a5d9-103">Microsoft 提供的驗證套件</span><span class="sxs-lookup"><span data-stu-id="9a5d9-103">Authentication Packages Provided by Microsoft</span></span>
 
-<span data-ttu-id="ff24b-104">以下是 Microsoft 提供的 [*驗證套件*](/windows/desktop/SecGloss/a-gly) ：</span><span class="sxs-lookup"><span data-stu-id="ff24b-104">Following are the [*authentication packages*](/windows/desktop/SecGloss/a-gly) provided by Microsoft:</span></span>
+<span data-ttu-id="9a5d9-104">以下是 Microsoft 提供的 [*驗證套件*](/windows/desktop/SecGloss/a-gly) ：</span><span class="sxs-lookup"><span data-stu-id="9a5d9-104">Following are the [*authentication packages*](/windows/desktop/SecGloss/a-gly) provided by Microsoft:</span></span>
 
--   [<span data-ttu-id="ff24b-105">Kerberos SSP/AP</span><span class="sxs-lookup"><span data-stu-id="ff24b-105">Kerberos SSP/AP</span></span>](kerberos-ssp-ap.md)
--   [<span data-ttu-id="ff24b-106">MSV1 \_ 0 驗證套件</span><span class="sxs-lookup"><span data-stu-id="ff24b-106">MSV1\_0 Authentication Package</span></span>](msv1-0-authentication-package.md)
+-   [<span data-ttu-id="9a5d9-105">Kerberos SSP/AP</span><span class="sxs-lookup"><span data-stu-id="9a5d9-105">Kerberos SSP/AP</span></span>](kerberos-ssp-ap.md)
+-   [<span data-ttu-id="9a5d9-106">MSV1 \_ 0 驗證套件</span><span class="sxs-lookup"><span data-stu-id="9a5d9-106">MSV1\_0 Authentication Package</span></span>](msv1-0-authentication-package.md)
 
  
 

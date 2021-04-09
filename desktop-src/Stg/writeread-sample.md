@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673959"
 ---
-# <a name="writeread-sample"></a><span data-ttu-id="a43da-104">WriteRead 範例</span><span class="sxs-lookup"><span data-stu-id="a43da-104">WriteRead Sample</span></span>
+# <a name="writeread-sample"></a><span data-ttu-id="d39ea-104">WriteRead 範例</span><span class="sxs-lookup"><span data-stu-id="d39ea-104">WriteRead Sample</span></span>
 
-<span data-ttu-id="a43da-105">WriteRead 會建立屬性集、寫入屬性、關閉和重新開啟屬性集，然後再讀取屬性。</span><span class="sxs-lookup"><span data-stu-id="a43da-105">The WriteRead.cpp creates a property set, writes a property, closes and reopens the property set, and reads back the property.</span></span> <span data-ttu-id="a43da-106">這個範例應用程式會在目前的目錄中建立 "WriteRead. stg." 檔案。</span><span class="sxs-lookup"><span data-stu-id="a43da-106">This sample application creates the file "WriteRead.stg" in the current directory.</span></span> <span data-ttu-id="a43da-107">它會在結構儲存體檔案中建立屬性集，但單行變更會導致它建立 NTFS 檔案系統屬性集。</span><span class="sxs-lookup"><span data-stu-id="a43da-107">It creates property sets in a structure storage file, but a one-line change causes it to create NTFS file system property sets.</span></span>
+<span data-ttu-id="d39ea-105">WriteRead 會建立屬性集、寫入屬性、關閉和重新開啟屬性集，然後再讀取屬性。</span><span class="sxs-lookup"><span data-stu-id="d39ea-105">The WriteRead.cpp creates a property set, writes a property, closes and reopens the property set, and reads back the property.</span></span> <span data-ttu-id="d39ea-106">這個範例應用程式會在目前的目錄中建立 "WriteRead. stg." 檔案。</span><span class="sxs-lookup"><span data-stu-id="d39ea-106">This sample application creates the file "WriteRead.stg" in the current directory.</span></span> <span data-ttu-id="d39ea-107">它會在結構儲存體檔案中建立屬性集，但單行變更會導致它建立 NTFS 檔案系統屬性集。</span><span class="sxs-lookup"><span data-stu-id="d39ea-107">It creates property sets in a structure storage file, but a one-line change causes it to create NTFS file system property sets.</span></span>
 
 
 ```C++

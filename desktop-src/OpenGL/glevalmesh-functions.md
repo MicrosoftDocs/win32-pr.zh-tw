@@ -24,12 +24,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674424"
 ---
-# <a name="glevalmesh-functions"></a><span data-ttu-id="86693-115">glEvalMesh 函式</span><span class="sxs-lookup"><span data-stu-id="86693-115">glEvalMesh Functions</span></span>
+# <a name="glevalmesh-functions"></a><span data-ttu-id="e4d61-115">glEvalMesh 函式</span><span class="sxs-lookup"><span data-stu-id="e4d61-115">glEvalMesh Functions</span></span>
 
-<span data-ttu-id="86693-116">這些函式會計算一維或兩維的點或線條方格：</span><span class="sxs-lookup"><span data-stu-id="86693-116">These functions compute a one-dimensional or a two-dimensional grid of points or lines:</span></span>
+<span data-ttu-id="e4d61-116">這些函式會計算一維或兩維的點或線條方格：</span><span class="sxs-lookup"><span data-stu-id="e4d61-116">These functions compute a one-dimensional or a two-dimensional grid of points or lines:</span></span>
 
--   [<span data-ttu-id="86693-117">**glEvalMesh1**</span><span class="sxs-lookup"><span data-stu-id="86693-117">**glEvalMesh1**</span></span>](glevalmesh1.md)
--   [<span data-ttu-id="86693-118">**glEvalMesh2**</span><span class="sxs-lookup"><span data-stu-id="86693-118">**glEvalMesh2**</span></span>](glevalmesh2.md)
+-   [<span data-ttu-id="e4d61-117">**glEvalMesh1**</span><span class="sxs-lookup"><span data-stu-id="e4d61-117">**glEvalMesh1**</span></span>](glevalmesh1.md)
+-   [<span data-ttu-id="e4d61-118">**glEvalMesh2**</span><span class="sxs-lookup"><span data-stu-id="e4d61-118">**glEvalMesh2**</span></span>](glevalmesh2.md)
 
  
 

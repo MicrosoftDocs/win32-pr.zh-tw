@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932313"
 ---
-# <a name="enumerating-installed-capture-drivers"></a><span data-ttu-id="cc045-104">列舉已安裝的 Capture 驅動程式</span><span class="sxs-lookup"><span data-stu-id="cc045-104">Enumerating Installed Capture Drivers</span></span>
+# <a name="enumerating-installed-capture-drivers"></a><span data-ttu-id="d9a5d-104">列舉已安裝的 Capture 驅動程式</span><span class="sxs-lookup"><span data-stu-id="d9a5d-104">Enumerating Installed Capture Drivers</span></span>
 
-<span data-ttu-id="cc045-105">下列範例會使用 [**capGetDriverDescription**](/windows/desktop/api/Vfw/nf-vfw-capgetdriverdescriptiona) 函數來取得已安裝之 capture 驅動程式的名稱和版本。</span><span class="sxs-lookup"><span data-stu-id="cc045-105">The following example uses the [**capGetDriverDescription**](/windows/desktop/api/Vfw/nf-vfw-capgetdriverdescriptiona) function to obtain the names and versions of the installed capture drivers.</span></span>
+<span data-ttu-id="d9a5d-105">下列範例會使用 [**capGetDriverDescription**](/windows/desktop/api/Vfw/nf-vfw-capgetdriverdescriptiona) 函數來取得已安裝之 capture 驅動程式的名稱和版本。</span><span class="sxs-lookup"><span data-stu-id="d9a5d-105">The following example uses the [**capGetDriverDescription**](/windows/desktop/api/Vfw/nf-vfw-capgetdriverdescriptiona) function to obtain the names and versions of the installed capture drivers.</span></span>
 
 
 ```C++
@@ -40,11 +40,11 @@ for (wIndex = 0; wIndex < 10; wIndex++)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="cc045-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="cc045-106">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d9a5d-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="d9a5d-106">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="cc045-107">使用影片捕獲</span><span class="sxs-lookup"><span data-stu-id="cc045-107">Using Video Capture</span></span>](using-video-capture.md)
+[<span data-ttu-id="d9a5d-107">使用影片捕獲</span><span class="sxs-lookup"><span data-stu-id="d9a5d-107">Using Video Capture</span></span>](using-video-capture.md)
 </dt> </dl>
 
  

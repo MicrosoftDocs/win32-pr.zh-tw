@@ -31,19 +31,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694335"
 ---
-# <a name="jet_commit_id-class"></a><span data-ttu-id="874fd-103">JET_COMMIT_ID 類別</span><span class="sxs-lookup"><span data-stu-id="874fd-103">JET_COMMIT_ID class</span></span>
+# <a name="jet_commit_id-class"></a><span data-ttu-id="50bb9-103">JET_COMMIT_ID 類別</span><span class="sxs-lookup"><span data-stu-id="50bb9-103">JET_COMMIT_ID class</span></span>
 
-<span data-ttu-id="874fd-104">資訊內容會括住從 JET_PFNEMITLOGDATA 發出的資料。</span><span class="sxs-lookup"><span data-stu-id="874fd-104">Information context surrounded data emitted from JET_PFNEMITLOGDATA.</span></span>
+<span data-ttu-id="50bb9-104">資訊內容會括住從 JET_PFNEMITLOGDATA 發出的資料。</span><span class="sxs-lookup"><span data-stu-id="50bb9-104">Information context surrounded data emitted from JET_PFNEMITLOGDATA.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="874fd-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="874fd-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="50bb9-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="50bb9-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="874fd-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="874fd-106">System.Object</span></span>](/dotnet/api/system.object)  
-  <span data-ttu-id="874fd-107">Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID</span><span class="sxs-lookup"><span data-stu-id="874fd-107">Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID</span></span>  
+[<span data-ttu-id="50bb9-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="50bb9-106">System.Object</span></span>](/dotnet/api/system.object)  
+  <span data-ttu-id="50bb9-107">Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID</span><span class="sxs-lookup"><span data-stu-id="50bb9-107">Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID</span></span>  
 
-<span data-ttu-id="874fd-108">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="874fd-108">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="874fd-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="874fd-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="50bb9-108">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="50bb9-108">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="50bb9-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="50bb9-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="874fd-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="874fd-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="50bb9-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="50bb9-110">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,14 +58,14 @@ public class JET_COMMIT_ID : IComparable<JET_COMMIT_ID>,
     IEquatable<JET_COMMIT_ID>
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="874fd-111">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="874fd-111">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="50bb9-111">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="50bb9-111">Thread safety</span></span>
 
-<span data-ttu-id="874fd-112">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="874fd-112">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="874fd-113">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="874fd-113">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="50bb9-112">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="50bb9-112">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="50bb9-113">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="50bb9-113">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="874fd-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="874fd-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="50bb9-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="50bb9-114">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="874fd-115">參考</span><span class="sxs-lookup"><span data-stu-id="874fd-115">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="50bb9-115">參考</span><span class="sxs-lookup"><span data-stu-id="50bb9-115">Reference</span></span>
 
-[<span data-ttu-id="874fd-116">JET_COMMIT_ID 成員</span><span class="sxs-lookup"><span data-stu-id="874fd-116">JET_COMMIT_ID members</span></span>](./jet-commit-id-members.md)
+[<span data-ttu-id="50bb9-116">JET_COMMIT_ID 成員</span><span class="sxs-lookup"><span data-stu-id="50bb9-116">JET_COMMIT_ID members</span></span>](./jet-commit-id-members.md)
 
-[<span data-ttu-id="874fd-117">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="874fd-117">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="50bb9-117">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="50bb9-117">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

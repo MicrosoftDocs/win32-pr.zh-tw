@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932181"
 ---
-# <a name="cc-code-example-retrieving-task-status"></a><span data-ttu-id="53a72-106">C/c + + 程式碼範例：正在抓取工作狀態</span><span class="sxs-lookup"><span data-stu-id="53a72-106">C/C++ Code Example: Retrieving Task Status</span></span>
+# <a name="cc-code-example-retrieving-task-status"></a><span data-ttu-id="84d3d-106">C/c + + 程式碼範例：正在抓取工作狀態</span><span class="sxs-lookup"><span data-stu-id="84d3d-106">C/C++ Code Example: Retrieving Task Status</span></span>
 
-<span data-ttu-id="53a72-107">這個範例會抓取工作的目前狀態，並將它顯示在螢幕上。</span><span class="sxs-lookup"><span data-stu-id="53a72-107">This example retrieves the current status of the task and displays it on the screen.</span></span> <span data-ttu-id="53a72-108">此範例假設本機電腦上已有工作和測試工作。</span><span class="sxs-lookup"><span data-stu-id="53a72-108">This example assumes that the task and the test task already exist on the local computer.</span></span>
+<span data-ttu-id="84d3d-107">這個範例會抓取工作的目前狀態，並將它顯示在螢幕上。</span><span class="sxs-lookup"><span data-stu-id="84d3d-107">This example retrieves the current status of the task and displays it on the screen.</span></span> <span data-ttu-id="84d3d-108">此範例假設本機電腦上已有工作和測試工作。</span><span class="sxs-lookup"><span data-stu-id="84d3d-108">This example assumes that the task and the test task already exist on the local computer.</span></span>
 
 
 ```C++
@@ -136,11 +136,11 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="53a72-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="53a72-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="84d3d-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="84d3d-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="53a72-110">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="53a72-110">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
+[<span data-ttu-id="84d3d-110">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="84d3d-110">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
  

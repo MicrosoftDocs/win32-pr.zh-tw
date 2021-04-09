@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103932607"
 ---
-# <a name="iresultsviewerresultsstyle-property"></a><span data-ttu-id="c6145-106">IResultsViewer：： ResultsStyle 屬性</span><span class="sxs-lookup"><span data-stu-id="c6145-106">IResultsViewer::ResultsStyle property</span></span>
+# <a name="iresultsviewerresultsstyle-property"></a><span data-ttu-id="02e52-106">IResultsViewer：： ResultsStyle 屬性</span><span class="sxs-lookup"><span data-stu-id="02e52-106">IResultsViewer::ResultsStyle property</span></span>
 
-<span data-ttu-id="c6145-107">這個屬性未實作。</span><span class="sxs-lookup"><span data-stu-id="c6145-107">This property is not implemented.</span></span>
+<span data-ttu-id="02e52-107">這個屬性未實作。</span><span class="sxs-lookup"><span data-stu-id="02e52-107">This property is not implemented.</span></span>
 
  
 

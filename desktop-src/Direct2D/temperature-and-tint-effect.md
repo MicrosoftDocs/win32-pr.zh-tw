@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843588"
 ---
-# <a name="temperature-and-tint-effect"></a><span data-ttu-id="88ea0-103">溫度和色調效果</span><span class="sxs-lookup"><span data-stu-id="88ea0-103">Temperature and tint effect</span></span>
+# <a name="temperature-and-tint-effect"></a><span data-ttu-id="792e9-103">溫度和色調效果</span><span class="sxs-lookup"><span data-stu-id="792e9-103">Temperature and tint effect</span></span>
 
-<span data-ttu-id="88ea0-104">這項效果的 CLSID 是 CLSID \_ D2D1TemperatureTint。</span><span class="sxs-lookup"><span data-stu-id="88ea0-104">The CLSID for this effect is CLSID\_D2D1TemperatureTint.</span></span>
+<span data-ttu-id="792e9-104">這項效果的 CLSID 是 CLSID \_ D2D1TemperatureTint。</span><span class="sxs-lookup"><span data-stu-id="792e9-104">The CLSID for this effect is CLSID\_D2D1TemperatureTint.</span></span>
 
-## <a name="sample-code"></a><span data-ttu-id="88ea0-105">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="88ea0-105">Sample code</span></span>
+## <a name="sample-code"></a><span data-ttu-id="792e9-105">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="792e9-105">Sample code</span></span>
 
 ```cpp
 ComPtr<ID2D1Effect> temperatureTintEffect;
@@ -30,25 +30,25 @@ m_d2dContext->DrawImage(temperatureTintEffect.Get());
 m_d2dContext->EndDraw();
 ```
 
-## <a name="effect-properties"></a><span data-ttu-id="88ea0-106">效果屬性</span><span class="sxs-lookup"><span data-stu-id="88ea0-106">Effect properties</span></span>
+## <a name="effect-properties"></a><span data-ttu-id="792e9-106">效果屬性</span><span class="sxs-lookup"><span data-stu-id="792e9-106">Effect properties</span></span>
 
-<span data-ttu-id="88ea0-107">溫度和色調效果的屬性是由 [**D2D1 \_ TEMPERATUREANDTINT \_**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_temperatureandtint_prop) 屬性列舉所定義。</span><span class="sxs-lookup"><span data-stu-id="88ea0-107">The properties for the temperature and tint effect are defined by the [**D2D1\_TEMPERATUREANDTINT\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_temperatureandtint_prop) enumeration.</span></span>
+<span data-ttu-id="792e9-107">溫度和色調效果的屬性是由 [**D2D1 \_ TEMPERATUREANDTINT \_**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_temperatureandtint_prop) 屬性列舉所定義。</span><span class="sxs-lookup"><span data-stu-id="792e9-107">The properties for the temperature and tint effect are defined by the [**D2D1\_TEMPERATUREANDTINT\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_temperatureandtint_prop) enumeration.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="88ea0-108">規格需求</span><span class="sxs-lookup"><span data-stu-id="88ea0-108">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="792e9-108">規格需求</span><span class="sxs-lookup"><span data-stu-id="792e9-108">Requirements</span></span>
 
 
 
-| <span data-ttu-id="88ea0-109">需求</span><span class="sxs-lookup"><span data-stu-id="88ea0-109">Requirement</span></span> | <span data-ttu-id="88ea0-110">值</span><span class="sxs-lookup"><span data-stu-id="88ea0-110">Value</span></span> |
+| <span data-ttu-id="792e9-109">需求</span><span class="sxs-lookup"><span data-stu-id="792e9-109">Requirement</span></span> | <span data-ttu-id="792e9-110">值</span><span class="sxs-lookup"><span data-stu-id="792e9-110">Value</span></span> |
 |--------------------------|---------------------------------------------------|
-| <span data-ttu-id="88ea0-111">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="88ea0-111">Minimum supported client</span></span> | <span data-ttu-id="88ea0-112">Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="88ea0-112">Windows 10 \[desktop apps \| Windows Store apps\]</span></span> |
-| <span data-ttu-id="88ea0-113">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="88ea0-113">Minimum supported server</span></span> | <span data-ttu-id="88ea0-114">Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="88ea0-114">Windows 10 \[desktop apps \| Windows Store apps\]</span></span> |
-| <span data-ttu-id="88ea0-115">標頭</span><span class="sxs-lookup"><span data-stu-id="88ea0-115">Header</span></span>                   | <span data-ttu-id="88ea0-116">d2d1effects \_ 2。h</span><span class="sxs-lookup"><span data-stu-id="88ea0-116">d2d1effects\_2.h</span></span>                                  |
-| <span data-ttu-id="88ea0-117">程式庫</span><span class="sxs-lookup"><span data-stu-id="88ea0-117">Library</span></span>                  | <span data-ttu-id="88ea0-118">d2d1 .lib，dxguid .lib</span><span class="sxs-lookup"><span data-stu-id="88ea0-118">d2d1.lib, dxguid.lib</span></span>                              |
+| <span data-ttu-id="792e9-111">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="792e9-111">Minimum supported client</span></span> | <span data-ttu-id="792e9-112">Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="792e9-112">Windows 10 \[desktop apps \| Windows Store apps\]</span></span> |
+| <span data-ttu-id="792e9-113">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="792e9-113">Minimum supported server</span></span> | <span data-ttu-id="792e9-114">Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="792e9-114">Windows 10 \[desktop apps \| Windows Store apps\]</span></span> |
+| <span data-ttu-id="792e9-115">標頭</span><span class="sxs-lookup"><span data-stu-id="792e9-115">Header</span></span>                   | <span data-ttu-id="792e9-116">d2d1effects \_ 2。h</span><span class="sxs-lookup"><span data-stu-id="792e9-116">d2d1effects\_2.h</span></span>                                  |
+| <span data-ttu-id="792e9-117">程式庫</span><span class="sxs-lookup"><span data-stu-id="792e9-117">Library</span></span>                  | <span data-ttu-id="792e9-118">d2d1 .lib，dxguid .lib</span><span class="sxs-lookup"><span data-stu-id="792e9-118">d2d1.lib, dxguid.lib</span></span>                              |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="88ea0-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="88ea0-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="792e9-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="792e9-119">Related topics</span></span>
 
-* [<span data-ttu-id="88ea0-120">ID2D1Effect 介面</span><span class="sxs-lookup"><span data-stu-id="88ea0-120">ID2D1Effect interface</span></span>](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
+* [<span data-ttu-id="792e9-120">ID2D1Effect 介面</span><span class="sxs-lookup"><span data-stu-id="792e9-120">ID2D1Effect interface</span></span>](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

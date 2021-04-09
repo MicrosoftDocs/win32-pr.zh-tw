@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691487"
 ---
-# <a name="windows8grbitskeepdbattachedatendofrecovery-field"></a><span data-ttu-id="c73e9-103">Windows8Grbits. KeepDbAttachedAtEndOfRecovery 欄位</span><span class="sxs-lookup"><span data-stu-id="c73e9-103">Windows8Grbits.KeepDbAttachedAtEndOfRecovery field</span></span>
+# <a name="windows8grbitskeepdbattachedatendofrecovery-field"></a><span data-ttu-id="e1f92-103">Windows8Grbits. KeepDbAttachedAtEndOfRecovery 欄位</span><span class="sxs-lookup"><span data-stu-id="e1f92-103">Windows8Grbits.KeepDbAttachedAtEndOfRecovery field</span></span>
 
-<span data-ttu-id="c73e9-104">允許資料庫在復原結束時保持附加 (，以加快轉換成執行中狀態的) 。</span><span class="sxs-lookup"><span data-stu-id="c73e9-104">Allows the database to remain attached at the end of recovery (for faster transition to running state).</span></span>
+<span data-ttu-id="e1f92-104">允許資料庫在復原結束時保持附加 (，以加快轉換成執行中狀態的) 。</span><span class="sxs-lookup"><span data-stu-id="e1f92-104">Allows the database to remain attached at the end of recovery (for faster transition to running state).</span></span>
 
-<span data-ttu-id="c73e9-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c73e9-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="c73e9-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c73e9-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="e1f92-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e1f92-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="e1f92-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e1f92-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c73e9-107">語法</span><span class="sxs-lookup"><span data-stu-id="c73e9-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e1f92-107">語法</span><span class="sxs-lookup"><span data-stu-id="e1f92-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = Windows8Grbits.KeepDbAttachedAtEndOfRecovery
 public const InitGrbit KeepDbAttachedAtEndOfRecovery
 ```
 
-## <a name="see-also"></a><span data-ttu-id="c73e9-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c73e9-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1f92-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e1f92-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="c73e9-109">參考</span><span class="sxs-lookup"><span data-stu-id="c73e9-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="e1f92-109">參考</span><span class="sxs-lookup"><span data-stu-id="e1f92-109">Reference</span></span>
 
-[<span data-ttu-id="c73e9-110">Windows8Grbits 類別</span><span class="sxs-lookup"><span data-stu-id="c73e9-110">Windows8Grbits class</span></span>](./windows8grbits-class.md)
+[<span data-ttu-id="e1f92-110">Windows8Grbits 類別</span><span class="sxs-lookup"><span data-stu-id="e1f92-110">Windows8Grbits class</span></span>](./windows8grbits-class.md)
 
-[<span data-ttu-id="c73e9-111">Windows8Grbits 成員</span><span class="sxs-lookup"><span data-stu-id="c73e9-111">Windows8Grbits members</span></span>](./windows8grbits-members.md)
+[<span data-ttu-id="e1f92-111">Windows8Grbits 成員</span><span class="sxs-lookup"><span data-stu-id="e1f92-111">Windows8Grbits members</span></span>](./windows8grbits-members.md)
 
-[<span data-ttu-id="c73e9-112">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="c73e9-112">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="e1f92-112">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="e1f92-112">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

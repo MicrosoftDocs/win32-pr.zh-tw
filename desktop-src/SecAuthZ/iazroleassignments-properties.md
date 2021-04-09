@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694227"
 ---
-# <a name="iazroleassignments-properties"></a><span data-ttu-id="abb5b-103">IAzRoleAssignments 屬性</span><span class="sxs-lookup"><span data-stu-id="abb5b-103">IAzRoleAssignments Properties</span></span>
+# <a name="iazroleassignments-properties"></a><span data-ttu-id="7cff5-103">IAzRoleAssignments 屬性</span><span class="sxs-lookup"><span data-stu-id="7cff5-103">IAzRoleAssignments Properties</span></span>
 
-<span data-ttu-id="abb5b-104">[**IAzRoleAssignments**](/windows/desktop/api/Azroles/nn-azroles-iazroleassignments)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="abb5b-104">The [**IAzRoleAssignments**](/windows/desktop/api/Azroles/nn-azroles-iazroleassignments) interface exposes the following properties.</span></span>
+<span data-ttu-id="7cff5-104">[**IAzRoleAssignments**](/windows/desktop/api/Azroles/nn-azroles-iazroleassignments)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="7cff5-104">The [**IAzRoleAssignments**](/windows/desktop/api/Azroles/nn-azroles-iazroleassignments) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="abb5b-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="abb5b-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7cff5-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="7cff5-105">In this section</span></span>
 
--   [<span data-ttu-id="abb5b-106">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="abb5b-106">**Count Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignments-get_count)
--   [<span data-ttu-id="abb5b-107">**Item 屬性**</span><span class="sxs-lookup"><span data-stu-id="abb5b-107">**Item Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignments-get_item)
--   [<span data-ttu-id="abb5b-108">**\_NewEnum 屬性**</span><span class="sxs-lookup"><span data-stu-id="abb5b-108">**\_NewEnum Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignments-get__newenum)
+-   [<span data-ttu-id="7cff5-106">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="7cff5-106">**Count Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignments-get_count)
+-   [<span data-ttu-id="7cff5-107">**Item 屬性**</span><span class="sxs-lookup"><span data-stu-id="7cff5-107">**Item Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignments-get_item)
+-   [<span data-ttu-id="7cff5-108">**\_NewEnum 屬性**</span><span class="sxs-lookup"><span data-stu-id="7cff5-108">**\_NewEnum Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignments-get__newenum)
 
  
 

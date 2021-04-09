@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694044"
 ---
-# <a name="retrieving-object-properties-overview"></a><span data-ttu-id="e6305-103">正在抓取物件屬性總覽</span><span class="sxs-lookup"><span data-stu-id="e6305-103">Retrieving object properties overview</span></span>
+# <a name="retrieving-object-properties-overview"></a><span data-ttu-id="b75c4-103">正在抓取物件屬性總覽</span><span class="sxs-lookup"><span data-stu-id="b75c4-103">Retrieving object properties overview</span></span>
 
-<span data-ttu-id="e6305-104">應用程式可以針對單一物件、物件識別碼所識別的多個物件，或相同類型的多個物件，取得其屬性。</span><span class="sxs-lookup"><span data-stu-id="e6305-104">An application can retrieve properties for a single object, for multiple objects identified by object identifiers, or for multiple objects of the same type.</span></span> <span data-ttu-id="e6305-105">下列主題描述單一物件的抓取。</span><span class="sxs-lookup"><span data-stu-id="e6305-105">The following topic describes retrieval for a single object.</span></span> <span data-ttu-id="e6305-106">如需多個物件的屬性抓取說明，請參閱「 [Advanced Tasks](advanced-tasks.md) 」一節。</span><span class="sxs-lookup"><span data-stu-id="e6305-106">Refer to the [Advanced Tasks](advanced-tasks.md) section for a description of property retrieval for multiple objects.</span></span>
+<span data-ttu-id="b75c4-104">應用程式可以針對單一物件、物件識別碼所識別的多個物件，或相同類型的多個物件，取得其屬性。</span><span class="sxs-lookup"><span data-stu-id="b75c4-104">An application can retrieve properties for a single object, for multiple objects identified by object identifiers, or for multiple objects of the same type.</span></span> <span data-ttu-id="b75c4-105">下列主題描述單一物件的抓取。</span><span class="sxs-lookup"><span data-stu-id="b75c4-105">The following topic describes retrieval for a single object.</span></span> <span data-ttu-id="b75c4-106">如需多個物件的屬性抓取說明，請參閱「 [Advanced Tasks](advanced-tasks.md) 」一節。</span><span class="sxs-lookup"><span data-stu-id="b75c4-106">Refer to the [Advanced Tasks](advanced-tasks.md) section for a description of property retrieval for multiple objects.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="e6305-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="e6305-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="b75c4-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="b75c4-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e6305-108">**Advanced Tasks**</span><span class="sxs-lookup"><span data-stu-id="e6305-108">**Advanced Tasks**</span></span>](advanced-tasks.md)
+[<span data-ttu-id="b75c4-108">**Advanced Tasks**</span><span class="sxs-lookup"><span data-stu-id="b75c4-108">**Advanced Tasks**</span></span>](advanced-tasks.md)
 </dt> <dt>
 
-[<span data-ttu-id="e6305-109">**程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="e6305-109">**Programming Guide**</span></span>](programming-guide.md)
+[<span data-ttu-id="b75c4-109">**程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="b75c4-109">**Programming Guide**</span></span>](programming-guide.md)
 </dt> </dl>
 
  
