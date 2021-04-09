@@ -19,39 +19,39 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844208"
 ---
-# <a name="ui_animation_repeat_indefinitely_conclude_at_start"></a><span data-ttu-id="a4565-103">UI \_ 動畫 \_ 會 \_ \_ \_ 在開始時無限期地重複結束 \_</span><span class="sxs-lookup"><span data-stu-id="a4565-103">UI\_ANIMATION\_REPEAT\_INDEFINITELY\_CONCLUDE\_AT\_START</span></span>
+# <a name="ui_animation_repeat_indefinitely_conclude_at_start"></a><span data-ttu-id="3a484-103">UI \_ 動畫 \_ 會 \_ \_ \_ 在開始時無限期地重複結束 \_</span><span class="sxs-lookup"><span data-stu-id="3a484-103">UI\_ANIMATION\_REPEAT\_INDEFINITELY\_CONCLUDE\_AT\_START</span></span>
 
-<span data-ttu-id="a4565-104">表示在呼叫 [**IUIAnimationStoryboard：：**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-conclude) until 方法時，分鏡腳本中兩個主要畫面格之間的間隔應無限期地重複直到開始的主要畫面格上的主要畫面格迴圈結束。</span><span class="sxs-lookup"><span data-stu-id="a4565-104">Indicates that the interval between two keyframes in a storyboard should repeat indefinitely until the keyframe loop terminates on the starting keyframe when the [**IUIAnimationStoryboard::Conclude**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-conclude) method is called.</span></span>
+<span data-ttu-id="3a484-104">表示在呼叫 [**IUIAnimationStoryboard：：**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-conclude) until 方法時，分鏡腳本中兩個主要畫面格之間的間隔應無限期地重複直到開始的主要畫面格上的主要畫面格迴圈結束。</span><span class="sxs-lookup"><span data-stu-id="3a484-104">Indicates that the interval between two keyframes in a storyboard should repeat indefinitely until the keyframe loop terminates on the starting keyframe when the [**IUIAnimationStoryboard::Conclude**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-conclude) method is called.</span></span>
 
 
 
-| <span data-ttu-id="a4565-105">常數/值</span><span class="sxs-lookup"><span data-stu-id="a4565-105">Constant/value</span></span>                                                                                                                                                                                                                                                                                                                            | <span data-ttu-id="a4565-106">Description</span><span class="sxs-lookup"><span data-stu-id="a4565-106">Description</span></span>      |
+| <span data-ttu-id="3a484-105">常數/值</span><span class="sxs-lookup"><span data-stu-id="3a484-105">Constant/value</span></span>                                                                                                                                                                                                                                                                                                                            | <span data-ttu-id="3a484-106">Description</span><span class="sxs-lookup"><span data-stu-id="3a484-106">Description</span></span>      |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
-| <span id="UI_ANIMATION_REPEAT_INDEFINITELY_CONCLUDE_AT_START"></span><span id="ui_animation_repeat_indefinitely_conclude_at_start"></span><dl> <span data-ttu-id="a4565-107"><dt>**UI \_動畫 \_ \_ \_ \_ 在 \_ 開始時無限期地重複結束**</dt> <dt>-2</dt></span><span class="sxs-lookup"><span data-stu-id="a4565-107"><dt>**UI\_ANIMATION\_REPEAT\_INDEFINITELY\_CONCLUDE\_AT\_START**</dt> <dt>-2</dt></span></span> </dl> | <span data-ttu-id="a4565-108">INT32</span><span class="sxs-lookup"><span data-stu-id="a4565-108">INT32</span></span><br/> |
+| <span id="UI_ANIMATION_REPEAT_INDEFINITELY_CONCLUDE_AT_START"></span><span id="ui_animation_repeat_indefinitely_conclude_at_start"></span><dl> <span data-ttu-id="3a484-107"><dt>**UI \_動畫 \_ \_ \_ \_ 在 \_ 開始時無限期地重複結束**</dt> <dt>-2</dt></span><span class="sxs-lookup"><span data-stu-id="3a484-107"><dt>**UI\_ANIMATION\_REPEAT\_INDEFINITELY\_CONCLUDE\_AT\_START**</dt> <dt>-2</dt></span></span> </dl> | <span data-ttu-id="3a484-108">INT32</span><span class="sxs-lookup"><span data-stu-id="3a484-108">INT32</span></span><br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="a4565-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="a4565-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3a484-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="3a484-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a4565-110">需求</span><span class="sxs-lookup"><span data-stu-id="a4565-110">Requirement</span></span> | <span data-ttu-id="a4565-111">值</span><span class="sxs-lookup"><span data-stu-id="a4565-111">Value</span></span> |
+| <span data-ttu-id="3a484-110">需求</span><span class="sxs-lookup"><span data-stu-id="3a484-110">Requirement</span></span> | <span data-ttu-id="3a484-111">值</span><span class="sxs-lookup"><span data-stu-id="3a484-111">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| <span data-ttu-id="a4565-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a4565-112">Minimum supported client</span></span><br/> | <span data-ttu-id="a4565-113">僅適用于 Windows 7 \[ 桌面應用程式的 Windows 8、windows 7 和平臺更新\]</span><span class="sxs-lookup"><span data-stu-id="a4565-113">Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]</span></span><br/>    |
-| <span data-ttu-id="a4565-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a4565-114">Minimum supported server</span></span><br/> | <span data-ttu-id="a4565-115">都不支援</span><span class="sxs-lookup"><span data-stu-id="a4565-115">None supported</span></span><br/>                                                                  |
-| <span data-ttu-id="a4565-116">標頭</span><span class="sxs-lookup"><span data-stu-id="a4565-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="a4565-117"><dt>UIAnimation。h</dt></span><span class="sxs-lookup"><span data-stu-id="a4565-117"><dt>UIAnimation.h</dt></span></span> </dl>   |
-| <span data-ttu-id="a4565-118">Idl</span><span class="sxs-lookup"><span data-stu-id="a4565-118">IDL</span></span><br/>                      | <dl> <span data-ttu-id="a4565-119"><dt>UIAnimation .idl</dt></span><span class="sxs-lookup"><span data-stu-id="a4565-119"><dt>UIAnimation.idl</dt></span></span> </dl> |
+| <span data-ttu-id="3a484-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3a484-112">Minimum supported client</span></span><br/> | <span data-ttu-id="3a484-113">僅適用于 Windows 7 \[ 桌面應用程式的 Windows 8、windows 7 和平臺更新\]</span><span class="sxs-lookup"><span data-stu-id="3a484-113">Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]</span></span><br/>    |
+| <span data-ttu-id="3a484-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3a484-114">Minimum supported server</span></span><br/> | <span data-ttu-id="3a484-115">都不支援</span><span class="sxs-lookup"><span data-stu-id="3a484-115">None supported</span></span><br/>                                                                  |
+| <span data-ttu-id="3a484-116">標頭</span><span class="sxs-lookup"><span data-stu-id="3a484-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="3a484-117"><dt>UIAnimation。h</dt></span><span class="sxs-lookup"><span data-stu-id="3a484-117"><dt>UIAnimation.h</dt></span></span> </dl>   |
+| <span data-ttu-id="3a484-118">Idl</span><span class="sxs-lookup"><span data-stu-id="3a484-118">IDL</span></span><br/>                      | <dl> <span data-ttu-id="3a484-119"><dt>UIAnimation .idl</dt></span><span class="sxs-lookup"><span data-stu-id="3a484-119"><dt>UIAnimation.idl</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a4565-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a4565-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a484-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3a484-120">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a4565-121">常數</span><span class="sxs-lookup"><span data-stu-id="a4565-121">Constants</span></span>](constants.md)
+[<span data-ttu-id="3a484-121">常數</span><span class="sxs-lookup"><span data-stu-id="3a484-121">Constants</span></span>](constants.md)
 </dt> <dt>
 
-[<span data-ttu-id="a4565-122">**IUIAnimationStoryboard2::RepeatBetweenKeyframes**</span><span class="sxs-lookup"><span data-stu-id="a4565-122">**IUIAnimationStoryboard2::RepeatBetweenKeyframes**</span></span>](/windows/win32/api/uianimation/nf-uianimation-iuianimationstoryboard2-repeatbetweenkeyframes)
+[<span data-ttu-id="3a484-122">**IUIAnimationStoryboard2::RepeatBetweenKeyframes**</span><span class="sxs-lookup"><span data-stu-id="3a484-122">**IUIAnimationStoryboard2::RepeatBetweenKeyframes**</span></span>](/windows/win32/api/uianimation/nf-uianimation-iuianimationstoryboard2-repeatbetweenkeyframes)
 </dt> </dl>
 
  

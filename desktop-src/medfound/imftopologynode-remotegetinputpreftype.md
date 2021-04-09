@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691120"
 ---
-# <a name="remotegetinputpreftype"></a><span data-ttu-id="30800-103">RemoteGetInputPrefType</span><span class="sxs-lookup"><span data-stu-id="30800-103">RemoteGetInputPrefType</span></span>
+# <a name="remotegetinputpreftype"></a><span data-ttu-id="8f9f1-103">RemoteGetInputPrefType</span><span class="sxs-lookup"><span data-stu-id="8f9f1-103">RemoteGetInputPrefType</span></span>
 
-<span data-ttu-id="30800-104">[**IMFTopologyNode：： GetInputPrefType**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype)方法的可遠端執行版本。</span><span class="sxs-lookup"><span data-stu-id="30800-104">Remotable version of the [**IMFTopologyNode::GetInputPrefType**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype) method.</span></span>
+<span data-ttu-id="8f9f1-104">[**IMFTopologyNode：： GetInputPrefType**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype)方法的可遠端執行版本。</span><span class="sxs-lookup"><span data-stu-id="8f9f1-104">Remotable version of the [**IMFTopologyNode::GetInputPrefType**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype) method.</span></span>
 
 ``` syntax
 [call_as(GetInputPrefType)] 
@@ -24,28 +24,28 @@ HRESULT RemoteGetInputPrefType(
 );
 ```
 
-## <a name="remarks"></a><span data-ttu-id="30800-105">備註</span><span class="sxs-lookup"><span data-stu-id="30800-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8f9f1-105">備註</span><span class="sxs-lookup"><span data-stu-id="8f9f1-105">Remarks</span></span>
 
-<span data-ttu-id="30800-106">應用程式無法直接呼叫這個方法，而物件也不會執行此方法。</span><span class="sxs-lookup"><span data-stu-id="30800-106">Applications cannot call this method directly, and objects do not implement this method.</span></span> <span data-ttu-id="30800-107">方法不會出現在介面的 vtable 中。</span><span class="sxs-lookup"><span data-stu-id="30800-107">The method does not appear in the vtable for the interface.</span></span> <span data-ttu-id="30800-108">如果跨進程界限呼叫 [**GetInputPrefType**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype) ，媒體基礎 proxy/stub DLL 會將呼叫轉譯為遠端方法的呼叫，然後再將它轉譯回來。</span><span class="sxs-lookup"><span data-stu-id="30800-108">If [**GetInputPrefType**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.</span></span>
+<span data-ttu-id="8f9f1-106">應用程式無法直接呼叫這個方法，而物件也不會執行此方法。</span><span class="sxs-lookup"><span data-stu-id="8f9f1-106">Applications cannot call this method directly, and objects do not implement this method.</span></span> <span data-ttu-id="8f9f1-107">方法不會出現在介面的 vtable 中。</span><span class="sxs-lookup"><span data-stu-id="8f9f1-107">The method does not appear in the vtable for the interface.</span></span> <span data-ttu-id="8f9f1-108">如果跨進程界限呼叫 [**GetInputPrefType**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype) ，媒體基礎 proxy/stub DLL 會將呼叫轉譯為遠端方法的呼叫，然後再將它轉譯回來。</span><span class="sxs-lookup"><span data-stu-id="8f9f1-108">If [**GetInputPrefType**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinputpreftype) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="30800-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="30800-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8f9f1-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="8f9f1-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="30800-110">需求</span><span class="sxs-lookup"><span data-stu-id="30800-110">Requirement</span></span> | <span data-ttu-id="30800-111">值</span><span class="sxs-lookup"><span data-stu-id="30800-111">Value</span></span> |
+| <span data-ttu-id="8f9f1-110">需求</span><span class="sxs-lookup"><span data-stu-id="8f9f1-110">Requirement</span></span> | <span data-ttu-id="8f9f1-111">值</span><span class="sxs-lookup"><span data-stu-id="8f9f1-111">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="30800-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="30800-112">Minimum supported client</span></span><br/> | <span data-ttu-id="30800-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="30800-113">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="30800-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="30800-114">Minimum supported server</span></span><br/> | <span data-ttu-id="30800-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="30800-115">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="30800-116">標頭</span><span class="sxs-lookup"><span data-stu-id="30800-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="30800-117"><dt>Mfobjects (包含 Mfidl) </dt></span><span class="sxs-lookup"><span data-stu-id="30800-117"><dt>Mfobjects.h (include Mfidl.h)</dt></span></span> </dl> |
-| <span data-ttu-id="30800-118">程式庫</span><span class="sxs-lookup"><span data-stu-id="30800-118">Library</span></span><br/>                  | <dl> <span data-ttu-id="30800-119"><dt>Mfuuid .lib</dt></span><span class="sxs-lookup"><span data-stu-id="30800-119"><dt>Mfuuid.lib</dt></span></span> </dl>                    |
+| <span data-ttu-id="8f9f1-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8f9f1-112">Minimum supported client</span></span><br/> | <span data-ttu-id="8f9f1-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8f9f1-113">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="8f9f1-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8f9f1-114">Minimum supported server</span></span><br/> | <span data-ttu-id="8f9f1-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8f9f1-115">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="8f9f1-116">標頭</span><span class="sxs-lookup"><span data-stu-id="8f9f1-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="8f9f1-117"><dt>Mfobjects (包含 Mfidl) </dt></span><span class="sxs-lookup"><span data-stu-id="8f9f1-117"><dt>Mfobjects.h (include Mfidl.h)</dt></span></span> </dl> |
+| <span data-ttu-id="8f9f1-118">程式庫</span><span class="sxs-lookup"><span data-stu-id="8f9f1-118">Library</span></span><br/>                  | <dl> <span data-ttu-id="8f9f1-119"><dt>Mfuuid .lib</dt></span><span class="sxs-lookup"><span data-stu-id="8f9f1-119"><dt>Mfuuid.lib</dt></span></span> </dl>                    |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="30800-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="30800-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8f9f1-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8f9f1-120">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="30800-121">**IMFTopologyNode**</span><span class="sxs-lookup"><span data-stu-id="30800-121">**IMFTopologyNode**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imftopologynode)
+[<span data-ttu-id="8f9f1-121">**IMFTopologyNode**</span><span class="sxs-lookup"><span data-stu-id="8f9f1-121">**IMFTopologyNode**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imftopologynode)
 </dt> </dl>
 
  
