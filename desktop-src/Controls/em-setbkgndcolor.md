@@ -21,55 +21,55 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844132"
 ---
-# <a name="em_setbkgndcolor-message"></a><span data-ttu-id="1f15e-104">EM \_ SETBKGNDCOLOR 訊息</span><span class="sxs-lookup"><span data-stu-id="1f15e-104">EM\_SETBKGNDCOLOR message</span></span>
+# <a name="em_setbkgndcolor-message"></a><span data-ttu-id="e89f1-104">EM \_ SETBKGNDCOLOR 訊息</span><span class="sxs-lookup"><span data-stu-id="e89f1-104">EM\_SETBKGNDCOLOR message</span></span>
 
-<span data-ttu-id="1f15e-105">**EM \_ SETBKGNDCOLOR** 訊息會設定 rich edit 控制項的背景色彩。</span><span class="sxs-lookup"><span data-stu-id="1f15e-105">The **EM\_SETBKGNDCOLOR** message sets the background color for a rich edit control.</span></span>
+<span data-ttu-id="e89f1-105">**EM \_ SETBKGNDCOLOR** 訊息會設定 rich edit 控制項的背景色彩。</span><span class="sxs-lookup"><span data-stu-id="e89f1-105">The **EM\_SETBKGNDCOLOR** message sets the background color for a rich edit control.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="1f15e-106">參數</span><span class="sxs-lookup"><span data-stu-id="1f15e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e89f1-106">參數</span><span class="sxs-lookup"><span data-stu-id="e89f1-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="1f15e-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="1f15e-107">*wParam*</span></span> 
+<span data-ttu-id="e89f1-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="e89f1-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="1f15e-108">指定是否使用系統色彩。</span><span class="sxs-lookup"><span data-stu-id="1f15e-108">Specifies whether to use the system color.</span></span> <span data-ttu-id="1f15e-109">如果此參數為非零值，則背景會設定為視窗背景系統色彩。</span><span class="sxs-lookup"><span data-stu-id="1f15e-109">If this parameter is a nonzero value, the background is set to the window background system color.</span></span> <span data-ttu-id="1f15e-110">否則，背景會設定為指定的色彩。</span><span class="sxs-lookup"><span data-stu-id="1f15e-110">Otherwise, the background is set to the specified color.</span></span>
+<span data-ttu-id="e89f1-108">指定是否使用系統色彩。</span><span class="sxs-lookup"><span data-stu-id="e89f1-108">Specifies whether to use the system color.</span></span> <span data-ttu-id="e89f1-109">如果此參數為非零值，則背景會設定為視窗背景系統色彩。</span><span class="sxs-lookup"><span data-stu-id="e89f1-109">If this parameter is a nonzero value, the background is set to the window background system color.</span></span> <span data-ttu-id="e89f1-110">否則，背景會設定為指定的色彩。</span><span class="sxs-lookup"><span data-stu-id="e89f1-110">Otherwise, the background is set to the specified color.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="1f15e-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="1f15e-111">*lParam*</span></span> 
+<span data-ttu-id="e89f1-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="e89f1-111">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="1f15e-112">[**COLORREF**](/windows/desktop/gdi/colorref)結構，指定 *wParam* 為零時的色彩。</span><span class="sxs-lookup"><span data-stu-id="1f15e-112">A [**COLORREF**](/windows/desktop/gdi/colorref) structure specifying the color if *wParam* is zero.</span></span> <span data-ttu-id="1f15e-113">若要產生 **COLORREF**，請使用 [**RGB**](/windows/desktop/api/wingdi/nf-wingdi-rgb) 宏。</span><span class="sxs-lookup"><span data-stu-id="1f15e-113">To generate a **COLORREF**, use the [**RGB**](/windows/desktop/api/wingdi/nf-wingdi-rgb) macro.</span></span>
+<span data-ttu-id="e89f1-112">[**COLORREF**](/windows/desktop/gdi/colorref)結構，指定 *wParam* 為零時的色彩。</span><span class="sxs-lookup"><span data-stu-id="e89f1-112">A [**COLORREF**](/windows/desktop/gdi/colorref) structure specifying the color if *wParam* is zero.</span></span> <span data-ttu-id="e89f1-113">若要產生 **COLORREF**，請使用 [**RGB**](/windows/desktop/api/wingdi/nf-wingdi-rgb) 宏。</span><span class="sxs-lookup"><span data-stu-id="e89f1-113">To generate a **COLORREF**, use the [**RGB**](/windows/desktop/api/wingdi/nf-wingdi-rgb) macro.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="1f15e-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="1f15e-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e89f1-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="e89f1-114">Return value</span></span>
 
-<span data-ttu-id="1f15e-115">此訊息會傳回原始的背景色彩。</span><span class="sxs-lookup"><span data-stu-id="1f15e-115">This message returns the original background color.</span></span>
+<span data-ttu-id="e89f1-115">此訊息會傳回原始的背景色彩。</span><span class="sxs-lookup"><span data-stu-id="e89f1-115">This message returns the original background color.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="1f15e-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="1f15e-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e89f1-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="e89f1-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="1f15e-117">需求</span><span class="sxs-lookup"><span data-stu-id="1f15e-117">Requirement</span></span> | <span data-ttu-id="1f15e-118">值</span><span class="sxs-lookup"><span data-stu-id="1f15e-118">Value</span></span> |
+| <span data-ttu-id="e89f1-117">需求</span><span class="sxs-lookup"><span data-stu-id="e89f1-117">Requirement</span></span> | <span data-ttu-id="e89f1-118">值</span><span class="sxs-lookup"><span data-stu-id="e89f1-118">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="1f15e-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1f15e-119">Minimum supported client</span></span><br/> | <span data-ttu-id="1f15e-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1f15e-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="1f15e-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1f15e-121">Minimum supported server</span></span><br/> | <span data-ttu-id="1f15e-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1f15e-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="1f15e-123">標頭</span><span class="sxs-lookup"><span data-stu-id="1f15e-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="1f15e-124"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="1f15e-124"><dt>Richedit.h</dt></span></span> </dl> |
+| <span data-ttu-id="e89f1-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e89f1-119">Minimum supported client</span></span><br/> | <span data-ttu-id="e89f1-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e89f1-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="e89f1-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e89f1-121">Minimum supported server</span></span><br/> | <span data-ttu-id="e89f1-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e89f1-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="e89f1-123">標頭</span><span class="sxs-lookup"><span data-stu-id="e89f1-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="e89f1-124"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="e89f1-124"><dt>Richedit.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="1f15e-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1f15e-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e89f1-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e89f1-125">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="1f15e-126">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="1f15e-126">**Other Resources**</span></span>
+<span data-ttu-id="e89f1-126">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="e89f1-126">**Other Resources**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="1f15e-127">**COLORREF**</span><span class="sxs-lookup"><span data-stu-id="1f15e-127">**COLORREF**</span></span>](/windows/desktop/gdi/colorref)
+[<span data-ttu-id="e89f1-127">**COLORREF**</span><span class="sxs-lookup"><span data-stu-id="e89f1-127">**COLORREF**</span></span>](/windows/desktop/gdi/colorref)
 </dt> <dt>
 
-[<span data-ttu-id="1f15e-128">**RGB**</span><span class="sxs-lookup"><span data-stu-id="1f15e-128">**RGB**</span></span>](/windows/desktop/api/wingdi/nf-wingdi-rgb)
+[<span data-ttu-id="e89f1-128">**RGB**</span><span class="sxs-lookup"><span data-stu-id="e89f1-128">**RGB**</span></span>](/windows/desktop/api/wingdi/nf-wingdi-rgb)
 </dt> </dl>
 
  

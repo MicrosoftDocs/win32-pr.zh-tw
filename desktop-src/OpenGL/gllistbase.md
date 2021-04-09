@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934025"
 ---
-# <a name="gllistbase-function"></a><span data-ttu-id="f9aa6-104">glListBase 函式</span><span class="sxs-lookup"><span data-stu-id="f9aa6-104">glListBase function</span></span>
+# <a name="gllistbase-function"></a><span data-ttu-id="faeb1-104">glListBase 函式</span><span class="sxs-lookup"><span data-stu-id="faeb1-104">glListBase function</span></span>
 
-<span data-ttu-id="f9aa6-105">**GlListBase** 函數會設定 **glCallLists** 的顯示清單基底。</span><span class="sxs-lookup"><span data-stu-id="f9aa6-105">The **glListBase** function sets the display list base for **glCallLists**.</span></span>
+<span data-ttu-id="faeb1-105">**GlListBase** 函數會設定 **glCallLists** 的顯示清單基底。</span><span class="sxs-lookup"><span data-stu-id="faeb1-105">The **glListBase** function sets the display list base for **glCallLists**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f9aa6-106">語法</span><span class="sxs-lookup"><span data-stu-id="f9aa6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="faeb1-106">語法</span><span class="sxs-lookup"><span data-stu-id="faeb1-106">Syntax</span></span>
 
 
 ```C++
@@ -36,66 +36,66 @@ void WINAPI glListBase(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="f9aa6-107">參數</span><span class="sxs-lookup"><span data-stu-id="f9aa6-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="faeb1-107">參數</span><span class="sxs-lookup"><span data-stu-id="faeb1-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="f9aa6-108">*base*</span><span class="sxs-lookup"><span data-stu-id="f9aa6-108">*base*</span></span> 
+<span data-ttu-id="faeb1-108">*base*</span><span class="sxs-lookup"><span data-stu-id="faeb1-108">*base*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="f9aa6-109">將加入至 [**glCallLists**](glcalllists.md) 位移以產生顯示清單名稱的整數位移。</span><span class="sxs-lookup"><span data-stu-id="f9aa6-109">An integer offset that will be added to [**glCallLists**](glcalllists.md) offsets to generate display list names.</span></span> <span data-ttu-id="f9aa6-110">初始值為零。</span><span class="sxs-lookup"><span data-stu-id="f9aa6-110">Initial value is zero.</span></span>
+<span data-ttu-id="faeb1-109">將加入至 [**glCallLists**](glcalllists.md) 位移以產生顯示清單名稱的整數位移。</span><span class="sxs-lookup"><span data-stu-id="faeb1-109">An integer offset that will be added to [**glCallLists**](glcalllists.md) offsets to generate display list names.</span></span> <span data-ttu-id="faeb1-110">初始值為零。</span><span class="sxs-lookup"><span data-stu-id="faeb1-110">Initial value is zero.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="f9aa6-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="f9aa6-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="faeb1-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="faeb1-111">Return value</span></span>
 
-<span data-ttu-id="f9aa6-112">此函式不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="f9aa6-112">This function does not return a value.</span></span>
+<span data-ttu-id="faeb1-112">此函式不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="faeb1-112">This function does not return a value.</span></span>
 
-## <a name="error-codes"></a><span data-ttu-id="f9aa6-113">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="f9aa6-113">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="faeb1-113">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="faeb1-113">Error codes</span></span>
 
-<span data-ttu-id="f9aa6-114">[**GlGetError**](glgeterror.md)函式可以取出下列錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="f9aa6-114">The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.</span></span>
+<span data-ttu-id="faeb1-114">[**GlGetError**](glgeterror.md)函式可以取出下列錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="faeb1-114">The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.</span></span>
 
 
 
-| <span data-ttu-id="f9aa6-115">Name</span><span class="sxs-lookup"><span data-stu-id="f9aa6-115">Name</span></span>                                                                                                  | <span data-ttu-id="f9aa6-116">意義</span><span class="sxs-lookup"><span data-stu-id="f9aa6-116">Meaning</span></span>                                                                                                                               |
+| <span data-ttu-id="faeb1-115">Name</span><span class="sxs-lookup"><span data-stu-id="faeb1-115">Name</span></span>                                                                                                  | <span data-ttu-id="faeb1-116">意義</span><span class="sxs-lookup"><span data-stu-id="faeb1-116">Meaning</span></span>                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <span data-ttu-id="f9aa6-117"><dt>**GL \_ 不正確 \_ 操作**</dt></span><span class="sxs-lookup"><span data-stu-id="f9aa6-117"><dt>**GL\_INVALID\_OPERATION**</dt></span></span> </dl> | <span data-ttu-id="f9aa6-118">呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。</span><span class="sxs-lookup"><span data-stu-id="f9aa6-118">The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).</span></span><br/> |
+| <dl> <span data-ttu-id="faeb1-117"><dt>**GL \_ 不正確 \_ 操作**</dt></span><span class="sxs-lookup"><span data-stu-id="faeb1-117"><dt>**GL\_INVALID\_OPERATION**</dt></span></span> </dl> | <span data-ttu-id="faeb1-118">呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。</span><span class="sxs-lookup"><span data-stu-id="faeb1-118">The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).</span></span><br/> |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="f9aa6-119">備註</span><span class="sxs-lookup"><span data-stu-id="f9aa6-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="faeb1-119">備註</span><span class="sxs-lookup"><span data-stu-id="faeb1-119">Remarks</span></span>
 
-<span data-ttu-id="f9aa6-120">**GlListBase** 函數會指定位移的陣列。</span><span class="sxs-lookup"><span data-stu-id="f9aa6-120">The **glListBase** function specifies an array of offsets.</span></span> <span data-ttu-id="f9aa6-121">顯示清單名稱是藉由將 *基底* 加入至每個位移來產生。</span><span class="sxs-lookup"><span data-stu-id="f9aa6-121">Display list names are generated by adding *base* to each offset.</span></span> <span data-ttu-id="f9aa6-122">執行參考有效顯示清單的名稱;其他則會被忽略。</span><span class="sxs-lookup"><span data-stu-id="f9aa6-122">Names that reference valid display lists are executed; others are ignored.</span></span>
+<span data-ttu-id="faeb1-120">**GlListBase** 函數會指定位移的陣列。</span><span class="sxs-lookup"><span data-stu-id="faeb1-120">The **glListBase** function specifies an array of offsets.</span></span> <span data-ttu-id="faeb1-121">顯示清單名稱是藉由將 *基底* 加入至每個位移來產生。</span><span class="sxs-lookup"><span data-stu-id="faeb1-121">Display list names are generated by adding *base* to each offset.</span></span> <span data-ttu-id="faeb1-122">執行參考有效顯示清單的名稱;其他則會被忽略。</span><span class="sxs-lookup"><span data-stu-id="faeb1-122">Names that reference valid display lists are executed; others are ignored.</span></span>
 
-<span data-ttu-id="f9aa6-123">下列函式會抓取 **glListBase** 的相關資訊：</span><span class="sxs-lookup"><span data-stu-id="f9aa6-123">The following function retrieves information related to **glListBase**:</span></span>
+<span data-ttu-id="faeb1-123">下列函式會抓取 **glListBase** 的相關資訊：</span><span class="sxs-lookup"><span data-stu-id="faeb1-123">The following function retrieves information related to **glListBase**:</span></span>
 
-<span data-ttu-id="f9aa6-124">[](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)具有引數 GL \_ 清單 \_ 基底的 glGet</span><span class="sxs-lookup"><span data-stu-id="f9aa6-124">[**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) with argument GL\_LIST\_BASE</span></span>
+<span data-ttu-id="faeb1-124">[](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)具有引數 GL \_ 清單 \_ 基底的 glGet</span><span class="sxs-lookup"><span data-stu-id="faeb1-124">[**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) with argument GL\_LIST\_BASE</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f9aa6-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="f9aa6-125">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="faeb1-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="faeb1-125">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f9aa6-126">需求</span><span class="sxs-lookup"><span data-stu-id="f9aa6-126">Requirement</span></span> | <span data-ttu-id="f9aa6-127">值</span><span class="sxs-lookup"><span data-stu-id="f9aa6-127">Value</span></span> |
+| <span data-ttu-id="faeb1-126">需求</span><span class="sxs-lookup"><span data-stu-id="faeb1-126">Requirement</span></span> | <span data-ttu-id="faeb1-127">值</span><span class="sxs-lookup"><span data-stu-id="faeb1-127">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="f9aa6-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f9aa6-128">Minimum supported client</span></span><br/> | <span data-ttu-id="f9aa6-129">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f9aa6-129">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                              |
-| <span data-ttu-id="f9aa6-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f9aa6-130">Minimum supported server</span></span><br/> | <span data-ttu-id="f9aa6-131">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f9aa6-131">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="f9aa6-132">標頭</span><span class="sxs-lookup"><span data-stu-id="f9aa6-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="f9aa6-133"><dt>Gl</dt></span><span class="sxs-lookup"><span data-stu-id="f9aa6-133"><dt>Gl.h</dt></span></span> </dl>         |
-| <span data-ttu-id="f9aa6-134">程式庫</span><span class="sxs-lookup"><span data-stu-id="f9aa6-134">Library</span></span><br/>                  | <dl> <span data-ttu-id="f9aa6-135"><dt>Opengl32 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="f9aa6-135"><dt>Opengl32.lib</dt></span></span> </dl> |
-| <span data-ttu-id="f9aa6-136">DLL</span><span class="sxs-lookup"><span data-stu-id="f9aa6-136">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f9aa6-137"><dt>Opengl32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f9aa6-137"><dt>Opengl32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="faeb1-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="faeb1-128">Minimum supported client</span></span><br/> | <span data-ttu-id="faeb1-129">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="faeb1-129">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                              |
+| <span data-ttu-id="faeb1-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="faeb1-130">Minimum supported server</span></span><br/> | <span data-ttu-id="faeb1-131">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="faeb1-131">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="faeb1-132">標頭</span><span class="sxs-lookup"><span data-stu-id="faeb1-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="faeb1-133"><dt>Gl</dt></span><span class="sxs-lookup"><span data-stu-id="faeb1-133"><dt>Gl.h</dt></span></span> </dl>         |
+| <span data-ttu-id="faeb1-134">程式庫</span><span class="sxs-lookup"><span data-stu-id="faeb1-134">Library</span></span><br/>                  | <dl> <span data-ttu-id="faeb1-135"><dt>Opengl32 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="faeb1-135"><dt>Opengl32.lib</dt></span></span> </dl> |
+| <span data-ttu-id="faeb1-136">DLL</span><span class="sxs-lookup"><span data-stu-id="faeb1-136">DLL</span></span><br/>                      | <dl> <span data-ttu-id="faeb1-137"><dt>Opengl32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="faeb1-137"><dt>Opengl32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f9aa6-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f9aa6-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="faeb1-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="faeb1-138">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f9aa6-139">**glBegin**</span><span class="sxs-lookup"><span data-stu-id="f9aa6-139">**glBegin**</span></span>](glbegin.md)
+[<span data-ttu-id="faeb1-139">**glBegin**</span><span class="sxs-lookup"><span data-stu-id="faeb1-139">**glBegin**</span></span>](glbegin.md)
 </dt> <dt>
 
-[<span data-ttu-id="f9aa6-140">**glCallLists**</span><span class="sxs-lookup"><span data-stu-id="f9aa6-140">**glCallLists**</span></span>](glcalllists.md)
+[<span data-ttu-id="faeb1-140">**glCallLists**</span><span class="sxs-lookup"><span data-stu-id="faeb1-140">**glCallLists**</span></span>](glcalllists.md)
 </dt> <dt>
 
-[<span data-ttu-id="f9aa6-141">**glEnd**</span><span class="sxs-lookup"><span data-stu-id="f9aa6-141">**glEnd**</span></span>](glend.md)
+[<span data-ttu-id="faeb1-141">**glEnd**</span><span class="sxs-lookup"><span data-stu-id="faeb1-141">**glEnd**</span></span>](glend.md)
 </dt> </dl>
 
  

@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103933912"
 ---
-# <a name="nm_killfocus-date-time-notification-code"></a><span data-ttu-id="deebb-105">NM \_ KILLFOCUS (日期時間) 通知碼</span><span class="sxs-lookup"><span data-stu-id="deebb-105">NM\_KILLFOCUS (date time) notification code</span></span>
+# <a name="nm_killfocus-date-time-notification-code"></a><span data-ttu-id="c4ace-105">NM \_ KILLFOCUS (日期時間) 通知碼</span><span class="sxs-lookup"><span data-stu-id="c4ace-105">NM\_KILLFOCUS (date time) notification code</span></span>
 
-<span data-ttu-id="deebb-106">通知日期和時間選擇器控制項的父視窗，表示控制項已遺失輸入焦點。</span><span class="sxs-lookup"><span data-stu-id="deebb-106">Notifies a date and time picker control's parent window that the control has lost the input focus.</span></span> <span data-ttu-id="deebb-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="deebb-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="c4ace-106">通知日期和時間選擇器控制項的父視窗，表示控制項已遺失輸入焦點。</span><span class="sxs-lookup"><span data-stu-id="c4ace-106">Notifies a date and time picker control's parent window that the control has lost the input focus.</span></span> <span data-ttu-id="c4ace-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="c4ace-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -34,30 +34,30 @@ NM_KILLFOCUS
 
 
 
-## <a name="parameters"></a><span data-ttu-id="deebb-108">參數</span><span class="sxs-lookup"><span data-stu-id="deebb-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c4ace-108">參數</span><span class="sxs-lookup"><span data-stu-id="c4ace-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="deebb-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="deebb-109">*lParam*</span></span> 
+<span data-ttu-id="c4ace-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="c4ace-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="deebb-110">[**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr)結構的位址，其中包含此通知的其他相關資訊。</span><span class="sxs-lookup"><span data-stu-id="deebb-110">The address of an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains additional information about this notification.</span></span>
+<span data-ttu-id="c4ace-110">[**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr)結構的位址，其中包含此通知的其他相關資訊。</span><span class="sxs-lookup"><span data-stu-id="c4ace-110">The address of an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains additional information about this notification.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="deebb-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="deebb-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c4ace-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="c4ace-111">Return value</span></span>
 
-<span data-ttu-id="deebb-112">傳回值會被忽略。</span><span class="sxs-lookup"><span data-stu-id="deebb-112">The return value is ignored.</span></span>
+<span data-ttu-id="c4ace-112">傳回值會被忽略。</span><span class="sxs-lookup"><span data-stu-id="c4ace-112">The return value is ignored.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="deebb-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="deebb-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c4ace-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="c4ace-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="deebb-114">需求</span><span class="sxs-lookup"><span data-stu-id="deebb-114">Requirement</span></span> | <span data-ttu-id="deebb-115">值</span><span class="sxs-lookup"><span data-stu-id="deebb-115">Value</span></span> |
+| <span data-ttu-id="c4ace-114">需求</span><span class="sxs-lookup"><span data-stu-id="c4ace-114">Requirement</span></span> | <span data-ttu-id="c4ace-115">值</span><span class="sxs-lookup"><span data-stu-id="c4ace-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="deebb-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="deebb-116">Minimum supported client</span></span><br/> | <span data-ttu-id="deebb-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="deebb-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="deebb-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="deebb-118">Minimum supported server</span></span><br/> | <span data-ttu-id="deebb-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="deebb-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="deebb-120">標頭</span><span class="sxs-lookup"><span data-stu-id="deebb-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="deebb-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="deebb-121"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="c4ace-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c4ace-116">Minimum supported client</span></span><br/> | <span data-ttu-id="c4ace-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c4ace-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="c4ace-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c4ace-118">Minimum supported server</span></span><br/> | <span data-ttu-id="c4ace-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c4ace-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="c4ace-120">標頭</span><span class="sxs-lookup"><span data-stu-id="c4ace-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="c4ace-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="c4ace-121"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

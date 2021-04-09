@@ -31,12 +31,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852600"
 ---
-# <a name="esentslvfileaccessdeniedexception-constructor"></a><span data-ttu-id="81e2f-103">EsentSLVFileAccessDeniedException 函式</span><span class="sxs-lookup"><span data-stu-id="81e2f-103">EsentSLVFileAccessDeniedException constructor</span></span>
+# <a name="esentslvfileaccessdeniedexception-constructor"></a><span data-ttu-id="d8882-103">EsentSLVFileAccessDeniedException 函式</span><span class="sxs-lookup"><span data-stu-id="d8882-103">EsentSLVFileAccessDeniedException constructor</span></span>
 
-<span data-ttu-id="81e2f-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="81e2f-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="81e2f-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="81e2f-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="d8882-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="d8882-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="d8882-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="d8882-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="81e2f-106">語法</span><span class="sxs-lookup"><span data-stu-id="81e2f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d8882-106">語法</span><span class="sxs-lookup"><span data-stu-id="d8882-106">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,12 +50,12 @@ Dim instance As New EsentSLVFileAccessDeniedException()
 public EsentSLVFileAccessDeniedException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="81e2f-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="81e2f-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d8882-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d8882-107">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="81e2f-108">參考</span><span class="sxs-lookup"><span data-stu-id="81e2f-108">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="d8882-108">參考</span><span class="sxs-lookup"><span data-stu-id="d8882-108">Reference</span></span>
 
-[<span data-ttu-id="81e2f-109">EsentSLVFileAccessDeniedException 類別</span><span class="sxs-lookup"><span data-stu-id="81e2f-109">EsentSLVFileAccessDeniedException class</span></span>](./esentslvfileaccessdeniedexception-class.md)
+[<span data-ttu-id="d8882-109">EsentSLVFileAccessDeniedException 類別</span><span class="sxs-lookup"><span data-stu-id="d8882-109">EsentSLVFileAccessDeniedException class</span></span>](./esentslvfileaccessdeniedexception-class.md)
 
-[<span data-ttu-id="81e2f-110">EsentSLVFileAccessDeniedException 成員</span><span class="sxs-lookup"><span data-stu-id="81e2f-110">EsentSLVFileAccessDeniedException members</span></span>](./esentslvfileaccessdeniedexception-members.md)
+[<span data-ttu-id="d8882-110">EsentSLVFileAccessDeniedException 成員</span><span class="sxs-lookup"><span data-stu-id="d8882-110">EsentSLVFileAccessDeniedException members</span></span>](./esentslvfileaccessdeniedexception-members.md)
 
-[<span data-ttu-id="81e2f-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="81e2f-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="d8882-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="d8882-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

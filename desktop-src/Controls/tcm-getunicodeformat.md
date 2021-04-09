@@ -21,45 +21,45 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844175"
 ---
-# <a name="tcm_getunicodeformat-message"></a><span data-ttu-id="a1f0e-105">TCM \_ GETUNICODEFORMAT 訊息</span><span class="sxs-lookup"><span data-stu-id="a1f0e-105">TCM\_GETUNICODEFORMAT message</span></span>
+# <a name="tcm_getunicodeformat-message"></a><span data-ttu-id="4ac4e-105">TCM \_ GETUNICODEFORMAT 訊息</span><span class="sxs-lookup"><span data-stu-id="4ac4e-105">TCM\_GETUNICODEFORMAT message</span></span>
 
-<span data-ttu-id="a1f0e-106">抓取控制項的 Unicode 字元格式旗標。</span><span class="sxs-lookup"><span data-stu-id="a1f0e-106">Retrieves the Unicode character format flag for the control.</span></span> <span data-ttu-id="a1f0e-107">您可以明確地傳送此訊息，或使用 [**TabCtrl \_ GetUnicodeFormat**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_getunicodeformat) 宏。</span><span class="sxs-lookup"><span data-stu-id="a1f0e-107">You can send this message explicitly or use the [**TabCtrl\_GetUnicodeFormat**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_getunicodeformat) macro.</span></span>
+<span data-ttu-id="4ac4e-106">抓取控制項的 Unicode 字元格式旗標。</span><span class="sxs-lookup"><span data-stu-id="4ac4e-106">Retrieves the Unicode character format flag for the control.</span></span> <span data-ttu-id="4ac4e-107">您可以明確地傳送此訊息，或使用 [**TabCtrl \_ GetUnicodeFormat**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_getunicodeformat) 宏。</span><span class="sxs-lookup"><span data-stu-id="4ac4e-107">You can send this message explicitly or use the [**TabCtrl\_GetUnicodeFormat**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_getunicodeformat) macro.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="a1f0e-108">參數</span><span class="sxs-lookup"><span data-stu-id="a1f0e-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4ac4e-108">參數</span><span class="sxs-lookup"><span data-stu-id="4ac4e-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a1f0e-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="a1f0e-109">*wParam*</span></span> 
-</dt> <dd><span data-ttu-id="a1f0e-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="a1f0e-110">Must be zero.</span></span></dd> <dt>
+<span data-ttu-id="4ac4e-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="4ac4e-109">*wParam*</span></span> 
+</dt> <dd><span data-ttu-id="4ac4e-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="4ac4e-110">Must be zero.</span></span></dd> <dt>
 
-<span data-ttu-id="a1f0e-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="a1f0e-111">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="a1f0e-112">必須為零。</span><span class="sxs-lookup"><span data-stu-id="a1f0e-112">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="4ac4e-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="4ac4e-111">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="4ac4e-112">必須為零。</span><span class="sxs-lookup"><span data-stu-id="4ac4e-112">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="a1f0e-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="a1f0e-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4ac4e-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="4ac4e-113">Return value</span></span>
 
-<span data-ttu-id="a1f0e-114">傳回控制項的 Unicode 格式旗標。</span><span class="sxs-lookup"><span data-stu-id="a1f0e-114">Returns the Unicode format flag for the control.</span></span> <span data-ttu-id="a1f0e-115">如果這個值為非零值，則控制項會使用 Unicode 字元。</span><span class="sxs-lookup"><span data-stu-id="a1f0e-115">If this value is nonzero, the control is using Unicode characters.</span></span> <span data-ttu-id="a1f0e-116">如果這個值為零，則控制項會使用 ANSI 字元。</span><span class="sxs-lookup"><span data-stu-id="a1f0e-116">If this value is zero, the control is using ANSI characters.</span></span>
+<span data-ttu-id="4ac4e-114">傳回控制項的 Unicode 格式旗標。</span><span class="sxs-lookup"><span data-stu-id="4ac4e-114">Returns the Unicode format flag for the control.</span></span> <span data-ttu-id="4ac4e-115">如果這個值為非零值，則控制項會使用 Unicode 字元。</span><span class="sxs-lookup"><span data-stu-id="4ac4e-115">If this value is nonzero, the control is using Unicode characters.</span></span> <span data-ttu-id="4ac4e-116">如果這個值為零，則控制項會使用 ANSI 字元。</span><span class="sxs-lookup"><span data-stu-id="4ac4e-116">If this value is zero, the control is using ANSI characters.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a1f0e-117">備註</span><span class="sxs-lookup"><span data-stu-id="a1f0e-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4ac4e-117">備註</span><span class="sxs-lookup"><span data-stu-id="4ac4e-117">Remarks</span></span>
 
-<span data-ttu-id="a1f0e-118">如需此訊息的討論，請參閱 [**CCM \_ GETUNICODEFORMAT**](ccm-getunicodeformat.md) 的備註。</span><span class="sxs-lookup"><span data-stu-id="a1f0e-118">See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a discussion of this message.</span></span>
+<span data-ttu-id="4ac4e-118">如需此訊息的討論，請參閱 [**CCM \_ GETUNICODEFORMAT**](ccm-getunicodeformat.md) 的備註。</span><span class="sxs-lookup"><span data-stu-id="4ac4e-118">See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a discussion of this message.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="a1f0e-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="a1f0e-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4ac4e-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="4ac4e-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a1f0e-120">需求</span><span class="sxs-lookup"><span data-stu-id="a1f0e-120">Requirement</span></span> | <span data-ttu-id="a1f0e-121">值</span><span class="sxs-lookup"><span data-stu-id="a1f0e-121">Value</span></span> |
+| <span data-ttu-id="4ac4e-120">需求</span><span class="sxs-lookup"><span data-stu-id="4ac4e-120">Requirement</span></span> | <span data-ttu-id="4ac4e-121">值</span><span class="sxs-lookup"><span data-stu-id="4ac4e-121">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="a1f0e-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a1f0e-122">Minimum supported client</span></span><br/> | <span data-ttu-id="a1f0e-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a1f0e-123">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="a1f0e-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a1f0e-124">Minimum supported server</span></span><br/> | <span data-ttu-id="a1f0e-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a1f0e-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="a1f0e-126">標頭</span><span class="sxs-lookup"><span data-stu-id="a1f0e-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="a1f0e-127"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="a1f0e-127"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="4ac4e-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4ac4e-122">Minimum supported client</span></span><br/> | <span data-ttu-id="4ac4e-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4ac4e-123">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="4ac4e-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4ac4e-124">Minimum supported server</span></span><br/> | <span data-ttu-id="4ac4e-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4ac4e-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="4ac4e-126">標頭</span><span class="sxs-lookup"><span data-stu-id="4ac4e-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="4ac4e-127"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="4ac4e-127"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a1f0e-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a1f0e-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4ac4e-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4ac4e-128">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a1f0e-129">**TCM \_ SETUNICODEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="a1f0e-129">**TCM\_SETUNICODEFORMAT**</span></span>](tcm-setunicodeformat.md)
+[<span data-ttu-id="4ac4e-129">**TCM \_ SETUNICODEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="4ac4e-129">**TCM\_SETUNICODEFORMAT**</span></span>](tcm-setunicodeformat.md)
 </dt> </dl>
 
  

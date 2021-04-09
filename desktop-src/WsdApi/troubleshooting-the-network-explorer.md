@@ -11,38 +11,38 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943415"
 ---
-# <a name="troubleshooting-the-network-explorer"></a><span data-ttu-id="6eff3-103">疑難排解網路總管</span><span class="sxs-lookup"><span data-stu-id="6eff3-103">Troubleshooting the Network Explorer</span></span>
+# <a name="troubleshooting-the-network-explorer"></a><span data-ttu-id="c6a81-103">疑難排解網路總管</span><span class="sxs-lookup"><span data-stu-id="c6a81-103">Troubleshooting the Network Explorer</span></span>
 
-<span data-ttu-id="6eff3-104">網路總管：</span><span class="sxs-lookup"><span data-stu-id="6eff3-104">The Network Explorer:</span></span>
+<span data-ttu-id="c6a81-104">網路總管：</span><span class="sxs-lookup"><span data-stu-id="c6a81-104">The Network Explorer:</span></span>
 
--   <span data-ttu-id="6eff3-105">一律使用 UDP WS-Discovery 進行裝置探索</span><span class="sxs-lookup"><span data-stu-id="6eff3-105">Always uses UDP WS-Discovery for device discovery</span></span>
--   <span data-ttu-id="6eff3-106">一律起始中繼資料交換的 HTTP 或 HTTPS 連接</span><span class="sxs-lookup"><span data-stu-id="6eff3-106">Always initiates a HTTP or HTTPS connection for metadata exchange</span></span>
--   <span data-ttu-id="6eff3-107">有時會使用安全通道 (HTTPS) 進行中繼資料交換</span><span class="sxs-lookup"><span data-stu-id="6eff3-107">Sometimes uses a secure channel (HTTPS) for metadata exchange</span></span>
+-   <span data-ttu-id="c6a81-105">一律使用 UDP WS-Discovery 進行裝置探索</span><span class="sxs-lookup"><span data-stu-id="c6a81-105">Always uses UDP WS-Discovery for device discovery</span></span>
+-   <span data-ttu-id="c6a81-106">一律起始中繼資料交換的 HTTP 或 HTTPS 連接</span><span class="sxs-lookup"><span data-stu-id="c6a81-106">Always initiates a HTTP or HTTPS connection for metadata exchange</span></span>
+-   <span data-ttu-id="c6a81-107">有時會使用安全通道 (HTTPS) 進行中繼資料交換</span><span class="sxs-lookup"><span data-stu-id="c6a81-107">Sometimes uses a secure channel (HTTPS) for metadata exchange</span></span>
 
-<span data-ttu-id="6eff3-108">下列診斷程式應依序 (使用) ，以協助找出網路總管的問題。</span><span class="sxs-lookup"><span data-stu-id="6eff3-108">The following diagnostic procedures should be used (in order) to help identify problems with the Network Explorer.</span></span>
+<span data-ttu-id="c6a81-108">下列診斷程式應依序 (使用) ，以協助找出網路總管的問題。</span><span class="sxs-lookup"><span data-stu-id="c6a81-108">The following diagnostic procedures should be used (in order) to help identify problems with the Network Explorer.</span></span>
 
-<span data-ttu-id="6eff3-109">**若要疑難排解網路總管**</span><span class="sxs-lookup"><span data-stu-id="6eff3-109">**To troubleshoot the Network Explorer**</span></span>
+<span data-ttu-id="c6a81-109">**若要疑難排解網路總管**</span><span class="sxs-lookup"><span data-stu-id="c6a81-109">**To troubleshoot the Network Explorer**</span></span>
 
-1.  <span data-ttu-id="6eff3-110">[檢查介面卡和防火牆設定](inspecting-adapter-and-firewall-settings.md)。</span><span class="sxs-lookup"><span data-stu-id="6eff3-110">[Inspect adapter and firewall settings](inspecting-adapter-and-firewall-settings.md).</span></span>
-2.  <span data-ttu-id="6eff3-111">[使用泛型主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md)。</span><span class="sxs-lookup"><span data-stu-id="6eff3-111">[Use a generic host and client for UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md).</span></span>
-3.  <span data-ttu-id="6eff3-112">[使用 WSD Debug 用戶端來驗證多播流量](using-wsddebug-client-to-verify-multicast-traffic.md)。</span><span class="sxs-lookup"><span data-stu-id="6eff3-112">[Use WSD Debug Client to verify multicast traffic](using-wsddebug-client-to-verify-multicast-traffic.md).</span></span>
-4.  <span data-ttu-id="6eff3-113">[檢查 UDP WS-探索的網路追蹤](inspecting-network-traces-for-udp-ws-discovery.md)。</span><span class="sxs-lookup"><span data-stu-id="6eff3-113">[Inspect network traces for UDP WS-Discovery](inspecting-network-traces-for-udp-ws-discovery.md).</span></span>
-5.  <span data-ttu-id="6eff3-114">[使用泛型主機和用戶端進行 HTTP 中繼資料交換](using-a-generic-host-and-client-for-http-metadata-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="6eff3-114">[Use a generic host and client for HTTP metadata exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md).</span></span>
-6.  <span data-ttu-id="6eff3-115">[使用 WinHTTP 記錄來確認取得流量](using-winhttp-logging-to-verify-get-traffic.md)。</span><span class="sxs-lookup"><span data-stu-id="6eff3-115">[Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).</span></span>
-7.  <span data-ttu-id="6eff3-116">[檢查 HTTP 中繼資料交換的網路追蹤](inspecting-network-traces-for-http-metadata-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="6eff3-116">[Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).</span></span>
+1.  <span data-ttu-id="c6a81-110">[檢查介面卡和防火牆設定](inspecting-adapter-and-firewall-settings.md)。</span><span class="sxs-lookup"><span data-stu-id="c6a81-110">[Inspect adapter and firewall settings](inspecting-adapter-and-firewall-settings.md).</span></span>
+2.  <span data-ttu-id="c6a81-111">[使用泛型主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md)。</span><span class="sxs-lookup"><span data-stu-id="c6a81-111">[Use a generic host and client for UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md).</span></span>
+3.  <span data-ttu-id="c6a81-112">[使用 WSD Debug 用戶端來驗證多播流量](using-wsddebug-client-to-verify-multicast-traffic.md)。</span><span class="sxs-lookup"><span data-stu-id="c6a81-112">[Use WSD Debug Client to verify multicast traffic](using-wsddebug-client-to-verify-multicast-traffic.md).</span></span>
+4.  <span data-ttu-id="c6a81-113">[檢查 UDP WS-探索的網路追蹤](inspecting-network-traces-for-udp-ws-discovery.md)。</span><span class="sxs-lookup"><span data-stu-id="c6a81-113">[Inspect network traces for UDP WS-Discovery](inspecting-network-traces-for-udp-ws-discovery.md).</span></span>
+5.  <span data-ttu-id="c6a81-114">[使用泛型主機和用戶端進行 HTTP 中繼資料交換](using-a-generic-host-and-client-for-http-metadata-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="c6a81-114">[Use a generic host and client for HTTP metadata exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md).</span></span>
+6.  <span data-ttu-id="c6a81-115">[使用 WinHTTP 記錄來確認取得流量](using-winhttp-logging-to-verify-get-traffic.md)。</span><span class="sxs-lookup"><span data-stu-id="c6a81-115">[Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).</span></span>
+7.  <span data-ttu-id="c6a81-116">[檢查 HTTP 中繼資料交換的網路追蹤](inspecting-network-traces-for-http-metadata-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="c6a81-116">[Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).</span></span>
 
-<span data-ttu-id="6eff3-117">網路總管使用 [函數探索](/previous-versions/windows/desktop/fundisc/fd-portal) 來列舉網路裝置。</span><span class="sxs-lookup"><span data-stu-id="6eff3-117">The Network Explorer uses [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal) to enumerate network devices.</span></span> <span data-ttu-id="6eff3-118">如需疑難排解的詳細資訊，請參閱 [疑難排解函數探索用戶端](troubleshooting-function-discovery-clients.md)。</span><span class="sxs-lookup"><span data-stu-id="6eff3-118">For more troubleshooting information, see [Troubleshooting Function Discovery Clients](troubleshooting-function-discovery-clients.md).</span></span>
+<span data-ttu-id="c6a81-117">網路總管使用 [函數探索](/previous-versions/windows/desktop/fundisc/fd-portal) 來列舉網路裝置。</span><span class="sxs-lookup"><span data-stu-id="c6a81-117">The Network Explorer uses [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal) to enumerate network devices.</span></span> <span data-ttu-id="c6a81-118">如需疑難排解的詳細資訊，請參閱 [疑難排解函數探索用戶端](troubleshooting-function-discovery-clients.md)。</span><span class="sxs-lookup"><span data-stu-id="c6a81-118">For more troubleshooting information, see [Troubleshooting Function Discovery Clients](troubleshooting-function-discovery-clients.md).</span></span>
 
-<span data-ttu-id="6eff3-119">如果無法使用上述診斷程式來識別問題的來源，請遵循 [啟用 WSDAPI 追蹤](enabling-wsdapi-tracing.md) 並聯絡 Microsoft 支援服務的指示。</span><span class="sxs-lookup"><span data-stu-id="6eff3-119">If the source of the problem cannot be identified using the above diagnostic procedures, follow the directions in [Enabling WSDAPI Tracing](enabling-wsdapi-tracing.md) and contact Microsoft support.</span></span>
+<span data-ttu-id="c6a81-119">如果無法使用上述診斷程式來識別問題的來源，請遵循 [啟用 WSDAPI 追蹤](enabling-wsdapi-tracing.md) 並聯絡 Microsoft 支援服務的指示。</span><span class="sxs-lookup"><span data-stu-id="c6a81-119">If the source of the problem cannot be identified using the above diagnostic procedures, follow the directions in [Enabling WSDAPI Tracing](enabling-wsdapi-tracing.md) and contact Microsoft support.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="6eff3-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="6eff3-120">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c6a81-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="c6a81-120">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6eff3-121">使用 WSDAPI 進行疑難排解的開始使用</span><span class="sxs-lookup"><span data-stu-id="6eff3-121">Getting Started with WSDAPI Troubleshooting</span></span>](getting-started-with-wsdapi-troubleshooting.md)
+[<span data-ttu-id="c6a81-121">使用 WSDAPI 進行疑難排解的開始使用</span><span class="sxs-lookup"><span data-stu-id="c6a81-121">Getting Started with WSDAPI Troubleshooting</span></span>](getting-started-with-wsdapi-troubleshooting.md)
 </dt> <dt>
 
-[<span data-ttu-id="6eff3-122">針對函數探索用戶端進行疑難排解</span><span class="sxs-lookup"><span data-stu-id="6eff3-122">Troubleshooting Function Discovery Clients</span></span>](troubleshooting-function-discovery-clients.md)
+[<span data-ttu-id="c6a81-122">針對函數探索用戶端進行疑難排解</span><span class="sxs-lookup"><span data-stu-id="c6a81-122">Troubleshooting Function Discovery Clients</span></span>](troubleshooting-function-discovery-clients.md)
 </dt> </dl>
 
  

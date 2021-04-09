@@ -11,24 +11,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849944"
 ---
-# <a name="windows-installer-guide"></a><span data-ttu-id="fd292-103">Windows Installer 指南</span><span class="sxs-lookup"><span data-stu-id="fd292-103">Windows Installer Guide</span></span>
+# <a name="windows-installer-guide"></a><span data-ttu-id="2cbc8-103">Windows Installer 指南</span><span class="sxs-lookup"><span data-stu-id="2cbc8-103">Windows Installer Guide</span></span>
 
-<span data-ttu-id="fd292-104">Windows Installer 指南包含 Windows Installer 服務 Windows Installer 封裝和使用者之作者感興趣的資訊。</span><span class="sxs-lookup"><span data-stu-id="fd292-104">The Windows Installer Guide contains information of interest to authors of Windows Installer packages and users of the Windows Installer service.</span></span>
+<span data-ttu-id="2cbc8-104">Windows Installer 指南包含 Windows Installer 服務 Windows Installer 封裝和使用者之作者感興趣的資訊。</span><span class="sxs-lookup"><span data-stu-id="2cbc8-104">The Windows Installer Guide contains information of interest to authors of Windows Installer packages and users of the Windows Installer service.</span></span>
 
--   [<span data-ttu-id="fd292-105">數位簽章和 Windows Installer</span><span class="sxs-lookup"><span data-stu-id="fd292-105">Digital Signatures and Windows Installer</span></span>](digital-signatures-and-windows-installer.md)
--   [<span data-ttu-id="fd292-106">組件</span><span class="sxs-lookup"><span data-stu-id="fd292-106">Assemblies</span></span>](assemblies.md)
--   [<span data-ttu-id="fd292-107">消費者介面</span><span class="sxs-lookup"><span data-stu-id="fd292-107">User Interface</span></span>](user-interface.md)
--   [<span data-ttu-id="fd292-108">標準動作</span><span class="sxs-lookup"><span data-stu-id="fd292-108">Standard Actions</span></span>](standard-actions.md)
--   [<span data-ttu-id="fd292-109">自訂動作</span><span class="sxs-lookup"><span data-stu-id="fd292-109">Custom Actions</span></span>](custom-actions.md)
--   [<span data-ttu-id="fd292-110">屬性</span><span class="sxs-lookup"><span data-stu-id="fd292-110">Properties</span></span>](properties.md)
--   [<span data-ttu-id="fd292-111">摘要資訊串流</span><span class="sxs-lookup"><span data-stu-id="fd292-111">Summary Information Stream</span></span>](summary-information-stream.md)
--   [<span data-ttu-id="fd292-112">修補和升級</span><span class="sxs-lookup"><span data-stu-id="fd292-112">Patching and Upgrades</span></span>](patching-and-upgrades.md)
--   [<span data-ttu-id="fd292-113">資料庫轉換</span><span class="sxs-lookup"><span data-stu-id="fd292-113">Database Transforms</span></span>](database-transforms.md)
--   [<span data-ttu-id="fd292-114">套件驗證</span><span class="sxs-lookup"><span data-stu-id="fd292-114">Package Validation</span></span>](package-validation.md)
--   [<span data-ttu-id="fd292-115">合併模組</span><span class="sxs-lookup"><span data-stu-id="fd292-115">Merge Modules</span></span>](merge-modules.md)
--   [<span data-ttu-id="fd292-116">Windows Installer 啟動載入</span><span class="sxs-lookup"><span data-stu-id="fd292-116">Windows Installer Bootstrapping</span></span>](windows-installer-bootstrapping.md)
--   [<span data-ttu-id="fd292-117">64位作業系統上的 Windows Installer</span><span class="sxs-lookup"><span data-stu-id="fd292-117">Windows Installer on 64-bit Operating Systems</span></span>](windows-installer-on-64-bit-operating-systems.md)
--   [<span data-ttu-id="fd292-118">Windows Installer 和標誌需求</span><span class="sxs-lookup"><span data-stu-id="fd292-118">Windows Installer and Logo Requirements</span></span>](windows-installer-and-logo-requirements.md)
+-   [<span data-ttu-id="2cbc8-105">數位簽章和 Windows Installer</span><span class="sxs-lookup"><span data-stu-id="2cbc8-105">Digital Signatures and Windows Installer</span></span>](digital-signatures-and-windows-installer.md)
+-   [<span data-ttu-id="2cbc8-106">組件</span><span class="sxs-lookup"><span data-stu-id="2cbc8-106">Assemblies</span></span>](assemblies.md)
+-   [<span data-ttu-id="2cbc8-107">消費者介面</span><span class="sxs-lookup"><span data-stu-id="2cbc8-107">User Interface</span></span>](user-interface.md)
+-   [<span data-ttu-id="2cbc8-108">標準動作</span><span class="sxs-lookup"><span data-stu-id="2cbc8-108">Standard Actions</span></span>](standard-actions.md)
+-   [<span data-ttu-id="2cbc8-109">自訂動作</span><span class="sxs-lookup"><span data-stu-id="2cbc8-109">Custom Actions</span></span>](custom-actions.md)
+-   [<span data-ttu-id="2cbc8-110">屬性</span><span class="sxs-lookup"><span data-stu-id="2cbc8-110">Properties</span></span>](properties.md)
+-   [<span data-ttu-id="2cbc8-111">摘要資訊串流</span><span class="sxs-lookup"><span data-stu-id="2cbc8-111">Summary Information Stream</span></span>](summary-information-stream.md)
+-   [<span data-ttu-id="2cbc8-112">修補和升級</span><span class="sxs-lookup"><span data-stu-id="2cbc8-112">Patching and Upgrades</span></span>](patching-and-upgrades.md)
+-   [<span data-ttu-id="2cbc8-113">資料庫轉換</span><span class="sxs-lookup"><span data-stu-id="2cbc8-113">Database Transforms</span></span>](database-transforms.md)
+-   [<span data-ttu-id="2cbc8-114">套件驗證</span><span class="sxs-lookup"><span data-stu-id="2cbc8-114">Package Validation</span></span>](package-validation.md)
+-   [<span data-ttu-id="2cbc8-115">合併模組</span><span class="sxs-lookup"><span data-stu-id="2cbc8-115">Merge Modules</span></span>](merge-modules.md)
+-   [<span data-ttu-id="2cbc8-116">Windows Installer 啟動載入</span><span class="sxs-lookup"><span data-stu-id="2cbc8-116">Windows Installer Bootstrapping</span></span>](windows-installer-bootstrapping.md)
+-   [<span data-ttu-id="2cbc8-117">64位作業系統上的 Windows Installer</span><span class="sxs-lookup"><span data-stu-id="2cbc8-117">Windows Installer on 64-bit Operating Systems</span></span>](windows-installer-on-64-bit-operating-systems.md)
+-   [<span data-ttu-id="2cbc8-118">Windows Installer 和標誌需求</span><span class="sxs-lookup"><span data-stu-id="2cbc8-118">Windows Installer and Logo Requirements</span></span>](windows-installer-and-logo-requirements.md)
 
  
 

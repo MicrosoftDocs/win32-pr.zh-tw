@@ -11,40 +11,40 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103846676"
 ---
-# <a name="avencaudiointervaltoencode-property"></a><span data-ttu-id="56725-103">AVEncAudioIntervalToEncode 屬性</span><span class="sxs-lookup"><span data-stu-id="56725-103">AVEncAudioIntervalToEncode property</span></span>
+# <a name="avencaudiointervaltoencode-property"></a><span data-ttu-id="7b16a-103">AVEncAudioIntervalToEncode 屬性</span><span class="sxs-lookup"><span data-stu-id="7b16a-103">AVEncAudioIntervalToEncode property</span></span>
 
-<span data-ttu-id="56725-104">指定要編碼的音訊樣本數。</span><span class="sxs-lookup"><span data-stu-id="56725-104">Specifies the number of audio samples to encode.</span></span>
+<span data-ttu-id="7b16a-104">指定要編碼的音訊樣本數。</span><span class="sxs-lookup"><span data-stu-id="7b16a-104">Specifies the number of audio samples to encode.</span></span>
 
-<span data-ttu-id="56725-105">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="56725-105">This property is read/write.</span></span>
+<span data-ttu-id="7b16a-105">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="7b16a-105">This property is read/write.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="56725-106">資料類型</span><span class="sxs-lookup"><span data-stu-id="56725-106">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="7b16a-106">資料類型</span><span class="sxs-lookup"><span data-stu-id="7b16a-106">Data type</span></span>
 
-<span data-ttu-id="56725-107">**UINT64** (**VT \_ UI8**) </span><span class="sxs-lookup"><span data-stu-id="56725-107">**UINT64** (**VT\_UI8**)</span></span>
+<span data-ttu-id="7b16a-107">**UINT64** (**VT \_ UI8**) </span><span class="sxs-lookup"><span data-stu-id="7b16a-107">**UINT64** (**VT\_UI8**)</span></span>
 
-## <a name="property-guid"></a><span data-ttu-id="56725-108">屬性 GUID</span><span class="sxs-lookup"><span data-stu-id="56725-108">Property GUID</span></span>
+## <a name="property-guid"></a><span data-ttu-id="7b16a-108">屬性 GUID</span><span class="sxs-lookup"><span data-stu-id="7b16a-108">Property GUID</span></span>
 
-<span data-ttu-id="56725-109">**CODECAPI \_ AVEncAudioIntervalToEncode**</span><span class="sxs-lookup"><span data-stu-id="56725-109">**CODECAPI\_AVEncAudioIntervalToEncode**</span></span>
+<span data-ttu-id="7b16a-109">**CODECAPI \_ AVEncAudioIntervalToEncode**</span><span class="sxs-lookup"><span data-stu-id="7b16a-109">**CODECAPI\_AVEncAudioIntervalToEncode**</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="56725-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="56725-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="7b16a-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="7b16a-110">Requirements</span></span>
 
 
 
-| <span data-ttu-id="56725-111">需求</span><span class="sxs-lookup"><span data-stu-id="56725-111">Requirement</span></span> | <span data-ttu-id="56725-112">值</span><span class="sxs-lookup"><span data-stu-id="56725-112">Value</span></span> |
+| <span data-ttu-id="7b16a-111">需求</span><span class="sxs-lookup"><span data-stu-id="7b16a-111">Requirement</span></span> | <span data-ttu-id="7b16a-112">值</span><span class="sxs-lookup"><span data-stu-id="7b16a-112">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="56725-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="56725-113">Minimum supported client</span></span><br/> | <span data-ttu-id="56725-114">Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="56725-114">Windows 2000 Professional \[desktop apps \| UWP apps\]</span></span><br/>                     |
-| <span data-ttu-id="56725-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="56725-115">Minimum supported server</span></span><br/> | <span data-ttu-id="56725-116">Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="56725-116">Windows 2000 Server \[desktop apps \| UWP apps\]</span></span><br/>                           |
-| <span data-ttu-id="56725-117">標頭</span><span class="sxs-lookup"><span data-stu-id="56725-117">Header</span></span><br/>                   | <dl> <span data-ttu-id="56725-118"><dt>Codecapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="56725-118"><dt>Codecapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="7b16a-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7b16a-113">Minimum supported client</span></span><br/> | <span data-ttu-id="7b16a-114">Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7b16a-114">Windows 2000 Professional \[desktop apps \| UWP apps\]</span></span><br/>                     |
+| <span data-ttu-id="7b16a-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7b16a-115">Minimum supported server</span></span><br/> | <span data-ttu-id="7b16a-116">Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7b16a-116">Windows 2000 Server \[desktop apps \| UWP apps\]</span></span><br/>                           |
+| <span data-ttu-id="7b16a-117">標頭</span><span class="sxs-lookup"><span data-stu-id="7b16a-117">Header</span></span><br/>                   | <dl> <span data-ttu-id="7b16a-118"><dt>Codecapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="7b16a-118"><dt>Codecapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="56725-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="56725-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7b16a-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7b16a-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="56725-120">編解碼器 API 屬性</span><span class="sxs-lookup"><span data-stu-id="56725-120">Codec API Properties</span></span>](codec-api-properties.md)
+[<span data-ttu-id="7b16a-120">編解碼器 API 屬性</span><span class="sxs-lookup"><span data-stu-id="7b16a-120">Codec API Properties</span></span>](codec-api-properties.md)
 </dt> <dt>
 
-[<span data-ttu-id="56725-121">**ICodecAPI 介面**</span><span class="sxs-lookup"><span data-stu-id="56725-121">**ICodecAPI Interface**</span></span>](/windows/desktop/api/Strmif/nn-strmif-icodecapi)
+[<span data-ttu-id="7b16a-121">**ICodecAPI 介面**</span><span class="sxs-lookup"><span data-stu-id="7b16a-121">**ICodecAPI Interface**</span></span>](/windows/desktop/api/Strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  

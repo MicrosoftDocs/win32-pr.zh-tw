@@ -11,10 +11,10 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "104035298"
 ---
-# <a name="animation-control-overviews"></a><span data-ttu-id="0869f-103">動畫控制項總覽</span><span class="sxs-lookup"><span data-stu-id="0869f-103">Animation Control Overviews</span></span>
+# <a name="animation-control-overviews"></a><span data-ttu-id="d0de2-103">動畫控制項總覽</span><span class="sxs-lookup"><span data-stu-id="d0de2-103">Animation Control Overviews</span></span>
 
--   [<span data-ttu-id="0869f-104">關於動畫控制項</span><span class="sxs-lookup"><span data-stu-id="0869f-104">About Animation Controls</span></span>](animation-control-overview.md)
--   [<span data-ttu-id="0869f-105">使用動畫控制項</span><span class="sxs-lookup"><span data-stu-id="0869f-105">Using Animation Controls</span></span>](using-animation-control.md)
+-   [<span data-ttu-id="d0de2-104">關於動畫控制項</span><span class="sxs-lookup"><span data-stu-id="d0de2-104">About Animation Controls</span></span>](animation-control-overview.md)
+-   [<span data-ttu-id="d0de2-105">使用動畫控制項</span><span class="sxs-lookup"><span data-stu-id="d0de2-105">Using Animation Controls</span></span>](using-animation-control.md)
 
  
 

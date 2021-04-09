@@ -12,25 +12,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103933802"
 ---
-# <a name="p-upnp-apis"></a><span data-ttu-id="10eff-103">P (UPnP Api) </span><span class="sxs-lookup"><span data-stu-id="10eff-103">P (UPnP APIs)</span></span>
+# <a name="p-upnp-apis"></a><span data-ttu-id="29c2f-103">P (UPnP Api) </span><span class="sxs-lookup"><span data-stu-id="29c2f-103">P (UPnP APIs)</span></span>
 
-<span data-ttu-id="10eff-104">包含以字母 P 開頭的 UPnP 相關詞彙。</span><span class="sxs-lookup"><span data-stu-id="10eff-104">Contains UPnP-related terms that begin with the letter P.</span></span>
+<span data-ttu-id="29c2f-104">包含以字母 P 開頭的 UPnP 相關詞彙。</span><span class="sxs-lookup"><span data-stu-id="29c2f-104">Contains UPnP-related terms that begin with the letter P.</span></span>
 
-<span data-ttu-id="10eff-105">[B](a-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F G [H](h-gly.md) I J K L M [N](n-gly.md) O P Q [R](r-gly.md) [S](s-gly.md) [T W](u-gly.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="10eff-105">[A](a-gly.md) B [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F G [H](h-gly.md) I J K L M [N](n-gly.md) O P Q [R](r-gly.md) [S](s-gly.md) T [U](u-gly.md) V W X Y Z</span></span>
+<span data-ttu-id="29c2f-105">[B](a-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F G [H](h-gly.md) I J K L M [N](n-gly.md) O P Q [R](r-gly.md) [S](s-gly.md) [T W](u-gly.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="29c2f-105">[A](a-gly.md) B [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F G [H](h-gly.md) I J K L M [N](n-gly.md) O P Q [R](r-gly.md) [S](s-gly.md) T [U](u-gly.md) V W X Y Z</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="10eff-106"><span id="upnp.p_1_gly"></span><span id="UPNP.P_1_GLY"></span>**財產**</span><span class="sxs-lookup"><span data-stu-id="10eff-106"><span id="upnp.p_1_gly"></span><span id="UPNP.P_1_GLY"></span>**property**</span></span>
+<span data-ttu-id="29c2f-106"><span id="upnp.p_1_gly"></span><span id="UPNP.P_1_GLY"></span>**財產**</span><span class="sxs-lookup"><span data-stu-id="29c2f-106"><span id="upnp.p_1_gly"></span><span id="UPNP.P_1_GLY"></span>**property**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10eff-107">請參閱 [*狀態變數*](s-gly.md)。</span><span class="sxs-lookup"><span data-stu-id="10eff-107">See [*state variable*](s-gly.md).</span></span>
+<span data-ttu-id="29c2f-107">請參閱 [*狀態變數*](s-gly.md)。</span><span class="sxs-lookup"><span data-stu-id="29c2f-107">See [*state variable*](s-gly.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="10eff-108"><span id="upnp.p_2_gly"></span><span id="UPNP.P_2_GLY"></span>**發佈**</span><span class="sxs-lookup"><span data-stu-id="10eff-108"><span id="upnp.p_2_gly"></span><span id="UPNP.P_2_GLY"></span>**publish**</span></span>
+<span data-ttu-id="29c2f-108"><span id="upnp.p_2_gly"></span><span id="UPNP.P_2_GLY"></span>**發佈**</span><span class="sxs-lookup"><span data-stu-id="29c2f-108"><span id="upnp.p_2_gly"></span><span id="UPNP.P_2_GLY"></span>**publish**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10eff-109">發佈裝置表示網路上有可用的裝置。</span><span class="sxs-lookup"><span data-stu-id="10eff-109">Publishing a device means that a device is made available on the network.</span></span> <span data-ttu-id="10eff-110">另請參閱 [*宣佈*](a-gly.md)。</span><span class="sxs-lookup"><span data-stu-id="10eff-110">Also see [*announce*](a-gly.md).</span></span>
+<span data-ttu-id="29c2f-109">發佈裝置表示網路上有可用的裝置。</span><span class="sxs-lookup"><span data-stu-id="29c2f-109">Publishing a device means that a device is made available on the network.</span></span> <span data-ttu-id="29c2f-110">另請參閱 [*宣佈*](a-gly.md)。</span><span class="sxs-lookup"><span data-stu-id="29c2f-110">Also see [*announce*](a-gly.md).</span></span>
 
 </dd> </dl>
 

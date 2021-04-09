@@ -31,22 +31,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691335"
 ---
-# <a name="instance-class"></a><span data-ttu-id="50700-103">Instance 類別</span><span class="sxs-lookup"><span data-stu-id="50700-103">Instance class</span></span>
+# <a name="instance-class"></a><span data-ttu-id="e2635-103">Instance 類別</span><span class="sxs-lookup"><span data-stu-id="e2635-103">Instance class</span></span>
 
-<span data-ttu-id="50700-104">封裝可處置物件中之 [JET_INSTANCE](./jet-instance-structure.md) 的類別。</span><span class="sxs-lookup"><span data-stu-id="50700-104">A class that encapsulates a [JET_INSTANCE](./jet-instance-structure.md) in a disposable object.</span></span> <span data-ttu-id="50700-105">實例必須最後關閉，且關閉實例會釋放實例的所有其他資源。</span><span class="sxs-lookup"><span data-stu-id="50700-105">The instance must be closed last and closing the instance releases all other resources for the instance.</span></span>
+<span data-ttu-id="e2635-104">封裝可處置物件中之 [JET_INSTANCE](./jet-instance-structure.md) 的類別。</span><span class="sxs-lookup"><span data-stu-id="e2635-104">A class that encapsulates a [JET_INSTANCE](./jet-instance-structure.md) in a disposable object.</span></span> <span data-ttu-id="e2635-105">實例必須最後關閉，且關閉實例會釋放實例的所有其他資源。</span><span class="sxs-lookup"><span data-stu-id="e2635-105">The instance must be closed last and closing the instance releases all other resources for the instance.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="50700-106">繼承階層</span><span class="sxs-lookup"><span data-stu-id="50700-106">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="e2635-106">繼承階層</span><span class="sxs-lookup"><span data-stu-id="e2635-106">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="50700-107">System.Object</span><span class="sxs-lookup"><span data-stu-id="50700-107">System.Object</span></span>](/dotnet/api/system.object)  
-  [<span data-ttu-id="50700-108">System.runtime.constrainedexecution. CriticalFinalizerObject</span><span class="sxs-lookup"><span data-stu-id="50700-108">System.Runtime.ConstrainedExecution.CriticalFinalizerObject</span></span>](/dotnet/api/system.runtime.constrainedexecution.criticalfinalizerobject)  
-    [<span data-ttu-id="50700-109">System.Runtime.InteropServices.SafeHandle</span><span class="sxs-lookup"><span data-stu-id="50700-109">System.Runtime.InteropServices.SafeHandle</span></span>](/dotnet/api/system.runtime.interopservices.safehandle)  
-      [<span data-ttu-id="50700-110">Safehandle. SafeHandleZeroOrMinusOneIsInvalid</span><span class="sxs-lookup"><span data-stu-id="50700-110">Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid</span></span>](/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid)  
-        <span data-ttu-id="50700-111">Microsoft. Esent 實例</span><span class="sxs-lookup"><span data-stu-id="50700-111">Microsoft.Isam.Esent.Interop.Instance</span></span>  
+[<span data-ttu-id="e2635-107">System.Object</span><span class="sxs-lookup"><span data-stu-id="e2635-107">System.Object</span></span>](/dotnet/api/system.object)  
+  [<span data-ttu-id="e2635-108">System.runtime.constrainedexecution. CriticalFinalizerObject</span><span class="sxs-lookup"><span data-stu-id="e2635-108">System.Runtime.ConstrainedExecution.CriticalFinalizerObject</span></span>](/dotnet/api/system.runtime.constrainedexecution.criticalfinalizerobject)  
+    [<span data-ttu-id="e2635-109">System.Runtime.InteropServices.SafeHandle</span><span class="sxs-lookup"><span data-stu-id="e2635-109">System.Runtime.InteropServices.SafeHandle</span></span>](/dotnet/api/system.runtime.interopservices.safehandle)  
+      [<span data-ttu-id="e2635-110">Safehandle. SafeHandleZeroOrMinusOneIsInvalid</span><span class="sxs-lookup"><span data-stu-id="e2635-110">Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid</span></span>](/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid)  
+        <span data-ttu-id="e2635-111">Microsoft. Esent 實例</span><span class="sxs-lookup"><span data-stu-id="e2635-111">Microsoft.Isam.Esent.Interop.Instance</span></span>  
 
-<span data-ttu-id="50700-112">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="50700-112">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="50700-113">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="50700-113">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="e2635-112">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e2635-112">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="e2635-113">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e2635-113">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="50700-114">Syntax</span><span class="sxs-lookup"><span data-stu-id="50700-114">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e2635-114">Syntax</span><span class="sxs-lookup"><span data-stu-id="e2635-114">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,14 +60,14 @@ Dim instance As Instance
 public class Instance : SafeHandleZeroOrMinusOneIsInvalid
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="50700-115">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="50700-115">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="e2635-115">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="e2635-115">Thread safety</span></span>
 
-<span data-ttu-id="50700-116">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="50700-116">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="50700-117">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="50700-117">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="e2635-116">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="e2635-116">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="e2635-117">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="e2635-117">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="50700-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="50700-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e2635-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e2635-118">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="50700-119">參考</span><span class="sxs-lookup"><span data-stu-id="50700-119">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="e2635-119">參考</span><span class="sxs-lookup"><span data-stu-id="e2635-119">Reference</span></span>
 
-[<span data-ttu-id="50700-120">實例成員</span><span class="sxs-lookup"><span data-stu-id="50700-120">Instance members</span></span>](./instance-members.md)
+[<span data-ttu-id="e2635-120">實例成員</span><span class="sxs-lookup"><span data-stu-id="e2635-120">Instance members</span></span>](./instance-members.md)
 
-[<span data-ttu-id="50700-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="50700-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="e2635-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="e2635-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -16,27 +16,27 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103933829"
 ---
-# <a name="methods-_imanipulationevents"></a><span data-ttu-id="c9e54-107">方法 (_IManipulationEvents) </span><span class="sxs-lookup"><span data-stu-id="c9e54-107">Methods (_IManipulationEvents)</span></span>
+# <a name="methods-_imanipulationevents"></a><span data-ttu-id="34791-107">方法 (_IManipulationEvents) </span><span class="sxs-lookup"><span data-stu-id="34791-107">Methods (_IManipulationEvents)</span></span>
 
-<span data-ttu-id="c9e54-108">本節包含 [**\_ IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents)介面的方法。</span><span class="sxs-lookup"><span data-stu-id="c9e54-108">This section contains the methods for the [**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) interface.</span></span>
+<span data-ttu-id="34791-108">本節包含 [**\_ IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents)介面的方法。</span><span class="sxs-lookup"><span data-stu-id="34791-108">This section contains the methods for the [**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) interface.</span></span>
 
 
 
-| <span data-ttu-id="c9e54-109">方法</span><span class="sxs-lookup"><span data-stu-id="c9e54-109">Method</span></span>                                                                      | <span data-ttu-id="c9e54-110">描述</span><span class="sxs-lookup"><span data-stu-id="c9e54-110">Description</span></span>                                                   |
+| <span data-ttu-id="34791-109">方法</span><span class="sxs-lookup"><span data-stu-id="34791-109">Method</span></span>                                                                      | <span data-ttu-id="34791-110">描述</span><span class="sxs-lookup"><span data-stu-id="34791-110">Description</span></span>                                                   |
 |-----------------------------------------------------------------------------|---------------------------------------------------------------|
-| [<span data-ttu-id="c9e54-111">**ManipulationStarted**</span><span class="sxs-lookup"><span data-stu-id="c9e54-111">**ManipulationStarted**</span></span>](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted)     | <span data-ttu-id="c9e54-112">處理開始操作或慣性時的事件。</span><span class="sxs-lookup"><span data-stu-id="c9e54-112">Handles the event for when manipulation or inertia begins.</span></span>    |
-| [<span data-ttu-id="c9e54-113">**ManipulationDelta**</span><span class="sxs-lookup"><span data-stu-id="c9e54-113">**ManipulationDelta**</span></span>](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta)         | <span data-ttu-id="c9e54-114">處理操作物件變更時所發生的事件。</span><span class="sxs-lookup"><span data-stu-id="c9e54-114">Handles events that happen when a manipulated object changes.</span></span> |
-| [<span data-ttu-id="c9e54-115">**ManipulationCompleted**</span><span class="sxs-lookup"><span data-stu-id="c9e54-115">**ManipulationCompleted**</span></span>](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted) | <span data-ttu-id="c9e54-116">在操作或慣性完成時處理事件。</span><span class="sxs-lookup"><span data-stu-id="c9e54-116">Handles the event when manipulation or inertia finishes.</span></span>      |
+| [<span data-ttu-id="34791-111">**ManipulationStarted**</span><span class="sxs-lookup"><span data-stu-id="34791-111">**ManipulationStarted**</span></span>](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted)     | <span data-ttu-id="34791-112">處理開始操作或慣性時的事件。</span><span class="sxs-lookup"><span data-stu-id="34791-112">Handles the event for when manipulation or inertia begins.</span></span>    |
+| [<span data-ttu-id="34791-113">**ManipulationDelta**</span><span class="sxs-lookup"><span data-stu-id="34791-113">**ManipulationDelta**</span></span>](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta)         | <span data-ttu-id="34791-114">處理操作物件變更時所發生的事件。</span><span class="sxs-lookup"><span data-stu-id="34791-114">Handles events that happen when a manipulated object changes.</span></span> |
+| [<span data-ttu-id="34791-115">**ManipulationCompleted**</span><span class="sxs-lookup"><span data-stu-id="34791-115">**ManipulationCompleted**</span></span>](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted) | <span data-ttu-id="34791-116">在操作或慣性完成時處理事件。</span><span class="sxs-lookup"><span data-stu-id="34791-116">Handles the event when manipulation or inertia finishes.</span></span>      |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="c9e54-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="c9e54-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="34791-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="34791-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c9e54-118">**\_IManipulationEvents**</span><span class="sxs-lookup"><span data-stu-id="c9e54-118">**\_IManipulationEvents**</span></span>](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents)
+[<span data-ttu-id="34791-118">**\_IManipulationEvents**</span><span class="sxs-lookup"><span data-stu-id="34791-118">**\_IManipulationEvents**</span></span>](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents)
 </dt> </dl>
 
  

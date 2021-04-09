@@ -11,29 +11,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2020
 ms.locfileid: "103933759"
 ---
-# <a name="how-to-process-the-dtn_datetimechange-notification"></a><span data-ttu-id="4f741-103">如何處理 DTN \_ DATETIMECHANGE 通知</span><span class="sxs-lookup"><span data-stu-id="4f741-103">How to Process the DTN\_DATETIMECHANGE Notification</span></span>
+# <a name="how-to-process-the-dtn_datetimechange-notification"></a><span data-ttu-id="05755-103">如何處理 DTN \_ DATETIMECHANGE 通知</span><span class="sxs-lookup"><span data-stu-id="05755-103">How to Process the DTN\_DATETIMECHANGE Notification</span></span>
 
-<span data-ttu-id="4f741-104">本主題示範如何將使用者所做的變更通知， (DTP) 控制項的日期和時間選擇器處理。</span><span class="sxs-lookup"><span data-stu-id="4f741-104">This topic demonstrates how to process notification of changes, made by the user, to the date and time picker (DTP) control.</span></span>
+<span data-ttu-id="05755-104">本主題示範如何將使用者所做的變更通知， (DTP) 控制項的日期和時間選擇器處理。</span><span class="sxs-lookup"><span data-stu-id="05755-104">This topic demonstrates how to process notification of changes, made by the user, to the date and time picker (DTP) control.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="4f741-105">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="4f741-105">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="05755-105">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="05755-105">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="4f741-106">技術</span><span class="sxs-lookup"><span data-stu-id="4f741-106">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="05755-106">技術</span><span class="sxs-lookup"><span data-stu-id="05755-106">Technologies</span></span>
 
--   [<span data-ttu-id="4f741-107">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="4f741-107">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="05755-107">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="05755-107">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="4f741-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="4f741-108">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="05755-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="05755-108">Prerequisites</span></span>
 
--   <span data-ttu-id="4f741-109">C/C++</span><span class="sxs-lookup"><span data-stu-id="4f741-109">C/C++</span></span>
--   <span data-ttu-id="4f741-110">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="4f741-110">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="05755-109">C/C++</span><span class="sxs-lookup"><span data-stu-id="05755-109">C/C++</span></span>
+-   <span data-ttu-id="05755-110">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="05755-110">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="4f741-111">指示</span><span class="sxs-lookup"><span data-stu-id="4f741-111">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="05755-111">指示</span><span class="sxs-lookup"><span data-stu-id="05755-111">Instructions</span></span>
 
 
-<span data-ttu-id="4f741-112">每當發生變更時，DTP 控制項會傳送 [DTN \_ DATETIMECHANGE](dtn-datetimechange.md) 通知程式碼。</span><span class="sxs-lookup"><span data-stu-id="4f741-112">A DTP control sends the [DTN\_DATETIMECHANGE](dtn-datetimechange.md) notification code whenever a change occurs.</span></span> <span data-ttu-id="4f741-113">例如，當使用者變更控制項中的其中一個欄位，或在控制項設定為 [**DTS \_ SHOWNONE**](date-and-time-picker-control-styles.md) 樣式的情況下，當使用者變更控制項核取方塊的狀態時，就會產生這項通知。</span><span class="sxs-lookup"><span data-stu-id="4f741-113">For example, this notification will be generated when the user changes one of the fields in the control or, in the case where the control is set to the [**DTS\_SHOWNONE**](date-and-time-picker-control-styles.md) style, when the user changes the state of the control's check box.</span></span>
+<span data-ttu-id="05755-112">每當發生變更時，DTP 控制項會傳送 [DTN \_ DATETIMECHANGE](dtn-datetimechange.md) 通知程式碼。</span><span class="sxs-lookup"><span data-stu-id="05755-112">A DTP control sends the [DTN\_DATETIMECHANGE](dtn-datetimechange.md) notification code whenever a change occurs.</span></span> <span data-ttu-id="05755-113">例如，當使用者變更控制項中的其中一個欄位，或在控制項設定為 [**DTS \_ SHOWNONE**](date-and-time-picker-control-styles.md) 樣式的情況下，當使用者變更控制項核取方塊的狀態時，就會產生這項通知。</span><span class="sxs-lookup"><span data-stu-id="05755-113">For example, this notification will be generated when the user changes one of the fields in the control or, in the case where the control is set to the [**DTS\_SHOWNONE**](date-and-time-picker-control-styles.md) style, when the user changes the state of the control's check box.</span></span>
 
-<span data-ttu-id="4f741-114">您的應用程式必須包含程式碼，以處理 \_ 由 DTP 控制項所傳送的 DTN DATETIMECHANGE 訊息。</span><span class="sxs-lookup"><span data-stu-id="4f741-114">Your application must include code to process DTN\_DATETIMECHANGE messages that are sent by the DTP control.</span></span>
+<span data-ttu-id="05755-114">您的應用程式必須包含程式碼，以處理 \_ 由 DTP 控制項所傳送的 DTN DATETIMECHANGE 訊息。</span><span class="sxs-lookup"><span data-stu-id="05755-114">Your application must include code to process DTN\_DATETIMECHANGE messages that are sent by the DTP control.</span></span>
 
-<span data-ttu-id="4f741-115">下列 c + + 程式碼範例是應用程式定義的函式，設計來指出設定為 **DTS \_ SHOWNONE** 樣式之 DTP 控制項的狀態。</span><span class="sxs-lookup"><span data-stu-id="4f741-115">The following C++ code example is an application-defined function designed to indicate the state of a DTP control that is set to the **DTS\_SHOWNONE** style.</span></span>
+<span data-ttu-id="05755-115">下列 c + + 程式碼範例是應用程式定義的函式，設計來指出設定為 **DTS \_ SHOWNONE** 樣式之 DTP 控制項的狀態。</span><span class="sxs-lookup"><span data-stu-id="05755-115">The following C++ code example is an application-defined function designed to indicate the state of a DTP control that is set to the **DTS\_SHOWNONE** style.</span></span>
 
 
 
@@ -54,17 +54,17 @@ void WINAPI DoDateTimeChange(LPNMDATETIMECHANGE lpChange)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="4f741-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="4f741-116">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="05755-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="05755-116">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4f741-117">使用日期時間選擇器控制項</span><span class="sxs-lookup"><span data-stu-id="4f741-117">Using Date and Time Picker Controls</span></span>](using-date-and-time-picker.md)
+[<span data-ttu-id="05755-117">使用日期時間選擇器控制項</span><span class="sxs-lookup"><span data-stu-id="05755-117">Using Date and Time Picker Controls</span></span>](using-date-and-time-picker.md)
 </dt> <dt>
 
-[<span data-ttu-id="4f741-118">日期和時間選擇器控制項參考</span><span class="sxs-lookup"><span data-stu-id="4f741-118">Date and Time Picker Control Reference</span></span>](bumper-date-and-time-picker-date-and-time-picker-control-reference.md)
+[<span data-ttu-id="05755-118">日期和時間選擇器控制項參考</span><span class="sxs-lookup"><span data-stu-id="05755-118">Date and Time Picker Control Reference</span></span>](bumper-date-and-time-picker-date-and-time-picker-control-reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="4f741-119">日期和時間選擇器</span><span class="sxs-lookup"><span data-stu-id="4f741-119">Date and Time Picker</span></span>](date-and-time-picker-control-reference.md)
+[<span data-ttu-id="05755-119">日期和時間選擇器</span><span class="sxs-lookup"><span data-stu-id="05755-119">Date and Time Picker</span></span>](date-and-time-picker-control-reference.md)
 </dt> </dl>
 
  
