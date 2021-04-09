@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103933855"
 ---
-# <a name="d-rras"></a><span data-ttu-id="9283a-103">D (RRAS) </span><span class="sxs-lookup"><span data-stu-id="9283a-103">D (RRAS)</span></span>
+# <a name="d-rras"></a><span data-ttu-id="72bc0-103">D (RRAS) </span><span class="sxs-lookup"><span data-stu-id="72bc0-103">D (RRAS)</span></span>
 
-<span data-ttu-id="9283a-104">[](a-gly.md) [B](b-gly.md) [C](c-gly.md) D [E](e-gly.md) F G H [I](i-gly.md) J K L M N O [P](p-gly.md) Q R [S](s-gly.md) T W X Y Z</span><span class="sxs-lookup"><span data-stu-id="9283a-104">[A](a-gly.md) [B](b-gly.md) [C](c-gly.md) D [E](e-gly.md) F G H [I](i-gly.md) J K L M N O [P](p-gly.md) Q R [S](s-gly.md) T U V W X Y Z</span></span>
+<span data-ttu-id="72bc0-104">[](a-gly.md) [B](b-gly.md) [C](c-gly.md) D [E](e-gly.md) F G H [I](i-gly.md) J K L M N O [P](p-gly.md) Q R [S](s-gly.md) T W X Y Z</span><span class="sxs-lookup"><span data-stu-id="72bc0-104">[A](a-gly.md) [B](b-gly.md) [C](c-gly.md) D [E](e-gly.md) F G H [I](i-gly.md) J K L M N O [P](p-gly.md) Q R [S](s-gly.md) T U V W X Y Z</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="9283a-105"><span id="_mpr_dictionary_attack"></span><span id="_MPR_DICTIONARY_ATTACK"></span>**字典攻擊**</span><span class="sxs-lookup"><span data-stu-id="9283a-105"><span id="_mpr_dictionary_attack"></span><span id="_MPR_DICTIONARY_ATTACK"></span>**dictionary attack**</span></span>
+<span data-ttu-id="72bc0-105"><span id="_mpr_dictionary_attack"></span><span id="_MPR_DICTIONARY_ATTACK"></span>**字典攻擊**</span><span class="sxs-lookup"><span data-stu-id="72bc0-105"><span id="_mpr_dictionary_attack"></span><span id="_MPR_DICTIONARY_ATTACK"></span>**dictionary attack**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9283a-106">一種暴力密碼破解攻擊，攻擊者會嘗試以字典中的每個密碼來猜測密碼。</span><span class="sxs-lookup"><span data-stu-id="9283a-106">A type of brute-force attack in which the attacker attempts to guess a password by trying every password in a dictionary.</span></span>
+<span data-ttu-id="72bc0-106">一種暴力密碼破解攻擊，攻擊者會嘗試以字典中的每個密碼來猜測密碼。</span><span class="sxs-lookup"><span data-stu-id="72bc0-106">A type of brute-force attack in which the attacker attempts to guess a password by trying every password in a dictionary.</span></span>
 
 </dd> </dl>
 

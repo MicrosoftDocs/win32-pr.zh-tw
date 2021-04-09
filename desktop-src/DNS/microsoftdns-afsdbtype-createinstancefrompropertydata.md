@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934386"
 ---
-# <a name="createinstancefrompropertydata-method-of-the-microsoftdns_afsdbtype-class"></a><span data-ttu-id="4b904-106">MicrosoftDNS AFSDBType 類別的 CreateInstanceFromPropertyData 方法 \_</span><span class="sxs-lookup"><span data-stu-id="4b904-106">CreateInstanceFromPropertyData method of the MicrosoftDNS\_AFSDBType class</span></span>
+# <a name="createinstancefrompropertydata-method-of-the-microsoftdns_afsdbtype-class"></a><span data-ttu-id="9a08a-106">MicrosoftDNS AFSDBType 類別的 CreateInstanceFromPropertyData 方法 \_</span><span class="sxs-lookup"><span data-stu-id="9a08a-106">CreateInstanceFromPropertyData method of the MicrosoftDNS\_AFSDBType class</span></span>
 
-<span data-ttu-id="4b904-107">**CreateInstanceFromPropertyData** 方法會具現化 Andrew 檔案系統資料庫伺服器 (AFSDB) 資源記錄。</span><span class="sxs-lookup"><span data-stu-id="4b904-107">The **CreateInstanceFromPropertyData** method instantiates an Andrew File System Database Server (AFSDB) Resource Record.</span></span>
+<span data-ttu-id="9a08a-107">**CreateInstanceFromPropertyData** 方法會具現化 Andrew 檔案系統資料庫伺服器 (AFSDB) 資源記錄。</span><span class="sxs-lookup"><span data-stu-id="9a08a-107">The **CreateInstanceFromPropertyData** method instantiates an Andrew File System Database Server (AFSDB) Resource Record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4b904-108">語法</span><span class="sxs-lookup"><span data-stu-id="4b904-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9a08a-108">語法</span><span class="sxs-lookup"><span data-stu-id="9a08a-108">Syntax</span></span>
 
 
 ```mof
@@ -45,44 +45,44 @@ void CreateInstanceFromPropertyData(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="4b904-109">參數</span><span class="sxs-lookup"><span data-stu-id="4b904-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9a08a-109">參數</span><span class="sxs-lookup"><span data-stu-id="9a08a-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="4b904-110">*DnsServerName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4b904-110">*DnsServerName* \[in\]</span></span>
+<span data-ttu-id="9a08a-110">*DnsServerName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9a08a-110">*DnsServerName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4b904-111">包含此 RR 之 DNS 伺服器的 FQDN 或 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="4b904-111">FQDN or IP address of the DNS Server that contains this RR.</span></span>
+<span data-ttu-id="9a08a-111">包含此 RR 之 DNS 伺服器的 FQDN 或 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="9a08a-111">FQDN or IP address of the DNS Server that contains this RR.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="4b904-112">*容器* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4b904-112">*ContainerName* \[in\]</span></span>
+<span data-ttu-id="9a08a-112">*容器* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9a08a-112">*ContainerName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4b904-113">包含此 RR 之 Zone、Cache 或 RootHints 實例的容器名稱。</span><span class="sxs-lookup"><span data-stu-id="4b904-113">Name of the Container for the Zone, Cache, or RootHints instance which contains this RR.</span></span>
+<span data-ttu-id="9a08a-113">包含此 RR 之 Zone、Cache 或 RootHints 實例的容器名稱。</span><span class="sxs-lookup"><span data-stu-id="9a08a-113">Name of the Container for the Zone, Cache, or RootHints instance which contains this RR.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="4b904-114">*OwnerName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4b904-114">*OwnerName* \[in\]</span></span>
+<span data-ttu-id="9a08a-114">*OwnerName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9a08a-114">*OwnerName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4b904-115">RR 的擁有者名稱。</span><span class="sxs-lookup"><span data-stu-id="4b904-115">Owner name for the RR.</span></span>
+<span data-ttu-id="9a08a-115">RR 的擁有者名稱。</span><span class="sxs-lookup"><span data-stu-id="9a08a-115">Owner name for the RR.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="4b904-116">*RecordClass* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="4b904-116">*RecordClass* \[in, optional\]</span></span>
+<span data-ttu-id="9a08a-116">*RecordClass* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="9a08a-116">*RecordClass* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4b904-117">RR 的類別。</span><span class="sxs-lookup"><span data-stu-id="4b904-117">Class of the RR.</span></span> <span data-ttu-id="4b904-118">預設值為 1。</span><span class="sxs-lookup"><span data-stu-id="4b904-118">Default value is 1.</span></span> <span data-ttu-id="4b904-119">下列是有效的值。</span><span class="sxs-lookup"><span data-stu-id="4b904-119">The following values are valid.</span></span>
+<span data-ttu-id="9a08a-117">RR 的類別。</span><span class="sxs-lookup"><span data-stu-id="9a08a-117">Class of the RR.</span></span> <span data-ttu-id="9a08a-118">預設值為 1。</span><span class="sxs-lookup"><span data-stu-id="9a08a-118">Default value is 1.</span></span> <span data-ttu-id="9a08a-119">下列是有效的值。</span><span class="sxs-lookup"><span data-stu-id="9a08a-119">The following values are valid.</span></span>
 
 
 
-| <span data-ttu-id="4b904-120">值</span><span class="sxs-lookup"><span data-stu-id="4b904-120">Value</span></span>                                                                                                | <span data-ttu-id="4b904-121">意義</span><span class="sxs-lookup"><span data-stu-id="4b904-121">Meaning</span></span>                  |
+| <span data-ttu-id="9a08a-120">值</span><span class="sxs-lookup"><span data-stu-id="9a08a-120">Value</span></span>                                                                                                | <span data-ttu-id="9a08a-121">意義</span><span class="sxs-lookup"><span data-stu-id="9a08a-121">Meaning</span></span>                  |
 |------------------------------------------------------------------------------------------------------|--------------------------|
-| <span id="1"></span><dl> <span data-ttu-id="4b904-122"><dt>**1**</dt></span><span class="sxs-lookup"><span data-stu-id="4b904-122"><dt>**1**</dt></span></span> </dl> | <span data-ttu-id="4b904-123">在 (網際網路) </span><span class="sxs-lookup"><span data-stu-id="4b904-123">IN (Internet)</span></span><br/> |
-| <span id="2"></span><dl> <span data-ttu-id="4b904-124"><dt>**2**</dt></span><span class="sxs-lookup"><span data-stu-id="4b904-124"><dt>**2**</dt></span></span> </dl> | <span data-ttu-id="4b904-125">CS (CSNET) </span><span class="sxs-lookup"><span data-stu-id="4b904-125">CS (CSNET)</span></span><br/>    |
-| <span id="3"></span><dl> <span data-ttu-id="4b904-126"><dt>**3**</dt></span><span class="sxs-lookup"><span data-stu-id="4b904-126"><dt>**3**</dt></span></span> </dl> | <span data-ttu-id="4b904-127">CH (混亂) </span><span class="sxs-lookup"><span data-stu-id="4b904-127">CH (CHAOS)</span></span><br/>    |
-| <span id="4"></span><dl> <span data-ttu-id="4b904-128"><dt>**4**</dt></span><span class="sxs-lookup"><span data-stu-id="4b904-128"><dt>**4**</dt></span></span> </dl> | <span data-ttu-id="4b904-129">HS (Hesiod) </span><span class="sxs-lookup"><span data-stu-id="4b904-129">HS (Hesiod)</span></span><br/>   |
+| <span id="1"></span><dl> <span data-ttu-id="9a08a-122"><dt>**1**</dt></span><span class="sxs-lookup"><span data-stu-id="9a08a-122"><dt>**1**</dt></span></span> </dl> | <span data-ttu-id="9a08a-123">在 (網際網路) </span><span class="sxs-lookup"><span data-stu-id="9a08a-123">IN (Internet)</span></span><br/> |
+| <span id="2"></span><dl> <span data-ttu-id="9a08a-124"><dt>**2**</dt></span><span class="sxs-lookup"><span data-stu-id="9a08a-124"><dt>**2**</dt></span></span> </dl> | <span data-ttu-id="9a08a-125">CS (CSNET) </span><span class="sxs-lookup"><span data-stu-id="9a08a-125">CS (CSNET)</span></span><br/>    |
+| <span id="3"></span><dl> <span data-ttu-id="9a08a-126"><dt>**3**</dt></span><span class="sxs-lookup"><span data-stu-id="9a08a-126"><dt>**3**</dt></span></span> </dl> | <span data-ttu-id="9a08a-127">CH (混亂) </span><span class="sxs-lookup"><span data-stu-id="9a08a-127">CH (CHAOS)</span></span><br/>    |
+| <span id="4"></span><dl> <span data-ttu-id="9a08a-128"><dt>**4**</dt></span><span class="sxs-lookup"><span data-stu-id="9a08a-128"><dt>**4**</dt></span></span> </dl> | <span data-ttu-id="9a08a-129">HS (Hesiod) </span><span class="sxs-lookup"><span data-stu-id="9a08a-129">HS (Hesiod)</span></span><br/>   |
 
 
 
@@ -90,62 +90,62 @@ void CreateInstanceFromPropertyData(
 
 </dd> <dt>
 
-<span data-ttu-id="4b904-130">*TTL* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="4b904-130">*TTL* \[in, optional\]</span></span>
+<span data-ttu-id="9a08a-130">*TTL* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="9a08a-130">*TTL* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4b904-131">DNS 解析程式可以快取 RR 的時間（以秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="4b904-131">Time, in seconds, that the RR can be cached by a DNS resolver.</span></span>
+<span data-ttu-id="9a08a-131">DNS 解析程式可以快取 RR 的時間（以秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="9a08a-131">Time, in seconds, that the RR can be cached by a DNS resolver.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="4b904-132">*子類型* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4b904-132">*Subtype* \[in\]</span></span>
+<span data-ttu-id="9a08a-132">*子類型* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9a08a-132">*Subtype* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4b904-133">主機 AFS 伺服器的子類型。</span><span class="sxs-lookup"><span data-stu-id="4b904-133">Subtype of the host AFS server.</span></span> <span data-ttu-id="4b904-134">針對子類型 1 (值 = 1) ，主機具有適用于已命名 AFS 資料格的 AFS 3.0 磁片區位置伺服器。</span><span class="sxs-lookup"><span data-stu-id="4b904-134">For subtype 1 (value=1), the host has an AFS version 3.0 Volume Location Server for the named AFS cell.</span></span> <span data-ttu-id="4b904-135">在子類型 2 (值 = 2) 的情況下，主機會有經過驗證的名稱伺服器，保留命名的 DCE/NCA 資料格的資料格根目錄節點。</span><span class="sxs-lookup"><span data-stu-id="4b904-135">In the case of subtype 2 (value=2), the host has an authenticated name server holding the cell-root directory node for the named DCE/NCA cell.</span></span>
+<span data-ttu-id="9a08a-133">主機 AFS 伺服器的子類型。</span><span class="sxs-lookup"><span data-stu-id="9a08a-133">Subtype of the host AFS server.</span></span> <span data-ttu-id="9a08a-134">針對子類型 1 (值 = 1) ，主機具有適用于已命名 AFS 資料格的 AFS 3.0 磁片區位置伺服器。</span><span class="sxs-lookup"><span data-stu-id="9a08a-134">For subtype 1 (value=1), the host has an AFS version 3.0 Volume Location Server for the named AFS cell.</span></span> <span data-ttu-id="9a08a-135">在子類型 2 (值 = 2) 的情況下，主機會有經過驗證的名稱伺服器，保留命名的 DCE/NCA 資料格的資料格根目錄節點。</span><span class="sxs-lookup"><span data-stu-id="9a08a-135">In the case of subtype 2 (value=2), the host has an authenticated name server holding the cell-root directory node for the named DCE/NCA cell.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="4b904-136">*ServerName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4b904-136">*ServerName* \[in\]</span></span>
+<span data-ttu-id="9a08a-136">*ServerName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9a08a-136">*ServerName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4b904-137">FQDN 指定主機，該主機的擁有者名稱中指定的 AFS 資料格具有伺服器。</span><span class="sxs-lookup"><span data-stu-id="4b904-137">FQDN specifying a host that has a server for the AFS cell specified in the owner name.</span></span>
+<span data-ttu-id="9a08a-137">FQDN 指定主機，該主機的擁有者名稱中指定的 AFS 資料格具有伺服器。</span><span class="sxs-lookup"><span data-stu-id="9a08a-137">FQDN specifying a host that has a server for the AFS cell specified in the owner name.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="4b904-138">*RR* \[out、ref\]</span><span class="sxs-lookup"><span data-stu-id="4b904-138">*RR* \[out, ref\]</span></span>
+<span data-ttu-id="9a08a-138">*RR* \[out、ref\]</span><span class="sxs-lookup"><span data-stu-id="9a08a-138">*RR* \[out, ref\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4b904-139">新物件的參考。</span><span class="sxs-lookup"><span data-stu-id="4b904-139">Reference to the new object.</span></span>
+<span data-ttu-id="9a08a-139">新物件的參考。</span><span class="sxs-lookup"><span data-stu-id="9a08a-139">Reference to the new object.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="4b904-140">傳回值</span><span class="sxs-lookup"><span data-stu-id="4b904-140">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9a08a-140">傳回值</span><span class="sxs-lookup"><span data-stu-id="9a08a-140">Return value</span></span>
 
-<span data-ttu-id="4b904-141">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="4b904-141">This method does not return a value.</span></span>
+<span data-ttu-id="9a08a-141">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="9a08a-141">This method does not return a value.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="4b904-142">規格需求</span><span class="sxs-lookup"><span data-stu-id="4b904-142">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9a08a-142">規格需求</span><span class="sxs-lookup"><span data-stu-id="9a08a-142">Requirements</span></span>
 
 
 
-| <span data-ttu-id="4b904-143">需求</span><span class="sxs-lookup"><span data-stu-id="4b904-143">Requirement</span></span> | <span data-ttu-id="4b904-144">值</span><span class="sxs-lookup"><span data-stu-id="4b904-144">Value</span></span> |
+| <span data-ttu-id="9a08a-143">需求</span><span class="sxs-lookup"><span data-stu-id="9a08a-143">Requirement</span></span> | <span data-ttu-id="9a08a-144">值</span><span class="sxs-lookup"><span data-stu-id="9a08a-144">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="4b904-145">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4b904-145">Minimum supported client</span></span><br/> | <span data-ttu-id="4b904-146">都不支援</span><span class="sxs-lookup"><span data-stu-id="4b904-146">None supported</span></span><br/>                                                              |
-| <span data-ttu-id="4b904-147">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4b904-147">Minimum supported server</span></span><br/> | <span data-ttu-id="4b904-148">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4b904-148">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                   |
-| <span data-ttu-id="4b904-149">命名空間</span><span class="sxs-lookup"><span data-stu-id="4b904-149">Namespace</span></span><br/>                | <span data-ttu-id="4b904-150">根 \\ MicrosoftDNS</span><span class="sxs-lookup"><span data-stu-id="4b904-150">Root\\MicrosoftDNS</span></span><br/>                                                          |
-| <span data-ttu-id="4b904-151">MOF</span><span class="sxs-lookup"><span data-stu-id="4b904-151">MOF</span></span><br/>                      | <dl> <span data-ttu-id="4b904-152"><dt>Dnsprov mof</dt></span><span class="sxs-lookup"><span data-stu-id="4b904-152"><dt>Dnsprov.mof</dt></span></span> </dl> |
+| <span data-ttu-id="9a08a-145">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9a08a-145">Minimum supported client</span></span><br/> | <span data-ttu-id="9a08a-146">都不支援</span><span class="sxs-lookup"><span data-stu-id="9a08a-146">None supported</span></span><br/>                                                              |
+| <span data-ttu-id="9a08a-147">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9a08a-147">Minimum supported server</span></span><br/> | <span data-ttu-id="9a08a-148">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9a08a-148">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                   |
+| <span data-ttu-id="9a08a-149">命名空間</span><span class="sxs-lookup"><span data-stu-id="9a08a-149">Namespace</span></span><br/>                | <span data-ttu-id="9a08a-150">根 \\ MicrosoftDNS</span><span class="sxs-lookup"><span data-stu-id="9a08a-150">Root\\MicrosoftDNS</span></span><br/>                                                          |
+| <span data-ttu-id="9a08a-151">MOF</span><span class="sxs-lookup"><span data-stu-id="9a08a-151">MOF</span></span><br/>                      | <dl> <span data-ttu-id="9a08a-152"><dt>Dnsprov mof</dt></span><span class="sxs-lookup"><span data-stu-id="9a08a-152"><dt>Dnsprov.mof</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="4b904-153">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4b904-153">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9a08a-153">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9a08a-153">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4b904-154">**MicrosoftDNS \_ AFSDBType**</span><span class="sxs-lookup"><span data-stu-id="4b904-154">**MicrosoftDNS\_AFSDBType**</span></span>](microsoftdns-afsdbtype.md)
+[<span data-ttu-id="9a08a-154">**MicrosoftDNS \_ AFSDBType**</span><span class="sxs-lookup"><span data-stu-id="9a08a-154">**MicrosoftDNS\_AFSDBType**</span></span>](microsoftdns-afsdbtype.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b904-155">**Modify MicrosoftDNS \_ AFSDBType 類別的方法**</span><span class="sxs-lookup"><span data-stu-id="4b904-155">**Modify Method of the MicrosoftDNS\_AFSDBType Class**</span></span>](microsoftdns-afsdbtype-modify.md)
+[<span data-ttu-id="9a08a-155">**Modify MicrosoftDNS \_ AFSDBType 類別的方法**</span><span class="sxs-lookup"><span data-stu-id="9a08a-155">**Modify Method of the MicrosoftDNS\_AFSDBType Class**</span></span>](microsoftdns-afsdbtype-modify.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b904-156">**MicrosoftDNS \_ ResourceRecord**</span><span class="sxs-lookup"><span data-stu-id="4b904-156">**MicrosoftDNS\_ResourceRecord**</span></span>](microsoftdns-resourcerecord.md)
+[<span data-ttu-id="9a08a-156">**MicrosoftDNS \_ ResourceRecord**</span><span class="sxs-lookup"><span data-stu-id="9a08a-156">**MicrosoftDNS\_ResourceRecord**</span></span>](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
  

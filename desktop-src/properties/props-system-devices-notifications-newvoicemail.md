@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849080"
 ---
-# <a name="systemdevicesnotificationsnewvoicemail"></a><span data-ttu-id="7820c-103">NewVoicemail。</span><span class="sxs-lookup"><span data-stu-id="7820c-103">System.Devices.Notifications.NewVoicemail</span></span>
+# <a name="systemdevicesnotificationsnewvoicemail"></a><span data-ttu-id="6503e-103">NewVoicemail。</span><span class="sxs-lookup"><span data-stu-id="6503e-103">System.Devices.Notifications.NewVoicemail</span></span>
 
-<span data-ttu-id="7820c-104">裝置語音信箱通知。</span><span class="sxs-lookup"><span data-stu-id="7820c-104">Device voicemail notification.</span></span>
+<span data-ttu-id="6503e-104">裝置語音信箱通知。</span><span class="sxs-lookup"><span data-stu-id="6503e-104">Device voicemail notification.</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a><span data-ttu-id="7820c-105">Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8</span><span class="sxs-lookup"><span data-stu-id="7820c-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a><span data-ttu-id="6503e-105">Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8</span><span class="sxs-lookup"><span data-stu-id="6503e-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8</span></span>
 
 ```
 propertyDescription
@@ -38,7 +38,7 @@ propertyDescription
             text = You have a new voicemail message.
 ```
 
-## <a name="windows-7"></a><span data-ttu-id="7820c-106">Windows 7</span><span class="sxs-lookup"><span data-stu-id="7820c-106">Windows 7</span></span>
+## <a name="windows-7"></a><span data-ttu-id="6503e-106">Windows 7</span><span class="sxs-lookup"><span data-stu-id="6503e-106">Windows 7</span></span>
 
 ```
 propertyDescription
@@ -61,54 +61,54 @@ propertyDescription
             text = You have a new voicemail message.
 ```
 
-## <a name="remarks"></a><span data-ttu-id="7820c-107">備註</span><span class="sxs-lookup"><span data-stu-id="7820c-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6503e-107">備註</span><span class="sxs-lookup"><span data-stu-id="6503e-107">Remarks</span></span>
 
-<span data-ttu-id="7820c-108">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="7820c-108">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="6503e-108">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="6503e-108">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="7820c-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="7820c-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6503e-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="6503e-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7820c-110">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="7820c-110">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="6503e-110">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="6503e-110">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-111">searchInfo</span><span class="sxs-lookup"><span data-stu-id="7820c-111">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="6503e-111">searchInfo</span><span class="sxs-lookup"><span data-stu-id="6503e-111">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-112">labelInfo</span><span class="sxs-lookup"><span data-stu-id="7820c-112">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="6503e-112">labelInfo</span><span class="sxs-lookup"><span data-stu-id="6503e-112">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-113">typeInfo</span><span class="sxs-lookup"><span data-stu-id="7820c-113">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="6503e-113">typeInfo</span><span class="sxs-lookup"><span data-stu-id="6503e-113">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-114">displayInfo</span><span class="sxs-lookup"><span data-stu-id="7820c-114">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="6503e-114">displayInfo</span><span class="sxs-lookup"><span data-stu-id="6503e-114">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-115">stringFormat</span><span class="sxs-lookup"><span data-stu-id="7820c-115">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="6503e-115">stringFormat</span><span class="sxs-lookup"><span data-stu-id="6503e-115">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-116">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="7820c-116">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="6503e-116">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="6503e-116">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-117">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="7820c-117">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="6503e-117">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="6503e-117">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-118">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="7820c-118">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="6503e-118">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="6503e-118">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-119">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="7820c-119">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="6503e-119">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="6503e-119">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-120">drawControl</span><span class="sxs-lookup"><span data-stu-id="7820c-120">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="6503e-120">drawControl</span><span class="sxs-lookup"><span data-stu-id="6503e-120">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-121">editControl</span><span class="sxs-lookup"><span data-stu-id="7820c-121">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="6503e-121">editControl</span><span class="sxs-lookup"><span data-stu-id="6503e-121">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-122">filterControl</span><span class="sxs-lookup"><span data-stu-id="7820c-122">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="6503e-122">filterControl</span><span class="sxs-lookup"><span data-stu-id="6503e-122">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="7820c-123">queryControl</span><span class="sxs-lookup"><span data-stu-id="7820c-123">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="6503e-123">queryControl</span><span class="sxs-lookup"><span data-stu-id="6503e-123">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  

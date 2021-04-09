@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848953"
 ---
-# <a name="binary"></a><span data-ttu-id="017ac-104">Binary</span><span class="sxs-lookup"><span data-stu-id="017ac-104">Binary</span></span>
+# <a name="binary"></a><span data-ttu-id="aaf49-104">Binary</span><span class="sxs-lookup"><span data-stu-id="aaf49-104">Binary</span></span>
 
-<span data-ttu-id="017ac-105">二進位資料類型是包含任何二進位資料類型的二進位資料資料流程。</span><span class="sxs-lookup"><span data-stu-id="017ac-105">The Binary data type is a binary data stream containing any type of binary data.</span></span> <span data-ttu-id="017ac-106">範例包括點陣圖或可執行檔程式碼。</span><span class="sxs-lookup"><span data-stu-id="017ac-106">Examples include a bitmap or executable code.</span></span>
+<span data-ttu-id="aaf49-105">二進位資料類型是包含任何二進位資料類型的二進位資料資料流程。</span><span class="sxs-lookup"><span data-stu-id="aaf49-105">The Binary data type is a binary data stream containing any type of binary data.</span></span> <span data-ttu-id="aaf49-106">範例包括點陣圖或可執行檔程式碼。</span><span class="sxs-lookup"><span data-stu-id="aaf49-106">Examples include a bitmap or executable code.</span></span>
 
  
 

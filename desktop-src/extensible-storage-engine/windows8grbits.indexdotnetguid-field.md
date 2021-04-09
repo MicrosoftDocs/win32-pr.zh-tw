@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691488"
 ---
-# <a name="windows8grbitsindexdotnetguid-field"></a><span data-ttu-id="d9959-103">Windows8Grbits. IndexDotNetGuid 欄位</span><span class="sxs-lookup"><span data-stu-id="d9959-103">Windows8Grbits.IndexDotNetGuid field</span></span>
+# <a name="windows8grbitsindexdotnetguid-field"></a><span data-ttu-id="f48d2-103">Windows8Grbits. IndexDotNetGuid 欄位</span><span class="sxs-lookup"><span data-stu-id="f48d2-103">Windows8Grbits.IndexDotNetGuid field</span></span>
 
-<span data-ttu-id="d9959-104">指定此旗標會將 GUID 排序次序變更為 .NET Framework standard。</span><span class="sxs-lookup"><span data-stu-id="d9959-104">Specifying this flag will change GUID sort order to .NET Framework standard.</span></span>
+<span data-ttu-id="f48d2-104">指定此旗標會將 GUID 排序次序變更為 .NET Framework standard。</span><span class="sxs-lookup"><span data-stu-id="f48d2-104">Specifying this flag will change GUID sort order to .NET Framework standard.</span></span>
 
-<span data-ttu-id="d9959-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="d9959-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="d9959-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="d9959-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="f48d2-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="f48d2-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="f48d2-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f48d2-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d9959-107">語法</span><span class="sxs-lookup"><span data-stu-id="d9959-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f48d2-107">語法</span><span class="sxs-lookup"><span data-stu-id="f48d2-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = Windows8Grbits.IndexDotNetGuid
 public const CreateIndexGrbit IndexDotNetGuid
 ```
 
-## <a name="see-also"></a><span data-ttu-id="d9959-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d9959-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f48d2-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f48d2-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="d9959-109">參考</span><span class="sxs-lookup"><span data-stu-id="d9959-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="f48d2-109">參考</span><span class="sxs-lookup"><span data-stu-id="f48d2-109">Reference</span></span>
 
-[<span data-ttu-id="d9959-110">Windows8Grbits 類別</span><span class="sxs-lookup"><span data-stu-id="d9959-110">Windows8Grbits class</span></span>](./windows8grbits-class.md)
+[<span data-ttu-id="f48d2-110">Windows8Grbits 類別</span><span class="sxs-lookup"><span data-stu-id="f48d2-110">Windows8Grbits class</span></span>](./windows8grbits-class.md)
 
-[<span data-ttu-id="d9959-111">Windows8Grbits 成員</span><span class="sxs-lookup"><span data-stu-id="d9959-111">Windows8Grbits members</span></span>](./windows8grbits-members.md)
+[<span data-ttu-id="f48d2-111">Windows8Grbits 成員</span><span class="sxs-lookup"><span data-stu-id="f48d2-111">Windows8Grbits members</span></span>](./windows8grbits-members.md)
 
-[<span data-ttu-id="d9959-112">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="d9959-112">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="f48d2-112">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="f48d2-112">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

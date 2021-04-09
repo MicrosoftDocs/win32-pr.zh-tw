@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691483"
 ---
-# <a name="windows8paramdurablecommitcallback-field"></a><span data-ttu-id="64c3f-103">Windows8Param. DurableCommitCallback 欄位</span><span class="sxs-lookup"><span data-stu-id="64c3f-103">Windows8Param.DurableCommitCallback field</span></span>
+# <a name="windows8paramdurablecommitcallback-field"></a><span data-ttu-id="aea7d-103">Windows8Param. DurableCommitCallback 欄位</span><span class="sxs-lookup"><span data-stu-id="aea7d-103">Windows8Param.DurableCommitCallback field</span></span>
 
-<span data-ttu-id="64c3f-104">清除記錄檔時的回呼。</span><span class="sxs-lookup"><span data-stu-id="64c3f-104">Callback for when log is flushed.</span></span>
+<span data-ttu-id="aea7d-104">清除記錄檔時的回呼。</span><span class="sxs-lookup"><span data-stu-id="aea7d-104">Callback for when log is flushed.</span></span>
 
-<span data-ttu-id="64c3f-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="64c3f-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="64c3f-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="64c3f-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="aea7d-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="aea7d-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="aea7d-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="aea7d-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="64c3f-107">語法</span><span class="sxs-lookup"><span data-stu-id="64c3f-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="aea7d-107">語法</span><span class="sxs-lookup"><span data-stu-id="aea7d-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = Windows8Param.DurableCommitCallback
 public const JET_param DurableCommitCallback
 ```
 
-## <a name="see-also"></a><span data-ttu-id="64c3f-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="64c3f-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aea7d-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="aea7d-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="64c3f-109">參考</span><span class="sxs-lookup"><span data-stu-id="64c3f-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="aea7d-109">參考</span><span class="sxs-lookup"><span data-stu-id="aea7d-109">Reference</span></span>
 
-[<span data-ttu-id="64c3f-110">Windows8Param 類別</span><span class="sxs-lookup"><span data-stu-id="64c3f-110">Windows8Param class</span></span>](./windows8param-class.md)
+[<span data-ttu-id="aea7d-110">Windows8Param 類別</span><span class="sxs-lookup"><span data-stu-id="aea7d-110">Windows8Param class</span></span>](./windows8param-class.md)
 
-[<span data-ttu-id="64c3f-111">Windows8Param 成員</span><span class="sxs-lookup"><span data-stu-id="64c3f-111">Windows8Param members</span></span>](./windows8param-members.md)
+[<span data-ttu-id="aea7d-111">Windows8Param 成員</span><span class="sxs-lookup"><span data-stu-id="aea7d-111">Windows8Param members</span></span>](./windows8param-members.md)
 
-[<span data-ttu-id="64c3f-112">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="64c3f-112">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="aea7d-112">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="aea7d-112">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

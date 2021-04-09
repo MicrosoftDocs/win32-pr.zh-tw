@@ -11,36 +11,36 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849004"
 ---
-# <a name="_tables-table"></a><span data-ttu-id="0e00f-104">\_資料表資料表</span><span class="sxs-lookup"><span data-stu-id="0e00f-104">\_Tables Table</span></span>
+# <a name="_tables-table"></a><span data-ttu-id="bd318-104">\_資料表資料表</span><span class="sxs-lookup"><span data-stu-id="bd318-104">\_Tables Table</span></span>
 
-<span data-ttu-id="0e00f-105">\_資料表資料表是唯讀的系統資料表，會列出資料庫中的所有資料表。</span><span class="sxs-lookup"><span data-stu-id="0e00f-105">The \_Tables table is a read-only system table that lists all the tables in the database.</span></span> <span data-ttu-id="0e00f-106">查詢此資料表，以找出資料表是否存在。</span><span class="sxs-lookup"><span data-stu-id="0e00f-106">Query this table to find out if a table exists.</span></span>
+<span data-ttu-id="bd318-105">\_資料表資料表是唯讀的系統資料表，會列出資料庫中的所有資料表。</span><span class="sxs-lookup"><span data-stu-id="bd318-105">The \_Tables table is a read-only system table that lists all the tables in the database.</span></span> <span data-ttu-id="bd318-106">查詢此資料表，以找出資料表是否存在。</span><span class="sxs-lookup"><span data-stu-id="bd318-106">Query this table to find out if a table exists.</span></span>
 
-<span data-ttu-id="0e00f-107">\_資料表資料表有下列資料行。</span><span class="sxs-lookup"><span data-stu-id="0e00f-107">The \_Tables Table has the following column.</span></span>
+<span data-ttu-id="bd318-107">\_資料表資料表有下列資料行。</span><span class="sxs-lookup"><span data-stu-id="bd318-107">The \_Tables Table has the following column.</span></span>
 
 
 
-| <span data-ttu-id="0e00f-108">Column</span><span class="sxs-lookup"><span data-stu-id="0e00f-108">Column</span></span> | <span data-ttu-id="0e00f-109">類型</span><span class="sxs-lookup"><span data-stu-id="0e00f-109">Type</span></span>             | <span data-ttu-id="0e00f-110">答案</span><span class="sxs-lookup"><span data-stu-id="0e00f-110">Key</span></span> | <span data-ttu-id="0e00f-111">Nullable</span><span class="sxs-lookup"><span data-stu-id="0e00f-111">Nullable</span></span> |
+| <span data-ttu-id="bd318-108">Column</span><span class="sxs-lookup"><span data-stu-id="bd318-108">Column</span></span> | <span data-ttu-id="bd318-109">類型</span><span class="sxs-lookup"><span data-stu-id="bd318-109">Type</span></span>             | <span data-ttu-id="bd318-110">答案</span><span class="sxs-lookup"><span data-stu-id="bd318-110">Key</span></span> | <span data-ttu-id="bd318-111">Nullable</span><span class="sxs-lookup"><span data-stu-id="bd318-111">Nullable</span></span> |
 |--------|------------------|-----|----------|
-| <span data-ttu-id="0e00f-112">Name</span><span class="sxs-lookup"><span data-stu-id="0e00f-112">Name</span></span>   | [<span data-ttu-id="0e00f-113">Text</span><span class="sxs-lookup"><span data-stu-id="0e00f-113">Text</span></span>](text.md) | <span data-ttu-id="0e00f-114">Y</span><span class="sxs-lookup"><span data-stu-id="0e00f-114">Y</span></span>   | <span data-ttu-id="0e00f-115">N</span><span class="sxs-lookup"><span data-stu-id="0e00f-115">N</span></span>        |
+| <span data-ttu-id="bd318-112">Name</span><span class="sxs-lookup"><span data-stu-id="bd318-112">Name</span></span>   | [<span data-ttu-id="bd318-113">Text</span><span class="sxs-lookup"><span data-stu-id="bd318-113">Text</span></span>](text.md) | <span data-ttu-id="bd318-114">Y</span><span class="sxs-lookup"><span data-stu-id="bd318-114">Y</span></span>   | <span data-ttu-id="bd318-115">N</span><span class="sxs-lookup"><span data-stu-id="bd318-115">N</span></span>        |
 
 
 
  
 
-## <a name="column"></a><span data-ttu-id="0e00f-116">Column</span><span class="sxs-lookup"><span data-stu-id="0e00f-116">Column</span></span>
+## <a name="column"></a><span data-ttu-id="bd318-116">Column</span><span class="sxs-lookup"><span data-stu-id="bd318-116">Column</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="0e00f-117"><span id="Name"></span><span id="name"></span><span id="NAME"></span>名字</span><span class="sxs-lookup"><span data-stu-id="0e00f-117"><span id="Name"></span><span id="name"></span><span id="NAME"></span>Name</span></span>
+<span data-ttu-id="bd318-117"><span id="Name"></span><span id="name"></span><span id="NAME"></span>名字</span><span class="sxs-lookup"><span data-stu-id="bd318-117"><span id="Name"></span><span id="name"></span><span id="NAME"></span>Name</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0e00f-118">其中一個資料表的名稱。</span><span class="sxs-lookup"><span data-stu-id="0e00f-118">Name of one of the tables.</span></span>
+<span data-ttu-id="bd318-118">其中一個資料表的名稱。</span><span class="sxs-lookup"><span data-stu-id="bd318-118">Name of one of the tables.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="0e00f-119">備註</span><span class="sxs-lookup"><span data-stu-id="0e00f-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd318-119">備註</span><span class="sxs-lookup"><span data-stu-id="bd318-119">Remarks</span></span>
 
-<span data-ttu-id="0e00f-120">因為 \_ 資料表資料表是無法透過 SQL 查詢修改的系統資料表，所以您無法使用 [**MsiDatabaseGetPrimaryKeys**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa) 函數或 [**PrimaryKeys 屬性**](database-primarykeys.md)來取得主鍵。</span><span class="sxs-lookup"><span data-stu-id="0e00f-120">Because the \_Tables table is a system table that cannot be modified through SQL queries, you cannot obtain the primary keys with the [**MsiDatabaseGetPrimaryKeys**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa) function or the [**PrimaryKeys property**](database-primarykeys.md).</span></span>
+<span data-ttu-id="bd318-120">因為 \_ 資料表資料表是無法透過 SQL 查詢修改的系統資料表，所以您無法使用 [**MsiDatabaseGetPrimaryKeys**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa) 函數或 [**PrimaryKeys 屬性**](database-primarykeys.md)來取得主鍵。</span><span class="sxs-lookup"><span data-stu-id="bd318-120">Because the \_Tables table is a system table that cannot be modified through SQL queries, you cannot obtain the primary keys with the [**MsiDatabaseGetPrimaryKeys**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa) function or the [**PrimaryKeys property**](database-primarykeys.md).</span></span>
 
  
 

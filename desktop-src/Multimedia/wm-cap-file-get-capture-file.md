@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843187"
 ---
-# <a name="wm_cap_file_get_capture_file-message"></a><span data-ttu-id="58dfe-105">WM \_ CAP \_ 檔案 \_ 取得 \_ 捕獲檔案 \_ 訊息</span><span class="sxs-lookup"><span data-stu-id="58dfe-105">WM\_CAP\_FILE\_GET\_CAPTURE\_FILE message</span></span>
+# <a name="wm_cap_file_get_capture_file-message"></a><span data-ttu-id="0242c-105">WM \_ CAP \_ 檔案 \_ 取得 \_ 捕獲檔案 \_ 訊息</span><span class="sxs-lookup"><span data-stu-id="0242c-105">WM\_CAP\_FILE\_GET\_CAPTURE\_FILE message</span></span>
 
-<span data-ttu-id="58dfe-106">**WM \_ CAP 檔案 \_ \_ 取得 \_ 捕獲 \_** 檔案訊息會傳回目前 CAPTURE 檔案的名稱。</span><span class="sxs-lookup"><span data-stu-id="58dfe-106">The **WM\_CAP\_FILE\_GET\_CAPTURE\_FILE** message returns the name of the current capture file.</span></span> <span data-ttu-id="58dfe-107">您可以使用 [**capFileGetCaptureFile**](/windows/desktop/api/Vfw/nf-vfw-capfilegetcapturefile) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="58dfe-107">You can send this message explicitly or by using the [**capFileGetCaptureFile**](/windows/desktop/api/Vfw/nf-vfw-capfilegetcapturefile) macro.</span></span>
+<span data-ttu-id="0242c-106">**WM \_ CAP 檔案 \_ \_ 取得 \_ 捕獲 \_** 檔案訊息會傳回目前 CAPTURE 檔案的名稱。</span><span class="sxs-lookup"><span data-stu-id="0242c-106">The **WM\_CAP\_FILE\_GET\_CAPTURE\_FILE** message returns the name of the current capture file.</span></span> <span data-ttu-id="0242c-107">您可以使用 [**capFileGetCaptureFile**](/windows/desktop/api/Vfw/nf-vfw-capfilegetcapturefile) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="0242c-107">You can send this message explicitly or by using the [**capFileGetCaptureFile**](/windows/desktop/api/Vfw/nf-vfw-capfilegetcapturefile) macro.</span></span>
 
 
 ```C++
@@ -34,52 +34,52 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 
 
 
-## <a name="parameters"></a><span data-ttu-id="58dfe-108">參數</span><span class="sxs-lookup"><span data-stu-id="58dfe-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0242c-108">參數</span><span class="sxs-lookup"><span data-stu-id="0242c-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="58dfe-109"><span id="wSize"></span><span id="wsize"></span><span id="WSIZE"></span>*wSize*</span><span class="sxs-lookup"><span data-stu-id="58dfe-109"><span id="wSize"></span><span id="wsize"></span><span id="WSIZE"></span>*wSize*</span></span>
+<span data-ttu-id="0242c-109"><span id="wSize"></span><span id="wsize"></span><span id="WSIZE"></span>*wSize*</span><span class="sxs-lookup"><span data-stu-id="0242c-109"><span id="wSize"></span><span id="wsize"></span><span id="WSIZE"></span>*wSize*</span></span>
 </dt> <dd>
 
-<span data-ttu-id="58dfe-110">**>szname** 所參考的應用程式定義緩衝區大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="58dfe-110">Size, in bytes, of the application-defined buffer referenced by **szName**.</span></span>
+<span data-ttu-id="0242c-110">**>szname** 所參考的應用程式定義緩衝區大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="0242c-110">Size, in bytes, of the application-defined buffer referenced by **szName**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="58dfe-111"><span id="szName"></span><span id="szname"></span><span id="SZNAME"></span>*>szname*</span><span class="sxs-lookup"><span data-stu-id="58dfe-111"><span id="szName"></span><span id="szname"></span><span id="SZNAME"></span>*szName*</span></span>
+<span data-ttu-id="0242c-111"><span id="szName"></span><span id="szname"></span><span id="SZNAME"></span>*>szname*</span><span class="sxs-lookup"><span data-stu-id="0242c-111"><span id="szName"></span><span id="szname"></span><span id="SZNAME"></span>*szName*</span></span>
 </dt> <dd>
 
-<span data-ttu-id="58dfe-112">應用程式定義的緩衝區指標，用來將捕獲檔案的名稱當做以 null 終止的字串傳回。</span><span class="sxs-lookup"><span data-stu-id="58dfe-112">Pointer to an application-defined buffer used to return the name of the capture file as a null-terminated string.</span></span>
+<span data-ttu-id="0242c-112">應用程式定義的緩衝區指標，用來將捕獲檔案的名稱當做以 null 終止的字串傳回。</span><span class="sxs-lookup"><span data-stu-id="0242c-112">Pointer to an application-defined buffer used to return the name of the capture file as a null-terminated string.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="58dfe-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="58dfe-113">Return Value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0242c-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="0242c-113">Return Value</span></span>
 
-<span data-ttu-id="58dfe-114">如果成功則傳回 **TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="58dfe-114">Returns **TRUE** if successful or **FALSE** otherwise.</span></span>
+<span data-ttu-id="0242c-114">如果成功則傳回 **TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="0242c-114">Returns **TRUE** if successful or **FALSE** otherwise.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="58dfe-115">備註</span><span class="sxs-lookup"><span data-stu-id="58dfe-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0242c-115">備註</span><span class="sxs-lookup"><span data-stu-id="0242c-115">Remarks</span></span>
 
-<span data-ttu-id="58dfe-116">預設的捕獲檔案名為 C： \\CAPTURE.AVI。</span><span class="sxs-lookup"><span data-stu-id="58dfe-116">The default capture filename is C:\\CAPTURE.AVI.</span></span>
+<span data-ttu-id="0242c-116">預設的捕獲檔案名為 C： \\CAPTURE.AVI。</span><span class="sxs-lookup"><span data-stu-id="0242c-116">The default capture filename is C:\\CAPTURE.AVI.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="58dfe-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="58dfe-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="0242c-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="0242c-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="58dfe-118">需求</span><span class="sxs-lookup"><span data-stu-id="58dfe-118">Requirement</span></span> | <span data-ttu-id="58dfe-119">值</span><span class="sxs-lookup"><span data-stu-id="58dfe-119">Value</span></span> |
+| <span data-ttu-id="0242c-118">需求</span><span class="sxs-lookup"><span data-stu-id="0242c-118">Requirement</span></span> | <span data-ttu-id="0242c-119">值</span><span class="sxs-lookup"><span data-stu-id="0242c-119">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="58dfe-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="58dfe-120">Minimum supported client</span></span><br/> | <span data-ttu-id="58dfe-121">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="58dfe-121">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                       |
-| <span data-ttu-id="58dfe-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="58dfe-122">Minimum supported server</span></span><br/> | <span data-ttu-id="58dfe-123">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="58dfe-123">Windows 2000 Server \[desktop apps only\]</span></span><br/>                             |
-| <span data-ttu-id="58dfe-124">標頭</span><span class="sxs-lookup"><span data-stu-id="58dfe-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="58dfe-125"><dt>Vfw。h</dt></span><span class="sxs-lookup"><span data-stu-id="58dfe-125"><dt>Vfw.h</dt></span></span> </dl> |
+| <span data-ttu-id="0242c-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="0242c-120">Minimum supported client</span></span><br/> | <span data-ttu-id="0242c-121">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0242c-121">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                       |
+| <span data-ttu-id="0242c-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="0242c-122">Minimum supported server</span></span><br/> | <span data-ttu-id="0242c-123">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0242c-123">Windows 2000 Server \[desktop apps only\]</span></span><br/>                             |
+| <span data-ttu-id="0242c-124">標頭</span><span class="sxs-lookup"><span data-stu-id="0242c-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="0242c-125"><dt>Vfw。h</dt></span><span class="sxs-lookup"><span data-stu-id="0242c-125"><dt>Vfw.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="58dfe-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="58dfe-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0242c-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0242c-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="58dfe-127">影片捕獲</span><span class="sxs-lookup"><span data-stu-id="58dfe-127">Video Capture</span></span>](video-capture.md)
+[<span data-ttu-id="0242c-127">影片捕獲</span><span class="sxs-lookup"><span data-stu-id="0242c-127">Video Capture</span></span>](video-capture.md)
 </dt> <dt>
 
-[<span data-ttu-id="58dfe-128">影片捕獲訊息</span><span class="sxs-lookup"><span data-stu-id="58dfe-128">Video Capture Messages</span></span>](video-capture-messages.md)
+[<span data-ttu-id="0242c-128">影片捕獲訊息</span><span class="sxs-lookup"><span data-stu-id="0242c-128">Video Capture Messages</span></span>](video-capture-messages.md)
 </dt> </dl>
 
  

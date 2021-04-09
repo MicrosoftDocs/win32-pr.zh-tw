@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843292"
 ---
-# <a name="tbn_custhelp-notification-code"></a><span data-ttu-id="7962c-105">TBN \_ CUSTHELP 通知碼</span><span class="sxs-lookup"><span data-stu-id="7962c-105">TBN\_CUSTHELP notification code</span></span>
+# <a name="tbn_custhelp-notification-code"></a><span data-ttu-id="af965-105">TBN \_ CUSTHELP 通知碼</span><span class="sxs-lookup"><span data-stu-id="af965-105">TBN\_CUSTHELP notification code</span></span>
 
-<span data-ttu-id="7962c-106">通知工具列的父視窗，指出使用者已在 [自訂工具列] 對話方塊中選擇 [說明] 按鈕。</span><span class="sxs-lookup"><span data-stu-id="7962c-106">Notifies a toolbar's parent window that the user has chosen the Help button in the Customize Toolbar dialog box.</span></span> <span data-ttu-id="7962c-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="7962c-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="af965-106">通知工具列的父視窗，指出使用者已在 [自訂工具列] 對話方塊中選擇 [說明] 按鈕。</span><span class="sxs-lookup"><span data-stu-id="af965-106">Notifies a toolbar's parent window that the user has chosen the Help button in the Customize Toolbar dialog box.</span></span> <span data-ttu-id="af965-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="af965-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -34,30 +34,30 @@ TBN_CUSTHELP
 
 
 
-## <a name="parameters"></a><span data-ttu-id="7962c-108">參數</span><span class="sxs-lookup"><span data-stu-id="7962c-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="af965-108">參數</span><span class="sxs-lookup"><span data-stu-id="af965-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="7962c-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="7962c-109">*lParam*</span></span> 
+<span data-ttu-id="af965-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="af965-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="7962c-110">[**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr)結構的指標，其中包含通知碼的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="7962c-110">Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains information about the notification code.</span></span>
+<span data-ttu-id="af965-110">[**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr)結構的指標，其中包含通知碼的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="af965-110">Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains information about the notification code.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="7962c-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="7962c-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="af965-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="af965-111">Return value</span></span>
 
-<span data-ttu-id="7962c-112">沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="7962c-112">No return value.</span></span>
+<span data-ttu-id="af965-112">沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="af965-112">No return value.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="7962c-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="7962c-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="af965-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="af965-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="7962c-114">需求</span><span class="sxs-lookup"><span data-stu-id="7962c-114">Requirement</span></span> | <span data-ttu-id="7962c-115">值</span><span class="sxs-lookup"><span data-stu-id="7962c-115">Value</span></span> |
+| <span data-ttu-id="af965-114">需求</span><span class="sxs-lookup"><span data-stu-id="af965-114">Requirement</span></span> | <span data-ttu-id="af965-115">值</span><span class="sxs-lookup"><span data-stu-id="af965-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="7962c-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7962c-116">Minimum supported client</span></span><br/> | <span data-ttu-id="7962c-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7962c-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="7962c-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7962c-118">Minimum supported server</span></span><br/> | <span data-ttu-id="7962c-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7962c-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="7962c-120">標頭</span><span class="sxs-lookup"><span data-stu-id="7962c-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="7962c-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="7962c-121"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="af965-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="af965-116">Minimum supported client</span></span><br/> | <span data-ttu-id="af965-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="af965-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="af965-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="af965-118">Minimum supported server</span></span><br/> | <span data-ttu-id="af965-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="af965-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="af965-120">標頭</span><span class="sxs-lookup"><span data-stu-id="af965-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="af965-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="af965-121"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

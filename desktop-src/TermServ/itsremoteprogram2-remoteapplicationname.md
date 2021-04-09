@@ -29,13 +29,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934120"
 ---
-# <a name="itsremoteprogram2remoteapplicationname-property"></a><span data-ttu-id="7c12c-108">ITSRemoteProgram2：： RemoteApplicationName 屬性</span><span class="sxs-lookup"><span data-stu-id="7c12c-108">ITSRemoteProgram2::RemoteApplicationName property</span></span>
+# <a name="itsremoteprogram2remoteapplicationname-property"></a><span data-ttu-id="dcada-108">ITSRemoteProgram2：： RemoteApplicationName 屬性</span><span class="sxs-lookup"><span data-stu-id="dcada-108">ITSRemoteProgram2::RemoteApplicationName property</span></span>
 
-<span data-ttu-id="7c12c-109">RemoteApp 的名稱。</span><span class="sxs-lookup"><span data-stu-id="7c12c-109">The name of the RemoteApp.</span></span>
+<span data-ttu-id="dcada-109">RemoteApp 的名稱。</span><span class="sxs-lookup"><span data-stu-id="dcada-109">The name of the RemoteApp.</span></span>
 
-<span data-ttu-id="7c12c-110">此屬性是唯寫的。</span><span class="sxs-lookup"><span data-stu-id="7c12c-110">This property is write-only.</span></span>
+<span data-ttu-id="dcada-110">此屬性是唯寫的。</span><span class="sxs-lookup"><span data-stu-id="dcada-110">This property is write-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7c12c-111">Syntax</span><span class="sxs-lookup"><span data-stu-id="7c12c-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dcada-111">Syntax</span><span class="sxs-lookup"><span data-stu-id="dcada-111">Syntax</span></span>
 
 
 ```C++
@@ -46,31 +46,31 @@ HRESULT put_RemoteApplicationName(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="7c12c-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="7c12c-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="dcada-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="dcada-112">Property value</span></span>
 
-<span data-ttu-id="7c12c-113">RemoteApp 名稱。</span><span class="sxs-lookup"><span data-stu-id="7c12c-113">The RemoteApp name.</span></span>
+<span data-ttu-id="dcada-113">RemoteApp 名稱。</span><span class="sxs-lookup"><span data-stu-id="dcada-113">The RemoteApp name.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="7c12c-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="7c12c-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="dcada-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="dcada-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="7c12c-115">需求</span><span class="sxs-lookup"><span data-stu-id="7c12c-115">Requirement</span></span> | <span data-ttu-id="7c12c-116">值</span><span class="sxs-lookup"><span data-stu-id="7c12c-116">Value</span></span> |
+| <span data-ttu-id="dcada-115">需求</span><span class="sxs-lookup"><span data-stu-id="dcada-115">Requirement</span></span> | <span data-ttu-id="dcada-116">值</span><span class="sxs-lookup"><span data-stu-id="dcada-116">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="7c12c-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7c12c-117">Minimum supported client</span></span><br/> | <span data-ttu-id="7c12c-118">Windows 7</span><span class="sxs-lookup"><span data-stu-id="7c12c-118">Windows 7</span></span><br/>                                                                   |
-| <span data-ttu-id="7c12c-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7c12c-119">Minimum supported server</span></span><br/> | <span data-ttu-id="7c12c-120">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="7c12c-120">Windows Server 2008</span></span><br/>                                                         |
-| <span data-ttu-id="7c12c-121">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="7c12c-121">Type library</span></span><br/>             | <dl> <span data-ttu-id="7c12c-122"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="7c12c-122"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="7c12c-123">DLL</span><span class="sxs-lookup"><span data-stu-id="7c12c-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="7c12c-124"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="7c12c-124"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="dcada-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="dcada-117">Minimum supported client</span></span><br/> | <span data-ttu-id="dcada-118">Windows 7</span><span class="sxs-lookup"><span data-stu-id="dcada-118">Windows 7</span></span><br/>                                                                   |
+| <span data-ttu-id="dcada-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="dcada-119">Minimum supported server</span></span><br/> | <span data-ttu-id="dcada-120">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="dcada-120">Windows Server 2008</span></span><br/>                                                         |
+| <span data-ttu-id="dcada-121">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="dcada-121">Type library</span></span><br/>             | <dl> <span data-ttu-id="dcada-122"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="dcada-122"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="dcada-123">DLL</span><span class="sxs-lookup"><span data-stu-id="dcada-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="dcada-124"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="dcada-124"><dt>MsTscAx.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7c12c-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7c12c-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dcada-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dcada-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7c12c-126">**ITSRemoteProgram3**</span><span class="sxs-lookup"><span data-stu-id="7c12c-126">**ITSRemoteProgram3**</span></span>](itsremoteprogram3.md)
+[<span data-ttu-id="dcada-126">**ITSRemoteProgram3**</span><span class="sxs-lookup"><span data-stu-id="dcada-126">**ITSRemoteProgram3**</span></span>](itsremoteprogram3.md)
 </dt> <dt>
 
-[<span data-ttu-id="7c12c-127">**ITSRemoteProgram2**</span><span class="sxs-lookup"><span data-stu-id="7c12c-127">**ITSRemoteProgram2**</span></span>](itsremoteprogram2.md)
+[<span data-ttu-id="dcada-127">**ITSRemoteProgram2**</span><span class="sxs-lookup"><span data-stu-id="dcada-127">**ITSRemoteProgram2**</span></span>](itsremoteprogram2.md)
 </dt> </dl>
 
  

@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690516"
 ---
-# <a name="iscarddatabase-methods"></a><span data-ttu-id="b6dc2-103">ISCardDatabase 方法</span><span class="sxs-lookup"><span data-stu-id="b6dc2-103">ISCardDatabase Methods</span></span>
+# <a name="iscarddatabase-methods"></a><span data-ttu-id="4503d-103">ISCardDatabase 方法</span><span class="sxs-lookup"><span data-stu-id="4503d-103">ISCardDatabase Methods</span></span>
 
-<span data-ttu-id="b6dc2-104">[**ISCardDatabase**](iscarddatabase.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="b6dc2-104">The [**ISCardDatabase**](iscarddatabase.md) interface exposes the following methods.</span></span>
+<span data-ttu-id="4503d-104">[**ISCardDatabase**](iscarddatabase.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="4503d-104">The [**ISCardDatabase**](iscarddatabase.md) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="b6dc2-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b6dc2-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4503d-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="4503d-105">In this section</span></span>
 
--   [<span data-ttu-id="b6dc2-106">**GetProviderCardId 方法**</span><span class="sxs-lookup"><span data-stu-id="b6dc2-106">**GetProviderCardId Method**</span></span>](iscarddatabase-getprovidercardid.md)
--   [<span data-ttu-id="b6dc2-107">**ListCardInterfaces 方法**</span><span class="sxs-lookup"><span data-stu-id="b6dc2-107">**ListCardInterfaces Method**</span></span>](iscarddatabase-listcardinterfaces.md)
--   [<span data-ttu-id="b6dc2-108">**ListCards 方法**</span><span class="sxs-lookup"><span data-stu-id="b6dc2-108">**ListCards Method**</span></span>](iscarddatabase-listcards.md)
--   [<span data-ttu-id="b6dc2-109">**ListReaderGroups 方法**</span><span class="sxs-lookup"><span data-stu-id="b6dc2-109">**ListReaderGroups Method**</span></span>](iscarddatabase-listreadergroups.md)
--   [<span data-ttu-id="b6dc2-110">**ListReaders 方法**</span><span class="sxs-lookup"><span data-stu-id="b6dc2-110">**ListReaders Method**</span></span>](iscarddatabase-listreaders.md)
+-   [<span data-ttu-id="4503d-106">**GetProviderCardId 方法**</span><span class="sxs-lookup"><span data-stu-id="4503d-106">**GetProviderCardId Method**</span></span>](iscarddatabase-getprovidercardid.md)
+-   [<span data-ttu-id="4503d-107">**ListCardInterfaces 方法**</span><span class="sxs-lookup"><span data-stu-id="4503d-107">**ListCardInterfaces Method**</span></span>](iscarddatabase-listcardinterfaces.md)
+-   [<span data-ttu-id="4503d-108">**ListCards 方法**</span><span class="sxs-lookup"><span data-stu-id="4503d-108">**ListCards Method**</span></span>](iscarddatabase-listcards.md)
+-   [<span data-ttu-id="4503d-109">**ListReaderGroups 方法**</span><span class="sxs-lookup"><span data-stu-id="4503d-109">**ListReaderGroups Method**</span></span>](iscarddatabase-listreadergroups.md)
+-   [<span data-ttu-id="4503d-110">**ListReaders 方法**</span><span class="sxs-lookup"><span data-stu-id="4503d-110">**ListReaders Method**</span></span>](iscarddatabase-listreaders.md)
 
  
 

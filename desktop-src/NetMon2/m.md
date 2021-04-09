@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690768"
 ---
-# <a name="m-network-monitor"></a><span data-ttu-id="bba85-103">M (網路監視器) </span><span class="sxs-lookup"><span data-stu-id="bba85-103">M (Network Monitor)</span></span>
+# <a name="m-network-monitor"></a><span data-ttu-id="e1254-103">M (網路監視器) </span><span class="sxs-lookup"><span data-stu-id="e1254-103">M (Network Monitor)</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="bba85-104"><span id="_netmon_mac_address_gly"></span><span id="_NETMON_MAC_ADDRESS_GLY"></span>**MAC 位址**</span><span class="sxs-lookup"><span data-stu-id="bba85-104"><span id="_netmon_mac_address_gly"></span><span id="_NETMON_MAC_ADDRESS_GLY"></span>**MAC address**</span></span>
+<span data-ttu-id="e1254-104"><span id="_netmon_mac_address_gly"></span><span id="_NETMON_MAC_ADDRESS_GLY"></span>**MAC 位址**</span><span class="sxs-lookup"><span data-stu-id="e1254-104"><span id="_netmon_mac_address_gly"></span><span id="_NETMON_MAC_ADDRESS_GLY"></span>**MAC address**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="bba85-105">請參閱 [*位址*](a.md)。</span><span class="sxs-lookup"><span data-stu-id="bba85-105">See [*address*](a.md).</span></span>
+<span data-ttu-id="e1254-105">請參閱 [*位址*](a.md)。</span><span class="sxs-lookup"><span data-stu-id="e1254-105">See [*address*](a.md).</span></span>
 
 </dd> </dl>
 

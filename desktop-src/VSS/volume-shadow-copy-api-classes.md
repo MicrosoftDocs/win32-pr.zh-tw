@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690471"
 ---
-# <a name="volume-shadow-copy-api-classes"></a><span data-ttu-id="d64e2-103">磁片區陰影複製 API 類別</span><span class="sxs-lookup"><span data-stu-id="d64e2-103">Volume Shadow Copy API Classes</span></span>
+# <a name="volume-shadow-copy-api-classes"></a><span data-ttu-id="6bb2c-103">磁片區陰影複製 API 類別</span><span class="sxs-lookup"><span data-stu-id="6bb2c-103">Volume Shadow Copy API Classes</span></span>
 
-<span data-ttu-id="d64e2-104">以下是磁片區陰影複製 API 公用類別：</span><span class="sxs-lookup"><span data-stu-id="d64e2-104">The following are the Volume Shadow Copy API public classes:</span></span>
+<span data-ttu-id="6bb2c-104">以下是磁片區陰影複製 API 公用類別：</span><span class="sxs-lookup"><span data-stu-id="6bb2c-104">The following are the Volume Shadow Copy API public classes:</span></span>
 
--   [<span data-ttu-id="d64e2-105">**CVssWriter**</span><span class="sxs-lookup"><span data-stu-id="d64e2-105">**CVssWriter**</span></span>](/windows/desktop/api/VsWriter/nl-vswriter-cvsswriter)
--   [<span data-ttu-id="d64e2-106">**CVssWriterEx**</span><span class="sxs-lookup"><span data-stu-id="d64e2-106">**CVssWriterEx**</span></span>](/windows/desktop/api/VsWriter/nl-vswriter-cvsswriterex)
--   [<span data-ttu-id="d64e2-107">**CVssWriterEx2**</span><span class="sxs-lookup"><span data-stu-id="d64e2-107">**CVssWriterEx2**</span></span>](/windows/desktop/api/VsWriter/nl-vswriter-cvsswriterex2)
+-   [<span data-ttu-id="6bb2c-105">**CVssWriter**</span><span class="sxs-lookup"><span data-stu-id="6bb2c-105">**CVssWriter**</span></span>](/windows/desktop/api/VsWriter/nl-vswriter-cvsswriter)
+-   [<span data-ttu-id="6bb2c-106">**CVssWriterEx**</span><span class="sxs-lookup"><span data-stu-id="6bb2c-106">**CVssWriterEx**</span></span>](/windows/desktop/api/VsWriter/nl-vswriter-cvsswriterex)
+-   [<span data-ttu-id="6bb2c-107">**CVssWriterEx2**</span><span class="sxs-lookup"><span data-stu-id="6bb2c-107">**CVssWriterEx2**</span></span>](/windows/desktop/api/VsWriter/nl-vswriter-cvsswriterex2)
 
  
 

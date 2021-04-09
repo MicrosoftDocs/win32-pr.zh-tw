@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849764"
 ---
-# <a name="inullablejetstruct-interface"></a><span data-ttu-id="9b62b-103">INullableJetStruct 介面</span><span class="sxs-lookup"><span data-stu-id="9b62b-103">INullableJetStruct interface</span></span>
+# <a name="inullablejetstruct-interface"></a><span data-ttu-id="01218-103">INullableJetStruct 介面</span><span class="sxs-lookup"><span data-stu-id="01218-103">INullableJetStruct interface</span></span>
 
-<span data-ttu-id="9b62b-104">可為 null (可以有 null 值的 Jet 結構介面) 。</span><span class="sxs-lookup"><span data-stu-id="9b62b-104">Interface for Jet structures that are nullable (can have null values).</span></span>
+<span data-ttu-id="01218-104">可為 null (可以有 null 值的 Jet 結構介面) 。</span><span class="sxs-lookup"><span data-stu-id="01218-104">Interface for Jet structures that are nullable (can have null values).</span></span>
 
-<span data-ttu-id="9b62b-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="9b62b-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="9b62b-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="9b62b-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="01218-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="01218-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="01218-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="01218-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9b62b-107">語法</span><span class="sxs-lookup"><span data-stu-id="9b62b-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="01218-107">語法</span><span class="sxs-lookup"><span data-stu-id="01218-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -51,10 +51,10 @@ Dim instance As INullableJetStruct
 public interface INullableJetStruct
 ```
 
-## <a name="see-also"></a><span data-ttu-id="9b62b-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9b62b-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="01218-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="01218-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="9b62b-109">參考</span><span class="sxs-lookup"><span data-stu-id="9b62b-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="01218-109">參考</span><span class="sxs-lookup"><span data-stu-id="01218-109">Reference</span></span>
 
-[<span data-ttu-id="9b62b-110">INullableJetStruct 成員</span><span class="sxs-lookup"><span data-stu-id="9b62b-110">INullableJetStruct members</span></span>](./inullablejetstruct-members.md)
+[<span data-ttu-id="01218-110">INullableJetStruct 成員</span><span class="sxs-lookup"><span data-stu-id="01218-110">INullableJetStruct members</span></span>](./inullablejetstruct-members.md)
 
-[<span data-ttu-id="9b62b-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="9b62b-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="01218-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="01218-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

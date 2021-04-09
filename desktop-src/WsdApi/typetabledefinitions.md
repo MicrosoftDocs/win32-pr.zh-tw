@@ -11,46 +11,46 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691507"
 ---
-# <a name="typetabledefinitions-element"></a><span data-ttu-id="ba065-103">typeTableDefinitions 元素</span><span class="sxs-lookup"><span data-stu-id="ba065-103">typeTableDefinitions element</span></span>
+# <a name="typetabledefinitions-element"></a><span data-ttu-id="4e4ec-103">typeTableDefinitions 元素</span><span class="sxs-lookup"><span data-stu-id="4e4ec-103">typeTableDefinitions element</span></span>
 
-<span data-ttu-id="ba065-104">針對已知類型產生 XML 架構資料表的 C 常數。</span><span class="sxs-lookup"><span data-stu-id="ba065-104">Generates C constants for XML schema tables for known types.</span></span>
+<span data-ttu-id="4e4ec-104">針對已知類型產生 XML 架構資料表的 C 常數。</span><span class="sxs-lookup"><span data-stu-id="4e4ec-104">Generates C constants for XML schema tables for known types.</span></span>
 
-## <a name="usage"></a><span data-ttu-id="ba065-105">使用方式</span><span class="sxs-lookup"><span data-stu-id="ba065-105">Usage</span></span>
+## <a name="usage"></a><span data-ttu-id="4e4ec-105">使用方式</span><span class="sxs-lookup"><span data-stu-id="4e4ec-105">Usage</span></span>
 
 ``` syntax
 <typeTableDefinitions/>
 ```
 
-## <a name="attributes"></a><span data-ttu-id="ba065-106">屬性</span><span class="sxs-lookup"><span data-stu-id="ba065-106">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="4e4ec-106">屬性</span><span class="sxs-lookup"><span data-stu-id="4e4ec-106">Attributes</span></span>
 
-<span data-ttu-id="ba065-107">沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="ba065-107">There are no attributes.</span></span>
+<span data-ttu-id="4e4ec-107">沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="4e4ec-107">There are no attributes.</span></span>
 
-## <a name="child-elements"></a><span data-ttu-id="ba065-108">子元素</span><span class="sxs-lookup"><span data-stu-id="ba065-108">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="4e4ec-108">子元素</span><span class="sxs-lookup"><span data-stu-id="4e4ec-108">Child elements</span></span>
 
-<span data-ttu-id="ba065-109">沒有任何子項目。</span><span class="sxs-lookup"><span data-stu-id="ba065-109">There are no child elements.</span></span>
+<span data-ttu-id="4e4ec-109">沒有任何子項目。</span><span class="sxs-lookup"><span data-stu-id="4e4ec-109">There are no child elements.</span></span>
 
-## <a name="parent-elements"></a><span data-ttu-id="ba065-110">父元素</span><span class="sxs-lookup"><span data-stu-id="ba065-110">Parent elements</span></span>
+## <a name="parent-elements"></a><span data-ttu-id="4e4ec-110">父元素</span><span class="sxs-lookup"><span data-stu-id="4e4ec-110">Parent elements</span></span>
 
 
 
-| <span data-ttu-id="ba065-111">元素</span><span class="sxs-lookup"><span data-stu-id="ba065-111">Element</span></span>                         | <span data-ttu-id="ba065-112">描述</span><span class="sxs-lookup"><span data-stu-id="ba065-112">Description</span></span>                                                    |
+| <span data-ttu-id="4e4ec-111">元素</span><span class="sxs-lookup"><span data-stu-id="4e4ec-111">Element</span></span>                         | <span data-ttu-id="4e4ec-112">描述</span><span class="sxs-lookup"><span data-stu-id="4e4ec-112">Description</span></span>                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [<span data-ttu-id="ba065-113">**檔**</span><span class="sxs-lookup"><span data-stu-id="ba065-113">**file**</span></span>](file.md)<br/> | <span data-ttu-id="ba065-114">從程式碼產生器輸出檔案。</span><span class="sxs-lookup"><span data-stu-id="ba065-114">Outputs a file from the code generator.</span></span><br/> <br/> |
+| [<span data-ttu-id="4e4ec-113">**檔**</span><span class="sxs-lookup"><span data-stu-id="4e4ec-113">**file**</span></span>](file.md)<br/> | <span data-ttu-id="4e4ec-114">從程式碼產生器輸出檔案。</span><span class="sxs-lookup"><span data-stu-id="4e4ec-114">Outputs a file from the code generator.</span></span><br/> <br/> |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="ba065-115">備註</span><span class="sxs-lookup"><span data-stu-id="ba065-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4e4ec-115">備註</span><span class="sxs-lookup"><span data-stu-id="4e4ec-115">Remarks</span></span>
 
-<span data-ttu-id="ba065-116">此元素通常用於 C 來源檔案，以提供 [**typeTableDeclarations**](typetabledeclarations.md)所宣告的 XML 架構資料表。</span><span class="sxs-lookup"><span data-stu-id="ba065-116">This element is generally used in C source files to provide the XML schema tables declared by [**typeTableDeclarations**](typetabledeclarations.md).</span></span>
+<span data-ttu-id="4e4ec-116">此元素通常用於 C 來源檔案，以提供 [**typeTableDeclarations**](typetabledeclarations.md)所宣告的 XML 架構資料表。</span><span class="sxs-lookup"><span data-stu-id="4e4ec-116">This element is generally used in C source files to provide the XML schema tables declared by [**typeTableDeclarations**](typetabledeclarations.md).</span></span>
 
-## <a name="element-information"></a><span data-ttu-id="ba065-117">項目資訊</span><span class="sxs-lookup"><span data-stu-id="ba065-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="4e4ec-117">項目資訊</span><span class="sxs-lookup"><span data-stu-id="4e4ec-117">Element information</span></span>
 
 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| <span data-ttu-id="ba065-118">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="ba065-118">Minimum supported system</span></span><br/> | <span data-ttu-id="ba065-119">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="ba065-119">Windows Vista</span></span> |
-| <span data-ttu-id="ba065-120">可以是空的</span><span class="sxs-lookup"><span data-stu-id="ba065-120">Can be empty</span></span>                        | <span data-ttu-id="ba065-121">是</span><span class="sxs-lookup"><span data-stu-id="ba065-121">Yes</span></span>           |
+| <span data-ttu-id="4e4ec-118">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="4e4ec-118">Minimum supported system</span></span><br/> | <span data-ttu-id="4e4ec-119">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="4e4ec-119">Windows Vista</span></span> |
+| <span data-ttu-id="4e4ec-120">可以是空的</span><span class="sxs-lookup"><span data-stu-id="4e4ec-120">Can be empty</span></span>                        | <span data-ttu-id="4e4ec-121">是</span><span class="sxs-lookup"><span data-stu-id="4e4ec-121">Yes</span></span>           |
 
 
 
