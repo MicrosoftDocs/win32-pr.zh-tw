@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674263"
 ---
-# <a name="routing-table-manager-version-1"></a><span data-ttu-id="63f62-103">路由表管理員第1版</span><span class="sxs-lookup"><span data-stu-id="63f62-103">Routing Table Manager Version 1</span></span>
+# <a name="routing-table-manager-version-1"></a><span data-ttu-id="67a60-103">路由表管理員第1版</span><span class="sxs-lookup"><span data-stu-id="67a60-103">Routing Table Manager Version 1</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="63f62-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="63f62-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="67a60-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="67a60-104">In this section</span></span>
 
--   [<span data-ttu-id="63f62-105">關於路由表管理員第1版</span><span class="sxs-lookup"><span data-stu-id="63f62-105">About Routing Table Manager Version 1</span></span>](about-routing-table-manager-version-1.md)
--   [<span data-ttu-id="63f62-106">路由表管理員第1版參考</span><span class="sxs-lookup"><span data-stu-id="63f62-106">Routing Table Manager Version 1 Reference</span></span>](routing-table-manager-version-1-reference.md)
+-   [<span data-ttu-id="67a60-105">關於路由表管理員第1版</span><span class="sxs-lookup"><span data-stu-id="67a60-105">About Routing Table Manager Version 1</span></span>](about-routing-table-manager-version-1.md)
+-   [<span data-ttu-id="67a60-106">路由表管理員第1版參考</span><span class="sxs-lookup"><span data-stu-id="67a60-106">Routing Table Manager Version 1 Reference</span></span>](routing-table-manager-version-1-reference.md)
 
  
 

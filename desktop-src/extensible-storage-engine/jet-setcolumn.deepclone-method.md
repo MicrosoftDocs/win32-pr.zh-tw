@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847832"
 ---
-# <a name="jet_setcolumndeepclone-method"></a><span data-ttu-id="df8a6-103">JET_SETCOLUMN。DeepClone 方法</span><span class="sxs-lookup"><span data-stu-id="df8a6-103">JET_SETCOLUMN.DeepClone method</span></span>
+# <a name="jet_setcolumndeepclone-method"></a><span data-ttu-id="e9d05-103">JET_SETCOLUMN。DeepClone 方法</span><span class="sxs-lookup"><span data-stu-id="e9d05-103">JET_SETCOLUMN.DeepClone method</span></span>
 
-<span data-ttu-id="df8a6-104">傳回物件的深層複本。</span><span class="sxs-lookup"><span data-stu-id="df8a6-104">Returns a deep copy of the object.</span></span>
+<span data-ttu-id="e9d05-104">傳回物件的深層複本。</span><span class="sxs-lookup"><span data-stu-id="e9d05-104">Returns a deep copy of the object.</span></span>
 
-<span data-ttu-id="df8a6-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="df8a6-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="df8a6-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="df8a6-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="e9d05-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e9d05-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="e9d05-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e9d05-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="df8a6-107">語法</span><span class="sxs-lookup"><span data-stu-id="df8a6-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e9d05-107">語法</span><span class="sxs-lookup"><span data-stu-id="e9d05-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -54,21 +54,21 @@ returnValue = instance.DeepClone()
 public JET_SETCOLUMN DeepClone()
 ```
 
-#### <a name="return-value"></a><span data-ttu-id="df8a6-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="df8a6-108">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="e9d05-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="e9d05-108">Return value</span></span>
 
-<span data-ttu-id="df8a6-109">類型： [Microsoft.Isam.Esent.Interop.JET_SETCOLUMN](./jet-setcolumn-class.md)</span><span class="sxs-lookup"><span data-stu-id="df8a6-109">Type: [Microsoft.Isam.Esent.Interop.JET_SETCOLUMN](./jet-setcolumn-class.md)</span></span>  
-<span data-ttu-id="df8a6-110">物件的深層複本。</span><span class="sxs-lookup"><span data-stu-id="df8a6-110">A deep copy of the object.</span></span>  
+<span data-ttu-id="e9d05-109">類型： [Microsoft.Isam.Esent.Interop.JET_SETCOLUMN](./jet-setcolumn-class.md)</span><span class="sxs-lookup"><span data-stu-id="e9d05-109">Type: [Microsoft.Isam.Esent.Interop.JET_SETCOLUMN](./jet-setcolumn-class.md)</span></span>  
+<span data-ttu-id="e9d05-110">物件的深層複本。</span><span class="sxs-lookup"><span data-stu-id="e9d05-110">A deep copy of the object.</span></span>  
 
-#### <a name="implements"></a><span data-ttu-id="df8a6-111">實作</span><span class="sxs-lookup"><span data-stu-id="df8a6-111">Implements</span></span>
+#### <a name="implements"></a><span data-ttu-id="e9d05-111">實作</span><span class="sxs-lookup"><span data-stu-id="e9d05-111">Implements</span></span>
 
-[<span data-ttu-id="df8a6-112">IDeepCloneable \<T\> 。DeepClone () </span><span class="sxs-lookup"><span data-stu-id="df8a6-112">IDeepCloneable\<T\>.DeepClone()</span></span>](./ideepcloneable-t-.deepclone-method.md)  
+[<span data-ttu-id="e9d05-112">IDeepCloneable \<T\> 。DeepClone () </span><span class="sxs-lookup"><span data-stu-id="e9d05-112">IDeepCloneable\<T\>.DeepClone()</span></span>](./ideepcloneable-t-.deepclone-method.md)  
 
-## <a name="see-also"></a><span data-ttu-id="df8a6-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="df8a6-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e9d05-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e9d05-113">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="df8a6-114">參考</span><span class="sxs-lookup"><span data-stu-id="df8a6-114">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="e9d05-114">參考</span><span class="sxs-lookup"><span data-stu-id="e9d05-114">Reference</span></span>
 
-[<span data-ttu-id="df8a6-115">JET_SETCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="df8a6-115">JET_SETCOLUMN class</span></span>](./jet-setcolumn-class.md)
+[<span data-ttu-id="e9d05-115">JET_SETCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="e9d05-115">JET_SETCOLUMN class</span></span>](./jet-setcolumn-class.md)
 
-[<span data-ttu-id="df8a6-116">JET_SETCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="df8a6-116">JET_SETCOLUMN members</span></span>](./jet-setcolumn-members.md)
+[<span data-ttu-id="e9d05-116">JET_SETCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="e9d05-116">JET_SETCOLUMN members</span></span>](./jet-setcolumn-members.md)
 
-[<span data-ttu-id="df8a6-117">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="df8a6-117">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="e9d05-117">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="e9d05-117">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

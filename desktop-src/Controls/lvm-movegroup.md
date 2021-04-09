@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103932634"
 ---
-# <a name="lvm_movegroup-message"></a><span data-ttu-id="253b7-104">LVM \_ MOVEGROUP 訊息</span><span class="sxs-lookup"><span data-stu-id="253b7-104">LVM\_MOVEGROUP message</span></span>
+# <a name="lvm_movegroup-message"></a><span data-ttu-id="ca959-104">LVM \_ MOVEGROUP 訊息</span><span class="sxs-lookup"><span data-stu-id="ca959-104">LVM\_MOVEGROUP message</span></span>
 
-<span data-ttu-id="253b7-105">此訊息不會執行。</span><span class="sxs-lookup"><span data-stu-id="253b7-105">This message is not implemented.</span></span>
+<span data-ttu-id="ca959-105">此訊息不會執行。</span><span class="sxs-lookup"><span data-stu-id="ca959-105">This message is not implemented.</span></span>
 
  
 

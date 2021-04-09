@@ -15,11 +15,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932514"
 ---
-# <a name="navigatexmlexample"></a><span data-ttu-id="a9613-106">NavigateXmlExample</span><span class="sxs-lookup"><span data-stu-id="a9613-106">NavigateXmlExample</span></span>
+# <a name="navigatexmlexample"></a><span data-ttu-id="b3de5-106">NavigateXmlExample</span><span class="sxs-lookup"><span data-stu-id="b3de5-106">NavigateXmlExample</span></span>
 
-<span data-ttu-id="a9613-107">此範例會將 XML 寫入至 XML 緩衝區，然後將它讀回。</span><span class="sxs-lookup"><span data-stu-id="a9613-107">This example writes XML to an XML buffer, and then reads it back out.</span></span>
+<span data-ttu-id="b3de5-107">此範例會將 XML 寫入至 XML 緩衝區，然後將它讀回。</span><span class="sxs-lookup"><span data-stu-id="b3de5-107">This example writes XML to an XML buffer, and then reads it back out.</span></span>
 
-## <a name="navigatexmlcpp"></a><span data-ttu-id="a9613-108">NavigateXml .cpp</span><span class="sxs-lookup"><span data-stu-id="a9613-108">NavigateXml.cpp</span></span>
+## <a name="navigatexmlcpp"></a><span data-ttu-id="b3de5-108">NavigateXml .cpp</span><span class="sxs-lookup"><span data-stu-id="b3de5-108">NavigateXml.cpp</span></span>
 
 
 ```C++

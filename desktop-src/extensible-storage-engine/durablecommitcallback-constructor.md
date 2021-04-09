@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694916"
 ---
-# <a name="durablecommitcallback-constructor"></a><span data-ttu-id="a7f0e-103">DurableCommitCallback 函式</span><span class="sxs-lookup"><span data-stu-id="a7f0e-103">DurableCommitCallback constructor</span></span>
+# <a name="durablecommitcallback-constructor"></a><span data-ttu-id="2ac13-103">DurableCommitCallback 函式</span><span class="sxs-lookup"><span data-stu-id="2ac13-103">DurableCommitCallback constructor</span></span>
 
-<span data-ttu-id="a7f0e-104">初始化 [DurableCommitCallback](./durablecommitcallback-class.md) 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="a7f0e-104">Initializes a new instance of the [DurableCommitCallback](./durablecommitcallback-class.md) class.</span></span>
+<span data-ttu-id="2ac13-104">初始化 [DurableCommitCallback](./durablecommitcallback-class.md) 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="2ac13-104">Initializes a new instance of the [DurableCommitCallback](./durablecommitcallback-class.md) class.</span></span>
 
-<span data-ttu-id="a7f0e-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="a7f0e-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="a7f0e-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="a7f0e-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="2ac13-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="2ac13-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="2ac13-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="2ac13-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a7f0e-107">語法</span><span class="sxs-lookup"><span data-stu-id="a7f0e-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2ac13-107">語法</span><span class="sxs-lookup"><span data-stu-id="2ac13-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -61,26 +61,26 @@ public DurableCommitCallback(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="a7f0e-108">參數</span><span class="sxs-lookup"><span data-stu-id="a7f0e-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="2ac13-108">參數</span><span class="sxs-lookup"><span data-stu-id="2ac13-108">Parameters</span></span>
 
-  - <span data-ttu-id="a7f0e-109">instance</span><span class="sxs-lookup"><span data-stu-id="a7f0e-109">instance</span></span>  
-    <span data-ttu-id="a7f0e-110">類型： [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span><span class="sxs-lookup"><span data-stu-id="a7f0e-110">Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span></span>  
+  - <span data-ttu-id="2ac13-109">instance</span><span class="sxs-lookup"><span data-stu-id="2ac13-109">instance</span></span>  
+    <span data-ttu-id="2ac13-110">類型： [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span><span class="sxs-lookup"><span data-stu-id="2ac13-110">Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span></span>  
     
-    <span data-ttu-id="a7f0e-111">要與回呼產生關聯的實例。</span><span class="sxs-lookup"><span data-stu-id="a7f0e-111">The instance with which to associate the callback.</span></span>
+    <span data-ttu-id="2ac13-111">要與回呼產生關聯的實例。</span><span class="sxs-lookup"><span data-stu-id="2ac13-111">The instance with which to associate the callback.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="a7f0e-112">wrappedCallback</span><span class="sxs-lookup"><span data-stu-id="a7f0e-112">wrappedCallback</span></span>  
-    <span data-ttu-id="a7f0e-113">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_PFNDURABLECOMMITCALLBACK](./jet-pfndurablecommitcallback-delegate.md)</span><span class="sxs-lookup"><span data-stu-id="a7f0e-113">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_PFNDURABLECOMMITCALLBACK](./jet-pfndurablecommitcallback-delegate.md)</span></span>  
+  - <span data-ttu-id="2ac13-112">wrappedCallback</span><span class="sxs-lookup"><span data-stu-id="2ac13-112">wrappedCallback</span></span>  
+    <span data-ttu-id="2ac13-113">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_PFNDURABLECOMMITCALLBACK](./jet-pfndurablecommitcallback-delegate.md)</span><span class="sxs-lookup"><span data-stu-id="2ac13-113">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_PFNDURABLECOMMITCALLBACK](./jet-pfndurablecommitcallback-delegate.md)</span></span>  
     
-    <span data-ttu-id="a7f0e-114">要呼叫的 managed 程式碼回呼。</span><span class="sxs-lookup"><span data-stu-id="a7f0e-114">The managed code callback to call.</span></span>
+    <span data-ttu-id="2ac13-114">要呼叫的 managed 程式碼回呼。</span><span class="sxs-lookup"><span data-stu-id="2ac13-114">The managed code callback to call.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a7f0e-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a7f0e-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2ac13-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2ac13-115">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="a7f0e-116">參考</span><span class="sxs-lookup"><span data-stu-id="a7f0e-116">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="2ac13-116">參考</span><span class="sxs-lookup"><span data-stu-id="2ac13-116">Reference</span></span>
 
-[<span data-ttu-id="a7f0e-117">DurableCommitCallback 類別</span><span class="sxs-lookup"><span data-stu-id="a7f0e-117">DurableCommitCallback class</span></span>](./durablecommitcallback-class.md)
+[<span data-ttu-id="2ac13-117">DurableCommitCallback 類別</span><span class="sxs-lookup"><span data-stu-id="2ac13-117">DurableCommitCallback class</span></span>](./durablecommitcallback-class.md)
 
-[<span data-ttu-id="a7f0e-118">DurableCommitCallback 成員</span><span class="sxs-lookup"><span data-stu-id="a7f0e-118">DurableCommitCallback members</span></span>](./durablecommitcallback-members.md)
+[<span data-ttu-id="2ac13-118">DurableCommitCallback 成員</span><span class="sxs-lookup"><span data-stu-id="2ac13-118">DurableCommitCallback members</span></span>](./durablecommitcallback-members.md)
 
-[<span data-ttu-id="a7f0e-119">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="a7f0e-119">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="2ac13-119">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="2ac13-119">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

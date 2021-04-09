@@ -21,13 +21,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847251"
 ---
-# <a name="changesecuritypermissionsex-method-of-the-win32_codecfile-class"></a><span data-ttu-id="417ac-103">Win32 CodecFile 類別的 ChangeSecurityPermissionsEx 方法 \_</span><span class="sxs-lookup"><span data-stu-id="417ac-103">ChangeSecurityPermissionsEx method of the Win32\_CodecFile class</span></span>
+# <a name="changesecuritypermissionsex-method-of-the-win32_codecfile-class"></a><span data-ttu-id="8eeba-103">Win32 CodecFile 類別的 ChangeSecurityPermissionsEx 方法 \_</span><span class="sxs-lookup"><span data-stu-id="8eeba-103">ChangeSecurityPermissionsEx method of the Win32\_CodecFile class</span></span>
 
-<span data-ttu-id="417ac-104">**ChangeSecurityPermissionsEx** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)方法會變更物件路徑中所指定之編解碼器檔案的安全性許可權， (這個方法是 [**ChangeSecurityPermissions**](changesecuritypermissions-method-in-class-win32-directory.md)方法的擴充版本) 。</span><span class="sxs-lookup"><span data-stu-id="417ac-104">The **ChangeSecurityPermissionsEx** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method changes the security permissions for the codec file specified in the object path (this method is an extended version of the [**ChangeSecurityPermissions**](changesecuritypermissions-method-in-class-win32-directory.md) method).</span></span> <span data-ttu-id="417ac-105">如果邏輯檔案是目錄，則這個方法是遞迴的，並且會變更目錄包含的所有檔案和子目錄的安全性許可權。</span><span class="sxs-lookup"><span data-stu-id="417ac-105">If the logical file is a directory, then this method is recursive, and changes the security permissions of all the files and subdirectories that the directory contains.</span></span>
+<span data-ttu-id="8eeba-104">**ChangeSecurityPermissionsEx** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)方法會變更物件路徑中所指定之編解碼器檔案的安全性許可權， (這個方法是 [**ChangeSecurityPermissions**](changesecuritypermissions-method-in-class-win32-directory.md)方法的擴充版本) 。</span><span class="sxs-lookup"><span data-stu-id="8eeba-104">The **ChangeSecurityPermissionsEx** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method changes the security permissions for the codec file specified in the object path (this method is an extended version of the [**ChangeSecurityPermissions**](changesecuritypermissions-method-in-class-win32-directory.md) method).</span></span> <span data-ttu-id="8eeba-105">如果邏輯檔案是目錄，則這個方法是遞迴的，並且會變更目錄包含的所有檔案和子目錄的安全性許可權。</span><span class="sxs-lookup"><span data-stu-id="8eeba-105">If the logical file is a directory, then this method is recursive, and changes the security permissions of all the files and subdirectories that the directory contains.</span></span>
 
-<span data-ttu-id="417ac-106">本主題使用受控物件格式 (MOF) 語法。</span><span class="sxs-lookup"><span data-stu-id="417ac-106">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="417ac-107">如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。</span><span class="sxs-lookup"><span data-stu-id="417ac-107">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
+<span data-ttu-id="8eeba-106">本主題使用受控物件格式 (MOF) 語法。</span><span class="sxs-lookup"><span data-stu-id="8eeba-106">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="8eeba-107">如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。</span><span class="sxs-lookup"><span data-stu-id="8eeba-107">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="417ac-108">語法</span><span class="sxs-lookup"><span data-stu-id="417ac-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8eeba-108">語法</span><span class="sxs-lookup"><span data-stu-id="8eeba-108">Syntax</span></span>
 
 
 ```mof
@@ -42,25 +42,25 @@ uint32 ChangeSecurityPermissionsEx(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="417ac-109">參數</span><span class="sxs-lookup"><span data-stu-id="417ac-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8eeba-109">參數</span><span class="sxs-lookup"><span data-stu-id="8eeba-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="417ac-110">*SecurityDescriptor* \[在\]</span><span class="sxs-lookup"><span data-stu-id="417ac-110">*SecurityDescriptor* \[in\]</span></span>
+<span data-ttu-id="8eeba-110">*SecurityDescriptor* \[在\]</span><span class="sxs-lookup"><span data-stu-id="8eeba-110">*SecurityDescriptor* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-111">解析為 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)實例的運算式。</span><span class="sxs-lookup"><span data-stu-id="417ac-111">Expression that resolves to an instance of [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).</span></span> <span data-ttu-id="417ac-112">此描述元包含 [**Win32 \_ CodecFile**](win32-codecfile.md)實例的新安全性許可權。</span><span class="sxs-lookup"><span data-stu-id="417ac-112">This descriptor contains new security permissions for the instance of [**Win32\_CodecFile**](win32-codecfile.md).</span></span>
+<span data-ttu-id="8eeba-111">解析為 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)實例的運算式。</span><span class="sxs-lookup"><span data-stu-id="8eeba-111">Expression that resolves to an instance of [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).</span></span> <span data-ttu-id="8eeba-112">此描述元包含 [**Win32 \_ CodecFile**](win32-codecfile.md)實例的新安全性許可權。</span><span class="sxs-lookup"><span data-stu-id="8eeba-112">This descriptor contains new security permissions for the instance of [**Win32\_CodecFile**](win32-codecfile.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-113">*選項* \[在\]</span><span class="sxs-lookup"><span data-stu-id="417ac-113">*Option* \[in\]</span></span>
+<span data-ttu-id="8eeba-113">*選項* \[在\]</span><span class="sxs-lookup"><span data-stu-id="8eeba-113">*Option* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-114">要修改的實際安全性許可權。</span><span class="sxs-lookup"><span data-stu-id="417ac-114">Actual security privilege to be modified.</span></span> <span data-ttu-id="417ac-115">例如，若要變更擁有者和任意存取控制清單 (DACL) 安全性，請使用下列程式：</span><span class="sxs-lookup"><span data-stu-id="417ac-115">For example, to change the owner and discretionary access control list (DACL) security, use the following:</span></span>
+<span data-ttu-id="8eeba-114">要修改的實際安全性許可權。</span><span class="sxs-lookup"><span data-stu-id="8eeba-114">Actual security privilege to be modified.</span></span> <span data-ttu-id="8eeba-115">例如，若要變更擁有者和任意存取控制清單 (DACL) 安全性，請使用下列程式：</span><span class="sxs-lookup"><span data-stu-id="8eeba-115">For example, to change the owner and discretionary access control list (DACL) security, use the following:</span></span>
 
 `Option = 1 + 4`
 
-<span data-ttu-id="417ac-116">-或-</span><span class="sxs-lookup"><span data-stu-id="417ac-116">-or-</span></span>
+<span data-ttu-id="8eeba-116">-或-</span><span class="sxs-lookup"><span data-stu-id="8eeba-116">-or-</span></span>
 
 `Option = CHANGE_OWNER_SECURITY_INFORMATION | CHANGE_DACL_SECURITY_INFORMATION`
 
@@ -68,214 +68,214 @@ uint32 ChangeSecurityPermissionsEx(
 
 <span id="CHANGE_OWNER_SECURITY_INFORMATION"></span><span id="change_owner_security_information"></span>
 
-<span data-ttu-id="417ac-117"><span id="CHANGE_OWNER_SECURITY_INFORMATION"></span><span id="change_owner_security_information"></span>**變更 \_擁有者 \_ 安全性 \_ 資訊** (1 (0x1) ) </span><span class="sxs-lookup"><span data-stu-id="417ac-117"><span id="CHANGE_OWNER_SECURITY_INFORMATION"></span><span id="change_owner_security_information"></span>**CHANGE\_OWNER\_SECURITY\_INFORMATION** (1 (0x1))</span></span>
+<span data-ttu-id="8eeba-117"><span id="CHANGE_OWNER_SECURITY_INFORMATION"></span><span id="change_owner_security_information"></span>**變更 \_擁有者 \_ 安全性 \_ 資訊** (1 (0x1) ) </span><span class="sxs-lookup"><span data-stu-id="8eeba-117"><span id="CHANGE_OWNER_SECURITY_INFORMATION"></span><span id="change_owner_security_information"></span>**CHANGE\_OWNER\_SECURITY\_INFORMATION** (1 (0x1))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="417ac-118">變更邏輯檔案的擁有者。</span><span class="sxs-lookup"><span data-stu-id="417ac-118">Change the owner of the logical file.</span></span>
+<span data-ttu-id="8eeba-118">變更邏輯檔案的擁有者。</span><span class="sxs-lookup"><span data-stu-id="8eeba-118">Change the owner of the logical file.</span></span>
 
 </dd> <dt>
 
 <span id="CHANGE_GROUP_SECURITY_INFORMATION"></span><span id="change_group_security_information"></span>
 
-<span data-ttu-id="417ac-119"><span id="CHANGE_GROUP_SECURITY_INFORMATION"></span><span id="change_group_security_information"></span>**變更 \_群組 \_ 安全性 \_ 資訊** (2 (0x2) ) </span><span class="sxs-lookup"><span data-stu-id="417ac-119"><span id="CHANGE_GROUP_SECURITY_INFORMATION"></span><span id="change_group_security_information"></span>**CHANGE\_GROUP\_SECURITY\_INFORMATION** (2 (0x2))</span></span>
+<span data-ttu-id="8eeba-119"><span id="CHANGE_GROUP_SECURITY_INFORMATION"></span><span id="change_group_security_information"></span>**變更 \_群組 \_ 安全性 \_ 資訊** (2 (0x2) ) </span><span class="sxs-lookup"><span data-stu-id="8eeba-119"><span id="CHANGE_GROUP_SECURITY_INFORMATION"></span><span id="change_group_security_information"></span>**CHANGE\_GROUP\_SECURITY\_INFORMATION** (2 (0x2))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="417ac-120">變更邏輯檔案的群組。</span><span class="sxs-lookup"><span data-stu-id="417ac-120">Change the group of the logical file.</span></span>
+<span data-ttu-id="8eeba-120">變更邏輯檔案的群組。</span><span class="sxs-lookup"><span data-stu-id="8eeba-120">Change the group of the logical file.</span></span>
 
 </dd> <dt>
 
 <span id="CHANGE_DACL_SECURITY_INFORMATION"></span><span id="change_dacl_security_information"></span>
 
-<span data-ttu-id="417ac-121"><span id="CHANGE_DACL_SECURITY_INFORMATION"></span><span id="change_dacl_security_information"></span>**變更 \_DACL \_ 安全性 \_ 資訊** (4 (0x4) ) </span><span class="sxs-lookup"><span data-stu-id="417ac-121"><span id="CHANGE_DACL_SECURITY_INFORMATION"></span><span id="change_dacl_security_information"></span>**CHANGE\_DACL\_SECURITY\_INFORMATION** (4 (0x4))</span></span>
+<span data-ttu-id="8eeba-121"><span id="CHANGE_DACL_SECURITY_INFORMATION"></span><span id="change_dacl_security_information"></span>**變更 \_DACL \_ 安全性 \_ 資訊** (4 (0x4) ) </span><span class="sxs-lookup"><span data-stu-id="8eeba-121"><span id="CHANGE_DACL_SECURITY_INFORMATION"></span><span id="change_dacl_security_information"></span>**CHANGE\_DACL\_SECURITY\_INFORMATION** (4 (0x4))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="417ac-122">變更邏輯檔案 (DACL) 的任意存取控制清單。</span><span class="sxs-lookup"><span data-stu-id="417ac-122">Change the discretionary access control list (DACL) of the logical file.</span></span>
+<span data-ttu-id="8eeba-122">變更邏輯檔案 (DACL) 的任意存取控制清單。</span><span class="sxs-lookup"><span data-stu-id="8eeba-122">Change the discretionary access control list (DACL) of the logical file.</span></span>
 
 </dd> <dt>
 
 <span id="CHANGE_SACL_SECURITY_INFORMATION"></span><span id="change_sacl_security_information"></span>
 
-<span data-ttu-id="417ac-123"><span id="CHANGE_SACL_SECURITY_INFORMATION"></span><span id="change_sacl_security_information"></span>**變更 \_SACL \_ 安全性 \_ 資訊** (8 (0x8) ) </span><span class="sxs-lookup"><span data-stu-id="417ac-123"><span id="CHANGE_SACL_SECURITY_INFORMATION"></span><span id="change_sacl_security_information"></span>**CHANGE\_SACL\_SECURITY\_INFORMATION** (8 (0x8))</span></span>
+<span data-ttu-id="8eeba-123"><span id="CHANGE_SACL_SECURITY_INFORMATION"></span><span id="change_sacl_security_information"></span>**變更 \_SACL \_ 安全性 \_ 資訊** (8 (0x8) ) </span><span class="sxs-lookup"><span data-stu-id="8eeba-123"><span id="CHANGE_SACL_SECURITY_INFORMATION"></span><span id="change_sacl_security_information"></span>**CHANGE\_SACL\_SECURITY\_INFORMATION** (8 (0x8))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="417ac-124">變更邏輯檔案 (SACL) 的系統存取控制清單。</span><span class="sxs-lookup"><span data-stu-id="417ac-124">Change the system access control list (SACL) of the logical file.</span></span>
+<span data-ttu-id="8eeba-124">變更邏輯檔案 (SACL) 的系統存取控制清單。</span><span class="sxs-lookup"><span data-stu-id="8eeba-124">Change the system access control list (SACL) of the logical file.</span></span>
 
 </dd> </dl> </dd> <dt>
 
-<span data-ttu-id="417ac-125">*StopFileName* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="417ac-125">*StopFileName* \[out\]</span></span>
+<span data-ttu-id="8eeba-125">*StopFileName* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="8eeba-125">*StopFileName* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-126">**ChangeSecurityPermissionsEx** 方法失敗之檔案或目錄的名稱。</span><span class="sxs-lookup"><span data-stu-id="417ac-126">Name of the file or directory where the **ChangeSecurityPermissionsEx** method failed.</span></span> <span data-ttu-id="417ac-127">當方法成功時，此參數為 null。</span><span class="sxs-lookup"><span data-stu-id="417ac-127">This parameter is null when the method succeeds.</span></span>
+<span data-ttu-id="8eeba-126">**ChangeSecurityPermissionsEx** 方法失敗之檔案或目錄的名稱。</span><span class="sxs-lookup"><span data-stu-id="8eeba-126">Name of the file or directory where the **ChangeSecurityPermissionsEx** method failed.</span></span> <span data-ttu-id="8eeba-127">當方法成功時，此參數為 null。</span><span class="sxs-lookup"><span data-stu-id="8eeba-127">This parameter is null when the method succeeds.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-128">*StartFileName* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="417ac-128">*StartFileName* \[in, optional\]</span></span>
+<span data-ttu-id="8eeba-128">*StartFileName* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="8eeba-128">*StartFileName* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-129">將子檔案或目錄命名為 **ChangeSecurityPermissionsEx** 的起點。</span><span class="sxs-lookup"><span data-stu-id="417ac-129">Names the child file or directory to use as a starting point for **ChangeSecurityPermissionsEx**.</span></span> <span data-ttu-id="417ac-130">一般而言， *StartFileName* 參數是 *StopFileName* 參數，可指定上一個方法呼叫發生錯誤的檔案或目錄。</span><span class="sxs-lookup"><span data-stu-id="417ac-130">Typically, the *StartFileName* parameter is the *StopFileName* parameter that specifies the file or directory where an error occurred from the previous method call.</span></span> <span data-ttu-id="417ac-131">如果這個參數是 null，則會在 [**ExecMethod**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod) 呼叫中指定的檔案或目錄上執行作業。</span><span class="sxs-lookup"><span data-stu-id="417ac-131">If this parameter is null, the operation is performed on the file or directory specified in the [**ExecMethod**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod) call.</span></span>
+<span data-ttu-id="8eeba-129">將子檔案或目錄命名為 **ChangeSecurityPermissionsEx** 的起點。</span><span class="sxs-lookup"><span data-stu-id="8eeba-129">Names the child file or directory to use as a starting point for **ChangeSecurityPermissionsEx**.</span></span> <span data-ttu-id="8eeba-130">一般而言， *StartFileName* 參數是 *StopFileName* 參數，可指定上一個方法呼叫發生錯誤的檔案或目錄。</span><span class="sxs-lookup"><span data-stu-id="8eeba-130">Typically, the *StartFileName* parameter is the *StopFileName* parameter that specifies the file or directory where an error occurred from the previous method call.</span></span> <span data-ttu-id="8eeba-131">如果這個參數是 null，則會在 [**ExecMethod**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod) 呼叫中指定的檔案或目錄上執行作業。</span><span class="sxs-lookup"><span data-stu-id="8eeba-131">If this parameter is null, the operation is performed on the file or directory specified in the [**ExecMethod**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod) call.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-132">*遞迴* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="417ac-132">*Recursive* \[in, optional\]</span></span>
+<span data-ttu-id="8eeba-132">*遞迴* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="8eeba-132">*Recursive* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-133">若 **為 true**，則會將擁有權的變更以遞迴方式套用至 [**CIM \_ LogicalFile**](cim-logicalfile.md) 實例指定之目錄中的檔案和目錄。</span><span class="sxs-lookup"><span data-stu-id="417ac-133">If **true**, the changes of ownership are applied recursively to files and directories in the directory that the [**CIM\_LogicalFile**](cim-logicalfile.md) instance specifies.</span></span> <span data-ttu-id="417ac-134">若為檔案實例，則會忽略 *遞迴* 輸入參數。</span><span class="sxs-lookup"><span data-stu-id="417ac-134">For file instances, the *Recursive* input parameter is ignored.</span></span>
+<span data-ttu-id="8eeba-133">若 **為 true**，則會將擁有權的變更以遞迴方式套用至 [**CIM \_ LogicalFile**](cim-logicalfile.md) 實例指定之目錄中的檔案和目錄。</span><span class="sxs-lookup"><span data-stu-id="8eeba-133">If **true**, the changes of ownership are applied recursively to files and directories in the directory that the [**CIM\_LogicalFile**](cim-logicalfile.md) instance specifies.</span></span> <span data-ttu-id="8eeba-134">若為檔案實例，則會忽略 *遞迴* 輸入參數。</span><span class="sxs-lookup"><span data-stu-id="8eeba-134">For file instances, the *Recursive* input parameter is ignored.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="417ac-135">傳回值</span><span class="sxs-lookup"><span data-stu-id="417ac-135">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8eeba-135">傳回值</span><span class="sxs-lookup"><span data-stu-id="8eeba-135">Return value</span></span>
 
-<span data-ttu-id="417ac-136">傳回值 0 (零) 如果許可權變更，則傳回不同的數位來表示錯誤。</span><span class="sxs-lookup"><span data-stu-id="417ac-136">Returns an value of 0 (zero) if the permissions are changed, and a different number to indicate an error.</span></span>
+<span data-ttu-id="8eeba-136">傳回值 0 (零) 如果許可權變更，則傳回不同的數位來表示錯誤。</span><span class="sxs-lookup"><span data-stu-id="8eeba-136">Returns an value of 0 (zero) if the permissions are changed, and a different number to indicate an error.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="417ac-137">「成功」</span><span class="sxs-lookup"><span data-stu-id="417ac-137">**Success**</span></span>
+<span data-ttu-id="8eeba-137">「成功」</span><span class="sxs-lookup"><span data-stu-id="8eeba-137">**Success**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-138">0</span><span class="sxs-lookup"><span data-stu-id="417ac-138">0</span></span>
+<span data-ttu-id="8eeba-138">0</span><span class="sxs-lookup"><span data-stu-id="8eeba-138">0</span></span>
 
-<span data-ttu-id="417ac-139">要求成功。</span><span class="sxs-lookup"><span data-stu-id="417ac-139">The request is successful.</span></span>
+<span data-ttu-id="8eeba-139">要求成功。</span><span class="sxs-lookup"><span data-stu-id="8eeba-139">The request is successful.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-140">**拒絕存取**</span><span class="sxs-lookup"><span data-stu-id="417ac-140">**Access Denied**</span></span>
+<span data-ttu-id="8eeba-140">**拒絕存取**</span><span class="sxs-lookup"><span data-stu-id="8eeba-140">**Access Denied**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-141">2</span><span class="sxs-lookup"><span data-stu-id="417ac-141">2</span></span>
+<span data-ttu-id="8eeba-141">2</span><span class="sxs-lookup"><span data-stu-id="8eeba-141">2</span></span>
 
-<span data-ttu-id="417ac-142">存取遭到拒絕。</span><span class="sxs-lookup"><span data-stu-id="417ac-142">Access is denied.</span></span>
+<span data-ttu-id="8eeba-142">存取遭到拒絕。</span><span class="sxs-lookup"><span data-stu-id="8eeba-142">Access is denied.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-143">**未指定的失敗**</span><span class="sxs-lookup"><span data-stu-id="417ac-143">**Unspecified failure**</span></span>
+<span data-ttu-id="8eeba-143">**未指定的失敗**</span><span class="sxs-lookup"><span data-stu-id="8eeba-143">**Unspecified failure**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-144">8</span><span class="sxs-lookup"><span data-stu-id="417ac-144">8</span></span>
+<span data-ttu-id="8eeba-144">8</span><span class="sxs-lookup"><span data-stu-id="8eeba-144">8</span></span>
 
-<span data-ttu-id="417ac-145">發生未指定的失敗。</span><span class="sxs-lookup"><span data-stu-id="417ac-145">An unspecified failure occurred.</span></span>
+<span data-ttu-id="8eeba-145">發生未指定的失敗。</span><span class="sxs-lookup"><span data-stu-id="8eeba-145">An unspecified failure occurred.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-146">**不正確物件**</span><span class="sxs-lookup"><span data-stu-id="417ac-146">**Invalid object**</span></span>
+<span data-ttu-id="8eeba-146">**不正確物件**</span><span class="sxs-lookup"><span data-stu-id="8eeba-146">**Invalid object**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-147">9</span><span class="sxs-lookup"><span data-stu-id="417ac-147">9</span></span>
+<span data-ttu-id="8eeba-147">9</span><span class="sxs-lookup"><span data-stu-id="8eeba-147">9</span></span>
 
-<span data-ttu-id="417ac-148">指定的名稱無效。</span><span class="sxs-lookup"><span data-stu-id="417ac-148">The specified name is not valid.</span></span>
+<span data-ttu-id="8eeba-148">指定的名稱無效。</span><span class="sxs-lookup"><span data-stu-id="8eeba-148">The specified name is not valid.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-149">**物件已存在**</span><span class="sxs-lookup"><span data-stu-id="417ac-149">**Object already exists**</span></span>
+<span data-ttu-id="8eeba-149">**物件已存在**</span><span class="sxs-lookup"><span data-stu-id="8eeba-149">**Object already exists**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-150">10</span><span class="sxs-lookup"><span data-stu-id="417ac-150">10</span></span>
+<span data-ttu-id="8eeba-150">10</span><span class="sxs-lookup"><span data-stu-id="8eeba-150">10</span></span>
 
-<span data-ttu-id="417ac-151">指定的物件已存在。</span><span class="sxs-lookup"><span data-stu-id="417ac-151">The specified object already exists.</span></span>
+<span data-ttu-id="8eeba-151">指定的物件已存在。</span><span class="sxs-lookup"><span data-stu-id="8eeba-151">The specified object already exists.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-152">**檔案系統非 NTFS**</span><span class="sxs-lookup"><span data-stu-id="417ac-152">**File system not NTFS**</span></span>
+<span data-ttu-id="8eeba-152">**檔案系統非 NTFS**</span><span class="sxs-lookup"><span data-stu-id="8eeba-152">**File system not NTFS**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-153">11</span><span class="sxs-lookup"><span data-stu-id="417ac-153">11</span></span>
+<span data-ttu-id="8eeba-153">11</span><span class="sxs-lookup"><span data-stu-id="8eeba-153">11</span></span>
 
-<span data-ttu-id="417ac-154">檔案系統不是 NTFS 檔案系統。</span><span class="sxs-lookup"><span data-stu-id="417ac-154">The file system is not an NTFS file system.</span></span>
+<span data-ttu-id="8eeba-154">檔案系統不是 NTFS 檔案系統。</span><span class="sxs-lookup"><span data-stu-id="8eeba-154">The file system is not an NTFS file system.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-155">**平臺非 NT/Windows 2000**</span><span class="sxs-lookup"><span data-stu-id="417ac-155">**Platform not NT/Windows 2000**</span></span>
+<span data-ttu-id="8eeba-155">**平臺非 NT/Windows 2000**</span><span class="sxs-lookup"><span data-stu-id="8eeba-155">**Platform not NT/Windows 2000**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-156">12</span><span class="sxs-lookup"><span data-stu-id="417ac-156">12</span></span>
+<span data-ttu-id="8eeba-156">12</span><span class="sxs-lookup"><span data-stu-id="8eeba-156">12</span></span>
 
-<span data-ttu-id="417ac-157">平臺不 Windows NT 或 Windows 2000。</span><span class="sxs-lookup"><span data-stu-id="417ac-157">The platform is not Windows NT or Windows 2000.</span></span>
+<span data-ttu-id="8eeba-157">平臺不 Windows NT 或 Windows 2000。</span><span class="sxs-lookup"><span data-stu-id="8eeba-157">The platform is not Windows NT or Windows 2000.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-158">**磁片磁碟機不相同**</span><span class="sxs-lookup"><span data-stu-id="417ac-158">**Drive not the same**</span></span>
+<span data-ttu-id="8eeba-158">**磁片磁碟機不相同**</span><span class="sxs-lookup"><span data-stu-id="8eeba-158">**Drive not the same**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-159">13</span><span class="sxs-lookup"><span data-stu-id="417ac-159">13</span></span>
+<span data-ttu-id="8eeba-159">13</span><span class="sxs-lookup"><span data-stu-id="8eeba-159">13</span></span>
 
-<span data-ttu-id="417ac-160">磁片磁碟機不相同。</span><span class="sxs-lookup"><span data-stu-id="417ac-160">The drive is not the same.</span></span>
+<span data-ttu-id="8eeba-160">磁片磁碟機不相同。</span><span class="sxs-lookup"><span data-stu-id="8eeba-160">The drive is not the same.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-161">**目錄非空白**</span><span class="sxs-lookup"><span data-stu-id="417ac-161">**Directory not empty**</span></span>
+<span data-ttu-id="8eeba-161">**目錄非空白**</span><span class="sxs-lookup"><span data-stu-id="8eeba-161">**Directory not empty**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-162">14</span><span class="sxs-lookup"><span data-stu-id="417ac-162">14</span></span>
+<span data-ttu-id="8eeba-162">14</span><span class="sxs-lookup"><span data-stu-id="8eeba-162">14</span></span>
 
-<span data-ttu-id="417ac-163">目錄不是空的。</span><span class="sxs-lookup"><span data-stu-id="417ac-163">The directory is not empty.</span></span>
+<span data-ttu-id="8eeba-163">目錄不是空的。</span><span class="sxs-lookup"><span data-stu-id="8eeba-163">The directory is not empty.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-164">**共用違規**</span><span class="sxs-lookup"><span data-stu-id="417ac-164">**Sharing violation**</span></span>
+<span data-ttu-id="8eeba-164">**共用違規**</span><span class="sxs-lookup"><span data-stu-id="8eeba-164">**Sharing violation**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-165">15</span><span class="sxs-lookup"><span data-stu-id="417ac-165">15</span></span>
+<span data-ttu-id="8eeba-165">15</span><span class="sxs-lookup"><span data-stu-id="8eeba-165">15</span></span>
 
-<span data-ttu-id="417ac-166">發生共用違規。</span><span class="sxs-lookup"><span data-stu-id="417ac-166">There is a sharing violation.</span></span>
+<span data-ttu-id="8eeba-166">發生共用違規。</span><span class="sxs-lookup"><span data-stu-id="8eeba-166">There is a sharing violation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-167">**不正確開機檔案**</span><span class="sxs-lookup"><span data-stu-id="417ac-167">**Invalid start file**</span></span>
+<span data-ttu-id="8eeba-167">**不正確開機檔案**</span><span class="sxs-lookup"><span data-stu-id="8eeba-167">**Invalid start file**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-168">16</span><span class="sxs-lookup"><span data-stu-id="417ac-168">16</span></span>
+<span data-ttu-id="8eeba-168">16</span><span class="sxs-lookup"><span data-stu-id="8eeba-168">16</span></span>
 
-<span data-ttu-id="417ac-169">指定的起始檔無效。</span><span class="sxs-lookup"><span data-stu-id="417ac-169">The specified start file is not valid.</span></span>
+<span data-ttu-id="8eeba-169">指定的起始檔無效。</span><span class="sxs-lookup"><span data-stu-id="8eeba-169">The specified start file is not valid.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-170">**未保留許可權**</span><span class="sxs-lookup"><span data-stu-id="417ac-170">**Privilege not held**</span></span>
+<span data-ttu-id="8eeba-170">**未保留許可權**</span><span class="sxs-lookup"><span data-stu-id="8eeba-170">**Privilege not held**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-171">17</span><span class="sxs-lookup"><span data-stu-id="417ac-171">17</span></span>
+<span data-ttu-id="8eeba-171">17</span><span class="sxs-lookup"><span data-stu-id="8eeba-171">17</span></span>
 
-<span data-ttu-id="417ac-172">不會保留操作所需的許可權。</span><span class="sxs-lookup"><span data-stu-id="417ac-172">A privilege required for the operation is not held.</span></span>
+<span data-ttu-id="8eeba-172">不會保留操作所需的許可權。</span><span class="sxs-lookup"><span data-stu-id="8eeba-172">A privilege required for the operation is not held.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="417ac-173">**參數不正確**</span><span class="sxs-lookup"><span data-stu-id="417ac-173">**Invalid parameter**</span></span>
+<span data-ttu-id="8eeba-173">**參數不正確**</span><span class="sxs-lookup"><span data-stu-id="8eeba-173">**Invalid parameter**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="417ac-174">21</span><span class="sxs-lookup"><span data-stu-id="417ac-174">21</span></span>
+<span data-ttu-id="8eeba-174">21</span><span class="sxs-lookup"><span data-stu-id="8eeba-174">21</span></span>
 
-<span data-ttu-id="417ac-175">指定的參數無效。</span><span class="sxs-lookup"><span data-stu-id="417ac-175">A parameter specified is not valid.</span></span>
+<span data-ttu-id="8eeba-175">指定的參數無效。</span><span class="sxs-lookup"><span data-stu-id="8eeba-175">A parameter specified is not valid.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="417ac-176">規格需求</span><span class="sxs-lookup"><span data-stu-id="417ac-176">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8eeba-176">規格需求</span><span class="sxs-lookup"><span data-stu-id="8eeba-176">Requirements</span></span>
 
 
 
-| <span data-ttu-id="417ac-177">需求</span><span class="sxs-lookup"><span data-stu-id="417ac-177">Requirement</span></span> | <span data-ttu-id="417ac-178">值</span><span class="sxs-lookup"><span data-stu-id="417ac-178">Value</span></span> |
+| <span data-ttu-id="8eeba-177">需求</span><span class="sxs-lookup"><span data-stu-id="8eeba-177">Requirement</span></span> | <span data-ttu-id="8eeba-178">值</span><span class="sxs-lookup"><span data-stu-id="8eeba-178">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="417ac-179">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="417ac-179">Minimum supported client</span></span><br/> | <span data-ttu-id="417ac-180">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="417ac-180">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="417ac-181">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="417ac-181">Minimum supported server</span></span><br/> | <span data-ttu-id="417ac-182">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="417ac-182">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="417ac-183">命名空間</span><span class="sxs-lookup"><span data-stu-id="417ac-183">Namespace</span></span><br/>                | <span data-ttu-id="417ac-184">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="417ac-184">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="417ac-185">MOF</span><span class="sxs-lookup"><span data-stu-id="417ac-185">MOF</span></span><br/>                      | <dl> <span data-ttu-id="417ac-186"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="417ac-186"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="417ac-187">DLL</span><span class="sxs-lookup"><span data-stu-id="417ac-187">DLL</span></span><br/>                      | <dl> <span data-ttu-id="417ac-188"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="417ac-188"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="8eeba-179">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8eeba-179">Minimum supported client</span></span><br/> | <span data-ttu-id="8eeba-180">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="8eeba-180">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="8eeba-181">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8eeba-181">Minimum supported server</span></span><br/> | <span data-ttu-id="8eeba-182">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="8eeba-182">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="8eeba-183">命名空間</span><span class="sxs-lookup"><span data-stu-id="8eeba-183">Namespace</span></span><br/>                | <span data-ttu-id="8eeba-184">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="8eeba-184">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="8eeba-185">MOF</span><span class="sxs-lookup"><span data-stu-id="8eeba-185">MOF</span></span><br/>                      | <dl> <span data-ttu-id="8eeba-186"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="8eeba-186"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="8eeba-187">DLL</span><span class="sxs-lookup"><span data-stu-id="8eeba-187">DLL</span></span><br/>                      | <dl> <span data-ttu-id="8eeba-188"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="8eeba-188"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="417ac-189">另請參閱</span><span class="sxs-lookup"><span data-stu-id="417ac-189">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8eeba-189">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8eeba-189">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="417ac-190">[作業系統類別](/previous-versions//aa392727(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="417ac-190">[Operating System Classes](/previous-versions//aa392727(v=vs.85))</span></span>
+<span data-ttu-id="8eeba-190">[作業系統類別](/previous-versions//aa392727(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="8eeba-190">[Operating System Classes](/previous-versions//aa392727(v=vs.85))</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="417ac-191">**Win32 \_ CodecFile**</span><span class="sxs-lookup"><span data-stu-id="417ac-191">**Win32\_CodecFile**</span></span>](win32-codecfile.md)
+[<span data-ttu-id="8eeba-191">**Win32 \_ CodecFile**</span><span class="sxs-lookup"><span data-stu-id="8eeba-191">**Win32\_CodecFile**</span></span>](win32-codecfile.md)
 </dt> </dl>
 
  

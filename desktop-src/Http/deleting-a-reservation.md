@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932004"
 ---
-# <a name="deleting-a-reservation"></a><span data-ttu-id="1a420-104">刪除保留</span><span class="sxs-lookup"><span data-stu-id="1a420-104">Deleting a Reservation</span></span>
+# <a name="deleting-a-reservation"></a><span data-ttu-id="0052a-104">刪除保留</span><span class="sxs-lookup"><span data-stu-id="0052a-104">Deleting a Reservation</span></span>
 
-<span data-ttu-id="1a420-105">移除保留的程式會以與上面所述相同的存取檢查開始。</span><span class="sxs-lookup"><span data-stu-id="1a420-105">The process to remove a reservation starts with an access check that is identical to the one described above.</span></span> <span data-ttu-id="1a420-106">呼叫進程的使用者識別碼必須具有正在刪除之保留專案的 *父節點* 的存取權限。</span><span class="sxs-lookup"><span data-stu-id="1a420-106">The User ID of the calling process must have access rights to the *parent node* of the reservation entry being deleted.</span></span>
+<span data-ttu-id="0052a-105">移除保留的程式會以與上面所述相同的存取檢查開始。</span><span class="sxs-lookup"><span data-stu-id="0052a-105">The process to remove a reservation starts with an access check that is identical to the one described above.</span></span> <span data-ttu-id="0052a-106">呼叫進程的使用者識別碼必須具有正在刪除之保留專案的 *父節點* 的存取權限。</span><span class="sxs-lookup"><span data-stu-id="0052a-106">The User ID of the calling process must have access rights to the *parent node* of the reservation entry being deleted.</span></span>
 
  
 

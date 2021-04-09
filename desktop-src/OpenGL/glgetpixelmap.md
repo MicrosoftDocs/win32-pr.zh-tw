@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103670907"
 ---
-# <a name="glgetpixelmap-functions"></a><span data-ttu-id="24314-103">glGetPixelMap 函式</span><span class="sxs-lookup"><span data-stu-id="24314-103">glGetPixelMap Functions</span></span>
+# <a name="glgetpixelmap-functions"></a><span data-ttu-id="6fbfb-103">glGetPixelMap 函式</span><span class="sxs-lookup"><span data-stu-id="6fbfb-103">glGetPixelMap Functions</span></span>
 
-<span data-ttu-id="24314-104">這些函數會傳回指定的圖元對應：</span><span class="sxs-lookup"><span data-stu-id="24314-104">These functions return the specified pixel map:</span></span>
+<span data-ttu-id="6fbfb-104">這些函數會傳回指定的圖元對應：</span><span class="sxs-lookup"><span data-stu-id="6fbfb-104">These functions return the specified pixel map:</span></span>
 
--   [<span data-ttu-id="24314-105">**glGetPixelMapfv**</span><span class="sxs-lookup"><span data-stu-id="24314-105">**glGetPixelMapfv**</span></span>](glgetpixelmapfv.md)
--   [<span data-ttu-id="24314-106">**glGetPixelMapuiv**</span><span class="sxs-lookup"><span data-stu-id="24314-106">**glGetPixelMapuiv**</span></span>](glgetpixelmapuiv.md)
--   [<span data-ttu-id="24314-107">**glGetPixelMapusv**</span><span class="sxs-lookup"><span data-stu-id="24314-107">**glGetPixelMapusv**</span></span>](glgetpixelmapusv.md)
+-   [<span data-ttu-id="6fbfb-105">**glGetPixelMapfv**</span><span class="sxs-lookup"><span data-stu-id="6fbfb-105">**glGetPixelMapfv**</span></span>](glgetpixelmapfv.md)
+-   [<span data-ttu-id="6fbfb-106">**glGetPixelMapuiv**</span><span class="sxs-lookup"><span data-stu-id="6fbfb-106">**glGetPixelMapuiv**</span></span>](glgetpixelmapuiv.md)
+-   [<span data-ttu-id="6fbfb-107">**glGetPixelMapusv**</span><span class="sxs-lookup"><span data-stu-id="6fbfb-107">**glGetPixelMapusv**</span></span>](glgetpixelmapusv.md)
 
  
 

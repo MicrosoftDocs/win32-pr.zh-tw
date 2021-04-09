@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944929"
 ---
-# <a name="messagetypedeclarations-element"></a><span data-ttu-id="f2036-103">messageTypeDeclarations 元素</span><span class="sxs-lookup"><span data-stu-id="f2036-103">messageTypeDeclarations element</span></span>
+# <a name="messagetypedeclarations-element"></a><span data-ttu-id="478ac-103">messageTypeDeclarations 元素</span><span class="sxs-lookup"><span data-stu-id="478ac-103">messageTypeDeclarations element</span></span>
 
-<span data-ttu-id="f2036-104">針對訊息類型產生 XML 架構資料表的 C 常數宣告。</span><span class="sxs-lookup"><span data-stu-id="f2036-104">Generates C constant declarations for XML schema tables for message types.</span></span>
+<span data-ttu-id="478ac-104">針對訊息類型產生 XML 架構資料表的 C 常數宣告。</span><span class="sxs-lookup"><span data-stu-id="478ac-104">Generates C constant declarations for XML schema tables for message types.</span></span>
 
-## <a name="usage"></a><span data-ttu-id="f2036-105">使用方式</span><span class="sxs-lookup"><span data-stu-id="f2036-105">Usage</span></span>
+## <a name="usage"></a><span data-ttu-id="478ac-105">使用方式</span><span class="sxs-lookup"><span data-stu-id="478ac-105">Usage</span></span>
 
 ``` syntax
 <messageTypeDeclarations>
@@ -23,22 +23,22 @@ ms.locfileid: "103944929"
 </messageTypeDeclarations>
 ```
 
-## <a name="attributes"></a><span data-ttu-id="f2036-106">屬性</span><span class="sxs-lookup"><span data-stu-id="f2036-106">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="478ac-106">屬性</span><span class="sxs-lookup"><span data-stu-id="478ac-106">Attributes</span></span>
 
-<span data-ttu-id="f2036-107">沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="f2036-107">There are no attributes.</span></span>
+<span data-ttu-id="478ac-107">沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="478ac-107">There are no attributes.</span></span>
 
-## <a name="child-elements"></a><span data-ttu-id="f2036-108">子元素</span><span class="sxs-lookup"><span data-stu-id="f2036-108">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="478ac-108">子元素</span><span class="sxs-lookup"><span data-stu-id="478ac-108">Child elements</span></span>
 
 
 
-| <span data-ttu-id="f2036-109">元素</span><span class="sxs-lookup"><span data-stu-id="f2036-109">Element</span></span>                                   | <span data-ttu-id="f2036-110">描述</span><span class="sxs-lookup"><span data-stu-id="f2036-110">Description</span></span>                                                                       |
+| <span data-ttu-id="478ac-109">元素</span><span class="sxs-lookup"><span data-stu-id="478ac-109">Element</span></span>                                   | <span data-ttu-id="478ac-110">描述</span><span class="sxs-lookup"><span data-stu-id="478ac-110">Description</span></span>                                                                       |
 |-------------------------------------------|-----------------------------------------------------------------------------------|
-| [<span data-ttu-id="f2036-111">**操作**</span><span class="sxs-lookup"><span data-stu-id="f2036-111">**operation**</span></span>](operation.md)<br/> | <span data-ttu-id="f2036-112">指定要產生程式碼的作業。</span><span class="sxs-lookup"><span data-stu-id="f2036-112">Specifies an operation for which code is to be generated.</span></span><br/> <br/>  |
-| [<span data-ttu-id="f2036-113">**portType**</span><span class="sxs-lookup"><span data-stu-id="f2036-113">**portType**</span></span>](porttype.md)<br/>   | <span data-ttu-id="f2036-114">指定要產生程式碼的埠類型。</span><span class="sxs-lookup"><span data-stu-id="f2036-114">Specifies the port type for which code is to be generated.</span></span><br/> <br/> |
+| [<span data-ttu-id="478ac-111">**操作**</span><span class="sxs-lookup"><span data-stu-id="478ac-111">**operation**</span></span>](operation.md)<br/> | <span data-ttu-id="478ac-112">指定要產生程式碼的作業。</span><span class="sxs-lookup"><span data-stu-id="478ac-112">Specifies an operation for which code is to be generated.</span></span><br/> <br/>  |
+| [<span data-ttu-id="478ac-113">**portType**</span><span class="sxs-lookup"><span data-stu-id="478ac-113">**portType**</span></span>](porttype.md)<br/>   | <span data-ttu-id="478ac-114">指定要產生程式碼的埠類型。</span><span class="sxs-lookup"><span data-stu-id="478ac-114">Specifies the port type for which code is to be generated.</span></span><br/> <br/> |
 
 
 
-### <a name="child-element-sequence"></a><span data-ttu-id="f2036-115">子項目順序</span><span class="sxs-lookup"><span data-stu-id="f2036-115">Child element sequence</span></span>
+### <a name="child-element-sequence"></a><span data-ttu-id="478ac-115">子項目順序</span><span class="sxs-lookup"><span data-stu-id="478ac-115">Child element sequence</span></span>
 
 ``` syntax
 (
@@ -47,28 +47,28 @@ ms.locfileid: "103944929"
 )
 ```
 
-## <a name="parent-elements"></a><span data-ttu-id="f2036-116">父元素</span><span class="sxs-lookup"><span data-stu-id="f2036-116">Parent elements</span></span>
+## <a name="parent-elements"></a><span data-ttu-id="478ac-116">父元素</span><span class="sxs-lookup"><span data-stu-id="478ac-116">Parent elements</span></span>
 
 
 
-| <span data-ttu-id="f2036-117">元素</span><span class="sxs-lookup"><span data-stu-id="f2036-117">Element</span></span>                         | <span data-ttu-id="f2036-118">描述</span><span class="sxs-lookup"><span data-stu-id="f2036-118">Description</span></span>                                                    |
+| <span data-ttu-id="478ac-117">元素</span><span class="sxs-lookup"><span data-stu-id="478ac-117">Element</span></span>                         | <span data-ttu-id="478ac-118">描述</span><span class="sxs-lookup"><span data-stu-id="478ac-118">Description</span></span>                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [<span data-ttu-id="f2036-119">**檔**</span><span class="sxs-lookup"><span data-stu-id="f2036-119">**file**</span></span>](file.md)<br/> | <span data-ttu-id="f2036-120">從程式碼產生器輸出檔案。</span><span class="sxs-lookup"><span data-stu-id="f2036-120">Outputs a file from the code generator.</span></span><br/> <br/> |
+| [<span data-ttu-id="478ac-119">**檔**</span><span class="sxs-lookup"><span data-stu-id="478ac-119">**file**</span></span>](file.md)<br/> | <span data-ttu-id="478ac-120">從程式碼產生器輸出檔案。</span><span class="sxs-lookup"><span data-stu-id="478ac-120">Outputs a file from the code generator.</span></span><br/> <br/> |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="f2036-121">備註</span><span class="sxs-lookup"><span data-stu-id="f2036-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="478ac-121">備註</span><span class="sxs-lookup"><span data-stu-id="478ac-121">Remarks</span></span>
 
-<span data-ttu-id="f2036-122">架構資料表是由埠類型定義所參考。</span><span class="sxs-lookup"><span data-stu-id="f2036-122">Schema tables are referenced by port type definitions.</span></span> <span data-ttu-id="f2036-123">因此，這個元素通常會在 [**portTypeDefinitions**](porttypedefinitions.md) 元素之前使用。</span><span class="sxs-lookup"><span data-stu-id="f2036-123">This element is therefore generally used just prior to [**portTypeDefinitions**](porttypedefinitions.md) elements.</span></span>
+<span data-ttu-id="478ac-122">架構資料表是由埠類型定義所參考。</span><span class="sxs-lookup"><span data-stu-id="478ac-122">Schema tables are referenced by port type definitions.</span></span> <span data-ttu-id="478ac-123">因此，這個元素通常會在 [**portTypeDefinitions**](porttypedefinitions.md) 元素之前使用。</span><span class="sxs-lookup"><span data-stu-id="478ac-123">This element is therefore generally used just prior to [**portTypeDefinitions**](porttypedefinitions.md) elements.</span></span>
 
-## <a name="element-information"></a><span data-ttu-id="f2036-124">項目資訊</span><span class="sxs-lookup"><span data-stu-id="f2036-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="478ac-124">項目資訊</span><span class="sxs-lookup"><span data-stu-id="478ac-124">Element information</span></span>
 
 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| <span data-ttu-id="f2036-125">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="f2036-125">Minimum supported system</span></span><br/> | <span data-ttu-id="f2036-126">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="f2036-126">Windows Vista</span></span> |
-| <span data-ttu-id="f2036-127">可以是空的</span><span class="sxs-lookup"><span data-stu-id="f2036-127">Can be empty</span></span>                        | <span data-ttu-id="f2036-128">是</span><span class="sxs-lookup"><span data-stu-id="f2036-128">Yes</span></span>           |
+| <span data-ttu-id="478ac-125">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="478ac-125">Minimum supported system</span></span><br/> | <span data-ttu-id="478ac-126">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="478ac-126">Windows Vista</span></span> |
+| <span data-ttu-id="478ac-127">可以是空的</span><span class="sxs-lookup"><span data-stu-id="478ac-127">Can be empty</span></span>                        | <span data-ttu-id="478ac-128">是</span><span class="sxs-lookup"><span data-stu-id="478ac-128">Yes</span></span>           |
 
 
 

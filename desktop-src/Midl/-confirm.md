@@ -19,32 +19,32 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103932737"
 ---
-# <a name="confirm-switch"></a><span data-ttu-id="b6ed2-104">/confirm 參數</span><span class="sxs-lookup"><span data-stu-id="b6ed2-104">/confirm switch</span></span>
+# <a name="confirm-switch"></a><span data-ttu-id="0aeee-104">/confirm 參數</span><span class="sxs-lookup"><span data-stu-id="0aeee-104">/confirm switch</span></span>
 
-<span data-ttu-id="b6ed2-105">**/Confirm** 參數會指示編譯器顯示所有 MIDL 編譯器選項，而不處理輸入的 IDL 和選擇性的 ACF 檔。</span><span class="sxs-lookup"><span data-stu-id="b6ed2-105">The **/confirm** switch instructs the compiler to display all MIDL compiler options without processing the input IDL and optional ACF files.</span></span>
+<span data-ttu-id="0aeee-105">**/Confirm** 參數會指示編譯器顯示所有 MIDL 編譯器選項，而不處理輸入的 IDL 和選擇性的 ACF 檔。</span><span class="sxs-lookup"><span data-stu-id="0aeee-105">The **/confirm** switch instructs the compiler to display all MIDL compiler options without processing the input IDL and optional ACF files.</span></span>
 
 ``` syntax
 midl /confirm
 ```
 
-## <a name="switch-options"></a><span data-ttu-id="b6ed2-106">切換選項</span><span class="sxs-lookup"><span data-stu-id="b6ed2-106">Switch Options</span></span>
+## <a name="switch-options"></a><span data-ttu-id="0aeee-106">切換選項</span><span class="sxs-lookup"><span data-stu-id="0aeee-106">Switch Options</span></span>
 
-<span data-ttu-id="b6ed2-107">此參數沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="b6ed2-107">This switch has no parameters.</span></span>
+<span data-ttu-id="0aeee-107">此參數沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="0aeee-107">This switch has no parameters.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="b6ed2-108">範例</span><span class="sxs-lookup"><span data-stu-id="b6ed2-108">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="0aeee-108">範例</span><span class="sxs-lookup"><span data-stu-id="0aeee-108">Examples</span></span>
 
-<span data-ttu-id="b6ed2-109">**midl/confirm**</span><span class="sxs-lookup"><span data-stu-id="b6ed2-109">**midl /confirm**</span></span>
+<span data-ttu-id="0aeee-109">**midl/confirm**</span><span class="sxs-lookup"><span data-stu-id="0aeee-109">**midl /confirm**</span></span>
 
-<span data-ttu-id="b6ed2-110">**midl/confirm @response.rsp 檔案名 .idl**</span><span class="sxs-lookup"><span data-stu-id="b6ed2-110">**midl /confirm @response.rsp filename.idl**</span></span>
+<span data-ttu-id="0aeee-110">**midl/confirm @response.rsp 檔案名 .idl**</span><span class="sxs-lookup"><span data-stu-id="0aeee-110">**midl /confirm @response.rsp filename.idl**</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b6ed2-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b6ed2-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0aeee-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0aeee-111">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b6ed2-112">**/help**</span><span class="sxs-lookup"><span data-stu-id="b6ed2-112">**/help**</span></span>](-help-.md)
+[<span data-ttu-id="0aeee-112">**/help**</span><span class="sxs-lookup"><span data-stu-id="0aeee-112">**/help**</span></span>](-help-.md)
 </dt> <dt>
 
-[<span data-ttu-id="b6ed2-113">一般 MIDL 命令列語法</span><span class="sxs-lookup"><span data-stu-id="b6ed2-113">General MIDL Command-line Syntax</span></span>](general-midl-command-line-syntax.md)
+[<span data-ttu-id="0aeee-113">一般 MIDL 命令列語法</span><span class="sxs-lookup"><span data-stu-id="0aeee-113">General MIDL Command-line Syntax</span></span>](general-midl-command-line-syntax.md)
 </dt> </dl>
 
  

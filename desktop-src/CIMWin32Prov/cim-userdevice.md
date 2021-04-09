@@ -41,18 +41,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110045"
 ---
-# <a name="cim_userdevice-class-cimwin32-wmi-providers"></a><span data-ttu-id="79c43-104">CIM_UserDevice 類別 (CIMWin32 WMI 提供者) </span><span class="sxs-lookup"><span data-stu-id="79c43-104">CIM_UserDevice class (CIMWin32 WMI Providers)</span></span>
+# <a name="cim_userdevice-class-cimwin32-wmi-providers"></a><span data-ttu-id="bc7fd-104">CIM_UserDevice 類別 (CIMWin32 WMI 提供者) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-104">CIM_UserDevice class (CIMWin32 WMI Providers)</span></span>
 
-<span data-ttu-id="79c43-105">**Cim \_ UserDevice** 類別是其他類別（例如 [**CIM \_ 鍵盤**](cim-keyboard.md)或 [**cim \_ DesktopMonitor**](cim-desktopmonitor.md)）下降的父類別。</span><span class="sxs-lookup"><span data-stu-id="79c43-105">The **CIM\_UserDevice** class is a parent class from which other classes, such as [**CIM\_Keyboard**](cim-keyboard.md) or [**CIM\_DesktopMonitor**](cim-desktopmonitor.md), descend.</span></span> <span data-ttu-id="79c43-106">使用者裝置是邏輯裝置，可讓電腦系統的使用者輸入、查看或聽到資料。</span><span class="sxs-lookup"><span data-stu-id="79c43-106">User devices are logical devices that allow a computer system's user to input, view, or hear data.</span></span>
+<span data-ttu-id="bc7fd-105">**Cim \_ UserDevice** 類別是其他類別（例如 [**CIM \_ 鍵盤**](cim-keyboard.md)或 [**cim \_ DesktopMonitor**](cim-desktopmonitor.md)）下降的父類別。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-105">The **CIM\_UserDevice** class is a parent class from which other classes, such as [**CIM\_Keyboard**](cim-keyboard.md) or [**CIM\_DesktopMonitor**](cim-desktopmonitor.md), descend.</span></span> <span data-ttu-id="bc7fd-106">使用者裝置是邏輯裝置，可讓電腦系統的使用者輸入、查看或聽到資料。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-106">User devices are logical devices that allow a computer system's user to input, view, or hear data.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="79c43-107">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="79c43-107">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="79c43-108">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="79c43-108">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
+> <span data-ttu-id="bc7fd-107">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-107">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="bc7fd-108">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-108">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
 
  
 
-<span data-ttu-id="79c43-109">下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="79c43-109">The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties.</span></span> <span data-ttu-id="79c43-110">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="79c43-110">Properties are listed in alphabetic order, not MOF order.</span></span>
+<span data-ttu-id="bc7fd-109">下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-109">The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties.</span></span> <span data-ttu-id="bc7fd-110">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-110">Properties are listed in alphabetic order, not MOF order.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="79c43-111">語法</span><span class="sxs-lookup"><span data-stu-id="79c43-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bc7fd-111">語法</span><span class="sxs-lookup"><span data-stu-id="bc7fd-111">Syntax</span></span>
 
 ``` syntax
 [Abstract, UUID("{8502C533-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
@@ -81,1125 +81,1125 @@ class CIM_UserDevice : CIM_LogicalDevice
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="79c43-112">成員</span><span class="sxs-lookup"><span data-stu-id="79c43-112">Members</span></span>
+## <a name="members"></a><span data-ttu-id="bc7fd-112">成員</span><span class="sxs-lookup"><span data-stu-id="bc7fd-112">Members</span></span>
 
-<span data-ttu-id="79c43-113">**CIM \_ UserDevice** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="79c43-113">The **CIM\_UserDevice** class has these types of members:</span></span>
+<span data-ttu-id="bc7fd-113">**CIM \_ UserDevice** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="bc7fd-113">The **CIM\_UserDevice** class has these types of members:</span></span>
 
--   [<span data-ttu-id="79c43-114">方法</span><span class="sxs-lookup"><span data-stu-id="79c43-114">Methods</span></span>](#methods)
--   [<span data-ttu-id="79c43-115">屬性</span><span class="sxs-lookup"><span data-stu-id="79c43-115">Properties</span></span>](#properties)
+-   [<span data-ttu-id="bc7fd-114">方法</span><span class="sxs-lookup"><span data-stu-id="bc7fd-114">Methods</span></span>](#methods)
+-   [<span data-ttu-id="bc7fd-115">屬性</span><span class="sxs-lookup"><span data-stu-id="bc7fd-115">Properties</span></span>](#properties)
 
-### <a name="methods"></a><span data-ttu-id="79c43-116">方法</span><span class="sxs-lookup"><span data-stu-id="79c43-116">Methods</span></span>
+### <a name="methods"></a><span data-ttu-id="bc7fd-116">方法</span><span class="sxs-lookup"><span data-stu-id="bc7fd-116">Methods</span></span>
 
-<span data-ttu-id="79c43-117">**CIM \_ UserDevice** 類別具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="79c43-117">The **CIM\_UserDevice** class has these methods.</span></span>
+<span data-ttu-id="bc7fd-117">**CIM \_ UserDevice** 類別具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-117">The **CIM\_UserDevice** class has these methods.</span></span>
 
 
 
-| <span data-ttu-id="79c43-118">方法</span><span class="sxs-lookup"><span data-stu-id="79c43-118">Method</span></span>                                                                | <span data-ttu-id="79c43-119">描述</span><span class="sxs-lookup"><span data-stu-id="79c43-119">Description</span></span>                                                                                                                              |
+| <span data-ttu-id="bc7fd-118">方法</span><span class="sxs-lookup"><span data-stu-id="bc7fd-118">Method</span></span>                                                                | <span data-ttu-id="bc7fd-119">描述</span><span class="sxs-lookup"><span data-stu-id="bc7fd-119">Description</span></span>                                                                                                                              |
 |:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="79c43-120">**重設**</span><span class="sxs-lookup"><span data-stu-id="79c43-120">**Reset**</span></span>](reset-method-in-class-cim-userdevice.md)                 | <span data-ttu-id="79c43-121">要求重設邏輯裝置。</span><span class="sxs-lookup"><span data-stu-id="79c43-121">Requests a reset of the logical device.</span></span> <span data-ttu-id="79c43-122">不是由 WMI 所執行。</span><span class="sxs-lookup"><span data-stu-id="79c43-122">Not implemented by WMI.</span></span><br/>                                                               |
-| [<span data-ttu-id="79c43-123">**SetPowerState**</span><span class="sxs-lookup"><span data-stu-id="79c43-123">**SetPowerState**</span></span>](setpowerstate-method-in-class-cim-userdevice.md) | <span data-ttu-id="79c43-124">定義邏輯裝置的預期電源狀態，以及何時應將裝置置於該狀態。</span><span class="sxs-lookup"><span data-stu-id="79c43-124">Defines the desired power state for a logical device and when a device should be put into that state.</span></span> <span data-ttu-id="79c43-125">不是由 WMI 所執行。</span><span class="sxs-lookup"><span data-stu-id="79c43-125">Not implemented by WMI.</span></span><br/> |
+| [<span data-ttu-id="bc7fd-120">**重設**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-120">**Reset**</span></span>](reset-method-in-class-cim-userdevice.md)                 | <span data-ttu-id="bc7fd-121">要求重設邏輯裝置。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-121">Requests a reset of the logical device.</span></span> <span data-ttu-id="bc7fd-122">不是由 WMI 所執行。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-122">Not implemented by WMI.</span></span><br/>                                                               |
+| [<span data-ttu-id="bc7fd-123">**SetPowerState**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-123">**SetPowerState**</span></span>](setpowerstate-method-in-class-cim-userdevice.md) | <span data-ttu-id="bc7fd-124">定義邏輯裝置的預期電源狀態，以及何時應將裝置置於該狀態。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-124">Defines the desired power state for a logical device and when a device should be put into that state.</span></span> <span data-ttu-id="bc7fd-125">不是由 WMI 所執行。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-125">Not implemented by WMI.</span></span><br/> |
 
 
 
  
 
-### <a name="properties"></a><span data-ttu-id="79c43-126">屬性</span><span class="sxs-lookup"><span data-stu-id="79c43-126">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="bc7fd-126">屬性</span><span class="sxs-lookup"><span data-stu-id="bc7fd-126">Properties</span></span>
 
-<span data-ttu-id="79c43-127">**CIM \_ UserDevice** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="79c43-127">The **CIM\_UserDevice** class has these properties.</span></span>
+<span data-ttu-id="bc7fd-127">**CIM \_ UserDevice** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-127">The **CIM\_UserDevice** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="79c43-128">**可用性**</span><span class="sxs-lookup"><span data-stu-id="79c43-128">**Availability**</span></span>
+<span data-ttu-id="bc7fd-128">**可用性**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-128">**Availability**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-129">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="79c43-129">Data type: **uint16**</span></span>
+<span data-ttu-id="bc7fd-129">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-129">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-130">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-130">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-131">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 操作狀態 \| 003.5 "，" MIB。IETF \| 主機-RESOURCES-hrDeviceStatus ") </span><span class="sxs-lookup"><span data-stu-id="79c43-131">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")</span></span>
+<span data-ttu-id="bc7fd-131">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 操作狀態 \| 003.5 "，" MIB。IETF \| 主機-RESOURCES-hrDeviceStatus ") </span><span class="sxs-lookup"><span data-stu-id="bc7fd-131">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-132">裝置的可用性和狀態。</span><span class="sxs-lookup"><span data-stu-id="79c43-132">Availability and status of the device.</span></span>
+<span data-ttu-id="bc7fd-132">裝置的可用性和狀態。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-132">Availability and status of the device.</span></span>
 
-<span data-ttu-id="79c43-133">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-133">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-133">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-133">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 <dt>
 
 <span id="Other"></span><span id="other"></span><span id="OTHER"></span>
 
-<span data-ttu-id="79c43-134"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="79c43-134"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
+<span data-ttu-id="bc7fd-134"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-134"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
 
-<span data-ttu-id="79c43-135"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (2) </span><span class="sxs-lookup"><span data-stu-id="79c43-135"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (2)</span></span>
+<span data-ttu-id="bc7fd-135"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (2) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-135"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (2)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Running_Full_Power"></span><span id="running_full_power"></span><span id="RUNNING_FULL_POWER"></span>
 
-<span data-ttu-id="79c43-136"><span id="Running_Full_Power"></span><span id="running_full_power"></span><span id="RUNNING_FULL_POWER"></span>執行中 **/完整電源** (3) </span><span class="sxs-lookup"><span data-stu-id="79c43-136"><span id="Running_Full_Power"></span><span id="running_full_power"></span><span id="RUNNING_FULL_POWER"></span>**Running/Full Power** (3)</span></span>
+<span data-ttu-id="bc7fd-136"><span id="Running_Full_Power"></span><span id="running_full_power"></span><span id="RUNNING_FULL_POWER"></span>執行中 **/完整電源** (3) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-136"><span id="Running_Full_Power"></span><span id="running_full_power"></span><span id="RUNNING_FULL_POWER"></span>**Running/Full Power** (3)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Warning"></span><span id="warning"></span><span id="WARNING"></span>
 
-<span data-ttu-id="79c43-137"><span id="Warning"></span><span id="warning"></span><span id="WARNING"></span>**警告** (4) </span><span class="sxs-lookup"><span data-stu-id="79c43-137"><span id="Warning"></span><span id="warning"></span><span id="WARNING"></span>**Warning** (4)</span></span>
+<span data-ttu-id="bc7fd-137"><span id="Warning"></span><span id="warning"></span><span id="WARNING"></span>**警告** (4) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-137"><span id="Warning"></span><span id="warning"></span><span id="WARNING"></span>**Warning** (4)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>
 
-<span data-ttu-id="79c43-138"><span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>**在測試** (5) </span><span class="sxs-lookup"><span data-stu-id="79c43-138"><span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>**In Test** (5)</span></span>
+<span data-ttu-id="bc7fd-138"><span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>**在測試** (5) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-138"><span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>**In Test** (5)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Not_Applicable"></span><span id="not_applicable"></span><span id="NOT_APPLICABLE"></span>
 
-<span data-ttu-id="79c43-139"><span id="Not_Applicable"></span><span id="not_applicable"></span><span id="NOT_APPLICABLE"></span>**不適用** (6) </span><span class="sxs-lookup"><span data-stu-id="79c43-139"><span id="Not_Applicable"></span><span id="not_applicable"></span><span id="NOT_APPLICABLE"></span>**Not Applicable** (6)</span></span>
+<span data-ttu-id="bc7fd-139"><span id="Not_Applicable"></span><span id="not_applicable"></span><span id="NOT_APPLICABLE"></span>**不適用** (6) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-139"><span id="Not_Applicable"></span><span id="not_applicable"></span><span id="NOT_APPLICABLE"></span>**Not Applicable** (6)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_Off"></span><span id="power_off"></span><span id="POWER_OFF"></span>
 
-<span data-ttu-id="79c43-140"><span id="Power_Off"></span><span id="power_off"></span><span id="POWER_OFF"></span>**關閉** (7) 的電源</span><span class="sxs-lookup"><span data-stu-id="79c43-140"><span id="Power_Off"></span><span id="power_off"></span><span id="POWER_OFF"></span>**Power Off** (7)</span></span>
+<span data-ttu-id="bc7fd-140"><span id="Power_Off"></span><span id="power_off"></span><span id="POWER_OFF"></span>**關閉** (7) 的電源</span><span class="sxs-lookup"><span data-stu-id="bc7fd-140"><span id="Power_Off"></span><span id="power_off"></span><span id="POWER_OFF"></span>**Power Off** (7)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Off_Line"></span><span id="off_line"></span><span id="OFF_LINE"></span>
 
-<span data-ttu-id="79c43-141"><span id="Off_Line"></span><span id="off_line"></span><span id="OFF_LINE"></span>**Off 行** (8) </span><span class="sxs-lookup"><span data-stu-id="79c43-141"><span id="Off_Line"></span><span id="off_line"></span><span id="OFF_LINE"></span>**Off Line** (8)</span></span>
+<span data-ttu-id="bc7fd-141"><span id="Off_Line"></span><span id="off_line"></span><span id="OFF_LINE"></span>**Off 行** (8) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-141"><span id="Off_Line"></span><span id="off_line"></span><span id="OFF_LINE"></span>**Off Line** (8)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Off_Duty"></span><span id="off_duty"></span><span id="OFF_DUTY"></span>
 
-<span data-ttu-id="79c43-142"><span id="Off_Duty"></span><span id="off_duty"></span><span id="OFF_DUTY"></span>**Off** (9) </span><span class="sxs-lookup"><span data-stu-id="79c43-142"><span id="Off_Duty"></span><span id="off_duty"></span><span id="OFF_DUTY"></span>**Off Duty** (9)</span></span>
+<span data-ttu-id="bc7fd-142"><span id="Off_Duty"></span><span id="off_duty"></span><span id="OFF_DUTY"></span>**Off** (9) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-142"><span id="Off_Duty"></span><span id="off_duty"></span><span id="OFF_DUTY"></span>**Off Duty** (9)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>
 
-<span data-ttu-id="79c43-143"><span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span> (10) **降級**</span><span class="sxs-lookup"><span data-stu-id="79c43-143"><span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>**Degraded** (10)</span></span>
+<span data-ttu-id="bc7fd-143"><span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span> (10) **降級**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-143"><span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>**Degraded** (10)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Not_Installed"></span><span id="not_installed"></span><span id="NOT_INSTALLED"></span>
 
-<span data-ttu-id="79c43-144"><span id="Not_Installed"></span><span id="not_installed"></span><span id="NOT_INSTALLED"></span>**未安裝** (11) </span><span class="sxs-lookup"><span data-stu-id="79c43-144"><span id="Not_Installed"></span><span id="not_installed"></span><span id="NOT_INSTALLED"></span>**Not Installed** (11)</span></span>
+<span data-ttu-id="bc7fd-144"><span id="Not_Installed"></span><span id="not_installed"></span><span id="NOT_INSTALLED"></span>**未安裝** (11) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-144"><span id="Not_Installed"></span><span id="not_installed"></span><span id="NOT_INSTALLED"></span>**Not Installed** (11)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Install_Error"></span><span id="install_error"></span><span id="INSTALL_ERROR"></span>
 
-<span data-ttu-id="79c43-145"><span id="Install_Error"></span><span id="install_error"></span><span id="INSTALL_ERROR"></span>**安裝錯誤** (12) </span><span class="sxs-lookup"><span data-stu-id="79c43-145"><span id="Install_Error"></span><span id="install_error"></span><span id="INSTALL_ERROR"></span>**Install Error** (12)</span></span>
+<span data-ttu-id="bc7fd-145"><span id="Install_Error"></span><span id="install_error"></span><span id="INSTALL_ERROR"></span>**安裝錯誤** (12) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-145"><span id="Install_Error"></span><span id="install_error"></span><span id="INSTALL_ERROR"></span>**Install Error** (12)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_Save_-_Unknown"></span><span id="power_save_-_unknown"></span><span id="POWER_SAVE_-_UNKNOWN"></span>
 
-<span data-ttu-id="79c43-146"><span id="Power_Save_-_Unknown"></span><span id="power_save_-_unknown"></span><span id="POWER_SAVE_-_UNKNOWN"></span>省 **電-未知的** (13) </span><span class="sxs-lookup"><span data-stu-id="79c43-146"><span id="Power_Save_-_Unknown"></span><span id="power_save_-_unknown"></span><span id="POWER_SAVE_-_UNKNOWN"></span>**Power Save - Unknown** (13)</span></span>
+<span data-ttu-id="bc7fd-146"><span id="Power_Save_-_Unknown"></span><span id="power_save_-_unknown"></span><span id="POWER_SAVE_-_UNKNOWN"></span>省 **電-未知的** (13) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-146"><span id="Power_Save_-_Unknown"></span><span id="power_save_-_unknown"></span><span id="POWER_SAVE_-_UNKNOWN"></span>**Power Save - Unknown** (13)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-147">裝置已知處於省電模式，但其確切狀態不明。</span><span class="sxs-lookup"><span data-stu-id="79c43-147">The device is known to be in a power save mode, but its exact status is unknown.</span></span>
+<span data-ttu-id="bc7fd-147">裝置已知處於省電模式，但其確切狀態不明。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-147">The device is known to be in a power save mode, but its exact status is unknown.</span></span>
 
 </dd> <dt>
 
 <span id="Power_Save_-_Low_Power_Mode"></span><span id="power_save_-_low_power_mode"></span><span id="POWER_SAVE_-_LOW_POWER_MODE"></span>
 
-<span data-ttu-id="79c43-148"><span id="Power_Save_-_Low_Power_Mode"></span><span id="power_save_-_low_power_mode"></span><span id="POWER_SAVE_-_LOW_POWER_MODE"></span>省 **電-低電源模式** (14) </span><span class="sxs-lookup"><span data-stu-id="79c43-148"><span id="Power_Save_-_Low_Power_Mode"></span><span id="power_save_-_low_power_mode"></span><span id="POWER_SAVE_-_LOW_POWER_MODE"></span>**Power Save - Low Power Mode** (14)</span></span>
+<span data-ttu-id="bc7fd-148"><span id="Power_Save_-_Low_Power_Mode"></span><span id="power_save_-_low_power_mode"></span><span id="POWER_SAVE_-_LOW_POWER_MODE"></span>省 **電-低電源模式** (14) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-148"><span id="Power_Save_-_Low_Power_Mode"></span><span id="power_save_-_low_power_mode"></span><span id="POWER_SAVE_-_LOW_POWER_MODE"></span>**Power Save - Low Power Mode** (14)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-149">裝置處於省電狀態，但仍在運作中，而且可能會出現效能降低的情況。</span><span class="sxs-lookup"><span data-stu-id="79c43-149">The device is in a power save state but still functioning, and may exhibit degraded performance.</span></span>
+<span data-ttu-id="bc7fd-149">裝置處於省電狀態，但仍在運作中，而且可能會出現效能降低的情況。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-149">The device is in a power save state but still functioning, and may exhibit degraded performance.</span></span>
 
 </dd> <dt>
 
 <span id="Power_Save_-_Standby"></span><span id="power_save_-_standby"></span><span id="POWER_SAVE_-_STANDBY"></span>
 
-<span data-ttu-id="79c43-150"><span id="Power_Save_-_Standby"></span><span id="power_save_-_standby"></span><span id="POWER_SAVE_-_STANDBY"></span>省 **電-待命** (15) </span><span class="sxs-lookup"><span data-stu-id="79c43-150"><span id="Power_Save_-_Standby"></span><span id="power_save_-_standby"></span><span id="POWER_SAVE_-_STANDBY"></span>**Power Save - Standby** (15)</span></span>
+<span data-ttu-id="bc7fd-150"><span id="Power_Save_-_Standby"></span><span id="power_save_-_standby"></span><span id="POWER_SAVE_-_STANDBY"></span>省 **電-待命** (15) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-150"><span id="Power_Save_-_Standby"></span><span id="power_save_-_standby"></span><span id="POWER_SAVE_-_STANDBY"></span>**Power Save - Standby** (15)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-151">裝置無法正常運作，但可快速進入完整電源。</span><span class="sxs-lookup"><span data-stu-id="79c43-151">The device is not functioning, but could be brought to full power quickly.</span></span>
+<span data-ttu-id="bc7fd-151">裝置無法正常運作，但可快速進入完整電源。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-151">The device is not functioning, but could be brought to full power quickly.</span></span>
 
 </dd> <dt>
 
 <span id="Power_Cycle"></span><span id="power_cycle"></span><span id="POWER_CYCLE"></span>
 
-<span data-ttu-id="79c43-152"><span id="Power_Cycle"></span><span id="power_cycle"></span><span id="POWER_CYCLE"></span> (16) 的 **電源週期**</span><span class="sxs-lookup"><span data-stu-id="79c43-152"><span id="Power_Cycle"></span><span id="power_cycle"></span><span id="POWER_CYCLE"></span>**Power Cycle** (16)</span></span>
+<span data-ttu-id="bc7fd-152"><span id="Power_Cycle"></span><span id="power_cycle"></span><span id="POWER_CYCLE"></span> (16) 的 **電源週期**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-152"><span id="Power_Cycle"></span><span id="power_cycle"></span><span id="POWER_CYCLE"></span>**Power Cycle** (16)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_Save_-_Warning"></span><span id="power_save_-_warning"></span><span id="POWER_SAVE_-_WARNING"></span>
 
-<span data-ttu-id="79c43-153"><span id="Power_Save_-_Warning"></span><span id="power_save_-_warning"></span><span id="POWER_SAVE_-_WARNING"></span>省 **電-警告** (17) </span><span class="sxs-lookup"><span data-stu-id="79c43-153"><span id="Power_Save_-_Warning"></span><span id="power_save_-_warning"></span><span id="POWER_SAVE_-_WARNING"></span>**Power Save - Warning** (17)</span></span>
+<span data-ttu-id="bc7fd-153"><span id="Power_Save_-_Warning"></span><span id="power_save_-_warning"></span><span id="POWER_SAVE_-_WARNING"></span>省 **電-警告** (17) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-153"><span id="Power_Save_-_Warning"></span><span id="power_save_-_warning"></span><span id="POWER_SAVE_-_WARNING"></span>**Power Save - Warning** (17)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-154">裝置處於警告狀態，但也處於省電模式。</span><span class="sxs-lookup"><span data-stu-id="79c43-154">The device is in a warning state, though also in a power save mode.</span></span>
+<span data-ttu-id="bc7fd-154">裝置處於警告狀態，但也處於省電模式。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-154">The device is in a warning state, though also in a power save mode.</span></span>
 
 </dd> <dt>
 
 <span id="Paused"></span><span id="paused"></span><span id="PAUSED"></span>
 
-<span data-ttu-id="79c43-155"><span id="Paused"></span><span id="paused"></span><span id="PAUSED"></span>已 **暫停** (18) </span><span class="sxs-lookup"><span data-stu-id="79c43-155"><span id="Paused"></span><span id="paused"></span><span id="PAUSED"></span>**Paused** (18)</span></span>
+<span data-ttu-id="bc7fd-155"><span id="Paused"></span><span id="paused"></span><span id="PAUSED"></span>已 **暫停** (18) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-155"><span id="Paused"></span><span id="paused"></span><span id="PAUSED"></span>**Paused** (18)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-156">裝置已暫停。</span><span class="sxs-lookup"><span data-stu-id="79c43-156">The device is paused.</span></span>
+<span data-ttu-id="bc7fd-156">裝置已暫停。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-156">The device is paused.</span></span>
 
 </dd> <dt>
 
 <span id="Not_Ready"></span><span id="not_ready"></span><span id="NOT_READY"></span>
 
-<span data-ttu-id="79c43-157"><span id="Not_Ready"></span><span id="not_ready"></span><span id="NOT_READY"></span>**未就緒** (19) </span><span class="sxs-lookup"><span data-stu-id="79c43-157"><span id="Not_Ready"></span><span id="not_ready"></span><span id="NOT_READY"></span>**Not Ready** (19)</span></span>
+<span data-ttu-id="bc7fd-157"><span id="Not_Ready"></span><span id="not_ready"></span><span id="NOT_READY"></span>**未就緒** (19) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-157"><span id="Not_Ready"></span><span id="not_ready"></span><span id="NOT_READY"></span>**Not Ready** (19)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-158">裝置未就緒。</span><span class="sxs-lookup"><span data-stu-id="79c43-158">The device is not ready.</span></span>
+<span data-ttu-id="bc7fd-158">裝置未就緒。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-158">The device is not ready.</span></span>
 
 </dd> <dt>
 
 <span id="Not_Configured"></span><span id="not_configured"></span><span id="NOT_CONFIGURED"></span>
 
-<span data-ttu-id="79c43-159"><span id="Not_Configured"></span><span id="not_configured"></span><span id="NOT_CONFIGURED"></span>**未設定** (20) </span><span class="sxs-lookup"><span data-stu-id="79c43-159"><span id="Not_Configured"></span><span id="not_configured"></span><span id="NOT_CONFIGURED"></span>**Not Configured** (20)</span></span>
+<span data-ttu-id="bc7fd-159"><span id="Not_Configured"></span><span id="not_configured"></span><span id="NOT_CONFIGURED"></span>**未設定** (20) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-159"><span id="Not_Configured"></span><span id="not_configured"></span><span id="NOT_CONFIGURED"></span>**Not Configured** (20)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-160">裝置未設定。</span><span class="sxs-lookup"><span data-stu-id="79c43-160">The device is not configured.</span></span>
+<span data-ttu-id="bc7fd-160">裝置未設定。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-160">The device is not configured.</span></span>
 
 </dd> <dt>
 
 <span id="Quiesced"></span><span id="quiesced"></span><span id="QUIESCED"></span>
 
-<span data-ttu-id="79c43-161"><span id="Quiesced"></span><span id="quiesced"></span><span id="QUIESCED"></span>**靜止** (21) </span><span class="sxs-lookup"><span data-stu-id="79c43-161"><span id="Quiesced"></span><span id="quiesced"></span><span id="QUIESCED"></span>**Quiesced** (21)</span></span>
+<span data-ttu-id="bc7fd-161"><span id="Quiesced"></span><span id="quiesced"></span><span id="QUIESCED"></span>**靜止** (21) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-161"><span id="Quiesced"></span><span id="quiesced"></span><span id="QUIESCED"></span>**Quiesced** (21)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-162">裝置為靜音。</span><span class="sxs-lookup"><span data-stu-id="79c43-162">The device is quiet.</span></span>
+<span data-ttu-id="bc7fd-162">裝置為靜音。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-162">The device is quiet.</span></span>
 
 </dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-163">**標題**</span><span class="sxs-lookup"><span data-stu-id="79c43-163">**Caption**</span></span>
+<span data-ttu-id="bc7fd-163">**標題**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-163">**Caption**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-164">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-164">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-164">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-164">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-165">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-165">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-165">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-165">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-166">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Caption" ) </span><span class="sxs-lookup"><span data-stu-id="79c43-166">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")</span></span>
+<span data-ttu-id="bc7fd-166">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Caption" ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-166">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-167">物件的簡短文字描述。</span><span class="sxs-lookup"><span data-stu-id="79c43-167">Short textual description of the object.</span></span>
+<span data-ttu-id="bc7fd-167">物件的簡短文字描述。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-167">Short textual description of the object.</span></span>
 
-<span data-ttu-id="79c43-168">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-168">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="bc7fd-168">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-168">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-169">**ConfigManagerErrorCode**</span><span class="sxs-lookup"><span data-stu-id="79c43-169">**ConfigManagerErrorCode**</span></span>
+<span data-ttu-id="bc7fd-169">**ConfigManagerErrorCode**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-169">**ConfigManagerErrorCode**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-170">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="79c43-170">Data type: **uint32**</span></span>
+<span data-ttu-id="bc7fd-170">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-170">Data type: **uint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-171">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-171">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-171">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-171">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-172">限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) </span><span class="sxs-lookup"><span data-stu-id="79c43-172">Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")</span></span>
+<span data-ttu-id="bc7fd-172">限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-172">Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-173">Win32 設定管理員錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="79c43-173">Win32 Configuration Manager error code.</span></span>
+<span data-ttu-id="bc7fd-173">Win32 設定管理員錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-173">Win32 Configuration Manager error code.</span></span>
 
-<span data-ttu-id="79c43-174">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-174">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-174">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-174">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 <dt>
 
 <span id="This_device_is_working_properly."></span><span id="this_device_is_working_properly."></span><span id="THIS_DEVICE_IS_WORKING_PROPERLY."></span>
 
-<span data-ttu-id="79c43-175"><span id="this_device_is_working_properly."></span><span id="THIS_DEVICE_IS_WORKING_PROPERLY."></span>**此裝置運作正常。**</span><span class="sxs-lookup"><span data-stu-id="79c43-175"><span id="this_device_is_working_properly."></span><span id="THIS_DEVICE_IS_WORKING_PROPERLY."></span>**This device is working properly.**</span></span> <span data-ttu-id="79c43-176"> (0)</span><span class="sxs-lookup"><span data-stu-id="79c43-176">(0)</span></span>
+<span data-ttu-id="bc7fd-175"><span id="this_device_is_working_properly."></span><span id="THIS_DEVICE_IS_WORKING_PROPERLY."></span>**此裝置運作正常。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-175"><span id="this_device_is_working_properly."></span><span id="THIS_DEVICE_IS_WORKING_PROPERLY."></span>**This device is working properly.**</span></span> <span data-ttu-id="bc7fd-176"> (0)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-176">(0)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-177">裝置運作正常。</span><span class="sxs-lookup"><span data-stu-id="79c43-177">Device is working properly.</span></span>
+<span data-ttu-id="bc7fd-177">裝置運作正常。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-177">Device is working properly.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_not_configured_correctly."></span><span id="this_device_is_not_configured_correctly."></span><span id="THIS_DEVICE_IS_NOT_CONFIGURED_CORRECTLY."></span>
 
-<span data-ttu-id="79c43-178"><span id="this_device_is_not_configured_correctly."></span><span id="THIS_DEVICE_IS_NOT_CONFIGURED_CORRECTLY."></span>**未正確設定此裝置。**</span><span class="sxs-lookup"><span data-stu-id="79c43-178"><span id="this_device_is_not_configured_correctly."></span><span id="THIS_DEVICE_IS_NOT_CONFIGURED_CORRECTLY."></span>**This device is not configured correctly.**</span></span> <span data-ttu-id="79c43-179">(1)</span><span class="sxs-lookup"><span data-stu-id="79c43-179">(1)</span></span>
+<span data-ttu-id="bc7fd-178"><span id="this_device_is_not_configured_correctly."></span><span id="THIS_DEVICE_IS_NOT_CONFIGURED_CORRECTLY."></span>**未正確設定此裝置。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-178"><span id="this_device_is_not_configured_correctly."></span><span id="THIS_DEVICE_IS_NOT_CONFIGURED_CORRECTLY."></span>**This device is not configured correctly.**</span></span> <span data-ttu-id="bc7fd-179">(1)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-179">(1)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-180">裝置未正確設定。</span><span class="sxs-lookup"><span data-stu-id="79c43-180">Device is not configured correctly.</span></span>
+<span data-ttu-id="bc7fd-180">裝置未正確設定。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-180">Device is not configured correctly.</span></span>
 
 </dd> <dt>
 
 <span id="Windows_cannot_load_the_driver_for_this_device."></span><span id="windows_cannot_load_the_driver_for_this_device."></span><span id="WINDOWS_CANNOT_LOAD_THE_DRIVER_FOR_THIS_DEVICE."></span>
 
-<span data-ttu-id="79c43-181"><span id="windows_cannot_load_the_driver_for_this_device."></span><span id="WINDOWS_CANNOT_LOAD_THE_DRIVER_FOR_THIS_DEVICE."></span>**Windows 無法載入此裝置的驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="79c43-181"><span id="windows_cannot_load_the_driver_for_this_device."></span><span id="WINDOWS_CANNOT_LOAD_THE_DRIVER_FOR_THIS_DEVICE."></span>**Windows cannot load the driver for this device.**</span></span> <span data-ttu-id="79c43-182">(2)</span><span class="sxs-lookup"><span data-stu-id="79c43-182">(2)</span></span>
+<span data-ttu-id="bc7fd-181"><span id="windows_cannot_load_the_driver_for_this_device."></span><span id="WINDOWS_CANNOT_LOAD_THE_DRIVER_FOR_THIS_DEVICE."></span>**Windows 無法載入此裝置的驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-181"><span id="windows_cannot_load_the_driver_for_this_device."></span><span id="WINDOWS_CANNOT_LOAD_THE_DRIVER_FOR_THIS_DEVICE."></span>**Windows cannot load the driver for this device.**</span></span> <span data-ttu-id="bc7fd-182">(2)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-182">(2)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="The_driver_for_this_device_might_be_corrupted__or_your_system_may_be_running_low_on_memory_or_other_resources."></span><span id="the_driver_for_this_device_might_be_corrupted__or_your_system_may_be_running_low_on_memory_or_other_resources."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_MIGHT_BE_CORRUPTED__OR_YOUR_SYSTEM_MAY_BE_RUNNING_LOW_ON_MEMORY_OR_OTHER_RESOURCES."></span>
 
-<span data-ttu-id="79c43-183"><span id="the_driver_for_this_device_might_be_corrupted__or_your_system_may_be_running_low_on_memory_or_other_resources."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_MIGHT_BE_CORRUPTED__OR_YOUR_SYSTEM_MAY_BE_RUNNING_LOW_ON_MEMORY_OR_OTHER_RESOURCES."></span>**此裝置的驅動程式可能已損毀，或您的系統可能記憶體不足或其他資源。**</span><span class="sxs-lookup"><span data-stu-id="79c43-183"><span id="the_driver_for_this_device_might_be_corrupted__or_your_system_may_be_running_low_on_memory_or_other_resources."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_MIGHT_BE_CORRUPTED__OR_YOUR_SYSTEM_MAY_BE_RUNNING_LOW_ON_MEMORY_OR_OTHER_RESOURCES."></span>**The driver for this device might be corrupted, or your system may be running low on memory or other resources.**</span></span> <span data-ttu-id="79c43-184">(3)</span><span class="sxs-lookup"><span data-stu-id="79c43-184">(3)</span></span>
+<span data-ttu-id="bc7fd-183"><span id="the_driver_for_this_device_might_be_corrupted__or_your_system_may_be_running_low_on_memory_or_other_resources."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_MIGHT_BE_CORRUPTED__OR_YOUR_SYSTEM_MAY_BE_RUNNING_LOW_ON_MEMORY_OR_OTHER_RESOURCES."></span>**此裝置的驅動程式可能已損毀，或您的系統可能記憶體不足或其他資源。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-183"><span id="the_driver_for_this_device_might_be_corrupted__or_your_system_may_be_running_low_on_memory_or_other_resources."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_MIGHT_BE_CORRUPTED__OR_YOUR_SYSTEM_MAY_BE_RUNNING_LOW_ON_MEMORY_OR_OTHER_RESOURCES."></span>**The driver for this device might be corrupted, or your system may be running low on memory or other resources.**</span></span> <span data-ttu-id="bc7fd-184">(3)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-184">(3)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-185">此裝置的驅動程式可能已損毀，或系統的記憶體或其他資源可能不足。</span><span class="sxs-lookup"><span data-stu-id="79c43-185">Driver for this device might be corrupted, or the system may be low on memory or other resources.</span></span>
+<span data-ttu-id="bc7fd-185">此裝置的驅動程式可能已損毀，或系統的記憶體或其他資源可能不足。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-185">Driver for this device might be corrupted, or the system may be low on memory or other resources.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_not_working_properly._One_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="this_device_is_not_working_properly._one_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY._ONE_OF_ITS_DRIVERS_OR_YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>
 
-<span data-ttu-id="79c43-186"><span id="This_device_is_not_working_properly._One_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="this_device_is_not_working_properly._one_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY._ONE_OF_ITS_DRIVERS_OR_YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>**此裝置無法正常運作。其中一個驅動程式或您的登錄可能已損毀。**</span><span class="sxs-lookup"><span data-stu-id="79c43-186"><span id="This_device_is_not_working_properly._One_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="this_device_is_not_working_properly._one_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY._ONE_OF_ITS_DRIVERS_OR_YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>**This device is not working properly. One of its drivers or your registry might be corrupted.**</span></span> <span data-ttu-id="79c43-187">(4)</span><span class="sxs-lookup"><span data-stu-id="79c43-187">(4)</span></span>
+<span data-ttu-id="bc7fd-186"><span id="This_device_is_not_working_properly._One_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="this_device_is_not_working_properly._one_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY._ONE_OF_ITS_DRIVERS_OR_YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>**此裝置無法正常運作。其中一個驅動程式或您的登錄可能已損毀。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-186"><span id="This_device_is_not_working_properly._One_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="this_device_is_not_working_properly._one_of_its_drivers_or_your_registry_might_be_corrupted."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY._ONE_OF_ITS_DRIVERS_OR_YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>**This device is not working properly. One of its drivers or your registry might be corrupted.**</span></span> <span data-ttu-id="bc7fd-187">(4)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-187">(4)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-188">裝置無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="79c43-188">Device is not working properly.</span></span> <span data-ttu-id="79c43-189">其中一個驅動程式或登錄可能已損毀。</span><span class="sxs-lookup"><span data-stu-id="79c43-189">One of its drivers or the registry might be corrupted.</span></span>
+<span data-ttu-id="bc7fd-188">裝置無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-188">Device is not working properly.</span></span> <span data-ttu-id="bc7fd-189">其中一個驅動程式或登錄可能已損毀。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-189">One of its drivers or the registry might be corrupted.</span></span>
 
 </dd> <dt>
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span data-ttu-id="79c43-190"><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**此裝置的驅動程式需要 Windows 無法管理的資源。**</span><span class="sxs-lookup"><span data-stu-id="79c43-190"><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**The driver for this device needs a resource that Windows cannot manage.**</span></span> <span data-ttu-id="79c43-191">(5)</span><span class="sxs-lookup"><span data-stu-id="79c43-191">(5)</span></span>
+<span data-ttu-id="bc7fd-190"><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**此裝置的驅動程式需要 Windows 無法管理的資源。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-190"><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**The driver for this device needs a resource that Windows cannot manage.**</span></span> <span data-ttu-id="bc7fd-191">(5)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-191">(5)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-192">裝置的驅動程式需要 Windows 無法管理的資源。</span><span class="sxs-lookup"><span data-stu-id="79c43-192">Driver for the device requires a resource that Windows cannot manage.</span></span>
+<span data-ttu-id="bc7fd-192">裝置的驅動程式需要 Windows 無法管理的資源。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-192">Driver for the device requires a resource that Windows cannot manage.</span></span>
 
 </dd> <dt>
 
 <span id="The_boot_configuration_for_this_device_conflicts_with_other_devices."></span><span id="the_boot_configuration_for_this_device_conflicts_with_other_devices."></span><span id="THE_BOOT_CONFIGURATION_FOR_THIS_DEVICE_CONFLICTS_WITH_OTHER_DEVICES."></span>
 
-<span data-ttu-id="79c43-193"><span id="the_boot_configuration_for_this_device_conflicts_with_other_devices."></span><span id="THE_BOOT_CONFIGURATION_FOR_THIS_DEVICE_CONFLICTS_WITH_OTHER_DEVICES."></span>**此裝置的開機設定與其他裝置發生衝突。**</span><span class="sxs-lookup"><span data-stu-id="79c43-193"><span id="the_boot_configuration_for_this_device_conflicts_with_other_devices."></span><span id="THE_BOOT_CONFIGURATION_FOR_THIS_DEVICE_CONFLICTS_WITH_OTHER_DEVICES."></span>**The boot configuration for this device conflicts with other devices.**</span></span> <span data-ttu-id="79c43-194">(6)</span><span class="sxs-lookup"><span data-stu-id="79c43-194">(6)</span></span>
+<span data-ttu-id="bc7fd-193"><span id="the_boot_configuration_for_this_device_conflicts_with_other_devices."></span><span id="THE_BOOT_CONFIGURATION_FOR_THIS_DEVICE_CONFLICTS_WITH_OTHER_DEVICES."></span>**此裝置的開機設定與其他裝置發生衝突。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-193"><span id="the_boot_configuration_for_this_device_conflicts_with_other_devices."></span><span id="THE_BOOT_CONFIGURATION_FOR_THIS_DEVICE_CONFLICTS_WITH_OTHER_DEVICES."></span>**The boot configuration for this device conflicts with other devices.**</span></span> <span data-ttu-id="bc7fd-194">(6)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-194">(6)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-195">裝置的開機設定與其他裝置發生衝突。</span><span class="sxs-lookup"><span data-stu-id="79c43-195">Boot configuration for the device conflicts with other devices.</span></span>
+<span data-ttu-id="bc7fd-195">裝置的開機設定與其他裝置發生衝突。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-195">Boot configuration for the device conflicts with other devices.</span></span>
 
 </dd> <dt>
 
 <span id="Cannot_filter."></span><span id="cannot_filter."></span><span id="CANNOT_FILTER."></span>
 
-<span data-ttu-id="79c43-196"><span id="cannot_filter."></span><span id="CANNOT_FILTER."></span>**無法篩選。**</span><span class="sxs-lookup"><span data-stu-id="79c43-196"><span id="cannot_filter."></span><span id="CANNOT_FILTER."></span>**Cannot filter.**</span></span> <span data-ttu-id="79c43-197">(7)</span><span class="sxs-lookup"><span data-stu-id="79c43-197">(7)</span></span>
+<span data-ttu-id="bc7fd-196"><span id="cannot_filter."></span><span id="CANNOT_FILTER."></span>**無法篩選。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-196"><span id="cannot_filter."></span><span id="CANNOT_FILTER."></span>**Cannot filter.**</span></span> <span data-ttu-id="bc7fd-197">(7)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-197">(7)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="The_driver_loader_for_the_device_is_missing."></span><span id="the_driver_loader_for_the_device_is_missing."></span><span id="THE_DRIVER_LOADER_FOR_THE_DEVICE_IS_MISSING."></span>
 
-<span data-ttu-id="79c43-198"><span id="the_driver_loader_for_the_device_is_missing."></span><span id="THE_DRIVER_LOADER_FOR_THE_DEVICE_IS_MISSING."></span>**裝置的驅動程式載入器已遺失。**</span><span class="sxs-lookup"><span data-stu-id="79c43-198"><span id="the_driver_loader_for_the_device_is_missing."></span><span id="THE_DRIVER_LOADER_FOR_THE_DEVICE_IS_MISSING."></span>**The driver loader for the device is missing.**</span></span> <span data-ttu-id="79c43-199">(8)</span><span class="sxs-lookup"><span data-stu-id="79c43-199">(8)</span></span>
+<span data-ttu-id="bc7fd-198"><span id="the_driver_loader_for_the_device_is_missing."></span><span id="THE_DRIVER_LOADER_FOR_THE_DEVICE_IS_MISSING."></span>**裝置的驅動程式載入器已遺失。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-198"><span id="the_driver_loader_for_the_device_is_missing."></span><span id="THE_DRIVER_LOADER_FOR_THE_DEVICE_IS_MISSING."></span>**The driver loader for the device is missing.**</span></span> <span data-ttu-id="bc7fd-199">(8)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-199">(8)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-200">遺漏裝置的驅動程式載入器。</span><span class="sxs-lookup"><span data-stu-id="79c43-200">Driver loader for the device is missing.</span></span>
+<span data-ttu-id="bc7fd-200">遺漏裝置的驅動程式載入器。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-200">Driver loader for the device is missing.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_not_working_properly_because_the_controlling_firmware_is_reporting_the_resources_for_the_device_incorrectly."></span><span id="this_device_is_not_working_properly_because_the_controlling_firmware_is_reporting_the_resources_for_the_device_incorrectly."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THE_CONTROLLING_FIRMWARE_IS_REPORTING_THE_RESOURCES_FOR_THE_DEVICE_INCORRECTLY."></span>
 
-<span data-ttu-id="79c43-201"><span id="this_device_is_not_working_properly_because_the_controlling_firmware_is_reporting_the_resources_for_the_device_incorrectly."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THE_CONTROLLING_FIRMWARE_IS_REPORTING_THE_RESOURCES_FOR_THE_DEVICE_INCORRECTLY."></span>**此裝置無法正常運作，因為控制固件未正確報告裝置的資源。**</span><span class="sxs-lookup"><span data-stu-id="79c43-201"><span id="this_device_is_not_working_properly_because_the_controlling_firmware_is_reporting_the_resources_for_the_device_incorrectly."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THE_CONTROLLING_FIRMWARE_IS_REPORTING_THE_RESOURCES_FOR_THE_DEVICE_INCORRECTLY."></span>**This device is not working properly because the controlling firmware is reporting the resources for the device incorrectly.**</span></span> <span data-ttu-id="79c43-202">(9)</span><span class="sxs-lookup"><span data-stu-id="79c43-202">(9)</span></span>
+<span data-ttu-id="bc7fd-201"><span id="this_device_is_not_working_properly_because_the_controlling_firmware_is_reporting_the_resources_for_the_device_incorrectly."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THE_CONTROLLING_FIRMWARE_IS_REPORTING_THE_RESOURCES_FOR_THE_DEVICE_INCORRECTLY."></span>**此裝置無法正常運作，因為控制固件未正確報告裝置的資源。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-201"><span id="this_device_is_not_working_properly_because_the_controlling_firmware_is_reporting_the_resources_for_the_device_incorrectly."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THE_CONTROLLING_FIRMWARE_IS_REPORTING_THE_RESOURCES_FOR_THE_DEVICE_INCORRECTLY."></span>**This device is not working properly because the controlling firmware is reporting the resources for the device incorrectly.**</span></span> <span data-ttu-id="bc7fd-202">(9)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-202">(9)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-203">裝置無法正常運作;控制的固件未正確報告裝置的資源。</span><span class="sxs-lookup"><span data-stu-id="79c43-203">Device is not working properly; the controlling firmware is incorrectly reporting the resources for the device.</span></span>
+<span data-ttu-id="bc7fd-203">裝置無法正常運作;控制的固件未正確報告裝置的資源。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-203">Device is not working properly; the controlling firmware is incorrectly reporting the resources for the device.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_cannot_start."></span><span id="this_device_cannot_start."></span><span id="THIS_DEVICE_CANNOT_START."></span>
 
-<span data-ttu-id="79c43-204"><span id="this_device_cannot_start."></span><span id="THIS_DEVICE_CANNOT_START."></span>**此裝置無法啟動。**</span><span class="sxs-lookup"><span data-stu-id="79c43-204"><span id="this_device_cannot_start."></span><span id="THIS_DEVICE_CANNOT_START."></span>**This device cannot start.**</span></span> <span data-ttu-id="79c43-205">(10)</span><span class="sxs-lookup"><span data-stu-id="79c43-205">(10)</span></span>
+<span data-ttu-id="bc7fd-204"><span id="this_device_cannot_start."></span><span id="THIS_DEVICE_CANNOT_START."></span>**此裝置無法啟動。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-204"><span id="this_device_cannot_start."></span><span id="THIS_DEVICE_CANNOT_START."></span>**This device cannot start.**</span></span> <span data-ttu-id="bc7fd-205">(10)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-205">(10)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-206">裝置無法啟動。</span><span class="sxs-lookup"><span data-stu-id="79c43-206">Device cannot start.</span></span>
+<span data-ttu-id="bc7fd-206">裝置無法啟動。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-206">Device cannot start.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_failed."></span><span id="this_device_failed."></span><span id="THIS_DEVICE_FAILED."></span>
 
-<span data-ttu-id="79c43-207"><span id="this_device_failed."></span><span id="THIS_DEVICE_FAILED."></span>**此裝置失敗。**</span><span class="sxs-lookup"><span data-stu-id="79c43-207"><span id="this_device_failed."></span><span id="THIS_DEVICE_FAILED."></span>**This device failed.**</span></span> <span data-ttu-id="79c43-208">(11)</span><span class="sxs-lookup"><span data-stu-id="79c43-208">(11)</span></span>
+<span data-ttu-id="bc7fd-207"><span id="this_device_failed."></span><span id="THIS_DEVICE_FAILED."></span>**此裝置失敗。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-207"><span id="this_device_failed."></span><span id="THIS_DEVICE_FAILED."></span>**This device failed.**</span></span> <span data-ttu-id="bc7fd-208">(11)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-208">(11)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-209">裝置失敗。</span><span class="sxs-lookup"><span data-stu-id="79c43-209">Device failed.</span></span>
+<span data-ttu-id="bc7fd-209">裝置失敗。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-209">Device failed.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_cannot_find_enough_free_resources_that_it_can_use."></span><span id="this_device_cannot_find_enough_free_resources_that_it_can_use."></span><span id="THIS_DEVICE_CANNOT_FIND_ENOUGH_FREE_RESOURCES_THAT_IT_CAN_USE."></span>
 
-<span data-ttu-id="79c43-210"><span id="this_device_cannot_find_enough_free_resources_that_it_can_use."></span><span id="THIS_DEVICE_CANNOT_FIND_ENOUGH_FREE_RESOURCES_THAT_IT_CAN_USE."></span>**此裝置找不到足夠的可用資源。**</span><span class="sxs-lookup"><span data-stu-id="79c43-210"><span id="this_device_cannot_find_enough_free_resources_that_it_can_use."></span><span id="THIS_DEVICE_CANNOT_FIND_ENOUGH_FREE_RESOURCES_THAT_IT_CAN_USE."></span>**This device cannot find enough free resources that it can use.**</span></span> <span data-ttu-id="79c43-211"> (12) </span><span class="sxs-lookup"><span data-stu-id="79c43-211">(12)</span></span>
+<span data-ttu-id="bc7fd-210"><span id="this_device_cannot_find_enough_free_resources_that_it_can_use."></span><span id="THIS_DEVICE_CANNOT_FIND_ENOUGH_FREE_RESOURCES_THAT_IT_CAN_USE."></span>**此裝置找不到足夠的可用資源。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-210"><span id="this_device_cannot_find_enough_free_resources_that_it_can_use."></span><span id="THIS_DEVICE_CANNOT_FIND_ENOUGH_FREE_RESOURCES_THAT_IT_CAN_USE."></span>**This device cannot find enough free resources that it can use.**</span></span> <span data-ttu-id="bc7fd-211"> (12) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-211">(12)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-212">裝置找不到足夠的可用資源。</span><span class="sxs-lookup"><span data-stu-id="79c43-212">Device cannot find enough free resources to use.</span></span>
+<span data-ttu-id="bc7fd-212">裝置找不到足夠的可用資源。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-212">Device cannot find enough free resources to use.</span></span>
 
 </dd> <dt>
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-<span data-ttu-id="79c43-213"><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows 無法驗證此裝置的資源。**</span><span class="sxs-lookup"><span data-stu-id="79c43-213"><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows cannot verify this device's resources.**</span></span> <span data-ttu-id="79c43-214">(13)</span><span class="sxs-lookup"><span data-stu-id="79c43-214">(13)</span></span>
+<span data-ttu-id="bc7fd-213"><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows 無法驗證此裝置的資源。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-213"><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows cannot verify this device's resources.**</span></span> <span data-ttu-id="bc7fd-214">(13)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-214">(13)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-215">Windows 無法驗證裝置的資源。</span><span class="sxs-lookup"><span data-stu-id="79c43-215">Windows cannot verify the device's resources.</span></span>
+<span data-ttu-id="bc7fd-215">Windows 無法驗證裝置的資源。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-215">Windows cannot verify the device's resources.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_cannot_work_properly_until_you_restart_your_computer."></span><span id="this_device_cannot_work_properly_until_you_restart_your_computer."></span><span id="THIS_DEVICE_CANNOT_WORK_PROPERLY_UNTIL_YOU_RESTART_YOUR_COMPUTER."></span>
 
-<span data-ttu-id="79c43-216"><span id="this_device_cannot_work_properly_until_you_restart_your_computer."></span><span id="THIS_DEVICE_CANNOT_WORK_PROPERLY_UNTIL_YOU_RESTART_YOUR_COMPUTER."></span>**在您重新開機電腦之前，此裝置無法正常運作。**</span><span class="sxs-lookup"><span data-stu-id="79c43-216"><span id="this_device_cannot_work_properly_until_you_restart_your_computer."></span><span id="THIS_DEVICE_CANNOT_WORK_PROPERLY_UNTIL_YOU_RESTART_YOUR_COMPUTER."></span>**This device cannot work properly until you restart your computer.**</span></span> <span data-ttu-id="79c43-217">(14)</span><span class="sxs-lookup"><span data-stu-id="79c43-217">(14)</span></span>
+<span data-ttu-id="bc7fd-216"><span id="this_device_cannot_work_properly_until_you_restart_your_computer."></span><span id="THIS_DEVICE_CANNOT_WORK_PROPERLY_UNTIL_YOU_RESTART_YOUR_COMPUTER."></span>**在您重新開機電腦之前，此裝置無法正常運作。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-216"><span id="this_device_cannot_work_properly_until_you_restart_your_computer."></span><span id="THIS_DEVICE_CANNOT_WORK_PROPERLY_UNTIL_YOU_RESTART_YOUR_COMPUTER."></span>**This device cannot work properly until you restart your computer.**</span></span> <span data-ttu-id="bc7fd-217">(14)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-217">(14)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-218">裝置在重新開機電腦之前無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="79c43-218">Device cannot work properly until the computer is restarted.</span></span>
+<span data-ttu-id="bc7fd-218">裝置在重新開機電腦之前無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-218">Device cannot work properly until the computer is restarted.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="this_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THERE_IS_PROBABLY_A_RE-ENUMERATION_PROBLEM."></span>
 
-<span data-ttu-id="79c43-219"><span id="This_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="this_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THERE_IS_PROBABLY_A_RE-ENUMERATION_PROBLEM."></span>**此裝置無法正常運作，因為可能有重新列舉的問題。**</span><span class="sxs-lookup"><span data-stu-id="79c43-219"><span id="This_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="this_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THERE_IS_PROBABLY_A_RE-ENUMERATION_PROBLEM."></span>**This device is not working properly because there is probably a re-enumeration problem.**</span></span> <span data-ttu-id="79c43-220">(15)</span><span class="sxs-lookup"><span data-stu-id="79c43-220">(15)</span></span>
+<span data-ttu-id="bc7fd-219"><span id="This_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="this_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THERE_IS_PROBABLY_A_RE-ENUMERATION_PROBLEM."></span>**此裝置無法正常運作，因為可能有重新列舉的問題。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-219"><span id="This_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="this_device_is_not_working_properly_because_there_is_probably_a_re-enumeration_problem."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_THERE_IS_PROBABLY_A_RE-ENUMERATION_PROBLEM."></span>**This device is not working properly because there is probably a re-enumeration problem.**</span></span> <span data-ttu-id="bc7fd-220">(15)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-220">(15)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-221">裝置因可能的重新列舉問題而無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="79c43-221">Device is not working properly due to a possible re-enumeration problem.</span></span>
+<span data-ttu-id="bc7fd-221">裝置因可能的重新列舉問題而無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-221">Device is not working properly due to a possible re-enumeration problem.</span></span>
 
 </dd> <dt>
 
 <span id="Windows_cannot_identify_all_the_resources_this_device_uses."></span><span id="windows_cannot_identify_all_the_resources_this_device_uses."></span><span id="WINDOWS_CANNOT_IDENTIFY_ALL_THE_RESOURCES_THIS_DEVICE_USES."></span>
 
-<span data-ttu-id="79c43-222"><span id="windows_cannot_identify_all_the_resources_this_device_uses."></span><span id="WINDOWS_CANNOT_IDENTIFY_ALL_THE_RESOURCES_THIS_DEVICE_USES."></span>**Windows 無法識別此裝置使用的所有資源。**</span><span class="sxs-lookup"><span data-stu-id="79c43-222"><span id="windows_cannot_identify_all_the_resources_this_device_uses."></span><span id="WINDOWS_CANNOT_IDENTIFY_ALL_THE_RESOURCES_THIS_DEVICE_USES."></span>**Windows cannot identify all the resources this device uses.**</span></span> <span data-ttu-id="79c43-223">(16)</span><span class="sxs-lookup"><span data-stu-id="79c43-223">(16)</span></span>
+<span data-ttu-id="bc7fd-222"><span id="windows_cannot_identify_all_the_resources_this_device_uses."></span><span id="WINDOWS_CANNOT_IDENTIFY_ALL_THE_RESOURCES_THIS_DEVICE_USES."></span>**Windows 無法識別此裝置使用的所有資源。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-222"><span id="windows_cannot_identify_all_the_resources_this_device_uses."></span><span id="WINDOWS_CANNOT_IDENTIFY_ALL_THE_RESOURCES_THIS_DEVICE_USES."></span>**Windows cannot identify all the resources this device uses.**</span></span> <span data-ttu-id="bc7fd-223">(16)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-223">(16)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-224">Windows 無法識別裝置使用的所有資源。</span><span class="sxs-lookup"><span data-stu-id="79c43-224">Windows cannot identify all of the resources that the device uses.</span></span>
+<span data-ttu-id="bc7fd-224">Windows 無法識別裝置使用的所有資源。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-224">Windows cannot identify all of the resources that the device uses.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_asking_for_an_unknown_resource_type."></span><span id="this_device_is_asking_for_an_unknown_resource_type."></span><span id="THIS_DEVICE_IS_ASKING_FOR_AN_UNKNOWN_RESOURCE_TYPE."></span>
 
-<span data-ttu-id="79c43-225"><span id="this_device_is_asking_for_an_unknown_resource_type."></span><span id="THIS_DEVICE_IS_ASKING_FOR_AN_UNKNOWN_RESOURCE_TYPE."></span>**此裝置要求的資源類型不明。**</span><span class="sxs-lookup"><span data-stu-id="79c43-225"><span id="this_device_is_asking_for_an_unknown_resource_type."></span><span id="THIS_DEVICE_IS_ASKING_FOR_AN_UNKNOWN_RESOURCE_TYPE."></span>**This device is asking for an unknown resource type.**</span></span> <span data-ttu-id="79c43-226">(17)</span><span class="sxs-lookup"><span data-stu-id="79c43-226">(17)</span></span>
+<span data-ttu-id="bc7fd-225"><span id="this_device_is_asking_for_an_unknown_resource_type."></span><span id="THIS_DEVICE_IS_ASKING_FOR_AN_UNKNOWN_RESOURCE_TYPE."></span>**此裝置要求的資源類型不明。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-225"><span id="this_device_is_asking_for_an_unknown_resource_type."></span><span id="THIS_DEVICE_IS_ASKING_FOR_AN_UNKNOWN_RESOURCE_TYPE."></span>**This device is asking for an unknown resource type.**</span></span> <span data-ttu-id="bc7fd-226">(17)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-226">(17)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-227">裝置正在要求未知的資源類型。</span><span class="sxs-lookup"><span data-stu-id="79c43-227">Device is requesting an unknown resource type.</span></span>
+<span data-ttu-id="bc7fd-227">裝置正在要求未知的資源類型。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-227">Device is requesting an unknown resource type.</span></span>
 
 </dd> <dt>
 
 <span id="Reinstall_the_drivers_for_this_device."></span><span id="reinstall_the_drivers_for_this_device."></span><span id="REINSTALL_THE_DRIVERS_FOR_THIS_DEVICE."></span>
 
-<span data-ttu-id="79c43-228"><span id="reinstall_the_drivers_for_this_device."></span><span id="REINSTALL_THE_DRIVERS_FOR_THIS_DEVICE."></span>**重新安裝此裝置的驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="79c43-228"><span id="reinstall_the_drivers_for_this_device."></span><span id="REINSTALL_THE_DRIVERS_FOR_THIS_DEVICE."></span>**Reinstall the drivers for this device.**</span></span> <span data-ttu-id="79c43-229">(18)</span><span class="sxs-lookup"><span data-stu-id="79c43-229">(18)</span></span>
+<span data-ttu-id="bc7fd-228"><span id="reinstall_the_drivers_for_this_device."></span><span id="REINSTALL_THE_DRIVERS_FOR_THIS_DEVICE."></span>**重新安裝此裝置的驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-228"><span id="reinstall_the_drivers_for_this_device."></span><span id="REINSTALL_THE_DRIVERS_FOR_THIS_DEVICE."></span>**Reinstall the drivers for this device.**</span></span> <span data-ttu-id="bc7fd-229">(18)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-229">(18)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-230">必須重新安裝設備磁碟機。</span><span class="sxs-lookup"><span data-stu-id="79c43-230">Device drivers must be reinstalled.</span></span>
+<span data-ttu-id="bc7fd-230">必須重新安裝設備磁碟機。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-230">Device drivers must be reinstalled.</span></span>
 
 </dd> <dt>
 
 <span id="Failure_using_the_VxD_loader."></span><span id="failure_using_the_vxd_loader."></span><span id="FAILURE_USING_THE_VXD_LOADER."></span>
 
-<span data-ttu-id="79c43-231"><span id="failure_using_the_vxd_loader."></span><span id="FAILURE_USING_THE_VXD_LOADER."></span>**使用 VxD 載入器失敗。**</span><span class="sxs-lookup"><span data-stu-id="79c43-231"><span id="failure_using_the_vxd_loader."></span><span id="FAILURE_USING_THE_VXD_LOADER."></span>**Failure using the VxD loader.**</span></span> <span data-ttu-id="79c43-232">(19)</span><span class="sxs-lookup"><span data-stu-id="79c43-232">(19)</span></span>
+<span data-ttu-id="bc7fd-231"><span id="failure_using_the_vxd_loader."></span><span id="FAILURE_USING_THE_VXD_LOADER."></span>**使用 VxD 載入器失敗。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-231"><span id="failure_using_the_vxd_loader."></span><span id="FAILURE_USING_THE_VXD_LOADER."></span>**Failure using the VxD loader.**</span></span> <span data-ttu-id="bc7fd-232">(19)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-232">(19)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Your_registry_might_be_corrupted."></span><span id="your_registry_might_be_corrupted."></span><span id="YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>
 
-<span data-ttu-id="79c43-233"><span id="your_registry_might_be_corrupted."></span><span id="YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>**您的登錄可能已損毀。**</span><span class="sxs-lookup"><span data-stu-id="79c43-233"><span id="your_registry_might_be_corrupted."></span><span id="YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>**Your registry might be corrupted.**</span></span> <span data-ttu-id="79c43-234">(20)</span><span class="sxs-lookup"><span data-stu-id="79c43-234">(20)</span></span>
+<span data-ttu-id="bc7fd-233"><span id="your_registry_might_be_corrupted."></span><span id="YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>**您的登錄可能已損毀。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-233"><span id="your_registry_might_be_corrupted."></span><span id="YOUR_REGISTRY_MIGHT_BE_CORRUPTED."></span>**Your registry might be corrupted.**</span></span> <span data-ttu-id="bc7fd-234">(20)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-234">(20)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-235">登錄可能已損毀。</span><span class="sxs-lookup"><span data-stu-id="79c43-235">Registry might be corrupted.</span></span>
+<span data-ttu-id="bc7fd-235">登錄可能已損毀。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-235">Registry might be corrupted.</span></span>
 
 </dd> <dt>
 
 <span id="System_failure__Try_changing_the_driver_for_this_device._If_that_does_not_work__see_your_hardware_documentation._Windows_is_removing_this_device."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_does_not_work__see_your_hardware_documentation._windows_is_removing_this_device."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOES_NOT_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION._WINDOWS_IS_REMOVING_THIS_DEVICE."></span>
 
-<span data-ttu-id="79c43-236"><span id="System_failure__Try_changing_the_driver_for_this_device._If_that_does_not_work__see_your_hardware_documentation._Windows_is_removing_this_device."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_does_not_work__see_your_hardware_documentation._windows_is_removing_this_device."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOES_NOT_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION._WINDOWS_IS_REMOVING_THIS_DEVICE."></span>**系統失敗：嘗試變更此裝置的驅動程式。如果無法運作，請參閱您的硬體檔。Windows 正在移除此裝置。**</span><span class="sxs-lookup"><span data-stu-id="79c43-236"><span id="System_failure__Try_changing_the_driver_for_this_device._If_that_does_not_work__see_your_hardware_documentation._Windows_is_removing_this_device."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_does_not_work__see_your_hardware_documentation._windows_is_removing_this_device."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOES_NOT_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION._WINDOWS_IS_REMOVING_THIS_DEVICE."></span>**System failure: Try changing the driver for this device. If that does not work, see your hardware documentation. Windows is removing this device.**</span></span> <span data-ttu-id="79c43-237">(21)</span><span class="sxs-lookup"><span data-stu-id="79c43-237">(21)</span></span>
+<span data-ttu-id="bc7fd-236"><span id="System_failure__Try_changing_the_driver_for_this_device._If_that_does_not_work__see_your_hardware_documentation._Windows_is_removing_this_device."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_does_not_work__see_your_hardware_documentation._windows_is_removing_this_device."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOES_NOT_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION._WINDOWS_IS_REMOVING_THIS_DEVICE."></span>**系統失敗：嘗試變更此裝置的驅動程式。如果無法運作，請參閱您的硬體檔。Windows 正在移除此裝置。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-236"><span id="System_failure__Try_changing_the_driver_for_this_device._If_that_does_not_work__see_your_hardware_documentation._Windows_is_removing_this_device."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_does_not_work__see_your_hardware_documentation._windows_is_removing_this_device."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOES_NOT_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION._WINDOWS_IS_REMOVING_THIS_DEVICE."></span>**System failure: Try changing the driver for this device. If that does not work, see your hardware documentation. Windows is removing this device.**</span></span> <span data-ttu-id="bc7fd-237">(21)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-237">(21)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-238">系統失敗。</span><span class="sxs-lookup"><span data-stu-id="79c43-238">System failure.</span></span> <span data-ttu-id="79c43-239">如果變更設備磁碟機是不正確，請參閱硬體檔。</span><span class="sxs-lookup"><span data-stu-id="79c43-239">If changing the device driver is ineffective, see the hardware documentation.</span></span> <span data-ttu-id="79c43-240">Windows 正在移除裝置。</span><span class="sxs-lookup"><span data-stu-id="79c43-240">Windows is removing the device.</span></span>
+<span data-ttu-id="bc7fd-238">系統失敗。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-238">System failure.</span></span> <span data-ttu-id="bc7fd-239">如果變更設備磁碟機是不正確，請參閱硬體檔。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-239">If changing the device driver is ineffective, see the hardware documentation.</span></span> <span data-ttu-id="bc7fd-240">Windows 正在移除裝置。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-240">Windows is removing the device.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_disabled."></span><span id="this_device_is_disabled."></span><span id="THIS_DEVICE_IS_DISABLED."></span>
 
-<span data-ttu-id="79c43-241"><span id="this_device_is_disabled."></span><span id="THIS_DEVICE_IS_DISABLED."></span>**此裝置已停用。**</span><span class="sxs-lookup"><span data-stu-id="79c43-241"><span id="this_device_is_disabled."></span><span id="THIS_DEVICE_IS_DISABLED."></span>**This device is disabled.**</span></span> <span data-ttu-id="79c43-242">(22)</span><span class="sxs-lookup"><span data-stu-id="79c43-242">(22)</span></span>
+<span data-ttu-id="bc7fd-241"><span id="this_device_is_disabled."></span><span id="THIS_DEVICE_IS_DISABLED."></span>**此裝置已停用。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-241"><span id="this_device_is_disabled."></span><span id="THIS_DEVICE_IS_DISABLED."></span>**This device is disabled.**</span></span> <span data-ttu-id="bc7fd-242">(22)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-242">(22)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-243">裝置已停用。</span><span class="sxs-lookup"><span data-stu-id="79c43-243">Device is disabled.</span></span>
+<span data-ttu-id="bc7fd-243">裝置已停用。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-243">Device is disabled.</span></span>
 
 </dd> <dt>
 
 <span id="System_failure__Try_changing_the_driver_for_this_device._If_that_doesn_t_work__see_your_hardware_documentation."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_doesn_t_work__see_your_hardware_documentation."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOESN_T_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION."></span>
 
-<span data-ttu-id="79c43-244"><span id="System_failure__Try_changing_the_driver_for_this_device._If_that_doesn_t_work__see_your_hardware_documentation."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_doesn_t_work__see_your_hardware_documentation."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOESN_T_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION."></span>**系統失敗：嘗試變更此裝置的驅動程式。如果無法運作，請參閱您的硬體檔。**</span><span class="sxs-lookup"><span data-stu-id="79c43-244"><span id="System_failure__Try_changing_the_driver_for_this_device._If_that_doesn_t_work__see_your_hardware_documentation."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_doesn_t_work__see_your_hardware_documentation."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOESN_T_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION."></span>**System failure: Try changing the driver for this device. If that doesn't work, see your hardware documentation.**</span></span> <span data-ttu-id="79c43-245">(23)</span><span class="sxs-lookup"><span data-stu-id="79c43-245">(23)</span></span>
+<span data-ttu-id="bc7fd-244"><span id="System_failure__Try_changing_the_driver_for_this_device._If_that_doesn_t_work__see_your_hardware_documentation."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_doesn_t_work__see_your_hardware_documentation."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOESN_T_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION."></span>**系統失敗：嘗試變更此裝置的驅動程式。如果無法運作，請參閱您的硬體檔。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-244"><span id="System_failure__Try_changing_the_driver_for_this_device._If_that_doesn_t_work__see_your_hardware_documentation."></span><span id="system_failure__try_changing_the_driver_for_this_device._if_that_doesn_t_work__see_your_hardware_documentation."></span><span id="SYSTEM_FAILURE__TRY_CHANGING_THE_DRIVER_FOR_THIS_DEVICE._IF_THAT_DOESN_T_WORK__SEE_YOUR_HARDWARE_DOCUMENTATION."></span>**System failure: Try changing the driver for this device. If that doesn't work, see your hardware documentation.**</span></span> <span data-ttu-id="bc7fd-245">(23)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-245">(23)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-246">系統失敗。</span><span class="sxs-lookup"><span data-stu-id="79c43-246">System failure.</span></span> <span data-ttu-id="79c43-247">如果變更設備磁碟機是不正確，請參閱硬體檔。</span><span class="sxs-lookup"><span data-stu-id="79c43-247">If changing the device driver is ineffective, see the hardware documentation.</span></span>
+<span data-ttu-id="bc7fd-246">系統失敗。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-246">System failure.</span></span> <span data-ttu-id="bc7fd-247">如果變更設備磁碟機是不正確，請參閱硬體檔。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-247">If changing the device driver is ineffective, see the hardware documentation.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_not_present__is_not_working_properly__or_does_not_have_all_its_drivers_installed."></span><span id="this_device_is_not_present__is_not_working_properly__or_does_not_have_all_its_drivers_installed."></span><span id="THIS_DEVICE_IS_NOT_PRESENT__IS_NOT_WORKING_PROPERLY__OR_DOES_NOT_HAVE_ALL_ITS_DRIVERS_INSTALLED."></span>
 
-<span data-ttu-id="79c43-248"><span id="this_device_is_not_present__is_not_working_properly__or_does_not_have_all_its_drivers_installed."></span><span id="THIS_DEVICE_IS_NOT_PRESENT__IS_NOT_WORKING_PROPERLY__OR_DOES_NOT_HAVE_ALL_ITS_DRIVERS_INSTALLED."></span>**此裝置不存在、未正常運作，或未安裝其所有驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="79c43-248"><span id="this_device_is_not_present__is_not_working_properly__or_does_not_have_all_its_drivers_installed."></span><span id="THIS_DEVICE_IS_NOT_PRESENT__IS_NOT_WORKING_PROPERLY__OR_DOES_NOT_HAVE_ALL_ITS_DRIVERS_INSTALLED."></span>**This device is not present, is not working properly, or does not have all its drivers installed.**</span></span> <span data-ttu-id="79c43-249">(24)</span><span class="sxs-lookup"><span data-stu-id="79c43-249">(24)</span></span>
+<span data-ttu-id="bc7fd-248"><span id="this_device_is_not_present__is_not_working_properly__or_does_not_have_all_its_drivers_installed."></span><span id="THIS_DEVICE_IS_NOT_PRESENT__IS_NOT_WORKING_PROPERLY__OR_DOES_NOT_HAVE_ALL_ITS_DRIVERS_INSTALLED."></span>**此裝置不存在、未正常運作，或未安裝其所有驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-248"><span id="this_device_is_not_present__is_not_working_properly__or_does_not_have_all_its_drivers_installed."></span><span id="THIS_DEVICE_IS_NOT_PRESENT__IS_NOT_WORKING_PROPERLY__OR_DOES_NOT_HAVE_ALL_ITS_DRIVERS_INSTALLED."></span>**This device is not present, is not working properly, or does not have all its drivers installed.**</span></span> <span data-ttu-id="bc7fd-249">(24)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-249">(24)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-250">裝置不存在、無法正常運作，或未安裝所有的驅動程式。</span><span class="sxs-lookup"><span data-stu-id="79c43-250">Device is not present, not working properly, or does not have all of its drivers installed.</span></span>
+<span data-ttu-id="bc7fd-250">裝置不存在、無法正常運作，或未安裝所有的驅動程式。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-250">Device is not present, not working properly, or does not have all of its drivers installed.</span></span>
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span data-ttu-id="79c43-251"><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows 仍在設定此裝置。**</span><span class="sxs-lookup"><span data-stu-id="79c43-251"><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows is still setting up this device.**</span></span> <span data-ttu-id="79c43-252">(25)</span><span class="sxs-lookup"><span data-stu-id="79c43-252">(25)</span></span>
+<span data-ttu-id="bc7fd-251"><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows 仍在設定此裝置。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-251"><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows is still setting up this device.**</span></span> <span data-ttu-id="bc7fd-252">(25)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-252">(25)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-253">Windows 仍在設定裝置。</span><span class="sxs-lookup"><span data-stu-id="79c43-253">Windows is still setting up the device.</span></span>
+<span data-ttu-id="bc7fd-253">Windows 仍在設定裝置。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-253">Windows is still setting up the device.</span></span>
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span data-ttu-id="79c43-254"><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows 仍在設定此裝置。**</span><span class="sxs-lookup"><span data-stu-id="79c43-254"><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows is still setting up this device.**</span></span> <span data-ttu-id="79c43-255">(26)</span><span class="sxs-lookup"><span data-stu-id="79c43-255">(26)</span></span>
+<span data-ttu-id="bc7fd-254"><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows 仍在設定此裝置。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-254"><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows is still setting up this device.**</span></span> <span data-ttu-id="bc7fd-255">(26)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-255">(26)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-256">Windows 仍在設定裝置。</span><span class="sxs-lookup"><span data-stu-id="79c43-256">Windows is still setting up the device.</span></span>
+<span data-ttu-id="bc7fd-256">Windows 仍在設定裝置。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-256">Windows is still setting up the device.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_does_not_have_valid_log_configuration."></span><span id="this_device_does_not_have_valid_log_configuration."></span><span id="THIS_DEVICE_DOES_NOT_HAVE_VALID_LOG_CONFIGURATION."></span>
 
-<span data-ttu-id="79c43-257"><span id="this_device_does_not_have_valid_log_configuration."></span><span id="THIS_DEVICE_DOES_NOT_HAVE_VALID_LOG_CONFIGURATION."></span>**此裝置沒有有效的記錄檔設定。**</span><span class="sxs-lookup"><span data-stu-id="79c43-257"><span id="this_device_does_not_have_valid_log_configuration."></span><span id="THIS_DEVICE_DOES_NOT_HAVE_VALID_LOG_CONFIGURATION."></span>**This device does not have valid log configuration.**</span></span> <span data-ttu-id="79c43-258">(27)</span><span class="sxs-lookup"><span data-stu-id="79c43-258">(27)</span></span>
+<span data-ttu-id="bc7fd-257"><span id="this_device_does_not_have_valid_log_configuration."></span><span id="THIS_DEVICE_DOES_NOT_HAVE_VALID_LOG_CONFIGURATION."></span>**此裝置沒有有效的記錄檔設定。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-257"><span id="this_device_does_not_have_valid_log_configuration."></span><span id="THIS_DEVICE_DOES_NOT_HAVE_VALID_LOG_CONFIGURATION."></span>**This device does not have valid log configuration.**</span></span> <span data-ttu-id="bc7fd-258">(27)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-258">(27)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-259">裝置沒有有效的記錄檔設定。</span><span class="sxs-lookup"><span data-stu-id="79c43-259">Device does not have valid log configuration.</span></span>
+<span data-ttu-id="bc7fd-259">裝置沒有有效的記錄檔設定。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-259">Device does not have valid log configuration.</span></span>
 
 </dd> <dt>
 
 <span id="The_drivers_for_this_device_are_not_installed."></span><span id="the_drivers_for_this_device_are_not_installed."></span><span id="THE_DRIVERS_FOR_THIS_DEVICE_ARE_NOT_INSTALLED."></span>
 
-<span data-ttu-id="79c43-260"><span id="the_drivers_for_this_device_are_not_installed."></span><span id="THE_DRIVERS_FOR_THIS_DEVICE_ARE_NOT_INSTALLED."></span>**未安裝此裝置的驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="79c43-260"><span id="the_drivers_for_this_device_are_not_installed."></span><span id="THE_DRIVERS_FOR_THIS_DEVICE_ARE_NOT_INSTALLED."></span>**The drivers for this device are not installed.**</span></span> <span data-ttu-id="79c43-261">(28)</span><span class="sxs-lookup"><span data-stu-id="79c43-261">(28)</span></span>
+<span data-ttu-id="bc7fd-260"><span id="the_drivers_for_this_device_are_not_installed."></span><span id="THE_DRIVERS_FOR_THIS_DEVICE_ARE_NOT_INSTALLED."></span>**未安裝此裝置的驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-260"><span id="the_drivers_for_this_device_are_not_installed."></span><span id="THE_DRIVERS_FOR_THIS_DEVICE_ARE_NOT_INSTALLED."></span>**The drivers for this device are not installed.**</span></span> <span data-ttu-id="bc7fd-261">(28)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-261">(28)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-262">未安裝設備磁碟機。</span><span class="sxs-lookup"><span data-stu-id="79c43-262">Device drivers are not installed.</span></span>
+<span data-ttu-id="bc7fd-262">未安裝設備磁碟機。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-262">Device drivers are not installed.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_disabled_because_the_firmware_of_the_device_did_not_give_it_the_required_resources."></span><span id="this_device_is_disabled_because_the_firmware_of_the_device_did_not_give_it_the_required_resources."></span><span id="THIS_DEVICE_IS_DISABLED_BECAUSE_THE_FIRMWARE_OF_THE_DEVICE_DID_NOT_GIVE_IT_THE_REQUIRED_RESOURCES."></span>
 
-<span data-ttu-id="79c43-263"><span id="this_device_is_disabled_because_the_firmware_of_the_device_did_not_give_it_the_required_resources."></span><span id="THIS_DEVICE_IS_DISABLED_BECAUSE_THE_FIRMWARE_OF_THE_DEVICE_DID_NOT_GIVE_IT_THE_REQUIRED_RESOURCES."></span>**此裝置已停用，因為裝置的固件未提供所需的資源。**</span><span class="sxs-lookup"><span data-stu-id="79c43-263"><span id="this_device_is_disabled_because_the_firmware_of_the_device_did_not_give_it_the_required_resources."></span><span id="THIS_DEVICE_IS_DISABLED_BECAUSE_THE_FIRMWARE_OF_THE_DEVICE_DID_NOT_GIVE_IT_THE_REQUIRED_RESOURCES."></span>**This device is disabled because the firmware of the device did not give it the required resources.**</span></span> <span data-ttu-id="79c43-264">(29)</span><span class="sxs-lookup"><span data-stu-id="79c43-264">(29)</span></span>
+<span data-ttu-id="bc7fd-263"><span id="this_device_is_disabled_because_the_firmware_of_the_device_did_not_give_it_the_required_resources."></span><span id="THIS_DEVICE_IS_DISABLED_BECAUSE_THE_FIRMWARE_OF_THE_DEVICE_DID_NOT_GIVE_IT_THE_REQUIRED_RESOURCES."></span>**此裝置已停用，因為裝置的固件未提供所需的資源。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-263"><span id="this_device_is_disabled_because_the_firmware_of_the_device_did_not_give_it_the_required_resources."></span><span id="THIS_DEVICE_IS_DISABLED_BECAUSE_THE_FIRMWARE_OF_THE_DEVICE_DID_NOT_GIVE_IT_THE_REQUIRED_RESOURCES."></span>**This device is disabled because the firmware of the device did not give it the required resources.**</span></span> <span data-ttu-id="bc7fd-264">(29)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-264">(29)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-265">裝置已停用。</span><span class="sxs-lookup"><span data-stu-id="79c43-265">Device is disabled.</span></span> <span data-ttu-id="79c43-266">裝置固件未提供所需的資源。</span><span class="sxs-lookup"><span data-stu-id="79c43-266">The device firmware did not provide the required resources.</span></span>
+<span data-ttu-id="bc7fd-265">裝置已停用。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-265">Device is disabled.</span></span> <span data-ttu-id="bc7fd-266">裝置固件未提供所需的資源。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-266">The device firmware did not provide the required resources.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_using_an_Interrupt_Request__IRQ__resource_that_another_device_is_using."></span><span id="this_device_is_using_an_interrupt_request__irq__resource_that_another_device_is_using."></span><span id="THIS_DEVICE_IS_USING_AN_INTERRUPT_REQUEST__IRQ__RESOURCE_THAT_ANOTHER_DEVICE_IS_USING."></span>
 
-<span data-ttu-id="79c43-267"><span id="this_device_is_using_an_interrupt_request__irq__resource_that_another_device_is_using."></span><span id="THIS_DEVICE_IS_USING_AN_INTERRUPT_REQUEST__IRQ__RESOURCE_THAT_ANOTHER_DEVICE_IS_USING."></span>**此裝置正在使用其他裝置正在使用的插斷要求 (IRQ) 資源。**</span><span class="sxs-lookup"><span data-stu-id="79c43-267"><span id="this_device_is_using_an_interrupt_request__irq__resource_that_another_device_is_using."></span><span id="THIS_DEVICE_IS_USING_AN_INTERRUPT_REQUEST__IRQ__RESOURCE_THAT_ANOTHER_DEVICE_IS_USING."></span>**This device is using an Interrupt Request (IRQ) resource that another device is using.**</span></span> <span data-ttu-id="79c43-268">(30)</span><span class="sxs-lookup"><span data-stu-id="79c43-268">(30)</span></span>
+<span data-ttu-id="bc7fd-267"><span id="this_device_is_using_an_interrupt_request__irq__resource_that_another_device_is_using."></span><span id="THIS_DEVICE_IS_USING_AN_INTERRUPT_REQUEST__IRQ__RESOURCE_THAT_ANOTHER_DEVICE_IS_USING."></span>**此裝置正在使用其他裝置正在使用的插斷要求 (IRQ) 資源。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-267"><span id="this_device_is_using_an_interrupt_request__irq__resource_that_another_device_is_using."></span><span id="THIS_DEVICE_IS_USING_AN_INTERRUPT_REQUEST__IRQ__RESOURCE_THAT_ANOTHER_DEVICE_IS_USING."></span>**This device is using an Interrupt Request (IRQ) resource that another device is using.**</span></span> <span data-ttu-id="bc7fd-268">(30)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-268">(30)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-269">裝置正在使用其他裝置正在使用的 IRQ 資源。</span><span class="sxs-lookup"><span data-stu-id="79c43-269">Device is using an IRQ resource that another device is using.</span></span>
+<span data-ttu-id="bc7fd-269">裝置正在使用其他裝置正在使用的 IRQ 資源。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-269">Device is using an IRQ resource that another device is using.</span></span>
 
 </dd> <dt>
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span data-ttu-id="79c43-270"><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**此裝置無法正常運作，因為 Windows 無法載入此裝置所需的驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="79c43-270"><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**This device is not working properly because Windows cannot load the drivers required for this device.**</span></span> <span data-ttu-id="79c43-271"> (31) </span><span class="sxs-lookup"><span data-stu-id="79c43-271">(31)</span></span>
+<span data-ttu-id="bc7fd-270"><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**此裝置無法正常運作，因為 Windows 無法載入此裝置所需的驅動程式。**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-270"><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**This device is not working properly because Windows cannot load the drivers required for this device.**</span></span> <span data-ttu-id="bc7fd-271"> (31) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-271">(31)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-272">裝置無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="79c43-272">Device is not working properly.</span></span> <span data-ttu-id="79c43-273">Windows 無法載入所需的設備磁碟機。</span><span class="sxs-lookup"><span data-stu-id="79c43-273">Windows cannot load the required device drivers.</span></span>
+<span data-ttu-id="bc7fd-272">裝置無法正常運作。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-272">Device is not working properly.</span></span> <span data-ttu-id="bc7fd-273">Windows 無法載入所需的設備磁碟機。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-273">Windows cannot load the required device drivers.</span></span>
 
 </dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-274">**ConfigManagerUserConfig**</span><span class="sxs-lookup"><span data-stu-id="79c43-274">**ConfigManagerUserConfig**</span></span>
+<span data-ttu-id="bc7fd-274">**ConfigManagerUserConfig**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-274">**ConfigManagerUserConfig**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-275">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="79c43-275">Data type: **boolean**</span></span>
+<span data-ttu-id="bc7fd-275">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-275">Data type: **boolean**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-276">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-276">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-276">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-276">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-277">限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) </span><span class="sxs-lookup"><span data-stu-id="79c43-277">Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")</span></span>
+<span data-ttu-id="bc7fd-277">限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-277">Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-278">若 **為 TRUE**，則裝置會使用使用者定義的設定。</span><span class="sxs-lookup"><span data-stu-id="79c43-278">If **TRUE**, the device is using a user-defined configuration.</span></span>
+<span data-ttu-id="bc7fd-278">若 **為 TRUE**，則裝置會使用使用者定義的設定。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-278">If **TRUE**, the device is using a user-defined configuration.</span></span>
 
-<span data-ttu-id="79c43-279">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-279">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-279">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-279">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-280">**CreationClassName**</span><span class="sxs-lookup"><span data-stu-id="79c43-280">**CreationClassName**</span></span>
+<span data-ttu-id="bc7fd-280">**CreationClassName**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-280">**CreationClassName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-281">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-281">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-281">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-281">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-282">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-282">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-282">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-282">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-283">限定詞： [ **CIM \_ 金鑰**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span><span class="sxs-lookup"><span data-stu-id="79c43-283">Qualifiers: [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span></span>
+<span data-ttu-id="bc7fd-283">限定詞： [ **CIM \_ 金鑰**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-283">Qualifiers: [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-284">建立實例時所使用之類別或子類別的名稱。</span><span class="sxs-lookup"><span data-stu-id="79c43-284">Name of the class or subclass used in the creation of an instance.</span></span> <span data-ttu-id="79c43-285">搭配類別的其他索引鍵屬性使用時，此屬性可讓類別和其子類別的所有實例都能唯一識別。</span><span class="sxs-lookup"><span data-stu-id="79c43-285">When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified.</span></span>
+<span data-ttu-id="bc7fd-284">建立實例時所使用之類別或子類別的名稱。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-284">Name of the class or subclass used in the creation of an instance.</span></span> <span data-ttu-id="bc7fd-285">搭配類別的其他索引鍵屬性使用時，此屬性可讓類別和其子類別的所有實例都能唯一識別。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-285">When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified.</span></span>
 
-<span data-ttu-id="79c43-286">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-286">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-286">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-286">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-287">**說明**</span><span class="sxs-lookup"><span data-stu-id="79c43-287">**Description**</span></span>
+<span data-ttu-id="bc7fd-287">**說明**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-287">**Description**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-288">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-288">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-288">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-288">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-289">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-289">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-289">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-289">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-290">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Description" ) </span><span class="sxs-lookup"><span data-stu-id="79c43-290">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Description")</span></span>
+<span data-ttu-id="bc7fd-290">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Description" ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-290">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Description")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-291">物件的文字描述。</span><span class="sxs-lookup"><span data-stu-id="79c43-291">Textual description of the object.</span></span>
+<span data-ttu-id="bc7fd-291">物件的文字描述。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-291">Textual description of the object.</span></span>
 
-<span data-ttu-id="79c43-292">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-292">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="bc7fd-292">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-292">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-293">**DeviceID**</span><span class="sxs-lookup"><span data-stu-id="79c43-293">**DeviceID**</span></span>
+<span data-ttu-id="bc7fd-293">**DeviceID**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-293">**DeviceID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-294">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-294">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-294">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-294">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-295">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-295">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-295">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-295">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-296">限定詞： [ **CIM \_ 金鑰**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span><span class="sxs-lookup"><span data-stu-id="79c43-296">Qualifiers: [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span></span>
+<span data-ttu-id="bc7fd-296">限定詞： [ **CIM \_ 金鑰**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-296">Qualifiers: [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-297">用來唯一命名邏輯裝置的位址或其他識別資訊。</span><span class="sxs-lookup"><span data-stu-id="79c43-297">Address or other identifying information to uniquely name the logical device.</span></span>
+<span data-ttu-id="bc7fd-297">用來唯一命名邏輯裝置的位址或其他識別資訊。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-297">Address or other identifying information to uniquely name the logical device.</span></span>
 
-<span data-ttu-id="79c43-298">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-298">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-298">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-298">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-299">**ErrorCleared**</span><span class="sxs-lookup"><span data-stu-id="79c43-299">**ErrorCleared**</span></span>
+<span data-ttu-id="bc7fd-299">**ErrorCleared**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-299">**ErrorCleared**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-300">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="79c43-300">Data type: **boolean**</span></span>
+<span data-ttu-id="bc7fd-300">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-300">Data type: **boolean**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-301">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-301">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-301">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-301">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-302">若 **為 TRUE**，則表示 **LastErrorCode** 屬性中報告的錯誤現在已清除。</span><span class="sxs-lookup"><span data-stu-id="79c43-302">If **TRUE**, the error reported in the **LastErrorCode** property is now cleared.</span></span>
+<span data-ttu-id="bc7fd-302">若 **為 TRUE**，則表示 **LastErrorCode** 屬性中報告的錯誤現在已清除。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-302">If **TRUE**, the error reported in the **LastErrorCode** property is now cleared.</span></span>
 
-<span data-ttu-id="79c43-303">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-303">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-303">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-303">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-304">**ErrorDescription**</span><span class="sxs-lookup"><span data-stu-id="79c43-304">**ErrorDescription**</span></span>
+<span data-ttu-id="bc7fd-304">**ErrorDescription**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-304">**ErrorDescription**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-305">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-305">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-305">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-305">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-306">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-306">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-306">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-306">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-307">自由格式的字串，提供 **LastErrorCode** 屬性中所記錄之錯誤的相關資訊，以及要執行的更正動作。</span><span class="sxs-lookup"><span data-stu-id="79c43-307">Free-form string that supplies information about the error recorded in the **LastErrorCode** property and corrective actions to perform.</span></span>
+<span data-ttu-id="bc7fd-307">自由格式的字串，提供 **LastErrorCode** 屬性中所記錄之錯誤的相關資訊，以及要執行的更正動作。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-307">Free-form string that supplies information about the error recorded in the **LastErrorCode** property and corrective actions to perform.</span></span>
 
-<span data-ttu-id="79c43-308">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-308">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-308">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-308">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-309">**InstallDate**</span><span class="sxs-lookup"><span data-stu-id="79c43-309">**InstallDate**</span></span>
+<span data-ttu-id="bc7fd-309">**InstallDate**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-309">**InstallDate**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-310">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="79c43-310">Data type: **datetime**</span></span>
+<span data-ttu-id="bc7fd-310">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-310">Data type: **datetime**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-311">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-311">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-311">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-311">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-312">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 元件 \| 001.5 ") ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) (" 安裝日期 ") </span><span class="sxs-lookup"><span data-stu-id="79c43-312">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")</span></span>
+<span data-ttu-id="bc7fd-312">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 元件 \| 001.5 ") ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) (" 安裝日期 ") </span><span class="sxs-lookup"><span data-stu-id="bc7fd-312">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-313">物件的安裝日期和時間。</span><span class="sxs-lookup"><span data-stu-id="79c43-313">Date and time the object was installed.</span></span> <span data-ttu-id="79c43-314">這個屬性不需要值來表示已安裝物件。</span><span class="sxs-lookup"><span data-stu-id="79c43-314">This property does not need a value to indicate that the object is installed.</span></span>
+<span data-ttu-id="bc7fd-313">物件的安裝日期和時間。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-313">Date and time the object was installed.</span></span> <span data-ttu-id="bc7fd-314">這個屬性不需要值來表示已安裝物件。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-314">This property does not need a value to indicate that the object is installed.</span></span>
 
-<span data-ttu-id="79c43-315">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-315">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="bc7fd-315">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-315">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-316">**IsLocked**</span><span class="sxs-lookup"><span data-stu-id="79c43-316">**IsLocked**</span></span>
+<span data-ttu-id="bc7fd-316">**IsLocked**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-316">**IsLocked**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-317">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="79c43-317">Data type: **boolean**</span></span>
+<span data-ttu-id="bc7fd-317">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-317">Data type: **boolean**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-318">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-318">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-318">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-318">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-319">若 **為 TRUE**，則會鎖定裝置，防止使用者輸入或輸出。</span><span class="sxs-lookup"><span data-stu-id="79c43-319">If **TRUE**, the device is locked, preventing user input or output.</span></span>
+<span data-ttu-id="bc7fd-319">若 **為 TRUE**，則會鎖定裝置，防止使用者輸入或輸出。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-319">If **TRUE**, the device is locked, preventing user input or output.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-320">**LastErrorCode**</span><span class="sxs-lookup"><span data-stu-id="79c43-320">**LastErrorCode**</span></span>
+<span data-ttu-id="bc7fd-320">**LastErrorCode**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-320">**LastErrorCode**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-321">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="79c43-321">Data type: **uint32**</span></span>
+<span data-ttu-id="bc7fd-321">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-321">Data type: **uint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-322">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-322">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-322">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-322">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-323">邏輯裝置所報告的最後一個錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="79c43-323">Last error code reported by the logical device.</span></span>
+<span data-ttu-id="bc7fd-323">邏輯裝置所報告的最後一個錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-323">Last error code reported by the logical device.</span></span>
 
-<span data-ttu-id="79c43-324">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-324">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-324">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-324">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-325">**名稱**</span><span class="sxs-lookup"><span data-stu-id="79c43-325">**Name**</span></span>
+<span data-ttu-id="bc7fd-325">**名稱**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-325">**Name**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-326">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-326">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-326">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-326">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-327">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-327">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-327">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-327">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-328">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Name" ) </span><span class="sxs-lookup"><span data-stu-id="79c43-328">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name")</span></span>
+<span data-ttu-id="bc7fd-328">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Name" ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-328">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-329">已知物件的標籤。</span><span class="sxs-lookup"><span data-stu-id="79c43-329">Label by which the object is known.</span></span> <span data-ttu-id="79c43-330">子類別化時，可以將這個屬性覆寫為索引鍵屬性。</span><span class="sxs-lookup"><span data-stu-id="79c43-330">When subclassed, this property can be overridden to be a key property.</span></span>
+<span data-ttu-id="bc7fd-329">已知物件的標籤。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-329">Label by which the object is known.</span></span> <span data-ttu-id="bc7fd-330">子類別化時，可以將這個屬性覆寫為索引鍵屬性。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-330">When subclassed, this property can be overridden to be a key property.</span></span>
 
-<span data-ttu-id="79c43-331">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-331">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="bc7fd-331">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-331">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-332">**PNPDeviceID**</span><span class="sxs-lookup"><span data-stu-id="79c43-332">**PNPDeviceID**</span></span>
+<span data-ttu-id="bc7fd-332">**PNPDeviceID**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-332">**PNPDeviceID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-333">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-333">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-333">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-333">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-334">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-334">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-334">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-334">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-335">限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) </span><span class="sxs-lookup"><span data-stu-id="79c43-335">Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")</span></span>
+<span data-ttu-id="bc7fd-335">限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-335">Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-336">邏輯裝置的 Win32 隨插即用裝置識別碼。</span><span class="sxs-lookup"><span data-stu-id="79c43-336">Win32 Plug and Play device identifier of the logical device.</span></span> <span data-ttu-id="79c43-337">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-337">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-336">邏輯裝置的 Win32 隨插即用裝置識別碼。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-336">Win32 Plug and Play device identifier of the logical device.</span></span> <span data-ttu-id="bc7fd-337">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-337">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
-<span data-ttu-id="79c43-338">範例： " \* PNP030b"</span><span class="sxs-lookup"><span data-stu-id="79c43-338">Example: "\*PNP030b"</span></span>
+<span data-ttu-id="bc7fd-338">範例： " \* PNP030b"</span><span class="sxs-lookup"><span data-stu-id="bc7fd-338">Example: "\*PNP030b"</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-339">**PowerManagementCapabilities**</span><span class="sxs-lookup"><span data-stu-id="79c43-339">**PowerManagementCapabilities**</span></span>
+<span data-ttu-id="bc7fd-339">**PowerManagementCapabilities**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-339">**PowerManagementCapabilities**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-340">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="79c43-340">Data type: **uint16** array</span></span>
+<span data-ttu-id="bc7fd-340">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="bc7fd-340">Data type: **uint16** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-341">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-341">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-341">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-341">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-342">邏輯裝置的特定電源相關功能陣列。</span><span class="sxs-lookup"><span data-stu-id="79c43-342">Array of the specific power-related capabilities of a logical device.</span></span>
+<span data-ttu-id="bc7fd-342">邏輯裝置的特定電源相關功能陣列。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-342">Array of the specific power-related capabilities of a logical device.</span></span>
 
-<span data-ttu-id="79c43-343">這個屬性繼承自 **CIM \_ LogicalDevice**。</span><span class="sxs-lookup"><span data-stu-id="79c43-343">This property is inherited from **CIM\_LogicalDevice**.</span></span>
+<span data-ttu-id="bc7fd-343">這個屬性繼承自 **CIM \_ LogicalDevice**。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-343">This property is inherited from **CIM\_LogicalDevice**.</span></span>
 
 <dt>
 
 <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
 
-<span data-ttu-id="79c43-344"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="79c43-344"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
+<span data-ttu-id="bc7fd-344"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-344"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>
 
-<span data-ttu-id="79c43-345"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="79c43-345"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Not Supported** (1)</span></span>
+<span data-ttu-id="bc7fd-345"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-345"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Not Supported** (1)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span>
 
-<span data-ttu-id="79c43-346"><span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span>**已停用** (2) </span><span class="sxs-lookup"><span data-stu-id="79c43-346"><span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span>**Disabled** (2)</span></span>
+<span data-ttu-id="bc7fd-346"><span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span>**已停用** (2) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-346"><span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span>**Disabled** (2)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span>
 
-<span data-ttu-id="79c43-347"><span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span>**已啟用** (3) </span><span class="sxs-lookup"><span data-stu-id="79c43-347"><span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span>**Enabled** (3)</span></span>
+<span data-ttu-id="bc7fd-347"><span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span>**已啟用** (3) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-347"><span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span>**Enabled** (3)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-348">電源管理功能目前已啟用，但實際的功能組不明，或資訊無法使用。</span><span class="sxs-lookup"><span data-stu-id="79c43-348">The power management features are currently enabled but the exact feature set is unknown or the information is unavailable.</span></span>
+<span data-ttu-id="bc7fd-348">電源管理功能目前已啟用，但實際的功能組不明，或資訊無法使用。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-348">The power management features are currently enabled but the exact feature set is unknown or the information is unavailable.</span></span>
 
 </dd> <dt>
 
 <span id="Power_Saving_Modes_Entered_Automatically"></span><span id="power_saving_modes_entered_automatically"></span><span id="POWER_SAVING_MODES_ENTERED_AUTOMATICALLY"></span>
 
-<span data-ttu-id="79c43-349"><span id="Power_Saving_Modes_Entered_Automatically"></span><span id="power_saving_modes_entered_automatically"></span><span id="POWER_SAVING_MODES_ENTERED_AUTOMATICALLY"></span>**自動輸入的省電模式** (4) </span><span class="sxs-lookup"><span data-stu-id="79c43-349"><span id="Power_Saving_Modes_Entered_Automatically"></span><span id="power_saving_modes_entered_automatically"></span><span id="POWER_SAVING_MODES_ENTERED_AUTOMATICALLY"></span>**Power Saving Modes Entered Automatically** (4)</span></span>
+<span data-ttu-id="bc7fd-349"><span id="Power_Saving_Modes_Entered_Automatically"></span><span id="power_saving_modes_entered_automatically"></span><span id="POWER_SAVING_MODES_ENTERED_AUTOMATICALLY"></span>**自動輸入的省電模式** (4) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-349"><span id="Power_Saving_Modes_Entered_Automatically"></span><span id="power_saving_modes_entered_automatically"></span><span id="POWER_SAVING_MODES_ENTERED_AUTOMATICALLY"></span>**Power Saving Modes Entered Automatically** (4)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-350">裝置可以根據使用方式或其他準則來變更其電源狀態。</span><span class="sxs-lookup"><span data-stu-id="79c43-350">The device can change its power state based on usage or other criteria.</span></span>
+<span data-ttu-id="bc7fd-350">裝置可以根據使用方式或其他準則來變更其電源狀態。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-350">The device can change its power state based on usage or other criteria.</span></span>
 
 </dd> <dt>
 
 <span id="Power_State_Settable"></span><span id="power_state_settable"></span><span id="POWER_STATE_SETTABLE"></span>
 
-<span data-ttu-id="79c43-351"><span id="Power_State_Settable"></span><span id="power_state_settable"></span><span id="POWER_STATE_SETTABLE"></span>可 **設定的電源狀態** (5) </span><span class="sxs-lookup"><span data-stu-id="79c43-351"><span id="Power_State_Settable"></span><span id="power_state_settable"></span><span id="POWER_STATE_SETTABLE"></span>**Power State Settable** (5)</span></span>
+<span data-ttu-id="bc7fd-351"><span id="Power_State_Settable"></span><span id="power_state_settable"></span><span id="POWER_STATE_SETTABLE"></span>可 **設定的電源狀態** (5) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-351"><span id="Power_State_Settable"></span><span id="power_state_settable"></span><span id="POWER_STATE_SETTABLE"></span>**Power State Settable** (5)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-352">支援 [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="79c43-352">The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported.</span></span> <span data-ttu-id="79c43-353">這個方法可在父 **CIM \_ LogicalDevice** 類別上找到，並且可以實作為。</span><span class="sxs-lookup"><span data-stu-id="79c43-353">This method is found on the parent **CIM\_LogicalDevice** class and can be implemented.</span></span> <span data-ttu-id="79c43-354">如需詳細資訊，請參閱 [設計受控物件格式 (MOF) 類別](/windows/desktop/WmiSdk/designing-managed-object-format--mof--classes)。</span><span class="sxs-lookup"><span data-stu-id="79c43-354">For more information, see [Designing Managed Object Format (MOF) Classes](/windows/desktop/WmiSdk/designing-managed-object-format--mof--classes).</span></span>
+<span data-ttu-id="bc7fd-352">支援 [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-352">The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported.</span></span> <span data-ttu-id="bc7fd-353">這個方法可在父 **CIM \_ LogicalDevice** 類別上找到，並且可以實作為。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-353">This method is found on the parent **CIM\_LogicalDevice** class and can be implemented.</span></span> <span data-ttu-id="bc7fd-354">如需詳細資訊，請參閱 [設計受控物件格式 (MOF) 類別](/windows/desktop/WmiSdk/designing-managed-object-format--mof--classes)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-354">For more information, see [Designing Managed Object Format (MOF) Classes](/windows/desktop/WmiSdk/designing-managed-object-format--mof--classes).</span></span>
 
 </dd> <dt>
 
 <span id="Power_Cycling_Supported"></span><span id="power_cycling_supported"></span><span id="POWER_CYCLING_SUPPORTED"></span>
 
-<span data-ttu-id="79c43-355"><span id="Power_Cycling_Supported"></span><span id="power_cycling_supported"></span><span id="POWER_CYCLING_SUPPORTED"></span>支援 (6) 的 **電源迴圈**</span><span class="sxs-lookup"><span data-stu-id="79c43-355"><span id="Power_Cycling_Supported"></span><span id="power_cycling_supported"></span><span id="POWER_CYCLING_SUPPORTED"></span>**Power Cycling Supported** (6)</span></span>
+<span data-ttu-id="bc7fd-355"><span id="Power_Cycling_Supported"></span><span id="power_cycling_supported"></span><span id="POWER_CYCLING_SUPPORTED"></span>支援 (6) 的 **電源迴圈**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-355"><span id="Power_Cycling_Supported"></span><span id="power_cycling_supported"></span><span id="POWER_CYCLING_SUPPORTED"></span>**Power Cycling Supported** (6)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-356">您可以叫用 [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) 方法，並將 *>powerstate* 參數設定為 5 (電源週期) 。</span><span class="sxs-lookup"><span data-stu-id="79c43-356">The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method can be invoked with the *PowerState* parameter set to 5 (Power Cycle).</span></span>
+<span data-ttu-id="bc7fd-356">您可以叫用 [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) 方法，並將 *>powerstate* 參數設定為 5 (電源週期) 。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-356">The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method can be invoked with the *PowerState* parameter set to 5 (Power Cycle).</span></span>
 
 </dd> <dt>
 
 <span id="Timed_Power_On_Supported"></span><span id="timed_power_on_supported"></span><span id="TIMED_POWER_ON_SUPPORTED"></span>
 
-<span data-ttu-id="79c43-357"><span id="Timed_Power_On_Supported"></span><span id="timed_power_on_supported"></span><span id="TIMED_POWER_ON_SUPPORTED"></span>**支援的 (7) 上的電源已超時**</span><span class="sxs-lookup"><span data-stu-id="79c43-357"><span id="Timed_Power_On_Supported"></span><span id="timed_power_on_supported"></span><span id="TIMED_POWER_ON_SUPPORTED"></span>**Timed Power On Supported** (7)</span></span>
+<span data-ttu-id="bc7fd-357"><span id="Timed_Power_On_Supported"></span><span id="timed_power_on_supported"></span><span id="TIMED_POWER_ON_SUPPORTED"></span>**支援的 (7) 上的電源已超時**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-357"><span id="Timed_Power_On_Supported"></span><span id="timed_power_on_supported"></span><span id="TIMED_POWER_ON_SUPPORTED"></span>**Timed Power On Supported** (7)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="79c43-358">您可以叫用 [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) 方法，並將 *>powerstate* 參數設定為 5 (電源週期) ，並將 *時間* 設定為特定日期和時間（或間隔）以進行電源開啟。</span><span class="sxs-lookup"><span data-stu-id="79c43-358">The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method can be invoked with the *PowerState* parameter set to 5 (Power Cycle) and *Time* set to a specific date and time, or interval, for power-on.</span></span>
+<span data-ttu-id="bc7fd-358">您可以叫用 [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) 方法，並將 *>powerstate* 參數設定為 5 (電源週期) ，並將 *時間* 設定為特定日期和時間（或間隔）以進行電源開啟。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-358">The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method can be invoked with the *PowerState* parameter set to 5 (Power Cycle) and *Time* set to a specific date and time, or interval, for power-on.</span></span>
 
 </dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-359">**PowerManagementSupported**</span><span class="sxs-lookup"><span data-stu-id="79c43-359">**PowerManagementSupported**</span></span>
+<span data-ttu-id="bc7fd-359">**PowerManagementSupported**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-359">**PowerManagementSupported**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-360">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="79c43-360">Data type: **boolean**</span></span>
+<span data-ttu-id="bc7fd-360">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-360">Data type: **boolean**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-361">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-361">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-361">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-361">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-362">若 **為 TRUE**，則裝置可以受電源管理，也就是進入省電狀態。</span><span class="sxs-lookup"><span data-stu-id="79c43-362">If **TRUE**, the device can be power managed, that is, put into a power-save state.</span></span> <span data-ttu-id="79c43-363">如果 **為 FALSE**，則整數值 1 ( 「不支援」 ) 應該是 **PowerManagementCapabilities** 陣列中的唯一專案。</span><span class="sxs-lookup"><span data-stu-id="79c43-363">If **FALSE**, the integer value 1 ("Not Supported") should be the only entry in the **PowerManagementCapabilities** array.</span></span>
+<span data-ttu-id="bc7fd-362">若 **為 TRUE**，則裝置可以受電源管理，也就是進入省電狀態。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-362">If **TRUE**, the device can be power managed, that is, put into a power-save state.</span></span> <span data-ttu-id="bc7fd-363">如果 **為 FALSE**，則整數值 1 ( 「不支援」 ) 應該是 **PowerManagementCapabilities** 陣列中的唯一專案。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-363">If **FALSE**, the integer value 1 ("Not Supported") should be the only entry in the **PowerManagementCapabilities** array.</span></span>
 
-<span data-ttu-id="79c43-364">這個屬性不會指出電源管理功能目前是否已啟用，或啟用時支援哪些功能。</span><span class="sxs-lookup"><span data-stu-id="79c43-364">This property does not indicate whether power management features are currently enabled, or if enabled, which features are supported.</span></span> <span data-ttu-id="79c43-365">如需詳細資訊，請參閱 **PowerManagementCapabilities** 陣列。</span><span class="sxs-lookup"><span data-stu-id="79c43-365">For more information, see the **PowerManagementCapabilities** array.</span></span> <span data-ttu-id="79c43-366">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-366">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-364">這個屬性不會指出電源管理功能目前是否已啟用，或啟用時支援哪些功能。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-364">This property does not indicate whether power management features are currently enabled, or if enabled, which features are supported.</span></span> <span data-ttu-id="bc7fd-365">如需詳細資訊，請參閱 **PowerManagementCapabilities** 陣列。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-365">For more information, see the **PowerManagementCapabilities** array.</span></span> <span data-ttu-id="bc7fd-366">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-366">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-367">**狀態**</span><span class="sxs-lookup"><span data-stu-id="79c43-367">**Status**</span></span>
+<span data-ttu-id="bc7fd-367">**狀態**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-367">**Status**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-368">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-368">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-368">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-368">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-369">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-369">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-369">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-369">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-370">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Status" ) </span><span class="sxs-lookup"><span data-stu-id="79c43-370">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Status")</span></span>
+<span data-ttu-id="bc7fd-370">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Status" ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-370">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Status")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-371">物件的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="79c43-371">Current status of the object.</span></span> <span data-ttu-id="79c43-372">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-372">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="bc7fd-371">物件的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-371">Current status of the object.</span></span> <span data-ttu-id="bc7fd-372">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-372">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
-<span data-ttu-id="79c43-373">包括下列值：</span><span class="sxs-lookup"><span data-stu-id="79c43-373">Values include the following:</span></span>
+<span data-ttu-id="bc7fd-373">包括下列值：</span><span class="sxs-lookup"><span data-stu-id="bc7fd-373">Values include the following:</span></span>
 
 <dt>
 
 <span id="OK"></span><span id="ok"></span>
 
-<span data-ttu-id="79c43-374">**確定** ( [確定] ) </span><span class="sxs-lookup"><span data-stu-id="79c43-374">**OK** ("OK")</span></span>
+<span data-ttu-id="bc7fd-374">**確定** ( [確定] ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-374">**OK** ("OK")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Error"></span><span id="error"></span><span id="ERROR"></span>
 
-<span data-ttu-id="79c43-375">**錯誤** ( 「錯誤」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-375">**Error** ("Error")</span></span>
+<span data-ttu-id="bc7fd-375">**錯誤** ( 「錯誤」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-375">**Error** ("Error")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>
 
-<span data-ttu-id="79c43-376">**降級** ( 「降級」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-376">**Degraded** ("Degraded")</span></span>
+<span data-ttu-id="bc7fd-376">**降級** ( 「降級」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-376">**Degraded** ("Degraded")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
 
-<span data-ttu-id="79c43-377">**未知** 的 ( 「未知」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-377">**Unknown** ("Unknown")</span></span>
+<span data-ttu-id="bc7fd-377">**未知** 的 ( 「未知」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-377">**Unknown** ("Unknown")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Pred_Fail"></span><span id="pred_fail"></span><span id="PRED_FAIL"></span>
 
-<span data-ttu-id="79c43-378">**Pred 失敗** ( 「Pred 失敗」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-378">**Pred Fail** ("Pred Fail")</span></span>
+<span data-ttu-id="bc7fd-378">**Pred 失敗** ( 「Pred 失敗」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-378">**Pred Fail** ("Pred Fail")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>
 
-<span data-ttu-id="79c43-379">**開始** ( 「開始」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-379">**Starting** ("Starting")</span></span>
+<span data-ttu-id="bc7fd-379">**開始** ( 「開始」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-379">**Starting** ("Starting")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>
 
-<span data-ttu-id="79c43-380">**停止** ( 「正在停止」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-380">**Stopping** ("Stopping")</span></span>
+<span data-ttu-id="bc7fd-380">**停止** ( 「正在停止」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-380">**Stopping** ("Stopping")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Service"></span><span id="service"></span><span id="SERVICE"></span>
 
-<span data-ttu-id="79c43-381">**服務** ( 「服務」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-381">**Service** ("Service")</span></span>
+<span data-ttu-id="bc7fd-381">**服務** ( 「服務」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-381">**Service** ("Service")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>
 
-<span data-ttu-id="79c43-382">**壓力** ( 「壓力」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-382">**Stressed** ("Stressed")</span></span>
+<span data-ttu-id="bc7fd-382">**壓力** ( 「壓力」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-382">**Stressed** ("Stressed")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="NonRecover"></span><span id="nonrecover"></span><span id="NONRECOVER"></span>
 
-<span data-ttu-id="79c43-383">**NonRecover** ( "NonRecover" ) </span><span class="sxs-lookup"><span data-stu-id="79c43-383">**NonRecover** ("NonRecover")</span></span>
+<span data-ttu-id="bc7fd-383">**NonRecover** ( "NonRecover" ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-383">**NonRecover** ("NonRecover")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>
 
-<span data-ttu-id="79c43-384">**沒有連絡人** ( 「沒有連絡人」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-384">**No Contact** ("No Contact")</span></span>
+<span data-ttu-id="bc7fd-384">**沒有連絡人** ( 「沒有連絡人」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-384">**No Contact** ("No Contact")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Lost_Comm"></span><span id="lost_comm"></span><span id="LOST_COMM"></span>
 
-<span data-ttu-id="79c43-385">**遺失的 comm** ( 「遺失的通訊」 ) </span><span class="sxs-lookup"><span data-stu-id="79c43-385">**Lost Comm** ("Lost Comm")</span></span>
+<span data-ttu-id="bc7fd-385">**遺失的 comm** ( 「遺失的通訊」 ) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-385">**Lost Comm** ("Lost Comm")</span></span>
 
 
 </dt> <dd></dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-386">**StatusInfo**</span><span class="sxs-lookup"><span data-stu-id="79c43-386">**StatusInfo**</span></span>
+<span data-ttu-id="bc7fd-386">**StatusInfo**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-386">**StatusInfo**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-387">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="79c43-387">Data type: **uint16**</span></span>
+<span data-ttu-id="bc7fd-387">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-387">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-388">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-388">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-388">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-388">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-389">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 操作狀態 \| 003.3 ") </span><span class="sxs-lookup"><span data-stu-id="79c43-389">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Operational State\|003.3")</span></span>
+<span data-ttu-id="bc7fd-389">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 操作狀態 \| 003.3 ") </span><span class="sxs-lookup"><span data-stu-id="bc7fd-389">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Operational State\|003.3")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-390">邏輯裝置的狀態。</span><span class="sxs-lookup"><span data-stu-id="79c43-390">State of the logical device.</span></span> <span data-ttu-id="79c43-391">如果此屬性不適用於邏輯裝置，則應該使用值 5 (不適用) 。</span><span class="sxs-lookup"><span data-stu-id="79c43-391">If this property does not apply to the logical device, the value 5 (Not Applicable) should be used.</span></span>
+<span data-ttu-id="bc7fd-390">邏輯裝置的狀態。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-390">State of the logical device.</span></span> <span data-ttu-id="bc7fd-391">如果此屬性不適用於邏輯裝置，則應該使用值 5 (不適用) 。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-391">If this property does not apply to the logical device, the value 5 (Not Applicable) should be used.</span></span>
 
-<span data-ttu-id="79c43-392">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-392">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-392">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-392">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 <dt>
 
 <span id="Other"></span><span id="other"></span><span id="OTHER"></span>
 
-<span data-ttu-id="79c43-393">**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="79c43-393">**Other** (1)</span></span>
+<span data-ttu-id="bc7fd-393">**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-393">**Other** (1)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
 
-<span data-ttu-id="79c43-394">**未知** 的 (2) </span><span class="sxs-lookup"><span data-stu-id="79c43-394">**Unknown** (2)</span></span>
+<span data-ttu-id="bc7fd-394">**未知** 的 (2) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-394">**Unknown** (2)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span>
 
-<span data-ttu-id="79c43-395">**已啟用** (3) </span><span class="sxs-lookup"><span data-stu-id="79c43-395">**Enabled** (3)</span></span>
+<span data-ttu-id="bc7fd-395">**已啟用** (3) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-395">**Enabled** (3)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span>
 
-<span data-ttu-id="79c43-396">**已停用** (4) </span><span class="sxs-lookup"><span data-stu-id="79c43-396">**Disabled** (4)</span></span>
+<span data-ttu-id="bc7fd-396">**已停用** (4) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-396">**Disabled** (4)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Not_Applicable"></span><span id="not_applicable"></span><span id="NOT_APPLICABLE"></span>
 
-<span data-ttu-id="79c43-397">**不適用** (5) </span><span class="sxs-lookup"><span data-stu-id="79c43-397">**Not Applicable** (5)</span></span>
+<span data-ttu-id="bc7fd-397">**不適用** (5) </span><span class="sxs-lookup"><span data-stu-id="bc7fd-397">**Not Applicable** (5)</span></span>
 
 
 </dt> <dd></dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-398">**SystemCreationClassName**</span><span class="sxs-lookup"><span data-stu-id="79c43-398">**SystemCreationClassName**</span></span>
+<span data-ttu-id="bc7fd-398">**SystemCreationClassName**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-398">**SystemCreationClassName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-399">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-399">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-399">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-399">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-400">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-400">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-400">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-400">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-401">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 系統**](cim-system.md)」。**CreationClassName**") ， [**CIM \_ 金鑰**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span><span class="sxs-lookup"><span data-stu-id="79c43-401">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span></span>
+<span data-ttu-id="bc7fd-401">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 系統**](cim-system.md)」。**CreationClassName**") ， [**CIM \_ 金鑰**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-401">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-402">設定系統建立類別名稱的範圍。</span><span class="sxs-lookup"><span data-stu-id="79c43-402">Scoping system's creation class name.</span></span>
+<span data-ttu-id="bc7fd-402">設定系統建立類別名稱的範圍。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-402">Scoping system's creation class name.</span></span>
 
-<span data-ttu-id="79c43-403">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-403">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-403">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-403">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="79c43-404">**SystemName**</span><span class="sxs-lookup"><span data-stu-id="79c43-404">**SystemName**</span></span>
+<span data-ttu-id="bc7fd-404">**SystemName**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-404">**SystemName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="79c43-405">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="79c43-405">Data type: **string**</span></span>
+<span data-ttu-id="bc7fd-405">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-405">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-406">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="79c43-406">Access type: Read-only</span></span>
+<span data-ttu-id="bc7fd-406">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bc7fd-406">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="79c43-407">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 系統**](cim-system.md)」。**名稱**") ， [**CIM \_ 金鑰**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span><span class="sxs-lookup"><span data-stu-id="79c43-407">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span></span>
+<span data-ttu-id="bc7fd-407">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 系統**](cim-system.md)」。**名稱**") ， [**CIM \_ 金鑰**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span><span class="sxs-lookup"><span data-stu-id="bc7fd-407">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="79c43-408">設定系統名稱的範圍。</span><span class="sxs-lookup"><span data-stu-id="79c43-408">Scoping system's name.</span></span>
+<span data-ttu-id="bc7fd-408">設定系統名稱的範圍。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-408">Scoping system's name.</span></span>
 
-<span data-ttu-id="79c43-409">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-409">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-409">這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-409">This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="79c43-410">備註</span><span class="sxs-lookup"><span data-stu-id="79c43-410">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc7fd-410">備註</span><span class="sxs-lookup"><span data-stu-id="bc7fd-410">Remarks</span></span>
 
-<span data-ttu-id="79c43-411">**Cim \_ UserDevice** 類別衍生自 [**cim \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-411">The **CIM\_UserDevice** class is derived from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="bc7fd-411">**Cim \_ UserDevice** 類別衍生自 [**cim \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-411">The **CIM\_UserDevice** class is derived from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
-<span data-ttu-id="79c43-412">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="79c43-412">WMI does not implement this class.</span></span> <span data-ttu-id="79c43-413">針對衍生自 **CIM \_ USERDEVICE** 的 WMI 類別，請參閱 [Win32 類別](win32-provider.md)。</span><span class="sxs-lookup"><span data-stu-id="79c43-413">For WMI classes derived from **CIM\_UserDevice**, see [Win32 Classes](win32-provider.md).</span></span>
+<span data-ttu-id="bc7fd-412">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-412">WMI does not implement this class.</span></span> <span data-ttu-id="bc7fd-413">針對衍生自 **CIM \_ USERDEVICE** 的 WMI 類別，請參閱 [Win32 類別](win32-provider.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-413">For WMI classes derived from **CIM\_UserDevice**, see [Win32 Classes](win32-provider.md).</span></span>
 
-<span data-ttu-id="79c43-414">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="79c43-414">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="79c43-415">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="79c43-415">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
+<span data-ttu-id="bc7fd-414">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-414">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="bc7fd-415">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="bc7fd-415">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="79c43-416">規格需求</span><span class="sxs-lookup"><span data-stu-id="79c43-416">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="bc7fd-416">規格需求</span><span class="sxs-lookup"><span data-stu-id="bc7fd-416">Requirements</span></span>
 
 
 
-| <span data-ttu-id="79c43-417">需求</span><span class="sxs-lookup"><span data-stu-id="79c43-417">Requirement</span></span> | <span data-ttu-id="79c43-418">值</span><span class="sxs-lookup"><span data-stu-id="79c43-418">Value</span></span> |
+| <span data-ttu-id="bc7fd-417">需求</span><span class="sxs-lookup"><span data-stu-id="bc7fd-417">Requirement</span></span> | <span data-ttu-id="bc7fd-418">值</span><span class="sxs-lookup"><span data-stu-id="bc7fd-418">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="79c43-419">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="79c43-419">Minimum supported client</span></span><br/> | <span data-ttu-id="79c43-420">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="79c43-420">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="79c43-421">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="79c43-421">Minimum supported server</span></span><br/> | <span data-ttu-id="79c43-422">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="79c43-422">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="79c43-423">命名空間</span><span class="sxs-lookup"><span data-stu-id="79c43-423">Namespace</span></span><br/>                | <span data-ttu-id="79c43-424">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="79c43-424">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="79c43-425">MOF</span><span class="sxs-lookup"><span data-stu-id="79c43-425">MOF</span></span><br/>                      | <dl> <span data-ttu-id="79c43-426"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="79c43-426"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="79c43-427">DLL</span><span class="sxs-lookup"><span data-stu-id="79c43-427">DLL</span></span><br/>                      | <dl> <span data-ttu-id="79c43-428"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="79c43-428"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="bc7fd-419">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="bc7fd-419">Minimum supported client</span></span><br/> | <span data-ttu-id="bc7fd-420">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="bc7fd-420">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="bc7fd-421">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="bc7fd-421">Minimum supported server</span></span><br/> | <span data-ttu-id="bc7fd-422">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="bc7fd-422">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="bc7fd-423">命名空間</span><span class="sxs-lookup"><span data-stu-id="bc7fd-423">Namespace</span></span><br/>                | <span data-ttu-id="bc7fd-424">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="bc7fd-424">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="bc7fd-425">MOF</span><span class="sxs-lookup"><span data-stu-id="bc7fd-425">MOF</span></span><br/>                      | <dl> <span data-ttu-id="bc7fd-426"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="bc7fd-426"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="bc7fd-427">DLL</span><span class="sxs-lookup"><span data-stu-id="bc7fd-427">DLL</span></span><br/>                      | <dl> <span data-ttu-id="bc7fd-428"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="bc7fd-428"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="79c43-429">另請參閱</span><span class="sxs-lookup"><span data-stu-id="79c43-429">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bc7fd-429">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bc7fd-429">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="79c43-430">**CIM \_ LogicalDevice**</span><span class="sxs-lookup"><span data-stu-id="79c43-430">**CIM\_LogicalDevice**</span></span>](cim-logicaldevice.md)
+[<span data-ttu-id="bc7fd-430">**CIM \_ LogicalDevice**</span><span class="sxs-lookup"><span data-stu-id="bc7fd-430">**CIM\_LogicalDevice**</span></span>](cim-logicaldevice.md)
 </dt> </dl>
 
  

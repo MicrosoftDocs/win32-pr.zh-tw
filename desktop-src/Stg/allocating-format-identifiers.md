@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673399"
 ---
-# <a name="allocating-format-identifiers"></a><span data-ttu-id="cf3bd-104">配置格式識別碼</span><span class="sxs-lookup"><span data-stu-id="cf3bd-104">Allocating Format Identifiers</span></span>
+# <a name="allocating-format-identifiers"></a><span data-ttu-id="3521e-104">配置格式識別碼</span><span class="sxs-lookup"><span data-stu-id="3521e-104">Allocating Format Identifiers</span></span>
 
-<span data-ttu-id="cf3bd-105">系統會建立 FMTIDs，並以與 COM Clsid 和介面識別碼相同的方式來表示。</span><span class="sxs-lookup"><span data-stu-id="cf3bd-105">FMTIDs are created and represented in the same way as COM CLSIDs and interface identifiers.</span></span> <span data-ttu-id="cf3bd-106">若要建立唯一的 FMTID，請使用 Win32® API 中包含的 UUIDGEN.EXE 程式。</span><span class="sxs-lookup"><span data-stu-id="cf3bd-106">To create a unique FMTID, use the UUIDGEN.EXE program included in the Win32® API.</span></span>
+<span data-ttu-id="3521e-105">系統會建立 FMTIDs，並以與 COM Clsid 和介面識別碼相同的方式來表示。</span><span class="sxs-lookup"><span data-stu-id="3521e-105">FMTIDs are created and represented in the same way as COM CLSIDs and interface identifiers.</span></span> <span data-ttu-id="3521e-106">若要建立唯一的 FMTID，請使用 Win32® API 中包含的 UUIDGEN.EXE 程式。</span><span class="sxs-lookup"><span data-stu-id="3521e-106">To create a unique FMTID, use the UUIDGEN.EXE program included in the Win32® API.</span></span>
 
  
 

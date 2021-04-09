@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103675087"
 ---
-# <a name="win32_tslogonsetting-methods"></a><span data-ttu-id="e13d2-103">Win32 \_ TSLogonSetting 方法</span><span class="sxs-lookup"><span data-stu-id="e13d2-103">Win32\_TSLogonSetting Methods</span></span>
+# <a name="win32_tslogonsetting-methods"></a><span data-ttu-id="cfc26-103">Win32 \_ TSLogonSetting 方法</span><span class="sxs-lookup"><span data-stu-id="cfc26-103">Win32\_TSLogonSetting Methods</span></span>
 
-<span data-ttu-id="e13d2-104">[**Win32 \_ TSLogonSetting**](win32-tslogonsetting.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="e13d2-104">The [**Win32\_TSLogonSetting**](win32-tslogonsetting.md) class exposes the following methods.</span></span>
+<span data-ttu-id="cfc26-104">[**Win32 \_ TSLogonSetting**](win32-tslogonsetting.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="cfc26-104">The [**Win32\_TSLogonSetting**](win32-tslogonsetting.md) class exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="e13d2-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="e13d2-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cfc26-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="cfc26-105">In this section</span></span>
 
--   [<span data-ttu-id="e13d2-106">**ExplicitLogon 方法**</span><span class="sxs-lookup"><span data-stu-id="e13d2-106">**ExplicitLogon method**</span></span>](win32-tslogonsetting-explicitlogon.md)
--   [<span data-ttu-id="e13d2-107">**SetPromptForPassword 方法**</span><span class="sxs-lookup"><span data-stu-id="e13d2-107">**SetPromptForPassword method**</span></span>](win32-tslogonsetting-setpromptforpassword.md)
+-   [<span data-ttu-id="cfc26-106">**ExplicitLogon 方法**</span><span class="sxs-lookup"><span data-stu-id="cfc26-106">**ExplicitLogon method**</span></span>](win32-tslogonsetting-explicitlogon.md)
+-   [<span data-ttu-id="cfc26-107">**SetPromptForPassword 方法**</span><span class="sxs-lookup"><span data-stu-id="cfc26-107">**SetPromptForPassword method**</span></span>](win32-tslogonsetting-setpromptforpassword.md)
 
  
 

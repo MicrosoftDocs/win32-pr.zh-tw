@@ -12,13 +12,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945109"
 ---
-# <a name="iwbemlocator-methods"></a><span data-ttu-id="ec8c9-103">IWbemLocator 方法</span><span class="sxs-lookup"><span data-stu-id="ec8c9-103">IWbemLocator Methods</span></span>
+# <a name="iwbemlocator-methods"></a><span data-ttu-id="89866-103">IWbemLocator 方法</span><span class="sxs-lookup"><span data-stu-id="89866-103">IWbemLocator Methods</span></span>
 
-<span data-ttu-id="ec8c9-104">[**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="ec8c9-104">The [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface exposes the following methods.</span></span>
+<span data-ttu-id="89866-104">[**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="89866-104">The [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="ec8c9-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="ec8c9-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="89866-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="89866-105">In this section</span></span>
 
--   [<span data-ttu-id="ec8c9-106">**ConnectServer 方法**</span><span class="sxs-lookup"><span data-stu-id="ec8c9-106">**ConnectServer method**</span></span>](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver)
+-   [<span data-ttu-id="89866-106">**ConnectServer 方法**</span><span class="sxs-lookup"><span data-stu-id="89866-106">**ConnectServer method**</span></span>](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver)
 
  
 

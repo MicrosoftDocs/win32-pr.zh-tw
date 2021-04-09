@@ -12,12 +12,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103931788"
 ---
-# <a name="dns-callbacks"></a><span data-ttu-id="b07c5-103">DNS 回呼</span><span class="sxs-lookup"><span data-stu-id="b07c5-103">DNS Callbacks</span></span>
+# <a name="dns-callbacks"></a><span data-ttu-id="efb8e-103">DNS 回呼</span><span class="sxs-lookup"><span data-stu-id="efb8e-103">DNS Callbacks</span></span>
 
-<span data-ttu-id="b07c5-104">針對 DNS 定義了下列回呼。</span><span class="sxs-lookup"><span data-stu-id="b07c5-104">The following callbacks are defined for DNS.</span></span>
+<span data-ttu-id="efb8e-104">針對 DNS 定義了下列回呼。</span><span class="sxs-lookup"><span data-stu-id="efb8e-104">The following callbacks are defined for DNS.</span></span>
 
-- [<span data-ttu-id="b07c5-105">**DNS_QUERY_COMPLETION_ROUTINE**</span><span class="sxs-lookup"><span data-stu-id="b07c5-105">**DNS_QUERY_COMPLETION_ROUTINE**</span></span>](/windows/desktop/api/Windns/nc-windns-dns_query_completion_routine)
-- [<span data-ttu-id="b07c5-106">**DNS_SERVICE_BROWSE_CALLBACK**</span><span class="sxs-lookup"><span data-stu-id="b07c5-106">**DNS_SERVICE_BROWSE_CALLBACK**</span></span>](/windows/desktop/api/Windns/nc-windns-dns_service_browse_callback)
-- [<span data-ttu-id="b07c5-107">**DNS_SERVICE_REGISTER_COMPLETE**</span><span class="sxs-lookup"><span data-stu-id="b07c5-107">**DNS_SERVICE_REGISTER_COMPLETE**</span></span>](/windows/desktop/api/Windns/nc-windns-dns_service_register_complete)
-- [<span data-ttu-id="b07c5-108">**DNS_SERVICE_RESOLVE_COMPLETE**</span><span class="sxs-lookup"><span data-stu-id="b07c5-108">**DNS_SERVICE_RESOLVE_COMPLETE**</span></span>](/windows/desktop/api/Windns/nc-windns-dns_service_resolve_complete)
-- [<span data-ttu-id="b07c5-109">**MDNS_QUERY_CALLBACK**</span><span class="sxs-lookup"><span data-stu-id="b07c5-109">**MDNS_QUERY_CALLBACK**</span></span>](/windows/desktop/api/Windns/nc-windns-mdns_query_callback)
+- [<span data-ttu-id="efb8e-105">**DNS_QUERY_COMPLETION_ROUTINE**</span><span class="sxs-lookup"><span data-stu-id="efb8e-105">**DNS_QUERY_COMPLETION_ROUTINE**</span></span>](/windows/desktop/api/Windns/nc-windns-dns_query_completion_routine)
+- [<span data-ttu-id="efb8e-106">**DNS_SERVICE_BROWSE_CALLBACK**</span><span class="sxs-lookup"><span data-stu-id="efb8e-106">**DNS_SERVICE_BROWSE_CALLBACK**</span></span>](/windows/desktop/api/Windns/nc-windns-dns_service_browse_callback)
+- [<span data-ttu-id="efb8e-107">**DNS_SERVICE_REGISTER_COMPLETE**</span><span class="sxs-lookup"><span data-stu-id="efb8e-107">**DNS_SERVICE_REGISTER_COMPLETE**</span></span>](/windows/desktop/api/Windns/nc-windns-dns_service_register_complete)
+- [<span data-ttu-id="efb8e-108">**DNS_SERVICE_RESOLVE_COMPLETE**</span><span class="sxs-lookup"><span data-stu-id="efb8e-108">**DNS_SERVICE_RESOLVE_COMPLETE**</span></span>](/windows/desktop/api/Windns/nc-windns-dns_service_resolve_complete)
+- [<span data-ttu-id="efb8e-109">**MDNS_QUERY_CALLBACK**</span><span class="sxs-lookup"><span data-stu-id="efb8e-109">**MDNS_QUERY_CALLBACK**</span></span>](/windows/desktop/api/Windns/nc-windns-mdns_query_callback)

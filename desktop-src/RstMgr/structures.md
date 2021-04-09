@@ -13,15 +13,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839688"
 ---
-# <a name="restart-manager-structures"></a><span data-ttu-id="df1df-104">重新開機管理員結構</span><span class="sxs-lookup"><span data-stu-id="df1df-104">Restart Manager Structures</span></span>
+# <a name="restart-manager-structures"></a><span data-ttu-id="7530b-104">重新開機管理員結構</span><span class="sxs-lookup"><span data-stu-id="7530b-104">Restart Manager Structures</span></span>
 
-<span data-ttu-id="df1df-105">重新開機管理員 API 包含下列結構：</span><span class="sxs-lookup"><span data-stu-id="df1df-105">The Restart Manager API contains the following structures:</span></span>
+<span data-ttu-id="7530b-105">重新開機管理員 API 包含下列結構：</span><span class="sxs-lookup"><span data-stu-id="7530b-105">The Restart Manager API contains the following structures:</span></span>
 
 <dl>
 
-[<span data-ttu-id="df1df-106">**RM \_ 篩選 \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="df1df-106">**RM\_FILTER\_INFO**</span></span>](/windows/desktop/api/RestartManager/ns-restartmanager-rm_filter_info)  
-[<span data-ttu-id="df1df-107">**RM \_ 進程 \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="df1df-107">**RM\_PROCESS\_INFO**</span></span>](/windows/desktop/api/RestartManager/ns-restartmanager-rm_process_info)  
-[<span data-ttu-id="df1df-108">**RM \_ 獨特的 \_ 流程**</span><span class="sxs-lookup"><span data-stu-id="df1df-108">**RM\_UNIQUE\_PROCESS**</span></span>](/windows/desktop/api/RestartManager/ns-restartmanager-rm_unique_process)  
+[<span data-ttu-id="7530b-106">**RM \_ 篩選 \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="7530b-106">**RM\_FILTER\_INFO**</span></span>](/windows/desktop/api/RestartManager/ns-restartmanager-rm_filter_info)  
+[<span data-ttu-id="7530b-107">**RM \_ 進程 \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="7530b-107">**RM\_PROCESS\_INFO**</span></span>](/windows/desktop/api/RestartManager/ns-restartmanager-rm_process_info)  
+[<span data-ttu-id="7530b-108">**RM \_ 獨特的 \_ 流程**</span><span class="sxs-lookup"><span data-stu-id="7530b-108">**RM\_UNIQUE\_PROCESS**</span></span>](/windows/desktop/api/RestartManager/ns-restartmanager-rm_unique_process)  
 </dl>
 
  

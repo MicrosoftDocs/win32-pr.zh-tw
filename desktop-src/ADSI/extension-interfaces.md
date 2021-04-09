@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103931841"
 ---
-# <a name="extension-interfaces"></a><span data-ttu-id="8d83d-104">擴充介面</span><span class="sxs-lookup"><span data-stu-id="8d83d-104">Extension Interfaces</span></span>
+# <a name="extension-interfaces"></a><span data-ttu-id="1f373-104">擴充介面</span><span class="sxs-lookup"><span data-stu-id="1f373-104">Extension Interfaces</span></span>
 
-<span data-ttu-id="8d83d-105">本節描述 [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension) 介面和其方法。</span><span class="sxs-lookup"><span data-stu-id="8d83d-105">This section describes the [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension) interface and its methods.</span></span>
+<span data-ttu-id="1f373-105">本節描述 [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension) 介面和其方法。</span><span class="sxs-lookup"><span data-stu-id="1f373-105">This section describes the [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension) interface and its methods.</span></span>
 
  
 

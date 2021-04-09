@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103931889"
 ---
-# <a name="example-code-for-enumerating-users-on-a-member-server"></a><span data-ttu-id="ee06f-104">列舉成員伺服器使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="ee06f-104">Example Code for Enumerating Users on a Member Server</span></span>
+# <a name="example-code-for-enumerating-users-on-a-member-server"></a><span data-ttu-id="256c8-104">列舉成員伺服器使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="256c8-104">Example Code for Enumerating Users on a Member Server</span></span>
 
-<span data-ttu-id="ee06f-105">下列 Visual Basic 程式碼範例會列舉成員伺服器或 Windows 2000 Professional 上的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="ee06f-105">The following Visual Basic code example enumerates all users on a member server or Windows 2000 Professional.</span></span>
+<span data-ttu-id="256c8-105">下列 Visual Basic 程式碼範例會列舉成員伺服器或 Windows 2000 Professional 上的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="256c8-105">The following Visual Basic code example enumerates all users on a member server or Windows 2000 Professional.</span></span>
 
 
 ```VB
@@ -73,7 +73,7 @@ End Sub
 
 
 
-<span data-ttu-id="ee06f-106">下列 c + + 程式碼範例會列舉指定類別的所有物件（例如使用者），並顯示成員伺服器或 Windows 2000 Professional 上每個物件中所包含的成員。</span><span class="sxs-lookup"><span data-stu-id="ee06f-106">The following C++ code example enumerates all objects of a specified class, such as a user, and displays the members contained in each object on a member server or Windows 2000 Professional.</span></span>
+<span data-ttu-id="256c8-106">下列 c + + 程式碼範例會列舉指定類別的所有物件（例如使用者），並顯示成員伺服器或 Windows 2000 Professional 上每個物件中所包含的成員。</span><span class="sxs-lookup"><span data-stu-id="256c8-106">The following C++ code example enumerates all objects of a specified class, such as a user, and displays the members contained in each object on a member server or Windows 2000 Professional.</span></span>
 
 
 ```C++

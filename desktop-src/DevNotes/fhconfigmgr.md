@@ -20,24 +20,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847270"
 ---
-# <a name="fhconfigmgr-class"></a><span data-ttu-id="f2bb8-104">FhConfigMgr 類別</span><span class="sxs-lookup"><span data-stu-id="f2bb8-104">FhConfigMgr class</span></span>
+# <a name="fhconfigmgr-class"></a><span data-ttu-id="d23b6-104">FhConfigMgr 類別</span><span class="sxs-lookup"><span data-stu-id="d23b6-104">FhConfigMgr class</span></span>
 
-<span data-ttu-id="f2bb8-105">表示建立 **FhConfigMgr** 物件時所使用之使用者的檔案歷程記錄設定。</span><span class="sxs-lookup"><span data-stu-id="f2bb8-105">Represents the File History configuration of the user under which the **FhConfigMgr** object is created.</span></span> <span data-ttu-id="f2bb8-106">所有設定作業都是藉由呼叫 [**IFhConfigMgr**](/windows/desktop/api/Fhcfg/nn-fhcfg-ifhconfigmgr) 介面的方法來執行。</span><span class="sxs-lookup"><span data-stu-id="f2bb8-106">All configuration operations are performed by calling the methods of the [**IFhConfigMgr**](/windows/desktop/api/Fhcfg/nn-fhcfg-ifhconfigmgr) interface.</span></span>
+<span data-ttu-id="d23b6-105">表示建立 **FhConfigMgr** 物件時所使用之使用者的檔案歷程記錄設定。</span><span class="sxs-lookup"><span data-stu-id="d23b6-105">Represents the File History configuration of the user under which the **FhConfigMgr** object is created.</span></span> <span data-ttu-id="d23b6-106">所有設定作業都是藉由呼叫 [**IFhConfigMgr**](/windows/desktop/api/Fhcfg/nn-fhcfg-ifhconfigmgr) 介面的方法來執行。</span><span class="sxs-lookup"><span data-stu-id="d23b6-106">All configuration operations are performed by calling the methods of the [**IFhConfigMgr**](/windows/desktop/api/Fhcfg/nn-fhcfg-ifhconfigmgr) interface.</span></span>
 
-## <a name="when-to-implement"></a><span data-ttu-id="f2bb8-107">執行時機</span><span class="sxs-lookup"><span data-stu-id="f2bb8-107">When to implement</span></span>
+## <a name="when-to-implement"></a><span data-ttu-id="d23b6-107">執行時機</span><span class="sxs-lookup"><span data-stu-id="d23b6-107">When to implement</span></span>
 
-<span data-ttu-id="f2bb8-108">檔案歷程記錄 API 會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="f2bb8-108">The File History API implements this class.</span></span> <span data-ttu-id="f2bb8-109">若要建立這個類別的實例，請使用 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 函數。</span><span class="sxs-lookup"><span data-stu-id="f2bb8-109">To create an instance of this class, use the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function.</span></span>
+<span data-ttu-id="d23b6-108">檔案歷程記錄 API 會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="d23b6-108">The File History API implements this class.</span></span> <span data-ttu-id="d23b6-109">若要建立這個類別的實例，請使用 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 函數。</span><span class="sxs-lookup"><span data-stu-id="d23b6-109">To create an instance of this class, use the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f2bb8-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="f2bb8-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="d23b6-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="d23b6-110">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f2bb8-111">需求</span><span class="sxs-lookup"><span data-stu-id="f2bb8-111">Requirement</span></span> | <span data-ttu-id="f2bb8-112">值</span><span class="sxs-lookup"><span data-stu-id="f2bb8-112">Value</span></span> |
+| <span data-ttu-id="d23b6-111">需求</span><span class="sxs-lookup"><span data-stu-id="d23b6-111">Requirement</span></span> | <span data-ttu-id="d23b6-112">值</span><span class="sxs-lookup"><span data-stu-id="d23b6-112">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="f2bb8-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f2bb8-113">Minimum supported client</span></span><br/> | <span data-ttu-id="f2bb8-114">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f2bb8-114">Windows 8 \[desktop apps only\]</span></span><br/>                                           |
-| <span data-ttu-id="f2bb8-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f2bb8-115">Minimum supported server</span></span><br/> | <span data-ttu-id="f2bb8-116">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f2bb8-116">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                 |
-| <span data-ttu-id="f2bb8-117">標頭</span><span class="sxs-lookup"><span data-stu-id="f2bb8-117">Header</span></span><br/>                   | <dl> <span data-ttu-id="f2bb8-118"><dt>Fhcfg。h</dt></span><span class="sxs-lookup"><span data-stu-id="f2bb8-118"><dt>Fhcfg.h</dt></span></span> </dl>   |
-| <span data-ttu-id="f2bb8-119">Idl</span><span class="sxs-lookup"><span data-stu-id="f2bb8-119">IDL</span></span><br/>                      | <dl> <span data-ttu-id="f2bb8-120"><dt>Fhcfg .idl</dt></span><span class="sxs-lookup"><span data-stu-id="f2bb8-120"><dt>Fhcfg.idl</dt></span></span> </dl> |
+| <span data-ttu-id="d23b6-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d23b6-113">Minimum supported client</span></span><br/> | <span data-ttu-id="d23b6-114">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d23b6-114">Windows 8 \[desktop apps only\]</span></span><br/>                                           |
+| <span data-ttu-id="d23b6-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d23b6-115">Minimum supported server</span></span><br/> | <span data-ttu-id="d23b6-116">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d23b6-116">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="d23b6-117">標頭</span><span class="sxs-lookup"><span data-stu-id="d23b6-117">Header</span></span><br/>                   | <dl> <span data-ttu-id="d23b6-118"><dt>Fhcfg。h</dt></span><span class="sxs-lookup"><span data-stu-id="d23b6-118"><dt>Fhcfg.h</dt></span></span> </dl>   |
+| <span data-ttu-id="d23b6-119">Idl</span><span class="sxs-lookup"><span data-stu-id="d23b6-119">IDL</span></span><br/>                      | <dl> <span data-ttu-id="d23b6-120"><dt>Fhcfg .idl</dt></span><span class="sxs-lookup"><span data-stu-id="d23b6-120"><dt>Fhcfg.idl</dt></span></span> </dl> |
 
 
 

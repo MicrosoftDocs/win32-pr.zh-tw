@@ -1,0 +1,120 @@
+---
+description: 這個範例應用程式會使用核心音訊 Api，將音訊資料轉譯至使用者指定的輸出裝置。
+ms.assetid: 92e644be-df8b-415d-ac8e-c0c30c85f844
+title: RenderSharedEventDriven
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9901896b962717ed72fd36d022eef9510d7cb916
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103847383"
+---
+# <a name="rendersharedeventdriven"></a><span data-ttu-id="45732-103">RenderSharedEventDriven</span><span class="sxs-lookup"><span data-stu-id="45732-103">RenderSharedEventDriven</span></span>
+
+<span data-ttu-id="45732-104">這個範例應用程式會使用核心音訊 Api，將音訊資料轉譯至使用者指定的輸出裝置。</span><span class="sxs-lookup"><span data-stu-id="45732-104">This sample application uses the Core Audio APIs to render audio data to an output device, specified by the user.</span></span> <span data-ttu-id="45732-105">這個範例會示範在共用模式中呈現用戶端的事件驅動緩衝。</span><span class="sxs-lookup"><span data-stu-id="45732-105">This sample demonstrates event-driven buffering for a rendering client in shared mode.</span></span> <span data-ttu-id="45732-106">若是共用模式資料流程，用戶端會與音訊引擎共用端點緩衝區。</span><span class="sxs-lookup"><span data-stu-id="45732-106">For a shared-mode stream, the client shares the endpoint buffer with the audio engine.</span></span>
+
+<span data-ttu-id="45732-107">本主題包含下列各節。</span><span class="sxs-lookup"><span data-stu-id="45732-107">This topic contains the following sections.</span></span>
+
+-   [<span data-ttu-id="45732-108">說明</span><span class="sxs-lookup"><span data-stu-id="45732-108">Description</span></span>](#description)
+-   [<span data-ttu-id="45732-109">需求</span><span class="sxs-lookup"><span data-stu-id="45732-109">Requirements</span></span>](#requirements)
+-   [<span data-ttu-id="45732-110">下載範例</span><span class="sxs-lookup"><span data-stu-id="45732-110">Downloading the Sample</span></span>](#downloading-the-sample)
+-   [<span data-ttu-id="45732-111">建立範例</span><span class="sxs-lookup"><span data-stu-id="45732-111">Building the Sample</span></span>](#building-the-sample)
+-   [<span data-ttu-id="45732-112">執行範例</span><span class="sxs-lookup"><span data-stu-id="45732-112">Running the Sample</span></span>](#running-the-sample)
+-   [<span data-ttu-id="45732-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="45732-113">Related topics</span></span>](#related-topics)
+
+## <a name="description"></a><span data-ttu-id="45732-114">Description</span><span class="sxs-lookup"><span data-stu-id="45732-114">Description</span></span>
+
+<span data-ttu-id="45732-115">這個範例會示範下列功能。</span><span class="sxs-lookup"><span data-stu-id="45732-115">This sample demonstrates the following features.</span></span>
+
+-   <span data-ttu-id="45732-116">適用于多媒體裝置列舉和選取的[MMDEVICE API](mmdevice-api.md) 。</span><span class="sxs-lookup"><span data-stu-id="45732-116">[MMDevice API](mmdevice-api.md) for multimedia device enumeration and selection.</span></span>
+-   <span data-ttu-id="45732-117">串流管理作業的 WASAPI。</span><span class="sxs-lookup"><span data-stu-id="45732-117">WASAPI for stream management operations.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="45732-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="45732-118">Requirements</span></span>
+
+
+
+| <span data-ttu-id="45732-119">產品</span><span class="sxs-lookup"><span data-stu-id="45732-119">Product</span></span>                                                        | <span data-ttu-id="45732-120">版本</span><span class="sxs-lookup"><span data-stu-id="45732-120">Version</span></span>   |
+|----------------------------------------------------------------|-----------|
+| [<span data-ttu-id="45732-121">Windows SDK</span><span class="sxs-lookup"><span data-stu-id="45732-121">Windows SDK</span></span>](https://msdn.microsoft.com/windowsvista/bb980924.aspx) | <span data-ttu-id="45732-122">Windows 7</span><span class="sxs-lookup"><span data-stu-id="45732-122">Windows 7</span></span> |
+| <span data-ttu-id="45732-123">Visual Studio</span><span class="sxs-lookup"><span data-stu-id="45732-123">Visual Studio</span></span>                                                  | <span data-ttu-id="45732-124">2008</span><span class="sxs-lookup"><span data-stu-id="45732-124">2008</span></span>      |
+
+
+
+ 
+
+## <a name="downloading-the-sample"></a><span data-ttu-id="45732-125">下載範例</span><span class="sxs-lookup"><span data-stu-id="45732-125">Downloading the Sample</span></span>
+
+<span data-ttu-id="45732-126">下列位置提供此範例。</span><span class="sxs-lookup"><span data-stu-id="45732-126">This sample is available in the following locations.</span></span>
+
+
+
+| <span data-ttu-id="45732-127">Location</span><span class="sxs-lookup"><span data-stu-id="45732-127">Location</span></span>    | <span data-ttu-id="45732-128">路徑/URL</span><span class="sxs-lookup"><span data-stu-id="45732-128">Path/URL</span></span>                                                                                                 |
+|-------------|----------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="45732-129">Windows SDK</span><span class="sxs-lookup"><span data-stu-id="45732-129">Windows SDK</span></span> | <span data-ttu-id="45732-130">\\Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ 多媒體 \\ 音訊 \\ RenderSharedEventDriven \\ .。。</span><span class="sxs-lookup"><span data-stu-id="45732-130">\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples\\Multimedia\\Audio\\RenderSharedEventDriven\\...</span></span> |
+
+
+
+ 
+
+## <a name="building-the-sample"></a><span data-ttu-id="45732-131">建立範例</span><span class="sxs-lookup"><span data-stu-id="45732-131">Building the Sample</span></span>
+
+<span data-ttu-id="45732-132">若要建立 RenderSharedEventDriven 範例，請使用下列步驟：</span><span class="sxs-lookup"><span data-stu-id="45732-132">To build the RenderSharedEventDriven sample, use the following steps:</span></span>
+
+1.  <span data-ttu-id="45732-133">開啟 Windows SDK 的 CMD shell，並變更為 RenderSharedEventDriven 範例目錄。</span><span class="sxs-lookup"><span data-stu-id="45732-133">Open the CMD shell for the Windows SDK and change to the RenderSharedEventDriven sample directory.</span></span>
+2.  <span data-ttu-id="45732-134">在 RenderSharedEventDriven 目錄中執行命令 `start WASAPIRenderSharedEventDriven.sln` ，以在 Visual Studio 視窗中開啟 WASAPIRenderSharedEventDriven 專案。</span><span class="sxs-lookup"><span data-stu-id="45732-134">Run the command `start WASAPIRenderSharedEventDriven.sln` in the RenderSharedEventDriven directory to open the WASAPIRenderSharedEventDriven project in the Visual Studio window.</span></span>
+3.  <span data-ttu-id="45732-135">從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。</span><span class="sxs-lookup"><span data-stu-id="45732-135">From within the window, select the **Debug** or **Release** solution configuration, select the **Build** menu from the menu bar, and select the **Build** option.</span></span> <span data-ttu-id="45732-136">如果您未從 SDK 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 SDK 組建環境。</span><span class="sxs-lookup"><span data-stu-id="45732-136">If you do not open Visual Studio from the CMD shell for the SDK, Visual Studio will not have access to the SDK build environment.</span></span> <span data-ttu-id="45732-137">在此情況下，除非您明確設定在專案檔 WASAPIRenderSharedEventDriven 中使用的環境變數 MSSdk，否則此範例不會建立。</span><span class="sxs-lookup"><span data-stu-id="45732-137">In that case, the sample will not build unless you explicitly set environment variable MSSdk, which is used in the project file, WASAPIRenderSharedEventDriven.vcproj.</span></span>
+
+## <a name="running-the-sample"></a><span data-ttu-id="45732-138">執行範例</span><span class="sxs-lookup"><span data-stu-id="45732-138">Running the Sample</span></span>
+
+<span data-ttu-id="45732-139">如果您成功建立示範應用程式，則會產生可執行檔（WASAPIRenderSharedEventDriven.exe）。</span><span class="sxs-lookup"><span data-stu-id="45732-139">If you build the demo application successfully, an executable file, WASAPIRenderSharedEventDriven.exe, is generated.</span></span> <span data-ttu-id="45732-140">若要執行它，請 `WASAPIRenderSharedEventDriven` 在命令視窗中輸入，後面接著必要或選擇性的引數。</span><span class="sxs-lookup"><span data-stu-id="45732-140">To run it, type `WASAPIRenderSharedEventDriven` in a command window followed by required or optional arguments.</span></span> <span data-ttu-id="45732-141">下列範例顯示如何在預設的多媒體裝置上指定播放持續時間來執行範例。</span><span class="sxs-lookup"><span data-stu-id="45732-141">The following example shows how to run the sample by specifying playback duration on the default multimedia device.</span></span>
+
+`WASAPIRenderSharedEventDriven.exe -d 20 -multimedia`
+
+<span data-ttu-id="45732-142">下表顯示引數。</span><span class="sxs-lookup"><span data-stu-id="45732-142">The following table shows the arguments.</span></span>
+
+| <span data-ttu-id="45732-143">引數</span><span class="sxs-lookup"><span data-stu-id="45732-143">Argument</span></span>        | <span data-ttu-id="45732-144">描述</span><span class="sxs-lookup"><span data-stu-id="45732-144">Description</span></span>                                                |
+|-----------------|------------------------------------------------------------|
+| <span data-ttu-id="45732-145">-?</span><span class="sxs-lookup"><span data-stu-id="45732-145">-?</span></span>              | <span data-ttu-id="45732-146">顯示說明。</span><span class="sxs-lookup"><span data-stu-id="45732-146">Shows help.</span></span>                                                |
+| <span data-ttu-id="45732-147">-H</span><span class="sxs-lookup"><span data-stu-id="45732-147">-h</span></span>              | <span data-ttu-id="45732-148">顯示說明。</span><span class="sxs-lookup"><span data-stu-id="45732-148">Shows help.</span></span>                                                |
+| <span data-ttu-id="45732-149">-f</span><span class="sxs-lookup"><span data-stu-id="45732-149">-f</span></span>              | <span data-ttu-id="45732-150">以 Hz 為間隔的正弦波頻率。</span><span class="sxs-lookup"><span data-stu-id="45732-150">Sine wave frequency in Hz.</span></span>                                 |
+| <span data-ttu-id="45732-151">-l</span><span class="sxs-lookup"><span data-stu-id="45732-151">-l</span></span>              | <span data-ttu-id="45732-152">音訊轉譯延遲（以毫秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="45732-152">Audio render latency in milliseconds.</span></span>                      |
+| <span data-ttu-id="45732-153">-d</span><span class="sxs-lookup"><span data-stu-id="45732-153">-d</span></span>              | <span data-ttu-id="45732-154">正弦波持續時間（以秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="45732-154">Sine wave duration in seconds.</span></span>                             |
+| <span data-ttu-id="45732-155">-M</span><span class="sxs-lookup"><span data-stu-id="45732-155">-m</span></span>              | <span data-ttu-id="45732-156">停用 MMCSS。</span><span class="sxs-lookup"><span data-stu-id="45732-156">Disables the use of MMCSS.</span></span>                                 |
+| <span data-ttu-id="45732-157">-主控台</span><span class="sxs-lookup"><span data-stu-id="45732-157">-console</span></span>        | <span data-ttu-id="45732-158">使用預設的主控台裝置。</span><span class="sxs-lookup"><span data-stu-id="45732-158">Use the default console device.</span></span>                            |
+| <span data-ttu-id="45732-159">-通訊</span><span class="sxs-lookup"><span data-stu-id="45732-159">-communications</span></span> | <span data-ttu-id="45732-160">使用預設通訊裝置。</span><span class="sxs-lookup"><span data-stu-id="45732-160">Use the default communication device.</span></span>                      |
+| <span data-ttu-id="45732-161">-多媒體</span><span class="sxs-lookup"><span data-stu-id="45732-161">-multimedia</span></span>     | <span data-ttu-id="45732-162">使用預設的多媒體裝置。</span><span class="sxs-lookup"><span data-stu-id="45732-162">Use the default multimedia device.</span></span>                         |
+| <span data-ttu-id="45732-163">-端點</span><span class="sxs-lookup"><span data-stu-id="45732-163">-endpoint</span></span>       | <span data-ttu-id="45732-164">使用參數值中指定的端點識別碼。</span><span class="sxs-lookup"><span data-stu-id="45732-164">Use the endpoint identifier specified in the switch value.</span></span> |
+
+
+
+ 
+
+<span data-ttu-id="45732-165">如果應用程式執行時沒有引數，它會列舉可用的裝置，並提示使用者選取轉譯會話的裝置。</span><span class="sxs-lookup"><span data-stu-id="45732-165">If the application is run without arguments, it enumerates the available devices and prompts the user to select a device for the rendering session.</span></span> <span data-ttu-id="45732-166">當使用者指定裝置之後，應用程式會以 440 Hz 轉譯正弦波，以達10秒。</span><span class="sxs-lookup"><span data-stu-id="45732-166">After the user specifies a device, the application renders a sine wave at 440 Hz for 10 seconds.</span></span> <span data-ttu-id="45732-167">您可以藉由指定-f 和-d 參數值來修改這些值。</span><span class="sxs-lookup"><span data-stu-id="45732-167">These values can be modified by specifying -f and -d switch values.</span></span>
+
+<span data-ttu-id="45732-168">RenderSharedEventDriven 示範事件驅動的緩衝。</span><span class="sxs-lookup"><span data-stu-id="45732-168">RenderSharedEventDriven demonstrates event-driven buffering.</span></span> <span data-ttu-id="45732-169">此範例顯示如何：</span><span class="sxs-lookup"><span data-stu-id="45732-169">The sample shows how to:</span></span>
+
+-   <span data-ttu-id="45732-170">將音訊用戶端具現化，將其設定為在獨佔模式中執行，並在 [**IAudioClient：： Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize)的呼叫中設定 **AUDCLNT \_ STREAMFLAGS \_ >app >eventcallback** 旗標，以啟用事件驅動的緩衝。</span><span class="sxs-lookup"><span data-stu-id="45732-170">Instantiate an audio client, configure it to run in exclusive mode, and enable event-driven buffering by setting the **AUDCLNT\_STREAMFLAGS\_EVENTCALLBACK** flag in the call to [**IAudioClient::Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize).</span></span>
+-   <span data-ttu-id="45732-171">藉由呼叫 [**IAudioClient：： SetEventHandle**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-seteventhandle) 方法，將用戶端與準備好呈現的範例產生關聯。</span><span class="sxs-lookup"><span data-stu-id="45732-171">Associate the client with the samples that are ready to be rendered by providing an event handle to the system by calling the [**IAudioClient::SetEventHandle**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-seteventhandle) method.</span></span>
+-   <span data-ttu-id="45732-172">建立轉譯執行緒，以從音訊引擎 proces cannot 範例。</span><span class="sxs-lookup"><span data-stu-id="45732-172">Create a render thread to proces samples from the audio engine.</span></span>
+-   <span data-ttu-id="45732-173">檢查裝置端點的混合格式，以判斷是否可以轉譯樣本。</span><span class="sxs-lookup"><span data-stu-id="45732-173">Check the mix format of the device endpoint to determine whether the samples can be rendered.</span></span> <span data-ttu-id="45732-174">如果裝置不支援混合格式，資料會轉換成 PCM。</span><span class="sxs-lookup"><span data-stu-id="45732-174">If the device does not support the mix format, the data is converted to PCM.</span></span>
+-   <span data-ttu-id="45732-175">處理資料流程切換。</span><span class="sxs-lookup"><span data-stu-id="45732-175">Handle stream switching.</span></span>
+
+<span data-ttu-id="45732-176">當轉譯會話開始且資料流程開始時，音訊引擎會發出通知給用戶端的事件處理常式，以便在每次緩衝區可供用戶端處理時通知用戶端。</span><span class="sxs-lookup"><span data-stu-id="45732-176">After the rendering session begins and the stream starts, the audio engine signals the supplied event handle to notify the client each time a buffer becomes ready for the client to process.</span></span> <span data-ttu-id="45732-177">音訊資料也可以在計時器驅動迴圈中處理。</span><span class="sxs-lookup"><span data-stu-id="45732-177">The audio data can also be processed in a timer-driven loop.</span></span> <span data-ttu-id="45732-178">[RenderSharedTimerDriven](rendersharedtimerdriven.md)範例會示範這個模式。</span><span class="sxs-lookup"><span data-stu-id="45732-178">This mode is demonstrated in the [RenderSharedTimerDriven](rendersharedtimerdriven.md) sample.</span></span>
+
+<span data-ttu-id="45732-179">如需呈現資料流程的詳細資訊，請參閱轉譯 [資料流程](rendering-a-stream.md)。</span><span class="sxs-lookup"><span data-stu-id="45732-179">For more information about rendering a stream, see [Rendering a Stream](rendering-a-stream.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="45732-180">相關主題</span><span class="sxs-lookup"><span data-stu-id="45732-180">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="45732-181">使用核心音訊 Api 的 SDK 範例</span><span class="sxs-lookup"><span data-stu-id="45732-181">SDK Samples That Use the Core Audio APIs</span></span>](sdk-samples-that-use-the-core-audio-apis.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

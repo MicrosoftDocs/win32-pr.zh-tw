@@ -17,9 +17,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673403"
 ---
-# <a name="decompressing-data"></a><span data-ttu-id="902e2-108">解壓縮資料</span><span class="sxs-lookup"><span data-stu-id="902e2-108">Decompressing Data</span></span>
+# <a name="decompressing-data"></a><span data-ttu-id="22112-108">解壓縮資料</span><span class="sxs-lookup"><span data-stu-id="22112-108">Decompressing Data</span></span>
 
-<span data-ttu-id="902e2-109">下列範例顯示應用程式如何使用 [**ICDecompressBegin**](/windows/desktop/api/Vfw/nf-vfw-icdecompressbegin) 宏初始化解壓縮程式、使用 [**ICDecompress**](/windows/desktop/api/Vfw/nf-vfw-icdecompress) 函式解壓縮框架順序，以及使用 [**ICDecompressEnd**](/windows/desktop/api/Vfw/nf-vfw-icdecompressend) 宏來終止解壓縮。</span><span class="sxs-lookup"><span data-stu-id="902e2-109">The following example shows how an application can initialize a decompressor using the [**ICDecompressBegin**](/windows/desktop/api/Vfw/nf-vfw-icdecompressbegin) macro, decompress a frame sequence using the [**ICDecompress**](/windows/desktop/api/Vfw/nf-vfw-icdecompress) function, and terminate decompression using the [**ICDecompressEnd**](/windows/desktop/api/Vfw/nf-vfw-icdecompressend) macro.</span></span>
+<span data-ttu-id="22112-109">下列範例顯示應用程式如何使用 [**ICDecompressBegin**](/windows/desktop/api/Vfw/nf-vfw-icdecompressbegin) 宏初始化解壓縮程式、使用 [**ICDecompress**](/windows/desktop/api/Vfw/nf-vfw-icdecompress) 函式解壓縮框架順序，以及使用 [**ICDecompressEnd**](/windows/desktop/api/Vfw/nf-vfw-icdecompressend) 宏來終止解壓縮。</span><span class="sxs-lookup"><span data-stu-id="22112-109">The following example shows how an application can initialize a decompressor using the [**ICDecompressBegin**](/windows/desktop/api/Vfw/nf-vfw-icdecompressbegin) macro, decompress a frame sequence using the [**ICDecompress**](/windows/desktop/api/Vfw/nf-vfw-icdecompress) function, and terminate decompression using the [**ICDecompressEnd**](/windows/desktop/api/Vfw/nf-vfw-icdecompressend) macro.</span></span>
 
 
 ```C++

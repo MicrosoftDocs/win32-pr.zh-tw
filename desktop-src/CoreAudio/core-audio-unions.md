@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110012"
 ---
-# <a name="core-audio-unions"></a><span data-ttu-id="941a2-103">核心音訊等位</span><span class="sxs-lookup"><span data-stu-id="941a2-103">Core Audio Unions</span></span>
+# <a name="core-audio-unions"></a><span data-ttu-id="0f5e0-103">核心音訊等位</span><span class="sxs-lookup"><span data-stu-id="0f5e0-103">Core Audio Unions</span></span>
 
-<span data-ttu-id="941a2-104">本節說明核心音訊 Api 使用的等位。</span><span class="sxs-lookup"><span data-stu-id="941a2-104">This section describes the unions that are used by the Core Audio APIs.</span></span>
+<span data-ttu-id="0f5e0-104">本節說明核心音訊 Api 使用的等位。</span><span class="sxs-lookup"><span data-stu-id="0f5e0-104">This section describes the unions that are used by the Core Audio APIs.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="941a2-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="941a2-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0f5e0-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0f5e0-105">In this section</span></span>
 
 
 
-| <span data-ttu-id="941a2-106">主題</span><span class="sxs-lookup"><span data-stu-id="941a2-106">Topic</span></span>                                                                                   | <span data-ttu-id="941a2-107">描述</span><span class="sxs-lookup"><span data-stu-id="941a2-107">Description</span></span>                                                                                                                   |
+| <span data-ttu-id="0f5e0-106">主題</span><span class="sxs-lookup"><span data-stu-id="0f5e0-106">Topic</span></span>                                                                                   | <span data-ttu-id="0f5e0-107">描述</span><span class="sxs-lookup"><span data-stu-id="0f5e0-107">Description</span></span>                                                                                                                   |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="941a2-108">**SpatialAudioHrtfDirectivityUnion**</span><span class="sxs-lookup"><span data-stu-id="941a2-108">**SpatialAudioHrtfDirectivityUnion**</span></span>](/windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivityunion)<br/> | <span data-ttu-id="941a2-109">定義 [**ISpatialAudioObjectForHrtf**](/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf)的空間音訊 directivity 模型。</span><span class="sxs-lookup"><span data-stu-id="941a2-109">Defines a spatial audio directivity model for an [**ISpatialAudioObjectForHrtf**](/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf).</span></span><br/> |
+| [<span data-ttu-id="0f5e0-108">**SpatialAudioHrtfDirectivityUnion**</span><span class="sxs-lookup"><span data-stu-id="0f5e0-108">**SpatialAudioHrtfDirectivityUnion**</span></span>](/windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivityunion)<br/> | <span data-ttu-id="0f5e0-109">定義 [**ISpatialAudioObjectForHrtf**](/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf)的空間音訊 directivity 模型。</span><span class="sxs-lookup"><span data-stu-id="0f5e0-109">Defines a spatial audio directivity model for an [**ISpatialAudioObjectForHrtf**](/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf).</span></span><br/> |
 
 
 

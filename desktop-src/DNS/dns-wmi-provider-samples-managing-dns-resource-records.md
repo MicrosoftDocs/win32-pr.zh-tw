@@ -11,23 +11,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932142"
 ---
-# <a name="dns-wmi-provider-samplesmanaging-dns-resource-records"></a><span data-ttu-id="40744-103">DNS WMI 提供者範例—管理 DNS 資源記錄</span><span class="sxs-lookup"><span data-stu-id="40744-103">DNS WMI Provider Samples—Managing DNS Resource Records</span></span>
+# <a name="dns-wmi-provider-samplesmanaging-dns-resource-records"></a><span data-ttu-id="44abb-103">DNS WMI 提供者範例—管理 DNS 資源記錄</span><span class="sxs-lookup"><span data-stu-id="44abb-103">DNS WMI Provider Samples—Managing DNS Resource Records</span></span>
 
-<span data-ttu-id="40744-104">本節將示範與管理 DNS 資源記錄相關聯的腳本工作。</span><span class="sxs-lookup"><span data-stu-id="40744-104">This section demonstrates scripting tasks associated with managing DNS resource records.</span></span> <span data-ttu-id="40744-105">下列連結會跳至腳本檔中的副程式。</span><span class="sxs-lookup"><span data-stu-id="40744-105">The links below jump to subroutines in the script file.</span></span>
+<span data-ttu-id="44abb-104">本節將示範與管理 DNS 資源記錄相關聯的腳本工作。</span><span class="sxs-lookup"><span data-stu-id="44abb-104">This section demonstrates scripting tasks associated with managing DNS resource records.</span></span> <span data-ttu-id="44abb-105">下列連結會跳至腳本檔中的副程式。</span><span class="sxs-lookup"><span data-stu-id="44abb-105">The links below jump to subroutines in the script file.</span></span>
 
--   [<span data-ttu-id="40744-106">列出資源記錄</span><span class="sxs-lookup"><span data-stu-id="40744-106">List resource records</span></span>](#list-resource-records)
--   [<span data-ttu-id="40744-107">新增資源記錄</span><span class="sxs-lookup"><span data-stu-id="40744-107">Add a resource record</span></span>](#add-a-resource-record)
--   [<span data-ttu-id="40744-108">刪除資源記錄</span><span class="sxs-lookup"><span data-stu-id="40744-108">Delete a resource record</span></span>](#delete-a-resource-record)
--   [<span data-ttu-id="40744-109">修改資源記錄</span><span class="sxs-lookup"><span data-stu-id="40744-109">Modify a resource record</span></span>](#modify-a-resource-record)
--   [<span data-ttu-id="40744-110">連接到 DNS WMI 提供者</span><span class="sxs-lookup"><span data-stu-id="40744-110">Connect to the DNS WMI Provider</span></span>](#connect-to-the-dns-wmi-provider)
+-   [<span data-ttu-id="44abb-106">列出資源記錄</span><span class="sxs-lookup"><span data-stu-id="44abb-106">List resource records</span></span>](#list-resource-records)
+-   [<span data-ttu-id="44abb-107">新增資源記錄</span><span class="sxs-lookup"><span data-stu-id="44abb-107">Add a resource record</span></span>](#add-a-resource-record)
+-   [<span data-ttu-id="44abb-108">刪除資源記錄</span><span class="sxs-lookup"><span data-stu-id="44abb-108">Delete a resource record</span></span>](#delete-a-resource-record)
+-   [<span data-ttu-id="44abb-109">修改資源記錄</span><span class="sxs-lookup"><span data-stu-id="44abb-109">Modify a resource record</span></span>](#modify-a-resource-record)
+-   [<span data-ttu-id="44abb-110">連接到 DNS WMI 提供者</span><span class="sxs-lookup"><span data-stu-id="44abb-110">Connect to the DNS WMI Provider</span></span>](#connect-to-the-dns-wmi-provider)
 
-<span data-ttu-id="40744-111">腳本的一般執行如下所示：</span><span class="sxs-lookup"><span data-stu-id="40744-111">The general implementation of the script is as follows:</span></span>
+<span data-ttu-id="44abb-111">腳本的一般執行如下所示：</span><span class="sxs-lookup"><span data-stu-id="44abb-111">The general implementation of the script is as follows:</span></span>
 
-1.  <span data-ttu-id="40744-112">針對每個資源記錄類型建立類別。</span><span class="sxs-lookup"><span data-stu-id="40744-112">A class is created for each resource record type.</span></span>
-2.  <span data-ttu-id="40744-113">您可以透過使用者命令列輸入和每個記錄類型類別的 DNS WMI 提供者資訊來提供資源記錄資料。</span><span class="sxs-lookup"><span data-stu-id="40744-113">Resource record data is provided through user command-line inputs and DNS WMI Provider information for each record type class.</span></span>
-3.  <span data-ttu-id="40744-114">系統會建立常用的函式（例如 list、delete 和 modify），並可用於個別的資源記錄類型類別。</span><span class="sxs-lookup"><span data-stu-id="40744-114">Common functions such as list, delete, and modify are created and can be used on individual resource record type classes.</span></span>
+1.  <span data-ttu-id="44abb-112">針對每個資源記錄類型建立類別。</span><span class="sxs-lookup"><span data-stu-id="44abb-112">A class is created for each resource record type.</span></span>
+2.  <span data-ttu-id="44abb-113">您可以透過使用者命令列輸入和每個記錄類型類別的 DNS WMI 提供者資訊來提供資源記錄資料。</span><span class="sxs-lookup"><span data-stu-id="44abb-113">Resource record data is provided through user command-line inputs and DNS WMI Provider information for each record type class.</span></span>
+3.  <span data-ttu-id="44abb-114">系統會建立常用的函式（例如 list、delete 和 modify），並可用於個別的資源記錄類型類別。</span><span class="sxs-lookup"><span data-stu-id="44abb-114">Common functions such as list, delete, and modify are created and can be used on individual resource record type classes.</span></span>
 
-<span data-ttu-id="40744-115">這個程式碼範例會顯示與管理 DNS 資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="40744-115">This code example shows tasks associated with Managing DNS resource records.</span></span>
+<span data-ttu-id="44abb-115">這個程式碼範例會顯示與管理 DNS 資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="44abb-115">This code example shows tasks associated with Managing DNS resource records.</span></span>
 
 
 ```VB
@@ -4192,9 +4192,9 @@ End Class
 
 
 
-## <a name="list-resource-records"></a><span data-ttu-id="40744-116">列出資源記錄</span><span class="sxs-lookup"><span data-stu-id="40744-116">List Resource Records</span></span>
+## <a name="list-resource-records"></a><span data-ttu-id="44abb-116">列出資源記錄</span><span class="sxs-lookup"><span data-stu-id="44abb-116">List Resource Records</span></span>
 
-<span data-ttu-id="40744-117">這個程式碼範例會顯示與列出資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="40744-117">This code example shows tasks associated with listing resource records.</span></span>
+<span data-ttu-id="44abb-117">這個程式碼範例會顯示與列出資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="44abb-117">This code example shows tasks associated with listing resource records.</span></span>
 
 
 ```VB
@@ -4316,9 +4316,9 @@ End Sub
 
 
 
-## <a name="add-a-resource-record"></a><span data-ttu-id="40744-118">新增資源記錄</span><span class="sxs-lookup"><span data-stu-id="40744-118">Add a Resource Record</span></span>
+## <a name="add-a-resource-record"></a><span data-ttu-id="44abb-118">新增資源記錄</span><span class="sxs-lookup"><span data-stu-id="44abb-118">Add a Resource Record</span></span>
 
-<span data-ttu-id="40744-119">這個程式碼範例會顯示與新增資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="40744-119">This code example shows tasks associated with adding resource records.</span></span>
+<span data-ttu-id="44abb-119">這個程式碼範例會顯示與新增資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="44abb-119">This code example shows tasks associated with adding resource records.</span></span>
 
 
 ```VB
@@ -4406,9 +4406,9 @@ End Sub
 
 
 
-## <a name="delete-a-resource-record"></a><span data-ttu-id="40744-120">刪除資源記錄</span><span class="sxs-lookup"><span data-stu-id="40744-120">Delete a Resource Record</span></span>
+## <a name="delete-a-resource-record"></a><span data-ttu-id="44abb-120">刪除資源記錄</span><span class="sxs-lookup"><span data-stu-id="44abb-120">Delete a Resource Record</span></span>
 
-<span data-ttu-id="40744-121">這個程式碼範例會顯示與刪除資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="40744-121">This code example shows tasks associated with deleting resource records.</span></span>
+<span data-ttu-id="44abb-121">這個程式碼範例會顯示與刪除資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="44abb-121">This code example shows tasks associated with deleting resource records.</span></span>
 
 
 ```VB
@@ -4490,9 +4490,9 @@ End Sub
 
 
 
-## <a name="modify-a-resource-record"></a><span data-ttu-id="40744-122">修改資源記錄</span><span class="sxs-lookup"><span data-stu-id="40744-122">Modify a Resource Record</span></span>
+## <a name="modify-a-resource-record"></a><span data-ttu-id="44abb-122">修改資源記錄</span><span class="sxs-lookup"><span data-stu-id="44abb-122">Modify a Resource Record</span></span>
 
-<span data-ttu-id="40744-123">這個程式碼範例會顯示與變更資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="40744-123">This code example shows tasks associated with changing resource records.</span></span>
+<span data-ttu-id="44abb-123">這個程式碼範例會顯示與變更資源記錄相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="44abb-123">This code example shows tasks associated with changing resource records.</span></span>
 
 
 ```VB
@@ -5183,9 +5183,9 @@ End Function
 
 
 
-## <a name="connect-to-the-dns-wmi-provider"></a><span data-ttu-id="40744-124">連接到 DNS WMI 提供者</span><span class="sxs-lookup"><span data-stu-id="40744-124">Connect to the DNS WMI Provider</span></span>
+## <a name="connect-to-the-dns-wmi-provider"></a><span data-ttu-id="44abb-124">連接到 DNS WMI 提供者</span><span class="sxs-lookup"><span data-stu-id="44abb-124">Connect to the DNS WMI Provider</span></span>
 
-<span data-ttu-id="40744-125">這個程式碼範例會顯示與連接到 DNS WMI 提供者相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="40744-125">This code example shows tasks associated with connecting to a DNS WMI Provider.</span></span>
+<span data-ttu-id="44abb-125">這個程式碼範例會顯示與連接到 DNS WMI 提供者相關聯的工作。</span><span class="sxs-lookup"><span data-stu-id="44abb-125">This code example shows tasks associated with connecting to a DNS WMI Provider.</span></span>
 
 
 ```VB

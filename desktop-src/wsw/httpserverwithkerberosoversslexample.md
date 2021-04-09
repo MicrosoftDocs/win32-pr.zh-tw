@@ -15,15 +15,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932563"
 ---
-# <a name="httpserverwithkerberosoversslexample"></a><span data-ttu-id="df0df-106">HttpServerWithKerberosOverSslExample</span><span class="sxs-lookup"><span data-stu-id="df0df-106">HttpServerWithKerberosOverSslExample</span></span>
+# <a name="httpserverwithkerberosoversslexample"></a><span data-ttu-id="79b7f-106">HttpServerWithKerberosOverSslExample</span><span class="sxs-lookup"><span data-stu-id="79b7f-106">HttpServerWithKerberosOverSslExample</span></span>
 
-<span data-ttu-id="df0df-107">此範例顯示可接受通道並接收和回復訊息的 TCP 伺服器，並具有 kerberos over SSL 混合模式安全性。</span><span class="sxs-lookup"><span data-stu-id="df0df-107">This example shows a TCP server that accepts a channel and receives and replies to messages, with kerberos over SSL mixed-mode security.</span></span> <span data-ttu-id="df0df-108">在此設定中，傳輸連線會受到 SSL (簽署、加密) 的 SSL，也提供伺服器驗證。</span><span class="sxs-lookup"><span data-stu-id="df0df-108">In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication.</span></span> <span data-ttu-id="df0df-109">用戶端驗證是由訊息的 WS-Security 標頭中的 kerberos APREQ 票證所提供。</span><span class="sxs-lookup"><span data-stu-id="df0df-109">Client authentication is provided by a kerberos APREQ ticket in a WS-Security header in the message.</span></span>
+<span data-ttu-id="79b7f-107">此範例顯示可接受通道並接收和回復訊息的 TCP 伺服器，並具有 kerberos over SSL 混合模式安全性。</span><span class="sxs-lookup"><span data-stu-id="79b7f-107">This example shows a TCP server that accepts a channel and receives and replies to messages, with kerberos over SSL mixed-mode security.</span></span> <span data-ttu-id="79b7f-108">在此設定中，傳輸連線會受到 SSL (簽署、加密) 的 SSL，也提供伺服器驗證。</span><span class="sxs-lookup"><span data-stu-id="79b7f-108">In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication.</span></span> <span data-ttu-id="79b7f-109">用戶端驗證是由訊息的 WS-Security 標頭中的 kerberos APREQ 票證所提供。</span><span class="sxs-lookup"><span data-stu-id="79b7f-109">Client authentication is provided by a kerberos APREQ ticket in a WS-Security header in the message.</span></span>
 
--   [<span data-ttu-id="df0df-110">HttpServerWithKerberosOverSsl .cpp</span><span class="sxs-lookup"><span data-stu-id="df0df-110">HttpServerWithKerberosOverSsl.cpp</span></span>](#httpserverwithkerberosoversslcpp)
--   [<span data-ttu-id="df0df-111">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="df0df-111">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="df0df-112">Makefile</span><span class="sxs-lookup"><span data-stu-id="df0df-112">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="79b7f-110">HttpServerWithKerberosOverSsl .cpp</span><span class="sxs-lookup"><span data-stu-id="79b7f-110">HttpServerWithKerberosOverSsl.cpp</span></span>](#httpserverwithkerberosoversslcpp)
+-   [<span data-ttu-id="79b7f-111">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="79b7f-111">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="79b7f-112">Makefile</span><span class="sxs-lookup"><span data-stu-id="79b7f-112">Makefile</span></span>](#makefile)
 
-## <a name="httpserverwithkerberosoversslcpp"></a><span data-ttu-id="df0df-113">HttpServerWithKerberosOverSsl .cpp</span><span class="sxs-lookup"><span data-stu-id="df0df-113">HttpServerWithKerberosOverSsl.cpp</span></span>
+## <a name="httpserverwithkerberosoversslcpp"></a><span data-ttu-id="79b7f-113">HttpServerWithKerberosOverSsl .cpp</span><span class="sxs-lookup"><span data-stu-id="79b7f-113">HttpServerWithKerberosOverSsl.cpp</span></span>
 
 
 ```C++
@@ -488,7 +488,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="df0df-114">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="df0df-114">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="79b7f-114">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="79b7f-114">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -599,7 +599,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="df0df-115">Makefile</span><span class="sxs-lookup"><span data-stu-id="df0df-115">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="79b7f-115">Makefile</span><span class="sxs-lookup"><span data-stu-id="79b7f-115">Makefile</span></span>
 
 ``` syntax
 !include <Win32.Mak>

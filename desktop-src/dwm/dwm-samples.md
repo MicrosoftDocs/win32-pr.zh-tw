@@ -14,25 +14,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103840143"
 ---
-# <a name="dwm-samples"></a><span data-ttu-id="a5836-105">DWM 範例</span><span class="sxs-lookup"><span data-stu-id="a5836-105">DWM Samples</span></span>
+# <a name="dwm-samples"></a><span data-ttu-id="83280-105">DWM 範例</span><span class="sxs-lookup"><span data-stu-id="83280-105">DWM Samples</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="a5836-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="a5836-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="83280-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="83280-106">In this section</span></span>
 
 
 
-| <span data-ttu-id="a5836-107">主題</span><span class="sxs-lookup"><span data-stu-id="a5836-107">Topic</span></span>                                                                                                   | <span data-ttu-id="a5836-108">描述</span><span class="sxs-lookup"><span data-stu-id="a5836-108">Description</span></span>                                                                                                   |
+| <span data-ttu-id="83280-107">主題</span><span class="sxs-lookup"><span data-stu-id="83280-107">Topic</span></span>                                                                                                   | <span data-ttu-id="83280-108">描述</span><span class="sxs-lookup"><span data-stu-id="83280-108">Description</span></span>                                                                                                   |
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="a5836-109">自訂圖示縮圖和即時預覽點陣圖</span><span class="sxs-lookup"><span data-stu-id="a5836-109">Customize an Iconic Thumbnail and a Live Preview Bitmap</span></span>](dwm-sample-customizethumbnail.md)<br/> | <span data-ttu-id="a5836-110">示範如何自訂 iconic 縮圖和即時預覽點陣圖 (也稱為查看預覽) 。</span><span class="sxs-lookup"><span data-stu-id="a5836-110">Shows how to customize an iconic thumbnail and a live preview bitmap (also called a Peek preview).</span></span><br/> |
+| [<span data-ttu-id="83280-109">自訂圖示縮圖和即時預覽點陣圖</span><span class="sxs-lookup"><span data-stu-id="83280-109">Customize an Iconic Thumbnail and a Live Preview Bitmap</span></span>](dwm-sample-customizethumbnail.md)<br/> | <span data-ttu-id="83280-110">示範如何自訂 iconic 縮圖和即時預覽點陣圖 (也稱為查看預覽) 。</span><span class="sxs-lookup"><span data-stu-id="83280-110">Shows how to customize an iconic thumbnail and a live preview bitmap (also called a Peek preview).</span></span><br/> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="a5836-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="a5836-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="83280-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="83280-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a5836-112">桌面視窗管理員</span><span class="sxs-lookup"><span data-stu-id="a5836-112">Desktop Window Manager</span></span>](dwm-overview.md)
+[<span data-ttu-id="83280-112">桌面視窗管理員</span><span class="sxs-lookup"><span data-stu-id="83280-112">Desktop Window Manager</span></span>](dwm-overview.md)
 </dt> </dl>
 
  

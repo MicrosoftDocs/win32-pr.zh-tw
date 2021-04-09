@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847706"
 ---
-# <a name="jet_snprogtostring-method"></a><span data-ttu-id="e3f29-103">JET_SNPROG。ToString 方法</span><span class="sxs-lookup"><span data-stu-id="e3f29-103">JET_SNPROG.ToString method</span></span>
+# <a name="jet_snprogtostring-method"></a><span data-ttu-id="856f9-103">JET_SNPROG。ToString 方法</span><span class="sxs-lookup"><span data-stu-id="856f9-103">JET_SNPROG.ToString method</span></span>
 
-<span data-ttu-id="e3f29-104">產生實例的字串表示。</span><span class="sxs-lookup"><span data-stu-id="e3f29-104">Generate a string representation of the instance.</span></span>
+<span data-ttu-id="856f9-104">產生實例的字串表示。</span><span class="sxs-lookup"><span data-stu-id="856f9-104">Generate a string representation of the instance.</span></span>
 
-<span data-ttu-id="e3f29-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e3f29-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="e3f29-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e3f29-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="856f9-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="856f9-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="856f9-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="856f9-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e3f29-107">語法</span><span class="sxs-lookup"><span data-stu-id="e3f29-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="856f9-107">語法</span><span class="sxs-lookup"><span data-stu-id="856f9-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -54,17 +54,17 @@ returnValue = instance.ToString()
 public override string ToString()
 ```
 
-#### <a name="return-value"></a><span data-ttu-id="e3f29-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="e3f29-108">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="856f9-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="856f9-108">Return value</span></span>
 
-<span data-ttu-id="e3f29-109">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="e3f29-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
-<span data-ttu-id="e3f29-110">字串形式的結構。</span><span class="sxs-lookup"><span data-stu-id="e3f29-110">The structure as a string.</span></span>  
+<span data-ttu-id="856f9-109">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="856f9-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
+<span data-ttu-id="856f9-110">字串形式的結構。</span><span class="sxs-lookup"><span data-stu-id="856f9-110">The structure as a string.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="e3f29-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e3f29-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="856f9-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="856f9-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="e3f29-112">參考</span><span class="sxs-lookup"><span data-stu-id="e3f29-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="856f9-112">參考</span><span class="sxs-lookup"><span data-stu-id="856f9-112">Reference</span></span>
 
-[<span data-ttu-id="e3f29-113">JET_SNPROG 類別</span><span class="sxs-lookup"><span data-stu-id="e3f29-113">JET_SNPROG class</span></span>](./jet-snprog-class.md)
+[<span data-ttu-id="856f9-113">JET_SNPROG 類別</span><span class="sxs-lookup"><span data-stu-id="856f9-113">JET_SNPROG class</span></span>](./jet-snprog-class.md)
 
-[<span data-ttu-id="e3f29-114">JET_SNPROG 成員</span><span class="sxs-lookup"><span data-stu-id="e3f29-114">JET_SNPROG members</span></span>](./jet-snprog-members.md)
+[<span data-ttu-id="856f9-114">JET_SNPROG 成員</span><span class="sxs-lookup"><span data-stu-id="856f9-114">JET_SNPROG members</span></span>](./jet-snprog-members.md)
 
-[<span data-ttu-id="e3f29-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="e3f29-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="856f9-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="856f9-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

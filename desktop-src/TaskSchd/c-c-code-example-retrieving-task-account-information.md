@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932293"
 ---
-# <a name="cc-code-example-retrieving-task-account-information"></a><span data-ttu-id="d037b-106">C/c + + 程式碼範例：正在抓取工作帳戶資訊</span><span class="sxs-lookup"><span data-stu-id="d037b-106">C/C++ Code Example: Retrieving Task Account Information</span></span>
+# <a name="cc-code-example-retrieving-task-account-information"></a><span data-ttu-id="7640e-106">C/c + + 程式碼範例：正在抓取工作帳戶資訊</span><span class="sxs-lookup"><span data-stu-id="7640e-106">C/C++ Code Example: Retrieving Task Account Information</span></span>
 
-<span data-ttu-id="d037b-107">這個程式碼範例會取出已知工作的帳戶資訊，並在畫面上顯示帳戶名稱。</span><span class="sxs-lookup"><span data-stu-id="d037b-107">This code example retrieves the account information of a known task and displays the account name on the screen.</span></span> <span data-ttu-id="d037b-108">此範例假設本機電腦上已有工作和測試工作，且工作排程器正在執行。</span><span class="sxs-lookup"><span data-stu-id="d037b-108">This example assumes that the task and the test task already exist on the local computer and that the Task Scheduler is running.</span></span>
+<span data-ttu-id="7640e-107">這個程式碼範例會取出已知工作的帳戶資訊，並在畫面上顯示帳戶名稱。</span><span class="sxs-lookup"><span data-stu-id="7640e-107">This code example retrieves the account information of a known task and displays the account name on the screen.</span></span> <span data-ttu-id="7640e-108">此範例假設本機電腦上已有工作和測試工作，且工作排程器正在執行。</span><span class="sxs-lookup"><span data-stu-id="7640e-108">This example assumes that the task and the test task already exist on the local computer and that the Task Scheduler is running.</span></span>
 
 
 ```C++
@@ -120,11 +120,11 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="d037b-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="d037b-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7640e-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="7640e-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d037b-110">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="d037b-110">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
+[<span data-ttu-id="7640e-110">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="7640e-110">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
  

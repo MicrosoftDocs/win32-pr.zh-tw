@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103840548"
 ---
-# <a name="control-point-programming-considerations"></a><span data-ttu-id="8d870-104">控制點程式設計考慮</span><span class="sxs-lookup"><span data-stu-id="8d870-104">Control Point Programming Considerations</span></span>
+# <a name="control-point-programming-considerations"></a><span data-ttu-id="b9178-104">控制點程式設計考慮</span><span class="sxs-lookup"><span data-stu-id="b9178-104">Control Point Programming Considerations</span></span>
 
-<span data-ttu-id="8d870-105">建立以 UPnP 為基礎之應用程式的開發人員 (或控制點) 必須使用 COINIT \_ APARTMENTTHREADED 用戶端的這些應用程式。</span><span class="sxs-lookup"><span data-stu-id="8d870-105">Developers who create UPnP-based applications (or control points) must use these applications from a COINIT\_APARTMENTTHREADED client.</span></span> <span data-ttu-id="8d870-106">從執行 \_ 壓力下的 COINIT 多執行緒用戶端使用控制點 API 時，有一些已知的問題。</span><span class="sxs-lookup"><span data-stu-id="8d870-106">There are known problems when using the Control Point API from a COINIT\_MULTITHREADED client running under stress.</span></span>
+<span data-ttu-id="b9178-105">建立以 UPnP 為基礎之應用程式的開發人員 (或控制點) 必須使用 COINIT \_ APARTMENTTHREADED 用戶端的這些應用程式。</span><span class="sxs-lookup"><span data-stu-id="b9178-105">Developers who create UPnP-based applications (or control points) must use these applications from a COINIT\_APARTMENTTHREADED client.</span></span> <span data-ttu-id="b9178-106">從執行 \_ 壓力下的 COINIT 多執行緒用戶端使用控制點 API 時，有一些已知的問題。</span><span class="sxs-lookup"><span data-stu-id="b9178-106">There are known problems when using the Control Point API from a COINIT\_MULTITHREADED client running under stress.</span></span>
 
  
 

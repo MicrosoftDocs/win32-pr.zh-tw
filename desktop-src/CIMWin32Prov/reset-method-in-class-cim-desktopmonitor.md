@@ -21,16 +21,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110032"
 ---
-# <a name="reset-method-of-the-cim_desktopmonitor-class"></a><span data-ttu-id="ca150-103">CIM DesktopMonitor 類別的 Reset 方法 \_</span><span class="sxs-lookup"><span data-stu-id="ca150-103">Reset method of the CIM\_DesktopMonitor class</span></span>
+# <a name="reset-method-of-the-cim_desktopmonitor-class"></a><span data-ttu-id="8cb2a-103">CIM DesktopMonitor 類別的 Reset 方法 \_</span><span class="sxs-lookup"><span data-stu-id="8cb2a-103">Reset method of the CIM\_DesktopMonitor class</span></span>
 
-<span data-ttu-id="ca150-104">CIM DesktopMonitor 類別的 **reset** 方法會 \_ 要求重設邏輯裝置。</span><span class="sxs-lookup"><span data-stu-id="ca150-104">The **Reset** method of the CIM\_DesktopMonitor class requests a reset of the logical device.</span></span> <span data-ttu-id="ca150-105">這個方法繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="ca150-105">This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="8cb2a-104">CIM DesktopMonitor 類別的 **reset** 方法會 \_ 要求重設邏輯裝置。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-104">The **Reset** method of the CIM\_DesktopMonitor class requests a reset of the logical device.</span></span> <span data-ttu-id="8cb2a-105">這個方法繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-105">This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="ca150-106">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="ca150-106">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="ca150-107">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="ca150-107">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
+> <span data-ttu-id="8cb2a-106">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-106">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="8cb2a-107">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-107">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
 
  
 
-## <a name="syntax"></a><span data-ttu-id="ca150-108">語法</span><span class="sxs-lookup"><span data-stu-id="ca150-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8cb2a-108">語法</span><span class="sxs-lookup"><span data-stu-id="8cb2a-108">Syntax</span></span>
 
 
 ```mof
@@ -39,42 +39,42 @@ uint32 Reset();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="ca150-109">參數</span><span class="sxs-lookup"><span data-stu-id="ca150-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8cb2a-109">參數</span><span class="sxs-lookup"><span data-stu-id="8cb2a-109">Parameters</span></span>
 
-<span data-ttu-id="ca150-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="ca150-110">This method has no parameters.</span></span>
+<span data-ttu-id="8cb2a-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-110">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="ca150-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="ca150-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8cb2a-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="8cb2a-111">Return value</span></span>
 
-<span data-ttu-id="ca150-112">如果要求已成功執行，則傳回 0 (零) ，如果要求不受支援則為 1 (一個) ，如果發生錯誤，則會傳回另一個值。</span><span class="sxs-lookup"><span data-stu-id="ca150-112">Returns 0 (zero) if the request was successfully executed, 1 (one) if the request is not supported, and some other value if an error occurred.</span></span>
+<span data-ttu-id="8cb2a-112">如果要求已成功執行，則傳回 0 (零) ，如果要求不受支援則為 1 (一個) ，如果發生錯誤，則會傳回另一個值。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-112">Returns 0 (zero) if the request was successfully executed, 1 (one) if the request is not supported, and some other value if an error occurred.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ca150-113">備註</span><span class="sxs-lookup"><span data-stu-id="ca150-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8cb2a-113">備註</span><span class="sxs-lookup"><span data-stu-id="8cb2a-113">Remarks</span></span>
 
-<span data-ttu-id="ca150-114">這個方法目前不是由 WMI 所執行。</span><span class="sxs-lookup"><span data-stu-id="ca150-114">This method is currently not implemented by WMI.</span></span> <span data-ttu-id="ca150-115">若要使用這個方法，您必須在自己的提供者中加以執行。</span><span class="sxs-lookup"><span data-stu-id="ca150-115">To use this method, you must implement it in your own provider.</span></span>
+<span data-ttu-id="8cb2a-114">這個方法目前不是由 WMI 所執行。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-114">This method is currently not implemented by WMI.</span></span> <span data-ttu-id="8cb2a-115">若要使用這個方法，您必須在自己的提供者中加以執行。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-115">To use this method, you must implement it in your own provider.</span></span>
 
-<span data-ttu-id="ca150-116">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="ca150-116">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="ca150-117">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="ca150-117">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
+<span data-ttu-id="8cb2a-116">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-116">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="8cb2a-117">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="8cb2a-117">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="ca150-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="ca150-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8cb2a-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="8cb2a-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="ca150-119">需求</span><span class="sxs-lookup"><span data-stu-id="ca150-119">Requirement</span></span> | <span data-ttu-id="ca150-120">值</span><span class="sxs-lookup"><span data-stu-id="ca150-120">Value</span></span> |
+| <span data-ttu-id="8cb2a-119">需求</span><span class="sxs-lookup"><span data-stu-id="8cb2a-119">Requirement</span></span> | <span data-ttu-id="8cb2a-120">值</span><span class="sxs-lookup"><span data-stu-id="8cb2a-120">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="ca150-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ca150-121">Minimum supported client</span></span><br/> | <span data-ttu-id="ca150-122">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="ca150-122">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="ca150-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ca150-123">Minimum supported server</span></span><br/> | <span data-ttu-id="ca150-124">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="ca150-124">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="ca150-125">命名空間</span><span class="sxs-lookup"><span data-stu-id="ca150-125">Namespace</span></span><br/>                | <span data-ttu-id="ca150-126">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="ca150-126">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="ca150-127">MOF</span><span class="sxs-lookup"><span data-stu-id="ca150-127">MOF</span></span><br/>                      | <dl> <span data-ttu-id="ca150-128"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="ca150-128"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="ca150-129">DLL</span><span class="sxs-lookup"><span data-stu-id="ca150-129">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ca150-130"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ca150-130"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="8cb2a-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8cb2a-121">Minimum supported client</span></span><br/> | <span data-ttu-id="8cb2a-122">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="8cb2a-122">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="8cb2a-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8cb2a-123">Minimum supported server</span></span><br/> | <span data-ttu-id="8cb2a-124">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="8cb2a-124">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="8cb2a-125">命名空間</span><span class="sxs-lookup"><span data-stu-id="8cb2a-125">Namespace</span></span><br/>                | <span data-ttu-id="8cb2a-126">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="8cb2a-126">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="8cb2a-127">MOF</span><span class="sxs-lookup"><span data-stu-id="8cb2a-127">MOF</span></span><br/>                      | <dl> <span data-ttu-id="8cb2a-128"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="8cb2a-128"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="8cb2a-129">DLL</span><span class="sxs-lookup"><span data-stu-id="8cb2a-129">DLL</span></span><br/>                      | <dl> <span data-ttu-id="8cb2a-130"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="8cb2a-130"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="ca150-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ca150-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8cb2a-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8cb2a-131">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ca150-132">CIM \_ DesktopMonitor</span><span class="sxs-lookup"><span data-stu-id="ca150-132">CIM\_DesktopMonitor</span></span>](reset-method-in-class-cim-desktopmonitor.md)
+[<span data-ttu-id="8cb2a-132">CIM \_ DesktopMonitor</span><span class="sxs-lookup"><span data-stu-id="8cb2a-132">CIM\_DesktopMonitor</span></span>](reset-method-in-class-cim-desktopmonitor.md)
 </dt> <dt>
 
-[<span data-ttu-id="ca150-133">**CIM \_ DesktopMonitor**</span><span class="sxs-lookup"><span data-stu-id="ca150-133">**CIM\_DesktopMonitor**</span></span>](cim-desktopmonitor.md)
+[<span data-ttu-id="8cb2a-133">**CIM \_ DesktopMonitor**</span><span class="sxs-lookup"><span data-stu-id="8cb2a-133">**CIM\_DesktopMonitor**</span></span>](cim-desktopmonitor.md)
 </dt> </dl>
 
  

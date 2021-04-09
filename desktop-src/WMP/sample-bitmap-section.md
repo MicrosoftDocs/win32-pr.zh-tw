@@ -17,9 +17,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103840452"
 ---
-# <a name="sample-bitmap-section"></a><span data-ttu-id="a4866-108">範例點陣圖區段</span><span class="sxs-lookup"><span data-stu-id="a4866-108">Sample Bitmap Section</span></span>
+# <a name="sample-bitmap-section"></a><span data-ttu-id="43af2-108">範例點陣圖區段</span><span class="sxs-lookup"><span data-stu-id="43af2-108">Sample Bitmap Section</span></span>
 
-<span data-ttu-id="a4866-109">下列各行顯示面板定義檔的典型點陣圖區段：</span><span class="sxs-lookup"><span data-stu-id="a4866-109">The following lines show a typical Bitmaps section of a skin definition file:</span></span>
+<span data-ttu-id="43af2-109">下列各行顯示面板定義檔的典型點陣圖區段：</span><span class="sxs-lookup"><span data-stu-id="43af2-109">The following lines show a typical Bitmaps section of a skin definition file:</span></span>
 
 
 ```C++
@@ -38,18 +38,18 @@ ms.locfileid: "103840452"
 
 
 
-<span data-ttu-id="a4866-110">這會定義五個位圖，用來建立背景影像、停用和推送按鈕的影像、區域按鈕的區域影像，以及用於 trackbars 的超級影像。</span><span class="sxs-lookup"><span data-stu-id="a4866-110">This defines five bitmaps that are used to create a Background image, images for Disabled and Pushed buttons, a Region image for region buttons, and a Super image for trackbars.</span></span>
+<span data-ttu-id="43af2-110">這會定義五個位圖，用來建立背景影像、停用和推送按鈕的影像、區域按鈕的區域影像，以及用於 trackbars 的超級影像。</span><span class="sxs-lookup"><span data-stu-id="43af2-110">This defines five bitmaps that are used to create a Background image, images for Disabled and Pushed buttons, a Region image for region buttons, and a Super image for trackbars.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="a4866-111">區域和超級點陣圖在 Windows Media Player 10 行動版或更新版本的面板中會被取代。</span><span class="sxs-lookup"><span data-stu-id="a4866-111">The Region and Super bitmaps are deprecated in skins for Windows Media Player 10 Mobile or later.</span></span>
+> <span data-ttu-id="43af2-111">區域和超級點陣圖在 Windows Media Player 10 行動版或更新版本的面板中會被取代。</span><span class="sxs-lookup"><span data-stu-id="43af2-111">The Region and Super bitmaps are deprecated in skins for Windows Media Player 10 Mobile or later.</span></span>
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="a4866-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="a4866-112">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="43af2-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="43af2-112">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a4866-113">**點陣圖**</span><span class="sxs-lookup"><span data-stu-id="a4866-113">**Bitmaps**</span></span>](bitmaps.md)
+[<span data-ttu-id="43af2-113">**點陣圖**</span><span class="sxs-lookup"><span data-stu-id="43af2-113">**Bitmaps**</span></span>](bitmaps.md)
 </dt> </dl>
 
  

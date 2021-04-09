@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945181"
 ---
-# <a name="jet_objectlistcolumnidobjtyp-property"></a><span data-ttu-id="985c1-103">JET_OBJECTLIST columnidobjtyp 屬性</span><span class="sxs-lookup"><span data-stu-id="985c1-103">JET_OBJECTLIST.columnidobjtyp property</span></span>
+# <a name="jet_objectlistcolumnidobjtyp-property"></a><span data-ttu-id="ab93e-103">JET_OBJECTLIST columnidobjtyp 屬性</span><span class="sxs-lookup"><span data-stu-id="ab93e-103">JET_OBJECTLIST.columnidobjtyp property</span></span>
 
-<span data-ttu-id="985c1-104">取得臨時表中儲存資料表類型之資料行的 columnid。</span><span class="sxs-lookup"><span data-stu-id="985c1-104">Gets the columnid of the column in the temporary table which stores the type of the table.</span></span>
+<span data-ttu-id="ab93e-104">取得臨時表中儲存資料表類型之資料行的 columnid。</span><span class="sxs-lookup"><span data-stu-id="ab93e-104">Gets the columnid of the column in the temporary table which stores the type of the table.</span></span>
 
-<span data-ttu-id="985c1-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="985c1-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="985c1-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="985c1-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="ab93e-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="ab93e-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="ab93e-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="ab93e-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="985c1-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="985c1-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ab93e-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="ab93e-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,16 +58,16 @@ value = instance.columnidobjtyp
 public JET_COLUMNID columnidobjtyp { get; internal set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="985c1-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="985c1-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="ab93e-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="ab93e-108">Property value</span></span>
 
-<span data-ttu-id="985c1-109">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="985c1-109">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
+<span data-ttu-id="ab93e-109">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="ab93e-109">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="985c1-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="985c1-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ab93e-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ab93e-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="985c1-111">參考</span><span class="sxs-lookup"><span data-stu-id="985c1-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="ab93e-111">參考</span><span class="sxs-lookup"><span data-stu-id="ab93e-111">Reference</span></span>
 
-[<span data-ttu-id="985c1-112">JET_OBJECTLIST 類別</span><span class="sxs-lookup"><span data-stu-id="985c1-112">JET_OBJECTLIST class</span></span>](./jet-objectlist-class.md)
+[<span data-ttu-id="ab93e-112">JET_OBJECTLIST 類別</span><span class="sxs-lookup"><span data-stu-id="ab93e-112">JET_OBJECTLIST class</span></span>](./jet-objectlist-class.md)
 
-[<span data-ttu-id="985c1-113">JET_OBJECTLIST 成員</span><span class="sxs-lookup"><span data-stu-id="985c1-113">JET_OBJECTLIST members</span></span>](./jet-objectlist-members.md)
+[<span data-ttu-id="ab93e-113">JET_OBJECTLIST 成員</span><span class="sxs-lookup"><span data-stu-id="ab93e-113">JET_OBJECTLIST members</span></span>](./jet-objectlist-members.md)
 
-[<span data-ttu-id="985c1-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="985c1-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="ab93e-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ab93e-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

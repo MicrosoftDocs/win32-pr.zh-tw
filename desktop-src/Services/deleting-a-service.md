@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944938"
 ---
-# <a name="deleting-a-service"></a><span data-ttu-id="fd1db-104">刪除服務</span><span class="sxs-lookup"><span data-stu-id="fd1db-104">Deleting a Service</span></span>
+# <a name="deleting-a-service"></a><span data-ttu-id="1fff2-104">刪除服務</span><span class="sxs-lookup"><span data-stu-id="1fff2-104">Deleting a Service</span></span>
 
-<span data-ttu-id="fd1db-105">[服務設定程式](service-configuration-programs.md)會使用 [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea)函數來取得已安裝之服務物件的控制碼。</span><span class="sxs-lookup"><span data-stu-id="fd1db-105">A [service configuration program](service-configuration-programs.md) uses the [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea) function to get a handle to an installed service object.</span></span> <span data-ttu-id="fd1db-106">然後，程式可以使用 [**DeleteService**](/windows/desktop/api/Winsvc/nf-winsvc-deleteservice) 函式中的服務物件控制碼，從 SCM 資料庫中刪除該服務。</span><span class="sxs-lookup"><span data-stu-id="fd1db-106">The program can then use the service object handle in the [**DeleteService**](/windows/desktop/api/Winsvc/nf-winsvc-deleteservice) function to delete the service from the SCM database.</span></span>
+<span data-ttu-id="1fff2-105">[服務設定程式](service-configuration-programs.md)會使用 [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea)函數來取得已安裝之服務物件的控制碼。</span><span class="sxs-lookup"><span data-stu-id="1fff2-105">A [service configuration program](service-configuration-programs.md) uses the [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea) function to get a handle to an installed service object.</span></span> <span data-ttu-id="1fff2-106">然後，程式可以使用 [**DeleteService**](/windows/desktop/api/Winsvc/nf-winsvc-deleteservice) 函式中的服務物件控制碼，從 SCM 資料庫中刪除該服務。</span><span class="sxs-lookup"><span data-stu-id="1fff2-106">The program can then use the service object handle in the [**DeleteService**](/windows/desktop/api/Winsvc/nf-winsvc-deleteservice) function to delete the service from the SCM database.</span></span>
 
-<span data-ttu-id="fd1db-107">下列範例中的 DoDeleteSvc 函式會示範如何從 SCM 資料庫刪除服務。</span><span class="sxs-lookup"><span data-stu-id="fd1db-107">The DoDeleteSvc function in the following example shows how to delete a service from the SCM database.</span></span> <span data-ttu-id="fd1db-108">SzSvcName 變數是全域變數，其中包含要刪除之服務的名稱。</span><span class="sxs-lookup"><span data-stu-id="fd1db-108">The szSvcName variable is a global variable that contains the name of the service to be deleted.</span></span> <span data-ttu-id="fd1db-109">如需設定此變數的完整範例，請參閱 [SvcConfig .cpp](svcconfig-cpp.md)。</span><span class="sxs-lookup"><span data-stu-id="fd1db-109">For the complete example that sets this variable, see [SvcConfig.cpp](svcconfig-cpp.md).</span></span>
+<span data-ttu-id="1fff2-107">下列範例中的 DoDeleteSvc 函式會示範如何從 SCM 資料庫刪除服務。</span><span class="sxs-lookup"><span data-stu-id="1fff2-107">The DoDeleteSvc function in the following example shows how to delete a service from the SCM database.</span></span> <span data-ttu-id="1fff2-108">SzSvcName 變數是全域變數，其中包含要刪除之服務的名稱。</span><span class="sxs-lookup"><span data-stu-id="1fff2-108">The szSvcName variable is a global variable that contains the name of the service to be deleted.</span></span> <span data-ttu-id="1fff2-109">如需設定此變數的完整範例，請參閱 [SvcConfig .cpp](svcconfig-cpp.md)。</span><span class="sxs-lookup"><span data-stu-id="1fff2-109">For the complete example that sets this variable, see [SvcConfig.cpp](svcconfig-cpp.md).</span></span>
 
 
 ```C++
@@ -77,14 +77,14 @@ VOID __stdcall DoDeleteSvc()
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="fd1db-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="fd1db-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1fff2-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="1fff2-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="fd1db-111">服務安裝、移除和列舉</span><span class="sxs-lookup"><span data-stu-id="fd1db-111">Service Installation, Removal, and Enumeration</span></span>](service-installation-removal-and-enumeration.md)
+[<span data-ttu-id="1fff2-111">服務安裝、移除和列舉</span><span class="sxs-lookup"><span data-stu-id="1fff2-111">Service Installation, Removal, and Enumeration</span></span>](service-installation-removal-and-enumeration.md)
 </dt> <dt>
 
-[<span data-ttu-id="fd1db-112">完整的服務範例</span><span class="sxs-lookup"><span data-stu-id="fd1db-112">The Complete Service Sample</span></span>](the-complete-service-sample.md)
+[<span data-ttu-id="1fff2-112">完整的服務範例</span><span class="sxs-lookup"><span data-stu-id="1fff2-112">The Complete Service Sample</span></span>](the-complete-service-sample.md)
 </dt> </dl>
 
  
