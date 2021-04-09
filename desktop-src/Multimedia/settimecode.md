@@ -1,0 +1,100 @@
+---
+title: settimecode 命令
+description: Settimecode 命令會啟用或停用 VCR 的時間碼記錄。 VCR 裝置會辨識此命令。
+ms.assetid: 1b4b82e8-4f13-4bc9-afb0-796339cabb51
+keywords:
+- settimecode 命令 Windows 多媒體
+topic_type:
+- apiref
+api_name:
+- settimecode
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 32092e5af7c77cdc274491b20663218d39a1ec1a
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "103686628"
+---
+# <a name="settimecode-command"></a>settimecode 命令
+
+Settimecode 命令會啟用或停用 VCR 的時間碼記錄。 VCR 裝置會辨識此命令。
+
+若要傳送此命令，請使用 *lpszCommand* 參數設定來呼叫 [**mciSendString**](/previous-versions//dd757161(v=vs.85))函式，如下所示。
+
+``` syntax
+_stprintf_s(
+  lpszCommand, 
+  TEXT("settimecode %s %s %s"), 
+  lpszDeviceID,
+  lpszTimecode, 
+  lpszFlags
+); 
+```
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+<span id="lpszDeviceID"></span><span id="lpszdeviceid"></span><span id="LPSZDEVICEID"></span>*lpszDeviceID*
+</dt> <dd>
+
+MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
+
+</dd> <dt>
+
+<span id="lpszTimecode"></span><span id="lpsztimecode"></span><span id="LPSZTIMECODE"></span>*lpszTimecode*
+</dt> <dd>
+
+下列其中一個旗標。
+
+
+
+| 值      | 意義                          |
+|------------|----------------------------------|
+| 記錄于  | 設定 VCR 來記錄時間碼。 |
+| 關閉記錄 | 停用時間碼記錄。     |
+
+
+
+ 
+
+</dd> <dt>
+
+<span id="lpszFlags"></span><span id="lpszflags"></span><span id="LPSZFLAGS"></span>*lpszFlags*
+</dt> <dd>
+
+可以是「等候」、「通知」、「測試」或它們的組合。 如需這些旗標的詳細資訊，請參閱 [Wait、Notify 和 Test 旗標](the-wait-notify-and-test-flags.md)。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+如果成功則傳回零，否則會傳回錯誤。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|------------------------------------------------------------|
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>       |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[Mci](mci.md)
+</dt> <dt>
+
+[MCI 命令字串](mci-command-strings.md)
+</dt> </dl>
+
+ 
+
