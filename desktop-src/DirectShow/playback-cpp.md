@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103687395"
 ---
-# <a name="playbackcpp"></a><span data-ttu-id="ef126-103">播放 .cpp</span><span class="sxs-lookup"><span data-stu-id="ef126-103">playback.cpp</span></span>
+# <a name="playbackcpp"></a><span data-ttu-id="24040-103">播放 .cpp</span><span class="sxs-lookup"><span data-stu-id="24040-103">playback.cpp</span></span>
 
-<span data-ttu-id="ef126-104">本主題包含 [在 DirectShow 中播放教學課程音訊/影片](audio-video-playback-in-directshow.md)的程式碼。</span><span class="sxs-lookup"><span data-stu-id="ef126-104">This topic contains code for the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md).</span></span>
+<span data-ttu-id="24040-104">本主題包含 [在 DirectShow 中播放教學課程音訊/影片](audio-video-playback-in-directshow.md)的程式碼。</span><span class="sxs-lookup"><span data-stu-id="24040-104">This topic contains code for the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md).</span></span>
 
 
 ```C++
@@ -395,14 +395,14 @@ done:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="ef126-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="ef126-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="24040-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="24040-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ef126-106">在 DirectShow 播放音訊/影片</span><span class="sxs-lookup"><span data-stu-id="ef126-106">Audio/Video Playback in DirectShow</span></span>](audio-video-playback-in-directshow.md)
+[<span data-ttu-id="24040-106">在 DirectShow 播放音訊/影片</span><span class="sxs-lookup"><span data-stu-id="24040-106">Audio/Video Playback in DirectShow</span></span>](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef126-107">DirectShow 播放範例</span><span class="sxs-lookup"><span data-stu-id="ef126-107">DirectShow Playback Example</span></span>](directshow-playback-example.md)
+[<span data-ttu-id="24040-107">DirectShow 播放範例</span><span class="sxs-lookup"><span data-stu-id="24040-107">DirectShow Playback Example</span></span>](directshow-playback-example.md)
 </dt> </dl>
 
  

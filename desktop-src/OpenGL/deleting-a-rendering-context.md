@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839072"
 ---
-# <a name="deleting-a-rendering-context"></a><span data-ttu-id="fcdf1-106">刪除轉譯內容</span><span class="sxs-lookup"><span data-stu-id="fcdf1-106">Deleting a Rendering Context</span></span>
+# <a name="deleting-a-rendering-context"></a><span data-ttu-id="d0042-106">刪除轉譯內容</span><span class="sxs-lookup"><span data-stu-id="d0042-106">Deleting a Rendering Context</span></span>
 
-<span data-ttu-id="fcdf1-107">下列程式碼範例示範如何在 OpenGL 視窗關閉時刪除 OpenGL 轉譯內容。</span><span class="sxs-lookup"><span data-stu-id="fcdf1-107">The following code sample shows how to delete an OpenGL rendering context when an OpenGL window is closed.</span></span> <span data-ttu-id="fcdf1-108">它是用來 [建立轉譯內容並使其成為最新](creating-a-rendering-context-and-making-it-current.md)的案例接續。</span><span class="sxs-lookup"><span data-stu-id="fcdf1-108">It is a continuation of the scenario used in [Creating a Rendering Context and Making It Current](creating-a-rendering-context-and-making-it-current.md).</span></span>
+<span data-ttu-id="d0042-107">下列程式碼範例示範如何在 OpenGL 視窗關閉時刪除 OpenGL 轉譯內容。</span><span class="sxs-lookup"><span data-stu-id="d0042-107">The following code sample shows how to delete an OpenGL rendering context when an OpenGL window is closed.</span></span> <span data-ttu-id="d0042-108">它是用來 [建立轉譯內容並使其成為最新](creating-a-rendering-context-and-making-it-current.md)的案例接續。</span><span class="sxs-lookup"><span data-stu-id="d0042-108">It is a continuation of the scenario used in [Creating a Rendering Context and Making It Current](creating-a-rendering-context-and-making-it-current.md).</span></span>
 
 
 ```C++

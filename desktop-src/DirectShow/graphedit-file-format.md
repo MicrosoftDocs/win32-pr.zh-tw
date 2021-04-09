@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103688492"
 ---
-# <a name="graphedit-file-format"></a><span data-ttu-id="f6454-103">GraphEdit 檔案格式</span><span class="sxs-lookup"><span data-stu-id="f6454-103">GraphEdit File Format</span></span>
+# <a name="graphedit-file-format"></a><span data-ttu-id="bade2-103">GraphEdit 檔案格式</span><span class="sxs-lookup"><span data-stu-id="bade2-103">GraphEdit File Format</span></span>
 
-<span data-ttu-id="f6454-104">當 GraphEdit 公用程式儲存 DirectShow 篩選圖形時，它會建立副檔名為 grf 的儲存體檔案。</span><span class="sxs-lookup"><span data-stu-id="f6454-104">When the GraphEdit utility saves a DirectShow filter graph, it creates a storage files with a .grf extension.</span></span> <span data-ttu-id="f6454-105">儲存體檔案包含名為 ActiveMovieGraph 的單一資料流程。</span><span class="sxs-lookup"><span data-stu-id="f6454-105">The storage file contains a single stream called ActiveMovieGraph.</span></span> <span data-ttu-id="f6454-106">此資料流程包含所有篩選、篩選名稱、檔案名、連接等等的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="f6454-106">This stream contains information about all of the filters, filter names, file names, connections, and so forth.</span></span>
+<span data-ttu-id="bade2-104">當 GraphEdit 公用程式儲存 DirectShow 篩選圖形時，它會建立副檔名為 grf 的儲存體檔案。</span><span class="sxs-lookup"><span data-stu-id="bade2-104">When the GraphEdit utility saves a DirectShow filter graph, it creates a storage files with a .grf extension.</span></span> <span data-ttu-id="bade2-105">儲存體檔案包含名為 ActiveMovieGraph 的單一資料流程。</span><span class="sxs-lookup"><span data-stu-id="bade2-105">The storage file contains a single stream called ActiveMovieGraph.</span></span> <span data-ttu-id="bade2-106">此資料流程包含所有篩選、篩選名稱、檔案名、連接等等的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="bade2-106">This stream contains information about all of the filters, filter names, file names, connections, and so forth.</span></span>
 
-<span data-ttu-id="f6454-107">下列文法會使用修改過的 BNF (巴克斯格式) 語法來描述資料流程中的圖形語法：</span><span class="sxs-lookup"><span data-stu-id="f6454-107">The following grammar describes the syntax of the graph within the stream, using a modified BNF (Backus-Naur Form) syntax:</span></span>
+<span data-ttu-id="bade2-107">下列文法會使用修改過的 BNF (巴克斯格式) 語法來描述資料流程中的圖形語法：</span><span class="sxs-lookup"><span data-stu-id="bade2-107">The following grammar describes the syntax of the graph within the stream, using a modified BNF (Backus-Naur Form) syntax:</span></span>
 
 
 ```C++
@@ -87,9 +87,9 @@ CLOCK <b><required><b><clockid>
 
 
 
-<span data-ttu-id="f6454-108">輸出時，會有新的一行 ( " \\ r \\ n" ) 每個篩選器，每個連接一個，另一個用於每個關鍵字篩選和連接。</span><span class="sxs-lookup"><span data-stu-id="f6454-108">On output there will be a new line ("\\r\\n") per filter, one per connection, and one for each of the keywords FILTERS and CONNECTIONS.</span></span> <span data-ttu-id="f6454-109">的每個其他案例 <b> 都是單一空格。</span><span class="sxs-lookup"><span data-stu-id="f6454-109">Each other case of <b> will be a single space.</span></span> <span data-ttu-id="f6454-110">關鍵字篩選、連接和結束都無法當地語系化。</span><span class="sxs-lookup"><span data-stu-id="f6454-110">The keywords FILTERS, CONNECTIONS, and END are not localizable.</span></span> <span data-ttu-id="f6454-111">另外也請注意，篩選資料和格式資料是二進位，因此可能包含不正確的分行符號、null 值等等。</span><span class="sxs-lookup"><span data-stu-id="f6454-111">Note also that the filter data and the format data are binary, so they might contain incorrect line breaks, null values, and so on.</span></span> <span data-ttu-id="f6454-112">資料流程會使用寬字元。</span><span class="sxs-lookup"><span data-stu-id="f6454-112">The stream uses wide characters.</span></span>
+<span data-ttu-id="bade2-108">輸出時，會有新的一行 ( " \\ r \\ n" ) 每個篩選器，每個連接一個，另一個用於每個關鍵字篩選和連接。</span><span class="sxs-lookup"><span data-stu-id="bade2-108">On output there will be a new line ("\\r\\n") per filter, one per connection, and one for each of the keywords FILTERS and CONNECTIONS.</span></span> <span data-ttu-id="bade2-109">的每個其他案例 <b> 都是單一空格。</span><span class="sxs-lookup"><span data-stu-id="bade2-109">Each other case of <b> will be a single space.</span></span> <span data-ttu-id="bade2-110">關鍵字篩選、連接和結束都無法當地語系化。</span><span class="sxs-lookup"><span data-stu-id="bade2-110">The keywords FILTERS, CONNECTIONS, and END are not localizable.</span></span> <span data-ttu-id="bade2-111">另外也請注意，篩選資料和格式資料是二進位，因此可能包含不正確的分行符號、null 值等等。</span><span class="sxs-lookup"><span data-stu-id="bade2-111">Note also that the filter data and the format data are binary, so they might contain incorrect line breaks, null values, and so on.</span></span> <span data-ttu-id="bade2-112">資料流程會使用寬字元。</span><span class="sxs-lookup"><span data-stu-id="bade2-112">The stream uses wide characters.</span></span>
 
-<span data-ttu-id="f6454-113">下圖顯示典型的圖形。</span><span class="sxs-lookup"><span data-stu-id="f6454-113">The following shows a typical graph.</span></span> <span data-ttu-id="f6454-114">為了清楚起見， (連接線已中斷，並省略二進位資料。 ) </span><span class="sxs-lookup"><span data-stu-id="f6454-114">(The connection lines have been broken for clarity, and the binary data omitted.)</span></span>
+<span data-ttu-id="bade2-113">下圖顯示典型的圖形。</span><span class="sxs-lookup"><span data-stu-id="bade2-113">The following shows a typical graph.</span></span> <span data-ttu-id="bade2-114">為了清楚起見， (連接線已中斷，並省略二進位資料。 ) </span><span class="sxs-lookup"><span data-stu-id="bade2-114">(The connection lines have been broken for clarity, and the binary data omitted.)</span></span>
 
 
 ```C++
@@ -118,11 +118,11 @@ END
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="f6454-115">相關主題</span><span class="sxs-lookup"><span data-stu-id="f6454-115">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bade2-115">相關主題</span><span class="sxs-lookup"><span data-stu-id="bade2-115">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f6454-116">使用 GraphEdit 模擬圖表建立</span><span class="sxs-lookup"><span data-stu-id="f6454-116">Simulating Graph Building with GraphEdit</span></span>](simulating-graph-building-with-graphedit.md)
+[<span data-ttu-id="bade2-116">使用 GraphEdit 模擬圖表建立</span><span class="sxs-lookup"><span data-stu-id="bade2-116">Simulating Graph Building with GraphEdit</span></span>](simulating-graph-building-with-graphedit.md)
 </dt> </dl>
 
  

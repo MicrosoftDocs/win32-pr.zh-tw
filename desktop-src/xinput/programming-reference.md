@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/24/2019
 ms.locfileid: "103839051"
 ---
-# <a name="programming-reference"></a><span data-ttu-id="450c6-103">程式設計參考</span><span class="sxs-lookup"><span data-stu-id="450c6-103">Programming Reference</span></span>
+# <a name="programming-reference"></a><span data-ttu-id="74444-103">程式設計參考</span><span class="sxs-lookup"><span data-stu-id="74444-103">Programming Reference</span></span>
 
-<span data-ttu-id="450c6-104">XInput 函式和結構。</span><span class="sxs-lookup"><span data-stu-id="450c6-104">XInput functions and structures.</span></span>
+<span data-ttu-id="74444-104">XInput 函式和結構。</span><span class="sxs-lookup"><span data-stu-id="74444-104">XInput functions and structures.</span></span>
 
-- [<span data-ttu-id="450c6-105">XInput 函式</span><span class="sxs-lookup"><span data-stu-id="450c6-105">XInput Functions</span></span>](functions.md)
-- [<span data-ttu-id="450c6-106">XInput 結構</span><span class="sxs-lookup"><span data-stu-id="450c6-106">XInput Structures</span></span>](structures.md)
+- [<span data-ttu-id="74444-105">XInput 函式</span><span class="sxs-lookup"><span data-stu-id="74444-105">XInput Functions</span></span>](functions.md)
+- [<span data-ttu-id="74444-106">XInput 結構</span><span class="sxs-lookup"><span data-stu-id="74444-106">XInput Structures</span></span>](structures.md)

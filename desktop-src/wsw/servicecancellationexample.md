@@ -15,15 +15,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839060"
 ---
-# <a name="servicecancellationexample"></a><span data-ttu-id="13d8c-106">ServiceCancellationExample</span><span class="sxs-lookup"><span data-stu-id="13d8c-106">ServiceCancellationExample</span></span>
+# <a name="servicecancellationexample"></a><span data-ttu-id="538d1-106">ServiceCancellationExample</span><span class="sxs-lookup"><span data-stu-id="538d1-106">ServiceCancellationExample</span></span>
 
-<span data-ttu-id="13d8c-107">示範服務取消的範例用戶端應用程式。</span><span class="sxs-lookup"><span data-stu-id="13d8c-107">Example client application demonstrating service cancellation.</span></span>
+<span data-ttu-id="538d1-107">示範服務取消的範例用戶端應用程式。</span><span class="sxs-lookup"><span data-stu-id="538d1-107">Example client application demonstrating service cancellation.</span></span>
 
--   [<span data-ttu-id="13d8c-108">ServiceCancel .cpp</span><span class="sxs-lookup"><span data-stu-id="13d8c-108">ServiceCancel.cpp</span></span>](#servicecancelcpp)
--   [<span data-ttu-id="13d8c-109">BlockUnBlockService .wsdl</span><span class="sxs-lookup"><span data-stu-id="13d8c-109">BlockUnBlockService.wsdl</span></span>](#blockunblockservicewsdl)
--   [<span data-ttu-id="13d8c-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="13d8c-110">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="538d1-108">ServiceCancel .cpp</span><span class="sxs-lookup"><span data-stu-id="538d1-108">ServiceCancel.cpp</span></span>](#servicecancelcpp)
+-   [<span data-ttu-id="538d1-109">BlockUnBlockService .wsdl</span><span class="sxs-lookup"><span data-stu-id="538d1-109">BlockUnBlockService.wsdl</span></span>](#blockunblockservicewsdl)
+-   [<span data-ttu-id="538d1-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="538d1-110">Makefile</span></span>](#makefile)
 
-## <a name="servicecancelcpp"></a><span data-ttu-id="13d8c-111">ServiceCancel .cpp</span><span class="sxs-lookup"><span data-stu-id="13d8c-111">ServiceCancel.cpp</span></span>
+## <a name="servicecancelcpp"></a><span data-ttu-id="538d1-111">ServiceCancel .cpp</span><span class="sxs-lookup"><span data-stu-id="538d1-111">ServiceCancel.cpp</span></span>
 
 
 ```C++
@@ -187,7 +187,7 @@ Exit:
 
 
 
-## <a name="blockunblockservicewsdl"></a><span data-ttu-id="13d8c-112">BlockUnBlockService .wsdl</span><span class="sxs-lookup"><span data-stu-id="13d8c-112">BlockUnBlockService.wsdl</span></span>
+## <a name="blockunblockservicewsdl"></a><span data-ttu-id="538d1-112">BlockUnBlockService .wsdl</span><span class="sxs-lookup"><span data-stu-id="538d1-112">BlockUnBlockService.wsdl</span></span>
 
 ``` syntax
 <?xml version="1.0" encoding="UTF-8"?>
@@ -268,7 +268,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="13d8c-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="13d8c-113">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="538d1-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="538d1-113">Makefile</span></span>
 
 ``` syntax
 #------------------------------------------------------------
