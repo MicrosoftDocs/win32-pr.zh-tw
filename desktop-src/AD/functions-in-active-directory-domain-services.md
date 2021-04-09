@@ -16,15 +16,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020846"
 ---
-# <a name="functions-in-active-directory-domain-services"></a><span data-ttu-id="b18c3-106">Active Directory Domain Services 中的函數</span><span class="sxs-lookup"><span data-stu-id="b18c3-106">Functions in Active Directory Domain Services</span></span>
+# <a name="functions-in-active-directory-domain-services"></a><span data-ttu-id="e2b5b-106">Active Directory Domain Services 中的函數</span><span class="sxs-lookup"><span data-stu-id="e2b5b-106">Functions in Active Directory Domain Services</span></span>
 
-<span data-ttu-id="b18c3-107">以下是 Active Directory Domain Services 中的函數類別：</span><span class="sxs-lookup"><span data-stu-id="b18c3-107">The following are categories of functions in Active Directory Domain Services:</span></span>
+<span data-ttu-id="e2b5b-107">以下是 Active Directory Domain Services 中的函數類別：</span><span class="sxs-lookup"><span data-stu-id="e2b5b-107">The following are categories of functions in Active Directory Domain Services:</span></span>
 
--   [<span data-ttu-id="b18c3-108">在 Active Directory Domain Services 中顯示函數</span><span class="sxs-lookup"><span data-stu-id="b18c3-108">Display Functions in Active Directory Domain Services</span></span>](display-functions-in-active-directory-domain-services.md)
--   [<span data-ttu-id="b18c3-109">Active Directory Domain Services 中的 MMC 屬性頁函式</span><span class="sxs-lookup"><span data-stu-id="b18c3-109">MMC Property Page Functions in Active Directory Domain Services</span></span>](mmc-property-page-functions-in-active-directory-domain-services.md)
--   [<span data-ttu-id="b18c3-110">網域控制站和複寫管理功能</span><span class="sxs-lookup"><span data-stu-id="b18c3-110">Domain Controller and Replication Management Functions</span></span>](dc-and-replication-management-functions.md)
--   [<span data-ttu-id="b18c3-111">目錄服務功能</span><span class="sxs-lookup"><span data-stu-id="b18c3-111">Directory Service Functions</span></span>](directory-service-functions.md)
--   [<span data-ttu-id="b18c3-112">目錄備份功能</span><span class="sxs-lookup"><span data-stu-id="b18c3-112">Directory Backup Functions</span></span>](directory-backup-functions.md)
+-   [<span data-ttu-id="e2b5b-108">在 Active Directory Domain Services 中顯示函數</span><span class="sxs-lookup"><span data-stu-id="e2b5b-108">Display Functions in Active Directory Domain Services</span></span>](display-functions-in-active-directory-domain-services.md)
+-   [<span data-ttu-id="e2b5b-109">Active Directory Domain Services 中的 MMC 屬性頁函式</span><span class="sxs-lookup"><span data-stu-id="e2b5b-109">MMC Property Page Functions in Active Directory Domain Services</span></span>](mmc-property-page-functions-in-active-directory-domain-services.md)
+-   [<span data-ttu-id="e2b5b-110">網域控制站和複寫管理功能</span><span class="sxs-lookup"><span data-stu-id="e2b5b-110">Domain Controller and Replication Management Functions</span></span>](dc-and-replication-management-functions.md)
+-   [<span data-ttu-id="e2b5b-111">目錄服務功能</span><span class="sxs-lookup"><span data-stu-id="e2b5b-111">Directory Service Functions</span></span>](directory-service-functions.md)
+-   [<span data-ttu-id="e2b5b-112">目錄備份功能</span><span class="sxs-lookup"><span data-stu-id="e2b5b-112">Directory Backup Functions</span></span>](directory-backup-functions.md)
 
  
 

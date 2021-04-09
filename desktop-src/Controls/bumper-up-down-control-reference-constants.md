@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103696465"
 ---
-# <a name="up-down-constants"></a><span data-ttu-id="7aaa5-103">Up-Down 常數</span><span class="sxs-lookup"><span data-stu-id="7aaa5-103">Up-Down Constants</span></span>
+# <a name="up-down-constants"></a><span data-ttu-id="a43c5-103">Up-Down 常數</span><span class="sxs-lookup"><span data-stu-id="a43c5-103">Up-Down Constants</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="7aaa5-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="7aaa5-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a43c5-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="a43c5-104">In This Section</span></span>
 
--   [<span data-ttu-id="7aaa5-105">上下控制項樣式</span><span class="sxs-lookup"><span data-stu-id="7aaa5-105">Up-Down Control Styles</span></span>](up-down-control-styles.md)
+-   [<span data-ttu-id="a43c5-105">上下控制項樣式</span><span class="sxs-lookup"><span data-stu-id="a43c5-105">Up-Down Control Styles</span></span>](up-down-control-styles.md)
 
  
 

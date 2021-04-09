@@ -12,13 +12,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692348"
 ---
-# <a name="iwbemproviderinit-methods"></a><span data-ttu-id="5ac8c-103">IWbemProviderInit 方法</span><span class="sxs-lookup"><span data-stu-id="5ac8c-103">IWbemProviderInit Methods</span></span>
+# <a name="iwbemproviderinit-methods"></a><span data-ttu-id="02955-103">IWbemProviderInit 方法</span><span class="sxs-lookup"><span data-stu-id="02955-103">IWbemProviderInit Methods</span></span>
 
-<span data-ttu-id="5ac8c-104">[**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="5ac8c-104">The [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) interface exposes the following methods.</span></span>
+<span data-ttu-id="02955-104">[**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="02955-104">The [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="5ac8c-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="5ac8c-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="02955-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="02955-105">In this section</span></span>
 
--   [<span data-ttu-id="5ac8c-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="5ac8c-106">**Initialize method**</span></span>](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize)
+-   [<span data-ttu-id="02955-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="02955-106">**Initialize method**</span></span>](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize)
 
  
 

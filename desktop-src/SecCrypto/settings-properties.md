@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847664"
 ---
-# <a name="settings-properties"></a><span data-ttu-id="50664-103">設定屬性</span><span class="sxs-lookup"><span data-stu-id="50664-103">Settings Properties</span></span>
+# <a name="settings-properties"></a><span data-ttu-id="879be-103">設定屬性</span><span class="sxs-lookup"><span data-stu-id="879be-103">Settings Properties</span></span>
 
-<span data-ttu-id="50664-104">[**Settings**](settings.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="50664-104">The [**Settings**](settings.md) object exposes the following properties.</span></span>
+<span data-ttu-id="879be-104">[**Settings**](settings.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="879be-104">The [**Settings**](settings.md) object exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="50664-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="50664-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="879be-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="879be-105">In this section</span></span>
 
--   [<span data-ttu-id="50664-106">**ActiveDirectorySearchLocation 屬性**</span><span class="sxs-lookup"><span data-stu-id="50664-106">**ActiveDirectorySearchLocation Property**</span></span>](settings-activedirectorysearchlocation.md)
--   [<span data-ttu-id="50664-107">**EnablePromptForCertificateUI 屬性**</span><span class="sxs-lookup"><span data-stu-id="50664-107">**EnablePromptForCertificateUI Property**</span></span>](settings-enablepromptforcertificateui.md)
+-   [<span data-ttu-id="879be-106">**ActiveDirectorySearchLocation 屬性**</span><span class="sxs-lookup"><span data-stu-id="879be-106">**ActiveDirectorySearchLocation Property**</span></span>](settings-activedirectorysearchlocation.md)
+-   [<span data-ttu-id="879be-107">**EnablePromptForCertificateUI 屬性**</span><span class="sxs-lookup"><span data-stu-id="879be-107">**EnablePromptForCertificateUI Property**</span></span>](settings-enablepromptforcertificateui.md)
 
  
 

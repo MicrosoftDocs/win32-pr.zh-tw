@@ -15,11 +15,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020760"
 ---
-# <a name="readxmlsimpleexample"></a><span data-ttu-id="f82ca-106">ReadXmlSimpleExample</span><span class="sxs-lookup"><span data-stu-id="f82ca-106">ReadXmlSimpleExample</span></span>
+# <a name="readxmlsimpleexample"></a><span data-ttu-id="bcfad-106">ReadXmlSimpleExample</span><span class="sxs-lookup"><span data-stu-id="bcfad-106">ReadXmlSimpleExample</span></span>
 
-<span data-ttu-id="f82ca-107">此範例會讀取簡單的 xml 檔。</span><span class="sxs-lookup"><span data-stu-id="f82ca-107">This example reads a simple xml document.</span></span>
+<span data-ttu-id="bcfad-107">此範例會讀取簡單的 xml 檔。</span><span class="sxs-lookup"><span data-stu-id="bcfad-107">This example reads a simple xml document.</span></span>
 
-## <a name="readxmlsimplecpp"></a><span data-ttu-id="f82ca-108">ReadXmlSimple .cpp</span><span class="sxs-lookup"><span data-stu-id="f82ca-108">ReadXmlSimple.cpp</span></span>
+## <a name="readxmlsimplecpp"></a><span data-ttu-id="bcfad-108">ReadXmlSimple .cpp</span><span class="sxs-lookup"><span data-stu-id="bcfad-108">ReadXmlSimple.cpp</span></span>
 
 
 ```C++

@@ -15,23 +15,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933574"
 ---
-# <a name="bluetooth-and-getsockname"></a><span data-ttu-id="d9c0d-106">藍牙和 getsockname</span><span class="sxs-lookup"><span data-stu-id="d9c0d-106">Bluetooth and getsockname</span></span>
+# <a name="bluetooth-and-getsockname"></a><span data-ttu-id="d834c-106">藍牙和 getsockname</span><span class="sxs-lookup"><span data-stu-id="d834c-106">Bluetooth and getsockname</span></span>
 
-<span data-ttu-id="d9c0d-107">藍牙使用 [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname) 函式，透過 [**先前的系**](/windows/desktop/api/winsock/nf-winsock-bind) 結函式呼叫，來取得配置給通訊端的伺服器裝置位址和埠號碼。</span><span class="sxs-lookup"><span data-stu-id="d9c0d-107">Bluetooth uses the [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname) function to retrieve the server device address and port number allocated to a socket through a previous call to the [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) function.</span></span>
+<span data-ttu-id="d834c-107">藍牙使用 [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname) 函式，透過 [**先前的系**](/windows/desktop/api/winsock/nf-winsock-bind) 結函式呼叫，來取得配置給通訊端的伺服器裝置位址和埠號碼。</span><span class="sxs-lookup"><span data-stu-id="d834c-107">Bluetooth uses the [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname) function to retrieve the server device address and port number allocated to a socket through a previous call to the [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) function.</span></span>
 
-<span data-ttu-id="d9c0d-108">如需詳細資訊，請參閱 [Windows 通訊端](/windows/desktop/WinSock/windows-sockets-start-page-2)。</span><span class="sxs-lookup"><span data-stu-id="d9c0d-108">For more information, see [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).</span></span>
+<span data-ttu-id="d834c-108">如需詳細資訊，請參閱 [Windows 通訊端](/windows/desktop/WinSock/windows-sockets-start-page-2)。</span><span class="sxs-lookup"><span data-stu-id="d834c-108">For more information, see [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="d9c0d-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="d9c0d-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d834c-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="d834c-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d9c0d-110">Windows Sockets</span><span class="sxs-lookup"><span data-stu-id="d9c0d-110">Windows Sockets</span></span>](/windows/desktop/WinSock/windows-sockets-start-page-2)
+[<span data-ttu-id="d834c-110">Windows Sockets</span><span class="sxs-lookup"><span data-stu-id="d834c-110">Windows Sockets</span></span>](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[<span data-ttu-id="d9c0d-111">**getsockname**</span><span class="sxs-lookup"><span data-stu-id="d9c0d-111">**getsockname**</span></span>](/windows/desktop/api/winsock/nf-winsock-getsockname)
+[<span data-ttu-id="d834c-111">**getsockname**</span><span class="sxs-lookup"><span data-stu-id="d834c-111">**getsockname**</span></span>](/windows/desktop/api/winsock/nf-winsock-getsockname)
 </dt> <dt>
 
-[<span data-ttu-id="d9c0d-112">**綁定**</span><span class="sxs-lookup"><span data-stu-id="d9c0d-112">**bind**</span></span>](/windows/desktop/api/winsock/nf-winsock-bind)
+[<span data-ttu-id="d834c-112">**綁定**</span><span class="sxs-lookup"><span data-stu-id="d834c-112">**bind**</span></span>](/windows/desktop/api/winsock/nf-winsock-bind)
 </dt> </dl>
 
  

@@ -23,15 +23,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/03/2021
 ms.locfileid: "103945620"
 ---
-# <a name="swbemrefreshableitemrefresher-property"></a><span data-ttu-id="a1e58-103">SWbemRefreshableItem 複習屬性</span><span class="sxs-lookup"><span data-stu-id="a1e58-103">SWbemRefreshableItem.Refresher property</span></span>
+# <a name="swbemrefreshableitemrefresher-property"></a><span data-ttu-id="c532c-103">SWbemRefreshableItem 複習屬性</span><span class="sxs-lookup"><span data-stu-id="c532c-103">SWbemRefreshableItem.Refresher property</span></span>
 
-<span data-ttu-id="a1e58-104">**SWbemRefreshableItem** 屬性代表包含 [**SWbemRefreshableItem**](swbemrefreshableitem.md)物件的父 [**SWbemRefresher**](swbemrefresher.md)物件。</span><span class="sxs-lookup"><span data-stu-id="a1e58-104">The **SWbemRefreshableItem.Refresher** property represents the parent [**SWbemRefresher**](swbemrefresher.md) object which contains the [**SWbemRefreshableItem**](swbemrefreshableitem.md) object.</span></span>
+<span data-ttu-id="c532c-104">**SWbemRefreshableItem** 屬性代表包含 [**SWbemRefreshableItem**](swbemrefreshableitem.md)物件的父 [**SWbemRefresher**](swbemrefresher.md)物件。</span><span class="sxs-lookup"><span data-stu-id="c532c-104">The **SWbemRefreshableItem.Refresher** property represents the parent [**SWbemRefresher**](swbemrefresher.md) object which contains the [**SWbemRefreshableItem**](swbemrefreshableitem.md) object.</span></span>
 
-<span data-ttu-id="a1e58-105">如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。</span><span class="sxs-lookup"><span data-stu-id="a1e58-105">For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).</span></span>
+<span data-ttu-id="c532c-105">如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。</span><span class="sxs-lookup"><span data-stu-id="c532c-105">For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).</span></span>
 
-<span data-ttu-id="a1e58-106">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="a1e58-106">This property is read-only.</span></span>
+<span data-ttu-id="c532c-106">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="c532c-106">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a1e58-107">語法</span><span class="sxs-lookup"><span data-stu-id="a1e58-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c532c-107">語法</span><span class="sxs-lookup"><span data-stu-id="c532c-107">Syntax</span></span>
 
 
 ```VB
@@ -40,32 +40,32 @@ SWbemRefreshableItem.Refresher As Object
 
 
 
-## <a name="property-value"></a><span data-ttu-id="a1e58-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="a1e58-108">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="c532c-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="c532c-108">Property value</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="a1e58-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="a1e58-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c532c-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="c532c-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a1e58-110">需求</span><span class="sxs-lookup"><span data-stu-id="a1e58-110">Requirement</span></span> | <span data-ttu-id="a1e58-111">值</span><span class="sxs-lookup"><span data-stu-id="a1e58-111">Value</span></span> |
+| <span data-ttu-id="c532c-110">需求</span><span class="sxs-lookup"><span data-stu-id="c532c-110">Requirement</span></span> | <span data-ttu-id="c532c-111">值</span><span class="sxs-lookup"><span data-stu-id="c532c-111">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="a1e58-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a1e58-112">Minimum supported client</span></span><br/> | <span data-ttu-id="a1e58-113">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="a1e58-113">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="a1e58-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a1e58-114">Minimum supported server</span></span><br/> | <span data-ttu-id="a1e58-115">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="a1e58-115">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="a1e58-116">標頭</span><span class="sxs-lookup"><span data-stu-id="a1e58-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="a1e58-117"><dt>>wbemdisp.tlb。h</dt></span><span class="sxs-lookup"><span data-stu-id="a1e58-117"><dt>Wbemdisp.h</dt></span></span> </dl>   |
-| <span data-ttu-id="a1e58-118">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="a1e58-118">Type library</span></span><br/>             | <dl> <span data-ttu-id="a1e58-119"><dt>>wbemdisp.tlb .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="a1e58-119"><dt>Wbemdisp.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="a1e58-120">DLL</span><span class="sxs-lookup"><span data-stu-id="a1e58-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="a1e58-121"><dt>Wbemdisp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="a1e58-121"><dt>Wbemdisp.dll</dt></span></span> </dl> |
-| <span data-ttu-id="a1e58-122">CLSID</span><span class="sxs-lookup"><span data-stu-id="a1e58-122">CLSID</span></span><br/>                    | <span data-ttu-id="a1e58-123">CLSID \_ SWbemRefreshableItem</span><span class="sxs-lookup"><span data-stu-id="a1e58-123">CLSID\_SWbemRefreshableItem</span></span><br/>                                                  |
-| <span data-ttu-id="a1e58-124">IID</span><span class="sxs-lookup"><span data-stu-id="a1e58-124">IID</span></span><br/>                      | <span data-ttu-id="a1e58-125">IID \_ ISWbemRefreshableItem</span><span class="sxs-lookup"><span data-stu-id="a1e58-125">IID\_ISWbemRefreshableItem</span></span><br/>                                                   |
+| <span data-ttu-id="c532c-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c532c-112">Minimum supported client</span></span><br/> | <span data-ttu-id="c532c-113">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="c532c-113">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="c532c-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c532c-114">Minimum supported server</span></span><br/> | <span data-ttu-id="c532c-115">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="c532c-115">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="c532c-116">標頭</span><span class="sxs-lookup"><span data-stu-id="c532c-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="c532c-117"><dt>>wbemdisp.tlb。h</dt></span><span class="sxs-lookup"><span data-stu-id="c532c-117"><dt>Wbemdisp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="c532c-118">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="c532c-118">Type library</span></span><br/>             | <dl> <span data-ttu-id="c532c-119"><dt>>wbemdisp.tlb .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="c532c-119"><dt>Wbemdisp.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="c532c-120">DLL</span><span class="sxs-lookup"><span data-stu-id="c532c-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c532c-121"><dt>Wbemdisp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="c532c-121"><dt>Wbemdisp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="c532c-122">CLSID</span><span class="sxs-lookup"><span data-stu-id="c532c-122">CLSID</span></span><br/>                    | <span data-ttu-id="c532c-123">CLSID \_ SWbemRefreshableItem</span><span class="sxs-lookup"><span data-stu-id="c532c-123">CLSID\_SWbemRefreshableItem</span></span><br/>                                                  |
+| <span data-ttu-id="c532c-124">IID</span><span class="sxs-lookup"><span data-stu-id="c532c-124">IID</span></span><br/>                      | <span data-ttu-id="c532c-125">IID \_ ISWbemRefreshableItem</span><span class="sxs-lookup"><span data-stu-id="c532c-125">IID\_ISWbemRefreshableItem</span></span><br/>                                                   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a1e58-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a1e58-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c532c-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c532c-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a1e58-127">**SWbemRefreshableItem**</span><span class="sxs-lookup"><span data-stu-id="a1e58-127">**SWbemRefreshableItem**</span></span>](swbemrefreshableitem.md)
+[<span data-ttu-id="c532c-127">**SWbemRefreshableItem**</span><span class="sxs-lookup"><span data-stu-id="c532c-127">**SWbemRefreshableItem**</span></span>](swbemrefreshableitem.md)
 </dt> <dt>
 
-[<span data-ttu-id="a1e58-128">**SWbemRefreshableItem**</span><span class="sxs-lookup"><span data-stu-id="a1e58-128">**SWbemRefreshableItem**</span></span>](swbemrefresher.md)
+[<span data-ttu-id="c532c-128">**SWbemRefreshableItem**</span><span class="sxs-lookup"><span data-stu-id="c532c-128">**SWbemRefreshableItem**</span></span>](swbemrefresher.md)
 </dt> </dl>
 
  

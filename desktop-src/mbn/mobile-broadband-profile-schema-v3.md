@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847986"
 ---
-# <a name="mobile-broadband-profile-schema-v3"></a><span data-ttu-id="0bab8-103">Mobile 寬頻設定檔架構 v3</span><span class="sxs-lookup"><span data-stu-id="0bab8-103">Mobile Broadband Profile Schema v3</span></span>
+# <a name="mobile-broadband-profile-schema-v3"></a><span data-ttu-id="f6c37-103">Mobile 寬頻設定檔架構 v3</span><span class="sxs-lookup"><span data-stu-id="f6c37-103">Mobile Broadband Profile Schema v3</span></span>
 
-<span data-ttu-id="0bab8-104">Windows 8Mobile 寬頻設定檔架構 v3 可在命名空間中使用 `https://www.microsoft.com/networking/WWAN/profile/v3` 。</span><span class="sxs-lookup"><span data-stu-id="0bab8-104">The Windows 8Mobile Broadband Profile Schema v3 is available in the namespace `https://www.microsoft.com/networking/WWAN/profile/v3`.</span></span>
+<span data-ttu-id="f6c37-104">Windows 8Mobile 寬頻設定檔架構 v3 可在命名空間中使用 `https://www.microsoft.com/networking/WWAN/profile/v3` 。</span><span class="sxs-lookup"><span data-stu-id="f6c37-104">The Windows 8Mobile Broadband Profile Schema v3 is available in the namespace `https://www.microsoft.com/networking/WWAN/profile/v3`.</span></span>
 
--   [<span data-ttu-id="0bab8-105">行動寬頻設定檔架構 v3 元素</span><span class="sxs-lookup"><span data-stu-id="0bab8-105">Mobile Broadband Profile Schema v3 Elements</span></span>](mobile-broadband-profile-schema-v3-elements.md)
+-   [<span data-ttu-id="f6c37-105">行動寬頻設定檔架構 v3 元素</span><span class="sxs-lookup"><span data-stu-id="f6c37-105">Mobile Broadband Profile Schema v3 Elements</span></span>](mobile-broadband-profile-schema-v3-elements.md)
 
 ``` syntax
 <xs:schema targetNamespace="https://www.microsoft.com/networking/WWAN/profile/v3" 

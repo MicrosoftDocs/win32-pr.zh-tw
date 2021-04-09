@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020856"
 ---
-# <a name="example-code-for-creating-a-user"></a><span data-ttu-id="70343-104">建立使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="70343-104">Example Code for Creating a User</span></span>
+# <a name="example-code-for-creating-a-user"></a><span data-ttu-id="c6ff3-104">建立使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="c6ff3-104">Example Code for Creating a User</span></span>
 
-<span data-ttu-id="70343-105">本主題包含在 Active Directory Domain Services 所控制的網域中建立使用者的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="70343-105">This topic includes code examples that create a user in a domain controlled by Active Directory Domain Services.</span></span>
+<span data-ttu-id="c6ff3-105">本主題包含在 Active Directory Domain Services 所控制的網域中建立使用者的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="c6ff3-105">This topic includes code examples that create a user in a domain controlled by Active Directory Domain Services.</span></span>
 
 
 ```VB

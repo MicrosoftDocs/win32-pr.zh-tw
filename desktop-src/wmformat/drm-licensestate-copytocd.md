@@ -19,27 +19,27 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682449"
 ---
-# <a name="drm_licensestate_copytocd"></a><span data-ttu-id="d63b3-104">DRM \_ LicenseState \_ CopyToCD</span><span class="sxs-lookup"><span data-stu-id="d63b3-104">DRM\_LicenseState\_CopyToCD</span></span>
+# <a name="drm_licensestate_copytocd"></a><span data-ttu-id="bd93c-104">DRM \_ LicenseState \_ CopyToCD</span><span class="sxs-lookup"><span data-stu-id="bd93c-104">DRM\_LicenseState\_CopyToCD</span></span>
 
-<span data-ttu-id="d63b3-105">**DRM \_ LicenseState \_ CopyToCD** 屬性包含了 [**WM \_ 授權 \_ 狀態 \_ 資料**](/previous-versions/windows/desktop/legacy/dd757942(v=vs.85))結構，其中包含有關如何將此許可權套用至內容的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="d63b3-105">The **DRM\_LicenseState\_CopyToCD** property contains a [**WM\_LICENSE\_STATE\_DATA**](/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)) structure that contains details about how this right has been applied to the content.</span></span>
+<span data-ttu-id="bd93c-105">**DRM \_ LicenseState \_ CopyToCD** 屬性包含了 [**WM \_ 授權 \_ 狀態 \_ 資料**](/previous-versions/windows/desktop/legacy/dd757942(v=vs.85))結構，其中包含有關如何將此許可權套用至內容的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="bd93c-105">The **DRM\_LicenseState\_CopyToCD** property contains a [**WM\_LICENSE\_STATE\_DATA**](/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)) structure that contains details about how this right has been applied to the content.</span></span>
 
-## <a name="global-constant"></a><span data-ttu-id="d63b3-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="d63b3-106">Global Constant</span></span>
+## <a name="global-constant"></a><span data-ttu-id="bd93c-106">全域常數</span><span class="sxs-lookup"><span data-stu-id="bd93c-106">Global Constant</span></span>
 
-<span data-ttu-id="d63b3-107">g \_ wszWMDRM \_ LicenseState \_ CopyToCD</span><span class="sxs-lookup"><span data-stu-id="d63b3-107">g\_wszWMDRM\_LicenseState\_CopyToCD</span></span>
+<span data-ttu-id="bd93c-107">g \_ wszWMDRM \_ LicenseState \_ CopyToCD</span><span class="sxs-lookup"><span data-stu-id="bd93c-107">g\_wszWMDRM\_LicenseState\_CopyToCD</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="d63b3-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="d63b3-108">Data Type</span></span>
+## <a name="data-type"></a><span data-ttu-id="bd93c-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="bd93c-108">Data Type</span></span>
 
-<span data-ttu-id="d63b3-109">**WMT \_ 類型 \_ 二進位**</span><span class="sxs-lookup"><span data-stu-id="d63b3-109">**WMT\_TYPE\_BINARY**</span></span>
+<span data-ttu-id="bd93c-109">**WMT \_ 類型 \_ 二進位**</span><span class="sxs-lookup"><span data-stu-id="bd93c-109">**WMT\_TYPE\_BINARY**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d63b3-110">備註</span><span class="sxs-lookup"><span data-stu-id="d63b3-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd93c-110">備註</span><span class="sxs-lookup"><span data-stu-id="bd93c-110">Remarks</span></span>
 
-<span data-ttu-id="d63b3-111">這是使用 [**IWMDRMReader：： GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty)取出的唯讀屬性。</span><span class="sxs-lookup"><span data-stu-id="d63b3-111">This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).</span></span>
+<span data-ttu-id="bd93c-111">這是使用 [**IWMDRMReader：： GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty)取出的唯讀屬性。</span><span class="sxs-lookup"><span data-stu-id="bd93c-111">This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d63b3-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d63b3-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bd93c-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bd93c-112">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d63b3-113">**DRM 屬性**</span><span class="sxs-lookup"><span data-stu-id="d63b3-113">**DRM Properties**</span></span>](drm-properties.md)
+[<span data-ttu-id="bd93c-113">**DRM 屬性**</span><span class="sxs-lookup"><span data-stu-id="bd93c-113">**DRM Properties**</span></span>](drm-properties.md)
 </dt> </dl>
 
  

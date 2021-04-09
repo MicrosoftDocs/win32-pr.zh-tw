@@ -11,46 +11,46 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933308"
 ---
-# <a name="vml-text-decoration-attribute"></a><span data-ttu-id="6c36a-103">VML Text-Decoration 屬性</span><span class="sxs-lookup"><span data-stu-id="6c36a-103">VML Text-Decoration Attribute</span></span>
+# <a name="vml-text-decoration-attribute"></a><span data-ttu-id="77cbe-103">VML Text-Decoration 屬性</span><span class="sxs-lookup"><span data-stu-id="77cbe-103">VML Text-Decoration Attribute</span></span>
 
-<span data-ttu-id="6c36a-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="6c36a-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="6c36a-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="6c36a-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+<span data-ttu-id="77cbe-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="77cbe-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="77cbe-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="77cbe-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="6c36a-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="6c36a-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="6c36a-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="6c36a-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="6c36a-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="6c36a-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="6c36a-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="6c36a-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+> <span data-ttu-id="77cbe-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="77cbe-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="77cbe-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="77cbe-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="77cbe-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="77cbe-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="77cbe-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="77cbe-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
 
  
 
-<span data-ttu-id="6c36a-110">定義文字裝飾的樣式。</span><span class="sxs-lookup"><span data-stu-id="6c36a-110">Defines the style of text decoration.</span></span> <span data-ttu-id="6c36a-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="6c36a-111">Read/write.</span></span> <span data-ttu-id="6c36a-112">**字串**。</span><span class="sxs-lookup"><span data-stu-id="6c36a-112">**String**.</span></span>
+<span data-ttu-id="77cbe-110">定義文字裝飾的樣式。</span><span class="sxs-lookup"><span data-stu-id="77cbe-110">Defines the style of text decoration.</span></span> <span data-ttu-id="77cbe-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="77cbe-111">Read/write.</span></span> <span data-ttu-id="77cbe-112">**字串**。</span><span class="sxs-lookup"><span data-stu-id="77cbe-112">**String**.</span></span>
 
-<span data-ttu-id="6c36a-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="6c36a-113">**Applies To**</span></span>
+<span data-ttu-id="77cbe-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="77cbe-113">**Applies To**</span></span>
 
-[<span data-ttu-id="6c36a-114">TextPath</span><span class="sxs-lookup"><span data-stu-id="6c36a-114">TextPath</span></span>](msdn-online-vml-textpath-element.md)
+[<span data-ttu-id="77cbe-114">TextPath</span><span class="sxs-lookup"><span data-stu-id="77cbe-114">TextPath</span></span>](msdn-online-vml-textpath-element.md)
 
-<span data-ttu-id="6c36a-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="6c36a-115">**Tag Syntax**</span></span>
+<span data-ttu-id="77cbe-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="77cbe-115">**Tag Syntax**</span></span>
 
-<span data-ttu-id="6c36a-116"><v： *element* style = "文字裝飾： *expression* " ></span><span class="sxs-lookup"><span data-stu-id="6c36a-116"><v: *element* style="text-decoration: *expression* "></span></span>
+<span data-ttu-id="77cbe-116"><v： *element* style = "文字裝飾： *expression* " ></span><span class="sxs-lookup"><span data-stu-id="77cbe-116"><v: *element* style="text-decoration: *expression* "></span></span>
 
-<span data-ttu-id="6c36a-117">**指令碼語法**</span><span class="sxs-lookup"><span data-stu-id="6c36a-117">**Script Syntax**</span></span>
+<span data-ttu-id="77cbe-117">**指令碼語法**</span><span class="sxs-lookup"><span data-stu-id="77cbe-117">**Script Syntax**</span></span>
 
-<span data-ttu-id="6c36a-118"> textdecoration = "*expression*"</span><span class="sxs-lookup"><span data-stu-id="6c36a-118">*element* .style.textdecoration="*expression*"</span></span>
+<span data-ttu-id="77cbe-118"> textdecoration = "*expression*"</span><span class="sxs-lookup"><span data-stu-id="77cbe-118">*element* .style.textdecoration="*expression*"</span></span>
 
-<span data-ttu-id="6c36a-119">*運算式* =\*\* textdecoration</span><span class="sxs-lookup"><span data-stu-id="6c36a-119">*expression*=*element*.style.textdecoration</span></span>
+<span data-ttu-id="77cbe-119">*運算式* =\*\* textdecoration</span><span class="sxs-lookup"><span data-stu-id="77cbe-119">*expression*=*element*.style.textdecoration</span></span>
 
-<span data-ttu-id="6c36a-120">**備註**</span><span class="sxs-lookup"><span data-stu-id="6c36a-120">**Remarks**</span></span>
+<span data-ttu-id="77cbe-120">**備註**</span><span class="sxs-lookup"><span data-stu-id="77cbe-120">**Remarks**</span></span>
 
-<span data-ttu-id="6c36a-121">數值包括：</span><span class="sxs-lookup"><span data-stu-id="6c36a-121">Values include:</span></span>
+<span data-ttu-id="77cbe-121">數值包括：</span><span class="sxs-lookup"><span data-stu-id="77cbe-121">Values include:</span></span>
 
--   <span data-ttu-id="6c36a-122">無 (預設) </span><span class="sxs-lookup"><span data-stu-id="6c36a-122">none (default)</span></span>
--   <span data-ttu-id="6c36a-123">底線</span><span class="sxs-lookup"><span data-stu-id="6c36a-123">underline</span></span>
--   <span data-ttu-id="6c36a-124">頂線</span><span class="sxs-lookup"><span data-stu-id="6c36a-124">overline</span></span>
--   <span data-ttu-id="6c36a-125">逐行</span><span class="sxs-lookup"><span data-stu-id="6c36a-125">line-through</span></span>
--   <span data-ttu-id="6c36a-126">blink</span><span class="sxs-lookup"><span data-stu-id="6c36a-126">blink</span></span>
+-   <span data-ttu-id="77cbe-122">無 (預設) </span><span class="sxs-lookup"><span data-stu-id="77cbe-122">none (default)</span></span>
+-   <span data-ttu-id="77cbe-123">底線</span><span class="sxs-lookup"><span data-stu-id="77cbe-123">underline</span></span>
+-   <span data-ttu-id="77cbe-124">頂線</span><span class="sxs-lookup"><span data-stu-id="77cbe-124">overline</span></span>
+-   <span data-ttu-id="77cbe-125">逐行</span><span class="sxs-lookup"><span data-stu-id="77cbe-125">line-through</span></span>
+-   <span data-ttu-id="77cbe-126">blink</span><span class="sxs-lookup"><span data-stu-id="77cbe-126">blink</span></span>
 
-<span data-ttu-id="6c36a-127">*VML 標準屬性*</span><span class="sxs-lookup"><span data-stu-id="6c36a-127">*VML Standard Attribute*</span></span>
+<span data-ttu-id="77cbe-127">*VML 標準屬性*</span><span class="sxs-lookup"><span data-stu-id="77cbe-127">*VML Standard Attribute*</span></span>
 
-<span data-ttu-id="6c36a-128">**範例**</span><span class="sxs-lookup"><span data-stu-id="6c36a-128">**Example**</span></span>
+<span data-ttu-id="77cbe-128">**範例**</span><span class="sxs-lookup"><span data-stu-id="77cbe-128">**Example**</span></span>
 
-<span data-ttu-id="6c36a-129">文字會加上底線。</span><span class="sxs-lookup"><span data-stu-id="6c36a-129">The text will be underlined.</span></span>
+<span data-ttu-id="77cbe-129">文字會加上底線。</span><span class="sxs-lookup"><span data-stu-id="77cbe-129">The text will be underlined.</span></span>
 
 
 ```HTML

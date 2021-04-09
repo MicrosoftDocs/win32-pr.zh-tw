@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103681742"
 ---
-# <a name="commands-object-methods"></a><span data-ttu-id="b0c9d-103">命令物件方法</span><span class="sxs-lookup"><span data-stu-id="b0c9d-103">Commands Object Methods</span></span>
+# <a name="commands-object-methods"></a><span data-ttu-id="55c0b-103">命令物件方法</span><span class="sxs-lookup"><span data-stu-id="55c0b-103">Commands Object Methods</span></span>
 
-<span data-ttu-id="b0c9d-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="b0c9d-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+<span data-ttu-id="55c0b-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="55c0b-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
 
-<span data-ttu-id="b0c9d-105">伺服器支援 [**命令**](/windows/desktop/lwef/the-commands-collection-object) 集合物件的下列方法：</span><span class="sxs-lookup"><span data-stu-id="b0c9d-105">The server supports the following methods for the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection object:</span></span>
+<span data-ttu-id="55c0b-105">伺服器支援 [**命令**](/windows/desktop/lwef/the-commands-collection-object) 集合物件的下列方法：</span><span class="sxs-lookup"><span data-stu-id="55c0b-105">The server supports the following methods for the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection object:</span></span>
 
--   [<span data-ttu-id="b0c9d-106">**加入**</span><span class="sxs-lookup"><span data-stu-id="b0c9d-106">**Add**</span></span>](add-method.md)
--   [<span data-ttu-id="b0c9d-107">**命令**</span><span class="sxs-lookup"><span data-stu-id="b0c9d-107">**Command**</span></span>](command-method.md)
--   [<span data-ttu-id="b0c9d-108">**插入**</span><span class="sxs-lookup"><span data-stu-id="b0c9d-108">**Insert**</span></span>](insert-method.md)
--   [<span data-ttu-id="b0c9d-109">**移除**</span><span class="sxs-lookup"><span data-stu-id="b0c9d-109">**Remove**</span></span>](remove-method.md)
--   [<span data-ttu-id="b0c9d-110">**RemoveAll**</span><span class="sxs-lookup"><span data-stu-id="b0c9d-110">**RemoveAll**</span></span>](removeall-method.md)
+-   [<span data-ttu-id="55c0b-106">**加入**</span><span class="sxs-lookup"><span data-stu-id="55c0b-106">**Add**</span></span>](add-method.md)
+-   [<span data-ttu-id="55c0b-107">**命令**</span><span class="sxs-lookup"><span data-stu-id="55c0b-107">**Command**</span></span>](command-method.md)
+-   [<span data-ttu-id="55c0b-108">**插入**</span><span class="sxs-lookup"><span data-stu-id="55c0b-108">**Insert**</span></span>](insert-method.md)
+-   [<span data-ttu-id="55c0b-109">**移除**</span><span class="sxs-lookup"><span data-stu-id="55c0b-109">**Remove**</span></span>](remove-method.md)
+-   [<span data-ttu-id="55c0b-110">**RemoveAll**</span><span class="sxs-lookup"><span data-stu-id="55c0b-110">**RemoveAll**</span></span>](removeall-method.md)
 
  
 

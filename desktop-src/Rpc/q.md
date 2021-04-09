@@ -12,23 +12,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "104024432"
 ---
-# <a name="q-rpc"></a><span data-ttu-id="30203-103">Q (RPC) </span><span class="sxs-lookup"><span data-stu-id="30203-103">Q (RPC)</span></span>
+# <a name="q-rpc"></a><span data-ttu-id="70295-103">Q (RPC) </span><span class="sxs-lookup"><span data-stu-id="70295-103">Q (RPC)</span></span>
 
-<span data-ttu-id="30203-104">[](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G [](u-glos.md) [](v-glos.md) H [I](i-glos.md) J K [L](l-glos.md) [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) Q [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [W](w-glos.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="30203-104">[A](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G H [I](i-glos.md) J K [L](l-glos.md) [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) Q [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [U](u-glos.md) [V](v-glos.md) [W](w-glos.md) X Y Z</span></span>
+<span data-ttu-id="70295-104">[](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G [](u-glos.md) [](v-glos.md) H [I](i-glos.md) J K [L](l-glos.md) [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) Q [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [W](w-glos.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="70295-104">[A](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G H [I](i-glos.md) J K [L](l-glos.md) [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) Q [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [U](u-glos.md) [V](v-glos.md) [W](w-glos.md) X Y Z</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="30203-105"><span id="_rpc_queue_glos"></span><span id="_RPC_QUEUE_GLOS"></span>**佇列**</span><span class="sxs-lookup"><span data-stu-id="30203-105"><span id="_rpc_queue_glos"></span><span id="_RPC_QUEUE_GLOS"></span>**queue**</span></span>
+<span data-ttu-id="70295-105"><span id="_rpc_queue_glos"></span><span id="_RPC_QUEUE_GLOS"></span>**佇列**</span><span class="sxs-lookup"><span data-stu-id="70295-105"><span id="_rpc_queue_glos"></span><span id="_RPC_QUEUE_GLOS"></span>**queue**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="30203-106">要執行的工作或要傳送之訊息的已排序清單。</span><span class="sxs-lookup"><span data-stu-id="30203-106">Ordered list of tasks to be performed or messages to be transmitted.</span></span>
+<span data-ttu-id="70295-106">要執行的工作或要傳送之訊息的已排序清單。</span><span class="sxs-lookup"><span data-stu-id="70295-106">Ordered list of tasks to be performed or messages to be transmitted.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="30203-107"><span id="_rpc_queue_manager_glos"></span><span id="_RPC_QUEUE_MANAGER_GLOS"></span>**佇列管理員**</span><span class="sxs-lookup"><span data-stu-id="30203-107"><span id="_rpc_queue_manager_glos"></span><span id="_RPC_QUEUE_MANAGER_GLOS"></span>**queue manager**</span></span>
+<span data-ttu-id="70295-107"><span id="_rpc_queue_manager_glos"></span><span id="_RPC_QUEUE_MANAGER_GLOS"></span>**佇列管理員**</span><span class="sxs-lookup"><span data-stu-id="70295-107"><span id="_rpc_queue_manager_glos"></span><span id="_RPC_QUEUE_MANAGER_GLOS"></span>**queue manager**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="30203-108">在 [*Microsoft Message Queuing (MSMQ)*](m-glos.md)，這是在管理該用戶端之訊息的用戶端電腦上執行的服務。</span><span class="sxs-lookup"><span data-stu-id="30203-108">In [*Microsoft Message Queuing (MSMQ)*](m-glos.md), a service running on a client computer that manages messages for that client.</span></span>
+<span data-ttu-id="70295-108">在 [*Microsoft Message Queuing (MSMQ)*](m-glos.md)，這是在管理該用戶端之訊息的用戶端電腦上執行的服務。</span><span class="sxs-lookup"><span data-stu-id="70295-108">In [*Microsoft Message Queuing (MSMQ)*](m-glos.md), a service running on a client computer that manages messages for that client.</span></span>
 
 </dd> </dl>
 

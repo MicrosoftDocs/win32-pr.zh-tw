@@ -12,17 +12,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020868"
 ---
-# <a name="directory-backup-structures"></a><span data-ttu-id="d5983-103">目錄備份結構</span><span class="sxs-lookup"><span data-stu-id="d5983-103">Directory Backup Structures</span></span>
+# <a name="directory-backup-structures"></a><span data-ttu-id="77044-103">目錄備份結構</span><span class="sxs-lookup"><span data-stu-id="77044-103">Directory Backup Structures</span></span>
 
-<span data-ttu-id="d5983-104">目錄備份函數會使用下列結構：</span><span class="sxs-lookup"><span data-stu-id="d5983-104">The directory backup functions use the following structure:</span></span>
+<span data-ttu-id="77044-104">目錄備份函數會使用下列結構：</span><span class="sxs-lookup"><span data-stu-id="77044-104">The directory backup functions use the following structure:</span></span>
 
--   [<span data-ttu-id="d5983-105">**EDB \_ RSTMAP**</span><span class="sxs-lookup"><span data-stu-id="d5983-105">**EDB\_RSTMAP**</span></span>](edb-rstmap.md)
+-   [<span data-ttu-id="77044-105">**EDB \_ RSTMAP**</span><span class="sxs-lookup"><span data-stu-id="77044-105">**EDB\_RSTMAP**</span></span>](edb-rstmap.md)
 
-## <a name="related-topics"></a><span data-ttu-id="d5983-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="d5983-106">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="77044-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="77044-106">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d5983-107">Active Directory 結構</span><span class="sxs-lookup"><span data-stu-id="d5983-107">Active Directory Structures</span></span>](structures-in-active-directory-domain-services.md)
+[<span data-ttu-id="77044-107">Active Directory 結構</span><span class="sxs-lookup"><span data-stu-id="77044-107">Active Directory Structures</span></span>](structures-in-active-directory-domain-services.md)
 </dt> </dl>
 
  

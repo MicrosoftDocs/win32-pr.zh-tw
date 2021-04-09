@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691955"
 ---
-# <a name="esentrfsfailureexception-constructor"></a><span data-ttu-id="0c252-103">EsentRfsFailureException 函式</span><span class="sxs-lookup"><span data-stu-id="0c252-103">EsentRfsFailureException constructor</span></span>
+# <a name="esentrfsfailureexception-constructor"></a><span data-ttu-id="f6e3b-103">EsentRfsFailureException 函式</span><span class="sxs-lookup"><span data-stu-id="f6e3b-103">EsentRfsFailureException constructor</span></span>
 
-<span data-ttu-id="0c252-104">初始化 EsentRfsFailureException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="0c252-104">Initializes a new instance of the EsentRfsFailureException class.</span></span>
+<span data-ttu-id="f6e3b-104">初始化 EsentRfsFailureException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="f6e3b-104">Initializes a new instance of the EsentRfsFailureException class.</span></span>
 
-<span data-ttu-id="0c252-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="0c252-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="0c252-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="0c252-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="f6e3b-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="f6e3b-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="f6e3b-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f6e3b-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0c252-107">語法</span><span class="sxs-lookup"><span data-stu-id="0c252-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f6e3b-107">語法</span><span class="sxs-lookup"><span data-stu-id="f6e3b-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentRfsFailureException()
 public EsentRfsFailureException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="0c252-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0c252-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f6e3b-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f6e3b-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="0c252-109">參考</span><span class="sxs-lookup"><span data-stu-id="0c252-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="f6e3b-109">參考</span><span class="sxs-lookup"><span data-stu-id="f6e3b-109">Reference</span></span>
 
-[<span data-ttu-id="0c252-110">EsentRfsFailureException 類別</span><span class="sxs-lookup"><span data-stu-id="0c252-110">EsentRfsFailureException class</span></span>](./esentrfsfailureexception-class.md)
+[<span data-ttu-id="f6e3b-110">EsentRfsFailureException 類別</span><span class="sxs-lookup"><span data-stu-id="f6e3b-110">EsentRfsFailureException class</span></span>](./esentrfsfailureexception-class.md)
 
-[<span data-ttu-id="0c252-111">EsentRfsFailureException 成員</span><span class="sxs-lookup"><span data-stu-id="0c252-111">EsentRfsFailureException members</span></span>](./esentrfsfailureexception-members.md)
+[<span data-ttu-id="f6e3b-111">EsentRfsFailureException 成員</span><span class="sxs-lookup"><span data-stu-id="f6e3b-111">EsentRfsFailureException members</span></span>](./esentrfsfailureexception-members.md)
 
-[<span data-ttu-id="0c252-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="0c252-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="f6e3b-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="f6e3b-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

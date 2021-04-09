@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "104023877"
 ---
-# <a name="tab-element"></a><span data-ttu-id="6cc8b-104">Tab 項目</span><span class="sxs-lookup"><span data-stu-id="6cc8b-104">Tab element</span></span>
+# <a name="tab-element"></a><span data-ttu-id="11dea-104">Tab 項目</span><span class="sxs-lookup"><span data-stu-id="11dea-104">Tab element</span></span>
 
-<span data-ttu-id="6cc8b-105">代表[核心](windowsribbon-controls-tab.md)[或內容](windowsribbon-controls-tabgroup.md)索引標籤。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-105">Represents a [core](windowsribbon-controls-tab.md) or [contextual](windowsribbon-controls-tabgroup.md) tab.</span></span>
+<span data-ttu-id="11dea-105">代表[核心](windowsribbon-controls-tab.md)[或內容](windowsribbon-controls-tabgroup.md)索引標籤。</span><span class="sxs-lookup"><span data-stu-id="11dea-105">Represents a [core](windowsribbon-controls-tab.md) or [contextual](windowsribbon-controls-tabgroup.md) tab.</span></span>
 
-## <a name="usage"></a><span data-ttu-id="6cc8b-106">使用方式</span><span class="sxs-lookup"><span data-stu-id="6cc8b-106">Usage</span></span>
+## <a name="usage"></a><span data-ttu-id="11dea-106">使用方式</span><span class="sxs-lookup"><span data-stu-id="11dea-106">Usage</span></span>
 
 ``` syntax
 <Tab
@@ -34,7 +34,7 @@ ms.locfileid: "104023877"
 </Tab>
 ```
 
-## <a name="attributes"></a><span data-ttu-id="6cc8b-107">屬性</span><span class="sxs-lookup"><span data-stu-id="6cc8b-107">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="11dea-107">屬性</span><span class="sxs-lookup"><span data-stu-id="11dea-107">Attributes</span></span>
 
 
 
@@ -47,71 +47,71 @@ ms.locfileid: "104023877"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6cc8b-108">屬性</span><span class="sxs-lookup"><span data-stu-id="6cc8b-108">Attribute</span></span></th>
-<th><span data-ttu-id="6cc8b-109">類型</span><span class="sxs-lookup"><span data-stu-id="6cc8b-109">Type</span></span></th>
-<th><span data-ttu-id="6cc8b-110">必要</span><span class="sxs-lookup"><span data-stu-id="6cc8b-110">Required</span></span></th>
-<th><span data-ttu-id="6cc8b-111">描述</span><span class="sxs-lookup"><span data-stu-id="6cc8b-111">Description</span></span></th>
+<th><span data-ttu-id="11dea-108">屬性</span><span class="sxs-lookup"><span data-stu-id="11dea-108">Attribute</span></span></th>
+<th><span data-ttu-id="11dea-109">類型</span><span class="sxs-lookup"><span data-stu-id="11dea-109">Type</span></span></th>
+<th><span data-ttu-id="11dea-110">必要</span><span class="sxs-lookup"><span data-stu-id="11dea-110">Required</span></span></th>
+<th><span data-ttu-id="11dea-111">描述</span><span class="sxs-lookup"><span data-stu-id="11dea-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="6cc8b-112"><strong>ApplicationModes</strong></span><span class="sxs-lookup"><span data-stu-id="6cc8b-112"><strong>ApplicationModes</strong></span></span><br/></td>
-<td><span data-ttu-id="6cc8b-113">xs:string</span><span class="sxs-lookup"><span data-stu-id="6cc8b-113">xs:string</span></span><br/></td>
-<td><span data-ttu-id="6cc8b-114">No</span><span class="sxs-lookup"><span data-stu-id="6cc8b-114">No</span></span><br/></td>
-<td><span data-ttu-id="6cc8b-115">只有在 <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> 是父元素時才有效。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-115">Valid only if <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> is the parent element.</span></span><br/> <br/><span data-ttu-id="6cc8b-116">
-<dt><span></span><span></span><strong></strong> (xs： string) </span><span class="sxs-lookup"><span data-stu-id="6cc8b-116">
-<dt><span></span><span></span><strong></strong> (xs:string)</span></span><br/> </dt> <dd> <span data-ttu-id="6cc8b-117">字串，其中包含0到31之間的整數清單（以逗號分隔）。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-117">A string that contains a comma-separated list of integers between 0 and 31.</span></span><br/> <span data-ttu-id="6cc8b-118">空白字元是有效的，而且會被忽略。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-118">White space is valid and ignored.</span></span><br/> <span data-ttu-id="6cc8b-119">最大長度：250個字元。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-119">Maximum length: 250 characters.</span></span> <br/> </dd> </dl></td>
+<td><span data-ttu-id="11dea-112"><strong>ApplicationModes</strong></span><span class="sxs-lookup"><span data-stu-id="11dea-112"><strong>ApplicationModes</strong></span></span><br/></td>
+<td><span data-ttu-id="11dea-113">xs:string</span><span class="sxs-lookup"><span data-stu-id="11dea-113">xs:string</span></span><br/></td>
+<td><span data-ttu-id="11dea-114">No</span><span class="sxs-lookup"><span data-stu-id="11dea-114">No</span></span><br/></td>
+<td><span data-ttu-id="11dea-115">只有在 <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> 是父元素時才有效。</span><span class="sxs-lookup"><span data-stu-id="11dea-115">Valid only if <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> is the parent element.</span></span><br/> <br/><span data-ttu-id="11dea-116">
+<dt><span></span><span></span><strong></strong> (xs： string) </span><span class="sxs-lookup"><span data-stu-id="11dea-116">
+<dt><span></span><span></span><strong></strong> (xs:string)</span></span><br/> </dt> <dd> <span data-ttu-id="11dea-117">字串，其中包含0到31之間的整數清單（以逗號分隔）。</span><span class="sxs-lookup"><span data-stu-id="11dea-117">A string that contains a comma-separated list of integers between 0 and 31.</span></span><br/> <span data-ttu-id="11dea-118">空白字元是有效的，而且會被忽略。</span><span class="sxs-lookup"><span data-stu-id="11dea-118">White space is valid and ignored.</span></span><br/> <span data-ttu-id="11dea-119">最大長度：250個字元。</span><span class="sxs-lookup"><span data-stu-id="11dea-119">Maximum length: 250 characters.</span></span> <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="6cc8b-120"><strong>CommandName</strong></span><span class="sxs-lookup"><span data-stu-id="6cc8b-120"><strong>CommandName</strong></span></span><br/></td>
-<td><span data-ttu-id="6cc8b-121">xs： positiveInteger 或 xs： string</span><span class="sxs-lookup"><span data-stu-id="6cc8b-121">xs:positiveInteger or xs:string</span></span><br/></td>
-<td><span data-ttu-id="6cc8b-122">No</span><span class="sxs-lookup"><span data-stu-id="6cc8b-122">No</span></span><br/></td>
-<td><span data-ttu-id="6cc8b-123">將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-123">Associates the element with a <a href="windowsribbon-element-command.md"><strong>Command</strong></a>.</span></span><br/> <br/><span data-ttu-id="6cc8b-124">
-<dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) </span><span class="sxs-lookup"><span data-stu-id="6cc8b-124">
-<dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)</span></span><br/> </dt> <dd> <span data-ttu-id="6cc8b-125">字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-125">A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive.</span></span> <br/> <span data-ttu-id="6cc8b-126">值在功能區 XML 檔中必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-126">The value must be unique within the Ribbon XML document.</span></span> <br/> <span data-ttu-id="6cc8b-127">最大長度：100個字元。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-127">Maximum length: 100 characters.</span></span> <br/> </dd> </dl></td>
+<td><span data-ttu-id="11dea-120"><strong>CommandName</strong></span><span class="sxs-lookup"><span data-stu-id="11dea-120"><strong>CommandName</strong></span></span><br/></td>
+<td><span data-ttu-id="11dea-121">xs： positiveInteger 或 xs： string</span><span class="sxs-lookup"><span data-stu-id="11dea-121">xs:positiveInteger or xs:string</span></span><br/></td>
+<td><span data-ttu-id="11dea-122">No</span><span class="sxs-lookup"><span data-stu-id="11dea-122">No</span></span><br/></td>
+<td><span data-ttu-id="11dea-123">將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。</span><span class="sxs-lookup"><span data-stu-id="11dea-123">Associates the element with a <a href="windowsribbon-element-command.md"><strong>Command</strong></a>.</span></span><br/> <br/><span data-ttu-id="11dea-124">
+<dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) </span><span class="sxs-lookup"><span data-stu-id="11dea-124">
+<dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)</span></span><br/> </dt> <dd> <span data-ttu-id="11dea-125">字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。</span><span class="sxs-lookup"><span data-stu-id="11dea-125">A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive.</span></span> <br/> <span data-ttu-id="11dea-126">值在功能區 XML 檔中必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="11dea-126">The value must be unique within the Ribbon XML document.</span></span> <br/> <span data-ttu-id="11dea-127">最大長度：100個字元。</span><span class="sxs-lookup"><span data-stu-id="11dea-127">Maximum length: 100 characters.</span></span> <br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>
 
 
 
-## <a name="child-elements"></a><span data-ttu-id="6cc8b-128">子元素</span><span class="sxs-lookup"><span data-stu-id="6cc8b-128">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="11dea-128">子元素</span><span class="sxs-lookup"><span data-stu-id="11dea-128">Child elements</span></span>
 
 
 
-| <span data-ttu-id="6cc8b-129">元素</span><span class="sxs-lookup"><span data-stu-id="6cc8b-129">Element</span></span>                                                                         | <span data-ttu-id="6cc8b-130">描述</span><span class="sxs-lookup"><span data-stu-id="6cc8b-130">Description</span></span>                                        |
+| <span data-ttu-id="11dea-129">元素</span><span class="sxs-lookup"><span data-stu-id="11dea-129">Element</span></span>                                                                         | <span data-ttu-id="11dea-130">描述</span><span class="sxs-lookup"><span data-stu-id="11dea-130">Description</span></span>                                        |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
-| [<span data-ttu-id="6cc8b-131">**組**</span><span class="sxs-lookup"><span data-stu-id="6cc8b-131">**Group**</span></span>](windowsribbon-element-group.md)<br/>                         | <span data-ttu-id="6cc8b-132">可能會發生一次或多次</span><span class="sxs-lookup"><span data-stu-id="6cc8b-132">May occur one or more times</span></span><br/> <br/> |
-| [<span data-ttu-id="6cc8b-133">**ScalingPolicy**</span><span class="sxs-lookup"><span data-stu-id="6cc8b-133">**Tab.ScalingPolicy**</span></span>](windowsribbon-element-tab-scalingpolicy.md)<br/> | <span data-ttu-id="6cc8b-134">最多可能發生一次</span><span class="sxs-lookup"><span data-stu-id="6cc8b-134">May occur at most once</span></span><br/> <br/>      |
+| [<span data-ttu-id="11dea-131">**組**</span><span class="sxs-lookup"><span data-stu-id="11dea-131">**Group**</span></span>](windowsribbon-element-group.md)<br/>                         | <span data-ttu-id="11dea-132">可能會發生一次或多次</span><span class="sxs-lookup"><span data-stu-id="11dea-132">May occur one or more times</span></span><br/> <br/> |
+| [<span data-ttu-id="11dea-133">**ScalingPolicy**</span><span class="sxs-lookup"><span data-stu-id="11dea-133">**Tab.ScalingPolicy**</span></span>](windowsribbon-element-tab-scalingpolicy.md)<br/> | <span data-ttu-id="11dea-134">最多可能發生一次</span><span class="sxs-lookup"><span data-stu-id="11dea-134">May occur at most once</span></span><br/> <br/>      |
 
 
 
-## <a name="parent-elements"></a><span data-ttu-id="6cc8b-135">父元素</span><span class="sxs-lookup"><span data-stu-id="6cc8b-135">Parent elements</span></span>
+## <a name="parent-elements"></a><span data-ttu-id="11dea-135">父元素</span><span class="sxs-lookup"><span data-stu-id="11dea-135">Parent elements</span></span>
 
 
 
-| <span data-ttu-id="6cc8b-136">元素</span><span class="sxs-lookup"><span data-stu-id="6cc8b-136">Element</span></span>                                                             |
+| <span data-ttu-id="11dea-136">元素</span><span class="sxs-lookup"><span data-stu-id="11dea-136">Element</span></span>                                                             |
 |---------------------------------------------------------------------|
-| <span data-ttu-id="6cc8b-137">[**功能區] 索引標籤**](windowsribbon-element-ribbon-tabs.md)</span><span class="sxs-lookup"><span data-stu-id="6cc8b-137">[**Ribbon.Tabs**](windowsribbon-element-ribbon-tabs.md)</span></span><br/> |
-| [<span data-ttu-id="6cc8b-138">**TabGroup**</span><span class="sxs-lookup"><span data-stu-id="6cc8b-138">**TabGroup**</span></span>](windowsribbon-element-tabgroup.md)<br/>       |
+| <span data-ttu-id="11dea-137">[**功能區] 索引標籤**](windowsribbon-element-ribbon-tabs.md)</span><span class="sxs-lookup"><span data-stu-id="11dea-137">[**Ribbon.Tabs**](windowsribbon-element-ribbon-tabs.md)</span></span><br/> |
+| [<span data-ttu-id="11dea-138">**TabGroup**</span><span class="sxs-lookup"><span data-stu-id="11dea-138">**TabGroup**</span></span>](windowsribbon-element-tabgroup.md)<br/>       |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="6cc8b-139">備註</span><span class="sxs-lookup"><span data-stu-id="6cc8b-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="11dea-139">備註</span><span class="sxs-lookup"><span data-stu-id="11dea-139">Remarks</span></span>
 
-<span data-ttu-id="6cc8b-140">必要。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-140">Required.</span></span>
+<span data-ttu-id="11dea-140">必要。</span><span class="sxs-lookup"><span data-stu-id="11dea-140">Required.</span></span>
 
-<span data-ttu-id="6cc8b-141">每個功能區都必須至少出現一次 [**。 tab**](windowsribbon-element-ribbon-tabs.md) 或 [**TabGroup**](windowsribbon-element-tabgroup.md) 元素。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-141">Must occur at least once for each [**Ribbon.Tabs**](windowsribbon-element-ribbon-tabs.md) or [**TabGroup**](windowsribbon-element-tabgroup.md) element.</span></span>
+<span data-ttu-id="11dea-141">每個功能區都必須至少出現一次 [**。 tab**](windowsribbon-element-ribbon-tabs.md) 或 [**TabGroup**](windowsribbon-element-tabgroup.md) 元素。</span><span class="sxs-lookup"><span data-stu-id="11dea-141">Must occur at least once for each [**Ribbon.Tabs**](windowsribbon-element-ribbon-tabs.md) or [**TabGroup**](windowsribbon-element-tabgroup.md) element.</span></span>
 
-<span data-ttu-id="6cc8b-142">**Tab** 支援 [應用程式模式](ribbon-applicationmodes.md)。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-142">**Tab** supports [application modes](ribbon-applicationmodes.md).</span></span>
+<span data-ttu-id="11dea-142">**Tab** 支援 [應用程式模式](ribbon-applicationmodes.md)。</span><span class="sxs-lookup"><span data-stu-id="11dea-142">**Tab** supports [application modes](ribbon-applicationmodes.md).</span></span>
 
-<span data-ttu-id="6cc8b-143">如果索引卷 **標元素有** [**ScalingPolicy IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) ，則 **ScalingPolicy. IdealSizes** 下需要每個 [**群組**](windowsribbon-element-group.md)元素的專案及其理想的大小。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-143">If [**ScalingPolicy.IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) is present for the **Tab** element, then an entry for each [**Group**](windowsribbon-element-group.md) element and its ideal size is required under **ScalingPolicy.IdealSizes**.</span></span>
+<span data-ttu-id="11dea-143">如果索引卷 **標元素有** [**ScalingPolicy IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) ，則 **ScalingPolicy. IdealSizes** 下需要每個 [**群組**](windowsribbon-element-group.md)元素的專案及其理想的大小。</span><span class="sxs-lookup"><span data-stu-id="11dea-143">If [**ScalingPolicy.IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) is present for the **Tab** element, then an entry for each [**Group**](windowsribbon-element-group.md) element and its ideal size is required under **ScalingPolicy.IdealSizes**.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="6cc8b-144">範例</span><span class="sxs-lookup"><span data-stu-id="6cc8b-144">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="11dea-144">範例</span><span class="sxs-lookup"><span data-stu-id="11dea-144">Examples</span></span>
 
-<span data-ttu-id="6cc8b-145">下列範例將示範 **Tab** 元素的基本標記。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-145">The following example demonstrates the basic markup for the **Tab** element.</span></span>
+<span data-ttu-id="11dea-145">下列範例將示範 **Tab** 元素的基本標記。</span><span class="sxs-lookup"><span data-stu-id="11dea-145">The following example demonstrates the basic markup for the **Tab** element.</span></span>
 
-<span data-ttu-id="6cc8b-146">這一段程式碼會顯示 [**常用] 索引** 標籤的 [索引標籤命令聲明 **]** 。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-146">This section of code shows the **Tab** Command declarations for a **Home** tab.</span></span>
+<span data-ttu-id="11dea-146">這一段程式碼會顯示 [**常用] 索引** 標籤的 [索引標籤命令聲明 **]** 。</span><span class="sxs-lookup"><span data-stu-id="11dea-146">This section of code shows the **Tab** Command declarations for a **Home** tab.</span></span>
 
 
 ```XML
@@ -179,7 +179,7 @@ ms.locfileid: "104023877"
 
 
 
-<span data-ttu-id="6cc8b-147">這段程式碼會顯示 **選項卡** 控制項宣告。</span><span class="sxs-lookup"><span data-stu-id="6cc8b-147">This section of code shows the **Tab** control declarations.</span></span>
+<span data-ttu-id="11dea-147">這段程式碼會顯示 **選項卡** 控制項宣告。</span><span class="sxs-lookup"><span data-stu-id="11dea-147">This section of code shows the **Tab** control declarations.</span></span>
 
 
 ```XML
@@ -195,28 +195,28 @@ ms.locfileid: "104023877"
 
 
 
-## <a name="element-information"></a><span data-ttu-id="6cc8b-148">項目資訊</span><span class="sxs-lookup"><span data-stu-id="6cc8b-148">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="11dea-148">項目資訊</span><span class="sxs-lookup"><span data-stu-id="11dea-148">Element information</span></span>
 
 
 
 |                                     |           |
 |-------------------------------------|-----------|
-| <span data-ttu-id="6cc8b-149">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="6cc8b-149">Minimum supported system</span></span><br/> | <span data-ttu-id="6cc8b-150">Windows 7</span><span class="sxs-lookup"><span data-stu-id="6cc8b-150">Windows 7</span></span> |
-| <span data-ttu-id="6cc8b-151">可以是空的</span><span class="sxs-lookup"><span data-stu-id="6cc8b-151">Can be empty</span></span>                        | <span data-ttu-id="6cc8b-152">否</span><span class="sxs-lookup"><span data-stu-id="6cc8b-152">No</span></span>        |
+| <span data-ttu-id="11dea-149">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="11dea-149">Minimum supported system</span></span><br/> | <span data-ttu-id="11dea-150">Windows 7</span><span class="sxs-lookup"><span data-stu-id="11dea-150">Windows 7</span></span> |
+| <span data-ttu-id="11dea-151">可以是空的</span><span class="sxs-lookup"><span data-stu-id="11dea-151">Can be empty</span></span>                        | <span data-ttu-id="11dea-152">否</span><span class="sxs-lookup"><span data-stu-id="11dea-152">No</span></span>        |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="6cc8b-153">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6cc8b-153">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="11dea-153">另請參閱</span><span class="sxs-lookup"><span data-stu-id="11dea-153">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6cc8b-154">索引標籤控制項</span><span class="sxs-lookup"><span data-stu-id="6cc8b-154">Tab control</span></span>](windowsribbon-controls-tab.md)
+[<span data-ttu-id="11dea-154">索引標籤控制項</span><span class="sxs-lookup"><span data-stu-id="11dea-154">Tab control</span></span>](windowsribbon-controls-tab.md)
 </dt> <dt>
 
-[<span data-ttu-id="6cc8b-155">Tab 群組控制項</span><span class="sxs-lookup"><span data-stu-id="6cc8b-155">Tab Group control</span></span>](windowsribbon-controls-tabgroup.md)
+[<span data-ttu-id="11dea-155">Tab 群組控制項</span><span class="sxs-lookup"><span data-stu-id="11dea-155">Tab Group control</span></span>](windowsribbon-controls-tabgroup.md)
 </dt> <dt>
 
-[<span data-ttu-id="6cc8b-156">**SetModes**</span><span class="sxs-lookup"><span data-stu-id="6cc8b-156">**SetModes**</span></span>](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
+[<span data-ttu-id="11dea-156">**SetModes**</span><span class="sxs-lookup"><span data-stu-id="11dea-156">**SetModes**</span></span>](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
 </dt> </dl>
 
  

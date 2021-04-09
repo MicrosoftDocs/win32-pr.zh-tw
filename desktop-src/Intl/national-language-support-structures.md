@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/20/2020
 ms.locfileid: "103842856"
 ---
-# <a name="national-language-support-structures"></a><span data-ttu-id="ba88a-103">國家語言支援結構</span><span class="sxs-lookup"><span data-stu-id="ba88a-103">National Language Support Structures</span></span>
+# <a name="national-language-support-structures"></a><span data-ttu-id="03d6d-103">國家語言支援結構</span><span class="sxs-lookup"><span data-stu-id="03d6d-103">National Language Support Structures</span></span>
 
-<span data-ttu-id="ba88a-104">下列結構適用于 NLS：</span><span class="sxs-lookup"><span data-stu-id="ba88a-104">The following structures are used with NLS:</span></span>
+<span data-ttu-id="03d6d-104">下列結構適用于 NLS：</span><span class="sxs-lookup"><span data-stu-id="03d6d-104">The following structures are used with NLS:</span></span>
 
 <dl>
 
-[<span data-ttu-id="ba88a-105">**CALDATETIME**</span><span class="sxs-lookup"><span data-stu-id="ba88a-105">**CALDATETIME**</span></span>](caldatetime.md)  
-[<span data-ttu-id="ba88a-106">**CPINFO**</span><span class="sxs-lookup"><span data-stu-id="ba88a-106">**CPINFO**</span></span>](/windows/desktop/api/Winnls/ns-winnls-cpinfo)  
-[<span data-ttu-id="ba88a-107">**CPINFOEX**</span><span class="sxs-lookup"><span data-stu-id="ba88a-107">**CPINFOEX**</span></span>](/windows/desktop/api/Winnls/ns-winnls-cpinfoexa)  
-[<span data-ttu-id="ba88a-108">**CURRENCYFMT**</span><span class="sxs-lookup"><span data-stu-id="ba88a-108">**CURRENCYFMT**</span></span>](/windows/desktop/api/Winnls/ns-winnls-currencyfmta)  
-[<span data-ttu-id="ba88a-109">**NLSVERSIONINFO**</span><span class="sxs-lookup"><span data-stu-id="ba88a-109">**NLSVERSIONINFO**</span></span>](/windows/win32/api/winnls/ns-winnls-nlsversioninfo-r1)  
-[<span data-ttu-id="ba88a-110">**NLSVERSIONINFOEX**</span><span class="sxs-lookup"><span data-stu-id="ba88a-110">**NLSVERSIONINFOEX**</span></span>](/windows/desktop/api/Winnls/ns-winnls-nlsversioninfoex)  
-[<span data-ttu-id="ba88a-111">**NUMBERFMT**</span><span class="sxs-lookup"><span data-stu-id="ba88a-111">**NUMBERFMT**</span></span>](/windows/desktop/api/Winnls/ns-winnls-numberfmta)  
+[<span data-ttu-id="03d6d-105">**CALDATETIME**</span><span class="sxs-lookup"><span data-stu-id="03d6d-105">**CALDATETIME**</span></span>](caldatetime.md)  
+[<span data-ttu-id="03d6d-106">**CPINFO**</span><span class="sxs-lookup"><span data-stu-id="03d6d-106">**CPINFO**</span></span>](/windows/desktop/api/Winnls/ns-winnls-cpinfo)  
+[<span data-ttu-id="03d6d-107">**CPINFOEX**</span><span class="sxs-lookup"><span data-stu-id="03d6d-107">**CPINFOEX**</span></span>](/windows/desktop/api/Winnls/ns-winnls-cpinfoexa)  
+[<span data-ttu-id="03d6d-108">**CURRENCYFMT**</span><span class="sxs-lookup"><span data-stu-id="03d6d-108">**CURRENCYFMT**</span></span>](/windows/desktop/api/Winnls/ns-winnls-currencyfmta)  
+[<span data-ttu-id="03d6d-109">**NLSVERSIONINFO**</span><span class="sxs-lookup"><span data-stu-id="03d6d-109">**NLSVERSIONINFO**</span></span>](/windows/win32/api/winnls/ns-winnls-nlsversioninfo-r1)  
+[<span data-ttu-id="03d6d-110">**NLSVERSIONINFOEX**</span><span class="sxs-lookup"><span data-stu-id="03d6d-110">**NLSVERSIONINFOEX**</span></span>](/windows/desktop/api/Winnls/ns-winnls-nlsversioninfoex)  
+[<span data-ttu-id="03d6d-111">**NUMBERFMT**</span><span class="sxs-lookup"><span data-stu-id="03d6d-111">**NUMBERFMT**</span></span>](/windows/desktop/api/Winnls/ns-winnls-numberfmta)  
 </dl>
 
  

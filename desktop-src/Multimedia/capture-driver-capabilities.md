@@ -15,9 +15,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021048"
 ---
-# <a name="capture-driver-capabilities"></a><span data-ttu-id="c5b79-106">Capture 驅動程式功能</span><span class="sxs-lookup"><span data-stu-id="c5b79-106">Capture Driver Capabilities</span></span>
+# <a name="capture-driver-capabilities"></a><span data-ttu-id="bdf2f-106">Capture 驅動程式功能</span><span class="sxs-lookup"><span data-stu-id="bdf2f-106">Capture Driver Capabilities</span></span>
 
-<span data-ttu-id="c5b79-107">您可以使用 [ [**WM \_ cap \_ 驅動程式 \_ 取得 \_ cap**](wm-cap-driver-get-caps.md) 訊息 (] 或 [ [**capDriverGetCaps**](/windows/desktop/api/Vfw/nf-vfw-capdrivergetcaps) 宏) ，來取得目前連線的捕獲驅動程式的硬體功能。</span><span class="sxs-lookup"><span data-stu-id="c5b79-107">You can retrieve the hardware capabilities of the currently connected capture driver by using the [**WM\_CAP\_DRIVER\_GET\_CAPS**](wm-cap-driver-get-caps.md) message (or the [**capDriverGetCaps**](/windows/desktop/api/Vfw/nf-vfw-capdrivergetcaps) macro).</span></span> <span data-ttu-id="c5b79-108">這則訊息會傳回 [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) 結構中的 capture 驅動程式和基礎硬體的功能。</span><span class="sxs-lookup"><span data-stu-id="c5b79-108">This message returns the capabilities of the capture driver and underlying hardware in the [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) structure.</span></span>
+<span data-ttu-id="bdf2f-107">您可以使用 [ [**WM \_ cap \_ 驅動程式 \_ 取得 \_ cap**](wm-cap-driver-get-caps.md) 訊息 (] 或 [ [**capDriverGetCaps**](/windows/desktop/api/Vfw/nf-vfw-capdrivergetcaps) 宏) ，來取得目前連線的捕獲驅動程式的硬體功能。</span><span class="sxs-lookup"><span data-stu-id="bdf2f-107">You can retrieve the hardware capabilities of the currently connected capture driver by using the [**WM\_CAP\_DRIVER\_GET\_CAPS**](wm-cap-driver-get-caps.md) message (or the [**capDriverGetCaps**](/windows/desktop/api/Vfw/nf-vfw-capdrivergetcaps) macro).</span></span> <span data-ttu-id="bdf2f-108">這則訊息會傳回 [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) 結構中的 capture 驅動程式和基礎硬體的功能。</span><span class="sxs-lookup"><span data-stu-id="bdf2f-108">This message returns the capabilities of the capture driver and underlying hardware in the [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) structure.</span></span>
 
  
 

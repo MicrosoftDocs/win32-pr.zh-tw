@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844463"
 ---
-# <a name="nm_click-toolbar-notification-code"></a><span data-ttu-id="49c23-105">NM \_ 按一下 (工具列) 通知碼</span><span class="sxs-lookup"><span data-stu-id="49c23-105">NM\_CLICK (toolbar) notification code</span></span>
+# <a name="nm_click-toolbar-notification-code"></a><span data-ttu-id="5b953-105">NM \_ 按一下 (工具列) 通知碼</span><span class="sxs-lookup"><span data-stu-id="5b953-105">NM\_CLICK (toolbar) notification code</span></span>
 
-<span data-ttu-id="49c23-106">當使用者按一下具有滑鼠左鍵的專案時，由工具列控制項傳送。</span><span class="sxs-lookup"><span data-stu-id="49c23-106">Sent by a toolbar control when the user clicks an item with the left mouse button.</span></span> <span data-ttu-id="49c23-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="49c23-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="5b953-106">當使用者按一下具有滑鼠左鍵的專案時，由工具列控制項傳送。</span><span class="sxs-lookup"><span data-stu-id="5b953-106">Sent by a toolbar control when the user clicks an item with the left mouse button.</span></span> <span data-ttu-id="5b953-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="5b953-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -34,34 +34,34 @@ NM_CLICK
 
 
 
-## <a name="parameters"></a><span data-ttu-id="49c23-108">參數</span><span class="sxs-lookup"><span data-stu-id="49c23-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5b953-108">參數</span><span class="sxs-lookup"><span data-stu-id="5b953-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="49c23-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="49c23-109">*lParam*</span></span> 
+<span data-ttu-id="5b953-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="5b953-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="49c23-110">[**NMMOUSE**](/windows/win32/api/commctrl/ns-commctrl-nmmouse)結構的指標，其中包含此通知的其他相關資訊。</span><span class="sxs-lookup"><span data-stu-id="49c23-110">Pointer to an [**NMMOUSE**](/windows/win32/api/commctrl/ns-commctrl-nmmouse) structure that contains additional information about this notification.</span></span> <span data-ttu-id="49c23-111">**DwItemSpec** 成員包含已按下之區段的索引。</span><span class="sxs-lookup"><span data-stu-id="49c23-111">The **dwItemSpec** member contains the index of the section that was clicked.</span></span>
+<span data-ttu-id="5b953-110">[**NMMOUSE**](/windows/win32/api/commctrl/ns-commctrl-nmmouse)結構的指標，其中包含此通知的其他相關資訊。</span><span class="sxs-lookup"><span data-stu-id="5b953-110">Pointer to an [**NMMOUSE**](/windows/win32/api/commctrl/ns-commctrl-nmmouse) structure that contains additional information about this notification.</span></span> <span data-ttu-id="5b953-111">**DwItemSpec** 成員包含已按下之區段的索引。</span><span class="sxs-lookup"><span data-stu-id="5b953-111">The **dwItemSpec** member contains the index of the section that was clicked.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="49c23-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="49c23-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5b953-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="5b953-112">Return value</span></span>
 
-<span data-ttu-id="49c23-113">傳回 **TRUE** 表示滑鼠按一下已處理，並隱藏系統的預設處理。</span><span class="sxs-lookup"><span data-stu-id="49c23-113">Return **TRUE** to indicate that the mouse click was handled and suppress default processing by the system.</span></span> <span data-ttu-id="49c23-114">傳回 **FALSE** 以允許按一下的預設處理。</span><span class="sxs-lookup"><span data-stu-id="49c23-114">Return **FALSE** to allow default processing of the click.</span></span>
+<span data-ttu-id="5b953-113">傳回 **TRUE** 表示滑鼠按一下已處理，並隱藏系統的預設處理。</span><span class="sxs-lookup"><span data-stu-id="5b953-113">Return **TRUE** to indicate that the mouse click was handled and suppress default processing by the system.</span></span> <span data-ttu-id="5b953-114">傳回 **FALSE** 以允許按一下的預設處理。</span><span class="sxs-lookup"><span data-stu-id="5b953-114">Return **FALSE** to allow default processing of the click.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="49c23-115">備註</span><span class="sxs-lookup"><span data-stu-id="49c23-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5b953-115">備註</span><span class="sxs-lookup"><span data-stu-id="5b953-115">Remarks</span></span>
 
-<span data-ttu-id="49c23-116">按一下具有滑鼠左鍵的專案，會導致工具列將 [BN \_ 按一下](bn-clicked.md)通知程式碼的 [**WM \_ 命令**](/windows/desktop/menurc/wm-command)訊息傳送至父視窗。</span><span class="sxs-lookup"><span data-stu-id="49c23-116">Clicking an item with the left mouse button causes the toolbar to send a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message with the [BN\_CLICKED](bn-clicked.md) notification code to the parent window.</span></span> <span data-ttu-id="49c23-117">NM \_ CLICK 通知會在 **WM \_ 命令** 訊息之後傳送。</span><span class="sxs-lookup"><span data-stu-id="49c23-117">The NM\_CLICK notification is sent after the **WM\_COMMAND** message.</span></span>
+<span data-ttu-id="5b953-116">按一下具有滑鼠左鍵的專案，會導致工具列將 [BN \_ 按一下](bn-clicked.md)通知程式碼的 [**WM \_ 命令**](/windows/desktop/menurc/wm-command)訊息傳送至父視窗。</span><span class="sxs-lookup"><span data-stu-id="5b953-116">Clicking an item with the left mouse button causes the toolbar to send a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message with the [BN\_CLICKED](bn-clicked.md) notification code to the parent window.</span></span> <span data-ttu-id="5b953-117">NM \_ CLICK 通知會在 **WM \_ 命令** 訊息之後傳送。</span><span class="sxs-lookup"><span data-stu-id="5b953-117">The NM\_CLICK notification is sent after the **WM\_COMMAND** message.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="49c23-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="49c23-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5b953-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="5b953-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="49c23-119">需求</span><span class="sxs-lookup"><span data-stu-id="49c23-119">Requirement</span></span> | <span data-ttu-id="49c23-120">值</span><span class="sxs-lookup"><span data-stu-id="49c23-120">Value</span></span> |
+| <span data-ttu-id="5b953-119">需求</span><span class="sxs-lookup"><span data-stu-id="5b953-119">Requirement</span></span> | <span data-ttu-id="5b953-120">值</span><span class="sxs-lookup"><span data-stu-id="5b953-120">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="49c23-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="49c23-121">Minimum supported client</span></span><br/> | <span data-ttu-id="49c23-122">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="49c23-122">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="49c23-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="49c23-123">Minimum supported server</span></span><br/> | <span data-ttu-id="49c23-124">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="49c23-124">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="49c23-125">標頭</span><span class="sxs-lookup"><span data-stu-id="49c23-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="49c23-126"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="49c23-126"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="5b953-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5b953-121">Minimum supported client</span></span><br/> | <span data-ttu-id="5b953-122">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5b953-122">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="5b953-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5b953-123">Minimum supported server</span></span><br/> | <span data-ttu-id="5b953-124">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5b953-124">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="5b953-125">標頭</span><span class="sxs-lookup"><span data-stu-id="5b953-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="5b953-126"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="5b953-126"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

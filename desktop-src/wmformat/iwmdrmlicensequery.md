@@ -21,43 +21,43 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682711"
 ---
-# <a name="iwmdrmlicensequery-interface"></a><span data-ttu-id="f83b9-105">IWMDRMLicenseQuery 介面</span><span class="sxs-lookup"><span data-stu-id="f83b9-105">IWMDRMLicenseQuery interface</span></span>
+# <a name="iwmdrmlicensequery-interface"></a><span data-ttu-id="963af-105">IWMDRMLicenseQuery 介面</span><span class="sxs-lookup"><span data-stu-id="963af-105">IWMDRMLicenseQuery interface</span></span>
 
-<span data-ttu-id="f83b9-106">**IWMDRMLicenseQuery** 介面可讓應用程式查詢受保護檔案的許可權和授權狀態。</span><span class="sxs-lookup"><span data-stu-id="f83b9-106">The **IWMDRMLicenseQuery** interface enables applications to query the rights and license state for a protected file.</span></span> <span data-ttu-id="f83b9-107">此介面會使用金鑰識別碼在本機授權存放區上執行查詢。</span><span class="sxs-lookup"><span data-stu-id="f83b9-107">This interface uses the Key ID to perform queries on the local license store.</span></span>
+<span data-ttu-id="963af-106">**IWMDRMLicenseQuery** 介面可讓應用程式查詢受保護檔案的許可權和授權狀態。</span><span class="sxs-lookup"><span data-stu-id="963af-106">The **IWMDRMLicenseQuery** interface enables applications to query the rights and license state for a protected file.</span></span> <span data-ttu-id="963af-107">此介面會使用金鑰識別碼在本機授權存放區上執行查詢。</span><span class="sxs-lookup"><span data-stu-id="963af-107">This interface uses the Key ID to perform queries on the local license store.</span></span>
 
-<span data-ttu-id="f83b9-108">若要取得這個介面的實例，請呼叫 [**IWMDRMProvider：： CreateObject**](iwmdrmprovider-createobject.md)。</span><span class="sxs-lookup"><span data-stu-id="f83b9-108">To obtain an instance of this interface, call [**IWMDRMProvider::CreateObject**](iwmdrmprovider-createobject.md).</span></span> <span data-ttu-id="f83b9-109">將 **IID \_ IWMDRMLicenseQuery** 傳遞為 *riid* 參數。</span><span class="sxs-lookup"><span data-stu-id="f83b9-109">Pass **IID\_IWMDRMLicenseQuery** as the *riid* parameter.</span></span>
+<span data-ttu-id="963af-108">若要取得這個介面的實例，請呼叫 [**IWMDRMProvider：： CreateObject**](iwmdrmprovider-createobject.md)。</span><span class="sxs-lookup"><span data-stu-id="963af-108">To obtain an instance of this interface, call [**IWMDRMProvider::CreateObject**](iwmdrmprovider-createobject.md).</span></span> <span data-ttu-id="963af-109">將 **IID \_ IWMDRMLicenseQuery** 傳遞為 *riid* 參數。</span><span class="sxs-lookup"><span data-stu-id="963af-109">Pass **IID\_IWMDRMLicenseQuery** as the *riid* parameter.</span></span>
 
-## <a name="members"></a><span data-ttu-id="f83b9-110">成員</span><span class="sxs-lookup"><span data-stu-id="f83b9-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="963af-110">成員</span><span class="sxs-lookup"><span data-stu-id="963af-110">Members</span></span>
 
-<span data-ttu-id="f83b9-111">**IWMDRMLicenseQuery** 介面繼承自 [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown)介面。</span><span class="sxs-lookup"><span data-stu-id="f83b9-111">The **IWMDRMLicenseQuery** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.</span></span> <span data-ttu-id="f83b9-112">**IWMDRMLicenseQuery** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="f83b9-112">**IWMDRMLicenseQuery** also has these types of members:</span></span>
+<span data-ttu-id="963af-111">**IWMDRMLicenseQuery** 介面繼承自 [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown)介面。</span><span class="sxs-lookup"><span data-stu-id="963af-111">The **IWMDRMLicenseQuery** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.</span></span> <span data-ttu-id="963af-112">**IWMDRMLicenseQuery** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="963af-112">**IWMDRMLicenseQuery** also has these types of members:</span></span>
 
--   [<span data-ttu-id="f83b9-113">方法</span><span class="sxs-lookup"><span data-stu-id="f83b9-113">Methods</span></span>](#methods)
+-   [<span data-ttu-id="963af-113">方法</span><span class="sxs-lookup"><span data-stu-id="963af-113">Methods</span></span>](#methods)
 
-### <a name="methods"></a><span data-ttu-id="f83b9-114">方法</span><span class="sxs-lookup"><span data-stu-id="f83b9-114">Methods</span></span>
+### <a name="methods"></a><span data-ttu-id="963af-114">方法</span><span class="sxs-lookup"><span data-stu-id="963af-114">Methods</span></span>
 
-<span data-ttu-id="f83b9-115">**IWMDRMLicenseQuery** 介面具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="f83b9-115">The **IWMDRMLicenseQuery** interface has these methods.</span></span>
+<span data-ttu-id="963af-115">**IWMDRMLicenseQuery** 介面具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="963af-115">The **IWMDRMLicenseQuery** interface has these methods.</span></span>
 
 
 
-| <span data-ttu-id="f83b9-116">方法</span><span class="sxs-lookup"><span data-stu-id="f83b9-116">Method</span></span>                                                                                | <span data-ttu-id="f83b9-117">描述</span><span class="sxs-lookup"><span data-stu-id="f83b9-117">Description</span></span>                                                                                      |
+| <span data-ttu-id="963af-116">方法</span><span class="sxs-lookup"><span data-stu-id="963af-116">Method</span></span>                                                                                | <span data-ttu-id="963af-117">描述</span><span class="sxs-lookup"><span data-stu-id="963af-117">Description</span></span>                                                                                      |
 |:--------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="f83b9-118">**QueryActionAllowed**</span><span class="sxs-lookup"><span data-stu-id="f83b9-118">**QueryActionAllowed**</span></span>](iwmdrmlicensequery-queryactionallowed.md)                   | <span data-ttu-id="f83b9-119">查詢本機授權存放區，以取得依金鑰識別碼執行動作的許可權。</span><span class="sxs-lookup"><span data-stu-id="f83b9-119">Queries the local license store for permissions to perform actions by Key ID.</span></span><br/>         |
-| [<span data-ttu-id="f83b9-120">**QueryLicenseState**</span><span class="sxs-lookup"><span data-stu-id="f83b9-120">**QueryLicenseState**</span></span>](iwmdrmlicensequery-querylicensestate.md)                     | <span data-ttu-id="f83b9-121">依金鑰識別碼和特定權利查詢本機授權存放區中的授權狀態資料。</span><span class="sxs-lookup"><span data-stu-id="f83b9-121">Queries the local license store for license state data by Key ID and specific rights.</span></span><br/> |
-| [<span data-ttu-id="f83b9-122">**SetActionAllowedQueryParams**</span><span class="sxs-lookup"><span data-stu-id="f83b9-122">**SetActionAllowedQueryParams**</span></span>](iwmdrmlicensequery-setactionallowedqueryparams.md) | <span data-ttu-id="f83b9-123">設定環境參數以改善授權查詢的精確度。</span><span class="sxs-lookup"><span data-stu-id="f83b9-123">Sets environmental parameters to improve the accuracy of license queries.</span></span><br/>             |
+| [<span data-ttu-id="963af-118">**QueryActionAllowed**</span><span class="sxs-lookup"><span data-stu-id="963af-118">**QueryActionAllowed**</span></span>](iwmdrmlicensequery-queryactionallowed.md)                   | <span data-ttu-id="963af-119">查詢本機授權存放區，以取得依金鑰識別碼執行動作的許可權。</span><span class="sxs-lookup"><span data-stu-id="963af-119">Queries the local license store for permissions to perform actions by Key ID.</span></span><br/>         |
+| [<span data-ttu-id="963af-120">**QueryLicenseState**</span><span class="sxs-lookup"><span data-stu-id="963af-120">**QueryLicenseState**</span></span>](iwmdrmlicensequery-querylicensestate.md)                     | <span data-ttu-id="963af-121">依金鑰識別碼和特定權利查詢本機授權存放區中的授權狀態資料。</span><span class="sxs-lookup"><span data-stu-id="963af-121">Queries the local license store for license state data by Key ID and specific rights.</span></span><br/> |
+| [<span data-ttu-id="963af-122">**SetActionAllowedQueryParams**</span><span class="sxs-lookup"><span data-stu-id="963af-122">**SetActionAllowedQueryParams**</span></span>](iwmdrmlicensequery-setactionallowedqueryparams.md) | <span data-ttu-id="963af-123">設定環境參數以改善授權查詢的精確度。</span><span class="sxs-lookup"><span data-stu-id="963af-123">Sets environmental parameters to improve the accuracy of license queries.</span></span><br/>             |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="f83b9-124">備註</span><span class="sxs-lookup"><span data-stu-id="f83b9-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="963af-124">備註</span><span class="sxs-lookup"><span data-stu-id="963af-124">Remarks</span></span>
 
-<span data-ttu-id="f83b9-125">**IWMDRMLicenseQuery** 方法不會提供個別授權的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="f83b9-125">The methods of **IWMDRMLicenseQuery** do not provide information about individual licenses.</span></span> <span data-ttu-id="f83b9-126">相反地，在傳回查詢結果之前，DRM 子系統會匯總授權資料。</span><span class="sxs-lookup"><span data-stu-id="f83b9-126">Instead, the license data is aggregated by the DRM subsystem before the query results are returned.</span></span>
+<span data-ttu-id="963af-125">**IWMDRMLicenseQuery** 方法不會提供個別授權的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="963af-125">The methods of **IWMDRMLicenseQuery** do not provide information about individual licenses.</span></span> <span data-ttu-id="963af-126">相反地，在傳回查詢結果之前，DRM 子系統會匯總授權資料。</span><span class="sxs-lookup"><span data-stu-id="963af-126">Instead, the license data is aggregated by the DRM subsystem before the query results are returned.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f83b9-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f83b9-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="963af-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="963af-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f83b9-128">**介面**</span><span class="sxs-lookup"><span data-stu-id="f83b9-128">**Interfaces**</span></span>](drm-interfaces.md)
+[<span data-ttu-id="963af-128">**介面**</span><span class="sxs-lookup"><span data-stu-id="963af-128">**Interfaces**</span></span>](drm-interfaces.md)
 </dt> </dl>
 
  

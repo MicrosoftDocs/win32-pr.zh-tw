@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/15/2021
 ms.locfileid: "103696864"
 ---
-# <a name="id3dx10spritegetprojectiontransform-method"></a><span data-ttu-id="eb2f8-103">ID3DX10Sprite：： GetProjectionTransform 方法</span><span class="sxs-lookup"><span data-stu-id="eb2f8-103">ID3DX10Sprite::GetProjectionTransform method</span></span>
+# <a name="id3dx10spritegetprojectiontransform-method"></a><span data-ttu-id="54ad9-103">ID3DX10Sprite：： GetProjectionTransform 方法</span><span class="sxs-lookup"><span data-stu-id="54ad9-103">ID3DX10Sprite::GetProjectionTransform method</span></span>
 
-<span data-ttu-id="eb2f8-104">取得套用至所有 sprite 的 sprite 投影矩陣。</span><span class="sxs-lookup"><span data-stu-id="eb2f8-104">Get the sprite projection matrix that is applied to all sprites.</span></span>
+<span data-ttu-id="54ad9-104">取得套用至所有 sprite 的 sprite 投影矩陣。</span><span class="sxs-lookup"><span data-stu-id="54ad9-104">Get the sprite projection matrix that is applied to all sprites.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="eb2f8-105">語法</span><span class="sxs-lookup"><span data-stu-id="eb2f8-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="54ad9-105">語法</span><span class="sxs-lookup"><span data-stu-id="54ad9-105">Syntax</span></span>
 
 
 ```C++
@@ -36,44 +36,44 @@ HRESULT GetProjectionTransform(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="eb2f8-106">參數</span><span class="sxs-lookup"><span data-stu-id="eb2f8-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="54ad9-106">參數</span><span class="sxs-lookup"><span data-stu-id="54ad9-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="eb2f8-107">*pProjectionTransform* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="eb2f8-107">*pProjectionTransform* \[out\]</span></span>
+<span data-ttu-id="54ad9-107">*pProjectionTransform* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="54ad9-107">*pProjectionTransform* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="eb2f8-108">類型： **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***</span><span class="sxs-lookup"><span data-stu-id="eb2f8-108">Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***</span></span>
+<span data-ttu-id="54ad9-108">類型： **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***</span><span class="sxs-lookup"><span data-stu-id="54ad9-108">Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***</span></span>
 
-<span data-ttu-id="eb2f8-109">將設定為 sprite 投射矩陣的 [**D3DX10MATRIX**](d3d10-d3dxmatrix.md) 指標。</span><span class="sxs-lookup"><span data-stu-id="eb2f8-109">Pointer to a [**D3DX10MATRIX**](d3d10-d3dxmatrix.md) that will be set to the sprite's projection matrix.</span></span>
+<span data-ttu-id="54ad9-109">將設定為 sprite 投射矩陣的 [**D3DX10MATRIX**](d3d10-d3dxmatrix.md) 指標。</span><span class="sxs-lookup"><span data-stu-id="54ad9-109">Pointer to a [**D3DX10MATRIX**](d3d10-d3dxmatrix.md) that will be set to the sprite's projection matrix.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="eb2f8-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="eb2f8-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="54ad9-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="54ad9-110">Return value</span></span>
 
-<span data-ttu-id="eb2f8-111">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="eb2f8-111">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
+<span data-ttu-id="54ad9-111">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="54ad9-111">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
 
-<span data-ttu-id="eb2f8-112">傳回值是 [Direct3D 10 傳回碼](d3d10-graphics-reference-returnvalues.md)中列出的其中一個值。</span><span class="sxs-lookup"><span data-stu-id="eb2f8-112">The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).</span></span>
+<span data-ttu-id="54ad9-112">傳回值是 [Direct3D 10 傳回碼](d3d10-graphics-reference-returnvalues.md)中列出的其中一個值。</span><span class="sxs-lookup"><span data-stu-id="54ad9-112">The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="eb2f8-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="eb2f8-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="54ad9-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="54ad9-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="eb2f8-114">需求</span><span class="sxs-lookup"><span data-stu-id="eb2f8-114">Requirement</span></span> | <span data-ttu-id="eb2f8-115">值</span><span class="sxs-lookup"><span data-stu-id="eb2f8-115">Value</span></span> |
+| <span data-ttu-id="54ad9-114">需求</span><span class="sxs-lookup"><span data-stu-id="54ad9-114">Requirement</span></span> | <span data-ttu-id="54ad9-115">值</span><span class="sxs-lookup"><span data-stu-id="54ad9-115">Value</span></span> |
 |--------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="eb2f8-116">標頭</span><span class="sxs-lookup"><span data-stu-id="eb2f8-116">Header</span></span><br/>  | <dl> <span data-ttu-id="eb2f8-117"><dt>D3DX10。h</dt></span><span class="sxs-lookup"><span data-stu-id="eb2f8-117"><dt>D3DX10.h</dt></span></span> </dl>   |
-| <span data-ttu-id="eb2f8-118">程式庫</span><span class="sxs-lookup"><span data-stu-id="eb2f8-118">Library</span></span><br/> | <dl> <span data-ttu-id="eb2f8-119"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="eb2f8-119"><dt>D3DX10.lib</dt></span></span> </dl> |
+| <span data-ttu-id="54ad9-116">標頭</span><span class="sxs-lookup"><span data-stu-id="54ad9-116">Header</span></span><br/>  | <dl> <span data-ttu-id="54ad9-117"><dt>D3DX10。h</dt></span><span class="sxs-lookup"><span data-stu-id="54ad9-117"><dt>D3DX10.h</dt></span></span> </dl>   |
+| <span data-ttu-id="54ad9-118">程式庫</span><span class="sxs-lookup"><span data-stu-id="54ad9-118">Library</span></span><br/> | <dl> <span data-ttu-id="54ad9-119"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="54ad9-119"><dt>D3DX10.lib</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="eb2f8-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="eb2f8-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="54ad9-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="54ad9-120">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="eb2f8-121">ID3DX10Sprite</span><span class="sxs-lookup"><span data-stu-id="eb2f8-121">ID3DX10Sprite</span></span>](id3dx10sprite.md)
+[<span data-ttu-id="54ad9-121">ID3DX10Sprite</span><span class="sxs-lookup"><span data-stu-id="54ad9-121">ID3DX10Sprite</span></span>](id3dx10sprite.md)
 </dt> <dt>
 
-[<span data-ttu-id="eb2f8-122">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="eb2f8-122">D3DX Interfaces</span></span>](d3d10-graphics-reference-d3dx10-interfaces.md)
+[<span data-ttu-id="54ad9-122">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="54ad9-122">D3DX Interfaces</span></span>](d3d10-graphics-reference-d3dx10-interfaces.md)
 </dt> </dl>
 
  

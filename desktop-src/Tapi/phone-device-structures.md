@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692228"
 ---
-# <a name="phone-device-structures"></a><span data-ttu-id="41ea2-103">手機裝置結構</span><span class="sxs-lookup"><span data-stu-id="41ea2-103">Phone Device Structures</span></span>
+# <a name="phone-device-structures"></a><span data-ttu-id="d1293-103">手機裝置結構</span><span class="sxs-lookup"><span data-stu-id="d1293-103">Phone Device Structures</span></span>
 
-<span data-ttu-id="41ea2-104">以下是電話裝置結構的參考，其中包括：</span><span class="sxs-lookup"><span data-stu-id="41ea2-104">The following is the reference for phone device structures, which includes:</span></span>
+<span data-ttu-id="d1293-104">以下是電話裝置結構的參考，其中包括：</span><span class="sxs-lookup"><span data-stu-id="d1293-104">The following is the reference for phone device structures, which includes:</span></span>
 
--   [<span data-ttu-id="41ea2-105">**PHONEBUTTONINFO**</span><span class="sxs-lookup"><span data-stu-id="41ea2-105">**PHONEBUTTONINFO**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phonebuttoninfo)
--   [<span data-ttu-id="41ea2-106">**PHONECAPS**</span><span class="sxs-lookup"><span data-stu-id="41ea2-106">**PHONECAPS**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phonecaps)
--   [<span data-ttu-id="41ea2-107">**PHONEEXTENSIONID**</span><span class="sxs-lookup"><span data-stu-id="41ea2-107">**PHONEEXTENSIONID**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phoneextensionid)
--   [<span data-ttu-id="41ea2-108">**PHONEINITIALIZEEXPARAMS**</span><span class="sxs-lookup"><span data-stu-id="41ea2-108">**PHONEINITIALIZEEXPARAMS**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phoneinitializeexparams)
--   [<span data-ttu-id="41ea2-109">**PHONEMESSAGE**</span><span class="sxs-lookup"><span data-stu-id="41ea2-109">**PHONEMESSAGE**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phonemessage)
--   [<span data-ttu-id="41ea2-110">**PHONESTATUS**</span><span class="sxs-lookup"><span data-stu-id="41ea2-110">**PHONESTATUS**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phonestatus)
--   [<span data-ttu-id="41ea2-111">**VARSTRING**</span><span class="sxs-lookup"><span data-stu-id="41ea2-111">**VARSTRING**</span></span>](/windows/desktop/api/Tapi/ns-tapi-varstring)
+-   [<span data-ttu-id="d1293-105">**PHONEBUTTONINFO**</span><span class="sxs-lookup"><span data-stu-id="d1293-105">**PHONEBUTTONINFO**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phonebuttoninfo)
+-   [<span data-ttu-id="d1293-106">**PHONECAPS**</span><span class="sxs-lookup"><span data-stu-id="d1293-106">**PHONECAPS**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phonecaps)
+-   [<span data-ttu-id="d1293-107">**PHONEEXTENSIONID**</span><span class="sxs-lookup"><span data-stu-id="d1293-107">**PHONEEXTENSIONID**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phoneextensionid)
+-   [<span data-ttu-id="d1293-108">**PHONEINITIALIZEEXPARAMS**</span><span class="sxs-lookup"><span data-stu-id="d1293-108">**PHONEINITIALIZEEXPARAMS**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phoneinitializeexparams)
+-   [<span data-ttu-id="d1293-109">**PHONEMESSAGE**</span><span class="sxs-lookup"><span data-stu-id="d1293-109">**PHONEMESSAGE**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phonemessage)
+-   [<span data-ttu-id="d1293-110">**PHONESTATUS**</span><span class="sxs-lookup"><span data-stu-id="d1293-110">**PHONESTATUS**</span></span>](/windows/desktop/api/Tapi/ns-tapi-phonestatus)
+-   [<span data-ttu-id="d1293-111">**VARSTRING**</span><span class="sxs-lookup"><span data-stu-id="d1293-111">**VARSTRING**</span></span>](/windows/desktop/api/Tapi/ns-tapi-varstring)
 
  
 

@@ -28,28 +28,28 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "104024455"
 ---
-# <a name="getting-started-with-microsoft-windows-media-drm-client"></a><span data-ttu-id="c4f2f-119">使用 Microsoft Windows Media DRM 用戶端的開始使用</span><span class="sxs-lookup"><span data-stu-id="c4f2f-119">Getting Started with Microsoft Windows Media DRM Client</span></span>
+# <a name="getting-started-with-microsoft-windows-media-drm-client"></a><span data-ttu-id="58bb6-119">使用 Microsoft Windows Media DRM 用戶端的開始使用</span><span class="sxs-lookup"><span data-stu-id="58bb6-119">Getting Started with Microsoft Windows Media DRM Client</span></span>
 
-<span data-ttu-id="c4f2f-120">這部分的程式設計指南說明如何使用 Windows Media DRM 用戶端擴充 Api 來設定專案，並提供使用 Api 的基本資訊。</span><span class="sxs-lookup"><span data-stu-id="c4f2f-120">This part of the programming guide describes how to set up a project using the Windows Media DRM Client Extended APIs, and provides basic information about using the APIs.</span></span> <span data-ttu-id="c4f2f-121">其中包含下列主題。</span><span class="sxs-lookup"><span data-stu-id="c4f2f-121">It contains the following topics.</span></span>
+<span data-ttu-id="58bb6-120">這部分的程式設計指南說明如何使用 Windows Media DRM 用戶端擴充 Api 來設定專案，並提供使用 Api 的基本資訊。</span><span class="sxs-lookup"><span data-stu-id="58bb6-120">This part of the programming guide describes how to set up a project using the Windows Media DRM Client Extended APIs, and provides basic information about using the APIs.</span></span> <span data-ttu-id="58bb6-121">其中包含下列主題。</span><span class="sxs-lookup"><span data-stu-id="58bb6-121">It contains the following topics.</span></span>
 
 
 
-| <span data-ttu-id="c4f2f-122">主題</span><span class="sxs-lookup"><span data-stu-id="c4f2f-122">Topic</span></span>                                                                                                      | <span data-ttu-id="c4f2f-123">描述</span><span class="sxs-lookup"><span data-stu-id="c4f2f-123">Description</span></span>                                                                                             |
+| <span data-ttu-id="58bb6-122">主題</span><span class="sxs-lookup"><span data-stu-id="58bb6-122">Topic</span></span>                                                                                                      | <span data-ttu-id="58bb6-123">描述</span><span class="sxs-lookup"><span data-stu-id="58bb6-123">Description</span></span>                                                                                             |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="c4f2f-124">程式庫檔案、標頭檔和編譯器設定</span><span class="sxs-lookup"><span data-stu-id="c4f2f-124">Library Files, Header Files, and Compiler Settings</span></span>](library-files-header-files-and-compiler-settings.md) | <span data-ttu-id="c4f2f-125">說明如何設定您的開發環境，以使用 Windows Media DRM 用戶端擴充 Api。</span><span class="sxs-lookup"><span data-stu-id="c4f2f-125">Describes how to set up your development environment to use the Windows Media DRM Client Extended APIs.</span></span> |
-| [<span data-ttu-id="c4f2f-126">使用程式碼範例</span><span class="sxs-lookup"><span data-stu-id="c4f2f-126">Using the Code Examples</span></span>](drm-using-the-code-examples.md)                                                 | <span data-ttu-id="c4f2f-127">描述本檔所提供的程式碼範例中所使用的慣例。</span><span class="sxs-lookup"><span data-stu-id="c4f2f-127">Describes the conventions used in the code examples provided in this documentation.</span></span>                     |
-| [<span data-ttu-id="c4f2f-128">應用程式基本概念</span><span class="sxs-lookup"><span data-stu-id="c4f2f-128">Application Basics</span></span>](application-basics.md)                                                               | <span data-ttu-id="c4f2f-129">說明如何建立使用 Windows Media DRM 用戶端擴充 Api 的應用程式。</span><span class="sxs-lookup"><span data-stu-id="c4f2f-129">Describes how to create an application that uses the Windows Media DRM Client Extended APIs.</span></span>            |
-| [<span data-ttu-id="c4f2f-130">使用媒體基礎事件模型</span><span class="sxs-lookup"><span data-stu-id="c4f2f-130">Using the Media Foundation Event Model</span></span>](using-the-media-foundation-model.md)                             | <span data-ttu-id="c4f2f-131">介紹 Windows Media DRM 用戶端擴充 Api 所使用的事件模型。</span><span class="sxs-lookup"><span data-stu-id="c4f2f-131">Introduces the event model that is used by the Windows Media DRM Client Extended APIs.</span></span>                  |
+| [<span data-ttu-id="58bb6-124">程式庫檔案、標頭檔和編譯器設定</span><span class="sxs-lookup"><span data-stu-id="58bb6-124">Library Files, Header Files, and Compiler Settings</span></span>](library-files-header-files-and-compiler-settings.md) | <span data-ttu-id="58bb6-125">說明如何設定您的開發環境，以使用 Windows Media DRM 用戶端擴充 Api。</span><span class="sxs-lookup"><span data-stu-id="58bb6-125">Describes how to set up your development environment to use the Windows Media DRM Client Extended APIs.</span></span> |
+| [<span data-ttu-id="58bb6-126">使用程式碼範例</span><span class="sxs-lookup"><span data-stu-id="58bb6-126">Using the Code Examples</span></span>](drm-using-the-code-examples.md)                                                 | <span data-ttu-id="58bb6-127">描述本檔所提供的程式碼範例中所使用的慣例。</span><span class="sxs-lookup"><span data-stu-id="58bb6-127">Describes the conventions used in the code examples provided in this documentation.</span></span>                     |
+| [<span data-ttu-id="58bb6-128">應用程式基本概念</span><span class="sxs-lookup"><span data-stu-id="58bb6-128">Application Basics</span></span>](application-basics.md)                                                               | <span data-ttu-id="58bb6-129">說明如何建立使用 Windows Media DRM 用戶端擴充 Api 的應用程式。</span><span class="sxs-lookup"><span data-stu-id="58bb6-129">Describes how to create an application that uses the Windows Media DRM Client Extended APIs.</span></span>            |
+| [<span data-ttu-id="58bb6-130">使用媒體基礎事件模型</span><span class="sxs-lookup"><span data-stu-id="58bb6-130">Using the Media Foundation Event Model</span></span>](using-the-media-foundation-model.md)                             | <span data-ttu-id="58bb6-131">介紹 Windows Media DRM 用戶端擴充 Api 所使用的事件模型。</span><span class="sxs-lookup"><span data-stu-id="58bb6-131">Introduces the event model that is used by the Windows Media DRM Client Extended APIs.</span></span>                  |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="c4f2f-132">相關主題</span><span class="sxs-lookup"><span data-stu-id="c4f2f-132">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="58bb6-132">相關主題</span><span class="sxs-lookup"><span data-stu-id="58bb6-132">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c4f2f-133">**程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="c4f2f-133">**Programming Guide**</span></span>](drm-programming-guide.md)
+[<span data-ttu-id="58bb6-133">**程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="58bb6-133">**Programming Guide**</span></span>](drm-programming-guide.md)
 </dt> </dl>
 
  

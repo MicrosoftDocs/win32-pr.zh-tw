@@ -32,14 +32,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103693939"
 ---
-# <a name="jet_commit_idgreaterthan-operator"></a><span data-ttu-id="3bd81-103">JET_COMMIT_ID. GreaterThan 運算子</span><span class="sxs-lookup"><span data-stu-id="3bd81-103">JET_COMMIT_ID.GreaterThan operator</span></span>
+# <a name="jet_commit_idgreaterthan-operator"></a><span data-ttu-id="0bfa8-103">JET_COMMIT_ID. GreaterThan 運算子</span><span class="sxs-lookup"><span data-stu-id="0bfa8-103">JET_COMMIT_ID.GreaterThan operator</span></span>
 
-<span data-ttu-id="3bd81-104">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="3bd81-104">Determine whether one commitid is before another commitid.</span></span>
+<span data-ttu-id="0bfa8-104">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="0bfa8-104">Determine whether one commitid is before another commitid.</span></span>
 
-<span data-ttu-id="3bd81-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="3bd81-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="3bd81-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="3bd81-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="0bfa8-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="0bfa8-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="0bfa8-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="0bfa8-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3bd81-107">語法</span><span class="sxs-lookup"><span data-stu-id="3bd81-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0bfa8-107">語法</span><span class="sxs-lookup"><span data-stu-id="0bfa8-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -62,31 +62,31 @@ public static bool operator >(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="3bd81-108">參數</span><span class="sxs-lookup"><span data-stu-id="3bd81-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="0bfa8-108">參數</span><span class="sxs-lookup"><span data-stu-id="0bfa8-108">Parameters</span></span>
 
-  - <span data-ttu-id="3bd81-109">lhs</span><span class="sxs-lookup"><span data-stu-id="3bd81-109">lhs</span></span>  
-    <span data-ttu-id="3bd81-110">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span><span class="sxs-lookup"><span data-stu-id="3bd81-110">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span></span>  
+  - <span data-ttu-id="0bfa8-109">lhs</span><span class="sxs-lookup"><span data-stu-id="0bfa8-109">lhs</span></span>  
+    <span data-ttu-id="0bfa8-110">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span><span class="sxs-lookup"><span data-stu-id="0bfa8-110">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span></span>  
     
-    <span data-ttu-id="3bd81-111">要比較的第一個 commitid。</span><span class="sxs-lookup"><span data-stu-id="3bd81-111">The first commitid to compare.</span></span>
+    <span data-ttu-id="0bfa8-111">要比較的第一個 commitid。</span><span class="sxs-lookup"><span data-stu-id="0bfa8-111">The first commitid to compare.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="3bd81-112">rhs</span><span class="sxs-lookup"><span data-stu-id="3bd81-112">rhs</span></span>  
-    <span data-ttu-id="3bd81-113">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span><span class="sxs-lookup"><span data-stu-id="3bd81-113">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span></span>  
+  - <span data-ttu-id="0bfa8-112">rhs</span><span class="sxs-lookup"><span data-stu-id="0bfa8-112">rhs</span></span>  
+    <span data-ttu-id="0bfa8-113">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span><span class="sxs-lookup"><span data-stu-id="0bfa8-113">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span></span>  
     
-    <span data-ttu-id="3bd81-114">要比較的第二個 commitid。</span><span class="sxs-lookup"><span data-stu-id="3bd81-114">The second commitid to compare.</span></span>
+    <span data-ttu-id="0bfa8-114">要比較的第二個 commitid。</span><span class="sxs-lookup"><span data-stu-id="0bfa8-114">The second commitid to compare.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="3bd81-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="3bd81-115">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="0bfa8-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="0bfa8-115">Return value</span></span>
 
-<span data-ttu-id="3bd81-116">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="3bd81-116">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
-<span data-ttu-id="3bd81-117">如果 lhs 在 rhs 之後，則為 True。</span><span class="sxs-lookup"><span data-stu-id="3bd81-117">True if lhs comes after rhs.</span></span>  
+<span data-ttu-id="0bfa8-116">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="0bfa8-116">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
+<span data-ttu-id="0bfa8-117">如果 lhs 在 rhs 之後，則為 True。</span><span class="sxs-lookup"><span data-stu-id="0bfa8-117">True if lhs comes after rhs.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="3bd81-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3bd81-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0bfa8-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0bfa8-118">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="3bd81-119">參考</span><span class="sxs-lookup"><span data-stu-id="3bd81-119">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="0bfa8-119">參考</span><span class="sxs-lookup"><span data-stu-id="0bfa8-119">Reference</span></span>
 
-[<span data-ttu-id="3bd81-120">JET_COMMIT_ID 類別</span><span class="sxs-lookup"><span data-stu-id="3bd81-120">JET_COMMIT_ID class</span></span>](./jet-commit-id-class.md)
+[<span data-ttu-id="0bfa8-120">JET_COMMIT_ID 類別</span><span class="sxs-lookup"><span data-stu-id="0bfa8-120">JET_COMMIT_ID class</span></span>](./jet-commit-id-class.md)
 
-[<span data-ttu-id="3bd81-121">JET_COMMIT_ID 成員</span><span class="sxs-lookup"><span data-stu-id="3bd81-121">JET_COMMIT_ID members</span></span>](./jet-commit-id-members.md)
+[<span data-ttu-id="0bfa8-121">JET_COMMIT_ID 成員</span><span class="sxs-lookup"><span data-stu-id="0bfa8-121">JET_COMMIT_ID members</span></span>](./jet-commit-id-members.md)
 
-[<span data-ttu-id="3bd81-122">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="3bd81-122">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="0bfa8-122">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="0bfa8-122">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

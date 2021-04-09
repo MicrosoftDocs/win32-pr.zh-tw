@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103846399"
 ---
-# <a name="span-idvspixengineicallstackcallback_resultcallback_dword_callstackframe_arrspanicallstackcallbackresultcallback-method"></a><span data-ttu-id="5c2c9-103"><span id="vspixengine.icallstackcallback_resultcallback_dword_callstackframe_arr"></span>ICallStackCallback：： ResultCallback 方法</span><span class="sxs-lookup"><span data-stu-id="5c2c9-103"><span id="vspixengine.icallstackcallback_resultcallback_dword_callstackframe_arr"></span>ICallStackCallback::ResultCallback method</span></span>
+# <a name="span-idvspixengineicallstackcallback_resultcallback_dword_callstackframe_arrspanicallstackcallbackresultcallback-method"></a><span data-ttu-id="b22c3-103"><span id="vspixengine.icallstackcallback_resultcallback_dword_callstackframe_arr"></span>ICallStackCallback：： ResultCallback 方法</span><span class="sxs-lookup"><span data-stu-id="b22c3-103"><span id="vspixengine.icallstackcallback_resultcallback_dword_callstackframe_arr"></span>ICallStackCallback::ResultCallback method</span></span>
 
-<span data-ttu-id="5c2c9-104">用來通知主機呼叫堆疊資訊的回呼函數。</span><span class="sxs-lookup"><span data-stu-id="5c2c9-104">A callback function used to notify the host of call stack information.</span></span>
+<span data-ttu-id="b22c3-104">用來通知主機呼叫堆疊資訊的回呼函數。</span><span class="sxs-lookup"><span data-stu-id="b22c3-104">A callback function used to notify the host of call stack information.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5c2c9-105">語法</span><span class="sxs-lookup"><span data-stu-id="5c2c9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b22c3-105">語法</span><span class="sxs-lookup"><span data-stu-id="b22c3-105">Syntax</span></span>
 
 
 ```C++
@@ -38,25 +38,25 @@ HRESULT ResultCallback(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="5c2c9-106">參數</span><span class="sxs-lookup"><span data-stu-id="5c2c9-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b22c3-106">參數</span><span class="sxs-lookup"><span data-stu-id="b22c3-106">Parameters</span></span>
 
-<span data-ttu-id="5c2c9-107">*計數* </span><span class="sxs-lookup"><span data-stu-id="5c2c9-107">*count* </span></span>  
-<span data-ttu-id="5c2c9-108">傳回的 framebuffers 呼叫堆疊數目。</span><span class="sxs-lookup"><span data-stu-id="5c2c9-108">The number of callstack framebuffers returned.</span></span>
+<span data-ttu-id="b22c3-107">*計數* </span><span class="sxs-lookup"><span data-stu-id="b22c3-107">*count* </span></span>  
+<span data-ttu-id="b22c3-108">傳回的 framebuffers 呼叫堆疊數目。</span><span class="sxs-lookup"><span data-stu-id="b22c3-108">The number of callstack framebuffers returned.</span></span>
 
-<span data-ttu-id="5c2c9-109">*count0 \_ callStackFrameBuffer* </span><span class="sxs-lookup"><span data-stu-id="5c2c9-109">*count0\_callStackFrameBuffer* </span></span>  
-<span data-ttu-id="5c2c9-110">呼叫堆疊資訊。</span><span class="sxs-lookup"><span data-stu-id="5c2c9-110">The callstack information.</span></span>
+<span data-ttu-id="b22c3-109">*count0 \_ callStackFrameBuffer* </span><span class="sxs-lookup"><span data-stu-id="b22c3-109">*count0\_callStackFrameBuffer* </span></span>  
+<span data-ttu-id="b22c3-110">呼叫堆疊資訊。</span><span class="sxs-lookup"><span data-stu-id="b22c3-110">The callstack information.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="5c2c9-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="5c2c9-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b22c3-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="b22c3-111">Return value</span></span>
 
-<span data-ttu-id="5c2c9-112">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="5c2c9-112">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="5c2c9-113">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="5c2c9-113">Otherwise, it returns an **HRESULT** error code.</span></span>
+<span data-ttu-id="b22c3-112">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="b22c3-112">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="b22c3-113">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="b22c3-113">Otherwise, it returns an **HRESULT** error code.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="5c2c9-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="5c2c9-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b22c3-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="b22c3-114">Requirements</span></span>
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="5c2c9-115">標頭</span><span class="sxs-lookup"><span data-stu-id="5c2c9-115">Header</span></span></p></td><td><span data-ttu-id="5c2c9-116">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="5c2c9-116">Vspixengine.h</span></span></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="b22c3-115">標頭</span><span class="sxs-lookup"><span data-stu-id="b22c3-115">Header</span></span></p></td><td><span data-ttu-id="b22c3-116">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="b22c3-116">Vspixengine.h</span></span></td></tr></tbody></table>
 
-## <a name="span-idsee_alsospansee-also"></a><span data-ttu-id="5c2c9-117"><span id="see_also"></span>另請參閱</span><span class="sxs-lookup"><span data-stu-id="5c2c9-117"><span id="see_also"></span>See also</span></span>
+## <a name="span-idsee_alsospansee-also"></a><span data-ttu-id="b22c3-117"><span id="see_also"></span>另請參閱</span><span class="sxs-lookup"><span data-stu-id="b22c3-117"><span id="see_also"></span>See also</span></span>
 
-[<span data-ttu-id="5c2c9-118">**ICallStackCallback**</span><span class="sxs-lookup"><span data-stu-id="5c2c9-118">**ICallStackCallback**</span></span>](/windows/desktop/direct3dtools/icallstackcallback)
+[<span data-ttu-id="b22c3-118">**ICallStackCallback**</span><span class="sxs-lookup"><span data-stu-id="b22c3-118">**ICallStackCallback**</span></span>](/windows/desktop/direct3dtools/icallstackcallback)
 
  
 

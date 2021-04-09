@@ -16,17 +16,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "104024099"
 ---
-# <a name="eapconnectionpropertiesv1-schema"></a><span data-ttu-id="d9923-104">eapconnectionpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="d9923-104">eapconnectionpropertiesv1 Schema</span></span>
+# <a name="eapconnectionpropertiesv1-schema"></a><span data-ttu-id="23440-104">eapconnectionpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="23440-104">eapconnectionpropertiesv1 Schema</span></span>
 
-<span data-ttu-id="d9923-105">Eapconnectionpropertiesv1 架構會定義通用設定架構元素。</span><span class="sxs-lookup"><span data-stu-id="d9923-105">The eapconnectionpropertiesv1 schema defines common configuration schema elements.</span></span>
+<span data-ttu-id="23440-105">Eapconnectionpropertiesv1 架構會定義通用設定架構元素。</span><span class="sxs-lookup"><span data-stu-id="23440-105">The eapconnectionpropertiesv1 schema defines common configuration schema elements.</span></span>
 
--   [<span data-ttu-id="d9923-106">eapconnectionpropertiesv1 架構元素</span><span class="sxs-lookup"><span data-stu-id="d9923-106">eapconnectionpropertiesv1 Schema Elements</span></span>](eapconnectionpropertiesv1schema-elements.md)
+-   [<span data-ttu-id="23440-106">eapconnectionpropertiesv1 架構元素</span><span class="sxs-lookup"><span data-stu-id="23440-106">eapconnectionpropertiesv1 Schema Elements</span></span>](eapconnectionpropertiesv1schema-elements.md)
 
-## <a name="related-topics"></a><span data-ttu-id="d9923-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="d9923-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="23440-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="23440-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d9923-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="d9923-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="23440-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="23440-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> </dl>
 
  

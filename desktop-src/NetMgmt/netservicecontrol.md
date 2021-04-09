@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682439"
 ---
-# <a name="netservicecontrol"></a><span data-ttu-id="21bb4-106">NetServiceControl</span><span class="sxs-lookup"><span data-stu-id="21bb4-106">NetServiceControl</span></span>
+# <a name="netservicecontrol"></a><span data-ttu-id="d3876-106">NetServiceControl</span><span class="sxs-lookup"><span data-stu-id="d3876-106">NetServiceControl</span></span>
 
-<span data-ttu-id="21bb4-107">**NetServiceControl** 函式已過時。</span><span class="sxs-lookup"><span data-stu-id="21bb4-107">The **NetServiceControl** function is obsolete.</span></span> <span data-ttu-id="21bb4-108">它隨附于與16位版本的 Windows 的相容性。</span><span class="sxs-lookup"><span data-stu-id="21bb4-108">It is included for compatibility with 16-bit versions of Windows.</span></span> <span data-ttu-id="21bb4-109">其他應用程式應該使用 [服務功能](/windows/desktop/Services/service-functions)。</span><span class="sxs-lookup"><span data-stu-id="21bb4-109">Other applications should use the [service functions](/windows/desktop/Services/service-functions).</span></span>
+<span data-ttu-id="d3876-107">**NetServiceControl** 函式已過時。</span><span class="sxs-lookup"><span data-stu-id="d3876-107">The **NetServiceControl** function is obsolete.</span></span> <span data-ttu-id="d3876-108">它隨附于與16位版本的 Windows 的相容性。</span><span class="sxs-lookup"><span data-stu-id="d3876-108">It is included for compatibility with 16-bit versions of Windows.</span></span> <span data-ttu-id="d3876-109">其他應用程式應該使用 [服務功能](/windows/desktop/Services/service-functions)。</span><span class="sxs-lookup"><span data-stu-id="d3876-109">Other applications should use the [service functions](/windows/desktop/Services/service-functions).</span></span>
 
  
 
