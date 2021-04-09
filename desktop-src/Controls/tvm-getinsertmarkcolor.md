@@ -21,41 +21,41 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103935003"
 ---
-# <a name="tvm_getinsertmarkcolor-message"></a><span data-ttu-id="93398-105">TVM \_ GETINSERTMARKCOLOR 訊息</span><span class="sxs-lookup"><span data-stu-id="93398-105">TVM\_GETINSERTMARKCOLOR message</span></span>
+# <a name="tvm_getinsertmarkcolor-message"></a><span data-ttu-id="b3ff0-105">TVM \_ GETINSERTMARKCOLOR 訊息</span><span class="sxs-lookup"><span data-stu-id="b3ff0-105">TVM\_GETINSERTMARKCOLOR message</span></span>
 
-<span data-ttu-id="93398-106">抓取用來繪製樹狀檢視之插入標記的色彩。</span><span class="sxs-lookup"><span data-stu-id="93398-106">Retrieves the color used to draw the insertion mark for the tree view.</span></span> <span data-ttu-id="93398-107">您可以使用 [**TreeView \_ GetInsertMarkColor**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getinsertmarkcolor) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="93398-107">You can send this message explicitly or by using the [**TreeView\_GetInsertMarkColor**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getinsertmarkcolor) macro.</span></span>
+<span data-ttu-id="b3ff0-106">抓取用來繪製樹狀檢視之插入標記的色彩。</span><span class="sxs-lookup"><span data-stu-id="b3ff0-106">Retrieves the color used to draw the insertion mark for the tree view.</span></span> <span data-ttu-id="b3ff0-107">您可以使用 [**TreeView \_ GetInsertMarkColor**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getinsertmarkcolor) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="b3ff0-107">You can send this message explicitly or by using the [**TreeView\_GetInsertMarkColor**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getinsertmarkcolor) macro.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="93398-108">參數</span><span class="sxs-lookup"><span data-stu-id="93398-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b3ff0-108">參數</span><span class="sxs-lookup"><span data-stu-id="b3ff0-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="93398-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="93398-109">*wParam*</span></span> 
-</dt> <dd><span data-ttu-id="93398-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="93398-110">Must be zero.</span></span></dd> <dt>
+<span data-ttu-id="b3ff0-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="b3ff0-109">*wParam*</span></span> 
+</dt> <dd><span data-ttu-id="b3ff0-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="b3ff0-110">Must be zero.</span></span></dd> <dt>
 
-<span data-ttu-id="93398-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="93398-111">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="93398-112">必須為零。</span><span class="sxs-lookup"><span data-stu-id="93398-112">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="b3ff0-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="b3ff0-111">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="b3ff0-112">必須為零。</span><span class="sxs-lookup"><span data-stu-id="b3ff0-112">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="93398-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="93398-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b3ff0-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="b3ff0-113">Return value</span></span>
 
-<span data-ttu-id="93398-114">傳回包含目前插入標記色彩的 [**COLORREF**](/windows/desktop/gdi/colorref) 值。</span><span class="sxs-lookup"><span data-stu-id="93398-114">Returns a [**COLORREF**](/windows/desktop/gdi/colorref) value that contains the current insertion mark color.</span></span>
+<span data-ttu-id="b3ff0-114">傳回包含目前插入標記色彩的 [**COLORREF**](/windows/desktop/gdi/colorref) 值。</span><span class="sxs-lookup"><span data-stu-id="b3ff0-114">Returns a [**COLORREF**](/windows/desktop/gdi/colorref) value that contains the current insertion mark color.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="93398-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="93398-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b3ff0-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="b3ff0-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="93398-116">需求</span><span class="sxs-lookup"><span data-stu-id="93398-116">Requirement</span></span> | <span data-ttu-id="93398-117">值</span><span class="sxs-lookup"><span data-stu-id="93398-117">Value</span></span> |
+| <span data-ttu-id="b3ff0-116">需求</span><span class="sxs-lookup"><span data-stu-id="b3ff0-116">Requirement</span></span> | <span data-ttu-id="b3ff0-117">值</span><span class="sxs-lookup"><span data-stu-id="b3ff0-117">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="93398-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="93398-118">Minimum supported client</span></span><br/> | <span data-ttu-id="93398-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="93398-119">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="93398-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="93398-120">Minimum supported server</span></span><br/> | <span data-ttu-id="93398-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="93398-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="93398-122">標頭</span><span class="sxs-lookup"><span data-stu-id="93398-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="93398-123"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="93398-123"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="b3ff0-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b3ff0-118">Minimum supported client</span></span><br/> | <span data-ttu-id="b3ff0-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b3ff0-119">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="b3ff0-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b3ff0-120">Minimum supported server</span></span><br/> | <span data-ttu-id="b3ff0-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b3ff0-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="b3ff0-122">標頭</span><span class="sxs-lookup"><span data-stu-id="b3ff0-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="b3ff0-123"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="b3ff0-123"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="93398-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="93398-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3ff0-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b3ff0-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="93398-125">**TVM \_ SETINSERTMARKCOLOR**</span><span class="sxs-lookup"><span data-stu-id="93398-125">**TVM\_SETINSERTMARKCOLOR**</span></span>](tvm-setinsertmarkcolor.md)
+[<span data-ttu-id="b3ff0-125">**TVM \_ SETINSERTMARKCOLOR**</span><span class="sxs-lookup"><span data-stu-id="b3ff0-125">**TVM\_SETINSERTMARKCOLOR**</span></span>](tvm-setinsertmarkcolor.md)
 </dt> </dl>
 
  
