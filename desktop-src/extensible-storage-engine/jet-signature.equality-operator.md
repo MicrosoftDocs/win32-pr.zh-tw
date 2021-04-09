@@ -32,14 +32,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690911"
 ---
-# <a name="jet_signatureequality-operator"></a><span data-ttu-id="ea69d-103">JET_SIGNATURE。等號比較運算子</span><span class="sxs-lookup"><span data-stu-id="ea69d-103">JET_SIGNATURE.Equality operator</span></span>
+# <a name="jet_signatureequality-operator"></a><span data-ttu-id="87860-103">JET_SIGNATURE。等號比較運算子</span><span class="sxs-lookup"><span data-stu-id="87860-103">JET_SIGNATURE.Equality operator</span></span>
 
-<span data-ttu-id="ea69d-104">判斷 JET_SIGNATURE 的兩個指定實例是否相等。</span><span class="sxs-lookup"><span data-stu-id="ea69d-104">Determines whether two specified instances of JET_SIGNATURE are equal.</span></span>
+<span data-ttu-id="87860-104">判斷 JET_SIGNATURE 的兩個指定實例是否相等。</span><span class="sxs-lookup"><span data-stu-id="87860-104">Determines whether two specified instances of JET_SIGNATURE are equal.</span></span>
 
-<span data-ttu-id="ea69d-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="ea69d-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="ea69d-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="ea69d-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="87860-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="87860-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="87860-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="87860-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ea69d-107">語法</span><span class="sxs-lookup"><span data-stu-id="ea69d-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="87860-107">語法</span><span class="sxs-lookup"><span data-stu-id="87860-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -62,31 +62,31 @@ public static bool operator ==(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="ea69d-108">參數</span><span class="sxs-lookup"><span data-stu-id="ea69d-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="87860-108">參數</span><span class="sxs-lookup"><span data-stu-id="87860-108">Parameters</span></span>
 
-  - <span data-ttu-id="ea69d-109">lhs</span><span class="sxs-lookup"><span data-stu-id="ea69d-109">lhs</span></span>  
-    <span data-ttu-id="ea69d-110">類型： [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](./jet-signature-structure2.md)</span><span class="sxs-lookup"><span data-stu-id="ea69d-110">Type: [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](./jet-signature-structure2.md)</span></span>  
+  - <span data-ttu-id="87860-109">lhs</span><span class="sxs-lookup"><span data-stu-id="87860-109">lhs</span></span>  
+    <span data-ttu-id="87860-110">類型： [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](./jet-signature-structure2.md)</span><span class="sxs-lookup"><span data-stu-id="87860-110">Type: [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](./jet-signature-structure2.md)</span></span>  
     
-    <span data-ttu-id="ea69d-111">要比較的第一個執行個體。</span><span class="sxs-lookup"><span data-stu-id="ea69d-111">The first instance to compare.</span></span>
+    <span data-ttu-id="87860-111">要比較的第一個執行個體。</span><span class="sxs-lookup"><span data-stu-id="87860-111">The first instance to compare.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="ea69d-112">rhs</span><span class="sxs-lookup"><span data-stu-id="ea69d-112">rhs</span></span>  
-    <span data-ttu-id="ea69d-113">類型： [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](./jet-signature-structure2.md)</span><span class="sxs-lookup"><span data-stu-id="ea69d-113">Type: [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](./jet-signature-structure2.md)</span></span>  
+  - <span data-ttu-id="87860-112">rhs</span><span class="sxs-lookup"><span data-stu-id="87860-112">rhs</span></span>  
+    <span data-ttu-id="87860-113">類型： [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](./jet-signature-structure2.md)</span><span class="sxs-lookup"><span data-stu-id="87860-113">Type: [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](./jet-signature-structure2.md)</span></span>  
     
-    <span data-ttu-id="ea69d-114">要比較的第二個執行個體。</span><span class="sxs-lookup"><span data-stu-id="ea69d-114">The second instance to compare.</span></span>
+    <span data-ttu-id="87860-114">要比較的第二個執行個體。</span><span class="sxs-lookup"><span data-stu-id="87860-114">The second instance to compare.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="ea69d-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="ea69d-115">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="87860-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="87860-115">Return value</span></span>
 
-<span data-ttu-id="ea69d-116">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="ea69d-116">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
-<span data-ttu-id="ea69d-117">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="ea69d-117">True if the two instances are equal.</span></span>  
+<span data-ttu-id="87860-116">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="87860-116">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
+<span data-ttu-id="87860-117">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="87860-117">True if the two instances are equal.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="ea69d-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ea69d-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="87860-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="87860-118">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="ea69d-119">參考</span><span class="sxs-lookup"><span data-stu-id="ea69d-119">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="87860-119">參考</span><span class="sxs-lookup"><span data-stu-id="87860-119">Reference</span></span>
 
-[<span data-ttu-id="ea69d-120">JET_SIGNATURE 結構</span><span class="sxs-lookup"><span data-stu-id="ea69d-120">JET_SIGNATURE structure</span></span>](./jet-signature-structure2.md)
+[<span data-ttu-id="87860-120">JET_SIGNATURE 結構</span><span class="sxs-lookup"><span data-stu-id="87860-120">JET_SIGNATURE structure</span></span>](./jet-signature-structure2.md)
 
-[<span data-ttu-id="ea69d-121">JET_SIGNATURE 成員</span><span class="sxs-lookup"><span data-stu-id="ea69d-121">JET_SIGNATURE members</span></span>](./jet-signature-members.md)
+[<span data-ttu-id="87860-121">JET_SIGNATURE 成員</span><span class="sxs-lookup"><span data-stu-id="87860-121">JET_SIGNATURE members</span></span>](./jet-signature-members.md)
 
-[<span data-ttu-id="ea69d-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ea69d-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="87860-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="87860-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

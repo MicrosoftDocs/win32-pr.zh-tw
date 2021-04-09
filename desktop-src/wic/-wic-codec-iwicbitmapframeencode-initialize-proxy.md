@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690287"
 ---
-# <a name="iwicbitmapframeencode_initialize_proxy-function"></a><span data-ttu-id="e5832-103">IWICBitmapFrameEncode \_ Initialize \_ Proxy 函式</span><span class="sxs-lookup"><span data-stu-id="e5832-103">IWICBitmapFrameEncode\_Initialize\_Proxy function</span></span>
+# <a name="iwicbitmapframeencode_initialize_proxy-function"></a><span data-ttu-id="e5227-103">IWICBitmapFrameEncode \_ Initialize \_ Proxy 函式</span><span class="sxs-lookup"><span data-stu-id="e5227-103">IWICBitmapFrameEncode\_Initialize\_Proxy function</span></span>
 
-<span data-ttu-id="e5832-104">[**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize)方法的 Proxy 函式。</span><span class="sxs-lookup"><span data-stu-id="e5832-104">Proxy function for the [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize) method.</span></span>
+<span data-ttu-id="e5227-104">[**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize)方法的 Proxy 函式。</span><span class="sxs-lookup"><span data-stu-id="e5227-104">Proxy function for the [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize) method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e5832-105">語法</span><span class="sxs-lookup"><span data-stu-id="e5832-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e5227-105">語法</span><span class="sxs-lookup"><span data-stu-id="e5227-105">Syntax</span></span>
 
 
 ```C++
@@ -37,45 +37,45 @@ HRESULT IWICBitmapFrameEncode_Initialize_Proxy(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="e5832-106">參數</span><span class="sxs-lookup"><span data-stu-id="e5832-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e5227-106">參數</span><span class="sxs-lookup"><span data-stu-id="e5227-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="e5832-107">*這 \_* \[ 中的 PTR\]</span><span class="sxs-lookup"><span data-stu-id="e5832-107">*THIS\_PTR* \[in\]</span></span>
+<span data-ttu-id="e5227-107">*這 \_* \[ 中的 PTR\]</span><span class="sxs-lookup"><span data-stu-id="e5227-107">*THIS\_PTR* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e5832-108">類型： \**[**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) \** _</span><span class="sxs-lookup"><span data-stu-id="e5832-108">Type: \**[**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)\** _</span></span>
+<span data-ttu-id="e5227-108">類型： \**[**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) \** _</span><span class="sxs-lookup"><span data-stu-id="e5227-108">Type: \**[**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)\** _</span></span>
 
-<span data-ttu-id="e5832-109">這個 [_ *IWICBitmapFrameEncode* \*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)物件的指標。</span><span class="sxs-lookup"><span data-stu-id="e5832-109">Pointer to this [_ *IWICBitmapFrameEncode*\*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) object.</span></span>
+<span data-ttu-id="e5227-109">這個 [_ *IWICBitmapFrameEncode* \*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)物件的指標。</span><span class="sxs-lookup"><span data-stu-id="e5227-109">Pointer to this [_ *IWICBitmapFrameEncode*\*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) object.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e5832-110">*pIEncoderOptions* \[在\]</span><span class="sxs-lookup"><span data-stu-id="e5832-110">*pIEncoderOptions* \[in\]</span></span>
+<span data-ttu-id="e5227-110">*pIEncoderOptions* \[在\]</span><span class="sxs-lookup"><span data-stu-id="e5227-110">*pIEncoderOptions* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e5832-111">類型： \**[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) \** _</span><span class="sxs-lookup"><span data-stu-id="e5832-111">Type: \**[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85))\** _</span></span>
+<span data-ttu-id="e5227-111">類型： \**[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) \** _</span><span class="sxs-lookup"><span data-stu-id="e5227-111">Type: \**[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85))\** _</span></span>
 
-<span data-ttu-id="e5832-112">要用於 [_ *IWICBitmapFrameEncode* \*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)初始化的屬性集。</span><span class="sxs-lookup"><span data-stu-id="e5832-112">The set of properties to use for [_ *IWICBitmapFrameEncode*\*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) initialization.</span></span>
+<span data-ttu-id="e5227-112">要用於 [_ *IWICBitmapFrameEncode* \*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)初始化的屬性集。</span><span class="sxs-lookup"><span data-stu-id="e5227-112">The set of properties to use for [_ *IWICBitmapFrameEncode*\*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) initialization.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="e5832-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="e5832-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e5227-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="e5227-113">Return value</span></span>
 
-<span data-ttu-id="e5832-114">類型： **HRESULT**</span><span class="sxs-lookup"><span data-stu-id="e5832-114">Type: **HRESULT**</span></span>
+<span data-ttu-id="e5227-114">類型： **HRESULT**</span><span class="sxs-lookup"><span data-stu-id="e5227-114">Type: **HRESULT**</span></span>
 
-<span data-ttu-id="e5832-115">如果此函式成功，則會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="e5832-115">If this function succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="e5832-116">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="e5832-116">Otherwise, it returns an **HRESULT** error code.</span></span>
+<span data-ttu-id="e5227-115">如果此函式成功，則會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="e5227-115">If this function succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="e5227-116">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="e5227-116">Otherwise, it returns an **HRESULT** error code.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e5832-117">備註</span><span class="sxs-lookup"><span data-stu-id="e5832-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e5227-117">備註</span><span class="sxs-lookup"><span data-stu-id="e5227-117">Remarks</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="e5832-118">需求</span><span class="sxs-lookup"><span data-stu-id="e5832-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e5227-118">需求</span><span class="sxs-lookup"><span data-stu-id="e5227-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="e5832-119">需求</span><span class="sxs-lookup"><span data-stu-id="e5832-119">Requirement</span></span> | <span data-ttu-id="e5832-120">值</span><span class="sxs-lookup"><span data-stu-id="e5832-120">Value</span></span> |
+| <span data-ttu-id="e5227-119">需求</span><span class="sxs-lookup"><span data-stu-id="e5227-119">Requirement</span></span> | <span data-ttu-id="e5227-120">值</span><span class="sxs-lookup"><span data-stu-id="e5227-120">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="e5832-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e5832-121">Minimum supported client</span></span><br/> | <span data-ttu-id="e5832-122">Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e5832-122">Windows XP with SP2, Windows Vista \[desktop apps only\]</span></span><br/>                                                                                              |
-| <span data-ttu-id="e5832-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e5832-123">Minimum supported server</span></span><br/> | <span data-ttu-id="e5832-124">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e5832-124">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                                                                             |
-| <span data-ttu-id="e5832-125">DLL</span><span class="sxs-lookup"><span data-stu-id="e5832-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="e5832-126"><dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt></span><span class="sxs-lookup"><span data-stu-id="e5832-126"><dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt></span></span> </dl> |
+| <span data-ttu-id="e5227-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e5227-121">Minimum supported client</span></span><br/> | <span data-ttu-id="e5227-122">Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e5227-122">Windows XP with SP2, Windows Vista \[desktop apps only\]</span></span><br/>                                                                                              |
+| <span data-ttu-id="e5227-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e5227-123">Minimum supported server</span></span><br/> | <span data-ttu-id="e5227-124">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e5227-124">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                                                                             |
+| <span data-ttu-id="e5227-125">DLL</span><span class="sxs-lookup"><span data-stu-id="e5227-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="e5227-126"><dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt></span><span class="sxs-lookup"><span data-stu-id="e5227-126"><dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt></span></span> </dl> |
 
 
 

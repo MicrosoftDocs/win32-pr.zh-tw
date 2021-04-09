@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690923"
 ---
-# <a name="jet_retinfocontentequals-method"></a><span data-ttu-id="6b0a3-103">JET_RETINFO。ContentEquals 方法</span><span class="sxs-lookup"><span data-stu-id="6b0a3-103">JET_RETINFO.ContentEquals method</span></span>
+# <a name="jet_retinfocontentequals-method"></a><span data-ttu-id="382ef-103">JET_RETINFO。ContentEquals 方法</span><span class="sxs-lookup"><span data-stu-id="382ef-103">JET_RETINFO.ContentEquals method</span></span>
 
-<span data-ttu-id="6b0a3-104">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="6b0a3-104">Returns a value indicating whether this instance is equal to another instance.</span></span>
+<span data-ttu-id="382ef-104">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="382ef-104">Returns a value indicating whether this instance is equal to another instance.</span></span>
 
-<span data-ttu-id="6b0a3-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6b0a3-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="6b0a3-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6b0a3-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="382ef-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="382ef-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="382ef-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="382ef-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6b0a3-107">語法</span><span class="sxs-lookup"><span data-stu-id="6b0a3-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="382ef-107">語法</span><span class="sxs-lookup"><span data-stu-id="382ef-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -59,28 +59,28 @@ public bool ContentEquals(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="6b0a3-108">參數</span><span class="sxs-lookup"><span data-stu-id="6b0a3-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="382ef-108">參數</span><span class="sxs-lookup"><span data-stu-id="382ef-108">Parameters</span></span>
 
-  - <span data-ttu-id="6b0a3-109">其他</span><span class="sxs-lookup"><span data-stu-id="6b0a3-109">other</span></span>  
-    <span data-ttu-id="6b0a3-110">類型： [Microsoft.Isam.Esent.Interop.JET_RETINFO](./jet-retinfo-class.md)</span><span class="sxs-lookup"><span data-stu-id="6b0a3-110">Type: [Microsoft.Isam.Esent.Interop.JET_RETINFO](./jet-retinfo-class.md)</span></span>  
+  - <span data-ttu-id="382ef-109">其他</span><span class="sxs-lookup"><span data-stu-id="382ef-109">other</span></span>  
+    <span data-ttu-id="382ef-110">類型： [Microsoft.Isam.Esent.Interop.JET_RETINFO](./jet-retinfo-class.md)</span><span class="sxs-lookup"><span data-stu-id="382ef-110">Type: [Microsoft.Isam.Esent.Interop.JET_RETINFO](./jet-retinfo-class.md)</span></span>  
     
-    <span data-ttu-id="6b0a3-111">要與這個實例比較的實例。</span><span class="sxs-lookup"><span data-stu-id="6b0a3-111">An instance to compare with this instance.</span></span>
+    <span data-ttu-id="382ef-111">要與這個實例比較的實例。</span><span class="sxs-lookup"><span data-stu-id="382ef-111">An instance to compare with this instance.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="6b0a3-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="6b0a3-112">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="382ef-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="382ef-112">Return value</span></span>
 
-<span data-ttu-id="6b0a3-113">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="6b0a3-113">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
-<span data-ttu-id="6b0a3-114">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="6b0a3-114">True if the two instances are equal.</span></span>  
+<span data-ttu-id="382ef-113">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="382ef-113">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
+<span data-ttu-id="382ef-114">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="382ef-114">True if the two instances are equal.</span></span>  
 
-#### <a name="implements"></a><span data-ttu-id="6b0a3-115">實作</span><span class="sxs-lookup"><span data-stu-id="6b0a3-115">Implements</span></span>
+#### <a name="implements"></a><span data-ttu-id="382ef-115">實作</span><span class="sxs-lookup"><span data-stu-id="382ef-115">Implements</span></span>
 
-[<span data-ttu-id="6b0a3-116">IContentEquatable \<T\> 。ContentEquals (T) </span><span class="sxs-lookup"><span data-stu-id="6b0a3-116">IContentEquatable\<T\>.ContentEquals(T)</span></span>](./icontentequatable-t-.contentequals-method.md)  
+[<span data-ttu-id="382ef-116">IContentEquatable \<T\> 。ContentEquals (T) </span><span class="sxs-lookup"><span data-stu-id="382ef-116">IContentEquatable\<T\>.ContentEquals(T)</span></span>](./icontentequatable-t-.contentequals-method.md)  
 
-## <a name="see-also"></a><span data-ttu-id="6b0a3-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6b0a3-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="382ef-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="382ef-117">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="6b0a3-118">參考</span><span class="sxs-lookup"><span data-stu-id="6b0a3-118">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="382ef-118">參考</span><span class="sxs-lookup"><span data-stu-id="382ef-118">Reference</span></span>
 
-[<span data-ttu-id="6b0a3-119">JET_RETINFO 類別</span><span class="sxs-lookup"><span data-stu-id="6b0a3-119">JET_RETINFO class</span></span>](./jet-retinfo-class.md)
+[<span data-ttu-id="382ef-119">JET_RETINFO 類別</span><span class="sxs-lookup"><span data-stu-id="382ef-119">JET_RETINFO class</span></span>](./jet-retinfo-class.md)
 
-[<span data-ttu-id="6b0a3-120">JET_RETINFO 成員</span><span class="sxs-lookup"><span data-stu-id="6b0a3-120">JET_RETINFO members</span></span>](./jet-retinfo-members.md)
+[<span data-ttu-id="382ef-120">JET_RETINFO 成員</span><span class="sxs-lookup"><span data-stu-id="382ef-120">JET_RETINFO members</span></span>](./jet-retinfo-members.md)
 
-[<span data-ttu-id="6b0a3-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="6b0a3-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="382ef-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="382ef-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690727"
 ---
-# <a name="idownloadresult-methods"></a><span data-ttu-id="352d7-103">IDownloadResult 方法</span><span class="sxs-lookup"><span data-stu-id="352d7-103">IDownloadResult Methods</span></span>
+# <a name="idownloadresult-methods"></a><span data-ttu-id="cbf58-103">IDownloadResult 方法</span><span class="sxs-lookup"><span data-stu-id="cbf58-103">IDownloadResult Methods</span></span>
 
-<span data-ttu-id="352d7-104">[**IDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadresult)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="352d7-104">The [**IDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadresult) interface defines the following method.</span></span>
+<span data-ttu-id="cbf58-104">[**IDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadresult)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="cbf58-104">The [**IDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadresult) interface defines the following method.</span></span>
 
 
 
-| <span data-ttu-id="352d7-105">方法</span><span class="sxs-lookup"><span data-stu-id="352d7-105">Method</span></span>                                                     | <span data-ttu-id="352d7-106">描述</span><span class="sxs-lookup"><span data-stu-id="352d7-106">Description</span></span>                                                                                                                              |
+| <span data-ttu-id="cbf58-105">方法</span><span class="sxs-lookup"><span data-stu-id="cbf58-105">Method</span></span>                                                     | <span data-ttu-id="cbf58-106">描述</span><span class="sxs-lookup"><span data-stu-id="cbf58-106">Description</span></span>                                                                                                                              |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="352d7-107">**GetUpdateResult**</span><span class="sxs-lookup"><span data-stu-id="352d7-107">**GetUpdateResult**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-getupdateresult) | <span data-ttu-id="352d7-108">傳回 [**IUpdateDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadresult) 介面，其中包含指定之更新的下載資訊。</span><span class="sxs-lookup"><span data-stu-id="352d7-108">Returns an [**IUpdateDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadresult) interface that contains download information for the specified update.</span></span> |
+| [<span data-ttu-id="cbf58-107">**GetUpdateResult**</span><span class="sxs-lookup"><span data-stu-id="cbf58-107">**GetUpdateResult**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-getupdateresult) | <span data-ttu-id="cbf58-108">傳回 [**IUpdateDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadresult) 介面，其中包含指定之更新的下載資訊。</span><span class="sxs-lookup"><span data-stu-id="cbf58-108">Returns an [**IUpdateDownloadResult**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadresult) interface that contains download information for the specified update.</span></span> |
 
 
 
