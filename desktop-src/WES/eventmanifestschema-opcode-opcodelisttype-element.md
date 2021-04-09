@@ -1,0 +1,69 @@
+---
+title: opcode (OpcodeListType) 元素
+description: 包含識別活動的數值，或在應用程式引發事件 (（例如初始化或關閉) ）時所執行之活動內的某個點。
+ms.assetid: 8c5cfbd3-6a74-452c-a12f-41d663426e2c
+keywords:
+- opcode 元素 EventLog
+topic_type:
+- apiref
+api_name:
+- opcode
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: e9d02b77b4a36bac26d52d7bf8d849eab8731d27
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104106026"
+---
+# <a name="opcode-opcodelisttype-element"></a>opcode (OpcodeListType) 元素
+
+包含識別活動的數值，或在應用程式引發事件 (（例如初始化或關閉) ）時所執行之活動內的某個點。
+
+``` syntax
+<xs:element name="opcode"
+    type="OpcodeType"
+ />
+```
+
+**Opcode** 元素是由 [**OpcodeListType**](eventmanifestschema-opcodelisttype-complextype.md)複雜型別定義。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|------------------------------------------------------|
+| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+**父元素**
+</dt> <dt>
+
+[**TaskType)  (碼**](eventmanifestschema-opcodes-tasktype-element.md)
+</dt> <dt>
+
+[**ProviderType)  (碼**](eventmanifestschema-opcodes-providertype-element.md)
+</dt> <dt>
+
+[**MetadataType)  (碼**](eventmanifestschema-opcodes-metadatatype-element.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
