@@ -16,17 +16,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671220"
 ---
-# <a name="structures-in-active-directory-domain-services"></a><span data-ttu-id="a16d8-106">Active Directory Domain Services 中的結構</span><span class="sxs-lookup"><span data-stu-id="a16d8-106">Structures in Active Directory Domain Services</span></span>
+# <a name="structures-in-active-directory-domain-services"></a><span data-ttu-id="52997-106">Active Directory Domain Services 中的結構</span><span class="sxs-lookup"><span data-stu-id="52997-106">Structures in Active Directory Domain Services</span></span>
 
-<span data-ttu-id="a16d8-107">以下是 Active Directory Domain Services 中的結構類別：</span><span class="sxs-lookup"><span data-stu-id="a16d8-107">The following are categories of structures in Active Directory Domain Services:</span></span>
+<span data-ttu-id="52997-107">以下是 Active Directory Domain Services 中的結構類別：</span><span class="sxs-lookup"><span data-stu-id="52997-107">The following are categories of structures in Active Directory Domain Services:</span></span>
 
--   [<span data-ttu-id="a16d8-108">Active Directory Domain Services 中的管理結構</span><span class="sxs-lookup"><span data-stu-id="a16d8-108">Admin Structures in Active Directory Domain Services</span></span>](admin-structures-in-active-directory-domain-services.md)
--   [<span data-ttu-id="a16d8-109">在 Active Directory Domain Services 中顯示結構</span><span class="sxs-lookup"><span data-stu-id="a16d8-109">Display Structures in Active Directory Domain Services</span></span>](display-structures-in-active-directory-domain-services.md)
--   [<span data-ttu-id="a16d8-110">Active Directory Domain Services 中的 MMC 屬性頁面結構</span><span class="sxs-lookup"><span data-stu-id="a16d8-110">MMC Property Page Structures in Active Directory Domain Services</span></span>](mmc-property-page-structures-in-active-directory-domain-services.md)
--   [<span data-ttu-id="a16d8-111">網域控制站和複寫管理結構</span><span class="sxs-lookup"><span data-stu-id="a16d8-111">Domain Controller and Replication Management Structures</span></span>](domain-controller-and-replication-management-structures.md)
--   [<span data-ttu-id="a16d8-112">目錄服務結構</span><span class="sxs-lookup"><span data-stu-id="a16d8-112">Directory Service Structures</span></span>](directory-service-structures.md)
--   [<span data-ttu-id="a16d8-113">目錄備份結構</span><span class="sxs-lookup"><span data-stu-id="a16d8-113">Directory Backup Structures</span></span>](directory-backup-structures.md)
--   [<span data-ttu-id="a16d8-114">物件選擇器對話方塊結構</span><span class="sxs-lookup"><span data-stu-id="a16d8-114">Object Picker Dialog Box Structures</span></span>](object-picker-dialog-box-structures.md)
+-   [<span data-ttu-id="52997-108">Active Directory Domain Services 中的管理結構</span><span class="sxs-lookup"><span data-stu-id="52997-108">Admin Structures in Active Directory Domain Services</span></span>](admin-structures-in-active-directory-domain-services.md)
+-   [<span data-ttu-id="52997-109">在 Active Directory Domain Services 中顯示結構</span><span class="sxs-lookup"><span data-stu-id="52997-109">Display Structures in Active Directory Domain Services</span></span>](display-structures-in-active-directory-domain-services.md)
+-   [<span data-ttu-id="52997-110">Active Directory Domain Services 中的 MMC 屬性頁面結構</span><span class="sxs-lookup"><span data-stu-id="52997-110">MMC Property Page Structures in Active Directory Domain Services</span></span>](mmc-property-page-structures-in-active-directory-domain-services.md)
+-   [<span data-ttu-id="52997-111">網域控制站和複寫管理結構</span><span class="sxs-lookup"><span data-stu-id="52997-111">Domain Controller and Replication Management Structures</span></span>](domain-controller-and-replication-management-structures.md)
+-   [<span data-ttu-id="52997-112">目錄服務結構</span><span class="sxs-lookup"><span data-stu-id="52997-112">Directory Service Structures</span></span>](directory-service-structures.md)
+-   [<span data-ttu-id="52997-113">目錄備份結構</span><span class="sxs-lookup"><span data-stu-id="52997-113">Directory Backup Structures</span></span>](directory-backup-structures.md)
+-   [<span data-ttu-id="52997-114">物件選擇器對話方塊結構</span><span class="sxs-lookup"><span data-stu-id="52997-114">Object Picker Dialog Box Structures</span></span>](object-picker-dialog-box-structures.md)
 
  
 

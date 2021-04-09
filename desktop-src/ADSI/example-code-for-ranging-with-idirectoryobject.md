@@ -15,9 +15,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671156"
 ---
-# <a name="example-code-for-ranging-with-idirectoryobject"></a><span data-ttu-id="40a48-105">使用 IDirectoryObject 進行範圍的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="40a48-105">Example Code for Ranging with IDirectoryObject</span></span>
+# <a name="example-code-for-ranging-with-idirectoryobject"></a><span data-ttu-id="5c664-105">使用 IDirectoryObject 進行範圍的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="5c664-105">Example Code for Ranging with IDirectoryObject</span></span>
 
-<span data-ttu-id="40a48-106">下列程式碼範例使用範圍，以使用 [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) 介面抓取群組的成員。</span><span class="sxs-lookup"><span data-stu-id="40a48-106">The following code example uses ranging to retrieve the members of a group using the [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) interface.</span></span>
+<span data-ttu-id="5c664-106">下列程式碼範例使用範圍，以使用 [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) 介面抓取群組的成員。</span><span class="sxs-lookup"><span data-stu-id="5c664-106">The following code example uses ranging to retrieve the members of a group using the [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) interface.</span></span>
 
 
 ```C++

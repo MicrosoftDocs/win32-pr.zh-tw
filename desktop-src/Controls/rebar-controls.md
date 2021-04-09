@@ -1,0 +1,49 @@
+---
+title: 關於 Rebar 控制項
+description: Rebar 控制項作為子視窗的容器。
+ms.assetid: vs|controls|~\controls\rebar\rebar.htm
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 56bc68629db7387f4ba408a769f7d87a64256000
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "104024199"
+---
+# <a name="about-rebar-controls"></a><span data-ttu-id="49567-103">關於 Rebar 控制項</span><span class="sxs-lookup"><span data-stu-id="49567-103">About Rebar Controls</span></span>
+
+<span data-ttu-id="49567-104">*Rebar 控制項* 作為子視窗的容器。</span><span class="sxs-lookup"><span data-stu-id="49567-104">A *Rebar control* acts as a container for child windows.</span></span> <span data-ttu-id="49567-105">它可以包含一個或多個 *區段*，而且每個波段都可以有任意組合的控制手柄列、點陣圖、文字標籤和一個子視窗。</span><span class="sxs-lookup"><span data-stu-id="49567-105">It can contain one or more *bands*, and each band can have any combination of a gripper bar, a bitmap, a text label, and one child window.</span></span> <span data-ttu-id="49567-106">應用程式會將子視窗（通常是另一個控制項）指派給 Rebar 控制區。</span><span class="sxs-lookup"><span data-stu-id="49567-106">An application assigns a child window—typically another control— to a rebar control band.</span></span> <span data-ttu-id="49567-107">當您動態地重新放置 Rebar 控制區時，Rebar 控制項會管理指派給該頻外之子視窗的大小和位置。</span><span class="sxs-lookup"><span data-stu-id="49567-107">As you dynamically reposition a rebar control band, the rebar control manages the size and position of the child window assigned to that band.</span></span> <span data-ttu-id="49567-108">此外，應用程式也可以指定寬線的背景點陣圖，而 Rebar 控制項將會透過點陣圖顯示寬線的子視窗。</span><span class="sxs-lookup"><span data-stu-id="49567-108">Also, an application can specify a background bitmap for a band, and the rebar control will display the band's child window over the bitmap.</span></span>
+
+<span data-ttu-id="49567-109">下列螢幕擷取畫面顯示具有兩個帶的 Rebar 控制項。</span><span class="sxs-lookup"><span data-stu-id="49567-109">The following screen shot shows a rebar control that has two bands.</span></span> <span data-ttu-id="49567-110">其中一個包含工具列，另一個包含 combobox。</span><span class="sxs-lookup"><span data-stu-id="49567-110">One contains a toolbar, and the other contains a combobox.</span></span> <span data-ttu-id="49567-111">這兩個波段都有一個可讓他們移動和調整大小的移動控制。</span><span class="sxs-lookup"><span data-stu-id="49567-111">Both bands have a gripper that allows them to be moved and resized.</span></span>
+
+![對話方塊的螢幕擷取畫面，其中顯示具有包含工具列和包含下拉式方塊之帶狀線的 Rebar 控制項](images/rb-rebar.png)
+
+> [!Note]  
+> <span data-ttu-id="49567-113">Rebar 控制項是在 Comctl32.dll 4.70 版和更新版本中執行。</span><span class="sxs-lookup"><span data-stu-id="49567-113">The rebar control is implemented in version 4.70 and later of Comctl32.dll.</span></span>
+
+ 
+
+## <a name="rebar-bands-and-child-windows"></a><span data-ttu-id="49567-114">Rebar 區格和子視窗</span><span class="sxs-lookup"><span data-stu-id="49567-114">Rebar Bands and Child Windows</span></span>
+
+<span data-ttu-id="49567-115">應用程式會使用 [**rb \_ INSERTBAND**](rb-insertband.md) 和 [**rb \_ SETBANDINFO**](rb-setbandinfo.md) 訊息來定義 Rebar 帶的特性。</span><span class="sxs-lookup"><span data-stu-id="49567-115">An application defines a rebar band's traits by using the [**RB\_INSERTBAND**](rb-insertband.md) and [**RB\_SETBANDINFO**](rb-setbandinfo.md) messages.</span></span> <span data-ttu-id="49567-116">這些訊息接受 [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) 結構的位址做為 *lParam* 參數。</span><span class="sxs-lookup"><span data-stu-id="49567-116">These messages accept the address of a [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure as the *lParam* parameter.</span></span> <span data-ttu-id="49567-117">**REBARBANDINFO** 結構成員會定義指定之頻外的特性。</span><span class="sxs-lookup"><span data-stu-id="49567-117">The **REBARBANDINFO** structure members define the traits of a given band.</span></span> <span data-ttu-id="49567-118">若要設定寬線的特性，請設定 **cbsize** 成員以表示結構的大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="49567-118">To set a band's traits, set the **cbsize** member to indicate the size of the structure, in bytes.</span></span> <span data-ttu-id="49567-119">然後設定 **fMask** 成員，以指出您的應用程式所要填入的結構成員。</span><span class="sxs-lookup"><span data-stu-id="49567-119">Then set the **fMask** member to indicate which structure members your application is filling.</span></span>
+
+<span data-ttu-id="49567-120">若要將子視窗指派給頻外，請 \_ 在 [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa)結構的 **FMASK** 成員中包含 RBBIM 子旗標，然後將 **hwndChild** 成員設定為子視窗的控制碼。</span><span class="sxs-lookup"><span data-stu-id="49567-120">To assign a child window to a band, include the RBBIM\_CHILD flag in the **fMask** member of the [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure, and then set the **hwndChild** member to the child window's handle.</span></span> <span data-ttu-id="49567-121">應用程式可以在 **cxMinChild** 和 **cyMinChild** 成員中設定子視窗的最小允許寬度和高度。</span><span class="sxs-lookup"><span data-stu-id="49567-121">Applications can set the minimum allowable width and height of a child window in the **cxMinChild** and **cyMinChild** members.</span></span>
+
+<span data-ttu-id="49567-122">當 Rebar 控制項被終結時，它會終結指派給其中一個群組的任何子視窗。</span><span class="sxs-lookup"><span data-stu-id="49567-122">When a rebar control is destroyed, it destroys any child windows assigned to the bands within it.</span></span> <span data-ttu-id="49567-123">若要防止控制項終結指派給其群組的子視窗，請傳送 [**rb \_ DELETEBAND**](rb-deleteband.md) 訊息來移除此群組，然後在終結 Rebar 控制項之前，先使用 [**RB \_ SETPARENT**](rb-setparent.md) 訊息將父系重設為另一個視窗。</span><span class="sxs-lookup"><span data-stu-id="49567-123">To prevent the control from destroying child windows assigned to its bands, remove the bands by sending the [**RB\_DELETEBAND**](rb-deleteband.md) message, and then use the [**RB\_SETPARENT**](rb-setparent.md) message to reset the parent to another window before destroying the rebar control.</span></span>
+
+## <a name="the-rebar-control-user-interface"></a><span data-ttu-id="49567-124">Rebar 控制項消費者介面</span><span class="sxs-lookup"><span data-stu-id="49567-124">The Rebar Control User Interface</span></span>
+
+<span data-ttu-id="49567-125">除了使用 RBBS FIXEDSIZE 樣式的所有 Rebar 控制項帶區之外，也可以調整大小 \_ 。</span><span class="sxs-lookup"><span data-stu-id="49567-125">All rebar control bands can be resized, except those that use the RBBS\_FIXEDSIZE style.</span></span> <span data-ttu-id="49567-126">若要調整大小或變更控制項內的條紋順序，請按一下並拖曳一個頻外的控制條列。</span><span class="sxs-lookup"><span data-stu-id="49567-126">To resize or change the order of bands within the control, click and drag a band's gripper bar.</span></span> <span data-ttu-id="49567-127">Rebar 控制項會自動調整大小，並將指派給其群組的子視窗重新置放。</span><span class="sxs-lookup"><span data-stu-id="49567-127">The rebar control automatically resizes and repositions child windows assigned to its bands.</span></span> <span data-ttu-id="49567-128">此外，您可以按一下寬線文字（如果有的話）來切換寬線的大小。</span><span class="sxs-lookup"><span data-stu-id="49567-128">Additionally, you can toggle the size of a band by clicking the band text, if there is any.</span></span>
+
+## <a name="the-rebar-controls-image-list"></a><span data-ttu-id="49567-129">Rebar 控制項的影像清單</span><span class="sxs-lookup"><span data-stu-id="49567-129">The Rebar Control's Image List</span></span>
+
+<span data-ttu-id="49567-130">如果應用程式使用包含 Rebar 控制項的影像清單，則必須先傳送 [**RB \_ SETBARINFO**](rb-setbarinfo.md) 訊息，然後再將區段加入控制項。</span><span class="sxs-lookup"><span data-stu-id="49567-130">If an application is using an image list with a rebar control, it must send the [**RB\_SETBARINFO**](rb-setbarinfo.md) message before adding bands to the control.</span></span> <span data-ttu-id="49567-131">此訊息接受 [**REBARINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarinfo) 結構的位址做為 *lParam* 參數。</span><span class="sxs-lookup"><span data-stu-id="49567-131">This message accepts the address of a [**REBARINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarinfo) structure as the *lParam* parameter.</span></span> <span data-ttu-id="49567-132">傳送訊息之前，請將 **cbSize** 成員設定為結構的大小（以位元組為單位），以準備 **REBARINFO** 結構。</span><span class="sxs-lookup"><span data-stu-id="49567-132">Before sending the message, prepare the **REBARINFO** structure by setting the **cbSize** member to the size of the structure, in bytes.</span></span> <span data-ttu-id="49567-133">然後，如果 Rebar 控制項即將在群組上顯示影像，請將 **fMask** 成員設定為 RBIM \_ IMAGELIST 旗標，並將影像清單控制碼指派給 **himl** 成員。</span><span class="sxs-lookup"><span data-stu-id="49567-133">Then, if the rebar control is going to display images on the bands, set the **fMask** member to the RBIM\_IMAGELIST flag and assign an image list handle to the **himl** member.</span></span> <span data-ttu-id="49567-134">如果 Rebar 不會使用頻外影像，請將 **fMask** 設定為零。</span><span class="sxs-lookup"><span data-stu-id="49567-134">If the rebar will not use band images, set **fMask** to zero.</span></span>
+
+## <a name="rebar-control-message-forwarding"></a><span data-ttu-id="49567-135">Rebar 控制項訊息轉送</span><span class="sxs-lookup"><span data-stu-id="49567-135">Rebar Control Message Forwarding</span></span>
+
+<span data-ttu-id="49567-136">Rebar 控制項會將所有的 [**WM \_ 通知**](wm-notify.md) 視窗訊息轉寄至其父視窗。</span><span class="sxs-lookup"><span data-stu-id="49567-136">A rebar control forwards all [**WM\_NOTIFY**](wm-notify.md) window messages to its parent window.</span></span> <span data-ttu-id="49567-137">此外，Rebar 控制項會將任何傳送給它的訊息，從指派給其群組的 windows 轉送，例如 [**wm \_ CHARTOITEM**](wm-chartoitem.md)、 [**wm \_ 命令**](/windows/desktop/menurc/wm-command)和其他訊息。</span><span class="sxs-lookup"><span data-stu-id="49567-137">Additionally, a rebar control forwards any messages sent to it from windows assigned to its bands, like [**WM\_CHARTOITEM**](wm-chartoitem.md), [**WM\_COMMAND**](/windows/desktop/menurc/wm-command), and others.</span></span>
+
+ 
+
+ 

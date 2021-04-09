@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672267"
 ---
-# <a name="using-the-router-management-mib-api"></a><span data-ttu-id="3b3bd-105">使用路由器管理 MIB API</span><span class="sxs-lookup"><span data-stu-id="3b3bd-105">Using the Router Management MIB API</span></span>
+# <a name="using-the-router-management-mib-api"></a><span data-ttu-id="c8b1a-105">使用路由器管理 MIB API</span><span class="sxs-lookup"><span data-stu-id="c8b1a-105">Using the Router Management MIB API</span></span>
 
-<span data-ttu-id="3b3bd-106">本節包含的範例會示範如何使用路由器管理 MIB API 來查詢和設定變數。</span><span class="sxs-lookup"><span data-stu-id="3b3bd-106">This section contains examples that show how to use the Router Management MIB API to query and set variables.</span></span>
+<span data-ttu-id="c8b1a-106">本節包含的範例會示範如何使用路由器管理 MIB API 來查詢和設定變數。</span><span class="sxs-lookup"><span data-stu-id="c8b1a-106">This section contains examples that show how to use the Router Management MIB API to query and set variables.</span></span>
 
--   [<span data-ttu-id="3b3bd-107">取得 MIB II 介面資料表</span><span class="sxs-lookup"><span data-stu-id="3b3bd-107">Obtaining the MIB II Interfaces Table</span></span>](obtaining-the-mib-ii-interfaces-table.md)
+-   [<span data-ttu-id="c8b1a-107">取得 MIB II 介面資料表</span><span class="sxs-lookup"><span data-stu-id="c8b1a-107">Obtaining the MIB II Interfaces Table</span></span>](obtaining-the-mib-ii-interfaces-table.md)
 
  
 

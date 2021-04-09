@@ -1,0 +1,38 @@
+---
+title: 使用 List-View 控制項
+description: 本節包含的程式碼範例會示範如何在您的應用程式中建立和使用清單視圖控制項。
+ms.assetid: 6953cdfc-8c59-4c6d-8998-f828cea3a315
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 74dfc6d89ee92bfacdf16fb067724dec4a518b66
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "104024196"
+---
+# <a name="using-list-view-controls"></a><span data-ttu-id="35514-103">使用 List-View 控制項</span><span class="sxs-lookup"><span data-stu-id="35514-103">Using List-View Controls</span></span>
+
+<span data-ttu-id="35514-104">本節包含的程式碼範例會示範如何在您的應用程式中建立和使用清單視圖控制項。</span><span class="sxs-lookup"><span data-stu-id="35514-104">This section contains code examples that demonstrate how to create and use list-view controls in your applications.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="35514-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="35514-105">In this section</span></span>
+
+
+
+| <span data-ttu-id="35514-106">主題</span><span class="sxs-lookup"><span data-stu-id="35514-106">Topic</span></span>                                                                                      | <span data-ttu-id="35514-107">描述</span><span class="sxs-lookup"><span data-stu-id="35514-107">Description</span></span>                                                                                                                                                                                                                                                                                                       |
+|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="35514-108">如何建立 List-View 控制項</span><span class="sxs-lookup"><span data-stu-id="35514-108">How to Create a List-View Control</span></span>](create-a-list-view-control.md)<br/>             | <span data-ttu-id="35514-109">本主題將示範如何建立清單視圖控制項。</span><span class="sxs-lookup"><span data-stu-id="35514-109">This topic demonstrates how to create a list-view control.</span></span> <span data-ttu-id="35514-110">若要建立清單視圖控制項，請使用 [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) 或 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函式，並指定 [**WC \_ LISTVIEW**](common-control-window-classes.md) 視窗類別。</span><span class="sxs-lookup"><span data-stu-id="35514-110">To create a list-view control, you use the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specify the [**WC\_LISTVIEW**](common-control-window-classes.md) window class.</span></span> <br/> |
+| [<span data-ttu-id="35514-111">如何新增 List-View 的影像清單</span><span class="sxs-lookup"><span data-stu-id="35514-111">How to Add List-View Image Lists</span></span>](add-list-view-image-lists.md)<br/>               | <span data-ttu-id="35514-112">本主題示範如何將影像清單新增至清單視圖控制項。</span><span class="sxs-lookup"><span data-stu-id="35514-112">This topic demonstrates how to add image lists to a list-view control.</span></span><br/>                                                                                                                                                                                                                                 |
+| [<span data-ttu-id="35514-113">如何新增 List-View 資料行</span><span class="sxs-lookup"><span data-stu-id="35514-113">How to Add List-View Columns</span></span>](add-list-view-columns.md)<br/>                       | <span data-ttu-id="35514-114">本主題示範如何將資料行加入至清單視圖控制項。</span><span class="sxs-lookup"><span data-stu-id="35514-114">This topic demonstrates how to add columns to a list-view control.</span></span><br/>                                                                                                                                                                                                                                     |
+| [<span data-ttu-id="35514-115">如何新增 List-View 專案與子專案</span><span class="sxs-lookup"><span data-stu-id="35514-115">How to Add List-View Items and Subitems</span></span>](add-list-view-items-and-subitems.md)<br/> | <span data-ttu-id="35514-116">本主題示範如何將專案和子專案加入至清單視圖控制項。</span><span class="sxs-lookup"><span data-stu-id="35514-116">This topic demonstrates how to add items and subitems to a list-view control.</span></span><br/>                                                                                                                                                                                                                          |
+| [<span data-ttu-id="35514-117">如何使用磚視圖</span><span class="sxs-lookup"><span data-stu-id="35514-117">How to Use Tile Views</span></span>](use-tile-views.md)<br/>                                     | <span data-ttu-id="35514-118">本主題將示範如何設定清單視圖控制項的圖格視圖。</span><span class="sxs-lookup"><span data-stu-id="35514-118">This topic demonstrates how to set the tile view for a list-view control.</span></span><br/>                                                                                                                                                                                                                              |
+| [<span data-ttu-id="35514-119">如何使用清單中的群組-View</span><span class="sxs-lookup"><span data-stu-id="35514-119">How to Use Groups in a List-View</span></span>](use-groups-in-a-list-view.md)<br/>               | <span data-ttu-id="35514-120">本主題說明如何建立群組的實例，並將它加入至清單視圖控制項。</span><span class="sxs-lookup"><span data-stu-id="35514-120">This topic describes how to create an instance of a group and add it to a list-view control.</span></span><br/>                                                                                                                                                                                                           |
+| [<span data-ttu-id="35514-121">如何使用 List-View 工作區</span><span class="sxs-lookup"><span data-stu-id="35514-121">How to Use List-View Working Areas</span></span>](use-list-view-working-areas.md)<br/>           | <span data-ttu-id="35514-122">本主題將示範如何使用清單視圖的工作區域。</span><span class="sxs-lookup"><span data-stu-id="35514-122">This topic demonstrates how to work with list-view working areas.</span></span> <span data-ttu-id="35514-123">工作區域是可以用來排列清單檢視控制項中專案的矩形虛擬區域。</span><span class="sxs-lookup"><span data-stu-id="35514-123">Working areas are rectangular virtual areas that can be used to arrange items in a list-vew control.</span></span><br/>                                                                                                                                 |
+| [<span data-ttu-id="35514-124">如何使用虛擬 List-View 控制項</span><span class="sxs-lookup"><span data-stu-id="35514-124">How to Use Virtual List-View Controls</span></span>](use-virtual-list-view-controls.md)<br/>     | <span data-ttu-id="35514-125">本主題將示範如何使用虛擬清單視圖控制項。</span><span class="sxs-lookup"><span data-stu-id="35514-125">This topic demonstrates how to work with virtual list-view controls.</span></span><br/>                                                                                                                                                                                                                                   |
+
+
+
+ 
+
+ 
+
