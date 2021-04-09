@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691363"
 ---
-# <a name="columnvalueofstructtvalue-property"></a><span data-ttu-id="e3a8f-103">ColumnValueOfStruct \<T\> 。Value 屬性</span><span class="sxs-lookup"><span data-stu-id="e3a8f-103">ColumnValueOfStruct\<T\>.Value property</span></span>
+# <a name="columnvalueofstructtvalue-property"></a><span data-ttu-id="5dec4-103">ColumnValueOfStruct \<T\> 。Value 屬性</span><span class="sxs-lookup"><span data-stu-id="5dec4-103">ColumnValueOfStruct\<T\>.Value property</span></span>
 
-<span data-ttu-id="e3a8f-104">取得或設定結構中的值。</span><span class="sxs-lookup"><span data-stu-id="e3a8f-104">Gets or sets the value in the struct.</span></span>
+<span data-ttu-id="5dec4-104">取得或設定結構中的值。</span><span class="sxs-lookup"><span data-stu-id="5dec4-104">Gets or sets the value in the struct.</span></span>
 
-<span data-ttu-id="e3a8f-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e3a8f-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="e3a8f-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e3a8f-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="5dec4-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="5dec4-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="5dec4-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="5dec4-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e3a8f-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="e3a8f-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5dec4-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="5dec4-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.Value = value
 public Nullable<T> Value { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="e3a8f-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="e3a8f-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="5dec4-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="5dec4-108">Property value</span></span>
 
-<span data-ttu-id="e3a8f-109">類型： [可為 null](/dotnet/api/system.nullable-1)\<[T](./columnvalueofstruct-t-class.md)\></span><span class="sxs-lookup"><span data-stu-id="e3a8f-109">Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[T](./columnvalueofstruct-t-class.md)\></span></span>  
+<span data-ttu-id="5dec4-109">類型： [可為 null](/dotnet/api/system.nullable-1)\<[T](./columnvalueofstruct-t-class.md)\></span><span class="sxs-lookup"><span data-stu-id="5dec4-109">Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[T](./columnvalueofstruct-t-class.md)\></span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="e3a8f-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e3a8f-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5dec4-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5dec4-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="e3a8f-111">參考</span><span class="sxs-lookup"><span data-stu-id="e3a8f-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="5dec4-111">參考</span><span class="sxs-lookup"><span data-stu-id="5dec4-111">Reference</span></span>
 
-[<span data-ttu-id="e3a8f-112">ColumnValueOfStruct \<T\> 類別</span><span class="sxs-lookup"><span data-stu-id="e3a8f-112">ColumnValueOfStruct\<T\> class</span></span>](./columnvalueofstruct-t-class.md)
+[<span data-ttu-id="5dec4-112">ColumnValueOfStruct \<T\> 類別</span><span class="sxs-lookup"><span data-stu-id="5dec4-112">ColumnValueOfStruct\<T\> class</span></span>](./columnvalueofstruct-t-class.md)
 
-[<span data-ttu-id="e3a8f-113">ColumnValueOfStruct \<T\> 成員</span><span class="sxs-lookup"><span data-stu-id="e3a8f-113">ColumnValueOfStruct\<T\> members</span></span>](./columnvalueofstruct-t-members.md)
+[<span data-ttu-id="5dec4-113">ColumnValueOfStruct \<T\> 成員</span><span class="sxs-lookup"><span data-stu-id="5dec4-113">ColumnValueOfStruct\<T\> members</span></span>](./columnvalueofstruct-t-members.md)
 
-[<span data-ttu-id="e3a8f-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="e3a8f-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="5dec4-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="5dec4-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

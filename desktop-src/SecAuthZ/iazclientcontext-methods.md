@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851707"
 ---
-# <a name="iazclientcontext-methods"></a><span data-ttu-id="62dd9-103">IAzClientCoNtext 方法</span><span class="sxs-lookup"><span data-stu-id="62dd9-103">IAzClientContext Methods</span></span>
+# <a name="iazclientcontext-methods"></a><span data-ttu-id="c40e8-103">IAzClientCoNtext 方法</span><span class="sxs-lookup"><span data-stu-id="c40e8-103">IAzClientContext Methods</span></span>
 
-<span data-ttu-id="62dd9-104">[**IAzClientCoNtext**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="62dd9-104">The [**IAzClientContext**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext) interface exposes the following methods.</span></span>
+<span data-ttu-id="c40e8-104">[**IAzClientCoNtext**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="c40e8-104">The [**IAzClientContext**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="62dd9-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="62dd9-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c40e8-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c40e8-105">In this section</span></span>
 
--   [<span data-ttu-id="62dd9-106">**AccessCheck 方法**</span><span class="sxs-lookup"><span data-stu-id="62dd9-106">**AccessCheck Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-accesscheck)
--   [<span data-ttu-id="62dd9-107">**GetBusinessRuleString 方法**</span><span class="sxs-lookup"><span data-stu-id="62dd9-107">**GetBusinessRuleString Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-getbusinessrulestring)
--   [<span data-ttu-id="62dd9-108">**GetProperty 方法**</span><span class="sxs-lookup"><span data-stu-id="62dd9-108">**GetProperty Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-getproperty)
--   [<span data-ttu-id="62dd9-109">**GetRoles 方法**</span><span class="sxs-lookup"><span data-stu-id="62dd9-109">**GetRoles Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-getroles)
+-   [<span data-ttu-id="c40e8-106">**AccessCheck 方法**</span><span class="sxs-lookup"><span data-stu-id="c40e8-106">**AccessCheck Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-accesscheck)
+-   [<span data-ttu-id="c40e8-107">**GetBusinessRuleString 方法**</span><span class="sxs-lookup"><span data-stu-id="c40e8-107">**GetBusinessRuleString Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-getbusinessrulestring)
+-   [<span data-ttu-id="c40e8-108">**GetProperty 方法**</span><span class="sxs-lookup"><span data-stu-id="c40e8-108">**GetProperty Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-getproperty)
+-   [<span data-ttu-id="c40e8-109">**GetRoles 方法**</span><span class="sxs-lookup"><span data-stu-id="c40e8-109">**GetRoles Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-getroles)
 
  
 

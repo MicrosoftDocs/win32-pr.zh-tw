@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692863"
 ---
-# <a name="systemimagedimensions"></a><span data-ttu-id="fe084-104">系統維度</span><span class="sxs-lookup"><span data-stu-id="fe084-104">System.Image.Dimensions</span></span>
+# <a name="systemimagedimensions"></a><span data-ttu-id="1b9c8-104">系統維度</span><span class="sxs-lookup"><span data-stu-id="1b9c8-104">System.Image.Dimensions</span></span>
 
-<span data-ttu-id="fe084-105">字串格式為的影像維度 `horizontal pixels x vertical pixels` 。</span><span class="sxs-lookup"><span data-stu-id="fe084-105">The image dimensions in string format as `horizontal pixels x vertical pixels`.</span></span> <span data-ttu-id="fe084-106">例如： `3080x2100` 。</span><span class="sxs-lookup"><span data-stu-id="fe084-106">For example, `3080x2100`.</span></span>
+<span data-ttu-id="1b9c8-105">字串格式為的影像維度 `horizontal pixels x vertical pixels` 。</span><span class="sxs-lookup"><span data-stu-id="1b9c8-105">The image dimensions in string format as `horizontal pixels x vertical pixels`.</span></span> <span data-ttu-id="1b9c8-106">例如： `3080x2100` 。</span><span class="sxs-lookup"><span data-stu-id="1b9c8-106">For example, `3080x2100`.</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a><span data-ttu-id="fe084-107">Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本</span><span class="sxs-lookup"><span data-stu-id="fe084-107">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a><span data-ttu-id="1b9c8-107">Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本</span><span class="sxs-lookup"><span data-stu-id="1b9c8-107">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span></span>
 
 ```
 propertyDescription
@@ -31,54 +31,54 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a><span data-ttu-id="fe084-108">備註</span><span class="sxs-lookup"><span data-stu-id="fe084-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1b9c8-108">備註</span><span class="sxs-lookup"><span data-stu-id="1b9c8-108">Remarks</span></span>
 
-<span data-ttu-id="fe084-109">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="fe084-109">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="1b9c8-109">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="1b9c8-109">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="fe084-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="fe084-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1b9c8-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="1b9c8-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="fe084-111">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="fe084-111">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="1b9c8-111">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="1b9c8-111">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-112">searchInfo</span><span class="sxs-lookup"><span data-stu-id="fe084-112">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="1b9c8-112">searchInfo</span><span class="sxs-lookup"><span data-stu-id="1b9c8-112">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-113">labelInfo</span><span class="sxs-lookup"><span data-stu-id="fe084-113">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="1b9c8-113">labelInfo</span><span class="sxs-lookup"><span data-stu-id="1b9c8-113">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-114">typeInfo</span><span class="sxs-lookup"><span data-stu-id="fe084-114">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="1b9c8-114">typeInfo</span><span class="sxs-lookup"><span data-stu-id="1b9c8-114">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-115">displayInfo</span><span class="sxs-lookup"><span data-stu-id="fe084-115">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="1b9c8-115">displayInfo</span><span class="sxs-lookup"><span data-stu-id="1b9c8-115">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-116">stringFormat</span><span class="sxs-lookup"><span data-stu-id="fe084-116">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="1b9c8-116">stringFormat</span><span class="sxs-lookup"><span data-stu-id="1b9c8-116">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-117">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="fe084-117">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="1b9c8-117">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="1b9c8-117">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-118">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="fe084-118">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="1b9c8-118">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="1b9c8-118">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-119">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="fe084-119">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="1b9c8-119">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="1b9c8-119">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-120">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="fe084-120">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="1b9c8-120">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="1b9c8-120">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-121">drawControl</span><span class="sxs-lookup"><span data-stu-id="fe084-121">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="1b9c8-121">drawControl</span><span class="sxs-lookup"><span data-stu-id="1b9c8-121">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-122">editControl</span><span class="sxs-lookup"><span data-stu-id="fe084-122">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="1b9c8-122">editControl</span><span class="sxs-lookup"><span data-stu-id="1b9c8-122">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-123">filterControl</span><span class="sxs-lookup"><span data-stu-id="fe084-123">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="1b9c8-123">filterControl</span><span class="sxs-lookup"><span data-stu-id="1b9c8-123">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="fe084-124">queryControl</span><span class="sxs-lookup"><span data-stu-id="fe084-124">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="1b9c8-124">queryControl</span><span class="sxs-lookup"><span data-stu-id="1b9c8-124">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  

@@ -16,23 +16,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "103683118"
 ---
-# <a name="eaphostconfig-schema-elements"></a><span data-ttu-id="babdf-104">eaphostconfig 架構元素</span><span class="sxs-lookup"><span data-stu-id="babdf-104">eaphostconfig Schema Elements</span></span>
+# <a name="eaphostconfig-schema-elements"></a><span data-ttu-id="13381-104">eaphostconfig 架構元素</span><span class="sxs-lookup"><span data-stu-id="13381-104">eaphostconfig Schema Elements</span></span>
 
-<span data-ttu-id="babdf-105">[Eaphostconfig](eaphostconfigschema-schema.md)架構是由下列架構元素所組成。</span><span class="sxs-lookup"><span data-stu-id="babdf-105">The [eaphostconfig](eaphostconfigschema-schema.md) schema is made up of the following schema elements.</span></span>
+<span data-ttu-id="13381-105">[Eaphostconfig](eaphostconfigschema-schema.md)架構是由下列架構元素所組成。</span><span class="sxs-lookup"><span data-stu-id="13381-105">The [eaphostconfig](eaphostconfigschema-schema.md) schema is made up of the following schema elements.</span></span>
 
--   [<span data-ttu-id="babdf-106">**ConfigBlob (EapHostConfig)**</span><span class="sxs-lookup"><span data-stu-id="babdf-106">**ConfigBlob (EapHostConfig)**</span></span>](eaphostconfigschema-configblob-eaphostconfig-element.md)
--   [<span data-ttu-id="babdf-107">**Config (EapHostConfig)**</span><span class="sxs-lookup"><span data-stu-id="babdf-107">**Config (EapHostConfig)**</span></span>](eaphostconfigschema-config-eaphostconfig-element.md)
--   [<span data-ttu-id="babdf-108">**EapHostConfig**</span><span class="sxs-lookup"><span data-stu-id="babdf-108">**EapHostConfig**</span></span>](eaphostconfigschema-eaphostconfig-element.md)
--   [<span data-ttu-id="babdf-109">**EapMethod (EapHostConfig)**</span><span class="sxs-lookup"><span data-stu-id="babdf-109">**EapMethod (EapHostConfig)**</span></span>](eaphostconfigschema-eapmethod-eaphostconfig-element.md)
+-   [<span data-ttu-id="13381-106">**ConfigBlob (EapHostConfig)**</span><span class="sxs-lookup"><span data-stu-id="13381-106">**ConfigBlob (EapHostConfig)**</span></span>](eaphostconfigschema-configblob-eaphostconfig-element.md)
+-   [<span data-ttu-id="13381-107">**Config (EapHostConfig)**</span><span class="sxs-lookup"><span data-stu-id="13381-107">**Config (EapHostConfig)**</span></span>](eaphostconfigschema-config-eaphostconfig-element.md)
+-   [<span data-ttu-id="13381-108">**EapHostConfig**</span><span class="sxs-lookup"><span data-stu-id="13381-108">**EapHostConfig**</span></span>](eaphostconfigschema-eaphostconfig-element.md)
+-   [<span data-ttu-id="13381-109">**EapMethod (EapHostConfig)**</span><span class="sxs-lookup"><span data-stu-id="13381-109">**EapMethod (EapHostConfig)**</span></span>](eaphostconfigschema-eapmethod-eaphostconfig-element.md)
 
-## <a name="related-topics"></a><span data-ttu-id="babdf-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="babdf-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="13381-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="13381-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="babdf-111">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="babdf-111">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="13381-111">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="13381-111">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> <dt>
 
-[<span data-ttu-id="babdf-112">eaphostconfig 架構</span><span class="sxs-lookup"><span data-stu-id="babdf-112">eaphostconfig Schema</span></span>](eaphostconfigschema-schema.md)
+[<span data-ttu-id="13381-112">eaphostconfig 架構</span><span class="sxs-lookup"><span data-stu-id="13381-112">eaphostconfig Schema</span></span>](eaphostconfigschema-schema.md)
 </dt> </dl>
 
  

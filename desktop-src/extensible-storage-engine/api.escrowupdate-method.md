@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689431"
 ---
-# <a name="apiescrowupdate-method"></a><span data-ttu-id="ee200-103">EscrowUpdate 方法</span><span class="sxs-lookup"><span data-stu-id="ee200-103">Api.EscrowUpdate method</span></span>
+# <a name="apiescrowupdate-method"></a><span data-ttu-id="a64b9-103">EscrowUpdate 方法</span><span class="sxs-lookup"><span data-stu-id="a64b9-103">Api.EscrowUpdate method</span></span>
 
-<span data-ttu-id="ee200-104">在一個資料行上執行不可部分完成的加法。</span><span class="sxs-lookup"><span data-stu-id="ee200-104">Perform atomic addition on one column.</span></span> <span data-ttu-id="ee200-105">資料行的類型必須為 [Long](./jet-coltyp-enumeration.md)。</span><span class="sxs-lookup"><span data-stu-id="ee200-105">The column must be of type [Long](./jet-coltyp-enumeration.md).</span></span> <span data-ttu-id="ee200-106">此函數可讓多個會話同時更新相同的記錄，而不會發生衝突。</span><span class="sxs-lookup"><span data-stu-id="ee200-106">This function allows multiple sessions to update the same record concurrently without conflicts.</span></span>
+<span data-ttu-id="a64b9-104">在一個資料行上執行不可部分完成的加法。</span><span class="sxs-lookup"><span data-stu-id="a64b9-104">Perform atomic addition on one column.</span></span> <span data-ttu-id="a64b9-105">資料行的類型必須為 [Long](./jet-coltyp-enumeration.md)。</span><span class="sxs-lookup"><span data-stu-id="a64b9-105">The column must be of type [Long](./jet-coltyp-enumeration.md).</span></span> <span data-ttu-id="a64b9-106">此函數可讓多個會話同時更新相同的記錄，而不會發生衝突。</span><span class="sxs-lookup"><span data-stu-id="a64b9-106">This function allows multiple sessions to update the same record concurrently without conflicts.</span></span>
 
-<span data-ttu-id="ee200-107">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="ee200-107">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="ee200-108">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="ee200-108">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="a64b9-107">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="a64b9-107">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="a64b9-108">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="a64b9-108">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ee200-109">語法</span><span class="sxs-lookup"><span data-stu-id="ee200-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a64b9-109">語法</span><span class="sxs-lookup"><span data-stu-id="a64b9-109">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -68,49 +68,49 @@ public static int EscrowUpdate(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="ee200-110">參數</span><span class="sxs-lookup"><span data-stu-id="ee200-110">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="a64b9-110">參數</span><span class="sxs-lookup"><span data-stu-id="a64b9-110">Parameters</span></span>
 
-  - <span data-ttu-id="ee200-111">sesid</span><span class="sxs-lookup"><span data-stu-id="ee200-111">sesid</span></span>  
-    <span data-ttu-id="ee200-112">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="ee200-112">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="a64b9-111">sesid</span><span class="sxs-lookup"><span data-stu-id="a64b9-111">sesid</span></span>  
+    <span data-ttu-id="a64b9-112">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="a64b9-112">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="ee200-113">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="ee200-113">The session to use.</span></span>
+    <span data-ttu-id="a64b9-113">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="a64b9-113">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="ee200-114">tableid</span><span class="sxs-lookup"><span data-stu-id="ee200-114">tableid</span></span>  
-    <span data-ttu-id="ee200-115">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="ee200-115">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="a64b9-114">tableid</span><span class="sxs-lookup"><span data-stu-id="a64b9-114">tableid</span></span>  
+    <span data-ttu-id="a64b9-115">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="a64b9-115">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="ee200-116">要更新的資料指標。</span><span class="sxs-lookup"><span data-stu-id="ee200-116">The cursor to update.</span></span>
+    <span data-ttu-id="a64b9-116">要更新的資料指標。</span><span class="sxs-lookup"><span data-stu-id="a64b9-116">The cursor to update.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="ee200-117">columnid</span><span class="sxs-lookup"><span data-stu-id="ee200-117">columnid</span></span>  
-    <span data-ttu-id="ee200-118">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="ee200-118">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
+  - <span data-ttu-id="a64b9-117">columnid</span><span class="sxs-lookup"><span data-stu-id="a64b9-117">columnid</span></span>  
+    <span data-ttu-id="a64b9-118">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="a64b9-118">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
     
-    <span data-ttu-id="ee200-119">要更新的資料行。</span><span class="sxs-lookup"><span data-stu-id="ee200-119">The column to update.</span></span> <span data-ttu-id="ee200-120">這必須是可供使用的可更新資料行。</span><span class="sxs-lookup"><span data-stu-id="ee200-120">This must be an escrow-updatable column.</span></span>
+    <span data-ttu-id="a64b9-119">要更新的資料行。</span><span class="sxs-lookup"><span data-stu-id="a64b9-119">The column to update.</span></span> <span data-ttu-id="a64b9-120">這必須是可供使用的可更新資料行。</span><span class="sxs-lookup"><span data-stu-id="a64b9-120">This must be an escrow-updatable column.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="ee200-121">delta</span><span class="sxs-lookup"><span data-stu-id="ee200-121">delta</span></span>  
-    <span data-ttu-id="ee200-122">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="ee200-122">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="a64b9-121">delta</span><span class="sxs-lookup"><span data-stu-id="a64b9-121">delta</span></span>  
+    <span data-ttu-id="a64b9-122">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="a64b9-122">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="ee200-123">要套用至資料行的差異。</span><span class="sxs-lookup"><span data-stu-id="ee200-123">The delta to apply to the column.</span></span>
+    <span data-ttu-id="a64b9-123">要套用至資料行的差異。</span><span class="sxs-lookup"><span data-stu-id="a64b9-123">The delta to apply to the column.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="ee200-124">傳回值</span><span class="sxs-lookup"><span data-stu-id="ee200-124">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="a64b9-124">傳回值</span><span class="sxs-lookup"><span data-stu-id="a64b9-124">Return value</span></span>
 
-<span data-ttu-id="ee200-125">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="ee200-125">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
-<span data-ttu-id="ee200-126">在資料庫中儲存之資料行的目前值 (版本設定會被忽略) 。</span><span class="sxs-lookup"><span data-stu-id="ee200-126">The current value of the column as stored in the database (versioning is ignored).</span></span>  
+<span data-ttu-id="a64b9-125">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="a64b9-125">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="a64b9-126">在資料庫中儲存之資料行的目前值 (版本設定會被忽略) 。</span><span class="sxs-lookup"><span data-stu-id="a64b9-126">The current value of the column as stored in the database (versioning is ignored).</span></span>  
 
-## <a name="remarks"></a><span data-ttu-id="ee200-127">備註</span><span class="sxs-lookup"><span data-stu-id="ee200-127">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a64b9-127">備註</span><span class="sxs-lookup"><span data-stu-id="a64b9-127">Remarks</span></span>
 
-<span data-ttu-id="ee200-128">這個方法會包裝[JetEscrowUpdate (JET_SESID、JET_TABLEID、JET_COLUMNID、 \[ \] 、int32、 \[ \] 、int32、int32、EscrowUpdateGrbit) ](./api.jetescrowupdate-method.md)。</span><span class="sxs-lookup"><span data-stu-id="ee200-128">This method wraps [JetEscrowUpdate(JET_SESID, JET_TABLEID, JET_COLUMNID, \[\], Int32, \[\], Int32, Int32, EscrowUpdateGrbit)](./api.jetescrowupdate-method.md).</span></span>
+<span data-ttu-id="a64b9-128">這個方法會包裝[JetEscrowUpdate (JET_SESID、JET_TABLEID、JET_COLUMNID、 \[ \] 、int32、 \[ \] 、int32、int32、EscrowUpdateGrbit) ](./api.jetescrowupdate-method.md)。</span><span class="sxs-lookup"><span data-stu-id="a64b9-128">This method wraps [JetEscrowUpdate(JET_SESID, JET_TABLEID, JET_COLUMNID, \[\], Int32, \[\], Int32, Int32, EscrowUpdateGrbit)](./api.jetescrowupdate-method.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ee200-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ee200-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a64b9-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a64b9-129">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="ee200-130">參考</span><span class="sxs-lookup"><span data-stu-id="ee200-130">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="a64b9-130">參考</span><span class="sxs-lookup"><span data-stu-id="a64b9-130">Reference</span></span>
 
-[<span data-ttu-id="ee200-131">Api 類別</span><span class="sxs-lookup"><span data-stu-id="ee200-131">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="a64b9-131">Api 類別</span><span class="sxs-lookup"><span data-stu-id="a64b9-131">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="ee200-132">Api 成員</span><span class="sxs-lookup"><span data-stu-id="ee200-132">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="a64b9-132">Api 成員</span><span class="sxs-lookup"><span data-stu-id="a64b9-132">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="ee200-133">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ee200-133">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="a64b9-133">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="a64b9-133">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

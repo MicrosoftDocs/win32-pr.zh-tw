@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850568"
 ---
-# <a name="iazbizruleinterfaces-methods"></a><span data-ttu-id="fba9c-103">IAzBizRuleInterfaces 方法</span><span class="sxs-lookup"><span data-stu-id="fba9c-103">IAzBizRuleInterfaces Methods</span></span>
+# <a name="iazbizruleinterfaces-methods"></a><span data-ttu-id="b12da-103">IAzBizRuleInterfaces 方法</span><span class="sxs-lookup"><span data-stu-id="b12da-103">IAzBizRuleInterfaces Methods</span></span>
 
-<span data-ttu-id="fba9c-104">[**IAzBizRuleInterfaces**](/windows/desktop/api/Azroles/nn-azroles-iazbizruleinterfaces)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="fba9c-104">The [**IAzBizRuleInterfaces**](/windows/desktop/api/Azroles/nn-azroles-iazbizruleinterfaces) interface exposes the following methods.</span></span>
+<span data-ttu-id="b12da-104">[**IAzBizRuleInterfaces**](/windows/desktop/api/Azroles/nn-azroles-iazbizruleinterfaces)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="b12da-104">The [**IAzBizRuleInterfaces**](/windows/desktop/api/Azroles/nn-azroles-iazbizruleinterfaces) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="fba9c-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="fba9c-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b12da-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b12da-105">In this section</span></span>
 
--   [<span data-ttu-id="fba9c-106">**AddInterface 方法**</span><span class="sxs-lookup"><span data-stu-id="fba9c-106">**AddInterface Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-addinterface)
--   [<span data-ttu-id="fba9c-107">**AddInterfaces 方法**</span><span class="sxs-lookup"><span data-stu-id="fba9c-107">**AddInterfaces Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-addinterfaces)
--   [<span data-ttu-id="fba9c-108">**GetInterfaceValue 方法**</span><span class="sxs-lookup"><span data-stu-id="fba9c-108">**GetInterfaceValue Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-getinterfacevalue)
--   [<span data-ttu-id="fba9c-109">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="fba9c-109">**Remove Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-remove)
--   [<span data-ttu-id="fba9c-110">**RemoveAll 方法**</span><span class="sxs-lookup"><span data-stu-id="fba9c-110">**RemoveAll Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-removeall)
+-   [<span data-ttu-id="b12da-106">**AddInterface 方法**</span><span class="sxs-lookup"><span data-stu-id="b12da-106">**AddInterface Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-addinterface)
+-   [<span data-ttu-id="b12da-107">**AddInterfaces 方法**</span><span class="sxs-lookup"><span data-stu-id="b12da-107">**AddInterfaces Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-addinterfaces)
+-   [<span data-ttu-id="b12da-108">**GetInterfaceValue 方法**</span><span class="sxs-lookup"><span data-stu-id="b12da-108">**GetInterfaceValue Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-getinterfacevalue)
+-   [<span data-ttu-id="b12da-109">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="b12da-109">**Remove Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-remove)
+-   [<span data-ttu-id="b12da-110">**RemoveAll 方法**</span><span class="sxs-lookup"><span data-stu-id="b12da-110">**RemoveAll Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-removeall)
 
  
 

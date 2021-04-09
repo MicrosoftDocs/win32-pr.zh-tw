@@ -12,12 +12,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682673"
 ---
-# <a name="server-data-objects-enumerations"></a><span data-ttu-id="25ef0-103">伺服器資料物件列舉</span><span class="sxs-lookup"><span data-stu-id="25ef0-103">Server Data Objects Enumerations</span></span>
+# <a name="server-data-objects-enumerations"></a><span data-ttu-id="2618b-103">伺服器資料物件列舉</span><span class="sxs-lookup"><span data-stu-id="2618b-103">Server Data Objects Enumerations</span></span>
 
-<span data-ttu-id="25ef0-104">下列列舉類型會列舉伺服器資料物件所使用的屬性和值。</span><span class="sxs-lookup"><span data-stu-id="25ef0-104">The following enumeration types enumerate the properties and values used by server data objects.</span></span>
+<span data-ttu-id="2618b-104">下列列舉類型會列舉伺服器資料物件所使用的屬性和值。</span><span class="sxs-lookup"><span data-stu-id="2618b-104">The following enumeration types enumerate the properties and values used by server data objects.</span></span>
 
--   [<span data-ttu-id="25ef0-105">依類別列出</span><span class="sxs-lookup"><span data-stu-id="25ef0-105">Listing by Category</span></span>](/windows/desktop/Nps/sdo-listing-by-category)
--   [<span data-ttu-id="25ef0-106">依字母順序列出</span><span class="sxs-lookup"><span data-stu-id="25ef0-106">Alphabetical Listing</span></span>](/windows/desktop/Nps/sdo-alphabetical-listing)
+-   [<span data-ttu-id="2618b-105">依類別列出</span><span class="sxs-lookup"><span data-stu-id="2618b-105">Listing by Category</span></span>](/windows/desktop/Nps/sdo-listing-by-category)
+-   [<span data-ttu-id="2618b-106">依字母順序列出</span><span class="sxs-lookup"><span data-stu-id="2618b-106">Alphabetical Listing</span></span>](/windows/desktop/Nps/sdo-alphabetical-listing)
 
  
 

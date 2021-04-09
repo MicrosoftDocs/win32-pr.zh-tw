@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686520"
 ---
-# <a name="mciwndm_can_eject-message"></a><span data-ttu-id="30717-105">MCIWNDM \_ 可以 \_ 退出訊息</span><span class="sxs-lookup"><span data-stu-id="30717-105">MCIWNDM\_CAN\_EJECT message</span></span>
+# <a name="mciwndm_can_eject-message"></a><span data-ttu-id="b3cbf-105">MCIWNDM \_ 可以 \_ 退出訊息</span><span class="sxs-lookup"><span data-stu-id="b3cbf-105">MCIWNDM\_CAN\_EJECT message</span></span>
 
-<span data-ttu-id="30717-106">**MCIWNDM \_ 可以 \_ 退出** 訊息，以判斷 MCI 裝置是否可以退出媒體。</span><span class="sxs-lookup"><span data-stu-id="30717-106">The **MCIWNDM\_CAN\_EJECT** message determines if an MCI device can eject its media.</span></span> <span data-ttu-id="30717-107">您可以使用 [**MCIWndCanEject**](/windows/desktop/api/Vfw/nf-vfw-mciwndcaneject) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="30717-107">You can send this message explicitly or by using the [**MCIWndCanEject**](/windows/desktop/api/Vfw/nf-vfw-mciwndcaneject) macro.</span></span>
+<span data-ttu-id="b3cbf-106">**MCIWNDM \_ 可以 \_ 退出** 訊息，以判斷 MCI 裝置是否可以退出媒體。</span><span class="sxs-lookup"><span data-stu-id="b3cbf-106">The **MCIWNDM\_CAN\_EJECT** message determines if an MCI device can eject its media.</span></span> <span data-ttu-id="b3cbf-107">您可以使用 [**MCIWndCanEject**](/windows/desktop/api/Vfw/nf-vfw-mciwndcaneject) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="b3cbf-107">You can send this message explicitly or by using the [**MCIWndCanEject**](/windows/desktop/api/Vfw/nf-vfw-mciwndcaneject) macro.</span></span>
 
 
 ```C++
@@ -34,27 +34,27 @@ lParam = 0;
 
 
 
-## <a name="return-value"></a><span data-ttu-id="30717-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="30717-108">Return Value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b3cbf-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="b3cbf-108">Return Value</span></span>
 
-<span data-ttu-id="30717-109">如果裝置可以退出媒體，則傳回 **TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="30717-109">Returns **TRUE** if the device can eject its media or **FALSE** otherwise.</span></span>
+<span data-ttu-id="b3cbf-109">如果裝置可以退出媒體，則傳回 **TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="b3cbf-109">Returns **TRUE** if the device can eject its media or **FALSE** otherwise.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="30717-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="30717-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b3cbf-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="b3cbf-110">Requirements</span></span>
 
 
 
-| <span data-ttu-id="30717-111">需求</span><span class="sxs-lookup"><span data-stu-id="30717-111">Requirement</span></span> | <span data-ttu-id="30717-112">值</span><span class="sxs-lookup"><span data-stu-id="30717-112">Value</span></span> |
+| <span data-ttu-id="b3cbf-111">需求</span><span class="sxs-lookup"><span data-stu-id="b3cbf-111">Requirement</span></span> | <span data-ttu-id="b3cbf-112">值</span><span class="sxs-lookup"><span data-stu-id="b3cbf-112">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="30717-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="30717-113">Minimum supported client</span></span><br/> | <span data-ttu-id="30717-114">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="30717-114">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                       |
-| <span data-ttu-id="30717-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="30717-115">Minimum supported server</span></span><br/> | <span data-ttu-id="30717-116">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="30717-116">Windows 2000 Server \[desktop apps only\]</span></span><br/>                             |
-| <span data-ttu-id="30717-117">標頭</span><span class="sxs-lookup"><span data-stu-id="30717-117">Header</span></span><br/>                   | <dl> <span data-ttu-id="30717-118"><dt>Vfw。h</dt></span><span class="sxs-lookup"><span data-stu-id="30717-118"><dt>Vfw.h</dt></span></span> </dl> |
+| <span data-ttu-id="b3cbf-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b3cbf-113">Minimum supported client</span></span><br/> | <span data-ttu-id="b3cbf-114">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b3cbf-114">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                       |
+| <span data-ttu-id="b3cbf-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b3cbf-115">Minimum supported server</span></span><br/> | <span data-ttu-id="b3cbf-116">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b3cbf-116">Windows 2000 Server \[desktop apps only\]</span></span><br/>                             |
+| <span data-ttu-id="b3cbf-117">標頭</span><span class="sxs-lookup"><span data-stu-id="b3cbf-117">Header</span></span><br/>                   | <dl> <span data-ttu-id="b3cbf-118"><dt>Vfw。h</dt></span><span class="sxs-lookup"><span data-stu-id="b3cbf-118"><dt>Vfw.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="30717-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="30717-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3cbf-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b3cbf-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="30717-120">**MCIWndCanEject**</span><span class="sxs-lookup"><span data-stu-id="30717-120">**MCIWndCanEject**</span></span>](/windows/desktop/api/Vfw/nf-vfw-mciwndcaneject)
+[<span data-ttu-id="b3cbf-120">**MCIWndCanEject**</span><span class="sxs-lookup"><span data-stu-id="b3cbf-120">**MCIWndCanEject**</span></span>](/windows/desktop/api/Vfw/nf-vfw-mciwndcaneject)
 </dt> </dl>
 
  

@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103685382"
 ---
-# <a name="p-task-scheduler"></a><span data-ttu-id="28a38-103">P (工作排程器) </span><span class="sxs-lookup"><span data-stu-id="28a38-103">P (Task Scheduler)</span></span>
+# <a name="p-task-scheduler"></a><span data-ttu-id="608ba-103">P (工作排程器) </span><span class="sxs-lookup"><span data-stu-id="608ba-103">P (Task Scheduler)</span></span>
 
-<span data-ttu-id="28a38-104">B C D [E](e.md) F G H [I](i.md) J K L M N O P Q R [S](s.md) [T](t.md) [W](w.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="28a38-104">A B C D [E](e.md) F G H [I](i.md) J K L M N O P Q R [S](s.md) [T](t.md) U V [W](w.md) X Y Z</span></span>
+<span data-ttu-id="608ba-104">B C D [E](e.md) F G H [I](i.md) J K L M N O P Q R [S](s.md) [T](t.md) [W](w.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="608ba-104">A B C D [E](e.md) F G H [I](i.md) J K L M N O P Q R [S](s.md) [T](t.md) U V [W](w.md) X Y Z</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="28a38-105"><span id="_msb_priority_level_gly"></span><span id="_MSB_PRIORITY_LEVEL_GLY"></span>**優先權層級**</span><span class="sxs-lookup"><span data-stu-id="28a38-105"><span id="_msb_priority_level_gly"></span><span id="_MSB_PRIORITY_LEVEL_GLY"></span>**priority level**</span></span>
+<span data-ttu-id="608ba-105"><span id="_msb_priority_level_gly"></span><span id="_MSB_PRIORITY_LEVEL_GLY"></span>**優先權層級**</span><span class="sxs-lookup"><span data-stu-id="608ba-105"><span id="_msb_priority_level_gly"></span><span id="_MSB_PRIORITY_LEVEL_GLY"></span>**priority level**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="28a38-106">決定進程之時間配量的頻率和長度的工作設定。</span><span class="sxs-lookup"><span data-stu-id="28a38-106">A task setting that determines the frequency and length of the time slices for a process.</span></span> <span data-ttu-id="28a38-107">優先權層級只適用于 Windows Server 2003、Windows XP 及 Windows 2000 作業系統。</span><span class="sxs-lookup"><span data-stu-id="28a38-107">Priority levels apply only to the Windows Server 2003, Windows XP, and Windows 2000 operating systems.</span></span>
+<span data-ttu-id="608ba-106">決定進程之時間配量的頻率和長度的工作設定。</span><span class="sxs-lookup"><span data-stu-id="608ba-106">A task setting that determines the frequency and length of the time slices for a process.</span></span> <span data-ttu-id="608ba-107">優先權層級只適用于 Windows Server 2003、Windows XP 及 Windows 2000 作業系統。</span><span class="sxs-lookup"><span data-stu-id="608ba-107">Priority levels apply only to the Windows Server 2003, Windows XP, and Windows 2000 operating systems.</span></span>
 
 </dd> </dl>
 

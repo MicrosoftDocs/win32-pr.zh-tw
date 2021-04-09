@@ -11,50 +11,50 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103853000"
 ---
-# <a name="mf_event_source_projectstart-attribute"></a><span data-ttu-id="75c53-103">MF \_ 事件 \_ 來源 \_ PROJECTSTART 屬性</span><span class="sxs-lookup"><span data-stu-id="75c53-103">MF\_EVENT\_SOURCE\_PROJECTSTART attribute</span></span>
+# <a name="mf_event_source_projectstart-attribute"></a><span data-ttu-id="91be6-103">MF \_ 事件 \_ 來源 \_ PROJECTSTART 屬性</span><span class="sxs-lookup"><span data-stu-id="91be6-103">MF\_EVENT\_SOURCE\_PROJECTSTART attribute</span></span>
 
-<span data-ttu-id="75c53-104">指定區段拓撲的開始時間。</span><span class="sxs-lookup"><span data-stu-id="75c53-104">Specifies the start time for a segment topology.</span></span>
+<span data-ttu-id="91be6-104">指定區段拓撲的開始時間。</span><span class="sxs-lookup"><span data-stu-id="91be6-104">Specifies the start time for a segment topology.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="75c53-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="75c53-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="91be6-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="91be6-105">Data type</span></span>
 
-<span data-ttu-id="75c53-106">**UINT64**</span><span class="sxs-lookup"><span data-stu-id="75c53-106">**UINT64**</span></span>
+<span data-ttu-id="91be6-106">**UINT64**</span><span class="sxs-lookup"><span data-stu-id="91be6-106">**UINT64**</span></span>
 
-<span data-ttu-id="75c53-107">視為 **LONGLONG** 值。</span><span class="sxs-lookup"><span data-stu-id="75c53-107">Treat as a **LONGLONG** value.</span></span>
+<span data-ttu-id="91be6-107">視為 **LONGLONG** 值。</span><span class="sxs-lookup"><span data-stu-id="91be6-107">Treat as a **LONGLONG** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="75c53-108">備註</span><span class="sxs-lookup"><span data-stu-id="75c53-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="91be6-108">備註</span><span class="sxs-lookup"><span data-stu-id="91be6-108">Remarks</span></span>
 
-<span data-ttu-id="75c53-109">這個屬性會與 [MESourceStarted](mesourcestarted.md) 事件一起使用。</span><span class="sxs-lookup"><span data-stu-id="75c53-109">This attribute is used with the [MESourceStarted](mesourcestarted.md) event.</span></span> <span data-ttu-id="75c53-110">當目前區段拓撲具有 [**MF \_ 拓撲 \_ PROJECTSTART**](mf-topology-projectstart-attribute.md) 屬性時，sequencer 來源會設定這個屬性。</span><span class="sxs-lookup"><span data-stu-id="75c53-110">The sequencer source sets this attribute when the current segment topology has the [**MF\_TOPOLOGY\_PROJECTSTART**](mf-topology-projectstart-attribute.md) attribute.</span></span> <span data-ttu-id="75c53-111">這兩個屬性具有相同的值。</span><span class="sxs-lookup"><span data-stu-id="75c53-111">The two attributes have the same value.</span></span>
+<span data-ttu-id="91be6-109">這個屬性會與 [MESourceStarted](mesourcestarted.md) 事件一起使用。</span><span class="sxs-lookup"><span data-stu-id="91be6-109">This attribute is used with the [MESourceStarted](mesourcestarted.md) event.</span></span> <span data-ttu-id="91be6-110">當目前區段拓撲具有 [**MF \_ 拓撲 \_ PROJECTSTART**](mf-topology-projectstart-attribute.md) 屬性時，sequencer 來源會設定這個屬性。</span><span class="sxs-lookup"><span data-stu-id="91be6-110">The sequencer source sets this attribute when the current segment topology has the [**MF\_TOPOLOGY\_PROJECTSTART**](mf-topology-projectstart-attribute.md) attribute.</span></span> <span data-ttu-id="91be6-111">這兩個屬性具有相同的值。</span><span class="sxs-lookup"><span data-stu-id="91be6-111">The two attributes have the same value.</span></span>
 
-<span data-ttu-id="75c53-112">這個屬性是帶正負號的值，雖然它會儲存為 **UINT64**。</span><span class="sxs-lookup"><span data-stu-id="75c53-112">This attribute is a signed value, although it is stored as a **UINT64**.</span></span>
+<span data-ttu-id="91be6-112">這個屬性是帶正負號的值，雖然它會儲存為 **UINT64**。</span><span class="sxs-lookup"><span data-stu-id="91be6-112">This attribute is a signed value, although it is stored as a **UINT64**.</span></span>
 
-<span data-ttu-id="75c53-113">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="75c53-113">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
+<span data-ttu-id="91be6-113">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="91be6-113">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="75c53-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="75c53-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="91be6-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="91be6-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="75c53-115">需求</span><span class="sxs-lookup"><span data-stu-id="75c53-115">Requirement</span></span> | <span data-ttu-id="75c53-116">值</span><span class="sxs-lookup"><span data-stu-id="75c53-116">Value</span></span> |
+| <span data-ttu-id="91be6-115">需求</span><span class="sxs-lookup"><span data-stu-id="91be6-115">Requirement</span></span> | <span data-ttu-id="91be6-116">值</span><span class="sxs-lookup"><span data-stu-id="91be6-116">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="75c53-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="75c53-117">Minimum supported client</span></span><br/> | <span data-ttu-id="75c53-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="75c53-118">Windows Vista \[desktop apps only\]</span></span><br/>                                     |
-| <span data-ttu-id="75c53-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="75c53-119">Minimum supported server</span></span><br/> | <span data-ttu-id="75c53-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="75c53-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                               |
-| <span data-ttu-id="75c53-121">標頭</span><span class="sxs-lookup"><span data-stu-id="75c53-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="75c53-122"><dt>Mfapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="75c53-122"><dt>Mfapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="91be6-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="91be6-117">Minimum supported client</span></span><br/> | <span data-ttu-id="91be6-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="91be6-118">Windows Vista \[desktop apps only\]</span></span><br/>                                     |
+| <span data-ttu-id="91be6-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="91be6-119">Minimum supported server</span></span><br/> | <span data-ttu-id="91be6-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="91be6-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                               |
+| <span data-ttu-id="91be6-121">標頭</span><span class="sxs-lookup"><span data-stu-id="91be6-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="91be6-122"><dt>Mfapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="91be6-122"><dt>Mfapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="75c53-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="75c53-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="91be6-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="91be6-123">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="75c53-124">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="75c53-124">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="91be6-124">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="91be6-124">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="75c53-125">事件屬性</span><span class="sxs-lookup"><span data-stu-id="75c53-125">Event Attributes</span></span>](event-attributes.md)
+[<span data-ttu-id="91be6-125">事件屬性</span><span class="sxs-lookup"><span data-stu-id="91be6-125">Event Attributes</span></span>](event-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="75c53-126">**IMFAttributes::GetUINT64**</span><span class="sxs-lookup"><span data-stu-id="75c53-126">**IMFAttributes::GetUINT64**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64)
+[<span data-ttu-id="91be6-126">**IMFAttributes::GetUINT64**</span><span class="sxs-lookup"><span data-stu-id="91be6-126">**IMFAttributes::GetUINT64**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64)
 </dt> <dt>
 
-[<span data-ttu-id="75c53-127">**IMFAttributes::SetUINT64**</span><span class="sxs-lookup"><span data-stu-id="75c53-127">**IMFAttributes::SetUINT64**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint64)
+[<span data-ttu-id="91be6-127">**IMFAttributes::SetUINT64**</span><span class="sxs-lookup"><span data-stu-id="91be6-127">**IMFAttributes::SetUINT64**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint64)
 </dt> </dl>
 
  

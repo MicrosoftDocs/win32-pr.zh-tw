@@ -11,35 +11,35 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852584"
 ---
-# <a name="mf_mt_video_3d-attribute"></a><span data-ttu-id="25b40-103">MF \_ MT \_ VIDEO \_ 3d 屬性</span><span class="sxs-lookup"><span data-stu-id="25b40-103">MF\_MT\_VIDEO\_3D attribute</span></span>
+# <a name="mf_mt_video_3d-attribute"></a><span data-ttu-id="3db77-103">MF \_ MT \_ VIDEO \_ 3d 屬性</span><span class="sxs-lookup"><span data-stu-id="3db77-103">MF\_MT\_VIDEO\_3D attribute</span></span>
 
-<span data-ttu-id="25b40-104">指定影片資料流程是否包含3D 內容。</span><span class="sxs-lookup"><span data-stu-id="25b40-104">Specifies whether a video stream contains 3D content.</span></span>
+<span data-ttu-id="3db77-104">指定影片資料流程是否包含3D 內容。</span><span class="sxs-lookup"><span data-stu-id="3db77-104">Specifies whether a video stream contains 3D content.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="25b40-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="25b40-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="3db77-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="3db77-105">Data type</span></span>
 
-<span data-ttu-id="25b40-106">**BOOL** 儲存為 **UINT32**</span><span class="sxs-lookup"><span data-stu-id="25b40-106">**BOOL** stored as **UINT32**</span></span>
+<span data-ttu-id="3db77-106">**BOOL** 儲存為 **UINT32**</span><span class="sxs-lookup"><span data-stu-id="3db77-106">**BOOL** stored as **UINT32**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="25b40-107">備註</span><span class="sxs-lookup"><span data-stu-id="25b40-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3db77-107">備註</span><span class="sxs-lookup"><span data-stu-id="3db77-107">Remarks</span></span>
 
-<span data-ttu-id="25b40-108">此屬性適用于影片媒體類型。</span><span class="sxs-lookup"><span data-stu-id="25b40-108">This attribute applies to video media types.</span></span> <span data-ttu-id="25b40-109">如果此屬性為 **TRUE**，則影片串流包含3d 內容。</span><span class="sxs-lookup"><span data-stu-id="25b40-109">If this attribute is **TRUE**, the video stream contains 3D content.</span></span> <span data-ttu-id="25b40-110">預設值為 **FALSE**。</span><span class="sxs-lookup"><span data-stu-id="25b40-110">The default value is **FALSE**.</span></span>
+<span data-ttu-id="3db77-108">此屬性適用于影片媒體類型。</span><span class="sxs-lookup"><span data-stu-id="3db77-108">This attribute applies to video media types.</span></span> <span data-ttu-id="3db77-109">如果此屬性為 **TRUE**，則影片串流包含3d 內容。</span><span class="sxs-lookup"><span data-stu-id="3db77-109">If this attribute is **TRUE**, the video stream contains 3D content.</span></span> <span data-ttu-id="3db77-110">預設值為 **FALSE**。</span><span class="sxs-lookup"><span data-stu-id="3db77-110">The default value is **FALSE**.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="25b40-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="25b40-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3db77-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="3db77-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="25b40-112">需求</span><span class="sxs-lookup"><span data-stu-id="25b40-112">Requirement</span></span> | <span data-ttu-id="25b40-113">值</span><span class="sxs-lookup"><span data-stu-id="25b40-113">Value</span></span> |
+| <span data-ttu-id="3db77-112">需求</span><span class="sxs-lookup"><span data-stu-id="3db77-112">Requirement</span></span> | <span data-ttu-id="3db77-113">值</span><span class="sxs-lookup"><span data-stu-id="3db77-113">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="25b40-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="25b40-114">Minimum supported client</span></span><br/> | <span data-ttu-id="25b40-115">Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="25b40-115">Windows 8 \[desktop apps \| UWP apps\]</span></span><br/>                                  |
-| <span data-ttu-id="25b40-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="25b40-116">Minimum supported server</span></span><br/> | <span data-ttu-id="25b40-117">Windows Server 2012 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="25b40-117">Windows Server 2012 \[desktop apps \| UWP apps\]</span></span><br/>                        |
-| <span data-ttu-id="25b40-118">標頭</span><span class="sxs-lookup"><span data-stu-id="25b40-118">Header</span></span><br/>                   | <dl> <span data-ttu-id="25b40-119"><dt>Mfapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="25b40-119"><dt>Mfapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="3db77-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3db77-114">Minimum supported client</span></span><br/> | <span data-ttu-id="3db77-115">Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3db77-115">Windows 8 \[desktop apps \| UWP apps\]</span></span><br/>                                  |
+| <span data-ttu-id="3db77-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3db77-116">Minimum supported server</span></span><br/> | <span data-ttu-id="3db77-117">Windows Server 2012 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3db77-117">Windows Server 2012 \[desktop apps \| UWP apps\]</span></span><br/>                        |
+| <span data-ttu-id="3db77-118">標頭</span><span class="sxs-lookup"><span data-stu-id="3db77-118">Header</span></span><br/>                   | <dl> <span data-ttu-id="3db77-119"><dt>Mfapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="3db77-119"><dt>Mfapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="25b40-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="25b40-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3db77-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3db77-120">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="25b40-121">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="25b40-121">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="3db77-121">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="3db77-121">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> </dl>
 
  

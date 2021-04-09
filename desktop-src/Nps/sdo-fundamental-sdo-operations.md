@@ -12,23 +12,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103683039"
 ---
-# <a name="fundamental-sdo-operations"></a><span data-ttu-id="a2fa4-103">基本的 SDO 作業</span><span class="sxs-lookup"><span data-stu-id="a2fa4-103">Fundamental SDO Operations</span></span>
+# <a name="fundamental-sdo-operations"></a><span data-ttu-id="2eb54-103">基本的 SDO 作業</span><span class="sxs-lookup"><span data-stu-id="2eb54-103">Fundamental SDO Operations</span></span>
 
-<span data-ttu-id="a2fa4-104">本節提供使用 SDO API 執行經常使用之作業的範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="a2fa4-104">This section provides sample code for performing frequently-used operations with the SDO API.</span></span>
+<span data-ttu-id="2eb54-104">本節提供使用 SDO API 執行經常使用之作業的範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="2eb54-104">This section provides sample code for performing frequently-used operations with the SDO API.</span></span>
 
--   [<span data-ttu-id="a2fa4-105">附加至 SDO-Enabled 電腦</span><span class="sxs-lookup"><span data-stu-id="a2fa4-105">Attaching to an SDO-Enabled Computer</span></span>](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
--   [<span data-ttu-id="a2fa4-106">正在抓取服務 SDO</span><span class="sxs-lookup"><span data-stu-id="a2fa4-106">Retrieving a Service SDO</span></span>](/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
--   [<span data-ttu-id="a2fa4-107">正在抓取使用者 SDO</span><span class="sxs-lookup"><span data-stu-id="a2fa4-107">Retrieving a User SDO</span></span>](/windows/desktop/Nps/sdo-retrieving-a-user-sdo)
--   [<span data-ttu-id="a2fa4-108">正在抓取集合</span><span class="sxs-lookup"><span data-stu-id="a2fa4-108">Retrieving a Collection</span></span>](/windows/desktop/Nps/sdo-retrieving-a-collection)
--   [<span data-ttu-id="a2fa4-109">將物件加入至集合</span><span class="sxs-lookup"><span data-stu-id="a2fa4-109">Adding an Object to a Collection</span></span>](/windows/desktop/Nps/sdo-adding-an-object-to-a-collection)
--   [<span data-ttu-id="a2fa4-110">從集合中取出物件</span><span class="sxs-lookup"><span data-stu-id="a2fa4-110">Retrieving an Object from a Collection</span></span>](/windows/desktop/Nps/sdo-retrieving-an-object-from-a-collection)
--   [<span data-ttu-id="a2fa4-111">列舉集合中的物件</span><span class="sxs-lookup"><span data-stu-id="a2fa4-111">Enumerating Objects in a Collection</span></span>](/windows/desktop/Nps/sdo-enumerating-objects-in-a-collection)
+-   [<span data-ttu-id="2eb54-105">附加至 SDO-Enabled 電腦</span><span class="sxs-lookup"><span data-stu-id="2eb54-105">Attaching to an SDO-Enabled Computer</span></span>](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
+-   [<span data-ttu-id="2eb54-106">正在抓取服務 SDO</span><span class="sxs-lookup"><span data-stu-id="2eb54-106">Retrieving a Service SDO</span></span>](/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
+-   [<span data-ttu-id="2eb54-107">正在抓取使用者 SDO</span><span class="sxs-lookup"><span data-stu-id="2eb54-107">Retrieving a User SDO</span></span>](/windows/desktop/Nps/sdo-retrieving-a-user-sdo)
+-   [<span data-ttu-id="2eb54-108">正在抓取集合</span><span class="sxs-lookup"><span data-stu-id="2eb54-108">Retrieving a Collection</span></span>](/windows/desktop/Nps/sdo-retrieving-a-collection)
+-   [<span data-ttu-id="2eb54-109">將物件加入至集合</span><span class="sxs-lookup"><span data-stu-id="2eb54-109">Adding an Object to a Collection</span></span>](/windows/desktop/Nps/sdo-adding-an-object-to-a-collection)
+-   [<span data-ttu-id="2eb54-110">從集合中取出物件</span><span class="sxs-lookup"><span data-stu-id="2eb54-110">Retrieving an Object from a Collection</span></span>](/windows/desktop/Nps/sdo-retrieving-an-object-from-a-collection)
+-   [<span data-ttu-id="2eb54-111">列舉集合中的物件</span><span class="sxs-lookup"><span data-stu-id="2eb54-111">Enumerating Objects in a Collection</span></span>](/windows/desktop/Nps/sdo-enumerating-objects-in-a-collection)
 
-## <a name="related-topics"></a><span data-ttu-id="a2fa4-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="a2fa4-112">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2eb54-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="2eb54-112">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a2fa4-113">SDO 工作</span><span class="sxs-lookup"><span data-stu-id="a2fa4-113">SDO Tasks</span></span>](/windows/desktop/Nps/sdo-sdo-tasks)
+[<span data-ttu-id="2eb54-113">SDO 工作</span><span class="sxs-lookup"><span data-stu-id="2eb54-113">SDO Tasks</span></span>](/windows/desktop/Nps/sdo-sdo-tasks)
 </dt> </dl>
 
  

@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851072"
 ---
-# <a name="certificatepolicies-properties"></a><span data-ttu-id="1e487-103">CertificatePolicies 屬性</span><span class="sxs-lookup"><span data-stu-id="1e487-103">CertificatePolicies Properties</span></span>
+# <a name="certificatepolicies-properties"></a><span data-ttu-id="f6289-103">CertificatePolicies 屬性</span><span class="sxs-lookup"><span data-stu-id="f6289-103">CertificatePolicies Properties</span></span>
 
-<span data-ttu-id="1e487-104">[**CertificatePolicies**](certificatepolicies.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="1e487-104">The [**CertificatePolicies**](certificatepolicies.md) object exposes the following properties.</span></span>
+<span data-ttu-id="f6289-104">[**CertificatePolicies**](certificatepolicies.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="f6289-104">The [**CertificatePolicies**](certificatepolicies.md) object exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="1e487-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="1e487-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f6289-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="f6289-105">In this section</span></span>
 
--   [<span data-ttu-id="1e487-106">**\_NewEnum 屬性**</span><span class="sxs-lookup"><span data-stu-id="1e487-106">**\_NewEnum Property**</span></span>](certificatepolicies-newenum.md)
--   [<span data-ttu-id="1e487-107">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="1e487-107">**Count Property**</span></span>](certificatepolicies-count.md)
--   [<span data-ttu-id="1e487-108">**Item 屬性**</span><span class="sxs-lookup"><span data-stu-id="1e487-108">**Item Property**</span></span>](certificatepolicies-item.md)
+-   [<span data-ttu-id="f6289-106">**\_NewEnum 屬性**</span><span class="sxs-lookup"><span data-stu-id="f6289-106">**\_NewEnum Property**</span></span>](certificatepolicies-newenum.md)
+-   [<span data-ttu-id="f6289-107">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="f6289-107">**Count Property**</span></span>](certificatepolicies-count.md)
+-   [<span data-ttu-id="f6289-108">**Item 屬性**</span><span class="sxs-lookup"><span data-stu-id="f6289-108">**Item Property**</span></span>](certificatepolicies-item.md)
 
  
 
