@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852515"
 ---
-# <a name="ix509enrollment2-methods"></a><span data-ttu-id="f9e26-103">IX509Enrollment2 方法</span><span class="sxs-lookup"><span data-stu-id="f9e26-103">IX509Enrollment2 Methods</span></span>
+# <a name="ix509enrollment2-methods"></a><span data-ttu-id="6e7c5-103">IX509Enrollment2 方法</span><span class="sxs-lookup"><span data-stu-id="6e7c5-103">IX509Enrollment2 Methods</span></span>
 
-<span data-ttu-id="f9e26-104">[**IX509Enrollment2**](/windows/desktop/api/Certenroll/nn-certenroll-ix509enrollment2)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="f9e26-104">The [**IX509Enrollment2**](/windows/desktop/api/Certenroll/nn-certenroll-ix509enrollment2) interface exposes the following methods.</span></span>
+<span data-ttu-id="6e7c5-104">[**IX509Enrollment2**](/windows/desktop/api/Certenroll/nn-certenroll-ix509enrollment2)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="6e7c5-104">The [**IX509Enrollment2**](/windows/desktop/api/Certenroll/nn-certenroll-ix509enrollment2) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f9e26-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="f9e26-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6e7c5-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="6e7c5-105">In this section</span></span>
 
--   [<span data-ttu-id="f9e26-106">**InitializeFromTemplate 方法**</span><span class="sxs-lookup"><span data-stu-id="f9e26-106">**InitializeFromTemplate Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-initializefromtemplate)
--   [<span data-ttu-id="f9e26-107">**InstallResponse2 方法**</span><span class="sxs-lookup"><span data-stu-id="f9e26-107">**InstallResponse2 Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-installresponse2)
+-   [<span data-ttu-id="6e7c5-106">**InitializeFromTemplate 方法**</span><span class="sxs-lookup"><span data-stu-id="6e7c5-106">**InitializeFromTemplate Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-initializefromtemplate)
+-   [<span data-ttu-id="6e7c5-107">**InstallResponse2 方法**</span><span class="sxs-lookup"><span data-stu-id="6e7c5-107">**InstallResponse2 Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-installresponse2)
 
  
 

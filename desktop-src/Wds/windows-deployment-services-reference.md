@@ -13,17 +13,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103853068"
 ---
-# <a name="windows-deployment-services-reference"></a><span data-ttu-id="45e1e-104">Windows 部署服務參考</span><span class="sxs-lookup"><span data-stu-id="45e1e-104">Windows Deployment Services Reference</span></span>
+# <a name="windows-deployment-services-reference"></a><span data-ttu-id="98aaa-104">Windows 部署服務參考</span><span class="sxs-lookup"><span data-stu-id="98aaa-104">Windows Deployment Services Reference</span></span>
 
-<span data-ttu-id="45e1e-105">本節說明 Windows 部署服務中可用的程式設計項目：</span><span class="sxs-lookup"><span data-stu-id="45e1e-105">This section describes the programming elements available in Windows Deployment Services:</span></span>
+<span data-ttu-id="98aaa-105">本節說明 Windows 部署服務中可用的程式設計項目：</span><span class="sxs-lookup"><span data-stu-id="98aaa-105">This section describes the programming elements available in Windows Deployment Services:</span></span>
 
--   [<span data-ttu-id="45e1e-106">Windows 部署服務用戶端函數</span><span class="sxs-lookup"><span data-stu-id="45e1e-106">Windows Deployment Services Client Functions</span></span>](windows-deployment-services-client-functions.md)
--   [<span data-ttu-id="45e1e-107">Windows 部署服務伺服器函數</span><span class="sxs-lookup"><span data-stu-id="45e1e-107">Windows Deployment Services Server Functions</span></span>](windows-deployment-services-server-functions.md)
--   [<span data-ttu-id="45e1e-108">Windows 部署服務傳輸函數</span><span class="sxs-lookup"><span data-stu-id="45e1e-108">Windows Deployment Services Transport Functions</span></span>](windows-deployment-services-transport--functions.md)
--   [<span data-ttu-id="45e1e-109">Windows 部署服務列舉</span><span class="sxs-lookup"><span data-stu-id="45e1e-109">Windows Deployment Services Enumerations</span></span>](windows-deployment-services-enumerations.md)
--   [<span data-ttu-id="45e1e-110">Windows 部署服務結構</span><span class="sxs-lookup"><span data-stu-id="45e1e-110">Windows Deployment Services Structures</span></span>](windows-deployment-services-structures.md)
--   [<span data-ttu-id="45e1e-111">Windows 部署服務傳輸管理 API</span><span class="sxs-lookup"><span data-stu-id="45e1e-111">Windows Deployment Services Transport Management API</span></span>](windows-deployment-services-transport-management-api.md)
--   [<span data-ttu-id="45e1e-112">Windows 部署服務網路開機程式</span><span class="sxs-lookup"><span data-stu-id="45e1e-112">Windows Deployment Services Network Boot Program</span></span>](windows-deployment-services-network-boot-program.md)
+-   [<span data-ttu-id="98aaa-106">Windows 部署服務用戶端函數</span><span class="sxs-lookup"><span data-stu-id="98aaa-106">Windows Deployment Services Client Functions</span></span>](windows-deployment-services-client-functions.md)
+-   [<span data-ttu-id="98aaa-107">Windows 部署服務伺服器函數</span><span class="sxs-lookup"><span data-stu-id="98aaa-107">Windows Deployment Services Server Functions</span></span>](windows-deployment-services-server-functions.md)
+-   [<span data-ttu-id="98aaa-108">Windows 部署服務傳輸函數</span><span class="sxs-lookup"><span data-stu-id="98aaa-108">Windows Deployment Services Transport Functions</span></span>](windows-deployment-services-transport--functions.md)
+-   [<span data-ttu-id="98aaa-109">Windows 部署服務列舉</span><span class="sxs-lookup"><span data-stu-id="98aaa-109">Windows Deployment Services Enumerations</span></span>](windows-deployment-services-enumerations.md)
+-   [<span data-ttu-id="98aaa-110">Windows 部署服務結構</span><span class="sxs-lookup"><span data-stu-id="98aaa-110">Windows Deployment Services Structures</span></span>](windows-deployment-services-structures.md)
+-   [<span data-ttu-id="98aaa-111">Windows 部署服務傳輸管理 API</span><span class="sxs-lookup"><span data-stu-id="98aaa-111">Windows Deployment Services Transport Management API</span></span>](windows-deployment-services-transport-management-api.md)
+-   [<span data-ttu-id="98aaa-112">Windows 部署服務網路開機程式</span><span class="sxs-lookup"><span data-stu-id="98aaa-112">Windows Deployment Services Network Boot Program</span></span>](windows-deployment-services-network-boot-program.md)
 
  
 

@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686600"
 ---
-# <a name="dumpvminfo-method-of-the-win32_tsvm-class"></a><span data-ttu-id="6797a-106">Win32 TSVm 類別的 DumpVmInfo 方法 \_</span><span class="sxs-lookup"><span data-stu-id="6797a-106">DumpVmInfo method of the Win32\_TSVm class</span></span>
+# <a name="dumpvminfo-method-of-the-win32_tsvm-class"></a><span data-ttu-id="92c48-106">Win32 TSVm 類別的 DumpVmInfo 方法 \_</span><span class="sxs-lookup"><span data-stu-id="92c48-106">DumpVmInfo method of the Win32\_TSVm class</span></span>
 
-<span data-ttu-id="6797a-107">此成員適用于內部測試，不應在您的程式碼中使用。</span><span class="sxs-lookup"><span data-stu-id="6797a-107">This member is for internal testing purposes, and should not be used in your code.</span></span>
+<span data-ttu-id="92c48-107">此成員適用于內部測試，不應在您的程式碼中使用。</span><span class="sxs-lookup"><span data-stu-id="92c48-107">This member is for internal testing purposes, and should not be used in your code.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6797a-108">語法</span><span class="sxs-lookup"><span data-stu-id="6797a-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="92c48-108">語法</span><span class="sxs-lookup"><span data-stu-id="92c48-108">Syntax</span></span>
 
 
 ```mof
@@ -37,33 +37,33 @@ uint32 DumpVmInfo();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="6797a-109">參數</span><span class="sxs-lookup"><span data-stu-id="6797a-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="92c48-109">參數</span><span class="sxs-lookup"><span data-stu-id="92c48-109">Parameters</span></span>
 
-<span data-ttu-id="6797a-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="6797a-110">This method has no parameters.</span></span>
+<span data-ttu-id="92c48-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="92c48-110">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="6797a-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="6797a-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="92c48-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="92c48-111">Return value</span></span>
 
-<span data-ttu-id="6797a-112">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="6797a-112">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="6797a-113">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="6797a-113">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
+<span data-ttu-id="92c48-112">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="92c48-112">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="92c48-113">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="92c48-113">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="6797a-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="6797a-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="92c48-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="92c48-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="6797a-115">需求</span><span class="sxs-lookup"><span data-stu-id="6797a-115">Requirement</span></span> | <span data-ttu-id="6797a-116">值</span><span class="sxs-lookup"><span data-stu-id="6797a-116">Value</span></span> |
+| <span data-ttu-id="92c48-115">需求</span><span class="sxs-lookup"><span data-stu-id="92c48-115">Requirement</span></span> | <span data-ttu-id="92c48-116">值</span><span class="sxs-lookup"><span data-stu-id="92c48-116">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| <span data-ttu-id="6797a-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6797a-117">Minimum supported client</span></span><br/> | <span data-ttu-id="6797a-118">都不支援</span><span class="sxs-lookup"><span data-stu-id="6797a-118">None supported</span></span><br/>                                                                  |
-| <span data-ttu-id="6797a-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6797a-119">Minimum supported server</span></span><br/> | <span data-ttu-id="6797a-120">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="6797a-120">Windows Server 2012</span></span><br/>                                                             |
-| <span data-ttu-id="6797a-121">命名空間</span><span class="sxs-lookup"><span data-stu-id="6797a-121">Namespace</span></span><br/>                | <span data-ttu-id="6797a-122">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="6797a-122">Root\\CIMv2\\TerminalServices</span></span><br/>                                                   |
-| <span data-ttu-id="6797a-123">MOF</span><span class="sxs-lookup"><span data-stu-id="6797a-123">MOF</span></span><br/>                      | <dl> <span data-ttu-id="6797a-124"><dt>TSVmHost mof</dt></span><span class="sxs-lookup"><span data-stu-id="6797a-124"><dt>TSVmHost.mof</dt></span></span> </dl>    |
-| <span data-ttu-id="6797a-125">DLL</span><span class="sxs-lookup"><span data-stu-id="6797a-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6797a-126"><dt>TSVmHostWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="6797a-126"><dt>TSVmHostWmi.dll</dt></span></span> </dl> |
+| <span data-ttu-id="92c48-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="92c48-117">Minimum supported client</span></span><br/> | <span data-ttu-id="92c48-118">都不支援</span><span class="sxs-lookup"><span data-stu-id="92c48-118">None supported</span></span><br/>                                                                  |
+| <span data-ttu-id="92c48-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="92c48-119">Minimum supported server</span></span><br/> | <span data-ttu-id="92c48-120">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="92c48-120">Windows Server 2012</span></span><br/>                                                             |
+| <span data-ttu-id="92c48-121">命名空間</span><span class="sxs-lookup"><span data-stu-id="92c48-121">Namespace</span></span><br/>                | <span data-ttu-id="92c48-122">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="92c48-122">Root\\CIMv2\\TerminalServices</span></span><br/>                                                   |
+| <span data-ttu-id="92c48-123">MOF</span><span class="sxs-lookup"><span data-stu-id="92c48-123">MOF</span></span><br/>                      | <dl> <span data-ttu-id="92c48-124"><dt>TSVmHost mof</dt></span><span class="sxs-lookup"><span data-stu-id="92c48-124"><dt>TSVmHost.mof</dt></span></span> </dl>    |
+| <span data-ttu-id="92c48-125">DLL</span><span class="sxs-lookup"><span data-stu-id="92c48-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="92c48-126"><dt>TSVmHostWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="92c48-126"><dt>TSVmHostWmi.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="6797a-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6797a-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92c48-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="92c48-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6797a-128">**Win32 \_ TSVm**</span><span class="sxs-lookup"><span data-stu-id="6797a-128">**Win32\_TSVm**</span></span>](win32-tsvm.md)
+[<span data-ttu-id="92c48-128">**Win32 \_ TSVm**</span><span class="sxs-lookup"><span data-stu-id="92c48-128">**Win32\_TSVm**</span></span>](win32-tsvm.md)
 </dt> </dl>
 
  

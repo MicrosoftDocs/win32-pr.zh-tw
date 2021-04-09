@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689427"
 ---
-# <a name="apijetcreatedatabase2-method"></a><span data-ttu-id="1719c-103">JetCreateDatabase2 方法</span><span class="sxs-lookup"><span data-stu-id="1719c-103">Api.JetCreateDatabase2 method</span></span>
+# <a name="apijetcreatedatabase2-method"></a><span data-ttu-id="c7625-103">JetCreateDatabase2 方法</span><span class="sxs-lookup"><span data-stu-id="c7625-103">Api.JetCreateDatabase2 method</span></span>
 
-<span data-ttu-id="1719c-104">建立並附加資料庫檔案，並指定最大資料庫大小。</span><span class="sxs-lookup"><span data-stu-id="1719c-104">Creates and attaches a database file with a maximum database size specified.</span></span>
+<span data-ttu-id="c7625-104">建立並附加資料庫檔案，並指定最大資料庫大小。</span><span class="sxs-lookup"><span data-stu-id="c7625-104">Creates and attaches a database file with a maximum database size specified.</span></span>
 
-<span data-ttu-id="1719c-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="1719c-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="1719c-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="1719c-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="c7625-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c7625-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="c7625-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c7625-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1719c-107">語法</span><span class="sxs-lookup"><span data-stu-id="1719c-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c7625-107">語法</span><span class="sxs-lookup"><span data-stu-id="c7625-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -68,47 +68,47 @@ public static void JetCreateDatabase2(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="1719c-108">參數</span><span class="sxs-lookup"><span data-stu-id="1719c-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="c7625-108">參數</span><span class="sxs-lookup"><span data-stu-id="c7625-108">Parameters</span></span>
 
-  - <span data-ttu-id="1719c-109">sesid</span><span class="sxs-lookup"><span data-stu-id="1719c-109">sesid</span></span>  
-    <span data-ttu-id="1719c-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="1719c-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="c7625-109">sesid</span><span class="sxs-lookup"><span data-stu-id="c7625-109">sesid</span></span>  
+    <span data-ttu-id="c7625-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="c7625-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="1719c-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="1719c-111">The session to use.</span></span>
+    <span data-ttu-id="c7625-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="c7625-111">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1719c-112">[資料庫]</span><span class="sxs-lookup"><span data-stu-id="1719c-112">database</span></span>  
-    <span data-ttu-id="1719c-113">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="1719c-113">Type: [System.String](/dotnet/api/system.string)</span></span>  
+  - <span data-ttu-id="c7625-112">[資料庫]</span><span class="sxs-lookup"><span data-stu-id="c7625-112">database</span></span>  
+    <span data-ttu-id="c7625-113">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="c7625-113">Type: [System.String](/dotnet/api/system.string)</span></span>  
     
-    <span data-ttu-id="1719c-114">要建立之資料庫檔案的路徑。</span><span class="sxs-lookup"><span data-stu-id="1719c-114">The path to the database file to create.</span></span>
+    <span data-ttu-id="c7625-114">要建立之資料庫檔案的路徑。</span><span class="sxs-lookup"><span data-stu-id="c7625-114">The path to the database file to create.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1719c-115">maxPages</span><span class="sxs-lookup"><span data-stu-id="1719c-115">maxPages</span></span>  
-    <span data-ttu-id="1719c-116">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="1719c-116">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="c7625-115">maxPages</span><span class="sxs-lookup"><span data-stu-id="c7625-115">maxPages</span></span>  
+    <span data-ttu-id="c7625-116">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="c7625-116">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="1719c-117">資料庫的大小上限（資料庫頁面）。</span><span class="sxs-lookup"><span data-stu-id="1719c-117">The maximum size, in database pages, of the database.</span></span> <span data-ttu-id="1719c-118">傳遞0表示沒有強制執行的最大值。</span><span class="sxs-lookup"><span data-stu-id="1719c-118">Passing 0 means there is no enforced maximum.</span></span>
+    <span data-ttu-id="c7625-117">資料庫的大小上限（資料庫頁面）。</span><span class="sxs-lookup"><span data-stu-id="c7625-117">The maximum size, in database pages, of the database.</span></span> <span data-ttu-id="c7625-118">傳遞0表示沒有強制執行的最大值。</span><span class="sxs-lookup"><span data-stu-id="c7625-118">Passing 0 means there is no enforced maximum.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1719c-119">dbid</span><span class="sxs-lookup"><span data-stu-id="1719c-119">dbid</span></span>  
-    <span data-ttu-id="1719c-120">類型： [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="1719c-120">Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)</span></span>  
+  - <span data-ttu-id="c7625-119">dbid</span><span class="sxs-lookup"><span data-stu-id="c7625-119">dbid</span></span>  
+    <span data-ttu-id="c7625-120">類型： [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="c7625-120">Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)</span></span>  
     
-    <span data-ttu-id="1719c-121">傳回新資料庫的 dbid。</span><span class="sxs-lookup"><span data-stu-id="1719c-121">Returns the dbid of the new database.</span></span>
+    <span data-ttu-id="c7625-121">傳回新資料庫的 dbid。</span><span class="sxs-lookup"><span data-stu-id="c7625-121">Returns the dbid of the new database.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1719c-122">grbit</span><span class="sxs-lookup"><span data-stu-id="1719c-122">grbit</span></span>  
-    <span data-ttu-id="1719c-123">型別： [CreateDatabaseGrbit](./createdatabasegrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="1719c-123">Type: [Microsoft.Isam.Esent.Interop.CreateDatabaseGrbit](./createdatabasegrbit-enumeration.md)</span></span>  
+  - <span data-ttu-id="c7625-122">grbit</span><span class="sxs-lookup"><span data-stu-id="c7625-122">grbit</span></span>  
+    <span data-ttu-id="c7625-123">型別： [CreateDatabaseGrbit](./createdatabasegrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="c7625-123">Type: [Microsoft.Isam.Esent.Interop.CreateDatabaseGrbit](./createdatabasegrbit-enumeration.md)</span></span>  
     
-    <span data-ttu-id="1719c-124">資料庫建立選項。</span><span class="sxs-lookup"><span data-stu-id="1719c-124">Database creation options.</span></span>
+    <span data-ttu-id="c7625-124">資料庫建立選項。</span><span class="sxs-lookup"><span data-stu-id="c7625-124">Database creation options.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1719c-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1719c-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c7625-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c7625-125">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="1719c-126">參考</span><span class="sxs-lookup"><span data-stu-id="1719c-126">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="c7625-126">參考</span><span class="sxs-lookup"><span data-stu-id="c7625-126">Reference</span></span>
 
-[<span data-ttu-id="1719c-127">Api 類別</span><span class="sxs-lookup"><span data-stu-id="1719c-127">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="c7625-127">Api 類別</span><span class="sxs-lookup"><span data-stu-id="c7625-127">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="1719c-128">Api 成員</span><span class="sxs-lookup"><span data-stu-id="1719c-128">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="c7625-128">Api 成員</span><span class="sxs-lookup"><span data-stu-id="c7625-128">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="1719c-129">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="1719c-129">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="c7625-129">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c7625-129">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

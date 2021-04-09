@@ -22,13 +22,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852020"
 ---
-# <a name="__namespace-class"></a><span data-ttu-id="74212-103">\_\_Namespace 類別</span><span class="sxs-lookup"><span data-stu-id="74212-103">\_\_Namespace class</span></span>
+# <a name="__namespace-class"></a><span data-ttu-id="d99d8-103">\_\_Namespace 類別</span><span class="sxs-lookup"><span data-stu-id="d99d8-103">\_\_Namespace class</span></span>
 
-<span data-ttu-id="74212-104">**\_ \_ Namespace** 系統類別代表 WMI 命名空間。</span><span class="sxs-lookup"><span data-stu-id="74212-104">The **\_\_Namespace** system class represents a WMI namespace.</span></span>
+<span data-ttu-id="d99d8-104">**\_ \_ Namespace** 系統類別代表 WMI 命名空間。</span><span class="sxs-lookup"><span data-stu-id="d99d8-104">The **\_\_Namespace** system class represents a WMI namespace.</span></span>
 
-<span data-ttu-id="74212-105">下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="74212-105">The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.</span></span> <span data-ttu-id="74212-106">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="74212-106">Properties are listed in alphabetic order, not MOF order.</span></span>
+<span data-ttu-id="d99d8-105">下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="d99d8-105">The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.</span></span> <span data-ttu-id="d99d8-106">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="d99d8-106">Properties are listed in alphabetic order, not MOF order.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="74212-107">語法</span><span class="sxs-lookup"><span data-stu-id="74212-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d99d8-107">語法</span><span class="sxs-lookup"><span data-stu-id="d99d8-107">Syntax</span></span>
 
 ``` syntax
 class __Namespace : __SystemClass
@@ -37,49 +37,49 @@ class __Namespace : __SystemClass
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="74212-108">成員</span><span class="sxs-lookup"><span data-stu-id="74212-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="d99d8-108">成員</span><span class="sxs-lookup"><span data-stu-id="d99d8-108">Members</span></span>
 
-<span data-ttu-id="74212-109">**\_ \_ Namespace** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="74212-109">The **\_\_Namespace** class has these types of members:</span></span>
+<span data-ttu-id="d99d8-109">**\_ \_ Namespace** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="d99d8-109">The **\_\_Namespace** class has these types of members:</span></span>
 
--   [<span data-ttu-id="74212-110">屬性</span><span class="sxs-lookup"><span data-stu-id="74212-110">Properties</span></span>](#properties)
+-   [<span data-ttu-id="d99d8-110">屬性</span><span class="sxs-lookup"><span data-stu-id="d99d8-110">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="74212-111">屬性</span><span class="sxs-lookup"><span data-stu-id="74212-111">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="d99d8-111">屬性</span><span class="sxs-lookup"><span data-stu-id="d99d8-111">Properties</span></span>
 
-<span data-ttu-id="74212-112">**\_ \_ Namespace** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="74212-112">The **\_\_Namespace** class has these properties.</span></span>
+<span data-ttu-id="d99d8-112">**\_ \_ Namespace** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="d99d8-112">The **\_\_Namespace** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="74212-113">**名稱**</span><span class="sxs-lookup"><span data-stu-id="74212-113">**Name**</span></span>
+<span data-ttu-id="d99d8-113">**名稱**</span><span class="sxs-lookup"><span data-stu-id="d99d8-113">**Name**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="74212-114">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="74212-114">Data type: **string**</span></span>
+<span data-ttu-id="d99d8-114">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="d99d8-114">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="74212-115">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="74212-115">Access type: Read/write</span></span>
+<span data-ttu-id="d99d8-115">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="d99d8-115">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="74212-116">限定詞：索引 [**鍵**](standard-qualifiers.md)</span><span class="sxs-lookup"><span data-stu-id="74212-116">Qualifiers: [**Key**](standard-qualifiers.md)</span></span>
+<span data-ttu-id="d99d8-116">限定詞：索引 [**鍵**](standard-qualifiers.md)</span><span class="sxs-lookup"><span data-stu-id="d99d8-116">Qualifiers: [**Key**](standard-qualifiers.md)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="74212-117">命名空間名稱。</span><span class="sxs-lookup"><span data-stu-id="74212-117">Namespace name.</span></span>
+<span data-ttu-id="d99d8-117">命名空間名稱。</span><span class="sxs-lookup"><span data-stu-id="d99d8-117">Namespace name.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="74212-118">備註</span><span class="sxs-lookup"><span data-stu-id="74212-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d99d8-118">備註</span><span class="sxs-lookup"><span data-stu-id="d99d8-118">Remarks</span></span>
 
-<span data-ttu-id="74212-119">**\_ \_ 命名空間** 類別衍生自沒有屬性的 [**\_ \_ SystemClass**](--systemclass.md)。</span><span class="sxs-lookup"><span data-stu-id="74212-119">The **\_\_Namespace** class is derived from [**\_\_SystemClass**](--systemclass.md), which has no properties.</span></span>
+<span data-ttu-id="d99d8-119">**\_ \_ 命名空間** 類別衍生自沒有屬性的 [**\_ \_ SystemClass**](--systemclass.md)。</span><span class="sxs-lookup"><span data-stu-id="d99d8-119">The **\_\_Namespace** class is derived from [**\_\_SystemClass**](--systemclass.md), which has no properties.</span></span>
 
-<span data-ttu-id="74212-120">您可以使用 **\_ \_ 命名空間** 來識別、建立及刪除您擁有 [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices)物件之目前工作命名空間內的子命名空間。</span><span class="sxs-lookup"><span data-stu-id="74212-120">You can use **\_\_Namespace** to identify, create, and delete child namespaces within the current working namespace for which you have an [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) object.</span></span> <span data-ttu-id="74212-121">在任何工作的命名空間內建立 **\_ \_ 命名空間** 的新實例，會在工作的命名空間內建立子命名空間。</span><span class="sxs-lookup"><span data-stu-id="74212-121">Creating a new instance of **\_\_Namespace** within any working namespace creates a child namespace within the working namespace.</span></span> <span data-ttu-id="74212-122">相反地，刪除 **\_ \_ 命名空間** 的實例會從工作命名空間移除子命名空間。</span><span class="sxs-lookup"><span data-stu-id="74212-122">Conversely, deleting an instance of **\_\_Namespace** removes the child namespace from the working namespace.</span></span> <span data-ttu-id="74212-123">請注意，刪除子命名空間時，也會刪除其所有的類別和實例。</span><span class="sxs-lookup"><span data-stu-id="74212-123">Note that deleting a child namespace also deletes all of its classes and instances.</span></span>
+<span data-ttu-id="d99d8-120">您可以使用 **\_ \_ 命名空間** 來識別、建立及刪除您擁有 [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices)物件之目前工作命名空間內的子命名空間。</span><span class="sxs-lookup"><span data-stu-id="d99d8-120">You can use **\_\_Namespace** to identify, create, and delete child namespaces within the current working namespace for which you have an [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) object.</span></span> <span data-ttu-id="d99d8-121">在任何工作的命名空間內建立 **\_ \_ 命名空間** 的新實例，會在工作的命名空間內建立子命名空間。</span><span class="sxs-lookup"><span data-stu-id="d99d8-121">Creating a new instance of **\_\_Namespace** within any working namespace creates a child namespace within the working namespace.</span></span> <span data-ttu-id="d99d8-122">相反地，刪除 **\_ \_ 命名空間** 的實例會從工作命名空間移除子命名空間。</span><span class="sxs-lookup"><span data-stu-id="d99d8-122">Conversely, deleting an instance of **\_\_Namespace** removes the child namespace from the working namespace.</span></span> <span data-ttu-id="d99d8-123">請注意，刪除子命名空間時，也會刪除其所有的類別和實例。</span><span class="sxs-lookup"><span data-stu-id="d99d8-123">Note that deleting a child namespace also deletes all of its classes and instances.</span></span>
 
-<span data-ttu-id="74212-124">在任何工作的命名空間內列舉此類別的實例會提供可用的子命名空間。</span><span class="sxs-lookup"><span data-stu-id="74212-124">Enumerating instances of this class within any working namespace gives the available child namespaces.</span></span>
+<span data-ttu-id="d99d8-124">在任何工作的命名空間內列舉此類別的實例會提供可用的子命名空間。</span><span class="sxs-lookup"><span data-stu-id="d99d8-124">Enumerating instances of this class within any working namespace gives the available child namespaces.</span></span>
 
-<span data-ttu-id="74212-125">例如，在 \\ 根命名空間內是 **\_ \_ 命名空間** 的兩個實例。</span><span class="sxs-lookup"><span data-stu-id="74212-125">For example, within the \\root namespace are two instances of **\_\_Namespace**.</span></span> <span data-ttu-id="74212-126">其中一個屬性設定為 "Default"，另 **一個名稱屬性** 設 **為** "Cimv2"。</span><span class="sxs-lookup"><span data-stu-id="74212-126">One has its **Name** property set to "Default," the other has **Name** set to "Cimv2."</span></span> <span data-ttu-id="74212-127">這些實例分別代表 \\ 根 \\ 預設值和 \\ 根 \\ cimv2 命名空間。</span><span class="sxs-lookup"><span data-stu-id="74212-127">These instances represent the \\root\\default, and \\root\\cimv2 namespaces, respectively.</span></span>
+<span data-ttu-id="d99d8-125">例如，在 \\ 根命名空間內是 **\_ \_ 命名空間** 的兩個實例。</span><span class="sxs-lookup"><span data-stu-id="d99d8-125">For example, within the \\root namespace are two instances of **\_\_Namespace**.</span></span> <span data-ttu-id="d99d8-126">其中一個屬性設定為 "Default"，另 **一個名稱屬性** 設 **為** "Cimv2"。</span><span class="sxs-lookup"><span data-stu-id="d99d8-126">One has its **Name** property set to "Default," the other has **Name** set to "Cimv2."</span></span> <span data-ttu-id="d99d8-127">這些實例分別代表 \\ 根 \\ 預設值和 \\ 根 \\ cimv2 命名空間。</span><span class="sxs-lookup"><span data-stu-id="d99d8-127">These instances represent the \\root\\default, and \\root\\cimv2 namespaces, respectively.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="74212-128">範例</span><span class="sxs-lookup"><span data-stu-id="74212-128">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="d99d8-128">範例</span><span class="sxs-lookup"><span data-stu-id="d99d8-128">Examples</span></span>
 
-<span data-ttu-id="74212-129">TechNet 資源庫上的[所有 WMI 命名空間](https://Gallery.TechNet.Microsoft.Com/4a8e84f1-4b52-452c-ae4f-e4e00e266257)VBScript 範例都會使用遞迴呼叫來列出 \_ \_ 系統上命名空間類別的所有實例。</span><span class="sxs-lookup"><span data-stu-id="74212-129">The [List All WMI Namespaces](https://Gallery.TechNet.Microsoft.Com/4a8e84f1-4b52-452c-ae4f-e4e00e266257) VBScript example on the TechNet Gallery uses a recursive call to list all instances of the \_\_Namespace class on a system.</span></span>
+<span data-ttu-id="d99d8-129">TechNet 資源庫上的[所有 WMI 命名空間](https://Gallery.TechNet.Microsoft.Com/4a8e84f1-4b52-452c-ae4f-e4e00e266257)VBScript 範例都會使用遞迴呼叫來列出 \_ \_ 系統上命名空間類別的所有實例。</span><span class="sxs-lookup"><span data-stu-id="d99d8-129">The [List All WMI Namespaces](https://Gallery.TechNet.Microsoft.Com/4a8e84f1-4b52-452c-ae4f-e4e00e266257) VBScript example on the TechNet Gallery uses a recursive call to list all instances of the \_\_Namespace class on a system.</span></span>
 
-<span data-ttu-id="74212-130">下列程式碼範例會取出 PowerShell 中的所有命名空間。</span><span class="sxs-lookup"><span data-stu-id="74212-130">The following code sample retrieves all namespaces in PowerShell.</span></span>
+<span data-ttu-id="d99d8-130">下列程式碼範例會取出 PowerShell 中的所有命名空間。</span><span class="sxs-lookup"><span data-stu-id="d99d8-130">The following code sample retrieves all namespaces in PowerShell.</span></span>
 
 
 ```PowerShell
@@ -88,7 +88,7 @@ get-wmiobject __namespace -namespace 'root' -list -recurse | format-table __name
 
 
 
-<span data-ttu-id="74212-131">下列程式碼範例會改善先前的範例，並新增其他資訊。</span><span class="sxs-lookup"><span data-stu-id="74212-131">The following code sample improves on the previous sample, and adds in additional information.</span></span>
+<span data-ttu-id="d99d8-131">下列程式碼範例會改善先前的範例，並新增其他資訊。</span><span class="sxs-lookup"><span data-stu-id="d99d8-131">The following code sample improves on the previous sample, and adds in additional information.</span></span>
 
 
 ```PowerShell
@@ -106,26 +106,26 @@ $NameSpace| sort __namespace  | Format-Table @{Expression = "__Namespace"; Label
 
 
 
-## <a name="requirements"></a><span data-ttu-id="74212-132">規格需求</span><span class="sxs-lookup"><span data-stu-id="74212-132">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="d99d8-132">規格需求</span><span class="sxs-lookup"><span data-stu-id="d99d8-132">Requirements</span></span>
 
 
 
-| <span data-ttu-id="74212-133">需求</span><span class="sxs-lookup"><span data-stu-id="74212-133">Requirement</span></span> | <span data-ttu-id="74212-134">值</span><span class="sxs-lookup"><span data-stu-id="74212-134">Value</span></span> |
+| <span data-ttu-id="d99d8-133">需求</span><span class="sxs-lookup"><span data-stu-id="d99d8-133">Requirement</span></span> | <span data-ttu-id="d99d8-134">值</span><span class="sxs-lookup"><span data-stu-id="d99d8-134">Value</span></span> |
 |-------------------------------------|--------------------------------|
-| <span data-ttu-id="74212-135">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="74212-135">Minimum supported client</span></span><br/> | <span data-ttu-id="74212-136">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="74212-136">Windows Vista</span></span><br/>       |
-| <span data-ttu-id="74212-137">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="74212-137">Minimum supported server</span></span><br/> | <span data-ttu-id="74212-138">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="74212-138">Windows Server 2008</span></span><br/> |
-| <span data-ttu-id="74212-139">命名空間</span><span class="sxs-lookup"><span data-stu-id="74212-139">Namespace</span></span><br/>                | <span data-ttu-id="74212-140">所有 WMI 命名空間</span><span class="sxs-lookup"><span data-stu-id="74212-140">All WMI namespaces</span></span><br/>  |
+| <span data-ttu-id="d99d8-135">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d99d8-135">Minimum supported client</span></span><br/> | <span data-ttu-id="d99d8-136">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="d99d8-136">Windows Vista</span></span><br/>       |
+| <span data-ttu-id="d99d8-137">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d99d8-137">Minimum supported server</span></span><br/> | <span data-ttu-id="d99d8-138">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="d99d8-138">Windows Server 2008</span></span><br/> |
+| <span data-ttu-id="d99d8-139">命名空間</span><span class="sxs-lookup"><span data-stu-id="d99d8-139">Namespace</span></span><br/>                | <span data-ttu-id="d99d8-140">所有 WMI 命名空間</span><span class="sxs-lookup"><span data-stu-id="d99d8-140">All WMI namespaces</span></span><br/>  |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="74212-141">另請參閱</span><span class="sxs-lookup"><span data-stu-id="74212-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d99d8-141">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d99d8-141">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="74212-142">**\_\_SystemClass**</span><span class="sxs-lookup"><span data-stu-id="74212-142">**\_\_SystemClass**</span></span>](--systemclass.md)
+[<span data-ttu-id="d99d8-142">**\_\_SystemClass**</span><span class="sxs-lookup"><span data-stu-id="d99d8-142">**\_\_SystemClass**</span></span>](--systemclass.md)
 </dt> <dt>
 
-[<span data-ttu-id="74212-143">WMI 系統類別</span><span class="sxs-lookup"><span data-stu-id="74212-143">WMI System Classes</span></span>](wmi-system-classes.md)
+[<span data-ttu-id="d99d8-143">WMI 系統類別</span><span class="sxs-lookup"><span data-stu-id="d99d8-143">WMI System Classes</span></span>](wmi-system-classes.md)
 </dt> </dl>
 
  

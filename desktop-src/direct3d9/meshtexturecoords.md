@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103687447"
 ---
-# <a name="meshtexturecoords"></a><span data-ttu-id="ac30d-103">MeshTextureCoords</span><span class="sxs-lookup"><span data-stu-id="ac30d-103">MeshTextureCoords</span></span>
+# <a name="meshtexturecoords"></a><span data-ttu-id="ba8e8-103">MeshTextureCoords</span><span class="sxs-lookup"><span data-stu-id="ba8e8-103">MeshTextureCoords</span></span>
 
-<span data-ttu-id="ac30d-104">定義網格的材質座標。</span><span class="sxs-lookup"><span data-stu-id="ac30d-104">Defines a mesh's texture coordinates.</span></span>
+<span data-ttu-id="ba8e8-104">定義網格的材質座標。</span><span class="sxs-lookup"><span data-stu-id="ba8e8-104">Defines a mesh's texture coordinates.</span></span>
 
 ``` syntax
 template MeshTextureCoords
@@ -24,16 +24,16 @@ template MeshTextureCoords
 } 
 ```
 
-<span data-ttu-id="ac30d-105">其中：</span><span class="sxs-lookup"><span data-stu-id="ac30d-105">Where:</span></span>
+<span data-ttu-id="ba8e8-105">其中：</span><span class="sxs-lookup"><span data-stu-id="ba8e8-105">Where:</span></span>
 
--   <span data-ttu-id="ac30d-106">nTextureCoords-材質座標的數目。</span><span class="sxs-lookup"><span data-stu-id="ac30d-106">nTextureCoords - Number of texture coordinates.</span></span>
--   <span data-ttu-id="ac30d-107">陣列 Coords2d textureCoords \[ nTextureCoords \] -2d 材質座標的陣列。</span><span class="sxs-lookup"><span data-stu-id="ac30d-107">array Coords2d textureCoords\[nTextureCoords\] - Array of 2D texture coordinates.</span></span> <span data-ttu-id="ac30d-108">請參閱 [**Coords2d**](coords2d.md)。</span><span class="sxs-lookup"><span data-stu-id="ac30d-108">See [**Coords2d**](coords2d.md).</span></span>
+-   <span data-ttu-id="ba8e8-106">nTextureCoords-材質座標的數目。</span><span class="sxs-lookup"><span data-stu-id="ba8e8-106">nTextureCoords - Number of texture coordinates.</span></span>
+-   <span data-ttu-id="ba8e8-107">陣列 Coords2d textureCoords \[ nTextureCoords \] -2d 材質座標的陣列。</span><span class="sxs-lookup"><span data-stu-id="ba8e8-107">array Coords2d textureCoords\[nTextureCoords\] - Array of 2D texture coordinates.</span></span> <span data-ttu-id="ba8e8-108">請參閱 [**Coords2d**](coords2d.md)。</span><span class="sxs-lookup"><span data-stu-id="ba8e8-108">See [**Coords2d**](coords2d.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ac30d-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ac30d-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ba8e8-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ba8e8-109">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ac30d-110">範本</span><span class="sxs-lookup"><span data-stu-id="ac30d-110">Templates</span></span>](dx9-graphics-reference-x-file-format-templates.md)
+[<span data-ttu-id="ba8e8-110">範本</span><span class="sxs-lookup"><span data-stu-id="ba8e8-110">Templates</span></span>](dx9-graphics-reference-x-file-format-templates.md)
 </dt> </dl>
 
  

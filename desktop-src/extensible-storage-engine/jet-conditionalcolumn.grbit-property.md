@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103853032"
 ---
-# <a name="jet_conditionalcolumngrbit-property"></a><span data-ttu-id="c47d4-103">JET_CONDITIONALCOLUMN grbit 屬性</span><span class="sxs-lookup"><span data-stu-id="c47d4-103">JET_CONDITIONALCOLUMN.grbit property</span></span>
+# <a name="jet_conditionalcolumngrbit-property"></a><span data-ttu-id="def5a-103">JET_CONDITIONALCOLUMN grbit 屬性</span><span class="sxs-lookup"><span data-stu-id="def5a-103">JET_CONDITIONALCOLUMN.grbit property</span></span>
 
-<span data-ttu-id="c47d4-104">取得或設定條件式索引的選項。</span><span class="sxs-lookup"><span data-stu-id="c47d4-104">Gets or sets the options for the conditional index.</span></span>
+<span data-ttu-id="def5a-104">取得或設定條件式索引的選項。</span><span class="sxs-lookup"><span data-stu-id="def5a-104">Gets or sets the options for the conditional index.</span></span>
 
-<span data-ttu-id="c47d4-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c47d4-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="c47d4-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c47d4-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="def5a-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="def5a-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="def5a-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="def5a-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c47d4-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="c47d4-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="def5a-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="def5a-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.grbit = value
 public ConditionalColumnGrbit grbit { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="c47d4-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="c47d4-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="def5a-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="def5a-108">Property value</span></span>
 
-<span data-ttu-id="c47d4-109">型別： [ConditionalColumnGrbit](./conditionalcolumngrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="c47d4-109">Type: [Microsoft.Isam.Esent.Interop.ConditionalColumnGrbit](./conditionalcolumngrbit-enumeration.md)</span></span>  
+<span data-ttu-id="def5a-109">型別： [ConditionalColumnGrbit](./conditionalcolumngrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="def5a-109">Type: [Microsoft.Isam.Esent.Interop.ConditionalColumnGrbit](./conditionalcolumngrbit-enumeration.md)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="c47d4-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c47d4-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="def5a-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="def5a-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="c47d4-111">參考</span><span class="sxs-lookup"><span data-stu-id="c47d4-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="def5a-111">參考</span><span class="sxs-lookup"><span data-stu-id="def5a-111">Reference</span></span>
 
-[<span data-ttu-id="c47d4-112">JET_CONDITIONALCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="c47d4-112">JET_CONDITIONALCOLUMN class</span></span>](./jet-conditionalcolumn-class.md)
+[<span data-ttu-id="def5a-112">JET_CONDITIONALCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="def5a-112">JET_CONDITIONALCOLUMN class</span></span>](./jet-conditionalcolumn-class.md)
 
-[<span data-ttu-id="c47d4-113">JET_CONDITIONALCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="c47d4-113">JET_CONDITIONALCOLUMN members</span></span>](./jet-conditionalcolumn-members.md)
+[<span data-ttu-id="def5a-113">JET_CONDITIONALCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="def5a-113">JET_CONDITIONALCOLUMN members</span></span>](./jet-conditionalcolumn-members.md)
 
-[<span data-ttu-id="c47d4-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c47d4-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="def5a-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="def5a-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

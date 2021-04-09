@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026108"
 ---
-# <a name="propertybag-element-search-connector-schema"></a><span data-ttu-id="8678a-103">propertyBag 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="8678a-103">propertyBag Element (Search Connector Schema)</span></span>
+# <a name="propertybag-element-search-connector-schema"></a><span data-ttu-id="58ea9-103">propertyBag 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="58ea9-103">propertyBag Element (Search Connector Schema)</span></span>
 
-<span data-ttu-id="8678a-104">必要的 <propertyBag> 元素會指定這個位置提供者所使用的一或多個屬性集合。</span><span class="sxs-lookup"><span data-stu-id="8678a-104">The required <propertyBag> element specifies a set of one or more properties used by this location provider.</span></span>
+<span data-ttu-id="58ea9-104">必要的 <propertyBag> 元素會指定這個位置提供者所使用的一或多個屬性集合。</span><span class="sxs-lookup"><span data-stu-id="58ea9-104">The required <propertyBag> element specifies a set of one or more properties used by this location provider.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8678a-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="8678a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="58ea9-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="58ea9-105">Syntax</span></span>
 
 
 ```
@@ -42,19 +42,19 @@ ms.locfileid: "104026108"
 
 
 
-## <a name="element-information"></a><span data-ttu-id="8678a-106">項目資訊</span><span class="sxs-lookup"><span data-stu-id="8678a-106">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="58ea9-106">項目資訊</span><span class="sxs-lookup"><span data-stu-id="58ea9-106">Element Information</span></span>
 
 
 
-| <span data-ttu-id="8678a-107">Parent 項目</span><span class="sxs-lookup"><span data-stu-id="8678a-107">Parent Element</span></span>                                                                                 | <span data-ttu-id="8678a-108">子元素</span><span class="sxs-lookup"><span data-stu-id="8678a-108">Child Elements</span></span>                                                                                 |
+| <span data-ttu-id="58ea9-107">Parent 項目</span><span class="sxs-lookup"><span data-stu-id="58ea9-107">Parent Element</span></span>                                                                                 | <span data-ttu-id="58ea9-108">子元素</span><span class="sxs-lookup"><span data-stu-id="58ea9-108">Child Elements</span></span>                                                                                 |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="8678a-109">locationProvider 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="8678a-109">locationProvider Element (Search Connector Schema)</span></span>](search-schema-sconn-locationprovider.md) | [<span data-ttu-id="8678a-110"> (搜尋連接器架構) 的 property 元素 </span><span class="sxs-lookup"><span data-stu-id="8678a-110">property Element (Search Connector Schema)</span></span>](search-schema-sconn-locationproviderproperty.md) |
+| [<span data-ttu-id="58ea9-109">locationProvider 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="58ea9-109">locationProvider Element (Search Connector Schema)</span></span>](search-schema-sconn-locationprovider.md) | [<span data-ttu-id="58ea9-110"> (搜尋連接器架構) 的 property 元素 </span><span class="sxs-lookup"><span data-stu-id="58ea9-110">property Element (Search Connector Schema)</span></span>](search-schema-sconn-locationproviderproperty.md) |
 
 
 
  
 
-## <a name="example-of-a-propertybag-element-and-property-elements"></a><span data-ttu-id="8678a-111">PropertyBag 元素和 property 元素的範例</span><span class="sxs-lookup"><span data-stu-id="8678a-111">Example of a PropertyBag Element and property Elements</span></span>
+## <a name="example-of-a-propertybag-element-and-property-elements"></a><span data-ttu-id="58ea9-111">PropertyBag 元素和 property 元素的範例</span><span class="sxs-lookup"><span data-stu-id="58ea9-111">Example of a PropertyBag Element and property Elements</span></span>
 
 
 ```

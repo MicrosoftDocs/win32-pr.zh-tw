@@ -22,78 +22,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691336"
 ---
-# <a name="informational-parameters"></a><span data-ttu-id="6e6e1-103">資訊參數</span><span class="sxs-lookup"><span data-stu-id="6e6e1-103">Informational Parameters</span></span>
+# <a name="informational-parameters"></a><span data-ttu-id="55693-103">資訊參數</span><span class="sxs-lookup"><span data-stu-id="55693-103">Informational Parameters</span></span>
 
 
-<span data-ttu-id="6e6e1-104">_**適用于：** Windows |Windows Server_</span><span class="sxs-lookup"><span data-stu-id="6e6e1-104">_**Applies to:** Windows | Windows Server_</span></span>
+<span data-ttu-id="55693-104">_**適用于：** Windows |Windows Server_</span><span class="sxs-lookup"><span data-stu-id="55693-104">_**Applies to:** Windows | Windows Server_</span></span>
 
-## <a name="informational-parameters"></a><span data-ttu-id="6e6e1-105">資訊參數</span><span class="sxs-lookup"><span data-stu-id="6e6e1-105">Informational Parameters</span></span>
+## <a name="informational-parameters"></a><span data-ttu-id="55693-105">資訊參數</span><span class="sxs-lookup"><span data-stu-id="55693-105">Informational Parameters</span></span>
 
-<span data-ttu-id="6e6e1-106">本主題包含用來公開資料庫引擎相關資訊的參數。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-106">This topic contains parameters that are used to expose information about the database engine.</span></span>
+<span data-ttu-id="55693-106">本主題包含用來公開資料庫引擎相關資訊的參數。</span><span class="sxs-lookup"><span data-stu-id="55693-106">This topic contains parameters that are used to expose information about the database engine.</span></span>
 
-<span data-ttu-id="6e6e1-107">*JET_paramKeyMost*</span><span class="sxs-lookup"><span data-stu-id="6e6e1-107">*JET_paramKeyMost*</span></span>  
-<span data-ttu-id="6e6e1-108">134</span><span class="sxs-lookup"><span data-stu-id="6e6e1-108">134</span></span>  
+<span data-ttu-id="55693-107">*JET_paramKeyMost*</span><span class="sxs-lookup"><span data-stu-id="55693-107">*JET_paramKeyMost*</span></span>  
+<span data-ttu-id="55693-108">134</span><span class="sxs-lookup"><span data-stu-id="55693-108">134</span></span>  
 
-<span data-ttu-id="6e6e1-109">這個唯讀參數表示可針對目前資料庫頁面大小選取的最大可允許索引鍵長度， (如 JET_paramDatabasePageSize) 所設定。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-109">This read-only parameter indicates the maximum allowable index key length that can be selected for the current database page size (as configured by JET_paramDatabasePageSize).</span></span>
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="6e6e1-110">預設值：3</span><span class="sxs-lookup"><span data-stu-id="6e6e1-110">Default Value:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-111">JET_cbKeyMost4KBytePage</span><span class="sxs-lookup"><span data-stu-id="6e6e1-111">JET_cbKeyMost4KBytePage</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="6e6e1-112">輸入：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-112">Type:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-113">整數</span><span class="sxs-lookup"><span data-stu-id="6e6e1-113">Integer</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="6e6e1-114">有效範圍：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-114">Valid Range:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-115">255–65535</span><span class="sxs-lookup"><span data-stu-id="6e6e1-115">255 – 65535</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="6e6e1-116">範圍：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-116">Scope:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-117">全球</span><span class="sxs-lookup"><span data-stu-id="6e6e1-117">Global</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="6e6e1-118">在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-118">Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-119">N/A</span><span class="sxs-lookup"><span data-stu-id="6e6e1-119">N/A</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="6e6e1-120">在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-120">Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-121">N/A</span><span class="sxs-lookup"><span data-stu-id="6e6e1-121">N/A</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="6e6e1-122">會影響實體版面配置：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-122">Affects Physical Layout:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-123">No</span><span class="sxs-lookup"><span data-stu-id="6e6e1-123">No</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="6e6e1-124">會影響可靠性：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-124">Affects Reliability:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-125">No</span><span class="sxs-lookup"><span data-stu-id="6e6e1-125">No</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="6e6e1-126">影響效能：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-126">Affects Performance:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-127">No</span><span class="sxs-lookup"><span data-stu-id="6e6e1-127">No</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="6e6e1-128">會影響資源：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-128">Affects Resources:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-129">No</span><span class="sxs-lookup"><span data-stu-id="6e6e1-129">No</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="6e6e1-130">可用性：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-130">Availability:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-131">從 Windows Server 2008 和 Windows Vista 開始</span><span class="sxs-lookup"><span data-stu-id="6e6e1-131">Starting with Windows Server 2008 and Windows Vista</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-<span data-ttu-id="6e6e1-132">*JET_paramMaxColtyp*</span><span class="sxs-lookup"><span data-stu-id="6e6e1-132">*JET_paramMaxColtyp*</span></span>  
-<span data-ttu-id="6e6e1-133">131</span><span class="sxs-lookup"><span data-stu-id="6e6e1-133">131</span></span>  
-
-<span data-ttu-id="6e6e1-134">這個唯讀參數會傳回該版本資料庫引擎的最大 [JET_COLTYP](./jet-coltyp.md) (JET_coltypMax) 。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-134">This read only parameter returns the maximum [JET_COLTYP](./jet-coltyp.md) (JET_coltypMax) for that version of the database engine.</span></span> <span data-ttu-id="6e6e1-135">這個值可以用來測試特定 [JET_COLTYP](./jet-coltyp.md)的支援。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-135">This value can be used to test for support of a specific [JET_COLTYP](./jet-coltyp.md).</span></span> <span data-ttu-id="6e6e1-136">如果給定的 [JET_COLTYP](./jet-coltyp.md) 小於這個參數的值，database engine 就會支援它。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-136">If a given [JET_COLTYP](./jet-coltyp.md) is less than the value of this parameter then it is supported by the database engine.</span></span>
+<span data-ttu-id="55693-109">這個唯讀參數表示可針對目前資料庫頁面大小選取的最大可允許索引鍵長度， (如 JET_paramDatabasePageSize) 所設定。</span><span class="sxs-lookup"><span data-stu-id="55693-109">This read-only parameter indicates the maximum allowable index key length that can be selected for the current database page size (as configured by JET_paramDatabasePageSize).</span></span>
 
 <table>
 <colgroup>
@@ -102,57 +43,57 @@ ms.locfileid: "103691336"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-137">預設值：3</span><span class="sxs-lookup"><span data-stu-id="6e6e1-137">Default Value:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-138">JET_coltypUnsignedShort + 1</span><span class="sxs-lookup"><span data-stu-id="6e6e1-138">JET_coltypUnsignedShort + 1</span></span></p></td>
+<td><p><span data-ttu-id="55693-110">預設值：3</span><span class="sxs-lookup"><span data-stu-id="55693-110">Default Value:</span></span></p></td>
+<td><p><span data-ttu-id="55693-111">JET_cbKeyMost4KBytePage</span><span class="sxs-lookup"><span data-stu-id="55693-111">JET_cbKeyMost4KBytePage</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-139">輸入：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-139">Type:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-140">整數</span><span class="sxs-lookup"><span data-stu-id="6e6e1-140">Integer</span></span></p></td>
+<td><p><span data-ttu-id="55693-112">輸入：</span><span class="sxs-lookup"><span data-stu-id="55693-112">Type:</span></span></p></td>
+<td><p><span data-ttu-id="55693-113">整數</span><span class="sxs-lookup"><span data-stu-id="55693-113">Integer</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-141">有效範圍：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-141">Valid Range:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-142">0-255</span><span class="sxs-lookup"><span data-stu-id="6e6e1-142">0 – 255</span></span></p></td>
+<td><p><span data-ttu-id="55693-114">有效範圍：</span><span class="sxs-lookup"><span data-stu-id="55693-114">Valid Range:</span></span></p></td>
+<td><p><span data-ttu-id="55693-115">255–65535</span><span class="sxs-lookup"><span data-stu-id="55693-115">255 – 65535</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-143">範圍：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-143">Scope:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-144">全球</span><span class="sxs-lookup"><span data-stu-id="6e6e1-144">Global</span></span></p></td>
+<td><p><span data-ttu-id="55693-116">範圍：</span><span class="sxs-lookup"><span data-stu-id="55693-116">Scope:</span></span></p></td>
+<td><p><span data-ttu-id="55693-117">全球</span><span class="sxs-lookup"><span data-stu-id="55693-117">Global</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-145">在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-145">Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-146">N/A</span><span class="sxs-lookup"><span data-stu-id="6e6e1-146">N/A</span></span></p></td>
+<td><p><span data-ttu-id="55693-118">在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="55693-118">Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</span></span></p></td>
+<td><p><span data-ttu-id="55693-119">N/A</span><span class="sxs-lookup"><span data-stu-id="55693-119">N/A</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-147">在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-147">Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-148">N/A</span><span class="sxs-lookup"><span data-stu-id="6e6e1-148">N/A</span></span></p></td>
+<td><p><span data-ttu-id="55693-120">在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="55693-120">Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</span></span></p></td>
+<td><p><span data-ttu-id="55693-121">N/A</span><span class="sxs-lookup"><span data-stu-id="55693-121">N/A</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-149">會影響實體版面配置：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-149">Affects Physical Layout:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-150">No</span><span class="sxs-lookup"><span data-stu-id="6e6e1-150">No</span></span></p></td>
+<td><p><span data-ttu-id="55693-122">會影響實體版面配置：</span><span class="sxs-lookup"><span data-stu-id="55693-122">Affects Physical Layout:</span></span></p></td>
+<td><p><span data-ttu-id="55693-123">No</span><span class="sxs-lookup"><span data-stu-id="55693-123">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-151">會影響可靠性：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-151">Affects Reliability:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-152">No</span><span class="sxs-lookup"><span data-stu-id="6e6e1-152">No</span></span></p></td>
+<td><p><span data-ttu-id="55693-124">會影響可靠性：</span><span class="sxs-lookup"><span data-stu-id="55693-124">Affects Reliability:</span></span></p></td>
+<td><p><span data-ttu-id="55693-125">No</span><span class="sxs-lookup"><span data-stu-id="55693-125">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-153">影響效能：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-153">Affects Performance:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-154">No</span><span class="sxs-lookup"><span data-stu-id="6e6e1-154">No</span></span></p></td>
+<td><p><span data-ttu-id="55693-126">影響效能：</span><span class="sxs-lookup"><span data-stu-id="55693-126">Affects Performance:</span></span></p></td>
+<td><p><span data-ttu-id="55693-127">No</span><span class="sxs-lookup"><span data-stu-id="55693-127">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-155">會影響資源：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-155">Affects Resources:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-156">No</span><span class="sxs-lookup"><span data-stu-id="6e6e1-156">No</span></span></p></td>
+<td><p><span data-ttu-id="55693-128">會影響資源：</span><span class="sxs-lookup"><span data-stu-id="55693-128">Affects Resources:</span></span></p></td>
+<td><p><span data-ttu-id="55693-129">No</span><span class="sxs-lookup"><span data-stu-id="55693-129">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-157">可用性：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-157">Availability:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-158">從 Windows Server 2008 和 Windows Vista 開始</span><span class="sxs-lookup"><span data-stu-id="6e6e1-158">Starting with Windows Server 2008 and Windows Vista</span></span></p></td>
+<td><p><span data-ttu-id="55693-130">可用性：</span><span class="sxs-lookup"><span data-stu-id="55693-130">Availability:</span></span></p></td>
+<td><p><span data-ttu-id="55693-131">從 Windows Server 2008 和 Windows Vista 開始</span><span class="sxs-lookup"><span data-stu-id="55693-131">Starting with Windows Server 2008 and Windows Vista</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="6e6e1-159">*JET_paramLVChunkSizeMost*</span><span class="sxs-lookup"><span data-stu-id="6e6e1-159">*JET_paramLVChunkSizeMost*</span></span>  
-<span data-ttu-id="6e6e1-160">163</span><span class="sxs-lookup"><span data-stu-id="6e6e1-160">163</span></span>  
+<span data-ttu-id="55693-132">*JET_paramMaxColtyp*</span><span class="sxs-lookup"><span data-stu-id="55693-132">*JET_paramMaxColtyp*</span></span>  
+<span data-ttu-id="55693-133">131</span><span class="sxs-lookup"><span data-stu-id="55693-133">131</span></span>  
 
-<span data-ttu-id="6e6e1-161">唯讀參數，會根據設定的頁面大小傳回長值的區塊大小。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-161">Read only parameter that returns the long-value chunk size based on configured page size.</span></span> <span data-ttu-id="6e6e1-162">如果要使用多個 Jet {Set，抓取} 資料行呼叫來讀取或寫入較長的值，則使用大小是區塊大小倍數的緩衝區會更有效率。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-162">If a long-value is to be read or written with multiple Jet{Set,Retrieve}Column calls then using a buffer whose size is a multiple of the chunk size is more efficient.</span></span>
+<span data-ttu-id="55693-134">這個唯讀參數會傳回該版本資料庫引擎的最大 [JET_COLTYP](./jet-coltyp.md) (JET_coltypMax) 。</span><span class="sxs-lookup"><span data-stu-id="55693-134">This read only parameter returns the maximum [JET_COLTYP](./jet-coltyp.md) (JET_coltypMax) for that version of the database engine.</span></span> <span data-ttu-id="55693-135">這個值可以用來測試特定 [JET_COLTYP](./jet-coltyp.md)的支援。</span><span class="sxs-lookup"><span data-stu-id="55693-135">This value can be used to test for support of a specific [JET_COLTYP](./jet-coltyp.md).</span></span> <span data-ttu-id="55693-136">如果給定的 [JET_COLTYP](./jet-coltyp.md) 小於這個參數的值，database engine 就會支援它。</span><span class="sxs-lookup"><span data-stu-id="55693-136">If a given [JET_COLTYP](./jet-coltyp.md) is less than the value of this parameter then it is supported by the database engine.</span></span>
 
 <table>
 <colgroup>
@@ -161,58 +102,57 @@ ms.locfileid: "103691336"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-163">預設值：3</span><span class="sxs-lookup"><span data-stu-id="6e6e1-163">Default Value:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-164">2kb 頁面 = 1966 位元組</span><span class="sxs-lookup"><span data-stu-id="6e6e1-164">2kb page = 1966 bytes</span></span><br />
-<span data-ttu-id="6e6e1-165">4 kb 頁面 = 4014 個位元組</span><span class="sxs-lookup"><span data-stu-id="6e6e1-165">4kb page = 4014 bytes</span></span><br />
-<span data-ttu-id="6e6e1-166">8kb 頁面 = 8110 位元組</span><span class="sxs-lookup"><span data-stu-id="6e6e1-166">8kb page = 8110 bytes</span></span><br />
-<span data-ttu-id="6e6e1-167">16kb 頁面 = 4050 位元組</span><span class="sxs-lookup"><span data-stu-id="6e6e1-167">16kb page = 4050 bytes</span></span><br />
-<span data-ttu-id="6e6e1-168">32kb 頁面 = 8150 位元組</span><span class="sxs-lookup"><span data-stu-id="6e6e1-168">32kb page = 8150 bytes</span></span></p></td>
+<td><p><span data-ttu-id="55693-137">預設值：3</span><span class="sxs-lookup"><span data-stu-id="55693-137">Default Value:</span></span></p></td>
+<td><p><span data-ttu-id="55693-138">JET_coltypUnsignedShort + 1</span><span class="sxs-lookup"><span data-stu-id="55693-138">JET_coltypUnsignedShort + 1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-169">輸入：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-169">Type:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-170">整數</span><span class="sxs-lookup"><span data-stu-id="6e6e1-170">Integer</span></span></p></td>
+<td><p><span data-ttu-id="55693-139">輸入：</span><span class="sxs-lookup"><span data-stu-id="55693-139">Type:</span></span></p></td>
+<td><p><span data-ttu-id="55693-140">整數</span><span class="sxs-lookup"><span data-stu-id="55693-140">Integer</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-171">有效範圍：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-171">Valid Range:</span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-172">0-10000</span><span class="sxs-lookup"><span data-stu-id="6e6e1-172">0-10000</span></span></p></td>
+<td><p><span data-ttu-id="55693-141">有效範圍：</span><span class="sxs-lookup"><span data-stu-id="55693-141">Valid Range:</span></span></p></td>
+<td><p><span data-ttu-id="55693-142">0-255</span><span class="sxs-lookup"><span data-stu-id="55693-142">0 – 255</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-173">範圍：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-173">Scope:</span></span></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="55693-143">範圍：</span><span class="sxs-lookup"><span data-stu-id="55693-143">Scope:</span></span></p></td>
+<td><p><span data-ttu-id="55693-144">全球</span><span class="sxs-lookup"><span data-stu-id="55693-144">Global</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-174">在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-174">Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</span></span></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="55693-145">在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="55693-145">Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</span></span></p></td>
+<td><p><span data-ttu-id="55693-146">N/A</span><span class="sxs-lookup"><span data-stu-id="55693-146">N/A</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-175">在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-175">Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</span></span></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="55693-147">在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="55693-147">Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</span></span></p></td>
+<td><p><span data-ttu-id="55693-148">N/A</span><span class="sxs-lookup"><span data-stu-id="55693-148">N/A</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-176">會影響實體版面配置：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-176">Affects Physical Layout:</span></span></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="55693-149">會影響實體版面配置：</span><span class="sxs-lookup"><span data-stu-id="55693-149">Affects Physical Layout:</span></span></p></td>
+<td><p><span data-ttu-id="55693-150">No</span><span class="sxs-lookup"><span data-stu-id="55693-150">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-177">會影響可靠性：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-177">Affects Reliability:</span></span></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="55693-151">會影響可靠性：</span><span class="sxs-lookup"><span data-stu-id="55693-151">Affects Reliability:</span></span></p></td>
+<td><p><span data-ttu-id="55693-152">No</span><span class="sxs-lookup"><span data-stu-id="55693-152">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-178">影響效能：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-178">Affects Performance:</span></span></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="55693-153">影響效能：</span><span class="sxs-lookup"><span data-stu-id="55693-153">Affects Performance:</span></span></p></td>
+<td><p><span data-ttu-id="55693-154">No</span><span class="sxs-lookup"><span data-stu-id="55693-154">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-179">會影響資源：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-179">Affects Resources:</span></span></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="55693-155">會影響資源：</span><span class="sxs-lookup"><span data-stu-id="55693-155">Affects Resources:</span></span></p></td>
+<td><p><span data-ttu-id="55693-156">No</span><span class="sxs-lookup"><span data-stu-id="55693-156">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-180">可用性：</span><span class="sxs-lookup"><span data-stu-id="6e6e1-180">Availability:</span></span></p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="55693-157">可用性：</span><span class="sxs-lookup"><span data-stu-id="55693-157">Availability:</span></span></p></td>
+<td><p><span data-ttu-id="55693-158">從 Windows Server 2008 和 Windows Vista 開始</span><span class="sxs-lookup"><span data-stu-id="55693-158">Starting with Windows Server 2008 and Windows Vista</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="requirements"></a><span data-ttu-id="6e6e1-181">規格需求</span><span class="sxs-lookup"><span data-stu-id="6e6e1-181">Requirements</span></span>
+<span data-ttu-id="55693-159">*JET_paramLVChunkSizeMost*</span><span class="sxs-lookup"><span data-stu-id="55693-159">*JET_paramLVChunkSizeMost*</span></span>  
+<span data-ttu-id="55693-160">163</span><span class="sxs-lookup"><span data-stu-id="55693-160">163</span></span>  
+
+<span data-ttu-id="55693-161">唯讀參數，會根據設定的頁面大小傳回長值的區塊大小。</span><span class="sxs-lookup"><span data-stu-id="55693-161">Read only parameter that returns the long-value chunk size based on configured page size.</span></span> <span data-ttu-id="55693-162">如果要使用多個 Jet {Set，抓取} 資料行呼叫來讀取或寫入較長的值，則使用大小是區塊大小倍數的緩衝區會更有效率。</span><span class="sxs-lookup"><span data-stu-id="55693-162">If a long-value is to be read or written with multiple Jet{Set,Retrieve}Column calls then using a buffer whose size is a multiple of the chunk size is more efficient.</span></span>
 
 <table>
 <colgroup>
@@ -221,23 +161,83 @@ ms.locfileid: "103691336"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-182"><strong>用戶端</strong></span><span class="sxs-lookup"><span data-stu-id="6e6e1-182"><strong>Client</strong></span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-183">需要 Windows Vista。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-183">Requires Windows Vista.</span></span></p></td>
+<td><p><span data-ttu-id="55693-163">預設值：3</span><span class="sxs-lookup"><span data-stu-id="55693-163">Default Value:</span></span></p></td>
+<td><p><span data-ttu-id="55693-164">2kb 頁面 = 1966 位元組</span><span class="sxs-lookup"><span data-stu-id="55693-164">2kb page = 1966 bytes</span></span><br />
+<span data-ttu-id="55693-165">4 kb 頁面 = 4014 個位元組</span><span class="sxs-lookup"><span data-stu-id="55693-165">4kb page = 4014 bytes</span></span><br />
+<span data-ttu-id="55693-166">8kb 頁面 = 8110 位元組</span><span class="sxs-lookup"><span data-stu-id="55693-166">8kb page = 8110 bytes</span></span><br />
+<span data-ttu-id="55693-167">16kb 頁面 = 4050 位元組</span><span class="sxs-lookup"><span data-stu-id="55693-167">16kb page = 4050 bytes</span></span><br />
+<span data-ttu-id="55693-168">32kb 頁面 = 8150 位元組</span><span class="sxs-lookup"><span data-stu-id="55693-168">32kb page = 8150 bytes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6e6e1-184"><strong>伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="6e6e1-184"><strong>Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-185">需要 Windows Server 2008。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-185">Requires Windows Server 2008.</span></span></p></td>
+<td><p><span data-ttu-id="55693-169">輸入：</span><span class="sxs-lookup"><span data-stu-id="55693-169">Type:</span></span></p></td>
+<td><p><span data-ttu-id="55693-170">整數</span><span class="sxs-lookup"><span data-stu-id="55693-170">Integer</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6e6e1-186"><strong>標頭</strong></span><span class="sxs-lookup"><span data-stu-id="6e6e1-186"><strong>Header</strong></span></span></p></td>
-<td><p><span data-ttu-id="6e6e1-187">宣告于 Esent. h 中。</span><span class="sxs-lookup"><span data-stu-id="6e6e1-187">Declared in Esent.h.</span></span></p></td>
+<td><p><span data-ttu-id="55693-171">有效範圍：</span><span class="sxs-lookup"><span data-stu-id="55693-171">Valid Range:</span></span></p></td>
+<td><p><span data-ttu-id="55693-172">0-10000</span><span class="sxs-lookup"><span data-stu-id="55693-172">0-10000</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="55693-173">範圍：</span><span class="sxs-lookup"><span data-stu-id="55693-173">Scope:</span></span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="55693-174">在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="55693-174">Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</span></span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="55693-175">在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</span><span class="sxs-lookup"><span data-stu-id="55693-175">Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</span></span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="55693-176">會影響實體版面配置：</span><span class="sxs-lookup"><span data-stu-id="55693-176">Affects Physical Layout:</span></span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="55693-177">會影響可靠性：</span><span class="sxs-lookup"><span data-stu-id="55693-177">Affects Reliability:</span></span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="55693-178">影響效能：</span><span class="sxs-lookup"><span data-stu-id="55693-178">Affects Performance:</span></span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="55693-179">會影響資源：</span><span class="sxs-lookup"><span data-stu-id="55693-179">Affects Resources:</span></span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="55693-180">可用性：</span><span class="sxs-lookup"><span data-stu-id="55693-180">Availability:</span></span></p></td>
+<td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="see-also"></a><span data-ttu-id="6e6e1-188">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6e6e1-188">See Also</span></span>
+### <a name="requirements"></a><span data-ttu-id="55693-181">規格需求</span><span class="sxs-lookup"><span data-stu-id="55693-181">Requirements</span></span>
 
-[<span data-ttu-id="6e6e1-189">JetCreateInstance</span><span class="sxs-lookup"><span data-stu-id="6e6e1-189">JetCreateInstance</span></span>](./jetcreateinstance-function.md)  
-[<span data-ttu-id="6e6e1-190">JetInit</span><span class="sxs-lookup"><span data-stu-id="6e6e1-190">JetInit</span></span>](./jetinit-function.md)  
-[<span data-ttu-id="6e6e1-191">JET_COLTYP</span><span class="sxs-lookup"><span data-stu-id="6e6e1-191">JET_COLTYP</span></span>](./jet-coltyp.md)
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="55693-182"><strong>用戶端</strong></span><span class="sxs-lookup"><span data-stu-id="55693-182"><strong>Client</strong></span></span></p></td>
+<td><p><span data-ttu-id="55693-183">需要 Windows Vista。</span><span class="sxs-lookup"><span data-stu-id="55693-183">Requires Windows Vista.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="55693-184"><strong>伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="55693-184"><strong>Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="55693-185">需要 Windows Server 2008。</span><span class="sxs-lookup"><span data-stu-id="55693-185">Requires Windows Server 2008.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="55693-186"><strong>標頭</strong></span><span class="sxs-lookup"><span data-stu-id="55693-186"><strong>Header</strong></span></span></p></td>
+<td><p><span data-ttu-id="55693-187">宣告于 Esent. h 中。</span><span class="sxs-lookup"><span data-stu-id="55693-187">Declared in Esent.h.</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+### <a name="see-also"></a><span data-ttu-id="55693-188">另請參閱</span><span class="sxs-lookup"><span data-stu-id="55693-188">See Also</span></span>
+
+[<span data-ttu-id="55693-189">JetCreateInstance</span><span class="sxs-lookup"><span data-stu-id="55693-189">JetCreateInstance</span></span>](./jetcreateinstance-function.md)  
+[<span data-ttu-id="55693-190">JetInit</span><span class="sxs-lookup"><span data-stu-id="55693-190">JetInit</span></span>](./jetinit-function.md)  
+[<span data-ttu-id="55693-191">JET_COLTYP</span><span class="sxs-lookup"><span data-stu-id="55693-191">JET_COLTYP</span></span>](./jet-coltyp.md)

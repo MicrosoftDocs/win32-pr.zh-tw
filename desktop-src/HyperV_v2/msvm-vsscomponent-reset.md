@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026102"
 ---
-# <a name="reset-method-of-the-msvm_vsscomponent-class"></a><span data-ttu-id="7f805-103">Msvm VssComponent 類別的 Reset 方法 \_</span><span class="sxs-lookup"><span data-stu-id="7f805-103">Reset method of the Msvm\_VssComponent class</span></span>
+# <a name="reset-method-of-the-msvm_vsscomponent-class"></a><span data-ttu-id="c010a-103">Msvm VssComponent 類別的 Reset 方法 \_</span><span class="sxs-lookup"><span data-stu-id="c010a-103">Reset method of the Msvm\_VssComponent class</span></span>
 
-<span data-ttu-id="7f805-104">要求重設。</span><span class="sxs-lookup"><span data-stu-id="7f805-104">Requests a reset.</span></span>
+<span data-ttu-id="c010a-104">要求重設。</span><span class="sxs-lookup"><span data-stu-id="c010a-104">Requests a reset.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7f805-105">語法</span><span class="sxs-lookup"><span data-stu-id="7f805-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c010a-105">語法</span><span class="sxs-lookup"><span data-stu-id="c010a-105">Syntax</span></span>
 
 
 ```mof
@@ -33,41 +33,41 @@ uint32 Reset();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="7f805-106">參數</span><span class="sxs-lookup"><span data-stu-id="7f805-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c010a-106">參數</span><span class="sxs-lookup"><span data-stu-id="c010a-106">Parameters</span></span>
 
-<span data-ttu-id="7f805-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="7f805-107">This method has no parameters.</span></span>
+<span data-ttu-id="c010a-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="c010a-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="7f805-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="7f805-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c010a-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="c010a-108">Return value</span></span>
 
-<span data-ttu-id="7f805-109">這個方法會傳回下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="7f805-109">This method returns one of the following values:</span></span>
+<span data-ttu-id="c010a-109">這個方法會傳回下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="c010a-109">This method returns one of the following values:</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="7f805-110">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="7f805-110">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="c010a-110">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="c010a-110">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="7f805-111">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="7f805-111">**Not supported** (1)</span></span>
+<span data-ttu-id="c010a-111">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="c010a-111">**Not supported** (1)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="7f805-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="7f805-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c010a-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="c010a-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="7f805-113">需求</span><span class="sxs-lookup"><span data-stu-id="7f805-113">Requirement</span></span> | <span data-ttu-id="7f805-114">值</span><span class="sxs-lookup"><span data-stu-id="7f805-114">Value</span></span> |
+| <span data-ttu-id="c010a-113">需求</span><span class="sxs-lookup"><span data-stu-id="c010a-113">Requirement</span></span> | <span data-ttu-id="c010a-114">值</span><span class="sxs-lookup"><span data-stu-id="c010a-114">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="7f805-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7f805-115">Minimum supported client</span></span><br/> | <span data-ttu-id="7f805-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="7f805-116">Windows 8.1</span></span><br/>                                                                                  |
-| <span data-ttu-id="7f805-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7f805-117">Minimum supported server</span></span><br/> | <span data-ttu-id="7f805-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="7f805-118">Windows Server 2012 R2</span></span><br/>                                                                       |
-| <span data-ttu-id="7f805-119">命名空間</span><span class="sxs-lookup"><span data-stu-id="7f805-119">Namespace</span></span><br/>                | <span data-ttu-id="7f805-120">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="7f805-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
-| <span data-ttu-id="7f805-121">MOF</span><span class="sxs-lookup"><span data-stu-id="7f805-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="7f805-122"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="7f805-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="7f805-123">DLL</span><span class="sxs-lookup"><span data-stu-id="7f805-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="7f805-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="7f805-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="c010a-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c010a-115">Minimum supported client</span></span><br/> | <span data-ttu-id="c010a-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="c010a-116">Windows 8.1</span></span><br/>                                                                                  |
+| <span data-ttu-id="c010a-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c010a-117">Minimum supported server</span></span><br/> | <span data-ttu-id="c010a-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="c010a-118">Windows Server 2012 R2</span></span><br/>                                                                       |
+| <span data-ttu-id="c010a-119">命名空間</span><span class="sxs-lookup"><span data-stu-id="c010a-119">Namespace</span></span><br/>                | <span data-ttu-id="c010a-120">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="c010a-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="c010a-121">MOF</span><span class="sxs-lookup"><span data-stu-id="c010a-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="c010a-122"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="c010a-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="c010a-123">DLL</span><span class="sxs-lookup"><span data-stu-id="c010a-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c010a-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="c010a-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7f805-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7f805-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c010a-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c010a-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7f805-126">**Msvm \_ VssComponent**</span><span class="sxs-lookup"><span data-stu-id="7f805-126">**Msvm\_VssComponent**</span></span>](msvm-vsscomponent.md)
+[<span data-ttu-id="c010a-126">**Msvm \_ VssComponent**</span><span class="sxs-lookup"><span data-stu-id="c010a-126">**Msvm\_VssComponent**</span></span>](msvm-vsscomponent.md)
 </dt> </dl>
 
  

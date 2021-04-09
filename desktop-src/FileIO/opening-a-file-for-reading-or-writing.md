@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691088"
 ---
-# <a name="opening-a-file-for-reading-or-writing"></a><span data-ttu-id="9604e-103">開啟檔案進行讀取或寫入</span><span class="sxs-lookup"><span data-stu-id="9604e-103">Opening a File for Reading or Writing</span></span>
+# <a name="opening-a-file-for-reading-or-writing"></a><span data-ttu-id="d3fd4-103">開啟檔案進行讀取或寫入</span><span class="sxs-lookup"><span data-stu-id="d3fd4-103">Opening a File for Reading or Writing</span></span>
 
-<span data-ttu-id="9604e-104">[**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea)函式可以建立新的檔案，或開啟現有的檔案。</span><span class="sxs-lookup"><span data-stu-id="9604e-104">The [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function can create a new file or open an existing file.</span></span> <span data-ttu-id="9604e-105">您必須指定檔案名、建立指示和其他屬性。</span><span class="sxs-lookup"><span data-stu-id="9604e-105">You must specify the file name, creation instructions, and other attributes.</span></span> <span data-ttu-id="9604e-106">當應用程式建立新檔案時，作業系統會將它新增至指定的目錄。</span><span class="sxs-lookup"><span data-stu-id="9604e-106">When an application creates a new file, the operating system adds it to the specified directory.</span></span>
+<span data-ttu-id="d3fd4-104">[**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea)函式可以建立新的檔案，或開啟現有的檔案。</span><span class="sxs-lookup"><span data-stu-id="d3fd4-104">The [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function can create a new file or open an existing file.</span></span> <span data-ttu-id="d3fd4-105">您必須指定檔案名、建立指示和其他屬性。</span><span class="sxs-lookup"><span data-stu-id="d3fd4-105">You must specify the file name, creation instructions, and other attributes.</span></span> <span data-ttu-id="d3fd4-106">當應用程式建立新檔案時，作業系統會將它新增至指定的目錄。</span><span class="sxs-lookup"><span data-stu-id="d3fd4-106">When an application creates a new file, the operating system adds it to the specified directory.</span></span>
 
-## <a name="example-open-a-file-for-writing"></a><span data-ttu-id="9604e-107">範例：開啟要寫入的檔案</span><span class="sxs-lookup"><span data-stu-id="9604e-107">Example: Open a File for Writing</span></span>
+## <a name="example-open-a-file-for-writing"></a><span data-ttu-id="d3fd4-107">範例：開啟要寫入的檔案</span><span class="sxs-lookup"><span data-stu-id="d3fd4-107">Example: Open a File for Writing</span></span>
 
-<span data-ttu-id="9604e-108">下列範例會使用 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 來建立新的檔案，並開啟它進行寫入和 [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) ，以同步方式將簡單字串寫入檔案。</span><span class="sxs-lookup"><span data-stu-id="9604e-108">The following example uses [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to create a new file and open it for writing and [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) to write a simple string synchronously to the file.</span></span>
+<span data-ttu-id="d3fd4-108">下列範例會使用 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 來建立新的檔案，並開啟它進行寫入和 [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) ，以同步方式將簡單字串寫入檔案。</span><span class="sxs-lookup"><span data-stu-id="d3fd4-108">The following example uses [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to create a new file and open it for writing and [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) to write a simple string synchronously to the file.</span></span>
 
-<span data-ttu-id="9604e-109">後續呼叫以 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 開啟此檔案將會失敗，直到控制碼關閉為止。</span><span class="sxs-lookup"><span data-stu-id="9604e-109">A subsequent call to open this file with [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) will fail until the handle is closed.</span></span>
+<span data-ttu-id="d3fd4-109">後續呼叫以 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 開啟此檔案將會失敗，直到控制碼關閉為止。</span><span class="sxs-lookup"><span data-stu-id="d3fd4-109">A subsequent call to open this file with [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) will fail until the handle is closed.</span></span>
 
 
 ```C++
@@ -138,13 +138,13 @@ void DisplayError(LPTSTR lpszFunction)
 
 
 
-## <a name="example-open-a-file-for-reading"></a><span data-ttu-id="9604e-110">範例：開啟要讀取的檔案</span><span class="sxs-lookup"><span data-stu-id="9604e-110">Example: Open a File for Reading</span></span>
+## <a name="example-open-a-file-for-reading"></a><span data-ttu-id="d3fd4-110">範例：開啟要讀取的檔案</span><span class="sxs-lookup"><span data-stu-id="d3fd4-110">Example: Open a File for Reading</span></span>
 
-<span data-ttu-id="9604e-111">下列範例會使用 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 來開啟現有的檔案以供讀取和 [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) ，以同步方式從檔案讀取最多80個字元。</span><span class="sxs-lookup"><span data-stu-id="9604e-111">The following example uses [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to open an existing file for reading and [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) to read up to 80 characters synchronously from the file.</span></span>
+<span data-ttu-id="d3fd4-111">下列範例會使用 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 來開啟現有的檔案以供讀取和 [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) ，以同步方式從檔案讀取最多80個字元。</span><span class="sxs-lookup"><span data-stu-id="d3fd4-111">The following example uses [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to open an existing file for reading and [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) to read up to 80 characters synchronously from the file.</span></span>
 
-<span data-ttu-id="9604e-112">在此情況下，只有當指定的檔案已存在於目前的目錄中時， [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 才會成功。</span><span class="sxs-lookup"><span data-stu-id="9604e-112">In this case, [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) succeeds only if the specified file already exists in the current directory.</span></span> <span data-ttu-id="9604e-113">如果呼叫使用相同的存取和共用模式，後續呼叫以 **CreateFile** 開啟此檔案將會成功。</span><span class="sxs-lookup"><span data-stu-id="9604e-113">A subsequent call to open this file with **CreateFile** will succeed if the call uses the same access and sharing modes.</span></span>
+<span data-ttu-id="d3fd4-112">在此情況下，只有當指定的檔案已存在於目前的目錄中時， [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 才會成功。</span><span class="sxs-lookup"><span data-stu-id="d3fd4-112">In this case, [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) succeeds only if the specified file already exists in the current directory.</span></span> <span data-ttu-id="d3fd4-113">如果呼叫使用相同的存取和共用模式，後續呼叫以 **CreateFile** 開啟此檔案將會成功。</span><span class="sxs-lookup"><span data-stu-id="d3fd4-113">A subsequent call to open this file with **CreateFile** will succeed if the call uses the same access and sharing modes.</span></span>
 
-<span data-ttu-id="9604e-114">提示：您可以使用您在先前的 WriteFile 範例中所建立的檔案來測試此範例。</span><span class="sxs-lookup"><span data-stu-id="9604e-114">Tip: You can use the file you created with the previous WriteFile example to test this example.</span></span>
+<span data-ttu-id="d3fd4-114">提示：您可以使用您在先前的 WriteFile 範例中所建立的檔案來測試此範例。</span><span class="sxs-lookup"><span data-stu-id="d3fd4-114">Tip: You can use the file you created with the previous WriteFile example to test this example.</span></span>
 
 
 ```C++
@@ -293,11 +293,11 @@ void DisplayError(LPTSTR lpszFunction)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="9604e-115">相關主題</span><span class="sxs-lookup"><span data-stu-id="9604e-115">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d3fd4-115">相關主題</span><span class="sxs-lookup"><span data-stu-id="d3fd4-115">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9604e-116">建立和開啟檔案</span><span class="sxs-lookup"><span data-stu-id="9604e-116">Creating and Opening Files</span></span>](creating-and-opening-files.md)
+[<span data-ttu-id="d3fd4-116">建立和開啟檔案</span><span class="sxs-lookup"><span data-stu-id="d3fd4-116">Creating and Opening Files</span></span>](creating-and-opening-files.md)
 </dt> </dl>
 
  
