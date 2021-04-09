@@ -21,13 +21,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103936220"
 ---
-# <a name="getaccessmask-method-of-the-win32_share-class"></a><span data-ttu-id="df4f2-103">Win32 共用類別的 GetAccessMask 方法 \_</span><span class="sxs-lookup"><span data-stu-id="df4f2-103">GetAccessMask method of the Win32\_Share class</span></span>
+# <a name="getaccessmask-method-of-the-win32_share-class"></a><span data-ttu-id="3dc71-103">Win32 共用類別的 GetAccessMask 方法 \_</span><span class="sxs-lookup"><span data-stu-id="3dc71-103">GetAccessMask method of the Win32\_Share class</span></span>
 
-<span data-ttu-id="df4f2-104">**GetAccessMask** 方法會傳回具有使用者或群組（代表傳回實例）所持有之共用的存取權限的 uint32 點陣圖。</span><span class="sxs-lookup"><span data-stu-id="df4f2-104">The **GetAccessMask** method returns a uint32 bitmap with the access rights to the share held by the user or group on whose behalf the instance is returned.</span></span>
+<span data-ttu-id="3dc71-104">**GetAccessMask** 方法會傳回具有使用者或群組（代表傳回實例）所持有之共用的存取權限的 uint32 點陣圖。</span><span class="sxs-lookup"><span data-stu-id="3dc71-104">The **GetAccessMask** method returns a uint32 bitmap with the access rights to the share held by the user or group on whose behalf the instance is returned.</span></span>
 
-<span data-ttu-id="df4f2-105">本主題使用受控物件格式 (MOF) 語法。</span><span class="sxs-lookup"><span data-stu-id="df4f2-105">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="df4f2-106">如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。</span><span class="sxs-lookup"><span data-stu-id="df4f2-106">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
+<span data-ttu-id="3dc71-105">本主題使用受控物件格式 (MOF) 語法。</span><span class="sxs-lookup"><span data-stu-id="3dc71-105">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="3dc71-106">如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。</span><span class="sxs-lookup"><span data-stu-id="3dc71-106">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="df4f2-107">語法</span><span class="sxs-lookup"><span data-stu-id="df4f2-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3dc71-107">語法</span><span class="sxs-lookup"><span data-stu-id="3dc71-107">Syntax</span></span>
 
 
 ```mof
@@ -36,149 +36,149 @@ uint32 GetAccessMask();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="df4f2-108">參數</span><span class="sxs-lookup"><span data-stu-id="df4f2-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3dc71-108">參數</span><span class="sxs-lookup"><span data-stu-id="3dc71-108">Parameters</span></span>
 
-<span data-ttu-id="df4f2-109">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="df4f2-109">This method has no parameters.</span></span>
+<span data-ttu-id="3dc71-109">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="3dc71-109">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="df4f2-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="df4f2-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3dc71-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="3dc71-110">Return value</span></span>
 
-<span data-ttu-id="df4f2-111">使用者或群組所持有之共用的存取權限。</span><span class="sxs-lookup"><span data-stu-id="df4f2-111">Access rights to the share held by the user or group.</span></span>
+<span data-ttu-id="3dc71-111">使用者或群組所持有之共用的存取權限。</span><span class="sxs-lookup"><span data-stu-id="3dc71-111">Access rights to the share held by the user or group.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="df4f2-112">**檔案 \_ 清單 \_ 目錄**</span><span class="sxs-lookup"><span data-stu-id="df4f2-112">**FILE\_LIST\_DIRECTORY**</span></span>
+<span data-ttu-id="3dc71-112">**檔案 \_ 清單 \_ 目錄**</span><span class="sxs-lookup"><span data-stu-id="3dc71-112">**FILE\_LIST\_DIRECTORY**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-113">1 (0x1) </span><span class="sxs-lookup"><span data-stu-id="df4f2-113">1 (0x1)</span></span>
+<span data-ttu-id="3dc71-113">1 (0x1) </span><span class="sxs-lookup"><span data-stu-id="3dc71-113">1 (0x1)</span></span>
 
-<span data-ttu-id="df4f2-114">授與從檔案讀取資料的許可權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-114">Grants the right to read data from the file.</span></span> <span data-ttu-id="df4f2-115">若為目錄，此值會授與許可權來列出目錄的內容。</span><span class="sxs-lookup"><span data-stu-id="df4f2-115">For a directory, this value grants the right to list the contents of the directory.</span></span>
+<span data-ttu-id="3dc71-114">授與從檔案讀取資料的許可權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-114">Grants the right to read data from the file.</span></span> <span data-ttu-id="3dc71-115">若為目錄，此值會授與許可權來列出目錄的內容。</span><span class="sxs-lookup"><span data-stu-id="3dc71-115">For a directory, this value grants the right to list the contents of the directory.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-116">**檔案 \_ 新增 \_ 檔案**</span><span class="sxs-lookup"><span data-stu-id="df4f2-116">**FILE\_ADD\_FILE**</span></span>
+<span data-ttu-id="3dc71-116">**檔案 \_ 新增 \_ 檔案**</span><span class="sxs-lookup"><span data-stu-id="3dc71-116">**FILE\_ADD\_FILE**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-117">2 (0x2) </span><span class="sxs-lookup"><span data-stu-id="df4f2-117">2 (0x2)</span></span>
+<span data-ttu-id="3dc71-117">2 (0x2) </span><span class="sxs-lookup"><span data-stu-id="3dc71-117">2 (0x2)</span></span>
 
-<span data-ttu-id="df4f2-118">授與將資料寫入檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-118">Grants the right to write data to the file.</span></span> <span data-ttu-id="df4f2-119">若為目錄，此值會授與在目錄中建立檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-119">For a directory, this value grants the right to create a file in the directory.</span></span>
+<span data-ttu-id="3dc71-118">授與將資料寫入檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-118">Grants the right to write data to the file.</span></span> <span data-ttu-id="3dc71-119">若為目錄，此值會授與在目錄中建立檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-119">For a directory, this value grants the right to create a file in the directory.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-120">**檔案 \_ 新增 \_ 子目錄**</span><span class="sxs-lookup"><span data-stu-id="df4f2-120">**FILE\_ADD\_SUBDIRECTORY**</span></span>
+<span data-ttu-id="3dc71-120">**檔案 \_ 新增 \_ 子目錄**</span><span class="sxs-lookup"><span data-stu-id="3dc71-120">**FILE\_ADD\_SUBDIRECTORY**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-121">4 (0x4) </span><span class="sxs-lookup"><span data-stu-id="df4f2-121">4 (0x4)</span></span>
+<span data-ttu-id="3dc71-121">4 (0x4) </span><span class="sxs-lookup"><span data-stu-id="3dc71-121">4 (0x4)</span></span>
 
-<span data-ttu-id="df4f2-122">授與將資料附加至檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-122">Grants the right to append data to the file.</span></span> <span data-ttu-id="df4f2-123">若為目錄，此值會授與建立子目錄的許可權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-123">For a directory, this value grants the right to create a subdirectory.</span></span>
+<span data-ttu-id="3dc71-122">授與將資料附加至檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-122">Grants the right to append data to the file.</span></span> <span data-ttu-id="3dc71-123">若為目錄，此值會授與建立子目錄的許可權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-123">For a directory, this value grants the right to create a subdirectory.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-124">**檔案 \_ 讀取 \_ EA**</span><span class="sxs-lookup"><span data-stu-id="df4f2-124">**FILE\_READ\_EA**</span></span>
+<span data-ttu-id="3dc71-124">**檔案 \_ 讀取 \_ EA**</span><span class="sxs-lookup"><span data-stu-id="3dc71-124">**FILE\_READ\_EA**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-125">8 (0x8) </span><span class="sxs-lookup"><span data-stu-id="df4f2-125">8 (0x8)</span></span>
+<span data-ttu-id="3dc71-125">8 (0x8) </span><span class="sxs-lookup"><span data-stu-id="3dc71-125">8 (0x8)</span></span>
 
-<span data-ttu-id="df4f2-126">授與讀取擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-126">Grants the right to read extended attributes.</span></span>
+<span data-ttu-id="3dc71-126">授與讀取擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-126">Grants the right to read extended attributes.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-127">**檔案 \_ 寫入 \_ EA**</span><span class="sxs-lookup"><span data-stu-id="df4f2-127">**FILE\_WRITE\_EA**</span></span>
+<span data-ttu-id="3dc71-127">**檔案 \_ 寫入 \_ EA**</span><span class="sxs-lookup"><span data-stu-id="3dc71-127">**FILE\_WRITE\_EA**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-128">16 (0x10) </span><span class="sxs-lookup"><span data-stu-id="df4f2-128">16 (0x10)</span></span>
+<span data-ttu-id="3dc71-128">16 (0x10) </span><span class="sxs-lookup"><span data-stu-id="3dc71-128">16 (0x10)</span></span>
 
-<span data-ttu-id="df4f2-129">授予寫入擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-129">Grants the right to write extended attributes.</span></span>
+<span data-ttu-id="3dc71-129">授予寫入擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-129">Grants the right to write extended attributes.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-130">**檔案 \_ 遍歷**</span><span class="sxs-lookup"><span data-stu-id="df4f2-130">**FILE\_TRAVERSE**</span></span>
+<span data-ttu-id="3dc71-130">**檔案 \_ 遍歷**</span><span class="sxs-lookup"><span data-stu-id="3dc71-130">**FILE\_TRAVERSE**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-131">32 (0x20) </span><span class="sxs-lookup"><span data-stu-id="df4f2-131">32 (0x20)</span></span>
+<span data-ttu-id="3dc71-131">32 (0x20) </span><span class="sxs-lookup"><span data-stu-id="3dc71-131">32 (0x20)</span></span>
 
-<span data-ttu-id="df4f2-132">授與許可權來執行檔案。</span><span class="sxs-lookup"><span data-stu-id="df4f2-132">Grants the right to execute a file.</span></span> <span data-ttu-id="df4f2-133">若為目錄，可以進行目錄的往返。</span><span class="sxs-lookup"><span data-stu-id="df4f2-133">For a directory, the directory can be traversed.</span></span>
+<span data-ttu-id="3dc71-132">授與許可權來執行檔案。</span><span class="sxs-lookup"><span data-stu-id="3dc71-132">Grants the right to execute a file.</span></span> <span data-ttu-id="3dc71-133">若為目錄，可以進行目錄的往返。</span><span class="sxs-lookup"><span data-stu-id="3dc71-133">For a directory, the directory can be traversed.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-134">**檔案 \_ 刪除 \_ 子系**</span><span class="sxs-lookup"><span data-stu-id="df4f2-134">**FILE\_DELETE\_CHILD**</span></span>
+<span data-ttu-id="3dc71-134">**檔案 \_ 刪除 \_ 子系**</span><span class="sxs-lookup"><span data-stu-id="3dc71-134">**FILE\_DELETE\_CHILD**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-135">64 (0x40) </span><span class="sxs-lookup"><span data-stu-id="df4f2-135">64 (0x40)</span></span>
+<span data-ttu-id="3dc71-135">64 (0x40) </span><span class="sxs-lookup"><span data-stu-id="3dc71-135">64 (0x40)</span></span>
 
-<span data-ttu-id="df4f2-136">授與刪除目錄的許可權，以及它所包含的所有檔案 (其子) ，即使檔案是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="df4f2-136">Grants the right to delete a directory and all of the files it contains (its children), even if the files are read-only.</span></span>
+<span data-ttu-id="3dc71-136">授與刪除目錄的許可權，以及它所包含的所有檔案 (其子) ，即使檔案是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="3dc71-136">Grants the right to delete a directory and all of the files it contains (its children), even if the files are read-only.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-137">**檔案 \_ 讀取 \_ 屬性**</span><span class="sxs-lookup"><span data-stu-id="df4f2-137">**FILE\_READ\_ATTRIBUTES**</span></span>
+<span data-ttu-id="3dc71-137">**檔案 \_ 讀取 \_ 屬性**</span><span class="sxs-lookup"><span data-stu-id="3dc71-137">**FILE\_READ\_ATTRIBUTES**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-138">128 (0x80) </span><span class="sxs-lookup"><span data-stu-id="df4f2-138">128 (0x80)</span></span>
+<span data-ttu-id="3dc71-138">128 (0x80) </span><span class="sxs-lookup"><span data-stu-id="3dc71-138">128 (0x80)</span></span>
 
-<span data-ttu-id="df4f2-139">授與讀取檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-139">Grants the right to read file attributes.</span></span>
+<span data-ttu-id="3dc71-139">授與讀取檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-139">Grants the right to read file attributes.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-140">**檔案 \_ 寫入 \_ 屬性**</span><span class="sxs-lookup"><span data-stu-id="df4f2-140">**FILE\_WRITE\_ATTRIBUTES**</span></span>
+<span data-ttu-id="3dc71-140">**檔案 \_ 寫入 \_ 屬性**</span><span class="sxs-lookup"><span data-stu-id="3dc71-140">**FILE\_WRITE\_ATTRIBUTES**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-141">256 (0x100)</span><span class="sxs-lookup"><span data-stu-id="df4f2-141">256 (0x100)</span></span>
+<span data-ttu-id="3dc71-141">256 (0x100)</span><span class="sxs-lookup"><span data-stu-id="3dc71-141">256 (0x100)</span></span>
 
-<span data-ttu-id="df4f2-142">授與變更檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-142">Grants the right to change file attributes.</span></span>
+<span data-ttu-id="3dc71-142">授與變更檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-142">Grants the right to change file attributes.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-143">**DELETE**</span><span class="sxs-lookup"><span data-stu-id="df4f2-143">**DELETE**</span></span>
+<span data-ttu-id="3dc71-143">**DELETE**</span><span class="sxs-lookup"><span data-stu-id="3dc71-143">**DELETE**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-144">65536 (0x10000) </span><span class="sxs-lookup"><span data-stu-id="df4f2-144">65536 (0x10000)</span></span>
+<span data-ttu-id="3dc71-144">65536 (0x10000) </span><span class="sxs-lookup"><span data-stu-id="3dc71-144">65536 (0x10000)</span></span>
 
-<span data-ttu-id="df4f2-145">授與刪除存取權。</span><span class="sxs-lookup"><span data-stu-id="df4f2-145">Grants delete access.</span></span>
+<span data-ttu-id="3dc71-145">授與刪除存取權。</span><span class="sxs-lookup"><span data-stu-id="3dc71-145">Grants delete access.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-146">**讀取 \_ 控制**</span><span class="sxs-lookup"><span data-stu-id="df4f2-146">**READ\_CONTROL**</span></span>
+<span data-ttu-id="3dc71-146">**讀取 \_ 控制**</span><span class="sxs-lookup"><span data-stu-id="3dc71-146">**READ\_CONTROL**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-147">131072 (0x20000) </span><span class="sxs-lookup"><span data-stu-id="df4f2-147">131072 (0x20000)</span></span>
+<span data-ttu-id="3dc71-147">131072 (0x20000) </span><span class="sxs-lookup"><span data-stu-id="3dc71-147">131072 (0x20000)</span></span>
 
-<span data-ttu-id="df4f2-148">授與安全描述項和擁有者的讀取權限。</span><span class="sxs-lookup"><span data-stu-id="df4f2-148">Grants read access to the security descriptor and owner.</span></span>
+<span data-ttu-id="3dc71-148">授與安全描述項和擁有者的讀取權限。</span><span class="sxs-lookup"><span data-stu-id="3dc71-148">Grants read access to the security descriptor and owner.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-149">**寫入 \_ DAC**</span><span class="sxs-lookup"><span data-stu-id="df4f2-149">**WRITE\_DAC**</span></span>
+<span data-ttu-id="3dc71-149">**寫入 \_ DAC**</span><span class="sxs-lookup"><span data-stu-id="3dc71-149">**WRITE\_DAC**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-150">262144 (0x40000) </span><span class="sxs-lookup"><span data-stu-id="df4f2-150">262144 (0x40000)</span></span>
+<span data-ttu-id="3dc71-150">262144 (0x40000) </span><span class="sxs-lookup"><span data-stu-id="3dc71-150">262144 (0x40000)</span></span>
 
-<span data-ttu-id="df4f2-151">授與任意存取控制清單 (DACL) 的寫入權限。</span><span class="sxs-lookup"><span data-stu-id="df4f2-151">Grants write access to the discretionary access control list (DACL).</span></span>
+<span data-ttu-id="3dc71-151">授與任意存取控制清單 (DACL) 的寫入權限。</span><span class="sxs-lookup"><span data-stu-id="3dc71-151">Grants write access to the discretionary access control list (DACL).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-152">**寫入 \_ 擁有者**</span><span class="sxs-lookup"><span data-stu-id="df4f2-152">**WRITE\_OWNER**</span></span>
+<span data-ttu-id="3dc71-152">**寫入 \_ 擁有者**</span><span class="sxs-lookup"><span data-stu-id="3dc71-152">**WRITE\_OWNER**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-153">524288 (0x80000) </span><span class="sxs-lookup"><span data-stu-id="df4f2-153">524288 (0x80000)</span></span>
+<span data-ttu-id="3dc71-153">524288 (0x80000) </span><span class="sxs-lookup"><span data-stu-id="3dc71-153">524288 (0x80000)</span></span>
 
-<span data-ttu-id="df4f2-154">指派寫入擁有者。</span><span class="sxs-lookup"><span data-stu-id="df4f2-154">Assigns the write owner.</span></span>
+<span data-ttu-id="3dc71-154">指派寫入擁有者。</span><span class="sxs-lookup"><span data-stu-id="3dc71-154">Assigns the write owner.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df4f2-155">**同步**</span><span class="sxs-lookup"><span data-stu-id="df4f2-155">**SYNCHRONIZE**</span></span>
+<span data-ttu-id="3dc71-155">**同步**</span><span class="sxs-lookup"><span data-stu-id="3dc71-155">**SYNCHRONIZE**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df4f2-156">1048576 (0x100000) </span><span class="sxs-lookup"><span data-stu-id="df4f2-156">1048576 (0x100000)</span></span>
+<span data-ttu-id="3dc71-156">1048576 (0x100000) </span><span class="sxs-lookup"><span data-stu-id="3dc71-156">1048576 (0x100000)</span></span>
 
-<span data-ttu-id="df4f2-157">同步存取，並允許進程等候物件進入已發出信號的狀態。</span><span class="sxs-lookup"><span data-stu-id="df4f2-157">Synchronizes access and allows a process to wait for an object to enter the signaled state.</span></span>
+<span data-ttu-id="3dc71-157">同步存取，並允許進程等候物件進入已發出信號的狀態。</span><span class="sxs-lookup"><span data-stu-id="3dc71-157">Synchronizes access and allows a process to wait for an object to enter the signaled state.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="df4f2-158">備註</span><span class="sxs-lookup"><span data-stu-id="df4f2-158">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3dc71-158">備註</span><span class="sxs-lookup"><span data-stu-id="3dc71-158">Remarks</span></span>
 
-<span data-ttu-id="df4f2-159">**GetAccessMask** 方法是物件方法，並用於這個類別的出現位置。</span><span class="sxs-lookup"><span data-stu-id="df4f2-159">**GetAccessMask** method is an object method and is used on an occurrence of this class.</span></span>
+<span data-ttu-id="3dc71-159">**GetAccessMask** 方法是物件方法，並用於這個類別的出現位置。</span><span class="sxs-lookup"><span data-stu-id="3dc71-159">**GetAccessMask** method is an object method and is used on an occurrence of this class.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="df4f2-160">範例</span><span class="sxs-lookup"><span data-stu-id="df4f2-160">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="3dc71-160">範例</span><span class="sxs-lookup"><span data-stu-id="3dc71-160">Examples</span></span>
 
-<span data-ttu-id="df4f2-161">下列 VBScript 程式碼範例會建立共用資料夾，然後取得安全描述項中保護共用資料夾的存取遮罩值。</span><span class="sxs-lookup"><span data-stu-id="df4f2-161">The following VBScript code example creates a share folder and then gets the value of the access mask in the security descriptor that secures the share folder.</span></span>
+<span data-ttu-id="3dc71-161">下列 VBScript 程式碼範例會建立共用資料夾，然後取得安全描述項中保護共用資料夾的存取遮罩值。</span><span class="sxs-lookup"><span data-stu-id="3dc71-161">The following VBScript code example creates a share folder and then gets the value of the access mask in the security descriptor that secures the share folder.</span></span>
 
 
 ```VB
@@ -202,25 +202,25 @@ WScript.Echo Return
 
 
 
-## <a name="requirements"></a><span data-ttu-id="df4f2-162">規格需求</span><span class="sxs-lookup"><span data-stu-id="df4f2-162">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3dc71-162">規格需求</span><span class="sxs-lookup"><span data-stu-id="3dc71-162">Requirements</span></span>
 
 
 
-| <span data-ttu-id="df4f2-163">需求</span><span class="sxs-lookup"><span data-stu-id="df4f2-163">Requirement</span></span> | <span data-ttu-id="df4f2-164">值</span><span class="sxs-lookup"><span data-stu-id="df4f2-164">Value</span></span> |
+| <span data-ttu-id="3dc71-163">需求</span><span class="sxs-lookup"><span data-stu-id="3dc71-163">Requirement</span></span> | <span data-ttu-id="3dc71-164">值</span><span class="sxs-lookup"><span data-stu-id="3dc71-164">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="df4f2-165">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="df4f2-165">Minimum supported client</span></span><br/> | <span data-ttu-id="df4f2-166">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="df4f2-166">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="df4f2-167">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="df4f2-167">Minimum supported server</span></span><br/> | <span data-ttu-id="df4f2-168">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="df4f2-168">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="df4f2-169">命名空間</span><span class="sxs-lookup"><span data-stu-id="df4f2-169">Namespace</span></span><br/>                | <span data-ttu-id="df4f2-170">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="df4f2-170">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="df4f2-171">MOF</span><span class="sxs-lookup"><span data-stu-id="df4f2-171">MOF</span></span><br/>                      | <dl> <span data-ttu-id="df4f2-172"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="df4f2-172"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="df4f2-173">DLL</span><span class="sxs-lookup"><span data-stu-id="df4f2-173">DLL</span></span><br/>                      | <dl> <span data-ttu-id="df4f2-174"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="df4f2-174"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="3dc71-165">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3dc71-165">Minimum supported client</span></span><br/> | <span data-ttu-id="3dc71-166">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="3dc71-166">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="3dc71-167">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3dc71-167">Minimum supported server</span></span><br/> | <span data-ttu-id="3dc71-168">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="3dc71-168">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="3dc71-169">命名空間</span><span class="sxs-lookup"><span data-stu-id="3dc71-169">Namespace</span></span><br/>                | <span data-ttu-id="3dc71-170">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="3dc71-170">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="3dc71-171">MOF</span><span class="sxs-lookup"><span data-stu-id="3dc71-171">MOF</span></span><br/>                      | <dl> <span data-ttu-id="3dc71-172"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="3dc71-172"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="3dc71-173">DLL</span><span class="sxs-lookup"><span data-stu-id="3dc71-173">DLL</span></span><br/>                      | <dl> <span data-ttu-id="3dc71-174"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="3dc71-174"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="df4f2-175">另請參閱</span><span class="sxs-lookup"><span data-stu-id="df4f2-175">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3dc71-175">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3dc71-175">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="df4f2-176">**Win32 \_ 共用**</span><span class="sxs-lookup"><span data-stu-id="df4f2-176">**Win32\_Share**</span></span>](win32-share.md)
+[<span data-ttu-id="3dc71-176">**Win32 \_ 共用**</span><span class="sxs-lookup"><span data-stu-id="3dc71-176">**Win32\_Share**</span></span>](win32-share.md)
 </dt> </dl>
 
  

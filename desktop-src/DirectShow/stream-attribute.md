@@ -11,31 +11,31 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851380"
 ---
-# <a name="stream-attribute"></a><span data-ttu-id="87b88-103">stream 屬性</span><span class="sxs-lookup"><span data-stu-id="87b88-103">stream Attribute</span></span>
+# <a name="stream-attribute"></a><span data-ttu-id="e112d-103">stream 屬性</span><span class="sxs-lookup"><span data-stu-id="e112d-103">stream Attribute</span></span>
 
 > [!Note]  
-> <span data-ttu-id="87b88-104">\[廢棄。</span><span class="sxs-lookup"><span data-stu-id="87b88-104">\[Deprecated.</span></span> <span data-ttu-id="87b88-105">此 API 可能會從 Windows 的未來版本中移除。\]</span><span class="sxs-lookup"><span data-stu-id="87b88-105">This API may be removed from future releases of Windows.\]</span></span>
+> <span data-ttu-id="e112d-104">\[廢棄。</span><span class="sxs-lookup"><span data-stu-id="e112d-104">\[Deprecated.</span></span> <span data-ttu-id="e112d-105">此 API 可能會從 Windows 的未來版本中移除。\]</span><span class="sxs-lookup"><span data-stu-id="e112d-105">This API may be removed from future releases of Windows.\]</span></span>
 
  
 
-<span data-ttu-id="87b88-106">`stream`屬性會指定要在多資料流程原始檔中使用的資料流程。</span><span class="sxs-lookup"><span data-stu-id="87b88-106">The `stream` attribute specifies which stream to use in a multi-stream source file.</span></span>
+<span data-ttu-id="e112d-106">`stream`屬性會指定要在多資料流程原始檔中使用的資料流程。</span><span class="sxs-lookup"><span data-stu-id="e112d-106">The `stream` attribute specifies which stream to use in a multi-stream source file.</span></span>
 
-## <a name="possible-values"></a><span data-ttu-id="87b88-107">可能的值</span><span class="sxs-lookup"><span data-stu-id="87b88-107">Possible Values</span></span>
+## <a name="possible-values"></a><span data-ttu-id="e112d-107">可能的值</span><span class="sxs-lookup"><span data-stu-id="e112d-107">Possible Values</span></span>
 
-<span data-ttu-id="87b88-108">必須是整數值。</span><span class="sxs-lookup"><span data-stu-id="87b88-108">Must be an integer value.</span></span>
+<span data-ttu-id="e112d-108">必須是整數值。</span><span class="sxs-lookup"><span data-stu-id="e112d-108">Must be an integer value.</span></span>
 
-## <a name="applies-to"></a><span data-ttu-id="87b88-109">套用至</span><span class="sxs-lookup"><span data-stu-id="87b88-109">Applies To</span></span>
+## <a name="applies-to"></a><span data-ttu-id="e112d-109">套用至</span><span class="sxs-lookup"><span data-stu-id="e112d-109">Applies To</span></span>
 
-[<span data-ttu-id="87b88-110">**clip**</span><span class="sxs-lookup"><span data-stu-id="87b88-110">**clip**</span></span>](clip-element.md)
+[<span data-ttu-id="e112d-110">**clip**</span><span class="sxs-lookup"><span data-stu-id="e112d-110">**clip**</span></span>](clip-element.md)
 
-## <a name="see-also"></a><span data-ttu-id="87b88-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="87b88-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e112d-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e112d-111">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="87b88-112">XTL 屬性</span><span class="sxs-lookup"><span data-stu-id="87b88-112">XTL Attributes</span></span>](xtl-attributes.md)
+[<span data-ttu-id="e112d-112">XTL 屬性</span><span class="sxs-lookup"><span data-stu-id="e112d-112">XTL Attributes</span></span>](xtl-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="87b88-113">**IAMTimelineSrc::SetStreamNumber**</span><span class="sxs-lookup"><span data-stu-id="87b88-113">**IAMTimelineSrc::SetStreamNumber**</span></span>](iamtimelinesrc-setstreamnumber.md)
+[<span data-ttu-id="e112d-113">**IAMTimelineSrc::SetStreamNumber**</span><span class="sxs-lookup"><span data-stu-id="e112d-113">**IAMTimelineSrc::SetStreamNumber**</span></span>](iamtimelinesrc-setstreamnumber.md)
 </dt> </dl>
 
  
