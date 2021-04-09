@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690632"
 ---
-# <a name="exposing-a-window"></a><span data-ttu-id="4e011-103">公開視窗</span><span class="sxs-lookup"><span data-stu-id="4e011-103">Exposing a Window</span></span>
+# <a name="exposing-a-window"></a><span data-ttu-id="be6cf-103">公開視窗</span><span class="sxs-lookup"><span data-stu-id="be6cf-103">Exposing a Window</span></span>
 
-<span data-ttu-id="4e011-104">下列主題中所述的技術會討論如何公開應用程式所建立之 windows 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="4e011-104">The techniques described in the following topics discuss how to expose appropriate information about windows that are created by your application.</span></span>
+<span data-ttu-id="be6cf-104">下列主題中所述的技術會討論如何公開應用程式所建立之 windows 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="be6cf-104">The techniques described in the following topics discuss how to expose appropriate information about windows that are created by your application.</span></span>
 
--   [<span data-ttu-id="4e011-105">適當地命名視窗</span><span class="sxs-lookup"><span data-stu-id="4e011-105">Naming a Window Appropriately</span></span>](naming-a-window-appropriately.md)
--   [<span data-ttu-id="4e011-106">依函數的函式來識別視窗</span><span class="sxs-lookup"><span data-stu-id="4e011-106">Identifying a Window by Its Function</span></span>](identifying-a-window-by-its-function.md)
--   [<span data-ttu-id="4e011-107">公開視窗的內容</span><span class="sxs-lookup"><span data-stu-id="4e011-107">Exposing the Contents of a Window</span></span>](exposing-the-contents-of-a-window.md)
+-   [<span data-ttu-id="be6cf-105">適當地命名視窗</span><span class="sxs-lookup"><span data-stu-id="be6cf-105">Naming a Window Appropriately</span></span>](naming-a-window-appropriately.md)
+-   [<span data-ttu-id="be6cf-106">依函數的函式來識別視窗</span><span class="sxs-lookup"><span data-stu-id="be6cf-106">Identifying a Window by Its Function</span></span>](identifying-a-window-by-its-function.md)
+-   [<span data-ttu-id="be6cf-107">公開視窗的內容</span><span class="sxs-lookup"><span data-stu-id="be6cf-107">Exposing the Contents of a Window</span></span>](exposing-the-contents-of-a-window.md)
 
  
 

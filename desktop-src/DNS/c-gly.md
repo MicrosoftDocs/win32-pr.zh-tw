@@ -12,37 +12,37 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103842939"
 ---
-# <a name="c-dns"></a><span data-ttu-id="3f459-103">C (DNS) </span><span class="sxs-lookup"><span data-stu-id="3f459-103">C (DNS)</span></span>
+# <a name="c-dns"></a><span data-ttu-id="9138e-103">C (DNS) </span><span class="sxs-lookup"><span data-stu-id="9138e-103">C (DNS)</span></span>
 
-<span data-ttu-id="3f459-104">B C D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T W X Y [Z](z-gly.md)</span><span class="sxs-lookup"><span data-stu-id="3f459-104">A B C D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T U V W X Y [Z](z-gly.md)</span></span>
+<span data-ttu-id="9138e-104">B C D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T W X Y [Z](z-gly.md)</span><span class="sxs-lookup"><span data-stu-id="9138e-104">A B C D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T U V W X Y [Z](z-gly.md)</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="3f459-105"><span id="_dns_caching_server_gly"></span><span id="_DNS_CACHING_SERVER_GLY"></span>**快取伺服器**</span><span class="sxs-lookup"><span data-stu-id="3f459-105"><span id="_dns_caching_server_gly"></span><span id="_DNS_CACHING_SERVER_GLY"></span>**caching server**</span></span>
+<span data-ttu-id="9138e-105"><span id="_dns_caching_server_gly"></span><span id="_DNS_CACHING_SERVER_GLY"></span>**快取伺服器**</span><span class="sxs-lookup"><span data-stu-id="9138e-105"><span id="_dns_caching_server_gly"></span><span id="_DNS_CACHING_SERVER_GLY"></span>**caching server**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="3f459-106">快取伺服器 (也稱為僅限快取的伺服器，) 為 DNS 回應提供專用快取的查詢服務。</span><span class="sxs-lookup"><span data-stu-id="3f459-106">Caching servers (also known as caching-only servers) provide exclusively cached-query service for DNS responses.</span></span> <span data-ttu-id="3f459-107">快取 DNS 伺服器會執行查詢、快取答案，然後將結果傳回給查詢用戶端，而不是維護區域檔案。</span><span class="sxs-lookup"><span data-stu-id="3f459-107">Rather than maintaining zone files, caching DNS Servers perform queries, cache the answers, and return the results to the querying client.</span></span>
+<span data-ttu-id="9138e-106">快取伺服器 (也稱為僅限快取的伺服器，) 為 DNS 回應提供專用快取的查詢服務。</span><span class="sxs-lookup"><span data-stu-id="9138e-106">Caching servers (also known as caching-only servers) provide exclusively cached-query service for DNS responses.</span></span> <span data-ttu-id="9138e-107">快取 DNS 伺服器會執行查詢、快取答案，然後將結果傳回給查詢用戶端，而不是維護區域檔案。</span><span class="sxs-lookup"><span data-stu-id="9138e-107">Rather than maintaining zone files, caching DNS Servers perform queries, cache the answers, and return the results to the querying client.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="3f459-108"><span id="_dns_canonical_name_gly"></span><span id="_DNS_CANONICAL_NAME_GLY"></span>**正式名稱**</span><span class="sxs-lookup"><span data-stu-id="3f459-108"><span id="_dns_canonical_name_gly"></span><span id="_DNS_CANONICAL_NAME_GLY"></span>**canonical name**</span></span>
+<span data-ttu-id="9138e-108"><span id="_dns_canonical_name_gly"></span><span id="_DNS_CANONICAL_NAME_GLY"></span>**正式名稱**</span><span class="sxs-lookup"><span data-stu-id="9138e-108"><span id="_dns_canonical_name_gly"></span><span id="_DNS_CANONICAL_NAME_GLY"></span>**canonical name**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="3f459-109">參考名稱，例如主機名稱或伺服器名稱。</span><span class="sxs-lookup"><span data-stu-id="3f459-109">Reference name, such as a host name or server name.</span></span>
+<span data-ttu-id="9138e-109">參考名稱，例如主機名稱或伺服器名稱。</span><span class="sxs-lookup"><span data-stu-id="9138e-109">Reference name, such as a host name or server name.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="3f459-110"><span id="_dns_cim_class_gly"></span><span id="_DNS_CIM_CLASS_GLY"></span>**CIM 類別**</span><span class="sxs-lookup"><span data-stu-id="3f459-110"><span id="_dns_cim_class_gly"></span><span id="_DNS_CIM_CLASS_GLY"></span>**CIM class**</span></span>
+<span data-ttu-id="9138e-110"><span id="_dns_cim_class_gly"></span><span id="_DNS_CIM_CLASS_GLY"></span>**CIM 類別**</span><span class="sxs-lookup"><span data-stu-id="9138e-110"><span id="_dns_cim_class_gly"></span><span id="_DNS_CIM_CLASS_GLY"></span>**CIM class**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="3f459-111">以通用訊息模型 (CIM) 為基礎的類別。</span><span class="sxs-lookup"><span data-stu-id="3f459-111">Class based on the Common Information Model (CIM).</span></span>
+<span data-ttu-id="9138e-111">以通用訊息模型 (CIM) 為基礎的類別。</span><span class="sxs-lookup"><span data-stu-id="9138e-111">Class based on the Common Information Model (CIM).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="3f459-112"><span id="_dns_cim_method_gly"></span><span id="_DNS_CIM_METHOD_GLY"></span>**CIM 方法**</span><span class="sxs-lookup"><span data-stu-id="3f459-112"><span id="_dns_cim_method_gly"></span><span id="_DNS_CIM_METHOD_GLY"></span>**CIM method**</span></span>
+<span data-ttu-id="9138e-112"><span id="_dns_cim_method_gly"></span><span id="_DNS_CIM_METHOD_GLY"></span>**CIM 方法**</span><span class="sxs-lookup"><span data-stu-id="9138e-112"><span id="_dns_cim_method_gly"></span><span id="_DNS_CIM_METHOD_GLY"></span>**CIM method**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="3f459-113">以通用訊息模型 (CIM) 類別為基礎的方法。</span><span class="sxs-lookup"><span data-stu-id="3f459-113">Method based on a Common Information Model (CIM) class.</span></span>
+<span data-ttu-id="9138e-113">以通用訊息模型 (CIM) 類別為基礎的方法。</span><span class="sxs-lookup"><span data-stu-id="9138e-113">Method based on a Common Information Model (CIM) class.</span></span>
 
 </dd> </dl>
 

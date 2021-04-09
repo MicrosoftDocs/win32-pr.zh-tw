@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690784"
 ---
-# <a name="modifyservicesettings-method-of-the-msvm_replicationservice-class"></a><span data-ttu-id="cecc1-103">Msvm ReplicationService 類別的 ModifyServiceSettings 方法 \_</span><span class="sxs-lookup"><span data-stu-id="cecc1-103">ModifyServiceSettings method of the Msvm\_ReplicationService class</span></span>
+# <a name="modifyservicesettings-method-of-the-msvm_replicationservice-class"></a><span data-ttu-id="8cc81-103">Msvm ReplicationService 類別的 ModifyServiceSettings 方法 \_</span><span class="sxs-lookup"><span data-stu-id="8cc81-103">ModifyServiceSettings method of the Msvm\_ReplicationService class</span></span>
 
-<span data-ttu-id="cecc1-104">修改 Hyper-v 複本服務的設定。</span><span class="sxs-lookup"><span data-stu-id="cecc1-104">Modifies the settings for the Hyper-V Replica service.</span></span>
+<span data-ttu-id="8cc81-104">修改 Hyper-v 複本服務的設定。</span><span class="sxs-lookup"><span data-stu-id="8cc81-104">Modifies the settings for the Hyper-V Replica service.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cecc1-105">語法</span><span class="sxs-lookup"><span data-stu-id="cecc1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8cc81-105">語法</span><span class="sxs-lookup"><span data-stu-id="8cc81-105">Syntax</span></span>
 
 
 ```mof
@@ -36,88 +36,88 @@ uint32 ModifyServiceSettings(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="cecc1-106">參數</span><span class="sxs-lookup"><span data-stu-id="cecc1-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8cc81-106">參數</span><span class="sxs-lookup"><span data-stu-id="8cc81-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="cecc1-107">*SettingData* \[在\]</span><span class="sxs-lookup"><span data-stu-id="cecc1-107">*SettingData* \[in\]</span></span>
+<span data-ttu-id="8cc81-107">*SettingData* \[在\]</span><span class="sxs-lookup"><span data-stu-id="8cc81-107">*SettingData* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cecc1-108">[**Msvm \_ ReplicationServiceSettingData**](msvm-replicationservicesettingdata.md)類別的字串表示，其中包含服務已修改的設定資料。</span><span class="sxs-lookup"><span data-stu-id="cecc1-108">A string representation of the [**Msvm\_ReplicationServiceSettingData**](msvm-replicationservicesettingdata.md) class that contains the modified setting data for the service.</span></span>
+<span data-ttu-id="8cc81-108">[**Msvm \_ ReplicationServiceSettingData**](msvm-replicationservicesettingdata.md)類別的字串表示，其中包含服務已修改的設定資料。</span><span class="sxs-lookup"><span data-stu-id="8cc81-108">A string representation of the [**Msvm\_ReplicationServiceSettingData**](msvm-replicationservicesettingdata.md) class that contains the modified setting data for the service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cecc1-109">*作業* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="cecc1-109">*Job* \[out\]</span></span>
+<span data-ttu-id="8cc81-109">*作業* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="8cc81-109">*Job* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cecc1-110">如果作業是以非同步方式執行，這個方法會傳回4096，而此參數會包含衍生自 [**CIM \_ ConcreteJob**](/previous-versions//cc136808(v=vs.85))之物件的參考。</span><span class="sxs-lookup"><span data-stu-id="cecc1-110">If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).</span></span>
+<span data-ttu-id="8cc81-110">如果作業是以非同步方式執行，這個方法會傳回4096，而此參數會包含衍生自 [**CIM \_ ConcreteJob**](/previous-versions//cc136808(v=vs.85))之物件的參考。</span><span class="sxs-lookup"><span data-stu-id="8cc81-110">If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="cecc1-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="cecc1-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8cc81-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="8cc81-111">Return value</span></span>
 
-<span data-ttu-id="cecc1-112">這個方法會傳回下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="cecc1-112">This method returns one of the following values.</span></span>
+<span data-ttu-id="8cc81-112">這個方法會傳回下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="8cc81-112">This method returns one of the following values.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="cecc1-113">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="cecc1-113">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="8cc81-113">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="8cc81-113">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-114">**已檢查方法參數-工作已啟動** (4096) </span><span class="sxs-lookup"><span data-stu-id="cecc1-114">**Method Parameters Checked - Job Started** (4096)</span></span>
+<span data-ttu-id="8cc81-114">**已檢查方法參數-工作已啟動** (4096) </span><span class="sxs-lookup"><span data-stu-id="8cc81-114">**Method Parameters Checked - Job Started** (4096)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-115">**無法** (32768) </span><span class="sxs-lookup"><span data-stu-id="cecc1-115">**Failed** (32768)</span></span>
+<span data-ttu-id="8cc81-115">**無法** (32768) </span><span class="sxs-lookup"><span data-stu-id="8cc81-115">**Failed** (32768)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-116">**拒絕存取** (32769) </span><span class="sxs-lookup"><span data-stu-id="cecc1-116">**Access Denied** (32769)</span></span>
+<span data-ttu-id="8cc81-116">**拒絕存取** (32769) </span><span class="sxs-lookup"><span data-stu-id="8cc81-116">**Access Denied** (32769)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-117">**不支援** (32770) </span><span class="sxs-lookup"><span data-stu-id="cecc1-117">**Not Supported** (32770)</span></span>
+<span data-ttu-id="8cc81-117">**不支援** (32770) </span><span class="sxs-lookup"><span data-stu-id="8cc81-117">**Not Supported** (32770)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-118">**狀態未知** (32771) </span><span class="sxs-lookup"><span data-stu-id="cecc1-118">**Status is unknown** (32771)</span></span>
+<span data-ttu-id="8cc81-118">**狀態未知** (32771) </span><span class="sxs-lookup"><span data-stu-id="8cc81-118">**Status is unknown** (32771)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-119">**Timeout** (32772) </span><span class="sxs-lookup"><span data-stu-id="cecc1-119">**Timeout** (32772)</span></span>
+<span data-ttu-id="8cc81-119">**Timeout** (32772) </span><span class="sxs-lookup"><span data-stu-id="8cc81-119">**Timeout** (32772)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-120">**不正確參數** (32773) </span><span class="sxs-lookup"><span data-stu-id="cecc1-120">**Invalid parameter** (32773)</span></span>
+<span data-ttu-id="8cc81-120">**不正確參數** (32773) </span><span class="sxs-lookup"><span data-stu-id="8cc81-120">**Invalid parameter** (32773)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-121">**系統正在使用中** (32774) </span><span class="sxs-lookup"><span data-stu-id="cecc1-121">**System is in use** (32774)</span></span>
+<span data-ttu-id="8cc81-121">**系統正在使用中** (32774) </span><span class="sxs-lookup"><span data-stu-id="8cc81-121">**System is in use** (32774)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-122">**此操作的狀態無效** (32775) </span><span class="sxs-lookup"><span data-stu-id="cecc1-122">**Invalid state for this operation** (32775)</span></span>
+<span data-ttu-id="8cc81-122">**此操作的狀態無效** (32775) </span><span class="sxs-lookup"><span data-stu-id="8cc81-122">**Invalid state for this operation** (32775)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-123">**不正確的資料類型** (32776) </span><span class="sxs-lookup"><span data-stu-id="cecc1-123">**Incorrect data type** (32776)</span></span>
+<span data-ttu-id="8cc81-123">**不正確的資料類型** (32776) </span><span class="sxs-lookup"><span data-stu-id="8cc81-123">**Incorrect data type** (32776)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-124">**系統無法使用** (32777) </span><span class="sxs-lookup"><span data-stu-id="cecc1-124">**System is not available** (32777)</span></span>
+<span data-ttu-id="8cc81-124">**系統無法使用** (32777) </span><span class="sxs-lookup"><span data-stu-id="8cc81-124">**System is not available** (32777)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="cecc1-125">**記憶體不足** (32778) </span><span class="sxs-lookup"><span data-stu-id="cecc1-125">**Out of memory** (32778)</span></span>
+<span data-ttu-id="8cc81-125">**記憶體不足** (32778) </span><span class="sxs-lookup"><span data-stu-id="8cc81-125">**Out of memory** (32778)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="cecc1-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="cecc1-126">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8cc81-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="8cc81-126">Requirements</span></span>
 
 
 
-| <span data-ttu-id="cecc1-127">需求</span><span class="sxs-lookup"><span data-stu-id="cecc1-127">Requirement</span></span> | <span data-ttu-id="cecc1-128">值</span><span class="sxs-lookup"><span data-stu-id="cecc1-128">Value</span></span> |
+| <span data-ttu-id="8cc81-127">需求</span><span class="sxs-lookup"><span data-stu-id="8cc81-127">Requirement</span></span> | <span data-ttu-id="8cc81-128">值</span><span class="sxs-lookup"><span data-stu-id="8cc81-128">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="cecc1-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="cecc1-129">Minimum supported client</span></span><br/> | <span data-ttu-id="cecc1-130">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="cecc1-130">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
-| <span data-ttu-id="cecc1-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="cecc1-131">Minimum supported server</span></span><br/> | <span data-ttu-id="cecc1-132">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="cecc1-132">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="cecc1-133">命名空間</span><span class="sxs-lookup"><span data-stu-id="cecc1-133">Namespace</span></span><br/>                | <span data-ttu-id="cecc1-134">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="cecc1-134">Root\\Virtualization\\V2</span></span><br/>                                                                     |
-| <span data-ttu-id="cecc1-135">MOF</span><span class="sxs-lookup"><span data-stu-id="cecc1-135">MOF</span></span><br/>                      | <dl> <span data-ttu-id="cecc1-136"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="cecc1-136"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="cecc1-137">DLL</span><span class="sxs-lookup"><span data-stu-id="cecc1-137">DLL</span></span><br/>                      | <dl> <span data-ttu-id="cecc1-138"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="cecc1-138"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="8cc81-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8cc81-129">Minimum supported client</span></span><br/> | <span data-ttu-id="8cc81-130">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8cc81-130">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
+| <span data-ttu-id="8cc81-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8cc81-131">Minimum supported server</span></span><br/> | <span data-ttu-id="8cc81-132">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8cc81-132">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="8cc81-133">命名空間</span><span class="sxs-lookup"><span data-stu-id="8cc81-133">Namespace</span></span><br/>                | <span data-ttu-id="8cc81-134">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="8cc81-134">Root\\Virtualization\\V2</span></span><br/>                                                                     |
+| <span data-ttu-id="8cc81-135">MOF</span><span class="sxs-lookup"><span data-stu-id="8cc81-135">MOF</span></span><br/>                      | <dl> <span data-ttu-id="8cc81-136"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="8cc81-136"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="8cc81-137">DLL</span><span class="sxs-lookup"><span data-stu-id="8cc81-137">DLL</span></span><br/>                      | <dl> <span data-ttu-id="8cc81-138"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="8cc81-138"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="cecc1-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cecc1-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8cc81-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8cc81-139">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="cecc1-140">**Msvm \_ ReplicationService**</span><span class="sxs-lookup"><span data-stu-id="cecc1-140">**Msvm\_ReplicationService**</span></span>](msvm-replicationservice.md)
+[<span data-ttu-id="8cc81-140">**Msvm \_ ReplicationService**</span><span class="sxs-lookup"><span data-stu-id="8cc81-140">**Msvm\_ReplicationService**</span></span>](msvm-replicationservice.md)
 </dt> </dl>
 
  

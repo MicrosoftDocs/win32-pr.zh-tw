@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103693716"
 ---
-# <a name="using-microsoft-foundation-classes"></a><span data-ttu-id="2d153-103">使用 Microsoft Foundation 類別</span><span class="sxs-lookup"><span data-stu-id="2d153-103">Using Microsoft Foundation Classes</span></span>
+# <a name="using-microsoft-foundation-classes"></a><span data-ttu-id="1a800-103">使用 Microsoft Foundation 類別</span><span class="sxs-lookup"><span data-stu-id="1a800-103">Using Microsoft Foundation Classes</span></span>
 
-<span data-ttu-id="2d153-104">由於靜態連結 Dll 的使用量，您應該避免使用 Microsoft Foundation 類別 (MFCs) 撰寫專家。</span><span class="sxs-lookup"><span data-stu-id="2d153-104">Because of the footprint of statically linked DLLs, you should avoid using Microsoft Foundation Classes (MFCs) to write an expert.</span></span> <span data-ttu-id="2d153-105">但是，如果您使用 MFC，請在進入時立即加入下列程式碼，以確保存取任何 MFC DLL 資源：</span><span class="sxs-lookup"><span data-stu-id="2d153-105">However, if you use the MFC, ensure access to any of the MFC DLL resources by including the following code immediately upon entry:</span></span>
+<span data-ttu-id="1a800-104">由於靜態連結 Dll 的使用量，您應該避免使用 Microsoft Foundation 類別 (MFCs) 撰寫專家。</span><span class="sxs-lookup"><span data-stu-id="1a800-104">Because of the footprint of statically linked DLLs, you should avoid using Microsoft Foundation Classes (MFCs) to write an expert.</span></span> <span data-ttu-id="1a800-105">但是，如果您使用 MFC，請在進入時立即加入下列程式碼，以確保存取任何 MFC DLL 資源：</span><span class="sxs-lookup"><span data-stu-id="1a800-105">However, if you use the MFC, ensure access to any of the MFC DLL resources by including the following code immediately upon entry:</span></span>
 
 ``` syntax
 #ifdef _AFXDLL
