@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852115"
 ---
-# <a name="destroysnapshot-method-of-the-msvm_virtualsystemsnapshotservice-class"></a><span data-ttu-id="15f3c-103">Msvm VirtualSystemSnapshotService 類別的 DestroySnapshot 方法 \_</span><span class="sxs-lookup"><span data-stu-id="15f3c-103">DestroySnapshot method of the Msvm\_VirtualSystemSnapshotService class</span></span>
+# <a name="destroysnapshot-method-of-the-msvm_virtualsystemsnapshotservice-class"></a><span data-ttu-id="6a477-103">Msvm VirtualSystemSnapshotService 類別的 DestroySnapshot 方法 \_</span><span class="sxs-lookup"><span data-stu-id="6a477-103">DestroySnapshot method of the Msvm\_VirtualSystemSnapshotService class</span></span>
 
-<span data-ttu-id="15f3c-104">終結現有的虛擬機器快照集。</span><span class="sxs-lookup"><span data-stu-id="15f3c-104">Destroys an existing virtual machine snapshot.</span></span> <span data-ttu-id="15f3c-105">這個方法可能會損毀其他相依于受影響快照集的快照集。</span><span class="sxs-lookup"><span data-stu-id="15f3c-105">This method may, as a side effect, destroy other snapshots that are dependent on the affected snapshot.</span></span>
+<span data-ttu-id="6a477-104">終結現有的虛擬機器快照集。</span><span class="sxs-lookup"><span data-stu-id="6a477-104">Destroys an existing virtual machine snapshot.</span></span> <span data-ttu-id="6a477-105">這個方法可能會損毀其他相依于受影響快照集的快照集。</span><span class="sxs-lookup"><span data-stu-id="6a477-105">This method may, as a side effect, destroy other snapshots that are dependent on the affected snapshot.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="15f3c-106">語法</span><span class="sxs-lookup"><span data-stu-id="15f3c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6a477-106">語法</span><span class="sxs-lookup"><span data-stu-id="6a477-106">Syntax</span></span>
 
 
 ```mof
@@ -36,85 +36,85 @@ uint32 DestroySnapshot(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="15f3c-107">參數</span><span class="sxs-lookup"><span data-stu-id="15f3c-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6a477-107">參數</span><span class="sxs-lookup"><span data-stu-id="6a477-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="15f3c-108">*AffectedSnapshot* \[在\]</span><span class="sxs-lookup"><span data-stu-id="15f3c-108">*AffectedSnapshot* \[in\]</span></span>
+<span data-ttu-id="6a477-108">*AffectedSnapshot* \[在\]</span><span class="sxs-lookup"><span data-stu-id="6a477-108">*AffectedSnapshot* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="15f3c-109">[**CIM \_ VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85))參考，代表要終結的虛擬機器快照集。</span><span class="sxs-lookup"><span data-stu-id="15f3c-109">A [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) reference that represents the virtual machine snapshot to destroy.</span></span>
+<span data-ttu-id="6a477-109">[**CIM \_ VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85))參考，代表要終結的虛擬機器快照集。</span><span class="sxs-lookup"><span data-stu-id="6a477-109">A [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) reference that represents the virtual machine snapshot to destroy.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="15f3c-110">*作業* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="15f3c-110">*Job* \[out\]</span></span>
+<span data-ttu-id="6a477-110">*作業* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="6a477-110">*Job* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="15f3c-111">如果作業是以非同步方式執行，這個方法會傳回4096，而此參數會包含衍生自 [**CIM \_ ConcreteJob**](/previous-versions//cc136808(v=vs.85))之物件的參考。</span><span class="sxs-lookup"><span data-stu-id="15f3c-111">If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).</span></span>
+<span data-ttu-id="6a477-111">如果作業是以非同步方式執行，這個方法會傳回4096，而此參數會包含衍生自 [**CIM \_ ConcreteJob**](/previous-versions//cc136808(v=vs.85))之物件的參考。</span><span class="sxs-lookup"><span data-stu-id="6a477-111">If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="15f3c-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="15f3c-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6a477-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="6a477-112">Return value</span></span>
 
-<span data-ttu-id="15f3c-113">這個方法會傳回下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="15f3c-113">This method returns one of the following values.</span></span>
+<span data-ttu-id="6a477-113">這個方法會傳回下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="6a477-113">This method returns one of the following values.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="15f3c-114">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="15f3c-114">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="6a477-114">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="6a477-114">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-115">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="15f3c-115">**Not Supported** (1)</span></span>
+<span data-ttu-id="6a477-115">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="6a477-115">**Not Supported** (1)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-116">**失敗** (2) </span><span class="sxs-lookup"><span data-stu-id="15f3c-116">**Failed** (2)</span></span>
+<span data-ttu-id="6a477-116">**失敗** (2) </span><span class="sxs-lookup"><span data-stu-id="6a477-116">**Failed** (2)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-117">**Timeout** (3) </span><span class="sxs-lookup"><span data-stu-id="15f3c-117">**Timeout** (3)</span></span>
+<span data-ttu-id="6a477-117">**Timeout** (3) </span><span class="sxs-lookup"><span data-stu-id="6a477-117">**Timeout** (3)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-118">**不正確參數** (4) </span><span class="sxs-lookup"><span data-stu-id="15f3c-118">**Invalid Parameter** (4)</span></span>
+<span data-ttu-id="6a477-118">**不正確參數** (4) </span><span class="sxs-lookup"><span data-stu-id="6a477-118">**Invalid Parameter** (4)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-119">**不正確狀態** (5) </span><span class="sxs-lookup"><span data-stu-id="15f3c-119">**Invalid State** (5)</span></span>
+<span data-ttu-id="6a477-119">**不正確狀態** (5) </span><span class="sxs-lookup"><span data-stu-id="6a477-119">**Invalid State** (5)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-120">**不正確類型** (6) </span><span class="sxs-lookup"><span data-stu-id="15f3c-120">**Invalid Type** (6)</span></span>
+<span data-ttu-id="6a477-120">**不正確類型** (6) </span><span class="sxs-lookup"><span data-stu-id="6a477-120">**Invalid Type** (6)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-121">**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="15f3c-121">**DMTF Reserved** (..)</span></span>
+<span data-ttu-id="6a477-121">**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="6a477-121">**DMTF Reserved** (..)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-122">**已檢查方法參數-工作已啟動** (4096) </span><span class="sxs-lookup"><span data-stu-id="15f3c-122">**Method Parameters Checked - Job Started** (4096)</span></span>
+<span data-ttu-id="6a477-122">**已檢查方法參數-工作已啟動** (4096) </span><span class="sxs-lookup"><span data-stu-id="6a477-122">**Method Parameters Checked - Job Started** (4096)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-123">**方法保留** (4097. 32767) </span><span class="sxs-lookup"><span data-stu-id="15f3c-123">**Method Reserved** (4097..32767)</span></span>
+<span data-ttu-id="6a477-123">**方法保留** (4097. 32767) </span><span class="sxs-lookup"><span data-stu-id="6a477-123">**Method Reserved** (4097..32767)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="15f3c-124">**廠商特定** (32768. 65535) </span><span class="sxs-lookup"><span data-stu-id="15f3c-124">**Vendor Specific** (32768..65535)</span></span>
+<span data-ttu-id="6a477-124">**廠商特定** (32768. 65535) </span><span class="sxs-lookup"><span data-stu-id="6a477-124">**Vendor Specific** (32768..65535)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="15f3c-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="15f3c-125">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6a477-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="6a477-125">Requirements</span></span>
 
 
 
-| <span data-ttu-id="15f3c-126">需求</span><span class="sxs-lookup"><span data-stu-id="15f3c-126">Requirement</span></span> | <span data-ttu-id="15f3c-127">值</span><span class="sxs-lookup"><span data-stu-id="15f3c-127">Value</span></span> |
+| <span data-ttu-id="6a477-126">需求</span><span class="sxs-lookup"><span data-stu-id="6a477-126">Requirement</span></span> | <span data-ttu-id="6a477-127">值</span><span class="sxs-lookup"><span data-stu-id="6a477-127">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="15f3c-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="15f3c-128">Minimum supported client</span></span><br/> | <span data-ttu-id="15f3c-129">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="15f3c-129">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
-| <span data-ttu-id="15f3c-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="15f3c-130">Minimum supported server</span></span><br/> | <span data-ttu-id="15f3c-131">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="15f3c-131">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="15f3c-132">命名空間</span><span class="sxs-lookup"><span data-stu-id="15f3c-132">Namespace</span></span><br/>                | <span data-ttu-id="15f3c-133">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="15f3c-133">Root\\Virtualization\\V2</span></span><br/>                                                                     |
-| <span data-ttu-id="15f3c-134">MOF</span><span class="sxs-lookup"><span data-stu-id="15f3c-134">MOF</span></span><br/>                      | <dl> <span data-ttu-id="15f3c-135"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="15f3c-135"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="15f3c-136">DLL</span><span class="sxs-lookup"><span data-stu-id="15f3c-136">DLL</span></span><br/>                      | <dl> <span data-ttu-id="15f3c-137"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="15f3c-137"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="6a477-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6a477-128">Minimum supported client</span></span><br/> | <span data-ttu-id="6a477-129">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6a477-129">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
+| <span data-ttu-id="6a477-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6a477-130">Minimum supported server</span></span><br/> | <span data-ttu-id="6a477-131">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6a477-131">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="6a477-132">命名空間</span><span class="sxs-lookup"><span data-stu-id="6a477-132">Namespace</span></span><br/>                | <span data-ttu-id="6a477-133">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="6a477-133">Root\\Virtualization\\V2</span></span><br/>                                                                     |
+| <span data-ttu-id="6a477-134">MOF</span><span class="sxs-lookup"><span data-stu-id="6a477-134">MOF</span></span><br/>                      | <dl> <span data-ttu-id="6a477-135"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="6a477-135"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="6a477-136">DLL</span><span class="sxs-lookup"><span data-stu-id="6a477-136">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6a477-137"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="6a477-137"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="15f3c-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="15f3c-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6a477-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6a477-138">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="15f3c-139">**Msvm \_ VirtualSystemSnapshotService**</span><span class="sxs-lookup"><span data-stu-id="15f3c-139">**Msvm\_VirtualSystemSnapshotService**</span></span>](msvm-virtualsystemsnapshotservice.md)
+[<span data-ttu-id="6a477-139">**Msvm \_ VirtualSystemSnapshotService**</span><span class="sxs-lookup"><span data-stu-id="6a477-139">**Msvm\_VirtualSystemSnapshotService**</span></span>](msvm-virtualsystemsnapshotservice.md)
 </dt> <dt>
 
-[<span data-ttu-id="15f3c-140">**RemoveVirtualSystemSnapshot (V1)**</span><span class="sxs-lookup"><span data-stu-id="15f3c-140">**RemoveVirtualSystemSnapshot (V1)**</span></span>](/previous-versions/windows/desktop/virtual/removevirtualsystemsnapshot-msvm-virtualsystemmanagementservice)
+[<span data-ttu-id="6a477-140">**RemoveVirtualSystemSnapshot (V1)**</span><span class="sxs-lookup"><span data-stu-id="6a477-140">**RemoveVirtualSystemSnapshot (V1)**</span></span>](/previous-versions/windows/desktop/virtual/removevirtualsystemsnapshot-msvm-virtualsystemmanagementservice)
 </dt> </dl>
 
  

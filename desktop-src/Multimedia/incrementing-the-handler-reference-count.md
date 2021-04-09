@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021936"
 ---
-# <a name="incrementing-the-handler-reference-count"></a><span data-ttu-id="3164e-103">遞增處理常式參考計數</span><span class="sxs-lookup"><span data-stu-id="3164e-103">Incrementing the Handler Reference Count</span></span>
+# <a name="incrementing-the-handler-reference-count"></a><span data-ttu-id="24038-103">遞增處理常式參考計數</span><span class="sxs-lookup"><span data-stu-id="24038-103">Incrementing the Handler Reference Count</span></span>
 
-<span data-ttu-id="3164e-104">**AddRef** 方法會遞增資料流程處理常式或檔案處理常式的參考計數。</span><span class="sxs-lookup"><span data-stu-id="3164e-104">The **AddRef** method increments the stream-hander or file-handler reference count.</span></span>
+<span data-ttu-id="24038-104">**AddRef** 方法會遞增資料流程處理常式或檔案處理常式的參考計數。</span><span class="sxs-lookup"><span data-stu-id="24038-104">The **AddRef** method increments the stream-hander or file-handler reference count.</span></span>
 
 
 ```C++

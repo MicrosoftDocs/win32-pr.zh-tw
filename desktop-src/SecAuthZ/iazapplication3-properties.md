@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851324"
 ---
-# <a name="iazapplication3-properties"></a><span data-ttu-id="eebea-103">IAzApplication3 屬性</span><span class="sxs-lookup"><span data-stu-id="eebea-103">IAzApplication3 Properties</span></span>
+# <a name="iazapplication3-properties"></a><span data-ttu-id="33094-103">IAzApplication3 屬性</span><span class="sxs-lookup"><span data-stu-id="33094-103">IAzApplication3 Properties</span></span>
 
-<span data-ttu-id="eebea-104">[**IAzApplication3**](/windows/desktop/api/Azroles/nn-azroles-iazapplication3)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="eebea-104">The [**IAzApplication3**](/windows/desktop/api/Azroles/nn-azroles-iazapplication3) interface exposes the following properties.</span></span>
+<span data-ttu-id="33094-104">[**IAzApplication3**](/windows/desktop/api/Azroles/nn-azroles-iazapplication3)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="33094-104">The [**IAzApplication3**](/windows/desktop/api/Azroles/nn-azroles-iazapplication3) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="eebea-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="eebea-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="33094-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="33094-105">In this section</span></span>
 
--   [<span data-ttu-id="eebea-106">**BizRulesEnabled 屬性**</span><span class="sxs-lookup"><span data-stu-id="eebea-106">**BizRulesEnabled Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplication3-get_bizrulesenabled)
--   [<span data-ttu-id="eebea-107">**RoleAssignments 屬性**</span><span class="sxs-lookup"><span data-stu-id="eebea-107">**RoleAssignments Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplication3-get_roleassignments)
--   [<span data-ttu-id="eebea-108">**RoleDefinitions 屬性**</span><span class="sxs-lookup"><span data-stu-id="eebea-108">**RoleDefinitions Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplication3-get_roledefinitions)
+-   [<span data-ttu-id="33094-106">**BizRulesEnabled 屬性**</span><span class="sxs-lookup"><span data-stu-id="33094-106">**BizRulesEnabled Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplication3-get_bizrulesenabled)
+-   [<span data-ttu-id="33094-107">**RoleAssignments 屬性**</span><span class="sxs-lookup"><span data-stu-id="33094-107">**RoleAssignments Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplication3-get_roleassignments)
+-   [<span data-ttu-id="33094-108">**RoleDefinitions 屬性**</span><span class="sxs-lookup"><span data-stu-id="33094-108">**RoleDefinitions Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplication3-get_roledefinitions)
 
  
 

@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851804"
 ---
-# <a name="kernel-transaction-manager-structures"></a><span data-ttu-id="a5373-103">核心交易管理員結構</span><span class="sxs-lookup"><span data-stu-id="a5373-103">Kernel Transaction Manager Structures</span></span>
+# <a name="kernel-transaction-manager-structures"></a><span data-ttu-id="103cd-103">核心交易管理員結構</span><span class="sxs-lookup"><span data-stu-id="103cd-103">Kernel Transaction Manager Structures</span></span>
 
-<span data-ttu-id="a5373-104">下列結構是核心交易管理員 (KTM) API 的一部分：</span><span class="sxs-lookup"><span data-stu-id="a5373-104">The following structures are part of the Kernel Transaction Manager (KTM) API:</span></span>
+<span data-ttu-id="103cd-104">下列結構是核心交易管理員 (KTM) API 的一部分：</span><span class="sxs-lookup"><span data-stu-id="103cd-104">The following structures are part of the Kernel Transaction Manager (KTM) API:</span></span>
 
 <dl>
 
-[<span data-ttu-id="a5373-105">**交易 \_ 通知**</span><span class="sxs-lookup"><span data-stu-id="a5373-105">**TRANSACTION\_NOTIFICATION**</span></span>](/windows/desktop/api/KtmTypes/ns-ktmtypes-transaction_notification)  
-[<span data-ttu-id="a5373-106">**交易 \_ 通知 \_ 修復 \_ 引數**</span><span class="sxs-lookup"><span data-stu-id="a5373-106">**TRANSACTION\_NOTIFICATION\_RECOVERY\_ARGUMENT**</span></span>](/windows/desktop/api/KtmTypes/ns-ktmtypes-transaction_notification_recovery_argument)  
+[<span data-ttu-id="103cd-105">**交易 \_ 通知**</span><span class="sxs-lookup"><span data-stu-id="103cd-105">**TRANSACTION\_NOTIFICATION**</span></span>](/windows/desktop/api/KtmTypes/ns-ktmtypes-transaction_notification)  
+[<span data-ttu-id="103cd-106">**交易 \_ 通知 \_ 修復 \_ 引數**</span><span class="sxs-lookup"><span data-stu-id="103cd-106">**TRANSACTION\_NOTIFICATION\_RECOVERY\_ARGUMENT**</span></span>](/windows/desktop/api/KtmTypes/ns-ktmtypes-transaction_notification_recovery_argument)  
 </dl>
 
  

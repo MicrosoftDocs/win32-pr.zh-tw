@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851563"
 ---
-# <a name="moduleadvtuisequence-table"></a><span data-ttu-id="6e989-106">ModuleAdvtUISequence 資料表</span><span class="sxs-lookup"><span data-stu-id="6e989-106">ModuleAdvtUISequence Table</span></span>
+# <a name="moduleadvtuisequence-table"></a><span data-ttu-id="635b9-106">ModuleAdvtUISequence 資料表</span><span class="sxs-lookup"><span data-stu-id="635b9-106">ModuleAdvtUISequence Table</span></span>
 
-<span data-ttu-id="6e989-107">請勿撰寫此資料表。</span><span class="sxs-lookup"><span data-stu-id="6e989-107">Do not author this table.</span></span> <span data-ttu-id="6e989-108">Windows Installer 不會使用 [AdvtUISequence 資料表](advtuisequence-table.md)。</span><span class="sxs-lookup"><span data-stu-id="6e989-108">The Windows Installer does not use the [AdvtUISequence table](advtuisequence-table.md).</span></span> <span data-ttu-id="6e989-109">AdvtUISequence 資料表不應該存在，也不應該留在安裝資料庫中。</span><span class="sxs-lookup"><span data-stu-id="6e989-109">The AdvtUISequence table should not exist or should be left blank in the installation database.</span></span> <span data-ttu-id="6e989-110">也不要編寫 ModuleAdvtUISequence 資料表。</span><span class="sxs-lookup"><span data-stu-id="6e989-110">Also do not author the ModuleAdvtUISequence table.</span></span>
+<span data-ttu-id="635b9-107">請勿撰寫此資料表。</span><span class="sxs-lookup"><span data-stu-id="635b9-107">Do not author this table.</span></span> <span data-ttu-id="635b9-108">Windows Installer 不會使用 [AdvtUISequence 資料表](advtuisequence-table.md)。</span><span class="sxs-lookup"><span data-stu-id="635b9-108">The Windows Installer does not use the [AdvtUISequence table](advtuisequence-table.md).</span></span> <span data-ttu-id="635b9-109">AdvtUISequence 資料表不應該存在，也不應該留在安裝資料庫中。</span><span class="sxs-lookup"><span data-stu-id="635b9-109">The AdvtUISequence table should not exist or should be left blank in the installation database.</span></span> <span data-ttu-id="635b9-110">也不要編寫 ModuleAdvtUISequence 資料表。</span><span class="sxs-lookup"><span data-stu-id="635b9-110">Also do not author the ModuleAdvtUISequence table.</span></span>
 
  
 

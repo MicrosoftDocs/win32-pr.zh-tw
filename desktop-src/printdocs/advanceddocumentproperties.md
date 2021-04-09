@@ -22,13 +22,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695015"
 ---
-# <a name="advanceddocumentproperties-function"></a><span data-ttu-id="faeef-103">AdvancedDocumentProperties 函式</span><span class="sxs-lookup"><span data-stu-id="faeef-103">AdvancedDocumentProperties function</span></span>
+# <a name="advanceddocumentproperties-function"></a><span data-ttu-id="2080e-103">AdvancedDocumentProperties 函式</span><span class="sxs-lookup"><span data-stu-id="2080e-103">AdvancedDocumentProperties function</span></span>
 
-<span data-ttu-id="faeef-104">**AdvancedDocumentProperties** 函式會顯示指定印表機的 [印表機設定] 對話方塊，讓使用者可以設定該印表機。</span><span class="sxs-lookup"><span data-stu-id="faeef-104">The **AdvancedDocumentProperties** function displays a printer-configuration dialog box for the specified printer, allowing the user to configure that printer.</span></span>
+<span data-ttu-id="2080e-104">**AdvancedDocumentProperties** 函式會顯示指定印表機的 [印表機設定] 對話方塊，讓使用者可以設定該印表機。</span><span class="sxs-lookup"><span data-stu-id="2080e-104">The **AdvancedDocumentProperties** function displays a printer-configuration dialog box for the specified printer, allowing the user to configure that printer.</span></span>
 
-<span data-ttu-id="faeef-105">此函數是 [**DocumentProperties**](documentproperties.md) 函數的特殊案例。</span><span class="sxs-lookup"><span data-stu-id="faeef-105">This function is a special case of the [**DocumentProperties**](documentproperties.md) function.</span></span> <span data-ttu-id="faeef-106">如需詳細資訊，請參閱「備註」一節。</span><span class="sxs-lookup"><span data-stu-id="faeef-106">For more details, see the Remarks section.</span></span>
+<span data-ttu-id="2080e-105">此函數是 [**DocumentProperties**](documentproperties.md) 函數的特殊案例。</span><span class="sxs-lookup"><span data-stu-id="2080e-105">This function is a special case of the [**DocumentProperties**](documentproperties.md) function.</span></span> <span data-ttu-id="2080e-106">如需詳細資訊，請參閱「備註」一節。</span><span class="sxs-lookup"><span data-stu-id="2080e-106">For more details, see the Remarks section.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="faeef-107">語法</span><span class="sxs-lookup"><span data-stu-id="faeef-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2080e-107">語法</span><span class="sxs-lookup"><span data-stu-id="2080e-107">Syntax</span></span>
 
 
 ```C++
@@ -43,101 +43,101 @@ LONG AdvancedDocumentProperties(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="faeef-108">參數</span><span class="sxs-lookup"><span data-stu-id="faeef-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2080e-108">參數</span><span class="sxs-lookup"><span data-stu-id="2080e-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="faeef-109">*hWnd* \[在\]</span><span class="sxs-lookup"><span data-stu-id="faeef-109">*hWnd* \[in\]</span></span>
+<span data-ttu-id="2080e-109">*hWnd* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2080e-109">*hWnd* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="faeef-110">印表機設定對話方塊的父視窗控制碼。</span><span class="sxs-lookup"><span data-stu-id="faeef-110">A handle to the parent window of the printer-configuration dialog box.</span></span>
+<span data-ttu-id="2080e-110">印表機設定對話方塊的父視窗控制碼。</span><span class="sxs-lookup"><span data-stu-id="2080e-110">A handle to the parent window of the printer-configuration dialog box.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="faeef-111">*hPrinter* \[在\]</span><span class="sxs-lookup"><span data-stu-id="faeef-111">*hPrinter* \[in\]</span></span>
+<span data-ttu-id="2080e-111">*hPrinter* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2080e-111">*hPrinter* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="faeef-112">印表機物件的控制碼。</span><span class="sxs-lookup"><span data-stu-id="faeef-112">A handle to a printer object.</span></span> <span data-ttu-id="faeef-113">使用 [**OpenPrinter**](openprinter.md) 或 [**interactivesession.addprinter**](addprinter.md) 函式來取出印表機控制碼。</span><span class="sxs-lookup"><span data-stu-id="faeef-113">Use the [**OpenPrinter**](openprinter.md) or [**AddPrinter**](addprinter.md) function to retrieve a printer handle.</span></span>
+<span data-ttu-id="2080e-112">印表機物件的控制碼。</span><span class="sxs-lookup"><span data-stu-id="2080e-112">A handle to a printer object.</span></span> <span data-ttu-id="2080e-113">使用 [**OpenPrinter**](openprinter.md) 或 [**interactivesession.addprinter**](addprinter.md) 函式來取出印表機控制碼。</span><span class="sxs-lookup"><span data-stu-id="2080e-113">Use the [**OpenPrinter**](openprinter.md) or [**AddPrinter**](addprinter.md) function to retrieve a printer handle.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="faeef-114">*pDeviceName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="faeef-114">*pDeviceName* \[in\]</span></span>
+<span data-ttu-id="2080e-114">*pDeviceName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2080e-114">*pDeviceName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="faeef-115">以 null 結束的字串指標，指定應顯示印表機設定對話方塊的裝置名稱。</span><span class="sxs-lookup"><span data-stu-id="faeef-115">A pointer to a null-terminated string specifying the name of the device for which a printer-configuration dialog box should be displayed.</span></span>
+<span data-ttu-id="2080e-115">以 null 結束的字串指標，指定應顯示印表機設定對話方塊的裝置名稱。</span><span class="sxs-lookup"><span data-stu-id="2080e-115">A pointer to a null-terminated string specifying the name of the device for which a printer-configuration dialog box should be displayed.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="faeef-116">*pDevModeOutput* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="faeef-116">*pDevModeOutput* \[out\]</span></span>
+<span data-ttu-id="2080e-116">*pDevModeOutput* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="2080e-116">*pDevModeOutput* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="faeef-117">[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)結構的指標，此結構會包含使用者所指定的設定資料。</span><span class="sxs-lookup"><span data-stu-id="faeef-117">A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that will contain the configuration data specified by the user.</span></span>
+<span data-ttu-id="2080e-117">[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)結構的指標，此結構會包含使用者所指定的設定資料。</span><span class="sxs-lookup"><span data-stu-id="2080e-117">A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that will contain the configuration data specified by the user.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="faeef-118">*pDevModeInput* \[在\]</span><span class="sxs-lookup"><span data-stu-id="faeef-118">*pDevModeInput* \[in\]</span></span>
+<span data-ttu-id="2080e-118">*pDevModeInput* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2080e-118">*pDevModeInput* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="faeef-119">[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)結構的指標，其中包含用來初始化 [印表機設定] 對話方塊之控制項的設定資料。</span><span class="sxs-lookup"><span data-stu-id="faeef-119">A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that contains the configuration data used to initialize the controls of the printer-configuration dialog box.</span></span>
+<span data-ttu-id="2080e-119">[**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)結構的指標，其中包含用來初始化 [印表機設定] 對話方塊之控制項的設定資料。</span><span class="sxs-lookup"><span data-stu-id="2080e-119">A pointer to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure that contains the configuration data used to initialize the controls of the printer-configuration dialog box.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="faeef-120">傳回值</span><span class="sxs-lookup"><span data-stu-id="faeef-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2080e-120">傳回值</span><span class="sxs-lookup"><span data-stu-id="2080e-120">Return value</span></span>
 
-<span data-ttu-id="faeef-121">如果具有這些參數的 [**DocumentProperties**](documentproperties.md) 函數成功，則 **AdvancedDocumentProperties** 的傳回值為1。</span><span class="sxs-lookup"><span data-stu-id="faeef-121">If the [**DocumentProperties**](documentproperties.md) function with these parameters is successful, the return value of **AdvancedDocumentProperties** is 1.</span></span> <span data-ttu-id="faeef-122">否則，傳回值為零。</span><span class="sxs-lookup"><span data-stu-id="faeef-122">Otherwise, the return value is zero.</span></span>
+<span data-ttu-id="2080e-121">如果具有這些參數的 [**DocumentProperties**](documentproperties.md) 函數成功，則 **AdvancedDocumentProperties** 的傳回值為1。</span><span class="sxs-lookup"><span data-stu-id="2080e-121">If the [**DocumentProperties**](documentproperties.md) function with these parameters is successful, the return value of **AdvancedDocumentProperties** is 1.</span></span> <span data-ttu-id="2080e-122">否則，傳回值為零。</span><span class="sxs-lookup"><span data-stu-id="2080e-122">Otherwise, the return value is zero.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="faeef-123">備註</span><span class="sxs-lookup"><span data-stu-id="faeef-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2080e-123">備註</span><span class="sxs-lookup"><span data-stu-id="2080e-123">Remarks</span></span>
 
 > [!Note]  
-> <span data-ttu-id="faeef-124">這是封鎖或同步函式，可能不會立即傳回。</span><span class="sxs-lookup"><span data-stu-id="faeef-124">This is a blocking or synchronous function and might not return immediately.</span></span> <span data-ttu-id="faeef-125">此函式傳回的速度，取決於執行時間因素，例如網路狀態、列印伺服器設定，以及在撰寫應用程式時難以預測的印表機驅動程式執行因素。</span><span class="sxs-lookup"><span data-stu-id="faeef-125">How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation factors that are difficult to predict when writing an application.</span></span> <span data-ttu-id="faeef-126">從管理與使用者介面互動的執行緒呼叫這個函式，可能會讓應用程式看起來沒有回應。</span><span class="sxs-lookup"><span data-stu-id="faeef-126">Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</span></span>
+> <span data-ttu-id="2080e-124">這是封鎖或同步函式，可能不會立即傳回。</span><span class="sxs-lookup"><span data-stu-id="2080e-124">This is a blocking or synchronous function and might not return immediately.</span></span> <span data-ttu-id="2080e-125">此函式傳回的速度，取決於執行時間因素，例如網路狀態、列印伺服器設定，以及在撰寫應用程式時難以預測的印表機驅動程式執行因素。</span><span class="sxs-lookup"><span data-stu-id="2080e-125">How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation factors that are difficult to predict when writing an application.</span></span> <span data-ttu-id="2080e-126">從管理與使用者介面互動的執行緒呼叫這個函式，可能會讓應用程式看起來沒有回應。</span><span class="sxs-lookup"><span data-stu-id="2080e-126">Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</span></span>
 
  
 
-<span data-ttu-id="faeef-127">此功能只會顯示 [印表機設定] 對話方塊，讓使用者可以進行設定。</span><span class="sxs-lookup"><span data-stu-id="faeef-127">This function can only display the printer-configuration dialog box so a user can configure it.</span></span> <span data-ttu-id="faeef-128">如需更多控制，請使用 [**DocumentProperties**](documentproperties.md)。</span><span class="sxs-lookup"><span data-stu-id="faeef-128">For more control, use [**DocumentProperties**](documentproperties.md).</span></span> <span data-ttu-id="faeef-129">此函式的輸入參數會直接傳遞至 **DocumentProperties** ，而 *fMode* 值會在 \_ \_ \| \_ \_ 提示 \| dm \_ 輸出 \_ 緩衝區的緩衝區 DM 中設定為 DM。</span><span class="sxs-lookup"><span data-stu-id="faeef-129">The input parameters for this function are passed directly to **DocumentProperties** and the *fMode* value is set to DM\_IN\_BUFFER \| DM\_IN\_PROMPT \| DM\_OUT\_BUFFER.</span></span> <span data-ttu-id="faeef-130">與 **DocumentProperties** 不同，此函數只會傳回1或0。</span><span class="sxs-lookup"><span data-stu-id="faeef-130">Unlike **DocumentProperties**, this function only returns 1 or 0.</span></span> <span data-ttu-id="faeef-131">因此，您無法藉由將 *pDevMode* 設定為零，判斷所需的 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)大小。</span><span class="sxs-lookup"><span data-stu-id="faeef-131">Thus, you cannot determine the required size of [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) by setting *pDevMode* to zero.</span></span>
+<span data-ttu-id="2080e-127">此功能只會顯示 [印表機設定] 對話方塊，讓使用者可以進行設定。</span><span class="sxs-lookup"><span data-stu-id="2080e-127">This function can only display the printer-configuration dialog box so a user can configure it.</span></span> <span data-ttu-id="2080e-128">如需更多控制，請使用 [**DocumentProperties**](documentproperties.md)。</span><span class="sxs-lookup"><span data-stu-id="2080e-128">For more control, use [**DocumentProperties**](documentproperties.md).</span></span> <span data-ttu-id="2080e-129">此函式的輸入參數會直接傳遞至 **DocumentProperties** ，而 *fMode* 值會在 \_ \_ \| \_ \_ 提示 \| dm \_ 輸出 \_ 緩衝區的緩衝區 DM 中設定為 DM。</span><span class="sxs-lookup"><span data-stu-id="2080e-129">The input parameters for this function are passed directly to **DocumentProperties** and the *fMode* value is set to DM\_IN\_BUFFER \| DM\_IN\_PROMPT \| DM\_OUT\_BUFFER.</span></span> <span data-ttu-id="2080e-130">與 **DocumentProperties** 不同，此函數只會傳回1或0。</span><span class="sxs-lookup"><span data-stu-id="2080e-130">Unlike **DocumentProperties**, this function only returns 1 or 0.</span></span> <span data-ttu-id="2080e-131">因此，您無法藉由將 *pDevMode* 設定為零，判斷所需的 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)大小。</span><span class="sxs-lookup"><span data-stu-id="2080e-131">Thus, you cannot determine the required size of [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) by setting *pDevMode* to zero.</span></span>
 
-<span data-ttu-id="faeef-132">應用程式可以透過呼叫 [**GetPrinter**](getprinter.md)函式，然後檢查 [**印表機 \_ INFO \_ 2**](printer-info-2.md)結構的 **pPrinterName** 成員，來取得 *pDeviceName* 參數所指向的名稱。</span><span class="sxs-lookup"><span data-stu-id="faeef-132">An application can obtain the name pointed to by the *pDeviceName* parameter by calling the [**GetPrinter**](getprinter.md) function and then examining the **pPrinterName** member of the [**PRINTER\_INFO\_2**](printer-info-2.md) structure.</span></span>
+<span data-ttu-id="2080e-132">應用程式可以透過呼叫 [**GetPrinter**](getprinter.md)函式，然後檢查 [**印表機 \_ INFO \_ 2**](printer-info-2.md)結構的 **pPrinterName** 成員，來取得 *pDeviceName* 參數所指向的名稱。</span><span class="sxs-lookup"><span data-stu-id="2080e-132">An application can obtain the name pointed to by the *pDeviceName* parameter by calling the [**GetPrinter**](getprinter.md) function and then examining the **pPrinterName** member of the [**PRINTER\_INFO\_2**](printer-info-2.md) structure.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="faeef-133">規格需求</span><span class="sxs-lookup"><span data-stu-id="faeef-133">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2080e-133">規格需求</span><span class="sxs-lookup"><span data-stu-id="2080e-133">Requirements</span></span>
 
 
 
-| <span data-ttu-id="faeef-134">需求</span><span class="sxs-lookup"><span data-stu-id="faeef-134">Requirement</span></span> | <span data-ttu-id="faeef-135">值</span><span class="sxs-lookup"><span data-stu-id="faeef-135">Value</span></span> |
+| <span data-ttu-id="2080e-134">需求</span><span class="sxs-lookup"><span data-stu-id="2080e-134">Requirement</span></span> | <span data-ttu-id="2080e-135">值</span><span class="sxs-lookup"><span data-stu-id="2080e-135">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="faeef-136">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="faeef-136">Minimum supported client</span></span><br/> | <span data-ttu-id="faeef-137">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="faeef-137">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                |
-| <span data-ttu-id="faeef-138">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="faeef-138">Minimum supported server</span></span><br/> | <span data-ttu-id="faeef-139">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="faeef-139">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                      |
-| <span data-ttu-id="faeef-140">標頭</span><span class="sxs-lookup"><span data-stu-id="faeef-140">Header</span></span><br/>                   | <dl> <span data-ttu-id="faeef-141"><dt>Winspool.drv (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="faeef-141"><dt>Winspool.h (include Windows.h)</dt></span></span> </dl> |
-| <span data-ttu-id="faeef-142">程式庫</span><span class="sxs-lookup"><span data-stu-id="faeef-142">Library</span></span><br/>                  | <dl> <span data-ttu-id="faeef-143"><dt>Winspool.drv .lib</dt></span><span class="sxs-lookup"><span data-stu-id="faeef-143"><dt>Winspool.lib</dt></span></span> </dl>                   |
-| <span data-ttu-id="faeef-144">DLL</span><span class="sxs-lookup"><span data-stu-id="faeef-144">DLL</span></span><br/>                      | <dl> <span data-ttu-id="faeef-145"><dt>Winspool.drv. winspool.drv</dt></span><span class="sxs-lookup"><span data-stu-id="faeef-145"><dt>Winspool.drv</dt></span></span> </dl>                   |
-| <span data-ttu-id="faeef-146">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="faeef-146">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="faeef-147">**AdvancedDocumentPropertiesW** (Unicode) 和 **AdvancedDocumentPropertiesA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="faeef-147">**AdvancedDocumentPropertiesW** (Unicode) and **AdvancedDocumentPropertiesA** (ANSI)</span></span><br/>           |
+| <span data-ttu-id="2080e-136">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2080e-136">Minimum supported client</span></span><br/> | <span data-ttu-id="2080e-137">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2080e-137">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                |
+| <span data-ttu-id="2080e-138">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2080e-138">Minimum supported server</span></span><br/> | <span data-ttu-id="2080e-139">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2080e-139">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                      |
+| <span data-ttu-id="2080e-140">標頭</span><span class="sxs-lookup"><span data-stu-id="2080e-140">Header</span></span><br/>                   | <dl> <span data-ttu-id="2080e-141"><dt>Winspool.drv (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="2080e-141"><dt>Winspool.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="2080e-142">程式庫</span><span class="sxs-lookup"><span data-stu-id="2080e-142">Library</span></span><br/>                  | <dl> <span data-ttu-id="2080e-143"><dt>Winspool.drv .lib</dt></span><span class="sxs-lookup"><span data-stu-id="2080e-143"><dt>Winspool.lib</dt></span></span> </dl>                   |
+| <span data-ttu-id="2080e-144">DLL</span><span class="sxs-lookup"><span data-stu-id="2080e-144">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2080e-145"><dt>Winspool.drv. winspool.drv</dt></span><span class="sxs-lookup"><span data-stu-id="2080e-145"><dt>Winspool.drv</dt></span></span> </dl>                   |
+| <span data-ttu-id="2080e-146">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="2080e-146">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="2080e-147">**AdvancedDocumentPropertiesW** (Unicode) 和 **AdvancedDocumentPropertiesA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="2080e-147">**AdvancedDocumentPropertiesW** (Unicode) and **AdvancedDocumentPropertiesA** (ANSI)</span></span><br/>           |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="faeef-148">另請參閱</span><span class="sxs-lookup"><span data-stu-id="faeef-148">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2080e-148">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2080e-148">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="faeef-149">列印</span><span class="sxs-lookup"><span data-stu-id="faeef-149">Printing</span></span>](printdocs-printing.md)
+[<span data-ttu-id="2080e-149">列印</span><span class="sxs-lookup"><span data-stu-id="2080e-149">Printing</span></span>](printdocs-printing.md)
 </dt> <dt>
 
-[<span data-ttu-id="faeef-150">列印多工緩衝處理器 API 函式</span><span class="sxs-lookup"><span data-stu-id="faeef-150">Print Spooler API Functions</span></span>](printing-and-print-spooler-functions.md)
+[<span data-ttu-id="2080e-150">列印多工緩衝處理器 API 函式</span><span class="sxs-lookup"><span data-stu-id="2080e-150">Print Spooler API Functions</span></span>](printing-and-print-spooler-functions.md)
 </dt> <dt>
 
-[<span data-ttu-id="faeef-151">**Interactivesession.addprinter**</span><span class="sxs-lookup"><span data-stu-id="faeef-151">**AddPrinter**</span></span>](addprinter.md)
+[<span data-ttu-id="2080e-151">**Interactivesession.addprinter**</span><span class="sxs-lookup"><span data-stu-id="2080e-151">**AddPrinter**</span></span>](addprinter.md)
 </dt> <dt>
 
-[<span data-ttu-id="faeef-152">**版**</span><span class="sxs-lookup"><span data-stu-id="faeef-152">**DEVMODE**</span></span>](/windows/win32/api/wingdi/ns-wingdi-devmodea)
+[<span data-ttu-id="2080e-152">**版**</span><span class="sxs-lookup"><span data-stu-id="2080e-152">**DEVMODE**</span></span>](/windows/win32/api/wingdi/ns-wingdi-devmodea)
 </dt> <dt>
 
-[<span data-ttu-id="faeef-153">**DocumentProperties**</span><span class="sxs-lookup"><span data-stu-id="faeef-153">**DocumentProperties**</span></span>](documentproperties.md)
+[<span data-ttu-id="2080e-153">**DocumentProperties**</span><span class="sxs-lookup"><span data-stu-id="2080e-153">**DocumentProperties**</span></span>](documentproperties.md)
 </dt> <dt>
 
-[<span data-ttu-id="faeef-154">**GetPrinter**</span><span class="sxs-lookup"><span data-stu-id="faeef-154">**GetPrinter**</span></span>](getprinter.md)
+[<span data-ttu-id="2080e-154">**GetPrinter**</span><span class="sxs-lookup"><span data-stu-id="2080e-154">**GetPrinter**</span></span>](getprinter.md)
 </dt> <dt>
 
-[<span data-ttu-id="faeef-155">**OpenPrinter**</span><span class="sxs-lookup"><span data-stu-id="faeef-155">**OpenPrinter**</span></span>](openprinter.md)
+[<span data-ttu-id="2080e-155">**OpenPrinter**</span><span class="sxs-lookup"><span data-stu-id="2080e-155">**OpenPrinter**</span></span>](openprinter.md)
 </dt> <dt>
 
-[<span data-ttu-id="faeef-156">**印表機 \_ 資訊 \_ 2**</span><span class="sxs-lookup"><span data-stu-id="faeef-156">**PRINTER\_INFO\_2**</span></span>](printer-info-2.md)
+[<span data-ttu-id="2080e-156">**印表機 \_ 資訊 \_ 2**</span><span class="sxs-lookup"><span data-stu-id="2080e-156">**PRINTER\_INFO\_2**</span></span>](printer-info-2.md)
 </dt> </dl>
 
  

@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851444"
 ---
-# <a name="jet_bkinfogenhigh-property"></a><span data-ttu-id="8ac6c-103">JET_BKINFO genHigh 屬性</span><span class="sxs-lookup"><span data-stu-id="8ac6c-103">JET_BKINFO.genHigh property</span></span>
+# <a name="jet_bkinfogenhigh-property"></a><span data-ttu-id="dd951-103">JET_BKINFO genHigh 屬性</span><span class="sxs-lookup"><span data-stu-id="dd951-103">JET_BKINFO.genHigh property</span></span>
 
-<span data-ttu-id="8ac6c-104">取得或設定備份的高世代。</span><span class="sxs-lookup"><span data-stu-id="8ac6c-104">Gets or sets the high generation of the backup.</span></span>
+<span data-ttu-id="dd951-104">取得或設定備份的高世代。</span><span class="sxs-lookup"><span data-stu-id="dd951-104">Gets or sets the high generation of the backup.</span></span>
 
-<span data-ttu-id="8ac6c-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="8ac6c-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="8ac6c-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8ac6c-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="dd951-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="dd951-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="dd951-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="dd951-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8ac6c-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="8ac6c-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dd951-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="dd951-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.genHigh = value
 public int genHigh { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="8ac6c-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="8ac6c-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="dd951-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="dd951-108">Property value</span></span>
 
-<span data-ttu-id="8ac6c-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="8ac6c-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="dd951-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="dd951-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="8ac6c-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8ac6c-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dd951-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dd951-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="8ac6c-111">參考</span><span class="sxs-lookup"><span data-stu-id="8ac6c-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="dd951-111">參考</span><span class="sxs-lookup"><span data-stu-id="dd951-111">Reference</span></span>
 
-[<span data-ttu-id="8ac6c-112">JET_BKINFO 結構</span><span class="sxs-lookup"><span data-stu-id="8ac6c-112">JET_BKINFO structure</span></span>](./jet-bkinfo-structure2.md)
+[<span data-ttu-id="dd951-112">JET_BKINFO 結構</span><span class="sxs-lookup"><span data-stu-id="dd951-112">JET_BKINFO structure</span></span>](./jet-bkinfo-structure2.md)
 
-[<span data-ttu-id="8ac6c-113">JET_BKINFO 成員</span><span class="sxs-lookup"><span data-stu-id="8ac6c-113">JET_BKINFO members</span></span>](./jet-bkinfo-members.md)
+[<span data-ttu-id="dd951-113">JET_BKINFO 成員</span><span class="sxs-lookup"><span data-stu-id="dd951-113">JET_BKINFO members</span></span>](./jet-bkinfo-members.md)
 
-[<span data-ttu-id="8ac6c-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="8ac6c-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="dd951-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="dd951-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

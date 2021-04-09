@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104022075"
 ---
-# <a name="adding-a-boot-image"></a><span data-ttu-id="4eca2-103">新增開機映射</span><span class="sxs-lookup"><span data-stu-id="4eca2-103">Adding a Boot Image</span></span>
+# <a name="adding-a-boot-image"></a><span data-ttu-id="05ffa-103">新增開機映射</span><span class="sxs-lookup"><span data-stu-id="05ffa-103">Adding a Boot Image</span></span>
 
-<span data-ttu-id="4eca2-104">此範例以 [燒錄光碟映射](burning-a-disc.md) 範例為基礎，新增程式碼以在光碟的開機區段中包含可開機映射。可開機映射會連接至寫入光碟的檔案系統物件。附加之後，其餘的燒錄程式與基本的燒錄程式相同。</span><span class="sxs-lookup"><span data-stu-id="4eca2-104">This example builds on the [Burning a Disc Image](burning-a-disc.md) example by adding code to include a bootable image in the boot section of the disc. The bootable image connects to the file system object that is written to disc. Once attached, the rest of the burning process is identical to the basic burning procedure.</span></span> <span data-ttu-id="4eca2-105">開機映射使用 CD 或 DVD 光碟機提供系統啟動。</span><span class="sxs-lookup"><span data-stu-id="4eca2-105">The boot image provides system startup using the CD or DVD disc drive.</span></span>
+<span data-ttu-id="05ffa-104">此範例以 [燒錄光碟映射](burning-a-disc.md) 範例為基礎，新增程式碼以在光碟的開機區段中包含可開機映射。可開機映射會連接至寫入光碟的檔案系統物件。附加之後，其餘的燒錄程式與基本的燒錄程式相同。</span><span class="sxs-lookup"><span data-stu-id="05ffa-104">This example builds on the [Burning a Disc Image](burning-a-disc.md) example by adding code to include a bootable image in the boot section of the disc. The bootable image connects to the file system object that is written to disc. Once attached, the rest of the burning process is identical to the basic burning procedure.</span></span> <span data-ttu-id="05ffa-105">開機映射使用 CD 或 DVD 光碟機提供系統啟動。</span><span class="sxs-lookup"><span data-stu-id="05ffa-105">The boot image provides system startup using the CD or DVD disc drive.</span></span>
 
-<span data-ttu-id="4eca2-106">此範例會 callpriority 可開機映射的路徑。</span><span class="sxs-lookup"><span data-stu-id="4eca2-106">The example hardcodes the path to the bootable image.</span></span> <span data-ttu-id="4eca2-107">請務必視需要變更路徑和其他的硬式編碼值。</span><span class="sxs-lookup"><span data-stu-id="4eca2-107">Be sure to change the path along with other hardcoded values as appropriate.</span></span>
+<span data-ttu-id="05ffa-106">此範例會 callpriority 可開機映射的路徑。</span><span class="sxs-lookup"><span data-stu-id="05ffa-106">The example hardcodes the path to the bootable image.</span></span> <span data-ttu-id="05ffa-107">請務必視需要變更路徑和其他的硬式編碼值。</span><span class="sxs-lookup"><span data-stu-id="05ffa-107">Be sure to change the path along with other hardcoded values as appropriate.</span></span>
 
 
 ```VB
@@ -103,20 +103,20 @@ End Function
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="4eca2-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="4eca2-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="05ffa-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="05ffa-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4eca2-109">使用 IMAPI.EXE</span><span class="sxs-lookup"><span data-stu-id="4eca2-109">Using IMAPI</span></span>](using-imapi.md)
+[<span data-ttu-id="05ffa-109">使用 IMAPI.EXE</span><span class="sxs-lookup"><span data-stu-id="05ffa-109">Using IMAPI</span></span>](using-imapi.md)
 </dt> <dt>
 
-[<span data-ttu-id="4eca2-110">**IDiscMaster2**</span><span class="sxs-lookup"><span data-stu-id="4eca2-110">**IDiscMaster2**</span></span>](/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2)
+[<span data-ttu-id="05ffa-110">**IDiscMaster2**</span><span class="sxs-lookup"><span data-stu-id="05ffa-110">**IDiscMaster2**</span></span>](/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2)
 </dt> <dt>
 
-[<span data-ttu-id="4eca2-111">**IDiscFormat2Data**</span><span class="sxs-lookup"><span data-stu-id="4eca2-111">**IDiscFormat2Data**</span></span>](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data)
+[<span data-ttu-id="05ffa-111">**IDiscFormat2Data**</span><span class="sxs-lookup"><span data-stu-id="05ffa-111">**IDiscFormat2Data**</span></span>](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data)
 </dt> <dt>
 
-[<span data-ttu-id="4eca2-112">**IFileSystemImage**</span><span class="sxs-lookup"><span data-stu-id="4eca2-112">**IFileSystemImage**</span></span>](/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage)
+[<span data-ttu-id="05ffa-112">**IFileSystemImage**</span><span class="sxs-lookup"><span data-stu-id="05ffa-112">**IFileSystemImage**</span></span>](/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage)
 </dt> </dl>
 
  

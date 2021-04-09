@@ -15,15 +15,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104022046"
 ---
-# <a name="streamingtcpclientexample"></a><span data-ttu-id="e8883-106">StreamingTcpClientExample</span><span class="sxs-lookup"><span data-stu-id="e8883-106">StreamingTcpClientExample</span></span>
+# <a name="streamingtcpclientexample"></a><span data-ttu-id="e9771-106">StreamingTcpClientExample</span><span class="sxs-lookup"><span data-stu-id="e9771-106">StreamingTcpClientExample</span></span>
 
-<span data-ttu-id="e8883-107">此範例顯示以串流方式傳送單向訊息的 TCP 用戶端。</span><span class="sxs-lookup"><span data-stu-id="e8883-107">This example shows a TCP client that sends one-way messages in a streaming fashion.</span></span>
+<span data-ttu-id="e9771-107">此範例顯示以串流方式傳送單向訊息的 TCP 用戶端。</span><span class="sxs-lookup"><span data-stu-id="e9771-107">This example shows a TCP client that sends one-way messages in a streaming fashion.</span></span>
 
--   [<span data-ttu-id="e8883-108">StreamingTcpClient .cpp</span><span class="sxs-lookup"><span data-stu-id="e8883-108">StreamingTcpClient.cpp</span></span>](#streamingtcpclientcpp)
--   [<span data-ttu-id="e8883-109">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="e8883-109">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="e8883-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="e8883-110">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="e9771-108">StreamingTcpClient .cpp</span><span class="sxs-lookup"><span data-stu-id="e9771-108">StreamingTcpClient.cpp</span></span>](#streamingtcpclientcpp)
+-   [<span data-ttu-id="e9771-109">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="e9771-109">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="e9771-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="e9771-110">Makefile</span></span>](#makefile)
 
-## <a name="streamingtcpclientcpp"></a><span data-ttu-id="e8883-111">StreamingTcpClient .cpp</span><span class="sxs-lookup"><span data-stu-id="e8883-111">StreamingTcpClient.cpp</span></span>
+## <a name="streamingtcpclientcpp"></a><span data-ttu-id="e9771-111">StreamingTcpClient .cpp</span><span class="sxs-lookup"><span data-stu-id="e9771-111">StreamingTcpClient.cpp</span></span>
 
 
 ```C++
@@ -308,7 +308,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="e8883-112">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="e8883-112">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="e9771-112">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="e9771-112">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -419,7 +419,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="e8883-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="e8883-113">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="e9771-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="e9771-113">Makefile</span></span>
 
 ``` syntax
 !include <Win32.Mak>

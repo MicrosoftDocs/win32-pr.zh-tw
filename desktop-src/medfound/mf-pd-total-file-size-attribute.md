@@ -11,47 +11,47 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852428"
 ---
-# <a name="mf_pd_total_file_size-attribute"></a><span data-ttu-id="ae721-105">MF \_ PD \_ TOTAL \_ FILE \_ SIZE 屬性</span><span class="sxs-lookup"><span data-stu-id="ae721-105">MF\_PD\_TOTAL\_FILE\_SIZE attribute</span></span>
+# <a name="mf_pd_total_file_size-attribute"></a><span data-ttu-id="81670-105">MF \_ PD \_ TOTAL \_ FILE \_ SIZE 屬性</span><span class="sxs-lookup"><span data-stu-id="81670-105">MF\_PD\_TOTAL\_FILE\_SIZE attribute</span></span>
 
-<span data-ttu-id="ae721-106">指定原始程式檔的大小總計（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="ae721-106">Specifies the total size of the source file, in bytes.</span></span> <span data-ttu-id="ae721-107">這個屬性會套用至展示描述項。</span><span class="sxs-lookup"><span data-stu-id="ae721-107">This attribute applies to presentation descriptors.</span></span> <span data-ttu-id="ae721-108">媒體來源可以選擇性地設定這個屬性。</span><span class="sxs-lookup"><span data-stu-id="ae721-108">A media source can optionally set this attribute.</span></span>
+<span data-ttu-id="81670-106">指定原始程式檔的大小總計（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="81670-106">Specifies the total size of the source file, in bytes.</span></span> <span data-ttu-id="81670-107">這個屬性會套用至展示描述項。</span><span class="sxs-lookup"><span data-stu-id="81670-107">This attribute applies to presentation descriptors.</span></span> <span data-ttu-id="81670-108">媒體來源可以選擇性地設定這個屬性。</span><span class="sxs-lookup"><span data-stu-id="81670-108">A media source can optionally set this attribute.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="ae721-109">資料類型</span><span class="sxs-lookup"><span data-stu-id="ae721-109">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="81670-109">資料類型</span><span class="sxs-lookup"><span data-stu-id="81670-109">Data type</span></span>
 
-<span data-ttu-id="ae721-110">**UINT64**</span><span class="sxs-lookup"><span data-stu-id="ae721-110">**UINT64**</span></span>
+<span data-ttu-id="81670-110">**UINT64**</span><span class="sxs-lookup"><span data-stu-id="81670-110">**UINT64**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ae721-111">備註</span><span class="sxs-lookup"><span data-stu-id="ae721-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="81670-111">備註</span><span class="sxs-lookup"><span data-stu-id="81670-111">Remarks</span></span>
 
-<span data-ttu-id="ae721-112">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="ae721-112">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
+<span data-ttu-id="81670-112">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="81670-112">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="ae721-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="ae721-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="81670-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="81670-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="ae721-114">需求</span><span class="sxs-lookup"><span data-stu-id="ae721-114">Requirement</span></span> | <span data-ttu-id="ae721-115">值</span><span class="sxs-lookup"><span data-stu-id="ae721-115">Value</span></span> |
+| <span data-ttu-id="81670-114">需求</span><span class="sxs-lookup"><span data-stu-id="81670-114">Requirement</span></span> | <span data-ttu-id="81670-115">值</span><span class="sxs-lookup"><span data-stu-id="81670-115">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="ae721-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ae721-116">Minimum supported client</span></span><br/> | <span data-ttu-id="ae721-117">Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ae721-117">Windows Vista \[desktop apps \| UWP apps\]</span></span><br/>                              |
-| <span data-ttu-id="ae721-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ae721-118">Minimum supported server</span></span><br/> | <span data-ttu-id="ae721-119">Windows Server 2008 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ae721-119">Windows Server 2008 \[desktop apps \| UWP apps\]</span></span><br/>                        |
-| <span data-ttu-id="ae721-120">標頭</span><span class="sxs-lookup"><span data-stu-id="ae721-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="ae721-121"><dt>Mfidl。h</dt></span><span class="sxs-lookup"><span data-stu-id="ae721-121"><dt>Mfidl.h</dt></span></span> </dl> |
+| <span data-ttu-id="81670-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="81670-116">Minimum supported client</span></span><br/> | <span data-ttu-id="81670-117">Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="81670-117">Windows Vista \[desktop apps \| UWP apps\]</span></span><br/>                              |
+| <span data-ttu-id="81670-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="81670-118">Minimum supported server</span></span><br/> | <span data-ttu-id="81670-119">Windows Server 2008 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="81670-119">Windows Server 2008 \[desktop apps \| UWP apps\]</span></span><br/>                        |
+| <span data-ttu-id="81670-120">標頭</span><span class="sxs-lookup"><span data-stu-id="81670-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="81670-121"><dt>Mfidl。h</dt></span><span class="sxs-lookup"><span data-stu-id="81670-121"><dt>Mfidl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="ae721-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ae721-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="81670-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="81670-122">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ae721-123">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="ae721-123">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="81670-123">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="81670-123">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="ae721-124">**IMFAttributes::GetUINT64**</span><span class="sxs-lookup"><span data-stu-id="ae721-124">**IMFAttributes::GetUINT64**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64)
+[<span data-ttu-id="81670-124">**IMFAttributes::GetUINT64**</span><span class="sxs-lookup"><span data-stu-id="81670-124">**IMFAttributes::GetUINT64**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64)
 </dt> <dt>
 
-[<span data-ttu-id="ae721-125">**IMFAttributes::SetUINT64**</span><span class="sxs-lookup"><span data-stu-id="ae721-125">**IMFAttributes::SetUINT64**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint64)
+[<span data-ttu-id="81670-125">**IMFAttributes::SetUINT64**</span><span class="sxs-lookup"><span data-stu-id="81670-125">**IMFAttributes::SetUINT64**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint64)
 </dt> <dt>
 
-[<span data-ttu-id="ae721-126">**IMFPresentationDescriptor**</span><span class="sxs-lookup"><span data-stu-id="ae721-126">**IMFPresentationDescriptor**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor)
+[<span data-ttu-id="81670-126">**IMFPresentationDescriptor**</span><span class="sxs-lookup"><span data-stu-id="81670-126">**IMFPresentationDescriptor**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor)
 </dt> <dt>
 
-[<span data-ttu-id="ae721-127">展示描述項屬性</span><span class="sxs-lookup"><span data-stu-id="ae721-127">Presentation Descriptor Attributes</span></span>](presentation-descriptor-attributes.md)
+[<span data-ttu-id="81670-127">展示描述項屬性</span><span class="sxs-lookup"><span data-stu-id="81670-127">Presentation Descriptor Attributes</span></span>](presentation-descriptor-attributes.md)
 </dt> </dl>
 
  
