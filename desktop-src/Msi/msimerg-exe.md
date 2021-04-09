@@ -1,0 +1,45 @@
+---
+description: Msimerg.exe 是命令列公用程式，它會使用 MsiDatabaseMerge 將參考資料庫合併至基底資料庫。
+ms.assetid: db0c9ae5-a8e8-4eff-ae14-67dcce352483
+title: Msimerg.exe
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 0555aa7bd762b92ed67d0bac1487159fadb73a6d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103945055"
+---
+# <a name="msimergexe"></a>Msimerg.exe
+
+Msimerg.exe 是命令列公用程式，它會使用 [**MsiDatabaseMerge**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea) 將參考資料庫 [合併](merges-and-transforms.md) 至基底資料庫。
+
+此工具僅適用于 [Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+
+## <a name="syntax"></a>Syntax
+
+**Msimerg** *{基底資料庫} {參考資料庫}*
+
+如果兩個資料庫之間有合併衝突，則會將衝突資訊放置在 \_ MergeErrors 資料表中。
+
+## <a name="command-line-options"></a>命令列選項
+
+無。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[Windows Installer 開發工具](windows-installer-development-tools.md)
+</dt> <dt>
+
+[已發行的版本、工具和可轉散發套件](released-versions-tools-and-redistributables.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

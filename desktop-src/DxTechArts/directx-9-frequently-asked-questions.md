@@ -1,0 +1,1045 @@
+---
+title: DirectX 常見問題
+description: 本文包含有關 Microsoft DirectX (常見問題) 的常見問題集合。
+ms.assetid: 58d9fe45-a2c7-8280-2826-e2e14ecea983
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2cd5fd70f1a651121b8d977dbb9479cef6edd024
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104023757"
+---
+# <a name="directx-frequently-asked-questions"></a>DirectX 常見問題
+
+本文包含有關 Microsoft DirectX (常見問題) 的常見問題集合。
+
+-   [一般 DirectX 開發問題](#general-directx-development-issues)
+-   [Direct3D 問題](#direct3d-questions)
+    -   [一般 Direct3D 問題](#general-direct3d-questions)
+    -   [幾何 (頂點) 處理](#geometry-vertex-processing)
+    -   [效能微調](#performance-tuning)
+    -   [D3DX 公用程式程式庫](#d3dx-utility-library)
+-   [DirectSound 問題](#directsound-questions)
+-   [適用于別名的 DirectX 擴充功能 Maya](#directx-extensions-for-alias-maya)
+-   [XInput 問題](#xinput-questions)
+
+## <a name="general-directx-development-issues"></a>一般 DirectX 開發問題
+
+<dl> <dt>
+
+<span id="Should_game_developers_really_care_about_supporting_x64_editions_"></span><span id="should_game_developers_really_care_about_supporting_x64_editions_"></span><span id="SHOULD_GAME_DEVELOPERS_REALLY_CARE_ABOUT_SUPPORTING_X64_EDITIONS_"></span>**遊戲開發人員應該真的在意支援 x64 edition 嗎？**
+</dt> <dd>
+
+當然。 x64 技術在市場上廣泛推出。 過去幾年來，大部分的新 Cpu 都是由 AMD 和 Intel 開發而成，而且幾乎所有的處理器程式列都具備 x64 功能。 Windows XP Professional x64 Edition 引進了 OS，為在2005年4月發行的 x64 推出了技術。 由於 x64 版本需要新世代的64位原生驅動程式，因此第一版的第一版僅限於 OEM 散發。
+
+在 Windows Vista 中，客戶可以在購買 Windows 電腦時自由選擇32位或64位版本，而 Windows Vista 的授權則適用于 OS 的32位或64版本。 此外，您也可以在方塊中使用許多64位驅動程式，而裝置製造商也必須提供32位和64位原生驅動程式，作為 Windows 認證程式的一部分。
+
+所有這些因素都會大幅增加64位版本的 Windows 部署。 當新電腦以超過 2 GB 的實體 RAM 來開始傳送時，使用32位作業系統的動機會大幅降低，以配合64位版本。 64位技術完全支援32位機器碼，雖然需要64位原生實作為新的64位記憶體空間的充分利用。 每個32位應用程式都應該具有64位的相容性，以做為最小的出貨需求，並且符合需求是 Windows Vista 相容性的基準需求。 不相容通常是使用專為 Windows 3.1 作業系統設計的16位程式碼，或安裝32位和64位原生格式未提供的驅動程式所造成。
+
+如需有關64位技術的詳細資訊，請參閱 [適用于遊戲開發人員的64位程式設計](/windows/desktop/DxTechArts/sixty-four-bit-programming-for-game-developers)。
+
+</dd> <dt>
+
+<span id="Should_game_developers_still_be_publishing_games_for_Windows_95__Windows_98_or_Windows_ME_"></span><span id="should_game_developers_still_be_publishing_games_for_windows_95__windows_98_or_windows_me_"></span><span id="SHOULD_GAME_DEVELOPERS_STILL_BE_PUBLISHING_GAMES_FOR_WINDOWS_95__WINDOWS_98_OR_WINDOWS_ME_"></span>**遊戲開發人員是否仍在發佈 Windows 95、Windows 98 或 Windows ME 的遊戲？**
+</dt> <dd>
+
+不再有兩個原因：效能和功能集。
+
+如果您的遊戲所需的最小 CPU 速度是 1.2 GHz 或以上 (較常見的效能標題) ，那麼大部分合格的電腦都將執行 Windows XP。 在即將售出 CPU 速度超過 1.2 GHz 的電腦時，所有制造商都將 Windows XP 安裝為預設的作業系統。 這表示在 Windows XP 中有許多功能，現今的遊戲開發人員應該利用，包括：
+
+-   改善多工，讓影片、音訊和遊戲能以更流暢、更順暢的體驗。
+-   更穩定的視頻驅動程式模型，可讓您更輕鬆地進行偵錯工具、更順暢的遊戲播放和效能。
+-   更輕鬆地設定網路功能，可讓您更輕鬆地存取多玩家遊戲。
+-   根據預設，支援 DMA 從硬碟傳送，這會導致更順暢、更快速地載入應用程式。
+-   Windows 錯誤報告-可產生更穩定的作業系統、驅動程式和應用程式。
+-   Unicode 支援-可大幅簡化當地語系化問題。
+-   更好的安全性和穩定性，進而帶來更好的取用者體驗。
+-   對新式硬體有更好的支援-大部分都不再使用 Windows 98 驅動程式。
+-   改良的記憶體管理-這會產生更佳的穩定性和安全性。
+-   改進的 NTFS 檔案系統-更能防止失敗，並具有安全性功能的較佳效能。
+
+</dd> <dt>
+
+<span id="Should_game_developers_still_be_publishing_games_for_Windows_2000_"></span><span id="should_game_developers_still_be_publishing_games_for_windows_2000_"></span><span id="SHOULD_GAME_DEVELOPERS_STILL_BE_PUBLISHING_GAMES_FOR_WINDOWS_2000_"></span>**遊戲開發人員是否仍會發佈 Windows 2000 的遊戲？**
+</dt> <dd>
+
+不再是。 除了中所列的原因之外， **遊戲開發人員是否仍會發佈 windows 95、windows 98 或 WINDOWS ME 的遊戲？**、windows 2000 沒有這些功能：
+
+-   Windows XP 支援先進的處理器功能，例如超執行緒、多核心和 x64。
+-   Windows XP 支援並行元件，可大幅減少應用程式版本控制衝突。
+-   Windows XP 支援無執行的記憶體保護，有助於防止惡意程式，並協助進行偵錯工具。
+-   Windows XP 改進了先進的 AGP 和 PCI Express 視訊卡支援。
+-   Windows XP 支援快速切換使用者、遠端桌面和遠端協助，可協助降低產品支援成本。
+-   DirectX Developer SDK 中的效能工具（例如 PIX (）) 不再支援 Windows 2000。
+
+簡而言之，Windows 2000 從未設計或推銷為消費者作業系統。
+
+</dd> <dt>
+
+<span id="What_are_the_differences_between_the_various_editions_of_Windows_Vista__How_do_they_impact_my_DirectX_application_"></span><span id="what_are_the_differences_between_the_various_editions_of_windows_vista__how_do_they_impact_my_directx_application_"></span><span id="WHAT_ARE_THE_DIFFERENCES_BETWEEN_THE_VARIOUS_EDITIONS_OF_WINDOWS_VISTA__HOW_DO_THEY_IMPACT_MY_DIRECTX_APPLICATION_"></span>**不同版本的 Windows Vista 有何差異？它們如何影響我的 DirectX 應用程式？**
+</dt> <dd>
+
+Windows Vista 系列包含五個版本：
+
+-   Windows Vista Home Basic
+-   Windows Vista Home Premium
+-   Windows Vista Business
+-   Windows Vista Enterprise
+-   Windows Vista Ultimate
+
+Home Basic 和 Home Premium 是以取用者為焦點的版本，其功能如家庭安全 (之前稱為家長監護) ，而 Home Premium 則包含 Media Center。 企業和企業都是以公司為焦點的版本，具有網域加入和遠端桌面/終端機服務等功能。 最終版本將取用者和公司版本的所有功能結合成一個版本。 所有版本都有32位 (x86) 和64位 (x64) 版本，而使用者可自由針對這兩種平臺使用相同的產品識別碼。
+
+不同版本的基礎技術完全相同，而且它們都有相同版本的 DirectX 執行時間和其他元件。 不過，這些版本對遊戲有一些輕微的差異：
+
+-   遊戲瀏覽器存在於所有版本上，但 [開始] 功能表上的遊戲快捷方式只在 Home Basic、Home Premium 和旗艦版中。 您仍然可以在所有版本 (的 [遊戲瀏覽器] 中，按一下 [開始]，指向 [所有程式]，然後按一下 [遊戲]) ，然後在所有版本上都有 IGameExplorer 介面功能。
+-   Windows 隨附的遊戲依預設不會在 Business and Enterprise 中提供，但可由系統管理員啟用。
+-   家庭安全和遊戲評等不會顯示或影響 Business 或 Enterprise 的行為，而且在加入網域時，最終會停用它們。
+
+[使用者帳戶控制] 設定在所有版本上都有相同的預設值，但您可以針對 Business、Enterprise 和旗艦版的網域群組原則設定來覆寫這些設定。 例如，原則設定 [使用者帳戶控制：標準使用者的提高許可權提示的行為] 可能會設定為 [自動拒絕許多商務設定中的提高許可權要求] 以增強安全性，而且這些環境中的許多使用者一律會以標準使用者身分執行，而不能選擇以系統管理員身分執行。 任何程式 (例如，需要系統管理許可權的安裝程式) ，可能是因為傳統的設定偵測，或是將要求的執行層級指定為 "requireAdministrator" 的資訊清單，在這種情況下一律無法啟動。 其他原則設定，例如「使用者帳戶控制」：只有當您未使用 Authenticode 簽署可執行檔時，才會提升已簽署和驗證的可執行檔的許可權。
+
+這些類型的原則變更可以套用至任何版本的 Windows Vista，但更可能在已加入網域的電腦上。
+
+</dd> <dt>
+
+<span id="What_are_the_differences_between_the_various_editions_of_Windows_7__How_do_they_impact_my_DirectX_application__"></span><span id="what_are_the_differences_between_the_various_editions_of_windows_7__how_do_they_impact_my_directx_application__"></span><span id="WHAT_ARE_THE_DIFFERENCES_BETWEEN_THE_VARIOUS_EDITIONS_OF_WINDOWS_7__HOW_DO_THEY_IMPACT_MY_DIRECTX_APPLICATION__"></span>**不同版本的 Windows 7 有何差異？它們如何影響我的 DirectX 應用程式？** 
+</dt> <dd>
+
+大部分的 Windows 7 使用者可能會有兩種版本： Windows 7 Home Premium、家用使用者或 Windows 7 Professional，適用于商務使用者和開發人員。 大型企業有大量授權的 Windows 7 企業版版，其中包含所有 Windows 7 功能;Windows 7 旗艦版是該版本的零售版。
+
+Windows 7 Starter Edition 在全球各地都可供使用，而且應該使用筆記本電腦、ultra 低的筆記本電腦進行主要是部署。 Windows 7 Home Basic 僅適用于新興市場。
+
+請注意，所有版本的 Windows 7 (的 Starter Edition) 都適用于32位 (x86) 和64位 (x64) 版本，而 Windows 7 的所有零售套件都包含適用于這兩個版本的媒體。 在 Windows Vista 中，使用者可以在任一平臺上自由使用相同的零售產品識別碼。
+
+不同版本中的基礎技術完全相同，而且所有版本都有相同版本的 DirectX 執行時間和其他元件。 它們對於遊戲功能有一些差異：
+
+-   遊戲瀏覽器存在於所有版本中，但 Windows 7 Professional 和 Enterprise 預設會隱藏 [開始] 功能表上的遊戲快捷方式。 您仍然可以按一下 [所有程式]，然後按兩下 [遊戲]) ，在 [開始] 功能表 (上找到 [遊戲瀏覽器]，使用者可以啟用 [直接遊戲] 快捷方式。
+-   Windows 隨附的遊戲預設無法在 Windows 7 Professional 和 Enterprise 上使用，但可由系統管理員啟用。
+-   您可以在所有版本上使用家庭安全和遊戲等級，但在作業系統加入網域時，它們會在 Windows 7 Professional、Enterprise 和旗艦版中停用。 就像 Windows Vista 旗艦版一樣，也可以在已加入網域的電腦上重新啟用這項功能。
+
+使用者帳戶控制 (UAC) 設定可能會受到 Windows 7 Professional、Enterprise 和旗艦版上群組原則設定的影響，與 Windows Vista 很類似。 如需詳細資訊，請參閱 **各種不同的 Windows Vista 版本之間有何差異？它們如何影響我的 DirectX 應用程式？**
+
+</dd> <dt>
+
+<span id="Will_DirectX_10_be_available_for_Windows_XP__"></span><span id="will_directx_10_be_available_for_windows_xp__"></span><span id="WILL_DIRECTX_10_BE_AVAILABLE_FOR_WINDOWS_XP__"></span>**適用于 Windows XP 的 DirectX 10 是否可供使用？** 
+</dt> <dd>
+
+不會。 具有 DirectX 10 的 windows Vista 包含以 Windows XP SP2 中的執行時間為基礎的已更新 DirectX 執行時間 (DirectX 9.0 c) ，以及使用新的 Windows 顯示驅動程式模型的變更 (WDDM) 和新的音訊驅動程式堆疊，以及作業系統中的其他更新。 除了 Direct3D 9 之外，Windows Vista 也支援兩個新介面（當正確的影片硬體和驅動程式存在時）： Direct3D9Ex 和 Direct3D10。
+
+因為這些新介面依賴 WDDM 技術，所以在舊版的 Windows 上將永遠無法使用這些介面。 針對 Windows Vista 的 DirectX 技術所做的其他變更，也是 Windows 的新版本所特有。 名稱 DirectX 10 有誤導，因為 DirectX SDK (的交易、XINPUT、D3DX) 並不包含在此版本號碼中。 因此，將 DirectX 執行時間的版本號碼視為整體，即使是 9.0 c 也會遺失其意義。 在 Windows Vista 上 (DXdiag.exe) 的 DirectX 診斷工具會回報 DirectX 10，但這其實只是指 Direct3D 10。
+
+</dd> <dt>
+
+<span id="Will_DirectX_11_be_available_for_Windows_Vista_or_Windows_XP__"></span><span id="will_directx_11_be_available_for_windows_vista_or_windows_xp__"></span><span id="WILL_DIRECTX_11_BE_AVAILABLE_FOR_WINDOWS_VISTA_OR_WINDOWS_XP__"></span>**適用于 Windows Vista 或 Windows XP 的 DirectX 11 是否可供使用？** 
+</dt> <dd>
+
+DirectX 11 內建在 Windows 7 中，可作為 Windows Vista 的更新 (請參閱 <https://go.microsoft.com/fwlink/p/?linkid=160189>) 。 這包括 Direct3D 11 API、DirectX Graphic Infrastructure (DXGI) 1.1、10Level9 功能層級、Windows Advanced 點陣化平臺 (變形) 10 個軟體轉譯裝置、Direct2D、DirectWrite，以及支援10Level9 和重設為10的 Direct3D 10.1 API 更新。
+
+針對上述問題所述的相同理由 (**是否會有適用于 WINDOWS XP 的 DirectX 10？** 在 Windows XP 上無法使用 ) 、Direct3D 11 和相關的 Api。
+
+</dd> <dt>
+
+<span id="What_Happened_to_DirectShow__I_can_t_find_it_in_the_DirectX_SDK._"></span><span id="what_happened_to_directshow__i_can_t_find_it_in_the_directx_sdk._"></span><span id="WHAT_HAPPENED_TO_DIRECTSHOW__I_CAN_T_FIND_IT_IN_THE_DIRECTX_SDK._"></span>**DirectShow 發生什麼事？我在 DirectX SDK 中找不到它。** 
+</dt> <dd>
+
+自2005年4月起，已從 DirectX SDK 移除 DirectShow。 您可以在 Windows 軟體開發套件 (（先前稱為 Platform SDK) ）取得適用于 DirectShow 的標頭、程式庫、工具和範例。 DirectX SDK 中的 DirectSetup 會持續支援 DirectShow 系統元件的重新發佈，而且最新的元件已安裝在下列作業系統上： Microsoft Windows XP Service Pack 2、Windows XP Professional x64 Edition、Windows Server 2003 Service Pack 1 和 Windows Vista。
+
+</dd> <dt>
+
+<span id="What_changes_were_made_to_the_DirectX_runtime_for_Windows_Vista__"></span><span id="what_changes_were_made_to_the_directx_runtime_for_windows_vista__"></span><span id="WHAT_CHANGES_WERE_MADE_TO_THE_DIRECTX_RUNTIME_FOR_WINDOWS_VISTA__"></span>**Windows Vista 的 DirectX 執行時間有哪些變更？** 
+</dt> <dd>
+
+為了支援新的 WDDM，已進行主要變更。 如需新驅動程式模型的詳細資訊、有關 Direct3D 9 的影響，以及在兩個新的圖形介面（Direct3D 9Ex 和 Direct3D 10）上的詳細資訊，請參閱 [Windows 中的圖形 api](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista)。 適用于 Windows 7 的新圖形 Api （Direct3D 11、Direct2D、DirectWrite、DXGI 1.1 和更新的 Direct3D 10.1）可作為 Windows Vista 的更新 (請參閱 <https://go.microsoft.com/fwlink/p/?linkid=160189>) 。
+
+Windows Vista Service Pack 1 包含更新版的 DirectX 執行時間。 此更新擴充 Windows Vista 的支援以包含 Direct3D 10.1，並公開新的選擇性硬體功能。  (支援 Direct3D 10.1 的所有硬體也都能完全支援 Direct3D 10 的所有功能。 ) 
+
+DirectSound 已更新，可公開新的 Windows Vista 音訊驅動程式堆疊的功能，以支援多通道軟體緩衝區。 從 Windows Vista 完全移除 Direct3D 保留模式 API。 也會移除 DirectPlay 語音，以及 DirectPlay 的 NAT 協助程式和 DirectInput 的動作對應程式 UI。 Windows Vista 不提供適用于 Visual Basic 6.0 的 DirectX 7 和 DirectX 8 介面支援。
+
+</dd> <dt>
+
+<span id="What_changes_were_made_to_the_DirectX_runtime_for_Windows_7__"></span><span id="what_changes_were_made_to_the_directx_runtime_for_windows_7__"></span><span id="WHAT_CHANGES_WERE_MADE_TO_THE_DIRECTX_RUNTIME_FOR_WINDOWS_7__"></span>**適用于 Windows 7 的 DirectX 執行時間有哪些變更？** 
+</dt> <dd>
+
+Windows 7 包含 Windows Vista 中的所有 DirectX 執行時間元件，並新增 Direct3D 11、DXGI 1.1、10Level9 功能等級、WARP10 software 裝置、Direct2D、DirectWrite 及 Direct3D 10.1 的更新，以支援10Level9 和 WARP10。 如需詳細資訊，請參閱 [Windows 中的圖形 api](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista)。
+
+所有其他元件都與 Windows Vista 相同，另外還有64位的 (x64) 原生支援核心 DirectMusic API （與時間戳記的 MIDI 相關）。 DirectMusic 的效能層級會維持不變，且僅適用于 Windows 7 上的32位應用程式，以提供應用程式相容性。 請注意，Windows Vista 無法使用 DirectMusic 的64位原生支援。
+
+</dd> <dt>
+
+<span id="I_think_I_have_found_a_driver_bug__what_do_I_do__"></span><span id="i_think_i_have_found_a_driver_bug__what_do_i_do__"></span><span id="I_THINK_I_HAVE_FOUND_A_DRIVER_BUG__WHAT_DO_I_DO__"></span>**我覺得我發現驅動程式 bug，該怎麼辦？** 
+</dt> <dd>
+
+首先，請確定您已使用參考轉譯器來檢查結果。 然後，使用 Ihv 驅動程式的最新 WHQL 認證版本來檢查結果。 您可以在傳遞 D3DENUM \_ WHQL 等級旗標的 IDirect3D9 介面上，使用 GetAdapterIdentifier () 方法，以程式設計方式檢查 WHQL 狀態 \_ 。
+
+</dd> <dt>
+
+<span id="Why_do_I_get_so_many_error_messages_when_I_try_to_compile_the_samples__"></span><span id="why_do_i_get_so_many_error_messages_when_i_try_to_compile_the_samples__"></span><span id="WHY_DO_I_GET_SO_MANY_ERROR_MESSAGES_WHEN_I_TRY_TO_COMPILE_THE_SAMPLES__"></span>**當我嘗試編譯範例時，為什麼會收到這麼多的錯誤訊息？** 
+</dt> <dd>
+
+您可能未正確設定 include 路徑。 許多編譯器（包括 Microsoft Visual C++）都包含較早版本的 SDK，因此，如果您的 include 路徑先搜尋標準編譯器包含目錄，您將會取得不正確的標頭檔版本。 若要解決此問題，請確定已將 include 路徑和程式庫路徑設定為先搜尋 Microsoft DirectX include 和程式庫路徑。 另請參閱 SDK 中的 dxreadme.txt 檔案。 如果您安裝 DirectX SDK，而且使用 Visual C++，安裝程式可以選擇性地為您設定 include 路徑。
+
+</dd> <dt>
+
+<span id="I_get_linker_errors_about_multiple_or_missing_symbols_for_globally_unique_identifiers__GUIDs___what_do_I_do__"></span><span id="i_get_linker_errors_about_multiple_or_missing_symbols_for_globally_unique_identifiers__guids___what_do_i_do__"></span><span id="I_GET_LINKER_ERRORS_ABOUT_MULTIPLE_OR_MISSING_SYMBOLS_FOR_GLOBALLY_UNIQUE_IDENTIFIERS__GUIDS___WHAT_DO_I_DO__"></span>**我收到有關全域唯一識別碼 (Guid) 多個或遺漏符號的連結器錯誤，該怎麼辦？** 
+</dt> <dd>
+
+您使用的各種 Guid 應該只定義一次。 如果您在 \# 包含 DirectX 標頭檔之前定義 INITGUID 符號，則會插入 GUID 的定義。 因此，您應該確定只有一個編譯單位才會發生這種情況。 這種方法的替代方法是連結 dxguid .lib 程式庫，其中包含所有 DirectX Guid 的定義。 如果您使用此方法 (建議使用) ，則永遠不應 \# 定義 INITGUID 符號。
+
+</dd> <dt>
+
+<span id="Can_I_cast_a_pointer_to_a_DirectX_interface_to_a_lower_version_number__"></span><span id="can_i_cast_a_pointer_to_a_directx_interface_to_a_lower_version_number__"></span><span id="CAN_I_CAST_A_POINTER_TO_A_DIRECTX_INTERFACE_TO_A_LOWER_VERSION_NUMBER__"></span>**我可以將 DirectX 介面的指標轉換成較低的版本號碼嗎？** 
+</dt> <dd>
+
+不會。 DirectX 介面是 COM 介面。 這表示，不需要將較高編號的介面衍生自對應的較低編號的介面。 因此，若要取得 DirectX 物件的不同介面，唯一安全的方式就是使用介面的 QueryInterface 方法。 這個方法是標準 IUnknown 介面的一部分，所有 COM 介面都必須從其中衍生。
+
+</dd> <dt>
+
+<span id="Can_I_mix_the_use_of_DirectX_9_components_and_DirectX_8_or_earlier_components_within_the_same_application__"></span><span id="can_i_mix_the_use_of_directx_9_components_and_directx_8_or_earlier_components_within_the_same_application__"></span><span id="CAN_I_MIX_THE_USE_OF_DIRECTX_9_COMPONENTS_AND_DIRECTX_8_OR_EARLIER_COMPONENTS_WITHIN_THE_SAME_APPLICATION__"></span>**是否可以在相同的應用程式中混用 DirectX 9 元件和 DirectX 8 或舊版元件？** 
+</dt> <dd>
+
+您可以自由混合不同版本的不同元件;例如，您可以在同一個應用程式中使用 DirectInput 8 與 Direct3D 9。 不過，您通常不能在同一個應用程式中混用相同元件的不同版本;例如，您不能將 DirectDraw 7 與 Direct3D 9 (混用，因為這些實際上是與 DirectDraw 的相同元件（從 DirectX 8) 建立小計到 Direct3D）。 不過，有一些例外狀況，例如在相同的應用程式中同時使用 Direct3D 9 和 Direct3D 10，這是允許的。
+
+</dd> <dt>
+
+<span id="Can_I_mix_the_use_of_Direct3D_9_and_Direct3D_10_within_the_same_application__"></span><span id="can_i_mix_the_use_of_direct3d_9_and_direct3d_10_within_the_same_application__"></span><span id="CAN_I_MIX_THE_USE_OF_DIRECT3D_9_AND_DIRECT3D_10_WITHIN_THE_SAME_APPLICATION__"></span>**我可以在同一個應用程式中混用 Direct3D 9 和 Direct3D 10 嗎？** 
+</dt> <dd>
+
+是的，您可以在相同的應用程式中一起使用這些版本的 Direct3D。
+
+</dd> <dt>
+
+<span id="What_do_the_return_values_from_the_Release_or_AddRef_methods_mean__"></span><span id="what_do_the_return_values_from_the_release_or_addref_methods_mean__"></span><span id="WHAT_DO_THE_RETURN_VALUES_FROM_THE_RELEASE_OR_ADDREF_METHODS_MEAN__"></span>**Release 或 AddRef 方法的傳回值是什麼意思？** 
+</dt> <dd>
+
+傳回值將會是物件目前的參考計數。 不過，COM 規格指出您不應該依賴此值，而且此值通常僅適用于偵錯工具。 您觀察到的值可能是未預期的，因為不同的其他系統物件可能會持有您所建立之 DirectX 物件的參考。 基於這個理由，您不應該撰寫會重複呼叫 Release 的程式碼，直到參考計數為零為止，因為物件可能會被釋放，即使另一個元件可能仍在參考它也一樣。
+
+</dd> <dt>
+
+<span id="Does_it_matter_in_which_order_I_release_DirectX_interfaces__"></span><span id="does_it_matter_in_which_order_i_release_directx_interfaces__"></span><span id="DOES_IT_MATTER_IN_WHICH_ORDER_I_RELEASE_DIRECTX_INTERFACES__"></span>**我發行 DirectX 介面的順序是否重要？** 
+</dt> <dd>
+
+這並不重要，因為 COM 介面是經過計數的參考。 不過，某些版本的 DirectX 中有一些已知的 bug，以及介面的發行順序。 基於安全考慮，建議您盡可能以相反的建立順序發行介面。
+
+</dd> <dt>
+
+<span id="What_is_a_smart_pointer_and_should_I_use_it__"></span><span id="what_is_a_smart_pointer_and_should_i_use_it__"></span><span id="WHAT_IS_A_SMART_POINTER_AND_SHOULD_I_USE_IT__"></span>**什麼是智慧型指標，我應該使用它？** 
+</dt> <dd>
+
+智慧型指標是設計用來封裝指標功能的 c + + 範本類別。 尤其是設計用來封裝 COM 介面指標的標準智慧型指標類別。 這些指標會自動執行 QueryInterface 而不是轉換，而且會為您處理 AddRef 和發行。 無論您是否應該使用它們都是很重要的。 如果您的程式碼包含許多複製介面指標的程式，其中包含多個 AddRefs 和版本，則智慧型指標可能會使您的程式碼 neater 且較不容易出錯。 否則，您就不能這麼做。 Visual C++ 包含標準的 Microsoft COM 智慧型指標，定義于 "comdef.h .h" 標頭檔中 (在 [說明] \_) 中查閱 COM ptr \_ t。
+
+</dd> <dt>
+
+<span id="I_have_trouble_debugging_my_DirectX_application__any_tips__"></span><span id="i_have_trouble_debugging_my_directx_application__any_tips__"></span><span id="I_HAVE_TROUBLE_DEBUGGING_MY_DIRECTX_APPLICATION__ANY_TIPS__"></span>**我無法在我的 DirectX 應用程式中進行錯錯，有任何秘訣嗎？** 
+</dt> <dd>
+
+最常見的偵測 DirectX 應用程式問題是在鎖定 DirectDraw 介面時嘗試進行偵錯工具。 這種情況可能會在 Microsoft Windows 9x 系統上造成「Win16 鎖定」，這會導致偵錯工具視窗無法繪製。 \_鎖定介面時，指定 D3DLOCK NOSYSLOCK 旗標通常可以消除這個情況。 Windows 2000 不受此問題影響。 當您在開發應用程式時，請在安裝 SDK) 時，以 (選取的 DirectX 執行時間的偵錯工具來執行，這會執行一些參數驗證，並將有用的訊息輸出至偵錯工具輸出。
+
+</dd> <dt>
+
+<span id="What_s_the_correct_way_to_check_return_codes__"></span><span id="what_s_the_correct_way_to_check_return_codes__"></span><span id="WHAT_S_THE_CORRECT_WAY_TO_CHECK_RETURN_CODES__"></span>**檢查傳回碼的正確方式為何？** 
+</dt> <dd>
+
+使用成功和失敗的宏。 DirectX 方法可能會傳回多個成功和失敗的代碼，因此簡單：
+
+``` syntax
+== D3D_OK
+```
+
+或類似的測試也不一定足夠。
+
+</dd> <dt>
+
+<span id="How_do_I_disable_ALT_TAB_and_other_task_switching__"></span><span id="how_do_i_disable_alt_tab_and_other_task_switching__"></span><span id="HOW_DO_I_DISABLE_ALT_TAB_AND_OTHER_TASK_SWITCHING__"></span>**如何? 停用 ALT + TAB 和其他工作切換嗎？** 
+</dt> <dd>
+
+你不會！ 遊戲必須能夠正常地處理工作切換，因為有許多事都有可能發生： ALT + TAB、遠端桌面連線、快速切換使用者、家長監護使用限制，以及許多其他事件。
+
+同時，使用以鍵盤為主的控制項配置在遊戲上進行意外工作切換的兩個常見來源，是按下 Windows 標誌鍵，並使用 SHIFT 鍵來啟用 [協助工具] 功能。 若要藉由停用功能來解決這些情況，請參閱在 [遊戲中停用快速鍵](/windows/desktop/DxTechArts/disabling-shortcut-keys-in-games)所述的技術。
+
+</dd> <dt>
+
+<span id="Is_there_a_recommended_book_explaining_COM__"></span><span id="is_there_a_recommended_book_explaining_com__"></span><span id="IS_THERE_A_RECOMMENDED_BOOK_EXPLAINING_COM__"></span>**是否有說明 COM 的建議書籍？** 
+</dt> <dd>
+
+在 Dale Rogerson 的 *Com 中*，由 Microsoft 按下所發佈，是 com 的絕佳簡介。 如需更詳細的資訊，請參閱 Longman 所發佈的「依 Don 的 *重要 com* （依 Don）」方塊，其為強烈建議。
+
+</dd> <dt>
+
+<span id="What_is_managed_code__"></span><span id="what_is_managed_code__"></span><span id="WHAT_IS_MANAGED_CODE__"></span>**什麼是 managed 程式碼？** 
+</dt> <dd>
+
+Managed 程式碼是由 .NET Framework Common Language Runtime (CLR) 所管理的程式碼。 它是指原生執行程式碼與執行時間之間的合作合約。 此合約指定在任何執行時間點，執行時間可能會停止執行中的 CPU，並取得目前 CPU 指令位址的特定資訊。 必須查詢的資訊通常與執行時間狀態有關，例如註冊或堆疊記憶體內容。
+
+在執行程式碼之前，IL 會編譯成原生可執行程式碼。 而且，由於此編譯是由 managed 執行環境所執行 (或更正確的執行時間感知編譯器（知道如何以 managed 執行) 環境為目標），因此 managed 執行環境可保證程式碼即將執行的動作。 它可以插入陷阱和適當的垃圾收集勾點、例外狀況處理、型別安全、陣列界限和索引檢查等等。 例如，這種編譯器可確保將堆疊框架和所有專案配置出來，讓垃圾收集行程可以在不同執行緒的背景中執行，不斷地走到作用中的呼叫堆疊，尋找所有的根目錄，並將所有的即時物件移出。 此外，由於 IL 具有型別安全的概念，因此執行引擎會維持型別安全的保證，而不會造成整個類別的程式設計錯誤，通常會導致安全性漏洞。
+
+相較于非受控世界：非受控可執行檔基本上是二進位影像（x86 程式碼），並載入記憶體中。 程式計數器會放在該處，最後是作業系統知道的。 記憶體管理和埠 i/o 等方面都有保護，但系統實際上並不知道應用程式正在做什麼。 因此，它無法保證應用程式執行時所發生的情況。
+
+</dd> <dt>
+
+<span id="What_books_are_there_about_general_Windows_programming__"></span><span id="what_books_are_there_about_general_windows_programming__"></span><span id="WHAT_BOOKS_ARE_THERE_ABOUT_GENERAL_WINDOWS_PROGRAMMING__"></span>**一般 Windows 程式設計有哪些書籍？** 
+</dt> <dd>
+
+很多。 不過，強烈建議的兩個是：
+
+-   Charles Petzold 的程式設計視窗 (Microsoft 按) 
+-   Jeffrey Richter 的 Windows 程式設計應用程式 (Microsoft 按) 
+
+</dd> <dt>
+
+<span id="How_do_I_debug_using_the_Windows_symbol_files__"></span><span id="how_do_i_debug_using_the_windows_symbol_files__"></span><span id="HOW_DO_I_DEBUG_USING_THE_WINDOWS_SYMBOL_FILES__"></span>**使用 Windows 符號檔如何? 的 debug 錯？** 
+</dt> <dd>
+
+Microsoft 會發佈所有系統 Dll 的移除符號 (再加上一些其他) 。 若要存取它們，請將下列內容新增至 Visual Studio 內專案設定中的符號路徑：
+
+``` syntax
+srv*https://msdl.microsoft.com/download/symbols
+```
+
+若要在本機快取符號，請使用下列語法：
+
+``` syntax
+srv*c:\cache*https://msdl.microsoft.com/download/symbols
+```
+
+其中 c： \\ cache 是用來快取符號檔的本機目錄。
+
+</dd> </dl>
+
+## <a name="direct3d-questions"></a>Direct3D 問題
+
+### <a name="general-direct3d-questions"></a>一般 Direct3D 問題
+
+<dl> <dt>
+
+<span id="Where_can_I_find_information_about_3D_graphics_techniques__"></span><span id="where_can_i_find_information_about_3d_graphics_techniques__"></span><span id="WHERE_CAN_I_FIND_INFORMATION_ABOUT_3D_GRAPHICS_TECHNIQUES__"></span>**哪裡可以找到3D 圖形技術的相關資訊？** 
+</dt> <dd>
+
+本主題的標準書籍為電腦圖形： Foley、Van Dam et 的準則和實務。如果任何人想要瞭解幾何、點陣化和光源技術的數學基礎，這是一項重要的資源。 例如，針對 [演算法 Usenet] 群組的常見問題也包含有用的材質。
+
+</dd> <dt>
+
+<span id="Does_Direct3D_emulate_functionality_not_provided_by_hardware__"></span><span id="does_direct3d_emulate_functionality_not_provided_by_hardware__"></span><span id="DOES_DIRECT3D_EMULATE_FUNCTIONALITY_NOT_PROVIDED_BY_HARDWARE__"></span>**Direct3D 是否模擬硬體未提供的功能？** 
+</dt> <dd>
+
+要看情況而定。 Direct3D 具有完整功能的軟體頂點處理管線 (包括自訂頂點著色器的支援) 。 但是，不會提供圖元層級作業的模擬;應用程式必須檢查適當的 cap 位，並使用 ValidateDevice API 來判斷支援。
+
+</dd> <dt>
+
+<span id="Is_there_a_software_rasterizer_included_with_Direct3D__"></span><span id="is_there_a_software_rasterizer_included_with_direct3d__"></span><span id="IS_THERE_A_SOFTWARE_RASTERIZER_INCLUDED_WITH_DIRECT3D__"></span>**Direct3D 是否包含軟體轉譯器？** 
+</dt> <dd>
+
+不適用於效能應用程式。 我們提供了參考轉譯器來進行驅動程式驗證，但其設計是為了精確度而非效能而設計。 Direct3D 支援外掛程式軟體 rasterizers。
+
+</dd> <dt>
+
+<span id="How_can_I_perform_color_keying_with_DirectX_graphics__"></span><span id="how_can_i_perform_color_keying_with_directx_graphics__"></span><span id="HOW_CAN_I_PERFORM_COLOR_KEYING_WITH_DIRECTX_GRAPHICS__"></span>**如何使用 DirectX 圖形來執行色彩加密？** 
+</dt> <dd>
+
+不直接支援色彩金鑰，而是必須使用 Alpha 混色來模擬色彩鍵控。 您可以使用 D3DXCreateTextureFromFileEx () 函式來加速此工作。 此函式會接受按鍵色彩參數，並將在建立的材質中，將包含指定色彩和透明黑色圖元的所有圖元取代為原始影像。
+
+</dd> <dt>
+
+<span id="Does_the_Direct3D_geometry_code_utilize_3DNow__and_or_Pentium_III_SIMD_instructions__"></span><span id="does_the_direct3d_geometry_code_utilize_3dnow__and_or_pentium_iii_simd_instructions__"></span><span id="DOES_THE_DIRECT3D_GEOMETRY_CODE_UTILIZE_3DNOW__AND_OR_PENTIUM_III_SIMD_INSTRUCTIONS__"></span>**Direct3D geometry 程式碼是否會使用3DNow！及/或 Pentium III SIMD 指令？** 
+</dt> <dd>
+
+是。 Direct3D 幾何管線有幾個不同的程式碼路徑，視處理器類型而定，它會利用3DNow 所提供的特殊浮點運算！ 或可用的 Pentium III SIMD 指令。 這包括處理自訂頂點著色器。
+
+</dd> <dt>
+
+<span id="How_do_I_prevent_transparent_pixels_being_written_to_the_z-buffer__"></span><span id="how_do_i_prevent_transparent_pixels_being_written_to_the_z-buffer__"></span><span id="HOW_DO_I_PREVENT_TRANSPARENT_PIXELS_BEING_WRITTEN_TO_THE_Z-BUFFER__"></span>**如何? 防止透明圖元寫入至 z 緩衝區？** 
+</dt> <dd>
+
+您可以篩選出具有高於或低於指定臨界值的 Alpha 值的圖元。 您可以使用 renderstates ALPHATESTENABLE、ALPHAREF 和 ALPHAFUNC 來控制這項行為。
+
+</dd> <dt>
+
+<span id="What_is_a_stencil_buffer__"></span><span id="what_is_a_stencil_buffer__"></span><span id="WHAT_IS_A_STENCIL_BUFFER__"></span>**什麼是樣板緩衝區？** 
+</dt> <dd>
+
+樣板緩衝區是個別圖元資訊的額外緩衝區，與 z 緩衝區很類似。 事實上，它是位於 z 緩衝區的部分位。 常見的樣板/z 緩衝區格式為15位 z 和1位的樣板，或24位 z 和8位的範本。 您可以在轉譯多邊形時，針對每個圖元的樣板緩衝區內容執行簡單的算數運算。 例如，樣板緩衝區可能會遞增或遞減，如果樣板值未通過簡單的比較測試，則可以拒絕圖元。 這對於涉及標記框架緩衝區區域，然後只轉譯標示的 (或未標記的) 區域的效果很有用。 良好的範例是陰影磁片區等體積型效果。
+
+</dd> <dt>
+
+<span id="How_do_I_use_a_stencil_buffer_to_render_shadow_volumes__"></span><span id="how_do_i_use_a_stencil_buffer_to_render_shadow_volumes__"></span><span id="HOW_DO_I_USE_A_STENCIL_BUFFER_TO_RENDER_SHADOW_VOLUMES__"></span>**如何? 使用樣板緩衝區來呈現陰影磁片區？** 
+</dt> <dd>
+
+這個和其他體積型樣板緩衝區效果的關鍵是樣板緩衝區和 z 緩衝區之間的互動。 具有陰影磁片區的場景會以三個階段呈現。 首先，沒有陰影的場景會使用 z 緩衝區以平常的方式轉譯。 接下來，會將陰影標示在樣板緩衝區中，如下所示。 陰影音量的正面臉部是使用不可見的多邊形來繪製，並啟用 z 測試，但停用 z/寫，並在每個圖元傳遞 z 測試時遞增樣板緩衝區。 陰影磁片區的後面會以類似的方式轉譯，但會改成遞減樣板值。
+
+現在，請考慮使用單一圖元。 假設相機不在陰影磁片區中，則場景中的對應點有四種可能性。 如果從相機到點的光線未與陰影音量相交，則不會在該處繪製任何陰影多邊形，而且樣板緩衝區仍為零。 否則，如果點位於陰影卷的前方，則陰影多邊形將會以 z 緩衝輸出，而樣板也會維持不變。 如果這些點位於陰影磁片區後方，則會轉譯與背面表面相同數目的 front shadow 臉部，而且樣板將會是零，因此遞增次數已減少。
+
+最後一個可能的原因是該點位於陰影磁片區中。 在這種情況下，陰影磁片區的背面會以 z 緩衝處理，而不是正面的臉部，因此樣板緩衝區將為非零的值。 結果是框架緩衝區中的部分，在影子中有非零的樣板值。 最後，若要實際轉譯陰影，整個場景會透過將 Alpha 混合多邊形設定為僅影響非零樣板值的圖元來進行沖蝕。 您可以在 DirectX SDK 隨附的「陰影卷」範例中看到這項技術的範例。
+
+</dd> <dt>
+
+<span id="What_are_the_texel_alignment_rules__How_do_I_get_a_one-to-one_mapping__"></span><span id="what_are_the_texel_alignment_rules__how_do_i_get_a_one-to-one_mapping__"></span><span id="WHAT_ARE_THE_TEXEL_ALIGNMENT_RULES__HOW_DO_I_GET_A_ONE-TO-ONE_MAPPING__"></span>**材質對齊規則有哪些？如何? 取得一對一的對應？** 
+</dt> <dd>
+
+這將在 Direct3D 9 檔中完整說明。 但是，執行摘要是您應該將螢幕上的畫面座標乘以-0.5 的圖元，以便適當地與材質對齊。 大部分的卡片現在都能正確地符合材質對齊規則，不過有一些較舊的卡片或驅動程式。 若要處理這些情況，最佳建議是洽詢有問題的硬體廠商，並要求更新的驅動程式或其建議的因應措施。 請注意，在 Direct3D 10 中，此規則已不再保留。
+
+</dd> <dt>
+
+<span id="What_is_the_purpose_of_the_D3DCREATE_PUREDEVICE_flag__"></span><span id="what_is_the_purpose_of_the_d3dcreate_puredevice_flag__"></span><span id="WHAT_IS_THE_PURPOSE_OF_THE_D3DCREATE_PUREDEVICE_FLAG__"></span>**D3DCREATE PUREDEVICE 旗標的用途為何 \_ ？** 
+</dt> <dd>
+
+\_在裝置建立期間使用 D3DCREATE PUREDEVICE 旗標來建立純裝置。 單純裝置不會在狀態變更期間儲存目前狀態 () ，這通常可改善效能;此裝置也需要硬體頂點處理。 單純的裝置通常用於開發和偵錯工具完成，而且您想要達到最佳效能。
+
+單純裝置的一個缺點是它不支援所有的 Get \* API 呼叫，這表示您不能使用純裝置來查詢管線狀態。 這會讓您在執行應用程式時更難進行偵錯工具。 以下是純裝置停用的所有方法清單。
+
+-   [**IDirect3DDevice9::GetClipPlane**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipplane)
+-   [**IDirect3DDevice9::GetClipStatus**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipstatus)
+-   [**IDirect3DDevice9::GetLight**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlight)
+-   [**IDirect3DDevice9::GetLightEnable**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable)
+-   [**IDirect3DDevice9::GetMaterial**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getmaterial)
+-   [**IDirect3DDevice9::GetPixelShaderConstantF**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantf)
+-   [**IDirect3DDevice9::GetPixelShaderConstantI**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstanti)
+-   [**IDirect3DDevice9::GetPixelShaderConstantB**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantb)
+-   [**IDirect3DDevice9::GetRenderState**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrenderstate)
+-   [**IDirect3DDevice9::GetSamplerState**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsamplerstate)
+-   [**IDirect3DDevice9::GetTextureStageState**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate)
+-   [**IDirect3DDevice9::GetTransform**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettransform)
+-   [**IDirect3DDevice9::GetVertexShaderConstantF**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantf)
+-   [**IDirect3DDevice9::GetVertexShaderConstantI**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstanti)
+-   [**IDirect3DDevice9::GetVertexShaderConstantB**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantb)
+
+單純裝置的第二個缺點是，它不會篩選任何多餘的狀態變更。 使用純裝置時，您的應用程式應該將轉譯迴圈中的狀態變更數目降至最低。這可能包括篩選狀態變更，以確保狀態的設定不會超過一次。 這項取捨是與應用程式相依;如果您在每個畫面上使用超過1000組的呼叫，您應該考慮使用非單純裝置自動完成的冗余篩選。
+
+如同所有效能問題，知道您的應用程式是否能以純裝置執行的唯一方式，就是將您的應用程式效能與單純和非單純的裝置進行比較。 單純裝置有可能藉由減少 API 的 CPU 額外負荷來加快應用程式的速度。 但請小心！ 在某些案例中，單純的裝置會讓您的應用程式變慢 (因為) 的重複狀態變更造成額外的 CPU 工作。 如果您不確定哪一種類型的裝置最適合您的應用程式，而且您沒有在應用程式中篩選多餘的變更，請使用非單純的裝置。
+
+</dd> <dt>
+
+<span id="How_do_I_enumerate_the_display_devices_in_a_multi-monitor_system__"></span><span id="how_do_i_enumerate_the_display_devices_in_a_multi-monitor_system__"></span><span id="HOW_DO_I_ENUMERATE_THE_DISPLAY_DEVICES_IN_A_MULTI-MONITOR_SYSTEM__"></span>**如何? 列舉多重監視器系統中的顯示裝置嗎？** 
+</dt> <dd>
+
+使用 IDirect3D9 介面的方法，應用程式可以透過簡單的反復專案來執行列舉。 呼叫 GetAdapterCount 來判斷系統中的顯示器介面卡數目。 呼叫 GetAdapterMonitor 來判斷介面卡所連接的實體監視器 (此方法會傳回 HMONITOR，然後您可以在 WIN32 API GetMonitorInfo 中使用它來判斷實體監視器) 的相關資訊。 您可以在 \_ 呼叫 GetDeviceCaps、CreateDevice 或其他方法時，使用適當的介面卡號碼來取代 D3DADAPTER 預設值，以判斷特定顯示介面卡的特性或在該介面卡上建立 Direct3D 裝置。
+
+</dd> <dt>
+
+<span id="What_happened_to_Fixed_Function_Bumpmapping_in_D3D9__"></span><span id="what_happened_to_fixed_function_bumpmapping_in_d3d9__"></span><span id="WHAT_HAPPENED_TO_FIXED_FUNCTION_BUMPMAPPING_IN_D3D9__"></span>**D3D9 中的固定函式 Bumpmapping 發生什麼事？** 
+</dt> <dd>
+
+從 Direct3D 9 到目前為止，我們已將只支援 > 2 個同時材質的卡片上的驗證加強。 當您使用特定的 Alpha lambert 作業時，某些較舊的卡片只有3個材質階段可用。 人們使用三個階段的最常見用法是浮凸 bumpmapping，您仍然可以使用 D3D9 來執行這項作業。
+
+高度欄位必須儲存在 Alpha 色板中，用來 lambert 燈光比重，也就是：
+
+``` syntax
+// Stage 0 is the base texture, with the height map in the alpha channel
+m_pd3dDevice->SetTexture(0, m_pEmbossTexture );
+m_pd3dDevice->SetTextureStageState(0, D3DTSS_TEXCOORDINDEX, 0 );
+m_pd3dDevice->SetTextureStageState(0, D3DTSS_COLOROP,   D3DTOP_MODULATE );
+m_pd3dDevice->SetTextureStageState(0, D3DTSS_COLORARG1, D3DTA_TEXTURE );
+m_pd3dDevice->SetTextureStageState(0, D3DTSS_COLORARG2, D3DTA_DIFFUSE );
+m_pd3dDevice->SetTextureStageState(0, D3DTSS_ALPHAOP,   D3DTOP_SELECTARG1 );
+m_pd3dDevice->SetTextureStageState(0, D3DTSS_ALPHAARG1, D3DTA_TEXTURE );
+if( m_bShowEmbossMethod )
+{
+ // Stage 1 passes through the RGB channels (SELECTARG2 = CURRENT), and 
+ // does a signed add with the inverted alpha channel. 
+ // The texture coords associated with Stage 1 are the shifted ones, so 
+ // the result is:
+ //    (height - shifted_height) * tex.RGB * diffuse.RGB
+   m_pd3dDevice->SetTexture( 1, m_pEmbossTexture );
+   m_pd3dDevice->SetTextureStageState( 1, D3DTSS_TEXCOORDINDEX, 1 );
+   m_pd3dDevice->SetTextureStageState( 1, D3DTSS_COLOROP, D3DTOP_SELECTARG2 );
+   m_pd3dDevice->SetTextureStageState( 1, D3DTSS_COLORARG1, D3DTA_TEXTURE );
+   m_pd3dDevice->SetTextureStageState( 1, D3DTSS_COLORARG2, D3DTA_CURRENT );
+   m_pd3dDevice->SetTextureStageState( 1, D3DTSS_ALPHAOP, D3DTOP_ADDSIGNED );
+   m_pd3dDevice->SetTextureStageState( 1, D3DTSS_ALPHAARG1, D3DTA_TEXTURE|D3DTA_COMPLEMENT );
+   m_pd3dDevice->SetTextureStageState( 1, D3DTSS_ALPHAARG2, D3DTA_CURRENT );
+
+   // Set up the alpha blender to multiply the alpha channel 
+   // (monochrome emboss) with the src color (lighted texture)
+   m_pd3dDevice->SetRenderState( D3DRS_ALPHABLENDENABLE, TRUE );
+   m_pd3dDevice->SetRenderState( D3DRS_SRCBLEND,  D3DBLEND_SRCALPHA );
+   m_pd3dDevice->SetRenderState( D3DRS_DESTBLEND, D3DBLEND_ZERO );
+}
+```
+
+此範例和其他較舊的範例不再隨附于目前的 SDK 版本中，將不會在未來的 SDK 版本中寄出。
+
+</dd> </dl>
+
+### <a name="geometry-vertex-processing"></a>幾何 (頂點) 處理
+
+<dl> <dt>
+
+<span id="Vertex_streams_confuse_me_how_do_they_work__"></span><span id="vertex_streams_confuse_me_how_do_they_work__"></span><span id="VERTEX_STREAMS_CONFUSE_ME_HOW_DO_THEY_WORK__"></span>**頂點資料流程會讓我混淆如何運作？** 
+</dt> <dd>
+
+Direct3D 會將從一或多個頂點資料流程送入管線處理部分的每個頂點組合在一起。 只有一個頂點資料流程會對應到舊的預先 DirectX 8 模型，其中頂點來自單一來源。 使用 DirectX 8 時，不同的頂點元件可能來自不同的來源;例如，一個頂點緩衝區可以保留位置和法線，而第二個保留的色彩值和材質座標。
+
+</dd> <dt>
+
+<span id="What_is_a_vertex_shader__"></span><span id="what_is_a_vertex_shader__"></span><span id="WHAT_IS_A_VERTEX_SHADER__"></span>**什麼是頂點著色器？** 
+</dt> <dd>
+
+頂點著色器是處理單一頂點的程式。 它會使用 D3DX 公用程式程式庫所組合的簡單元件型語言來定義，成為 Direct3D 接受的權杖資料流程。 頂點著色器會接受單一頂點和一組常數值的輸入;它會輸出剪輯空間中 (的頂點位置) 以及選擇性地將一組色彩和材質座標（用於柵格化）中。 請注意，當您有自訂頂點著色器時，這些頂點元件不再具有任何由 Direct3D 套用的語法，而頂點只是由您所建立之頂點著色器所解讀的任意資料。
+
+</dd> <dt>
+
+<span id="Does_a_vertex_shader_perform_perspective_division_or_clipping__"></span><span id="does_a_vertex_shader_perform_perspective_division_or_clipping__"></span><span id="DOES_A_VERTEX_SHADER_PERFORM_PERSPECTIVE_DIVISION_OR_CLIPPING__"></span>**頂點著色器會執行透視圖或裁剪嗎？** 
+</dt> <dd>
+
+不會。 頂點著色器會在剪輯空間中輸出已轉換頂點位置的同質座標。 在著色器之後，會自動執行透視圖和裁剪。
+
+</dd> <dt>
+
+<span id="Can_I_generate_geometry_with_a_vertex_shader__"></span><span id="can_i_generate_geometry_with_a_vertex_shader__"></span><span id="CAN_I_GENERATE_GEOMETRY_WITH_A_VERTEX_SHADER__"></span>**我可以使用頂點著色器產生幾何嗎？** 
+</dt> <dd>
+
+頂點著色器無法建立或終結頂點;它會一次在單一頂點上運作，並將一個未處理的頂點視為輸入，並輸出單一處理的頂點。 因此，它可以用來操作現有幾何 (套用 deformations 或執行外觀作業) 但無法實際產生每個 se 的新幾何。
+
+</dd> <dt>
+
+<span id="Can_I_apply_a_custom_vertex_shader_to_the_results_of_the_fixed-function_geometry_pipeline__or_vice-versa___"></span><span id="can_i_apply_a_custom_vertex_shader_to_the_results_of_the_fixed-function_geometry_pipeline__or_vice-versa___"></span><span id="CAN_I_APPLY_A_CUSTOM_VERTEX_SHADER_TO_THE_RESULTS_OF_THE_FIXED-FUNCTION_GEOMETRY_PIPELINE__OR_VICE-VERSA___"></span>**我可以將自訂頂點著色器套用至固定函式幾何管線的結果 (還是反向) ？** 
+</dt> <dd>
+
+不會。 您必須選擇其中一個。 如果您使用自訂頂點著色器，則必須負責執行整個頂點轉換。
+
+</dd> <dt>
+
+<span id="Can_I_use_a_custom_vertex_shader_if_my_hardware_does_not_support_it__"></span><span id="can_i_use_a_custom_vertex_shader_if_my_hardware_does_not_support_it__"></span><span id="CAN_I_USE_A_CUSTOM_VERTEX_SHADER_IF_MY_HARDWARE_DOES_NOT_SUPPORT_IT__"></span>**如果我的硬體不支援，是否可以使用自訂頂點著色器？** 
+</dt> <dd>
+
+是。 Direct3D software 頂點處理引擎完全支援自訂頂點著色器，並具有驚人的效能等級。
+
+</dd> <dt>
+
+<span id="How_do_I_determine_if_the_hardware_supports_my_custom_vertex_shader__"></span><span id="how_do_i_determine_if_the_hardware_supports_my_custom_vertex_shader__"></span><span id="HOW_DO_I_DETERMINE_IF_THE_HARDWARE_SUPPORTS_MY_CUSTOM_VERTEX_SHADER__"></span>**如何? 判斷硬體是否支援我的自訂頂點著色器？** 
+</dt> <dd>
+
+需要在硬體中支援頂點著色器的裝置必須填寫 D3DCAPS9：： VertexShaderVersion 欄位，以指出其支援的端點著色器版本層級。 任何宣告支援特定端點著色器層級的裝置，都必須支援符合該層級或以下規格的所有合法頂點著色器。
+
+</dd> <dt>
+
+<span id="How_many_constant_registers_are_available_for_vertex_shaders__"></span><span id="how_many_constant_registers_are_available_for_vertex_shaders__"></span><span id="HOW_MANY_CONSTANT_REGISTERS_ARE_AVAILABLE_FOR_VERTEX_SHADERS__"></span>**有多少常數暫存器可用於頂點著色器？** 
+</dt> <dd>
+
+支援 vs 1.0 頂點著色器的裝置必須支援最少96個常數暫存器。 裝置可支援的數目超過此下限，並可透過 D3DCAPS9：： MaxVertexShaderConst 欄位來回報。
+
+</dd> <dt>
+
+<span id="Can_I_share_position_data_between_vertices_with_different_texture_coordinates__"></span><span id="can_i_share_position_data_between_vertices_with_different_texture_coordinates__"></span><span id="CAN_I_SHARE_POSITION_DATA_BETWEEN_VERTICES_WITH_DIFFERENT_TEXTURE_COORDINATES__"></span>**我可以在具有不同材質座標的頂點之間共用位置資料嗎？** 
+</dt> <dd>
+
+這種情況的常見範例是您想要針對每個臉部使用不同紋理的 cube。 不幸的是，答案是否，目前無法獨立編制頂點元件的索引。 即使有多個頂點資料流程，所有的資料流程也會一起編制索引。
+
+</dd> <dt>
+
+<span id="When_I_submit_an_indexed_list_of_primitives__does_Direct3D_process_all_of_the_vertices_in_the_buffer__or_just_the_ones_I_indexed__"></span><span id="when_i_submit_an_indexed_list_of_primitives__does_direct3d_process_all_of_the_vertices_in_the_buffer__or_just_the_ones_i_indexed__"></span><span id="WHEN_I_SUBMIT_AN_INDEXED_LIST_OF_PRIMITIVES__DOES_DIRECT3D_PROCESS_ALL_OF_THE_VERTICES_IN_THE_BUFFER__OR_JUST_THE_ONES_I_INDEXED__"></span>**當我提交基本的索引清單時，Direct3D 是否會處理緩衝區中的所有頂點，或是只處理我所編制索引的所有頂點？** 
+</dt> <dd>
+
+使用軟體幾何管線時，Direct3D 會先轉換您所提交範圍中的所有頂點，而不是在編制索引時「依需求」轉換它們。 針對密集壓縮的資料 (也就是使用大部分的頂點) 這會更有效率，特別是在提供 SIMD 指令時。 如果您的資料是稀疏壓縮 (也就是不會使用許多頂點) 然後您可能想要考慮重新排列資料，以避免太多重複的轉換。 使用硬體幾何加速時，頂點通常會在需要時依需求進行轉換。
+
+</dd> <dt>
+
+<span id="What_is_an_index_buffer__"></span><span id="what_is_an_index_buffer__"></span><span id="WHAT_IS_AN_INDEX_BUFFER__"></span>**什麼是索引緩衝區？** 
+</dt> <dd>
+
+索引緩衝區與頂點緩衝區完全相似，但它包含在 DrawIndexedPrimitive 呼叫中使用的索引。 強烈建議您盡可能使用索引緩衝區，而不是原始應用程式佈建的記憶體，原因與頂點緩衝區相同。
+
+</dd> <dt>
+
+<span id="I_notice_that_32-bit_indices_are_a_supported_type__can_I_use_them_on_all_devices__"></span><span id="i_notice_that_32-bit_indices_are_a_supported_type__can_i_use_them_on_all_devices__"></span><span id="I_NOTICE_THAT_32-BIT_INDICES_ARE_A_SUPPORTED_TYPE__CAN_I_USE_THEM_ON_ALL_DEVICES__"></span>**我注意到32位索引是支援的類型;可以在所有裝置上使用嗎？** 
+</dt> <dd>
+
+不會。 您必須檢查 D3DCAPS9：： MaxVertexIndex 欄位，以判斷裝置所支援的最大索引值。 此值必須大於2到第16個 (0xffff) ，才能支援 D3DFMT INDEX32 類型的索引緩衝區 \_ 。 此外，請注意，某些裝置可能支援32位的索引，但支援的最大索引值小於2第 32 (0xffffffff) ;在此情況下，應用程式必須遵守裝置所報告的限制。
+
+</dd> <dt>
+
+<span id="Does_S_W_vertex_processing_support_64_bit__"></span><span id="does_s_w_vertex_processing_support_64_bit__"></span><span id="DOES_S_W_VERTEX_PROCESSING_SUPPORT_64_BIT__"></span>**S/W 頂點處理是否支援64位？** 
+</dt> <dd>
+
+X64 有優化的 s/w 頂點管線，但不存在於 IA64。
+
+</dd> </dl>
+
+### <a name="performance-tuning"></a>效能微調
+
+<dl> <dt>
+
+<span id="How_can_I_improve_the_performance_of_my_Direct3D_application__"></span><span id="how_can_i_improve_the_performance_of_my_direct3d_application__"></span><span id="HOW_CAN_I_IMPROVE_THE_PERFORMANCE_OF_MY_DIRECT3D_APPLICATION__"></span>**如何改善我的 Direct3D 應用程式的效能？** 
+</dt> <dd>
+
+以下是優化效能時要考慮的重要區域：
+
+<dl> <dt>
+
+<span id="Batch_size_"></span><span id="batch_size_"></span><span id="BATCH_SIZE_"></span>**批次大小** 
+</dt> <dd>
+
+Direct3D 已針對大量的基本專案進行優化。 可以在單一呼叫中傳送的多邊形愈多，就越好。 理想的經驗法則是將每個基本呼叫的平均1000頂點設為目標。 在該層級之下，您可能無法獲得最佳效能，但您會遇到與並行考慮有關的降低報酬和潛在衝突 (請參閱以下) 。
+
+</dd> <dt>
+
+<span id="State_changes_"></span><span id="state_changes_"></span><span id="STATE_CHANGES_"></span>**狀態變更** 
+</dt> <dd>
+
+變更轉譯狀態可能是昂貴的作業，尤其是在變更材質時。 基於這個理由，請務必盡可能將每個畫面格的狀態變更數目降至最低。 此外，請嘗試將頂點或索引緩衝區的變更降至最低。
+
+> [!Note]  
+> 從 DirectX 8 開始，變更頂點緩衝區的成本不再像舊版一樣昂貴，但在可能的情況下，盡可能避免頂點緩衝區變更是不錯的作法。
+
+ 
+
+</dd> <dt>
+
+<span id="Concurrency"></span><span id="concurrency"></span><span id="CONCURRENCY"></span>**併發**
+</dt> <dd>
+
+如果您可以排列以同時執行與其他處理的轉譯，則會充分利用系統效能。 這專案標可能會與減少 renderstate 變更的目標發生衝突。 您必須在批次處理之間取得平衡，以減少狀態變更，並及早將資料推送至驅動程式，以協助達成並行。 以迴圈配置資源的方式使用多個頂點緩衝區有助於進行平行存取。
+
+</dd> <dt>
+
+<span id="Texture_uploads_"></span><span id="texture_uploads_"></span><span id="TEXTURE_UPLOADS_"></span>**材質上傳** 
+</dt> <dd>
+
+將材質上傳至裝置會耗用頻寬，並導致頻寬與頂點資料競爭。 因此，請務必不要超過認可材質記憶體，這會強制您的快取配置將大量的材質上傳至每個畫面格。
+
+</dd> <dt>
+
+<span id="Vertex_and_index_buffers_"></span><span id="vertex_and_index_buffers_"></span><span id="VERTEX_AND_INDEX_BUFFERS_"></span>**頂點和索引緩衝區** 
+</dt> <dd>
+
+您應該一律使用頂點和索引緩衝區，而不是應用程式佈建記憶體的一般區塊。 頂點和索引緩衝區的鎖定語義至少可以避免重複的複製作業。 使用某些驅動程式時，可能會將頂點或索引緩衝區放在更理想的記憶體中 (可能是在影片或 AGP 記憶體) ，以供硬體存取。
+
+</dd> <dt>
+
+<span id="State_macro_blocks_"></span><span id="state_macro_blocks_"></span><span id="STATE_MACRO_BLOCKS_"></span>**狀態宏區塊** 
+</dt> <dd>
+
+這些是在 DirectX 7.0 中引進。 它們提供一種機制，可記錄一系列的狀態變更 (包括光源、材質和矩陣變更) 至宏，然後藉由單一呼叫來重新執行。 這有兩個優點：
+
+-   您可以建立一個呼叫而不是多個呼叫，藉此減少通話的額外負荷。
+-   感知的驅動程式可以預先剖析並預先編譯狀態變更，讓您更快速地提交到圖形硬體。
+
+狀態變更仍可能耗用大量資源，但使用狀態宏可協助減少至少一些成本。 只使用單一 Direct3D 裝置。 如果您需要轉譯成多個目標，請使用 SetRenderTarget。 如果您要建立具有多個3D 視窗的視窗型應用程式，請使用 CreateAdditionalSwapChain API。 執行時間已針對單一裝置優化，而且使用多個裝置會有相當程度的影響。
+
+</dd> </dl> </dd> <dt>
+
+<span id="Which_primitive_types__strips__fans__lists_and_so_on__should_I_use__"></span><span id="which_primitive_types__strips__fans__lists_and_so_on__should_i_use__"></span><span id="WHICH_PRIMITIVE_TYPES__STRIPS__FANS__LISTS_AND_SO_ON__SHOULD_I_USE__"></span>**我應該使用哪一種基本類型 (移除) 、風扇、清單等？** 
+</dt> <dd>
+
+在實際資料功能頂點中遇到多個多邊形所共用的許多網格。 若要將效能最大化，您需要減少轉換的頂點中的重複，並將其傳送到轉譯裝置。 使用簡單的三角形清單可以達成沒有頂點的共用，讓它成為最不理想的方法是很明顯的。 然後，您可以選擇使用條紋和風扇，這表示多邊形和使用索引清單之間的特定連線關聯性。 資料自然落在帶狀和風扇，因為它們會將傳送至驅動程式的資料降到最低，所以是最適當的選擇。 不過，分解網格進入帶狀和風扇通常會產生大量的不同部分，這意味著大量的 DrawPrimitive 呼叫。 基於這個理由，最有效率的方法通常是使用單一 DrawIndexedPrimitive 呼叫與三角形清單。 使用索引清單的另一項好處是，即使連續的三角形只共用一個頂點，也能獲得好處。 總而言之，如果您的資料自然落入大型的停車或風扇，請使用帶狀或風扇;否則，請使用索引清單。
+
+</dd> <dt>
+
+<span id="How_do_you_determine_the_total_texture_memory_a_card_has__excluding_AGP_memory__"></span><span id="how_do_you_determine_the_total_texture_memory_a_card_has__excluding_agp_memory__"></span><span id="HOW_DO_YOU_DETERMINE_THE_TOTAL_TEXTURE_MEMORY_A_CARD_HAS__EXCLUDING_AGP_MEMORY__"></span>**您如何判斷卡片具有的材質總記憶體（不含 AGP 記憶體）？** 
+</dt> <dd>
+
+[**IDirect3DDevice9：： GetAvailableTextureMem**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getavailabletexturemem) 會傳回總可用記憶體，包括 AGP。 根據您所擁有的視訊記憶體數量，來配置資源並不是個好主意。 例如，如果卡片是在統一記憶體架構下執行 (UMA) 或能夠壓縮紋理？ 可能會有比您想像中更多的可用空間。 您應建立資源並檢查「記憶體不足」的錯誤，然後在紋理上調整回。 例如，您可以移除紋理的最上層 mip 層級。
+
+</dd> <dt>
+
+<span id="What_s_a_good_usage_pattern_for_vertex_buffers_if_I_m_generating_dynamic_data__"></span><span id="what_s_a_good_usage_pattern_for_vertex_buffers_if_i_m_generating_dynamic_data__"></span><span id="WHAT_S_A_GOOD_USAGE_PATTERN_FOR_VERTEX_BUFFERS_IF_I_M_GENERATING_DYNAMIC_DATA__"></span>**如果我產生動態資料，頂點緩衝區有哪些良好的使用模式？** 
+</dt> <dd>
+
+1.  使用 D3DUSAGE \_ 動態和 D3DUSAGE \_ WRITEONLY 使用旗標和 D3DPOOL \_ 預設集區旗標來建立頂點緩衝區。 \_如果您使用軟體頂點處理， (也指定 D3DUSAGE SOFTWAREPROCESSING。 ) 
+2.  I = 0。
+3.  設定狀態 (紋理、renderstates 等) 。
+4.  檢查緩衝區中是否有空間，例如 I + M <= N？  (，其中 M 是新頂點) 的數目。
+5.  如果是，請使用 D3DLOCK NOOVERWRITE 鎖定 VB \_ 。 這會告訴 Direct3D 和驅動程式您將加入頂點，而不會修改您先前批次處理的頂點。 因此，如果 DMA 作業正在進行中，則不會中斷。 如果不是，則會是 goto 11。
+6.  填寫 I 的 M 頂點。
+7.  解 鎖。
+8.  呼叫繪製 \[ 索引 \] 基本物件。 針對非索引的基本專案，請使用 I 作為 StartVertex 參數。 針對索引的基本專案，請確定索引指向頂點緩衝區的正確部分 (可能最簡單的方式是使用 SetIndices 呼叫的 BaseVertexIndex 參數來達成此) 。
+9.  I + = M。
+10. Goto 3。
+11. 好的，所以我們的空間不夠，所以我們先從新的 VB 開始著手。 我們不想要使用相同的，因為可能有 DMA 作業正在進行中。 我們會使用 D3DLOCK 捨棄旗標來鎖定相同的 VB，以將其與 Direct3D 和驅動程式進行通訊 \_ 。 這表示「您可以為我提供新的指標，因為我是使用舊的指標，而不是真的在意舊的內容。」
+12. I = 0。
+13. Goto 4 (或 6) 。
+
+</dd> <dt>
+
+<span id="Why_do_I_have_to_specify_more_information_in_the_D3DVERTEXELEMENT9_structure__"></span><span id="why_do_i_have_to_specify_more_information_in_the_d3dvertexelement9_structure__"></span><span id="WHY_DO_I_HAVE_TO_SPECIFY_MORE_INFORMATION_IN_THE_D3DVERTEXELEMENT9_STRUCTURE__"></span>**為什麼我必須在 D3DVERTEXELEMENT9 結構中指定更多資訊？** 
+</dt> <dd>
+
+從 Direct3D 9 開始，頂點資料流程宣告不再只是 DWORD 陣列，而是 D3DVERTEXELEMENT9 結構的陣列。 執行時間會使用其他語義和使用方式資訊，將頂點資料流程的內容系結至頂點著色器輸入暫存器/變數。 針對 Direct3D 9，頂點宣告會與頂點著色器分離，如此可讓您更輕鬆地使用著色器搭配不同格式的幾何，因為執行時間只會系結著色器所需的資料。
+
+新的頂點宣告可以搭配 fixed 函數管線或著色器使用。 對於 fixed 函數管線，不需要呼叫 SetVertexShader。 但是，如果您想要切換至固定函式管線，且先前已使用頂點著色器，請呼叫 SetVertexShader (Null) 。 完成這項操作之後，您仍然需要呼叫 SetFVF 來宣告 FVF 程式碼。
+
+使用頂點著色器時，請使用頂點著色器物件來呼叫 SetVertexShader。 此外，呼叫 SetFVF 來設定頂點宣告。 這會使用 FVF 中隱含的資訊。 您可以呼叫 SetVertexDeclaration 來取代 SetFVF，因為它支援無法以 FVF 表示的頂點宣告。
+
+</dd> </dl>
+
+### <a name="d3dx-utility-library"></a>D3DX 公用程式程式庫
+
+<dl> <dt>
+
+<span id="What_file_formats_are_supported_by_the_D3DX_image_file_loader_functions__"></span><span id="what_file_formats_are_supported_by_the_d3dx_image_file_loader_functions__"></span><span id="WHAT_FILE_FORMATS_ARE_SUPPORTED_BY_THE_D3DX_IMAGE_FILE_LOADER_FUNCTIONS__"></span>**D3DX 影像檔載入器函數支援哪些檔案格式？** 
+</dt> <dd>
+
+D3DX 影像檔載入器函式支援 BMP、TGA、JPG、DIB、PPM 和 DDS 檔案。
+
+</dd> <dt>
+
+<span id="The_text_rendering_functions_in_D3DX_don_t_seem_to_work__what_am_I_doing_wrong__"></span><span id="the_text_rendering_functions_in_d3dx_don_t_seem_to_work__what_am_i_doing_wrong__"></span><span id="THE_TEXT_RENDERING_FUNCTIONS_IN_D3DX_DON_T_SEEM_TO_WORK__WHAT_AM_I_DOING_WRONG__"></span>**D3DX 中的文字轉譯函式似乎無法運作，我該怎麼辦？** 
+</dt> <dd>
+
+使用 ID3DXFont：:D rawText 函式時，常見的錯誤是針對 color 參數指定零的 Alpha 元件;產生完全透明的 (，也就是不可見的) 文字。 針對完全不透明的文字，請確定 color 參數的 Alpha 元件 (255) 完全飽和。
+
+</dd> <dt>
+
+<span id="How_can_I_save_the_contents_of_a_surface_or_texture_to_a_file__"></span><span id="how_can_i_save_the_contents_of_a_surface_or_texture_to_a_file__"></span><span id="HOW_CAN_I_SAVE_THE_CONTENTS_OF_A_SURFACE_OR_TEXTURE_TO_A_FILE__"></span>**如何將表面或材質的內容儲存到檔案中？** 
+</dt> <dd>
+
+DirectX 8.1 SDK 特別針對此用途將兩個函式新增至 D3DX 程式庫： D3DXSaveSurfaceToFile () 和 D3DXSaveTextureToFile () 。 這些函式支援將影像儲存為 BMP 或 DDS 格式的檔案。 在先前的版本中，您必須鎖定介面並讀取影像資料，然後將它寫入點陣圖檔案。 如需撰寫函式來儲存點陣圖的詳細資訊，請參閱 [儲存影像](/windows/desktop/gdi/storing-an-image)。
+
+或者，您也可以使用 GDI + 將影像儲存成各種不同的格式，但這需要將其他支援檔案與您的應用程式一起散發。
+
+</dd> <dt>
+
+<span id="How_can_I_make_use_of_the_High_Level_Shader_Language__HLSL__in_my_game__"></span><span id="how_can_i_make_use_of_the_high_level_shader_language__hlsl__in_my_game__"></span><span id="HOW_CAN_I_MAKE_USE_OF_THE_HIGH_LEVEL_SHADER_LANGUAGE__HLSL__IN_MY_GAME__"></span>**我要如何在我的遊戲中使用高階著色器語言 (HLSL) ？** 
+</dt> <dd>
+
+有三種方式可將 Microsoft 高階著色器語言 (HLSL) 併入您的遊戲引擎：
+
+-   使用命令列公用程式 fxc.exe) ，並在執行時間使用 D3DXAssembleShader () ，將著色器來源編譯成頂點或圖元陰影元件 (。 如此一來，即使是 DirectX 8 遊戲，也可以利用 HLSL 的威力。
+-   使用 D3DXCompileShader () ，將您的著色器來源編譯成權杖資料流程和常數表格形式。 在執行時間載入權杖資料流程和常數資料表，並在裝置上呼叫 CreateVertexShader () 或 CreatePixelShader () 來建立著色器。
+-   若要啟動並執行，最簡單的方式就是使用效果檔案來呼叫 D3DXCreateEffectFromFile () 或 D3DXCreateEffectFromResource () ，以利用 D3DX 效果系統。
+
+</dd> <dt>
+
+<span id="What_is_the_purpose_of_the_new_shader_compiler_flag__"></span><span id="what_is_the_purpose_of_the_new_shader_compiler_flag__"></span><span id="WHAT_IS_THE_PURPOSE_OF_THE_NEW_SHADER_COMPILER_FLAG__"></span>**新的著色器編譯器旗標有何用途？** 
+</dt> <dd>
+
+從2006年12月的 DirectX SDK 開始，為 Direct3D 10 開發的新 HLSL 編譯器已針對 Direct3D 9 目標啟用。 新的編譯器不支援 ps \_ 1 \_ x 目標，現在是所有 Direct3D HLSL 著色器的預設編譯器。 回溯相容性的旗標可以用來強制 \_ 將 ps 1 \_ x 目標編譯為 ps \_ 2 \_ 0 目標。
+
+想要使用舊版編譯器的應用程式可以繼續執行此作業，方法是在執行時間提供旗標 (查看 [**編譯器旗標**](/windows/desktop/direct3d9/d3dxshader-flags)) 或在使用 fxc.exe 時提供參數。
+
+</dd> <dt>
+
+<span id="What_is_the_correct_way_to_get_shaders_from_an_Effect__"></span><span id="what_is_the_correct_way_to_get_shaders_from_an_effect__"></span><span id="WHAT_IS_THE_CORRECT_WAY_TO_GET_SHADERS_FROM_AN_EFFECT__"></span>**從效果取得著色器的正確方式為何？** 
+</dt> <dd>
+
+使用 D3DXCreateEffect 建立 ID3DXEffect，然後使用 GetPassDesc 來取得 D3DXPASS \_ DESC。 此結構包含頂點和圖元著色器的指標。
+
+請勿使用 ID3DXEffectCompiler：： GetPassDesc。 從這個方法傳回的頂點和圖元著色器控制碼為 Null。
+
+</dd> <dt>
+
+<span id="What_is_the_HLSL_noise___intrinsic_for__"></span><span id="what_is_the_hlsl_noise___intrinsic_for__"></span><span id="WHAT_IS_THE_HLSL_NOISE___INTRINSIC_FOR__"></span>**HLSL 雜訊 () 內建有哪些？** 
+</dt> <dd>
+
+雜訊內建函式會產生 Ken Perlin 所定義的 perlin 雜訊。 HLSL 函式目前只能用來填滿材質著色器中的材質，因為目前的 h/w 不支援原生方法。 紋理著色器會在 conjuction 中搭配使用 D3DXFill 材質 () 函式，這些函式 \* 是實用的 helper 函式，可在載入時間期間產生 cti 定義的材質。
+
+</dd> <dt>
+
+<span id="How_do_I_detect_whether_to_use_pixel_shader_model_2.0_or_2.a__"></span><span id="how_do_i_detect_whether_to_use_pixel_shader_model_2.0_or_2.a__"></span><span id="HOW_DO_I_DETECT_WHETHER_TO_USE_PIXEL_SHADER_MODEL_2.0_OR_2.A__"></span>**如何? 偵測是否要使用圖元著色器模型2.0 或 2. a？** 
+</dt> <dd>
+
+您可以使用 D3DXGetPixelShaderProfile () 和 D3DXGetPixelShaderProfile () 函式，這些函式會傳回字串，以決定最適合執行裝置的 HLSL 設定檔。
+
+</dd> <dt>
+
+<span id="How_do_I_access_the_Parameters_in_my_Precompiled_Effects_Shaders__"></span><span id="how_do_i_access_the_parameters_in_my_precompiled_effects_shaders__"></span><span id="HOW_DO_I_ACCESS_THE_PARAMETERS_IN_MY_PRECOMPILED_EFFECTS_SHADERS__"></span>**如何? 存取我的先行編譯效果著色器中的參數？** 
+</dt> <dd>
+
+透過用來存取常數資料表的 ID3DXConstantTable 介面。 此資料表包含高階語言著色器和效果所使用的變數。
+
+</dd> <dt>
+
+<span id="Is_there_a_way_to_add_user_data_to_an_effect_or_other_resource__"></span><span id="is_there_a_way_to_add_user_data_to_an_effect_or_other_resource__"></span><span id="IS_THERE_A_WAY_TO_ADD_USER_DATA_TO_AN_EFFECT_OR_OTHER_RESOURCE__"></span>**是否有方法可以將使用者資料新增到效果或其他資源？** 
+</dt> <dd>
+
+是，若要設定您呼叫的私用資料 SetPrivateData (pReal 是 D3D 材質物件，pSpoof 是包裝的材質物件) 。
+
+``` syntax
+hr = pReal->SetPrivateData(IID_Spoof, &pSpoof, 
+            sizeof(IDirect3DResource9*), 0)));
+```
+
+若要查詢包裝的指標：
+
+``` syntax
+    IDirect3DResource9* pSpoof;
+    DWORD dwSize = sizeof(pSpoof);
+    hr = pReal->GetPrivateData(IID_Spoof, (void*) &pSpoof, &dwSize);
+```
+
+</dd> <dt>
+
+<span id="Why_does_rendering_of_an_ID3DXMesh_object_slow_down_significantly_after_I_define_subsets__"></span><span id="why_does_rendering_of_an_id3dxmesh_object_slow_down_significantly_after_i_define_subsets__"></span><span id="WHY_DOES_RENDERING_OF_AN_ID3DXMESH_OBJECT_SLOW_DOWN_SIGNIFICANTLY_AFTER_I_DEFINE_SUBSETS__"></span>**為什麼在定義子集之後，ID3DXMesh 物件的呈現速度會變慢？** 
+</dt> <dd>
+
+您可能未在定義臉部屬性之後優化網格。 如果您指定屬性，然後呼叫 ID3DXMesh：:D rawSubset () ，這個方法必須針對包含所要求屬性的所有臉部執行網格搜尋。 此外，轉譯的臉部可能採用隨機存取模式，因此不會利用頂點快取。 為您的子集定義臉部屬性之後，請呼叫 ID3DXMesh：： Optimize 或 ID3DXMesh：： OptimizeInPlace 方法，並指定 D3DXMESHOPT \_ ATTRSORT 或更強的優化方法。 請注意，為了獲得最佳效能，您應該使用 D3DXMESHOPT VERTEXCACHE 旗標進行優化 \_ ，這也會將頂點重新排列以取得最佳頂點快取使用量。 針對 D3DX 網格產生的相鄰陣列，每個臉部都有三個專案，但某些臉部在這三個邊緣上可能不會有連續的臉部。 這是如何編碼的？ 沒有相鄰臉部的專案會編碼為0xffffffff。
+
+</dd> <dt>
+
+<span id="I_ve_heard_a_lot_about_Pre-computed_Radiance_Transfer__PRT___where_can_I_learn_more__"></span><span id="i_ve_heard_a_lot_about_pre-computed_radiance_transfer__prt___where_can_i_learn_more__"></span><span id="I_VE_HEARD_A_LOT_ABOUT_PRE-COMPUTED_RADIANCE_TRANSFER__PRT___WHERE_CAN_I_LEARN_MORE__"></span>**我聽說過很多關於預先計算的 Radiance 傳輸 (PRT) ，我可以在哪裡深入瞭解？** 
+</dt> <dd>
+
+PRT 是2003年 SDK 更新中新增的 D3DX 功能。 它可讓您即時轉譯複雜的光源案例，例如全域 llumination、軟遮蔽和子介面散佈。 SDK 包含檔和範例，說明如何將技術整合到您的遊戲中。 PRT 示範範例和 LocalDeformablePRT 範例範例會示範如何分別針對每個頂點和個別圖元光源案例使用模擬器。 您也可以在 Peter Pike Sloan 的網頁上找到此主題和其他主題的詳細資訊。
+
+</dd> <dt>
+
+<span id="How_can_I_render_to_a_texture_and_make_use_of_Anti_Aliasing__"></span><span id="how_can_i_render_to_a_texture_and_make_use_of_anti_aliasing__"></span><span id="HOW_CAN_I_RENDER_TO_A_TEXTURE_AND_MAKE_USE_OF_ANTI_ALIASING__"></span>**如何轉譯成材質並利用消除鋸齒？** 
+</dt> <dd>
+
+使用 Direct3DDevice9：： CreateRenderTarget 建立多重取樣轉譯目標。 將場景轉譯至該呈現目標之後，請將場景 StretchRect 至轉譯目標紋理。 如果您對外 textre 進行任何變更，例如 (模糊或綻放) ，請將它複製回背景緩衝區，然後再呈現 () 。
+
+</dd> </dl>
+
+## <a name="directsound-questions"></a>DirectSound 問題
+
+<dl> <dt>
+
+<span id="Why_do_I_get_a_burst_of_static_when_my_application_starts_up__I_notice_this_problem_with_other_applications_too._"></span><span id="why_do_i_get_a_burst_of_static_when_my_application_starts_up__i_notice_this_problem_with_other_applications_too._"></span><span id="WHY_DO_I_GET_A_BURST_OF_STATIC_WHEN_MY_APPLICATION_STARTS_UP__I_NOTICE_THIS_PROBLEM_WITH_OTHER_APPLICATIONS_TOO._"></span>**為什麼我的應用程式啟動時，會收到靜態的高載？我也注意到其他應用程式的這個問題。** 
+</dt> <dd>
+
+您可能已安裝 debug DirectX 執行時間。 執行時間的偵錯工具會使用靜態來填滿緩衝區，以協助開發人員使用未初始化的緩衝區來攔截 bug。 您無法在建立之後保證 DirectSound 緩衝區的內容;尤其是，您不能假設緩衝區已清空。
+
+</dd> <dt>
+
+<span id="Why_I_am_experiencing_a_delay_in_between_changing_an_effects_parameters_and_hearing_the_results__"></span><span id="why_i_am_experiencing_a_delay_in_between_changing_an_effects_parameters_and_hearing_the_results__"></span><span id="WHY_I_AM_EXPERIENCING_A_DELAY_IN_BETWEEN_CHANGING_AN_EFFECTS_PARAMETERS_AND_HEARING_THE_RESULTS__"></span>**為什麼我在變更效果參數和聽到結果之間遇到延遲？** 
+</dt> <dd>
+
+作用中參數的變更不一定會立即在 DirectX 8 上進行。 為了提高效率，DirectSound 會在播放緩衝區之前，處理緩衝區中的100毫秒的音效資料（從播放游標開始）。 這項前置處理會在下列所有呼叫之後發生：
+
+``` syntax
+IDirectSoundBuffer8::SetCurrentPosition
+IDirectSoundBuffer8::SetFX
+IDirectSoundBuffer8::Stop
+IDirectSoundBuffer8::Unlock
+```
+
+從 DirectX 9 起，處理即時效果的新 FX 處理演算法可解決此問題，並降低延遲。 演算法已新增至 IDirectSoundBuffer8：:P 配置 () 呼叫，以及會在寫入資料指標之前處理效果的額外線程。 因此您可以隨時設定參數，這些參數將會如預期般運作。 不過，請注意，在播放緩衝區上會有短暫的延遲 (通常會在您聽到參數變更之前100毫秒) ，因為播放和寫入游標 (之間的音訊，以及在該時間已處理過的填補) 。
+
+</dd> <dt>
+
+<span id="How_do_I_detect_if_DSound_is_installed__"></span><span id="how_do_i_detect_if_dsound_is_installed__"></span><span id="HOW_DO_I_DETECT_IF_DSOUND_IS_INSTALLED__"></span>**如何? 偵測是否已安裝 DSound？** 
+</dt> <dd>
+
+如果您不需要使用 DirectSoundEnumerate () 列出可用的 DSound 裝置，請不要連結您的應用程式與 DSound，並改為使用它透過 COMs CoCreateInstance (CLSID \_ DirectSound ... ) 然後使用 initialize (Null) 初始化 DSound 物件。 如果您需要使用 DirectSoundEnumerate () ，您可以使用 LoadLibrary ( "dsound.dll" ) 動態載入 dsound.dll。並使用 GetProcAddress ( "DirectSoundEnumerateA/W" ) 和 GetProcAddress ( "DirectSoundCreateA/W" ) 等等來存取它的方法。
+
+</dd> <dt>
+
+<span id="How_do_I_create_multichannel_audio_with_WAVEFORMATEXTENSIBLE__"></span><span id="how_do_i_create_multichannel_audio_with_waveformatextensible__"></span><span id="HOW_DO_I_CREATE_MULTICHANNEL_AUDIO_WITH_WAVEFORMATEXTENSIBLE__"></span>**如何? 使用 WAVEFORMATEXTENSIBLE 建立多頻道音訊？** 
+</dt> <dd>
+
+如果您在 DirectSound 說明檔中找不到問題的答案，則會有一個很好的文章，其中有多個 Channel 音訊資料和 WAVE 檔案提供的詳細資訊。
+
+</dd> <dt>
+
+<span id="How_can_I_use_the_DirectSound_Voice_Manager_with_property_sets_like_EAX__"></span><span id="how_can_i_use_the_directsound_voice_manager_with_property_sets_like_eax__"></span><span id="HOW_CAN_I_USE_THE_DIRECTSOUND_VOICE_MANAGER_WITH_PROPERTY_SETS_LIKE_EAX__"></span>**如何搭配使用 DirectSound 語音管理員與屬性集（例如 EAX）？** 
+</dt> <dd>
+
+在 DirectSound 9.0 中，當您複製緩衝區時，現在可以在重複的緩衝區上取得 IDirectSoundBuffer8 介面，這可讓您存取 >acquireresources 方法。 這可讓您將緩衝區與 DSBCAPS \_ LOCDEFER 旗標與硬體資源產生關聯。 然後您就可以在此緩衝區上設定 EAX 參數，然後再呼叫 Play () 。
+
+</dd> <dt>
+
+<span id="I_am_having_problems_with_unreliable_behavior_when_using_cursor_position_notifications._How_can_I_get_more_accurate_information__"></span><span id="i_am_having_problems_with_unreliable_behavior_when_using_cursor_position_notifications._how_can_i_get_more_accurate_information__"></span><span id="I_AM_HAVING_PROBLEMS_WITH_UNRELIABLE_BEHAVIOR_WHEN_USING_CURSOR_POSITION_NOTIFICATIONS._HOW_CAN_I_GET_MORE_ACCURATE_INFORMATION__"></span>**我在使用資料指標位置通知時遇到不可靠行為的問題。如何取得更精確的資訊？** 
+</dt> <dd>
+
+不同版本的 DirectSound、核心 Windows 音訊堆疊和音訊驅動程式都有一些微妙的錯誤，讓游標位置通知不可靠。 除非您的目標是已知的 HW/SW 設定，而您知道通知的行為是正常的，否則請避免游標位置通知。 針對位置追蹤 GetCurrentPosition () 是更安全的技術。
+
+</dd> <dt>
+
+<span id="I_am_suffering_from_performance_degradation_when_using_GetCurrentPosition__._What_can_I_do_to_improve_performance__"></span><span id="i_am_suffering_from_performance_degradation_when_using_getcurrentposition__._what_can_i_do_to_improve_performance__"></span><span id="I_AM_SUFFERING_FROM_PERFORMANCE_DEGRADATION_WHEN_USING_GETCURRENTPOSITION__._WHAT_CAN_I_DO_TO_IMPROVE_PERFORMANCE__"></span>**當您使用 GetCurrentPosition () 時，我遇到效能降低的情況。我可以做什麼來提升效能？** 
+</dt> <dd>
+
+每個緩衝區的每個 GetCurrentPosition () 呼叫都會導致系統呼叫，而系統呼叫應該會最小化，因為它們是 DSound CPU 使用量的大型元件。 在 NT (Win2K 和 XP) SW 緩衝區中的資料指標 (和某些裝置上的 HW 緩衝區) 以10毫秒增量移動，因此每個10毫秒的呼叫 GetCurrentPosition () 都很理想。 比起每個5毫秒，呼叫它通常會導致效能降低。
+
+</dd> <dt>
+
+<span id="My_DirectSound_application_is_taking_up_too_much_CPU_time_or_is_performing_slowly._Is_there_anything_I_can_do_to_optimize_my_code__"></span><span id="my_directsound_application_is_taking_up_too_much_cpu_time_or_is_performing_slowly._is_there_anything_i_can_do_to_optimize_my_code__"></span><span id="MY_DIRECTSOUND_APPLICATION_IS_TAKING_UP_TOO_MUCH_CPU_TIME_OR_IS_PERFORMING_SLOWLY._IS_THERE_ANYTHING_I_CAN_DO_TO_OPTIMIZE_MY_CODE__"></span>**我的 DirectSound 應用程式佔用太多 CPU 時間或執行速度很慢。我可以用什麼程式碼來優化我的程式碼？** 
+</dt> <dd>
+
+您可以做幾件事來改善音訊程式碼的效能：
+
+-   請勿太常呼叫 GetCurrentPosition。 每個緩衝區的每個 GetCurrentPosition () 呼叫都會導致系統呼叫，而系統呼叫應該會最小化，因為它們是 DSound CPU 使用量的大型元件。 在 NT (Win2K 和 XP) SW 緩衝區中的資料指標 (和某些裝置上的 HW 緩衝區) 以10毫秒增量移動，因此每個10毫秒的呼叫 GetCurrentPosition () 都很理想。 比起每個5毫秒更常呼叫它，將會導致效能降低。
+-   針對音訊使用不同的較低畫面播放速率。 現今許多 Windows 遊戲可能超過每秒100個畫面格，在大部分情況下，以相同的畫面播放速率更新您的3D 音訊參數並不是必要的。 每秒或第三個圖形畫面格，或每個30毫秒或更多的音訊處理，都可以大幅減少整個應用程式中的音訊通話數目，而不會降低音訊品質。
+-   \_針對3d 物件使用 DS3D 延後。 大部分的音效卡都會立即回應參數變更，而在單一框架中可能會變更，尤其是當您變更接聽程式的位置或方向時。 這會導致音效卡/CPU 執行許多不必要的計算，因此另一種快速且通用的優化是延遲某些參數變更，然後在框架的結尾認可它們。
+
+    或至少使用 SetAllParameters，而不是個別的 Set3DParamX 呼叫緩衝區。
+
+    同樣地，您應該至少使用3D 緩衝區上的 SetAllParamenters 呼叫，而不是個別的 Set3DParamX 呼叫。 只要盡可能儘量減少系統呼叫。
+
+-   請勿進行多餘的呼叫;儲存並排序播放通話的清單。 通常在一個音訊更新畫面中，有2個播放新聲音的要求。 如果要求在到達時處理，則會啟動第一個新的音效，然後立即取代第二個要求的音效。 這會導致多餘的計算、不必要的播放呼叫，以及不必要的停止呼叫。 最好的方式是儲存要播放新聲音的要求清單，以便排序清單，而且只會播放應該開始播放的聲音。
+
+    此外，您應該針對每個音效來源儲存3D 和 EAX 參數的本機複本。 如果要求將參數設定為特定值，您可以檢查該值是否與最後一個設定的值實際不同。 如果不是，則不需要進行呼叫。
+
+    雖然音效卡驅動程式可能會偵測到這種情況，而不會再次執行 (相同的) 計算，但是音訊電話必須透過環形) 轉換來觸達音訊驅動程式 (，而這已經是很慢的操作。
+
+</dd> <dt>
+
+<span id="When_I_stream_a_buffer_it_tends_to_glitch_and_perform_poorly._What_s_the_best_way_to_stream_a_buffer__"></span><span id="when_i_stream_a_buffer_it_tends_to_glitch_and_perform_poorly._what_s_the_best_way_to_stream_a_buffer__"></span><span id="WHEN_I_STREAM_A_BUFFER_IT_TENDS_TO_GLITCH_AND_PERFORM_POORLY._WHAT_S_THE_BEST_WAY_TO_STREAM_A_BUFFER__"></span>**當我串流緩衝區時，通常會發生問題，且效能不佳。串流緩衝區的最佳方式是什麼？** 
+</dt> <dd>
+
+將音訊串流處理到緩衝區時，有兩個基本演算法： AWC 後資料指標 () 和播放前游標 (BPC) 。 AWC 會以瑕疵成本將延遲降至最低，而 BPC 則相反。 因為通常沒有互動式的資料流程變更，所以這類的延遲不是遊戲和類似應用程式的問題，因此，BPC 是更適當的演算法。 在 AWC 中，每次您的串流處理執行緒執行時，您的迴圈緩衝區中的資料最多會在其寫入資料指標以外的 N 毫秒， (通常是 N = 40，以允許 Windows 排程抖動) 。 在 BPC 中，您一律會盡可能將最多的資料寫入緩衝區，並將它們填入其播放游標 (或可能是32個位元組，才能讓驅動程式不正確地報告其播放游標的進度) 。
+
+您可以使用 BPC 來 mimimize 瑕疵，並使用緩衝區100毫秒或更大的緩衝區，即使您的遊戲在測試硬體上不會有問題，還是會有一些電腦上的問題。
+
+</dd> <dt>
+
+<span id="I_am_playing_the_same_sounds_over_and_over_very_often_and_very_quickly_and_sometimes_they_don_t_play_properly__or_the_Play___call_takes_a_long_time._What_should_I_do__"></span><span id="i_am_playing_the_same_sounds_over_and_over_very_often_and_very_quickly_and_sometimes_they_don_t_play_properly__or_the_play___call_takes_a_long_time._what_should_i_do__"></span><span id="I_AM_PLAYING_THE_SAME_SOUNDS_OVER_AND_OVER_VERY_OFTEN_AND_VERY_QUICKLY_AND_SOMETIMES_THEY_DON_T_PLAY_PROPERLY__OR_THE_PLAY___CALL_TAKES_A_LONG_TIME._WHAT_SHOULD_I_DO__"></span>**我播放的音效太過頻繁且非常快速，有時候它們無法正常播放，或是播放 () 通話需要很長的時間。我該怎麼做？** 
+</dt> <dd>
+
+啟動延遲 (與上面所述的串流延遲不同) 可能會在某些硬體 (播放 () 呼叫的情況下，偶爾會花很長的時間來處理特定的音效卡) 。 如果您真的想要減少這項延遲，twitch 音效 (機槍、我們比照了等等。 ) 一個便利的訣竅，就是要讓某些緩衝區永遠迴圈並播放無回應。 當您需要播放 twitch 音效時，請選擇一個可用的緩衝區，看看它的寫入游標位置，然後將音效放入緩衝區中的緩衝區，而不是寫入游標之外。 某些 soundcards 會讓我知道所支援的延遲屬性 QuerySupport 失敗。 是否有因應措施？ 您可以只針對非延遲版本的屬性 QuerySupport，並使用延遲的設定。 最新的音效卡驅動程式也可以修正此問題。
+
+</dd> <dt>
+
+<span id="How_do_I_encode_WAV_files_into_WMA__"></span><span id="how_do_i_encode_wav_files_into_wma__"></span><span id="HOW_DO_I_ENCODE_WAV_FILES_INTO_WMA__"></span>**如何? 將 WAV 檔案編碼為 WMA？** 
+</dt> <dd>
+
+請參閱《 windows media 編碼器9系列： Windows media 編碼器9系列檔」。
+
+</dd> <dt>
+
+<span id="How_do_I_decode_MP3_files_with_DirectSound__"></span><span id="how_do_i_decode_mp3_files_with_directsound__"></span><span id="HOW_DO_I_DECODE_MP3_FILES_WITH_DIRECTSOUND__"></span>**如何? 使用 DirectSound 解碼 MP3 檔案嗎？** 
+</dt> <dd>
+
+DirectSound 原本不支援 MP3 解碼。 您可以事先將檔案解碼 (使用 DirectShow 篩選) 的大量編解碼器，或直接使用 DirectShow 本身，它可以為您執行解碼;然後，您可以將產生的 PCM 音訊資料複製到 DirectSound 緩衝區。
+
+</dd> </dl>
+
+## <a name="directx-extensions-for-alias-maya"></a>適用于別名的 DirectX 擴充功能 Maya
+
+<dl> <dt>
+
+<span id="Why_aren_t_my_NURBS_showing_up__"></span><span id="why_aren_t_my_nurbs_showing_up__"></span><span id="WHY_AREN_T_MY_NURBS_SHOWING_UP__"></span>**為什麼我的 NURBS 未顯示？** 
+</dt> <dd>
+
+不支援 NURBS。 您可以將它們轉換成多邊形網格。
+
+</dd> <dt>
+
+<span id="Why_aren_t_my_SUBDs_showing_up_"></span><span id="why_aren_t_my_subds_showing_up_"></span><span id="WHY_AREN_T_MY_SUBDS_SHOWING_UP_"></span>**為什麼我的 SUBDs 不會顯示？**
+</dt> <dd>
+
+不支援 SUBDs。 您可以將它們轉換成多邊形網格。
+
+</dd> <dt>
+
+<span id="Why_does_my_animation_in_the_X_file_look_different_than_the_animation_in_the_preview_window__"></span><span id="why_does_my_animation_in_the_x_file_look_different_than_the_animation_in_the_preview_window__"></span><span id="WHY_DOES_MY_ANIMATION_IN_THE_X_FILE_LOOK_DIFFERENT_THAN_THE_ANIMATION_IN_THE_PREVIEW_WINDOW__"></span>**為什麼 X 檔案中的動畫看起來與預覽視窗中的動畫不同？** 
+</dt> <dd>
+
+[預覽] 視窗不會以最嚴苛的意義來製作動畫。 它不會播放動畫，而是會同步處理至 Maya 場景的最新狀態。 匯出動畫時，每個轉換的矩陣都會分解成尺規、旋轉 (四元數) 和轉譯元件 (通常稱為 SRTs) 。 SRTs 比矩陣更理想，因為它們會自動插入，提供更精簡的資料格式，而且可以獨立壓縮。 並非所有矩陣都可細分成 SRTs。 如果無法分解，則產生的 SRTs 將會未知，因此可能會偵測到動畫中的小錯誤。 Maya 中最常在分解期間造成問題的兩個功能是 shears 和停用的旋轉或縮放。 如果您遇到此問題，因為您使用的是停置的旋轉或調整規模，請考慮新增額外的轉換，以增加階層的層級。
+
+其中 D3DX 動畫支援 SRTs，如下所示：
+
+``` syntax
+[S]x[R]x[T]
+```
+
+Maya 的矩陣更複雜，需要大量的額外程式，如下所示：
+
+``` syntax
+[SpInv]x[S]x[Sh]x[Sp]x[St]x[RpInv]x[Ro]x[R]x[Rp]x[Rt]x[T]
+```
+
+</dd> <dt>
+
+<span id="I_skinned_my_mesh_with_RigidSkin_but_the_mesh__or_portion__isn_t_moving._Why__"></span><span id="i_skinned_my_mesh_with_rigidskin_but_the_mesh__or_portion__isn_t_moving._why__"></span><span id="I_SKINNED_MY_MESH_WITH_RIGIDSKIN_BUT_THE_MESH__OR_PORTION__ISN_T_MOVING._WHY__"></span>**我使用 RigidSkin skinned 網格，但是網格 (或部分) 不會移動。為什麼？** 
+</dt> <dd>
+
+目前不支援 Maya 的固定外觀。 請使用平滑外觀。
+
+</dd> <dt>
+
+<span id="Where_has_all_of_my_IK_gone_in_the_X-file__"></span><span id="where_has_all_of_my_ik_gone_in_the_x-file__"></span><span id="WHERE_HAS_ALL_OF_MY_IK_GONE_IN_THE_X-FILE__"></span>**所有的 IK 在 X 檔案中的位置為何？** 
+</dt> <dd>
+
+X 檔案不支援 IK。 相反地，會將 IK 解決方案內建到儲存在 X 檔案中的框架。
+
+</dd> <dt>
+
+<span id="Why_do_none_of_my_materials_colors_show_up_except_DirectXShaders__"></span><span id="why_do_none_of_my_materials_colors_show_up_except_directxshaders__"></span><span id="WHY_DO_NONE_OF_MY_MATERIALS_COLORS_SHOW_UP_EXCEPT_DIRECTXSHADERS__"></span>**為什麼沒有顯示 DirectXShaders 以外的材質色彩？** 
+</dt> <dd>
+
+適用于 Maya 的 DirectX 擴充功能目前僅支援用於預覽和匯出的 DirectXShader 材質。 未來版本可能會支援其他材料。
+
+</dd> </dl>
+
+## <a name="xinput-questions"></a>XInput 問題
+
+<dl> <dt>
+
+<span id="Can_I_use_DirectInput_to_read_the_triggers__"></span><span id="can_i_use_directinput_to_read_the_triggers__"></span><span id="CAN_I_USE_DIRECTINPUT_TO_READ_THE_TRIGGERS__"></span>**我可以使用 DirectInput 來讀取觸發程式嗎？** 
+</dt> <dd>
+
+是，但它們會作為相同的軸。 因此，您不能使用 DirectInput 獨立讀取觸發程式。 使用 XInput 時，觸發程式會傳回不同的值。
+
+如需 DirectInput 將觸發程式解釋為一個軸的原因詳細資訊，請參閱搭配 [DirectInput 使用 Xbox 360 控制器](/windows/desktop/xinput/xinput-and-directinput)。
+
+</dd> <dt>
+
+<span id="How_many_controllers_does_XInput_support__"></span><span id="how_many_controllers_does_xinput_support__"></span><span id="HOW_MANY_CONTROLLERS_DOES_XINPUT_SUPPORT__"></span>**XInput 支援多少個控制器？** 
+</dt> <dd>
+
+XInput 支援一次插入4個控制器。
+
+</dd> <dt>
+
+<span id="Does_XInput_support_non-common_controllers__"></span><span id="does_xinput_support_non-common_controllers__"></span><span id="DOES_XINPUT_SUPPORT_NON-COMMON_CONTROLLERS__"></span>**XInput 支援非通用控制器嗎？** 
+</dt> <dd>
+
+否，沒有。
+
+</dd> <dt>
+
+<span id="Are_common_controllers_available_through_DirectInput__"></span><span id="are_common_controllers_available_through_directinput__"></span><span id="ARE_COMMON_CONTROLLERS_AVAILABLE_THROUGH_DIRECTINPUT__"></span>**通用控制器可透過 DirectInput 使用嗎？** 
+</dt> <dd>
+
+是，您可以透過 DirectInput 存取通用控制器。
+
+</dd> <dt>
+
+<span id="How_do_I_get_force_feedback_on_the_common_controllers__"></span><span id="how_do_i_get_force_feedback_on_the_common_controllers__"></span><span id="HOW_DO_I_GET_FORCE_FEEDBACK_ON_THE_COMMON_CONTROLLERS__"></span>**如何? 對通用控制器取得強制回饋？** 
+</dt> <dd>
+
+使用 [**XInputSetState**](/windows/desktop/api/xinput/nf-xinput-xinputsetstate) 函數。
+
+</dd> <dt>
+
+<span id="Why_does_my_default_audio_device_change__"></span><span id="why_does_my_default_audio_device_change__"></span><span id="WHY_DOES_MY_DEFAULT_AUDIO_DEVICE_CHANGE__"></span>**為什麼我的預設音訊裝置會變更？** 
+</dt> <dd>
+
+連接耳機時，控制器的耳機會作為標準 USB 音訊裝置，因此當其連線時，Windows 會自動將此 USB 音訊裝置變更為使用此 USB 音訊裝置作為預設值。 由於使用者可能不希望所有音訊都通過耳機，因此必須手動將它調整回原始設定。
+
+</dd> <dt>
+
+<span id="How_do_I_control_the_lights_on_the_controller__"></span><span id="how_do_i_control_the_lights_on_the_controller__"></span><span id="HOW_DO_I_CONTROL_THE_LIGHTS_ON_THE_CONTROLLER__"></span>**如何? 控制控制器上的燈光？** 
+</dt> <dd>
+
+控制器上的燈光是由作業系統預先決定，而且無法變更。
+
+</dd> <dt>
+
+<span id="How_do_I_access_the_Xbox_360_button_in_my_applications__"></span><span id="how_do_i_access_the_xbox_360_button_in_my_applications__"></span><span id="HOW_DO_I_ACCESS_THE_XBOX_360_BUTTON_IN_MY_APPLICATIONS__"></span>**如何? 存取我的應用程式中的 [Xbox 360] 按鈕？** 
+</dt> <dd>
+
+抱歉，此按鈕已保留供日後使用。
+
+</dd> <dt>
+
+<span id="Where_do_I_get_drivers__"></span><span id="where_do_i_get_drivers__"></span><span id="WHERE_DO_I_GET_DRIVERS__"></span>**哪裡可以取得驅動程式？** 
+</dt> <dd>
+
+驅動程式將可透過 Windows Update 取得。
+
+</dd> <dt>
+
+<span id="How_is_controller_ID_determined__"></span><span id="how_is_controller_id_determined__"></span><span id="HOW_IS_CONTROLLER_ID_DETERMINED__"></span>**如何決定控制器識別碼？** 
+</dt> <dd>
+
+在 XInput 啟動時，XInput 引擎和插入的控制器會以不具決定性的方式來決定識別碼。 如果控制器是在 XInput 應用程式執行時插入，系統會將最小的可用數量指派給新的控制器。 如果控制器已中斷連線，則會再次提供其數目。
+
+</dd> <dt>
+
+<span id="How_do_I_get_the_audio_devices_for_the_controller__"></span><span id="how_do_i_get_the_audio_devices_for_the_controller__"></span><span id="HOW_DO_I_GET_THE_AUDIO_DEVICES_FOR_THE_CONTROLLER__"></span>**如何? 取得控制器的音訊裝置？** 
+</dt> <dd>
+
+使用 [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/xinput/nf-xinput-xinputgetdsoundaudiodeviceguids) 函數。 如需詳細資訊，請參閱 AudioController 範例。
+
+</dd> <dt>
+
+<span id="What_should_I_do_when_a_controller_is_unplugged__"></span><span id="what_should_i_do_when_a_controller_is_unplugged__"></span><span id="WHAT_SHOULD_I_DO_WHEN_A_CONTROLLER_IS_UNPLUGGED__"></span>**拔掉控制器時該怎麼辦？** 
+</dt> <dd>
+
+如果有播放程式正在使用控制器，您應該暫停遊戲，直到控制器重新連線，然後播放程式按下按鈕來表示已準備好進行 unpause。
+
+</dd> </dl>
+
+ 
+
+ 
