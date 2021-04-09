@@ -15,11 +15,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020763"
 ---
-# <a name="readwriterawxmlexample"></a><span data-ttu-id="959b2-106">ReadWriteRawXmlExample</span><span class="sxs-lookup"><span data-stu-id="959b2-106">ReadWriteRawXmlExample</span></span>
+# <a name="readwriterawxmlexample"></a><span data-ttu-id="847ac-106">ReadWriteRawXmlExample</span><span class="sxs-lookup"><span data-stu-id="847ac-106">ReadWriteRawXmlExample</span></span>
 
-<span data-ttu-id="959b2-107">此範例示範如何使用原始編碼來讀取和寫入 xml。</span><span class="sxs-lookup"><span data-stu-id="959b2-107">This example shows reading and writing of xml using the raw encoding.</span></span>
+<span data-ttu-id="847ac-107">此範例示範如何使用原始編碼來讀取和寫入 xml。</span><span class="sxs-lookup"><span data-stu-id="847ac-107">This example shows reading and writing of xml using the raw encoding.</span></span>
 
-## <a name="readwriterawxmlcpp"></a><span data-ttu-id="959b2-108">ReadWriteRawXml .cpp</span><span class="sxs-lookup"><span data-stu-id="959b2-108">ReadWriteRawXml.cpp</span></span>
+## <a name="readwriterawxmlcpp"></a><span data-ttu-id="847ac-108">ReadWriteRawXml .cpp</span><span class="sxs-lookup"><span data-stu-id="847ac-108">ReadWriteRawXml.cpp</span></span>
 
 
 ```C++

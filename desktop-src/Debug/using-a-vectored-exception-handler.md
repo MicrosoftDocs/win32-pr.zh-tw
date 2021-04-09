@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847299"
 ---
-# <a name="using-a-vectored-exception-handler"></a><span data-ttu-id="fac39-104">使用向量例外狀況處理常式</span><span class="sxs-lookup"><span data-stu-id="fac39-104">Using a Vectored Exception Handler</span></span>
+# <a name="using-a-vectored-exception-handler"></a><span data-ttu-id="1ff8c-104">使用向量例外狀況處理常式</span><span class="sxs-lookup"><span data-stu-id="1ff8c-104">Using a Vectored Exception Handler</span></span>
 
-<span data-ttu-id="fac39-105">下列範例程式碼示範如何使用向量式例外狀況處理。</span><span class="sxs-lookup"><span data-stu-id="fac39-105">The following sample code demonstrates how to use vectored exception handling.</span></span> <span data-ttu-id="fac39-106">它會使用 [**AddVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler) 函式來新增數個處理常式、測試處理常式，然後使用 [**RemoveVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler) 函數來移除處理常式。</span><span class="sxs-lookup"><span data-stu-id="fac39-106">It uses the [**AddVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler) function to add several handlers, tests the handlers, then uses the [**RemoveVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler) function to remove the handlers.</span></span>
+<span data-ttu-id="1ff8c-105">下列範例程式碼示範如何使用向量式例外狀況處理。</span><span class="sxs-lookup"><span data-stu-id="1ff8c-105">The following sample code demonstrates how to use vectored exception handling.</span></span> <span data-ttu-id="1ff8c-106">它會使用 [**AddVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler) 函式來新增數個處理常式、測試處理常式，然後使用 [**RemoveVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler) 函數來移除處理常式。</span><span class="sxs-lookup"><span data-stu-id="1ff8c-106">It uses the [**AddVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler) function to add several handlers, tests the handlers, then uses the [**RemoveVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler) function to remove the handlers.</span></span>
 
-<span data-ttu-id="fac39-107">**64 位 Windows：** 這段程式碼不適合64位的 Windows。</span><span class="sxs-lookup"><span data-stu-id="fac39-107">**64-bit Windows:** This code is not suitable for 64-bit Windows.</span></span>
+<span data-ttu-id="1ff8c-107">**64 位 Windows：** 這段程式碼不適合64位的 Windows。</span><span class="sxs-lookup"><span data-stu-id="1ff8c-107">**64-bit Windows:** This code is not suitable for 64-bit Windows.</span></span>
 
 
 ```C++

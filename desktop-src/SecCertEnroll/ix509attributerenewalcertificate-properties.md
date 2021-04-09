@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694135"
 ---
-# <a name="ix509attributerenewalcertificate-properties"></a><span data-ttu-id="d40f2-103">IX509AttributeRenewalCertificate 屬性</span><span class="sxs-lookup"><span data-stu-id="d40f2-103">IX509AttributeRenewalCertificate Properties</span></span>
+# <a name="ix509attributerenewalcertificate-properties"></a><span data-ttu-id="82c15-103">IX509AttributeRenewalCertificate 屬性</span><span class="sxs-lookup"><span data-stu-id="82c15-103">IX509AttributeRenewalCertificate Properties</span></span>
 
-<span data-ttu-id="d40f2-104">[**IX509AttributeRenewalCertificate**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributerenewalcertificate)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="d40f2-104">The [**IX509AttributeRenewalCertificate**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributerenewalcertificate) interface exposes the following properties.</span></span>
+<span data-ttu-id="82c15-104">[**IX509AttributeRenewalCertificate**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributerenewalcertificate)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="82c15-104">The [**IX509AttributeRenewalCertificate**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributerenewalcertificate) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="d40f2-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d40f2-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="82c15-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="82c15-105">In this section</span></span>
 
--   [<span data-ttu-id="d40f2-106">**RenewalCertificate 屬性**</span><span class="sxs-lookup"><span data-stu-id="d40f2-106">**RenewalCertificate Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributerenewalcertificate-get_renewalcertificate)
+-   [<span data-ttu-id="82c15-106">**RenewalCertificate 屬性**</span><span class="sxs-lookup"><span data-stu-id="82c15-106">**RenewalCertificate Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributerenewalcertificate-get_renewalcertificate)
 
  
 

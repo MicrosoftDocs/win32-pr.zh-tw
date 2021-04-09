@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694064"
 ---
-# <a name="systemdevicesrestrictedinterface"></a><span data-ttu-id="93cf4-103">RestrictedInterface</span><span class="sxs-lookup"><span data-stu-id="93cf4-103">System.Devices.RestrictedInterface</span></span>
+# <a name="systemdevicesrestrictedinterface"></a><span data-ttu-id="c5234-103">RestrictedInterface</span><span class="sxs-lookup"><span data-stu-id="c5234-103">System.Devices.RestrictedInterface</span></span>
 
-<span data-ttu-id="93cf4-104">指出介面是否受限制。</span><span class="sxs-lookup"><span data-stu-id="93cf4-104">Indicates if the interface is restricted.</span></span>
+<span data-ttu-id="c5234-104">指出介面是否受限制。</span><span class="sxs-lookup"><span data-stu-id="c5234-104">Indicates if the interface is restricted.</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a><span data-ttu-id="93cf4-105">Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8</span><span class="sxs-lookup"><span data-stu-id="93cf4-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a><span data-ttu-id="c5234-105">Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8</span><span class="sxs-lookup"><span data-stu-id="c5234-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8</span></span>
 
 ```
 propertyDescription
@@ -31,54 +31,54 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a><span data-ttu-id="93cf4-106">備註</span><span class="sxs-lookup"><span data-stu-id="93cf4-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c5234-106">備註</span><span class="sxs-lookup"><span data-stu-id="c5234-106">Remarks</span></span>
 
-<span data-ttu-id="93cf4-107">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="93cf4-107">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="c5234-107">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="c5234-107">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="93cf4-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="93cf4-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c5234-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="c5234-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="93cf4-109">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="93cf4-109">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="c5234-109">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="c5234-109">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-110">searchInfo</span><span class="sxs-lookup"><span data-stu-id="93cf4-110">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="c5234-110">searchInfo</span><span class="sxs-lookup"><span data-stu-id="c5234-110">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-111">labelInfo</span><span class="sxs-lookup"><span data-stu-id="93cf4-111">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="c5234-111">labelInfo</span><span class="sxs-lookup"><span data-stu-id="c5234-111">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-112">typeInfo</span><span class="sxs-lookup"><span data-stu-id="93cf4-112">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="c5234-112">typeInfo</span><span class="sxs-lookup"><span data-stu-id="c5234-112">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-113">displayInfo</span><span class="sxs-lookup"><span data-stu-id="93cf4-113">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="c5234-113">displayInfo</span><span class="sxs-lookup"><span data-stu-id="c5234-113">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-114">stringFormat</span><span class="sxs-lookup"><span data-stu-id="93cf4-114">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="c5234-114">stringFormat</span><span class="sxs-lookup"><span data-stu-id="c5234-114">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-115">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="93cf4-115">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="c5234-115">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="c5234-115">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-116">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="93cf4-116">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="c5234-116">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="c5234-116">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-117">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="93cf4-117">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="c5234-117">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="c5234-117">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-118">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="93cf4-118">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="c5234-118">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="c5234-118">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-119">drawControl</span><span class="sxs-lookup"><span data-stu-id="93cf4-119">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="c5234-119">drawControl</span><span class="sxs-lookup"><span data-stu-id="c5234-119">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-120">editControl</span><span class="sxs-lookup"><span data-stu-id="93cf4-120">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="c5234-120">editControl</span><span class="sxs-lookup"><span data-stu-id="c5234-120">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-121">filterControl</span><span class="sxs-lookup"><span data-stu-id="93cf4-121">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="c5234-121">filterControl</span><span class="sxs-lookup"><span data-stu-id="c5234-121">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="93cf4-122">queryControl</span><span class="sxs-lookup"><span data-stu-id="93cf4-122">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="c5234-122">queryControl</span><span class="sxs-lookup"><span data-stu-id="c5234-122">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  

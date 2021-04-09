@@ -15,11 +15,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020782"
 ---
-# <a name="user-must-change-password-at-next-logon-ldap-provider"></a><span data-ttu-id="9ff80-107">使用者必須在下次登入時變更密碼 (LDAP 提供者) </span><span class="sxs-lookup"><span data-stu-id="9ff80-107">User Must Change Password at Next Logon (LDAP Provider)</span></span>
+# <a name="user-must-change-password-at-next-logon-ldap-provider"></a><span data-ttu-id="5741a-107">使用者必須在下次登入時變更密碼 (LDAP 提供者) </span><span class="sxs-lookup"><span data-stu-id="5741a-107">User Must Change Password at Next Logon (LDAP Provider)</span></span>
 
-<span data-ttu-id="9ff80-108">若要強制使用者在下次登入時變更其密碼，請將 **pwdLastSet** 屬性設定為零 (0) 。</span><span class="sxs-lookup"><span data-stu-id="9ff80-108">To force a user to change their password at next logon, set the **pwdLastSet** attribute to zero (0).</span></span> <span data-ttu-id="9ff80-109">若要移除這項需求，請將 **pwdLastSet** 屬性設定為-1。</span><span class="sxs-lookup"><span data-stu-id="9ff80-109">To remove this requirement, set the **pwdLastSet** attribute to -1.</span></span> <span data-ttu-id="9ff80-110">**PwdLastSet** 屬性不能設定為任何其他值（除了系統以外）。</span><span class="sxs-lookup"><span data-stu-id="9ff80-110">The **pwdLastSet** attribute cannot be set to any other value except by the system.</span></span>
+<span data-ttu-id="5741a-108">若要強制使用者在下次登入時變更其密碼，請將 **pwdLastSet** 屬性設定為零 (0) 。</span><span class="sxs-lookup"><span data-stu-id="5741a-108">To force a user to change their password at next logon, set the **pwdLastSet** attribute to zero (0).</span></span> <span data-ttu-id="5741a-109">若要移除這項需求，請將 **pwdLastSet** 屬性設定為-1。</span><span class="sxs-lookup"><span data-stu-id="5741a-109">To remove this requirement, set the **pwdLastSet** attribute to -1.</span></span> <span data-ttu-id="5741a-110">**PwdLastSet** 屬性不能設定為任何其他值（除了系統以外）。</span><span class="sxs-lookup"><span data-stu-id="5741a-110">The **pwdLastSet** attribute cannot be set to any other value except by the system.</span></span>
 
-<span data-ttu-id="9ff80-111">下列程式碼範例顯示如何設定「使用者必須在下次登入時變更密碼」選項。</span><span class="sxs-lookup"><span data-stu-id="9ff80-111">The following code example shows how to set the "User must change password at next logon" option.</span></span>
+<span data-ttu-id="5741a-111">下列程式碼範例顯示如何設定「使用者必須在下次登入時變更密碼」選項。</span><span class="sxs-lookup"><span data-stu-id="5741a-111">The following code example shows how to set the "User must change password at next logon" option.</span></span>
 
 
 ```VB
@@ -32,7 +32,7 @@ usr.SetInfo
 
 
 
-<span data-ttu-id="9ff80-112">下列程式碼範例顯示如何設定「使用者必須在下次登入時變更密碼」選項。</span><span class="sxs-lookup"><span data-stu-id="9ff80-112">The following code example shows how to set the "User must change password at next logon" option.</span></span>
+<span data-ttu-id="5741a-112">下列程式碼範例顯示如何設定「使用者必須在下次登入時變更密碼」選項。</span><span class="sxs-lookup"><span data-stu-id="5741a-112">The following code example shows how to set the "User must change password at next logon" option.</span></span>
 
 
 ```C++
