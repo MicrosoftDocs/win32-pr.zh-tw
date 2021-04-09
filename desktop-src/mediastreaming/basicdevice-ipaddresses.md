@@ -22,13 +22,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103681882"
 ---
-# <a name="basicdeviceipaddresses-property"></a><span data-ttu-id="497eb-106">BasicDevice. IpAddresses 屬性</span><span class="sxs-lookup"><span data-stu-id="497eb-106">BasicDevice.IpAddresses property</span></span>
+# <a name="basicdeviceipaddresses-property"></a><span data-ttu-id="083be-106">BasicDevice. IpAddresses 屬性</span><span class="sxs-lookup"><span data-stu-id="083be-106">BasicDevice.IpAddresses property</span></span>
 
-<span data-ttu-id="497eb-107">取得 IP 位址的向量。</span><span class="sxs-lookup"><span data-stu-id="497eb-107">Gets a vector of IP addresses.</span></span>
+<span data-ttu-id="083be-107">取得 IP 位址的向量。</span><span class="sxs-lookup"><span data-stu-id="083be-107">Gets a vector of IP addresses.</span></span>
 
-<span data-ttu-id="497eb-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="497eb-108">This property is read-only.</span></span>
+<span data-ttu-id="083be-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="083be-108">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="497eb-109">語法</span><span class="sxs-lookup"><span data-stu-id="497eb-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="083be-109">語法</span><span class="sxs-lookup"><span data-stu-id="083be-109">Syntax</span></span>
 
 
 ```C++
@@ -39,15 +39,15 @@ HRESULT get_IpAddresses(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="497eb-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="497eb-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="083be-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="083be-110">Property value</span></span>
 
-<span data-ttu-id="497eb-111">IP 位址指標的可列舉集合。</span><span class="sxs-lookup"><span data-stu-id="497eb-111">An enumerable collection of pointers to IP addresses.</span></span>
+<span data-ttu-id="083be-111">IP 位址指標的可列舉集合。</span><span class="sxs-lookup"><span data-stu-id="083be-111">An enumerable collection of pointers to IP addresses.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="497eb-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="497eb-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="083be-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="083be-112">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="497eb-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="497eb-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span></span>
+<span data-ttu-id="083be-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="083be-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span></span>
 </dt> </dl>
 
  

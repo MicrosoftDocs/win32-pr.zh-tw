@@ -11,20 +11,20 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682596"
 ---
-# <a name="vml-image-element"></a><span data-ttu-id="8958b-103">VML 影像元素</span><span class="sxs-lookup"><span data-stu-id="8958b-103">VML Image Element</span></span>
+# <a name="vml-image-element"></a><span data-ttu-id="746d1-103">VML 影像元素</span><span class="sxs-lookup"><span data-stu-id="746d1-103">VML Image Element</span></span>
 
-<span data-ttu-id="8958b-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="8958b-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="8958b-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="8958b-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+<span data-ttu-id="746d1-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="746d1-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="746d1-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="746d1-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="8958b-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="8958b-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="8958b-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="8958b-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="8958b-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="8958b-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="8958b-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="8958b-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+> <span data-ttu-id="746d1-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="746d1-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="746d1-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="746d1-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="746d1-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="746d1-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="746d1-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="746d1-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
 
  
 
-<span data-ttu-id="8958b-110">預先定義的影像圖形。</span><span class="sxs-lookup"><span data-stu-id="8958b-110">Predefined image shape.</span></span>
+<span data-ttu-id="746d1-110">預先定義的影像圖形。</span><span class="sxs-lookup"><span data-stu-id="746d1-110">Predefined image shape.</span></span>
 
-<span data-ttu-id="8958b-111">**備註**</span><span class="sxs-lookup"><span data-stu-id="8958b-111">**Remarks**</span></span>
+<span data-ttu-id="746d1-111">**備註**</span><span class="sxs-lookup"><span data-stu-id="746d1-111">**Remarks**</span></span>
 
-<span data-ttu-id="8958b-112">以下是產生影像所需的最少程式碼。</span><span class="sxs-lookup"><span data-stu-id="8958b-112">The following is the minimum code needed to produce an image.</span></span>
+<span data-ttu-id="746d1-112">以下是產生影像所需的最少程式碼。</span><span class="sxs-lookup"><span data-stu-id="746d1-112">The following is the minimum code needed to produce an image.</span></span>
 
 
 ```HTML

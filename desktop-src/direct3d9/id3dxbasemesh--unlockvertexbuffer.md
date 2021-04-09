@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/15/2021
 ms.locfileid: "103854007"
 ---
-# <a name="id3dxbasemeshunlockvertexbuffer-method"></a><span data-ttu-id="67ce6-103">ID3DXBaseMesh：： UnlockVertexBuffer 方法</span><span class="sxs-lookup"><span data-stu-id="67ce6-103">ID3DXBaseMesh::UnlockVertexBuffer method</span></span>
+# <a name="id3dxbasemeshunlockvertexbuffer-method"></a><span data-ttu-id="b6fbf-103">ID3DXBaseMesh：： UnlockVertexBuffer 方法</span><span class="sxs-lookup"><span data-stu-id="b6fbf-103">ID3DXBaseMesh::UnlockVertexBuffer method</span></span>
 
-<span data-ttu-id="67ce6-104">解除鎖定頂點緩衝區。</span><span class="sxs-lookup"><span data-stu-id="67ce6-104">Unlocks a vertex buffer.</span></span>
+<span data-ttu-id="b6fbf-104">解除鎖定頂點緩衝區。</span><span class="sxs-lookup"><span data-stu-id="b6fbf-104">Unlocks a vertex buffer.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="67ce6-105">語法</span><span class="sxs-lookup"><span data-stu-id="67ce6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b6fbf-105">語法</span><span class="sxs-lookup"><span data-stu-id="b6fbf-105">Syntax</span></span>
 
 
 ```C++
@@ -34,32 +34,32 @@ HRESULT UnlockVertexBuffer();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="67ce6-106">參數</span><span class="sxs-lookup"><span data-stu-id="67ce6-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b6fbf-106">參數</span><span class="sxs-lookup"><span data-stu-id="b6fbf-106">Parameters</span></span>
 
-<span data-ttu-id="67ce6-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="67ce6-107">This method has no parameters.</span></span>
+<span data-ttu-id="b6fbf-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="b6fbf-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="67ce6-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="67ce6-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b6fbf-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="b6fbf-108">Return value</span></span>
 
-<span data-ttu-id="67ce6-109">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="67ce6-109">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
+<span data-ttu-id="b6fbf-109">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="b6fbf-109">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
 
-<span data-ttu-id="67ce6-110">如果方法成功，則傳回值為「D3D \_ 正常」。</span><span class="sxs-lookup"><span data-stu-id="67ce6-110">If the method succeeds, the return value is D3D\_OK.</span></span> <span data-ttu-id="67ce6-111">如果方法失敗，則傳回值可以是 D3DERR \_ INVALIDCALL。</span><span class="sxs-lookup"><span data-stu-id="67ce6-111">If the method fails, the return value can be D3DERR\_INVALIDCALL.</span></span>
+<span data-ttu-id="b6fbf-110">如果方法成功，則傳回值為「D3D \_ 正常」。</span><span class="sxs-lookup"><span data-stu-id="b6fbf-110">If the method succeeds, the return value is D3D\_OK.</span></span> <span data-ttu-id="b6fbf-111">如果方法失敗，則傳回值可以是 D3DERR \_ INVALIDCALL。</span><span class="sxs-lookup"><span data-stu-id="b6fbf-111">If the method fails, the return value can be D3DERR\_INVALIDCALL.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="67ce6-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="67ce6-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b6fbf-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="b6fbf-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="67ce6-113">需求</span><span class="sxs-lookup"><span data-stu-id="67ce6-113">Requirement</span></span> | <span data-ttu-id="67ce6-114">值</span><span class="sxs-lookup"><span data-stu-id="67ce6-114">Value</span></span> |
+| <span data-ttu-id="b6fbf-113">需求</span><span class="sxs-lookup"><span data-stu-id="b6fbf-113">Requirement</span></span> | <span data-ttu-id="b6fbf-114">值</span><span class="sxs-lookup"><span data-stu-id="b6fbf-114">Value</span></span> |
 |--------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="67ce6-115">標頭</span><span class="sxs-lookup"><span data-stu-id="67ce6-115">Header</span></span><br/>  | <dl> <span data-ttu-id="67ce6-116"><dt>D3DX9Mesh。h</dt></span><span class="sxs-lookup"><span data-stu-id="67ce6-116"><dt>D3DX9Mesh.h</dt></span></span> </dl> |
-| <span data-ttu-id="67ce6-117">程式庫</span><span class="sxs-lookup"><span data-stu-id="67ce6-117">Library</span></span><br/> | <dl> <span data-ttu-id="67ce6-118"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="67ce6-118"><dt>D3dx9.lib</dt></span></span> </dl>   |
+| <span data-ttu-id="b6fbf-115">標頭</span><span class="sxs-lookup"><span data-stu-id="b6fbf-115">Header</span></span><br/>  | <dl> <span data-ttu-id="b6fbf-116"><dt>D3DX9Mesh。h</dt></span><span class="sxs-lookup"><span data-stu-id="b6fbf-116"><dt>D3DX9Mesh.h</dt></span></span> </dl> |
+| <span data-ttu-id="b6fbf-117">程式庫</span><span class="sxs-lookup"><span data-stu-id="b6fbf-117">Library</span></span><br/> | <dl> <span data-ttu-id="b6fbf-118"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="b6fbf-118"><dt>D3dx9.lib</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="67ce6-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="67ce6-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b6fbf-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b6fbf-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="67ce6-120">ID3DXBaseMesh</span><span class="sxs-lookup"><span data-stu-id="67ce6-120">ID3DXBaseMesh</span></span>](id3dxbasemesh.md)
+[<span data-ttu-id="b6fbf-120">ID3DXBaseMesh</span><span class="sxs-lookup"><span data-stu-id="b6fbf-120">ID3DXBaseMesh</span></span>](id3dxbasemesh.md)
 </dt> </dl>
 
  

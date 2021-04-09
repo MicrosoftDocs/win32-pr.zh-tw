@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852980"
 ---
-# <a name="systemphotoisospeed"></a><span data-ttu-id="02662-103">ISOSpeed</span><span class="sxs-lookup"><span data-stu-id="02662-103">System.Photo.ISOSpeed</span></span>
+# <a name="systemphotoisospeed"></a><span data-ttu-id="eb35b-103">ISOSpeed</span><span class="sxs-lookup"><span data-stu-id="eb35b-103">System.Photo.ISOSpeed</span></span>
 
-<span data-ttu-id="02662-104">國際標準組織 (在拍攝相片時，相機錄製的 ISO) 速度。</span><span class="sxs-lookup"><span data-stu-id="02662-104">The International Standards Organization (ISO) speed as recorded by the camera when the photo was taken.</span></span>
+<span data-ttu-id="eb35b-104">國際標準組織 (在拍攝相片時，相機錄製的 ISO) 速度。</span><span class="sxs-lookup"><span data-stu-id="eb35b-104">The International Standards Organization (ISO) speed as recorded by the camera when the photo was taken.</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a><span data-ttu-id="02662-105">Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7 版</span><span class="sxs-lookup"><span data-stu-id="02662-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a><span data-ttu-id="eb35b-105">Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7 版</span><span class="sxs-lookup"><span data-stu-id="eb35b-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7</span></span>
 
 ```
 propertyDescription
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt16
 ```
 
-## <a name="windows-vista"></a><span data-ttu-id="02662-106">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="02662-106">Windows Vista</span></span>
+## <a name="windows-vista"></a><span data-ttu-id="eb35b-106">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="eb35b-106">Windows Vista</span></span>
 
 ```
 propertyDescription
@@ -44,57 +44,57 @@ propertyDescription
       type = UInt16
 ```
 
-## <a name="remarks"></a><span data-ttu-id="02662-107">備註</span><span class="sxs-lookup"><span data-stu-id="02662-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="eb35b-107">備註</span><span class="sxs-lookup"><span data-stu-id="eb35b-107">Remarks</span></span>
 
-<span data-ttu-id="02662-108">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="02662-108">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="eb35b-108">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="eb35b-108">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="02662-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="02662-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="eb35b-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="eb35b-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="02662-110">數位相機的交換影像檔案格式： Exif 2.2 版</span><span class="sxs-lookup"><span data-stu-id="02662-110">Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2</span></span>](https://www.exif.org/Exif2-2.PDF)
+[<span data-ttu-id="eb35b-110">數位相機的交換影像檔案格式： Exif 2.2 版</span><span class="sxs-lookup"><span data-stu-id="eb35b-110">Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2</span></span>](https://www.exif.org/Exif2-2.PDF)
 </dt> <dt>
 
-[<span data-ttu-id="02662-111">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="02662-111">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="eb35b-111">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="eb35b-111">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-112">searchInfo</span><span class="sxs-lookup"><span data-stu-id="02662-112">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="eb35b-112">searchInfo</span><span class="sxs-lookup"><span data-stu-id="eb35b-112">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-113">labelInfo</span><span class="sxs-lookup"><span data-stu-id="02662-113">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="eb35b-113">labelInfo</span><span class="sxs-lookup"><span data-stu-id="eb35b-113">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-114">typeInfo</span><span class="sxs-lookup"><span data-stu-id="02662-114">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="eb35b-114">typeInfo</span><span class="sxs-lookup"><span data-stu-id="eb35b-114">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-115">displayInfo</span><span class="sxs-lookup"><span data-stu-id="02662-115">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="eb35b-115">displayInfo</span><span class="sxs-lookup"><span data-stu-id="eb35b-115">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-116">stringFormat</span><span class="sxs-lookup"><span data-stu-id="02662-116">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="eb35b-116">stringFormat</span><span class="sxs-lookup"><span data-stu-id="eb35b-116">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-117">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="02662-117">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="eb35b-117">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="eb35b-117">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-118">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="02662-118">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="eb35b-118">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="eb35b-118">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-119">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="02662-119">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="eb35b-119">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="eb35b-119">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-120">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="02662-120">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="eb35b-120">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="eb35b-120">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-121">drawControl</span><span class="sxs-lookup"><span data-stu-id="02662-121">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="eb35b-121">drawControl</span><span class="sxs-lookup"><span data-stu-id="eb35b-121">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-122">editControl</span><span class="sxs-lookup"><span data-stu-id="02662-122">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="eb35b-122">editControl</span><span class="sxs-lookup"><span data-stu-id="eb35b-122">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-123">filterControl</span><span class="sxs-lookup"><span data-stu-id="02662-123">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="eb35b-123">filterControl</span><span class="sxs-lookup"><span data-stu-id="eb35b-123">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="02662-124">queryControl</span><span class="sxs-lookup"><span data-stu-id="02662-124">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="eb35b-124">queryControl</span><span class="sxs-lookup"><span data-stu-id="eb35b-124">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  

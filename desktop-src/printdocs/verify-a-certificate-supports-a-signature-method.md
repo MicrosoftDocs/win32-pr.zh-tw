@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851896"
 ---
-# <a name="verify-that-a-certificate-supports-a-signature-method"></a><span data-ttu-id="9b7bd-103">確認憑證支援簽章方法</span><span class="sxs-lookup"><span data-stu-id="9b7bd-103">Verify That a Certificate Supports a Signature Method</span></span>
+# <a name="verify-that-a-certificate-supports-a-signature-method"></a><span data-ttu-id="c7e8d-103">確認憑證支援簽章方法</span><span class="sxs-lookup"><span data-stu-id="c7e8d-103">Verify That a Certificate Supports a Signature Method</span></span>
 
-<span data-ttu-id="9b7bd-104">本主題說明如何確認憑證支援特定的簽章方法。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-104">This topic describes how to verify that a certificate supports a specific signature method.</span></span>
+<span data-ttu-id="c7e8d-104">本主題說明如何確認憑證支援特定的簽章方法。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-104">This topic describes how to verify that a certificate supports a specific signature method.</span></span>
 
-<span data-ttu-id="9b7bd-105">Microsoft 加密 API 中的 **CryptXmlEnumAlgorithmInfo** 會列舉憑證的屬性，並在此程式碼範例中用來列舉憑證支援的簽章方法。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-105">The **CryptXmlEnumAlgorithmInfo** in the Microsoft Crypto API enumerates the properties of a certificate and is used in this code example to enumerate the signature methods that the certificate supports.</span></span> <span data-ttu-id="9b7bd-106">若要使用 **CryptXmlEnumAlgorithmInfo** 來列舉憑證支援的簽章方法，呼叫端必須在 **CryptXmlEnumAlgorithmInfo** 的呼叫中提供回呼方法和資料結構，讓它能夠將資料傳遞給回呼方法。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-106">To use **CryptXmlEnumAlgorithmInfo** to enumerate the signature methods that the certificate supports, the caller must provide a callback method and a data structure in the call to **CryptXmlEnumAlgorithmInfo**, allowing it to pass data to the callback method.</span></span>
+<span data-ttu-id="c7e8d-105">Microsoft 加密 API 中的 **CryptXmlEnumAlgorithmInfo** 會列舉憑證的屬性，並在此程式碼範例中用來列舉憑證支援的簽章方法。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-105">The **CryptXmlEnumAlgorithmInfo** in the Microsoft Crypto API enumerates the properties of a certificate and is used in this code example to enumerate the signature methods that the certificate supports.</span></span> <span data-ttu-id="c7e8d-106">若要使用 **CryptXmlEnumAlgorithmInfo** 來列舉憑證支援的簽章方法，呼叫端必須在 **CryptXmlEnumAlgorithmInfo** 的呼叫中提供回呼方法和資料結構，讓它能夠將資料傳遞給回呼方法。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-106">To use **CryptXmlEnumAlgorithmInfo** to enumerate the signature methods that the certificate supports, the caller must provide a callback method and a data structure in the call to **CryptXmlEnumAlgorithmInfo**, allowing it to pass data to the callback method.</span></span>
 
-<span data-ttu-id="9b7bd-107">下一個程式碼範例中使用的資料結構具有下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="9b7bd-107">The data structure used in the next code example has the following fields:</span></span>
+<span data-ttu-id="c7e8d-107">下一個程式碼範例中使用的資料結構具有下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="c7e8d-107">The data structure used in the next code example has the following fields:</span></span>
 
-| <span data-ttu-id="9b7bd-108">欄位</span><span class="sxs-lookup"><span data-stu-id="9b7bd-108">Field</span></span>                               | <span data-ttu-id="9b7bd-109">描述</span><span class="sxs-lookup"><span data-stu-id="9b7bd-109">Description</span></span>                                                                                                                               |
+| <span data-ttu-id="c7e8d-108">欄位</span><span class="sxs-lookup"><span data-stu-id="c7e8d-108">Field</span></span>                               | <span data-ttu-id="c7e8d-109">描述</span><span class="sxs-lookup"><span data-stu-id="c7e8d-109">Description</span></span>                                                                                                                               |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="9b7bd-110">**userSignatureAlgorithmToCheck**</span><span class="sxs-lookup"><span data-stu-id="9b7bd-110">**userSignatureAlgorithmToCheck**</span></span>   | <span data-ttu-id="9b7bd-111">**LPWSTR** 欄位，指向包含要檢查之簽章演算法 URI 的字串。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-111">An **LPWSTR** field that points to the string that contains the URI of the signature algorithm to be checked.</span></span>                             |
-| <span data-ttu-id="9b7bd-112">**certificateAlgorithmInfo**</span><span class="sxs-lookup"><span data-stu-id="9b7bd-112">**certificateAlgorithmInfo**</span></span>        | <span data-ttu-id="9b7bd-113">**CRYPT \_ OID \_ 資訊** 結構的指標，其中包含憑證所支援之簽章演算法的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-113">A pointer to a **CRYPT\_OID\_INFO** structure that contains information about a signature algorithm that is supported by the certificate.</span></span> |
-| <span data-ttu-id="9b7bd-114">**userSignatureAlgorithmSupported**</span><span class="sxs-lookup"><span data-stu-id="9b7bd-114">**userSignatureAlgorithmSupported**</span></span> | <span data-ttu-id="9b7bd-115">**布林** 值，指出憑證是否支援簽章演算法。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-115">A **Boolean** value that indicates whether the signature algorithm is supported by the certificate.</span></span>                                       |
+| <span data-ttu-id="c7e8d-110">**userSignatureAlgorithmToCheck**</span><span class="sxs-lookup"><span data-stu-id="c7e8d-110">**userSignatureAlgorithmToCheck**</span></span>   | <span data-ttu-id="c7e8d-111">**LPWSTR** 欄位，指向包含要檢查之簽章演算法 URI 的字串。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-111">An **LPWSTR** field that points to the string that contains the URI of the signature algorithm to be checked.</span></span>                             |
+| <span data-ttu-id="c7e8d-112">**certificateAlgorithmInfo**</span><span class="sxs-lookup"><span data-stu-id="c7e8d-112">**certificateAlgorithmInfo**</span></span>        | <span data-ttu-id="c7e8d-113">**CRYPT \_ OID \_ 資訊** 結構的指標，其中包含憑證所支援之簽章演算法的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-113">A pointer to a **CRYPT\_OID\_INFO** structure that contains information about a signature algorithm that is supported by the certificate.</span></span> |
+| <span data-ttu-id="c7e8d-114">**userSignatureAlgorithmSupported**</span><span class="sxs-lookup"><span data-stu-id="c7e8d-114">**userSignatureAlgorithmSupported**</span></span> | <span data-ttu-id="c7e8d-115">**布林** 值，指出憑證是否支援簽章演算法。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-115">A **Boolean** value that indicates whether the signature algorithm is supported by the certificate.</span></span>                                       |
 
 
 
@@ -41,9 +41,9 @@ struct SignatureMethodData
 
 
 
-<span data-ttu-id="9b7bd-116">檢查憑證的密碼編譯 API 方法會使用回呼方法，將資料傳回給呼叫端。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-116">The Crypto API method that checks the certificate uses a callback method to return data to the caller.</span></span> <span data-ttu-id="9b7bd-117">**CryptXmlEnumAlgorithmInfo** 會列舉憑證支援的簽章方法，並呼叫每個簽章方法的回呼方法，直到回呼方法傳回 **FALSE** 或在憑證中的所有簽章方法都已列舉為止。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-117">**CryptXmlEnumAlgorithmInfo** enumerates the signature methods that the certificate supports, and calls the callback method for each signature method until the callback method returns **FALSE** or until all signature methods in the certificate have been enumerated.</span></span>
+<span data-ttu-id="c7e8d-116">檢查憑證的密碼編譯 API 方法會使用回呼方法，將資料傳回給呼叫端。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-116">The Crypto API method that checks the certificate uses a callback method to return data to the caller.</span></span> <span data-ttu-id="c7e8d-117">**CryptXmlEnumAlgorithmInfo** 會列舉憑證支援的簽章方法，並呼叫每個簽章方法的回呼方法，直到回呼方法傳回 **FALSE** 或在憑證中的所有簽章方法都已列舉為止。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-117">**CryptXmlEnumAlgorithmInfo** enumerates the signature methods that the certificate supports, and calls the callback method for each signature method until the callback method returns **FALSE** or until all signature methods in the certificate have been enumerated.</span></span>
 
-<span data-ttu-id="9b7bd-118">下一個程式碼範例中的回呼方法會搜尋 **CryptXmlEnumAlgorithmInfo** 傳入的簽章方法，以符合呼叫方法所提供的簽章方法。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-118">The callback method in the next code example searches for a signature method passed in by **CryptXmlEnumAlgorithmInfo** that matches the signature method provided by the calling method.</span></span> <span data-ttu-id="9b7bd-119">找到相符的時，回呼方法會檢查系統是否也支援簽章方法。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-119">When a match is found, the callback method checks whether the signature method is also supported by the system.</span></span> <span data-ttu-id="9b7bd-120">如果簽章方法符合且受系統支援，則簽章方法會標示為系統支援，而且回呼方法會傳回 **FALSE**。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-120">If the signature methods match and are supported by the system, the signature method is marked as system-supported and the callback method returns **FALSE**.</span></span>
+<span data-ttu-id="c7e8d-118">下一個程式碼範例中的回呼方法會搜尋 **CryptXmlEnumAlgorithmInfo** 傳入的簽章方法，以符合呼叫方法所提供的簽章方法。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-118">The callback method in the next code example searches for a signature method passed in by **CryptXmlEnumAlgorithmInfo** that matches the signature method provided by the calling method.</span></span> <span data-ttu-id="c7e8d-119">找到相符的時，回呼方法會檢查系統是否也支援簽章方法。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-119">When a match is found, the callback method checks whether the signature method is also supported by the system.</span></span> <span data-ttu-id="c7e8d-120">如果簽章方法符合且受系統支援，則簽章方法會標示為系統支援，而且回呼方法會傳回 **FALSE**。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-120">If the signature methods match and are supported by the system, the signature method is marked as system-supported and the callback method returns **FALSE**.</span></span>
 
 
 ```C++
@@ -108,7 +108,7 @@ EnumSignatureMethodCallback (
 
 
 
-<span data-ttu-id="9b7bd-121">下列程式碼範例會將驗證功能包裝成單一方法。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-121">The following code example wraps the validation functionality into a single method.</span></span> <span data-ttu-id="9b7bd-122">這個方法會傳回 **布林** 值，指出憑證是否支援簽章方法，以及系統是否支援簽章方法。</span><span class="sxs-lookup"><span data-stu-id="9b7bd-122">This method returns a **Boolean** value that indicates whether the certificate supports the signature method and whether the signature method is supported by the system.</span></span>
+<span data-ttu-id="c7e8d-121">下列程式碼範例會將驗證功能包裝成單一方法。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-121">The following code example wraps the validation functionality into a single method.</span></span> <span data-ttu-id="c7e8d-122">這個方法會傳回 **布林** 值，指出憑證是否支援簽章方法，以及系統是否支援簽章方法。</span><span class="sxs-lookup"><span data-stu-id="c7e8d-122">This method returns a **Boolean** value that indicates whether the certificate supports the signature method and whether the signature method is supported by the system.</span></span>
 
 
 ```C++
@@ -162,50 +162,50 @@ SupportsSignatureAlgorithm (
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="9b7bd-123">相關主題</span><span class="sxs-lookup"><span data-stu-id="9b7bd-123">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c7e8d-123">相關主題</span><span class="sxs-lookup"><span data-stu-id="c7e8d-123">Related topics</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="9b7bd-124">**後續步驟**</span><span class="sxs-lookup"><span data-stu-id="9b7bd-124">**Next Steps**</span></span>
+<span data-ttu-id="c7e8d-124">**後續步驟**</span><span class="sxs-lookup"><span data-stu-id="c7e8d-124">**Next Steps**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-125">從檔案載入憑證</span><span class="sxs-lookup"><span data-stu-id="9b7bd-125">Load a Certificate from a File</span></span>](load-a-certificate-from-a-file.md)
+[<span data-ttu-id="c7e8d-125">從檔案載入憑證</span><span class="sxs-lookup"><span data-stu-id="c7e8d-125">Load a Certificate from a File</span></span>](load-a-certificate-from-a-file.md)
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-126">確認系統支援摘要式方法</span><span class="sxs-lookup"><span data-stu-id="9b7bd-126">Verify the System Supports a Digest Method</span></span>](verify-a-certificate-supports-a-digest-method.md)
+[<span data-ttu-id="c7e8d-126">確認系統支援摘要式方法</span><span class="sxs-lookup"><span data-stu-id="c7e8d-126">Verify the System Supports a Digest Method</span></span>](verify-a-certificate-supports-a-digest-method.md)
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-127">在檔中內嵌憑證鏈</span><span class="sxs-lookup"><span data-stu-id="9b7bd-127">Embed Certificate Chains in a Document</span></span>](embedding-certificate-trust-chains-in-a-document.md)
+[<span data-ttu-id="c7e8d-127">在檔中內嵌憑證鏈</span><span class="sxs-lookup"><span data-stu-id="c7e8d-127">Embed Certificate Chains in a Document</span></span>](embedding-certificate-trust-chains-in-a-document.md)
 </dt> <dt>
 
-<span data-ttu-id="9b7bd-128">**在此範例中使用**</span><span class="sxs-lookup"><span data-stu-id="9b7bd-128">**Used in This Example**</span></span>
+<span data-ttu-id="c7e8d-128">**在此範例中使用**</span><span class="sxs-lookup"><span data-stu-id="c7e8d-128">**Used in This Example**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-129">**CryptFindOIDInfo**</span><span class="sxs-lookup"><span data-stu-id="9b7bd-129">**CryptFindOIDInfo**</span></span>](/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo)
+[<span data-ttu-id="c7e8d-129">**CryptFindOIDInfo**</span><span class="sxs-lookup"><span data-stu-id="c7e8d-129">**CryptFindOIDInfo**</span></span>](/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo)
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-130">**CRYPT \_ OID \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="9b7bd-130">**CRYPT\_OID\_INFO**</span></span>](/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info)
+[<span data-ttu-id="c7e8d-130">**CRYPT \_ OID \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="c7e8d-130">**CRYPT\_OID\_INFO**</span></span>](/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info)
 </dt> <dt>
 
-<span data-ttu-id="9b7bd-131">**CryptXmlEnumAlgorithmInfo**</span><span class="sxs-lookup"><span data-stu-id="9b7bd-131">**CryptXmlEnumAlgorithmInfo**</span></span>
+<span data-ttu-id="c7e8d-131">**CryptXmlEnumAlgorithmInfo**</span><span class="sxs-lookup"><span data-stu-id="c7e8d-131">**CryptXmlEnumAlgorithmInfo**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9b7bd-132">**詳細資訊**</span><span class="sxs-lookup"><span data-stu-id="9b7bd-132">**For More Information**</span></span>
+<span data-ttu-id="c7e8d-132">**詳細資訊**</span><span class="sxs-lookup"><span data-stu-id="c7e8d-132">**For More Information**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-133">密碼編譯 API</span><span class="sxs-lookup"><span data-stu-id="9b7bd-133">Cryptography API</span></span>](/windows/desktop/SecCrypto/cryptography-portal)
+[<span data-ttu-id="c7e8d-133">密碼編譯 API</span><span class="sxs-lookup"><span data-stu-id="c7e8d-133">Cryptography API</span></span>](/windows/desktop/SecCrypto/cryptography-portal)
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-134">密碼編譯函式</span><span class="sxs-lookup"><span data-stu-id="9b7bd-134">Cryptography Functions</span></span>](/windows/desktop/SecCrypto/cryptography-functions)
+[<span data-ttu-id="c7e8d-134">密碼編譯函式</span><span class="sxs-lookup"><span data-stu-id="c7e8d-134">Cryptography Functions</span></span>](/windows/desktop/SecCrypto/cryptography-functions)
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-135">XPS 數位簽章 API 錯誤</span><span class="sxs-lookup"><span data-stu-id="9b7bd-135">XPS Digital Signature API Errors</span></span>](xps-digital-signatures-errors.md)
+[<span data-ttu-id="c7e8d-135">XPS 數位簽章 API 錯誤</span><span class="sxs-lookup"><span data-stu-id="c7e8d-135">XPS Digital Signature API Errors</span></span>](xps-digital-signatures-errors.md)
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-136">XPS 檔錯誤</span><span class="sxs-lookup"><span data-stu-id="9b7bd-136">XPS Document Errors</span></span>](xps-document-errors.md)
+[<span data-ttu-id="c7e8d-136">XPS 檔錯誤</span><span class="sxs-lookup"><span data-stu-id="c7e8d-136">XPS Document Errors</span></span>](xps-document-errors.md)
 </dt> <dt>
 
-[<span data-ttu-id="9b7bd-137">XML Paper Specification</span><span class="sxs-lookup"><span data-stu-id="9b7bd-137">XML Paper Specification</span></span>](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[<span data-ttu-id="c7e8d-137">XML Paper Specification</span><span class="sxs-lookup"><span data-stu-id="c7e8d-137">XML Paper Specification</span></span>](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

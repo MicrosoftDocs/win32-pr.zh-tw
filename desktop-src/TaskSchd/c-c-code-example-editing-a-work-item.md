@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021460"
 ---
-# <a name="cc-code-example-editing-a-work-item"></a><span data-ttu-id="0ec85-104">C/c + + 程式碼範例：編輯工作專案</span><span class="sxs-lookup"><span data-stu-id="0ec85-104">C/C++ Code Example: Editing a Work Item</span></span>
+# <a name="cc-code-example-editing-a-work-item"></a><span data-ttu-id="70aab-104">C/c + + 程式碼範例：編輯工作專案</span><span class="sxs-lookup"><span data-stu-id="70aab-104">C/C++ Code Example: Editing a Work Item</span></span>
 
-<span data-ttu-id="0ec85-105">這個範例會顯示已知工作的屬性頁，並允許使用者編輯工作專案的屬性。</span><span class="sxs-lookup"><span data-stu-id="0ec85-105">This example displays the property pages for a known task and allows a user to edit the properties of the work item.</span></span> <span data-ttu-id="0ec85-106">此範例假設本機電腦上已有工作和測試工作。</span><span class="sxs-lookup"><span data-stu-id="0ec85-106">This example assumes that the task and the test task already exist on the local computer.</span></span>
+<span data-ttu-id="70aab-105">這個範例會顯示已知工作的屬性頁，並允許使用者編輯工作專案的屬性。</span><span class="sxs-lookup"><span data-stu-id="70aab-105">This example displays the property pages for a known task and allows a user to edit the properties of the work item.</span></span> <span data-ttu-id="70aab-106">此範例假設本機電腦上已有工作和測試工作。</span><span class="sxs-lookup"><span data-stu-id="70aab-106">This example assumes that the task and the test task already exist on the local computer.</span></span>
 
 
 ```C++
@@ -103,11 +103,11 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="0ec85-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="0ec85-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="70aab-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="70aab-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="0ec85-108">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="0ec85-108">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
+[<span data-ttu-id="70aab-108">工作排程器1.0 範例</span><span class="sxs-lookup"><span data-stu-id="70aab-108">Task Scheduler 1.0 Examples</span></span>](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
  

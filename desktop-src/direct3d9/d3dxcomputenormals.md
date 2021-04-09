@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/15/2021
 ms.locfileid: "103946150"
 ---
-# <a name="d3dxcomputenormals-function"></a><span data-ttu-id="402cf-105">D3DXComputeNormals 函式</span><span class="sxs-lookup"><span data-stu-id="402cf-105">D3DXComputeNormals function</span></span>
+# <a name="d3dxcomputenormals-function"></a><span data-ttu-id="3d646-105">D3DXComputeNormals 函式</span><span class="sxs-lookup"><span data-stu-id="3d646-105">D3DXComputeNormals function</span></span>
 
-<span data-ttu-id="402cf-106">計算網格中每個頂點的單位法線。</span><span class="sxs-lookup"><span data-stu-id="402cf-106">Computes unit normals for each vertex in a mesh.</span></span> <span data-ttu-id="402cf-107">提供支援繼承應用程式。</span><span class="sxs-lookup"><span data-stu-id="402cf-107">Provided to support legacy applications.</span></span> <span data-ttu-id="402cf-108">使用 [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md) 以獲得更好的結果。</span><span class="sxs-lookup"><span data-stu-id="402cf-108">Use [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md) for better results.</span></span>
+<span data-ttu-id="3d646-106">計算網格中每個頂點的單位法線。</span><span class="sxs-lookup"><span data-stu-id="3d646-106">Computes unit normals for each vertex in a mesh.</span></span> <span data-ttu-id="3d646-107">提供支援繼承應用程式。</span><span class="sxs-lookup"><span data-stu-id="3d646-107">Provided to support legacy applications.</span></span> <span data-ttu-id="3d646-108">使用 [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md) 以獲得更好的結果。</span><span class="sxs-lookup"><span data-stu-id="3d646-108">Use [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md) for better results.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="402cf-109">語法</span><span class="sxs-lookup"><span data-stu-id="402cf-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3d646-109">語法</span><span class="sxs-lookup"><span data-stu-id="3d646-109">Syntax</span></span>
 
 
 ```C++
@@ -37,43 +37,43 @@ HRESULT D3DXComputeNormals(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="402cf-110">參數</span><span class="sxs-lookup"><span data-stu-id="402cf-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3d646-110">參數</span><span class="sxs-lookup"><span data-stu-id="3d646-110">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="402cf-111">*pMesh* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="402cf-111">*pMesh* \[in, out\]</span></span>
+<span data-ttu-id="3d646-111">*pMesh* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="3d646-111">*pMesh* \[in, out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="402cf-112">類型： **[ **LPD3DXBASEMESH**](id3dxbasemesh.md)**</span><span class="sxs-lookup"><span data-stu-id="402cf-112">Type: **[**LPD3DXBASEMESH**](id3dxbasemesh.md)**</span></span>
+<span data-ttu-id="3d646-112">類型： **[ **LPD3DXBASEMESH**](id3dxbasemesh.md)**</span><span class="sxs-lookup"><span data-stu-id="3d646-112">Type: **[**LPD3DXBASEMESH**](id3dxbasemesh.md)**</span></span>
 
-<span data-ttu-id="402cf-113">[**ID3DXBaseMesh**](id3dxbasemesh.md)介面的指標，表示正規化的網格物件。</span><span class="sxs-lookup"><span data-stu-id="402cf-113">Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) interface, representing the normalized mesh object.</span></span>
+<span data-ttu-id="3d646-113">[**ID3DXBaseMesh**](id3dxbasemesh.md)介面的指標，表示正規化的網格物件。</span><span class="sxs-lookup"><span data-stu-id="3d646-113">Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) interface, representing the normalized mesh object.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="402cf-114">*pAdjacency* \[在\]</span><span class="sxs-lookup"><span data-stu-id="402cf-114">*pAdjacency* \[in\]</span></span>
+<span data-ttu-id="3d646-114">*pAdjacency* \[在\]</span><span class="sxs-lookup"><span data-stu-id="3d646-114">*pAdjacency* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="402cf-115">類型： **Const [**DWORD**](../winprog/windows-data-types.md) \***</span><span class="sxs-lookup"><span data-stu-id="402cf-115">Type: **const [**DWORD**](../winprog/windows-data-types.md)\***</span></span>
+<span data-ttu-id="3d646-115">類型： **Const [**DWORD**](../winprog/windows-data-types.md) \***</span><span class="sxs-lookup"><span data-stu-id="3d646-115">Type: **const [**DWORD**](../winprog/windows-data-types.md)\***</span></span>
 
-<span data-ttu-id="402cf-116">指標，指向每個臉部的三個 Dword 陣列，以指定所建立漸進式網格中每個臉部的三個相鄰專案。</span><span class="sxs-lookup"><span data-stu-id="402cf-116">Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the created progressive mesh.</span></span> <span data-ttu-id="402cf-117">這個參數是選擇性的，如果未使用，應該設為 **Null** 。</span><span class="sxs-lookup"><span data-stu-id="402cf-117">This parameter is optional and should be set to **NULL** if it is unused.</span></span>
+<span data-ttu-id="3d646-116">指標，指向每個臉部的三個 Dword 陣列，以指定所建立漸進式網格中每個臉部的三個相鄰專案。</span><span class="sxs-lookup"><span data-stu-id="3d646-116">Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the created progressive mesh.</span></span> <span data-ttu-id="3d646-117">這個參數是選擇性的，如果未使用，應該設為 **Null** 。</span><span class="sxs-lookup"><span data-stu-id="3d646-117">This parameter is optional and should be set to **NULL** if it is unused.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="402cf-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="402cf-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3d646-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="3d646-118">Return value</span></span>
 
-<span data-ttu-id="402cf-119">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="402cf-119">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
+<span data-ttu-id="3d646-119">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="3d646-119">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
 
-<span data-ttu-id="402cf-120">如果函式成功，則傳回值為 S \_ OK。</span><span class="sxs-lookup"><span data-stu-id="402cf-120">If the function succeeds, the return value is S\_OK.</span></span> <span data-ttu-id="402cf-121">如果函式失敗，則傳回值可以是下列其中一項： D3DERR \_ INVALIDCALL、D3DXERR \_ INVALIDDATA、E \_ OUTOFMEMORY。</span><span class="sxs-lookup"><span data-stu-id="402cf-121">If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.</span></span>
+<span data-ttu-id="3d646-120">如果函式成功，則傳回值為 S \_ OK。</span><span class="sxs-lookup"><span data-stu-id="3d646-120">If the function succeeds, the return value is S\_OK.</span></span> <span data-ttu-id="3d646-121">如果函式失敗，則傳回值可以是下列其中一項： D3DERR \_ INVALIDCALL、D3DXERR \_ INVALIDDATA、E \_ OUTOFMEMORY。</span><span class="sxs-lookup"><span data-stu-id="3d646-121">If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="402cf-122">備註</span><span class="sxs-lookup"><span data-stu-id="402cf-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3d646-122">備註</span><span class="sxs-lookup"><span data-stu-id="3d646-122">Remarks</span></span>
 
-<span data-ttu-id="402cf-123">輸入網格必須以其彈性頂點格式指定 [D3DFVF \_ NORMAL](d3dfvf.md) 旗標， (FVF) 。</span><span class="sxs-lookup"><span data-stu-id="402cf-123">The input mesh must have the [D3DFVF\_NORMAL](d3dfvf.md) flag specified in its flexible vertex format (FVF).</span></span>
+<span data-ttu-id="3d646-123">輸入網格必須以其彈性頂點格式指定 [D3DFVF \_ NORMAL](d3dfvf.md) 旗標， (FVF) 。</span><span class="sxs-lookup"><span data-stu-id="3d646-123">The input mesh must have the [D3DFVF\_NORMAL](d3dfvf.md) flag specified in its flexible vertex format (FVF).</span></span>
 
-<span data-ttu-id="402cf-124">頂點的一般是透過平均共用該頂點之所有臉部的法線來產生。</span><span class="sxs-lookup"><span data-stu-id="402cf-124">A normal for a vertex is generated by averaging the normals of all faces that share that vertex.</span></span>
+<span data-ttu-id="3d646-124">頂點的一般是透過平均共用該頂點之所有臉部的法線來產生。</span><span class="sxs-lookup"><span data-stu-id="3d646-124">A normal for a vertex is generated by averaging the normals of all faces that share that vertex.</span></span>
 
-<span data-ttu-id="402cf-125">如果有提供連續的，則會忽略複寫的頂點，並對其進行「平滑處理」。</span><span class="sxs-lookup"><span data-stu-id="402cf-125">If adjacency is provided, replicated vertices are ignored and "smoothed" over.</span></span> <span data-ttu-id="402cf-126">如果未提供連續的，則複寫的頂點在只有臉部明確參考它們時，就會有平均的法線。</span><span class="sxs-lookup"><span data-stu-id="402cf-126">If adjacency is not provided, replicated vertices will have normals averaged in from only the faces explicitly referencing them.</span></span>
+<span data-ttu-id="3d646-125">如果有提供連續的，則會忽略複寫的頂點，並對其進行「平滑處理」。</span><span class="sxs-lookup"><span data-stu-id="3d646-125">If adjacency is provided, replicated vertices are ignored and "smoothed" over.</span></span> <span data-ttu-id="3d646-126">如果未提供連續的，則複寫的頂點在只有臉部明確參考它們時，就會有平均的法線。</span><span class="sxs-lookup"><span data-stu-id="3d646-126">If adjacency is not provided, replicated vertices will have normals averaged in from only the faces explicitly referencing them.</span></span>
 
-<span data-ttu-id="402cf-127">此函式只會使用下列輸入參數來呼叫 [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md) ：</span><span class="sxs-lookup"><span data-stu-id="402cf-127">This function simply calls [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md) with the following input parameters:</span></span>
+<span data-ttu-id="3d646-127">此函式只會使用下列輸入參數來呼叫 [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md) ：</span><span class="sxs-lookup"><span data-stu-id="3d646-127">This function simply calls [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md) with the following input parameters:</span></span>
 
 
 ```
@@ -97,22 +97,22 @@ D3DXComputeTangentFrameEx( pMesh,
 
 
 
-## <a name="requirements"></a><span data-ttu-id="402cf-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="402cf-128">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3d646-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="3d646-128">Requirements</span></span>
 
 
 
-| <span data-ttu-id="402cf-129">需求</span><span class="sxs-lookup"><span data-stu-id="402cf-129">Requirement</span></span> | <span data-ttu-id="402cf-130">值</span><span class="sxs-lookup"><span data-stu-id="402cf-130">Value</span></span> |
+| <span data-ttu-id="3d646-129">需求</span><span class="sxs-lookup"><span data-stu-id="3d646-129">Requirement</span></span> | <span data-ttu-id="3d646-130">值</span><span class="sxs-lookup"><span data-stu-id="3d646-130">Value</span></span> |
 |--------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="402cf-131">標頭</span><span class="sxs-lookup"><span data-stu-id="402cf-131">Header</span></span><br/>  | <dl> <span data-ttu-id="402cf-132"><dt>D3DX9Mesh。h</dt></span><span class="sxs-lookup"><span data-stu-id="402cf-132"><dt>D3DX9Mesh.h</dt></span></span> </dl> |
-| <span data-ttu-id="402cf-133">程式庫</span><span class="sxs-lookup"><span data-stu-id="402cf-133">Library</span></span><br/> | <dl> <span data-ttu-id="402cf-134"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="402cf-134"><dt>D3dx9.lib</dt></span></span> </dl>   |
+| <span data-ttu-id="3d646-131">標頭</span><span class="sxs-lookup"><span data-stu-id="3d646-131">Header</span></span><br/>  | <dl> <span data-ttu-id="3d646-132"><dt>D3DX9Mesh。h</dt></span><span class="sxs-lookup"><span data-stu-id="3d646-132"><dt>D3DX9Mesh.h</dt></span></span> </dl> |
+| <span data-ttu-id="3d646-133">程式庫</span><span class="sxs-lookup"><span data-stu-id="3d646-133">Library</span></span><br/> | <dl> <span data-ttu-id="3d646-134"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="3d646-134"><dt>D3dx9.lib</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="402cf-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="402cf-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3d646-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3d646-135">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="402cf-136">網格函數</span><span class="sxs-lookup"><span data-stu-id="402cf-136">Mesh Functions</span></span>](dx9-graphics-reference-d3dx-functions-mesh.md)
+[<span data-ttu-id="3d646-136">網格函數</span><span class="sxs-lookup"><span data-stu-id="3d646-136">Mesh Functions</span></span>](dx9-graphics-reference-d3dx-functions-mesh.md)
 </dt> </dl>
 
  

@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685486"
 ---
-# <a name="mciwndm_put_source-message"></a><span data-ttu-id="2cab9-105">MCIWNDM \_ PUT \_ 來源訊息</span><span class="sxs-lookup"><span data-stu-id="2cab9-105">MCIWNDM\_PUT\_SOURCE message</span></span>
+# <a name="mciwndm_put_source-message"></a><span data-ttu-id="54912-105">MCIWNDM \_ PUT \_ 來源訊息</span><span class="sxs-lookup"><span data-stu-id="54912-105">MCIWNDM\_PUT\_SOURCE message</span></span>
 
-<span data-ttu-id="2cab9-106">**MCIWNDM \_ PUT \_ 來源** 訊息會重新定義來源矩形的座標，在播放期間用於裁剪 AVI 檔案的影像。</span><span class="sxs-lookup"><span data-stu-id="2cab9-106">The **MCIWNDM\_PUT\_SOURCE** message redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback.</span></span> <span data-ttu-id="2cab9-107">您可以使用 [**MCIWndPutSource**](/windows/desktop/api/Vfw/nf-vfw-mciwndputsource) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="2cab9-107">You can send this message explicitly or by using the [**MCIWndPutSource**](/windows/desktop/api/Vfw/nf-vfw-mciwndputsource) macro.</span></span>
+<span data-ttu-id="54912-106">**MCIWNDM \_ PUT \_ 來源** 訊息會重新定義來源矩形的座標，在播放期間用於裁剪 AVI 檔案的影像。</span><span class="sxs-lookup"><span data-stu-id="54912-106">The **MCIWNDM\_PUT\_SOURCE** message redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback.</span></span> <span data-ttu-id="54912-107">您可以使用 [**MCIWndPutSource**](/windows/desktop/api/Vfw/nf-vfw-mciwndputsource) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="54912-107">You can send this message explicitly or by using the [**MCIWndPutSource**](/windows/desktop/api/Vfw/nf-vfw-mciwndputsource) macro.</span></span>
 
 
 ```C++
@@ -34,30 +34,30 @@ lParam = (LPARAM) (LPRECT) prc;
 
 
 
-## <a name="parameters"></a><span data-ttu-id="2cab9-108">參數</span><span class="sxs-lookup"><span data-stu-id="2cab9-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="54912-108">參數</span><span class="sxs-lookup"><span data-stu-id="54912-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="2cab9-109"><span id="prc"></span><span id="PRC"></span>*中國*</span><span class="sxs-lookup"><span data-stu-id="2cab9-109"><span id="prc"></span><span id="PRC"></span>*prc*</span></span>
+<span data-ttu-id="54912-109"><span id="prc"></span><span id="PRC"></span>*中國*</span><span class="sxs-lookup"><span data-stu-id="54912-109"><span id="prc"></span><span id="PRC"></span>*prc*</span></span>
 </dt> <dd>
 
-<span data-ttu-id="2cab9-110">[矩形](/previous-versions//ms536136(v=vs.85))結構的指標，其中包含來源矩形的座標。</span><span class="sxs-lookup"><span data-stu-id="2cab9-110">Pointer to a [RECT](/previous-versions//ms536136(v=vs.85)) structure containing the coordinates of the source rectangle.</span></span>
+<span data-ttu-id="54912-110">[矩形](/previous-versions//ms536136(v=vs.85))結構的指標，其中包含來源矩形的座標。</span><span class="sxs-lookup"><span data-stu-id="54912-110">Pointer to a [RECT](/previous-versions//ms536136(v=vs.85)) structure containing the coordinates of the source rectangle.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="2cab9-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="2cab9-111">Return Value</span></span>
+## <a name="return-value"></a><span data-ttu-id="54912-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="54912-111">Return Value</span></span>
 
-<span data-ttu-id="2cab9-112">如果成功則傳回零，否則會傳回錯誤。</span><span class="sxs-lookup"><span data-stu-id="2cab9-112">Returns zero if successful or an error otherwise.</span></span>
+<span data-ttu-id="54912-112">如果成功則傳回零，否則會傳回錯誤。</span><span class="sxs-lookup"><span data-stu-id="54912-112">Returns zero if successful or an error otherwise.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="2cab9-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="2cab9-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="54912-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="54912-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2cab9-114">需求</span><span class="sxs-lookup"><span data-stu-id="2cab9-114">Requirement</span></span> | <span data-ttu-id="2cab9-115">值</span><span class="sxs-lookup"><span data-stu-id="2cab9-115">Value</span></span> |
+| <span data-ttu-id="54912-114">需求</span><span class="sxs-lookup"><span data-stu-id="54912-114">Requirement</span></span> | <span data-ttu-id="54912-115">值</span><span class="sxs-lookup"><span data-stu-id="54912-115">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="2cab9-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2cab9-116">Minimum supported client</span></span><br/> | <span data-ttu-id="2cab9-117">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2cab9-117">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                       |
-| <span data-ttu-id="2cab9-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2cab9-118">Minimum supported server</span></span><br/> | <span data-ttu-id="2cab9-119">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2cab9-119">Windows 2000 Server \[desktop apps only\]</span></span><br/>                             |
-| <span data-ttu-id="2cab9-120">標頭</span><span class="sxs-lookup"><span data-stu-id="2cab9-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="2cab9-121"><dt>Vfw。h</dt></span><span class="sxs-lookup"><span data-stu-id="2cab9-121"><dt>Vfw.h</dt></span></span> </dl> |
+| <span data-ttu-id="54912-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="54912-116">Minimum supported client</span></span><br/> | <span data-ttu-id="54912-117">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="54912-117">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                       |
+| <span data-ttu-id="54912-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="54912-118">Minimum supported server</span></span><br/> | <span data-ttu-id="54912-119">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="54912-119">Windows 2000 Server \[desktop apps only\]</span></span><br/>                             |
+| <span data-ttu-id="54912-120">標頭</span><span class="sxs-lookup"><span data-stu-id="54912-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="54912-121"><dt>Vfw。h</dt></span><span class="sxs-lookup"><span data-stu-id="54912-121"><dt>Vfw.h</dt></span></span> </dl> |
 
 
 

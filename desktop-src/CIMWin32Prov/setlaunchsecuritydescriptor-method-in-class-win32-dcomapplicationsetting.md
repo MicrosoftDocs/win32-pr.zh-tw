@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847388"
 ---
-# <a name="setlaunchsecuritydescriptor-method-of-the-win32_dcomapplicationsetting-class"></a><span data-ttu-id="12e38-103">Win32 DCOMApplicationSetting 類別的 SetLaunchSecurityDescriptor 方法 \_</span><span class="sxs-lookup"><span data-stu-id="12e38-103">SetLaunchSecurityDescriptor method of the Win32\_DCOMApplicationSetting class</span></span>
+# <a name="setlaunchsecuritydescriptor-method-of-the-win32_dcomapplicationsetting-class"></a><span data-ttu-id="9e2b7-103">Win32 DCOMApplicationSetting 類別的 SetLaunchSecurityDescriptor 方法 \_</span><span class="sxs-lookup"><span data-stu-id="9e2b7-103">SetLaunchSecurityDescriptor method of the Win32\_DCOMApplicationSetting class</span></span>
 
-<span data-ttu-id="12e38-104">**SetLaunchSecurityDescriptor** 方法會使用 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)類別的實例所定義的新安全描述項，來更新 DCOM 應用程式的啟動安全描述項。</span><span class="sxs-lookup"><span data-stu-id="12e38-104">The **SetLaunchSecurityDescriptor** method updates the launch security descriptor of the DCOM application with a new security descriptor that is defined by an instance of a [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class.</span></span> <span data-ttu-id="12e38-105">此安全描述項可控制哪些人可以啟動應用程式。</span><span class="sxs-lookup"><span data-stu-id="12e38-105">This security descriptor controls who is allowed to launch the application.</span></span> <span data-ttu-id="12e38-106">執行腳本或應用程式（呼叫這個方法）的帳戶必須具有 **SeSecurityPrivilege** 和 **SeRestorePrivilege** 許可權。</span><span class="sxs-lookup"><span data-stu-id="12e38-106">The account running the script or application that calls this method must have the **SeSecurityPrivilege** and **SeRestorePrivilege** privileges.</span></span> <span data-ttu-id="12e38-107">如需詳細資訊，請參閱 [變更安全物件的存取安全性](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)。</span><span class="sxs-lookup"><span data-stu-id="12e38-107">For more information, see [Changing Access Security on Securable Objects](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects).</span></span>
+<span data-ttu-id="9e2b7-104">**SetLaunchSecurityDescriptor** 方法會使用 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)類別的實例所定義的新安全描述項，來更新 DCOM 應用程式的啟動安全描述項。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-104">The **SetLaunchSecurityDescriptor** method updates the launch security descriptor of the DCOM application with a new security descriptor that is defined by an instance of a [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class.</span></span> <span data-ttu-id="9e2b7-105">此安全描述項可控制哪些人可以啟動應用程式。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-105">This security descriptor controls who is allowed to launch the application.</span></span> <span data-ttu-id="9e2b7-106">執行腳本或應用程式（呼叫這個方法）的帳戶必須具有 **SeSecurityPrivilege** 和 **SeRestorePrivilege** 許可權。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-106">The account running the script or application that calls this method must have the **SeSecurityPrivilege** and **SeRestorePrivilege** privileges.</span></span> <span data-ttu-id="9e2b7-107">如需詳細資訊，請參閱 [變更安全物件的存取安全性](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-107">For more information, see [Changing Access Security on Securable Objects](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="12e38-108">語法</span><span class="sxs-lookup"><span data-stu-id="12e38-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9e2b7-108">語法</span><span class="sxs-lookup"><span data-stu-id="9e2b7-108">Syntax</span></span>
 
 
 ```mof
@@ -36,117 +36,117 @@ uint32 SetLaunchSecurityDescriptor(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="12e38-109">參數</span><span class="sxs-lookup"><span data-stu-id="12e38-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9e2b7-109">參數</span><span class="sxs-lookup"><span data-stu-id="9e2b7-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="12e38-110">*描述* \[ 項在\]</span><span class="sxs-lookup"><span data-stu-id="12e38-110">*Descriptor* \[in\]</span></span>
+<span data-ttu-id="9e2b7-110">*描述* \[ 項在\]</span><span class="sxs-lookup"><span data-stu-id="9e2b7-110">*Descriptor* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="12e38-111">要設定的安全描述項，可控制可以啟動 DCOM 應用程式的人員。</span><span class="sxs-lookup"><span data-stu-id="12e38-111">The security descriptor to set that controls who can start the DCOM application.</span></span>
+<span data-ttu-id="9e2b7-111">要設定的安全描述項，可控制可以啟動 DCOM 應用程式的人員。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-111">The security descriptor to set that controls who can start the DCOM application.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="12e38-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="12e38-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9e2b7-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="9e2b7-112">Return value</span></span>
 
-<span data-ttu-id="12e38-113">傳回下列清單所列的其中一個值，或傳回不同的值來表示錯誤。</span><span class="sxs-lookup"><span data-stu-id="12e38-113">Returns one of the values listed in the following list, or a different value to indicate an error.</span></span> <span data-ttu-id="12e38-114">如需詳細資訊，請參閱 [WMI 傳回碼](/windows/desktop/WmiSdk/wmi-return-codes) 或 [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum)。</span><span class="sxs-lookup"><span data-stu-id="12e38-114">For more information, see [WMI Return Codes](/windows/desktop/WmiSdk/wmi-return-codes) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).</span></span>
+<span data-ttu-id="9e2b7-113">傳回下列清單所列的其中一個值，或傳回不同的值來表示錯誤。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-113">Returns one of the values listed in the following list, or a different value to indicate an error.</span></span> <span data-ttu-id="9e2b7-114">如需詳細資訊，請參閱 [WMI 傳回碼](/windows/desktop/WmiSdk/wmi-return-codes) 或 [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum)。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-114">For more information, see [WMI Return Codes](/windows/desktop/WmiSdk/wmi-return-codes) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="12e38-115">「成功」</span><span class="sxs-lookup"><span data-stu-id="12e38-115">**Success**</span></span>
+<span data-ttu-id="9e2b7-115">「成功」</span><span class="sxs-lookup"><span data-stu-id="9e2b7-115">**Success**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="12e38-116">0</span><span class="sxs-lookup"><span data-stu-id="12e38-116">0</span></span>
+<span data-ttu-id="9e2b7-116">0</span><span class="sxs-lookup"><span data-stu-id="9e2b7-116">0</span></span>
 
-<span data-ttu-id="12e38-117">順利完成。</span><span class="sxs-lookup"><span data-stu-id="12e38-117">Successful completion.</span></span>
+<span data-ttu-id="9e2b7-117">順利完成。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-117">Successful completion.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="12e38-118">**2**</span><span class="sxs-lookup"><span data-stu-id="12e38-118">**2**</span></span>
+<span data-ttu-id="9e2b7-118">**2**</span><span class="sxs-lookup"><span data-stu-id="9e2b7-118">**2**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="12e38-119">使用者無法存取所要求的資訊。</span><span class="sxs-lookup"><span data-stu-id="12e38-119">The user does not have access to the requested information.</span></span>
+<span data-ttu-id="9e2b7-119">使用者無法存取所要求的資訊。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-119">The user does not have access to the requested information.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="12e38-120">**8**</span><span class="sxs-lookup"><span data-stu-id="12e38-120">**8**</span></span>
+<span data-ttu-id="9e2b7-120">**8**</span><span class="sxs-lookup"><span data-stu-id="9e2b7-120">**8**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="12e38-121">未知的失敗。</span><span class="sxs-lookup"><span data-stu-id="12e38-121">Unknown failure.</span></span>
+<span data-ttu-id="9e2b7-121">未知的失敗。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-121">Unknown failure.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="12e38-122">**9**</span><span class="sxs-lookup"><span data-stu-id="12e38-122">**9**</span></span>
+<span data-ttu-id="9e2b7-122">**9**</span><span class="sxs-lookup"><span data-stu-id="9e2b7-122">**9**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="12e38-123">使用者沒有足夠的許可權來執行方法。</span><span class="sxs-lookup"><span data-stu-id="12e38-123">The user does not have adequate privileges to execute the method.</span></span>
+<span data-ttu-id="9e2b7-123">使用者沒有足夠的許可權來執行方法。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-123">The user does not have adequate privileges to execute the method.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="12e38-124">**21**</span><span class="sxs-lookup"><span data-stu-id="12e38-124">**21**</span></span>
+<span data-ttu-id="9e2b7-124">**21**</span><span class="sxs-lookup"><span data-stu-id="9e2b7-124">**21**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="12e38-125">在方法呼叫中指定的參數無效。</span><span class="sxs-lookup"><span data-stu-id="12e38-125">A parameter specified in the method call is not valid.</span></span>
+<span data-ttu-id="9e2b7-125">在方法呼叫中指定的參數無效。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-125">A parameter specified in the method call is not valid.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="12e38-126">**其他**</span><span class="sxs-lookup"><span data-stu-id="12e38-126">**Other**</span></span>
+<span data-ttu-id="9e2b7-126">**其他**</span><span class="sxs-lookup"><span data-stu-id="9e2b7-126">**Other**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="12e38-127">1 4294967295</span><span class="sxs-lookup"><span data-stu-id="12e38-127">1 4294967295</span></span>
+<span data-ttu-id="9e2b7-127">1 4294967295</span><span class="sxs-lookup"><span data-stu-id="9e2b7-127">1 4294967295</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="12e38-128">備註</span><span class="sxs-lookup"><span data-stu-id="12e38-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9e2b7-128">備註</span><span class="sxs-lookup"><span data-stu-id="9e2b7-128">Remarks</span></span>
 
-<span data-ttu-id="12e38-129">[**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)實例代表 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control)資料類型，並包含 (DACL) 的 [*任意存取控制清單*](/windows/desktop/SecGloss/d-gly)，以及 (SACL) 的 [*系統存取控制清單*](/windows/desktop/SecGloss/s-gly)。</span><span class="sxs-lookup"><span data-stu-id="12e38-129">The [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL).</span></span> <span data-ttu-id="12e38-130">如需詳細資訊，請參閱 [存取控制清單](/windows/desktop/SecAuthZ/access-control-lists)。</span><span class="sxs-lookup"><span data-stu-id="12e38-130">For more information, see [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).</span></span>
+<span data-ttu-id="9e2b7-129">[**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)實例代表 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control)資料類型，並包含 (DACL) 的 [*任意存取控制清單*](/windows/desktop/SecGloss/d-gly)，以及 (SACL) 的 [*系統存取控制清單*](/windows/desktop/SecGloss/s-gly)。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-129">The [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL).</span></span> <span data-ttu-id="9e2b7-130">如需詳細資訊，請參閱 [存取控制清單](/windows/desktop/SecAuthZ/access-control-lists)。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-130">For more information, see [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).</span></span>
 
-<span data-ttu-id="12e38-131">如果未在取得安全描述項時授與或啟用 **SeSecurityPrivilege** ，則只會傳回傳回的安全描述項中的 DACL。</span><span class="sxs-lookup"><span data-stu-id="12e38-131">If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor.</span></span> <span data-ttu-id="12e38-132">如需詳細資訊，請參閱 [**許可權常數**](/windows/desktop/WmiSdk/privilege-constants) 和 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。</span><span class="sxs-lookup"><span data-stu-id="12e38-132">For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants) and [Executing Privileged Operations](/windows/desktop/WmiSdk/executing-privileged-operations).</span></span>
+<span data-ttu-id="9e2b7-131">如果未在取得安全描述項時授與或啟用 **SeSecurityPrivilege** ，則只會傳回傳回的安全描述項中的 DACL。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-131">If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor.</span></span> <span data-ttu-id="9e2b7-132">如需詳細資訊，請參閱 [**許可權常數**](/windows/desktop/WmiSdk/privilege-constants) 和 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-132">For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants) and [Executing Privileged Operations](/windows/desktop/WmiSdk/executing-privileged-operations).</span></span>
 
-<span data-ttu-id="12e38-133">呼叫這個方法時，您可以同時更新 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 實例中的 dacl 和 SACL，但是您也可以只更新 dacl 或只更新 sacl。</span><span class="sxs-lookup"><span data-stu-id="12e38-133">You can update both the DACL and the SACL in the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance when calling this method, but you also can update only the DACL or only the SACL.</span></span>
+<span data-ttu-id="9e2b7-133">呼叫這個方法時，您可以同時更新 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 實例中的 dacl 和 SACL，但是您也可以只更新 dacl 或只更新 sacl。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-133">You can update both the DACL and the SACL in the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance when calling this method, but you also can update only the DACL or only the SACL.</span></span>
 
-<span data-ttu-id="12e38-134">下列 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control) 中的值會決定是否要更新 DACL、SACL 或兩者。</span><span class="sxs-lookup"><span data-stu-id="12e38-134">The following values in [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) determine whether the DACL, the SACL, or both are updated.</span></span>
+<span data-ttu-id="9e2b7-134">下列 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control) 中的值會決定是否要更新 DACL、SACL 或兩者。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-134">The following values in [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) determine whether the DACL, the SACL, or both are updated.</span></span>
 
--   <span data-ttu-id="12e38-135">**\_有 SE DACL \_**</span><span class="sxs-lookup"><span data-stu-id="12e38-135">**SE\_DACL\_PRESENT**</span></span>
+-   <span data-ttu-id="9e2b7-135">**\_有 SE DACL \_**</span><span class="sxs-lookup"><span data-stu-id="9e2b7-135">**SE\_DACL\_PRESENT**</span></span>
 
-    <span data-ttu-id="12e38-136">表示 DACL 應該更新。</span><span class="sxs-lookup"><span data-stu-id="12e38-136">Indicates that the DACL should be updated.</span></span> <span data-ttu-id="12e38-137">如果未設定此值，WMI 就會保留 DACL 的原始值。</span><span class="sxs-lookup"><span data-stu-id="12e38-137">If this is not set, then WMI preserves the original value of the DACL.</span></span>
+    <span data-ttu-id="9e2b7-136">表示 DACL 應該更新。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-136">Indicates that the DACL should be updated.</span></span> <span data-ttu-id="9e2b7-137">如果未設定此值，WMI 就會保留 DACL 的原始值。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-137">If this is not set, then WMI preserves the original value of the DACL.</span></span>
 
--   <span data-ttu-id="12e38-138">**\_出現 SE SACL \_**</span><span class="sxs-lookup"><span data-stu-id="12e38-138">**SE\_SACL\_PRESENT**</span></span>
+-   <span data-ttu-id="9e2b7-138">**\_出現 SE SACL \_**</span><span class="sxs-lookup"><span data-stu-id="9e2b7-138">**SE\_SACL\_PRESENT**</span></span>
 
-    <span data-ttu-id="12e38-139">指出 SACL 應該更新。</span><span class="sxs-lookup"><span data-stu-id="12e38-139">Indicates that the SACL should be updated.</span></span> <span data-ttu-id="12e38-140">如果未設定此值，WMI 就會保留 SACL 的原始值。</span><span class="sxs-lookup"><span data-stu-id="12e38-140">If this is not set, then WMI preserves the original value of the SACL.</span></span> <span data-ttu-id="12e38-141">若要更新 SACL，帳戶必須啟用 **SeSecurityPrivilege** 許可權。</span><span class="sxs-lookup"><span data-stu-id="12e38-141">To update the SACL, the account must have the **SeSecurityPrivilege** privilege enabled.</span></span> <span data-ttu-id="12e38-142">針對腳本，許可權名稱為 **SeSecurityPrivilege**。</span><span class="sxs-lookup"><span data-stu-id="12e38-142">For scripting, the privilege name is **SeSecurityPrivilege**.</span></span> <span data-ttu-id="12e38-143">如需詳細資訊，請參閱 [**許可權常數**](/windows/desktop/WmiSdk/privilege-constants)。</span><span class="sxs-lookup"><span data-stu-id="12e38-143">For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants).</span></span>
+    <span data-ttu-id="9e2b7-139">指出 SACL 應該更新。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-139">Indicates that the SACL should be updated.</span></span> <span data-ttu-id="9e2b7-140">如果未設定此值，WMI 就會保留 SACL 的原始值。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-140">If this is not set, then WMI preserves the original value of the SACL.</span></span> <span data-ttu-id="9e2b7-141">若要更新 SACL，帳戶必須啟用 **SeSecurityPrivilege** 許可權。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-141">To update the SACL, the account must have the **SeSecurityPrivilege** privilege enabled.</span></span> <span data-ttu-id="9e2b7-142">針對腳本，許可權名稱為 **SeSecurityPrivilege**。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-142">For scripting, the privilege name is **SeSecurityPrivilege**.</span></span> <span data-ttu-id="9e2b7-143">如需詳細資訊，請參閱 [**許可權常數**](/windows/desktop/WmiSdk/privilege-constants)。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-143">For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants).</span></span>
 
-<span data-ttu-id="12e38-144">如果群組信任者和擁有者信任的屬性不是 **Null**，則會更新這些屬性。</span><span class="sxs-lookup"><span data-stu-id="12e38-144">If the Group trustee and the Owner trustee properties are not **NULL**, then they are updated.</span></span> <span data-ttu-id="12e38-145">否則，WMI 會保留原始值。</span><span class="sxs-lookup"><span data-stu-id="12e38-145">Otherwise, WMI preserves the original values.</span></span> <span data-ttu-id="12e38-146">如需詳細資訊，請參閱 [WMI 安全描述項物件](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)。</span><span class="sxs-lookup"><span data-stu-id="12e38-146">For more information, see [WMI Security Descriptor Objects](/windows/desktop/WmiSdk/wmi-security-descriptor-objects).</span></span>
+<span data-ttu-id="9e2b7-144">如果群組信任者和擁有者信任的屬性不是 **Null**，則會更新這些屬性。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-144">If the Group trustee and the Owner trustee properties are not **NULL**, then they are updated.</span></span> <span data-ttu-id="9e2b7-145">否則，WMI 會保留原始值。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-145">Otherwise, WMI preserves the original values.</span></span> <span data-ttu-id="9e2b7-146">如需詳細資訊，請參閱 [WMI 安全描述項物件](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-146">For more information, see [WMI Security Descriptor Objects](/windows/desktop/WmiSdk/wmi-security-descriptor-objects).</span></span>
 
-<span data-ttu-id="12e38-147">當新的 SACL 在呼叫這個方法時為 **Null** ，則目標安全物件上的安全描述項 SACL 會保持不變。</span><span class="sxs-lookup"><span data-stu-id="12e38-147">When a new SACL is **NULL** in a call to this method, then the security descriptor SACL on the target securable object is left unchanged.</span></span>
+<span data-ttu-id="9e2b7-147">當新的 SACL 在呼叫這個方法時為 **Null** ，則目標安全物件上的安全描述項 SACL 會保持不變。</span><span class="sxs-lookup"><span data-stu-id="9e2b7-147">When a new SACL is **NULL** in a call to this method, then the security descriptor SACL on the target securable object is left unchanged.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="12e38-148">規格需求</span><span class="sxs-lookup"><span data-stu-id="12e38-148">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9e2b7-148">規格需求</span><span class="sxs-lookup"><span data-stu-id="9e2b7-148">Requirements</span></span>
 
 
 
-| <span data-ttu-id="12e38-149">需求</span><span class="sxs-lookup"><span data-stu-id="12e38-149">Requirement</span></span> | <span data-ttu-id="12e38-150">值</span><span class="sxs-lookup"><span data-stu-id="12e38-150">Value</span></span> |
+| <span data-ttu-id="9e2b7-149">需求</span><span class="sxs-lookup"><span data-stu-id="9e2b7-149">Requirement</span></span> | <span data-ttu-id="9e2b7-150">值</span><span class="sxs-lookup"><span data-stu-id="9e2b7-150">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="12e38-151">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="12e38-151">Minimum supported client</span></span><br/> | <span data-ttu-id="12e38-152">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="12e38-152">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="12e38-153">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="12e38-153">Minimum supported server</span></span><br/> | <span data-ttu-id="12e38-154">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="12e38-154">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="12e38-155">命名空間</span><span class="sxs-lookup"><span data-stu-id="12e38-155">Namespace</span></span><br/>                | <span data-ttu-id="12e38-156">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="12e38-156">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="12e38-157">MOF</span><span class="sxs-lookup"><span data-stu-id="12e38-157">MOF</span></span><br/>                      | <dl> <span data-ttu-id="12e38-158"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="12e38-158"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="12e38-159">DLL</span><span class="sxs-lookup"><span data-stu-id="12e38-159">DLL</span></span><br/>                      | <dl> <span data-ttu-id="12e38-160"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="12e38-160"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="9e2b7-151">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9e2b7-151">Minimum supported client</span></span><br/> | <span data-ttu-id="9e2b7-152">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="9e2b7-152">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="9e2b7-153">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9e2b7-153">Minimum supported server</span></span><br/> | <span data-ttu-id="9e2b7-154">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="9e2b7-154">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="9e2b7-155">命名空間</span><span class="sxs-lookup"><span data-stu-id="9e2b7-155">Namespace</span></span><br/>                | <span data-ttu-id="9e2b7-156">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="9e2b7-156">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="9e2b7-157">MOF</span><span class="sxs-lookup"><span data-stu-id="9e2b7-157">MOF</span></span><br/>                      | <dl> <span data-ttu-id="9e2b7-158"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="9e2b7-158"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="9e2b7-159">DLL</span><span class="sxs-lookup"><span data-stu-id="9e2b7-159">DLL</span></span><br/>                      | <dl> <span data-ttu-id="9e2b7-160"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="9e2b7-160"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="12e38-161">另請參閱</span><span class="sxs-lookup"><span data-stu-id="12e38-161">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9e2b7-161">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9e2b7-161">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="12e38-162">**Win32 \_ DCOMApplicationSetting**</span><span class="sxs-lookup"><span data-stu-id="12e38-162">**Win32\_DCOMApplicationSetting**</span></span>](win32-dcomapplicationsetting.md)
+[<span data-ttu-id="9e2b7-162">**Win32 \_ DCOMApplicationSetting**</span><span class="sxs-lookup"><span data-stu-id="9e2b7-162">**Win32\_DCOMApplicationSetting**</span></span>](win32-dcomapplicationsetting.md)
 </dt> <dt>
 
-[<span data-ttu-id="12e38-163">**許可權常數**</span><span class="sxs-lookup"><span data-stu-id="12e38-163">**Privilege Constants**</span></span>](/windows/desktop/WmiSdk/privilege-constants)
+[<span data-ttu-id="9e2b7-163">**許可權常數**</span><span class="sxs-lookup"><span data-stu-id="9e2b7-163">**Privilege Constants**</span></span>](/windows/desktop/WmiSdk/privilege-constants)
 </dt> <dt>
 
-[<span data-ttu-id="12e38-164">WMI 安全描述項物件</span><span class="sxs-lookup"><span data-stu-id="12e38-164">WMI Security Descriptor Objects</span></span>](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
+[<span data-ttu-id="9e2b7-164">WMI 安全描述項物件</span><span class="sxs-lookup"><span data-stu-id="9e2b7-164">WMI Security Descriptor Objects</span></span>](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
 </dt> <dt>
 
-[<span data-ttu-id="12e38-165">變更安全物件的存取安全性</span><span class="sxs-lookup"><span data-stu-id="12e38-165">Changing Access Security on Securable Objects</span></span>](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
+[<span data-ttu-id="9e2b7-165">變更安全物件的存取安全性</span><span class="sxs-lookup"><span data-stu-id="9e2b7-165">Changing Access Security on Securable Objects</span></span>](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
 </dt> </dl>
 
  

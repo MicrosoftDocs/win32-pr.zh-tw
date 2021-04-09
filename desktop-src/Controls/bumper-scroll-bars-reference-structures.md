@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853572"
 ---
-# <a name="scroll-bar-structures"></a><span data-ttu-id="f9756-103">捲軸結構</span><span class="sxs-lookup"><span data-stu-id="f9756-103">Scroll Bar Structures</span></span>
+# <a name="scroll-bar-structures"></a><span data-ttu-id="4de80-103">捲軸結構</span><span class="sxs-lookup"><span data-stu-id="4de80-103">Scroll Bar Structures</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f9756-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="f9756-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4de80-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="4de80-104">In This Section</span></span>
 
--   [<span data-ttu-id="f9756-105">**SCROLLBARINFO**</span><span class="sxs-lookup"><span data-stu-id="f9756-105">**SCROLLBARINFO**</span></span>](/windows/win32/api/winuser/ns-winuser-scrollbarinfo)
--   [<span data-ttu-id="f9756-106">**SCROLLINFO**</span><span class="sxs-lookup"><span data-stu-id="f9756-106">**SCROLLINFO**</span></span>](/windows/win32/api/winuser/ns-winuser-scrollinfo)
+-   [<span data-ttu-id="4de80-105">**SCROLLBARINFO**</span><span class="sxs-lookup"><span data-stu-id="4de80-105">**SCROLLBARINFO**</span></span>](/windows/win32/api/winuser/ns-winuser-scrollbarinfo)
+-   [<span data-ttu-id="4de80-106">**SCROLLINFO**</span><span class="sxs-lookup"><span data-stu-id="4de80-106">**SCROLLINFO**</span></span>](/windows/win32/api/winuser/ns-winuser-scrollinfo)
 
  
 

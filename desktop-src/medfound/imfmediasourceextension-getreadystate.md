@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/03/2021
 ms.locfileid: "103696286"
 ---
-# <a name="imfmediasourceextensiongetreadystate-method"></a><span data-ttu-id="33e8f-103">IMFMediaSourceExtension：： GetReadyState 方法</span><span class="sxs-lookup"><span data-stu-id="33e8f-103">IMFMediaSourceExtension::GetReadyState method</span></span>
+# <a name="imfmediasourceextensiongetreadystate-method"></a><span data-ttu-id="48400-103">IMFMediaSourceExtension：： GetReadyState 方法</span><span class="sxs-lookup"><span data-stu-id="48400-103">IMFMediaSourceExtension::GetReadyState method</span></span>
 
-<span data-ttu-id="33e8f-104">取得媒體來源的就緒狀態。</span><span class="sxs-lookup"><span data-stu-id="33e8f-104">Gets the ready state of the media source.</span></span>
+<span data-ttu-id="48400-104">取得媒體來源的就緒狀態。</span><span class="sxs-lookup"><span data-stu-id="48400-104">Gets the ready state of the media source.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="33e8f-105">語法</span><span class="sxs-lookup"><span data-stu-id="33e8f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="48400-105">語法</span><span class="sxs-lookup"><span data-stu-id="48400-105">Syntax</span></span>
 
 
 ```C++
@@ -33,34 +33,34 @@ MF_MSE_READY GetReadyState();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="33e8f-106">參數</span><span class="sxs-lookup"><span data-stu-id="33e8f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="48400-106">參數</span><span class="sxs-lookup"><span data-stu-id="48400-106">Parameters</span></span>
 
-<span data-ttu-id="33e8f-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="33e8f-107">This method has no parameters.</span></span>
+<span data-ttu-id="48400-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="48400-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="33e8f-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="33e8f-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="48400-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="48400-108">Return value</span></span>
 
-<span data-ttu-id="33e8f-109">媒體來源的就緒狀態。</span><span class="sxs-lookup"><span data-stu-id="33e8f-109">The ready state of the media source.</span></span>
+<span data-ttu-id="48400-109">媒體來源的就緒狀態。</span><span class="sxs-lookup"><span data-stu-id="48400-109">The ready state of the media source.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="33e8f-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="33e8f-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="48400-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="48400-110">Requirements</span></span>
 
 
 
-| <span data-ttu-id="33e8f-111">需求</span><span class="sxs-lookup"><span data-stu-id="33e8f-111">Requirement</span></span> | <span data-ttu-id="33e8f-112">值</span><span class="sxs-lookup"><span data-stu-id="33e8f-112">Value</span></span> |
+| <span data-ttu-id="48400-111">需求</span><span class="sxs-lookup"><span data-stu-id="48400-111">Requirement</span></span> | <span data-ttu-id="48400-112">值</span><span class="sxs-lookup"><span data-stu-id="48400-112">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| <span data-ttu-id="33e8f-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="33e8f-113">Minimum supported client</span></span><br/> | <span data-ttu-id="33e8f-114">\[僅 Windows 8.1 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="33e8f-114">Windows 8.1 \[desktop apps only\]</span></span><br/>                                                 |
-| <span data-ttu-id="33e8f-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="33e8f-115">Minimum supported server</span></span><br/> | <span data-ttu-id="33e8f-116">僅限 Windows Server 2012 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="33e8f-116">Windows Server 2012 R2 \[desktop apps only\]</span></span><br/>                                      |
-| <span data-ttu-id="33e8f-117">Idl</span><span class="sxs-lookup"><span data-stu-id="33e8f-117">IDL</span></span><br/>                      | <dl> <span data-ttu-id="33e8f-118"><dt>Mfmediaengine .idl</dt></span><span class="sxs-lookup"><span data-stu-id="33e8f-118"><dt>Mfmediaengine.idl</dt></span></span> </dl> |
+| <span data-ttu-id="48400-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="48400-113">Minimum supported client</span></span><br/> | <span data-ttu-id="48400-114">\[僅 Windows 8.1 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="48400-114">Windows 8.1 \[desktop apps only\]</span></span><br/>                                                 |
+| <span data-ttu-id="48400-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="48400-115">Minimum supported server</span></span><br/> | <span data-ttu-id="48400-116">僅限 Windows Server 2012 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="48400-116">Windows Server 2012 R2 \[desktop apps only\]</span></span><br/>                                      |
+| <span data-ttu-id="48400-117">Idl</span><span class="sxs-lookup"><span data-stu-id="48400-117">IDL</span></span><br/>                      | <dl> <span data-ttu-id="48400-118"><dt>Mfmediaengine .idl</dt></span><span class="sxs-lookup"><span data-stu-id="48400-118"><dt>Mfmediaengine.idl</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="33e8f-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="33e8f-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48400-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="48400-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="33e8f-120">**IMFMediaSourceExtension**</span><span class="sxs-lookup"><span data-stu-id="33e8f-120">**IMFMediaSourceExtension**</span></span>](/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension)
+[<span data-ttu-id="48400-120">**IMFMediaSourceExtension**</span><span class="sxs-lookup"><span data-stu-id="48400-120">**IMFMediaSourceExtension**</span></span>](/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension)
 </dt> <dt>
 
-[<span data-ttu-id="33e8f-121">**MF \_ MSE \_ 就緒**</span><span class="sxs-lookup"><span data-stu-id="33e8f-121">**MF\_MSE\_READY**</span></span>](mf-mse-ready.md)
+[<span data-ttu-id="48400-121">**MF \_ MSE \_ 就緒**</span><span class="sxs-lookup"><span data-stu-id="48400-121">**MF\_MSE\_READY**</span></span>](mf-mse-ready.md)
 </dt> </dl>
 
  

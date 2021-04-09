@@ -1,0 +1,36 @@
+---
+title: 釋放 WinSNMP 描述項
+description: 根據哪個元件配置描述項的記憶體而定，WinSNMP 程式設計環境會將描述元資源解除配置指派給 WinSNMP 的執行或 WinSNMP 應用程式。
+ms.assetid: 3e4cbbc5-18bc-4731-971c-6e533d904f56
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f97828c55d59932b7f4bdb75cbcf98964edd4a7e
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104093236"
+---
+# <a name="freeing-winsnmp-descriptors"></a><span data-ttu-id="7db94-103">釋放 WinSNMP 描述項</span><span class="sxs-lookup"><span data-stu-id="7db94-103">Freeing WinSNMP Descriptors</span></span>
+
+<span data-ttu-id="7db94-104">根據哪個元件配置描述項的記憶體而定，WinSNMP 程式設計環境會將描述元資源解除配置指派給 WinSNMP 的執行或 WinSNMP 應用程式。</span><span class="sxs-lookup"><span data-stu-id="7db94-104">The WinSNMP programming environment assigns the deallocation of descriptor resources to the WinSNMP implementation or the WinSNMP application, depending on which component allocates the memory for the descriptor.</span></span>
+
+<span data-ttu-id="7db94-105">若要釋放 [**smiOID**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioid) 或 [**smiOCTETS**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioctets) 描述項的資源，則適用下列規則：</span><span class="sxs-lookup"><span data-stu-id="7db94-105">To free the resources for an [**smiOID**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioid) or an [**smiOCTETS**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioctets) descriptor, the following rules apply:</span></span>
+
+-   <span data-ttu-id="7db94-106">針對輸入參數</span><span class="sxs-lookup"><span data-stu-id="7db94-106">For input parameters</span></span>
+
+    <span data-ttu-id="7db94-107">由於 WinSNMP 應用程式會為具有可變長度的輸入物件配置記憶體，因此應用程式必須使用適當的函式釋放該記憶體。</span><span class="sxs-lookup"><span data-stu-id="7db94-107">Because the WinSNMP application allocates the memory for input objects with variable lengths, the application must free that memory using an appropriate function.</span></span> <span data-ttu-id="7db94-108">例如，如果應用程式使用 [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc) 函式的呼叫來配置資源，則應該使用 [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) 函式來解除配置資源。</span><span class="sxs-lookup"><span data-stu-id="7db94-108">For example, if the application allocated the resources with a call to the [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc) function, it should use the [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) function to deallocate the resources.</span></span> <span data-ttu-id="7db94-109">如果應用程式使用 [**HeapAlloc**](/windows/desktop/api/heapapi/nf-heapapi-heapalloc) 函式的呼叫來配置資源，它應該呼叫 [**HeapFree**](/windows/desktop/api/heapapi/nf-heapapi-heapfree) 函數。</span><span class="sxs-lookup"><span data-stu-id="7db94-109">If the application allocated the resources with a call to the [**HeapAlloc**](/windows/desktop/api/heapapi/nf-heapapi-heapalloc) function, it should call the [**HeapFree**](/windows/desktop/api/heapapi/nf-heapapi-heapfree) function.</span></span>
+
+-   <span data-ttu-id="7db94-110">針對輸出參數</span><span class="sxs-lookup"><span data-stu-id="7db94-110">For output parameters</span></span>
+
+    <span data-ttu-id="7db94-111">呼叫下列任何函式時，會導致執行配置為 [**smiOID**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioid) 或 [**smiOCTETS**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioctets) 描述項配置記憶體： [**SnmpGetVb**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetvb)、 [**SnmpEncodeMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpencodemsg)、 [**SnmpOidCopy**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpoidcopy)、 [**SnmpCoNtextToStr**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcontexttostr)和 [**SnmpStrToOid**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstrtooid)。</span><span class="sxs-lookup"><span data-stu-id="7db94-111">A call to any of the following functions results in the implementation allocating memory for an [**smiOID**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioid) or an [**smiOCTETS**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioctets) descriptor: [**SnmpGetVb**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetvb), [**SnmpEncodeMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpencodemsg), [**SnmpOidCopy**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpoidcopy), [**SnmpContextToStr**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcontexttostr), and [**SnmpStrToOid**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstrtooid).</span></span>
+
+    <span data-ttu-id="7db94-112">因為執行會為這些輸出物件配置記憶體，所以應用程式必須呼叫 [**SnmpFreeDescriptor**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreedescriptor) 函式來解除配置資源。</span><span class="sxs-lookup"><span data-stu-id="7db94-112">Because the implementation allocates the memory for these output objects, the application must call the [**SnmpFreeDescriptor**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreedescriptor) function to deallocate the resources.</span></span> <span data-ttu-id="7db94-113">此函式可讓執行程式釋放為這些結構的 **ptr** 成員所配置的記憶體。</span><span class="sxs-lookup"><span data-stu-id="7db94-113">This function enables the implementation to free the memory allocated for the **ptr** member of these structures.</span></span>
+
+<span data-ttu-id="7db94-114">若要釋放 [**smiVALUE**](/windows/desktop/api/Winsnmp/ns-winsnmp-smivalue)結構的資源，必須檢查 [**smiVALUE**](/windows/desktop/api/Winsnmp/ns-winsnmp-smivalue)結構的 **語法** 成員，以正確地評估結構的 **值** 成員。</span><span class="sxs-lookup"><span data-stu-id="7db94-114">To free the resources for an [**smiVALUE**](/windows/desktop/api/Winsnmp/ns-winsnmp-smivalue) structure, a WinSNMP application must check the **syntax** member of an [**smiVALUE**](/windows/desktop/api/Winsnmp/ns-winsnmp-smivalue) structure to correctly evaluate the **value** member of the structure.</span></span> <span data-ttu-id="7db94-115">如果 **語法** 成員指出 **值** 成員是 [**smiOCTETS**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioctets) 或 [**smiOID**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioid) 描述元，且執行配置了描述項的資源，則應用程式必須呼叫 [**SnmpFreeDescriptor**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreedescriptor)。</span><span class="sxs-lookup"><span data-stu-id="7db94-115">If the **syntax** member indicates that the **value** member is an [**smiOCTETS**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioctets) or an [**smiOID**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioid) descriptor, and the implementation allocated the resources for the descriptor, the application must call [**SnmpFreeDescriptor**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreedescriptor).</span></span> <span data-ttu-id="7db94-116">這可讓實作為釋放記憶體。</span><span class="sxs-lookup"><span data-stu-id="7db94-116">This enables the implementation to free the memory.</span></span> <span data-ttu-id="7db94-117">如果應用程式佈建了資源，就必須使用適當的函式來釋放記憶體，如先前所述。</span><span class="sxs-lookup"><span data-stu-id="7db94-117">If the application allocated the resources, it must free the memory using an appropriate function, as indicated earlier.</span></span>
+
+<span data-ttu-id="7db94-118">如需詳細資訊，請參閱配置 [WinSNMP 記憶體物件](allocating-winsnmp-memory-objects.md)。</span><span class="sxs-lookup"><span data-stu-id="7db94-118">For more information, see [Allocating WinSNMP Memory Objects](allocating-winsnmp-memory-objects.md).</span></span>
+
+ 
+
+ 

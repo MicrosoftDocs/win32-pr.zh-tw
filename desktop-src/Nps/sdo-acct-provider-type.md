@@ -12,19 +12,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682752"
 ---
-# <a name="acct-provider-type"></a><span data-ttu-id="5068a-104">帳戶提供者-類型</span><span class="sxs-lookup"><span data-stu-id="5068a-104">Acct-Provider-Type</span></span>
+# <a name="acct-provider-type"></a><span data-ttu-id="0cf68-104">帳戶提供者-類型</span><span class="sxs-lookup"><span data-stu-id="0cf68-104">Acct-Provider-Type</span></span>
 
-<span data-ttu-id="5068a-105">要使用的帳戶處理提供者類型。</span><span class="sxs-lookup"><span data-stu-id="5068a-105">The type of accounting provider to use.</span></span> <span data-ttu-id="5068a-106">目前只支援一種類型。</span><span class="sxs-lookup"><span data-stu-id="5068a-106">Currently, only one type is supported.</span></span>
+<span data-ttu-id="0cf68-105">要使用的帳戶處理提供者類型。</span><span class="sxs-lookup"><span data-stu-id="0cf68-105">The type of accounting provider to use.</span></span> <span data-ttu-id="0cf68-106">目前只支援一種類型。</span><span class="sxs-lookup"><span data-stu-id="0cf68-106">Currently, only one type is supported.</span></span>
 
-<span data-ttu-id="5068a-107">**LDAP 名稱：** msAcctProviderType</span><span class="sxs-lookup"><span data-stu-id="5068a-107">**LDAP Name:** msAcctProviderType</span></span>
+<span data-ttu-id="0cf68-107">**LDAP 名稱：** msAcctProviderType</span><span class="sxs-lookup"><span data-stu-id="0cf68-107">**LDAP Name:** msAcctProviderType</span></span>
 
-<span data-ttu-id="5068a-108">**識別碼：** 4138 = [ **IAS \_ 屬性的 \_ 帳戶 \_ 提供者 \_ 類型**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span><span class="sxs-lookup"><span data-stu-id="5068a-108">**ID:** 4138 = [**IAS\_ATTRIBUTE\_ACCT\_PROVIDER\_TYPE**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span></span>
+<span data-ttu-id="0cf68-108">**識別碼：** 4138 = [ **IAS \_ 屬性的 \_ 帳戶 \_ 提供者 \_ 類型**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span><span class="sxs-lookup"><span data-stu-id="0cf68-108">**ID:** 4138 = [**IAS\_ATTRIBUTE\_ACCT\_PROVIDER\_TYPE**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span></span>
 
-<span data-ttu-id="5068a-109">**語法：** 枚舉 數</span><span class="sxs-lookup"><span data-stu-id="5068a-109">**Syntax:** Enumerator</span></span>
+<span data-ttu-id="0cf68-109">**語法：** 枚舉 數</span><span class="sxs-lookup"><span data-stu-id="0cf68-109">**Syntax:** Enumerator</span></span>
 
-<span data-ttu-id="5068a-110">**值：  **</span><span class="sxs-lookup"><span data-stu-id="5068a-110">**Values:  **</span></span>
+<span data-ttu-id="0cf68-110">**值：  **</span><span class="sxs-lookup"><span data-stu-id="0cf68-110">**Values:  **</span></span>
 
--   <span data-ttu-id="5068a-111">RADIUS Proxy (2) </span><span class="sxs-lookup"><span data-stu-id="5068a-111">RADIUS Proxy (2)</span></span>
+-   <span data-ttu-id="0cf68-111">RADIUS Proxy (2) </span><span class="sxs-lookup"><span data-stu-id="0cf68-111">RADIUS Proxy (2)</span></span>
 
  
 

@@ -12,9 +12,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/20/2020
 ms.locfileid: "103681497"
 ---
-# <a name="embedding-the-remote-desktop-activex-control-in-a-webpage"></a><span data-ttu-id="43edd-103">在網頁中內嵌遠端桌面 ActiveX 控制項</span><span class="sxs-lookup"><span data-stu-id="43edd-103">Embedding the Remote Desktop ActiveX control in a webpage</span></span>
+# <a name="embedding-the-remote-desktop-activex-control-in-a-webpage"></a><span data-ttu-id="65aaf-103">在網頁中內嵌遠端桌面 ActiveX 控制項</span><span class="sxs-lookup"><span data-stu-id="65aaf-103">Embedding the Remote Desktop ActiveX control in a webpage</span></span>
 
-<span data-ttu-id="43edd-104">您可以使用類似下面的程式碼，將遠端桌面 ActiveX 控制項內嵌在網頁中。</span><span class="sxs-lookup"><span data-stu-id="43edd-104">You can embed the Remote Desktop ActiveX control in a web page by using code that is similar to the following.</span></span>
+<span data-ttu-id="65aaf-104">您可以使用類似下面的程式碼，將遠端桌面 ActiveX 控制項內嵌在網頁中。</span><span class="sxs-lookup"><span data-stu-id="65aaf-104">You can embed the Remote Desktop ActiveX control in a web page by using code that is similar to the following.</span></span>
 
 
 ```HTML
@@ -466,13 +466,13 @@ end sub
 
 
 
-<span data-ttu-id="43edd-105">CLSID 適用于由遠端桌面連線 (RDP) 6.0 所裝載的 ActiveX 控制項。</span><span class="sxs-lookup"><span data-stu-id="43edd-105">The CLSID is for the ActiveX control that is hosted by Remote Desktop Connection (RDP) 6.0.</span></span> <span data-ttu-id="43edd-106">此 ActiveX 控制項會執行 [**IMsRdpClient**](imsrdpclient-interface.md)。</span><span class="sxs-lookup"><span data-stu-id="43edd-106">This ActiveX control implements [**IMsRdpClient**](imsrdpclient-interface.md).</span></span>
+<span data-ttu-id="65aaf-105">CLSID 適用于由遠端桌面連線 (RDP) 6.0 所裝載的 ActiveX 控制項。</span><span class="sxs-lookup"><span data-stu-id="65aaf-105">The CLSID is for the ActiveX control that is hosted by Remote Desktop Connection (RDP) 6.0.</span></span> <span data-ttu-id="65aaf-106">此 ActiveX 控制項會執行 [**IMsRdpClient**](imsrdpclient-interface.md)。</span><span class="sxs-lookup"><span data-stu-id="65aaf-106">This ActiveX control implements [**IMsRdpClient**](imsrdpclient-interface.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="43edd-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="43edd-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="65aaf-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="65aaf-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="43edd-108">使用遠端桌面 ActiveX 控制項</span><span class="sxs-lookup"><span data-stu-id="43edd-108">Using the Remote Desktop ActiveX control</span></span>](using-remote-desktop-web-connection.md)
+[<span data-ttu-id="65aaf-108">使用遠端桌面 ActiveX 控制項</span><span class="sxs-lookup"><span data-stu-id="65aaf-108">Using the Remote Desktop ActiveX control</span></span>](using-remote-desktop-web-connection.md)
 </dt> </dl>
 
  

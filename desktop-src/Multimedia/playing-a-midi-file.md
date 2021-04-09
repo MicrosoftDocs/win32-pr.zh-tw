@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103933161"
 ---
-# <a name="playing-a-midi-file"></a><span data-ttu-id="d6b06-103">播放 MIDI 檔案</span><span class="sxs-lookup"><span data-stu-id="d6b06-103">Playing a MIDI File</span></span>
+# <a name="playing-a-midi-file"></a><span data-ttu-id="d5434-103">播放 MIDI 檔案</span><span class="sxs-lookup"><span data-stu-id="d5434-103">Playing a MIDI File</span></span>
 
-<span data-ttu-id="d6b06-104">下列範例會開啟一個 MIDI sequencer 裝置、確認已選取 MIDI 對應程式作為輸出埠、播放 *lpszMIDIFileName* 參數所指定的 midi 檔案，然後在播放完成之後關閉裝置。</span><span class="sxs-lookup"><span data-stu-id="d6b06-104">The following example opens a MIDI sequencer device, verifies that the MIDI mapper was selected as the output port, plays the MIDI file specified by the *lpszMIDIFileName* parameter, and closes the device after playback is complete.</span></span> <span data-ttu-id="d6b06-105">它會使用 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 函數。</span><span class="sxs-lookup"><span data-stu-id="d6b06-105">It uses the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.</span></span>
+<span data-ttu-id="d5434-104">下列範例會開啟一個 MIDI sequencer 裝置、確認已選取 MIDI 對應程式作為輸出埠、播放 *lpszMIDIFileName* 參數所指定的 midi 檔案，然後在播放完成之後關閉裝置。</span><span class="sxs-lookup"><span data-stu-id="d5434-104">The following example opens a MIDI sequencer device, verifies that the MIDI mapper was selected as the output port, plays the MIDI file specified by the *lpszMIDIFileName* parameter, and closes the device after playback is complete.</span></span> <span data-ttu-id="d5434-105">它會使用 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 函數。</span><span class="sxs-lookup"><span data-stu-id="d5434-105">It uses the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.</span></span>
 
 
 ```C++
