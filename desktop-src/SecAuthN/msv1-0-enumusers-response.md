@@ -1,0 +1,22 @@
+---
+description: MSV1 \_ 0 \_ ENUMUSERS \_ 回應結構已過時。
+ms.assetid: d21aafc3-37a6-4cd3-a180-dd1fa6c195d8
+title: MSV1_0_ENUMUSERS_RESPONSE
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 274e3081f15baded48f9286380514e6be3a6586b
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103944832"
+---
+# <a name="msv1_0_enumusers_response"></a>MSV1 \_ 0 \_ ENUMUSERS \_ 回應
+
+MSV1 \_ 0 \_ ENUMUSERS \_ 回應結構已過時。
+
+若要取得已登入使用者的相關資訊，請參閱 [**NetWkstaUserEnum**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstauserenum) 函式。
+
+ 
+
+ 
