@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103688539"
 ---
-# <a name="fatal-application-exit"></a><span data-ttu-id="eec24-104">嚴重應用程式結束</span><span class="sxs-lookup"><span data-stu-id="eec24-104">Fatal Application Exit</span></span>
+# <a name="fatal-application-exit"></a><span data-ttu-id="7a2a6-104">嚴重應用程式結束</span><span class="sxs-lookup"><span data-stu-id="7a2a6-104">Fatal Application Exit</span></span>
 
-<span data-ttu-id="eec24-105">**FatalAppExit** 函式會顯示訊息方塊，並在使用者關閉訊息方塊時終止應用程式。</span><span class="sxs-lookup"><span data-stu-id="eec24-105">The **FatalAppExit** function displays a message box and terminates the application when the user closes the message box.</span></span> <span data-ttu-id="eec24-106">這個函式只能用來做為最後的手段，因為它可能無法釋放應用程式所擁有的記憶體或檔案。</span><span class="sxs-lookup"><span data-stu-id="eec24-106">This function should only be used as a last resort, because it may not free the memory or files owned by the application.</span></span>
+<span data-ttu-id="7a2a6-105">**FatalAppExit** 函式會顯示訊息方塊，並在使用者關閉訊息方塊時終止應用程式。</span><span class="sxs-lookup"><span data-stu-id="7a2a6-105">The **FatalAppExit** function displays a message box and terminates the application when the user closes the message box.</span></span> <span data-ttu-id="7a2a6-106">這個函式只能用來做為最後的手段，因為它可能無法釋放應用程式所擁有的記憶體或檔案。</span><span class="sxs-lookup"><span data-stu-id="7a2a6-106">This function should only be used as a last resort, because it may not free the memory or files owned by the application.</span></span>
 
  
 

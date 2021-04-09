@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689540"
 ---
-# <a name="jet_unicodeindexdeepclone-method"></a><span data-ttu-id="fc772-103">JET_UNICODEINDEX。DeepClone 方法</span><span class="sxs-lookup"><span data-stu-id="fc772-103">JET_UNICODEINDEX.DeepClone method</span></span>
+# <a name="jet_unicodeindexdeepclone-method"></a><span data-ttu-id="04686-103">JET_UNICODEINDEX。DeepClone 方法</span><span class="sxs-lookup"><span data-stu-id="04686-103">JET_UNICODEINDEX.DeepClone method</span></span>
 
-<span data-ttu-id="fc772-104">傳回物件的深層複本。</span><span class="sxs-lookup"><span data-stu-id="fc772-104">Returns a deep copy of the object.</span></span>
+<span data-ttu-id="04686-104">傳回物件的深層複本。</span><span class="sxs-lookup"><span data-stu-id="04686-104">Returns a deep copy of the object.</span></span>
 
-<span data-ttu-id="fc772-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="fc772-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="fc772-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="fc772-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="04686-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="04686-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="04686-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="04686-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fc772-107">語法</span><span class="sxs-lookup"><span data-stu-id="fc772-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="04686-107">語法</span><span class="sxs-lookup"><span data-stu-id="04686-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -54,21 +54,21 @@ returnValue = instance.DeepClone()
 public JET_UNICODEINDEX DeepClone()
 ```
 
-#### <a name="return-value"></a><span data-ttu-id="fc772-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="fc772-108">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="04686-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="04686-108">Return value</span></span>
 
-<span data-ttu-id="fc772-109">類型： [Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX](./jet-unicodeindex-class.md)</span><span class="sxs-lookup"><span data-stu-id="fc772-109">Type: [Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX](./jet-unicodeindex-class.md)</span></span>  
-<span data-ttu-id="fc772-110">物件的深層複本。</span><span class="sxs-lookup"><span data-stu-id="fc772-110">A deep copy of the object.</span></span>  
+<span data-ttu-id="04686-109">類型： [Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX](./jet-unicodeindex-class.md)</span><span class="sxs-lookup"><span data-stu-id="04686-109">Type: [Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX](./jet-unicodeindex-class.md)</span></span>  
+<span data-ttu-id="04686-110">物件的深層複本。</span><span class="sxs-lookup"><span data-stu-id="04686-110">A deep copy of the object.</span></span>  
 
-#### <a name="implements"></a><span data-ttu-id="fc772-111">實作</span><span class="sxs-lookup"><span data-stu-id="fc772-111">Implements</span></span>
+#### <a name="implements"></a><span data-ttu-id="04686-111">實作</span><span class="sxs-lookup"><span data-stu-id="04686-111">Implements</span></span>
 
-[<span data-ttu-id="fc772-112">IDeepCloneable \<T\> 。DeepClone () </span><span class="sxs-lookup"><span data-stu-id="fc772-112">IDeepCloneable\<T\>.DeepClone()</span></span>](./ideepcloneable-t-.deepclone-method.md)  
+[<span data-ttu-id="04686-112">IDeepCloneable \<T\> 。DeepClone () </span><span class="sxs-lookup"><span data-stu-id="04686-112">IDeepCloneable\<T\>.DeepClone()</span></span>](./ideepcloneable-t-.deepclone-method.md)  
 
-## <a name="see-also"></a><span data-ttu-id="fc772-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fc772-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04686-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="04686-113">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="fc772-114">參考</span><span class="sxs-lookup"><span data-stu-id="fc772-114">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="04686-114">參考</span><span class="sxs-lookup"><span data-stu-id="04686-114">Reference</span></span>
 
-[<span data-ttu-id="fc772-115">JET_UNICODEINDEX 類別</span><span class="sxs-lookup"><span data-stu-id="fc772-115">JET_UNICODEINDEX class</span></span>](./jet-unicodeindex-class.md)
+[<span data-ttu-id="04686-115">JET_UNICODEINDEX 類別</span><span class="sxs-lookup"><span data-stu-id="04686-115">JET_UNICODEINDEX class</span></span>](./jet-unicodeindex-class.md)
 
-[<span data-ttu-id="fc772-116">JET_UNICODEINDEX 成員</span><span class="sxs-lookup"><span data-stu-id="fc772-116">JET_UNICODEINDEX members</span></span>](./jet-unicodeindex-members.md)
+[<span data-ttu-id="04686-116">JET_UNICODEINDEX 成員</span><span class="sxs-lookup"><span data-stu-id="04686-116">JET_UNICODEINDEX members</span></span>](./jet-unicodeindex-members.md)
 
-[<span data-ttu-id="fc772-117">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="fc772-117">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="04686-117">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="04686-117">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
