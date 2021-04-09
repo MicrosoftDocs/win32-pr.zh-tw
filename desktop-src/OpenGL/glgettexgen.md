@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021358"
 ---
-# <a name="glgettexgen-functions"></a><span data-ttu-id="68967-103">glGetTexGen 函式</span><span class="sxs-lookup"><span data-stu-id="68967-103">glGetTexGen Functions</span></span>
+# <a name="glgettexgen-functions"></a><span data-ttu-id="955e8-103">glGetTexGen 函式</span><span class="sxs-lookup"><span data-stu-id="955e8-103">glGetTexGen Functions</span></span>
 
-<span data-ttu-id="68967-104">這些函數會傳回材質座標產生參數：</span><span class="sxs-lookup"><span data-stu-id="68967-104">These functions return texture coordinate generation parameters:</span></span>
+<span data-ttu-id="955e8-104">這些函數會傳回材質座標產生參數：</span><span class="sxs-lookup"><span data-stu-id="955e8-104">These functions return texture coordinate generation parameters:</span></span>
 
--   [<span data-ttu-id="68967-105">**glGetTexGendv**</span><span class="sxs-lookup"><span data-stu-id="68967-105">**glGetTexGendv**</span></span>](glgettexgendv.md)
--   [<span data-ttu-id="68967-106">**glGetTexGenfv**</span><span class="sxs-lookup"><span data-stu-id="68967-106">**glGetTexGenfv**</span></span>](glgettexgenfv.md)
--   [<span data-ttu-id="68967-107">**glGetTexGeniv**</span><span class="sxs-lookup"><span data-stu-id="68967-107">**glGetTexGeniv**</span></span>](glgettexgeniv.md)
+-   [<span data-ttu-id="955e8-105">**glGetTexGendv**</span><span class="sxs-lookup"><span data-stu-id="955e8-105">**glGetTexGendv**</span></span>](glgettexgendv.md)
+-   [<span data-ttu-id="955e8-106">**glGetTexGenfv**</span><span class="sxs-lookup"><span data-stu-id="955e8-106">**glGetTexGenfv**</span></span>](glgettexgenfv.md)
+-   [<span data-ttu-id="955e8-107">**glGetTexGeniv**</span><span class="sxs-lookup"><span data-stu-id="955e8-107">**glGetTexGeniv**</span></span>](glgettexgeniv.md)
 
  
 

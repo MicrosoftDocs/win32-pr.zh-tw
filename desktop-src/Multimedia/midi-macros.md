@@ -19,18 +19,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103842244"
 ---
-# <a name="midi-macros"></a><span data-ttu-id="e53c2-110">MIDI 宏</span><span class="sxs-lookup"><span data-stu-id="e53c2-110">MIDI Macros</span></span>
+# <a name="midi-macros"></a><span data-ttu-id="c62e8-110">MIDI 宏</span><span class="sxs-lookup"><span data-stu-id="c62e8-110">MIDI Macros</span></span>
 
-<span data-ttu-id="e53c2-111">下列宏適用于 MIDI。</span><span class="sxs-lookup"><span data-stu-id="e53c2-111">The following macros are used with MIDI.</span></span>
+<span data-ttu-id="c62e8-111">下列宏適用于 MIDI。</span><span class="sxs-lookup"><span data-stu-id="c62e8-111">The following macros are used with MIDI.</span></span>
 
--   [<span data-ttu-id="e53c2-112">**MEVT \_ EVENTPARM**</span><span class="sxs-lookup"><span data-stu-id="e53c2-112">**MEVT\_EVENTPARM**</span></span>](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventparm)
--   [<span data-ttu-id="e53c2-113">**MEVT 的 \_ 事件**</span><span class="sxs-lookup"><span data-stu-id="e53c2-113">**MEVT\_EVENTTYPE**</span></span>](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventtype)
+-   [<span data-ttu-id="c62e8-112">**MEVT \_ EVENTPARM**</span><span class="sxs-lookup"><span data-stu-id="c62e8-112">**MEVT\_EVENTPARM**</span></span>](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventparm)
+-   [<span data-ttu-id="c62e8-113">**MEVT 的 \_ 事件**</span><span class="sxs-lookup"><span data-stu-id="c62e8-113">**MEVT\_EVENTTYPE**</span></span>](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventtype)
 
-## <a name="related-topics"></a><span data-ttu-id="e53c2-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="e53c2-114">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c62e8-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="c62e8-114">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e53c2-115">MIDI 參考</span><span class="sxs-lookup"><span data-stu-id="e53c2-115">MIDI Reference</span></span>](midi-reference.md)
+[<span data-ttu-id="c62e8-115">MIDI 參考</span><span class="sxs-lookup"><span data-stu-id="c62e8-115">MIDI Reference</span></span>](midi-reference.md)
 </dt> </dl>
 
  

@@ -18,9 +18,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021365"
 ---
-# <a name="bitmaps-section"></a><span data-ttu-id="b9a4d-109">點陣圖區段</span><span class="sxs-lookup"><span data-stu-id="b9a4d-109">Bitmaps Section</span></span>
+# <a name="bitmaps-section"></a><span data-ttu-id="023d7-109">點陣圖區段</span><span class="sxs-lookup"><span data-stu-id="023d7-109">Bitmaps Section</span></span>
 
-<span data-ttu-id="b9a4d-110">接下來，您必須有定義每個點陣圖檔案的區段。</span><span class="sxs-lookup"><span data-stu-id="b9a4d-110">Next, you must have a section that defines each of your bitmap files.</span></span> <span data-ttu-id="b9a4d-111">您將使用的每種點陣圖類型都必須有一個指派的檔案，不過您可以使用相同的點陣圖來擁有多個類型。</span><span class="sxs-lookup"><span data-stu-id="b9a4d-111">Each type of bitmap you will use must have a file assigned to it, though you can have more than one type using the same bitmap.</span></span>
+<span data-ttu-id="023d7-110">接下來，您必須有定義每個點陣圖檔案的區段。</span><span class="sxs-lookup"><span data-stu-id="023d7-110">Next, you must have a section that defines each of your bitmap files.</span></span> <span data-ttu-id="023d7-111">您將使用的每種點陣圖類型都必須有一個指派的檔案，不過您可以使用相同的點陣圖來擁有多個類型。</span><span class="sxs-lookup"><span data-stu-id="023d7-111">Each type of bitmap you will use must have a file assigned to it, though you can have more than one type using the same bitmap.</span></span>
 
 
 ```C++
@@ -38,18 +38,18 @@ ms.locfileid: "104021365"
 
 
 
-<span data-ttu-id="b9a4d-112">點陣圖區段的開頭必須是以括弧括住的單字點陣圖，然後是您想要定義的每個點陣圖類型的行。</span><span class="sxs-lookup"><span data-stu-id="b9a4d-112">The Bitmaps section must begin with the word Bitmaps in brackets and then a line for each bitmap type you want to define.</span></span> <span data-ttu-id="b9a4d-113">在此範例中，已定義五種類型的點陣圖。</span><span class="sxs-lookup"><span data-stu-id="b9a4d-113">In this example, five types of bitmaps were defined.</span></span> <span data-ttu-id="b9a4d-114">如需點陣圖區段的詳細資訊，請參閱面板參考中的 [點陣圖](bitmaps.md) 。</span><span class="sxs-lookup"><span data-stu-id="b9a4d-114">For more about the Bitmaps section, see [Bitmaps](bitmaps.md) in the Skin Reference.</span></span>
+<span data-ttu-id="023d7-112">點陣圖區段的開頭必須是以括弧括住的單字點陣圖，然後是您想要定義的每個點陣圖類型的行。</span><span class="sxs-lookup"><span data-stu-id="023d7-112">The Bitmaps section must begin with the word Bitmaps in brackets and then a line for each bitmap type you want to define.</span></span> <span data-ttu-id="023d7-113">在此範例中，已定義五種類型的點陣圖。</span><span class="sxs-lookup"><span data-stu-id="023d7-113">In this example, five types of bitmaps were defined.</span></span> <span data-ttu-id="023d7-114">如需點陣圖區段的詳細資訊，請參閱面板參考中的 [點陣圖](bitmaps.md) 。</span><span class="sxs-lookup"><span data-stu-id="023d7-114">For more about the Bitmaps section, see [Bitmaps](bitmaps.md) in the Skin Reference.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="b9a4d-115">區域和超級點陣圖在 Windows Media Player 10 個行動裝置版或更新版本的外觀中已被取代。</span><span class="sxs-lookup"><span data-stu-id="b9a4d-115">The Region and Super bitmaps are deprecated in Windows Media Player 10 Mobile or later skins.</span></span>
+> <span data-ttu-id="023d7-115">區域和超級點陣圖在 Windows Media Player 10 個行動裝置版或更新版本的外觀中已被取代。</span><span class="sxs-lookup"><span data-stu-id="023d7-115">The Region and Super bitmaps are deprecated in Windows Media Player 10 Mobile or later skins.</span></span>
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="b9a4d-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="b9a4d-116">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="023d7-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="023d7-116">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b9a4d-117">**撰寫程式碼**</span><span class="sxs-lookup"><span data-stu-id="b9a4d-117">**Writing the Code**</span></span>](writing-the-code.md)
+[<span data-ttu-id="023d7-117">**撰寫程式碼**</span><span class="sxs-lookup"><span data-stu-id="023d7-117">**Writing the Code**</span></span>](writing-the-code.md)
 </dt> </dl>
 
  

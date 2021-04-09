@@ -15,9 +15,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021327"
 ---
-# <a name="monitoring-compressor-and-decompressor-progress"></a><span data-ttu-id="6b990-106">監視壓縮和解壓縮進程進度</span><span class="sxs-lookup"><span data-stu-id="6b990-106">Monitoring Compressor and Decompressor Progress</span></span>
+# <a name="monitoring-compressor-and-decompressor-progress"></a><span data-ttu-id="9f098-106">監視壓縮和解壓縮進程進度</span><span class="sxs-lookup"><span data-stu-id="9f098-106">Monitoring Compressor and Decompressor Progress</span></span>
 
-<span data-ttu-id="6b990-107">下列範例示範如何使用 [**ICSetStatusProc**](/windows/desktop/api/Vfw/nf-vfw-icsetstatusproc) 函式來通知壓縮程式或解壓縮回呼函數位址：</span><span class="sxs-lookup"><span data-stu-id="6b990-107">The following example shows how the [**ICSetStatusProc**](/windows/desktop/api/Vfw/nf-vfw-icsetstatusproc) function is used to inform the compressor or decompressor of the callback function address:</span></span>
+<span data-ttu-id="9f098-107">下列範例示範如何使用 [**ICSetStatusProc**](/windows/desktop/api/Vfw/nf-vfw-icsetstatusproc) 函式來通知壓縮程式或解壓縮回呼函數位址：</span><span class="sxs-lookup"><span data-stu-id="9f098-107">The following example shows how the [**ICSetStatusProc**](/windows/desktop/api/Vfw/nf-vfw-icsetstatusproc) function is used to inform the compressor or decompressor of the callback function address:</span></span>
 
 
 ```C++
@@ -28,7 +28,7 @@ ICSetStatusProc(compvars.hic, 0, (LPARAM) (UINT) hwndApp,
 
 
 
-<span data-ttu-id="6b990-108">下列範例顯示前一個片段所安裝的回呼函數：</span><span class="sxs-lookup"><span data-stu-id="6b990-108">The following example shows the callback function installed by the previous fragment:</span></span>
+<span data-ttu-id="9f098-108">下列範例顯示前一個片段所安裝的回呼函數：</span><span class="sxs-lookup"><span data-stu-id="9f098-108">The following example shows the callback function installed by the previous fragment:</span></span>
 
 
 ```C++

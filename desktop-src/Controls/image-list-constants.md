@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021020"
 ---
-# <a name="image-list-constants"></a><span data-ttu-id="d3c94-103">影像清單常數</span><span class="sxs-lookup"><span data-stu-id="d3c94-103">Image List Constants</span></span>
+# <a name="image-list-constants"></a><span data-ttu-id="9ab69-103">影像清單常數</span><span class="sxs-lookup"><span data-stu-id="9ab69-103">Image List Constants</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="d3c94-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="d3c94-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9ab69-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="9ab69-104">In This Section</span></span>
 
--   [<span data-ttu-id="d3c94-105">**影像清單建立旗標**</span><span class="sxs-lookup"><span data-stu-id="d3c94-105">**Image List Creation Flags**</span></span>](ilc-constants.md)
+-   [<span data-ttu-id="9ab69-105">**影像清單建立旗標**</span><span class="sxs-lookup"><span data-stu-id="9ab69-105">**Image List Creation Flags**</span></span>](ilc-constants.md)
 
  
 

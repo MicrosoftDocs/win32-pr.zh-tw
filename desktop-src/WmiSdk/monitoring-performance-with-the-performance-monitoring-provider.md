@@ -12,9 +12,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104111965"
 ---
-# <a name="the-performance-monitoring-provider"></a><span data-ttu-id="85b40-103">效能監視提供者</span><span class="sxs-lookup"><span data-stu-id="85b40-103">The Performance Monitoring Provider</span></span>
+# <a name="the-performance-monitoring-provider"></a><span data-ttu-id="1d845-103">效能監視提供者</span><span class="sxs-lookup"><span data-stu-id="1d845-103">The Performance Monitoring Provider</span></span>
 
-<span data-ttu-id="85b40-104">來自效能程式庫的資料是透過[WMIPerfClass 提供者](wmiperfclass-provider.md)和[WMIPerfInst 提供者](wmiperfinst-provider.md)，以 WMI[效能計數器類別](/windows/desktop/CIMWin32Prov/performance-counter-classes)的形式提供。</span><span class="sxs-lookup"><span data-stu-id="85b40-104">Data from performance libraries is available as WMI [Performance Counter Classes](/windows/desktop/CIMWin32Prov/performance-counter-classes) through the [WMIPerfClass Provider](wmiperfclass-provider.md) and [WMIPerfInst Provider](wmiperfinst-provider.md).</span></span>
+<span data-ttu-id="1d845-104">來自效能程式庫的資料是透過[WMIPerfClass 提供者](wmiperfclass-provider.md)和[WMIPerfInst 提供者](wmiperfinst-provider.md)，以 WMI[效能計數器類別](/windows/desktop/CIMWin32Prov/performance-counter-classes)的形式提供。</span><span class="sxs-lookup"><span data-stu-id="1d845-104">Data from performance libraries is available as WMI [Performance Counter Classes](/windows/desktop/CIMWin32Prov/performance-counter-classes) through the [WMIPerfClass Provider](wmiperfclass-provider.md) and [WMIPerfInst Provider](wmiperfinst-provider.md).</span></span>
 
  
 

@@ -15,9 +15,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "103681668"
 ---
-# <a name="example-code-for-creating-an-application-directory-partition"></a><span data-ttu-id="9c3a7-105">建立應用程式目錄分割的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="9c3a7-105">Example Code for Creating an Application Directory Partition</span></span>
+# <a name="example-code-for-creating-an-application-directory-partition"></a><span data-ttu-id="5f7bc-105">建立應用程式目錄分割的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="5f7bc-105">Example Code for Creating an Application Directory Partition</span></span>
 
-<span data-ttu-id="9c3a7-106">下列 c + + 程式碼範例會使用 ADSI 建立新的應用程式目錄分割。</span><span class="sxs-lookup"><span data-stu-id="9c3a7-106">The following C++ code example creates a new application directory partition using ADSI.</span></span>
+<span data-ttu-id="5f7bc-106">下列 c + + 程式碼範例會使用 ADSI 建立新的應用程式目錄分割。</span><span class="sxs-lookup"><span data-stu-id="5f7bc-106">The following C++ code example creates a new application directory partition using ADSI.</span></span>
 
 
 ```C++
@@ -128,7 +128,7 @@ HRESULT CreateApplicationPartitionIADs(LPCWSTR pwszDCADsPath,
 
 
 
-<span data-ttu-id="9c3a7-107">下列 Visual Basic Scripting Edition 程式碼範例顯示如何使用 ADSI 建立新的應用程式目錄分割。</span><span class="sxs-lookup"><span data-stu-id="9c3a7-107">The following Visual Basic Scripting Edition code example shows how to create a new application directory partition using ADSI.</span></span>
+<span data-ttu-id="5f7bc-107">下列 Visual Basic Scripting Edition 程式碼範例顯示如何使用 ADSI 建立新的應用程式目錄分割。</span><span class="sxs-lookup"><span data-stu-id="5f7bc-107">The following Visual Basic Scripting Edition code example shows how to create a new application directory partition using ADSI.</span></span>
 
 
 ```VB
@@ -215,7 +215,7 @@ End Sub
 
 
 
-<span data-ttu-id="9c3a7-108">下列 Visual Basic .NET 程式碼範例顯示如何使用 [DirectoryServices](/dotnet/api/system.directoryservices)建立新的應用程式目錄分割。</span><span class="sxs-lookup"><span data-stu-id="9c3a7-108">The following Visual Basic .NET code example shows how to create a new application directory partition using [System.DirectoryServices](/dotnet/api/system.directoryservices).</span></span>
+<span data-ttu-id="5f7bc-108">下列 Visual Basic .NET 程式碼範例顯示如何使用 [DirectoryServices](/dotnet/api/system.directoryservices)建立新的應用程式目錄分割。</span><span class="sxs-lookup"><span data-stu-id="5f7bc-108">The following Visual Basic .NET code example shows how to create a new application directory partition using [System.DirectoryServices](/dotnet/api/system.directoryservices).</span></span>
 
 
 ```VB
@@ -283,7 +283,7 @@ End Sub
 
 
 
-<span data-ttu-id="9c3a7-109">下列 c # 程式碼範例顯示如何使用 [DirectoryServices](/dotnet/api/system.directoryservices)建立新的應用程式目錄分割。</span><span class="sxs-lookup"><span data-stu-id="9c3a7-109">The following C# code example shows how to create a new application directory partition using [System.DirectoryServices](/dotnet/api/system.directoryservices).</span></span>
+<span data-ttu-id="5f7bc-109">下列 c # 程式碼範例顯示如何使用 [DirectoryServices](/dotnet/api/system.directoryservices)建立新的應用程式目錄分割。</span><span class="sxs-lookup"><span data-stu-id="5f7bc-109">The following C# code example shows how to create a new application directory partition using [System.DirectoryServices](/dotnet/api/system.directoryservices).</span></span>
 
 
 ```CSharp

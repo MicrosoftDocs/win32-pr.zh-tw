@@ -11,47 +11,47 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933401"
 ---
-# <a name="vml-layout-flow-attribute"></a><span data-ttu-id="367a2-103">VML Layout-Flow 屬性</span><span class="sxs-lookup"><span data-stu-id="367a2-103">VML Layout-Flow Attribute</span></span>
+# <a name="vml-layout-flow-attribute"></a><span data-ttu-id="2eb91-103">VML Layout-Flow 屬性</span><span class="sxs-lookup"><span data-stu-id="2eb91-103">VML Layout-Flow Attribute</span></span>
 
-<span data-ttu-id="367a2-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="367a2-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="367a2-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="367a2-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+<span data-ttu-id="2eb91-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="2eb91-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="2eb91-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="2eb91-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="367a2-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="367a2-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="367a2-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="367a2-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="367a2-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="367a2-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="367a2-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="367a2-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+> <span data-ttu-id="2eb91-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="2eb91-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="2eb91-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="2eb91-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="2eb91-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="2eb91-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="2eb91-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="2eb91-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
 
  
 
-<span data-ttu-id="367a2-110">決定文字方塊中文字版面配置的流程。</span><span class="sxs-lookup"><span data-stu-id="367a2-110">Determines the flow of the text layout in a textbox.</span></span> <span data-ttu-id="367a2-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="367a2-111">Read/write.</span></span> <span data-ttu-id="367a2-112">**字串**。</span><span class="sxs-lookup"><span data-stu-id="367a2-112">**String**.</span></span>
+<span data-ttu-id="2eb91-110">決定文字方塊中文字版面配置的流程。</span><span class="sxs-lookup"><span data-stu-id="2eb91-110">Determines the flow of the text layout in a textbox.</span></span> <span data-ttu-id="2eb91-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="2eb91-111">Read/write.</span></span> <span data-ttu-id="2eb91-112">**字串**。</span><span class="sxs-lookup"><span data-stu-id="2eb91-112">**String**.</span></span>
 
-<span data-ttu-id="367a2-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="367a2-113">**Applies To**</span></span>
+<span data-ttu-id="2eb91-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="2eb91-113">**Applies To**</span></span>
 
-[<span data-ttu-id="367a2-114">TextBox</span><span class="sxs-lookup"><span data-stu-id="367a2-114">TextBox</span></span>](msdn-online-vml-textbox-element.md)
+[<span data-ttu-id="2eb91-114">TextBox</span><span class="sxs-lookup"><span data-stu-id="2eb91-114">TextBox</span></span>](msdn-online-vml-textbox-element.md)
 
-<span data-ttu-id="367a2-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="367a2-115">**Tag Syntax**</span></span>
+<span data-ttu-id="2eb91-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="2eb91-115">**Tag Syntax**</span></span>
 
-<span data-ttu-id="367a2-116"><v： *element* style = "layout-flow： *expression* " ></span><span class="sxs-lookup"><span data-stu-id="367a2-116"><v: *element* style="layout-flow: *expression* "></span></span>
+<span data-ttu-id="2eb91-116"><v： *element* style = "layout-flow： *expression* " ></span><span class="sxs-lookup"><span data-stu-id="2eb91-116"><v: *element* style="layout-flow: *expression* "></span></span>
 
-<span data-ttu-id="367a2-117">**備註**</span><span class="sxs-lookup"><span data-stu-id="367a2-117">**Remarks**</span></span>
+<span data-ttu-id="2eb91-117">**備註**</span><span class="sxs-lookup"><span data-stu-id="2eb91-117">**Remarks**</span></span>
 
-<span data-ttu-id="367a2-118">數值包括：</span><span class="sxs-lookup"><span data-stu-id="367a2-118">Values include:</span></span>
+<span data-ttu-id="2eb91-118">數值包括：</span><span class="sxs-lookup"><span data-stu-id="2eb91-118">Values include:</span></span>
 
 
 
-| <span data-ttu-id="367a2-119">值</span><span class="sxs-lookup"><span data-stu-id="367a2-119">Value</span></span>                  | <span data-ttu-id="367a2-120">描述</span><span class="sxs-lookup"><span data-stu-id="367a2-120">Description</span></span>                                 |
+| <span data-ttu-id="2eb91-119">值</span><span class="sxs-lookup"><span data-stu-id="2eb91-119">Value</span></span>                  | <span data-ttu-id="2eb91-120">描述</span><span class="sxs-lookup"><span data-stu-id="2eb91-120">Description</span></span>                                 |
 |------------------------|---------------------------------------------|
-| <span data-ttu-id="367a2-121">水平</span><span class="sxs-lookup"><span data-stu-id="367a2-121">horizontal</span></span>             | <span data-ttu-id="367a2-122">文字會以水準方式顯示。</span><span class="sxs-lookup"><span data-stu-id="367a2-122">Text is displayed horizontally.</span></span> <span data-ttu-id="367a2-123">預設值。</span><span class="sxs-lookup"><span data-stu-id="367a2-123">Default.</span></span>    |
-| <span data-ttu-id="367a2-124">垂直</span><span class="sxs-lookup"><span data-stu-id="367a2-124">vertical</span></span>               | <span data-ttu-id="367a2-125">文字會垂直顯示。</span><span class="sxs-lookup"><span data-stu-id="367a2-125">Text is displayed vertically.</span></span>               |
-| <span data-ttu-id="367a2-126">垂直-表意文字</span><span class="sxs-lookup"><span data-stu-id="367a2-126">vertical-ideographic</span></span>   | <span data-ttu-id="367a2-127">會垂直顯示表意字。</span><span class="sxs-lookup"><span data-stu-id="367a2-127">Ideographic text is displayed vertically.</span></span>   |
-| <span data-ttu-id="367a2-128">水準-表意文字</span><span class="sxs-lookup"><span data-stu-id="367a2-128">horizontal-ideographic</span></span> | <span data-ttu-id="367a2-129">以水準方式顯示表意字。</span><span class="sxs-lookup"><span data-stu-id="367a2-129">Ideographic text is displayed horizontally.</span></span> |
+| <span data-ttu-id="2eb91-121">水平</span><span class="sxs-lookup"><span data-stu-id="2eb91-121">horizontal</span></span>             | <span data-ttu-id="2eb91-122">文字會以水準方式顯示。</span><span class="sxs-lookup"><span data-stu-id="2eb91-122">Text is displayed horizontally.</span></span> <span data-ttu-id="2eb91-123">預設值。</span><span class="sxs-lookup"><span data-stu-id="2eb91-123">Default.</span></span>    |
+| <span data-ttu-id="2eb91-124">垂直</span><span class="sxs-lookup"><span data-stu-id="2eb91-124">vertical</span></span>               | <span data-ttu-id="2eb91-125">文字會垂直顯示。</span><span class="sxs-lookup"><span data-stu-id="2eb91-125">Text is displayed vertically.</span></span>               |
+| <span data-ttu-id="2eb91-126">垂直-表意文字</span><span class="sxs-lookup"><span data-stu-id="2eb91-126">vertical-ideographic</span></span>   | <span data-ttu-id="2eb91-127">會垂直顯示表意字。</span><span class="sxs-lookup"><span data-stu-id="2eb91-127">Ideographic text is displayed vertically.</span></span>   |
+| <span data-ttu-id="2eb91-128">水準-表意文字</span><span class="sxs-lookup"><span data-stu-id="2eb91-128">horizontal-ideographic</span></span> | <span data-ttu-id="2eb91-129">以水準方式顯示表意字。</span><span class="sxs-lookup"><span data-stu-id="2eb91-129">Ideographic text is displayed horizontally.</span></span> |
 
 
 
  
 
-<span data-ttu-id="367a2-130">*VML 標準屬性*</span><span class="sxs-lookup"><span data-stu-id="367a2-130">*VML Standard Attribute*</span></span>
+<span data-ttu-id="2eb91-130">*VML 標準屬性*</span><span class="sxs-lookup"><span data-stu-id="2eb91-130">*VML Standard Attribute*</span></span>
 
-<span data-ttu-id="367a2-131">**範例**</span><span class="sxs-lookup"><span data-stu-id="367a2-131">**Example**</span></span>
+<span data-ttu-id="2eb91-131">**範例**</span><span class="sxs-lookup"><span data-stu-id="2eb91-131">**Example**</span></span>
 
-<span data-ttu-id="367a2-132">文字方塊中的文字流程將會垂直流動。</span><span class="sxs-lookup"><span data-stu-id="367a2-132">The text flow in the textbox will flow vertically.</span></span>
+<span data-ttu-id="2eb91-132">文字方塊中的文字流程將會垂直流動。</span><span class="sxs-lookup"><span data-stu-id="2eb91-132">The text flow in the textbox will flow vertically.</span></span>
 
 
 ```HTML

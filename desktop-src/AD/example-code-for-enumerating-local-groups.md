@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "103681665"
 ---
-# <a name="example-code-for-enumerating-local-groups"></a><span data-ttu-id="5c589-104">列舉本機群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="5c589-104">Example Code for Enumerating Local Groups</span></span>
+# <a name="example-code-for-enumerating-local-groups"></a><span data-ttu-id="4b87b-104">列舉本機群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="4b87b-104">Example Code for Enumerating Local Groups</span></span>
 
-<span data-ttu-id="5c589-105">本主題包含的程式碼範例會列舉指定類別的所有物件。</span><span class="sxs-lookup"><span data-stu-id="5c589-105">This topic includes a code example that enumerates all objects of a specified class.</span></span>
+<span data-ttu-id="4b87b-105">本主題包含的程式碼範例會列舉指定類別的所有物件。</span><span class="sxs-lookup"><span data-stu-id="4b87b-105">This topic includes a code example that enumerates all objects of a specified class.</span></span>
 
-<span data-ttu-id="5c589-106">下列 c + + 程式碼範例會使用 ADSI 來列舉指定類別的所有物件。</span><span class="sxs-lookup"><span data-stu-id="5c589-106">The following C++ code example enumerates all objects of a specified class using ADSI.</span></span>
+<span data-ttu-id="4b87b-106">下列 c + + 程式碼範例會使用 ADSI 來列舉指定類別的所有物件。</span><span class="sxs-lookup"><span data-stu-id="4b87b-106">The following C++ code example enumerates all objects of a specified class using ADSI.</span></span>
 
 
 ```C++
@@ -145,7 +145,7 @@ HRESULT ListMembersWithWinNtProvider(LPWSTR pwszComputer,LPWSTR pwszClass, LPWST
 
 
 
-<span data-ttu-id="5c589-107">下列 Visual Basic 程式碼範例會使用 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) 和 [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) 介面來列舉本機群組。</span><span class="sxs-lookup"><span data-stu-id="5c589-107">The following Visual Basic code example enumerates local groups using the [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) and [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) interfaces.</span></span>
+<span data-ttu-id="4b87b-107">下列 Visual Basic 程式碼範例會使用 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) 和 [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) 介面來列舉本機群組。</span><span class="sxs-lookup"><span data-stu-id="4b87b-107">The following Visual Basic code example enumerates local groups using the [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) and [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) interfaces.</span></span>
 
 
 ```VB
