@@ -24,9 +24,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674684"
 ---
-# <a name="retrieving-catalog-information"></a><span data-ttu-id="69cd2-115">正在抓取目錄資訊</span><span class="sxs-lookup"><span data-stu-id="69cd2-115">Retrieving Catalog Information</span></span>
+# <a name="retrieving-catalog-information"></a><span data-ttu-id="55f7d-115">正在抓取目錄資訊</span><span class="sxs-lookup"><span data-stu-id="55f7d-115">Retrieving Catalog Information</span></span>
 
-<span data-ttu-id="69cd2-116">您可以使用下列語法來執行 catcomp，以顯示目錄的診斷資訊：</span><span class="sxs-lookup"><span data-stu-id="69cd2-116">You can display diagnostic information on a catalog by running catcomp with the following syntax:</span></span>
+<span data-ttu-id="55f7d-116">您可以使用下列語法來執行 catcomp，以顯示目錄的診斷資訊：</span><span class="sxs-lookup"><span data-stu-id="55f7d-116">You can display diagnostic information on a catalog by running catcomp with the following syntax:</span></span>
 
 
 ```C++
@@ -35,7 +35,7 @@ catcomp info <catalogpath> [track|artist|album] [ID]
 
 
 
-<span data-ttu-id="69cd2-117">例如，下列命令會顯示整個類別目錄的相關資訊，包括版本、地區設定以及類別目錄專案的內部資訊：</span><span class="sxs-lookup"><span data-stu-id="69cd2-117">For example, the following command displays information on an entire catalog, including the version, locale, and internal information on catalog items:</span></span>
+<span data-ttu-id="55f7d-117">例如，下列命令會顯示整個類別目錄的相關資訊，包括版本、地區設定以及類別目錄專案的內部資訊：</span><span class="sxs-lookup"><span data-stu-id="55f7d-117">For example, the following command displays information on an entire catalog, including the version, locale, and internal information on catalog items:</span></span>
 
 
 ```C++
@@ -44,7 +44,7 @@ catcomp info C:\Catalog210\catalog.wmdb
 
 
 
-<span data-ttu-id="69cd2-118">以下顯示識別碼為3256的追蹤資訊：</span><span class="sxs-lookup"><span data-stu-id="69cd2-118">The following displays information for the track with ID 3256:</span></span>
+<span data-ttu-id="55f7d-118">以下顯示識別碼為3256的追蹤資訊：</span><span class="sxs-lookup"><span data-stu-id="55f7d-118">The following displays information for the track with ID 3256:</span></span>
 
 
 ```C++
