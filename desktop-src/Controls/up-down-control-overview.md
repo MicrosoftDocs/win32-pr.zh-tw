@@ -11,10 +11,10 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932124"
 ---
-# <a name="up-down-control-overviews"></a><span data-ttu-id="7bba2-103">Up-Down 控制項總覽</span><span class="sxs-lookup"><span data-stu-id="7bba2-103">Up-Down Control Overviews</span></span>
+# <a name="up-down-control-overviews"></a><span data-ttu-id="549c9-103">Up-Down 控制項總覽</span><span class="sxs-lookup"><span data-stu-id="549c9-103">Up-Down Control Overviews</span></span>
 
--   [<span data-ttu-id="7bba2-104">關於 Up-Down 控制項</span><span class="sxs-lookup"><span data-stu-id="7bba2-104">About Up-Down Controls</span></span>](up-down-controls.md)
--   [<span data-ttu-id="7bba2-105">使用 Up-Down 控制項</span><span class="sxs-lookup"><span data-stu-id="7bba2-105">Using Up-Down Controls</span></span>](using-up-down-controls.md)
+-   [<span data-ttu-id="549c9-104">關於 Up-Down 控制項</span><span class="sxs-lookup"><span data-stu-id="549c9-104">About Up-Down Controls</span></span>](up-down-controls.md)
+-   [<span data-ttu-id="549c9-105">使用 Up-Down 控制項</span><span class="sxs-lookup"><span data-stu-id="549c9-105">Using Up-Down Controls</span></span>](using-up-down-controls.md)
 
  
 

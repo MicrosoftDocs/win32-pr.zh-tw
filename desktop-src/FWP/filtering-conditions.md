@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932324"
 ---
-# <a name="filtering-conditions"></a><span data-ttu-id="b6449-103">篩選準則</span><span class="sxs-lookup"><span data-stu-id="b6449-103">Filtering Conditions</span></span>
+# <a name="filtering-conditions"></a><span data-ttu-id="8f94c-103">篩選準則</span><span class="sxs-lookup"><span data-stu-id="8f94c-103">Filtering Conditions</span></span>
 
-<span data-ttu-id="b6449-104">本章節包含篩選準則的常數。</span><span class="sxs-lookup"><span data-stu-id="b6449-104">This section contains constants for filtering conditions.</span></span>
+<span data-ttu-id="8f94c-104">本章節包含篩選準則的常數。</span><span class="sxs-lookup"><span data-stu-id="8f94c-104">This section contains constants for filtering conditions.</span></span>
 
--   [<span data-ttu-id="b6449-105">**篩選準則識別碼**</span><span class="sxs-lookup"><span data-stu-id="b6449-105">**Filtering Condition Identifiers**</span></span>](filtering-condition-identifiers-.md)
--   [<span data-ttu-id="b6449-106">**篩選準則旗標**</span><span class="sxs-lookup"><span data-stu-id="b6449-106">**Filtering Condition Flags**</span></span>](filtering-condition-flags-.md)
--   [<span data-ttu-id="b6449-107">**篩選每個篩選層級的可用條件**</span><span class="sxs-lookup"><span data-stu-id="b6449-107">**Filtering Conditions Available at Each Filtering Layer**</span></span>](filtering-conditions-available-at-each-filtering-layer.md)
+-   [<span data-ttu-id="8f94c-105">**篩選準則識別碼**</span><span class="sxs-lookup"><span data-stu-id="8f94c-105">**Filtering Condition Identifiers**</span></span>](filtering-condition-identifiers-.md)
+-   [<span data-ttu-id="8f94c-106">**篩選準則旗標**</span><span class="sxs-lookup"><span data-stu-id="8f94c-106">**Filtering Condition Flags**</span></span>](filtering-condition-flags-.md)
+-   [<span data-ttu-id="8f94c-107">**篩選每個篩選層級的可用條件**</span><span class="sxs-lookup"><span data-stu-id="8f94c-107">**Filtering Conditions Available at Each Filtering Layer**</span></span>](filtering-conditions-available-at-each-filtering-layer.md)
 
  
 

@@ -22,9 +22,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103840695"
 ---
-# <a name="translating-texdef"></a><span data-ttu-id="df0da-113">翻譯 texdef</span><span class="sxs-lookup"><span data-stu-id="df0da-113">Translating texdef</span></span>
+# <a name="translating-texdef"></a><span data-ttu-id="524f5-113">翻譯 texdef</span><span class="sxs-lookup"><span data-stu-id="524f5-113">Translating texdef</span></span>
 
-<span data-ttu-id="df0da-114">下列程式碼範例是鳶尾花 GL 材質定義：</span><span class="sxs-lookup"><span data-stu-id="df0da-114">The following code example is an IRIS GL texture definition:</span></span>
+<span data-ttu-id="524f5-114">下列程式碼範例是鳶尾花 GL 材質定義：</span><span class="sxs-lookup"><span data-stu-id="524f5-114">The following code example is an IRIS GL texture definition:</span></span>
 
 
 ```C++
@@ -39,11 +39,11 @@ textdef2d(1, 1, 6, 6, granite_texture, 7, texprops);
 
 
 
-<span data-ttu-id="df0da-115">在上述範例中， **texdef** 會將 tx \_ 點篩選指定為縮放比例和最小化篩選，並將 tx \_ 重複作為包裝機制。</span><span class="sxs-lookup"><span data-stu-id="df0da-115">In the preceding example, **texdef** specifies the TX\_POINT filter as both the magnification and the minimizing filter, and TX\_REPEAT as the wrapping mechanism.</span></span> <span data-ttu-id="df0da-116">它也會指定材質影像： **花崗岩 \_ 材質**。</span><span class="sxs-lookup"><span data-stu-id="df0da-116">It also specifies the texture image: **granite\_texture**.</span></span>
+<span data-ttu-id="524f5-115">在上述範例中， **texdef** 會將 tx \_ 點篩選指定為縮放比例和最小化篩選，並將 tx \_ 重複作為包裝機制。</span><span class="sxs-lookup"><span data-stu-id="524f5-115">In the preceding example, **texdef** specifies the TX\_POINT filter as both the magnification and the minimizing filter, and TX\_REPEAT as the wrapping mechanism.</span></span> <span data-ttu-id="524f5-116">它也會指定材質影像： **花崗岩 \_ 材質**。</span><span class="sxs-lookup"><span data-stu-id="524f5-116">It also specifies the texture image: **granite\_texture**.</span></span>
 
-<span data-ttu-id="df0da-117">在 OpenGL 中， [**glTexImage**](glteximage1d.md) 會指定影像，而 [glTexParameter](gltexparameter-functions.md) 會設定屬性。</span><span class="sxs-lookup"><span data-stu-id="df0da-117">In OpenGL, [**glTexImage**](glteximage1d.md) specifies the image and [glTexParameter](gltexparameter-functions.md) sets the property.</span></span> <span data-ttu-id="df0da-118">若要轉譯鳶尾花 GL 材質定義，請以 **glTexImage** 和一或多個 **glTexParameter** 呼叫來取代 **textdef** 函數。</span><span class="sxs-lookup"><span data-stu-id="df0da-118">To translate IRIS GL texture definitions, replace the **textdef** function with **glTexImage** and one or more calls to **glTexParameter**.</span></span>
+<span data-ttu-id="524f5-117">在 OpenGL 中， [**glTexImage**](glteximage1d.md) 會指定影像，而 [glTexParameter](gltexparameter-functions.md) 會設定屬性。</span><span class="sxs-lookup"><span data-stu-id="524f5-117">In OpenGL, [**glTexImage**](glteximage1d.md) specifies the image and [glTexParameter](gltexparameter-functions.md) sets the property.</span></span> <span data-ttu-id="524f5-118">若要轉譯鳶尾花 GL 材質定義，請以 **glTexImage** 和一或多個 **glTexParameter** 呼叫來取代 **textdef** 函數。</span><span class="sxs-lookup"><span data-stu-id="524f5-118">To translate IRIS GL texture definitions, replace the **textdef** function with **glTexImage** and one or more calls to **glTexParameter**.</span></span>
 
-<span data-ttu-id="df0da-119">上述鳶尾花 GL 程式碼在轉譯為 OpenGL 時看起來像這樣：</span><span class="sxs-lookup"><span data-stu-id="df0da-119">The preceding IRIS GL code looks like this when translated to OpenGL:</span></span>
+<span data-ttu-id="524f5-119">上述鳶尾花 GL 程式碼在轉譯為 OpenGL 時看起來像這樣：</span><span class="sxs-lookup"><span data-stu-id="524f5-119">The preceding IRIS GL code looks like this when translated to OpenGL:</span></span>
 
 
 ```C++
@@ -58,33 +58,33 @@ glTexImage1D( GL_TEXTURE_1D, 0, 1, 6, 0, GL_RGB, GL_UNSIGNED_SHORT, granite_text
 
 
 
-<span data-ttu-id="df0da-120">下表列出鳶尾花 GL 材質參數及其對等的 OpenGL 參數。</span><span class="sxs-lookup"><span data-stu-id="df0da-120">The following table lists the IRIS GL texture parameters and their equivalent OpenGL parameters.</span></span>
+<span data-ttu-id="524f5-120">下表列出鳶尾花 GL 材質參數及其對等的 OpenGL 參數。</span><span class="sxs-lookup"><span data-stu-id="524f5-120">The following table lists the IRIS GL texture parameters and their equivalent OpenGL parameters.</span></span>
 
 
 
-| <span data-ttu-id="df0da-121">鳶尾花 GL 材質參數</span><span class="sxs-lookup"><span data-stu-id="df0da-121">IRIS GL texture parameter</span></span> | <span data-ttu-id="df0da-122">OpenGL 材質參數</span><span class="sxs-lookup"><span data-stu-id="df0da-122">OpenGL texture parameter</span></span>                                  |
+| <span data-ttu-id="524f5-121">鳶尾花 GL 材質參數</span><span class="sxs-lookup"><span data-stu-id="524f5-121">IRIS GL texture parameter</span></span> | <span data-ttu-id="524f5-122">OpenGL 材質參數</span><span class="sxs-lookup"><span data-stu-id="524f5-122">OpenGL texture parameter</span></span>                                  |
 |---------------------------|-----------------------------------------------------------|
-| <span data-ttu-id="df0da-123">TX \_ MINFILTER</span><span class="sxs-lookup"><span data-stu-id="df0da-123">TX\_MINFILTER</span></span>             | <span data-ttu-id="df0da-124">GL \_ 材質 \_ 最小 \_ 篩選</span><span class="sxs-lookup"><span data-stu-id="df0da-124">GL\_TEXTURE\_MIN\_FILTER</span></span>                                  |
-| <span data-ttu-id="df0da-125">TX \_ MAGFILTER</span><span class="sxs-lookup"><span data-stu-id="df0da-125">TX\_MAGFILTER</span></span>             | <span data-ttu-id="df0da-126">GL \_ 紋理 \_ MAG \_ 篩選</span><span class="sxs-lookup"><span data-stu-id="df0da-126">GL\_TEXTURE\_MAG\_FILTER</span></span>                                  |
-| <span data-ttu-id="df0da-127">德克薩斯 \_ 換行，德克薩斯 \_ 換行 \_</span><span class="sxs-lookup"><span data-stu-id="df0da-127">TX\_WRAP, TX\_WRAP\_S</span></span>     | <span data-ttu-id="df0da-128">GL \_ 材質 \_ 換行 \_</span><span class="sxs-lookup"><span data-stu-id="df0da-128">GL\_TEXTURE\_WRAP\_S</span></span>                                      |
-| <span data-ttu-id="df0da-129">德克薩斯 \_ 換行，德克薩斯 \_ 換行 \_ T</span><span class="sxs-lookup"><span data-stu-id="df0da-129">TX\_WRAP, TX\_WRAP\_T</span></span>     | <span data-ttu-id="df0da-130">GL \_ 紋理 \_ WRAP \_ TGL \_ 材質 \_ 框線 \_ 色彩</span><span class="sxs-lookup"><span data-stu-id="df0da-130">GL\_TEXTURE\_WRAP\_TGL\_TEXTURE\_BORDER\_COLOR</span></span><br/> |
+| <span data-ttu-id="524f5-123">TX \_ MINFILTER</span><span class="sxs-lookup"><span data-stu-id="524f5-123">TX\_MINFILTER</span></span>             | <span data-ttu-id="524f5-124">GL \_ 材質 \_ 最小 \_ 篩選</span><span class="sxs-lookup"><span data-stu-id="524f5-124">GL\_TEXTURE\_MIN\_FILTER</span></span>                                  |
+| <span data-ttu-id="524f5-125">TX \_ MAGFILTER</span><span class="sxs-lookup"><span data-stu-id="524f5-125">TX\_MAGFILTER</span></span>             | <span data-ttu-id="524f5-126">GL \_ 紋理 \_ MAG \_ 篩選</span><span class="sxs-lookup"><span data-stu-id="524f5-126">GL\_TEXTURE\_MAG\_FILTER</span></span>                                  |
+| <span data-ttu-id="524f5-127">德克薩斯 \_ 換行，德克薩斯 \_ 換行 \_</span><span class="sxs-lookup"><span data-stu-id="524f5-127">TX\_WRAP, TX\_WRAP\_S</span></span>     | <span data-ttu-id="524f5-128">GL \_ 材質 \_ 換行 \_</span><span class="sxs-lookup"><span data-stu-id="524f5-128">GL\_TEXTURE\_WRAP\_S</span></span>                                      |
+| <span data-ttu-id="524f5-129">德克薩斯 \_ 換行，德克薩斯 \_ 換行 \_ T</span><span class="sxs-lookup"><span data-stu-id="524f5-129">TX\_WRAP, TX\_WRAP\_T</span></span>     | <span data-ttu-id="524f5-130">GL \_ 紋理 \_ WRAP \_ TGL \_ 材質 \_ 框線 \_ 色彩</span><span class="sxs-lookup"><span data-stu-id="524f5-130">GL\_TEXTURE\_WRAP\_TGL\_TEXTURE\_BORDER\_COLOR</span></span><br/> |
 
 
 
  
 
-<span data-ttu-id="df0da-131">下表列出鳶尾花 GL 材質參數的可能值，以及其對等的 OpenGL 參數。</span><span class="sxs-lookup"><span data-stu-id="df0da-131">The following table lists the possible values of the IRIS GL texture parameters and their equivalent OpenGL parameters.</span></span>
+<span data-ttu-id="524f5-131">下表列出鳶尾花 GL 材質參數的可能值，以及其對等的 OpenGL 參數。</span><span class="sxs-lookup"><span data-stu-id="524f5-131">The following table lists the possible values of the IRIS GL texture parameters and their equivalent OpenGL parameters.</span></span>
 
 
 
-| <span data-ttu-id="df0da-132">鳶尾花 GL 材質參數</span><span class="sxs-lookup"><span data-stu-id="df0da-132">IRIS GL texture parameter</span></span> | <span data-ttu-id="df0da-133">OpenGL 材質參數</span><span class="sxs-lookup"><span data-stu-id="df0da-133">OpenGL texture parameter</span></span>     |
+| <span data-ttu-id="524f5-132">鳶尾花 GL 材質參數</span><span class="sxs-lookup"><span data-stu-id="524f5-132">IRIS GL texture parameter</span></span> | <span data-ttu-id="524f5-133">OpenGL 材質參數</span><span class="sxs-lookup"><span data-stu-id="524f5-133">OpenGL texture parameter</span></span>     |
 |---------------------------|------------------------------|
-| <span data-ttu-id="df0da-134">TX \_ 點</span><span class="sxs-lookup"><span data-stu-id="df0da-134">TX\_POINT</span></span>                 | <span data-ttu-id="df0da-135">\_最接近的 GL</span><span class="sxs-lookup"><span data-stu-id="df0da-135">GL\_NEAREST</span></span>                  |
-| <span data-ttu-id="df0da-136">TX \_ 雙線性</span><span class="sxs-lookup"><span data-stu-id="df0da-136">TX\_BILINEAR</span></span>              | <span data-ttu-id="df0da-137">GL \_ 線性</span><span class="sxs-lookup"><span data-stu-id="df0da-137">GL\_LINEAR</span></span>                   |
-| <span data-ttu-id="df0da-138">TX \_ MIPMAP \_ 點</span><span class="sxs-lookup"><span data-stu-id="df0da-138">TX\_MIPMAP\_POINT</span></span>         | <span data-ttu-id="df0da-139">最接近最接近 MIPMAP 的 GL \_ \_ \_</span><span class="sxs-lookup"><span data-stu-id="df0da-139">GL\_NEAREST\_MIPMAP\_NEAREST</span></span> |
-| <span data-ttu-id="df0da-140">TX \_ MIPMAP \_ 雙線性</span><span class="sxs-lookup"><span data-stu-id="df0da-140">TX\_MIPMAP\_BILINEAR</span></span>      | <span data-ttu-id="df0da-141">\_最接近的 GL 線性 \_ MIPMAP \_</span><span class="sxs-lookup"><span data-stu-id="df0da-141">GL\_LINEAR\_MIPMAP\_NEAREST</span></span>  |
-| <span data-ttu-id="df0da-142">TX \_ MIPMAP \_ 線性</span><span class="sxs-lookup"><span data-stu-id="df0da-142">TX\_MIPMAP\_LINEAR</span></span>        | <span data-ttu-id="df0da-143">GL \_ 最接近 \_ MIPMAP \_ 線性</span><span class="sxs-lookup"><span data-stu-id="df0da-143">GL\_NEAREST\_MIPMAP\_LINEAR</span></span>  |
-| <span data-ttu-id="df0da-144">TX \_ 三線性</span><span class="sxs-lookup"><span data-stu-id="df0da-144">TX\_TRILINEAR</span></span>             | <span data-ttu-id="df0da-145">GL \_ 線性 \_ MIPMAP \_ 線性</span><span class="sxs-lookup"><span data-stu-id="df0da-145">GL\_LINEAR\_MIPMAP\_LINEAR</span></span>   |
+| <span data-ttu-id="524f5-134">TX \_ 點</span><span class="sxs-lookup"><span data-stu-id="524f5-134">TX\_POINT</span></span>                 | <span data-ttu-id="524f5-135">\_最接近的 GL</span><span class="sxs-lookup"><span data-stu-id="524f5-135">GL\_NEAREST</span></span>                  |
+| <span data-ttu-id="524f5-136">TX \_ 雙線性</span><span class="sxs-lookup"><span data-stu-id="524f5-136">TX\_BILINEAR</span></span>              | <span data-ttu-id="524f5-137">GL \_ 線性</span><span class="sxs-lookup"><span data-stu-id="524f5-137">GL\_LINEAR</span></span>                   |
+| <span data-ttu-id="524f5-138">TX \_ MIPMAP \_ 點</span><span class="sxs-lookup"><span data-stu-id="524f5-138">TX\_MIPMAP\_POINT</span></span>         | <span data-ttu-id="524f5-139">最接近最接近 MIPMAP 的 GL \_ \_ \_</span><span class="sxs-lookup"><span data-stu-id="524f5-139">GL\_NEAREST\_MIPMAP\_NEAREST</span></span> |
+| <span data-ttu-id="524f5-140">TX \_ MIPMAP \_ 雙線性</span><span class="sxs-lookup"><span data-stu-id="524f5-140">TX\_MIPMAP\_BILINEAR</span></span>      | <span data-ttu-id="524f5-141">\_最接近的 GL 線性 \_ MIPMAP \_</span><span class="sxs-lookup"><span data-stu-id="524f5-141">GL\_LINEAR\_MIPMAP\_NEAREST</span></span>  |
+| <span data-ttu-id="524f5-142">TX \_ MIPMAP \_ 線性</span><span class="sxs-lookup"><span data-stu-id="524f5-142">TX\_MIPMAP\_LINEAR</span></span>        | <span data-ttu-id="524f5-143">GL \_ 最接近 \_ MIPMAP \_ 線性</span><span class="sxs-lookup"><span data-stu-id="524f5-143">GL\_NEAREST\_MIPMAP\_LINEAR</span></span>  |
+| <span data-ttu-id="524f5-144">TX \_ 三線性</span><span class="sxs-lookup"><span data-stu-id="524f5-144">TX\_TRILINEAR</span></span>             | <span data-ttu-id="524f5-145">GL \_ 線性 \_ MIPMAP \_ 線性</span><span class="sxs-lookup"><span data-stu-id="524f5-145">GL\_LINEAR\_MIPMAP\_LINEAR</span></span>   |
 
 
 

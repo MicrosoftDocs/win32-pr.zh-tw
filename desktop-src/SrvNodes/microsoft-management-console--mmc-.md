@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691391"
 ---
-# <a name="microsoft-management-console-mmc"></a><span data-ttu-id="2a6ae-103">Microsoft Management Console (MMC)</span><span class="sxs-lookup"><span data-stu-id="2a6ae-103">Microsoft Management Console (MMC)</span></span>
+# <a name="microsoft-management-console-mmc"></a><span data-ttu-id="a6aa3-103">Microsoft Management Console (MMC)</span><span class="sxs-lookup"><span data-stu-id="a6aa3-103">Microsoft Management Console (MMC)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="2a6ae-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="2a6ae-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a6aa3-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="a6aa3-104">In this section</span></span>
 
--   [<span data-ttu-id="2a6ae-105">Microsoft Management Console 3.0</span><span class="sxs-lookup"><span data-stu-id="2a6ae-105">Microsoft Management Console 3.0</span></span>](microsoft-management-console-3-0.md)
--   [<span data-ttu-id="2a6ae-106">Microsoft Management Console 2。0</span><span class="sxs-lookup"><span data-stu-id="2a6ae-106">Microsoft Management Console 2.0</span></span>](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page)
+-   [<span data-ttu-id="a6aa3-105">Microsoft Management Console 3.0</span><span class="sxs-lookup"><span data-stu-id="a6aa3-105">Microsoft Management Console 3.0</span></span>](microsoft-management-console-3-0.md)
+-   [<span data-ttu-id="a6aa3-106">Microsoft Management Console 2。0</span><span class="sxs-lookup"><span data-stu-id="a6aa3-106">Microsoft Management Console 2.0</span></span>](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page)
 
  
 

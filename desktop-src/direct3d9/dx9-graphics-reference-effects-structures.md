@@ -11,25 +11,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103846283"
 ---
-# <a name="effect-structures"></a><span data-ttu-id="9c4eb-103">效果結構</span><span class="sxs-lookup"><span data-stu-id="9c4eb-103">Effect Structures</span></span>
+# <a name="effect-structures"></a><span data-ttu-id="ee767-103">效果結構</span><span class="sxs-lookup"><span data-stu-id="ee767-103">Effect Structures</span></span>
 
-<span data-ttu-id="9c4eb-104">本節包含效果所使用之結構的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="9c4eb-104">This section contains information about the structures used by effects.</span></span>
+<span data-ttu-id="ee767-104">本節包含效果所使用之結構的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="ee767-104">This section contains information about the structures used by effects.</span></span>
 
--   [<span data-ttu-id="9c4eb-105">**D3DXEFFECT \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="9c4eb-105">**D3DXEFFECT\_DESC**</span></span>](d3dxeffect-desc.md)
--   [<span data-ttu-id="9c4eb-106">**D3DXEFFECTDEFAULT**</span><span class="sxs-lookup"><span data-stu-id="9c4eb-106">**D3DXEFFECTDEFAULT**</span></span>](d3dxeffectdefault.md)
--   [<span data-ttu-id="9c4eb-107">**D3DXEFFECTINSTANCE**</span><span class="sxs-lookup"><span data-stu-id="9c4eb-107">**D3DXEFFECTINSTANCE**</span></span>](d3dxeffectinstance.md)
--   [<span data-ttu-id="9c4eb-108">**D3DXFUNCTION \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="9c4eb-108">**D3DXFUNCTION\_DESC**</span></span>](d3dxfunction-desc.md)
--   [<span data-ttu-id="9c4eb-109">**D3DXMACRO**</span><span class="sxs-lookup"><span data-stu-id="9c4eb-109">**D3DXMACRO**</span></span>](d3dxmacro.md)
--   [<span data-ttu-id="9c4eb-110">**D3DXPARAMETER \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="9c4eb-110">**D3DXPARAMETER\_DESC**</span></span>](d3dxparameter-desc.md)
--   [<span data-ttu-id="9c4eb-111">**D3DXPASS \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="9c4eb-111">**D3DXPASS\_DESC**</span></span>](d3dxpass-desc.md)
--   [<span data-ttu-id="9c4eb-112">**D3DXSEMANTIC**</span><span class="sxs-lookup"><span data-stu-id="9c4eb-112">**D3DXSEMANTIC**</span></span>](d3dxsemantic.md)
--   [<span data-ttu-id="9c4eb-113">**D3DXTECHNIQUE \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="9c4eb-113">**D3DXTECHNIQUE\_DESC**</span></span>](d3dxtechnique-desc.md)
+-   [<span data-ttu-id="ee767-105">**D3DXEFFECT \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="ee767-105">**D3DXEFFECT\_DESC**</span></span>](d3dxeffect-desc.md)
+-   [<span data-ttu-id="ee767-106">**D3DXEFFECTDEFAULT**</span><span class="sxs-lookup"><span data-stu-id="ee767-106">**D3DXEFFECTDEFAULT**</span></span>](d3dxeffectdefault.md)
+-   [<span data-ttu-id="ee767-107">**D3DXEFFECTINSTANCE**</span><span class="sxs-lookup"><span data-stu-id="ee767-107">**D3DXEFFECTINSTANCE**</span></span>](d3dxeffectinstance.md)
+-   [<span data-ttu-id="ee767-108">**D3DXFUNCTION \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="ee767-108">**D3DXFUNCTION\_DESC**</span></span>](d3dxfunction-desc.md)
+-   [<span data-ttu-id="ee767-109">**D3DXMACRO**</span><span class="sxs-lookup"><span data-stu-id="ee767-109">**D3DXMACRO**</span></span>](d3dxmacro.md)
+-   [<span data-ttu-id="ee767-110">**D3DXPARAMETER \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="ee767-110">**D3DXPARAMETER\_DESC**</span></span>](d3dxparameter-desc.md)
+-   [<span data-ttu-id="ee767-111">**D3DXPASS \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="ee767-111">**D3DXPASS\_DESC**</span></span>](d3dxpass-desc.md)
+-   [<span data-ttu-id="ee767-112">**D3DXSEMANTIC**</span><span class="sxs-lookup"><span data-stu-id="ee767-112">**D3DXSEMANTIC**</span></span>](d3dxsemantic.md)
+-   [<span data-ttu-id="ee767-113">**D3DXTECHNIQUE \_ DESC**</span><span class="sxs-lookup"><span data-stu-id="ee767-113">**D3DXTECHNIQUE\_DESC**</span></span>](d3dxtechnique-desc.md)
 
-## <a name="related-topics"></a><span data-ttu-id="9c4eb-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="9c4eb-114">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ee767-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="ee767-114">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9c4eb-115">效果參考</span><span class="sxs-lookup"><span data-stu-id="9c4eb-115">Effect Reference</span></span>](dx9-graphics-reference-effects.md)
+[<span data-ttu-id="ee767-115">效果參考</span><span class="sxs-lookup"><span data-stu-id="ee767-115">Effect Reference</span></span>](dx9-graphics-reference-effects.md)
 </dt> </dl>
 
  

@@ -14,16 +14,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671100"
 ---
-# <a name="utility-interfaces"></a><span data-ttu-id="ed7a9-104">公用程式介面</span><span class="sxs-lookup"><span data-stu-id="ed7a9-104">Utility Interfaces</span></span>
+# <a name="utility-interfaces"></a><span data-ttu-id="879f2-104">公用程式介面</span><span class="sxs-lookup"><span data-stu-id="879f2-104">Utility Interfaces</span></span>
 
-<span data-ttu-id="ed7a9-105">本節說明下列公用程式介面：</span><span class="sxs-lookup"><span data-stu-id="ed7a9-105">This section describes the following utility interfaces:</span></span>
+<span data-ttu-id="879f2-105">本節說明下列公用程式介面：</span><span class="sxs-lookup"><span data-stu-id="879f2-105">This section describes the following utility interfaces:</span></span>
 
--   [<span data-ttu-id="ed7a9-106">**IADsADSystemInfo**</span><span class="sxs-lookup"><span data-stu-id="ed7a9-106">**IADsADSystemInfo**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsadsysteminfo)
--   [<span data-ttu-id="ed7a9-107">**IADsDeleteOps**</span><span class="sxs-lookup"><span data-stu-id="ed7a9-107">**IADsDeleteOps**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsdeleteops)
--   [<span data-ttu-id="ed7a9-108">**IADsNameTranslate**</span><span class="sxs-lookup"><span data-stu-id="ed7a9-108">**IADsNameTranslate**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsnametranslate)
--   [<span data-ttu-id="ed7a9-109">**IADsObjectOptions**</span><span class="sxs-lookup"><span data-stu-id="ed7a9-109">**IADsObjectOptions**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions)
--   [<span data-ttu-id="ed7a9-110">**IADsPathname**</span><span class="sxs-lookup"><span data-stu-id="ed7a9-110">**IADsPathname**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspathname)
--   [<span data-ttu-id="ed7a9-111">**IADsWinNTSystemInfo**</span><span class="sxs-lookup"><span data-stu-id="ed7a9-111">**IADsWinNTSystemInfo**</span></span>](/windows/desktop/api/Iads/nn-iads-iadswinntsysteminfo)
+-   [<span data-ttu-id="879f2-106">**IADsADSystemInfo**</span><span class="sxs-lookup"><span data-stu-id="879f2-106">**IADsADSystemInfo**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsadsysteminfo)
+-   [<span data-ttu-id="879f2-107">**IADsDeleteOps**</span><span class="sxs-lookup"><span data-stu-id="879f2-107">**IADsDeleteOps**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsdeleteops)
+-   [<span data-ttu-id="879f2-108">**IADsNameTranslate**</span><span class="sxs-lookup"><span data-stu-id="879f2-108">**IADsNameTranslate**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsnametranslate)
+-   [<span data-ttu-id="879f2-109">**IADsObjectOptions**</span><span class="sxs-lookup"><span data-stu-id="879f2-109">**IADsObjectOptions**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions)
+-   [<span data-ttu-id="879f2-110">**IADsPathname**</span><span class="sxs-lookup"><span data-stu-id="879f2-110">**IADsPathname**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspathname)
+-   [<span data-ttu-id="879f2-111">**IADsWinNTSystemInfo**</span><span class="sxs-lookup"><span data-stu-id="879f2-111">**IADsWinNTSystemInfo**</span></span>](/windows/desktop/api/Iads/nn-iads-iadswinntsysteminfo)
 
  
 

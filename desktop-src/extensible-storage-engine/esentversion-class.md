@@ -31,19 +31,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695684"
 ---
-# <a name="esentversion-class"></a><span data-ttu-id="aade6-103">EsentVersion 類別</span><span class="sxs-lookup"><span data-stu-id="aade6-103">EsentVersion class</span></span>
+# <a name="esentversion-class"></a><span data-ttu-id="3d315-103">EsentVersion 類別</span><span class="sxs-lookup"><span data-stu-id="3d315-103">EsentVersion class</span></span>
 
-<span data-ttu-id="aade6-104">提供所使用之 ESENT 版本的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="aade6-104">Gives information about the version of ESENT being used.</span></span>
+<span data-ttu-id="3d315-104">提供所使用之 ESENT 版本的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="3d315-104">Gives information about the version of ESENT being used.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="aade6-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="aade6-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="3d315-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="3d315-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="aade6-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="aade6-106">System.Object</span></span>](/dotnet/api/system.object)  
-  <span data-ttu-id="aade6-107">EsentVersion （.）</span><span class="sxs-lookup"><span data-stu-id="aade6-107">Microsoft.Isam.Esent.Interop.EsentVersion</span></span>  
+[<span data-ttu-id="3d315-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="3d315-106">System.Object</span></span>](/dotnet/api/system.object)  
+  <span data-ttu-id="3d315-107">EsentVersion （.）</span><span class="sxs-lookup"><span data-stu-id="3d315-107">Microsoft.Isam.Esent.Interop.EsentVersion</span></span>  
 
-<span data-ttu-id="aade6-108">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="aade6-108">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="aade6-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="aade6-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="3d315-108">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="3d315-108">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="3d315-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="3d315-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="aade6-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="aade6-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3d315-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="3d315-110">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -56,14 +56,14 @@ You do not need to declare an instance of a static class in order to access its 
 public static class EsentVersion
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="aade6-111">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="aade6-111">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="3d315-111">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="3d315-111">Thread safety</span></span>
 
-<span data-ttu-id="aade6-112">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="aade6-112">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="aade6-113">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="aade6-113">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="3d315-112">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="3d315-112">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="3d315-113">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="3d315-113">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="aade6-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="aade6-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3d315-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3d315-114">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="aade6-115">參考</span><span class="sxs-lookup"><span data-stu-id="aade6-115">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="3d315-115">參考</span><span class="sxs-lookup"><span data-stu-id="3d315-115">Reference</span></span>
 
-[<span data-ttu-id="aade6-116">EsentVersion 成員</span><span class="sxs-lookup"><span data-stu-id="aade6-116">EsentVersion members</span></span>](./esentversion-members.md)
+[<span data-ttu-id="3d315-116">EsentVersion 成員</span><span class="sxs-lookup"><span data-stu-id="3d315-116">EsentVersion members</span></span>](./esentversion-members.md)
 
-[<span data-ttu-id="aade6-117">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="aade6-117">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="3d315-117">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="3d315-117">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

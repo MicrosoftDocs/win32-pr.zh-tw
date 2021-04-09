@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103932655"
 ---
-# <a name="tb_translateaccelerator-message"></a><span data-ttu-id="f1ece-104">TB \_ TRANSLATEACCELERATOR 訊息</span><span class="sxs-lookup"><span data-stu-id="f1ece-104">TB\_TRANSLATEACCELERATOR message</span></span>
+# <a name="tb_translateaccelerator-message"></a><span data-ttu-id="79425-104">TB \_ TRANSLATEACCELERATOR 訊息</span><span class="sxs-lookup"><span data-stu-id="79425-104">TB\_TRANSLATEACCELERATOR message</span></span>
 
-<span data-ttu-id="f1ece-105">此訊息不會執行。</span><span class="sxs-lookup"><span data-stu-id="f1ece-105">This message is not implemented.</span></span>
+<span data-ttu-id="79425-105">此訊息不會執行。</span><span class="sxs-lookup"><span data-stu-id="79425-105">This message is not implemented.</span></span>
 
  
 

@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932551"
 ---
-# <a name="using-sami-with-the-windows-media-player-control-in-a-browser"></a><span data-ttu-id="b036a-114">在瀏覽器中搭配 Windows Media Player 控制項使用薩米文</span><span class="sxs-lookup"><span data-stu-id="b036a-114">Using SAMI with the Windows Media Player Control in a Browser</span></span>
+# <a name="using-sami-with-the-windows-media-player-control-in-a-browser"></a><span data-ttu-id="ad490-114">在瀏覽器中搭配 Windows Media Player 控制項使用薩米文</span><span class="sxs-lookup"><span data-stu-id="ad490-114">Using SAMI with the Windows Media Player Control in a Browser</span></span>
 
-<span data-ttu-id="b036a-115">您可以使用基本腳本和 Windows Media Player 控制項物件模型，在一個檔案中宣告不同的樣式類別，而不是建立每個字型樣式或語言的薩米文檔案。</span><span class="sxs-lookup"><span data-stu-id="b036a-115">Instead of creating a SAMI file for each font style or language, you can declare different style classes in one file by using basic scripting and the Windows Media Player control object model.</span></span> <span data-ttu-id="b036a-116">您可以建立自訂控制項，讓使用者可以在不同的樣式和語言選項之間進行選擇。</span><span class="sxs-lookup"><span data-stu-id="b036a-116">You can create custom controls that enable the user to choose between the different style and language options.</span></span> <span data-ttu-id="b036a-117">此外，您可以完全掌控播放程式介面的設計和每個函式的自訂。</span><span class="sxs-lookup"><span data-stu-id="b036a-117">Furthermore, you have complete control over the design of the Player interface and the customization of each function.</span></span>
+<span data-ttu-id="ad490-115">您可以使用基本腳本和 Windows Media Player 控制項物件模型，在一個檔案中宣告不同的樣式類別，而不是建立每個字型樣式或語言的薩米文檔案。</span><span class="sxs-lookup"><span data-stu-id="ad490-115">Instead of creating a SAMI file for each font style or language, you can declare different style classes in one file by using basic scripting and the Windows Media Player control object model.</span></span> <span data-ttu-id="ad490-116">您可以建立自訂控制項，讓使用者可以在不同的樣式和語言選項之間進行選擇。</span><span class="sxs-lookup"><span data-stu-id="ad490-116">You can create custom controls that enable the user to choose between the different style and language options.</span></span> <span data-ttu-id="ad490-117">此外，您可以完全掌控播放程式介面的設計和每個函式的自訂。</span><span class="sxs-lookup"><span data-stu-id="ad490-117">Furthermore, you have complete control over the design of the Player interface and the customization of each function.</span></span>
 
-<span data-ttu-id="b036a-118">如需在網頁中內嵌 Windows Media Player 控制項的詳細資訊，請參閱 [在網頁中編寫腳本的簡單範例](simple-example-of-scripting-in-a-web-page.md)。</span><span class="sxs-lookup"><span data-stu-id="b036a-118">For detailed information about embedding the Windows Media Player control in a webpage, see [Simple Example of Scripting in a Web Page](simple-example-of-scripting-in-a-web-page.md).</span></span>
+<span data-ttu-id="ad490-118">如需在網頁中內嵌 Windows Media Player 控制項的詳細資訊，請參閱 [在網頁中編寫腳本的簡單範例](simple-example-of-scripting-in-a-web-page.md)。</span><span class="sxs-lookup"><span data-stu-id="ad490-118">For detailed information about embedding the Windows Media Player control in a webpage, see [Simple Example of Scripting in a Web Page](simple-example-of-scripting-in-a-web-page.md).</span></span>
 
-<span data-ttu-id="b036a-119">下列範例程式碼示範如何使用隱藏式輔助字幕搭配網頁中內嵌的 Windows Media Player 控制項。</span><span class="sxs-lookup"><span data-stu-id="b036a-119">The following example code demonstrates how to use closed captions with the Windows Media Player control embedded in a webpage.</span></span> <span data-ttu-id="b036a-120">它包含的控制項可讓使用者選取字型樣式和語言。</span><span class="sxs-lookup"><span data-stu-id="b036a-120">It includes controls to allow the user to select font style and language.</span></span>
+<span data-ttu-id="ad490-119">下列範例程式碼示範如何使用隱藏式輔助字幕搭配網頁中內嵌的 Windows Media Player 控制項。</span><span class="sxs-lookup"><span data-stu-id="ad490-119">The following example code demonstrates how to use closed captions with the Windows Media Player control embedded in a webpage.</span></span> <span data-ttu-id="ad490-120">它包含的控制項可讓使用者選取字型樣式和語言。</span><span class="sxs-lookup"><span data-stu-id="ad490-120">It includes controls to allow the user to select font style and language.</span></span>
 
 
 ```C++
@@ -112,11 +112,11 @@ ms.locfileid: "103932551"
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="b036a-121">相關主題</span><span class="sxs-lookup"><span data-stu-id="b036a-121">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ad490-121">相關主題</span><span class="sxs-lookup"><span data-stu-id="ad490-121">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b036a-122">**將隱藏式輔助字幕新增至數位媒體**</span><span class="sxs-lookup"><span data-stu-id="b036a-122">**Adding Closed Captions to Digital Media**</span></span>](adding-closed-captions-to-digital-media.md)
+[<span data-ttu-id="ad490-122">**將隱藏式輔助字幕新增至數位媒體**</span><span class="sxs-lookup"><span data-stu-id="ad490-122">**Adding Closed Captions to Digital Media**</span></span>](adding-closed-captions-to-digital-media.md)
 </dt> </dl>
 
  

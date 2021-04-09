@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103932653"
 ---
-# <a name="tvm_getselectedcount-message"></a><span data-ttu-id="2c2dc-104">TVM \_ GETSELECTEDCOUNT 訊息</span><span class="sxs-lookup"><span data-stu-id="2c2dc-104">TVM\_GETSELECTEDCOUNT message</span></span>
+# <a name="tvm_getselectedcount-message"></a><span data-ttu-id="839ae-104">TVM \_ GETSELECTEDCOUNT 訊息</span><span class="sxs-lookup"><span data-stu-id="839ae-104">TVM\_GETSELECTEDCOUNT message</span></span>
 
-<span data-ttu-id="2c2dc-105">此訊息不會執行。</span><span class="sxs-lookup"><span data-stu-id="2c2dc-105">This message is not implemented.</span></span>
+<span data-ttu-id="839ae-105">此訊息不會執行。</span><span class="sxs-lookup"><span data-stu-id="839ae-105">This message is not implemented.</span></span>
 
  
 

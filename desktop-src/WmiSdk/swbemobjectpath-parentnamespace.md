@@ -23,15 +23,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692172"
 ---
-# <a name="swbemobjectpathparentnamespace-property"></a><span data-ttu-id="856a2-104">SWbemObjectPath. ParentNamespace 屬性</span><span class="sxs-lookup"><span data-stu-id="856a2-104">SWbemObjectPath.ParentNamespace property</span></span>
+# <a name="swbemobjectpathparentnamespace-property"></a><span data-ttu-id="cf2c5-104">SWbemObjectPath. ParentNamespace 屬性</span><span class="sxs-lookup"><span data-stu-id="cf2c5-104">SWbemObjectPath.ParentNamespace property</span></span>
 
-<span data-ttu-id="856a2-105">[**SWbemObjectPath**](swbemobjectpath.md)物件的 **ParentNamespace** 屬性包含屬於物件路徑一部分之父命名空間的名稱。</span><span class="sxs-lookup"><span data-stu-id="856a2-105">The **ParentNamespace** property of the [**SWbemObjectPath**](swbemobjectpath.md) object contains the name of the parent namespace that is part of the object path.</span></span> <span data-ttu-id="856a2-106">這是唯讀的屬性。</span><span class="sxs-lookup"><span data-stu-id="856a2-106">This property is read-only.</span></span>
+<span data-ttu-id="cf2c5-105">[**SWbemObjectPath**](swbemobjectpath.md)物件的 **ParentNamespace** 屬性包含屬於物件路徑一部分之父命名空間的名稱。</span><span class="sxs-lookup"><span data-stu-id="cf2c5-105">The **ParentNamespace** property of the [**SWbemObjectPath**](swbemobjectpath.md) object contains the name of the parent namespace that is part of the object path.</span></span> <span data-ttu-id="cf2c5-106">這是唯讀的屬性。</span><span class="sxs-lookup"><span data-stu-id="cf2c5-106">This property is read-only.</span></span>
 
-<span data-ttu-id="856a2-107">如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。</span><span class="sxs-lookup"><span data-stu-id="856a2-107">For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).</span></span>
+<span data-ttu-id="cf2c5-107">如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。</span><span class="sxs-lookup"><span data-stu-id="cf2c5-107">For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).</span></span>
 
-<span data-ttu-id="856a2-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="856a2-108">This property is read-only.</span></span>
+<span data-ttu-id="cf2c5-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="cf2c5-108">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="856a2-109">語法</span><span class="sxs-lookup"><span data-stu-id="856a2-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cf2c5-109">語法</span><span class="sxs-lookup"><span data-stu-id="cf2c5-109">Syntax</span></span>
 
 
 ```VB
@@ -40,21 +40,21 @@ SWbemObjectPath.ParentNamespace As String
 
 
 
-## <a name="property-value"></a><span data-ttu-id="856a2-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="856a2-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="cf2c5-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="cf2c5-110">Property value</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="856a2-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="856a2-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="cf2c5-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="cf2c5-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="856a2-112">需求</span><span class="sxs-lookup"><span data-stu-id="856a2-112">Requirement</span></span> | <span data-ttu-id="856a2-113">值</span><span class="sxs-lookup"><span data-stu-id="856a2-113">Value</span></span> |
+| <span data-ttu-id="cf2c5-112">需求</span><span class="sxs-lookup"><span data-stu-id="cf2c5-112">Requirement</span></span> | <span data-ttu-id="cf2c5-113">值</span><span class="sxs-lookup"><span data-stu-id="cf2c5-113">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="856a2-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="856a2-114">Minimum supported client</span></span><br/> | <span data-ttu-id="856a2-115">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="856a2-115">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="856a2-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="856a2-116">Minimum supported server</span></span><br/> | <span data-ttu-id="856a2-117">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="856a2-117">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="856a2-118">標頭</span><span class="sxs-lookup"><span data-stu-id="856a2-118">Header</span></span><br/>                   | <dl> <span data-ttu-id="856a2-119"><dt>>wbemdisp.tlb。h</dt></span><span class="sxs-lookup"><span data-stu-id="856a2-119"><dt>Wbemdisp.h</dt></span></span> </dl>   |
-| <span data-ttu-id="856a2-120">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="856a2-120">Type library</span></span><br/>             | <dl> <span data-ttu-id="856a2-121"><dt>>wbemdisp.tlb .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="856a2-121"><dt>Wbemdisp.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="856a2-122">DLL</span><span class="sxs-lookup"><span data-stu-id="856a2-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="856a2-123"><dt>Wbemdisp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="856a2-123"><dt>Wbemdisp.dll</dt></span></span> </dl> |
-| <span data-ttu-id="856a2-124">CLSID</span><span class="sxs-lookup"><span data-stu-id="856a2-124">CLSID</span></span><br/>                    | <span data-ttu-id="856a2-125">CLSID \_ SWbemObjectPath</span><span class="sxs-lookup"><span data-stu-id="856a2-125">CLSID\_SWbemObjectPath</span></span><br/>                                                       |
-| <span data-ttu-id="856a2-126">IID</span><span class="sxs-lookup"><span data-stu-id="856a2-126">IID</span></span><br/>                      | <span data-ttu-id="856a2-127">IID \_ ISWbemObjectPath</span><span class="sxs-lookup"><span data-stu-id="856a2-127">IID\_ISWbemObjectPath</span></span><br/>                                                        |
+| <span data-ttu-id="cf2c5-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="cf2c5-114">Minimum supported client</span></span><br/> | <span data-ttu-id="cf2c5-115">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="cf2c5-115">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="cf2c5-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="cf2c5-116">Minimum supported server</span></span><br/> | <span data-ttu-id="cf2c5-117">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="cf2c5-117">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="cf2c5-118">標頭</span><span class="sxs-lookup"><span data-stu-id="cf2c5-118">Header</span></span><br/>                   | <dl> <span data-ttu-id="cf2c5-119"><dt>>wbemdisp.tlb。h</dt></span><span class="sxs-lookup"><span data-stu-id="cf2c5-119"><dt>Wbemdisp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="cf2c5-120">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="cf2c5-120">Type library</span></span><br/>             | <dl> <span data-ttu-id="cf2c5-121"><dt>>wbemdisp.tlb .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="cf2c5-121"><dt>Wbemdisp.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="cf2c5-122">DLL</span><span class="sxs-lookup"><span data-stu-id="cf2c5-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="cf2c5-123"><dt>Wbemdisp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="cf2c5-123"><dt>Wbemdisp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="cf2c5-124">CLSID</span><span class="sxs-lookup"><span data-stu-id="cf2c5-124">CLSID</span></span><br/>                    | <span data-ttu-id="cf2c5-125">CLSID \_ SWbemObjectPath</span><span class="sxs-lookup"><span data-stu-id="cf2c5-125">CLSID\_SWbemObjectPath</span></span><br/>                                                       |
+| <span data-ttu-id="cf2c5-126">IID</span><span class="sxs-lookup"><span data-stu-id="cf2c5-126">IID</span></span><br/>                      | <span data-ttu-id="cf2c5-127">IID \_ ISWbemObjectPath</span><span class="sxs-lookup"><span data-stu-id="cf2c5-127">IID\_ISWbemObjectPath</span></span><br/>                                                        |
 
 
 

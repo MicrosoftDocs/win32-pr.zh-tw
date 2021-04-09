@@ -17,9 +17,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932481"
 ---
-# <a name="finding-a-specific-format"></a><span data-ttu-id="11ae1-108">尋找特定格式</span><span class="sxs-lookup"><span data-stu-id="11ae1-108">Finding a Specific Format</span></span>
+# <a name="finding-a-specific-format"></a><span data-ttu-id="ce8b2-108">尋找特定格式</span><span class="sxs-lookup"><span data-stu-id="ce8b2-108">Finding a Specific Format</span></span>
 
-<span data-ttu-id="11ae1-109">當應用程式需要完整規格時，可能只會有格式的部分規格。</span><span class="sxs-lookup"><span data-stu-id="11ae1-109">An application might have only a partial specification for a format when it needs the full specification.</span></span> <span data-ttu-id="11ae1-110">例如，規格可能會規定 11-kHz mono、4位 ADPCM 格式，但不能是每秒的平均位元組數。</span><span class="sxs-lookup"><span data-stu-id="11ae1-110">For example, the specification might stipulate an 11-kHz mono, 4-bit ADPCM format, but not the average bytes per second.</span></span> <span data-ttu-id="11ae1-111">應用程式可以在不需要使用者介入的情況下取得完整格式，方法是使用 [**acmFormatEnum**](/windows/desktop/api/Msacm/nf-msacm-acmformatenum) 函式，並在 *fdwEnum* 參數中指定旗標。</span><span class="sxs-lookup"><span data-stu-id="11ae1-111">The application can get the full format without user intervention by using the [**acmFormatEnum**](/windows/desktop/api/Msacm/nf-msacm-acmformatenum) function and specifying flags in the *fdwEnum* parameter.</span></span>
+<span data-ttu-id="ce8b2-109">當應用程式需要完整規格時，可能只會有格式的部分規格。</span><span class="sxs-lookup"><span data-stu-id="ce8b2-109">An application might have only a partial specification for a format when it needs the full specification.</span></span> <span data-ttu-id="ce8b2-110">例如，規格可能會規定 11-kHz mono、4位 ADPCM 格式，但不能是每秒的平均位元組數。</span><span class="sxs-lookup"><span data-stu-id="ce8b2-110">For example, the specification might stipulate an 11-kHz mono, 4-bit ADPCM format, but not the average bytes per second.</span></span> <span data-ttu-id="ce8b2-111">應用程式可以在不需要使用者介入的情況下取得完整格式，方法是使用 [**acmFormatEnum**](/windows/desktop/api/Msacm/nf-msacm-acmformatenum) 函式，並在 *fdwEnum* 參數中指定旗標。</span><span class="sxs-lookup"><span data-stu-id="ce8b2-111">The application can get the full format without user intervention by using the [**acmFormatEnum**](/windows/desktop/api/Msacm/nf-msacm-acmformatenum) function and specifying flags in the *fdwEnum* parameter.</span></span>
 
  
 

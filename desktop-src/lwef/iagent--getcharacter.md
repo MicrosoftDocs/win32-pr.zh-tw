@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839871"
 ---
-# <a name="iagentgetcharacter"></a><span data-ttu-id="6d24b-103">IAgent::GetCharacter</span><span class="sxs-lookup"><span data-stu-id="6d24b-103">IAgent::GetCharacter</span></span>
+# <a name="iagentgetcharacter"></a><span data-ttu-id="819dc-103">IAgent::GetCharacter</span><span class="sxs-lookup"><span data-stu-id="819dc-103">IAgent::GetCharacter</span></span>
 
-<span data-ttu-id="6d24b-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="6d24b-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+<span data-ttu-id="819dc-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="819dc-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
 
 ``` syntax
 HRESULT GetCharacter(
@@ -21,16 +21,16 @@ HRESULT GetCharacter(
 );
 ```
 
-<span data-ttu-id="6d24b-105">抓取已載入字元的 [**IAgentCharacter**](iagentcharacter.md) 。</span><span class="sxs-lookup"><span data-stu-id="6d24b-105">Retrieves the [**IAgentCharacter**](iagentcharacter.md) for a loaded character.</span></span>
+<span data-ttu-id="819dc-105">抓取已載入字元的 [**IAgentCharacter**](iagentcharacter.md) 。</span><span class="sxs-lookup"><span data-stu-id="819dc-105">Retrieves the [**IAgentCharacter**](iagentcharacter.md) for a loaded character.</span></span>
 
--   <span data-ttu-id="6d24b-106">傳回 \_ [確定] 表示作業成功。</span><span class="sxs-lookup"><span data-stu-id="6d24b-106">Returns S\_OK to indicate the operation was successful.</span></span>
+-   <span data-ttu-id="819dc-106">傳回 \_ [確定] 表示作業成功。</span><span class="sxs-lookup"><span data-stu-id="819dc-106">Returns S\_OK to indicate the operation was successful.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="6d24b-107"><span id="DwCharID_"></span><span id="dwcharid_"></span><span id="DWCHARID_"></span>*DwCharID*</span><span class="sxs-lookup"><span data-stu-id="6d24b-107"><span id="DwCharID_"></span><span id="dwcharid_"></span><span id="DWCHARID_"></span>*DwCharID*</span></span> 
+<span data-ttu-id="819dc-107"><span id="DwCharID_"></span><span id="dwcharid_"></span><span id="DWCHARID_"></span>*DwCharID*</span><span class="sxs-lookup"><span data-stu-id="819dc-107"><span id="DwCharID_"></span><span id="dwcharid_"></span><span id="DWCHARID_"></span>*DwCharID*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="6d24b-108">字元的識別碼。</span><span class="sxs-lookup"><span data-stu-id="6d24b-108">The character's ID.</span></span>
+<span data-ttu-id="819dc-108">字元的識別碼。</span><span class="sxs-lookup"><span data-stu-id="819dc-108">The character's ID.</span></span>
 
 </dd> </dl>
 

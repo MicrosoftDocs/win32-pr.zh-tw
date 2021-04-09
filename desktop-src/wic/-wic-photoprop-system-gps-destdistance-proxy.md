@@ -11,39 +11,39 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945158"
 ---
-# <a name="systemgpsdestdistance-proxy"></a><span data-ttu-id="b8854-103">DestDistance Proxy</span><span class="sxs-lookup"><span data-stu-id="b8854-103">System.GPS.DestDistance Proxy</span></span>
+# <a name="systemgpsdestdistance-proxy"></a><span data-ttu-id="d6c34-103">DestDistance Proxy</span><span class="sxs-lookup"><span data-stu-id="d6c34-103">System.GPS.DestDistance Proxy</span></span>
 
-<span data-ttu-id="b8854-104">DestDistance 相片中繼資料原則的屬性 proxy。</span><span class="sxs-lookup"><span data-stu-id="b8854-104">The property proxy for the System.GPS.DestDistance photo metadata policy.</span></span>
+<span data-ttu-id="d6c34-104">DestDistance 相片中繼資料原則的屬性 proxy。</span><span class="sxs-lookup"><span data-stu-id="d6c34-104">The property proxy for the System.GPS.DestDistance photo metadata policy.</span></span>
 
-### <a name="description"></a><span data-ttu-id="b8854-105">Description</span><span class="sxs-lookup"><span data-stu-id="b8854-105">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d6c34-105">Description</span><span class="sxs-lookup"><span data-stu-id="d6c34-105">Description</span></span>
 
-<span data-ttu-id="b8854-106">屬性 proxy 會透過 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal 成員傳回有理數 a。</span><span class="sxs-lookup"><span data-stu-id="b8854-106">The property proxy returns a rational pair a through the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal member.</span></span>
+<span data-ttu-id="d6c34-106">屬性 proxy 會透過 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal 成員傳回有理數 a。</span><span class="sxs-lookup"><span data-stu-id="d6c34-106">The property proxy returns a rational pair a through the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal member.</span></span>
 
-### <a name="containers"></a><span data-ttu-id="b8854-107">容器</span><span class="sxs-lookup"><span data-stu-id="b8854-107">Containers</span></span>
+### <a name="containers"></a><span data-ttu-id="d6c34-107">容器</span><span class="sxs-lookup"><span data-stu-id="d6c34-107">Containers</span></span>
 
-<span data-ttu-id="b8854-108">JPEG、TIFF</span><span class="sxs-lookup"><span data-stu-id="b8854-108">JPEG, TIFF</span></span>
+<span data-ttu-id="d6c34-108">JPEG、TIFF</span><span class="sxs-lookup"><span data-stu-id="d6c34-108">JPEG, TIFF</span></span>
 
-### <a name="read-only"></a><span data-ttu-id="b8854-109">唯讀</span><span class="sxs-lookup"><span data-stu-id="b8854-109">Read-Only</span></span>
+### <a name="read-only"></a><span data-ttu-id="d6c34-109">唯讀</span><span class="sxs-lookup"><span data-stu-id="d6c34-109">Read-Only</span></span>
 
-<span data-ttu-id="b8854-110">Yes</span><span class="sxs-lookup"><span data-stu-id="b8854-110">Yes</span></span>
+<span data-ttu-id="d6c34-110">Yes</span><span class="sxs-lookup"><span data-stu-id="d6c34-110">Yes</span></span>
 
-### <a name="output-propvariant-type"></a><span data-ttu-id="b8854-111">輸出 PROPVARIANT 類型</span><span class="sxs-lookup"><span data-stu-id="b8854-111">Output PROPVARIANT Type</span></span>
+### <a name="output-propvariant-type"></a><span data-ttu-id="d6c34-111">輸出 PROPVARIANT 類型</span><span class="sxs-lookup"><span data-stu-id="d6c34-111">Output PROPVARIANT Type</span></span>
 
-<span data-ttu-id="b8854-112">VT \_ UI8</span><span class="sxs-lookup"><span data-stu-id="b8854-112">VT\_UI8</span></span>
+<span data-ttu-id="d6c34-112">VT \_ UI8</span><span class="sxs-lookup"><span data-stu-id="d6c34-112">VT\_UI8</span></span>
 
-### <a name="denominator"></a><span data-ttu-id="b8854-113">分母</span><span class="sxs-lookup"><span data-stu-id="b8854-113">Denominator</span></span>
+### <a name="denominator"></a><span data-ttu-id="d6c34-113">分母</span><span class="sxs-lookup"><span data-stu-id="d6c34-113">Denominator</span></span>
 
-<span data-ttu-id="b8854-114">UhVal 的 HighPart。</span><span class="sxs-lookup"><span data-stu-id="b8854-114">HighPart of the uhVal.</span></span>
+<span data-ttu-id="d6c34-114">UhVal 的 HighPart。</span><span class="sxs-lookup"><span data-stu-id="d6c34-114">HighPart of the uhVal.</span></span>
 
-### <a name="numerator"></a><span data-ttu-id="b8854-115">分子</span><span class="sxs-lookup"><span data-stu-id="b8854-115">Numerator</span></span>
+### <a name="numerator"></a><span data-ttu-id="d6c34-115">分子</span><span class="sxs-lookup"><span data-stu-id="d6c34-115">Numerator</span></span>
 
-<span data-ttu-id="b8854-116">UhVal 的 LowPart。</span><span class="sxs-lookup"><span data-stu-id="b8854-116">LowPart of the uhVal.</span></span>
+<span data-ttu-id="d6c34-116">UhVal 的 LowPart。</span><span class="sxs-lookup"><span data-stu-id="d6c34-116">LowPart of the uhVal.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="b8854-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="b8854-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d6c34-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="d6c34-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b8854-118">DestDistance</span><span class="sxs-lookup"><span data-stu-id="b8854-118">System.GPS.DestDistance</span></span>](../properties/props-system-gps-destdistance.md)
+[<span data-ttu-id="d6c34-118">DestDistance</span><span class="sxs-lookup"><span data-stu-id="d6c34-118">System.GPS.DestDistance</span></span>](../properties/props-system-gps-destdistance.md)
 </dt> </dl>
 
  

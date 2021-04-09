@@ -22,11 +22,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/25/2019
 ms.locfileid: "103841219"
 ---
-# <a name="ibasicdevicemodelnumber-method"></a><span data-ttu-id="dceda-106">IBasicDevice：： ModelNumber 方法</span><span class="sxs-lookup"><span data-stu-id="dceda-106">IBasicDevice::ModelNumber method</span></span>
+# <a name="ibasicdevicemodelnumber-method"></a><span data-ttu-id="76025-106">IBasicDevice：： ModelNumber 方法</span><span class="sxs-lookup"><span data-stu-id="76025-106">IBasicDevice::ModelNumber method</span></span>
 
-<span data-ttu-id="dceda-107">抓取裝置的模型編號。</span><span class="sxs-lookup"><span data-stu-id="dceda-107">Retrieves the device s model number.</span></span>
+<span data-ttu-id="76025-107">抓取裝置的模型編號。</span><span class="sxs-lookup"><span data-stu-id="76025-107">Retrieves the device s model number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="dceda-108">語法</span><span class="sxs-lookup"><span data-stu-id="dceda-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="76025-108">語法</span><span class="sxs-lookup"><span data-stu-id="76025-108">Syntax</span></span>
 
 
 ```C++
@@ -37,36 +37,36 @@ HRESULT ModelNumber(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="dceda-109">參數</span><span class="sxs-lookup"><span data-stu-id="dceda-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="76025-109">參數</span><span class="sxs-lookup"><span data-stu-id="76025-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="dceda-110">*值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dceda-110">*value* \[out\]</span></span>
+<span data-ttu-id="76025-110">*值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="76025-110">*value* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="dceda-111">接收裝置的模型編號指標。</span><span class="sxs-lookup"><span data-stu-id="dceda-111">Receives a pointer to the device s model number.</span></span>
+<span data-ttu-id="76025-111">接收裝置的模型編號指標。</span><span class="sxs-lookup"><span data-stu-id="76025-111">Receives a pointer to the device s model number.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="dceda-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="dceda-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="76025-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="76025-112">Return value</span></span>
 
-<span data-ttu-id="dceda-113">方法會傳回 **HRESULT**。</span><span class="sxs-lookup"><span data-stu-id="dceda-113">The method returns an **HRESULT**.</span></span> <span data-ttu-id="dceda-114">可能的值包括 (但不限於) 下表中的這些值。</span><span class="sxs-lookup"><span data-stu-id="dceda-114">Possible values include, but are not limited to, those in the following table.</span></span>
+<span data-ttu-id="76025-113">方法會傳回 **HRESULT**。</span><span class="sxs-lookup"><span data-stu-id="76025-113">The method returns an **HRESULT**.</span></span> <span data-ttu-id="76025-114">可能的值包括 (但不限於) 下表中的這些值。</span><span class="sxs-lookup"><span data-stu-id="76025-114">Possible values include, but are not limited to, those in the following table.</span></span>
 
 
 
-| <span data-ttu-id="dceda-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="dceda-115">Return code</span></span>                                                                          | <span data-ttu-id="dceda-116">Description</span><span class="sxs-lookup"><span data-stu-id="dceda-116">Description</span></span>                      |
+| <span data-ttu-id="76025-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="76025-115">Return code</span></span>                                                                          | <span data-ttu-id="76025-116">Description</span><span class="sxs-lookup"><span data-stu-id="76025-116">Description</span></span>                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
-| <dl> <span data-ttu-id="dceda-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="dceda-117"><dt>**S\_OK**</dt></span></span> </dl> | <span data-ttu-id="dceda-118">此方法已成功。</span><span class="sxs-lookup"><span data-stu-id="dceda-118">The method succeeded.</span></span><br/> |
+| <dl> <span data-ttu-id="76025-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="76025-117"><dt>**S\_OK**</dt></span></span> </dl> | <span data-ttu-id="76025-118">此方法已成功。</span><span class="sxs-lookup"><span data-stu-id="76025-118">The method succeeded.</span></span><br/> |
 
 
 
  
 
-## <a name="see-also"></a><span data-ttu-id="dceda-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dceda-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="76025-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="76025-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="dceda-120">**IBasicDevice**</span><span class="sxs-lookup"><span data-stu-id="dceda-120">**IBasicDevice**</span></span>](ibasicdevice.md)
+[<span data-ttu-id="76025-120">**IBasicDevice**</span><span class="sxs-lookup"><span data-stu-id="76025-120">**IBasicDevice**</span></span>](ibasicdevice.md)
 </dt> </dl>
 
  

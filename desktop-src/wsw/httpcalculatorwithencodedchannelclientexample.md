@@ -15,17 +15,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932579"
 ---
-# <a name="httpcalculatorwithencodedchannelclientexample"></a><span data-ttu-id="7ec3d-107">HttpCalculatorWithEncodedChannelClientExample</span><span class="sxs-lookup"><span data-stu-id="7ec3d-107">HttpCalculatorWithEncodedChannelClientExample</span></span>
+# <a name="httpcalculatorwithencodedchannelclientexample"></a><span data-ttu-id="36773-107">HttpCalculatorWithEncodedChannelClientExample</span><span class="sxs-lookup"><span data-stu-id="36773-107">HttpCalculatorWithEncodedChannelClientExample</span></span>
 
-<span data-ttu-id="7ec3d-108">此範例示範如何使用服務 proxy 與使用自訂通道的 HTTP 型計算機服務交談。</span><span class="sxs-lookup"><span data-stu-id="7ec3d-108">This example show how to use the service proxy to talk to an HTTP based calculator service using a custom channel.</span></span> <span data-ttu-id="7ec3d-109">通道會使用自訂編碼器。</span><span class="sxs-lookup"><span data-stu-id="7ec3d-109">The channel is uses a custom encoder.</span></span>
+<span data-ttu-id="36773-108">此範例示範如何使用服務 proxy 與使用自訂通道的 HTTP 型計算機服務交談。</span><span class="sxs-lookup"><span data-stu-id="36773-108">This example show how to use the service proxy to talk to an HTTP based calculator service using a custom channel.</span></span> <span data-ttu-id="36773-109">通道會使用自訂編碼器。</span><span class="sxs-lookup"><span data-stu-id="36773-109">The channel is uses a custom encoder.</span></span>
 
--   [<span data-ttu-id="7ec3d-110">HttpCalculatorWithEncodedChannelClient .cpp</span><span class="sxs-lookup"><span data-stu-id="7ec3d-110">HttpCalculatorWithEncodedChannelClient.cpp</span></span>](#httpcalculatorwithencodedchannelclientcpp)
--   [<span data-ttu-id="7ec3d-111">CalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="7ec3d-111">CalculatorService.wsdl</span></span>](#calculatorservicewsdl)
--   [<span data-ttu-id="7ec3d-112">EncodedChannel .cpp</span><span class="sxs-lookup"><span data-stu-id="7ec3d-112">EncodedChannel.cpp</span></span>](#encodedchannelcpp)
--   [<span data-ttu-id="7ec3d-113">EncodedChannel。h</span><span class="sxs-lookup"><span data-stu-id="7ec3d-113">EncodedChannel.h</span></span>](#encodedchannelh)
--   [<span data-ttu-id="7ec3d-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="7ec3d-114">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="36773-110">HttpCalculatorWithEncodedChannelClient .cpp</span><span class="sxs-lookup"><span data-stu-id="36773-110">HttpCalculatorWithEncodedChannelClient.cpp</span></span>](#httpcalculatorwithencodedchannelclientcpp)
+-   [<span data-ttu-id="36773-111">CalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="36773-111">CalculatorService.wsdl</span></span>](#calculatorservicewsdl)
+-   [<span data-ttu-id="36773-112">EncodedChannel .cpp</span><span class="sxs-lookup"><span data-stu-id="36773-112">EncodedChannel.cpp</span></span>](#encodedchannelcpp)
+-   [<span data-ttu-id="36773-113">EncodedChannel。h</span><span class="sxs-lookup"><span data-stu-id="36773-113">EncodedChannel.h</span></span>](#encodedchannelh)
+-   [<span data-ttu-id="36773-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="36773-114">Makefile</span></span>](#makefile)
 
-## <a name="httpcalculatorwithencodedchannelclientcpp"></a><span data-ttu-id="7ec3d-115">HttpCalculatorWithEncodedChannelClient .cpp</span><span class="sxs-lookup"><span data-stu-id="7ec3d-115">HttpCalculatorWithEncodedChannelClient.cpp</span></span>
+## <a name="httpcalculatorwithencodedchannelclientcpp"></a><span data-ttu-id="36773-115">HttpCalculatorWithEncodedChannelClient .cpp</span><span class="sxs-lookup"><span data-stu-id="36773-115">HttpCalculatorWithEncodedChannelClient.cpp</span></span>
 
 
 ```C++
@@ -210,7 +210,7 @@ Exit:
 
 
 
-## <a name="calculatorservicewsdl"></a><span data-ttu-id="7ec3d-116">CalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="7ec3d-116">CalculatorService.wsdl</span></span>
+## <a name="calculatorservicewsdl"></a><span data-ttu-id="36773-116">CalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="36773-116">CalculatorService.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -307,7 +307,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="encodedchannelcpp"></a><span data-ttu-id="7ec3d-117">EncodedChannel .cpp</span><span class="sxs-lookup"><span data-stu-id="7ec3d-117">EncodedChannel.cpp</span></span>
+## <a name="encodedchannelcpp"></a><span data-ttu-id="36773-117">EncodedChannel .cpp</span><span class="sxs-lookup"><span data-stu-id="36773-117">EncodedChannel.cpp</span></span>
 
 
 ```C++
@@ -673,7 +673,7 @@ WS_CHANNEL_DECODER channelDecoder =
 
 
 
-## <a name="encodedchannelh"></a><span data-ttu-id="7ec3d-118">EncodedChannel。h</span><span class="sxs-lookup"><span data-stu-id="7ec3d-118">EncodedChannel.h</span></span>
+## <a name="encodedchannelh"></a><span data-ttu-id="36773-118">EncodedChannel。h</span><span class="sxs-lookup"><span data-stu-id="36773-118">EncodedChannel.h</span></span>
 
 
 ```C++
@@ -684,7 +684,7 @@ extern WS_CHANNEL_DECODER channelDecoder;
 
 
 
-## <a name="makefile"></a><span data-ttu-id="7ec3d-119">Makefile</span><span class="sxs-lookup"><span data-stu-id="7ec3d-119">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="36773-119">Makefile</span><span class="sxs-lookup"><span data-stu-id="36773-119">Makefile</span></span>
 
 ``` syntax
 !include <Win32.Mak>

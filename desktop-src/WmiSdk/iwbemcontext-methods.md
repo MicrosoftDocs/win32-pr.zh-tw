@@ -12,21 +12,21 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103693299"
 ---
-# <a name="iwbemcontext-methods"></a><span data-ttu-id="67288-103">IWbemCoNtext 方法</span><span class="sxs-lookup"><span data-stu-id="67288-103">IWbemContext Methods</span></span>
+# <a name="iwbemcontext-methods"></a><span data-ttu-id="d25c4-103">IWbemCoNtext 方法</span><span class="sxs-lookup"><span data-stu-id="d25c4-103">IWbemContext Methods</span></span>
 
-<span data-ttu-id="67288-104">[**IWbemCoNtext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="67288-104">The [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) interface exposes the following methods.</span></span>
+<span data-ttu-id="d25c4-104">[**IWbemCoNtext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="d25c4-104">The [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="67288-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="67288-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d25c4-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d25c4-105">In this section</span></span>
 
--   [<span data-ttu-id="67288-106">**BeginEnumeration 方法**</span><span class="sxs-lookup"><span data-stu-id="67288-106">**BeginEnumeration method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-beginenumeration)
--   [<span data-ttu-id="67288-107">**Clone 方法**</span><span class="sxs-lookup"><span data-stu-id="67288-107">**Clone method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-clone)
--   [<span data-ttu-id="67288-108">**DeleteAll 方法**</span><span class="sxs-lookup"><span data-stu-id="67288-108">**DeleteAll method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-deleteall)
--   [<span data-ttu-id="67288-109">**DeleteValue 方法**</span><span class="sxs-lookup"><span data-stu-id="67288-109">**DeleteValue method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-deletevalue)
--   [<span data-ttu-id="67288-110">**EndEnumeration 方法**</span><span class="sxs-lookup"><span data-stu-id="67288-110">**EndEnumeration method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-endenumeration)
--   [<span data-ttu-id="67288-111">**GetNames 方法**</span><span class="sxs-lookup"><span data-stu-id="67288-111">**GetNames method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-getnames)
--   [<span data-ttu-id="67288-112">**GetValue 方法**</span><span class="sxs-lookup"><span data-stu-id="67288-112">**GetValue method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-getvalue)
--   [<span data-ttu-id="67288-113">**Next 方法**</span><span class="sxs-lookup"><span data-stu-id="67288-113">**Next method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-next)
--   [<span data-ttu-id="67288-114">**SetValue 方法**</span><span class="sxs-lookup"><span data-stu-id="67288-114">**SetValue method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-setvalue)
+-   [<span data-ttu-id="d25c4-106">**BeginEnumeration 方法**</span><span class="sxs-lookup"><span data-stu-id="d25c4-106">**BeginEnumeration method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-beginenumeration)
+-   [<span data-ttu-id="d25c4-107">**Clone 方法**</span><span class="sxs-lookup"><span data-stu-id="d25c4-107">**Clone method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-clone)
+-   [<span data-ttu-id="d25c4-108">**DeleteAll 方法**</span><span class="sxs-lookup"><span data-stu-id="d25c4-108">**DeleteAll method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-deleteall)
+-   [<span data-ttu-id="d25c4-109">**DeleteValue 方法**</span><span class="sxs-lookup"><span data-stu-id="d25c4-109">**DeleteValue method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-deletevalue)
+-   [<span data-ttu-id="d25c4-110">**EndEnumeration 方法**</span><span class="sxs-lookup"><span data-stu-id="d25c4-110">**EndEnumeration method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-endenumeration)
+-   [<span data-ttu-id="d25c4-111">**GetNames 方法**</span><span class="sxs-lookup"><span data-stu-id="d25c4-111">**GetNames method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-getnames)
+-   [<span data-ttu-id="d25c4-112">**GetValue 方法**</span><span class="sxs-lookup"><span data-stu-id="d25c4-112">**GetValue method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-getvalue)
+-   [<span data-ttu-id="d25c4-113">**Next 方法**</span><span class="sxs-lookup"><span data-stu-id="d25c4-113">**Next method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-next)
+-   [<span data-ttu-id="d25c4-114">**SetValue 方法**</span><span class="sxs-lookup"><span data-stu-id="d25c4-114">**SetValue method**</span></span>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-setvalue)
 
  
 

@@ -15,11 +15,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671299"
 ---
-# <a name="example-code-for-implementing-a-winsock-service-with-an-rnr-publication"></a><span data-ttu-id="e3c1b-105">使用 RnR 發行集來執行 Winsock 服務的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="e3c1b-105">Example Code for Implementing a Winsock Service with an RnR Publication</span></span>
+# <a name="example-code-for-implementing-a-winsock-service-with-an-rnr-publication"></a><span data-ttu-id="4501c-105">使用 RnR 發行集來執行 Winsock 服務的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="4501c-105">Example Code for Implementing a Winsock Service with an RnR Publication</span></span>
 
-<span data-ttu-id="e3c1b-106">下列程式碼範例會使用 RnR 發行集來執行範例 Winsock 服務。</span><span class="sxs-lookup"><span data-stu-id="e3c1b-106">The following code example implements the example Winsock service with RnR publication.</span></span>
+<span data-ttu-id="4501c-106">下列程式碼範例會使用 RnR 發行集來執行範例 Winsock 服務。</span><span class="sxs-lookup"><span data-stu-id="4501c-106">The following code example implements the example Winsock service with RnR publication.</span></span>
 
-<span data-ttu-id="e3c1b-107">這個範例會使用範例程式碼中所定義的 **serverRegister** 函式 [來發佈 RnR 連接點](example-code-for-publishing-the-rnr-connection-point.md) 主題，以及範例程式碼中定義的 **ServerUnregister** 函式， [以移除 RnR 連接點](example-code-for-removing-the-rnr-connection-point.md) 主題。</span><span class="sxs-lookup"><span data-stu-id="e3c1b-107">This sample uses the **serverRegister** function defined in the [Example Code for Publishing the RnR Connection Point](example-code-for-publishing-the-rnr-connection-point.md) topic and the **serverUnregister** function defined in the [Example Code for Removing the RnR Connection Point](example-code-for-removing-the-rnr-connection-point.md) topic.</span></span>
+<span data-ttu-id="4501c-107">這個範例會使用範例程式碼中所定義的 **serverRegister** 函式 [來發佈 RnR 連接點](example-code-for-publishing-the-rnr-connection-point.md) 主題，以及範例程式碼中定義的 **ServerUnregister** 函式， [以移除 RnR 連接點](example-code-for-removing-the-rnr-connection-point.md) 主題。</span><span class="sxs-lookup"><span data-stu-id="4501c-107">This sample uses the **serverRegister** function defined in the [Example Code for Publishing the RnR Connection Point](example-code-for-publishing-the-rnr-connection-point.md) topic and the **serverUnregister** function defined in the [Example Code for Removing the RnR Connection Point](example-code-for-removing-the-rnr-connection-point.md) topic.</span></span>
 
 
 ```C++

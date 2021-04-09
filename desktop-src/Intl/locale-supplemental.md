@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691448"
 ---
-# <a name="locale_supplemental"></a><span data-ttu-id="b6914-103">地區設定 \_ 補充</span><span class="sxs-lookup"><span data-stu-id="b6914-103">LOCALE\_SUPPLEMENTAL</span></span>
+# <a name="locale_supplemental"></a><span data-ttu-id="1d6c4-103">地區設定 \_ 補充</span><span class="sxs-lookup"><span data-stu-id="1d6c4-103">LOCALE\_SUPPLEMENTAL</span></span>
 
-<span data-ttu-id="b6914-104">**Windows Vista 和更新版本：** 列舉 [補充地區](custom-locales.md)設定。</span><span class="sxs-lookup"><span data-stu-id="b6914-104">**Windows Vista and later:** Enumerate [supplemental locales](custom-locales.md).</span></span>
+<span data-ttu-id="1d6c4-104">**Windows Vista 和更新版本：** 列舉 [補充地區](custom-locales.md)設定。</span><span class="sxs-lookup"><span data-stu-id="1d6c4-104">**Windows Vista and later:** Enumerate [supplemental locales](custom-locales.md).</span></span>
 
  
 

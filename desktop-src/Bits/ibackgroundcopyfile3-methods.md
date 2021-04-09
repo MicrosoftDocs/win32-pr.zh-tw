@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103839423"
 ---
-# <a name="ibackgroundcopyfile3-methods"></a><span data-ttu-id="cee15-103">IBackgroundCopyFile3 方法</span><span class="sxs-lookup"><span data-stu-id="cee15-103">IBackgroundCopyFile3 Methods</span></span>
+# <a name="ibackgroundcopyfile3-methods"></a><span data-ttu-id="74fd3-103">IBackgroundCopyFile3 方法</span><span class="sxs-lookup"><span data-stu-id="74fd3-103">IBackgroundCopyFile3 Methods</span></span>
 
-<span data-ttu-id="cee15-104">[**IBackgroundCopyFile3**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyfile3)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="cee15-104">The [**IBackgroundCopyFile3**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyfile3) interface exposes the following methods.</span></span>
+<span data-ttu-id="74fd3-104">[**IBackgroundCopyFile3**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyfile3)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="74fd3-104">The [**IBackgroundCopyFile3**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyfile3) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="cee15-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="cee15-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="74fd3-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="74fd3-105">In this section</span></span>
 
--   [<span data-ttu-id="cee15-106">**GetTemporaryName 方法**</span><span class="sxs-lookup"><span data-stu-id="cee15-106">**GetTemporaryName Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-gettemporaryname)
--   [<span data-ttu-id="cee15-107">**GetValidationState 方法**</span><span class="sxs-lookup"><span data-stu-id="cee15-107">**GetValidationState Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-getvalidationstate)
--   [<span data-ttu-id="cee15-108">**IsDownloadedFromPeer 方法**</span><span class="sxs-lookup"><span data-stu-id="cee15-108">**IsDownloadedFromPeer Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-isdownloadedfrompeer)
--   [<span data-ttu-id="cee15-109">**SetValidationState 方法**</span><span class="sxs-lookup"><span data-stu-id="cee15-109">**SetValidationState Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-setvalidationstate)
+-   [<span data-ttu-id="74fd3-106">**GetTemporaryName 方法**</span><span class="sxs-lookup"><span data-stu-id="74fd3-106">**GetTemporaryName Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-gettemporaryname)
+-   [<span data-ttu-id="74fd3-107">**GetValidationState 方法**</span><span class="sxs-lookup"><span data-stu-id="74fd3-107">**GetValidationState Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-getvalidationstate)
+-   [<span data-ttu-id="74fd3-108">**IsDownloadedFromPeer 方法**</span><span class="sxs-lookup"><span data-stu-id="74fd3-108">**IsDownloadedFromPeer Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-isdownloadedfrompeer)
+-   [<span data-ttu-id="74fd3-109">**SetValidationState 方法**</span><span class="sxs-lookup"><span data-stu-id="74fd3-109">**SetValidationState Method**</span></span>](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-setvalidationstate)
 
  
 
