@@ -12,13 +12,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103672960"
 ---
-# <a name="itssbplacement-methods"></a><span data-ttu-id="7c88d-103">ITsSbPlacement 方法</span><span class="sxs-lookup"><span data-stu-id="7c88d-103">ITsSbPlacement Methods</span></span>
+# <a name="itssbplacement-methods"></a><span data-ttu-id="c6549-103">ITsSbPlacement 方法</span><span class="sxs-lookup"><span data-stu-id="c6549-103">ITsSbPlacement Methods</span></span>
 
-<span data-ttu-id="7c88d-104">[**ITsSbPlacement**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacement)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="7c88d-104">The [**ITsSbPlacement**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacement) interface exposes the following methods.</span></span>
+<span data-ttu-id="c6549-104">[**ITsSbPlacement**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacement)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="c6549-104">The [**ITsSbPlacement**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacement) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="7c88d-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="7c88d-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c6549-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c6549-105">In this section</span></span>
 
--   [<span data-ttu-id="7c88d-106">**QueryEnvironmentForTarget 方法**</span><span class="sxs-lookup"><span data-stu-id="7c88d-106">**QueryEnvironmentForTarget method**</span></span>](/windows/desktop/api/sbtsv/nf-sbtsv-itssbplacement-queryenvironmentfortarget)
+-   [<span data-ttu-id="c6549-106">**QueryEnvironmentForTarget 方法**</span><span class="sxs-lookup"><span data-stu-id="c6549-106">**QueryEnvironmentForTarget method**</span></span>](/windows/desktop/api/sbtsv/nf-sbtsv-itssbplacement-queryenvironmentfortarget)
 
  
 

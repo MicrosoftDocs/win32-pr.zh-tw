@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103670972"
 ---
-# <a name="iwsmanresourcelocator-methods"></a><span data-ttu-id="651d4-103">IWSManResourceLocator 方法</span><span class="sxs-lookup"><span data-stu-id="651d4-103">IWSManResourceLocator Methods</span></span>
+# <a name="iwsmanresourcelocator-methods"></a><span data-ttu-id="84526-103">IWSManResourceLocator 方法</span><span class="sxs-lookup"><span data-stu-id="84526-103">IWSManResourceLocator Methods</span></span>
 
-<span data-ttu-id="651d4-104">[**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="651d4-104">The [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator) interface exposes the following methods.</span></span>
+<span data-ttu-id="84526-104">[**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="84526-104">The [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="651d4-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="651d4-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="84526-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="84526-105">In this section</span></span>
 
--   [<span data-ttu-id="651d4-106">**AddOption 方法**</span><span class="sxs-lookup"><span data-stu-id="651d4-106">**AddOption Method**</span></span>](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-addoption)
--   [<span data-ttu-id="651d4-107">**AddSelector 方法**</span><span class="sxs-lookup"><span data-stu-id="651d4-107">**AddSelector Method**</span></span>](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-addselector)
--   [<span data-ttu-id="651d4-108">**ClearOptions 方法**</span><span class="sxs-lookup"><span data-stu-id="651d4-108">**ClearOptions Method**</span></span>](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-clearoptions)
--   [<span data-ttu-id="651d4-109">**ClearSelectors 方法**</span><span class="sxs-lookup"><span data-stu-id="651d4-109">**ClearSelectors Method**</span></span>](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-clearselectors)
+-   [<span data-ttu-id="84526-106">**AddOption 方法**</span><span class="sxs-lookup"><span data-stu-id="84526-106">**AddOption Method**</span></span>](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-addoption)
+-   [<span data-ttu-id="84526-107">**AddSelector 方法**</span><span class="sxs-lookup"><span data-stu-id="84526-107">**AddSelector Method**</span></span>](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-addselector)
+-   [<span data-ttu-id="84526-108">**ClearOptions 方法**</span><span class="sxs-lookup"><span data-stu-id="84526-108">**ClearOptions Method**</span></span>](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-clearoptions)
+-   [<span data-ttu-id="84526-109">**ClearSelectors 方法**</span><span class="sxs-lookup"><span data-stu-id="84526-109">**ClearSelectors Method**</span></span>](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-clearselectors)
 
  
 

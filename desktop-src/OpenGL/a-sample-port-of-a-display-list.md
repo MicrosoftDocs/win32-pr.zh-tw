@@ -17,11 +17,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673155"
 ---
-# <a name="a-sample-port-of-a-display-list"></a><span data-ttu-id="fcc38-109">顯示清單的範例埠</span><span class="sxs-lookup"><span data-stu-id="fcc38-109">A Sample Port of a Display List</span></span>
+# <a name="a-sample-port-of-a-display-list"></a><span data-ttu-id="8637f-109">顯示清單的範例埠</span><span class="sxs-lookup"><span data-stu-id="8637f-109">A Sample Port of a Display List</span></span>
 
-<span data-ttu-id="fcc38-110">本主題提供定義三個顯示清單的程式碼鳶尾花 GL 範例;其中一個顯示清單會參考其定義中的其他顯示清單。</span><span class="sxs-lookup"><span data-stu-id="fcc38-110">This topic gives an IRIS GL sample of code that defines three display lists; one of the display lists refers to the others in its definition.</span></span> <span data-ttu-id="fcc38-111">遵循鳶尾花 GL 範例即為程式碼在移植至 OpenGL 時的外觀範例。</span><span class="sxs-lookup"><span data-stu-id="fcc38-111">Following the IRIS GL sample is a sample of what the code looks like when ported to OpenGL.</span></span>
+<span data-ttu-id="8637f-110">本主題提供定義三個顯示清單的程式碼鳶尾花 GL 範例;其中一個顯示清單會參考其定義中的其他顯示清單。</span><span class="sxs-lookup"><span data-stu-id="8637f-110">This topic gives an IRIS GL sample of code that defines three display lists; one of the display lists refers to the others in its definition.</span></span> <span data-ttu-id="8637f-111">遵循鳶尾花 GL 範例即為程式碼在移植至 OpenGL 時的外觀範例。</span><span class="sxs-lookup"><span data-stu-id="8637f-111">Following the IRIS GL sample is a sample of what the code looks like when ported to OpenGL.</span></span>
 
-## <a name="iris-gl-sample-display-list-code"></a><span data-ttu-id="fcc38-112">鳶尾花 GL 範例顯示清單程式碼</span><span class="sxs-lookup"><span data-stu-id="fcc38-112">IRIS GL Sample Display List Code</span></span>
+## <a name="iris-gl-sample-display-list-code"></a><span data-ttu-id="8637f-112">鳶尾花 GL 範例顯示清單程式碼</span><span class="sxs-lookup"><span data-stu-id="8637f-112">IRIS GL Sample Display List Code</span></span>
 
 
 ```C++
@@ -49,9 +49,9 @@ call(30);
 
 
 
-## <a name="opengl-sample-display-list-code"></a><span data-ttu-id="fcc38-113">OpenGL 範例顯示清單程式碼</span><span class="sxs-lookup"><span data-stu-id="fcc38-113">OpenGL Sample Display List Code</span></span>
+## <a name="opengl-sample-display-list-code"></a><span data-ttu-id="8637f-113">OpenGL 範例顯示清單程式碼</span><span class="sxs-lookup"><span data-stu-id="8637f-113">OpenGL Sample Display List Code</span></span>
 
-<span data-ttu-id="fcc38-114">以下是將上述鳶尾花 GL 程式碼轉譯為 OpenGL：</span><span class="sxs-lookup"><span data-stu-id="fcc38-114">Here is the preceding IRIS GL code translated to OpenGL:</span></span>
+<span data-ttu-id="8637f-114">以下是將上述鳶尾花 GL 程式碼轉譯為 OpenGL：</span><span class="sxs-lookup"><span data-stu-id="8637f-114">Here is the preceding IRIS GL code translated to OpenGL:</span></span>
 
 
 ```C++

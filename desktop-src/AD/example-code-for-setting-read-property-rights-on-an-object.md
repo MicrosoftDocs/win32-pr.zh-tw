@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671291"
 ---
-# <a name="example-code-for-setting-read-property-rights-on-an-object"></a><span data-ttu-id="8f31f-104">針對物件設定讀取屬性許可權的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="8f31f-104">Example Code for Setting Read Property Rights on an Object</span></span>
+# <a name="example-code-for-setting-read-property-rights-on-an-object"></a><span data-ttu-id="29393-104">針對物件設定讀取屬性許可權的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="29393-104">Example Code for Setting Read Property Rights on an Object</span></span>
 
-<span data-ttu-id="8f31f-105">下列程式碼範例包含一個函式，該函式會建立一個 ACE，將物件的所有屬性的讀取存取權指派給指定的信任者。</span><span class="sxs-lookup"><span data-stu-id="8f31f-105">The following code example contains a function that creates an ACE that assigns read access to all properties of the object to the specified trustee.</span></span>
+<span data-ttu-id="29393-105">下列程式碼範例包含一個函式，該函式會建立一個 ACE，將物件的所有屬性的讀取存取權指派給指定的信任者。</span><span class="sxs-lookup"><span data-stu-id="29393-105">The following code example contains a function that creates an ACE that assigns read access to all properties of the object to the specified trustee.</span></span>
 
 
 ```C++

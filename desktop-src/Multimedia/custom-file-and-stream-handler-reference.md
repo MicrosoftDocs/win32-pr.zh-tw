@@ -20,12 +20,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673404"
 ---
-# <a name="custom-file-and-stream-handler-reference"></a><span data-ttu-id="d802b-111">自訂檔案和資料流程處理常式參考</span><span class="sxs-lookup"><span data-stu-id="d802b-111">Custom File and Stream Handler Reference</span></span>
+# <a name="custom-file-and-stream-handler-reference"></a><span data-ttu-id="dc63b-111">自訂檔案和資料流程處理常式參考</span><span class="sxs-lookup"><span data-stu-id="dc63b-111">Custom File and Stream Handler Reference</span></span>
 
-<span data-ttu-id="d802b-112">下列元素會與自訂檔案和資料流程處理常式搭配使用。</span><span class="sxs-lookup"><span data-stu-id="d802b-112">The following elements are used with custom file and stream handlers.</span></span>
+<span data-ttu-id="dc63b-112">下列元素會與自訂檔案和資料流程處理常式搭配使用。</span><span class="sxs-lookup"><span data-stu-id="dc63b-112">The following elements are used with custom file and stream handlers.</span></span>
 
--   [<span data-ttu-id="d802b-113">自訂檔案和資料流程處理函式</span><span class="sxs-lookup"><span data-stu-id="d802b-113">Custom File and Stream Handler Functions</span></span>](custom-file-and-stream-handler-functions.md)
--   [<span data-ttu-id="d802b-114">自訂檔案和資料流程處理常式介面</span><span class="sxs-lookup"><span data-stu-id="d802b-114">Custom File and Stream Handler Interfaces</span></span>](custom-file-and-stream-handler-interfaces.md)
+-   [<span data-ttu-id="dc63b-113">自訂檔案和資料流程處理函式</span><span class="sxs-lookup"><span data-stu-id="dc63b-113">Custom File and Stream Handler Functions</span></span>](custom-file-and-stream-handler-functions.md)
+-   [<span data-ttu-id="dc63b-114">自訂檔案和資料流程處理常式介面</span><span class="sxs-lookup"><span data-stu-id="dc63b-114">Custom File and Stream Handler Interfaces</span></span>](custom-file-and-stream-handler-interfaces.md)
 
  
 

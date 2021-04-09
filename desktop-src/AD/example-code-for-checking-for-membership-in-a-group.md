@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671319"
 ---
-# <a name="example-code-for-checking-for-membership-in-a-group"></a><span data-ttu-id="447db-104">檢查群組成員資格的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="447db-104">Example Code for Checking for Membership in a Group</span></span>
+# <a name="example-code-for-checking-for-membership-in-a-group"></a><span data-ttu-id="1762d-104">檢查群組成員資格的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="1762d-104">Example Code for Checking for Membership in a Group</span></span>
 
-<span data-ttu-id="447db-105">下列程式碼範例會以遞迴方式確認物件是否為群組的成員或群組中任何群組的成員，以驗證物件的絕對成員資格。</span><span class="sxs-lookup"><span data-stu-id="447db-105">The following code example verifies absolute membership of an object by recursively verifying that an object is a member of a group or any groups nested in that group.</span></span>
+<span data-ttu-id="1762d-105">下列程式碼範例會以遞迴方式確認物件是否為群組的成員或群組中任何群組的成員，以驗證物件的絕對成員資格。</span><span class="sxs-lookup"><span data-stu-id="1762d-105">The following code example verifies absolute membership of an object by recursively verifying that an object is a member of a group or any groups nested in that group.</span></span>
 
 
 ```C++

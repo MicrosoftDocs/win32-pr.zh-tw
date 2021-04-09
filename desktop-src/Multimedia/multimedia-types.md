@@ -17,12 +17,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103674156"
 ---
-# <a name="multimedia-types"></a><span data-ttu-id="c2d4e-108">多媒體類型</span><span class="sxs-lookup"><span data-stu-id="c2d4e-108">Multimedia Types</span></span>
+# <a name="multimedia-types"></a><span data-ttu-id="86e93-108">多媒體類型</span><span class="sxs-lookup"><span data-stu-id="86e93-108">Multimedia Types</span></span>
 
-<span data-ttu-id="c2d4e-109">以下是搭配多媒體使用的類型。</span><span class="sxs-lookup"><span data-stu-id="c2d4e-109">The following types are used with multimedia.</span></span>
+<span data-ttu-id="86e93-109">以下是搭配多媒體使用的類型。</span><span class="sxs-lookup"><span data-stu-id="86e93-109">The following types are used with multimedia.</span></span>
 
--   [<span data-ttu-id="c2d4e-110">KEYARRAY</span><span class="sxs-lookup"><span data-stu-id="c2d4e-110">KEYARRAY</span></span>](keyarray.md)
--   [<span data-ttu-id="c2d4e-111">PATCHARRAY</span><span class="sxs-lookup"><span data-stu-id="c2d4e-111">PATCHARRAY</span></span>](patcharray.md)
+-   [<span data-ttu-id="86e93-110">KEYARRAY</span><span class="sxs-lookup"><span data-stu-id="86e93-110">KEYARRAY</span></span>](keyarray.md)
+-   [<span data-ttu-id="86e93-111">PATCHARRAY</span><span class="sxs-lookup"><span data-stu-id="86e93-111">PATCHARRAY</span></span>](patcharray.md)
 
  
 

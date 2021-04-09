@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2020
 ms.locfileid: "103684244"
 ---
-# <a name="example-common-classes"></a><span data-ttu-id="53aab-103">範例：通用類別</span><span class="sxs-lookup"><span data-stu-id="53aab-103">Example: Common Classes</span></span>
+# <a name="example-common-classes"></a><span data-ttu-id="de2ff-103">範例：通用類別</span><span class="sxs-lookup"><span data-stu-id="de2ff-103">Example: Common Classes</span></span>
 
-<span data-ttu-id="53aab-104">您可以使用本主題中的程式碼範例，作為許多背景智慧型傳送服務 (位的起點，) 執行 COM 初始化的應用程式、需要錯誤處理，以及接收回呼通知。</span><span class="sxs-lookup"><span data-stu-id="53aab-104">You can use the code examples in this topic as a starting point for many Background Intelligent Transfer Service (BITS) applications that perform COM initialization, need error handling, and receive callback notifications.</span></span>
+<span data-ttu-id="de2ff-104">您可以使用本主題中的程式碼範例，作為許多背景智慧型傳送服務 (位的起點，) 執行 COM 初始化的應用程式、需要錯誤處理，以及接收回呼通知。</span><span class="sxs-lookup"><span data-stu-id="de2ff-104">You can use the code examples in this topic as a starting point for many Background Intelligent Transfer Service (BITS) applications that perform COM initialization, need error handling, and receive callback notifications.</span></span>
 
 
-<span data-ttu-id="53aab-105">下列程式碼範例會定義例外狀況類別來處理錯誤。</span><span class="sxs-lookup"><span data-stu-id="53aab-105">The following code example defines an exception class to handle errors.</span></span>
+<span data-ttu-id="de2ff-105">下列程式碼範例會定義例外狀況類別來處理錯誤。</span><span class="sxs-lookup"><span data-stu-id="de2ff-105">The following code example defines an exception class to handle errors.</span></span>
 
 
 ```C++
@@ -34,10 +34,10 @@ public:
 
 
 
-<span data-ttu-id="53aab-106">MyException 類別是泛型例外狀況類別，可接受 HRESULT 程式碼和錯誤字串。</span><span class="sxs-lookup"><span data-stu-id="53aab-106">The MyException class is a generic exception class that accepts an HRESULT code and error string.</span></span>
+<span data-ttu-id="de2ff-106">MyException 類別是泛型例外狀況類別，可接受 HRESULT 程式碼和錯誤字串。</span><span class="sxs-lookup"><span data-stu-id="de2ff-106">The MyException class is a generic exception class that accepts an HRESULT code and error string.</span></span>
 
 
-<span data-ttu-id="53aab-107">下列程式碼範例會定義 [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) 函數的資源取得 helper 類別。</span><span class="sxs-lookup"><span data-stu-id="53aab-107">The following code example defines a resource acquisition helper class for the [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) function.</span></span>
+<span data-ttu-id="de2ff-107">下列程式碼範例會定義 [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) 函數的資源取得 helper 類別。</span><span class="sxs-lookup"><span data-stu-id="de2ff-107">The following code example defines a resource acquisition helper class for the [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) function.</span></span>
 
 
 ```C++
@@ -62,10 +62,10 @@ public:
 
 
 
-<span data-ttu-id="53aab-108">CCoInitializer 類別會處理 COM 初始化的資源配置和解除配置。</span><span class="sxs-lookup"><span data-stu-id="53aab-108">The CCoInitializer class deals with resource allocation and deallocation for COM initialization.</span></span> <span data-ttu-id="53aab-109">此類別可讓您在類別超出範圍時呼叫此函式。</span><span class="sxs-lookup"><span data-stu-id="53aab-109">This class enables the destructor to be called when the class goes out of scope.</span></span> <span data-ttu-id="53aab-110">這個類別不需要在每個例外狀況區塊之後呼叫 [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) 方法。</span><span class="sxs-lookup"><span data-stu-id="53aab-110">This class eliminates the need for the [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) method to be called after every exception block.</span></span>
+<span data-ttu-id="de2ff-108">CCoInitializer 類別會處理 COM 初始化的資源配置和解除配置。</span><span class="sxs-lookup"><span data-stu-id="de2ff-108">The CCoInitializer class deals with resource allocation and deallocation for COM initialization.</span></span> <span data-ttu-id="de2ff-109">此類別可讓您在類別超出範圍時呼叫此函式。</span><span class="sxs-lookup"><span data-stu-id="de2ff-109">This class enables the destructor to be called when the class goes out of scope.</span></span> <span data-ttu-id="de2ff-110">這個類別不需要在每個例外狀況區塊之後呼叫 [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) 方法。</span><span class="sxs-lookup"><span data-stu-id="de2ff-110">This class eliminates the need for the [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) method to be called after every exception block.</span></span>
 
 
-<span data-ttu-id="53aab-111">下列程式碼範例是 CNotifyInterface 回呼介面的宣告。</span><span class="sxs-lookup"><span data-stu-id="53aab-111">The following code example is the declaration of the CNotifyInterface callback interface.</span></span>
+<span data-ttu-id="de2ff-111">下列程式碼範例是 CNotifyInterface 回呼介面的宣告。</span><span class="sxs-lookup"><span data-stu-id="de2ff-111">The following code example is the declaration of the CNotifyInterface callback interface.</span></span>
 
 
 ```C++
@@ -100,14 +100,14 @@ private:
 
 
 
-<span data-ttu-id="53aab-112">衍生自 [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) 介面的 CNotifyInterface 類別。</span><span class="sxs-lookup"><span data-stu-id="53aab-112">The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface.</span></span> <span data-ttu-id="53aab-113">CNotifyInterface 類別會實作為 IUnknown 介面。</span><span class="sxs-lookup"><span data-stu-id="53aab-113">The CNotifyInterface class implements the IUnknown interface.</span></span> <span data-ttu-id="53aab-114">如需詳細資訊，請參閱 [IUnknown]( /windows/win32/api/unknwn/nn-unknwn-iunknown)。</span><span class="sxs-lookup"><span data-stu-id="53aab-114">For more information, see [IUnknown]( /windows/win32/api/unknwn/nn-unknwn-iunknown).</span></span>
+<span data-ttu-id="de2ff-112">衍生自 [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) 介面的 CNotifyInterface 類別。</span><span class="sxs-lookup"><span data-stu-id="de2ff-112">The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface.</span></span> <span data-ttu-id="de2ff-113">CNotifyInterface 類別會實作為 IUnknown 介面。</span><span class="sxs-lookup"><span data-stu-id="de2ff-113">The CNotifyInterface class implements the IUnknown interface.</span></span> <span data-ttu-id="de2ff-114">如需詳細資訊，請參閱 [IUnknown]( /windows/win32/api/unknwn/nn-unknwn-iunknown)。</span><span class="sxs-lookup"><span data-stu-id="de2ff-114">For more information, see [IUnknown]( /windows/win32/api/unknwn/nn-unknwn-iunknown).</span></span>
 
-<span data-ttu-id="53aab-115">CNotifyInterface 會使用下列方法來接收作業已完成、已修改或處於錯誤狀態的通知： [**JobTransferred**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred)、 [**JobModification**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification)和 [**JobError**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror)。</span><span class="sxs-lookup"><span data-stu-id="53aab-115">CNotifyInterface uses the following methods to receive notification that a job is complete, has been modified, or is in an error state: [**JobTransferred**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred), [**JobModification**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification), and [**JobError**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror).</span></span> <span data-ttu-id="53aab-116">所有這些方法都採用 [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) 工作物件。</span><span class="sxs-lookup"><span data-stu-id="53aab-116">All of these methods take an [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) job object.</span></span>
+<span data-ttu-id="de2ff-115">CNotifyInterface 會使用下列方法來接收作業已完成、已修改或處於錯誤狀態的通知： [**JobTransferred**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred)、 [**JobModification**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification)和 [**JobError**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror)。</span><span class="sxs-lookup"><span data-stu-id="de2ff-115">CNotifyInterface uses the following methods to receive notification that a job is complete, has been modified, or is in an error state: [**JobTransferred**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred), [**JobModification**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification), and [**JobError**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror).</span></span> <span data-ttu-id="de2ff-116">所有這些方法都採用 [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) 工作物件。</span><span class="sxs-lookup"><span data-stu-id="de2ff-116">All of these methods take an [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) job object.</span></span>
 
-<span data-ttu-id="53aab-117">此範例會使用 [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) 來釋放記憶體資源。</span><span class="sxs-lookup"><span data-stu-id="53aab-117">This example uses the [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) to free memory resources.</span></span>
+<span data-ttu-id="de2ff-117">此範例會使用 [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) 來釋放記憶體資源。</span><span class="sxs-lookup"><span data-stu-id="de2ff-117">This example uses the [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) to free memory resources.</span></span>
 
 
-<span data-ttu-id="53aab-118">下列程式碼範例是 [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) 回呼介面的實作為。</span><span class="sxs-lookup"><span data-stu-id="53aab-118">The following code example is the implementation of the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) callback interface.</span></span>
+<span data-ttu-id="de2ff-118">下列程式碼範例是 [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) 回呼介面的實作為。</span><span class="sxs-lookup"><span data-stu-id="de2ff-118">The following code example is the implementation of the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) callback interface.</span></span>
 
 
 ```C++
@@ -212,7 +212,7 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 
 
 
-<span data-ttu-id="53aab-119">下列標頭檔用於通用程式碼類別。</span><span class="sxs-lookup"><span data-stu-id="53aab-119">The following header file is used for the common code classes.</span></span> <span data-ttu-id="53aab-120">上述程式碼範例會使用這些類別。</span><span class="sxs-lookup"><span data-stu-id="53aab-120">These classes are used in the previous code examples.</span></span>
+<span data-ttu-id="de2ff-119">下列標頭檔用於通用程式碼類別。</span><span class="sxs-lookup"><span data-stu-id="de2ff-119">The following header file is used for the common code classes.</span></span> <span data-ttu-id="de2ff-120">上述程式碼範例會使用這些類別。</span><span class="sxs-lookup"><span data-stu-id="de2ff-120">These classes are used in the previous code examples.</span></span>
 
 
 ```C++
@@ -282,7 +282,7 @@ private:
 
 
 
-<span data-ttu-id="53aab-121">下列範例程式碼是通用程式碼類別的實作為。</span><span class="sxs-lookup"><span data-stu-id="53aab-121">The following example code is the implementation of the common code classes.</span></span>
+<span data-ttu-id="de2ff-121">下列範例程式碼是通用程式碼類別的實作為。</span><span class="sxs-lookup"><span data-stu-id="de2ff-121">The following example code is the implementation of the common code classes.</span></span>
 
 
 ```C++
@@ -400,23 +400,23 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="53aab-122">相關主題</span><span class="sxs-lookup"><span data-stu-id="53aab-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="de2ff-122">相關主題</span><span class="sxs-lookup"><span data-stu-id="de2ff-122">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="53aab-123">IUnknown</span><span class="sxs-lookup"><span data-stu-id="53aab-123">IUnknown</span></span>]( /windows/win32/api/unknwn/nn-unknwn-iunknown)
+[<span data-ttu-id="de2ff-123">IUnknown</span><span class="sxs-lookup"><span data-stu-id="de2ff-123">IUnknown</span></span>]( /windows/win32/api/unknwn/nn-unknwn-iunknown)
 </dt> <dt>
 
-[<span data-ttu-id="53aab-124">**IBackgroundCopyCallback**</span><span class="sxs-lookup"><span data-stu-id="53aab-124">**IBackgroundCopyCallback**</span></span>](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback)
+[<span data-ttu-id="de2ff-124">**IBackgroundCopyCallback**</span><span class="sxs-lookup"><span data-stu-id="de2ff-124">**IBackgroundCopyCallback**</span></span>](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback)
 </dt> <dt>
 
-[<span data-ttu-id="53aab-125">**IBackgroundCopyJob**</span><span class="sxs-lookup"><span data-stu-id="53aab-125">**IBackgroundCopyJob**</span></span>](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob)
+[<span data-ttu-id="de2ff-125">**IBackgroundCopyJob**</span><span class="sxs-lookup"><span data-stu-id="de2ff-125">**IBackgroundCopyJob**</span></span>](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob)
 </dt> <dt>
 
-[<span data-ttu-id="53aab-126">CoInitializeEx</span><span class="sxs-lookup"><span data-stu-id="53aab-126">CoInitializeEx</span></span>](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)
+[<span data-ttu-id="de2ff-126">CoInitializeEx</span><span class="sxs-lookup"><span data-stu-id="de2ff-126">CoInitializeEx</span></span>](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)
 </dt> <dt>
 
-[<span data-ttu-id="53aab-127">CoUninitialize</span><span class="sxs-lookup"><span data-stu-id="53aab-127">CoUninitialize</span></span>](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize)
+[<span data-ttu-id="de2ff-127">CoUninitialize</span><span class="sxs-lookup"><span data-stu-id="de2ff-127">CoUninitialize</span></span>](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize)
 </dt> </dl>
 
  
