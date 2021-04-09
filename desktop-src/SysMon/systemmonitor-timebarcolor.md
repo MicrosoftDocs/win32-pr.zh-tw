@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685871"
 ---
-# <a name="systemmonitortimebarcolor-property"></a><span data-ttu-id="9aaed-107">SystemMonitor. TimeBarColor 屬性</span><span class="sxs-lookup"><span data-stu-id="9aaed-107">SystemMonitor.TimeBarColor property</span></span>
+# <a name="systemmonitortimebarcolor-property"></a><span data-ttu-id="c05d5-107">SystemMonitor. TimeBarColor 屬性</span><span class="sxs-lookup"><span data-stu-id="c05d5-107">SystemMonitor.TimeBarColor property</span></span>
 
-<span data-ttu-id="9aaed-108">抓取或設定時間列的色彩。</span><span class="sxs-lookup"><span data-stu-id="9aaed-108">Retrieves or sets the color of the time bar.</span></span> <span data-ttu-id="9aaed-109">時間軸是在圖形視窗間移動的垂直橫條，表示折線圖圖中每個取樣間隔的分佈。</span><span class="sxs-lookup"><span data-stu-id="9aaed-109">The time bar is the vertical bar that moves across the graph window to indicate the passage of each sampling interval in the line graph view.</span></span>
+<span data-ttu-id="c05d5-108">抓取或設定時間列的色彩。</span><span class="sxs-lookup"><span data-stu-id="c05d5-108">Retrieves or sets the color of the time bar.</span></span> <span data-ttu-id="c05d5-109">時間軸是在圖形視窗間移動的垂直橫條，表示折線圖圖中每個取樣間隔的分佈。</span><span class="sxs-lookup"><span data-stu-id="c05d5-109">The time bar is the vertical bar that moves across the graph window to indicate the passage of each sampling interval in the line graph view.</span></span>
 
-<span data-ttu-id="9aaed-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="9aaed-110">This property is read-only.</span></span>
+<span data-ttu-id="c05d5-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="c05d5-110">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9aaed-111">語法</span><span class="sxs-lookup"><span data-stu-id="9aaed-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c05d5-111">語法</span><span class="sxs-lookup"><span data-stu-id="c05d5-111">Syntax</span></span>
 
 
 ```VB
@@ -38,27 +38,27 @@ Property TimeBarColor As stdole.OLE_COLOR
 
 
 
-## <a name="property-value"></a><span data-ttu-id="9aaed-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="9aaed-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="c05d5-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="c05d5-112">Property value</span></span>
 
-<span data-ttu-id="9aaed-113">時間列的色彩。</span><span class="sxs-lookup"><span data-stu-id="9aaed-113">Color of the time bar.</span></span>
+<span data-ttu-id="c05d5-113">時間列的色彩。</span><span class="sxs-lookup"><span data-stu-id="c05d5-113">Color of the time bar.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="9aaed-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="9aaed-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c05d5-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="c05d5-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="9aaed-115">需求</span><span class="sxs-lookup"><span data-stu-id="9aaed-115">Requirement</span></span> | <span data-ttu-id="9aaed-116">值</span><span class="sxs-lookup"><span data-stu-id="9aaed-116">Value</span></span> |
+| <span data-ttu-id="c05d5-115">需求</span><span class="sxs-lookup"><span data-stu-id="c05d5-115">Requirement</span></span> | <span data-ttu-id="c05d5-116">值</span><span class="sxs-lookup"><span data-stu-id="c05d5-116">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="9aaed-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9aaed-117">Minimum supported client</span></span><br/> | <span data-ttu-id="9aaed-118">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9aaed-118">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
-| <span data-ttu-id="9aaed-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9aaed-119">Minimum supported server</span></span><br/> | <span data-ttu-id="9aaed-120">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9aaed-120">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="9aaed-121">DLL</span><span class="sxs-lookup"><span data-stu-id="9aaed-121">DLL</span></span><br/>                      | <dl> <span data-ttu-id="9aaed-122"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="9aaed-122"><dt>Sysmon.ocx</dt></span></span> </dl> |
+| <span data-ttu-id="c05d5-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c05d5-117">Minimum supported client</span></span><br/> | <span data-ttu-id="c05d5-118">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c05d5-118">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
+| <span data-ttu-id="c05d5-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c05d5-119">Minimum supported server</span></span><br/> | <span data-ttu-id="c05d5-120">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c05d5-120">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="c05d5-121">DLL</span><span class="sxs-lookup"><span data-stu-id="c05d5-121">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c05d5-122"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="c05d5-122"><dt>Sysmon.ocx</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="9aaed-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9aaed-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c05d5-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c05d5-123">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9aaed-124">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="9aaed-124">**SystemMonitor**</span></span>](systemmonitor.md)
+[<span data-ttu-id="c05d5-124">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="c05d5-124">**SystemMonitor**</span></span>](systemmonitor.md)
 </dt> </dl>
 
  

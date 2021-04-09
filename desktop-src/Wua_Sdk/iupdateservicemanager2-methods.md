@@ -11,24 +11,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104112161"
 ---
-# <a name="iupdateservicemanager2-methods"></a><span data-ttu-id="112c7-103">IUpdateServiceManager2 方法</span><span class="sxs-lookup"><span data-stu-id="112c7-103">IUpdateServiceManager2 Methods</span></span>
+# <a name="iupdateservicemanager2-methods"></a><span data-ttu-id="7e50d-103">IUpdateServiceManager2 方法</span><span class="sxs-lookup"><span data-stu-id="7e50d-103">IUpdateServiceManager2 Methods</span></span>
 
-<span data-ttu-id="112c7-104">[**IUpdateServiceManager2**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager2)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="112c7-104">The [**IUpdateServiceManager2**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager2) interface defines the following methods.</span></span>
+<span data-ttu-id="7e50d-104">[**IUpdateServiceManager2**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager2)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="7e50d-104">The [**IUpdateServiceManager2**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager2) interface defines the following methods.</span></span>
 
 
 
-| <span data-ttu-id="112c7-105">方法</span><span class="sxs-lookup"><span data-stu-id="112c7-105">Method</span></span>                                                                                      | <span data-ttu-id="112c7-106">描述</span><span class="sxs-lookup"><span data-stu-id="112c7-106">Description</span></span>                                                                                                                                                                                |
+| <span data-ttu-id="7e50d-105">方法</span><span class="sxs-lookup"><span data-stu-id="7e50d-105">Method</span></span>                                                                                      | <span data-ttu-id="7e50d-106">描述</span><span class="sxs-lookup"><span data-stu-id="7e50d-106">Description</span></span>                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="112c7-107">**AddService2**</span><span class="sxs-lookup"><span data-stu-id="112c7-107">**AddService2**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-addservice2)                           | <span data-ttu-id="112c7-108">使用 WUA 註冊服務，而不需要 ( .cab) 的授權封包檔，並傳回 [**IUpdateServiceRegistration**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicecollection) 介面的指標。</span><span class="sxs-lookup"><span data-stu-id="112c7-108">Registers a service with WUA without requiring an authorization cabinet file (.cab), and returns a pointer to an [**IUpdateServiceRegistration**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicecollection) interface.</span></span> |
-| [<span data-ttu-id="112c7-109">**QueryServiceRegistration**</span><span class="sxs-lookup"><span data-stu-id="112c7-109">**QueryServiceRegistration**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-queryserviceregistration) | <span data-ttu-id="112c7-110">傳回 [**IUpdateServiceRegistration**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateserviceregistration) 介面的指標。</span><span class="sxs-lookup"><span data-stu-id="112c7-110">Returns a pointer to an [**IUpdateServiceRegistration**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateserviceregistration) interface.</span></span>                                                                                        |
+| [<span data-ttu-id="7e50d-107">**AddService2**</span><span class="sxs-lookup"><span data-stu-id="7e50d-107">**AddService2**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-addservice2)                           | <span data-ttu-id="7e50d-108">使用 WUA 註冊服務，而不需要 ( .cab) 的授權封包檔，並傳回 [**IUpdateServiceRegistration**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicecollection) 介面的指標。</span><span class="sxs-lookup"><span data-stu-id="7e50d-108">Registers a service with WUA without requiring an authorization cabinet file (.cab), and returns a pointer to an [**IUpdateServiceRegistration**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicecollection) interface.</span></span> |
+| [<span data-ttu-id="7e50d-109">**QueryServiceRegistration**</span><span class="sxs-lookup"><span data-stu-id="7e50d-109">**QueryServiceRegistration**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-queryserviceregistration) | <span data-ttu-id="7e50d-110">傳回 [**IUpdateServiceRegistration**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateserviceregistration) 介面的指標。</span><span class="sxs-lookup"><span data-stu-id="7e50d-110">Returns a pointer to an [**IUpdateServiceRegistration**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateserviceregistration) interface.</span></span>                                                                                        |
 
 
 
  
 
-<span data-ttu-id="112c7-111">如需此介面所繼承之成員的相關資訊，請參閱下列介面。</span><span class="sxs-lookup"><span data-stu-id="112c7-111">For information about the members inherited by this interface, see the following interface.</span></span>
+<span data-ttu-id="7e50d-111">如需此介面所繼承之成員的相關資訊，請參閱下列介面。</span><span class="sxs-lookup"><span data-stu-id="7e50d-111">For information about the members inherited by this interface, see the following interface.</span></span>
 
--   [<span data-ttu-id="112c7-112">**IUpdateServiceManager**</span><span class="sxs-lookup"><span data-stu-id="112c7-112">**IUpdateServiceManager**</span></span>](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager)
+-   [<span data-ttu-id="7e50d-112">**IUpdateServiceManager**</span><span class="sxs-lookup"><span data-stu-id="7e50d-112">**IUpdateServiceManager**</span></span>](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager)
 
  
 

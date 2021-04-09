@@ -24,9 +24,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/19/2020
 ms.locfileid: "103681436"
 ---
-# <a name="changing-synchronization-priority"></a><span data-ttu-id="a5509-115">變更同步處理優先權</span><span class="sxs-lookup"><span data-stu-id="a5509-115">Changing Synchronization Priority</span></span>
+# <a name="changing-synchronization-priority"></a><span data-ttu-id="ac3e0-115">變更同步處理優先權</span><span class="sxs-lookup"><span data-stu-id="ac3e0-115">Changing Synchronization Priority</span></span>
 
-<span data-ttu-id="a5509-116">下列範例程式碼會針對 IDC PLVIEW 所識別的 ListView 控制項中的每個專案，指定優先順序值 \_ 。</span><span class="sxs-lookup"><span data-stu-id="a5509-116">The following example code specifies a priority value for each item in the ListView control identified by IDC\_PLVIEW.</span></span> <span data-ttu-id="a5509-117">標記有核取記號的專案，會根據其在清單中的順序來指派優先順序值。</span><span class="sxs-lookup"><span data-stu-id="a5509-117">Items that are marked with a check mark are assigned a priority value based on their order in the list.</span></span> <span data-ttu-id="a5509-118">未核取的專案會被指派優先順序值為零。</span><span class="sxs-lookup"><span data-stu-id="a5509-118">Items that are not checked are assigned a priority value of zero.</span></span>
+<span data-ttu-id="ac3e0-116">下列範例程式碼會針對 IDC PLVIEW 所識別的 ListView 控制項中的每個專案，指定優先順序值 \_ 。</span><span class="sxs-lookup"><span data-stu-id="ac3e0-116">The following example code specifies a priority value for each item in the ListView control identified by IDC\_PLVIEW.</span></span> <span data-ttu-id="ac3e0-117">標記有核取記號的專案，會根據其在清單中的順序來指派優先順序值。</span><span class="sxs-lookup"><span data-stu-id="ac3e0-117">Items that are marked with a check mark are assigned a priority value based on their order in the list.</span></span> <span data-ttu-id="ac3e0-118">未核取的專案會被指派優先順序值為零。</span><span class="sxs-lookup"><span data-stu-id="ac3e0-118">Items that are not checked are assigned a priority value of zero.</span></span>
 
 
 ```C++
@@ -81,17 +81,17 @@ void CSyncSettings::SetPriorities()
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="a5509-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="a5509-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ac3e0-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="ac3e0-119">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a5509-120">**IWMPMedia 介面**</span><span class="sxs-lookup"><span data-stu-id="a5509-120">**IWMPMedia Interface**</span></span>](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia)
+[<span data-ttu-id="ac3e0-120">**IWMPMedia 介面**</span><span class="sxs-lookup"><span data-stu-id="ac3e0-120">**IWMPMedia Interface**</span></span>](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia)
 </dt> <dt>
 
-[<span data-ttu-id="a5509-121">**IWMPPlaylist 介面**</span><span class="sxs-lookup"><span data-stu-id="a5509-121">**IWMPPlaylist Interface**</span></span>](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplaylist)
+[<span data-ttu-id="ac3e0-121">**IWMPPlaylist 介面**</span><span class="sxs-lookup"><span data-stu-id="ac3e0-121">**IWMPPlaylist Interface**</span></span>](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplaylist)
 </dt> <dt>
 
-[<span data-ttu-id="a5509-122">**管理同步播放清單**</span><span class="sxs-lookup"><span data-stu-id="a5509-122">**Managing Synchronization Playlists**</span></span>](managing-synchronization-playlists.md)
+[<span data-ttu-id="ac3e0-122">**管理同步播放清單**</span><span class="sxs-lookup"><span data-stu-id="ac3e0-122">**Managing Synchronization Playlists**</span></span>](managing-synchronization-playlists.md)
 </dt> </dl>
 
  

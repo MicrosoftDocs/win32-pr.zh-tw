@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 07/30/2020
 ms.locfileid: "103681618"
 ---
-# <a name="verticalmenulayout-element"></a><span data-ttu-id="720f5-104">VerticalMenuLayout 元素</span><span class="sxs-lookup"><span data-stu-id="720f5-104">VerticalMenuLayout element</span></span>
+# <a name="verticalmenulayout-element"></a><span data-ttu-id="df08e-104">VerticalMenuLayout 元素</span><span class="sxs-lookup"><span data-stu-id="df08e-104">VerticalMenuLayout element</span></span>
 
-<span data-ttu-id="720f5-105">代表資源庫中專案的垂直版面配置。</span><span class="sxs-lookup"><span data-stu-id="720f5-105">Represents a vertical layout for items in a gallery.</span></span>
+<span data-ttu-id="df08e-105">代表資源庫中專案的垂直版面配置。</span><span class="sxs-lookup"><span data-stu-id="df08e-105">Represents a vertical layout for items in a gallery.</span></span>
 
-## <a name="usage"></a><span data-ttu-id="720f5-106">使用方式</span><span class="sxs-lookup"><span data-stu-id="720f5-106">Usage</span></span>
+## <a name="usage"></a><span data-ttu-id="df08e-106">使用方式</span><span class="sxs-lookup"><span data-stu-id="df08e-106">Usage</span></span>
 
 ``` syntax
 <VerticalMenuLayout
@@ -33,7 +33,7 @@ ms.locfileid: "103681618"
   Gripper = "xs:string"/>
 ```
 
-## <a name="attributes"></a><span data-ttu-id="720f5-107">屬性</span><span class="sxs-lookup"><span data-stu-id="720f5-107">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="df08e-107">屬性</span><span class="sxs-lookup"><span data-stu-id="df08e-107">Attributes</span></span>
 
 
 
@@ -46,69 +46,69 @@ ms.locfileid: "103681618"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="720f5-108">屬性</span><span class="sxs-lookup"><span data-stu-id="720f5-108">Attribute</span></span></th>
-<th><span data-ttu-id="720f5-109">類型</span><span class="sxs-lookup"><span data-stu-id="720f5-109">Type</span></span></th>
-<th><span data-ttu-id="720f5-110">必要</span><span class="sxs-lookup"><span data-stu-id="720f5-110">Required</span></span></th>
-<th><span data-ttu-id="720f5-111">描述</span><span class="sxs-lookup"><span data-stu-id="720f5-111">Description</span></span></th>
+<th><span data-ttu-id="df08e-108">屬性</span><span class="sxs-lookup"><span data-stu-id="df08e-108">Attribute</span></span></th>
+<th><span data-ttu-id="df08e-109">類型</span><span class="sxs-lookup"><span data-stu-id="df08e-109">Type</span></span></th>
+<th><span data-ttu-id="df08e-110">必要</span><span class="sxs-lookup"><span data-stu-id="df08e-110">Required</span></span></th>
+<th><span data-ttu-id="df08e-111">描述</span><span class="sxs-lookup"><span data-stu-id="df08e-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="720f5-112"><strong>片 梭</strong></span><span class="sxs-lookup"><span data-stu-id="720f5-112"><strong>Gripper</strong></span></span><br/></td>
-<td><span data-ttu-id="720f5-113">xs:string</span><span class="sxs-lookup"><span data-stu-id="720f5-113">xs:string</span></span><br/></td>
-<td><span data-ttu-id="720f5-114">No</span><span class="sxs-lookup"><span data-stu-id="720f5-114">No</span></span><br/></td>
-<td><span data-ttu-id="720f5-115">附加至圖庫下拉式清單的調整大小控點。</span><span class="sxs-lookup"><span data-stu-id="720f5-115">A resizing handle attached to the gallery drop down.</span></span> <br/> <img src="images/controls/gripper.png" alt="Screen shot of a vertical gripper." /><br/> <span data-ttu-id="720f5-116">限制為下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="720f5-116">Restricted to one of the following values:</span></span><br/> <br/><span data-ttu-id="720f5-117">
-<dt><span></span><span></span><strong></strong> (無) </span><span class="sxs-lookup"><span data-stu-id="720f5-117">
-<dt><span></span><span></span><strong></strong> (None)</span></span><br/> </dt> <dd></dd> <span data-ttu-id="720f5-118"><dt><span></span><span></span><strong></strong> (垂直) </span><span class="sxs-lookup"><span data-stu-id="720f5-118"><dt><span></span><span></span><strong></strong> (Vertical)</span></span><br/> </dt> <dd> <span data-ttu-id="720f5-119">預設值。</span><span class="sxs-lookup"><span data-stu-id="720f5-119">Default.</span></span> <br/> </dd> </dl></td>
+<td><span data-ttu-id="df08e-112"><strong>片 梭</strong></span><span class="sxs-lookup"><span data-stu-id="df08e-112"><strong>Gripper</strong></span></span><br/></td>
+<td><span data-ttu-id="df08e-113">xs:string</span><span class="sxs-lookup"><span data-stu-id="df08e-113">xs:string</span></span><br/></td>
+<td><span data-ttu-id="df08e-114">No</span><span class="sxs-lookup"><span data-stu-id="df08e-114">No</span></span><br/></td>
+<td><span data-ttu-id="df08e-115">附加至圖庫下拉式清單的調整大小控點。</span><span class="sxs-lookup"><span data-stu-id="df08e-115">A resizing handle attached to the gallery drop down.</span></span> <br/> <img src="images/controls/gripper.png" alt="Screen shot of a vertical gripper." /><br/> <span data-ttu-id="df08e-116">限制為下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="df08e-116">Restricted to one of the following values:</span></span><br/> <br/><span data-ttu-id="df08e-117">
+<dt><span></span><span></span><strong></strong> (無) </span><span class="sxs-lookup"><span data-stu-id="df08e-117">
+<dt><span></span><span></span><strong></strong> (None)</span></span><br/> </dt> <dd></dd> <span data-ttu-id="df08e-118"><dt><span></span><span></span><strong></strong> (垂直) </span><span class="sxs-lookup"><span data-stu-id="df08e-118"><dt><span></span><span></span><strong></strong> (Vertical)</span></span><br/> </dt> <dd> <span data-ttu-id="df08e-119">預設值。</span><span class="sxs-lookup"><span data-stu-id="df08e-119">Default.</span></span> <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="720f5-120"><strong>IsMultipleHighlightingEnabled</strong></span><span class="sxs-lookup"><span data-stu-id="720f5-120"><strong>IsMultipleHighlightingEnabled</strong></span></span><br/></td>
-<td><span data-ttu-id="720f5-121">xs:boolean</span><span class="sxs-lookup"><span data-stu-id="720f5-121">xs:boolean</span></span><br/></td>
-<td><span data-ttu-id="720f5-122">No</span><span class="sxs-lookup"><span data-stu-id="720f5-122">No</span></span><br/></td>
-<td><span data-ttu-id="720f5-123"><strong>Windows 8 和更新版本</strong></span><span class="sxs-lookup"><span data-stu-id="720f5-123"><strong>Windows 8 and newer</strong></span></span><br/> <span data-ttu-id="720f5-124">將清單中的所有專案反白顯示，並包含目前的滑鼠懸停專案 (而不是僅) 滑鼠停用的專案。</span><span class="sxs-lookup"><span data-stu-id="720f5-124">Highlights all items in the list up to, and including, the current mouseover item (instead of the mouseover item only).</span></span> <span data-ttu-id="720f5-125">通常用於多個 <strong>復原</strong> 和 <strong>重做</strong> 功能。</span><span class="sxs-lookup"><span data-stu-id="720f5-125">Typically used for multiple <strong>Undo</strong> and <strong>Redo</strong> functionality.</span></span><br/> <br/><span data-ttu-id="720f5-126">
-<dt><span></span><span></span><strong></strong> (true) </span><span class="sxs-lookup"><span data-stu-id="720f5-126">
-<dt><span></span><span></span><strong></strong> (true)</span></span><br/> </dt> <dd></dd> <span data-ttu-id="720f5-127"><dt><span></span><span></span><strong></strong> (false) </span><span class="sxs-lookup"><span data-stu-id="720f5-127"><dt><span></span><span></span><strong></strong> (false)</span></span><br/> </dt> <dd> <span data-ttu-id="720f5-128">預設值。</span><span class="sxs-lookup"><span data-stu-id="720f5-128">Default.</span></span> <br/> </dd> </dl></td>
+<td><span data-ttu-id="df08e-120"><strong>IsMultipleHighlightingEnabled</strong></span><span class="sxs-lookup"><span data-stu-id="df08e-120"><strong>IsMultipleHighlightingEnabled</strong></span></span><br/></td>
+<td><span data-ttu-id="df08e-121">xs:boolean</span><span class="sxs-lookup"><span data-stu-id="df08e-121">xs:boolean</span></span><br/></td>
+<td><span data-ttu-id="df08e-122">No</span><span class="sxs-lookup"><span data-stu-id="df08e-122">No</span></span><br/></td>
+<td><span data-ttu-id="df08e-123"><strong>Windows 8 和更新版本</strong></span><span class="sxs-lookup"><span data-stu-id="df08e-123"><strong>Windows 8 and newer</strong></span></span><br/> <span data-ttu-id="df08e-124">將清單中的所有專案反白顯示，並包含目前的滑鼠懸停專案 (而不是僅) 滑鼠停用的專案。</span><span class="sxs-lookup"><span data-stu-id="df08e-124">Highlights all items in the list up to, and including, the current mouseover item (instead of the mouseover item only).</span></span> <span data-ttu-id="df08e-125">通常用於多個 <strong>復原</strong> 和 <strong>重做</strong> 功能。</span><span class="sxs-lookup"><span data-stu-id="df08e-125">Typically used for multiple <strong>Undo</strong> and <strong>Redo</strong> functionality.</span></span><br/> <br/><span data-ttu-id="df08e-126">
+<dt><span></span><span></span><strong></strong> (true) </span><span class="sxs-lookup"><span data-stu-id="df08e-126">
+<dt><span></span><span></span><strong></strong> (true)</span></span><br/> </dt> <dd></dd> <span data-ttu-id="df08e-127"><dt><span></span><span></span><strong></strong> (false) </span><span class="sxs-lookup"><span data-stu-id="df08e-127"><dt><span></span><span></span><strong></strong> (false)</span></span><br/> </dt> <dd> <span data-ttu-id="df08e-128">預設值。</span><span class="sxs-lookup"><span data-stu-id="df08e-128">Default.</span></span> <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="720f5-129"><strong>資料列</strong></span><span class="sxs-lookup"><span data-stu-id="720f5-129"><strong>Rows</strong></span></span><br/></td>
-<td><span data-ttu-id="720f5-130">xs:integer</span><span class="sxs-lookup"><span data-stu-id="720f5-130">xs:integer</span></span><br/></td>
-<td><span data-ttu-id="720f5-131">No</span><span class="sxs-lookup"><span data-stu-id="720f5-131">No</span></span><br/></td>
-<td><span data-ttu-id="720f5-132">指定要顯示但不需要滾動的專案資料列數目。</span><span class="sxs-lookup"><span data-stu-id="720f5-132">Specifies the number of item rows to be visible without scrolling.</span></span> <br/> <br/><span data-ttu-id="720f5-133">
-<dt><span></span><span></span><strong></strong> (xs： integer) </span><span class="sxs-lookup"><span data-stu-id="720f5-133">
-<dt><span></span><span></span><strong></strong> (xs:integer)</span></span><br/> </dt> <dd> <span data-ttu-id="720f5-134">任何正整數或負整數。</span><span class="sxs-lookup"><span data-stu-id="720f5-134">Any positive or negative integer.</span></span> <br/> <span data-ttu-id="720f5-135">預設值為 <strong>-1</strong> ，指定盡可能顯示最多的專案資料列。</span><span class="sxs-lookup"><span data-stu-id="720f5-135">The default is <strong>-1</strong> which specifies to display as many item rows as possible.</span></span><br/> </dd> </dl></td>
+<td><span data-ttu-id="df08e-129"><strong>資料列</strong></span><span class="sxs-lookup"><span data-stu-id="df08e-129"><strong>Rows</strong></span></span><br/></td>
+<td><span data-ttu-id="df08e-130">xs:integer</span><span class="sxs-lookup"><span data-stu-id="df08e-130">xs:integer</span></span><br/></td>
+<td><span data-ttu-id="df08e-131">No</span><span class="sxs-lookup"><span data-stu-id="df08e-131">No</span></span><br/></td>
+<td><span data-ttu-id="df08e-132">指定要顯示但不需要滾動的專案資料列數目。</span><span class="sxs-lookup"><span data-stu-id="df08e-132">Specifies the number of item rows to be visible without scrolling.</span></span> <br/> <br/><span data-ttu-id="df08e-133">
+<dt><span></span><span></span><strong></strong> (xs： integer) </span><span class="sxs-lookup"><span data-stu-id="df08e-133">
+<dt><span></span><span></span><strong></strong> (xs:integer)</span></span><br/> </dt> <dd> <span data-ttu-id="df08e-134">任何正整數或負整數。</span><span class="sxs-lookup"><span data-stu-id="df08e-134">Any positive or negative integer.</span></span> <br/> <span data-ttu-id="df08e-135">預設值為 <strong>-1</strong> ，指定盡可能顯示最多的專案資料列。</span><span class="sxs-lookup"><span data-stu-id="df08e-135">The default is <strong>-1</strong> which specifies to display as many item rows as possible.</span></span><br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>
 
 
 
-## <a name="child-elements"></a><span data-ttu-id="720f5-136">子元素</span><span class="sxs-lookup"><span data-stu-id="720f5-136">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="df08e-136">子元素</span><span class="sxs-lookup"><span data-stu-id="df08e-136">Child elements</span></span>
 
-<span data-ttu-id="720f5-137">沒有任何子項目。</span><span class="sxs-lookup"><span data-stu-id="720f5-137">There are no child elements.</span></span>
+<span data-ttu-id="df08e-137">沒有任何子項目。</span><span class="sxs-lookup"><span data-stu-id="df08e-137">There are no child elements.</span></span>
 
-## <a name="parent-elements"></a><span data-ttu-id="720f5-138">父元素</span><span class="sxs-lookup"><span data-stu-id="720f5-138">Parent elements</span></span>
+## <a name="parent-elements"></a><span data-ttu-id="df08e-138">父元素</span><span class="sxs-lookup"><span data-stu-id="df08e-138">Parent elements</span></span>
 
 
 
-| <span data-ttu-id="720f5-139">元素</span><span class="sxs-lookup"><span data-stu-id="720f5-139">Element</span></span>                                                                                                 |
+| <span data-ttu-id="df08e-139">元素</span><span class="sxs-lookup"><span data-stu-id="df08e-139">Element</span></span>                                                                                                 |
 |---------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="720f5-140">**DropDownGallery.MenuLayout**</span><span class="sxs-lookup"><span data-stu-id="720f5-140">**DropDownGallery.MenuLayout**</span></span>](windowsribbon-element-dropdowngallery-menulayout.md)<br/>       |
-| [<span data-ttu-id="720f5-141">**InRibbonGallery.MenuLayout**</span><span class="sxs-lookup"><span data-stu-id="720f5-141">**InRibbonGallery.MenuLayout**</span></span>](windowsribbon-element-inribbongallery-menulayout.md)<br/>       |
-| [<span data-ttu-id="720f5-142">**SplitButtonGallery.MenuLayout**</span><span class="sxs-lookup"><span data-stu-id="720f5-142">**SplitButtonGallery.MenuLayout**</span></span>](windowsribbon-element-splitbuttongallery-menulayout.md)<br/> |
+| [<span data-ttu-id="df08e-140">**DropDownGallery.MenuLayout**</span><span class="sxs-lookup"><span data-stu-id="df08e-140">**DropDownGallery.MenuLayout**</span></span>](windowsribbon-element-dropdowngallery-menulayout.md)<br/>       |
+| [<span data-ttu-id="df08e-141">**InRibbonGallery.MenuLayout**</span><span class="sxs-lookup"><span data-stu-id="df08e-141">**InRibbonGallery.MenuLayout**</span></span>](windowsribbon-element-inribbongallery-menulayout.md)<br/>       |
+| [<span data-ttu-id="df08e-142">**SplitButtonGallery.MenuLayout**</span><span class="sxs-lookup"><span data-stu-id="df08e-142">**SplitButtonGallery.MenuLayout**</span></span>](windowsribbon-element-splitbuttongallery-menulayout.md)<br/> |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="720f5-143">備註</span><span class="sxs-lookup"><span data-stu-id="720f5-143">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="df08e-143">備註</span><span class="sxs-lookup"><span data-stu-id="df08e-143">Remarks</span></span>
 
-<span data-ttu-id="720f5-144">必要。</span><span class="sxs-lookup"><span data-stu-id="720f5-144">Required.</span></span>
+<span data-ttu-id="df08e-144">必要。</span><span class="sxs-lookup"><span data-stu-id="df08e-144">Required.</span></span>
 
-<span data-ttu-id="720f5-145">**VerticalMenuLayout** 或 [**FlowMenuLayout**](windowsribbon-element-flowmenulayout.md)元素必須針對每個 [**DropDownGallery. MenuLayout**](windowsribbon-element-dropdowngallery-menulayout.md)、 [**InRibbonGallery. MenuLayout**](windowsribbon-element-inribbongallery-menulayout.md)或 [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery-menulayout.md)專案進行一次。</span><span class="sxs-lookup"><span data-stu-id="720f5-145">Either the **VerticalMenuLayout** or the [**FlowMenuLayout**](windowsribbon-element-flowmenulayout.md) element must occur one time for each [**DropDownGallery.MenuLayout**](windowsribbon-element-dropdowngallery-menulayout.md), [**InRibbonGallery.MenuLayout**](windowsribbon-element-inribbongallery-menulayout.md), or [**SplitButtonGallery.MenuLayout**](windowsribbon-element-splitbuttongallery-menulayout.md) element.</span></span>
+<span data-ttu-id="df08e-145">**VerticalMenuLayout** 或 [**FlowMenuLayout**](windowsribbon-element-flowmenulayout.md)元素必須針對每個 [**DropDownGallery. MenuLayout**](windowsribbon-element-dropdowngallery-menulayout.md)、 [**InRibbonGallery. MenuLayout**](windowsribbon-element-inribbongallery-menulayout.md)或 [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery-menulayout.md)專案進行一次。</span><span class="sxs-lookup"><span data-stu-id="df08e-145">Either the **VerticalMenuLayout** or the [**FlowMenuLayout**](windowsribbon-element-flowmenulayout.md) element must occur one time for each [**DropDownGallery.MenuLayout**](windowsribbon-element-dropdowngallery-menulayout.md), [**InRibbonGallery.MenuLayout**](windowsribbon-element-inribbongallery-menulayout.md), or [**SplitButtonGallery.MenuLayout**](windowsribbon-element-splitbuttongallery-menulayout.md) element.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="720f5-146">範例</span><span class="sxs-lookup"><span data-stu-id="720f5-146">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="df08e-146">範例</span><span class="sxs-lookup"><span data-stu-id="df08e-146">Examples</span></span>
 
-<span data-ttu-id="720f5-147">下列範例示範 **VerticalMenuLayout** 元素的基本標記。</span><span class="sxs-lookup"><span data-stu-id="720f5-147">The following example demonstrates the basic markup for an **VerticalMenuLayout** element.</span></span>
+<span data-ttu-id="df08e-147">下列範例示範 **VerticalMenuLayout** 元素的基本標記。</span><span class="sxs-lookup"><span data-stu-id="df08e-147">The following example demonstrates the basic markup for an **VerticalMenuLayout** element.</span></span>
 
-<span data-ttu-id="720f5-148">這段程式碼會顯示 [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) 控制項宣告。</span><span class="sxs-lookup"><span data-stu-id="720f5-148">This section of code shows the [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) control declarations.</span></span>
+<span data-ttu-id="df08e-148">這段程式碼會顯示 [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) 控制項宣告。</span><span class="sxs-lookup"><span data-stu-id="df08e-148">This section of code shows the [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) control declarations.</span></span>
 
 
 ```XML
@@ -139,14 +139,14 @@ ms.locfileid: "103681618"
 
 
 
-## <a name="element-information"></a><span data-ttu-id="720f5-149">項目資訊</span><span class="sxs-lookup"><span data-stu-id="720f5-149">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="df08e-149">項目資訊</span><span class="sxs-lookup"><span data-stu-id="df08e-149">Element information</span></span>
 
 
 
 |                                     |           |
 |-------------------------------------|-----------|
-| <span data-ttu-id="720f5-150">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="720f5-150">Minimum supported system</span></span><br/> | <span data-ttu-id="720f5-151">Windows 7</span><span class="sxs-lookup"><span data-stu-id="720f5-151">Windows 7</span></span> |
-| <span data-ttu-id="720f5-152">可以是空的</span><span class="sxs-lookup"><span data-stu-id="720f5-152">Can be empty</span></span>                        | <span data-ttu-id="720f5-153">是</span><span class="sxs-lookup"><span data-stu-id="720f5-153">Yes</span></span>       |
+| <span data-ttu-id="df08e-150">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="df08e-150">Minimum supported system</span></span><br/> | <span data-ttu-id="df08e-151">Windows 7</span><span class="sxs-lookup"><span data-stu-id="df08e-151">Windows 7</span></span> |
+| <span data-ttu-id="df08e-152">可以是空的</span><span class="sxs-lookup"><span data-stu-id="df08e-152">Can be empty</span></span>                        | <span data-ttu-id="df08e-153">是</span><span class="sxs-lookup"><span data-stu-id="df08e-153">Yes</span></span>       |
 
 
 

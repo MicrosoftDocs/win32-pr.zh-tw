@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851915"
 ---
-# <a name="remoteendunregisterplatformworkqueuewithmmcss"></a><span data-ttu-id="4c983-103">RemoteEndUnregisterPlatformWorkQueueWithMMCSS</span><span class="sxs-lookup"><span data-stu-id="4c983-103">RemoteEndUnregisterPlatformWorkQueueWithMMCSS</span></span>
+# <a name="remoteendunregisterplatformworkqueuewithmmcss"></a><span data-ttu-id="f32ea-103">RemoteEndUnregisterPlatformWorkQueueWithMMCSS</span><span class="sxs-lookup"><span data-stu-id="f32ea-103">RemoteEndUnregisterPlatformWorkQueueWithMMCSS</span></span>
 
-<span data-ttu-id="4c983-104">[**IMFWorkQueueServices：： EndUnregisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss)方法的可遠端執行版本。</span><span class="sxs-lookup"><span data-stu-id="4c983-104">Remotable version of the [**IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss) method.</span></span>
+<span data-ttu-id="f32ea-104">[**IMFWorkQueueServices：： EndUnregisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss)方法的可遠端執行版本。</span><span class="sxs-lookup"><span data-stu-id="f32ea-104">Remotable version of the [**IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss) method.</span></span>
 
 ``` syntax
 [call_as(EndUnregisterPlatformWorkQueueWithMMCSS)]
@@ -22,28 +22,28 @@ HRESULT RemoteEndUnregisterPlatformWorkQueueWithMMCSS(
 );
 ```
 
-## <a name="remarks"></a><span data-ttu-id="4c983-105">備註</span><span class="sxs-lookup"><span data-stu-id="4c983-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f32ea-105">備註</span><span class="sxs-lookup"><span data-stu-id="f32ea-105">Remarks</span></span>
 
-<span data-ttu-id="4c983-106">應用程式無法直接呼叫這個方法，而物件也不會執行此方法。</span><span class="sxs-lookup"><span data-stu-id="4c983-106">Applications cannot call this method directly, and objects do not implement this method.</span></span> <span data-ttu-id="4c983-107">方法不會出現在介面的 vtable 中。</span><span class="sxs-lookup"><span data-stu-id="4c983-107">The method does not appear in the vtable for the interface.</span></span> <span data-ttu-id="4c983-108">如果跨進程界限呼叫 [**EndUnregisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss) ，媒體基礎 proxy/stub DLL 會將呼叫轉譯為遠端方法的呼叫，然後再將它轉譯回來。</span><span class="sxs-lookup"><span data-stu-id="4c983-108">If [**EndUnregisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.</span></span>
+<span data-ttu-id="f32ea-106">應用程式無法直接呼叫這個方法，而物件也不會執行此方法。</span><span class="sxs-lookup"><span data-stu-id="f32ea-106">Applications cannot call this method directly, and objects do not implement this method.</span></span> <span data-ttu-id="f32ea-107">方法不會出現在介面的 vtable 中。</span><span class="sxs-lookup"><span data-stu-id="f32ea-107">The method does not appear in the vtable for the interface.</span></span> <span data-ttu-id="f32ea-108">如果跨進程界限呼叫 [**EndUnregisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss) ，媒體基礎 proxy/stub DLL 會將呼叫轉譯為遠端方法的呼叫，然後再將它轉譯回來。</span><span class="sxs-lookup"><span data-stu-id="f32ea-108">If [**EndUnregisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endunregisterplatformworkqueuewithmmcss) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="4c983-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="4c983-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f32ea-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="f32ea-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="4c983-110">需求</span><span class="sxs-lookup"><span data-stu-id="4c983-110">Requirement</span></span> | <span data-ttu-id="4c983-111">值</span><span class="sxs-lookup"><span data-stu-id="4c983-111">Value</span></span> |
+| <span data-ttu-id="f32ea-110">需求</span><span class="sxs-lookup"><span data-stu-id="f32ea-110">Requirement</span></span> | <span data-ttu-id="f32ea-111">值</span><span class="sxs-lookup"><span data-stu-id="f32ea-111">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="4c983-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4c983-112">Minimum supported client</span></span><br/> | <span data-ttu-id="4c983-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4c983-113">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="4c983-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4c983-114">Minimum supported server</span></span><br/> | <span data-ttu-id="4c983-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4c983-115">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="4c983-116">標頭</span><span class="sxs-lookup"><span data-stu-id="4c983-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="4c983-117"><dt>Mfobjects (包含 Mfidl) </dt></span><span class="sxs-lookup"><span data-stu-id="4c983-117"><dt>Mfobjects.h (include Mfidl.h)</dt></span></span> </dl> |
-| <span data-ttu-id="4c983-118">程式庫</span><span class="sxs-lookup"><span data-stu-id="4c983-118">Library</span></span><br/>                  | <dl> <span data-ttu-id="4c983-119"><dt>Mfuuid .lib</dt></span><span class="sxs-lookup"><span data-stu-id="4c983-119"><dt>Mfuuid.lib</dt></span></span> </dl>                    |
+| <span data-ttu-id="f32ea-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f32ea-112">Minimum supported client</span></span><br/> | <span data-ttu-id="f32ea-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f32ea-113">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="f32ea-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f32ea-114">Minimum supported server</span></span><br/> | <span data-ttu-id="f32ea-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f32ea-115">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="f32ea-116">標頭</span><span class="sxs-lookup"><span data-stu-id="f32ea-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="f32ea-117"><dt>Mfobjects (包含 Mfidl) </dt></span><span class="sxs-lookup"><span data-stu-id="f32ea-117"><dt>Mfobjects.h (include Mfidl.h)</dt></span></span> </dl> |
+| <span data-ttu-id="f32ea-118">程式庫</span><span class="sxs-lookup"><span data-stu-id="f32ea-118">Library</span></span><br/>                  | <dl> <span data-ttu-id="f32ea-119"><dt>Mfuuid .lib</dt></span><span class="sxs-lookup"><span data-stu-id="f32ea-119"><dt>Mfuuid.lib</dt></span></span> </dl>                    |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="4c983-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4c983-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f32ea-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f32ea-120">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4c983-121">**IMFWorkQueueServices**</span><span class="sxs-lookup"><span data-stu-id="4c983-121">**IMFWorkQueueServices**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices)
+[<span data-ttu-id="f32ea-121">**IMFWorkQueueServices**</span><span class="sxs-lookup"><span data-stu-id="f32ea-121">**IMFWorkQueueServices**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices)
 </dt> </dl>
 
  

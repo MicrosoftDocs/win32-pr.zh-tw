@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682757"
 ---
-# <a name="how-to-load-a-bitmap-from-a-file"></a><span data-ttu-id="42d1a-103">如何從檔案載入點陣圖</span><span class="sxs-lookup"><span data-stu-id="42d1a-103">How to Load a Bitmap from a File</span></span>
+# <a name="how-to-load-a-bitmap-from-a-file"></a><span data-ttu-id="0299c-103">如何從檔案載入點陣圖</span><span class="sxs-lookup"><span data-stu-id="0299c-103">How to Load a Bitmap from a File</span></span>
 
-<span data-ttu-id="42d1a-104">Direct2D 使用 Windows 影像處理元件 (WIC) 載入點陣圖。</span><span class="sxs-lookup"><span data-stu-id="42d1a-104">Direct2D uses the Windows Imaging Component (WIC) to load bitmaps.</span></span> <span data-ttu-id="42d1a-105">若要從檔案載入點陣圖，請先使用 WIC 物件載入影像，並將它轉換成與 Direct2D 相容的格式，然後使用 [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) 方法來建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)。</span><span class="sxs-lookup"><span data-stu-id="42d1a-105">To load a bitmap from a file, first use WIC objects to load the image and to convert it to a Direct2D-compatible format, then use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).</span></span>
+<span data-ttu-id="0299c-104">Direct2D 使用 Windows 影像處理元件 (WIC) 載入點陣圖。</span><span class="sxs-lookup"><span data-stu-id="0299c-104">Direct2D uses the Windows Imaging Component (WIC) to load bitmaps.</span></span> <span data-ttu-id="0299c-105">若要從檔案載入點陣圖，請先使用 WIC 物件載入影像，並將它轉換成與 Direct2D 相容的格式，然後使用 [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) 方法來建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)。</span><span class="sxs-lookup"><span data-stu-id="0299c-105">To load a bitmap from a file, first use WIC objects to load the image and to convert it to a Direct2D-compatible format, then use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).</span></span>
 
-1.  <span data-ttu-id="42d1a-106">使用 [**IWICImagingFactory：： CreateDecoderFromFileName**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename)方法建立 [**IWICBitmapDecoder**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapdecoder) 。</span><span class="sxs-lookup"><span data-stu-id="42d1a-106">Create an [**IWICBitmapDecoder**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapdecoder) by using the [**IWICImagingFactory::CreateDecoderFromFileName**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename) method.</span></span>
+1.  <span data-ttu-id="0299c-106">使用 [**IWICImagingFactory：： CreateDecoderFromFileName**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename)方法建立 [**IWICBitmapDecoder**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapdecoder) 。</span><span class="sxs-lookup"><span data-stu-id="0299c-106">Create an [**IWICBitmapDecoder**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapdecoder) by using the [**IWICImagingFactory::CreateDecoderFromFileName**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename) method.</span></span>
 
     ```C++
     HRESULT DemoApp::LoadBitmapFromFile(
@@ -45,7 +45,7 @@ ms.locfileid: "103682757"
 
     
 
-2.  <span data-ttu-id="42d1a-107">從影像取出框架，然後將框架儲存在 [**IWICBitmapFrameDecode**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapframedecode) 物件中。</span><span class="sxs-lookup"><span data-stu-id="42d1a-107">Retrieve a frame from the image and store the frame in an [**IWICBitmapFrameDecode**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapframedecode) object.</span></span>
+2.  <span data-ttu-id="0299c-107">從影像取出框架，然後將框架儲存在 [**IWICBitmapFrameDecode**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapframedecode) 物件中。</span><span class="sxs-lookup"><span data-stu-id="0299c-107">Retrieve a frame from the image and store the frame in an [**IWICBitmapFrameDecode**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapframedecode) object.</span></span>
 
     ```C++
         if (SUCCEEDED(hr))
@@ -57,7 +57,7 @@ ms.locfileid: "103682757"
 
     
 
-3.  <span data-ttu-id="42d1a-108">點陣圖必須轉換成 Direct2D 可以使用的格式，因此請將影像的像素格式轉換成32bppPBGRA。</span><span class="sxs-lookup"><span data-stu-id="42d1a-108">The bitmap must be converted to a format that Direct2D can use, so convert the image's pixel format to 32bppPBGRA.</span></span> <span data-ttu-id="42d1a-109"> (如需支援格式的清單，請參閱 [像素格式和 Alpha 模式](supported-pixel-formats-and-alpha-modes.md)。 ) 。</span><span class="sxs-lookup"><span data-stu-id="42d1a-109">(For a list of supported formats, see [Pixel Formats and Alpha Modes](supported-pixel-formats-and-alpha-modes.md).).</span></span> <span data-ttu-id="42d1a-110">呼叫 [**IWICImagingFactory：： CreateFormatConverter**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createformatconverter) 方法來建立 [**IWICFormatConverter**](/windows/win32/api/wincodec/nn-wincodec-iwicformatconverter) 物件，然後呼叫 **IWICFormatConverter** 物件的 [**Initialize**](/windows/win32/api/wincodec/nf-wincodec-iwicformatconverter-initialize) 方法來執行轉換。</span><span class="sxs-lookup"><span data-stu-id="42d1a-110">Call the [**IWICImagingFactory::CreateFormatConverter**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createformatconverter) method to create an [**IWICFormatConverter**](/windows/win32/api/wincodec/nn-wincodec-iwicformatconverter) object, then call the **IWICFormatConverter** object's [**Initialize**](/windows/win32/api/wincodec/nf-wincodec-iwicformatconverter-initialize) method to perform the conversion.</span></span>
+3.  <span data-ttu-id="0299c-108">點陣圖必須轉換成 Direct2D 可以使用的格式，因此請將影像的像素格式轉換成32bppPBGRA。</span><span class="sxs-lookup"><span data-stu-id="0299c-108">The bitmap must be converted to a format that Direct2D can use, so convert the image's pixel format to 32bppPBGRA.</span></span> <span data-ttu-id="0299c-109"> (如需支援格式的清單，請參閱 [像素格式和 Alpha 模式](supported-pixel-formats-and-alpha-modes.md)。 ) 。</span><span class="sxs-lookup"><span data-stu-id="0299c-109">(For a list of supported formats, see [Pixel Formats and Alpha Modes](supported-pixel-formats-and-alpha-modes.md).).</span></span> <span data-ttu-id="0299c-110">呼叫 [**IWICImagingFactory：： CreateFormatConverter**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createformatconverter) 方法來建立 [**IWICFormatConverter**](/windows/win32/api/wincodec/nn-wincodec-iwicformatconverter) 物件，然後呼叫 **IWICFormatConverter** 物件的 [**Initialize**](/windows/win32/api/wincodec/nf-wincodec-iwicformatconverter-initialize) 方法來執行轉換。</span><span class="sxs-lookup"><span data-stu-id="0299c-110">Call the [**IWICImagingFactory::CreateFormatConverter**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createformatconverter) method to create an [**IWICFormatConverter**](/windows/win32/api/wincodec/nn-wincodec-iwicformatconverter) object, then call the **IWICFormatConverter** object's [**Initialize**](/windows/win32/api/wincodec/nf-wincodec-iwicformatconverter-initialize) method to perform the conversion.</span></span>
     ```C++
         if (SUCCEEDED(hr))
         {
@@ -83,7 +83,7 @@ ms.locfileid: "103682757"
 
     
 
-4.  <span data-ttu-id="42d1a-111">呼叫 [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) 方法來建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) 物件，此物件可由轉譯目標繪製並用於其他 Direct2D 物件。</span><span class="sxs-lookup"><span data-stu-id="42d1a-111">Call the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) object that can be drawn by a render target and used with other Direct2D objects.</span></span>
+4.  <span data-ttu-id="0299c-111">呼叫 [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) 方法來建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) 物件，此物件可由轉譯目標繪製並用於其他 Direct2D 物件。</span><span class="sxs-lookup"><span data-stu-id="0299c-111">Call the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) object that can be drawn by a render target and used with other Direct2D objects.</span></span>
     ```C++
         if (SUCCEEDED(hr))
         {
@@ -108,19 +108,19 @@ ms.locfileid: "103682757"
 
     
 
-<span data-ttu-id="42d1a-112">此範例中省略了某些程式碼。</span><span class="sxs-lookup"><span data-stu-id="42d1a-112">Some code has been omitted from this example.</span></span>
+<span data-ttu-id="0299c-112">此範例中省略了某些程式碼。</span><span class="sxs-lookup"><span data-stu-id="0299c-112">Some code has been omitted from this example.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="42d1a-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="42d1a-113">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="0299c-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="0299c-113">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="42d1a-114">**ID2D1Bitmap**</span><span class="sxs-lookup"><span data-stu-id="42d1a-114">**ID2D1Bitmap**</span></span>](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)
+[<span data-ttu-id="0299c-114">**ID2D1Bitmap**</span><span class="sxs-lookup"><span data-stu-id="0299c-114">**ID2D1Bitmap**</span></span>](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)
 </dt> <dt>
 
-[<span data-ttu-id="42d1a-115">**CreateBitmapFromWicBitmap**</span><span class="sxs-lookup"><span data-stu-id="42d1a-115">**CreateBitmapFromWicBitmap**</span></span>](id2d1rendertarget-createbitmapfromwicbitmap.md)
+[<span data-ttu-id="0299c-115">**CreateBitmapFromWicBitmap**</span><span class="sxs-lookup"><span data-stu-id="0299c-115">**CreateBitmapFromWicBitmap**</span></span>](id2d1rendertarget-createbitmapfromwicbitmap.md)
 </dt> <dt>
 
-[<span data-ttu-id="42d1a-116">如何從資源載入點陣圖</span><span class="sxs-lookup"><span data-stu-id="42d1a-116">How to Load a Bitmap from a Resource</span></span>](how-to-load-a-bitmap-from-a-resource.md)
+[<span data-ttu-id="0299c-116">如何從資源載入點陣圖</span><span class="sxs-lookup"><span data-stu-id="0299c-116">How to Load a Bitmap from a Resource</span></span>](how-to-load-a-bitmap-from-a-resource.md)
 </dt> </dl>
 
  

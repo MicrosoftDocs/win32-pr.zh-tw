@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686178"
 ---
-# <a name="wm_choosefont_setlogfont-message"></a><span data-ttu-id="2db75-104">WM \_ CHOOSEFONT \_ SETLOGFONT 訊息</span><span class="sxs-lookup"><span data-stu-id="2db75-104">WM\_CHOOSEFONT\_SETLOGFONT message</span></span>
+# <a name="wm_choosefont_setlogfont-message"></a><span data-ttu-id="1475e-104">WM \_ CHOOSEFONT \_ SETLOGFONT 訊息</span><span class="sxs-lookup"><span data-stu-id="1475e-104">WM\_CHOOSEFONT\_SETLOGFONT message</span></span>
 
-<span data-ttu-id="2db75-105">應用程式會將 **WM \_ CHOOSEFONT \_ SETLOGFONT** 訊息傳送至 [ **字型** ] 對話方塊，以設定目前的邏輯字型資訊。</span><span class="sxs-lookup"><span data-stu-id="2db75-105">An application sends the **WM\_CHOOSEFONT\_SETLOGFONT** message to a **Font** dialog box to set the current logical font information.</span></span>
+<span data-ttu-id="1475e-105">應用程式會將 **WM \_ CHOOSEFONT \_ SETLOGFONT** 訊息傳送至 [ **字型** ] 對話方塊，以設定目前的邏輯字型資訊。</span><span class="sxs-lookup"><span data-stu-id="1475e-105">An application sends the **WM\_CHOOSEFONT\_SETLOGFONT** message to a **Font** dialog box to set the current logical font information.</span></span>
 
 
 ```C++
@@ -33,78 +33,78 @@ ms.locfileid: "103686178"
 
 
 
-## <a name="parameters"></a><span data-ttu-id="2db75-106">參數</span><span class="sxs-lookup"><span data-stu-id="2db75-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1475e-106">參數</span><span class="sxs-lookup"><span data-stu-id="1475e-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="2db75-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="2db75-107">*wParam*</span></span> 
+<span data-ttu-id="1475e-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="1475e-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="2db75-108">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="2db75-108">This parameter is not used.</span></span>
+<span data-ttu-id="1475e-108">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="1475e-108">This parameter is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="2db75-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="2db75-109">*lParam*</span></span> 
+<span data-ttu-id="1475e-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="1475e-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="2db75-110">[**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)結構的指標，其中包含目前邏輯字型的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="2db75-110">A pointer to a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that contains information about the current logical font.</span></span>
+<span data-ttu-id="1475e-110">[**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)結構的指標，其中包含目前邏輯字型的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="1475e-110">A pointer to a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that contains information about the current logical font.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="2db75-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="2db75-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1475e-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="1475e-111">Return value</span></span>
 
-<span data-ttu-id="2db75-112">此訊息沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="2db75-112">This message has no return value.</span></span>
+<span data-ttu-id="1475e-112">此訊息沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="1475e-112">This message has no return value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2db75-113">備註</span><span class="sxs-lookup"><span data-stu-id="2db75-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1475e-113">備註</span><span class="sxs-lookup"><span data-stu-id="1475e-113">Remarks</span></span>
 
-<span data-ttu-id="2db75-114">當您呼叫 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)函式來建立 [**字型**] 對話方塊時，可以使用 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)結構的 **lpLogFont** 成員來指定包含對話方塊初始值的 [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)結構。</span><span class="sxs-lookup"><span data-stu-id="2db75-114">When you call the [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to specify a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure containing initial values for the dialog box.</span></span> <span data-ttu-id="2db75-115">在 [**字型**] 對話方塊開啟時，使用 **WM \_ CHOOSEFONT \_ SETLOGFONT** 訊息來指定具有不同值的 **LOGFONT** 結構。</span><span class="sxs-lookup"><span data-stu-id="2db75-115">Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.</span></span>
+<span data-ttu-id="1475e-114">當您呼叫 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)函式來建立 [**字型**] 對話方塊時，可以使用 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)結構的 **lpLogFont** 成員來指定包含對話方塊初始值的 [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)結構。</span><span class="sxs-lookup"><span data-stu-id="1475e-114">When you call the [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to specify a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure containing initial values for the dialog box.</span></span> <span data-ttu-id="1475e-115">在 [**字型**] 對話方塊開啟時，使用 **WM \_ CHOOSEFONT \_ SETLOGFONT** 訊息來指定具有不同值的 **LOGFONT** 結構。</span><span class="sxs-lookup"><span data-stu-id="1475e-115">Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.</span></span>
 
-<span data-ttu-id="2db75-116">一般來說，您會從 [**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)攔截程式傳送 **WM \_ CHOOSEFONT \_ SETLOGFONT** 訊息。</span><span class="sxs-lookup"><span data-stu-id="2db75-116">Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) hook procedure.</span></span> <span data-ttu-id="2db75-117">攔截程式也可以傳送 [**wm \_ CHOOSEFONT \_ GETLOGFONT**](wm-choosefont-getlogfont.md) 和 [**wm \_ CHOOSEFONT \_ SETFLAGS**](wm-choosefont-setflags.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="2db75-117">The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.</span></span>
+<span data-ttu-id="1475e-116">一般來說，您會從 [**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)攔截程式傳送 **WM \_ CHOOSEFONT \_ SETLOGFONT** 訊息。</span><span class="sxs-lookup"><span data-stu-id="1475e-116">Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) hook procedure.</span></span> <span data-ttu-id="1475e-117">攔截程式也可以傳送 [**wm \_ CHOOSEFONT \_ GETLOGFONT**](wm-choosefont-getlogfont.md) 和 [**wm \_ CHOOSEFONT \_ SETFLAGS**](wm-choosefont-setflags.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="1475e-117">The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="2db75-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="2db75-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="1475e-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="1475e-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2db75-119">需求</span><span class="sxs-lookup"><span data-stu-id="2db75-119">Requirement</span></span> | <span data-ttu-id="2db75-120">值</span><span class="sxs-lookup"><span data-stu-id="2db75-120">Value</span></span> |
+| <span data-ttu-id="1475e-119">需求</span><span class="sxs-lookup"><span data-stu-id="1475e-119">Requirement</span></span> | <span data-ttu-id="1475e-120">值</span><span class="sxs-lookup"><span data-stu-id="1475e-120">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="2db75-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2db75-121">Minimum supported client</span></span><br/> | <span data-ttu-id="2db75-122">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2db75-122">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                               |
-| <span data-ttu-id="2db75-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2db75-123">Minimum supported server</span></span><br/> | <span data-ttu-id="2db75-124">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2db75-124">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="2db75-125">標頭</span><span class="sxs-lookup"><span data-stu-id="2db75-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="2db75-126"><dt>Commdlg (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="2db75-126"><dt>Commdlg.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="1475e-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1475e-121">Minimum supported client</span></span><br/> | <span data-ttu-id="1475e-122">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1475e-122">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                               |
+| <span data-ttu-id="1475e-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1475e-123">Minimum supported server</span></span><br/> | <span data-ttu-id="1475e-124">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1475e-124">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="1475e-125">標頭</span><span class="sxs-lookup"><span data-stu-id="1475e-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="1475e-126"><dt>Commdlg (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="1475e-126"><dt>Commdlg.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2db75-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2db75-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1475e-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1475e-127">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="2db75-128">**參考**</span><span class="sxs-lookup"><span data-stu-id="2db75-128">**Reference**</span></span>
+<span data-ttu-id="1475e-128">**參考**</span><span class="sxs-lookup"><span data-stu-id="1475e-128">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="2db75-129">**CFHookProc**</span><span class="sxs-lookup"><span data-stu-id="2db75-129">**CFHookProc**</span></span>](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)
+[<span data-ttu-id="1475e-129">**CFHookProc**</span><span class="sxs-lookup"><span data-stu-id="1475e-129">**CFHookProc**</span></span>](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)
 </dt> <dt>
 
-[<span data-ttu-id="2db75-130">**ChooseFont**</span><span class="sxs-lookup"><span data-stu-id="2db75-130">**ChooseFont**</span></span>](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
+[<span data-ttu-id="1475e-130">**ChooseFont**</span><span class="sxs-lookup"><span data-stu-id="1475e-130">**ChooseFont**</span></span>](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
-[<span data-ttu-id="2db75-131">**CHOOSEFONT**</span><span class="sxs-lookup"><span data-stu-id="2db75-131">**CHOOSEFONT**</span></span>](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
+[<span data-ttu-id="1475e-131">**CHOOSEFONT**</span><span class="sxs-lookup"><span data-stu-id="1475e-131">**CHOOSEFONT**</span></span>](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
-[<span data-ttu-id="2db75-132">**WM \_ CHOOSEFONT \_ GETLOGFONT**</span><span class="sxs-lookup"><span data-stu-id="2db75-132">**WM\_CHOOSEFONT\_GETLOGFONT**</span></span>](wm-choosefont-getlogfont.md)
+[<span data-ttu-id="1475e-132">**WM \_ CHOOSEFONT \_ GETLOGFONT**</span><span class="sxs-lookup"><span data-stu-id="1475e-132">**WM\_CHOOSEFONT\_GETLOGFONT**</span></span>](wm-choosefont-getlogfont.md)
 </dt> <dt>
 
-[<span data-ttu-id="2db75-133">**WM \_ CHOOSEFONT \_ SETFLAGS**</span><span class="sxs-lookup"><span data-stu-id="2db75-133">**WM\_CHOOSEFONT\_SETFLAGS**</span></span>](wm-choosefont-setflags.md)
+[<span data-ttu-id="1475e-133">**WM \_ CHOOSEFONT \_ SETFLAGS**</span><span class="sxs-lookup"><span data-stu-id="1475e-133">**WM\_CHOOSEFONT\_SETFLAGS**</span></span>](wm-choosefont-setflags.md)
 </dt> <dt>
 
-<span data-ttu-id="2db75-134">**概念**</span><span class="sxs-lookup"><span data-stu-id="2db75-134">**Conceptual**</span></span>
+<span data-ttu-id="1475e-134">**概念**</span><span class="sxs-lookup"><span data-stu-id="1475e-134">**Conceptual**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="2db75-135">通用對話方塊程式庫</span><span class="sxs-lookup"><span data-stu-id="2db75-135">Common Dialog Box Library</span></span>](common-dialog-box-library.md)
+[<span data-ttu-id="1475e-135">通用對話方塊程式庫</span><span class="sxs-lookup"><span data-stu-id="1475e-135">Common Dialog Box Library</span></span>](common-dialog-box-library.md)
 </dt> <dt>
 
-<span data-ttu-id="2db75-136">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="2db75-136">**Other Resources**</span></span>
+<span data-ttu-id="1475e-136">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="1475e-136">**Other Resources**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="2db75-137">**LOGFONT**</span><span class="sxs-lookup"><span data-stu-id="2db75-137">**LOGFONT**</span></span>](/windows/win32/api/wingdi/ns-wingdi-logfonta)
+[<span data-ttu-id="1475e-137">**LOGFONT**</span><span class="sxs-lookup"><span data-stu-id="1475e-137">**LOGFONT**</span></span>](/windows/win32/api/wingdi/ns-wingdi-logfonta)
 </dt> </dl>
 
  

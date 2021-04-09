@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685906"
 ---
-# <a name="rdvmigratevmtodifferenthost-method-of-the-win32_rdvhmanagement-class"></a><span data-ttu-id="412a9-106">Win32 RdvhManagement 類別的 RdvMigrateVmToDifferentHost 方法 \_</span><span class="sxs-lookup"><span data-stu-id="412a9-106">RdvMigrateVmToDifferentHost method of the Win32\_RdvhManagement class</span></span>
+# <a name="rdvmigratevmtodifferenthost-method-of-the-win32_rdvhmanagement-class"></a><span data-ttu-id="83126-106">Win32 RdvhManagement 類別的 RdvMigrateVmToDifferentHost 方法 \_</span><span class="sxs-lookup"><span data-stu-id="83126-106">RdvMigrateVmToDifferentHost method of the Win32\_RdvhManagement class</span></span>
 
-<span data-ttu-id="412a9-107">起始虛擬機器到指定主機的即時移轉。</span><span class="sxs-lookup"><span data-stu-id="412a9-107">Initiates a live migration of a virtual machine to a specified host.</span></span>
+<span data-ttu-id="83126-107">起始虛擬機器到指定主機的即時移轉。</span><span class="sxs-lookup"><span data-stu-id="83126-107">Initiates a live migration of a virtual machine to a specified host.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="412a9-108">語法</span><span class="sxs-lookup"><span data-stu-id="412a9-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="83126-108">語法</span><span class="sxs-lookup"><span data-stu-id="83126-108">Syntax</span></span>
 
 
 ```mof
@@ -40,47 +40,47 @@ uint32 RdvMigrateVmToDifferentHost(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="412a9-109">參數</span><span class="sxs-lookup"><span data-stu-id="412a9-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="83126-109">參數</span><span class="sxs-lookup"><span data-stu-id="83126-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="412a9-110">*VmName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="412a9-110">*VmName* \[in\]</span></span>
+<span data-ttu-id="83126-110">*VmName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="83126-110">*VmName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="412a9-111">要遷移的虛擬機器名稱。</span><span class="sxs-lookup"><span data-stu-id="412a9-111">Name of the virtual machine to migrate.</span></span>
+<span data-ttu-id="83126-111">要遷移的虛擬機器名稱。</span><span class="sxs-lookup"><span data-stu-id="83126-111">Name of the virtual machine to migrate.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="412a9-112">*DestinationHost* \[在\]</span><span class="sxs-lookup"><span data-stu-id="412a9-112">*DestinationHost* \[in\]</span></span>
+<span data-ttu-id="83126-112">*DestinationHost* \[在\]</span><span class="sxs-lookup"><span data-stu-id="83126-112">*DestinationHost* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="412a9-113">目的地主機的名稱。</span><span class="sxs-lookup"><span data-stu-id="412a9-113">name of the destination host.</span></span>
+<span data-ttu-id="83126-113">目的地主機的名稱。</span><span class="sxs-lookup"><span data-stu-id="83126-113">name of the destination host.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="412a9-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="412a9-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="83126-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="83126-114">Return value</span></span>
 
-<span data-ttu-id="412a9-115">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="412a9-115">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="412a9-116">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="412a9-116">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
+<span data-ttu-id="83126-115">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="83126-115">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="83126-116">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="83126-116">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="412a9-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="412a9-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="83126-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="83126-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="412a9-118">需求</span><span class="sxs-lookup"><span data-stu-id="412a9-118">Requirement</span></span> | <span data-ttu-id="412a9-119">值</span><span class="sxs-lookup"><span data-stu-id="412a9-119">Value</span></span> |
+| <span data-ttu-id="83126-118">需求</span><span class="sxs-lookup"><span data-stu-id="83126-118">Requirement</span></span> | <span data-ttu-id="83126-119">值</span><span class="sxs-lookup"><span data-stu-id="83126-119">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| <span data-ttu-id="412a9-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="412a9-120">Minimum supported client</span></span><br/> | <span data-ttu-id="412a9-121">都不支援</span><span class="sxs-lookup"><span data-stu-id="412a9-121">None supported</span></span><br/>                                                                  |
-| <span data-ttu-id="412a9-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="412a9-122">Minimum supported server</span></span><br/> | <span data-ttu-id="412a9-123">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="412a9-123">Windows Server 2012</span></span><br/>                                                             |
-| <span data-ttu-id="412a9-124">命名空間</span><span class="sxs-lookup"><span data-stu-id="412a9-124">Namespace</span></span><br/>                | <span data-ttu-id="412a9-125">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="412a9-125">Root\\CIMv2\\TerminalServices</span></span><br/>                                                   |
-| <span data-ttu-id="412a9-126">MOF</span><span class="sxs-lookup"><span data-stu-id="412a9-126">MOF</span></span><br/>                      | <dl> <span data-ttu-id="412a9-127"><dt>TSVmHost mof</dt></span><span class="sxs-lookup"><span data-stu-id="412a9-127"><dt>TSVmHost.mof</dt></span></span> </dl>    |
-| <span data-ttu-id="412a9-128">DLL</span><span class="sxs-lookup"><span data-stu-id="412a9-128">DLL</span></span><br/>                      | <dl> <span data-ttu-id="412a9-129"><dt>TSVmHostWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="412a9-129"><dt>TSVmHostWmi.dll</dt></span></span> </dl> |
+| <span data-ttu-id="83126-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="83126-120">Minimum supported client</span></span><br/> | <span data-ttu-id="83126-121">都不支援</span><span class="sxs-lookup"><span data-stu-id="83126-121">None supported</span></span><br/>                                                                  |
+| <span data-ttu-id="83126-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="83126-122">Minimum supported server</span></span><br/> | <span data-ttu-id="83126-123">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="83126-123">Windows Server 2012</span></span><br/>                                                             |
+| <span data-ttu-id="83126-124">命名空間</span><span class="sxs-lookup"><span data-stu-id="83126-124">Namespace</span></span><br/>                | <span data-ttu-id="83126-125">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="83126-125">Root\\CIMv2\\TerminalServices</span></span><br/>                                                   |
+| <span data-ttu-id="83126-126">MOF</span><span class="sxs-lookup"><span data-stu-id="83126-126">MOF</span></span><br/>                      | <dl> <span data-ttu-id="83126-127"><dt>TSVmHost mof</dt></span><span class="sxs-lookup"><span data-stu-id="83126-127"><dt>TSVmHost.mof</dt></span></span> </dl>    |
+| <span data-ttu-id="83126-128">DLL</span><span class="sxs-lookup"><span data-stu-id="83126-128">DLL</span></span><br/>                      | <dl> <span data-ttu-id="83126-129"><dt>TSVmHostWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="83126-129"><dt>TSVmHostWmi.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="412a9-130">另請參閱</span><span class="sxs-lookup"><span data-stu-id="412a9-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="83126-130">另請參閱</span><span class="sxs-lookup"><span data-stu-id="83126-130">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="412a9-131">**Win32 \_ RdvhManagement**</span><span class="sxs-lookup"><span data-stu-id="412a9-131">**Win32\_RdvhManagement**</span></span>](win32-rdvhmanagement.md)
+[<span data-ttu-id="83126-131">**Win32 \_ RdvhManagement**</span><span class="sxs-lookup"><span data-stu-id="83126-131">**Win32\_RdvhManagement**</span></span>](win32-rdvhmanagement.md)
 </dt> </dl>
 
  

@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "104024110"
 ---
-# <a name="password-eaptype-element"></a><span data-ttu-id="74547-105">密碼 (EapType) 元素</span><span class="sxs-lookup"><span data-stu-id="74547-105">Password (EapType) Element</span></span>
+# <a name="password-eaptype-element"></a><span data-ttu-id="905ac-105">密碼 (EapType) 元素</span><span class="sxs-lookup"><span data-stu-id="905ac-105">Password (EapType) Element</span></span>
 
-<span data-ttu-id="74547-106">**密碼 (EapType)** 元素會識別要驗證之使用者或電腦的密碼。</span><span class="sxs-lookup"><span data-stu-id="74547-106">The **Password (EapType)** element identifies the password of the user or machine being authenticated.</span></span>
+<span data-ttu-id="905ac-106">**密碼 (EapType)** 元素會識別要驗證之使用者或電腦的密碼。</span><span class="sxs-lookup"><span data-stu-id="905ac-106">The **Password (EapType)** element identifies the password of the user or machine being authenticated.</span></span>
 
 ``` syntax
 <xs:element name="Password"
@@ -31,43 +31,43 @@ ms.locfileid: "104024110"
  />
 ```
 
-<span data-ttu-id="74547-107">**Password** 元素是由 [**EapType**](mschapv2userpropertiesv1schema-eaptype-element.md)元素定義。</span><span class="sxs-lookup"><span data-stu-id="74547-107">The **Password** element is defined by the [**EapType**](mschapv2userpropertiesv1schema-eaptype-element.md) element.</span></span>
+<span data-ttu-id="905ac-107">**Password** 元素是由 [**EapType**](mschapv2userpropertiesv1schema-eaptype-element.md)元素定義。</span><span class="sxs-lookup"><span data-stu-id="905ac-107">The **Password** element is defined by the [**EapType**](mschapv2userpropertiesv1schema-eaptype-element.md) element.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="74547-108">備註</span><span class="sxs-lookup"><span data-stu-id="74547-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="905ac-108">備註</span><span class="sxs-lookup"><span data-stu-id="905ac-108">Remarks</span></span>
 
-<span data-ttu-id="74547-109">如果 **密碼 (EapType)** 元素不存在，則會從 winlogon 取得密碼雜湊。</span><span class="sxs-lookup"><span data-stu-id="74547-109">If the **Password (EapType)** element is not present, the password hash is obtained from winlogon.</span></span> <span data-ttu-id="74547-110">這是選擇性的項目。</span><span class="sxs-lookup"><span data-stu-id="74547-110">This element is optional.</span></span>
+<span data-ttu-id="905ac-109">如果 **密碼 (EapType)** 元素不存在，則會從 winlogon 取得密碼雜湊。</span><span class="sxs-lookup"><span data-stu-id="905ac-109">If the **Password (EapType)** element is not present, the password hash is obtained from winlogon.</span></span> <span data-ttu-id="905ac-110">這是選擇性的項目。</span><span class="sxs-lookup"><span data-stu-id="905ac-110">This element is optional.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="74547-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="74547-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="905ac-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="905ac-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="74547-112">角色</span><span class="sxs-lookup"><span data-stu-id="74547-112">Role</span></span> | <span data-ttu-id="74547-113">最低支援作業系統版本</span><span class="sxs-lookup"><span data-stu-id="74547-113">Minimum supported OS version</span></span> |
+| <span data-ttu-id="905ac-112">角色</span><span class="sxs-lookup"><span data-stu-id="905ac-112">Role</span></span> | <span data-ttu-id="905ac-113">最低支援作業系統版本</span><span class="sxs-lookup"><span data-stu-id="905ac-113">Minimum supported OS version</span></span> |
 |------|------------------------------|
-| <span data-ttu-id="74547-114">用戶端</span><span class="sxs-lookup"><span data-stu-id="74547-114">Client</span></span><br/> | <span data-ttu-id="74547-115">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="74547-115">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="74547-116">伺服器</span><span class="sxs-lookup"><span data-stu-id="74547-116">Server</span></span><br/> | <span data-ttu-id="74547-117">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="74547-117">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="905ac-114">用戶端</span><span class="sxs-lookup"><span data-stu-id="905ac-114">Client</span></span><br/> | <span data-ttu-id="905ac-115">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="905ac-115">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="905ac-116">伺服器</span><span class="sxs-lookup"><span data-stu-id="905ac-116">Server</span></span><br/> | <span data-ttu-id="905ac-117">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="905ac-117">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="74547-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="74547-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="905ac-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="905ac-118">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="74547-119">**架構中的元素定義內容**</span><span class="sxs-lookup"><span data-stu-id="74547-119">**Definition context of element in schema**</span></span>
+<span data-ttu-id="905ac-119">**架構中的元素定義內容**</span><span class="sxs-lookup"><span data-stu-id="905ac-119">**Definition context of element in schema**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="74547-120">**EapType**</span><span class="sxs-lookup"><span data-stu-id="74547-120">**EapType**</span></span>](mschapv2userpropertiesv1schema-eaptype-element.md)
+[<span data-ttu-id="905ac-120">**EapType**</span><span class="sxs-lookup"><span data-stu-id="905ac-120">**EapType**</span></span>](mschapv2userpropertiesv1schema-eaptype-element.md)
 </dt> <dt>
 
-<span data-ttu-id="74547-121">**架構實例中可能的直屬父元素**</span><span class="sxs-lookup"><span data-stu-id="74547-121">**Possible immediate parent element in schema instance**</span></span>
+<span data-ttu-id="905ac-121">**架構實例中可能的直屬父元素**</span><span class="sxs-lookup"><span data-stu-id="905ac-121">**Possible immediate parent element in schema instance**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="74547-122">**EapType**</span><span class="sxs-lookup"><span data-stu-id="74547-122">**EapType**</span></span>](mschapv2userpropertiesv1schema-eaptype-element.md)
+[<span data-ttu-id="905ac-122">**EapType**</span><span class="sxs-lookup"><span data-stu-id="905ac-122">**EapType**</span></span>](mschapv2userpropertiesv1schema-eaptype-element.md)
 </dt> <dt>
 
-[<span data-ttu-id="74547-123">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="74547-123">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="905ac-123">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="905ac-123">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> <dt>
 
-[<span data-ttu-id="74547-124">mschapv2userpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="74547-124">mschapv2userpropertiesv1 Schema</span></span>](mschapv2userpropertiesv1schema-schema.md)
+[<span data-ttu-id="905ac-124">mschapv2userpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="905ac-124">mschapv2userpropertiesv1 Schema</span></span>](mschapv2userpropertiesv1schema-schema.md)
 </dt> </dl>
 
  

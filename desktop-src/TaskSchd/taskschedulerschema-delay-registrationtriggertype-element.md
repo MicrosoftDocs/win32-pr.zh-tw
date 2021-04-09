@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686567"
 ---
-# <a name="delay-registrationtriggertype-element"></a><span data-ttu-id="3b537-104">延遲 (registrationTriggerType) 元素</span><span class="sxs-lookup"><span data-stu-id="3b537-104">Delay (registrationTriggerType) Element</span></span>
+# <a name="delay-registrationtriggertype-element"></a><span data-ttu-id="1f845-104">延遲 (registrationTriggerType) 元素</span><span class="sxs-lookup"><span data-stu-id="1f845-104">Delay (registrationTriggerType) Element</span></span>
 
-<span data-ttu-id="3b537-105">指定在註冊工作與啟動工作之間的時間長度。</span><span class="sxs-lookup"><span data-stu-id="3b537-105">Specifies the amount of time between when the task is registered and when the task is started.</span></span> <span data-ttu-id="3b537-106">此字串的格式為 PnYnMnDTnHnMnS，其中 nY 是年數，nM 是月數，nD 是天數、t ' 是日期/時間分隔符號、nH 是時數、nM 為分鐘數，而 nS 是以秒為單位的秒數，例如，PT5M 指定 (5 分鐘，P1M4DT2H5M 指定一個月、四天、兩小時和五分鐘的) 。</span><span class="sxs-lookup"><span data-stu-id="3b537-106">The format for this string is PnYnMnDTnHnMnS, where nY is the number of years, nM is the number of months, nD is the number of days, 'T' is the date/time separator, nH is the number of hours, nM is the number of minutes, and nS is the number of seconds (for example, PT5M specifies 5 minutes and P1M4DT2H5M specifies one month, four days, two hours, and five minutes).</span></span> <span data-ttu-id="3b537-107">如需持續時間類型的詳細資訊，請參閱 <https://go.microsoft.com/fwlink/p/?linkid=106886> 。</span><span class="sxs-lookup"><span data-stu-id="3b537-107">For more information about the duration type, see <https://go.microsoft.com/fwlink/p/?linkid=106886>.</span></span>
+<span data-ttu-id="1f845-105">指定在註冊工作與啟動工作之間的時間長度。</span><span class="sxs-lookup"><span data-stu-id="1f845-105">Specifies the amount of time between when the task is registered and when the task is started.</span></span> <span data-ttu-id="1f845-106">此字串的格式為 PnYnMnDTnHnMnS，其中 nY 是年數，nM 是月數，nD 是天數、t ' 是日期/時間分隔符號、nH 是時數、nM 為分鐘數，而 nS 是以秒為單位的秒數，例如，PT5M 指定 (5 分鐘，P1M4DT2H5M 指定一個月、四天、兩小時和五分鐘的) 。</span><span class="sxs-lookup"><span data-stu-id="1f845-106">The format for this string is PnYnMnDTnHnMnS, where nY is the number of years, nM is the number of months, nD is the number of days, 'T' is the date/time separator, nH is the number of hours, nM is the number of minutes, and nS is the number of seconds (for example, PT5M specifies 5 minutes and P1M4DT2H5M specifies one month, four days, two hours, and five minutes).</span></span> <span data-ttu-id="1f845-107">如需持續時間類型的詳細資訊，請參閱 <https://go.microsoft.com/fwlink/p/?linkid=106886> 。</span><span class="sxs-lookup"><span data-stu-id="1f845-107">For more information about the duration type, see <https://go.microsoft.com/fwlink/p/?linkid=106886>.</span></span>
 
 ``` syntax
 <xs:element name="Delay"
@@ -30,27 +30,27 @@ ms.locfileid: "103686567"
  />
 ```
 
-<span data-ttu-id="3b537-108">**Delay** 元素是由 [**registrationTriggerType**](taskschedulerschema-registrationtriggertype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="3b537-108">The **Delay** element is defined by the [**registrationTriggerType**](taskschedulerschema-registrationtriggertype-complextype.md) complex type.</span></span>
+<span data-ttu-id="1f845-108">**Delay** 元素是由 [**registrationTriggerType**](taskschedulerschema-registrationtriggertype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="1f845-108">The **Delay** element is defined by the [**registrationTriggerType**](taskschedulerschema-registrationtriggertype-complextype.md) complex type.</span></span>
 
-## <a name="parent-element"></a><span data-ttu-id="3b537-109">父元素</span><span class="sxs-lookup"><span data-stu-id="3b537-109">Parent element</span></span>
+## <a name="parent-element"></a><span data-ttu-id="1f845-109">父元素</span><span class="sxs-lookup"><span data-stu-id="1f845-109">Parent element</span></span>
 
 
 
-| <span data-ttu-id="3b537-110">元素</span><span class="sxs-lookup"><span data-stu-id="3b537-110">Element</span></span>                                                                                     | <span data-ttu-id="3b537-111">衍生自</span><span class="sxs-lookup"><span data-stu-id="3b537-111">Derived from</span></span>                                                                               | <span data-ttu-id="3b537-112">Description</span><span class="sxs-lookup"><span data-stu-id="3b537-112">Description</span></span>                                                                    |
+| <span data-ttu-id="1f845-110">元素</span><span class="sxs-lookup"><span data-stu-id="1f845-110">Element</span></span>                                                                                     | <span data-ttu-id="1f845-111">衍生自</span><span class="sxs-lookup"><span data-stu-id="1f845-111">Derived from</span></span>                                                                               | <span data-ttu-id="1f845-112">Description</span><span class="sxs-lookup"><span data-stu-id="1f845-112">Description</span></span>                                                                    |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [<span data-ttu-id="3b537-113">**RegistrationTrigger**</span><span class="sxs-lookup"><span data-stu-id="3b537-113">**RegistrationTrigger**</span></span>](taskschedulerschema-registrationtrigger-triggergroup-element.md) | [<span data-ttu-id="3b537-114">**registrationTriggerType**</span><span class="sxs-lookup"><span data-stu-id="3b537-114">**registrationTriggerType**</span></span>](taskschedulerschema-registrationtriggertype-complextype.md) | <span data-ttu-id="3b537-115">指定在註冊工作時啟動工作的觸發程式。</span><span class="sxs-lookup"><span data-stu-id="3b537-115">Specifies a trigger that starts a task when the task is registered.</span></span><br/> |
+| [<span data-ttu-id="1f845-113">**RegistrationTrigger**</span><span class="sxs-lookup"><span data-stu-id="1f845-113">**RegistrationTrigger**</span></span>](taskschedulerschema-registrationtrigger-triggergroup-element.md) | [<span data-ttu-id="1f845-114">**registrationTriggerType**</span><span class="sxs-lookup"><span data-stu-id="1f845-114">**registrationTriggerType**</span></span>](taskschedulerschema-registrationtriggertype-complextype.md) | <span data-ttu-id="1f845-115">指定在註冊工作時啟動工作的觸發程式。</span><span class="sxs-lookup"><span data-stu-id="1f845-115">Specifies a trigger that starts a task when the task is registered.</span></span><br/> |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="3b537-116">備註</span><span class="sxs-lookup"><span data-stu-id="3b537-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1f845-116">備註</span><span class="sxs-lookup"><span data-stu-id="1f845-116">Remarks</span></span>
 
-<span data-ttu-id="3b537-117">針對開發腳本，會使用 [**RegistrationTrigger 的 delay**](registrationtrigger-delay.md) 屬性指定註冊觸發程式延遲。</span><span class="sxs-lookup"><span data-stu-id="3b537-117">For scripting development, the registration trigger delay is specified using the [**RegistrationTrigger.Delay**](registrationtrigger-delay.md) property.</span></span>
+<span data-ttu-id="1f845-117">針對開發腳本，會使用 [**RegistrationTrigger 的 delay**](registrationtrigger-delay.md) 屬性指定註冊觸發程式延遲。</span><span class="sxs-lookup"><span data-stu-id="1f845-117">For scripting development, the registration trigger delay is specified using the [**RegistrationTrigger.Delay**](registrationtrigger-delay.md) property.</span></span>
 
-<span data-ttu-id="3b537-118">針對 c + + 開發，會使用 [**IRegistrationTrigger：:D elay**](/windows/desktop/api/taskschd/nf-taskschd-iregistrationtrigger-get_delay) 屬性指定註冊觸發程式延遲。</span><span class="sxs-lookup"><span data-stu-id="3b537-118">For C++ development, the registration trigger delay is specified using the [**IRegistrationTrigger::Delay**](/windows/desktop/api/taskschd/nf-taskschd-iregistrationtrigger-get_delay) property.</span></span>
+<span data-ttu-id="1f845-118">針對 c + + 開發，會使用 [**IRegistrationTrigger：:D elay**](/windows/desktop/api/taskschd/nf-taskschd-iregistrationtrigger-get_delay) 屬性指定註冊觸發程式延遲。</span><span class="sxs-lookup"><span data-stu-id="1f845-118">For C++ development, the registration trigger delay is specified using the [**IRegistrationTrigger::Delay**](/windows/desktop/api/taskschd/nf-taskschd-iregistrationtrigger-get_delay) property.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="3b537-119">範例</span><span class="sxs-lookup"><span data-stu-id="3b537-119">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="1f845-119">範例</span><span class="sxs-lookup"><span data-stu-id="1f845-119">Examples</span></span>
 
-<span data-ttu-id="3b537-120">下列 XML 定義的註冊觸發程式延遲，可在工作註冊的時間與工作啟動的時間之間有5分鐘的延遲。</span><span class="sxs-lookup"><span data-stu-id="3b537-120">The following XML defines a registration trigger delay that allows a 5 minute delay between when the task is registered and when the task is started.</span></span>
+<span data-ttu-id="1f845-120">下列 XML 定義的註冊觸發程式延遲，可在工作註冊的時間與工作啟動的時間之間有5分鐘的延遲。</span><span class="sxs-lookup"><span data-stu-id="1f845-120">The following XML defines a registration trigger delay that allows a 5 minute delay between when the task is registered and when the task is started.</span></span>
 
 
 ```XML
@@ -66,25 +66,25 @@ ms.locfileid: "103686567"
 
 
 
-## <a name="requirements"></a><span data-ttu-id="3b537-121">規格需求</span><span class="sxs-lookup"><span data-stu-id="3b537-121">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="1f845-121">規格需求</span><span class="sxs-lookup"><span data-stu-id="1f845-121">Requirements</span></span>
 
 
 
-| <span data-ttu-id="3b537-122">需求</span><span class="sxs-lookup"><span data-stu-id="3b537-122">Requirement</span></span> | <span data-ttu-id="3b537-123">值</span><span class="sxs-lookup"><span data-stu-id="3b537-123">Value</span></span> |
+| <span data-ttu-id="1f845-122">需求</span><span class="sxs-lookup"><span data-stu-id="1f845-122">Requirement</span></span> | <span data-ttu-id="1f845-123">值</span><span class="sxs-lookup"><span data-stu-id="1f845-123">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="3b537-124">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3b537-124">Minimum supported client</span></span><br/> | <span data-ttu-id="3b537-125">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3b537-125">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="3b537-126">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3b537-126">Minimum supported server</span></span><br/> | <span data-ttu-id="3b537-127">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3b537-127">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="1f845-124">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1f845-124">Minimum supported client</span></span><br/> | <span data-ttu-id="1f845-125">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1f845-125">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="1f845-126">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1f845-126">Minimum supported server</span></span><br/> | <span data-ttu-id="1f845-127">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1f845-127">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="3b537-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3b537-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1f845-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1f845-128">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="3b537-129">工作排程器架構元素</span><span class="sxs-lookup"><span data-stu-id="3b537-129">Task Scheduler Schema Elements</span></span>](task-scheduler-schema-elements.md)
+[<span data-ttu-id="1f845-129">工作排程器架構元素</span><span class="sxs-lookup"><span data-stu-id="1f845-129">Task Scheduler Schema Elements</span></span>](task-scheduler-schema-elements.md)
 </dt> <dt>
 
-[<span data-ttu-id="3b537-130">工作排程器</span><span class="sxs-lookup"><span data-stu-id="3b537-130">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="1f845-130">工作排程器</span><span class="sxs-lookup"><span data-stu-id="1f845-130">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> </dl>
 
  

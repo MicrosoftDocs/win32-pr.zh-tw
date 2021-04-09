@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686147"
 ---
-# <a name="actioncollectionxmltext-property"></a><span data-ttu-id="b3998-106">Actioncollection 動作：： XmlText 屬性</span><span class="sxs-lookup"><span data-stu-id="b3998-106">ActionCollection::XmlText property</span></span>
+# <a name="actioncollectionxmltext-property"></a><span data-ttu-id="22398-106">Actioncollection 動作：： XmlText 屬性</span><span class="sxs-lookup"><span data-stu-id="22398-106">ActionCollection::XmlText property</span></span>
 
-<span data-ttu-id="b3998-107">針對腳本，取得或設定集合的 XML 格式版本。</span><span class="sxs-lookup"><span data-stu-id="b3998-107">For scripting, gets or sets an XML-formatted version of the collection.</span></span>
+<span data-ttu-id="22398-107">針對腳本，取得或設定集合的 XML 格式版本。</span><span class="sxs-lookup"><span data-stu-id="22398-107">For scripting, gets or sets an XML-formatted version of the collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b3998-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="b3998-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="22398-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="22398-108">Syntax</span></span>
 
 
 ```VB
@@ -36,31 +36,31 @@ ms.locfileid: "103686147"
 
 
 
-## <a name="property-value"></a><span data-ttu-id="b3998-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="b3998-109">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="22398-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="22398-109">Property value</span></span>
 
-<span data-ttu-id="b3998-110">集合的 XML 格式版本。</span><span class="sxs-lookup"><span data-stu-id="b3998-110">An XML-formatted version of the collection.</span></span>
+<span data-ttu-id="22398-110">集合的 XML 格式版本。</span><span class="sxs-lookup"><span data-stu-id="22398-110">An XML-formatted version of the collection.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="b3998-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="b3998-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="22398-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="22398-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="b3998-112">需求</span><span class="sxs-lookup"><span data-stu-id="b3998-112">Requirement</span></span> | <span data-ttu-id="b3998-113">值</span><span class="sxs-lookup"><span data-stu-id="b3998-113">Value</span></span> |
+| <span data-ttu-id="22398-112">需求</span><span class="sxs-lookup"><span data-stu-id="22398-112">Requirement</span></span> | <span data-ttu-id="22398-113">值</span><span class="sxs-lookup"><span data-stu-id="22398-113">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="b3998-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b3998-114">Minimum supported client</span></span><br/> | <span data-ttu-id="b3998-115">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b3998-115">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
-| <span data-ttu-id="b3998-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b3998-116">Minimum supported server</span></span><br/> | <span data-ttu-id="b3998-117">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b3998-117">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="b3998-118">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="b3998-118">Type library</span></span><br/>             | <dl> <span data-ttu-id="b3998-119"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="b3998-119"><dt>Taskschd.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="b3998-120">DLL</span><span class="sxs-lookup"><span data-stu-id="b3998-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="b3998-121"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="b3998-121"><dt>Taskschd.dll</dt></span></span> </dl> |
+| <span data-ttu-id="22398-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="22398-114">Minimum supported client</span></span><br/> | <span data-ttu-id="22398-115">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="22398-115">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="22398-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="22398-116">Minimum supported server</span></span><br/> | <span data-ttu-id="22398-117">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="22398-117">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="22398-118">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="22398-118">Type library</span></span><br/>             | <dl> <span data-ttu-id="22398-119"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="22398-119"><dt>Taskschd.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="22398-120">DLL</span><span class="sxs-lookup"><span data-stu-id="22398-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="22398-121"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="22398-121"><dt>Taskschd.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="b3998-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b3998-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="22398-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="22398-122">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b3998-123">工作排程器</span><span class="sxs-lookup"><span data-stu-id="b3998-123">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="22398-123">工作排程器</span><span class="sxs-lookup"><span data-stu-id="22398-123">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> <dt>
 
-[<span data-ttu-id="b3998-124">**Actioncollection 動作**</span><span class="sxs-lookup"><span data-stu-id="b3998-124">**ActionCollection**</span></span>](actioncollection.md)
+[<span data-ttu-id="22398-124">**Actioncollection 動作**</span><span class="sxs-lookup"><span data-stu-id="22398-124">**ActionCollection**</span></span>](actioncollection.md)
 </dt> </dl>
 
  

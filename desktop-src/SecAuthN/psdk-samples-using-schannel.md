@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851720"
 ---
-# <a name="psdk-samples-using-schannel"></a><span data-ttu-id="93879-103">使用 Schannel 的 PSDK 範例</span><span class="sxs-lookup"><span data-stu-id="93879-103">PSDK Samples Using Schannel</span></span>
+# <a name="psdk-samples-using-schannel"></a><span data-ttu-id="79b71-103">使用 Schannel 的 PSDK 範例</span><span class="sxs-lookup"><span data-stu-id="79b71-103">PSDK Samples Using Schannel</span></span>
 
-<span data-ttu-id="93879-104">隨附于平臺軟體發展工具組 (SDK) 的 SSL 範例包含使用 [*安全通道安全性套件*](../secgloss/s-gly.md)的範例 web 用戶端和網頁伺服器。</span><span class="sxs-lookup"><span data-stu-id="93879-104">The SSL sample shipped with the Platform Software Development Kit (SDK) contains a sample web client and web server that use the Schannel [*security package*](../secgloss/s-gly.md).</span></span>
+<span data-ttu-id="79b71-104">隨附于平臺軟體發展工具組 (SDK) 的 SSL 範例包含使用 [*安全通道安全性套件*](../secgloss/s-gly.md)的範例 web 用戶端和網頁伺服器。</span><span class="sxs-lookup"><span data-stu-id="79b71-104">The SSL sample shipped with the Platform Software Development Kit (SDK) contains a sample web client and web server that use the Schannel [*security package*](../secgloss/s-gly.md).</span></span>
 
  
 

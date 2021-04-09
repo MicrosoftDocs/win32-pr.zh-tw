@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851383"
 ---
-# <a name="stopping"></a><span data-ttu-id="dcc1e-103">停止中</span><span class="sxs-lookup"><span data-stu-id="dcc1e-103">Stopping</span></span>
+# <a name="stopping"></a><span data-ttu-id="f55e1-103">停止中</span><span class="sxs-lookup"><span data-stu-id="f55e1-103">Stopping</span></span>
 
-<span data-ttu-id="dcc1e-104">**Stop** 方法必須解除封鎖 **接收** 方法，並取消認可篩選器的配置器。</span><span class="sxs-lookup"><span data-stu-id="dcc1e-104">The **Stop** method must unblock the **Receive** method and decommit the filter's allocators.</span></span> <span data-ttu-id="dcc1e-105">Decommitting 配置器會強制任何暫止的 **GetBuffer** 呼叫傳回，這會解除封鎖正在等候範例的上游篩選。</span><span class="sxs-lookup"><span data-stu-id="dcc1e-105">Decommitting an allocator forces any pending **GetBuffer** calls to return, which unblocks upstream filters that are waiting for samples.</span></span> <span data-ttu-id="dcc1e-106">**Stop** 方法會保存篩選鎖定，然後呼叫 [**CBaseFilter：： Stop**](cbasefilter-stop.md)方法，此方法會在所有篩選器的釘選上呼叫 [**CBasePin：：非**](cbasepin-inactive.md)使用中：</span><span class="sxs-lookup"><span data-stu-id="dcc1e-106">The **Stop** method holds the filter lock and then calls the [**CBaseFilter::Stop**](cbasefilter-stop.md) method, which calls [**CBasePin::Inactive**](cbasepin-inactive.md) on all of the filter's pins:</span></span>
+<span data-ttu-id="f55e1-104">**Stop** 方法必須解除封鎖 **接收** 方法，並取消認可篩選器的配置器。</span><span class="sxs-lookup"><span data-stu-id="f55e1-104">The **Stop** method must unblock the **Receive** method and decommit the filter's allocators.</span></span> <span data-ttu-id="f55e1-105">Decommitting 配置器會強制任何暫止的 **GetBuffer** 呼叫傳回，這會解除封鎖正在等候範例的上游篩選。</span><span class="sxs-lookup"><span data-stu-id="f55e1-105">Decommitting an allocator forces any pending **GetBuffer** calls to return, which unblocks upstream filters that are waiting for samples.</span></span> <span data-ttu-id="f55e1-106">**Stop** 方法會保存篩選鎖定，然後呼叫 [**CBaseFilter：： Stop**](cbasefilter-stop.md)方法，此方法會在所有篩選器的釘選上呼叫 [**CBasePin：：非**](cbasepin-inactive.md)使用中：</span><span class="sxs-lookup"><span data-stu-id="f55e1-106">The **Stop** method holds the filter lock and then calls the [**CBaseFilter::Stop**](cbasefilter-stop.md) method, which calls [**CBasePin::Inactive**](cbasepin-inactive.md) on all of the filter's pins:</span></span>
 
 
 ```C++
@@ -31,7 +31,7 @@ HRESULT CMyFilter::Stop()
 
 
 
-<span data-ttu-id="dcc1e-107">覆寫輸入 pin 的 **非** 使用中方法，如下所示：</span><span class="sxs-lookup"><span data-stu-id="dcc1e-107">Override the input pin's **Inactive** method as follows:</span></span>
+<span data-ttu-id="f55e1-107">覆寫輸入 pin 的 **非** 使用中方法，如下所示：</span><span class="sxs-lookup"><span data-stu-id="f55e1-107">Override the input pin's **Inactive** method as follows:</span></span>
 
 
 ```C++

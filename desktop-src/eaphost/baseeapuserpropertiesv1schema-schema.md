@@ -16,18 +16,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "103683130"
 ---
-# <a name="baseeapuserpropertiesv1-schema"></a><span data-ttu-id="dd78c-104">baseeapuserpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="dd78c-104">baseeapuserpropertiesv1 Schema</span></span>
+# <a name="baseeapuserpropertiesv1-schema"></a><span data-ttu-id="56a94-104">baseeapuserpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="56a94-104">baseeapuserpropertiesv1 Schema</span></span>
 
-<span data-ttu-id="dd78c-105">Baseeapuserpropertiesv1 架構會定義通用的認證架構元素。</span><span class="sxs-lookup"><span data-stu-id="dd78c-105">The baseeapuserpropertiesv1 schema defines common credential schema elements.</span></span>
+<span data-ttu-id="56a94-105">Baseeapuserpropertiesv1 架構會定義通用的認證架構元素。</span><span class="sxs-lookup"><span data-stu-id="56a94-105">The baseeapuserpropertiesv1 schema defines common credential schema elements.</span></span>
 
--   [<span data-ttu-id="dd78c-106">baseeapuserpropertiesv1 架構元素</span><span class="sxs-lookup"><span data-stu-id="dd78c-106">baseeapuserpropertiesv1 Schema Elements</span></span>](baseeapuserpropertiesv1schema-elements.md)
--   [<span data-ttu-id="dd78c-107">baseeapuserpropertiesv1 架構複雜類型</span><span class="sxs-lookup"><span data-stu-id="dd78c-107">baseeapuserpropertiesv1 Schema Complex Types</span></span>](baseeapuserpropertiesv1schema-complex-types.md)
+-   [<span data-ttu-id="56a94-106">baseeapuserpropertiesv1 架構元素</span><span class="sxs-lookup"><span data-stu-id="56a94-106">baseeapuserpropertiesv1 Schema Elements</span></span>](baseeapuserpropertiesv1schema-elements.md)
+-   [<span data-ttu-id="56a94-107">baseeapuserpropertiesv1 架構複雜類型</span><span class="sxs-lookup"><span data-stu-id="56a94-107">baseeapuserpropertiesv1 Schema Complex Types</span></span>](baseeapuserpropertiesv1schema-complex-types.md)
 
-## <a name="related-topics"></a><span data-ttu-id="dd78c-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="dd78c-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="56a94-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="56a94-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="dd78c-109">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="dd78c-109">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="56a94-109">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="56a94-109">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> </dl>
 
  

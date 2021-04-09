@@ -40,25 +40,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686204"
 ---
-# <a name="iadso-property-methods"></a><span data-ttu-id="dcadf-105">IADsO 屬性方法</span><span class="sxs-lookup"><span data-stu-id="dcadf-105">IADsO Property Methods</span></span>
+# <a name="iadso-property-methods"></a><span data-ttu-id="21382-105">IADsO 屬性方法</span><span class="sxs-lookup"><span data-stu-id="21382-105">IADsO Property Methods</span></span>
 
-<span data-ttu-id="dcadf-106">[**IADsO**](/windows/desktop/api/Iads/nn-iads-iadso)介面的屬性方法會取得或設定下表所述的屬性。</span><span class="sxs-lookup"><span data-stu-id="dcadf-106">The property methods of the [**IADsO**](/windows/desktop/api/Iads/nn-iads-iadso) interface get or set the properties described in the following table.</span></span> <span data-ttu-id="dcadf-107">如需詳細資訊，請參閱 [介面屬性方法](interface-property-methods.md)。</span><span class="sxs-lookup"><span data-stu-id="dcadf-107">For more information, see [Interface Property Methods](interface-property-methods.md).</span></span>
+<span data-ttu-id="21382-106">[**IADsO**](/windows/desktop/api/Iads/nn-iads-iadso)介面的屬性方法會取得或設定下表所述的屬性。</span><span class="sxs-lookup"><span data-stu-id="21382-106">The property methods of the [**IADsO**](/windows/desktop/api/Iads/nn-iads-iadso) interface get or set the properties described in the following table.</span></span> <span data-ttu-id="21382-107">如需詳細資訊，請參閱 [介面屬性方法](interface-property-methods.md)。</span><span class="sxs-lookup"><span data-stu-id="21382-107">For more information, see [Interface Property Methods](interface-property-methods.md).</span></span>
 
-## <a name="properties"></a><span data-ttu-id="dcadf-108">屬性</span><span class="sxs-lookup"><span data-stu-id="dcadf-108">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="21382-108">屬性</span><span class="sxs-lookup"><span data-stu-id="21382-108">Properties</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="dcadf-109">**說明**</span><span class="sxs-lookup"><span data-stu-id="dcadf-109">**Description**</span></span>
-<span data-ttu-id="dcadf-110"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="dcadf-110"></dt> <dd> <dl></span></span>
+<span data-ttu-id="21382-109">**說明**</span><span class="sxs-lookup"><span data-stu-id="21382-109">**Description**</span></span>
+<span data-ttu-id="21382-110"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="21382-110"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="dcadf-111">組織的描述。</span><span class="sxs-lookup"><span data-stu-id="dcadf-111">The description of the organization.</span></span>
+<span data-ttu-id="21382-111">組織的描述。</span><span class="sxs-lookup"><span data-stu-id="21382-111">The description of the organization.</span></span>
 
 <dt>
 
-<span data-ttu-id="dcadf-112">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dcadf-112">Access type: Read/write</span></span>
+<span data-ttu-id="21382-112">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="21382-112">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="dcadf-113">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="dcadf-113">Scripting data type: **BSTR**</span></span>
+<span data-ttu-id="21382-113">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="21382-113">Scripting data type: **BSTR**</span></span>
 </dt> <dt>
 
 
@@ -76,17 +76,17 @@ HRESULT put_Description(
 
 </dt> </dl> </dd> <dt>
 
-<span data-ttu-id="dcadf-114">**FaxNumber**</span><span class="sxs-lookup"><span data-stu-id="dcadf-114">**FaxNumber**</span></span>
-<span data-ttu-id="dcadf-115"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="dcadf-115"></dt> <dd> <dl></span></span>
+<span data-ttu-id="21382-114">**FaxNumber**</span><span class="sxs-lookup"><span data-stu-id="21382-114">**FaxNumber**</span></span>
+<span data-ttu-id="21382-115"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="21382-115"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="dcadf-116">傳真 (傳真) 號碼。</span><span class="sxs-lookup"><span data-stu-id="dcadf-116">The facsimile (fax) number of the organization.</span></span>
+<span data-ttu-id="21382-116">傳真 (傳真) 號碼。</span><span class="sxs-lookup"><span data-stu-id="21382-116">The facsimile (fax) number of the organization.</span></span>
 
 <dt>
 
-<span data-ttu-id="dcadf-117">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dcadf-117">Access type: Read/write</span></span>
+<span data-ttu-id="21382-117">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="21382-117">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="dcadf-118">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="dcadf-118">Scripting data type: **BSTR**</span></span>
+<span data-ttu-id="21382-118">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="21382-118">Scripting data type: **BSTR**</span></span>
 </dt> <dt>
 
 
@@ -104,17 +104,17 @@ HRESULT put_FaxNumber(
 
 </dt> </dl> </dd> <dt>
 
-<span data-ttu-id="dcadf-119">**LocalityName**</span><span class="sxs-lookup"><span data-stu-id="dcadf-119">**LocalityName**</span></span>
-<span data-ttu-id="dcadf-120"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="dcadf-120"></dt> <dd> <dl></span></span>
+<span data-ttu-id="21382-119">**LocalityName**</span><span class="sxs-lookup"><span data-stu-id="21382-119">**LocalityName**</span></span>
+<span data-ttu-id="21382-120"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="21382-120"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="dcadf-121">組織所在的位置名稱。</span><span class="sxs-lookup"><span data-stu-id="dcadf-121">The name of the place in which the organization is located.</span></span>
+<span data-ttu-id="21382-121">組織所在的位置名稱。</span><span class="sxs-lookup"><span data-stu-id="21382-121">The name of the place in which the organization is located.</span></span>
 
 <dt>
 
-<span data-ttu-id="dcadf-122">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dcadf-122">Access type: Read/write</span></span>
+<span data-ttu-id="21382-122">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="21382-122">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="dcadf-123">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="dcadf-123">Scripting data type: **BSTR**</span></span>
+<span data-ttu-id="21382-123">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="21382-123">Scripting data type: **BSTR**</span></span>
 </dt> <dt>
 
 
@@ -132,17 +132,17 @@ HRESULT put_LocalityName(
 
 </dt> </dl> </dd> <dt>
 
-<span data-ttu-id="dcadf-124">**PostalAddress**</span><span class="sxs-lookup"><span data-stu-id="dcadf-124">**PostalAddress**</span></span>
-<span data-ttu-id="dcadf-125"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="dcadf-125"></dt> <dd> <dl></span></span>
+<span data-ttu-id="21382-124">**PostalAddress**</span><span class="sxs-lookup"><span data-stu-id="21382-124">**PostalAddress**</span></span>
+<span data-ttu-id="21382-125"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="21382-125"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="dcadf-126">組織的郵政位址。</span><span class="sxs-lookup"><span data-stu-id="dcadf-126">The postal address of the organization.</span></span>
+<span data-ttu-id="21382-126">組織的郵政位址。</span><span class="sxs-lookup"><span data-stu-id="21382-126">The postal address of the organization.</span></span>
 
 <dt>
 
-<span data-ttu-id="dcadf-127">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dcadf-127">Access type: Read/write</span></span>
+<span data-ttu-id="21382-127">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="21382-127">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="dcadf-128">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="dcadf-128">Scripting data type: **BSTR**</span></span>
+<span data-ttu-id="21382-128">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="21382-128">Scripting data type: **BSTR**</span></span>
 </dt> <dt>
 
 
@@ -160,17 +160,17 @@ HRESULT put_PostalAddress(
 
 </dt> </dl> </dd> <dt>
 
-<span data-ttu-id="dcadf-129">**SeeAlso**</span><span class="sxs-lookup"><span data-stu-id="dcadf-129">**SeeAlso**</span></span>
-<span data-ttu-id="dcadf-130"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="dcadf-130"></dt> <dd> <dl></span></span>
+<span data-ttu-id="21382-129">**SeeAlso**</span><span class="sxs-lookup"><span data-stu-id="21382-129">**SeeAlso**</span></span>
+<span data-ttu-id="21382-130"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="21382-130"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="dcadf-131">其他 ADSI 物件的 ADsPath 名稱陣列，這些物件可能與這個物件相關。</span><span class="sxs-lookup"><span data-stu-id="dcadf-131">An array of ADsPath names of other ADSI objects which may be relevant to this object.</span></span>
+<span data-ttu-id="21382-131">其他 ADSI 物件的 ADsPath 名稱陣列，這些物件可能與這個物件相關。</span><span class="sxs-lookup"><span data-stu-id="21382-131">An array of ADsPath names of other ADSI objects which may be relevant to this object.</span></span>
 
 <dt>
 
-<span data-ttu-id="dcadf-132">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dcadf-132">Access type: Read/write</span></span>
+<span data-ttu-id="21382-132">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="21382-132">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="dcadf-133">腳本資料類型： **VARIANT**</span><span class="sxs-lookup"><span data-stu-id="dcadf-133">Scripting data type: **VARIANT**</span></span>
+<span data-ttu-id="21382-133">腳本資料類型： **VARIANT**</span><span class="sxs-lookup"><span data-stu-id="21382-133">Scripting data type: **VARIANT**</span></span>
 </dt> <dt>
 
 
@@ -188,17 +188,17 @@ HRESULT put_SeeAlso(
 
 </dt> </dl> </dd> <dt>
 
-<span data-ttu-id="dcadf-134">**TelephoneNumber**</span><span class="sxs-lookup"><span data-stu-id="dcadf-134">**TelephoneNumber**</span></span>
-<span data-ttu-id="dcadf-135"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="dcadf-135"></dt> <dd> <dl></span></span>
+<span data-ttu-id="21382-134">**TelephoneNumber**</span><span class="sxs-lookup"><span data-stu-id="21382-134">**TelephoneNumber**</span></span>
+<span data-ttu-id="21382-135"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="21382-135"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="dcadf-136">組織的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="dcadf-136">The telephone number of the organization.</span></span>
+<span data-ttu-id="21382-136">組織的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="21382-136">The telephone number of the organization.</span></span>
 
 <dt>
 
-<span data-ttu-id="dcadf-137">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dcadf-137">Access type: Read/write</span></span>
+<span data-ttu-id="21382-137">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="21382-137">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="dcadf-138">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="dcadf-138">Scripting data type: **BSTR**</span></span>
+<span data-ttu-id="21382-138">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="21382-138">Scripting data type: **BSTR**</span></span>
 </dt> <dt>
 
 
@@ -218,9 +218,9 @@ HRESULT put_TelephoneNumber(
 
  
 
-## <a name="examples"></a><span data-ttu-id="dcadf-139">範例</span><span class="sxs-lookup"><span data-stu-id="dcadf-139">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="21382-139">範例</span><span class="sxs-lookup"><span data-stu-id="21382-139">Examples</span></span>
 
-<span data-ttu-id="dcadf-140">下列程式碼範例會顯示指定組織的描述。</span><span class="sxs-lookup"><span data-stu-id="dcadf-140">The following code example displays the description of a given organization.</span></span> <span data-ttu-id="dcadf-141">它會假設基礎目錄服務支援依組織群組目錄物件。</span><span class="sxs-lookup"><span data-stu-id="dcadf-141">It assumes the underlying directory service supports grouping directory objects by organization.</span></span>
+<span data-ttu-id="21382-140">下列程式碼範例會顯示指定組織的描述。</span><span class="sxs-lookup"><span data-stu-id="21382-140">The following code example displays the description of a given organization.</span></span> <span data-ttu-id="21382-141">它會假設基礎目錄服務支援依組織群組目錄物件。</span><span class="sxs-lookup"><span data-stu-id="21382-141">It assumes the underlying directory service supports grouping directory objects by organization.</span></span>
 
 
 ```VB
@@ -251,28 +251,28 @@ Cleanup:
 
 
 
-## <a name="requirements"></a><span data-ttu-id="dcadf-142">規格需求</span><span class="sxs-lookup"><span data-stu-id="dcadf-142">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="21382-142">規格需求</span><span class="sxs-lookup"><span data-stu-id="21382-142">Requirements</span></span>
 
 
 
-| <span data-ttu-id="dcadf-143">需求</span><span class="sxs-lookup"><span data-stu-id="dcadf-143">Requirement</span></span> | <span data-ttu-id="dcadf-144">值</span><span class="sxs-lookup"><span data-stu-id="dcadf-144">Value</span></span> |
+| <span data-ttu-id="21382-143">需求</span><span class="sxs-lookup"><span data-stu-id="21382-143">Requirement</span></span> | <span data-ttu-id="21382-144">值</span><span class="sxs-lookup"><span data-stu-id="21382-144">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="dcadf-145">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="dcadf-145">Minimum supported client</span></span><br/> | <span data-ttu-id="dcadf-146">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="dcadf-146">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="dcadf-147">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="dcadf-147">Minimum supported server</span></span><br/> | <span data-ttu-id="dcadf-148">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="dcadf-148">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="dcadf-149">標頭</span><span class="sxs-lookup"><span data-stu-id="dcadf-149">Header</span></span><br/>                   | <dl> <span data-ttu-id="dcadf-150"><dt>Iads。h</dt></span><span class="sxs-lookup"><span data-stu-id="dcadf-150"><dt>Iads.h</dt></span></span> </dl>       |
-| <span data-ttu-id="dcadf-151">DLL</span><span class="sxs-lookup"><span data-stu-id="dcadf-151">DLL</span></span><br/>                      | <dl> <span data-ttu-id="dcadf-152"><dt>Activeds.dll</dt></span><span class="sxs-lookup"><span data-stu-id="dcadf-152"><dt>Activeds.dll</dt></span></span> </dl> |
-| <span data-ttu-id="dcadf-153">IID</span><span class="sxs-lookup"><span data-stu-id="dcadf-153">IID</span></span><br/>                      | <span data-ttu-id="dcadf-154">IID \_ IADsO 定義為 A1CD2DC6-EFFE-11CF-8ABC-00C04FD8D503</span><span class="sxs-lookup"><span data-stu-id="dcadf-154">IID\_IADsO is defined as A1CD2DC6-EFFE-11CF-8ABC-00C04FD8D503</span></span><br/>                |
+| <span data-ttu-id="21382-145">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="21382-145">Minimum supported client</span></span><br/> | <span data-ttu-id="21382-146">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="21382-146">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="21382-147">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="21382-147">Minimum supported server</span></span><br/> | <span data-ttu-id="21382-148">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="21382-148">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="21382-149">標頭</span><span class="sxs-lookup"><span data-stu-id="21382-149">Header</span></span><br/>                   | <dl> <span data-ttu-id="21382-150"><dt>Iads。h</dt></span><span class="sxs-lookup"><span data-stu-id="21382-150"><dt>Iads.h</dt></span></span> </dl>       |
+| <span data-ttu-id="21382-151">DLL</span><span class="sxs-lookup"><span data-stu-id="21382-151">DLL</span></span><br/>                      | <dl> <span data-ttu-id="21382-152"><dt>Activeds.dll</dt></span><span class="sxs-lookup"><span data-stu-id="21382-152"><dt>Activeds.dll</dt></span></span> </dl> |
+| <span data-ttu-id="21382-153">IID</span><span class="sxs-lookup"><span data-stu-id="21382-153">IID</span></span><br/>                      | <span data-ttu-id="21382-154">IID \_ IADsO 定義為 A1CD2DC6-EFFE-11CF-8ABC-00C04FD8D503</span><span class="sxs-lookup"><span data-stu-id="21382-154">IID\_IADsO is defined as A1CD2DC6-EFFE-11CF-8ABC-00C04FD8D503</span></span><br/>                |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="dcadf-155">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dcadf-155">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="21382-155">另請參閱</span><span class="sxs-lookup"><span data-stu-id="21382-155">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="dcadf-156">**IADsO**</span><span class="sxs-lookup"><span data-stu-id="dcadf-156">**IADsO**</span></span>](/windows/desktop/api/Iads/nn-iads-iadso)
+[<span data-ttu-id="21382-156">**IADsO**</span><span class="sxs-lookup"><span data-stu-id="21382-156">**IADsO**</span></span>](/windows/desktop/api/Iads/nn-iads-iadso)
 </dt> <dt>
 
-[<span data-ttu-id="dcadf-157">介面屬性方法</span><span class="sxs-lookup"><span data-stu-id="dcadf-157">Interface Property Methods</span></span>](interface-property-methods.md)
+[<span data-ttu-id="21382-157">介面屬性方法</span><span class="sxs-lookup"><span data-stu-id="21382-157">Interface Property Methods</span></span>](interface-property-methods.md)
 </dt> </dl>
 
  

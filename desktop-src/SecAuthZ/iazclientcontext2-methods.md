@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851704"
 ---
-# <a name="iazclientcontext2-methods"></a><span data-ttu-id="193b9-103">IAzClientCoNtext2 方法</span><span class="sxs-lookup"><span data-stu-id="193b9-103">IAzClientContext2 Methods</span></span>
+# <a name="iazclientcontext2-methods"></a><span data-ttu-id="0cd05-103">IAzClientCoNtext2 方法</span><span class="sxs-lookup"><span data-stu-id="0cd05-103">IAzClientContext2 Methods</span></span>
 
-<span data-ttu-id="193b9-104">[**IAzClientCoNtext2**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext2)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="193b9-104">The [**IAzClientContext2**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext2) interface exposes the following methods.</span></span>
+<span data-ttu-id="0cd05-104">[**IAzClientCoNtext2**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext2)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="0cd05-104">The [**IAzClientContext2**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext2) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="193b9-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="193b9-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0cd05-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0cd05-105">In this section</span></span>
 
--   [<span data-ttu-id="193b9-106">**AddApplicationGroups 方法**</span><span class="sxs-lookup"><span data-stu-id="193b9-106">**AddApplicationGroups Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-addapplicationgroups)
--   [<span data-ttu-id="193b9-107">**AddRoles 方法**</span><span class="sxs-lookup"><span data-stu-id="193b9-107">**AddRoles Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-addroles)
--   [<span data-ttu-id="193b9-108">**AddStringSids 方法**</span><span class="sxs-lookup"><span data-stu-id="193b9-108">**AddStringSids Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-addstringsids)
--   [<span data-ttu-id="193b9-109">**GetAssignedScopesPage 方法**</span><span class="sxs-lookup"><span data-stu-id="193b9-109">**GetAssignedScopesPage Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-getassignedscopespage)
+-   [<span data-ttu-id="0cd05-106">**AddApplicationGroups 方法**</span><span class="sxs-lookup"><span data-stu-id="0cd05-106">**AddApplicationGroups Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-addapplicationgroups)
+-   [<span data-ttu-id="0cd05-107">**AddRoles 方法**</span><span class="sxs-lookup"><span data-stu-id="0cd05-107">**AddRoles Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-addroles)
+-   [<span data-ttu-id="0cd05-108">**AddStringSids 方法**</span><span class="sxs-lookup"><span data-stu-id="0cd05-108">**AddStringSids Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-addstringsids)
+-   [<span data-ttu-id="0cd05-109">**GetAssignedScopesPage 方法**</span><span class="sxs-lookup"><span data-stu-id="0cd05-109">**GetAssignedScopesPage Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-getassignedscopespage)
 
  
 
