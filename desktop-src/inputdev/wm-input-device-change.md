@@ -26,63 +26,63 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/10/2020
 ms.locfileid: "104024269"
 ---
-# <a name="wm_input_device_change-message"></a><span data-ttu-id="df3d3-105">WM_INPUT_DEVICE_CHANGE 訊息</span><span class="sxs-lookup"><span data-stu-id="df3d3-105">WM_INPUT_DEVICE_CHANGE message</span></span>
+# <a name="wm_input_device_change-message"></a><span data-ttu-id="f737c-105">WM_INPUT_DEVICE_CHANGE 訊息</span><span class="sxs-lookup"><span data-stu-id="f737c-105">WM_INPUT_DEVICE_CHANGE message</span></span>
 
-## <a name="description"></a><span data-ttu-id="df3d3-106">Description</span><span class="sxs-lookup"><span data-stu-id="df3d3-106">Description</span></span>
+## <a name="description"></a><span data-ttu-id="f737c-106">Description</span><span class="sxs-lookup"><span data-stu-id="f737c-106">Description</span></span>
 
-<span data-ttu-id="df3d3-107">傳送至已註冊要接收原始輸入的視窗。</span><span class="sxs-lookup"><span data-stu-id="df3d3-107">Sent to the window that registered to receive raw input.</span></span> 
+<span data-ttu-id="f737c-107">傳送至已註冊要接收原始輸入的視窗。</span><span class="sxs-lookup"><span data-stu-id="f737c-107">Sent to the window that registered to receive raw input.</span></span> 
 
-<span data-ttu-id="df3d3-108">只有在應用程式使用[RIDEV_DEVNOTIFY](/windows/win32/api/winuser/ns-winuser-rawinputdevice)旗標呼叫[RegisterRawInputDevices](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices)之後，才可以使用原始輸入通知。</span><span class="sxs-lookup"><span data-stu-id="df3d3-108">Raw input notifications are available only after the application calls [RegisterRawInputDevices](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) with [RIDEV_DEVNOTIFY](/windows/win32/api/winuser/ns-winuser-rawinputdevice) flag.</span></span>
+<span data-ttu-id="f737c-108">只有在應用程式使用[RIDEV_DEVNOTIFY](/windows/win32/api/winuser/ns-winuser-rawinputdevice)旗標呼叫[RegisterRawInputDevices](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices)之後，才可以使用原始輸入通知。</span><span class="sxs-lookup"><span data-stu-id="f737c-108">Raw input notifications are available only after the application calls [RegisterRawInputDevices](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) with [RIDEV_DEVNOTIFY](/windows/win32/api/winuser/ns-winuser-rawinputdevice) flag.</span></span>
 
-<span data-ttu-id="df3d3-109">視窗會透過其 [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) 函數接收此訊息。</span><span class="sxs-lookup"><span data-stu-id="df3d3-109">A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.</span></span>
+<span data-ttu-id="f737c-109">視窗會透過其 [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) 函數接收此訊息。</span><span class="sxs-lookup"><span data-stu-id="f737c-109">A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.</span></span>
 
 ```C++
 #define WM_INPUT_DEVICE_CHANGE          0x00FE
 ```
 
-## <a name="parameters"></a><span data-ttu-id="df3d3-110">參數</span><span class="sxs-lookup"><span data-stu-id="df3d3-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f737c-110">參數</span><span class="sxs-lookup"><span data-stu-id="f737c-110">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="df3d3-111">*wParam*</span><span class="sxs-lookup"><span data-stu-id="df3d3-111">*wParam*</span></span>
+<span data-ttu-id="f737c-111">*wParam*</span><span class="sxs-lookup"><span data-stu-id="f737c-111">*wParam*</span></span>
 
 </dt> <dd>
 
-<span data-ttu-id="df3d3-112">類型： **WPARAM**</span><span class="sxs-lookup"><span data-stu-id="df3d3-112">Type: **WPARAM**</span></span>
+<span data-ttu-id="f737c-112">類型： **WPARAM**</span><span class="sxs-lookup"><span data-stu-id="f737c-112">Type: **WPARAM**</span></span>
 
-<span data-ttu-id="df3d3-113">此參數可以是下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="df3d3-113">This parameter can be one of the following values.</span></span>
+<span data-ttu-id="f737c-113">此參數可以是下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="f737c-113">This parameter can be one of the following values.</span></span>
 
-| <span data-ttu-id="df3d3-114">值</span><span class="sxs-lookup"><span data-stu-id="df3d3-114">Value</span></span>                    | <span data-ttu-id="df3d3-115">意義</span><span class="sxs-lookup"><span data-stu-id="df3d3-115">Meaning</span></span>                                    |
+| <span data-ttu-id="f737c-114">值</span><span class="sxs-lookup"><span data-stu-id="f737c-114">Value</span></span>                    | <span data-ttu-id="f737c-115">意義</span><span class="sxs-lookup"><span data-stu-id="f737c-115">Meaning</span></span>                                    |
 |--------------------------|--------------------------------------------|
-| <span data-ttu-id="df3d3-116">**GIDC \_ 抵達**</span><span class="sxs-lookup"><span data-stu-id="df3d3-116">**GIDC\_ARRIVAL**</span></span> </br><span data-ttu-id="df3d3-117">1</span><span class="sxs-lookup"><span data-stu-id="df3d3-117">1</span></span> | <span data-ttu-id="df3d3-118">系統已新增新的裝置。</span><span class="sxs-lookup"><span data-stu-id="df3d3-118">A new device has been added to the system.</span></span> </br> <span data-ttu-id="df3d3-119">您可以呼叫 [GetRawInputDeviceInfo](/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) 來取得有關裝置的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="df3d3-119">You can call [GetRawInputDeviceInfo](/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) to get more information regarding the device.</span></span> |
-| <span data-ttu-id="df3d3-120">**GIDC \_ 移除**</span><span class="sxs-lookup"><span data-stu-id="df3d3-120">**GIDC\_REMOVAL**</span></span> </br><span data-ttu-id="df3d3-121">2</span><span class="sxs-lookup"><span data-stu-id="df3d3-121">2</span></span> | <span data-ttu-id="df3d3-122">裝置已從系統中移除。</span><span class="sxs-lookup"><span data-stu-id="df3d3-122">A device has been removed from the system.</span></span> |
+| <span data-ttu-id="f737c-116">**GIDC \_ 抵達**</span><span class="sxs-lookup"><span data-stu-id="f737c-116">**GIDC\_ARRIVAL**</span></span> </br><span data-ttu-id="f737c-117">1</span><span class="sxs-lookup"><span data-stu-id="f737c-117">1</span></span> | <span data-ttu-id="f737c-118">系統已新增新的裝置。</span><span class="sxs-lookup"><span data-stu-id="f737c-118">A new device has been added to the system.</span></span> </br> <span data-ttu-id="f737c-119">您可以呼叫 [GetRawInputDeviceInfo](/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) 來取得有關裝置的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="f737c-119">You can call [GetRawInputDeviceInfo](/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) to get more information regarding the device.</span></span> |
+| <span data-ttu-id="f737c-120">**GIDC \_ 移除**</span><span class="sxs-lookup"><span data-stu-id="f737c-120">**GIDC\_REMOVAL**</span></span> </br><span data-ttu-id="f737c-121">2</span><span class="sxs-lookup"><span data-stu-id="f737c-121">2</span></span> | <span data-ttu-id="f737c-122">裝置已從系統中移除。</span><span class="sxs-lookup"><span data-stu-id="f737c-122">A device has been removed from the system.</span></span> |
 
 </dd> <dt>
 
-<span data-ttu-id="df3d3-123">*lParam*</span><span class="sxs-lookup"><span data-stu-id="df3d3-123">*lParam*</span></span> 
+<span data-ttu-id="f737c-123">*lParam*</span><span class="sxs-lookup"><span data-stu-id="f737c-123">*lParam*</span></span> 
 
 </dt> <dd>
 
-<span data-ttu-id="df3d3-124">類型： **LPARAM**</span><span class="sxs-lookup"><span data-stu-id="df3d3-124">Type: **LPARAM**</span></span>
+<span data-ttu-id="f737c-124">類型： **LPARAM**</span><span class="sxs-lookup"><span data-stu-id="f737c-124">Type: **LPARAM**</span></span>
 
-<span data-ttu-id="df3d3-125">原始輸入裝置的 **控制碼** 。</span><span class="sxs-lookup"><span data-stu-id="df3d3-125">The **HANDLE** to the raw input device.</span></span>
+<span data-ttu-id="f737c-125">原始輸入裝置的 **控制碼** 。</span><span class="sxs-lookup"><span data-stu-id="f737c-125">The **HANDLE** to the raw input device.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="df3d3-126">傳回值</span><span class="sxs-lookup"><span data-stu-id="df3d3-126">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f737c-126">傳回值</span><span class="sxs-lookup"><span data-stu-id="f737c-126">Return value</span></span>
 
-<span data-ttu-id="df3d3-127">如果應用程式處理此訊息，它應該會傳回零。</span><span class="sxs-lookup"><span data-stu-id="df3d3-127">If an application processes this message, it should return zero.</span></span>
+<span data-ttu-id="f737c-127">如果應用程式處理此訊息，它應該會傳回零。</span><span class="sxs-lookup"><span data-stu-id="f737c-127">If an application processes this message, it should return zero.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="df3d3-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="df3d3-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f737c-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f737c-128">See also</span></span>
 
-<span data-ttu-id="df3d3-129">**概念**</span><span class="sxs-lookup"><span data-stu-id="df3d3-129">**Conceptual**</span></span>
+<span data-ttu-id="f737c-129">**概念**</span><span class="sxs-lookup"><span data-stu-id="f737c-129">**Conceptual**</span></span>
 
-[<span data-ttu-id="df3d3-130">原始輸入</span><span class="sxs-lookup"><span data-stu-id="df3d3-130">Raw Input</span></span>](/windows/desktop/inputdev/raw-input)
+[<span data-ttu-id="f737c-130">原始輸入</span><span class="sxs-lookup"><span data-stu-id="f737c-130">Raw Input</span></span>](/windows/desktop/inputdev/raw-input)
 
-<span data-ttu-id="df3d3-131">**參考**</span><span class="sxs-lookup"><span data-stu-id="df3d3-131">**Reference**</span></span>
+<span data-ttu-id="f737c-131">**參考**</span><span class="sxs-lookup"><span data-stu-id="f737c-131">**Reference**</span></span>
 
-[<span data-ttu-id="df3d3-132">RegisterRawInputDevices</span><span class="sxs-lookup"><span data-stu-id="df3d3-132">RegisterRawInputDevices</span></span>](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices)
+[<span data-ttu-id="f737c-132">RegisterRawInputDevices</span><span class="sxs-lookup"><span data-stu-id="f737c-132">RegisterRawInputDevices</span></span>](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices)
 
-[<span data-ttu-id="df3d3-133">RAWINPUTDEVICE 結構</span><span class="sxs-lookup"><span data-stu-id="df3d3-133">RAWINPUTDEVICE structure</span></span>](/windows/win32/api/winuser/ns-winuser-rawinputdevice)
+[<span data-ttu-id="f737c-133">RAWINPUTDEVICE 結構</span><span class="sxs-lookup"><span data-stu-id="f737c-133">RAWINPUTDEVICE structure</span></span>](/windows/win32/api/winuser/ns-winuser-rawinputdevice)
  
 

@@ -21,45 +21,45 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686165"
 ---
-# <a name="pbm_setrange32-message"></a><span data-ttu-id="2db2b-104">PBM \_ SETRANGE32 訊息</span><span class="sxs-lookup"><span data-stu-id="2db2b-104">PBM\_SETRANGE32 message</span></span>
+# <a name="pbm_setrange32-message"></a><span data-ttu-id="1ca90-104">PBM \_ SETRANGE32 訊息</span><span class="sxs-lookup"><span data-stu-id="1ca90-104">PBM\_SETRANGE32 message</span></span>
 
-<span data-ttu-id="2db2b-105">將進度列的最小值和最大值設定為32位值，並重新繪製橫條以反映新的範圍。</span><span class="sxs-lookup"><span data-stu-id="2db2b-105">Sets the minimum and maximum values for a progress bar to 32-bit values, and redraws the bar to reflect the new range.</span></span>
+<span data-ttu-id="1ca90-105">將進度列的最小值和最大值設定為32位值，並重新繪製橫條以反映新的範圍。</span><span class="sxs-lookup"><span data-stu-id="1ca90-105">Sets the minimum and maximum values for a progress bar to 32-bit values, and redraws the bar to reflect the new range.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="2db2b-106">參數</span><span class="sxs-lookup"><span data-stu-id="2db2b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1ca90-106">參數</span><span class="sxs-lookup"><span data-stu-id="1ca90-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="2db2b-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="2db2b-107">*wParam*</span></span> 
+<span data-ttu-id="1ca90-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="1ca90-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="2db2b-108">最小範圍值。</span><span class="sxs-lookup"><span data-stu-id="2db2b-108">Minimum range value.</span></span> <span data-ttu-id="2db2b-109">根據預設，最小值為零。</span><span class="sxs-lookup"><span data-stu-id="2db2b-109">By default, the minimum value is zero.</span></span>
+<span data-ttu-id="1ca90-108">最小範圍值。</span><span class="sxs-lookup"><span data-stu-id="1ca90-108">Minimum range value.</span></span> <span data-ttu-id="1ca90-109">根據預設，最小值為零。</span><span class="sxs-lookup"><span data-stu-id="1ca90-109">By default, the minimum value is zero.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="2db2b-110">*lParam*</span><span class="sxs-lookup"><span data-stu-id="2db2b-110">*lParam*</span></span> 
+<span data-ttu-id="1ca90-110">*lParam*</span><span class="sxs-lookup"><span data-stu-id="1ca90-110">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="2db2b-111">最大範圍值。</span><span class="sxs-lookup"><span data-stu-id="2db2b-111">Maximum range value.</span></span> <span data-ttu-id="2db2b-112">此值必須大於 *wParam*。</span><span class="sxs-lookup"><span data-stu-id="2db2b-112">This value must be greater than *wParam*.</span></span> <span data-ttu-id="2db2b-113">根據預設，最大值為100。</span><span class="sxs-lookup"><span data-stu-id="2db2b-113">By default, the maximum value is 100.</span></span>
+<span data-ttu-id="1ca90-111">最大範圍值。</span><span class="sxs-lookup"><span data-stu-id="1ca90-111">Maximum range value.</span></span> <span data-ttu-id="1ca90-112">此值必須大於 *wParam*。</span><span class="sxs-lookup"><span data-stu-id="1ca90-112">This value must be greater than *wParam*.</span></span> <span data-ttu-id="1ca90-113">根據預設，最大值為100。</span><span class="sxs-lookup"><span data-stu-id="1ca90-113">By default, the maximum value is 100.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="2db2b-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="2db2b-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1ca90-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="1ca90-114">Return value</span></span>
 
-<span data-ttu-id="2db2b-115">傳回 **DWORD** 值，此值會在其 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) 中保留先前的16位低限制，並在其 [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))中保留先前的16位高限制。</span><span class="sxs-lookup"><span data-stu-id="2db2b-115">Returns a **DWORD** value that holds the previous 16-bit low limit in its [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the previous 16-bit high limit in its [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)).</span></span> <span data-ttu-id="2db2b-116">如果先前的範圍是32位的值，則傳回值是由兩個32位限制的 **LOWORD** 所組成。</span><span class="sxs-lookup"><span data-stu-id="2db2b-116">If the previous ranges were 32-bit values, the return value consists of the **LOWORD** s of both 32-bit limits.</span></span>
+<span data-ttu-id="1ca90-115">傳回 **DWORD** 值，此值會在其 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) 中保留先前的16位低限制，並在其 [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))中保留先前的16位高限制。</span><span class="sxs-lookup"><span data-stu-id="1ca90-115">Returns a **DWORD** value that holds the previous 16-bit low limit in its [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the previous 16-bit high limit in its [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)).</span></span> <span data-ttu-id="1ca90-116">如果先前的範圍是32位的值，則傳回值是由兩個32位限制的 **LOWORD** 所組成。</span><span class="sxs-lookup"><span data-stu-id="1ca90-116">If the previous ranges were 32-bit values, the return value consists of the **LOWORD** s of both 32-bit limits.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2db2b-117">備註</span><span class="sxs-lookup"><span data-stu-id="2db2b-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1ca90-117">備註</span><span class="sxs-lookup"><span data-stu-id="1ca90-117">Remarks</span></span>
 
-<span data-ttu-id="2db2b-118">若要取出整個最高和最低的32位值，請使用 [**PBM \_ GETRANGE**](pbm-getrange.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="2db2b-118">To retrieve the entire high and low 32-bit values, use the [**PBM\_GETRANGE**](pbm-getrange.md) message.</span></span>
+<span data-ttu-id="1ca90-118">若要取出整個最高和最低的32位值，請使用 [**PBM \_ GETRANGE**](pbm-getrange.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="1ca90-118">To retrieve the entire high and low 32-bit values, use the [**PBM\_GETRANGE**](pbm-getrange.md) message.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="2db2b-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="2db2b-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="1ca90-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="1ca90-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2db2b-120">需求</span><span class="sxs-lookup"><span data-stu-id="2db2b-120">Requirement</span></span> | <span data-ttu-id="2db2b-121">值</span><span class="sxs-lookup"><span data-stu-id="2db2b-121">Value</span></span> |
+| <span data-ttu-id="1ca90-120">需求</span><span class="sxs-lookup"><span data-stu-id="1ca90-120">Requirement</span></span> | <span data-ttu-id="1ca90-121">值</span><span class="sxs-lookup"><span data-stu-id="1ca90-121">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="2db2b-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2db2b-122">Minimum supported client</span></span><br/> | <span data-ttu-id="2db2b-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2db2b-123">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="2db2b-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2db2b-124">Minimum supported server</span></span><br/> | <span data-ttu-id="2db2b-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2db2b-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="2db2b-126">標頭</span><span class="sxs-lookup"><span data-stu-id="2db2b-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="2db2b-127"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="2db2b-127"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="1ca90-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1ca90-122">Minimum supported client</span></span><br/> | <span data-ttu-id="1ca90-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1ca90-123">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="1ca90-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1ca90-124">Minimum supported server</span></span><br/> | <span data-ttu-id="1ca90-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1ca90-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="1ca90-126">標頭</span><span class="sxs-lookup"><span data-stu-id="1ca90-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="1ca90-127"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="1ca90-127"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

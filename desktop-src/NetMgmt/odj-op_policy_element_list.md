@@ -12,11 +12,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/14/2020
 ms.locfileid: "103684207"
 ---
-# <a name="op_policy_element_list-structure"></a><span data-ttu-id="75ecc-103">OP_POLICY_ELEMENT_LIST 結構</span><span class="sxs-lookup"><span data-stu-id="75ecc-103">OP_POLICY_ELEMENT_LIST structure</span></span>
+# <a name="op_policy_element_list-structure"></a><span data-ttu-id="7318d-103">OP_POLICY_ELEMENT_LIST 結構</span><span class="sxs-lookup"><span data-stu-id="7318d-103">OP_POLICY_ELEMENT_LIST structure</span></span>
 
-<span data-ttu-id="75ecc-104">定義根登錄機碼，以及要在該機碼下設定的登錄機碼元素陣列。</span><span class="sxs-lookup"><span data-stu-id="75ecc-104">Defines  a root registry key and an array of registry key elements to be configured under that key.</span></span>
+<span data-ttu-id="7318d-104">定義根登錄機碼，以及要在該機碼下設定的登錄機碼元素陣列。</span><span class="sxs-lookup"><span data-stu-id="7318d-104">Defines  a root registry key and an array of registry key elements to be configured under that key.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="75ecc-105">語法</span><span class="sxs-lookup"><span data-stu-id="75ecc-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7318d-105">語法</span><span class="sxs-lookup"><span data-stu-id="7318d-105">Syntax</span></span>
 
 ```C++
 typedef struct _OP_POLICY_ELEMENT_LIST
@@ -28,26 +28,26 @@ typedef struct _OP_POLICY_ELEMENT_LIST
 } OP_POLICY_ELEMENT_LIST, *POP_POLICY_ELEMENT_LIST;
 ```
 
-## <a name="members"></a><span data-ttu-id="75ecc-106">成員</span><span class="sxs-lookup"><span data-stu-id="75ecc-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="7318d-106">成員</span><span class="sxs-lookup"><span data-stu-id="7318d-106">Members</span></span>
 
-### <a name="psource"></a><span data-ttu-id="75ecc-107">pSource</span><span class="sxs-lookup"><span data-stu-id="75ecc-107">pSource</span></span>
+### <a name="psource"></a><span data-ttu-id="7318d-107">pSource</span><span class="sxs-lookup"><span data-stu-id="7318d-107">pSource</span></span>
 
-<span data-ttu-id="75ecc-108">包含所包含之元素來源群組原則檔案的路徑。</span><span class="sxs-lookup"><span data-stu-id="75ecc-108">Contains the path of the Group Policy file that the contained elements were sourced from.</span></span>
+<span data-ttu-id="7318d-108">包含所包含之元素來源群組原則檔案的路徑。</span><span class="sxs-lookup"><span data-stu-id="7318d-108">Contains the path of the Group Policy file that the contained elements were sourced from.</span></span>
 
-### <a name="ulrootkeyid"></a><span data-ttu-id="75ecc-109">ulRootKeyId</span><span class="sxs-lookup"><span data-stu-id="75ecc-109">ulRootKeyId</span></span>
+### <a name="ulrootkeyid"></a><span data-ttu-id="7318d-109">ulRootKeyId</span><span class="sxs-lookup"><span data-stu-id="7318d-109">ulRootKeyId</span></span>
 
-<span data-ttu-id="75ecc-110">包含根登錄機碼的識別碼;目前必須設定為 HKEY_LOCAL_MACHINE。</span><span class="sxs-lookup"><span data-stu-id="75ecc-110">Contains the identifier of the root registry key; currently must be set to HKEY_LOCAL_MACHINE.</span></span>
+<span data-ttu-id="7318d-110">包含根登錄機碼的識別碼;目前必須設定為 HKEY_LOCAL_MACHINE。</span><span class="sxs-lookup"><span data-stu-id="7318d-110">Contains the identifier of the root registry key; currently must be set to HKEY_LOCAL_MACHINE.</span></span>
 
-### <a name="celements"></a><span data-ttu-id="75ecc-111">cElements</span><span class="sxs-lookup"><span data-stu-id="75ecc-111">cElements</span></span>
+### <a name="celements"></a><span data-ttu-id="7318d-111">cElements</span><span class="sxs-lookup"><span data-stu-id="7318d-111">cElements</span></span>
 
-<span data-ttu-id="75ecc-112">包含 pElements 中的元素數目。</span><span class="sxs-lookup"><span data-stu-id="75ecc-112">Contains the number of elements in pElements.</span></span>
+<span data-ttu-id="7318d-112">包含 pElements 中的元素數目。</span><span class="sxs-lookup"><span data-stu-id="7318d-112">Contains the number of elements in pElements.</span></span>
 
-### <a name="pelements"></a><span data-ttu-id="75ecc-113">pElements</span><span class="sxs-lookup"><span data-stu-id="75ecc-113">pElements</span></span>
+### <a name="pelements"></a><span data-ttu-id="7318d-113">pElements</span><span class="sxs-lookup"><span data-stu-id="7318d-113">pElements</span></span>
 
-<span data-ttu-id="75ecc-114">包含 OP_POLICY_ELEMENT 元素的陣列。</span><span class="sxs-lookup"><span data-stu-id="75ecc-114">Contains an array of OP_POLICY_ELEMENT elements.</span></span>
+<span data-ttu-id="7318d-114">包含 OP_POLICY_ELEMENT 元素的陣列。</span><span class="sxs-lookup"><span data-stu-id="7318d-114">Contains an array of OP_POLICY_ELEMENT elements.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="75ecc-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="75ecc-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7318d-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7318d-115">See also</span></span>
 
-[<span data-ttu-id="75ecc-116">**離線網域加入 IDL 定義**</span><span class="sxs-lookup"><span data-stu-id="75ecc-116">**Offline Domain Join IDL Definitions**</span></span>](odj-idl.md)
+[<span data-ttu-id="7318d-116">**離線網域加入 IDL 定義**</span><span class="sxs-lookup"><span data-stu-id="7318d-116">**Offline Domain Join IDL Definitions**</span></span>](odj-idl.md)
 
-[<span data-ttu-id="75ecc-117">**OP \_ 原則 \_ 元素**</span><span class="sxs-lookup"><span data-stu-id="75ecc-117">**OP\_POLICY\_ELEMENT**</span></span>](odj-op_policy_element.md)
+[<span data-ttu-id="7318d-117">**OP \_ 原則 \_ 元素**</span><span class="sxs-lookup"><span data-stu-id="7318d-117">**OP\_POLICY\_ELEMENT**</span></span>](odj-op_policy_element.md)

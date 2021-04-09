@@ -1,0 +1,45 @@
+---
+description: .
+ms.assetid: 30be0468-1b4e-4650-a5d2-aa467d800ef7
+title: RecordedTV
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 1f3e4f555a54e38e4336fa026a1a7c8475fec672
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103943287"
+---
+# <a name="recordedtv"></a><span data-ttu-id="da286-103">RecordedTV</span><span class="sxs-lookup"><span data-stu-id="da286-103">RecordedTV</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="da286-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="da286-104">In this section</span></span>
+
+
+
+| <span data-ttu-id="da286-105">主題</span><span class="sxs-lookup"><span data-stu-id="da286-105">Topic</span></span>                                                                                                                      | <span data-ttu-id="da286-106">描述</span><span class="sxs-lookup"><span data-stu-id="da286-106">Description</span></span>                                                                                                                                                           |
+|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="da286-107">RecordedTV. ChannelNumber</span><span class="sxs-lookup"><span data-stu-id="da286-107">System.RecordedTV.ChannelNumber</span></span>](./props-system-recordedtv-channelnumber.md)<br/>                             | <span data-ttu-id="da286-108">錄製的電視頻道。</span><span class="sxs-lookup"><span data-stu-id="da286-108">The recorded TV channels.</span></span> <span data-ttu-id="da286-109">例如，42、5、53。</span><span class="sxs-lookup"><span data-stu-id="da286-109">For example, 42, 5, 53.</span></span><br/>                                                                                                          |
+| [<span data-ttu-id="da286-110">RecordedTV 點數</span><span class="sxs-lookup"><span data-stu-id="da286-110">System.RecordedTV.Credits</span></span>](./props-system-recordedtv-credits.md)<br/>                                         | <span data-ttu-id="da286-111">以下列格式指出程式的信用額度。</span><span class="sxs-lookup"><span data-stu-id="da286-111">Indicates the credits for the program, in the following format.</span></span> <span data-ttu-id="da286-112">"Actor1/Actor2/Actor3 ...;D irector1/Director2/Director3 ...;Host1/Host2.contoso.com/Host3 ...;GuestStar".</span><span class="sxs-lookup"><span data-stu-id="da286-112">"Actor1/Actor2/Actor3...;Director1/Director2/Director3...;Host1/Host2/Host3...;GuestStar".</span></span><br/> |
+| [<span data-ttu-id="da286-113">RecordedTV. DateContentExpires</span><span class="sxs-lookup"><span data-stu-id="da286-113">System.RecordedTV.DateContentExpires</span></span>](./props-system-recordedtv-datecontentexpires.md)<br/>                   |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-114">RecordedTV. EpisodeName</span><span class="sxs-lookup"><span data-stu-id="da286-114">System.RecordedTV.EpisodeName</span></span>](./props-system-recordedtv-episodename.md)<br/>                                 | <span data-ttu-id="da286-115">錄製的電視節目名稱。</span><span class="sxs-lookup"><span data-stu-id="da286-115">The names of recorded TV episodes.</span></span> <span data-ttu-id="da286-116">例如，「沒有地方可 Hyde」。</span><span class="sxs-lookup"><span data-stu-id="da286-116">For example, "Nowhere to Hyde".</span></span><br/>                                                                                         |
+| [<span data-ttu-id="da286-117">RecordedTV. IsATSCContent</span><span class="sxs-lookup"><span data-stu-id="da286-117">System.RecordedTV.IsATSCContent</span></span>](./props-system-recordedtv-isatsccontent.md)<br/>                             |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-118">RecordedTV. IsClosedCaptioningAvailable</span><span class="sxs-lookup"><span data-stu-id="da286-118">System.RecordedTV.IsClosedCaptioningAvailable</span></span>](./props-system-recordedtv-isclosedcaptioningavailable.md)<br/> |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-119">RecordedTV. IsDTVContent</span><span class="sxs-lookup"><span data-stu-id="da286-119">System.RecordedTV.IsDTVContent</span></span>](./props-system-recordedtv-isdtvcontent.md)<br/>                               |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-120">RecordedTV. IsHDContent</span><span class="sxs-lookup"><span data-stu-id="da286-120">System.RecordedTV.IsHDContent</span></span>](./props-system-recordedtv-ishdcontent.md)<br/>                                 |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-121">RecordedTV. IsRepeatBroadcast</span><span class="sxs-lookup"><span data-stu-id="da286-121">System.RecordedTV.IsRepeatBroadcast</span></span>](./props-system-recordedtv-isrepeatbroadcast.md)<br/>                     |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-122">RecordedTV. IsSAP</span><span class="sxs-lookup"><span data-stu-id="da286-122">System.RecordedTV.IsSAP</span></span>](./props-system-recordedtv-issap.md)<br/>                                             |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-123">RecordedTV. NetworkAffiliation</span><span class="sxs-lookup"><span data-stu-id="da286-123">System.RecordedTV.NetworkAffiliation</span></span>](./props-system-recordedtv-networkaffiliation.md)<br/>                   |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-124">RecordedTV. OriginalBroadcastDate</span><span class="sxs-lookup"><span data-stu-id="da286-124">System.RecordedTV.OriginalBroadcastDate</span></span>](./props-system-recordedtv-originalbroadcastdate.md)<br/>             |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-125">RecordedTV. ProgramDescription</span><span class="sxs-lookup"><span data-stu-id="da286-125">System.RecordedTV.ProgramDescription</span></span>](./props-system-recordedtv-programdescription.md)<br/>                   |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-126">RecordedTV. RecordingTime</span><span class="sxs-lookup"><span data-stu-id="da286-126">System.RecordedTV.RecordingTime</span></span>](./props-system-recordedtv-recordingtime.md)<br/>                             |                                                                                                                                                                       |
+| [<span data-ttu-id="da286-127">RecordedTV. StationCallSign</span><span class="sxs-lookup"><span data-stu-id="da286-127">System.RecordedTV.StationCallSign</span></span>](./props-system-recordedtv-stationcallsign.md)<br/>                         | <span data-ttu-id="da286-128">任何記錄的工作站通話符號。</span><span class="sxs-lookup"><span data-stu-id="da286-128">Any recorded station call signs.</span></span> <span data-ttu-id="da286-129">例如，"TOONP"。</span><span class="sxs-lookup"><span data-stu-id="da286-129">For example, "TOONP".</span></span><br/>                                                                                                     |
+| [<span data-ttu-id="da286-130">RecordedTV. StationName</span><span class="sxs-lookup"><span data-stu-id="da286-130">System.RecordedTV.StationName</span></span>](./props-system-recordedtv-stationname.md)<br/>                                 |                                                                                                                                                                       |
+
+
+
+ 
+
+ 
+
+ 

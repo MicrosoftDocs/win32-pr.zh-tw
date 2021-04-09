@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682646"
 ---
-# <a name="ivmparallelport-properties"></a><span data-ttu-id="221cf-103">IVMParallelPort 屬性</span><span class="sxs-lookup"><span data-stu-id="221cf-103">IVMParallelPort Properties</span></span>
+# <a name="ivmparallelport-properties"></a><span data-ttu-id="08f2c-103">IVMParallelPort 屬性</span><span class="sxs-lookup"><span data-stu-id="08f2c-103">IVMParallelPort Properties</span></span>
 
-<span data-ttu-id="221cf-104">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="221cf-104">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="221cf-105">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="221cf-105">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
+<span data-ttu-id="08f2c-104">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="08f2c-104">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="08f2c-105">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="08f2c-105">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
 
-<span data-ttu-id="221cf-106">[**IVMParallelPort**](ivmparallelport.md)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="221cf-106">The [**IVMParallelPort**](ivmparallelport.md) interface exposes the following properties.</span></span>
+<span data-ttu-id="08f2c-106">[**IVMParallelPort**](ivmparallelport.md)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="08f2c-106">The [**IVMParallelPort**](ivmparallelport.md) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="221cf-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="221cf-107">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="08f2c-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="08f2c-107">In this section</span></span>
 
--   [<span data-ttu-id="221cf-108">**Name 屬性**</span><span class="sxs-lookup"><span data-stu-id="221cf-108">**Name Property**</span></span>](ivmparallelport-name.md)
+-   [<span data-ttu-id="08f2c-108">**Name 屬性**</span><span class="sxs-lookup"><span data-stu-id="08f2c-108">**Name Property**</span></span>](ivmparallelport-name.md)
 
  
 

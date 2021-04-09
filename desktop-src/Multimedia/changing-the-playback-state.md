@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103682364"
 ---
-# <a name="changing-the-playback-state"></a><span data-ttu-id="a1ed2-103">變更播放狀態</span><span class="sxs-lookup"><span data-stu-id="a1ed2-103">Changing the Playback State</span></span>
+# <a name="changing-the-playback-state"></a><span data-ttu-id="8dc95-103">變更播放狀態</span><span class="sxs-lookup"><span data-stu-id="8dc95-103">Changing the Playback State</span></span>
 
-<span data-ttu-id="a1ed2-104">下列範例示範如何在 [**mciSendString**](/previous-versions//dd757161(v=vs.85))函式中使用 [**暫停**](pause.md)、[**繼續**](resume.md)、[**停止**](stop.md)和 [**搜尋**](seek.md)命令。</span><span class="sxs-lookup"><span data-stu-id="a1ed2-104">The following examples show how to use the [**pause**](pause.md), [**resume**](resume.md), [**stop**](stop.md), and [**seek**](seek.md) commands in the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function.</span></span>
+<span data-ttu-id="8dc95-104">下列範例示範如何在 [**mciSendString**](/previous-versions//dd757161(v=vs.85))函式中使用 [**暫停**](pause.md)、[**繼續**](resume.md)、[**停止**](stop.md)和 [**搜尋**](seek.md)命令。</span><span class="sxs-lookup"><span data-stu-id="8dc95-104">The following examples show how to use the [**pause**](pause.md), [**resume**](resume.md), [**stop**](stop.md), and [**seek**](seek.md) commands in the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function.</span></span>
 
 
 ```C++
@@ -35,7 +35,7 @@ mciSendString("seek movie to start", NULL, 0, NULL);
 
 
 
-<span data-ttu-id="a1ed2-105">下列範例顯示如何變更搜尋模式：</span><span class="sxs-lookup"><span data-stu-id="a1ed2-105">The following example shows how to change the seek mode:</span></span>
+<span data-ttu-id="8dc95-105">下列範例顯示如何變更搜尋模式：</span><span class="sxs-lookup"><span data-stu-id="8dc95-105">The following example shows how to change the seek mode:</span></span>
 
 
 ```C++

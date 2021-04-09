@@ -29,13 +29,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685719"
 ---
-# <a name="itsremoteprogram2remoteapplicationprogram-property"></a><span data-ttu-id="df40e-108">ITSRemoteProgram2：： RemoteApplicationProgram 屬性</span><span class="sxs-lookup"><span data-stu-id="df40e-108">ITSRemoteProgram2::RemoteApplicationProgram property</span></span>
+# <a name="itsremoteprogram2remoteapplicationprogram-property"></a><span data-ttu-id="71b2d-108">ITSRemoteProgram2：： RemoteApplicationProgram 屬性</span><span class="sxs-lookup"><span data-stu-id="71b2d-108">ITSRemoteProgram2::RemoteApplicationProgram property</span></span>
 
-<span data-ttu-id="df40e-109">RemoteApp 程式的路徑和檔案名。</span><span class="sxs-lookup"><span data-stu-id="df40e-109">The path and file name of the RemoteApp program.</span></span>
+<span data-ttu-id="71b2d-109">RemoteApp 程式的路徑和檔案名。</span><span class="sxs-lookup"><span data-stu-id="71b2d-109">The path and file name of the RemoteApp program.</span></span>
 
-<span data-ttu-id="df40e-110">此屬性是唯寫的。</span><span class="sxs-lookup"><span data-stu-id="df40e-110">This property is write-only.</span></span>
+<span data-ttu-id="71b2d-110">此屬性是唯寫的。</span><span class="sxs-lookup"><span data-stu-id="71b2d-110">This property is write-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="df40e-111">Syntax</span><span class="sxs-lookup"><span data-stu-id="df40e-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="71b2d-111">Syntax</span><span class="sxs-lookup"><span data-stu-id="71b2d-111">Syntax</span></span>
 
 
 ```C++
@@ -46,31 +46,31 @@ HRESULT put_RemoteApplicationProgram(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="df40e-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="df40e-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="71b2d-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="71b2d-112">Property value</span></span>
 
-<span data-ttu-id="df40e-113">RemoteApp 程式的路徑和檔案名。</span><span class="sxs-lookup"><span data-stu-id="df40e-113">The path and file name of the RemoteApp program.</span></span>
+<span data-ttu-id="71b2d-113">RemoteApp 程式的路徑和檔案名。</span><span class="sxs-lookup"><span data-stu-id="71b2d-113">The path and file name of the RemoteApp program.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="df40e-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="df40e-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="71b2d-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="71b2d-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="df40e-115">需求</span><span class="sxs-lookup"><span data-stu-id="df40e-115">Requirement</span></span> | <span data-ttu-id="df40e-116">值</span><span class="sxs-lookup"><span data-stu-id="df40e-116">Value</span></span> |
+| <span data-ttu-id="71b2d-115">需求</span><span class="sxs-lookup"><span data-stu-id="71b2d-115">Requirement</span></span> | <span data-ttu-id="71b2d-116">值</span><span class="sxs-lookup"><span data-stu-id="71b2d-116">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="df40e-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="df40e-117">Minimum supported client</span></span><br/> | <span data-ttu-id="df40e-118">Windows 7</span><span class="sxs-lookup"><span data-stu-id="df40e-118">Windows 7</span></span><br/>                                                                   |
-| <span data-ttu-id="df40e-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="df40e-119">Minimum supported server</span></span><br/> | <span data-ttu-id="df40e-120">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="df40e-120">Windows Server 2008</span></span><br/>                                                         |
-| <span data-ttu-id="df40e-121">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="df40e-121">Type library</span></span><br/>             | <dl> <span data-ttu-id="df40e-122"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="df40e-122"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="df40e-123">DLL</span><span class="sxs-lookup"><span data-stu-id="df40e-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="df40e-124"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="df40e-124"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="71b2d-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="71b2d-117">Minimum supported client</span></span><br/> | <span data-ttu-id="71b2d-118">Windows 7</span><span class="sxs-lookup"><span data-stu-id="71b2d-118">Windows 7</span></span><br/>                                                                   |
+| <span data-ttu-id="71b2d-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="71b2d-119">Minimum supported server</span></span><br/> | <span data-ttu-id="71b2d-120">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="71b2d-120">Windows Server 2008</span></span><br/>                                                         |
+| <span data-ttu-id="71b2d-121">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="71b2d-121">Type library</span></span><br/>             | <dl> <span data-ttu-id="71b2d-122"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="71b2d-122"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="71b2d-123">DLL</span><span class="sxs-lookup"><span data-stu-id="71b2d-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="71b2d-124"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="71b2d-124"><dt>MsTscAx.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="df40e-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="df40e-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="71b2d-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="71b2d-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="df40e-126">**ITSRemoteProgram3**</span><span class="sxs-lookup"><span data-stu-id="df40e-126">**ITSRemoteProgram3**</span></span>](itsremoteprogram3.md)
+[<span data-ttu-id="71b2d-126">**ITSRemoteProgram3**</span><span class="sxs-lookup"><span data-stu-id="71b2d-126">**ITSRemoteProgram3**</span></span>](itsremoteprogram3.md)
 </dt> <dt>
 
-[<span data-ttu-id="df40e-127">**ITSRemoteProgram2**</span><span class="sxs-lookup"><span data-stu-id="df40e-127">**ITSRemoteProgram2**</span></span>](itsremoteprogram2.md)
+[<span data-ttu-id="71b2d-127">**ITSRemoteProgram2**</span><span class="sxs-lookup"><span data-stu-id="71b2d-127">**ITSRemoteProgram2**</span></span>](itsremoteprogram2.md)
 </dt> </dl>
 
  

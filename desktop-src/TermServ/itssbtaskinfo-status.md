@@ -25,13 +25,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685860"
 ---
-# <a name="itssbtaskinfostatus-property"></a><span data-ttu-id="49209-106">ITsSbTaskInfo：： Status 屬性</span><span class="sxs-lookup"><span data-stu-id="49209-106">ITsSbTaskInfo::Status property</span></span>
+# <a name="itssbtaskinfostatus-property"></a><span data-ttu-id="dcd0f-106">ITsSbTaskInfo：： Status 屬性</span><span class="sxs-lookup"><span data-stu-id="dcd0f-106">ITsSbTaskInfo::Status property</span></span>
 
-<span data-ttu-id="49209-107">抓取 [**RDV 工作 \_ \_ 狀態**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) 列舉值，這個值表示工作的狀態。</span><span class="sxs-lookup"><span data-stu-id="49209-107">Retrieves an [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) enumeration value that represents the state of the task.</span></span>
+<span data-ttu-id="dcd0f-107">抓取 [**RDV 工作 \_ \_ 狀態**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) 列舉值，這個值表示工作的狀態。</span><span class="sxs-lookup"><span data-stu-id="dcd0f-107">Retrieves an [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) enumeration value that represents the state of the task.</span></span>
 
-<span data-ttu-id="49209-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="49209-108">This property is read-only.</span></span>
+<span data-ttu-id="dcd0f-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="dcd0f-108">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="49209-109">語法</span><span class="sxs-lookup"><span data-stu-id="49209-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dcd0f-109">語法</span><span class="sxs-lookup"><span data-stu-id="dcd0f-109">Syntax</span></span>
 
 
 ```C++
@@ -42,27 +42,27 @@ HRESULT get_Status(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="49209-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="49209-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="dcd0f-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="dcd0f-110">Property value</span></span>
 
-<span data-ttu-id="49209-111">[**RDV 工作 \_ \_ 狀態**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status)列舉值，表示工作的狀態。</span><span class="sxs-lookup"><span data-stu-id="49209-111">An [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) enumeration value that represents the state of the task.</span></span>
+<span data-ttu-id="dcd0f-111">[**RDV 工作 \_ \_ 狀態**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status)列舉值，表示工作的狀態。</span><span class="sxs-lookup"><span data-stu-id="dcd0f-111">An [**RDV\_TASK\_STATUS**](/windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status) enumeration value that represents the state of the task.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="49209-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="49209-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="dcd0f-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="dcd0f-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="49209-113">需求</span><span class="sxs-lookup"><span data-stu-id="49209-113">Requirement</span></span> | <span data-ttu-id="49209-114">值</span><span class="sxs-lookup"><span data-stu-id="49209-114">Value</span></span> |
+| <span data-ttu-id="dcd0f-113">需求</span><span class="sxs-lookup"><span data-stu-id="dcd0f-113">Requirement</span></span> | <span data-ttu-id="dcd0f-114">值</span><span class="sxs-lookup"><span data-stu-id="dcd0f-114">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="49209-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="49209-115">Minimum supported client</span></span><br/> | <span data-ttu-id="49209-116">都不支援</span><span class="sxs-lookup"><span data-stu-id="49209-116">None supported</span></span><br/>                                                            |
-| <span data-ttu-id="49209-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="49209-117">Minimum supported server</span></span><br/> | <span data-ttu-id="49209-118">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="49209-118">Windows Server 2012</span></span><br/>                                                       |
-| <span data-ttu-id="49209-119">Idl</span><span class="sxs-lookup"><span data-stu-id="49209-119">IDL</span></span><br/>                      | <dl> <span data-ttu-id="49209-120"><dt>Sbtsv .idl</dt></span><span class="sxs-lookup"><span data-stu-id="49209-120"><dt>Sbtsv.idl</dt></span></span> </dl> |
+| <span data-ttu-id="dcd0f-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="dcd0f-115">Minimum supported client</span></span><br/> | <span data-ttu-id="dcd0f-116">都不支援</span><span class="sxs-lookup"><span data-stu-id="dcd0f-116">None supported</span></span><br/>                                                            |
+| <span data-ttu-id="dcd0f-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="dcd0f-117">Minimum supported server</span></span><br/> | <span data-ttu-id="dcd0f-118">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="dcd0f-118">Windows Server 2012</span></span><br/>                                                       |
+| <span data-ttu-id="dcd0f-119">Idl</span><span class="sxs-lookup"><span data-stu-id="dcd0f-119">IDL</span></span><br/>                      | <dl> <span data-ttu-id="dcd0f-120"><dt>Sbtsv .idl</dt></span><span class="sxs-lookup"><span data-stu-id="dcd0f-120"><dt>Sbtsv.idl</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="49209-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="49209-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dcd0f-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dcd0f-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="49209-122">**ITsSbTaskInfo**</span><span class="sxs-lookup"><span data-stu-id="49209-122">**ITsSbTaskInfo**</span></span>](/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo)
+[<span data-ttu-id="dcd0f-122">**ITsSbTaskInfo**</span><span class="sxs-lookup"><span data-stu-id="dcd0f-122">**ITsSbTaskInfo**</span></span>](/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo)
 </dt> </dl>
 
  

@@ -19,24 +19,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/20/2020
 ms.locfileid: "104024285"
 ---
-# <a name="input-feedback-configuration"></a><span data-ttu-id="7bd50-111">輸入意見設定</span><span class="sxs-lookup"><span data-stu-id="7bd50-111">Input Feedback Configuration</span></span>
+# <a name="input-feedback-configuration"></a><span data-ttu-id="c2ad1-111">輸入意見設定</span><span class="sxs-lookup"><span data-stu-id="c2ad1-111">Input Feedback Configuration</span></span>
 
-## <a name="purpose"></a><span data-ttu-id="7bd50-112">目的</span><span class="sxs-lookup"><span data-stu-id="7bd50-112">Purpose</span></span>
+## <a name="purpose"></a><span data-ttu-id="c2ad1-112">目的</span><span class="sxs-lookup"><span data-stu-id="c2ad1-112">Purpose</span></span>
 
-<span data-ttu-id="7bd50-113">本節中的主題提供 Windows 8 中輸入意見反應設定的總覽。</span><span class="sxs-lookup"><span data-stu-id="7bd50-113">The topics in this section provide an overview of Input Feedback Configuration in Windows 8.</span></span> <span data-ttu-id="7bd50-114">輸入回饋設定可讓您存取視覺效果的意見反應設定以進行使用者互動。</span><span class="sxs-lookup"><span data-stu-id="7bd50-114">Input Feedback Configuration provides access to visual feedback settings for user interactions.</span></span>
+<span data-ttu-id="c2ad1-113">本節中的主題提供 Windows 8 中輸入意見反應設定的總覽。</span><span class="sxs-lookup"><span data-stu-id="c2ad1-113">The topics in this section provide an overview of Input Feedback Configuration in Windows 8.</span></span> <span data-ttu-id="c2ad1-114">輸入回饋設定可讓您存取視覺效果的意見反應設定以進行使用者互動。</span><span class="sxs-lookup"><span data-stu-id="c2ad1-114">Input Feedback Configuration provides access to visual feedback settings for user interactions.</span></span>
 
-<span data-ttu-id="7bd50-115">此處提供的主題集合說明如何使用輸入意見反應設定來優化應用程式的使用者體驗。</span><span class="sxs-lookup"><span data-stu-id="7bd50-115">The collection of topics provided here describe how to use Input Feedback Configuration to optimize the user experience of your app.</span></span> <span data-ttu-id="7bd50-116">例如，在遊戲應用程式中，可能不需要或不想要使用預設的視覺效果回饋設定，因為干擾或與遊戲本身發生衝突。</span><span class="sxs-lookup"><span data-stu-id="7bd50-116">For example, default visual feedback settings might not be necessary, or desirable, in a game app because of interference or conflicts with the gameplay itself.</span></span>
+<span data-ttu-id="c2ad1-115">此處提供的主題集合說明如何使用輸入意見反應設定來優化應用程式的使用者體驗。</span><span class="sxs-lookup"><span data-stu-id="c2ad1-115">The collection of topics provided here describe how to use Input Feedback Configuration to optimize the user experience of your app.</span></span> <span data-ttu-id="c2ad1-116">例如，在遊戲應用程式中，可能不需要或不想要使用預設的視覺效果回饋設定，因為干擾或與遊戲本身發生衝突。</span><span class="sxs-lookup"><span data-stu-id="c2ad1-116">For example, default visual feedback settings might not be necessary, or desirable, in a game app because of interference or conflicts with the gameplay itself.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="7bd50-117">本節內容</span><span class="sxs-lookup"><span data-stu-id="7bd50-117">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c2ad1-117">本節內容</span><span class="sxs-lookup"><span data-stu-id="c2ad1-117">In this section</span></span>
 
-| <span data-ttu-id="7bd50-118">主題</span><span class="sxs-lookup"><span data-stu-id="7bd50-118">Topic</span></span> | <span data-ttu-id="7bd50-119">描述</span><span class="sxs-lookup"><span data-stu-id="7bd50-119">Description</span></span> |
+| <span data-ttu-id="c2ad1-118">主題</span><span class="sxs-lookup"><span data-stu-id="c2ad1-118">Topic</span></span> | <span data-ttu-id="c2ad1-119">描述</span><span class="sxs-lookup"><span data-stu-id="c2ad1-119">Description</span></span> |
 |---|---|
-| [<span data-ttu-id="7bd50-120">輸入意見反應設定參考</span><span class="sxs-lookup"><span data-stu-id="7bd50-120">Input Feedback Configuration Reference</span></span>](input-feedback-configuration-reference.md)<br/> | <span data-ttu-id="7bd50-121">本節中的主題提供輸入意見反應設定的參考規格。</span><span class="sxs-lookup"><span data-stu-id="7bd50-121">The topics in this section provide the reference specifications for Input Feedback Configuration.</span></span><br/> |
+| [<span data-ttu-id="c2ad1-120">輸入意見反應設定參考</span><span class="sxs-lookup"><span data-stu-id="c2ad1-120">Input Feedback Configuration Reference</span></span>](input-feedback-configuration-reference.md)<br/> | <span data-ttu-id="c2ad1-121">本節中的主題提供輸入意見反應設定的參考規格。</span><span class="sxs-lookup"><span data-stu-id="c2ad1-121">The topics in this section provide the reference specifications for Input Feedback Configuration.</span></span><br/> |
 
-## <a name="developer-audience"></a><span data-ttu-id="7bd50-122">開發人員對象</span><span class="sxs-lookup"><span data-stu-id="7bd50-122">Developer audience</span></span>
+## <a name="developer-audience"></a><span data-ttu-id="c2ad1-122">開發人員對象</span><span class="sxs-lookup"><span data-stu-id="c2ad1-122">Developer audience</span></span>
 
-<span data-ttu-id="7bd50-123">輸入意見反應 ConfigurationAPIs 是針對建立 UI 架構的開發人員所設計，可在桌面應用程式之間提供一致的觸控優化使用者體驗。</span><span class="sxs-lookup"><span data-stu-id="7bd50-123">The Input Feedback ConfigurationAPIs are designed for developers who are building UI frameworks that provide a consistent touch-optimized user experience across desktop applications.</span></span>
+<span data-ttu-id="c2ad1-123">輸入意見反應 ConfigurationAPIs 是針對建立 UI 架構的開發人員所設計，可在桌面應用程式之間提供一致的觸控優化使用者體驗。</span><span class="sxs-lookup"><span data-stu-id="c2ad1-123">The Input Feedback ConfigurationAPIs are designed for developers who are building UI frameworks that provide a consistent touch-optimized user experience across desktop applications.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="7bd50-124">相關主題</span><span class="sxs-lookup"><span data-stu-id="7bd50-124">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c2ad1-124">相關主題</span><span class="sxs-lookup"><span data-stu-id="c2ad1-124">Related topics</span></span>
 
-<span data-ttu-id="7bd50-125">[使用者互動](../user-interaction.md)， [SystemParametersInfo](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)</span><span class="sxs-lookup"><span data-stu-id="7bd50-125">[User Interaction](../user-interaction.md), [SystemParametersInfo](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)</span></span>
+<span data-ttu-id="c2ad1-125">[使用者互動](../user-interaction.md)， [SystemParametersInfo](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)</span><span class="sxs-lookup"><span data-stu-id="c2ad1-125">[User Interaction](../user-interaction.md), [SystemParametersInfo](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)</span></span>

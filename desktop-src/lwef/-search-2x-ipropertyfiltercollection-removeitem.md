@@ -24,16 +24,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686114"
 ---
-# <a name="ipropertyfiltercollectionremoveitem-property"></a><span data-ttu-id="5276d-106">IPropertyFilterCollection：： RemoveItem 屬性</span><span class="sxs-lookup"><span data-stu-id="5276d-106">IPropertyFilterCollection::RemoveItem property</span></span>
+# <a name="ipropertyfiltercollectionremoveitem-property"></a><span data-ttu-id="b161e-106">IPropertyFilterCollection：： RemoveItem 屬性</span><span class="sxs-lookup"><span data-stu-id="b161e-106">IPropertyFilterCollection::RemoveItem property</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5276d-107">Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。</span><span class="sxs-lookup"><span data-stu-id="5276d-107">Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003.</span></span> <span data-ttu-id="5276d-108">在更新版本中，請改用 [WINDOWS SEARCH API](../search/-search-reference-entry-page.md) 。</span><span class="sxs-lookup"><span data-stu-id="5276d-108">On later releases, use the [Windows Search API](../search/-search-reference-entry-page.md) instead.</span></span> 
+> <span data-ttu-id="b161e-107">Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。</span><span class="sxs-lookup"><span data-stu-id="b161e-107">Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003.</span></span> <span data-ttu-id="b161e-108">在更新版本中，請改用 [WINDOWS SEARCH API](../search/-search-reference-entry-page.md) 。</span><span class="sxs-lookup"><span data-stu-id="b161e-108">On later releases, use the [Windows Search API](../search/-search-reference-entry-page.md) instead.</span></span> 
 
-<span data-ttu-id="5276d-109">移除集合中的特定篩選。</span><span class="sxs-lookup"><span data-stu-id="5276d-109">Removes a specific filter to the collection.</span></span>
+<span data-ttu-id="b161e-109">移除集合中的特定篩選。</span><span class="sxs-lookup"><span data-stu-id="b161e-109">Removes a specific filter to the collection.</span></span>
 
-<span data-ttu-id="5276d-110">此屬性是唯寫的。</span><span class="sxs-lookup"><span data-stu-id="5276d-110">This property is write-only.</span></span>
+<span data-ttu-id="b161e-110">此屬性是唯寫的。</span><span class="sxs-lookup"><span data-stu-id="b161e-110">This property is write-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5276d-111">Syntax</span><span class="sxs-lookup"><span data-stu-id="5276d-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b161e-111">Syntax</span><span class="sxs-lookup"><span data-stu-id="b161e-111">Syntax</span></span>
 
 
 ```C++
@@ -44,20 +44,20 @@ HRESULT put_RemoveItem(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="5276d-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="5276d-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="b161e-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="b161e-112">Property value</span></span>
 
-<span data-ttu-id="5276d-113">接受要移除之篩選的索引指標。</span><span class="sxs-lookup"><span data-stu-id="5276d-113">Accepts a pointer to the index for the filter to be removed.</span></span>
+<span data-ttu-id="b161e-113">接受要移除之篩選的索引指標。</span><span class="sxs-lookup"><span data-stu-id="b161e-113">Accepts a pointer to the index for the filter to be removed.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="5276d-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="5276d-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b161e-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="b161e-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="5276d-115">需求</span><span class="sxs-lookup"><span data-stu-id="5276d-115">Requirement</span></span> | <span data-ttu-id="5276d-116">值</span><span class="sxs-lookup"><span data-stu-id="5276d-116">Value</span></span> |
+| <span data-ttu-id="b161e-115">需求</span><span class="sxs-lookup"><span data-stu-id="b161e-115">Requirement</span></span> | <span data-ttu-id="b161e-116">值</span><span class="sxs-lookup"><span data-stu-id="b161e-116">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| <span data-ttu-id="5276d-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5276d-117">Minimum supported client</span></span><br/> | <span data-ttu-id="5276d-118">僅限 Windows XP （含 SP2） \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5276d-118">Windows XP with SP2 \[desktop apps only\]</span></span><br/>                                      |
-| <span data-ttu-id="5276d-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5276d-119">Minimum supported server</span></span><br/> | <span data-ttu-id="5276d-120">僅限 Windows Server 2003 與 SP1 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5276d-120">Windows Server 2003 with SP1 \[desktop apps only\]</span></span><br/>                             |
-| <span data-ttu-id="5276d-121">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="5276d-121">Redistributable</span></span><br/>          | <span data-ttu-id="5276d-122">Windows 桌面搜尋 (WDS) 2.6。5</span><span class="sxs-lookup"><span data-stu-id="5276d-122">Windows Desktop Search (WDS) 2.6.5</span></span><br/>                                             |
-| <span data-ttu-id="5276d-123">標頭</span><span class="sxs-lookup"><span data-stu-id="5276d-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="5276d-124"><dt>WdsSharedIDL。h</dt></span><span class="sxs-lookup"><span data-stu-id="5276d-124"><dt>WdsSharedIDL.h</dt></span></span> </dl> |
+| <span data-ttu-id="b161e-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b161e-117">Minimum supported client</span></span><br/> | <span data-ttu-id="b161e-118">僅限 Windows XP （含 SP2） \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b161e-118">Windows XP with SP2 \[desktop apps only\]</span></span><br/>                                      |
+| <span data-ttu-id="b161e-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b161e-119">Minimum supported server</span></span><br/> | <span data-ttu-id="b161e-120">僅限 Windows Server 2003 與 SP1 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b161e-120">Windows Server 2003 with SP1 \[desktop apps only\]</span></span><br/>                             |
+| <span data-ttu-id="b161e-121">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="b161e-121">Redistributable</span></span><br/>          | <span data-ttu-id="b161e-122">Windows 桌面搜尋 (WDS) 2.6。5</span><span class="sxs-lookup"><span data-stu-id="b161e-122">Windows Desktop Search (WDS) 2.6.5</span></span><br/>                                             |
+| <span data-ttu-id="b161e-123">標頭</span><span class="sxs-lookup"><span data-stu-id="b161e-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="b161e-124"><dt>WdsSharedIDL。h</dt></span><span class="sxs-lookup"><span data-stu-id="b161e-124"><dt>WdsSharedIDL.h</dt></span></span> </dl> |
 
 
 

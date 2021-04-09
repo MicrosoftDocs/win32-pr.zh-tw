@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686223"
 ---
-# <a name="maintenancesettingstype-complex-type"></a><span data-ttu-id="1cad9-104">maintenanceSettingsType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="1cad9-104">maintenanceSettingsType Complex Type</span></span>
+# <a name="maintenancesettingstype-complex-type"></a><span data-ttu-id="2fdd1-104">maintenanceSettingsType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="2fdd1-104">maintenanceSettingsType Complex Type</span></span>
 
-<span data-ttu-id="1cad9-105">定義 [**MaintenanceSettings**](taskschedulerschema-maintenancesettings-maintenancesettingstype-element.md) 元素的子項目和排序資訊。</span><span class="sxs-lookup"><span data-stu-id="1cad9-105">Defines the child elements and sequencing information for the [**MaintenanceSettings**](taskschedulerschema-maintenancesettings-maintenancesettingstype-element.md) element.</span></span>
+<span data-ttu-id="2fdd1-105">定義 [**MaintenanceSettings**](taskschedulerschema-maintenancesettings-maintenancesettingstype-element.md) 元素的子項目和排序資訊。</span><span class="sxs-lookup"><span data-stu-id="2fdd1-105">Defines the child elements and sequencing information for the [**MaintenanceSettings**](taskschedulerschema-maintenancesettings-maintenancesettingstype-element.md) element.</span></span>
 
 ``` syntax
 <xs:complexType name="maintenanceSettingsType">
@@ -64,37 +64,37 @@ ms.locfileid: "103686223"
 </xs:complexType>
 ```
 
-## <a name="child-elements"></a><span data-ttu-id="1cad9-106">子元素</span><span class="sxs-lookup"><span data-stu-id="1cad9-106">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="2fdd1-106">子元素</span><span class="sxs-lookup"><span data-stu-id="2fdd1-106">Child elements</span></span>
 
 
 
-| <span data-ttu-id="1cad9-107">元素</span><span class="sxs-lookup"><span data-stu-id="1cad9-107">Element</span></span>                                                                        | <span data-ttu-id="1cad9-108">類型</span><span class="sxs-lookup"><span data-stu-id="1cad9-108">Type</span></span>    | <span data-ttu-id="1cad9-109">Description</span><span class="sxs-lookup"><span data-stu-id="1cad9-109">Description</span></span>                                                                                                                                                                                    |
+| <span data-ttu-id="2fdd1-107">元素</span><span class="sxs-lookup"><span data-stu-id="2fdd1-107">Element</span></span>                                                                        | <span data-ttu-id="2fdd1-108">類型</span><span class="sxs-lookup"><span data-stu-id="2fdd1-108">Type</span></span>    | <span data-ttu-id="2fdd1-109">Description</span><span class="sxs-lookup"><span data-stu-id="2fdd1-109">Description</span></span>                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="1cad9-110">**期限**</span><span class="sxs-lookup"><span data-stu-id="1cad9-110">**Deadline**</span></span>](taskschedulerschema-daysinterval-dailyscheduletype-element.md) |         | <span data-ttu-id="1cad9-111">指定當工作排程器在正常維護期間無法完成時，在緊急自動維護期間，工作排程器將嘗試啟動工作的時間量。</span><span class="sxs-lookup"><span data-stu-id="1cad9-111">Specifies the amount of time after which the Task scheduler will attempt to start task during emergency Automatic maintenance, if it failed to complete during regular maintenance.</span></span><br/> |
-| <span data-ttu-id="1cad9-112">**排除**</span><span class="sxs-lookup"><span data-stu-id="1cad9-112">**Exclusive**</span></span>                                                                  | <span data-ttu-id="1cad9-113">boolean</span><span class="sxs-lookup"><span data-stu-id="1cad9-113">boolean</span></span> | <span data-ttu-id="1cad9-114">如果設定為 true，則工作將會在其他維護工作中以獨佔方式啟動。</span><span class="sxs-lookup"><span data-stu-id="1cad9-114">If set to true, the task will be started exclusively among other maintenance tasks.</span></span><br/>                                                                                                 |
-| [<span data-ttu-id="1cad9-115">**期間**</span><span class="sxs-lookup"><span data-stu-id="1cad9-115">**Period**</span></span>](taskschedulerschema-daysinterval-dailyscheduletype-element.md)   |         | <span data-ttu-id="1cad9-116">指定在自動維護期間必須啟動工作的頻率。</span><span class="sxs-lookup"><span data-stu-id="1cad9-116">Specifies how often the task needs to be started during Automatic maintenance.</span></span><br/>                                                                                                      |
+| [<span data-ttu-id="2fdd1-110">**期限**</span><span class="sxs-lookup"><span data-stu-id="2fdd1-110">**Deadline**</span></span>](taskschedulerschema-daysinterval-dailyscheduletype-element.md) |         | <span data-ttu-id="2fdd1-111">指定當工作排程器在正常維護期間無法完成時，在緊急自動維護期間，工作排程器將嘗試啟動工作的時間量。</span><span class="sxs-lookup"><span data-stu-id="2fdd1-111">Specifies the amount of time after which the Task scheduler will attempt to start task during emergency Automatic maintenance, if it failed to complete during regular maintenance.</span></span><br/> |
+| <span data-ttu-id="2fdd1-112">**排除**</span><span class="sxs-lookup"><span data-stu-id="2fdd1-112">**Exclusive**</span></span>                                                                  | <span data-ttu-id="2fdd1-113">boolean</span><span class="sxs-lookup"><span data-stu-id="2fdd1-113">boolean</span></span> | <span data-ttu-id="2fdd1-114">如果設定為 true，則工作將會在其他維護工作中以獨佔方式啟動。</span><span class="sxs-lookup"><span data-stu-id="2fdd1-114">If set to true, the task will be started exclusively among other maintenance tasks.</span></span><br/>                                                                                                 |
+| [<span data-ttu-id="2fdd1-115">**期間**</span><span class="sxs-lookup"><span data-stu-id="2fdd1-115">**Period**</span></span>](taskschedulerschema-daysinterval-dailyscheduletype-element.md)   |         | <span data-ttu-id="2fdd1-116">指定在自動維護期間必須啟動工作的頻率。</span><span class="sxs-lookup"><span data-stu-id="2fdd1-116">Specifies how often the task needs to be started during Automatic maintenance.</span></span><br/>                                                                                                      |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="1cad9-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="1cad9-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2fdd1-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="2fdd1-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="1cad9-118">需求</span><span class="sxs-lookup"><span data-stu-id="1cad9-118">Requirement</span></span> | <span data-ttu-id="1cad9-119">值</span><span class="sxs-lookup"><span data-stu-id="1cad9-119">Value</span></span> |
+| <span data-ttu-id="2fdd1-118">需求</span><span class="sxs-lookup"><span data-stu-id="2fdd1-118">Requirement</span></span> | <span data-ttu-id="2fdd1-119">值</span><span class="sxs-lookup"><span data-stu-id="2fdd1-119">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="1cad9-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1cad9-120">Minimum supported client</span></span><br/> | <span data-ttu-id="1cad9-121">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1cad9-121">Windows 8 \[desktop apps only\]</span></span><br/>           |
-| <span data-ttu-id="1cad9-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1cad9-122">Minimum supported server</span></span><br/> | <span data-ttu-id="1cad9-123">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1cad9-123">Windows Server 2012 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="2fdd1-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2fdd1-120">Minimum supported client</span></span><br/> | <span data-ttu-id="2fdd1-121">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2fdd1-121">Windows 8 \[desktop apps only\]</span></span><br/>           |
+| <span data-ttu-id="2fdd1-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2fdd1-122">Minimum supported server</span></span><br/> | <span data-ttu-id="2fdd1-123">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2fdd1-123">Windows Server 2012 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="1cad9-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1cad9-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2fdd1-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2fdd1-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="1cad9-125">工作排程器架構複雜類型</span><span class="sxs-lookup"><span data-stu-id="1cad9-125">Task Scheduler Schema Complex Types</span></span>](task-scheduler-schema-complex-types.md)
+[<span data-ttu-id="2fdd1-125">工作排程器架構複雜類型</span><span class="sxs-lookup"><span data-stu-id="2fdd1-125">Task Scheduler Schema Complex Types</span></span>](task-scheduler-schema-complex-types.md)
 </dt> <dt>
 
-[<span data-ttu-id="1cad9-126">工作排程器</span><span class="sxs-lookup"><span data-stu-id="1cad9-126">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="2fdd1-126">工作排程器</span><span class="sxs-lookup"><span data-stu-id="2fdd1-126">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> </dl>
 
  

@@ -16,13 +16,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/25/2020
 ms.locfileid: "104024211"
 ---
-# <a name="windows-touch-scratchpad-sample-c"></a><span data-ttu-id="faeed-107">Windows Touch (的 c # 範例 ) </span><span class="sxs-lookup"><span data-stu-id="faeed-107">Windows Touch Scratchpad Sample (C#)</span></span>
+# <a name="windows-touch-scratchpad-sample-c"></a><span data-ttu-id="f99ad-107">Windows Touch (的 c # 範例 ) </span><span class="sxs-lookup"><span data-stu-id="f99ad-107">Windows Touch Scratchpad Sample (C#)</span></span>
 
-<span data-ttu-id="faeed-108">[C # 中的 Windows Touch 便箋範例會示範](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS)如何使用 Windows Touch 的訊息，將觸控點的追蹤繪製至視窗。</span><span class="sxs-lookup"><span data-stu-id="faeed-108">The [Windows Touch Scratchpad sample in C#](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS) shows how to use Windows Touch messages to draw traces of the touch points to a window.</span></span> <span data-ttu-id="faeed-109">主要手指的追蹤（先放在數位板上）會以黑色繪製。</span><span class="sxs-lookup"><span data-stu-id="faeed-109">The trace of the primary finger, the one that was put on the digitizer first, is drawn in black.</span></span> <span data-ttu-id="faeed-110">次要手指會以六種其他色彩繪製：紅色、綠色、藍色、青色、洋紅和黃色。</span><span class="sxs-lookup"><span data-stu-id="faeed-110">Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow.</span></span> <span data-ttu-id="faeed-111">下圖顯示應用程式執行時的外觀。</span><span class="sxs-lookup"><span data-stu-id="faeed-111">The following image shows how the application could look when it runs.</span></span>
+<span data-ttu-id="f99ad-108">[C # 中的 Windows Touch 便箋範例會示範](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS)如何使用 Windows Touch 的訊息，將觸控點的追蹤繪製至視窗。</span><span class="sxs-lookup"><span data-stu-id="f99ad-108">The [Windows Touch Scratchpad sample in C#](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS) shows how to use Windows Touch messages to draw traces of the touch points to a window.</span></span> <span data-ttu-id="f99ad-109">主要手指的追蹤（先放在數位板上）會以黑色繪製。</span><span class="sxs-lookup"><span data-stu-id="f99ad-109">The trace of the primary finger, the one that was put on the digitizer first, is drawn in black.</span></span> <span data-ttu-id="f99ad-110">次要手指會以六種其他色彩繪製：紅色、綠色、藍色、青色、洋紅和黃色。</span><span class="sxs-lookup"><span data-stu-id="f99ad-110">Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow.</span></span> <span data-ttu-id="f99ad-111">下圖顯示應用程式執行時的外觀。</span><span class="sxs-lookup"><span data-stu-id="f99ad-111">The following image shows how the application could look when it runs.</span></span>
 
 ![螢幕擷取畫面，顯示在螢幕上以紅色、綠色、藍色和紅色波浪線表示的 windows 觸控式攝影者範例](images/mtscratchpadwmtouchcs.png)
 
-<span data-ttu-id="faeed-113">在此範例中，會建立可觸式表單來處理 [**WM_TOUCH**](wm-touchdown.md) 的訊息。</span><span class="sxs-lookup"><span data-stu-id="faeed-113">For this sample, a touchable form is created to handle [**WM_TOUCH**](wm-touchdown.md) messages.</span></span> <span data-ttu-id="faeed-114">這種表單是繼承的，可啟用 [便箋] 應用程式上的 Windows Touch。</span><span class="sxs-lookup"><span data-stu-id="faeed-114">This form is inherited to enable Windows Touch on the scratchpad application.</span></span> <span data-ttu-id="faeed-115">當 **WM_TOUCH** 訊息送至表單時，它們會被轉譯為點，並新增至筆劃的集合中。</span><span class="sxs-lookup"><span data-stu-id="faeed-115">When the **WM_TOUCH** messages come to the form, they are interpreted into points and are added to the collection of strokes.</span></span> <span data-ttu-id="faeed-116">筆觸集合會轉譯為繪圖物件。</span><span class="sxs-lookup"><span data-stu-id="faeed-116">The strokes collection is rendered to the Graphics object.</span></span> <span data-ttu-id="faeed-117">下列程式碼顯示可觸式表單如何自行註冊處理 **WM_TOUCH** 訊息，以及它如何處理 **WM_TOUCH** 訊息。</span><span class="sxs-lookup"><span data-stu-id="faeed-117">The following code shows how the touchable form registers itself for handling **WM_TOUCH** messages, and how it handles **WM_TOUCH** messages.</span></span>
+<span data-ttu-id="f99ad-113">在此範例中，會建立可觸式表單來處理 [**WM_TOUCH**](wm-touchdown.md) 的訊息。</span><span class="sxs-lookup"><span data-stu-id="f99ad-113">For this sample, a touchable form is created to handle [**WM_TOUCH**](wm-touchdown.md) messages.</span></span> <span data-ttu-id="f99ad-114">這種表單是繼承的，可啟用 [便箋] 應用程式上的 Windows Touch。</span><span class="sxs-lookup"><span data-stu-id="f99ad-114">This form is inherited to enable Windows Touch on the scratchpad application.</span></span> <span data-ttu-id="f99ad-115">當 **WM_TOUCH** 訊息送至表單時，它們會被轉譯為點，並新增至筆劃的集合中。</span><span class="sxs-lookup"><span data-stu-id="f99ad-115">When the **WM_TOUCH** messages come to the form, they are interpreted into points and are added to the collection of strokes.</span></span> <span data-ttu-id="f99ad-116">筆觸集合會轉譯為繪圖物件。</span><span class="sxs-lookup"><span data-stu-id="f99ad-116">The strokes collection is rendered to the Graphics object.</span></span> <span data-ttu-id="f99ad-117">下列程式碼顯示可觸式表單如何自行註冊處理 **WM_TOUCH** 訊息，以及它如何處理 **WM_TOUCH** 訊息。</span><span class="sxs-lookup"><span data-stu-id="f99ad-117">The following code shows how the touchable form registers itself for handling **WM_TOUCH** messages, and how it handles **WM_TOUCH** messages.</span></span>
 
 ```CSharp
         private void OnLoadHandler(Object sender, EventArgs e)
@@ -71,7 +71,7 @@ ms.locfileid: "104024211"
         }
 ```
 
-<span data-ttu-id="faeed-118">下列程式碼說明如何解讀 Windows Touch 訊息，以及如何將資料加入至筆劃集合。</span><span class="sxs-lookup"><span data-stu-id="faeed-118">The following code shows how the Windows Touch message is interpreted and the data is added to stroke collections.</span></span>
+<span data-ttu-id="f99ad-118">下列程式碼說明如何解讀 Windows Touch 訊息，以及如何將資料加入至筆劃集合。</span><span class="sxs-lookup"><span data-stu-id="f99ad-118">The following code shows how the Windows Touch message is interpreted and the data is added to stroke collections.</span></span>
 
 ```CSharp
         private bool DecodeTouch(ref Message m)
@@ -148,7 +148,7 @@ ms.locfileid: "104024211"
     }
 ```
 
-<span data-ttu-id="faeed-119">下列程式碼示範如何顯示筆觸集合。</span><span class="sxs-lookup"><span data-stu-id="faeed-119">The following code shows how a stroke collection is displayed.</span></span>
+<span data-ttu-id="f99ad-119">下列程式碼示範如何顯示筆觸集合。</span><span class="sxs-lookup"><span data-stu-id="f99ad-119">The following code shows how a stroke collection is displayed.</span></span>
 
 ```CSharp
         public void Draw(Graphics graphics)
@@ -163,7 +163,7 @@ ms.locfileid: "104024211"
         }
 ```
 
-<span data-ttu-id="faeed-120">下列程式碼示範個別筆劃物件如何以繪圖物件顯示本身。</span><span class="sxs-lookup"><span data-stu-id="faeed-120">The following code shows how the individual stroke objects display themselves with a Graphics object.</span></span>
+<span data-ttu-id="f99ad-120">下列程式碼示範個別筆劃物件如何以繪圖物件顯示本身。</span><span class="sxs-lookup"><span data-stu-id="f99ad-120">The following code shows how the individual stroke objects display themselves with a Graphics object.</span></span>
 
 ```CSharp
         public void Draw(Graphics graphics)
@@ -178,7 +178,7 @@ ms.locfileid: "104024211"
         }
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="faeed-121">相關主題</span><span class="sxs-lookup"><span data-stu-id="faeed-121">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="f99ad-121">相關主題</span><span class="sxs-lookup"><span data-stu-id="f99ad-121">Related topics</span></span>
 
-<span data-ttu-id="faeed-122">[Windows Touch 的 () 的 c + + ](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)、 [多點觸控式的程式 (WM_TOUCH/c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS)、 [多點觸控式的便箋應用程式 (WM_TOUCH/c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp)、 [Windows Touch 範例](windows-touch-samples.md)</span><span class="sxs-lookup"><span data-stu-id="faeed-122">[Windows Touch Scratchpad Sample (C++)](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md), [Multi-touch Scratchpad Application (WM_TOUCH/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [Multi-touch Scratchpad Application (WM_TOUCH/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), [Windows Touch Samples](windows-touch-samples.md)</span></span>
+<span data-ttu-id="f99ad-122">[Windows Touch 的 () 的 c + + ](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)、 [多點觸控式的程式 (WM_TOUCH/c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS)、 [多點觸控式的便箋應用程式 (WM_TOUCH/c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp)、 [Windows Touch 範例](windows-touch-samples.md)</span><span class="sxs-lookup"><span data-stu-id="f99ad-122">[Windows Touch Scratchpad Sample (C++)](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md), [Multi-touch Scratchpad Application (WM_TOUCH/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [Multi-touch Scratchpad Application (WM_TOUCH/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), [Windows Touch Samples](windows-touch-samples.md)</span></span>
 
