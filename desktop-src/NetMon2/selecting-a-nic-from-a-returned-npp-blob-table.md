@@ -1,0 +1,37 @@
+---
+description: 若要從網路監視器所傳回的 NPP BLOB 資料表中選取 NIC，請呼叫 GetNPPBlobTable 函數。 此函式會傳回 NPP BLOB 資料表，然後您的應用程式會加以列舉，以選取您感興趣的 NIC。
+ms.assetid: 51428cc9-0b48-4da6-bbf6-b22798e01263
+title: 從傳回的 NPP BLOB 資料表選取 NIC
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 08215bb647482ba8544d7eaa033dea7efd9a5ad1
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103849324"
+---
+# <a name="selecting-a-nic-from-a-returned-npp-blob-table"></a>從傳回的 NPP BLOB 資料表選取 NIC
+
+若要從網路監視器所傳回的 NPP BLOB 資料表中選取 NIC，請呼叫 [**GetNPPBlobTable**](getnppblobtable.md) 函數。 此函式會傳回 NPP BLOB 資料表，然後您的應用程式會加以列舉，以選取您感興趣的 NIC。
+
+當您呼叫此函式時，您可以傳回在本機電腦上註冊之所有 Nic 的 BLOB 資料表，或是一組較小的篩選 Nic。 若要篩選傳回的 Nic，您可以在進行呼叫時提供 [*篩選 BLOB*](f.md) 。
+
+
+
+| 如需下列資訊                                                       | 請參閱                                                                                                  |
+|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| 如何指定篩選器來限制 NPP BLOB 資料表中傳回的 Nic。 | [指定篩選 BLOB](specifying-a-filter-blob.md)                                             |
+| 如何選取在本機電腦上註冊的 NIC。                         | [選取已註冊的 NIC](selecting-a-registered-nic.md)                                         |
+| 如何從提供的 NPP BLOB 資料表選取 NIC                          | [從提供的 NPP BLOB 資料表選取 NIC](selecting-a-nic-from-a-supplied-npp-blob-table.md) |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
