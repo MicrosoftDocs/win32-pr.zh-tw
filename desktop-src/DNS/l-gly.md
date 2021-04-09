@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103842936"
 ---
-# <a name="l-dns"></a><span data-ttu-id="54ab9-103">L (DNS) </span><span class="sxs-lookup"><span data-stu-id="54ab9-103">L (DNS)</span></span>
+# <a name="l-dns"></a><span data-ttu-id="73fef-103">L (DNS) </span><span class="sxs-lookup"><span data-stu-id="73fef-103">L (DNS)</span></span>
 
-<span data-ttu-id="54ab9-104">B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K L M N O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T W X Y [Z](z-gly.md)</span><span class="sxs-lookup"><span data-stu-id="54ab9-104">A B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K L M N O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T U V W X Y [Z](z-gly.md)</span></span>
+<span data-ttu-id="73fef-104">B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K L M N O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T W X Y [Z](z-gly.md)</span><span class="sxs-lookup"><span data-stu-id="73fef-104">A B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K L M N O [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) T U V W X Y [Z](z-gly.md)</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="54ab9-105"><span id="_dns_load_balancing_gly"></span><span id="_DNS_LOAD_BALANCING_GLY"></span>**負載平衡**</span><span class="sxs-lookup"><span data-stu-id="54ab9-105"><span id="_dns_load_balancing_gly"></span><span id="_DNS_LOAD_BALANCING_GLY"></span>**load balancing**</span></span>
+<span data-ttu-id="73fef-105"><span id="_dns_load_balancing_gly"></span><span id="_DNS_LOAD_BALANCING_GLY"></span>**負載平衡**</span><span class="sxs-lookup"><span data-stu-id="73fef-105"><span id="_dns_load_balancing_gly"></span><span id="_DNS_LOAD_BALANCING_GLY"></span>**load balancing**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="54ab9-106">透過將要求分散到多個節點來調整效能的技術。</span><span class="sxs-lookup"><span data-stu-id="54ab9-106">A technique for scaling performance by distributing requests across multiple nodes.</span></span>
+<span data-ttu-id="73fef-106">透過將要求分散到多個節點來調整效能的技術。</span><span class="sxs-lookup"><span data-stu-id="73fef-106">A technique for scaling performance by distributing requests across multiple nodes.</span></span>
 
 </dd> </dl>
 

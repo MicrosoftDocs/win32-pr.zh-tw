@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103670908"
 ---
-# <a name="glgetlight-functions"></a><span data-ttu-id="684d7-103">glGetLight 函式</span><span class="sxs-lookup"><span data-stu-id="684d7-103">glGetLight Functions</span></span>
+# <a name="glgetlight-functions"></a><span data-ttu-id="eeacf-103">glGetLight 函式</span><span class="sxs-lookup"><span data-stu-id="eeacf-103">glGetLight Functions</span></span>
 
-<span data-ttu-id="684d7-104">這些函數會傳回燈光來源參數值：</span><span class="sxs-lookup"><span data-stu-id="684d7-104">These functions return light source parameter values:</span></span>
+<span data-ttu-id="eeacf-104">這些函數會傳回燈光來源參數值：</span><span class="sxs-lookup"><span data-stu-id="eeacf-104">These functions return light source parameter values:</span></span>
 
--   [<span data-ttu-id="684d7-105">**glGetLightfv**</span><span class="sxs-lookup"><span data-stu-id="684d7-105">**glGetLightfv**</span></span>](glgetlightfv.md)
--   [<span data-ttu-id="684d7-106">**glGetLightiv**</span><span class="sxs-lookup"><span data-stu-id="684d7-106">**glGetLightiv**</span></span>](glgetlightiv.md)
+-   [<span data-ttu-id="eeacf-105">**glGetLightfv**</span><span class="sxs-lookup"><span data-stu-id="eeacf-105">**glGetLightfv**</span></span>](glgetlightfv.md)
+-   [<span data-ttu-id="eeacf-106">**glGetLightiv**</span><span class="sxs-lookup"><span data-stu-id="eeacf-106">**glGetLightiv**</span></span>](glgetlightiv.md)
 
  
 

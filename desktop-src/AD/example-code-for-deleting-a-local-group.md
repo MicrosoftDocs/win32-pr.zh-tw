@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671304"
 ---
-# <a name="example-code-for-deleting-a-local-group"></a><span data-ttu-id="5c8a4-104">刪除本機群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="5c8a4-104">Example Code for Deleting a Local Group</span></span>
+# <a name="example-code-for-deleting-a-local-group"></a><span data-ttu-id="b1cae-104">刪除本機群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="b1cae-104">Example Code for Deleting a Local Group</span></span>
 
-<span data-ttu-id="5c8a4-105">下列 c + + 程式碼範例會刪除成員伺服器上的本機群組，或是執行 Windows 2000 Professional 或 Windows NT 工作站的電腦。</span><span class="sxs-lookup"><span data-stu-id="5c8a4-105">The following C++ code example deletes a local group on a member server or a computer running Windows 2000 Professional or Windows NT Workstation.</span></span>
+<span data-ttu-id="b1cae-105">下列 c + + 程式碼範例會刪除成員伺服器上的本機群組，或是執行 Windows 2000 Professional 或 Windows NT 工作站的電腦。</span><span class="sxs-lookup"><span data-stu-id="b1cae-105">The following C++ code example deletes a local group on a member server or a computer running Windows 2000 Professional or Windows NT Workstation.</span></span>
 
 
 ```C++
@@ -145,7 +145,7 @@ HRESULT DeleteADObject(LPOLESTR pwszAdsPath,
 
 
 
-<span data-ttu-id="5c8a4-106">下列 Visual Basic Scripting Edition 程式碼範例會刪除成員伺服器上的本機群組，或是執行 Windows 2000 Professional 或 Windows NT 工作站的電腦。</span><span class="sxs-lookup"><span data-stu-id="5c8a4-106">The following Visual Basic Scripting Edition code example deletes a local group on a member server or a computer running Windows 2000 Professional or Windows NT Workstation.</span></span>
+<span data-ttu-id="b1cae-106">下列 Visual Basic Scripting Edition 程式碼範例會刪除成員伺服器上的本機群組，或是執行 Windows 2000 Professional 或 Windows NT 工作站的電腦。</span><span class="sxs-lookup"><span data-stu-id="b1cae-106">The following Visual Basic Scripting Edition code example deletes a local group on a member server or a computer running Windows 2000 Professional or Windows NT Workstation.</span></span>
 
 
 ```VB

@@ -12,12 +12,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103671187"
 ---
-# <a name="binding-programmatically-using-an-adsi-interface"></a><span data-ttu-id="c504c-103">使用 ADSI 介面以程式設計方式系結</span><span class="sxs-lookup"><span data-stu-id="c504c-103">Binding Programmatically Using an ADSI Interface</span></span>
+# <a name="binding-programmatically-using-an-adsi-interface"></a><span data-ttu-id="7021e-103">使用 ADSI 介面以程式設計方式系結</span><span class="sxs-lookup"><span data-stu-id="7021e-103">Binding Programmatically Using an ADSI Interface</span></span>
 
-<span data-ttu-id="c504c-104">ADSI 提供兩種系結至物件的基本方式：</span><span class="sxs-lookup"><span data-stu-id="c504c-104">ADSI provides two basic ways to bind to an object:</span></span>
+<span data-ttu-id="7021e-104">ADSI 提供兩種系結至物件的基本方式：</span><span class="sxs-lookup"><span data-stu-id="7021e-104">ADSI provides two basic ways to bind to an object:</span></span>
 
--   [<span data-ttu-id="c504c-105">使用 ADSI 函數直接系結至物件</span><span class="sxs-lookup"><span data-stu-id="c504c-105">Using ADSI functions to bind directly to an object</span></span>](using-adsi-functions-to-bind-directly-to-an-object.md)
--   [<span data-ttu-id="c504c-106">使用 ActiveX Data 物件</span><span class="sxs-lookup"><span data-stu-id="c504c-106">Using an ActiveX Data Object</span></span>](using-an-activex-data-object-to-bind-to-adsi-providers.md)
+-   [<span data-ttu-id="7021e-105">使用 ADSI 函數直接系結至物件</span><span class="sxs-lookup"><span data-stu-id="7021e-105">Using ADSI functions to bind directly to an object</span></span>](using-adsi-functions-to-bind-directly-to-an-object.md)
+-   [<span data-ttu-id="7021e-106">使用 ActiveX Data 物件</span><span class="sxs-lookup"><span data-stu-id="7021e-106">Using an ActiveX Data Object</span></span>](using-an-activex-data-object-to-bind-to-adsi-providers.md)
 
  
 
