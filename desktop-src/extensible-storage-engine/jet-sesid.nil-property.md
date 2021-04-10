@@ -32,14 +32,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943295"
 ---
-# <a name="jet_sesidnil-property"></a><span data-ttu-id="5fea5-103">JET_SESID。Nil 屬性</span><span class="sxs-lookup"><span data-stu-id="5fea5-103">JET_SESID.Nil property</span></span>
+# <a name="jet_sesidnil-property"></a><span data-ttu-id="4b624-103">JET_SESID。Nil 屬性</span><span class="sxs-lookup"><span data-stu-id="4b624-103">JET_SESID.Nil property</span></span>
 
-<span data-ttu-id="5fea5-104">取得 null JET_SESID。</span><span class="sxs-lookup"><span data-stu-id="5fea5-104">Gets a null JET_SESID.</span></span>
+<span data-ttu-id="4b624-104">取得 null JET_SESID。</span><span class="sxs-lookup"><span data-stu-id="4b624-104">Gets a null JET_SESID.</span></span>
 
-<span data-ttu-id="5fea5-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="5fea5-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="5fea5-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="5fea5-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="4b624-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="4b624-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="4b624-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="4b624-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5fea5-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="5fea5-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4b624-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="4b624-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -55,16 +55,16 @@ value = JET_SESID.Nil
 public static JET_SESID Nil { get; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="5fea5-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="5fea5-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="4b624-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="4b624-108">Property value</span></span>
 
-<span data-ttu-id="5fea5-109">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="5fea5-109">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+<span data-ttu-id="4b624-109">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="4b624-109">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="5fea5-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5fea5-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4b624-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4b624-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="5fea5-111">參考</span><span class="sxs-lookup"><span data-stu-id="5fea5-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="4b624-111">參考</span><span class="sxs-lookup"><span data-stu-id="4b624-111">Reference</span></span>
 
-[<span data-ttu-id="5fea5-112">JET_SESID 結構</span><span class="sxs-lookup"><span data-stu-id="5fea5-112">JET_SESID structure</span></span>](./jet-sesid-structure.md)
+[<span data-ttu-id="4b624-112">JET_SESID 結構</span><span class="sxs-lookup"><span data-stu-id="4b624-112">JET_SESID structure</span></span>](./jet-sesid-structure.md)
 
-[<span data-ttu-id="5fea5-113">JET_SESID 成員</span><span class="sxs-lookup"><span data-stu-id="5fea5-113">JET_SESID members</span></span>](./jet-sesid-members.md)
+[<span data-ttu-id="4b624-113">JET_SESID 成員</span><span class="sxs-lookup"><span data-stu-id="4b624-113">JET_SESID members</span></span>](./jet-sesid-members.md)
 
-[<span data-ttu-id="5fea5-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="5fea5-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="4b624-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="4b624-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

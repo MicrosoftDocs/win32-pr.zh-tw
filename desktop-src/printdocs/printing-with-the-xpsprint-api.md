@@ -11,28 +11,28 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851420"
 ---
-# <a name="how-to-print-with-the-xps-print-api"></a><span data-ttu-id="f78e3-103">如何：使用 XPS 列印 API 進行列印</span><span class="sxs-lookup"><span data-stu-id="f78e3-103">How To: Print with the XPS Print API</span></span>
+# <a name="how-to-print-with-the-xps-print-api"></a><span data-ttu-id="71ecc-103">如何：使用 XPS 列印 API 進行列印</span><span class="sxs-lookup"><span data-stu-id="71ecc-103">How To: Print with the XPS Print API</span></span>
 
-<span data-ttu-id="f78e3-104">本主題說明如何使用 [XPS 列印 API](xpsprint-api.md) 從 Windows 應用程式進行列印。</span><span class="sxs-lookup"><span data-stu-id="f78e3-104">This topic describes how to use the [XPS Print API](xpsprint-api.md) to print from a Windows application.</span></span>
+<span data-ttu-id="71ecc-104">本主題說明如何使用 [XPS 列印 API](xpsprint-api.md) 從 Windows 應用程式進行列印。</span><span class="sxs-lookup"><span data-stu-id="71ecc-104">This topic describes how to use the [XPS Print API](xpsprint-api.md) to print from a Windows application.</span></span>
 
-<span data-ttu-id="f78e3-105">[Xps 列印 API](xpsprint-api.md)可讓原生 Windows 應用程式列印 XPS 檔。</span><span class="sxs-lookup"><span data-stu-id="f78e3-105">The [XPS Print API](xpsprint-api.md) enables native Windows applications to print XPS documents.</span></span> <span data-ttu-id="f78e3-106">應用程式可以使用 [Xps 檔 API](/previous-versions/windows/desktop/dd316976(v=vs.85))來建立 xps 檔。</span><span class="sxs-lookup"><span data-stu-id="f78e3-106">An application can create an XPS document by using the [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)).</span></span> <span data-ttu-id="f78e3-107">[常見的 XPS 檔程式設計](/previous-versions/windows/desktop/dd316968(v=vs.85))工作說明主題會說明如何進行此作業。</span><span class="sxs-lookup"><span data-stu-id="f78e3-107">The [Common XPS Document Programming Tasks](/previous-versions/windows/desktop/dd316968(v=vs.85)) help topic describes how to do this.</span></span> <span data-ttu-id="f78e3-108">一旦建立 XPS 檔之後，應用程式便可使用 XPS 列印 API 進行列印。</span><span class="sxs-lookup"><span data-stu-id="f78e3-108">Once an XPS document has been created, the application can use the XPS Print API to print it.</span></span>
+<span data-ttu-id="71ecc-105">[Xps 列印 API](xpsprint-api.md)可讓原生 Windows 應用程式列印 XPS 檔。</span><span class="sxs-lookup"><span data-stu-id="71ecc-105">The [XPS Print API](xpsprint-api.md) enables native Windows applications to print XPS documents.</span></span> <span data-ttu-id="71ecc-106">應用程式可以使用 [Xps 檔 API](/previous-versions/windows/desktop/dd316976(v=vs.85))來建立 xps 檔。</span><span class="sxs-lookup"><span data-stu-id="71ecc-106">An application can create an XPS document by using the [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)).</span></span> <span data-ttu-id="71ecc-107">[常見的 XPS 檔程式設計](/previous-versions/windows/desktop/dd316968(v=vs.85))工作說明主題會說明如何進行此作業。</span><span class="sxs-lookup"><span data-stu-id="71ecc-107">The [Common XPS Document Programming Tasks](/previous-versions/windows/desktop/dd316968(v=vs.85)) help topic describes how to do this.</span></span> <span data-ttu-id="71ecc-108">一旦建立 XPS 檔之後，應用程式便可使用 XPS 列印 API 進行列印。</span><span class="sxs-lookup"><span data-stu-id="71ecc-108">Once an XPS document has been created, the application can use the XPS Print API to print it.</span></span>
 
-<span data-ttu-id="f78e3-109">使用 [XPS 列印 API](xpsprint-api.md) 從應用程式列印檔案時，需要執行下列步驟。</span><span class="sxs-lookup"><span data-stu-id="f78e3-109">Using the [XPS Print API](xpsprint-api.md) to print a document from an application involves the following steps.</span></span>
+<span data-ttu-id="71ecc-109">使用 [XPS 列印 API](xpsprint-api.md) 從應用程式列印檔案時，需要執行下列步驟。</span><span class="sxs-lookup"><span data-stu-id="71ecc-109">Using the [XPS Print API](xpsprint-api.md) to print a document from an application involves the following steps.</span></span>
 
--   [<span data-ttu-id="f78e3-110">初始化 COM 介面</span><span class="sxs-lookup"><span data-stu-id="f78e3-110">Initialize COM Interface</span></span>](#initialize-com-interface)
--   [<span data-ttu-id="f78e3-111">建立完成事件</span><span class="sxs-lookup"><span data-stu-id="f78e3-111">Create a Completion Event</span></span>](#create-a-completion-event)
--   [<span data-ttu-id="f78e3-112">啟動 XPS 列印工作</span><span class="sxs-lookup"><span data-stu-id="f78e3-112">Start an XPS Print Job</span></span>](#start-an-xps-print-job)
--   [<span data-ttu-id="f78e3-113">建立 IXpsOMPackageWriter 介面</span><span class="sxs-lookup"><span data-stu-id="f78e3-113">Create an IXpsOMPackageWriter Interface</span></span>](#create-an-ixpsompackagewriter-interface)
--   [<span data-ttu-id="f78e3-114">關閉 IXpsOMPackageWriter 介面</span><span class="sxs-lookup"><span data-stu-id="f78e3-114">Close the IXpsOMPackageWriter Interface</span></span>](#close-the-ixpsompackagewriter-interface)
--   [<span data-ttu-id="f78e3-115">關閉列印工作串流</span><span class="sxs-lookup"><span data-stu-id="f78e3-115">Close the Print Job Stream</span></span>](#close-the-print-job-stream)
--   [<span data-ttu-id="f78e3-116">等候完成事件</span><span class="sxs-lookup"><span data-stu-id="f78e3-116">Wait for the Completion Event</span></span>](#wait-for-the-completion-event)
--   [<span data-ttu-id="f78e3-117">釋放資源</span><span class="sxs-lookup"><span data-stu-id="f78e3-117">Release Resources</span></span>](#release-resources)
+-   [<span data-ttu-id="71ecc-110">初始化 COM 介面</span><span class="sxs-lookup"><span data-stu-id="71ecc-110">Initialize COM Interface</span></span>](#initialize-com-interface)
+-   [<span data-ttu-id="71ecc-111">建立完成事件</span><span class="sxs-lookup"><span data-stu-id="71ecc-111">Create a Completion Event</span></span>](#create-a-completion-event)
+-   [<span data-ttu-id="71ecc-112">啟動 XPS 列印工作</span><span class="sxs-lookup"><span data-stu-id="71ecc-112">Start an XPS Print Job</span></span>](#start-an-xps-print-job)
+-   [<span data-ttu-id="71ecc-113">建立 IXpsOMPackageWriter 介面</span><span class="sxs-lookup"><span data-stu-id="71ecc-113">Create an IXpsOMPackageWriter Interface</span></span>](#create-an-ixpsompackagewriter-interface)
+-   [<span data-ttu-id="71ecc-114">關閉 IXpsOMPackageWriter 介面</span><span class="sxs-lookup"><span data-stu-id="71ecc-114">Close the IXpsOMPackageWriter Interface</span></span>](#close-the-ixpsompackagewriter-interface)
+-   [<span data-ttu-id="71ecc-115">關閉列印工作串流</span><span class="sxs-lookup"><span data-stu-id="71ecc-115">Close the Print Job Stream</span></span>](#close-the-print-job-stream)
+-   [<span data-ttu-id="71ecc-116">等候完成事件</span><span class="sxs-lookup"><span data-stu-id="71ecc-116">Wait for the Completion Event</span></span>](#wait-for-the-completion-event)
+-   [<span data-ttu-id="71ecc-117">釋放資源</span><span class="sxs-lookup"><span data-stu-id="71ecc-117">Release Resources</span></span>](#release-resources)
 
-<span data-ttu-id="f78e3-118">[Xps 列印 API](xpsprint-api.md)需要列印 xps 檔。</span><span class="sxs-lookup"><span data-stu-id="f78e3-118">The [XPS Print API](xpsprint-api.md) requires an XPS document to print.</span></span> <span data-ttu-id="f78e3-119">在下列範例中，xps 檔會在 XPS 列印 API 傳送至印表機時建立。</span><span class="sxs-lookup"><span data-stu-id="f78e3-119">In the following example, the XPS document is created as it is sent to the printer by the XPS Print API.</span></span> <span data-ttu-id="f78e3-120">您也可以建立 XPS 檔，而不需要使用 [Xps 檔 API](/previous-versions/windows/desktop/dd316976(v=vs.85)) 將它傳送至印表機，並將其維護為 xps om 或將 xps om 儲存為 xps 檔。</span><span class="sxs-lookup"><span data-stu-id="f78e3-120">It is also possible to create an XPS document without sending it to a printer by using the [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)) and maintaining it as an XPS OM or by saving the XPS OM as an XPS document.</span></span> <span data-ttu-id="f78e3-121">如需有關使用 XPS OM 的詳細資訊，請參閱 XPS 檔 API。</span><span class="sxs-lookup"><span data-stu-id="f78e3-121">For more information about using an XPS OM, see the XPS Document API.</span></span>
+<span data-ttu-id="71ecc-118">[Xps 列印 API](xpsprint-api.md)需要列印 xps 檔。</span><span class="sxs-lookup"><span data-stu-id="71ecc-118">The [XPS Print API](xpsprint-api.md) requires an XPS document to print.</span></span> <span data-ttu-id="71ecc-119">在下列範例中，xps 檔會在 XPS 列印 API 傳送至印表機時建立。</span><span class="sxs-lookup"><span data-stu-id="71ecc-119">In the following example, the XPS document is created as it is sent to the printer by the XPS Print API.</span></span> <span data-ttu-id="71ecc-120">您也可以建立 XPS 檔，而不需要使用 [Xps 檔 API](/previous-versions/windows/desktop/dd316976(v=vs.85)) 將它傳送至印表機，並將其維護為 xps om 或將 xps om 儲存為 xps 檔。</span><span class="sxs-lookup"><span data-stu-id="71ecc-120">It is also possible to create an XPS document without sending it to a printer by using the [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)) and maintaining it as an XPS OM or by saving the XPS OM as an XPS document.</span></span> <span data-ttu-id="71ecc-121">如需有關使用 XPS OM 的詳細資訊，請參閱 XPS 檔 API。</span><span class="sxs-lookup"><span data-stu-id="71ecc-121">For more information about using an XPS OM, see the XPS Document API.</span></span>
 
-### <a name="initialize-com-interface"></a><span data-ttu-id="f78e3-122">初始化 COM 介面</span><span class="sxs-lookup"><span data-stu-id="f78e3-122">Initialize COM Interface</span></span>
+### <a name="initialize-com-interface"></a><span data-ttu-id="71ecc-122">初始化 COM 介面</span><span class="sxs-lookup"><span data-stu-id="71ecc-122">Initialize COM Interface</span></span>
 
-<span data-ttu-id="f78e3-123">如果應用程式尚未執行，請將 COM 介面初始化。</span><span class="sxs-lookup"><span data-stu-id="f78e3-123">Initialize the COM interface, if the application has not already done so.</span></span>
+<span data-ttu-id="71ecc-123">如果應用程式尚未執行，請將 COM 介面初始化。</span><span class="sxs-lookup"><span data-stu-id="71ecc-123">Initialize the COM interface, if the application has not already done so.</span></span>
 
 
 ```C++
@@ -48,9 +48,9 @@ ms.locfileid: "103851420"
 
 
 
-### <a name="create-a-completion-event"></a><span data-ttu-id="f78e3-124">建立完成事件</span><span class="sxs-lookup"><span data-stu-id="f78e3-124">Create a Completion Event</span></span>
+### <a name="create-a-completion-event"></a><span data-ttu-id="71ecc-124">建立完成事件</span><span class="sxs-lookup"><span data-stu-id="71ecc-124">Create a Completion Event</span></span>
 
-<span data-ttu-id="f78e3-125">建立完成事件，當列印多工緩衝處理器從應用程式收到整份檔時， [XPS 列印 API](xpsprint-api.md) 會使用此專案來通知應用程式。</span><span class="sxs-lookup"><span data-stu-id="f78e3-125">Create a completion event, which the [XPS Print API](xpsprint-api.md) uses to notify the application when the print spooler has received the entire document from the application.</span></span> <span data-ttu-id="f78e3-126">XPS 列印 API 也支援進度事件，讓應用程式可以知道其他的離線處理活動。</span><span class="sxs-lookup"><span data-stu-id="f78e3-126">The XPS Print API also supports a progress event so an application can know about other spooling activity.</span></span>
+<span data-ttu-id="71ecc-125">建立完成事件，當列印多工緩衝處理器從應用程式收到整份檔時， [XPS 列印 API](xpsprint-api.md) 會使用此專案來通知應用程式。</span><span class="sxs-lookup"><span data-stu-id="71ecc-125">Create a completion event, which the [XPS Print API](xpsprint-api.md) uses to notify the application when the print spooler has received the entire document from the application.</span></span> <span data-ttu-id="71ecc-126">XPS 列印 API 也支援進度事件，讓應用程式可以知道其他的離線處理活動。</span><span class="sxs-lookup"><span data-stu-id="71ecc-126">The XPS Print API also supports a progress event so an application can know about other spooling activity.</span></span>
 
 
 ```C++
@@ -66,9 +66,9 @@ ms.locfileid: "103851420"
 
 
 
-### <a name="start-an-xps-print-job"></a><span data-ttu-id="f78e3-127">啟動 XPS 列印工作</span><span class="sxs-lookup"><span data-stu-id="f78e3-127">Start an XPS Print Job</span></span>
+### <a name="start-an-xps-print-job"></a><span data-ttu-id="71ecc-127">啟動 XPS 列印工作</span><span class="sxs-lookup"><span data-stu-id="71ecc-127">Start an XPS Print Job</span></span>
 
-<span data-ttu-id="f78e3-128">藉由呼叫 [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob)來啟動 XPS 列印工作。</span><span class="sxs-lookup"><span data-stu-id="f78e3-128">Start an XPS print job by calling [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob).</span></span> <span data-ttu-id="f78e3-129">**StartXpsPrintJob** 會傳回資料流程，應用程式會在其中傳送要列印的檔。</span><span class="sxs-lookup"><span data-stu-id="f78e3-129">**StartXpsPrintJob** returns a stream into which the application will send the document to be printed.</span></span>
+<span data-ttu-id="71ecc-128">藉由呼叫 [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob)來啟動 XPS 列印工作。</span><span class="sxs-lookup"><span data-stu-id="71ecc-128">Start an XPS print job by calling [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob).</span></span> <span data-ttu-id="71ecc-129">**StartXpsPrintJob** 會傳回資料流程，應用程式會在其中傳送要列印的檔。</span><span class="sxs-lookup"><span data-stu-id="71ecc-129">**StartXpsPrintJob** returns a stream into which the application will send the document to be printed.</span></span>
 
 
 ```C++
@@ -93,9 +93,9 @@ ms.locfileid: "103851420"
 
 
 
-### <a name="create-an-ixpsompackagewriter-interface"></a><span data-ttu-id="f78e3-130">建立 IXpsOMPackageWriter 介面</span><span class="sxs-lookup"><span data-stu-id="f78e3-130">Create an IXpsOMPackageWriter Interface</span></span>
+### <a name="create-an-ixpsompackagewriter-interface"></a><span data-ttu-id="71ecc-130">建立 IXpsOMPackageWriter 介面</span><span class="sxs-lookup"><span data-stu-id="71ecc-130">Create an IXpsOMPackageWriter Interface</span></span>
 
-<span data-ttu-id="f78e3-131">在 [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob)傳回的資料流程上呼叫 [**IXpsOMObjectFactory：： CreatePackageWriterOnStream**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronstream) ，以建立 [**IXpsOMPackageWriter**](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter)介面。</span><span class="sxs-lookup"><span data-stu-id="f78e3-131">Create an [**IXpsOMPackageWriter**](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter) interface by calling [**IXpsOMObjectFactory::CreatePackageWriterOnStream**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronstream) on the stream returned by [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob).</span></span>
+<span data-ttu-id="71ecc-131">在 [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob)傳回的資料流程上呼叫 [**IXpsOMObjectFactory：： CreatePackageWriterOnStream**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronstream) ，以建立 [**IXpsOMPackageWriter**](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter)介面。</span><span class="sxs-lookup"><span data-stu-id="71ecc-131">Create an [**IXpsOMPackageWriter**](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter) interface by calling [**IXpsOMObjectFactory::CreatePackageWriterOnStream**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronstream) on the stream returned by [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob).</span></span>
 
 
 ```C++
@@ -169,11 +169,11 @@ ms.locfileid: "103851420"
 
 
 
-<span data-ttu-id="f78e3-132">針對此列印工作中的每個檔，啟動新檔，然後將頁面新增至該檔。</span><span class="sxs-lookup"><span data-stu-id="f78e3-132">For each document in this print job, start a new document and then add pages to that document.</span></span>
+<span data-ttu-id="71ecc-132">針對此列印工作中的每個檔，啟動新檔，然後將頁面新增至該檔。</span><span class="sxs-lookup"><span data-stu-id="71ecc-132">For each document in this print job, start a new document and then add pages to that document.</span></span>
 
-### <a name="start-a-new-document"></a><span data-ttu-id="f78e3-133">開始新檔</span><span class="sxs-lookup"><span data-stu-id="f78e3-133">Start a New Document</span></span>
+### <a name="start-a-new-document"></a><span data-ttu-id="71ecc-133">開始新檔</span><span class="sxs-lookup"><span data-stu-id="71ecc-133">Start a New Document</span></span>
 
-<span data-ttu-id="f78e3-134">藉由呼叫 [**IXpsOMPackageWriter：： StartNewDocument**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument)，在封裝寫入器中啟動新檔。</span><span class="sxs-lookup"><span data-stu-id="f78e3-134">Start a new document in the package writer by calling [**IXpsOMPackageWriter::StartNewDocument**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument).</span></span> <span data-ttu-id="f78e3-135">當呼叫這個方法時，如果檔是開啟的，則會關閉並開啟新檔。</span><span class="sxs-lookup"><span data-stu-id="f78e3-135">If a document is open when this method is called, it is closed and a new document is opened.</span></span>
+<span data-ttu-id="71ecc-134">藉由呼叫 [**IXpsOMPackageWriter：： StartNewDocument**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument)，在封裝寫入器中啟動新檔。</span><span class="sxs-lookup"><span data-stu-id="71ecc-134">Start a new document in the package writer by calling [**IXpsOMPackageWriter::StartNewDocument**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument).</span></span> <span data-ttu-id="71ecc-135">當呼叫這個方法時，如果檔是開啟的，則會關閉並開啟新檔。</span><span class="sxs-lookup"><span data-stu-id="71ecc-135">If a document is open when this method is called, it is closed and a new document is opened.</span></span>
 
 
 ```C++
@@ -231,12 +231,12 @@ ms.locfileid: "103851420"
 
 
 
-### <a name="add-a-page"></a><span data-ttu-id="f78e3-136">新增頁面</span><span class="sxs-lookup"><span data-stu-id="f78e3-136">Add a Page</span></span>
+### <a name="add-a-page"></a><span data-ttu-id="71ecc-136">新增頁面</span><span class="sxs-lookup"><span data-stu-id="71ecc-136">Add a Page</span></span>
 
-<span data-ttu-id="f78e3-137">呼叫 [**IXpsOMPackageWriter：： AddPage**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage) ，將檔的每個頁面從應用程式寫入封裝寫入器中的新檔。</span><span class="sxs-lookup"><span data-stu-id="f78e3-137">Call [**IXpsOMPackageWriter::AddPage**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage) to write each of the document's pages from the application to the new document in the package writer.</span></span>
+<span data-ttu-id="71ecc-137">呼叫 [**IXpsOMPackageWriter：： AddPage**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage) ，將檔的每個頁面從應用程式寫入封裝寫入器中的新檔。</span><span class="sxs-lookup"><span data-stu-id="71ecc-137">Call [**IXpsOMPackageWriter::AddPage**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage) to write each of the document's pages from the application to the new document in the package writer.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="f78e3-138">應用程式會假設在這個步驟之前已建立頁面。</span><span class="sxs-lookup"><span data-stu-id="f78e3-138">The application is assumed to have created the page prior to this step.</span></span> <span data-ttu-id="f78e3-139">如需有關建立檔頁面以及將內容新增至其中的詳細資訊，請參閱 [一般 XPS 檔程式設計](/previous-versions/windows/desktop/dd316968(v=vs.85))工作。</span><span class="sxs-lookup"><span data-stu-id="f78e3-139">For more information about creating document pages and adding content to them, see the [Common XPS Document Programming Tasks](/previous-versions/windows/desktop/dd316968(v=vs.85)).</span></span>
+> <span data-ttu-id="71ecc-138">應用程式會假設在這個步驟之前已建立頁面。</span><span class="sxs-lookup"><span data-stu-id="71ecc-138">The application is assumed to have created the page prior to this step.</span></span> <span data-ttu-id="71ecc-139">如需有關建立檔頁面以及將內容新增至其中的詳細資訊，請參閱 [一般 XPS 檔程式設計](/previous-versions/windows/desktop/dd316968(v=vs.85))工作。</span><span class="sxs-lookup"><span data-stu-id="71ecc-139">For more information about creating document pages and adding content to them, see the [Common XPS Document Programming Tasks](/previous-versions/windows/desktop/dd316968(v=vs.85)).</span></span>
 
  
 
@@ -264,9 +264,9 @@ ms.locfileid: "103851420"
 
 
 
-### <a name="close-the-ixpsompackagewriter-interface"></a><span data-ttu-id="f78e3-140">關閉 IXpsOMPackageWriter 介面</span><span class="sxs-lookup"><span data-stu-id="f78e3-140">Close the IXpsOMPackageWriter Interface</span></span>
+### <a name="close-the-ixpsompackagewriter-interface"></a><span data-ttu-id="71ecc-140">關閉 IXpsOMPackageWriter 介面</span><span class="sxs-lookup"><span data-stu-id="71ecc-140">Close the IXpsOMPackageWriter Interface</span></span>
 
-<span data-ttu-id="f78e3-141">針對此列印工作撰寫所有檔之後，請呼叫 [**IXpsOMPackageWriter：： close**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close) 以關閉套件。</span><span class="sxs-lookup"><span data-stu-id="f78e3-141">After all the documents have been written for this print job, call [**IXpsOMPackageWriter::Close**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close) to close the package.</span></span>
+<span data-ttu-id="71ecc-141">針對此列印工作撰寫所有檔之後，請呼叫 [**IXpsOMPackageWriter：： close**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close) 以關閉套件。</span><span class="sxs-lookup"><span data-stu-id="71ecc-141">After all the documents have been written for this print job, call [**IXpsOMPackageWriter::Close**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close) to close the package.</span></span>
 
 
 ```C++
@@ -284,9 +284,9 @@ ms.locfileid: "103851420"
 
 
 
-### <a name="close-the-print-job-stream"></a><span data-ttu-id="f78e3-142">關閉列印工作串流</span><span class="sxs-lookup"><span data-stu-id="f78e3-142">Close the Print Job Stream</span></span>
+### <a name="close-the-print-job-stream"></a><span data-ttu-id="71ecc-142">關閉列印工作串流</span><span class="sxs-lookup"><span data-stu-id="71ecc-142">Close the Print Job Stream</span></span>
 
-<span data-ttu-id="f78e3-143">藉由呼叫 [**close**](/windows/desktop/api/XpsPrint/nf-xpsprint-ixpsprintjobstream-close)來關閉列印工作串流，這會告知列印多工緩衝處理器，應用程式已傳送整個列印工作。</span><span class="sxs-lookup"><span data-stu-id="f78e3-143">Close the print job stream by calling [**Close**](/windows/desktop/api/XpsPrint/nf-xpsprint-ixpsprintjobstream-close), which tells the print spooler that the entire print job has been sent by the application.</span></span>
+<span data-ttu-id="71ecc-143">藉由呼叫 [**close**](/windows/desktop/api/XpsPrint/nf-xpsprint-ixpsprintjobstream-close)來關閉列印工作串流，這會告知列印多工緩衝處理器，應用程式已傳送整個列印工作。</span><span class="sxs-lookup"><span data-stu-id="71ecc-143">Close the print job stream by calling [**Close**](/windows/desktop/api/XpsPrint/nf-xpsprint-ixpsprintjobstream-close), which tells the print spooler that the entire print job has been sent by the application.</span></span>
 
 
 ```C++
@@ -314,9 +314,9 @@ ms.locfileid: "103851420"
 
 
 
-### <a name="wait-for-the-completion-event"></a><span data-ttu-id="f78e3-144">等候完成事件</span><span class="sxs-lookup"><span data-stu-id="f78e3-144">Wait for the Completion Event</span></span>
+### <a name="wait-for-the-completion-event"></a><span data-ttu-id="71ecc-144">等候完成事件</span><span class="sxs-lookup"><span data-stu-id="71ecc-144">Wait for the Completion Event</span></span>
 
-<span data-ttu-id="f78e3-145">等候列印工作的完成事件。</span><span class="sxs-lookup"><span data-stu-id="f78e3-145">Wait for the print job's completion event.</span></span>
+<span data-ttu-id="71ecc-145">等候列印工作的完成事件。</span><span class="sxs-lookup"><span data-stu-id="71ecc-145">Wait for the print job's completion event.</span></span>
 
 
 ```C++
@@ -338,7 +338,7 @@ ms.locfileid: "103851420"
 
 
 
-<span data-ttu-id="f78e3-146">通知完成事件之後，請呼叫 [**GetJobStatus**](/windows/desktop/api/XpsPrint/nf-xpsprint-ixpsprintjob-getjobstatus) 以取得作業狀態。</span><span class="sxs-lookup"><span data-stu-id="f78e3-146">After the completion event is signaled, call [**GetJobStatus**](/windows/desktop/api/XpsPrint/nf-xpsprint-ixpsprintjob-getjobstatus) to get the job status.</span></span>
+<span data-ttu-id="71ecc-146">通知完成事件之後，請呼叫 [**GetJobStatus**](/windows/desktop/api/XpsPrint/nf-xpsprint-ixpsprintjob-getjobstatus) 以取得作業狀態。</span><span class="sxs-lookup"><span data-stu-id="71ecc-146">After the completion event is signaled, call [**GetJobStatus**](/windows/desktop/api/XpsPrint/nf-xpsprint-ixpsprintjob-getjobstatus) to get the job status.</span></span>
 
 
 ```C++
@@ -380,9 +380,9 @@ ms.locfileid: "103851420"
 
 
 
-### <a name="release-resources"></a><span data-ttu-id="f78e3-147">釋放資源</span><span class="sxs-lookup"><span data-stu-id="f78e3-147">Release Resources</span></span>
+### <a name="release-resources"></a><span data-ttu-id="71ecc-147">釋放資源</span><span class="sxs-lookup"><span data-stu-id="71ecc-147">Release Resources</span></span>
 
-<span data-ttu-id="f78e3-148">作業狀態指出完成後，請釋放用於此列印工作的介面和資源。</span><span class="sxs-lookup"><span data-stu-id="f78e3-148">After a job status indicates completion, release the interfaces and resources used for this print job.</span></span>
+<span data-ttu-id="71ecc-148">作業狀態指出完成後，請釋放用於此列印工作的介面和資源。</span><span class="sxs-lookup"><span data-stu-id="71ecc-148">After a job status indicates completion, release the interfaces and resources used for this print job.</span></span>
 
 
 ```C++

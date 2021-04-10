@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944963"
 ---
-# <a name="ialternativenames-methods"></a><span data-ttu-id="b9fae-103">IAlternativeNames 方法</span><span class="sxs-lookup"><span data-stu-id="b9fae-103">IAlternativeNames Methods</span></span>
+# <a name="ialternativenames-methods"></a><span data-ttu-id="8157e-103">IAlternativeNames 方法</span><span class="sxs-lookup"><span data-stu-id="8157e-103">IAlternativeNames Methods</span></span>
 
-<span data-ttu-id="b9fae-104">[**IAlternativeNames**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativenames)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="b9fae-104">The [**IAlternativeNames**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativenames) interface exposes the following methods.</span></span>
+<span data-ttu-id="8157e-104">[**IAlternativeNames**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativenames)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="8157e-104">The [**IAlternativeNames**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativenames) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="b9fae-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b9fae-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8157e-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="8157e-105">In this section</span></span>
 
--   [<span data-ttu-id="b9fae-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="b9fae-106">**Add Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-add)
--   [<span data-ttu-id="b9fae-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="b9fae-107">**Clear Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-clear)
--   [<span data-ttu-id="b9fae-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="b9fae-108">**Remove Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-remove)
+-   [<span data-ttu-id="8157e-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="8157e-106">**Add Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-add)
+-   [<span data-ttu-id="8157e-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="8157e-107">**Clear Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-clear)
+-   [<span data-ttu-id="8157e-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="8157e-108">**Remove Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-remove)
 
  
 

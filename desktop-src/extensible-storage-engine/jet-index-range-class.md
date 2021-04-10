@@ -31,19 +31,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694728"
 ---
-# <a name="jet_index_range-class"></a><span data-ttu-id="f444c-103">JET_INDEX_RANGE 類別</span><span class="sxs-lookup"><span data-stu-id="f444c-103">JET_INDEX_RANGE class</span></span>
+# <a name="jet_index_range-class"></a><span data-ttu-id="e0629-103">JET_INDEX_RANGE 類別</span><span class="sxs-lookup"><span data-stu-id="e0629-103">JET_INDEX_RANGE class</span></span>
 
-<span data-ttu-id="f444c-104">包含[JetPrereadIndexRanges (JET_SESID、JET_TABLEID、 \[ \] 、int32、int32、int32、 \[ \] 、PrereadIndexRangesGrbit) ](./windows8api.jetprereadindexranges-method.md)的定義。</span><span class="sxs-lookup"><span data-stu-id="f444c-104">Contains definition for [JetPrereadIndexRanges(JET_SESID, JET_TABLEID, \[\], Int32, Int32, Int32, \[\], PrereadIndexRangesGrbit)](./windows8api.jetprereadindexranges-method.md).</span></span>
+<span data-ttu-id="e0629-104">包含[JetPrereadIndexRanges (JET_SESID、JET_TABLEID、 \[ \] 、int32、int32、int32、 \[ \] 、PrereadIndexRangesGrbit) ](./windows8api.jetprereadindexranges-method.md)的定義。</span><span class="sxs-lookup"><span data-stu-id="e0629-104">Contains definition for [JetPrereadIndexRanges(JET_SESID, JET_TABLEID, \[\], Int32, Int32, Int32, \[\], PrereadIndexRangesGrbit)](./windows8api.jetprereadindexranges-method.md).</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="f444c-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="f444c-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="e0629-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="e0629-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="f444c-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="f444c-106">System.Object</span></span>](/dotnet/api/system.object)  
-  <span data-ttu-id="f444c-107">Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE</span><span class="sxs-lookup"><span data-stu-id="f444c-107">Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE</span></span>  
+[<span data-ttu-id="e0629-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="e0629-106">System.Object</span></span>](/dotnet/api/system.object)  
+  <span data-ttu-id="e0629-107">Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE</span><span class="sxs-lookup"><span data-stu-id="e0629-107">Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE</span></span>  
 
-<span data-ttu-id="f444c-108">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="f444c-108">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="f444c-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f444c-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="e0629-108">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e0629-108">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="e0629-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e0629-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f444c-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="f444c-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e0629-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="e0629-110">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -56,14 +56,14 @@ Dim instance As JET_INDEX_RANGE
 public class JET_INDEX_RANGE
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="f444c-111">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="f444c-111">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="e0629-111">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="e0629-111">Thread safety</span></span>
 
-<span data-ttu-id="f444c-112">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="f444c-112">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="f444c-113">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="f444c-113">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="e0629-112">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="e0629-112">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="e0629-113">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="e0629-113">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f444c-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f444c-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e0629-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e0629-114">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="f444c-115">參考</span><span class="sxs-lookup"><span data-stu-id="f444c-115">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="e0629-115">參考</span><span class="sxs-lookup"><span data-stu-id="e0629-115">Reference</span></span>
 
-[<span data-ttu-id="f444c-116">JET_INDEX_RANGE 成員</span><span class="sxs-lookup"><span data-stu-id="f444c-116">JET_INDEX_RANGE members</span></span>](./jet-index-range-members.md)
+[<span data-ttu-id="e0629-116">JET_INDEX_RANGE 成員</span><span class="sxs-lookup"><span data-stu-id="e0629-116">JET_INDEX_RANGE members</span></span>](./jet-index-range-members.md)
 
-[<span data-ttu-id="f444c-117">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="f444c-117">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="e0629-117">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="e0629-117">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

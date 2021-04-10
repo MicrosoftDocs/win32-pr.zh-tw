@@ -11,31 +11,31 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103933249"
 ---
-# <a name="globalvoicecommandsenabled-property"></a><span data-ttu-id="50b66-103">GlobalVoiceCommandsEnabled 屬性</span><span class="sxs-lookup"><span data-stu-id="50b66-103">GlobalVoiceCommandsEnabled Property</span></span>
+# <a name="globalvoicecommandsenabled-property"></a><span data-ttu-id="3fbeb-103">GlobalVoiceCommandsEnabled 屬性</span><span class="sxs-lookup"><span data-stu-id="3fbeb-103">GlobalVoiceCommandsEnabled Property</span></span>
 
-<span data-ttu-id="50b66-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="50b66-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+<span data-ttu-id="3fbeb-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="3fbeb-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="50b66-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**描述**</span><span class="sxs-lookup"><span data-stu-id="50b66-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**</span></span>
+<span data-ttu-id="3fbeb-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**描述**</span><span class="sxs-lookup"><span data-stu-id="3fbeb-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="50b66-106">傳回或設定是否已啟用代理程式全域命令的語音。</span><span class="sxs-lookup"><span data-stu-id="50b66-106">Returns or sets whether voice is enabled for Agent's global commands.</span></span>
+<span data-ttu-id="3fbeb-106">傳回或設定是否已啟用代理程式全域命令的語音。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-106">Returns or sets whether voice is enabled for Agent's global commands.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="50b66-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**</span><span class="sxs-lookup"><span data-stu-id="50b66-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**</span></span>
+<span data-ttu-id="3fbeb-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**</span><span class="sxs-lookup"><span data-stu-id="3fbeb-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="50b66-108">*代理。\*\*\*字元 (*\*\* 」CharacterID \* \* \* ") GlobalVoiceCommandsEnabled\*\*</span><span class="sxs-lookup"><span data-stu-id="50b66-108">*agent.\*\*\*Characters("*\*\* CharacterID\***").Commands.GlobalVoiceCommandsEnabled**</span></span>
+<span data-ttu-id="3fbeb-108">*代理。\*\*\*字元 (*\*\* 」CharacterID \* \* \* ") GlobalVoiceCommandsEnabled\*\*</span><span class="sxs-lookup"><span data-stu-id="3fbeb-108">*agent.\*\*\*Characters("*\*\* CharacterID\***").Commands.GlobalVoiceCommandsEnabled**</span></span>
 
-<span data-ttu-id="50b66-109">\[ = *布林*\]</span><span class="sxs-lookup"><span data-stu-id="50b66-109">\[ = *boolean*\]</span></span>
+<span data-ttu-id="3fbeb-109">\[ = *布林*\]</span><span class="sxs-lookup"><span data-stu-id="3fbeb-109">\[ = *boolean*\]</span></span>
 
 
 
-| <span data-ttu-id="50b66-110">部分</span><span class="sxs-lookup"><span data-stu-id="50b66-110">Part</span></span>      | <span data-ttu-id="50b66-111">描述</span><span class="sxs-lookup"><span data-stu-id="50b66-111">Description</span></span>                                                                                                                                                                                                            |
+| <span data-ttu-id="3fbeb-110">部分</span><span class="sxs-lookup"><span data-stu-id="3fbeb-110">Part</span></span>      | <span data-ttu-id="3fbeb-111">描述</span><span class="sxs-lookup"><span data-stu-id="3fbeb-111">Description</span></span>                                                                                                                                                                                                            |
 |-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="50b66-112">*boolean*</span><span class="sxs-lookup"><span data-stu-id="50b66-112">*boolean*</span></span> | <span data-ttu-id="50b66-113">指出是否已啟用代理程式全域命令之語音參數的布林運算式。</span><span class="sxs-lookup"><span data-stu-id="50b66-113">A Boolean expression that indicates whether voice parameters for Agent's global commands are enabled.</span></span> <span data-ttu-id="50b66-114">**True** (預設值) 啟用語音參數。</span><span class="sxs-lookup"><span data-stu-id="50b66-114">**True** (Default) Voice parameters are enabled.</span></span> <br/> <span data-ttu-id="50b66-115">**False** 語音參數已停用。</span><span class="sxs-lookup"><span data-stu-id="50b66-115">**False** Voice parameters are disabled.</span></span><br/> |
+| <span data-ttu-id="3fbeb-112">*boolean*</span><span class="sxs-lookup"><span data-stu-id="3fbeb-112">*boolean*</span></span> | <span data-ttu-id="3fbeb-113">指出是否已啟用代理程式全域命令之語音參數的布林運算式。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-113">A Boolean expression that indicates whether voice parameters for Agent's global commands are enabled.</span></span> <span data-ttu-id="3fbeb-114">**True** (預設值) 啟用語音參數。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-114">**True** (Default) Voice parameters are enabled.</span></span> <br/> <span data-ttu-id="3fbeb-115">**False** 語音參數已停用。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-115">**False** Voice parameters are disabled.</span></span><br/> |
 
 
 
@@ -43,11 +43,11 @@ ms.locfileid: "103933249"
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="50b66-116">備註</span><span class="sxs-lookup"><span data-stu-id="50b66-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3fbeb-116">備註</span><span class="sxs-lookup"><span data-stu-id="3fbeb-116">Remarks</span></span>
 
-<span data-ttu-id="50b66-117">Microsoft 代理程式會自動新增語音參數 (文法) 來開啟和關閉 [語音命令] 視窗，以及顯示和隱藏字元。</span><span class="sxs-lookup"><span data-stu-id="50b66-117">Microsoft Agent automatically adds voice parameters (grammar) for opening and closing the Voice Commands Window and for showing and hiding the character.</span></span> <span data-ttu-id="50b66-118">如果您將 **GlobalVoiceCommandsEnabled** 設定為 **False**，Agent 會停用這些命令的任何語音參數，以及其他用戶端 [**命令**](/windows/desktop/lwef/the-commands-collection-object)物件的 [**標題**](caption-property.md)的語音參數。</span><span class="sxs-lookup"><span data-stu-id="50b66-118">If you set **GlobalVoiceCommandsEnabled** to **False**, Agent disables any voice parameters for these commands as well as the voice parameters for the [**Caption**](caption-property.md) of other client's [**Commands**](/windows/desktop/lwef/the-commands-collection-object) objects.</span></span> <span data-ttu-id="50b66-119">這可讓您從用戶端目前的活動文法中排除這些。</span><span class="sxs-lookup"><span data-stu-id="50b66-119">This enables you to eliminate these from your client's current active grammar.</span></span> <span data-ttu-id="50b66-120">不過，因為這可能會封鎖其他用戶端的語音存取，所以在處理使用者的語音輸入之後，請將此屬性重設為 **True** 。</span><span class="sxs-lookup"><span data-stu-id="50b66-120">However, because this potentially blocks voice access to other clients, reset this property to **True** after processing the user's voice input.</span></span>
+<span data-ttu-id="3fbeb-117">Microsoft 代理程式會自動新增語音參數 (文法) 來開啟和關閉 [語音命令] 視窗，以及顯示和隱藏字元。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-117">Microsoft Agent automatically adds voice parameters (grammar) for opening and closing the Voice Commands Window and for showing and hiding the character.</span></span> <span data-ttu-id="3fbeb-118">如果您將 **GlobalVoiceCommandsEnabled** 設定為 **False**，Agent 會停用這些命令的任何語音參數，以及其他用戶端 [**命令**](/windows/desktop/lwef/the-commands-collection-object)物件的 [**標題**](caption-property.md)的語音參數。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-118">If you set **GlobalVoiceCommandsEnabled** to **False**, Agent disables any voice parameters for these commands as well as the voice parameters for the [**Caption**](caption-property.md) of other client's [**Commands**](/windows/desktop/lwef/the-commands-collection-object) objects.</span></span> <span data-ttu-id="3fbeb-119">這可讓您從用戶端目前的活動文法中排除這些。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-119">This enables you to eliminate these from your client's current active grammar.</span></span> <span data-ttu-id="3fbeb-120">不過，因為這可能會封鎖其他用戶端的語音存取，所以在處理使用者的語音輸入之後，請將此屬性重設為 **True** 。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-120">However, because this potentially blocks voice access to other clients, reset this property to **True** after processing the user's voice input.</span></span>
 
-<span data-ttu-id="50b66-121">停用此屬性並不會影響該字元的快顯功能表。</span><span class="sxs-lookup"><span data-stu-id="50b66-121">Disabling the property does not affect the character's pop-up menu.</span></span> <span data-ttu-id="50b66-122">伺服器所加入的全域命令仍會出現。</span><span class="sxs-lookup"><span data-stu-id="50b66-122">The global commands added by the server will still appear.</span></span> <span data-ttu-id="50b66-123">您無法從快顯功能表中移除它們。</span><span class="sxs-lookup"><span data-stu-id="50b66-123">You cannot remove them from the pop-up menu.</span></span>
+<span data-ttu-id="3fbeb-121">停用此屬性並不會影響該字元的快顯功能表。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-121">Disabling the property does not affect the character's pop-up menu.</span></span> <span data-ttu-id="3fbeb-122">伺服器所加入的全域命令仍會出現。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-122">The global commands added by the server will still appear.</span></span> <span data-ttu-id="3fbeb-123">您無法從快顯功能表中移除它們。</span><span class="sxs-lookup"><span data-stu-id="3fbeb-123">You cannot remove them from the pop-up menu.</span></span>
 
  
 

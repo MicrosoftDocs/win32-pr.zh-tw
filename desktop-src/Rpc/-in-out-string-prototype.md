@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933344"
 ---
-# <a name="in-out-string-prototype"></a><span data-ttu-id="640c6-103">\[in、out、string \] 原型</span><span class="sxs-lookup"><span data-stu-id="640c6-103">\[in, out, string\] Prototype</span></span>
+# <a name="in-out-string-prototype"></a><span data-ttu-id="e236b-103">\[in、out、string \] 原型</span><span class="sxs-lookup"><span data-stu-id="e236b-103">\[in, out, string\] Prototype</span></span>
 
-<span data-ttu-id="640c6-104">下列函式原型 \[ [](/windows/desktop/Midl/in)針對輸入和輸出字串使用單一 in、 [**out**](/windows/desktop/Midl/out-idl)、 [**string**](/windows/desktop/Midl/string) \] 參數。</span><span class="sxs-lookup"><span data-stu-id="640c6-104">The following function prototype uses a single \[[**in**](/windows/desktop/Midl/in), [**out**](/windows/desktop/Midl/out-idl), [**string**](/windows/desktop/Midl/string)\] parameter for both the input and output strings.</span></span> <span data-ttu-id="640c6-105">字串首先包含患者輸入，然後以醫生回應覆寫，如下所示：</span><span class="sxs-lookup"><span data-stu-id="640c6-105">The string first contains patient input and is then overwritten with the doctor response as shown:</span></span>
+<span data-ttu-id="e236b-104">下列函式原型 \[ [](/windows/desktop/Midl/in)針對輸入和輸出字串使用單一 in、 [**out**](/windows/desktop/Midl/out-idl)、 [**string**](/windows/desktop/Midl/string) \] 參數。</span><span class="sxs-lookup"><span data-stu-id="e236b-104">The following function prototype uses a single \[[**in**](/windows/desktop/Midl/in), [**out**](/windows/desktop/Midl/out-idl), [**string**](/windows/desktop/Midl/string)\] parameter for both the input and output strings.</span></span> <span data-ttu-id="e236b-105">字串首先包含患者輸入，然後以醫生回應覆寫，如下所示：</span><span class="sxs-lookup"><span data-stu-id="e236b-105">The string first contains patient input and is then overwritten with the doctor response as shown:</span></span>
 
 ``` syntax
 void Analyze([in, out, string, size_is(STRSIZE)] char  achInOut[]);
 ```
 
-<span data-ttu-id="640c6-106">這個範例類似于針對輸入和輸出採用單一計數位符串的範例。</span><span class="sxs-lookup"><span data-stu-id="640c6-106">This example is similar to the one that employed a single-counted string for both input and output.</span></span> <span data-ttu-id="640c6-107">就像這樣的範例一樣， \[ [**size \_ 是**](/windows/desktop/Midl/size-is)屬性（attribute）會 \] 決定伺服器上配置的元素數目。</span><span class="sxs-lookup"><span data-stu-id="640c6-107">As with that example, the \[[**size\_is**](/windows/desktop/Midl/size-is)\] attribute determines the number of elements allocated on the server.</span></span> <span data-ttu-id="640c6-108">\[[**字串**](/windows/desktop/Midl/string) \] 屬性會指示存根呼叫 **strlen** ，以判斷已傳送的元素數目。</span><span class="sxs-lookup"><span data-stu-id="640c6-108">The \[[**string**](/windows/desktop/Midl/string)\] attribute directs the stub to call **strlen** to determine the number of transmitted elements.</span></span>
+<span data-ttu-id="e236b-106">這個範例類似于針對輸入和輸出採用單一計數位符串的範例。</span><span class="sxs-lookup"><span data-stu-id="e236b-106">This example is similar to the one that employed a single-counted string for both input and output.</span></span> <span data-ttu-id="e236b-107">就像這樣的範例一樣， \[ [**size \_ 是**](/windows/desktop/Midl/size-is)屬性（attribute）會 \] 決定伺服器上配置的元素數目。</span><span class="sxs-lookup"><span data-stu-id="e236b-107">As with that example, the \[[**size\_is**](/windows/desktop/Midl/size-is)\] attribute determines the number of elements allocated on the server.</span></span> <span data-ttu-id="e236b-108">\[[**字串**](/windows/desktop/Midl/string) \] 屬性會指示存根呼叫 **strlen** ，以判斷已傳送的元素數目。</span><span class="sxs-lookup"><span data-stu-id="e236b-108">The \[[**string**](/windows/desktop/Midl/string)\] attribute directs the stub to call **strlen** to determine the number of transmitted elements.</span></span>
 
-<span data-ttu-id="640c6-109">用戶端會在呼叫之前配置所有的記憶體，如下所示：</span><span class="sxs-lookup"><span data-stu-id="640c6-109">The client allocates all memory before the call as:</span></span>
+<span data-ttu-id="e236b-109">用戶端會在呼叫之前配置所有的記憶體，如下所示：</span><span class="sxs-lookup"><span data-stu-id="e236b-109">The client allocates all memory before the call as:</span></span>
 
 ``` syntax
 /* client */
@@ -32,7 +32,7 @@ Analyze(achInOut);
 printf("%s\n", achInOut);  // display doctor response
 ```
 
-<span data-ttu-id="640c6-110">請注意，[分析] 函數不再需要計算傳回字串的長度，就如同在未使用 **\[ 字串 \]** 屬性的計數位符串範例中所做的一樣。</span><span class="sxs-lookup"><span data-stu-id="640c6-110">Note that the Analyze function no longer must calculate the length of the return string as it did in the counted-string example where the **\[string\]** attribute was not used.</span></span> <span data-ttu-id="640c6-111">現在，存根會計算如下所示的長度：</span><span class="sxs-lookup"><span data-stu-id="640c6-111">Now the stubs calculate the length as shown:</span></span>
+<span data-ttu-id="e236b-110">請注意，[分析] 函數不再需要計算傳回字串的長度，就如同在未使用 **\[ 字串 \]** 屬性的計數位符串範例中所做的一樣。</span><span class="sxs-lookup"><span data-stu-id="e236b-110">Note that the Analyze function no longer must calculate the length of the return string as it did in the counted-string example where the **\[string\]** attribute was not used.</span></span> <span data-ttu-id="e236b-111">現在，存根會計算如下所示的長度：</span><span class="sxs-lookup"><span data-stu-id="e236b-111">Now the stubs calculate the length as shown:</span></span>
 
 ``` syntax
 /* server */

@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694716"
 ---
-# <a name="jet_indexcreatecbkey-property"></a><span data-ttu-id="6eadc-103">JET_INDEXCREATE cbKey 屬性</span><span class="sxs-lookup"><span data-stu-id="6eadc-103">JET_INDEXCREATE.cbKey property</span></span>
+# <a name="jet_indexcreatecbkey-property"></a><span data-ttu-id="581b0-103">JET_INDEXCREATE cbKey 屬性</span><span class="sxs-lookup"><span data-stu-id="581b0-103">JET_INDEXCREATE.cbKey property</span></span>
 
-<span data-ttu-id="6eadc-104">取得或設定 szKey 的長度（以字元為單位），包括兩個終止的 null。</span><span class="sxs-lookup"><span data-stu-id="6eadc-104">Gets or sets the length, in characters, of szKey including the two terminating nulls.</span></span>
+<span data-ttu-id="581b0-104">取得或設定 szKey 的長度（以字元為單位），包括兩個終止的 null。</span><span class="sxs-lookup"><span data-stu-id="581b0-104">Gets or sets the length, in characters, of szKey including the two terminating nulls.</span></span>
 
-<span data-ttu-id="6eadc-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6eadc-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="6eadc-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6eadc-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="581b0-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="581b0-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="581b0-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="581b0-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6eadc-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="6eadc-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="581b0-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="581b0-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.cbKey = value
 public int cbKey { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="6eadc-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="6eadc-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="581b0-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="581b0-108">Property value</span></span>
 
-<span data-ttu-id="6eadc-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="6eadc-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="581b0-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="581b0-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="6eadc-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6eadc-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="581b0-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="581b0-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="6eadc-111">參考</span><span class="sxs-lookup"><span data-stu-id="6eadc-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="581b0-111">參考</span><span class="sxs-lookup"><span data-stu-id="581b0-111">Reference</span></span>
 
-[<span data-ttu-id="6eadc-112">JET_INDEXCREATE 類別</span><span class="sxs-lookup"><span data-stu-id="6eadc-112">JET_INDEXCREATE class</span></span>](./jet-indexcreate-class.md)
+[<span data-ttu-id="581b0-112">JET_INDEXCREATE 類別</span><span class="sxs-lookup"><span data-stu-id="581b0-112">JET_INDEXCREATE class</span></span>](./jet-indexcreate-class.md)
 
-[<span data-ttu-id="6eadc-113">JET_INDEXCREATE 成員</span><span class="sxs-lookup"><span data-stu-id="6eadc-113">JET_INDEXCREATE members</span></span>](./jet-indexcreate-members.md)
+[<span data-ttu-id="581b0-113">JET_INDEXCREATE 成員</span><span class="sxs-lookup"><span data-stu-id="581b0-113">JET_INDEXCREATE members</span></span>](./jet-indexcreate-members.md)
 
-[<span data-ttu-id="6eadc-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="6eadc-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="581b0-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="581b0-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

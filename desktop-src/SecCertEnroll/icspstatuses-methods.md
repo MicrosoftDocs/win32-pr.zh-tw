@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944960"
 ---
-# <a name="icspstatuses-methods"></a><span data-ttu-id="c6169-103">ICspStatuses 方法</span><span class="sxs-lookup"><span data-stu-id="c6169-103">ICspStatuses Methods</span></span>
+# <a name="icspstatuses-methods"></a><span data-ttu-id="e5ef0-103">ICspStatuses 方法</span><span class="sxs-lookup"><span data-stu-id="e5ef0-103">ICspStatuses Methods</span></span>
 
-<span data-ttu-id="c6169-104">[**ICspStatuses**](/windows/desktop/api/CertEnroll/nn-certenroll-icspstatuses)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="c6169-104">The [**ICspStatuses**](/windows/desktop/api/CertEnroll/nn-certenroll-icspstatuses) interface exposes the following methods.</span></span>
+<span data-ttu-id="e5ef0-104">[**ICspStatuses**](/windows/desktop/api/CertEnroll/nn-certenroll-icspstatuses)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="e5ef0-104">The [**ICspStatuses**](/windows/desktop/api/CertEnroll/nn-certenroll-icspstatuses) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="c6169-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c6169-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e5ef0-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="e5ef0-105">In this section</span></span>
 
--   [<span data-ttu-id="c6169-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="c6169-106">**Add Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-add)
--   [<span data-ttu-id="c6169-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="c6169-107">**Clear Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-clear)
--   [<span data-ttu-id="c6169-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="c6169-108">**Remove Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-remove)
+-   [<span data-ttu-id="e5ef0-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="e5ef0-106">**Add Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-add)
+-   [<span data-ttu-id="e5ef0-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="e5ef0-107">**Clear Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-clear)
+-   [<span data-ttu-id="e5ef0-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="e5ef0-108">**Remove Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-remove)
 
  
 
