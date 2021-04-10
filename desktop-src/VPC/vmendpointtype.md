@@ -21,13 +21,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843508"
 ---
-# <a name="vmendpointtype-enumeration"></a><span data-ttu-id="cdd21-104">VMEndpointType 列舉</span><span class="sxs-lookup"><span data-stu-id="cdd21-104">VMEndpointType enumeration</span></span>
+# <a name="vmendpointtype-enumeration"></a><span data-ttu-id="6d058-104">VMEndpointType 列舉</span><span class="sxs-lookup"><span data-stu-id="6d058-104">VMEndpointType enumeration</span></span>
 
-<span data-ttu-id="cdd21-105">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="cdd21-105">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="cdd21-106">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="cdd21-106">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
+<span data-ttu-id="6d058-105">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="6d058-105">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="6d058-106">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="6d058-106">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
 
-<span data-ttu-id="cdd21-107">指定端點類型。</span><span class="sxs-lookup"><span data-stu-id="cdd21-107">Specifies the endpoint type.</span></span>
+<span data-ttu-id="6d058-107">指定端點類型。</span><span class="sxs-lookup"><span data-stu-id="6d058-107">Specifies the endpoint type.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cdd21-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="cdd21-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6d058-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="6d058-108">Syntax</span></span>
 
 
 ```C++
@@ -39,43 +39,43 @@ typedef enum  {
 
 
 
-## <a name="constants"></a><span data-ttu-id="cdd21-109">常數</span><span class="sxs-lookup"><span data-stu-id="cdd21-109">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="6d058-109">常數</span><span class="sxs-lookup"><span data-stu-id="6d058-109">Constants</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="cdd21-110"><span id="vmEndpoint_NamedPipe"></span><span id="vmendpoint_namedpipe"></span><span id="VMENDPOINT_NAMEDPIPE"></span>**vmEndpoint \_ NamedPipe**</span><span class="sxs-lookup"><span data-stu-id="cdd21-110"><span id="vmEndpoint_NamedPipe"></span><span id="vmendpoint_namedpipe"></span><span id="VMENDPOINT_NAMEDPIPE"></span>**vmEndpoint\_NamedPipe**</span></span>
+<span data-ttu-id="6d058-110"><span id="vmEndpoint_NamedPipe"></span><span id="vmendpoint_namedpipe"></span><span id="VMENDPOINT_NAMEDPIPE"></span>**vmEndpoint \_ NamedPipe**</span><span class="sxs-lookup"><span data-stu-id="6d058-110"><span id="vmEndpoint_NamedPipe"></span><span id="vmendpoint_namedpipe"></span><span id="VMENDPOINT_NAMEDPIPE"></span>**vmEndpoint\_NamedPipe**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cdd21-111">主控制項端。</span><span class="sxs-lookup"><span data-stu-id="cdd21-111">The host side.</span></span>
+<span data-ttu-id="6d058-111">主控制項端。</span><span class="sxs-lookup"><span data-stu-id="6d058-111">The host side.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cdd21-112"><span id="vmEndpoint_TCPIP"></span><span id="vmendpoint_tcpip"></span><span id="VMENDPOINT_TCPIP"></span>**vmEndpoint \_ TCPIP**</span><span class="sxs-lookup"><span data-stu-id="cdd21-112"><span id="vmEndpoint_TCPIP"></span><span id="vmendpoint_tcpip"></span><span id="VMENDPOINT_TCPIP"></span>**vmEndpoint\_TCPIP**</span></span>
+<span data-ttu-id="6d058-112"><span id="vmEndpoint_TCPIP"></span><span id="vmendpoint_tcpip"></span><span id="VMENDPOINT_TCPIP"></span>**vmEndpoint \_ TCPIP**</span><span class="sxs-lookup"><span data-stu-id="6d058-112"><span id="vmEndpoint_TCPIP"></span><span id="vmendpoint_tcpip"></span><span id="VMENDPOINT_TCPIP"></span>**vmEndpoint\_TCPIP**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cdd21-113">來賓端。</span><span class="sxs-lookup"><span data-stu-id="cdd21-113">The guest side.</span></span>
+<span data-ttu-id="6d058-113">來賓端。</span><span class="sxs-lookup"><span data-stu-id="6d058-113">The guest side.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="cdd21-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="cdd21-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6d058-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="6d058-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="cdd21-115">需求</span><span class="sxs-lookup"><span data-stu-id="cdd21-115">Requirement</span></span> | <span data-ttu-id="cdd21-116">值</span><span class="sxs-lookup"><span data-stu-id="cdd21-116">Value</span></span> |
+| <span data-ttu-id="6d058-115">需求</span><span class="sxs-lookup"><span data-stu-id="6d058-115">Requirement</span></span> | <span data-ttu-id="6d058-116">值</span><span class="sxs-lookup"><span data-stu-id="6d058-116">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| <span data-ttu-id="cdd21-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="cdd21-117">Minimum supported client</span></span><br/> | <span data-ttu-id="cdd21-118">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="cdd21-118">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="cdd21-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="cdd21-119">Minimum supported server</span></span><br/> | <span data-ttu-id="cdd21-120">都不支援</span><span class="sxs-lookup"><span data-stu-id="cdd21-120">None supported</span></span><br/>                                                                     |
-| <span data-ttu-id="cdd21-121">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="cdd21-121">End of client support</span></span><br/>    | <span data-ttu-id="cdd21-122">Windows 7</span><span class="sxs-lookup"><span data-stu-id="cdd21-122">Windows 7</span></span><br/>                                                                          |
-| <span data-ttu-id="cdd21-123">產品</span><span class="sxs-lookup"><span data-stu-id="cdd21-123">Product</span></span><br/>                  | <span data-ttu-id="cdd21-124">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="cdd21-124">Windows Virtual PC</span></span><br/>                                                                 |
-| <span data-ttu-id="cdd21-125">標頭</span><span class="sxs-lookup"><span data-stu-id="cdd21-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="cdd21-126"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="cdd21-126"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
+| <span data-ttu-id="6d058-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6d058-117">Minimum supported client</span></span><br/> | <span data-ttu-id="6d058-118">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6d058-118">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="6d058-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6d058-119">Minimum supported server</span></span><br/> | <span data-ttu-id="6d058-120">都不支援</span><span class="sxs-lookup"><span data-stu-id="6d058-120">None supported</span></span><br/>                                                                     |
+| <span data-ttu-id="6d058-121">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="6d058-121">End of client support</span></span><br/>    | <span data-ttu-id="6d058-122">Windows 7</span><span class="sxs-lookup"><span data-stu-id="6d058-122">Windows 7</span></span><br/>                                                                          |
+| <span data-ttu-id="6d058-123">產品</span><span class="sxs-lookup"><span data-stu-id="6d058-123">Product</span></span><br/>                  | <span data-ttu-id="6d058-124">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="6d058-124">Windows Virtual PC</span></span><br/>                                                                 |
+| <span data-ttu-id="6d058-125">標頭</span><span class="sxs-lookup"><span data-stu-id="6d058-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="6d058-126"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="6d058-126"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="cdd21-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cdd21-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6d058-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6d058-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="cdd21-128">**IVMVirtualMachine::StartCommunicationChannel**</span><span class="sxs-lookup"><span data-stu-id="cdd21-128">**IVMVirtualMachine::StartCommunicationChannel**</span></span>](ivmvirtualmachine-startcommunicationchannel.md)
+[<span data-ttu-id="6d058-128">**IVMVirtualMachine::StartCommunicationChannel**</span><span class="sxs-lookup"><span data-stu-id="6d058-128">**IVMVirtualMachine::StartCommunicationChannel**</span></span>](ivmvirtualmachine-startcommunicationchannel.md)
 </dt> </dl>
 
  

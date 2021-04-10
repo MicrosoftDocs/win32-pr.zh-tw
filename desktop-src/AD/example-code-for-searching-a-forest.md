@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "103681664"
 ---
-# <a name="example-code-for-searching-a-forest"></a><span data-ttu-id="f3356-104">搜尋樹系的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="f3356-104">Example Code for Searching a Forest</span></span>
+# <a name="example-code-for-searching-a-forest"></a><span data-ttu-id="7499b-104">搜尋樹系的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="7499b-104">Example Code for Searching a Forest</span></span>
 
-<span data-ttu-id="f3356-105">本主題包含搜尋樹系的範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="f3356-105">This topic contains example code that searches a forest.</span></span>
+<span data-ttu-id="7499b-105">本主題包含搜尋樹系的範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="7499b-105">This topic contains example code that searches a forest.</span></span>
 
-<span data-ttu-id="f3356-106">下列 C/c + + 程式碼範例會系結至通用類別目錄的根目錄，並列舉單一物件（樹系的根目錄），以便用來搜尋整個樹系。</span><span class="sxs-lookup"><span data-stu-id="f3356-106">The following C/C++ code example binds to the root of the Global Catalog and enumerates the single object, which is the root of the forest, so that it can be used to search the entire forest.</span></span>
+<span data-ttu-id="7499b-106">下列 C/c + + 程式碼範例會系結至通用類別目錄的根目錄，並列舉單一物件（樹系的根目錄），以便用來搜尋整個樹系。</span><span class="sxs-lookup"><span data-stu-id="7499b-106">The following C/C++ code example binds to the root of the Global Catalog and enumerates the single object, which is the root of the forest, so that it can be used to search the entire forest.</span></span>
 
 
 ```C++
@@ -32,9 +32,9 @@ Next
 
 
 
-<span data-ttu-id="f3356-107">下列 C/c + + 程式碼範例包含一個函式，該函式會傳回用來搜尋整個樹系的 [**>idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) 指標。</span><span class="sxs-lookup"><span data-stu-id="f3356-107">The following C/C++ code example contains a function that returns an [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer used to search the entire forest.</span></span>
+<span data-ttu-id="7499b-107">下列 C/c + + 程式碼範例包含一個函式，該函式會傳回用來搜尋整個樹系的 [**>idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) 指標。</span><span class="sxs-lookup"><span data-stu-id="7499b-107">The following C/C++ code example contains a function that returns an [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer used to search the entire forest.</span></span>
 
-<span data-ttu-id="f3356-108">此函式會執行無伺服器系結至通用類別目錄的根目錄、列舉單一專案，也就是樹系的根目錄，並且可以用來搜尋整個樹系，呼叫 [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) 以取得物件的 [**>idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) 指標，並傳回該指標供呼叫端用來搜尋樹系。</span><span class="sxs-lookup"><span data-stu-id="f3356-108">The function performs a serverless bind to the root of the Global Catalog, enumerates the single item, which is the root of the forest and can be used to search the entire forest, calls [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) to get an [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer to the object, and returns that pointer for use by the caller to search the forest.</span></span>
+<span data-ttu-id="7499b-108">此函式會執行無伺服器系結至通用類別目錄的根目錄、列舉單一專案，也就是樹系的根目錄，並且可以用來搜尋整個樹系，呼叫 [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) 以取得物件的 [**>idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) 指標，並傳回該指標供呼叫端用來搜尋樹系。</span><span class="sxs-lookup"><span data-stu-id="7499b-108">The function performs a serverless bind to the root of the Global Catalog, enumerates the single item, which is the root of the forest and can be used to search the entire forest, calls [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) to get an [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer to the object, and returns that pointer for use by the caller to search the forest.</span></span>
 
 
 ```C++

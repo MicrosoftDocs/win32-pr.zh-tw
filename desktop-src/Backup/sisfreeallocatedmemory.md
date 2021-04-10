@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843304"
 ---
-# <a name="sisfreeallocatedmemory-function"></a><span data-ttu-id="a5849-104">SisFreeAllocatedMemory 函式</span><span class="sxs-lookup"><span data-stu-id="a5849-104">SisFreeAllocatedMemory function</span></span>
+# <a name="sisfreeallocatedmemory-function"></a><span data-ttu-id="5a12b-104">SisFreeAllocatedMemory 函式</span><span class="sxs-lookup"><span data-stu-id="5a12b-104">SisFreeAllocatedMemory function</span></span>
 
-<span data-ttu-id="a5849-105">**SisFreeAllocatedMemory** 函式會釋出 SIS API 函式所配置的記憶體。</span><span class="sxs-lookup"><span data-stu-id="a5849-105">The **SisFreeAllocatedMemory** function frees memory allocated by SIS API functions.</span></span>
+<span data-ttu-id="5a12b-105">**SisFreeAllocatedMemory** 函式會釋出 SIS API 函式所配置的記憶體。</span><span class="sxs-lookup"><span data-stu-id="5a12b-105">The **SisFreeAllocatedMemory** function frees memory allocated by SIS API functions.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a5849-106">語法</span><span class="sxs-lookup"><span data-stu-id="a5849-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5a12b-106">語法</span><span class="sxs-lookup"><span data-stu-id="5a12b-106">Syntax</span></span>
 
 
 ```C++
@@ -36,55 +36,55 @@ void SisFreeAllocatedMemory(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="a5849-107">參數</span><span class="sxs-lookup"><span data-stu-id="a5849-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5a12b-107">參數</span><span class="sxs-lookup"><span data-stu-id="5a12b-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a5849-108">*allocatedSpace* \[在\]</span><span class="sxs-lookup"><span data-stu-id="a5849-108">*allocatedSpace* \[in\]</span></span>
+<span data-ttu-id="5a12b-108">*allocatedSpace* \[在\]</span><span class="sxs-lookup"><span data-stu-id="5a12b-108">*allocatedSpace* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a5849-109">SIS API 所配置之記憶體的指標。</span><span class="sxs-lookup"><span data-stu-id="a5849-109">Pointer to the memory allocated by the SIS API.</span></span>
+<span data-ttu-id="5a12b-109">SIS API 所配置之記憶體的指標。</span><span class="sxs-lookup"><span data-stu-id="5a12b-109">Pointer to the memory allocated by the SIS API.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="a5849-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="a5849-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5a12b-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="5a12b-110">Return value</span></span>
 
-<span data-ttu-id="a5849-111">此函式不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="a5849-111">This function does not return a value.</span></span>
+<span data-ttu-id="5a12b-111">此函式不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="5a12b-111">This function does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a5849-112">備註</span><span class="sxs-lookup"><span data-stu-id="a5849-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5a12b-112">備註</span><span class="sxs-lookup"><span data-stu-id="5a12b-112">Remarks</span></span>
 
-<span data-ttu-id="a5849-113">呼叫此函式完成之後，呼叫端就無法再存取釋放的記憶體。</span><span class="sxs-lookup"><span data-stu-id="a5849-113">After the call to this function completes, the caller may no longer access the freed memory.</span></span>
+<span data-ttu-id="5a12b-113">呼叫此函式完成之後，呼叫端就無法再存取釋放的記憶體。</span><span class="sxs-lookup"><span data-stu-id="5a12b-113">After the call to this function completes, the caller may no longer access the freed memory.</span></span>
 
-<span data-ttu-id="a5849-114">此呼叫應該用來解除配置針對 [**SisCreateBackupStructure**](siscreatebackupstructure.md)和 [**SisCreateRestoreStructure**](siscreaterestorestructure.md)所傳回之 *commonStoreRootPathname* 參數字串所配置的記憶體，以及包含從 **SisCreateBackupStructure**、 [**SisCSFilesToBackupForLink**](siscsfilestobackupforlink.md)、 **SisCreateRestoreStructure** 和 [**SisRestoredLink**](sisrestoredlink.md)傳回之一般存放區檔案名的字串陣列。</span><span class="sxs-lookup"><span data-stu-id="a5849-114">This call should be used to deallocate the memory allocated for the *commonStoreRootPathname* parameter strings returned from [**SisCreateBackupStructure**](siscreatebackupstructure.md) and [**SisCreateRestoreStructure**](siscreaterestorestructure.md), and the array of strings containing common-store file names returned from **SisCreateBackupStructure**, [**SisCSFilesToBackupForLink**](siscsfilestobackupforlink.md), **SisCreateRestoreStructure**, and [**SisRestoredLink**](sisrestoredlink.md).</span></span> <span data-ttu-id="a5849-115">在後者的情況下，也必須藉由呼叫 **SisFreeAllocatedMemory** 來釋放陣列本身。</span><span class="sxs-lookup"><span data-stu-id="a5849-115">In the latter case, the array itself also must be freed by calling **SisFreeAllocatedMemory**.</span></span>
+<span data-ttu-id="5a12b-114">此呼叫應該用來解除配置針對 [**SisCreateBackupStructure**](siscreatebackupstructure.md)和 [**SisCreateRestoreStructure**](siscreaterestorestructure.md)所傳回之 *commonStoreRootPathname* 參數字串所配置的記憶體，以及包含從 **SisCreateBackupStructure**、 [**SisCSFilesToBackupForLink**](siscsfilestobackupforlink.md)、 **SisCreateRestoreStructure** 和 [**SisRestoredLink**](sisrestoredlink.md)傳回之一般存放區檔案名的字串陣列。</span><span class="sxs-lookup"><span data-stu-id="5a12b-114">This call should be used to deallocate the memory allocated for the *commonStoreRootPathname* parameter strings returned from [**SisCreateBackupStructure**](siscreatebackupstructure.md) and [**SisCreateRestoreStructure**](siscreaterestorestructure.md), and the array of strings containing common-store file names returned from **SisCreateBackupStructure**, [**SisCSFilesToBackupForLink**](siscsfilestobackupforlink.md), **SisCreateRestoreStructure**, and [**SisRestoredLink**](sisrestoredlink.md).</span></span> <span data-ttu-id="5a12b-115">在後者的情況下，也必須藉由呼叫 **SisFreeAllocatedMemory** 來釋放陣列本身。</span><span class="sxs-lookup"><span data-stu-id="5a12b-115">In the latter case, the array itself also must be freed by calling **SisFreeAllocatedMemory**.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="a5849-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="a5849-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5a12b-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="5a12b-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a5849-117">需求</span><span class="sxs-lookup"><span data-stu-id="a5849-117">Requirement</span></span> | <span data-ttu-id="a5849-118">值</span><span class="sxs-lookup"><span data-stu-id="a5849-118">Value</span></span> |
+| <span data-ttu-id="5a12b-117">需求</span><span class="sxs-lookup"><span data-stu-id="5a12b-117">Requirement</span></span> | <span data-ttu-id="5a12b-118">值</span><span class="sxs-lookup"><span data-stu-id="5a12b-118">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="a5849-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a5849-119">Minimum supported client</span></span><br/> | <span data-ttu-id="a5849-120">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a5849-120">Windows XP \[desktop apps only\]</span></span><br/>                                            |
-| <span data-ttu-id="a5849-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a5849-121">Minimum supported server</span></span><br/> | <span data-ttu-id="a5849-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a5849-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                   |
-| <span data-ttu-id="a5849-123">標頭</span><span class="sxs-lookup"><span data-stu-id="a5849-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="a5849-124"><dt>Sisbkup。h</dt></span><span class="sxs-lookup"><span data-stu-id="a5849-124"><dt>Sisbkup.h</dt></span></span> </dl>   |
-| <span data-ttu-id="a5849-125">程式庫</span><span class="sxs-lookup"><span data-stu-id="a5849-125">Library</span></span><br/>                  | <dl> <span data-ttu-id="a5849-126"><dt>Sisbkup .lib</dt></span><span class="sxs-lookup"><span data-stu-id="a5849-126"><dt>Sisbkup.lib</dt></span></span> </dl> |
-| <span data-ttu-id="a5849-127">DLL</span><span class="sxs-lookup"><span data-stu-id="a5849-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="a5849-128"><dt>Sisbkup.dll</dt></span><span class="sxs-lookup"><span data-stu-id="a5849-128"><dt>Sisbkup.dll</dt></span></span> </dl> |
+| <span data-ttu-id="5a12b-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5a12b-119">Minimum supported client</span></span><br/> | <span data-ttu-id="5a12b-120">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5a12b-120">Windows XP \[desktop apps only\]</span></span><br/>                                            |
+| <span data-ttu-id="5a12b-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5a12b-121">Minimum supported server</span></span><br/> | <span data-ttu-id="5a12b-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5a12b-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                   |
+| <span data-ttu-id="5a12b-123">標頭</span><span class="sxs-lookup"><span data-stu-id="5a12b-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="5a12b-124"><dt>Sisbkup。h</dt></span><span class="sxs-lookup"><span data-stu-id="5a12b-124"><dt>Sisbkup.h</dt></span></span> </dl>   |
+| <span data-ttu-id="5a12b-125">程式庫</span><span class="sxs-lookup"><span data-stu-id="5a12b-125">Library</span></span><br/>                  | <dl> <span data-ttu-id="5a12b-126"><dt>Sisbkup .lib</dt></span><span class="sxs-lookup"><span data-stu-id="5a12b-126"><dt>Sisbkup.lib</dt></span></span> </dl> |
+| <span data-ttu-id="5a12b-127">DLL</span><span class="sxs-lookup"><span data-stu-id="5a12b-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="5a12b-128"><dt>Sisbkup.dll</dt></span><span class="sxs-lookup"><span data-stu-id="5a12b-128"><dt>Sisbkup.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a5849-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a5849-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5a12b-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5a12b-129">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a5849-130">**SisCreateBackupStructure**</span><span class="sxs-lookup"><span data-stu-id="a5849-130">**SisCreateBackupStructure**</span></span>](siscreatebackupstructure.md)
+[<span data-ttu-id="5a12b-130">**SisCreateBackupStructure**</span><span class="sxs-lookup"><span data-stu-id="5a12b-130">**SisCreateBackupStructure**</span></span>](siscreatebackupstructure.md)
 </dt> <dt>
 
-[<span data-ttu-id="a5849-131">**SisCreateRestoreStructure**</span><span class="sxs-lookup"><span data-stu-id="a5849-131">**SisCreateRestoreStructure**</span></span>](siscreaterestorestructure.md)
+[<span data-ttu-id="5a12b-131">**SisCreateRestoreStructure**</span><span class="sxs-lookup"><span data-stu-id="5a12b-131">**SisCreateRestoreStructure**</span></span>](siscreaterestorestructure.md)
 </dt> <dt>
 
-[<span data-ttu-id="a5849-132">**SisCSFilesToBackupForLink**</span><span class="sxs-lookup"><span data-stu-id="a5849-132">**SisCSFilesToBackupForLink**</span></span>](siscsfilestobackupforlink.md)
+[<span data-ttu-id="5a12b-132">**SisCSFilesToBackupForLink**</span><span class="sxs-lookup"><span data-stu-id="5a12b-132">**SisCSFilesToBackupForLink**</span></span>](siscsfilestobackupforlink.md)
 </dt> <dt>
 
-[<span data-ttu-id="a5849-133">**SisRestoredLink**</span><span class="sxs-lookup"><span data-stu-id="a5849-133">**SisRestoredLink**</span></span>](sisrestoredlink.md)
+[<span data-ttu-id="5a12b-133">**SisRestoredLink**</span><span class="sxs-lookup"><span data-stu-id="5a12b-133">**SisRestoredLink**</span></span>](sisrestoredlink.md)
 </dt> </dl>
 
  

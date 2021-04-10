@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843696"
 ---
-# <a name="mci_tmsf_track-macro"></a><span data-ttu-id="329e1-104">MCI \_ TMSF \_ TRACK 宏</span><span class="sxs-lookup"><span data-stu-id="329e1-104">MCI\_TMSF\_TRACK macro</span></span>
+# <a name="mci_tmsf_track-macro"></a><span data-ttu-id="7c85f-104">MCI \_ TMSF \_ TRACK 宏</span><span class="sxs-lookup"><span data-stu-id="7c85f-104">MCI\_TMSF\_TRACK macro</span></span>
 
-<span data-ttu-id="329e1-105">**MCI \_ TMSF \_ TRACK** 宏會從包含封裝曲目/分鐘/秒/畫面格的參數抓取 TRACK 元件， (TMSF) 資訊。</span><span class="sxs-lookup"><span data-stu-id="329e1-105">The **MCI\_TMSF\_TRACK** macro retrieves the tracks component from a parameter containing packed tracks/minutes/seconds/frames (TMSF) information.</span></span>
+<span data-ttu-id="7c85f-105">**MCI \_ TMSF \_ TRACK** 宏會從包含封裝曲目/分鐘/秒/畫面格的參數抓取 TRACK 元件， (TMSF) 資訊。</span><span class="sxs-lookup"><span data-stu-id="7c85f-105">The **MCI\_TMSF\_TRACK** macro retrieves the tracks component from a parameter containing packed tracks/minutes/seconds/frames (TMSF) information.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="329e1-106">語法</span><span class="sxs-lookup"><span data-stu-id="329e1-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7c85f-106">語法</span><span class="sxs-lookup"><span data-stu-id="7c85f-106">Syntax</span></span>
 
 
 ```C++
@@ -36,26 +36,26 @@ BYTE MCI_TMSF_TRACK(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="329e1-107">參數</span><span class="sxs-lookup"><span data-stu-id="329e1-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7c85f-107">參數</span><span class="sxs-lookup"><span data-stu-id="7c85f-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="329e1-108">*dwTMSF*</span><span class="sxs-lookup"><span data-stu-id="329e1-108">*dwTMSF*</span></span> 
+<span data-ttu-id="7c85f-108">*dwTMSF*</span><span class="sxs-lookup"><span data-stu-id="7c85f-108">*dwTMSF*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="329e1-109">TMSF 格式的時間。</span><span class="sxs-lookup"><span data-stu-id="329e1-109">Time in TMSF format.</span></span>
+<span data-ttu-id="7c85f-109">TMSF 格式的時間。</span><span class="sxs-lookup"><span data-stu-id="7c85f-109">Time in TMSF format.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="329e1-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="329e1-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7c85f-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="7c85f-110">Return value</span></span>
 
-<span data-ttu-id="329e1-111">傳回所指定 TMSF 資訊的「追蹤」元件。</span><span class="sxs-lookup"><span data-stu-id="329e1-111">Returns the tracks component of the specified TMSF information.</span></span>
+<span data-ttu-id="7c85f-111">傳回所指定 TMSF 資訊的「追蹤」元件。</span><span class="sxs-lookup"><span data-stu-id="7c85f-111">Returns the tracks component of the specified TMSF information.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="329e1-112">備註</span><span class="sxs-lookup"><span data-stu-id="329e1-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7c85f-112">備註</span><span class="sxs-lookup"><span data-stu-id="7c85f-112">Remarks</span></span>
 
-<span data-ttu-id="329e1-113">TMSF 格式的時間是以 **DWORD** 值來表示，其中包含最不重要的位元組，其中包含追蹤、下一個最不重要的位元組包含分鐘、下一個最不重要的位元組（包含秒），以及最重要的位元組（包含框架）。</span><span class="sxs-lookup"><span data-stu-id="329e1-113">Time in TMSF format is expressed as a **DWORD** value with the least significant byte containing tracks, the next least significant byte containing minutes, the next least significant byte containing seconds, and the most significant byte containing frames.</span></span>
+<span data-ttu-id="7c85f-113">TMSF 格式的時間是以 **DWORD** 值來表示，其中包含最不重要的位元組，其中包含追蹤、下一個最不重要的位元組包含分鐘、下一個最不重要的位元組（包含秒），以及最重要的位元組（包含框架）。</span><span class="sxs-lookup"><span data-stu-id="7c85f-113">Time in TMSF format is expressed as a **DWORD** value with the least significant byte containing tracks, the next least significant byte containing minutes, the next least significant byte containing seconds, and the most significant byte containing frames.</span></span>
 
-<span data-ttu-id="329e1-114">**MCI \_ TMSF \_ TRACK** 巨集定義如下：</span><span class="sxs-lookup"><span data-stu-id="329e1-114">The **MCI\_TMSF\_TRACK** macro is defined as follows:</span></span>
+<span data-ttu-id="7c85f-114">**MCI \_ TMSF \_ TRACK** 巨集定義如下：</span><span class="sxs-lookup"><span data-stu-id="7c85f-114">The **MCI\_TMSF\_TRACK** macro is defined as follows:</span></span>
 
 
 ```C++
@@ -64,26 +64,26 @@ BYTE MCI_TMSF_TRACK(
 
 
 
-## <a name="requirements"></a><span data-ttu-id="329e1-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="329e1-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="7c85f-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="7c85f-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="329e1-116">需求</span><span class="sxs-lookup"><span data-stu-id="329e1-116">Requirement</span></span> | <span data-ttu-id="329e1-117">值</span><span class="sxs-lookup"><span data-stu-id="329e1-117">Value</span></span> |
+| <span data-ttu-id="7c85f-116">需求</span><span class="sxs-lookup"><span data-stu-id="7c85f-116">Requirement</span></span> | <span data-ttu-id="7c85f-117">值</span><span class="sxs-lookup"><span data-stu-id="7c85f-117">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| <span data-ttu-id="329e1-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="329e1-118">Minimum supported client</span></span><br/> | <span data-ttu-id="329e1-119">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="329e1-119">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                          |
-| <span data-ttu-id="329e1-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="329e1-120">Minimum supported server</span></span><br/> | <span data-ttu-id="329e1-121">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="329e1-121">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                |
-| <span data-ttu-id="329e1-122">標頭</span><span class="sxs-lookup"><span data-stu-id="329e1-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="329e1-123"><dt>Mciapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="329e1-123"><dt>Mciapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="7c85f-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7c85f-118">Minimum supported client</span></span><br/> | <span data-ttu-id="7c85f-119">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7c85f-119">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                          |
+| <span data-ttu-id="7c85f-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7c85f-120">Minimum supported server</span></span><br/> | <span data-ttu-id="7c85f-121">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7c85f-121">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                |
+| <span data-ttu-id="7c85f-122">標頭</span><span class="sxs-lookup"><span data-stu-id="7c85f-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="7c85f-123"><dt>Mciapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="7c85f-123"><dt>Mciapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="329e1-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="329e1-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7c85f-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7c85f-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="329e1-125">Mci</span><span class="sxs-lookup"><span data-stu-id="329e1-125">MCI</span></span>](mci.md)
+[<span data-ttu-id="7c85f-125">Mci</span><span class="sxs-lookup"><span data-stu-id="7c85f-125">MCI</span></span>](mci.md)
 </dt> <dt>
 
-[<span data-ttu-id="329e1-126">MCI 宏</span><span class="sxs-lookup"><span data-stu-id="329e1-126">MCI Macros</span></span>](mci-macros.md)
+[<span data-ttu-id="7c85f-126">MCI 宏</span><span class="sxs-lookup"><span data-stu-id="7c85f-126">MCI Macros</span></span>](mci-macros.md)
 </dt> </dl>
 
  

@@ -16,15 +16,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103933177"
 ---
-# <a name="querying-waveform-audio-input-devices"></a><span data-ttu-id="2b1ed-107">查詢 Waveform-Audio 輸入裝置</span><span class="sxs-lookup"><span data-stu-id="2b1ed-107">Querying Waveform-Audio Input Devices</span></span>
+# <a name="querying-waveform-audio-input-devices"></a><span data-ttu-id="46ada-107">查詢 Waveform-Audio 輸入裝置</span><span class="sxs-lookup"><span data-stu-id="46ada-107">Querying Waveform-Audio Input Devices</span></span>
 
-<span data-ttu-id="2b1ed-108">錄製波形音訊之前，您應該呼叫 [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps) 函式來判斷系統的波形音訊輸入功能。</span><span class="sxs-lookup"><span data-stu-id="2b1ed-108">Before recording waveform audio, you should call the [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps) function to determine the waveform-audio input capabilities of the system.</span></span> <span data-ttu-id="2b1ed-109">此函式會以指定裝置功能的相關資訊填入 [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps) 結構。</span><span class="sxs-lookup"><span data-stu-id="2b1ed-109">This function fills a [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps) structure with information about the capabilities of a specified device.</span></span> <span data-ttu-id="2b1ed-110">這項資訊包括製造商和產品識別碼、裝置的產品名稱，以及設備磁碟機的版本號碼。</span><span class="sxs-lookup"><span data-stu-id="2b1ed-110">This information includes the manufacturer and product identifiers, a product name for the device, and the version number of the device driver.</span></span> <span data-ttu-id="2b1ed-111">此外， **WAVEINCAPS** 結構會提供裝置所支援之標準波形-音訊格式的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="2b1ed-111">In addition, the **WAVEINCAPS** structure provides information about the standard waveform-audio formats that the device supports.</span></span>
+<span data-ttu-id="46ada-108">錄製波形音訊之前，您應該呼叫 [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps) 函式來判斷系統的波形音訊輸入功能。</span><span class="sxs-lookup"><span data-stu-id="46ada-108">Before recording waveform audio, you should call the [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps) function to determine the waveform-audio input capabilities of the system.</span></span> <span data-ttu-id="46ada-109">此函式會以指定裝置功能的相關資訊填入 [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps) 結構。</span><span class="sxs-lookup"><span data-stu-id="46ada-109">This function fills a [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps) structure with information about the capabilities of a specified device.</span></span> <span data-ttu-id="46ada-110">這項資訊包括製造商和產品識別碼、裝置的產品名稱，以及設備磁碟機的版本號碼。</span><span class="sxs-lookup"><span data-stu-id="46ada-110">This information includes the manufacturer and product identifiers, a product name for the device, and the version number of the device driver.</span></span> <span data-ttu-id="46ada-111">此外， **WAVEINCAPS** 結構會提供裝置所支援之標準波形-音訊格式的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="46ada-111">In addition, the **WAVEINCAPS** structure provides information about the standard waveform-audio formats that the device supports.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="2b1ed-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="2b1ed-112">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="46ada-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="46ada-112">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2b1ed-113">錄製波形音訊</span><span class="sxs-lookup"><span data-stu-id="2b1ed-113">Recording Waveform Audio</span></span>](recording-waveform-audio.md)
+[<span data-ttu-id="46ada-113">錄製波形音訊</span><span class="sxs-lookup"><span data-stu-id="46ada-113">Recording Waveform Audio</span></span>](recording-waveform-audio.md)
 </dt> </dl>
 
  

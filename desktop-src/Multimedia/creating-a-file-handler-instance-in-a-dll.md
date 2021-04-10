@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103682108"
 ---
-# <a name="creating-a-file-handler-instance-in-a-dll"></a><span data-ttu-id="06114-103">在 DLL 中建立 File-Handler 實例</span><span class="sxs-lookup"><span data-stu-id="06114-103">Creating a File-Handler Instance in a DLL</span></span>
+# <a name="creating-a-file-handler-instance-in-a-dll"></a><span data-ttu-id="3f20f-103">在 DLL 中建立 File-Handler 實例</span><span class="sxs-lookup"><span data-stu-id="3f20f-103">Creating a File-Handler Instance in a DLL</span></span>
 
-<span data-ttu-id="06114-104">當應用程式指定您的檔案處理常式 DLL 或串流處理常式時，系統會依其類別識別碼在登錄中尋找並載入。</span><span class="sxs-lookup"><span data-stu-id="06114-104">When an application specifies your file-handler DLL or stream handler, the system looks it up in the registry by its class identifier and loaded.</span></span> <span data-ttu-id="06114-105">系統接著會呼叫 DLL 的 [**DllGetClassObject**](/previous-versions//dd797891(v=vs.85)) 函式，以建立檔案或資料流程處理常式的實例。</span><span class="sxs-lookup"><span data-stu-id="06114-105">The system then calls the [**DllGetClassObject**](/previous-versions//dd797891(v=vs.85)) function of the DLL to create an instance of the file or stream handler.</span></span> <span data-ttu-id="06114-106">下列 (以 c + + 撰寫的範例) 顯示檔案處理常式如何建立實例。</span><span class="sxs-lookup"><span data-stu-id="06114-106">The following example (written in C++) shows how a file handler creates an instance.</span></span>
+<span data-ttu-id="3f20f-104">當應用程式指定您的檔案處理常式 DLL 或串流處理常式時，系統會依其類別識別碼在登錄中尋找並載入。</span><span class="sxs-lookup"><span data-stu-id="3f20f-104">When an application specifies your file-handler DLL or stream handler, the system looks it up in the registry by its class identifier and loaded.</span></span> <span data-ttu-id="3f20f-105">系統接著會呼叫 DLL 的 [**DllGetClassObject**](/previous-versions//dd797891(v=vs.85)) 函式，以建立檔案或資料流程處理常式的實例。</span><span class="sxs-lookup"><span data-stu-id="3f20f-105">The system then calls the [**DllGetClassObject**](/previous-versions//dd797891(v=vs.85)) function of the DLL to create an instance of the file or stream handler.</span></span> <span data-ttu-id="3f20f-106">下列 (以 c + + 撰寫的範例) 顯示檔案處理常式如何建立實例。</span><span class="sxs-lookup"><span data-stu-id="3f20f-106">The following example (written in C++) shows how a file handler creates an instance.</span></span>
 
 
 ```C++

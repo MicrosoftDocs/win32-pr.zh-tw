@@ -19,9 +19,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103681771"
 ---
-# <a name="control-attribute"></a><span data-ttu-id="ee2a8-104">control 屬性</span><span class="sxs-lookup"><span data-stu-id="ee2a8-104">control attribute</span></span>
+# <a name="control-attribute"></a><span data-ttu-id="6ecd7-104">control 屬性</span><span class="sxs-lookup"><span data-stu-id="6ecd7-104">control attribute</span></span>
 
-<span data-ttu-id="ee2a8-105">**\[ 控制項 \]** 屬性會將 [**coclass**](coclass.md)或連結 [**庫**](library.md)識別為 COM 控制項，容器網站會從中衍生其他型別程式庫或元件物件類別。</span><span class="sxs-lookup"><span data-stu-id="ee2a8-105">The **\[control\]** attribute identifies a [**coclass**](coclass.md) or [**library**](library.md) as a COM control, from which a container site will derive additional type libraries or component object classes.</span></span>
+<span data-ttu-id="6ecd7-105">**\[ 控制項 \]** 屬性會將 [**coclass**](coclass.md)或連結 [**庫**](library.md)識別為 COM 控制項，容器網站會從中衍生其他型別程式庫或元件物件類別。</span><span class="sxs-lookup"><span data-stu-id="6ecd7-105">The **\[control\]** attribute identifies a [**coclass**](coclass.md) or [**library**](library.md) as a COM control, from which a container site will derive additional type libraries or component object classes.</span></span>
 
 ``` syntax
 [
@@ -35,40 +35,40 @@ library | coclass lib-or-coclassname
 }
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ee2a8-106">參數</span><span class="sxs-lookup"><span data-stu-id="ee2a8-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6ecd7-106">參數</span><span class="sxs-lookup"><span data-stu-id="6ecd7-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="ee2a8-107">*屬性清單*</span><span class="sxs-lookup"><span data-stu-id="ee2a8-107">*attribute-list*</span></span> 
+<span data-ttu-id="6ecd7-107">*屬性清單*</span><span class="sxs-lookup"><span data-stu-id="6ecd7-107">*attribute-list*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="ee2a8-108">指定適用于連結 [**庫**](library.md) 或 [**coclass**](coclass.md) 語句的零或多個屬性。</span><span class="sxs-lookup"><span data-stu-id="ee2a8-108">Specifies zero or more attributes that apply to the [**library**](library.md) or [**coclass**](coclass.md) statement.</span></span> <span data-ttu-id="ee2a8-109">以逗號分隔多個屬性。</span><span class="sxs-lookup"><span data-stu-id="ee2a8-109">Separate multiple attributes with commas.</span></span>
+<span data-ttu-id="6ecd7-108">指定適用于連結 [**庫**](library.md) 或 [**coclass**](coclass.md) 語句的零或多個屬性。</span><span class="sxs-lookup"><span data-stu-id="6ecd7-108">Specifies zero or more attributes that apply to the [**library**](library.md) or [**coclass**](coclass.md) statement.</span></span> <span data-ttu-id="6ecd7-109">以逗號分隔多個屬性。</span><span class="sxs-lookup"><span data-stu-id="6ecd7-109">Separate multiple attributes with commas.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="ee2a8-110">*lib 或-coclassname*</span><span class="sxs-lookup"><span data-stu-id="ee2a8-110">*lib-or-coclassname*</span></span> 
+<span data-ttu-id="6ecd7-110">*lib 或-coclassname*</span><span class="sxs-lookup"><span data-stu-id="6ecd7-110">*lib-or-coclassname*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="ee2a8-111">指定連結 [**庫**](library.md) 或 [**coclass**](coclass.md)的名稱。</span><span class="sxs-lookup"><span data-stu-id="ee2a8-111">Specifies the name of the [**library**](library.md) or [**coclass**](coclass.md).</span></span>
+<span data-ttu-id="6ecd7-111">指定連結 [**庫**](library.md) 或 [**coclass**](coclass.md)的名稱。</span><span class="sxs-lookup"><span data-stu-id="6ecd7-111">Specifies the name of the [**library**](library.md) or [**coclass**](coclass.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="ee2a8-112">*定義*</span><span class="sxs-lookup"><span data-stu-id="ee2a8-112">*definitions*</span></span> 
+<span data-ttu-id="6ecd7-112">*定義*</span><span class="sxs-lookup"><span data-stu-id="6ecd7-112">*definitions*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="ee2a8-113">MIDL 語句，可指定連結 [**庫**](library.md) 或 [**coclass**](coclass.md)的成員。</span><span class="sxs-lookup"><span data-stu-id="ee2a8-113">MIDL statements that specify the members of the [**library**](library.md) or [**coclass**](coclass.md).</span></span>
+<span data-ttu-id="6ecd7-113">MIDL 語句，可指定連結 [**庫**](library.md) 或 [**coclass**](coclass.md)的成員。</span><span class="sxs-lookup"><span data-stu-id="6ecd7-113">MIDL statements that specify the members of the [**library**](library.md) or [**coclass**](coclass.md).</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="ee2a8-114">備註</span><span class="sxs-lookup"><span data-stu-id="ee2a8-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6ecd7-114">備註</span><span class="sxs-lookup"><span data-stu-id="6ecd7-114">Remarks</span></span>
 
-<span data-ttu-id="ee2a8-115">這個屬性可讓您標記描述控制項的類型程式庫，使其不會顯示在適用于非視覺化物件的型別瀏覽器中。</span><span class="sxs-lookup"><span data-stu-id="ee2a8-115">This attribute allows you to mark type libraries that describe controls so they will not be displayed in type browsers intended for nonvisual objects.</span></span>
+<span data-ttu-id="6ecd7-115">這個屬性可讓您標記描述控制項的類型程式庫，使其不會顯示在適用于非視覺化物件的型別瀏覽器中。</span><span class="sxs-lookup"><span data-stu-id="6ecd7-115">This attribute allows you to mark type libraries that describe controls so they will not be displayed in type browsers intended for nonvisual objects.</span></span>
 
-### <a name="flags"></a><span data-ttu-id="ee2a8-116">Flags</span><span class="sxs-lookup"><span data-stu-id="ee2a8-116">Flags</span></span>
+### <a name="flags"></a><span data-ttu-id="6ecd7-116">Flags</span><span class="sxs-lookup"><span data-stu-id="6ecd7-116">Flags</span></span>
 
-<span data-ttu-id="ee2a8-117">TYPEFLAG \_ FCONTROL、LIBFLAG \_ FCONTROL</span><span class="sxs-lookup"><span data-stu-id="ee2a8-117">TYPEFLAG\_FCONTROL, LIBFLAG\_FCONTROL</span></span>
+<span data-ttu-id="6ecd7-117">TYPEFLAG \_ FCONTROL、LIBFLAG \_ FCONTROL</span><span class="sxs-lookup"><span data-stu-id="6ecd7-117">TYPEFLAG\_FCONTROL, LIBFLAG\_FCONTROL</span></span>
 
-## <a name="examples"></a><span data-ttu-id="ee2a8-118">範例</span><span class="sxs-lookup"><span data-stu-id="ee2a8-118">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="6ecd7-118">範例</span><span class="sxs-lookup"><span data-stu-id="6ecd7-118">Examples</span></span>
 
 ``` syntax
 [
@@ -82,26 +82,26 @@ library Hello
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="ee2a8-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ee2a8-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6ecd7-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6ecd7-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ee2a8-120">ODL 檔語法</span><span class="sxs-lookup"><span data-stu-id="ee2a8-120">ODL File Syntax</span></span>](/previous-versions/windows/desktop/automat/odl-file-syntax)
+[<span data-ttu-id="6ecd7-120">ODL 檔語法</span><span class="sxs-lookup"><span data-stu-id="6ecd7-120">ODL File Syntax</span></span>](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[<span data-ttu-id="ee2a8-121">ODL 檔案範例</span><span class="sxs-lookup"><span data-stu-id="ee2a8-121">ODL File Example</span></span>](/previous-versions/windows/desktop/automat/odl-file-example)
+[<span data-ttu-id="6ecd7-121">ODL 檔案範例</span><span class="sxs-lookup"><span data-stu-id="6ecd7-121">ODL File Example</span></span>](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
-[<span data-ttu-id="ee2a8-122">使用 MIDL 產生類型程式庫</span><span class="sxs-lookup"><span data-stu-id="ee2a8-122">Generating a Type Library With MIDL</span></span>](generating-a-type-library-with-midl-2.md)
+[<span data-ttu-id="6ecd7-122">使用 MIDL 產生類型程式庫</span><span class="sxs-lookup"><span data-stu-id="6ecd7-122">Generating a Type Library With MIDL</span></span>](generating-a-type-library-with-midl-2.md)
 </dt> <dt>
 
-[<span data-ttu-id="ee2a8-123">TYPEFLAGS</span><span class="sxs-lookup"><span data-stu-id="ee2a8-123">TYPEFLAGS</span></span>](/windows/win32/api/oaidl/ne-oaidl-typeflags)
+[<span data-ttu-id="6ecd7-123">TYPEFLAGS</span><span class="sxs-lookup"><span data-stu-id="6ecd7-123">TYPEFLAGS</span></span>](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> <dt>
 
-[<span data-ttu-id="ee2a8-124">**coclass**</span><span class="sxs-lookup"><span data-stu-id="ee2a8-124">**coclass**</span></span>](coclass.md)
+[<span data-ttu-id="6ecd7-124">**coclass**</span><span class="sxs-lookup"><span data-stu-id="6ecd7-124">**coclass**</span></span>](coclass.md)
 </dt> <dt>
 
-[<span data-ttu-id="ee2a8-125">**圖書館**</span><span class="sxs-lookup"><span data-stu-id="ee2a8-125">**library**</span></span>](library.md)
+[<span data-ttu-id="6ecd7-125">**圖書館**</span><span class="sxs-lookup"><span data-stu-id="6ecd7-125">**library**</span></span>](library.md)
 </dt> </dl>
 
  

@@ -24,15 +24,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843724"
 ---
-# <a name="ivmfloppydrivedrivenumber-property"></a><span data-ttu-id="f90b6-106">IVMFloppyDrive：:D riveNumber 屬性</span><span class="sxs-lookup"><span data-stu-id="f90b6-106">IVMFloppyDrive::DriveNumber property</span></span>
+# <a name="ivmfloppydrivedrivenumber-property"></a><span data-ttu-id="a41eb-106">IVMFloppyDrive：:D riveNumber 屬性</span><span class="sxs-lookup"><span data-stu-id="a41eb-106">IVMFloppyDrive::DriveNumber property</span></span>
 
-<span data-ttu-id="f90b6-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="f90b6-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="f90b6-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="f90b6-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
+<span data-ttu-id="a41eb-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="a41eb-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="a41eb-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="a41eb-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
 
-<span data-ttu-id="f90b6-109">抓取連接磁片磁碟機之控制器的以零為基底的索引。</span><span class="sxs-lookup"><span data-stu-id="f90b6-109">Retrieves the zero-based index of the controller to which the floppy drive is attached.</span></span>
+<span data-ttu-id="a41eb-109">抓取連接磁片磁碟機之控制器的以零為基底的索引。</span><span class="sxs-lookup"><span data-stu-id="a41eb-109">Retrieves the zero-based index of the controller to which the floppy drive is attached.</span></span>
 
-<span data-ttu-id="f90b6-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="f90b6-110">This property is read-only.</span></span>
+<span data-ttu-id="a41eb-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="a41eb-110">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f90b6-111">語法</span><span class="sxs-lookup"><span data-stu-id="f90b6-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a41eb-111">語法</span><span class="sxs-lookup"><span data-stu-id="a41eb-111">Syntax</span></span>
 
 
 ```C++
@@ -43,42 +43,42 @@ HRESULT get_DriveNumber(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="f90b6-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="f90b6-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="a41eb-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="a41eb-112">Property value</span></span>
 
-<span data-ttu-id="f90b6-113">控制器的以零為起始的索引。</span><span class="sxs-lookup"><span data-stu-id="f90b6-113">The zero-based index of the controller.</span></span>
+<span data-ttu-id="a41eb-113">控制器的以零為起始的索引。</span><span class="sxs-lookup"><span data-stu-id="a41eb-113">The zero-based index of the controller.</span></span>
 
-## <a name="error-codes"></a><span data-ttu-id="f90b6-114">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="f90b6-114">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="a41eb-114">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="a41eb-114">Error codes</span></span>
 
 
 
-| <span data-ttu-id="f90b6-115">名稱/值</span><span class="sxs-lookup"><span data-stu-id="f90b6-115">Name/value</span></span>                                                                                                                                                    | <span data-ttu-id="f90b6-116">意義</span><span class="sxs-lookup"><span data-stu-id="f90b6-116">Meaning</span></span>                                      |
+| <span data-ttu-id="a41eb-115">名稱/值</span><span class="sxs-lookup"><span data-stu-id="a41eb-115">Name/value</span></span>                                                                                                                                                    | <span data-ttu-id="a41eb-116">意義</span><span class="sxs-lookup"><span data-stu-id="a41eb-116">Meaning</span></span>                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| <dl> <span data-ttu-id="f90b6-117"><dt>S \_確定</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="f90b6-117"><dt>S\_OK</dt> <dt>0</dt></span></span> </dl>                       | <span data-ttu-id="f90b6-118">作業成功。</span><span class="sxs-lookup"><span data-stu-id="f90b6-118">The operation was successful.</span></span><br/>     |
-| <dl> <span data-ttu-id="f90b6-119"><dt>E \_指標</dt><dt>且顯示 0x80004003</dt></span><span class="sxs-lookup"><span data-stu-id="f90b6-119"><dt>E\_POINTER</dt> <dt>0x80004003</dt></span></span> </dl>         | <span data-ttu-id="f90b6-120">參數為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="f90b6-120">The parameter is **NULL**.</span></span><br/>        |
-| <dl> <span data-ttu-id="f90b6-121"><dt>會 \_E \_ 例外</dt>狀況 <dt>0x80020009</dt></span><span class="sxs-lookup"><span data-stu-id="f90b6-121"><dt>DISP\_E\_EXCEPTION</dt> <dt>0x80020009</dt></span></span> </dl> | <span data-ttu-id="f90b6-122">已發生未預期的錯誤。</span><span class="sxs-lookup"><span data-stu-id="f90b6-122">An unexpected error has occurred.</span></span><br/> |
+| <dl> <span data-ttu-id="a41eb-117"><dt>S \_確定</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="a41eb-117"><dt>S\_OK</dt> <dt>0</dt></span></span> </dl>                       | <span data-ttu-id="a41eb-118">作業成功。</span><span class="sxs-lookup"><span data-stu-id="a41eb-118">The operation was successful.</span></span><br/>     |
+| <dl> <span data-ttu-id="a41eb-119"><dt>E \_指標</dt><dt>且顯示 0x80004003</dt></span><span class="sxs-lookup"><span data-stu-id="a41eb-119"><dt>E\_POINTER</dt> <dt>0x80004003</dt></span></span> </dl>         | <span data-ttu-id="a41eb-120">參數為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="a41eb-120">The parameter is **NULL**.</span></span><br/>        |
+| <dl> <span data-ttu-id="a41eb-121"><dt>會 \_E \_ 例外</dt>狀況 <dt>0x80020009</dt></span><span class="sxs-lookup"><span data-stu-id="a41eb-121"><dt>DISP\_E\_EXCEPTION</dt> <dt>0x80020009</dt></span></span> </dl> | <span data-ttu-id="a41eb-122">已發生未預期的錯誤。</span><span class="sxs-lookup"><span data-stu-id="a41eb-122">An unexpected error has occurred.</span></span><br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="f90b6-123">規格需求</span><span class="sxs-lookup"><span data-stu-id="f90b6-123">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="a41eb-123">規格需求</span><span class="sxs-lookup"><span data-stu-id="a41eb-123">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f90b6-124">需求</span><span class="sxs-lookup"><span data-stu-id="f90b6-124">Requirement</span></span> | <span data-ttu-id="f90b6-125">值</span><span class="sxs-lookup"><span data-stu-id="f90b6-125">Value</span></span> |
+| <span data-ttu-id="a41eb-124">需求</span><span class="sxs-lookup"><span data-stu-id="a41eb-124">Requirement</span></span> | <span data-ttu-id="a41eb-125">值</span><span class="sxs-lookup"><span data-stu-id="a41eb-125">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| <span data-ttu-id="f90b6-126">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f90b6-126">Minimum supported client</span></span><br/> | <span data-ttu-id="f90b6-127">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f90b6-127">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="f90b6-128">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f90b6-128">Minimum supported server</span></span><br/> | <span data-ttu-id="f90b6-129">都不支援</span><span class="sxs-lookup"><span data-stu-id="f90b6-129">None supported</span></span><br/>                                                                     |
-| <span data-ttu-id="f90b6-130">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="f90b6-130">End of client support</span></span><br/>    | <span data-ttu-id="f90b6-131">Windows 7</span><span class="sxs-lookup"><span data-stu-id="f90b6-131">Windows 7</span></span><br/>                                                                          |
-| <span data-ttu-id="f90b6-132">產品</span><span class="sxs-lookup"><span data-stu-id="f90b6-132">Product</span></span><br/>                  | <span data-ttu-id="f90b6-133">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="f90b6-133">Windows Virtual PC</span></span><br/>                                                                 |
-| <span data-ttu-id="f90b6-134">標頭</span><span class="sxs-lookup"><span data-stu-id="f90b6-134">Header</span></span><br/>                   | <dl> <span data-ttu-id="f90b6-135"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="f90b6-135"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
-| <span data-ttu-id="f90b6-136">IID</span><span class="sxs-lookup"><span data-stu-id="f90b6-136">IID</span></span><br/>                      | <span data-ttu-id="f90b6-137">IID \_ IVMFloppyDrive 定義為661abee6-112a-4ed9-babf-3c874969f10e</span><span class="sxs-lookup"><span data-stu-id="f90b6-137">IID\_IVMFloppyDrive is defined as 661abee6-112a-4ed9-babf-3c874969f10e</span></span><br/>             |
+| <span data-ttu-id="a41eb-126">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a41eb-126">Minimum supported client</span></span><br/> | <span data-ttu-id="a41eb-127">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a41eb-127">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="a41eb-128">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a41eb-128">Minimum supported server</span></span><br/> | <span data-ttu-id="a41eb-129">都不支援</span><span class="sxs-lookup"><span data-stu-id="a41eb-129">None supported</span></span><br/>                                                                     |
+| <span data-ttu-id="a41eb-130">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="a41eb-130">End of client support</span></span><br/>    | <span data-ttu-id="a41eb-131">Windows 7</span><span class="sxs-lookup"><span data-stu-id="a41eb-131">Windows 7</span></span><br/>                                                                          |
+| <span data-ttu-id="a41eb-132">產品</span><span class="sxs-lookup"><span data-stu-id="a41eb-132">Product</span></span><br/>                  | <span data-ttu-id="a41eb-133">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="a41eb-133">Windows Virtual PC</span></span><br/>                                                                 |
+| <span data-ttu-id="a41eb-134">標頭</span><span class="sxs-lookup"><span data-stu-id="a41eb-134">Header</span></span><br/>                   | <dl> <span data-ttu-id="a41eb-135"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="a41eb-135"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
+| <span data-ttu-id="a41eb-136">IID</span><span class="sxs-lookup"><span data-stu-id="a41eb-136">IID</span></span><br/>                      | <span data-ttu-id="a41eb-137">IID \_ IVMFloppyDrive 定義為661abee6-112a-4ed9-babf-3c874969f10e</span><span class="sxs-lookup"><span data-stu-id="a41eb-137">IID\_IVMFloppyDrive is defined as 661abee6-112a-4ed9-babf-3c874969f10e</span></span><br/>             |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f90b6-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f90b6-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a41eb-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a41eb-138">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f90b6-139">**IVMFloppyDrive**</span><span class="sxs-lookup"><span data-stu-id="f90b6-139">**IVMFloppyDrive**</span></span>](ivmfloppydrive.md)
+[<span data-ttu-id="a41eb-139">**IVMFloppyDrive**</span><span class="sxs-lookup"><span data-stu-id="a41eb-139">**IVMFloppyDrive**</span></span>](ivmfloppydrive.md)
 </dt> </dl>
 
  

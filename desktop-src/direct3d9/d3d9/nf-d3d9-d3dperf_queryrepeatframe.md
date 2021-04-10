@@ -23,28 +23,28 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 04/08/2020
 ms.locfileid: "103681503"
 ---
-# <a name="d3dperf_queryrepeatframe-function"></a><span data-ttu-id="0287e-104">D3DPERF_QueryRepeatFrame 函式</span><span class="sxs-lookup"><span data-stu-id="0287e-104">D3DPERF_QueryRepeatFrame function</span></span>
+# <a name="d3dperf_queryrepeatframe-function"></a><span data-ttu-id="b080e-104">D3DPERF_QueryRepeatFrame 函式</span><span class="sxs-lookup"><span data-stu-id="b080e-104">D3DPERF_QueryRepeatFrame function</span></span>
 
-<span data-ttu-id="0287e-105">判斷效能分析工具是否要求將目前的框架重新提交給 Direct3D 以進行效能分析。</span><span class="sxs-lookup"><span data-stu-id="0287e-105">Determine whether a performance profiler is requesting that the current frame be resubmitted to Direct3D for performance analysis.</span></span> <span data-ttu-id="0287e-106">PIX 目前不支援此函式。</span><span class="sxs-lookup"><span data-stu-id="0287e-106">This function is not currently supported by PIX.</span></span>
+<span data-ttu-id="b080e-105">判斷效能分析工具是否要求將目前的框架重新提交給 Direct3D 以進行效能分析。</span><span class="sxs-lookup"><span data-stu-id="b080e-105">Determine whether a performance profiler is requesting that the current frame be resubmitted to Direct3D for performance analysis.</span></span> <span data-ttu-id="b080e-106">PIX 目前不支援此函式。</span><span class="sxs-lookup"><span data-stu-id="b080e-106">This function is not currently supported by PIX.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0287e-107">語法</span><span class="sxs-lookup"><span data-stu-id="0287e-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b080e-107">語法</span><span class="sxs-lookup"><span data-stu-id="b080e-107">Syntax</span></span>
 
 ```cpp
 BOOL WINAPI D3DPERF_QueryRepeatFrame( void );
 ```
 
-## <a name="return-value"></a><span data-ttu-id="0287e-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="0287e-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b080e-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="b080e-108">Return value</span></span>
 
-<span data-ttu-id="0287e-109">如果傳回值為 TRUE，則呼叫端應該重複相同的呼叫順序。</span><span class="sxs-lookup"><span data-stu-id="0287e-109">If the return value is TRUE, the caller should repeat the same sequence of calls.</span></span> <span data-ttu-id="0287e-110">如果為 FALSE，則呼叫端應該繼續。</span><span class="sxs-lookup"><span data-stu-id="0287e-110">If FALSE, the caller should continue.</span></span>
+<span data-ttu-id="b080e-109">如果傳回值為 TRUE，則呼叫端應該重複相同的呼叫順序。</span><span class="sxs-lookup"><span data-stu-id="b080e-109">If the return value is TRUE, the caller should repeat the same sequence of calls.</span></span> <span data-ttu-id="b080e-110">如果為 FALSE，則呼叫端應該繼續。</span><span class="sxs-lookup"><span data-stu-id="b080e-110">If FALSE, the caller should continue.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0287e-111">備註</span><span class="sxs-lookup"><span data-stu-id="0287e-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b080e-111">備註</span><span class="sxs-lookup"><span data-stu-id="b080e-111">Remarks</span></span>
 
-<span data-ttu-id="0287e-112">函式應該在 IDirect3DDevice9 之後立即呼叫：會呼叫 **:P** 重新傳送。</span><span class="sxs-lookup"><span data-stu-id="0287e-112">The function should be called immediately after **IDirect3DDevice9::Present** is called.</span></span>
+<span data-ttu-id="b080e-112">函式應該在 IDirect3DDevice9 之後立即呼叫：會呼叫 **:P** 重新傳送。</span><span class="sxs-lookup"><span data-stu-id="b080e-112">The function should be called immediately after **IDirect3DDevice9::Present** is called.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="0287e-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="0287e-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b080e-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="b080e-113">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="0287e-114">**目標平台**</span><span class="sxs-lookup"><span data-stu-id="0287e-114">**Target Platform**</span></span> | <span data-ttu-id="0287e-115">Windows</span><span class="sxs-lookup"><span data-stu-id="0287e-115">Windows</span></span> |
-| <span data-ttu-id="0287e-116">**標頭**</span><span class="sxs-lookup"><span data-stu-id="0287e-116">**Header**</span></span> | <span data-ttu-id="0287e-117">d3d9。h</span><span class="sxs-lookup"><span data-stu-id="0287e-117">d3d9.h</span></span> |
-| <span data-ttu-id="0287e-118">**程式庫**</span><span class="sxs-lookup"><span data-stu-id="0287e-118">**Library**</span></span> | <span data-ttu-id="0287e-119">d3d9 .lib</span><span class="sxs-lookup"><span data-stu-id="0287e-119">d3d9.lib</span></span> |
-| <span data-ttu-id="0287e-120">**DLL**</span><span class="sxs-lookup"><span data-stu-id="0287e-120">**DLL**</span></span> | <span data-ttu-id="0287e-121">d3d9.dll</span><span class="sxs-lookup"><span data-stu-id="0287e-121">d3d9.dll</span></span> |
+| <span data-ttu-id="b080e-114">**目標平台**</span><span class="sxs-lookup"><span data-stu-id="b080e-114">**Target Platform**</span></span> | <span data-ttu-id="b080e-115">Windows</span><span class="sxs-lookup"><span data-stu-id="b080e-115">Windows</span></span> |
+| <span data-ttu-id="b080e-116">**標頭**</span><span class="sxs-lookup"><span data-stu-id="b080e-116">**Header**</span></span> | <span data-ttu-id="b080e-117">d3d9。h</span><span class="sxs-lookup"><span data-stu-id="b080e-117">d3d9.h</span></span> |
+| <span data-ttu-id="b080e-118">**程式庫**</span><span class="sxs-lookup"><span data-stu-id="b080e-118">**Library**</span></span> | <span data-ttu-id="b080e-119">d3d9 .lib</span><span class="sxs-lookup"><span data-stu-id="b080e-119">d3d9.lib</span></span> |
+| <span data-ttu-id="b080e-120">**DLL**</span><span class="sxs-lookup"><span data-stu-id="b080e-120">**DLL**</span></span> | <span data-ttu-id="b080e-121">d3d9.dll</span><span class="sxs-lookup"><span data-stu-id="b080e-121">d3d9.dll</span></span> |

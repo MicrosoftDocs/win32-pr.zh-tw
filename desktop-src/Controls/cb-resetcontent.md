@@ -21,59 +21,59 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843564"
 ---
-# <a name="cb_resetcontent-message"></a><span data-ttu-id="a637e-104">CB \_ RESETCONTENT 訊息</span><span class="sxs-lookup"><span data-stu-id="a637e-104">CB\_RESETCONTENT message</span></span>
+# <a name="cb_resetcontent-message"></a><span data-ttu-id="04f58-104">CB \_ RESETCONTENT 訊息</span><span class="sxs-lookup"><span data-stu-id="04f58-104">CB\_RESETCONTENT message</span></span>
 
-<span data-ttu-id="a637e-105">從清單方塊中移除所有專案，並編輯下拉式方塊的控制項。</span><span class="sxs-lookup"><span data-stu-id="a637e-105">Removes all items from the list box and edit control of a combo box.</span></span>
+<span data-ttu-id="04f58-105">從清單方塊中移除所有專案，並編輯下拉式方塊的控制項。</span><span class="sxs-lookup"><span data-stu-id="04f58-105">Removes all items from the list box and edit control of a combo box.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="a637e-106">參數</span><span class="sxs-lookup"><span data-stu-id="a637e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="04f58-106">參數</span><span class="sxs-lookup"><span data-stu-id="04f58-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a637e-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="a637e-107">*wParam*</span></span> 
+<span data-ttu-id="04f58-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="04f58-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="a637e-108">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="a637e-108">Not used; must be zero.</span></span>
+<span data-ttu-id="04f58-108">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="04f58-108">Not used; must be zero.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a637e-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="a637e-109">*lParam*</span></span> 
+<span data-ttu-id="04f58-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="04f58-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="a637e-110">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="a637e-110">Not used; must be zero.</span></span>
+<span data-ttu-id="04f58-110">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="04f58-110">Not used; must be zero.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="a637e-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="a637e-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="04f58-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="04f58-111">Return value</span></span>
 
-<span data-ttu-id="a637e-112">此訊息一律會傳回 CB \_ ok。</span><span class="sxs-lookup"><span data-stu-id="a637e-112">This message always returns CB\_OKAY.</span></span>
+<span data-ttu-id="04f58-112">此訊息一律會傳回 CB \_ ok。</span><span class="sxs-lookup"><span data-stu-id="04f58-112">This message always returns CB\_OKAY.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a637e-113">備註</span><span class="sxs-lookup"><span data-stu-id="a637e-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="04f58-113">備註</span><span class="sxs-lookup"><span data-stu-id="04f58-113">Remarks</span></span>
 
-<span data-ttu-id="a637e-114">如果您建立具有主控描繪樣式的下拉式方塊，但沒有 [**CBS \_ HASSTRINGS**](combo-box-styles.md) 樣式，則下拉式方塊的擁有者會收到下拉式方塊中每個專案的 [**WM \_ DELETEITEM**](wm-deleteitem.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="a637e-114">If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](combo-box-styles.md) style, the owner of the combo box receives a [**WM\_DELETEITEM**](wm-deleteitem.md) message for each item in the combo box.</span></span>
+<span data-ttu-id="04f58-114">如果您建立具有主控描繪樣式的下拉式方塊，但沒有 [**CBS \_ HASSTRINGS**](combo-box-styles.md) 樣式，則下拉式方塊的擁有者會收到下拉式方塊中每個專案的 [**WM \_ DELETEITEM**](wm-deleteitem.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="04f58-114">If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](combo-box-styles.md) style, the owner of the combo box receives a [**WM\_DELETEITEM**](wm-deleteitem.md) message for each item in the combo box.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="a637e-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="a637e-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="04f58-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="04f58-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a637e-116">需求</span><span class="sxs-lookup"><span data-stu-id="a637e-116">Requirement</span></span> | <span data-ttu-id="a637e-117">值</span><span class="sxs-lookup"><span data-stu-id="a637e-117">Value</span></span> |
+| <span data-ttu-id="04f58-116">需求</span><span class="sxs-lookup"><span data-stu-id="04f58-116">Requirement</span></span> | <span data-ttu-id="04f58-117">值</span><span class="sxs-lookup"><span data-stu-id="04f58-117">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="a637e-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a637e-118">Minimum supported client</span></span><br/> | <span data-ttu-id="a637e-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a637e-119">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="a637e-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a637e-120">Minimum supported server</span></span><br/> | <span data-ttu-id="a637e-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a637e-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="a637e-122">標頭</span><span class="sxs-lookup"><span data-stu-id="a637e-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="a637e-123"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="a637e-123"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="04f58-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="04f58-118">Minimum supported client</span></span><br/> | <span data-ttu-id="04f58-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="04f58-119">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="04f58-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="04f58-120">Minimum supported server</span></span><br/> | <span data-ttu-id="04f58-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="04f58-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="04f58-122">標頭</span><span class="sxs-lookup"><span data-stu-id="04f58-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="04f58-123"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="04f58-123"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a637e-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a637e-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04f58-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="04f58-124">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a637e-125">**參考**</span><span class="sxs-lookup"><span data-stu-id="a637e-125">**Reference**</span></span>
+<span data-ttu-id="04f58-125">**參考**</span><span class="sxs-lookup"><span data-stu-id="04f58-125">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="a637e-126">**CB \_ DELETESTRING**</span><span class="sxs-lookup"><span data-stu-id="a637e-126">**CB\_DELETESTRING**</span></span>](cb-deletestring.md)
+[<span data-ttu-id="04f58-126">**CB \_ DELETESTRING**</span><span class="sxs-lookup"><span data-stu-id="04f58-126">**CB\_DELETESTRING**</span></span>](cb-deletestring.md)
 </dt> <dt>
 
-[<span data-ttu-id="a637e-127">**WM \_ DELETEITEM**</span><span class="sxs-lookup"><span data-stu-id="a637e-127">**WM\_DELETEITEM**</span></span>](wm-deleteitem.md)
+[<span data-ttu-id="04f58-127">**WM \_ DELETEITEM**</span><span class="sxs-lookup"><span data-stu-id="04f58-127">**WM\_DELETEITEM**</span></span>](wm-deleteitem.md)
 </dt> </dl>
 
  

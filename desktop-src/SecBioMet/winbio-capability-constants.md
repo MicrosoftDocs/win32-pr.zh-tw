@@ -26,9 +26,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843620"
 ---
-# <a name="winbio_capability-constants"></a><span data-ttu-id="87944-103">WINBIO \_ 功能常數</span><span class="sxs-lookup"><span data-stu-id="87944-103">WINBIO\_CAPABILITY Constants</span></span>
+# <a name="winbio_capability-constants"></a><span data-ttu-id="f0d1a-103">WINBIO \_ 功能常數</span><span class="sxs-lookup"><span data-stu-id="f0d1a-103">WINBIO\_CAPABILITY Constants</span></span>
 
-<span data-ttu-id="87944-104">下列指紋感應器子類型為 **WINBIO 的 \_ 功能** 值，可用來做為 [**WINBIO \_ 單元 \_ 架構**](winbio-unit-schema.md)之 *功能* 參數的位元遮罩。</span><span class="sxs-lookup"><span data-stu-id="87944-104">The following fingerprint sensor sub types are **WINBIO\_CAPABILITIES** values that can be used as a bitmask for the *Capabilities* parameter of the [**WINBIO\_UNIT\_SCHEMA**](winbio-unit-schema.md) structure.</span></span> <span data-ttu-id="87944-105">這些是指上架的感應器功能。</span><span class="sxs-lookup"><span data-stu-id="87944-105">These refer to the onboard sensor capabilities.</span></span>
+<span data-ttu-id="f0d1a-104">下列指紋感應器子類型為 **WINBIO 的 \_ 功能** 值，可用來做為 [**WINBIO \_ 單元 \_ 架構**](winbio-unit-schema.md)之 *功能* 參數的位元遮罩。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-104">The following fingerprint sensor sub types are **WINBIO\_CAPABILITIES** values that can be used as a bitmask for the *Capabilities* parameter of the [**WINBIO\_UNIT\_SCHEMA**](winbio-unit-schema.md) structure.</span></span> <span data-ttu-id="f0d1a-105">這些是指上架的感應器功能。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-105">These refer to the onboard sensor capabilities.</span></span>
 
 
 
@@ -39,45 +39,45 @@ ms.locfileid: "103843620"
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;"><span data-ttu-id="87944-106">常數/值</span><span class="sxs-lookup"><span data-stu-id="87944-106">Constant/value</span></span></th>
-<th style="text-align: left;"><span data-ttu-id="87944-107">Description</span><span class="sxs-lookup"><span data-stu-id="87944-107">Description</span></span></th>
+<th style="text-align: left;"><span data-ttu-id="f0d1a-106">常數/值</span><span class="sxs-lookup"><span data-stu-id="f0d1a-106">Constant/value</span></span></th>
+<th style="text-align: left;"><span data-ttu-id="f0d1a-107">Description</span><span class="sxs-lookup"><span data-stu-id="f0d1a-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span id="WINBIO_CAPABILITY_SENSOR"></span><span id="winbio_capability_sensor"></span><dl> <span data-ttu-id="87944-108"><dt><strong>WINBIO_CAPABILITY_SENSOR</strong></dt> <dt>0x00000001</dt> </span><span class="sxs-lookup"><span data-stu-id="87944-108"><dt><strong>WINBIO_CAPABILITY_SENSOR</strong></dt> <dt>0x00000001</dt> </span></span></dl></td>
-<td style="text-align: left;"><span data-ttu-id="87944-109">感應器可以捕獲生物特徵辨識資料。</span><span class="sxs-lookup"><span data-stu-id="87944-109">The sensor can capture biometric data.</span></span><br/></td>
+<td style="text-align: left;"><span id="WINBIO_CAPABILITY_SENSOR"></span><span id="winbio_capability_sensor"></span><dl> <span data-ttu-id="f0d1a-108"><dt><strong>WINBIO_CAPABILITY_SENSOR</strong></dt> <dt>0x00000001</dt> </span><span class="sxs-lookup"><span data-stu-id="f0d1a-108"><dt><strong>WINBIO_CAPABILITY_SENSOR</strong></dt> <dt>0x00000001</dt> </span></span></dl></td>
+<td style="text-align: left;"><span data-ttu-id="f0d1a-109">感應器可以捕獲生物特徵辨識資料。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-109">The sensor can capture biometric data.</span></span><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WINBIO_CAPABILITY_MATCHING"></span><span id="winbio_capability_matching"></span><dl> <span data-ttu-id="87944-110"><dt><strong>WINBIO_CAPABILITY_MATCHING</strong></dt> <dt>0x00000002</dt> </span><span class="sxs-lookup"><span data-stu-id="87944-110"><dt><strong>WINBIO_CAPABILITY_MATCHING</strong></dt> <dt>0x00000002</dt> </span></span></dl></td>
-<td style="text-align: left;"><span data-ttu-id="87944-111">感應器可將生物特徵辨識資料與身分識別進行比對。</span><span class="sxs-lookup"><span data-stu-id="87944-111">The sensor can match biometric data to an identity.</span></span><br/></td>
+<td style="text-align: left;"><span id="WINBIO_CAPABILITY_MATCHING"></span><span id="winbio_capability_matching"></span><dl> <span data-ttu-id="f0d1a-110"><dt><strong>WINBIO_CAPABILITY_MATCHING</strong></dt> <dt>0x00000002</dt> </span><span class="sxs-lookup"><span data-stu-id="f0d1a-110"><dt><strong>WINBIO_CAPABILITY_MATCHING</strong></dt> <dt>0x00000002</dt> </span></span></dl></td>
+<td style="text-align: left;"><span data-ttu-id="f0d1a-111">感應器可將生物特徵辨識資料與身分識別進行比對。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-111">The sensor can match biometric data to an identity.</span></span><br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WINBIO_CAPABILITY_DATABASE"></span><span id="winbio_capability_database"></span><dl> <span data-ttu-id="87944-112"><dt><strong>WINBIO_CAPABILITY_DATABASE</strong></dt> <dt>0x00000004</dt> </span><span class="sxs-lookup"><span data-stu-id="87944-112"><dt><strong>WINBIO_CAPABILITY_DATABASE</strong></dt> <dt>0x00000004</dt> </span></span></dl></td>
-<td style="text-align: left;"><span data-ttu-id="87944-113">感應器包含上架資料庫。</span><span class="sxs-lookup"><span data-stu-id="87944-113">The sensor contains an onboard database.</span></span><br/></td>
+<td style="text-align: left;"><span id="WINBIO_CAPABILITY_DATABASE"></span><span id="winbio_capability_database"></span><dl> <span data-ttu-id="f0d1a-112"><dt><strong>WINBIO_CAPABILITY_DATABASE</strong></dt> <dt>0x00000004</dt> </span><span class="sxs-lookup"><span data-stu-id="f0d1a-112"><dt><strong>WINBIO_CAPABILITY_DATABASE</strong></dt> <dt>0x00000004</dt> </span></span></dl></td>
+<td style="text-align: left;"><span data-ttu-id="f0d1a-113">感應器包含上架資料庫。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-113">The sensor contains an onboard database.</span></span><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WINBIO_CAPABILITY_PROCESSING"></span><span id="winbio_capability_processing"></span><dl> <span data-ttu-id="87944-114"><dt><strong>WINBIO_CAPABILITY_PROCESSING</strong></dt> <dt>0x00000008</dt> </span><span class="sxs-lookup"><span data-stu-id="87944-114"><dt><strong>WINBIO_CAPABILITY_PROCESSING</strong></dt> <dt>0x00000008</dt> </span></span></dl></td>
-<td style="text-align: left;"><span data-ttu-id="87944-115">感應器可以執行生物特徵辨識處理。</span><span class="sxs-lookup"><span data-stu-id="87944-115">The sensor can perform biometric processing.</span></span><br/></td>
+<td style="text-align: left;"><span id="WINBIO_CAPABILITY_PROCESSING"></span><span id="winbio_capability_processing"></span><dl> <span data-ttu-id="f0d1a-114"><dt><strong>WINBIO_CAPABILITY_PROCESSING</strong></dt> <dt>0x00000008</dt> </span><span class="sxs-lookup"><span data-stu-id="f0d1a-114"><dt><strong>WINBIO_CAPABILITY_PROCESSING</strong></dt> <dt>0x00000008</dt> </span></span></dl></td>
+<td style="text-align: left;"><span data-ttu-id="f0d1a-115">感應器可以執行生物特徵辨識處理。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-115">The sensor can perform biometric processing.</span></span><br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WINBIO_CAPABILITY_ENCRYPTION"></span><span id="winbio_capability_encryption"></span><dl> <span data-ttu-id="87944-116"><dt><strong>WINBIO_CAPABILITY_ENCRYPTION</strong></dt> <dt>0x00000010</dt> </span><span class="sxs-lookup"><span data-stu-id="87944-116"><dt><strong>WINBIO_CAPABILITY_ENCRYPTION</strong></dt> <dt>0x00000010</dt> </span></span></dl></td>
-<td style="text-align: left;"><span data-ttu-id="87944-117">感應器可以加密生物特徵辨識資料。</span><span class="sxs-lookup"><span data-stu-id="87944-117">The sensor can encrypt biometric data.</span></span><br/></td>
+<td style="text-align: left;"><span id="WINBIO_CAPABILITY_ENCRYPTION"></span><span id="winbio_capability_encryption"></span><dl> <span data-ttu-id="f0d1a-116"><dt><strong>WINBIO_CAPABILITY_ENCRYPTION</strong></dt> <dt>0x00000010</dt> </span><span class="sxs-lookup"><span data-stu-id="f0d1a-116"><dt><strong>WINBIO_CAPABILITY_ENCRYPTION</strong></dt> <dt>0x00000010</dt> </span></span></dl></td>
+<td style="text-align: left;"><span data-ttu-id="f0d1a-117">感應器可以加密生物特徵辨識資料。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-117">The sensor can encrypt biometric data.</span></span><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WINBIO_CAPABILITY_NAVIGATION"></span><span id="winbio_capability_navigation"></span><dl> <span data-ttu-id="87944-118"><dt><strong>WINBIO_CAPABILITY_NAVIGATION</strong></dt> <dt>0x00000020</dt> </span><span class="sxs-lookup"><span data-stu-id="87944-118"><dt><strong>WINBIO_CAPABILITY_NAVIGATION</strong></dt> <dt>0x00000020</dt> </span></span></dl></td>
-<td style="text-align: left;"><span data-ttu-id="87944-119">感應器可作為滑鼠墊。</span><span class="sxs-lookup"><span data-stu-id="87944-119">The sensor can act as a mouse pad.</span></span> <span data-ttu-id="87944-120">目前不支援。</span><span class="sxs-lookup"><span data-stu-id="87944-120">This is currently not supported.</span></span><br/></td>
+<td style="text-align: left;"><span id="WINBIO_CAPABILITY_NAVIGATION"></span><span id="winbio_capability_navigation"></span><dl> <span data-ttu-id="f0d1a-118"><dt><strong>WINBIO_CAPABILITY_NAVIGATION</strong></dt> <dt>0x00000020</dt> </span><span class="sxs-lookup"><span data-stu-id="f0d1a-118"><dt><strong>WINBIO_CAPABILITY_NAVIGATION</strong></dt> <dt>0x00000020</dt> </span></span></dl></td>
+<td style="text-align: left;"><span data-ttu-id="f0d1a-119">感應器可作為滑鼠墊。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-119">The sensor can act as a mouse pad.</span></span> <span data-ttu-id="f0d1a-120">目前不支援。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-120">This is currently not supported.</span></span><br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WINBIO_CAPABILITY_INDICATOR"></span><span id="winbio_capability_indicator"></span><dl> <span data-ttu-id="87944-121"><dt><strong>WINBIO_CAPABILITY_INDICATOR</strong></dt> <dt>0x00000040</dt> </span><span class="sxs-lookup"><span data-stu-id="87944-121"><dt><strong>WINBIO_CAPABILITY_INDICATOR</strong></dt> <dt>0x00000040</dt> </span></span></dl></td>
-<td style="text-align: left;"><span data-ttu-id="87944-122">感應器包含指標燈。</span><span class="sxs-lookup"><span data-stu-id="87944-122">The sensor contains an indicator light.</span></span><br/></td>
+<td style="text-align: left;"><span id="WINBIO_CAPABILITY_INDICATOR"></span><span id="winbio_capability_indicator"></span><dl> <span data-ttu-id="f0d1a-121"><dt><strong>WINBIO_CAPABILITY_INDICATOR</strong></dt> <dt>0x00000040</dt> </span><span class="sxs-lookup"><span data-stu-id="f0d1a-121"><dt><strong>WINBIO_CAPABILITY_INDICATOR</strong></dt> <dt>0x00000040</dt> </span></span></dl></td>
+<td style="text-align: left;"><span data-ttu-id="f0d1a-122">感應器包含指標燈。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-122">The sensor contains an indicator light.</span></span><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WINBIO_CAPABILITY_VIRTUAL_SENSOR"></span><span id="winbio_capability_virtual_sensor"></span><dl> <span data-ttu-id="87944-123"><dt><strong>WINBIO_CAPABILITY_VIRTUAL_SENSOR</strong></dt> <dt>0x00000080</dt> </span><span class="sxs-lookup"><span data-stu-id="87944-123"><dt><strong>WINBIO_CAPABILITY_VIRTUAL_SENSOR</strong></dt> <dt>0x00000080</dt> </span></span></dl></td>
-<td style="text-align: left;"><span data-ttu-id="87944-124">感應器介面卡會管理它自己的生物特徵辨識硬體連接。</span><span class="sxs-lookup"><span data-stu-id="87944-124">The sensor adapter manages its own connection to the biometric hardware.</span></span><br/>
+<td style="text-align: left;"><span id="WINBIO_CAPABILITY_VIRTUAL_SENSOR"></span><span id="winbio_capability_virtual_sensor"></span><dl> <span data-ttu-id="f0d1a-123"><dt><strong>WINBIO_CAPABILITY_VIRTUAL_SENSOR</strong></dt> <dt>0x00000080</dt> </span><span class="sxs-lookup"><span data-stu-id="f0d1a-123"><dt><strong>WINBIO_CAPABILITY_VIRTUAL_SENSOR</strong></dt> <dt>0x00000080</dt> </span></span></dl></td>
+<td style="text-align: left;"><span data-ttu-id="f0d1a-124">感應器介面卡會管理它自己的生物特徵辨識硬體連接。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-124">The sensor adapter manages its own connection to the biometric hardware.</span></span><br/>
 <blockquote>
 [!Note]<br />
-<span data-ttu-id="87944-125">這個常數只適用于 Windows 10 和更新版本。</span><span class="sxs-lookup"><span data-stu-id="87944-125">This constant applies only for Windows 10 and later.</span></span>
+<span data-ttu-id="f0d1a-125">這個常數只適用于 Windows 10 和更新版本。</span><span class="sxs-lookup"><span data-stu-id="f0d1a-125">This constant applies only for Windows 10 and later.</span></span>
 </blockquote>
 <br/></td>
 </tr>
@@ -86,26 +86,26 @@ ms.locfileid: "103843620"
 
 
 
-## <a name="requirements"></a><span data-ttu-id="87944-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="87944-126">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f0d1a-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="f0d1a-126">Requirements</span></span>
 
 
 
-| <span data-ttu-id="87944-127">需求</span><span class="sxs-lookup"><span data-stu-id="87944-127">Requirement</span></span> | <span data-ttu-id="87944-128">值</span><span class="sxs-lookup"><span data-stu-id="87944-128">Value</span></span> |
+| <span data-ttu-id="f0d1a-127">需求</span><span class="sxs-lookup"><span data-stu-id="f0d1a-127">Requirement</span></span> | <span data-ttu-id="f0d1a-128">值</span><span class="sxs-lookup"><span data-stu-id="f0d1a-128">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="87944-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="87944-129">Minimum supported client</span></span><br/> | <span data-ttu-id="87944-130">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="87944-130">Windows 7 \[desktop apps only\]</span></span><br/>                                                                                                                               |
-| <span data-ttu-id="87944-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="87944-131">Minimum supported server</span></span><br/> | <span data-ttu-id="87944-132">僅限 Windows Server 2008 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="87944-132">Windows Server 2008 R2 \[desktop apps only\]</span></span><br/>                                                                                                                  |
-| <span data-ttu-id="87944-133">標頭</span><span class="sxs-lookup"><span data-stu-id="87944-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="87944-134"><dt>Winbio \_ 類型 .h (包含適用于 Winbio 的用戶端應用程式或 Winbio 的 .h \_) </dt></span><span class="sxs-lookup"><span data-stu-id="87944-134"><dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt></span></span> </dl> |
+| <span data-ttu-id="f0d1a-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f0d1a-129">Minimum supported client</span></span><br/> | <span data-ttu-id="f0d1a-130">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f0d1a-130">Windows 7 \[desktop apps only\]</span></span><br/>                                                                                                                               |
+| <span data-ttu-id="f0d1a-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f0d1a-131">Minimum supported server</span></span><br/> | <span data-ttu-id="f0d1a-132">僅限 Windows Server 2008 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f0d1a-132">Windows Server 2008 R2 \[desktop apps only\]</span></span><br/>                                                                                                                  |
+| <span data-ttu-id="f0d1a-133">標頭</span><span class="sxs-lookup"><span data-stu-id="f0d1a-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="f0d1a-134"><dt>Winbio \_ 類型 .h (包含適用于 Winbio 的用戶端應用程式或 Winbio 的 .h \_) </dt></span><span class="sxs-lookup"><span data-stu-id="f0d1a-134"><dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="87944-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="87944-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f0d1a-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f0d1a-135">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="87944-136">用戶端應用程式常數</span><span class="sxs-lookup"><span data-stu-id="87944-136">Client Application Constants</span></span>](client-application-constants.md)
+[<span data-ttu-id="f0d1a-136">用戶端應用程式常數</span><span class="sxs-lookup"><span data-stu-id="f0d1a-136">Client Application Constants</span></span>](client-application-constants.md)
 </dt> <dt>
 
-[<span data-ttu-id="87944-137">**WINBIO \_ 單元 \_ 架構**</span><span class="sxs-lookup"><span data-stu-id="87944-137">**WINBIO\_UNIT\_SCHEMA**</span></span>](winbio-unit-schema.md)
+[<span data-ttu-id="f0d1a-137">**WINBIO \_ 單元 \_ 架構**</span><span class="sxs-lookup"><span data-stu-id="f0d1a-137">**WINBIO\_UNIT\_SCHEMA**</span></span>](winbio-unit-schema.md)
 </dt> </dl>
 
  
