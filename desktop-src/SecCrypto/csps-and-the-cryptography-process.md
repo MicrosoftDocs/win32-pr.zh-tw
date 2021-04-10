@@ -1,0 +1,38 @@
+---
+description: CryptoAPI 函數會使用密碼編譯服務提供者 (Csp) 來執行加密和解密，以及提供金鑰儲存和安全性。
+ms.assetid: 7977e59b-7ce1-4bb4-aae4-d67b7d646493
+title: Csp 和密碼編譯器
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5f5404fc3641a9a2c753158f5acb84850f3f0f29
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104026156"
+---
+# <a name="csps-and-the-cryptography-process"></a>Csp 和密碼編譯器
+
+[*CryptoAPI*](../secgloss/c-gly.md) 函數會使用 [*密碼編譯服務提供者*](../secgloss/c-gly.md) (csp) 來執行加密和解密，以及提供金鑰儲存和安全性。 這些 Csp 是獨立的模組。 在理想的情況下，Csp 是撰寫成獨立于特定的應用程式，因此任何應用程式都將使用各種 Csp 來執行。 不過實際上，有些應用程式具有需要自訂 CSP 的特定需求。 這與 Windows [*GDI*](../secgloss/g-gly.md) 模型比較。 Csp 類似于圖形設備磁碟機。
+
+系統內金鑰的保護品質是 CSP 的設計參數，而不是整個系統。 這可讓應用程式在不同的安全性內容中執行，而不需要修改。
+
+存取應用程式對密碼編譯本質的存取權非常嚴格。 這可促進安全且可攜的應用程式開發。
+
+下列三個設計規則適用：
+
+-   應用程式無法直接存取金鑰內容。 由於所有的金鑰處理內容都是在 CSP 內產生的，而且應用程式會透過不透明的控制碼來使用，因此應用程式或其相關聯的 Dll 不會有任何風險 divulging 金鑰處理資料，或從不佳的隨機來源選擇金鑰材料
+-   應用程式無法指定密碼編譯作業的詳細資料。 CSP 介面可讓應用程式選擇加密或簽章演算法，但每個密碼編譯作業的執行都是由 CSP 進行。
+-   應用程式不會處理使用者 [*認證或其他使用者驗證*](../secgloss/c-gly.md) 資料。 使用者驗證是由 CSP 完成;因此，未來具有 advanced authentication 功能的 Csp （例如生物特徵辨識輸入）將可運作，而不需要變更應用程式驗證模型。
+
+CSP 至少包含動態連結程式庫 (DLL) 和簽章 [*檔案。*](../secgloss/s-gly.md) 需要簽章檔案，以確保 [*CryptoAPI*](../secgloss/c-gly.md) 能夠辨識 CSP。 CryptoAPI 會定期驗證此簽章，以確保偵測到對 CSP 的任何篡改。
+
+某些 Csp 可以在以位址分隔的服務中，透過本機 RPC 或透過系統裝置磁碟機呼叫的硬體來執行其功能的一部分。 在以位址分隔的服務或硬體中隔離全域金鑰狀態和中央密碼編譯作業，可讓金鑰和作業安全地免于在應用程式資料空間內遭到篡改。
+
+造成應用程式以利用特定 CSP 的特定屬性。 例如， (CryptoAPI 提供的 Microsoft 基礎密碼編譯提供者，) 支援40位工作階段金鑰和512位公開金鑰。 操作這些金鑰的應用程式必須避免對儲存這些金鑰所需的記憶體數量進行假設，因為如果使用不同的 CSP，應用程式可能會失敗。 撰寫完善的應用程式必須使用各種 Csp。
+
+如需可與 CryptoAPI 搭配使用之密碼編譯提供者類型和預先定義之 Csp 的詳細資訊，請參閱 [密碼編譯提供者類型](cryptographic-provider-types.md) 和 [Microsoft 加密服務提供者](microsoft-cryptographic-service-providers.md)。
+
+ 
+
+ 
