@@ -22,13 +22,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103682177"
 ---
-# <a name="getmuteoperationcompleted-property"></a><span data-ttu-id="a7583-106">GetMuteOperation。 Completed 屬性</span><span class="sxs-lookup"><span data-stu-id="a7583-106">GetMuteOperation.Completed property</span></span>
+# <a name="getmuteoperationcompleted-property"></a><span data-ttu-id="24c6d-106">GetMuteOperation。 Completed 屬性</span><span class="sxs-lookup"><span data-stu-id="24c6d-106">GetMuteOperation.Completed property</span></span>
 
-<span data-ttu-id="a7583-107">取得或設定當 [**GetMuteAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync) 啟動的非同步作業完成時叫用的事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="a7583-107">Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync) is completed.</span></span>
+<span data-ttu-id="24c6d-107">取得或設定當 [**GetMuteAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync) 啟動的非同步作業完成時叫用的事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="24c6d-107">Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync) is completed.</span></span>
 
-<span data-ttu-id="a7583-108">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="a7583-108">This property is read/write.</span></span>
+<span data-ttu-id="24c6d-108">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="24c6d-108">This property is read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a7583-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="a7583-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="24c6d-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="24c6d-109">Syntax</span></span>
 
 
 ```C++
@@ -43,15 +43,15 @@ HRESULT get_Completed(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="a7583-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="a7583-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="24c6d-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="24c6d-110">Property value</span></span>
 
-<span data-ttu-id="a7583-111">事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="a7583-111">The event handler.</span></span>
+<span data-ttu-id="24c6d-111">事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="24c6d-111">The event handler.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a7583-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a7583-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="24c6d-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="24c6d-112">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a7583-113">**GetMuteOperation**</span><span class="sxs-lookup"><span data-stu-id="a7583-113">**GetMuteOperation**</span></span>](getmuteoperation.md)
+[<span data-ttu-id="24c6d-113">**GetMuteOperation**</span><span class="sxs-lookup"><span data-stu-id="24c6d-113">**GetMuteOperation**</span></span>](getmuteoperation.md)
 </dt> </dl>
 
  
