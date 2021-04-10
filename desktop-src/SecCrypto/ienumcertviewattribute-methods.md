@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851531"
 ---
-# <a name="ienumcertviewattribute-methods"></a><span data-ttu-id="112c6-103">IEnumCERTVIEWATTRIBUTE 方法</span><span class="sxs-lookup"><span data-stu-id="112c6-103">IEnumCERTVIEWATTRIBUTE Methods</span></span>
+# <a name="ienumcertviewattribute-methods"></a><span data-ttu-id="d713c-103">IEnumCERTVIEWATTRIBUTE 方法</span><span class="sxs-lookup"><span data-stu-id="d713c-103">IEnumCERTVIEWATTRIBUTE Methods</span></span>
 
-<span data-ttu-id="112c6-104">[**IEnumCERTVIEWATTRIBUTE**](/windows/desktop/api/Certview/nn-certview-ienumcertviewattribute)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="112c6-104">The [**IEnumCERTVIEWATTRIBUTE**](/windows/desktop/api/Certview/nn-certview-ienumcertviewattribute) interface exposes the following methods.</span></span>
+<span data-ttu-id="d713c-104">[**IEnumCERTVIEWATTRIBUTE**](/windows/desktop/api/Certview/nn-certview-ienumcertviewattribute)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="d713c-104">The [**IEnumCERTVIEWATTRIBUTE**](/windows/desktop/api/Certview/nn-certview-ienumcertviewattribute) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="112c6-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="112c6-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d713c-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d713c-105">In this section</span></span>
 
--   [<span data-ttu-id="112c6-106">**Clone 方法**</span><span class="sxs-lookup"><span data-stu-id="112c6-106">**Clone Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-clone)
--   [<span data-ttu-id="112c6-107">**GetName 方法**</span><span class="sxs-lookup"><span data-stu-id="112c6-107">**GetName Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-getname)
--   [<span data-ttu-id="112c6-108">**GetValue 方法**</span><span class="sxs-lookup"><span data-stu-id="112c6-108">**GetValue Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-getvalue)
--   [<span data-ttu-id="112c6-109">**下一個方法**</span><span class="sxs-lookup"><span data-stu-id="112c6-109">**Next Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-next)
--   [<span data-ttu-id="112c6-110">**Reset 方法**</span><span class="sxs-lookup"><span data-stu-id="112c6-110">**Reset Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-reset)
--   [<span data-ttu-id="112c6-111">**Skip 方法**</span><span class="sxs-lookup"><span data-stu-id="112c6-111">**Skip Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-skip)
+-   [<span data-ttu-id="d713c-106">**Clone 方法**</span><span class="sxs-lookup"><span data-stu-id="d713c-106">**Clone Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-clone)
+-   [<span data-ttu-id="d713c-107">**GetName 方法**</span><span class="sxs-lookup"><span data-stu-id="d713c-107">**GetName Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-getname)
+-   [<span data-ttu-id="d713c-108">**GetValue 方法**</span><span class="sxs-lookup"><span data-stu-id="d713c-108">**GetValue Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-getvalue)
+-   [<span data-ttu-id="d713c-109">**下一個方法**</span><span class="sxs-lookup"><span data-stu-id="d713c-109">**Next Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-next)
+-   [<span data-ttu-id="d713c-110">**Reset 方法**</span><span class="sxs-lookup"><span data-stu-id="d713c-110">**Reset Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-reset)
+-   [<span data-ttu-id="d713c-111">**Skip 方法**</span><span class="sxs-lookup"><span data-stu-id="d713c-111">**Skip Method**</span></span>](/windows/desktop/api/Certview/nf-certview-ienumcertviewattribute-skip)
 
  
 

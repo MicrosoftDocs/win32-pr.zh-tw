@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851547"
 ---
-# <a name="icryptattribute-properties"></a><span data-ttu-id="b5c49-103">ICryptAttribute 屬性</span><span class="sxs-lookup"><span data-stu-id="b5c49-103">ICryptAttribute Properties</span></span>
+# <a name="icryptattribute-properties"></a><span data-ttu-id="7ff12-103">ICryptAttribute 屬性</span><span class="sxs-lookup"><span data-stu-id="7ff12-103">ICryptAttribute Properties</span></span>
 
-<span data-ttu-id="b5c49-104">[**ICryptAttribute**](/windows/desktop/api/CertEnroll/nn-certenroll-icryptattribute)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="b5c49-104">The [**ICryptAttribute**](/windows/desktop/api/CertEnroll/nn-certenroll-icryptattribute) interface exposes the following properties.</span></span>
+<span data-ttu-id="7ff12-104">[**ICryptAttribute**](/windows/desktop/api/CertEnroll/nn-certenroll-icryptattribute)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="7ff12-104">The [**ICryptAttribute**](/windows/desktop/api/CertEnroll/nn-certenroll-icryptattribute) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="b5c49-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b5c49-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7ff12-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="7ff12-105">In this section</span></span>
 
--   [<span data-ttu-id="b5c49-106">**ObjectId 屬性**</span><span class="sxs-lookup"><span data-stu-id="b5c49-106">**ObjectId Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-get_objectid)
--   [<span data-ttu-id="b5c49-107">**Values 屬性**</span><span class="sxs-lookup"><span data-stu-id="b5c49-107">**Values Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-get_values)
+-   [<span data-ttu-id="7ff12-106">**ObjectId 屬性**</span><span class="sxs-lookup"><span data-stu-id="7ff12-106">**ObjectId Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-get_objectid)
+-   [<span data-ttu-id="7ff12-107">**Values 屬性**</span><span class="sxs-lookup"><span data-stu-id="7ff12-107">**Values Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-get_values)
 
  
 
