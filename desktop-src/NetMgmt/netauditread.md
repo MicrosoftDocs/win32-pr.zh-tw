@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933502"
 ---
-# <a name="netauditread"></a><span data-ttu-id="e1af0-106">NetAuditRead</span><span class="sxs-lookup"><span data-stu-id="e1af0-106">NetAuditRead</span></span>
+# <a name="netauditread"></a><span data-ttu-id="d3ba4-106">NetAuditRead</span><span class="sxs-lookup"><span data-stu-id="d3ba4-106">NetAuditRead</span></span>
 
-<span data-ttu-id="e1af0-107">**NetAuditRead** 函式已過時。</span><span class="sxs-lookup"><span data-stu-id="e1af0-107">The **NetAuditRead** function is obsolete.</span></span> <span data-ttu-id="e1af0-108">它隨附于與16位版本的 Windows 的相容性。</span><span class="sxs-lookup"><span data-stu-id="e1af0-108">It is included for compatibility with 16-bit versions of Windows.</span></span> <span data-ttu-id="e1af0-109">其他應用程式應該使用 [事件記錄](/windows/desktop/EventLog/event-logging)。</span><span class="sxs-lookup"><span data-stu-id="e1af0-109">Other applications should use [event logging](/windows/desktop/EventLog/event-logging).</span></span>
+<span data-ttu-id="d3ba4-107">**NetAuditRead** 函式已過時。</span><span class="sxs-lookup"><span data-stu-id="d3ba4-107">The **NetAuditRead** function is obsolete.</span></span> <span data-ttu-id="d3ba4-108">它隨附于與16位版本的 Windows 的相容性。</span><span class="sxs-lookup"><span data-stu-id="d3ba4-108">It is included for compatibility with 16-bit versions of Windows.</span></span> <span data-ttu-id="d3ba4-109">其他應用程式應該使用 [事件記錄](/windows/desktop/EventLog/event-logging)。</span><span class="sxs-lookup"><span data-stu-id="d3ba4-109">Other applications should use [event logging](/windows/desktop/EventLog/event-logging).</span></span>
 
  
 

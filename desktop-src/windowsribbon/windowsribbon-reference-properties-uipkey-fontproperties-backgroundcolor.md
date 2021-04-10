@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682451"
 ---
-# <a name="ui_pkey_fontproperties_backgroundcolor"></a><span data-ttu-id="b143f-103">UI \_ PKEY \_ FontProperties \_ BackgroundColor</span><span class="sxs-lookup"><span data-stu-id="b143f-103">UI\_PKEY\_FontProperties\_BackgroundColor</span></span>
+# <a name="ui_pkey_fontproperties_backgroundcolor"></a><span data-ttu-id="34066-103">UI \_ PKEY \_ FontProperties \_ BackgroundColor</span><span class="sxs-lookup"><span data-stu-id="34066-103">UI\_PKEY\_FontProperties\_BackgroundColor</span></span>
 
-<span data-ttu-id="b143f-104">識別 UI \_ PKEY \_ FontProperties \_ BackgroundColor 屬性。</span><span class="sxs-lookup"><span data-stu-id="b143f-104">Identifies the UI\_PKEY\_FontProperties\_BackgroundColor property.</span></span>
+<span data-ttu-id="34066-104">識別 UI \_ PKEY \_ FontProperties \_ BackgroundColor 屬性。</span><span class="sxs-lookup"><span data-stu-id="34066-104">Identifies the UI\_PKEY\_FontProperties\_BackgroundColor property.</span></span>
 
 ```
 propertyDescription
@@ -25,23 +25,23 @@ propertyDescription
       type = COLORREF
 ```
 
-## <a name="remarks"></a><span data-ttu-id="b143f-105">備註</span><span class="sxs-lookup"><span data-stu-id="b143f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="34066-105">備註</span><span class="sxs-lookup"><span data-stu-id="34066-105">Remarks</span></span>
 
-<span data-ttu-id="b143f-106">UI \_ PKEY \_ FontProperties \_ BackgroundColor 是由應用程式搭配 [ui \_ PKEY \_ FontProperties \_ BackgroundColorType](windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md)使用，以查詢 **文字反白顯示色彩** 圖庫的設定。</span><span class="sxs-lookup"><span data-stu-id="b143f-106">UI\_PKEY\_FontProperties\_BackgroundColor is used by an application, in conjunction with [UI\_PKEY\_FontProperties\_BackgroundColorType](windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md), to query **Text highlight color** gallery settings.</span></span>
+<span data-ttu-id="34066-106">UI \_ PKEY \_ FontProperties \_ BackgroundColor 是由應用程式搭配 [ui \_ PKEY \_ FontProperties \_ BackgroundColorType](windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md)使用，以查詢 **文字反白顯示色彩** 圖庫的設定。</span><span class="sxs-lookup"><span data-stu-id="34066-106">UI\_PKEY\_FontProperties\_BackgroundColor is used by an application, in conjunction with [UI\_PKEY\_FontProperties\_BackgroundColorType](windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md), to query **Text highlight color** gallery settings.</span></span>
 
-<span data-ttu-id="b143f-107">預設值是 `0x00000000`。</span><span class="sxs-lookup"><span data-stu-id="b143f-107">The default value is `0x00000000`.</span></span>
+<span data-ttu-id="34066-107">預設值是 `0x00000000`。</span><span class="sxs-lookup"><span data-stu-id="34066-107">The default value is `0x00000000`.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="b143f-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="b143f-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="34066-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="34066-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b143f-109">字型控制項屬性</span><span class="sxs-lookup"><span data-stu-id="b143f-109">Font Control Properties</span></span>](windowsribbon-reference-properties-fontcontrol.md)
+[<span data-ttu-id="34066-109">字型控制項屬性</span><span class="sxs-lookup"><span data-stu-id="34066-109">Font Control Properties</span></span>](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="b143f-110">COLORREF</span><span class="sxs-lookup"><span data-stu-id="b143f-110">COLORREF</span></span>](../gdi/colorref.md)
+[<span data-ttu-id="34066-110">COLORREF</span><span class="sxs-lookup"><span data-stu-id="34066-110">COLORREF</span></span>](../gdi/colorref.md)
 </dt> <dt>
 
-[<span data-ttu-id="b143f-111">字型控制項</span><span class="sxs-lookup"><span data-stu-id="b143f-111">Font Control</span></span>](windowsribbon-controls-fontcontrol.md)
+[<span data-ttu-id="34066-111">字型控制項</span><span class="sxs-lookup"><span data-stu-id="34066-111">Font Control</span></span>](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
  

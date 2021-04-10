@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103936049"
 ---
-# <a name="basic-debugging"></a><span data-ttu-id="b154d-104">基本調試</span><span class="sxs-lookup"><span data-stu-id="b154d-104">Basic Debugging</span></span>
+# <a name="basic-debugging"></a><span data-ttu-id="8a82f-104">基本調試</span><span class="sxs-lookup"><span data-stu-id="8a82f-104">Basic Debugging</span></span>
 
-<span data-ttu-id="b154d-105">*調試* 程式是一種應用程式，可讓開發人員觀察和修正程式設計錯誤。</span><span class="sxs-lookup"><span data-stu-id="b154d-105">A *debugger* is an application that enables a developer to observe and correct programming errors.</span></span> <span data-ttu-id="b154d-106">本總覽說明基本的調試功能。</span><span class="sxs-lookup"><span data-stu-id="b154d-106">This overview describes the basic debugging functions.</span></span>
+<span data-ttu-id="8a82f-105">*調試* 程式是一種應用程式，可讓開發人員觀察和修正程式設計錯誤。</span><span class="sxs-lookup"><span data-stu-id="8a82f-105">A *debugger* is an application that enables a developer to observe and correct programming errors.</span></span> <span data-ttu-id="8a82f-106">本總覽說明基本的調試功能。</span><span class="sxs-lookup"><span data-stu-id="8a82f-106">This overview describes the basic debugging functions.</span></span>
 
--   [<span data-ttu-id="b154d-107">關於基本的調試</span><span class="sxs-lookup"><span data-stu-id="b154d-107">About Basic Debugging</span></span>](about-basic-debugging.md)
--   [<span data-ttu-id="b154d-108">調試參考</span><span class="sxs-lookup"><span data-stu-id="b154d-108">Debugging Reference</span></span>](debugging-reference.md)
+-   [<span data-ttu-id="8a82f-107">關於基本的調試</span><span class="sxs-lookup"><span data-stu-id="8a82f-107">About Basic Debugging</span></span>](about-basic-debugging.md)
+-   [<span data-ttu-id="8a82f-108">調試參考</span><span class="sxs-lookup"><span data-stu-id="8a82f-108">Debugging Reference</span></span>](debugging-reference.md)
 
  
 

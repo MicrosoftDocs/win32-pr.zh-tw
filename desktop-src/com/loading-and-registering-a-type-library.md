@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "104024208"
 ---
-# <a name="loading-and-registering-a-type-library"></a><span data-ttu-id="1aa07-104">載入和註冊類型程式庫</span><span class="sxs-lookup"><span data-stu-id="1aa07-104">Loading and Registering a Type Library</span></span>
+# <a name="loading-and-registering-a-type-library"></a><span data-ttu-id="913d6-104">載入和註冊類型程式庫</span><span class="sxs-lookup"><span data-stu-id="913d6-104">Loading and Registering a Type Library</span></span>
 
-<span data-ttu-id="1aa07-105">Automation 動態連結程式庫 Oleaut32.dll 可提供數個函式，您可以呼叫這些函式來載入和註冊類型程式庫。</span><span class="sxs-lookup"><span data-stu-id="1aa07-105">The Automation dynamic link library, Oleaut32.dll, provides several functions that you can call to load and register a type library.</span></span> <span data-ttu-id="1aa07-106">如下列範例所示，呼叫 [LoadTypeLibEx](/windows/win32/api/oleauto/nf-oleauto-loadtypelibex)會載入程式庫並建立登錄專案。</span><span class="sxs-lookup"><span data-stu-id="1aa07-106">Calling [LoadTypeLibEx](/windows/win32/api/oleauto/nf-oleauto-loadtypelibex), as shown in the following example, both loads the library and creates the registry entries.</span></span>
+<span data-ttu-id="913d6-105">Automation 動態連結程式庫 Oleaut32.dll 可提供數個函式，您可以呼叫這些函式來載入和註冊類型程式庫。</span><span class="sxs-lookup"><span data-stu-id="913d6-105">The Automation dynamic link library, Oleaut32.dll, provides several functions that you can call to load and register a type library.</span></span> <span data-ttu-id="913d6-106">如下列範例所示，呼叫 [LoadTypeLibEx](/windows/win32/api/oleauto/nf-oleauto-loadtypelibex)會載入程式庫並建立登錄專案。</span><span class="sxs-lookup"><span data-stu-id="913d6-106">Calling [LoadTypeLibEx](/windows/win32/api/oleauto/nf-oleauto-loadtypelibex), as shown in the following example, both loads the library and creates the registry entries.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1aa07-107">範例</span><span class="sxs-lookup"><span data-stu-id="1aa07-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="913d6-107">範例</span><span class="sxs-lookup"><span data-stu-id="913d6-107">Example</span></span>
 
 ``` syntax
 ITypeLib *pTypeLib;
