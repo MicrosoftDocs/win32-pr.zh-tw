@@ -1,0 +1,66 @@
+---
+description: 本主題討論如何使用對等群組 Api 邀請對等加入對等群組的程式。
+ms.assetid: 6afcbfec-b1df-45cd-8a43-221dfe5d8c33
+title: 邀請對等群組
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 68b1e8852f58387d424944d4a8821f56b5e11e8d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103944280"
+---
+# <a name="inviting-a-peer-to-a-group"></a><span data-ttu-id="7040f-103">邀請對等群組</span><span class="sxs-lookup"><span data-stu-id="7040f-103">Inviting a Peer to a Group</span></span>
+
+<span data-ttu-id="7040f-104">本主題討論如何使用對等群組 Api 邀請對等加入對等群組的程式。</span><span class="sxs-lookup"><span data-stu-id="7040f-104">This topic discusses the process of inviting a peer to join a peer group using the Peer Grouping APIs.</span></span>
+
+<span data-ttu-id="7040f-105">對等群組需要有效的認證才能參與。</span><span class="sxs-lookup"><span data-stu-id="7040f-105">A peer group requires valid credentials to participate.</span></span> <span data-ttu-id="7040f-106">認證會以邀請形式從群組外部發出，或在需要認證更新時直接發給群組內的成員。</span><span class="sxs-lookup"><span data-stu-id="7040f-106">Credentials are issued from outside a group in the form of invitations, or directly to members within a group when credential updates are needed.</span></span>
+
+## <a name="group-member-certificates"></a><span data-ttu-id="7040f-107">群組成員憑證</span><span class="sxs-lookup"><span data-stu-id="7040f-107">Group Member Certificates</span></span>
+
+<span data-ttu-id="7040f-108">當應用程式呼叫 [**PeerGroupCreate**](/windows/desktop/api/P2P/nf-p2p-peergroupcreate)時，就會建立對等群組。</span><span class="sxs-lookup"><span data-stu-id="7040f-108">A peer group is created when an application makes a call to [**PeerGroupCreate**](/windows/desktop/api/P2P/nf-p2p-peergroupcreate).</span></span>
+
+<span data-ttu-id="7040f-109">若要參與對等群組，每個對等都必須有對等身分識別。</span><span class="sxs-lookup"><span data-stu-id="7040f-109">To participate in a peer group, each peer must have a peer identity.</span></span> <span data-ttu-id="7040f-110">呼叫 [**PeerEnumIdentities**](/windows/desktop/api/P2P/nf-p2p-peerenumidentities) 直到已傳回對等定義的所有對等身分識別，然後選取應該使用的對等身分識別。</span><span class="sxs-lookup"><span data-stu-id="7040f-110">Call [**PeerEnumIdentities**](/windows/desktop/api/P2P/nf-p2p-peerenumidentities) until all peer identities defined for the peer have been returned, and select the one that should be used.</span></span> <span data-ttu-id="7040f-111">如果對等身分識別不存在，請呼叫 [**PeerIdentityCreate**](/windows/desktop/api/P2P/nf-p2p-peeridentitycreate)來建立一個。</span><span class="sxs-lookup"><span data-stu-id="7040f-111">If a peer identity does not exist, create one by calling [**PeerIdentityCreate**](/windows/desktop/api/P2P/nf-p2p-peeridentitycreate).</span></span>
+
+<span data-ttu-id="7040f-112">每個對等身分識別都與一組特定的認證相關聯，這些認證可以用來在連接時證明對等群組成員資格，以及發佈記錄或邀請其他成員的情況。</span><span class="sxs-lookup"><span data-stu-id="7040f-112">Each peer identity is associated with a specific set of credentials that can be used to prove peer group membership when connecting, as well as when publishing records or inviting additional members.</span></span> <span data-ttu-id="7040f-113">這些認證會以 [x.509](https://www.ietf.org/rfc/rfc2511.txt) 憑證的鏈形式表示，稱為群組成員資格憑證 (GMC) 。</span><span class="sxs-lookup"><span data-stu-id="7040f-113">These credentials are represented as chains of [X.509 certificates](https://www.ietf.org/rfc/rfc2511.txt) called Group Membership Certificates (GMC).</span></span>
+
+<span data-ttu-id="7040f-114">若要建立對等身分識別的 GMC，您必須先取得其公開金鑰。</span><span class="sxs-lookup"><span data-stu-id="7040f-114">To create the GMC for a peer identity, you must first obtain its public key.</span></span> <span data-ttu-id="7040f-115">藉由在潛在的受邀者上呼叫 [**PeerIdentityGetXML**](/windows/desktop/api/P2P/nf-p2p-peeridentitygetxml) 並傳入其對等身分識別，即可取得此金鑰。</span><span class="sxs-lookup"><span data-stu-id="7040f-115">This key is obtained by calling [**PeerIdentityGetXML**](/windows/desktop/api/P2P/nf-p2p-peeridentitygetxml) on the potential invitee and passing in its peer identity.</span></span> <span data-ttu-id="7040f-116">此函式會傳回以64編碼的編碼憑證 (IDC) ，其中包含用來建立對等身分識別的 RSA 公開金鑰 (在以 XML blob 封裝的其他) 專案中，以下列格式來建立 GMC：</span><span class="sxs-lookup"><span data-stu-id="7040f-116">This function returns a base-64 encoded certificate (IDC) that contains the RSA public key used to create the GMC for the peer identity (among other things), encapsulated in an XML blob, in the following format:</span></span>
+
+``` syntax
+<PEERIDENTITYINFO VERSION="1.0">
+     <IDC xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">
+          <!-- Base-64 encoded certificate  -->
+     </IDC>
+</PEERIDENTITYINFO>
+```
+
+<span data-ttu-id="7040f-117">這個字串可以傳遞給 [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation)，它會傳回包含該對等身分識別之 GMC 的邀請。</span><span class="sxs-lookup"><span data-stu-id="7040f-117">This string can be passed to [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation), which returns an invitation that contains the GMC for that peer identity.</span></span> <span data-ttu-id="7040f-118">邀請必須使用不同的程式（例如電子郵件、FTP 或安全檔案共用）傳遞給受邀者。</span><span class="sxs-lookup"><span data-stu-id="7040f-118">The invitation must be passed to the invitee using a different process such as e-mail, FTP, or a secure file share.</span></span>
+
+<span data-ttu-id="7040f-119">或者，您也可以將 IDC 本身放置在新的 [**對等 \_ 認證 \_ 資訊**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info) 結構中，並傳遞給 [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials)，這同樣會產生邀請。</span><span class="sxs-lookup"><span data-stu-id="7040f-119">Alternatively, the IDC itself can be placed in a new [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info) structure and passed to [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials), which likewise generates an invitation.</span></span>
+
+<span data-ttu-id="7040f-120">請注意，應用程式不能在 **PEERIDENTITYINFO** 標記內新增標記，或以任何方式修改此 XML 片段。</span><span class="sxs-lookup"><span data-stu-id="7040f-120">Note that applications are not allowed to add tags within the **PEERIDENTITYINFO** tag or modify this XML fragment in any way.</span></span> <span data-ttu-id="7040f-121">應用程式可以將這個 XML 片段併入其他 XML 檔，但必須先去除所有應用程式專屬的 XML，才能將此片段傳遞給 [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation) 或 [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials) 函數。</span><span class="sxs-lookup"><span data-stu-id="7040f-121">Applications are allowed to incorporate this XML fragment into other XML documents, but must strip out all application-specific XML before passing this fragment to the [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation) or [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials) functions.</span></span>
+
+<span data-ttu-id="7040f-122">成員 GMCs 由系統管理員和對等群組建立者所發出。</span><span class="sxs-lookup"><span data-stu-id="7040f-122">Member GMCs are issued by administrators and the peer group creator.</span></span> <span data-ttu-id="7040f-123">成員必須取得新的 GMCs，並在超過到期時間之前，先取得其 GMCs 的延長存留期。</span><span class="sxs-lookup"><span data-stu-id="7040f-123">Members must obtain new GMCs with extended lifetimes their GMCs before the expiration time has passed.</span></span> <span data-ttu-id="7040f-124">對等群組系統管理員會藉由呼叫 [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials) 與該對等現有的認證來發出更新的認證。</span><span class="sxs-lookup"><span data-stu-id="7040f-124">The peer group administrator issues updated credentials by calling [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials) with the existing credentials for that peer.</span></span>
+
+<span data-ttu-id="7040f-125">[**對等 \_ 認證 \_ 資訊**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info)結構包含對等成員資格狀態的基本資料，包括其 GMC 的公開金鑰。</span><span class="sxs-lookup"><span data-stu-id="7040f-125">The [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info) structure contains the basic data on a peer's membership status, including the public key for their GMC.</span></span> <span data-ttu-id="7040f-126">您可以藉由 \_ \_ \_ 在 [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials)的呼叫中設定對等群組存放區認證旗標，將新發行的認證發行至對等群組。</span><span class="sxs-lookup"><span data-stu-id="7040f-126">Newly-issued credentials can be published to the peer group by setting the PEER\_GROUP\_STORE\_CREDENTIALS flag in the call to [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials).</span></span> <span data-ttu-id="7040f-127">當新認證的收件者加入對等群組時，對等群組基礎結構將會更新現有的認證。</span><span class="sxs-lookup"><span data-stu-id="7040f-127">When the recipient of the new credentials joins the peer group, it's existing credentials will be updated by the Peer Grouping Infrastructure.</span></span>
+
+## <a name="issuing-an-invitation"></a><span data-ttu-id="7040f-128">發出邀請</span><span class="sxs-lookup"><span data-stu-id="7040f-128">Issuing an Invitation</span></span>
+
+<span data-ttu-id="7040f-129">以下列兩種方式之一，邀請成員加入對等群組：</span><span class="sxs-lookup"><span data-stu-id="7040f-129">A member is invited to join the peer group in one of the following two ways:</span></span>
+
+-   <span data-ttu-id="7040f-130">對等群組系統管理員會呼叫 [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation)，傳入透過一般頻外機制（例如電子郵件或 IM 會話）從潛在的受邀者取得的身分識別資訊 XML 字串。</span><span class="sxs-lookup"><span data-stu-id="7040f-130">A peer group administrator calls [**PeerGroupCreateInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation), passing in the identity information XML string obtained from the potential invitee via a common out-of-band mechanism, such as email or an IM session.</span></span> <span data-ttu-id="7040f-131">邀請也會透過部分外部進程或機制傳遞給對等，最後會將其接收為 XML 字串或文字檔。</span><span class="sxs-lookup"><span data-stu-id="7040f-131">The invitation is also passed through some external process or mechanism to the peer, who will ultimately receive it as an XML string or text file.</span></span>
+-   <span data-ttu-id="7040f-132">對等群組系統管理員會呼叫 [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials)。</span><span class="sxs-lookup"><span data-stu-id="7040f-132">A peer group administrator calls [**PeerGroupIssueCredentials**](/windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials).</span></span> <span data-ttu-id="7040f-133">若要使用此函式，對等體必須已經將成員資格資訊發行至對等群組 ([**對等 \_ 成員**](/windows/desktop/api/P2P/ns-p2p-peer_member)) ，或有用於建立主體身分識別) 之 RSA 金鑰組的可用公開金鑰 (。</span><span class="sxs-lookup"><span data-stu-id="7040f-133">To use this function, the peer must have already published membership information to the peer group ([**PEER\_MEMBER**](/windows/desktop/api/P2P/ns-p2p-peer_member)), or have an available public key (of the RSA key pair used to create the subject identity).</span></span> <span data-ttu-id="7040f-134">在先前的案例中， **PeerGroupIssueCredentials** 所需的 [**對等 \_ 認證 \_ 資訊**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info)結構可以從 **對等 \_ 成員** 結構取得，在後者的情況下，可以使用公開金鑰填入新的 **對等 \_ 認證 \_ 資訊** 結構。</span><span class="sxs-lookup"><span data-stu-id="7040f-134">In the former case, the [**PEER\_CREDENTIAL\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_credential_info) structure required for **PeerGroupIssueCredentials** can be obtained from the **PEER\_MEMBER** structure; in the latter case, a new **PEER\_CREDENTIAL\_INFO** structure can be populated with the public key.</span></span>
+
+<span data-ttu-id="7040f-135">收到邀請字串之後，對等會將它傳遞給 [**PeerGroupJoin**](/windows/desktop/api/P2P/nf-p2p-peergroupjoin) ，以加入對等群組。</span><span class="sxs-lookup"><span data-stu-id="7040f-135">After receiving the invitation string, the peer passes it to [**PeerGroupJoin**](/windows/desktop/api/P2P/nf-p2p-peergroupjoin) to join the peer group.</span></span> <span data-ttu-id="7040f-136">如果 **PeerGroupJoin** 的呼叫成功，則對等可以藉由呼叫 [**PeerGroupOpen**](/windows/desktop/api/P2P/nf-p2p-peergroupopen)來開啟對等群組。</span><span class="sxs-lookup"><span data-stu-id="7040f-136">If the call to **PeerGroupJoin** is successful, the peer can later open the peer group by calling [**PeerGroupOpen**](/windows/desktop/api/P2P/nf-p2p-peergroupopen).</span></span>
+
+## <a name="parsing-an-invitation"></a><span data-ttu-id="7040f-137">剖析邀請</span><span class="sxs-lookup"><span data-stu-id="7040f-137">Parsing an Invitation</span></span>
+
+<span data-ttu-id="7040f-138">（選擇性）您可以藉由呼叫 [**PeerGroupParseInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupparseinvitation)來剖析邀請，這會傳回 [**對等 \_ 邀請 \_ 資訊**](/windows/desktop/api/P2P/ns-p2p-peer_invitation_info) 結構。</span><span class="sxs-lookup"><span data-stu-id="7040f-138">Optionally, an invitation can be parsed by calling [**PeerGroupParseInvitation**](/windows/desktop/api/P2P/nf-p2p-peergroupparseinvitation), which returns a [**PEER\_INVITATION\_INFO**](/windows/desktop/api/P2P/ns-p2p-peer_invitation_info) structure.</span></span> <span data-ttu-id="7040f-139">您可以輕鬆地取得結構中的欄位以供顯示之用。</span><span class="sxs-lookup"><span data-stu-id="7040f-139">The fields in the structure can be easily obtained for display purposes.</span></span>
+
+ 
+
+ 
+
+
+

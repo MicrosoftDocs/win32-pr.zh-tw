@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943985"
 ---
-# <a name="processing-frame-data"></a><span data-ttu-id="74c7e-103">處理框架資料</span><span class="sxs-lookup"><span data-stu-id="74c7e-103">Processing Frame Data</span></span>
+# <a name="processing-frame-data"></a><span data-ttu-id="3c73f-103">處理框架資料</span><span class="sxs-lookup"><span data-stu-id="3c73f-103">Processing Frame Data</span></span>
 
-<span data-ttu-id="74c7e-104">在下列範例程式碼中，監視器會設定 **只指定 IP** 和要求的通訊協定資料的捕獲篩選器。</span><span class="sxs-lookup"><span data-stu-id="74c7e-104">In the following example code, the monitor sets a capture filter that specifies **IP only** and requested protocol data.</span></span>
+<span data-ttu-id="3c73f-104">在下列範例程式碼中，監視器會設定 **只指定 IP** 和要求的通訊協定資料的捕獲篩選器。</span><span class="sxs-lookup"><span data-stu-id="3c73f-104">In the following example code, the monitor sets a capture filter that specifies **IP only** and requested protocol data.</span></span>
 
 
 ```C++

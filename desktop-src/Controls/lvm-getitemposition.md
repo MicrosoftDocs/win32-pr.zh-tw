@@ -21,41 +21,41 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844100"
 ---
-# <a name="lvm_getitemposition-message"></a><span data-ttu-id="1ad44-105">LVM \_ GETITEMPOSITION 訊息</span><span class="sxs-lookup"><span data-stu-id="1ad44-105">LVM\_GETITEMPOSITION message</span></span>
+# <a name="lvm_getitemposition-message"></a><span data-ttu-id="95be1-105">LVM \_ GETITEMPOSITION 訊息</span><span class="sxs-lookup"><span data-stu-id="95be1-105">LVM\_GETITEMPOSITION message</span></span>
 
-<span data-ttu-id="1ad44-106">抓取清單視圖專案的位置。</span><span class="sxs-lookup"><span data-stu-id="1ad44-106">Retrieves the position of a list-view item.</span></span> <span data-ttu-id="1ad44-107">您可以明確地傳送此訊息，或使用 [**ListView \_ GetItemPosition**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getitemposition) 宏來傳送。</span><span class="sxs-lookup"><span data-stu-id="1ad44-107">You can send this message explicitly or by using the [**ListView\_GetItemPosition**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getitemposition) macro.</span></span>
+<span data-ttu-id="95be1-106">抓取清單視圖專案的位置。</span><span class="sxs-lookup"><span data-stu-id="95be1-106">Retrieves the position of a list-view item.</span></span> <span data-ttu-id="95be1-107">您可以明確地傳送此訊息，或使用 [**ListView \_ GetItemPosition**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getitemposition) 宏來傳送。</span><span class="sxs-lookup"><span data-stu-id="95be1-107">You can send this message explicitly or by using the [**ListView\_GetItemPosition**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getitemposition) macro.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="1ad44-108">參數</span><span class="sxs-lookup"><span data-stu-id="1ad44-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="95be1-108">參數</span><span class="sxs-lookup"><span data-stu-id="95be1-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="1ad44-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="1ad44-109">*wParam*</span></span> 
+<span data-ttu-id="95be1-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="95be1-109">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="1ad44-110">清單視圖專案的索引。</span><span class="sxs-lookup"><span data-stu-id="1ad44-110">Index of the list-view item.</span></span>
+<span data-ttu-id="95be1-110">清單視圖專案的索引。</span><span class="sxs-lookup"><span data-stu-id="95be1-110">Index of the list-view item.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="1ad44-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="1ad44-111">*lParam*</span></span> 
+<span data-ttu-id="95be1-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="95be1-111">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="1ad44-112">[**點**](/previous-versions//dd162805(v=vs.85))結構的指標，該結構會接收專案左上角的位置（在視圖座標中）。</span><span class="sxs-lookup"><span data-stu-id="1ad44-112">Pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure that receives the position of the item's upper-left corner, in view coordinates.</span></span>
+<span data-ttu-id="95be1-112">[**點**](/previous-versions//dd162805(v=vs.85))結構的指標，該結構會接收專案左上角的位置（在視圖座標中）。</span><span class="sxs-lookup"><span data-stu-id="95be1-112">Pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure that receives the position of the item's upper-left corner, in view coordinates.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="1ad44-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="1ad44-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="95be1-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="95be1-113">Return value</span></span>
 
-<span data-ttu-id="1ad44-114">如果成功， **則傳回 TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="1ad44-114">Returns **TRUE** if successful, or **FALSE** otherwise.</span></span>
+<span data-ttu-id="95be1-114">如果成功， **則傳回 TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="95be1-114">Returns **TRUE** if successful, or **FALSE** otherwise.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="1ad44-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="1ad44-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="95be1-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="95be1-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="1ad44-116">需求</span><span class="sxs-lookup"><span data-stu-id="1ad44-116">Requirement</span></span> | <span data-ttu-id="1ad44-117">值</span><span class="sxs-lookup"><span data-stu-id="1ad44-117">Value</span></span> |
+| <span data-ttu-id="95be1-116">需求</span><span class="sxs-lookup"><span data-stu-id="95be1-116">Requirement</span></span> | <span data-ttu-id="95be1-117">值</span><span class="sxs-lookup"><span data-stu-id="95be1-117">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="1ad44-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1ad44-118">Minimum supported client</span></span><br/> | <span data-ttu-id="1ad44-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1ad44-119">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="1ad44-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1ad44-120">Minimum supported server</span></span><br/> | <span data-ttu-id="1ad44-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1ad44-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="1ad44-122">標頭</span><span class="sxs-lookup"><span data-stu-id="1ad44-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="1ad44-123"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="1ad44-123"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="95be1-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="95be1-118">Minimum supported client</span></span><br/> | <span data-ttu-id="95be1-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="95be1-119">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="95be1-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="95be1-120">Minimum supported server</span></span><br/> | <span data-ttu-id="95be1-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="95be1-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="95be1-122">標頭</span><span class="sxs-lookup"><span data-stu-id="95be1-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="95be1-123"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="95be1-123"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

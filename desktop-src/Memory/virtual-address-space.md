@@ -11,76 +11,76 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943579"
 ---
-# <a name="virtual-address-space-memory-management"></a><span data-ttu-id="30539-104">虛擬位址空間 (記憶體管理) </span><span class="sxs-lookup"><span data-stu-id="30539-104">Virtual Address Space (Memory Management)</span></span>
+# <a name="virtual-address-space-memory-management"></a><span data-ttu-id="b1274-104">虛擬位址空間 (記憶體管理) </span><span class="sxs-lookup"><span data-stu-id="b1274-104">Virtual Address Space (Memory Management)</span></span>
 
-<span data-ttu-id="30539-105">進程的虛擬位址空間是一組可用的虛擬記憶體位址。</span><span class="sxs-lookup"><span data-stu-id="30539-105">The virtual address space for a process is the set of virtual memory addresses that it can use.</span></span> <span data-ttu-id="30539-106">每個進程的位址空間都是私用的，除非共用，否則無法由其他進程存取。</span><span class="sxs-lookup"><span data-stu-id="30539-106">The address space for each process is private and cannot be accessed by other processes unless it is shared.</span></span>
+<span data-ttu-id="b1274-105">進程的虛擬位址空間是一組可用的虛擬記憶體位址。</span><span class="sxs-lookup"><span data-stu-id="b1274-105">The virtual address space for a process is the set of virtual memory addresses that it can use.</span></span> <span data-ttu-id="b1274-106">每個進程的位址空間都是私用的，除非共用，否則無法由其他進程存取。</span><span class="sxs-lookup"><span data-stu-id="b1274-106">The address space for each process is private and cannot be accessed by other processes unless it is shared.</span></span>
 
-<span data-ttu-id="30539-107">虛擬位址不代表物件在記憶體中的實際實體位置;相反地，系統會維護每個進程的 *頁面表格* ，這是用來將虛擬位址轉譯成其對應實體位址的內部資料結構。</span><span class="sxs-lookup"><span data-stu-id="30539-107">A virtual address does not represent the actual physical location of an object in memory; instead, the system maintains a *page table* for each process, which is an internal data structure used to translate virtual addresses into their corresponding physical addresses.</span></span> <span data-ttu-id="30539-108">每次執行緒參考位址時，系統會將虛擬位址轉譯為實體位址。</span><span class="sxs-lookup"><span data-stu-id="30539-108">Each time a thread references an address, the system translates the virtual address to a physical address.</span></span>
+<span data-ttu-id="b1274-107">虛擬位址不代表物件在記憶體中的實際實體位置;相反地，系統會維護每個進程的 *頁面表格* ，這是用來將虛擬位址轉譯成其對應實體位址的內部資料結構。</span><span class="sxs-lookup"><span data-stu-id="b1274-107">A virtual address does not represent the actual physical location of an object in memory; instead, the system maintains a *page table* for each process, which is an internal data structure used to translate virtual addresses into their corresponding physical addresses.</span></span> <span data-ttu-id="b1274-108">每次執行緒參考位址時，系統會將虛擬位址轉譯為實體位址。</span><span class="sxs-lookup"><span data-stu-id="b1274-108">Each time a thread references an address, the system translates the virtual address to a physical address.</span></span>
 
-<span data-ttu-id="30539-109">32位 Windows 的虛擬位址空間的大小為 4 gb (GB) 並分為兩個磁碟分割：一個供進程使用，另一個則保留供系統使用。</span><span class="sxs-lookup"><span data-stu-id="30539-109">The virtual address space for 32-bit Windows is 4 gigabytes (GB) in size and divided into two partitions: one for use by the process and the other reserved for use by the system.</span></span> <span data-ttu-id="30539-110">如需64位 Windows 中虛擬位址空間的詳細資訊，請參閱 [64 位 windows 中的虛擬位址空間](../winprog64/virtual-address-space.md)。</span><span class="sxs-lookup"><span data-stu-id="30539-110">For more information about the virtual address space in 64-bit Windows, see [Virtual Address Space in 64-bit Windows](../winprog64/virtual-address-space.md).</span></span>
+<span data-ttu-id="b1274-109">32位 Windows 的虛擬位址空間的大小為 4 gb (GB) 並分為兩個磁碟分割：一個供進程使用，另一個則保留供系統使用。</span><span class="sxs-lookup"><span data-stu-id="b1274-109">The virtual address space for 32-bit Windows is 4 gigabytes (GB) in size and divided into two partitions: one for use by the process and the other reserved for use by the system.</span></span> <span data-ttu-id="b1274-110">如需64位 Windows 中虛擬位址空間的詳細資訊，請參閱 [64 位 windows 中的虛擬位址空間](../winprog64/virtual-address-space.md)。</span><span class="sxs-lookup"><span data-stu-id="b1274-110">For more information about the virtual address space in 64-bit Windows, see [Virtual Address Space in 64-bit Windows](../winprog64/virtual-address-space.md).</span></span>
 
-<span data-ttu-id="30539-111">如需虛擬記憶體的詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="30539-111">For more information about virtual memory, see the following topics:</span></span>
+<span data-ttu-id="b1274-111">如需虛擬記憶體的詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="b1274-111">For more information about virtual memory, see the following topics:</span></span>
 
--   [<span data-ttu-id="30539-112">虛擬位址空間和實體儲存體</span><span class="sxs-lookup"><span data-stu-id="30539-112">Virtual Address Space and Physical Storage</span></span>](virtual-address-space-and-physical-storage.md)
--   [<span data-ttu-id="30539-113">工作集</span><span class="sxs-lookup"><span data-stu-id="30539-113">Working Set</span></span>](working-set.md)
--   [<span data-ttu-id="30539-114">頁面狀態</span><span class="sxs-lookup"><span data-stu-id="30539-114">Page State</span></span>](page-state.md)
--   [<span data-ttu-id="30539-115">配置的記憶體範圍</span><span class="sxs-lookup"><span data-stu-id="30539-115">Scope of Allocated Memory</span></span>](scope-of-allocated-memory.md)
--   [<span data-ttu-id="30539-116">資料執行防止</span><span class="sxs-lookup"><span data-stu-id="30539-116">Data Execution Prevention</span></span>](data-execution-prevention.md)
--   [<span data-ttu-id="30539-117">記憶體保護</span><span class="sxs-lookup"><span data-stu-id="30539-117">Memory Protection</span></span>](memory-protection.md)
--   [<span data-ttu-id="30539-118">Windows 版本的記憶體限制</span><span class="sxs-lookup"><span data-stu-id="30539-118">Memory Limits for Windows Releases</span></span>](memory-limits-for-windows-releases.md)
+-   [<span data-ttu-id="b1274-112">虛擬位址空間和實體儲存體</span><span class="sxs-lookup"><span data-stu-id="b1274-112">Virtual Address Space and Physical Storage</span></span>](virtual-address-space-and-physical-storage.md)
+-   [<span data-ttu-id="b1274-113">工作集</span><span class="sxs-lookup"><span data-stu-id="b1274-113">Working Set</span></span>](working-set.md)
+-   [<span data-ttu-id="b1274-114">頁面狀態</span><span class="sxs-lookup"><span data-stu-id="b1274-114">Page State</span></span>](page-state.md)
+-   [<span data-ttu-id="b1274-115">配置的記憶體範圍</span><span class="sxs-lookup"><span data-stu-id="b1274-115">Scope of Allocated Memory</span></span>](scope-of-allocated-memory.md)
+-   [<span data-ttu-id="b1274-116">資料執行防止</span><span class="sxs-lookup"><span data-stu-id="b1274-116">Data Execution Prevention</span></span>](data-execution-prevention.md)
+-   [<span data-ttu-id="b1274-117">記憶體保護</span><span class="sxs-lookup"><span data-stu-id="b1274-117">Memory Protection</span></span>](memory-protection.md)
+-   [<span data-ttu-id="b1274-118">Windows 版本的記憶體限制</span><span class="sxs-lookup"><span data-stu-id="b1274-118">Memory Limits for Windows Releases</span></span>](memory-limits-for-windows-releases.md)
 
-## <a name="default-virtual-address-space-for-32-bit-windows"></a><span data-ttu-id="30539-119">32位 Windows 的預設虛擬位址空間</span><span class="sxs-lookup"><span data-stu-id="30539-119">Default Virtual Address Space for 32-bit Windows</span></span>
+## <a name="default-virtual-address-space-for-32-bit-windows"></a><span data-ttu-id="b1274-119">32位 Windows 的預設虛擬位址空間</span><span class="sxs-lookup"><span data-stu-id="b1274-119">Default Virtual Address Space for 32-bit Windows</span></span>
 
-<span data-ttu-id="30539-120">下表顯示每個資料分割的預設記憶體範圍。</span><span class="sxs-lookup"><span data-stu-id="30539-120">The following table shows the default memory range for each partition.</span></span>
+<span data-ttu-id="b1274-120">下表顯示每個資料分割的預設記憶體範圍。</span><span class="sxs-lookup"><span data-stu-id="b1274-120">The following table shows the default memory range for each partition.</span></span>
 
 
 
-| <span data-ttu-id="30539-121">記憶體範圍</span><span class="sxs-lookup"><span data-stu-id="30539-121">Memory range</span></span>                             | <span data-ttu-id="30539-122">使用方式</span><span class="sxs-lookup"><span data-stu-id="30539-122">Usage</span></span>                |
+| <span data-ttu-id="b1274-121">記憶體範圍</span><span class="sxs-lookup"><span data-stu-id="b1274-121">Memory range</span></span>                             | <span data-ttu-id="b1274-122">使用方式</span><span class="sxs-lookup"><span data-stu-id="b1274-122">Usage</span></span>                |
 |------------------------------------------|----------------------|
-| <span data-ttu-id="30539-123">低 2GB (0x00000000 至 0x7FFFFFFF) </span><span class="sxs-lookup"><span data-stu-id="30539-123">Low 2GB (0x00000000 through 0x7FFFFFFF)</span></span>  | <span data-ttu-id="30539-124">由進程使用。</span><span class="sxs-lookup"><span data-stu-id="30539-124">Used by the process.</span></span> |
-| <span data-ttu-id="30539-125">高 2GB (0x80000000 到 0xFFFFFFFF) </span><span class="sxs-lookup"><span data-stu-id="30539-125">High 2GB (0x80000000 through 0xFFFFFFFF)</span></span> | <span data-ttu-id="30539-126">供系統使用。</span><span class="sxs-lookup"><span data-stu-id="30539-126">Used by the system.</span></span>  |
+| <span data-ttu-id="b1274-123">低 2GB (0x00000000 至 0x7FFFFFFF) </span><span class="sxs-lookup"><span data-stu-id="b1274-123">Low 2GB (0x00000000 through 0x7FFFFFFF)</span></span>  | <span data-ttu-id="b1274-124">由進程使用。</span><span class="sxs-lookup"><span data-stu-id="b1274-124">Used by the process.</span></span> |
+| <span data-ttu-id="b1274-125">高 2GB (0x80000000 到 0xFFFFFFFF) </span><span class="sxs-lookup"><span data-stu-id="b1274-125">High 2GB (0x80000000 through 0xFFFFFFFF)</span></span> | <span data-ttu-id="b1274-126">供系統使用。</span><span class="sxs-lookup"><span data-stu-id="b1274-126">Used by the system.</span></span>  |
 
 
 
  
 
-## <a name="virtual-address-space-for-32-bit-windows-with-4gt"></a><span data-ttu-id="30539-127">32位 Windows 與4GT 的虛擬位址空間</span><span class="sxs-lookup"><span data-stu-id="30539-127">Virtual Address Space for 32-bit Windows with 4GT</span></span>
+## <a name="virtual-address-space-for-32-bit-windows-with-4gt"></a><span data-ttu-id="b1274-127">32位 Windows 與4GT 的虛擬位址空間</span><span class="sxs-lookup"><span data-stu-id="b1274-127">Virtual Address Space for 32-bit Windows with 4GT</span></span>
 
-<span data-ttu-id="30539-128">如果已啟用 [4 gb 調整](4-gigabyte-tuning.md) (4gt) ，則每個分割區的記憶體範圍如下所示。</span><span class="sxs-lookup"><span data-stu-id="30539-128">If [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) is enabled, the memory range for each partition is as follows.</span></span>
+<span data-ttu-id="b1274-128">如果已啟用 [4 gb 調整](4-gigabyte-tuning.md) (4gt) ，則每個分割區的記憶體範圍如下所示。</span><span class="sxs-lookup"><span data-stu-id="b1274-128">If [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) is enabled, the memory range for each partition is as follows.</span></span>
 
 
 
-| <span data-ttu-id="30539-129">記憶體範圍</span><span class="sxs-lookup"><span data-stu-id="30539-129">Memory range</span></span>                             | <span data-ttu-id="30539-130">使用方式</span><span class="sxs-lookup"><span data-stu-id="30539-130">Usage</span></span>                |
+| <span data-ttu-id="b1274-129">記憶體範圍</span><span class="sxs-lookup"><span data-stu-id="b1274-129">Memory range</span></span>                             | <span data-ttu-id="b1274-130">使用方式</span><span class="sxs-lookup"><span data-stu-id="b1274-130">Usage</span></span>                |
 |------------------------------------------|----------------------|
-| <span data-ttu-id="30539-131">低 3GB (0x00000000 至 0xBFFFFFFF) </span><span class="sxs-lookup"><span data-stu-id="30539-131">Low 3GB (0x00000000 through 0xBFFFFFFF)</span></span>  | <span data-ttu-id="30539-132">由進程使用。</span><span class="sxs-lookup"><span data-stu-id="30539-132">Used by the process.</span></span> |
-| <span data-ttu-id="30539-133">高 1GB (透過 0xFFFFFFFF) 0xC0000000</span><span class="sxs-lookup"><span data-stu-id="30539-133">High 1GB (0xC0000000 through 0xFFFFFFFF)</span></span> | <span data-ttu-id="30539-134">供系統使用。</span><span class="sxs-lookup"><span data-stu-id="30539-134">Used by the system.</span></span>  |
+| <span data-ttu-id="b1274-131">低 3GB (0x00000000 至 0xBFFFFFFF) </span><span class="sxs-lookup"><span data-stu-id="b1274-131">Low 3GB (0x00000000 through 0xBFFFFFFF)</span></span>  | <span data-ttu-id="b1274-132">由進程使用。</span><span class="sxs-lookup"><span data-stu-id="b1274-132">Used by the process.</span></span> |
+| <span data-ttu-id="b1274-133">高 1GB (透過 0xFFFFFFFF) 0xC0000000</span><span class="sxs-lookup"><span data-stu-id="b1274-133">High 1GB (0xC0000000 through 0xFFFFFFFF)</span></span> | <span data-ttu-id="b1274-134">供系統使用。</span><span class="sxs-lookup"><span data-stu-id="b1274-134">Used by the system.</span></span>  |
 
 
 
  
 
-<span data-ttu-id="30539-135">啟用4GT 之後，在其映射標頭中設定 [**圖像 \_ 檔案 \_ 大型 \_ 位址 \_ 感知**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) 旗標的進程，將可存取超過 2 gb 以上的額外 1 GB 記憶體。</span><span class="sxs-lookup"><span data-stu-id="30539-135">After 4GT is enabled, a process that has the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) flag set in its image header will have access to the additional 1 GB of memory above the low 2 GB.</span></span>
+<span data-ttu-id="b1274-135">啟用4GT 之後，在其映射標頭中設定 [**圖像 \_ 檔案 \_ 大型 \_ 位址 \_ 感知**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) 旗標的進程，將可存取超過 2 gb 以上的額外 1 GB 記憶體。</span><span class="sxs-lookup"><span data-stu-id="b1274-135">After 4GT is enabled, a process that has the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) flag set in its image header will have access to the additional 1 GB of memory above the low 2 GB.</span></span>
 
-## <a name="adjusting-the-virtual-address-space-for-32-bit-windows"></a><span data-ttu-id="30539-136">調整32位 Windows 的虛擬位址空間</span><span class="sxs-lookup"><span data-stu-id="30539-136">Adjusting the Virtual Address Space for 32-bit Windows</span></span>
+## <a name="adjusting-the-virtual-address-space-for-32-bit-windows"></a><span data-ttu-id="b1274-136">調整32位 Windows 的虛擬位址空間</span><span class="sxs-lookup"><span data-stu-id="b1274-136">Adjusting the Virtual Address Space for 32-bit Windows</span></span>
 
-<span data-ttu-id="30539-137">您可以使用下列命令來設定開機專案選項，將可供進程使用的磁碟分割大小設定為介於 2048 (2 GB) 和 3072 (3 GB) 之間的值：</span><span class="sxs-lookup"><span data-stu-id="30539-137">You can use the following command to set a boot entry option that configures the size of the partition that is available for use by the process to a value between 2048 (2 GB) and 3072 (3 GB):</span></span>
+<span data-ttu-id="b1274-137">您可以使用下列命令來設定開機專案選項，將可供進程使用的磁碟分割大小設定為介於 2048 (2 GB) 和 3072 (3 GB) 之間的值：</span><span class="sxs-lookup"><span data-stu-id="b1274-137">You can use the following command to set a boot entry option that configures the size of the partition that is available for use by the process to a value between 2048 (2 GB) and 3072 (3 GB):</span></span>
 
-<span data-ttu-id="30539-138">[BCDEdit/set](/windows-hardware/drivers/devtest/bcdedit--set) **increaseuserva** *mb*</span><span class="sxs-lookup"><span data-stu-id="30539-138">[BCDEdit /set](/windows-hardware/drivers/devtest/bcdedit--set) **increaseuserva** *Megabytes*</span></span>
+<span data-ttu-id="b1274-138">[BCDEdit/set](/windows-hardware/drivers/devtest/bcdedit--set) **increaseuserva** *mb*</span><span class="sxs-lookup"><span data-stu-id="b1274-138">[BCDEdit /set](/windows-hardware/drivers/devtest/bcdedit--set) **increaseuserva** *Megabytes*</span></span>
 
-<span data-ttu-id="30539-139">在設定開機專案選項之後，每個分割區的記憶體範圍如下所示。</span><span class="sxs-lookup"><span data-stu-id="30539-139">After the boot entry option is set, the memory range for each partition is as follows.</span></span>
+<span data-ttu-id="b1274-139">在設定開機專案選項之後，每個分割區的記憶體範圍如下所示。</span><span class="sxs-lookup"><span data-stu-id="b1274-139">After the boot entry option is set, the memory range for each partition is as follows.</span></span>
 
 
 
-| <span data-ttu-id="30539-140">記憶體範圍</span><span class="sxs-lookup"><span data-stu-id="30539-140">Memory range</span></span>                            | <span data-ttu-id="30539-141">使用方式</span><span class="sxs-lookup"><span data-stu-id="30539-141">Usage</span></span>                |
+| <span data-ttu-id="b1274-140">記憶體範圍</span><span class="sxs-lookup"><span data-stu-id="b1274-140">Memory range</span></span>                            | <span data-ttu-id="b1274-141">使用方式</span><span class="sxs-lookup"><span data-stu-id="b1274-141">Usage</span></span>                |
 |-----------------------------------------|----------------------|
-| <span data-ttu-id="30539-142">低 (0x00000000 至 *mb*) </span><span class="sxs-lookup"><span data-stu-id="30539-142">Low (0x00000000 through *Megabytes*)</span></span>    | <span data-ttu-id="30539-143">由進程使用。</span><span class="sxs-lookup"><span data-stu-id="30539-143">Used by the process.</span></span> |
-| <span data-ttu-id="30539-144">高 (*mb*+ 1 到 0xffffffff) </span><span class="sxs-lookup"><span data-stu-id="30539-144">High (*Megabytes*+1 through 0xFFFFFFFF)</span></span> | <span data-ttu-id="30539-145">供系統使用。</span><span class="sxs-lookup"><span data-stu-id="30539-145">Used by the system.</span></span>  |
+| <span data-ttu-id="b1274-142">低 (0x00000000 至 *mb*) </span><span class="sxs-lookup"><span data-stu-id="b1274-142">Low (0x00000000 through *Megabytes*)</span></span>    | <span data-ttu-id="b1274-143">由進程使用。</span><span class="sxs-lookup"><span data-stu-id="b1274-143">Used by the process.</span></span> |
+| <span data-ttu-id="b1274-144">高 (*mb*+ 1 到 0xffffffff) </span><span class="sxs-lookup"><span data-stu-id="b1274-144">High (*Megabytes*+1 through 0xFFFFFFFF)</span></span> | <span data-ttu-id="b1274-145">供系統使用。</span><span class="sxs-lookup"><span data-stu-id="b1274-145">Used by the system.</span></span>  |
 
 
 
  
 
-<span data-ttu-id="30539-146">**Windows Server 2003：** 將 boot.ini 中的 **/USERVA** 參數設定為介於2048到3072之間的值。</span><span class="sxs-lookup"><span data-stu-id="30539-146">**Windows Server 2003:** Set the **/USERVA** switch in boot.ini to a value between 2048 and 3072.</span></span>
+<span data-ttu-id="b1274-146">**Windows Server 2003：** 將 boot.ini 中的 **/USERVA** 參數設定為介於2048到3072之間的值。</span><span class="sxs-lookup"><span data-stu-id="b1274-146">**Windows Server 2003:** Set the **/USERVA** switch in boot.ini to a value between 2048 and 3072.</span></span>
 
  
 

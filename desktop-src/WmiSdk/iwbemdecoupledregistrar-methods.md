@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103693295"
 ---
-# <a name="iwbemdecoupledregistrar-methods"></a><span data-ttu-id="8d251-103">IWbemDecoupledRegistrar 方法</span><span class="sxs-lookup"><span data-stu-id="8d251-103">IWbemDecoupledRegistrar Methods</span></span>
+# <a name="iwbemdecoupledregistrar-methods"></a><span data-ttu-id="3e533-103">IWbemDecoupledRegistrar 方法</span><span class="sxs-lookup"><span data-stu-id="3e533-103">IWbemDecoupledRegistrar Methods</span></span>
 
-<span data-ttu-id="8d251-104">[**IWbemDecoupledRegistrar**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledregistrar)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="8d251-104">The [**IWbemDecoupledRegistrar**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledregistrar) interface exposes the following methods.</span></span>
+<span data-ttu-id="3e533-104">[**IWbemDecoupledRegistrar**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledregistrar)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="3e533-104">The [**IWbemDecoupledRegistrar**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledregistrar) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="8d251-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="8d251-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3e533-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="3e533-105">In this section</span></span>
 
--   [<span data-ttu-id="8d251-106">**Register 方法**</span><span class="sxs-lookup"><span data-stu-id="8d251-106">**Register method**</span></span>](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register)
--   [<span data-ttu-id="8d251-107">**取消註冊方法**</span><span class="sxs-lookup"><span data-stu-id="8d251-107">**UnRegister method**</span></span>](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-unregister)
+-   [<span data-ttu-id="3e533-106">**Register 方法**</span><span class="sxs-lookup"><span data-stu-id="3e533-106">**Register method**</span></span>](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register)
+-   [<span data-ttu-id="3e533-107">**取消註冊方法**</span><span class="sxs-lookup"><span data-stu-id="3e533-107">**UnRegister method**</span></span>](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-unregister)
 
  
 
