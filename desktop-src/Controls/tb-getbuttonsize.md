@@ -21,33 +21,33 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844447"
 ---
-# <a name="tb_getbuttonsize-message"></a><span data-ttu-id="85c09-104">TB \_ GETBUTTONSIZE 訊息</span><span class="sxs-lookup"><span data-stu-id="85c09-104">TB\_GETBUTTONSIZE message</span></span>
+# <a name="tb_getbuttonsize-message"></a><span data-ttu-id="6d93e-104">TB \_ GETBUTTONSIZE 訊息</span><span class="sxs-lookup"><span data-stu-id="6d93e-104">TB\_GETBUTTONSIZE message</span></span>
 
-<span data-ttu-id="85c09-105">抓取工具列按鈕目前的寬度和高度（以圖元為單位）。</span><span class="sxs-lookup"><span data-stu-id="85c09-105">Retrieves the current width and height of toolbar buttons, in pixels.</span></span>
+<span data-ttu-id="6d93e-105">抓取工具列按鈕目前的寬度和高度（以圖元為單位）。</span><span class="sxs-lookup"><span data-stu-id="6d93e-105">Retrieves the current width and height of toolbar buttons, in pixels.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="85c09-106">參數</span><span class="sxs-lookup"><span data-stu-id="85c09-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6d93e-106">參數</span><span class="sxs-lookup"><span data-stu-id="6d93e-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="85c09-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="85c09-107">*wParam*</span></span> 
-</dt> <dd><span data-ttu-id="85c09-108">必須為零。</span><span class="sxs-lookup"><span data-stu-id="85c09-108">Must be zero.</span></span></dd> <dt>
+<span data-ttu-id="6d93e-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="6d93e-107">*wParam*</span></span> 
+</dt> <dd><span data-ttu-id="6d93e-108">必須為零。</span><span class="sxs-lookup"><span data-stu-id="6d93e-108">Must be zero.</span></span></dd> <dt>
 
-<span data-ttu-id="85c09-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="85c09-109">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="85c09-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="85c09-110">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="6d93e-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="6d93e-109">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="6d93e-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="6d93e-110">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="85c09-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="85c09-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6d93e-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="6d93e-111">Return value</span></span>
 
-<span data-ttu-id="85c09-112">傳回 **DWORD** 值，其中包含低字和高單字中的寬度和高度值。</span><span class="sxs-lookup"><span data-stu-id="85c09-112">Returns a **DWORD** value that contains the width and height values in the low word and high word, respectively.</span></span>
+<span data-ttu-id="6d93e-112">傳回 **DWORD** 值，其中包含低字和高單字中的寬度和高度值。</span><span class="sxs-lookup"><span data-stu-id="6d93e-112">Returns a **DWORD** value that contains the width and height values in the low word and high word, respectively.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="85c09-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="85c09-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6d93e-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="6d93e-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="85c09-114">需求</span><span class="sxs-lookup"><span data-stu-id="85c09-114">Requirement</span></span> | <span data-ttu-id="85c09-115">值</span><span class="sxs-lookup"><span data-stu-id="85c09-115">Value</span></span> |
+| <span data-ttu-id="6d93e-114">需求</span><span class="sxs-lookup"><span data-stu-id="6d93e-114">Requirement</span></span> | <span data-ttu-id="6d93e-115">值</span><span class="sxs-lookup"><span data-stu-id="6d93e-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="85c09-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="85c09-116">Minimum supported client</span></span><br/> | <span data-ttu-id="85c09-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="85c09-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="85c09-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="85c09-118">Minimum supported server</span></span><br/> | <span data-ttu-id="85c09-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="85c09-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="85c09-120">標頭</span><span class="sxs-lookup"><span data-stu-id="85c09-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="85c09-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="85c09-121"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="6d93e-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6d93e-116">Minimum supported client</span></span><br/> | <span data-ttu-id="6d93e-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6d93e-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="6d93e-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6d93e-118">Minimum supported server</span></span><br/> | <span data-ttu-id="6d93e-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6d93e-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="6d93e-120">標頭</span><span class="sxs-lookup"><span data-stu-id="6d93e-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="6d93e-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="6d93e-121"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

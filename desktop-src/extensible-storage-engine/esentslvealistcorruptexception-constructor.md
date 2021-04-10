@@ -31,12 +31,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944919"
 ---
-# <a name="esentslvealistcorruptexception-constructor"></a><span data-ttu-id="ca5aa-103">EsentSLVEAListCorruptException 函式</span><span class="sxs-lookup"><span data-stu-id="ca5aa-103">EsentSLVEAListCorruptException constructor</span></span>
+# <a name="esentslvealistcorruptexception-constructor"></a><span data-ttu-id="6fdd6-103">EsentSLVEAListCorruptException 函式</span><span class="sxs-lookup"><span data-stu-id="6fdd6-103">EsentSLVEAListCorruptException constructor</span></span>
 
-<span data-ttu-id="ca5aa-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="ca5aa-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="ca5aa-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="ca5aa-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="6fdd6-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6fdd6-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="6fdd6-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6fdd6-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ca5aa-106">語法</span><span class="sxs-lookup"><span data-stu-id="ca5aa-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6fdd6-106">語法</span><span class="sxs-lookup"><span data-stu-id="6fdd6-106">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,12 +50,12 @@ Dim instance As New EsentSLVEAListCorruptException()
 public EsentSLVEAListCorruptException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="ca5aa-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ca5aa-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6fdd6-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6fdd6-107">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="ca5aa-108">參考</span><span class="sxs-lookup"><span data-stu-id="ca5aa-108">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="6fdd6-108">參考</span><span class="sxs-lookup"><span data-stu-id="6fdd6-108">Reference</span></span>
 
-[<span data-ttu-id="ca5aa-109">EsentSLVEAListCorruptException 類別</span><span class="sxs-lookup"><span data-stu-id="ca5aa-109">EsentSLVEAListCorruptException class</span></span>](./esentslvealistcorruptexception-class.md)
+[<span data-ttu-id="6fdd6-109">EsentSLVEAListCorruptException 類別</span><span class="sxs-lookup"><span data-stu-id="6fdd6-109">EsentSLVEAListCorruptException class</span></span>](./esentslvealistcorruptexception-class.md)
 
-[<span data-ttu-id="ca5aa-110">EsentSLVEAListCorruptException 成員</span><span class="sxs-lookup"><span data-stu-id="ca5aa-110">EsentSLVEAListCorruptException members</span></span>](./esentslvealistcorruptexception-members.md)
+[<span data-ttu-id="6fdd6-110">EsentSLVEAListCorruptException 成員</span><span class="sxs-lookup"><span data-stu-id="6fdd6-110">EsentSLVEAListCorruptException members</span></span>](./esentslvealistcorruptexception-members.md)
 
-[<span data-ttu-id="ca5aa-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ca5aa-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="6fdd6-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="6fdd6-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103842175"
 ---
-# <a name="sending-a-command"></a><span data-ttu-id="5e62d-104">傳送命令</span><span class="sxs-lookup"><span data-stu-id="5e62d-104">Sending a Command</span></span>
+# <a name="sending-a-command"></a><span data-ttu-id="46615-104">傳送命令</span><span class="sxs-lookup"><span data-stu-id="46615-104">Sending a Command</span></span>
 
-<span data-ttu-id="5e62d-105">下列範例函式會使用 [**mciSendString**](/previous-versions//dd757161(v=vs.85))函式，向 "from" 和 "to" 旗標傳送 [**play**](play.md)命令。</span><span class="sxs-lookup"><span data-stu-id="5e62d-105">The following example function sends the [**play**](play.md) command with the "from" and "to" flags using the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function.</span></span>
+<span data-ttu-id="46615-105">下列範例函式會使用 [**mciSendString**](/previous-versions//dd757161(v=vs.85))函式，向 "from" 和 "to" 旗標傳送 [**play**](play.md)命令。</span><span class="sxs-lookup"><span data-stu-id="46615-105">The following example function sends the [**play**](play.md) command with the "from" and "to" flags using the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function.</span></span>
 
 
 ```C++

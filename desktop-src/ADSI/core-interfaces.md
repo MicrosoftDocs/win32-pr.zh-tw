@@ -14,14 +14,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/11/2019
 ms.locfileid: "104022931"
 ---
-# <a name="core-interfaces-adsi"></a><span data-ttu-id="1b76a-104"> (ADSI) 的核心介面</span><span class="sxs-lookup"><span data-stu-id="1b76a-104">Core Interfaces (ADSI)</span></span>
+# <a name="core-interfaces-adsi"></a><span data-ttu-id="84159-104"> (ADSI) 的核心介面</span><span class="sxs-lookup"><span data-stu-id="84159-104">Core Interfaces (ADSI)</span></span>
 
-<span data-ttu-id="1b76a-105">本節說明下列核心 ADSI 介面：</span><span class="sxs-lookup"><span data-stu-id="1b76a-105">This section describes the following core ADSI interfaces:</span></span>
+<span data-ttu-id="84159-105">本節說明下列核心 ADSI 介面：</span><span class="sxs-lookup"><span data-stu-id="84159-105">This section describes the following core ADSI interfaces:</span></span>
 
--   [<span data-ttu-id="1b76a-106">**IADS**</span><span class="sxs-lookup"><span data-stu-id="1b76a-106">**IADS**</span></span>](/windows/desktop/api/Iads/nn-iads-iads)
--   [<span data-ttu-id="1b76a-107">**IADSContainer**</span><span class="sxs-lookup"><span data-stu-id="1b76a-107">**IADSContainer**</span></span>](/windows/desktop/api/Iads/nn-iads-iadscontainer)
--   [<span data-ttu-id="1b76a-108">**IADSNamespaces**</span><span class="sxs-lookup"><span data-stu-id="1b76a-108">**IADSNamespaces**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsnamespaces)
--   [<span data-ttu-id="1b76a-109">**IADSOpenDSObject**</span><span class="sxs-lookup"><span data-stu-id="1b76a-109">**IADSOpenDSObject**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsopendsobject)
+-   [<span data-ttu-id="84159-106">**IADS**</span><span class="sxs-lookup"><span data-stu-id="84159-106">**IADS**</span></span>](/windows/desktop/api/Iads/nn-iads-iads)
+-   [<span data-ttu-id="84159-107">**IADSContainer**</span><span class="sxs-lookup"><span data-stu-id="84159-107">**IADSContainer**</span></span>](/windows/desktop/api/Iads/nn-iads-iadscontainer)
+-   [<span data-ttu-id="84159-108">**IADSNamespaces**</span><span class="sxs-lookup"><span data-stu-id="84159-108">**IADSNamespaces**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsnamespaces)
+-   [<span data-ttu-id="84159-109">**IADSOpenDSObject**</span><span class="sxs-lookup"><span data-stu-id="84159-109">**IADSOpenDSObject**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsopendsobject)
 
  
 

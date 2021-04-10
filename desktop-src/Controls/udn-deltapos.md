@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685953"
 ---
-# <a name="udn_deltapos-notification-code"></a><span data-ttu-id="0883b-104">UDN \_ DELTAPOS 通知碼</span><span class="sxs-lookup"><span data-stu-id="0883b-104">UDN\_DELTAPOS notification code</span></span>
+# <a name="udn_deltapos-notification-code"></a><span data-ttu-id="27b43-104">UDN \_ DELTAPOS 通知碼</span><span class="sxs-lookup"><span data-stu-id="27b43-104">UDN\_DELTAPOS notification code</span></span>
 
-<span data-ttu-id="0883b-105">當控制項的位置即將變更時，作業系統會將其傳送至上下按鈕控制項的父視窗。</span><span class="sxs-lookup"><span data-stu-id="0883b-105">Sent by the operating system to the parent window of an up-down control when the position of the control is about to change.</span></span> <span data-ttu-id="0883b-106">當使用者按下控制項的向上或向下箭號時，就會發生這種情況。</span><span class="sxs-lookup"><span data-stu-id="0883b-106">This happens when the user requests a change in the value by pressing the control's up or down arrow.</span></span> <span data-ttu-id="0883b-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="0883b-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="27b43-105">當控制項的位置即將變更時，作業系統會將其傳送至上下按鈕控制項的父視窗。</span><span class="sxs-lookup"><span data-stu-id="27b43-105">Sent by the operating system to the parent window of an up-down control when the position of the control is about to change.</span></span> <span data-ttu-id="27b43-106">當使用者按下控制項的向上或向下箭號時，就會發生這種情況。</span><span class="sxs-lookup"><span data-stu-id="27b43-106">This happens when the user requests a change in the value by pressing the control's up or down arrow.</span></span> <span data-ttu-id="27b43-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="27b43-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -34,42 +34,42 @@ UDN_DELTAPOS
 
 
 
-## <a name="parameters"></a><span data-ttu-id="0883b-108">參數</span><span class="sxs-lookup"><span data-stu-id="0883b-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="27b43-108">參數</span><span class="sxs-lookup"><span data-stu-id="27b43-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="0883b-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="0883b-109">*lParam*</span></span> 
+<span data-ttu-id="27b43-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="27b43-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="0883b-110">[**NMUPDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmupdown)結構的指標，其中包含位置變更的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="0883b-110">Pointer to an [**NMUPDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmupdown) structure that contains information about the position change.</span></span> <span data-ttu-id="0883b-111">此結構的 **iPos** 成員包含控制項的目前位置。</span><span class="sxs-lookup"><span data-stu-id="0883b-111">The **iPos** member of this structure contains the current position of the control.</span></span> <span data-ttu-id="0883b-112">結構的 **iDelta** 成員是帶正負號的整數，其中包含位置的建議變更。</span><span class="sxs-lookup"><span data-stu-id="0883b-112">The **iDelta** member of the structure is a signed integer that contains the proposed change in position.</span></span> <span data-ttu-id="0883b-113">如果使用者按一下 [向上] 按鈕，這就是正值。</span><span class="sxs-lookup"><span data-stu-id="0883b-113">If the user has clicked the up button, this is a positive value.</span></span> <span data-ttu-id="0883b-114">如果使用者按一下 [向下] 按鈕，則此值為負值。</span><span class="sxs-lookup"><span data-stu-id="0883b-114">If the user has clicked the down button, this is a negative value.</span></span>
+<span data-ttu-id="27b43-110">[**NMUPDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmupdown)結構的指標，其中包含位置變更的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="27b43-110">Pointer to an [**NMUPDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmupdown) structure that contains information about the position change.</span></span> <span data-ttu-id="27b43-111">此結構的 **iPos** 成員包含控制項的目前位置。</span><span class="sxs-lookup"><span data-stu-id="27b43-111">The **iPos** member of this structure contains the current position of the control.</span></span> <span data-ttu-id="27b43-112">結構的 **iDelta** 成員是帶正負號的整數，其中包含位置的建議變更。</span><span class="sxs-lookup"><span data-stu-id="27b43-112">The **iDelta** member of the structure is a signed integer that contains the proposed change in position.</span></span> <span data-ttu-id="27b43-113">如果使用者按一下 [向上] 按鈕，這就是正值。</span><span class="sxs-lookup"><span data-stu-id="27b43-113">If the user has clicked the up button, this is a positive value.</span></span> <span data-ttu-id="27b43-114">如果使用者按一下 [向下] 按鈕，則此值為負值。</span><span class="sxs-lookup"><span data-stu-id="27b43-114">If the user has clicked the down button, this is a negative value.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="0883b-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="0883b-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="27b43-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="27b43-115">Return value</span></span>
 
-<span data-ttu-id="0883b-116">傳回非零以防止控制項的位置變更，或傳回零以允許變更。</span><span class="sxs-lookup"><span data-stu-id="0883b-116">Return nonzero to prevent the change in the control's position, or zero to allow the change.</span></span>
+<span data-ttu-id="27b43-116">傳回非零以防止控制項的位置變更，或傳回零以允許變更。</span><span class="sxs-lookup"><span data-stu-id="27b43-116">Return nonzero to prevent the change in the control's position, or zero to allow the change.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0883b-117">備註</span><span class="sxs-lookup"><span data-stu-id="0883b-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="27b43-117">備註</span><span class="sxs-lookup"><span data-stu-id="27b43-117">Remarks</span></span>
 
-<span data-ttu-id="0883b-118">UDN \_ DELTAPOS 通知碼會在 [**wm \_ VSCROLL**](wm-vscroll.md) 或 [**WM \_ HSCROLL**](wm-hscroll.md) 訊息之前傳送，這會實際變更控制項的位置。</span><span class="sxs-lookup"><span data-stu-id="0883b-118">The UDN\_DELTAPOS notification code is sent before the [**WM\_VSCROLL**](wm-vscroll.md) or [**WM\_HSCROLL**](wm-hscroll.md) message, which actually changes the control's position.</span></span> <span data-ttu-id="0883b-119">這可讓您檢查、允許、修改或禁止變更。</span><span class="sxs-lookup"><span data-stu-id="0883b-119">This lets you examine, allow, modify, or disallow the change.</span></span>
+<span data-ttu-id="27b43-118">UDN \_ DELTAPOS 通知碼會在 [**wm \_ VSCROLL**](wm-vscroll.md) 或 [**WM \_ HSCROLL**](wm-hscroll.md) 訊息之前傳送，這會實際變更控制項的位置。</span><span class="sxs-lookup"><span data-stu-id="27b43-118">The UDN\_DELTAPOS notification code is sent before the [**WM\_VSCROLL**](wm-vscroll.md) or [**WM\_HSCROLL**](wm-hscroll.md) message, which actually changes the control's position.</span></span> <span data-ttu-id="27b43-119">這可讓您檢查、允許、修改或禁止變更。</span><span class="sxs-lookup"><span data-stu-id="27b43-119">This lets you examine, allow, modify, or disallow the change.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="0883b-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="0883b-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="27b43-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="27b43-120">Requirements</span></span>
 
 
 
-| <span data-ttu-id="0883b-121">需求</span><span class="sxs-lookup"><span data-stu-id="0883b-121">Requirement</span></span> | <span data-ttu-id="0883b-122">值</span><span class="sxs-lookup"><span data-stu-id="0883b-122">Value</span></span> |
+| <span data-ttu-id="27b43-121">需求</span><span class="sxs-lookup"><span data-stu-id="27b43-121">Requirement</span></span> | <span data-ttu-id="27b43-122">值</span><span class="sxs-lookup"><span data-stu-id="27b43-122">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="0883b-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="0883b-123">Minimum supported client</span></span><br/> | <span data-ttu-id="0883b-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0883b-124">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="0883b-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="0883b-125">Minimum supported server</span></span><br/> | <span data-ttu-id="0883b-126">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0883b-126">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="0883b-127">標頭</span><span class="sxs-lookup"><span data-stu-id="0883b-127">Header</span></span><br/>                   | <dl> <span data-ttu-id="0883b-128"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="0883b-128"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="27b43-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="27b43-123">Minimum supported client</span></span><br/> | <span data-ttu-id="27b43-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="27b43-124">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="27b43-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="27b43-125">Minimum supported server</span></span><br/> | <span data-ttu-id="27b43-126">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="27b43-126">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="27b43-127">標頭</span><span class="sxs-lookup"><span data-stu-id="27b43-127">Header</span></span><br/>                   | <dl> <span data-ttu-id="27b43-128"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="27b43-128"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="0883b-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0883b-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27b43-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="27b43-129">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="0883b-130">**WM \_ 命令**</span><span class="sxs-lookup"><span data-stu-id="0883b-130">**WM\_COMMAND**</span></span>](/windows/desktop/menurc/wm-command)
+[<span data-ttu-id="27b43-130">**WM \_ 命令**</span><span class="sxs-lookup"><span data-stu-id="27b43-130">**WM\_COMMAND**</span></span>](/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  

@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104111357"
 ---
-# <a name="win32_networkadapter-methods"></a><span data-ttu-id="10276-103">Win32 \_ NetworkAdapter 方法</span><span class="sxs-lookup"><span data-stu-id="10276-103">Win32\_NetworkAdapter Methods</span></span>
+# <a name="win32_networkadapter-methods"></a><span data-ttu-id="55bb7-103">Win32 \_ NetworkAdapter 方法</span><span class="sxs-lookup"><span data-stu-id="55bb7-103">Win32\_NetworkAdapter Methods</span></span>
 
-<span data-ttu-id="10276-104">[**Win32 \_ NetworkAdapter**](win32-networkadapter.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="10276-104">The [**Win32\_NetworkAdapter**](win32-networkadapter.md) class exposes the following methods.</span></span>
+<span data-ttu-id="55bb7-104">[**Win32 \_ NetworkAdapter**](win32-networkadapter.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="55bb7-104">The [**Win32\_NetworkAdapter**](win32-networkadapter.md) class exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="10276-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="10276-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="55bb7-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="55bb7-105">In this section</span></span>
 
--   [<span data-ttu-id="10276-106">**Enable 方法**</span><span class="sxs-lookup"><span data-stu-id="10276-106">**Enable method**</span></span>](enable-method-in-class-win32-networkadapter.md)
--   [<span data-ttu-id="10276-107">**Disable 方法**</span><span class="sxs-lookup"><span data-stu-id="10276-107">**Disable method**</span></span>](disable-method-in-class-win32-networkadapter.md)
+-   [<span data-ttu-id="55bb7-106">**Enable 方法**</span><span class="sxs-lookup"><span data-stu-id="55bb7-106">**Enable method**</span></span>](enable-method-in-class-win32-networkadapter.md)
+-   [<span data-ttu-id="55bb7-107">**Disable 方法**</span><span class="sxs-lookup"><span data-stu-id="55bb7-107">**Disable method**</span></span>](disable-method-in-class-win32-networkadapter.md)
 
  
 

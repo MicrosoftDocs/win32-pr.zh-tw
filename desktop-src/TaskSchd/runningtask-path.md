@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686366"
 ---
-# <a name="runningtaskpath-property"></a><span data-ttu-id="f99e1-106">RunningTask 路徑屬性</span><span class="sxs-lookup"><span data-stu-id="f99e1-106">RunningTask.Path property</span></span>
+# <a name="runningtaskpath-property"></a><span data-ttu-id="c79c7-106">RunningTask 路徑屬性</span><span class="sxs-lookup"><span data-stu-id="c79c7-106">RunningTask.Path property</span></span>
 
-<span data-ttu-id="f99e1-107">針對腳本，取得工作儲存位置的路徑。</span><span class="sxs-lookup"><span data-stu-id="f99e1-107">For scripting, gets the path to where the task is stored.</span></span>
+<span data-ttu-id="c79c7-107">針對腳本，取得工作儲存位置的路徑。</span><span class="sxs-lookup"><span data-stu-id="c79c7-107">For scripting, gets the path to where the task is stored.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f99e1-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="f99e1-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c79c7-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="c79c7-108">Syntax</span></span>
 
 
 ```VB
@@ -36,28 +36,28 @@ RunningTask.Path As string
 
 
 
-## <a name="property-value"></a><span data-ttu-id="f99e1-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="f99e1-109">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="c79c7-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="c79c7-109">Property value</span></span>
 
-<span data-ttu-id="f99e1-110">工作儲存位置的路徑。</span><span class="sxs-lookup"><span data-stu-id="f99e1-110">The path to where the task is stored.</span></span>
+<span data-ttu-id="c79c7-110">工作儲存位置的路徑。</span><span class="sxs-lookup"><span data-stu-id="c79c7-110">The path to where the task is stored.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f99e1-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="f99e1-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c79c7-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="c79c7-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f99e1-112">需求</span><span class="sxs-lookup"><span data-stu-id="f99e1-112">Requirement</span></span> | <span data-ttu-id="f99e1-113">值</span><span class="sxs-lookup"><span data-stu-id="f99e1-113">Value</span></span> |
+| <span data-ttu-id="c79c7-112">需求</span><span class="sxs-lookup"><span data-stu-id="c79c7-112">Requirement</span></span> | <span data-ttu-id="c79c7-113">值</span><span class="sxs-lookup"><span data-stu-id="c79c7-113">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="f99e1-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f99e1-114">Minimum supported client</span></span><br/> | <span data-ttu-id="f99e1-115">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f99e1-115">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
-| <span data-ttu-id="f99e1-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f99e1-116">Minimum supported server</span></span><br/> | <span data-ttu-id="f99e1-117">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f99e1-117">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="f99e1-118">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="f99e1-118">Type library</span></span><br/>             | <dl> <span data-ttu-id="f99e1-119"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="f99e1-119"><dt>Taskschd.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="f99e1-120">DLL</span><span class="sxs-lookup"><span data-stu-id="f99e1-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f99e1-121"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f99e1-121"><dt>Taskschd.dll</dt></span></span> </dl> |
+| <span data-ttu-id="c79c7-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c79c7-114">Minimum supported client</span></span><br/> | <span data-ttu-id="c79c7-115">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c79c7-115">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="c79c7-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c79c7-116">Minimum supported server</span></span><br/> | <span data-ttu-id="c79c7-117">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c79c7-117">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="c79c7-118">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="c79c7-118">Type library</span></span><br/>             | <dl> <span data-ttu-id="c79c7-119"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="c79c7-119"><dt>Taskschd.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="c79c7-120">DLL</span><span class="sxs-lookup"><span data-stu-id="c79c7-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c79c7-121"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="c79c7-121"><dt>Taskschd.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f99e1-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f99e1-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c79c7-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c79c7-122">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f99e1-123">工作排程器</span><span class="sxs-lookup"><span data-stu-id="f99e1-123">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="c79c7-123">工作排程器</span><span class="sxs-lookup"><span data-stu-id="c79c7-123">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> </dl>
 
  

@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686142"
 ---
-# <a name="repetitionpatternstopatdurationend-property"></a><span data-ttu-id="9d87b-106">RepetitionPattern. StopAtDurationEnd 屬性</span><span class="sxs-lookup"><span data-stu-id="9d87b-106">RepetitionPattern.StopAtDurationEnd property</span></span>
+# <a name="repetitionpatternstopatdurationend-property"></a><span data-ttu-id="a055e-106">RepetitionPattern. StopAtDurationEnd 屬性</span><span class="sxs-lookup"><span data-stu-id="a055e-106">RepetitionPattern.StopAtDurationEnd property</span></span>
 
-<span data-ttu-id="9d87b-107">針對腳本，取得或設定布林值，這個值會指出是否在重複模式期間結束時停止正在執行的工作實例。</span><span class="sxs-lookup"><span data-stu-id="9d87b-107">For scripting, gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.</span></span>
+<span data-ttu-id="a055e-107">針對腳本，取得或設定布林值，這個值會指出是否在重複模式期間結束時停止正在執行的工作實例。</span><span class="sxs-lookup"><span data-stu-id="a055e-107">For scripting, gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9d87b-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="9d87b-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a055e-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="a055e-108">Syntax</span></span>
 
 
 ```VB
@@ -36,32 +36,32 @@ RepetitionPattern.StopAtDurationEnd As Boolean
 
 
 
-## <a name="property-value"></a><span data-ttu-id="9d87b-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="9d87b-109">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="a055e-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="a055e-109">Property value</span></span>
 
-<span data-ttu-id="9d87b-110">布林值，指出是否在重複模式期間結束時停止正在執行的工作實例。</span><span class="sxs-lookup"><span data-stu-id="9d87b-110">A Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.</span></span>
+<span data-ttu-id="a055e-110">布林值，指出是否在重複模式期間結束時停止正在執行的工作實例。</span><span class="sxs-lookup"><span data-stu-id="a055e-110">A Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9d87b-111">備註</span><span class="sxs-lookup"><span data-stu-id="9d87b-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a055e-111">備註</span><span class="sxs-lookup"><span data-stu-id="a055e-111">Remarks</span></span>
 
-<span data-ttu-id="9d87b-112">讀取或寫入工作的 XML 時，這項資訊是在工作排程器架構的 [**StopAtDurationEnd**](taskschedulerschema-stopatdurationend-repetitiontype-element.md) 元素中指定。</span><span class="sxs-lookup"><span data-stu-id="9d87b-112">When reading or writing XML for a task, this information is specified in the [**StopAtDurationEnd**](taskschedulerschema-stopatdurationend-repetitiontype-element.md) element of the Task Scheduler schema.</span></span>
+<span data-ttu-id="a055e-112">讀取或寫入工作的 XML 時，這項資訊是在工作排程器架構的 [**StopAtDurationEnd**](taskschedulerschema-stopatdurationend-repetitiontype-element.md) 元素中指定。</span><span class="sxs-lookup"><span data-stu-id="a055e-112">When reading or writing XML for a task, this information is specified in the [**StopAtDurationEnd**](taskschedulerschema-stopatdurationend-repetitiontype-element.md) element of the Task Scheduler schema.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="9d87b-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="9d87b-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="a055e-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="a055e-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="9d87b-114">需求</span><span class="sxs-lookup"><span data-stu-id="9d87b-114">Requirement</span></span> | <span data-ttu-id="9d87b-115">值</span><span class="sxs-lookup"><span data-stu-id="9d87b-115">Value</span></span> |
+| <span data-ttu-id="a055e-114">需求</span><span class="sxs-lookup"><span data-stu-id="a055e-114">Requirement</span></span> | <span data-ttu-id="a055e-115">值</span><span class="sxs-lookup"><span data-stu-id="a055e-115">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="9d87b-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9d87b-116">Minimum supported client</span></span><br/> | <span data-ttu-id="9d87b-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9d87b-117">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
-| <span data-ttu-id="9d87b-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9d87b-118">Minimum supported server</span></span><br/> | <span data-ttu-id="9d87b-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9d87b-119">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="9d87b-120">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="9d87b-120">Type library</span></span><br/>             | <dl> <span data-ttu-id="9d87b-121"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="9d87b-121"><dt>Taskschd.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="9d87b-122">DLL</span><span class="sxs-lookup"><span data-stu-id="9d87b-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="9d87b-123"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="9d87b-123"><dt>Taskschd.dll</dt></span></span> </dl> |
+| <span data-ttu-id="a055e-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a055e-116">Minimum supported client</span></span><br/> | <span data-ttu-id="a055e-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a055e-117">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="a055e-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a055e-118">Minimum supported server</span></span><br/> | <span data-ttu-id="a055e-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a055e-119">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="a055e-120">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="a055e-120">Type library</span></span><br/>             | <dl> <span data-ttu-id="a055e-121"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="a055e-121"><dt>Taskschd.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="a055e-122">DLL</span><span class="sxs-lookup"><span data-stu-id="a055e-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="a055e-123"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="a055e-123"><dt>Taskschd.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="9d87b-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9d87b-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a055e-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a055e-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9d87b-125">工作排程器</span><span class="sxs-lookup"><span data-stu-id="9d87b-125">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="a055e-125">工作排程器</span><span class="sxs-lookup"><span data-stu-id="a055e-125">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> </dl>
 
  

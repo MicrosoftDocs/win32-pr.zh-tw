@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/09/2020
 ms.locfileid: "103684182"
 ---
-# <a name="sdk-connection-properties"></a><span data-ttu-id="11d7e-104">SDK 連接屬性</span><span class="sxs-lookup"><span data-stu-id="11d7e-104">SDK Connection Properties</span></span>
+# <a name="sdk-connection-properties"></a><span data-ttu-id="7a4b3-104">SDK 連接屬性</span><span class="sxs-lookup"><span data-stu-id="7a4b3-104">SDK Connection Properties</span></span>
 
-<span data-ttu-id="11d7e-105">這個範例是 [eaphostconfig](eaphostconfigschema-schema.md) 原生架構的實例。</span><span class="sxs-lookup"><span data-stu-id="11d7e-105">This sample is an instance of the [eaphostconfig](eaphostconfigschema-schema.md) native schema.</span></span>
+<span data-ttu-id="7a4b3-105">這個範例是 [eaphostconfig](eaphostconfigschema-schema.md) 原生架構的實例。</span><span class="sxs-lookup"><span data-stu-id="7a4b3-105">This sample is an instance of the [eaphostconfig](eaphostconfigschema-schema.md) native schema.</span></span>
 
 ``` syntax
   <?xml version="1.0" ?> 
@@ -31,14 +31,14 @@ ms.locfileid: "103684182"
   </EapHostConfig>
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="11d7e-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="11d7e-106">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7a4b3-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="7a4b3-106">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="11d7e-107">連接屬性</span><span class="sxs-lookup"><span data-stu-id="11d7e-107">Connection Properties</span></span>](connection-profiles.md)
+[<span data-ttu-id="7a4b3-107">連接屬性</span><span class="sxs-lookup"><span data-stu-id="7a4b3-107">Connection Properties</span></span>](connection-profiles.md)
 </dt> <dt>
 
-[<span data-ttu-id="11d7e-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="11d7e-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="7a4b3-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="7a4b3-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> </dl>
 
  

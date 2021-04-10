@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685644"
 ---
-# <a name="idletriggertype-complex-type"></a><span data-ttu-id="6e09c-104">idleTriggerType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="6e09c-104">idleTriggerType Complex Type</span></span>
+# <a name="idletriggertype-complex-type"></a><span data-ttu-id="77ee4-104">idleTriggerType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="77ee4-104">idleTriggerType Complex Type</span></span>
 
-<span data-ttu-id="6e09c-105">定義 [**IdleTrigger**](taskschedulerschema-idletrigger-triggergroup-element.md) 元素的基底類型。</span><span class="sxs-lookup"><span data-stu-id="6e09c-105">Defines the base type for the [**IdleTrigger**](taskschedulerschema-idletrigger-triggergroup-element.md) element.</span></span>
+<span data-ttu-id="77ee4-105">定義 [**IdleTrigger**](taskschedulerschema-idletrigger-triggergroup-element.md) 元素的基底類型。</span><span class="sxs-lookup"><span data-stu-id="77ee4-105">Defines the base type for the [**IdleTrigger**](taskschedulerschema-idletrigger-triggergroup-element.md) element.</span></span>
 
 ``` syntax
 <xs:complexType name="idleTriggerType">
@@ -34,25 +34,25 @@ ms.locfileid: "103685644"
 </xs:complexType>
 ```
 
-## <a name="requirements"></a><span data-ttu-id="6e09c-106">規格需求</span><span class="sxs-lookup"><span data-stu-id="6e09c-106">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="77ee4-106">規格需求</span><span class="sxs-lookup"><span data-stu-id="77ee4-106">Requirements</span></span>
 
 
 
-| <span data-ttu-id="6e09c-107">需求</span><span class="sxs-lookup"><span data-stu-id="6e09c-107">Requirement</span></span> | <span data-ttu-id="6e09c-108">值</span><span class="sxs-lookup"><span data-stu-id="6e09c-108">Value</span></span> |
+| <span data-ttu-id="77ee4-107">需求</span><span class="sxs-lookup"><span data-stu-id="77ee4-107">Requirement</span></span> | <span data-ttu-id="77ee4-108">值</span><span class="sxs-lookup"><span data-stu-id="77ee4-108">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="6e09c-109">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6e09c-109">Minimum supported client</span></span><br/> | <span data-ttu-id="6e09c-110">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6e09c-110">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="6e09c-111">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6e09c-111">Minimum supported server</span></span><br/> | <span data-ttu-id="6e09c-112">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6e09c-112">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="77ee4-109">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="77ee4-109">Minimum supported client</span></span><br/> | <span data-ttu-id="77ee4-110">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="77ee4-110">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="77ee4-111">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="77ee4-111">Minimum supported server</span></span><br/> | <span data-ttu-id="77ee4-112">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="77ee4-112">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="6e09c-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6e09c-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="77ee4-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="77ee4-113">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6e09c-114">工作排程器架構複雜類型</span><span class="sxs-lookup"><span data-stu-id="6e09c-114">Task Scheduler Schema Complex Types</span></span>](task-scheduler-schema-complex-types.md)
+[<span data-ttu-id="77ee4-114">工作排程器架構複雜類型</span><span class="sxs-lookup"><span data-stu-id="77ee4-114">Task Scheduler Schema Complex Types</span></span>](task-scheduler-schema-complex-types.md)
 </dt> <dt>
 
-[<span data-ttu-id="6e09c-115">工作排程器</span><span class="sxs-lookup"><span data-stu-id="6e09c-115">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="77ee4-115">工作排程器</span><span class="sxs-lookup"><span data-stu-id="77ee4-115">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> </dl>
 
  

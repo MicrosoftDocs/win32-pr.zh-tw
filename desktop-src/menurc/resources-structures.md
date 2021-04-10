@@ -11,28 +11,28 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103685392"
 ---
-# <a name="resource-structures-menus-and-other-resources"></a><span data-ttu-id="1b0ce-103">資源結構 (功能表和其他資源) </span><span class="sxs-lookup"><span data-stu-id="1b0ce-103">Resource Structures (Menus and Other Resources)</span></span>
+# <a name="resource-structures-menus-and-other-resources"></a><span data-ttu-id="f28f3-103">資源結構 (功能表和其他資源) </span><span class="sxs-lookup"><span data-stu-id="f28f3-103">Resource Structures (Menus and Other Resources)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="1b0ce-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="1b0ce-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f28f3-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="f28f3-104">In This Section</span></span>
 
--   [<span data-ttu-id="1b0ce-105">**ACCELTABLEENTRY**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-105">**ACCELTABLEENTRY**</span></span>](acceltableentry.md)
--   [<span data-ttu-id="1b0ce-106">**CURSORDIR**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-106">**CURSORDIR**</span></span>](cursordir.md)
--   [<span data-ttu-id="1b0ce-107">**CURSORSHAPE**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-107">**CURSORSHAPE**</span></span>](/windows/win32/api/winuser/ns-winuser-cursorshape)
--   [<span data-ttu-id="1b0ce-108">**DIRENTRY**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-108">**DIRENTRY**</span></span>](direntry.md)
--   [<span data-ttu-id="1b0ce-109">**FONTDIRENTRY**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-109">**FONTDIRENTRY**</span></span>](fontdirentry.md)
--   [<span data-ttu-id="1b0ce-110">**FONTGROUPHDR**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-110">**FONTGROUPHDR**</span></span>](fontgrouphdr.md)
--   [<span data-ttu-id="1b0ce-111">**ICONRESDIR**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-111">**ICONRESDIR**</span></span>](iconresdir.md)
--   [<span data-ttu-id="1b0ce-112">**LOCALHEADER**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-112">**LOCALHEADER**</span></span>](localheader.md)
--   [<span data-ttu-id="1b0ce-113">**MENUHEADER**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-113">**MENUHEADER**</span></span>](menuheader.md)
--   [<span data-ttu-id="1b0ce-114">**MENUHELPID**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-114">**MENUHELPID**</span></span>](menuhelpid.md)
--   [<span data-ttu-id="1b0ce-115">**訊息 \_ 資源 \_ 區塊**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-115">**MESSAGE\_RESOURCE\_BLOCK**</span></span>](/windows/desktop/api/Winnt/ns-winnt-message_resource_block)
--   [<span data-ttu-id="1b0ce-116">**訊息 \_ 資源 \_ 資料**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-116">**MESSAGE\_RESOURCE\_DATA**</span></span>](/windows/desktop/api/Winnt/ns-winnt-message_resource_data)
--   [<span data-ttu-id="1b0ce-117">**訊息 \_ 資源 \_ 專案**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-117">**MESSAGE\_RESOURCE\_ENTRY**</span></span>](/windows/desktop/api/Winnt/ns-winnt-message_resource_entry)
--   [<span data-ttu-id="1b0ce-118">**NEWHEADER**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-118">**NEWHEADER**</span></span>](newheader.md)
--   [<span data-ttu-id="1b0ce-119">**NORMALMENUITEM**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-119">**NORMALMENUITEM**</span></span>](normalmenuitem.md)
--   [<span data-ttu-id="1b0ce-120">**POPUPMENUITEM**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-120">**POPUPMENUITEM**</span></span>](popupmenuitem.md)
--   [<span data-ttu-id="1b0ce-121">**RESDIR**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-121">**RESDIR**</span></span>](resdir.md)
--   [<span data-ttu-id="1b0ce-122">**RESOURCEHEADER**</span><span class="sxs-lookup"><span data-stu-id="1b0ce-122">**RESOURCEHEADER**</span></span>](resourceheader.md)
+-   [<span data-ttu-id="f28f3-105">**ACCELTABLEENTRY**</span><span class="sxs-lookup"><span data-stu-id="f28f3-105">**ACCELTABLEENTRY**</span></span>](acceltableentry.md)
+-   [<span data-ttu-id="f28f3-106">**CURSORDIR**</span><span class="sxs-lookup"><span data-stu-id="f28f3-106">**CURSORDIR**</span></span>](cursordir.md)
+-   [<span data-ttu-id="f28f3-107">**CURSORSHAPE**</span><span class="sxs-lookup"><span data-stu-id="f28f3-107">**CURSORSHAPE**</span></span>](/windows/win32/api/winuser/ns-winuser-cursorshape)
+-   [<span data-ttu-id="f28f3-108">**DIRENTRY**</span><span class="sxs-lookup"><span data-stu-id="f28f3-108">**DIRENTRY**</span></span>](direntry.md)
+-   [<span data-ttu-id="f28f3-109">**FONTDIRENTRY**</span><span class="sxs-lookup"><span data-stu-id="f28f3-109">**FONTDIRENTRY**</span></span>](fontdirentry.md)
+-   [<span data-ttu-id="f28f3-110">**FONTGROUPHDR**</span><span class="sxs-lookup"><span data-stu-id="f28f3-110">**FONTGROUPHDR**</span></span>](fontgrouphdr.md)
+-   [<span data-ttu-id="f28f3-111">**ICONRESDIR**</span><span class="sxs-lookup"><span data-stu-id="f28f3-111">**ICONRESDIR**</span></span>](iconresdir.md)
+-   [<span data-ttu-id="f28f3-112">**LOCALHEADER**</span><span class="sxs-lookup"><span data-stu-id="f28f3-112">**LOCALHEADER**</span></span>](localheader.md)
+-   [<span data-ttu-id="f28f3-113">**MENUHEADER**</span><span class="sxs-lookup"><span data-stu-id="f28f3-113">**MENUHEADER**</span></span>](menuheader.md)
+-   [<span data-ttu-id="f28f3-114">**MENUHELPID**</span><span class="sxs-lookup"><span data-stu-id="f28f3-114">**MENUHELPID**</span></span>](menuhelpid.md)
+-   [<span data-ttu-id="f28f3-115">**訊息 \_ 資源 \_ 區塊**</span><span class="sxs-lookup"><span data-stu-id="f28f3-115">**MESSAGE\_RESOURCE\_BLOCK**</span></span>](/windows/desktop/api/Winnt/ns-winnt-message_resource_block)
+-   [<span data-ttu-id="f28f3-116">**訊息 \_ 資源 \_ 資料**</span><span class="sxs-lookup"><span data-stu-id="f28f3-116">**MESSAGE\_RESOURCE\_DATA**</span></span>](/windows/desktop/api/Winnt/ns-winnt-message_resource_data)
+-   [<span data-ttu-id="f28f3-117">**訊息 \_ 資源 \_ 專案**</span><span class="sxs-lookup"><span data-stu-id="f28f3-117">**MESSAGE\_RESOURCE\_ENTRY**</span></span>](/windows/desktop/api/Winnt/ns-winnt-message_resource_entry)
+-   [<span data-ttu-id="f28f3-118">**NEWHEADER**</span><span class="sxs-lookup"><span data-stu-id="f28f3-118">**NEWHEADER**</span></span>](newheader.md)
+-   [<span data-ttu-id="f28f3-119">**NORMALMENUITEM**</span><span class="sxs-lookup"><span data-stu-id="f28f3-119">**NORMALMENUITEM**</span></span>](normalmenuitem.md)
+-   [<span data-ttu-id="f28f3-120">**POPUPMENUITEM**</span><span class="sxs-lookup"><span data-stu-id="f28f3-120">**POPUPMENUITEM**</span></span>](popupmenuitem.md)
+-   [<span data-ttu-id="f28f3-121">**RESDIR**</span><span class="sxs-lookup"><span data-stu-id="f28f3-121">**RESDIR**</span></span>](resdir.md)
+-   [<span data-ttu-id="f28f3-122">**RESOURCEHEADER**</span><span class="sxs-lookup"><span data-stu-id="f28f3-122">**RESOURCEHEADER**</span></span>](resourceheader.md)
 
  
 

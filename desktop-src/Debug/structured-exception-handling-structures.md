@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104111473"
 ---
-# <a name="structured-exception-handling-structures"></a><span data-ttu-id="0f79a-103">結構化例外狀況處理結構</span><span class="sxs-lookup"><span data-stu-id="0f79a-103">Structured Exception Handling Structures</span></span>
+# <a name="structured-exception-handling-structures"></a><span data-ttu-id="07309-103">結構化例外狀況處理結構</span><span class="sxs-lookup"><span data-stu-id="07309-103">Structured Exception Handling Structures</span></span>
 
-<span data-ttu-id="0f79a-104">下列結構搭配結構化例外狀況處理使用：</span><span class="sxs-lookup"><span data-stu-id="0f79a-104">The following structures are used with structured exception handling:</span></span>
+<span data-ttu-id="07309-104">下列結構搭配結構化例外狀況處理使用：</span><span class="sxs-lookup"><span data-stu-id="07309-104">The following structures are used with structured exception handling:</span></span>
 
 <dl>
 
-[<span data-ttu-id="0f79a-105">**例外狀況 \_ 指標**</span><span class="sxs-lookup"><span data-stu-id="0f79a-105">**EXCEPTION\_POINTERS**</span></span>](/windows/desktop/api/WinNT/ns-winnt-exception_pointers)  
-[<span data-ttu-id="0f79a-106">**例外狀況 \_ 記錄**</span><span class="sxs-lookup"><span data-stu-id="0f79a-106">**EXCEPTION\_RECORD**</span></span>](/windows/desktop/api/WinNT/ns-winnt-exception_record)  
+[<span data-ttu-id="07309-105">**例外狀況 \_ 指標**</span><span class="sxs-lookup"><span data-stu-id="07309-105">**EXCEPTION\_POINTERS**</span></span>](/windows/desktop/api/WinNT/ns-winnt-exception_pointers)  
+[<span data-ttu-id="07309-106">**例外狀況 \_ 記錄**</span><span class="sxs-lookup"><span data-stu-id="07309-106">**EXCEPTION\_RECORD**</span></span>](/windows/desktop/api/WinNT/ns-winnt-exception_record)  
 </dl>
 
  

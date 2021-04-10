@@ -20,18 +20,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/11/2020
 ms.locfileid: "104022979"
 ---
-# <a name="spinner-element"></a><span data-ttu-id="f3680-104">微調元素</span><span class="sxs-lookup"><span data-stu-id="f3680-104">Spinner element</span></span>
+# <a name="spinner-element"></a><span data-ttu-id="7feea-104">微調元素</span><span class="sxs-lookup"><span data-stu-id="7feea-104">Spinner element</span></span>
 
-<span data-ttu-id="f3680-105">表示 [微調](windowsribbon-controls-spinner.md) 控制項。</span><span class="sxs-lookup"><span data-stu-id="f3680-105">Represents a [Spinner](windowsribbon-controls-spinner.md) control.</span></span>
+<span data-ttu-id="7feea-105">表示 [微調](windowsribbon-controls-spinner.md) 控制項。</span><span class="sxs-lookup"><span data-stu-id="7feea-105">Represents a [Spinner](windowsribbon-controls-spinner.md) control.</span></span>
 
-## <a name="usage"></a><span data-ttu-id="f3680-106">使用方式</span><span class="sxs-lookup"><span data-stu-id="f3680-106">Usage</span></span>
+## <a name="usage"></a><span data-ttu-id="7feea-106">使用方式</span><span class="sxs-lookup"><span data-stu-id="7feea-106">Usage</span></span>
 
 ``` syntax
 <Spinner
   CommandName = "xs:positiveInteger or xs:string"/>
 ```
 
-## <a name="attributes"></a><span data-ttu-id="f3680-107">屬性</span><span class="sxs-lookup"><span data-stu-id="f3680-107">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="7feea-107">屬性</span><span class="sxs-lookup"><span data-stu-id="7feea-107">Attributes</span></span>
 
 
 
@@ -44,55 +44,55 @@ ms.locfileid: "104022979"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f3680-108">屬性</span><span class="sxs-lookup"><span data-stu-id="f3680-108">Attribute</span></span></th>
-<th><span data-ttu-id="f3680-109">類型</span><span class="sxs-lookup"><span data-stu-id="f3680-109">Type</span></span></th>
-<th><span data-ttu-id="f3680-110">必要</span><span class="sxs-lookup"><span data-stu-id="f3680-110">Required</span></span></th>
-<th><span data-ttu-id="f3680-111">描述</span><span class="sxs-lookup"><span data-stu-id="f3680-111">Description</span></span></th>
+<th><span data-ttu-id="7feea-108">屬性</span><span class="sxs-lookup"><span data-stu-id="7feea-108">Attribute</span></span></th>
+<th><span data-ttu-id="7feea-109">類型</span><span class="sxs-lookup"><span data-stu-id="7feea-109">Type</span></span></th>
+<th><span data-ttu-id="7feea-110">必要</span><span class="sxs-lookup"><span data-stu-id="7feea-110">Required</span></span></th>
+<th><span data-ttu-id="7feea-111">描述</span><span class="sxs-lookup"><span data-stu-id="7feea-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="f3680-112"><strong>CommandName</strong></span><span class="sxs-lookup"><span data-stu-id="f3680-112"><strong>CommandName</strong></span></span><br/></td>
-<td><span data-ttu-id="f3680-113">xs： positiveInteger 或 xs： string</span><span class="sxs-lookup"><span data-stu-id="f3680-113">xs:positiveInteger or xs:string</span></span><br/></td>
-<td><span data-ttu-id="f3680-114">No</span><span class="sxs-lookup"><span data-stu-id="f3680-114">No</span></span><br/></td>
-<td><span data-ttu-id="f3680-115">將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。</span><span class="sxs-lookup"><span data-stu-id="f3680-115">Associates the element with a <a href="windowsribbon-element-command.md"><strong>Command</strong></a>.</span></span><br/> <br/><span data-ttu-id="f3680-116">
-<dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) </span><span class="sxs-lookup"><span data-stu-id="f3680-116">
-<dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)</span></span><br/> </dt> <dd> <span data-ttu-id="f3680-117">字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。</span><span class="sxs-lookup"><span data-stu-id="f3680-117">A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive.</span></span> <br/> <span data-ttu-id="f3680-118">值在功能區 XML 檔中必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="f3680-118">The value must be unique within the Ribbon XML document.</span></span> <br/> <span data-ttu-id="f3680-119">最大長度：100個字元。</span><span class="sxs-lookup"><span data-stu-id="f3680-119">Maximum length: 100 characters.</span></span> <br/> </dd> </dl></td>
+<td><span data-ttu-id="7feea-112"><strong>CommandName</strong></span><span class="sxs-lookup"><span data-stu-id="7feea-112"><strong>CommandName</strong></span></span><br/></td>
+<td><span data-ttu-id="7feea-113">xs： positiveInteger 或 xs： string</span><span class="sxs-lookup"><span data-stu-id="7feea-113">xs:positiveInteger or xs:string</span></span><br/></td>
+<td><span data-ttu-id="7feea-114">No</span><span class="sxs-lookup"><span data-stu-id="7feea-114">No</span></span><br/></td>
+<td><span data-ttu-id="7feea-115">將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。</span><span class="sxs-lookup"><span data-stu-id="7feea-115">Associates the element with a <a href="windowsribbon-element-command.md"><strong>Command</strong></a>.</span></span><br/> <br/><span data-ttu-id="7feea-116">
+<dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) </span><span class="sxs-lookup"><span data-stu-id="7feea-116">
+<dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)</span></span><br/> </dt> <dd> <span data-ttu-id="7feea-117">字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。</span><span class="sxs-lookup"><span data-stu-id="7feea-117">A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive.</span></span> <br/> <span data-ttu-id="7feea-118">值在功能區 XML 檔中必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="7feea-118">The value must be unique within the Ribbon XML document.</span></span> <br/> <span data-ttu-id="7feea-119">最大長度：100個字元。</span><span class="sxs-lookup"><span data-stu-id="7feea-119">Maximum length: 100 characters.</span></span> <br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>
 
 
 
-## <a name="child-elements"></a><span data-ttu-id="f3680-120">子元素</span><span class="sxs-lookup"><span data-stu-id="f3680-120">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="7feea-120">子元素</span><span class="sxs-lookup"><span data-stu-id="7feea-120">Child elements</span></span>
 
-<span data-ttu-id="f3680-121">沒有任何子項目。</span><span class="sxs-lookup"><span data-stu-id="f3680-121">There are no child elements.</span></span>
+<span data-ttu-id="7feea-121">沒有任何子項目。</span><span class="sxs-lookup"><span data-stu-id="7feea-121">There are no child elements.</span></span>
 
-## <a name="parent-elements"></a><span data-ttu-id="f3680-122">父元素</span><span class="sxs-lookup"><span data-stu-id="f3680-122">Parent elements</span></span>
+## <a name="parent-elements"></a><span data-ttu-id="7feea-122">父元素</span><span class="sxs-lookup"><span data-stu-id="7feea-122">Parent elements</span></span>
 
 
 
-| <span data-ttu-id="f3680-123">元素</span><span class="sxs-lookup"><span data-stu-id="f3680-123">Element</span></span>                                                                           |
+| <span data-ttu-id="7feea-123">元素</span><span class="sxs-lookup"><span data-stu-id="7feea-123">Element</span></span>                                                                           |
 |-----------------------------------------------------------------------------------|
-| [<span data-ttu-id="f3680-124">**ControlGroup**</span><span class="sxs-lookup"><span data-stu-id="f3680-124">**ControlGroup**</span></span>](windowsribbon-element-controlgroup.md)<br/>             |
-| [<span data-ttu-id="f3680-125">**DropDownGallery**</span><span class="sxs-lookup"><span data-stu-id="f3680-125">**DropDownGallery**</span></span>](windowsribbon-element-dropdowngallery.md)<br/>       |
-| [<span data-ttu-id="f3680-126">**Group**</span><span class="sxs-lookup"><span data-stu-id="f3680-126">**Group**</span></span>](windowsribbon-element-group.md)<br/>                           |
-| [<span data-ttu-id="f3680-127">**MenuGroup**</span><span class="sxs-lookup"><span data-stu-id="f3680-127">**MenuGroup**</span></span>](windowsribbon-element-menugroup.md)<br/>                   |
-| [<span data-ttu-id="f3680-128">**SplitButtonGallery**</span><span class="sxs-lookup"><span data-stu-id="f3680-128">**SplitButtonGallery**</span></span>](windowsribbon-element-splitbuttongallery.md)<br/> |
+| [<span data-ttu-id="7feea-124">**ControlGroup**</span><span class="sxs-lookup"><span data-stu-id="7feea-124">**ControlGroup**</span></span>](windowsribbon-element-controlgroup.md)<br/>             |
+| [<span data-ttu-id="7feea-125">**DropDownGallery**</span><span class="sxs-lookup"><span data-stu-id="7feea-125">**DropDownGallery**</span></span>](windowsribbon-element-dropdowngallery.md)<br/>       |
+| [<span data-ttu-id="7feea-126">**Group**</span><span class="sxs-lookup"><span data-stu-id="7feea-126">**Group**</span></span>](windowsribbon-element-group.md)<br/>                           |
+| [<span data-ttu-id="7feea-127">**MenuGroup**</span><span class="sxs-lookup"><span data-stu-id="7feea-127">**MenuGroup**</span></span>](windowsribbon-element-menugroup.md)<br/>                   |
+| [<span data-ttu-id="7feea-128">**SplitButtonGallery**</span><span class="sxs-lookup"><span data-stu-id="7feea-128">**SplitButtonGallery**</span></span>](windowsribbon-element-splitbuttongallery.md)<br/> |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="f3680-129">備註</span><span class="sxs-lookup"><span data-stu-id="f3680-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7feea-129">備註</span><span class="sxs-lookup"><span data-stu-id="7feea-129">Remarks</span></span>
 
-<span data-ttu-id="f3680-130">選擇性。</span><span class="sxs-lookup"><span data-stu-id="f3680-130">Optional.</span></span>
+<span data-ttu-id="7feea-130">選擇性。</span><span class="sxs-lookup"><span data-stu-id="7feea-130">Optional.</span></span>
 
-<span data-ttu-id="f3680-131">可能會針對每個 [**ControlGroup**](windowsribbon-element-controlgroup.md) 或 [**Group**](windowsribbon-element-group.md) 元素髮生一次或多次。</span><span class="sxs-lookup"><span data-stu-id="f3680-131">May occur one or more times for each [**ControlGroup**](windowsribbon-element-controlgroup.md) or [**Group**](windowsribbon-element-group.md) element.</span></span>
+<span data-ttu-id="7feea-131">可能會針對每個 [**ControlGroup**](windowsribbon-element-controlgroup.md) 或 [**Group**](windowsribbon-element-group.md) 元素髮生一次或多次。</span><span class="sxs-lookup"><span data-stu-id="7feea-131">May occur one or more times for each [**ControlGroup**](windowsribbon-element-controlgroup.md) or [**Group**](windowsribbon-element-group.md) element.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="f3680-132">範例</span><span class="sxs-lookup"><span data-stu-id="f3680-132">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="7feea-132">範例</span><span class="sxs-lookup"><span data-stu-id="7feea-132">Examples</span></span>
 
-<span data-ttu-id="f3680-133">下列範例示範 [微調](windowsribbon-controls-spinner.md)項的基本標記。</span><span class="sxs-lookup"><span data-stu-id="f3680-133">The following example demonstrates the basic markup for the [Spinner](windowsribbon-controls-spinner.md).</span></span>
+<span data-ttu-id="7feea-133">下列範例示範 [微調](windowsribbon-controls-spinner.md)項的基本標記。</span><span class="sxs-lookup"><span data-stu-id="7feea-133">The following example demonstrates the basic markup for the [Spinner](windowsribbon-controls-spinner.md).</span></span>
 
-<span data-ttu-id="f3680-134">這一節的程式碼會顯示 **微調** 命令宣告，以及做為 **微調** 專案父容器的 [**Group**](windowsribbon-element-group.md)元素。</span><span class="sxs-lookup"><span data-stu-id="f3680-134">This section of code shows the **Spinner** Command declarations, with a [**Group**](windowsribbon-element-group.md) element that functions as the parent container for the **Spinner** element.</span></span>
+<span data-ttu-id="7feea-134">這一節的程式碼會顯示 **微調** 命令宣告，以及做為 **微調** 專案父容器的 [**Group**](windowsribbon-element-group.md)元素。</span><span class="sxs-lookup"><span data-stu-id="7feea-134">This section of code shows the **Spinner** Command declarations, with a [**Group**](windowsribbon-element-group.md) element that functions as the parent container for the **Spinner** element.</span></span>
 
 
 ```XML
@@ -110,7 +110,7 @@ ms.locfileid: "104022979"
 
 
 
-<span data-ttu-id="f3680-135">這段程式碼會顯示 **微調** 控制項宣告。</span><span class="sxs-lookup"><span data-stu-id="f3680-135">This section of code shows the **Spinner** control declarations.</span></span>
+<span data-ttu-id="7feea-135">這段程式碼會顯示 **微調** 控制項宣告。</span><span class="sxs-lookup"><span data-stu-id="7feea-135">This section of code shows the **Spinner** control declarations.</span></span>
 
 
 ```XML
@@ -121,22 +121,22 @@ ms.locfileid: "104022979"
 
 
 
-## <a name="element-information"></a><span data-ttu-id="f3680-136">項目資訊</span><span class="sxs-lookup"><span data-stu-id="f3680-136">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="7feea-136">項目資訊</span><span class="sxs-lookup"><span data-stu-id="7feea-136">Element information</span></span>
 
 
 
 |                                     |           |
 |-------------------------------------|-----------|
-| <span data-ttu-id="f3680-137">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="f3680-137">Minimum supported system</span></span><br/> | <span data-ttu-id="f3680-138">Windows 7</span><span class="sxs-lookup"><span data-stu-id="f3680-138">Windows 7</span></span> |
-| <span data-ttu-id="f3680-139">可以是空的</span><span class="sxs-lookup"><span data-stu-id="f3680-139">Can be empty</span></span>                        | <span data-ttu-id="f3680-140">Yes</span><span class="sxs-lookup"><span data-stu-id="f3680-140">Yes</span></span>       |
+| <span data-ttu-id="7feea-137">最低支援系統</span><span class="sxs-lookup"><span data-stu-id="7feea-137">Minimum supported system</span></span><br/> | <span data-ttu-id="7feea-138">Windows 7</span><span class="sxs-lookup"><span data-stu-id="7feea-138">Windows 7</span></span> |
+| <span data-ttu-id="7feea-139">可以是空的</span><span class="sxs-lookup"><span data-stu-id="7feea-139">Can be empty</span></span>                        | <span data-ttu-id="7feea-140">Yes</span><span class="sxs-lookup"><span data-stu-id="7feea-140">Yes</span></span>       |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f3680-141">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f3680-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7feea-141">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7feea-141">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f3680-142">微調控制項</span><span class="sxs-lookup"><span data-stu-id="f3680-142">Spinner control</span></span>](windowsribbon-controls-spinner.md)
+[<span data-ttu-id="7feea-142">微調控制項</span><span class="sxs-lookup"><span data-stu-id="7feea-142">Spinner control</span></span>](windowsribbon-controls-spinner.md)
 </dt> </dl>
 
  

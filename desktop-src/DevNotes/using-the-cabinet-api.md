@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103688584"
 ---
-# <a name="using-the-cabinet-api"></a><span data-ttu-id="595e6-103">使用封包 API</span><span class="sxs-lookup"><span data-stu-id="595e6-103">Using the Cabinet API</span></span>
+# <a name="using-the-cabinet-api"></a><span data-ttu-id="fcd48-103">使用封包 API</span><span class="sxs-lookup"><span data-stu-id="fcd48-103">Using the Cabinet API</span></span>
 
-<span data-ttu-id="595e6-104">下列範例說明如何執行封包 API：</span><span class="sxs-lookup"><span data-stu-id="595e6-104">The following examples illustrate implementation of the Cabinet API:</span></span>
+<span data-ttu-id="fcd48-104">下列範例說明如何執行封包 API：</span><span class="sxs-lookup"><span data-stu-id="fcd48-104">The following examples illustrate implementation of the Cabinet API:</span></span>
 
--   [<span data-ttu-id="595e6-105">建立封包</span><span class="sxs-lookup"><span data-stu-id="595e6-105">Creating a Cabinet</span></span>](creating-a-cabinet.md)
--   [<span data-ttu-id="595e6-106">從封包解壓縮檔案</span><span class="sxs-lookup"><span data-stu-id="595e6-106">Extracting Files from a Cabinet</span></span>](extracting-files-from-a-cabinet.md)
+-   [<span data-ttu-id="fcd48-105">建立封包</span><span class="sxs-lookup"><span data-stu-id="fcd48-105">Creating a Cabinet</span></span>](creating-a-cabinet.md)
+-   [<span data-ttu-id="fcd48-106">從封包解壓縮檔案</span><span class="sxs-lookup"><span data-stu-id="fcd48-106">Extracting Files from a Cabinet</span></span>](extracting-files-from-a-cabinet.md)
 
-## <a name="related-topics"></a><span data-ttu-id="595e6-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="595e6-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="fcd48-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="fcd48-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="595e6-108">封包 API 參考</span><span class="sxs-lookup"><span data-stu-id="595e6-108">Cabinet API Reference</span></span>](cabinet-api-reference.md)
+[<span data-ttu-id="fcd48-108">封包 API 參考</span><span class="sxs-lookup"><span data-stu-id="fcd48-108">Cabinet API Reference</span></span>](cabinet-api-reference.md)
 </dt> </dl>
 
  

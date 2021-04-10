@@ -19,48 +19,48 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686388"
 ---
-# <a name="idcompositionscaletransform3dsetcentery-methods"></a><span data-ttu-id="a1fb6-104">IDCompositionScaleTransform3D：： SetCenterY 方法</span><span class="sxs-lookup"><span data-stu-id="a1fb6-104">IDCompositionScaleTransform3D::SetCenterY methods</span></span>
+# <a name="idcompositionscaletransform3dsetcentery-methods"></a><span data-ttu-id="4ec00-104">IDCompositionScaleTransform3D：： SetCenterY 方法</span><span class="sxs-lookup"><span data-stu-id="4ec00-104">IDCompositionScaleTransform3D::SetCenterY methods</span></span>
 
-<span data-ttu-id="a1fb6-105">變更或繪製3D 縮放轉換之 CenterY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="a1fb6-105">Changes or animates the value of the CenterY property of a 3D scale transform.</span></span> <span data-ttu-id="a1fb6-106">CenterY 屬性會指定執行調整的起點的 y 座標。</span><span class="sxs-lookup"><span data-stu-id="a1fb6-106">The CenterY property specifies the y-coordinate of the point about which scaling is performed.</span></span>
+<span data-ttu-id="4ec00-105">變更或繪製3D 縮放轉換之 CenterY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="4ec00-105">Changes or animates the value of the CenterY property of a 3D scale transform.</span></span> <span data-ttu-id="4ec00-106">CenterY 屬性會指定執行調整的起點的 y 座標。</span><span class="sxs-lookup"><span data-stu-id="4ec00-106">The CenterY property specifies the y-coordinate of the point about which scaling is performed.</span></span>
 
-### <a name="overload-list"></a><span data-ttu-id="a1fb6-107">多載清單</span><span class="sxs-lookup"><span data-stu-id="a1fb6-107">Overload list</span></span>
+### <a name="overload-list"></a><span data-ttu-id="4ec00-107">多載清單</span><span class="sxs-lookup"><span data-stu-id="4ec00-107">Overload list</span></span>
 
 
 
-| <span data-ttu-id="a1fb6-108">方法</span><span class="sxs-lookup"><span data-stu-id="a1fb6-108">Method</span></span>                                                                                                          | <span data-ttu-id="a1fb6-109">描述</span><span class="sxs-lookup"><span data-stu-id="a1fb6-109">Description</span></span>                                            |
+| <span data-ttu-id="4ec00-108">方法</span><span class="sxs-lookup"><span data-stu-id="4ec00-108">Method</span></span>                                                                                                          | <span data-ttu-id="4ec00-109">描述</span><span class="sxs-lookup"><span data-stu-id="4ec00-109">Description</span></span>                                            |
 |:----------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| <span data-ttu-id="a1fb6-110">[**SetCenterY (float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(float))</span><span class="sxs-lookup"><span data-stu-id="a1fb6-110">[**SetCenterY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(float))</span></span>                                     | <span data-ttu-id="a1fb6-111">變更 CenterY 屬性的值。</span><span class="sxs-lookup"><span data-stu-id="a1fb6-111">Changes the value of the CenterY property.</span></span><br/>  |
-| <span data-ttu-id="a1fb6-112">[**SetCenterY (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(idcompositionanimation))</span><span class="sxs-lookup"><span data-stu-id="a1fb6-112">[**SetCenterY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(idcompositionanimation))</span></span> | <span data-ttu-id="a1fb6-113">繪製 CenterY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="a1fb6-113">Animates the value of the CenterY property.</span></span><br/> |
+| <span data-ttu-id="4ec00-110">[**SetCenterY (float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(float))</span><span class="sxs-lookup"><span data-stu-id="4ec00-110">[**SetCenterY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(float))</span></span>                                     | <span data-ttu-id="4ec00-111">變更 CenterY 屬性的值。</span><span class="sxs-lookup"><span data-stu-id="4ec00-111">Changes the value of the CenterY property.</span></span><br/>  |
+| <span data-ttu-id="4ec00-112">[**SetCenterY (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(idcompositionanimation))</span><span class="sxs-lookup"><span data-stu-id="4ec00-112">[**SetCenterY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(idcompositionanimation))</span></span> | <span data-ttu-id="4ec00-113">繪製 CenterY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="4ec00-113">Animates the value of the CenterY property.</span></span><br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="a1fb6-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="a1fb6-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4ec00-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="4ec00-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a1fb6-115">需求</span><span class="sxs-lookup"><span data-stu-id="a1fb6-115">Requirement</span></span> | <span data-ttu-id="a1fb6-116">值</span><span class="sxs-lookup"><span data-stu-id="a1fb6-116">Value</span></span> |
+| <span data-ttu-id="4ec00-115">需求</span><span class="sxs-lookup"><span data-stu-id="4ec00-115">Requirement</span></span> | <span data-ttu-id="4ec00-116">值</span><span class="sxs-lookup"><span data-stu-id="4ec00-116">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="a1fb6-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a1fb6-117">Minimum supported client</span></span><br/> | <span data-ttu-id="a1fb6-118">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a1fb6-118">Windows�8 \[desktop apps only\]</span></span><br/>                                           |
-| <span data-ttu-id="a1fb6-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a1fb6-119">Minimum supported server</span></span><br/> | <span data-ttu-id="a1fb6-120">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a1fb6-120">Windows Server�2012 \[desktop apps only\]</span></span><br/>                                 |
-| <span data-ttu-id="a1fb6-121">標頭</span><span class="sxs-lookup"><span data-stu-id="a1fb6-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="a1fb6-122"><dt>Dcomp。h</dt></span><span class="sxs-lookup"><span data-stu-id="a1fb6-122"><dt>Dcomp.h</dt></span></span> </dl>   |
-| <span data-ttu-id="a1fb6-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="a1fb6-123">Library</span></span><br/>                  | <dl> <span data-ttu-id="a1fb6-124"><dt>Dcomp .lib</dt></span><span class="sxs-lookup"><span data-stu-id="a1fb6-124"><dt>Dcomp.lib</dt></span></span> </dl> |
-| <span data-ttu-id="a1fb6-125">DLL</span><span class="sxs-lookup"><span data-stu-id="a1fb6-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="a1fb6-126"><dt>Dcomp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="a1fb6-126"><dt>Dcomp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="4ec00-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4ec00-117">Minimum supported client</span></span><br/> | <span data-ttu-id="4ec00-118">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4ec00-118">Windows�8 \[desktop apps only\]</span></span><br/>                                           |
+| <span data-ttu-id="4ec00-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4ec00-119">Minimum supported server</span></span><br/> | <span data-ttu-id="4ec00-120">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4ec00-120">Windows Server�2012 \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="4ec00-121">標頭</span><span class="sxs-lookup"><span data-stu-id="4ec00-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="4ec00-122"><dt>Dcomp。h</dt></span><span class="sxs-lookup"><span data-stu-id="4ec00-122"><dt>Dcomp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="4ec00-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="4ec00-123">Library</span></span><br/>                  | <dl> <span data-ttu-id="4ec00-124"><dt>Dcomp .lib</dt></span><span class="sxs-lookup"><span data-stu-id="4ec00-124"><dt>Dcomp.lib</dt></span></span> </dl> |
+| <span data-ttu-id="4ec00-125">DLL</span><span class="sxs-lookup"><span data-stu-id="4ec00-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="4ec00-126"><dt>Dcomp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="4ec00-126"><dt>Dcomp.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a1fb6-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a1fb6-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4ec00-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4ec00-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a1fb6-128">**IDCompositionScaleTransform3D**</span><span class="sxs-lookup"><span data-stu-id="a1fb6-128">**IDCompositionScaleTransform3D**</span></span>](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
+[<span data-ttu-id="4ec00-128">**IDCompositionScaleTransform3D**</span><span class="sxs-lookup"><span data-stu-id="4ec00-128">**IDCompositionScaleTransform3D**</span></span>](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
 </dt> <dt>
 
-[<span data-ttu-id="a1fb6-129">**IDCompositionScaleTransform3D::SetCenterX**</span><span class="sxs-lookup"><span data-stu-id="a1fb6-129">**IDCompositionScaleTransform3D::SetCenterX**</span></span>](idcompositionscaletransform3d-setcenterx-overloaded.md)
+[<span data-ttu-id="4ec00-129">**IDCompositionScaleTransform3D::SetCenterX**</span><span class="sxs-lookup"><span data-stu-id="4ec00-129">**IDCompositionScaleTransform3D::SetCenterX**</span></span>](idcompositionscaletransform3d-setcenterx-overloaded.md)
 </dt> <dt>
 
-<span data-ttu-id="a1fb6-130">[**IDCompositionScaleTransform3D::SetCenterZ**](/previous-versions/windows/desktop/legacy/hh449012(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="a1fb6-130">[**IDCompositionScaleTransform3D::SetCenterZ**](/previous-versions/windows/desktop/legacy/hh449012(v=vs.85))</span></span>
+<span data-ttu-id="4ec00-130">[**IDCompositionScaleTransform3D::SetCenterZ**](/previous-versions/windows/desktop/legacy/hh449012(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="4ec00-130">[**IDCompositionScaleTransform3D::SetCenterZ**](/previous-versions/windows/desktop/legacy/hh449012(v=vs.85))</span></span>
 </dt> </dl>
 
-<span data-ttu-id="a1fb6-131">�</span><span class="sxs-lookup"><span data-stu-id="a1fb6-131">�</span></span>
+<span data-ttu-id="4ec00-131">�</span><span class="sxs-lookup"><span data-stu-id="4ec00-131">�</span></span>
 
-<span data-ttu-id="a1fb6-132">�</span><span class="sxs-lookup"><span data-stu-id="a1fb6-132">�</span></span>
+<span data-ttu-id="4ec00-132">�</span><span class="sxs-lookup"><span data-stu-id="4ec00-132">�</span></span>
