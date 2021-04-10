@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "104023943"
 ---
-# <a name="ui_pkey_largeimage"></a><span data-ttu-id="bf86e-103">UI \_ PKEY \_ LargeImage</span><span class="sxs-lookup"><span data-stu-id="bf86e-103">UI\_PKEY\_LargeImage</span></span>
+# <a name="ui_pkey_largeimage"></a><span data-ttu-id="737b8-103">UI \_ PKEY \_ LargeImage</span><span class="sxs-lookup"><span data-stu-id="737b8-103">UI\_PKEY\_LargeImage</span></span>
 
-<span data-ttu-id="bf86e-104">識別 UI \_ PKEY \_ LargeImage 屬性。</span><span class="sxs-lookup"><span data-stu-id="bf86e-104">Identifies the UI\_PKEY\_LargeImage property.</span></span>
+<span data-ttu-id="737b8-104">識別 UI \_ PKEY \_ LargeImage 屬性。</span><span class="sxs-lookup"><span data-stu-id="737b8-104">Identifies the UI\_PKEY\_LargeImage property.</span></span>
 
 ```
 propertyDescription
@@ -25,20 +25,20 @@ propertyDescription
       type = IUIImage
 ```
 
-## <a name="remarks"></a><span data-ttu-id="bf86e-105">備註</span><span class="sxs-lookup"><span data-stu-id="bf86e-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="737b8-105">備註</span><span class="sxs-lookup"><span data-stu-id="737b8-105">Remarks</span></span>
 
-<span data-ttu-id="bf86e-106">\_ \_ 應用程式會使用 UI PKEY LargeImage 來查詢與功能區控制項相關聯的大型影像。</span><span class="sxs-lookup"><span data-stu-id="bf86e-106">UI\_PKEY\_LargeImage is used by an application to query the large image associated with a ribbon control.</span></span>
+<span data-ttu-id="737b8-106">\_ \_ 應用程式會使用 UI PKEY LargeImage 來查詢與功能區控制項相關聯的大型影像。</span><span class="sxs-lookup"><span data-stu-id="737b8-106">UI\_PKEY\_LargeImage is used by an application to query the large image associated with a ribbon control.</span></span>
 
-<span data-ttu-id="bf86e-107">屬性值是 [**IUIImage**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage) 物件。</span><span class="sxs-lookup"><span data-stu-id="bf86e-107">The property value is an [**IUIImage**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage) object.</span></span>
+<span data-ttu-id="737b8-107">屬性值是 [**IUIImage**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage) 物件。</span><span class="sxs-lookup"><span data-stu-id="737b8-107">The property value is an [**IUIImage**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage) object.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="bf86e-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="bf86e-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="737b8-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="737b8-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="bf86e-109">資源屬性</span><span class="sxs-lookup"><span data-stu-id="bf86e-109">Resource Properties</span></span>](windowsribbon-reference-properties-resource.md)
+[<span data-ttu-id="737b8-109">資源屬性</span><span class="sxs-lookup"><span data-stu-id="737b8-109">Resource Properties</span></span>](windowsribbon-reference-properties-resource.md)
 </dt> <dt>
 
-[<span data-ttu-id="bf86e-110">指定功能區影像資源</span><span class="sxs-lookup"><span data-stu-id="bf86e-110">Specifying Ribbon Image Resources</span></span>](windowsribbon-imageformats.md)
+[<span data-ttu-id="737b8-110">指定功能區影像資源</span><span class="sxs-lookup"><span data-stu-id="737b8-110">Specifying Ribbon Image Resources</span></span>](windowsribbon-imageformats.md)
 </dt> </dl>
 
  

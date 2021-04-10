@@ -22,11 +22,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103682222"
 ---
-# <a name="getpositioninformationoperationgetresults-method"></a><span data-ttu-id="21224-106">GetPositionInformationOperation. GetResults 方法</span><span class="sxs-lookup"><span data-stu-id="21224-106">GetPositionInformationOperation.GetResults method</span></span>
+# <a name="getpositioninformationoperationgetresults-method"></a><span data-ttu-id="e6644-106">GetPositionInformationOperation. GetResults 方法</span><span class="sxs-lookup"><span data-stu-id="e6644-106">GetPositionInformationOperation.GetResults method</span></span>
 
-<span data-ttu-id="21224-107">傳回 [**GetPositionInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync)啟動的非同步作業結果。</span><span class="sxs-lookup"><span data-stu-id="21224-107">Returns the results of the asynchronous operation started by [**GetPositionInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync).</span></span>
+<span data-ttu-id="e6644-107">傳回 [**GetPositionInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync)啟動的非同步作業結果。</span><span class="sxs-lookup"><span data-stu-id="e6644-107">Returns the results of the asynchronous operation started by [**GetPositionInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="21224-108">語法</span><span class="sxs-lookup"><span data-stu-id="21224-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e6644-108">語法</span><span class="sxs-lookup"><span data-stu-id="e6644-108">Syntax</span></span>
 
 
 ```C++
@@ -37,40 +37,40 @@ HRESULT GetResults(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="21224-109">參數</span><span class="sxs-lookup"><span data-stu-id="21224-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e6644-109">參數</span><span class="sxs-lookup"><span data-stu-id="e6644-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="21224-110">*值* \[退出，retval\]</span><span class="sxs-lookup"><span data-stu-id="21224-110">*value* \[out, retval\]</span></span>
+<span data-ttu-id="e6644-110">*值* \[退出，retval\]</span><span class="sxs-lookup"><span data-stu-id="e6644-110">*value* \[out, retval\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="21224-111">[**PositionInformation**](/previous-versions/windows/desktop/api/windows.media.streaming/ns-windows-media-streaming-positioninformation)結構的參考，其中包含作業的結果。</span><span class="sxs-lookup"><span data-stu-id="21224-111">A reference to a [**PositionInformation**](/previous-versions/windows/desktop/api/windows.media.streaming/ns-windows-media-streaming-positioninformation) structure that contains the results of the operation.</span></span>
+<span data-ttu-id="e6644-111">[**PositionInformation**](/previous-versions/windows/desktop/api/windows.media.streaming/ns-windows-media-streaming-positioninformation)結構的參考，其中包含作業的結果。</span><span class="sxs-lookup"><span data-stu-id="e6644-111">A reference to a [**PositionInformation**](/previous-versions/windows/desktop/api/windows.media.streaming/ns-windows-media-streaming-positioninformation) structure that contains the results of the operation.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="21224-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="21224-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e6644-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="e6644-112">Return value</span></span>
 
-<span data-ttu-id="21224-113">方法會傳回 **HRESULT**。</span><span class="sxs-lookup"><span data-stu-id="21224-113">The method returns an **HRESULT**.</span></span> <span data-ttu-id="21224-114">可能的值包括 (但不限於) 下表中的這些值。</span><span class="sxs-lookup"><span data-stu-id="21224-114">Possible values include, but are not limited to, those in the following table.</span></span>
+<span data-ttu-id="e6644-113">方法會傳回 **HRESULT**。</span><span class="sxs-lookup"><span data-stu-id="e6644-113">The method returns an **HRESULT**.</span></span> <span data-ttu-id="e6644-114">可能的值包括 (但不限於) 下表中的這些值。</span><span class="sxs-lookup"><span data-stu-id="e6644-114">Possible values include, but are not limited to, those in the following table.</span></span>
 
 
 
-| <span data-ttu-id="21224-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="21224-115">Return code</span></span>                                                                          | <span data-ttu-id="21224-116">Description</span><span class="sxs-lookup"><span data-stu-id="21224-116">Description</span></span>                      |
+| <span data-ttu-id="e6644-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="e6644-115">Return code</span></span>                                                                          | <span data-ttu-id="e6644-116">Description</span><span class="sxs-lookup"><span data-stu-id="e6644-116">Description</span></span>                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
-| <dl> <span data-ttu-id="21224-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="21224-117"><dt>**S\_OK**</dt></span></span> </dl> | <span data-ttu-id="21224-118">此方法已成功。</span><span class="sxs-lookup"><span data-stu-id="21224-118">The method succeeded.</span></span><br/> |
+| <dl> <span data-ttu-id="e6644-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="e6644-117"><dt>**S\_OK**</dt></span></span> </dl> | <span data-ttu-id="e6644-118">此方法已成功。</span><span class="sxs-lookup"><span data-stu-id="e6644-118">The method succeeded.</span></span><br/> |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="21224-119">備註</span><span class="sxs-lookup"><span data-stu-id="21224-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e6644-119">備註</span><span class="sxs-lookup"><span data-stu-id="e6644-119">Remarks</span></span>
 
-<span data-ttu-id="21224-120">**GetResults** 方法通常是由設定 [**Completed**](getpositioninformationoperation-completed.md)屬性所註冊的事件處理常式所呼叫。</span><span class="sxs-lookup"><span data-stu-id="21224-120">The **GetResults** method is typically called from the event handler that was registered by setting the [**Completed**](getpositioninformationoperation-completed.md) property.</span></span>
+<span data-ttu-id="e6644-120">**GetResults** 方法通常是由設定 [**Completed**](getpositioninformationoperation-completed.md)屬性所註冊的事件處理常式所呼叫。</span><span class="sxs-lookup"><span data-stu-id="e6644-120">The **GetResults** method is typically called from the event handler that was registered by setting the [**Completed**](getpositioninformationoperation-completed.md) property.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="21224-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="21224-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e6644-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e6644-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="21224-122">**GetPositionInformationOperation**</span><span class="sxs-lookup"><span data-stu-id="21224-122">**GetPositionInformationOperation**</span></span>](getpositioninformationoperation.md)
+[<span data-ttu-id="e6644-122">**GetPositionInformationOperation**</span><span class="sxs-lookup"><span data-stu-id="e6644-122">**GetPositionInformationOperation**</span></span>](getpositioninformationoperation.md)
 </dt> </dl>
 
  

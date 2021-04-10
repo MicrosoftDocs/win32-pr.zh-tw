@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934015"
 ---
-# <a name="interval-restarttype-element"></a><span data-ttu-id="af315-104">間隔 (restartType) 元素</span><span class="sxs-lookup"><span data-stu-id="af315-104">Interval (restartType) Element</span></span>
+# <a name="interval-restarttype-element"></a><span data-ttu-id="4cc17-104">間隔 (restartType) 元素</span><span class="sxs-lookup"><span data-stu-id="4cc17-104">Interval (restartType) Element</span></span>
 
-<span data-ttu-id="af315-105">指定工作排程器將嘗試重新開機工作的時間長度。</span><span class="sxs-lookup"><span data-stu-id="af315-105">Specifies how long the Task Scheduler will attempt to restart the task.</span></span> <span data-ttu-id="af315-106">此字串的格式為 P <days> DT <hours> H <minutes> M <seconds> S (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。</span><span class="sxs-lookup"><span data-stu-id="af315-106">The format for this string is P<days>DT<hours>H<minutes>M<seconds>S (for example, "PT5M" is 5 minutes, "PT1H" is 1 hour, and "PT20M" is 20 minutes).</span></span> <span data-ttu-id="af315-107">允許的時間上限為31天，而允許的最短時間為1分鐘。</span><span class="sxs-lookup"><span data-stu-id="af315-107">The maximum time allowed is 31 days, and the minimum time allowed is 1 minute.</span></span>
+<span data-ttu-id="4cc17-105">指定工作排程器將嘗試重新開機工作的時間長度。</span><span class="sxs-lookup"><span data-stu-id="4cc17-105">Specifies how long the Task Scheduler will attempt to restart the task.</span></span> <span data-ttu-id="4cc17-106">此字串的格式為 P <days> DT <hours> H <minutes> M <seconds> S (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。</span><span class="sxs-lookup"><span data-stu-id="4cc17-106">The format for this string is P<days>DT<hours>H<minutes>M<seconds>S (for example, "PT5M" is 5 minutes, "PT1H" is 1 hour, and "PT20M" is 20 minutes).</span></span> <span data-ttu-id="4cc17-107">允許的時間上限為31天，而允許的最短時間為1分鐘。</span><span class="sxs-lookup"><span data-stu-id="4cc17-107">The maximum time allowed is 31 days, and the minimum time allowed is 1 minute.</span></span>
 
 ``` syntax
 <xs:element name="Interval">
@@ -41,42 +41,42 @@ ms.locfileid: "103934015"
 </xs:element>
 ```
 
-<span data-ttu-id="af315-108">元素是由 [**restartType**](taskschedulerschema-restarttype-complextype.md) 複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="af315-108">The element is defined by the [**restartType**](taskschedulerschema-restarttype-complextype.md) complex type.</span></span>
+<span data-ttu-id="4cc17-108">元素是由 [**restartType**](taskschedulerschema-restarttype-complextype.md) 複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="4cc17-108">The element is defined by the [**restartType**](taskschedulerschema-restarttype-complextype.md) complex type.</span></span>
 
-## <a name="parent-element"></a><span data-ttu-id="af315-109">父元素</span><span class="sxs-lookup"><span data-stu-id="af315-109">Parent element</span></span>
+## <a name="parent-element"></a><span data-ttu-id="4cc17-109">父元素</span><span class="sxs-lookup"><span data-stu-id="4cc17-109">Parent element</span></span>
 
 
 
-| <span data-ttu-id="af315-110">元素</span><span class="sxs-lookup"><span data-stu-id="af315-110">Element</span></span>                                                                               | <span data-ttu-id="af315-111">衍生自</span><span class="sxs-lookup"><span data-stu-id="af315-111">Derived from</span></span>                                                       | <span data-ttu-id="af315-112">Description</span><span class="sxs-lookup"><span data-stu-id="af315-112">Description</span></span>                                                                                                     |
+| <span data-ttu-id="4cc17-110">元素</span><span class="sxs-lookup"><span data-stu-id="4cc17-110">Element</span></span>                                                                               | <span data-ttu-id="4cc17-111">衍生自</span><span class="sxs-lookup"><span data-stu-id="4cc17-111">Derived from</span></span>                                                       | <span data-ttu-id="4cc17-112">Description</span><span class="sxs-lookup"><span data-stu-id="4cc17-112">Description</span></span>                                                                                                     |
 |---------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="af315-113">**RestartOnFailure**</span><span class="sxs-lookup"><span data-stu-id="af315-113">**RestartOnFailure**</span></span>](taskschedulerschema-restartonfailure-settingstype-element.md) | [<span data-ttu-id="af315-114">**restartType**</span><span class="sxs-lookup"><span data-stu-id="af315-114">**restartType**</span></span>](taskschedulerschema-restarttype-complextype.md) | <span data-ttu-id="af315-115">指定當工作因為任何原因而失敗時，工作排程器將嘗試重新開機工作。</span><span class="sxs-lookup"><span data-stu-id="af315-115">Specifies that the Task Scheduler will attempt to restart the task if the task fails for any reason.</span></span><br/> |
+| [<span data-ttu-id="4cc17-113">**RestartOnFailure**</span><span class="sxs-lookup"><span data-stu-id="4cc17-113">**RestartOnFailure**</span></span>](taskschedulerschema-restartonfailure-settingstype-element.md) | [<span data-ttu-id="4cc17-114">**restartType**</span><span class="sxs-lookup"><span data-stu-id="4cc17-114">**restartType**</span></span>](taskschedulerschema-restarttype-complextype.md) | <span data-ttu-id="4cc17-115">指定當工作因為任何原因而失敗時，工作排程器將嘗試重新開機工作。</span><span class="sxs-lookup"><span data-stu-id="4cc17-115">Specifies that the Task Scheduler will attempt to restart the task if the task fails for any reason.</span></span><br/> |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="af315-116">備註</span><span class="sxs-lookup"><span data-stu-id="af315-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4cc17-116">備註</span><span class="sxs-lookup"><span data-stu-id="4cc17-116">Remarks</span></span>
 
-<span data-ttu-id="af315-117">如果指定這個元素，則也必須指定 [**Count**](taskschedulerschema-count-restarttype-element.md) 元素，以告知工作排程器應該嘗試重新開機工作的次數。</span><span class="sxs-lookup"><span data-stu-id="af315-117">If this element is specified, the [**Count**](taskschedulerschema-count-restarttype-element.md) element must also be specified to tell the Task Scheduler how many times it should try to restart the task.</span></span>
+<span data-ttu-id="4cc17-117">如果指定這個元素，則也必須指定 [**Count**](taskschedulerschema-count-restarttype-element.md) 元素，以告知工作排程器應該嘗試重新開機工作的次數。</span><span class="sxs-lookup"><span data-stu-id="4cc17-117">If this element is specified, the [**Count**](taskschedulerschema-count-restarttype-element.md) element must also be specified to tell the Task Scheduler how many times it should try to restart the task.</span></span>
 
-<span data-ttu-id="af315-118">針對 c + + 開發，請參閱 [**ITaskSettings 的 RestartInterval 屬性**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartinterval)。</span><span class="sxs-lookup"><span data-stu-id="af315-118">For C++ development, see [**RestartInterval Property of ITaskSettings**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartinterval).</span></span>
+<span data-ttu-id="4cc17-118">針對 c + + 開發，請參閱 [**ITaskSettings 的 RestartInterval 屬性**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartinterval)。</span><span class="sxs-lookup"><span data-stu-id="4cc17-118">For C++ development, see [**RestartInterval Property of ITaskSettings**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartinterval).</span></span>
 
-<span data-ttu-id="af315-119">如需腳本開發，請參閱 [**TaskSettings. RestartInterval**](tasksettings-restartinterval.md)。</span><span class="sxs-lookup"><span data-stu-id="af315-119">For script development, see [**TaskSettings.RestartInterval**](tasksettings-restartinterval.md).</span></span>
+<span data-ttu-id="4cc17-119">如需腳本開發，請參閱 [**TaskSettings. RestartInterval**](tasksettings-restartinterval.md)。</span><span class="sxs-lookup"><span data-stu-id="4cc17-119">For script development, see [**TaskSettings.RestartInterval**](tasksettings-restartinterval.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="af315-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="af315-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4cc17-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="4cc17-120">Requirements</span></span>
 
 
 
-| <span data-ttu-id="af315-121">需求</span><span class="sxs-lookup"><span data-stu-id="af315-121">Requirement</span></span> | <span data-ttu-id="af315-122">值</span><span class="sxs-lookup"><span data-stu-id="af315-122">Value</span></span> |
+| <span data-ttu-id="4cc17-121">需求</span><span class="sxs-lookup"><span data-stu-id="4cc17-121">Requirement</span></span> | <span data-ttu-id="4cc17-122">值</span><span class="sxs-lookup"><span data-stu-id="4cc17-122">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="af315-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="af315-123">Minimum supported client</span></span><br/> | <span data-ttu-id="af315-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="af315-124">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="af315-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="af315-125">Minimum supported server</span></span><br/> | <span data-ttu-id="af315-126">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="af315-126">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="4cc17-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4cc17-123">Minimum supported client</span></span><br/> | <span data-ttu-id="4cc17-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4cc17-124">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="4cc17-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4cc17-125">Minimum supported server</span></span><br/> | <span data-ttu-id="4cc17-126">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4cc17-126">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="af315-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="af315-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4cc17-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4cc17-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="af315-128">工作排程器架構元素</span><span class="sxs-lookup"><span data-stu-id="af315-128">Task Scheduler Schema Elements</span></span>](task-scheduler-schema-elements.md)
+[<span data-ttu-id="4cc17-128">工作排程器架構元素</span><span class="sxs-lookup"><span data-stu-id="4cc17-128">Task Scheduler Schema Elements</span></span>](task-scheduler-schema-elements.md)
 </dt> </dl>
 
  

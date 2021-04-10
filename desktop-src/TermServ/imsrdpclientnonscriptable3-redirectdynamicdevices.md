@@ -51,13 +51,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685632"
 ---
-# <a name="imsrdpclientnonscriptable3redirectdynamicdevices-property"></a><span data-ttu-id="c7fa7-120">IMsRdpClientNonScriptable3：： RedirectDynamicDevices 屬性</span><span class="sxs-lookup"><span data-stu-id="c7fa7-120">IMsRdpClientNonScriptable3::RedirectDynamicDevices property</span></span>
+# <a name="imsrdpclientnonscriptable3redirectdynamicdevices-property"></a><span data-ttu-id="1e175-120">IMsRdpClientNonScriptable3：： RedirectDynamicDevices 屬性</span><span class="sxs-lookup"><span data-stu-id="1e175-120">IMsRdpClientNonScriptable3::RedirectDynamicDevices property</span></span>
 
-<span data-ttu-id="c7fa7-121">指定或抓取在會話中列舉的 PnP) 裝置上，是否有動態連接的隨插即用 (PnP 裝置可進行重新導向。</span><span class="sxs-lookup"><span data-stu-id="c7fa7-121">Specifies or retrieves whether dynamically attached Plug and Play (PnP) devices that are enumerated while in a session are available for redirection.</span></span>
+<span data-ttu-id="1e175-121">指定或抓取在會話中列舉的 PnP) 裝置上，是否有動態連接的隨插即用 (PnP 裝置可進行重新導向。</span><span class="sxs-lookup"><span data-stu-id="1e175-121">Specifies or retrieves whether dynamically attached Plug and Play (PnP) devices that are enumerated while in a session are available for redirection.</span></span>
 
-<span data-ttu-id="c7fa7-122">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="c7fa7-122">This property is read/write.</span></span>
+<span data-ttu-id="1e175-122">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="1e175-122">This property is read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c7fa7-123">Syntax</span><span class="sxs-lookup"><span data-stu-id="c7fa7-123">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1e175-123">Syntax</span><span class="sxs-lookup"><span data-stu-id="1e175-123">Syntax</span></span>
 
 
 ```C++
@@ -72,35 +72,35 @@ HRESULT get_RedirectDynamicDevices(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="c7fa7-124">屬性值</span><span class="sxs-lookup"><span data-stu-id="c7fa7-124">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="1e175-124">屬性值</span><span class="sxs-lookup"><span data-stu-id="1e175-124">Property value</span></span>
 
-<span data-ttu-id="c7fa7-125">指定是否可重新導向會話中所列舉的動態連接 PnP 裝置。</span><span class="sxs-lookup"><span data-stu-id="c7fa7-125">Specifies whether dynamically attached PnP devices that are enumerated while in a session are available for redirection.</span></span>
+<span data-ttu-id="1e175-125">指定是否可重新導向會話中所列舉的動態連接 PnP 裝置。</span><span class="sxs-lookup"><span data-stu-id="1e175-125">Specifies whether dynamically attached PnP devices that are enumerated while in a session are available for redirection.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="c7fa7-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="c7fa7-126">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="1e175-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="1e175-126">Requirements</span></span>
 
 
 
-| <span data-ttu-id="c7fa7-127">需求</span><span class="sxs-lookup"><span data-stu-id="c7fa7-127">Requirement</span></span> | <span data-ttu-id="c7fa7-128">值</span><span class="sxs-lookup"><span data-stu-id="c7fa7-128">Value</span></span> |
+| <span data-ttu-id="1e175-127">需求</span><span class="sxs-lookup"><span data-stu-id="1e175-127">Requirement</span></span> | <span data-ttu-id="1e175-128">值</span><span class="sxs-lookup"><span data-stu-id="1e175-128">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| <span data-ttu-id="c7fa7-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c7fa7-129">Minimum supported client</span></span><br/> | <span data-ttu-id="c7fa7-130">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="c7fa7-130">Windows Vista</span></span><br/>                                                                      |
-| <span data-ttu-id="c7fa7-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c7fa7-131">Minimum supported server</span></span><br/> | <span data-ttu-id="c7fa7-132">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="c7fa7-132">Windows Server 2008</span></span><br/>                                                                |
-| <span data-ttu-id="c7fa7-133">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="c7fa7-133">Type library</span></span><br/>             | <dl> <span data-ttu-id="c7fa7-134"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="c7fa7-134"><dt>MsTscAx.dll</dt></span></span> </dl>        |
-| <span data-ttu-id="c7fa7-135">DLL</span><span class="sxs-lookup"><span data-stu-id="c7fa7-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c7fa7-136"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="c7fa7-136"><dt>MsTscAx.dll</dt></span></span> </dl>        |
-| <span data-ttu-id="c7fa7-137">IID</span><span class="sxs-lookup"><span data-stu-id="c7fa7-137">IID</span></span><br/>                      | <span data-ttu-id="c7fa7-138">IID \_ IMsRdpClientNonScriptable3 定義為 b3378d90-0728-45c7-8ed7-b6159fb92219</span><span class="sxs-lookup"><span data-stu-id="c7fa7-138">IID\_IMsRdpClientNonScriptable3 is defined as b3378d90-0728-45c7-8ed7-b6159fb92219</span></span><br/> |
+| <span data-ttu-id="1e175-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1e175-129">Minimum supported client</span></span><br/> | <span data-ttu-id="1e175-130">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="1e175-130">Windows Vista</span></span><br/>                                                                      |
+| <span data-ttu-id="1e175-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1e175-131">Minimum supported server</span></span><br/> | <span data-ttu-id="1e175-132">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="1e175-132">Windows Server 2008</span></span><br/>                                                                |
+| <span data-ttu-id="1e175-133">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="1e175-133">Type library</span></span><br/>             | <dl> <span data-ttu-id="1e175-134"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="1e175-134"><dt>MsTscAx.dll</dt></span></span> </dl>        |
+| <span data-ttu-id="1e175-135">DLL</span><span class="sxs-lookup"><span data-stu-id="1e175-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="1e175-136"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="1e175-136"><dt>MsTscAx.dll</dt></span></span> </dl>        |
+| <span data-ttu-id="1e175-137">IID</span><span class="sxs-lookup"><span data-stu-id="1e175-137">IID</span></span><br/>                      | <span data-ttu-id="1e175-138">IID \_ IMsRdpClientNonScriptable3 定義為 b3378d90-0728-45c7-8ed7-b6159fb92219</span><span class="sxs-lookup"><span data-stu-id="1e175-138">IID\_IMsRdpClientNonScriptable3 is defined as b3378d90-0728-45c7-8ed7-b6159fb92219</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="c7fa7-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c7fa7-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1e175-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1e175-139">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c7fa7-140">**IMsRdpClientNonScriptable4**</span><span class="sxs-lookup"><span data-stu-id="c7fa7-140">**IMsRdpClientNonScriptable4**</span></span>](imsrdpclientnonscriptable4.md)
+[<span data-ttu-id="1e175-140">**IMsRdpClientNonScriptable4**</span><span class="sxs-lookup"><span data-stu-id="1e175-140">**IMsRdpClientNonScriptable4**</span></span>](imsrdpclientnonscriptable4.md)
 </dt> <dt>
 
-[<span data-ttu-id="c7fa7-141">**IMsRdpClientNonScriptable5**</span><span class="sxs-lookup"><span data-stu-id="c7fa7-141">**IMsRdpClientNonScriptable5**</span></span>](imsrdpclientnonscriptable5.md)
+[<span data-ttu-id="1e175-141">**IMsRdpClientNonScriptable5**</span><span class="sxs-lookup"><span data-stu-id="1e175-141">**IMsRdpClientNonScriptable5**</span></span>](imsrdpclientnonscriptable5.md)
 </dt> <dt>
 
-[<span data-ttu-id="c7fa7-142">**IMsRdpClientNonScriptable3**</span><span class="sxs-lookup"><span data-stu-id="c7fa7-142">**IMsRdpClientNonScriptable3**</span></span>](imsrdpclientnonscriptable3.md)
+[<span data-ttu-id="1e175-142">**IMsRdpClientNonScriptable3**</span><span class="sxs-lookup"><span data-stu-id="1e175-142">**IMsRdpClientNonScriptable3**</span></span>](imsrdpclientnonscriptable3.md)
 </dt> </dl>
 
  

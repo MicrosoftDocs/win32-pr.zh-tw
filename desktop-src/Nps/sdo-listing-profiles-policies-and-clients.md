@@ -12,9 +12,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933364"
 ---
-# <a name="listing-profiles-policies-and-clients"></a><span data-ttu-id="3430f-103">列出設定檔、原則和用戶端</span><span class="sxs-lookup"><span data-stu-id="3430f-103">Listing Profiles, Policies, and Clients</span></span>
+# <a name="listing-profiles-policies-and-clients"></a><span data-ttu-id="961e9-103">列出設定檔、原則和用戶端</span><span class="sxs-lookup"><span data-stu-id="961e9-103">Listing Profiles, Policies, and Clients</span></span>
 
-<span data-ttu-id="3430f-104">下列 VBScript 程式碼會列舉本機電腦上的設定檔、原則和用戶端。</span><span class="sxs-lookup"><span data-stu-id="3430f-104">The following VBScript code enumerates the profiles, policies, and clients on the local computer.</span></span>
+<span data-ttu-id="961e9-104">下列 VBScript 程式碼會列舉本機電腦上的設定檔、原則和用戶端。</span><span class="sxs-lookup"><span data-stu-id="961e9-104">The following VBScript code enumerates the profiles, policies, and clients on the local computer.</span></span>
 
 
 ```VB
@@ -116,29 +116,29 @@ Next 'vtClient
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="3430f-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="3430f-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="961e9-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="961e9-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="3430f-106">**CLIENTPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3430f-106">**CLIENTPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-clientproperties)
+[<span data-ttu-id="961e9-106">**CLIENTPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="961e9-106">**CLIENTPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-clientproperties)
 </dt> <dt>
 
-[<span data-ttu-id="3430f-107">列舉集合中的物件</span><span class="sxs-lookup"><span data-stu-id="3430f-107">Enumerating Objects in a Collection</span></span>](/windows/desktop/Nps/sdo-enumerating-objects-in-a-collection)
+[<span data-ttu-id="961e9-107">列舉集合中的物件</span><span class="sxs-lookup"><span data-stu-id="961e9-107">Enumerating Objects in a Collection</span></span>](/windows/desktop/Nps/sdo-enumerating-objects-in-a-collection)
 </dt> <dt>
 
-[<span data-ttu-id="3430f-108">**IASCOMMONPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3430f-108">**IASCOMMONPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
+[<span data-ttu-id="961e9-108">**IASCOMMONPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="961e9-108">**IASCOMMONPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
 </dt> <dt>
 
-[<span data-ttu-id="3430f-109">**IASPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3430f-109">**IASPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
+[<span data-ttu-id="961e9-109">**IASPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="961e9-109">**IASPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> <dt>
 
-[<span data-ttu-id="3430f-110">**ISdo**</span><span class="sxs-lookup"><span data-stu-id="3430f-110">**ISdo**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdo)
+[<span data-ttu-id="961e9-110">**ISdo**</span><span class="sxs-lookup"><span data-stu-id="961e9-110">**ISdo**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdo)
 </dt> <dt>
 
-[<span data-ttu-id="3430f-111">**ISdoMachine**</span><span class="sxs-lookup"><span data-stu-id="3430f-111">**ISdoMachine**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdomachine)
+[<span data-ttu-id="961e9-111">**ISdoMachine**</span><span class="sxs-lookup"><span data-stu-id="961e9-111">**ISdoMachine**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdomachine)
 </dt> <dt>
 
-[<span data-ttu-id="3430f-112">**RADIUSPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3430f-112">**RADIUSPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-radiusproperties)
+[<span data-ttu-id="961e9-112">**RADIUSPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="961e9-112">**RADIUSPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-radiusproperties)
 </dt> </dl>
 
  

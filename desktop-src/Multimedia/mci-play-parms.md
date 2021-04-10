@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103933897"
 ---
-# <a name="mci_play_parms-structure"></a><span data-ttu-id="1af9a-104">MCI \_ PLAY \_ PARMS 結構</span><span class="sxs-lookup"><span data-stu-id="1af9a-104">MCI\_PLAY\_PARMS structure</span></span>
+# <a name="mci_play_parms-structure"></a><span data-ttu-id="b8148-104">MCI \_ PLAY \_ PARMS 結構</span><span class="sxs-lookup"><span data-stu-id="b8148-104">MCI\_PLAY\_PARMS structure</span></span>
 
-<span data-ttu-id="1af9a-105">**Mci \_ play \_ PARMS** 結構包含 [**mci \_ play**](mci-play.md)命令的位置資訊。</span><span class="sxs-lookup"><span data-stu-id="1af9a-105">The **MCI\_PLAY\_PARMS** structure contains positioning information for the [**MCI\_PLAY**](mci-play.md) command.</span></span>
+<span data-ttu-id="b8148-105">**Mci \_ play \_ PARMS** 結構包含 [**mci \_ play**](mci-play.md)命令的位置資訊。</span><span class="sxs-lookup"><span data-stu-id="b8148-105">The **MCI\_PLAY\_PARMS** structure contains positioning information for the [**MCI\_PLAY**](mci-play.md) command.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1af9a-106">語法</span><span class="sxs-lookup"><span data-stu-id="1af9a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b8148-106">語法</span><span class="sxs-lookup"><span data-stu-id="b8148-106">Syntax</span></span>
 
 
 ```C++
@@ -38,61 +38,61 @@ typedef struct {
 
 
 
-## <a name="members"></a><span data-ttu-id="1af9a-107">成員</span><span class="sxs-lookup"><span data-stu-id="1af9a-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="b8148-107">成員</span><span class="sxs-lookup"><span data-stu-id="b8148-107">Members</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="1af9a-108">**dwCallback**</span><span class="sxs-lookup"><span data-stu-id="1af9a-108">**dwCallback**</span></span>
+<span data-ttu-id="b8148-108">**dwCallback**</span><span class="sxs-lookup"><span data-stu-id="b8148-108">**dwCallback**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="1af9a-109">低序位字組指定用於 MCI 通知旗標的視窗控制碼 \_ 。</span><span class="sxs-lookup"><span data-stu-id="1af9a-109">The low-order word specifies a window handle used for the MCI\_NOTIFY flag.</span></span>
+<span data-ttu-id="b8148-109">低序位字組指定用於 MCI 通知旗標的視窗控制碼 \_ 。</span><span class="sxs-lookup"><span data-stu-id="b8148-109">The low-order word specifies a window handle used for the MCI\_NOTIFY flag.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="1af9a-110">**dwFrom**</span><span class="sxs-lookup"><span data-stu-id="1af9a-110">**dwFrom**</span></span>
+<span data-ttu-id="b8148-110">**dwFrom**</span><span class="sxs-lookup"><span data-stu-id="b8148-110">**dwFrom**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="1af9a-111">要播放的位置。</span><span class="sxs-lookup"><span data-stu-id="1af9a-111">Position to play from.</span></span>
+<span data-ttu-id="b8148-111">要播放的位置。</span><span class="sxs-lookup"><span data-stu-id="b8148-111">Position to play from.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="1af9a-112">**dwTo**</span><span class="sxs-lookup"><span data-stu-id="1af9a-112">**dwTo**</span></span>
+<span data-ttu-id="b8148-112">**dwTo**</span><span class="sxs-lookup"><span data-stu-id="b8148-112">**dwTo**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="1af9a-113">要播放的位置。</span><span class="sxs-lookup"><span data-stu-id="1af9a-113">Position to play to.</span></span>
+<span data-ttu-id="b8148-113">要播放的位置。</span><span class="sxs-lookup"><span data-stu-id="b8148-113">Position to play to.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="1af9a-114">備註</span><span class="sxs-lookup"><span data-stu-id="1af9a-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b8148-114">備註</span><span class="sxs-lookup"><span data-stu-id="b8148-114">Remarks</span></span>
 
-<span data-ttu-id="1af9a-115">將資料指派給此結構的成員時，請在 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85))函數的 *fdwCommand* 參數中設定對應的旗標，以驗證成員。</span><span class="sxs-lookup"><span data-stu-id="1af9a-115">When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function to validate the members.</span></span>
+<span data-ttu-id="b8148-115">將資料指派給此結構的成員時，請在 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85))函數的 *fdwCommand* 參數中設定對應的旗標，以驗證成員。</span><span class="sxs-lookup"><span data-stu-id="b8148-115">When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function to validate the members.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="1af9a-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="1af9a-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b8148-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="b8148-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="1af9a-117">需求</span><span class="sxs-lookup"><span data-stu-id="1af9a-117">Requirement</span></span> | <span data-ttu-id="1af9a-118">值</span><span class="sxs-lookup"><span data-stu-id="1af9a-118">Value</span></span> |
+| <span data-ttu-id="b8148-117">需求</span><span class="sxs-lookup"><span data-stu-id="b8148-117">Requirement</span></span> | <span data-ttu-id="b8148-118">值</span><span class="sxs-lookup"><span data-stu-id="b8148-118">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| <span data-ttu-id="1af9a-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1af9a-119">Minimum supported client</span></span><br/> | <span data-ttu-id="1af9a-120">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1af9a-120">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                          |
-| <span data-ttu-id="1af9a-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1af9a-121">Minimum supported server</span></span><br/> | <span data-ttu-id="1af9a-122">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1af9a-122">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                |
-| <span data-ttu-id="1af9a-123">標頭</span><span class="sxs-lookup"><span data-stu-id="1af9a-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="1af9a-124"><dt>Mciapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="1af9a-124"><dt>Mciapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="b8148-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b8148-119">Minimum supported client</span></span><br/> | <span data-ttu-id="b8148-120">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b8148-120">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                          |
+| <span data-ttu-id="b8148-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b8148-121">Minimum supported server</span></span><br/> | <span data-ttu-id="b8148-122">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b8148-122">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                |
+| <span data-ttu-id="b8148-123">標頭</span><span class="sxs-lookup"><span data-stu-id="b8148-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="b8148-124"><dt>Mciapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="b8148-124"><dt>Mciapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="1af9a-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1af9a-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b8148-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b8148-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="1af9a-126">**Mci**</span><span class="sxs-lookup"><span data-stu-id="1af9a-126">**MCI**</span></span>](mci.md)
+[<span data-ttu-id="b8148-126">**Mci**</span><span class="sxs-lookup"><span data-stu-id="b8148-126">**MCI**</span></span>](mci.md)
 </dt> <dt>
 
-[<span data-ttu-id="1af9a-127">**MCI 結構**</span><span class="sxs-lookup"><span data-stu-id="1af9a-127">**MCI Structures**</span></span>](mci-structures.md)
+[<span data-ttu-id="b8148-127">**MCI 結構**</span><span class="sxs-lookup"><span data-stu-id="b8148-127">**MCI Structures**</span></span>](mci-structures.md)
 </dt> <dt>
 
-[<span data-ttu-id="1af9a-128">**MCI \_ 播放**</span><span class="sxs-lookup"><span data-stu-id="1af9a-128">**MCI\_PLAY**</span></span>](mci-play.md)
+[<span data-ttu-id="b8148-128">**MCI \_ 播放**</span><span class="sxs-lookup"><span data-stu-id="b8148-128">**MCI\_PLAY**</span></span>](mci-play.md)
 </dt> <dt>
 
-<span data-ttu-id="1af9a-129">[**mciSendCommand**](/previous-versions//dd757160(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="1af9a-129">[**mciSendCommand**](/previous-versions//dd757160(v=vs.85))</span></span>
+<span data-ttu-id="b8148-129">[**mciSendCommand**](/previous-versions//dd757160(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="b8148-129">[**mciSendCommand**](/previous-versions//dd757160(v=vs.85))</span></span>
 </dt> </dl>
 
  

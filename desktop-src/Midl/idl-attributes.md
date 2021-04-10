@@ -15,22 +15,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103681822"
 ---
-# <a name="idl-attributes"></a><span data-ttu-id="a9e25-106">IDL 屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-106">IDL Attributes</span></span>
+# <a name="idl-attributes"></a><span data-ttu-id="7c834-106">IDL 屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-106">IDL Attributes</span></span>
 
-<span data-ttu-id="a9e25-107">屬性是用來指定介面特性的關鍵字，以及該介面內的資料和方法。</span><span class="sxs-lookup"><span data-stu-id="a9e25-107">Attributes are keywords that specify the characteristics of an interface and of the data and methods within that interface.</span></span> <span data-ttu-id="a9e25-108">套用至單一介面的屬性集會以方括弧括住 (**\[ \]**) 。</span><span class="sxs-lookup"><span data-stu-id="a9e25-108">The set of attributes that applies to a single interface is enclosed in square brackets (**\[ \]**).</span></span> <span data-ttu-id="a9e25-109">下列主題提供可用於 IDL 檔案的屬性分類。</span><span class="sxs-lookup"><span data-stu-id="a9e25-109">The following topics present the categories of attributes that can be used in an IDL file.</span></span>
+<span data-ttu-id="7c834-107">屬性是用來指定介面特性的關鍵字，以及該介面內的資料和方法。</span><span class="sxs-lookup"><span data-stu-id="7c834-107">Attributes are keywords that specify the characteristics of an interface and of the data and methods within that interface.</span></span> <span data-ttu-id="7c834-108">套用至單一介面的屬性集會以方括弧括住 (**\[ \]**) 。</span><span class="sxs-lookup"><span data-stu-id="7c834-108">The set of attributes that applies to a single interface is enclosed in square brackets (**\[ \]**).</span></span> <span data-ttu-id="7c834-109">下列主題提供可用於 IDL 檔案的屬性分類。</span><span class="sxs-lookup"><span data-stu-id="7c834-109">The following topics present the categories of attributes that can be used in an IDL file.</span></span>
 
--   [<span data-ttu-id="a9e25-110">欄位屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-110">Field Attributes</span></span>](/windows/desktop/Rpc/field-attributes)
--   [<span data-ttu-id="a9e25-111">別名和封送處理屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-111">Aliasing and Marshaling Attributes</span></span>](aliasing-and-marshaling-attributes.md)
--   [<span data-ttu-id="a9e25-112">非同步屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-112">Asynchronous Attributes</span></span>](asynchronous-attributes.md)
--   [<span data-ttu-id="a9e25-113">陣列和 Sized-Pointer 屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-113">Array and Sized-Pointer Attributes</span></span>](array-and-sized-pointer-attributes.md)
--   [<span data-ttu-id="a9e25-114">資料類型屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-114">Data Type Attributes</span></span>](data-type-attributes.md)
--   [<span data-ttu-id="a9e25-115">方向屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-115">Directional Attributes</span></span>](directional-attributes.md)
--   [<span data-ttu-id="a9e25-116">函式呼叫屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-116">Function Call Attributes</span></span>](function-call-attributes.md)
--   [<span data-ttu-id="a9e25-117">介面標頭屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-117">Interface Header Attributes</span></span>](interface-header-attributes.md)
--   [<span data-ttu-id="a9e25-118">效能屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-118">Performance Attributes</span></span>](performance-attributes.md)
--   [<span data-ttu-id="a9e25-119">指標類型屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-119">Pointer Type Attributes</span></span>](pointer-type-attributes.md)
--   [<span data-ttu-id="a9e25-120">Structure 和 Union 屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-120">Structure and Union Attributes</span></span>](structure-and-union-attributes.md)
--   [<span data-ttu-id="a9e25-121">類型程式庫屬性</span><span class="sxs-lookup"><span data-stu-id="a9e25-121">Type Library Attributes</span></span>](type-library-attributes.md)
+-   [<span data-ttu-id="7c834-110">欄位屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-110">Field Attributes</span></span>](/windows/desktop/Rpc/field-attributes)
+-   [<span data-ttu-id="7c834-111">別名和封送處理屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-111">Aliasing and Marshaling Attributes</span></span>](aliasing-and-marshaling-attributes.md)
+-   [<span data-ttu-id="7c834-112">非同步屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-112">Asynchronous Attributes</span></span>](asynchronous-attributes.md)
+-   [<span data-ttu-id="7c834-113">陣列和 Sized-Pointer 屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-113">Array and Sized-Pointer Attributes</span></span>](array-and-sized-pointer-attributes.md)
+-   [<span data-ttu-id="7c834-114">資料類型屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-114">Data Type Attributes</span></span>](data-type-attributes.md)
+-   [<span data-ttu-id="7c834-115">方向屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-115">Directional Attributes</span></span>](directional-attributes.md)
+-   [<span data-ttu-id="7c834-116">函式呼叫屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-116">Function Call Attributes</span></span>](function-call-attributes.md)
+-   [<span data-ttu-id="7c834-117">介面標頭屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-117">Interface Header Attributes</span></span>](interface-header-attributes.md)
+-   [<span data-ttu-id="7c834-118">效能屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-118">Performance Attributes</span></span>](performance-attributes.md)
+-   [<span data-ttu-id="7c834-119">指標類型屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-119">Pointer Type Attributes</span></span>](pointer-type-attributes.md)
+-   [<span data-ttu-id="7c834-120">Structure 和 Union 屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-120">Structure and Union Attributes</span></span>](structure-and-union-attributes.md)
+-   [<span data-ttu-id="7c834-121">類型程式庫屬性</span><span class="sxs-lookup"><span data-stu-id="7c834-121">Type Library Attributes</span></span>](type-library-attributes.md)
 
  
 

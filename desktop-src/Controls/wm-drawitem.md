@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685873"
 ---
-# <a name="wm_drawitem-message"></a><span data-ttu-id="fcbee-104">WM \_ DRAWITEM 訊息</span><span class="sxs-lookup"><span data-stu-id="fcbee-104">WM\_DRAWITEM message</span></span>
+# <a name="wm_drawitem-message"></a><span data-ttu-id="3c4c0-104">WM \_ DRAWITEM 訊息</span><span class="sxs-lookup"><span data-stu-id="3c4c0-104">WM\_DRAWITEM message</span></span>
 
-<span data-ttu-id="fcbee-105">當按鈕、下拉式方塊、清單方塊或功能表的視覺外觀已變更時，傳送至主控描繪按鈕、下拉式方塊、清單方塊或功能表的父視窗。</span><span class="sxs-lookup"><span data-stu-id="fcbee-105">Sent to the parent window of an owner-drawn button, combo box, list box, or menu when a visual aspect of the button, combo box, list box, or menu has changed.</span></span>
+<span data-ttu-id="3c4c0-105">當按鈕、下拉式方塊、清單方塊或功能表的視覺外觀已變更時，傳送至主控描繪按鈕、下拉式方塊、清單方塊或功能表的父視窗。</span><span class="sxs-lookup"><span data-stu-id="3c4c0-105">Sent to the parent window of an owner-drawn button, combo box, list box, or menu when a visual aspect of the button, combo box, list box, or menu has changed.</span></span>
 
-<span data-ttu-id="fcbee-106">視窗會透過其 [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) 函數接收此訊息。</span><span class="sxs-lookup"><span data-stu-id="fcbee-106">A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.</span></span>
+<span data-ttu-id="3c4c0-106">視窗會透過其 [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) 函數接收此訊息。</span><span class="sxs-lookup"><span data-stu-id="3c4c0-106">A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.</span></span>
 
 
 ```C++
@@ -37,62 +37,62 @@ WM_DRAWITEM
 
 
 
-## <a name="parameters"></a><span data-ttu-id="fcbee-107">參數</span><span class="sxs-lookup"><span data-stu-id="fcbee-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3c4c0-107">參數</span><span class="sxs-lookup"><span data-stu-id="3c4c0-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="fcbee-108">*wParam*</span><span class="sxs-lookup"><span data-stu-id="fcbee-108">*wParam*</span></span> 
+<span data-ttu-id="3c4c0-108">*wParam*</span><span class="sxs-lookup"><span data-stu-id="3c4c0-108">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="fcbee-109">指定傳送 **WM \_ DRAWITEM** 訊息之控制項的識別碼。</span><span class="sxs-lookup"><span data-stu-id="fcbee-109">Specifies the identifier of the control that sent the **WM\_DRAWITEM** message.</span></span> <span data-ttu-id="fcbee-110">如果訊息是由功能表傳送，此參數為零。</span><span class="sxs-lookup"><span data-stu-id="fcbee-110">If the message was sent by a menu, this parameter is zero.</span></span>
+<span data-ttu-id="3c4c0-109">指定傳送 **WM \_ DRAWITEM** 訊息之控制項的識別碼。</span><span class="sxs-lookup"><span data-stu-id="3c4c0-109">Specifies the identifier of the control that sent the **WM\_DRAWITEM** message.</span></span> <span data-ttu-id="3c4c0-110">如果訊息是由功能表傳送，此參數為零。</span><span class="sxs-lookup"><span data-stu-id="3c4c0-110">If the message was sent by a menu, this parameter is zero.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="fcbee-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="fcbee-111">*lParam*</span></span> 
+<span data-ttu-id="3c4c0-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="3c4c0-111">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="fcbee-112">[**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct)結構的指標，其中包含要繪製之專案的相關資訊，以及所需的繪圖類型。</span><span class="sxs-lookup"><span data-stu-id="fcbee-112">Pointer to a [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure containing information about the item to be drawn and the type of drawing required.</span></span>
+<span data-ttu-id="3c4c0-112">[**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct)結構的指標，其中包含要繪製之專案的相關資訊，以及所需的繪圖類型。</span><span class="sxs-lookup"><span data-stu-id="3c4c0-112">Pointer to a [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure containing information about the item to be drawn and the type of drawing required.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="fcbee-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="fcbee-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3c4c0-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="3c4c0-113">Return value</span></span>
 
-<span data-ttu-id="fcbee-114">如果應用程式處理此訊息，則應該傳回 **TRUE**。</span><span class="sxs-lookup"><span data-stu-id="fcbee-114">If an application processes this message, it should return **TRUE**.</span></span>
+<span data-ttu-id="3c4c0-114">如果應用程式處理此訊息，則應該傳回 **TRUE**。</span><span class="sxs-lookup"><span data-stu-id="3c4c0-114">If an application processes this message, it should return **TRUE**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fcbee-115">備註</span><span class="sxs-lookup"><span data-stu-id="fcbee-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3c4c0-115">備註</span><span class="sxs-lookup"><span data-stu-id="3c4c0-115">Remarks</span></span>
 
-<span data-ttu-id="fcbee-116">根據預設， [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 函式會繪製主控描繪清單方塊專案的焦點矩形。</span><span class="sxs-lookup"><span data-stu-id="fcbee-116">By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function draws the focus rectangle for an owner-drawn list box item.</span></span>
+<span data-ttu-id="3c4c0-116">根據預設， [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 函式會繪製主控描繪清單方塊專案的焦點矩形。</span><span class="sxs-lookup"><span data-stu-id="3c4c0-116">By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function draws the focus rectangle for an owner-drawn list box item.</span></span>
 
-<span data-ttu-id="fcbee-117">[**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct)結構的 *itemAction* 成員會指定應用程式應該執行的繪圖作業。</span><span class="sxs-lookup"><span data-stu-id="fcbee-117">The *itemAction* member of the [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure specifies the drawing operation that an application should perform.</span></span>
+<span data-ttu-id="3c4c0-117">[**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct)結構的 *itemAction* 成員會指定應用程式應該執行的繪圖作業。</span><span class="sxs-lookup"><span data-stu-id="3c4c0-117">The *itemAction* member of the [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure specifies the drawing operation that an application should perform.</span></span>
 
-<span data-ttu-id="fcbee-118">從處理此訊息傳回之前，應用程式應該確定 [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct)結構的 *hDC* 成員所識別的裝置內容為預設狀態。</span><span class="sxs-lookup"><span data-stu-id="fcbee-118">Before returning from processing this message, an application should ensure that the device context identified by the *hDC* member of the [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure is in the default state.</span></span>
+<span data-ttu-id="3c4c0-118">從處理此訊息傳回之前，應用程式應該確定 [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct)結構的 *hDC* 成員所識別的裝置內容為預設狀態。</span><span class="sxs-lookup"><span data-stu-id="3c4c0-118">Before returning from processing this message, an application should ensure that the device context identified by the *hDC* member of the [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure is in the default state.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="fcbee-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="fcbee-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3c4c0-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="3c4c0-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="fcbee-120">需求</span><span class="sxs-lookup"><span data-stu-id="fcbee-120">Requirement</span></span> | <span data-ttu-id="fcbee-121">值</span><span class="sxs-lookup"><span data-stu-id="fcbee-121">Value</span></span> |
+| <span data-ttu-id="3c4c0-120">需求</span><span class="sxs-lookup"><span data-stu-id="3c4c0-120">Requirement</span></span> | <span data-ttu-id="3c4c0-121">值</span><span class="sxs-lookup"><span data-stu-id="3c4c0-121">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="fcbee-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="fcbee-122">Minimum supported client</span></span><br/> | <span data-ttu-id="fcbee-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="fcbee-123">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="fcbee-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="fcbee-124">Minimum supported server</span></span><br/> | <span data-ttu-id="fcbee-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="fcbee-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="fcbee-126">標頭</span><span class="sxs-lookup"><span data-stu-id="fcbee-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="fcbee-127"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="fcbee-127"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="3c4c0-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3c4c0-122">Minimum supported client</span></span><br/> | <span data-ttu-id="3c4c0-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3c4c0-123">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="3c4c0-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3c4c0-124">Minimum supported server</span></span><br/> | <span data-ttu-id="3c4c0-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3c4c0-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="3c4c0-126">標頭</span><span class="sxs-lookup"><span data-stu-id="3c4c0-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="3c4c0-127"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="3c4c0-127"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="fcbee-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fcbee-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3c4c0-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3c4c0-128">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="fcbee-129">**參考**</span><span class="sxs-lookup"><span data-stu-id="fcbee-129">**Reference**</span></span>
+<span data-ttu-id="3c4c0-129">**參考**</span><span class="sxs-lookup"><span data-stu-id="3c4c0-129">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="fcbee-130">**DRAWITEMSTRUCT**</span><span class="sxs-lookup"><span data-stu-id="fcbee-130">**DRAWITEMSTRUCT**</span></span>](/windows/win32/api/winuser/ns-winuser-drawitemstruct)
+[<span data-ttu-id="3c4c0-130">**DRAWITEMSTRUCT**</span><span class="sxs-lookup"><span data-stu-id="3c4c0-130">**DRAWITEMSTRUCT**</span></span>](/windows/win32/api/winuser/ns-winuser-drawitemstruct)
 </dt> <dt>
 
-<span data-ttu-id="fcbee-131">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="fcbee-131">**Other Resources**</span></span>
+<span data-ttu-id="3c4c0-131">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="3c4c0-131">**Other Resources**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="fcbee-132">**DefWindowProc**</span><span class="sxs-lookup"><span data-stu-id="fcbee-132">**DefWindowProc**</span></span>](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[<span data-ttu-id="3c4c0-132">**DefWindowProc**</span><span class="sxs-lookup"><span data-stu-id="3c4c0-132">**DefWindowProc**</span></span>](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> </dl>
 
  

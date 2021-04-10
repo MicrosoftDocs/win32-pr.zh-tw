@@ -11,20 +11,20 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682472"
 ---
-# <a name="ivmharddisk-properties"></a><span data-ttu-id="67e07-103">IVMHardDisk 屬性</span><span class="sxs-lookup"><span data-stu-id="67e07-103">IVMHardDisk Properties</span></span>
+# <a name="ivmharddisk-properties"></a><span data-ttu-id="c6ff1-103">IVMHardDisk 屬性</span><span class="sxs-lookup"><span data-stu-id="c6ff1-103">IVMHardDisk Properties</span></span>
 
-<span data-ttu-id="67e07-104">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="67e07-104">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="67e07-105">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="67e07-105">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
+<span data-ttu-id="c6ff1-104">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="c6ff1-104">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="c6ff1-105">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="c6ff1-105">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
 
-<span data-ttu-id="67e07-106">[**IVMHardDisk**](ivmharddisk.md)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="67e07-106">The [**IVMHardDisk**](ivmharddisk.md) interface exposes the following properties.</span></span>
+<span data-ttu-id="c6ff1-106">[**IVMHardDisk**](ivmharddisk.md)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="c6ff1-106">The [**IVMHardDisk**](ivmharddisk.md) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="67e07-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="67e07-107">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c6ff1-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="c6ff1-107">In this section</span></span>
 
--   [<span data-ttu-id="67e07-108">**檔案屬性**</span><span class="sxs-lookup"><span data-stu-id="67e07-108">**File Property**</span></span>](ivmharddisk-file.md)
--   [<span data-ttu-id="67e07-109">**HostFreeDiskSpace 屬性**</span><span class="sxs-lookup"><span data-stu-id="67e07-109">**HostFreeDiskSpace Property**</span></span>](ivmharddisk-hostfreediskspace.md)
--   [<span data-ttu-id="67e07-110">**Parent 屬性**</span><span class="sxs-lookup"><span data-stu-id="67e07-110">**Parent Property**</span></span>](ivmharddisk-parent.md)
--   [<span data-ttu-id="67e07-111">**SizeInGuest 屬性**</span><span class="sxs-lookup"><span data-stu-id="67e07-111">**SizeInGuest Property**</span></span>](ivmharddisk-sizeinguest.md)
--   [<span data-ttu-id="67e07-112">**SizeOnHost 屬性**</span><span class="sxs-lookup"><span data-stu-id="67e07-112">**SizeOnHost Property**</span></span>](ivmharddisk-sizeonhost.md)
--   [<span data-ttu-id="67e07-113">**Type 屬性**</span><span class="sxs-lookup"><span data-stu-id="67e07-113">**Type Property**</span></span>](ivmharddisk-type.md)
+-   [<span data-ttu-id="c6ff1-108">**檔案屬性**</span><span class="sxs-lookup"><span data-stu-id="c6ff1-108">**File Property**</span></span>](ivmharddisk-file.md)
+-   [<span data-ttu-id="c6ff1-109">**HostFreeDiskSpace 屬性**</span><span class="sxs-lookup"><span data-stu-id="c6ff1-109">**HostFreeDiskSpace Property**</span></span>](ivmharddisk-hostfreediskspace.md)
+-   [<span data-ttu-id="c6ff1-110">**Parent 屬性**</span><span class="sxs-lookup"><span data-stu-id="c6ff1-110">**Parent Property**</span></span>](ivmharddisk-parent.md)
+-   [<span data-ttu-id="c6ff1-111">**SizeInGuest 屬性**</span><span class="sxs-lookup"><span data-stu-id="c6ff1-111">**SizeInGuest Property**</span></span>](ivmharddisk-sizeinguest.md)
+-   [<span data-ttu-id="c6ff1-112">**SizeOnHost 屬性**</span><span class="sxs-lookup"><span data-stu-id="c6ff1-112">**SizeOnHost Property**</span></span>](ivmharddisk-sizeonhost.md)
+-   [<span data-ttu-id="c6ff1-113">**Type 屬性**</span><span class="sxs-lookup"><span data-stu-id="c6ff1-113">**Type Property**</span></span>](ivmharddisk-type.md)
 
  
 

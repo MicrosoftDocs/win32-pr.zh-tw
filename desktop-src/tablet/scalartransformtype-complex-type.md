@@ -19,22 +19,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851603"
 ---
-# <a name="scalartransformtype-complex-type"></a><span data-ttu-id="86757-103">ScalarTransformType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="86757-103">ScalarTransformType Complex Type</span></span>
+# <a name="scalartransformtype-complex-type"></a><span data-ttu-id="c2c47-103">ScalarTransformType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="c2c47-103">ScalarTransformType Complex Type</span></span>
 
-<span data-ttu-id="86757-104">定義類型，這個類型會保存套用至筆墨之任何轉換的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="86757-104">Defines the type that holds the information about any transformation applied to ink.</span></span>
+<span data-ttu-id="c2c47-104">定義類型，這個類型會保存套用至筆墨之任何轉換的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="c2c47-104">Defines the type that holds the information about any transformation applied to ink.</span></span>
 
 ``` syntax
 <xs:complexType name="ScalarTransformType" />
 ```
 
-## <a name="requirements"></a><span data-ttu-id="86757-105">規格需求</span><span class="sxs-lookup"><span data-stu-id="86757-105">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c2c47-105">規格需求</span><span class="sxs-lookup"><span data-stu-id="c2c47-105">Requirements</span></span>
 
 
 
-| <span data-ttu-id="86757-106">需求</span><span class="sxs-lookup"><span data-stu-id="86757-106">Requirement</span></span> | <span data-ttu-id="86757-107">值</span><span class="sxs-lookup"><span data-stu-id="86757-107">Value</span></span> |
+| <span data-ttu-id="c2c47-106">需求</span><span class="sxs-lookup"><span data-stu-id="c2c47-106">Requirement</span></span> | <span data-ttu-id="c2c47-107">值</span><span class="sxs-lookup"><span data-stu-id="c2c47-107">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------|
-| <span data-ttu-id="86757-108">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="86757-108">Minimum supported client</span></span><br/> | <span data-ttu-id="86757-109">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="86757-109">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/> |
-| <span data-ttu-id="86757-110">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="86757-110">Minimum supported server</span></span><br/> | <span data-ttu-id="86757-111">都不支援</span><span class="sxs-lookup"><span data-stu-id="86757-111">None supported</span></span><br/>                                     |
+| <span data-ttu-id="c2c47-108">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c2c47-108">Minimum supported client</span></span><br/> | <span data-ttu-id="c2c47-109">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c2c47-109">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="c2c47-110">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c2c47-110">Minimum supported server</span></span><br/> | <span data-ttu-id="c2c47-111">都不支援</span><span class="sxs-lookup"><span data-stu-id="c2c47-111">None supported</span></span><br/>                                     |
 
 
 

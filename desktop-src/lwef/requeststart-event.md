@@ -11,29 +11,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103682289"
 ---
-# <a name="requeststart-event"></a><span data-ttu-id="a4e17-103">RequestStart 事件</span><span class="sxs-lookup"><span data-stu-id="a4e17-103">RequestStart Event</span></span>
+# <a name="requeststart-event"></a><span data-ttu-id="76b7b-103">RequestStart 事件</span><span class="sxs-lookup"><span data-stu-id="76b7b-103">RequestStart Event</span></span>
 
-<span data-ttu-id="a4e17-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="a4e17-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+<span data-ttu-id="76b7b-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="76b7b-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a4e17-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**描述**</span><span class="sxs-lookup"><span data-stu-id="a4e17-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**</span></span>
+<span data-ttu-id="76b7b-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**描述**</span><span class="sxs-lookup"><span data-stu-id="76b7b-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4e17-106">當伺服器開始排入佇列的要求時發生。</span><span class="sxs-lookup"><span data-stu-id="a4e17-106">Occurs when the server begins a queued request.</span></span>
+<span data-ttu-id="76b7b-106">當伺服器開始排入佇列的要求時發生。</span><span class="sxs-lookup"><span data-stu-id="76b7b-106">Occurs when the server begins a queued request.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4e17-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**</span><span class="sxs-lookup"><span data-stu-id="a4e17-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**</span></span>
+<span data-ttu-id="76b7b-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**</span><span class="sxs-lookup"><span data-stu-id="76b7b-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4e17-108">**子\*\*\*代理程式 \* \* \_ RequestStart* \*  **(ByVal** *要求 \* \* \* )**</span><span class="sxs-lookup"><span data-stu-id="a4e17-108">**Sub** *agent\*\*\*\_RequestStart*\* **(ByVal** *Request\*\*\*)*\*</span></span>
+<span data-ttu-id="76b7b-108">**子\*\*\*代理程式 \* \* \_ RequestStart* \*  **(ByVal** *要求 \* \* \* )**</span><span class="sxs-lookup"><span data-stu-id="76b7b-108">**Sub** *agent\*\*\*\_RequestStart*\* **(ByVal** *Request\*\*\*)*\*</span></span>
 
 
 
-| <span data-ttu-id="a4e17-109">部分</span><span class="sxs-lookup"><span data-stu-id="a4e17-109">Part</span></span>      | <span data-ttu-id="a4e17-110">描述</span><span class="sxs-lookup"><span data-stu-id="a4e17-110">Description</span></span>                                            |
+| <span data-ttu-id="76b7b-109">部分</span><span class="sxs-lookup"><span data-stu-id="76b7b-109">Part</span></span>      | <span data-ttu-id="76b7b-110">描述</span><span class="sxs-lookup"><span data-stu-id="76b7b-110">Description</span></span>                                            |
 |-----------|--------------------------------------------------------|
-| <span data-ttu-id="a4e17-111">*要求*</span><span class="sxs-lookup"><span data-stu-id="a4e17-111">*Request*</span></span> | <span data-ttu-id="a4e17-112">傳回 [**Request**](/windows/desktop/lwef/the-request-object) 物件。</span><span class="sxs-lookup"><span data-stu-id="a4e17-112">Returns the [**Request**](/windows/desktop/lwef/the-request-object) object.</span></span> |
+| <span data-ttu-id="76b7b-111">*要求*</span><span class="sxs-lookup"><span data-stu-id="76b7b-111">*Request*</span></span> | <span data-ttu-id="76b7b-112">傳回 [**Request**](/windows/desktop/lwef/the-request-object) 物件。</span><span class="sxs-lookup"><span data-stu-id="76b7b-112">Returns the [**Request**](/windows/desktop/lwef/the-request-object) object.</span></span> |
 
 
 
@@ -41,9 +41,9 @@ ms.locfileid: "103682289"
 
 </dd> </dl>
 
-### <a name="remarks"></a><span data-ttu-id="a4e17-113">備註</span><span class="sxs-lookup"><span data-stu-id="a4e17-113">Remarks</span></span>
+### <a name="remarks"></a><span data-ttu-id="76b7b-113">備註</span><span class="sxs-lookup"><span data-stu-id="76b7b-113">Remarks</span></span>
 
-<span data-ttu-id="a4e17-114">此事件會傳回 [**Request**](/windows/desktop/lwef/the-request-object) 物件。</span><span class="sxs-lookup"><span data-stu-id="a4e17-114">The event returns a [**Request**](/windows/desktop/lwef/the-request-object) object.</span></span> <span data-ttu-id="a4e17-115">由於要求是以非同步方式進行處理，因此您可以使用此事件來判斷伺服器開始處理要求 (例如 [**Get**](get-method.md)、 [**Play**](play-method.md)或 [**對話**](speak-method.md) 方法) ，進而與您應用程式所產生的其他動作同步處理。</span><span class="sxs-lookup"><span data-stu-id="a4e17-115">Because requests are processed asynchronously, you can use this event to determine when the server begins processing a request (such as a [**Get**](get-method.md), [**Play**](play-method.md), or [**Speak**](speak-method.md) method) and thereby synchronize this with other actions generated by your application.</span></span> <span data-ttu-id="a4e17-116">只有在您針對要求參考定義了全域變數時，才會將事件傳送給建立 **要求** 物件參考的用戶端：</span><span class="sxs-lookup"><span data-stu-id="a4e17-116">The event is sent only to the client that created the reference to the **Request** object and only if you defined a global variable for the request reference:</span></span>
+<span data-ttu-id="76b7b-114">此事件會傳回 [**Request**](/windows/desktop/lwef/the-request-object) 物件。</span><span class="sxs-lookup"><span data-stu-id="76b7b-114">The event returns a [**Request**](/windows/desktop/lwef/the-request-object) object.</span></span> <span data-ttu-id="76b7b-115">由於要求是以非同步方式進行處理，因此您可以使用此事件來判斷伺服器開始處理要求 (例如 [**Get**](get-method.md)、 [**Play**](play-method.md)或 [**對話**](speak-method.md) 方法) ，進而與您應用程式所產生的其他動作同步處理。</span><span class="sxs-lookup"><span data-stu-id="76b7b-115">Because requests are processed asynchronously, you can use this event to determine when the server begins processing a request (such as a [**Get**](get-method.md), [**Play**](play-method.md), or [**Speak**](speak-method.md) method) and thereby synchronize this with other actions generated by your application.</span></span> <span data-ttu-id="76b7b-116">只有在您針對要求參考定義了全域變數時，才會將事件傳送給建立 **要求** 物件參考的用戶端：</span><span class="sxs-lookup"><span data-stu-id="76b7b-116">The event is sent only to the client that created the reference to the **Request** object and only if you defined a global variable for the request reference:</span></span>
 
 
 ```
@@ -75,9 +75,9 @@ ms.locfileid: "103682289"
 
 
 
-<span data-ttu-id="a4e17-117">[**狀態**](status-property.md)會針對傳回的 [**要求**](/windows/desktop/lwef/the-request-object)物件，傳回 4 (要求進行中) 。</span><span class="sxs-lookup"><span data-stu-id="a4e17-117">The [**Status**](status-property.md) returns 4 (request in progress) for the [**Request**](/windows/desktop/lwef/the-request-object) object returned.</span></span>
+<span data-ttu-id="76b7b-117">[**狀態**](status-property.md)會針對傳回的 [**要求**](/windows/desktop/lwef/the-request-object)物件，傳回 4 (要求進行中) 。</span><span class="sxs-lookup"><span data-stu-id="76b7b-117">The [**Status**](status-property.md) returns 4 (request in progress) for the [**Request**](/windows/desktop/lwef/the-request-object) object returned.</span></span>
 
-<span data-ttu-id="a4e17-118">因為在伺服器處理要求之前，不會指派動畫 [**要求**](/windows/desktop/lwef/the-request-object) 物件，請先確定 **要求** 物件存在，然後再嘗試進行評估。</span><span class="sxs-lookup"><span data-stu-id="a4e17-118">Because animation [**Request**](/windows/desktop/lwef/the-request-object) objects don't get assigned until the server processes the request, make sure that the **Request** object exists before you attempt to evaluate it.</span></span> <span data-ttu-id="a4e17-119">例如，在 Visual Basic 中，如果您使用條件來測試特定要求是否已完成，您可以使用 **Nothing** 關鍵字：</span><span class="sxs-lookup"><span data-stu-id="a4e17-119">For example, in Visual Basic, if you use a conditional to test whether a specific request was completed, you can use the **Nothing** keyword:</span></span>
+<span data-ttu-id="76b7b-118">因為在伺服器處理要求之前，不會指派動畫 [**要求**](/windows/desktop/lwef/the-request-object) 物件，請先確定 **要求** 物件存在，然後再嘗試進行評估。</span><span class="sxs-lookup"><span data-stu-id="76b7b-118">Because animation [**Request**](/windows/desktop/lwef/the-request-object) objects don't get assigned until the server processes the request, make sure that the **Request** object exists before you attempt to evaluate it.</span></span> <span data-ttu-id="76b7b-119">例如，在 Visual Basic 中，如果您使用條件來測試特定要求是否已完成，您可以使用 **Nothing** 關鍵字：</span><span class="sxs-lookup"><span data-stu-id="76b7b-119">For example, in Visual Basic, if you use a conditional to test whether a specific request was completed, you can use the **Nothing** keyword:</span></span>
 
 
 ```
@@ -95,13 +95,13 @@ ms.locfileid: "103682289"
 
 
 > [!Note]  
-> <span data-ttu-id="a4e17-120">在 VBScript 1.0 中，即使您未定義 [**要求**](/windows/desktop/lwef/the-request-object) 物件的參考，也會引發此事件。</span><span class="sxs-lookup"><span data-stu-id="a4e17-120">In VBScript 1.0, this event fires even if you don't define references to a [**Request**](/windows/desktop/lwef/the-request-object) object.</span></span> <span data-ttu-id="a4e17-121">這項功能已在可從下載的 VBScript 2.0 中修正 <https://microsoft.com/msdownload/vbscript/scripting.asp> 。</span><span class="sxs-lookup"><span data-stu-id="a4e17-121">This has been fixed in VBScript 2.0, which can be downloaded from <https://microsoft.com/msdownload/vbscript/scripting.asp>.</span></span>
+> <span data-ttu-id="76b7b-120">在 VBScript 1.0 中，即使您未定義 [**要求**](/windows/desktop/lwef/the-request-object) 物件的參考，也會引發此事件。</span><span class="sxs-lookup"><span data-stu-id="76b7b-120">In VBScript 1.0, this event fires even if you don't define references to a [**Request**](/windows/desktop/lwef/the-request-object) object.</span></span> <span data-ttu-id="76b7b-121">這項功能已在可從下載的 VBScript 2.0 中修正 <https://microsoft.com/msdownload/vbscript/scripting.asp> 。</span><span class="sxs-lookup"><span data-stu-id="76b7b-121">This has been fixed in VBScript 2.0, which can be downloaded from <https://microsoft.com/msdownload/vbscript/scripting.asp>.</span></span>
 
  
 
-### <a name="see-also"></a><span data-ttu-id="a4e17-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a4e17-122">See Also</span></span>
+### <a name="see-also"></a><span data-ttu-id="76b7b-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="76b7b-122">See Also</span></span>
 
-[<span data-ttu-id="a4e17-123">**RequestComplete 事件**</span><span class="sxs-lookup"><span data-stu-id="a4e17-123">**RequestComplete event**</span></span>](requestcomplete-event.md)
+[<span data-ttu-id="76b7b-123">**RequestComplete 事件**</span><span class="sxs-lookup"><span data-stu-id="76b7b-123">**RequestComplete event**</span></span>](requestcomplete-event.md)
 
 
  

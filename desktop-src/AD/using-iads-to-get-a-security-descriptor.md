@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "103681629"
 ---
-# <a name="using-iads-to-get-a-security-descriptor"></a><span data-ttu-id="1437f-104">使用 IADs 取得安全描述項</span><span class="sxs-lookup"><span data-stu-id="1437f-104">Using IADs to Get a Security Descriptor</span></span>
+# <a name="using-iads-to-get-a-security-descriptor"></a><span data-ttu-id="3d154-104">使用 IADs 取得安全描述項</span><span class="sxs-lookup"><span data-stu-id="3d154-104">Using IADs to Get a Security Descriptor</span></span>
 
-<span data-ttu-id="1437f-105">下列程式碼範例使用 [**IADs：： Get**](/windows/desktop/api/iads/nf-iads-iads-get)方法，在 Active Directory Domain Services 中取得物件之 **NTSecurityDescriptor** 屬性的 [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor)指標。</span><span class="sxs-lookup"><span data-stu-id="1437f-105">The following code examples use the [**IADs::Get**](/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve an [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) pointer to the **nTSecurityDescriptor** property of an object in Active Directory Domain Services.</span></span>
+<span data-ttu-id="3d154-105">下列程式碼範例使用 [**IADs：： Get**](/windows/desktop/api/iads/nf-iads-iads-get)方法，在 Active Directory Domain Services 中取得物件之 **NTSecurityDescriptor** 屬性的 [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor)指標。</span><span class="sxs-lookup"><span data-stu-id="3d154-105">The following code examples use the [**IADs::Get**](/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve an [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) pointer to the **nTSecurityDescriptor** property of an object in Active Directory Domain Services.</span></span>
 
 
 ```VB
