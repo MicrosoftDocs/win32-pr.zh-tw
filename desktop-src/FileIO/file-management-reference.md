@@ -11,21 +11,21 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848673"
 ---
-# <a name="file-management-reference"></a><span data-ttu-id="7f0e4-103">檔案管理參考</span><span class="sxs-lookup"><span data-stu-id="7f0e4-103">File Management Reference</span></span>
+# <a name="file-management-reference"></a><span data-ttu-id="27f78-103">檔案管理參考</span><span class="sxs-lookup"><span data-stu-id="27f78-103">File Management Reference</span></span>
 
-<span data-ttu-id="7f0e4-104">檔案管理中會使用下列元素。</span><span class="sxs-lookup"><span data-stu-id="7f0e4-104">The following elements are used in file management.</span></span>
+<span data-ttu-id="27f78-104">檔案管理中會使用下列元素。</span><span class="sxs-lookup"><span data-stu-id="27f78-104">The following elements are used in file management.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="7f0e4-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="7f0e4-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="27f78-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="27f78-105">In this section</span></span>
 
 
 
-| <span data-ttu-id="7f0e4-106">主題</span><span class="sxs-lookup"><span data-stu-id="7f0e4-106">Topic</span></span>                                                                         | <span data-ttu-id="7f0e4-107">描述</span><span class="sxs-lookup"><span data-stu-id="7f0e4-107">Description</span></span>                                       |
+| <span data-ttu-id="27f78-106">主題</span><span class="sxs-lookup"><span data-stu-id="27f78-106">Topic</span></span>                                                                         | <span data-ttu-id="27f78-107">描述</span><span class="sxs-lookup"><span data-stu-id="27f78-107">Description</span></span>                                       |
 |-------------------------------------------------------------------------------|---------------------------------------------------|
-| [<span data-ttu-id="7f0e4-108">檔案管理常數</span><span class="sxs-lookup"><span data-stu-id="7f0e4-108">File Management Constants</span></span>](file-management-constants.md)<br/>         | <span data-ttu-id="7f0e4-109">檔案管理中使用的常數。</span><span class="sxs-lookup"><span data-stu-id="7f0e4-109">Constants used in file management.</span></span><br/>     |
-| [<span data-ttu-id="7f0e4-110">檔案管理控制碼</span><span class="sxs-lookup"><span data-stu-id="7f0e4-110">File Management Control Codes</span></span>](file-management-control-codes.md)<br/> | <span data-ttu-id="7f0e4-111">控制檔案管理中使用的代碼。</span><span class="sxs-lookup"><span data-stu-id="7f0e4-111">Control codes used in file management.</span></span><br/> |
-| [<span data-ttu-id="7f0e4-112">檔案管理列舉</span><span class="sxs-lookup"><span data-stu-id="7f0e4-112">File Management Enumerations</span></span>](file-management-enumerations.md)<br/>   | <span data-ttu-id="7f0e4-113">檔案管理中使用的列舉。</span><span class="sxs-lookup"><span data-stu-id="7f0e4-113">Enumerations used in file management.</span></span><br/>  |
-| [<span data-ttu-id="7f0e4-114">檔案管理功能</span><span class="sxs-lookup"><span data-stu-id="7f0e4-114">File Management Functions</span></span>](file-management-functions.md)<br/>         | <span data-ttu-id="7f0e4-115">用來管理檔案的函式。</span><span class="sxs-lookup"><span data-stu-id="7f0e4-115">Functions used to manage files.</span></span><br/>        |
-| [<span data-ttu-id="7f0e4-116">檔案管理結構</span><span class="sxs-lookup"><span data-stu-id="7f0e4-116">File Management Structures</span></span>](file-management-structures.md)<br/>       | <span data-ttu-id="7f0e4-117">檔案管理中使用的結構。</span><span class="sxs-lookup"><span data-stu-id="7f0e4-117">Structures used in file management.</span></span><br/>    |
+| [<span data-ttu-id="27f78-108">檔案管理常數</span><span class="sxs-lookup"><span data-stu-id="27f78-108">File Management Constants</span></span>](file-management-constants.md)<br/>         | <span data-ttu-id="27f78-109">檔案管理中使用的常數。</span><span class="sxs-lookup"><span data-stu-id="27f78-109">Constants used in file management.</span></span><br/>     |
+| [<span data-ttu-id="27f78-110">檔案管理控制碼</span><span class="sxs-lookup"><span data-stu-id="27f78-110">File Management Control Codes</span></span>](file-management-control-codes.md)<br/> | <span data-ttu-id="27f78-111">控制檔案管理中使用的代碼。</span><span class="sxs-lookup"><span data-stu-id="27f78-111">Control codes used in file management.</span></span><br/> |
+| [<span data-ttu-id="27f78-112">檔案管理列舉</span><span class="sxs-lookup"><span data-stu-id="27f78-112">File Management Enumerations</span></span>](file-management-enumerations.md)<br/>   | <span data-ttu-id="27f78-113">檔案管理中使用的列舉。</span><span class="sxs-lookup"><span data-stu-id="27f78-113">Enumerations used in file management.</span></span><br/>  |
+| [<span data-ttu-id="27f78-114">檔案管理功能</span><span class="sxs-lookup"><span data-stu-id="27f78-114">File Management Functions</span></span>](file-management-functions.md)<br/>         | <span data-ttu-id="27f78-115">用來管理檔案的函式。</span><span class="sxs-lookup"><span data-stu-id="27f78-115">Functions used to manage files.</span></span><br/>        |
+| [<span data-ttu-id="27f78-116">檔案管理結構</span><span class="sxs-lookup"><span data-stu-id="27f78-116">File Management Structures</span></span>](file-management-structures.md)<br/>       | <span data-ttu-id="27f78-117">檔案管理中使用的結構。</span><span class="sxs-lookup"><span data-stu-id="27f78-117">Structures used in file management.</span></span><br/>    |
 
 
 

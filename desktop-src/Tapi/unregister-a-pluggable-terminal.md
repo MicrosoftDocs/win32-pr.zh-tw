@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849223"
 ---
-# <a name="unregister-a-pluggable-terminal"></a><span data-ttu-id="ce6bf-104">取消註冊可插入的終端機</span><span class="sxs-lookup"><span data-stu-id="ce6bf-104">Unregister a Pluggable Terminal</span></span>
+# <a name="unregister-a-pluggable-terminal"></a><span data-ttu-id="8296f-104">取消註冊可插入的終端機</span><span class="sxs-lookup"><span data-stu-id="8296f-104">Unregister a Pluggable Terminal</span></span>
 
-<span data-ttu-id="ce6bf-105">一般來說，這個方法會從 **DllUnregisterServer** 呼叫。</span><span class="sxs-lookup"><span data-stu-id="ce6bf-105">In general, this method will be called from **DllUnregisterServer**.</span></span> <span data-ttu-id="ce6bf-106">下列範例程式碼可以放入 **DllUnregisterServer** 的程式碼中。</span><span class="sxs-lookup"><span data-stu-id="ce6bf-106">The following sample code can be put into the code for **DllUnregisterServer**.</span></span>
+<span data-ttu-id="8296f-105">一般來說，這個方法會從 **DllUnregisterServer** 呼叫。</span><span class="sxs-lookup"><span data-stu-id="8296f-105">In general, this method will be called from **DllUnregisterServer**.</span></span> <span data-ttu-id="8296f-106">下列範例程式碼可以放入 **DllUnregisterServer** 的程式碼中。</span><span class="sxs-lookup"><span data-stu-id="8296f-106">The following sample code can be put into the code for **DllUnregisterServer**.</span></span>
 
 ``` syntax
 ITPluggableTerminalClassRegistration* pTerminal;

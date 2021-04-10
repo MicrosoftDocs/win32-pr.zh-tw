@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026252"
 ---
-# <a name="icontextnodesetpartiallypopulated-method"></a><span data-ttu-id="ba5a7-103">ICoNtextNode：： SetPartiallyPopulated 方法</span><span class="sxs-lookup"><span data-stu-id="ba5a7-103">IContextNode::SetPartiallyPopulated method</span></span>
+# <a name="icontextnodesetpartiallypopulated-method"></a><span data-ttu-id="33554-103">ICoNtextNode：： SetPartiallyPopulated 方法</span><span class="sxs-lookup"><span data-stu-id="33554-103">IContextNode::SetPartiallyPopulated method</span></span>
 
-<span data-ttu-id="ba5a7-104">修改指出此 [**ICoNtextNode**](icontextnode.md) 為部分或完整擴展的值。</span><span class="sxs-lookup"><span data-stu-id="ba5a7-104">Modifies the value that indicates whether this [**IContextNode**](icontextnode.md) is partially or fully populated.</span></span>
+<span data-ttu-id="33554-104">修改指出此 [**ICoNtextNode**](icontextnode.md) 為部分或完整擴展的值。</span><span class="sxs-lookup"><span data-stu-id="33554-104">Modifies the value that indicates whether this [**IContextNode**](icontextnode.md) is partially or fully populated.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ba5a7-105">語法</span><span class="sxs-lookup"><span data-stu-id="ba5a7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="33554-105">語法</span><span class="sxs-lookup"><span data-stu-id="33554-105">Syntax</span></span>
 
 
 ```C++
@@ -35,57 +35,57 @@ HRESULT SetPartiallyPopulated(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="ba5a7-106">參數</span><span class="sxs-lookup"><span data-stu-id="ba5a7-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="33554-106">參數</span><span class="sxs-lookup"><span data-stu-id="33554-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="ba5a7-107">*fPartiallyPopulated* \[在\]</span><span class="sxs-lookup"><span data-stu-id="ba5a7-107">*fPartiallyPopulated* \[in\]</span></span>
+<span data-ttu-id="33554-107">*fPartiallyPopulated* \[在\]</span><span class="sxs-lookup"><span data-stu-id="33554-107">*fPartiallyPopulated* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="ba5a7-108">**變異 \_** 如果已部分填入此 [**ICoNtextNode**](icontextnode.md) ，則為 TRUE;否則， **VARIANT \_ FALSE**。</span><span class="sxs-lookup"><span data-stu-id="ba5a7-108">**VARIANT\_TRUE** if this [**IContextNode**](icontextnode.md) is partially populated; otherwise, **VARIANT\_FALSE**.</span></span>
+<span data-ttu-id="33554-108">**變異 \_** 如果已部分填入此 [**ICoNtextNode**](icontextnode.md) ，則為 TRUE;否則， **VARIANT \_ FALSE**。</span><span class="sxs-lookup"><span data-stu-id="33554-108">**VARIANT\_TRUE** if this [**IContextNode**](icontextnode.md) is partially populated; otherwise, **VARIANT\_FALSE**.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="ba5a7-109">傳回值</span><span class="sxs-lookup"><span data-stu-id="ba5a7-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="33554-109">傳回值</span><span class="sxs-lookup"><span data-stu-id="33554-109">Return value</span></span>
 
-<span data-ttu-id="ba5a7-110">如需傳回值的描述，請參閱 [類別和介面-筆跡分析](classes-and-interfaces---ink-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="ba5a7-110">For a description of the return values, see [Classes and Interfaces - Ink Analysis](classes-and-interfaces---ink-analysis.md).</span></span>
+<span data-ttu-id="33554-110">如需傳回值的描述，請參閱 [類別和介面-筆跡分析](classes-and-interfaces---ink-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="33554-110">For a description of the return values, see [Classes and Interfaces - Ink Analysis](classes-and-interfaces---ink-analysis.md).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ba5a7-111">備註</span><span class="sxs-lookup"><span data-stu-id="ba5a7-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="33554-111">備註</span><span class="sxs-lookup"><span data-stu-id="33554-111">Remarks</span></span>
 
-<span data-ttu-id="ba5a7-112">當您的應用程式維護自己的資料結構（與 [**IInkAnalyzer**](iinkanalyzer.md)同步處理）時，請使用這個方法。</span><span class="sxs-lookup"><span data-stu-id="ba5a7-112">Use this method when your application maintains its own data structure, which is synchronized with that of the [**IInkAnalyzer**](iinkanalyzer.md).</span></span> <span data-ttu-id="ba5a7-113">如需詳細資訊，請參閱 [使用筆墨分析的資料 Proxy](data-proxy-with-ink-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="ba5a7-113">For more information, see [Data Proxy with Ink Analysis](data-proxy-with-ink-analysis.md).</span></span>
+<span data-ttu-id="33554-112">當您的應用程式維護自己的資料結構（與 [**IInkAnalyzer**](iinkanalyzer.md)同步處理）時，請使用這個方法。</span><span class="sxs-lookup"><span data-stu-id="33554-112">Use this method when your application maintains its own data structure, which is synchronized with that of the [**IInkAnalyzer**](iinkanalyzer.md).</span></span> <span data-ttu-id="33554-113">如需詳細資訊，請參閱 [使用筆墨分析的資料 Proxy](data-proxy-with-ink-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="33554-113">For more information, see [Data Proxy with Ink Analysis](data-proxy-with-ink-analysis.md).</span></span>
 
-<span data-ttu-id="ba5a7-114">虛擬化您的檔樹狀結構時，請務必設定 PropertyGuidsForCoNtextNodes RotatedBoundingBox 值， (在所有 CoNtextNode 物件上使用 CoNtextNode. AddPropertyValue) 。</span><span class="sxs-lookup"><span data-stu-id="ba5a7-114">When virtualizing your document tree, be sure to set the PropertyGuidsForContextNodes.RotatedBoundingBox value (using ContextNode.AddPropertyValue) on all ContextNode objects.</span></span> <span data-ttu-id="ba5a7-115">RotatedBoundingBox 屬性是由 InkAnalyzer 計算，而且根據預設，應該在所有寫入 CoNtextNodes 上。</span><span class="sxs-lookup"><span data-stu-id="ba5a7-115">The RotatedBoundingBox property is calculated by the InkAnalyzer and by default should be on all writing ContextNodes.</span></span> <span data-ttu-id="ba5a7-116">但是，如果您的應用程式會藉由設定 PartiallyPopulated 屬性來虛擬化分析結果，則在處理 PopulateCoNtextNode 事件時，請務必填入 RotatedBoundingBox 屬性。</span><span class="sxs-lookup"><span data-stu-id="ba5a7-116">However, if your application virtualizes the analysis results by setting the PartiallyPopulated property, when handling the PopulateContextNode event be sure to populate the RotatedBoundingBox property.</span></span> <span data-ttu-id="ba5a7-117">若無法設定 RotatedBoundingBox 屬性，將會導致目前的分析作業中使用的檔資料可能更多</span><span class="sxs-lookup"><span data-stu-id="ba5a7-117">Failure to set the RotatedBoundingBox property will result in potentially more document data being used in the current analysis operation</span></span>
+<span data-ttu-id="33554-114">虛擬化您的檔樹狀結構時，請務必設定 PropertyGuidsForCoNtextNodes RotatedBoundingBox 值， (在所有 CoNtextNode 物件上使用 CoNtextNode. AddPropertyValue) 。</span><span class="sxs-lookup"><span data-stu-id="33554-114">When virtualizing your document tree, be sure to set the PropertyGuidsForContextNodes.RotatedBoundingBox value (using ContextNode.AddPropertyValue) on all ContextNode objects.</span></span> <span data-ttu-id="33554-115">RotatedBoundingBox 屬性是由 InkAnalyzer 計算，而且根據預設，應該在所有寫入 CoNtextNodes 上。</span><span class="sxs-lookup"><span data-stu-id="33554-115">The RotatedBoundingBox property is calculated by the InkAnalyzer and by default should be on all writing ContextNodes.</span></span> <span data-ttu-id="33554-116">但是，如果您的應用程式會藉由設定 PartiallyPopulated 屬性來虛擬化分析結果，則在處理 PopulateCoNtextNode 事件時，請務必填入 RotatedBoundingBox 屬性。</span><span class="sxs-lookup"><span data-stu-id="33554-116">However, if your application virtualizes the analysis results by setting the PartiallyPopulated property, when handling the PopulateContextNode event be sure to populate the RotatedBoundingBox property.</span></span> <span data-ttu-id="33554-117">若無法設定 RotatedBoundingBox 屬性，將會導致目前的分析作業中使用的檔資料可能更多</span><span class="sxs-lookup"><span data-stu-id="33554-117">Failure to set the RotatedBoundingBox property will result in potentially more document data being used in the current analysis operation</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="ba5a7-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="ba5a7-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="33554-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="33554-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="ba5a7-119">需求</span><span class="sxs-lookup"><span data-stu-id="ba5a7-119">Requirement</span></span> | <span data-ttu-id="ba5a7-120">值</span><span class="sxs-lookup"><span data-stu-id="ba5a7-120">Value</span></span> |
+| <span data-ttu-id="33554-119">需求</span><span class="sxs-lookup"><span data-stu-id="33554-119">Requirement</span></span> | <span data-ttu-id="33554-120">值</span><span class="sxs-lookup"><span data-stu-id="33554-120">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="ba5a7-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ba5a7-121">Minimum supported client</span></span><br/> | <span data-ttu-id="ba5a7-122">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ba5a7-122">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                 |
-| <span data-ttu-id="ba5a7-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ba5a7-123">Minimum supported server</span></span><br/> | <span data-ttu-id="ba5a7-124">都不支援</span><span class="sxs-lookup"><span data-stu-id="ba5a7-124">None supported</span></span><br/>                                                                                     |
-| <span data-ttu-id="ba5a7-125">標頭</span><span class="sxs-lookup"><span data-stu-id="ba5a7-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="ba5a7-126"><dt>IACom (也需要 IACom \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="ba5a7-126"><dt>IACom.h (also requires IACom\_i.c)</dt></span></span> </dl> |
-| <span data-ttu-id="ba5a7-127">DLL</span><span class="sxs-lookup"><span data-stu-id="ba5a7-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ba5a7-128"><dt>IACom.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ba5a7-128"><dt>IACom.dll</dt></span></span> </dl>                          |
+| <span data-ttu-id="33554-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="33554-121">Minimum supported client</span></span><br/> | <span data-ttu-id="33554-122">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="33554-122">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                 |
+| <span data-ttu-id="33554-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="33554-123">Minimum supported server</span></span><br/> | <span data-ttu-id="33554-124">都不支援</span><span class="sxs-lookup"><span data-stu-id="33554-124">None supported</span></span><br/>                                                                                     |
+| <span data-ttu-id="33554-125">標頭</span><span class="sxs-lookup"><span data-stu-id="33554-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="33554-126"><dt>IACom (也需要 IACom \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="33554-126"><dt>IACom.h (also requires IACom\_i.c)</dt></span></span> </dl> |
+| <span data-ttu-id="33554-127">DLL</span><span class="sxs-lookup"><span data-stu-id="33554-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="33554-128"><dt>IACom.dll</dt></span><span class="sxs-lookup"><span data-stu-id="33554-128"><dt>IACom.dll</dt></span></span> </dl>                          |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="ba5a7-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ba5a7-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="33554-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="33554-129">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ba5a7-130">**ICoNtextNode**</span><span class="sxs-lookup"><span data-stu-id="ba5a7-130">**IContextNode**</span></span>](icontextnode.md)
+[<span data-ttu-id="33554-130">**ICoNtextNode**</span><span class="sxs-lookup"><span data-stu-id="33554-130">**IContextNode**</span></span>](icontextnode.md)
 </dt> <dt>
 
-[<span data-ttu-id="ba5a7-131">**\_IAnalysisProxyEvents：:P opulateCoNtextNode**</span><span class="sxs-lookup"><span data-stu-id="ba5a7-131">**\_IAnalysisProxyEvents::PopulateContextNode**</span></span>](-ianalysisproxyevents-populatecontextnode.md)
+[<span data-ttu-id="33554-131">**\_IAnalysisProxyEvents：:P opulateCoNtextNode**</span><span class="sxs-lookup"><span data-stu-id="33554-131">**\_IAnalysisProxyEvents::PopulateContextNode**</span></span>](-ianalysisproxyevents-populatecontextnode.md)
 </dt> <dt>
 
-[<span data-ttu-id="ba5a7-132">**ICoNtextNode::CreatePartiallyPopulatedSubNode**</span><span class="sxs-lookup"><span data-stu-id="ba5a7-132">**IContextNode::CreatePartiallyPopulatedSubNode**</span></span>](icontextnode-createpartiallypopulatedsubnode.md)
+[<span data-ttu-id="33554-132">**ICoNtextNode::CreatePartiallyPopulatedSubNode**</span><span class="sxs-lookup"><span data-stu-id="33554-132">**IContextNode::CreatePartiallyPopulatedSubNode**</span></span>](icontextnode-createpartiallypopulatedsubnode.md)
 </dt> <dt>
 
-[<span data-ttu-id="ba5a7-133">**ICoNtextNode::GetPartiallyPopulated**</span><span class="sxs-lookup"><span data-stu-id="ba5a7-133">**IContextNode::GetPartiallyPopulated**</span></span>](icontextnode-getpartiallypopulated.md)
+[<span data-ttu-id="33554-133">**ICoNtextNode::GetPartiallyPopulated**</span><span class="sxs-lookup"><span data-stu-id="33554-133">**IContextNode::GetPartiallyPopulated**</span></span>](icontextnode-getpartiallypopulated.md)
 </dt> <dt>
 
-[<span data-ttu-id="ba5a7-134">筆跡分析參考</span><span class="sxs-lookup"><span data-stu-id="ba5a7-134">Ink Analysis Reference</span></span>](ink-analysis-reference.md)
+[<span data-ttu-id="33554-134">筆跡分析參考</span><span class="sxs-lookup"><span data-stu-id="33554-134">Ink Analysis Reference</span></span>](ink-analysis-reference.md)
 </dt> </dl>
 
  

@@ -31,24 +31,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026135"
 ---
-# <a name="esentrequiredlogfilesmissingexception-class"></a><span data-ttu-id="e0c42-103">EsentRequiredLogFilesMissingException 類別</span><span class="sxs-lookup"><span data-stu-id="e0c42-103">EsentRequiredLogFilesMissingException class</span></span>
+# <a name="esentrequiredlogfilesmissingexception-class"></a><span data-ttu-id="6ff74-103">EsentRequiredLogFilesMissingException 類別</span><span class="sxs-lookup"><span data-stu-id="6ff74-103">EsentRequiredLogFilesMissingException class</span></span>
 
-<span data-ttu-id="e0c42-104">JET_err 的基類。RequiredLogFilesMissing 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="e0c42-104">Base class for JET_err.RequiredLogFilesMissing exceptions.</span></span>
+<span data-ttu-id="6ff74-104">JET_err 的基類。RequiredLogFilesMissing 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="6ff74-104">Base class for JET_err.RequiredLogFilesMissing exceptions.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="e0c42-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="e0c42-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="6ff74-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="6ff74-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="e0c42-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="e0c42-106">System.Object</span></span>](/dotnet/api/system.object)  
-  [<span data-ttu-id="e0c42-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="e0c42-107">System.Exception</span></span>](/dotnet/api/system.exception)  
-    [<span data-ttu-id="e0c42-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="e0c42-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
-      [<span data-ttu-id="e0c42-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="e0c42-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
-        [<span data-ttu-id="e0c42-110">EsentDataException （.）</span><span class="sxs-lookup"><span data-stu-id="e0c42-110">Microsoft.Isam.Esent.Interop.EsentDataException</span></span>](./esentdataexception-class.md)  
-          [<span data-ttu-id="e0c42-111">EsentInconsistentException （.）</span><span class="sxs-lookup"><span data-stu-id="e0c42-111">Microsoft.Isam.Esent.Interop.EsentInconsistentException</span></span>](./esentinconsistentexception-class.md)  
-            <span data-ttu-id="e0c42-112">EsentRequiredLogFilesMissingException （.）</span><span class="sxs-lookup"><span data-stu-id="e0c42-112">Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException</span></span>  
+[<span data-ttu-id="6ff74-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="6ff74-106">System.Object</span></span>](/dotnet/api/system.object)  
+  [<span data-ttu-id="6ff74-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="6ff74-107">System.Exception</span></span>](/dotnet/api/system.exception)  
+    [<span data-ttu-id="6ff74-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="6ff74-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
+      [<span data-ttu-id="6ff74-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="6ff74-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
+        [<span data-ttu-id="6ff74-110">EsentDataException （.）</span><span class="sxs-lookup"><span data-stu-id="6ff74-110">Microsoft.Isam.Esent.Interop.EsentDataException</span></span>](./esentdataexception-class.md)  
+          [<span data-ttu-id="6ff74-111">EsentInconsistentException （.）</span><span class="sxs-lookup"><span data-stu-id="6ff74-111">Microsoft.Isam.Esent.Interop.EsentInconsistentException</span></span>](./esentinconsistentexception-class.md)  
+            <span data-ttu-id="6ff74-112">EsentRequiredLogFilesMissingException （.）</span><span class="sxs-lookup"><span data-stu-id="6ff74-112">Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException</span></span>  
 
-<span data-ttu-id="e0c42-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e0c42-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="e0c42-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e0c42-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="6ff74-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6ff74-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="6ff74-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6ff74-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e0c42-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="e0c42-115">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6ff74-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="6ff74-115">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -64,14 +64,14 @@ Dim instance As EsentRequiredLogFilesMissingException
 public sealed class EsentRequiredLogFilesMissingException : EsentInconsistentException
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="e0c42-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="e0c42-116">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="6ff74-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="6ff74-116">Thread safety</span></span>
 
-<span data-ttu-id="e0c42-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="e0c42-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="e0c42-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="e0c42-118">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="6ff74-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="6ff74-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="6ff74-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="6ff74-118">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e0c42-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e0c42-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6ff74-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6ff74-119">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="e0c42-120">參考</span><span class="sxs-lookup"><span data-stu-id="e0c42-120">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="6ff74-120">參考</span><span class="sxs-lookup"><span data-stu-id="6ff74-120">Reference</span></span>
 
-[<span data-ttu-id="e0c42-121">EsentRequiredLogFilesMissingException 成員</span><span class="sxs-lookup"><span data-stu-id="e0c42-121">EsentRequiredLogFilesMissingException members</span></span>](./esentrequiredlogfilesmissingexception-members.md)
+[<span data-ttu-id="6ff74-121">EsentRequiredLogFilesMissingException 成員</span><span class="sxs-lookup"><span data-stu-id="6ff74-121">EsentRequiredLogFilesMissingException members</span></span>](./esentrequiredlogfilesmissingexception-members.md)
 
-[<span data-ttu-id="e0c42-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="e0c42-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="6ff74-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="6ff74-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

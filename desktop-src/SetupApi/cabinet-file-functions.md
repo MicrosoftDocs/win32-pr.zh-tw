@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847919"
 ---
-# <a name="cabinet-file-functions"></a><span data-ttu-id="145af-103">封包檔函式</span><span class="sxs-lookup"><span data-stu-id="145af-103">Cabinet File Functions</span></span>
+# <a name="cabinet-file-functions"></a><span data-ttu-id="05535-103">封包檔函式</span><span class="sxs-lookup"><span data-stu-id="05535-103">Cabinet File Functions</span></span>
 
-<span data-ttu-id="145af-104">下列函式會與封包一起使用。</span><span class="sxs-lookup"><span data-stu-id="145af-104">The following function is used with cabinets.</span></span>
+<span data-ttu-id="05535-104">下列函式會與封包一起使用。</span><span class="sxs-lookup"><span data-stu-id="05535-104">The following function is used with cabinets.</span></span>
 
 
 
-| <span data-ttu-id="145af-105">函式</span><span class="sxs-lookup"><span data-stu-id="145af-105">Function</span></span>                                           | <span data-ttu-id="145af-106">描述</span><span class="sxs-lookup"><span data-stu-id="145af-106">Description</span></span>                                                    |
+| <span data-ttu-id="05535-105">函式</span><span class="sxs-lookup"><span data-stu-id="05535-105">Function</span></span>                                           | <span data-ttu-id="05535-106">描述</span><span class="sxs-lookup"><span data-stu-id="05535-106">Description</span></span>                                                    |
 |----------------------------------------------------|----------------------------------------------------------------|
-| [<span data-ttu-id="145af-107">**SetupIterateCabinet**</span><span class="sxs-lookup"><span data-stu-id="145af-107">**SetupIterateCabinet**</span></span>](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) | <span data-ttu-id="145af-108">針對儲存在封包檔中的每個檔案，各傳回一個通知。</span><span class="sxs-lookup"><span data-stu-id="145af-108">Returns a notification for each file stored in a cabinet file.</span></span> |
+| [<span data-ttu-id="05535-107">**SetupIterateCabinet**</span><span class="sxs-lookup"><span data-stu-id="05535-107">**SetupIterateCabinet**</span></span>](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) | <span data-ttu-id="05535-108">針對儲存在封包檔中的每個檔案，各傳回一個通知。</span><span class="sxs-lookup"><span data-stu-id="05535-108">Returns a notification for each file stored in a cabinet file.</span></span> |
 
 
 

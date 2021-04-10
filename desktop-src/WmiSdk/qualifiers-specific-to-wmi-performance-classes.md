@@ -12,23 +12,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848633"
 ---
-# <a name="qualifiers-specific-to-wmi-performance-classes"></a><span data-ttu-id="b8037-103">WMI 效能類別專用的限定詞</span><span class="sxs-lookup"><span data-stu-id="b8037-103">Qualifiers Specific to WMI Performance Classes</span></span>
+# <a name="qualifiers-specific-to-wmi-performance-classes"></a><span data-ttu-id="90515-103">WMI 效能類別專用的限定詞</span><span class="sxs-lookup"><span data-stu-id="90515-103">Qualifiers Specific to WMI Performance Classes</span></span>
 
-<span data-ttu-id="b8037-104">原始效能計數器類別（衍生自 [**win32 \_ PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata)）包含可作為 [**Win32 \_ PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) 類別和系統監視器計算之輸入的未計算值。</span><span class="sxs-lookup"><span data-stu-id="b8037-104">Raw performance counter classes, derived from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata), contain uncalculated values that serve as input for [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) classes, as well as System Monitor calculations.</span></span>
+<span data-ttu-id="90515-104">原始效能計數器類別（衍生自 [**win32 \_ PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata)）包含可作為 [**Win32 \_ PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) 類別和系統監視器計算之輸入的未計算值。</span><span class="sxs-lookup"><span data-stu-id="90515-104">Raw performance counter classes, derived from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata), contain uncalculated values that serve as input for [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) classes, as well as System Monitor calculations.</span></span>
 
-<span data-ttu-id="b8037-105">效能計數器限定詞會指定效能物件的相關資訊，以及該物件的計數器。</span><span class="sxs-lookup"><span data-stu-id="b8037-105">Performance counter qualifiers specify information about the performance object and the counters for that object.</span></span> <span data-ttu-id="b8037-106">效能物件對應至 WMI [效能計數器類別](/windows/desktop/CIMWin32Prov/performance-counter-classes) ，效能計數器是由 wmi 類別的屬性工作表示。</span><span class="sxs-lookup"><span data-stu-id="b8037-106">Performance objects map to WMI [performance counter classes](/windows/desktop/CIMWin32Prov/performance-counter-classes) and performance counters are represented by the properties of the WMI class.</span></span>
+<span data-ttu-id="90515-105">效能計數器限定詞會指定效能物件的相關資訊，以及該物件的計數器。</span><span class="sxs-lookup"><span data-stu-id="90515-105">Performance counter qualifiers specify information about the performance object and the counters for that object.</span></span> <span data-ttu-id="90515-106">效能物件對應至 WMI [效能計數器類別](/windows/desktop/CIMWin32Prov/performance-counter-classes) ，效能計數器是由 wmi 類別的屬性工作表示。</span><span class="sxs-lookup"><span data-stu-id="90515-106">Performance objects map to WMI [performance counter classes](/windows/desktop/CIMWin32Prov/performance-counter-classes) and performance counters are represented by the properties of the WMI class.</span></span>
 
--   [<span data-ttu-id="b8037-107">效能計數器類別的類別限定詞</span><span class="sxs-lookup"><span data-stu-id="b8037-107">Class Qualifiers for Performance Counter Classes</span></span>](class-qualifiers-for-performance-counter-classes.md)
--   [<span data-ttu-id="b8037-108">格式化效能計數器類別的屬性限定詞</span><span class="sxs-lookup"><span data-stu-id="b8037-108">Property Qualifiers for Formatted Performance Counter Classes</span></span>](property-qualifiers-for-performance-counter-classes.md)
+-   [<span data-ttu-id="90515-107">效能計數器類別的類別限定詞</span><span class="sxs-lookup"><span data-stu-id="90515-107">Class Qualifiers for Performance Counter Classes</span></span>](class-qualifiers-for-performance-counter-classes.md)
+-   [<span data-ttu-id="90515-108">格式化效能計數器類別的屬性限定詞</span><span class="sxs-lookup"><span data-stu-id="90515-108">Property Qualifiers for Formatted Performance Counter Classes</span></span>](property-qualifiers-for-performance-counter-classes.md)
 
-## <a name="related-topics"></a><span data-ttu-id="b8037-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="b8037-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="90515-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="90515-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b8037-110">WMI 限定詞</span><span class="sxs-lookup"><span data-stu-id="b8037-110">WMI Qualifiers</span></span>](wmi-qualifiers.md)
+[<span data-ttu-id="90515-110">WMI 限定詞</span><span class="sxs-lookup"><span data-stu-id="90515-110">WMI Qualifiers</span></span>](wmi-qualifiers.md)
 </dt> <dt>
 
-[<span data-ttu-id="b8037-111">新增限定詞</span><span class="sxs-lookup"><span data-stu-id="b8037-111">Adding a Qualifier</span></span>](adding-a-qualifier.md)
+[<span data-ttu-id="90515-111">新增限定詞</span><span class="sxs-lookup"><span data-stu-id="90515-111">Adding a Qualifier</span></span>](adding-a-qualifier.md)
 </dt> </dl>
 
  

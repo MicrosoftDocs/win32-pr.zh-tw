@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026085"
 ---
-# <a name="jet_threadstatstostring-method"></a><span data-ttu-id="09505-103">JET_THREADSTATS。ToString 方法</span><span class="sxs-lookup"><span data-stu-id="09505-103">JET_THREADSTATS.ToString method</span></span>
+# <a name="jet_threadstatstostring-method"></a><span data-ttu-id="84c46-103">JET_THREADSTATS。ToString 方法</span><span class="sxs-lookup"><span data-stu-id="84c46-103">JET_THREADSTATS.ToString method</span></span>
 
-<span data-ttu-id="09505-104">取得這個物件的字串表示。</span><span class="sxs-lookup"><span data-stu-id="09505-104">Gets a string representation of this object.</span></span>
+<span data-ttu-id="84c46-104">取得這個物件的字串表示。</span><span class="sxs-lookup"><span data-stu-id="84c46-104">Gets a string representation of this object.</span></span>
 
-<span data-ttu-id="09505-105">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="09505-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
-<span data-ttu-id="09505-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="09505-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="84c46-105">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="84c46-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
+<span data-ttu-id="84c46-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="84c46-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="09505-107">語法</span><span class="sxs-lookup"><span data-stu-id="09505-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="84c46-107">語法</span><span class="sxs-lookup"><span data-stu-id="84c46-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -54,17 +54,17 @@ returnValue = instance.ToString()
 public override string ToString()
 ```
 
-#### <a name="return-value"></a><span data-ttu-id="09505-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="09505-108">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="84c46-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="84c46-108">Return value</span></span>
 
-<span data-ttu-id="09505-109">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="09505-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
-<span data-ttu-id="09505-110">此物件的字串表示。</span><span class="sxs-lookup"><span data-stu-id="09505-110">A string representation of this object.</span></span>  
+<span data-ttu-id="84c46-109">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="84c46-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
+<span data-ttu-id="84c46-110">此物件的字串表示。</span><span class="sxs-lookup"><span data-stu-id="84c46-110">A string representation of this object.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="09505-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="09505-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="84c46-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="84c46-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="09505-112">參考</span><span class="sxs-lookup"><span data-stu-id="09505-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="84c46-112">參考</span><span class="sxs-lookup"><span data-stu-id="84c46-112">Reference</span></span>
 
-[<span data-ttu-id="09505-113">JET_THREADSTATS 結構</span><span class="sxs-lookup"><span data-stu-id="09505-113">JET_THREADSTATS structure</span></span>](./jet-threadstats-structure2.md)
+[<span data-ttu-id="84c46-113">JET_THREADSTATS 結構</span><span class="sxs-lookup"><span data-stu-id="84c46-113">JET_THREADSTATS structure</span></span>](./jet-threadstats-structure2.md)
 
-[<span data-ttu-id="09505-114">JET_THREADSTATS 成員</span><span class="sxs-lookup"><span data-stu-id="09505-114">JET_THREADSTATS members</span></span>](./jet-threadstats-members.md)
+[<span data-ttu-id="84c46-114">JET_THREADSTATS 成員</span><span class="sxs-lookup"><span data-stu-id="84c46-114">JET_THREADSTATS members</span></span>](./jet-threadstats-members.md)
 
-[<span data-ttu-id="09505-115">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="09505-115">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)
+[<span data-ttu-id="84c46-115">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="84c46-115">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)

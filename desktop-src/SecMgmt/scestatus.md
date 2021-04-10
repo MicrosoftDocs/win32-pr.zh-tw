@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943330"
 ---
-# <a name="scestatus"></a><span data-ttu-id="b9b3f-104">SCESTATUS</span><span class="sxs-lookup"><span data-stu-id="b9b3f-104">SCESTATUS</span></span>
+# <a name="scestatus"></a><span data-ttu-id="ebe22-104">SCESTATUS</span><span class="sxs-lookup"><span data-stu-id="ebe22-104">SCESTATUS</span></span>
 
-<span data-ttu-id="b9b3f-105">安全性設定工具集 API 會使用 **SCESTATUS** 資料類型來傳回函式呼叫結果的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="b9b3f-105">The **SCESTATUS** data type is used by the Security Configuration tool set API to return information about the results of a function call.</span></span> <span data-ttu-id="b9b3f-106">如需有關已定義狀態碼值的詳細資訊，請參閱 [附件傳回值](management-return-values.md)。</span><span class="sxs-lookup"><span data-stu-id="b9b3f-106">For more information about the defined status code values, see [Attachment Return Values](management-return-values.md).</span></span>
+<span data-ttu-id="ebe22-105">安全性設定工具集 API 會使用 **SCESTATUS** 資料類型來傳回函式呼叫結果的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="ebe22-105">The **SCESTATUS** data type is used by the Security Configuration tool set API to return information about the results of a function call.</span></span> <span data-ttu-id="ebe22-106">如需有關已定義狀態碼值的詳細資訊，請參閱 [附件傳回值](management-return-values.md)。</span><span class="sxs-lookup"><span data-stu-id="ebe22-106">For more information about the defined status code values, see [Attachment Return Values](management-return-values.md).</span></span>
 
 
 ```C++
@@ -22,15 +22,15 @@ typedef DWORD SCESTATUS;
 
 
 
-## <a name="requirements"></a><span data-ttu-id="b9b3f-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="b9b3f-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ebe22-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="ebe22-107">Requirements</span></span>
 
 
 
-| <span data-ttu-id="b9b3f-108">需求</span><span class="sxs-lookup"><span data-stu-id="b9b3f-108">Requirement</span></span> | <span data-ttu-id="b9b3f-109">值</span><span class="sxs-lookup"><span data-stu-id="b9b3f-109">Value</span></span> |
+| <span data-ttu-id="ebe22-108">需求</span><span class="sxs-lookup"><span data-stu-id="ebe22-108">Requirement</span></span> | <span data-ttu-id="ebe22-109">值</span><span class="sxs-lookup"><span data-stu-id="ebe22-109">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| <span data-ttu-id="b9b3f-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b9b3f-110">Minimum supported client</span></span><br/> | <span data-ttu-id="b9b3f-111">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b9b3f-111">Windows XP \[desktop apps only\]</span></span><br/>                                         |
-| <span data-ttu-id="b9b3f-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b9b3f-112">Minimum supported server</span></span><br/> | <span data-ttu-id="b9b3f-113">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b9b3f-113">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                |
-| <span data-ttu-id="b9b3f-114">標頭</span><span class="sxs-lookup"><span data-stu-id="b9b3f-114">Header</span></span><br/>                   | <dl> <span data-ttu-id="b9b3f-115"><dt>Scesvc。h</dt></span><span class="sxs-lookup"><span data-stu-id="b9b3f-115"><dt>Scesvc.h</dt></span></span> </dl> |
+| <span data-ttu-id="ebe22-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ebe22-110">Minimum supported client</span></span><br/> | <span data-ttu-id="ebe22-111">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ebe22-111">Windows XP \[desktop apps only\]</span></span><br/>                                         |
+| <span data-ttu-id="ebe22-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ebe22-112">Minimum supported server</span></span><br/> | <span data-ttu-id="ebe22-113">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ebe22-113">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                |
+| <span data-ttu-id="ebe22-114">標頭</span><span class="sxs-lookup"><span data-stu-id="ebe22-114">Header</span></span><br/>                   | <dl> <span data-ttu-id="ebe22-115"><dt>Scesvc。h</dt></span><span class="sxs-lookup"><span data-stu-id="ebe22-115"><dt>Scesvc.h</dt></span></span> </dl> |
 
 
 

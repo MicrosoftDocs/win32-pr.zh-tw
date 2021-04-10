@@ -11,49 +11,49 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691811"
 ---
-# <a name="mf_mt_dv_aaux_ctrl_pack_0-attribute"></a><span data-ttu-id="3c6ac-103">MF \_ MT \_ DV \_ AAUX \_ CTRL \_ PACK \_ 0 屬性</span><span class="sxs-lookup"><span data-stu-id="3c6ac-103">MF\_MT\_DV\_AAUX\_CTRL\_PACK\_0 attribute</span></span>
+# <a name="mf_mt_dv_aaux_ctrl_pack_0-attribute"></a><span data-ttu-id="664a5-103">MF \_ MT \_ DV \_ AAUX \_ CTRL \_ PACK \_ 0 屬性</span><span class="sxs-lookup"><span data-stu-id="664a5-103">MF\_MT\_DV\_AAUX\_CTRL\_PACK\_0 attribute</span></span>
 
-<span data-ttu-id="3c6ac-104">音訊輔助 (AAUX 數位視訊中第一個音訊區塊的) 原始檔控制套件 (DV) 媒體類型。</span><span class="sxs-lookup"><span data-stu-id="3c6ac-104">Audio auxiliary (AAUX) source control pack for the first audio block in a digital video (DV) media type.</span></span>
+<span data-ttu-id="664a5-104">音訊輔助 (AAUX 數位視訊中第一個音訊區塊的) 原始檔控制套件 (DV) 媒體類型。</span><span class="sxs-lookup"><span data-stu-id="664a5-104">Audio auxiliary (AAUX) source control pack for the first audio block in a digital video (DV) media type.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="3c6ac-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="3c6ac-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="664a5-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="664a5-105">Data type</span></span>
 
-<span data-ttu-id="3c6ac-106">**UINT32**</span><span class="sxs-lookup"><span data-stu-id="3c6ac-106">**UINT32**</span></span>
+<span data-ttu-id="664a5-106">**UINT32**</span><span class="sxs-lookup"><span data-stu-id="664a5-106">**UINT32**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3c6ac-107">備註</span><span class="sxs-lookup"><span data-stu-id="3c6ac-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="664a5-107">備註</span><span class="sxs-lookup"><span data-stu-id="664a5-107">Remarks</span></span>
 
-<span data-ttu-id="3c6ac-108">這個屬性會對應至 DirectShow [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo)結構的 **dwDVAAuxCtl** 成員。</span><span class="sxs-lookup"><span data-stu-id="3c6ac-108">This attribute corresponds to the **dwDVAAuxCtl** member of the DirectShow [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo) structure.</span></span>
+<span data-ttu-id="664a5-108">這個屬性會對應至 DirectShow [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo)結構的 **dwDVAAuxCtl** 成員。</span><span class="sxs-lookup"><span data-stu-id="664a5-108">This attribute corresponds to the **dwDVAAuxCtl** member of the DirectShow [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo) structure.</span></span>
 
-<span data-ttu-id="3c6ac-109">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="3c6ac-109">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
+<span data-ttu-id="664a5-109">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="664a5-109">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="3c6ac-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="3c6ac-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="664a5-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="664a5-110">Requirements</span></span>
 
 
 
-| <span data-ttu-id="3c6ac-111">需求</span><span class="sxs-lookup"><span data-stu-id="3c6ac-111">Requirement</span></span> | <span data-ttu-id="3c6ac-112">值</span><span class="sxs-lookup"><span data-stu-id="3c6ac-112">Value</span></span> |
+| <span data-ttu-id="664a5-111">需求</span><span class="sxs-lookup"><span data-stu-id="664a5-111">Requirement</span></span> | <span data-ttu-id="664a5-112">值</span><span class="sxs-lookup"><span data-stu-id="664a5-112">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="3c6ac-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3c6ac-113">Minimum supported client</span></span><br/> | <span data-ttu-id="3c6ac-114">Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3c6ac-114">Windows Vista \[desktop apps \| UWP apps\]</span></span><br/>                              |
-| <span data-ttu-id="3c6ac-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3c6ac-115">Minimum supported server</span></span><br/> | <span data-ttu-id="3c6ac-116">Windows Server 2008 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3c6ac-116">Windows Server 2008 \[desktop apps \| UWP apps\]</span></span><br/>                        |
-| <span data-ttu-id="3c6ac-117">標頭</span><span class="sxs-lookup"><span data-stu-id="3c6ac-117">Header</span></span><br/>                   | <dl> <span data-ttu-id="3c6ac-118"><dt>Mfapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="3c6ac-118"><dt>Mfapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="664a5-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="664a5-113">Minimum supported client</span></span><br/> | <span data-ttu-id="664a5-114">Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="664a5-114">Windows Vista \[desktop apps \| UWP apps\]</span></span><br/>                              |
+| <span data-ttu-id="664a5-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="664a5-115">Minimum supported server</span></span><br/> | <span data-ttu-id="664a5-116">Windows Server 2008 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="664a5-116">Windows Server 2008 \[desktop apps \| UWP apps\]</span></span><br/>                        |
+| <span data-ttu-id="664a5-117">標頭</span><span class="sxs-lookup"><span data-stu-id="664a5-117">Header</span></span><br/>                   | <dl> <span data-ttu-id="664a5-118"><dt>Mfapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="664a5-118"><dt>Mfapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="3c6ac-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3c6ac-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="664a5-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="664a5-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="3c6ac-120">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="3c6ac-120">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="664a5-120">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="664a5-120">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="3c6ac-121">**IMFAttributes：： GetUINT32**</span><span class="sxs-lookup"><span data-stu-id="3c6ac-121">**IMFAttributes::GetUINT32**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32)
+[<span data-ttu-id="664a5-121">**IMFAttributes：： GetUINT32**</span><span class="sxs-lookup"><span data-stu-id="664a5-121">**IMFAttributes::GetUINT32**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32)
 </dt> <dt>
 
-[<span data-ttu-id="3c6ac-122">**IMFAttributes：： SetUINT32**</span><span class="sxs-lookup"><span data-stu-id="3c6ac-122">**IMFAttributes::SetUINT32**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32)
+[<span data-ttu-id="664a5-122">**IMFAttributes：： SetUINT32**</span><span class="sxs-lookup"><span data-stu-id="664a5-122">**IMFAttributes::SetUINT32**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32)
 </dt> <dt>
 
-[<span data-ttu-id="3c6ac-123">**IMFMediaType**</span><span class="sxs-lookup"><span data-stu-id="3c6ac-123">**IMFMediaType**</span></span>](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
+[<span data-ttu-id="664a5-123">**IMFMediaType**</span><span class="sxs-lookup"><span data-stu-id="664a5-123">**IMFMediaType**</span></span>](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 </dt> <dt>
 
-[<span data-ttu-id="3c6ac-124">媒體類型屬性</span><span class="sxs-lookup"><span data-stu-id="3c6ac-124">Media Type Attributes</span></span>](media-type-attributes.md)
+[<span data-ttu-id="664a5-124">媒體類型屬性</span><span class="sxs-lookup"><span data-stu-id="664a5-124">Media Type Attributes</span></span>](media-type-attributes.md)
 </dt> </dl>
 
  

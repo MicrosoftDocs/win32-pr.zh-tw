@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026144"
 ---
-# <a name="apijetgetsecondaryindexbookmark-method"></a><span data-ttu-id="5bdf7-103">JetGetSecondaryIndexBookmark 方法</span><span class="sxs-lookup"><span data-stu-id="5bdf7-103">Api.JetGetSecondaryIndexBookmark method</span></span>
+# <a name="apijetgetsecondaryindexbookmark-method"></a><span data-ttu-id="1c5b5-103">JetGetSecondaryIndexBookmark 方法</span><span class="sxs-lookup"><span data-stu-id="1c5b5-103">Api.JetGetSecondaryIndexBookmark method</span></span>
 
-<span data-ttu-id="5bdf7-104">在資料指標的目前位置，抓取次要索引項目的特殊書簽。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-104">Retrieves a special bookmark for the secondary index entry at the current position of a cursor.</span></span> <span data-ttu-id="5bdf7-105">然後，您可以使用這個書簽，利用 JetGotoSecondaryIndexBookmark 將該資料指標有效率地重新放置到相同的索引項目。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-105">This bookmark can then be used to efficiently reposition that cursor back to the same index entry using JetGotoSecondaryIndexBookmark.</span></span> <span data-ttu-id="5bdf7-106">當在包含重複索引鍵或包含相同記錄之多個索引項目的次要索引上重新置放時，這非常有用。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-106">This is most useful when repositioning on a secondary index that contains duplicate keys or that contains multiple index entries for the same record.</span></span>
+<span data-ttu-id="1c5b5-104">在資料指標的目前位置，抓取次要索引項目的特殊書簽。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-104">Retrieves a special bookmark for the secondary index entry at the current position of a cursor.</span></span> <span data-ttu-id="1c5b5-105">然後，您可以使用這個書簽，利用 JetGotoSecondaryIndexBookmark 將該資料指標有效率地重新放置到相同的索引項目。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-105">This bookmark can then be used to efficiently reposition that cursor back to the same index entry using JetGotoSecondaryIndexBookmark.</span></span> <span data-ttu-id="1c5b5-106">當在包含重複索引鍵或包含相同記錄之多個索引項目的次要索引上重新置放時，這非常有用。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-106">This is most useful when repositioning on a secondary index that contains duplicate keys or that contains multiple index entries for the same record.</span></span>
 
-<span data-ttu-id="5bdf7-107">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="5bdf7-107">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="5bdf7-108">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-108">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="1c5b5-107">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="1c5b5-107">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="1c5b5-108">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-108">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5bdf7-109">語法</span><span class="sxs-lookup"><span data-stu-id="5bdf7-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1c5b5-109">語法</span><span class="sxs-lookup"><span data-stu-id="1c5b5-109">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -83,75 +83,75 @@ public static void JetGetSecondaryIndexBookmark(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="5bdf7-110">參數</span><span class="sxs-lookup"><span data-stu-id="5bdf7-110">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="1c5b5-110">參數</span><span class="sxs-lookup"><span data-stu-id="1c5b5-110">Parameters</span></span>
 
-  - <span data-ttu-id="5bdf7-111">sesid</span><span class="sxs-lookup"><span data-stu-id="5bdf7-111">sesid</span></span>  
-    <span data-ttu-id="5bdf7-112">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="5bdf7-112">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="1c5b5-111">sesid</span><span class="sxs-lookup"><span data-stu-id="1c5b5-111">sesid</span></span>  
+    <span data-ttu-id="1c5b5-112">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="1c5b5-112">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="5bdf7-113">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-113">The session to use.</span></span>
+    <span data-ttu-id="1c5b5-113">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-113">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5bdf7-114">tableid</span><span class="sxs-lookup"><span data-stu-id="5bdf7-114">tableid</span></span>  
-    <span data-ttu-id="5bdf7-115">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="5bdf7-115">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="1c5b5-114">tableid</span><span class="sxs-lookup"><span data-stu-id="1c5b5-114">tableid</span></span>  
+    <span data-ttu-id="1c5b5-115">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="1c5b5-115">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="5bdf7-116">要從中取出書簽的資料指標。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-116">The cursor to retrieve the bookmark from.</span></span>
+    <span data-ttu-id="1c5b5-116">要從中取出書簽的資料指標。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-116">The cursor to retrieve the bookmark from.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5bdf7-117">secondaryKey</span><span class="sxs-lookup"><span data-stu-id="5bdf7-117">secondaryKey</span></span>  
-    <span data-ttu-id="5bdf7-118">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="5bdf7-118">Type: \[\]</span></span>  
+  - <span data-ttu-id="1c5b5-117">secondaryKey</span><span class="sxs-lookup"><span data-stu-id="1c5b5-117">secondaryKey</span></span>  
+    <span data-ttu-id="1c5b5-118">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="1c5b5-118">Type: \[\]</span></span>  
     
-    <span data-ttu-id="5bdf7-119">次要索引鍵的輸出緩衝區。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-119">Output buffer for the secondary key.</span></span>
+    <span data-ttu-id="1c5b5-119">次要索引鍵的輸出緩衝區。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-119">Output buffer for the secondary key.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5bdf7-120">secondaryKeySize</span><span class="sxs-lookup"><span data-stu-id="5bdf7-120">secondaryKeySize</span></span>  
-    <span data-ttu-id="5bdf7-121">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="5bdf7-121">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="1c5b5-120">secondaryKeySize</span><span class="sxs-lookup"><span data-stu-id="1c5b5-120">secondaryKeySize</span></span>  
+    <span data-ttu-id="1c5b5-121">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="1c5b5-121">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="5bdf7-122">次要金鑰緩衝區的大小。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-122">Size of the secondary key buffer.</span></span>
+    <span data-ttu-id="1c5b5-122">次要金鑰緩衝區的大小。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-122">Size of the secondary key buffer.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5bdf7-123">actualSecondaryKeySize</span><span class="sxs-lookup"><span data-stu-id="5bdf7-123">actualSecondaryKeySize</span></span>  
-    <span data-ttu-id="5bdf7-124">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="5bdf7-124">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="1c5b5-123">actualSecondaryKeySize</span><span class="sxs-lookup"><span data-stu-id="1c5b5-123">actualSecondaryKeySize</span></span>  
+    <span data-ttu-id="1c5b5-124">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="1c5b5-124">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="5bdf7-125">傳回次要索引鍵的大小。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-125">Returns the size of the secondary key.</span></span>
+    <span data-ttu-id="1c5b5-125">傳回次要索引鍵的大小。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-125">Returns the size of the secondary key.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5bdf7-126">primaryKey</span><span class="sxs-lookup"><span data-stu-id="5bdf7-126">primaryKey</span></span>  
-    <span data-ttu-id="5bdf7-127">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="5bdf7-127">Type: \[\]</span></span>  
+  - <span data-ttu-id="1c5b5-126">primaryKey</span><span class="sxs-lookup"><span data-stu-id="1c5b5-126">primaryKey</span></span>  
+    <span data-ttu-id="1c5b5-127">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="1c5b5-127">Type: \[\]</span></span>  
     
-    <span data-ttu-id="5bdf7-128">主要索引鍵的輸出緩衝區。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-128">Output buffer for the primary key.</span></span>
+    <span data-ttu-id="1c5b5-128">主要索引鍵的輸出緩衝區。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-128">Output buffer for the primary key.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5bdf7-129">primaryKeySize</span><span class="sxs-lookup"><span data-stu-id="5bdf7-129">primaryKeySize</span></span>  
-    <span data-ttu-id="5bdf7-130">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="5bdf7-130">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="1c5b5-129">primaryKeySize</span><span class="sxs-lookup"><span data-stu-id="1c5b5-129">primaryKeySize</span></span>  
+    <span data-ttu-id="1c5b5-130">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="1c5b5-130">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="5bdf7-131">主要金鑰緩衝區的大小。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-131">Size of the primary key buffer.</span></span>
+    <span data-ttu-id="1c5b5-131">主要金鑰緩衝區的大小。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-131">Size of the primary key buffer.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5bdf7-132">actualPrimaryKeySize</span><span class="sxs-lookup"><span data-stu-id="5bdf7-132">actualPrimaryKeySize</span></span>  
-    <span data-ttu-id="5bdf7-133">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="5bdf7-133">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="1c5b5-132">actualPrimaryKeySize</span><span class="sxs-lookup"><span data-stu-id="1c5b5-132">actualPrimaryKeySize</span></span>  
+    <span data-ttu-id="1c5b5-133">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="1c5b5-133">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="5bdf7-134">傳回主要索引鍵的大小。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-134">Returns the size of the primary key.</span></span>
+    <span data-ttu-id="1c5b5-134">傳回主要索引鍵的大小。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-134">Returns the size of the primary key.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5bdf7-135">grbit</span><span class="sxs-lookup"><span data-stu-id="5bdf7-135">grbit</span></span>  
-    <span data-ttu-id="5bdf7-136">型別： [GetSecondaryIndexBookmarkGrbit](./getsecondaryindexbookmarkgrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-136">Type: [Microsoft.Isam.Esent.Interop.GetSecondaryIndexBookmarkGrbit](./getsecondaryindexbookmarkgrbit-enumeration.md)</span></span>  
+  - <span data-ttu-id="1c5b5-135">grbit</span><span class="sxs-lookup"><span data-stu-id="1c5b5-135">grbit</span></span>  
+    <span data-ttu-id="1c5b5-136">型別： [GetSecondaryIndexBookmarkGrbit](./getsecondaryindexbookmarkgrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-136">Type: [Microsoft.Isam.Esent.Interop.GetSecondaryIndexBookmarkGrbit](./getsecondaryindexbookmarkgrbit-enumeration.md)</span></span>  
     
-    <span data-ttu-id="5bdf7-137">呼叫的選項。</span><span class="sxs-lookup"><span data-stu-id="5bdf7-137">Options for the call.</span></span>
+    <span data-ttu-id="1c5b5-137">呼叫的選項。</span><span class="sxs-lookup"><span data-stu-id="1c5b5-137">Options for the call.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="5bdf7-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5bdf7-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1c5b5-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1c5b5-138">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="5bdf7-139">參考</span><span class="sxs-lookup"><span data-stu-id="5bdf7-139">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="1c5b5-139">參考</span><span class="sxs-lookup"><span data-stu-id="1c5b5-139">Reference</span></span>
 
-[<span data-ttu-id="5bdf7-140">Api 類別</span><span class="sxs-lookup"><span data-stu-id="5bdf7-140">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="1c5b5-140">Api 類別</span><span class="sxs-lookup"><span data-stu-id="1c5b5-140">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="5bdf7-141">Api 成員</span><span class="sxs-lookup"><span data-stu-id="5bdf7-141">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="1c5b5-141">Api 成員</span><span class="sxs-lookup"><span data-stu-id="1c5b5-141">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="5bdf7-142">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="5bdf7-142">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="1c5b5-142">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="1c5b5-142">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

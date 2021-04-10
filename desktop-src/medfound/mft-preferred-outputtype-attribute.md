@@ -11,53 +11,53 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848710"
 ---
-# <a name="mft_preferred_outputtype_attribute-attribute"></a><span data-ttu-id="69ae2-103">MFT \_ 慣用 \_ OUTPUTTYPE \_ 屬性屬性</span><span class="sxs-lookup"><span data-stu-id="69ae2-103">MFT\_PREFERRED\_OUTPUTTYPE\_Attribute attribute</span></span>
+# <a name="mft_preferred_outputtype_attribute-attribute"></a><span data-ttu-id="ee245-103">MFT \_ 慣用 \_ OUTPUTTYPE \_ 屬性屬性</span><span class="sxs-lookup"><span data-stu-id="ee245-103">MFT\_PREFERRED\_OUTPUTTYPE\_Attribute attribute</span></span>
 
-<span data-ttu-id="69ae2-104">指定編碼器慣用的輸出格式。</span><span class="sxs-lookup"><span data-stu-id="69ae2-104">Specifies the preferred output format for an encoder.</span></span>
+<span data-ttu-id="ee245-104">指定編碼器慣用的輸出格式。</span><span class="sxs-lookup"><span data-stu-id="ee245-104">Specifies the preferred output format for an encoder.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="69ae2-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="69ae2-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="ee245-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="ee245-105">Data type</span></span>
 
-<span data-ttu-id="69ae2-106">**[](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) IMFAttributes \** _ 儲存為 _*IUnknown \*\*_</span><span class="sxs-lookup"><span data-stu-id="69ae2-106">**[**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes)\** _ stored as _*IUnknown\*\*_</span></span>
+<span data-ttu-id="ee245-106">**[](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) IMFAttributes \** _ 儲存為 _*IUnknown \*\*_</span><span class="sxs-lookup"><span data-stu-id="ee245-106">**[**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes)\** _ stored as _*IUnknown\*\*_</span></span>
 
-## <a name="getset"></a><span data-ttu-id="69ae2-107">取得/設定</span><span class="sxs-lookup"><span data-stu-id="69ae2-107">Get/set</span></span>
+## <a name="getset"></a><span data-ttu-id="ee245-107">取得/設定</span><span class="sxs-lookup"><span data-stu-id="ee245-107">Get/set</span></span>
 
-<span data-ttu-id="69ae2-108">若要取得這個屬性，請呼叫 [_ *IMFAttributes：： GetUnknown* \*](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。</span><span class="sxs-lookup"><span data-stu-id="69ae2-108">To get this attribute, call [_ *IMFAttributes::GetUnknown*\*](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown).</span></span>
+<span data-ttu-id="ee245-108">若要取得這個屬性，請呼叫 [_ *IMFAttributes：： GetUnknown* \*](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。</span><span class="sxs-lookup"><span data-stu-id="ee245-108">To get this attribute, call [_ *IMFAttributes::GetUnknown*\*](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown).</span></span>
 
-<span data-ttu-id="69ae2-109">若要設定這個屬性，請呼叫 [**IMFAttributes：： SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown)。</span><span class="sxs-lookup"><span data-stu-id="69ae2-109">To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).</span></span>
+<span data-ttu-id="ee245-109">若要設定這個屬性，請呼叫 [**IMFAttributes：： SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown)。</span><span class="sxs-lookup"><span data-stu-id="ee245-109">To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).</span></span>
 
-## <a name="applies-to"></a><span data-ttu-id="69ae2-110">適用於</span><span class="sxs-lookup"><span data-stu-id="69ae2-110">Applies to</span></span>
+## <a name="applies-to"></a><span data-ttu-id="ee245-110">適用於</span><span class="sxs-lookup"><span data-stu-id="ee245-110">Applies to</span></span>
 
-[<span data-ttu-id="69ae2-111">**IMFActivate**</span><span class="sxs-lookup"><span data-stu-id="69ae2-111">**IMFActivate**</span></span>](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate)
+[<span data-ttu-id="ee245-111">**IMFActivate**</span><span class="sxs-lookup"><span data-stu-id="ee245-111">**IMFActivate**</span></span>](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate)
 
-## <a name="remarks"></a><span data-ttu-id="69ae2-112">備註</span><span class="sxs-lookup"><span data-stu-id="69ae2-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ee245-112">備註</span><span class="sxs-lookup"><span data-stu-id="ee245-112">Remarks</span></span>
 
-<span data-ttu-id="69ae2-113">這個屬性可以在 [**MFCreateTransformActivate**](/windows/desktop/api/mftransform/nf-mftransform-mfcreatetransformactivate) 函數所傳回的啟用物件上設定。</span><span class="sxs-lookup"><span data-stu-id="69ae2-113">This attribute can be set on the activation object returned by the [**MFCreateTransformActivate**](/windows/desktop/api/mftransform/nf-mftransform-mfcreatetransformactivate) function.</span></span> <span data-ttu-id="69ae2-114">只有在啟用物件設定為建立編碼器時，才會套用此屬性。</span><span class="sxs-lookup"><span data-stu-id="69ae2-114">The attribute applies only when the activation object is configured to create an encoder.</span></span> <span data-ttu-id="69ae2-115">屬性的值是媒體類型。</span><span class="sxs-lookup"><span data-stu-id="69ae2-115">The value of the attribute is a media type.</span></span> <span data-ttu-id="69ae2-116">啟用物件會在編碼器上設定此輸出類型。</span><span class="sxs-lookup"><span data-stu-id="69ae2-116">The activation object sets this output type on the encoder.</span></span>
+<span data-ttu-id="ee245-113">這個屬性可以在 [**MFCreateTransformActivate**](/windows/desktop/api/mftransform/nf-mftransform-mfcreatetransformactivate) 函數所傳回的啟用物件上設定。</span><span class="sxs-lookup"><span data-stu-id="ee245-113">This attribute can be set on the activation object returned by the [**MFCreateTransformActivate**](/windows/desktop/api/mftransform/nf-mftransform-mfcreatetransformactivate) function.</span></span> <span data-ttu-id="ee245-114">只有在啟用物件設定為建立編碼器時，才會套用此屬性。</span><span class="sxs-lookup"><span data-stu-id="ee245-114">The attribute applies only when the activation object is configured to create an encoder.</span></span> <span data-ttu-id="ee245-115">屬性的值是媒體類型。</span><span class="sxs-lookup"><span data-stu-id="ee245-115">The value of the attribute is a media type.</span></span> <span data-ttu-id="ee245-116">啟用物件會在編碼器上設定此輸出類型。</span><span class="sxs-lookup"><span data-stu-id="ee245-116">The activation object sets this output type on the encoder.</span></span>
 
-<span data-ttu-id="69ae2-117">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="69ae2-117">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
+<span data-ttu-id="ee245-117">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="ee245-117">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="69ae2-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="69ae2-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ee245-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="ee245-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="69ae2-119">需求</span><span class="sxs-lookup"><span data-stu-id="69ae2-119">Requirement</span></span> | <span data-ttu-id="69ae2-120">值</span><span class="sxs-lookup"><span data-stu-id="69ae2-120">Value</span></span> |
+| <span data-ttu-id="ee245-119">需求</span><span class="sxs-lookup"><span data-stu-id="ee245-119">Requirement</span></span> | <span data-ttu-id="ee245-120">值</span><span class="sxs-lookup"><span data-stu-id="ee245-120">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| <span data-ttu-id="69ae2-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="69ae2-121">Minimum supported client</span></span><br/> | <span data-ttu-id="69ae2-122">Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="69ae2-122">Windows 7 \[desktop apps \| UWP apps\]</span></span><br/>                                        |
-| <span data-ttu-id="69ae2-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="69ae2-123">Minimum supported server</span></span><br/> | <span data-ttu-id="69ae2-124">Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="69ae2-124">Windows Server 2008 R2 \[desktop apps \| UWP apps\]</span></span><br/>                           |
-| <span data-ttu-id="69ae2-125">標頭</span><span class="sxs-lookup"><span data-stu-id="69ae2-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="69ae2-126"><dt>Mftransform。h</dt></span><span class="sxs-lookup"><span data-stu-id="69ae2-126"><dt>Mftransform.h</dt></span></span> </dl> |
+| <span data-ttu-id="ee245-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ee245-121">Minimum supported client</span></span><br/> | <span data-ttu-id="ee245-122">Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ee245-122">Windows 7 \[desktop apps \| UWP apps\]</span></span><br/>                                        |
+| <span data-ttu-id="ee245-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ee245-123">Minimum supported server</span></span><br/> | <span data-ttu-id="ee245-124">Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ee245-124">Windows Server 2008 R2 \[desktop apps \| UWP apps\]</span></span><br/>                           |
+| <span data-ttu-id="ee245-125">標頭</span><span class="sxs-lookup"><span data-stu-id="ee245-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="ee245-126"><dt>Mftransform。h</dt></span><span class="sxs-lookup"><span data-stu-id="ee245-126"><dt>Mftransform.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="69ae2-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="69ae2-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ee245-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ee245-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="69ae2-128">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="69ae2-128">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="ee245-128">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="ee245-128">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="69ae2-129">**MFCreateTransformActivate**</span><span class="sxs-lookup"><span data-stu-id="69ae2-129">**MFCreateTransformActivate**</span></span>](/windows/desktop/api/mftransform/nf-mftransform-mfcreatetransformactivate)
+[<span data-ttu-id="ee245-129">**MFCreateTransformActivate**</span><span class="sxs-lookup"><span data-stu-id="ee245-129">**MFCreateTransformActivate**</span></span>](/windows/desktop/api/mftransform/nf-mftransform-mfcreatetransformactivate)
 </dt> <dt>
 
-[<span data-ttu-id="69ae2-130">轉換屬性</span><span class="sxs-lookup"><span data-stu-id="69ae2-130">Transform Attributes</span></span>](transform-attributes.md)
+[<span data-ttu-id="ee245-130">轉換屬性</span><span class="sxs-lookup"><span data-stu-id="ee245-130">Transform Attributes</span></span>](transform-attributes.md)
 </dt> </dl>
 
  

@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849372"
 ---
-# <a name="window-procedure-functions"></a><span data-ttu-id="ef5e9-103">視窗程式函數</span><span class="sxs-lookup"><span data-stu-id="ef5e9-103">Window Procedure Functions</span></span>
+# <a name="window-procedure-functions"></a><span data-ttu-id="ae076-103">視窗程式函數</span><span class="sxs-lookup"><span data-stu-id="ae076-103">Window Procedure Functions</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="ef5e9-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="ef5e9-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ae076-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="ae076-104">In This Section</span></span>
 
--   [<span data-ttu-id="ef5e9-105">**CallWindowProc**</span><span class="sxs-lookup"><span data-stu-id="ef5e9-105">**CallWindowProc**</span></span>](/windows/win32/api/winuser/nf-winuser-callwindowproca)
--   [<span data-ttu-id="ef5e9-106">**DefWindowProc**</span><span class="sxs-lookup"><span data-stu-id="ef5e9-106">**DefWindowProc**</span></span>](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
--   <span data-ttu-id="ef5e9-107">[*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="ef5e9-107">[*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85))</span></span>
+-   [<span data-ttu-id="ae076-105">**CallWindowProc**</span><span class="sxs-lookup"><span data-stu-id="ae076-105">**CallWindowProc**</span></span>](/windows/win32/api/winuser/nf-winuser-callwindowproca)
+-   [<span data-ttu-id="ae076-106">**DefWindowProc**</span><span class="sxs-lookup"><span data-stu-id="ae076-106">**DefWindowProc**</span></span>](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+-   <span data-ttu-id="ae076-107">[*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="ae076-107">[*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85))</span></span>
 
  
 

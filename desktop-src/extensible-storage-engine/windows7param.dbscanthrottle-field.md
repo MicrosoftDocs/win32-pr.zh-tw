@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848383"
 ---
-# <a name="windows7paramdbscanthrottle-field"></a><span data-ttu-id="fd44b-103">Windows7Param. DbScanThrottle 欄位</span><span class="sxs-lookup"><span data-stu-id="fd44b-103">Windows7Param.DbScanThrottle field</span></span>
+# <a name="windows7paramdbscanthrottle-field"></a><span data-ttu-id="e18d7-103">Windows7Param. DbScanThrottle 欄位</span><span class="sxs-lookup"><span data-stu-id="e18d7-103">Windows7Param.DbScanThrottle field</span></span>
 
-<span data-ttu-id="fd44b-104">資料庫掃描的節流（以毫秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="fd44b-104">Throttling of the database scan, in milliseconds.</span></span>
+<span data-ttu-id="e18d7-104">資料庫掃描的節流（以毫秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="e18d7-104">Throttling of the database scan, in milliseconds.</span></span>
 
-<span data-ttu-id="fd44b-105">**命名空間：**  [Microsoft 最為理想](./microsoft.isam.esent.interop.windows7-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="fd44b-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)</span></span>  
-<span data-ttu-id="fd44b-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="fd44b-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="e18d7-105">**命名空間：**  [Microsoft 最為理想](./microsoft.isam.esent.interop.windows7-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e18d7-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)</span></span>  
+<span data-ttu-id="e18d7-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e18d7-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fd44b-107">語法</span><span class="sxs-lookup"><span data-stu-id="fd44b-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e18d7-107">語法</span><span class="sxs-lookup"><span data-stu-id="e18d7-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = Windows7Param.DbScanThrottle
 public const JET_param DbScanThrottle
 ```
 
-## <a name="see-also"></a><span data-ttu-id="fd44b-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fd44b-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e18d7-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e18d7-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="fd44b-109">參考</span><span class="sxs-lookup"><span data-stu-id="fd44b-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="e18d7-109">參考</span><span class="sxs-lookup"><span data-stu-id="e18d7-109">Reference</span></span>
 
-[<span data-ttu-id="fd44b-110">Windows7Param 類別</span><span class="sxs-lookup"><span data-stu-id="fd44b-110">Windows7Param class</span></span>](./windows7param-class.md)
+[<span data-ttu-id="e18d7-110">Windows7Param 類別</span><span class="sxs-lookup"><span data-stu-id="e18d7-110">Windows7Param class</span></span>](./windows7param-class.md)
 
-[<span data-ttu-id="fd44b-111">Windows7Param 成員</span><span class="sxs-lookup"><span data-stu-id="fd44b-111">Windows7Param members</span></span>](./windows7param-members.md)
+[<span data-ttu-id="e18d7-111">Windows7Param 成員</span><span class="sxs-lookup"><span data-stu-id="e18d7-111">Windows7Param members</span></span>](./windows7param-members.md)
 
-[<span data-ttu-id="fd44b-112">最為理想命名空間。</span><span class="sxs-lookup"><span data-stu-id="fd44b-112">Microsoft.Isam.Esent.Interop.Windows7 namespace</span></span>](./microsoft.isam.esent.interop.windows7-namespace.md)
+[<span data-ttu-id="e18d7-112">最為理想命名空間。</span><span class="sxs-lookup"><span data-stu-id="e18d7-112">Microsoft.Isam.Esent.Interop.Windows7 namespace</span></span>](./microsoft.isam.esent.interop.windows7-namespace.md)

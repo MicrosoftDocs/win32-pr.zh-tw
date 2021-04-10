@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849044"
 ---
-# <a name="systemofflinestatus"></a><span data-ttu-id="9d3c9-103">System. OfflineStatus</span><span class="sxs-lookup"><span data-stu-id="9d3c9-103">System.OfflineStatus</span></span>
+# <a name="systemofflinestatus"></a><span data-ttu-id="e604d-103">System. OfflineStatus</span><span class="sxs-lookup"><span data-stu-id="e604d-103">System.OfflineStatus</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a><span data-ttu-id="9d3c9-104">Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8</span><span class="sxs-lookup"><span data-stu-id="9d3c9-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a><span data-ttu-id="e604d-104">Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8</span><span class="sxs-lookup"><span data-stu-id="e604d-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8</span></span>
 
 ```
 propertyDescription
@@ -66,7 +66,7 @@ propertyDescription
             defineToken = OFFLINESTATUS_OFFLINE_SUSPENDED
 ```
 
-## <a name="windows-7"></a><span data-ttu-id="9d3c9-105">Windows 7</span><span class="sxs-lookup"><span data-stu-id="9d3c9-105">Windows 7</span></span>
+## <a name="windows-7"></a><span data-ttu-id="e604d-105">Windows 7</span><span class="sxs-lookup"><span data-stu-id="e604d-105">Windows 7</span></span>
 
 ```
 propertyDescription
@@ -119,7 +119,7 @@ propertyDescription
             defineToken = OFFLINESTATUS_OFFLINE_SUSPENDED
 ```
 
-## <a name="windows-vista"></a><span data-ttu-id="9d3c9-106">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="9d3c9-106">Windows Vista</span></span>
+## <a name="windows-vista"></a><span data-ttu-id="e604d-106">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="e604d-106">Windows Vista</span></span>
 
 ```
 propertyDescription
@@ -165,54 +165,54 @@ propertyDescription
             defineName = OFFLINESTATUS_OFFLINE_SUSPENDED
 ```
 
-## <a name="remarks"></a><span data-ttu-id="9d3c9-107">備註</span><span class="sxs-lookup"><span data-stu-id="9d3c9-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e604d-107">備註</span><span class="sxs-lookup"><span data-stu-id="e604d-107">Remarks</span></span>
 
-<span data-ttu-id="9d3c9-108">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="9d3c9-108">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="e604d-108">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="e604d-108">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="9d3c9-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="9d3c9-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e604d-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="e604d-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9d3c9-110">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="9d3c9-110">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="e604d-110">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="e604d-110">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-111">searchInfo</span><span class="sxs-lookup"><span data-stu-id="9d3c9-111">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="e604d-111">searchInfo</span><span class="sxs-lookup"><span data-stu-id="e604d-111">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-112">labelInfo</span><span class="sxs-lookup"><span data-stu-id="9d3c9-112">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="e604d-112">labelInfo</span><span class="sxs-lookup"><span data-stu-id="e604d-112">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-113">typeInfo</span><span class="sxs-lookup"><span data-stu-id="9d3c9-113">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="e604d-113">typeInfo</span><span class="sxs-lookup"><span data-stu-id="e604d-113">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-114">displayInfo</span><span class="sxs-lookup"><span data-stu-id="9d3c9-114">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="e604d-114">displayInfo</span><span class="sxs-lookup"><span data-stu-id="e604d-114">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-115">stringFormat</span><span class="sxs-lookup"><span data-stu-id="9d3c9-115">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="e604d-115">stringFormat</span><span class="sxs-lookup"><span data-stu-id="e604d-115">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-116">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="9d3c9-116">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="e604d-116">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="e604d-116">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-117">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="9d3c9-117">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="e604d-117">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="e604d-117">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-118">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="9d3c9-118">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="e604d-118">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="e604d-118">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-119">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="9d3c9-119">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="e604d-119">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="e604d-119">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-120">drawControl</span><span class="sxs-lookup"><span data-stu-id="9d3c9-120">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="e604d-120">drawControl</span><span class="sxs-lookup"><span data-stu-id="e604d-120">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-121">editControl</span><span class="sxs-lookup"><span data-stu-id="9d3c9-121">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="e604d-121">editControl</span><span class="sxs-lookup"><span data-stu-id="e604d-121">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-122">filterControl</span><span class="sxs-lookup"><span data-stu-id="9d3c9-122">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="e604d-122">filterControl</span><span class="sxs-lookup"><span data-stu-id="e604d-122">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="9d3c9-123">queryControl</span><span class="sxs-lookup"><span data-stu-id="9d3c9-123">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="e604d-123">queryControl</span><span class="sxs-lookup"><span data-stu-id="e604d-123">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  

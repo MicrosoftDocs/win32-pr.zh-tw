@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847230"
 ---
-# <a name="getting-the-active-console-session-id"></a><span data-ttu-id="b2026-104">取得使用中的主控台會話識別碼</span><span class="sxs-lookup"><span data-stu-id="b2026-104">Getting the Active Console Session ID</span></span>
+# <a name="getting-the-active-console-session-id"></a><span data-ttu-id="3f432-104">取得使用中的主控台會話識別碼</span><span class="sxs-lookup"><span data-stu-id="3f432-104">Getting the Active Console Session ID</span></span>
 
-<span data-ttu-id="b2026-105">下列 Winternl 定義是作用中終端機服務主控台會話識別碼的靜態記憶體位址。</span><span class="sxs-lookup"><span data-stu-id="b2026-105">The following Winternl.h definition is the static memory address of the active Terminal Services console session ID.</span></span> <span data-ttu-id="b2026-106">此使用中的主控台會話識別碼並非在 Windows XP 之前的 Microsoft Windows 作業系統版本中定義。</span><span class="sxs-lookup"><span data-stu-id="b2026-106">This active console session ID is not defined in versions of the Microsoft Windows operating system earlier than Windows XP.</span></span>
+<span data-ttu-id="3f432-105">下列 Winternl 定義是作用中終端機服務主控台會話識別碼的靜態記憶體位址。</span><span class="sxs-lookup"><span data-stu-id="3f432-105">The following Winternl.h definition is the static memory address of the active Terminal Services console session ID.</span></span> <span data-ttu-id="3f432-106">此使用中的主控台會話識別碼並非在 Windows XP 之前的 Microsoft Windows 作業系統版本中定義。</span><span class="sxs-lookup"><span data-stu-id="3f432-106">This active console session ID is not defined in versions of the Microsoft Windows operating system earlier than Windows XP.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="b2026-107">這項定義在未來的 Windows 版本中可能會變更。</span><span class="sxs-lookup"><span data-stu-id="b2026-107">This definition may change in future releases of Windows.</span></span> <span data-ttu-id="b2026-108">為確保您的應用程式會在未來繼續正常執行，您的應用程式必須呼叫 [**WTSGetActiveConsoleSessionId**](/windows/win32/api/winbase/nf-winbase-wtsgetactiveconsolesessionid)。</span><span class="sxs-lookup"><span data-stu-id="b2026-108">To ensure that your application will continue to run correctly in the future, your application must call [**WTSGetActiveConsoleSessionId**](/windows/win32/api/winbase/nf-winbase-wtsgetactiveconsolesessionid).</span></span>
+> <span data-ttu-id="3f432-107">這項定義在未來的 Windows 版本中可能會變更。</span><span class="sxs-lookup"><span data-stu-id="3f432-107">This definition may change in future releases of Windows.</span></span> <span data-ttu-id="3f432-108">為確保您的應用程式會在未來繼續正常執行，您的應用程式必須呼叫 [**WTSGetActiveConsoleSessionId**](/windows/win32/api/winbase/nf-winbase-wtsgetactiveconsolesessionid)。</span><span class="sxs-lookup"><span data-stu-id="3f432-108">To ensure that your application will continue to run correctly in the future, your application must call [**WTSGetActiveConsoleSessionId**](/windows/win32/api/winbase/nf-winbase-wtsgetactiveconsolesessionid).</span></span>
 
  
 

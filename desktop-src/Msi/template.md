@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848924"
 ---
-# <a name="template"></a><span data-ttu-id="f5a75-104">範本</span><span class="sxs-lookup"><span data-stu-id="f5a75-104">Template</span></span>
+# <a name="template"></a><span data-ttu-id="56e73-104">範本</span><span class="sxs-lookup"><span data-stu-id="56e73-104">Template</span></span>
 
-<span data-ttu-id="f5a75-105">範本資料類型是文字字串，其中可能包含以括弧括住的屬性 \[ \] 。</span><span class="sxs-lookup"><span data-stu-id="f5a75-105">The Template data type is a text string that may contain properties that are enclosed in brackets \[ \].</span></span> <span data-ttu-id="f5a75-106">範本類型允許所有 [格式化](formatted.md)的類型格式，以及1， \[  \] 其中 *1* 是數位。</span><span class="sxs-lookup"><span data-stu-id="f5a75-106">The template type allows all of the [Formatted](formatted.md) type formats, plus \[*1*\] where *1* is a number.</span></span>
+<span data-ttu-id="56e73-105">範本資料類型是文字字串，其中可能包含以括弧括住的屬性 \[ \] 。</span><span class="sxs-lookup"><span data-stu-id="56e73-105">The Template data type is a text string that may contain properties that are enclosed in brackets \[ \].</span></span> <span data-ttu-id="56e73-106">範本類型允許所有 [格式化](formatted.md)的類型格式，以及1， \[  \] 其中 *1* 是數位。</span><span class="sxs-lookup"><span data-stu-id="56e73-106">The template type allows all of the [Formatted](formatted.md) type formats, plus \[*1*\] where *1* is a number.</span></span>
 
  
 

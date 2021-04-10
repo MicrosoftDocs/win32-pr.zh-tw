@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848386"
 ---
-# <a name="windows7grbitsdirty-field"></a><span data-ttu-id="979d8-103">Windows7Grbits 欄位</span><span class="sxs-lookup"><span data-stu-id="979d8-103">Windows7Grbits.Dirty field</span></span>
+# <a name="windows7grbitsdirty-field"></a><span data-ttu-id="51dde-103">Windows7Grbits 欄位</span><span class="sxs-lookup"><span data-stu-id="51dde-103">Windows7Grbits.Dirty field</span></span>
 
-<span data-ttu-id="979d8-104">在不清除資料庫快取的情況下終止。</span><span class="sxs-lookup"><span data-stu-id="979d8-104">Terminate without flushing the database cache.</span></span>
+<span data-ttu-id="51dde-104">在不清除資料庫快取的情況下終止。</span><span class="sxs-lookup"><span data-stu-id="51dde-104">Terminate without flushing the database cache.</span></span>
 
-<span data-ttu-id="979d8-105">**命名空間：**  [Microsoft 最為理想](./microsoft.isam.esent.interop.windows7-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="979d8-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)</span></span>  
-<span data-ttu-id="979d8-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="979d8-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="51dde-105">**命名空間：**  [Microsoft 最為理想](./microsoft.isam.esent.interop.windows7-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="51dde-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)</span></span>  
+<span data-ttu-id="51dde-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="51dde-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="979d8-107">語法</span><span class="sxs-lookup"><span data-stu-id="979d8-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="51dde-107">語法</span><span class="sxs-lookup"><span data-stu-id="51dde-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = Windows7Grbits.Dirty
 public const TermGrbit Dirty
 ```
 
-## <a name="see-also"></a><span data-ttu-id="979d8-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="979d8-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="51dde-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="51dde-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="979d8-109">參考</span><span class="sxs-lookup"><span data-stu-id="979d8-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="51dde-109">參考</span><span class="sxs-lookup"><span data-stu-id="51dde-109">Reference</span></span>
 
-[<span data-ttu-id="979d8-110">Windows7Grbits 類別</span><span class="sxs-lookup"><span data-stu-id="979d8-110">Windows7Grbits class</span></span>](./windows7grbits-class.md)
+[<span data-ttu-id="51dde-110">Windows7Grbits 類別</span><span class="sxs-lookup"><span data-stu-id="51dde-110">Windows7Grbits class</span></span>](./windows7grbits-class.md)
 
-[<span data-ttu-id="979d8-111">Windows7Grbits 成員</span><span class="sxs-lookup"><span data-stu-id="979d8-111">Windows7Grbits members</span></span>](./windows7grbits-members.md)
+[<span data-ttu-id="51dde-111">Windows7Grbits 成員</span><span class="sxs-lookup"><span data-stu-id="51dde-111">Windows7Grbits members</span></span>](./windows7grbits-members.md)
 
-[<span data-ttu-id="979d8-112">最為理想命名空間。</span><span class="sxs-lookup"><span data-stu-id="979d8-112">Microsoft.Isam.Esent.Interop.Windows7 namespace</span></span>](./microsoft.isam.esent.interop.windows7-namespace.md)
+[<span data-ttu-id="51dde-112">最為理想命名空間。</span><span class="sxs-lookup"><span data-stu-id="51dde-112">Microsoft.Isam.Esent.Interop.Windows7 namespace</span></span>](./microsoft.isam.esent.interop.windows7-namespace.md)
