@@ -11,10 +11,10 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690504"
 ---
-# <a name="using-cng"></a><span data-ttu-id="bbb05-103">使用 CNG</span><span class="sxs-lookup"><span data-stu-id="bbb05-103">Using CNG</span></span>
+# <a name="using-cng"></a><span data-ttu-id="48c61-103">使用 CNG</span><span class="sxs-lookup"><span data-stu-id="48c61-103">Using CNG</span></span>
 
--   [<span data-ttu-id="bbb05-104">使用 CNG 的密碼編譯設定功能</span><span class="sxs-lookup"><span data-stu-id="bbb05-104">Using the Cryptography Configuration Features of CNG</span></span>](using-the-cryptography-configuration-features-of-cng.md)
--   [<span data-ttu-id="bbb05-105">一般 CNG 程式設計</span><span class="sxs-lookup"><span data-stu-id="bbb05-105">Typical CNG Programming</span></span>](typical-cng-programming.md)
+-   [<span data-ttu-id="48c61-104">使用 CNG 的密碼編譯設定功能</span><span class="sxs-lookup"><span data-stu-id="48c61-104">Using the Cryptography Configuration Features of CNG</span></span>](using-the-cryptography-configuration-features-of-cng.md)
+-   [<span data-ttu-id="48c61-105">一般 CNG 程式設計</span><span class="sxs-lookup"><span data-stu-id="48c61-105">Typical CNG Programming</span></span>](typical-cng-programming.md)
 
  
 

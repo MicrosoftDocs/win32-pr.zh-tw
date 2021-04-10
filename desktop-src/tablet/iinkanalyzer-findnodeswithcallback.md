@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690592"
 ---
-# <a name="iinkanalyzerfindnodeswithcallback-method"></a><span data-ttu-id="c8a17-103">IInkAnalyzer：： FindNodesWithCallBack 方法</span><span class="sxs-lookup"><span data-stu-id="c8a17-103">IInkAnalyzer::FindNodesWithCallBack method</span></span>
+# <a name="iinkanalyzerfindnodeswithcallback-method"></a><span data-ttu-id="1254e-103">IInkAnalyzer：： FindNodesWithCallBack 方法</span><span class="sxs-lookup"><span data-stu-id="1254e-103">IInkAnalyzer::FindNodesWithCallBack method</span></span>
 
-<span data-ttu-id="c8a17-104">抓取符合指定準則的所有 [**ICoNtextNode**](icontextnode.md) 物件。</span><span class="sxs-lookup"><span data-stu-id="c8a17-104">Retrieves all of the [**IContextNode**](icontextnode.md) objects that match the specified criteria.</span></span>
+<span data-ttu-id="1254e-104">抓取符合指定準則的所有 [**ICoNtextNode**](icontextnode.md) 物件。</span><span class="sxs-lookup"><span data-stu-id="1254e-104">Retrieves all of the [**IContextNode**](icontextnode.md) objects that match the specified criteria.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c8a17-105">語法</span><span class="sxs-lookup"><span data-stu-id="c8a17-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1254e-105">語法</span><span class="sxs-lookup"><span data-stu-id="1254e-105">Syntax</span></span>
 
 
 ```C++
@@ -36,82 +36,82 @@ HRESULT FindNodesWithCallBack(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="c8a17-106">參數</span><span class="sxs-lookup"><span data-stu-id="c8a17-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1254e-106">參數</span><span class="sxs-lookup"><span data-stu-id="1254e-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c8a17-107">*pCriteria* \[在\]</span><span class="sxs-lookup"><span data-stu-id="c8a17-107">*pCriteria* \[in\]</span></span>
+<span data-ttu-id="1254e-107">*pCriteria* \[在\]</span><span class="sxs-lookup"><span data-stu-id="1254e-107">*pCriteria* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="c8a17-108">用來評估 [**ICoNtextNode**](icontextnode.md)物件是否符合或失敗其指定準則的 [**IMatchesCriteriaCallBack**](imatchescriteriacallback.md)物件。</span><span class="sxs-lookup"><span data-stu-id="c8a17-108">An [**IMatchesCriteriaCallBack**](imatchescriteriacallback.md) object that is used to evaluate whether an [**IContextNode**](icontextnode.md) object meets or fails its specified criteria.</span></span>
+<span data-ttu-id="1254e-108">用來評估 [**ICoNtextNode**](icontextnode.md)物件是否符合或失敗其指定準則的 [**IMatchesCriteriaCallBack**](imatchescriteriacallback.md)物件。</span><span class="sxs-lookup"><span data-stu-id="1254e-108">An [**IMatchesCriteriaCallBack**](imatchescriteriacallback.md) object that is used to evaluate whether an [**IContextNode**](icontextnode.md) object meets or fails its specified criteria.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="c8a17-109">*ppCoNtextNodesFound* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="c8a17-109">*ppContextNodesFound* \[out\]</span></span>
+<span data-ttu-id="1254e-109">*ppCoNtextNodesFound* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="1254e-109">*ppContextNodesFound* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="c8a17-110">[**ICoNtextNodes**](icontextnodes.md)集合的指標，其中包含符合指定準則的所有節點。</span><span class="sxs-lookup"><span data-stu-id="c8a17-110">A pointer to the [**IContextNodes**](icontextnodes.md) collection containing all nodes that meet the specified criteria.</span></span>
+<span data-ttu-id="1254e-110">[**ICoNtextNodes**](icontextnodes.md)集合的指標，其中包含符合指定準則的所有節點。</span><span class="sxs-lookup"><span data-stu-id="1254e-110">A pointer to the [**IContextNodes**](icontextnodes.md) collection containing all nodes that meet the specified criteria.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="c8a17-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="c8a17-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1254e-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="1254e-111">Return value</span></span>
 
-<span data-ttu-id="c8a17-112">如需傳回值的描述，請參閱 [類別和介面-筆跡分析](classes-and-interfaces---ink-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="c8a17-112">For a description of the return values, see [Classes and Interfaces - Ink Analysis](classes-and-interfaces---ink-analysis.md).</span></span>
+<span data-ttu-id="1254e-112">如需傳回值的描述，請參閱 [類別和介面-筆跡分析](classes-and-interfaces---ink-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="1254e-112">For a description of the return values, see [Classes and Interfaces - Ink Analysis](classes-and-interfaces---ink-analysis.md).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c8a17-113">備註</span><span class="sxs-lookup"><span data-stu-id="c8a17-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1254e-113">備註</span><span class="sxs-lookup"><span data-stu-id="1254e-113">Remarks</span></span>
 
 > [!Caution]  
-> <span data-ttu-id="c8a17-114">若要避免記憶體流失，請在 ppCoNtextNodesFound 上呼叫 [**IUnknown：： Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) （ \* 當您不再需要使用物件時）。</span><span class="sxs-lookup"><span data-stu-id="c8a17-114">To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppContextNodesFound* when you no longer need to use the object.</span></span>
+> <span data-ttu-id="1254e-114">若要避免記憶體流失，請在 ppCoNtextNodesFound 上呼叫 [**IUnknown：： Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) （ \* 當您不再需要使用物件時）。</span><span class="sxs-lookup"><span data-stu-id="1254e-114">To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppContextNodesFound* when you no longer need to use the object.</span></span>
 
  
 
-<span data-ttu-id="c8a17-115">如果 [**IInkAnalyzer**](iinkanalyzer.md) 未包含這類 [**ICoNtextNode**](icontextnode.md)，則會傳回空的 [**ICoNtextNodes**](icontextnodes.md) 集合。</span><span class="sxs-lookup"><span data-stu-id="c8a17-115">If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](icontextnode.md), an empty [**IContextNodes**](icontextnodes.md) collection is returned.</span></span>
+<span data-ttu-id="1254e-115">如果 [**IInkAnalyzer**](iinkanalyzer.md) 未包含這類 [**ICoNtextNode**](icontextnode.md)，則會傳回空的 [**ICoNtextNodes**](icontextnodes.md) 集合。</span><span class="sxs-lookup"><span data-stu-id="1254e-115">If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](icontextnode.md), an empty [**IContextNodes**](icontextnodes.md) collection is returned.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="c8a17-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="c8a17-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="1254e-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="1254e-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="c8a17-117">需求</span><span class="sxs-lookup"><span data-stu-id="c8a17-117">Requirement</span></span> | <span data-ttu-id="c8a17-118">值</span><span class="sxs-lookup"><span data-stu-id="c8a17-118">Value</span></span> |
+| <span data-ttu-id="1254e-117">需求</span><span class="sxs-lookup"><span data-stu-id="1254e-117">Requirement</span></span> | <span data-ttu-id="1254e-118">值</span><span class="sxs-lookup"><span data-stu-id="1254e-118">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="c8a17-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c8a17-119">Minimum supported client</span></span><br/> | <span data-ttu-id="c8a17-120">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c8a17-120">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                 |
-| <span data-ttu-id="c8a17-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c8a17-121">Minimum supported server</span></span><br/> | <span data-ttu-id="c8a17-122">都不支援</span><span class="sxs-lookup"><span data-stu-id="c8a17-122">None supported</span></span><br/>                                                                                     |
-| <span data-ttu-id="c8a17-123">標頭</span><span class="sxs-lookup"><span data-stu-id="c8a17-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="c8a17-124"><dt>IACom (也需要 IACom \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="c8a17-124"><dt>IACom.h (also requires IACom\_i.c)</dt></span></span> </dl> |
-| <span data-ttu-id="c8a17-125">DLL</span><span class="sxs-lookup"><span data-stu-id="c8a17-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c8a17-126"><dt>IACom.dll</dt></span><span class="sxs-lookup"><span data-stu-id="c8a17-126"><dt>IACom.dll</dt></span></span> </dl>                          |
+| <span data-ttu-id="1254e-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1254e-119">Minimum supported client</span></span><br/> | <span data-ttu-id="1254e-120">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1254e-120">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                 |
+| <span data-ttu-id="1254e-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1254e-121">Minimum supported server</span></span><br/> | <span data-ttu-id="1254e-122">都不支援</span><span class="sxs-lookup"><span data-stu-id="1254e-122">None supported</span></span><br/>                                                                                     |
+| <span data-ttu-id="1254e-123">標頭</span><span class="sxs-lookup"><span data-stu-id="1254e-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="1254e-124"><dt>IACom (也需要 IACom \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="1254e-124"><dt>IACom.h (also requires IACom\_i.c)</dt></span></span> </dl> |
+| <span data-ttu-id="1254e-125">DLL</span><span class="sxs-lookup"><span data-stu-id="1254e-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="1254e-126"><dt>IACom.dll</dt></span><span class="sxs-lookup"><span data-stu-id="1254e-126"><dt>IACom.dll</dt></span></span> </dl>                          |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="c8a17-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c8a17-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1254e-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1254e-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c8a17-128">**IInkAnalyzer**</span><span class="sxs-lookup"><span data-stu-id="c8a17-128">**IInkAnalyzer**</span></span>](iinkanalyzer.md)
+[<span data-ttu-id="1254e-128">**IInkAnalyzer**</span><span class="sxs-lookup"><span data-stu-id="1254e-128">**IInkAnalyzer**</span></span>](iinkanalyzer.md)
 </dt> <dt>
 
-[<span data-ttu-id="c8a17-129">**IInkAnalyzer：： FindInkLeafNodes 方法**</span><span class="sxs-lookup"><span data-stu-id="c8a17-129">**IInkAnalyzer::FindInkLeafNodes Method**</span></span>](iinkanalyzer-findinkleafnodes.md)
+[<span data-ttu-id="1254e-129">**IInkAnalyzer：： FindInkLeafNodes 方法**</span><span class="sxs-lookup"><span data-stu-id="1254e-129">**IInkAnalyzer::FindInkLeafNodes Method**</span></span>](iinkanalyzer-findinkleafnodes.md)
 </dt> <dt>
 
-[<span data-ttu-id="c8a17-130">**IInkAnalyzer：： FindInkLeafNodesForStrokes 方法**</span><span class="sxs-lookup"><span data-stu-id="c8a17-130">**IInkAnalyzer::FindInkLeafNodesForStrokes Method**</span></span>](iinkanalyzer-findinkleafnodesforstrokes.md)
+[<span data-ttu-id="1254e-130">**IInkAnalyzer：： FindInkLeafNodesForStrokes 方法**</span><span class="sxs-lookup"><span data-stu-id="1254e-130">**IInkAnalyzer::FindInkLeafNodesForStrokes Method**</span></span>](iinkanalyzer-findinkleafnodesforstrokes.md)
 </dt> <dt>
 
-[<span data-ttu-id="c8a17-131">**IInkAnalyzer：： FindLeafNodes 方法**</span><span class="sxs-lookup"><span data-stu-id="c8a17-131">**IInkAnalyzer::FindLeafNodes Method**</span></span>](iinkanalyzer-findleafnodes.md)
+[<span data-ttu-id="1254e-131">**IInkAnalyzer：： FindLeafNodes 方法**</span><span class="sxs-lookup"><span data-stu-id="1254e-131">**IInkAnalyzer::FindLeafNodes Method**</span></span>](iinkanalyzer-findleafnodes.md)
 </dt> <dt>
 
-[<span data-ttu-id="c8a17-132">**IInkAnalyzer：： FindNode 方法**</span><span class="sxs-lookup"><span data-stu-id="c8a17-132">**IInkAnalyzer::FindNode Method**</span></span>](iinkanalyzer-findnode.md)
+[<span data-ttu-id="1254e-132">**IInkAnalyzer：： FindNode 方法**</span><span class="sxs-lookup"><span data-stu-id="1254e-132">**IInkAnalyzer::FindNode Method**</span></span>](iinkanalyzer-findnode.md)
 </dt> <dt>
 
-[<span data-ttu-id="c8a17-133">**IInkAnalyzer：： FindNodesOfType 方法**</span><span class="sxs-lookup"><span data-stu-id="c8a17-133">**IInkAnalyzer::FindNodesOfType Method**</span></span>](iinkanalyzer-findnodesoftype.md)
+[<span data-ttu-id="1254e-133">**IInkAnalyzer：： FindNodesOfType 方法**</span><span class="sxs-lookup"><span data-stu-id="1254e-133">**IInkAnalyzer::FindNodesOfType Method**</span></span>](iinkanalyzer-findnodesoftype.md)
 </dt> <dt>
 
-[<span data-ttu-id="c8a17-134">**IInkAnalyzer：： FindNodesOfTypeForStrokes 方法**</span><span class="sxs-lookup"><span data-stu-id="c8a17-134">**IInkAnalyzer::FindNodesOfTypeForStrokes Method**</span></span>](iinkanalyzer-findnodesoftypeforstrokes.md)
+[<span data-ttu-id="1254e-134">**IInkAnalyzer：： FindNodesOfTypeForStrokes 方法**</span><span class="sxs-lookup"><span data-stu-id="1254e-134">**IInkAnalyzer::FindNodesOfTypeForStrokes Method**</span></span>](iinkanalyzer-findnodesoftypeforstrokes.md)
 </dt> <dt>
 
-[<span data-ttu-id="c8a17-135">**IInkAnalyzer：： FindNodesOfTypeInSubTree 方法**</span><span class="sxs-lookup"><span data-stu-id="c8a17-135">**IInkAnalyzer::FindNodesOfTypeInSubTree Method**</span></span>](iinkanalyzer-findnodesoftypeinsubtree.md)
+[<span data-ttu-id="1254e-135">**IInkAnalyzer：： FindNodesOfTypeInSubTree 方法**</span><span class="sxs-lookup"><span data-stu-id="1254e-135">**IInkAnalyzer::FindNodesOfTypeInSubTree Method**</span></span>](iinkanalyzer-findnodesoftypeinsubtree.md)
 </dt> <dt>
 
-[<span data-ttu-id="c8a17-136">**IInkAnalyzer：： FindNodesWithCallBackInSubTree 方法**</span><span class="sxs-lookup"><span data-stu-id="c8a17-136">**IInkAnalyzer::FindNodesWithCallBackInSubTree Method**</span></span>](iinkanalyzer-findnodeswithcallbackinsubtree.md)
+[<span data-ttu-id="1254e-136">**IInkAnalyzer：： FindNodesWithCallBackInSubTree 方法**</span><span class="sxs-lookup"><span data-stu-id="1254e-136">**IInkAnalyzer::FindNodesWithCallBackInSubTree Method**</span></span>](iinkanalyzer-findnodeswithcallbackinsubtree.md)
 </dt> <dt>
 
-[<span data-ttu-id="c8a17-137">筆跡分析參考</span><span class="sxs-lookup"><span data-stu-id="c8a17-137">Ink Analysis Reference</span></span>](ink-analysis-reference.md)
+[<span data-ttu-id="1254e-137">筆跡分析參考</span><span class="sxs-lookup"><span data-stu-id="1254e-137">Ink Analysis Reference</span></span>](ink-analysis-reference.md)
 </dt> </dl>
 
  

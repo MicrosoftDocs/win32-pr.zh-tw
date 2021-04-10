@@ -16,13 +16,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103936158"
 ---
-# <a name="replication-model-in-active-directory-domain-services"></a><span data-ttu-id="9e2af-106">Active Directory Domain Services 中的複寫模型</span><span class="sxs-lookup"><span data-stu-id="9e2af-106">Replication Model in Active Directory Domain Services</span></span>
+# <a name="replication-model-in-active-directory-domain-services"></a><span data-ttu-id="529c6-106">Active Directory Domain Services 中的複寫模型</span><span class="sxs-lookup"><span data-stu-id="529c6-106">Replication Model in Active Directory Domain Services</span></span>
 
-<span data-ttu-id="9e2af-107">本節包含下列主題：</span><span class="sxs-lookup"><span data-stu-id="9e2af-107">This section includes the following topics:</span></span>
+<span data-ttu-id="529c6-107">本節包含下列主題：</span><span class="sxs-lookup"><span data-stu-id="529c6-107">This section includes the following topics:</span></span>
 
--   [<span data-ttu-id="9e2af-108">Active Directory Domain Services 的複寫模型功能</span><span class="sxs-lookup"><span data-stu-id="9e2af-108">Features of the Replication Model for Active Directory Domain Services</span></span>](features-of-the-replication-model-for-active-directory-domain-services.md)
--   [<span data-ttu-id="9e2af-109">為何 Active Directory Domain Services 使用此複寫模型</span><span class="sxs-lookup"><span data-stu-id="9e2af-109">Why Active Directory Domain Services Uses This Replication Model</span></span>](why-active-directory-domain-services-uses-this-replication-model.md)
--   [<span data-ttu-id="9e2af-110">程式設計人員在 Active Directory Domain Services 中的複寫模型</span><span class="sxs-lookup"><span data-stu-id="9e2af-110">A Programmer's Model of Replication in Active Directory Domain Services</span></span>](a-programmerampaposs-model-of-replication-in-active-directory-domain-services.md)
+-   [<span data-ttu-id="529c6-108">Active Directory Domain Services 的複寫模型功能</span><span class="sxs-lookup"><span data-stu-id="529c6-108">Features of the Replication Model for Active Directory Domain Services</span></span>](features-of-the-replication-model-for-active-directory-domain-services.md)
+-   [<span data-ttu-id="529c6-109">為何 Active Directory Domain Services 使用此複寫模型</span><span class="sxs-lookup"><span data-stu-id="529c6-109">Why Active Directory Domain Services Uses This Replication Model</span></span>](why-active-directory-domain-services-uses-this-replication-model.md)
+-   [<span data-ttu-id="529c6-110">程式設計人員在 Active Directory Domain Services 中的複寫模型</span><span class="sxs-lookup"><span data-stu-id="529c6-110">A Programmer's Model of Replication in Active Directory Domain Services</span></span>](a-programmerampaposs-model-of-replication-in-active-directory-domain-services.md)
 
  
 

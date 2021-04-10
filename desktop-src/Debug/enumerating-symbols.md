@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103936043"
 ---
-# <a name="enumerating-symbols"></a><span data-ttu-id="1b1b8-103">列舉符號</span><span class="sxs-lookup"><span data-stu-id="1b1b8-103">Enumerating Symbols</span></span>
+# <a name="enumerating-symbols"></a><span data-ttu-id="3ce3e-103">列舉符號</span><span class="sxs-lookup"><span data-stu-id="3ce3e-103">Enumerating Symbols</span></span>
 
-<span data-ttu-id="1b1b8-104">下列程式碼會顯示指定模組中每個已載入符號的名稱、位址和大小。</span><span class="sxs-lookup"><span data-stu-id="1b1b8-104">The following code displays the name, address, and size of each loaded symbol in the specified module.</span></span> <span data-ttu-id="1b1b8-105">[**SymEnumSymbols**](/windows/desktop/api/Dbghelp/nf-dbghelp-symenumsymbols)函式需要回呼函式，此函式會針對每個已載入的模組呼叫一次。</span><span class="sxs-lookup"><span data-stu-id="1b1b8-105">The [**SymEnumSymbols**](/windows/desktop/api/Dbghelp/nf-dbghelp-symenumsymbols) function requires a callback function, which is called once for each module loaded.</span></span> <span data-ttu-id="1b1b8-106">在此範例中，EnumSymProc 是回呼函式的實作為。</span><span class="sxs-lookup"><span data-stu-id="1b1b8-106">In this example, EnumSymProc is an implementation of the callback function.</span></span>
+<span data-ttu-id="3ce3e-104">下列程式碼會顯示指定模組中每個已載入符號的名稱、位址和大小。</span><span class="sxs-lookup"><span data-stu-id="3ce3e-104">The following code displays the name, address, and size of each loaded symbol in the specified module.</span></span> <span data-ttu-id="3ce3e-105">[**SymEnumSymbols**](/windows/desktop/api/Dbghelp/nf-dbghelp-symenumsymbols)函式需要回呼函式，此函式會針對每個已載入的模組呼叫一次。</span><span class="sxs-lookup"><span data-stu-id="3ce3e-105">The [**SymEnumSymbols**](/windows/desktop/api/Dbghelp/nf-dbghelp-symenumsymbols) function requires a callback function, which is called once for each module loaded.</span></span> <span data-ttu-id="3ce3e-106">在此範例中，EnumSymProc 是回呼函式的實作為。</span><span class="sxs-lookup"><span data-stu-id="3ce3e-106">In this example, EnumSymProc is an implementation of the callback function.</span></span>
 
 
 ```C++

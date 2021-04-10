@@ -35,16 +35,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103693271"
 ---
-# <a name="jetindexcolumngrbit-enumeration"></a><span data-ttu-id="1f84d-103">JetIndexColumnGrbit 列舉</span><span class="sxs-lookup"><span data-stu-id="1f84d-103">JetIndexColumnGrbit enumeration</span></span>
+# <a name="jetindexcolumngrbit-enumeration"></a><span data-ttu-id="bc82c-103">JetIndexColumnGrbit 列舉</span><span class="sxs-lookup"><span data-stu-id="bc82c-103">JetIndexColumnGrbit enumeration</span></span>
 
-<span data-ttu-id="1f84d-104">[JET_INDEX_COLUMN](./jet-index-column-class.md)的選項。</span><span class="sxs-lookup"><span data-stu-id="1f84d-104">Options for [JET_INDEX_COLUMN](./jet-index-column-class.md).</span></span>
+<span data-ttu-id="bc82c-104">[JET_INDEX_COLUMN](./jet-index-column-class.md)的選項。</span><span class="sxs-lookup"><span data-stu-id="bc82c-104">Options for [JET_INDEX_COLUMN](./jet-index-column-class.md).</span></span>
 
-<span data-ttu-id="1f84d-105">此列舉有 [FlagsAttribute](/dotnet/api/system.flagsattribute) 屬性，因此其成員值可進行位元組合。</span><span class="sxs-lookup"><span data-stu-id="1f84d-105">This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.</span></span>
+<span data-ttu-id="bc82c-105">此列舉有 [FlagsAttribute](/dotnet/api/system.flagsattribute) 屬性，因此其成員值可進行位元組合。</span><span class="sxs-lookup"><span data-stu-id="bc82c-105">This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.</span></span>
 
-<span data-ttu-id="1f84d-106">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="1f84d-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="1f84d-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="1f84d-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="bc82c-106">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="bc82c-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="bc82c-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="bc82c-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1f84d-108">語法</span><span class="sxs-lookup"><span data-stu-id="1f84d-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bc82c-108">語法</span><span class="sxs-lookup"><span data-stu-id="bc82c-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -59,33 +59,33 @@ Dim instance As JetIndexColumnGrbit
 public enum JetIndexColumnGrbit
 ```
 
-## <a name="members"></a><span data-ttu-id="1f84d-109">成員</span><span class="sxs-lookup"><span data-stu-id="1f84d-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="bc82c-109">成員</span><span class="sxs-lookup"><span data-stu-id="bc82c-109">Members</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="1f84d-110">成員名稱</span><span class="sxs-lookup"><span data-stu-id="1f84d-110">Member name</span></span></th>
-<th><span data-ttu-id="1f84d-111">描述</span><span class="sxs-lookup"><span data-stu-id="1f84d-111">Description</span></span></th>
+<th><span data-ttu-id="bc82c-110">成員名稱</span><span class="sxs-lookup"><span data-stu-id="bc82c-110">Member name</span></span></th>
+<th><span data-ttu-id="bc82c-111">描述</span><span class="sxs-lookup"><span data-stu-id="bc82c-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td></td>
-<td><span data-ttu-id="1f84d-112">無</span><span class="sxs-lookup"><span data-stu-id="1f84d-112">None</span></span></td>
-<td><span data-ttu-id="1f84d-113">預設選項。</span><span class="sxs-lookup"><span data-stu-id="1f84d-113">Default options.</span></span></td>
+<td><span data-ttu-id="bc82c-112">無</span><span class="sxs-lookup"><span data-stu-id="bc82c-112">None</span></span></td>
+<td><span data-ttu-id="bc82c-113">預設選項。</span><span class="sxs-lookup"><span data-stu-id="bc82c-113">Default options.</span></span></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><span data-ttu-id="1f84d-114">ZeroLength</span><span class="sxs-lookup"><span data-stu-id="1f84d-114">ZeroLength</span></span></td>
-<td><span data-ttu-id="1f84d-115">零長度的值 (非 null 的) 。</span><span class="sxs-lookup"><span data-stu-id="1f84d-115">Zero-length value (non-null).</span></span></td>
+<td><span data-ttu-id="bc82c-114">ZeroLength</span><span class="sxs-lookup"><span data-stu-id="bc82c-114">ZeroLength</span></span></td>
+<td><span data-ttu-id="bc82c-115">零長度的值 (非 null 的) 。</span><span class="sxs-lookup"><span data-stu-id="bc82c-115">Zero-length value (non-null).</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="see-also"></a><span data-ttu-id="1f84d-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1f84d-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bc82c-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bc82c-116">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="1f84d-117">參考</span><span class="sxs-lookup"><span data-stu-id="1f84d-117">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="bc82c-117">參考</span><span class="sxs-lookup"><span data-stu-id="bc82c-117">Reference</span></span>
 
-[<span data-ttu-id="1f84d-118">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="1f84d-118">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="bc82c-118">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="bc82c-118">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

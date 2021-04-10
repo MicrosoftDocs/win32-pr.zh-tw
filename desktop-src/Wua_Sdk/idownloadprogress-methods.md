@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690731"
 ---
-# <a name="idownloadprogress-methods"></a><span data-ttu-id="b00f2-103">IDownloadProgress 方法</span><span class="sxs-lookup"><span data-stu-id="b00f2-103">IDownloadProgress Methods</span></span>
+# <a name="idownloadprogress-methods"></a><span data-ttu-id="c5e28-103">IDownloadProgress 方法</span><span class="sxs-lookup"><span data-stu-id="c5e28-103">IDownloadProgress Methods</span></span>
 
-<span data-ttu-id="b00f2-104">[**IDownloadProgress**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadprogress)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="b00f2-104">The [**IDownloadProgress**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadprogress) interface defines the following method.</span></span>
+<span data-ttu-id="c5e28-104">[**IDownloadProgress**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadprogress)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="c5e28-104">The [**IDownloadProgress**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadprogress) interface defines the following method.</span></span>
 
 
 
-| <span data-ttu-id="b00f2-105">方法</span><span class="sxs-lookup"><span data-stu-id="b00f2-105">Method</span></span>                                                       | <span data-ttu-id="b00f2-106">描述</span><span class="sxs-lookup"><span data-stu-id="b00f2-106">Description</span></span>                                               |
+| <span data-ttu-id="c5e28-105">方法</span><span class="sxs-lookup"><span data-stu-id="c5e28-105">Method</span></span>                                                       | <span data-ttu-id="c5e28-106">描述</span><span class="sxs-lookup"><span data-stu-id="c5e28-106">Description</span></span>                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------|
-| [<span data-ttu-id="b00f2-107">**GetUpdateResult**</span><span class="sxs-lookup"><span data-stu-id="b00f2-107">**GetUpdateResult**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-getupdateresult) | <span data-ttu-id="b00f2-108">傳回所指定更新的下載結果。</span><span class="sxs-lookup"><span data-stu-id="b00f2-108">Returns the result of the download of a specified update.</span></span> |
+| [<span data-ttu-id="c5e28-107">**GetUpdateResult**</span><span class="sxs-lookup"><span data-stu-id="c5e28-107">**GetUpdateResult**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-getupdateresult) | <span data-ttu-id="c5e28-108">傳回所指定更新的下載結果。</span><span class="sxs-lookup"><span data-stu-id="c5e28-108">Returns the result of the download of a specified update.</span></span> |
 
 
 

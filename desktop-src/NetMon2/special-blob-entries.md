@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690764"
 ---
-# <a name="special-blob-entries"></a><span data-ttu-id="1228b-103">特殊 BLOB 專案</span><span class="sxs-lookup"><span data-stu-id="1228b-103">Special BLOB Entries</span></span>
+# <a name="special-blob-entries"></a><span data-ttu-id="c1eaf-103">特殊 BLOB 專案</span><span class="sxs-lookup"><span data-stu-id="c1eaf-103">Special BLOB Entries</span></span>
 
-<span data-ttu-id="1228b-104">下列範例會使用 [**SetStringInBlob**](setstringinblob.md) 函數來建立特殊的 BLOB 專案。</span><span class="sxs-lookup"><span data-stu-id="1228b-104">The following examples use the [**SetStringInBlob**](setstringinblob.md) function to create special BLOB entries.</span></span>
+<span data-ttu-id="c1eaf-104">下列範例會使用 [**SetStringInBlob**](setstringinblob.md) 函數來建立特殊的 BLOB 專案。</span><span class="sxs-lookup"><span data-stu-id="c1eaf-104">The following examples use the [**SetStringInBlob**](setstringinblob.md) function to create special BLOB entries.</span></span>
 
-## <a name="npp-name"></a><span data-ttu-id="1228b-105">NPP 名稱</span><span class="sxs-lookup"><span data-stu-id="1228b-105">NPP Name</span></span>
+## <a name="npp-name"></a><span data-ttu-id="c1eaf-105">NPP 名稱</span><span class="sxs-lookup"><span data-stu-id="c1eaf-105">NPP Name</span></span>
 
 ``` syntax
 SetStringInBlob(
@@ -26,7 +26,7 @@ SetStringInBlob(
    "My NPP Name"); 
 ```
 
-## <a name="npp-class-identifier"></a><span data-ttu-id="1228b-106">NPP 類別識別碼</span><span class="sxs-lookup"><span data-stu-id="1228b-106">NPP Class Identifier</span></span>
+## <a name="npp-class-identifier"></a><span data-ttu-id="c1eaf-106">NPP 類別識別碼</span><span class="sxs-lookup"><span data-stu-id="c1eaf-106">NPP Class Identifier</span></span>
 
 ``` syntax
 SetClassIDInBlob(
@@ -37,7 +37,7 @@ SetClassIDInBlob(
    &CLSID_ThisNPP);
 ```
 
-## <a name="cfgproc-procedure-name"></a><span data-ttu-id="1228b-107">CFGPROC 程式名稱</span><span class="sxs-lookup"><span data-stu-id="1228b-107">CFGPROC Procedure Name</span></span>
+## <a name="cfgproc-procedure-name"></a><span data-ttu-id="c1eaf-107">CFGPROC 程式名稱</span><span class="sxs-lookup"><span data-stu-id="c1eaf-107">CFGPROC Procedure Name</span></span>
 
 ``` syntax
 SetStringInBlob(
@@ -48,7 +48,7 @@ SetStringInBlob(
    "MyGetNPPBlobs");
 ```
 
-## <a name="tree-root-name-for-finder-ui"></a><span data-ttu-id="1228b-108">Finder UI 的樹狀目錄根名稱</span><span class="sxs-lookup"><span data-stu-id="1228b-108">Tree Root Name for Finder UI</span></span>
+## <a name="tree-root-name-for-finder-ui"></a><span data-ttu-id="c1eaf-108">Finder UI 的樹狀目錄根名稱</span><span class="sxs-lookup"><span data-stu-id="c1eaf-108">Tree Root Name for Finder UI</span></span>
 
 ``` syntax
 SetStringInBlob(
@@ -59,7 +59,7 @@ SetStringInBlob(
    "My Tree Root name");
 ```
 
-## <a name="display-string-for-finder-ui"></a><span data-ttu-id="1228b-109">搜尋工具 UI 的顯示字串</span><span class="sxs-lookup"><span data-stu-id="1228b-109">Display String for Finder UI</span></span>
+## <a name="display-string-for-finder-ui"></a><span data-ttu-id="c1eaf-109">搜尋工具 UI 的顯示字串</span><span class="sxs-lookup"><span data-stu-id="c1eaf-109">Display String for Finder UI</span></span>
 
 ``` syntax
 SetStringInBlob(
@@ -70,9 +70,9 @@ SetStringInBlob(
    "Double click to select my UI");
 ```
 
-## <a name="interface-tags"></a><span data-ttu-id="1228b-110">介面標記</span><span class="sxs-lookup"><span data-stu-id="1228b-110">Interface Tags</span></span>
+## <a name="interface-tags"></a><span data-ttu-id="c1eaf-110">介面標記</span><span class="sxs-lookup"><span data-stu-id="c1eaf-110">Interface Tags</span></span>
 
-<span data-ttu-id="1228b-111">此範例包含 NPP 所支援的每個介面。</span><span class="sxs-lookup"><span data-stu-id="1228b-111">This example includes every interface supported by the NPP.</span></span>
+<span data-ttu-id="c1eaf-111">此範例包含 NPP 所支援的每個介面。</span><span class="sxs-lookup"><span data-stu-id="c1eaf-111">This example includes every interface supported by the NPP.</span></span>
 
 ``` syntax
 SetBoolInBlob(  

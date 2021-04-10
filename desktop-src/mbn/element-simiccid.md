@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690652"
 ---
-# <a name="span-idwwan_profile_v4element_simiccidspanmbnprofileextsimiccid-v4"></a><span data-ttu-id="271b2-103"><span id="WWAN_profile_v4.element_SimIccID"></span>MBNProfileExt \/ SimIccID (v4) </span><span class="sxs-lookup"><span data-stu-id="271b2-103"><span id="WWAN_profile_v4.element_SimIccID"></span>MBNProfileExt\/SimIccID (v4)</span></span>
+# <a name="span-idwwan_profile_v4element_simiccidspanmbnprofileextsimiccid-v4"></a><span data-ttu-id="4a756-103"><span id="WWAN_profile_v4.element_SimIccID"></span>MBNProfileExt \/ SimIccID (v4) </span><span class="sxs-lookup"><span data-stu-id="4a756-103"><span id="WWAN_profile_v4.element_SimIccID"></span>MBNProfileExt\/SimIccID (v4)</span></span>
 
-<span data-ttu-id="271b2-104">適用于 GSM 裝置的 SIM Identifcation 號碼。</span><span class="sxs-lookup"><span data-stu-id="271b2-104">The SIM Identifcation number for GSM devices.</span></span> <span data-ttu-id="271b2-105">如需詳細資訊，請參閱 v1 [**SimIccID**](./schema-simiccid-mbnprofile-element.md) 元素的檔。</span><span class="sxs-lookup"><span data-stu-id="271b2-105">For more details , see the documentation for the v1 [**SimIccID**](./schema-simiccid-mbnprofile-element.md) element.</span></span>
+<span data-ttu-id="4a756-104">適用于 GSM 裝置的 SIM Identifcation 號碼。</span><span class="sxs-lookup"><span data-stu-id="4a756-104">The SIM Identifcation number for GSM devices.</span></span> <span data-ttu-id="4a756-105">如需詳細資訊，請參閱 v1 [**SimIccID**](./schema-simiccid-mbnprofile-element.md) 元素的檔。</span><span class="sxs-lookup"><span data-stu-id="4a756-105">For more details , see the documentation for the v1 [**SimIccID**](./schema-simiccid-mbnprofile-element.md) element.</span></span>
 
-## <a name="element-hierarchy"></a><span data-ttu-id="271b2-106">元素階層</span><span class="sxs-lookup"><span data-stu-id="271b2-106">Element hierarchy</span></span>
+## <a name="element-hierarchy"></a><span data-ttu-id="4a756-106">元素階層</span><span class="sxs-lookup"><span data-stu-id="4a756-106">Element hierarchy</span></span>
 
 [\<MBNProfileExt\>](element-mbnprofileext.md)  
 &nbsp;&nbsp;**\<SimIccID\>**
@@ -26,7 +26,7 @@ ms.locfileid: "103690652"
 [\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
 &nbsp;&nbsp;**\<SimIccID\>**
 
-## <a name="syntax"></a><span data-ttu-id="271b2-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="271b2-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4a756-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="4a756-107">Syntax</span></span>
 
 ``` syntax
 <SimIccID>
@@ -36,17 +36,17 @@ ms.locfileid: "103690652"
 </SimIccID>
 ```
 
-## <a name="span-idattributes_and_elementsspanspan-idattributes_and_elementsspanspan-idattributes_and_elementsspanattributes-and-elements"></a><span data-ttu-id="271b2-108"><span id="Attributes_and_Elements"></span><span id="attributes_and_elements"></span><span id="ATTRIBUTES_AND_ELEMENTS"></span>屬性和元素</span><span class="sxs-lookup"><span data-stu-id="271b2-108"><span id="Attributes_and_Elements"></span><span id="attributes_and_elements"></span><span id="ATTRIBUTES_AND_ELEMENTS"></span>Attributes and Elements</span></span>
+## <a name="span-idattributes_and_elementsspanspan-idattributes_and_elementsspanspan-idattributes_and_elementsspanattributes-and-elements"></a><span data-ttu-id="4a756-108"><span id="Attributes_and_Elements"></span><span id="attributes_and_elements"></span><span id="ATTRIBUTES_AND_ELEMENTS"></span>屬性和元素</span><span class="sxs-lookup"><span data-stu-id="4a756-108"><span id="Attributes_and_Elements"></span><span id="attributes_and_elements"></span><span id="ATTRIBUTES_AND_ELEMENTS"></span>Attributes and Elements</span></span>
 
-### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span data-ttu-id="271b2-109"><span id="attributes"></span><span id="ATTRIBUTES"></span>屬性</span><span class="sxs-lookup"><span data-stu-id="271b2-109"><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributes</span></span>
+### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span data-ttu-id="4a756-109"><span id="attributes"></span><span id="ATTRIBUTES"></span>屬性</span><span class="sxs-lookup"><span data-stu-id="4a756-109"><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributes</span></span>
 
-<span data-ttu-id="271b2-110">無。</span><span class="sxs-lookup"><span data-stu-id="271b2-110">None.</span></span>
+<span data-ttu-id="4a756-110">無。</span><span class="sxs-lookup"><span data-stu-id="4a756-110">None.</span></span>
 
-### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span data-ttu-id="271b2-111"><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>子項目</span><span class="sxs-lookup"><span data-stu-id="271b2-111"><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Child Elements</span></span>
+### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span data-ttu-id="4a756-111"><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>子項目</span><span class="sxs-lookup"><span data-stu-id="4a756-111"><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Child Elements</span></span>
 
-<span data-ttu-id="271b2-112">無。</span><span class="sxs-lookup"><span data-stu-id="271b2-112">None.</span></span>
+<span data-ttu-id="4a756-112">無。</span><span class="sxs-lookup"><span data-stu-id="4a756-112">None.</span></span>
 
-### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span data-ttu-id="271b2-113"><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素</span><span class="sxs-lookup"><span data-stu-id="271b2-113"><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements</span></span>
+### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span data-ttu-id="4a756-113"><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>父元素</span><span class="sxs-lookup"><span data-stu-id="4a756-113"><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements</span></span>
 
 <table>
 <colgroup>
@@ -55,26 +55,26 @@ ms.locfileid: "103690652"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="271b2-114">Parent 項目</span><span class="sxs-lookup"><span data-stu-id="271b2-114">Parent Element</span></span></th>
-<th><span data-ttu-id="271b2-115">Description</span><span class="sxs-lookup"><span data-stu-id="271b2-115">Description</span></span></th>
+<th><span data-ttu-id="4a756-114">Parent 項目</span><span class="sxs-lookup"><span data-stu-id="4a756-114">Parent Element</span></span></th>
+<th><span data-ttu-id="4a756-115">Description</span><span class="sxs-lookup"><span data-stu-id="4a756-115">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="271b2-116"><a href="element-mbnprofileext.md">MBNProfileExt</a></span><span class="sxs-lookup"><span data-stu-id="271b2-116"><a href="element-mbnprofileext.md">MBNProfileExt</a></span></span></td>
-<td><p><span data-ttu-id="271b2-117"><strong>MBNProfileExt</strong>元素是先前 MBNProfile 專案的延伸模組。</span><span class="sxs-lookup"><span data-stu-id="271b2-117">The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element.</span></span> <span data-ttu-id="271b2-118">它會以比 MBNProfile 元素更豐富的選項組來識別行動寬頻設定檔。</span><span class="sxs-lookup"><span data-stu-id="271b2-118">It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</span></span></p>
-<p><span data-ttu-id="271b2-119">設定檔中可以有一個以上的 MbnProfileExt 元素，描述一組特定作業條件的設定檔設定。</span><span class="sxs-lookup"><span data-stu-id="271b2-119">There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions.</span></span> <span data-ttu-id="271b2-120">使用<strong>MBNProfileExt</strong>的<a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a>子項目，以指定哪些作業條件會將特定的設定檔設為使用中的設定檔。</span><span class="sxs-lookup"><span data-stu-id="271b2-120">Use the <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</span></span></p></td>
+<td><span data-ttu-id="4a756-116"><a href="element-mbnprofileext.md">MBNProfileExt</a></span><span class="sxs-lookup"><span data-stu-id="4a756-116"><a href="element-mbnprofileext.md">MBNProfileExt</a></span></span></td>
+<td><p><span data-ttu-id="4a756-117"><strong>MBNProfileExt</strong>元素是先前 MBNProfile 專案的延伸模組。</span><span class="sxs-lookup"><span data-stu-id="4a756-117">The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element.</span></span> <span data-ttu-id="4a756-118">它會以比 MBNProfile 元素更豐富的選項組來識別行動寬頻設定檔。</span><span class="sxs-lookup"><span data-stu-id="4a756-118">It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</span></span></p>
+<p><span data-ttu-id="4a756-119">設定檔中可以有一個以上的 MbnProfileExt 元素，描述一組特定作業條件的設定檔設定。</span><span class="sxs-lookup"><span data-stu-id="4a756-119">There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions.</span></span> <span data-ttu-id="4a756-120">使用<strong>MBNProfileExt</strong>的<a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a>子項目，以指定哪些作業條件會將特定的設定檔設為使用中的設定檔。</span><span class="sxs-lookup"><span data-stu-id="4a756-120">Use the <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="271b2-121"><a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a></span><span class="sxs-lookup"><span data-stu-id="271b2-121"><a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a></span></span></td>
-<td><p><span data-ttu-id="271b2-122">數據機 DM 設定檔。</span><span class="sxs-lookup"><span data-stu-id="271b2-122">Modem DM configuration profile.</span></span></p></td>
+<td><span data-ttu-id="4a756-121"><a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a></span><span class="sxs-lookup"><span data-stu-id="4a756-121"><a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a></span></span></td>
+<td><p><span data-ttu-id="4a756-122">數據機 DM 設定檔。</span><span class="sxs-lookup"><span data-stu-id="4a756-122">Modem DM configuration profile.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
  
 
-## <a name="requirements"></a><span data-ttu-id="271b2-123">規格需求</span><span class="sxs-lookup"><span data-stu-id="271b2-123">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4a756-123">規格需求</span><span class="sxs-lookup"><span data-stu-id="4a756-123">Requirements</span></span>
 
 <table>
 <colgroup>
@@ -83,7 +83,7 @@ ms.locfileid: "103690652"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="271b2-124">命名空間</span><span class="sxs-lookup"><span data-stu-id="271b2-124">Namespace</span></span></p></td>
+<td><p><span data-ttu-id="4a756-124">命名空間</span><span class="sxs-lookup"><span data-stu-id="4a756-124">Namespace</span></span></p></td>
 <td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
 </tr>
 </tbody>
