@@ -21,33 +21,33 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843888"
 ---
-# <a name="ipm_isblank-message"></a><span data-ttu-id="4f4eb-104">IPM \_ ISBLANK 訊息</span><span class="sxs-lookup"><span data-stu-id="4f4eb-104">IPM\_ISBLANK message</span></span>
+# <a name="ipm_isblank-message"></a><span data-ttu-id="20828-104">IPM \_ ISBLANK 訊息</span><span class="sxs-lookup"><span data-stu-id="20828-104">IPM\_ISBLANK message</span></span>
 
-<span data-ttu-id="4f4eb-105">判斷 IP 位址控制項中的所有欄位是否為空白。</span><span class="sxs-lookup"><span data-stu-id="4f4eb-105">Determines if all fields in the IP address control are blank.</span></span>
+<span data-ttu-id="20828-105">判斷 IP 位址控制項中的所有欄位是否為空白。</span><span class="sxs-lookup"><span data-stu-id="20828-105">Determines if all fields in the IP address control are blank.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="4f4eb-106">參數</span><span class="sxs-lookup"><span data-stu-id="4f4eb-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="20828-106">參數</span><span class="sxs-lookup"><span data-stu-id="20828-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="4f4eb-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="4f4eb-107">*wParam*</span></span> 
-</dt> <dd><span data-ttu-id="4f4eb-108">必須為零。</span><span class="sxs-lookup"><span data-stu-id="4f4eb-108">Must be zero.</span></span></dd> <dt>
+<span data-ttu-id="20828-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="20828-107">*wParam*</span></span> 
+</dt> <dd><span data-ttu-id="20828-108">必須為零。</span><span class="sxs-lookup"><span data-stu-id="20828-108">Must be zero.</span></span></dd> <dt>
 
-<span data-ttu-id="4f4eb-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="4f4eb-109">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="4f4eb-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="4f4eb-110">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="20828-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="20828-109">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="20828-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="20828-110">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="4f4eb-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="4f4eb-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="20828-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="20828-111">Return value</span></span>
 
-<span data-ttu-id="4f4eb-112">如果所有欄位都是空白，則會傳回非零，否則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="4f4eb-112">Returns nonzero if all fields are blank, or zero otherwise.</span></span>
+<span data-ttu-id="20828-112">如果所有欄位都是空白，則會傳回非零，否則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="20828-112">Returns nonzero if all fields are blank, or zero otherwise.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="4f4eb-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="4f4eb-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="20828-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="20828-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="4f4eb-114">需求</span><span class="sxs-lookup"><span data-stu-id="4f4eb-114">Requirement</span></span> | <span data-ttu-id="4f4eb-115">值</span><span class="sxs-lookup"><span data-stu-id="4f4eb-115">Value</span></span> |
+| <span data-ttu-id="20828-114">需求</span><span class="sxs-lookup"><span data-stu-id="20828-114">Requirement</span></span> | <span data-ttu-id="20828-115">值</span><span class="sxs-lookup"><span data-stu-id="20828-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="4f4eb-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4f4eb-116">Minimum supported client</span></span><br/> | <span data-ttu-id="4f4eb-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4f4eb-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="4f4eb-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4f4eb-118">Minimum supported server</span></span><br/> | <span data-ttu-id="4f4eb-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4f4eb-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="4f4eb-120">標頭</span><span class="sxs-lookup"><span data-stu-id="4f4eb-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="4f4eb-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="4f4eb-121"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="20828-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="20828-116">Minimum supported client</span></span><br/> | <span data-ttu-id="20828-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="20828-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="20828-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="20828-118">Minimum supported server</span></span><br/> | <span data-ttu-id="20828-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="20828-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="20828-120">標頭</span><span class="sxs-lookup"><span data-stu-id="20828-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="20828-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="20828-121"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

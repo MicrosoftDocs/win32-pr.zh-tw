@@ -11,51 +11,51 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691256"
 ---
-# <a name="mf_toponode_presentation_descriptor-attribute"></a><span data-ttu-id="9ed6b-103">MF \_ TOPONODE \_ 展示 \_ 描述項屬性</span><span class="sxs-lookup"><span data-stu-id="9ed6b-103">MF\_TOPONODE\_PRESENTATION\_DESCRIPTOR attribute</span></span>
+# <a name="mf_toponode_presentation_descriptor-attribute"></a><span data-ttu-id="2b652-103">MF \_ TOPONODE \_ 展示 \_ 描述項屬性</span><span class="sxs-lookup"><span data-stu-id="2b652-103">MF\_TOPONODE\_PRESENTATION\_DESCRIPTOR attribute</span></span>
 
-<span data-ttu-id="9ed6b-104">包含媒體來源之展示描述項的指標。</span><span class="sxs-lookup"><span data-stu-id="9ed6b-104">Contains a pointer to the presentation descriptor for the media source.</span></span>
+<span data-ttu-id="2b652-104">包含媒體來源之展示描述項的指標。</span><span class="sxs-lookup"><span data-stu-id="2b652-104">Contains a pointer to the presentation descriptor for the media source.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="9ed6b-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="9ed6b-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="2b652-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="2b652-105">Data type</span></span>
 
-<span data-ttu-id="9ed6b-106">\**IUnknown \** _</span><span class="sxs-lookup"><span data-stu-id="9ed6b-106">\**IUnknown\** _</span></span>
+<span data-ttu-id="2b652-106">\**IUnknown \** _</span><span class="sxs-lookup"><span data-stu-id="2b652-106">\**IUnknown\** _</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9ed6b-107">備註</span><span class="sxs-lookup"><span data-stu-id="9ed6b-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2b652-107">備註</span><span class="sxs-lookup"><span data-stu-id="2b652-107">Remarks</span></span>
 
-<span data-ttu-id="9ed6b-108">此屬性適用于 (_ \* MF \_ 拓撲 \_ SOURCESTREAM \_ 節點 \* \* ) 的來源節點。</span><span class="sxs-lookup"><span data-stu-id="9ed6b-108">This attribute applies to source nodes (_\*MF\_TOPOLOGY\_SOURCESTREAM\_NODE\*\*).</span></span>
+<span data-ttu-id="2b652-108">此屬性適用于 (_ \* MF \_ 拓撲 \_ SOURCESTREAM \_ 節點 \* \* ) 的來源節點。</span><span class="sxs-lookup"><span data-stu-id="2b652-108">This attribute applies to source nodes (_\*MF\_TOPOLOGY\_SOURCESTREAM\_NODE\*\*).</span></span>
 
-<span data-ttu-id="9ed6b-109">屬性的值是標記法描述項的 [**IMFPresentationDescriptor**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor) 介面指標。</span><span class="sxs-lookup"><span data-stu-id="9ed6b-109">The value of the attribute is a pointer to the presentation descriptor's [**IMFPresentationDescriptor**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor) interface.</span></span> <span data-ttu-id="9ed6b-110">這是必要屬性。</span><span class="sxs-lookup"><span data-stu-id="9ed6b-110">This attribute is required.</span></span>
+<span data-ttu-id="2b652-109">屬性的值是標記法描述項的 [**IMFPresentationDescriptor**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor) 介面指標。</span><span class="sxs-lookup"><span data-stu-id="2b652-109">The value of the attribute is a pointer to the presentation descriptor's [**IMFPresentationDescriptor**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor) interface.</span></span> <span data-ttu-id="2b652-110">這是必要屬性。</span><span class="sxs-lookup"><span data-stu-id="2b652-110">This attribute is required.</span></span>
 
-<span data-ttu-id="9ed6b-111">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="9ed6b-111">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
+<span data-ttu-id="2b652-111">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="2b652-111">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="9ed6b-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="9ed6b-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2b652-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="2b652-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="9ed6b-113">需求</span><span class="sxs-lookup"><span data-stu-id="9ed6b-113">Requirement</span></span> | <span data-ttu-id="9ed6b-114">值</span><span class="sxs-lookup"><span data-stu-id="9ed6b-114">Value</span></span> |
+| <span data-ttu-id="2b652-113">需求</span><span class="sxs-lookup"><span data-stu-id="2b652-113">Requirement</span></span> | <span data-ttu-id="2b652-114">值</span><span class="sxs-lookup"><span data-stu-id="2b652-114">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="9ed6b-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9ed6b-115">Minimum supported client</span></span><br/> | <span data-ttu-id="9ed6b-116">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9ed6b-116">Windows Vista \[desktop apps only\]</span></span><br/>                                     |
-| <span data-ttu-id="9ed6b-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9ed6b-117">Minimum supported server</span></span><br/> | <span data-ttu-id="9ed6b-118">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9ed6b-118">Windows Server 2008 \[desktop apps only\]</span></span><br/>                               |
-| <span data-ttu-id="9ed6b-119">標頭</span><span class="sxs-lookup"><span data-stu-id="9ed6b-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="9ed6b-120"><dt>Mfidl。h</dt></span><span class="sxs-lookup"><span data-stu-id="9ed6b-120"><dt>Mfidl.h</dt></span></span> </dl> |
+| <span data-ttu-id="2b652-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2b652-115">Minimum supported client</span></span><br/> | <span data-ttu-id="2b652-116">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2b652-116">Windows Vista \[desktop apps only\]</span></span><br/>                                     |
+| <span data-ttu-id="2b652-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2b652-117">Minimum supported server</span></span><br/> | <span data-ttu-id="2b652-118">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2b652-118">Windows Server 2008 \[desktop apps only\]</span></span><br/>                               |
+| <span data-ttu-id="2b652-119">標頭</span><span class="sxs-lookup"><span data-stu-id="2b652-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="2b652-120"><dt>Mfidl。h</dt></span><span class="sxs-lookup"><span data-stu-id="2b652-120"><dt>Mfidl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="9ed6b-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9ed6b-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2b652-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2b652-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9ed6b-122">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="9ed6b-122">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="2b652-122">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="2b652-122">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="9ed6b-123">**IMFAttributes::GetUnknown**</span><span class="sxs-lookup"><span data-stu-id="9ed6b-123">**IMFAttributes::GetUnknown**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)
+[<span data-ttu-id="2b652-123">**IMFAttributes::GetUnknown**</span><span class="sxs-lookup"><span data-stu-id="2b652-123">**IMFAttributes::GetUnknown**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)
 </dt> <dt>
 
-[<span data-ttu-id="9ed6b-124">**IMFAttributes：： SetUnknown**</span><span class="sxs-lookup"><span data-stu-id="9ed6b-124">**IMFAttributes::SetUnknown**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown)
+[<span data-ttu-id="2b652-124">**IMFAttributes：： SetUnknown**</span><span class="sxs-lookup"><span data-stu-id="2b652-124">**IMFAttributes::SetUnknown**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown)
 </dt> <dt>
 
-[<span data-ttu-id="9ed6b-125">**IMFTopologyNode**</span><span class="sxs-lookup"><span data-stu-id="9ed6b-125">**IMFTopologyNode**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imftopologynode)
+[<span data-ttu-id="2b652-125">**IMFTopologyNode**</span><span class="sxs-lookup"><span data-stu-id="2b652-125">**IMFTopologyNode**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imftopologynode)
 </dt> <dt>
 
-[<span data-ttu-id="9ed6b-126">媒體基礎屬性</span><span class="sxs-lookup"><span data-stu-id="9ed6b-126">Media Foundation Attributes</span></span>](media-foundation-attributes.md)
+[<span data-ttu-id="2b652-126">媒體基礎屬性</span><span class="sxs-lookup"><span data-stu-id="2b652-126">Media Foundation Attributes</span></span>](media-foundation-attributes.md)
 </dt> </dl>
 
  

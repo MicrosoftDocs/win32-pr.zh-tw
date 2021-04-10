@@ -21,37 +21,37 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843348"
 ---
-# <a name="tb_isbuttonenabled-message"></a><span data-ttu-id="335a9-104">TB \_ ISBUTTONENABLED 訊息</span><span class="sxs-lookup"><span data-stu-id="335a9-104">TB\_ISBUTTONENABLED message</span></span>
+# <a name="tb_isbuttonenabled-message"></a><span data-ttu-id="62893-104">TB \_ ISBUTTONENABLED 訊息</span><span class="sxs-lookup"><span data-stu-id="62893-104">TB\_ISBUTTONENABLED message</span></span>
 
-<span data-ttu-id="335a9-105">判斷是否已啟用工具列中指定的按鈕。</span><span class="sxs-lookup"><span data-stu-id="335a9-105">Determines whether the specified button in a toolbar is enabled.</span></span>
+<span data-ttu-id="62893-105">判斷是否已啟用工具列中指定的按鈕。</span><span class="sxs-lookup"><span data-stu-id="62893-105">Determines whether the specified button in a toolbar is enabled.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="335a9-106">參數</span><span class="sxs-lookup"><span data-stu-id="335a9-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="62893-106">參數</span><span class="sxs-lookup"><span data-stu-id="62893-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="335a9-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="335a9-107">*wParam*</span></span> 
+<span data-ttu-id="62893-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="62893-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="335a9-108">按鈕的命令識別碼。</span><span class="sxs-lookup"><span data-stu-id="335a9-108">Command identifier of the button.</span></span>
+<span data-ttu-id="62893-108">按鈕的命令識別碼。</span><span class="sxs-lookup"><span data-stu-id="62893-108">Command identifier of the button.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="335a9-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="335a9-109">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="335a9-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="335a9-110">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="62893-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="62893-109">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="62893-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="62893-110">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="335a9-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="335a9-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="62893-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="62893-111">Return value</span></span>
 
-<span data-ttu-id="335a9-112">如果按鈕已啟用，則傳回非零，否則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="335a9-112">Returns nonzero if the button is enabled, or zero otherwise.</span></span>
+<span data-ttu-id="62893-112">如果按鈕已啟用，則傳回非零，否則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="62893-112">Returns nonzero if the button is enabled, or zero otherwise.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="335a9-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="335a9-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="62893-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="62893-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="335a9-114">需求</span><span class="sxs-lookup"><span data-stu-id="335a9-114">Requirement</span></span> | <span data-ttu-id="335a9-115">值</span><span class="sxs-lookup"><span data-stu-id="335a9-115">Value</span></span> |
+| <span data-ttu-id="62893-114">需求</span><span class="sxs-lookup"><span data-stu-id="62893-114">Requirement</span></span> | <span data-ttu-id="62893-115">值</span><span class="sxs-lookup"><span data-stu-id="62893-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="335a9-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="335a9-116">Minimum supported client</span></span><br/> | <span data-ttu-id="335a9-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="335a9-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="335a9-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="335a9-118">Minimum supported server</span></span><br/> | <span data-ttu-id="335a9-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="335a9-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="335a9-120">標頭</span><span class="sxs-lookup"><span data-stu-id="335a9-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="335a9-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="335a9-121"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="62893-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="62893-116">Minimum supported client</span></span><br/> | <span data-ttu-id="62893-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="62893-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="62893-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="62893-118">Minimum supported server</span></span><br/> | <span data-ttu-id="62893-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="62893-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="62893-120">標頭</span><span class="sxs-lookup"><span data-stu-id="62893-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="62893-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="62893-121"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

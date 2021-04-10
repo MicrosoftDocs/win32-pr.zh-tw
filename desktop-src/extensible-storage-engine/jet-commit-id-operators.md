@@ -14,64 +14,64 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691300"
 ---
-# <a name="jet_commit_id-operators"></a><span data-ttu-id="4a5b5-103">JET_COMMIT_ID 運算子</span><span class="sxs-lookup"><span data-stu-id="4a5b5-103">JET_COMMIT_ID operators</span></span>
+# <a name="jet_commit_id-operators"></a><span data-ttu-id="f21cd-103">JET_COMMIT_ID 運算子</span><span class="sxs-lookup"><span data-stu-id="f21cd-103">JET_COMMIT_ID operators</span></span>
 
-<span data-ttu-id="4a5b5-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="4a5b5-104">Include protected members</span></span>  
-<span data-ttu-id="4a5b5-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="4a5b5-105">Include inherited members</span></span>  
+<span data-ttu-id="f21cd-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="f21cd-104">Include protected members</span></span>  
+<span data-ttu-id="f21cd-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="f21cd-105">Include inherited members</span></span>  
 
-<span data-ttu-id="4a5b5-106">[JET_COMMIT_ID](./jet-commit-id-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="4a5b5-106">The [JET_COMMIT_ID](./jet-commit-id-class.md) type exposes the following members.</span></span>
+<span data-ttu-id="f21cd-106">[JET_COMMIT_ID](./jet-commit-id-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="f21cd-106">The [JET_COMMIT_ID](./jet-commit-id-class.md) type exposes the following members.</span></span>
 
-## <a name="operators"></a><span data-ttu-id="4a5b5-107">運算子</span><span class="sxs-lookup"><span data-stu-id="4a5b5-107">Operators</span></span>
+## <a name="operators"></a><span data-ttu-id="f21cd-107">運算子</span><span class="sxs-lookup"><span data-stu-id="f21cd-107">Operators</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="4a5b5-108">Name</span><span class="sxs-lookup"><span data-stu-id="4a5b5-108">Name</span></span></th>
-<th><span data-ttu-id="4a5b5-109">描述</span><span class="sxs-lookup"><span data-stu-id="4a5b5-109">Description</span></span></th>
+<th><span data-ttu-id="f21cd-108">Name</span><span class="sxs-lookup"><span data-stu-id="f21cd-108">Name</span></span></th>
+<th><span data-ttu-id="f21cd-109">描述</span><span class="sxs-lookup"><span data-stu-id="f21cd-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><span data-ttu-id="4a5b5-112"><a href="dn335331(v=exchg.10).md">等式</a></span><span class="sxs-lookup"><span data-stu-id="4a5b5-112"><a href="dn335331(v=exchg.10).md">Equality</a></span></span></td>
-<td><span data-ttu-id="4a5b5-113">判斷其中一個 commitid 是否等於另一個 commitid。</span><span class="sxs-lookup"><span data-stu-id="4a5b5-113">Determine whether one commitid is is equal to another commitid.</span></span></td>
+<td><span data-ttu-id="f21cd-112"><a href="dn335331(v=exchg.10).md">等式</a></span><span class="sxs-lookup"><span data-stu-id="f21cd-112"><a href="dn335331(v=exchg.10).md">Equality</a></span></span></td>
+<td><span data-ttu-id="f21cd-113">判斷其中一個 commitid 是否等於另一個 commitid。</span><span class="sxs-lookup"><span data-stu-id="f21cd-113">Determine whether one commitid is is equal to another commitid.</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><span data-ttu-id="4a5b5-116"><a href="dn335457(v=exchg.10).md">GreaterThan</a></span><span class="sxs-lookup"><span data-stu-id="4a5b5-116"><a href="dn335457(v=exchg.10).md">GreaterThan</a></span></span></td>
-<td><span data-ttu-id="4a5b5-117">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="4a5b5-117">Determine whether one commitid is before another commitid.</span></span></td>
+<td><span data-ttu-id="f21cd-116"><a href="dn335457(v=exchg.10).md">GreaterThan</a></span><span class="sxs-lookup"><span data-stu-id="f21cd-116"><a href="dn335457(v=exchg.10).md">GreaterThan</a></span></span></td>
+<td><span data-ttu-id="f21cd-117">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="f21cd-117">Determine whether one commitid is before another commitid.</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><span data-ttu-id="4a5b5-120"><a href="dn335332(v=exchg.10).md">GreaterThanOrEqual</a></span><span class="sxs-lookup"><span data-stu-id="4a5b5-120"><a href="dn335332(v=exchg.10).md">GreaterThanOrEqual</a></span></span></td>
-<td><span data-ttu-id="4a5b5-121">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="4a5b5-121">Determine whether one commitid is before another commitid.</span></span></td>
+<td><span data-ttu-id="f21cd-120"><a href="dn335332(v=exchg.10).md">GreaterThanOrEqual</a></span><span class="sxs-lookup"><span data-stu-id="f21cd-120"><a href="dn335332(v=exchg.10).md">GreaterThanOrEqual</a></span></span></td>
+<td><span data-ttu-id="f21cd-121">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="f21cd-121">Determine whether one commitid is before another commitid.</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><span data-ttu-id="4a5b5-124"><a href="dn335462(v=exchg.10).md">不等於</a></span><span class="sxs-lookup"><span data-stu-id="4a5b5-124"><a href="dn335462(v=exchg.10).md">Inequality</a></span></span></td>
-<td><span data-ttu-id="4a5b5-125">判斷其中一個 commitid 是否不等於另一個 commitid。</span><span class="sxs-lookup"><span data-stu-id="4a5b5-125">Determine whether one commitid is not equal to another commitid.</span></span></td>
+<td><span data-ttu-id="f21cd-124"><a href="dn335462(v=exchg.10).md">不等於</a></span><span class="sxs-lookup"><span data-stu-id="f21cd-124"><a href="dn335462(v=exchg.10).md">Inequality</a></span></span></td>
+<td><span data-ttu-id="f21cd-125">判斷其中一個 commitid 是否不等於另一個 commitid。</span><span class="sxs-lookup"><span data-stu-id="f21cd-125">Determine whether one commitid is not equal to another commitid.</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><span data-ttu-id="4a5b5-128"><a href="dn335335(v=exchg.10).md">LessThan</a></span><span class="sxs-lookup"><span data-stu-id="4a5b5-128"><a href="dn335335(v=exchg.10).md">LessThan</a></span></span></td>
-<td><span data-ttu-id="4a5b5-129">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="4a5b5-129">Determine whether one commitid is before another commitid.</span></span></td>
+<td><span data-ttu-id="f21cd-128"><a href="dn335335(v=exchg.10).md">LessThan</a></span><span class="sxs-lookup"><span data-stu-id="f21cd-128"><a href="dn335335(v=exchg.10).md">LessThan</a></span></span></td>
+<td><span data-ttu-id="f21cd-129">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="f21cd-129">Determine whether one commitid is before another commitid.</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><span data-ttu-id="4a5b5-132"><a href="dn335463(v=exchg.10).md">LessThanOrEqual</a></span><span class="sxs-lookup"><span data-stu-id="4a5b5-132"><a href="dn335463(v=exchg.10).md">LessThanOrEqual</a></span></span></td>
-<td><span data-ttu-id="4a5b5-133">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="4a5b5-133">Determine whether one commitid is before another commitid.</span></span></td>
+<td><span data-ttu-id="f21cd-132"><a href="dn335463(v=exchg.10).md">LessThanOrEqual</a></span><span class="sxs-lookup"><span data-stu-id="f21cd-132"><a href="dn335463(v=exchg.10).md">LessThanOrEqual</a></span></span></td>
+<td><span data-ttu-id="f21cd-133">判斷其中一個 commitid 是否在另一個 commitid 之前。</span><span class="sxs-lookup"><span data-stu-id="f21cd-133">Determine whether one commitid is before another commitid.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="4a5b5-134">頁首</span><span class="sxs-lookup"><span data-stu-id="4a5b5-134">Top</span></span>
+<span data-ttu-id="f21cd-134">頁首</span><span class="sxs-lookup"><span data-stu-id="f21cd-134">Top</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4a5b5-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4a5b5-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f21cd-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f21cd-135">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="4a5b5-136">參考</span><span class="sxs-lookup"><span data-stu-id="4a5b5-136">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="f21cd-136">參考</span><span class="sxs-lookup"><span data-stu-id="f21cd-136">Reference</span></span>
 
-[<span data-ttu-id="4a5b5-137">JET_COMMIT_ID 類別</span><span class="sxs-lookup"><span data-stu-id="4a5b5-137">JET_COMMIT_ID class</span></span>](./jet-commit-id-class.md)
+[<span data-ttu-id="f21cd-137">JET_COMMIT_ID 類別</span><span class="sxs-lookup"><span data-stu-id="f21cd-137">JET_COMMIT_ID class</span></span>](./jet-commit-id-class.md)
 
-[<span data-ttu-id="4a5b5-138">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="4a5b5-138">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="f21cd-138">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="f21cd-138">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

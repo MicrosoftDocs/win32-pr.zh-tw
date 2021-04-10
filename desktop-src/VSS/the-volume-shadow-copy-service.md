@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690479"
 ---
-# <a name="the-volume-shadow-copy-service"></a><span data-ttu-id="24194-103">磁碟區陰影複製服務</span><span class="sxs-lookup"><span data-stu-id="24194-103">The Volume Shadow Copy Service</span></span>
+# <a name="the-volume-shadow-copy-service"></a><span data-ttu-id="13d99-103">磁碟區陰影複製服務</span><span class="sxs-lookup"><span data-stu-id="13d99-103">The Volume Shadow Copy Service</span></span>
 
-<span data-ttu-id="24194-104">磁碟區陰影複製服務 (VSS) 提供系統基礎結構，以便在 Windows 系統上執行 VSS 應用程式。</span><span class="sxs-lookup"><span data-stu-id="24194-104">The Volume Shadow Copy Service (VSS) provides the system infrastructure for running VSS applications on Windows-based systems.</span></span>
+<span data-ttu-id="13d99-104">磁碟區陰影複製服務 (VSS) 提供系統基礎結構，以便在 Windows 系統上執行 VSS 應用程式。</span><span class="sxs-lookup"><span data-stu-id="13d99-104">The Volume Shadow Copy Service (VSS) provides the system infrastructure for running VSS applications on Windows-based systems.</span></span>
 
-<span data-ttu-id="24194-105">雖然對使用者和開發人員來說大多是透明的，但 VSS 會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="24194-105">Though largely transparent to user and developer, VSS does the following:</span></span>
+<span data-ttu-id="13d99-105">雖然對使用者和開發人員來說大多是透明的，但 VSS 會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="13d99-105">Though largely transparent to user and developer, VSS does the following:</span></span>
 
--   <span data-ttu-id="24194-106">在建立和使用陰影複製時，協調提供者、寫入器和要求者的活動</span><span class="sxs-lookup"><span data-stu-id="24194-106">Coordinates activities of providers, writers, and requesters in the creation and use of shadow copies</span></span>
--   <span data-ttu-id="24194-107">提供預設系統提供者</span><span class="sxs-lookup"><span data-stu-id="24194-107">Furnishes the default system provider</span></span>
--   <span data-ttu-id="24194-108">實行任何提供者所需的低層級驅動程式功能</span><span class="sxs-lookup"><span data-stu-id="24194-108">Implements low-level driver functionality necessary for any provider to work</span></span>
+-   <span data-ttu-id="13d99-106">在建立和使用陰影複製時，協調提供者、寫入器和要求者的活動</span><span class="sxs-lookup"><span data-stu-id="13d99-106">Coordinates activities of providers, writers, and requesters in the creation and use of shadow copies</span></span>
+-   <span data-ttu-id="13d99-107">提供預設系統提供者</span><span class="sxs-lookup"><span data-stu-id="13d99-107">Furnishes the default system provider</span></span>
+-   <span data-ttu-id="13d99-108">實行任何提供者所需的低層級驅動程式功能</span><span class="sxs-lookup"><span data-stu-id="13d99-108">Implements low-level driver functionality necessary for any provider to work</span></span>
 
-<span data-ttu-id="24194-109">VSS 服務會視需要啟動；因此，若要讓 VSS 作業成功，必須啟用此服務。</span><span class="sxs-lookup"><span data-stu-id="24194-109">The VSS service starts on demand; therefore, for VSS operations to be successful, this service must be enabled.</span></span>
+<span data-ttu-id="13d99-109">VSS 服務會視需要啟動；因此，若要讓 VSS 作業成功，必須啟用此服務。</span><span class="sxs-lookup"><span data-stu-id="13d99-109">The VSS service starts on demand; therefore, for VSS operations to be successful, this service must be enabled.</span></span>
 
  
 

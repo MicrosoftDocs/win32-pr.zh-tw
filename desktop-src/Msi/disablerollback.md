@@ -11,23 +11,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943577"
 ---
-# <a name="disablerollback"></a><span data-ttu-id="7ac32-103">DisableRollback</span><span class="sxs-lookup"><span data-stu-id="7ac32-103">DisableRollback</span></span>
+# <a name="disablerollback"></a><span data-ttu-id="02a11-103">DisableRollback</span><span class="sxs-lookup"><span data-stu-id="02a11-103">DisableRollback</span></span>
 
-<span data-ttu-id="7ac32-104">如果此 [系統原則](system-policy.md) 設定為1，安裝程式就不會在安裝期間儲存復原檔案，並停用安裝復原。</span><span class="sxs-lookup"><span data-stu-id="7ac32-104">If this [system policy](system-policy.md) is set to 1, the installer does not store rollback files during installation and disables installation rollback.</span></span> <span data-ttu-id="7ac32-105">預設會啟用復原。</span><span class="sxs-lookup"><span data-stu-id="7ac32-105">By default, rollback is enabled.</span></span> <span data-ttu-id="7ac32-106">除非系統管理員絕對必要，否則建議不要使用此原則。</span><span class="sxs-lookup"><span data-stu-id="7ac32-106">Administrators are advised to not use this policy unless it is absolutely essential.</span></span> <span data-ttu-id="7ac32-107">如需詳細資訊，請參閱 [復原安裝](rollback-installation.md)。</span><span class="sxs-lookup"><span data-stu-id="7ac32-107">For more information, see [Rollback Installation](rollback-installation.md).</span></span>
+<span data-ttu-id="02a11-104">如果此 [系統原則](system-policy.md) 設定為1，安裝程式就不會在安裝期間儲存復原檔案，並停用安裝復原。</span><span class="sxs-lookup"><span data-stu-id="02a11-104">If this [system policy](system-policy.md) is set to 1, the installer does not store rollback files during installation and disables installation rollback.</span></span> <span data-ttu-id="02a11-105">預設會啟用復原。</span><span class="sxs-lookup"><span data-stu-id="02a11-105">By default, rollback is enabled.</span></span> <span data-ttu-id="02a11-106">除非系統管理員絕對必要，否則建議不要使用此原則。</span><span class="sxs-lookup"><span data-stu-id="02a11-106">Administrators are advised to not use this policy unless it is absolutely essential.</span></span> <span data-ttu-id="02a11-107">如需詳細資訊，請參閱 [復原安裝](rollback-installation.md)。</span><span class="sxs-lookup"><span data-stu-id="02a11-107">For more information, see [Rollback Installation](rollback-installation.md).</span></span>
 
-## <a name="registry-key"></a><span data-ttu-id="7ac32-108">登錄金鑰</span><span class="sxs-lookup"><span data-stu-id="7ac32-108">Registry Key</span></span>
+## <a name="registry-key"></a><span data-ttu-id="02a11-108">登錄金鑰</span><span class="sxs-lookup"><span data-stu-id="02a11-108">Registry Key</span></span>
 
-<span data-ttu-id="7ac32-109">若要針對個別使用者安裝停用復原，請在下列登錄機碼底下將 **DisableRollback** 設定為1：</span><span class="sxs-lookup"><span data-stu-id="7ac32-109">To disable rollback for per-user installations, set **DisableRollback** to 1 under the following registry key:</span></span>
+<span data-ttu-id="02a11-109">若要針對個別使用者安裝停用復原，請在下列登錄機碼底下將 **DisableRollback** 設定為1：</span><span class="sxs-lookup"><span data-stu-id="02a11-109">To disable rollback for per-user installations, set **DisableRollback** to 1 under the following registry key:</span></span>
 
-<span data-ttu-id="7ac32-110">**HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**</span><span class="sxs-lookup"><span data-stu-id="7ac32-110">**HKEY\_CURRENT\_USER**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**Installer**</span></span>
+<span data-ttu-id="02a11-110">**HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**</span><span class="sxs-lookup"><span data-stu-id="02a11-110">**HKEY\_CURRENT\_USER**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**Installer**</span></span>
 
-<span data-ttu-id="7ac32-111">若要針對每部電腦安裝停用復原，請在下列登錄機碼底下將 **DisableRollback** 設定為1。</span><span class="sxs-lookup"><span data-stu-id="7ac32-111">To disable rollback for per-computer installations, set **DisableRollback** to 1 under the following registry key.</span></span>
+<span data-ttu-id="02a11-111">若要針對每部電腦安裝停用復原，請在下列登錄機碼底下將 **DisableRollback** 設定為1。</span><span class="sxs-lookup"><span data-stu-id="02a11-111">To disable rollback for per-computer installations, set **DisableRollback** to 1 under the following registry key.</span></span>
 
-<span data-ttu-id="7ac32-112">**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**</span><span class="sxs-lookup"><span data-stu-id="7ac32-112">**HKEY\_LOCAL\_MACHINE**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**Installer**</span></span>
+<span data-ttu-id="02a11-112">**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**</span><span class="sxs-lookup"><span data-stu-id="02a11-112">**HKEY\_LOCAL\_MACHINE**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**Installer**</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="7ac32-113">資料類型</span><span class="sxs-lookup"><span data-stu-id="7ac32-113">Data Type</span></span>
+## <a name="data-type"></a><span data-ttu-id="02a11-113">資料類型</span><span class="sxs-lookup"><span data-stu-id="02a11-113">Data Type</span></span>
 
-<span data-ttu-id="7ac32-114">**REG \_ DWORD**</span><span class="sxs-lookup"><span data-stu-id="7ac32-114">**REG\_DWORD**</span></span>
+<span data-ttu-id="02a11-114">**REG \_ DWORD**</span><span class="sxs-lookup"><span data-stu-id="02a11-114">**REG\_DWORD**</span></span>
 
  
 

@@ -32,14 +32,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691375"
 ---
-# <a name="columnstreamcanread-property"></a><span data-ttu-id="6a14d-103">ColumnStream. CanRead 屬性</span><span class="sxs-lookup"><span data-stu-id="6a14d-103">ColumnStream.CanRead property</span></span>
+# <a name="columnstreamcanread-property"></a><span data-ttu-id="de9a0-103">ColumnStream. CanRead 屬性</span><span class="sxs-lookup"><span data-stu-id="de9a0-103">ColumnStream.CanRead property</span></span>
 
-<span data-ttu-id="6a14d-104">取得值，指出資料流程是否支援讀取。</span><span class="sxs-lookup"><span data-stu-id="6a14d-104">Gets a value indicating whether the stream supports reading.</span></span>
+<span data-ttu-id="de9a0-104">取得值，指出資料流程是否支援讀取。</span><span class="sxs-lookup"><span data-stu-id="de9a0-104">Gets a value indicating whether the stream supports reading.</span></span>
 
-<span data-ttu-id="6a14d-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6a14d-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="6a14d-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6a14d-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="de9a0-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="de9a0-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="de9a0-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="de9a0-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6a14d-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="6a14d-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="de9a0-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="de9a0-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -56,16 +56,16 @@ value = instance.CanRead
 public override bool CanRead { get; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="6a14d-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="6a14d-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="de9a0-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="de9a0-108">Property value</span></span>
 
-<span data-ttu-id="6a14d-109">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="6a14d-109">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
+<span data-ttu-id="de9a0-109">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="de9a0-109">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="6a14d-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6a14d-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="de9a0-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="de9a0-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="6a14d-111">參考</span><span class="sxs-lookup"><span data-stu-id="6a14d-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="de9a0-111">參考</span><span class="sxs-lookup"><span data-stu-id="de9a0-111">Reference</span></span>
 
-[<span data-ttu-id="6a14d-112">ColumnStream 類別</span><span class="sxs-lookup"><span data-stu-id="6a14d-112">ColumnStream class</span></span>](./columnstream-class.md)
+[<span data-ttu-id="de9a0-112">ColumnStream 類別</span><span class="sxs-lookup"><span data-stu-id="de9a0-112">ColumnStream class</span></span>](./columnstream-class.md)
 
-[<span data-ttu-id="6a14d-113">ColumnStream 成員</span><span class="sxs-lookup"><span data-stu-id="6a14d-113">ColumnStream members</span></span>](./columnstream-members.md)
+[<span data-ttu-id="de9a0-113">ColumnStream 成員</span><span class="sxs-lookup"><span data-stu-id="de9a0-113">ColumnStream members</span></span>](./columnstream-members.md)
 
-[<span data-ttu-id="6a14d-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="6a14d-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="de9a0-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="de9a0-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
