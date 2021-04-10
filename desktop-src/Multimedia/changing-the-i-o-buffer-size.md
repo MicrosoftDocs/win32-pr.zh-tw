@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "104023483"
 ---
-# <a name="changing-the-io-buffer-size"></a><span data-ttu-id="e88f2-111">變更 i/o 緩衝區大小</span><span class="sxs-lookup"><span data-stu-id="e88f2-111">Changing the I/O Buffer Size</span></span>
+# <a name="changing-the-io-buffer-size"></a><span data-ttu-id="0eca6-111">變更 i/o 緩衝區大小</span><span class="sxs-lookup"><span data-stu-id="0eca6-111">Changing the I/O Buffer Size</span></span>
 
-<span data-ttu-id="e88f2-112">下列範例會針對未緩衝的 i/o 開啟名為 SAMPLE.TXT 的檔案，然後使用 [**mmioSetBuffer**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetbuffer) 函式以內部16k 緩衝區啟用緩衝處理的 i/o。</span><span class="sxs-lookup"><span data-stu-id="e88f2-112">The following example opens a file named SAMPLE.TXT for unbuffered I/O, and then enables buffered I/O with an internal 16K buffer using the [**mmioSetBuffer**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetbuffer) function.</span></span>
+<span data-ttu-id="0eca6-112">下列範例會針對未緩衝的 i/o 開啟名為 SAMPLE.TXT 的檔案，然後使用 [**mmioSetBuffer**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetbuffer) 函式以內部16k 緩衝區啟用緩衝處理的 i/o。</span><span class="sxs-lookup"><span data-stu-id="0eca6-112">The following example opens a file named SAMPLE.TXT for unbuffered I/O, and then enables buffered I/O with an internal 16K buffer using the [**mmioSetBuffer**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetbuffer) function.</span></span>
 
 
 ```C++
