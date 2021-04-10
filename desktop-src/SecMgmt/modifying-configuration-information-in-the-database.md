@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694483"
 ---
-# <a name="modifying-configuration-information-in-the-database"></a><span data-ttu-id="821ea-103">修改資料庫中的設定資訊</span><span class="sxs-lookup"><span data-stu-id="821ea-103">Modifying Configuration Information in the Database</span></span>
+# <a name="modifying-configuration-information-in-the-database"></a><span data-ttu-id="4eff8-103">修改資料庫中的設定資訊</span><span class="sxs-lookup"><span data-stu-id="4eff8-103">Modifying Configuration Information in the Database</span></span>
 
-<span data-ttu-id="821ea-104">附件嵌入式管理單元延伸模組必須讓使用者透過其分析節點變更設定資訊。</span><span class="sxs-lookup"><span data-stu-id="821ea-104">The attachment snap-in extension must enable users to change configuration information through its analysis node.</span></span> <span data-ttu-id="821ea-105">這可讓使用者進行變更，然後在一段時間後重新套用設定。</span><span class="sxs-lookup"><span data-stu-id="821ea-105">This allows users to make changes and then re-apply the configuration over time.</span></span> <span data-ttu-id="821ea-106">要這麼做的邏輯應該與修改設定檔中的資訊相同。</span><span class="sxs-lookup"><span data-stu-id="821ea-106">The logic to do this should be identical to modifying information in the configuration files.</span></span> <span data-ttu-id="821ea-107">所做的變更將會在安全性資料庫中儲存的設定生效。</span><span class="sxs-lookup"><span data-stu-id="821ea-107">The changes made will take effect on the saved configuration in the security database.</span></span>
+<span data-ttu-id="4eff8-104">附件嵌入式管理單元延伸模組必須讓使用者透過其分析節點變更設定資訊。</span><span class="sxs-lookup"><span data-stu-id="4eff8-104">The attachment snap-in extension must enable users to change configuration information through its analysis node.</span></span> <span data-ttu-id="4eff8-105">這可讓使用者進行變更，然後在一段時間後重新套用設定。</span><span class="sxs-lookup"><span data-stu-id="4eff8-105">This allows users to make changes and then re-apply the configuration over time.</span></span> <span data-ttu-id="4eff8-106">要這麼做的邏輯應該與修改設定檔中的資訊相同。</span><span class="sxs-lookup"><span data-stu-id="4eff8-106">The logic to do this should be identical to modifying information in the configuration files.</span></span> <span data-ttu-id="4eff8-107">所做的變更將會在安全性資料庫中儲存的設定生效。</span><span class="sxs-lookup"><span data-stu-id="4eff8-107">The changes made will take effect on the saved configuration in the security database.</span></span>
 
  
 

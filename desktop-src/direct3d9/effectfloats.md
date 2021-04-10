@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103935881"
 ---
-# <a name="effectfloats"></a><span data-ttu-id="436e1-104">EffectFloats</span><span class="sxs-lookup"><span data-stu-id="436e1-104">EffectFloats</span></span>
+# <a name="effectfloats"></a><span data-ttu-id="eb0fd-104">EffectFloats</span><span class="sxs-lookup"><span data-stu-id="eb0fd-104">EffectFloats</span></span>
 
-<span data-ttu-id="436e1-105">定義舊版效果 FLOAT。</span><span class="sxs-lookup"><span data-stu-id="436e1-105">Defines a legacy effect FLOAT.</span></span> <span data-ttu-id="436e1-106">此範本已由 [**EffectParamFloats**](effectparamfloats.md) 範本取代。</span><span class="sxs-lookup"><span data-stu-id="436e1-106">This template has been replaced by the [**EffectParamFloats**](effectparamfloats.md) template.</span></span>
+<span data-ttu-id="eb0fd-105">定義舊版效果 FLOAT。</span><span class="sxs-lookup"><span data-stu-id="eb0fd-105">Defines a legacy effect FLOAT.</span></span> <span data-ttu-id="eb0fd-106">此範本已由 [**EffectParamFloats**](effectparamfloats.md) 範本取代。</span><span class="sxs-lookup"><span data-stu-id="eb0fd-106">This template has been replaced by the [**EffectParamFloats**](effectparamfloats.md) template.</span></span>
 
 ``` syntax
 template EffectFloats
@@ -24,16 +24,16 @@ template EffectFloats
 } 
 ```
 
-<span data-ttu-id="436e1-107">其中：</span><span class="sxs-lookup"><span data-stu-id="436e1-107">Where:</span></span>
+<span data-ttu-id="eb0fd-107">其中：</span><span class="sxs-lookup"><span data-stu-id="eb0fd-107">Where:</span></span>
 
--   <span data-ttu-id="436e1-108">nFloats-浮點數。</span><span class="sxs-lookup"><span data-stu-id="436e1-108">nFloats - Number of floats.</span></span>
--   <span data-ttu-id="436e1-109">浮 \[ \] 點數 nFloats-float 值的陣列。</span><span class="sxs-lookup"><span data-stu-id="436e1-109">Floats\[nFloats\] - Array of float values.</span></span>
+-   <span data-ttu-id="eb0fd-108">nFloats-浮點數。</span><span class="sxs-lookup"><span data-stu-id="eb0fd-108">nFloats - Number of floats.</span></span>
+-   <span data-ttu-id="eb0fd-109">浮 \[ \] 點數 nFloats-float 值的陣列。</span><span class="sxs-lookup"><span data-stu-id="eb0fd-109">Floats\[nFloats\] - Array of float values.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="436e1-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="436e1-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eb0fd-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="eb0fd-110">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="436e1-111">範本</span><span class="sxs-lookup"><span data-stu-id="436e1-111">Templates</span></span>](dx9-graphics-reference-x-file-format-templates.md)
+[<span data-ttu-id="eb0fd-111">範本</span><span class="sxs-lookup"><span data-stu-id="eb0fd-111">Templates</span></span>](dx9-graphics-reference-x-file-format-templates.md)
 </dt> </dl>
 
  

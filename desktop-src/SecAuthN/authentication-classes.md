@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694239"
 ---
-# <a name="authentication-classes"></a><span data-ttu-id="3ef3b-103">驗證類別</span><span class="sxs-lookup"><span data-stu-id="3ef3b-103">Authentication Classes</span></span>
+# <a name="authentication-classes"></a><span data-ttu-id="e9a69-103">驗證類別</span><span class="sxs-lookup"><span data-stu-id="e9a69-103">Authentication Classes</span></span>
 
-<span data-ttu-id="3ef3b-104">驗證提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="3ef3b-104">Authentication provides the following classes.</span></span>
+<span data-ttu-id="e9a69-104">驗證提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="e9a69-104">Authentication provides the following classes.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="3ef3b-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="3ef3b-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e9a69-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="e9a69-105">In this section</span></span>
 
 
 
-| <span data-ttu-id="3ef3b-106">主題</span><span class="sxs-lookup"><span data-stu-id="3ef3b-106">Topic</span></span>                                                                                   | <span data-ttu-id="3ef3b-107">描述</span><span class="sxs-lookup"><span data-stu-id="3ef3b-107">Description</span></span>                                                       |
+| <span data-ttu-id="e9a69-106">主題</span><span class="sxs-lookup"><span data-stu-id="e9a69-106">Topic</span></span>                                                                                   | <span data-ttu-id="e9a69-107">描述</span><span class="sxs-lookup"><span data-stu-id="e9a69-107">Description</span></span>                                                       |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| <span data-ttu-id="3ef3b-108">[**RemoteTpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707166(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="3ef3b-108">[**RemoteTpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707166(v=vs.85))</span></span><br/> | <span data-ttu-id="3ef3b-109">管理遠端電腦上的 TPM 虛擬智慧卡。</span><span class="sxs-lookup"><span data-stu-id="3ef3b-109">Manages TPM virtual smart cards on remote computers.</span></span><br/>   |
-| <span data-ttu-id="3ef3b-110">[**TpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707171(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="3ef3b-110">[**TpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707171(v=vs.85))</span></span><br/>             | <span data-ttu-id="3ef3b-111">管理本機電腦上的 TPM 虛擬智慧卡。</span><span class="sxs-lookup"><span data-stu-id="3ef3b-111">Manages TPM virtual smart cards on the local computer.</span></span><br/> |
+| <span data-ttu-id="e9a69-108">[**RemoteTpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707166(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="e9a69-108">[**RemoteTpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707166(v=vs.85))</span></span><br/> | <span data-ttu-id="e9a69-109">管理遠端電腦上的 TPM 虛擬智慧卡。</span><span class="sxs-lookup"><span data-stu-id="e9a69-109">Manages TPM virtual smart cards on remote computers.</span></span><br/>   |
+| <span data-ttu-id="e9a69-110">[**TpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707171(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="e9a69-110">[**TpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707171(v=vs.85))</span></span><br/>             | <span data-ttu-id="e9a69-111">管理本機電腦上的 TPM 虛擬智慧卡。</span><span class="sxs-lookup"><span data-stu-id="e9a69-111">Manages TPM virtual smart cards on the local computer.</span></span><br/> |
 
 
 

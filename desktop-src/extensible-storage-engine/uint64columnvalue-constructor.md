@@ -31,12 +31,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849531"
 ---
-# <a name="uint64columnvalue-constructor"></a><span data-ttu-id="f410b-103">UInt64ColumnValue 函式</span><span class="sxs-lookup"><span data-stu-id="f410b-103">UInt64ColumnValue constructor</span></span>
+# <a name="uint64columnvalue-constructor"></a><span data-ttu-id="9ff06-103">UInt64ColumnValue 函式</span><span class="sxs-lookup"><span data-stu-id="9ff06-103">UInt64ColumnValue constructor</span></span>
 
-<span data-ttu-id="f410b-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="f410b-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="f410b-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f410b-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="9ff06-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="9ff06-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="9ff06-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="9ff06-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f410b-106">語法</span><span class="sxs-lookup"><span data-stu-id="f410b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9ff06-106">語法</span><span class="sxs-lookup"><span data-stu-id="9ff06-106">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,12 +50,12 @@ Dim instance As New UInt64ColumnValue()
 public UInt64ColumnValue()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="f410b-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f410b-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9ff06-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9ff06-107">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="f410b-108">參考</span><span class="sxs-lookup"><span data-stu-id="f410b-108">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="9ff06-108">參考</span><span class="sxs-lookup"><span data-stu-id="9ff06-108">Reference</span></span>
 
-[<span data-ttu-id="f410b-109">UInt64ColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="f410b-109">UInt64ColumnValue class</span></span>](./uint64columnvalue-class.md)
+[<span data-ttu-id="9ff06-109">UInt64ColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="9ff06-109">UInt64ColumnValue class</span></span>](./uint64columnvalue-class.md)
 
-[<span data-ttu-id="f410b-110">UInt64ColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="f410b-110">UInt64ColumnValue members</span></span>](./uint64columnvalue-members.md)
+[<span data-ttu-id="9ff06-110">UInt64ColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="9ff06-110">UInt64ColumnValue members</span></span>](./uint64columnvalue-members.md)
 
-[<span data-ttu-id="f410b-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="f410b-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="9ff06-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="9ff06-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

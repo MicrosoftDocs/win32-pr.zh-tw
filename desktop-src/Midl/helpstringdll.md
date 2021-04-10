@@ -19,9 +19,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103933138"
 ---
-# <a name="helpstringdll-attribute"></a><span data-ttu-id="6d084-104">helpstringdll 屬性</span><span class="sxs-lookup"><span data-stu-id="6d084-104">helpstringdll attribute</span></span>
+# <a name="helpstringdll-attribute"></a><span data-ttu-id="395d2-104">helpstringdll 屬性</span><span class="sxs-lookup"><span data-stu-id="395d2-104">helpstringdll attribute</span></span>
 
-<span data-ttu-id="6d084-105">**\[ Helpstringdll \]** 屬性會設定用來執行檔字串查閱之 DLL 的名稱。</span><span class="sxs-lookup"><span data-stu-id="6d084-105">The **\[helpstringdll\]** attribute sets the name of the DLL to use to perform a document string lookup.</span></span>
+<span data-ttu-id="395d2-105">**\[ Helpstringdll \]** 屬性會設定用來執行檔字串查閱之 DLL 的名稱。</span><span class="sxs-lookup"><span data-stu-id="395d2-105">The **\[helpstringdll\]** attribute sets the name of the DLL to use to perform a document string lookup.</span></span>
 
 ``` syntax
 [
@@ -34,58 +34,58 @@ library library-name
 };
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6d084-106">參數</span><span class="sxs-lookup"><span data-stu-id="6d084-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="395d2-106">參數</span><span class="sxs-lookup"><span data-stu-id="395d2-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="6d084-107">*說明-文字字串*</span><span class="sxs-lookup"><span data-stu-id="6d084-107">*help-text-string*</span></span> 
+<span data-ttu-id="395d2-107">*說明-文字字串*</span><span class="sxs-lookup"><span data-stu-id="395d2-107">*help-text-string*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="6d084-108">以零結束的字元字串，指定 DLL 的完整檔案名。</span><span class="sxs-lookup"><span data-stu-id="6d084-108">A zero-terminated string of characters specifying the fully qualified file name of a DLL.</span></span>
+<span data-ttu-id="395d2-108">以零結束的字元字串，指定 DLL 的完整檔案名。</span><span class="sxs-lookup"><span data-stu-id="395d2-108">A zero-terminated string of characters specifying the fully qualified file name of a DLL.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="6d084-109">*選用-屬性-清單*</span><span class="sxs-lookup"><span data-stu-id="6d084-109">*optional-attribute-list*</span></span> 
+<span data-ttu-id="395d2-109">*選用-屬性-清單*</span><span class="sxs-lookup"><span data-stu-id="395d2-109">*optional-attribute-list*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="6d084-110">適用于整個程式庫語句的其他屬性。</span><span class="sxs-lookup"><span data-stu-id="6d084-110">Other attributes that apply to the library statement as a whole.</span></span>
+<span data-ttu-id="395d2-110">適用于整個程式庫語句的其他屬性。</span><span class="sxs-lookup"><span data-stu-id="395d2-110">Other attributes that apply to the library statement as a whole.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="6d084-111">*程式庫名稱*</span><span class="sxs-lookup"><span data-stu-id="6d084-111">*library-name*</span></span> 
+<span data-ttu-id="395d2-111">*程式庫名稱*</span><span class="sxs-lookup"><span data-stu-id="395d2-111">*library-name*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="6d084-112">軟體元件將用來表示此連結 [**庫**](library.md)的識別碼。</span><span class="sxs-lookup"><span data-stu-id="6d084-112">The identifier that software components will use to denote this [**library**](library.md).</span></span>
+<span data-ttu-id="395d2-112">軟體元件將用來表示此連結 [**庫**](library.md)的識別碼。</span><span class="sxs-lookup"><span data-stu-id="395d2-112">The identifier that software components will use to denote this [**library**](library.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="6d084-113">*程式庫定義語句*</span><span class="sxs-lookup"><span data-stu-id="6d084-113">*library-definition-statements*</span></span> 
+<span data-ttu-id="395d2-113">*程式庫定義語句*</span><span class="sxs-lookup"><span data-stu-id="395d2-113">*library-definition-statements*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="6d084-114">定義連結 [**庫**](library.md)介面的一個或多個 MIDL 語句。</span><span class="sxs-lookup"><span data-stu-id="6d084-114">One or more MIDL statement which define the interface of the [**library**](library.md).</span></span>
+<span data-ttu-id="395d2-114">定義連結 [**庫**](library.md)介面的一個或多個 MIDL 語句。</span><span class="sxs-lookup"><span data-stu-id="395d2-114">One or more MIDL statement which define the interface of the [**library**](library.md).</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="6d084-115">備註</span><span class="sxs-lookup"><span data-stu-id="6d084-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="395d2-115">備註</span><span class="sxs-lookup"><span data-stu-id="395d2-115">Remarks</span></span>
 
-<span data-ttu-id="6d084-116">使用程式庫語句上的 **\[ helpstringdll \]** 屬性，將動態連結程式庫的完整檔案名指定為字元字串。</span><span class="sxs-lookup"><span data-stu-id="6d084-116">Use the **\[helpstringdll\]** attribute on a library statement to specify, as a character string, the fully qualified file name of a dynamic link library.</span></span> <span data-ttu-id="6d084-117">這可讓使用者使用物件檢視器來查看 DLL 的描述。</span><span class="sxs-lookup"><span data-stu-id="6d084-117">This allows a user to view a description of the DLL with the object viewer.</span></span>
+<span data-ttu-id="395d2-116">使用程式庫語句上的 **\[ helpstringdll \]** 屬性，將動態連結程式庫的完整檔案名指定為字元字串。</span><span class="sxs-lookup"><span data-stu-id="395d2-116">Use the **\[helpstringdll\]** attribute on a library statement to specify, as a character string, the fully qualified file name of a dynamic link library.</span></span> <span data-ttu-id="395d2-117">這可讓使用者使用物件檢視器來查看 DLL 的描述。</span><span class="sxs-lookup"><span data-stu-id="395d2-117">This allows a user to view a description of the DLL with the object viewer.</span></span>
 
-<span data-ttu-id="6d084-118">使用 **ITypeLib2** 和 **ITypeInfo2** 介面中的 **GetDocumentation2** 函式來取出說明字串。</span><span class="sxs-lookup"><span data-stu-id="6d084-118">Use the **GetDocumentation2** functions in the **ITypeLib2** and **ITypeInfo2** interfaces to retrieve the help string.</span></span>
+<span data-ttu-id="395d2-118">使用 **ITypeLib2** 和 **ITypeInfo2** 介面中的 **GetDocumentation2** 函式來取出說明字串。</span><span class="sxs-lookup"><span data-stu-id="395d2-118">Use the **GetDocumentation2** functions in the **ITypeLib2** and **ITypeInfo2** interfaces to retrieve the help string.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6d084-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6d084-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="395d2-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="395d2-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6d084-120">**圖書館**</span><span class="sxs-lookup"><span data-stu-id="6d084-120">**library**</span></span>](library.md)
+[<span data-ttu-id="395d2-120">**圖書館**</span><span class="sxs-lookup"><span data-stu-id="395d2-120">**library**</span></span>](library.md)
 </dt> <dt>
 
-[<span data-ttu-id="6d084-121">ODL 檔語法</span><span class="sxs-lookup"><span data-stu-id="6d084-121">ODL File Syntax</span></span>](/previous-versions/windows/desktop/automat/odl-file-syntax)
+[<span data-ttu-id="395d2-121">ODL 檔語法</span><span class="sxs-lookup"><span data-stu-id="395d2-121">ODL File Syntax</span></span>](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[<span data-ttu-id="6d084-122">ODL 檔案範例</span><span class="sxs-lookup"><span data-stu-id="6d084-122">ODL File Example</span></span>](/previous-versions/windows/desktop/automat/odl-file-example)
+[<span data-ttu-id="395d2-122">ODL 檔案範例</span><span class="sxs-lookup"><span data-stu-id="395d2-122">ODL File Example</span></span>](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
-[<span data-ttu-id="6d084-123">使用 MIDL 產生類型程式庫</span><span class="sxs-lookup"><span data-stu-id="6d084-123">Generating a Type Library With MIDL</span></span>](generating-a-type-library-with-midl-2.md)
+[<span data-ttu-id="395d2-123">使用 MIDL 產生類型程式庫</span><span class="sxs-lookup"><span data-stu-id="395d2-123">Generating a Type Library With MIDL</span></span>](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
  

@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944878"
 ---
-# <a name="iazapplicationgroup2-properties"></a><span data-ttu-id="7ec1e-103">IAzApplicationGroup2 屬性</span><span class="sxs-lookup"><span data-stu-id="7ec1e-103">IAzApplicationGroup2 Properties</span></span>
+# <a name="iazapplicationgroup2-properties"></a><span data-ttu-id="fc8b1-103">IAzApplicationGroup2 屬性</span><span class="sxs-lookup"><span data-stu-id="fc8b1-103">IAzApplicationGroup2 Properties</span></span>
 
-<span data-ttu-id="7ec1e-104">[**IAzApplicationGroup2**](/windows/desktop/api/Azroles/nn-azroles-iazapplicationgroup2)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="7ec1e-104">The [**IAzApplicationGroup2**](/windows/desktop/api/Azroles/nn-azroles-iazapplicationgroup2) interface exposes the following properties.</span></span>
+<span data-ttu-id="fc8b1-104">[**IAzApplicationGroup2**](/windows/desktop/api/Azroles/nn-azroles-iazapplicationgroup2)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="fc8b1-104">The [**IAzApplicationGroup2**](/windows/desktop/api/Azroles/nn-azroles-iazapplicationgroup2) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="7ec1e-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="7ec1e-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fc8b1-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="fc8b1-105">In this section</span></span>
 
--   [<span data-ttu-id="7ec1e-106">**BizRule 屬性**</span><span class="sxs-lookup"><span data-stu-id="7ec1e-106">**BizRule Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-get_bizrule)
--   [<span data-ttu-id="7ec1e-107">**BizRuleImportedPath 屬性**</span><span class="sxs-lookup"><span data-stu-id="7ec1e-107">**BizRuleImportedPath Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-get_bizruleimportedpath)
--   [<span data-ttu-id="7ec1e-108">**BizRuleLanguage 屬性**</span><span class="sxs-lookup"><span data-stu-id="7ec1e-108">**BizRuleLanguage Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-get_bizrulelanguage)
--   [<span data-ttu-id="7ec1e-109">**RoleAssignments 屬性**</span><span class="sxs-lookup"><span data-stu-id="7ec1e-109">**RoleAssignments Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-roleassignments)
+-   [<span data-ttu-id="fc8b1-106">**BizRule 屬性**</span><span class="sxs-lookup"><span data-stu-id="fc8b1-106">**BizRule Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-get_bizrule)
+-   [<span data-ttu-id="fc8b1-107">**BizRuleImportedPath 屬性**</span><span class="sxs-lookup"><span data-stu-id="fc8b1-107">**BizRuleImportedPath Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-get_bizruleimportedpath)
+-   [<span data-ttu-id="fc8b1-108">**BizRuleLanguage 屬性**</span><span class="sxs-lookup"><span data-stu-id="fc8b1-108">**BizRuleLanguage Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-get_bizrulelanguage)
+-   [<span data-ttu-id="fc8b1-109">**RoleAssignments 屬性**</span><span class="sxs-lookup"><span data-stu-id="fc8b1-109">**RoleAssignments Property**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-roleassignments)
 
  
 

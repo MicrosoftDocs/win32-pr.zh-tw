@@ -15,76 +15,76 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933374"
 ---
-# <a name="remote-desktop-services-wmi-provider-reference"></a><span data-ttu-id="4e5b4-105">遠端桌面服務 WMI 提供者參考</span><span class="sxs-lookup"><span data-stu-id="4e5b4-105">Remote Desktop Services WMI provider reference</span></span>
+# <a name="remote-desktop-services-wmi-provider-reference"></a><span data-ttu-id="16d46-105">遠端桌面服務 WMI 提供者參考</span><span class="sxs-lookup"><span data-stu-id="16d46-105">Remote Desktop Services WMI provider reference</span></span>
 
-<span data-ttu-id="4e5b4-106">本節涵蓋下列主題。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-106">The following topics are covered in this section.</span></span>
+<span data-ttu-id="16d46-106">本節涵蓋下列主題。</span><span class="sxs-lookup"><span data-stu-id="16d46-106">The following topics are covered in this section.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="4e5b4-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="4e5b4-107">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="16d46-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="16d46-107">In this section</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4e5b4-108">遠端桌面服務設定類別</span><span class="sxs-lookup"><span data-stu-id="4e5b4-108">Remote Desktop Services Configuration classes</span></span>](terminal-services-configuration-classes.md)
+[<span data-ttu-id="16d46-108">遠端桌面服務設定類別</span><span class="sxs-lookup"><span data-stu-id="16d46-108">Remote Desktop Services Configuration classes</span></span>](terminal-services-configuration-classes.md)
 </dt> <dd>
 
-<span data-ttu-id="4e5b4-109">遠端桌面服務設定 WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-109">The Remote Desktop Services Configuration WMI provider provides the following classes.</span></span> <span data-ttu-id="4e5b4-110">如下圖所示。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-110">An illustration follows.</span></span>
+<span data-ttu-id="16d46-109">遠端桌面服務設定 WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="16d46-109">The Remote Desktop Services Configuration WMI provider provides the following classes.</span></span> <span data-ttu-id="16d46-110">如下圖所示。</span><span class="sxs-lookup"><span data-stu-id="16d46-110">An illustration follows.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="4e5b4-111">遠端桌面閘道類別</span><span class="sxs-lookup"><span data-stu-id="4e5b4-111">Remote Desktop Gateway classes</span></span>](terminal-services-gateway-classes.md)
+[<span data-ttu-id="16d46-111">遠端桌面閘道類別</span><span class="sxs-lookup"><span data-stu-id="16d46-111">Remote Desktop Gateway classes</span></span>](terminal-services-gateway-classes.md)
 </dt> <dd>
 
-<span data-ttu-id="4e5b4-112">遠端桌面閘道 (RD 閘道) WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-112">The Remote Desktop Gateway (RD Gateway) WMI provider provides the following classes.</span></span>
+<span data-ttu-id="16d46-112">遠端桌面閘道 (RD 閘道) WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="16d46-112">The Remote Desktop Gateway (RD Gateway) WMI provider provides the following classes.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="4e5b4-113">遠端桌面授權伺服器類別</span><span class="sxs-lookup"><span data-stu-id="4e5b4-113">Remote Desktop License Server classes</span></span>](terminal-services-license-server-classes.md)
+[<span data-ttu-id="16d46-113">遠端桌面授權伺服器類別</span><span class="sxs-lookup"><span data-stu-id="16d46-113">Remote Desktop License Server classes</span></span>](terminal-services-license-server-classes.md)
 </dt> <dd>
 
-<span data-ttu-id="4e5b4-114">遠端桌面授權伺服器 WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-114">The Remote Desktop License Server WMI provider provides the following classes.</span></span>
+<span data-ttu-id="16d46-114">遠端桌面授權伺服器 WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="16d46-114">The Remote Desktop License Server WMI provider provides the following classes.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="4e5b4-115">遠端桌面連線代理人類別</span><span class="sxs-lookup"><span data-stu-id="4e5b4-115">Remote Desktop Connection Broker classes</span></span>](terminal-services-session-broker-classes.md)
+[<span data-ttu-id="16d46-115">遠端桌面連線代理人類別</span><span class="sxs-lookup"><span data-stu-id="16d46-115">Remote Desktop Connection Broker classes</span></span>](terminal-services-session-broker-classes.md)
 </dt> <dd>
 
-<span data-ttu-id="4e5b4-116">遠端桌面連線代理人 (RD 連線代理人) WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-116">The Remote Desktop Connection Broker (RD Connection Broker) WMI provider provides the following classes.</span></span>
+<span data-ttu-id="16d46-116">遠端桌面連線代理人 (RD 連線代理人) WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="16d46-116">The Remote Desktop Connection Broker (RD Connection Broker) WMI provider provides the following classes.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="4e5b4-117">遠端桌面虛擬機器類別</span><span class="sxs-lookup"><span data-stu-id="4e5b4-117">Remote Desktop Virtual Machine classes</span></span>](remote-desktop-virtual-machine-classes.md)
+[<span data-ttu-id="16d46-117">遠端桌面虛擬機器類別</span><span class="sxs-lookup"><span data-stu-id="16d46-117">Remote Desktop Virtual Machine classes</span></span>](remote-desktop-virtual-machine-classes.md)
 </dt> <dd>
 
-<span data-ttu-id="4e5b4-118">遠端桌面虛擬機器 WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-118">The Remote Desktop Virtual Machine WMI provider provides the following classes.</span></span>
+<span data-ttu-id="16d46-118">遠端桌面虛擬機器 WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="16d46-118">The Remote Desktop Virtual Machine WMI provider provides the following classes.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="4e5b4-119">RemoteApp 類別</span><span class="sxs-lookup"><span data-stu-id="4e5b4-119">RemoteApp classes</span></span>](terminal-services-remoteapp-classes.md)
+[<span data-ttu-id="16d46-119">RemoteApp 類別</span><span class="sxs-lookup"><span data-stu-id="16d46-119">RemoteApp classes</span></span>](terminal-services-remoteapp-classes.md)
 </dt> <dd>
 
-<span data-ttu-id="4e5b4-120">RemoteApp WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-120">The RemoteApp WMI provider provides the following classes.</span></span>
+<span data-ttu-id="16d46-120">RemoteApp WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="16d46-120">The RemoteApp WMI provider provides the following classes.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="4e5b4-121">RemoteApp 和桌面連線管理服務類別</span><span class="sxs-lookup"><span data-stu-id="4e5b4-121">RemoteApp and Desktop Connection Management Service classes</span></span>](remoteapp-and-desktop-connection-management-service-classes.md)
+[<span data-ttu-id="16d46-121">RemoteApp 和桌面連線管理服務類別</span><span class="sxs-lookup"><span data-stu-id="16d46-121">RemoteApp and Desktop Connection Management Service classes</span></span>](remoteapp-and-desktop-connection-management-service-classes.md)
 </dt> <dd>
 
-<span data-ttu-id="4e5b4-122">RemoteApp 和桌面連線管理服務 WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-122">The RemoteApp and Desktop Connection Management Service WMI provider provides the following classes.</span></span>
+<span data-ttu-id="16d46-122">RemoteApp 和桌面連線管理服務 WMI 提供者提供下列類別。</span><span class="sxs-lookup"><span data-stu-id="16d46-122">The RemoteApp and Desktop Connection Management Service WMI provider provides the following classes.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="4e5b4-123">**遠端桌面服務 WMI 提供者錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="4e5b4-123">**Remote Desktop Services WMI provider error codes**</span></span>](terminal-services-wmi-provider-error-codes.md)
+[<span data-ttu-id="16d46-123">**遠端桌面服務 WMI 提供者錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="16d46-123">**Remote Desktop Services WMI provider error codes**</span></span>](terminal-services-wmi-provider-error-codes.md)
 </dt> <dd>
 
-<span data-ttu-id="4e5b4-124">遠端桌面服務 WMI 提供者所傳回的錯誤。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-124">Errors returned by the Remote Desktop Services WMI provider.</span></span> <span data-ttu-id="4e5b4-125">如需其他 WMI 錯誤的清單，請參閱 [**Wmi 錯誤常數**](/windows/desktop/WmiSdk/wmi-error-constants)。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-125">For a list of other WMI errors, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants).</span></span>
+<span data-ttu-id="16d46-124">遠端桌面服務 WMI 提供者所傳回的錯誤。</span><span class="sxs-lookup"><span data-stu-id="16d46-124">Errors returned by the Remote Desktop Services WMI provider.</span></span> <span data-ttu-id="16d46-125">如需其他 WMI 錯誤的清單，請參閱 [**Wmi 錯誤常數**](/windows/desktop/WmiSdk/wmi-error-constants)。</span><span class="sxs-lookup"><span data-stu-id="16d46-125">For a list of other WMI errors, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants).</span></span>
 
 </dd> </dl>
 
 > [!Note]  
-> <span data-ttu-id="4e5b4-126">在 Windows Server 2008 R2 中，終端機服務連接代理人功能的名稱已變更為 RD 連線代理人。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-126">In Windows Server 2008 R2, the name of the Terminal Services Connection Broker feature was changed to RD Connection Broker.</span></span>
+> <span data-ttu-id="16d46-126">在 Windows Server 2008 R2 中，終端機服務連接代理人功能的名稱已變更為 RD 連線代理人。</span><span class="sxs-lookup"><span data-stu-id="16d46-126">In Windows Server 2008 R2, the name of the Terminal Services Connection Broker feature was changed to RD Connection Broker.</span></span>
 
  
 
-<span data-ttu-id="4e5b4-127">如需安全性問題和 WMI 應用程式的詳細資訊，請參閱 [維護 WMI 安全性](/windows/desktop/WmiSdk/maintaining-wmi-security)。</span><span class="sxs-lookup"><span data-stu-id="4e5b4-127">For information about security issues and WMI applications, see [Maintaining WMI Security](/windows/desktop/WmiSdk/maintaining-wmi-security).</span></span>
+<span data-ttu-id="16d46-127">如需安全性問題和 WMI 應用程式的詳細資訊，請參閱 [維護 WMI 安全性](/windows/desktop/WmiSdk/maintaining-wmi-security)。</span><span class="sxs-lookup"><span data-stu-id="16d46-127">For information about security issues and WMI applications, see [Maintaining WMI Security](/windows/desktop/WmiSdk/maintaining-wmi-security).</span></span>
 
  
 

@@ -11,26 +11,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 06/17/2020
 ms.locfileid: "103933026"
 ---
-# <a name="how-to-create-vertical-toolbars"></a><span data-ttu-id="abfd7-103">如何建立垂直工具列</span><span class="sxs-lookup"><span data-stu-id="abfd7-103">How to Create Vertical Toolbars</span></span>
+# <a name="how-to-create-vertical-toolbars"></a><span data-ttu-id="fb49b-103">如何建立垂直工具列</span><span class="sxs-lookup"><span data-stu-id="fb49b-103">How to Create Vertical Toolbars</span></span>
 
-<span data-ttu-id="abfd7-104">建立垂直工具列的關鍵是在視窗樣式中 [**包含 \_ 垂直 CCS**](common-control-styles.md) ，以及為每個按鈕設定 [**TBSTATE \_ 換行**](toolbar-button-states.md) 樣式。</span><span class="sxs-lookup"><span data-stu-id="abfd7-104">The key to creating a vertical toolbar is to include [**CCS\_VERT**](common-control-styles.md) in the window style, and to set the [**TBSTATE\_WRAP**](toolbar-button-states.md) style for each button.</span></span>
+<span data-ttu-id="fb49b-104">建立垂直工具列的關鍵是在視窗樣式中 [**包含 \_ 垂直 CCS**](common-control-styles.md) ，以及為每個按鈕設定 [**TBSTATE \_ 換行**](toolbar-button-states.md) 樣式。</span><span class="sxs-lookup"><span data-stu-id="fb49b-104">The key to creating a vertical toolbar is to include [**CCS\_VERT**](common-control-styles.md) in the window style, and to set the [**TBSTATE\_WRAP**](toolbar-button-states.md) style for each button.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="abfd7-105">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="abfd7-105">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="fb49b-105">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="fb49b-105">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="abfd7-106">技術</span><span class="sxs-lookup"><span data-stu-id="abfd7-106">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="fb49b-106">技術</span><span class="sxs-lookup"><span data-stu-id="fb49b-106">Technologies</span></span>
 
--   [<span data-ttu-id="abfd7-107">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="abfd7-107">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="fb49b-107">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="fb49b-107">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="abfd7-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="abfd7-108">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="fb49b-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="fb49b-108">Prerequisites</span></span>
 
--   <span data-ttu-id="abfd7-109">C/C++</span><span class="sxs-lookup"><span data-stu-id="abfd7-109">C/C++</span></span>
--   <span data-ttu-id="abfd7-110">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="abfd7-110">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="fb49b-109">C/C++</span><span class="sxs-lookup"><span data-stu-id="fb49b-109">C/C++</span></span>
+-   <span data-ttu-id="fb49b-110">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="fb49b-110">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="abfd7-111">指示</span><span class="sxs-lookup"><span data-stu-id="abfd7-111">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="fb49b-111">指示</span><span class="sxs-lookup"><span data-stu-id="fb49b-111">Instructions</span></span>
 
-### <a name="create-a-vertical-toolbar"></a><span data-ttu-id="abfd7-112">建立垂直工具列</span><span class="sxs-lookup"><span data-stu-id="abfd7-112">Create a Vertical Toolbar</span></span>
+### <a name="create-a-vertical-toolbar"></a><span data-ttu-id="fb49b-112">建立垂直工具列</span><span class="sxs-lookup"><span data-stu-id="fb49b-112">Create a Vertical Toolbar</span></span>
 
-<span data-ttu-id="abfd7-113">下列範例程式碼會建立如下圖所示的垂直工具列。</span><span class="sxs-lookup"><span data-stu-id="abfd7-113">The following example code creates the vertical toolbar shown in the following illustration.</span></span>
+<span data-ttu-id="fb49b-113">下列範例程式碼會建立如下圖所示的垂直工具列。</span><span class="sxs-lookup"><span data-stu-id="fb49b-113">The following example code creates the vertical toolbar shown in the following illustration.</span></span>
 
 ![顯示對話方塊的螢幕擷取畫面，其中有三個以垂直方式排列的工具列專案，其中每個都只有一個圖示](images/tb-vertical.png)
 
@@ -76,14 +76,14 @@ HWND CreateVerticalToolbar(HWND hWndParent)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="abfd7-115">相關主題</span><span class="sxs-lookup"><span data-stu-id="abfd7-115">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="fb49b-115">相關主題</span><span class="sxs-lookup"><span data-stu-id="fb49b-115">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="abfd7-116">使用工具列控制項</span><span class="sxs-lookup"><span data-stu-id="abfd7-116">Using Toolbar Controls</span></span>](using-toolbar-controls.md)
+[<span data-ttu-id="fb49b-116">使用工具列控制項</span><span class="sxs-lookup"><span data-stu-id="fb49b-116">Using Toolbar Controls</span></span>](using-toolbar-controls.md)
 </dt> <dt>
 
-<span data-ttu-id="abfd7-117">[Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span><span class="sxs-lookup"><span data-stu-id="abfd7-117">[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span></span>
+<span data-ttu-id="fb49b-117">[Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span><span class="sxs-lookup"><span data-stu-id="fb49b-117">[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span></span>
 </dt> </dl>
 
  

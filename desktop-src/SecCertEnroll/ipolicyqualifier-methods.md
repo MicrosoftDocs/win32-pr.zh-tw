@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694511"
 ---
-# <a name="ipolicyqualifier-methods"></a><span data-ttu-id="cf2f1-103">IPolicyQualifier 方法</span><span class="sxs-lookup"><span data-stu-id="cf2f1-103">IPolicyQualifier Methods</span></span>
+# <a name="ipolicyqualifier-methods"></a><span data-ttu-id="33b9f-103">IPolicyQualifier 方法</span><span class="sxs-lookup"><span data-stu-id="33b9f-103">IPolicyQualifier Methods</span></span>
 
-<span data-ttu-id="cf2f1-104">[**IPolicyQualifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="cf2f1-104">The [**IPolicyQualifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier) interface exposes the following methods.</span></span>
+<span data-ttu-id="33b9f-104">[**IPolicyQualifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="33b9f-104">The [**IPolicyQualifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="cf2f1-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="cf2f1-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="33b9f-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="33b9f-105">In this section</span></span>
 
--   [<span data-ttu-id="cf2f1-106">**InitializeEncode 方法**</span><span class="sxs-lookup"><span data-stu-id="cf2f1-106">**InitializeEncode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-initializeencode)
+-   [<span data-ttu-id="33b9f-106">**InitializeEncode 方法**</span><span class="sxs-lookup"><span data-stu-id="33b9f-106">**InitializeEncode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-initializeencode)
 
  
 
