@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694507"
 ---
-# <a name="isignercertificate-properties"></a><span data-ttu-id="343b5-103">ISignerCertificate 屬性</span><span class="sxs-lookup"><span data-stu-id="343b5-103">ISignerCertificate Properties</span></span>
+# <a name="isignercertificate-properties"></a><span data-ttu-id="0b7d2-103">ISignerCertificate 屬性</span><span class="sxs-lookup"><span data-stu-id="0b7d2-103">ISignerCertificate Properties</span></span>
 
-<span data-ttu-id="343b5-104">[**ISignerCertificate**](/windows/desktop/api/CertEnroll/nn-certenroll-isignercertificate)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="343b5-104">The [**ISignerCertificate**](/windows/desktop/api/CertEnroll/nn-certenroll-isignercertificate) interface exposes the following properties.</span></span>
+<span data-ttu-id="0b7d2-104">[**ISignerCertificate**](/windows/desktop/api/CertEnroll/nn-certenroll-isignercertificate)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="0b7d2-104">The [**ISignerCertificate**](/windows/desktop/api/CertEnroll/nn-certenroll-isignercertificate) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="343b5-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="343b5-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0b7d2-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0b7d2-105">In this section</span></span>
 
--   [<span data-ttu-id="343b5-106">**Certificate 屬性**</span><span class="sxs-lookup"><span data-stu-id="343b5-106">**Certificate Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_certificate)
--   [<span data-ttu-id="343b5-107">**ParentWindow 屬性**</span><span class="sxs-lookup"><span data-stu-id="343b5-107">**ParentWindow Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_parentwindow)
--   [<span data-ttu-id="343b5-108">**釘選屬性**</span><span class="sxs-lookup"><span data-stu-id="343b5-108">**Pin Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-put_pin)
--   [<span data-ttu-id="343b5-109">**PrivateKey 屬性**</span><span class="sxs-lookup"><span data-stu-id="343b5-109">**PrivateKey Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_privatekey)
--   [<span data-ttu-id="343b5-110">**SignatureInformation 屬性**</span><span class="sxs-lookup"><span data-stu-id="343b5-110">**SignatureInformation Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_signatureinformation)
--   [<span data-ttu-id="343b5-111">**無訊息屬性**</span><span class="sxs-lookup"><span data-stu-id="343b5-111">**Silent Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_silent)
--   [<span data-ttu-id="343b5-112">**UICoNtextMessage 屬性**</span><span class="sxs-lookup"><span data-stu-id="343b5-112">**UIContextMessage Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_uicontextmessage)
+-   [<span data-ttu-id="0b7d2-106">**Certificate 屬性**</span><span class="sxs-lookup"><span data-stu-id="0b7d2-106">**Certificate Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_certificate)
+-   [<span data-ttu-id="0b7d2-107">**ParentWindow 屬性**</span><span class="sxs-lookup"><span data-stu-id="0b7d2-107">**ParentWindow Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_parentwindow)
+-   [<span data-ttu-id="0b7d2-108">**釘選屬性**</span><span class="sxs-lookup"><span data-stu-id="0b7d2-108">**Pin Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-put_pin)
+-   [<span data-ttu-id="0b7d2-109">**PrivateKey 屬性**</span><span class="sxs-lookup"><span data-stu-id="0b7d2-109">**PrivateKey Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_privatekey)
+-   [<span data-ttu-id="0b7d2-110">**SignatureInformation 屬性**</span><span class="sxs-lookup"><span data-stu-id="0b7d2-110">**SignatureInformation Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_signatureinformation)
+-   [<span data-ttu-id="0b7d2-111">**無訊息屬性**</span><span class="sxs-lookup"><span data-stu-id="0b7d2-111">**Silent Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_silent)
+-   [<span data-ttu-id="0b7d2-112">**UICoNtextMessage 屬性**</span><span class="sxs-lookup"><span data-stu-id="0b7d2-112">**UIContextMessage Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_uicontextmessage)
 
  
 

@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694707"
 ---
-# <a name="jet_tablecreatetableid-property"></a><span data-ttu-id="8d393-103">JET_TABLECREATE tableid 屬性</span><span class="sxs-lookup"><span data-stu-id="8d393-103">JET_TABLECREATE.tableid property</span></span>
+# <a name="jet_tablecreatetableid-property"></a><span data-ttu-id="c5dec-103">JET_TABLECREATE tableid 屬性</span><span class="sxs-lookup"><span data-stu-id="c5dec-103">JET_TABLECREATE.tableid property</span></span>
 
-<span data-ttu-id="8d393-104">取得或設定傳回的 tabledid。</span><span class="sxs-lookup"><span data-stu-id="8d393-104">Gets or sets the returned tabledid.</span></span>
+<span data-ttu-id="c5dec-104">取得或設定傳回的 tabledid。</span><span class="sxs-lookup"><span data-stu-id="c5dec-104">Gets or sets the returned tabledid.</span></span>
 
-<span data-ttu-id="8d393-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="8d393-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="8d393-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8d393-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="c5dec-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c5dec-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="c5dec-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c5dec-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8d393-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="8d393-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c5dec-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="c5dec-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.tableid = value
 public JET_TABLEID tableid { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="8d393-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="8d393-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="c5dec-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="c5dec-108">Property value</span></span>
 
-<span data-ttu-id="8d393-109">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="8d393-109">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+<span data-ttu-id="c5dec-109">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="c5dec-109">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="8d393-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8d393-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c5dec-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c5dec-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="8d393-111">參考</span><span class="sxs-lookup"><span data-stu-id="8d393-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="c5dec-111">參考</span><span class="sxs-lookup"><span data-stu-id="c5dec-111">Reference</span></span>
 
-[<span data-ttu-id="8d393-112">JET_TABLECREATE 類別</span><span class="sxs-lookup"><span data-stu-id="8d393-112">JET_TABLECREATE class</span></span>](./jet-tablecreate-class.md)
+[<span data-ttu-id="c5dec-112">JET_TABLECREATE 類別</span><span class="sxs-lookup"><span data-stu-id="c5dec-112">JET_TABLECREATE class</span></span>](./jet-tablecreate-class.md)
 
-[<span data-ttu-id="8d393-113">JET_TABLECREATE 成員</span><span class="sxs-lookup"><span data-stu-id="8d393-113">JET_TABLECREATE members</span></span>](./jet-tablecreate-members.md)
+[<span data-ttu-id="c5dec-113">JET_TABLECREATE 成員</span><span class="sxs-lookup"><span data-stu-id="c5dec-113">JET_TABLECREATE members</span></span>](./jet-tablecreate-members.md)
 
-[<span data-ttu-id="8d393-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="8d393-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="c5dec-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c5dec-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

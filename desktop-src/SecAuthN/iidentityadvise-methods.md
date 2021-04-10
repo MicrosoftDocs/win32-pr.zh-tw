@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694664"
 ---
-# <a name="iidentityadvise-methods"></a><span data-ttu-id="b20e1-103">IIdentityAdvise 方法</span><span class="sxs-lookup"><span data-stu-id="b20e1-103">IIdentityAdvise Methods</span></span>
+# <a name="iidentityadvise-methods"></a><span data-ttu-id="93d3f-103">IIdentityAdvise 方法</span><span class="sxs-lookup"><span data-stu-id="93d3f-103">IIdentityAdvise Methods</span></span>
 
-<span data-ttu-id="b20e1-104">[**IIdentityAdvise**](/windows/desktop/api/IdentityProvider/nn-identityprovider-iidentityadvise)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="b20e1-104">The [**IIdentityAdvise**](/windows/desktop/api/IdentityProvider/nn-identityprovider-iidentityadvise) interface exposes the following methods.</span></span>
+<span data-ttu-id="93d3f-104">[**IIdentityAdvise**](/windows/desktop/api/IdentityProvider/nn-identityprovider-iidentityadvise)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="93d3f-104">The [**IIdentityAdvise**](/windows/desktop/api/IdentityProvider/nn-identityprovider-iidentityadvise) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="b20e1-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b20e1-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="93d3f-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="93d3f-105">In this section</span></span>
 
--   [<span data-ttu-id="b20e1-106">**IdentityUpdated 方法**</span><span class="sxs-lookup"><span data-stu-id="b20e1-106">**IdentityUpdated Method**</span></span>](/windows/desktop/api/IdentityProvider/nf-identityprovider-iidentityadvise-identityupdated)
+-   [<span data-ttu-id="93d3f-106">**IdentityUpdated 方法**</span><span class="sxs-lookup"><span data-stu-id="93d3f-106">**IdentityUpdated Method**</span></span>](/windows/desktop/api/IdentityProvider/nf-identityprovider-iidentityadvise-identityupdated)
 
  
 

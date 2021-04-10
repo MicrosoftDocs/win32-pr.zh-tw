@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "104023885"
 ---
-# <a name="helptopic-property"></a><span data-ttu-id="f0b31-104">HelpTopic 屬性</span><span class="sxs-lookup"><span data-stu-id="f0b31-104">HelpTopic Property</span></span>
+# <a name="helptopic-property"></a><span data-ttu-id="2acf3-104">HelpTopic 屬性</span><span class="sxs-lookup"><span data-stu-id="2acf3-104">HelpTopic Property</span></span>
 
-<span data-ttu-id="f0b31-105">**HelpTopic** 屬性會取得與 Microsoft Win32 [WinHelp](/windows/win32/api/winuser/nf-winuser-winhelpa)函數搭配使用的詳細資料，以顯示與物件相關聯的說明主題。</span><span class="sxs-lookup"><span data-stu-id="f0b31-105">The **HelpTopic** property obtains details used with the Microsoft Win32 [WinHelp](/windows/win32/api/winuser/nf-winuser-winhelpa) function to display a Help topic associated with the object.</span></span> <span data-ttu-id="f0b31-106">並非所有物件都支援此屬性。</span><span class="sxs-lookup"><span data-stu-id="f0b31-106">Not all objects support this property.</span></span>
+<span data-ttu-id="2acf3-105">**HelpTopic** 屬性會取得與 Microsoft Win32 [WinHelp](/windows/win32/api/winuser/nf-winuser-winhelpa)函數搭配使用的詳細資料，以顯示與物件相關聯的說明主題。</span><span class="sxs-lookup"><span data-stu-id="2acf3-105">The **HelpTopic** property obtains details used with the Microsoft Win32 [WinHelp](/windows/win32/api/winuser/nf-winuser-winhelpa) function to display a Help topic associated with the object.</span></span> <span data-ttu-id="2acf3-106">並非所有物件都支援此屬性。</span><span class="sxs-lookup"><span data-stu-id="2acf3-106">Not all objects support this property.</span></span>
 
-<span data-ttu-id="f0b31-107">藉由呼叫 [**IAccessible：： get \_ accHelpTopic**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelptopic)，即可取出 **HelpTopic** 屬性。</span><span class="sxs-lookup"><span data-stu-id="f0b31-107">The **HelpTopic** property is retrieved by calling the [**IAccessible::get\_accHelpTopic**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelptopic).</span></span>
+<span data-ttu-id="2acf3-107">藉由呼叫 [**IAccessible：： get \_ accHelpTopic**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelptopic)，即可取出 **HelpTopic** 屬性。</span><span class="sxs-lookup"><span data-stu-id="2acf3-107">The **HelpTopic** property is retrieved by calling the [**IAccessible::get\_accHelpTopic**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelptopic).</span></span>
 
  
 

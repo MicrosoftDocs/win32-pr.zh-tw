@@ -11,29 +11,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "104024025"
 ---
-# <a name="bluetooth-and-read-or-write-operations"></a><span data-ttu-id="e2196-103">藍牙和讀取或寫入作業</span><span class="sxs-lookup"><span data-stu-id="e2196-103">Bluetooth and read or write operations</span></span>
+# <a name="bluetooth-and-read-or-write-operations"></a><span data-ttu-id="8df48-103">藍牙和讀取或寫入作業</span><span class="sxs-lookup"><span data-stu-id="8df48-103">Bluetooth and read or write operations</span></span>
 
-<span data-ttu-id="e2196-104">藍牙能夠執行 Windows 通訊端提供的所有讀取和寫入作業，這些作業目前支援其他的位址系列。</span><span class="sxs-lookup"><span data-stu-id="e2196-104">Bluetooth is capable of performing all read and write operations available with Windows Sockets that are currently supported with other address families.</span></span>
+<span data-ttu-id="8df48-104">藍牙能夠執行 Windows 通訊端提供的所有讀取和寫入作業，這些作業目前支援其他的位址系列。</span><span class="sxs-lookup"><span data-stu-id="8df48-104">Bluetooth is capable of performing all read and write operations available with Windows Sockets that are currently supported with other address families.</span></span>
 
-<span data-ttu-id="e2196-105">如需有關讀取和寫入作業的詳細資訊，請參閱 [Windows 通訊端](/windows/desktop/WinSock/windows-sockets-start-page-2)。</span><span class="sxs-lookup"><span data-stu-id="e2196-105">For more information about read and write operations, see [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).</span></span>
+<span data-ttu-id="8df48-105">如需有關讀取和寫入作業的詳細資訊，請參閱 [Windows 通訊端](/windows/desktop/WinSock/windows-sockets-start-page-2)。</span><span class="sxs-lookup"><span data-stu-id="8df48-105">For more information about read and write operations, see [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="e2196-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="e2196-106">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8df48-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="8df48-106">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e2196-107">Windows Sockets</span><span class="sxs-lookup"><span data-stu-id="e2196-107">Windows Sockets</span></span>](/windows/desktop/WinSock/windows-sockets-start-page-2)
+[<span data-ttu-id="8df48-107">Windows Sockets</span><span class="sxs-lookup"><span data-stu-id="8df48-107">Windows Sockets</span></span>](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[<span data-ttu-id="e2196-108">**recv**</span><span class="sxs-lookup"><span data-stu-id="e2196-108">**recv**</span></span>](/windows/desktop/api/winsock/nf-winsock-recv)
+[<span data-ttu-id="8df48-108">**recv**</span><span class="sxs-lookup"><span data-stu-id="8df48-108">**recv**</span></span>](/windows/desktop/api/winsock/nf-winsock-recv)
 </dt> <dt>
 
-[<span data-ttu-id="e2196-109">**recvfrom**</span><span class="sxs-lookup"><span data-stu-id="e2196-109">**recvfrom**</span></span>](/windows/desktop/api/winsock/nf-winsock-recvfrom)
+[<span data-ttu-id="8df48-109">**recvfrom**</span><span class="sxs-lookup"><span data-stu-id="8df48-109">**recvfrom**</span></span>](/windows/desktop/api/winsock/nf-winsock-recvfrom)
 </dt> <dt>
 
-[<span data-ttu-id="e2196-110">**發送**</span><span class="sxs-lookup"><span data-stu-id="e2196-110">**send**</span></span>](/windows/desktop/api/winsock2/nf-winsock2-send)
+[<span data-ttu-id="8df48-110">**發送**</span><span class="sxs-lookup"><span data-stu-id="8df48-110">**send**</span></span>](/windows/desktop/api/winsock2/nf-winsock2-send)
 </dt> <dt>
 
-[<span data-ttu-id="e2196-111">**sendto**</span><span class="sxs-lookup"><span data-stu-id="e2196-111">**sendto**</span></span>](/windows/desktop/api/winsock/nf-winsock-sendto)
+[<span data-ttu-id="8df48-111">**sendto**</span><span class="sxs-lookup"><span data-stu-id="8df48-111">**sendto**</span></span>](/windows/desktop/api/winsock/nf-winsock-sendto)
 </dt> </dl>
 
  
