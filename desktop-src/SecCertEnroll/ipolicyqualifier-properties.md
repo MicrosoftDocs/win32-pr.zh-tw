@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851543"
 ---
-# <a name="ipolicyqualifier-properties"></a><span data-ttu-id="fd0b4-103">IPolicyQualifier 屬性</span><span class="sxs-lookup"><span data-stu-id="fd0b4-103">IPolicyQualifier Properties</span></span>
+# <a name="ipolicyqualifier-properties"></a><span data-ttu-id="67e17-103">IPolicyQualifier 屬性</span><span class="sxs-lookup"><span data-stu-id="67e17-103">IPolicyQualifier Properties</span></span>
 
-<span data-ttu-id="fd0b4-104">[**IPolicyQualifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="fd0b4-104">The [**IPolicyQualifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier) interface exposes the following properties.</span></span>
+<span data-ttu-id="67e17-104">[**IPolicyQualifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="67e17-104">The [**IPolicyQualifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="fd0b4-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="fd0b4-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="67e17-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="67e17-105">In this section</span></span>
 
--   [<span data-ttu-id="fd0b4-106">**ObjectId 屬性**</span><span class="sxs-lookup"><span data-stu-id="fd0b4-106">**ObjectId Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_objectid)
--   [<span data-ttu-id="fd0b4-107">**限定詞屬性**</span><span class="sxs-lookup"><span data-stu-id="fd0b4-107">**Qualifier Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_qualifier)
--   [<span data-ttu-id="fd0b4-108">**RawData 屬性**</span><span class="sxs-lookup"><span data-stu-id="fd0b4-108">**RawData Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_rawdata)
--   [<span data-ttu-id="fd0b4-109">**Type 屬性**</span><span class="sxs-lookup"><span data-stu-id="fd0b4-109">**Type Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_type)
+-   [<span data-ttu-id="67e17-106">**ObjectId 屬性**</span><span class="sxs-lookup"><span data-stu-id="67e17-106">**ObjectId Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_objectid)
+-   [<span data-ttu-id="67e17-107">**限定詞屬性**</span><span class="sxs-lookup"><span data-stu-id="67e17-107">**Qualifier Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_qualifier)
+-   [<span data-ttu-id="67e17-108">**RawData 屬性**</span><span class="sxs-lookup"><span data-stu-id="67e17-108">**RawData Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_rawdata)
+-   [<span data-ttu-id="67e17-109">**Type 屬性**</span><span class="sxs-lookup"><span data-stu-id="67e17-109">**Type Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_type)
 
  
 

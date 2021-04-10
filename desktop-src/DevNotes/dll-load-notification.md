@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110293"
 ---
-# <a name="dll-load-notification"></a><span data-ttu-id="16914-103">DLL 載入通知</span><span class="sxs-lookup"><span data-stu-id="16914-103">DLL Load Notification</span></span>
+# <a name="dll-load-notification"></a><span data-ttu-id="bea65-103">DLL 載入通知</span><span class="sxs-lookup"><span data-stu-id="bea65-103">DLL Load Notification</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="16914-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="16914-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bea65-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="bea65-104">In this section</span></span>
 
--   [<span data-ttu-id="16914-105">*LdrDllNotification*</span><span class="sxs-lookup"><span data-stu-id="16914-105">*LdrDllNotification*</span></span>](ldrdllnotification.md)
--   [<span data-ttu-id="16914-106">**LdrFastFailInLoaderCallout**</span><span class="sxs-lookup"><span data-stu-id="16914-106">**LdrFastFailInLoaderCallout**</span></span>](ldrfastfailinloadercallout.md)
--   [<span data-ttu-id="16914-107">**LdrRegisterDllNotification**</span><span class="sxs-lookup"><span data-stu-id="16914-107">**LdrRegisterDllNotification**</span></span>](ldrregisterdllnotification.md)
--   [<span data-ttu-id="16914-108">**LdrUnregisterDllNotification**</span><span class="sxs-lookup"><span data-stu-id="16914-108">**LdrUnregisterDllNotification**</span></span>](ldrunregisterdllnotification.md)
+-   [<span data-ttu-id="bea65-105">*LdrDllNotification*</span><span class="sxs-lookup"><span data-stu-id="bea65-105">*LdrDllNotification*</span></span>](ldrdllnotification.md)
+-   [<span data-ttu-id="bea65-106">**LdrFastFailInLoaderCallout**</span><span class="sxs-lookup"><span data-stu-id="bea65-106">**LdrFastFailInLoaderCallout**</span></span>](ldrfastfailinloadercallout.md)
+-   [<span data-ttu-id="bea65-107">**LdrRegisterDllNotification**</span><span class="sxs-lookup"><span data-stu-id="bea65-107">**LdrRegisterDllNotification**</span></span>](ldrregisterdllnotification.md)
+-   [<span data-ttu-id="bea65-108">**LdrUnregisterDllNotification**</span><span class="sxs-lookup"><span data-stu-id="bea65-108">**LdrUnregisterDllNotification**</span></span>](ldrunregisterdllnotification.md)
 
  
 

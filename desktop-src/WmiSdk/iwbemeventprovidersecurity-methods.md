@@ -12,13 +12,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851235"
 ---
-# <a name="iwbemeventprovidersecurity-methods"></a><span data-ttu-id="520f2-103">IWbemEventProviderSecurity 方法</span><span class="sxs-lookup"><span data-stu-id="520f2-103">IWbemEventProviderSecurity Methods</span></span>
+# <a name="iwbemeventprovidersecurity-methods"></a><span data-ttu-id="1567a-103">IWbemEventProviderSecurity 方法</span><span class="sxs-lookup"><span data-stu-id="1567a-103">IWbemEventProviderSecurity Methods</span></span>
 
-<span data-ttu-id="520f2-104">[**IWbemEventProviderSecurity**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventprovidersecurity)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="520f2-104">The [**IWbemEventProviderSecurity**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventprovidersecurity) interface exposes the following methods.</span></span>
+<span data-ttu-id="1567a-104">[**IWbemEventProviderSecurity**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventprovidersecurity)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="1567a-104">The [**IWbemEventProviderSecurity**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventprovidersecurity) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="520f2-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="520f2-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1567a-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="1567a-105">In this section</span></span>
 
--   [<span data-ttu-id="520f2-106">**AccessCheck 方法**</span><span class="sxs-lookup"><span data-stu-id="520f2-106">**AccessCheck method**</span></span>](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventprovidersecurity-accesscheck)
+-   [<span data-ttu-id="1567a-106">**AccessCheck 方法**</span><span class="sxs-lookup"><span data-stu-id="1567a-106">**AccessCheck method**</span></span>](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventprovidersecurity-accesscheck)
 
  
 
