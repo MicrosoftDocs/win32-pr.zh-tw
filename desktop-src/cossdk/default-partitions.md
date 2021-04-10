@@ -1,0 +1,41 @@
+---
+description: 預設分割區
+ms.assetid: ce6ad7c1-d4a1-4573-860e-f7859c588773
+title: 預設分割區
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5115b6b2480958c78a53c264804eb1f292808545
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104191030"
+---
+# <a name="default-partitions"></a>預設分割區
+
+當預設分割區指派給使用者時，COM + 會先嘗試啟動該分割區中的元件。 如果啟用失敗，COM + 會在全域分割區搜尋要啟用的元件。 當 COM + 元件包含分割區標記時（明確指定元件所在的分割區），就會發生此進程的例外狀況。 在此情況下，資料分割的名字優先于任何預設分割區設定。
+
+使用本機資料分割時，會使用應用程式伺服器上 [元件服務] 系統管理工具中的 [ **Com + 磁碟分割使用者** ] 資料夾，將預設分割區指派給使用者。 使用 Active Directory 中的資料分割集時，使用者的預設分割區是由使用者的資料分割集所決定。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[本機分割區](local-partitions.md)
+</dt> <dt>
+
+[分割區屬性](partition-properties.md)
+</dt> <dt>
+
+[磁碟分割和 Active Directory](partitions-and-active-directory.md)
+</dt> <dt>
+
+[全域分割區](the-global-partition.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
