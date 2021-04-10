@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692752"
 ---
-# <a name="directories"></a><span data-ttu-id="51851-103">目錄</span><span class="sxs-lookup"><span data-stu-id="51851-103">Directories</span></span>
+# <a name="directories"></a><span data-ttu-id="cc0cb-103">目錄</span><span class="sxs-lookup"><span data-stu-id="cc0cb-103">Directories</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="51851-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="51851-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cc0cb-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="cc0cb-104">In this section</span></span>
 
--   [<span data-ttu-id="51851-105">Active Directory Domain Services</span><span class="sxs-lookup"><span data-stu-id="51851-105">Active Directory Domain Services</span></span>](/windows/desktop/AD/active-directory-domain-services)
--   [<span data-ttu-id="51851-106">Active Directory 輕量型目錄服務</span><span class="sxs-lookup"><span data-stu-id="51851-106">Active Directory Lightweight Directory Services</span></span>](/previous-versions/windows/desktop/adam/active-directory-lightweight-directory-services)
--   [<span data-ttu-id="51851-107">Active Directory 架構</span><span class="sxs-lookup"><span data-stu-id="51851-107">Active Directory Schema</span></span>](/windows/desktop/ADSchema/active-directory-schema)
--   [<span data-ttu-id="51851-108">Active Directory WMI 提供者</span><span class="sxs-lookup"><span data-stu-id="51851-108">Active Directory WMI Provider</span></span>](/previous-versions/windows/desktop/dsprov/active-directory-provider)
--   <span data-ttu-id="51851-109">[Microsoft UDDI SDK](/previous-versions/windows/desktop/aa966237(v=bts.10))</span><span class="sxs-lookup"><span data-stu-id="51851-109">[Microsoft UDDI SDK](/previous-versions/windows/desktop/aa966237(v=bts.10))</span></span>
--   <span data-ttu-id="51851-110">[UDDI 類別庫](/previous-versions/windows/desktop/ee294451(v=bts.10))</span><span class="sxs-lookup"><span data-stu-id="51851-110">[UDDI Class Library](/previous-versions/windows/desktop/ee294451(v=bts.10))</span></span>
+-   [<span data-ttu-id="cc0cb-105">Active Directory Domain Services</span><span class="sxs-lookup"><span data-stu-id="cc0cb-105">Active Directory Domain Services</span></span>](/windows/desktop/AD/active-directory-domain-services)
+-   [<span data-ttu-id="cc0cb-106">Active Directory 輕量型目錄服務</span><span class="sxs-lookup"><span data-stu-id="cc0cb-106">Active Directory Lightweight Directory Services</span></span>](/previous-versions/windows/desktop/adam/active-directory-lightweight-directory-services)
+-   [<span data-ttu-id="cc0cb-107">Active Directory 架構</span><span class="sxs-lookup"><span data-stu-id="cc0cb-107">Active Directory Schema</span></span>](/windows/desktop/ADSchema/active-directory-schema)
+-   [<span data-ttu-id="cc0cb-108">Active Directory WMI 提供者</span><span class="sxs-lookup"><span data-stu-id="cc0cb-108">Active Directory WMI Provider</span></span>](/previous-versions/windows/desktop/dsprov/active-directory-provider)
+-   <span data-ttu-id="cc0cb-109">[Microsoft UDDI SDK](/previous-versions/windows/desktop/aa966237(v=bts.10))</span><span class="sxs-lookup"><span data-stu-id="cc0cb-109">[Microsoft UDDI SDK](/previous-versions/windows/desktop/aa966237(v=bts.10))</span></span>
+-   <span data-ttu-id="cc0cb-110">[UDDI 類別庫](/previous-versions/windows/desktop/ee294451(v=bts.10))</span><span class="sxs-lookup"><span data-stu-id="cc0cb-110">[UDDI Class Library](/previous-versions/windows/desktop/ee294451(v=bts.10))</span></span>
 
  
 

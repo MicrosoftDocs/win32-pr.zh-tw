@@ -11,79 +11,79 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692491"
 ---
-# <a name="examples-of-database-queries-using-sql-and-script"></a><span data-ttu-id="9dc83-103">使用 SQL 和腳本的資料庫查詢範例</span><span class="sxs-lookup"><span data-stu-id="9dc83-103">Examples of Database Queries Using SQL and Script</span></span>
+# <a name="examples-of-database-queries-using-sql-and-script"></a><span data-ttu-id="a4fd1-103">使用 SQL 和腳本的資料庫查詢範例</span><span class="sxs-lookup"><span data-stu-id="a4fd1-103">Examples of Database Queries Using SQL and Script</span></span>
 
-<span data-ttu-id="9dc83-104">Windows [Installer 軟體發展工具組](platform-sdk-components-for-windows-installer-developers.md) 中提供使用腳本驅動資料庫查詢的範例， (SDK) 作為公用程式 WiRunSQL.vbs。</span><span class="sxs-lookup"><span data-stu-id="9dc83-104">An example of using script-driven database queries is provided in the Windows [Installer Software Development Kit](platform-sdk-components-for-windows-installer-developers.md) (SDK) as the utility WiRunSQL.vbs.</span></span> <span data-ttu-id="9dc83-105">此公用程式會使用 [Sql 語法](sql-syntax.md)一節中所述的 sql Windows Installer 版本來處理資料庫查詢。</span><span class="sxs-lookup"><span data-stu-id="9dc83-105">This utility handles database queries using the Windows Installer version of SQL described in the section [SQL Syntax](sql-syntax.md).</span></span>
+<span data-ttu-id="a4fd1-104">Windows [Installer 軟體發展工具組](platform-sdk-components-for-windows-installer-developers.md) 中提供使用腳本驅動資料庫查詢的範例， (SDK) 作為公用程式 WiRunSQL.vbs。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-104">An example of using script-driven database queries is provided in the Windows [Installer Software Development Kit](platform-sdk-components-for-windows-installer-developers.md) (SDK) as the utility WiRunSQL.vbs.</span></span> <span data-ttu-id="a4fd1-105">此公用程式會使用 [Sql 語法](sql-syntax.md)一節中所述的 sql Windows Installer 版本來處理資料庫查詢。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-105">This utility handles database queries using the Windows Installer version of SQL described in the section [SQL Syntax](sql-syntax.md).</span></span>
 
-<span data-ttu-id="9dc83-106">**從資料表中刪除記錄**</span><span class="sxs-lookup"><span data-stu-id="9dc83-106">**Delete a record from a table**</span></span>
+<span data-ttu-id="a4fd1-106">**從資料表中刪除記錄**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-106">**Delete a record from a table**</span></span>
 
-<span data-ttu-id="9dc83-107">下列命令列將從 Test.msi 資料庫的 [功能](feature-table.md) 資料表中，刪除具有主鍵 RED 的記錄。</span><span class="sxs-lookup"><span data-stu-id="9dc83-107">The following command line deletes the record having the primary key RED from the [Feature](feature-table.md) table of the Test.msi database.</span></span>
+<span data-ttu-id="a4fd1-107">下列命令列將從 Test.msi 資料庫的 [功能](feature-table.md) 資料表中，刪除具有主鍵 RED 的記錄。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-107">The following command line deletes the record having the primary key RED from the [Feature](feature-table.md) table of the Test.msi database.</span></span>
 
-<span data-ttu-id="9dc83-108">**Cscript WiRunSQL.vbs Test.msi」功能的 [刪除] \` \` \` \` 。 \`Feature \` = ' RED ' "**</span><span class="sxs-lookup"><span data-stu-id="9dc83-108">**Cscript WiRunSQL.vbs Test.msi "DELETE FROM \`Feature\` WHERE \`Feature\`.\`Feature\`='RED'"**</span></span>
+<span data-ttu-id="a4fd1-108">**Cscript WiRunSQL.vbs Test.msi」功能的 [刪除] \` \` \` \` 。 \`Feature \` = ' RED ' "**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-108">**Cscript WiRunSQL.vbs Test.msi "DELETE FROM \`Feature\` WHERE \`Feature\`.\`Feature\`='RED'"**</span></span>
 
-<span data-ttu-id="9dc83-109">**將資料表加入至資料庫**</span><span class="sxs-lookup"><span data-stu-id="9dc83-109">**Add a table to a database**</span></span>
+<span data-ttu-id="a4fd1-109">**將資料表加入至資料庫**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-109">**Add a table to a database**</span></span>
 
-<span data-ttu-id="9dc83-110">下列命令列將 [目錄](directory-table.md) 資料表新增至 Test.msi 資料庫。</span><span class="sxs-lookup"><span data-stu-id="9dc83-110">The following command line adds the [Directory](directory-table.md) table to the Test.msi database.</span></span>
+<span data-ttu-id="a4fd1-110">下列命令列將 [目錄](directory-table.md) 資料表新增至 Test.msi 資料庫。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-110">The following command line adds the [Directory](directory-table.md) table to the Test.msi database.</span></span>
 
-<span data-ttu-id="9dc83-111">**CScript WiRunSQL.vbs Test.msi "CREATE TABLE \` directory \` (\` directory \` CHAR (72) NOT Null、 \` Directory \_ Parent \` char (72) 、 \` DEFAULTDIR \` CHAR (255) NOT Null 可當地語系化的 PRIMARY KEY \` Directory \`) "**</span><span class="sxs-lookup"><span data-stu-id="9dc83-111">**CScript WiRunSQL.vbs Test.msi "CREATE TABLE \`Directory\` (\`Directory\` CHAR(72) NOT NULL, \`Directory\_Parent\` CHAR(72), \`DefaultDir\` CHAR(255) NOT NULL LOCALIZABLE PRIMARY KEY \`Directory\`)"**</span></span>
+<span data-ttu-id="a4fd1-111">**CScript WiRunSQL.vbs Test.msi "CREATE TABLE \` directory \` (\` directory \` CHAR (72) NOT Null、 \` Directory \_ Parent \` char (72) 、 \` DEFAULTDIR \` CHAR (255) NOT Null 可當地語系化的 PRIMARY KEY \` Directory \`) "**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-111">**CScript WiRunSQL.vbs Test.msi "CREATE TABLE \`Directory\` (\`Directory\` CHAR(72) NOT NULL, \`Directory\_Parent\` CHAR(72), \`DefaultDir\` CHAR(255) NOT NULL LOCALIZABLE PRIMARY KEY \`Directory\`)"**</span></span>
 
-<span data-ttu-id="9dc83-112">**從資料庫中移除資料表**</span><span class="sxs-lookup"><span data-stu-id="9dc83-112">**Remove a table from a database**</span></span>
+<span data-ttu-id="a4fd1-112">**從資料庫中移除資料表**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-112">**Remove a table from a database**</span></span>
 
-<span data-ttu-id="9dc83-113">下列命令列將從 Test.msi 資料庫移除 [功能](feature-table.md) 資料表。</span><span class="sxs-lookup"><span data-stu-id="9dc83-113">The following command line removes the [Feature](feature-table.md) table from the Test.msi database.</span></span>
+<span data-ttu-id="a4fd1-113">下列命令列將從 Test.msi 資料庫移除 [功能](feature-table.md) 資料表。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-113">The following command line removes the [Feature](feature-table.md) table from the Test.msi database.</span></span>
 
-<span data-ttu-id="9dc83-114">**Cscript WiRunSQL.vbs Test.msi "DROP TABLE \` Feature \` "**</span><span class="sxs-lookup"><span data-stu-id="9dc83-114">**Cscript WiRunSQL.vbs Test.msi "DROP TABLE \`Feature\`"**</span></span>
+<span data-ttu-id="a4fd1-114">**Cscript WiRunSQL.vbs Test.msi "DROP TABLE \` Feature \` "**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-114">**Cscript WiRunSQL.vbs Test.msi "DROP TABLE \`Feature\`"**</span></span>
 
-<span data-ttu-id="9dc83-115">**將新資料行加入至資料表**</span><span class="sxs-lookup"><span data-stu-id="9dc83-115">**Add a new column to a table**</span></span>
+<span data-ttu-id="a4fd1-115">**將新資料行加入至資料表**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-115">**Add a new column to a table**</span></span>
 
-<span data-ttu-id="9dc83-116">下列命令列會將測試資料行加入 Test.msi 資料庫的 [CustomAction](customaction-table.md) 資料表中。</span><span class="sxs-lookup"><span data-stu-id="9dc83-116">The following command line adds the Test column to the [CustomAction](customaction-table.md) table of the Test.msi database.</span></span>
+<span data-ttu-id="a4fd1-116">下列命令列會將測試資料行加入 Test.msi 資料庫的 [CustomAction](customaction-table.md) 資料表中。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-116">The following command line adds the Test column to the [CustomAction](customaction-table.md) table of the Test.msi database.</span></span>
 
-<span data-ttu-id="9dc83-117">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \` CustomAction \` ADD \` Test \` INTEGER"**</span><span class="sxs-lookup"><span data-stu-id="9dc83-117">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \`CustomAction\` ADD \`Test\` INTEGER"**</span></span>
+<span data-ttu-id="a4fd1-117">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \` CustomAction \` ADD \` Test \` INTEGER"**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-117">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \`CustomAction\` ADD \`Test\` INTEGER"**</span></span>
 
-<span data-ttu-id="9dc83-118">**在資料表中插入新的記錄**</span><span class="sxs-lookup"><span data-stu-id="9dc83-118">**Insert a new record into a table**</span></span>
+<span data-ttu-id="a4fd1-118">**在資料表中插入新的記錄**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-118">**Insert a new record into a table**</span></span>
 
-<span data-ttu-id="9dc83-119">下列命令列將新記錄插入 Test.msi 資料庫的 [功能](feature-table.md) 資料表中。</span><span class="sxs-lookup"><span data-stu-id="9dc83-119">The following command line inserts a new record into the [Feature](feature-table.md) table of the Test.msi database.</span></span>
+<span data-ttu-id="a4fd1-119">下列命令列將新記錄插入 Test.msi 資料庫的 [功能](feature-table.md) 資料表中。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-119">The following command line inserts a new record into the [Feature](feature-table.md) table of the Test.msi database.</span></span>
 
-<span data-ttu-id="9dc83-120">**Cscript WiRunSQL.vbs Test.msi 「插入 \` 功能 \` (\` 功能 \` 。 \`功能 \` \` \` 。 \`功能 \_ 父系 \` 、 \` 功能 \` 。 \`標題 \` 、 \` 功能 \` 。 \`描述 \` ， \` 功能 \` 。 \`顯示 \` 、 \` 功能 \` 。 \`層級 \` 、 \` 功能 \` 。 \`目錄 \_ \` 、 \` 功能 \` 。 \`屬性 \`) 值 ( 「網球」、「運動」、「網球」、「聯賽」、25、3、「SPORTDIR」、2) 」**</span><span class="sxs-lookup"><span data-stu-id="9dc83-120">**Cscript WiRunSQL.vbs Test.msi "INSERT INTO \`Feature\` (\`Feature\`.\`Feature\`,\`Feature\`.\`Feature\_Parent\`,\`Feature\`.\`Title\`,\`Feature\`.\`Description\`, \`Feature\`.\`Display\`,\`Feature\`.\`Level\`,\`Feature\`.\`Directory\_\`,\`Feature\`.\`Attributes\`) VALUES ('Tennis','Sport','Tennis','Tournament',25,3,'SPORTDIR',2)"**</span></span>
+<span data-ttu-id="a4fd1-120">**Cscript WiRunSQL.vbs Test.msi 「插入 \` 功能 \` (\` 功能 \` 。 \`功能 \` \` \` 。 \`功能 \_ 父系 \` 、 \` 功能 \` 。 \`標題 \` 、 \` 功能 \` 。 \`描述 \` ， \` 功能 \` 。 \`顯示 \` 、 \` 功能 \` 。 \`層級 \` 、 \` 功能 \` 。 \`目錄 \_ \` 、 \` 功能 \` 。 \`屬性 \`) 值 ( 「網球」、「運動」、「網球」、「聯賽」、25、3、「SPORTDIR」、2) 」**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-120">**Cscript WiRunSQL.vbs Test.msi "INSERT INTO \`Feature\` (\`Feature\`.\`Feature\`,\`Feature\`.\`Feature\_Parent\`,\`Feature\`.\`Title\`,\`Feature\`.\`Description\`, \`Feature\`.\`Display\`,\`Feature\`.\`Level\`,\`Feature\`.\`Directory\_\`,\`Feature\`.\`Attributes\`) VALUES ('Tennis','Sport','Tennis','Tournament',25,3,'SPORTDIR',2)"**</span></span>
 
-<span data-ttu-id="9dc83-121">這會將下列記錄插入 Test.msi 的 [功能](feature-table.md) 資料表中。</span><span class="sxs-lookup"><span data-stu-id="9dc83-121">This inserts the following record into the [Feature](feature-table.md) table of Test.msi.</span></span>
+<span data-ttu-id="a4fd1-121">這會將下列記錄插入 Test.msi 的 [功能](feature-table.md) 資料表中。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-121">This inserts the following record into the [Feature](feature-table.md) table of Test.msi.</span></span>
 
-<span data-ttu-id="9dc83-122">[功能](feature-table.md) 表</span><span class="sxs-lookup"><span data-stu-id="9dc83-122">[Feature](feature-table.md) Table</span></span>
+<span data-ttu-id="a4fd1-122">[功能](feature-table.md) 表</span><span class="sxs-lookup"><span data-stu-id="a4fd1-122">[Feature](feature-table.md) Table</span></span>
 
 
 
-| <span data-ttu-id="9dc83-123">功能</span><span class="sxs-lookup"><span data-stu-id="9dc83-123">Feature</span></span> | <span data-ttu-id="9dc83-124">功能 \_ 父系</span><span class="sxs-lookup"><span data-stu-id="9dc83-124">Feature\_Parent</span></span> | <span data-ttu-id="9dc83-125">標題</span><span class="sxs-lookup"><span data-stu-id="9dc83-125">Title</span></span>  | <span data-ttu-id="9dc83-126">描述</span><span class="sxs-lookup"><span data-stu-id="9dc83-126">Description</span></span> | <span data-ttu-id="9dc83-127">顯示</span><span class="sxs-lookup"><span data-stu-id="9dc83-127">Display</span></span> | <span data-ttu-id="9dc83-128">層級</span><span class="sxs-lookup"><span data-stu-id="9dc83-128">Level</span></span> | <span data-ttu-id="9dc83-129">目錄\_</span><span class="sxs-lookup"><span data-stu-id="9dc83-129">Directory\_</span></span> | <span data-ttu-id="9dc83-130">屬性</span><span class="sxs-lookup"><span data-stu-id="9dc83-130">Attributes</span></span> |
+| <span data-ttu-id="a4fd1-123">功能</span><span class="sxs-lookup"><span data-stu-id="a4fd1-123">Feature</span></span> | <span data-ttu-id="a4fd1-124">功能 \_ 父系</span><span class="sxs-lookup"><span data-stu-id="a4fd1-124">Feature\_Parent</span></span> | <span data-ttu-id="a4fd1-125">標題</span><span class="sxs-lookup"><span data-stu-id="a4fd1-125">Title</span></span>  | <span data-ttu-id="a4fd1-126">描述</span><span class="sxs-lookup"><span data-stu-id="a4fd1-126">Description</span></span> | <span data-ttu-id="a4fd1-127">顯示</span><span class="sxs-lookup"><span data-stu-id="a4fd1-127">Display</span></span> | <span data-ttu-id="a4fd1-128">層級</span><span class="sxs-lookup"><span data-stu-id="a4fd1-128">Level</span></span> | <span data-ttu-id="a4fd1-129">目錄\_</span><span class="sxs-lookup"><span data-stu-id="a4fd1-129">Directory\_</span></span> | <span data-ttu-id="a4fd1-130">屬性</span><span class="sxs-lookup"><span data-stu-id="a4fd1-130">Attributes</span></span> |
 |---------|-----------------|--------|-------------|---------|-------|-------------|------------|
-| <span data-ttu-id="9dc83-131">網球</span><span class="sxs-lookup"><span data-stu-id="9dc83-131">Tennis</span></span>  | <span data-ttu-id="9dc83-132">運動項目</span><span class="sxs-lookup"><span data-stu-id="9dc83-132">Sport</span></span>           | <span data-ttu-id="9dc83-133">網球</span><span class="sxs-lookup"><span data-stu-id="9dc83-133">Tennis</span></span> | <span data-ttu-id="9dc83-134">比賽</span><span class="sxs-lookup"><span data-stu-id="9dc83-134">Tournament</span></span>  | <span data-ttu-id="9dc83-135">25</span><span class="sxs-lookup"><span data-stu-id="9dc83-135">25</span></span>      | <span data-ttu-id="9dc83-136">3</span><span class="sxs-lookup"><span data-stu-id="9dc83-136">3</span></span>     | <span data-ttu-id="9dc83-137">SPORTDIR</span><span class="sxs-lookup"><span data-stu-id="9dc83-137">SPORTDIR</span></span>    | <span data-ttu-id="9dc83-138">2</span><span class="sxs-lookup"><span data-stu-id="9dc83-138">2</span></span>          |
+| <span data-ttu-id="a4fd1-131">網球</span><span class="sxs-lookup"><span data-stu-id="a4fd1-131">Tennis</span></span>  | <span data-ttu-id="a4fd1-132">運動項目</span><span class="sxs-lookup"><span data-stu-id="a4fd1-132">Sport</span></span>           | <span data-ttu-id="a4fd1-133">網球</span><span class="sxs-lookup"><span data-stu-id="a4fd1-133">Tennis</span></span> | <span data-ttu-id="a4fd1-134">比賽</span><span class="sxs-lookup"><span data-stu-id="a4fd1-134">Tournament</span></span>  | <span data-ttu-id="a4fd1-135">25</span><span class="sxs-lookup"><span data-stu-id="a4fd1-135">25</span></span>      | <span data-ttu-id="a4fd1-136">3</span><span class="sxs-lookup"><span data-stu-id="a4fd1-136">3</span></span>     | <span data-ttu-id="a4fd1-137">SPORTDIR</span><span class="sxs-lookup"><span data-stu-id="a4fd1-137">SPORTDIR</span></span>    | <span data-ttu-id="a4fd1-138">2</span><span class="sxs-lookup"><span data-stu-id="a4fd1-138">2</span></span>          |
 
 
 
  
 
-<span data-ttu-id="9dc83-139">請注意，二進位資料無法使用 INSERT INTO 或 UPDATE SQL 查詢直接插入資料表中。</span><span class="sxs-lookup"><span data-stu-id="9dc83-139">Note that binary data cannot be inserted into a table directly using the INSERT INTO or UPDATE SQL queries.</span></span> <span data-ttu-id="9dc83-140">如需詳細資訊，請參閱 [使用 SQL 將二進位資料加入至資料表](adding-binary-data-to-a-table-using-sql.md)。</span><span class="sxs-lookup"><span data-stu-id="9dc83-140">For information see [Adding Binary Data to a Table Using SQL](adding-binary-data-to-a-table-using-sql.md).</span></span>
+<span data-ttu-id="a4fd1-139">請注意，二進位資料無法使用 INSERT INTO 或 UPDATE SQL 查詢直接插入資料表中。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-139">Note that binary data cannot be inserted into a table directly using the INSERT INTO or UPDATE SQL queries.</span></span> <span data-ttu-id="a4fd1-140">如需詳細資訊，請參閱 [使用 SQL 將二進位資料加入至資料表](adding-binary-data-to-a-table-using-sql.md)。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-140">For information see [Adding Binary Data to a Table Using SQL](adding-binary-data-to-a-table-using-sql.md).</span></span>
 
-<span data-ttu-id="9dc83-141">**修改資料表中的現有記錄**</span><span class="sxs-lookup"><span data-stu-id="9dc83-141">**Modify an existing record in a table**</span></span>
+<span data-ttu-id="a4fd1-141">**修改資料表中的現有記錄**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-141">**Modify an existing record in a table**</span></span>
 
-<span data-ttu-id="9dc83-142">下列命令列將 [標題] 欄位中的現有值變更為 [效能]。</span><span class="sxs-lookup"><span data-stu-id="9dc83-142">The following command line changes the existing value in the Title field to "Performances."</span></span> <span data-ttu-id="9dc83-143">更新的記錄會以 "藝術" 作為其主鍵，而且位於 Test.msi 資料庫的功能資料表中。</span><span class="sxs-lookup"><span data-stu-id="9dc83-143">The updated record has "Arts" as its primary key and is in the Feature table of the Test.msi database.</span></span>
+<span data-ttu-id="a4fd1-142">下列命令列將 [標題] 欄位中的現有值變更為 [效能]。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-142">The following command line changes the existing value in the Title field to "Performances."</span></span> <span data-ttu-id="a4fd1-143">更新的記錄會以 "藝術" 作為其主鍵，而且位於 Test.msi 資料庫的功能資料表中。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-143">The updated record has "Arts" as its primary key and is in the Feature table of the Test.msi database.</span></span>
 
-<span data-ttu-id="9dc83-144">**Cscript WiRunSQL.vbs Test.msi 「更新 \` 功能 \` 集」 \` 功能 \` 。 \`Title \` = 功能的「效能 \` 」 \` 。 \`Feature \` = ' 藝術 ' "**</span><span class="sxs-lookup"><span data-stu-id="9dc83-144">**Cscript WiRunSQL.vbs Test.msi "UPDATE \`Feature\` SET \`Feature\`.\`Title\`='Performances' WHERE \`Feature\`.\`Feature\`='Arts'"**</span></span>
+<span data-ttu-id="a4fd1-144">**Cscript WiRunSQL.vbs Test.msi 「更新 \` 功能 \` 集」 \` 功能 \` 。 \`Title \` = 功能的「效能 \` 」 \` 。 \`Feature \` = ' 藝術 ' "**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-144">**Cscript WiRunSQL.vbs Test.msi "UPDATE \`Feature\` SET \`Feature\`.\`Title\`='Performances' WHERE \`Feature\`.\`Feature\`='Arts'"**</span></span>
 
-<span data-ttu-id="9dc83-145">**選取一組記錄**</span><span class="sxs-lookup"><span data-stu-id="9dc83-145">**Select a group of records**</span></span>
+<span data-ttu-id="a4fd1-145">**選取一組記錄**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-145">**Select a group of records**</span></span>
 
-<span data-ttu-id="9dc83-146">下列命令列會選取屬於 Test.msi 資料庫中 ErrorDialog 之所有控制項的名稱和類型。</span><span class="sxs-lookup"><span data-stu-id="9dc83-146">The following command line selects the name and type of all controls that belong to the ErrorDialog in the Test.msi database.</span></span>
+<span data-ttu-id="a4fd1-146">下列命令列會選取屬於 Test.msi 資料庫中 ErrorDialog 之所有控制項的名稱和類型。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-146">The following command line selects the name and type of all controls that belong to the ErrorDialog in the Test.msi database.</span></span>
 
-<span data-ttu-id="9dc83-147">**CScript WiRunSQL.vbs Test.msi 選取 \` 控制項 \` ，然後 \` \` \` \` 在 \` 對話方塊 \_ \` = ' ErrorDialog ' 的控制項中輸入**</span><span class="sxs-lookup"><span data-stu-id="9dc83-147">**CScript WiRunSQL.vbs Test.msi "SELECT \`Control\`, \`Type\` FROM \`Control\` WHERE \`Dialog\_\`='ErrorDialog' "**</span></span>
+<span data-ttu-id="a4fd1-147">**CScript WiRunSQL.vbs Test.msi 選取 \` 控制項 \` ，然後 \` \` \` \` 在 \` 對話方塊 \_ \` = ' ErrorDialog ' 的控制項中輸入**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-147">**CScript WiRunSQL.vbs Test.msi "SELECT \`Control\`, \`Type\` FROM \`Control\` WHERE \`Dialog\_\`='ErrorDialog' "**</span></span>
 
-<span data-ttu-id="9dc83-148">**將資料表放入記憶體中**</span><span class="sxs-lookup"><span data-stu-id="9dc83-148">**Hold a table in memory**</span></span>
+<span data-ttu-id="a4fd1-148">**將資料表放入記憶體中**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-148">**Hold a table in memory**</span></span>
 
-<span data-ttu-id="9dc83-149">下列命令列將鎖定記憶體中 Test.msi 資料庫的 [元件](component-table.md) 資料表。</span><span class="sxs-lookup"><span data-stu-id="9dc83-149">The following command line locks the [Component](component-table.md) table of the Test.msi database in memory.</span></span>
+<span data-ttu-id="a4fd1-149">下列命令列將鎖定記憶體中 Test.msi 資料庫的 [元件](component-table.md) 資料表。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-149">The following command line locks the [Component](component-table.md) table of the Test.msi database in memory.</span></span>
 
-<span data-ttu-id="9dc83-150">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \` Component \` HOLD"**</span><span class="sxs-lookup"><span data-stu-id="9dc83-150">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \`Component\` HOLD"**</span></span>
+<span data-ttu-id="a4fd1-150">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \` Component \` HOLD"**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-150">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \`Component\` HOLD"**</span></span>
 
-<span data-ttu-id="9dc83-151">**釋放記憶體中的資料表**</span><span class="sxs-lookup"><span data-stu-id="9dc83-151">**Free a table in memory**</span></span>
+<span data-ttu-id="a4fd1-151">**釋放記憶體中的資料表**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-151">**Free a table in memory**</span></span>
 
-<span data-ttu-id="9dc83-152">下列命令列將從記憶體釋放 Test.msi 資料庫的 [元件](component-table.md) 資料表。</span><span class="sxs-lookup"><span data-stu-id="9dc83-152">The following command line frees the [Component](component-table.md) table of the Test.msi database from memory.</span></span>
+<span data-ttu-id="a4fd1-152">下列命令列將從記憶體釋放 Test.msi 資料庫的 [元件](component-table.md) 資料表。</span><span class="sxs-lookup"><span data-stu-id="a4fd1-152">The following command line frees the [Component](component-table.md) table of the Test.msi database from memory.</span></span>
 
-<span data-ttu-id="9dc83-153">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \` Component \` FREE"**</span><span class="sxs-lookup"><span data-stu-id="9dc83-153">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \`Component\` FREE"**</span></span>
+<span data-ttu-id="a4fd1-153">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \` Component \` FREE"**</span><span class="sxs-lookup"><span data-stu-id="a4fd1-153">**CScript WiRunSQL.vbs Test.msi "ALTER TABLE \`Component\` FREE"**</span></span>
 
  
 

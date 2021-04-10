@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103853143"
 ---
-# <a name="locale_sdate"></a><span data-ttu-id="4338e-103">地區設定 \_ SDATE</span><span class="sxs-lookup"><span data-stu-id="4338e-103">LOCALE\_SDATE</span></span>
+# <a name="locale_sdate"></a><span data-ttu-id="c14ca-103">地區設定 \_ SDATE</span><span class="sxs-lookup"><span data-stu-id="c14ca-103">LOCALE\_SDATE</span></span>
 
-<span data-ttu-id="4338e-104">日期分隔符號的字元 (s) 。</span><span class="sxs-lookup"><span data-stu-id="4338e-104">Character(s) for the date separator.</span></span> <span data-ttu-id="4338e-105">此字串允許的最大字元數為四個字元，包括結束的 null 字元。</span><span class="sxs-lookup"><span data-stu-id="4338e-105">The maximum number of characters allowed for this string is four, including a terminating null character.</span></span>
+<span data-ttu-id="c14ca-104">日期分隔符號的字元 (s) 。</span><span class="sxs-lookup"><span data-stu-id="c14ca-104">Character(s) for the date separator.</span></span> <span data-ttu-id="c14ca-105">此字串允許的最大字元數為四個字元，包括結束的 null 字元。</span><span class="sxs-lookup"><span data-stu-id="c14ca-105">The maximum number of characters allowed for this string is four, including a terminating null character.</span></span>
 
-<span data-ttu-id="4338e-106">**Windows Vista 和更新版本：** 這個常數已被取代。</span><span class="sxs-lookup"><span data-stu-id="4338e-106">**Windows Vista and later:** This constant is deprecated.</span></span> <span data-ttu-id="4338e-107">請改用 [LOCALE \_ SSHORTDATE](locale-sshortdate.md) 。</span><span class="sxs-lookup"><span data-stu-id="4338e-107">Use [LOCALE\_SSHORTDATE](locale-sshortdate.md) instead.</span></span> <span data-ttu-id="4338e-108">自訂地區設定可能沒有單一的統一分隔字元。</span><span class="sxs-lookup"><span data-stu-id="4338e-108">A custom locale might not have a single, uniform separator character.</span></span> <span data-ttu-id="4338e-109">例如，"12/31，2006" 之類的格式是有效的。</span><span class="sxs-lookup"><span data-stu-id="4338e-109">For example, a format such as "12/31, 2006" is valid.</span></span>
+<span data-ttu-id="c14ca-106">**Windows Vista 和更新版本：** 這個常數已被取代。</span><span class="sxs-lookup"><span data-stu-id="c14ca-106">**Windows Vista and later:** This constant is deprecated.</span></span> <span data-ttu-id="c14ca-107">請改用 [LOCALE \_ SSHORTDATE](locale-sshortdate.md) 。</span><span class="sxs-lookup"><span data-stu-id="c14ca-107">Use [LOCALE\_SSHORTDATE](locale-sshortdate.md) instead.</span></span> <span data-ttu-id="c14ca-108">自訂地區設定可能沒有單一的統一分隔字元。</span><span class="sxs-lookup"><span data-stu-id="c14ca-108">A custom locale might not have a single, uniform separator character.</span></span> <span data-ttu-id="c14ca-109">例如，"12/31，2006" 之類的格式是有效的。</span><span class="sxs-lookup"><span data-stu-id="c14ca-109">For example, a format such as "12/31, 2006" is valid.</span></span>
 
  
 

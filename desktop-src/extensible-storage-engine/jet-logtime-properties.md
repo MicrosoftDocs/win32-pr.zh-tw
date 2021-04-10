@@ -14,44 +14,44 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852836"
 ---
-# <a name="jet_logtime-properties"></a><span data-ttu-id="0ac56-103">JET_LOGTIME 屬性</span><span class="sxs-lookup"><span data-stu-id="0ac56-103">JET_LOGTIME properties</span></span>
+# <a name="jet_logtime-properties"></a><span data-ttu-id="91a0a-103">JET_LOGTIME 屬性</span><span class="sxs-lookup"><span data-stu-id="91a0a-103">JET_LOGTIME properties</span></span>
 
-<span data-ttu-id="0ac56-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="0ac56-104">Include protected members</span></span>  
-<span data-ttu-id="0ac56-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="0ac56-105">Include inherited members</span></span>  
+<span data-ttu-id="91a0a-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="91a0a-104">Include protected members</span></span>  
+<span data-ttu-id="91a0a-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="91a0a-105">Include inherited members</span></span>  
 
-<span data-ttu-id="0ac56-106">[JET_LOGTIME](./jet-logtime-structure2.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="0ac56-106">The [JET_LOGTIME](./jet-logtime-structure2.md) type exposes the following members.</span></span>
+<span data-ttu-id="91a0a-106">[JET_LOGTIME](./jet-logtime-structure2.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="91a0a-106">The [JET_LOGTIME](./jet-logtime-structure2.md) type exposes the following members.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="0ac56-107">屬性</span><span class="sxs-lookup"><span data-stu-id="0ac56-107">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="91a0a-107">屬性</span><span class="sxs-lookup"><span data-stu-id="91a0a-107">Properties</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="0ac56-108">名稱</span><span class="sxs-lookup"><span data-stu-id="0ac56-108">Name</span></span></th>
-<th><span data-ttu-id="0ac56-109">描述</span><span class="sxs-lookup"><span data-stu-id="0ac56-109">Description</span></span></th>
+<th><span data-ttu-id="91a0a-108">名稱</span><span class="sxs-lookup"><span data-stu-id="91a0a-108">Name</span></span></th>
+<th><span data-ttu-id="91a0a-109">描述</span><span class="sxs-lookup"><span data-stu-id="91a0a-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="0ac56-111"><a href="hh557780(v=exchg.10).md">601.Hasvalue</a></span><span class="sxs-lookup"><span data-stu-id="0ac56-111"><a href="hh557780(v=exchg.10).md">HasValue</a></span></span></td>
-<td><span data-ttu-id="0ac56-112">取得值，指出 JET_LOGTIME 是否有 null 值。</span><span class="sxs-lookup"><span data-stu-id="0ac56-112">Gets a value indicating whether the JET_LOGTIME has a null value.</span></span></td>
+<td><span data-ttu-id="91a0a-111"><a href="hh557780(v=exchg.10).md">601.Hasvalue</a></span><span class="sxs-lookup"><span data-stu-id="91a0a-111"><a href="hh557780(v=exchg.10).md">HasValue</a></span></span></td>
+<td><span data-ttu-id="91a0a-112">取得值，指出 JET_LOGTIME 是否有 null 值。</span><span class="sxs-lookup"><span data-stu-id="91a0a-112">Gets a value indicating whether the JET_LOGTIME has a null value.</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="0ac56-114"><a href="hh578730(v=exchg.10).md">IsUtc</a></span><span class="sxs-lookup"><span data-stu-id="0ac56-114"><a href="hh578730(v=exchg.10).md">IsUtc</a></span></span></td>
-<td><span data-ttu-id="0ac56-115">取得值，指出 JET_LOGTIME 是否以 UTC 表示。</span><span class="sxs-lookup"><span data-stu-id="0ac56-115">Gets a value indicating whether the JET_LOGTIME is in UTC.</span></span></td>
+<td><span data-ttu-id="91a0a-114"><a href="hh578730(v=exchg.10).md">IsUtc</a></span><span class="sxs-lookup"><span data-stu-id="91a0a-114"><a href="hh578730(v=exchg.10).md">IsUtc</a></span></span></td>
+<td><span data-ttu-id="91a0a-115">取得值，指出 JET_LOGTIME 是否以 UTC 表示。</span><span class="sxs-lookup"><span data-stu-id="91a0a-115">Gets a value indicating whether the JET_LOGTIME is in UTC.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="0ac56-116">頁首</span><span class="sxs-lookup"><span data-stu-id="0ac56-116">Top</span></span>
+<span data-ttu-id="91a0a-116">頁首</span><span class="sxs-lookup"><span data-stu-id="91a0a-116">Top</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0ac56-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0ac56-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="91a0a-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="91a0a-117">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="0ac56-118">參考</span><span class="sxs-lookup"><span data-stu-id="0ac56-118">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="91a0a-118">參考</span><span class="sxs-lookup"><span data-stu-id="91a0a-118">Reference</span></span>
 
-[<span data-ttu-id="0ac56-119">JET_LOGTIME 結構</span><span class="sxs-lookup"><span data-stu-id="0ac56-119">JET_LOGTIME structure</span></span>](./jet-logtime-structure2.md)
+[<span data-ttu-id="91a0a-119">JET_LOGTIME 結構</span><span class="sxs-lookup"><span data-stu-id="91a0a-119">JET_LOGTIME structure</span></span>](./jet-logtime-structure2.md)
 
-[<span data-ttu-id="0ac56-120">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="0ac56-120">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="91a0a-120">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="91a0a-120">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

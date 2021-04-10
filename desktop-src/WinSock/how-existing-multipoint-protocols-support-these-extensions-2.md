@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690407"
 ---
-# <a name="how-multipoint-protocols-support-these-extensions"></a><span data-ttu-id="0722c-103">Multipoint 通訊協定如何支援這些擴充功能</span><span class="sxs-lookup"><span data-stu-id="0722c-103">How multipoint protocols support these extensions</span></span>
+# <a name="how-multipoint-protocols-support-these-extensions"></a><span data-ttu-id="76e4c-103">Multipoint 通訊協定如何支援這些擴充功能</span><span class="sxs-lookup"><span data-stu-id="76e4c-103">How multipoint protocols support these extensions</span></span>
 
-<span data-ttu-id="0722c-104">下列主題指出如何透過 Windows 通訊端 2 multipoint 函式來存取 IP 多播和 ATM 點對點功能。</span><span class="sxs-lookup"><span data-stu-id="0722c-104">The following topics indicate how IP multicast and ATM point-to-multipoint capabilities can be accessed through the Windows Sockets 2 multipoint functions.</span></span> <span data-ttu-id="0722c-105">我們將這兩個範例選為範例，因為它們很受歡迎且很容易理解。</span><span class="sxs-lookup"><span data-stu-id="0722c-105">We chose these two as examples because they are popular and well understood.</span></span>
+<span data-ttu-id="76e4c-104">下列主題指出如何透過 Windows 通訊端 2 multipoint 函式來存取 IP 多播和 ATM 點對點功能。</span><span class="sxs-lookup"><span data-stu-id="76e4c-104">The following topics indicate how IP multicast and ATM point-to-multipoint capabilities can be accessed through the Windows Sockets 2 multipoint functions.</span></span> <span data-ttu-id="76e4c-105">我們將這兩個範例選為範例，因為它們很受歡迎且很容易理解。</span><span class="sxs-lookup"><span data-stu-id="76e4c-105">We chose these two as examples because they are popular and well understood.</span></span>
 
--   [<span data-ttu-id="0722c-106">IP 多播</span><span class="sxs-lookup"><span data-stu-id="0722c-106">IP Multicast</span></span>](ip-multicast-2.md)
--   [<span data-ttu-id="0722c-107">ATM 指向 Multipoint</span><span class="sxs-lookup"><span data-stu-id="0722c-107">ATM Point to Multipoint</span></span>](atm-point-to-multipoint-2.md)
+-   [<span data-ttu-id="76e4c-106">IP 多播</span><span class="sxs-lookup"><span data-stu-id="76e4c-106">IP Multicast</span></span>](ip-multicast-2.md)
+-   [<span data-ttu-id="76e4c-107">ATM 指向 Multipoint</span><span class="sxs-lookup"><span data-stu-id="76e4c-107">ATM Point to Multipoint</span></span>](atm-point-to-multipoint-2.md)
 
  
 

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692500"
 ---
-# <a name="receiving-event-notification"></a><span data-ttu-id="1725a-103">接收事件通知</span><span class="sxs-lookup"><span data-stu-id="1725a-103">Receiving Event Notification</span></span>
+# <a name="receiving-event-notification"></a><span data-ttu-id="0f926-103">接收事件通知</span><span class="sxs-lookup"><span data-stu-id="0f926-103">Receiving Event Notification</span></span>
 
-<span data-ttu-id="1725a-104">下列範例示範如何使用 [**NotifyChangeEventLog**](/windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog) 函數在記錄事件時接收通知。</span><span class="sxs-lookup"><span data-stu-id="1725a-104">The following example shows how to use the [**NotifyChangeEventLog**](/windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog) function to receive notification when an event is logged.</span></span> <span data-ttu-id="1725a-105">此範例會篩選 [報告事件](reporting-an-event.md)的範例所撰寫的事件。</span><span class="sxs-lookup"><span data-stu-id="1725a-105">This example filters for the events written by the example in [Reporting an Event](reporting-an-event.md).</span></span>
+<span data-ttu-id="0f926-104">下列範例示範如何使用 [**NotifyChangeEventLog**](/windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog) 函數在記錄事件時接收通知。</span><span class="sxs-lookup"><span data-stu-id="0f926-104">The following example shows how to use the [**NotifyChangeEventLog**](/windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog) function to receive notification when an event is logged.</span></span> <span data-ttu-id="0f926-105">此範例會篩選 [報告事件](reporting-an-event.md)的範例所撰寫的事件。</span><span class="sxs-lookup"><span data-stu-id="0f926-105">This example filters for the events written by the example in [Reporting an Event](reporting-an-event.md).</span></span>
 
 
 ```C++
