@@ -14,16 +14,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "103681630"
 ---
-# <a name="using-idirectoryobject-to-get-a-security-descriptor"></a><span data-ttu-id="72bba-104">使用 IDirectoryObject 取得安全描述項</span><span class="sxs-lookup"><span data-stu-id="72bba-104">Using IDirectoryObject to Get a Security Descriptor</span></span>
+# <a name="using-idirectoryobject-to-get-a-security-descriptor"></a><span data-ttu-id="aaed2-104">使用 IDirectoryObject 取得安全描述項</span><span class="sxs-lookup"><span data-stu-id="aaed2-104">Using IDirectoryObject to Get a Security Descriptor</span></span>
 
-<span data-ttu-id="72bba-105">本主題包含用來取得安全描述項的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="72bba-105">This topic includes a code example used to get a security descriptor.</span></span>
+<span data-ttu-id="aaed2-105">本主題包含用來取得安全描述項的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="aaed2-105">This topic includes a code example used to get a security descriptor.</span></span>
 
-<span data-ttu-id="72bba-106">下列 c + + 程式碼範例：</span><span class="sxs-lookup"><span data-stu-id="72bba-106">The following C++ code example:</span></span>
+<span data-ttu-id="aaed2-106">下列 c + + 程式碼範例：</span><span class="sxs-lookup"><span data-stu-id="aaed2-106">The following C++ code example:</span></span>
 
--   <span data-ttu-id="72bba-107">建立緩衝區。</span><span class="sxs-lookup"><span data-stu-id="72bba-107">Creates a buffer.</span></span>
--   <span data-ttu-id="72bba-108">使用 [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) 介面取得指定物件的安全描述項。</span><span class="sxs-lookup"><span data-stu-id="72bba-108">Uses the [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) interface to get the security descriptor of the specified object.</span></span>
--   <span data-ttu-id="72bba-109">將安全描述項複製到緩衝區。</span><span class="sxs-lookup"><span data-stu-id="72bba-109">Copies the security descriptor to the buffer.</span></span>
--   <span data-ttu-id="72bba-110">傳回包含安全描述項資料之 [**安全 \_ 描述項**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) 結構的指標。</span><span class="sxs-lookup"><span data-stu-id="72bba-110">Returns a pointer to a [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that contains the security descriptor data.</span></span>
+-   <span data-ttu-id="aaed2-107">建立緩衝區。</span><span class="sxs-lookup"><span data-stu-id="aaed2-107">Creates a buffer.</span></span>
+-   <span data-ttu-id="aaed2-108">使用 [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) 介面取得指定物件的安全描述項。</span><span class="sxs-lookup"><span data-stu-id="aaed2-108">Uses the [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) interface to get the security descriptor of the specified object.</span></span>
+-   <span data-ttu-id="aaed2-109">將安全描述項複製到緩衝區。</span><span class="sxs-lookup"><span data-stu-id="aaed2-109">Copies the security descriptor to the buffer.</span></span>
+-   <span data-ttu-id="aaed2-110">傳回包含安全描述項資料之 [**安全 \_ 描述項**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) 結構的指標。</span><span class="sxs-lookup"><span data-stu-id="aaed2-110">Returns a pointer to a [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that contains the security descriptor data.</span></span>
 
 
 ```C++

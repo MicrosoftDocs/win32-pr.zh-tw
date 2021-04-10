@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103842380"
 ---
-# <a name="how-to-draw-a-bitmap"></a><span data-ttu-id="14172-103">如何繪製點陣圖</span><span class="sxs-lookup"><span data-stu-id="14172-103">How to Draw a Bitmap</span></span>
+# <a name="how-to-draw-a-bitmap"></a><span data-ttu-id="be6f0-103">如何繪製點陣圖</span><span class="sxs-lookup"><span data-stu-id="be6f0-103">How to Draw a Bitmap</span></span>
 
-<span data-ttu-id="14172-104">若要呈現點陣圖，請使用 [**ID2D1RenderTarget：:D rawbitmap**](id2d1rendertarget-drawbitmap.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="14172-104">To render a bitmap, use the [**ID2D1RenderTarget::DrawBitmap**](id2d1rendertarget-drawbitmap.md) method.</span></span> <span data-ttu-id="14172-105">下列範例顯示如何使用 **DrawBitmap** 方法來繪製 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)。</span><span class="sxs-lookup"><span data-stu-id="14172-105">The following example shows how to use the **DrawBitmap** method to draw an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).</span></span> <span data-ttu-id="14172-106">它會建立如下圖所示的輸出。</span><span class="sxs-lookup"><span data-stu-id="14172-106">It creates the output shown in the following illustration.</span></span>
+<span data-ttu-id="be6f0-104">若要呈現點陣圖，請使用 [**ID2D1RenderTarget：:D rawbitmap**](id2d1rendertarget-drawbitmap.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="be6f0-104">To render a bitmap, use the [**ID2D1RenderTarget::DrawBitmap**](id2d1rendertarget-drawbitmap.md) method.</span></span> <span data-ttu-id="be6f0-105">下列範例顯示如何使用 **DrawBitmap** 方法來繪製 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)。</span><span class="sxs-lookup"><span data-stu-id="be6f0-105">The following example shows how to use the **DrawBitmap** method to draw an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).</span></span> <span data-ttu-id="be6f0-106">它會建立如下圖所示的輸出。</span><span class="sxs-lookup"><span data-stu-id="be6f0-106">It creates the output shown in the following illustration.</span></span>
 
 ![原始點陣圖和產生的點陣圖具有不同不透明度設定和轉換的圖例](images/drawbitmapexample.png)
 
-<span data-ttu-id="14172-108">首先，建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)。</span><span class="sxs-lookup"><span data-stu-id="14172-108">First, create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).</span></span> <span data-ttu-id="14172-109">下列範例會從應用程式的資源檔載入點陣圖，並將其儲存為 *m \_ pBitmap*。</span><span class="sxs-lookup"><span data-stu-id="14172-109">The following example loads a bitmap from the application's resource file and stores it as *m\_pBitmap*.</span></span> <span data-ttu-id="14172-110"> (若要查看 `LoadResourceBitmap` 方法的執行方式，請參閱 [如何從資源載入點陣圖](how-to-load-a-bitmap-from-a-resource.md)) </span><span class="sxs-lookup"><span data-stu-id="14172-110">(To see how the `LoadResourceBitmap` method is implemented, refer to [How to Load a Bitmap from a Resource](how-to-load-a-bitmap-from-a-resource.md).)</span></span>
+<span data-ttu-id="be6f0-108">首先，建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)。</span><span class="sxs-lookup"><span data-stu-id="be6f0-108">First, create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).</span></span> <span data-ttu-id="be6f0-109">下列範例會從應用程式的資源檔載入點陣圖，並將其儲存為 *m \_ pBitmap*。</span><span class="sxs-lookup"><span data-stu-id="be6f0-109">The following example loads a bitmap from the application's resource file and stores it as *m\_pBitmap*.</span></span> <span data-ttu-id="be6f0-110"> (若要查看 `LoadResourceBitmap` 方法的執行方式，請參閱 [如何從資源載入點陣圖](how-to-load-a-bitmap-from-a-resource.md)) </span><span class="sxs-lookup"><span data-stu-id="be6f0-110">(To see how the `LoadResourceBitmap` method is implemented, refer to [How to Load a Bitmap from a Resource](how-to-load-a-bitmap-from-a-resource.md).)</span></span>
 
 
 ```C++
@@ -35,9 +35,9 @@ hr = LoadResourceBitmap(
 
 
 
-<span data-ttu-id="14172-111">在您建立要用來繪製點陣圖之轉譯目標的相同方法中建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) ，然後在轉譯目標發行時釋出點陣圖。</span><span class="sxs-lookup"><span data-stu-id="14172-111">Create the [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) in the same method where you created the render target that you will use to draw the bitmap, and release the bitmap when the render target is released.</span></span>
+<span data-ttu-id="be6f0-111">在您建立要用來繪製點陣圖之轉譯目標的相同方法中建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) ，然後在轉譯目標發行時釋出點陣圖。</span><span class="sxs-lookup"><span data-stu-id="be6f0-111">Create the [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) in the same method where you created the render target that you will use to draw the bitmap, and release the bitmap when the render target is released.</span></span>
 
-<span data-ttu-id="14172-112">建立點陣圖之後，請將它呈現。</span><span class="sxs-lookup"><span data-stu-id="14172-112">Once the bitmap is created, render it.</span></span> <span data-ttu-id="14172-113">下列範例會使用 [**DrawBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawbitmap(id2d1bitmap_constd2d1_rect_f_float_d2d1_bitmap_interpolation_mode_constd2d1_rect_f)) 方法，使用不同的大小和不透明度設定來轉譯點陣圖數次。</span><span class="sxs-lookup"><span data-stu-id="14172-113">The following example uses the [**DrawBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawbitmap(id2d1bitmap_constd2d1_rect_f_float_d2d1_bitmap_interpolation_mode_constd2d1_rect_f)) method to render a bitmap several times using different size and opacity settings.</span></span>
+<span data-ttu-id="be6f0-112">建立點陣圖之後，請將它呈現。</span><span class="sxs-lookup"><span data-stu-id="be6f0-112">Once the bitmap is created, render it.</span></span> <span data-ttu-id="be6f0-113">下列範例會使用 [**DrawBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawbitmap(id2d1bitmap_constd2d1_rect_f_float_d2d1_bitmap_interpolation_mode_constd2d1_rect_f)) 方法，使用不同的大小和不透明度設定來轉譯點陣圖數次。</span><span class="sxs-lookup"><span data-stu-id="be6f0-113">The following example uses the [**DrawBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawbitmap(id2d1bitmap_constd2d1_rect_f_float_d2d1_bitmap_interpolation_mode_constd2d1_rect_f)) method to render a bitmap several times using different size and opacity settings.</span></span>
 
 
 ```C++
@@ -175,7 +175,7 @@ HRESULT DrawBitmapExample::OnRender()
 
 
 
-<span data-ttu-id="14172-114">[**DrawBitmap**](id2d1rendertarget-drawbitmap.md)方法不會在失敗時傳回錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="14172-114">The [**DrawBitmap**](id2d1rendertarget-drawbitmap.md) method does not return an error code if it fails.</span></span> <span data-ttu-id="14172-115">若要判斷繪圖作業 (如 **DrawBitmap**) 是否失敗，請檢查 [**ID2D1RenderTarget：： EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) 方法所傳回的結果，如下列範例所示。</span><span class="sxs-lookup"><span data-stu-id="14172-115">To determine whether a drawing operation (such as **DrawBitmap**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) method, as shown in the following example.</span></span>
+<span data-ttu-id="be6f0-114">[**DrawBitmap**](id2d1rendertarget-drawbitmap.md)方法不會在失敗時傳回錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="be6f0-114">The [**DrawBitmap**](id2d1rendertarget-drawbitmap.md) method does not return an error code if it fails.</span></span> <span data-ttu-id="be6f0-115">若要判斷繪圖作業 (如 **DrawBitmap**) 是否失敗，請檢查 [**ID2D1RenderTarget：： EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) 方法所傳回的結果，如下列範例所示。</span><span class="sxs-lookup"><span data-stu-id="be6f0-115">To determine whether a drawing operation (such as **DrawBitmap**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) method, as shown in the following example.</span></span>
 
 
 ```C++
@@ -184,19 +184,19 @@ hr = m_pRenderTarget->EndDraw();
 
 
 
-<span data-ttu-id="14172-116">此範例中省略了程式碼。</span><span class="sxs-lookup"><span data-stu-id="14172-116">Code has been omitted from this example.</span></span>
+<span data-ttu-id="be6f0-116">此範例中省略了程式碼。</span><span class="sxs-lookup"><span data-stu-id="be6f0-116">Code has been omitted from this example.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="14172-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="14172-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="be6f0-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="be6f0-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="14172-118">**DrawBitmap**</span><span class="sxs-lookup"><span data-stu-id="14172-118">**DrawBitmap**</span></span>](id2d1rendertarget-drawbitmap.md)
+[<span data-ttu-id="be6f0-118">**DrawBitmap**</span><span class="sxs-lookup"><span data-stu-id="be6f0-118">**DrawBitmap**</span></span>](id2d1rendertarget-drawbitmap.md)
 </dt> <dt>
 
-[<span data-ttu-id="14172-119">**ID2D1Bitmap**</span><span class="sxs-lookup"><span data-stu-id="14172-119">**ID2D1Bitmap**</span></span>](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)
+[<span data-ttu-id="be6f0-119">**ID2D1Bitmap**</span><span class="sxs-lookup"><span data-stu-id="be6f0-119">**ID2D1Bitmap**</span></span>](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)
 </dt> <dt>
 
-[<span data-ttu-id="14172-120">如何從資源載入點陣圖</span><span class="sxs-lookup"><span data-stu-id="14172-120">How to Load a Bitmap from a Resource</span></span>](how-to-load-a-bitmap-from-a-resource.md)
+[<span data-ttu-id="be6f0-120">如何從資源載入點陣圖</span><span class="sxs-lookup"><span data-stu-id="be6f0-120">How to Load a Bitmap from a Resource</span></span>](how-to-load-a-bitmap-from-a-resource.md)
 </dt> </dl>
 
  
