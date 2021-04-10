@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690055"
 ---
-# <a name="apijetsetcolumns-method"></a><span data-ttu-id="26690-103">JetSetColumns 方法</span><span class="sxs-lookup"><span data-stu-id="26690-103">Api.JetSetColumns method</span></span>
+# <a name="apijetsetcolumns-method"></a><span data-ttu-id="52887-103">JetSetColumns 方法</span><span class="sxs-lookup"><span data-stu-id="52887-103">Api.JetSetColumns method</span></span>
 
-<span data-ttu-id="26690-104">允許應用程式在單一作業中設定多個資料行值。</span><span class="sxs-lookup"><span data-stu-id="26690-104">Allows an application to set multiple column values in a single operation.</span></span> <span data-ttu-id="26690-105">[JET_SETCOLUMN](./jet-setcolumn-class.md)結構的陣列用來描述要設定的資料行值集合，以及描述要設定之每個資料行值的輸入緩衝區。</span><span class="sxs-lookup"><span data-stu-id="26690-105">An array of [JET_SETCOLUMN](./jet-setcolumn-class.md) structures is used to describe the set of column values to be set, and to describe input buffers for each column value to be set.</span></span>
+<span data-ttu-id="52887-104">允許應用程式在單一作業中設定多個資料行值。</span><span class="sxs-lookup"><span data-stu-id="52887-104">Allows an application to set multiple column values in a single operation.</span></span> <span data-ttu-id="52887-105">[JET_SETCOLUMN](./jet-setcolumn-class.md)結構的陣列用來描述要設定的資料行值集合，以及描述要設定之每個資料行值的輸入緩衝區。</span><span class="sxs-lookup"><span data-stu-id="52887-105">An array of [JET_SETCOLUMN](./jet-setcolumn-class.md) structures is used to describe the set of column values to be set, and to describe input buffers for each column value to be set.</span></span>
 
-<span data-ttu-id="26690-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="26690-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="26690-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="26690-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="52887-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="52887-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="52887-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="52887-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="26690-108">語法</span><span class="sxs-lookup"><span data-stu-id="26690-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="52887-108">語法</span><span class="sxs-lookup"><span data-stu-id="52887-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -70,45 +70,45 @@ public static JET_wrn JetSetColumns(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="26690-109">參數</span><span class="sxs-lookup"><span data-stu-id="26690-109">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="52887-109">參數</span><span class="sxs-lookup"><span data-stu-id="52887-109">Parameters</span></span>
 
-  - <span data-ttu-id="26690-110">sesid</span><span class="sxs-lookup"><span data-stu-id="26690-110">sesid</span></span>  
-    <span data-ttu-id="26690-111">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="26690-111">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="52887-110">sesid</span><span class="sxs-lookup"><span data-stu-id="52887-110">sesid</span></span>  
+    <span data-ttu-id="52887-111">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="52887-111">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="26690-112">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="26690-112">The session to use.</span></span>
+    <span data-ttu-id="52887-112">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="52887-112">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="26690-113">tableid</span><span class="sxs-lookup"><span data-stu-id="26690-113">tableid</span></span>  
-    <span data-ttu-id="26690-114">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="26690-114">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="52887-113">tableid</span><span class="sxs-lookup"><span data-stu-id="52887-113">tableid</span></span>  
+    <span data-ttu-id="52887-114">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="52887-114">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="26690-115">要在其上設定資料行的資料指標。</span><span class="sxs-lookup"><span data-stu-id="26690-115">The cursor to set the columns on.</span></span>
+    <span data-ttu-id="52887-115">要在其上設定資料行的資料指標。</span><span class="sxs-lookup"><span data-stu-id="52887-115">The cursor to set the columns on.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="26690-116">setcolumns</span><span class="sxs-lookup"><span data-stu-id="26690-116">setcolumns</span></span>  
-    <span data-ttu-id="26690-117">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="26690-117">Type: \[\]</span></span>  
+  - <span data-ttu-id="52887-116">setcolumns</span><span class="sxs-lookup"><span data-stu-id="52887-116">setcolumns</span></span>  
+    <span data-ttu-id="52887-117">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="52887-117">Type: \[\]</span></span>  
     
-    <span data-ttu-id="26690-118">[JET_SETCOLUMN](./jet-setcolumn-class.md)結構的陣列，描述要設定的資料。</span><span class="sxs-lookup"><span data-stu-id="26690-118">An array of [JET_SETCOLUMN](./jet-setcolumn-class.md) structures describing the data to set.</span></span>
+    <span data-ttu-id="52887-118">[JET_SETCOLUMN](./jet-setcolumn-class.md)結構的陣列，描述要設定的資料。</span><span class="sxs-lookup"><span data-stu-id="52887-118">An array of [JET_SETCOLUMN](./jet-setcolumn-class.md) structures describing the data to set.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="26690-119">numColumns</span><span class="sxs-lookup"><span data-stu-id="26690-119">numColumns</span></span>  
-    <span data-ttu-id="26690-120">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="26690-120">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="52887-119">numColumns</span><span class="sxs-lookup"><span data-stu-id="52887-119">numColumns</span></span>  
+    <span data-ttu-id="52887-120">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="52887-120">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="26690-121">Setcolumns 參數中的專案數。</span><span class="sxs-lookup"><span data-stu-id="26690-121">Number of entries in the setcolumns parameter.</span></span>
+    <span data-ttu-id="52887-121">Setcolumns 參數中的專案數。</span><span class="sxs-lookup"><span data-stu-id="52887-121">Number of entries in the setcolumns parameter.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="26690-122">傳回值</span><span class="sxs-lookup"><span data-stu-id="26690-122">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="52887-122">傳回值</span><span class="sxs-lookup"><span data-stu-id="52887-122">Return value</span></span>
 
-<span data-ttu-id="26690-123">類型： [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="26690-123">Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span></span>  
-<span data-ttu-id="26690-124">警告。</span><span class="sxs-lookup"><span data-stu-id="26690-124">A warning.</span></span> <span data-ttu-id="26690-125">如果最後一個資料行集有警告，則會從 JetSetColumns 本身傳回此警告。</span><span class="sxs-lookup"><span data-stu-id="26690-125">If the last column set has a warning, then this warning will be returned from JetSetColumns itself.</span></span>  
+<span data-ttu-id="52887-123">類型： [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="52887-123">Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span></span>  
+<span data-ttu-id="52887-124">警告。</span><span class="sxs-lookup"><span data-stu-id="52887-124">A warning.</span></span> <span data-ttu-id="52887-125">如果最後一個資料行集有警告，則會從 JetSetColumns 本身傳回此警告。</span><span class="sxs-lookup"><span data-stu-id="52887-125">If the last column set has a warning, then this warning will be returned from JetSetColumns itself.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="26690-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="26690-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="52887-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="52887-126">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="26690-127">參考</span><span class="sxs-lookup"><span data-stu-id="26690-127">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="52887-127">參考</span><span class="sxs-lookup"><span data-stu-id="52887-127">Reference</span></span>
 
-[<span data-ttu-id="26690-128">Api 類別</span><span class="sxs-lookup"><span data-stu-id="26690-128">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="52887-128">Api 類別</span><span class="sxs-lookup"><span data-stu-id="52887-128">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="26690-129">Api 成員</span><span class="sxs-lookup"><span data-stu-id="26690-129">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="52887-129">Api 成員</span><span class="sxs-lookup"><span data-stu-id="52887-129">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="26690-130">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="26690-130">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="52887-130">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="52887-130">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

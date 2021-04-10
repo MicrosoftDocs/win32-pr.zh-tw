@@ -24,19 +24,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103687839"
 ---
-# <a name="span-idvspixengineipixengine5callbacks_freetexturecompletespanipixengine5callbacksfreetexturecomplete-method"></a><span data-ttu-id="f4b7d-103"><span id="vspixengine.ipixengine5callbacks_freetexturecomplete"></span>IPixEngine5Callbacks：： FreeTextureComplete 方法</span><span class="sxs-lookup"><span data-stu-id="f4b7d-103"><span id="vspixengine.ipixengine5callbacks_freetexturecomplete"></span>IPixEngine5Callbacks::FreeTextureComplete method</span></span>
+# <a name="span-idvspixengineipixengine5callbacks_freetexturecompletespanipixengine5callbacksfreetexturecomplete-method"></a><span data-ttu-id="b1305-103"><span id="vspixengine.ipixengine5callbacks_freetexturecomplete"></span>IPixEngine5Callbacks：： FreeTextureComplete 方法</span><span class="sxs-lookup"><span data-stu-id="b1305-103"><span id="vspixengine.ipixengine5callbacks_freetexturecomplete"></span>IPixEngine5Callbacks::FreeTextureComplete method</span></span>
 
-<span data-ttu-id="f4b7d-104">釋放材質時，用來通知主機的回呼函式。</span><span class="sxs-lookup"><span data-stu-id="f4b7d-104">A callback function used to notify the host when a texture has been freed.</span></span>
+<span data-ttu-id="b1305-104">釋放材質時，用來通知主機的回呼函式。</span><span class="sxs-lookup"><span data-stu-id="b1305-104">A callback function used to notify the host when a texture has been freed.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f4b7d-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="f4b7d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b1305-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="b1305-105">Syntax</span></span>
 
 
 ```C++
 ```
 
-## <a name="span-idsee_alsospansee-also"></a><span data-ttu-id="f4b7d-106"><span id="see_also"></span>另請參閱</span><span class="sxs-lookup"><span data-stu-id="f4b7d-106"><span id="see_also"></span>See also</span></span>
+## <a name="span-idsee_alsospansee-also"></a><span data-ttu-id="b1305-106"><span id="see_also"></span>另請參閱</span><span class="sxs-lookup"><span data-stu-id="b1305-106"><span id="see_also"></span>See also</span></span>
 
-[<span data-ttu-id="f4b7d-107">**IPixEngine5Callbacks**</span><span class="sxs-lookup"><span data-stu-id="f4b7d-107">**IPixEngine5Callbacks**</span></span>](/windows/desktop/direct3dtools/ipixengine5callbacks)
+[<span data-ttu-id="b1305-107">**IPixEngine5Callbacks**</span><span class="sxs-lookup"><span data-stu-id="b1305-107">**IPixEngine5Callbacks**</span></span>](/windows/desktop/direct3dtools/ipixengine5callbacks)
 
  
 

@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689559"
 ---
-# <a name="jet_spacehintsulgrowth-property"></a><span data-ttu-id="daaee-103">JET_SPACEHINTS ulGrowth 屬性</span><span class="sxs-lookup"><span data-stu-id="daaee-103">JET_SPACEHINTS.ulGrowth property</span></span>
+# <a name="jet_spacehintsulgrowth-property"></a><span data-ttu-id="58d47-103">JET_SPACEHINTS ulGrowth 屬性</span><span class="sxs-lookup"><span data-stu-id="58d47-103">JET_SPACEHINTS.ulGrowth property</span></span>
 
-<span data-ttu-id="daaee-104">取得或設定上一次成長或初始大小 (可能四捨五入為最接近原生 JET 配置大小) 的成長百分比。</span><span class="sxs-lookup"><span data-stu-id="daaee-104">Gets or sets the percent growth from last growth or initial size (possibly rounded to nearest native JET allocation size).</span></span> <span data-ttu-id="daaee-105">有效的值為0，而 \[ 100 50000) 。</span><span class="sxs-lookup"><span data-stu-id="daaee-105">Valid values are 0, and \[100, 50000).</span></span>
+<span data-ttu-id="58d47-104">取得或設定上一次成長或初始大小 (可能四捨五入為最接近原生 JET 配置大小) 的成長百分比。</span><span class="sxs-lookup"><span data-stu-id="58d47-104">Gets or sets the percent growth from last growth or initial size (possibly rounded to nearest native JET allocation size).</span></span> <span data-ttu-id="58d47-105">有效的值為0，而 \[ 100 50000) 。</span><span class="sxs-lookup"><span data-stu-id="58d47-105">Valid values are 0, and \[100, 50000).</span></span>
 
-<span data-ttu-id="daaee-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="daaee-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="daaee-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="daaee-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="58d47-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="58d47-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="58d47-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="58d47-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="daaee-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="daaee-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="58d47-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="58d47-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.ulGrowth = value
 public int ulGrowth { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="daaee-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="daaee-109">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="58d47-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="58d47-109">Property value</span></span>
 
-<span data-ttu-id="daaee-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="daaee-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="58d47-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="58d47-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="daaee-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="daaee-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="58d47-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="58d47-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="daaee-112">參考</span><span class="sxs-lookup"><span data-stu-id="daaee-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="58d47-112">參考</span><span class="sxs-lookup"><span data-stu-id="58d47-112">Reference</span></span>
 
-[<span data-ttu-id="daaee-113">JET_SPACEHINTS 類別</span><span class="sxs-lookup"><span data-stu-id="daaee-113">JET_SPACEHINTS class</span></span>](./jet-spacehints-class.md)
+[<span data-ttu-id="58d47-113">JET_SPACEHINTS 類別</span><span class="sxs-lookup"><span data-stu-id="58d47-113">JET_SPACEHINTS class</span></span>](./jet-spacehints-class.md)
 
-[<span data-ttu-id="daaee-114">JET_SPACEHINTS 成員</span><span class="sxs-lookup"><span data-stu-id="daaee-114">JET_SPACEHINTS members</span></span>](./jet-spacehints-members.md)
+[<span data-ttu-id="58d47-114">JET_SPACEHINTS 成員</span><span class="sxs-lookup"><span data-stu-id="58d47-114">JET_SPACEHINTS members</span></span>](./jet-spacehints-members.md)
 
-[<span data-ttu-id="daaee-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="daaee-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="58d47-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="58d47-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690175"
 ---
-# <a name="locale_snan"></a><span data-ttu-id="aca63-103">地區設定 \_ SNAN</span><span class="sxs-lookup"><span data-stu-id="aca63-103">LOCALE\_SNAN</span></span>
+# <a name="locale_snan"></a><span data-ttu-id="682f8-103">地區設定 \_ SNAN</span><span class="sxs-lookup"><span data-stu-id="682f8-103">LOCALE\_SNAN</span></span>
 
-<span data-ttu-id="aca63-104">**Windows Vista 和更新版本：** "Not a number" 的字串值，例如，英文 (美國) 地區設定為 "Nan"。</span><span class="sxs-lookup"><span data-stu-id="aca63-104">**Windows Vista and later:** String value for "Not a number", for example, "Nan" for the English (United States) locale.</span></span> <span data-ttu-id="aca63-105">此字串允許的字元數沒有限制。</span><span class="sxs-lookup"><span data-stu-id="aca63-105">There is no limit on the number of characters allowed for this string.</span></span>
+<span data-ttu-id="682f8-104">**Windows Vista 和更新版本：** "Not a number" 的字串值，例如，英文 (美國) 地區設定為 "Nan"。</span><span class="sxs-lookup"><span data-stu-id="682f8-104">**Windows Vista and later:** String value for "Not a number", for example, "Nan" for the English (United States) locale.</span></span> <span data-ttu-id="682f8-105">此字串允許的字元數沒有限制。</span><span class="sxs-lookup"><span data-stu-id="682f8-105">There is no limit on the number of characters allowed for this string.</span></span>
 
  
 

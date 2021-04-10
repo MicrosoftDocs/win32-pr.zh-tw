@@ -31,12 +31,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689572"
 ---
-# <a name="jet_snprog-constructor"></a><span data-ttu-id="75391-103">JET_SNPROG 的函式</span><span class="sxs-lookup"><span data-stu-id="75391-103">JET_SNPROG constructor</span></span>
+# <a name="jet_snprog-constructor"></a><span data-ttu-id="0bf37-103">JET_SNPROG 的函式</span><span class="sxs-lookup"><span data-stu-id="0bf37-103">JET_SNPROG constructor</span></span>
 
-<span data-ttu-id="75391-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="75391-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="75391-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="75391-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="0bf37-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="0bf37-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="0bf37-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="0bf37-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="75391-106">語法</span><span class="sxs-lookup"><span data-stu-id="75391-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0bf37-106">語法</span><span class="sxs-lookup"><span data-stu-id="0bf37-106">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,12 +50,12 @@ Dim instance As New JET_SNPROG()
 public JET_SNPROG()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="75391-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="75391-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0bf37-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0bf37-107">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="75391-108">參考</span><span class="sxs-lookup"><span data-stu-id="75391-108">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="0bf37-108">參考</span><span class="sxs-lookup"><span data-stu-id="0bf37-108">Reference</span></span>
 
-[<span data-ttu-id="75391-109">JET_SNPROG 類別</span><span class="sxs-lookup"><span data-stu-id="75391-109">JET_SNPROG class</span></span>](./jet-snprog-class.md)
+[<span data-ttu-id="0bf37-109">JET_SNPROG 類別</span><span class="sxs-lookup"><span data-stu-id="0bf37-109">JET_SNPROG class</span></span>](./jet-snprog-class.md)
 
-[<span data-ttu-id="75391-110">JET_SNPROG 成員</span><span class="sxs-lookup"><span data-stu-id="75391-110">JET_SNPROG members</span></span>](./jet-snprog-members.md)
+[<span data-ttu-id="0bf37-110">JET_SNPROG 成員</span><span class="sxs-lookup"><span data-stu-id="0bf37-110">JET_SNPROG members</span></span>](./jet-snprog-members.md)
 
-[<span data-ttu-id="75391-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="75391-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="0bf37-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="0bf37-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

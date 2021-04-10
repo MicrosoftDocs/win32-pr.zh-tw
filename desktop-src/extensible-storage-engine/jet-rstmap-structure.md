@@ -22,14 +22,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689955"
 ---
-# <a name="jet_rstmap-structure"></a><span data-ttu-id="7dc8a-103">JET_RSTMAP 結構</span><span class="sxs-lookup"><span data-stu-id="7dc8a-103">JET_RSTMAP Structure</span></span>
+# <a name="jet_rstmap-structure"></a><span data-ttu-id="52f15-103">JET_RSTMAP 結構</span><span class="sxs-lookup"><span data-stu-id="52f15-103">JET_RSTMAP Structure</span></span>
 
 
-<span data-ttu-id="7dc8a-104">_**適用于：** Windows |Windows Server_</span><span class="sxs-lookup"><span data-stu-id="7dc8a-104">_**Applies to:** Windows | Windows Server_</span></span>
+<span data-ttu-id="52f15-104">_**適用于：** Windows |Windows Server_</span><span class="sxs-lookup"><span data-stu-id="52f15-104">_**Applies to:** Windows | Windows Server_</span></span>
 
-## <a name="jet_rstmap-structure"></a><span data-ttu-id="7dc8a-105">JET_RSTMAP 結構</span><span class="sxs-lookup"><span data-stu-id="7dc8a-105">JET_RSTMAP Structure</span></span>
+## <a name="jet_rstmap-structure"></a><span data-ttu-id="52f15-105">JET_RSTMAP 結構</span><span class="sxs-lookup"><span data-stu-id="52f15-105">JET_RSTMAP Structure</span></span>
 
-<span data-ttu-id="7dc8a-106">當 [JetInit](./jetinit-function.md)和 [JetExternalRestore](./jetexternalrestore-function.md)函式使用時， **JET_RSTMAP** 結構可重新對應儲存在交易記錄檔中的資料庫檔案路徑。</span><span class="sxs-lookup"><span data-stu-id="7dc8a-106">The **JET_RSTMAP** structure enables the remapping of database file paths that are stored in the transaction logs during recovery, when used by the [JetInit](./jetinit-function.md) and [JetExternalRestore](./jetexternalrestore-function.md) functions.</span></span> <span data-ttu-id="7dc8a-107">這可讓您在離線或從備份還原時，移動資料庫。</span><span class="sxs-lookup"><span data-stu-id="7dc8a-107">This enables the databases to be moved when offline or when restored from backup.</span></span>
+<span data-ttu-id="52f15-106">當 [JetInit](./jetinit-function.md)和 [JetExternalRestore](./jetexternalrestore-function.md)函式使用時， **JET_RSTMAP** 結構可重新對應儲存在交易記錄檔中的資料庫檔案路徑。</span><span class="sxs-lookup"><span data-stu-id="52f15-106">The **JET_RSTMAP** structure enables the remapping of database file paths that are stored in the transaction logs during recovery, when used by the [JetInit](./jetinit-function.md) and [JetExternalRestore](./jetexternalrestore-function.md) functions.</span></span> <span data-ttu-id="52f15-107">這可讓您在離線或從備份還原時，移動資料庫。</span><span class="sxs-lookup"><span data-stu-id="52f15-107">This enables the databases to be moved when offline or when restored from backup.</span></span>
 
 ```cpp
     typedef struct {
@@ -38,17 +38,17 @@ ms.locfileid: "103689955"
     } JET_RSTMAP;
 ```
 
-### <a name="members"></a><span data-ttu-id="7dc8a-108">成員</span><span class="sxs-lookup"><span data-stu-id="7dc8a-108">Members</span></span>
+### <a name="members"></a><span data-ttu-id="52f15-108">成員</span><span class="sxs-lookup"><span data-stu-id="52f15-108">Members</span></span>
 
-<span data-ttu-id="7dc8a-109">**szDatabaseName**</span><span class="sxs-lookup"><span data-stu-id="7dc8a-109">**szDatabaseName**</span></span>
+<span data-ttu-id="52f15-109">**szDatabaseName**</span><span class="sxs-lookup"><span data-stu-id="52f15-109">**szDatabaseName**</span></span>
 
-<span data-ttu-id="7dc8a-110">在復原期間，與交易記錄檔相關聯之資料庫的目前絕對路徑。</span><span class="sxs-lookup"><span data-stu-id="7dc8a-110">The current absolute path of a database that is associated with the transaction logs that are replayed during recovery.</span></span>
+<span data-ttu-id="52f15-110">在復原期間，與交易記錄檔相關聯之資料庫的目前絕對路徑。</span><span class="sxs-lookup"><span data-stu-id="52f15-110">The current absolute path of a database that is associated with the transaction logs that are replayed during recovery.</span></span>
 
-<span data-ttu-id="7dc8a-111">**szNewDatabaseName**</span><span class="sxs-lookup"><span data-stu-id="7dc8a-111">**szNewDatabaseName**</span></span>
+<span data-ttu-id="52f15-111">**szNewDatabaseName**</span><span class="sxs-lookup"><span data-stu-id="52f15-111">**szNewDatabaseName**</span></span>
 
-<span data-ttu-id="7dc8a-112">資料庫的新絕對路徑。</span><span class="sxs-lookup"><span data-stu-id="7dc8a-112">The new absolute path for the database.</span></span>
+<span data-ttu-id="52f15-112">資料庫的新絕對路徑。</span><span class="sxs-lookup"><span data-stu-id="52f15-112">The new absolute path for the database.</span></span>
 
-### <a name="requirements"></a><span data-ttu-id="7dc8a-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="7dc8a-113">Requirements</span></span>
+### <a name="requirements"></a><span data-ttu-id="52f15-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="52f15-113">Requirements</span></span>
 
 <table>
 <colgroup>
@@ -57,26 +57,26 @@ ms.locfileid: "103689955"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7dc8a-114"><strong>用戶端</strong></span><span class="sxs-lookup"><span data-stu-id="7dc8a-114"><strong>Client</strong></span></span></p></td>
-<td><p><span data-ttu-id="7dc8a-115">需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</span><span class="sxs-lookup"><span data-stu-id="7dc8a-115">Requires Windows Vista, Windows XP, or Windows 2000 Professional.</span></span></p></td>
+<td><p><span data-ttu-id="52f15-114"><strong>用戶端</strong></span><span class="sxs-lookup"><span data-stu-id="52f15-114"><strong>Client</strong></span></span></p></td>
+<td><p><span data-ttu-id="52f15-115">需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</span><span class="sxs-lookup"><span data-stu-id="52f15-115">Requires Windows Vista, Windows XP, or Windows 2000 Professional.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7dc8a-116"><strong>伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="7dc8a-116"><strong>Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="7dc8a-117">需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</span><span class="sxs-lookup"><span data-stu-id="7dc8a-117">Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</span></span></p></td>
+<td><p><span data-ttu-id="52f15-116"><strong>伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="52f15-116"><strong>Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="52f15-117">需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</span><span class="sxs-lookup"><span data-stu-id="52f15-117">Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7dc8a-118"><strong>標頭</strong></span><span class="sxs-lookup"><span data-stu-id="7dc8a-118"><strong>Header</strong></span></span></p></td>
-<td><p><span data-ttu-id="7dc8a-119">宣告于 Esent. h 中。</span><span class="sxs-lookup"><span data-stu-id="7dc8a-119">Declared in Esent.h.</span></span></p></td>
+<td><p><span data-ttu-id="52f15-118"><strong>標頭</strong></span><span class="sxs-lookup"><span data-stu-id="52f15-118"><strong>Header</strong></span></span></p></td>
+<td><p><span data-ttu-id="52f15-119">宣告于 Esent. h 中。</span><span class="sxs-lookup"><span data-stu-id="52f15-119">Declared in Esent.h.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7dc8a-120"><strong>Unicode</strong></span><span class="sxs-lookup"><span data-stu-id="7dc8a-120"><strong>Unicode</strong></span></span></p></td>
-<td><p><span data-ttu-id="7dc8a-121">實作為 <strong>JET_RSTMAP_W</strong> (Unicode) 和 <strong>JET_RSTMAP_A</strong> (ANSI) 。</span><span class="sxs-lookup"><span data-stu-id="7dc8a-121">Implemented as <strong>JET_RSTMAP_W</strong> (Unicode) and <strong>JET_RSTMAP_A</strong> (ANSI).</span></span></p></td>
+<td><p><span data-ttu-id="52f15-120"><strong>Unicode</strong></span><span class="sxs-lookup"><span data-stu-id="52f15-120"><strong>Unicode</strong></span></span></p></td>
+<td><p><span data-ttu-id="52f15-121">實作為 <strong>JET_RSTMAP_W</strong> (Unicode) 和 <strong>JET_RSTMAP_A</strong> (ANSI) 。</span><span class="sxs-lookup"><span data-stu-id="52f15-121">Implemented as <strong>JET_RSTMAP_W</strong> (Unicode) and <strong>JET_RSTMAP_A</strong> (ANSI).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="see-also"></a><span data-ttu-id="7dc8a-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7dc8a-122">See Also</span></span>
+### <a name="see-also"></a><span data-ttu-id="52f15-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="52f15-122">See Also</span></span>
 
-[<span data-ttu-id="7dc8a-123">JetExternalRestore</span><span class="sxs-lookup"><span data-stu-id="7dc8a-123">JetExternalRestore</span></span>](./jetexternalrestore-function.md)  
-[<span data-ttu-id="7dc8a-124">JetInit</span><span class="sxs-lookup"><span data-stu-id="7dc8a-124">JetInit</span></span>](./jetinit-function.md)
+[<span data-ttu-id="52f15-123">JetExternalRestore</span><span class="sxs-lookup"><span data-stu-id="52f15-123">JetExternalRestore</span></span>](./jetexternalrestore-function.md)  
+[<span data-ttu-id="52f15-124">JetInit</span><span class="sxs-lookup"><span data-stu-id="52f15-124">JetInit</span></span>](./jetinit-function.md)

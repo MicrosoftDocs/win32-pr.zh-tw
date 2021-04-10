@@ -31,22 +31,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690932"
 ---
-# <a name="esentslvstreamingfilemissingexception-class"></a><span data-ttu-id="54e46-103">EsentSLVStreamingFileMissingException 類別</span><span class="sxs-lookup"><span data-stu-id="54e46-103">EsentSLVStreamingFileMissingException class</span></span>
+# <a name="esentslvstreamingfilemissingexception-class"></a><span data-ttu-id="8c8fb-103">EsentSLVStreamingFileMissingException 類別</span><span class="sxs-lookup"><span data-stu-id="8c8fb-103">EsentSLVStreamingFileMissingException class</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="54e46-104">繼承階層</span><span class="sxs-lookup"><span data-stu-id="54e46-104">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="8c8fb-104">繼承階層</span><span class="sxs-lookup"><span data-stu-id="8c8fb-104">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="54e46-105">System.Object</span><span class="sxs-lookup"><span data-stu-id="54e46-105">System.Object</span></span>](/dotnet/api/system.object)  
-  [<span data-ttu-id="54e46-106">System.Exception</span><span class="sxs-lookup"><span data-stu-id="54e46-106">System.Exception</span></span>](/dotnet/api/system.exception)  
-    [<span data-ttu-id="54e46-107">EsentException。</span><span class="sxs-lookup"><span data-stu-id="54e46-107">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
-      [<span data-ttu-id="54e46-108">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="54e46-108">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
-        [<span data-ttu-id="54e46-109">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="54e46-109">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
-          [<span data-ttu-id="54e46-110">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="54e46-110">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
-            <span data-ttu-id="54e46-111">EsentSLVStreamingFileMissingException （.）</span><span class="sxs-lookup"><span data-stu-id="54e46-111">Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileMissingException</span></span>  
+[<span data-ttu-id="8c8fb-105">System.Object</span><span class="sxs-lookup"><span data-stu-id="8c8fb-105">System.Object</span></span>](/dotnet/api/system.object)  
+  [<span data-ttu-id="8c8fb-106">System.Exception</span><span class="sxs-lookup"><span data-stu-id="8c8fb-106">System.Exception</span></span>](/dotnet/api/system.exception)  
+    [<span data-ttu-id="8c8fb-107">EsentException。</span><span class="sxs-lookup"><span data-stu-id="8c8fb-107">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
+      [<span data-ttu-id="8c8fb-108">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="8c8fb-108">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
+        [<span data-ttu-id="8c8fb-109">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="8c8fb-109">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
+          [<span data-ttu-id="8c8fb-110">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="8c8fb-110">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
+            <span data-ttu-id="8c8fb-111">EsentSLVStreamingFileMissingException （.）</span><span class="sxs-lookup"><span data-stu-id="8c8fb-111">Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileMissingException</span></span>  
 
-<span data-ttu-id="54e46-112">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="54e46-112">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="54e46-113">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="54e46-113">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="8c8fb-112">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="8c8fb-112">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="8c8fb-113">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8c8fb-113">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="54e46-114">Syntax</span><span class="sxs-lookup"><span data-stu-id="54e46-114">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8c8fb-114">Syntax</span><span class="sxs-lookup"><span data-stu-id="8c8fb-114">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -62,14 +62,14 @@ Dim instance As EsentSLVStreamingFileMissingException
 public sealed class EsentSLVStreamingFileMissingException : EsentObsoleteException
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="54e46-115">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="54e46-115">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="8c8fb-115">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="8c8fb-115">Thread safety</span></span>
 
-<span data-ttu-id="54e46-116">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="54e46-116">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="54e46-117">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="54e46-117">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="8c8fb-116">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="8c8fb-116">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="8c8fb-117">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="8c8fb-117">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="54e46-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="54e46-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8c8fb-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8c8fb-118">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="54e46-119">參考</span><span class="sxs-lookup"><span data-stu-id="54e46-119">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="8c8fb-119">參考</span><span class="sxs-lookup"><span data-stu-id="8c8fb-119">Reference</span></span>
 
-[<span data-ttu-id="54e46-120">EsentSLVStreamingFileMissingException 成員</span><span class="sxs-lookup"><span data-stu-id="54e46-120">EsentSLVStreamingFileMissingException members</span></span>](./esentslvstreamingfilemissingexception-members.md)
+[<span data-ttu-id="8c8fb-120">EsentSLVStreamingFileMissingException 成員</span><span class="sxs-lookup"><span data-stu-id="8c8fb-120">EsentSLVStreamingFileMissingException members</span></span>](./esentslvstreamingfilemissingexception-members.md)
 
-[<span data-ttu-id="54e46-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="54e46-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="8c8fb-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="8c8fb-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

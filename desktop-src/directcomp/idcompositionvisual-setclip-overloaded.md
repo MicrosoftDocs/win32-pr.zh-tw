@@ -19,45 +19,45 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686385"
 ---
-# <a name="idcompositionvisualsetclip-methods"></a><span data-ttu-id="18aff-104">IDCompositionVisual：： SetClip 方法</span><span class="sxs-lookup"><span data-stu-id="18aff-104">IDCompositionVisual::SetClip methods</span></span>
+# <a name="idcompositionvisualsetclip-methods"></a><span data-ttu-id="86ef5-104">IDCompositionVisual：： SetClip 方法</span><span class="sxs-lookup"><span data-stu-id="86ef5-104">IDCompositionVisual::SetClip methods</span></span>
 
-<span data-ttu-id="18aff-105">將此視覺效果的 [剪切] 屬性設定為指定的 [矩形區域] 或 [剪切] 物件。</span><span class="sxs-lookup"><span data-stu-id="18aff-105">Sets the Clip property of this visual to the specified rectangular region or clip object.</span></span> <span data-ttu-id="18aff-106">剪輯屬性會將此視覺效果根目錄的視覺化子樹轉譯，限制為矩形區域。</span><span class="sxs-lookup"><span data-stu-id="18aff-106">The Clip property restricts the rendering of the visual subtree that is rooted at this visual to a rectangular region.</span></span>
+<span data-ttu-id="86ef5-105">將此視覺效果的 [剪切] 屬性設定為指定的 [矩形區域] 或 [剪切] 物件。</span><span class="sxs-lookup"><span data-stu-id="86ef5-105">Sets the Clip property of this visual to the specified rectangular region or clip object.</span></span> <span data-ttu-id="86ef5-106">剪輯屬性會將此視覺效果根目錄的視覺化子樹轉譯，限制為矩形區域。</span><span class="sxs-lookup"><span data-stu-id="86ef5-106">The Clip property restricts the rendering of the visual subtree that is rooted at this visual to a rectangular region.</span></span>
 
-### <a name="overload-list"></a><span data-ttu-id="18aff-107">多載清單</span><span class="sxs-lookup"><span data-stu-id="18aff-107">Overload list</span></span>
+### <a name="overload-list"></a><span data-ttu-id="86ef5-107">多載清單</span><span class="sxs-lookup"><span data-stu-id="86ef5-107">Overload list</span></span>
 
 
 
-| <span data-ttu-id="18aff-108">方法</span><span class="sxs-lookup"><span data-stu-id="18aff-108">Method</span></span>                                                                                | <span data-ttu-id="18aff-109">描述</span><span class="sxs-lookup"><span data-stu-id="18aff-109">Description</span></span>                                                            |
+| <span data-ttu-id="86ef5-108">方法</span><span class="sxs-lookup"><span data-stu-id="86ef5-108">Method</span></span>                                                                                | <span data-ttu-id="86ef5-109">描述</span><span class="sxs-lookup"><span data-stu-id="86ef5-109">Description</span></span>                                                            |
 |:--------------------------------------------------------------------------------------|:-----------------------------------------------------------------------|
-| <span data-ttu-id="18aff-110">[**SetClip (常數 D2D \_ RECT \_ F&)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_))</span><span class="sxs-lookup"><span data-stu-id="18aff-110">[**SetClip(const D2D\_RECT\_F&)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_))</span></span> | <span data-ttu-id="18aff-111">將剪輯屬性設定為指定的矩形區域。</span><span class="sxs-lookup"><span data-stu-id="18aff-111">Sets the Clip property to the specified rectangular region.</span></span><br/> |
-| <span data-ttu-id="18aff-112">[**SetClip (IDCompositionClip \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(idcompositionclip))</span><span class="sxs-lookup"><span data-stu-id="18aff-112">[**SetClip(IDCompositionClip\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(idcompositionclip))</span></span> | <span data-ttu-id="18aff-113">將剪輯屬性設定為指定的剪切物件。</span><span class="sxs-lookup"><span data-stu-id="18aff-113">Sets the Clip property to the specified clip object.</span></span><br/>        |
+| <span data-ttu-id="86ef5-110">[**SetClip (常數 D2D \_ RECT \_ F&)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_))</span><span class="sxs-lookup"><span data-stu-id="86ef5-110">[**SetClip(const D2D\_RECT\_F&)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_))</span></span> | <span data-ttu-id="86ef5-111">將剪輯屬性設定為指定的矩形區域。</span><span class="sxs-lookup"><span data-stu-id="86ef5-111">Sets the Clip property to the specified rectangular region.</span></span><br/> |
+| <span data-ttu-id="86ef5-112">[**SetClip (IDCompositionClip \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(idcompositionclip))</span><span class="sxs-lookup"><span data-stu-id="86ef5-112">[**SetClip(IDCompositionClip\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(idcompositionclip))</span></span> | <span data-ttu-id="86ef5-113">將剪輯屬性設定為指定的剪切物件。</span><span class="sxs-lookup"><span data-stu-id="86ef5-113">Sets the Clip property to the specified clip object.</span></span><br/>        |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="18aff-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="18aff-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="86ef5-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="86ef5-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="18aff-115">需求</span><span class="sxs-lookup"><span data-stu-id="18aff-115">Requirement</span></span> | <span data-ttu-id="18aff-116">值</span><span class="sxs-lookup"><span data-stu-id="18aff-116">Value</span></span> |
+| <span data-ttu-id="86ef5-115">需求</span><span class="sxs-lookup"><span data-stu-id="86ef5-115">Requirement</span></span> | <span data-ttu-id="86ef5-116">值</span><span class="sxs-lookup"><span data-stu-id="86ef5-116">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="18aff-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="18aff-117">Minimum supported client</span></span><br/> | <span data-ttu-id="18aff-118">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="18aff-118">Windows�8 \[desktop apps only\]</span></span><br/>                                           |
-| <span data-ttu-id="18aff-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="18aff-119">Minimum supported server</span></span><br/> | <span data-ttu-id="18aff-120">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="18aff-120">Windows Server�2012 \[desktop apps only\]</span></span><br/>                                 |
-| <span data-ttu-id="18aff-121">標頭</span><span class="sxs-lookup"><span data-stu-id="18aff-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="18aff-122"><dt>Dcomp。h</dt></span><span class="sxs-lookup"><span data-stu-id="18aff-122"><dt>Dcomp.h</dt></span></span> </dl>   |
-| <span data-ttu-id="18aff-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="18aff-123">Library</span></span><br/>                  | <dl> <span data-ttu-id="18aff-124"><dt>Dcomp .lib</dt></span><span class="sxs-lookup"><span data-stu-id="18aff-124"><dt>Dcomp.lib</dt></span></span> </dl> |
-| <span data-ttu-id="18aff-125">DLL</span><span class="sxs-lookup"><span data-stu-id="18aff-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="18aff-126"><dt>Dcomp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="18aff-126"><dt>Dcomp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="86ef5-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="86ef5-117">Minimum supported client</span></span><br/> | <span data-ttu-id="86ef5-118">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="86ef5-118">Windows�8 \[desktop apps only\]</span></span><br/>                                           |
+| <span data-ttu-id="86ef5-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="86ef5-119">Minimum supported server</span></span><br/> | <span data-ttu-id="86ef5-120">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="86ef5-120">Windows Server�2012 \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="86ef5-121">標頭</span><span class="sxs-lookup"><span data-stu-id="86ef5-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="86ef5-122"><dt>Dcomp。h</dt></span><span class="sxs-lookup"><span data-stu-id="86ef5-122"><dt>Dcomp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="86ef5-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="86ef5-123">Library</span></span><br/>                  | <dl> <span data-ttu-id="86ef5-124"><dt>Dcomp .lib</dt></span><span class="sxs-lookup"><span data-stu-id="86ef5-124"><dt>Dcomp.lib</dt></span></span> </dl> |
+| <span data-ttu-id="86ef5-125">DLL</span><span class="sxs-lookup"><span data-stu-id="86ef5-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="86ef5-126"><dt>Dcomp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="86ef5-126"><dt>Dcomp.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="18aff-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="18aff-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="86ef5-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="86ef5-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="18aff-128">裁剪</span><span class="sxs-lookup"><span data-stu-id="18aff-128">Clipping</span></span>](clipping.md)
+[<span data-ttu-id="86ef5-128">裁剪</span><span class="sxs-lookup"><span data-stu-id="86ef5-128">Clipping</span></span>](clipping.md)
 </dt> <dt>
 
-[<span data-ttu-id="18aff-129">**IDCompositionVisual**</span><span class="sxs-lookup"><span data-stu-id="18aff-129">**IDCompositionVisual**</span></span>](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual)
+[<span data-ttu-id="86ef5-129">**IDCompositionVisual**</span><span class="sxs-lookup"><span data-stu-id="86ef5-129">**IDCompositionVisual**</span></span>](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual)
 </dt> </dl>
 
-<span data-ttu-id="18aff-130">�</span><span class="sxs-lookup"><span data-stu-id="18aff-130">�</span></span>
+<span data-ttu-id="86ef5-130">�</span><span class="sxs-lookup"><span data-stu-id="86ef5-130">�</span></span>
 
-<span data-ttu-id="18aff-131">�</span><span class="sxs-lookup"><span data-stu-id="18aff-131">�</span></span>
+<span data-ttu-id="86ef5-131">�</span><span class="sxs-lookup"><span data-stu-id="86ef5-131">�</span></span>

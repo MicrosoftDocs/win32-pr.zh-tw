@@ -15,29 +15,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/19/2020
 ms.locfileid: "103681388"
 ---
-# <a name="using-the-callback-methods"></a><span data-ttu-id="ad079-106">使用回呼方法</span><span class="sxs-lookup"><span data-stu-id="ad079-106">Using the Callback Methods</span></span>
+# <a name="using-the-callback-methods"></a><span data-ttu-id="d5f4c-106">使用回呼方法</span><span class="sxs-lookup"><span data-stu-id="d5f4c-106">Using the Callback Methods</span></span>
 
-<span data-ttu-id="ad079-107">Windows Media 格式 SDK 中的數個介面包含以非同步方式呼叫的方法。</span><span class="sxs-lookup"><span data-stu-id="ad079-107">Several interfaces in the Windows Media Format SDK contain methods that are called asynchronously.</span></span> <span data-ttu-id="ad079-108">這些方法大多使用回呼函式，將資訊傳遞給控制應用程式。</span><span class="sxs-lookup"><span data-stu-id="ad079-108">Most of these methods use callback functions to pass information to the controlling application.</span></span>
+<span data-ttu-id="d5f4c-107">Windows Media 格式 SDK 中的數個介面包含以非同步方式呼叫的方法。</span><span class="sxs-lookup"><span data-stu-id="d5f4c-107">Several interfaces in the Windows Media Format SDK contain methods that are called asynchronously.</span></span> <span data-ttu-id="d5f4c-108">這些方法大多使用回呼函式，將資訊傳遞給控制應用程式。</span><span class="sxs-lookup"><span data-stu-id="d5f4c-108">Most of these methods use callback functions to pass information to the controlling application.</span></span>
 
-<span data-ttu-id="ad079-109">下列各節說明有關使用回呼方法搭配 Windows Media Format SDK 的一些一般問題。</span><span class="sxs-lookup"><span data-stu-id="ad079-109">The following sections describe some of the general issues regarding the use of callback methods with the Windows Media Format SDK.</span></span>
+<span data-ttu-id="d5f4c-109">下列各節說明有關使用回呼方法搭配 Windows Media Format SDK 的一些一般問題。</span><span class="sxs-lookup"><span data-stu-id="d5f4c-109">The following sections describe some of the general issues regarding the use of callback methods with the Windows Media Format SDK.</span></span>
 
 
 
-| <span data-ttu-id="ad079-110">區段</span><span class="sxs-lookup"><span data-stu-id="ad079-110">Section</span></span>                                                                          | <span data-ttu-id="ad079-111">描述</span><span class="sxs-lookup"><span data-stu-id="ad079-111">Description</span></span>                                                                                                                                                                                          |
+| <span data-ttu-id="d5f4c-110">區段</span><span class="sxs-lookup"><span data-stu-id="d5f4c-110">Section</span></span>                                                                          | <span data-ttu-id="d5f4c-111">描述</span><span class="sxs-lookup"><span data-stu-id="d5f4c-111">Description</span></span>                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="ad079-112">使用 OnStatus 回呼</span><span class="sxs-lookup"><span data-stu-id="ad079-112">Using the OnStatus Callback</span></span>](using-the-onstatus-callback.md)                   | <span data-ttu-id="ad079-113">描述如何執行 [**IWMStatusCallback：： OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) 回呼方法，由數個物件用來通知應用程式的 SDK 作業進度。</span><span class="sxs-lookup"><span data-stu-id="ad079-113">Describes how to implement the [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) callback method, which is used by several objects to advise applications of SDK operation progress.</span></span> |
-| [<span data-ttu-id="ad079-114">使用非同步呼叫的事件</span><span class="sxs-lookup"><span data-stu-id="ad079-114">Using Events with Asynchronous Calls</span></span>](using-events-with-asynchronous-calls.md) | <span data-ttu-id="ad079-115">描述在應用程式中處理非同步方法呼叫的常見技術。</span><span class="sxs-lookup"><span data-stu-id="ad079-115">Describes a common technique to handle asynchronous method calls in an application.</span></span>                                                                                                                  |
-| [<span data-ttu-id="ad079-116">使用內容參數</span><span class="sxs-lookup"><span data-stu-id="ad079-116">Using the Context Parameter</span></span>](using-the-context-parameter.md)                   | <span data-ttu-id="ad079-117">介紹 *pvCoNtext* 參數，其由數個回呼及其呼叫方法所共用，並說明其使用方式。</span><span class="sxs-lookup"><span data-stu-id="ad079-117">Introduces the *pvContext* parameter, shared by several callbacks and their calling methods, and explains how to use it.</span></span>                                                                             |
+| [<span data-ttu-id="d5f4c-112">使用 OnStatus 回呼</span><span class="sxs-lookup"><span data-stu-id="d5f4c-112">Using the OnStatus Callback</span></span>](using-the-onstatus-callback.md)                   | <span data-ttu-id="d5f4c-113">描述如何執行 [**IWMStatusCallback：： OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) 回呼方法，由數個物件用來通知應用程式的 SDK 作業進度。</span><span class="sxs-lookup"><span data-stu-id="d5f4c-113">Describes how to implement the [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) callback method, which is used by several objects to advise applications of SDK operation progress.</span></span> |
+| [<span data-ttu-id="d5f4c-114">使用非同步呼叫的事件</span><span class="sxs-lookup"><span data-stu-id="d5f4c-114">Using Events with Asynchronous Calls</span></span>](using-events-with-asynchronous-calls.md) | <span data-ttu-id="d5f4c-115">描述在應用程式中處理非同步方法呼叫的常見技術。</span><span class="sxs-lookup"><span data-stu-id="d5f4c-115">Describes a common technique to handle asynchronous method calls in an application.</span></span>                                                                                                                  |
+| [<span data-ttu-id="d5f4c-116">使用內容參數</span><span class="sxs-lookup"><span data-stu-id="d5f4c-116">Using the Context Parameter</span></span>](using-the-context-parameter.md)                   | <span data-ttu-id="d5f4c-117">介紹 *pvCoNtext* 參數，其由數個回呼及其呼叫方法所共用，並說明其使用方式。</span><span class="sxs-lookup"><span data-stu-id="d5f4c-117">Introduces the *pvContext* parameter, shared by several callbacks and their calling methods, and explains how to use it.</span></span>                                                                             |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="ad079-118">相關主題</span><span class="sxs-lookup"><span data-stu-id="ad079-118">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d5f4c-118">相關主題</span><span class="sxs-lookup"><span data-stu-id="d5f4c-118">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ad079-119">**程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="ad079-119">**Programming Guide**</span></span>](programming-guide.md)
+[<span data-ttu-id="d5f4c-119">**程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="d5f4c-119">**Programming Guide**</span></span>](programming-guide.md)
 </dt> </dl>
 
  

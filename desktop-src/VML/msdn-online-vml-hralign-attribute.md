@@ -11,42 +11,42 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682599"
 ---
-# <a name="vml-hralign-attribute"></a><span data-ttu-id="fab55-103">VML HRAlign 屬性</span><span class="sxs-lookup"><span data-stu-id="fab55-103">VML HRAlign Attribute</span></span>
+# <a name="vml-hralign-attribute"></a><span data-ttu-id="3a566-103">VML HRAlign 屬性</span><span class="sxs-lookup"><span data-stu-id="3a566-103">VML HRAlign Attribute</span></span>
 
-<span data-ttu-id="fab55-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="fab55-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="fab55-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="fab55-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+<span data-ttu-id="3a566-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="3a566-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="3a566-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="3a566-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="fab55-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="fab55-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="fab55-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="fab55-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="fab55-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="fab55-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="fab55-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="fab55-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+> <span data-ttu-id="3a566-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="3a566-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="3a566-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="3a566-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="3a566-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="3a566-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="3a566-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="3a566-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
 
  
 
-<span data-ttu-id="fab55-110">定義水準規則的對齊方式。</span><span class="sxs-lookup"><span data-stu-id="fab55-110">Defines the alignment of a horizontal rule.</span></span> <span data-ttu-id="fab55-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="fab55-111">Read/write.</span></span> <span data-ttu-id="fab55-112">**字串**。</span><span class="sxs-lookup"><span data-stu-id="fab55-112">**String**.</span></span>
+<span data-ttu-id="3a566-110">定義水準規則的對齊方式。</span><span class="sxs-lookup"><span data-stu-id="3a566-110">Defines the alignment of a horizontal rule.</span></span> <span data-ttu-id="3a566-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="3a566-111">Read/write.</span></span> <span data-ttu-id="3a566-112">**字串**。</span><span class="sxs-lookup"><span data-stu-id="3a566-112">**String**.</span></span>
 
-<span data-ttu-id="fab55-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="fab55-113">**Applies To**</span></span>
+<span data-ttu-id="3a566-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="3a566-113">**Applies To**</span></span>
 
-[<span data-ttu-id="fab55-114">形狀</span><span class="sxs-lookup"><span data-stu-id="fab55-114">Shape</span></span>](shape-element--vml.md)
+[<span data-ttu-id="3a566-114">形狀</span><span class="sxs-lookup"><span data-stu-id="3a566-114">Shape</span></span>](shape-element--vml.md)
 
-<span data-ttu-id="fab55-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="fab55-115">**Tag Syntax**</span></span>
+<span data-ttu-id="3a566-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="3a566-115">**Tag Syntax**</span></span>
 
-<span data-ttu-id="fab55-116"><v： *element* o:hralign = " *expression* " ></span><span class="sxs-lookup"><span data-stu-id="fab55-116"><v: *element* o:hralign=" *expression* "></span></span>
+<span data-ttu-id="3a566-116"><v： *element* o:hralign = " *expression* " ></span><span class="sxs-lookup"><span data-stu-id="3a566-116"><v: *element* o:hralign=" *expression* "></span></span>
 
-<span data-ttu-id="fab55-117">**備註**</span><span class="sxs-lookup"><span data-stu-id="fab55-117">**Remarks**</span></span>
+<span data-ttu-id="3a566-117">**備註**</span><span class="sxs-lookup"><span data-stu-id="3a566-117">**Remarks**</span></span>
 
-<span data-ttu-id="fab55-118">數值包括：</span><span class="sxs-lookup"><span data-stu-id="fab55-118">Values include:</span></span>
+<span data-ttu-id="3a566-118">數值包括：</span><span class="sxs-lookup"><span data-stu-id="3a566-118">Values include:</span></span>
 
 
 
-| <span data-ttu-id="fab55-119">值</span><span class="sxs-lookup"><span data-stu-id="fab55-119">Value</span></span>  | <span data-ttu-id="fab55-120">描述</span><span class="sxs-lookup"><span data-stu-id="fab55-120">Description</span></span>                                            |
+| <span data-ttu-id="3a566-119">值</span><span class="sxs-lookup"><span data-stu-id="3a566-119">Value</span></span>  | <span data-ttu-id="3a566-120">描述</span><span class="sxs-lookup"><span data-stu-id="3a566-120">Description</span></span>                                            |
 |--------|--------------------------------------------------------|
-| <span data-ttu-id="fab55-121">Left</span><span class="sxs-lookup"><span data-stu-id="fab55-121">Left</span></span>   | <span data-ttu-id="fab55-122">此規則會與左邊界排清。</span><span class="sxs-lookup"><span data-stu-id="fab55-122">The rule is flush with the left margin.</span></span> <span data-ttu-id="fab55-123">預設值。</span><span class="sxs-lookup"><span data-stu-id="fab55-123">Default value.</span></span> |
-| <span data-ttu-id="fab55-124">Center</span><span class="sxs-lookup"><span data-stu-id="fab55-124">Center</span></span> | <span data-ttu-id="fab55-125">此規則位於頁面的中央。</span><span class="sxs-lookup"><span data-stu-id="fab55-125">The rule is centered on the page.</span></span>                      |
-| <span data-ttu-id="fab55-126">Right</span><span class="sxs-lookup"><span data-stu-id="fab55-126">Right</span></span>  | <span data-ttu-id="fab55-127">規則會排清右邊界。</span><span class="sxs-lookup"><span data-stu-id="fab55-127">The rule is flush with the right margin.</span></span>               |
+| <span data-ttu-id="3a566-121">Left</span><span class="sxs-lookup"><span data-stu-id="3a566-121">Left</span></span>   | <span data-ttu-id="3a566-122">此規則會與左邊界排清。</span><span class="sxs-lookup"><span data-stu-id="3a566-122">The rule is flush with the left margin.</span></span> <span data-ttu-id="3a566-123">預設值。</span><span class="sxs-lookup"><span data-stu-id="3a566-123">Default value.</span></span> |
+| <span data-ttu-id="3a566-124">Center</span><span class="sxs-lookup"><span data-stu-id="3a566-124">Center</span></span> | <span data-ttu-id="3a566-125">此規則位於頁面的中央。</span><span class="sxs-lookup"><span data-stu-id="3a566-125">The rule is centered on the page.</span></span>                      |
+| <span data-ttu-id="3a566-126">Right</span><span class="sxs-lookup"><span data-stu-id="3a566-126">Right</span></span>  | <span data-ttu-id="3a566-127">規則會排清右邊界。</span><span class="sxs-lookup"><span data-stu-id="3a566-127">The rule is flush with the right margin.</span></span>               |
 
 
 
  
 
-<span data-ttu-id="fab55-128">*Microsoft Office Extensions 屬性*</span><span class="sxs-lookup"><span data-stu-id="fab55-128">*Microsoft Office Extensions Attribute*</span></span>
+<span data-ttu-id="3a566-128">*Microsoft Office Extensions 屬性*</span><span class="sxs-lookup"><span data-stu-id="3a566-128">*Microsoft Office Extensions Attribute*</span></span>
 
  
 

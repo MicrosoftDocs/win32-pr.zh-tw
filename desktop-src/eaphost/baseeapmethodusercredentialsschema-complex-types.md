@@ -16,20 +16,20 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "103683121"
 ---
-# <a name="baseeapmethodusercredentials-schema-complex-types"></a><span data-ttu-id="2ec8f-104">baseeapmethodusercredentials 架構複雜類型</span><span class="sxs-lookup"><span data-stu-id="2ec8f-104">baseeapmethodusercredentials Schema Complex Types</span></span>
+# <a name="baseeapmethodusercredentials-schema-complex-types"></a><span data-ttu-id="8db3a-104">baseeapmethodusercredentials 架構複雜類型</span><span class="sxs-lookup"><span data-stu-id="8db3a-104">baseeapmethodusercredentials Schema Complex Types</span></span>
 
-<span data-ttu-id="2ec8f-105">[Baseeapmethodusercredentials](baseeapmethodusercredentialsschema-schema.md)架構會定義下列複雜類型。</span><span class="sxs-lookup"><span data-stu-id="2ec8f-105">The [baseeapmethodusercredentials](baseeapmethodusercredentialsschema-schema.md) schema defines the following complex type.</span></span>
+<span data-ttu-id="8db3a-105">[Baseeapmethodusercredentials](baseeapmethodusercredentialsschema-schema.md)架構會定義下列複雜類型。</span><span class="sxs-lookup"><span data-stu-id="8db3a-105">The [baseeapmethodusercredentials](baseeapmethodusercredentialsschema-schema.md) schema defines the following complex type.</span></span>
 
--   [<span data-ttu-id="2ec8f-106">**BaseEapMethodUserCredentials**</span><span class="sxs-lookup"><span data-stu-id="2ec8f-106">**BaseEapMethodUserCredentials**</span></span>](baseeapmethodusercredentialsschema-baseeapmethodusercredentials-complextype.md)
+-   [<span data-ttu-id="8db3a-106">**BaseEapMethodUserCredentials**</span><span class="sxs-lookup"><span data-stu-id="8db3a-106">**BaseEapMethodUserCredentials**</span></span>](baseeapmethodusercredentialsschema-baseeapmethodusercredentials-complextype.md)
 
-## <a name="related-topics"></a><span data-ttu-id="2ec8f-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="2ec8f-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8db3a-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="8db3a-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2ec8f-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="2ec8f-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="8db3a-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="8db3a-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> <dt>
 
-[<span data-ttu-id="2ec8f-109">baseeapmethodusercredentials 架構</span><span class="sxs-lookup"><span data-stu-id="2ec8f-109">baseeapmethodusercredentials Schema</span></span>](baseeapmethodusercredentialsschema-schema.md)
+[<span data-ttu-id="8db3a-109">baseeapmethodusercredentials 架構</span><span class="sxs-lookup"><span data-stu-id="8db3a-109">baseeapmethodusercredentials Schema</span></span>](baseeapmethodusercredentialsschema-schema.md)
 </dt> </dl>
 
  

@@ -27,14 +27,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689396"
 ---
-# <a name="esentapiexception-constructor-string-jet_err"></a><span data-ttu-id="62762-103">EsentApiException (字串 JET_err) 的函式</span><span class="sxs-lookup"><span data-stu-id="62762-103">EsentApiException constructor (String, JET_err)</span></span>
+# <a name="esentapiexception-constructor-string-jet_err"></a><span data-ttu-id="ff8d7-103">EsentApiException (字串 JET_err) 的函式</span><span class="sxs-lookup"><span data-stu-id="ff8d7-103">EsentApiException constructor (String, JET_err)</span></span>
 
-<span data-ttu-id="62762-104">初始化 EsentApiException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="62762-104">Initializes a new instance of the EsentApiException class.</span></span>
+<span data-ttu-id="ff8d7-104">初始化 EsentApiException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="ff8d7-104">Initializes a new instance of the EsentApiException class.</span></span>
 
-<span data-ttu-id="62762-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="62762-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="62762-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="62762-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="ff8d7-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="ff8d7-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="ff8d7-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="ff8d7-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="62762-107">語法</span><span class="sxs-lookup"><span data-stu-id="62762-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ff8d7-107">語法</span><span class="sxs-lookup"><span data-stu-id="ff8d7-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -57,28 +57,28 @@ protected EsentApiException(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="62762-108">參數</span><span class="sxs-lookup"><span data-stu-id="62762-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="ff8d7-108">參數</span><span class="sxs-lookup"><span data-stu-id="ff8d7-108">Parameters</span></span>
 
-  - <span data-ttu-id="62762-109">description</span><span class="sxs-lookup"><span data-stu-id="62762-109">description</span></span>  
-    <span data-ttu-id="62762-110">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="62762-110">Type: [System.String](/dotnet/api/system.string)</span></span>  
+  - <span data-ttu-id="ff8d7-109">description</span><span class="sxs-lookup"><span data-stu-id="ff8d7-109">description</span></span>  
+    <span data-ttu-id="ff8d7-110">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="ff8d7-110">Type: [System.String](/dotnet/api/system.string)</span></span>  
     
-    <span data-ttu-id="62762-111">錯誤的描述。</span><span class="sxs-lookup"><span data-stu-id="62762-111">The description of the error.</span></span>
+    <span data-ttu-id="ff8d7-111">錯誤的描述。</span><span class="sxs-lookup"><span data-stu-id="ff8d7-111">The description of the error.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="62762-112">err</span><span class="sxs-lookup"><span data-stu-id="62762-112">err</span></span>  
-    <span data-ttu-id="62762-113">類型： [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="62762-113">Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)</span></span>  
+  - <span data-ttu-id="ff8d7-112">err</span><span class="sxs-lookup"><span data-stu-id="ff8d7-112">err</span></span>  
+    <span data-ttu-id="ff8d7-113">類型： [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="ff8d7-113">Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)</span></span>  
     
-    <span data-ttu-id="62762-114">例外狀況的錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="62762-114">The error code of the exception.</span></span>
+    <span data-ttu-id="ff8d7-114">例外狀況的錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="ff8d7-114">The error code of the exception.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="62762-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="62762-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ff8d7-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ff8d7-115">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="62762-116">參考</span><span class="sxs-lookup"><span data-stu-id="62762-116">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="ff8d7-116">參考</span><span class="sxs-lookup"><span data-stu-id="ff8d7-116">Reference</span></span>
 
-[<span data-ttu-id="62762-117">EsentApiException 類別</span><span class="sxs-lookup"><span data-stu-id="62762-117">EsentApiException class</span></span>](./esentapiexception-class.md)
+[<span data-ttu-id="ff8d7-117">EsentApiException 類別</span><span class="sxs-lookup"><span data-stu-id="ff8d7-117">EsentApiException class</span></span>](./esentapiexception-class.md)
 
-[<span data-ttu-id="62762-118">EsentApiException 成員</span><span class="sxs-lookup"><span data-stu-id="62762-118">EsentApiException members</span></span>](./esentapiexception-members.md)
+[<span data-ttu-id="ff8d7-118">EsentApiException 成員</span><span class="sxs-lookup"><span data-stu-id="ff8d7-118">EsentApiException members</span></span>](./esentapiexception-members.md)
 
-[<span data-ttu-id="62762-119">EsentApiException 多載</span><span class="sxs-lookup"><span data-stu-id="62762-119">EsentApiException overload</span></span>](./esentapiexception-constructor.md)
+[<span data-ttu-id="ff8d7-119">EsentApiException 多載</span><span class="sxs-lookup"><span data-stu-id="ff8d7-119">EsentApiException overload</span></span>](./esentapiexception-constructor.md)
 
-[<span data-ttu-id="62762-120">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="62762-120">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="ff8d7-120">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ff8d7-120">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

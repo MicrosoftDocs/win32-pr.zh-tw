@@ -12,30 +12,30 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689439"
 ---
-# <a name="mof-data-types"></a><span data-ttu-id="45154-103">MOF 資料類型</span><span class="sxs-lookup"><span data-stu-id="45154-103">MOF Data Types</span></span>
+# <a name="mof-data-types"></a><span data-ttu-id="d4226-103">MOF 資料類型</span><span class="sxs-lookup"><span data-stu-id="d4226-103">MOF Data Types</span></span>
 
-<span data-ttu-id="45154-104">受控物件格式 (MOF) 語言支援許多用來將值指派給屬性、限定詞和方法參數的資料類型。</span><span class="sxs-lookup"><span data-stu-id="45154-104">The Managed Object Format (MOF) language supports many data types that use to assign values to properties, qualifiers, and method parameters.</span></span>
+<span data-ttu-id="d4226-104">受控物件格式 (MOF) 語言支援許多用來將值指派給屬性、限定詞和方法參數的資料類型。</span><span class="sxs-lookup"><span data-stu-id="d4226-104">The Managed Object Format (MOF) language supports many data types that use to assign values to properties, qualifiers, and method parameters.</span></span>
 
-<span data-ttu-id="45154-105">MOF 語言支援下列資料類型和資料類型的類別：</span><span class="sxs-lookup"><span data-stu-id="45154-105">The MOF language supports the following data types and categories of data types:</span></span>
+<span data-ttu-id="d4226-105">MOF 語言支援下列資料類型和資料類型的類別：</span><span class="sxs-lookup"><span data-stu-id="d4226-105">The MOF language supports the following data types and categories of data types:</span></span>
 
--   [<span data-ttu-id="45154-106">點陣圖和 BitValues</span><span class="sxs-lookup"><span data-stu-id="45154-106">BitMap and BitValues</span></span>](bitmap-and-bitvalues.md)
--   [<span data-ttu-id="45154-107">boolean</span><span class="sxs-lookup"><span data-stu-id="45154-107">boolean</span></span>](boolean.md)
--   [<span data-ttu-id="45154-108">Datetime</span><span class="sxs-lookup"><span data-stu-id="45154-108">DATETIME</span></span>](date-and-time-format.md)
--   [<span data-ttu-id="45154-109">MOF 陣列</span><span class="sxs-lookup"><span data-stu-id="45154-109">MOF arrays</span></span>](mof-arrays.md)
--   [<span data-ttu-id="45154-110">數字</span><span class="sxs-lookup"><span data-stu-id="45154-110">Numbers</span></span>](numbers.md)
--   [<span data-ttu-id="45154-111">物件</span><span class="sxs-lookup"><span data-stu-id="45154-111">OBJECT</span></span>](object.md)
--   [<span data-ttu-id="45154-112">參考</span><span class="sxs-lookup"><span data-stu-id="45154-112">References</span></span>](references.md)
--   [<span data-ttu-id="45154-113">字串</span><span class="sxs-lookup"><span data-stu-id="45154-113">Strings</span></span>](strings.md)
--   [<span data-ttu-id="45154-114">值對應</span><span class="sxs-lookup"><span data-stu-id="45154-114">Value map</span></span>](value-map.md)
--   [<span data-ttu-id="45154-115">無效</span><span class="sxs-lookup"><span data-stu-id="45154-115">VOID</span></span>](void.md)
+-   [<span data-ttu-id="d4226-106">點陣圖和 BitValues</span><span class="sxs-lookup"><span data-stu-id="d4226-106">BitMap and BitValues</span></span>](bitmap-and-bitvalues.md)
+-   [<span data-ttu-id="d4226-107">boolean</span><span class="sxs-lookup"><span data-stu-id="d4226-107">boolean</span></span>](boolean.md)
+-   [<span data-ttu-id="d4226-108">Datetime</span><span class="sxs-lookup"><span data-stu-id="d4226-108">DATETIME</span></span>](date-and-time-format.md)
+-   [<span data-ttu-id="d4226-109">MOF 陣列</span><span class="sxs-lookup"><span data-stu-id="d4226-109">MOF arrays</span></span>](mof-arrays.md)
+-   [<span data-ttu-id="d4226-110">數字</span><span class="sxs-lookup"><span data-stu-id="d4226-110">Numbers</span></span>](numbers.md)
+-   [<span data-ttu-id="d4226-111">物件</span><span class="sxs-lookup"><span data-stu-id="d4226-111">OBJECT</span></span>](object.md)
+-   [<span data-ttu-id="d4226-112">參考</span><span class="sxs-lookup"><span data-stu-id="d4226-112">References</span></span>](references.md)
+-   [<span data-ttu-id="d4226-113">字串</span><span class="sxs-lookup"><span data-stu-id="d4226-113">Strings</span></span>](strings.md)
+-   [<span data-ttu-id="d4226-114">值對應</span><span class="sxs-lookup"><span data-stu-id="d4226-114">Value map</span></span>](value-map.md)
+-   [<span data-ttu-id="d4226-115">無效</span><span class="sxs-lookup"><span data-stu-id="d4226-115">VOID</span></span>](void.md)
 
-<span data-ttu-id="45154-116">如需命令的詳細資訊，請參閱 [預處理器命令](preprocessor-commands.md)。</span><span class="sxs-lookup"><span data-stu-id="45154-116">For more information about commands, see [Preprocessor Commands](preprocessor-commands.md).</span></span>
+<span data-ttu-id="d4226-116">如需命令的詳細資訊，請參閱 [預處理器命令](preprocessor-commands.md)。</span><span class="sxs-lookup"><span data-stu-id="d4226-116">For more information about commands, see [Preprocessor Commands](preprocessor-commands.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="45154-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="45154-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d4226-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="d4226-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="45154-118">內嵌物件</span><span class="sxs-lookup"><span data-stu-id="45154-118">Embedded objects</span></span>](embedded-objects.md)
+[<span data-ttu-id="d4226-118">內嵌物件</span><span class="sxs-lookup"><span data-stu-id="d4226-118">Embedded objects</span></span>](embedded-objects.md)
 </dt> </dl>
 
  
