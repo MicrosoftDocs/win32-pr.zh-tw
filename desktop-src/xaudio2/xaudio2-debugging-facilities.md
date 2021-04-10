@@ -11,28 +11,28 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690883"
 ---
-# <a name="xaudio2-debugging-facilities"></a><span data-ttu-id="8c0b5-103">XAudio2 調試功能</span><span class="sxs-lookup"><span data-stu-id="8c0b5-103">XAudio2 Debugging Facilities</span></span>
+# <a name="xaudio2-debugging-facilities"></a><span data-ttu-id="363db-103">XAudio2 調試功能</span><span class="sxs-lookup"><span data-stu-id="363db-103">XAudio2 Debugging Facilities</span></span>
 
-<span data-ttu-id="8c0b5-104">XAudio2 引擎的 debug 版本會驗證參數，並提供詳細的警告和錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="8c0b5-104">The debug version of the XAudio2 engine validates parameters, and provides detailed warning and error messages.</span></span>
+<span data-ttu-id="363db-104">XAudio2 引擎的 debug 版本會驗證參數，並提供詳細的警告和錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="363db-104">The debug version of the XAudio2 engine validates parameters, and provides detailed warning and error messages.</span></span>
 
-## <a name="setting-the-debug-logging-level-at-run-time"></a><span data-ttu-id="8c0b5-105">在執行時間設定 Debug 記錄層級</span><span class="sxs-lookup"><span data-stu-id="8c0b5-105">Setting the Debug Logging Level at Run Time</span></span>
+## <a name="setting-the-debug-logging-level-at-run-time"></a><span data-ttu-id="363db-105">在執行時間設定 Debug 記錄層級</span><span class="sxs-lookup"><span data-stu-id="363db-105">Setting the Debug Logging Level at Run Time</span></span>
 
-<span data-ttu-id="8c0b5-106">您可以使用所需的記錄層級的旗標填入 [**XAudio2 \_ DEBUG \_**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_debug_configuration) 設定結構，然後將結構傳遞給 [**IXAudio2：： SetDebugConfiguration**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-setdebugconfiguration) 方法，隨時設定 XAudio2 所顯示的偵錯工具的層級。</span><span class="sxs-lookup"><span data-stu-id="8c0b5-106">You can set the level of debugging information shown by XAudio2 at any time by filling out an [**XAUDIO2\_DEBUG\_CONFIGURATION**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_debug_configuration) structure with the flags for the desired logging level, and then pass the structure to the [**IXAudio2::SetDebugConfiguration**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-setdebugconfiguration) method.</span></span> <span data-ttu-id="8c0b5-107">傳遞給 **IXAudio2：： SetDebugConfiguration** 方法的值一律會覆寫在 Windows 登錄中設定的所有預設值。</span><span class="sxs-lookup"><span data-stu-id="8c0b5-107">Values passed to the **IXAudio2::SetDebugConfiguration** method always override any default values that were set in the Windows registry.</span></span>
+<span data-ttu-id="363db-106">您可以使用所需的記錄層級的旗標填入 [**XAudio2 \_ DEBUG \_**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_debug_configuration) 設定結構，然後將結構傳遞給 [**IXAudio2：： SetDebugConfiguration**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-setdebugconfiguration) 方法，隨時設定 XAudio2 所顯示的偵錯工具的層級。</span><span class="sxs-lookup"><span data-stu-id="363db-106">You can set the level of debugging information shown by XAudio2 at any time by filling out an [**XAUDIO2\_DEBUG\_CONFIGURATION**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_debug_configuration) structure with the flags for the desired logging level, and then pass the structure to the [**IXAudio2::SetDebugConfiguration**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-setdebugconfiguration) method.</span></span> <span data-ttu-id="363db-107">傳遞給 **IXAudio2：： SetDebugConfiguration** 方法的值一律會覆寫在 Windows 登錄中設定的所有預設值。</span><span class="sxs-lookup"><span data-stu-id="363db-107">Values passed to the **IXAudio2::SetDebugConfiguration** method always override any default values that were set in the Windows registry.</span></span>
 
-## <a name="debug-support"></a><span data-ttu-id="8c0b5-108">Debug 支援</span><span class="sxs-lookup"><span data-stu-id="8c0b5-108">Debug Support</span></span>
+## <a name="debug-support"></a><span data-ttu-id="363db-108">Debug 支援</span><span class="sxs-lookup"><span data-stu-id="363db-108">Debug Support</span></span>
 
-<span data-ttu-id="8c0b5-109">在 Windows 8 中，偵錯工具一律可供 XAUDIO2。</span><span class="sxs-lookup"><span data-stu-id="8c0b5-109">The debugging facilities are always available for XAUDIO2 in Windows 8.</span></span>
+<span data-ttu-id="363db-109">在 Windows 8 中，偵錯工具一律可供 XAUDIO2。</span><span class="sxs-lookup"><span data-stu-id="363db-109">The debugging facilities are always available for XAUDIO2 in Windows 8.</span></span>
 
-<span data-ttu-id="8c0b5-110">針對 DirectX SDK 版本的 XAUDIO2，您必須在使用 [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create)建立 XAUDIO2 物件時使用 **XAUDIO2 \_ DEBUG \_ ENGINE** ，而且系統必須安裝 DirectX SDK Developer Runtime，才能支援偵錯工具。</span><span class="sxs-lookup"><span data-stu-id="8c0b5-110">For the DirectX SDK versions of XAUDIO2, you must use **XAUDIO2\_DEBUG\_ENGINE** when creating the XAUDIO2 object with [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) and the system must have the DirectX SDK Developer Runtime installed for debugging to be supported.</span></span>
+<span data-ttu-id="363db-110">針對 DirectX SDK 版本的 XAUDIO2，您必須在使用 [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create)建立 XAUDIO2 物件時使用 **XAUDIO2 \_ DEBUG \_ ENGINE** ，而且系統必須安裝 DirectX SDK Developer Runtime，才能支援偵錯工具。</span><span class="sxs-lookup"><span data-stu-id="363db-110">For the DirectX SDK versions of XAUDIO2, you must use **XAUDIO2\_DEBUG\_ENGINE** when creating the XAUDIO2 object with [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) and the system must have the DirectX SDK Developer Runtime installed for debugging to be supported.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="8c0b5-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="8c0b5-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="363db-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="363db-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="8c0b5-112">調試功能</span><span class="sxs-lookup"><span data-stu-id="8c0b5-112">Debugging Facilities</span></span>](debugging-facilities.md)
+[<span data-ttu-id="363db-112">調試功能</span><span class="sxs-lookup"><span data-stu-id="363db-112">Debugging Facilities</span></span>](debugging-facilities.md)
 </dt> <dt>
 
-[<span data-ttu-id="8c0b5-113">XAudio2 程式設計參考</span><span class="sxs-lookup"><span data-stu-id="8c0b5-113">XAudio2 Programming Reference</span></span>](programming-reference.md)
+[<span data-ttu-id="363db-113">XAudio2 程式設計參考</span><span class="sxs-lookup"><span data-stu-id="363db-113">XAudio2 Programming Reference</span></span>](programming-reference.md)
 </dt> </dl>
 
  

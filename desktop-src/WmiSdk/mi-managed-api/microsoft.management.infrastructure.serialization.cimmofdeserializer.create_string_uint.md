@@ -30,14 +30,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "104027272"
 ---
-# <a name="cimmofdeserializercreate-method-string-uint32"></a><span data-ttu-id="524e3-103">CimMofDeserializer： Create 方法 (String，UInt32) </span><span class="sxs-lookup"><span data-stu-id="524e3-103">CimMofDeserializer.Create method (String, UInt32)</span></span>
+# <a name="cimmofdeserializercreate-method-string-uint32"></a><span data-ttu-id="b97cc-103">CimMofDeserializer： Create 方法 (String，UInt32) </span><span class="sxs-lookup"><span data-stu-id="b97cc-103">CimMofDeserializer.Create method (String, UInt32)</span></span>
 
-<span data-ttu-id="524e3-104">根據指定的格式和旗標，建立並初始化自訂還原序列化。</span><span class="sxs-lookup"><span data-stu-id="524e3-104">Creates and initializes a custom deserializer, based on the specified format and flags.</span></span>
+<span data-ttu-id="b97cc-104">根據指定的格式和旗標，建立並初始化自訂還原序列化。</span><span class="sxs-lookup"><span data-stu-id="b97cc-104">Creates and initializes a custom deserializer, based on the specified format and flags.</span></span>
 
-<span data-ttu-id="524e3-105">**命名空間：**   [Microsoft. 管理結構。序列化](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="524e3-105">**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span></span>  
-<span data-ttu-id="524e3-106">**元件：**  Microsoft.Management.Infrastructure.dll) 中的 (基礎結構</span><span class="sxs-lookup"><span data-stu-id="524e3-106">**Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)</span></span>  
+<span data-ttu-id="b97cc-105">**命名空間：**   [Microsoft. 管理結構。序列化](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="b97cc-105">**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span></span>  
+<span data-ttu-id="b97cc-106">**元件：**  Microsoft.Management.Infrastructure.dll) 中的 (基礎結構</span><span class="sxs-lookup"><span data-stu-id="b97cc-106">**Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)</span></span>  
 
-## <a name="syntax"></a><span data-ttu-id="524e3-107">語法</span><span class="sxs-lookup"><span data-stu-id="524e3-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b97cc-107">語法</span><span class="sxs-lookup"><span data-stu-id="b97cc-107">Syntax</span></span>
 
 ``` csharp
 public static CimMofDeserializer Create(
@@ -67,28 +67,28 @@ Public Shared Function Create (
 ) As CimMofDeserializer
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="524e3-108">參數</span><span class="sxs-lookup"><span data-stu-id="524e3-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="b97cc-108">參數</span><span class="sxs-lookup"><span data-stu-id="b97cc-108">Parameters</span></span>
 
-  - <span data-ttu-id="524e3-109">format</span><span class="sxs-lookup"><span data-stu-id="524e3-109">format</span></span>  
-    <span data-ttu-id="524e3-110">類型： [system.string](/dotnet/api/system.string?view=netframework-4.8)</span><span class="sxs-lookup"><span data-stu-id="524e3-110">Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)</span></span>
+  - <span data-ttu-id="b97cc-109">format</span><span class="sxs-lookup"><span data-stu-id="b97cc-109">format</span></span>  
+    <span data-ttu-id="b97cc-110">類型： [system.string](/dotnet/api/system.string?view=netframework-4.8)</span><span class="sxs-lookup"><span data-stu-id="b97cc-110">Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)</span></span>
     
-    <span data-ttu-id="524e3-111">序列化格式。</span><span class="sxs-lookup"><span data-stu-id="524e3-111">The serialization format.</span></span> <span data-ttu-id="524e3-112">僅支援 "MI_XML"。</span><span class="sxs-lookup"><span data-stu-id="524e3-112">Only "MI_XML" is supported.</span></span>
+    <span data-ttu-id="b97cc-111">序列化格式。</span><span class="sxs-lookup"><span data-stu-id="b97cc-111">The serialization format.</span></span> <span data-ttu-id="b97cc-112">僅支援 "MI_XML"。</span><span class="sxs-lookup"><span data-stu-id="b97cc-112">Only "MI_XML" is supported.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="524e3-113">flags</span><span class="sxs-lookup"><span data-stu-id="524e3-113">flags</span></span>  
-    <span data-ttu-id="524e3-114">類型： [system.object](/dotnet/api/system.uint32?view=netframework-4.8)</span><span class="sxs-lookup"><span data-stu-id="524e3-114">Type: [System.UInt32](/dotnet/api/system.uint32?view=netframework-4.8)</span></span>
+  - <span data-ttu-id="b97cc-113">flags</span><span class="sxs-lookup"><span data-stu-id="b97cc-113">flags</span></span>  
+    <span data-ttu-id="b97cc-114">類型： [system.object](/dotnet/api/system.uint32?view=netframework-4.8)</span><span class="sxs-lookup"><span data-stu-id="b97cc-114">Type: [System.UInt32](/dotnet/api/system.uint32?view=netframework-4.8)</span></span>
     
-    <span data-ttu-id="524e3-115">序列化旗標。</span><span class="sxs-lookup"><span data-stu-id="524e3-115">The serialization flags.</span></span> <span data-ttu-id="524e3-116">必須是 0。</span><span class="sxs-lookup"><span data-stu-id="524e3-116">Must be 0.</span></span>
+    <span data-ttu-id="b97cc-115">序列化旗標。</span><span class="sxs-lookup"><span data-stu-id="b97cc-115">The serialization flags.</span></span> <span data-ttu-id="b97cc-116">必須是 0。</span><span class="sxs-lookup"><span data-stu-id="b97cc-116">Must be 0.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="524e3-117">傳回值</span><span class="sxs-lookup"><span data-stu-id="524e3-117">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="b97cc-117">傳回值</span><span class="sxs-lookup"><span data-stu-id="b97cc-117">Return value</span></span>
 
-<span data-ttu-id="524e3-118">型別： [CimMofDeserializer。](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)</span><span class="sxs-lookup"><span data-stu-id="524e3-118">Type: [Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)</span></span>
+<span data-ttu-id="b97cc-118">型別： [CimMofDeserializer。](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)</span><span class="sxs-lookup"><span data-stu-id="b97cc-118">Type: [Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)</span></span>
 
-<span data-ttu-id="524e3-119">新建立的還原序列化物件。</span><span class="sxs-lookup"><span data-stu-id="524e3-119">The newly created deserializer object.</span></span>
+<span data-ttu-id="b97cc-119">新建立的還原序列化物件。</span><span class="sxs-lookup"><span data-stu-id="b97cc-119">The newly created deserializer object.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="524e3-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="524e3-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b97cc-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b97cc-120">See also</span></span>
 
-<span data-ttu-id="524e3-121">[CimMofDeserializer 類別](microsoft.management.infrastructure.serialization.cimmofdeserializer.md) 
-。[序列化命名空間](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="524e3-121">[CimMofDeserializer class](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)
+<span data-ttu-id="b97cc-121">[CimMofDeserializer 類別](microsoft.management.infrastructure.serialization.cimmofdeserializer.md) 
+。[序列化命名空間](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="b97cc-121">[CimMofDeserializer class](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)
 [Microsoft.Management.Infrastructure.Serialization namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span></span>

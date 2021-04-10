@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682654"
 ---
-# <a name="window-station-and-desktop-structures"></a><span data-ttu-id="363dd-103">視窗站和桌面結構</span><span class="sxs-lookup"><span data-stu-id="363dd-103">Window Station and Desktop Structures</span></span>
+# <a name="window-station-and-desktop-structures"></a><span data-ttu-id="2ab2b-103">視窗站和桌面結構</span><span class="sxs-lookup"><span data-stu-id="2ab2b-103">Window Station and Desktop Structures</span></span>
 
-<span data-ttu-id="363dd-104">下列結構適用于視窗電臺和桌上型電腦：</span><span class="sxs-lookup"><span data-stu-id="363dd-104">The following structure is used with window stations and desktops:</span></span>
+<span data-ttu-id="2ab2b-104">下列結構適用于視窗電臺和桌上型電腦：</span><span class="sxs-lookup"><span data-stu-id="2ab2b-104">The following structure is used with window stations and desktops:</span></span>
 
--   [<span data-ttu-id="363dd-105">**USEROBJECTFLAGS**</span><span class="sxs-lookup"><span data-stu-id="363dd-105">**USEROBJECTFLAGS**</span></span>](/windows/win32/api/winuser/ns-winuser-userobjectflags)
+-   [<span data-ttu-id="2ab2b-105">**USEROBJECTFLAGS**</span><span class="sxs-lookup"><span data-stu-id="2ab2b-105">**USEROBJECTFLAGS**</span></span>](/windows/win32/api/winuser/ns-winuser-userobjectflags)
 
  
 

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "103683115"
 ---
-# <a name="tlsextensionstype-complex-type"></a><span data-ttu-id="2001d-104">TLSExtensionsType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="2001d-104">TLSExtensionsType Complex Type</span></span>
+# <a name="tlsextensionstype-complex-type"></a><span data-ttu-id="ab1bd-104">TLSExtensionsType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="ab1bd-104">TLSExtensionsType Complex Type</span></span>
 
-<span data-ttu-id="2001d-105">**TLSExtensionsType** 複雜型別可讓架構的未來增強功能。</span><span class="sxs-lookup"><span data-stu-id="2001d-105">The **TLSExtensionsType** complex type enables future enhancements to the schema.</span></span>
+<span data-ttu-id="ab1bd-105">**TLSExtensionsType** 複雜型別可讓架構的未來增強功能。</span><span class="sxs-lookup"><span data-stu-id="ab1bd-105">The **TLSExtensionsType** complex type enables future enhancements to the schema.</span></span>
 
 
 ```XML
@@ -31,30 +31,30 @@ ms.locfileid: "103683115"
 
 
 
-## <a name="remarks"></a><span data-ttu-id="2001d-106">備註</span><span class="sxs-lookup"><span data-stu-id="2001d-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ab1bd-106">備註</span><span class="sxs-lookup"><span data-stu-id="ab1bd-106">Remarks</span></span>
 
-<span data-ttu-id="2001d-107">**TLSExtensionsType** 元素是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="2001d-107">The **TLSExtensionsType** element is optional.</span></span>
+<span data-ttu-id="ab1bd-107">**TLSExtensionsType** 元素是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="ab1bd-107">The **TLSExtensionsType** element is optional.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="2001d-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="2001d-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ab1bd-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="ab1bd-108">Related topics</span></span>
 
-<dl> <span data-ttu-id="2001d-109"><dt>
+<dl> <span data-ttu-id="ab1bd-109"><dt>
 
 
-</dt> <dt></span><span class="sxs-lookup"><span data-stu-id="2001d-109"><dt>
+</dt> <dt></span><span class="sxs-lookup"><span data-stu-id="ab1bd-109"><dt>
 
 
 </dt> <dt></span></span>
 
-[<span data-ttu-id="2001d-110">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="2001d-110">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="ab1bd-110">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="ab1bd-110">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> <dt>
 
-[<span data-ttu-id="2001d-111">eaptlsconnectionpropertiesv2</span><span class="sxs-lookup"><span data-stu-id="2001d-111">eaptlsconnectionpropertiesv2</span></span>](eaptlsconnectionpropertiesv2schema-schema.md)
+[<span data-ttu-id="ab1bd-111">eaptlsconnectionpropertiesv2</span><span class="sxs-lookup"><span data-stu-id="ab1bd-111">eaptlsconnectionpropertiesv2</span></span>](eaptlsconnectionpropertiesv2schema-schema.md)
 </dt> <dt>
 
-[<span data-ttu-id="2001d-112">eaptlsconnectionpropertiesv2 複雜類型</span><span class="sxs-lookup"><span data-stu-id="2001d-112">eaptlsconnectionpropertiesv2 Complex Types</span></span>](eaptlsconnectionpropertiesv2schema-complex-types.md)
+[<span data-ttu-id="ab1bd-112">eaptlsconnectionpropertiesv2 複雜類型</span><span class="sxs-lookup"><span data-stu-id="ab1bd-112">eaptlsconnectionpropertiesv2 Complex Types</span></span>](eaptlsconnectionpropertiesv2schema-complex-types.md)
 </dt> <dt>
 
-[<span data-ttu-id="2001d-113">**TLSExtensions (TLSExtensionsType)**</span><span class="sxs-lookup"><span data-stu-id="2001d-113">**TLSExtensions (TLSExtensionsType)**</span></span>](eaptlsconnectionpropertiesv2schema-performservervalidation-eaptype-element.md)
+[<span data-ttu-id="ab1bd-113">**TLSExtensions (TLSExtensionsType)**</span><span class="sxs-lookup"><span data-stu-id="ab1bd-113">**TLSExtensions (TLSExtensionsType)**</span></span>](eaptlsconnectionpropertiesv2schema-performservervalidation-eaptype-element.md)
 </dt> </dl>
 
  

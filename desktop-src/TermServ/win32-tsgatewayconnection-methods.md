@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103673456"
 ---
-# <a name="win32_tsgatewayconnection-methods"></a><span data-ttu-id="bb7cd-103">Win32 \_ TSGatewayConnection 方法</span><span class="sxs-lookup"><span data-stu-id="bb7cd-103">Win32\_TSGatewayConnection Methods</span></span>
+# <a name="win32_tsgatewayconnection-methods"></a><span data-ttu-id="3f479-103">Win32 \_ TSGatewayConnection 方法</span><span class="sxs-lookup"><span data-stu-id="3f479-103">Win32\_TSGatewayConnection Methods</span></span>
 
-<span data-ttu-id="bb7cd-104">[**Win32 \_ TSGatewayConnection**](win32-tsgatewayconnection.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="bb7cd-104">The [**Win32\_TSGatewayConnection**](win32-tsgatewayconnection.md) class exposes the following methods.</span></span>
+<span data-ttu-id="3f479-104">[**Win32 \_ TSGatewayConnection**](win32-tsgatewayconnection.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="3f479-104">The [**Win32\_TSGatewayConnection**](win32-tsgatewayconnection.md) class exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="bb7cd-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="bb7cd-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3f479-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="3f479-105">In this section</span></span>
 
--   [<span data-ttu-id="bb7cd-106">**CheckStatus 方法**</span><span class="sxs-lookup"><span data-stu-id="bb7cd-106">**CheckStatus method**</span></span>](checkstatus-win32-tsgatewayconnection.md)
--   [<span data-ttu-id="bb7cd-107">**Disconnect 方法**</span><span class="sxs-lookup"><span data-stu-id="bb7cd-107">**Disconnect method**</span></span>](disconnect-win32-tsgatewayconnection.md)
--   [<span data-ttu-id="bb7cd-108">**DisconnectProtocol 方法**</span><span class="sxs-lookup"><span data-stu-id="bb7cd-108">**DisconnectProtocol method**</span></span>](disconnectprotocol-win32-tsgatewayconnection.md)
--   [<span data-ttu-id="bb7cd-109">**DisconnectUser 方法**</span><span class="sxs-lookup"><span data-stu-id="bb7cd-109">**DisconnectUser method**</span></span>](disconnectuser-win32-tsgatewayconnection.md)
+-   [<span data-ttu-id="3f479-106">**CheckStatus 方法**</span><span class="sxs-lookup"><span data-stu-id="3f479-106">**CheckStatus method**</span></span>](checkstatus-win32-tsgatewayconnection.md)
+-   [<span data-ttu-id="3f479-107">**Disconnect 方法**</span><span class="sxs-lookup"><span data-stu-id="3f479-107">**Disconnect method**</span></span>](disconnect-win32-tsgatewayconnection.md)
+-   [<span data-ttu-id="3f479-108">**DisconnectProtocol 方法**</span><span class="sxs-lookup"><span data-stu-id="3f479-108">**DisconnectProtocol method**</span></span>](disconnectprotocol-win32-tsgatewayconnection.md)
+-   [<span data-ttu-id="3f479-109">**DisconnectUser 方法**</span><span class="sxs-lookup"><span data-stu-id="3f479-109">**DisconnectUser method**</span></span>](disconnectuser-win32-tsgatewayconnection.md)
 
  
 

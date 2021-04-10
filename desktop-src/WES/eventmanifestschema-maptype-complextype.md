@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685630"
 ---
-# <a name="maptype-complex-type"></a><span data-ttu-id="234ed-104">MapType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="234ed-104">MapType Complex Type</span></span>
+# <a name="maptype-complex-type"></a><span data-ttu-id="e1584-104">MapType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="e1584-104">MapType Complex Type</span></span>
 
-<span data-ttu-id="234ed-105">定義成對名稱/值的清單。</span><span class="sxs-lookup"><span data-stu-id="234ed-105">Defines a list of name/value pairs.</span></span>
+<span data-ttu-id="e1584-105">定義成對名稱/值的清單。</span><span class="sxs-lookup"><span data-stu-id="e1584-105">Defines a list of name/value pairs.</span></span>
 
 ``` syntax
 <xs:complexType name="MapType">
@@ -39,24 +39,24 @@ ms.locfileid: "103685630"
 </xs:complexType>
 ```
 
-## <a name="child-elements"></a><span data-ttu-id="234ed-106">子元素</span><span class="sxs-lookup"><span data-stu-id="234ed-106">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="e1584-106">子元素</span><span class="sxs-lookup"><span data-stu-id="e1584-106">Child elements</span></span>
 
 
 
-| <span data-ttu-id="234ed-107">元素</span><span class="sxs-lookup"><span data-stu-id="234ed-107">Element</span></span>                                                          | <span data-ttu-id="234ed-108">類型</span><span class="sxs-lookup"><span data-stu-id="234ed-108">Type</span></span>                                                                 | <span data-ttu-id="234ed-109">Description</span><span class="sxs-lookup"><span data-stu-id="234ed-109">Description</span></span>                                                                              |
+| <span data-ttu-id="e1584-107">元素</span><span class="sxs-lookup"><span data-stu-id="e1584-107">Element</span></span>                                                          | <span data-ttu-id="e1584-108">類型</span><span class="sxs-lookup"><span data-stu-id="e1584-108">Type</span></span>                                                                 | <span data-ttu-id="e1584-109">Description</span><span class="sxs-lookup"><span data-stu-id="e1584-109">Description</span></span>                                                                              |
 |------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="234ed-110">**點陣圖**</span><span class="sxs-lookup"><span data-stu-id="234ed-110">**bitMap**</span></span>](eventmanifestschema-bitmap-maptype-element.md)     | [<span data-ttu-id="234ed-111">**BitMapType**</span><span class="sxs-lookup"><span data-stu-id="234ed-111">**BitMapType**</span></span>](eventmanifestschema-bitmaptype-complextype.md)     | <span data-ttu-id="234ed-112">定義對應位值和字串值的名稱/值組清單。</span><span class="sxs-lookup"><span data-stu-id="234ed-112">Defines a list of name/value pairs that map bit values and string values.</span></span><br/>     |
-| [<span data-ttu-id="234ed-113">**valueMap**</span><span class="sxs-lookup"><span data-stu-id="234ed-113">**valueMap**</span></span>](eventmanifestschema-valuemap-maptype-element.md) | [<span data-ttu-id="234ed-114">**ValueMapType**</span><span class="sxs-lookup"><span data-stu-id="234ed-114">**ValueMapType**</span></span>](eventmanifestschema-valuemaptype-complextype.md) | <span data-ttu-id="234ed-115">定義對應整數值和字串值的名稱/值組清單。</span><span class="sxs-lookup"><span data-stu-id="234ed-115">Defines a list of name/value pairs that map integer values and string values.</span></span><br/> |
+| [<span data-ttu-id="e1584-110">**點陣圖**</span><span class="sxs-lookup"><span data-stu-id="e1584-110">**bitMap**</span></span>](eventmanifestschema-bitmap-maptype-element.md)     | [<span data-ttu-id="e1584-111">**BitMapType**</span><span class="sxs-lookup"><span data-stu-id="e1584-111">**BitMapType**</span></span>](eventmanifestschema-bitmaptype-complextype.md)     | <span data-ttu-id="e1584-112">定義對應位值和字串值的名稱/值組清單。</span><span class="sxs-lookup"><span data-stu-id="e1584-112">Defines a list of name/value pairs that map bit values and string values.</span></span><br/>     |
+| [<span data-ttu-id="e1584-113">**valueMap**</span><span class="sxs-lookup"><span data-stu-id="e1584-113">**valueMap**</span></span>](eventmanifestschema-valuemap-maptype-element.md) | [<span data-ttu-id="e1584-114">**ValueMapType**</span><span class="sxs-lookup"><span data-stu-id="e1584-114">**ValueMapType**</span></span>](eventmanifestschema-valuemaptype-complextype.md) | <span data-ttu-id="e1584-115">定義對應整數值和字串值的名稱/值組清單。</span><span class="sxs-lookup"><span data-stu-id="e1584-115">Defines a list of name/value pairs that map integer values and string values.</span></span><br/> |
 
 
 
-## <a name="remarks"></a><span data-ttu-id="234ed-116">備註</span><span class="sxs-lookup"><span data-stu-id="234ed-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e1584-116">備註</span><span class="sxs-lookup"><span data-stu-id="e1584-116">Remarks</span></span>
 
-<span data-ttu-id="234ed-117">一般而言，您會建立對應，以提供事件資料的列舉字串值。</span><span class="sxs-lookup"><span data-stu-id="234ed-117">Typically, you create maps to provide enumerated string values for event data.</span></span>
+<span data-ttu-id="e1584-117">一般而言，您會建立對應，以提供事件資料的列舉字串值。</span><span class="sxs-lookup"><span data-stu-id="e1584-117">Typically, you create maps to provide enumerated string values for event data.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="234ed-118">範例</span><span class="sxs-lookup"><span data-stu-id="234ed-118">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="e1584-118">範例</span><span class="sxs-lookup"><span data-stu-id="e1584-118">Examples</span></span>
 
-<span data-ttu-id="234ed-119">下列範例顯示如何指定值對應和點陣圖。</span><span class="sxs-lookup"><span data-stu-id="234ed-119">The following example shows how to specify a value map and bitmap.</span></span>
+<span data-ttu-id="e1584-119">下列範例顯示如何指定值對應和點陣圖。</span><span class="sxs-lookup"><span data-stu-id="e1584-119">The following example shows how to specify a value map and bitmap.</span></span>
 
 
 ```XML
@@ -75,14 +75,14 @@ ms.locfileid: "103685630"
 
 
 
-## <a name="requirements"></a><span data-ttu-id="234ed-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="234ed-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e1584-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="e1584-120">Requirements</span></span>
 
 
 
-| <span data-ttu-id="234ed-121">需求</span><span class="sxs-lookup"><span data-stu-id="234ed-121">Requirement</span></span> | <span data-ttu-id="234ed-122">值</span><span class="sxs-lookup"><span data-stu-id="234ed-122">Value</span></span> |
+| <span data-ttu-id="e1584-121">需求</span><span class="sxs-lookup"><span data-stu-id="e1584-121">Requirement</span></span> | <span data-ttu-id="e1584-122">值</span><span class="sxs-lookup"><span data-stu-id="e1584-122">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="234ed-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="234ed-123">Minimum supported client</span></span><br/> | <span data-ttu-id="234ed-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="234ed-124">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="234ed-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="234ed-125">Minimum supported server</span></span><br/> | <span data-ttu-id="234ed-126">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="234ed-126">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="e1584-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e1584-123">Minimum supported client</span></span><br/> | <span data-ttu-id="e1584-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e1584-124">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="e1584-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e1584-125">Minimum supported server</span></span><br/> | <span data-ttu-id="e1584-126">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e1584-126">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
