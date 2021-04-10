@@ -27,14 +27,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945277"
 ---
-# <a name="esentcorruptionexception-constructor-serializationinfo-streamingcontext"></a><span data-ttu-id="1823f-103">EsentCorruptionException 函式 (SerializationInfo、StreamingCoNtext) </span><span class="sxs-lookup"><span data-stu-id="1823f-103">EsentCorruptionException constructor (SerializationInfo, StreamingContext)</span></span>
+# <a name="esentcorruptionexception-constructor-serializationinfo-streamingcontext"></a><span data-ttu-id="100d2-103">EsentCorruptionException 函式 (SerializationInfo、StreamingCoNtext) </span><span class="sxs-lookup"><span data-stu-id="100d2-103">EsentCorruptionException constructor (SerializationInfo, StreamingContext)</span></span>
 
-<span data-ttu-id="1823f-104">初始化 EsentCorruptionException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="1823f-104">Initializes a new instance of the EsentCorruptionException class.</span></span> <span data-ttu-id="1823f-105">這個函式是用來將序列化的例外狀況還原序列化。</span><span class="sxs-lookup"><span data-stu-id="1823f-105">This constructor is used to deserialize a serialized exception.</span></span>
+<span data-ttu-id="100d2-104">初始化 EsentCorruptionException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="100d2-104">Initializes a new instance of the EsentCorruptionException class.</span></span> <span data-ttu-id="100d2-105">這個函式是用來將序列化的例外狀況還原序列化。</span><span class="sxs-lookup"><span data-stu-id="100d2-105">This constructor is used to deserialize a serialized exception.</span></span>
 
-<span data-ttu-id="1823f-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="1823f-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="1823f-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="1823f-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="100d2-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="100d2-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="100d2-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="100d2-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1823f-108">語法</span><span class="sxs-lookup"><span data-stu-id="1823f-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="100d2-108">語法</span><span class="sxs-lookup"><span data-stu-id="100d2-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -56,28 +56,28 @@ protected EsentCorruptionException(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="1823f-109">參數</span><span class="sxs-lookup"><span data-stu-id="1823f-109">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="100d2-109">參數</span><span class="sxs-lookup"><span data-stu-id="100d2-109">Parameters</span></span>
 
-  - <span data-ttu-id="1823f-110">info</span><span class="sxs-lookup"><span data-stu-id="1823f-110">info</span></span>  
-    <span data-ttu-id="1823f-111">類型： [SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo) 。</span><span class="sxs-lookup"><span data-stu-id="1823f-111">Type: [System.Runtime.Serialization.SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo)</span></span>  
+  - <span data-ttu-id="100d2-110">info</span><span class="sxs-lookup"><span data-stu-id="100d2-110">info</span></span>  
+    <span data-ttu-id="100d2-111">類型： [SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo) 。</span><span class="sxs-lookup"><span data-stu-id="100d2-111">Type: [System.Runtime.Serialization.SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo)</span></span>  
     
-    <span data-ttu-id="1823f-112">還原序列化物件所需的資料。</span><span class="sxs-lookup"><span data-stu-id="1823f-112">The data needed to deserialize the object.</span></span>
+    <span data-ttu-id="100d2-112">還原序列化物件所需的資料。</span><span class="sxs-lookup"><span data-stu-id="100d2-112">The data needed to deserialize the object.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1823f-113">內容</span><span class="sxs-lookup"><span data-stu-id="1823f-113">context</span></span>  
-    <span data-ttu-id="1823f-114">類型： [StreamingCoNtext](/dotnet/api/system.runtime.serialization.streamingcontext) 。</span><span class="sxs-lookup"><span data-stu-id="1823f-114">Type: [System.Runtime.Serialization.StreamingContext](/dotnet/api/system.runtime.serialization.streamingcontext)</span></span>  
+  - <span data-ttu-id="100d2-113">內容</span><span class="sxs-lookup"><span data-stu-id="100d2-113">context</span></span>  
+    <span data-ttu-id="100d2-114">類型： [StreamingCoNtext](/dotnet/api/system.runtime.serialization.streamingcontext) 。</span><span class="sxs-lookup"><span data-stu-id="100d2-114">Type: [System.Runtime.Serialization.StreamingContext](/dotnet/api/system.runtime.serialization.streamingcontext)</span></span>  
     
-    <span data-ttu-id="1823f-115">還原序列化內容。</span><span class="sxs-lookup"><span data-stu-id="1823f-115">The deserialization context.</span></span>
+    <span data-ttu-id="100d2-115">還原序列化內容。</span><span class="sxs-lookup"><span data-stu-id="100d2-115">The deserialization context.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1823f-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1823f-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="100d2-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="100d2-116">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="1823f-117">參考</span><span class="sxs-lookup"><span data-stu-id="1823f-117">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="100d2-117">參考</span><span class="sxs-lookup"><span data-stu-id="100d2-117">Reference</span></span>
 
-[<span data-ttu-id="1823f-118">EsentCorruptionException 類別</span><span class="sxs-lookup"><span data-stu-id="1823f-118">EsentCorruptionException class</span></span>](./esentcorruptionexception-class.md)
+[<span data-ttu-id="100d2-118">EsentCorruptionException 類別</span><span class="sxs-lookup"><span data-stu-id="100d2-118">EsentCorruptionException class</span></span>](./esentcorruptionexception-class.md)
 
-[<span data-ttu-id="1823f-119">EsentCorruptionException 成員</span><span class="sxs-lookup"><span data-stu-id="1823f-119">EsentCorruptionException members</span></span>](./esentcorruptionexception-members.md)
+[<span data-ttu-id="100d2-119">EsentCorruptionException 成員</span><span class="sxs-lookup"><span data-stu-id="100d2-119">EsentCorruptionException members</span></span>](./esentcorruptionexception-members.md)
 
-[<span data-ttu-id="1823f-120">EsentCorruptionException 多載</span><span class="sxs-lookup"><span data-stu-id="1823f-120">EsentCorruptionException overload</span></span>](./esentcorruptionexception-constructor.md)
+[<span data-ttu-id="100d2-120">EsentCorruptionException 多載</span><span class="sxs-lookup"><span data-stu-id="100d2-120">EsentCorruptionException overload</span></span>](./esentcorruptionexception-constructor.md)
 
-[<span data-ttu-id="1823f-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="1823f-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="100d2-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="100d2-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

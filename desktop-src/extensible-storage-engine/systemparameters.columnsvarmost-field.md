@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852248"
 ---
-# <a name="systemparameterscolumnsvarmost-field"></a><span data-ttu-id="1eea5-103">SystemParameters. ColumnsVarMost 欄位</span><span class="sxs-lookup"><span data-stu-id="1eea5-103">SystemParameters.ColumnsVarMost field</span></span>
+# <a name="systemparameterscolumnsvarmost-field"></a><span data-ttu-id="957e5-103">SystemParameters. ColumnsVarMost 欄位</span><span class="sxs-lookup"><span data-stu-id="957e5-103">SystemParameters.ColumnsVarMost field</span></span>
 
-<span data-ttu-id="1eea5-104">資料表中允許的可變長度資料行數目上限。</span><span class="sxs-lookup"><span data-stu-id="1eea5-104">Maximum number of variable-length columns allowed in a table.</span></span>
+<span data-ttu-id="957e5-104">資料表中允許的可變長度資料行數目上限。</span><span class="sxs-lookup"><span data-stu-id="957e5-104">Maximum number of variable-length columns allowed in a table.</span></span>
 
-<span data-ttu-id="1eea5-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="1eea5-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="1eea5-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="1eea5-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="957e5-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="957e5-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="957e5-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="957e5-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1eea5-107">語法</span><span class="sxs-lookup"><span data-stu-id="1eea5-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="957e5-107">語法</span><span class="sxs-lookup"><span data-stu-id="957e5-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = SystemParameters.ColumnsVarMost
 public const int ColumnsVarMost
 ```
 
-## <a name="see-also"></a><span data-ttu-id="1eea5-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1eea5-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="957e5-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="957e5-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="1eea5-109">參考</span><span class="sxs-lookup"><span data-stu-id="1eea5-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="957e5-109">參考</span><span class="sxs-lookup"><span data-stu-id="957e5-109">Reference</span></span>
 
-[<span data-ttu-id="1eea5-110">SystemParameters 類別</span><span class="sxs-lookup"><span data-stu-id="1eea5-110">SystemParameters class</span></span>](./systemparameters-class.md)
+[<span data-ttu-id="957e5-110">SystemParameters 類別</span><span class="sxs-lookup"><span data-stu-id="957e5-110">SystemParameters class</span></span>](./systemparameters-class.md)
 
-[<span data-ttu-id="1eea5-111">SystemParameters 成員</span><span class="sxs-lookup"><span data-stu-id="1eea5-111">SystemParameters members</span></span>](./systemparameters-members.md)
+[<span data-ttu-id="957e5-111">SystemParameters 成員</span><span class="sxs-lookup"><span data-stu-id="957e5-111">SystemParameters members</span></span>](./systemparameters-members.md)
 
-[<span data-ttu-id="1eea5-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="1eea5-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="957e5-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="957e5-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

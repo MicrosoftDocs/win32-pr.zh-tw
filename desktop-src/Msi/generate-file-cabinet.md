@@ -1,0 +1,58 @@
+---
+description: Windows Installer 開發人員 Windows SDK 元件中提供了 VBScript 檔案 WiMakCab.vbs。 此範例示範如何使用腳本從 Windows Installer 資料庫產生檔案封包。
+ms.assetid: 26671cb9-a200-4520-8b52-4cff3f71a2f2
+title: 產生檔案封包
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3df2355c247ff602d644d2865ec3b9d9a8447ca4
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103944547"
+---
+# <a name="generate-file-cabinet"></a><span data-ttu-id="38547-104">產生檔案封包</span><span class="sxs-lookup"><span data-stu-id="38547-104">Generate File Cabinet</span></span>
+
+<span data-ttu-id="38547-105">[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)中提供了 VBScript 檔案 WiMakCab.vbs。</span><span class="sxs-lookup"><span data-stu-id="38547-105">The VBScript file WiMakCab.vbs is provided in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md).</span></span> <span data-ttu-id="38547-106">此範例示範如何使用腳本從 Windows Installer 資料庫產生檔案封包。</span><span class="sxs-lookup"><span data-stu-id="38547-106">This sample shows how script is used to generate file cabinets from a Windows Installer database.</span></span>
+
+<span data-ttu-id="38547-107">此範例示範：</span><span class="sxs-lookup"><span data-stu-id="38547-107">This sample demonstrates:</span></span>
+
+-   <span data-ttu-id="38547-108">[**OpenDatabase 方法 (安裝程式物件)**](installer-opendatabase.md)和 [**安裝程式物件**](installer-object.md)的 [**LastErrorRecord 方法**](installer-lasterrorrecord.md)</span><span class="sxs-lookup"><span data-stu-id="38547-108">[**OpenDatabase method (Installer Object)**](installer-opendatabase.md) and the [**LastErrorRecord method**](installer-lasterrorrecord.md) of the [**Installer Object**](installer-object.md)</span></span>
+-   <span data-ttu-id="38547-109">[**Commit 方法**](database-commit.md)、 [**OpenView 方法**](database-openview.md)和 [**SummaryInformation 屬性 (**](database-summaryinformation.md)資料庫 [**物件的**](database-object.md)資料庫物件) </span><span class="sxs-lookup"><span data-stu-id="38547-109">[**Commit method**](database-commit.md), the [**OpenView method**](database-openview.md) and [**SummaryInformation property (Database Object)**](database-summaryinformation.md) of the [**Database Object**](database-object.md)</span></span>
+-   <span data-ttu-id="38547-110">[**View 物件**](view-object.md)的 [**Fetch 方法**](view-fetch.md)、 [**Execute 方法**](view-execute.md)和 [**Modify 方法**](view-modify.md)</span><span class="sxs-lookup"><span data-stu-id="38547-110">[**Fetch method**](view-fetch.md), [**Execute method**](view-execute.md) and [**Modify method**](view-modify.md) of the [**View Object**](view-object.md)</span></span>
+-   <span data-ttu-id="38547-111">[**Record 物件**](record-object.md)的 [**至 convertfrom-stringdata 屬性**](record-stringdata.md)和 [**IntegerData 屬性**](record-integerdata.md)</span><span class="sxs-lookup"><span data-stu-id="38547-111">[**StringData property**](record-stringdata.md) and [**IntegerData property**](record-integerdata.md) of the [**Record Object**](record-object.md)</span></span>
+-   <span data-ttu-id="38547-112">[**Dataadapter.doaction 方法**](session-doaction.md)、 [**Property 屬性 (session 物件)**](session-session.md)，以及 [**session 物件**](session-object.md)的 [**Mode 屬性**](session-mode.md)</span><span class="sxs-lookup"><span data-stu-id="38547-112">[**DoAction method**](session-doaction.md), the [**Property property (Session Object)**](session-session.md), and the [**Mode property**](session-mode.md) of the [**Session Object**](session-object.md)</span></span>
+
+<span data-ttu-id="38547-113">您將需要 CScript.exe 或 WScript.exe 版本的 Windows Script Host 才能使用此範例。</span><span class="sxs-lookup"><span data-stu-id="38547-113">You'll require the CScript.exe or WScript.exe version of Windows Script Host to use this sample.</span></span> <span data-ttu-id="38547-114">若要使用 CScript.exe 執行此範例，請使用下列語法在命令提示字元中輸入命令。</span><span class="sxs-lookup"><span data-stu-id="38547-114">To use CScript.exe to run this sample, type a command at the command prompt using the following syntax.</span></span> <span data-ttu-id="38547-115">如果第一個引數是/？，則會顯示說明</span><span class="sxs-lookup"><span data-stu-id="38547-115">Help is displayed if the first argument is /?</span></span> <span data-ttu-id="38547-116">或者，如果指定的引數太少。</span><span class="sxs-lookup"><span data-stu-id="38547-116">or if too few arguments are specified.</span></span> <span data-ttu-id="38547-117">若要將輸出重新導向至檔案，請以 VBS > 路徑結束命令列 \[  \] 。</span><span class="sxs-lookup"><span data-stu-id="38547-117">To redirect the output to a file, end the command line with VBS > \[*path to file*\].</span></span> <span data-ttu-id="38547-118">此範例會傳回值0表示成功，如果叫用說明，則傳回 1; 如果腳本失敗，則傳回2。</span><span class="sxs-lookup"><span data-stu-id="38547-118">The sample returns a value of 0 for success, 1 if help is invoked, and 2 if the script fails.</span></span>
+
+<span data-ttu-id="38547-119">**cscript WiMakCab.vbs \[ 資料庫 \] \[ 基底名稱 \] \[ 選擇性來源位置的路徑\]**</span><span class="sxs-lookup"><span data-stu-id="38547-119">**cscript WiMakCab.vbs \[path to database\]\[base name\]\[optional source locations\]**</span></span>
+
+<span data-ttu-id="38547-120">為了產生封包，Makecab.exe 必須在路徑上。</span><span class="sxs-lookup"><span data-stu-id="38547-120">In order to generate a cabinet, Makecab.exe must be on the PATH.</span></span> <span data-ttu-id="38547-121">Makecab.exe 公用程式包含在 [Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)中。</span><span class="sxs-lookup"><span data-stu-id="38547-121">The Makecab.exe utility is included in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md).</span></span> <span data-ttu-id="38547-122">請注意，此範例不會更新 [媒體資料表](media-table.md) 來處理多個封包。</span><span class="sxs-lookup"><span data-stu-id="38547-122">Note that the sample does not update the [Media table](media-table.md) to handle multiple cabinets.</span></span> <span data-ttu-id="38547-123">若要取代內嵌的封包，請包含選項：/R/C/U/E</span><span class="sxs-lookup"><span data-stu-id="38547-123">To replace an embedded cabinet, include the options: /R /C /U /E.</span></span>
+
+<span data-ttu-id="38547-124">指定安裝程式資料庫的路徑。</span><span class="sxs-lookup"><span data-stu-id="38547-124">Specify the path to the installer database.</span></span> <span data-ttu-id="38547-125">這必須位於來源樹狀結構的根目錄。</span><span class="sxs-lookup"><span data-stu-id="38547-125">This must be located at the root of the source tree.</span></span> <span data-ttu-id="38547-126">為產生的封包檔指定區分大小寫的基底名稱。</span><span class="sxs-lookup"><span data-stu-id="38547-126">Specify the case-sensitive base name for the generated cabinet files.</span></span> <span data-ttu-id="38547-127">如果來源類型為壓縮，則會在根目錄開啟所有檔案。</span><span class="sxs-lookup"><span data-stu-id="38547-127">If the source type is compressed, all files are opened at the root.</span></span> <span data-ttu-id="38547-128">您可以在命令列上的任何位置指定下列選項。</span><span class="sxs-lookup"><span data-stu-id="38547-128">The following options may be specified at any point on the command line.</span></span>
+
+
+
+| <span data-ttu-id="38547-129">選項</span><span class="sxs-lookup"><span data-stu-id="38547-129">Option</span></span>              | <span data-ttu-id="38547-130">Description</span><span class="sxs-lookup"><span data-stu-id="38547-130">Description</span></span>                                                                                                                               |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="38547-131">未指定任何選項</span><span class="sxs-lookup"><span data-stu-id="38547-131">no option specified</span></span> |                                                                                                                                           |
+| <span data-ttu-id="38547-132">/C</span><span class="sxs-lookup"><span data-stu-id="38547-132">/C</span></span>                  | <span data-ttu-id="38547-133">執行壓縮。</span><span class="sxs-lookup"><span data-stu-id="38547-133">Run compression.</span></span> <span data-ttu-id="38547-134">如果未指定/C，WiMakCab.vbs 只會產生 DDF 檔案。</span><span class="sxs-lookup"><span data-stu-id="38547-134">If /C is not specified, WiMakCab.vbs only generates the DDF file.</span></span>                                                        |
+| <span data-ttu-id="38547-135">/L</span><span class="sxs-lookup"><span data-stu-id="38547-135">/L</span></span>                  | <span data-ttu-id="38547-136">使用 LZX 壓縮而非 MSZIP</span><span class="sxs-lookup"><span data-stu-id="38547-136">Use LZX compression instead of MSZIP</span></span>                                                                                                      |
+| <span data-ttu-id="38547-137">/F</span><span class="sxs-lookup"><span data-stu-id="38547-137">/F</span></span>                  | <span data-ttu-id="38547-138">將封包大小限制為 1.44 MB 的磁片大小，而不是 CD-ROM</span><span class="sxs-lookup"><span data-stu-id="38547-138">Limit cabinet size to 1.44 MB floppy size rather than CD-ROM</span></span>                                                                              |
+| <span data-ttu-id="38547-139">/U</span><span class="sxs-lookup"><span data-stu-id="38547-139">/U</span></span>                  | <span data-ttu-id="38547-140">更新資料庫以參考產生的封包</span><span class="sxs-lookup"><span data-stu-id="38547-140">Update the database to reference the generated cabinet</span></span>                                                                                    |
+| <span data-ttu-id="38547-141">/E</span><span class="sxs-lookup"><span data-stu-id="38547-141">/E</span></span>                  | <span data-ttu-id="38547-142">在安裝程式套件中將封包檔內嵌為數據流</span><span class="sxs-lookup"><span data-stu-id="38547-142">Embed the cabinet file in the installer package as a stream</span></span>                                                                               |
+| <span data-ttu-id="38547-143">/S</span><span class="sxs-lookup"><span data-stu-id="38547-143">/S</span></span>                  | <span data-ttu-id="38547-144">在檔案資料表中使用依目錄排序的序號</span><span class="sxs-lookup"><span data-stu-id="38547-144">Use sequence numbers in the File table ordered by directories</span></span>                                                                             |
+| <span data-ttu-id="38547-145">/R</span><span class="sxs-lookup"><span data-stu-id="38547-145">/R</span></span>                  | <span data-ttu-id="38547-146">還原為非封包安裝，如果指定了/E，請移除封包 (/R 選項會移除壓縮的 SummaryInfo 屬性 15 & 2) </span><span class="sxs-lookup"><span data-stu-id="38547-146">Revert to non-cabinet install, remove cabinet if /E is specified (The /R option removes the compressed bit - SummaryInfo property 15 & 2)</span></span> |
+
+
+
+ 
+
+<span data-ttu-id="38547-147">如需其他腳本範例，請參閱 [Windows Installer 腳本範例](windows-installer-scripting-examples.md)。</span><span class="sxs-lookup"><span data-stu-id="38547-147">For additional scripting examples, see [Windows Installer Scripting Examples](windows-installer-scripting-examples.md).</span></span> <span data-ttu-id="38547-148">如需不需要 Windows Script Host 的範例公用程式，請參閱 [Windows Installer 開發工具](windows-installer-development-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="38547-148">For sample utilities that do not require Windows Script Host, see [Windows Installer Development Tools](windows-installer-development-tools.md).</span></span>
+
+ 
+
+ 
+
+
+

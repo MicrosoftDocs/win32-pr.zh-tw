@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944814"
 ---
-# <a name="icertpropertyenrollment-properties"></a><span data-ttu-id="d76df-103">ICertPropertyEnrollment 屬性</span><span class="sxs-lookup"><span data-stu-id="d76df-103">ICertPropertyEnrollment Properties</span></span>
+# <a name="icertpropertyenrollment-properties"></a><span data-ttu-id="c63c8-103">ICertPropertyEnrollment 屬性</span><span class="sxs-lookup"><span data-stu-id="c63c8-103">ICertPropertyEnrollment Properties</span></span>
 
-<span data-ttu-id="d76df-104">[**ICertPropertyEnrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="d76df-104">The [**ICertPropertyEnrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment) interface exposes the following properties.</span></span>
+<span data-ttu-id="c63c8-104">[**ICertPropertyEnrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="c63c8-104">The [**ICertPropertyEnrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="d76df-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d76df-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c63c8-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c63c8-105">In this section</span></span>
 
--   [<span data-ttu-id="d76df-106">**CADnsName 屬性**</span><span class="sxs-lookup"><span data-stu-id="d76df-106">**CADnsName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_cadnsname)
--   [<span data-ttu-id="d76df-107">**CAName 屬性**</span><span class="sxs-lookup"><span data-stu-id="d76df-107">**CAName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_caname)
--   [<span data-ttu-id="d76df-108">**FriendlyName 屬性**</span><span class="sxs-lookup"><span data-stu-id="d76df-108">**FriendlyName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_friendlyname)
--   [<span data-ttu-id="d76df-109">**RequestId 屬性**</span><span class="sxs-lookup"><span data-stu-id="d76df-109">**RequestId Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_requestid)
+-   [<span data-ttu-id="c63c8-106">**CADnsName 屬性**</span><span class="sxs-lookup"><span data-stu-id="c63c8-106">**CADnsName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_cadnsname)
+-   [<span data-ttu-id="c63c8-107">**CAName 屬性**</span><span class="sxs-lookup"><span data-stu-id="c63c8-107">**CAName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_caname)
+-   [<span data-ttu-id="c63c8-108">**FriendlyName 屬性**</span><span class="sxs-lookup"><span data-stu-id="c63c8-108">**FriendlyName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_friendlyname)
+-   [<span data-ttu-id="c63c8-109">**RequestId 屬性**</span><span class="sxs-lookup"><span data-stu-id="c63c8-109">**RequestId Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_requestid)
 
  
 

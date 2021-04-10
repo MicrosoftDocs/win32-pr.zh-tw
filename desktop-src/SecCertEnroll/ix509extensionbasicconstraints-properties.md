@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944807"
 ---
-# <a name="ix509extensionbasicconstraints-properties"></a><span data-ttu-id="7528d-103">IX509ExtensionBasicConstraints 屬性</span><span class="sxs-lookup"><span data-stu-id="7528d-103">IX509ExtensionBasicConstraints Properties</span></span>
+# <a name="ix509extensionbasicconstraints-properties"></a><span data-ttu-id="712b4-103">IX509ExtensionBasicConstraints 屬性</span><span class="sxs-lookup"><span data-stu-id="712b4-103">IX509ExtensionBasicConstraints Properties</span></span>
 
-<span data-ttu-id="7528d-104">[**IX509ExtensionBasicConstraints**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionbasicconstraints)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="7528d-104">The [**IX509ExtensionBasicConstraints**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionbasicconstraints) interface exposes the following properties.</span></span>
+<span data-ttu-id="712b4-104">[**IX509ExtensionBasicConstraints**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionbasicconstraints)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="712b4-104">The [**IX509ExtensionBasicConstraints**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionbasicconstraints) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="7528d-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="7528d-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="712b4-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="712b4-105">In this section</span></span>
 
--   [<span data-ttu-id="7528d-106">**IsCA 屬性**</span><span class="sxs-lookup"><span data-stu-id="7528d-106">**IsCA Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-get_isca)
--   [<span data-ttu-id="7528d-107">**PathLenConstraint 屬性**</span><span class="sxs-lookup"><span data-stu-id="7528d-107">**PathLenConstraint Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-get_pathlenconstraint)
+-   [<span data-ttu-id="712b4-106">**IsCA 屬性**</span><span class="sxs-lookup"><span data-stu-id="712b4-106">**IsCA Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-get_isca)
+-   [<span data-ttu-id="712b4-107">**PathLenConstraint 屬性**</span><span class="sxs-lookup"><span data-stu-id="712b4-107">**PathLenConstraint Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-get_pathlenconstraint)
 
  
 
