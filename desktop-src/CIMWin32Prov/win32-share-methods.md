@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104111205"
 ---
-# <a name="win32_share-methods"></a><span data-ttu-id="2b501-103">Win32 \_ 共用方法</span><span class="sxs-lookup"><span data-stu-id="2b501-103">Win32\_Share Methods</span></span>
+# <a name="win32_share-methods"></a><span data-ttu-id="214ff-103">Win32 \_ 共用方法</span><span class="sxs-lookup"><span data-stu-id="214ff-103">Win32\_Share Methods</span></span>
 
-<span data-ttu-id="2b501-104">[**Win32 \_ 共用**](win32-share.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="2b501-104">The [**Win32\_Share**](win32-share.md) class exposes the following methods.</span></span>
+<span data-ttu-id="214ff-104">[**Win32 \_ 共用**](win32-share.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="214ff-104">The [**Win32\_Share**](win32-share.md) class exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="2b501-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="2b501-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="214ff-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="214ff-105">In this section</span></span>
 
--   [<span data-ttu-id="2b501-106">**建立方法**</span><span class="sxs-lookup"><span data-stu-id="2b501-106">**Create method**</span></span>](create-method-in-class-win32-share.md)
--   [<span data-ttu-id="2b501-107">**Delete 方法**</span><span class="sxs-lookup"><span data-stu-id="2b501-107">**Delete method**</span></span>](delete-method-in-class-win32-share.md)
--   [<span data-ttu-id="2b501-108">**GetAccessMask 方法**</span><span class="sxs-lookup"><span data-stu-id="2b501-108">**GetAccessMask method**</span></span>](getaccessmask-method-in-class-win32-share.md)
--   [<span data-ttu-id="2b501-109">**SetShareInfo 方法**</span><span class="sxs-lookup"><span data-stu-id="2b501-109">**SetShareInfo method**</span></span>](setshareinfo-method-in-class-win32-share.md)
+-   [<span data-ttu-id="214ff-106">**建立方法**</span><span class="sxs-lookup"><span data-stu-id="214ff-106">**Create method**</span></span>](create-method-in-class-win32-share.md)
+-   [<span data-ttu-id="214ff-107">**Delete 方法**</span><span class="sxs-lookup"><span data-stu-id="214ff-107">**Delete method**</span></span>](delete-method-in-class-win32-share.md)
+-   [<span data-ttu-id="214ff-108">**GetAccessMask 方法**</span><span class="sxs-lookup"><span data-stu-id="214ff-108">**GetAccessMask method**</span></span>](getaccessmask-method-in-class-win32-share.md)
+-   [<span data-ttu-id="214ff-109">**SetShareInfo 方法**</span><span class="sxs-lookup"><span data-stu-id="214ff-109">**SetShareInfo method**</span></span>](setshareinfo-method-in-class-win32-share.md)
 
  
 

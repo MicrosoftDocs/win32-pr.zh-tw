@@ -11,26 +11,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "103683136"
 ---
-# <a name="how-to-create-toolbars"></a><span data-ttu-id="097a2-103">如何建立工具列</span><span class="sxs-lookup"><span data-stu-id="097a2-103">How to Create Toolbars</span></span>
+# <a name="how-to-create-toolbars"></a><span data-ttu-id="2ffed-103">如何建立工具列</span><span class="sxs-lookup"><span data-stu-id="2ffed-103">How to Create Toolbars</span></span>
 
-<span data-ttu-id="097a2-104">若要建立工具列，請使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函數，並指定 [**TOOLBARCLASSNAME**](common-control-window-classes.md) 視窗類別。</span><span class="sxs-lookup"><span data-stu-id="097a2-104">To create a toolbar, use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the [**TOOLBARCLASSNAME**](common-control-window-classes.md) window class.</span></span> <span data-ttu-id="097a2-105">產生的工具列一開始不會包含任何按鈕。</span><span class="sxs-lookup"><span data-stu-id="097a2-105">The resulting toolbar initially contains no buttons.</span></span> <span data-ttu-id="097a2-106">使用 [**tb \_ ADDBUTTONS**](tb-addbuttons.md) 或 [**tb \_ INSERTBUTTON**](tb-insertbutton.md) 訊息，將按鈕新增至工具列。</span><span class="sxs-lookup"><span data-stu-id="097a2-106">Add buttons to the toolbar by using the [**TB\_ADDBUTTONS**](tb-addbuttons.md) or [**TB\_INSERTBUTTON**](tb-insertbutton.md) message.</span></span> <span data-ttu-id="097a2-107">在所有專案和字串都插入控制項之後，您必須傳送 [**TB 的 \_ AUTOSIZE**](tb-autosize.md) 訊息，讓工具列根據其內容重新計算其大小。</span><span class="sxs-lookup"><span data-stu-id="097a2-107">You must send the [**TB\_AUTOSIZE**](tb-autosize.md) message after all the items and strings have been inserted into the control, to cause the toolbar to recalculate its size based on its content.</span></span>
+<span data-ttu-id="2ffed-104">若要建立工具列，請使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函數，並指定 [**TOOLBARCLASSNAME**](common-control-window-classes.md) 視窗類別。</span><span class="sxs-lookup"><span data-stu-id="2ffed-104">To create a toolbar, use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the [**TOOLBARCLASSNAME**](common-control-window-classes.md) window class.</span></span> <span data-ttu-id="2ffed-105">產生的工具列一開始不會包含任何按鈕。</span><span class="sxs-lookup"><span data-stu-id="2ffed-105">The resulting toolbar initially contains no buttons.</span></span> <span data-ttu-id="2ffed-106">使用 [**tb \_ ADDBUTTONS**](tb-addbuttons.md) 或 [**tb \_ INSERTBUTTON**](tb-insertbutton.md) 訊息，將按鈕新增至工具列。</span><span class="sxs-lookup"><span data-stu-id="2ffed-106">Add buttons to the toolbar by using the [**TB\_ADDBUTTONS**](tb-addbuttons.md) or [**TB\_INSERTBUTTON**](tb-insertbutton.md) message.</span></span> <span data-ttu-id="2ffed-107">在所有專案和字串都插入控制項之後，您必須傳送 [**TB 的 \_ AUTOSIZE**](tb-autosize.md) 訊息，讓工具列根據其內容重新計算其大小。</span><span class="sxs-lookup"><span data-stu-id="2ffed-107">You must send the [**TB\_AUTOSIZE**](tb-autosize.md) message after all the items and strings have been inserted into the control, to cause the toolbar to recalculate its size based on its content.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="097a2-108">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="097a2-108">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="2ffed-108">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="2ffed-108">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="097a2-109">技術</span><span class="sxs-lookup"><span data-stu-id="097a2-109">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="2ffed-109">技術</span><span class="sxs-lookup"><span data-stu-id="2ffed-109">Technologies</span></span>
 
--   [<span data-ttu-id="097a2-110">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="097a2-110">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="2ffed-110">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="2ffed-110">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="097a2-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="097a2-111">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="2ffed-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="2ffed-111">Prerequisites</span></span>
 
--   <span data-ttu-id="097a2-112">C/C++</span><span class="sxs-lookup"><span data-stu-id="097a2-112">C/C++</span></span>
--   <span data-ttu-id="097a2-113">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="097a2-113">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="2ffed-112">C/C++</span><span class="sxs-lookup"><span data-stu-id="2ffed-112">C/C++</span></span>
+-   <span data-ttu-id="2ffed-113">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="2ffed-113">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="097a2-114">指示</span><span class="sxs-lookup"><span data-stu-id="097a2-114">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="2ffed-114">指示</span><span class="sxs-lookup"><span data-stu-id="2ffed-114">Instructions</span></span>
 
-### <a name="create-a-toolbar"></a><span data-ttu-id="097a2-115">建立工具列</span><span class="sxs-lookup"><span data-stu-id="097a2-115">Create a Toolbar</span></span>
+### <a name="create-a-toolbar"></a><span data-ttu-id="2ffed-115">建立工具列</span><span class="sxs-lookup"><span data-stu-id="2ffed-115">Create a Toolbar</span></span>
 
-<span data-ttu-id="097a2-116">下列範例程式碼會使用標準系統圖示來建立圖例中所示的工具列。</span><span class="sxs-lookup"><span data-stu-id="097a2-116">The following example code creates the toolbar shown in the illustration, using standard system icons.</span></span> <span data-ttu-id="097a2-117">[ **儲存** ] 按鈕一開始是停用的。</span><span class="sxs-lookup"><span data-stu-id="097a2-117">The **Save** button is initially disabled.</span></span>
+<span data-ttu-id="2ffed-116">下列範例程式碼會使用標準系統圖示來建立圖例中所示的工具列。</span><span class="sxs-lookup"><span data-stu-id="2ffed-116">The following example code creates the toolbar shown in the illustration, using standard system icons.</span></span> <span data-ttu-id="2ffed-117">[ **儲存** ] 按鈕一開始是停用的。</span><span class="sxs-lookup"><span data-stu-id="2ffed-117">The **Save** button is initially disabled.</span></span>
 
 ![顯示具有三個工具列專案水準排列之對話方塊的螢幕擷取畫面，其中每個專案都有一個圖示和一個文字標籤](images/tb-codesample1.png)
 
@@ -94,7 +94,7 @@ HWND CreateSimpleToolbar(HWND hWndParent)
 
 
 
-<span data-ttu-id="097a2-119">下列範例會以類似的方式建立相同的工具列，但在此情況下，會從資源讀取字串。</span><span class="sxs-lookup"><span data-stu-id="097a2-119">The following example creates the same toolbar in much the same way, but in this case, the strings are read from a resource.</span></span>
+<span data-ttu-id="2ffed-119">下列範例會以類似的方式建立相同的工具列，但在此情況下，會從資源讀取字串。</span><span class="sxs-lookup"><span data-stu-id="2ffed-119">The following example creates the same toolbar in much the same way, but in this case, the strings are read from a resource.</span></span>
 
 
 ```C++
@@ -166,14 +166,14 @@ HWND CreateToolbarFromResource(HWND hWndParent)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="097a2-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="097a2-120">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2ffed-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="2ffed-120">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="097a2-121">使用工具列控制項</span><span class="sxs-lookup"><span data-stu-id="097a2-121">Using Toolbar Controls</span></span>](using-toolbar-controls.md)
+[<span data-ttu-id="2ffed-121">使用工具列控制項</span><span class="sxs-lookup"><span data-stu-id="2ffed-121">Using Toolbar Controls</span></span>](using-toolbar-controls.md)
 </dt> <dt>
 
-<span data-ttu-id="097a2-122">[Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span><span class="sxs-lookup"><span data-stu-id="097a2-122">[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span></span>
+<span data-ttu-id="2ffed-122">[Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span><span class="sxs-lookup"><span data-stu-id="2ffed-122">[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span></span>
 </dt> </dl>
 
  

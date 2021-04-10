@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "104023567"
 ---
-# <a name="checking-the-state-of-an-accessibility-parameter"></a><span data-ttu-id="9ee0f-104">檢查協助工具參數的狀態</span><span class="sxs-lookup"><span data-stu-id="9ee0f-104">Checking the State of an Accessibility Parameter</span></span>
+# <a name="checking-the-state-of-an-accessibility-parameter"></a><span data-ttu-id="8f820-104">檢查協助工具參數的狀態</span><span class="sxs-lookup"><span data-stu-id="8f820-104">Checking the State of an Accessibility Parameter</span></span>
 
-<span data-ttu-id="9ee0f-105">下列程式碼片段會使用 [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) 函式來檢查 [聲音] 參數。</span><span class="sxs-lookup"><span data-stu-id="9ee0f-105">The following code fragment uses the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function to check the ShowSounds parameter.</span></span> <span data-ttu-id="9ee0f-106">如果 **GetSystemMetrics** 傳回 **TRUE**，則應用程式應該以視覺化形式呈現所有重要資訊。</span><span class="sxs-lookup"><span data-stu-id="9ee0f-106">If **GetSystemMetrics** returns **TRUE**, the application should present all important information in visual form.</span></span>
+<span data-ttu-id="8f820-105">下列程式碼片段會使用 [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) 函式來檢查 [聲音] 參數。</span><span class="sxs-lookup"><span data-stu-id="8f820-105">The following code fragment uses the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function to check the ShowSounds parameter.</span></span> <span data-ttu-id="8f820-106">如果 **GetSystemMetrics** 傳回 **TRUE**，則應用程式應該以視覺化形式呈現所有重要資訊。</span><span class="sxs-lookup"><span data-stu-id="8f820-106">If **GetSystemMetrics** returns **TRUE**, the application should present all important information in visual form.</span></span>
 
 
 ```C++

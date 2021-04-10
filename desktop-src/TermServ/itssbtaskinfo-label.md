@@ -25,13 +25,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686431"
 ---
-# <a name="itssbtaskinfolabel-property"></a><span data-ttu-id="22811-106">ITsSbTaskInfo：： Label 屬性</span><span class="sxs-lookup"><span data-stu-id="22811-106">ITsSbTaskInfo::Label property</span></span>
+# <a name="itssbtaskinfolabel-property"></a><span data-ttu-id="e1596-106">ITsSbTaskInfo：： Label 屬性</span><span class="sxs-lookup"><span data-stu-id="e1596-106">ITsSbTaskInfo::Label property</span></span>
 
-<span data-ttu-id="22811-107">抓取描述工作用途的標籤。</span><span class="sxs-lookup"><span data-stu-id="22811-107">Retrieves the label that describes the purpose of the task.</span></span>
+<span data-ttu-id="e1596-107">抓取描述工作用途的標籤。</span><span class="sxs-lookup"><span data-stu-id="e1596-107">Retrieves the label that describes the purpose of the task.</span></span>
 
-<span data-ttu-id="22811-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="22811-108">This property is read-only.</span></span>
+<span data-ttu-id="e1596-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="e1596-108">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="22811-109">語法</span><span class="sxs-lookup"><span data-stu-id="22811-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e1596-109">語法</span><span class="sxs-lookup"><span data-stu-id="e1596-109">Syntax</span></span>
 
 
 ```C++
@@ -42,27 +42,27 @@ HRESULT get_Label(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="22811-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="22811-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="e1596-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="e1596-110">Property value</span></span>
 
-<span data-ttu-id="22811-111">包含標籤之 **BSTR** 值的指標。</span><span class="sxs-lookup"><span data-stu-id="22811-111">A pointer to a **BSTR** value that contains the label.</span></span>
+<span data-ttu-id="e1596-111">包含標籤之 **BSTR** 值的指標。</span><span class="sxs-lookup"><span data-stu-id="e1596-111">A pointer to a **BSTR** value that contains the label.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="22811-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="22811-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e1596-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="e1596-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="22811-113">需求</span><span class="sxs-lookup"><span data-stu-id="22811-113">Requirement</span></span> | <span data-ttu-id="22811-114">值</span><span class="sxs-lookup"><span data-stu-id="22811-114">Value</span></span> |
+| <span data-ttu-id="e1596-113">需求</span><span class="sxs-lookup"><span data-stu-id="e1596-113">Requirement</span></span> | <span data-ttu-id="e1596-114">值</span><span class="sxs-lookup"><span data-stu-id="e1596-114">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="22811-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="22811-115">Minimum supported client</span></span><br/> | <span data-ttu-id="22811-116">都不支援</span><span class="sxs-lookup"><span data-stu-id="22811-116">None supported</span></span><br/>                                                            |
-| <span data-ttu-id="22811-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="22811-117">Minimum supported server</span></span><br/> | <span data-ttu-id="22811-118">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="22811-118">Windows Server 2012</span></span><br/>                                                       |
-| <span data-ttu-id="22811-119">Idl</span><span class="sxs-lookup"><span data-stu-id="22811-119">IDL</span></span><br/>                      | <dl> <span data-ttu-id="22811-120"><dt>Sbtsv .idl</dt></span><span class="sxs-lookup"><span data-stu-id="22811-120"><dt>Sbtsv.idl</dt></span></span> </dl> |
+| <span data-ttu-id="e1596-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e1596-115">Minimum supported client</span></span><br/> | <span data-ttu-id="e1596-116">都不支援</span><span class="sxs-lookup"><span data-stu-id="e1596-116">None supported</span></span><br/>                                                            |
+| <span data-ttu-id="e1596-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e1596-117">Minimum supported server</span></span><br/> | <span data-ttu-id="e1596-118">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="e1596-118">Windows Server 2012</span></span><br/>                                                       |
+| <span data-ttu-id="e1596-119">Idl</span><span class="sxs-lookup"><span data-stu-id="e1596-119">IDL</span></span><br/>                      | <dl> <span data-ttu-id="e1596-120"><dt>Sbtsv .idl</dt></span><span class="sxs-lookup"><span data-stu-id="e1596-120"><dt>Sbtsv.idl</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="22811-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="22811-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1596-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e1596-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="22811-122">**ITsSbTaskInfo**</span><span class="sxs-lookup"><span data-stu-id="22811-122">**ITsSbTaskInfo**</span></span>](/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo)
+[<span data-ttu-id="e1596-122">**ITsSbTaskInfo**</span><span class="sxs-lookup"><span data-stu-id="e1596-122">**ITsSbTaskInfo**</span></span>](/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo)
 </dt> </dl>
 
  

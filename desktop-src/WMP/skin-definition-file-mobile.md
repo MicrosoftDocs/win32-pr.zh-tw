@@ -17,22 +17,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103685367"
 ---
-# <a name="skin-definition-file-mobile"></a><span data-ttu-id="cbce7-108"> (Mobile) 的外觀定義檔</span><span class="sxs-lookup"><span data-stu-id="cbce7-108">Skin Definition File (Mobile)</span></span>
+# <a name="skin-definition-file-mobile"></a><span data-ttu-id="9fb92-108"> (Mobile) 的外觀定義檔</span><span class="sxs-lookup"><span data-stu-id="9fb92-108">Skin Definition File (Mobile)</span></span>
 
-<span data-ttu-id="cbce7-109">面板定義檔是您將所有元件放在一起的位置。</span><span class="sxs-lookup"><span data-stu-id="cbce7-109">The skin definition file is where you put all the pieces together.</span></span> <span data-ttu-id="cbce7-110">您可以定義要使用的影像、指定您想要讓使用者看到的使用者介面元素，以及輸入函式、座標、檔案名等等。</span><span class="sxs-lookup"><span data-stu-id="cbce7-110">You define the images to use, specify the user interface elements you want the user to see, and type in the functions, coordinates, file names, and so on.</span></span>
+<span data-ttu-id="9fb92-109">面板定義檔是您將所有元件放在一起的位置。</span><span class="sxs-lookup"><span data-stu-id="9fb92-109">The skin definition file is where you put all the pieces together.</span></span> <span data-ttu-id="9fb92-110">您可以定義要使用的影像、指定您想要讓使用者看到的使用者介面元素，以及輸入函式、座標、檔案名等等。</span><span class="sxs-lookup"><span data-stu-id="9fb92-110">You define the images to use, specify the user interface elements you want the user to see, and type in the functions, coordinates, file names, and so on.</span></span>
 
-<span data-ttu-id="cbce7-111">下列各節提供有關建立面板定義檔的詳細資料：</span><span class="sxs-lookup"><span data-stu-id="cbce7-111">The following sections provide details about creating the skin definition file:</span></span>
+<span data-ttu-id="9fb92-111">下列各節提供有關建立面板定義檔的詳細資料：</span><span class="sxs-lookup"><span data-stu-id="9fb92-111">The following sections provide details about creating the skin definition file:</span></span>
 
--   [<span data-ttu-id="cbce7-112">建立外觀定義檔</span><span class="sxs-lookup"><span data-stu-id="cbce7-112">Creating a Skin Definition File</span></span>](creating-a-skin-definition-file.md)
--   [<span data-ttu-id="cbce7-113">文字編輯器</span><span class="sxs-lookup"><span data-stu-id="cbce7-113">Text Editors</span></span>](text-editors.md)
--   [<span data-ttu-id="cbce7-114">每一行的規則</span><span class="sxs-lookup"><span data-stu-id="cbce7-114">Rules for Each Line</span></span>](rules-for-each-line.md)
--   [<span data-ttu-id="cbce7-115">必要元素</span><span class="sxs-lookup"><span data-stu-id="cbce7-115">Required Elements</span></span>](required-elements.md)
+-   [<span data-ttu-id="9fb92-112">建立外觀定義檔</span><span class="sxs-lookup"><span data-stu-id="9fb92-112">Creating a Skin Definition File</span></span>](creating-a-skin-definition-file.md)
+-   [<span data-ttu-id="9fb92-113">文字編輯器</span><span class="sxs-lookup"><span data-stu-id="9fb92-113">Text Editors</span></span>](text-editors.md)
+-   [<span data-ttu-id="9fb92-114">每一行的規則</span><span class="sxs-lookup"><span data-stu-id="9fb92-114">Rules for Each Line</span></span>](rules-for-each-line.md)
+-   [<span data-ttu-id="9fb92-115">必要元素</span><span class="sxs-lookup"><span data-stu-id="9fb92-115">Required Elements</span></span>](required-elements.md)
 
-## <a name="related-topics"></a><span data-ttu-id="cbce7-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="cbce7-116">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9fb92-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="9fb92-116">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="cbce7-117">**關於外觀**</span><span class="sxs-lookup"><span data-stu-id="cbce7-117">**About Skins**</span></span>](about-skins-mobile.md)
+[<span data-ttu-id="9fb92-117">**關於外觀**</span><span class="sxs-lookup"><span data-stu-id="9fb92-117">**About Skins**</span></span>](about-skins-mobile.md)
 </dt> </dl>
 
  

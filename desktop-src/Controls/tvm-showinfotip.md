@@ -21,41 +21,41 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844363"
 ---
-# <a name="tvm_showinfotip-message"></a><span data-ttu-id="fcd7b-105">TVM \_ SHOWINFOTIP 訊息</span><span class="sxs-lookup"><span data-stu-id="fcd7b-105">TVM\_SHOWINFOTIP message</span></span>
+# <a name="tvm_showinfotip-message"></a><span data-ttu-id="030fa-105">TVM \_ SHOWINFOTIP 訊息</span><span class="sxs-lookup"><span data-stu-id="030fa-105">TVM\_SHOWINFOTIP message</span></span>
 
-<span data-ttu-id="fcd7b-106">顯示樹狀檢視控制項中所指定專案的提示。</span><span class="sxs-lookup"><span data-stu-id="fcd7b-106">Shows the infotip for a specified item in a tree-view control.</span></span> <span data-ttu-id="fcd7b-107">您可以明確地傳送此訊息，或使用 [**TreeView \_ ShowInfoTip**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_showinfotip) 宏來傳送。</span><span class="sxs-lookup"><span data-stu-id="fcd7b-107">You can send this message explicitly or by using the [**TreeView\_ShowInfoTip**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_showinfotip) macro..</span></span>
+<span data-ttu-id="030fa-106">顯示樹狀檢視控制項中所指定專案的提示。</span><span class="sxs-lookup"><span data-stu-id="030fa-106">Shows the infotip for a specified item in a tree-view control.</span></span> <span data-ttu-id="030fa-107">您可以明確地傳送此訊息，或使用 [**TreeView \_ ShowInfoTip**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_showinfotip) 宏來傳送。</span><span class="sxs-lookup"><span data-stu-id="030fa-107">You can send this message explicitly or by using the [**TreeView\_ShowInfoTip**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_showinfotip) macro..</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="fcd7b-108">參數</span><span class="sxs-lookup"><span data-stu-id="fcd7b-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="030fa-108">參數</span><span class="sxs-lookup"><span data-stu-id="030fa-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="fcd7b-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="fcd7b-109">*wParam*</span></span> 
-</dt> <dd><span data-ttu-id="fcd7b-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="fcd7b-110">Must be zero.</span></span></dd> <dt>
+<span data-ttu-id="030fa-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="030fa-109">*wParam*</span></span> 
+</dt> <dd><span data-ttu-id="030fa-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="030fa-110">Must be zero.</span></span></dd> <dt>
 
-<span data-ttu-id="fcd7b-111">*lParam* \[在\]</span><span class="sxs-lookup"><span data-stu-id="fcd7b-111">*lParam* \[in\]</span></span>
+<span data-ttu-id="030fa-111">*lParam* \[在\]</span><span class="sxs-lookup"><span data-stu-id="030fa-111">*lParam* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="fcd7b-112">專案的控制碼。</span><span class="sxs-lookup"><span data-stu-id="fcd7b-112">Handle to the item.</span></span>
+<span data-ttu-id="030fa-112">專案的控制碼。</span><span class="sxs-lookup"><span data-stu-id="030fa-112">Handle to the item.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="fcd7b-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="fcd7b-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="030fa-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="030fa-113">Return value</span></span>
 
-<span data-ttu-id="fcd7b-114">傳回零。</span><span class="sxs-lookup"><span data-stu-id="fcd7b-114">Returns zero.</span></span>
+<span data-ttu-id="030fa-114">傳回零。</span><span class="sxs-lookup"><span data-stu-id="030fa-114">Returns zero.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fcd7b-115">備註</span><span class="sxs-lookup"><span data-stu-id="fcd7b-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="030fa-115">備註</span><span class="sxs-lookup"><span data-stu-id="030fa-115">Remarks</span></span>
 
-<span data-ttu-id="fcd7b-116">大部分的應用程式都不會使用此訊息。</span><span class="sxs-lookup"><span data-stu-id="fcd7b-116">Most applications do not use this message.</span></span> <span data-ttu-id="fcd7b-117">提示會自動顯示。</span><span class="sxs-lookup"><span data-stu-id="fcd7b-117">Infotips are shown automatically.</span></span> <span data-ttu-id="fcd7b-118">如需詳細資訊，請參閱 [關於 Tree-View 控制項](tree-view-controls.md) 總覽中的使用樹狀檢視提示。</span><span class="sxs-lookup"><span data-stu-id="fcd7b-118">For more information, see Using Tree-view Infotips in the [About Tree-View Controls](tree-view-controls.md) overview.</span></span>
+<span data-ttu-id="030fa-116">大部分的應用程式都不會使用此訊息。</span><span class="sxs-lookup"><span data-stu-id="030fa-116">Most applications do not use this message.</span></span> <span data-ttu-id="030fa-117">提示會自動顯示。</span><span class="sxs-lookup"><span data-stu-id="030fa-117">Infotips are shown automatically.</span></span> <span data-ttu-id="030fa-118">如需詳細資訊，請參閱 [關於 Tree-View 控制項](tree-view-controls.md) 總覽中的使用樹狀檢視提示。</span><span class="sxs-lookup"><span data-stu-id="030fa-118">For more information, see Using Tree-view Infotips in the [About Tree-View Controls](tree-view-controls.md) overview.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="fcd7b-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="fcd7b-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="030fa-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="030fa-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="fcd7b-120">需求</span><span class="sxs-lookup"><span data-stu-id="fcd7b-120">Requirement</span></span> | <span data-ttu-id="fcd7b-121">值</span><span class="sxs-lookup"><span data-stu-id="fcd7b-121">Value</span></span> |
+| <span data-ttu-id="030fa-120">需求</span><span class="sxs-lookup"><span data-stu-id="030fa-120">Requirement</span></span> | <span data-ttu-id="030fa-121">值</span><span class="sxs-lookup"><span data-stu-id="030fa-121">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="fcd7b-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="fcd7b-122">Minimum supported client</span></span><br/> | <span data-ttu-id="fcd7b-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="fcd7b-123">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="fcd7b-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="fcd7b-124">Minimum supported server</span></span><br/> | <span data-ttu-id="fcd7b-125">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="fcd7b-125">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="fcd7b-126">標頭</span><span class="sxs-lookup"><span data-stu-id="fcd7b-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="fcd7b-127"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="fcd7b-127"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="030fa-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="030fa-122">Minimum supported client</span></span><br/> | <span data-ttu-id="030fa-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="030fa-123">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="030fa-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="030fa-124">Minimum supported server</span></span><br/> | <span data-ttu-id="030fa-125">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="030fa-125">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="030fa-126">標頭</span><span class="sxs-lookup"><span data-stu-id="030fa-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="030fa-127"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="030fa-127"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

@@ -16,9 +16,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "104023339"
 ---
-# <a name="example-of-writing-waveform-data"></a><span data-ttu-id="2678b-107">寫入波形資料的範例</span><span class="sxs-lookup"><span data-stu-id="2678b-107">Example of Writing Waveform Data</span></span>
+# <a name="example-of-writing-waveform-data"></a><span data-ttu-id="f4025-107">寫入波形資料的範例</span><span class="sxs-lookup"><span data-stu-id="f4025-107">Example of Writing Waveform Data</span></span>
 
-<span data-ttu-id="2678b-108">下列範例說明配置和設定 [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) 結構，並將資料區塊寫入波形輸出裝置所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="2678b-108">The following example illustrates the steps required to allocate and set up a [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) structure and write a block of data to a waveform output device.</span></span>
+<span data-ttu-id="f4025-108">下列範例說明配置和設定 [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) 結構，並將資料區塊寫入波形輸出裝置所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="f4025-108">The following example illustrates the steps required to allocate and set up a [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) structure and write a block of data to a waveform output device.</span></span>
 
 
 ```C++

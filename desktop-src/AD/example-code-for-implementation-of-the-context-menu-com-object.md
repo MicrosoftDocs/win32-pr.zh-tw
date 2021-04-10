@@ -14,13 +14,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "104023239"
 ---
-# <a name="example-code-for-implementation-of-the-context-menu-com-object"></a><span data-ttu-id="7ed5e-105">執行內容功能表 COM 物件的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="7ed5e-105">Example Code for Implementation of the Context Menu COM Object</span></span>
+# <a name="example-code-for-implementation-of-the-context-menu-com-object"></a><span data-ttu-id="7ce2f-105">執行內容功能表 COM 物件的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="7ce2f-105">Example Code for Implementation of the Context Menu COM Object</span></span>
 
-<span data-ttu-id="7ed5e-106">下列程式碼範例可用來執行 Active Directory 內容功能表延伸模組。</span><span class="sxs-lookup"><span data-stu-id="7ed5e-106">The following code example can be used to implement an Active Directory context menu extension.</span></span> <span data-ttu-id="7ed5e-107">單一內容功能表項目會顯示訊息方塊，其中包含所選取之每個專案的 ADsPath。</span><span class="sxs-lookup"><span data-stu-id="7ed5e-107">The single context menu item will display a message box that contains the ADsPath of each item selected.</span></span>
+<span data-ttu-id="7ce2f-106">下列程式碼範例可用來執行 Active Directory 內容功能表延伸模組。</span><span class="sxs-lookup"><span data-stu-id="7ce2f-106">The following code example can be used to implement an Active Directory context menu extension.</span></span> <span data-ttu-id="7ce2f-107">單一內容功能表項目會顯示訊息方塊，其中包含所選取之每個專案的 ADsPath。</span><span class="sxs-lookup"><span data-stu-id="7ce2f-107">The single context menu item will display a message box that contains the ADsPath of each item selected.</span></span>
 
-## <a name="ishellextinit-implementation"></a><span data-ttu-id="7ed5e-108">IShellExtInit 執行</span><span class="sxs-lookup"><span data-stu-id="7ed5e-108">IShellExtInit Implementation</span></span>
+## <a name="ishellextinit-implementation"></a><span data-ttu-id="7ce2f-108">IShellExtInit 執行</span><span class="sxs-lookup"><span data-stu-id="7ce2f-108">IShellExtInit Implementation</span></span>
 
-<span data-ttu-id="7ed5e-109">下列程式碼範例可以用來執行 [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) 方法。</span><span class="sxs-lookup"><span data-stu-id="7ed5e-109">The following code example can be used to implement the [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) methods.</span></span>
+<span data-ttu-id="7ce2f-109">下列程式碼範例可以用來執行 [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) 方法。</span><span class="sxs-lookup"><span data-stu-id="7ce2f-109">The following code example can be used to implement the [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) methods.</span></span>
 
 
 ```C++
@@ -108,9 +108,9 @@ STDMETHODIMP CContMenuExt::Initialize(  LPCITEMIDLIST pidlFolder,
 
 
 
-## <a name="icontextmenu-implementation"></a><span data-ttu-id="7ed5e-110">ICoNtextMenu 執行</span><span class="sxs-lookup"><span data-stu-id="7ed5e-110">IContextMenu Implementation</span></span>
+## <a name="icontextmenu-implementation"></a><span data-ttu-id="7ce2f-110">ICoNtextMenu 執行</span><span class="sxs-lookup"><span data-stu-id="7ce2f-110">IContextMenu Implementation</span></span>
 
-<span data-ttu-id="7ed5e-111">下列程式碼範例可以用來執行 [**ICoNtextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) 方法。</span><span class="sxs-lookup"><span data-stu-id="7ed5e-111">The following code example can be used to implement the [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) methods.</span></span>
+<span data-ttu-id="7ce2f-111">下列程式碼範例可以用來執行 [**ICoNtextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) 方法。</span><span class="sxs-lookup"><span data-stu-id="7ce2f-111">The following code example can be used to implement the [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) methods.</span></span>
 
 
 ```C++

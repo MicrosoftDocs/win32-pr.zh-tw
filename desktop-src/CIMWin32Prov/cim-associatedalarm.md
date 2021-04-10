@@ -23,18 +23,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689031"
 ---
-# <a name="cim_associatedalarm-class"></a><span data-ttu-id="f3151-103">CIM \_ AssociatedAlarm 類別</span><span class="sxs-lookup"><span data-stu-id="f3151-103">CIM\_AssociatedAlarm class</span></span>
+# <a name="cim_associatedalarm-class"></a><span data-ttu-id="dca96-103">CIM \_ AssociatedAlarm 類別</span><span class="sxs-lookup"><span data-stu-id="dca96-103">CIM\_AssociatedAlarm class</span></span>
 
-<span data-ttu-id="f3151-104">**CIM \_ AssociatedAlarm** 相依性會將警示與邏輯裝置產生關聯。</span><span class="sxs-lookup"><span data-stu-id="f3151-104">The **CIM\_AssociatedAlarm** dependency associates an alarm with a logical device.</span></span>
+<span data-ttu-id="dca96-104">**CIM \_ AssociatedAlarm** 相依性會將警示與邏輯裝置產生關聯。</span><span class="sxs-lookup"><span data-stu-id="dca96-104">The **CIM\_AssociatedAlarm** dependency associates an alarm with a logical device.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="f3151-105">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="f3151-105">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="f3151-106">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="f3151-106">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
+> <span data-ttu-id="dca96-105">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="dca96-105">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="dca96-106">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="dca96-106">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
 
  
 
-<span data-ttu-id="f3151-107">下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="f3151-107">The following syntax is simplified from MOF code and includes all inherited properties.</span></span>
+<span data-ttu-id="dca96-107">下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="dca96-107">The following syntax is simplified from MOF code and includes all inherited properties.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f3151-108">語法</span><span class="sxs-lookup"><span data-stu-id="f3151-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dca96-108">語法</span><span class="sxs-lookup"><span data-stu-id="dca96-108">Syntax</span></span>
 
 ``` syntax
 [Abstract, UUID("{2280CB02-DB35-11d2-85FC-0000F8102E5F}"), AMENDMENT]
@@ -45,77 +45,77 @@ class CIM_AssociatedAlarm : CIM_Dependency
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="f3151-109">成員</span><span class="sxs-lookup"><span data-stu-id="f3151-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="dca96-109">成員</span><span class="sxs-lookup"><span data-stu-id="dca96-109">Members</span></span>
 
-<span data-ttu-id="f3151-110">**CIM \_ AssociatedAlarm** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="f3151-110">The **CIM\_AssociatedAlarm** class has these types of members:</span></span>
+<span data-ttu-id="dca96-110">**CIM \_ AssociatedAlarm** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="dca96-110">The **CIM\_AssociatedAlarm** class has these types of members:</span></span>
 
--   [<span data-ttu-id="f3151-111">屬性</span><span class="sxs-lookup"><span data-stu-id="f3151-111">Properties</span></span>](#properties)
+-   [<span data-ttu-id="dca96-111">屬性</span><span class="sxs-lookup"><span data-stu-id="dca96-111">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="f3151-112">屬性</span><span class="sxs-lookup"><span data-stu-id="f3151-112">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="dca96-112">屬性</span><span class="sxs-lookup"><span data-stu-id="dca96-112">Properties</span></span>
 
-<span data-ttu-id="f3151-113">**CIM \_ AssociatedAlarm** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="f3151-113">The **CIM\_AssociatedAlarm** class has these properties.</span></span>
+<span data-ttu-id="dca96-113">**CIM \_ AssociatedAlarm** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="dca96-113">The **CIM\_AssociatedAlarm** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="f3151-114">**先行**</span><span class="sxs-lookup"><span data-stu-id="f3151-114">**Antecedent**</span></span>
+<span data-ttu-id="dca96-114">**先行**</span><span class="sxs-lookup"><span data-stu-id="dca96-114">**Antecedent**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="f3151-115">資料類型： **CIM \_ AlarmDevice**</span><span class="sxs-lookup"><span data-stu-id="f3151-115">Data type: **CIM\_AlarmDevice**</span></span>
+<span data-ttu-id="dca96-115">資料類型： **CIM \_ AlarmDevice**</span><span class="sxs-lookup"><span data-stu-id="dca96-115">Data type: **CIM\_AlarmDevice**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="f3151-116">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f3151-116">Access type: Read-only</span></span>
+<span data-ttu-id="dca96-116">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="dca96-116">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="f3151-117">限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Antecedent" ) </span><span class="sxs-lookup"><span data-stu-id="f3151-117">Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")</span></span>
+<span data-ttu-id="dca96-117">限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Antecedent" ) </span><span class="sxs-lookup"><span data-stu-id="dca96-117">Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="f3151-118">包含警報裝置的 [**CIM \_ AlarmDevice**](cim-alarmdevice.md) 。</span><span class="sxs-lookup"><span data-stu-id="f3151-118">A [**CIM\_AlarmDevice**](cim-alarmdevice.md) that contains the alarm device.</span></span>
+<span data-ttu-id="dca96-118">包含警報裝置的 [**CIM \_ AlarmDevice**](cim-alarmdevice.md) 。</span><span class="sxs-lookup"><span data-stu-id="dca96-118">A [**CIM\_AlarmDevice**](cim-alarmdevice.md) that contains the alarm device.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="f3151-119">**依賴**</span><span class="sxs-lookup"><span data-stu-id="f3151-119">**Dependent**</span></span>
+<span data-ttu-id="dca96-119">**依賴**</span><span class="sxs-lookup"><span data-stu-id="dca96-119">**Dependent**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="f3151-120">資料類型： **CIM \_ LogicalDevice**</span><span class="sxs-lookup"><span data-stu-id="f3151-120">Data type: **CIM\_LogicalDevice**</span></span>
+<span data-ttu-id="dca96-120">資料類型： **CIM \_ LogicalDevice**</span><span class="sxs-lookup"><span data-stu-id="dca96-120">Data type: **CIM\_LogicalDevice**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="f3151-121">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="f3151-121">Access type: Read-only</span></span>
+<span data-ttu-id="dca96-121">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="dca96-121">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="f3151-122">限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「相依」 ) </span><span class="sxs-lookup"><span data-stu-id="f3151-122">Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")</span></span>
+<span data-ttu-id="dca96-122">限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「相依」 ) </span><span class="sxs-lookup"><span data-stu-id="dca96-122">Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="f3151-123">包含發出的邏輯裝置的 [**CIM \_ LogicalDevice**](cim-logicaldevice.md) 。</span><span class="sxs-lookup"><span data-stu-id="f3151-123">A [**CIM\_LogicalDevice**](cim-logicaldevice.md) that contains the logical device that is alarmed.</span></span>
+<span data-ttu-id="dca96-123">包含發出的邏輯裝置的 [**CIM \_ LogicalDevice**](cim-logicaldevice.md) 。</span><span class="sxs-lookup"><span data-stu-id="dca96-123">A [**CIM\_LogicalDevice**](cim-logicaldevice.md) that contains the logical device that is alarmed.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="f3151-124">備註</span><span class="sxs-lookup"><span data-stu-id="f3151-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dca96-124">備註</span><span class="sxs-lookup"><span data-stu-id="dca96-124">Remarks</span></span>
 
-<span data-ttu-id="f3151-125">**Cim \_ AssociatedAlarm** 類別衍生自 cim 相依 [**性 \_**](cim-dependency.md)。</span><span class="sxs-lookup"><span data-stu-id="f3151-125">The **CIM\_AssociatedAlarm** class is derived from [**CIM\_Dependency**](cim-dependency.md).</span></span>
+<span data-ttu-id="dca96-125">**Cim \_ AssociatedAlarm** 類別衍生自 cim 相依 [**性 \_**](cim-dependency.md)。</span><span class="sxs-lookup"><span data-stu-id="dca96-125">The **CIM\_AssociatedAlarm** class is derived from [**CIM\_Dependency**](cim-dependency.md).</span></span>
 
-<span data-ttu-id="f3151-126">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="f3151-126">WMI does not implement this class.</span></span>
+<span data-ttu-id="dca96-126">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="dca96-126">WMI does not implement this class.</span></span>
 
-<span data-ttu-id="f3151-127">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="f3151-127">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="f3151-128">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="f3151-128">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
+<span data-ttu-id="dca96-127">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="dca96-127">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="dca96-128">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="dca96-128">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f3151-129">規格需求</span><span class="sxs-lookup"><span data-stu-id="f3151-129">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="dca96-129">規格需求</span><span class="sxs-lookup"><span data-stu-id="dca96-129">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f3151-130">需求</span><span class="sxs-lookup"><span data-stu-id="f3151-130">Requirement</span></span> | <span data-ttu-id="f3151-131">值</span><span class="sxs-lookup"><span data-stu-id="f3151-131">Value</span></span> |
+| <span data-ttu-id="dca96-130">需求</span><span class="sxs-lookup"><span data-stu-id="dca96-130">Requirement</span></span> | <span data-ttu-id="dca96-131">值</span><span class="sxs-lookup"><span data-stu-id="dca96-131">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="f3151-132">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f3151-132">Minimum supported client</span></span><br/> | <span data-ttu-id="f3151-133">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="f3151-133">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="f3151-134">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f3151-134">Minimum supported server</span></span><br/> | <span data-ttu-id="f3151-135">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="f3151-135">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="f3151-136">命名空間</span><span class="sxs-lookup"><span data-stu-id="f3151-136">Namespace</span></span><br/>                | <span data-ttu-id="f3151-137">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="f3151-137">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="f3151-138">MOF</span><span class="sxs-lookup"><span data-stu-id="f3151-138">MOF</span></span><br/>                      | <dl> <span data-ttu-id="f3151-139"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="f3151-139"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="f3151-140">DLL</span><span class="sxs-lookup"><span data-stu-id="f3151-140">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f3151-141"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f3151-141"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="dca96-132">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="dca96-132">Minimum supported client</span></span><br/> | <span data-ttu-id="dca96-133">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="dca96-133">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="dca96-134">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="dca96-134">Minimum supported server</span></span><br/> | <span data-ttu-id="dca96-135">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="dca96-135">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="dca96-136">命名空間</span><span class="sxs-lookup"><span data-stu-id="dca96-136">Namespace</span></span><br/>                | <span data-ttu-id="dca96-137">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="dca96-137">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="dca96-138">MOF</span><span class="sxs-lookup"><span data-stu-id="dca96-138">MOF</span></span><br/>                      | <dl> <span data-ttu-id="dca96-139"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="dca96-139"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="dca96-140">DLL</span><span class="sxs-lookup"><span data-stu-id="dca96-140">DLL</span></span><br/>                      | <dl> <span data-ttu-id="dca96-141"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="dca96-141"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f3151-142">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f3151-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dca96-142">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dca96-142">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f3151-143">**CIM \_ 相依性**</span><span class="sxs-lookup"><span data-stu-id="f3151-143">**CIM\_Dependency**</span></span>](cim-dependency.md)
+[<span data-ttu-id="dca96-143">**CIM \_ 相依性**</span><span class="sxs-lookup"><span data-stu-id="dca96-143">**CIM\_Dependency**</span></span>](cim-dependency.md)
 </dt> </dl>
 
  

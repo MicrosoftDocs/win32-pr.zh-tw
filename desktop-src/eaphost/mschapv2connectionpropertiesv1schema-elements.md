@@ -16,21 +16,21 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/26/2019
 ms.locfileid: "104022882"
 ---
-# <a name="mschapv2connectionpropertiesv1-schema-elements"></a><span data-ttu-id="bdb3f-103">mschapv2connectionpropertiesv1 架構元素</span><span class="sxs-lookup"><span data-stu-id="bdb3f-103">mschapv2connectionpropertiesv1 Schema Elements</span></span>
+# <a name="mschapv2connectionpropertiesv1-schema-elements"></a><span data-ttu-id="4f028-103">mschapv2connectionpropertiesv1 架構元素</span><span class="sxs-lookup"><span data-stu-id="4f028-103">mschapv2connectionpropertiesv1 Schema Elements</span></span>
 
-<span data-ttu-id="bdb3f-104">[Mschapv2connectionpropertiesv1](mschapv2connectionpropertiesv1schema-schema.md)架構是由下列架構元素所組成。</span><span class="sxs-lookup"><span data-stu-id="bdb3f-104">The [mschapv2connectionpropertiesv1](mschapv2connectionpropertiesv1schema-schema.md) schema consists of the following schema elements.</span></span>
+<span data-ttu-id="4f028-104">[Mschapv2connectionpropertiesv1](mschapv2connectionpropertiesv1schema-schema.md)架構是由下列架構元素所組成。</span><span class="sxs-lookup"><span data-stu-id="4f028-104">The [mschapv2connectionpropertiesv1](mschapv2connectionpropertiesv1schema-schema.md) schema consists of the following schema elements.</span></span>
 
--   [<span data-ttu-id="bdb3f-105">**EapType**</span><span class="sxs-lookup"><span data-stu-id="bdb3f-105">**EapType**</span></span>](mschapv2connectionpropertiesv1schema-eaptype-element.md)
--   [<span data-ttu-id="bdb3f-106">**UseWinLogonCredentials (EapType)**</span><span class="sxs-lookup"><span data-stu-id="bdb3f-106">**UseWinLogonCredentials (EapType)**</span></span>](mschapv2connectionpropertiesv1schema-usewinlogoncredentials-eaptype-element.md)
+-   [<span data-ttu-id="4f028-105">**EapType**</span><span class="sxs-lookup"><span data-stu-id="4f028-105">**EapType**</span></span>](mschapv2connectionpropertiesv1schema-eaptype-element.md)
+-   [<span data-ttu-id="4f028-106">**UseWinLogonCredentials (EapType)**</span><span class="sxs-lookup"><span data-stu-id="4f028-106">**UseWinLogonCredentials (EapType)**</span></span>](mschapv2connectionpropertiesv1schema-usewinlogoncredentials-eaptype-element.md)
 
-## <a name="related-topics"></a><span data-ttu-id="bdb3f-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="bdb3f-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4f028-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="4f028-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="bdb3f-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="bdb3f-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="4f028-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="4f028-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> <dt>
 
-[<span data-ttu-id="bdb3f-109">mschapv2connectionpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="bdb3f-109">mschapv2connectionpropertiesv1 Schema</span></span>](mschapv2connectionpropertiesv1schema-schema.md)
+[<span data-ttu-id="4f028-109">mschapv2connectionpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="4f028-109">mschapv2connectionpropertiesv1 Schema</span></span>](mschapv2connectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
  

@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021851"
 ---
-# <a name="commandswindow-properties"></a><span data-ttu-id="3f3f3-103">CommandsWindow 屬性</span><span class="sxs-lookup"><span data-stu-id="3f3f3-103">CommandsWindow Properties</span></span>
+# <a name="commandswindow-properties"></a><span data-ttu-id="6d581-103">CommandsWindow 屬性</span><span class="sxs-lookup"><span data-stu-id="6d581-103">CommandsWindow Properties</span></span>
 
-<span data-ttu-id="3f3f3-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="3f3f3-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+<span data-ttu-id="6d581-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="6d581-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
 
--   [<span data-ttu-id="3f3f3-105">**高度**</span><span class="sxs-lookup"><span data-stu-id="3f3f3-105">**Height**</span></span>](height-property-cwo.md)
--   [<span data-ttu-id="3f3f3-106">**離開**</span><span class="sxs-lookup"><span data-stu-id="3f3f3-106">**Left**</span></span>](left-property-cwo.md)
--   [<span data-ttu-id="3f3f3-107">**返回頁首**</span><span class="sxs-lookup"><span data-stu-id="3f3f3-107">**Top**</span></span>](top-property-cwo.md)
--   [<span data-ttu-id="3f3f3-108">**可見**</span><span class="sxs-lookup"><span data-stu-id="3f3f3-108">**Visible**</span></span>](visible-property-cwo.md)
--   [<span data-ttu-id="3f3f3-109">**寬度**</span><span class="sxs-lookup"><span data-stu-id="3f3f3-109">**Width**</span></span>](width-property.md)
+-   [<span data-ttu-id="6d581-105">**高度**</span><span class="sxs-lookup"><span data-stu-id="6d581-105">**Height**</span></span>](height-property-cwo.md)
+-   [<span data-ttu-id="6d581-106">**離開**</span><span class="sxs-lookup"><span data-stu-id="6d581-106">**Left**</span></span>](left-property-cwo.md)
+-   [<span data-ttu-id="6d581-107">**返回頁首**</span><span class="sxs-lookup"><span data-stu-id="6d581-107">**Top**</span></span>](top-property-cwo.md)
+-   [<span data-ttu-id="6d581-108">**可見**</span><span class="sxs-lookup"><span data-stu-id="6d581-108">**Visible**</span></span>](visible-property-cwo.md)
+-   [<span data-ttu-id="6d581-109">**寬度**</span><span class="sxs-lookup"><span data-stu-id="6d581-109">**Width**</span></span>](width-property.md)
 
  
 

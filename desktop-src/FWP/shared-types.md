@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 10/20/2020
 ms.locfileid: "103842868"
 ---
-# <a name="shared-types"></a><span data-ttu-id="7d6b3-103">共用類型</span><span class="sxs-lookup"><span data-stu-id="7d6b3-103">Shared Types</span></span>
+# <a name="shared-types"></a><span data-ttu-id="76120-103">共用類型</span><span class="sxs-lookup"><span data-stu-id="76120-103">Shared Types</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="7d6b3-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="7d6b3-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="76120-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="76120-104">In this section</span></span>
 
--   [<span data-ttu-id="7d6b3-105">**.FWP \_ AF**</span><span class="sxs-lookup"><span data-stu-id="7d6b3-105">**FWP\_AF**</span></span>](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)
--   [<span data-ttu-id="7d6b3-106">**.FWP \_ 分類 \_ 選項 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="7d6b3-106">**FWP\_CLASSIFY\_OPTION\_TYPE**</span></span>](/windows/win32/api/fwptypes/ne-fwptypes-fwp_classify_option_type)
--   [<span data-ttu-id="7d6b3-107">**.FWP \_ 資料 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="7d6b3-107">**FWP\_DATA\_TYPE**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type)
--   [<span data-ttu-id="7d6b3-108">**.FWP \_ 方向**</span><span class="sxs-lookup"><span data-stu-id="7d6b3-108">**FWP\_DIRECTION**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_direction)
--   [<span data-ttu-id="7d6b3-109">**.FWP \_ 乙太幣 \_ ENCAP \_ 方法**</span><span class="sxs-lookup"><span data-stu-id="7d6b3-109">**FWP\_ETHER\_ENCAP\_METHOD**</span></span>](/windows/win32/api/fwptypes/ne-fwptypes-fwp_ether_encap_method)
--   [<span data-ttu-id="7d6b3-110">**.FWP \_ 濾波器 \_ 列舉 \_ 型別**</span><span class="sxs-lookup"><span data-stu-id="7d6b3-110">**FWP\_FILTER\_ENUM\_TYPE**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_filter_enum_type)
--   [<span data-ttu-id="7d6b3-111">**.FWP \_ IP \_ 版本**</span><span class="sxs-lookup"><span data-stu-id="7d6b3-111">**FWP\_IP\_VERSION**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_ip_version)
--   [<span data-ttu-id="7d6b3-112">**.FWP \_ 相符 \_ 型別**</span><span class="sxs-lookup"><span data-stu-id="7d6b3-112">**FWP\_MATCH\_TYPE**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_type)
--   [<span data-ttu-id="7d6b3-113">**.FWP \_ VSWITCH \_ 網路 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="7d6b3-113">**FWP\_VSWITCH\_NETWORK\_TYPE**</span></span>](/windows/win32/api/fwptypes/ne-fwptypes-fwp_vswitch_network_type)
+-   [<span data-ttu-id="76120-105">**.FWP \_ AF**</span><span class="sxs-lookup"><span data-stu-id="76120-105">**FWP\_AF**</span></span>](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)
+-   [<span data-ttu-id="76120-106">**.FWP \_ 分類 \_ 選項 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="76120-106">**FWP\_CLASSIFY\_OPTION\_TYPE**</span></span>](/windows/win32/api/fwptypes/ne-fwptypes-fwp_classify_option_type)
+-   [<span data-ttu-id="76120-107">**.FWP \_ 資料 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="76120-107">**FWP\_DATA\_TYPE**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type)
+-   [<span data-ttu-id="76120-108">**.FWP \_ 方向**</span><span class="sxs-lookup"><span data-stu-id="76120-108">**FWP\_DIRECTION**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_direction)
+-   [<span data-ttu-id="76120-109">**.FWP \_ 乙太幣 \_ ENCAP \_ 方法**</span><span class="sxs-lookup"><span data-stu-id="76120-109">**FWP\_ETHER\_ENCAP\_METHOD**</span></span>](/windows/win32/api/fwptypes/ne-fwptypes-fwp_ether_encap_method)
+-   [<span data-ttu-id="76120-110">**.FWP \_ 濾波器 \_ 列舉 \_ 型別**</span><span class="sxs-lookup"><span data-stu-id="76120-110">**FWP\_FILTER\_ENUM\_TYPE**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_filter_enum_type)
+-   [<span data-ttu-id="76120-111">**.FWP \_ IP \_ 版本**</span><span class="sxs-lookup"><span data-stu-id="76120-111">**FWP\_IP\_VERSION**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_ip_version)
+-   [<span data-ttu-id="76120-112">**.FWP \_ 相符 \_ 型別**</span><span class="sxs-lookup"><span data-stu-id="76120-112">**FWP\_MATCH\_TYPE**</span></span>](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_type)
+-   [<span data-ttu-id="76120-113">**.FWP \_ VSWITCH \_ 網路 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="76120-113">**FWP\_VSWITCH\_NETWORK\_TYPE**</span></span>](/windows/win32/api/fwptypes/ne-fwptypes-fwp_vswitch_network_type)
 
  
 

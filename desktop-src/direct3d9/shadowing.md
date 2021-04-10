@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103687435"
 ---
-# <a name="shadowing-direct3d-9"></a><span data-ttu-id="0b166-103"> (Direct3D 9) 進行遮蔽</span><span class="sxs-lookup"><span data-stu-id="0b166-103">Shadowing (Direct3D 9)</span></span>
+# <a name="shadowing-direct3d-9"></a><span data-ttu-id="eb6f3-103"> (Direct3D 9) 進行遮蔽</span><span class="sxs-lookup"><span data-stu-id="eb6f3-103">Shadowing (Direct3D 9)</span></span>
 
-<span data-ttu-id="0b166-104">樣板緩衝區是深度緩衝區的技術，可在呈現幾何時進行更新，並再次用來作為繪製更多幾何的遮罩。</span><span class="sxs-lookup"><span data-stu-id="0b166-104">Stencil buffers are a depth-buffer technique that can be updated as geometry is rendered, and used again as a mask for drawing more geometry.</span></span> <span data-ttu-id="0b166-105">常見效果包括鏡像、陰影 (先進的技巧) 、溶解等等。</span><span class="sxs-lookup"><span data-stu-id="0b166-105">Common effects include mirrors, shadows (an advanced technique), dissolves, and so on.</span></span> <span data-ttu-id="0b166-106">[ShadowVolume 範例](https://msdn.microsoft.com/library/Ee418792(v=VS.85).aspx)會使用樣板緩衝區來執行即時陰影。</span><span class="sxs-lookup"><span data-stu-id="0b166-106">The [ShadowVolume Sample](https://msdn.microsoft.com/library/Ee418792(v=VS.85).aspx) uses stencil buffers to implement real-time shadows.</span></span> <span data-ttu-id="0b166-107">其他資訊包含在 [ (Direct3D 9) 的雙面 ](two-sided-stencil.md)樣板中。</span><span class="sxs-lookup"><span data-stu-id="0b166-107">Additional information is contained in [Two-Sided Stencil (Direct3D 9)](two-sided-stencil.md).</span></span>
+<span data-ttu-id="eb6f3-104">樣板緩衝區是深度緩衝區的技術，可在呈現幾何時進行更新，並再次用來作為繪製更多幾何的遮罩。</span><span class="sxs-lookup"><span data-stu-id="eb6f3-104">Stencil buffers are a depth-buffer technique that can be updated as geometry is rendered, and used again as a mask for drawing more geometry.</span></span> <span data-ttu-id="eb6f3-105">常見效果包括鏡像、陰影 (先進的技巧) 、溶解等等。</span><span class="sxs-lookup"><span data-stu-id="eb6f3-105">Common effects include mirrors, shadows (an advanced technique), dissolves, and so on.</span></span> <span data-ttu-id="eb6f3-106">[ShadowVolume 範例](https://msdn.microsoft.com/library/Ee418792(v=VS.85).aspx)會使用樣板緩衝區來執行即時陰影。</span><span class="sxs-lookup"><span data-stu-id="eb6f3-106">The [ShadowVolume Sample](https://msdn.microsoft.com/library/Ee418792(v=VS.85).aspx) uses stencil buffers to implement real-time shadows.</span></span> <span data-ttu-id="eb6f3-107">其他資訊包含在 [ (Direct3D 9) 的雙面 ](two-sided-stencil.md)樣板中。</span><span class="sxs-lookup"><span data-stu-id="eb6f3-107">Additional information is contained in [Two-Sided Stencil (Direct3D 9)](two-sided-stencil.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="0b166-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="0b166-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="eb6f3-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="eb6f3-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="0b166-109">圖元管線</span><span class="sxs-lookup"><span data-stu-id="0b166-109">Pixel Pipeline</span></span>](pixel-pipeline.md)
+[<span data-ttu-id="eb6f3-109">圖元管線</span><span class="sxs-lookup"><span data-stu-id="eb6f3-109">Pixel Pipeline</span></span>](pixel-pipeline.md)
 </dt> </dl>
 
  

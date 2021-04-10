@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686258"
 ---
-# <a name="july-monthstype-element"></a><span data-ttu-id="5ee15-104">七月 (monthsType) 元素</span><span class="sxs-lookup"><span data-stu-id="5ee15-104">July (monthsType) Element</span></span>
+# <a name="july-monthstype-element"></a><span data-ttu-id="f0b89-104">七月 (monthsType) 元素</span><span class="sxs-lookup"><span data-stu-id="f0b89-104">July (monthsType) Element</span></span>
 
-<span data-ttu-id="5ee15-105">指定工作會在七月執行。</span><span class="sxs-lookup"><span data-stu-id="5ee15-105">Specifies that the task runs in July.</span></span>
+<span data-ttu-id="f0b89-105">指定工作會在七月執行。</span><span class="sxs-lookup"><span data-stu-id="f0b89-105">Specifies that the task runs in July.</span></span>
 
 ``` syntax
 <xs:element name="July">
@@ -30,22 +30,22 @@ ms.locfileid: "103686258"
 </xs:element>
 ```
 
-<span data-ttu-id="5ee15-106">**七月** 元素是由 [**monthsType**](taskschedulerschema-monthstype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="5ee15-106">The **July** element is defined by the [**monthsType**](taskschedulerschema-monthstype-complextype.md) complex type.</span></span>
+<span data-ttu-id="f0b89-106">**七月** 元素是由 [**monthsType**](taskschedulerschema-monthstype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="f0b89-106">The **July** element is defined by the [**monthsType**](taskschedulerschema-monthstype-complextype.md) complex type.</span></span>
 
-## <a name="parent-element"></a><span data-ttu-id="5ee15-107">父元素</span><span class="sxs-lookup"><span data-stu-id="5ee15-107">Parent element</span></span>
+## <a name="parent-element"></a><span data-ttu-id="f0b89-107">父元素</span><span class="sxs-lookup"><span data-stu-id="f0b89-107">Parent element</span></span>
 
 
 
-| <span data-ttu-id="5ee15-108">元素</span><span class="sxs-lookup"><span data-stu-id="5ee15-108">Element</span></span>                                                                                                          | <span data-ttu-id="5ee15-109">衍生自</span><span class="sxs-lookup"><span data-stu-id="5ee15-109">Derived from</span></span>                                                     | <span data-ttu-id="5ee15-110">Description</span><span class="sxs-lookup"><span data-stu-id="5ee15-110">Description</span></span>                                                                                                |
+| <span data-ttu-id="f0b89-108">元素</span><span class="sxs-lookup"><span data-stu-id="f0b89-108">Element</span></span>                                                                                                          | <span data-ttu-id="f0b89-109">衍生自</span><span class="sxs-lookup"><span data-stu-id="f0b89-109">Derived from</span></span>                                                     | <span data-ttu-id="f0b89-110">Description</span><span class="sxs-lookup"><span data-stu-id="f0b89-110">Description</span></span>                                                                                                |
 |------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="5ee15-111">**MonthlyDayOfWeekScheduleType) 的月份 (**</span><span class="sxs-lookup"><span data-stu-id="5ee15-111">**Months (monthlyDayOfWeekScheduleType)**</span></span>](taskschedulerschema-months-monthlydayofweekscheduletype-element.md) | [<span data-ttu-id="5ee15-112">**monthsType**</span><span class="sxs-lookup"><span data-stu-id="5ee15-112">**monthsType**</span></span>](taskschedulerschema-monthstype-complextype.md) | <span data-ttu-id="5ee15-113">指定在一年中的幾個月，工作會在一年中執行一周的每月日排程。</span><span class="sxs-lookup"><span data-stu-id="5ee15-113">Specifies the months of the year during which the task runs for a monthly day-of-week schedule.</span></span><br/> |
-| [<span data-ttu-id="5ee15-114">**MonthlyScheduleType) 的月份 (**</span><span class="sxs-lookup"><span data-stu-id="5ee15-114">**Months (monthlyScheduleType)**</span></span>](taskschedulerschema-months-monthlyscheduletype-element.md)                   | [<span data-ttu-id="5ee15-115">**monthsType**</span><span class="sxs-lookup"><span data-stu-id="5ee15-115">**monthsType**</span></span>](taskschedulerschema-monthstype-complextype.md) | <span data-ttu-id="5ee15-116">指定執行每月排程之工作的年度月份。</span><span class="sxs-lookup"><span data-stu-id="5ee15-116">Specifies the months of the year during which the task runs for a monthly schedule.</span></span><br/>             |
+| [<span data-ttu-id="f0b89-111">**MonthlyDayOfWeekScheduleType) 的月份 (**</span><span class="sxs-lookup"><span data-stu-id="f0b89-111">**Months (monthlyDayOfWeekScheduleType)**</span></span>](taskschedulerschema-months-monthlydayofweekscheduletype-element.md) | [<span data-ttu-id="f0b89-112">**monthsType**</span><span class="sxs-lookup"><span data-stu-id="f0b89-112">**monthsType**</span></span>](taskschedulerschema-monthstype-complextype.md) | <span data-ttu-id="f0b89-113">指定在一年中的幾個月，工作會在一年中執行一周的每月日排程。</span><span class="sxs-lookup"><span data-stu-id="f0b89-113">Specifies the months of the year during which the task runs for a monthly day-of-week schedule.</span></span><br/> |
+| [<span data-ttu-id="f0b89-114">**MonthlyScheduleType) 的月份 (**</span><span class="sxs-lookup"><span data-stu-id="f0b89-114">**Months (monthlyScheduleType)**</span></span>](taskschedulerschema-months-monthlyscheduletype-element.md)                   | [<span data-ttu-id="f0b89-115">**monthsType**</span><span class="sxs-lookup"><span data-stu-id="f0b89-115">**monthsType**</span></span>](taskschedulerschema-monthstype-complextype.md) | <span data-ttu-id="f0b89-116">指定執行每月排程之工作的年度月份。</span><span class="sxs-lookup"><span data-stu-id="f0b89-116">Specifies the months of the year during which the task runs for a monthly schedule.</span></span><br/>             |
 
 
 
-## <a name="examples"></a><span data-ttu-id="5ee15-117">範例</span><span class="sxs-lookup"><span data-stu-id="5ee15-117">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="f0b89-117">範例</span><span class="sxs-lookup"><span data-stu-id="f0b89-117">Examples</span></span>
 
-<span data-ttu-id="5ee15-118">下列 XML 會定義月曆，以在7月執行工作。</span><span class="sxs-lookup"><span data-stu-id="5ee15-118">The following XML defines a months calendar that runs the task in July.</span></span>
+<span data-ttu-id="f0b89-118">下列 XML 會定義月曆，以在7月執行工作。</span><span class="sxs-lookup"><span data-stu-id="f0b89-118">The following XML defines a months calendar that runs the task in July.</span></span>
 
 
 ```XML
@@ -56,25 +56,25 @@ ms.locfileid: "103686258"
 
 
 
-## <a name="requirements"></a><span data-ttu-id="5ee15-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="5ee15-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f0b89-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="f0b89-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="5ee15-120">需求</span><span class="sxs-lookup"><span data-stu-id="5ee15-120">Requirement</span></span> | <span data-ttu-id="5ee15-121">值</span><span class="sxs-lookup"><span data-stu-id="5ee15-121">Value</span></span> |
+| <span data-ttu-id="f0b89-120">需求</span><span class="sxs-lookup"><span data-stu-id="f0b89-120">Requirement</span></span> | <span data-ttu-id="f0b89-121">值</span><span class="sxs-lookup"><span data-stu-id="f0b89-121">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="5ee15-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5ee15-122">Minimum supported client</span></span><br/> | <span data-ttu-id="5ee15-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5ee15-123">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="5ee15-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5ee15-124">Minimum supported server</span></span><br/> | <span data-ttu-id="5ee15-125">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5ee15-125">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="f0b89-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f0b89-122">Minimum supported client</span></span><br/> | <span data-ttu-id="f0b89-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f0b89-123">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="f0b89-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f0b89-124">Minimum supported server</span></span><br/> | <span data-ttu-id="f0b89-125">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f0b89-125">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="5ee15-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5ee15-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f0b89-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f0b89-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="5ee15-127">工作排程器架構元素</span><span class="sxs-lookup"><span data-stu-id="5ee15-127">Task Scheduler Schema Elements</span></span>](task-scheduler-schema-elements.md)
+[<span data-ttu-id="f0b89-127">工作排程器架構元素</span><span class="sxs-lookup"><span data-stu-id="f0b89-127">Task Scheduler Schema Elements</span></span>](task-scheduler-schema-elements.md)
 </dt> <dt>
 
-[<span data-ttu-id="5ee15-128">工作排程器</span><span class="sxs-lookup"><span data-stu-id="5ee15-128">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="f0b89-128">工作排程器</span><span class="sxs-lookup"><span data-stu-id="f0b89-128">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> </dl>
 
  

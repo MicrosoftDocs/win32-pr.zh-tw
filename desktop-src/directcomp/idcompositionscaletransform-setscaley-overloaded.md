@@ -19,45 +19,45 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686391"
 ---
-# <a name="idcompositionscaletransformsetscaley-methods"></a><span data-ttu-id="705d0-104">IDCompositionScaleTransform：： SetScaleY 方法</span><span class="sxs-lookup"><span data-stu-id="705d0-104">IDCompositionScaleTransform::SetScaleY methods</span></span>
+# <a name="idcompositionscaletransformsetscaley-methods"></a><span data-ttu-id="7fceb-104">IDCompositionScaleTransform：： SetScaleY 方法</span><span class="sxs-lookup"><span data-stu-id="7fceb-104">IDCompositionScaleTransform::SetScaleY methods</span></span>
 
-<span data-ttu-id="705d0-105">變更或繪製2D 縮放轉換之 ScaleY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="705d0-105">Changes or animates the value of the ScaleY property of a 2D scale transform.</span></span>
+<span data-ttu-id="7fceb-105">變更或繪製2D 縮放轉換之 ScaleY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="7fceb-105">Changes or animates the value of the ScaleY property of a 2D scale transform.</span></span>
 
-### <a name="overload-list"></a><span data-ttu-id="705d0-106">多載清單</span><span class="sxs-lookup"><span data-stu-id="705d0-106">Overload list</span></span>
+### <a name="overload-list"></a><span data-ttu-id="7fceb-106">多載清單</span><span class="sxs-lookup"><span data-stu-id="7fceb-106">Overload list</span></span>
 
 
 
-| <span data-ttu-id="705d0-107">方法</span><span class="sxs-lookup"><span data-stu-id="705d0-107">Method</span></span>                                                                                                      | <span data-ttu-id="705d0-108">描述</span><span class="sxs-lookup"><span data-stu-id="705d0-108">Description</span></span>                                           |
+| <span data-ttu-id="7fceb-107">方法</span><span class="sxs-lookup"><span data-stu-id="7fceb-107">Method</span></span>                                                                                                      | <span data-ttu-id="7fceb-108">描述</span><span class="sxs-lookup"><span data-stu-id="7fceb-108">Description</span></span>                                           |
 |:------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| <span data-ttu-id="705d0-109">[**SetScaleY (float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(float))</span><span class="sxs-lookup"><span data-stu-id="705d0-109">[**SetScaleY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(float))</span></span>                                     | <span data-ttu-id="705d0-110">變更 ScaleY 屬性的值。</span><span class="sxs-lookup"><span data-stu-id="705d0-110">Changes the value of the ScaleY property.</span></span><br/>  |
-| <span data-ttu-id="705d0-111">[**SetScaleY (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(idcompositionanimation))</span><span class="sxs-lookup"><span data-stu-id="705d0-111">[**SetScaleY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(idcompositionanimation))</span></span> | <span data-ttu-id="705d0-112">繪製 ScaleY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="705d0-112">Animates the value of the ScaleY property.</span></span><br/> |
+| <span data-ttu-id="7fceb-109">[**SetScaleY (float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(float))</span><span class="sxs-lookup"><span data-stu-id="7fceb-109">[**SetScaleY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(float))</span></span>                                     | <span data-ttu-id="7fceb-110">變更 ScaleY 屬性的值。</span><span class="sxs-lookup"><span data-stu-id="7fceb-110">Changes the value of the ScaleY property.</span></span><br/>  |
+| <span data-ttu-id="7fceb-111">[**SetScaleY (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(idcompositionanimation))</span><span class="sxs-lookup"><span data-stu-id="7fceb-111">[**SetScaleY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(idcompositionanimation))</span></span> | <span data-ttu-id="7fceb-112">繪製 ScaleY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="7fceb-112">Animates the value of the ScaleY property.</span></span><br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="705d0-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="705d0-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="7fceb-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="7fceb-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="705d0-114">需求</span><span class="sxs-lookup"><span data-stu-id="705d0-114">Requirement</span></span> | <span data-ttu-id="705d0-115">值</span><span class="sxs-lookup"><span data-stu-id="705d0-115">Value</span></span> |
+| <span data-ttu-id="7fceb-114">需求</span><span class="sxs-lookup"><span data-stu-id="7fceb-114">Requirement</span></span> | <span data-ttu-id="7fceb-115">值</span><span class="sxs-lookup"><span data-stu-id="7fceb-115">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="705d0-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="705d0-116">Minimum supported client</span></span><br/> | <span data-ttu-id="705d0-117">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="705d0-117">Windows�8 \[desktop apps only\]</span></span><br/>                                           |
-| <span data-ttu-id="705d0-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="705d0-118">Minimum supported server</span></span><br/> | <span data-ttu-id="705d0-119">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="705d0-119">Windows Server�2012 \[desktop apps only\]</span></span><br/>                                 |
-| <span data-ttu-id="705d0-120">標頭</span><span class="sxs-lookup"><span data-stu-id="705d0-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="705d0-121"><dt>Dcomp。h</dt></span><span class="sxs-lookup"><span data-stu-id="705d0-121"><dt>Dcomp.h</dt></span></span> </dl>   |
-| <span data-ttu-id="705d0-122">程式庫</span><span class="sxs-lookup"><span data-stu-id="705d0-122">Library</span></span><br/>                  | <dl> <span data-ttu-id="705d0-123"><dt>Dcomp .lib</dt></span><span class="sxs-lookup"><span data-stu-id="705d0-123"><dt>Dcomp.lib</dt></span></span> </dl> |
-| <span data-ttu-id="705d0-124">DLL</span><span class="sxs-lookup"><span data-stu-id="705d0-124">DLL</span></span><br/>                      | <dl> <span data-ttu-id="705d0-125"><dt>Dcomp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="705d0-125"><dt>Dcomp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="7fceb-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7fceb-116">Minimum supported client</span></span><br/> | <span data-ttu-id="7fceb-117">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7fceb-117">Windows�8 \[desktop apps only\]</span></span><br/>                                           |
+| <span data-ttu-id="7fceb-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7fceb-118">Minimum supported server</span></span><br/> | <span data-ttu-id="7fceb-119">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7fceb-119">Windows Server�2012 \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="7fceb-120">標頭</span><span class="sxs-lookup"><span data-stu-id="7fceb-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="7fceb-121"><dt>Dcomp。h</dt></span><span class="sxs-lookup"><span data-stu-id="7fceb-121"><dt>Dcomp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="7fceb-122">程式庫</span><span class="sxs-lookup"><span data-stu-id="7fceb-122">Library</span></span><br/>                  | <dl> <span data-ttu-id="7fceb-123"><dt>Dcomp .lib</dt></span><span class="sxs-lookup"><span data-stu-id="7fceb-123"><dt>Dcomp.lib</dt></span></span> </dl> |
+| <span data-ttu-id="7fceb-124">DLL</span><span class="sxs-lookup"><span data-stu-id="7fceb-124">DLL</span></span><br/>                      | <dl> <span data-ttu-id="7fceb-125"><dt>Dcomp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="7fceb-125"><dt>Dcomp.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="705d0-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="705d0-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7fceb-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7fceb-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="705d0-127">**IDCompositionScaleTransform**</span><span class="sxs-lookup"><span data-stu-id="705d0-127">**IDCompositionScaleTransform**</span></span>](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
+[<span data-ttu-id="7fceb-127">**IDCompositionScaleTransform**</span><span class="sxs-lookup"><span data-stu-id="7fceb-127">**IDCompositionScaleTransform**</span></span>](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
 </dt> <dt>
 
-[<span data-ttu-id="705d0-128">**IDCompositionScaleTransform::SetScaleX**</span><span class="sxs-lookup"><span data-stu-id="705d0-128">**IDCompositionScaleTransform::SetScaleX**</span></span>](idcompositionscaletransform-setscalex-overloaded.md)
+[<span data-ttu-id="7fceb-128">**IDCompositionScaleTransform::SetScaleX**</span><span class="sxs-lookup"><span data-stu-id="7fceb-128">**IDCompositionScaleTransform::SetScaleX**</span></span>](idcompositionscaletransform-setscalex-overloaded.md)
 </dt> </dl>
 
-<span data-ttu-id="705d0-129">�</span><span class="sxs-lookup"><span data-stu-id="705d0-129">�</span></span>
+<span data-ttu-id="7fceb-129">�</span><span class="sxs-lookup"><span data-stu-id="7fceb-129">�</span></span>
 
-<span data-ttu-id="705d0-130">�</span><span class="sxs-lookup"><span data-stu-id="705d0-130">�</span></span>
+<span data-ttu-id="7fceb-130">�</span><span class="sxs-lookup"><span data-stu-id="7fceb-130">�</span></span>

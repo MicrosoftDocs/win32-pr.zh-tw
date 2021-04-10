@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689423"
 ---
-# <a name="apiretrievekey-method"></a><span data-ttu-id="ff3e4-103">RetrieveKey 方法</span><span class="sxs-lookup"><span data-stu-id="ff3e4-103">Api.RetrieveKey method</span></span>
+# <a name="apiretrievekey-method"></a><span data-ttu-id="13b7c-103">RetrieveKey 方法</span><span class="sxs-lookup"><span data-stu-id="13b7c-103">Api.RetrieveKey method</span></span>
 
-<span data-ttu-id="ff3e4-104">在資料指標的目前位置，抓取索引項目的索引鍵。</span><span class="sxs-lookup"><span data-stu-id="ff3e4-104">Retrieves the key for the index entry at the current position of a cursor.</span></span>
+<span data-ttu-id="13b7c-104">在資料指標的目前位置，抓取索引項目的索引鍵。</span><span class="sxs-lookup"><span data-stu-id="13b7c-104">Retrieves the key for the index entry at the current position of a cursor.</span></span>
 
-<span data-ttu-id="ff3e4-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="ff3e4-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="ff3e4-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="ff3e4-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="13b7c-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="13b7c-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="13b7c-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="13b7c-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ff3e4-107">語法</span><span class="sxs-lookup"><span data-stu-id="ff3e4-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="13b7c-107">語法</span><span class="sxs-lookup"><span data-stu-id="13b7c-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -65,38 +65,38 @@ public static byte[] RetrieveKey(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="ff3e4-108">參數</span><span class="sxs-lookup"><span data-stu-id="ff3e4-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="13b7c-108">參數</span><span class="sxs-lookup"><span data-stu-id="13b7c-108">Parameters</span></span>
 
-  - <span data-ttu-id="ff3e4-109">sesid</span><span class="sxs-lookup"><span data-stu-id="ff3e4-109">sesid</span></span>  
-    <span data-ttu-id="ff3e4-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="ff3e4-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="13b7c-109">sesid</span><span class="sxs-lookup"><span data-stu-id="13b7c-109">sesid</span></span>  
+    <span data-ttu-id="13b7c-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="13b7c-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="ff3e4-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="ff3e4-111">The session to use.</span></span>
+    <span data-ttu-id="13b7c-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="13b7c-111">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="ff3e4-112">tableid</span><span class="sxs-lookup"><span data-stu-id="ff3e4-112">tableid</span></span>  
-    <span data-ttu-id="ff3e4-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="ff3e4-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="13b7c-112">tableid</span><span class="sxs-lookup"><span data-stu-id="13b7c-112">tableid</span></span>  
+    <span data-ttu-id="13b7c-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="13b7c-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="ff3e4-114">從中取出索引鍵的資料指標。</span><span class="sxs-lookup"><span data-stu-id="ff3e4-114">The cursor to retrieve the key from.</span></span>
+    <span data-ttu-id="13b7c-114">從中取出索引鍵的資料指標。</span><span class="sxs-lookup"><span data-stu-id="13b7c-114">The cursor to retrieve the key from.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="ff3e4-115">grbit</span><span class="sxs-lookup"><span data-stu-id="ff3e4-115">grbit</span></span>  
-    <span data-ttu-id="ff3e4-116">型別： [RetrieveKeyGrbit](./retrievekeygrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="ff3e4-116">Type: [Microsoft.Isam.Esent.Interop.RetrieveKeyGrbit](./retrievekeygrbit-enumeration.md)</span></span>  
+  - <span data-ttu-id="13b7c-115">grbit</span><span class="sxs-lookup"><span data-stu-id="13b7c-115">grbit</span></span>  
+    <span data-ttu-id="13b7c-116">型別： [RetrieveKeyGrbit](./retrievekeygrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="13b7c-116">Type: [Microsoft.Isam.Esent.Interop.RetrieveKeyGrbit](./retrievekeygrbit-enumeration.md)</span></span>  
     
-    <span data-ttu-id="ff3e4-117">取得索引鍵選項。</span><span class="sxs-lookup"><span data-stu-id="ff3e4-117">Retrieve key options.</span></span>
+    <span data-ttu-id="13b7c-117">取得索引鍵選項。</span><span class="sxs-lookup"><span data-stu-id="13b7c-117">Retrieve key options.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="ff3e4-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="ff3e4-118">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="13b7c-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="13b7c-118">Return value</span></span>
 
-<span data-ttu-id="ff3e4-119">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="ff3e4-119">Type: \[\]</span></span>  
-<span data-ttu-id="ff3e4-120">取出的索引鍵。</span><span class="sxs-lookup"><span data-stu-id="ff3e4-120">The retrieved key.</span></span>  
+<span data-ttu-id="13b7c-119">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="13b7c-119">Type: \[\]</span></span>  
+<span data-ttu-id="13b7c-120">取出的索引鍵。</span><span class="sxs-lookup"><span data-stu-id="13b7c-120">The retrieved key.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="ff3e4-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ff3e4-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="13b7c-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="13b7c-121">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="ff3e4-122">參考</span><span class="sxs-lookup"><span data-stu-id="ff3e4-122">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="13b7c-122">參考</span><span class="sxs-lookup"><span data-stu-id="13b7c-122">Reference</span></span>
 
-[<span data-ttu-id="ff3e4-123">Api 類別</span><span class="sxs-lookup"><span data-stu-id="ff3e4-123">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="13b7c-123">Api 類別</span><span class="sxs-lookup"><span data-stu-id="13b7c-123">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="ff3e4-124">Api 成員</span><span class="sxs-lookup"><span data-stu-id="ff3e4-124">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="13b7c-124">Api 成員</span><span class="sxs-lookup"><span data-stu-id="13b7c-124">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="ff3e4-125">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ff3e4-125">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="13b7c-125">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="13b7c-125">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

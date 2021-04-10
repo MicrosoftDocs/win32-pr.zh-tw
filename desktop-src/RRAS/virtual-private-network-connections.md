@@ -1,0 +1,32 @@
+---
+title: 虛擬私人網路連接
+description: 遠端存取服務 (RAS) 除了使用點對點通訊協定 (PPP)  (PPP) 的傳統遠端存取連接之外，還支援虛擬私人網路 (VPN) 連接。
+ms.assetid: c1195ebb-3107-4429-bc67-b64577d66268
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 09f5fc0b80a6eb00e7587e941eea39c056a11d14
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104023590"
+---
+# <a name="virtual-private-network-connections"></a><span data-ttu-id="e303b-103">虛擬私人網路連接</span><span class="sxs-lookup"><span data-stu-id="e303b-103">Virtual Private Network Connections</span></span>
+
+<span data-ttu-id="e303b-104">遠端存取服務 (RAS) 除了使用點對點通訊協定 (PPP)  (PPP) 的傳統遠端存取連接之外，還支援虛擬私人網路 (VPN) 連接。</span><span class="sxs-lookup"><span data-stu-id="e303b-104">The Remote Access Service (RAS) supports Virtual Private Network (VPN) connections in addition to conventional remote access connections that use Point-to-Point Protocol (PPP).</span></span> <span data-ttu-id="e303b-105">在 VPN 連線中，VPN 封包會封裝在 IP 封包中，並在 IP 網路（例如網際網路）上傳送。</span><span class="sxs-lookup"><span data-stu-id="e303b-105">In a VPN connection, the VPN packets are encapsulated in IP packets and sent across an IP network such as the Internet.</span></span> <span data-ttu-id="e303b-106">因此，需要存取 IP 網路才能建立 VPN 連線。</span><span class="sxs-lookup"><span data-stu-id="e303b-106">Therefore, access to an IP network is a requirement in order to establish a VPN connection.</span></span> <span data-ttu-id="e303b-107">如果用戶端電腦有連至 IP 網路的連線（例如連至 IP 區域網路的連線），則用戶端可以使用 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 函式的單一呼叫來建立 VPN 連接。</span><span class="sxs-lookup"><span data-stu-id="e303b-107">If the client computer has an always-on connection to an IP network, for example a connection to an IP LAN, the client can establish the VPN connection using a single call to the [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) function.</span></span>
+
+<span data-ttu-id="e303b-108">如果用戶端電腦沒有連至 IP 網路的 always on 連線，則需要兩個 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 呼叫才能建立 VPN 連接。</span><span class="sxs-lookup"><span data-stu-id="e303b-108">If the client computer does not have an always-on connection to an IP network, two calls to [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) are required to establish the VPN connection.</span></span> <span data-ttu-id="e303b-109">第一個呼叫會建立連至 IP 網路的撥號連線;第二個呼叫會建立 VPN 連接。</span><span class="sxs-lookup"><span data-stu-id="e303b-109">The first call establishes a dial-up connection to the IP network; the second call establishes the VPN connection.</span></span>
+
+<span data-ttu-id="e303b-110">VPN 連線之 [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85))結構的 **szLocalPhoneNumber** 成員應該包含目的地 VPN 伺服器的 DNS 名稱或 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="e303b-110">The **szLocalPhoneNumber** member of the [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)) structure for the VPN connection should contain either the DNS name or IP address of the destination VPN server.</span></span>
+
+<span data-ttu-id="e303b-111">每個連接都需要個別的 [電話簿](ras-phone-books.md) 專案。</span><span class="sxs-lookup"><span data-stu-id="e303b-111">Each connection requires a separate [phone-book](ras-phone-books.md) entry.</span></span> <span data-ttu-id="e303b-112">第一次呼叫 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 時，會指定 IP 網路的電話簿專案。</span><span class="sxs-lookup"><span data-stu-id="e303b-112">The first call to [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) specifies the phone-book entry for the IP network.</span></span> <span data-ttu-id="e303b-113">第二個呼叫會指定 VPN 的電話通訊錄專案。</span><span class="sxs-lookup"><span data-stu-id="e303b-113">The second call specifies the phone-book entry for the VPN.</span></span>
+
+<span data-ttu-id="e303b-114">[**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala)函式會採用 [**RASDIALPARAMS**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85))結構的指標做為參數。</span><span class="sxs-lookup"><span data-stu-id="e303b-114">The [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) function takes a pointer to a [**RASDIALPARAMS**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)) structure as a parameter.</span></span> <span data-ttu-id="e303b-115">此結構指定用於電話簿專案所指定之網路的驗證認證。</span><span class="sxs-lookup"><span data-stu-id="e303b-115">This structure specifies the authentication credentials to use for the network specified by the phone-book entry.</span></span> <span data-ttu-id="e303b-116">存取 IP 網路所需的認證通常與 VPN 的認證不同。</span><span class="sxs-lookup"><span data-stu-id="e303b-116">The credentials required to access the IP network are typically different from those for the VPN.</span></span> <span data-ttu-id="e303b-117">第一次呼叫 **RasDial** 時，應該指定 IP 網路的認證。</span><span class="sxs-lookup"><span data-stu-id="e303b-117">The first call to **RasDial** should specify credentials for the IP network.</span></span> <span data-ttu-id="e303b-118">第二個呼叫應指定 VPN 的認證。</span><span class="sxs-lookup"><span data-stu-id="e303b-118">The second call should specify credentials for the VPN.</span></span>
+
+<span data-ttu-id="e303b-119">如果 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 函式成功，它會傳回連接的控制碼。</span><span class="sxs-lookup"><span data-stu-id="e303b-119">If the [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) function is successful, it returns a handle for the connection.</span></span> <span data-ttu-id="e303b-120">在 [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa) 的呼叫中使用此控制碼來終止連接。</span><span class="sxs-lookup"><span data-stu-id="e303b-120">Use this handle in a call to [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa) to terminate the connection.</span></span>
+
+<span data-ttu-id="e303b-121">在上述案例中，兩個對 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 的呼叫會針對 IP 網路和 VPN 傳回不同的連接控制碼。</span><span class="sxs-lookup"><span data-stu-id="e303b-121">In the preceding scenario, the two calls to [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) return separate connection handles for the IP network and the VPN.</span></span> <span data-ttu-id="e303b-122">使用 VPN 連線的控制碼來呼叫 [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa) 會終止 vpn 連線，但不會讓 IP 網路的連線保持不變。</span><span class="sxs-lookup"><span data-stu-id="e303b-122">Calling [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa) with the handle for the VPN connection terminates the VPN connection but leaves the connection to the IP network intact.</span></span>
+
+ 
+
+ 

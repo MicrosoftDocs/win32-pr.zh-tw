@@ -11,23 +11,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103688428"
 ---
-# <a name="czech-republic"></a><span data-ttu-id="295f7-103">捷克共和國</span><span class="sxs-lookup"><span data-stu-id="295f7-103">Czech Republic</span></span>
+# <a name="czech-republic"></a><span data-ttu-id="d3320-103">捷克共和國</span><span class="sxs-lookup"><span data-stu-id="d3320-103">Czech Republic</span></span>
 
-<span data-ttu-id="295f7-104">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="295f7-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="d3320-104">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="d3320-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="295f7-105">捷克共和國資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="295f7-105">The frequency indexes in the Czech Republic tables are not suitable for use as channel numbers.</span></span>
+<span data-ttu-id="d3320-105">捷克共和國資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="d3320-105">The frequency indexes in the Czech Republic tables are not suitable for use as channel numbers.</span></span>
 
--   [<span data-ttu-id="295f7-106">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="295f7-106">Windows 7 and Later</span></span>](#windows-7-and-later)
-    -   [<span data-ttu-id="295f7-107">捷克共和國廣播指派</span><span class="sxs-lookup"><span data-stu-id="295f7-107">Czech Republic Broadcast Assignments</span></span>](#czech-republic-broadcast-assignments)
-    -   [<span data-ttu-id="295f7-108">捷克共和國纜線指派</span><span class="sxs-lookup"><span data-stu-id="295f7-108">Czech Republic Cable Assignments</span></span>](#czech-republic-cable-assignments)
--   [<span data-ttu-id="295f7-109">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="295f7-109">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
-    -   [<span data-ttu-id="295f7-110">捷克共和國廣播指派</span><span class="sxs-lookup"><span data-stu-id="295f7-110">Czech Republic Broadcast Assignments</span></span>](#czech-republic-broadcast-assignments)
-    -   [<span data-ttu-id="295f7-111">捷克共和國纜線指派</span><span class="sxs-lookup"><span data-stu-id="295f7-111">Czech Republic Cable Assignments</span></span>](#czech-republic-cable-assignments)
--   [<span data-ttu-id="295f7-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="295f7-112">Related topics</span></span>](#related-topics)
+-   [<span data-ttu-id="d3320-106">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="d3320-106">Windows 7 and Later</span></span>](#windows-7-and-later)
+    -   [<span data-ttu-id="d3320-107">捷克共和國廣播指派</span><span class="sxs-lookup"><span data-stu-id="d3320-107">Czech Republic Broadcast Assignments</span></span>](#czech-republic-broadcast-assignments)
+    -   [<span data-ttu-id="d3320-108">捷克共和國纜線指派</span><span class="sxs-lookup"><span data-stu-id="d3320-108">Czech Republic Cable Assignments</span></span>](#czech-republic-cable-assignments)
+-   [<span data-ttu-id="d3320-109">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="d3320-109">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
+    -   [<span data-ttu-id="d3320-110">捷克共和國廣播指派</span><span class="sxs-lookup"><span data-stu-id="d3320-110">Czech Republic Broadcast Assignments</span></span>](#czech-republic-broadcast-assignments)
+    -   [<span data-ttu-id="d3320-111">捷克共和國纜線指派</span><span class="sxs-lookup"><span data-stu-id="d3320-111">Czech Republic Cable Assignments</span></span>](#czech-republic-cable-assignments)
+-   [<span data-ttu-id="d3320-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="d3320-112">Related topics</span></span>](#related-topics)
 
-## <a name="windows-7-and-later"></a><span data-ttu-id="295f7-113">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="295f7-113">Windows 7 and Later</span></span>
+## <a name="windows-7-and-later"></a><span data-ttu-id="d3320-113">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="d3320-113">Windows 7 and Later</span></span>
 
-### <a name="czech-republic-broadcast-assignments"></a><span data-ttu-id="295f7-114">捷克共和國廣播指派</span><span class="sxs-lookup"><span data-stu-id="295f7-114">Czech Republic Broadcast Assignments</span></span>
+### <a name="czech-republic-broadcast-assignments"></a><span data-ttu-id="d3320-114">捷克共和國廣播指派</span><span class="sxs-lookup"><span data-stu-id="d3320-114">Czech Republic Broadcast Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -106,7 +106,7 @@ ms.locfileid: "103688428"
        855250000L,      // 71 TV71
 ```
 
-### <a name="czech-republic-cable-assignments"></a><span data-ttu-id="295f7-115">捷克共和國纜線指派</span><span class="sxs-lookup"><span data-stu-id="295f7-115">Czech Republic Cable Assignments</span></span>
+### <a name="czech-republic-cable-assignments"></a><span data-ttu-id="d3320-115">捷克共和國纜線指派</span><span class="sxs-lookup"><span data-stu-id="d3320-115">Czech Republic Cable Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -252,9 +252,9 @@ ms.locfileid: "103688428"
        855250000L,      // 138 K69
 ```
 
-## <a name="earlier-channel-assignments"></a><span data-ttu-id="295f7-116">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="295f7-116">Earlier Channel Assignments</span></span>
+## <a name="earlier-channel-assignments"></a><span data-ttu-id="d3320-116">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="d3320-116">Earlier Channel Assignments</span></span>
 
-### <a name="czech-republic-broadcast-assignments"></a><span data-ttu-id="295f7-117">捷克共和國廣播指派</span><span class="sxs-lookup"><span data-stu-id="295f7-117">Czech Republic Broadcast Assignments</span></span>
+### <a name="czech-republic-broadcast-assignments"></a><span data-ttu-id="d3320-117">捷克共和國廣播指派</span><span class="sxs-lookup"><span data-stu-id="d3320-117">Czech Republic Broadcast Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -333,7 +333,7 @@ ms.locfileid: "103688428"
        855250000L,      // 69
 ```
 
-### <a name="czech-republic-cable-assignments"></a><span data-ttu-id="295f7-118">捷克共和國纜線指派</span><span class="sxs-lookup"><span data-stu-id="295f7-118">Czech Republic Cable Assignments</span></span>
+### <a name="czech-republic-cable-assignments"></a><span data-ttu-id="d3320-118">捷克共和國纜線指派</span><span class="sxs-lookup"><span data-stu-id="d3320-118">Czech Republic Cable Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -399,11 +399,11 @@ ms.locfileid: "103688428"
        863250000L,      // 57
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="295f7-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="295f7-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d3320-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="d3320-119">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="295f7-120">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="295f7-120">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="d3320-120">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="d3320-120">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  

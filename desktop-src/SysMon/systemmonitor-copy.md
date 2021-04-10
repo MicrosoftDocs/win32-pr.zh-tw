@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685754"
 ---
-# <a name="systemmonitorcopy-method"></a><span data-ttu-id="2865c-106">SystemMonitor：： Copy 方法</span><span class="sxs-lookup"><span data-stu-id="2865c-106">SystemMonitor::Copy method</span></span>
+# <a name="systemmonitorcopy-method"></a><span data-ttu-id="4e691-106">SystemMonitor：： Copy 方法</span><span class="sxs-lookup"><span data-stu-id="4e691-106">SystemMonitor::Copy method</span></span>
 
-<span data-ttu-id="2865c-107">將控制項的屬性設定、計數器清單和計數器資料複製到剪貼簿，以做為 HTML 物件。</span><span class="sxs-lookup"><span data-stu-id="2865c-107">Copies the control's property settings, list of counters, and counter data to the Clipboard as an HTML object.</span></span>
+<span data-ttu-id="4e691-107">將控制項的屬性設定、計數器清單和計數器資料複製到剪貼簿，以做為 HTML 物件。</span><span class="sxs-lookup"><span data-stu-id="4e691-107">Copies the control's property settings, list of counters, and counter data to the Clipboard as an HTML object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2865c-108">語法</span><span class="sxs-lookup"><span data-stu-id="2865c-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4e691-108">語法</span><span class="sxs-lookup"><span data-stu-id="4e691-108">Syntax</span></span>
 
 
 ```VB
@@ -36,38 +36,38 @@ Sub Copy()
 
 
 
-## <a name="parameters"></a><span data-ttu-id="2865c-109">參數</span><span class="sxs-lookup"><span data-stu-id="2865c-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4e691-109">參數</span><span class="sxs-lookup"><span data-stu-id="4e691-109">Parameters</span></span>
 
-<span data-ttu-id="2865c-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="2865c-110">This method has no parameters.</span></span>
+<span data-ttu-id="4e691-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="4e691-110">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="2865c-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="2865c-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4e691-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="4e691-111">Return value</span></span>
 
-<span data-ttu-id="2865c-112">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="2865c-112">This method does not return a value.</span></span>
+<span data-ttu-id="4e691-112">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="4e691-112">This method does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2865c-113">備註</span><span class="sxs-lookup"><span data-stu-id="2865c-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4e691-113">備註</span><span class="sxs-lookup"><span data-stu-id="4e691-113">Remarks</span></span>
 
-<span data-ttu-id="2865c-114">剪貼簿中只能有一個複本。</span><span class="sxs-lookup"><span data-stu-id="2865c-114">Only one copy can exist in the Clipboard.</span></span>
+<span data-ttu-id="4e691-114">剪貼簿中只能有一個複本。</span><span class="sxs-lookup"><span data-stu-id="4e691-114">Only one copy can exist in the Clipboard.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="2865c-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="2865c-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4e691-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="4e691-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2865c-116">需求</span><span class="sxs-lookup"><span data-stu-id="2865c-116">Requirement</span></span> | <span data-ttu-id="2865c-117">值</span><span class="sxs-lookup"><span data-stu-id="2865c-117">Value</span></span> |
+| <span data-ttu-id="4e691-116">需求</span><span class="sxs-lookup"><span data-stu-id="4e691-116">Requirement</span></span> | <span data-ttu-id="4e691-117">值</span><span class="sxs-lookup"><span data-stu-id="4e691-117">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="2865c-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2865c-118">Minimum supported client</span></span><br/> | <span data-ttu-id="2865c-119">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2865c-119">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
-| <span data-ttu-id="2865c-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2865c-120">Minimum supported server</span></span><br/> | <span data-ttu-id="2865c-121">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2865c-121">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="2865c-122">DLL</span><span class="sxs-lookup"><span data-stu-id="2865c-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2865c-123"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="2865c-123"><dt>Sysmon.ocx</dt></span></span> </dl> |
+| <span data-ttu-id="4e691-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4e691-118">Minimum supported client</span></span><br/> | <span data-ttu-id="4e691-119">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4e691-119">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
+| <span data-ttu-id="4e691-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4e691-120">Minimum supported server</span></span><br/> | <span data-ttu-id="4e691-121">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4e691-121">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="4e691-122">DLL</span><span class="sxs-lookup"><span data-stu-id="4e691-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="4e691-123"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="4e691-123"><dt>Sysmon.ocx</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2865c-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2865c-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4e691-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4e691-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2865c-125">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="2865c-125">**SystemMonitor**</span></span>](systemmonitor.md)
+[<span data-ttu-id="4e691-125">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="4e691-125">**SystemMonitor**</span></span>](systemmonitor.md)
 </dt> <dt>
 
-[<span data-ttu-id="2865c-126">**SystemMonitor。貼上**</span><span class="sxs-lookup"><span data-stu-id="2865c-126">**SystemMonitor.Paste**</span></span>](systemmonitor-paste.md)
+[<span data-ttu-id="4e691-126">**SystemMonitor。貼上**</span><span class="sxs-lookup"><span data-stu-id="4e691-126">**SystemMonitor.Paste**</span></span>](systemmonitor-paste.md)
 </dt> </dl>
 
  

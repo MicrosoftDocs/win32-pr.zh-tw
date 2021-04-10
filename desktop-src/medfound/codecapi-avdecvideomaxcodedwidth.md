@@ -11,38 +11,38 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689363"
 ---
-# <a name="codecapi_avdecvideomaxcodedwidth-property"></a><span data-ttu-id="044fc-103">CODECAPI \_ AVDecVideoMaxCodedWidth 屬性</span><span class="sxs-lookup"><span data-stu-id="044fc-103">CODECAPI\_AVDecVideoMaxCodedWidth property</span></span>
+# <a name="codecapi_avdecvideomaxcodedwidth-property"></a><span data-ttu-id="afd93-103">CODECAPI \_ AVDecVideoMaxCodedWidth 屬性</span><span class="sxs-lookup"><span data-stu-id="afd93-103">CODECAPI\_AVDecVideoMaxCodedWidth property</span></span>
 
-<span data-ttu-id="044fc-104">設定影片解碼器將接受做為輸入類型的最大圖片寬度。</span><span class="sxs-lookup"><span data-stu-id="044fc-104">Sets the maximum picture width that a video decoder will accept as an input type.</span></span>
+<span data-ttu-id="afd93-104">設定影片解碼器將接受做為輸入類型的最大圖片寬度。</span><span class="sxs-lookup"><span data-stu-id="afd93-104">Sets the maximum picture width that a video decoder will accept as an input type.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="044fc-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="044fc-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="afd93-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="afd93-105">Data type</span></span>
 
-<span data-ttu-id="044fc-106">**LONG** (**VT \_ I4**) </span><span class="sxs-lookup"><span data-stu-id="044fc-106">**LONG** (**VT\_I4**)</span></span>
+<span data-ttu-id="afd93-106">**LONG** (**VT \_ I4**) </span><span class="sxs-lookup"><span data-stu-id="afd93-106">**LONG** (**VT\_I4**)</span></span>
 
-## <a name="property-guid"></a><span data-ttu-id="044fc-107">屬性 GUID</span><span class="sxs-lookup"><span data-stu-id="044fc-107">Property GUID</span></span>
+## <a name="property-guid"></a><span data-ttu-id="afd93-107">屬性 GUID</span><span class="sxs-lookup"><span data-stu-id="afd93-107">Property GUID</span></span>
 
-<span data-ttu-id="044fc-108">CODECAPI \_ AVDecVideoMaxCodedWidth</span><span class="sxs-lookup"><span data-stu-id="044fc-108">CODECAPI\_AVDecVideoMaxCodedWidth</span></span>
+<span data-ttu-id="afd93-108">CODECAPI \_ AVDecVideoMaxCodedWidth</span><span class="sxs-lookup"><span data-stu-id="afd93-108">CODECAPI\_AVDecVideoMaxCodedWidth</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="044fc-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="044fc-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="afd93-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="afd93-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="044fc-110">需求</span><span class="sxs-lookup"><span data-stu-id="044fc-110">Requirement</span></span> | <span data-ttu-id="044fc-111">值</span><span class="sxs-lookup"><span data-stu-id="044fc-111">Value</span></span> |
+| <span data-ttu-id="afd93-110">需求</span><span class="sxs-lookup"><span data-stu-id="afd93-110">Requirement</span></span> | <span data-ttu-id="afd93-111">值</span><span class="sxs-lookup"><span data-stu-id="afd93-111">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="044fc-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="044fc-112">Minimum supported client</span></span><br/> | <span data-ttu-id="044fc-113">Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="044fc-113">Windows 8 \[desktop apps \| UWP apps\]</span></span><br/>                                     |
-| <span data-ttu-id="044fc-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="044fc-114">Minimum supported server</span></span><br/> | <span data-ttu-id="044fc-115">Windows Server 2012 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="044fc-115">Windows Server 2012 \[desktop apps \| UWP apps\]</span></span><br/>                           |
-| <span data-ttu-id="044fc-116">標頭</span><span class="sxs-lookup"><span data-stu-id="044fc-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="044fc-117"><dt>Codecapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="044fc-117"><dt>Codecapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="afd93-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="afd93-112">Minimum supported client</span></span><br/> | <span data-ttu-id="afd93-113">Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="afd93-113">Windows 8 \[desktop apps \| UWP apps\]</span></span><br/>                                     |
+| <span data-ttu-id="afd93-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="afd93-114">Minimum supported server</span></span><br/> | <span data-ttu-id="afd93-115">Windows Server 2012 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="afd93-115">Windows Server 2012 \[desktop apps \| UWP apps\]</span></span><br/>                           |
+| <span data-ttu-id="afd93-116">標頭</span><span class="sxs-lookup"><span data-stu-id="afd93-116">Header</span></span><br/>                   | <dl> <span data-ttu-id="afd93-117"><dt>Codecapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="afd93-117"><dt>Codecapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="044fc-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="044fc-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="afd93-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="afd93-118">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="044fc-119">媒體基礎屬性</span><span class="sxs-lookup"><span data-stu-id="044fc-119">Media Foundation Properties</span></span>](media-foundation-properties.md)
+[<span data-ttu-id="afd93-119">媒體基礎屬性</span><span class="sxs-lookup"><span data-stu-id="afd93-119">Media Foundation Properties</span></span>](media-foundation-properties.md)
 </dt> <dt>
 
-[<span data-ttu-id="044fc-120">**ICodecAPI**</span><span class="sxs-lookup"><span data-stu-id="044fc-120">**ICodecAPI**</span></span>](/windows/desktop/api/strmif/nn-strmif-icodecapi)
+[<span data-ttu-id="afd93-120">**ICodecAPI**</span><span class="sxs-lookup"><span data-stu-id="afd93-120">**ICodecAPI**</span></span>](/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  
