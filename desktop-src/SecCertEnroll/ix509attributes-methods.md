@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "104027243"
 ---
-# <a name="ix509attributes-methods"></a><span data-ttu-id="d524e-103">IX509Attributes 方法</span><span class="sxs-lookup"><span data-stu-id="d524e-103">IX509Attributes Methods</span></span>
+# <a name="ix509attributes-methods"></a><span data-ttu-id="58edb-103">IX509Attributes 方法</span><span class="sxs-lookup"><span data-stu-id="58edb-103">IX509Attributes Methods</span></span>
 
-<span data-ttu-id="d524e-104">[**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="d524e-104">The [**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes) interface exposes the following methods.</span></span>
+<span data-ttu-id="58edb-104">[**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="58edb-104">The [**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="d524e-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d524e-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="58edb-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="58edb-105">In this section</span></span>
 
--   [<span data-ttu-id="d524e-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="d524e-106">**Add Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-add)
--   [<span data-ttu-id="d524e-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="d524e-107">**Clear Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-clear)
--   [<span data-ttu-id="d524e-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="d524e-108">**Remove Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-remove)
+-   [<span data-ttu-id="58edb-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="58edb-106">**Add Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-add)
+-   [<span data-ttu-id="58edb-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="58edb-107">**Clear Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-clear)
+-   [<span data-ttu-id="58edb-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="58edb-108">**Remove Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-remove)
 
  
 
