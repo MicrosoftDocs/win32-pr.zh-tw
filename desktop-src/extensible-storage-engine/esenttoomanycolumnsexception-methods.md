@@ -14,74 +14,74 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851459"
 ---
-# <a name="esenttoomanycolumnsexception-methods"></a><span data-ttu-id="c6139-103">EsentTooManyColumnsException 方法</span><span class="sxs-lookup"><span data-stu-id="c6139-103">EsentTooManyColumnsException methods</span></span>
+# <a name="esenttoomanycolumnsexception-methods"></a><span data-ttu-id="d21f5-103">EsentTooManyColumnsException 方法</span><span class="sxs-lookup"><span data-stu-id="d21f5-103">EsentTooManyColumnsException methods</span></span>
 
-<span data-ttu-id="c6139-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="c6139-104">Include protected members</span></span>  
-<span data-ttu-id="c6139-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="c6139-105">Include inherited members</span></span>  
+<span data-ttu-id="d21f5-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="d21f5-104">Include protected members</span></span>  
+<span data-ttu-id="d21f5-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="d21f5-105">Include inherited members</span></span>  
 
-<span data-ttu-id="c6139-106">[EsentTooManyColumnsException](./esenttoomanycolumnsexception-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="c6139-106">The [EsentTooManyColumnsException](./esenttoomanycolumnsexception-class.md) type exposes the following members.</span></span>
+<span data-ttu-id="d21f5-106">[EsentTooManyColumnsException](./esenttoomanycolumnsexception-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="d21f5-106">The [EsentTooManyColumnsException](./esenttoomanycolumnsexception-class.md) type exposes the following members.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="c6139-107">方法</span><span class="sxs-lookup"><span data-stu-id="c6139-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="d21f5-107">方法</span><span class="sxs-lookup"><span data-stu-id="d21f5-107">Methods</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="c6139-108">名稱</span><span class="sxs-lookup"><span data-stu-id="c6139-108">Name</span></span></th>
-<th><span data-ttu-id="c6139-109">描述</span><span class="sxs-lookup"><span data-stu-id="c6139-109">Description</span></span></th>
+<th><span data-ttu-id="d21f5-108">名稱</span><span class="sxs-lookup"><span data-stu-id="d21f5-108">Name</span></span></th>
+<th><span data-ttu-id="d21f5-109">描述</span><span class="sxs-lookup"><span data-stu-id="d21f5-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="c6139-111"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">等於</a></span><span class="sxs-lookup"><span data-stu-id="c6139-111"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals</a></span></span></td>
-<td><span data-ttu-id="c6139-112"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="c6139-112">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+<td><span data-ttu-id="d21f5-111"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">等於</a></span><span class="sxs-lookup"><span data-stu-id="d21f5-111"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals</a></span></span></td>
+<td><span data-ttu-id="d21f5-112"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="d21f5-112">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="受保護的方法" alt="Protected method" /></td>
-<td><span data-ttu-id="c6139-114"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">完成</a></span><span class="sxs-lookup"><span data-stu-id="c6139-114"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></span></span></td>
-<td><span data-ttu-id="c6139-115"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="c6139-115">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+<td><span data-ttu-id="d21f5-114"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">完成</a></span><span class="sxs-lookup"><span data-stu-id="d21f5-114"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></span></span></td>
+<td><span data-ttu-id="d21f5-115"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="d21f5-115">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="c6139-117"><a href="/dotnet/api/system.exception.getbaseexception#System_Exception_GetBaseException">GetBaseException</a></span><span class="sxs-lookup"><span data-stu-id="c6139-117"><a href="/dotnet/api/system.exception.getbaseexception#System_Exception_GetBaseException">GetBaseException</a></span></span></td>
-<td><span data-ttu-id="c6139-118"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="c6139-118">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="d21f5-117"><a href="/dotnet/api/system.exception.getbaseexception#System_Exception_GetBaseException">GetBaseException</a></span><span class="sxs-lookup"><span data-stu-id="d21f5-117"><a href="/dotnet/api/system.exception.getbaseexception#System_Exception_GetBaseException">GetBaseException</a></span></span></td>
+<td><span data-ttu-id="d21f5-118"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="d21f5-118">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="c6139-120"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span><span class="sxs-lookup"><span data-stu-id="c6139-120"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span></span></td>
-<td><span data-ttu-id="c6139-121"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="c6139-121">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+<td><span data-ttu-id="d21f5-120"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span><span class="sxs-lookup"><span data-stu-id="d21f5-120"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span></span></td>
+<td><span data-ttu-id="d21f5-121"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="d21f5-121">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="c6139-123"><a href="dn334369(v=exchg.10).md">GetObjectData</a></span><span class="sxs-lookup"><span data-stu-id="c6139-123"><a href="dn334369(v=exchg.10).md">GetObjectData</a></span></span></td>
-<td><span data-ttu-id="c6139-124">在衍生類別中覆寫時，使用例外狀況的相關資訊設定 <a href="/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a> 。</span><span class="sxs-lookup"><span data-stu-id="c6139-124">When overridden in a derived class, sets the <a href="/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a> with information about the exception.</span></span> <span data-ttu-id="c6139-125"> (繼承自 <a href="dn274314(v=exchg.10).md">EsentErrorException</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="c6139-125">(Inherited from <a href="dn274314(v=exchg.10).md">EsentErrorException</a>.)</span></span></td>
+<td><span data-ttu-id="d21f5-123"><a href="dn334369(v=exchg.10).md">GetObjectData</a></span><span class="sxs-lookup"><span data-stu-id="d21f5-123"><a href="dn334369(v=exchg.10).md">GetObjectData</a></span></span></td>
+<td><span data-ttu-id="d21f5-124">在衍生類別中覆寫時，使用例外狀況的相關資訊設定 <a href="/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a> 。</span><span class="sxs-lookup"><span data-stu-id="d21f5-124">When overridden in a derived class, sets the <a href="/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a> with information about the exception.</span></span> <span data-ttu-id="d21f5-125"> (繼承自 <a href="dn274314(v=exchg.10).md">EsentErrorException</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="d21f5-125">(Inherited from <a href="dn274314(v=exchg.10).md">EsentErrorException</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="c6139-127"><a href="/dotnet/api/system.exception.gettype#System_Exception_GetType">GetType</a></span><span class="sxs-lookup"><span data-stu-id="c6139-127"><a href="/dotnet/api/system.exception.gettype#System_Exception_GetType">GetType</a></span></span></td>
-<td><span data-ttu-id="c6139-128"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="c6139-128">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="d21f5-127"><a href="/dotnet/api/system.exception.gettype#System_Exception_GetType">GetType</a></span><span class="sxs-lookup"><span data-stu-id="d21f5-127"><a href="/dotnet/api/system.exception.gettype#System_Exception_GetType">GetType</a></span></span></td>
+<td><span data-ttu-id="d21f5-128"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="d21f5-128">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="受保護的方法" alt="Protected method" /></td>
-<td><span data-ttu-id="c6139-130"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></span><span class="sxs-lookup"><span data-stu-id="c6139-130"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></span></span></td>
-<td><span data-ttu-id="c6139-131"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="c6139-131">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+<td><span data-ttu-id="d21f5-130"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></span><span class="sxs-lookup"><span data-stu-id="d21f5-130"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></span></span></td>
+<td><span data-ttu-id="d21f5-131"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="d21f5-131">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="c6139-133"><a href="/dotnet/api/system.exception.tostring#System_Exception_ToString">ToString</a></span><span class="sxs-lookup"><span data-stu-id="c6139-133"><a href="/dotnet/api/system.exception.tostring#System_Exception_ToString">ToString</a></span></span></td>
-<td><span data-ttu-id="c6139-134"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="c6139-134">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="d21f5-133"><a href="/dotnet/api/system.exception.tostring#System_Exception_ToString">ToString</a></span><span class="sxs-lookup"><span data-stu-id="d21f5-133"><a href="/dotnet/api/system.exception.tostring#System_Exception_ToString">ToString</a></span></span></td>
+<td><span data-ttu-id="d21f5-134"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="d21f5-134">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="c6139-135">頁首</span><span class="sxs-lookup"><span data-stu-id="c6139-135">Top</span></span>
+<span data-ttu-id="d21f5-135">頁首</span><span class="sxs-lookup"><span data-stu-id="d21f5-135">Top</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c6139-136">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c6139-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d21f5-136">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d21f5-136">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="c6139-137">參考</span><span class="sxs-lookup"><span data-stu-id="c6139-137">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="d21f5-137">參考</span><span class="sxs-lookup"><span data-stu-id="d21f5-137">Reference</span></span>
 
-[<span data-ttu-id="c6139-138">EsentTooManyColumnsException 類別</span><span class="sxs-lookup"><span data-stu-id="c6139-138">EsentTooManyColumnsException class</span></span>](./esenttoomanycolumnsexception-class.md)
+[<span data-ttu-id="d21f5-138">EsentTooManyColumnsException 類別</span><span class="sxs-lookup"><span data-stu-id="d21f5-138">EsentTooManyColumnsException class</span></span>](./esenttoomanycolumnsexception-class.md)
 
-[<span data-ttu-id="c6139-139">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c6139-139">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="d21f5-139">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="d21f5-139">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

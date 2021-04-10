@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851360"
 ---
-# <a name="evalcom2-interfaces"></a><span data-ttu-id="504e8-103">EvalCom2 介面</span><span class="sxs-lookup"><span data-stu-id="504e8-103">EvalCom2 Interfaces</span></span>
+# <a name="evalcom2-interfaces"></a><span data-ttu-id="09c12-103">EvalCom2 介面</span><span class="sxs-lookup"><span data-stu-id="09c12-103">EvalCom2 Interfaces</span></span>
 
-<span data-ttu-id="504e8-104">以下是 EvalCom2 介面。</span><span class="sxs-lookup"><span data-stu-id="504e8-104">The following are the EvalCom2 interfaces.</span></span>
+<span data-ttu-id="09c12-104">以下是 EvalCom2 介面。</span><span class="sxs-lookup"><span data-stu-id="09c12-104">The following are the EvalCom2 interfaces.</span></span>
 
-[<span data-ttu-id="504e8-105">**IValidate**</span><span class="sxs-lookup"><span data-stu-id="504e8-105">**IValidate**</span></span>](/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate)
+[<span data-ttu-id="09c12-105">**IValidate**</span><span class="sxs-lookup"><span data-stu-id="09c12-105">**IValidate**</span></span>](/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate)
 
  
 

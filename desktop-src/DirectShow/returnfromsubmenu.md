@@ -11,27 +11,27 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103688167"
 ---
-# <a name="returnfromsubmenu"></a><span data-ttu-id="c03e3-103">ReturnFromSubmenu</span><span class="sxs-lookup"><span data-stu-id="c03e3-103">ReturnFromSubmenu</span></span>
+# <a name="returnfromsubmenu"></a><span data-ttu-id="25f8d-103">ReturnFromSubmenu</span><span class="sxs-lookup"><span data-stu-id="25f8d-103">ReturnFromSubmenu</span></span>
 
 > [!Note]  
-> <span data-ttu-id="c03e3-104">此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。</span><span class="sxs-lookup"><span data-stu-id="c03e3-104">This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.</span></span> <span data-ttu-id="c03e3-105">它在後續版本中可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="c03e3-105">It may be altered or unavailable in subsequent versions.</span></span>
+> <span data-ttu-id="25f8d-104">此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。</span><span class="sxs-lookup"><span data-stu-id="25f8d-104">This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.</span></span> <span data-ttu-id="25f8d-105">它在後續版本中可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="25f8d-105">It may be altered or unavailable in subsequent versions.</span></span>
 
  
 
-<span data-ttu-id="c03e3-106">`ReturnFromSubmenu`當 `ReturnFromSubmenu` 命令已啟用或停用時，就會傳送事件。</span><span class="sxs-lookup"><span data-stu-id="c03e3-106">The `ReturnFromSubmenu` event is sent when the `ReturnFromSubmenu` command has been enabled or disabled.</span></span>
+<span data-ttu-id="25f8d-106">`ReturnFromSubmenu`當 `ReturnFromSubmenu` 命令已啟用或停用時，就會傳送事件。</span><span class="sxs-lookup"><span data-stu-id="25f8d-106">The `ReturnFromSubmenu` event is sent when the `ReturnFromSubmenu` command has been enabled or disabled.</span></span>
 
 ``` syntax
 ReturnFromSubmenu(bEnabled)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c03e3-107">參數</span><span class="sxs-lookup"><span data-stu-id="c03e3-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="25f8d-107">參數</span><span class="sxs-lookup"><span data-stu-id="25f8d-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c03e3-108"><span id="bEnabled"></span><span id="benabled"></span><span id="BENABLED"></span>*bEnabled*</span><span class="sxs-lookup"><span data-stu-id="c03e3-108"><span id="bEnabled"></span><span id="benabled"></span><span id="BENABLED"></span>*bEnabled*</span></span>
+<span data-ttu-id="25f8d-108"><span id="bEnabled"></span><span id="benabled"></span><span id="BENABLED"></span>*bEnabled*</span><span class="sxs-lookup"><span data-stu-id="25f8d-108"><span id="bEnabled"></span><span id="benabled"></span><span id="BENABLED"></span>*bEnabled*</span></span>
 </dt> <dd>
 
-<span data-ttu-id="c03e3-109">指定作業是否啟用或停用為布林值。</span><span class="sxs-lookup"><span data-stu-id="c03e3-109">Specifies whether the operation is enabled or disabled as a Boolean.</span></span>
+<span data-ttu-id="25f8d-109">指定作業是否啟用或停用為布林值。</span><span class="sxs-lookup"><span data-stu-id="25f8d-109">Specifies whether the operation is enabled or disabled as a Boolean.</span></span>
 
 </dd> </dl>
 

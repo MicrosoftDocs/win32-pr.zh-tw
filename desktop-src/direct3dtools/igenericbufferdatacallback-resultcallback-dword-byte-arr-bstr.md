@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103688252"
 ---
-# <a name="span-idvspixengineigenericbufferdatacallback_resultcallback_dword_byte_arr_bstrspanigenericbufferdatacallbackresultcallback-method"></a><span data-ttu-id="17555-103"><span id="vspixengine.igenericbufferdatacallback_resultcallback_dword_byte_arr_bstr"></span>IGenericBufferDataCallback：： ResultCallback 方法</span><span class="sxs-lookup"><span data-stu-id="17555-103"><span id="vspixengine.igenericbufferdatacallback_resultcallback_dword_byte_arr_bstr"></span>IGenericBufferDataCallback::ResultCallback method</span></span>
+# <a name="span-idvspixengineigenericbufferdatacallback_resultcallback_dword_byte_arr_bstrspanigenericbufferdatacallbackresultcallback-method"></a><span data-ttu-id="bb4dd-103"><span id="vspixengine.igenericbufferdatacallback_resultcallback_dword_byte_arr_bstr"></span>IGenericBufferDataCallback：： ResultCallback 方法</span><span class="sxs-lookup"><span data-stu-id="bb4dd-103"><span id="vspixengine.igenericbufferdatacallback_resultcallback_dword_byte_arr_bstr"></span>IGenericBufferDataCallback::ResultCallback method</span></span>
 
-<span data-ttu-id="17555-104">回呼，會通知主機 assocaited 要求所傳回的泛型緩衝區資訊。</span><span class="sxs-lookup"><span data-stu-id="17555-104">A callback that notifies the host of generic buffer information returned by the assocaited request.</span></span>
+<span data-ttu-id="bb4dd-104">回呼，會通知主機 assocaited 要求所傳回的泛型緩衝區資訊。</span><span class="sxs-lookup"><span data-stu-id="bb4dd-104">A callback that notifies the host of generic buffer information returned by the assocaited request.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="17555-105">語法</span><span class="sxs-lookup"><span data-stu-id="17555-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bb4dd-105">語法</span><span class="sxs-lookup"><span data-stu-id="bb4dd-105">Syntax</span></span>
 
 
 ```C++
@@ -39,28 +39,28 @@ HRESULT ResultCallback(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="17555-106">參數</span><span class="sxs-lookup"><span data-stu-id="17555-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bb4dd-106">參數</span><span class="sxs-lookup"><span data-stu-id="bb4dd-106">Parameters</span></span>
 
-<span data-ttu-id="17555-107">*大小* </span><span class="sxs-lookup"><span data-stu-id="17555-107">*size* </span></span>  
-<span data-ttu-id="17555-108">緩衝區內容的大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="17555-108">The size of the buffer contents in bytes.</span></span>
+<span data-ttu-id="bb4dd-107">*大小* </span><span class="sxs-lookup"><span data-stu-id="bb4dd-107">*size* </span></span>  
+<span data-ttu-id="bb4dd-108">緩衝區內容的大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="bb4dd-108">The size of the buffer contents in bytes.</span></span>
 
-<span data-ttu-id="17555-109">*count0 \_ 緩衝區* </span><span class="sxs-lookup"><span data-stu-id="17555-109">*count0\_buffer* </span></span>  
-<span data-ttu-id="17555-110">緩衝區內容。</span><span class="sxs-lookup"><span data-stu-id="17555-110">The buffer contents.</span></span> <span data-ttu-id="17555-111">在大部分的情況下，這是 XML 資料。</span><span class="sxs-lookup"><span data-stu-id="17555-111">In most cases this is XML data.</span></span>
+<span data-ttu-id="bb4dd-109">*count0 \_ 緩衝區* </span><span class="sxs-lookup"><span data-stu-id="bb4dd-109">*count0\_buffer* </span></span>  
+<span data-ttu-id="bb4dd-110">緩衝區內容。</span><span class="sxs-lookup"><span data-stu-id="bb4dd-110">The buffer contents.</span></span> <span data-ttu-id="bb4dd-111">在大部分的情況下，這是 XML 資料。</span><span class="sxs-lookup"><span data-stu-id="bb4dd-111">In most cases this is XML data.</span></span>
 
-<span data-ttu-id="17555-112">*類型* </span><span class="sxs-lookup"><span data-stu-id="17555-112">*type* </span></span>  
-<span data-ttu-id="17555-113">COM 字串，表示緩衝區中傳回的內容類型。</span><span class="sxs-lookup"><span data-stu-id="17555-113">A COM string that indicates the type of content returned in the buffer.</span></span>
+<span data-ttu-id="bb4dd-112">*類型* </span><span class="sxs-lookup"><span data-stu-id="bb4dd-112">*type* </span></span>  
+<span data-ttu-id="bb4dd-113">COM 字串，表示緩衝區中傳回的內容類型。</span><span class="sxs-lookup"><span data-stu-id="bb4dd-113">A COM string that indicates the type of content returned in the buffer.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="17555-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="17555-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bb4dd-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="bb4dd-114">Return value</span></span>
 
-<span data-ttu-id="17555-115">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="17555-115">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="17555-116">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="17555-116">Otherwise, it returns an **HRESULT** error code.</span></span>
+<span data-ttu-id="bb4dd-115">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="bb4dd-115">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="bb4dd-116">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="bb4dd-116">Otherwise, it returns an **HRESULT** error code.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="17555-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="17555-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="bb4dd-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="bb4dd-117">Requirements</span></span>
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="17555-118">標頭</span><span class="sxs-lookup"><span data-stu-id="17555-118">Header</span></span></p></td><td><span data-ttu-id="17555-119">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="17555-119">Vspixengine.h</span></span></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="bb4dd-118">標頭</span><span class="sxs-lookup"><span data-stu-id="bb4dd-118">Header</span></span></p></td><td><span data-ttu-id="bb4dd-119">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="bb4dd-119">Vspixengine.h</span></span></td></tr></tbody></table>
 
-## <a name="span-idsee_alsospansee-also"></a><span data-ttu-id="17555-120"><span id="see_also"></span>另請參閱</span><span class="sxs-lookup"><span data-stu-id="17555-120"><span id="see_also"></span>See also</span></span>
+## <a name="span-idsee_alsospansee-also"></a><span data-ttu-id="bb4dd-120"><span id="see_also"></span>另請參閱</span><span class="sxs-lookup"><span data-stu-id="bb4dd-120"><span id="see_also"></span>See also</span></span>
 
-[<span data-ttu-id="17555-121">**IGenericBufferDataCallback**</span><span class="sxs-lookup"><span data-stu-id="17555-121">**IGenericBufferDataCallback**</span></span>](/windows/desktop/direct3dtools/igenericbufferdatacallback)
+[<span data-ttu-id="bb4dd-121">**IGenericBufferDataCallback**</span><span class="sxs-lookup"><span data-stu-id="bb4dd-121">**IGenericBufferDataCallback**</span></span>](/windows/desktop/direct3dtools/igenericbufferdatacallback)
 
  
 

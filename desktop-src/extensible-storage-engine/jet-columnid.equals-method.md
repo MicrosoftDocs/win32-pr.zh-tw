@@ -21,44 +21,44 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851947"
 ---
-# <a name="jet_columnidequals-method"></a><span data-ttu-id="d3171-103">JET_COLUMNID。Equals 方法</span><span class="sxs-lookup"><span data-stu-id="d3171-103">JET_COLUMNID.Equals method</span></span>
+# <a name="jet_columnidequals-method"></a><span data-ttu-id="4ed6b-103">JET_COLUMNID。Equals 方法</span><span class="sxs-lookup"><span data-stu-id="4ed6b-103">JET_COLUMNID.Equals method</span></span>
 
-<span data-ttu-id="d3171-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="d3171-104">Include protected members</span></span>  
-<span data-ttu-id="d3171-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="d3171-105">Include inherited members</span></span>  
+<span data-ttu-id="4ed6b-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="4ed6b-104">Include protected members</span></span>  
+<span data-ttu-id="4ed6b-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="4ed6b-105">Include inherited members</span></span>  
 
-## <a name="overload-list"></a><span data-ttu-id="d3171-106">多載清單</span><span class="sxs-lookup"><span data-stu-id="d3171-106">Overload list</span></span>
+## <a name="overload-list"></a><span data-ttu-id="4ed6b-106">多載清單</span><span class="sxs-lookup"><span data-stu-id="4ed6b-106">Overload list</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="d3171-107">Name</span><span class="sxs-lookup"><span data-stu-id="d3171-107">Name</span></span></th>
-<th><span data-ttu-id="d3171-108">描述</span><span class="sxs-lookup"><span data-stu-id="d3171-108">Description</span></span></th>
+<th><span data-ttu-id="4ed6b-107">Name</span><span class="sxs-lookup"><span data-stu-id="4ed6b-107">Name</span></span></th>
+<th><span data-ttu-id="4ed6b-108">描述</span><span class="sxs-lookup"><span data-stu-id="4ed6b-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="d3171-110"><a href="hh578045(v=exchg.10).md">等於 (物件) </a></span><span class="sxs-lookup"><span data-stu-id="d3171-110"><a href="hh578045(v=exchg.10).md">Equals(Object)</a></span></span></td>
-<td><span data-ttu-id="d3171-111">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="d3171-111">Returns a value indicating whether this instance is equal to another instance.</span></span> <span data-ttu-id="d3171-112"> (覆寫 <a href="/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType. Equals (物件) </a>。 ) </span><span class="sxs-lookup"><span data-stu-id="d3171-112">(Overrides <a href="/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>.)</span></span></td>
+<td><span data-ttu-id="4ed6b-110"><a href="hh578045(v=exchg.10).md">等於 (物件) </a></span><span class="sxs-lookup"><span data-stu-id="4ed6b-110"><a href="hh578045(v=exchg.10).md">Equals(Object)</a></span></span></td>
+<td><span data-ttu-id="4ed6b-111">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="4ed6b-111">Returns a value indicating whether this instance is equal to another instance.</span></span> <span data-ttu-id="4ed6b-112"> (覆寫 <a href="/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType. Equals (物件) </a>。 ) </span><span class="sxs-lookup"><span data-stu-id="4ed6b-112">(Overrides <a href="/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="d3171-114"><a href="hh566265(v=exchg.10).md">等於 (JET_COLUMNID) </a></span><span class="sxs-lookup"><span data-stu-id="d3171-114"><a href="hh566265(v=exchg.10).md">Equals(JET_COLUMNID)</a></span></span></td>
-<td><span data-ttu-id="d3171-115">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="d3171-115">Returns a value indicating whether this instance is equal to another instance.</span></span></td>
+<td><span data-ttu-id="4ed6b-114"><a href="hh566265(v=exchg.10).md">等於 (JET_COLUMNID) </a></span><span class="sxs-lookup"><span data-stu-id="4ed6b-114"><a href="hh566265(v=exchg.10).md">Equals(JET_COLUMNID)</a></span></span></td>
+<td><span data-ttu-id="4ed6b-115">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="4ed6b-115">Returns a value indicating whether this instance is equal to another instance.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="d3171-116">頁首</span><span class="sxs-lookup"><span data-stu-id="d3171-116">Top</span></span>
+<span data-ttu-id="4ed6b-116">頁首</span><span class="sxs-lookup"><span data-stu-id="4ed6b-116">Top</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d3171-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d3171-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4ed6b-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4ed6b-117">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="d3171-118">參考</span><span class="sxs-lookup"><span data-stu-id="d3171-118">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="4ed6b-118">參考</span><span class="sxs-lookup"><span data-stu-id="4ed6b-118">Reference</span></span>
 
-[<span data-ttu-id="d3171-119">JET_COLUMNID 結構</span><span class="sxs-lookup"><span data-stu-id="d3171-119">JET_COLUMNID structure</span></span>](./jet-columnid-structure.md)
+[<span data-ttu-id="4ed6b-119">JET_COLUMNID 結構</span><span class="sxs-lookup"><span data-stu-id="4ed6b-119">JET_COLUMNID structure</span></span>](./jet-columnid-structure.md)
 
-[<span data-ttu-id="d3171-120">JET_COLUMNID 成員</span><span class="sxs-lookup"><span data-stu-id="d3171-120">JET_COLUMNID members</span></span>](./jet-columnid-members.md)
+[<span data-ttu-id="4ed6b-120">JET_COLUMNID 成員</span><span class="sxs-lookup"><span data-stu-id="4ed6b-120">JET_COLUMNID members</span></span>](./jet-columnid-members.md)
 
-[<span data-ttu-id="d3171-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="d3171-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="4ed6b-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="4ed6b-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

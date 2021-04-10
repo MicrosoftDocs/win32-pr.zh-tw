@@ -21,41 +21,41 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686265"
 ---
-# <a name="lattice-types"></a><span data-ttu-id="1300c-105">>lattice 類型</span><span class="sxs-lookup"><span data-stu-id="1300c-105">Lattice Types</span></span>
+# <a name="lattice-types"></a><span data-ttu-id="03c98-105">>lattice 類型</span><span class="sxs-lookup"><span data-stu-id="03c98-105">Lattice Types</span></span>
 
-<span data-ttu-id="1300c-106">下列常數可識別特定類型的 >lattice 屬性。</span><span class="sxs-lookup"><span data-stu-id="1300c-106">The following constants identify specific types of lattice properties.</span></span> <span data-ttu-id="1300c-107">這些值會與 [ITfLMLattice：： QueryType](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-querytype) 和 [ITfLMLattice：： EnumLatticeElements](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-enumlatticeelements) 方法搭配使用。</span><span class="sxs-lookup"><span data-stu-id="1300c-107">These values are used with the [ITfLMLattice::QueryType](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-querytype) and [ITfLMLattice::EnumLatticeElements](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-enumlatticeelements) methods.</span></span>
+<span data-ttu-id="03c98-106">下列常數可識別特定類型的 >lattice 屬性。</span><span class="sxs-lookup"><span data-stu-id="03c98-106">The following constants identify specific types of lattice properties.</span></span> <span data-ttu-id="03c98-107">這些值會與 [ITfLMLattice：： QueryType](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-querytype) 和 [ITfLMLattice：： EnumLatticeElements](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-enumlatticeelements) 方法搭配使用。</span><span class="sxs-lookup"><span data-stu-id="03c98-107">These values are used with the [ITfLMLattice::QueryType](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-querytype) and [ITfLMLattice::EnumLatticeElements](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-enumlatticeelements) methods.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="1300c-108"><span id="GUID_LMLATTICE_VER1_0"></span><span id="guid_lmlattice_ver1_0"></span>**GUID \_ 愛我的 lifeATTICE \_ VER1 \_ 0**</span><span class="sxs-lookup"><span data-stu-id="1300c-108"><span id="GUID_LMLATTICE_VER1_0"></span><span id="guid_lmlattice_ver1_0"></span>**GUID\_LMLATTICE\_VER1\_0**</span></span>
+<span data-ttu-id="03c98-108"><span id="GUID_LMLATTICE_VER1_0"></span><span id="guid_lmlattice_ver1_0"></span>**GUID \_ 愛我的 lifeATTICE \_ VER1 \_ 0**</span><span class="sxs-lookup"><span data-stu-id="03c98-108"><span id="GUID_LMLATTICE_VER1_0"></span><span id="guid_lmlattice_ver1_0"></span>**GUID\_LMLATTICE\_VER1\_0**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="1300c-109">指定 >lattice 屬性是1.0 版。</span><span class="sxs-lookup"><span data-stu-id="1300c-109">Specifies that the lattice property is version 1.0.</span></span>
+<span data-ttu-id="03c98-109">指定 >lattice 屬性是1.0 版。</span><span class="sxs-lookup"><span data-stu-id="03c98-109">Specifies that the lattice property is version 1.0.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="1300c-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="1300c-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="03c98-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="03c98-110">Requirements</span></span>
 
 
 
-| <span data-ttu-id="1300c-111">需求</span><span class="sxs-lookup"><span data-stu-id="1300c-111">Requirement</span></span> | <span data-ttu-id="1300c-112">值</span><span class="sxs-lookup"><span data-stu-id="1300c-112">Value</span></span> |
+| <span data-ttu-id="03c98-111">需求</span><span class="sxs-lookup"><span data-stu-id="03c98-111">Requirement</span></span> | <span data-ttu-id="03c98-112">值</span><span class="sxs-lookup"><span data-stu-id="03c98-112">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="1300c-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="1300c-113">Minimum supported client</span></span><br/> | <span data-ttu-id="1300c-114">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1300c-114">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                             |
-| <span data-ttu-id="1300c-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="1300c-115">Minimum supported server</span></span><br/> | <span data-ttu-id="1300c-116">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="1300c-116">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                   |
-| <span data-ttu-id="1300c-117">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="1300c-117">Redistributable</span></span><br/>          | <span data-ttu-id="1300c-118">Windows 2000 Professional 上的 TSF 1。0</span><span class="sxs-lookup"><span data-stu-id="1300c-118">TSF 1.0 on Windows 2000 Professional</span></span><br/>                                        |
-| <span data-ttu-id="1300c-119">標頭</span><span class="sxs-lookup"><span data-stu-id="1300c-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="1300c-120"><dt>Ctffunc。h</dt></span><span class="sxs-lookup"><span data-stu-id="1300c-120"><dt>Ctffunc.h</dt></span></span> </dl>   |
-| <span data-ttu-id="1300c-121">Idl</span><span class="sxs-lookup"><span data-stu-id="1300c-121">IDL</span></span><br/>                      | <dl> <span data-ttu-id="1300c-122"><dt>Ctffunc .idl</dt></span><span class="sxs-lookup"><span data-stu-id="1300c-122"><dt>Ctffunc.idl</dt></span></span> </dl> |
+| <span data-ttu-id="03c98-113">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="03c98-113">Minimum supported client</span></span><br/> | <span data-ttu-id="03c98-114">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="03c98-114">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                             |
+| <span data-ttu-id="03c98-115">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="03c98-115">Minimum supported server</span></span><br/> | <span data-ttu-id="03c98-116">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="03c98-116">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                   |
+| <span data-ttu-id="03c98-117">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="03c98-117">Redistributable</span></span><br/>          | <span data-ttu-id="03c98-118">Windows 2000 Professional 上的 TSF 1。0</span><span class="sxs-lookup"><span data-stu-id="03c98-118">TSF 1.0 on Windows 2000 Professional</span></span><br/>                                        |
+| <span data-ttu-id="03c98-119">標頭</span><span class="sxs-lookup"><span data-stu-id="03c98-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="03c98-120"><dt>Ctffunc。h</dt></span><span class="sxs-lookup"><span data-stu-id="03c98-120"><dt>Ctffunc.h</dt></span></span> </dl>   |
+| <span data-ttu-id="03c98-121">Idl</span><span class="sxs-lookup"><span data-stu-id="03c98-121">IDL</span></span><br/>                      | <dl> <span data-ttu-id="03c98-122"><dt>Ctffunc .idl</dt></span><span class="sxs-lookup"><span data-stu-id="03c98-122"><dt>Ctffunc.idl</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="1300c-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1300c-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="03c98-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="03c98-123">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="1300c-124">ITfLMLattice：： QueryType</span><span class="sxs-lookup"><span data-stu-id="1300c-124">ITfLMLattice::QueryType</span></span>](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-querytype)
+[<span data-ttu-id="03c98-124">ITfLMLattice：： QueryType</span><span class="sxs-lookup"><span data-stu-id="03c98-124">ITfLMLattice::QueryType</span></span>](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-querytype)
 </dt> <dt>
 
-[<span data-ttu-id="1300c-125">ITfLMLattice::EnumLatticeElements</span><span class="sxs-lookup"><span data-stu-id="1300c-125">ITfLMLattice::EnumLatticeElements</span></span>](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-enumlatticeelements)
+[<span data-ttu-id="03c98-125">ITfLMLattice::EnumLatticeElements</span><span class="sxs-lookup"><span data-stu-id="03c98-125">ITfLMLattice::EnumLatticeElements</span></span>](/windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-enumlatticeelements)
 </dt> </dl>
 
  

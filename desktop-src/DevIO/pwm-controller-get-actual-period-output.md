@@ -20,13 +20,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103688848"
 ---
-# <a name="pwm_controller_get_actual_period_output-structure"></a><span data-ttu-id="042e1-103">PWM \_ 控制器 \_ 取得 \_ 實際 \_ 期間 \_ 輸出結構</span><span class="sxs-lookup"><span data-stu-id="042e1-103">PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD\_OUTPUT structure</span></span>
+# <a name="pwm_controller_get_actual_period_output-structure"></a><span data-ttu-id="0b87d-103">PWM \_ 控制器 \_ 取得 \_ 實際 \_ 期間 \_ 輸出結構</span><span class="sxs-lookup"><span data-stu-id="0b87d-103">PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD\_OUTPUT structure</span></span>
 
-<span data-ttu-id="042e1-104">\[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。</span><span class="sxs-lookup"><span data-stu-id="042e1-104">\[Some information relates to pre-released product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="042e1-105">Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]</span><span class="sxs-lookup"><span data-stu-id="042e1-105">Microsoft makes no warranties, express or implied, with respect to the information provided here.\]</span></span>
+<span data-ttu-id="0b87d-104">\[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。</span><span class="sxs-lookup"><span data-stu-id="0b87d-104">\[Some information relates to pre-released product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="0b87d-105">Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]</span><span class="sxs-lookup"><span data-stu-id="0b87d-105">Microsoft makes no warranties, express or implied, with respect to the information provided here.\]</span></span>
 
-<span data-ttu-id="042e1-106">包含脈衝寬度調製 (PWM) 控制器的有效輸出信號期間。</span><span class="sxs-lookup"><span data-stu-id="042e1-106">Contains the effective output signal period for a Pulse Width Modulation (PWM) controller.</span></span>
+<span data-ttu-id="0b87d-106">包含脈衝寬度調製 (PWM) 控制器的有效輸出信號期間。</span><span class="sxs-lookup"><span data-stu-id="0b87d-106">Contains the effective output signal period for a Pulse Width Modulation (PWM) controller.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="042e1-107">語法</span><span class="sxs-lookup"><span data-stu-id="042e1-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0b87d-107">語法</span><span class="sxs-lookup"><span data-stu-id="0b87d-107">Syntax</span></span>
 
 
 ```C++
@@ -37,36 +37,36 @@ typedef struct _PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT {
 
 
 
-## <a name="members"></a><span data-ttu-id="042e1-108">成員</span><span class="sxs-lookup"><span data-stu-id="042e1-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="0b87d-108">成員</span><span class="sxs-lookup"><span data-stu-id="0b87d-108">Members</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="042e1-109">**ActualPeriod**</span><span class="sxs-lookup"><span data-stu-id="042e1-109">**ActualPeriod**</span></span>
+<span data-ttu-id="0b87d-109">**ActualPeriod**</span><span class="sxs-lookup"><span data-stu-id="0b87d-109">**ActualPeriod**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="042e1-110">在控制器輸出通道上測量的有效輸出信號週期。</span><span class="sxs-lookup"><span data-stu-id="042e1-110">The effective output signal period as it would be measured on the output channels of the controller.</span></span>
+<span data-ttu-id="0b87d-110">在控制器輸出通道上測量的有效輸出信號週期。</span><span class="sxs-lookup"><span data-stu-id="0b87d-110">The effective output signal period as it would be measured on the output channels of the controller.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="042e1-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="042e1-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="0b87d-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="0b87d-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="042e1-112">需求</span><span class="sxs-lookup"><span data-stu-id="042e1-112">Requirement</span></span> | <span data-ttu-id="042e1-113">值</span><span class="sxs-lookup"><span data-stu-id="042e1-113">Value</span></span> |
+| <span data-ttu-id="0b87d-112">需求</span><span class="sxs-lookup"><span data-stu-id="0b87d-112">Requirement</span></span> | <span data-ttu-id="0b87d-113">值</span><span class="sxs-lookup"><span data-stu-id="0b87d-113">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="042e1-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="042e1-114">Minimum supported client</span></span><br/> | <span data-ttu-id="042e1-115">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="042e1-115">Windows 10 \[desktop apps only\]</span></span><br/>                                                      |
-| <span data-ttu-id="042e1-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="042e1-116">Minimum supported server</span></span><br/> | <span data-ttu-id="042e1-117">僅限 Windows Server 2016 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="042e1-117">Windows Server 2016 \[desktop apps only\]</span></span><br/>                                             |
-| <span data-ttu-id="042e1-118">最小 KMDF 版本</span><span class="sxs-lookup"><span data-stu-id="042e1-118">Minimum KMDF version</span></span><br/>     | <span data-ttu-id="042e1-119">1.19</span><span class="sxs-lookup"><span data-stu-id="042e1-119">1.19</span></span><br/>                                                                                  |
-| <span data-ttu-id="042e1-120">最小的 UMDF 版本</span><span class="sxs-lookup"><span data-stu-id="042e1-120">Minimum UMDF version</span></span><br/>     | <span data-ttu-id="042e1-121">2.19</span><span class="sxs-lookup"><span data-stu-id="042e1-121">2.19</span></span><br/>                                                                                  |
-| <span data-ttu-id="042e1-122">標頭</span><span class="sxs-lookup"><span data-stu-id="042e1-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="042e1-123"><dt>Pwm (包含 Pwm) </dt></span><span class="sxs-lookup"><span data-stu-id="042e1-123"><dt>Pwm.h (include Pwm.h)</dt></span></span> </dl> |
+| <span data-ttu-id="0b87d-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="0b87d-114">Minimum supported client</span></span><br/> | <span data-ttu-id="0b87d-115">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0b87d-115">Windows 10 \[desktop apps only\]</span></span><br/>                                                      |
+| <span data-ttu-id="0b87d-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="0b87d-116">Minimum supported server</span></span><br/> | <span data-ttu-id="0b87d-117">僅限 Windows Server 2016 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0b87d-117">Windows Server 2016 \[desktop apps only\]</span></span><br/>                                             |
+| <span data-ttu-id="0b87d-118">最小 KMDF 版本</span><span class="sxs-lookup"><span data-stu-id="0b87d-118">Minimum KMDF version</span></span><br/>     | <span data-ttu-id="0b87d-119">1.19</span><span class="sxs-lookup"><span data-stu-id="0b87d-119">1.19</span></span><br/>                                                                                  |
+| <span data-ttu-id="0b87d-120">最小的 UMDF 版本</span><span class="sxs-lookup"><span data-stu-id="0b87d-120">Minimum UMDF version</span></span><br/>     | <span data-ttu-id="0b87d-121">2.19</span><span class="sxs-lookup"><span data-stu-id="0b87d-121">2.19</span></span><br/>                                                                                  |
+| <span data-ttu-id="0b87d-122">標頭</span><span class="sxs-lookup"><span data-stu-id="0b87d-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="0b87d-123"><dt>Pwm (包含 Pwm) </dt></span><span class="sxs-lookup"><span data-stu-id="0b87d-123"><dt>Pwm.h (include Pwm.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="042e1-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="042e1-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0b87d-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0b87d-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="042e1-125">**IOCTL \_ PWM \_ 控制器 \_ 取得 \_ 實際 \_ 期間**</span><span class="sxs-lookup"><span data-stu-id="042e1-125">**IOCTL\_PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD**</span></span>](https://www.bing.com/search?q=**IOCTL\_PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD**)
+[<span data-ttu-id="0b87d-125">**IOCTL \_ PWM \_ 控制器 \_ 取得 \_ 實際 \_ 期間**</span><span class="sxs-lookup"><span data-stu-id="0b87d-125">**IOCTL\_PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD**</span></span>](https://www.bing.com/search?q=**IOCTL\_PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD**)
 </dt> </dl>
 
  

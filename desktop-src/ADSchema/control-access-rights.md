@@ -12,15 +12,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/11/2019
 ms.locfileid: "104022935"
 ---
-# <a name="control-access-rights-ad-schema"></a><span data-ttu-id="d6848-103"> (AD 架構) 控制存取權限</span><span class="sxs-lookup"><span data-stu-id="d6848-103">Control Access Rights (AD Schema)</span></span>
+# <a name="control-access-rights-ad-schema"></a><span data-ttu-id="4b304-103"> (AD 架構) 控制存取權限</span><span class="sxs-lookup"><span data-stu-id="4b304-103">Control Access Rights (AD Schema)</span></span>
 
-<span data-ttu-id="d6848-104">下列主題提供 Active Directory 所定義的控制項存取權限類型清單。</span><span class="sxs-lookup"><span data-stu-id="d6848-104">The following topics provide lists of the types of control access rights defined by Active Directory.</span></span>
+<span data-ttu-id="4b304-104">下列主題提供 Active Directory 所定義的控制項存取權限類型清單。</span><span class="sxs-lookup"><span data-stu-id="4b304-104">The following topics provide lists of the types of control access rights defined by Active Directory.</span></span>
 
 <dl>
 
-[<span data-ttu-id="d6848-105">擴充許可權</span><span class="sxs-lookup"><span data-stu-id="d6848-105">Extended Rights</span></span>](extended-rights.md)  
-[<span data-ttu-id="d6848-106">屬性集</span><span class="sxs-lookup"><span data-stu-id="d6848-106">Property Sets</span></span>](property-sets.md)  
-[<span data-ttu-id="d6848-107">驗證的寫入</span><span class="sxs-lookup"><span data-stu-id="d6848-107">Validated Writes</span></span>](validated-writes.md)  
+[<span data-ttu-id="4b304-105">擴充許可權</span><span class="sxs-lookup"><span data-stu-id="4b304-105">Extended Rights</span></span>](extended-rights.md)  
+[<span data-ttu-id="4b304-106">屬性集</span><span class="sxs-lookup"><span data-stu-id="4b304-106">Property Sets</span></span>](property-sets.md)  
+[<span data-ttu-id="4b304-107">驗證的寫入</span><span class="sxs-lookup"><span data-stu-id="4b304-107">Validated Writes</span></span>](validated-writes.md)  
 </dl>
 
  
