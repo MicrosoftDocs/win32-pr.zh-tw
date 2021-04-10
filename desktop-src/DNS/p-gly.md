@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103685346"
 ---
-# <a name="p-dns"></a><span data-ttu-id="ca91d-103">P (DNS) </span><span class="sxs-lookup"><span data-stu-id="ca91d-103">P (DNS)</span></span>
+# <a name="p-dns"></a><span data-ttu-id="9f816-103">P (DNS) </span><span class="sxs-lookup"><span data-stu-id="9f816-103">P (DNS)</span></span>
 
-<span data-ttu-id="ca91d-104">B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O P Q [R](r-gly.md) [S](s-gly.md) T W X Y [Z](z-gly.md)</span><span class="sxs-lookup"><span data-stu-id="ca91d-104">A B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O P Q [R](r-gly.md) [S](s-gly.md) T U V W X Y [Z](z-gly.md)</span></span>
+<span data-ttu-id="9f816-104">B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O P Q [R](r-gly.md) [S](s-gly.md) T W X Y [Z](z-gly.md)</span><span class="sxs-lookup"><span data-stu-id="9f816-104">A B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O P Q [R](r-gly.md) [S](s-gly.md) T U V W X Y [Z](z-gly.md)</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="ca91d-105"><span id="_dns_pointer_record_gly"></span><span id="_DNS_POINTER_RECORD_GLY"></span>**指標記錄**</span><span class="sxs-lookup"><span data-stu-id="ca91d-105"><span id="_dns_pointer_record_gly"></span><span id="_DNS_POINTER_RECORD_GLY"></span>**pointer record**</span></span>
+<span data-ttu-id="9f816-105"><span id="_dns_pointer_record_gly"></span><span id="_DNS_POINTER_RECORD_GLY"></span>**指標記錄**</span><span class="sxs-lookup"><span data-stu-id="9f816-105"><span id="_dns_pointer_record_gly"></span><span id="_DNS_POINTER_RECORD_GLY"></span>**pointer record**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="ca91d-106">DNS 資源記錄的類型。</span><span class="sxs-lookup"><span data-stu-id="ca91d-106">Type of DNS Resource Record.</span></span>
+<span data-ttu-id="9f816-106">DNS 資源記錄的類型。</span><span class="sxs-lookup"><span data-stu-id="9f816-106">Type of DNS Resource Record.</span></span>
 
 </dd> </dl>
 

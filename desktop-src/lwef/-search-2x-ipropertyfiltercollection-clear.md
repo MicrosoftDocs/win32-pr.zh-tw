@@ -23,27 +23,27 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685795"
 ---
-# <a name="ipropertyfiltercollectionclear-property"></a><span data-ttu-id="134ec-106">IPropertyFilterCollection：： clear 屬性</span><span class="sxs-lookup"><span data-stu-id="134ec-106">IPropertyFilterCollection::clear property</span></span>
+# <a name="ipropertyfiltercollectionclear-property"></a><span data-ttu-id="b7f51-106">IPropertyFilterCollection：： clear 屬性</span><span class="sxs-lookup"><span data-stu-id="b7f51-106">IPropertyFilterCollection::clear property</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="134ec-107">Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。</span><span class="sxs-lookup"><span data-stu-id="134ec-107">Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003.</span></span> <span data-ttu-id="134ec-108">在更新版本中，請改用 [WINDOWS SEARCH API](../search/-search-reference-entry-page.md) 。</span><span class="sxs-lookup"><span data-stu-id="134ec-108">On later releases, use the [Windows Search API](../search/-search-reference-entry-page.md) instead.</span></span> 
+> <span data-ttu-id="b7f51-107">Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。</span><span class="sxs-lookup"><span data-stu-id="b7f51-107">Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003.</span></span> <span data-ttu-id="b7f51-108">在更新版本中，請改用 [WINDOWS SEARCH API](../search/-search-reference-entry-page.md) 。</span><span class="sxs-lookup"><span data-stu-id="b7f51-108">On later releases, use the [Windows Search API](../search/-search-reference-entry-page.md) instead.</span></span> 
 
-<span data-ttu-id="134ec-109">清除集合。</span><span class="sxs-lookup"><span data-stu-id="134ec-109">Clears the collection.</span></span>
+<span data-ttu-id="b7f51-109">清除集合。</span><span class="sxs-lookup"><span data-stu-id="b7f51-109">Clears the collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="134ec-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="134ec-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b7f51-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="b7f51-110">Syntax</span></span>
 
-## <a name="property-value"></a><span data-ttu-id="134ec-111">屬性值</span><span class="sxs-lookup"><span data-stu-id="134ec-111">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="b7f51-111">屬性值</span><span class="sxs-lookup"><span data-stu-id="b7f51-111">Property value</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="134ec-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="134ec-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b7f51-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="b7f51-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="134ec-113">需求</span><span class="sxs-lookup"><span data-stu-id="134ec-113">Requirement</span></span> | <span data-ttu-id="134ec-114">值</span><span class="sxs-lookup"><span data-stu-id="134ec-114">Value</span></span> |
+| <span data-ttu-id="b7f51-113">需求</span><span class="sxs-lookup"><span data-stu-id="b7f51-113">Requirement</span></span> | <span data-ttu-id="b7f51-114">值</span><span class="sxs-lookup"><span data-stu-id="b7f51-114">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| <span data-ttu-id="134ec-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="134ec-115">Minimum supported client</span></span><br/> | <span data-ttu-id="134ec-116">僅限 Windows XP （含 SP2） \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="134ec-116">Windows XP with SP2 \[desktop apps only\]</span></span><br/>                                      |
-| <span data-ttu-id="134ec-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="134ec-117">Minimum supported server</span></span><br/> | <span data-ttu-id="134ec-118">僅限 Windows Server 2003 與 SP1 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="134ec-118">Windows Server 2003 with SP1 \[desktop apps only\]</span></span><br/>                             |
-| <span data-ttu-id="134ec-119">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="134ec-119">Redistributable</span></span><br/>          | <span data-ttu-id="134ec-120">Windows 桌面搜尋 (WDS) 2.6。5</span><span class="sxs-lookup"><span data-stu-id="134ec-120">Windows Desktop Search (WDS) 2.6.5</span></span><br/>                                             |
-| <span data-ttu-id="134ec-121">標頭</span><span class="sxs-lookup"><span data-stu-id="134ec-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="134ec-122"><dt>WdsSharedIDL。h</dt></span><span class="sxs-lookup"><span data-stu-id="134ec-122"><dt>WdsSharedIDL.h</dt></span></span> </dl> |
+| <span data-ttu-id="b7f51-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b7f51-115">Minimum supported client</span></span><br/> | <span data-ttu-id="b7f51-116">僅限 Windows XP （含 SP2） \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b7f51-116">Windows XP with SP2 \[desktop apps only\]</span></span><br/>                                      |
+| <span data-ttu-id="b7f51-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b7f51-117">Minimum supported server</span></span><br/> | <span data-ttu-id="b7f51-118">僅限 Windows Server 2003 與 SP1 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b7f51-118">Windows Server 2003 with SP1 \[desktop apps only\]</span></span><br/>                             |
+| <span data-ttu-id="b7f51-119">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="b7f51-119">Redistributable</span></span><br/>          | <span data-ttu-id="b7f51-120">Windows 桌面搜尋 (WDS) 2.6。5</span><span class="sxs-lookup"><span data-stu-id="b7f51-120">Windows Desktop Search (WDS) 2.6.5</span></span><br/>                                             |
+| <span data-ttu-id="b7f51-121">標頭</span><span class="sxs-lookup"><span data-stu-id="b7f51-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="b7f51-122"><dt>WdsSharedIDL。h</dt></span><span class="sxs-lookup"><span data-stu-id="b7f51-122"><dt>WdsSharedIDL.h</dt></span></span> </dl> |
 
 
 

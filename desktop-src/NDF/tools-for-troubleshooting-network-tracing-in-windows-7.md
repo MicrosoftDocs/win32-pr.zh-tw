@@ -11,20 +11,20 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103683042"
 ---
-# <a name="tools-for-troubleshooting-using-network-tracing-in-windows-7"></a><span data-ttu-id="c6543-103">在 Windows 7 中使用網路追蹤進行疑難排解的工具</span><span class="sxs-lookup"><span data-stu-id="c6543-103">Tools for Troubleshooting using Network Tracing in Windows 7</span></span>
+# <a name="tools-for-troubleshooting-using-network-tracing-in-windows-7"></a><span data-ttu-id="fb4a6-103">在 Windows 7 中使用網路追蹤進行疑難排解的工具</span><span class="sxs-lookup"><span data-stu-id="fb4a6-103">Tools for Troubleshooting using Network Tracing in Windows 7</span></span>
 
-<span data-ttu-id="c6543-104">有一些工具可用來協助啟用和管理網路追蹤，以及查看產生的資料。</span><span class="sxs-lookup"><span data-stu-id="c6543-104">There are a number of tools which can be used to help enable and manage Network Tracing and to view the resulting data.</span></span> <span data-ttu-id="c6543-105">一些可能有用的工具組括 Netsh.exe、網路監視器、事件檢視器、 **netsh trace convert**、Tracerpt.exe 和 Xperf.exe。</span><span class="sxs-lookup"><span data-stu-id="c6543-105">Some of the tools that may be helpful are Netsh.exe, Network Monitor, Event Viewer, **netsh trace convert**, Tracerpt.exe, and Xperf.exe.</span></span>
+<span data-ttu-id="fb4a6-104">有一些工具可用來協助啟用和管理網路追蹤，以及查看產生的資料。</span><span class="sxs-lookup"><span data-stu-id="fb4a6-104">There are a number of tools which can be used to help enable and manage Network Tracing and to view the resulting data.</span></span> <span data-ttu-id="fb4a6-105">一些可能有用的工具組括 Netsh.exe、網路監視器、事件檢視器、 **netsh trace convert**、Tracerpt.exe 和 Xperf.exe。</span><span class="sxs-lookup"><span data-stu-id="fb4a6-105">Some of the tools that may be helpful are Netsh.exe, Network Monitor, Event Viewer, **netsh trace convert**, Tracerpt.exe, and Xperf.exe.</span></span>
 
-<span data-ttu-id="c6543-106">在本節中，我們將探討如何使用 Netsh.exe 和網路監視器協助疑難排解網路追蹤。</span><span class="sxs-lookup"><span data-stu-id="c6543-106">In this section we will look at how to use Netsh.exe and Network Monitor to help with troubleshooting network tracing.</span></span>
+<span data-ttu-id="fb4a6-106">在本節中，我們將探討如何使用 Netsh.exe 和網路監視器協助疑難排解網路追蹤。</span><span class="sxs-lookup"><span data-stu-id="fb4a6-106">In this section we will look at how to use Netsh.exe and Network Monitor to help with troubleshooting network tracing.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="c6543-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="c6543-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fb4a6-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="fb4a6-107">In This Section</span></span>
 
 
 
-| <span data-ttu-id="c6543-108">主題</span><span class="sxs-lookup"><span data-stu-id="c6543-108">Topic</span></span>                                                                                  |
+| <span data-ttu-id="fb4a6-108">主題</span><span class="sxs-lookup"><span data-stu-id="fb4a6-108">Topic</span></span>                                                                                  |
 |----------------------------------------------------------------------------------------|
-| [<span data-ttu-id="c6543-109">使用 Netsh 來管理追蹤</span><span class="sxs-lookup"><span data-stu-id="c6543-109">Using Netsh to Manage Traces</span></span>](using-netsh-to-manage-traces.md)                       |
-| [<span data-ttu-id="c6543-110">使用網路監視器來查看 ETL 檔案</span><span class="sxs-lookup"><span data-stu-id="c6543-110">Using Network Monitor to View ETL Files</span></span>](/windows/desktop/NDF/using-network-monitor-to-view-etl-files) |
+| [<span data-ttu-id="fb4a6-109">使用 Netsh 來管理追蹤</span><span class="sxs-lookup"><span data-stu-id="fb4a6-109">Using Netsh to Manage Traces</span></span>](using-netsh-to-manage-traces.md)                       |
+| [<span data-ttu-id="fb4a6-110">使用網路監視器來查看 ETL 檔案</span><span class="sxs-lookup"><span data-stu-id="fb4a6-110">Using Network Monitor to View ETL Files</span></span>](/windows/desktop/NDF/using-network-monitor-to-view-etl-files) |
 
 
 

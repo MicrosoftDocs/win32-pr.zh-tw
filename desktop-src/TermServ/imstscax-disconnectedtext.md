@@ -71,13 +71,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686064"
 ---
-# <a name="imstscaxdisconnectedtext-property"></a><span data-ttu-id="6dc10-124">IMsTscAx：:D isconnectedText 屬性</span><span class="sxs-lookup"><span data-stu-id="6dc10-124">IMsTscAx::DisconnectedText property</span></span>
+# <a name="imstscaxdisconnectedtext-property"></a><span data-ttu-id="153da-124">IMsTscAx：:D isconnectedText 屬性</span><span class="sxs-lookup"><span data-stu-id="153da-124">IMsTscAx::DisconnectedText property</span></span>
 
-<span data-ttu-id="6dc10-125">指定在連接結束之前，顯示在控制項中央的文字。</span><span class="sxs-lookup"><span data-stu-id="6dc10-125">Specifies the text that appears centered in the control before a connection is terminated.</span></span>
+<span data-ttu-id="153da-125">指定在連接結束之前，顯示在控制項中央的文字。</span><span class="sxs-lookup"><span data-stu-id="153da-125">Specifies the text that appears centered in the control before a connection is terminated.</span></span>
 
-<span data-ttu-id="6dc10-126">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="6dc10-126">This property is read/write.</span></span>
+<span data-ttu-id="153da-126">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="153da-126">This property is read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6dc10-127">Syntax</span><span class="sxs-lookup"><span data-stu-id="6dc10-127">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="153da-127">Syntax</span><span class="sxs-lookup"><span data-stu-id="153da-127">Syntax</span></span>
 
 
 ```C++
@@ -92,70 +92,70 @@ HRESULT get_DisconnectedText(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="6dc10-128">屬性值</span><span class="sxs-lookup"><span data-stu-id="6dc10-128">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="153da-128">屬性值</span><span class="sxs-lookup"><span data-stu-id="153da-128">Property value</span></span>
 
-<span data-ttu-id="6dc10-129">新的顯示文字。</span><span class="sxs-lookup"><span data-stu-id="6dc10-129">The new display text.</span></span>
+<span data-ttu-id="153da-129">新的顯示文字。</span><span class="sxs-lookup"><span data-stu-id="153da-129">The new display text.</span></span>
 
-## <a name="error-codes"></a><span data-ttu-id="6dc10-130">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="6dc10-130">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="153da-130">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="153da-130">Error codes</span></span>
 
-<span data-ttu-id="6dc10-131">如果成功，則傳回 **S \_ OK** 。</span><span class="sxs-lookup"><span data-stu-id="6dc10-131">Return **S\_OK** if successful.</span></span>
+<span data-ttu-id="153da-131">如果成功，則傳回 **S \_ OK** 。</span><span class="sxs-lookup"><span data-stu-id="153da-131">Return **S\_OK** if successful.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6dc10-132">備註</span><span class="sxs-lookup"><span data-stu-id="6dc10-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="153da-132">備註</span><span class="sxs-lookup"><span data-stu-id="153da-132">Remarks</span></span>
 
-<span data-ttu-id="6dc10-133">設定 **DisconnectedText** 屬性是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="6dc10-133">Setting the **DisconnectedText** property is optional.</span></span> <span data-ttu-id="6dc10-134">如果未指定，則在建立連接之前，控制項會顯示空白。</span><span class="sxs-lookup"><span data-stu-id="6dc10-134">If it is not specified the control appears blank before a connection is established.</span></span>
+<span data-ttu-id="153da-133">設定 **DisconnectedText** 屬性是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="153da-133">Setting the **DisconnectedText** property is optional.</span></span> <span data-ttu-id="153da-134">如果未指定，則在建立連接之前，控制項會顯示空白。</span><span class="sxs-lookup"><span data-stu-id="153da-134">If it is not specified the control appears blank before a connection is established.</span></span>
 
-<span data-ttu-id="6dc10-135">只有當控制項不是處於連接狀態時，才能設定這個屬性。</span><span class="sxs-lookup"><span data-stu-id="6dc10-135">This property can be set only if the control is not in the connected state.</span></span> <span data-ttu-id="6dc10-136">如果在連接控制項之後呼叫這個方法，方法會傳回 **E \_ FAIL** 。</span><span class="sxs-lookup"><span data-stu-id="6dc10-136">The method returns **E\_FAIL** if it is called after the control is connected.</span></span> <span data-ttu-id="6dc10-137">您可以藉由回應 [**IMsTscAxEvents**](imstscaxevents-interface.md) 中的連接事件，或檢查 [**連接**](imstscax-connected.md) 的屬性來檢查控制項是否已連接。</span><span class="sxs-lookup"><span data-stu-id="6dc10-137">You can check if the control is connected by responding to connection events in [**IMsTscAxEvents**](imstscaxevents-interface.md) or examining the [**Connected**](imstscax-connected.md) property.</span></span>
+<span data-ttu-id="153da-135">只有當控制項不是處於連接狀態時，才能設定這個屬性。</span><span class="sxs-lookup"><span data-stu-id="153da-135">This property can be set only if the control is not in the connected state.</span></span> <span data-ttu-id="153da-136">如果在連接控制項之後呼叫這個方法，方法會傳回 **E \_ FAIL** 。</span><span class="sxs-lookup"><span data-stu-id="153da-136">The method returns **E\_FAIL** if it is called after the control is connected.</span></span> <span data-ttu-id="153da-137">您可以藉由回應 [**IMsTscAxEvents**](imstscaxevents-interface.md) 中的連接事件，或檢查 [**連接**](imstscax-connected.md) 的屬性來檢查控制項是否已連接。</span><span class="sxs-lookup"><span data-stu-id="153da-137">You can check if the control is connected by responding to connection events in [**IMsTscAxEvents**](imstscaxevents-interface.md) or examining the [**Connected**](imstscax-connected.md) property.</span></span>
 
-<span data-ttu-id="6dc10-138">這個方法會配置 *pDisconnectedText* 參數所指向之緩衝區所需的記憶體。</span><span class="sxs-lookup"><span data-stu-id="6dc10-138">This method allocates the memory required for the buffer pointed to by the *pDisconnectedText* parameter.</span></span> <span data-ttu-id="6dc10-139">呼叫 C/c + + 應用程式時，必須透過呼叫 [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) 函式來釋放記憶體。</span><span class="sxs-lookup"><span data-stu-id="6dc10-139">Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function.</span></span> <span data-ttu-id="6dc10-140">Visual Basic 和腳本用戶端都不需要這麼做。</span><span class="sxs-lookup"><span data-stu-id="6dc10-140">This is not required for Visual Basic and scripting clients.</span></span>
+<span data-ttu-id="153da-138">這個方法會配置 *pDisconnectedText* 參數所指向之緩衝區所需的記憶體。</span><span class="sxs-lookup"><span data-stu-id="153da-138">This method allocates the memory required for the buffer pointed to by the *pDisconnectedText* parameter.</span></span> <span data-ttu-id="153da-139">呼叫 C/c + + 應用程式時，必須透過呼叫 [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) 函式來釋放記憶體。</span><span class="sxs-lookup"><span data-stu-id="153da-139">Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function.</span></span> <span data-ttu-id="153da-140">Visual Basic 和腳本用戶端都不需要這麼做。</span><span class="sxs-lookup"><span data-stu-id="153da-140">This is not required for Visual Basic and scripting clients.</span></span>
 
-<span data-ttu-id="6dc10-141">如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。</span><span class="sxs-lookup"><span data-stu-id="6dc10-141">For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).</span></span>
+<span data-ttu-id="153da-141">如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。</span><span class="sxs-lookup"><span data-stu-id="153da-141">For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="6dc10-142">規格需求</span><span class="sxs-lookup"><span data-stu-id="6dc10-142">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="153da-142">規格需求</span><span class="sxs-lookup"><span data-stu-id="153da-142">Requirements</span></span>
 
 
 
-| <span data-ttu-id="6dc10-143">需求</span><span class="sxs-lookup"><span data-stu-id="6dc10-143">Requirement</span></span> | <span data-ttu-id="6dc10-144">值</span><span class="sxs-lookup"><span data-stu-id="6dc10-144">Value</span></span> |
+| <span data-ttu-id="153da-143">需求</span><span class="sxs-lookup"><span data-stu-id="153da-143">Requirement</span></span> | <span data-ttu-id="153da-144">值</span><span class="sxs-lookup"><span data-stu-id="153da-144">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="6dc10-145">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6dc10-145">Minimum supported client</span></span><br/> | <span data-ttu-id="6dc10-146">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="6dc10-146">Windows Vista</span></span><br/>                                                               |
-| <span data-ttu-id="6dc10-147">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6dc10-147">Minimum supported server</span></span><br/> | <span data-ttu-id="6dc10-148">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="6dc10-148">Windows Server 2008</span></span><br/>                                                         |
-| <span data-ttu-id="6dc10-149">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="6dc10-149">Type library</span></span><br/>             | <dl> <span data-ttu-id="6dc10-150"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="6dc10-150"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="6dc10-151">DLL</span><span class="sxs-lookup"><span data-stu-id="6dc10-151">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6dc10-152"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="6dc10-152"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="6dc10-153">IID</span><span class="sxs-lookup"><span data-stu-id="6dc10-153">IID</span></span><br/>                      | <span data-ttu-id="6dc10-154">IID \_ IMsTscAx 定義為8C11EFAE-92C3-11D1-BC1E-00C04FA31489</span><span class="sxs-lookup"><span data-stu-id="6dc10-154">IID\_IMsTscAx is defined as 8C11EFAE-92C3-11D1-BC1E-00C04FA31489</span></span><br/>            |
+| <span data-ttu-id="153da-145">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="153da-145">Minimum supported client</span></span><br/> | <span data-ttu-id="153da-146">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="153da-146">Windows Vista</span></span><br/>                                                               |
+| <span data-ttu-id="153da-147">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="153da-147">Minimum supported server</span></span><br/> | <span data-ttu-id="153da-148">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="153da-148">Windows Server 2008</span></span><br/>                                                         |
+| <span data-ttu-id="153da-149">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="153da-149">Type library</span></span><br/>             | <dl> <span data-ttu-id="153da-150"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="153da-150"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="153da-151">DLL</span><span class="sxs-lookup"><span data-stu-id="153da-151">DLL</span></span><br/>                      | <dl> <span data-ttu-id="153da-152"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="153da-152"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="153da-153">IID</span><span class="sxs-lookup"><span data-stu-id="153da-153">IID</span></span><br/>                      | <span data-ttu-id="153da-154">IID \_ IMsTscAx 定義為8C11EFAE-92C3-11D1-BC1E-00C04FA31489</span><span class="sxs-lookup"><span data-stu-id="153da-154">IID\_IMsTscAx is defined as 8C11EFAE-92C3-11D1-BC1E-00C04FA31489</span></span><br/>            |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="6dc10-155">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6dc10-155">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="153da-155">另請參閱</span><span class="sxs-lookup"><span data-stu-id="153da-155">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6dc10-156">**IMsRdpClient**</span><span class="sxs-lookup"><span data-stu-id="6dc10-156">**IMsRdpClient**</span></span>](imsrdpclient-interface.md)
+[<span data-ttu-id="153da-156">**IMsRdpClient**</span><span class="sxs-lookup"><span data-stu-id="153da-156">**IMsRdpClient**</span></span>](imsrdpclient-interface.md)
 </dt> <dt>
 
-[<span data-ttu-id="6dc10-157">**IMsRdpClient2**</span><span class="sxs-lookup"><span data-stu-id="6dc10-157">**IMsRdpClient2**</span></span>](imsrdpclient2.md)
+[<span data-ttu-id="153da-157">**IMsRdpClient2**</span><span class="sxs-lookup"><span data-stu-id="153da-157">**IMsRdpClient2**</span></span>](imsrdpclient2.md)
 </dt> <dt>
 
-[<span data-ttu-id="6dc10-158">**IMsRdpClient3**</span><span class="sxs-lookup"><span data-stu-id="6dc10-158">**IMsRdpClient3**</span></span>](imsrdpclient3.md)
+[<span data-ttu-id="153da-158">**IMsRdpClient3**</span><span class="sxs-lookup"><span data-stu-id="153da-158">**IMsRdpClient3**</span></span>](imsrdpclient3.md)
 </dt> <dt>
 
-[<span data-ttu-id="6dc10-159">**IMsRdpClient4**</span><span class="sxs-lookup"><span data-stu-id="6dc10-159">**IMsRdpClient4**</span></span>](imsrdpclient4.md)
+[<span data-ttu-id="153da-159">**IMsRdpClient4**</span><span class="sxs-lookup"><span data-stu-id="153da-159">**IMsRdpClient4**</span></span>](imsrdpclient4.md)
 </dt> <dt>
 
-[<span data-ttu-id="6dc10-160">**IMsRdpClient5**</span><span class="sxs-lookup"><span data-stu-id="6dc10-160">**IMsRdpClient5**</span></span>](imsrdpclient5.md)
+[<span data-ttu-id="153da-160">**IMsRdpClient5**</span><span class="sxs-lookup"><span data-stu-id="153da-160">**IMsRdpClient5**</span></span>](imsrdpclient5.md)
 </dt> <dt>
 
-[<span data-ttu-id="6dc10-161">**IMsRdpClient6**</span><span class="sxs-lookup"><span data-stu-id="6dc10-161">**IMsRdpClient6**</span></span>](imsrdpclient6.md)
+[<span data-ttu-id="153da-161">**IMsRdpClient6**</span><span class="sxs-lookup"><span data-stu-id="153da-161">**IMsRdpClient6**</span></span>](imsrdpclient6.md)
 </dt> <dt>
 
-[<span data-ttu-id="6dc10-162">**IMsRdpClient7**</span><span class="sxs-lookup"><span data-stu-id="6dc10-162">**IMsRdpClient7**</span></span>](imsrdpclient7.md)
+[<span data-ttu-id="153da-162">**IMsRdpClient7**</span><span class="sxs-lookup"><span data-stu-id="153da-162">**IMsRdpClient7**</span></span>](imsrdpclient7.md)
 </dt> <dt>
 
-[<span data-ttu-id="6dc10-163">**IMsRdpClient8**</span><span class="sxs-lookup"><span data-stu-id="6dc10-163">**IMsRdpClient8**</span></span>](imsrdpclient8.md)
+[<span data-ttu-id="153da-163">**IMsRdpClient8**</span><span class="sxs-lookup"><span data-stu-id="153da-163">**IMsRdpClient8**</span></span>](imsrdpclient8.md)
 </dt> <dt>
 
-[<span data-ttu-id="6dc10-164">**IMsRdpClient9**</span><span class="sxs-lookup"><span data-stu-id="6dc10-164">**IMsRdpClient9**</span></span>](imsrdpclient9.md)
+[<span data-ttu-id="153da-164">**IMsRdpClient9**</span><span class="sxs-lookup"><span data-stu-id="153da-164">**IMsRdpClient9**</span></span>](imsrdpclient9.md)
 </dt> <dt>
 
-[<span data-ttu-id="6dc10-165">**IMsTscAx**</span><span class="sxs-lookup"><span data-stu-id="6dc10-165">**IMsTscAx**</span></span>](imstscax-interface.md)
+[<span data-ttu-id="153da-165">**IMsTscAx**</span><span class="sxs-lookup"><span data-stu-id="153da-165">**IMsTscAx**</span></span>](imstscax-interface.md)
 </dt> </dl>
 
  

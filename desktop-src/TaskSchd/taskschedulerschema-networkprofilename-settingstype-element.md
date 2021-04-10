@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686072"
 ---
-# <a name="networkprofilename-settingstype-element"></a><span data-ttu-id="bfea3-106">NetworkProfileName (settingsType) 元素</span><span class="sxs-lookup"><span data-stu-id="bfea3-106">NetworkProfileName (settingsType) Element</span></span>
+# <a name="networkprofilename-settingstype-element"></a><span data-ttu-id="462d3-106">NetworkProfileName (settingsType) 元素</span><span class="sxs-lookup"><span data-stu-id="462d3-106">NetworkProfileName (settingsType) Element</span></span>
 
-<span data-ttu-id="bfea3-107">包含網路設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="bfea3-107">Contains the name of a network profile.</span></span> <span data-ttu-id="bfea3-108">當 [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) 元素設定為 **True** 時，工作排程器服務會檢查此網路的可用性。</span><span class="sxs-lookup"><span data-stu-id="bfea3-108">The Task Scheduler service checks the availability of this network when the [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) element is set to **True**.</span></span> <span data-ttu-id="bfea3-109">此名稱會用於顯示用途。</span><span class="sxs-lookup"><span data-stu-id="bfea3-109">The name is used for display purposes.</span></span>
+<span data-ttu-id="462d3-107">包含網路設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="462d3-107">Contains the name of a network profile.</span></span> <span data-ttu-id="462d3-108">當 [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) 元素設定為 **True** 時，工作排程器服務會檢查此網路的可用性。</span><span class="sxs-lookup"><span data-stu-id="462d3-108">The Task Scheduler service checks the availability of this network when the [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) element is set to **True**.</span></span> <span data-ttu-id="462d3-109">此名稱會用於顯示用途。</span><span class="sxs-lookup"><span data-stu-id="462d3-109">The name is used for display purposes.</span></span>
 
 ``` syntax
 <xs:element name="NetworkProfileName"
@@ -31,26 +31,26 @@ ms.locfileid: "103686072"
  />
 ```
 
-<span data-ttu-id="bfea3-110">**NetworkProfileName** 元素是由 [**settingsType**](taskschedulerschema-settingstype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="bfea3-110">The **NetworkProfileName** element is defined by the [**settingsType**](taskschedulerschema-settingstype-complextype.md) complex type.</span></span>
+<span data-ttu-id="462d3-110">**NetworkProfileName** 元素是由 [**settingsType**](taskschedulerschema-settingstype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="462d3-110">The **NetworkProfileName** element is defined by the [**settingsType**](taskschedulerschema-settingstype-complextype.md) complex type.</span></span>
 
-## <a name="parent-element"></a><span data-ttu-id="bfea3-111">父元素</span><span class="sxs-lookup"><span data-stu-id="bfea3-111">Parent element</span></span>
+## <a name="parent-element"></a><span data-ttu-id="462d3-111">父元素</span><span class="sxs-lookup"><span data-stu-id="462d3-111">Parent element</span></span>
 
 
 
-| <span data-ttu-id="bfea3-112">元素</span><span class="sxs-lookup"><span data-stu-id="bfea3-112">Element</span></span>                                                                      | <span data-ttu-id="bfea3-113">衍生自</span><span class="sxs-lookup"><span data-stu-id="bfea3-113">Derived from</span></span>                                                         | <span data-ttu-id="bfea3-114">Description</span><span class="sxs-lookup"><span data-stu-id="bfea3-114">Description</span></span>                                                                         |
+| <span data-ttu-id="462d3-112">元素</span><span class="sxs-lookup"><span data-stu-id="462d3-112">Element</span></span>                                                                      | <span data-ttu-id="462d3-113">衍生自</span><span class="sxs-lookup"><span data-stu-id="462d3-113">Derived from</span></span>                                                         | <span data-ttu-id="462d3-114">Description</span><span class="sxs-lookup"><span data-stu-id="462d3-114">Description</span></span>                                                                         |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| [<span data-ttu-id="bfea3-115">**設定 (taskType)**</span><span class="sxs-lookup"><span data-stu-id="bfea3-115">**Settings (taskType)**</span></span>](taskschedulerschema-settings-tasktype-element.md) | [<span data-ttu-id="bfea3-116">**settingsType**</span><span class="sxs-lookup"><span data-stu-id="bfea3-116">**settingsType**</span></span>](taskschedulerschema-settingstype-complextype.md) | <span data-ttu-id="bfea3-117">指定工作排程器用來執行工作的設定。</span><span class="sxs-lookup"><span data-stu-id="bfea3-117">Specifies the settings that the Task Scheduler uses to perform the task.</span></span><br/> |
+| [<span data-ttu-id="462d3-115">**設定 (taskType)**</span><span class="sxs-lookup"><span data-stu-id="462d3-115">**Settings (taskType)**</span></span>](taskschedulerschema-settings-tasktype-element.md) | [<span data-ttu-id="462d3-116">**settingsType**</span><span class="sxs-lookup"><span data-stu-id="462d3-116">**settingsType**</span></span>](taskschedulerschema-settingstype-complextype.md) | <span data-ttu-id="462d3-117">指定工作排程器用來執行工作的設定。</span><span class="sxs-lookup"><span data-stu-id="462d3-117">Specifies the settings that the Task Scheduler uses to perform the task.</span></span><br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="bfea3-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="bfea3-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="462d3-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="462d3-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="bfea3-119">需求</span><span class="sxs-lookup"><span data-stu-id="bfea3-119">Requirement</span></span> | <span data-ttu-id="bfea3-120">值</span><span class="sxs-lookup"><span data-stu-id="bfea3-120">Value</span></span> |
+| <span data-ttu-id="462d3-119">需求</span><span class="sxs-lookup"><span data-stu-id="462d3-119">Requirement</span></span> | <span data-ttu-id="462d3-120">值</span><span class="sxs-lookup"><span data-stu-id="462d3-120">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="bfea3-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="bfea3-121">Minimum supported client</span></span><br/> | <span data-ttu-id="bfea3-122">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="bfea3-122">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="bfea3-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="bfea3-123">Minimum supported server</span></span><br/> | <span data-ttu-id="bfea3-124">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="bfea3-124">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="462d3-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="462d3-121">Minimum supported client</span></span><br/> | <span data-ttu-id="462d3-122">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="462d3-122">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="462d3-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="462d3-123">Minimum supported server</span></span><br/> | <span data-ttu-id="462d3-124">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="462d3-124">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 

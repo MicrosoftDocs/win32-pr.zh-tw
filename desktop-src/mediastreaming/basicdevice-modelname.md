@@ -22,13 +22,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103682225"
 ---
-# <a name="basicdevicemodelname-property"></a><span data-ttu-id="c5142-106">BasicDevice. ModelName 屬性</span><span class="sxs-lookup"><span data-stu-id="c5142-106">BasicDevice.ModelName property</span></span>
+# <a name="basicdevicemodelname-property"></a><span data-ttu-id="76be6-106">BasicDevice. ModelName 屬性</span><span class="sxs-lookup"><span data-stu-id="76be6-106">BasicDevice.ModelName property</span></span>
 
-<span data-ttu-id="c5142-107">取得裝置的模型名稱。</span><span class="sxs-lookup"><span data-stu-id="c5142-107">Gets the model name of the device.</span></span>
+<span data-ttu-id="76be6-107">取得裝置的模型名稱。</span><span class="sxs-lookup"><span data-stu-id="76be6-107">Gets the model name of the device.</span></span>
 
-<span data-ttu-id="c5142-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="c5142-108">This property is read-only.</span></span>
+<span data-ttu-id="76be6-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="76be6-108">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c5142-109">語法</span><span class="sxs-lookup"><span data-stu-id="c5142-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="76be6-109">語法</span><span class="sxs-lookup"><span data-stu-id="76be6-109">Syntax</span></span>
 
 
 ```C++
@@ -39,15 +39,15 @@ HRESULT get_ModelName(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="c5142-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="c5142-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="76be6-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="76be6-110">Property value</span></span>
 
-<span data-ttu-id="c5142-111">裝置模型名稱的指標。</span><span class="sxs-lookup"><span data-stu-id="c5142-111">A pointer to the device’s model name.</span></span>
+<span data-ttu-id="76be6-111">裝置模型名稱的指標。</span><span class="sxs-lookup"><span data-stu-id="76be6-111">A pointer to the device’s model name.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c5142-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c5142-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="76be6-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="76be6-112">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c5142-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c5142-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span></span>
+<span data-ttu-id="76be6-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="76be6-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span></span>
 </dt> </dl>
 
  

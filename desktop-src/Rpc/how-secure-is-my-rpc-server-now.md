@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932265"
 ---
-# <a name="how-secure-is-my-rpc-server-now"></a><span data-ttu-id="d98fc-104">我的 RPC 伺服器現在有多安全？</span><span class="sxs-lookup"><span data-stu-id="d98fc-104">How Secure is My RPC Server Now?</span></span>
+# <a name="how-secure-is-my-rpc-server-now"></a><span data-ttu-id="e524b-104">我的 RPC 伺服器現在有多安全？</span><span class="sxs-lookup"><span data-stu-id="e524b-104">How Secure is My RPC Server Now?</span></span>
 
-<span data-ttu-id="d98fc-105">遵循本節所述的安全性（在 RPC SDK 的其他地方提供），而且通常會被視為適當的安全性作法，將會產生非常安全的伺服器。</span><span class="sxs-lookup"><span data-stu-id="d98fc-105">Following the security outlined in this section, provided elsewhere in the RPC SDK, and generally accepted as proper security practices, will result in a server that is very secure.</span></span> <span data-ttu-id="d98fc-106">這類伺服器會受到保護，以防止滲透攻擊或隱私權缺口。</span><span class="sxs-lookup"><span data-stu-id="d98fc-106">Such servers are protected from penetration attacks or privacy breaches.</span></span>
+<span data-ttu-id="e524b-105">遵循本節所述的安全性（在 RPC SDK 的其他地方提供），而且通常會被視為適當的安全性作法，將會產生非常安全的伺服器。</span><span class="sxs-lookup"><span data-stu-id="e524b-105">Following the security outlined in this section, provided elsewhere in the RPC SDK, and generally accepted as proper security practices, will result in a server that is very secure.</span></span> <span data-ttu-id="e524b-106">這類伺服器會受到保護，以防止滲透攻擊或隱私權缺口。</span><span class="sxs-lookup"><span data-stu-id="e524b-106">Such servers are protected from penetration attacks or privacy breaches.</span></span>
 
-<span data-ttu-id="d98fc-107">如果狀態是在 RPC 呼叫之間保留，請確定單一用戶端不會導致配置過度的資源，而這可能會拒絕其他用戶端的服務。</span><span class="sxs-lookup"><span data-stu-id="d98fc-107">If state is kept between RPC calls, make sure a single client does not cause the allocation of excessive resources, which could potentially deny service to other clients.</span></span>
+<span data-ttu-id="e524b-107">如果狀態是在 RPC 呼叫之間保留，請確定單一用戶端不會導致配置過度的資源，而這可能會拒絕其他用戶端的服務。</span><span class="sxs-lookup"><span data-stu-id="e524b-107">If state is kept between RPC calls, make sure a single client does not cause the allocation of excessive resources, which could potentially deny service to other clients.</span></span>
 
  
 

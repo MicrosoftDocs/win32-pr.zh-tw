@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685582"
 ---
-# <a name="installbrokerdatabase-method-of-the-win32_sessionbrokerserviceproperties-class"></a><span data-ttu-id="7fc1a-106">Win32 SessionBrokerServiceProperties 類別的 InstallBrokerDatabase 方法 \_</span><span class="sxs-lookup"><span data-stu-id="7fc1a-106">InstallBrokerDatabase method of the Win32\_SessionBrokerServiceProperties class</span></span>
+# <a name="installbrokerdatabase-method-of-the-win32_sessionbrokerserviceproperties-class"></a><span data-ttu-id="02837-106">Win32 SessionBrokerServiceProperties 類別的 InstallBrokerDatabase 方法 \_</span><span class="sxs-lookup"><span data-stu-id="02837-106">InstallBrokerDatabase method of the Win32\_SessionBrokerServiceProperties class</span></span>
 
-<span data-ttu-id="7fc1a-107">在中央 SQL server 上安裝 RD 連線代理人資料庫。</span><span class="sxs-lookup"><span data-stu-id="7fc1a-107">Installs an RD connection broker database on a central SQL server.</span></span>
+<span data-ttu-id="02837-107">在中央 SQL server 上安裝 RD 連線代理人資料庫。</span><span class="sxs-lookup"><span data-stu-id="02837-107">Installs an RD connection broker database on a central SQL server.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7fc1a-108">語法</span><span class="sxs-lookup"><span data-stu-id="7fc1a-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="02837-108">語法</span><span class="sxs-lookup"><span data-stu-id="02837-108">Syntax</span></span>
 
 
 ```mof
@@ -41,50 +41,50 @@ uint32 InstallBrokerDatabase(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="7fc1a-109">參數</span><span class="sxs-lookup"><span data-stu-id="7fc1a-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="02837-109">參數</span><span class="sxs-lookup"><span data-stu-id="02837-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="7fc1a-110">*newDbFilePath* \[在\]</span><span class="sxs-lookup"><span data-stu-id="7fc1a-110">*newDbFilePath* \[in\]</span></span>
+<span data-ttu-id="02837-110">*newDbFilePath* \[在\]</span><span class="sxs-lookup"><span data-stu-id="02837-110">*newDbFilePath* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="7fc1a-111">新的資料庫檔案路徑。</span><span class="sxs-lookup"><span data-stu-id="7fc1a-111">new database file path.</span></span>
+<span data-ttu-id="02837-111">新的資料庫檔案路徑。</span><span class="sxs-lookup"><span data-stu-id="02837-111">new database file path.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="7fc1a-112">*connStringToCentralDBMaster* \[在\]</span><span class="sxs-lookup"><span data-stu-id="7fc1a-112">*connStringToCentralDBMaster* \[in\]</span></span>
+<span data-ttu-id="02837-112">*connStringToCentralDBMaster* \[在\]</span><span class="sxs-lookup"><span data-stu-id="02837-112">*connStringToCentralDBMaster* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="7fc1a-113">中央資料庫主資料庫的連接字串。</span><span class="sxs-lookup"><span data-stu-id="7fc1a-113">Connection string to the central database master.</span></span>
+<span data-ttu-id="02837-113">中央資料庫主資料庫的連接字串。</span><span class="sxs-lookup"><span data-stu-id="02837-113">Connection string to the central database master.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="7fc1a-114">*centralRdcmsDbName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="7fc1a-114">*centralRdcmsDbName* \[in\]</span></span>
+<span data-ttu-id="02837-114">*centralRdcmsDbName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="02837-114">*centralRdcmsDbName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="7fc1a-115">中央資料庫的名稱。</span><span class="sxs-lookup"><span data-stu-id="7fc1a-115">Name of the central database.</span></span>
+<span data-ttu-id="02837-115">中央資料庫的名稱。</span><span class="sxs-lookup"><span data-stu-id="02837-115">Name of the central database.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="7fc1a-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="7fc1a-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="02837-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="02837-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="7fc1a-117">需求</span><span class="sxs-lookup"><span data-stu-id="7fc1a-117">Requirement</span></span> | <span data-ttu-id="7fc1a-118">值</span><span class="sxs-lookup"><span data-stu-id="7fc1a-118">Value</span></span> |
+| <span data-ttu-id="02837-117">需求</span><span class="sxs-lookup"><span data-stu-id="02837-117">Requirement</span></span> | <span data-ttu-id="02837-118">值</span><span class="sxs-lookup"><span data-stu-id="02837-118">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="7fc1a-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7fc1a-119">Minimum supported client</span></span><br/> | <span data-ttu-id="7fc1a-120">都不支援</span><span class="sxs-lookup"><span data-stu-id="7fc1a-120">None supported</span></span><br/>                                                              |
-| <span data-ttu-id="7fc1a-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7fc1a-121">Minimum supported server</span></span><br/> | <span data-ttu-id="7fc1a-122">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="7fc1a-122">Windows Server 2012</span></span><br/>                                                         |
-| <span data-ttu-id="7fc1a-123">命名空間</span><span class="sxs-lookup"><span data-stu-id="7fc1a-123">Namespace</span></span><br/>                | <span data-ttu-id="7fc1a-124">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="7fc1a-124">Root\\CIMv2\\TerminalServices</span></span><br/>                                               |
-| <span data-ttu-id="7fc1a-125">MOF</span><span class="sxs-lookup"><span data-stu-id="7fc1a-125">MOF</span></span><br/>                      | <dl> <span data-ttu-id="7fc1a-126"><dt>TssdWmi mof</dt></span><span class="sxs-lookup"><span data-stu-id="7fc1a-126"><dt>TssdWmi.mof</dt></span></span> </dl> |
-| <span data-ttu-id="7fc1a-127">DLL</span><span class="sxs-lookup"><span data-stu-id="7fc1a-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="7fc1a-128"><dt>TssdWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="7fc1a-128"><dt>TssdWmi.dll</dt></span></span> </dl> |
+| <span data-ttu-id="02837-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="02837-119">Minimum supported client</span></span><br/> | <span data-ttu-id="02837-120">都不支援</span><span class="sxs-lookup"><span data-stu-id="02837-120">None supported</span></span><br/>                                                              |
+| <span data-ttu-id="02837-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="02837-121">Minimum supported server</span></span><br/> | <span data-ttu-id="02837-122">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="02837-122">Windows Server 2012</span></span><br/>                                                         |
+| <span data-ttu-id="02837-123">命名空間</span><span class="sxs-lookup"><span data-stu-id="02837-123">Namespace</span></span><br/>                | <span data-ttu-id="02837-124">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="02837-124">Root\\CIMv2\\TerminalServices</span></span><br/>                                               |
+| <span data-ttu-id="02837-125">MOF</span><span class="sxs-lookup"><span data-stu-id="02837-125">MOF</span></span><br/>                      | <dl> <span data-ttu-id="02837-126"><dt>TssdWmi mof</dt></span><span class="sxs-lookup"><span data-stu-id="02837-126"><dt>TssdWmi.mof</dt></span></span> </dl> |
+| <span data-ttu-id="02837-127">DLL</span><span class="sxs-lookup"><span data-stu-id="02837-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="02837-128"><dt>TssdWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="02837-128"><dt>TssdWmi.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7fc1a-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7fc1a-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="02837-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="02837-129">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7fc1a-130">**Win32 \_ SessionBrokerServiceProperties**</span><span class="sxs-lookup"><span data-stu-id="7fc1a-130">**Win32\_SessionBrokerServiceProperties**</span></span>](win32-sessionbrokerserviceproperties.md)
+[<span data-ttu-id="02837-130">**Win32 \_ SessionBrokerServiceProperties**</span><span class="sxs-lookup"><span data-stu-id="02837-130">**Win32\_SessionBrokerServiceProperties**</span></span>](win32-sessionbrokerserviceproperties.md)
 </dt> </dl>
 
  

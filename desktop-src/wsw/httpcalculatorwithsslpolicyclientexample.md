@@ -15,15 +15,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "103932283"
 ---
-# <a name="httpcalculatorwithsslpolicyclientexample"></a><span data-ttu-id="f1b77-106">HttpCalculatorWithSslPolicyClientExample</span><span class="sxs-lookup"><span data-stu-id="f1b77-106">HttpCalculatorWithSslPolicyClientExample</span></span>
+# <a name="httpcalculatorwithsslpolicyclientexample"></a><span data-ttu-id="4a210-106">HttpCalculatorWithSslPolicyClientExample</span><span class="sxs-lookup"><span data-stu-id="4a210-106">HttpCalculatorWithSslPolicyClientExample</span></span>
 
-<span data-ttu-id="f1b77-107">此範例示範如何使用 wsutil 產生的原則協助程式常式來建立服務 proxy，以與具有 SSL 傳輸安全性的計算機服務進行通訊。</span><span class="sxs-lookup"><span data-stu-id="f1b77-107">This example shows how to use the wsutil generated policy helper routines to create service proxy to talk to a calculator service, with SSL transport security.</span></span> <span data-ttu-id="f1b77-108">在此設定中，傳輸連線會受到 SSL (簽署、加密) 的 SSL，也提供伺服器驗證。</span><span class="sxs-lookup"><span data-stu-id="f1b77-108">In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication.</span></span>
+<span data-ttu-id="4a210-107">此範例示範如何使用 wsutil 產生的原則協助程式常式來建立服務 proxy，以與具有 SSL 傳輸安全性的計算機服務進行通訊。</span><span class="sxs-lookup"><span data-stu-id="4a210-107">This example shows how to use the wsutil generated policy helper routines to create service proxy to talk to a calculator service, with SSL transport security.</span></span> <span data-ttu-id="4a210-108">在此設定中，傳輸連線會受到 SSL (簽署、加密) 的 SSL，也提供伺服器驗證。</span><span class="sxs-lookup"><span data-stu-id="4a210-108">In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication.</span></span>
 
--   [<span data-ttu-id="f1b77-109">HttpCalculatorWithSslPolicyClient .cpp</span><span class="sxs-lookup"><span data-stu-id="f1b77-109">HttpCalculatorWithSslPolicyClient.cpp</span></span>](#httpcalculatorwithsslpolicyclientcpp)
--   [<span data-ttu-id="f1b77-110">CalculatorServiceWithPolicy .wsdl</span><span class="sxs-lookup"><span data-stu-id="f1b77-110">CalculatorServiceWithPolicy.wsdl</span></span>](#calculatorservicewithpolicywsdl)
--   [<span data-ttu-id="f1b77-111">Makefile</span><span class="sxs-lookup"><span data-stu-id="f1b77-111">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="4a210-109">HttpCalculatorWithSslPolicyClient .cpp</span><span class="sxs-lookup"><span data-stu-id="4a210-109">HttpCalculatorWithSslPolicyClient.cpp</span></span>](#httpcalculatorwithsslpolicyclientcpp)
+-   [<span data-ttu-id="4a210-110">CalculatorServiceWithPolicy .wsdl</span><span class="sxs-lookup"><span data-stu-id="4a210-110">CalculatorServiceWithPolicy.wsdl</span></span>](#calculatorservicewithpolicywsdl)
+-   [<span data-ttu-id="4a210-111">Makefile</span><span class="sxs-lookup"><span data-stu-id="4a210-111">Makefile</span></span>](#makefile)
 
-## <a name="httpcalculatorwithsslpolicyclientcpp"></a><span data-ttu-id="f1b77-112">HttpCalculatorWithSslPolicyClient .cpp</span><span class="sxs-lookup"><span data-stu-id="f1b77-112">HttpCalculatorWithSslPolicyClient.cpp</span></span>
+## <a name="httpcalculatorwithsslpolicyclientcpp"></a><span data-ttu-id="4a210-112">HttpCalculatorWithSslPolicyClient .cpp</span><span class="sxs-lookup"><span data-stu-id="4a210-112">HttpCalculatorWithSslPolicyClient.cpp</span></span>
 
 
 ```C++
@@ -181,7 +181,7 @@ Exit:
 
 
 
-## <a name="calculatorservicewithpolicywsdl"></a><span data-ttu-id="f1b77-113">CalculatorServiceWithPolicy .wsdl</span><span class="sxs-lookup"><span data-stu-id="f1b77-113">CalculatorServiceWithPolicy.wsdl</span></span>
+## <a name="calculatorservicewithpolicywsdl"></a><span data-ttu-id="4a210-113">CalculatorServiceWithPolicy .wsdl</span><span class="sxs-lookup"><span data-stu-id="4a210-113">CalculatorServiceWithPolicy.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -306,7 +306,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="f1b77-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="f1b77-114">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="4a210-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="4a210-114">Makefile</span></span>
 
 ``` syntax
 !include <Win32.Mak>

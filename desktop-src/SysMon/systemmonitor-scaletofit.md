@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685810"
 ---
-# <a name="systemmonitorscaletofit-method"></a><span data-ttu-id="6ebc9-106">SystemMonitor. ScaleToFit 方法</span><span class="sxs-lookup"><span data-stu-id="6ebc9-106">SystemMonitor.ScaleToFit method</span></span>
+# <a name="systemmonitorscaletofit-method"></a><span data-ttu-id="35711-106">SystemMonitor. ScaleToFit 方法</span><span class="sxs-lookup"><span data-stu-id="35711-106">SystemMonitor.ScaleToFit method</span></span>
 
-<span data-ttu-id="6ebc9-107">調整計數器值以納入圖形中。</span><span class="sxs-lookup"><span data-stu-id="6ebc9-107">Scale counter values to fit in the graph.</span></span>
+<span data-ttu-id="35711-107">調整計數器值以納入圖形中。</span><span class="sxs-lookup"><span data-stu-id="35711-107">Scale counter values to fit in the graph.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6ebc9-108">語法</span><span class="sxs-lookup"><span data-stu-id="6ebc9-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="35711-108">語法</span><span class="sxs-lookup"><span data-stu-id="35711-108">Syntax</span></span>
 
 
 ```VB
@@ -38,48 +38,48 @@ SystemMonitor.ScaleToFit( _
 
 
 
-## <a name="parameters"></a><span data-ttu-id="6ebc9-109">參數</span><span class="sxs-lookup"><span data-stu-id="6ebc9-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="35711-109">參數</span><span class="sxs-lookup"><span data-stu-id="35711-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="6ebc9-110">*selectedCountersOnly* \[在\]</span><span class="sxs-lookup"><span data-stu-id="6ebc9-110">*selectedCountersOnly* \[in\]</span></span>
+<span data-ttu-id="35711-110">*selectedCountersOnly* \[在\]</span><span class="sxs-lookup"><span data-stu-id="35711-110">*selectedCountersOnly* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="6ebc9-111">True 表示只調整選取的計數器;否則，則為 false 以調整所有計數器。</span><span class="sxs-lookup"><span data-stu-id="6ebc9-111">True to scale only the selected counters; otherwise, false to scale all counters.</span></span>
+<span data-ttu-id="35711-111">True 表示只調整選取的計數器;否則，則為 false 以調整所有計數器。</span><span class="sxs-lookup"><span data-stu-id="35711-111">True to scale only the selected counters; otherwise, false to scale all counters.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="6ebc9-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="6ebc9-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="35711-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="35711-112">Return value</span></span>
 
-<span data-ttu-id="6ebc9-113">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="6ebc9-113">This method does not return a value.</span></span>
+<span data-ttu-id="35711-113">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="35711-113">This method does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6ebc9-114">備註</span><span class="sxs-lookup"><span data-stu-id="6ebc9-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="35711-114">備註</span><span class="sxs-lookup"><span data-stu-id="35711-114">Remarks</span></span>
 
-<span data-ttu-id="6ebc9-115">此方法會清除圖表視圖。</span><span class="sxs-lookup"><span data-stu-id="6ebc9-115">This method will clear the graph view.</span></span> <span data-ttu-id="6ebc9-116">如果資料來源是記錄檔，SYSMON 就會使用針對每個計數器指定的縮放比例來重繪圖形，或在資料來源為即時活動時開始繪製新計數器值。</span><span class="sxs-lookup"><span data-stu-id="6ebc9-116">SYSMON then uses the scale factor specified for each counter to redraw the graph if the data source is a log file, or begin graphing new counter values if the data source is real time activity.</span></span>
+<span data-ttu-id="35711-115">此方法會清除圖表視圖。</span><span class="sxs-lookup"><span data-stu-id="35711-115">This method will clear the graph view.</span></span> <span data-ttu-id="35711-116">如果資料來源是記錄檔，SYSMON 就會使用針對每個計數器指定的縮放比例來重繪圖形，或在資料來源為即時活動時開始繪製新計數器值。</span><span class="sxs-lookup"><span data-stu-id="35711-116">SYSMON then uses the scale factor specified for each counter to redraw the graph if the data source is a log file, or begin graphing new counter values if the data source is real time activity.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="6ebc9-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="6ebc9-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="35711-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="35711-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="6ebc9-118">需求</span><span class="sxs-lookup"><span data-stu-id="6ebc9-118">Requirement</span></span> | <span data-ttu-id="6ebc9-119">值</span><span class="sxs-lookup"><span data-stu-id="6ebc9-119">Value</span></span> |
+| <span data-ttu-id="35711-118">需求</span><span class="sxs-lookup"><span data-stu-id="35711-118">Requirement</span></span> | <span data-ttu-id="35711-119">值</span><span class="sxs-lookup"><span data-stu-id="35711-119">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="6ebc9-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6ebc9-120">Minimum supported client</span></span><br/> | <span data-ttu-id="6ebc9-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6ebc9-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="6ebc9-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6ebc9-122">Minimum supported server</span></span><br/> | <span data-ttu-id="6ebc9-123">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6ebc9-123">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="6ebc9-124">DLL</span><span class="sxs-lookup"><span data-stu-id="6ebc9-124">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6ebc9-125"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="6ebc9-125"><dt>Sysmon.ocx</dt></span></span> </dl> |
+| <span data-ttu-id="35711-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="35711-120">Minimum supported client</span></span><br/> | <span data-ttu-id="35711-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="35711-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="35711-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="35711-122">Minimum supported server</span></span><br/> | <span data-ttu-id="35711-123">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="35711-123">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="35711-124">DLL</span><span class="sxs-lookup"><span data-stu-id="35711-124">DLL</span></span><br/>                      | <dl> <span data-ttu-id="35711-125"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="35711-125"><dt>Sysmon.ocx</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="6ebc9-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6ebc9-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="35711-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="35711-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6ebc9-127">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="6ebc9-127">**SystemMonitor**</span></span>](systemmonitor.md)
+[<span data-ttu-id="35711-127">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="35711-127">**SystemMonitor**</span></span>](systemmonitor.md)
 </dt> <dt>
 
-[<span data-ttu-id="6ebc9-128">**CounterItem.ScaleFactor**</span><span class="sxs-lookup"><span data-stu-id="6ebc9-128">**CounterItem.ScaleFactor**</span></span>](counteritem-scalefactor.md)
+[<span data-ttu-id="35711-128">**CounterItem.ScaleFactor**</span><span class="sxs-lookup"><span data-stu-id="35711-128">**CounterItem.ScaleFactor**</span></span>](counteritem-scalefactor.md)
 </dt> <dt>
 
-[<span data-ttu-id="6ebc9-129">**CounterItem。已選取**</span><span class="sxs-lookup"><span data-stu-id="6ebc9-129">**CounterItem.Selected**</span></span>](counteritem-selected.md)
+[<span data-ttu-id="35711-129">**CounterItem。已選取**</span><span class="sxs-lookup"><span data-stu-id="35711-129">**CounterItem.Selected**</span></span>](counteritem-selected.md)
 </dt> </dl>
 
  

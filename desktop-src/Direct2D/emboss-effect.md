@@ -11,23 +11,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685916"
 ---
-# <a name="emboss-effect"></a><span data-ttu-id="8ded7-103">浮凸效果</span><span class="sxs-lookup"><span data-stu-id="8ded7-103">Emboss effect</span></span>
+# <a name="emboss-effect"></a><span data-ttu-id="03586-103">浮凸效果</span><span class="sxs-lookup"><span data-stu-id="03586-103">Emboss effect</span></span>
 
-<span data-ttu-id="8ded7-104">建立影像的灰階版本，如同已將其加上戳記。</span><span class="sxs-lookup"><span data-stu-id="8ded7-104">Creates a grayscale version of the image that appears as though it has been stamped into paper.</span></span>
+<span data-ttu-id="03586-104">建立影像的灰階版本，如同已將其加上戳記。</span><span class="sxs-lookup"><span data-stu-id="03586-104">Creates a grayscale version of the image that appears as though it has been stamped into paper.</span></span>
 
-<span data-ttu-id="8ded7-105">這項效果的 CLSID 是 CLSID \_ D2D1Emboss。</span><span class="sxs-lookup"><span data-stu-id="8ded7-105">The CLSID for this effect is CLSID\_D2D1Emboss.</span></span>
+<span data-ttu-id="03586-105">這項效果的 CLSID 是 CLSID \_ D2D1Emboss。</span><span class="sxs-lookup"><span data-stu-id="03586-105">The CLSID for this effect is CLSID\_D2D1Emboss.</span></span>
 
--   [<span data-ttu-id="8ded7-106">範例影像</span><span class="sxs-lookup"><span data-stu-id="8ded7-106">Example Image</span></span>](#example-image)
--   [<span data-ttu-id="8ded7-107">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="8ded7-107">Sample Code</span></span>](#sample-code)
--   [<span data-ttu-id="8ded7-108">效果屬性</span><span class="sxs-lookup"><span data-stu-id="8ded7-108">Effect Properties</span></span>](#effect-properties)
--   [<span data-ttu-id="8ded7-109">需求</span><span class="sxs-lookup"><span data-stu-id="8ded7-109">Requirements</span></span>](#requirements)
--   [<span data-ttu-id="8ded7-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="8ded7-110">Related topics</span></span>](#related-topics)
+-   [<span data-ttu-id="03586-106">範例影像</span><span class="sxs-lookup"><span data-stu-id="03586-106">Example Image</span></span>](#example-image)
+-   [<span data-ttu-id="03586-107">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="03586-107">Sample Code</span></span>](#sample-code)
+-   [<span data-ttu-id="03586-108">效果屬性</span><span class="sxs-lookup"><span data-stu-id="03586-108">Effect Properties</span></span>](#effect-properties)
+-   [<span data-ttu-id="03586-109">需求</span><span class="sxs-lookup"><span data-stu-id="03586-109">Requirements</span></span>](#requirements)
+-   [<span data-ttu-id="03586-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="03586-110">Related topics</span></span>](#related-topics)
 
-## <a name="example-image"></a><span data-ttu-id="8ded7-111">範例影像</span><span class="sxs-lookup"><span data-stu-id="8ded7-111">Example image</span></span>
+## <a name="example-image"></a><span data-ttu-id="03586-111">範例影像</span><span class="sxs-lookup"><span data-stu-id="03586-111">Example image</span></span>
 
 ![效果輸出的範例](images/emboss-effect.png)
 
-## <a name="sample-code"></a><span data-ttu-id="8ded7-113">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="8ded7-113">Sample code</span></span>
+## <a name="sample-code"></a><span data-ttu-id="03586-113">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="03586-113">Sample code</span></span>
 
 ```cpp
 ComPtr<ID2D1Effect> embossEffect;
@@ -42,21 +42,21 @@ m_d2dContext->DrawImage(embossEffect.Get());
 m_d2dContext->EndDraw();
 ```
 
-## <a name="effect-properties"></a><span data-ttu-id="8ded7-114">效果屬性</span><span class="sxs-lookup"><span data-stu-id="8ded7-114">Effect properties</span></span>
+## <a name="effect-properties"></a><span data-ttu-id="03586-114">效果屬性</span><span class="sxs-lookup"><span data-stu-id="03586-114">Effect properties</span></span>
 
-<span data-ttu-id="8ded7-115">浮凸效果的屬性是由 [**D2D1 \_ 浮凸 \_**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_emboss_prop) 屬性列舉所定義。</span><span class="sxs-lookup"><span data-stu-id="8ded7-115">The properties for the emboss effect are defined by the [**D2D1\_EMBOSS\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_emboss_prop) enumeration.</span></span>
+<span data-ttu-id="03586-115">浮凸效果的屬性是由 [**D2D1 \_ 浮凸 \_**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_emboss_prop) 屬性列舉所定義。</span><span class="sxs-lookup"><span data-stu-id="03586-115">The properties for the emboss effect are defined by the [**D2D1\_EMBOSS\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_emboss_prop) enumeration.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="8ded7-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="8ded7-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="03586-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="03586-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="8ded7-117">需求</span><span class="sxs-lookup"><span data-stu-id="8ded7-117">Requirement</span></span> | <span data-ttu-id="8ded7-118">值</span><span class="sxs-lookup"><span data-stu-id="8ded7-118">Value</span></span> |
+| <span data-ttu-id="03586-117">需求</span><span class="sxs-lookup"><span data-stu-id="03586-117">Requirement</span></span> | <span data-ttu-id="03586-118">值</span><span class="sxs-lookup"><span data-stu-id="03586-118">Value</span></span> |
 |--------------------------|---------------------------------------------------|
-| <span data-ttu-id="8ded7-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8ded7-119">Minimum supported client</span></span> | <span data-ttu-id="8ded7-120">Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8ded7-120">Windows 10 \[desktop apps \| Windows Store apps\]</span></span> |
-| <span data-ttu-id="8ded7-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8ded7-121">Minimum supported server</span></span> | <span data-ttu-id="8ded7-122">Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8ded7-122">Windows 10 \[desktop apps \| Windows Store apps\]</span></span> |
-| <span data-ttu-id="8ded7-123">標頭</span><span class="sxs-lookup"><span data-stu-id="8ded7-123">Header</span></span>                   | <span data-ttu-id="8ded7-124">d2d1effects \_ 2。h</span><span class="sxs-lookup"><span data-stu-id="8ded7-124">d2d1effects\_2.h</span></span>                                  |
-| <span data-ttu-id="8ded7-125">程式庫</span><span class="sxs-lookup"><span data-stu-id="8ded7-125">Library</span></span>                  | <span data-ttu-id="8ded7-126">d2d1 .lib，dxguid .lib</span><span class="sxs-lookup"><span data-stu-id="8ded7-126">d2d1.lib, dxguid.lib</span></span>                              |
+| <span data-ttu-id="03586-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="03586-119">Minimum supported client</span></span> | <span data-ttu-id="03586-120">Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="03586-120">Windows 10 \[desktop apps \| Windows Store apps\]</span></span> |
+| <span data-ttu-id="03586-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="03586-121">Minimum supported server</span></span> | <span data-ttu-id="03586-122">Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="03586-122">Windows 10 \[desktop apps \| Windows Store apps\]</span></span> |
+| <span data-ttu-id="03586-123">標頭</span><span class="sxs-lookup"><span data-stu-id="03586-123">Header</span></span>                   | <span data-ttu-id="03586-124">d2d1effects \_ 2。h</span><span class="sxs-lookup"><span data-stu-id="03586-124">d2d1effects\_2.h</span></span>                                  |
+| <span data-ttu-id="03586-125">程式庫</span><span class="sxs-lookup"><span data-stu-id="03586-125">Library</span></span>                  | <span data-ttu-id="03586-126">d2d1 .lib，dxguid .lib</span><span class="sxs-lookup"><span data-stu-id="03586-126">d2d1.lib, dxguid.lib</span></span>                              |
 
-## <a name="related-topics"></a><span data-ttu-id="8ded7-127">相關主題</span><span class="sxs-lookup"><span data-stu-id="8ded7-127">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="03586-127">相關主題</span><span class="sxs-lookup"><span data-stu-id="03586-127">Related topics</span></span>
 
-* [<span data-ttu-id="8ded7-128">ID2D1Effect 介面</span><span class="sxs-lookup"><span data-stu-id="8ded7-128">ID2D1Effect interface</span></span>](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
+* [<span data-ttu-id="03586-128">ID2D1Effect 介面</span><span class="sxs-lookup"><span data-stu-id="03586-128">ID2D1Effect interface</span></span>](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

@@ -16,17 +16,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "103683117"
 ---
-# <a name="eaphostconfig-schema"></a><span data-ttu-id="e1552-104">eaphostconfig 架構</span><span class="sxs-lookup"><span data-stu-id="e1552-104">eaphostconfig Schema</span></span>
+# <a name="eaphostconfig-schema"></a><span data-ttu-id="96aa6-104">eaphostconfig 架構</span><span class="sxs-lookup"><span data-stu-id="96aa6-104">eaphostconfig Schema</span></span>
 
-<span data-ttu-id="e1552-105">Eaphostconfig 架構會定義 EAPHost 設定架構。</span><span class="sxs-lookup"><span data-stu-id="e1552-105">The eaphostconfig schema defines EAPHost configuration schema.</span></span>
+<span data-ttu-id="96aa6-105">Eaphostconfig 架構會定義 EAPHost 設定架構。</span><span class="sxs-lookup"><span data-stu-id="96aa6-105">The eaphostconfig schema defines EAPHost configuration schema.</span></span>
 
--   [<span data-ttu-id="e1552-106">eaphostconfig 架構元素</span><span class="sxs-lookup"><span data-stu-id="e1552-106">eaphostconfig Schema Elements</span></span>](eaphostconfigschema-elements.md)
+-   [<span data-ttu-id="96aa6-106">eaphostconfig 架構元素</span><span class="sxs-lookup"><span data-stu-id="96aa6-106">eaphostconfig Schema Elements</span></span>](eaphostconfigschema-elements.md)
 
-## <a name="related-topics"></a><span data-ttu-id="e1552-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="e1552-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="96aa6-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="96aa6-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e1552-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="e1552-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="96aa6-108">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="96aa6-108">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> </dl>
 
  

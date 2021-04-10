@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685751"
 ---
-# <a name="tfclientid"></a><span data-ttu-id="0087a-104">TfClientId</span><span class="sxs-lookup"><span data-stu-id="0087a-104">TfClientId</span></span>
+# <a name="tfclientid"></a><span data-ttu-id="05b41-104">TfClientId</span><span class="sxs-lookup"><span data-stu-id="05b41-104">TfClientId</span></span>
 
-<span data-ttu-id="0087a-105">**TfClientId** 資料類型是用來識別用戶端。</span><span class="sxs-lookup"><span data-stu-id="0087a-105">The **TfClientId** data type is used to identify the client.</span></span>
+<span data-ttu-id="05b41-105">**TfClientId** 資料類型是用來識別用戶端。</span><span class="sxs-lookup"><span data-stu-id="05b41-105">The **TfClientId** data type is used to identify the client.</span></span>
 
 
 ```C++
@@ -24,37 +24,37 @@ typedef DWORD TfClientId;
 
 
 
-## <a name="remarks"></a><span data-ttu-id="0087a-106">備註</span><span class="sxs-lookup"><span data-stu-id="0087a-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="05b41-106">備註</span><span class="sxs-lookup"><span data-stu-id="05b41-106">Remarks</span></span>
 
-<span data-ttu-id="0087a-107">在 TSF 中，應用程式和文字服務通常稱為用戶端。</span><span class="sxs-lookup"><span data-stu-id="0087a-107">Within TSF, applications and text services are generally referred to as clients.</span></span> <span data-ttu-id="0087a-108">每個用戶端都會收到唯一的識別碼，以在呼叫各種 TSF manager 方法時用來識別其本身。</span><span class="sxs-lookup"><span data-stu-id="0087a-108">Each client receives a unique identifier that it uses to identify itself when calling various TSF manager methods.</span></span> <span data-ttu-id="0087a-109">此識別碼屬於 **TfClientId** 類型。</span><span class="sxs-lookup"><span data-stu-id="0087a-109">This identifier is of the **TfClientId** type.</span></span>
+<span data-ttu-id="05b41-107">在 TSF 中，應用程式和文字服務通常稱為用戶端。</span><span class="sxs-lookup"><span data-stu-id="05b41-107">Within TSF, applications and text services are generally referred to as clients.</span></span> <span data-ttu-id="05b41-108">每個用戶端都會收到唯一的識別碼，以在呼叫各種 TSF manager 方法時用來識別其本身。</span><span class="sxs-lookup"><span data-stu-id="05b41-108">Each client receives a unique identifier that it uses to identify itself when calling various TSF manager methods.</span></span> <span data-ttu-id="05b41-109">此識別碼屬於 **TfClientId** 類型。</span><span class="sxs-lookup"><span data-stu-id="05b41-109">This identifier is of the **TfClientId** type.</span></span>
 
-<span data-ttu-id="0087a-110">**TfClientId** 資料類型是由 TSF 管理員所提供。</span><span class="sxs-lookup"><span data-stu-id="0087a-110">The **TfClientId** data type is supplied by the TSF manager.</span></span> <span data-ttu-id="0087a-111">應用程式會在呼叫 [ITfThreadMgr：： Activate](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate)時取得 **TfClientId** 值。</span><span class="sxs-lookup"><span data-stu-id="0087a-111">An application obtains a **TfClientId** value when it calls [ITfThreadMgr::Activate](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate).</span></span> <span data-ttu-id="0087a-112">文字服務的 TfClientId 值會傳遞至 [ITfTextInputProcessor：： Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate) 方法。</span><span class="sxs-lookup"><span data-stu-id="0087a-112">The TfClientId value for a text service is passed to the [ITfTextInputProcessor::Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate) method.</span></span> <span data-ttu-id="0087a-113">任何不符合上述類別的物件都可以藉由呼叫 [ITfClientId：： GetClientId](/windows/desktop/api/Msctf/nf-msctf-itfclientid-getclientid)來取得用戶端識別碼。</span><span class="sxs-lookup"><span data-stu-id="0087a-113">Any object that does not fit the above categories can obtain a client identifier by calling [ITfClientId::GetClientId](/windows/desktop/api/Msctf/nf-msctf-itfclientid-getclientid).</span></span>
+<span data-ttu-id="05b41-110">**TfClientId** 資料類型是由 TSF 管理員所提供。</span><span class="sxs-lookup"><span data-stu-id="05b41-110">The **TfClientId** data type is supplied by the TSF manager.</span></span> <span data-ttu-id="05b41-111">應用程式會在呼叫 [ITfThreadMgr：： Activate](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate)時取得 **TfClientId** 值。</span><span class="sxs-lookup"><span data-stu-id="05b41-111">An application obtains a **TfClientId** value when it calls [ITfThreadMgr::Activate](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate).</span></span> <span data-ttu-id="05b41-112">文字服務的 TfClientId 值會傳遞至 [ITfTextInputProcessor：： Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate) 方法。</span><span class="sxs-lookup"><span data-stu-id="05b41-112">The TfClientId value for a text service is passed to the [ITfTextInputProcessor::Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate) method.</span></span> <span data-ttu-id="05b41-113">任何不符合上述類別的物件都可以藉由呼叫 [ITfClientId：： GetClientId](/windows/desktop/api/Msctf/nf-msctf-itfclientid-getclientid)來取得用戶端識別碼。</span><span class="sxs-lookup"><span data-stu-id="05b41-113">Any object that does not fit the above categories can obtain a client identifier by calling [ITfClientId::GetClientId](/windows/desktop/api/Msctf/nf-msctf-itfclientid-getclientid).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="0087a-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="0087a-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="05b41-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="05b41-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="0087a-115">需求</span><span class="sxs-lookup"><span data-stu-id="0087a-115">Requirement</span></span> | <span data-ttu-id="0087a-116">值</span><span class="sxs-lookup"><span data-stu-id="0087a-116">Value</span></span> |
+| <span data-ttu-id="05b41-115">需求</span><span class="sxs-lookup"><span data-stu-id="05b41-115">Requirement</span></span> | <span data-ttu-id="05b41-116">值</span><span class="sxs-lookup"><span data-stu-id="05b41-116">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="0087a-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="0087a-117">Minimum supported client</span></span><br/> | <span data-ttu-id="0087a-118">Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0087a-118">Windows 2000 Professional \[desktop apps \| UWP apps\]</span></span><br/>                    |
-| <span data-ttu-id="0087a-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="0087a-119">Minimum supported server</span></span><br/> | <span data-ttu-id="0087a-120">Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0087a-120">Windows 2000 Server \[desktop apps \| UWP apps\]</span></span><br/>                          |
-| <span data-ttu-id="0087a-121">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="0087a-121">Redistributable</span></span><br/>          | <span data-ttu-id="0087a-122">Windows 2000 Professional 上的 TSF 1。0</span><span class="sxs-lookup"><span data-stu-id="0087a-122">TSF 1.0 on Windows 2000 Professional</span></span><br/>                                      |
-| <span data-ttu-id="0087a-123">標頭</span><span class="sxs-lookup"><span data-stu-id="0087a-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="0087a-124"><dt>Msctf。h</dt></span><span class="sxs-lookup"><span data-stu-id="0087a-124"><dt>Msctf.h</dt></span></span> </dl>   |
-| <span data-ttu-id="0087a-125">Idl</span><span class="sxs-lookup"><span data-stu-id="0087a-125">IDL</span></span><br/>                      | <dl> <span data-ttu-id="0087a-126"><dt>Msctf .idl</dt></span><span class="sxs-lookup"><span data-stu-id="0087a-126"><dt>Msctf.idl</dt></span></span> </dl> |
+| <span data-ttu-id="05b41-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="05b41-117">Minimum supported client</span></span><br/> | <span data-ttu-id="05b41-118">Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="05b41-118">Windows 2000 Professional \[desktop apps \| UWP apps\]</span></span><br/>                    |
+| <span data-ttu-id="05b41-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="05b41-119">Minimum supported server</span></span><br/> | <span data-ttu-id="05b41-120">Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="05b41-120">Windows 2000 Server \[desktop apps \| UWP apps\]</span></span><br/>                          |
+| <span data-ttu-id="05b41-121">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="05b41-121">Redistributable</span></span><br/>          | <span data-ttu-id="05b41-122">Windows 2000 Professional 上的 TSF 1。0</span><span class="sxs-lookup"><span data-stu-id="05b41-122">TSF 1.0 on Windows 2000 Professional</span></span><br/>                                      |
+| <span data-ttu-id="05b41-123">標頭</span><span class="sxs-lookup"><span data-stu-id="05b41-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="05b41-124"><dt>Msctf。h</dt></span><span class="sxs-lookup"><span data-stu-id="05b41-124"><dt>Msctf.h</dt></span></span> </dl>   |
+| <span data-ttu-id="05b41-125">Idl</span><span class="sxs-lookup"><span data-stu-id="05b41-125">IDL</span></span><br/>                      | <dl> <span data-ttu-id="05b41-126"><dt>Msctf .idl</dt></span><span class="sxs-lookup"><span data-stu-id="05b41-126"><dt>Msctf.idl</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="0087a-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0087a-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="05b41-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="05b41-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="0087a-128">**ITfClientId::GetClientId**</span><span class="sxs-lookup"><span data-stu-id="0087a-128">**ITfClientId::GetClientId**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfclientid-getclientid)
+[<span data-ttu-id="05b41-128">**ITfClientId::GetClientId**</span><span class="sxs-lookup"><span data-stu-id="05b41-128">**ITfClientId::GetClientId**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfclientid-getclientid)
 </dt> <dt>
 
-[<span data-ttu-id="0087a-129">**ITfTextInputProcessor：： Activate**</span><span class="sxs-lookup"><span data-stu-id="0087a-129">**ITfTextInputProcessor::Activate**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate)
+[<span data-ttu-id="05b41-129">**ITfTextInputProcessor：： Activate**</span><span class="sxs-lookup"><span data-stu-id="05b41-129">**ITfTextInputProcessor::Activate**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate)
 </dt> <dt>
 
-[<span data-ttu-id="0087a-130">**ITfThreadMgr：： Activate**</span><span class="sxs-lookup"><span data-stu-id="0087a-130">**ITfThreadMgr::Activate**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate)
+[<span data-ttu-id="05b41-130">**ITfThreadMgr：： Activate**</span><span class="sxs-lookup"><span data-stu-id="05b41-130">**ITfThreadMgr::Activate**</span></span>](/windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate)
 </dt> </dl>
 
  

@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686140"
 ---
-# <a name="taskdefinitionxmltext-property"></a><span data-ttu-id="73ec4-106">TaskDefinition.XmlText 屬性</span><span class="sxs-lookup"><span data-stu-id="73ec4-106">TaskDefinition.XmlText property</span></span>
+# <a name="taskdefinitionxmltext-property"></a><span data-ttu-id="ec156-106">TaskDefinition.XmlText 屬性</span><span class="sxs-lookup"><span data-stu-id="ec156-106">TaskDefinition.XmlText property</span></span>
 
-<span data-ttu-id="73ec4-107">針對腳本，取得或設定工作的 XML 格式化定義。</span><span class="sxs-lookup"><span data-stu-id="73ec4-107">For scripting, gets or sets the XML-formatted definition of the task.</span></span>
+<span data-ttu-id="ec156-107">針對腳本，取得或設定工作的 XML 格式化定義。</span><span class="sxs-lookup"><span data-stu-id="ec156-107">For scripting, gets or sets the XML-formatted definition of the task.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="73ec4-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="73ec4-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ec156-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="ec156-108">Syntax</span></span>
 
 
 ```VB
@@ -36,24 +36,24 @@ TaskDefinition.XmlText As String
 
 
 
-## <a name="property-value"></a><span data-ttu-id="73ec4-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="73ec4-109">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="ec156-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="ec156-109">Property value</span></span>
 
-<span data-ttu-id="73ec4-110">工作的 XML 格式化定義。</span><span class="sxs-lookup"><span data-stu-id="73ec4-110">The XML-formatted definition of the task.</span></span>
+<span data-ttu-id="ec156-110">工作的 XML 格式化定義。</span><span class="sxs-lookup"><span data-stu-id="ec156-110">The XML-formatted definition of the task.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="73ec4-111">備註</span><span class="sxs-lookup"><span data-stu-id="73ec4-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ec156-111">備註</span><span class="sxs-lookup"><span data-stu-id="ec156-111">Remarks</span></span>
 
-<span data-ttu-id="73ec4-112">工作的 XML 是由 [工作排程器架構](task-scheduler-schema.md)所定義。</span><span class="sxs-lookup"><span data-stu-id="73ec4-112">The XML for a task is defined by the [Task Scheduler Schema](task-scheduler-schema.md).</span></span> <span data-ttu-id="73ec4-113">如需工作 XML 的範例，請參閱 [ (XML) 的每日觸發程式範例 ](daily-trigger-example--xml-.md)。</span><span class="sxs-lookup"><span data-stu-id="73ec4-113">For an example of task XML, see [Daily Trigger Example (XML)](daily-trigger-example--xml-.md).</span></span>
+<span data-ttu-id="ec156-112">工作的 XML 是由 [工作排程器架構](task-scheduler-schema.md)所定義。</span><span class="sxs-lookup"><span data-stu-id="ec156-112">The XML for a task is defined by the [Task Scheduler Schema](task-scheduler-schema.md).</span></span> <span data-ttu-id="ec156-113">如需工作 XML 的範例，請參閱 [ (XML) 的每日觸發程式範例 ](daily-trigger-example--xml-.md)。</span><span class="sxs-lookup"><span data-stu-id="ec156-113">For an example of task XML, see [Daily Trigger Example (XML)](daily-trigger-example--xml-.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="73ec4-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="73ec4-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ec156-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="ec156-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="73ec4-115">需求</span><span class="sxs-lookup"><span data-stu-id="73ec4-115">Requirement</span></span> | <span data-ttu-id="73ec4-116">值</span><span class="sxs-lookup"><span data-stu-id="73ec4-116">Value</span></span> |
+| <span data-ttu-id="ec156-115">需求</span><span class="sxs-lookup"><span data-stu-id="ec156-115">Requirement</span></span> | <span data-ttu-id="ec156-116">值</span><span class="sxs-lookup"><span data-stu-id="ec156-116">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="73ec4-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="73ec4-117">Minimum supported client</span></span><br/> | <span data-ttu-id="73ec4-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="73ec4-118">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
-| <span data-ttu-id="73ec4-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="73ec4-119">Minimum supported server</span></span><br/> | <span data-ttu-id="73ec4-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="73ec4-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="73ec4-121">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="73ec4-121">Type library</span></span><br/>             | <dl> <span data-ttu-id="73ec4-122"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="73ec4-122"><dt>Taskschd.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="73ec4-123">DLL</span><span class="sxs-lookup"><span data-stu-id="73ec4-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="73ec4-124"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="73ec4-124"><dt>Taskschd.dll</dt></span></span> </dl> |
+| <span data-ttu-id="ec156-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ec156-117">Minimum supported client</span></span><br/> | <span data-ttu-id="ec156-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ec156-118">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="ec156-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ec156-119">Minimum supported server</span></span><br/> | <span data-ttu-id="ec156-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ec156-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="ec156-121">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="ec156-121">Type library</span></span><br/>             | <dl> <span data-ttu-id="ec156-122"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="ec156-122"><dt>Taskschd.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="ec156-123">DLL</span><span class="sxs-lookup"><span data-stu-id="ec156-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ec156-124"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ec156-124"><dt>Taskschd.dll</dt></span></span> </dl> |
 
 
 

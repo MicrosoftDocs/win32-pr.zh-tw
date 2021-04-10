@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685808"
 ---
-# <a name="setsecondaryconnectionstring-method-of-the-win32_rdmsdeploymentsettings-class"></a><span data-ttu-id="6eea8-106">Win32 RDMSDeploymentSettings 類別的 SetSecondaryConnectionString 方法 \_</span><span class="sxs-lookup"><span data-stu-id="6eea8-106">SetSecondaryConnectionString method of the Win32\_RDMSDeploymentSettings class</span></span>
+# <a name="setsecondaryconnectionstring-method-of-the-win32_rdmsdeploymentsettings-class"></a><span data-ttu-id="3f4ac-106">Win32 RDMSDeploymentSettings 類別的 SetSecondaryConnectionString 方法 \_</span><span class="sxs-lookup"><span data-stu-id="3f4ac-106">SetSecondaryConnectionString method of the Win32\_RDMSDeploymentSettings class</span></span>
 
-<span data-ttu-id="6eea8-107">設定部署層級資料庫次要連接字串。</span><span class="sxs-lookup"><span data-stu-id="6eea8-107">Sets the deployment level database secondary connection string.</span></span>
+<span data-ttu-id="3f4ac-107">設定部署層級資料庫次要連接字串。</span><span class="sxs-lookup"><span data-stu-id="3f4ac-107">Sets the deployment level database secondary connection string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6eea8-108">語法</span><span class="sxs-lookup"><span data-stu-id="6eea8-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3f4ac-108">語法</span><span class="sxs-lookup"><span data-stu-id="3f4ac-108">Syntax</span></span>
 
 
 ```mof
@@ -39,40 +39,40 @@ uint32 SetSecondaryConnectionString(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="6eea8-109">參數</span><span class="sxs-lookup"><span data-stu-id="6eea8-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3f4ac-109">參數</span><span class="sxs-lookup"><span data-stu-id="3f4ac-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="6eea8-110">*SecondaryConnectionString* \[在\]</span><span class="sxs-lookup"><span data-stu-id="6eea8-110">*SecondaryConnectionString* \[in\]</span></span>
+<span data-ttu-id="3f4ac-110">*SecondaryConnectionString* \[在\]</span><span class="sxs-lookup"><span data-stu-id="3f4ac-110">*SecondaryConnectionString* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="6eea8-111">要設定的連接字串</span><span class="sxs-lookup"><span data-stu-id="6eea8-111">The connection string to set</span></span>
+<span data-ttu-id="3f4ac-111">要設定的連接字串</span><span class="sxs-lookup"><span data-stu-id="3f4ac-111">The connection string to set</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="6eea8-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="6eea8-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3f4ac-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="3f4ac-112">Return value</span></span>
 
-<span data-ttu-id="6eea8-113">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="6eea8-113">Returns 0 on success, otherwise returns a WMI error code.</span></span>
+<span data-ttu-id="3f4ac-113">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="3f4ac-113">Returns 0 on success, otherwise returns a WMI error code.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="6eea8-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="6eea8-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3f4ac-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="3f4ac-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="6eea8-115">需求</span><span class="sxs-lookup"><span data-stu-id="6eea8-115">Requirement</span></span> | <span data-ttu-id="6eea8-116">值</span><span class="sxs-lookup"><span data-stu-id="6eea8-116">Value</span></span> |
+| <span data-ttu-id="3f4ac-115">需求</span><span class="sxs-lookup"><span data-stu-id="3f4ac-115">Requirement</span></span> | <span data-ttu-id="3f4ac-116">值</span><span class="sxs-lookup"><span data-stu-id="3f4ac-116">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| <span data-ttu-id="6eea8-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6eea8-117">Minimum supported client</span></span><br/> | <span data-ttu-id="6eea8-118">都不支援</span><span class="sxs-lookup"><span data-stu-id="6eea8-118">None supported</span></span><br/>                                                                   |
-| <span data-ttu-id="6eea8-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6eea8-119">Minimum supported server</span></span><br/> | <span data-ttu-id="6eea8-120">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="6eea8-120">Windows Server 2016</span></span><br/>                                                              |
-| <span data-ttu-id="6eea8-121">命名空間</span><span class="sxs-lookup"><span data-stu-id="6eea8-121">Namespace</span></span><br/>                | <span data-ttu-id="6eea8-122">根 \\ cimv2 \\ rdm</span><span class="sxs-lookup"><span data-stu-id="6eea8-122">Root\\cimv2\\rdms</span></span><br/>                                                                |
-| <span data-ttu-id="6eea8-123">MOF</span><span class="sxs-lookup"><span data-stu-id="6eea8-123">MOF</span></span><br/>                      | <dl> <span data-ttu-id="6eea8-124"><dt>RDManagement mof</dt></span><span class="sxs-lookup"><span data-stu-id="6eea8-124"><dt>RDManagement.mof</dt></span></span> </dl> |
-| <span data-ttu-id="6eea8-125">DLL</span><span class="sxs-lookup"><span data-stu-id="6eea8-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6eea8-126"><dt>RDMS.dll</dt></span><span class="sxs-lookup"><span data-stu-id="6eea8-126"><dt>RDMS.dll</dt></span></span> </dl>         |
+| <span data-ttu-id="3f4ac-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3f4ac-117">Minimum supported client</span></span><br/> | <span data-ttu-id="3f4ac-118">都不支援</span><span class="sxs-lookup"><span data-stu-id="3f4ac-118">None supported</span></span><br/>                                                                   |
+| <span data-ttu-id="3f4ac-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3f4ac-119">Minimum supported server</span></span><br/> | <span data-ttu-id="3f4ac-120">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="3f4ac-120">Windows Server 2016</span></span><br/>                                                              |
+| <span data-ttu-id="3f4ac-121">命名空間</span><span class="sxs-lookup"><span data-stu-id="3f4ac-121">Namespace</span></span><br/>                | <span data-ttu-id="3f4ac-122">根 \\ cimv2 \\ rdm</span><span class="sxs-lookup"><span data-stu-id="3f4ac-122">Root\\cimv2\\rdms</span></span><br/>                                                                |
+| <span data-ttu-id="3f4ac-123">MOF</span><span class="sxs-lookup"><span data-stu-id="3f4ac-123">MOF</span></span><br/>                      | <dl> <span data-ttu-id="3f4ac-124"><dt>RDManagement mof</dt></span><span class="sxs-lookup"><span data-stu-id="3f4ac-124"><dt>RDManagement.mof</dt></span></span> </dl> |
+| <span data-ttu-id="3f4ac-125">DLL</span><span class="sxs-lookup"><span data-stu-id="3f4ac-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="3f4ac-126"><dt>RDMS.dll</dt></span><span class="sxs-lookup"><span data-stu-id="3f4ac-126"><dt>RDMS.dll</dt></span></span> </dl>         |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="6eea8-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6eea8-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f4ac-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3f4ac-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6eea8-128">**Win32 \_ RDMSDeploymentSettings**</span><span class="sxs-lookup"><span data-stu-id="6eea8-128">**Win32\_RDMSDeploymentSettings**</span></span>](win32-rdmsdeploymentsettings.md)
+[<span data-ttu-id="3f4ac-128">**Win32 \_ RDMSDeploymentSettings**</span><span class="sxs-lookup"><span data-stu-id="3f4ac-128">**Win32\_RDMSDeploymentSettings**</span></span>](win32-rdmsdeploymentsettings.md)
 </dt> </dl>
 
  
