@@ -12,13 +12,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021243"
 ---
-# <a name="imsrdpdevicecollection-methods"></a><span data-ttu-id="d7efa-103">IMsRdpDeviceCollection 方法</span><span class="sxs-lookup"><span data-stu-id="d7efa-103">IMsRdpDeviceCollection Methods</span></span>
+# <a name="imsrdpdevicecollection-methods"></a><span data-ttu-id="57126-103">IMsRdpDeviceCollection 方法</span><span class="sxs-lookup"><span data-stu-id="57126-103">IMsRdpDeviceCollection Methods</span></span>
 
-<span data-ttu-id="d7efa-104">[**IMsRdpDeviceCollection**](imsrdpdevicecollection.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="d7efa-104">The [**IMsRdpDeviceCollection**](imsrdpdevicecollection.md) interface exposes the following methods.</span></span>
+<span data-ttu-id="57126-104">[**IMsRdpDeviceCollection**](imsrdpdevicecollection.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="57126-104">The [**IMsRdpDeviceCollection**](imsrdpdevicecollection.md) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="d7efa-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d7efa-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="57126-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="57126-105">In this section</span></span>
 
--   [<span data-ttu-id="d7efa-106">**RescanDevices 方法**</span><span class="sxs-lookup"><span data-stu-id="d7efa-106">**RescanDevices method**</span></span>](imsrdpdevicecollection-rescandevices.md)
+-   [<span data-ttu-id="57126-106">**RescanDevices 方法**</span><span class="sxs-lookup"><span data-stu-id="57126-106">**RescanDevices method**</span></span>](imsrdpdevicecollection-rescandevices.md)
 
  
 

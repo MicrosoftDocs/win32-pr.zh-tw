@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945367"
 ---
-# <a name="instanceparameterstempdirectory-property"></a><span data-ttu-id="3b8d9-103">InstanceParameters. TempDirectory 屬性</span><span class="sxs-lookup"><span data-stu-id="3b8d9-103">InstanceParameters.TempDirectory property</span></span>
+# <a name="instanceparameterstempdirectory-property"></a><span data-ttu-id="a5880-103">InstanceParameters. TempDirectory 屬性</span><span class="sxs-lookup"><span data-stu-id="a5880-103">InstanceParameters.TempDirectory property</span></span>
 
-<span data-ttu-id="3b8d9-104">取得或設定資料夾的相對或絕對檔案系統路徑，其中將包含實例的暫存資料庫。</span><span class="sxs-lookup"><span data-stu-id="3b8d9-104">Gets or sets the relative or absolute file system path of the folder that will contain the temporary database for the instance.</span></span>
+<span data-ttu-id="a5880-104">取得或設定資料夾的相對或絕對檔案系統路徑，其中將包含實例的暫存資料庫。</span><span class="sxs-lookup"><span data-stu-id="a5880-104">Gets or sets the relative or absolute file system path of the folder that will contain the temporary database for the instance.</span></span>
 
-<span data-ttu-id="3b8d9-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="3b8d9-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="3b8d9-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="3b8d9-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="a5880-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="a5880-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="a5880-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="a5880-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3b8d9-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="3b8d9-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a5880-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="a5880-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.TempDirectory = value
 public string TempDirectory { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="3b8d9-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="3b8d9-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="a5880-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="a5880-108">Property value</span></span>
 
-<span data-ttu-id="3b8d9-109">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="3b8d9-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
+<span data-ttu-id="a5880-109">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="a5880-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="3b8d9-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3b8d9-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a5880-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a5880-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="3b8d9-111">參考</span><span class="sxs-lookup"><span data-stu-id="3b8d9-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="a5880-111">參考</span><span class="sxs-lookup"><span data-stu-id="a5880-111">Reference</span></span>
 
-[<span data-ttu-id="3b8d9-112">InstanceParameters 類別</span><span class="sxs-lookup"><span data-stu-id="3b8d9-112">InstanceParameters class</span></span>](./instanceparameters-class.md)
+[<span data-ttu-id="a5880-112">InstanceParameters 類別</span><span class="sxs-lookup"><span data-stu-id="a5880-112">InstanceParameters class</span></span>](./instanceparameters-class.md)
 
-[<span data-ttu-id="3b8d9-113">InstanceParameters 成員</span><span class="sxs-lookup"><span data-stu-id="3b8d9-113">InstanceParameters members</span></span>](./instanceparameters-members.md)
+[<span data-ttu-id="a5880-113">InstanceParameters 成員</span><span class="sxs-lookup"><span data-stu-id="a5880-113">InstanceParameters members</span></span>](./instanceparameters-members.md)
 
-[<span data-ttu-id="3b8d9-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="3b8d9-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="a5880-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="a5880-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

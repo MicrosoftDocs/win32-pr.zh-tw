@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021878"
 ---
-# <a name="private-pool-setup"></a><span data-ttu-id="267ce-103">私人集區設定</span><span class="sxs-lookup"><span data-stu-id="267ce-103">Private Pool Setup</span></span>
+# <a name="private-pool-setup"></a><span data-ttu-id="85128-103">私人集區設定</span><span class="sxs-lookup"><span data-stu-id="85128-103">Private Pool Setup</span></span>
 
-<span data-ttu-id="267ce-104">下列各節包含設定私人感應器集區所需的程式碼。</span><span class="sxs-lookup"><span data-stu-id="267ce-104">The following sections contain the code necessary to setup a private sensor pool.</span></span>
+<span data-ttu-id="85128-104">下列各節包含設定私人感應器集區所需的程式碼。</span><span class="sxs-lookup"><span data-stu-id="85128-104">The following sections contain the code necessary to setup a private sensor pool.</span></span>
 
--   [<span data-ttu-id="267ce-105">Targetver.h。h</span><span class="sxs-lookup"><span data-stu-id="267ce-105">Targetver.h</span></span>](#targetverh)
--   [<span data-ttu-id="267ce-106">stdafx.h</span><span class="sxs-lookup"><span data-stu-id="267ce-106">Stdafx.h</span></span>](#stdafxh)
--   [<span data-ttu-id="267ce-107">PrivatePoolCommonDefs。h</span><span class="sxs-lookup"><span data-stu-id="267ce-107">PrivatePoolCommonDefs.h</span></span>](#privatepoolcommondefsh)
--   [<span data-ttu-id="267ce-108">PrivatePoolSetup .cpp</span><span class="sxs-lookup"><span data-stu-id="267ce-108">PrivatePoolSetup.cpp</span></span>](#privatepoolsetupcpp)
+-   [<span data-ttu-id="85128-105">Targetver.h。h</span><span class="sxs-lookup"><span data-stu-id="85128-105">Targetver.h</span></span>](#targetverh)
+-   [<span data-ttu-id="85128-106">stdafx.h</span><span class="sxs-lookup"><span data-stu-id="85128-106">Stdafx.h</span></span>](#stdafxh)
+-   [<span data-ttu-id="85128-107">PrivatePoolCommonDefs。h</span><span class="sxs-lookup"><span data-stu-id="85128-107">PrivatePoolCommonDefs.h</span></span>](#privatepoolcommondefsh)
+-   [<span data-ttu-id="85128-108">PrivatePoolSetup .cpp</span><span class="sxs-lookup"><span data-stu-id="85128-108">PrivatePoolSetup.cpp</span></span>](#privatepoolsetupcpp)
 
-## <a name="targetverh"></a><span data-ttu-id="267ce-109">Targetver.h。h</span><span class="sxs-lookup"><span data-stu-id="267ce-109">Targetver.h</span></span>
+## <a name="targetverh"></a><span data-ttu-id="85128-109">Targetver.h。h</span><span class="sxs-lookup"><span data-stu-id="85128-109">Targetver.h</span></span>
 
-<span data-ttu-id="267ce-110">此範例是針對 Windows 7 和更新版本的作業系統所建立。</span><span class="sxs-lookup"><span data-stu-id="267ce-110">This sample was created for Windows 7 and later operating systems.</span></span>
+<span data-ttu-id="85128-110">此範例是針對 Windows 7 和更新版本的作業系統所建立。</span><span class="sxs-lookup"><span data-stu-id="85128-110">This sample was created for Windows 7 and later operating systems.</span></span>
 
 
 ```C++
@@ -34,7 +34,7 @@ ms.locfileid: "104021878"
 
 
 
-## <a name="stdafxh"></a><span data-ttu-id="267ce-111">stdafx.h</span><span class="sxs-lookup"><span data-stu-id="267ce-111">Stdafx.h</span></span>
+## <a name="stdafxh"></a><span data-ttu-id="85128-111">stdafx.h</span><span class="sxs-lookup"><span data-stu-id="85128-111">Stdafx.h</span></span>
 
 
 ```C++
@@ -65,9 +65,9 @@ ms.locfileid: "104021878"
 
 
 
-## <a name="privatepoolcommondefsh"></a><span data-ttu-id="267ce-112">PrivatePoolCommonDefs。h</span><span class="sxs-lookup"><span data-stu-id="267ce-112">PrivatePoolCommonDefs.h</span></span>
+## <a name="privatepoolcommondefsh"></a><span data-ttu-id="85128-112">PrivatePoolCommonDefs。h</span><span class="sxs-lookup"><span data-stu-id="85128-112">PrivatePoolCommonDefs.h</span></span>
 
-<span data-ttu-id="267ce-113">請包含下列標頭。</span><span class="sxs-lookup"><span data-stu-id="267ce-113">Include the following header.</span></span> <span data-ttu-id="267ce-114">請注意，您必須產生唯一的資料庫識別碼。</span><span class="sxs-lookup"><span data-stu-id="267ce-114">Note that you must generate a unique database ID.</span></span> <span data-ttu-id="267ce-115">請勿在已發行的應用程式中使用提供的 GUID。</span><span class="sxs-lookup"><span data-stu-id="267ce-115">Do not use the provided GUID in a released application.</span></span>
+<span data-ttu-id="85128-113">請包含下列標頭。</span><span class="sxs-lookup"><span data-stu-id="85128-113">Include the following header.</span></span> <span data-ttu-id="85128-114">請注意，您必須產生唯一的資料庫識別碼。</span><span class="sxs-lookup"><span data-stu-id="85128-114">Note that you must generate a unique database ID.</span></span> <span data-ttu-id="85128-115">請勿在已發行的應用程式中使用提供的 GUID。</span><span class="sxs-lookup"><span data-stu-id="85128-115">Do not use the provided GUID in a released application.</span></span>
 
 
 ```C++
@@ -99,9 +99,9 @@ static const GUID PRIVATE_POOL_DATABASE_ID =
 
 
 
-## <a name="privatepoolsetupcpp"></a><span data-ttu-id="267ce-116">PrivatePoolSetup .cpp</span><span class="sxs-lookup"><span data-stu-id="267ce-116">PrivatePoolSetup.cpp</span></span>
+## <a name="privatepoolsetupcpp"></a><span data-ttu-id="85128-116">PrivatePoolSetup .cpp</span><span class="sxs-lookup"><span data-stu-id="85128-116">PrivatePoolSetup.cpp</span></span>
 
-<span data-ttu-id="267ce-117">下列原始程式碼會顯示私人感應器集區應用程式的進入點。</span><span class="sxs-lookup"><span data-stu-id="267ce-117">The following source code displays the entry point for a private sensor pool application.</span></span>
+<span data-ttu-id="85128-117">下列原始程式碼會顯示私人感應器集區應用程式的進入點。</span><span class="sxs-lookup"><span data-stu-id="85128-117">The following source code displays the entry point for a private sensor pool application.</span></span>
 
 
 ```C++

@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849772"
 ---
-# <a name="esenttoomanytestinjectionsexception-constructor"></a><span data-ttu-id="95d65-103">EsentTooManyTestInjectionsException 函式</span><span class="sxs-lookup"><span data-stu-id="95d65-103">EsentTooManyTestInjectionsException constructor</span></span>
+# <a name="esenttoomanytestinjectionsexception-constructor"></a><span data-ttu-id="cb7db-103">EsentTooManyTestInjectionsException 函式</span><span class="sxs-lookup"><span data-stu-id="cb7db-103">EsentTooManyTestInjectionsException constructor</span></span>
 
-<span data-ttu-id="95d65-104">初始化 EsentTooManyTestInjectionsException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="95d65-104">Initializes a new instance of the EsentTooManyTestInjectionsException class.</span></span>
+<span data-ttu-id="cb7db-104">初始化 EsentTooManyTestInjectionsException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="cb7db-104">Initializes a new instance of the EsentTooManyTestInjectionsException class.</span></span>
 
-<span data-ttu-id="95d65-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="95d65-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="95d65-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="95d65-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="cb7db-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="cb7db-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="cb7db-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="cb7db-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="95d65-107">語法</span><span class="sxs-lookup"><span data-stu-id="95d65-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cb7db-107">語法</span><span class="sxs-lookup"><span data-stu-id="cb7db-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentTooManyTestInjectionsException()
 public EsentTooManyTestInjectionsException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="95d65-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="95d65-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb7db-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cb7db-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="95d65-109">參考</span><span class="sxs-lookup"><span data-stu-id="95d65-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="cb7db-109">參考</span><span class="sxs-lookup"><span data-stu-id="cb7db-109">Reference</span></span>
 
-[<span data-ttu-id="95d65-110">EsentTooManyTestInjectionsException 類別</span><span class="sxs-lookup"><span data-stu-id="95d65-110">EsentTooManyTestInjectionsException class</span></span>](./esenttoomanytestinjectionsexception-class.md)
+[<span data-ttu-id="cb7db-110">EsentTooManyTestInjectionsException 類別</span><span class="sxs-lookup"><span data-stu-id="cb7db-110">EsentTooManyTestInjectionsException class</span></span>](./esenttoomanytestinjectionsexception-class.md)
 
-[<span data-ttu-id="95d65-111">EsentTooManyTestInjectionsException 成員</span><span class="sxs-lookup"><span data-stu-id="95d65-111">EsentTooManyTestInjectionsException members</span></span>](./esenttoomanytestinjectionsexception-members.md)
+[<span data-ttu-id="cb7db-111">EsentTooManyTestInjectionsException 成員</span><span class="sxs-lookup"><span data-stu-id="cb7db-111">EsentTooManyTestInjectionsException members</span></span>](./esenttoomanytestinjectionsexception-members.md)
 
-[<span data-ttu-id="95d65-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="95d65-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="cb7db-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="cb7db-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

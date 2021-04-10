@@ -18,9 +18,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021874"
 ---
-# <a name="text-section"></a><span data-ttu-id="dd015-109">Text 區段</span><span class="sxs-lookup"><span data-stu-id="dd015-109">Text Section</span></span>
+# <a name="text-section"></a><span data-ttu-id="6e806-109">Text 區段</span><span class="sxs-lookup"><span data-stu-id="6e806-109">Text Section</span></span>
 
-<span data-ttu-id="dd015-110">在此外觀中不會使用任何文字區段，但以下是在您執行文字區段時應使用的格式範例：</span><span class="sxs-lookup"><span data-stu-id="dd015-110">No text section is used in this skin, but the following is an example of the format you should use when implementing a text section:</span></span>
+<span data-ttu-id="6e806-110">在此外觀中不會使用任何文字區段，但以下是在您執行文字區段時應使用的格式範例：</span><span class="sxs-lookup"><span data-stu-id="6e806-110">No text section is used in this skin, but the following is an example of the format you should use when implementing a text section:</span></span>
 
 
 ```C++
@@ -33,11 +33,11 @@ ms.locfileid: "104021874"
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="dd015-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="dd015-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6e806-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="6e806-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="dd015-112">**撰寫程式碼**</span><span class="sxs-lookup"><span data-stu-id="dd015-112">**Writing the Code**</span></span>](writing-the-code.md)
+[<span data-ttu-id="6e806-112">**撰寫程式碼**</span><span class="sxs-lookup"><span data-stu-id="6e806-112">**Writing the Code**</span></span>](writing-the-code.md)
 </dt> </dl>
 
  

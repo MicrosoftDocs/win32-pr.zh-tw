@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945479"
 ---
-# <a name="esentinvalidoperationexception-constructor"></a><span data-ttu-id="0c80c-103">EsentInvalidOperationException 函式</span><span class="sxs-lookup"><span data-stu-id="0c80c-103">EsentInvalidOperationException constructor</span></span>
+# <a name="esentinvalidoperationexception-constructor"></a><span data-ttu-id="d6658-103">EsentInvalidOperationException 函式</span><span class="sxs-lookup"><span data-stu-id="d6658-103">EsentInvalidOperationException constructor</span></span>
 
-<span data-ttu-id="0c80c-104">初始化 EsentInvalidOperationException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="0c80c-104">Initializes a new instance of the EsentInvalidOperationException class.</span></span>
+<span data-ttu-id="d6658-104">初始化 EsentInvalidOperationException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="d6658-104">Initializes a new instance of the EsentInvalidOperationException class.</span></span>
 
-<span data-ttu-id="0c80c-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="0c80c-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="0c80c-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="0c80c-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="d6658-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="d6658-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="d6658-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="d6658-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0c80c-107">語法</span><span class="sxs-lookup"><span data-stu-id="0c80c-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d6658-107">語法</span><span class="sxs-lookup"><span data-stu-id="d6658-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentInvalidOperationException()
 public EsentInvalidOperationException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="0c80c-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0c80c-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d6658-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d6658-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="0c80c-109">參考</span><span class="sxs-lookup"><span data-stu-id="0c80c-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="d6658-109">參考</span><span class="sxs-lookup"><span data-stu-id="d6658-109">Reference</span></span>
 
-[<span data-ttu-id="0c80c-110">EsentInvalidOperationException 類別</span><span class="sxs-lookup"><span data-stu-id="0c80c-110">EsentInvalidOperationException class</span></span>](./esentinvalidoperationexception-class.md)
+[<span data-ttu-id="d6658-110">EsentInvalidOperationException 類別</span><span class="sxs-lookup"><span data-stu-id="d6658-110">EsentInvalidOperationException class</span></span>](./esentinvalidoperationexception-class.md)
 
-[<span data-ttu-id="0c80c-111">EsentInvalidOperationException 成員</span><span class="sxs-lookup"><span data-stu-id="0c80c-111">EsentInvalidOperationException members</span></span>](./esentinvalidoperationexception-members.md)
+[<span data-ttu-id="d6658-111">EsentInvalidOperationException 成員</span><span class="sxs-lookup"><span data-stu-id="d6658-111">EsentInvalidOperationException members</span></span>](./esentinvalidoperationexception-members.md)
 
-[<span data-ttu-id="0c80c-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="0c80c-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="d6658-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="d6658-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

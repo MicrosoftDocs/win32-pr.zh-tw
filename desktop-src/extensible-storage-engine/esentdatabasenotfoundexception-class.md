@@ -31,24 +31,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848602"
 ---
-# <a name="esentdatabasenotfoundexception-class"></a><span data-ttu-id="66643-103">EsentDatabaseNotFoundException 類別</span><span class="sxs-lookup"><span data-stu-id="66643-103">EsentDatabaseNotFoundException class</span></span>
+# <a name="esentdatabasenotfoundexception-class"></a><span data-ttu-id="5c262-103">EsentDatabaseNotFoundException 類別</span><span class="sxs-lookup"><span data-stu-id="5c262-103">EsentDatabaseNotFoundException class</span></span>
 
-<span data-ttu-id="66643-104">JET_err 的基類。DatabaseNotFound 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="66643-104">Base class for JET_err.DatabaseNotFound exceptions.</span></span>
+<span data-ttu-id="5c262-104">JET_err 的基類。DatabaseNotFound 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="5c262-104">Base class for JET_err.DatabaseNotFound exceptions.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="66643-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="66643-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="5c262-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="5c262-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="66643-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="66643-106">System.Object</span></span>](/dotnet/api/system.object)  
-  [<span data-ttu-id="66643-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="66643-107">System.Exception</span></span>](/dotnet/api/system.exception)  
-    [<span data-ttu-id="66643-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="66643-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
-      [<span data-ttu-id="66643-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="66643-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
-        [<span data-ttu-id="66643-110">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="66643-110">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
-          [<span data-ttu-id="66643-111">EsentUsageException （.）</span><span class="sxs-lookup"><span data-stu-id="66643-111">Microsoft.Isam.Esent.Interop.EsentUsageException</span></span>](./esentusageexception-class.md)  
-            <span data-ttu-id="66643-112">EsentDatabaseNotFoundException （.）</span><span class="sxs-lookup"><span data-stu-id="66643-112">Microsoft.Isam.Esent.Interop.EsentDatabaseNotFoundException</span></span>  
+[<span data-ttu-id="5c262-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="5c262-106">System.Object</span></span>](/dotnet/api/system.object)  
+  [<span data-ttu-id="5c262-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="5c262-107">System.Exception</span></span>](/dotnet/api/system.exception)  
+    [<span data-ttu-id="5c262-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="5c262-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
+      [<span data-ttu-id="5c262-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="5c262-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
+        [<span data-ttu-id="5c262-110">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="5c262-110">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
+          [<span data-ttu-id="5c262-111">EsentUsageException （.）</span><span class="sxs-lookup"><span data-stu-id="5c262-111">Microsoft.Isam.Esent.Interop.EsentUsageException</span></span>](./esentusageexception-class.md)  
+            <span data-ttu-id="5c262-112">EsentDatabaseNotFoundException （.）</span><span class="sxs-lookup"><span data-stu-id="5c262-112">Microsoft.Isam.Esent.Interop.EsentDatabaseNotFoundException</span></span>  
 
-<span data-ttu-id="66643-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="66643-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="66643-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="66643-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="5c262-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="5c262-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="5c262-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="5c262-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="66643-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="66643-115">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5c262-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="5c262-115">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -64,14 +64,14 @@ Dim instance As EsentDatabaseNotFoundException
 public sealed class EsentDatabaseNotFoundException : EsentUsageException
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="66643-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="66643-116">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="5c262-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="5c262-116">Thread safety</span></span>
 
-<span data-ttu-id="66643-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="66643-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="66643-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="66643-118">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="5c262-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="5c262-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="5c262-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="5c262-118">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="66643-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="66643-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5c262-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5c262-119">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="66643-120">參考</span><span class="sxs-lookup"><span data-stu-id="66643-120">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="5c262-120">參考</span><span class="sxs-lookup"><span data-stu-id="5c262-120">Reference</span></span>
 
-[<span data-ttu-id="66643-121">EsentDatabaseNotFoundException 成員</span><span class="sxs-lookup"><span data-stu-id="66643-121">EsentDatabaseNotFoundException members</span></span>](./esentdatabasenotfoundexception-members.md)
+[<span data-ttu-id="5c262-121">EsentDatabaseNotFoundException 成員</span><span class="sxs-lookup"><span data-stu-id="5c262-121">EsentDatabaseNotFoundException members</span></span>](./esentdatabasenotfoundexception-members.md)
 
-[<span data-ttu-id="66643-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="66643-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="5c262-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="5c262-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

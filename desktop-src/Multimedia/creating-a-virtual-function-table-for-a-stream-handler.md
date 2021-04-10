@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021170"
 ---
-# <a name="creating-a-virtual-function-table-for-a-stream-handler"></a><span data-ttu-id="ec3b0-103">建立資料流程處理常式的虛擬函式資料表</span><span class="sxs-lookup"><span data-stu-id="ec3b0-103">Creating a Virtual Function Table for a Stream Handler</span></span>
+# <a name="creating-a-virtual-function-table-for-a-stream-handler"></a><span data-ttu-id="54162-103">建立資料流程處理常式的虛擬函式資料表</span><span class="sxs-lookup"><span data-stu-id="54162-103">Creating a Virtual Function Table for a Stream Handler</span></span>
 
-<span data-ttu-id="ec3b0-104">下列以 C) 撰寫 (範例會顯示應用程式 (AVIBall) 如何建立用來參考其服務的虛擬函式資料表。</span><span class="sxs-lookup"><span data-stu-id="ec3b0-104">The following example (written in C) shows how an application (AVIBall) creates the virtual function table used to reference its services.</span></span>
+<span data-ttu-id="54162-104">下列以 C) 撰寫 (範例會顯示應用程式 (AVIBall) 如何建立用來參考其服務的虛擬函式資料表。</span><span class="sxs-lookup"><span data-stu-id="54162-104">The following example (written in C) shows how an application (AVIBall) creates the virtual function table used to reference its services.</span></span>
 
 
 ```C++
@@ -62,7 +62,7 @@ IAVIStreamVtbl AVIBallHandler = {
 
 
 
-<span data-ttu-id="ec3b0-105">檔案處理常式會使用類似的程式，但它們會對虛擬函式資料表使用不同的定義。</span><span class="sxs-lookup"><span data-stu-id="ec3b0-105">File handlers use a similar procedure, except they use a different definition for the virtual function table.</span></span>
+<span data-ttu-id="54162-105">檔案處理常式會使用類似的程式，但它們會對虛擬函式資料表使用不同的定義。</span><span class="sxs-lookup"><span data-stu-id="54162-105">File handlers use a similar procedure, except they use a different definition for the virtual function table.</span></span>
 
  
 

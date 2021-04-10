@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944811"
 ---
-# <a name="ix509attributecspprovider-methods"></a><span data-ttu-id="4b188-103">IX509AttributeCspProvider 方法</span><span class="sxs-lookup"><span data-stu-id="4b188-103">IX509AttributeCspProvider Methods</span></span>
+# <a name="ix509attributecspprovider-methods"></a><span data-ttu-id="9f9e3-103">IX509AttributeCspProvider 方法</span><span class="sxs-lookup"><span data-stu-id="9f9e3-103">IX509AttributeCspProvider Methods</span></span>
 
-<span data-ttu-id="4b188-104">[**IX509AttributeCspProvider**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributecspprovider)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="4b188-104">The [**IX509AttributeCspProvider**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributecspprovider) interface exposes the following methods.</span></span>
+<span data-ttu-id="9f9e3-104">[**IX509AttributeCspProvider**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributecspprovider)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="9f9e3-104">The [**IX509AttributeCspProvider**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributecspprovider) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="4b188-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="4b188-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9f9e3-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="9f9e3-105">In this section</span></span>
 
--   [<span data-ttu-id="4b188-106">**InitializeDecode 方法**</span><span class="sxs-lookup"><span data-stu-id="4b188-106">**InitializeDecode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-initializedecode)
--   [<span data-ttu-id="4b188-107">**InitializeEncode 方法**</span><span class="sxs-lookup"><span data-stu-id="4b188-107">**InitializeEncode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-initializeencode)
+-   [<span data-ttu-id="9f9e3-106">**InitializeDecode 方法**</span><span class="sxs-lookup"><span data-stu-id="9f9e3-106">**InitializeDecode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-initializedecode)
+-   [<span data-ttu-id="9f9e3-107">**InitializeEncode 方法**</span><span class="sxs-lookup"><span data-stu-id="9f9e3-107">**InitializeEncode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-initializeencode)
 
  
 

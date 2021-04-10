@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945404"
 ---
-# <a name="hasheddata-methods"></a><span data-ttu-id="0ec8d-103">HashedData 方法</span><span class="sxs-lookup"><span data-stu-id="0ec8d-103">HashedData Methods</span></span>
+# <a name="hasheddata-methods"></a><span data-ttu-id="0f1b7-103">HashedData 方法</span><span class="sxs-lookup"><span data-stu-id="0f1b7-103">HashedData Methods</span></span>
 
-<span data-ttu-id="0ec8d-104">[**HashedData**](hasheddata.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="0ec8d-104">The [**HashedData**](hasheddata.md) object exposes the following methods.</span></span>
+<span data-ttu-id="0f1b7-104">[**HashedData**](hasheddata.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="0f1b7-104">The [**HashedData**](hasheddata.md) object exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="0ec8d-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0ec8d-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0f1b7-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0f1b7-105">In this section</span></span>
 
--   [<span data-ttu-id="0ec8d-106">**Hash 方法**</span><span class="sxs-lookup"><span data-stu-id="0ec8d-106">**Hash Method**</span></span>](hasheddata-hash.md)
+-   [<span data-ttu-id="0f1b7-106">**Hash 方法**</span><span class="sxs-lookup"><span data-stu-id="0f1b7-106">**Hash Method**</span></span>](hasheddata-hash.md)
 
  
 

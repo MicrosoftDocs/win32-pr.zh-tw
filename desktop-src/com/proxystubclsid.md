@@ -13,11 +13,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021853"
 ---
-# <a name="proxystubclsid"></a><span data-ttu-id="80d85-104">ProxyStubClsid</span><span class="sxs-lookup"><span data-stu-id="80d85-104">ProxyStubClsid</span></span>
+# <a name="proxystubclsid"></a><span data-ttu-id="7b197-104">ProxyStubClsid</span><span class="sxs-lookup"><span data-stu-id="7b197-104">ProxyStubClsid</span></span>
 
-<span data-ttu-id="80d85-105">將 IID 對應至16位 proxy Dll 中的 CLSID。</span><span class="sxs-lookup"><span data-stu-id="80d85-105">Maps an IID to a CLSID in 16-bit proxy DLLs.</span></span>
+<span data-ttu-id="7b197-105">將 IID 對應至16位 proxy Dll 中的 CLSID。</span><span class="sxs-lookup"><span data-stu-id="7b197-105">Maps an IID to a CLSID in 16-bit proxy DLLs.</span></span>
 
-## <a name="registry-entry"></a><span data-ttu-id="80d85-106">登錄項目</span><span class="sxs-lookup"><span data-stu-id="80d85-106">Registry Entry</span></span>
+## <a name="registry-entry"></a><span data-ttu-id="7b197-106">登錄項目</span><span class="sxs-lookup"><span data-stu-id="7b197-106">Registry Entry</span></span>
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface
@@ -25,20 +25,20 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface
       ProxyStubClsid = {CLSID}
 ```
 
-## <a name="remarks"></a><span data-ttu-id="80d85-107">備註</span><span class="sxs-lookup"><span data-stu-id="80d85-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7b197-107">備註</span><span class="sxs-lookup"><span data-stu-id="7b197-107">Remarks</span></span>
 
-<span data-ttu-id="80d85-108">這是指定 IID CLSID 的 **REG \_ SZ** 值。</span><span class="sxs-lookup"><span data-stu-id="80d85-108">This is a **REG\_SZ** value that specifies the CLSID for the IID.</span></span>
+<span data-ttu-id="7b197-108">這是指定 IID CLSID 的 **REG \_ SZ** 值。</span><span class="sxs-lookup"><span data-stu-id="7b197-108">This is a **REG\_SZ** value that specifies the CLSID for the IID.</span></span>
 
-<span data-ttu-id="80d85-109">如果您加入介面，您必須使用此專案將它們註冊 (16 位系統) ，讓 OLE 可以找到適當的遠端程式碼來建立進程間的通訊。</span><span class="sxs-lookup"><span data-stu-id="80d85-109">If you add interfaces, you must use this entry to register them (16-bit systems) so that OLE can find the appropriate remoting code to establish interprocess communication.</span></span>
+<span data-ttu-id="7b197-109">如果您加入介面，您必須使用此專案將它們註冊 (16 位系統) ，讓 OLE 可以找到適當的遠端程式碼來建立進程間的通訊。</span><span class="sxs-lookup"><span data-stu-id="7b197-109">If you add interfaces, you must use this entry to register them (16-bit systems) so that OLE can find the appropriate remoting code to establish interprocess communication.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="80d85-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="80d85-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7b197-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="7b197-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="80d85-111">**介面**</span><span class="sxs-lookup"><span data-stu-id="80d85-111">**Interface**</span></span>](interface-key.md)
+[<span data-ttu-id="7b197-111">**介面**</span><span class="sxs-lookup"><span data-stu-id="7b197-111">**Interface**</span></span>](interface-key.md)
 </dt> <dt>
 
-[<span data-ttu-id="80d85-112">**ProxyStubClsid32**</span><span class="sxs-lookup"><span data-stu-id="80d85-112">**ProxyStubClsid32**</span></span>](proxystubclsid32.md)
+[<span data-ttu-id="7b197-112">**ProxyStubClsid32**</span><span class="sxs-lookup"><span data-stu-id="7b197-112">**ProxyStubClsid32**</span></span>](proxystubclsid32.md)
 </dt> </dl>
 
  

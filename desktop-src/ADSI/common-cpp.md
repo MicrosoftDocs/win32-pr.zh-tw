@@ -12,9 +12,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020804"
 ---
-# <a name="commoncpp"></a><span data-ttu-id="65f35-103">常見。Cpp</span><span class="sxs-lookup"><span data-stu-id="65f35-103">COMMON.CPP</span></span>
+# <a name="commoncpp"></a><span data-ttu-id="41790-103">常見。Cpp</span><span class="sxs-lookup"><span data-stu-id="41790-103">COMMON.CPP</span></span>
 
-<span data-ttu-id="65f35-104">在範例提供者元件中，所有泛型物件通用的程式碼範例都可以在 common .cpp 中找到。</span><span class="sxs-lookup"><span data-stu-id="65f35-104">In the example provider component, a code example common to all generic objects is found in common.cpp.</span></span> <span data-ttu-id="65f35-105">物件會透過 c + + 繼承規則來繼承這些方法和屬性。</span><span class="sxs-lookup"><span data-stu-id="65f35-105">Objects inherit these methods and properties through C++ inheritance rules.</span></span> <span data-ttu-id="65f35-106">這些方法包括建立 ADsPath 字串、型別資料方法和其他維護常式。</span><span class="sxs-lookup"><span data-stu-id="65f35-106">These methods include building ADsPath strings, type data methods, and other maintenance routines.</span></span>
+<span data-ttu-id="41790-104">在範例提供者元件中，所有泛型物件通用的程式碼範例都可以在 common .cpp 中找到。</span><span class="sxs-lookup"><span data-stu-id="41790-104">In the example provider component, a code example common to all generic objects is found in common.cpp.</span></span> <span data-ttu-id="41790-105">物件會透過 c + + 繼承規則來繼承這些方法和屬性。</span><span class="sxs-lookup"><span data-stu-id="41790-105">Objects inherit these methods and properties through C++ inheritance rules.</span></span> <span data-ttu-id="41790-106">這些方法包括建立 ADsPath 字串、型別資料方法和其他維護常式。</span><span class="sxs-lookup"><span data-stu-id="41790-106">These methods include building ADsPath strings, type data methods, and other maintenance routines.</span></span>
 
  
 

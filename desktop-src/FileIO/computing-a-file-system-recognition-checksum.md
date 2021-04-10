@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945430"
 ---
-# <a name="computing-a-file-system-recognition-checksum"></a><span data-ttu-id="e73c0-103">計算檔案系統識別總和檢查碼</span><span class="sxs-lookup"><span data-stu-id="e73c0-103">Computing a File System Recognition Checksum</span></span>
+# <a name="computing-a-file-system-recognition-checksum"></a><span data-ttu-id="cd835-103">計算檔案系統識別總和檢查碼</span><span class="sxs-lookup"><span data-stu-id="cd835-103">Computing a File System Recognition Checksum</span></span>
 
-<span data-ttu-id="e73c0-104">[**檔 \_ 系統辨識 \_ \_ 結構**](file-system-recognition-structure.md)結構（由 Windows 在內部定義，且由 [檔案系統](file-system-recognition.md)辨識 (FRS) ）包含必須正確計算的總和檢查碼值，以便讓 FRS 正常地與指定的無法辨識檔案系統搭配使用。</span><span class="sxs-lookup"><span data-stu-id="e73c0-104">The [**FILE\_SYSTEM\_RECOGNITION\_STRUCTURE**](file-system-recognition-structure.md) structure, defined internally by Windows and used by [file system recognition](file-system-recognition.md) (FRS), contains a checksum value that must be properly computed for FRS to work properly with a specified unrecognized file system.</span></span> <span data-ttu-id="e73c0-105">下列範例會完成此計算。</span><span class="sxs-lookup"><span data-stu-id="e73c0-105">The following example accomplishes this computation.</span></span>
+<span data-ttu-id="cd835-104">[**檔 \_ 系統辨識 \_ \_ 結構**](file-system-recognition-structure.md)結構（由 Windows 在內部定義，且由 [檔案系統](file-system-recognition.md)辨識 (FRS) ）包含必須正確計算的總和檢查碼值，以便讓 FRS 正常地與指定的無法辨識檔案系統搭配使用。</span><span class="sxs-lookup"><span data-stu-id="cd835-104">The [**FILE\_SYSTEM\_RECOGNITION\_STRUCTURE**](file-system-recognition-structure.md) structure, defined internally by Windows and used by [file system recognition](file-system-recognition.md) (FRS), contains a checksum value that must be properly computed for FRS to work properly with a specified unrecognized file system.</span></span> <span data-ttu-id="cd835-105">下列範例會完成此計算。</span><span class="sxs-lookup"><span data-stu-id="cd835-105">The following example accomplishes this computation.</span></span>
 
 
 ```C++
@@ -79,14 +79,14 @@ Return Value:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="e73c0-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="e73c0-106">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="cd835-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="cd835-106">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e73c0-107">檔案系統識別</span><span class="sxs-lookup"><span data-stu-id="e73c0-107">File System Recognition</span></span>](file-system-recognition.md)
+[<span data-ttu-id="cd835-107">檔案系統識別</span><span class="sxs-lookup"><span data-stu-id="cd835-107">File System Recognition</span></span>](file-system-recognition.md)
 </dt> <dt>
 
-[<span data-ttu-id="e73c0-108">**檔 \_ 系統 \_ 識別 \_ 結構**</span><span class="sxs-lookup"><span data-stu-id="e73c0-108">**FILE\_SYSTEM\_RECOGNITION\_STRUCTURE**</span></span>](file-system-recognition-structure.md)
+[<span data-ttu-id="cd835-108">**檔 \_ 系統 \_ 識別 \_ 結構**</span><span class="sxs-lookup"><span data-stu-id="cd835-108">**FILE\_SYSTEM\_RECOGNITION\_STRUCTURE**</span></span>](file-system-recognition-structure.md)
 </dt> </dl>
 
  
