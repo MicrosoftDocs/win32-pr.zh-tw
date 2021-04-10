@@ -12,15 +12,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933311"
 ---
-# <a name="auth-provider-name"></a><span data-ttu-id="3c201-103">驗證提供者-名稱</span><span class="sxs-lookup"><span data-stu-id="3c201-103">Auth-Provider-Name</span></span>
+# <a name="auth-provider-name"></a><span data-ttu-id="c88fb-103">驗證提供者-名稱</span><span class="sxs-lookup"><span data-stu-id="c88fb-103">Auth-Provider-Name</span></span>
 
-<span data-ttu-id="3c201-104">提供驗證的 RADIUS 伺服器或伺服器組名。</span><span class="sxs-lookup"><span data-stu-id="3c201-104">The name of the RADIUS server or server group that provides authentication.</span></span>
+<span data-ttu-id="c88fb-104">提供驗證的 RADIUS 伺服器或伺服器組名。</span><span class="sxs-lookup"><span data-stu-id="c88fb-104">The name of the RADIUS server or server group that provides authentication.</span></span>
 
-<span data-ttu-id="3c201-105">**LDAP 名稱：** msAuthProviderName</span><span class="sxs-lookup"><span data-stu-id="3c201-105">**LDAP Name:** msAuthProviderName</span></span>
+<span data-ttu-id="c88fb-105">**LDAP 名稱：** msAuthProviderName</span><span class="sxs-lookup"><span data-stu-id="c88fb-105">**LDAP Name:** msAuthProviderName</span></span>
 
-<span data-ttu-id="3c201-106">**識別碼：** 4137 = [ **IAS \_ 屬性 \_ 驗證 \_ 提供者 \_ 名稱**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span><span class="sxs-lookup"><span data-stu-id="3c201-106">**ID:** 4137 = [**IAS\_ATTRIBUTE\_AUTH\_PROVIDER\_NAME**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span></span>
+<span data-ttu-id="c88fb-106">**識別碼：** 4137 = [ **IAS \_ 屬性 \_ 驗證 \_ 提供者 \_ 名稱**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span><span class="sxs-lookup"><span data-stu-id="c88fb-106">**ID:** 4137 = [**IAS\_ATTRIBUTE\_AUTH\_PROVIDER\_NAME**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)</span></span>
 
-<span data-ttu-id="3c201-107">**語法：** 字串</span><span class="sxs-lookup"><span data-stu-id="3c201-107">**Syntax:** String</span></span>
+<span data-ttu-id="c88fb-107">**語法：** 字串</span><span class="sxs-lookup"><span data-stu-id="c88fb-107">**Syntax:** String</span></span>
 
  
 

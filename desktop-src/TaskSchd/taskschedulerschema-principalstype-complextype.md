@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934013"
 ---
-# <a name="principalstype-complex-type"></a><span data-ttu-id="53a13-104">principalsType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="53a13-104">principalsType Complex Type</span></span>
+# <a name="principalstype-complex-type"></a><span data-ttu-id="2a386-104">principalsType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="2a386-104">principalsType Complex Type</span></span>
 
-<span data-ttu-id="53a13-105">定義 [**主體**](taskschedulerschema-principals-tasktype-element.md) 元素的子項目。</span><span class="sxs-lookup"><span data-stu-id="53a13-105">Defines the child element for the [**Principals**](taskschedulerschema-principals-tasktype-element.md) element.</span></span>
+<span data-ttu-id="2a386-105">定義 [**主體**](taskschedulerschema-principals-tasktype-element.md) 元素的子項目。</span><span class="sxs-lookup"><span data-stu-id="2a386-105">Defines the child element for the [**Principals**](taskschedulerschema-principals-tasktype-element.md) element.</span></span>
 
 ``` syntax
 <xs:complexType name="principalsType">
@@ -35,24 +35,24 @@ ms.locfileid: "103934013"
 </xs:complexType>
 ```
 
-## <a name="child-elements"></a><span data-ttu-id="53a13-106">子元素</span><span class="sxs-lookup"><span data-stu-id="53a13-106">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="2a386-106">子元素</span><span class="sxs-lookup"><span data-stu-id="2a386-106">Child elements</span></span>
 
 
 
-| <span data-ttu-id="53a13-107">元素</span><span class="sxs-lookup"><span data-stu-id="53a13-107">Element</span></span>                                                                  | <span data-ttu-id="53a13-108">類型</span><span class="sxs-lookup"><span data-stu-id="53a13-108">Type</span></span>                                                                   | <span data-ttu-id="53a13-109">Description</span><span class="sxs-lookup"><span data-stu-id="53a13-109">Description</span></span>                                                    |
+| <span data-ttu-id="2a386-107">元素</span><span class="sxs-lookup"><span data-stu-id="2a386-107">Element</span></span>                                                                  | <span data-ttu-id="2a386-108">類型</span><span class="sxs-lookup"><span data-stu-id="2a386-108">Type</span></span>                                                                   | <span data-ttu-id="2a386-109">Description</span><span class="sxs-lookup"><span data-stu-id="2a386-109">Description</span></span>                                                    |
 |--------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------|
-| [<span data-ttu-id="53a13-110">**主要**</span><span class="sxs-lookup"><span data-stu-id="53a13-110">**Principal**</span></span>](taskschedulerschema-principal-principaltype-element.md) | [<span data-ttu-id="53a13-111">**principalType**</span><span class="sxs-lookup"><span data-stu-id="53a13-111">**principalType**</span></span>](taskschedulerschema-principaltype-complextype.md) | <span data-ttu-id="53a13-112">指定主體的安全性認證。</span><span class="sxs-lookup"><span data-stu-id="53a13-112">Specifies the security credentials for a principal.</span></span><br/> |
+| [<span data-ttu-id="2a386-110">**主要**</span><span class="sxs-lookup"><span data-stu-id="2a386-110">**Principal**</span></span>](taskschedulerschema-principal-principaltype-element.md) | [<span data-ttu-id="2a386-111">**principalType**</span><span class="sxs-lookup"><span data-stu-id="2a386-111">**principalType**</span></span>](taskschedulerschema-principaltype-complextype.md) | <span data-ttu-id="2a386-112">指定主體的安全性認證。</span><span class="sxs-lookup"><span data-stu-id="2a386-112">Specifies the security credentials for a principal.</span></span><br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="53a13-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="53a13-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2a386-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="2a386-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="53a13-114">需求</span><span class="sxs-lookup"><span data-stu-id="53a13-114">Requirement</span></span> | <span data-ttu-id="53a13-115">值</span><span class="sxs-lookup"><span data-stu-id="53a13-115">Value</span></span> |
+| <span data-ttu-id="2a386-114">需求</span><span class="sxs-lookup"><span data-stu-id="2a386-114">Requirement</span></span> | <span data-ttu-id="2a386-115">值</span><span class="sxs-lookup"><span data-stu-id="2a386-115">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="53a13-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="53a13-116">Minimum supported client</span></span><br/> | <span data-ttu-id="53a13-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="53a13-117">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="53a13-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="53a13-118">Minimum supported server</span></span><br/> | <span data-ttu-id="53a13-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="53a13-119">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="2a386-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2a386-116">Minimum supported client</span></span><br/> | <span data-ttu-id="2a386-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2a386-117">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="2a386-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2a386-118">Minimum supported server</span></span><br/> | <span data-ttu-id="2a386-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2a386-119">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 

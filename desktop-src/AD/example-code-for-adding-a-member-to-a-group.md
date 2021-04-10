@@ -14,17 +14,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2020
 ms.locfileid: "103933720"
 ---
-# <a name="example-code-for-adding-a-member-to-a-group"></a><span data-ttu-id="b2e1f-104">將成員新增至群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="b2e1f-104">Example Code for Adding a Member to a Group</span></span>
+# <a name="example-code-for-adding-a-member-to-a-group"></a><span data-ttu-id="1e14d-104">將成員新增至群組的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="1e14d-104">Example Code for Adding a Member to a Group</span></span>
 
-<span data-ttu-id="b2e1f-105">本主題包含將成員新增至群組的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-105">This topic contains code examples that add a member to a group.</span></span> <span data-ttu-id="b2e1f-106">Visual Basic Scripting Edition (VBScript) 和 c + + 範例加入成員，方法是將代表該成員的 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 物件新增至代表該群組的 [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) 物件。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-106">The Visual Basic Scripting Edition (VBScript) and C++ examples add a member by adding the [**IADs**](/windows/desktop/api/iads/nn-iads-iads) object that represents the member to the [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) object that represents the group.</span></span> <span data-ttu-id="b2e1f-107">Visual Basic .NET 和 c # 範例會修改代表群組之 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件的成員屬性。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-107">The Visual Basic .NET and C# examples modify the member property of the [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object that represents the group.</span></span>
+<span data-ttu-id="1e14d-105">本主題包含將成員新增至群組的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="1e14d-105">This topic contains code examples that add a member to a group.</span></span> <span data-ttu-id="1e14d-106">Visual Basic Scripting Edition (VBScript) 和 c + + 範例加入成員，方法是將代表該成員的 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 物件新增至代表該群組的 [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) 物件。</span><span class="sxs-lookup"><span data-stu-id="1e14d-106">The Visual Basic Scripting Edition (VBScript) and C++ examples add a member by adding the [**IADs**](/windows/desktop/api/iads/nn-iads-iads) object that represents the member to the [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) object that represents the group.</span></span> <span data-ttu-id="1e14d-107">Visual Basic .NET 和 c # 範例會修改代表群組之 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件的成員屬性。</span><span class="sxs-lookup"><span data-stu-id="1e14d-107">The Visual Basic .NET and C# examples modify the member property of the [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object that represents the group.</span></span>
 
 
-<span data-ttu-id="b2e1f-108">下列 c # 程式碼範例會將現有的成員新增至群組。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-108">The following C# code examples add an existing member to a group.</span></span> <span data-ttu-id="b2e1f-109">函數會採用群組容器的 ADsPath，以及要加入至群組之成員的分辨名稱。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-109">The function takes the ADsPath of the group container and the distinguished name of the member to be added to the group.</span></span> <span data-ttu-id="b2e1f-110">ADsPath 用來建立代表群組的 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-110">The ADsPath is used to create a [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object that represents the group.</span></span> <span data-ttu-id="b2e1f-111">[PropertyValueCollection](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)新增方法會將辨別名稱傳遞至函式的成員加入群組中。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-111">The [PropertyValueCollection.Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) method adds to the group the member whose distinguished name was passed to the function.</span></span> <span data-ttu-id="b2e1f-112">然後，函數會使用 [CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) 方法，將新的成員資訊寫入資料庫。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-112">The function then uses the [DirectoryEntry.CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) method to write the new member information to the database.</span></span>
+<span data-ttu-id="1e14d-108">下列 c # 程式碼範例會將現有的成員新增至群組。</span><span class="sxs-lookup"><span data-stu-id="1e14d-108">The following C# code examples add an existing member to a group.</span></span> <span data-ttu-id="1e14d-109">函數會採用群組容器的 ADsPath，以及要加入至群組之成員的分辨名稱。</span><span class="sxs-lookup"><span data-stu-id="1e14d-109">The function takes the ADsPath of the group container and the distinguished name of the member to be added to the group.</span></span> <span data-ttu-id="1e14d-110">ADsPath 用來建立代表群組的 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件。</span><span class="sxs-lookup"><span data-stu-id="1e14d-110">The ADsPath is used to create a [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object that represents the group.</span></span> <span data-ttu-id="1e14d-111">[PropertyValueCollection](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)新增方法會將辨別名稱傳遞至函式的成員加入群組中。</span><span class="sxs-lookup"><span data-stu-id="1e14d-111">The [PropertyValueCollection.Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) method adds to the group the member whose distinguished name was passed to the function.</span></span> <span data-ttu-id="1e14d-112">然後，函數會使用 [CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) 方法，將新的成員資訊寫入資料庫。</span><span class="sxs-lookup"><span data-stu-id="1e14d-112">The function then uses the [DirectoryEntry.CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) method to write the new member information to the database.</span></span>
 
-<span data-ttu-id="b2e1f-113">使用下列參數呼叫函數：</span><span class="sxs-lookup"><span data-stu-id="b2e1f-113">Call the function with the following parameters:</span></span>
+<span data-ttu-id="1e14d-113">使用下列參數呼叫函數：</span><span class="sxs-lookup"><span data-stu-id="1e14d-113">Call the function with the following parameters:</span></span>
 
--   <span data-ttu-id="b2e1f-114">*bindString*：群組容器的有效 ADsPath，例如 "LDAP://fabrikam.com/CN=TestGroup,OU=TestOU,DC=fabrikam,DC=com"</span><span class="sxs-lookup"><span data-stu-id="b2e1f-114">*bindString*: a valid ADsPath for a group container, such as "LDAP://fabrikam.com/CN=TestGroup,OU=TestOU,DC=fabrikam,DC=com"</span></span>
--   <span data-ttu-id="b2e1f-115">*>newmember*：要新增至群組之成員的辨別名稱，例如 "CN = JEFFSMITH，OU = TESTOU，DC = FABRIKAM，DC = com"</span><span class="sxs-lookup"><span data-stu-id="b2e1f-115">*newMember*: the distinguished name of the member to be added to the group, such as "CN=JeffSmith,OU=TestOU,DC=fabrikam,DC=com"</span></span>
+-   <span data-ttu-id="1e14d-114">*bindString*：群組容器的有效 ADsPath，例如 "LDAP://fabrikam.com/CN=TestGroup,OU=TestOU,DC=fabrikam,DC=com"</span><span class="sxs-lookup"><span data-stu-id="1e14d-114">*bindString*: a valid ADsPath for a group container, such as "LDAP://fabrikam.com/CN=TestGroup,OU=TestOU,DC=fabrikam,DC=com"</span></span>
+-   <span data-ttu-id="1e14d-115">*>newmember*：要新增至群組之成員的辨別名稱，例如 "CN = JEFFSMITH，OU = TESTOU，DC = FABRIKAM，DC = com"</span><span class="sxs-lookup"><span data-stu-id="1e14d-115">*newMember*: the distinguished name of the member to be added to the group, such as "CN=JeffSmith,OU=TestOU,DC=fabrikam,DC=com"</span></span>
 
 
 ```CSharp
@@ -66,12 +66,12 @@ private void AddMemberToGroup(
 
 
 
-<span data-ttu-id="b2e1f-116">下列 Visual Basic .NET 程式碼範例會將現有的成員新增至群組。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-116">The following Visual Basic .NET code examples add an existing member to a group.</span></span> <span data-ttu-id="b2e1f-117">函數會採用群組容器的 ADsPath，以及要加入至群組之成員的分辨名稱。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-117">The function takes the ADsPath of the group container and the distinguished name of the member to be added to the group.</span></span> <span data-ttu-id="b2e1f-118">ADsPath 用來建立代表群組的 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-118">The ADsPath is used to create a [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object that represents the group.</span></span> <span data-ttu-id="b2e1f-119">[PropertyValueCollection](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)新增方法會將辨別名稱傳遞至函式的成員加入群組中。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-119">The [PropertyValueCollection.Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) method adds to the group the member whose distinguished name was passed to the function.</span></span> <span data-ttu-id="b2e1f-120">然後，函數會使用 [CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) 方法，將新的成員資訊寫入資料庫。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-120">The function then uses the [DirectoryEntry.CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) method to write the new member information to the database.</span></span>
+<span data-ttu-id="1e14d-116">下列 Visual Basic .NET 程式碼範例會將現有的成員新增至群組。</span><span class="sxs-lookup"><span data-stu-id="1e14d-116">The following Visual Basic .NET code examples add an existing member to a group.</span></span> <span data-ttu-id="1e14d-117">函數會採用群組容器的 ADsPath，以及要加入至群組之成員的分辨名稱。</span><span class="sxs-lookup"><span data-stu-id="1e14d-117">The function takes the ADsPath of the group container and the distinguished name of the member to be added to the group.</span></span> <span data-ttu-id="1e14d-118">ADsPath 用來建立代表群組的 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件。</span><span class="sxs-lookup"><span data-stu-id="1e14d-118">The ADsPath is used to create a [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object that represents the group.</span></span> <span data-ttu-id="1e14d-119">[PropertyValueCollection](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)新增方法會將辨別名稱傳遞至函式的成員加入群組中。</span><span class="sxs-lookup"><span data-stu-id="1e14d-119">The [PropertyValueCollection.Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) method adds to the group the member whose distinguished name was passed to the function.</span></span> <span data-ttu-id="1e14d-120">然後，函數會使用 [CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) 方法，將新的成員資訊寫入資料庫。</span><span class="sxs-lookup"><span data-stu-id="1e14d-120">The function then uses the [DirectoryEntry.CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) method to write the new member information to the database.</span></span>
 
-<span data-ttu-id="b2e1f-121">使用下列參數呼叫函數：</span><span class="sxs-lookup"><span data-stu-id="b2e1f-121">Call the function with the following parameters:</span></span>
+<span data-ttu-id="1e14d-121">使用下列參數呼叫函數：</span><span class="sxs-lookup"><span data-stu-id="1e14d-121">Call the function with the following parameters:</span></span>
 
--   <span data-ttu-id="b2e1f-122">*bindString*：群組容器的有效 ADsPath，例如 "LDAP://fabrikam.com/CN=TestGroup,OU=TestOU,DC=fabrikam,DC=com"</span><span class="sxs-lookup"><span data-stu-id="b2e1f-122">*bindString*: a valid ADsPath for a group container, such as "LDAP://fabrikam.com/CN=TestGroup,OU=TestOU,DC=fabrikam,DC=com"</span></span>
--   <span data-ttu-id="b2e1f-123">*>newmember*：要新增至群組之成員的辨別名稱，例如 "CN = JEFFSMITH，OU = TESTOU，DC = FABRIKAM，DC = com"</span><span class="sxs-lookup"><span data-stu-id="b2e1f-123">*newMember*: the distinguished name of the member to be added to the group, such as "CN=JeffSmith,OU=TestOU,DC=fabrikam,DC=com"</span></span>
+-   <span data-ttu-id="1e14d-122">*bindString*：群組容器的有效 ADsPath，例如 "LDAP://fabrikam.com/CN=TestGroup,OU=TestOU,DC=fabrikam,DC=com"</span><span class="sxs-lookup"><span data-stu-id="1e14d-122">*bindString*: a valid ADsPath for a group container, such as "LDAP://fabrikam.com/CN=TestGroup,OU=TestOU,DC=fabrikam,DC=com"</span></span>
+-   <span data-ttu-id="1e14d-123">*>newmember*：要新增至群組之成員的辨別名稱，例如 "CN = JEFFSMITH，OU = TESTOU，DC = FABRIKAM，DC = com"</span><span class="sxs-lookup"><span data-stu-id="1e14d-123">*newMember*: the distinguished name of the member to be added to the group, such as "CN=JeffSmith,OU=TestOU,DC=fabrikam,DC=com"</span></span>
 
 
 ```VB
@@ -102,7 +102,7 @@ End Sub
 
 
 
-<span data-ttu-id="b2e1f-124">下列 VBScript 範例會將現有的成員新增至群組。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-124">The following VBScript example adds an existing member to a group.</span></span> <span data-ttu-id="b2e1f-125">腳本會將 Jeff Smith 的使用者新增至 TestGroup 群組。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-125">The script adds the user, Jeff Smith, to the TestGroup group.</span></span>
+<span data-ttu-id="1e14d-124">下列 VBScript 範例會將現有的成員新增至群組。</span><span class="sxs-lookup"><span data-stu-id="1e14d-124">The following VBScript example adds an existing member to a group.</span></span> <span data-ttu-id="1e14d-125">腳本會將 Jeff Smith 的使用者新增至 TestGroup 群組。</span><span class="sxs-lookup"><span data-stu-id="1e14d-125">The script adds the user, Jeff Smith, to the TestGroup group.</span></span>
 
 
 ```VB
@@ -267,7 +267,7 @@ End Sub
 
 
 
-<span data-ttu-id="b2e1f-126">下列 c + + 程式碼範例會將現有的成員新增至群組。</span><span class="sxs-lookup"><span data-stu-id="b2e1f-126">The following C++ code example adds an existing member to a group.</span></span>
+<span data-ttu-id="1e14d-126">下列 c + + 程式碼範例會將現有的成員新增至群組。</span><span class="sxs-lookup"><span data-stu-id="1e14d-126">The following C++ code example adds an existing member to a group.</span></span>
 
 
 ```C++
@@ -313,26 +313,26 @@ HRESULT AddMemberToGroup(IADsGroup * pGroup, IADs* pIADsNewMember)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="b2e1f-127">相關主題</span><span class="sxs-lookup"><span data-stu-id="b2e1f-127">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1e14d-127">相關主題</span><span class="sxs-lookup"><span data-stu-id="1e14d-127">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b2e1f-128">將成員新增至網域中的群組</span><span class="sxs-lookup"><span data-stu-id="b2e1f-128">Adding Members to Groups in a Domain</span></span>](adding-members-to-groups-in-a-domain.md)
+[<span data-ttu-id="1e14d-128">將成員新增至網域中的群組</span><span class="sxs-lookup"><span data-stu-id="1e14d-128">Adding Members to Groups in a Domain</span></span>](adding-members-to-groups-in-a-domain.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2e1f-129">DirectoryEntry</span><span class="sxs-lookup"><span data-stu-id="b2e1f-129">DirectoryEntry</span></span>](/dotnet/api/system.directoryservices.directoryentry)
+[<span data-ttu-id="1e14d-129">DirectoryEntry</span><span class="sxs-lookup"><span data-stu-id="1e14d-129">DirectoryEntry</span></span>](/dotnet/api/system.directoryservices.directoryentry)
 </dt> <dt>
 
-[<span data-ttu-id="b2e1f-130">DirectoryEntry. CommitChanges</span><span class="sxs-lookup"><span data-stu-id="b2e1f-130">DirectoryEntry.CommitChanges</span></span>](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges)
+[<span data-ttu-id="1e14d-130">DirectoryEntry. CommitChanges</span><span class="sxs-lookup"><span data-stu-id="1e14d-130">DirectoryEntry.CommitChanges</span></span>](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges)
 </dt> <dt>
 
-[<span data-ttu-id="b2e1f-131">**IADs**</span><span class="sxs-lookup"><span data-stu-id="b2e1f-131">**IADs**</span></span>](/windows/desktop/api/iads/nn-iads-iads)
+[<span data-ttu-id="1e14d-131">**IADs**</span><span class="sxs-lookup"><span data-stu-id="1e14d-131">**IADs**</span></span>](/windows/desktop/api/iads/nn-iads-iads)
 </dt> <dt>
 
-[<span data-ttu-id="b2e1f-132">**IADsGroup**</span><span class="sxs-lookup"><span data-stu-id="b2e1f-132">**IADsGroup**</span></span>](/windows/desktop/api/iads/nn-iads-iadsgroup)
+[<span data-ttu-id="1e14d-132">**IADsGroup**</span><span class="sxs-lookup"><span data-stu-id="1e14d-132">**IADsGroup**</span></span>](/windows/desktop/api/iads/nn-iads-iadsgroup)
 </dt> <dt>
 
-[<span data-ttu-id="b2e1f-133">PropertyValueCollection 新增</span><span class="sxs-lookup"><span data-stu-id="b2e1f-133">PropertyValueCollection.Add</span></span>](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)
+[<span data-ttu-id="1e14d-133">PropertyValueCollection 新增</span><span class="sxs-lookup"><span data-stu-id="1e14d-133">PropertyValueCollection.Add</span></span>](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)
 </dt> </dl>
 
  

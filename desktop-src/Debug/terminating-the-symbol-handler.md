@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110717"
 ---
-# <a name="terminating-the-symbol-handler"></a><span data-ttu-id="73258-103">結束字元號處理常式</span><span class="sxs-lookup"><span data-stu-id="73258-103">Terminating the Symbol Handler</span></span>
+# <a name="terminating-the-symbol-handler"></a><span data-ttu-id="2e7ed-103">結束字元號處理常式</span><span class="sxs-lookup"><span data-stu-id="2e7ed-103">Terminating the Symbol Handler</span></span>
 
-<span data-ttu-id="73258-104">下列程式碼會使用 [**SymCleanup**](/windows/desktop/api/Dbghelp/nf-dbghelp-symcleanup)來清除與指定進程的符號處理相關聯的所有記憶體。</span><span class="sxs-lookup"><span data-stu-id="73258-104">The following code cleans up all memory associated with symbol handling for the specified process, using [**SymCleanup**](/windows/desktop/api/Dbghelp/nf-dbghelp-symcleanup).</span></span>
+<span data-ttu-id="2e7ed-104">下列程式碼會使用 [**SymCleanup**](/windows/desktop/api/Dbghelp/nf-dbghelp-symcleanup)來清除與指定進程的符號處理相關聯的所有記憶體。</span><span class="sxs-lookup"><span data-stu-id="2e7ed-104">The following code cleans up all memory associated with symbol handling for the specified process, using [**SymCleanup**](/windows/desktop/api/Dbghelp/nf-dbghelp-symcleanup).</span></span>
 
 
 ```C++

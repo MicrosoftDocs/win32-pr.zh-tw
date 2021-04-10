@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103933907"
 ---
-# <a name="tbn_mapaccelerator-notification-code"></a><span data-ttu-id="78841-105">TBN \_ MAPACCELERATOR 通知碼</span><span class="sxs-lookup"><span data-stu-id="78841-105">TBN\_MAPACCELERATOR notification code</span></span>
+# <a name="tbn_mapaccelerator-notification-code"></a><span data-ttu-id="a3281-105">TBN \_ MAPACCELERATOR 通知碼</span><span class="sxs-lookup"><span data-stu-id="a3281-105">TBN\_MAPACCELERATOR notification code</span></span>
 
-<span data-ttu-id="78841-106">要求工具列中對應至指定之快速鍵字元的按鈕索引。</span><span class="sxs-lookup"><span data-stu-id="78841-106">Requests the index of the button in the toolbar corresponding to the specified accelerator character.</span></span> <span data-ttu-id="78841-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="78841-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="a3281-106">要求工具列中對應至指定之快速鍵字元的按鈕索引。</span><span class="sxs-lookup"><span data-stu-id="a3281-106">Requests the index of the button in the toolbar corresponding to the specified accelerator character.</span></span> <span data-ttu-id="a3281-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="a3281-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -34,30 +34,30 @@ TBN_MAPACCELERATOR
 
 
 
-## <a name="parameters"></a><span data-ttu-id="78841-108">參數</span><span class="sxs-lookup"><span data-stu-id="78841-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a3281-108">參數</span><span class="sxs-lookup"><span data-stu-id="a3281-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="78841-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="78841-109">*lParam*</span></span> 
+<span data-ttu-id="a3281-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="a3281-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="78841-110">[**NMCHAR**](/windows/win32/api/commctrl/ns-commctrl-nmchar)結構的指標，其中包含快速鍵字元，並會接收對應按鈕的索引。</span><span class="sxs-lookup"><span data-stu-id="78841-110">A pointer to an [**NMCHAR**](/windows/win32/api/commctrl/ns-commctrl-nmchar) structure that contains the accelerator key character and that receives the index of the corresponding button.</span></span> <span data-ttu-id="78841-111">如果快速鍵未對應至命令， **dwItemNext** 欄位會是-1。</span><span class="sxs-lookup"><span data-stu-id="78841-111">The **dwItemNext** field is -1 if the accelerator does not correspond to a command.</span></span>
+<span data-ttu-id="a3281-110">[**NMCHAR**](/windows/win32/api/commctrl/ns-commctrl-nmchar)結構的指標，其中包含快速鍵字元，並會接收對應按鈕的索引。</span><span class="sxs-lookup"><span data-stu-id="a3281-110">A pointer to an [**NMCHAR**](/windows/win32/api/commctrl/ns-commctrl-nmchar) structure that contains the accelerator key character and that receives the index of the corresponding button.</span></span> <span data-ttu-id="a3281-111">如果快速鍵未對應至命令， **dwItemNext** 欄位會是-1。</span><span class="sxs-lookup"><span data-stu-id="a3281-111">The **dwItemNext** field is -1 if the accelerator does not correspond to a command.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="78841-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="78841-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a3281-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="a3281-112">Return value</span></span>
 
-<span data-ttu-id="78841-113">如果 **NMCHAR. dwItemNext** 設定為值，則為 TRUE。</span><span class="sxs-lookup"><span data-stu-id="78841-113">TRUE if **NMCHAR.dwItemNext** is set to a value.</span></span>
+<span data-ttu-id="a3281-113">如果 **NMCHAR. dwItemNext** 設定為值，則為 TRUE。</span><span class="sxs-lookup"><span data-stu-id="a3281-113">TRUE if **NMCHAR.dwItemNext** is set to a value.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="78841-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="78841-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="a3281-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="a3281-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="78841-115">需求</span><span class="sxs-lookup"><span data-stu-id="78841-115">Requirement</span></span> | <span data-ttu-id="78841-116">值</span><span class="sxs-lookup"><span data-stu-id="78841-116">Value</span></span> |
+| <span data-ttu-id="a3281-115">需求</span><span class="sxs-lookup"><span data-stu-id="a3281-115">Requirement</span></span> | <span data-ttu-id="a3281-116">值</span><span class="sxs-lookup"><span data-stu-id="a3281-116">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="78841-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="78841-117">Minimum supported client</span></span><br/> | <span data-ttu-id="78841-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="78841-118">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="78841-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="78841-119">Minimum supported server</span></span><br/> | <span data-ttu-id="78841-120">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="78841-120">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="78841-121">標頭</span><span class="sxs-lookup"><span data-stu-id="78841-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="78841-122"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="78841-122"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="a3281-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a3281-117">Minimum supported client</span></span><br/> | <span data-ttu-id="a3281-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a3281-118">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="a3281-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a3281-119">Minimum supported server</span></span><br/> | <span data-ttu-id="a3281-120">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a3281-120">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="a3281-121">標頭</span><span class="sxs-lookup"><span data-stu-id="a3281-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="a3281-122"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="a3281-122"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

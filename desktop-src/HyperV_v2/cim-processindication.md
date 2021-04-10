@@ -1,0 +1,67 @@
+---
+description: CIM \_ ProcessIndication 是特製化指示類別的抽象超類別，可解決提供者和檢測所發佈的特定變更和警示。
+ms.assetid: b321b5ec-4868-4149-99ad-4596fd49c39b
+title: CIM_ProcessIndication 類別
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- CIM_ProcessIndication
+api_type:
+- DllExport
+api_location:
+- vmms.exe
+ms.openlocfilehash: 5e0bd9539c43290e4972494d062e6983e64defb9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104194558"
+---
+# <a name="cim_processindication-class"></a><span data-ttu-id="6b34f-103">CIM \_ ProcessIndication 類別</span><span class="sxs-lookup"><span data-stu-id="6b34f-103">CIM\_ProcessIndication class</span></span>
+
+<span data-ttu-id="6b34f-104">**CIM \_ProcessIndication** 是特殊指示類別的抽象超類別，可處理提供者和檢測所發佈的特定變更和警示。</span><span class="sxs-lookup"><span data-stu-id="6b34f-104">**CIM\_ProcessIndication** is an abstract superclass for specialized indication classes, that address specific changes and alerts published by providers and instrumentation.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="6b34f-105">語法</span><span class="sxs-lookup"><span data-stu-id="6b34f-105">Syntax</span></span>
+
+``` syntax
+[Indication, Version("2.6.0"), UMLPackagePath("CIM::Event"), AMENDMENT]
+class CIM_ProcessIndication : CIM_Indication
+{
+};
+```
+
+## <a name="members"></a><span data-ttu-id="6b34f-106">成員</span><span class="sxs-lookup"><span data-stu-id="6b34f-106">Members</span></span>
+
+<span data-ttu-id="6b34f-107">**CIM \_ ProcessIndication** 類別不會定義任何成員。</span><span class="sxs-lookup"><span data-stu-id="6b34f-107">The **CIM\_ProcessIndication** class does not define any members.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="6b34f-108">規格需求</span><span class="sxs-lookup"><span data-stu-id="6b34f-108">Requirements</span></span>
+
+
+
+| <span data-ttu-id="6b34f-109">需求</span><span class="sxs-lookup"><span data-stu-id="6b34f-109">Requirement</span></span> | <span data-ttu-id="6b34f-110">值</span><span class="sxs-lookup"><span data-stu-id="6b34f-110">Value</span></span> |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="6b34f-111">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6b34f-111">Minimum supported client</span></span><br/> | <span data-ttu-id="6b34f-112">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="6b34f-112">Windows 8.1</span></span><br/>                                                                                  |
+| <span data-ttu-id="6b34f-113">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6b34f-113">Minimum supported server</span></span><br/> | <span data-ttu-id="6b34f-114">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="6b34f-114">Windows Server 2012 R2</span></span><br/>                                                                       |
+| <span data-ttu-id="6b34f-115">命名空間</span><span class="sxs-lookup"><span data-stu-id="6b34f-115">Namespace</span></span><br/>                | <span data-ttu-id="6b34f-116">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="6b34f-116">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="6b34f-117">MOF</span><span class="sxs-lookup"><span data-stu-id="6b34f-117">MOF</span></span><br/>                      | <dl> <span data-ttu-id="6b34f-118"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="6b34f-118"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="6b34f-119">DLL</span><span class="sxs-lookup"><span data-stu-id="6b34f-119">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6b34f-120"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="6b34f-120"><dt>Vmms.exe</dt></span></span> </dl>                     |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="6b34f-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6b34f-121">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="6b34f-122">**CIM \_ 指示**</span><span class="sxs-lookup"><span data-stu-id="6b34f-122">**CIM\_Indication**</span></span>](cim-indication.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

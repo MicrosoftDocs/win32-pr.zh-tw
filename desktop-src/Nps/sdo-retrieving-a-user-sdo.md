@@ -12,9 +12,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933418"
 ---
-# <a name="retrieving-a-user-sdo"></a><span data-ttu-id="c3c0e-103">正在抓取使用者 SDO</span><span class="sxs-lookup"><span data-stu-id="c3c0e-103">Retrieving a User SDO</span></span>
+# <a name="retrieving-a-user-sdo"></a><span data-ttu-id="b7843-103">正在抓取使用者 SDO</span><span class="sxs-lookup"><span data-stu-id="b7843-103">Retrieving a User SDO</span></span>
 
-<span data-ttu-id="c3c0e-104">下列程式碼會為系統管理員 (SDO) 抓取伺服器資料物件。</span><span class="sxs-lookup"><span data-stu-id="c3c0e-104">The following code retrieves a Server Data Object (SDO) for the Administrator.</span></span>
+<span data-ttu-id="b7843-104">下列程式碼會為系統管理員 (SDO) 抓取伺服器資料物件。</span><span class="sxs-lookup"><span data-stu-id="b7843-104">The following code retrieves a Server Data Object (SDO) for the Administrator.</span></span>
 
 
 ```C++
@@ -45,26 +45,26 @@ ms.locfileid: "103933418"
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="c3c0e-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="c3c0e-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="b7843-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="b7843-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c3c0e-106">附加至 SDO-Enabled 電腦</span><span class="sxs-lookup"><span data-stu-id="c3c0e-106">Attaching to an SDO-Enabled Computer</span></span>](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
+[<span data-ttu-id="b7843-106">附加至 SDO-Enabled 電腦</span><span class="sxs-lookup"><span data-stu-id="b7843-106">Attaching to an SDO-Enabled Computer</span></span>](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
 </dt> <dt>
 
-[<span data-ttu-id="c3c0e-107">**ISdo**</span><span class="sxs-lookup"><span data-stu-id="c3c0e-107">**ISdo**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdo)
+[<span data-ttu-id="b7843-107">**ISdo**</span><span class="sxs-lookup"><span data-stu-id="b7843-107">**ISdo**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdo)
 </dt> <dt>
 
-[<span data-ttu-id="c3c0e-108">**ISdoMachine**</span><span class="sxs-lookup"><span data-stu-id="c3c0e-108">**ISdoMachine**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdomachine)
+[<span data-ttu-id="b7843-108">**ISdoMachine**</span><span class="sxs-lookup"><span data-stu-id="b7843-108">**ISdoMachine**</span></span>](/windows/desktop/api/sdoias/nn-sdoias-isdomachine)
 </dt> <dt>
 
-[<span data-ttu-id="c3c0e-109">**ISdoMachine::GetUserSDO**</span><span class="sxs-lookup"><span data-stu-id="c3c0e-109">**ISdoMachine::GetUserSDO**</span></span>](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo)
+[<span data-ttu-id="b7843-109">**ISdoMachine::GetUserSDO**</span><span class="sxs-lookup"><span data-stu-id="b7843-109">**ISdoMachine::GetUserSDO**</span></span>](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo)
 </dt> <dt>
 
-[<span data-ttu-id="c3c0e-110">**SysAllocString**</span><span class="sxs-lookup"><span data-stu-id="c3c0e-110">**SysAllocString**</span></span>](/windows/win32/api/oleauto/nf-oleauto-sysallocstring)
+[<span data-ttu-id="b7843-110">**SysAllocString**</span><span class="sxs-lookup"><span data-stu-id="b7843-110">**SysAllocString**</span></span>](/windows/win32/api/oleauto/nf-oleauto-sysallocstring)
 </dt> <dt>
 
-[<span data-ttu-id="c3c0e-111">**SysFreeString**</span><span class="sxs-lookup"><span data-stu-id="c3c0e-111">**SysFreeString**</span></span>](/windows/win32/api/oleauto/nf-oleauto-sysfreestring)
+[<span data-ttu-id="b7843-111">**SysFreeString**</span><span class="sxs-lookup"><span data-stu-id="b7843-111">**SysFreeString**</span></span>](/windows/win32/api/oleauto/nf-oleauto-sysfreestring)
 </dt> </dl>
 
  
