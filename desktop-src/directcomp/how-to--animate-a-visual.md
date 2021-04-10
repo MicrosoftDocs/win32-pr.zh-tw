@@ -15,39 +15,39 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "104023859"
 ---
-# <a name="how-to-apply-animations"></a><span data-ttu-id="0fe64-106">如何套用動畫</span><span class="sxs-lookup"><span data-stu-id="0fe64-106">How to apply animations</span></span>
+# <a name="how-to-apply-animations"></a><span data-ttu-id="506cd-106">如何套用動畫</span><span class="sxs-lookup"><span data-stu-id="506cd-106">How to apply animations</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="0fe64-107">針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。</span><span class="sxs-lookup"><span data-stu-id="0fe64-107">For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition.</span></span> <span data-ttu-id="0fe64-108">如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。</span><span class="sxs-lookup"><span data-stu-id="0fe64-108">For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).</span></span>
+> <span data-ttu-id="506cd-107">針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。</span><span class="sxs-lookup"><span data-stu-id="506cd-107">For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition.</span></span> <span data-ttu-id="506cd-108">如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。</span><span class="sxs-lookup"><span data-stu-id="506cd-108">For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).</span></span>
 
-<span data-ttu-id="0fe64-109">本主題示範如何使用 Microsoft DirectComposition 以動畫顯示視覺效果的屬性。</span><span class="sxs-lookup"><span data-stu-id="0fe64-109">This topic demonstrates how to animate the properties of a visual by using Microsoft DirectComposition.</span></span> <span data-ttu-id="0fe64-110">本主題中的範例會以動畫顯示視覺效果的效果屬性，使得視覺效果的透明度從零 (透明) 變更為一個 (完全不透明的) 在兩秒鐘的期間內。</span><span class="sxs-lookup"><span data-stu-id="0fe64-110">The example in this topic animates the Effect property of a visual, causing the visual's opacity to change from zero (transparent) to one (fully opaque) over a period of two seconds.</span></span>
+<span data-ttu-id="506cd-109">本主題示範如何使用 Microsoft DirectComposition 以動畫顯示視覺效果的屬性。</span><span class="sxs-lookup"><span data-stu-id="506cd-109">This topic demonstrates how to animate the properties of a visual by using Microsoft DirectComposition.</span></span> <span data-ttu-id="506cd-110">本主題中的範例會以動畫顯示視覺效果的效果屬性，使得視覺效果的透明度從零 (透明) 變更為一個 (完全不透明的) 在兩秒鐘的期間內。</span><span class="sxs-lookup"><span data-stu-id="506cd-110">The example in this topic animates the Effect property of a visual, causing the visual's opacity to change from zero (transparent) to one (fully opaque) over a period of two seconds.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="0fe64-111">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="0fe64-111">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="506cd-111">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="506cd-111">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="0fe64-112">技術</span><span class="sxs-lookup"><span data-stu-id="0fe64-112">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="506cd-112">技術</span><span class="sxs-lookup"><span data-stu-id="506cd-112">Technologies</span></span>
 
--   [<span data-ttu-id="0fe64-113">DirectComposition</span><span class="sxs-lookup"><span data-stu-id="0fe64-113">DirectComposition</span></span>](directcomposition-portal.md)
--   [<span data-ttu-id="0fe64-114">Direct3D 11 圖形</span><span class="sxs-lookup"><span data-stu-id="0fe64-114">Direct3D 11 Graphics</span></span>](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
--   [<span data-ttu-id="0fe64-115">DirectX Graphic Infrastructure (DXGI) </span><span class="sxs-lookup"><span data-stu-id="0fe64-115">DirectX Graphics Infrastructure (DXGI)</span></span>](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
+-   [<span data-ttu-id="506cd-113">DirectComposition</span><span class="sxs-lookup"><span data-stu-id="506cd-113">DirectComposition</span></span>](directcomposition-portal.md)
+-   [<span data-ttu-id="506cd-114">Direct3D 11 圖形</span><span class="sxs-lookup"><span data-stu-id="506cd-114">Direct3D 11 Graphics</span></span>](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [<span data-ttu-id="506cd-115">DirectX Graphic Infrastructure (DXGI) </span><span class="sxs-lookup"><span data-stu-id="506cd-115">DirectX Graphics Infrastructure (DXGI)</span></span>](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
-### <a name="prerequisites"></a><span data-ttu-id="0fe64-116">必要條件</span><span class="sxs-lookup"><span data-stu-id="0fe64-116">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="506cd-116">必要條件</span><span class="sxs-lookup"><span data-stu-id="506cd-116">Prerequisites</span></span>
 
--   <span data-ttu-id="0fe64-117">C/C++</span><span class="sxs-lookup"><span data-stu-id="0fe64-117">C/C++</span></span>
--   <span data-ttu-id="0fe64-118">Microsoft Win32</span><span class="sxs-lookup"><span data-stu-id="0fe64-118">Microsoft Win32</span></span>
--   <span data-ttu-id="0fe64-119">元件物件模型 (COM)</span><span class="sxs-lookup"><span data-stu-id="0fe64-119">Component Object Model (COM)</span></span>
+-   <span data-ttu-id="506cd-117">C/C++</span><span class="sxs-lookup"><span data-stu-id="506cd-117">C/C++</span></span>
+-   <span data-ttu-id="506cd-118">Microsoft Win32</span><span class="sxs-lookup"><span data-stu-id="506cd-118">Microsoft Win32</span></span>
+-   <span data-ttu-id="506cd-119">元件物件模型 (COM)</span><span class="sxs-lookup"><span data-stu-id="506cd-119">Component Object Model (COM)</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="0fe64-120">指示</span><span class="sxs-lookup"><span data-stu-id="0fe64-120">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="506cd-120">指示</span><span class="sxs-lookup"><span data-stu-id="506cd-120">Instructions</span></span>
 
-### <a name="step-1-initialize-directcomposition-objects"></a><span data-ttu-id="0fe64-121">步驟1：初始化 DirectComposition 物件</span><span class="sxs-lookup"><span data-stu-id="0fe64-121">Step 1: Initialize DirectComposition objects</span></span>
+### <a name="step-1-initialize-directcomposition-objects"></a><span data-ttu-id="506cd-121">步驟1：初始化 DirectComposition 物件</span><span class="sxs-lookup"><span data-stu-id="506cd-121">Step 1: Initialize DirectComposition objects</span></span>
 
-1.  <span data-ttu-id="0fe64-122">建立裝置物件和組合目標物件。</span><span class="sxs-lookup"><span data-stu-id="0fe64-122">Create the device object and the composition target object.</span></span>
-2.  <span data-ttu-id="0fe64-123">建立視覺效果、設定其內容，並將它新增至視覺化樹狀結構。</span><span class="sxs-lookup"><span data-stu-id="0fe64-123">Create a visual, set its content, and add it to the visual tree.</span></span>
+1.  <span data-ttu-id="506cd-122">建立裝置物件和組合目標物件。</span><span class="sxs-lookup"><span data-stu-id="506cd-122">Create the device object and the composition target object.</span></span>
+2.  <span data-ttu-id="506cd-123">建立視覺效果、設定其內容，並將它新增至視覺化樹狀結構。</span><span class="sxs-lookup"><span data-stu-id="506cd-123">Create a visual, set its content, and add it to the visual tree.</span></span>
 
-<span data-ttu-id="0fe64-124">如需詳細資訊，請參閱 [如何初始化 DirectComposition](initialize-directcomposition.md)。</span><span class="sxs-lookup"><span data-stu-id="0fe64-124">For more information, see [How to initialize DirectComposition](initialize-directcomposition.md).</span></span>
+<span data-ttu-id="506cd-124">如需詳細資訊，請參閱 [如何初始化 DirectComposition](initialize-directcomposition.md)。</span><span class="sxs-lookup"><span data-stu-id="506cd-124">For more information, see [How to initialize DirectComposition](initialize-directcomposition.md).</span></span>
 
-### <a name="step-2-create-an-animation-object"></a><span data-ttu-id="0fe64-125">步驟2：建立動畫物件</span><span class="sxs-lookup"><span data-stu-id="0fe64-125">Step 2: Create an animation object</span></span>
+### <a name="step-2-create-an-animation-object"></a><span data-ttu-id="506cd-125">步驟2：建立動畫物件</span><span class="sxs-lookup"><span data-stu-id="506cd-125">Step 2: Create an animation object</span></span>
 
-<span data-ttu-id="0fe64-126">使用 [**CreateAnimation**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createanimation) 方法來建立動畫物件。</span><span class="sxs-lookup"><span data-stu-id="0fe64-126">Use the [**CreateAnimation**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createanimation) method to create an animation object.</span></span>
+<span data-ttu-id="506cd-126">使用 [**CreateAnimation**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createanimation) 方法來建立動畫物件。</span><span class="sxs-lookup"><span data-stu-id="506cd-126">Use the [**CreateAnimation**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createanimation) method to create an animation object.</span></span>
 
 
 ```C++
@@ -68,9 +68,9 @@ hr = m_pDevice->CreateAnimation(&m_pFadeInAnimation);
 
 
 
-### <a name="step-3-define-the-animation-function"></a><span data-ttu-id="0fe64-127">步驟3：定義動畫函數</span><span class="sxs-lookup"><span data-stu-id="0fe64-127">Step 3: Define the animation function</span></span>
+### <a name="step-3-define-the-animation-function"></a><span data-ttu-id="506cd-127">步驟3：定義動畫函數</span><span class="sxs-lookup"><span data-stu-id="506cd-127">Step 3: Define the animation function</span></span>
 
-<span data-ttu-id="0fe64-128">使用 [**IDCompositionAnimation**](/windows/desktop/api/DcompAnimation/nn-dcompanimation-idcompositionanimation) 物件的方法來定義動畫函數。</span><span class="sxs-lookup"><span data-stu-id="0fe64-128">Use the methods of the [**IDCompositionAnimation**](/windows/desktop/api/DcompAnimation/nn-dcompanimation-idcompositionanimation) object to define the animation function.</span></span> <span data-ttu-id="0fe64-129">下列程式碼會定義簡單的動畫函數。</span><span class="sxs-lookup"><span data-stu-id="0fe64-129">The following code defines a simple animation function.</span></span> <span data-ttu-id="0fe64-130">當套用至物件屬性時，動畫函式會在2秒的過程中，以累加方式將屬性值從0變更為1。</span><span class="sxs-lookup"><span data-stu-id="0fe64-130">When applied to an object property, the animation function incrementally changes the property value from 0 to 1 over the course of 2 seconds.</span></span>
+<span data-ttu-id="506cd-128">使用 [**IDCompositionAnimation**](/windows/desktop/api/DcompAnimation/nn-dcompanimation-idcompositionanimation) 物件的方法來定義動畫函數。</span><span class="sxs-lookup"><span data-stu-id="506cd-128">Use the methods of the [**IDCompositionAnimation**](/windows/desktop/api/DcompAnimation/nn-dcompanimation-idcompositionanimation) object to define the animation function.</span></span> <span data-ttu-id="506cd-129">下列程式碼會定義簡單的動畫函數。</span><span class="sxs-lookup"><span data-stu-id="506cd-129">The following code defines a simple animation function.</span></span> <span data-ttu-id="506cd-130">當套用至物件屬性時，動畫函式會在2秒的過程中，以累加方式將屬性值從0變更為1。</span><span class="sxs-lookup"><span data-stu-id="506cd-130">When applied to an object property, the animation function incrementally changes the property value from 0 to 1 over the course of 2 seconds.</span></span>
 
 
 ```C++
@@ -80,9 +80,9 @@ m_pFadeInAnimation->End(2.0f, 1.0f);
 
 
 
-### <a name="step-4-apply-the-animation-object-to-a-visual-property-or-to-a-property-of-a-directcomposition-object"></a><span data-ttu-id="0fe64-131">步驟4：將動畫物件套用至視覺屬性或 DirectComposition 物件的屬性</span><span class="sxs-lookup"><span data-stu-id="0fe64-131">Step 4: Apply the animation object to a visual property or to a property of a DirectComposition object</span></span>
+### <a name="step-4-apply-the-animation-object-to-a-visual-property-or-to-a-property-of-a-directcomposition-object"></a><span data-ttu-id="506cd-131">步驟4：將動畫物件套用至視覺屬性或 DirectComposition 物件的屬性</span><span class="sxs-lookup"><span data-stu-id="506cd-131">Step 4: Apply the animation object to a visual property or to a property of a DirectComposition object</span></span>
 
-<span data-ttu-id="0fe64-132">在 Microsoft DirectComposition 中，藉由將動畫物件設定為屬性值，即可以動畫顯示任何採用純量值的物件屬性。</span><span class="sxs-lookup"><span data-stu-id="0fe64-132">In Microsoft DirectComposition, any object property that takes a scalar value can be animated by setting an animation object as the property value.</span></span> <span data-ttu-id="0fe64-133">下列範例會將動畫物件套用至效果群組物件的不透明度屬性。</span><span class="sxs-lookup"><span data-stu-id="0fe64-133">The following example applies an animation object to the Opacity property of an effect group object.</span></span> <span data-ttu-id="0fe64-134">然後，效果群組物件會套用至視覺效果的效果屬性。</span><span class="sxs-lookup"><span data-stu-id="0fe64-134">Then, the effect group object is applied to the Effect property of a visual.</span></span>
+<span data-ttu-id="506cd-132">在 Microsoft DirectComposition 中，藉由將動畫物件設定為屬性值，即可以動畫顯示任何採用純量值的物件屬性。</span><span class="sxs-lookup"><span data-stu-id="506cd-132">In Microsoft DirectComposition, any object property that takes a scalar value can be animated by setting an animation object as the property value.</span></span> <span data-ttu-id="506cd-133">下列範例會將動畫物件套用至效果群組物件的不透明度屬性。</span><span class="sxs-lookup"><span data-stu-id="506cd-133">The following example applies an animation object to the Opacity property of an effect group object.</span></span> <span data-ttu-id="506cd-134">然後，效果群組物件會套用至視覺效果的效果屬性。</span><span class="sxs-lookup"><span data-stu-id="506cd-134">Then, the effect group object is applied to the Effect property of a visual.</span></span>
 
 
 ```C++
@@ -102,7 +102,7 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0fe64-135">C++</span><span class="sxs-lookup"><span data-stu-id="0fe64-135">C++</span></span></th>
+<th><span data-ttu-id="506cd-135">C++</span><span class="sxs-lookup"><span data-stu-id="506cd-135">C++</span></span></th>
 </tr>
 </thead>
 <tbody>
@@ -123,7 +123,7 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0fe64-136">C++</span><span class="sxs-lookup"><span data-stu-id="0fe64-136">C++</span></span></th>
+<th><span data-ttu-id="506cd-136">C++</span><span class="sxs-lookup"><span data-stu-id="506cd-136">C++</span></span></th>
 </tr>
 </thead>
 <tbody>
@@ -135,9 +135,9 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 
 
 
-### <a name="step-5-commit-the-composition"></a><span data-ttu-id="0fe64-137">步驟5：認可組合</span><span class="sxs-lookup"><span data-stu-id="0fe64-137">Step 5: Commit the composition</span></span>
+### <a name="step-5-commit-the-composition"></a><span data-ttu-id="506cd-137">步驟5：認可組合</span><span class="sxs-lookup"><span data-stu-id="506cd-137">Step 5: Commit the composition</span></span>
 
-<span data-ttu-id="0fe64-138">呼叫 [**IDCompositionDevice：： commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit) 方法，將視覺效果認可至 DirectComposition，以轉譯至目標視窗。</span><span class="sxs-lookup"><span data-stu-id="0fe64-138">Call the [**IDCompositionDevice::Commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit) method to commit the visual to DirectComposition for rendering to the target window.</span></span> <span data-ttu-id="0fe64-139">當視覺效果轉譯時，動畫會導致視覺效果的不透明度從透明變更為完全不透明，在兩秒鐘的期間內。</span><span class="sxs-lookup"><span data-stu-id="0fe64-139">As the visual is rendered, the animation causes the visual's opacity to change from transparent to fully opaque over a period of two seconds.</span></span>
+<span data-ttu-id="506cd-138">呼叫 [**IDCompositionDevice：： commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit) 方法，將視覺效果認可至 DirectComposition，以轉譯至目標視窗。</span><span class="sxs-lookup"><span data-stu-id="506cd-138">Call the [**IDCompositionDevice::Commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit) method to commit the visual to DirectComposition for rendering to the target window.</span></span> <span data-ttu-id="506cd-139">當視覺效果轉譯時，動畫會導致視覺效果的不透明度從透明變更為完全不透明，在兩秒鐘的期間內。</span><span class="sxs-lookup"><span data-stu-id="506cd-139">As the visual is rendered, the animation causes the visual's opacity to change from transparent to fully opaque over a period of two seconds.</span></span>
 
 
 ```C++
@@ -146,9 +146,9 @@ hr = m_pDevice->Commit();
 
 
 
-### <a name="step-6-free-the-directcomposition-objects"></a><span data-ttu-id="0fe64-140">步驟6：釋放 DirectComposition 物件</span><span class="sxs-lookup"><span data-stu-id="0fe64-140">Step 6: Free the DirectComposition objects</span></span>
+### <a name="step-6-free-the-directcomposition-objects"></a><span data-ttu-id="506cd-140">步驟6：釋放 DirectComposition 物件</span><span class="sxs-lookup"><span data-stu-id="506cd-140">Step 6: Free the DirectComposition objects</span></span>
 
-<span data-ttu-id="0fe64-141">當您不再需要時，請務必釋放動畫物件。</span><span class="sxs-lookup"><span data-stu-id="0fe64-141">Be sure to free the animation object when you no longer need it.</span></span>
+<span data-ttu-id="506cd-141">當您不再需要時，請務必釋放動畫物件。</span><span class="sxs-lookup"><span data-stu-id="506cd-141">Be sure to free the animation object when you no longer need it.</span></span>
 
 
 ```C++
@@ -157,9 +157,9 @@ SafeRelease(&m_pFadeInAnimation);
 
 
 
-<span data-ttu-id="0fe64-142">也請記得在應用程式結束之前釋出其他 DirectComposition 物件，包括裝置物件、組合目標物件和視覺效果。</span><span class="sxs-lookup"><span data-stu-id="0fe64-142">Also remember to free the other DirectComposition objects before your application exits, including the device object, the composition target object, and the visual.</span></span> <span data-ttu-id="0fe64-143">如需詳細資訊，請參閱 [如何初始化 DirectComposition](initialize-directcomposition.md)。</span><span class="sxs-lookup"><span data-stu-id="0fe64-143">For more information, see [How to initialize DirectComposition](initialize-directcomposition.md).</span></span>
+<span data-ttu-id="506cd-142">也請記得在應用程式結束之前釋出其他 DirectComposition 物件，包括裝置物件、組合目標物件和視覺效果。</span><span class="sxs-lookup"><span data-stu-id="506cd-142">Also remember to free the other DirectComposition objects before your application exits, including the device object, the composition target object, and the visual.</span></span> <span data-ttu-id="506cd-143">如需詳細資訊，請參閱 [如何初始化 DirectComposition](initialize-directcomposition.md)。</span><span class="sxs-lookup"><span data-stu-id="506cd-143">For more information, see [How to initialize DirectComposition](initialize-directcomposition.md).</span></span>
 
-## <a name="complete-example"></a><span data-ttu-id="0fe64-144">完整範例</span><span class="sxs-lookup"><span data-stu-id="0fe64-144">Complete example</span></span>
+## <a name="complete-example"></a><span data-ttu-id="506cd-144">完整範例</span><span class="sxs-lookup"><span data-stu-id="506cd-144">Complete example</span></span>
 
 
 ```C++
@@ -1004,11 +1004,11 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="0fe64-145">相關主題</span><span class="sxs-lookup"><span data-stu-id="0fe64-145">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="506cd-145">相關主題</span><span class="sxs-lookup"><span data-stu-id="506cd-145">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="0fe64-146">動畫</span><span class="sxs-lookup"><span data-stu-id="0fe64-146">Animation</span></span>](animation.md)
+[<span data-ttu-id="506cd-146">動畫</span><span class="sxs-lookup"><span data-stu-id="506cd-146">Animation</span></span>](animation.md)
 </dt> </dl>
 
  

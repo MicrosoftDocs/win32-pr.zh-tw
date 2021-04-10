@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694512"
 ---
-# <a name="iobjectids-properties"></a><span data-ttu-id="20dbb-103">IObjectIds 屬性</span><span class="sxs-lookup"><span data-stu-id="20dbb-103">IObjectIds Properties</span></span>
+# <a name="iobjectids-properties"></a><span data-ttu-id="e811f-103">IObjectIds 屬性</span><span class="sxs-lookup"><span data-stu-id="e811f-103">IObjectIds Properties</span></span>
 
-<span data-ttu-id="20dbb-104">[**IObjectIds**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectids)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="20dbb-104">The [**IObjectIds**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectids) interface exposes the following properties.</span></span>
+<span data-ttu-id="e811f-104">[**IObjectIds**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectids)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="e811f-104">The [**IObjectIds**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectids) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="20dbb-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="20dbb-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e811f-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="e811f-105">In this section</span></span>
 
--   [<span data-ttu-id="20dbb-106">**\_NewEnum 屬性**</span><span class="sxs-lookup"><span data-stu-id="20dbb-106">**\_NewEnum Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get__newenum)
--   [<span data-ttu-id="20dbb-107">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="20dbb-107">**Count Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get_count)
--   [<span data-ttu-id="20dbb-108">**ItemByIndex 屬性**</span><span class="sxs-lookup"><span data-stu-id="20dbb-108">**ItemByIndex Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get_itembyindex)
+-   [<span data-ttu-id="e811f-106">**\_NewEnum 屬性**</span><span class="sxs-lookup"><span data-stu-id="e811f-106">**\_NewEnum Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get__newenum)
+-   [<span data-ttu-id="e811f-107">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="e811f-107">**Count Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get_count)
+-   [<span data-ttu-id="e811f-108">**ItemByIndex 屬性**</span><span class="sxs-lookup"><span data-stu-id="e811f-108">**ItemByIndex Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get_itembyindex)
 
  
 

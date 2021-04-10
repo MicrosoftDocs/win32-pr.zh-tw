@@ -1,0 +1,44 @@
+---
+title: " (網路管理) 的目錄服務功能"
+description: 網路管理目錄服務功能可讓開發人員使用目錄服務中的網域控制站和網域成員資格。
+ms.assetid: 9eeb8f40-85c0-49db-a307-193703e4f463
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2e9e843e06762b4a7ef55b3f979b12a62ee6adf3
+ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "104024312"
+---
+# <a name="directory-service-functions"></a><span data-ttu-id="7cf91-103">目錄服務功能</span><span class="sxs-lookup"><span data-stu-id="7cf91-103">Directory Service Functions</span></span>
+
+<span data-ttu-id="7cf91-104">網路管理目錄服務功能可讓開發人員使用目錄服務中的網域控制站和網域成員資格。</span><span class="sxs-lookup"><span data-stu-id="7cf91-104">The network management directory service functions allow developers to work with the domain controller and domain membership in the directory service.</span></span>
+
+<span data-ttu-id="7cf91-105">網路管理目錄服務功能如下所示。</span><span class="sxs-lookup"><span data-stu-id="7cf91-105">The network management directory service functions are listed following.</span></span>
+
+
+
+| <span data-ttu-id="7cf91-106">函式</span><span class="sxs-lookup"><span data-stu-id="7cf91-106">Function</span></span>                                                                 | <span data-ttu-id="7cf91-107">描述</span><span class="sxs-lookup"><span data-stu-id="7cf91-107">Description</span></span>                                                                                                                                                                                 |
+|--------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="7cf91-108">**NetAddAlternateComputerName**</span><span class="sxs-lookup"><span data-stu-id="7cf91-108">**NetAddAlternateComputerName**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netaddalternatecomputername)       | <span data-ttu-id="7cf91-109">為指定的電腦新增替代名稱。</span><span class="sxs-lookup"><span data-stu-id="7cf91-109">Adds an alternate name for the specified computer.</span></span>                                                                                                                                          |
+| [<span data-ttu-id="7cf91-110">**NetEnumerateComputerNames**</span><span class="sxs-lookup"><span data-stu-id="7cf91-110">**NetEnumerateComputerNames**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netenumeratecomputernames)           | <span data-ttu-id="7cf91-111">列舉指定電腦的名稱。</span><span class="sxs-lookup"><span data-stu-id="7cf91-111">Enumerates names for the specified computer.</span></span>                                                                                                                                                |
+| [<span data-ttu-id="7cf91-112">**NetGetJoinableOUs**</span><span class="sxs-lookup"><span data-stu-id="7cf91-112">**NetGetJoinableOUs**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netgetjoinableous)                           | <span data-ttu-id="7cf91-113">抓取組織單位清單， (Ou) 可在其中建立電腦帳戶。</span><span class="sxs-lookup"><span data-stu-id="7cf91-113">Retrieves a list of organizational units (OUs) in which a computer account can be created.</span></span>                                                                                                  |
+| [<span data-ttu-id="7cf91-114">**NetGetJoinInformation**</span><span class="sxs-lookup"><span data-stu-id="7cf91-114">**NetGetJoinInformation**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netgetjoininformation)                   | <span data-ttu-id="7cf91-115">抓取指定電腦的聯結狀態資訊。</span><span class="sxs-lookup"><span data-stu-id="7cf91-115">Retrieves join status information for the specified computer.</span></span>                                                                                                                               |
+| [<span data-ttu-id="7cf91-116">**NetJoinDomain**</span><span class="sxs-lookup"><span data-stu-id="7cf91-116">**NetJoinDomain**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netjoindomain)                                   | <span data-ttu-id="7cf91-117">將電腦加入工作組或網域。</span><span class="sxs-lookup"><span data-stu-id="7cf91-117">Joins a computer to a workgroup or domain.</span></span>                                                                                                                                                  |
+| [<span data-ttu-id="7cf91-118">**NetProvisionComputerAccount**</span><span class="sxs-lookup"><span data-stu-id="7cf91-118">**NetProvisionComputerAccount**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netprovisioncomputeraccount)       | <span data-ttu-id="7cf91-119">布建電腦帳戶，以供稍後用於離線網域加入作業。</span><span class="sxs-lookup"><span data-stu-id="7cf91-119">Provisions a computer account for later used in an offline domain join operation.</span></span>                                                                                                           |
+| [<span data-ttu-id="7cf91-120">**NetRemoveAlternateComputerName**</span><span class="sxs-lookup"><span data-stu-id="7cf91-120">**NetRemoveAlternateComputerName**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netremovealternatecomputername) | <span data-ttu-id="7cf91-121">移除指定電腦的替代名稱。</span><span class="sxs-lookup"><span data-stu-id="7cf91-121">Removes an alternate name for the specified computer.</span></span>                                                                                                                                       |
+| [<span data-ttu-id="7cf91-122">**NetRenameMachineInDomain**</span><span class="sxs-lookup"><span data-stu-id="7cf91-122">**NetRenameMachineInDomain**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netrenamemachineindomain)             | <span data-ttu-id="7cf91-123">變更網域中的電腦名稱稱。</span><span class="sxs-lookup"><span data-stu-id="7cf91-123">Changes the name of a computer in a domain.</span></span>                                                                                                                                                 |
+| [<span data-ttu-id="7cf91-124">**NetSetPrimaryComputerName**</span><span class="sxs-lookup"><span data-stu-id="7cf91-124">**NetSetPrimaryComputerName**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netsetprimarycomputername)           | <span data-ttu-id="7cf91-125">設定指定電腦的主要電腦名稱稱。</span><span class="sxs-lookup"><span data-stu-id="7cf91-125">Sets the primary computer name for the specified computer.</span></span>                                                                                                                                  |
+| [<span data-ttu-id="7cf91-126">**NetUnjoinDomain**</span><span class="sxs-lookup"><span data-stu-id="7cf91-126">**NetUnjoinDomain**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netunjoindomain)                               | <span data-ttu-id="7cf91-127">Unjoins 工作組或網域中的電腦。</span><span class="sxs-lookup"><span data-stu-id="7cf91-127">Unjoins a computer from a workgroup or a domain.</span></span>                                                                                                                                            |
+| [<span data-ttu-id="7cf91-128">**NetValidateName**</span><span class="sxs-lookup"><span data-stu-id="7cf91-128">**NetValidateName**</span></span>](/windows/desktop/api/Lmjoin/nf-lmjoin-netvalidatename)                               | <span data-ttu-id="7cf91-129">確認電腦名稱稱、工作組名稱或功能變數名稱的有效性。</span><span class="sxs-lookup"><span data-stu-id="7cf91-129">Verifies the validity of a computer name, workgroup name, or domain name.</span></span>                                                                                                                   |
+
+
+
+ 
+
+<span data-ttu-id="7cf91-130">如需 Active Directory 程式設計的詳細資訊，請參閱 [Active Directory 參考](/windows/desktop/AD/active-directory-domain-services-reference)。</span><span class="sxs-lookup"><span data-stu-id="7cf91-130">For more information about programming for Active Directory, see the [Active Directory Reference](/windows/desktop/AD/active-directory-domain-services-reference).</span></span> <span data-ttu-id="7cf91-131">如需組織單位的詳細資訊，請參閱 Active Directory 檔中的 [管理使用者](/windows/desktop/AD/managing-users) 。</span><span class="sxs-lookup"><span data-stu-id="7cf91-131">For more information about organizational units, see [Managing Users](/windows/desktop/AD/managing-users) in the Active Directory documentation.</span></span>
+
+ 
+
+ 

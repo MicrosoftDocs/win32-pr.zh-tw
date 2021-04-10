@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694519"
 ---
-# <a name="icspstatus-methods"></a><span data-ttu-id="85fbd-103">ICspStatus 方法</span><span class="sxs-lookup"><span data-stu-id="85fbd-103">ICspStatus Methods</span></span>
+# <a name="icspstatus-methods"></a><span data-ttu-id="ef442-103">ICspStatus 方法</span><span class="sxs-lookup"><span data-stu-id="ef442-103">ICspStatus Methods</span></span>
 
-<span data-ttu-id="85fbd-104">[**ICspStatus**](/windows/desktop/api/CertEnroll/nn-certenroll-icspstatus)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="85fbd-104">The [**ICspStatus**](/windows/desktop/api/CertEnroll/nn-certenroll-icspstatus) interface exposes the following methods.</span></span>
+<span data-ttu-id="ef442-104">[**ICspStatus**](/windows/desktop/api/CertEnroll/nn-certenroll-icspstatus)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="ef442-104">The [**ICspStatus**](/windows/desktop/api/CertEnroll/nn-certenroll-icspstatus) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="85fbd-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="85fbd-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ef442-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="ef442-105">In this section</span></span>
 
--   [<span data-ttu-id="85fbd-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="85fbd-106">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-initialize)
+-   [<span data-ttu-id="ef442-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="ef442-106">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-initialize)
 
  
 

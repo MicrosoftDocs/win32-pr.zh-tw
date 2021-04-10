@@ -13,11 +13,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "104023899"
 ---
-# <a name="backing-up-and-restoring-hard-links"></a><span data-ttu-id="f47bf-104">備份和還原永久連結</span><span class="sxs-lookup"><span data-stu-id="f47bf-104">Backing Up and Restoring Hard Links</span></span>
+# <a name="backing-up-and-restoring-hard-links"></a><span data-ttu-id="59b80-104">備份和還原永久連結</span><span class="sxs-lookup"><span data-stu-id="59b80-104">Backing Up and Restoring Hard Links</span></span>
 
-<span data-ttu-id="f47bf-105">若要備份及還原永久連結，請使用 [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)、 [**CreateHardLink**](/windows/desktop/api/winbase/nf-winbase-createhardlinka)、 [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew)、 [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew)、 [**BackupRead**](/windows/desktop/api/Winbase/nf-winbase-backupread)、 [**GetFileInformationByHandle**](/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle)和 [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) 函式，如下列的虛擬處理範例所示。</span><span class="sxs-lookup"><span data-stu-id="f47bf-105">To back up and restore hard links, use the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**CreateHardLink**](/windows/desktop/api/winbase/nf-winbase-createhardlinka), [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew), [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew), [**BackupRead**](/windows/desktop/api/Winbase/nf-winbase-backupread), [**GetFileInformationByHandle**](/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle), and [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) functions as shown in the following pseudocode examples.</span></span>
+<span data-ttu-id="59b80-105">若要備份及還原永久連結，請使用 [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)、 [**CreateHardLink**](/windows/desktop/api/winbase/nf-winbase-createhardlinka)、 [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew)、 [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew)、 [**BackupRead**](/windows/desktop/api/Winbase/nf-winbase-backupread)、 [**GetFileInformationByHandle**](/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle)和 [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) 函式，如下列的虛擬處理範例所示。</span><span class="sxs-lookup"><span data-stu-id="59b80-105">To back up and restore hard links, use the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**CreateHardLink**](/windows/desktop/api/winbase/nf-winbase-createhardlinka), [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew), [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew), [**BackupRead**](/windows/desktop/api/Winbase/nf-winbase-backupread), [**GetFileInformationByHandle**](/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle), and [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) functions as shown in the following pseudocode examples.</span></span>
 
-## <a name="pseudocode-algorithm-for-backing-up-hard-links"></a><span data-ttu-id="f47bf-106">用來備份永久連結的虛擬程式碼演算法</span><span class="sxs-lookup"><span data-stu-id="f47bf-106">Pseudocode Algorithm for Backing Up Hard Links</span></span>
+## <a name="pseudocode-algorithm-for-backing-up-hard-links"></a><span data-ttu-id="59b80-106">用來備份永久連結的虛擬程式碼演算法</span><span class="sxs-lookup"><span data-stu-id="59b80-106">Pseudocode Algorithm for Backing Up Hard Links</span></span>
 
 ``` syntax
 1.  Initialize and empty a list of known links. 
@@ -49,7 +49,7 @@ ms.locfileid: "104023899"
 22. EndWhile
 ```
 
-## <a name="pseudocode-algorithm-for-restoring-hard-links"></a><span data-ttu-id="f47bf-107">用於還原永久連結的虛擬程式碼演算法</span><span class="sxs-lookup"><span data-stu-id="f47bf-107">Pseudocode Algorithm for Restoring Hard Links</span></span>
+## <a name="pseudocode-algorithm-for-restoring-hard-links"></a><span data-ttu-id="59b80-107">用於還原永久連結的虛擬程式碼演算法</span><span class="sxs-lookup"><span data-stu-id="59b80-107">Pseudocode Algorithm for Restoring Hard Links</span></span>
 
 ``` syntax
 1.  While there are more files to restore 
@@ -60,9 +60,9 @@ ms.locfileid: "104023899"
 6.  EndWhile
 ```
 
-<span data-ttu-id="f47bf-108">**Windows Server 2003 和 WINDOWS XP：** 不支援 [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew) 和 [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew) 函數。</span><span class="sxs-lookup"><span data-stu-id="f47bf-108">**Windows Server 2003 and Windows XP:** The [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew) and [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew) functions are not supported.</span></span> <span data-ttu-id="f47bf-109">您可以改為使用下列虛擬程式碼範例中所述的程式。</span><span class="sxs-lookup"><span data-stu-id="f47bf-109">You can instead use the procedure outlined in the following pseudocode example.</span></span>
+<span data-ttu-id="59b80-108">**Windows Server 2003 和 WINDOWS XP：** 不支援 [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew) 和 [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew) 函數。</span><span class="sxs-lookup"><span data-stu-id="59b80-108">**Windows Server 2003 and Windows XP:** The [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew) and [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew) functions are not supported.</span></span> <span data-ttu-id="59b80-109">您可以改為使用下列虛擬程式碼範例中所述的程式。</span><span class="sxs-lookup"><span data-stu-id="59b80-109">You can instead use the procedure outlined in the following pseudocode example.</span></span>
 
-## <a name="alternate-pseudocode-algorithm-for-backing-up-hard-links"></a><span data-ttu-id="f47bf-110">備份永久連結的替代虛擬程式碼演算法</span><span class="sxs-lookup"><span data-stu-id="f47bf-110">Alternate Pseudocode Algorithm for Backing Up Hard Links</span></span>
+## <a name="alternate-pseudocode-algorithm-for-backing-up-hard-links"></a><span data-ttu-id="59b80-110">備份永久連結的替代虛擬程式碼演算法</span><span class="sxs-lookup"><span data-stu-id="59b80-110">Alternate Pseudocode Algorithm for Backing Up Hard Links</span></span>
 
 ``` syntax
 1.  Initialize and empty a list of known links. 
