@@ -32,14 +32,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945094"
 ---
-# <a name="indexinfocultureinfo-property"></a><span data-ttu-id="c36b4-103">IndexInfo CultureInfo 屬性</span><span class="sxs-lookup"><span data-stu-id="c36b4-103">IndexInfo.CultureInfo property</span></span>
+# <a name="indexinfocultureinfo-property"></a><span data-ttu-id="15d06-103">IndexInfo CultureInfo 屬性</span><span class="sxs-lookup"><span data-stu-id="15d06-103">IndexInfo.CultureInfo property</span></span>
 
-<span data-ttu-id="c36b4-104">取得索引排序依據的 CultureInfo。</span><span class="sxs-lookup"><span data-stu-id="c36b4-104">Gets the CultureInfo the index is sorted by.</span></span>
+<span data-ttu-id="15d06-104">取得索引排序依據的 CultureInfo。</span><span class="sxs-lookup"><span data-stu-id="15d06-104">Gets the CultureInfo the index is sorted by.</span></span>
 
-<span data-ttu-id="c36b4-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c36b4-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="c36b4-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c36b4-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="15d06-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="15d06-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="15d06-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="15d06-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c36b4-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="c36b4-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="15d06-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="15d06-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -56,16 +56,16 @@ value = instance.CultureInfo
 public CultureInfo CultureInfo { get; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="c36b4-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="c36b4-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="15d06-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="15d06-108">Property value</span></span>
 
-<span data-ttu-id="c36b4-109">類型： [system.object](/dotnet/api/system.globalization.cultureinfo)</span><span class="sxs-lookup"><span data-stu-id="c36b4-109">Type: [System.Globalization.CultureInfo](/dotnet/api/system.globalization.cultureinfo)</span></span>  
+<span data-ttu-id="15d06-109">類型： [system.object](/dotnet/api/system.globalization.cultureinfo)</span><span class="sxs-lookup"><span data-stu-id="15d06-109">Type: [System.Globalization.CultureInfo](/dotnet/api/system.globalization.cultureinfo)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="c36b4-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c36b4-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="15d06-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="15d06-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="c36b4-111">參考</span><span class="sxs-lookup"><span data-stu-id="c36b4-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="15d06-111">參考</span><span class="sxs-lookup"><span data-stu-id="15d06-111">Reference</span></span>
 
-[<span data-ttu-id="c36b4-112">IndexInfo 類別</span><span class="sxs-lookup"><span data-stu-id="c36b4-112">IndexInfo class</span></span>](./indexinfo-class.md)
+[<span data-ttu-id="15d06-112">IndexInfo 類別</span><span class="sxs-lookup"><span data-stu-id="15d06-112">IndexInfo class</span></span>](./indexinfo-class.md)
 
-[<span data-ttu-id="c36b4-113">IndexInfo 成員</span><span class="sxs-lookup"><span data-stu-id="c36b4-113">IndexInfo members</span></span>](./indexinfo-members.md)
+[<span data-ttu-id="15d06-113">IndexInfo 成員</span><span class="sxs-lookup"><span data-stu-id="15d06-113">IndexInfo members</span></span>](./indexinfo-members.md)
 
-[<span data-ttu-id="c36b4-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c36b4-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="15d06-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="15d06-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -19,9 +19,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020852"
 ---
-# <a name="example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional"></a><span data-ttu-id="73a01-104">在成員伺服器或 Windows 2000 Professional 上刪除使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="73a01-104">Example Code for Deleting Users on a Member Server or Windows 2000 Professional</span></span>
+# <a name="example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional"></a><span data-ttu-id="24c79-104">在成員伺服器或 Windows 2000 Professional 上刪除使用者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="24c79-104">Example Code for Deleting Users on a Member Server or Windows 2000 Professional</span></span>
 
-<span data-ttu-id="73a01-105">下列 Visual Basic 程式碼會刪除成員伺服器或工作站上的使用者。</span><span class="sxs-lookup"><span data-stu-id="73a01-105">The following Visual Basic code deletes a user on a member server or workstation.</span></span>
+<span data-ttu-id="24c79-105">下列 Visual Basic 程式碼會刪除成員伺服器或工作站上的使用者。</span><span class="sxs-lookup"><span data-stu-id="24c79-105">The following Visual Basic code deletes a user on a member server or workstation.</span></span>
 
 
 ```VB

@@ -15,9 +15,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021166"
 ---
-# <a name="locating-and-opening-compressors-and-decompressors"></a><span data-ttu-id="fb7ba-106">尋找和開啟壓縮機和 Decompressors</span><span class="sxs-lookup"><span data-stu-id="fb7ba-106">Locating and Opening Compressors and Decompressors</span></span>
+# <a name="locating-and-opening-compressors-and-decompressors"></a><span data-ttu-id="257c6-106">尋找和開啟壓縮機和 Decompressors</span><span class="sxs-lookup"><span data-stu-id="257c6-106">Locating and Opening Compressors and Decompressors</span></span>
 
-<span data-ttu-id="fb7ba-107">下列範例會使用 [**ICLocate**](/windows/desktop/api/Vfw/nf-vfw-iclocate) 函式來尋找可壓縮每圖元8位點陣圖的壓縮程式。</span><span class="sxs-lookup"><span data-stu-id="fb7ba-107">The following example uses the [**ICLocate**](/windows/desktop/api/Vfw/nf-vfw-iclocate) function to find a compressor that can compress an 8-bits-per-pixel bitmap.</span></span>
+<span data-ttu-id="257c6-107">下列範例會使用 [**ICLocate**](/windows/desktop/api/Vfw/nf-vfw-iclocate) 函式來尋找可壓縮每圖元8位點陣圖的壓縮程式。</span><span class="sxs-lookup"><span data-stu-id="257c6-107">The following example uses the [**ICLocate**](/windows/desktop/api/Vfw/nf-vfw-iclocate) function to find a compressor that can compress an 8-bits-per-pixel bitmap.</span></span>
 
 
 ```C++
@@ -41,7 +41,7 @@ hIC = ICLocate (ICTYPE_VIDEO, 0L, (LPBITMAPINFOHEADER) &bih,
 
 
 
-<span data-ttu-id="fb7ba-108">下列範例會列舉系統中的 decompressors，以找出可以處理其影像格式的程式。</span><span class="sxs-lookup"><span data-stu-id="fb7ba-108">The following example enumerates the decompressors in the system to find one that can handle the format of its images.</span></span> <span data-ttu-id="fb7ba-109">此範例使用 **ICTYPE \_ VIDEO** (相當於 "程式" 四個字元的程式碼) 和 [**ICDecompressQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressquery) 宏來判斷壓縮程式或解壓縮程式是否支援影像格式。</span><span class="sxs-lookup"><span data-stu-id="fb7ba-109">This example uses **ICTYPE\_VIDEO** (which is equivalent to the "VIDC" four-character code) and the [**ICDecompressQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressquery) macro to determine if a compressor or decompressor supports the image format.</span></span>
+<span data-ttu-id="257c6-108">下列範例會列舉系統中的 decompressors，以找出可以處理其影像格式的程式。</span><span class="sxs-lookup"><span data-stu-id="257c6-108">The following example enumerates the decompressors in the system to find one that can handle the format of its images.</span></span> <span data-ttu-id="257c6-109">此範例使用 **ICTYPE \_ VIDEO** (相當於 "程式" 四個字元的程式碼) 和 [**ICDecompressQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressquery) 宏來判斷壓縮程式或解壓縮程式是否支援影像格式。</span><span class="sxs-lookup"><span data-stu-id="257c6-109">This example uses **ICTYPE\_VIDEO** (which is equivalent to the "VIDC" four-character code) and the [**ICDecompressQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressquery) macro to determine if a compressor or decompressor supports the image format.</span></span>
 
 
 ```C++
@@ -71,7 +71,7 @@ for (i=0; ICInfo(fccType, i, &icinfo); i++)
 
 
 
-<span data-ttu-id="fb7ba-110">下列範例會嘗試找出特定的壓縮程式，將8位 RGB 格式壓縮成8位的 RLE 格式。</span><span class="sxs-lookup"><span data-stu-id="fb7ba-110">The following example attempts to locate a specific compressor to compress the 8-bit RGB format to an 8-bit RLE format.</span></span>
+<span data-ttu-id="257c6-110">下列範例會嘗試找出特定的壓縮程式，將8位 RGB 格式壓縮成8位的 RLE 格式。</span><span class="sxs-lookup"><span data-stu-id="257c6-110">The following example attempts to locate a specific compressor to compress the 8-bit RGB format to an 8-bit RLE format.</span></span>
 
 
 ```C++
@@ -100,11 +100,11 @@ hIC = ICLocate (ICTYPE_VIDEO, 0L,
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="fb7ba-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="fb7ba-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="257c6-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="257c6-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="fb7ba-112">使用影片壓縮管理員</span><span class="sxs-lookup"><span data-stu-id="fb7ba-112">Using the Video Compression Manager</span></span>](using-the-video-compression-manager.md)
+[<span data-ttu-id="257c6-112">使用影片壓縮管理員</span><span class="sxs-lookup"><span data-stu-id="257c6-112">Using the Video Compression Manager</span></span>](using-the-video-compression-manager.md)
 </dt> </dl>
 
  

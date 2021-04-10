@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021326"
 ---
-# <a name="multimedia-appendix"></a><span data-ttu-id="46558-103">多媒體附錄</span><span class="sxs-lookup"><span data-stu-id="46558-103">Multimedia Appendix</span></span>
+# <a name="multimedia-appendix"></a><span data-ttu-id="da6ef-103">多媒體附錄</span><span class="sxs-lookup"><span data-stu-id="da6ef-103">Multimedia Appendix</span></span>
 
-<span data-ttu-id="46558-104">本節包含下列主題：</span><span class="sxs-lookup"><span data-stu-id="46558-104">This section contains the following topics:</span></span>
+<span data-ttu-id="da6ef-104">本節包含下列主題：</span><span class="sxs-lookup"><span data-stu-id="da6ef-104">This section contains the following topics:</span></span>
 
--   [<span data-ttu-id="46558-105">多媒體電腦規格</span><span class="sxs-lookup"><span data-stu-id="46558-105">Multimedia PC Specifications</span></span>](multimedia-pc-specifications.md)
--   [<span data-ttu-id="46558-106">製造商和產品識別碼</span><span class="sxs-lookup"><span data-stu-id="46558-106">Manufacturer and Product Identifiers</span></span>](manufacturer-and-product-identifiers.md)
--   [<span data-ttu-id="46558-107">可安裝的驅動程式</span><span class="sxs-lookup"><span data-stu-id="46558-107">Installable Drivers</span></span>](installable-drivers.md)
+-   [<span data-ttu-id="da6ef-105">多媒體電腦規格</span><span class="sxs-lookup"><span data-stu-id="da6ef-105">Multimedia PC Specifications</span></span>](multimedia-pc-specifications.md)
+-   [<span data-ttu-id="da6ef-106">製造商和產品識別碼</span><span class="sxs-lookup"><span data-stu-id="da6ef-106">Manufacturer and Product Identifiers</span></span>](manufacturer-and-product-identifiers.md)
+-   [<span data-ttu-id="da6ef-107">可安裝的驅動程式</span><span class="sxs-lookup"><span data-stu-id="da6ef-107">Installable Drivers</span></span>](installable-drivers.md)
 
-## <a name="related-topics"></a><span data-ttu-id="46558-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="46558-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="da6ef-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="da6ef-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="46558-109">Windows 多媒體</span><span class="sxs-lookup"><span data-stu-id="46558-109">Windows Multimedia</span></span>](windows-multimedia-start-page.md)
+[<span data-ttu-id="da6ef-109">Windows 多媒體</span><span class="sxs-lookup"><span data-stu-id="da6ef-109">Windows Multimedia</span></span>](windows-multimedia-start-page.md)
 </dt> </dl>
 
  

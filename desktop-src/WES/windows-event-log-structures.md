@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020925"
 ---
-# <a name="windows-event-log-structures"></a><span data-ttu-id="b95a9-103">Windows 事件記錄檔結構</span><span class="sxs-lookup"><span data-stu-id="b95a9-103">Windows Event Log Structures</span></span>
+# <a name="windows-event-log-structures"></a><span data-ttu-id="d93fe-103">Windows 事件記錄檔結構</span><span class="sxs-lookup"><span data-stu-id="d93fe-103">Windows Event Log Structures</span></span>
 
-<span data-ttu-id="b95a9-104">Windows 事件記錄檔會定義下列結構。</span><span class="sxs-lookup"><span data-stu-id="b95a9-104">Windows Event Log defines the following structures.</span></span>
+<span data-ttu-id="d93fe-104">Windows 事件記錄檔會定義下列結構。</span><span class="sxs-lookup"><span data-stu-id="d93fe-104">Windows Event Log defines the following structures.</span></span>
 
 
 
-| <span data-ttu-id="b95a9-105">結構</span><span class="sxs-lookup"><span data-stu-id="b95a9-105">Structure</span></span>                                | <span data-ttu-id="b95a9-106">Description</span><span class="sxs-lookup"><span data-stu-id="b95a9-106">Description</span></span>                                                    |
+| <span data-ttu-id="d93fe-105">結構</span><span class="sxs-lookup"><span data-stu-id="d93fe-105">Structure</span></span>                                | <span data-ttu-id="d93fe-106">Description</span><span class="sxs-lookup"><span data-stu-id="d93fe-106">Description</span></span>                                                    |
 |------------------------------------------|----------------------------------------------------------------|
-| [<span data-ttu-id="b95a9-107">**.EVT \_ RPC \_ 登入**</span><span class="sxs-lookup"><span data-stu-id="b95a9-107">**EVT\_RPC\_LOGIN**</span></span>](/windows/desktop/api/WinEvt/ns-winevt-evt_rpc_login) | <span data-ttu-id="b95a9-108">包含用來連接到遠端電腦的資訊。</span><span class="sxs-lookup"><span data-stu-id="b95a9-108">Contains the information used to connect to a remote computer.</span></span> |
-| [<span data-ttu-id="b95a9-109">**.EVT \_ 變異**</span><span class="sxs-lookup"><span data-stu-id="b95a9-109">**EVT\_VARIANT**</span></span>](/windows/desktop/api/WinEvt/ns-winevt-evt_variant)      | <span data-ttu-id="b95a9-110">包含事件資料或屬性值。</span><span class="sxs-lookup"><span data-stu-id="b95a9-110">Contains event data or property values.</span></span>                        |
+| [<span data-ttu-id="d93fe-107">**.EVT \_ RPC \_ 登入**</span><span class="sxs-lookup"><span data-stu-id="d93fe-107">**EVT\_RPC\_LOGIN**</span></span>](/windows/desktop/api/WinEvt/ns-winevt-evt_rpc_login) | <span data-ttu-id="d93fe-108">包含用來連接到遠端電腦的資訊。</span><span class="sxs-lookup"><span data-stu-id="d93fe-108">Contains the information used to connect to a remote computer.</span></span> |
+| [<span data-ttu-id="d93fe-109">**.EVT \_ 變異**</span><span class="sxs-lookup"><span data-stu-id="d93fe-109">**EVT\_VARIANT**</span></span>](/windows/desktop/api/WinEvt/ns-winevt-evt_variant)      | <span data-ttu-id="d93fe-110">包含事件資料或屬性值。</span><span class="sxs-lookup"><span data-stu-id="d93fe-110">Contains event data or property values.</span></span>                        |
 
 
 

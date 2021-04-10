@@ -19,9 +19,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103681891"
 ---
-# <a name="displaybind-attribute"></a><span data-ttu-id="e9f77-104">displaybind 屬性</span><span class="sxs-lookup"><span data-stu-id="e9f77-104">displaybind attribute</span></span>
+# <a name="displaybind-attribute"></a><span data-ttu-id="03d0e-104">displaybind 屬性</span><span class="sxs-lookup"><span data-stu-id="03d0e-104">displaybind attribute</span></span>
 
-<span data-ttu-id="e9f77-105">**\[ Displaybind \]** 屬性工作表示應該向使用者顯示為可系結的屬性。</span><span class="sxs-lookup"><span data-stu-id="e9f77-105">The **\[displaybind\]** attribute indicates a property that should be displayed to the user as bindable.</span></span>
+<span data-ttu-id="03d0e-105">**\[ Displaybind \]** 屬性工作表示應該向使用者顯示為可系結的屬性。</span><span class="sxs-lookup"><span data-stu-id="03d0e-105">The **\[displaybind\]** attribute indicates a property that should be displayed to the user as bindable.</span></span>
 
 ``` syntax
 [
@@ -33,61 +33,61 @@ interface | dispinterface interface-name
 }
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e9f77-106">參數</span><span class="sxs-lookup"><span data-stu-id="e9f77-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="03d0e-106">參數</span><span class="sxs-lookup"><span data-stu-id="03d0e-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="e9f77-107">*介面屬性清單*</span><span class="sxs-lookup"><span data-stu-id="e9f77-107">*interface-attribute-list*</span></span> 
+<span data-ttu-id="03d0e-107">*介面屬性清單*</span><span class="sxs-lookup"><span data-stu-id="03d0e-107">*interface-attribute-list*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e9f77-108">指定介面屬性的選擇性清單。</span><span class="sxs-lookup"><span data-stu-id="e9f77-108">Specifies an optional list of interface attributes.</span></span>
+<span data-ttu-id="03d0e-108">指定介面屬性的選擇性清單。</span><span class="sxs-lookup"><span data-stu-id="03d0e-108">Specifies an optional list of interface attributes.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e9f77-109">*介面-名稱*</span><span class="sxs-lookup"><span data-stu-id="e9f77-109">*interface-name*</span></span> 
+<span data-ttu-id="03d0e-109">*介面-名稱*</span><span class="sxs-lookup"><span data-stu-id="03d0e-109">*interface-name*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e9f77-110">介面的名稱。</span><span class="sxs-lookup"><span data-stu-id="e9f77-110">The name of the interface.</span></span>
+<span data-ttu-id="03d0e-110">介面的名稱。</span><span class="sxs-lookup"><span data-stu-id="03d0e-110">The name of the interface.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e9f77-111">*屬性清單*</span><span class="sxs-lookup"><span data-stu-id="e9f77-111">*attribute-list*</span></span> 
+<span data-ttu-id="03d0e-111">*屬性清單*</span><span class="sxs-lookup"><span data-stu-id="03d0e-111">*attribute-list*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e9f77-112">指定套用至函式傳回型別的一或多個屬性清單（以逗號分隔）。</span><span class="sxs-lookup"><span data-stu-id="e9f77-112">Specifies a list of one or more attributes, separated by commas, that apply to the function-return type.</span></span>
+<span data-ttu-id="03d0e-112">指定套用至函式傳回型別的一或多個屬性清單（以逗號分隔）。</span><span class="sxs-lookup"><span data-stu-id="03d0e-112">Specifies a list of one or more attributes, separated by commas, that apply to the function-return type.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e9f77-113">*returntype*</span><span class="sxs-lookup"><span data-stu-id="e9f77-113">*returntype*</span></span> 
+<span data-ttu-id="03d0e-113">*returntype*</span><span class="sxs-lookup"><span data-stu-id="03d0e-113">*returntype*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e9f77-114">指定函式的傳回型別。</span><span class="sxs-lookup"><span data-stu-id="e9f77-114">Specifies the return type of the function.</span></span>
+<span data-ttu-id="03d0e-114">指定函式的傳回型別。</span><span class="sxs-lookup"><span data-stu-id="03d0e-114">Specifies the return type of the function.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e9f77-115">*函數名稱*</span><span class="sxs-lookup"><span data-stu-id="e9f77-115">*function-name*</span></span> 
+<span data-ttu-id="03d0e-115">*函數名稱*</span><span class="sxs-lookup"><span data-stu-id="03d0e-115">*function-name*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e9f77-116">指定將套用 **\[ displaybind \]** 屬性的函數名稱。</span><span class="sxs-lookup"><span data-stu-id="e9f77-116">Specifies the name of the function to which the **\[displaybind\]** attribute will be applied.</span></span>
+<span data-ttu-id="03d0e-116">指定將套用 **\[ displaybind \]** 屬性的函數名稱。</span><span class="sxs-lookup"><span data-stu-id="03d0e-116">Specifies the name of the function to which the **\[displaybind\]** attribute will be applied.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e9f77-117">*params*</span><span class="sxs-lookup"><span data-stu-id="e9f77-117">*params*</span></span> 
+<span data-ttu-id="03d0e-117">*params*</span><span class="sxs-lookup"><span data-stu-id="03d0e-117">*params*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e9f77-118">函數參數清單。</span><span class="sxs-lookup"><span data-stu-id="e9f77-118">Function parameter list.</span></span>
+<span data-ttu-id="03d0e-118">函數參數清單。</span><span class="sxs-lookup"><span data-stu-id="03d0e-118">Function parameter list.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="e9f77-119">備註</span><span class="sxs-lookup"><span data-stu-id="e9f77-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="03d0e-119">備註</span><span class="sxs-lookup"><span data-stu-id="03d0e-119">Remarks</span></span>
 
-<span data-ttu-id="e9f77-120">具有 **\[ displaybind \]** 屬性的屬性也必須具有可系結 **\[** [](bindable.md) **\]** 屬性。</span><span class="sxs-lookup"><span data-stu-id="e9f77-120">Properties that have the **\[displaybind\]** attribute must also have the **\[**[**bindable**](bindable.md)**\]** attribute.</span></span> <span data-ttu-id="e9f77-121">物件可以支援資料系結，但不能有這個屬性。</span><span class="sxs-lookup"><span data-stu-id="e9f77-121">An object can support data binding but not have this attribute.</span></span>
+<span data-ttu-id="03d0e-120">具有 **\[ displaybind \]** 屬性的屬性也必須具有可系結 **\[** [](bindable.md) **\]** 屬性。</span><span class="sxs-lookup"><span data-stu-id="03d0e-120">Properties that have the **\[displaybind\]** attribute must also have the **\[**[**bindable**](bindable.md)**\]** attribute.</span></span> <span data-ttu-id="03d0e-121">物件可以支援資料系結，但不能有這個屬性。</span><span class="sxs-lookup"><span data-stu-id="03d0e-121">An object can support data binding but not have this attribute.</span></span>
 
-### <a name="flags"></a><span data-ttu-id="e9f77-122">Flags</span><span class="sxs-lookup"><span data-stu-id="e9f77-122">Flags</span></span>
+### <a name="flags"></a><span data-ttu-id="03d0e-122">Flags</span><span class="sxs-lookup"><span data-stu-id="03d0e-122">Flags</span></span>
 
-<span data-ttu-id="e9f77-123">FUNCFLAG \_ FDISPLAYBIND、VARFLAG \_ FDISPLAYBIND</span><span class="sxs-lookup"><span data-stu-id="e9f77-123">FUNCFLAG\_FDISPLAYBIND, VARFLAG\_FDISPLAYBIND</span></span>
+<span data-ttu-id="03d0e-123">FUNCFLAG \_ FDISPLAYBIND、VARFLAG \_ FDISPLAYBIND</span><span class="sxs-lookup"><span data-stu-id="03d0e-123">FUNCFLAG\_FDISPLAYBIND, VARFLAG\_FDISPLAYBIND</span></span>
 
-## <a name="examples"></a><span data-ttu-id="e9f77-124">範例</span><span class="sxs-lookup"><span data-stu-id="e9f77-124">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="03d0e-124">範例</span><span class="sxs-lookup"><span data-stu-id="03d0e-124">Examples</span></span>
 
 ``` syntax
 [
@@ -105,23 +105,23 @@ interface MyObject : IUnknown
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="e9f77-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e9f77-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="03d0e-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="03d0e-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e9f77-126">**bindable**</span><span class="sxs-lookup"><span data-stu-id="e9f77-126">**bindable**</span></span>](bindable.md)
+[<span data-ttu-id="03d0e-126">**bindable**</span><span class="sxs-lookup"><span data-stu-id="03d0e-126">**bindable**</span></span>](bindable.md)
 </dt> <dt>
 
-[<span data-ttu-id="e9f77-127">TYPEFLAGS</span><span class="sxs-lookup"><span data-stu-id="e9f77-127">TYPEFLAGS</span></span>](/windows/win32/api/oaidl/ne-oaidl-typeflags)
+[<span data-ttu-id="03d0e-127">TYPEFLAGS</span><span class="sxs-lookup"><span data-stu-id="03d0e-127">TYPEFLAGS</span></span>](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> <dt>
 
-[<span data-ttu-id="e9f77-128">ODL 檔語法</span><span class="sxs-lookup"><span data-stu-id="e9f77-128">ODL File Syntax</span></span>](/previous-versions/windows/desktop/automat/odl-file-syntax)
+[<span data-ttu-id="03d0e-128">ODL 檔語法</span><span class="sxs-lookup"><span data-stu-id="03d0e-128">ODL File Syntax</span></span>](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[<span data-ttu-id="e9f77-129">ODL 檔案範例</span><span class="sxs-lookup"><span data-stu-id="e9f77-129">ODL File Example</span></span>](/previous-versions/windows/desktop/automat/odl-file-example)
+[<span data-ttu-id="03d0e-129">ODL 檔案範例</span><span class="sxs-lookup"><span data-stu-id="03d0e-129">ODL File Example</span></span>](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
-[<span data-ttu-id="e9f77-130">使用 MIDL 產生類型程式庫</span><span class="sxs-lookup"><span data-stu-id="e9f77-130">Generating a Type Library With MIDL</span></span>](generating-a-type-library-with-midl-2.md)
+[<span data-ttu-id="03d0e-130">使用 MIDL 產生類型程式庫</span><span class="sxs-lookup"><span data-stu-id="03d0e-130">Generating a Type Library With MIDL</span></span>](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
  

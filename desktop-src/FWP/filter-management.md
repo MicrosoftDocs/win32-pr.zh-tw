@@ -11,25 +11,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103682283"
 ---
-# <a name="filter-management"></a><span data-ttu-id="6570e-103">篩選管理</span><span class="sxs-lookup"><span data-stu-id="6570e-103">Filter Management</span></span>
+# <a name="filter-management"></a><span data-ttu-id="9fbb5-103">篩選管理</span><span class="sxs-lookup"><span data-stu-id="9fbb5-103">Filter Management</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="6570e-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="6570e-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9fbb5-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="9fbb5-104">In this section</span></span>
 
--   [<span data-ttu-id="6570e-105">**FWPM \_ 篩選 \_ 變更 \_ CALLBACK0**</span><span class="sxs-lookup"><span data-stu-id="6570e-105">**FWPM\_FILTER\_CHANGE\_CALLBACK0**</span></span>](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0)
--   [<span data-ttu-id="6570e-106">**FwpmFilterAdd0**</span><span class="sxs-lookup"><span data-stu-id="6570e-106">**FwpmFilterAdd0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0)
--   [<span data-ttu-id="6570e-107">**FwpmFilterCreateEnumHandle0**</span><span class="sxs-lookup"><span data-stu-id="6570e-107">**FwpmFilterCreateEnumHandle0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0)
--   [<span data-ttu-id="6570e-108">**FwpmFilterDeleteById0**</span><span class="sxs-lookup"><span data-stu-id="6570e-108">**FwpmFilterDeleteById0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0)
--   [<span data-ttu-id="6570e-109">**FwpmFilterDeleteByKey0**</span><span class="sxs-lookup"><span data-stu-id="6570e-109">**FwpmFilterDeleteByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebykey0)
--   [<span data-ttu-id="6570e-110">**FwpmFilterDestroyEnumHandle0**</span><span class="sxs-lookup"><span data-stu-id="6570e-110">**FwpmFilterDestroyEnumHandle0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdestroyenumhandle0)
--   [<span data-ttu-id="6570e-111">**FwpmFilterEnum0**</span><span class="sxs-lookup"><span data-stu-id="6570e-111">**FwpmFilterEnum0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterenum0)
--   [<span data-ttu-id="6570e-112">**FwpmFilterGetById0**</span><span class="sxs-lookup"><span data-stu-id="6570e-112">**FwpmFilterGetById0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbyid0)
--   [<span data-ttu-id="6570e-113">**FwpmFilterGetByKey0**</span><span class="sxs-lookup"><span data-stu-id="6570e-113">**FwpmFilterGetByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbykey0)
--   [<span data-ttu-id="6570e-114">**FwpmFilterGetSecurityInfoByKey0**</span><span class="sxs-lookup"><span data-stu-id="6570e-114">**FwpmFilterGetSecurityInfoByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetsecurityinfobykey0)
--   [<span data-ttu-id="6570e-115">**FwpmFilterSetSecurityInfoByKey0**</span><span class="sxs-lookup"><span data-stu-id="6570e-115">**FwpmFilterSetSecurityInfoByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersetsecurityinfobykey0)
--   [<span data-ttu-id="6570e-116">**FwpmFilterSubscribeChanges0**</span><span class="sxs-lookup"><span data-stu-id="6570e-116">**FwpmFilterSubscribeChanges0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0)
--   [<span data-ttu-id="6570e-117">**FwpmFilterSubscriptionsGet0**</span><span class="sxs-lookup"><span data-stu-id="6570e-117">**FwpmFilterSubscriptionsGet0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscriptionsget0)
--   [<span data-ttu-id="6570e-118">**FwpmFilterUnsubscribeChanges0**</span><span class="sxs-lookup"><span data-stu-id="6570e-118">**FwpmFilterUnsubscribeChanges0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterunsubscribechanges0)
--   [<span data-ttu-id="6570e-119">**FwpmGetAppIdFromFileName0**</span><span class="sxs-lookup"><span data-stu-id="6570e-119">**FwpmGetAppIdFromFileName0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmgetappidfromfilename0)
+-   [<span data-ttu-id="9fbb5-105">**FWPM \_ 篩選 \_ 變更 \_ CALLBACK0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-105">**FWPM\_FILTER\_CHANGE\_CALLBACK0**</span></span>](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0)
+-   [<span data-ttu-id="9fbb5-106">**FwpmFilterAdd0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-106">**FwpmFilterAdd0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0)
+-   [<span data-ttu-id="9fbb5-107">**FwpmFilterCreateEnumHandle0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-107">**FwpmFilterCreateEnumHandle0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0)
+-   [<span data-ttu-id="9fbb5-108">**FwpmFilterDeleteById0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-108">**FwpmFilterDeleteById0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0)
+-   [<span data-ttu-id="9fbb5-109">**FwpmFilterDeleteByKey0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-109">**FwpmFilterDeleteByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebykey0)
+-   [<span data-ttu-id="9fbb5-110">**FwpmFilterDestroyEnumHandle0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-110">**FwpmFilterDestroyEnumHandle0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdestroyenumhandle0)
+-   [<span data-ttu-id="9fbb5-111">**FwpmFilterEnum0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-111">**FwpmFilterEnum0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterenum0)
+-   [<span data-ttu-id="9fbb5-112">**FwpmFilterGetById0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-112">**FwpmFilterGetById0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbyid0)
+-   [<span data-ttu-id="9fbb5-113">**FwpmFilterGetByKey0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-113">**FwpmFilterGetByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetbykey0)
+-   [<span data-ttu-id="9fbb5-114">**FwpmFilterGetSecurityInfoByKey0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-114">**FwpmFilterGetSecurityInfoByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltergetsecurityinfobykey0)
+-   [<span data-ttu-id="9fbb5-115">**FwpmFilterSetSecurityInfoByKey0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-115">**FwpmFilterSetSecurityInfoByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersetsecurityinfobykey0)
+-   [<span data-ttu-id="9fbb5-116">**FwpmFilterSubscribeChanges0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-116">**FwpmFilterSubscribeChanges0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0)
+-   [<span data-ttu-id="9fbb5-117">**FwpmFilterSubscriptionsGet0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-117">**FwpmFilterSubscriptionsGet0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltersubscriptionsget0)
+-   [<span data-ttu-id="9fbb5-118">**FwpmFilterUnsubscribeChanges0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-118">**FwpmFilterUnsubscribeChanges0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterunsubscribechanges0)
+-   [<span data-ttu-id="9fbb5-119">**FwpmGetAppIdFromFileName0**</span><span class="sxs-lookup"><span data-stu-id="9fbb5-119">**FwpmGetAppIdFromFileName0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmgetappidfromfilename0)
 
  
 
