@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690208"
 ---
-# <a name="service-enumerations"></a><span data-ttu-id="5d083-103">服務列舉</span><span class="sxs-lookup"><span data-stu-id="5d083-103">Service Enumerations</span></span>
+# <a name="service-enumerations"></a><span data-ttu-id="3eda8-103">服務列舉</span><span class="sxs-lookup"><span data-stu-id="3eda8-103">Service Enumerations</span></span>
 
-<span data-ttu-id="5d083-104">\[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。</span><span class="sxs-lookup"><span data-stu-id="5d083-104">\[Some information relates to pre-released product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="5d083-105">Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]</span><span class="sxs-lookup"><span data-stu-id="5d083-105">Microsoft makes no warranties, express or implied, with respect to the information provided here.\]</span></span>
+<span data-ttu-id="3eda8-104">\[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。</span><span class="sxs-lookup"><span data-stu-id="3eda8-104">\[Some information relates to pre-released product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="3eda8-105">Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]</span><span class="sxs-lookup"><span data-stu-id="3eda8-105">Microsoft makes no warranties, express or implied, with respect to the information provided here.\]</span></span>
 
-<span data-ttu-id="5d083-106">下列是與服務搭配使用的結構：</span><span class="sxs-lookup"><span data-stu-id="5d083-106">The following structures are used with services:</span></span>
+<span data-ttu-id="3eda8-106">下列是與服務搭配使用的結構：</span><span class="sxs-lookup"><span data-stu-id="3eda8-106">The following structures are used with services:</span></span>
 
--   [<span data-ttu-id="5d083-107">**SC \_ 事件 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="5d083-107">**SC\_EVENT\_TYPE**</span></span>](sc-event-type.md)
+-   [<span data-ttu-id="3eda8-107">**SC \_ 事件 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="3eda8-107">**SC\_EVENT\_TYPE**</span></span>](sc-event-type.md)
 
  
 

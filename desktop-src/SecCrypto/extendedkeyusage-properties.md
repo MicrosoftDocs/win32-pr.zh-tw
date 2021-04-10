@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694011"
 ---
-# <a name="extendedkeyusage-properties"></a><span data-ttu-id="c7085-103">ExtendedKeyUsage 屬性</span><span class="sxs-lookup"><span data-stu-id="c7085-103">ExtendedKeyUsage Properties</span></span>
+# <a name="extendedkeyusage-properties"></a><span data-ttu-id="3056e-103">ExtendedKeyUsage 屬性</span><span class="sxs-lookup"><span data-stu-id="3056e-103">ExtendedKeyUsage Properties</span></span>
 
-<span data-ttu-id="c7085-104">[**ExtendedKeyUsage**](extendedkeyusage.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="c7085-104">The [**ExtendedKeyUsage**](extendedkeyusage.md) object exposes the following properties.</span></span>
+<span data-ttu-id="3056e-104">[**ExtendedKeyUsage**](extendedkeyusage.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="3056e-104">The [**ExtendedKeyUsage**](extendedkeyusage.md) object exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="c7085-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c7085-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3056e-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="3056e-105">In this section</span></span>
 
--   [<span data-ttu-id="c7085-106">**Eku 屬性**</span><span class="sxs-lookup"><span data-stu-id="c7085-106">**EKUs Property**</span></span>](extendedkeyusage-ekus.md)
--   [<span data-ttu-id="c7085-107">**IsCritical 屬性**</span><span class="sxs-lookup"><span data-stu-id="c7085-107">**IsCritical Property**</span></span>](extendedkeyusage-iscritical.md)
--   [<span data-ttu-id="c7085-108">**IsPresent 屬性**</span><span class="sxs-lookup"><span data-stu-id="c7085-108">**IsPresent Property**</span></span>](extendedkeyusage-ispresent.md)
+-   [<span data-ttu-id="3056e-106">**Eku 屬性**</span><span class="sxs-lookup"><span data-stu-id="3056e-106">**EKUs Property**</span></span>](extendedkeyusage-ekus.md)
+-   [<span data-ttu-id="3056e-107">**IsCritical 屬性**</span><span class="sxs-lookup"><span data-stu-id="3056e-107">**IsCritical Property**</span></span>](extendedkeyusage-iscritical.md)
+-   [<span data-ttu-id="3056e-108">**IsPresent 屬性**</span><span class="sxs-lookup"><span data-stu-id="3056e-108">**IsPresent Property**</span></span>](extendedkeyusage-ispresent.md)
 
  
 

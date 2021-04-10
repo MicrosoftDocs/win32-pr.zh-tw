@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851507"
 ---
-# <a name="sens-reference"></a><span data-ttu-id="8df76-103">SENS 參考</span><span class="sxs-lookup"><span data-stu-id="8df76-103">SENS Reference</span></span>
+# <a name="sens-reference"></a><span data-ttu-id="134a1-103">SENS 參考</span><span class="sxs-lookup"><span data-stu-id="134a1-103">SENS Reference</span></span>
 
-<span data-ttu-id="8df76-104">下列清單會識別系統事件通知服務 (SENS) 的方法：</span><span class="sxs-lookup"><span data-stu-id="8df76-104">The following list identifies the methods for the System Event Notification Service (SENS):</span></span>
+<span data-ttu-id="134a1-104">下列清單會識別系統事件通知服務 (SENS) 的方法：</span><span class="sxs-lookup"><span data-stu-id="134a1-104">The following list identifies the methods for the System Event Notification Service (SENS):</span></span>
 
--   [<span data-ttu-id="8df76-105">**IsDestinationReachable**</span><span class="sxs-lookup"><span data-stu-id="8df76-105">**IsDestinationReachable**</span></span>](/windows/desktop/api/Sensapi/nf-sensapi-isdestinationreachablea)
--   [<span data-ttu-id="8df76-106">**IsNetworkAlive**</span><span class="sxs-lookup"><span data-stu-id="8df76-106">**IsNetworkAlive**</span></span>](/windows/desktop/api/Sensapi/nf-sensapi-isnetworkalive)
+-   [<span data-ttu-id="134a1-105">**IsDestinationReachable**</span><span class="sxs-lookup"><span data-stu-id="134a1-105">**IsDestinationReachable**</span></span>](/windows/desktop/api/Sensapi/nf-sensapi-isdestinationreachablea)
+-   [<span data-ttu-id="134a1-106">**IsNetworkAlive**</span><span class="sxs-lookup"><span data-stu-id="134a1-106">**IsNetworkAlive**</span></span>](/windows/desktop/api/Sensapi/nf-sensapi-isnetworkalive)
 
-<span data-ttu-id="8df76-107">[SENS 物件](sens-object.md)支援下列介面：</span><span class="sxs-lookup"><span data-stu-id="8df76-107">The [SENS object](sens-object.md) supports the following interfaces:</span></span>
+<span data-ttu-id="134a1-107">[SENS 物件](sens-object.md)支援下列介面：</span><span class="sxs-lookup"><span data-stu-id="134a1-107">The [SENS object](sens-object.md) supports the following interfaces:</span></span>
 
--   [<span data-ttu-id="8df76-108">**ISensLogon**</span><span class="sxs-lookup"><span data-stu-id="8df76-108">**ISensLogon**</span></span>](/windows/desktop/api/Sensevts/nn-sensevts-isenslogon)
--   [<span data-ttu-id="8df76-109">**ISensLogon2**</span><span class="sxs-lookup"><span data-stu-id="8df76-109">**ISensLogon2**</span></span>](/windows/desktop/api/Sensevts/nn-sensevts-isenslogon2)
--   [<span data-ttu-id="8df76-110">**ISensNetwork**</span><span class="sxs-lookup"><span data-stu-id="8df76-110">**ISensNetwork**</span></span>](/windows/desktop/api/Sensevts/nn-sensevts-isensnetwork)
--   [<span data-ttu-id="8df76-111">**ISensOnNow**</span><span class="sxs-lookup"><span data-stu-id="8df76-111">**ISensOnNow**</span></span>](/windows/desktop/api/Sensevts/nn-sensevts-isensonnow)
+-   [<span data-ttu-id="134a1-108">**ISensLogon**</span><span class="sxs-lookup"><span data-stu-id="134a1-108">**ISensLogon**</span></span>](/windows/desktop/api/Sensevts/nn-sensevts-isenslogon)
+-   [<span data-ttu-id="134a1-109">**ISensLogon2**</span><span class="sxs-lookup"><span data-stu-id="134a1-109">**ISensLogon2**</span></span>](/windows/desktop/api/Sensevts/nn-sensevts-isenslogon2)
+-   [<span data-ttu-id="134a1-110">**ISensNetwork**</span><span class="sxs-lookup"><span data-stu-id="134a1-110">**ISensNetwork**</span></span>](/windows/desktop/api/Sensevts/nn-sensevts-isensnetwork)
+-   [<span data-ttu-id="134a1-111">**ISensOnNow**</span><span class="sxs-lookup"><span data-stu-id="134a1-111">**ISensOnNow**</span></span>](/windows/desktop/api/Sensevts/nn-sensevts-isensonnow)
 
  
 

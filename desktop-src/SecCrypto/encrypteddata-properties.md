@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694211"
 ---
-# <a name="encrypteddata-properties"></a><span data-ttu-id="6f7d3-103">A 屬性</span><span class="sxs-lookup"><span data-stu-id="6f7d3-103">EncryptedData Properties</span></span>
+# <a name="encrypteddata-properties"></a><span data-ttu-id="44d4f-103">A 屬性</span><span class="sxs-lookup"><span data-stu-id="44d4f-103">EncryptedData Properties</span></span>
 
-<span data-ttu-id="6f7d3-104">[**A**](encrypteddata.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="6f7d3-104">The [**EncryptedData**](encrypteddata.md) object exposes the following properties.</span></span>
+<span data-ttu-id="44d4f-104">[**A**](encrypteddata.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="44d4f-104">The [**EncryptedData**](encrypteddata.md) object exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="6f7d3-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="6f7d3-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="44d4f-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="44d4f-105">In this section</span></span>
 
--   [<span data-ttu-id="6f7d3-106">**演算法屬性**</span><span class="sxs-lookup"><span data-stu-id="6f7d3-106">**Algorithm Property**</span></span>](encrypteddata-algorithm.md)
--   [<span data-ttu-id="6f7d3-107">**Content 屬性**</span><span class="sxs-lookup"><span data-stu-id="6f7d3-107">**Content Property**</span></span>](encrypteddata-content.md)
+-   [<span data-ttu-id="44d4f-106">**演算法屬性**</span><span class="sxs-lookup"><span data-stu-id="44d4f-106">**Algorithm Property**</span></span>](encrypteddata-algorithm.md)
+-   [<span data-ttu-id="44d4f-107">**Content 屬性**</span><span class="sxs-lookup"><span data-stu-id="44d4f-107">**Content Property**</span></span>](encrypteddata-content.md)
 
  
 

@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850879"
 ---
-# <a name="iazroleassignment-methods"></a><span data-ttu-id="64bda-103">IAzRoleAssignment 方法</span><span class="sxs-lookup"><span data-stu-id="64bda-103">IAzRoleAssignment Methods</span></span>
+# <a name="iazroleassignment-methods"></a><span data-ttu-id="2aa18-103">IAzRoleAssignment 方法</span><span class="sxs-lookup"><span data-stu-id="2aa18-103">IAzRoleAssignment Methods</span></span>
 
-<span data-ttu-id="64bda-104">[**IAzRoleAssignment**](/windows/desktop/api/Azroles/nn-azroles-iazroleassignment)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="64bda-104">The [**IAzRoleAssignment**](/windows/desktop/api/Azroles/nn-azroles-iazroleassignment) interface exposes the following methods.</span></span>
+<span data-ttu-id="2aa18-104">[**IAzRoleAssignment**](/windows/desktop/api/Azroles/nn-azroles-iazroleassignment)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="2aa18-104">The [**IAzRoleAssignment**](/windows/desktop/api/Azroles/nn-azroles-iazroleassignment) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="64bda-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="64bda-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2aa18-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="2aa18-105">In this section</span></span>
 
--   [<span data-ttu-id="64bda-106">**AddRoleDefinition 方法**</span><span class="sxs-lookup"><span data-stu-id="64bda-106">**AddRoleDefinition Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignment-addroledefinition)
--   [<span data-ttu-id="64bda-107">**DeleteRoleDefinition 方法**</span><span class="sxs-lookup"><span data-stu-id="64bda-107">**DeleteRoleDefinition Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignment-deleteroledefinition)
+-   [<span data-ttu-id="2aa18-106">**AddRoleDefinition 方法**</span><span class="sxs-lookup"><span data-stu-id="2aa18-106">**AddRoleDefinition Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignment-addroledefinition)
+-   [<span data-ttu-id="2aa18-107">**DeleteRoleDefinition 方法**</span><span class="sxs-lookup"><span data-stu-id="2aa18-107">**DeleteRoleDefinition Method**</span></span>](/windows/desktop/api/Azroles/nf-azroles-iazroleassignment-deleteroledefinition)
 
  
 
