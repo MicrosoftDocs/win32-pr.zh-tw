@@ -11,32 +11,32 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2020
 ms.locfileid: "103933730"
 ---
-# <a name="how-to-create-a-multiline-edit-control"></a><span data-ttu-id="7385a-103">如何建立多行編輯控制項</span><span class="sxs-lookup"><span data-stu-id="7385a-103">How to Create a Multiline Edit Control</span></span>
+# <a name="how-to-create-a-multiline-edit-control"></a><span data-ttu-id="42c80-103">如何建立多行編輯控制項</span><span class="sxs-lookup"><span data-stu-id="42c80-103">How to Create a Multiline Edit Control</span></span>
 
-<span data-ttu-id="7385a-104">本主題將示範如何藉由將多行編輯控制項新增至視窗的工作區，來執行簡單的單字處理器。</span><span class="sxs-lookup"><span data-stu-id="7385a-104">This topic demonstrates how to implement a simple word processor by adding a multiline edit control to the client area of a window.</span></span> <span data-ttu-id="7385a-105">藉由使用多行編輯控制項，使用者可以從功能表選取 [編輯命令]。</span><span class="sxs-lookup"><span data-stu-id="7385a-105">By using the multiline edit control, the user can select edit commands from a menu.</span></span> <span data-ttu-id="7385a-106">這些命令可讓使用者執行簡單的編輯作業，例如復原先前的動作、剪下或複製剪貼簿的選取專案、貼上剪貼簿中的文字，以及刪除目前的選取專案。</span><span class="sxs-lookup"><span data-stu-id="7385a-106">These commands enable the user to perform simple editing operations such as undo a previous action, cut or copy selections to the clipboard, paste text from the clipboard, and delete the current selection.</span></span>
+<span data-ttu-id="42c80-104">本主題將示範如何藉由將多行編輯控制項新增至視窗的工作區，來執行簡單的單字處理器。</span><span class="sxs-lookup"><span data-stu-id="42c80-104">This topic demonstrates how to implement a simple word processor by adding a multiline edit control to the client area of a window.</span></span> <span data-ttu-id="42c80-105">藉由使用多行編輯控制項，使用者可以從功能表選取 [編輯命令]。</span><span class="sxs-lookup"><span data-stu-id="42c80-105">By using the multiline edit control, the user can select edit commands from a menu.</span></span> <span data-ttu-id="42c80-106">這些命令可讓使用者執行簡單的編輯作業，例如復原先前的動作、剪下或複製剪貼簿的選取專案、貼上剪貼簿中的文字，以及刪除目前的選取專案。</span><span class="sxs-lookup"><span data-stu-id="42c80-106">These commands enable the user to perform simple editing operations such as undo a previous action, cut or copy selections to the clipboard, paste text from the clipboard, and delete the current selection.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="7385a-107">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="7385a-107">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="42c80-107">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="42c80-107">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="7385a-108">技術</span><span class="sxs-lookup"><span data-stu-id="7385a-108">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="42c80-108">技術</span><span class="sxs-lookup"><span data-stu-id="42c80-108">Technologies</span></span>
 
--   [<span data-ttu-id="7385a-109">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="7385a-109">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="42c80-109">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="42c80-109">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="7385a-110">必要條件</span><span class="sxs-lookup"><span data-stu-id="7385a-110">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="42c80-110">必要條件</span><span class="sxs-lookup"><span data-stu-id="42c80-110">Prerequisites</span></span>
 
--   <span data-ttu-id="7385a-111">C/C++</span><span class="sxs-lookup"><span data-stu-id="7385a-111">C/C++</span></span>
--   <span data-ttu-id="7385a-112">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="7385a-112">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="42c80-111">C/C++</span><span class="sxs-lookup"><span data-stu-id="42c80-111">C/C++</span></span>
+-   <span data-ttu-id="42c80-112">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="42c80-112">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="7385a-113">指示</span><span class="sxs-lookup"><span data-stu-id="7385a-113">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="42c80-113">指示</span><span class="sxs-lookup"><span data-stu-id="42c80-113">Instructions</span></span>
 
 
-<span data-ttu-id="7385a-114">您的應用程式必須包含程式碼，以建立的實例，並初始化多行編輯控制項，然後處理使用者編輯命令。</span><span class="sxs-lookup"><span data-stu-id="7385a-114">Your application must include code to create an instance of and initialize a multiline edit control and then process user edit commands.</span></span>
+<span data-ttu-id="42c80-114">您的應用程式必須包含程式碼，以建立的實例，並初始化多行編輯控制項，然後處理使用者編輯命令。</span><span class="sxs-lookup"><span data-stu-id="42c80-114">Your application must include code to create an instance of and initialize a multiline edit control and then process user edit commands.</span></span>
 
-<span data-ttu-id="7385a-115">下列 c + + 程式碼範例會藉由將多行編輯控制項新增至視窗的工作區，來實作為簡單字處理器的大部分功能。</span><span class="sxs-lookup"><span data-stu-id="7385a-115">The following C++ code example implements much of the functionality of a simple word processor by adding a multiline edit control to the client area of a window.</span></span> <span data-ttu-id="7385a-116">系統會自動執行編輯控制項的 wordwrap 作業，也會處理垂直捲動條的處理， (藉由在) 的 [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa)函式呼叫中指定 [**ES \_ AUTOVSCROLL**](edit-control-styles.md)來建立。</span><span class="sxs-lookup"><span data-stu-id="7385a-116">The system automatically performs wordwrap operations for the edit control and also handles the processing for the vertical scroll bar (created by specifying [**ES\_AUTOVSCROLL**](edit-control-styles.md) in the call to the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function).</span></span>
+<span data-ttu-id="42c80-115">下列 c + + 程式碼範例會藉由將多行編輯控制項新增至視窗的工作區，來實作為簡單字處理器的大部分功能。</span><span class="sxs-lookup"><span data-stu-id="42c80-115">The following C++ code example implements much of the functionality of a simple word processor by adding a multiline edit control to the client area of a window.</span></span> <span data-ttu-id="42c80-116">系統會自動執行編輯控制項的 wordwrap 作業，也會處理垂直捲動條的處理， (藉由在) 的 [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa)函式呼叫中指定 [**ES \_ AUTOVSCROLL**](edit-control-styles.md)來建立。</span><span class="sxs-lookup"><span data-stu-id="42c80-116">The system automatically performs wordwrap operations for the edit control and also handles the processing for the vertical scroll bar (created by specifying [**ES\_AUTOVSCROLL**](edit-control-styles.md) in the call to the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function).</span></span>
 
-<span data-ttu-id="7385a-117">使用者編輯命令會透過 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 通知訊息傳送至視窗進程。</span><span class="sxs-lookup"><span data-stu-id="7385a-117">User edit commands are sent to the window process via [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) notification messages.</span></span>
+<span data-ttu-id="42c80-117">使用者編輯命令會透過 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 通知訊息傳送至視窗進程。</span><span class="sxs-lookup"><span data-stu-id="42c80-117">User edit commands are sent to the window process via [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) notification messages.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="7385a-118">如果視窗包含 Windows 功能區，則必須調整編輯控制項的大小，以容納功能區的高度。</span><span class="sxs-lookup"><span data-stu-id="7385a-118">If the window includes the Windows Ribbon, the size of the edit control must be adjusted to accommodate the height of the Ribbon.</span></span> <span data-ttu-id="7385a-119">如需詳細資訊，請參閱 [Windows 功能區架構](/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry)。</span><span class="sxs-lookup"><span data-stu-id="7385a-119">For more information, see [Windows Ribbon Framework](/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry).</span></span>
+> <span data-ttu-id="42c80-118">如果視窗包含 Windows 功能區，則必須調整編輯控制項的大小，以容納功能區的高度。</span><span class="sxs-lookup"><span data-stu-id="42c80-118">If the window includes the Windows Ribbon, the size of the edit control must be adjusted to accommodate the height of the Ribbon.</span></span> <span data-ttu-id="42c80-119">如需詳細資訊，請參閱 [Windows 功能區架構](/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry)。</span><span class="sxs-lookup"><span data-stu-id="42c80-119">For more information, see [Windows Ribbon Framework](/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry).</span></span>
 
  
 
@@ -156,20 +156,20 @@ LRESULT CALLBACK MainWndProc(HWND hwnd,      // window handle
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="7385a-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="7385a-120">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="42c80-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="42c80-120">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7385a-121">關於編輯控制項</span><span class="sxs-lookup"><span data-stu-id="7385a-121">About Edit Controls</span></span>](about-edit-controls.md)
+[<span data-ttu-id="42c80-121">關於編輯控制項</span><span class="sxs-lookup"><span data-stu-id="42c80-121">About Edit Controls</span></span>](about-edit-controls.md)
 </dt> <dt>
 
-[<span data-ttu-id="7385a-122">編輯控制項參考</span><span class="sxs-lookup"><span data-stu-id="7385a-122">Edit Control Reference</span></span>](bumper-edit-control-edit-control-reference.md)
+[<span data-ttu-id="42c80-122">編輯控制項參考</span><span class="sxs-lookup"><span data-stu-id="42c80-122">Edit Control Reference</span></span>](bumper-edit-control-edit-control-reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="7385a-123">使用編輯控制項</span><span class="sxs-lookup"><span data-stu-id="7385a-123">Using Edit Controls</span></span>](/windows/desktop/Controls/using-edit-controls)
+[<span data-ttu-id="42c80-123">使用編輯控制項</span><span class="sxs-lookup"><span data-stu-id="42c80-123">Using Edit Controls</span></span>](/windows/desktop/Controls/using-edit-controls)
 </dt> <dt>
 
-[<span data-ttu-id="7385a-124">編輯控制項</span><span class="sxs-lookup"><span data-stu-id="7385a-124">Edit Control</span></span>](edit-controls.md)
+[<span data-ttu-id="42c80-124">編輯控制項</span><span class="sxs-lookup"><span data-stu-id="42c80-124">Edit Control</span></span>](edit-controls.md)
 </dt> </dl>
 
  

@@ -11,33 +11,33 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "104024143"
 ---
-# <a name="how-to-create-status-bars"></a><span data-ttu-id="d1bca-103">如何建立狀態列</span><span class="sxs-lookup"><span data-stu-id="d1bca-103">How to Create Status Bars</span></span>
+# <a name="how-to-create-status-bars"></a><span data-ttu-id="f5ff4-103">如何建立狀態列</span><span class="sxs-lookup"><span data-stu-id="f5ff4-103">How to Create Status Bars</span></span>
 
-<span data-ttu-id="d1bca-104">您可以使用 [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) 函數，或使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函式並指定 [**STATUSCLASSNAME**](common-control-window-classes.md) 視窗類別，來建立狀態列。</span><span class="sxs-lookup"><span data-stu-id="d1bca-104">You can create a status bar by using the [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) function or by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying the [**STATUSCLASSNAME**](common-control-window-classes.md) window class.</span></span>
+<span data-ttu-id="f5ff4-104">您可以使用 [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) 函數，或使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函式並指定 [**STATUSCLASSNAME**](common-control-window-classes.md) 視窗類別，來建立狀態列。</span><span class="sxs-lookup"><span data-stu-id="f5ff4-104">You can create a status bar by using the [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) function or by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying the [**STATUSCLASSNAME**](common-control-window-classes.md) window class.</span></span>
 
-<span data-ttu-id="d1bca-105">建立狀態列之後，您可以將它分割成各元件、設定每個元件的文字，以及使用狀態列訊息控制視窗的外觀。</span><span class="sxs-lookup"><span data-stu-id="d1bca-105">After you create the status bar, you can divide it into parts, set the text for each part, and control the appearance of the window by using status bar messages.</span></span>
+<span data-ttu-id="f5ff4-105">建立狀態列之後，您可以將它分割成各元件、設定每個元件的文字，以及使用狀態列訊息控制視窗的外觀。</span><span class="sxs-lookup"><span data-stu-id="f5ff4-105">After you create the status bar, you can divide it into parts, set the text for each part, and control the appearance of the window by using status bar messages.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="d1bca-106">若要確定已載入通用控制項 DLL，請先使用 [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) 函式。</span><span class="sxs-lookup"><span data-stu-id="d1bca-106">To ensure that the common control DLL is loaded, use the [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) function first.</span></span>
+> <span data-ttu-id="f5ff4-106">若要確定已載入通用控制項 DLL，請先使用 [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) 函式。</span><span class="sxs-lookup"><span data-stu-id="f5ff4-106">To ensure that the common control DLL is loaded, use the [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) function first.</span></span>
 
  
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="d1bca-107">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="d1bca-107">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="f5ff4-107">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="f5ff4-107">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="d1bca-108">技術</span><span class="sxs-lookup"><span data-stu-id="d1bca-108">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="f5ff4-108">技術</span><span class="sxs-lookup"><span data-stu-id="f5ff4-108">Technologies</span></span>
 
--   [<span data-ttu-id="d1bca-109">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="d1bca-109">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="f5ff4-109">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="f5ff4-109">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="d1bca-110">必要條件</span><span class="sxs-lookup"><span data-stu-id="d1bca-110">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="f5ff4-110">必要條件</span><span class="sxs-lookup"><span data-stu-id="f5ff4-110">Prerequisites</span></span>
 
--   <span data-ttu-id="d1bca-111">C/C++</span><span class="sxs-lookup"><span data-stu-id="d1bca-111">C/C++</span></span>
--   <span data-ttu-id="d1bca-112">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="d1bca-112">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="f5ff4-111">C/C++</span><span class="sxs-lookup"><span data-stu-id="f5ff4-111">C/C++</span></span>
+-   <span data-ttu-id="f5ff4-112">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="f5ff4-112">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="d1bca-113">指示</span><span class="sxs-lookup"><span data-stu-id="d1bca-113">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="f5ff4-113">指示</span><span class="sxs-lookup"><span data-stu-id="f5ff4-113">Instructions</span></span>
 
-### <a name="create-a-status-bar"></a><span data-ttu-id="d1bca-114">建立狀態列</span><span class="sxs-lookup"><span data-stu-id="d1bca-114">Create a Status Bar</span></span>
+### <a name="create-a-status-bar"></a><span data-ttu-id="f5ff4-114">建立狀態列</span><span class="sxs-lookup"><span data-stu-id="f5ff4-114">Create a Status Bar</span></span>
 
-<span data-ttu-id="d1bca-115">下列範例示範如何建立具有調整大小底框的狀態列，並根據父視窗工作區的寬度，將視窗分割成四個相等的部分。</span><span class="sxs-lookup"><span data-stu-id="d1bca-115">The following example demonstrates how to create a status bar that has a sizing grip and divide the window into four equal parts based on the width of the parent window's client area.</span></span>
+<span data-ttu-id="f5ff4-115">下列範例示範如何建立具有調整大小底框的狀態列，並根據父視窗工作區的寬度，將視窗分割成四個相等的部分。</span><span class="sxs-lookup"><span data-stu-id="f5ff4-115">The following example demonstrates how to create a status bar that has a sizing grip and divide the window into four equal parts based on the width of the parent window's client area.</span></span>
 
 
 ```C++
@@ -105,14 +105,14 @@ HWND DoCreateStatusBar(HWND hwndParent, int idStatus, HINSTANCE
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="d1bca-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="d1bca-116">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="f5ff4-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="f5ff4-116">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d1bca-117">使用狀態列</span><span class="sxs-lookup"><span data-stu-id="d1bca-117">Using Status Bars</span></span>](using-status-bars.md)
+[<span data-ttu-id="f5ff4-117">使用狀態列</span><span class="sxs-lookup"><span data-stu-id="f5ff4-117">Using Status Bars</span></span>](using-status-bars.md)
 </dt> <dt>
 
-<span data-ttu-id="d1bca-118">[Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span><span class="sxs-lookup"><span data-stu-id="d1bca-118">[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span></span>
+<span data-ttu-id="f5ff4-118">[Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span><span class="sxs-lookup"><span data-stu-id="f5ff4-118">[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span></span>
 </dt> </dl>
 
  

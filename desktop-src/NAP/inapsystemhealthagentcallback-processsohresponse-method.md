@@ -23,16 +23,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934516"
 ---
-# <a name="inapsystemhealthagentcallbackprocesssohresponse-method"></a><span data-ttu-id="ff249-106">INapSystemHealthAgentCallback：:P rocessSoHResponse 方法</span><span class="sxs-lookup"><span data-stu-id="ff249-106">INapSystemHealthAgentCallback::ProcessSoHResponse method</span></span>
+# <a name="inapsystemhealthagentcallbackprocesssohresponse-method"></a><span data-ttu-id="ca551-106">INapSystemHealthAgentCallback：:P rocessSoHResponse 方法</span><span class="sxs-lookup"><span data-stu-id="ca551-106">INapSystemHealthAgentCallback::ProcessSoHResponse method</span></span>
 
 > [!Note]  
-> <span data-ttu-id="ff249-107">從 Windows 10 開始，無法使用網路存取保護平臺</span><span class="sxs-lookup"><span data-stu-id="ff249-107">The Network Access Protection platform is not available starting with Windows 10</span></span>
+> <span data-ttu-id="ca551-107">從 Windows 10 開始，無法使用網路存取保護平臺</span><span class="sxs-lookup"><span data-stu-id="ca551-107">The Network Access Protection platform is not available starting with Windows 10</span></span>
 
  
 
-<span data-ttu-id="ff249-108">**INapSystemHealthAgentCallback：:P rocesssohresponse** 方法會在 NapAgent 收到以這個健康情況代理程式為目標的 [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh)時呼叫。</span><span class="sxs-lookup"><span data-stu-id="ff249-108">The **INapSystemHealthAgentCallback::ProcessSoHResponse** method is called when the NapAgent receives an [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) destined for this health agent.</span></span>
+<span data-ttu-id="ca551-108">**INapSystemHealthAgentCallback：:P rocesssohresponse** 方法會在 NapAgent 收到以這個健康情況代理程式為目標的 [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh)時呼叫。</span><span class="sxs-lookup"><span data-stu-id="ca551-108">The **INapSystemHealthAgentCallback::ProcessSoHResponse** method is called when the NapAgent receives an [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) destined for this health agent.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ff249-109">語法</span><span class="sxs-lookup"><span data-stu-id="ff249-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ca551-109">語法</span><span class="sxs-lookup"><span data-stu-id="ca551-109">Syntax</span></span>
 
 
 ```C++
@@ -43,60 +43,60 @@ HRESULT ProcessSoHResponse(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="ff249-110">參數</span><span class="sxs-lookup"><span data-stu-id="ff249-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ca551-110">參數</span><span class="sxs-lookup"><span data-stu-id="ca551-110">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="ff249-111">*要求* \[在\]</span><span class="sxs-lookup"><span data-stu-id="ff249-111">*request* \[in\]</span></span>
+<span data-ttu-id="ca551-111">*要求* \[在\]</span><span class="sxs-lookup"><span data-stu-id="ca551-111">*request* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="ff249-112">識別要求物件之 [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md) 物件的 COM 指標。</span><span class="sxs-lookup"><span data-stu-id="ff249-112">A COM pointer to a [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md) object that identifies the request object.</span></span>
+<span data-ttu-id="ca551-112">識別要求物件之 [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md) 物件的 COM 指標。</span><span class="sxs-lookup"><span data-stu-id="ca551-112">A COM pointer to a [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md) object that identifies the request object.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="ff249-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="ff249-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ca551-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="ca551-113">Return value</span></span>
 
-<span data-ttu-id="ff249-114">這個方法可以傳回其中一個值。</span><span class="sxs-lookup"><span data-stu-id="ff249-114">This method can return one of these values.</span></span>
+<span data-ttu-id="ca551-114">這個方法可以傳回其中一個值。</span><span class="sxs-lookup"><span data-stu-id="ca551-114">This method can return one of these values.</span></span>
 
 
 
-| <span data-ttu-id="ff249-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="ff249-115">Return code</span></span>                                                                                            | <span data-ttu-id="ff249-116">Description</span><span class="sxs-lookup"><span data-stu-id="ff249-116">Description</span></span>                                                                              |
+| <span data-ttu-id="ca551-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="ca551-115">Return code</span></span>                                                                                            | <span data-ttu-id="ca551-116">Description</span><span class="sxs-lookup"><span data-stu-id="ca551-116">Description</span></span>                                                                              |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| <dl> <span data-ttu-id="ff249-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="ff249-117"><dt>**S\_OK**</dt></span></span> </dl>                   | <span data-ttu-id="ff249-118">表示成功。</span><span class="sxs-lookup"><span data-stu-id="ff249-118">Indicates success.</span></span><br/>                                                            |
-| <dl> <span data-ttu-id="ff249-119"><dt>**NAP \_ E \_ 不正確封 \_ 包**</dt></span><span class="sxs-lookup"><span data-stu-id="ff249-119"><dt>**NAP\_E\_INVALID\_PACKET**</dt></span></span> </dl> | <span data-ttu-id="ff249-120">如果回應的格式不正確，則會傳回此實作為。</span><span class="sxs-lookup"><span data-stu-id="ff249-120">Returned by this implementation if the response is not in the correct format.</span></span><br/> |
+| <dl> <span data-ttu-id="ca551-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="ca551-117"><dt>**S\_OK**</dt></span></span> </dl>                   | <span data-ttu-id="ca551-118">表示成功。</span><span class="sxs-lookup"><span data-stu-id="ca551-118">Indicates success.</span></span><br/>                                                            |
+| <dl> <span data-ttu-id="ca551-119"><dt>**NAP \_ E \_ 不正確封 \_ 包**</dt></span><span class="sxs-lookup"><span data-stu-id="ca551-119"><dt>**NAP\_E\_INVALID\_PACKET**</dt></span></span> </dl> | <span data-ttu-id="ca551-120">如果回應的格式不正確，則會傳回此實作為。</span><span class="sxs-lookup"><span data-stu-id="ca551-120">Returned by this implementation if the response is not in the correct format.</span></span><br/> |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="ff249-121">備註</span><span class="sxs-lookup"><span data-stu-id="ff249-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ca551-121">備註</span><span class="sxs-lookup"><span data-stu-id="ca551-121">Remarks</span></span>
 
-<span data-ttu-id="ff249-122">此回呼方法是由 NAP 系統所宣告，而且是由 SHA 寫入器所執行。</span><span class="sxs-lookup"><span data-stu-id="ff249-122">This callback method is declared by the NAP system and is to be implemented by the SHA writer.</span></span>
+<span data-ttu-id="ca551-122">此回呼方法是由 NAP 系統所宣告，而且是由 SHA 寫入器所執行。</span><span class="sxs-lookup"><span data-stu-id="ca551-122">This callback method is declared by the NAP system and is to be implemented by the SHA writer.</span></span>
 
-<span data-ttu-id="ff249-123">當 NapAgent 收到以這個健康情況代理程式為目標的 [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) 時，它會叫用這個方法。</span><span class="sxs-lookup"><span data-stu-id="ff249-123">When the NapAgent receives an [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) destined for this health agent, it invokes this method.</span></span> <span data-ttu-id="ff249-124">健康情況代理程式必須從要求物件查詢 SoHResponse。</span><span class="sxs-lookup"><span data-stu-id="ff249-124">The health agent must query the SoHResponse from the request object.</span></span> <span data-ttu-id="ff249-125">一旦完成此呼叫，它就不能保存要求物件的參考。</span><span class="sxs-lookup"><span data-stu-id="ff249-125">It must not hold references to the request object once this call has completed.</span></span>
+<span data-ttu-id="ca551-123">當 NapAgent 收到以這個健康情況代理程式為目標的 [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) 時，它會叫用這個方法。</span><span class="sxs-lookup"><span data-stu-id="ca551-123">When the NapAgent receives an [**SoHResponse**](/windows/win32/api/naptypes/ns-naptypes-soh) destined for this health agent, it invokes this method.</span></span> <span data-ttu-id="ca551-124">健康情況代理程式必須從要求物件查詢 SoHResponse。</span><span class="sxs-lookup"><span data-stu-id="ca551-124">The health agent must query the SoHResponse from the request object.</span></span> <span data-ttu-id="ca551-125">一旦完成此呼叫，它就不能保存要求物件的參考。</span><span class="sxs-lookup"><span data-stu-id="ca551-125">It must not hold references to the request object once this call has completed.</span></span>
 
-<span data-ttu-id="ff249-126">**INapSystemHealthAgentCallback：:P rocesssohresponse** 方法不得封鎖。</span><span class="sxs-lookup"><span data-stu-id="ff249-126">The **INapSystemHealthAgentCallback::ProcessSoHResponse** method must not block.</span></span> <span data-ttu-id="ff249-127">如果需要進行任何修正程式，則任何 **ProcessSoHResponse** 的執行都必須啟動新的執行緒，以執行修正處理。</span><span class="sxs-lookup"><span data-stu-id="ff249-127">If any fix-up processing is required, any implementation of **ProcessSoHResponse** must start a new thread to perform fix-up processing.</span></span> <span data-ttu-id="ff249-128">NapAgent 必須呼叫 [**INapSystemHealthAgentCallBack：： GetFixupInfo**](inapsystemhealthagentcallback-getfixupinfo-method.md) ，以判斷 SHA 的修正狀態。</span><span class="sxs-lookup"><span data-stu-id="ff249-128">The NapAgent must call [**INapSystemHealthAgentCallBack::GetFixupInfo**](inapsystemhealthagentcallback-getfixupinfo-method.md) to determine the fix-up status of the SHA.</span></span>
+<span data-ttu-id="ca551-126">**INapSystemHealthAgentCallback：:P rocesssohresponse** 方法不得封鎖。</span><span class="sxs-lookup"><span data-stu-id="ca551-126">The **INapSystemHealthAgentCallback::ProcessSoHResponse** method must not block.</span></span> <span data-ttu-id="ca551-127">如果需要進行任何修正程式，則任何 **ProcessSoHResponse** 的執行都必須啟動新的執行緒，以執行修正處理。</span><span class="sxs-lookup"><span data-stu-id="ca551-127">If any fix-up processing is required, any implementation of **ProcessSoHResponse** must start a new thread to perform fix-up processing.</span></span> <span data-ttu-id="ca551-128">NapAgent 必須呼叫 [**INapSystemHealthAgentCallBack：： GetFixupInfo**](inapsystemhealthagentcallback-getfixupinfo-method.md) ，以判斷 SHA 的修正狀態。</span><span class="sxs-lookup"><span data-stu-id="ca551-128">The NapAgent must call [**INapSystemHealthAgentCallBack::GetFixupInfo**](inapsystemhealthagentcallback-getfixupinfo-method.md) to determine the fix-up status of the SHA.</span></span>
 
-<span data-ttu-id="ff249-129">如果回應的格式不正確，此方法必須傳回 **NAP \_ E \_ 無效 \_** 的封包。</span><span class="sxs-lookup"><span data-stu-id="ff249-129">This method must return **NAP\_E\_INVALID\_PACKET** if the response is not in the correct format.</span></span>
+<span data-ttu-id="ca551-129">如果回應的格式不正確，此方法必須傳回 **NAP \_ E \_ 無效 \_** 的封包。</span><span class="sxs-lookup"><span data-stu-id="ca551-129">This method must return **NAP\_E\_INVALID\_PACKET** if the response is not in the correct format.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="ff249-130">規格需求</span><span class="sxs-lookup"><span data-stu-id="ff249-130">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ca551-130">規格需求</span><span class="sxs-lookup"><span data-stu-id="ca551-130">Requirements</span></span>
 
 
 
-| <span data-ttu-id="ff249-131">需求</span><span class="sxs-lookup"><span data-stu-id="ff249-131">Requirement</span></span> | <span data-ttu-id="ff249-132">值</span><span class="sxs-lookup"><span data-stu-id="ff249-132">Value</span></span> |
+| <span data-ttu-id="ca551-131">需求</span><span class="sxs-lookup"><span data-stu-id="ca551-131">Requirement</span></span> | <span data-ttu-id="ca551-132">值</span><span class="sxs-lookup"><span data-stu-id="ca551-132">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="ff249-133">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ff249-133">Minimum supported client</span></span><br/> | <span data-ttu-id="ff249-134">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ff249-134">Windows Vista \[desktop apps only\]</span></span><br/>                                                      |
-| <span data-ttu-id="ff249-135">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ff249-135">Minimum supported server</span></span><br/> | <span data-ttu-id="ff249-136">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ff249-136">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                |
-| <span data-ttu-id="ff249-137">標頭</span><span class="sxs-lookup"><span data-stu-id="ff249-137">Header</span></span><br/>                   | <dl> <span data-ttu-id="ff249-138"><dt>NapSystemHealthAgent。h</dt></span><span class="sxs-lookup"><span data-stu-id="ff249-138"><dt>NapSystemHealthAgent.h</dt></span></span> </dl>   |
-| <span data-ttu-id="ff249-139">Idl</span><span class="sxs-lookup"><span data-stu-id="ff249-139">IDL</span></span><br/>                      | <dl> <span data-ttu-id="ff249-140"><dt>NapSystemHealthAgent .idl</dt></span><span class="sxs-lookup"><span data-stu-id="ff249-140"><dt>NapSystemHealthAgent.idl</dt></span></span> </dl> |
+| <span data-ttu-id="ca551-133">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ca551-133">Minimum supported client</span></span><br/> | <span data-ttu-id="ca551-134">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ca551-134">Windows Vista \[desktop apps only\]</span></span><br/>                                                      |
+| <span data-ttu-id="ca551-135">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ca551-135">Minimum supported server</span></span><br/> | <span data-ttu-id="ca551-136">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ca551-136">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                |
+| <span data-ttu-id="ca551-137">標頭</span><span class="sxs-lookup"><span data-stu-id="ca551-137">Header</span></span><br/>                   | <dl> <span data-ttu-id="ca551-138"><dt>NapSystemHealthAgent。h</dt></span><span class="sxs-lookup"><span data-stu-id="ca551-138"><dt>NapSystemHealthAgent.h</dt></span></span> </dl>   |
+| <span data-ttu-id="ca551-139">Idl</span><span class="sxs-lookup"><span data-stu-id="ca551-139">IDL</span></span><br/>                      | <dl> <span data-ttu-id="ca551-140"><dt>NapSystemHealthAgent .idl</dt></span><span class="sxs-lookup"><span data-stu-id="ca551-140"><dt>NapSystemHealthAgent.idl</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="ff249-141">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ff249-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ca551-141">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ca551-141">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ff249-142">**INapSystemHealthAgentCallback**</span><span class="sxs-lookup"><span data-stu-id="ff249-142">**INapSystemHealthAgentCallback**</span></span>](inapsystemhealthagentcallback.md)
+[<span data-ttu-id="ca551-142">**INapSystemHealthAgentCallback**</span><span class="sxs-lookup"><span data-stu-id="ca551-142">**INapSystemHealthAgentCallback**</span></span>](inapsystemhealthagentcallback.md)
 </dt> </dl>
 
  

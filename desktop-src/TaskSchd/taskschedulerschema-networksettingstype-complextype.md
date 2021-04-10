@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934590"
 ---
-# <a name="networksettingstype-complex-type"></a><span data-ttu-id="e7139-104">networkSettingsType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="e7139-104">networkSettingsType Complex Type</span></span>
+# <a name="networksettingstype-complex-type"></a><span data-ttu-id="5c330-104">networkSettingsType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="5c330-104">networkSettingsType Complex Type</span></span>
 
-<span data-ttu-id="e7139-105">定義元素，這些專案提供工作排程器服務用來取得網路設定檔的設定。</span><span class="sxs-lookup"><span data-stu-id="e7139-105">Defines the elements that provide the settings that the Task Scheduler service uses to obtain a network profile.</span></span>
+<span data-ttu-id="5c330-105">定義元素，這些專案提供工作排程器服務用來取得網路設定檔的設定。</span><span class="sxs-lookup"><span data-stu-id="5c330-105">Defines the elements that provide the settings that the Task Scheduler service uses to obtain a network profile.</span></span>
 
 ``` syntax
 <xs:complexType name="networkSettingsType">
@@ -39,25 +39,25 @@ ms.locfileid: "103934590"
 </xs:complexType>
 ```
 
-## <a name="child-elements"></a><span data-ttu-id="e7139-106">子元素</span><span class="sxs-lookup"><span data-stu-id="e7139-106">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="5c330-106">子元素</span><span class="sxs-lookup"><span data-stu-id="5c330-106">Child elements</span></span>
 
 
 
-| <span data-ttu-id="e7139-107">元素</span><span class="sxs-lookup"><span data-stu-id="e7139-107">Element</span></span>                                                              | <span data-ttu-id="e7139-108">類型</span><span class="sxs-lookup"><span data-stu-id="e7139-108">Type</span></span>                                                        | <span data-ttu-id="e7139-109">Description</span><span class="sxs-lookup"><span data-stu-id="e7139-109">Description</span></span>                                                                                 |
+| <span data-ttu-id="5c330-107">元素</span><span class="sxs-lookup"><span data-stu-id="5c330-107">Element</span></span>                                                              | <span data-ttu-id="5c330-108">類型</span><span class="sxs-lookup"><span data-stu-id="5c330-108">Type</span></span>                                                        | <span data-ttu-id="5c330-109">Description</span><span class="sxs-lookup"><span data-stu-id="5c330-109">Description</span></span>                                                                                 |
 |----------------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="e7139-110">**Id**</span><span class="sxs-lookup"><span data-stu-id="e7139-110">**Id**</span></span>](taskschedulerschema-id-networksettingstype-element.md)     | [<span data-ttu-id="e7139-111">**guidType**</span><span class="sxs-lookup"><span data-stu-id="e7139-111">**guidType**</span></span>](taskschedulerschema-guidtype-simpletype.md) | <span data-ttu-id="e7139-112">指定可識別網路設定檔的 GUID 值。</span><span class="sxs-lookup"><span data-stu-id="e7139-112">Specifies a GUID value that identifies a network profile.</span></span> <br/>                       |
-| [<span data-ttu-id="e7139-113">**Name**</span><span class="sxs-lookup"><span data-stu-id="e7139-113">**Name**</span></span>](taskschedulerschema-name-networksettingstype-element.md) | <span data-ttu-id="e7139-114">nonEmptyString</span><span class="sxs-lookup"><span data-stu-id="e7139-114">nonEmptyString</span></span>                                              | <span data-ttu-id="e7139-115">指定網路設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="e7139-115">Specifies the name of a network profile.</span></span> <span data-ttu-id="e7139-116">此名稱會用於顯示用途。</span><span class="sxs-lookup"><span data-stu-id="e7139-116">The name is used for display purposes.</span></span> <br/> |
+| [<span data-ttu-id="5c330-110">**Id**</span><span class="sxs-lookup"><span data-stu-id="5c330-110">**Id**</span></span>](taskschedulerschema-id-networksettingstype-element.md)     | [<span data-ttu-id="5c330-111">**guidType**</span><span class="sxs-lookup"><span data-stu-id="5c330-111">**guidType**</span></span>](taskschedulerschema-guidtype-simpletype.md) | <span data-ttu-id="5c330-112">指定可識別網路設定檔的 GUID 值。</span><span class="sxs-lookup"><span data-stu-id="5c330-112">Specifies a GUID value that identifies a network profile.</span></span> <br/>                       |
+| [<span data-ttu-id="5c330-113">**Name**</span><span class="sxs-lookup"><span data-stu-id="5c330-113">**Name**</span></span>](taskschedulerschema-name-networksettingstype-element.md) | <span data-ttu-id="5c330-114">nonEmptyString</span><span class="sxs-lookup"><span data-stu-id="5c330-114">nonEmptyString</span></span>                                              | <span data-ttu-id="5c330-115">指定網路設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="5c330-115">Specifies the name of a network profile.</span></span> <span data-ttu-id="5c330-116">此名稱會用於顯示用途。</span><span class="sxs-lookup"><span data-stu-id="5c330-116">The name is used for display purposes.</span></span> <br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="e7139-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="e7139-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5c330-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="5c330-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="e7139-118">需求</span><span class="sxs-lookup"><span data-stu-id="e7139-118">Requirement</span></span> | <span data-ttu-id="e7139-119">值</span><span class="sxs-lookup"><span data-stu-id="e7139-119">Value</span></span> |
+| <span data-ttu-id="5c330-118">需求</span><span class="sxs-lookup"><span data-stu-id="5c330-118">Requirement</span></span> | <span data-ttu-id="5c330-119">值</span><span class="sxs-lookup"><span data-stu-id="5c330-119">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="e7139-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e7139-120">Minimum supported client</span></span><br/> | <span data-ttu-id="e7139-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e7139-121">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="e7139-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e7139-122">Minimum supported server</span></span><br/> | <span data-ttu-id="e7139-123">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e7139-123">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="5c330-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5c330-120">Minimum supported client</span></span><br/> | <span data-ttu-id="5c330-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5c330-121">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="5c330-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5c330-122">Minimum supported server</span></span><br/> | <span data-ttu-id="5c330-123">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5c330-123">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 

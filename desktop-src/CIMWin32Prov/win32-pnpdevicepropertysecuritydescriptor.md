@@ -26,13 +26,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103936505"
 ---
-# <a name="win32_pnpdevicepropertysecuritydescriptor-class"></a><span data-ttu-id="a951c-103">Win32 \_ PnPDevicePropertySecurityDescriptor 類別</span><span class="sxs-lookup"><span data-stu-id="a951c-103">Win32\_PnPDevicePropertySecurityDescriptor class</span></span>
+# <a name="win32_pnpdevicepropertysecuritydescriptor-class"></a><span data-ttu-id="33321-103">Win32 \_ PnPDevicePropertySecurityDescriptor 類別</span><span class="sxs-lookup"><span data-stu-id="33321-103">Win32\_PnPDevicePropertySecurityDescriptor class</span></span>
 
-<span data-ttu-id="a951c-104">表示 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)類型的 PnP 裝置屬性。</span><span class="sxs-lookup"><span data-stu-id="a951c-104">Represents a PnP device property of type [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).</span></span>
+<span data-ttu-id="33321-104">表示 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)類型的 PnP 裝置屬性。</span><span class="sxs-lookup"><span data-stu-id="33321-104">Represents a PnP device property of type [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).</span></span>
 
-<span data-ttu-id="a951c-105">下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="a951c-105">The following syntax is simplified from MOF code and includes all inherited properties.</span></span>
+<span data-ttu-id="33321-105">下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="33321-105">The following syntax is simplified from MOF code and includes all inherited properties.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a951c-106">語法</span><span class="sxs-lookup"><span data-stu-id="a951c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="33321-106">語法</span><span class="sxs-lookup"><span data-stu-id="33321-106">Syntax</span></span>
 
 ``` syntax
 class Win32_PnPDevicePropertySecurityDescriptor : Win32_PnPDeviceProperty
@@ -45,487 +45,487 @@ class Win32_PnPDevicePropertySecurityDescriptor : Win32_PnPDeviceProperty
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="a951c-107">成員</span><span class="sxs-lookup"><span data-stu-id="a951c-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="33321-107">成員</span><span class="sxs-lookup"><span data-stu-id="33321-107">Members</span></span>
 
-<span data-ttu-id="a951c-108">**Win32 \_ PnPDevicePropertySecurityDescriptor** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="a951c-108">The **Win32\_PnPDevicePropertySecurityDescriptor** class has these types of members:</span></span>
+<span data-ttu-id="33321-108">**Win32 \_ PnPDevicePropertySecurityDescriptor** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="33321-108">The **Win32\_PnPDevicePropertySecurityDescriptor** class has these types of members:</span></span>
 
--   [<span data-ttu-id="a951c-109">屬性</span><span class="sxs-lookup"><span data-stu-id="a951c-109">Properties</span></span>](#properties)
+-   [<span data-ttu-id="33321-109">屬性</span><span class="sxs-lookup"><span data-stu-id="33321-109">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="a951c-110">屬性</span><span class="sxs-lookup"><span data-stu-id="a951c-110">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="33321-110">屬性</span><span class="sxs-lookup"><span data-stu-id="33321-110">Properties</span></span>
 
-<span data-ttu-id="a951c-111">**Win32 \_ PnPDevicePropertySecurityDescriptor** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="a951c-111">The **Win32\_PnPDevicePropertySecurityDescriptor** class has these properties.</span></span>
+<span data-ttu-id="33321-111">**Win32 \_ PnPDevicePropertySecurityDescriptor** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="33321-111">The **Win32\_PnPDevicePropertySecurityDescriptor** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a951c-112">**資料**</span><span class="sxs-lookup"><span data-stu-id="a951c-112">**Data**</span></span>
+<span data-ttu-id="33321-112">**資料**</span><span class="sxs-lookup"><span data-stu-id="33321-112">**Data**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="a951c-113">資料類型： **[ **Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)**</span><span class="sxs-lookup"><span data-stu-id="a951c-113">Data type: **[**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)**</span></span>
+<span data-ttu-id="33321-113">資料類型： **[ **Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)**</span><span class="sxs-lookup"><span data-stu-id="33321-113">Data type: **[**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="a951c-114">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="a951c-114">Access type: Read-only</span></span>
+<span data-ttu-id="33321-114">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="33321-114">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="a951c-115">屬性值。</span><span class="sxs-lookup"><span data-stu-id="a951c-115">The property value.</span></span>
+<span data-ttu-id="33321-115">屬性值。</span><span class="sxs-lookup"><span data-stu-id="33321-115">The property value.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a951c-116">**DeviceID**</span><span class="sxs-lookup"><span data-stu-id="a951c-116">**DeviceID**</span></span>
+<span data-ttu-id="33321-116">**DeviceID**</span><span class="sxs-lookup"><span data-stu-id="33321-116">**DeviceID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="a951c-117">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="a951c-117">Data type: **string**</span></span>
+<span data-ttu-id="33321-117">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="33321-117">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="a951c-118">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="a951c-118">Access type: Read-only</span></span>
+<span data-ttu-id="33321-118">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="33321-118">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="a951c-119">識別 PnP 裝置。</span><span class="sxs-lookup"><span data-stu-id="a951c-119">Identifies the PnP device.</span></span>
+<span data-ttu-id="33321-119">識別 PnP 裝置。</span><span class="sxs-lookup"><span data-stu-id="33321-119">Identifies the PnP device.</span></span>
 
-<span data-ttu-id="a951c-120">這個屬性繼承自 [**Win32 \_ PnPDeviceProperty**](win32-pnpdeviceproperty.md)。</span><span class="sxs-lookup"><span data-stu-id="a951c-120">This property is inherited from [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md).</span></span>
+<span data-ttu-id="33321-120">這個屬性繼承自 [**Win32 \_ PnPDeviceProperty**](win32-pnpdeviceproperty.md)。</span><span class="sxs-lookup"><span data-stu-id="33321-120">This property is inherited from [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a951c-121">**金鑰**</span><span class="sxs-lookup"><span data-stu-id="a951c-121">**Key**</span></span>
+<span data-ttu-id="33321-121">**金鑰**</span><span class="sxs-lookup"><span data-stu-id="33321-121">**Key**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="a951c-122">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="a951c-122">Data type: **string**</span></span>
+<span data-ttu-id="33321-122">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="33321-122">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="a951c-123">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="a951c-123">Access type: Read-only</span></span>
+<span data-ttu-id="33321-123">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="33321-123">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="a951c-124">識別 **資料** 屬性之索引鍵 Name-Value 組的值。</span><span class="sxs-lookup"><span data-stu-id="a951c-124">The value of the Key Name-Value pair that identifies the **Data** property.</span></span>
+<span data-ttu-id="33321-124">識別 **資料** 屬性之索引鍵 Name-Value 組的值。</span><span class="sxs-lookup"><span data-stu-id="33321-124">The value of the Key Name-Value pair that identifies the **Data** property.</span></span>
 
-<span data-ttu-id="a951c-125">這個屬性繼承自 [**Win32 \_ PnPDeviceProperty**](win32-pnpdeviceproperty.md)。</span><span class="sxs-lookup"><span data-stu-id="a951c-125">This property is inherited from [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md).</span></span>
+<span data-ttu-id="33321-125">這個屬性繼承自 [**Win32 \_ PnPDeviceProperty**](win32-pnpdeviceproperty.md)。</span><span class="sxs-lookup"><span data-stu-id="33321-125">This property is inherited from [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a951c-126">**KeyName**</span><span class="sxs-lookup"><span data-stu-id="a951c-126">**KeyName**</span></span>
+<span data-ttu-id="33321-126">**KeyName**</span><span class="sxs-lookup"><span data-stu-id="33321-126">**KeyName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="a951c-127">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="a951c-127">Data type: **string**</span></span>
+<span data-ttu-id="33321-127">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="33321-127">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="a951c-128">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="a951c-128">Access type: Read-only</span></span>
+<span data-ttu-id="33321-128">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="33321-128">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="a951c-129">識別 **資料** 屬性之索引鍵 Name-Value 組的名稱。</span><span class="sxs-lookup"><span data-stu-id="a951c-129">The name of the Key Name-Value pair that identifies the **Data** property.</span></span>
+<span data-ttu-id="33321-129">識別 **資料** 屬性之索引鍵 Name-Value 組的名稱。</span><span class="sxs-lookup"><span data-stu-id="33321-129">The name of the Key Name-Value pair that identifies the **Data** property.</span></span>
 
-<span data-ttu-id="a951c-130">這個屬性繼承自 [**Win32 \_ PnPDeviceProperty**](win32-pnpdeviceproperty.md)。</span><span class="sxs-lookup"><span data-stu-id="a951c-130">This property is inherited from [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md).</span></span>
+<span data-ttu-id="33321-130">這個屬性繼承自 [**Win32 \_ PnPDeviceProperty**](win32-pnpdeviceproperty.md)。</span><span class="sxs-lookup"><span data-stu-id="33321-130">This property is inherited from [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a951c-131">**型別**</span><span class="sxs-lookup"><span data-stu-id="a951c-131">**Type**</span></span>
+<span data-ttu-id="33321-131">**型別**</span><span class="sxs-lookup"><span data-stu-id="33321-131">**Type**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="a951c-132">資料類型： **Uint32**</span><span class="sxs-lookup"><span data-stu-id="a951c-132">Data type: **Uint32**</span></span>
+<span data-ttu-id="33321-132">資料類型： **Uint32**</span><span class="sxs-lookup"><span data-stu-id="33321-132">Data type: **Uint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="a951c-133">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="a951c-133">Access type: Read-only</span></span>
+<span data-ttu-id="33321-133">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="33321-133">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="a951c-134">**資料** 屬性的型別。</span><span class="sxs-lookup"><span data-stu-id="a951c-134">The type of the **Data** property.</span></span>
+<span data-ttu-id="33321-134">**資料** 屬性的型別。</span><span class="sxs-lookup"><span data-stu-id="33321-134">The type of the **Data** property.</span></span>
 
-<span data-ttu-id="a951c-135">這個屬性繼承自 [**Win32 \_ PnPDeviceProperty**](win32-pnpdeviceproperty.md)。</span><span class="sxs-lookup"><span data-stu-id="a951c-135">This property is inherited from [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md).</span></span>
+<span data-ttu-id="33321-135">這個屬性繼承自 [**Win32 \_ PnPDeviceProperty**](win32-pnpdeviceproperty.md)。</span><span class="sxs-lookup"><span data-stu-id="33321-135">This property is inherited from [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md).</span></span>
 
-<span data-ttu-id="a951c-136">可能的值為。</span><span class="sxs-lookup"><span data-stu-id="a951c-136">The possible values are.</span></span>
+<span data-ttu-id="33321-136">可能的值為。</span><span class="sxs-lookup"><span data-stu-id="33321-136">The possible values are.</span></span>
 
 <dt>
 
 <span id="Empty"></span><span id="empty"></span><span id="EMPTY"></span>
 
-<span data-ttu-id="a951c-137">**空白** (0) </span><span class="sxs-lookup"><span data-stu-id="a951c-137">**Empty** (0)</span></span>
+<span data-ttu-id="33321-137">**空白** (0) </span><span class="sxs-lookup"><span data-stu-id="33321-137">**Empty** (0)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Null"></span><span id="null"></span><span id="NULL"></span>
 
-<span data-ttu-id="a951c-138">**Null** (1) </span><span class="sxs-lookup"><span data-stu-id="a951c-138">**Null** (1)</span></span>
+<span data-ttu-id="33321-138">**Null** (1) </span><span class="sxs-lookup"><span data-stu-id="33321-138">**Null** (1)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="SByte"></span><span id="sbyte"></span><span id="SBYTE"></span>
 
-<span data-ttu-id="a951c-139">**SByte** (2) </span><span class="sxs-lookup"><span data-stu-id="a951c-139">**SByte** (2)</span></span>
+<span data-ttu-id="33321-139">**SByte** (2) </span><span class="sxs-lookup"><span data-stu-id="33321-139">**SByte** (2)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Byte"></span><span id="byte"></span><span id="BYTE"></span>
 
-<span data-ttu-id="a951c-140">**Byte** (3) </span><span class="sxs-lookup"><span data-stu-id="a951c-140">**Byte** (3)</span></span>
+<span data-ttu-id="33321-140">**Byte** (3) </span><span class="sxs-lookup"><span data-stu-id="33321-140">**Byte** (3)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Int16"></span><span id="int16"></span><span id="INT16"></span>
 
-<span data-ttu-id="a951c-141">**Int16** (4) </span><span class="sxs-lookup"><span data-stu-id="a951c-141">**Int16** (4)</span></span>
+<span data-ttu-id="33321-141">**Int16** (4) </span><span class="sxs-lookup"><span data-stu-id="33321-141">**Int16** (4)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UInt16"></span><span id="uint16"></span><span id="UINT16"></span>
 
-<span data-ttu-id="a951c-142">**UInt16** (5) </span><span class="sxs-lookup"><span data-stu-id="a951c-142">**UInt16** (5)</span></span>
+<span data-ttu-id="33321-142">**UInt16** (5) </span><span class="sxs-lookup"><span data-stu-id="33321-142">**UInt16** (5)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Int32"></span><span id="int32"></span><span id="INT32"></span>
 
-<span data-ttu-id="a951c-143">**Int32** (6) </span><span class="sxs-lookup"><span data-stu-id="a951c-143">**Int32** (6)</span></span>
+<span data-ttu-id="33321-143">**Int32** (6) </span><span class="sxs-lookup"><span data-stu-id="33321-143">**Int32** (6)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Uint32"></span><span id="uint32"></span><span id="UINT32"></span>
 
-<span data-ttu-id="a951c-144">**Uint32** (7) </span><span class="sxs-lookup"><span data-stu-id="a951c-144">**Uint32** (7)</span></span>
+<span data-ttu-id="33321-144">**Uint32** (7) </span><span class="sxs-lookup"><span data-stu-id="33321-144">**Uint32** (7)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Int64"></span><span id="int64"></span><span id="INT64"></span>
 
-<span data-ttu-id="a951c-145">**Int64** (8) </span><span class="sxs-lookup"><span data-stu-id="a951c-145">**Int64** (8)</span></span>
+<span data-ttu-id="33321-145">**Int64** (8) </span><span class="sxs-lookup"><span data-stu-id="33321-145">**Int64** (8)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UInt64"></span><span id="uint64"></span><span id="UINT64"></span>
 
-<span data-ttu-id="a951c-146">**UInt64** (9) </span><span class="sxs-lookup"><span data-stu-id="a951c-146">**UInt64** (9)</span></span>
+<span data-ttu-id="33321-146">**UInt64** (9) </span><span class="sxs-lookup"><span data-stu-id="33321-146">**UInt64** (9)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Float"></span><span id="float"></span><span id="FLOAT"></span>
 
-<span data-ttu-id="a951c-147">**Float** (10) </span><span class="sxs-lookup"><span data-stu-id="a951c-147">**Float** (10)</span></span>
+<span data-ttu-id="33321-147">**Float** (10) </span><span class="sxs-lookup"><span data-stu-id="33321-147">**Float** (10)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Double"></span><span id="double"></span><span id="DOUBLE"></span>
 
-<span data-ttu-id="a951c-148">**Double** (11) </span><span class="sxs-lookup"><span data-stu-id="a951c-148">**Double** (11)</span></span>
+<span data-ttu-id="33321-148">**Double** (11) </span><span class="sxs-lookup"><span data-stu-id="33321-148">**Double** (11)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Decimal"></span><span id="decimal"></span><span id="DECIMAL"></span>
 
-<span data-ttu-id="a951c-149">**Decimal** (12) </span><span class="sxs-lookup"><span data-stu-id="a951c-149">**Decimal** (12)</span></span>
+<span data-ttu-id="33321-149">**Decimal** (12) </span><span class="sxs-lookup"><span data-stu-id="33321-149">**Decimal** (12)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Guid"></span><span id="guid"></span><span id="GUID"></span>
 
-<span data-ttu-id="a951c-150">**Guid** (13) </span><span class="sxs-lookup"><span data-stu-id="a951c-150">**Guid** (13)</span></span>
+<span data-ttu-id="33321-150">**Guid** (13) </span><span class="sxs-lookup"><span data-stu-id="33321-150">**Guid** (13)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Currency"></span><span id="currency"></span><span id="CURRENCY"></span>
 
-<span data-ttu-id="a951c-151">**Currency** (14) </span><span class="sxs-lookup"><span data-stu-id="a951c-151">**Currency** (14)</span></span>
+<span data-ttu-id="33321-151">**Currency** (14) </span><span class="sxs-lookup"><span data-stu-id="33321-151">**Currency** (14)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Date"></span><span id="date"></span><span id="DATE"></span>
 
-<span data-ttu-id="a951c-152">**日期** (15) </span><span class="sxs-lookup"><span data-stu-id="a951c-152">**Date** (15)</span></span>
+<span data-ttu-id="33321-152">**日期** (15) </span><span class="sxs-lookup"><span data-stu-id="33321-152">**Date** (15)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="FileTime"></span><span id="filetime"></span><span id="FILETIME"></span>
 
-<span data-ttu-id="a951c-153">**FileTime** (16) </span><span class="sxs-lookup"><span data-stu-id="a951c-153">**FileTime** (16)</span></span>
+<span data-ttu-id="33321-153">**FileTime** (16) </span><span class="sxs-lookup"><span data-stu-id="33321-153">**FileTime** (16)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Boolean"></span><span id="boolean"></span><span id="BOOLEAN"></span>
 
-<span data-ttu-id="a951c-154">**布林值** (17) </span><span class="sxs-lookup"><span data-stu-id="a951c-154">**Boolean** (17)</span></span>
+<span data-ttu-id="33321-154">**布林值** (17) </span><span class="sxs-lookup"><span data-stu-id="33321-154">**Boolean** (17)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="String"></span><span id="string"></span><span id="STRING"></span>
 
-<span data-ttu-id="a951c-155">**字串** (18) </span><span class="sxs-lookup"><span data-stu-id="a951c-155">**String** (18)</span></span>
+<span data-ttu-id="33321-155">**字串** (18) </span><span class="sxs-lookup"><span data-stu-id="33321-155">**String** (18)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="SecurityDescriptor"></span><span id="securitydescriptor"></span><span id="SECURITYDESCRIPTOR"></span>
 
-<span data-ttu-id="a951c-156">**SecurityDescriptor** (19) </span><span class="sxs-lookup"><span data-stu-id="a951c-156">**SecurityDescriptor** (19)</span></span>
+<span data-ttu-id="33321-156">**SecurityDescriptor** (19) </span><span class="sxs-lookup"><span data-stu-id="33321-156">**SecurityDescriptor** (19)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="SecurityDescriptorString"></span><span id="securitydescriptorstring"></span><span id="SECURITYDESCRIPTORSTRING"></span>
 
-<span data-ttu-id="a951c-157">**SecurityDescriptorString** (20) </span><span class="sxs-lookup"><span data-stu-id="a951c-157">**SecurityDescriptorString** (20)</span></span>
+<span data-ttu-id="33321-157">**SecurityDescriptorString** (20) </span><span class="sxs-lookup"><span data-stu-id="33321-157">**SecurityDescriptorString** (20)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="DEVPROPKEY"></span><span id="devpropkey"></span>
 
-<span data-ttu-id="a951c-158">**DEVPROPKEY** (21) </span><span class="sxs-lookup"><span data-stu-id="a951c-158">**DEVPROPKEY** (21)</span></span>
+<span data-ttu-id="33321-158">**DEVPROPKEY** (21) </span><span class="sxs-lookup"><span data-stu-id="33321-158">**DEVPROPKEY** (21)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="DEVPROPTYPE"></span><span id="devproptype"></span>
 
-<span data-ttu-id="a951c-159">**DEVPROPTYPE** (22) </span><span class="sxs-lookup"><span data-stu-id="a951c-159">**DEVPROPTYPE** (22)</span></span>
+<span data-ttu-id="33321-159">**DEVPROPTYPE** (22) </span><span class="sxs-lookup"><span data-stu-id="33321-159">**DEVPROPTYPE** (22)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Error"></span><span id="error"></span><span id="ERROR"></span>
 
-<span data-ttu-id="a951c-160">**錯誤** (23) </span><span class="sxs-lookup"><span data-stu-id="a951c-160">**Error** (23)</span></span>
+<span data-ttu-id="33321-160">**錯誤** (23) </span><span class="sxs-lookup"><span data-stu-id="33321-160">**Error** (23)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="NTStatus"></span><span id="ntstatus"></span><span id="NTSTATUS"></span>
 
-<span data-ttu-id="a951c-161"> (24) 的 **NTStatus**</span><span class="sxs-lookup"><span data-stu-id="a951c-161">**NTStatus** (24)</span></span>
+<span data-ttu-id="33321-161"> (24) 的 **NTStatus**</span><span class="sxs-lookup"><span data-stu-id="33321-161">**NTStatus** (24)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="StringIndirect"></span><span id="stringindirect"></span><span id="STRINGINDIRECT"></span>
 
-<span data-ttu-id="a951c-162">**StringIndirect** (25) </span><span class="sxs-lookup"><span data-stu-id="a951c-162">**StringIndirect** (25)</span></span>
+<span data-ttu-id="33321-162">**StringIndirect** (25) </span><span class="sxs-lookup"><span data-stu-id="33321-162">**StringIndirect** (25)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Reserved"></span><span id="reserved"></span><span id="RESERVED"></span>
 
-<span data-ttu-id="a951c-163">**已保留**</span><span class="sxs-lookup"><span data-stu-id="a951c-163">**Reserved**</span></span>
+<span data-ttu-id="33321-163">**已保留**</span><span class="sxs-lookup"><span data-stu-id="33321-163">**Reserved**</span></span>
 
 
-</dt> <dd><span data-ttu-id="a951c-164">26–4097</span><span class="sxs-lookup"><span data-stu-id="a951c-164">26–4097</span></span></dd> <dt>
+</dt> <dd><span data-ttu-id="33321-164">26–4097</span><span class="sxs-lookup"><span data-stu-id="33321-164">26–4097</span></span></dd> <dt>
 
 <span id="SByteArray"></span><span id="sbytearray"></span><span id="SBYTEARRAY"></span>
 
-<span data-ttu-id="a951c-165">**SByteArray** (4098) </span><span class="sxs-lookup"><span data-stu-id="a951c-165">**SByteArray** (4098)</span></span>
+<span data-ttu-id="33321-165">**SByteArray** (4098) </span><span class="sxs-lookup"><span data-stu-id="33321-165">**SByteArray** (4098)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Binary"></span><span id="binary"></span><span id="BINARY"></span>
 
-<span data-ttu-id="a951c-166">**Binary** (4099) </span><span class="sxs-lookup"><span data-stu-id="a951c-166">**Binary** (4099)</span></span>
+<span data-ttu-id="33321-166">**Binary** (4099) </span><span class="sxs-lookup"><span data-stu-id="33321-166">**Binary** (4099)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Int16Array"></span><span id="int16array"></span><span id="INT16ARRAY"></span>
 
-<span data-ttu-id="a951c-167">**Int16Array** (4100) </span><span class="sxs-lookup"><span data-stu-id="a951c-167">**Int16Array** (4100)</span></span>
+<span data-ttu-id="33321-167">**Int16Array** (4100) </span><span class="sxs-lookup"><span data-stu-id="33321-167">**Int16Array** (4100)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UInt16Array"></span><span id="uint16array"></span><span id="UINT16ARRAY"></span>
 
-<span data-ttu-id="a951c-168">**UInt16Array** (4101) </span><span class="sxs-lookup"><span data-stu-id="a951c-168">**UInt16Array** (4101)</span></span>
+<span data-ttu-id="33321-168">**UInt16Array** (4101) </span><span class="sxs-lookup"><span data-stu-id="33321-168">**UInt16Array** (4101)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Int64Array"></span><span id="int64array"></span><span id="INT64ARRAY"></span>
 
-<span data-ttu-id="a951c-169">**Int64Array** (4102) </span><span class="sxs-lookup"><span data-stu-id="a951c-169">**Int64Array** (4102)</span></span>
+<span data-ttu-id="33321-169">**Int64Array** (4102) </span><span class="sxs-lookup"><span data-stu-id="33321-169">**Int64Array** (4102)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UInt64Array"></span><span id="uint64array"></span><span id="UINT64ARRAY"></span>
 
-<span data-ttu-id="a951c-170">**UInt64Array** (4103) </span><span class="sxs-lookup"><span data-stu-id="a951c-170">**UInt64Array** (4103)</span></span>
+<span data-ttu-id="33321-170">**UInt64Array** (4103) </span><span class="sxs-lookup"><span data-stu-id="33321-170">**UInt64Array** (4103)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="FloatArray"></span><span id="floatarray"></span><span id="FLOATARRAY"></span>
 
-<span data-ttu-id="a951c-171">**FloatArray** (4104) </span><span class="sxs-lookup"><span data-stu-id="a951c-171">**FloatArray** (4104)</span></span>
+<span data-ttu-id="33321-171">**FloatArray** (4104) </span><span class="sxs-lookup"><span data-stu-id="33321-171">**FloatArray** (4104)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="DoubleArray"></span><span id="doublearray"></span><span id="DOUBLEARRAY"></span>
 
-<span data-ttu-id="a951c-172">**DoubleArray** (4105) </span><span class="sxs-lookup"><span data-stu-id="a951c-172">**DoubleArray** (4105)</span></span>
+<span data-ttu-id="33321-172">**DoubleArray** (4105) </span><span class="sxs-lookup"><span data-stu-id="33321-172">**DoubleArray** (4105)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="DecimalArray"></span><span id="decimalarray"></span><span id="DECIMALARRAY"></span>
 
-<span data-ttu-id="a951c-173">**DecimalArray** (4106) </span><span class="sxs-lookup"><span data-stu-id="a951c-173">**DecimalArray** (4106)</span></span>
+<span data-ttu-id="33321-173">**DecimalArray** (4106) </span><span class="sxs-lookup"><span data-stu-id="33321-173">**DecimalArray** (4106)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="GuidArray"></span><span id="guidarray"></span><span id="GUIDARRAY"></span>
 
-<span data-ttu-id="a951c-174">**GuidArray** (4107) </span><span class="sxs-lookup"><span data-stu-id="a951c-174">**GuidArray** (4107)</span></span>
+<span data-ttu-id="33321-174">**GuidArray** (4107) </span><span class="sxs-lookup"><span data-stu-id="33321-174">**GuidArray** (4107)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="CurrencyArray"></span><span id="currencyarray"></span><span id="CURRENCYARRAY"></span>
 
-<span data-ttu-id="a951c-175">**CurrencyArray** (4108) </span><span class="sxs-lookup"><span data-stu-id="a951c-175">**CurrencyArray** (4108)</span></span>
+<span data-ttu-id="33321-175">**CurrencyArray** (4108) </span><span class="sxs-lookup"><span data-stu-id="33321-175">**CurrencyArray** (4108)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="DateArray"></span><span id="datearray"></span><span id="DATEARRAY"></span>
 
-<span data-ttu-id="a951c-176">**DateArray** (4109) </span><span class="sxs-lookup"><span data-stu-id="a951c-176">**DateArray** (4109)</span></span>
+<span data-ttu-id="33321-176">**DateArray** (4109) </span><span class="sxs-lookup"><span data-stu-id="33321-176">**DateArray** (4109)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="FileTimeArray"></span><span id="filetimearray"></span><span id="FILETIMEARRAY"></span>
 
-<span data-ttu-id="a951c-177">**FileTimeArray** (4110) </span><span class="sxs-lookup"><span data-stu-id="a951c-177">**FileTimeArray** (4110)</span></span>
+<span data-ttu-id="33321-177">**FileTimeArray** (4110) </span><span class="sxs-lookup"><span data-stu-id="33321-177">**FileTimeArray** (4110)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="BooleanArray"></span><span id="booleanarray"></span><span id="BOOLEANARRAY"></span>
 
-<span data-ttu-id="a951c-178">**BooleanArray** (4111) </span><span class="sxs-lookup"><span data-stu-id="a951c-178">**BooleanArray** (4111)</span></span>
+<span data-ttu-id="33321-178">**BooleanArray** (4111) </span><span class="sxs-lookup"><span data-stu-id="33321-178">**BooleanArray** (4111)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="StringList"></span><span id="stringlist"></span><span id="STRINGLIST"></span>
 
-<span data-ttu-id="a951c-179">**StringList** (4112) </span><span class="sxs-lookup"><span data-stu-id="a951c-179">**StringList** (4112)</span></span>
+<span data-ttu-id="33321-179">**StringList** (4112) </span><span class="sxs-lookup"><span data-stu-id="33321-179">**StringList** (4112)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="SecurityDescriptorList"></span><span id="securitydescriptorlist"></span><span id="SECURITYDESCRIPTORLIST"></span>
 
-<span data-ttu-id="a951c-180">**SecurityDescriptorList** (4113) </span><span class="sxs-lookup"><span data-stu-id="a951c-180">**SecurityDescriptorList** (4113)</span></span>
+<span data-ttu-id="33321-180">**SecurityDescriptorList** (4113) </span><span class="sxs-lookup"><span data-stu-id="33321-180">**SecurityDescriptorList** (4113)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="SecurityDescriptorStringList"></span><span id="securitydescriptorstringlist"></span><span id="SECURITYDESCRIPTORSTRINGLIST"></span>
 
-<span data-ttu-id="a951c-181">**SecurityDescriptorStringList** (8210) </span><span class="sxs-lookup"><span data-stu-id="a951c-181">**SecurityDescriptorStringList** (8210)</span></span>
+<span data-ttu-id="33321-181">**SecurityDescriptorStringList** (8210) </span><span class="sxs-lookup"><span data-stu-id="33321-181">**SecurityDescriptorStringList** (8210)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="DEVPROPKEYArray"></span><span id="devpropkeyarray"></span><span id="DEVPROPKEYARRAY"></span>
 
-<span data-ttu-id="a951c-182">**DEVPROPKEYArray** (8211) </span><span class="sxs-lookup"><span data-stu-id="a951c-182">**DEVPROPKEYArray** (8211)</span></span>
+<span data-ttu-id="33321-182">**DEVPROPKEYArray** (8211) </span><span class="sxs-lookup"><span data-stu-id="33321-182">**DEVPROPKEYArray** (8211)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="DEVPROPTYPEArray"></span><span id="devproptypearray"></span><span id="DEVPROPTYPEARRAY"></span>
 
-<span data-ttu-id="a951c-183">**DEVPROPTYPEArray** (8212) </span><span class="sxs-lookup"><span data-stu-id="a951c-183">**DEVPROPTYPEArray** (8212)</span></span>
+<span data-ttu-id="33321-183">**DEVPROPTYPEArray** (8212) </span><span class="sxs-lookup"><span data-stu-id="33321-183">**DEVPROPTYPEArray** (8212)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="ErrorArray"></span><span id="errorarray"></span><span id="ERRORARRAY"></span>
 
-<span data-ttu-id="a951c-184">**ErrorArray** (4117) </span><span class="sxs-lookup"><span data-stu-id="a951c-184">**ErrorArray** (4117)</span></span>
+<span data-ttu-id="33321-184">**ErrorArray** (4117) </span><span class="sxs-lookup"><span data-stu-id="33321-184">**ErrorArray** (4117)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="NTStatusArray"></span><span id="ntstatusarray"></span><span id="NTSTATUSARRAY"></span>
 
-<span data-ttu-id="a951c-185">**NTStatusArray** (4118) </span><span class="sxs-lookup"><span data-stu-id="a951c-185">**NTStatusArray** (4118)</span></span>
+<span data-ttu-id="33321-185">**NTStatusArray** (4118) </span><span class="sxs-lookup"><span data-stu-id="33321-185">**NTStatusArray** (4118)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="StringIndirectList"></span><span id="stringindirectlist"></span><span id="STRINGINDIRECTLIST"></span>
 
-<span data-ttu-id="a951c-186">**StringIndirectList** (4119) </span><span class="sxs-lookup"><span data-stu-id="a951c-186">**StringIndirectList** (4119)</span></span>
+<span data-ttu-id="33321-186">**StringIndirectList** (4119) </span><span class="sxs-lookup"><span data-stu-id="33321-186">**StringIndirectList** (4119)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Unknown_-_check_in_devpropdef.h"></span><span id="unknown_-_check_in_devpropdef.h"></span><span id="UNKNOWN_-_CHECK_IN_DEVPROPDEF.H"></span>
 
-<span data-ttu-id="a951c-187">**未知-在 devpropdef 中檢查** (4120) </span><span class="sxs-lookup"><span data-stu-id="a951c-187">**Unknown - check in devpropdef.h** (4120)</span></span>
+<span data-ttu-id="33321-187">**未知-在 devpropdef 中檢查** (4120) </span><span class="sxs-lookup"><span data-stu-id="33321-187">**Unknown - check in devpropdef.h** (4120)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="TBD"></span><span id="tbd"></span>
 
-<span data-ttu-id="a951c-188">**TBD** (8217) </span><span class="sxs-lookup"><span data-stu-id="a951c-188">**TBD** (8217)</span></span>
+<span data-ttu-id="33321-188">**TBD** (8217) </span><span class="sxs-lookup"><span data-stu-id="33321-188">**TBD** (8217)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Reserved"></span><span id="reserved"></span><span id="RESERVED"></span>
 
-<span data-ttu-id="a951c-189">**已保留**</span><span class="sxs-lookup"><span data-stu-id="a951c-189">**Reserved**</span></span>
+<span data-ttu-id="33321-189">**已保留**</span><span class="sxs-lookup"><span data-stu-id="33321-189">**Reserved**</span></span>
 
 
-</dt> <dd><span data-ttu-id="a951c-190">8218–4294967295</span><span class="sxs-lookup"><span data-stu-id="a951c-190">8218–4294967295</span></span></dd> </dl>
+</dt> <dd><span data-ttu-id="33321-190">8218–4294967295</span><span class="sxs-lookup"><span data-stu-id="33321-190">8218–4294967295</span></span></dd> </dl>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="a951c-191">規格需求</span><span class="sxs-lookup"><span data-stu-id="a951c-191">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="33321-191">規格需求</span><span class="sxs-lookup"><span data-stu-id="33321-191">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a951c-192">需求</span><span class="sxs-lookup"><span data-stu-id="a951c-192">Requirement</span></span> | <span data-ttu-id="a951c-193">值</span><span class="sxs-lookup"><span data-stu-id="a951c-193">Value</span></span> |
+| <span data-ttu-id="33321-192">需求</span><span class="sxs-lookup"><span data-stu-id="33321-192">Requirement</span></span> | <span data-ttu-id="33321-193">值</span><span class="sxs-lookup"><span data-stu-id="33321-193">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="a951c-194">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a951c-194">Minimum supported client</span></span><br/> | <span data-ttu-id="a951c-195">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a951c-195">Windows 10 \[desktop apps only\]</span></span><br/>                                             |
-| <span data-ttu-id="a951c-196">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a951c-196">Minimum supported server</span></span><br/> | <span data-ttu-id="a951c-197">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="a951c-197">Windows Server 2016</span></span><br/>                                                          |
-| <span data-ttu-id="a951c-198">命名空間</span><span class="sxs-lookup"><span data-stu-id="a951c-198">Namespace</span></span><br/>                | <span data-ttu-id="a951c-199">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="a951c-199">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="a951c-200">MOF</span><span class="sxs-lookup"><span data-stu-id="a951c-200">MOF</span></span><br/>                      | <dl> <span data-ttu-id="a951c-201"><dt>Cimwin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="a951c-201"><dt>Cimwin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="a951c-202">DLL</span><span class="sxs-lookup"><span data-stu-id="a951c-202">DLL</span></span><br/>                      | <dl> <span data-ttu-id="a951c-203"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="a951c-203"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="33321-194">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="33321-194">Minimum supported client</span></span><br/> | <span data-ttu-id="33321-195">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="33321-195">Windows 10 \[desktop apps only\]</span></span><br/>                                             |
+| <span data-ttu-id="33321-196">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="33321-196">Minimum supported server</span></span><br/> | <span data-ttu-id="33321-197">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="33321-197">Windows Server 2016</span></span><br/>                                                          |
+| <span data-ttu-id="33321-198">命名空間</span><span class="sxs-lookup"><span data-stu-id="33321-198">Namespace</span></span><br/>                | <span data-ttu-id="33321-199">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="33321-199">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="33321-200">MOF</span><span class="sxs-lookup"><span data-stu-id="33321-200">MOF</span></span><br/>                      | <dl> <span data-ttu-id="33321-201"><dt>Cimwin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="33321-201"><dt>Cimwin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="33321-202">DLL</span><span class="sxs-lookup"><span data-stu-id="33321-202">DLL</span></span><br/>                      | <dl> <span data-ttu-id="33321-203"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="33321-203"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a951c-204">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a951c-204">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="33321-204">另請參閱</span><span class="sxs-lookup"><span data-stu-id="33321-204">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a951c-205">電腦系統硬體類別</span><span class="sxs-lookup"><span data-stu-id="a951c-205">Computer System Hardware Classes</span></span>](computer-system-hardware-classes.md)
+[<span data-ttu-id="33321-205">電腦系統硬體類別</span><span class="sxs-lookup"><span data-stu-id="33321-205">Computer System Hardware Classes</span></span>](computer-system-hardware-classes.md)
 </dt> <dt>
 
-[<span data-ttu-id="a951c-206">**Win32 \_ PnPDeviceProperty**</span><span class="sxs-lookup"><span data-stu-id="a951c-206">**Win32\_PnPDeviceProperty**</span></span>](win32-pnpdeviceproperty.md)
+[<span data-ttu-id="33321-206">**Win32 \_ PnPDeviceProperty**</span><span class="sxs-lookup"><span data-stu-id="33321-206">**Win32\_PnPDeviceProperty**</span></span>](win32-pnpdeviceproperty.md)
 </dt> <dt>
 
-[<span data-ttu-id="a951c-207">**Win32 \_ SecurityDescriptor**</span><span class="sxs-lookup"><span data-stu-id="a951c-207">**Win32\_SecurityDescriptor**</span></span>](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
+[<span data-ttu-id="33321-207">**Win32 \_ SecurityDescriptor**</span><span class="sxs-lookup"><span data-stu-id="33321-207">**Win32\_SecurityDescriptor**</span></span>](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
 </dt> <dt>
 
-[<span data-ttu-id="a951c-208">**GetDeviceProperties**</span><span class="sxs-lookup"><span data-stu-id="a951c-208">**GetDeviceProperties**</span></span>](getdeviceproperties-win32-pnpentity.md)
+[<span data-ttu-id="33321-208">**GetDeviceProperties**</span><span class="sxs-lookup"><span data-stu-id="33321-208">**GetDeviceProperties**</span></span>](getdeviceproperties-win32-pnpentity.md)
 </dt> </dl>
 
  

@@ -22,13 +22,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934281"
 ---
-# <a name="dsbackupread-function"></a><span data-ttu-id="2b03f-104">DsBackupRead 函式</span><span class="sxs-lookup"><span data-stu-id="2b03f-104">DsBackupRead function</span></span>
+# <a name="dsbackupread-function"></a><span data-ttu-id="b79d7-104">DsBackupRead 函式</span><span class="sxs-lookup"><span data-stu-id="b79d7-104">DsBackupRead function</span></span>
 
-<span data-ttu-id="2b03f-105">\[此函式可用於 [需求] 區段中指定的作業系統。</span><span class="sxs-lookup"><span data-stu-id="2b03f-105">\[This function is available for use in the operating systems specified in the Requirements section.</span></span> <span data-ttu-id="2b03f-106">它在後續版本中可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="2b03f-106">It may be altered or unavailable in subsequent versions.</span></span> <span data-ttu-id="2b03f-107">從 Windows Vista 開始，請改用 [磁碟區陰影複製服務 (VSS) ](../vss/volume-shadow-copy-service-overview.md) 。\]</span><span class="sxs-lookup"><span data-stu-id="2b03f-107">Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](../vss/volume-shadow-copy-service-overview.md) instead.\]</span></span>
+<span data-ttu-id="b79d7-105">\[此函式可用於 [需求] 區段中指定的作業系統。</span><span class="sxs-lookup"><span data-stu-id="b79d7-105">\[This function is available for use in the operating systems specified in the Requirements section.</span></span> <span data-ttu-id="b79d7-106">它在後續版本中可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="b79d7-106">It may be altered or unavailable in subsequent versions.</span></span> <span data-ttu-id="b79d7-107">從 Windows Vista 開始，請改用 [磁碟區陰影複製服務 (VSS) ](../vss/volume-shadow-copy-service-overview.md) 。\]</span><span class="sxs-lookup"><span data-stu-id="b79d7-107">Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](../vss/volume-shadow-copy-service-overview.md) instead.\]</span></span>
 
-<span data-ttu-id="2b03f-108">**DsBackupRead** 函式會從目前開啟的檔案，將資料區塊讀入緩衝區。</span><span class="sxs-lookup"><span data-stu-id="2b03f-108">The **DsBackupRead** function reads a block of data from the current open file, into a buffer.</span></span> <span data-ttu-id="2b03f-109">用戶端應用程式預期會重複呼叫這個函式，直到收到整個備份檔案為止。</span><span class="sxs-lookup"><span data-stu-id="2b03f-109">The client application is expected to call this function repeatedly until the entire backup file has been received.</span></span> <span data-ttu-id="2b03f-110">[**DsBackupOpenFile**](dsbackupopenfile.md)函式會提供備份檔案的整個大小。</span><span class="sxs-lookup"><span data-stu-id="2b03f-110">The [**DsBackupOpenFile**](dsbackupopenfile.md) function provides the entire size of the backup file.</span></span>
+<span data-ttu-id="b79d7-108">**DsBackupRead** 函式會從目前開啟的檔案，將資料區塊讀入緩衝區。</span><span class="sxs-lookup"><span data-stu-id="b79d7-108">The **DsBackupRead** function reads a block of data from the current open file, into a buffer.</span></span> <span data-ttu-id="b79d7-109">用戶端應用程式預期會重複呼叫這個函式，直到收到整個備份檔案為止。</span><span class="sxs-lookup"><span data-stu-id="b79d7-109">The client application is expected to call this function repeatedly until the entire backup file has been received.</span></span> <span data-ttu-id="b79d7-110">[**DsBackupOpenFile**](dsbackupopenfile.md)函式會提供備份檔案的整個大小。</span><span class="sxs-lookup"><span data-stu-id="b79d7-110">The [**DsBackupOpenFile**](dsbackupopenfile.md) function provides the entire size of the backup file.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2b03f-111">語法</span><span class="sxs-lookup"><span data-stu-id="2b03f-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b79d7-111">語法</span><span class="sxs-lookup"><span data-stu-id="b79d7-111">Syntax</span></span>
 
 
 ```C++
@@ -42,89 +42,89 @@ HRESULT DsBackupRead(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="2b03f-112">參數</span><span class="sxs-lookup"><span data-stu-id="2b03f-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b79d7-112">參數</span><span class="sxs-lookup"><span data-stu-id="b79d7-112">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="2b03f-113">*hbc* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2b03f-113">*hbc* \[in\]</span></span>
+<span data-ttu-id="b79d7-113">*hbc* \[在\]</span><span class="sxs-lookup"><span data-stu-id="b79d7-113">*hbc* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="2b03f-114">包含使用 [**DsBackupPrepare**](dsbackupprepare.md) 函數取得的備份內容控制碼。</span><span class="sxs-lookup"><span data-stu-id="2b03f-114">Contains the backup context handle obtained with the [**DsBackupPrepare**](dsbackupprepare.md) function.</span></span>
+<span data-ttu-id="b79d7-114">包含使用 [**DsBackupPrepare**](dsbackupprepare.md) 函數取得的備份內容控制碼。</span><span class="sxs-lookup"><span data-stu-id="b79d7-114">Contains the backup context handle obtained with the [**DsBackupPrepare**](dsbackupprepare.md) function.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="2b03f-115">*pvBuffer* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2b03f-115">*pvBuffer* \[in\]</span></span>
+<span data-ttu-id="b79d7-115">*pvBuffer* \[在\]</span><span class="sxs-lookup"><span data-stu-id="b79d7-115">*pvBuffer* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="2b03f-116">接收資料之緩衝區的指標。</span><span class="sxs-lookup"><span data-stu-id="2b03f-116">Pointer to a buffer that receives the data.</span></span> <span data-ttu-id="2b03f-117">此緩衝區的大小必須至少為 *cbBuffer* 個位元組。</span><span class="sxs-lookup"><span data-stu-id="2b03f-117">This buffer must be at least *cbBuffer* bytes in size.</span></span>
+<span data-ttu-id="b79d7-116">接收資料之緩衝區的指標。</span><span class="sxs-lookup"><span data-stu-id="b79d7-116">Pointer to a buffer that receives the data.</span></span> <span data-ttu-id="b79d7-117">此緩衝區的大小必須至少為 *cbBuffer* 個位元組。</span><span class="sxs-lookup"><span data-stu-id="b79d7-117">This buffer must be at least *cbBuffer* bytes in size.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="2b03f-118">*cbBuffer* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2b03f-118">*cbBuffer* \[in\]</span></span>
+<span data-ttu-id="b79d7-118">*cbBuffer* \[在\]</span><span class="sxs-lookup"><span data-stu-id="b79d7-118">*cbBuffer* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="2b03f-119">包含 *pvBuffer* 的緩衝區大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="2b03f-119">Contains the size, in bytes, of the buffer at *pvBuffer*.</span></span> <span data-ttu-id="2b03f-120">此值必須是8192的倍數，且必須大於或等於24576。</span><span class="sxs-lookup"><span data-stu-id="2b03f-120">This value must be a multiple of 8192 and must be greater than or equal to 24576.</span></span>
+<span data-ttu-id="b79d7-119">包含 *pvBuffer* 的緩衝區大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="b79d7-119">Contains the size, in bytes, of the buffer at *pvBuffer*.</span></span> <span data-ttu-id="b79d7-120">此值必須是8192的倍數，且必須大於或等於24576。</span><span class="sxs-lookup"><span data-stu-id="b79d7-120">This value must be a multiple of 8192 and must be greater than or equal to 24576.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="2b03f-121">*pcbRead* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="2b03f-121">*pcbRead* \[out\]</span></span>
+<span data-ttu-id="b79d7-121">*pcbRead* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="b79d7-121">*pcbRead* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="2b03f-122">**DWORD** 值的指標，此值會接收實際讀取的位元組數目。</span><span class="sxs-lookup"><span data-stu-id="2b03f-122">Pointer to a **DWORD** value that receives the actual number of bytes read.</span></span> <span data-ttu-id="2b03f-123">這可能小於所要求的位元組數目，因為某些傳輸會將傳輸的緩衝區片段化，而不是以資料填滿整個緩衝區。</span><span class="sxs-lookup"><span data-stu-id="2b03f-123">This may be less than the number of bytes requested because some transports fragment the buffer being transmitted instead of filling the entire buffer with data.</span></span>
+<span data-ttu-id="b79d7-122">**DWORD** 值的指標，此值會接收實際讀取的位元組數目。</span><span class="sxs-lookup"><span data-stu-id="b79d7-122">Pointer to a **DWORD** value that receives the actual number of bytes read.</span></span> <span data-ttu-id="b79d7-123">這可能小於所要求的位元組數目，因為某些傳輸會將傳輸的緩衝區片段化，而不是以資料填滿整個緩衝區。</span><span class="sxs-lookup"><span data-stu-id="b79d7-123">This may be less than the number of bytes requested because some transports fragment the buffer being transmitted instead of filling the entire buffer with data.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="2b03f-124">傳回值</span><span class="sxs-lookup"><span data-stu-id="2b03f-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b79d7-124">傳回值</span><span class="sxs-lookup"><span data-stu-id="b79d7-124">Return value</span></span>
 
-<span data-ttu-id="2b03f-125">如果函式成功，則傳回 **S \_ OK** ，否則傳回 Win32 或 RPC 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="2b03f-125">Returns **S\_OK** if the function is successful or a Win32 or RPC error code otherwise.</span></span> <span data-ttu-id="2b03f-126">可能的錯誤代碼包括下列各項。</span><span class="sxs-lookup"><span data-stu-id="2b03f-126">Possible error codes include the following.</span></span>
+<span data-ttu-id="b79d7-125">如果函式成功，則傳回 **S \_ OK** ，否則傳回 Win32 或 RPC 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="b79d7-125">Returns **S\_OK** if the function is successful or a Win32 or RPC error code otherwise.</span></span> <span data-ttu-id="b79d7-126">可能的錯誤代碼包括下列各項。</span><span class="sxs-lookup"><span data-stu-id="b79d7-126">Possible error codes include the following.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="2b03f-127">**錯誤 \_ 不正確 \_ 參數**</span><span class="sxs-lookup"><span data-stu-id="2b03f-127">**ERROR\_INVALID\_PARAMETER**</span></span>
+<span data-ttu-id="b79d7-127">**錯誤 \_ 不正確 \_ 參數**</span><span class="sxs-lookup"><span data-stu-id="b79d7-127">**ERROR\_INVALID\_PARAMETER**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="2b03f-128">一或多個參數無效。</span><span class="sxs-lookup"><span data-stu-id="2b03f-128">One or more parameters are not valid.</span></span>
+<span data-ttu-id="b79d7-128">一或多個參數無效。</span><span class="sxs-lookup"><span data-stu-id="b79d7-128">One or more parameters are not valid.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="2b03f-129">**錯誤 \_ 處理 \_ EOF**</span><span class="sxs-lookup"><span data-stu-id="2b03f-129">**ERROR\_HANDLE\_EOF**</span></span>
+<span data-ttu-id="b79d7-129">**錯誤 \_ 處理 \_ EOF**</span><span class="sxs-lookup"><span data-stu-id="b79d7-129">**ERROR\_HANDLE\_EOF**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="2b03f-130">已達到備份檔案的結尾。</span><span class="sxs-lookup"><span data-stu-id="2b03f-130">The end of the backup file was reached.</span></span>
+<span data-ttu-id="b79d7-130">已達到備份檔案的結尾。</span><span class="sxs-lookup"><span data-stu-id="b79d7-130">The end of the backup file was reached.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="2b03f-131">規格需求</span><span class="sxs-lookup"><span data-stu-id="2b03f-131">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b79d7-131">規格需求</span><span class="sxs-lookup"><span data-stu-id="b79d7-131">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2b03f-132">需求</span><span class="sxs-lookup"><span data-stu-id="2b03f-132">Requirement</span></span> | <span data-ttu-id="2b03f-133">值</span><span class="sxs-lookup"><span data-stu-id="2b03f-133">Value</span></span> |
+| <span data-ttu-id="b79d7-132">需求</span><span class="sxs-lookup"><span data-stu-id="b79d7-132">Requirement</span></span> | <span data-ttu-id="b79d7-133">值</span><span class="sxs-lookup"><span data-stu-id="b79d7-133">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="2b03f-134">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2b03f-134">Minimum supported client</span></span><br/> | <span data-ttu-id="2b03f-135">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="2b03f-135">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="2b03f-136">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2b03f-136">Minimum supported server</span></span><br/> | <span data-ttu-id="2b03f-137">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="2b03f-137">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="2b03f-138">標頭</span><span class="sxs-lookup"><span data-stu-id="2b03f-138">Header</span></span><br/>                   | <dl> <span data-ttu-id="2b03f-139"><dt>Ntdsbcli。h</dt></span><span class="sxs-lookup"><span data-stu-id="2b03f-139"><dt>Ntdsbcli.h</dt></span></span> </dl>   |
-| <span data-ttu-id="2b03f-140">程式庫</span><span class="sxs-lookup"><span data-stu-id="2b03f-140">Library</span></span><br/>                  | <dl> <span data-ttu-id="2b03f-141"><dt>Ntdsbcli .lib</dt></span><span class="sxs-lookup"><span data-stu-id="2b03f-141"><dt>Ntdsbcli.lib</dt></span></span> </dl> |
-| <span data-ttu-id="2b03f-142">DLL</span><span class="sxs-lookup"><span data-stu-id="2b03f-142">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2b03f-143"><dt>Ntdsbcli.dll</dt></span><span class="sxs-lookup"><span data-stu-id="2b03f-143"><dt>Ntdsbcli.dll</dt></span></span> </dl> |
+| <span data-ttu-id="b79d7-134">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b79d7-134">Minimum supported client</span></span><br/> | <span data-ttu-id="b79d7-135">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="b79d7-135">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="b79d7-136">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b79d7-136">Minimum supported server</span></span><br/> | <span data-ttu-id="b79d7-137">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="b79d7-137">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="b79d7-138">標頭</span><span class="sxs-lookup"><span data-stu-id="b79d7-138">Header</span></span><br/>                   | <dl> <span data-ttu-id="b79d7-139"><dt>Ntdsbcli。h</dt></span><span class="sxs-lookup"><span data-stu-id="b79d7-139"><dt>Ntdsbcli.h</dt></span></span> </dl>   |
+| <span data-ttu-id="b79d7-140">程式庫</span><span class="sxs-lookup"><span data-stu-id="b79d7-140">Library</span></span><br/>                  | <dl> <span data-ttu-id="b79d7-141"><dt>Ntdsbcli .lib</dt></span><span class="sxs-lookup"><span data-stu-id="b79d7-141"><dt>Ntdsbcli.lib</dt></span></span> </dl> |
+| <span data-ttu-id="b79d7-142">DLL</span><span class="sxs-lookup"><span data-stu-id="b79d7-142">DLL</span></span><br/>                      | <dl> <span data-ttu-id="b79d7-143"><dt>Ntdsbcli.dll</dt></span><span class="sxs-lookup"><span data-stu-id="b79d7-143"><dt>Ntdsbcli.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2b03f-144">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2b03f-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b79d7-144">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b79d7-144">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2b03f-145">**DsBackupOpenFile**</span><span class="sxs-lookup"><span data-stu-id="2b03f-145">**DsBackupOpenFile**</span></span>](dsbackupopenfile.md)
+[<span data-ttu-id="b79d7-145">**DsBackupOpenFile**</span><span class="sxs-lookup"><span data-stu-id="b79d7-145">**DsBackupOpenFile**</span></span>](dsbackupopenfile.md)
 </dt> <dt>
 
-[<span data-ttu-id="2b03f-146">**DsBackupPrepare**</span><span class="sxs-lookup"><span data-stu-id="2b03f-146">**DsBackupPrepare**</span></span>](dsbackupprepare.md)
+[<span data-ttu-id="b79d7-146">**DsBackupPrepare**</span><span class="sxs-lookup"><span data-stu-id="b79d7-146">**DsBackupPrepare**</span></span>](dsbackupprepare.md)
 </dt> <dt>
 
-[<span data-ttu-id="2b03f-147">**DsBackupFree**</span><span class="sxs-lookup"><span data-stu-id="2b03f-147">**DsBackupFree**</span></span>](dsbackupfree.md)
+[<span data-ttu-id="b79d7-147">**DsBackupFree**</span><span class="sxs-lookup"><span data-stu-id="b79d7-147">**DsBackupFree**</span></span>](dsbackupfree.md)
 </dt> <dt>
 
-[<span data-ttu-id="2b03f-148">備份 Active Directory 伺服器</span><span class="sxs-lookup"><span data-stu-id="2b03f-148">Backing Up an Active Directory Server</span></span>](backing-up-an-active-directory-server.md)
+[<span data-ttu-id="b79d7-148">備份 Active Directory 伺服器</span><span class="sxs-lookup"><span data-stu-id="b79d7-148">Backing Up an Active Directory Server</span></span>](backing-up-an-active-directory-server.md)
 </dt> <dt>
 
-[<span data-ttu-id="2b03f-149">目錄備份功能</span><span class="sxs-lookup"><span data-stu-id="2b03f-149">Directory Backup Functions</span></span>](directory-backup-functions.md)
+[<span data-ttu-id="b79d7-149">目錄備份功能</span><span class="sxs-lookup"><span data-stu-id="b79d7-149">Directory Backup Functions</span></span>](directory-backup-functions.md)
 </dt> </dl>
 
  

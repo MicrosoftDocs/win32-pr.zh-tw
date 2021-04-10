@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934587"
 ---
-# <a name="getint32property-method-of-the-win32_rdshserver-class"></a><span data-ttu-id="9b4b4-106">Win32 RDSHServer 類別的 GetInt32Property 方法 \_</span><span class="sxs-lookup"><span data-stu-id="9b4b4-106">GetInt32Property method of the Win32\_RDSHServer class</span></span>
+# <a name="getint32property-method-of-the-win32_rdshserver-class"></a><span data-ttu-id="2a114-106">Win32 RDSHServer 類別的 GetInt32Property 方法 \_</span><span class="sxs-lookup"><span data-stu-id="2a114-106">GetInt32Property method of the Win32\_RDSHServer class</span></span>
 
-<span data-ttu-id="9b4b4-107">抓取 [**Win32 \_ RDSHServer**](win32-rdshserver.md) 物件的整數屬性值。</span><span class="sxs-lookup"><span data-stu-id="9b4b4-107">Retrieves an integer property value of a [**Win32\_RDSHServer**](win32-rdshserver.md) object.</span></span>
+<span data-ttu-id="2a114-107">抓取 [**Win32 \_ RDSHServer**](win32-rdshserver.md) 物件的整數屬性值。</span><span class="sxs-lookup"><span data-stu-id="2a114-107">Retrieves an integer property value of a [**Win32\_RDSHServer**](win32-rdshserver.md) object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9b4b4-108">語法</span><span class="sxs-lookup"><span data-stu-id="9b4b4-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2a114-108">語法</span><span class="sxs-lookup"><span data-stu-id="2a114-108">Syntax</span></span>
 
 
 ```mof
@@ -40,48 +40,48 @@ uint32 GetInt32Property(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="9b4b4-109">參數</span><span class="sxs-lookup"><span data-stu-id="9b4b4-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2a114-109">參數</span><span class="sxs-lookup"><span data-stu-id="2a114-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="9b4b4-110">*金鑰* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9b4b4-110">*Key* \[in\]</span></span>
+<span data-ttu-id="2a114-110">*金鑰* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2a114-110">*Key* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9b4b4-111">識別要取得之屬性的索引鍵。</span><span class="sxs-lookup"><span data-stu-id="9b4b4-111">The key that identifies the property to retrieve.</span></span>
+<span data-ttu-id="2a114-111">識別要取得之屬性的索引鍵。</span><span class="sxs-lookup"><span data-stu-id="2a114-111">The key that identifies the property to retrieve.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="9b4b4-112">*值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="9b4b4-112">*Value* \[out\]</span></span>
+<span data-ttu-id="2a114-112">*值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="2a114-112">*Value* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9b4b4-113">接收已抓取的屬性值。</span><span class="sxs-lookup"><span data-stu-id="9b4b4-113">Receives the retrieved property value.</span></span>
+<span data-ttu-id="2a114-113">接收已抓取的屬性值。</span><span class="sxs-lookup"><span data-stu-id="2a114-113">Receives the retrieved property value.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="9b4b4-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="9b4b4-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2a114-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="2a114-114">Return value</span></span>
 
-<span data-ttu-id="9b4b4-115">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="9b4b4-115">Returns 0 on success, otherwise returns a WMI error code.</span></span>
+<span data-ttu-id="2a114-115">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="2a114-115">Returns 0 on success, otherwise returns a WMI error code.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="9b4b4-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="9b4b4-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2a114-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="2a114-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="9b4b4-117">需求</span><span class="sxs-lookup"><span data-stu-id="9b4b4-117">Requirement</span></span> | <span data-ttu-id="9b4b4-118">值</span><span class="sxs-lookup"><span data-stu-id="9b4b4-118">Value</span></span> |
+| <span data-ttu-id="2a114-117">需求</span><span class="sxs-lookup"><span data-stu-id="2a114-117">Requirement</span></span> | <span data-ttu-id="2a114-118">值</span><span class="sxs-lookup"><span data-stu-id="2a114-118">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="9b4b4-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9b4b4-119">Minimum supported client</span></span><br/> | <span data-ttu-id="9b4b4-120">都不支援</span><span class="sxs-lookup"><span data-stu-id="9b4b4-120">None supported</span></span><br/>                                                                                      |
-| <span data-ttu-id="9b4b4-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9b4b4-121">Minimum supported server</span></span><br/> | <span data-ttu-id="9b4b4-122">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="9b4b4-122">Windows Server 2012</span></span><br/>                                                                                 |
-| <span data-ttu-id="9b4b4-123">命名空間</span><span class="sxs-lookup"><span data-stu-id="9b4b4-123">Namespace</span></span><br/>                | <span data-ttu-id="9b4b4-124">根 \\ CIMv2 \\ rdm</span><span class="sxs-lookup"><span data-stu-id="9b4b4-124">Root\\CIMv2\\rdms</span></span><br/>                                                                                   |
-| <span data-ttu-id="9b4b4-125">標頭</span><span class="sxs-lookup"><span data-stu-id="9b4b4-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="9b4b4-126"><dt>Appanalysis。h</dt></span><span class="sxs-lookup"><span data-stu-id="9b4b4-126"><dt>Microsoft.diagnostics.appanalysis.h</dt></span></span> </dl> |
-| <span data-ttu-id="9b4b4-127">MOF</span><span class="sxs-lookup"><span data-stu-id="9b4b4-127">MOF</span></span><br/>                      | <dl> <span data-ttu-id="9b4b4-128"><dt>RDManagement mof</dt></span><span class="sxs-lookup"><span data-stu-id="9b4b4-128"><dt>RDManagement.mof</dt></span></span> </dl>                    |
-| <span data-ttu-id="9b4b4-129">DLL</span><span class="sxs-lookup"><span data-stu-id="9b4b4-129">DLL</span></span><br/>                      | <dl> <span data-ttu-id="9b4b4-130"><dt>RDMS.dll</dt></span><span class="sxs-lookup"><span data-stu-id="9b4b4-130"><dt>RDMS.dll</dt></span></span> </dl>                            |
+| <span data-ttu-id="2a114-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2a114-119">Minimum supported client</span></span><br/> | <span data-ttu-id="2a114-120">都不支援</span><span class="sxs-lookup"><span data-stu-id="2a114-120">None supported</span></span><br/>                                                                                      |
+| <span data-ttu-id="2a114-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2a114-121">Minimum supported server</span></span><br/> | <span data-ttu-id="2a114-122">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="2a114-122">Windows Server 2012</span></span><br/>                                                                                 |
+| <span data-ttu-id="2a114-123">命名空間</span><span class="sxs-lookup"><span data-stu-id="2a114-123">Namespace</span></span><br/>                | <span data-ttu-id="2a114-124">根 \\ CIMv2 \\ rdm</span><span class="sxs-lookup"><span data-stu-id="2a114-124">Root\\CIMv2\\rdms</span></span><br/>                                                                                   |
+| <span data-ttu-id="2a114-125">標頭</span><span class="sxs-lookup"><span data-stu-id="2a114-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="2a114-126"><dt>Appanalysis。h</dt></span><span class="sxs-lookup"><span data-stu-id="2a114-126"><dt>Microsoft.diagnostics.appanalysis.h</dt></span></span> </dl> |
+| <span data-ttu-id="2a114-127">MOF</span><span class="sxs-lookup"><span data-stu-id="2a114-127">MOF</span></span><br/>                      | <dl> <span data-ttu-id="2a114-128"><dt>RDManagement mof</dt></span><span class="sxs-lookup"><span data-stu-id="2a114-128"><dt>RDManagement.mof</dt></span></span> </dl>                    |
+| <span data-ttu-id="2a114-129">DLL</span><span class="sxs-lookup"><span data-stu-id="2a114-129">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2a114-130"><dt>RDMS.dll</dt></span><span class="sxs-lookup"><span data-stu-id="2a114-130"><dt>RDMS.dll</dt></span></span> </dl>                            |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="9b4b4-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9b4b4-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2a114-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2a114-131">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9b4b4-132">**Win32 \_ RDSHServer**</span><span class="sxs-lookup"><span data-stu-id="9b4b4-132">**Win32\_RDSHServer**</span></span>](win32-rdshserver.md)
+[<span data-ttu-id="2a114-132">**Win32 \_ RDSHServer**</span><span class="sxs-lookup"><span data-stu-id="2a114-132">**Win32\_RDSHServer**</span></span>](win32-rdshserver.md)
 </dt> </dl>
 
  

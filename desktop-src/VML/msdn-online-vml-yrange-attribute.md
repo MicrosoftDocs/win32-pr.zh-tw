@@ -11,30 +11,30 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103682421"
 ---
-# <a name="vml-yrange-attribute"></a><span data-ttu-id="75a92-103">VML YRange 屬性</span><span class="sxs-lookup"><span data-stu-id="75a92-103">VML YRange Attribute</span></span>
+# <a name="vml-yrange-attribute"></a><span data-ttu-id="02276-103">VML YRange 屬性</span><span class="sxs-lookup"><span data-stu-id="02276-103">VML YRange Attribute</span></span>
 
-<span data-ttu-id="75a92-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="75a92-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="75a92-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="75a92-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+<span data-ttu-id="02276-104">本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。</span><span class="sxs-lookup"><span data-stu-id="02276-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="02276-105">依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。</span><span class="sxs-lookup"><span data-stu-id="02276-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="75a92-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="75a92-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="75a92-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="75a92-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="75a92-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="75a92-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="75a92-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="75a92-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+> <span data-ttu-id="02276-106">從2011年12月起，本主題已封存。</span><span class="sxs-lookup"><span data-stu-id="02276-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="02276-107">因此，它不會再主動維護。</span><span class="sxs-lookup"><span data-stu-id="02276-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="02276-108">如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。</span><span class="sxs-lookup"><span data-stu-id="02276-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="02276-109">如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。</span><span class="sxs-lookup"><span data-stu-id="02276-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
 
  
 
-<span data-ttu-id="75a92-110">定義控制碼的 y 範圍。</span><span class="sxs-lookup"><span data-stu-id="75a92-110">Defines the y range of a handle.</span></span> <span data-ttu-id="75a92-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="75a92-111">Read/write.</span></span> <span data-ttu-id="75a92-112">**VgVector2D**。</span><span class="sxs-lookup"><span data-stu-id="75a92-112">**VgVector2D**.</span></span>
+<span data-ttu-id="02276-110">定義控制碼的 y 範圍。</span><span class="sxs-lookup"><span data-stu-id="02276-110">Defines the y range of a handle.</span></span> <span data-ttu-id="02276-111">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="02276-111">Read/write.</span></span> <span data-ttu-id="02276-112">**VgVector2D**。</span><span class="sxs-lookup"><span data-stu-id="02276-112">**VgVector2D**.</span></span>
 
-<span data-ttu-id="75a92-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="75a92-113">**Applies To**</span></span>
+<span data-ttu-id="02276-113">**適用於**</span><span class="sxs-lookup"><span data-stu-id="02276-113">**Applies To**</span></span>
 
-<span data-ttu-id="75a92-114">[H](msdn-online-vml-h-element.md) ([控制碼](msdn-online-vml-handles-element.md) 的子項目) </span><span class="sxs-lookup"><span data-stu-id="75a92-114">[H](msdn-online-vml-h-element.md) (subelement of [Handles](msdn-online-vml-handles-element.md))</span></span>
+<span data-ttu-id="02276-114">[H](msdn-online-vml-h-element.md) ([控制碼](msdn-online-vml-handles-element.md) 的子項目) </span><span class="sxs-lookup"><span data-stu-id="02276-114">[H](msdn-online-vml-h-element.md) (subelement of [Handles](msdn-online-vml-handles-element.md))</span></span>
 
-<span data-ttu-id="75a92-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="75a92-115">**Tag Syntax**</span></span>
+<span data-ttu-id="02276-115">**標記語法**</span><span class="sxs-lookup"><span data-stu-id="02276-115">**Tag Syntax**</span></span>
 
-<span data-ttu-id="75a92-116"><v： *element* yrange = " *expression* " ></span><span class="sxs-lookup"><span data-stu-id="75a92-116"><v: *element* yrange=" *expression* "></span></span>
+<span data-ttu-id="02276-116"><v： *element* yrange = " *expression* " ></span><span class="sxs-lookup"><span data-stu-id="02276-116"><v: *element* yrange=" *expression* "></span></span>
 
-<span data-ttu-id="75a92-117">**備註**</span><span class="sxs-lookup"><span data-stu-id="75a92-117">**Remarks**</span></span>
+<span data-ttu-id="02276-117">**備註**</span><span class="sxs-lookup"><span data-stu-id="02276-117">**Remarks**</span></span>
 
-<span data-ttu-id="75a92-118">最小值和最大值是針對 y 方向的控制碼而定義。</span><span class="sxs-lookup"><span data-stu-id="75a92-118">A minimum and maximum value is defined for the handle in the y direction.</span></span> <span data-ttu-id="75a92-119">每個值都可以是常數或公式。</span><span class="sxs-lookup"><span data-stu-id="75a92-119">Each value can be a constant or a formula.</span></span> <span data-ttu-id="75a92-120">如果未定義某個值，則可以移動控點，而不會有此方向的限制。</span><span class="sxs-lookup"><span data-stu-id="75a92-120">If a value is not defined, the handle can be moved without limit in this direction.</span></span> <span data-ttu-id="75a92-121">預設值為 0,0。</span><span class="sxs-lookup"><span data-stu-id="75a92-121">The default value is 0,0.</span></span>
+<span data-ttu-id="02276-118">最小值和最大值是針對 y 方向的控制碼而定義。</span><span class="sxs-lookup"><span data-stu-id="02276-118">A minimum and maximum value is defined for the handle in the y direction.</span></span> <span data-ttu-id="02276-119">每個值都可以是常數或公式。</span><span class="sxs-lookup"><span data-stu-id="02276-119">Each value can be a constant or a formula.</span></span> <span data-ttu-id="02276-120">如果未定義某個值，則可以移動控點，而不會有此方向的限制。</span><span class="sxs-lookup"><span data-stu-id="02276-120">If a value is not defined, the handle can be moved without limit in this direction.</span></span> <span data-ttu-id="02276-121">預設值為 0,0。</span><span class="sxs-lookup"><span data-stu-id="02276-121">The default value is 0,0.</span></span>
 
-<span data-ttu-id="75a92-122">*VML 標準屬性*</span><span class="sxs-lookup"><span data-stu-id="75a92-122">*VML Standard Attribute*</span></span>
+<span data-ttu-id="02276-122">*VML 標準屬性*</span><span class="sxs-lookup"><span data-stu-id="02276-122">*VML Standard Attribute*</span></span>
 
  
 

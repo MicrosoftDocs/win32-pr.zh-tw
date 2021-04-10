@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689524"
 ---
-# <a name="vistaparamconfiguration-field"></a><span data-ttu-id="1162a-103">VistaParam.Configuration 欄位</span><span class="sxs-lookup"><span data-stu-id="1162a-103">VistaParam.Configuration field</span></span>
+# <a name="vistaparamconfiguration-field"></a><span data-ttu-id="47fa3-103">VistaParam.Configuration 欄位</span><span class="sxs-lookup"><span data-stu-id="47fa3-103">VistaParam.Configuration field</span></span>
 
-<span data-ttu-id="1162a-104">此參數會針對整組系統參數公開多組預設值。</span><span class="sxs-lookup"><span data-stu-id="1162a-104">This parameter exposes multiple sets of default values for the entire set of system parameters.</span></span> <span data-ttu-id="1162a-105">當此參數設定為特定設定時，所有系統參數值都會重設為該設定的預設值。</span><span class="sxs-lookup"><span data-stu-id="1162a-105">When this parameter is set to a specific configuration, all system parameter values are reset to their default values for that configuration.</span></span> <span data-ttu-id="1162a-106">如果設定特定實例的設定，則全域系統參數將不會重設為其預設值。</span><span class="sxs-lookup"><span data-stu-id="1162a-106">If the configuration is set for a specific instance then global system parameters will not be reset to their default values.</span></span> <span data-ttu-id="1162a-107">Small Configuration (0) ：資料庫引擎已針對記憶體使用量優化。</span><span class="sxs-lookup"><span data-stu-id="1162a-107">Small Configuration (0): The database engine is optimized for memory use.</span></span> <span data-ttu-id="1162a-108">舊版設定 (1) ：資料庫引擎有其傳統預設值。</span><span class="sxs-lookup"><span data-stu-id="1162a-108">Legacy Configuration (1): The database engine has its traditional defaults.</span></span>
+<span data-ttu-id="47fa3-104">此參數會針對整組系統參數公開多組預設值。</span><span class="sxs-lookup"><span data-stu-id="47fa3-104">This parameter exposes multiple sets of default values for the entire set of system parameters.</span></span> <span data-ttu-id="47fa3-105">當此參數設定為特定設定時，所有系統參數值都會重設為該設定的預設值。</span><span class="sxs-lookup"><span data-stu-id="47fa3-105">When this parameter is set to a specific configuration, all system parameter values are reset to their default values for that configuration.</span></span> <span data-ttu-id="47fa3-106">如果設定特定實例的設定，則全域系統參數將不會重設為其預設值。</span><span class="sxs-lookup"><span data-stu-id="47fa3-106">If the configuration is set for a specific instance then global system parameters will not be reset to their default values.</span></span> <span data-ttu-id="47fa3-107">Small Configuration (0) ：資料庫引擎已針對記憶體使用量優化。</span><span class="sxs-lookup"><span data-stu-id="47fa3-107">Small Configuration (0): The database engine is optimized for memory use.</span></span> <span data-ttu-id="47fa3-108">舊版設定 (1) ：資料庫引擎有其傳統預設值。</span><span class="sxs-lookup"><span data-stu-id="47fa3-108">Legacy Configuration (1): The database engine has its traditional defaults.</span></span>
 
-<span data-ttu-id="1162a-109">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="1162a-109">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
-<span data-ttu-id="1162a-110">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="1162a-110">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="47fa3-109">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="47fa3-109">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
+<span data-ttu-id="47fa3-110">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="47fa3-110">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1162a-111">語法</span><span class="sxs-lookup"><span data-stu-id="1162a-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="47fa3-111">語法</span><span class="sxs-lookup"><span data-stu-id="47fa3-111">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = VistaParam.Configuration
 public const JET_param Configuration
 ```
 
-## <a name="see-also"></a><span data-ttu-id="1162a-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1162a-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="47fa3-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="47fa3-112">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="1162a-113">參考</span><span class="sxs-lookup"><span data-stu-id="1162a-113">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="47fa3-113">參考</span><span class="sxs-lookup"><span data-stu-id="47fa3-113">Reference</span></span>
 
-[<span data-ttu-id="1162a-114">VistaParam 類別</span><span class="sxs-lookup"><span data-stu-id="1162a-114">VistaParam class</span></span>](./vistaparam-class.md)
+[<span data-ttu-id="47fa3-114">VistaParam 類別</span><span class="sxs-lookup"><span data-stu-id="47fa3-114">VistaParam class</span></span>](./vistaparam-class.md)
 
-[<span data-ttu-id="1162a-115">VistaParam 成員</span><span class="sxs-lookup"><span data-stu-id="1162a-115">VistaParam members</span></span>](./vistaparam-members.md)
+[<span data-ttu-id="47fa3-115">VistaParam 成員</span><span class="sxs-lookup"><span data-stu-id="47fa3-115">VistaParam members</span></span>](./vistaparam-members.md)
 
-[<span data-ttu-id="1162a-116">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="1162a-116">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)
+[<span data-ttu-id="47fa3-116">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="47fa3-116">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)

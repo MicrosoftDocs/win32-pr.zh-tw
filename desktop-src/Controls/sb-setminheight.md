@@ -21,41 +21,41 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934793"
 ---
-# <a name="sb_setminheight-message"></a><span data-ttu-id="d6018-104">SB \_ SETMINHEIGHT 訊息</span><span class="sxs-lookup"><span data-stu-id="d6018-104">SB\_SETMINHEIGHT message</span></span>
+# <a name="sb_setminheight-message"></a><span data-ttu-id="4507b-104">SB \_ SETMINHEIGHT 訊息</span><span class="sxs-lookup"><span data-stu-id="4507b-104">SB\_SETMINHEIGHT message</span></span>
 
-<span data-ttu-id="d6018-105">設定狀態視窗之繪圖區域的最小高度。</span><span class="sxs-lookup"><span data-stu-id="d6018-105">Sets the minimum height of a status window's drawing area.</span></span>
+<span data-ttu-id="4507b-105">設定狀態視窗之繪圖區域的最小高度。</span><span class="sxs-lookup"><span data-stu-id="4507b-105">Sets the minimum height of a status window's drawing area.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="d6018-106">參數</span><span class="sxs-lookup"><span data-stu-id="d6018-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4507b-106">參數</span><span class="sxs-lookup"><span data-stu-id="4507b-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="d6018-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="d6018-107">*wParam*</span></span> 
+<span data-ttu-id="4507b-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="4507b-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="d6018-108">視窗的最小高度（以圖元為單位）。</span><span class="sxs-lookup"><span data-stu-id="d6018-108">Minimum height, in pixels, of the window.</span></span>
+<span data-ttu-id="4507b-108">視窗的最小高度（以圖元為單位）。</span><span class="sxs-lookup"><span data-stu-id="4507b-108">Minimum height, in pixels, of the window.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d6018-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="d6018-109">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="d6018-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="d6018-110">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="4507b-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="4507b-109">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="4507b-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="4507b-110">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="d6018-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="d6018-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4507b-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="4507b-111">Return value</span></span>
 
-<span data-ttu-id="d6018-112">沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="d6018-112">No return value.</span></span>
+<span data-ttu-id="4507b-112">沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="4507b-112">No return value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d6018-113">備註</span><span class="sxs-lookup"><span data-stu-id="d6018-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4507b-113">備註</span><span class="sxs-lookup"><span data-stu-id="4507b-113">Remarks</span></span>
 
-<span data-ttu-id="d6018-114">最小高度是 *wParam* 和狀態視窗垂直框線寬度（以圖元為單位）的總和。</span><span class="sxs-lookup"><span data-stu-id="d6018-114">The minimum height is the sum of *wParam* and twice the width, in pixels, of the vertical border of the status window.</span></span> <span data-ttu-id="d6018-115">應用程式必須將 [**WM \_ 大小**](/windows/desktop/winmsg/wm-size) 訊息傳送至狀態視窗，以重繪視窗。</span><span class="sxs-lookup"><span data-stu-id="d6018-115">An application must send the [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) message to the status window to redraw the window.</span></span> <span data-ttu-id="d6018-116">**WM \_ 大小** 訊息的 *wParam* 和 *lParam* 參數應設為零。</span><span class="sxs-lookup"><span data-stu-id="d6018-116">The *wParam* and *lParam* parameters of the **WM\_SIZE** message should be set to zero.</span></span>
+<span data-ttu-id="4507b-114">最小高度是 *wParam* 和狀態視窗垂直框線寬度（以圖元為單位）的總和。</span><span class="sxs-lookup"><span data-stu-id="4507b-114">The minimum height is the sum of *wParam* and twice the width, in pixels, of the vertical border of the status window.</span></span> <span data-ttu-id="4507b-115">應用程式必須將 [**WM \_ 大小**](/windows/desktop/winmsg/wm-size) 訊息傳送至狀態視窗，以重繪視窗。</span><span class="sxs-lookup"><span data-stu-id="4507b-115">An application must send the [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) message to the status window to redraw the window.</span></span> <span data-ttu-id="4507b-116">**WM \_ 大小** 訊息的 *wParam* 和 *lParam* 參數應設為零。</span><span class="sxs-lookup"><span data-stu-id="4507b-116">The *wParam* and *lParam* parameters of the **WM\_SIZE** message should be set to zero.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="d6018-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="d6018-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4507b-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="4507b-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="d6018-118">需求</span><span class="sxs-lookup"><span data-stu-id="d6018-118">Requirement</span></span> | <span data-ttu-id="d6018-119">值</span><span class="sxs-lookup"><span data-stu-id="d6018-119">Value</span></span> |
+| <span data-ttu-id="4507b-118">需求</span><span class="sxs-lookup"><span data-stu-id="4507b-118">Requirement</span></span> | <span data-ttu-id="4507b-119">值</span><span class="sxs-lookup"><span data-stu-id="4507b-119">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="d6018-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d6018-120">Minimum supported client</span></span><br/> | <span data-ttu-id="d6018-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d6018-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="d6018-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d6018-122">Minimum supported server</span></span><br/> | <span data-ttu-id="d6018-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d6018-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="d6018-124">標頭</span><span class="sxs-lookup"><span data-stu-id="d6018-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="d6018-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="d6018-125"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="4507b-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4507b-120">Minimum supported client</span></span><br/> | <span data-ttu-id="4507b-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4507b-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="4507b-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4507b-122">Minimum supported server</span></span><br/> | <span data-ttu-id="4507b-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4507b-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="4507b-124">標頭</span><span class="sxs-lookup"><span data-stu-id="4507b-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="4507b-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="4507b-125"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103687799"
 ---
-# <a name="singapore-channel-assignments"></a><span data-ttu-id="4e2e0-103">新加坡通道指派</span><span class="sxs-lookup"><span data-stu-id="4e2e0-103">Singapore Channel Assignments</span></span>
+# <a name="singapore-channel-assignments"></a><span data-ttu-id="3eab7-103">新加坡通道指派</span><span class="sxs-lookup"><span data-stu-id="3eab7-103">Singapore Channel Assignments</span></span>
 
-<span data-ttu-id="4e2e0-104">本主題列出用於適用于新加坡之類比電視微調的頻率資料表。</span><span class="sxs-lookup"><span data-stu-id="4e2e0-104">This topic lists the frequency tables used for analog TV tuning for Singapore.</span></span>
+<span data-ttu-id="3eab7-104">本主題列出用於適用于新加坡之類比電視微調的頻率資料表。</span><span class="sxs-lookup"><span data-stu-id="3eab7-104">This topic lists the frequency tables used for analog TV tuning for Singapore.</span></span>
 
-<span data-ttu-id="4e2e0-105">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="4e2e0-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="3eab7-105">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="3eab7-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="4e2e0-106">在 Windows 7 中引進了下列通道指派。</span><span class="sxs-lookup"><span data-stu-id="4e2e0-106">The following channel assignments were introduced in Windows 7.</span></span> <span data-ttu-id="4e2e0-107">先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。</span><span class="sxs-lookup"><span data-stu-id="4e2e0-107">Previously, the [Unicable Frequency Table](unicable-frequency-table.md) was used.</span></span>
+<span data-ttu-id="3eab7-106">在 Windows 7 中引進了下列通道指派。</span><span class="sxs-lookup"><span data-stu-id="3eab7-106">The following channel assignments were introduced in Windows 7.</span></span> <span data-ttu-id="3eab7-107">先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。</span><span class="sxs-lookup"><span data-stu-id="3eab7-107">Previously, the [Unicable Frequency Table](unicable-frequency-table.md) was used.</span></span>
 
--   [<span data-ttu-id="4e2e0-108">廣播指派</span><span class="sxs-lookup"><span data-stu-id="4e2e0-108">Broadcast Assignments</span></span>](#broadcast-assignments)
--   [<span data-ttu-id="4e2e0-109">纜線指派</span><span class="sxs-lookup"><span data-stu-id="4e2e0-109">Cable Assignments</span></span>](#cable-assignments)
--   [<span data-ttu-id="4e2e0-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="4e2e0-110">Related topics</span></span>](#related-topics)
+-   [<span data-ttu-id="3eab7-108">廣播指派</span><span class="sxs-lookup"><span data-stu-id="3eab7-108">Broadcast Assignments</span></span>](#broadcast-assignments)
+-   [<span data-ttu-id="3eab7-109">纜線指派</span><span class="sxs-lookup"><span data-stu-id="3eab7-109">Cable Assignments</span></span>](#cable-assignments)
+-   [<span data-ttu-id="3eab7-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="3eab7-110">Related topics</span></span>](#related-topics)
 
-## <a name="broadcast-assignments"></a><span data-ttu-id="4e2e0-111">廣播指派</span><span class="sxs-lookup"><span data-stu-id="4e2e0-111">Broadcast Assignments</span></span>
+## <a name="broadcast-assignments"></a><span data-ttu-id="3eab7-111">廣播指派</span><span class="sxs-lookup"><span data-stu-id="3eab7-111">Broadcast Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -102,7 +102,7 @@ ms.locfileid: "103687799"
        855250000L,      // 69
 ```
 
-## <a name="cable-assignments"></a><span data-ttu-id="4e2e0-112">纜線指派</span><span class="sxs-lookup"><span data-stu-id="4e2e0-112">Cable Assignments</span></span>
+## <a name="cable-assignments"></a><span data-ttu-id="3eab7-112">纜線指派</span><span class="sxs-lookup"><span data-stu-id="3eab7-112">Cable Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -179,11 +179,11 @@ ms.locfileid: "103687799"
        855250000L,      // 69 TV69
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="4e2e0-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="4e2e0-113">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3eab7-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="3eab7-113">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4e2e0-114">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="4e2e0-114">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="3eab7-114">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="3eab7-114">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  

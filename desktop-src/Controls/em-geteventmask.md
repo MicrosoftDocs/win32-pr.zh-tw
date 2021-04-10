@@ -21,55 +21,55 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934737"
 ---
-# <a name="em_geteventmask-message"></a><span data-ttu-id="9de27-105">EM \_ GETEVENTMASK 訊息</span><span class="sxs-lookup"><span data-stu-id="9de27-105">EM\_GETEVENTMASK message</span></span>
+# <a name="em_geteventmask-message"></a><span data-ttu-id="dcc77-105">EM \_ GETEVENTMASK 訊息</span><span class="sxs-lookup"><span data-stu-id="dcc77-105">EM\_GETEVENTMASK message</span></span>
 
-<span data-ttu-id="9de27-106">抓取 rich edit 控制項的事件遮罩。</span><span class="sxs-lookup"><span data-stu-id="9de27-106">Retrieves the event mask for a rich edit control.</span></span> <span data-ttu-id="9de27-107">事件遮罩會指定控制項傳送至其父視窗的通知碼。</span><span class="sxs-lookup"><span data-stu-id="9de27-107">The event mask specifies which notification codes the control sends to its parent window.</span></span>
+<span data-ttu-id="dcc77-106">抓取 rich edit 控制項的事件遮罩。</span><span class="sxs-lookup"><span data-stu-id="dcc77-106">Retrieves the event mask for a rich edit control.</span></span> <span data-ttu-id="dcc77-107">事件遮罩會指定控制項傳送至其父視窗的通知碼。</span><span class="sxs-lookup"><span data-stu-id="dcc77-107">The event mask specifies which notification codes the control sends to its parent window.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="9de27-108">參數</span><span class="sxs-lookup"><span data-stu-id="9de27-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="dcc77-108">參數</span><span class="sxs-lookup"><span data-stu-id="dcc77-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="9de27-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="9de27-109">*wParam*</span></span> 
+<span data-ttu-id="dcc77-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="dcc77-109">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="9de27-110">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="9de27-110">Not used; must be zero.</span></span>
+<span data-ttu-id="dcc77-110">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="dcc77-110">Not used; must be zero.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="9de27-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="9de27-111">*lParam*</span></span> 
+<span data-ttu-id="dcc77-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="dcc77-111">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="9de27-112">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="9de27-112">Not used; must be zero.</span></span>
+<span data-ttu-id="dcc77-112">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="dcc77-112">Not used; must be zero.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="9de27-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="9de27-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dcc77-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="dcc77-113">Return value</span></span>
 
-<span data-ttu-id="9de27-114">此訊息會傳回 rich edit 控制項的事件遮罩。</span><span class="sxs-lookup"><span data-stu-id="9de27-114">This message returns the event mask for the rich edit control.</span></span>
+<span data-ttu-id="dcc77-114">此訊息會傳回 rich edit 控制項的事件遮罩。</span><span class="sxs-lookup"><span data-stu-id="dcc77-114">This message returns the event mask for the rich edit control.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="9de27-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="9de27-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="dcc77-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="dcc77-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="9de27-116">需求</span><span class="sxs-lookup"><span data-stu-id="9de27-116">Requirement</span></span> | <span data-ttu-id="9de27-117">值</span><span class="sxs-lookup"><span data-stu-id="9de27-117">Value</span></span> |
+| <span data-ttu-id="dcc77-116">需求</span><span class="sxs-lookup"><span data-stu-id="dcc77-116">Requirement</span></span> | <span data-ttu-id="dcc77-117">值</span><span class="sxs-lookup"><span data-stu-id="dcc77-117">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="9de27-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9de27-118">Minimum supported client</span></span><br/> | <span data-ttu-id="9de27-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9de27-119">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="9de27-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9de27-120">Minimum supported server</span></span><br/> | <span data-ttu-id="9de27-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9de27-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="9de27-122">標頭</span><span class="sxs-lookup"><span data-stu-id="9de27-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="9de27-123"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="9de27-123"><dt>Richedit.h</dt></span></span> </dl> |
+| <span data-ttu-id="dcc77-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="dcc77-118">Minimum supported client</span></span><br/> | <span data-ttu-id="dcc77-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="dcc77-119">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="dcc77-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="dcc77-120">Minimum supported server</span></span><br/> | <span data-ttu-id="dcc77-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="dcc77-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="dcc77-122">標頭</span><span class="sxs-lookup"><span data-stu-id="dcc77-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="dcc77-123"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="dcc77-123"><dt>Richedit.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="9de27-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9de27-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dcc77-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dcc77-124">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="9de27-125">**參考**</span><span class="sxs-lookup"><span data-stu-id="9de27-125">**Reference**</span></span>
+<span data-ttu-id="dcc77-125">**參考**</span><span class="sxs-lookup"><span data-stu-id="dcc77-125">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="9de27-126">**EM \_ SETEVENTMASK**</span><span class="sxs-lookup"><span data-stu-id="9de27-126">**EM\_SETEVENTMASK**</span></span>](em-seteventmask.md)
+[<span data-ttu-id="dcc77-126">**EM \_ SETEVENTMASK**</span><span class="sxs-lookup"><span data-stu-id="dcc77-126">**EM\_SETEVENTMASK**</span></span>](em-seteventmask.md)
 </dt> <dt>
 
-[<span data-ttu-id="9de27-127">**Rich Edit 控制項事件遮罩旗標**</span><span class="sxs-lookup"><span data-stu-id="9de27-127">**Rich Edit Control Event Mask Flags**</span></span>](rich-edit-control-event-mask-flags.md)
+[<span data-ttu-id="dcc77-127">**Rich Edit 控制項事件遮罩旗標**</span><span class="sxs-lookup"><span data-stu-id="dcc77-127">**Rich Edit Control Event Mask Flags**</span></span>](rich-edit-control-event-mask-flags.md)
 </dt> </dl>
 
  

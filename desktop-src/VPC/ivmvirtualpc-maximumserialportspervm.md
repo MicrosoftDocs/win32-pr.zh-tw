@@ -24,15 +24,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "104093739"
 ---
-# <a name="ivmvirtualpcmaximumserialportspervm-property"></a><span data-ttu-id="4f096-106">IVMVirtualPC：： MaximumSerialPortsPerVM 屬性</span><span class="sxs-lookup"><span data-stu-id="4f096-106">IVMVirtualPC::MaximumSerialPortsPerVM property</span></span>
+# <a name="ivmvirtualpcmaximumserialportspervm-property"></a><span data-ttu-id="e0a2e-106">IVMVirtualPC：： MaximumSerialPortsPerVM 屬性</span><span class="sxs-lookup"><span data-stu-id="e0a2e-106">IVMVirtualPC::MaximumSerialPortsPerVM property</span></span>
 
-<span data-ttu-id="4f096-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="4f096-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="4f096-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="4f096-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
+<span data-ttu-id="e0a2e-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="e0a2e-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="e0a2e-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="e0a2e-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
 
-<span data-ttu-id="4f096-109">抓取每個虛擬機器的序列埠數目上限。</span><span class="sxs-lookup"><span data-stu-id="4f096-109">Retrieves the maximum number of serial ports per virtual machine.</span></span>
+<span data-ttu-id="e0a2e-109">抓取每個虛擬機器的序列埠數目上限。</span><span class="sxs-lookup"><span data-stu-id="e0a2e-109">Retrieves the maximum number of serial ports per virtual machine.</span></span>
 
-<span data-ttu-id="4f096-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="4f096-110">This property is read-only.</span></span>
+<span data-ttu-id="e0a2e-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="e0a2e-110">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4f096-111">語法</span><span class="sxs-lookup"><span data-stu-id="4f096-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e0a2e-111">語法</span><span class="sxs-lookup"><span data-stu-id="e0a2e-111">Syntax</span></span>
 
 
 ```C++
@@ -43,43 +43,43 @@ HRESULT get_MaximumSerialPortsPerVM(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="4f096-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="4f096-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="e0a2e-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="e0a2e-112">Property value</span></span>
 
-<span data-ttu-id="4f096-113">每個虛擬機器的序列埠數目上限。</span><span class="sxs-lookup"><span data-stu-id="4f096-113">The maximum number of serial ports per virtual machine.</span></span>
+<span data-ttu-id="e0a2e-113">每個虛擬機器的序列埠數目上限。</span><span class="sxs-lookup"><span data-stu-id="e0a2e-113">The maximum number of serial ports per virtual machine.</span></span>
 
-## <a name="error-codes"></a><span data-ttu-id="4f096-114">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="4f096-114">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="e0a2e-114">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="e0a2e-114">Error codes</span></span>
 
 
 
-| <span data-ttu-id="4f096-115">名稱/值</span><span class="sxs-lookup"><span data-stu-id="4f096-115">Name/value</span></span>                                                                                                                                                                           | <span data-ttu-id="4f096-116">意義</span><span class="sxs-lookup"><span data-stu-id="4f096-116">Meaning</span></span>                                                                                         |
+| <span data-ttu-id="e0a2e-115">名稱/值</span><span class="sxs-lookup"><span data-stu-id="e0a2e-115">Name/value</span></span>                                                                                                                                                                           | <span data-ttu-id="e0a2e-116">意義</span><span class="sxs-lookup"><span data-stu-id="e0a2e-116">Meaning</span></span>                                                                                         |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| <dl> <span data-ttu-id="4f096-117"><dt>S \_確定</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="4f096-117"><dt>S\_OK</dt> <dt>0</dt></span></span> </dl>                                              | <span data-ttu-id="4f096-118">作業成功。</span><span class="sxs-lookup"><span data-stu-id="4f096-118">The operation was successful.</span></span><br/>                                                        |
-| <dl> <span data-ttu-id="4f096-119"><dt>E \_指標</dt><dt>且顯示 0x80004003</dt></span><span class="sxs-lookup"><span data-stu-id="4f096-119"><dt>E\_POINTER</dt> <dt>0x80004003</dt></span></span> </dl>                                | <span data-ttu-id="4f096-120">參數為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="4f096-120">The parameter is **NULL**.</span></span><br/>                                                           |
-| <dl> <span data-ttu-id="4f096-121"><dt>會 \_E \_ 例外</dt>狀況 <dt>0x80020009</dt></span><span class="sxs-lookup"><span data-stu-id="4f096-121"><dt>DISP\_E\_EXCEPTION</dt> <dt>0x80020009</dt></span></span> </dl>                        | <span data-ttu-id="4f096-122">已發生未預期的錯誤。</span><span class="sxs-lookup"><span data-stu-id="4f096-122">An unexpected error has occurred.</span></span><br/>                                                    |
-| <dl> <span data-ttu-id="4f096-123"><dt>VM \_E \_ 硬體 \_ 虛擬化 \_ 已停用</dt> <dt>0xA0040951</dt></span><span class="sxs-lookup"><span data-stu-id="4f096-123"><dt>VM\_E\_HARDWARE\_VIRTUALIZATION\_DISABLED</dt> <dt>0xA0040951</dt></span></span> </dl> | <span data-ttu-id="4f096-124">處理器不支援硬體加速虛擬化 (包含老舊) 擴充功能。</span><span class="sxs-lookup"><span data-stu-id="4f096-124">The processor does not support Hardware Accelerated Virtualization (HAV) extensions.</span></span><br/> |
+| <dl> <span data-ttu-id="e0a2e-117"><dt>S \_確定</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="e0a2e-117"><dt>S\_OK</dt> <dt>0</dt></span></span> </dl>                                              | <span data-ttu-id="e0a2e-118">作業成功。</span><span class="sxs-lookup"><span data-stu-id="e0a2e-118">The operation was successful.</span></span><br/>                                                        |
+| <dl> <span data-ttu-id="e0a2e-119"><dt>E \_指標</dt><dt>且顯示 0x80004003</dt></span><span class="sxs-lookup"><span data-stu-id="e0a2e-119"><dt>E\_POINTER</dt> <dt>0x80004003</dt></span></span> </dl>                                | <span data-ttu-id="e0a2e-120">參數為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="e0a2e-120">The parameter is **NULL**.</span></span><br/>                                                           |
+| <dl> <span data-ttu-id="e0a2e-121"><dt>會 \_E \_ 例外</dt>狀況 <dt>0x80020009</dt></span><span class="sxs-lookup"><span data-stu-id="e0a2e-121"><dt>DISP\_E\_EXCEPTION</dt> <dt>0x80020009</dt></span></span> </dl>                        | <span data-ttu-id="e0a2e-122">已發生未預期的錯誤。</span><span class="sxs-lookup"><span data-stu-id="e0a2e-122">An unexpected error has occurred.</span></span><br/>                                                    |
+| <dl> <span data-ttu-id="e0a2e-123"><dt>VM \_E \_ 硬體 \_ 虛擬化 \_ 已停用</dt> <dt>0xA0040951</dt></span><span class="sxs-lookup"><span data-stu-id="e0a2e-123"><dt>VM\_E\_HARDWARE\_VIRTUALIZATION\_DISABLED</dt> <dt>0xA0040951</dt></span></span> </dl> | <span data-ttu-id="e0a2e-124">處理器不支援硬體加速虛擬化 (包含老舊) 擴充功能。</span><span class="sxs-lookup"><span data-stu-id="e0a2e-124">The processor does not support Hardware Accelerated Virtualization (HAV) extensions.</span></span><br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="4f096-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="4f096-125">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e0a2e-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="e0a2e-125">Requirements</span></span>
 
 
 
-| <span data-ttu-id="4f096-126">需求</span><span class="sxs-lookup"><span data-stu-id="4f096-126">Requirement</span></span> | <span data-ttu-id="4f096-127">值</span><span class="sxs-lookup"><span data-stu-id="4f096-127">Value</span></span> |
+| <span data-ttu-id="e0a2e-126">需求</span><span class="sxs-lookup"><span data-stu-id="e0a2e-126">Requirement</span></span> | <span data-ttu-id="e0a2e-127">值</span><span class="sxs-lookup"><span data-stu-id="e0a2e-127">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| <span data-ttu-id="4f096-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4f096-128">Minimum supported client</span></span><br/> | <span data-ttu-id="4f096-129">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4f096-129">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="4f096-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4f096-130">Minimum supported server</span></span><br/> | <span data-ttu-id="4f096-131">都不支援</span><span class="sxs-lookup"><span data-stu-id="4f096-131">None supported</span></span><br/>                                                                     |
-| <span data-ttu-id="4f096-132">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="4f096-132">End of client support</span></span><br/>    | <span data-ttu-id="4f096-133">Windows 7</span><span class="sxs-lookup"><span data-stu-id="4f096-133">Windows 7</span></span><br/>                                                                          |
-| <span data-ttu-id="4f096-134">產品</span><span class="sxs-lookup"><span data-stu-id="4f096-134">Product</span></span><br/>                  | <span data-ttu-id="4f096-135">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="4f096-135">Windows Virtual PC</span></span><br/>                                                                 |
-| <span data-ttu-id="4f096-136">標頭</span><span class="sxs-lookup"><span data-stu-id="4f096-136">Header</span></span><br/>                   | <dl> <span data-ttu-id="4f096-137"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="4f096-137"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
-| <span data-ttu-id="4f096-138">IID</span><span class="sxs-lookup"><span data-stu-id="4f096-138">IID</span></span><br/>                      | <span data-ttu-id="4f096-139">IID \_ IVMVirtualPC 定義為 236ba0d9-a24a-4292-a132-27c1421dfd01</span><span class="sxs-lookup"><span data-stu-id="4f096-139">IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01</span></span><br/>               |
+| <span data-ttu-id="e0a2e-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e0a2e-128">Minimum supported client</span></span><br/> | <span data-ttu-id="e0a2e-129">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e0a2e-129">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="e0a2e-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e0a2e-130">Minimum supported server</span></span><br/> | <span data-ttu-id="e0a2e-131">都不支援</span><span class="sxs-lookup"><span data-stu-id="e0a2e-131">None supported</span></span><br/>                                                                     |
+| <span data-ttu-id="e0a2e-132">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="e0a2e-132">End of client support</span></span><br/>    | <span data-ttu-id="e0a2e-133">Windows 7</span><span class="sxs-lookup"><span data-stu-id="e0a2e-133">Windows 7</span></span><br/>                                                                          |
+| <span data-ttu-id="e0a2e-134">產品</span><span class="sxs-lookup"><span data-stu-id="e0a2e-134">Product</span></span><br/>                  | <span data-ttu-id="e0a2e-135">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="e0a2e-135">Windows Virtual PC</span></span><br/>                                                                 |
+| <span data-ttu-id="e0a2e-136">標頭</span><span class="sxs-lookup"><span data-stu-id="e0a2e-136">Header</span></span><br/>                   | <dl> <span data-ttu-id="e0a2e-137"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="e0a2e-137"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
+| <span data-ttu-id="e0a2e-138">IID</span><span class="sxs-lookup"><span data-stu-id="e0a2e-138">IID</span></span><br/>                      | <span data-ttu-id="e0a2e-139">IID \_ IVMVirtualPC 定義為 236ba0d9-a24a-4292-a132-27c1421dfd01</span><span class="sxs-lookup"><span data-stu-id="e0a2e-139">IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01</span></span><br/>               |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="4f096-140">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4f096-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e0a2e-140">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e0a2e-140">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4f096-141">**IVMVirtualPC**</span><span class="sxs-lookup"><span data-stu-id="4f096-141">**IVMVirtualPC**</span></span>](ivmvirtualpc.md)
+[<span data-ttu-id="e0a2e-141">**IVMVirtualPC**</span><span class="sxs-lookup"><span data-stu-id="e0a2e-141">**IVMVirtualPC**</span></span>](ivmvirtualpc.md)
 </dt> </dl>
 
  

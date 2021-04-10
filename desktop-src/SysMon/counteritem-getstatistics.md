@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934504"
 ---
-# <a name="counteritemgetstatistics-method"></a><span data-ttu-id="419de-106">CounterItem. GetStatistics 方法</span><span class="sxs-lookup"><span data-stu-id="419de-106">CounterItem.GetStatistics method</span></span>
+# <a name="counteritemgetstatistics-method"></a><span data-ttu-id="2f14e-106">CounterItem. GetStatistics 方法</span><span class="sxs-lookup"><span data-stu-id="2f14e-106">CounterItem.GetStatistics method</span></span>
 
-<span data-ttu-id="419de-107">抓取計數器的平均值、最大值和最小值。</span><span class="sxs-lookup"><span data-stu-id="419de-107">Retrieves the average, maximum, and minimum values for the counter.</span></span>
+<span data-ttu-id="2f14e-107">抓取計數器的平均值、最大值和最小值。</span><span class="sxs-lookup"><span data-stu-id="2f14e-107">Retrieves the average, maximum, and minimum values for the counter.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="419de-108">語法</span><span class="sxs-lookup"><span data-stu-id="419de-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2f14e-108">語法</span><span class="sxs-lookup"><span data-stu-id="2f14e-108">Syntax</span></span>
 
 
 ```VB
@@ -41,42 +41,42 @@ CounterItem.GetStatistics( _
 
 
 
-## <a name="parameters"></a><span data-ttu-id="419de-109">參數</span><span class="sxs-lookup"><span data-stu-id="419de-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2f14e-109">參數</span><span class="sxs-lookup"><span data-stu-id="2f14e-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="419de-110">*最大值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="419de-110">*max* \[out\]</span></span>
+<span data-ttu-id="2f14e-110">*最大值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="2f14e-110">*max* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="419de-111">計數器的最大值。</span><span class="sxs-lookup"><span data-stu-id="419de-111">Maximum value of the counter.</span></span>
+<span data-ttu-id="2f14e-111">計數器的最大值。</span><span class="sxs-lookup"><span data-stu-id="2f14e-111">Maximum value of the counter.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="419de-112">*最小值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="419de-112">*min* \[out\]</span></span>
+<span data-ttu-id="2f14e-112">*最小值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="2f14e-112">*min* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="419de-113">計數器的最小值。</span><span class="sxs-lookup"><span data-stu-id="419de-113">Minimum value of the counter.</span></span>
+<span data-ttu-id="2f14e-113">計數器的最小值。</span><span class="sxs-lookup"><span data-stu-id="2f14e-113">Minimum value of the counter.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="419de-114">*平均* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="419de-114">*average* \[out\]</span></span>
+<span data-ttu-id="2f14e-114">*平均* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="2f14e-114">*average* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="419de-115">計數器的平均值。</span><span class="sxs-lookup"><span data-stu-id="419de-115">Average value of the counter.</span></span>
+<span data-ttu-id="2f14e-115">計數器的平均值。</span><span class="sxs-lookup"><span data-stu-id="2f14e-115">Average value of the counter.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="419de-116">*狀態* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="419de-116">*status* \[out\]</span></span>
+<span data-ttu-id="2f14e-116">*狀態* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="2f14e-116">*status* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="419de-117">指出值是否有效。</span><span class="sxs-lookup"><span data-stu-id="419de-117">Indicates if the values are valid.</span></span>
+<span data-ttu-id="2f14e-117">指出值是否有效。</span><span class="sxs-lookup"><span data-stu-id="2f14e-117">Indicates if the values are valid.</span></span>
 
 
 
-| <span data-ttu-id="419de-118">值</span><span class="sxs-lookup"><span data-stu-id="419de-118">Value</span></span>                                                                                              | <span data-ttu-id="419de-119">意義</span><span class="sxs-lookup"><span data-stu-id="419de-119">Meaning</span></span>                              |
+| <span data-ttu-id="2f14e-118">值</span><span class="sxs-lookup"><span data-stu-id="2f14e-118">Value</span></span>                                                                                              | <span data-ttu-id="2f14e-119">意義</span><span class="sxs-lookup"><span data-stu-id="2f14e-119">Meaning</span></span>                              |
 |----------------------------------------------------------------------------------------------------|--------------------------------------|
-| <dl> <span data-ttu-id="419de-120"><dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="419de-120"><dt>0</dt></span></span> </dl>                       | <span data-ttu-id="419de-121">值有效。</span><span class="sxs-lookup"><span data-stu-id="419de-121">The values are valid.</span></span><br/>     |
-| <dl> <span data-ttu-id="419de-122"><dt>0xC0000BBA (3221228474) </dt></span><span class="sxs-lookup"><span data-stu-id="419de-122"><dt>0xC0000BBA (3221228474)</dt></span></span> </dl> | <span data-ttu-id="419de-123">值無效。</span><span class="sxs-lookup"><span data-stu-id="419de-123">The values are not valid.</span></span><br/> |
+| <dl> <span data-ttu-id="2f14e-120"><dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="2f14e-120"><dt>0</dt></span></span> </dl>                       | <span data-ttu-id="2f14e-121">值有效。</span><span class="sxs-lookup"><span data-stu-id="2f14e-121">The values are valid.</span></span><br/>     |
+| <dl> <span data-ttu-id="2f14e-122"><dt>0xC0000BBA (3221228474) </dt></span><span class="sxs-lookup"><span data-stu-id="2f14e-122"><dt>0xC0000BBA (3221228474)</dt></span></span> </dl> | <span data-ttu-id="2f14e-123">值無效。</span><span class="sxs-lookup"><span data-stu-id="2f14e-123">The values are not valid.</span></span><br/> |
 
 
 
@@ -84,37 +84,37 @@ CounterItem.GetStatistics( _
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="419de-124">傳回值</span><span class="sxs-lookup"><span data-stu-id="419de-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2f14e-124">傳回值</span><span class="sxs-lookup"><span data-stu-id="2f14e-124">Return value</span></span>
 
-<span data-ttu-id="419de-125">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="419de-125">This method does not return a value.</span></span>
+<span data-ttu-id="2f14e-125">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="2f14e-125">This method does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="419de-126">備註</span><span class="sxs-lookup"><span data-stu-id="419de-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2f14e-126">備註</span><span class="sxs-lookup"><span data-stu-id="2f14e-126">Remarks</span></span>
 
-<span data-ttu-id="419de-127">只有在圖形視窗中顯示的計數器值會用來計算統計值。</span><span class="sxs-lookup"><span data-stu-id="419de-127">Only those counter values that are visible in the graph window are used to calculate the statistical values.</span></span>
+<span data-ttu-id="2f14e-127">只有在圖形視窗中顯示的計數器值會用來計算統計值。</span><span class="sxs-lookup"><span data-stu-id="2f14e-127">Only those counter values that are visible in the graph window are used to calculate the statistical values.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="419de-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="419de-128">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2f14e-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="2f14e-128">Requirements</span></span>
 
 
 
-| <span data-ttu-id="419de-129">需求</span><span class="sxs-lookup"><span data-stu-id="419de-129">Requirement</span></span> | <span data-ttu-id="419de-130">值</span><span class="sxs-lookup"><span data-stu-id="419de-130">Value</span></span> |
+| <span data-ttu-id="2f14e-129">需求</span><span class="sxs-lookup"><span data-stu-id="2f14e-129">Requirement</span></span> | <span data-ttu-id="2f14e-130">值</span><span class="sxs-lookup"><span data-stu-id="2f14e-130">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="419de-131">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="419de-131">Minimum supported client</span></span><br/> | <span data-ttu-id="419de-132">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="419de-132">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
-| <span data-ttu-id="419de-133">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="419de-133">Minimum supported server</span></span><br/> | <span data-ttu-id="419de-134">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="419de-134">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="419de-135">DLL</span><span class="sxs-lookup"><span data-stu-id="419de-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="419de-136"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="419de-136"><dt>Sysmon.ocx</dt></span></span> </dl> |
+| <span data-ttu-id="2f14e-131">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2f14e-131">Minimum supported client</span></span><br/> | <span data-ttu-id="2f14e-132">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2f14e-132">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
+| <span data-ttu-id="2f14e-133">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2f14e-133">Minimum supported server</span></span><br/> | <span data-ttu-id="2f14e-134">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2f14e-134">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="2f14e-135">DLL</span><span class="sxs-lookup"><span data-stu-id="2f14e-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2f14e-136"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="2f14e-136"><dt>Sysmon.ocx</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="419de-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="419de-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f14e-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2f14e-137">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="419de-138">**CounterItem**</span><span class="sxs-lookup"><span data-stu-id="419de-138">**CounterItem**</span></span>](counteritem.md)
+[<span data-ttu-id="2f14e-138">**CounterItem**</span><span class="sxs-lookup"><span data-stu-id="2f14e-138">**CounterItem**</span></span>](counteritem.md)
 </dt> <dt>
 
-[<span data-ttu-id="419de-139">**CounterItem.GetDataAt**</span><span class="sxs-lookup"><span data-stu-id="419de-139">**CounterItem.GetDataAt**</span></span>](counteritem-getdataat.md)
+[<span data-ttu-id="2f14e-139">**CounterItem.GetDataAt**</span><span class="sxs-lookup"><span data-stu-id="2f14e-139">**CounterItem.GetDataAt**</span></span>](counteritem-getdataat.md)
 </dt> <dt>
 
-[<span data-ttu-id="419de-140">**CounterItem**</span><span class="sxs-lookup"><span data-stu-id="419de-140">**CounterItem.GetValue**</span></span>](counteritem-getvalue.md)
+[<span data-ttu-id="2f14e-140">**CounterItem**</span><span class="sxs-lookup"><span data-stu-id="2f14e-140">**CounterItem.GetValue**</span></span>](counteritem-getvalue.md)
 </dt> </dl>
 
  

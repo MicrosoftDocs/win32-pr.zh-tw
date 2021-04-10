@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "104024113"
 ---
-# <a name="eaphost-call-sequence"></a><span data-ttu-id="3a054-104">EAPHost 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="3a054-104">EAPHost Call Sequence</span></span>
+# <a name="eaphost-call-sequence"></a><span data-ttu-id="6525a-104">EAPHost 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="6525a-104">EAPHost Call Sequence</span></span>
 
-<span data-ttu-id="3a054-105">下列主題提供每個 API 的特定呼叫順序。</span><span class="sxs-lookup"><span data-stu-id="3a054-105">The specific call sequences for each API are provided in the following topics.</span></span>
+<span data-ttu-id="6525a-105">下列主題提供每個 API 的特定呼叫順序。</span><span class="sxs-lookup"><span data-stu-id="6525a-105">The specific call sequences for each API are provided in the following topics.</span></span>
 
--   [<span data-ttu-id="3a054-106">要求者 API 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="3a054-106">Supplicant API Call Sequence</span></span>](supplicant-api-call-sequence.md)
--   [<span data-ttu-id="3a054-107">對等方法 API 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="3a054-107">Peer Method API Call Sequence</span></span>](peer-method-api-call-sequence.md)
--   [<span data-ttu-id="3a054-108">通道方法 API 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="3a054-108">Tunnel Method API Call Sequence</span></span>](tunnel-method-api-call-sequence1.md)
--   [<span data-ttu-id="3a054-109">驗證者方法 API 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="3a054-109">Authenticator Method API Call Sequence</span></span>](authenticator-method-api-call-sequence.md)
+-   [<span data-ttu-id="6525a-106">要求者 API 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="6525a-106">Supplicant API Call Sequence</span></span>](supplicant-api-call-sequence.md)
+-   [<span data-ttu-id="6525a-107">對等方法 API 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="6525a-107">Peer Method API Call Sequence</span></span>](peer-method-api-call-sequence.md)
+-   [<span data-ttu-id="6525a-108">通道方法 API 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="6525a-108">Tunnel Method API Call Sequence</span></span>](tunnel-method-api-call-sequence1.md)
+-   [<span data-ttu-id="6525a-109">驗證者方法 API 呼叫順序</span><span class="sxs-lookup"><span data-stu-id="6525a-109">Authenticator Method API Call Sequence</span></span>](authenticator-method-api-call-sequence.md)
 
  
 

@@ -1,0 +1,32 @@
+---
+title: 進行結構和等位
+description: 傳遞最佳化 (執行) 介面會使用下列結構。
+ms.assetid: 58A5361E-871A-4911-85BD-83F18CB9A2F5
+ms.topic: article
+ms.date: 07/03/2019
+ms.openlocfilehash: 860672e72e1e5f134382fd46cd9b36d1d411361e
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104092976"
+---
+# <a name="do-structures-and-unions"></a><span data-ttu-id="b833b-103">進行結構和等位</span><span class="sxs-lookup"><span data-stu-id="b833b-103">DO Structures and Unions</span></span>
+
+<span data-ttu-id="b833b-104">傳遞最佳化 (執行) [介面](do-interfaces.md) 會使用下列結構。</span><span class="sxs-lookup"><span data-stu-id="b833b-104">The Delivery Optimization (DO) [interfaces](do-interfaces.md) use the following structures.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="b833b-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b833b-105">In this section</span></span>
+
+| <span data-ttu-id="b833b-106">主題</span><span class="sxs-lookup"><span data-stu-id="b833b-106">Topic</span></span> | <span data-ttu-id="b833b-107">描述</span><span class="sxs-lookup"><span data-stu-id="b833b-107">Description</span></span> |
+|-|-|
+| [<span data-ttu-id="b833b-108">**BG_FILE_PROGRESS**</span><span class="sxs-lookup"><span data-stu-id="b833b-108">**BG_FILE_PROGRESS**</span></span>](bg-file-progress.md) | <span data-ttu-id="b833b-109">**BG_FILE_PROGRESS** 結構會提供檔案相關的進度資訊，例如已傳送的位元組數目。</span><span class="sxs-lookup"><span data-stu-id="b833b-109">The **BG_FILE_PROGRESS** structure provides file-related progress information, such as the number of bytes transferred.</span></span> |
+| [<span data-ttu-id="b833b-110">**BG_FILE_RANGE**</span><span class="sxs-lookup"><span data-stu-id="b833b-110">**BG_FILE_RANGE**</span></span>](bg-file-range.md) | <span data-ttu-id="b833b-111">**BG_FILE_RANGE** 結構會識別要從檔案下載的位元組範圍。</span><span class="sxs-lookup"><span data-stu-id="b833b-111">The **BG_FILE_RANGE** structure identifies a range of bytes to download from a file.</span></span> |
+| [<span data-ttu-id="b833b-112">**BG_JOB_PROGRESS**</span><span class="sxs-lookup"><span data-stu-id="b833b-112">**BG_JOB_PROGRESS**</span></span>](bg-job-progress.md) | <span data-ttu-id="b833b-113">**BG_JOB_PROGRESS** 結構會提供作業相關的進度資訊，例如已傳送的位元組和檔案數目。</span><span class="sxs-lookup"><span data-stu-id="b833b-113">The **BG_JOB_PROGRESS** structure provides job-related progress information, such as the number of bytes and files transferred.</span></span> <span data-ttu-id="b833b-114">針對上傳作業，進度會套用至上傳檔案，而不是回復檔。</span><span class="sxs-lookup"><span data-stu-id="b833b-114">For upload jobs, the progress applies to the upload file, not the reply file.</span></span>  |
+| [<span data-ttu-id="b833b-115">**BG_JOB_TIMES**</span><span class="sxs-lookup"><span data-stu-id="b833b-115">**BG_JOB_TIMES**</span></span>](bg-job-times.md) | <span data-ttu-id="b833b-116">**BG_JOB_TIMES** 結構會提供作業相關的時間戳記。</span><span class="sxs-lookup"><span data-stu-id="b833b-116">The **BG_JOB_TIMES** structure provides job-related time stamps.</span></span> |
+| [<span data-ttu-id="b833b-117">**BITS_FILE_PROPERTY_VALUE**</span><span class="sxs-lookup"><span data-stu-id="b833b-117">**BITS_FILE_PROPERTY_VALUE**</span></span>](bits-file-property-value.md) | <span data-ttu-id="b833b-118">**BITS_FILE_PROPERTY_VALUE** 聯集會根據 [**BITS_FILE_PROPERTY_ID**](bits-file-property-id-.md)列舉中的值，提供 DO 檔案的屬性值。</span><span class="sxs-lookup"><span data-stu-id="b833b-118">The **BITS_FILE_PROPERTY_VALUE** union provides the property value of the DO file based on a value from the [**BITS_FILE_PROPERTY_ID**](bits-file-property-id-.md) enumeration.</span></span> |
+| [<span data-ttu-id="b833b-119">**BITS_JOB_PROPERTY_VALUE**</span><span class="sxs-lookup"><span data-stu-id="b833b-119">**BITS_JOB_PROPERTY_VALUE**</span></span>](bits-job-property-value-.md) | <span data-ttu-id="b833b-120">**BITS_JOB_PROPERTY_VALUE** 聯集會根據 [**BITS_JOB_PROPERTY_ID**](bits-job-property-id.md)列舉值，提供 DO 作業的屬性值。</span><span class="sxs-lookup"><span data-stu-id="b833b-120">The **BITS_JOB_PROPERTY_VALUE** union provides the property value of the DO job based on the value of the [**BITS_JOB_PROPERTY_ID**](bits-job-property-id.md) enumeration.</span></span> |
+| [<span data-ttu-id="b833b-121">**DO_DOWNLOAD_ENUM_CATEGORY**</span><span class="sxs-lookup"><span data-stu-id="b833b-121">**DO_DOWNLOAD_ENUM_CATEGORY**</span></span>](./do/ns-do-do_download_enum_category.md) | <span data-ttu-id="b833b-122">由 **IDOManager：： EnumDownloads** 用來依特定屬性的值篩選下載列舉。</span><span class="sxs-lookup"><span data-stu-id="b833b-122">Used by **IDOManager::EnumDownloads** to filter the downloads enumeration by the specific property's value.</span></span> |
+| [<span data-ttu-id="b833b-123">**DO_DOWNLOAD_RANGE**</span><span class="sxs-lookup"><span data-stu-id="b833b-123">**DO_DOWNLOAD_RANGE**</span></span>](./deliveryoptimizationdownloadtypes/ns-deliveryoptimizationdownloadtypes-do_download_range.md) | <span data-ttu-id="b833b-124">識別要從檔案下載的單一位元組範圍。</span><span class="sxs-lookup"><span data-stu-id="b833b-124">Identifies a single range of bytes to download from a file.</span></span> |
+| [<span data-ttu-id="b833b-125">**DO_DOWNLOAD_RANGE_INFO**</span><span class="sxs-lookup"><span data-stu-id="b833b-125">**DO_DOWNLOAD_RANGE_INFO**</span></span>](./do/ns-do-do_download_range_info.md) | <span data-ttu-id="b833b-126">識別要從檔案下載的位元組範圍陣列。</span><span class="sxs-lookup"><span data-stu-id="b833b-126">Identifies an array of ranges of bytes to download from a file.</span></span> |
+| [<span data-ttu-id="b833b-127">**DO_DOWNLOAD_STATUS**</span><span class="sxs-lookup"><span data-stu-id="b833b-127">**DO_DOWNLOAD_STATUS**</span></span>](./do/ns-do-do_download_status.md) | <span data-ttu-id="b833b-128">用來取得特定下載的狀態。</span><span class="sxs-lookup"><span data-stu-id="b833b-128">Used to obtain the status of a specific download.</span></span> |
+| [<span data-ttu-id="b833b-129">**DOSwarmStats**</span><span class="sxs-lookup"><span data-stu-id="b833b-129">**DOSwarmStats**</span></span>](doswarmstats.md) | <span data-ttu-id="b833b-130">包含用來下載和上傳檔案之統計資料的欄位。</span><span class="sxs-lookup"><span data-stu-id="b833b-130">Contains fields for download and upload statistics for a file.</span></span> |

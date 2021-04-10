@@ -19,42 +19,42 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103935021"
 ---
-# <a name="idcompositionskewtransformsetcentery-methods"></a><span data-ttu-id="baac4-104">IDCompositionSkewTransform：： SetCenterY 方法</span><span class="sxs-lookup"><span data-stu-id="baac4-104">IDCompositionSkewTransform::SetCenterY methods</span></span>
+# <a name="idcompositionskewtransformsetcentery-methods"></a><span data-ttu-id="6010b-104">IDCompositionSkewTransform：： SetCenterY 方法</span><span class="sxs-lookup"><span data-stu-id="6010b-104">IDCompositionSkewTransform::SetCenterY methods</span></span>
 
-<span data-ttu-id="baac4-105">變更或繪製2D 扭曲轉換之 CenterY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="baac4-105">Changes or animates the value of the CenterY property of a of a 2D skew transform.</span></span> <span data-ttu-id="baac4-106">CenterY 屬性會指定執行扭曲的點的 y 座標。</span><span class="sxs-lookup"><span data-stu-id="baac4-106">The CenterY property specifies the y-coordinate of the point about which the skew is performed.</span></span>
+<span data-ttu-id="6010b-105">變更或繪製2D 扭曲轉換之 CenterY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="6010b-105">Changes or animates the value of the CenterY property of a of a 2D skew transform.</span></span> <span data-ttu-id="6010b-106">CenterY 屬性會指定執行扭曲的點的 y 座標。</span><span class="sxs-lookup"><span data-stu-id="6010b-106">The CenterY property specifies the y-coordinate of the point about which the skew is performed.</span></span>
 
-### <a name="overload-list"></a><span data-ttu-id="baac4-107">多載清單</span><span class="sxs-lookup"><span data-stu-id="baac4-107">Overload list</span></span>
+### <a name="overload-list"></a><span data-ttu-id="6010b-107">多載清單</span><span class="sxs-lookup"><span data-stu-id="6010b-107">Overload list</span></span>
 
 
 
-| <span data-ttu-id="baac4-108">方法</span><span class="sxs-lookup"><span data-stu-id="baac4-108">Method</span></span>                                                                                                       | <span data-ttu-id="baac4-109">描述</span><span class="sxs-lookup"><span data-stu-id="baac4-109">Description</span></span>                                            |
+| <span data-ttu-id="6010b-108">方法</span><span class="sxs-lookup"><span data-stu-id="6010b-108">Method</span></span>                                                                                                       | <span data-ttu-id="6010b-109">描述</span><span class="sxs-lookup"><span data-stu-id="6010b-109">Description</span></span>                                            |
 |:-------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| <span data-ttu-id="baac4-110">[**SetCenterY (float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setcentery(float))</span><span class="sxs-lookup"><span data-stu-id="baac4-110">[**SetCenterY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setcentery(float))</span></span>                                     | <span data-ttu-id="baac4-111">變更 CenterY 屬性的值。</span><span class="sxs-lookup"><span data-stu-id="baac4-111">Changes the value of the CenterY property.</span></span><br/>  |
-| <span data-ttu-id="baac4-112">[**SetCenterY (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setcentery(idcompositionanimation))</span><span class="sxs-lookup"><span data-stu-id="baac4-112">[**SetCenterY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setcentery(idcompositionanimation))</span></span> | <span data-ttu-id="baac4-113">繪製 CenterY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="baac4-113">Animates the value of the CenterY property.</span></span><br/> |
+| <span data-ttu-id="6010b-110">[**SetCenterY (float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setcentery(float))</span><span class="sxs-lookup"><span data-stu-id="6010b-110">[**SetCenterY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setcentery(float))</span></span>                                     | <span data-ttu-id="6010b-111">變更 CenterY 屬性的值。</span><span class="sxs-lookup"><span data-stu-id="6010b-111">Changes the value of the CenterY property.</span></span><br/>  |
+| <span data-ttu-id="6010b-112">[**SetCenterY (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setcentery(idcompositionanimation))</span><span class="sxs-lookup"><span data-stu-id="6010b-112">[**SetCenterY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setcentery(idcompositionanimation))</span></span> | <span data-ttu-id="6010b-113">繪製 CenterY 屬性值的動畫。</span><span class="sxs-lookup"><span data-stu-id="6010b-113">Animates the value of the CenterY property.</span></span><br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="baac4-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="baac4-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6010b-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="6010b-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="baac4-115">需求</span><span class="sxs-lookup"><span data-stu-id="baac4-115">Requirement</span></span> | <span data-ttu-id="baac4-116">值</span><span class="sxs-lookup"><span data-stu-id="baac4-116">Value</span></span> |
+| <span data-ttu-id="6010b-115">需求</span><span class="sxs-lookup"><span data-stu-id="6010b-115">Requirement</span></span> | <span data-ttu-id="6010b-116">值</span><span class="sxs-lookup"><span data-stu-id="6010b-116">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="baac4-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="baac4-117">Minimum supported client</span></span><br/> | <span data-ttu-id="baac4-118">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="baac4-118">Windows�8 \[desktop apps only\]</span></span><br/>                                           |
-| <span data-ttu-id="baac4-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="baac4-119">Minimum supported server</span></span><br/> | <span data-ttu-id="baac4-120">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="baac4-120">Windows Server�2012 \[desktop apps only\]</span></span><br/>                                 |
-| <span data-ttu-id="baac4-121">標頭</span><span class="sxs-lookup"><span data-stu-id="baac4-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="baac4-122"><dt>Dcomp。h</dt></span><span class="sxs-lookup"><span data-stu-id="baac4-122"><dt>Dcomp.h</dt></span></span> </dl>   |
-| <span data-ttu-id="baac4-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="baac4-123">Library</span></span><br/>                  | <dl> <span data-ttu-id="baac4-124"><dt>Dcomp .lib</dt></span><span class="sxs-lookup"><span data-stu-id="baac4-124"><dt>Dcomp.lib</dt></span></span> </dl> |
-| <span data-ttu-id="baac4-125">DLL</span><span class="sxs-lookup"><span data-stu-id="baac4-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="baac4-126"><dt>Dcomp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="baac4-126"><dt>Dcomp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="6010b-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6010b-117">Minimum supported client</span></span><br/> | <span data-ttu-id="6010b-118">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6010b-118">Windows�8 \[desktop apps only\]</span></span><br/>                                           |
+| <span data-ttu-id="6010b-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6010b-119">Minimum supported server</span></span><br/> | <span data-ttu-id="6010b-120">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6010b-120">Windows Server�2012 \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="6010b-121">標頭</span><span class="sxs-lookup"><span data-stu-id="6010b-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="6010b-122"><dt>Dcomp。h</dt></span><span class="sxs-lookup"><span data-stu-id="6010b-122"><dt>Dcomp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="6010b-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="6010b-123">Library</span></span><br/>                  | <dl> <span data-ttu-id="6010b-124"><dt>Dcomp .lib</dt></span><span class="sxs-lookup"><span data-stu-id="6010b-124"><dt>Dcomp.lib</dt></span></span> </dl> |
+| <span data-ttu-id="6010b-125">DLL</span><span class="sxs-lookup"><span data-stu-id="6010b-125">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6010b-126"><dt>Dcomp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="6010b-126"><dt>Dcomp.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="baac4-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="baac4-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6010b-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6010b-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="baac4-128">**IDCompositionSkewTransform**</span><span class="sxs-lookup"><span data-stu-id="baac4-128">**IDCompositionSkewTransform**</span></span>](/windows/win32/api/dcomp/nn-dcomp-idcompositionskewtransform)
+[<span data-ttu-id="6010b-128">**IDCompositionSkewTransform**</span><span class="sxs-lookup"><span data-stu-id="6010b-128">**IDCompositionSkewTransform**</span></span>](/windows/win32/api/dcomp/nn-dcomp-idcompositionskewtransform)
 </dt> </dl>
 
-<span data-ttu-id="baac4-129">�</span><span class="sxs-lookup"><span data-stu-id="baac4-129">�</span></span>
+<span data-ttu-id="6010b-129">�</span><span class="sxs-lookup"><span data-stu-id="6010b-129">�</span></span>
 
-<span data-ttu-id="baac4-130">�</span><span class="sxs-lookup"><span data-stu-id="baac4-130">�</span></span>
+<span data-ttu-id="6010b-130">�</span><span class="sxs-lookup"><span data-stu-id="6010b-130">�</span></span>

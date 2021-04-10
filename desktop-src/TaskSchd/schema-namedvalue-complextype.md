@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934672"
 ---
-# <a name="namedvalue-complex-type"></a><span data-ttu-id="44eed-104">namedValue 複雜類型</span><span class="sxs-lookup"><span data-stu-id="44eed-104">namedValue Complex Type</span></span>
+# <a name="namedvalue-complex-type"></a><span data-ttu-id="4416b-104">namedValue 複雜類型</span><span class="sxs-lookup"><span data-stu-id="4416b-104">namedValue Complex Type</span></span>
 
-<span data-ttu-id="44eed-105">定義與名稱/值配對中的值相關聯的名稱。</span><span class="sxs-lookup"><span data-stu-id="44eed-105">Defines a name that is associated with a value in a name-value pair.</span></span>
+<span data-ttu-id="4416b-105">定義與名稱/值配對中的值相關聯的名稱。</span><span class="sxs-lookup"><span data-stu-id="4416b-105">Defines a name that is associated with a value in a name-value pair.</span></span>
 
 ``` syntax
 <xs:complexType name="namedValue">
@@ -39,24 +39,24 @@ ms.locfileid: "103934672"
 </xs:complexType>
 ```
 
-## <a name="attributes"></a><span data-ttu-id="44eed-106">屬性</span><span class="sxs-lookup"><span data-stu-id="44eed-106">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="4416b-106">屬性</span><span class="sxs-lookup"><span data-stu-id="4416b-106">Attributes</span></span>
 
 
 
-| <span data-ttu-id="44eed-107">名稱</span><span class="sxs-lookup"><span data-stu-id="44eed-107">Name</span></span> | <span data-ttu-id="44eed-108">類型</span><span class="sxs-lookup"><span data-stu-id="44eed-108">Type</span></span>                                                                    | <span data-ttu-id="44eed-109">描述</span><span class="sxs-lookup"><span data-stu-id="44eed-109">Description</span></span>                                                                          |
+| <span data-ttu-id="4416b-107">名稱</span><span class="sxs-lookup"><span data-stu-id="4416b-107">Name</span></span> | <span data-ttu-id="4416b-108">類型</span><span class="sxs-lookup"><span data-stu-id="4416b-108">Type</span></span>                                                                    | <span data-ttu-id="4416b-109">描述</span><span class="sxs-lookup"><span data-stu-id="4416b-109">Description</span></span>                                                                          |
 |------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="44eed-110">NAME</span><span class="sxs-lookup"><span data-stu-id="44eed-110">name</span></span> | [<span data-ttu-id="44eed-111">**nonEmptyString**</span><span class="sxs-lookup"><span data-stu-id="44eed-111">**nonEmptyString**</span></span>](taskschedulerschema-nonemptystring-simpletype.md) | <span data-ttu-id="44eed-112">指定與名稱/值配對中的值相關聯的名稱。</span><span class="sxs-lookup"><span data-stu-id="44eed-112">Specifies the name that is associated with a value in a name-value pair.</span></span> <br/> |
+| <span data-ttu-id="4416b-110">NAME</span><span class="sxs-lookup"><span data-stu-id="4416b-110">name</span></span> | [<span data-ttu-id="4416b-111">**nonEmptyString**</span><span class="sxs-lookup"><span data-stu-id="4416b-111">**nonEmptyString**</span></span>](taskschedulerschema-nonemptystring-simpletype.md) | <span data-ttu-id="4416b-112">指定與名稱/值配對中的值相關聯的名稱。</span><span class="sxs-lookup"><span data-stu-id="4416b-112">Specifies the name that is associated with a value in a name-value pair.</span></span> <br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="44eed-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="44eed-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4416b-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="4416b-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="44eed-114">需求</span><span class="sxs-lookup"><span data-stu-id="44eed-114">Requirement</span></span> | <span data-ttu-id="44eed-115">值</span><span class="sxs-lookup"><span data-stu-id="44eed-115">Value</span></span> |
+| <span data-ttu-id="4416b-114">需求</span><span class="sxs-lookup"><span data-stu-id="4416b-114">Requirement</span></span> | <span data-ttu-id="4416b-115">值</span><span class="sxs-lookup"><span data-stu-id="4416b-115">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="44eed-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="44eed-116">Minimum supported client</span></span><br/> | <span data-ttu-id="44eed-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="44eed-117">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="44eed-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="44eed-118">Minimum supported server</span></span><br/> | <span data-ttu-id="44eed-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="44eed-119">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="4416b-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4416b-116">Minimum supported client</span></span><br/> | <span data-ttu-id="4416b-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4416b-117">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="4416b-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4416b-118">Minimum supported server</span></span><br/> | <span data-ttu-id="4416b-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4416b-119">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
