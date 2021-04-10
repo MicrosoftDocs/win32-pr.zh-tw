@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849228"
 ---
-# <a name="summaries-of-call-center-programming-elements"></a><span data-ttu-id="85f7a-105">撥打電話中心程式設計項目的摘要</span><span class="sxs-lookup"><span data-stu-id="85f7a-105">Summaries of Call Center Programming Elements</span></span>
+# <a name="summaries-of-call-center-programming-elements"></a><span data-ttu-id="b994c-105">撥打電話中心程式設計項目的摘要</span><span class="sxs-lookup"><span data-stu-id="b994c-105">Summaries of Call Center Programming Elements</span></span>
 
-<span data-ttu-id="85f7a-106">撥置中心功能是 TAPI 3.x 的一項功能。</span><span class="sxs-lookup"><span data-stu-id="85f7a-106">Call center functionality is a feature of the TAPI 3.x.</span></span> <span data-ttu-id="85f7a-107">出現在 TAPI 2.2 資料集中的程式設計項目支援 TAPI 3.x 撥接中心。</span><span class="sxs-lookup"><span data-stu-id="85f7a-107">The programming elements appearing in the TAPI 2.2 data set support a TAPI 3.x call center.</span></span> <span data-ttu-id="85f7a-108">如需通話中心的詳細資訊，請參閱 [關於撥置中心控制項](./about-call-center-controls.md)。</span><span class="sxs-lookup"><span data-stu-id="85f7a-108">For more information about call centers, see [About Call Center Controls](./about-call-center-controls.md).</span></span>
+<span data-ttu-id="b994c-106">撥置中心功能是 TAPI 3.x 的一項功能。</span><span class="sxs-lookup"><span data-stu-id="b994c-106">Call center functionality is a feature of the TAPI 3.x.</span></span> <span data-ttu-id="b994c-107">出現在 TAPI 2.2 資料集中的程式設計項目支援 TAPI 3.x 撥接中心。</span><span class="sxs-lookup"><span data-stu-id="b994c-107">The programming elements appearing in the TAPI 2.2 data set support a TAPI 3.x call center.</span></span> <span data-ttu-id="b994c-108">如需通話中心的詳細資訊，請參閱 [關於撥置中心控制項](./about-call-center-controls.md)。</span><span class="sxs-lookup"><span data-stu-id="b994c-108">For more information about call centers, see [About Call Center Controls](./about-call-center-controls.md).</span></span>
 
-<span data-ttu-id="85f7a-109">TAPI 2.2 撥中心程式設計項目摘要包括：</span><span class="sxs-lookup"><span data-stu-id="85f7a-109">The TAPI 2.2 call center programming element summaries include:</span></span>
+<span data-ttu-id="b994c-109">TAPI 2.2 撥中心程式設計項目摘要包括：</span><span class="sxs-lookup"><span data-stu-id="b994c-109">The TAPI 2.2 call center programming element summaries include:</span></span>
 
--   [<span data-ttu-id="85f7a-110">撥置中心函數</span><span class="sxs-lookup"><span data-stu-id="85f7a-110">Call Center Functions</span></span>](call-center-functions.md)
--   [<span data-ttu-id="85f7a-111">撥置中心結構</span><span class="sxs-lookup"><span data-stu-id="85f7a-111">Call Center Structures</span></span>](call-center-structures.md)
--   [<span data-ttu-id="85f7a-112">撥打電話中心訊息</span><span class="sxs-lookup"><span data-stu-id="85f7a-112">Call Center Messages</span></span>](call-center-messages.md)
--   [<span data-ttu-id="85f7a-113">撥置中心常數</span><span class="sxs-lookup"><span data-stu-id="85f7a-113">Call Center Constants</span></span>](call-center-constants.md)
+-   [<span data-ttu-id="b994c-110">撥置中心函數</span><span class="sxs-lookup"><span data-stu-id="b994c-110">Call Center Functions</span></span>](call-center-functions.md)
+-   [<span data-ttu-id="b994c-111">撥置中心結構</span><span class="sxs-lookup"><span data-stu-id="b994c-111">Call Center Structures</span></span>](call-center-structures.md)
+-   [<span data-ttu-id="b994c-112">撥打電話中心訊息</span><span class="sxs-lookup"><span data-stu-id="b994c-112">Call Center Messages</span></span>](call-center-messages.md)
+-   [<span data-ttu-id="b994c-113">撥置中心常數</span><span class="sxs-lookup"><span data-stu-id="b994c-113">Call Center Constants</span></span>](call-center-constants.md)
 
  
 

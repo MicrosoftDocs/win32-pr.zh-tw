@@ -11,59 +11,59 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692791"
 ---
-# <a name="ice46"></a><span data-ttu-id="92353-103">ICE46</span><span class="sxs-lookup"><span data-stu-id="92353-103">ICE46</span></span>
+# <a name="ice46"></a><span data-ttu-id="414e7-103">ICE46</span><span class="sxs-lookup"><span data-stu-id="414e7-103">ICE46</span></span>
 
-<span data-ttu-id="92353-104">ICE46 只會在一或多個字元的情況下，檢查條件中的自訂屬性、格式化的文字，以及與系統定義的屬性不同的其他位置。</span><span class="sxs-lookup"><span data-stu-id="92353-104">ICE46 checks for custom properties in conditions, formatted text, and other locations that differ from a system defined property only by the case of one or more characters.</span></span>
+<span data-ttu-id="414e7-104">ICE46 只會在一或多個字元的情況下，檢查條件中的自訂屬性、格式化的文字，以及與系統定義的屬性不同的其他位置。</span><span class="sxs-lookup"><span data-stu-id="414e7-104">ICE46 checks for custom properties in conditions, formatted text, and other locations that differ from a system defined property only by the case of one or more characters.</span></span>
 
-## <a name="result"></a><span data-ttu-id="92353-105">結果</span><span class="sxs-lookup"><span data-stu-id="92353-105">Result</span></span>
+## <a name="result"></a><span data-ttu-id="414e7-105">結果</span><span class="sxs-lookup"><span data-stu-id="414e7-105">Result</span></span>
 
-<span data-ttu-id="92353-106">如果條件中有自訂屬性、格式化的文字，以及在一或多個字元的情況下與系統定義的屬性不同的其他位置，ICE46 會張貼參考用訊息。</span><span class="sxs-lookup"><span data-stu-id="92353-106">ICE46 posts an informational message if there is a custom property in a condition, formatted text, and other location that differs from a system defined properties only in the case of one or more characters.</span></span>
+<span data-ttu-id="414e7-106">如果條件中有自訂屬性、格式化的文字，以及在一或多個字元的情況下與系統定義的屬性不同的其他位置，ICE46 會張貼參考用訊息。</span><span class="sxs-lookup"><span data-stu-id="414e7-106">ICE46 posts an informational message if there is a custom property in a condition, formatted text, and other location that differs from a system defined properties only in the case of one or more characters.</span></span>
 
-## <a name="example"></a><span data-ttu-id="92353-107">範例</span><span class="sxs-lookup"><span data-stu-id="92353-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="414e7-107">範例</span><span class="sxs-lookup"><span data-stu-id="414e7-107">Example</span></span>
 
-<span data-ttu-id="92353-108">ICE46 會針對所顯示的範例報告下列錯誤。</span><span class="sxs-lookup"><span data-stu-id="92353-108">ICE46 reports the following errors for the example shown.</span></span>
+<span data-ttu-id="414e7-108">ICE46 會針對所顯示的範例報告下列錯誤。</span><span class="sxs-lookup"><span data-stu-id="414e7-108">ICE46 reports the following errors for the example shown.</span></span>
 
 
 
-| <span data-ttu-id="92353-109">ICE46 錯誤</span><span class="sxs-lookup"><span data-stu-id="92353-109">ICE46 error</span></span>                                                                                                                                            | <span data-ttu-id="92353-110">Description</span><span class="sxs-lookup"><span data-stu-id="92353-110">Description</span></span>                                                                                                                                                                                                                   |
+| <span data-ttu-id="414e7-109">ICE46 錯誤</span><span class="sxs-lookup"><span data-stu-id="414e7-109">ICE46 error</span></span>                                                                                                                                            | <span data-ttu-id="414e7-110">Description</span><span class="sxs-lookup"><span data-stu-id="414e7-110">Description</span></span>                                                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="92353-111">在屬性資料表中定義的屬性 ReinstallMode，與另一個已定義的屬性不同，只有大小寫。</span><span class="sxs-lookup"><span data-stu-id="92353-111">Property ReinstallMode defined in property table differs from another defined property only by case.</span></span>                                                   | <span data-ttu-id="92353-112">系統定義的屬性名稱 **REINSTALLMODE** 與自訂屬性的大小寫不同。</span><span class="sxs-lookup"><span data-stu-id="92353-112">The system defined property name **REINSTALLMODE** differs from the custom property by case only.</span></span> <span data-ttu-id="92353-113">屬性會區分大小寫，因此自訂屬性與系統屬性不同。</span><span class="sxs-lookup"><span data-stu-id="92353-113">Properties are case sensitive, so custom property is not the same as the system property.</span></span> <span data-ttu-id="92353-114">這是錯誤的常見原因。</span><span class="sxs-lookup"><span data-stu-id="92353-114">This is a common cause of errors.</span></span> |
-| <span data-ttu-id="92353-115">在資料行 ' InstallExecuteSequence ' 中參考的屬性 ' Myproperty '。資料列 ' InstallFinalize ' 的條件 ' 與已定義的屬性（僅限大小寫）不同。</span><span class="sxs-lookup"><span data-stu-id="92353-115">Property 'Myproperty' referenced in column 'InstallExecuteSequence'.'Condition' of row 'InstallFinalize' differs from a defined property by case only.</span></span> | <span data-ttu-id="92353-116">屬性工作表定義了資料表 MyProperty，但是參考的屬性是 Myproperty。</span><span class="sxs-lookup"><span data-stu-id="92353-116">The property table defines the table MyProperty, but the referenced property is Myproperty.</span></span> <span data-ttu-id="92353-117">屬性會區分大小寫，因此這兩個屬性不相同。</span><span class="sxs-lookup"><span data-stu-id="92353-117">Properties are case sensitive, so the two properties are NOT the same.</span></span> <span data-ttu-id="92353-118">這是錯誤的常見原因。</span><span class="sxs-lookup"><span data-stu-id="92353-118">This is a common cause of errors.</span></span>                          |
+| <span data-ttu-id="414e7-111">在屬性資料表中定義的屬性 ReinstallMode，與另一個已定義的屬性不同，只有大小寫。</span><span class="sxs-lookup"><span data-stu-id="414e7-111">Property ReinstallMode defined in property table differs from another defined property only by case.</span></span>                                                   | <span data-ttu-id="414e7-112">系統定義的屬性名稱 **REINSTALLMODE** 與自訂屬性的大小寫不同。</span><span class="sxs-lookup"><span data-stu-id="414e7-112">The system defined property name **REINSTALLMODE** differs from the custom property by case only.</span></span> <span data-ttu-id="414e7-113">屬性會區分大小寫，因此自訂屬性與系統屬性不同。</span><span class="sxs-lookup"><span data-stu-id="414e7-113">Properties are case sensitive, so custom property is not the same as the system property.</span></span> <span data-ttu-id="414e7-114">這是錯誤的常見原因。</span><span class="sxs-lookup"><span data-stu-id="414e7-114">This is a common cause of errors.</span></span> |
+| <span data-ttu-id="414e7-115">在資料行 ' InstallExecuteSequence ' 中參考的屬性 ' Myproperty '。資料列 ' InstallFinalize ' 的條件 ' 與已定義的屬性（僅限大小寫）不同。</span><span class="sxs-lookup"><span data-stu-id="414e7-115">Property 'Myproperty' referenced in column 'InstallExecuteSequence'.'Condition' of row 'InstallFinalize' differs from a defined property by case only.</span></span> | <span data-ttu-id="414e7-116">屬性工作表定義了資料表 MyProperty，但是參考的屬性是 Myproperty。</span><span class="sxs-lookup"><span data-stu-id="414e7-116">The property table defines the table MyProperty, but the referenced property is Myproperty.</span></span> <span data-ttu-id="414e7-117">屬性會區分大小寫，因此這兩個屬性不相同。</span><span class="sxs-lookup"><span data-stu-id="414e7-117">Properties are case sensitive, so the two properties are NOT the same.</span></span> <span data-ttu-id="414e7-118">這是錯誤的常見原因。</span><span class="sxs-lookup"><span data-stu-id="414e7-118">This is a common cause of errors.</span></span>                          |
 
 
 
  
 
-[<span data-ttu-id="92353-119">屬性工作表</span><span class="sxs-lookup"><span data-stu-id="92353-119">Property Table</span></span>](property-table.md)
+[<span data-ttu-id="414e7-119">屬性工作表</span><span class="sxs-lookup"><span data-stu-id="414e7-119">Property Table</span></span>](property-table.md)
 
 
 
-| <span data-ttu-id="92353-120">屬性</span><span class="sxs-lookup"><span data-stu-id="92353-120">Property</span></span>      | <span data-ttu-id="92353-121">值</span><span class="sxs-lookup"><span data-stu-id="92353-121">Value</span></span>   |
+| <span data-ttu-id="414e7-120">屬性</span><span class="sxs-lookup"><span data-stu-id="414e7-120">Property</span></span>      | <span data-ttu-id="414e7-121">值</span><span class="sxs-lookup"><span data-stu-id="414e7-121">Value</span></span>   |
 |---------------|---------|
-| <span data-ttu-id="92353-122">ReinstallMode</span><span class="sxs-lookup"><span data-stu-id="92353-122">ReinstallMode</span></span> | <span data-ttu-id="92353-123">omus reinstall</span><span class="sxs-lookup"><span data-stu-id="92353-123">omus</span></span>    |
-| <span data-ttu-id="92353-124">MyProperty</span><span class="sxs-lookup"><span data-stu-id="92353-124">MyProperty</span></span>    | <span data-ttu-id="92353-125">值</span><span class="sxs-lookup"><span data-stu-id="92353-125">a value</span></span> |
+| <span data-ttu-id="414e7-122">ReinstallMode</span><span class="sxs-lookup"><span data-stu-id="414e7-122">ReinstallMode</span></span> | <span data-ttu-id="414e7-123">omus reinstall</span><span class="sxs-lookup"><span data-stu-id="414e7-123">omus</span></span>    |
+| <span data-ttu-id="414e7-124">MyProperty</span><span class="sxs-lookup"><span data-stu-id="414e7-124">MyProperty</span></span>    | <span data-ttu-id="414e7-125">值</span><span class="sxs-lookup"><span data-stu-id="414e7-125">a value</span></span> |
 
 
 
  
 
-<span data-ttu-id="92353-126">[InstallExecuteSequence 資料表](installexecutesequence-table.md) (部分) </span><span class="sxs-lookup"><span data-stu-id="92353-126">[InstallExecuteSequence Table](installexecutesequence-table.md) (partial)</span></span>
+<span data-ttu-id="414e7-126">[InstallExecuteSequence 資料表](installexecutesequence-table.md) (部分) </span><span class="sxs-lookup"><span data-stu-id="414e7-126">[InstallExecuteSequence Table](installexecutesequence-table.md) (partial)</span></span>
 
 
 
-| <span data-ttu-id="92353-127">動作</span><span class="sxs-lookup"><span data-stu-id="92353-127">Action</span></span>          | <span data-ttu-id="92353-128">條件</span><span class="sxs-lookup"><span data-stu-id="92353-128">Condition</span></span>  |
+| <span data-ttu-id="414e7-127">動作</span><span class="sxs-lookup"><span data-stu-id="414e7-127">Action</span></span>          | <span data-ttu-id="414e7-128">條件</span><span class="sxs-lookup"><span data-stu-id="414e7-128">Condition</span></span>  |
 |-----------------|------------|
-| <span data-ttu-id="92353-129">InstallFinalize</span><span class="sxs-lookup"><span data-stu-id="92353-129">InstallFinalize</span></span> | <span data-ttu-id="92353-130">Myproperty</span><span class="sxs-lookup"><span data-stu-id="92353-130">Myproperty</span></span> |
+| <span data-ttu-id="414e7-129">InstallFinalize</span><span class="sxs-lookup"><span data-stu-id="414e7-129">InstallFinalize</span></span> | <span data-ttu-id="414e7-130">Myproperty</span><span class="sxs-lookup"><span data-stu-id="414e7-130">Myproperty</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="92353-131">相關主題</span><span class="sxs-lookup"><span data-stu-id="92353-131">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="414e7-131">相關主題</span><span class="sxs-lookup"><span data-stu-id="414e7-131">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="92353-132">ICE 參考</span><span class="sxs-lookup"><span data-stu-id="92353-132">ICE Reference</span></span>](ice-reference.md)
+[<span data-ttu-id="414e7-132">ICE 參考</span><span class="sxs-lookup"><span data-stu-id="414e7-132">ICE Reference</span></span>](ice-reference.md)
 </dt> </dl>
 
  

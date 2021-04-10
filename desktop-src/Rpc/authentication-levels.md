@@ -1,0 +1,30 @@
+---
+title: 驗證層級
+description: Microsoft RPC 提供多個層級的驗證。
+ms.assetid: d9ed938e-4cd4-4355-8d08-830f955dd00c
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5c5fd25efb84b4ee2834e6f79c7fdd21dd903d55
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104183456"
+---
+# <a name="authentication-levels"></a><span data-ttu-id="f5e63-103">驗證層級</span><span class="sxs-lookup"><span data-stu-id="f5e63-103">Authentication Levels</span></span>
+
+<span data-ttu-id="f5e63-104">Microsoft RPC 提供多個層級的驗證。</span><span class="sxs-lookup"><span data-stu-id="f5e63-104">Microsoft RPC provides multiple levels of authentication.</span></span> <span data-ttu-id="f5e63-105">根據驗證層級而定，流量的來源 (傳送流量的安全性主體) 可在建立連線、用戶端啟動新的遠端程序呼叫，或在用戶端與伺服器之間的每個封包交換期間進行驗證。</span><span class="sxs-lookup"><span data-stu-id="f5e63-105">Depending on the authentication level, the origin of the traffic (which security principal sent the traffic) can be verified when the connection is established, when the client starts a new remote procedure call, or during each packet exchange between the client and server.</span></span>
+
+<span data-ttu-id="f5e63-106">即使流量的寄件者已通過驗證，但安全性仍是弱式，因為這類驗證並不確定封包未修改或損毀，而是路由;它只會驗證封包是否來自指定的主體。</span><span class="sxs-lookup"><span data-stu-id="f5e63-106">Even when the sender of the traffic is verified, security is still weak, since such verification does not ensure the packet was not modified or corrupted en route; it only verifies that the packet came from the given principal.</span></span> <span data-ttu-id="f5e63-107">為了提高安全性，分散式應用程式可以設定 RPC 執行時間程式庫，以確認未修改用戶端和伺服器之間交換的任何資料。</span><span class="sxs-lookup"><span data-stu-id="f5e63-107">For greater security, distributed applications can set the RPC run-time library to verify that none of the data exchanged between the client and server is modified.</span></span> <span data-ttu-id="f5e63-108">RPC 程式庫也可以在傳送每個封包之前加密其內容。</span><span class="sxs-lookup"><span data-stu-id="f5e63-108">The RPC library can also encrypt the contents of every packet before sending it.</span></span> <span data-ttu-id="f5e63-109">一般來說，想要保護其流量的應用程式應該只使用最後兩個層級：完整性和隱私權。</span><span class="sxs-lookup"><span data-stu-id="f5e63-109">In general, applications that want to secure their traffic should use only the last two levels—integrity and privacy.</span></span>
+
+<span data-ttu-id="f5e63-110">請注意，較高層級的驗證需要較高的計算負擔。</span><span class="sxs-lookup"><span data-stu-id="f5e63-110">Be aware that higher levels of authentication require higher computational overhead.</span></span> <span data-ttu-id="f5e63-111">開發人員必須決定哪一個對您的應用程式來說更重要—速度或安全性。</span><span class="sxs-lookup"><span data-stu-id="f5e63-111">You, as the developer, must decide which is more important for your application—speed or security.</span></span> <span data-ttu-id="f5e63-112">大部分的開發人員會發現，有一些效能測試，它們可以達到可接受的效能層級，同時維持足夠的安全性。</span><span class="sxs-lookup"><span data-stu-id="f5e63-112">Most developers find that with some performance testing, they can achieve acceptable performance levels while maintaining adequate security.</span></span>
+
+<span data-ttu-id="f5e63-113">分散式應用程式的用戶端和伺服器部分必須使用相同的驗證層級。</span><span class="sxs-lookup"><span data-stu-id="f5e63-113">The client and the server portions of the distributed application must use the same authentication level.</span></span> <span data-ttu-id="f5e63-114">如需 RPC 驗證層級的清單，請參閱 [驗證層級常數](authentication-level-constants.md)。</span><span class="sxs-lookup"><span data-stu-id="f5e63-114">For a list of RPC authentication levels, see [Authentication-Level Constants](authentication-level-constants.md).</span></span>
+
+ 
+
+ 
+
+
+
+

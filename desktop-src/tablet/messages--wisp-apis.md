@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694988"
 ---
-# <a name="messages-used-by-wpf"></a><span data-ttu-id="668ed-103">WPF 使用的訊息</span><span class="sxs-lookup"><span data-stu-id="668ed-103">Messages Used by WPF</span></span>
+# <a name="messages-used-by-wpf"></a><span data-ttu-id="f3f2e-103">WPF 使用的訊息</span><span class="sxs-lookup"><span data-stu-id="f3f2e-103">Messages Used by WPF</span></span>
 
-<span data-ttu-id="668ed-104">Windows Presentation Foundation 會使用這些訊息來執行筆墨支援。</span><span class="sxs-lookup"><span data-stu-id="668ed-104">These messages are used by the Windows Presentation Foundation to implement ink support.</span></span>
+<span data-ttu-id="f3f2e-104">Windows Presentation Foundation 會使用這些訊息來執行筆墨支援。</span><span class="sxs-lookup"><span data-stu-id="f3f2e-104">These messages are used by the Windows Presentation Foundation to implement ink support.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="668ed-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="668ed-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f3f2e-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="f3f2e-105">In This Section</span></span>
 
--   [<span data-ttu-id="668ed-106">**WM \_ TABLET \_ 已新增訊息**</span><span class="sxs-lookup"><span data-stu-id="668ed-106">**WM\_TABLET\_ADDED Message**</span></span>](wm-tablet-added.md)
--   [<span data-ttu-id="668ed-107">**WM \_ TABLET \_ DELETED 訊息**</span><span class="sxs-lookup"><span data-stu-id="668ed-107">**WM\_TABLET\_DELETED Message**</span></span>](wm-tablet-deleted.md)
+-   [<span data-ttu-id="f3f2e-106">**WM \_ TABLET \_ 已新增訊息**</span><span class="sxs-lookup"><span data-stu-id="f3f2e-106">**WM\_TABLET\_ADDED Message**</span></span>](wm-tablet-added.md)
+-   [<span data-ttu-id="f3f2e-107">**WM \_ TABLET \_ DELETED 訊息**</span><span class="sxs-lookup"><span data-stu-id="f3f2e-107">**WM\_TABLET\_DELETED Message**</span></span>](wm-tablet-deleted.md)
 
  
 

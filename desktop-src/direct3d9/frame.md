@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103845968"
 ---
-# <a name="frame-direct3d-9-graphics"></a><span data-ttu-id="7623c-104"> (Direct3D 9 圖形) 的框架</span><span class="sxs-lookup"><span data-stu-id="7623c-104">Frame (Direct3D 9 Graphics)</span></span>
+# <a name="frame-direct3d-9-graphics"></a><span data-ttu-id="8aa46-104"> (Direct3D 9 圖形) 的框架</span><span class="sxs-lookup"><span data-stu-id="8aa46-104">Frame (Direct3D 9 Graphics)</span></span>
 
-<span data-ttu-id="7623c-105">定義座標框架或「參考的框架」。</span><span class="sxs-lookup"><span data-stu-id="7623c-105">Defines a coordinate frame, or "frame of reference."</span></span> <span data-ttu-id="7623c-106">框架範本是開啟的，而且可以包含任何物件。</span><span class="sxs-lookup"><span data-stu-id="7623c-106">The Frame template is open and can contain any object.</span></span> <span data-ttu-id="7623c-107">載入 **框架** 實例時，D3DX 網格載入功能會將 [**網格**](mesh.md)、 [**FrameTransformMatrix**](frametransformmatrix.md)和 **框架** 範本實例辨識為子物件。</span><span class="sxs-lookup"><span data-stu-id="7623c-107">The D3DX mesh-loading functions recognize [**Mesh**](mesh.md), [**FrameTransformMatrix**](frametransformmatrix.md), and **Frame** template instances as child objects when loading a **Frame** instance.</span></span>
+<span data-ttu-id="8aa46-105">定義座標框架或「參考的框架」。</span><span class="sxs-lookup"><span data-stu-id="8aa46-105">Defines a coordinate frame, or "frame of reference."</span></span> <span data-ttu-id="8aa46-106">框架範本是開啟的，而且可以包含任何物件。</span><span class="sxs-lookup"><span data-stu-id="8aa46-106">The Frame template is open and can contain any object.</span></span> <span data-ttu-id="8aa46-107">載入 **框架** 實例時，D3DX 網格載入功能會將 [**網格**](mesh.md)、 [**FrameTransformMatrix**](frametransformmatrix.md)和 **框架** 範本實例辨識為子物件。</span><span class="sxs-lookup"><span data-stu-id="8aa46-107">The D3DX mesh-loading functions recognize [**Mesh**](mesh.md), [**FrameTransformMatrix**](frametransformmatrix.md), and **Frame** template instances as child objects when loading a **Frame** instance.</span></span>
 
 ``` syntax
 template Frame
@@ -23,13 +23,13 @@ template Frame
 } 
 ```
 
-<span data-ttu-id="7623c-108">框架範本可辨識框架內的子 **框架** 和 [**網格**](mesh.md) 節點，並可透過回呼函式辨識使用者定義的範本。</span><span class="sxs-lookup"><span data-stu-id="7623c-108">The frame template recognizes child **Frame** and [**Mesh**](mesh.md) nodes inside a frame and can recognize user-defined templates through a callback function.</span></span>
+<span data-ttu-id="8aa46-108">框架範本可辨識框架內的子 **框架** 和 [**網格**](mesh.md) 節點，並可透過回呼函式辨識使用者定義的範本。</span><span class="sxs-lookup"><span data-stu-id="8aa46-108">The frame template recognizes child **Frame** and [**Mesh**](mesh.md) nodes inside a frame and can recognize user-defined templates through a callback function.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7623c-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7623c-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8aa46-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8aa46-109">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7623c-110">範本</span><span class="sxs-lookup"><span data-stu-id="7623c-110">Templates</span></span>](dx9-graphics-reference-x-file-format-templates.md)
+[<span data-ttu-id="8aa46-110">範本</span><span class="sxs-lookup"><span data-stu-id="8aa46-110">Templates</span></span>](dx9-graphics-reference-x-file-format-templates.md)
 </dt> </dl>
 
  

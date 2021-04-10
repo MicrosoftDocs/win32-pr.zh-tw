@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849040"
 ---
-# <a name="systemparsingpath"></a><span data-ttu-id="60359-103">System. ParsingPath</span><span class="sxs-lookup"><span data-stu-id="60359-103">System.ParsingPath</span></span>
+# <a name="systemparsingpath"></a><span data-ttu-id="bdfb5-103">System. ParsingPath</span><span class="sxs-lookup"><span data-stu-id="bdfb5-103">System.ParsingPath</span></span>
 
-<span data-ttu-id="60359-104">專案的 Shell 命名空間路徑。</span><span class="sxs-lookup"><span data-stu-id="60359-104">The Shell namespace path to the item.</span></span>
+<span data-ttu-id="bdfb5-104">專案的 Shell 命名空間路徑。</span><span class="sxs-lookup"><span data-stu-id="bdfb5-104">The Shell namespace path to the item.</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a><span data-ttu-id="60359-105">Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本</span><span class="sxs-lookup"><span data-stu-id="60359-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a><span data-ttu-id="bdfb5-105">Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本</span><span class="sxs-lookup"><span data-stu-id="bdfb5-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span></span>
 
 ```
 propertyDescription
@@ -31,56 +31,56 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a><span data-ttu-id="60359-106">備註</span><span class="sxs-lookup"><span data-stu-id="60359-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bdfb5-106">備註</span><span class="sxs-lookup"><span data-stu-id="bdfb5-106">Remarks</span></span>
 
-<span data-ttu-id="60359-107">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="60359-107">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="bdfb5-107">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="bdfb5-107">PKEY values are defined in Propkey.h.</span></span>
 
-<span data-ttu-id="60359-108">這個值可以傳遞給 [**SHParseDisplayName**](/windows/win32/api/shlobj_core/nf-shlobj_core-shparsedisplayname) ，以剖析正確 Shell 資料夾的路徑。</span><span class="sxs-lookup"><span data-stu-id="60359-108">This value can be passed to [**SHParseDisplayName**](/windows/win32/api/shlobj_core/nf-shlobj_core-shparsedisplayname) to parse the path to the correct Shell folder.</span></span> <span data-ttu-id="60359-109">如果專案是檔案，則值與 [ItemPathDisplay](./props-system-itempathdisplay.md)相同。</span><span class="sxs-lookup"><span data-stu-id="60359-109">If the item is a file, the value is identical to [System.ItemPathDisplay](./props-system-itempathdisplay.md).</span></span> <span data-ttu-id="60359-110">如果無法透過 Shell 命名空間存取專案，此值會是 VT \_ 空白。</span><span class="sxs-lookup"><span data-stu-id="60359-110">If the item cannot be accessed through the Shell namespace, this value is VT\_EMPTY.</span></span>
+<span data-ttu-id="bdfb5-108">這個值可以傳遞給 [**SHParseDisplayName**](/windows/win32/api/shlobj_core/nf-shlobj_core-shparsedisplayname) ，以剖析正確 Shell 資料夾的路徑。</span><span class="sxs-lookup"><span data-stu-id="bdfb5-108">This value can be passed to [**SHParseDisplayName**](/windows/win32/api/shlobj_core/nf-shlobj_core-shparsedisplayname) to parse the path to the correct Shell folder.</span></span> <span data-ttu-id="bdfb5-109">如果專案是檔案，則值與 [ItemPathDisplay](./props-system-itempathdisplay.md)相同。</span><span class="sxs-lookup"><span data-stu-id="bdfb5-109">If the item is a file, the value is identical to [System.ItemPathDisplay](./props-system-itempathdisplay.md).</span></span> <span data-ttu-id="bdfb5-110">如果無法透過 Shell 命名空間存取專案，此值會是 VT \_ 空白。</span><span class="sxs-lookup"><span data-stu-id="bdfb5-110">If the item cannot be accessed through the Shell namespace, this value is VT\_EMPTY.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="60359-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="60359-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bdfb5-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="bdfb5-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="60359-112">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="60359-112">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="bdfb5-112">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="bdfb5-112">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-113">searchInfo</span><span class="sxs-lookup"><span data-stu-id="60359-113">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="bdfb5-113">searchInfo</span><span class="sxs-lookup"><span data-stu-id="bdfb5-113">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-114">labelInfo</span><span class="sxs-lookup"><span data-stu-id="60359-114">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="bdfb5-114">labelInfo</span><span class="sxs-lookup"><span data-stu-id="bdfb5-114">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-115">typeInfo</span><span class="sxs-lookup"><span data-stu-id="60359-115">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="bdfb5-115">typeInfo</span><span class="sxs-lookup"><span data-stu-id="bdfb5-115">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-116">displayInfo</span><span class="sxs-lookup"><span data-stu-id="60359-116">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="bdfb5-116">displayInfo</span><span class="sxs-lookup"><span data-stu-id="bdfb5-116">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-117">stringFormat</span><span class="sxs-lookup"><span data-stu-id="60359-117">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="bdfb5-117">stringFormat</span><span class="sxs-lookup"><span data-stu-id="bdfb5-117">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-118">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="60359-118">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="bdfb5-118">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="bdfb5-118">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-119">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="60359-119">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="bdfb5-119">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="bdfb5-119">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-120">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="60359-120">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="bdfb5-120">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="bdfb5-120">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-121">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="60359-121">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="bdfb5-121">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="bdfb5-121">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-122">drawControl</span><span class="sxs-lookup"><span data-stu-id="60359-122">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="bdfb5-122">drawControl</span><span class="sxs-lookup"><span data-stu-id="bdfb5-122">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-123">editControl</span><span class="sxs-lookup"><span data-stu-id="60359-123">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="bdfb5-123">editControl</span><span class="sxs-lookup"><span data-stu-id="bdfb5-123">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-124">filterControl</span><span class="sxs-lookup"><span data-stu-id="60359-124">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="bdfb5-124">filterControl</span><span class="sxs-lookup"><span data-stu-id="bdfb5-124">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="60359-125">queryControl</span><span class="sxs-lookup"><span data-stu-id="60359-125">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="bdfb5-125">queryControl</span><span class="sxs-lookup"><span data-stu-id="bdfb5-125">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  

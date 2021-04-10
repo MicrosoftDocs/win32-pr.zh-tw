@@ -19,9 +19,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103846127"
 ---
-# <a name="caggdirectdraw-class"></a><span data-ttu-id="f5746-103">CAggDirectDraw 類別</span><span class="sxs-lookup"><span data-stu-id="f5746-103">CAggDirectDraw class</span></span>
+# <a name="caggdirectdraw-class"></a><span data-ttu-id="495a6-103">CAggDirectDraw 類別</span><span class="sxs-lookup"><span data-stu-id="495a6-103">CAggDirectDraw class</span></span>
 
-<span data-ttu-id="f5746-104">`CAggDirectDraw`類別已被取代，雖然它仍隨附于 DirectShow 基礎類別庫以提供回溯相容性。</span><span class="sxs-lookup"><span data-stu-id="f5746-104">The `CAggDirectDraw` class is deprecated, although it is still provided with the DirectShow base-class library for backward compatibility.</span></span>
+<span data-ttu-id="495a6-104">`CAggDirectDraw`類別已被取代，雖然它仍隨附于 DirectShow 基礎類別庫以提供回溯相容性。</span><span class="sxs-lookup"><span data-stu-id="495a6-104">The `CAggDirectDraw` class is deprecated, although it is still provided with the DirectShow base-class library for backward compatibility.</span></span>
 
  
 

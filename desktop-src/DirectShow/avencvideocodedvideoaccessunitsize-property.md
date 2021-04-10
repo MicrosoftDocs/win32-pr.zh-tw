@@ -11,44 +11,44 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103935640"
 ---
-# <a name="avencvideocodedvideoaccessunitsize-property"></a><span data-ttu-id="40893-104">AVEncVideoCodedVideoAccessUnitSize 屬性</span><span class="sxs-lookup"><span data-stu-id="40893-104">AVEncVideoCodedVideoAccessUnitSize property</span></span>
+# <a name="avencvideocodedvideoaccessunitsize-property"></a><span data-ttu-id="9b5b5-104">AVEncVideoCodedVideoAccessUnitSize 屬性</span><span class="sxs-lookup"><span data-stu-id="9b5b5-104">AVEncVideoCodedVideoAccessUnitSize property</span></span>
 
-<span data-ttu-id="40893-105">指定影片存取單位的大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="40893-105">Specifies the size of the video access units, in bytes.</span></span> <span data-ttu-id="40893-106">這個屬性只適用于變數的位元速率 (VBR) 控制項模式。</span><span class="sxs-lookup"><span data-stu-id="40893-106">This property applies only to variable bit rate (VBR) control modes.</span></span>
+<span data-ttu-id="9b5b5-105">指定影片存取單位的大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="9b5b5-105">Specifies the size of the video access units, in bytes.</span></span> <span data-ttu-id="9b5b5-106">這個屬性只適用于變數的位元速率 (VBR) 控制項模式。</span><span class="sxs-lookup"><span data-stu-id="9b5b5-106">This property applies only to variable bit rate (VBR) control modes.</span></span>
 
-<span data-ttu-id="40893-107">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="40893-107">This property is read/write.</span></span>
+<span data-ttu-id="9b5b5-107">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="9b5b5-107">This property is read/write.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="40893-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="40893-108">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="9b5b5-108">資料類型</span><span class="sxs-lookup"><span data-stu-id="9b5b5-108">Data type</span></span>
 
-<span data-ttu-id="40893-109">**UINT32** (**VT \_ UI4**) </span><span class="sxs-lookup"><span data-stu-id="40893-109">**UINT32** (**VT\_UI4**)</span></span>
+<span data-ttu-id="9b5b5-109">**UINT32** (**VT \_ UI4**) </span><span class="sxs-lookup"><span data-stu-id="9b5b5-109">**UINT32** (**VT\_UI4**)</span></span>
 
-## <a name="property-guid"></a><span data-ttu-id="40893-110">屬性 GUID</span><span class="sxs-lookup"><span data-stu-id="40893-110">Property GUID</span></span>
+## <a name="property-guid"></a><span data-ttu-id="9b5b5-110">屬性 GUID</span><span class="sxs-lookup"><span data-stu-id="9b5b5-110">Property GUID</span></span>
 
-<span data-ttu-id="40893-111">**CODECAPI \_ AVEncVideoCodedVideoAccessUnitSize**</span><span class="sxs-lookup"><span data-stu-id="40893-111">**CODECAPI\_AVEncVideoCodedVideoAccessUnitSize**</span></span>
+<span data-ttu-id="9b5b5-111">**CODECAPI \_ AVEncVideoCodedVideoAccessUnitSize**</span><span class="sxs-lookup"><span data-stu-id="9b5b5-111">**CODECAPI\_AVEncVideoCodedVideoAccessUnitSize**</span></span>
 
-## <a name="property-value"></a><span data-ttu-id="40893-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="40893-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="9b5b5-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="9b5b5-112">Property value</span></span>
 
-<span data-ttu-id="40893-113">這個屬性會以值範圍的形式傳回。</span><span class="sxs-lookup"><span data-stu-id="40893-113">This property is returned as a range of values.</span></span> <span data-ttu-id="40893-114">若要取得支援的範圍，請呼叫 [**ICodecAPI：： GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange)。</span><span class="sxs-lookup"><span data-stu-id="40893-114">To get the supported range, call [**ICodecAPI::GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).</span></span>
+<span data-ttu-id="9b5b5-113">這個屬性會以值範圍的形式傳回。</span><span class="sxs-lookup"><span data-stu-id="9b5b5-113">This property is returned as a range of values.</span></span> <span data-ttu-id="9b5b5-114">若要取得支援的範圍，請呼叫 [**ICodecAPI：： GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange)。</span><span class="sxs-lookup"><span data-stu-id="9b5b5-114">To get the supported range, call [**ICodecAPI::GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="40893-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="40893-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9b5b5-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="9b5b5-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="40893-116">需求</span><span class="sxs-lookup"><span data-stu-id="40893-116">Requirement</span></span> | <span data-ttu-id="40893-117">值</span><span class="sxs-lookup"><span data-stu-id="40893-117">Value</span></span> |
+| <span data-ttu-id="9b5b5-116">需求</span><span class="sxs-lookup"><span data-stu-id="9b5b5-116">Requirement</span></span> | <span data-ttu-id="9b5b5-117">值</span><span class="sxs-lookup"><span data-stu-id="9b5b5-117">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="40893-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="40893-118">Minimum supported client</span></span><br/> | <span data-ttu-id="40893-119">Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="40893-119">Windows 2000 Professional \[desktop apps \| UWP apps\]</span></span><br/>                     |
-| <span data-ttu-id="40893-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="40893-120">Minimum supported server</span></span><br/> | <span data-ttu-id="40893-121">Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="40893-121">Windows 2000 Server \[desktop apps \| UWP apps\]</span></span><br/>                           |
-| <span data-ttu-id="40893-122">標頭</span><span class="sxs-lookup"><span data-stu-id="40893-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="40893-123"><dt>Codecapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="40893-123"><dt>Codecapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="9b5b5-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9b5b5-118">Minimum supported client</span></span><br/> | <span data-ttu-id="9b5b5-119">Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9b5b5-119">Windows 2000 Professional \[desktop apps \| UWP apps\]</span></span><br/>                     |
+| <span data-ttu-id="9b5b5-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9b5b5-120">Minimum supported server</span></span><br/> | <span data-ttu-id="9b5b5-121">Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9b5b5-121">Windows 2000 Server \[desktop apps \| UWP apps\]</span></span><br/>                           |
+| <span data-ttu-id="9b5b5-122">標頭</span><span class="sxs-lookup"><span data-stu-id="9b5b5-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="9b5b5-123"><dt>Codecapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="9b5b5-123"><dt>Codecapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="40893-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="40893-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9b5b5-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9b5b5-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="40893-125">編解碼器 API 屬性</span><span class="sxs-lookup"><span data-stu-id="40893-125">Codec API Properties</span></span>](codec-api-properties.md)
+[<span data-ttu-id="9b5b5-125">編解碼器 API 屬性</span><span class="sxs-lookup"><span data-stu-id="9b5b5-125">Codec API Properties</span></span>](codec-api-properties.md)
 </dt> <dt>
 
-[<span data-ttu-id="40893-126">**ICodecAPI 介面**</span><span class="sxs-lookup"><span data-stu-id="40893-126">**ICodecAPI Interface**</span></span>](/windows/desktop/api/Strmif/nn-strmif-icodecapi)
+[<span data-ttu-id="9b5b5-126">**ICodecAPI 介面**</span><span class="sxs-lookup"><span data-stu-id="9b5b5-126">**ICodecAPI Interface**</span></span>](/windows/desktop/api/Strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  

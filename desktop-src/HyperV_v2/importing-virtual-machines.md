@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691799"
 ---
-# <a name="migrating-virtual-machines"></a><span data-ttu-id="a2a1d-103">正在遷移虛擬機器</span><span class="sxs-lookup"><span data-stu-id="a2a1d-103">Migrating virtual machines</span></span>
+# <a name="migrating-virtual-machines"></a><span data-ttu-id="ed31a-103">正在遷移虛擬機器</span><span class="sxs-lookup"><span data-stu-id="ed31a-103">Migrating virtual machines</span></span>
 
-<span data-ttu-id="a2a1d-104">下列 c # 範例示範如何使用 [**MigrateVirtualSystemToHost**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md) 方法來執行簡單的虛擬機器遷移。</span><span class="sxs-lookup"><span data-stu-id="a2a1d-104">The following C# sample demonstrates how to use the [**MigrateVirtualSystemToHost**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md) method to perform a simple migration of a virtual machine.</span></span> <span data-ttu-id="a2a1d-105">此範例會使用資源集區來取得正確的 VHD 路徑。</span><span class="sxs-lookup"><span data-stu-id="a2a1d-105">This example uses resource pools to obtain the correct VHD paths.</span></span> <span data-ttu-id="a2a1d-106">這段程式碼是從 [hyper-v 虛擬機器遷移範例](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Hyper-V%20virtual%20machine%20migration%20sample)取得。</span><span class="sxs-lookup"><span data-stu-id="a2a1d-106">This code is taken from the [Hyper-V virtual machine migration sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Hyper-V%20virtual%20machine%20migration%20sample).</span></span>
+<span data-ttu-id="ed31a-104">下列 c # 範例示範如何使用 [**MigrateVirtualSystemToHost**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md) 方法來執行簡單的虛擬機器遷移。</span><span class="sxs-lookup"><span data-stu-id="ed31a-104">The following C# sample demonstrates how to use the [**MigrateVirtualSystemToHost**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md) method to perform a simple migration of a virtual machine.</span></span> <span data-ttu-id="ed31a-105">此範例會使用資源集區來取得正確的 VHD 路徑。</span><span class="sxs-lookup"><span data-stu-id="ed31a-105">This example uses resource pools to obtain the correct VHD paths.</span></span> <span data-ttu-id="ed31a-106">這段程式碼是從 [hyper-v 虛擬機器遷移範例](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Hyper-V%20virtual%20machine%20migration%20sample)取得。</span><span class="sxs-lookup"><span data-stu-id="ed31a-106">This code is taken from the [Hyper-V virtual machine migration sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Hyper-V%20virtual%20machine%20migration%20sample).</span></span>
 
-<span data-ttu-id="a2a1d-107">執行此範例的命令列語法為：</span><span class="sxs-lookup"><span data-stu-id="a2a1d-107">The command-line syntax to run this sample is:</span></span>
+<span data-ttu-id="ed31a-107">執行此範例的命令列語法為：</span><span class="sxs-lookup"><span data-stu-id="ed31a-107">The command-line syntax to run this sample is:</span></span>
 
-<span data-ttu-id="a2a1d-108">**MigrationSamples.exe vm 和儲存體-簡單的** *SourceHost* *DestinationHost* *VmName*</span><span class="sxs-lookup"><span data-stu-id="a2a1d-108">**MigrationSamples.exe vm-and-storage-simple** *SourceHost* *DestinationHost* *VmName*</span></span>
+<span data-ttu-id="ed31a-108">**MigrationSamples.exe vm 和儲存體-簡單的** *SourceHost* *DestinationHost* *VmName*</span><span class="sxs-lookup"><span data-stu-id="ed31a-108">**MigrationSamples.exe vm-and-storage-simple** *SourceHost* *DestinationHost* *VmName*</span></span>
 
-<span data-ttu-id="a2a1d-109">其中的參數如下：</span><span class="sxs-lookup"><span data-stu-id="a2a1d-109">where the parameters are as follows:</span></span>
+<span data-ttu-id="ed31a-109">其中的參數如下：</span><span class="sxs-lookup"><span data-stu-id="ed31a-109">where the parameters are as follows:</span></span>
 
--   <span data-ttu-id="a2a1d-110">*SourceHost* 是目前虛擬機器主機的名稱。</span><span class="sxs-lookup"><span data-stu-id="a2a1d-110">*SourceHost* is the name of the current host of the virtual machine.</span></span>
--   <span data-ttu-id="a2a1d-111">*DestinationHost* 是目的地主機的名稱。</span><span class="sxs-lookup"><span data-stu-id="a2a1d-111">*DestinationHost* is the name of the destination host.</span></span>
--   <span data-ttu-id="a2a1d-112">*VmName* 是虛擬機器的名稱。</span><span class="sxs-lookup"><span data-stu-id="a2a1d-112">*VmName* is the name of the virtual machine.</span></span>
+-   <span data-ttu-id="ed31a-110">*SourceHost* 是目前虛擬機器主機的名稱。</span><span class="sxs-lookup"><span data-stu-id="ed31a-110">*SourceHost* is the name of the current host of the virtual machine.</span></span>
+-   <span data-ttu-id="ed31a-111">*DestinationHost* 是目的地主機的名稱。</span><span class="sxs-lookup"><span data-stu-id="ed31a-111">*DestinationHost* is the name of the destination host.</span></span>
+-   <span data-ttu-id="ed31a-112">*VmName* 是虛擬機器的名稱。</span><span class="sxs-lookup"><span data-stu-id="ed31a-112">*VmName* is the name of the virtual machine.</span></span>
 
 
 ```CSharp
@@ -93,7 +93,7 @@ VmAndStorageMigrationSimple(
 
 
 
-<span data-ttu-id="a2a1d-113">下列 c # 程式碼包含從上述範例中呼叫的大部分公用程式方法的執行。</span><span class="sxs-lookup"><span data-stu-id="a2a1d-113">The following C# code contains the implementation of most of the utility methods called from the example above.</span></span>
+<span data-ttu-id="ed31a-113">下列 c # 程式碼包含從上述範例中呼叫的大部分公用程式方法的執行。</span><span class="sxs-lookup"><span data-stu-id="ed31a-113">The following C# code contains the implementation of most of the utility methods called from the example above.</span></span>
 
 
 ```CSharp
