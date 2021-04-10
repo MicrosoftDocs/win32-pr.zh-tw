@@ -11,6 +11,6 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/23/2019
 ms.locfileid: "103841704"
 ---
-# <a name="router-rras"></a><span data-ttu-id="54bad-103"> (RRAS) 的路由器</span><span class="sxs-lookup"><span data-stu-id="54bad-103">Router (RRAS)</span></span>
+# <a name="router-rras"></a><span data-ttu-id="9ad12-103"> (RRAS) 的路由器</span><span class="sxs-lookup"><span data-stu-id="9ad12-103">Router (RRAS)</span></span>
 
-<span data-ttu-id="54bad-104">基於本檔的目的，路由器是執行「路由及遠端存取」服務 (RRAS) 和路由表管理員的 Windows NT/Windows 2000 伺服器。</span><span class="sxs-lookup"><span data-stu-id="54bad-104">For the purposes of this documentation, a router is a Windows NT/Windows 2000 server that is running the Routing and Remote Access Service (RRAS) and the routing table manager.</span></span>
+<span data-ttu-id="9ad12-104">基於本檔的目的，路由器是執行「路由及遠端存取」服務 (RRAS) 和路由表管理員的 Windows NT/Windows 2000 伺服器。</span><span class="sxs-lookup"><span data-stu-id="9ad12-104">For the purposes of this documentation, a router is a Windows NT/Windows 2000 server that is running the Routing and Remote Access Service (RRAS) and the routing table manager.</span></span>

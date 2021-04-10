@@ -13,13 +13,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/23/2019
 ms.locfileid: "103841708"
 ---
-# <a name="rpc-reference"></a><span data-ttu-id="249cf-104">RPC 參考</span><span class="sxs-lookup"><span data-stu-id="249cf-104">RPC reference</span></span>
+# <a name="rpc-reference"></a><span data-ttu-id="a75e4-104">RPC 參考</span><span class="sxs-lookup"><span data-stu-id="a75e4-104">RPC reference</span></span>
 
-<span data-ttu-id="249cf-105">RPC 程式設計人員參考包含：</span><span class="sxs-lookup"><span data-stu-id="249cf-105">The RPC Programmers' Reference contains:</span></span>
+<span data-ttu-id="a75e4-105">RPC 程式設計人員參考包含：</span><span class="sxs-lookup"><span data-stu-id="a75e4-105">The RPC Programmers' Reference contains:</span></span>
 
--   [<span data-ttu-id="249cf-106">RPC 資料類型、結構和常數</span><span class="sxs-lookup"><span data-stu-id="249cf-106">RPC Data Types, Structures, and Constants</span></span>](rpc-data-types-structures-and-constants.md)
--   [<span data-ttu-id="249cf-107">RPC 函數</span><span class="sxs-lookup"><span data-stu-id="249cf-107">RPC Functions</span></span>](function-reference.md)
--   [<span data-ttu-id="249cf-108">RPC 宏</span><span class="sxs-lookup"><span data-stu-id="249cf-108">RPC Macros</span></span>](rpc-macros.md)
+-   [<span data-ttu-id="a75e4-106">RPC 資料類型、結構和常數</span><span class="sxs-lookup"><span data-stu-id="a75e4-106">RPC Data Types, Structures, and Constants</span></span>](rpc-data-types-structures-and-constants.md)
+-   [<span data-ttu-id="a75e4-107">RPC 函數</span><span class="sxs-lookup"><span data-stu-id="a75e4-107">RPC Functions</span></span>](function-reference.md)
+-   [<span data-ttu-id="a75e4-108">RPC 宏</span><span class="sxs-lookup"><span data-stu-id="a75e4-108">RPC Macros</span></span>](rpc-macros.md)
 
  
 

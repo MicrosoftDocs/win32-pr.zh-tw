@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "104106074"
 ---
-# <a name="importagreementlicensekeypack-method-of-the-win32_tslicensekeypack-class"></a><span data-ttu-id="596fc-106">Win32 TSLicenseKeyPack 類別的 ImportAgreementLicenseKeyPack 方法 \_</span><span class="sxs-lookup"><span data-stu-id="596fc-106">ImportAgreementLicenseKeyPack method of the Win32\_TSLicenseKeyPack class</span></span>
+# <a name="importagreementlicensekeypack-method-of-the-win32_tslicensekeypack-class"></a><span data-ttu-id="34759-106">Win32 TSLicenseKeyPack 類別的 ImportAgreementLicenseKeyPack 方法 \_</span><span class="sxs-lookup"><span data-stu-id="34759-106">ImportAgreementLicenseKeyPack method of the Win32\_TSLicenseKeyPack class</span></span>
 
-<span data-ttu-id="596fc-107">從另一部遠端桌面授權伺服器匯入，這是透過授權合約購買的遠端桌面服務授權金鑰套件，並會透過網際網路自動連接來驗證金鑰套件授權。</span><span class="sxs-lookup"><span data-stu-id="596fc-107">Imports, from another Remote Desktop license server, a Remote Desktop Services license key pack that was purchased through a license agreement, and automatically connects over the Internet to validate the key pack license.</span></span>
+<span data-ttu-id="34759-107">從另一部遠端桌面授權伺服器匯入，這是透過授權合約購買的遠端桌面服務授權金鑰套件，並會透過網際網路自動連接來驗證金鑰套件授權。</span><span class="sxs-lookup"><span data-stu-id="34759-107">Imports, from another Remote Desktop license server, a Remote Desktop Services license key pack that was purchased through a license agreement, and automatically connects over the Internet to validate the key pack license.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="596fc-108">語法</span><span class="sxs-lookup"><span data-stu-id="596fc-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="34759-108">語法</span><span class="sxs-lookup"><span data-stu-id="34759-108">Syntax</span></span>
 
 
 ```mof
@@ -46,173 +46,173 @@ uint32 ImportAgreementLicenseKeyPack(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="596fc-109">參數</span><span class="sxs-lookup"><span data-stu-id="596fc-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="34759-109">參數</span><span class="sxs-lookup"><span data-stu-id="34759-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="596fc-110">*AgreementType* \[在\]</span><span class="sxs-lookup"><span data-stu-id="596fc-110">*AgreementType* \[in\]</span></span>
+<span data-ttu-id="34759-110">*AgreementType* \[在\]</span><span class="sxs-lookup"><span data-stu-id="34759-110">*AgreementType* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-111">合約類型。</span><span class="sxs-lookup"><span data-stu-id="596fc-111">Agreement type.</span></span>
+<span data-ttu-id="34759-111">合約類型。</span><span class="sxs-lookup"><span data-stu-id="34759-111">Agreement type.</span></span>
 
 <dt>
 
-<span data-ttu-id="596fc-112">0</span><span class="sxs-lookup"><span data-stu-id="596fc-112">0</span></span>
+<span data-ttu-id="34759-112">0</span><span class="sxs-lookup"><span data-stu-id="34759-112">0</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-113">授權金鑰套件來自選取的大量授權合約 (，適用于具有250或更多電腦) 的客戶。</span><span class="sxs-lookup"><span data-stu-id="596fc-113">The license key pack is from a Select volume license agreement (for customers with 250 or more computers).</span></span> <span data-ttu-id="596fc-114">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="596fc-114">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
+<span data-ttu-id="34759-113">授權金鑰套件來自選取的大量授權合約 (，適用于具有250或更多電腦) 的客戶。</span><span class="sxs-lookup"><span data-stu-id="34759-113">The license key pack is from a Select volume license agreement (for customers with 250 or more computers).</span></span> <span data-ttu-id="34759-114">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="34759-114">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-115">1</span><span class="sxs-lookup"><span data-stu-id="596fc-115">1</span></span>
+<span data-ttu-id="34759-115">1</span><span class="sxs-lookup"><span data-stu-id="34759-115">1</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-116">授權金鑰套件是針對具有250或更多電腦的客戶提供的 Enterprise volume 授權合約。</span><span class="sxs-lookup"><span data-stu-id="596fc-116">The license key pack is from an Enterprise volume license agreement for customers with 250 or more computers.</span></span> <span data-ttu-id="596fc-117">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="596fc-117">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
+<span data-ttu-id="34759-116">授權金鑰套件是針對具有250或更多電腦的客戶提供的 Enterprise volume 授權合約。</span><span class="sxs-lookup"><span data-stu-id="34759-116">The license key pack is from an Enterprise volume license agreement for customers with 250 or more computers.</span></span> <span data-ttu-id="34759-117">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="34759-117">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-118">2</span><span class="sxs-lookup"><span data-stu-id="596fc-118">2</span></span>
+<span data-ttu-id="34759-118">2</span><span class="sxs-lookup"><span data-stu-id="34759-118">2</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-119">授權金鑰套件來自較高教育機構的校園大量授權合約。</span><span class="sxs-lookup"><span data-stu-id="596fc-119">The license key pack is from a Campus volume license agreement for a higher education institution.</span></span> <span data-ttu-id="596fc-120">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="596fc-120">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
+<span data-ttu-id="34759-119">授權金鑰套件來自較高教育機構的校園大量授權合約。</span><span class="sxs-lookup"><span data-stu-id="34759-119">The license key pack is from a Campus volume license agreement for a higher education institution.</span></span> <span data-ttu-id="34759-120">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="34759-120">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-121">3</span><span class="sxs-lookup"><span data-stu-id="596fc-121">3</span></span>
+<span data-ttu-id="34759-121">3</span><span class="sxs-lookup"><span data-stu-id="34759-121">3</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-122">授權金鑰套件來自主要和次要機構的學校大量授權合約。</span><span class="sxs-lookup"><span data-stu-id="596fc-122">The license key pack is from a School volume license agreement for primary and secondary institutions.</span></span> <span data-ttu-id="596fc-123">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="596fc-123">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
+<span data-ttu-id="34759-122">授權金鑰套件來自主要和次要機構的學校大量授權合約。</span><span class="sxs-lookup"><span data-stu-id="34759-122">The license key pack is from a School volume license agreement for primary and secondary institutions.</span></span> <span data-ttu-id="34759-123">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="34759-123">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-124">4</span><span class="sxs-lookup"><span data-stu-id="596fc-124">4</span></span>
+<span data-ttu-id="34759-124">4</span><span class="sxs-lookup"><span data-stu-id="34759-124">4</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-125">授權金鑰套件來自服務提供者的服務提供者授權合約，可讓您每月授權 Microsoft 軟體。</span><span class="sxs-lookup"><span data-stu-id="596fc-125">The license key pack is from a Service Provider license agreement for service providers to license Microsoft software on a monthly basis.</span></span> <span data-ttu-id="596fc-126">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="596fc-126">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
+<span data-ttu-id="34759-125">授權金鑰套件來自服務提供者的服務提供者授權合約，可讓您每月授權 Microsoft 軟體。</span><span class="sxs-lookup"><span data-stu-id="34759-125">The license key pack is from a Service Provider license agreement for service providers to license Microsoft software on a monthly basis.</span></span> <span data-ttu-id="34759-126">*SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。</span><span class="sxs-lookup"><span data-stu-id="34759-126">The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-127">5</span><span class="sxs-lookup"><span data-stu-id="596fc-127">5</span></span>
+<span data-ttu-id="34759-127">5</span><span class="sxs-lookup"><span data-stu-id="34759-127">5</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-128">授權金鑰套件來自另一個授權合約，例如開放價值、多年 Open License，以及 Open 訂用帳戶授權。</span><span class="sxs-lookup"><span data-stu-id="596fc-128">The license key pack is from another license agreement, such as Open Value, Multi-Year Open License, and Open Subscription License.</span></span> <span data-ttu-id="596fc-129">*SAgreementNumber* 參數是與您的程式資訊一起提供的合約編號。</span><span class="sxs-lookup"><span data-stu-id="596fc-129">The *sAgreementNumber* parameter is the agreement number provided with your program information.</span></span>
+<span data-ttu-id="34759-128">授權金鑰套件來自另一個授權合約，例如開放價值、多年 Open License，以及 Open 訂用帳戶授權。</span><span class="sxs-lookup"><span data-stu-id="34759-128">The license key pack is from another license agreement, such as Open Value, Multi-Year Open License, and Open Subscription License.</span></span> <span data-ttu-id="34759-129">*SAgreementNumber* 參數是與您的程式資訊一起提供的合約編號。</span><span class="sxs-lookup"><span data-stu-id="34759-129">The *sAgreementNumber* parameter is the agreement number provided with your program information.</span></span>
 
 </dd> </dl> </dd> <dt>
 
-<span data-ttu-id="596fc-130">*sAgreementNumber* \[在\]</span><span class="sxs-lookup"><span data-stu-id="596fc-130">*sAgreementNumber* \[in\]</span></span>
+<span data-ttu-id="34759-130">*sAgreementNumber* \[在\]</span><span class="sxs-lookup"><span data-stu-id="34759-130">*sAgreementNumber* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-131">合約編號或註冊編號。</span><span class="sxs-lookup"><span data-stu-id="596fc-131">Agreement number or enrollment number.</span></span> <span data-ttu-id="596fc-132">*SAgreementNumber* 參數是不含連字號的七位數數位字串。</span><span class="sxs-lookup"><span data-stu-id="596fc-132">The *sAgreementNumber* parameter is a seven digit numeric string without hyphens.</span></span>
+<span data-ttu-id="34759-131">合約編號或註冊編號。</span><span class="sxs-lookup"><span data-stu-id="34759-131">Agreement number or enrollment number.</span></span> <span data-ttu-id="34759-132">*SAgreementNumber* 參數是不含連字號的七位數數位字串。</span><span class="sxs-lookup"><span data-stu-id="34759-132">The *sAgreementNumber* parameter is a seven digit numeric string without hyphens.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-133">*ProductVersion* \[在\]</span><span class="sxs-lookup"><span data-stu-id="596fc-133">*ProductVersion* \[in\]</span></span>
+<span data-ttu-id="34759-133">*ProductVersion* \[在\]</span><span class="sxs-lookup"><span data-stu-id="34759-133">*ProductVersion* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-134">產品版本。</span><span class="sxs-lookup"><span data-stu-id="596fc-134">Product version.</span></span>
+<span data-ttu-id="34759-134">產品版本。</span><span class="sxs-lookup"><span data-stu-id="34759-134">Product version.</span></span>
 
 <dt>
 
-<span data-ttu-id="596fc-135">0</span><span class="sxs-lookup"><span data-stu-id="596fc-135">0</span></span>
+<span data-ttu-id="34759-135">0</span><span class="sxs-lookup"><span data-stu-id="34759-135">0</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-136">不支援。</span><span class="sxs-lookup"><span data-stu-id="596fc-136">Not supported.</span></span>
+<span data-ttu-id="34759-136">不支援。</span><span class="sxs-lookup"><span data-stu-id="34759-136">Not supported.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-137">1</span><span class="sxs-lookup"><span data-stu-id="596fc-137">1</span></span>
+<span data-ttu-id="34759-137">1</span><span class="sxs-lookup"><span data-stu-id="34759-137">1</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-138">不支援。</span><span class="sxs-lookup"><span data-stu-id="596fc-138">Not supported.</span></span>
+<span data-ttu-id="34759-138">不支援。</span><span class="sxs-lookup"><span data-stu-id="34759-138">Not supported.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-139">2</span><span class="sxs-lookup"><span data-stu-id="596fc-139">2</span></span>
+<span data-ttu-id="34759-139">2</span><span class="sxs-lookup"><span data-stu-id="34759-139">2</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-140">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="596fc-140">Windows Server 2008</span></span>
+<span data-ttu-id="34759-140">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="34759-140">Windows Server 2008</span></span>
 
 </dd> </dl> </dd> <dt>
 
-<span data-ttu-id="596fc-141">*ProductType* \[在\]</span><span class="sxs-lookup"><span data-stu-id="596fc-141">*ProductType* \[in\]</span></span>
+<span data-ttu-id="34759-141">*ProductType* \[在\]</span><span class="sxs-lookup"><span data-stu-id="34759-141">*ProductType* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-142">產品類型。</span><span class="sxs-lookup"><span data-stu-id="596fc-142">Product type.</span></span>
+<span data-ttu-id="34759-142">產品類型。</span><span class="sxs-lookup"><span data-stu-id="34759-142">Product type.</span></span>
 
 <dt>
 
-<span data-ttu-id="596fc-143">0</span><span class="sxs-lookup"><span data-stu-id="596fc-143">0</span></span>
+<span data-ttu-id="34759-143">0</span><span class="sxs-lookup"><span data-stu-id="34759-143">0</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-144">遠端桌面服務授權金鑰套件產品類型是依裝置。</span><span class="sxs-lookup"><span data-stu-id="596fc-144">The Remote Desktop Services license key pack product type is per device.</span></span> <span data-ttu-id="596fc-145">因此，連接到 RD 工作階段主機伺服器的每個裝置都必須具有授權。</span><span class="sxs-lookup"><span data-stu-id="596fc-145">Therefore, each device that connects to the RD Session Host server must have a license.</span></span>
+<span data-ttu-id="34759-144">遠端桌面服務授權金鑰套件產品類型是依裝置。</span><span class="sxs-lookup"><span data-stu-id="34759-144">The Remote Desktop Services license key pack product type is per device.</span></span> <span data-ttu-id="34759-145">因此，連接到 RD 工作階段主機伺服器的每個裝置都必須具有授權。</span><span class="sxs-lookup"><span data-stu-id="34759-145">Therefore, each device that connects to the RD Session Host server must have a license.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-146">1</span><span class="sxs-lookup"><span data-stu-id="596fc-146">1</span></span>
+<span data-ttu-id="34759-146">1</span><span class="sxs-lookup"><span data-stu-id="34759-146">1</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-147">遠端桌面服務的授權金鑰套件產品類型為 [每位使用者]。</span><span class="sxs-lookup"><span data-stu-id="596fc-147">The Remote Desktop Services license key pack product type is per user.</span></span> <span data-ttu-id="596fc-148">因此，連接到 RD 工作階段主機伺服器的每個使用者都必須具有授權。</span><span class="sxs-lookup"><span data-stu-id="596fc-148">Therefore, each user who connects to the RD Session Host server must have a license.</span></span>
+<span data-ttu-id="34759-147">遠端桌面服務的授權金鑰套件產品類型為 [每位使用者]。</span><span class="sxs-lookup"><span data-stu-id="34759-147">The Remote Desktop Services license key pack product type is per user.</span></span> <span data-ttu-id="34759-148">因此，連接到 RD 工作階段主機伺服器的每個使用者都必須具有授權。</span><span class="sxs-lookup"><span data-stu-id="34759-148">Therefore, each user who connects to the RD Session Host server must have a license.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-149">2</span><span class="sxs-lookup"><span data-stu-id="596fc-149">2</span></span>
+<span data-ttu-id="34759-149">2</span><span class="sxs-lookup"><span data-stu-id="34759-149">2</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-150">此產品類型無效。</span><span class="sxs-lookup"><span data-stu-id="596fc-150">This product type is not valid.</span></span>
+<span data-ttu-id="34759-150">此產品類型無效。</span><span class="sxs-lookup"><span data-stu-id="34759-150">This product type is not valid.</span></span>
 
 </dd> </dl> </dd> <dt>
 
-<span data-ttu-id="596fc-151">*LicenseCount* \[在\]</span><span class="sxs-lookup"><span data-stu-id="596fc-151">*LicenseCount* \[in\]</span></span>
+<span data-ttu-id="34759-151">*LicenseCount* \[在\]</span><span class="sxs-lookup"><span data-stu-id="34759-151">*LicenseCount* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-152">要匯入的授權數目。</span><span class="sxs-lookup"><span data-stu-id="596fc-152">Number of licenses to import.</span></span>
+<span data-ttu-id="34759-152">要匯入的授權數目。</span><span class="sxs-lookup"><span data-stu-id="34759-152">Number of licenses to import.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-153">*sSourceLSName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="596fc-153">*sSourceLSName* \[in\]</span></span>
+<span data-ttu-id="34759-153">*sSourceLSName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="34759-153">*sSourceLSName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-154">來源遠端桌面授權伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="596fc-154">The name of the source Remote Desktop license server.</span></span> <span data-ttu-id="596fc-155">這可以是完整的辨別名稱或伺服器的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="596fc-155">This is either the fully qualified distinguished name or the IP address of the server.</span></span>
+<span data-ttu-id="34759-154">來源遠端桌面授權伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="34759-154">The name of the source Remote Desktop license server.</span></span> <span data-ttu-id="34759-155">這可以是完整的辨別名稱或伺服器的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="34759-155">This is either the fully qualified distinguished name or the IP address of the server.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-156">*sSourceLSProductId* \[在\]</span><span class="sxs-lookup"><span data-stu-id="596fc-156">*sSourceLSProductId* \[in\]</span></span>
+<span data-ttu-id="34759-156">*sSourceLSProductId* \[在\]</span><span class="sxs-lookup"><span data-stu-id="34759-156">*sSourceLSProductId* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-157">遠端桌面授權伺服器識別碼。</span><span class="sxs-lookup"><span data-stu-id="596fc-157">The Remote Desktop license server identifier.</span></span> <span data-ttu-id="596fc-158">是35字元的英數位元字串，不能包含連字號。</span><span class="sxs-lookup"><span data-stu-id="596fc-158">The is a 35-character alphanumeric string that cannot include hyphens.</span></span>
+<span data-ttu-id="34759-157">遠端桌面授權伺服器識別碼。</span><span class="sxs-lookup"><span data-stu-id="34759-157">The Remote Desktop license server identifier.</span></span> <span data-ttu-id="34759-158">是35字元的英數位元字串，不能包含連字號。</span><span class="sxs-lookup"><span data-stu-id="34759-158">The is a 35-character alphanumeric string that cannot include hyphens.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="596fc-159">*KeyPackId* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="596fc-159">*KeyPackId* \[out\]</span></span>
+<span data-ttu-id="34759-159">*KeyPackId* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="34759-159">*KeyPackId* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="596fc-160">接收金鑰組識別碼。</span><span class="sxs-lookup"><span data-stu-id="596fc-160">Receives the key pack identifier.</span></span>
+<span data-ttu-id="34759-160">接收金鑰組識別碼。</span><span class="sxs-lookup"><span data-stu-id="34759-160">Receives the key pack identifier.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="596fc-161">傳回值</span><span class="sxs-lookup"><span data-stu-id="596fc-161">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="34759-161">傳回值</span><span class="sxs-lookup"><span data-stu-id="34759-161">Return value</span></span>
 
-<span data-ttu-id="596fc-162">如果方法成功，則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="596fc-162">If the method succeeds, it returns zero.</span></span> <span data-ttu-id="596fc-163">如果方法失敗，則會傳回非零值。</span><span class="sxs-lookup"><span data-stu-id="596fc-163">If the method is unsuccessful, it returns a nonzero value.</span></span> <span data-ttu-id="596fc-164">如需錯誤碼清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md)。</span><span class="sxs-lookup"><span data-stu-id="596fc-164">For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).</span></span>
+<span data-ttu-id="34759-162">如果方法成功，則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="34759-162">If the method succeeds, it returns zero.</span></span> <span data-ttu-id="34759-163">如果方法失敗，則會傳回非零值。</span><span class="sxs-lookup"><span data-stu-id="34759-163">If the method is unsuccessful, it returns a nonzero value.</span></span> <span data-ttu-id="34759-164">如需錯誤碼清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md)。</span><span class="sxs-lookup"><span data-stu-id="34759-164">For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="596fc-165">規格需求</span><span class="sxs-lookup"><span data-stu-id="596fc-165">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="34759-165">規格需求</span><span class="sxs-lookup"><span data-stu-id="34759-165">Requirements</span></span>
 
 
 
-| <span data-ttu-id="596fc-166">需求</span><span class="sxs-lookup"><span data-stu-id="596fc-166">Requirement</span></span> | <span data-ttu-id="596fc-167">值</span><span class="sxs-lookup"><span data-stu-id="596fc-167">Value</span></span> |
+| <span data-ttu-id="34759-166">需求</span><span class="sxs-lookup"><span data-stu-id="34759-166">Requirement</span></span> | <span data-ttu-id="34759-167">值</span><span class="sxs-lookup"><span data-stu-id="34759-167">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| <span data-ttu-id="596fc-168">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="596fc-168">Minimum supported client</span></span><br/> | <span data-ttu-id="596fc-169">都不支援</span><span class="sxs-lookup"><span data-stu-id="596fc-169">None supported</span></span><br/>                                                                 |
-| <span data-ttu-id="596fc-170">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="596fc-170">Minimum supported server</span></span><br/> | <span data-ttu-id="596fc-171">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="596fc-171">Windows Server 2008</span></span><br/>                                                            |
-| <span data-ttu-id="596fc-172">命名空間</span><span class="sxs-lookup"><span data-stu-id="596fc-172">Namespace</span></span><br/>                | <span data-ttu-id="596fc-173">Root\\CIMv2</span><span class="sxs-lookup"><span data-stu-id="596fc-173">Root\\CIMv2</span></span><br/>                                                                    |
-| <span data-ttu-id="596fc-174">MOF</span><span class="sxs-lookup"><span data-stu-id="596fc-174">MOF</span></span><br/>                      | <dl> <span data-ttu-id="596fc-175"><dt>TlsWmiProv mof</dt></span><span class="sxs-lookup"><span data-stu-id="596fc-175"><dt>TlsWmiProv.mof</dt></span></span> </dl> |
-| <span data-ttu-id="596fc-176">DLL</span><span class="sxs-lookup"><span data-stu-id="596fc-176">DLL</span></span><br/>                      | <dl> <span data-ttu-id="596fc-177"><dt>TlsWmiProv.dll</dt></span><span class="sxs-lookup"><span data-stu-id="596fc-177"><dt>TlsWmiProv.dll</dt></span></span> </dl> |
+| <span data-ttu-id="34759-168">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="34759-168">Minimum supported client</span></span><br/> | <span data-ttu-id="34759-169">都不支援</span><span class="sxs-lookup"><span data-stu-id="34759-169">None supported</span></span><br/>                                                                 |
+| <span data-ttu-id="34759-170">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="34759-170">Minimum supported server</span></span><br/> | <span data-ttu-id="34759-171">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="34759-171">Windows Server 2008</span></span><br/>                                                            |
+| <span data-ttu-id="34759-172">命名空間</span><span class="sxs-lookup"><span data-stu-id="34759-172">Namespace</span></span><br/>                | <span data-ttu-id="34759-173">Root\\CIMv2</span><span class="sxs-lookup"><span data-stu-id="34759-173">Root\\CIMv2</span></span><br/>                                                                    |
+| <span data-ttu-id="34759-174">MOF</span><span class="sxs-lookup"><span data-stu-id="34759-174">MOF</span></span><br/>                      | <dl> <span data-ttu-id="34759-175"><dt>TlsWmiProv mof</dt></span><span class="sxs-lookup"><span data-stu-id="34759-175"><dt>TlsWmiProv.mof</dt></span></span> </dl> |
+| <span data-ttu-id="34759-176">DLL</span><span class="sxs-lookup"><span data-stu-id="34759-176">DLL</span></span><br/>                      | <dl> <span data-ttu-id="34759-177"><dt>TlsWmiProv.dll</dt></span><span class="sxs-lookup"><span data-stu-id="34759-177"><dt>TlsWmiProv.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="596fc-178">另請參閱</span><span class="sxs-lookup"><span data-stu-id="596fc-178">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="34759-178">另請參閱</span><span class="sxs-lookup"><span data-stu-id="34759-178">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="596fc-179">**Win32 \_ TSLicenseKeyPack**</span><span class="sxs-lookup"><span data-stu-id="596fc-179">**Win32\_TSLicenseKeyPack**</span></span>](win32-tslicensekeypack.md)
+[<span data-ttu-id="34759-179">**Win32 \_ TSLicenseKeyPack**</span><span class="sxs-lookup"><span data-stu-id="34759-179">**Win32\_TSLicenseKeyPack**</span></span>](win32-tslicensekeypack.md)
 </dt> </dl>
 
  

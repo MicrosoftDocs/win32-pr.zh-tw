@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103842123"
 ---
-# <a name="closing-all-mci-devices-used-by-an-application"></a><span data-ttu-id="5de19-103">關閉應用程式所使用的所有 MCI 裝置</span><span class="sxs-lookup"><span data-stu-id="5de19-103">Closing All MCI Devices Used by an Application</span></span>
+# <a name="closing-all-mci-devices-used-by-an-application"></a><span data-ttu-id="dd03d-103">關閉應用程式所使用的所有 MCI 裝置</span><span class="sxs-lookup"><span data-stu-id="dd03d-103">Closing All MCI Devices Used by an Application</span></span>
 
-<span data-ttu-id="5de19-104">下列範例會關閉應用程式使用 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 函式所開啟的所有 MCI 裝置。</span><span class="sxs-lookup"><span data-stu-id="5de19-104">The following example closes all of the MCI devices that are opened by an application using the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.</span></span>
+<span data-ttu-id="dd03d-104">下列範例會關閉應用程式使用 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 函式所開啟的所有 MCI 裝置。</span><span class="sxs-lookup"><span data-stu-id="dd03d-104">The following example closes all of the MCI devices that are opened by an application using the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.</span></span>
 
 
 ```C++
