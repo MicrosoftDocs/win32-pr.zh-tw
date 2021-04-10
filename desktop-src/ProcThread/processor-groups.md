@@ -1,0 +1,60 @@
+---
+description: 64位版本的 Windows 7 和 Windows Server 2008 R2 和更新版本的 Windows 在單一電腦上支援超過64個邏輯處理器。 這項功能不適用於32位版本的 Windows。
+ms.assetid: c627ac0f-96e8-48b5-9103-4316f487e173
+title: 處理器群組
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: cebc5b9ab1b386847b6561a9f6322c2fca0e2ae5
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104026746"
+---
+# <a name="processor-groups"></a>處理器群組
+
+64位版本的 Windows 7 和 Windows Server 2008 R2 和更新版本的 Windows 在單一電腦上支援超過64個邏輯處理器。 這項功能不適用於32位版本的 Windows。
+
+具有多個實體處理器的系統，或具有多個核心之實體處理器的系統，會提供具有多個邏輯處理器的作業系統。 *邏輯處理器* 是從作業系統、應用程式或驅動程式的角度來看，一個邏輯運算引擎。 *核心* 是一個處理器單位，可包含一或多個邏輯處理器。 *實體處理器* 可以包含一或多個核心。 實體處理器與處理器套件、通訊端或 CPU 相同。
+
+支援具有超過64個邏輯處理器的系統，是以 *處理器群組* 的概念為基礎，這是一組最多64個邏輯處理器的靜態集合，可視為單一排程實體。 處理器群組的編號是從0開始。 具有少於64個邏輯處理器的系統一律會有單一群組（群組0）。
+
+**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援處理器群組。
+
+當系統啟動時，作業系統會建立處理器群組，並將邏輯處理器指派給群組。 如果系統能夠熱新增處理器，作業系統會允許系統在執行時可能抵達的處理器群組中的空間。 作業系統會將系統中的群組數目降至最低。 例如，具有128邏輯處理器的系統會在每個群組中有兩個具有64處理器的處理器群組，而不是每個群組中有32個邏輯處理器的四個群組。
+
+為了達到較佳的效能，作業系統會在將邏輯處理器指派給群組時，將實體位置列入考慮。 核心中的所有邏輯處理器，以及實體處理器中的所有核心，會盡可能指派給相同的群組。 實際接近另一個的實體處理器會指派給相同的群組。 除非節點的容量超過群組大小上限，否則 NUMA 節點會指派給單一群組。 如需詳細資訊，請參閱 [NUMA 支援](numa-support.md)。
+
+在具有64或更少處理器的系統上，現有的應用程式不需要修改就能正常運作。 未呼叫任何使用處理器親和性遮罩或處理器號碼之函式的應用程式，在所有系統上都能正常運作，不論處理器數目為何。 若要在具有超過64個邏輯處理器的系統上正常運作，下列類型的應用程式可能需要修改：
+
+-   針對整個系統管理、維護或顯示每個處理器資訊的應用程式，必須修改為支援64個以上的邏輯處理器。 這類應用程式的其中一個範例是 Windows 工作管理員，它會顯示系統中每個處理器的工作負載。
+-   效能很重要且可以有效率地擴充超過64個邏輯處理器的應用程式，必須經過修改才能在這類系統上執行。 例如，資料庫應用程式可能會受益于修改。
+-   如果應用程式使用的 DLL 具有每一處理器的資料結構，而且 DLL 尚未修改為支援超過64個邏輯處理器，則應用程式中呼叫 DLL 所匯出之函式的所有線程都必須指派給相同的群組。
+
+根據預設，應用程式會限制為單一群組，這應該為一般應用程式提供充足的處理功能。 作業系統一開始會以迴圈配置資源方式，將每個進程指派給系統中的各個群組。 進程會開始執行指派給一個群組的作業。 進程的第一個執行緒最初是在指派進程的群組中執行。 每個新建立的執行緒會指派給建立它的執行緒相同的群組。
+
+需要使用多個群組才能在64以上的處理器上執行的應用程式，必須明確地判斷要在哪裡執行其執行緒，並負責將執行緒的處理器親和性設定為所需的群組。 「 [繼承 \_ 父項 \_ 親和性](process-creation-flags.md) 」旗標可以用來指定父進程 (這可以與目前的進程) 不同，以產生新進程的親和性。 如果處理常式是在單一群組中執行，它可以使用 [**GetProcessAffinityMask**](/windows/desktop/api/WinBase/nf-winbase-getprocessaffinitymask) 和 [**SetProcessAffinityMask**](/windows/desktop/api/WinBase/nf-winbase-setprocessaffinitymask) 來讀取和修改其親和性，同時在相同的群組中剩餘;如果已修改進程親和性，則新的親和性會套用至其執行緒。
+
+執行緒的親和性可以在建立時指定，其方式是使用 [**PROC \_ 執行緒 \_ 屬性 \_ 群組 \_ 親和性**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute) 擴充屬性搭配 [**CreateRemoteThreadEx**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethreadex) 函數。 建立執行緒之後，您可以藉由呼叫 [**SetThreadAffinityMask**](/windows/desktop/api/WinBase/nf-winbase-setthreadaffinitymask) 或 [**SetThreadGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-setthreadgroupaffinity)來變更其相似性。 如果執行緒指派給與進程不同的群組，進程的親和性就會更新為包含執行緒的親和性，而且程式會變成多群組進程。 您必須對個別的執行緒進行進一步的親和性變更;無法使用 [**SetProcessAffinityMask**](/windows/desktop/api/WinBase/nf-winbase-setprocessaffinitymask)修改多群組進程的親和性。 [**GetProcessGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity)函式會抓取進程及其執行緒所指派的群組集合。
+
+若要為與工作物件相關聯的所有進程指定親和性，請使用 [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) 函數搭配 **JobObjectGroupInformation** 或 **JobObjectGroupInformationEx** 資訊類別。
+
+邏輯處理器是由其群組編號和其群組相關處理器編號來識別。 這是以 [**處理器 \_ 編號**](/windows/desktop/api/WinNT/ns-winnt-processor_number) 結構表示。 舊版函式所使用的數值處理器號碼是群組相關的。
+
+如需作業系統架構變更以支援64個以上處理器的討論，請參閱 [支援超過64個處理器之系統](https://www.microsoft.com/whdc/system/Sysinternals/MoreThan64proc.mspx)的技術白皮書。
+
+如需支援處理器群組的新函式和結構清單，請參閱 [進程和執行緒的新](what-s-new-in-processes-and-threads.md)功能。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[多個處理器](multiple-processors.md)
+</dt> <dt>
+
+[NUMA 支援](numa-support.md)
+</dt> </dl>
+
+ 
+
+ 
