@@ -11,17 +11,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104111188"
 ---
-# <a name="device-management-constants"></a><span data-ttu-id="79fca-103">裝置管理常數</span><span class="sxs-lookup"><span data-stu-id="79fca-103">Device Management Constants</span></span>
+# <a name="device-management-constants"></a><span data-ttu-id="c7b00-103">裝置管理常數</span><span class="sxs-lookup"><span data-stu-id="c7b00-103">Device Management Constants</span></span>
 
-<span data-ttu-id="79fca-104">下列常數適用于裝置管理：</span><span class="sxs-lookup"><span data-stu-id="79fca-104">The following constants are used with device management:</span></span>
+<span data-ttu-id="c7b00-104">下列常數適用于裝置管理：</span><span class="sxs-lookup"><span data-stu-id="c7b00-104">The following constants are used with device management:</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="79fca-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="79fca-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c7b00-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c7b00-105">In this section</span></span>
 
 
 
-| <span data-ttu-id="79fca-106">主題</span><span class="sxs-lookup"><span data-stu-id="79fca-106">Topic</span></span>                                                                                         | <span data-ttu-id="79fca-107">描述</span><span class="sxs-lookup"><span data-stu-id="79fca-107">Description</span></span>                                                                                                                                                  |
+| <span data-ttu-id="c7b00-106">主題</span><span class="sxs-lookup"><span data-stu-id="c7b00-106">Topic</span></span>                                                                                         | <span data-ttu-id="c7b00-107">描述</span><span class="sxs-lookup"><span data-stu-id="c7b00-107">Description</span></span>                                                                                                                                                  |
 |-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="79fca-108">**裝置 \_ 資料 \_ 管理 \_ 設定 \_ 動作**</span><span class="sxs-lookup"><span data-stu-id="79fca-108">**DEVICE\_DATA\_MANAGEMENT\_SET\_ACTION**</span></span>](device-data-management-set-action.md)<br/> | <span data-ttu-id="79fca-109">定義 [**IOCTL \_ 儲存區 \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) 控制項程式碼的一組動作。</span><span class="sxs-lookup"><span data-stu-id="79fca-109">Define the set of actions for the [**IOCTL\_STORAGE\_MANAGE\_DATA\_SET\_ATTRIBUTES**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) control code.</span></span><br/> |
+| [<span data-ttu-id="c7b00-108">**裝置 \_ 資料 \_ 管理 \_ 設定 \_ 動作**</span><span class="sxs-lookup"><span data-stu-id="c7b00-108">**DEVICE\_DATA\_MANAGEMENT\_SET\_ACTION**</span></span>](device-data-management-set-action.md)<br/> | <span data-ttu-id="c7b00-109">定義 [**IOCTL \_ 儲存區 \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) 控制項程式碼的一組動作。</span><span class="sxs-lookup"><span data-stu-id="c7b00-109">Define the set of actions for the [**IOCTL\_STORAGE\_MANAGE\_DATA\_SET\_ATTRIBUTES**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) control code.</span></span><br/> |
 
 
 

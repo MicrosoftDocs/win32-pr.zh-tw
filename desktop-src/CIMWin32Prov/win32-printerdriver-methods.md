@@ -12,15 +12,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110725"
 ---
-# <a name="win32_printerdriver-methods"></a><span data-ttu-id="15917-103">Win32 \_ PrinterDriver 方法</span><span class="sxs-lookup"><span data-stu-id="15917-103">Win32\_PrinterDriver Methods</span></span>
+# <a name="win32_printerdriver-methods"></a><span data-ttu-id="e5e52-103">Win32 \_ PrinterDriver 方法</span><span class="sxs-lookup"><span data-stu-id="e5e52-103">Win32\_PrinterDriver Methods</span></span>
 
-<span data-ttu-id="15917-104">[**Win32 \_ PrinterDriver**](win32-printerdriver.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="15917-104">The [**Win32\_PrinterDriver**](win32-printerdriver.md) class exposes the following methods.</span></span>
+<span data-ttu-id="e5e52-104">[**Win32 \_ PrinterDriver**](win32-printerdriver.md)類別會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="e5e52-104">The [**Win32\_PrinterDriver**](win32-printerdriver.md) class exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="15917-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="15917-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e5e52-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="e5e52-105">In this section</span></span>
 
--   [<span data-ttu-id="15917-106">**AddPrinterDriver 方法**</span><span class="sxs-lookup"><span data-stu-id="15917-106">**AddPrinterDriver method**</span></span>](addprinterdriver-method-in-class-win32-printerdriver.md)
--   [<span data-ttu-id="15917-107">**StartService 方法**</span><span class="sxs-lookup"><span data-stu-id="15917-107">**StartService method**</span></span>](startservice-method-in-class-win32-printerdriver.md)
--   [<span data-ttu-id="15917-108">**StopService 方法**</span><span class="sxs-lookup"><span data-stu-id="15917-108">**StopService method**</span></span>](stopservice-method-in-class-win32-printerdriver.md)
+-   [<span data-ttu-id="e5e52-106">**AddPrinterDriver 方法**</span><span class="sxs-lookup"><span data-stu-id="e5e52-106">**AddPrinterDriver method**</span></span>](addprinterdriver-method-in-class-win32-printerdriver.md)
+-   [<span data-ttu-id="e5e52-107">**StartService 方法**</span><span class="sxs-lookup"><span data-stu-id="e5e52-107">**StartService method**</span></span>](startservice-method-in-class-win32-printerdriver.md)
+-   [<span data-ttu-id="e5e52-108">**StopService 方法**</span><span class="sxs-lookup"><span data-stu-id="e5e52-108">**StopService method**</span></span>](stopservice-method-in-class-win32-printerdriver.md)
 
  
 

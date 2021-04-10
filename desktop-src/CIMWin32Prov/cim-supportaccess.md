@@ -26,18 +26,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110756"
 ---
-# <a name="cim_supportaccess-class"></a><span data-ttu-id="9dd1a-103">CIM \_ SupportAccess 類別</span><span class="sxs-lookup"><span data-stu-id="9dd1a-103">CIM\_SupportAccess class</span></span>
+# <a name="cim_supportaccess-class"></a><span data-ttu-id="3be3b-103">CIM \_ SupportAccess 類別</span><span class="sxs-lookup"><span data-stu-id="3be3b-103">CIM\_SupportAccess class</span></span>
 
-<span data-ttu-id="9dd1a-104">**CIM \_ SupportAccess** 類別定義了如何取得產品的協助。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-104">The **CIM\_SupportAccess** class defines how to obtain assistance for a product.</span></span>
+<span data-ttu-id="3be3b-104">**CIM \_ SupportAccess** 類別定義了如何取得產品的協助。</span><span class="sxs-lookup"><span data-stu-id="3be3b-104">The **CIM\_SupportAccess** class defines how to obtain assistance for a product.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="9dd1a-105">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-105">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="9dd1a-106">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-106">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
+> <span data-ttu-id="3be3b-105">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="3be3b-105">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="3be3b-106">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="3be3b-106">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
 
  
 
-<span data-ttu-id="9dd1a-107">下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-107">The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties.</span></span> <span data-ttu-id="9dd1a-108">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-108">Properties are listed in alphabetic order, not MOF order.</span></span>
+<span data-ttu-id="3be3b-107">下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="3be3b-107">The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties.</span></span> <span data-ttu-id="3be3b-108">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="3be3b-108">Properties are listed in alphabetic order, not MOF order.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9dd1a-109">語法</span><span class="sxs-lookup"><span data-stu-id="9dd1a-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3be3b-109">語法</span><span class="sxs-lookup"><span data-stu-id="3be3b-109">Syntax</span></span>
 
 ``` syntax
 [Abstract, UUID("{80321714-DB31-11d2-85FC-0000F8102E5F}"), AMENDMENT]
@@ -51,181 +51,181 @@ class CIM_SupportAccess
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="9dd1a-110">成員</span><span class="sxs-lookup"><span data-stu-id="9dd1a-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="3be3b-110">成員</span><span class="sxs-lookup"><span data-stu-id="3be3b-110">Members</span></span>
 
-<span data-ttu-id="9dd1a-111">**CIM \_ SupportAccess** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="9dd1a-111">The **CIM\_SupportAccess** class has these types of members:</span></span>
+<span data-ttu-id="3be3b-111">**CIM \_ SupportAccess** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="3be3b-111">The **CIM\_SupportAccess** class has these types of members:</span></span>
 
--   [<span data-ttu-id="9dd1a-112">屬性</span><span class="sxs-lookup"><span data-stu-id="9dd1a-112">Properties</span></span>](#properties)
+-   [<span data-ttu-id="3be3b-112">屬性</span><span class="sxs-lookup"><span data-stu-id="3be3b-112">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="9dd1a-113">屬性</span><span class="sxs-lookup"><span data-stu-id="9dd1a-113">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="3be3b-113">屬性</span><span class="sxs-lookup"><span data-stu-id="3be3b-113">Properties</span></span>
 
-<span data-ttu-id="9dd1a-114">**CIM \_ SupportAccess** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-114">The **CIM\_SupportAccess** class has these properties.</span></span>
+<span data-ttu-id="3be3b-114">**CIM \_ SupportAccess** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="3be3b-114">The **CIM\_SupportAccess** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="9dd1a-115">**CommunicationInfo**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-115">**CommunicationInfo**</span></span>
+<span data-ttu-id="3be3b-115">**CommunicationInfo**</span><span class="sxs-lookup"><span data-stu-id="3be3b-115">**CommunicationInfo**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="9dd1a-116">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-116">Data type: **string**</span></span>
+<span data-ttu-id="3be3b-116">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="3be3b-116">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-117">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="9dd1a-117">Access type: Read-only</span></span>
+<span data-ttu-id="3be3b-117">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3be3b-117">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-118">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| FRU \| 002.11 "，" MIF。DMTF \| FRU \| 002.12」 ) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-118">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|FRU\|002.11", "MIF.DMTF\|FRU\|002.12")</span></span>
+<span data-ttu-id="3be3b-118">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| FRU \| 002.11 "，" MIF。DMTF \| FRU \| 002.12」 ) </span><span class="sxs-lookup"><span data-stu-id="3be3b-118">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|FRU\|002.11", "MIF.DMTF\|FRU\|002.12")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="9dd1a-119">通訊模式的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-119">Details of the communication mode.</span></span> <span data-ttu-id="9dd1a-120">例如，如果 **CommunicationMode** 屬性是 "Phone"，則此屬性會指定要呼叫的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-120">For example, if the **CommunicationMode** property is "Phone", then this property specifies the phone number to call.</span></span>
+<span data-ttu-id="3be3b-119">通訊模式的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="3be3b-119">Details of the communication mode.</span></span> <span data-ttu-id="3be3b-120">例如，如果 **CommunicationMode** 屬性是 "Phone"，則此屬性會指定要呼叫的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="3be3b-120">For example, if the **CommunicationMode** property is "Phone", then this property specifies the phone number to call.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="9dd1a-121">**CommunicationMode**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-121">**CommunicationMode**</span></span>
+<span data-ttu-id="3be3b-121">**CommunicationMode**</span><span class="sxs-lookup"><span data-stu-id="3be3b-121">**CommunicationMode**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="9dd1a-122">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-122">Data type: **uint16**</span></span>
+<span data-ttu-id="3be3b-122">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="3be3b-122">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-123">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="9dd1a-123">Access type: Read-only</span></span>
+<span data-ttu-id="3be3b-123">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3be3b-123">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-124">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 支援 \| 001.5 ") </span><span class="sxs-lookup"><span data-stu-id="9dd1a-124">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Support\|001.5")</span></span>
+<span data-ttu-id="3be3b-124">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 支援 \| 001.5 ") </span><span class="sxs-lookup"><span data-stu-id="3be3b-124">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Support\|001.5")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="9dd1a-125">用來取得支援的通訊形式。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-125">Form of communication to use to obtain support.</span></span>
+<span data-ttu-id="3be3b-125">用來取得支援的通訊形式。</span><span class="sxs-lookup"><span data-stu-id="3be3b-125">Form of communication to use to obtain support.</span></span>
 
 <dt>
 
 <span id="Other"></span><span id="other"></span><span id="OTHER"></span>
 
-<span data-ttu-id="9dd1a-126"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-126"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
+<span data-ttu-id="3be3b-126"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="3be3b-126"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Phone"></span><span id="phone"></span><span id="PHONE"></span>
 
-<span data-ttu-id="9dd1a-127"><span id="Phone"></span><span id="phone"></span><span id="PHONE"></span>**Phone** (2) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-127"><span id="Phone"></span><span id="phone"></span><span id="PHONE"></span>**Phone** (2)</span></span>
+<span data-ttu-id="3be3b-127"><span id="Phone"></span><span id="phone"></span><span id="PHONE"></span>**Phone** (2) </span><span class="sxs-lookup"><span data-stu-id="3be3b-127"><span id="Phone"></span><span id="phone"></span><span id="PHONE"></span>**Phone** (2)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Fax"></span><span id="fax"></span><span id="FAX"></span>
 
-<span data-ttu-id="9dd1a-128"><span id="Fax"></span><span id="fax"></span><span id="FAX"></span>**傳真** (3) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-128"><span id="Fax"></span><span id="fax"></span><span id="FAX"></span>**Fax** (3)</span></span>
+<span data-ttu-id="3be3b-128"><span id="Fax"></span><span id="fax"></span><span id="FAX"></span>**傳真** (3) </span><span class="sxs-lookup"><span data-stu-id="3be3b-128"><span id="Fax"></span><span id="fax"></span><span id="FAX"></span>**Fax** (3)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="BBS"></span><span id="bbs"></span>
 
-<span data-ttu-id="9dd1a-129"><span id="BBS"></span><span id="bbs"></span>**BBS** (4) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-129"><span id="BBS"></span><span id="bbs"></span>**BBS** (4)</span></span>
+<span data-ttu-id="3be3b-129"><span id="BBS"></span><span id="bbs"></span>**BBS** (4) </span><span class="sxs-lookup"><span data-stu-id="3be3b-129"><span id="BBS"></span><span id="bbs"></span>**BBS** (4)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Online_Service"></span><span id="online_service"></span><span id="ONLINE_SERVICE"></span>
 
-<span data-ttu-id="9dd1a-130"><span id="Online_Service"></span><span id="online_service"></span><span id="ONLINE_SERVICE"></span>**線上服務** (5) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-130"><span id="Online_Service"></span><span id="online_service"></span><span id="ONLINE_SERVICE"></span>**Online Service** (5)</span></span>
+<span data-ttu-id="3be3b-130"><span id="Online_Service"></span><span id="online_service"></span><span id="ONLINE_SERVICE"></span>**線上服務** (5) </span><span class="sxs-lookup"><span data-stu-id="3be3b-130"><span id="Online_Service"></span><span id="online_service"></span><span id="ONLINE_SERVICE"></span>**Online Service** (5)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Web_Page"></span><span id="web_page"></span><span id="WEB_PAGE"></span>
 
-<span data-ttu-id="9dd1a-131"><span id="Web_Page"></span><span id="web_page"></span><span id="WEB_PAGE"></span>**網頁** (6) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-131"><span id="Web_Page"></span><span id="web_page"></span><span id="WEB_PAGE"></span>**Web Page** (6)</span></span>
+<span data-ttu-id="3be3b-131"><span id="Web_Page"></span><span id="web_page"></span><span id="WEB_PAGE"></span>**網頁** (6) </span><span class="sxs-lookup"><span data-stu-id="3be3b-131"><span id="Web_Page"></span><span id="web_page"></span><span id="WEB_PAGE"></span>**Web Page** (6)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="9dd1a-132">網頁</span><span class="sxs-lookup"><span data-stu-id="9dd1a-132">Webpage</span></span>
+<span data-ttu-id="3be3b-132">網頁</span><span class="sxs-lookup"><span data-stu-id="3be3b-132">Webpage</span></span>
 
 </dd> <dt>
 
 <span id="FTP"></span><span id="ftp"></span>
 
-<span data-ttu-id="9dd1a-133"><span id="FTP"></span><span id="ftp"></span>**FTP** (7) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-133"><span id="FTP"></span><span id="ftp"></span>**FTP** (7)</span></span>
+<span data-ttu-id="3be3b-133"><span id="FTP"></span><span id="ftp"></span>**FTP** (7) </span><span class="sxs-lookup"><span data-stu-id="3be3b-133"><span id="FTP"></span><span id="ftp"></span>**FTP** (7)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="E-mail"></span><span id="e-mail"></span><span id="E-MAIL"></span>
 
-<span data-ttu-id="9dd1a-134"><span id="E-mail"></span><span id="e-mail"></span><span id="E-MAIL"></span>**電子郵件** (8) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-134"><span id="E-mail"></span><span id="e-mail"></span><span id="E-MAIL"></span>**E-mail** (8)</span></span>
+<span data-ttu-id="3be3b-134"><span id="E-mail"></span><span id="e-mail"></span><span id="E-MAIL"></span>**電子郵件** (8) </span><span class="sxs-lookup"><span data-stu-id="3be3b-134"><span id="E-mail"></span><span id="e-mail"></span><span id="E-MAIL"></span>**E-mail** (8)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="9dd1a-135">電子郵件</span><span class="sxs-lookup"><span data-stu-id="9dd1a-135">Email</span></span>
+<span data-ttu-id="3be3b-135">電子郵件</span><span class="sxs-lookup"><span data-stu-id="3be3b-135">Email</span></span>
 
 </dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="9dd1a-136">**說明**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-136">**Description**</span></span>
+<span data-ttu-id="3be3b-136">**說明**</span><span class="sxs-lookup"><span data-stu-id="3be3b-136">**Description**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="9dd1a-137">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-137">Data type: **string**</span></span>
+<span data-ttu-id="3be3b-137">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="3be3b-137">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-138">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="9dd1a-138">Access type: Read-only</span></span>
+<span data-ttu-id="3be3b-138">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3be3b-138">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-139">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 支援 \| 001.3 ") </span><span class="sxs-lookup"><span data-stu-id="9dd1a-139">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Support\|001.3")</span></span>
+<span data-ttu-id="3be3b-139">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 支援 \| 001.3 ") </span><span class="sxs-lookup"><span data-stu-id="3be3b-139">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Support\|001.3")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="9dd1a-140">提供之支援類型的文字描述。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-140">Textual description of the type of support provided.</span></span>
+<span data-ttu-id="3be3b-140">提供之支援類型的文字描述。</span><span class="sxs-lookup"><span data-stu-id="3be3b-140">Textual description of the type of support provided.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="9dd1a-141">**地區設定**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-141">**Locale**</span></span>
+<span data-ttu-id="3be3b-141">**地區設定**</span><span class="sxs-lookup"><span data-stu-id="3be3b-141">**Locale**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="9dd1a-142">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-142">Data type: **string**</span></span>
+<span data-ttu-id="3be3b-142">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="3be3b-142">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-143">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="9dd1a-143">Access type: Read-only</span></span>
+<span data-ttu-id="3be3b-143">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3be3b-143">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-144">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 支援 \| 001.2 ") ， [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-144">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Support\|001.2"), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64)</span></span>
+<span data-ttu-id="3be3b-144">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 支援 \| 001.2 ") ， [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) </span><span class="sxs-lookup"><span data-stu-id="3be3b-144">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Support\|001.2"), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="9dd1a-145">此支援資源適用的地理區域或語言方言。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-145">Geographic region or language dialect to which this support resource pertains.</span></span>
+<span data-ttu-id="3be3b-145">此支援資源適用的地理區域或語言方言。</span><span class="sxs-lookup"><span data-stu-id="3be3b-145">Geographic region or language dialect to which this support resource pertains.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="9dd1a-146">**SupportAccessId**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-146">**SupportAccessId**</span></span>
+<span data-ttu-id="3be3b-146">**SupportAccessId**</span><span class="sxs-lookup"><span data-stu-id="3be3b-146">**SupportAccessId**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="9dd1a-147">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="9dd1a-147">Data type: **string**</span></span>
+<span data-ttu-id="3be3b-147">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="3be3b-147">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-148">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="9dd1a-148">Access type: Read-only</span></span>
+<span data-ttu-id="3be3b-148">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3be3b-148">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="9dd1a-149">限定詞： [**Key**](/windows/desktop/WmiSdk/key-qualifier)、 [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) </span><span class="sxs-lookup"><span data-stu-id="9dd1a-149">Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)</span></span>
+<span data-ttu-id="3be3b-149">限定詞： [**Key**](/windows/desktop/WmiSdk/key-qualifier)、 [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) </span><span class="sxs-lookup"><span data-stu-id="3be3b-149">Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="9dd1a-150">由產品廠商或部署產品的組織所定義的任意自由格式字串。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-150">Arbitrary free-form string defined by the product vendor or by the organization that deploys the product.</span></span> <span data-ttu-id="9dd1a-151">由於這個屬性是索引鍵，因此在整個企業中都必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-151">This property, since it is a key, should be unique throughout the enterprise.</span></span>
+<span data-ttu-id="3be3b-150">由產品廠商或部署產品的組織所定義的任意自由格式字串。</span><span class="sxs-lookup"><span data-stu-id="3be3b-150">Arbitrary free-form string defined by the product vendor or by the organization that deploys the product.</span></span> <span data-ttu-id="3be3b-151">由於這個屬性是索引鍵，因此在整個企業中都必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="3be3b-151">This property, since it is a key, should be unique throughout the enterprise.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="9dd1a-152">備註</span><span class="sxs-lookup"><span data-stu-id="9dd1a-152">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3be3b-152">備註</span><span class="sxs-lookup"><span data-stu-id="3be3b-152">Remarks</span></span>
 
-<span data-ttu-id="9dd1a-153">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-153">WMI does not implement this class.</span></span>
+<span data-ttu-id="3be3b-153">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="3be3b-153">WMI does not implement this class.</span></span>
 
-<span data-ttu-id="9dd1a-154">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-154">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="9dd1a-155">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="9dd1a-155">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
+<span data-ttu-id="3be3b-154">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="3be3b-154">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="3be3b-155">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="3be3b-155">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="9dd1a-156">規格需求</span><span class="sxs-lookup"><span data-stu-id="9dd1a-156">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3be3b-156">規格需求</span><span class="sxs-lookup"><span data-stu-id="3be3b-156">Requirements</span></span>
 
 
 
-| <span data-ttu-id="9dd1a-157">需求</span><span class="sxs-lookup"><span data-stu-id="9dd1a-157">Requirement</span></span> | <span data-ttu-id="9dd1a-158">值</span><span class="sxs-lookup"><span data-stu-id="9dd1a-158">Value</span></span> |
+| <span data-ttu-id="3be3b-157">需求</span><span class="sxs-lookup"><span data-stu-id="3be3b-157">Requirement</span></span> | <span data-ttu-id="3be3b-158">值</span><span class="sxs-lookup"><span data-stu-id="3be3b-158">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="9dd1a-159">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9dd1a-159">Minimum supported client</span></span><br/> | <span data-ttu-id="9dd1a-160">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="9dd1a-160">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="9dd1a-161">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9dd1a-161">Minimum supported server</span></span><br/> | <span data-ttu-id="9dd1a-162">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="9dd1a-162">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="9dd1a-163">命名空間</span><span class="sxs-lookup"><span data-stu-id="9dd1a-163">Namespace</span></span><br/>                | <span data-ttu-id="9dd1a-164">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="9dd1a-164">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="9dd1a-165">MOF</span><span class="sxs-lookup"><span data-stu-id="9dd1a-165">MOF</span></span><br/>                      | <dl> <span data-ttu-id="9dd1a-166"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="9dd1a-166"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="9dd1a-167">DLL</span><span class="sxs-lookup"><span data-stu-id="9dd1a-167">DLL</span></span><br/>                      | <dl> <span data-ttu-id="9dd1a-168"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="9dd1a-168"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="3be3b-159">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3be3b-159">Minimum supported client</span></span><br/> | <span data-ttu-id="3be3b-160">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="3be3b-160">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="3be3b-161">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3be3b-161">Minimum supported server</span></span><br/> | <span data-ttu-id="3be3b-162">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="3be3b-162">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="3be3b-163">命名空間</span><span class="sxs-lookup"><span data-stu-id="3be3b-163">Namespace</span></span><br/>                | <span data-ttu-id="3be3b-164">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="3be3b-164">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="3be3b-165">MOF</span><span class="sxs-lookup"><span data-stu-id="3be3b-165">MOF</span></span><br/>                      | <dl> <span data-ttu-id="3be3b-166"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="3be3b-166"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="3be3b-167">DLL</span><span class="sxs-lookup"><span data-stu-id="3be3b-167">DLL</span></span><br/>                      | <dl> <span data-ttu-id="3be3b-168"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="3be3b-168"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
