@@ -1,0 +1,27 @@
+---
+title: '結構 (XInput 遊戲控制器 Api) '
+description: 可用的 XInput 結構。
+ms.assetid: 89bb00ea-0be3-9619-1629-a7b7894302d5
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 81fbba6d4b483e37e87cff7c1ac3e1366298b491
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "104383594"
+---
+# <a name="structures-xinput-game-controller-apis"></a><span data-ttu-id="e8203-103">結構 (XInput 遊戲控制器 Api) </span><span class="sxs-lookup"><span data-stu-id="e8203-103">Structures (XInput Game Controller APIs)</span></span>
+
+<span data-ttu-id="e8203-104">可用的 XInput 結構</span><span class="sxs-lookup"><span data-stu-id="e8203-104">Available XInput Structures</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="e8203-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="e8203-105">In this section</span></span>
+
+| <span data-ttu-id="e8203-106">主題</span><span class="sxs-lookup"><span data-stu-id="e8203-106">Topic</span></span>                                                                         | <span data-ttu-id="e8203-107">描述</span><span class="sxs-lookup"><span data-stu-id="e8203-107">Description</span></span>                                                                                                                                                                                        |
+|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="e8203-108">**XINPUT \_ 電池 \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="e8203-108">**XINPUT\_BATTERY\_INFORMATION**</span></span>](/windows/desktop/api/XInput/ns-xinput-xinput_battery_information)<br/> | <span data-ttu-id="e8203-109">包含電池類型和收費狀態的資訊。</span><span class="sxs-lookup"><span data-stu-id="e8203-109">Contains information on battery type and charge state.</span></span><br/>                                                                                                                                  |
+| [<span data-ttu-id="e8203-110">**XINPUT \_ 功能**</span><span class="sxs-lookup"><span data-stu-id="e8203-110">**XINPUT\_CAPABILITIES**</span></span>](/windows/desktop/api/XInput/ns-xinput-xinput_capabilities)<br/>                | <span data-ttu-id="e8203-111">描述連接控制器的功能。</span><span class="sxs-lookup"><span data-stu-id="e8203-111">Describes the capabilities of a connected controller.</span></span> <span data-ttu-id="e8203-112">[**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities)函數會傳回 [**XINPUT \_ 功能**](/windows/desktop/api/XInput/ns-xinput-xinput_capabilities)。</span><span class="sxs-lookup"><span data-stu-id="e8203-112">The [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) function returns [**XINPUT\_CAPABILITIES**](/windows/desktop/api/XInput/ns-xinput-xinput_capabilities).</span></span> <br/> |
+| [<span data-ttu-id="e8203-113">**XINPUT \_ 遊戲台**</span><span class="sxs-lookup"><span data-stu-id="e8203-113">**XINPUT\_GAMEPAD**</span></span>](/windows/desktop/api/XInput/ns-xinput-xinput_gamepad)<br/>                          | <span data-ttu-id="e8203-114">描述 Xbox 控制器的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="e8203-114">Describes the current state of the Xbox Controller.</span></span><br/>                                                                                                                                 |
+| [<span data-ttu-id="e8203-115">**XINPUT \_ 按鍵**</span><span class="sxs-lookup"><span data-stu-id="e8203-115">**XINPUT\_KEYSTROKE**</span></span>](/windows/desktop/api/XInput/ns-xinput-xinput_keystroke)<br/>                      | <span data-ttu-id="e8203-116">指定 [**XInputGetKeystroke**](/windows/desktop/api/XInput/nf-xinput-xinputgetkeystroke)傳回的按鍵資料。</span><span class="sxs-lookup"><span data-stu-id="e8203-116">Specifies keystroke data returned by [**XInputGetKeystroke**](/windows/desktop/api/XInput/nf-xinput-xinputgetkeystroke).</span></span><br/>                                                                                                  |
+| [<span data-ttu-id="e8203-117">**XINPUT \_ 狀態**</span><span class="sxs-lookup"><span data-stu-id="e8203-117">**XINPUT\_STATE**</span></span>](/windows/desktop/api/XInput/ns-xinput-xinput_state)<br/>                              | <span data-ttu-id="e8203-118">代表控制器的狀態。</span><span class="sxs-lookup"><span data-stu-id="e8203-118">Represents the state of a controller.</span></span><br/>                                                                                                                                                   |
+| [<span data-ttu-id="e8203-119">**XINPUT \_ 振動**</span><span class="sxs-lookup"><span data-stu-id="e8203-119">**XINPUT\_VIBRATION**</span></span>](/windows/desktop/api/XInput/ns-xinput-xinput_vibration)<br/>                      | <span data-ttu-id="e8203-120">指定控制器震動功能的馬達速度層級。</span><span class="sxs-lookup"><span data-stu-id="e8203-120">Specifies motor speed levels for the vibration function of a controller.</span></span><br/>                                                                                                                |
