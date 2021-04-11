@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026062"
 ---
-# <a name="esentcannotindexexception-constructor"></a><span data-ttu-id="01ade-103">EsentCannotIndexException 函式</span><span class="sxs-lookup"><span data-stu-id="01ade-103">EsentCannotIndexException constructor</span></span>
+# <a name="esentcannotindexexception-constructor"></a><span data-ttu-id="c7828-103">EsentCannotIndexException 函式</span><span class="sxs-lookup"><span data-stu-id="c7828-103">EsentCannotIndexException constructor</span></span>
 
-<span data-ttu-id="01ade-104">初始化 EsentCannotIndexException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="01ade-104">Initializes a new instance of the EsentCannotIndexException class.</span></span>
+<span data-ttu-id="c7828-104">初始化 EsentCannotIndexException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="c7828-104">Initializes a new instance of the EsentCannotIndexException class.</span></span>
 
-<span data-ttu-id="01ade-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="01ade-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="01ade-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="01ade-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="c7828-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c7828-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="c7828-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c7828-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="01ade-107">語法</span><span class="sxs-lookup"><span data-stu-id="01ade-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c7828-107">語法</span><span class="sxs-lookup"><span data-stu-id="c7828-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentCannotIndexException()
 public EsentCannotIndexException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="01ade-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="01ade-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c7828-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c7828-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="01ade-109">參考</span><span class="sxs-lookup"><span data-stu-id="01ade-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="c7828-109">參考</span><span class="sxs-lookup"><span data-stu-id="c7828-109">Reference</span></span>
 
-[<span data-ttu-id="01ade-110">EsentCannotIndexException 類別</span><span class="sxs-lookup"><span data-stu-id="01ade-110">EsentCannotIndexException class</span></span>](./esentcannotindexexception-class.md)
+[<span data-ttu-id="c7828-110">EsentCannotIndexException 類別</span><span class="sxs-lookup"><span data-stu-id="c7828-110">EsentCannotIndexException class</span></span>](./esentcannotindexexception-class.md)
 
-[<span data-ttu-id="01ade-111">EsentCannotIndexException 成員</span><span class="sxs-lookup"><span data-stu-id="01ade-111">EsentCannotIndexException members</span></span>](./esentcannotindexexception-members.md)
+[<span data-ttu-id="c7828-111">EsentCannotIndexException 成員</span><span class="sxs-lookup"><span data-stu-id="c7828-111">EsentCannotIndexException members</span></span>](./esentcannotindexexception-members.md)
 
-[<span data-ttu-id="01ade-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="01ade-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="c7828-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c7828-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
