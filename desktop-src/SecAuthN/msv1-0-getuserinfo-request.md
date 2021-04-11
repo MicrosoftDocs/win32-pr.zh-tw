@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851132"
 ---
-# <a name="msv1_0_getuserinfo_request"></a><span data-ttu-id="65c9b-103">MSV1 \_ 0 \_ GETUSERINFO \_ 要求</span><span class="sxs-lookup"><span data-stu-id="65c9b-103">MSV1\_0\_GETUSERINFO\_REQUEST</span></span>
+# <a name="msv1_0_getuserinfo_request"></a><span data-ttu-id="3e137-103">MSV1 \_ 0 \_ GETUSERINFO \_ 要求</span><span class="sxs-lookup"><span data-stu-id="3e137-103">MSV1\_0\_GETUSERINFO\_REQUEST</span></span>
 
-<span data-ttu-id="65c9b-104">MSV1 \_ 0 \_ GETUSERINFO \_ 要求結構已過時。</span><span class="sxs-lookup"><span data-stu-id="65c9b-104">The MSV1\_0\_GETUSERINFO\_REQUEST structure is obsolete.</span></span>
+<span data-ttu-id="3e137-104">MSV1 \_ 0 \_ GETUSERINFO \_ 要求結構已過時。</span><span class="sxs-lookup"><span data-stu-id="3e137-104">The MSV1\_0\_GETUSERINFO\_REQUEST structure is obsolete.</span></span>
 
-<span data-ttu-id="65c9b-105">如需有關工作站使用者的資訊，請參閱 [**NetWkstaUserGetInfo**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstausergetinfo) 函式。</span><span class="sxs-lookup"><span data-stu-id="65c9b-105">For retrieving information about the workstation user, see the [**NetWkstaUserGetInfo**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstausergetinfo) function.</span></span>
+<span data-ttu-id="3e137-105">如需有關工作站使用者的資訊，請參閱 [**NetWkstaUserGetInfo**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstausergetinfo) 函式。</span><span class="sxs-lookup"><span data-stu-id="3e137-105">For retrieving information about the workstation user, see the [**NetWkstaUserGetInfo**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstausergetinfo) function.</span></span>
 
  
 
