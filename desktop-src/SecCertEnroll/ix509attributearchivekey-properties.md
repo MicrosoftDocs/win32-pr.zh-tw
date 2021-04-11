@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104114132"
 ---
-# <a name="ix509attributearchivekey-properties"></a><span data-ttu-id="f1ca6-103">IX509AttributeArchiveKey 屬性</span><span class="sxs-lookup"><span data-stu-id="f1ca6-103">IX509AttributeArchiveKey Properties</span></span>
+# <a name="ix509attributearchivekey-properties"></a><span data-ttu-id="63637-103">IX509AttributeArchiveKey 屬性</span><span class="sxs-lookup"><span data-stu-id="63637-103">IX509AttributeArchiveKey Properties</span></span>
 
-<span data-ttu-id="f1ca6-104">[**IX509AttributeArchiveKey**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekey)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="f1ca6-104">The [**IX509AttributeArchiveKey**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekey) interface exposes the following properties.</span></span>
+<span data-ttu-id="63637-104">[**IX509AttributeArchiveKey**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekey)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="63637-104">The [**IX509AttributeArchiveKey**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekey) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f1ca6-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="f1ca6-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="63637-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="63637-105">In this section</span></span>
 
--   [<span data-ttu-id="f1ca6-106">**EncryptionAlgorithm 屬性**</span><span class="sxs-lookup"><span data-stu-id="f1ca6-106">**EncryptionAlgorithm Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptionalgorithm)
--   [<span data-ttu-id="f1ca6-107">**EncryptedKeyBlob 屬性**</span><span class="sxs-lookup"><span data-stu-id="f1ca6-107">**EncryptedKeyBlob Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptedkeyblob)
--   [<span data-ttu-id="f1ca6-108">**EncryptionStrength 屬性**</span><span class="sxs-lookup"><span data-stu-id="f1ca6-108">**EncryptionStrength Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptionstrength)
+-   [<span data-ttu-id="63637-106">**EncryptionAlgorithm 屬性**</span><span class="sxs-lookup"><span data-stu-id="63637-106">**EncryptionAlgorithm Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptionalgorithm)
+-   [<span data-ttu-id="63637-107">**EncryptedKeyBlob 屬性**</span><span class="sxs-lookup"><span data-stu-id="63637-107">**EncryptedKeyBlob Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptedkeyblob)
+-   [<span data-ttu-id="63637-108">**EncryptionStrength 屬性**</span><span class="sxs-lookup"><span data-stu-id="63637-108">**EncryptionStrength Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptionstrength)
 
  
 

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104111760"
 ---
-# <a name="gettoc-function-for-generating-a-table-of-contents"></a><span data-ttu-id="062ec-103">用來產生目錄的 GetToc 函式</span><span class="sxs-lookup"><span data-stu-id="062ec-103">GetToc Function for Generating a Table of Contents</span></span>
+# <a name="gettoc-function-for-generating-a-table-of-contents"></a><span data-ttu-id="1d1b1-103">用來產生目錄的 GetToc 函式</span><span class="sxs-lookup"><span data-stu-id="1d1b1-103">GetToc Function for Generating a Table of Contents</span></span>
 
-<span data-ttu-id="062ec-104">下列函式是範例程式中的 helper 函式，會在 [自動產生目錄](generating-a-table-of-contents-automatically.md)中討論。</span><span class="sxs-lookup"><span data-stu-id="062ec-104">The following function is a helper function in an example program that is discussed in [Generating a Table of Contents Automatically](generating-a-table-of-contents-automatically.md).</span></span>
+<span data-ttu-id="1d1b1-104">下列函式是範例程式中的 helper 函式，會在 [自動產生目錄](generating-a-table-of-contents-automatically.md)中討論。</span><span class="sxs-lookup"><span data-stu-id="1d1b1-104">The following function is a helper function in an example program that is discussed in [Generating a Table of Contents Automatically](generating-a-table-of-contents-automatically.md).</span></span>
 
 
 ```C++
@@ -68,11 +68,11 @@ HRESULT GetToc(IDMOWrapperFilter* pWrap, IToc** ppToc)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="062ec-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="062ec-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1d1b1-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="1d1b1-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="062ec-106">自動產生目錄</span><span class="sxs-lookup"><span data-stu-id="062ec-106">Generating a Table of Contents Automatically</span></span>](generating-a-table-of-contents-automatically.md)
+[<span data-ttu-id="1d1b1-106">自動產生目錄</span><span class="sxs-lookup"><span data-stu-id="1d1b1-106">Generating a Table of Contents Automatically</span></span>](generating-a-table-of-contents-automatically.md)
 </dt> </dl>
 
  

@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104112380"
 ---
-# <a name="isindexed-element-search-connector-schema"></a><span data-ttu-id="a9222-103">isIndexed 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="a9222-103">isIndexed Element (Search Connector Schema)</span></span>
+# <a name="isindexed-element-search-connector-schema"></a><span data-ttu-id="af259-103">isIndexed 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="af259-103">isIndexed Element (Search Connector Schema)</span></span>
 
-<span data-ttu-id="a9222-104">選擇性的布林值 <isIndexed> 元素會指定是否要使用 Windows Search 4 或更高的) ，在本機或遠端 (搜尋連接器所描述的位置進行索引。</span><span class="sxs-lookup"><span data-stu-id="a9222-104">The optional Boolean <isIndexed> element specifies whether the location described by the search connector is indexed (either locally or remotely using Windows Search 4 or higher).</span></span> <span data-ttu-id="a9222-105">本機資料夾的預設值為 true。</span><span class="sxs-lookup"><span data-stu-id="a9222-105">The default value is true for local folders.</span></span> <span data-ttu-id="a9222-106">這個元素沒有任何子項目，而且沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="a9222-106">This element has no child elements and no attributes.</span></span>
+<span data-ttu-id="af259-104">選擇性的布林值 <isIndexed> 元素會指定是否要使用 Windows Search 4 或更高的) ，在本機或遠端 (搜尋連接器所描述的位置進行索引。</span><span class="sxs-lookup"><span data-stu-id="af259-104">The optional Boolean <isIndexed> element specifies whether the location described by the search connector is indexed (either locally or remotely using Windows Search 4 or higher).</span></span> <span data-ttu-id="af259-105">本機資料夾的預設值為 true。</span><span class="sxs-lookup"><span data-stu-id="af259-105">The default value is true for local folders.</span></span> <span data-ttu-id="af259-106">這個元素沒有任何子項目，而且沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="af259-106">This element has no child elements and no attributes.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a9222-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="a9222-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="af259-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="af259-107">Syntax</span></span>
 
 
 ```
@@ -33,19 +33,19 @@ ms.locfileid: "104112380"
 
 
 
-## <a name="element-information"></a><span data-ttu-id="a9222-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="a9222-108">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="af259-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="af259-108">Element Information</span></span>
 
 
 
-| <span data-ttu-id="a9222-109">Parent 項目</span><span class="sxs-lookup"><span data-stu-id="a9222-109">Parent Element</span></span>                                                                                                   | <span data-ttu-id="a9222-110">子元素</span><span class="sxs-lookup"><span data-stu-id="a9222-110">Child Elements</span></span> |
+| <span data-ttu-id="af259-109">Parent 項目</span><span class="sxs-lookup"><span data-stu-id="af259-109">Parent Element</span></span>                                                                                                   | <span data-ttu-id="af259-110">子元素</span><span class="sxs-lookup"><span data-stu-id="af259-110">Child Elements</span></span> |
 |------------------------------------------------------------------------------------------------------------------|----------------|
-| [<span data-ttu-id="a9222-111">searchConnectorDescriptionType 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="a9222-111">searchConnectorDescriptionType Element (Search Connector Schema)</span></span>](search-schema-searchconnectordescription.md) |                |
+| [<span data-ttu-id="af259-111">searchConnectorDescriptionType 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="af259-111">searchConnectorDescriptionType Element (Search Connector Schema)</span></span>](search-schema-searchconnectordescription.md) |                |
 
 
 
  
 
-## <a name="example"></a><span data-ttu-id="a9222-112">範例</span><span class="sxs-lookup"><span data-stu-id="a9222-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="af259-112">範例</span><span class="sxs-lookup"><span data-stu-id="af259-112">Example</span></span>
 
 
 ```

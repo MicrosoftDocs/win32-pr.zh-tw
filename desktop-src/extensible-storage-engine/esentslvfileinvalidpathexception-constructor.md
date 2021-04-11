@@ -31,12 +31,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104112560"
 ---
-# <a name="esentslvfileinvalidpathexception-constructor"></a><span data-ttu-id="c4ec1-103">EsentSLVFileInvalidPathException 函式</span><span class="sxs-lookup"><span data-stu-id="c4ec1-103">EsentSLVFileInvalidPathException constructor</span></span>
+# <a name="esentslvfileinvalidpathexception-constructor"></a><span data-ttu-id="f8d86-103">EsentSLVFileInvalidPathException 函式</span><span class="sxs-lookup"><span data-stu-id="f8d86-103">EsentSLVFileInvalidPathException constructor</span></span>
 
-<span data-ttu-id="c4ec1-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c4ec1-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="c4ec1-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c4ec1-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="f8d86-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="f8d86-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="f8d86-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f8d86-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c4ec1-106">語法</span><span class="sxs-lookup"><span data-stu-id="c4ec1-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f8d86-106">語法</span><span class="sxs-lookup"><span data-stu-id="f8d86-106">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,12 +50,12 @@ Dim instance As New EsentSLVFileInvalidPathException()
 public EsentSLVFileInvalidPathException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="c4ec1-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c4ec1-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f8d86-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f8d86-107">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="c4ec1-108">參考</span><span class="sxs-lookup"><span data-stu-id="c4ec1-108">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="f8d86-108">參考</span><span class="sxs-lookup"><span data-stu-id="f8d86-108">Reference</span></span>
 
-[<span data-ttu-id="c4ec1-109">EsentSLVFileInvalidPathException 類別</span><span class="sxs-lookup"><span data-stu-id="c4ec1-109">EsentSLVFileInvalidPathException class</span></span>](./esentslvfileinvalidpathexception-class.md)
+[<span data-ttu-id="f8d86-109">EsentSLVFileInvalidPathException 類別</span><span class="sxs-lookup"><span data-stu-id="f8d86-109">EsentSLVFileInvalidPathException class</span></span>](./esentslvfileinvalidpathexception-class.md)
 
-[<span data-ttu-id="c4ec1-110">EsentSLVFileInvalidPathException 成員</span><span class="sxs-lookup"><span data-stu-id="c4ec1-110">EsentSLVFileInvalidPathException members</span></span>](./esentslvfileinvalidpathexception-members.md)
+[<span data-ttu-id="f8d86-110">EsentSLVFileInvalidPathException 成員</span><span class="sxs-lookup"><span data-stu-id="f8d86-110">EsentSLVFileInvalidPathException members</span></span>](./esentslvfileinvalidpathexception-members.md)
 
-[<span data-ttu-id="c4ec1-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c4ec1-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="f8d86-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="f8d86-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

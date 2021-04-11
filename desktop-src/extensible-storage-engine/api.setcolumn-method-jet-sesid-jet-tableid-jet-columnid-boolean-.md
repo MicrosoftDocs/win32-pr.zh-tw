@@ -27,14 +27,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104111928"
 ---
-# <a name="apisetcolumn-method-jet_sesid-jet_tableid-jet_columnid-boolean"></a><span data-ttu-id="9a797-103">SetColumn 方法 (JET_SESID、JET_TABLEID、JET_COLUMNID、Boolean) </span><span class="sxs-lookup"><span data-stu-id="9a797-103">Api.SetColumn method (JET_SESID, JET_TABLEID, JET_COLUMNID, Boolean)</span></span>
+# <a name="apisetcolumn-method-jet_sesid-jet_tableid-jet_columnid-boolean"></a><span data-ttu-id="63717-103">SetColumn 方法 (JET_SESID、JET_TABLEID、JET_COLUMNID、Boolean) </span><span class="sxs-lookup"><span data-stu-id="63717-103">Api.SetColumn method (JET_SESID, JET_TABLEID, JET_COLUMNID, Boolean)</span></span>
 
-<span data-ttu-id="9a797-104">修改修改過的記錄中要插入的單一資料行值，或更新目前的記錄。</span><span class="sxs-lookup"><span data-stu-id="9a797-104">Modifies a single column value in a modified record to be inserted or to update the current record.</span></span>
+<span data-ttu-id="63717-104">修改修改過的記錄中要插入的單一資料行值，或更新目前的記錄。</span><span class="sxs-lookup"><span data-stu-id="63717-104">Modifies a single column value in a modified record to be inserted or to update the current record.</span></span>
 
-<span data-ttu-id="9a797-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="9a797-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="9a797-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="9a797-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="63717-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="63717-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="63717-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="63717-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9a797-107">語法</span><span class="sxs-lookup"><span data-stu-id="9a797-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="63717-107">語法</span><span class="sxs-lookup"><span data-stu-id="63717-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -61,42 +61,42 @@ public static void SetColumn(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="9a797-108">參數</span><span class="sxs-lookup"><span data-stu-id="9a797-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="63717-108">參數</span><span class="sxs-lookup"><span data-stu-id="63717-108">Parameters</span></span>
 
-  - <span data-ttu-id="9a797-109">sesid</span><span class="sxs-lookup"><span data-stu-id="9a797-109">sesid</span></span>  
-    <span data-ttu-id="9a797-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="9a797-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="63717-109">sesid</span><span class="sxs-lookup"><span data-stu-id="63717-109">sesid</span></span>  
+    <span data-ttu-id="63717-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="63717-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="9a797-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="9a797-111">The session to use.</span></span>
+    <span data-ttu-id="63717-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="63717-111">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="9a797-112">tableid</span><span class="sxs-lookup"><span data-stu-id="9a797-112">tableid</span></span>  
-    <span data-ttu-id="9a797-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="9a797-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="63717-112">tableid</span><span class="sxs-lookup"><span data-stu-id="63717-112">tableid</span></span>  
+    <span data-ttu-id="63717-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="63717-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="9a797-114">要更新的資料指標。</span><span class="sxs-lookup"><span data-stu-id="9a797-114">The cursor to update.</span></span> <span data-ttu-id="9a797-115">應備妥更新。</span><span class="sxs-lookup"><span data-stu-id="9a797-115">An update should be prepared.</span></span>
+    <span data-ttu-id="63717-114">要更新的資料指標。</span><span class="sxs-lookup"><span data-stu-id="63717-114">The cursor to update.</span></span> <span data-ttu-id="63717-115">應備妥更新。</span><span class="sxs-lookup"><span data-stu-id="63717-115">An update should be prepared.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="9a797-116">columnid</span><span class="sxs-lookup"><span data-stu-id="9a797-116">columnid</span></span>  
-    <span data-ttu-id="9a797-117">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="9a797-117">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
+  - <span data-ttu-id="63717-116">columnid</span><span class="sxs-lookup"><span data-stu-id="63717-116">columnid</span></span>  
+    <span data-ttu-id="63717-117">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="63717-117">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
     
-    <span data-ttu-id="9a797-118">要設定的 columnid。</span><span class="sxs-lookup"><span data-stu-id="9a797-118">The columnid to set.</span></span>
+    <span data-ttu-id="63717-118">要設定的 columnid。</span><span class="sxs-lookup"><span data-stu-id="63717-118">The columnid to set.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="9a797-119">data</span><span class="sxs-lookup"><span data-stu-id="9a797-119">data</span></span>  
-    <span data-ttu-id="9a797-120">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="9a797-120">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
+  - <span data-ttu-id="63717-119">data</span><span class="sxs-lookup"><span data-stu-id="63717-119">data</span></span>  
+    <span data-ttu-id="63717-120">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="63717-120">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
     
-    <span data-ttu-id="9a797-121">要設定的資料。</span><span class="sxs-lookup"><span data-stu-id="9a797-121">The data to set.</span></span>
+    <span data-ttu-id="63717-121">要設定的資料。</span><span class="sxs-lookup"><span data-stu-id="63717-121">The data to set.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9a797-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9a797-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="63717-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="63717-122">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="9a797-123">參考</span><span class="sxs-lookup"><span data-stu-id="9a797-123">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="63717-123">參考</span><span class="sxs-lookup"><span data-stu-id="63717-123">Reference</span></span>
 
-[<span data-ttu-id="9a797-124">Api 類別</span><span class="sxs-lookup"><span data-stu-id="9a797-124">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="63717-124">Api 類別</span><span class="sxs-lookup"><span data-stu-id="63717-124">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="9a797-125">Api 成員</span><span class="sxs-lookup"><span data-stu-id="9a797-125">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="63717-125">Api 成員</span><span class="sxs-lookup"><span data-stu-id="63717-125">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="9a797-126">SetColumn 多載</span><span class="sxs-lookup"><span data-stu-id="9a797-126">SetColumn overload</span></span>](./api.setcolumn-method.md)
+[<span data-ttu-id="63717-126">SetColumn 多載</span><span class="sxs-lookup"><span data-stu-id="63717-126">SetColumn overload</span></span>](./api.setcolumn-method.md)
 
-[<span data-ttu-id="9a797-127">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="9a797-127">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="63717-127">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="63717-127">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

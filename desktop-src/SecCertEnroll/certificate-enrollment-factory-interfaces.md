@@ -11,26 +11,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026234"
 ---
-# <a name="certificate-enrollment-factory-interfaces"></a><span data-ttu-id="f5983-103">憑證註冊 Factory 介面</span><span class="sxs-lookup"><span data-stu-id="f5983-103">Certificate Enrollment Factory Interfaces</span></span>
+# <a name="certificate-enrollment-factory-interfaces"></a><span data-ttu-id="d3ec0-103">憑證註冊 Factory 介面</span><span class="sxs-lookup"><span data-stu-id="d3ec0-103">Certificate Enrollment Factory Interfaces</span></span>
 
-<span data-ttu-id="f5983-104">下列介面可以用來在網頁上建立憑證註冊 API 物件。</span><span class="sxs-lookup"><span data-stu-id="f5983-104">The following interfaces can be used to create Certificate Enrollment API objects on a webpage.</span></span>
+<span data-ttu-id="d3ec0-104">下列介面可以用來在網頁上建立憑證註冊 API 物件。</span><span class="sxs-lookup"><span data-stu-id="d3ec0-104">The following interfaces can be used to create Certificate Enrollment API objects on a webpage.</span></span>
 
 
 
-| <span data-ttu-id="f5983-105">介面</span><span class="sxs-lookup"><span data-stu-id="f5983-105">Interface</span></span>                                                                | <span data-ttu-id="f5983-106">描述</span><span class="sxs-lookup"><span data-stu-id="f5983-106">Description</span></span>                                                                            |
+| <span data-ttu-id="d3ec0-105">介面</span><span class="sxs-lookup"><span data-stu-id="d3ec0-105">Interface</span></span>                                                                | <span data-ttu-id="d3ec0-106">描述</span><span class="sxs-lookup"><span data-stu-id="d3ec0-106">Description</span></span>                                                                            |
 |--------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [<span data-ttu-id="f5983-107">**IX509EnrollmentWebClassFactory**</span><span class="sxs-lookup"><span data-stu-id="f5983-107">**IX509EnrollmentWebClassFactory**</span></span>](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentwebclassfactory) | <span data-ttu-id="f5983-108">在網頁上的使用者內容中建立物件。</span><span class="sxs-lookup"><span data-stu-id="f5983-108">Creates an object in the user context on a webpage.</span></span>                                    |
-| [<span data-ttu-id="f5983-109">**IX509MachineEnrollmentFactory**</span><span class="sxs-lookup"><span data-stu-id="f5983-109">**IX509MachineEnrollmentFactory**</span></span>](/windows/desktop/api/Certenroll/nn-certenroll-ix509machineenrollmentfactory)   | <span data-ttu-id="f5983-110">在網頁上建立 [**IX509EnrollmentHelper**](/windows/desktop/api/Certenroll/nn-certenroll-ix509enrollmenthelper) 物件。</span><span class="sxs-lookup"><span data-stu-id="f5983-110">Creates an [**IX509EnrollmentHelper**](/windows/desktop/api/Certenroll/nn-certenroll-ix509enrollmenthelper) object on a webpage.</span></span> |
+| [<span data-ttu-id="d3ec0-107">**IX509EnrollmentWebClassFactory**</span><span class="sxs-lookup"><span data-stu-id="d3ec0-107">**IX509EnrollmentWebClassFactory**</span></span>](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentwebclassfactory) | <span data-ttu-id="d3ec0-108">在網頁上的使用者內容中建立物件。</span><span class="sxs-lookup"><span data-stu-id="d3ec0-108">Creates an object in the user context on a webpage.</span></span>                                    |
+| [<span data-ttu-id="d3ec0-109">**IX509MachineEnrollmentFactory**</span><span class="sxs-lookup"><span data-stu-id="d3ec0-109">**IX509MachineEnrollmentFactory**</span></span>](/windows/desktop/api/Certenroll/nn-certenroll-ix509machineenrollmentfactory)   | <span data-ttu-id="d3ec0-110">在網頁上建立 [**IX509EnrollmentHelper**](/windows/desktop/api/Certenroll/nn-certenroll-ix509enrollmenthelper) 物件。</span><span class="sxs-lookup"><span data-stu-id="d3ec0-110">Creates an [**IX509EnrollmentHelper**](/windows/desktop/api/Certenroll/nn-certenroll-ix509enrollmenthelper) object on a webpage.</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="f5983-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="f5983-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d3ec0-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="d3ec0-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f5983-112">CertEnroll 介面</span><span class="sxs-lookup"><span data-stu-id="f5983-112">CertEnroll Interfaces</span></span>](certenroll-interfaces.md)
+[<span data-ttu-id="d3ec0-112">CertEnroll 介面</span><span class="sxs-lookup"><span data-stu-id="d3ec0-112">CertEnroll Interfaces</span></span>](certenroll-interfaces.md)
 </dt> </dl>
 
  
