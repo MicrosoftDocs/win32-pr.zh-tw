@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104111137"
 ---
-# <a name="indexid"></a><span data-ttu-id="8f8eb-103">INDEXID</span><span class="sxs-lookup"><span data-stu-id="8f8eb-103">INDEXID</span></span>
+# <a name="indexid"></a><span data-ttu-id="23e26-103">INDEXID</span><span class="sxs-lookup"><span data-stu-id="23e26-103">INDEXID</span></span>
 
-<span data-ttu-id="8f8eb-104">要在資料庫中存取之索引的識別碼。</span><span class="sxs-lookup"><span data-stu-id="8f8eb-104">The identifier of the index to be accessed in a database.</span></span>
+<span data-ttu-id="23e26-104">要在資料庫中存取之索引的識別碼。</span><span class="sxs-lookup"><span data-stu-id="23e26-104">The identifier of the index to be accessed in a database.</span></span>
 
 
 ```C++
@@ -22,41 +22,41 @@ typedef DWORD INDEXID;
 
 
 
-## <a name="remarks"></a><span data-ttu-id="8f8eb-105">備註</span><span class="sxs-lookup"><span data-stu-id="8f8eb-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="23e26-105">備註</span><span class="sxs-lookup"><span data-stu-id="23e26-105">Remarks</span></span>
 
-<span data-ttu-id="8f8eb-106">**INDEXID** 可以是代表索引的整數值，也可以是下列值：</span><span class="sxs-lookup"><span data-stu-id="8f8eb-106">An **INDEXID** can be an integer value that represents the index, or the following value:</span></span>
+<span data-ttu-id="23e26-106">**INDEXID** 可以是代表索引的整數值，也可以是下列值：</span><span class="sxs-lookup"><span data-stu-id="23e26-106">An **INDEXID** can be an integer value that represents the index, or the following value:</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="8f8eb-107"><span id="INDEXID_NULL___INDEXID_-1_"></span><span id="indexid_null___indexid_-1_"></span>INDEXID \_ Null ( (INDEXID) -1) </span><span class="sxs-lookup"><span data-stu-id="8f8eb-107"><span id="INDEXID_NULL___INDEXID_-1_"></span><span id="indexid_null___indexid_-1_"></span>INDEXID\_NULL ((INDEXID)-1)</span></span>
+<span data-ttu-id="23e26-107"><span id="INDEXID_NULL___INDEXID_-1_"></span><span id="indexid_null___indexid_-1_"></span>INDEXID \_ Null ( (INDEXID) -1) </span><span class="sxs-lookup"><span data-stu-id="23e26-107"><span id="INDEXID_NULL___INDEXID_-1_"></span><span id="indexid_null___indexid_-1_"></span>INDEXID\_NULL ((INDEXID)-1)</span></span>
 </dt> <dd>
 
-<span data-ttu-id="8f8eb-108">不正確 **INDEXID**。</span><span class="sxs-lookup"><span data-stu-id="8f8eb-108">An invalid **INDEXID**.</span></span>
+<span data-ttu-id="23e26-108">不正確 **INDEXID**。</span><span class="sxs-lookup"><span data-stu-id="23e26-108">An invalid **INDEXID**.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="8f8eb-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="8f8eb-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="23e26-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="23e26-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="8f8eb-110">需求</span><span class="sxs-lookup"><span data-stu-id="8f8eb-110">Requirement</span></span> | <span data-ttu-id="8f8eb-111">值</span><span class="sxs-lookup"><span data-stu-id="8f8eb-111">Value</span></span> |
+| <span data-ttu-id="23e26-110">需求</span><span class="sxs-lookup"><span data-stu-id="23e26-110">Requirement</span></span> | <span data-ttu-id="23e26-111">值</span><span class="sxs-lookup"><span data-stu-id="23e26-111">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="8f8eb-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8f8eb-112">Minimum supported client</span></span><br/> | <span data-ttu-id="8f8eb-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8f8eb-113">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="8f8eb-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8f8eb-114">Minimum supported server</span></span><br/> | <span data-ttu-id="8f8eb-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8f8eb-115">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="23e26-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="23e26-112">Minimum supported client</span></span><br/> | <span data-ttu-id="23e26-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="23e26-113">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="23e26-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="23e26-114">Minimum supported server</span></span><br/> | <span data-ttu-id="23e26-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="23e26-115">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="8f8eb-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8f8eb-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="23e26-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="23e26-116">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="8f8eb-117">**SdbDeclareIndex**</span><span class="sxs-lookup"><span data-stu-id="8f8eb-117">**SdbDeclareIndex**</span></span>](sdbdeclareindex.md)
+[<span data-ttu-id="23e26-117">**SdbDeclareIndex**</span><span class="sxs-lookup"><span data-stu-id="23e26-117">**SdbDeclareIndex**</span></span>](sdbdeclareindex.md)
 </dt> <dt>
 
-[<span data-ttu-id="8f8eb-118">**SdbStartIndexing**</span><span class="sxs-lookup"><span data-stu-id="8f8eb-118">**SdbStartIndexing**</span></span>](sdbstartindexing.md)
+[<span data-ttu-id="23e26-118">**SdbStartIndexing**</span><span class="sxs-lookup"><span data-stu-id="23e26-118">**SdbStartIndexing**</span></span>](sdbstartindexing.md)
 </dt> <dt>
 
-[<span data-ttu-id="8f8eb-119">**SdbStopIndexing**</span><span class="sxs-lookup"><span data-stu-id="8f8eb-119">**SdbStopIndexing**</span></span>](sdbstopindexing.md)
+[<span data-ttu-id="23e26-119">**SdbStopIndexing**</span><span class="sxs-lookup"><span data-stu-id="23e26-119">**SdbStopIndexing**</span></span>](sdbstopindexing.md)
 </dt> </dl>
 
  

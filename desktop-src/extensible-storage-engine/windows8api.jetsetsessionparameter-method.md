@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848381"
 ---
-# <a name="windows8apijetsetsessionparameter-method"></a><span data-ttu-id="6b90f-103">Windows8Api. JetSetSessionParameter 方法</span><span class="sxs-lookup"><span data-stu-id="6b90f-103">Windows8Api.JetSetSessionParameter method</span></span>
+# <a name="windows8apijetsetsessionparameter-method"></a><span data-ttu-id="49a57-103">Windows8Api. JetSetSessionParameter 方法</span><span class="sxs-lookup"><span data-stu-id="49a57-103">Windows8Api.JetSetSessionParameter method</span></span>
 
-<span data-ttu-id="6b90f-104">在提供的會話狀態上設定參數，用於此會話的存留期，或在重設之前使用。</span><span class="sxs-lookup"><span data-stu-id="6b90f-104">Sets a parameter on the provided session state, used for the lifetime of this session or until reset.</span></span>
+<span data-ttu-id="49a57-104">在提供的會話狀態上設定參數，用於此會話的存留期，或在重設之前使用。</span><span class="sxs-lookup"><span data-stu-id="49a57-104">Sets a parameter on the provided session state, used for the lifetime of this session or until reset.</span></span>
 
-<span data-ttu-id="6b90f-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6b90f-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="6b90f-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6b90f-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="49a57-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="49a57-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="49a57-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="49a57-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6b90f-107">語法</span><span class="sxs-lookup"><span data-stu-id="6b90f-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="49a57-107">語法</span><span class="sxs-lookup"><span data-stu-id="49a57-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -65,40 +65,40 @@ public static void JetSetSessionParameter(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="6b90f-108">參數</span><span class="sxs-lookup"><span data-stu-id="6b90f-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="49a57-108">參數</span><span class="sxs-lookup"><span data-stu-id="49a57-108">Parameters</span></span>
 
-  - <span data-ttu-id="6b90f-109">sesid</span><span class="sxs-lookup"><span data-stu-id="6b90f-109">sesid</span></span>  
-    <span data-ttu-id="6b90f-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="6b90f-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="49a57-109">sesid</span><span class="sxs-lookup"><span data-stu-id="49a57-109">sesid</span></span>  
+    <span data-ttu-id="49a57-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="49a57-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="6b90f-111">要在其上設定參數的會話。</span><span class="sxs-lookup"><span data-stu-id="6b90f-111">The session to set the parameter on.</span></span>
+    <span data-ttu-id="49a57-111">要在其上設定參數的會話。</span><span class="sxs-lookup"><span data-stu-id="49a57-111">The session to set the parameter on.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="6b90f-112">sesparamid</span><span class="sxs-lookup"><span data-stu-id="6b90f-112">sesparamid</span></span>  
-    <span data-ttu-id="6b90f-113">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_sesparam](./jet-sesparam-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="6b90f-113">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_sesparam](./jet-sesparam-enumeration.md)</span></span>  
+  - <span data-ttu-id="49a57-112">sesparamid</span><span class="sxs-lookup"><span data-stu-id="49a57-112">sesparamid</span></span>  
+    <span data-ttu-id="49a57-113">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_sesparam](./jet-sesparam-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="49a57-113">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_sesparam](./jet-sesparam-enumeration.md)</span></span>  
     
-    <span data-ttu-id="6b90f-114">要設定之會話參數的識別碼。</span><span class="sxs-lookup"><span data-stu-id="6b90f-114">The ID of the session parameter to set.</span></span>
+    <span data-ttu-id="49a57-114">要設定之會話參數的識別碼。</span><span class="sxs-lookup"><span data-stu-id="49a57-114">The ID of the session parameter to set.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="6b90f-115">data</span><span class="sxs-lookup"><span data-stu-id="6b90f-115">data</span></span>  
-    <span data-ttu-id="6b90f-116">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="6b90f-116">Type: \[\]</span></span>  
+  - <span data-ttu-id="49a57-115">data</span><span class="sxs-lookup"><span data-stu-id="49a57-115">data</span></span>  
+    <span data-ttu-id="49a57-116">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="49a57-116">Type: \[\]</span></span>  
     
-    <span data-ttu-id="6b90f-117">要在此會話參數中設定的資料。</span><span class="sxs-lookup"><span data-stu-id="6b90f-117">Data to set in this session parameter.</span></span>
+    <span data-ttu-id="49a57-117">要在此會話參數中設定的資料。</span><span class="sxs-lookup"><span data-stu-id="49a57-117">Data to set in this session parameter.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="6b90f-118">dataSize</span><span class="sxs-lookup"><span data-stu-id="6b90f-118">dataSize</span></span>  
-    <span data-ttu-id="6b90f-119">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="6b90f-119">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="49a57-118">dataSize</span><span class="sxs-lookup"><span data-stu-id="49a57-118">dataSize</span></span>  
+    <span data-ttu-id="49a57-119">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="49a57-119">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="6b90f-120">所提供資料的大小。</span><span class="sxs-lookup"><span data-stu-id="6b90f-120">Size of the data provided.</span></span>
+    <span data-ttu-id="49a57-120">所提供資料的大小。</span><span class="sxs-lookup"><span data-stu-id="49a57-120">Size of the data provided.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6b90f-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6b90f-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="49a57-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="49a57-121">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="6b90f-122">參考</span><span class="sxs-lookup"><span data-stu-id="6b90f-122">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="49a57-122">參考</span><span class="sxs-lookup"><span data-stu-id="49a57-122">Reference</span></span>
 
-[<span data-ttu-id="6b90f-123">Windows8Api 類別</span><span class="sxs-lookup"><span data-stu-id="6b90f-123">Windows8Api class</span></span>](./windows8api-class.md)
+[<span data-ttu-id="49a57-123">Windows8Api 類別</span><span class="sxs-lookup"><span data-stu-id="49a57-123">Windows8Api class</span></span>](./windows8api-class.md)
 
-[<span data-ttu-id="6b90f-124">Windows8Api 成員</span><span class="sxs-lookup"><span data-stu-id="6b90f-124">Windows8Api members</span></span>](./windows8api-members.md)
+[<span data-ttu-id="49a57-124">Windows8Api 成員</span><span class="sxs-lookup"><span data-stu-id="49a57-124">Windows8Api members</span></span>](./windows8api-members.md)
 
-[<span data-ttu-id="6b90f-125">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="6b90f-125">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="49a57-125">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="49a57-125">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848385"
 ---
-# <a name="windows7grbitsenableattachdbbackgroundmaintenance-field"></a><span data-ttu-id="c6631-103">Windows7Grbits. EnableAttachDbBackgroundMaintenance 欄位</span><span class="sxs-lookup"><span data-stu-id="c6631-103">Windows7Grbits.EnableAttachDbBackgroundMaintenance field</span></span>
+# <a name="windows7grbitsenableattachdbbackgroundmaintenance-field"></a><span data-ttu-id="0a857-103">Windows7Grbits. EnableAttachDbBackgroundMaintenance 欄位</span><span class="sxs-lookup"><span data-stu-id="0a857-103">Windows7Grbits.EnableAttachDbBackgroundMaintenance field</span></span>
 
-<span data-ttu-id="c6631-104">資料庫引擎會在資料庫附件時起始自動背景資料庫維護。</span><span class="sxs-lookup"><span data-stu-id="c6631-104">The database engine will initiate automatic background database maintenance upon database attachment.</span></span>
+<span data-ttu-id="0a857-104">資料庫引擎會在資料庫附件時起始自動背景資料庫維護。</span><span class="sxs-lookup"><span data-stu-id="0a857-104">The database engine will initiate automatic background database maintenance upon database attachment.</span></span>
 
-<span data-ttu-id="c6631-105">**命名空間：**  [Microsoft 最為理想](./microsoft.isam.esent.interop.windows7-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c6631-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)</span></span>  
-<span data-ttu-id="c6631-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c6631-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="0a857-105">**命名空間：**  [Microsoft 最為理想](./microsoft.isam.esent.interop.windows7-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="0a857-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)</span></span>  
+<span data-ttu-id="0a857-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="0a857-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c6631-107">語法</span><span class="sxs-lookup"><span data-stu-id="c6631-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0a857-107">語法</span><span class="sxs-lookup"><span data-stu-id="0a857-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = Windows7Grbits.EnableAttachDbBackgroundMaintenance
 public const AttachDatabaseGrbit EnableAttachDbBackgroundMaintenance
 ```
 
-## <a name="see-also"></a><span data-ttu-id="c6631-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c6631-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0a857-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0a857-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="c6631-109">參考</span><span class="sxs-lookup"><span data-stu-id="c6631-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="0a857-109">參考</span><span class="sxs-lookup"><span data-stu-id="0a857-109">Reference</span></span>
 
-[<span data-ttu-id="c6631-110">Windows7Grbits 類別</span><span class="sxs-lookup"><span data-stu-id="c6631-110">Windows7Grbits class</span></span>](./windows7grbits-class.md)
+[<span data-ttu-id="0a857-110">Windows7Grbits 類別</span><span class="sxs-lookup"><span data-stu-id="0a857-110">Windows7Grbits class</span></span>](./windows7grbits-class.md)
 
-[<span data-ttu-id="c6631-111">Windows7Grbits 成員</span><span class="sxs-lookup"><span data-stu-id="c6631-111">Windows7Grbits members</span></span>](./windows7grbits-members.md)
+[<span data-ttu-id="0a857-111">Windows7Grbits 成員</span><span class="sxs-lookup"><span data-stu-id="0a857-111">Windows7Grbits members</span></span>](./windows7grbits-members.md)
 
-[<span data-ttu-id="c6631-112">最為理想命名空間。</span><span class="sxs-lookup"><span data-stu-id="c6631-112">Microsoft.Isam.Esent.Interop.Windows7 namespace</span></span>](./microsoft.isam.esent.interop.windows7-namespace.md)
+[<span data-ttu-id="0a857-112">最為理想命名空間。</span><span class="sxs-lookup"><span data-stu-id="0a857-112">Microsoft.Isam.Esent.Interop.Windows7 namespace</span></span>](./microsoft.isam.esent.interop.windows7-namespace.md)

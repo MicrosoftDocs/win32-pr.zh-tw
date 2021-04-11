@@ -31,22 +31,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848335"
 ---
-# <a name="columnvalue-class"></a><span data-ttu-id="9fa53-103">ColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="9fa53-103">ColumnValue class</span></span>
+# <a name="columnvalue-class"></a><span data-ttu-id="eee6b-103">ColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="eee6b-103">ColumnValue class</span></span>
 
-<span data-ttu-id="9fa53-104">物件的基類，代表要設定的資料行值。</span><span class="sxs-lookup"><span data-stu-id="9fa53-104">Base class for objects that represent a column value to be set.</span></span>
+<span data-ttu-id="eee6b-104">物件的基類，代表要設定的資料行值。</span><span class="sxs-lookup"><span data-stu-id="eee6b-104">Base class for objects that represent a column value to be set.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="9fa53-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="9fa53-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="eee6b-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="eee6b-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="9fa53-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="9fa53-106">System.Object</span></span>](/dotnet/api/system.object)  
-  <span data-ttu-id="9fa53-107">ColumnValue （.）</span><span class="sxs-lookup"><span data-stu-id="9fa53-107">Microsoft.Isam.Esent.Interop.ColumnValue</span></span>  
-    [<span data-ttu-id="9fa53-108">BytesColumnValue （.）</span><span class="sxs-lookup"><span data-stu-id="9fa53-108">Microsoft.Isam.Esent.Interop.BytesColumnValue</span></span>](./bytescolumnvalue-class.md)  
-    [<span data-ttu-id="9fa53-109">ColumnValueOfStruct （.）\<T\></span><span class="sxs-lookup"><span data-stu-id="9fa53-109">Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\></span></span>](./columnvalueofstruct-t-class.md)  
-    [<span data-ttu-id="9fa53-110">StringColumnValue （.）</span><span class="sxs-lookup"><span data-stu-id="9fa53-110">Microsoft.Isam.Esent.Interop.StringColumnValue</span></span>](./stringcolumnvalue-class.md)  
+[<span data-ttu-id="eee6b-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="eee6b-106">System.Object</span></span>](/dotnet/api/system.object)  
+  <span data-ttu-id="eee6b-107">ColumnValue （.）</span><span class="sxs-lookup"><span data-stu-id="eee6b-107">Microsoft.Isam.Esent.Interop.ColumnValue</span></span>  
+    [<span data-ttu-id="eee6b-108">BytesColumnValue （.）</span><span class="sxs-lookup"><span data-stu-id="eee6b-108">Microsoft.Isam.Esent.Interop.BytesColumnValue</span></span>](./bytescolumnvalue-class.md)  
+    [<span data-ttu-id="eee6b-109">ColumnValueOfStruct （.）\<T\></span><span class="sxs-lookup"><span data-stu-id="eee6b-109">Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\></span></span>](./columnvalueofstruct-t-class.md)  
+    [<span data-ttu-id="eee6b-110">StringColumnValue （.）</span><span class="sxs-lookup"><span data-stu-id="eee6b-110">Microsoft.Isam.Esent.Interop.StringColumnValue</span></span>](./stringcolumnvalue-class.md)  
 
-<span data-ttu-id="9fa53-111">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="9fa53-111">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="9fa53-112">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="9fa53-112">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="eee6b-111">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="eee6b-111">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="eee6b-112">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="eee6b-112">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9fa53-113">Syntax</span><span class="sxs-lookup"><span data-stu-id="9fa53-113">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="eee6b-113">Syntax</span><span class="sxs-lookup"><span data-stu-id="eee6b-113">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -59,14 +59,14 @@ Dim instance As ColumnValue
 public abstract class ColumnValue
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="9fa53-114">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="9fa53-114">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="eee6b-114">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="eee6b-114">Thread safety</span></span>
 
-<span data-ttu-id="9fa53-115">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="9fa53-115">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="9fa53-116">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="9fa53-116">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="eee6b-115">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="eee6b-115">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="eee6b-116">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="eee6b-116">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9fa53-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9fa53-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eee6b-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="eee6b-117">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="9fa53-118">參考</span><span class="sxs-lookup"><span data-stu-id="9fa53-118">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="eee6b-118">參考</span><span class="sxs-lookup"><span data-stu-id="eee6b-118">Reference</span></span>
 
-[<span data-ttu-id="9fa53-119">ColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="9fa53-119">ColumnValue members</span></span>](./columnvalue-members.md)
+[<span data-ttu-id="eee6b-119">ColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="eee6b-119">ColumnValue members</span></span>](./columnvalue-members.md)
 
-[<span data-ttu-id="9fa53-120">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="9fa53-120">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="eee6b-120">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="eee6b-120">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

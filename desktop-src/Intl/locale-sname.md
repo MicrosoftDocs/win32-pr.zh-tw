@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "104026988"
 ---
-# <a name="locale_sname"></a><span data-ttu-id="2b53c-103">地區設定 \_ SNAME</span><span class="sxs-lookup"><span data-stu-id="2b53c-103">LOCALE\_SNAME</span></span>
+# <a name="locale_sname"></a><span data-ttu-id="26d49-103">地區設定 \_ SNAME</span><span class="sxs-lookup"><span data-stu-id="26d49-103">LOCALE\_SNAME</span></span>
 
-<span data-ttu-id="2b53c-104">**Windows Vista 和更新版本：** 地區設定名稱，這是用來唯一識別地區設定的多部分標記。</span><span class="sxs-lookup"><span data-stu-id="2b53c-104">**Windows Vista and later:** Locale name, a multi-part tag to uniquely identify the locale.</span></span> <span data-ttu-id="2b53c-105">此字串允許的最大字元數為85，包括結束的 null 字元。</span><span class="sxs-lookup"><span data-stu-id="2b53c-105">The maximum number of characters allowed for this string is 85, including a terminating null character.</span></span> <span data-ttu-id="2b53c-106">此標記是以 RFC 4646 的語言標記慣例為基礎。</span><span class="sxs-lookup"><span data-stu-id="2b53c-106">The tag is based on the language tagging conventions of RFC 4646.</span></span> <span data-ttu-id="2b53c-107">[地區設定名稱](locale-names.md)中描述要使用的模式。</span><span class="sxs-lookup"><span data-stu-id="2b53c-107">The pattern to use is described in [Locale Names](locale-names.md).</span></span>
+<span data-ttu-id="26d49-104">**Windows Vista 和更新版本：** 地區設定名稱，這是用來唯一識別地區設定的多部分標記。</span><span class="sxs-lookup"><span data-stu-id="26d49-104">**Windows Vista and later:** Locale name, a multi-part tag to uniquely identify the locale.</span></span> <span data-ttu-id="26d49-105">此字串允許的最大字元數為85，包括結束的 null 字元。</span><span class="sxs-lookup"><span data-stu-id="26d49-105">The maximum number of characters allowed for this string is 85, including a terminating null character.</span></span> <span data-ttu-id="26d49-106">此標記是以 RFC 4646 的語言標記慣例為基礎。</span><span class="sxs-lookup"><span data-stu-id="26d49-106">The tag is based on the language tagging conventions of RFC 4646.</span></span> <span data-ttu-id="26d49-107">[地區設定名稱](locale-names.md)中描述要使用的模式。</span><span class="sxs-lookup"><span data-stu-id="26d49-107">The pattern to use is described in [Locale Names](locale-names.md).</span></span>
 
  
 
