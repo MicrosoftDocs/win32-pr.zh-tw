@@ -11,36 +11,36 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848482"
 ---
-# <a name="xmubyte2-extensions"></a><span data-ttu-id="7090e-103">XMUBYTE2 延伸模組</span><span class="sxs-lookup"><span data-stu-id="7090e-103">XMUBYTE2 Extensions</span></span>
+# <a name="xmubyte2-extensions"></a><span data-ttu-id="28922-103">XMUBYTE2 延伸模組</span><span class="sxs-lookup"><span data-stu-id="28922-103">XMUBYTE2 Extensions</span></span>
 
-<span data-ttu-id="7090e-104">描述由不帶正負號整陣列成的2D 向量， (1 位元組) 長度。</span><span class="sxs-lookup"><span data-stu-id="7090e-104">Describes a 2D vector made up of unsigned integers, 8-bits (1 byte) in length.</span></span>
+<span data-ttu-id="28922-104">描述由不帶正負號整陣列成的2D 向量， (1 位元組) 長度。</span><span class="sxs-lookup"><span data-stu-id="28922-104">Describes a 2D vector made up of unsigned integers, 8-bits (1 byte) in length.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="7090e-105">此處所列的功能只有在使用 c + + 進行開發時才可使用。</span><span class="sxs-lookup"><span data-stu-id="7090e-105">The features listed here are only available when developing with C++.</span></span>
+> <span data-ttu-id="28922-105">此處所列的功能只有在使用 c + + 進行開發時才可使用。</span><span class="sxs-lookup"><span data-stu-id="28922-105">The features listed here are only available when developing with C++.</span></span>
 
  
 
-## <a name="in-this-section"></a><span data-ttu-id="7090e-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="7090e-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="28922-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="28922-106">In this section</span></span>
 
 
 
-| <span data-ttu-id="7090e-107">主題</span><span class="sxs-lookup"><span data-stu-id="7090e-107">Topic</span></span>                                                       | <span data-ttu-id="7090e-108">描述</span><span class="sxs-lookup"><span data-stu-id="7090e-108">Description</span></span>                                    |
+| <span data-ttu-id="28922-107">主題</span><span class="sxs-lookup"><span data-stu-id="28922-107">Topic</span></span>                                                       | <span data-ttu-id="28922-108">描述</span><span class="sxs-lookup"><span data-stu-id="28922-108">Description</span></span>                                    |
 |-------------------------------------------------------------|------------------------------------------------|
-| [<span data-ttu-id="7090e-109">**XMUBYTE2 函式**</span><span class="sxs-lookup"><span data-stu-id="7090e-109">**XMUBYTE2 Constructors**</span></span>](xmubyte2-ctor.md)<br/>   | <span data-ttu-id="7090e-110">公開的函式 `XMUBYTE2` 。</span><span class="sxs-lookup"><span data-stu-id="7090e-110">Constructors exposed by `XMUBYTE2`.</span></span><br/> |
-| [<span data-ttu-id="7090e-111">XMUBYTE2 運算子</span><span class="sxs-lookup"><span data-stu-id="7090e-111">XMUBYTE2 Operators</span></span>](ovw-xmubyte2-operators.md)<br/> | <span data-ttu-id="7090e-112">所公開的運算子 `XMUBYTE2` 。</span><span class="sxs-lookup"><span data-stu-id="7090e-112">Operators exposed by `XMUBYTE2`.</span></span><br/>    |
+| [<span data-ttu-id="28922-109">**XMUBYTE2 函式**</span><span class="sxs-lookup"><span data-stu-id="28922-109">**XMUBYTE2 Constructors**</span></span>](xmubyte2-ctor.md)<br/>   | <span data-ttu-id="28922-110">公開的函式 `XMUBYTE2` 。</span><span class="sxs-lookup"><span data-stu-id="28922-110">Constructors exposed by `XMUBYTE2`.</span></span><br/> |
+| [<span data-ttu-id="28922-111">XMUBYTE2 運算子</span><span class="sxs-lookup"><span data-stu-id="28922-111">XMUBYTE2 Operators</span></span>](ovw-xmubyte2-operators.md)<br/> | <span data-ttu-id="28922-112">所公開的運算子 `XMUBYTE2` 。</span><span class="sxs-lookup"><span data-stu-id="28922-112">Operators exposed by `XMUBYTE2`.</span></span><br/>    |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="7090e-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="7090e-113">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="28922-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="28922-113">Related topics</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="7090e-114">**參考**</span><span class="sxs-lookup"><span data-stu-id="7090e-114">**Reference**</span></span>
+<span data-ttu-id="28922-114">**參考**</span><span class="sxs-lookup"><span data-stu-id="28922-114">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="7090e-115">**XMUBYTE2**</span><span class="sxs-lookup"><span data-stu-id="7090e-115">**XMUBYTE2**</span></span>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyte2)
+[<span data-ttu-id="28922-115">**XMUBYTE2**</span><span class="sxs-lookup"><span data-stu-id="28922-115">**XMUBYTE2**</span></span>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyte2)
 </dt> </dl>
 
  

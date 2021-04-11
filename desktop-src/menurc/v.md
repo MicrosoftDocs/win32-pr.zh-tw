@@ -12,16 +12,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103933848"
 ---
-# <a name="v-menus-and-other-resources"></a><span data-ttu-id="78df5-103"> (功能表和其他資源) </span><span class="sxs-lookup"><span data-stu-id="78df5-103">V (Menus and Other Resources)</span></span>
+# <a name="v-menus-and-other-resources"></a><span data-ttu-id="b2adf-103"> (功能表和其他資源) </span><span class="sxs-lookup"><span data-stu-id="b2adf-103">V (Menus and Other Resources)</span></span>
 
-<span data-ttu-id="78df5-104">[](a.md) [B](b.md) [C](c.md) D [E](e.md) [F](f.md) G H [I](i.md) J K L M [N](n.md) [O](o.md) P Q [R](r.md) S [T](t.md) [](u.md) [W](w.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="78df5-104">[A](a.md) [B](b.md) [C](c.md) D [E](e.md) [F](f.md) G H [I](i.md) J K L M [N](n.md) [O](o.md) P Q [R](r.md) S [T](t.md) [U](u.md) V [W](w.md) X Y Z</span></span>
+<span data-ttu-id="b2adf-104">[](a.md) [B](b.md) [C](c.md) D [E](e.md) [F](f.md) G H [I](i.md) J K L M [N](n.md) [O](o.md) P Q [R](r.md) S [T](t.md) [](u.md) [W](w.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="b2adf-104">[A](a.md) [B](b.md) [C](c.md) D [E](e.md) [F](f.md) G H [I](i.md) J K L M [N](n.md) [O](o.md) P Q [R](r.md) S [T](t.md) [U](u.md) V [W](w.md) X Y Z</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="78df5-105"><span id="tools.v_1_gly"></span><span id="TOOLS.V_1_GLY"></span>**以逗號分隔的版本字詞**</span><span class="sxs-lookup"><span data-stu-id="78df5-105"><span id="tools.v_1_gly"></span><span id="TOOLS.V_1_GLY"></span>**Version WORDs separated by commas expected**</span></span>
+<span data-ttu-id="b2adf-105"><span id="tools.v_1_gly"></span><span id="TOOLS.V_1_GLY"></span>**以逗號分隔的版本字詞**</span><span class="sxs-lookup"><span data-stu-id="b2adf-105"><span id="tools.v_1_gly"></span><span id="TOOLS.V_1_GLY"></span>**Version WORDs separated by commas expected**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="78df5-106">[**VERSIONINFO**](versioninfo-resource.md)語句的資訊區塊中的值應以逗號分隔。</span><span class="sxs-lookup"><span data-stu-id="78df5-106">Values in an information block for a [**VERSIONINFO**](versioninfo-resource.md) statement should be separated by commas.</span></span>
+<span data-ttu-id="b2adf-106">[**VERSIONINFO**](versioninfo-resource.md)語句的資訊區塊中的值應以逗號分隔。</span><span class="sxs-lookup"><span data-stu-id="b2adf-106">Values in an information block for a [**VERSIONINFO**](versioninfo-resource.md) statement should be separated by commas.</span></span>
 
 </dd> </dl>
 

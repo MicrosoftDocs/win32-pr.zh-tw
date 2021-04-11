@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851119"
 ---
-# <a name="using-network-provider-api"></a><span data-ttu-id="63781-103">使用網路提供者 API</span><span class="sxs-lookup"><span data-stu-id="63781-103">Using Network Provider API</span></span>
+# <a name="using-network-provider-api"></a><span data-ttu-id="b1455-103">使用網路提供者 API</span><span class="sxs-lookup"><span data-stu-id="b1455-103">Using Network Provider API</span></span>
 
-<span data-ttu-id="63781-104">下列主題描述建立網路提供者和相關應用程式所需執行的工作：</span><span class="sxs-lookup"><span data-stu-id="63781-104">The following topics describe tasks you need to perform to create a network provider and related applications:</span></span>
+<span data-ttu-id="b1455-104">下列主題描述建立網路提供者和相關應用程式所需執行的工作：</span><span class="sxs-lookup"><span data-stu-id="b1455-104">The following topics describe tasks you need to perform to create a network provider and related applications:</span></span>
 
--   [<span data-ttu-id="63781-105">執行網路提供者</span><span class="sxs-lookup"><span data-stu-id="63781-105">Implementing a Network Provider</span></span>](implementing-a-network-provider.md)
--   [<span data-ttu-id="63781-106">執行認證管理員</span><span class="sxs-lookup"><span data-stu-id="63781-106">Implementing a Credential Manager</span></span>](implementing-a-credential-manager.md)
--   [<span data-ttu-id="63781-107">註冊網路提供者和認證管理員</span><span class="sxs-lookup"><span data-stu-id="63781-107">Registering Network Providers and Credential Managers</span></span>](registering-network-providers-and-credential-managers.md)
--   [<span data-ttu-id="63781-108">傳回值給 MPR</span><span class="sxs-lookup"><span data-stu-id="63781-108">Returning Values to the MPR</span></span>](returning-values-to-the-mpr.md)
--   [<span data-ttu-id="63781-109">處理緩衝的資料</span><span class="sxs-lookup"><span data-stu-id="63781-109">Handling Buffered Data</span></span>](handling-buffered-data.md)
--   [<span data-ttu-id="63781-110">接收連接通知</span><span class="sxs-lookup"><span data-stu-id="63781-110">Receiving Connection Notifications</span></span>](receiving-connection-notifications.md)
--   [<span data-ttu-id="63781-111">註冊以接收連接通知</span><span class="sxs-lookup"><span data-stu-id="63781-111">Registering to Receive Connection Notifications</span></span>](registering-to-receive-connection-notifications.md)
--   [<span data-ttu-id="63781-112">覆寫預設 MPR 逾時間隔</span><span class="sxs-lookup"><span data-stu-id="63781-112">Overriding the Default MPR Time-out Interval</span></span>](overriding-the-default-mpr-time-out-interval.md)
+-   [<span data-ttu-id="b1455-105">執行網路提供者</span><span class="sxs-lookup"><span data-stu-id="b1455-105">Implementing a Network Provider</span></span>](implementing-a-network-provider.md)
+-   [<span data-ttu-id="b1455-106">執行認證管理員</span><span class="sxs-lookup"><span data-stu-id="b1455-106">Implementing a Credential Manager</span></span>](implementing-a-credential-manager.md)
+-   [<span data-ttu-id="b1455-107">註冊網路提供者和認證管理員</span><span class="sxs-lookup"><span data-stu-id="b1455-107">Registering Network Providers and Credential Managers</span></span>](registering-network-providers-and-credential-managers.md)
+-   [<span data-ttu-id="b1455-108">傳回值給 MPR</span><span class="sxs-lookup"><span data-stu-id="b1455-108">Returning Values to the MPR</span></span>](returning-values-to-the-mpr.md)
+-   [<span data-ttu-id="b1455-109">處理緩衝的資料</span><span class="sxs-lookup"><span data-stu-id="b1455-109">Handling Buffered Data</span></span>](handling-buffered-data.md)
+-   [<span data-ttu-id="b1455-110">接收連接通知</span><span class="sxs-lookup"><span data-stu-id="b1455-110">Receiving Connection Notifications</span></span>](receiving-connection-notifications.md)
+-   [<span data-ttu-id="b1455-111">註冊以接收連接通知</span><span class="sxs-lookup"><span data-stu-id="b1455-111">Registering to Receive Connection Notifications</span></span>](registering-to-receive-connection-notifications.md)
+-   [<span data-ttu-id="b1455-112">覆寫預設 MPR 逾時間隔</span><span class="sxs-lookup"><span data-stu-id="b1455-112">Overriding the Default MPR Time-out Interval</span></span>](overriding-the-default-mpr-time-out-interval.md)
 
  
 

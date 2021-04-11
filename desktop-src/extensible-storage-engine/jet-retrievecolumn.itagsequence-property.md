@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851020"
 ---
-# <a name="jet_retrievecolumnitagsequence-property"></a><span data-ttu-id="efd53-103">JET_RETRIEVECOLUMN itagSequence 屬性</span><span class="sxs-lookup"><span data-stu-id="efd53-103">JET_RETRIEVECOLUMN.itagSequence property</span></span>
+# <a name="jet_retrievecolumnitagsequence-property"></a><span data-ttu-id="44ee3-103">JET_RETRIEVECOLUMN itagSequence 屬性</span><span class="sxs-lookup"><span data-stu-id="44ee3-103">JET_RETRIEVECOLUMN.itagSequence property</span></span>
 
-<span data-ttu-id="efd53-104">取得或設定包含在多值資料行中之值的序號。</span><span class="sxs-lookup"><span data-stu-id="efd53-104">Gets or sets the sequence number of the values that are contained in a multi-valued column.</span></span> <span data-ttu-id="efd53-105">如果 itagSequence 為0，則會傳回多重值資料行的實例數目，而不是任何資料行資料。</span><span class="sxs-lookup"><span data-stu-id="efd53-105">If the itagSequence is 0 then the number of instances of a multi-valued column are returned instead of any column data.</span></span>
+<span data-ttu-id="44ee3-104">取得或設定包含在多值資料行中之值的序號。</span><span class="sxs-lookup"><span data-stu-id="44ee3-104">Gets or sets the sequence number of the values that are contained in a multi-valued column.</span></span> <span data-ttu-id="44ee3-105">如果 itagSequence 為0，則會傳回多重值資料行的實例數目，而不是任何資料行資料。</span><span class="sxs-lookup"><span data-stu-id="44ee3-105">If the itagSequence is 0 then the number of instances of a multi-valued column are returned instead of any column data.</span></span>
 
-<span data-ttu-id="efd53-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="efd53-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="efd53-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="efd53-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="44ee3-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="44ee3-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="44ee3-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="44ee3-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="efd53-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="efd53-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="44ee3-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="44ee3-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.itagSequence = value
 public int itagSequence { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="efd53-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="efd53-109">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="44ee3-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="44ee3-109">Property value</span></span>
 
-<span data-ttu-id="efd53-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="efd53-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="44ee3-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="44ee3-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="efd53-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="efd53-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="44ee3-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="44ee3-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="efd53-112">參考</span><span class="sxs-lookup"><span data-stu-id="efd53-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="44ee3-112">參考</span><span class="sxs-lookup"><span data-stu-id="44ee3-112">Reference</span></span>
 
-[<span data-ttu-id="efd53-113">JET_RETRIEVECOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="efd53-113">JET_RETRIEVECOLUMN class</span></span>](./jet-retrievecolumn-class.md)
+[<span data-ttu-id="44ee3-113">JET_RETRIEVECOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="44ee3-113">JET_RETRIEVECOLUMN class</span></span>](./jet-retrievecolumn-class.md)
 
-[<span data-ttu-id="efd53-114">JET_RETRIEVECOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="efd53-114">JET_RETRIEVECOLUMN members</span></span>](./jet-retrievecolumn-members.md)
+[<span data-ttu-id="44ee3-114">JET_RETRIEVECOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="44ee3-114">JET_RETRIEVECOLUMN members</span></span>](./jet-retrievecolumn-members.md)
 
-[<span data-ttu-id="efd53-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="efd53-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="44ee3-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="44ee3-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

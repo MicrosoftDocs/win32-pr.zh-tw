@@ -21,39 +21,39 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934087"
 ---
-# <a name="tvm_getvisiblecount-message"></a><span data-ttu-id="412ca-105">TVM \_ GETVISIBLECOUNT 訊息</span><span class="sxs-lookup"><span data-stu-id="412ca-105">TVM\_GETVISIBLECOUNT message</span></span>
+# <a name="tvm_getvisiblecount-message"></a><span data-ttu-id="e4c1e-105">TVM \_ GETVISIBLECOUNT 訊息</span><span class="sxs-lookup"><span data-stu-id="e4c1e-105">TVM\_GETVISIBLECOUNT message</span></span>
 
-<span data-ttu-id="412ca-106">取得可在樹狀檢視控制項的用戶端視窗中完整顯示的專案數。</span><span class="sxs-lookup"><span data-stu-id="412ca-106">Obtains the number of items that can be fully visible in the client window of a tree-view control.</span></span> <span data-ttu-id="412ca-107">您可以使用 [**TreeView \_ GetVisibleCount**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getvisiblecount) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="412ca-107">You can send this message explicitly or by using the [**TreeView\_GetVisibleCount**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getvisiblecount) macro.</span></span>
+<span data-ttu-id="e4c1e-106">取得可在樹狀檢視控制項的用戶端視窗中完整顯示的專案數。</span><span class="sxs-lookup"><span data-stu-id="e4c1e-106">Obtains the number of items that can be fully visible in the client window of a tree-view control.</span></span> <span data-ttu-id="e4c1e-107">您可以使用 [**TreeView \_ GetVisibleCount**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getvisiblecount) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="e4c1e-107">You can send this message explicitly or by using the [**TreeView\_GetVisibleCount**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getvisiblecount) macro.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="412ca-108">參數</span><span class="sxs-lookup"><span data-stu-id="412ca-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e4c1e-108">參數</span><span class="sxs-lookup"><span data-stu-id="e4c1e-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="412ca-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="412ca-109">*wParam*</span></span> 
-</dt> <dd><span data-ttu-id="412ca-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="412ca-110">Must be zero.</span></span></dd> <dt>
+<span data-ttu-id="e4c1e-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="e4c1e-109">*wParam*</span></span> 
+</dt> <dd><span data-ttu-id="e4c1e-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="e4c1e-110">Must be zero.</span></span></dd> <dt>
 
-<span data-ttu-id="412ca-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="412ca-111">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="412ca-112">必須為零。</span><span class="sxs-lookup"><span data-stu-id="412ca-112">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="e4c1e-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="e4c1e-111">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="e4c1e-112">必須為零。</span><span class="sxs-lookup"><span data-stu-id="e4c1e-112">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="412ca-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="412ca-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e4c1e-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="e4c1e-113">Return value</span></span>
 
-<span data-ttu-id="412ca-114">傳回樹狀檢視控制項的用戶端視窗中可完全顯示的專案數。</span><span class="sxs-lookup"><span data-stu-id="412ca-114">Returns the number of items that can be fully visible in the client window of the tree-view control.</span></span>
+<span data-ttu-id="e4c1e-114">傳回樹狀檢視控制項的用戶端視窗中可完全顯示的專案數。</span><span class="sxs-lookup"><span data-stu-id="e4c1e-114">Returns the number of items that can be fully visible in the client window of the tree-view control.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="412ca-115">備註</span><span class="sxs-lookup"><span data-stu-id="412ca-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e4c1e-115">備註</span><span class="sxs-lookup"><span data-stu-id="e4c1e-115">Remarks</span></span>
 
-<span data-ttu-id="412ca-116">可以完全可見的專案數可能會大於控制項中的專案數。</span><span class="sxs-lookup"><span data-stu-id="412ca-116">The number of items that can be fully visible may be greater than the number of items in the control.</span></span> <span data-ttu-id="412ca-117">控制項會將用戶端視窗的高度除以專案的高度，以計算此值。</span><span class="sxs-lookup"><span data-stu-id="412ca-117">The control calculates this value by dividing the height of the client window by the height of an item.</span></span>
+<span data-ttu-id="e4c1e-116">可以完全可見的專案數可能會大於控制項中的專案數。</span><span class="sxs-lookup"><span data-stu-id="e4c1e-116">The number of items that can be fully visible may be greater than the number of items in the control.</span></span> <span data-ttu-id="e4c1e-117">控制項會將用戶端視窗的高度除以專案的高度，以計算此值。</span><span class="sxs-lookup"><span data-stu-id="e4c1e-117">The control calculates this value by dividing the height of the client window by the height of an item.</span></span>
 
-<span data-ttu-id="412ca-118">請注意，傳回值是可 *完全* 可見的專案數。</span><span class="sxs-lookup"><span data-stu-id="412ca-118">Note that the return value is the number of items that can be *fully* visible.</span></span> <span data-ttu-id="412ca-119">如果您可以看到所有的20個專案和一個以上的專案，則傳回值為20。</span><span class="sxs-lookup"><span data-stu-id="412ca-119">If you can see all of 20 items and part of one more item, the return value is 20.</span></span>
+<span data-ttu-id="e4c1e-118">請注意，傳回值是可 *完全* 可見的專案數。</span><span class="sxs-lookup"><span data-stu-id="e4c1e-118">Note that the return value is the number of items that can be *fully* visible.</span></span> <span data-ttu-id="e4c1e-119">如果您可以看到所有的20個專案和一個以上的專案，則傳回值為20。</span><span class="sxs-lookup"><span data-stu-id="e4c1e-119">If you can see all of 20 items and part of one more item, the return value is 20.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="412ca-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="412ca-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e4c1e-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="e4c1e-120">Requirements</span></span>
 
 
 
-| <span data-ttu-id="412ca-121">需求</span><span class="sxs-lookup"><span data-stu-id="412ca-121">Requirement</span></span> | <span data-ttu-id="412ca-122">值</span><span class="sxs-lookup"><span data-stu-id="412ca-122">Value</span></span> |
+| <span data-ttu-id="e4c1e-121">需求</span><span class="sxs-lookup"><span data-stu-id="e4c1e-121">Requirement</span></span> | <span data-ttu-id="e4c1e-122">值</span><span class="sxs-lookup"><span data-stu-id="e4c1e-122">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="412ca-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="412ca-123">Minimum supported client</span></span><br/> | <span data-ttu-id="412ca-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="412ca-124">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="412ca-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="412ca-125">Minimum supported server</span></span><br/> | <span data-ttu-id="412ca-126">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="412ca-126">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="412ca-127">標頭</span><span class="sxs-lookup"><span data-stu-id="412ca-127">Header</span></span><br/>                   | <dl> <span data-ttu-id="412ca-128"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="412ca-128"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="e4c1e-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e4c1e-123">Minimum supported client</span></span><br/> | <span data-ttu-id="e4c1e-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e4c1e-124">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="e4c1e-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e4c1e-125">Minimum supported server</span></span><br/> | <span data-ttu-id="e4c1e-126">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e4c1e-126">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="e4c1e-127">標頭</span><span class="sxs-lookup"><span data-stu-id="e4c1e-127">Header</span></span><br/>                   | <dl> <span data-ttu-id="e4c1e-128"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="e4c1e-128"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

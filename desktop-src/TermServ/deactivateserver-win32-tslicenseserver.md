@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934007"
 ---
-# <a name="deactivateserver-method-of-the-win32_tslicenseserver-class"></a><span data-ttu-id="322fc-106">Win32 TSLicenseServer 類別的 DeactivateServer 方法 \_</span><span class="sxs-lookup"><span data-stu-id="322fc-106">DeactivateServer method of the Win32\_TSLicenseServer class</span></span>
+# <a name="deactivateserver-method-of-the-win32_tslicenseserver-class"></a><span data-ttu-id="37949-106">Win32 TSLicenseServer 類別的 DeactivateServer 方法 \_</span><span class="sxs-lookup"><span data-stu-id="37949-106">DeactivateServer method of the Win32\_TSLicenseServer class</span></span>
 
-<span data-ttu-id="322fc-107">使用透過電話收到的確認碼來停用遠端桌面授權伺服器。</span><span class="sxs-lookup"><span data-stu-id="322fc-107">Deactivates the Remote Desktop license server by using a confirmation code that is received over the phone.</span></span>
+<span data-ttu-id="37949-107">使用透過電話收到的確認碼來停用遠端桌面授權伺服器。</span><span class="sxs-lookup"><span data-stu-id="37949-107">Deactivates the Remote Desktop license server by using a confirmation code that is received over the phone.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="322fc-108">語法</span><span class="sxs-lookup"><span data-stu-id="322fc-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="37949-108">語法</span><span class="sxs-lookup"><span data-stu-id="37949-108">Syntax</span></span>
 
 
 ```mof
@@ -40,74 +40,74 @@ uint32 DeactivateServer(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="322fc-109">參數</span><span class="sxs-lookup"><span data-stu-id="322fc-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="37949-109">參數</span><span class="sxs-lookup"><span data-stu-id="37949-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="322fc-110">*sConfirmCode* \[在\]</span><span class="sxs-lookup"><span data-stu-id="322fc-110">*sConfirmCode* \[in\]</span></span>
+<span data-ttu-id="37949-110">*sConfirmCode* \[在\]</span><span class="sxs-lookup"><span data-stu-id="37949-110">*sConfirmCode* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="322fc-111">確認碼。</span><span class="sxs-lookup"><span data-stu-id="322fc-111">Confirmation code.</span></span>
+<span data-ttu-id="37949-111">確認碼。</span><span class="sxs-lookup"><span data-stu-id="37949-111">Confirmation code.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="322fc-112">*ActivationStatus* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="322fc-112">*ActivationStatus* \[out\]</span></span>
+<span data-ttu-id="37949-112">*ActivationStatus* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="37949-112">*ActivationStatus* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="322fc-113">傳回的啟用狀態可以是下列其中一項。</span><span class="sxs-lookup"><span data-stu-id="322fc-113">The activation status returned can be one of the following.</span></span>
+<span data-ttu-id="37949-113">傳回的啟用狀態可以是下列其中一項。</span><span class="sxs-lookup"><span data-stu-id="37949-113">The activation status returned can be one of the following.</span></span>
 
 <dt>
 
-<span data-ttu-id="322fc-114">0</span><span class="sxs-lookup"><span data-stu-id="322fc-114">0</span></span>
+<span data-ttu-id="37949-114">0</span><span class="sxs-lookup"><span data-stu-id="37949-114">0</span></span>
 </dt> <dd>
 
-<span data-ttu-id="322fc-115">啟用遠端桌面授權伺服器。</span><span class="sxs-lookup"><span data-stu-id="322fc-115">The Remote Desktop license server is activated.</span></span>
+<span data-ttu-id="37949-115">啟用遠端桌面授權伺服器。</span><span class="sxs-lookup"><span data-stu-id="37949-115">The Remote Desktop license server is activated.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="322fc-116">1</span><span class="sxs-lookup"><span data-stu-id="322fc-116">1</span></span>
+<span data-ttu-id="37949-116">1</span><span class="sxs-lookup"><span data-stu-id="37949-116">1</span></span>
 </dt> <dd>
 
-<span data-ttu-id="322fc-117">未啟用遠端桌面授權伺服器。</span><span class="sxs-lookup"><span data-stu-id="322fc-117">The Remote Desktop license server is not activated.</span></span>
+<span data-ttu-id="37949-117">未啟用遠端桌面授權伺服器。</span><span class="sxs-lookup"><span data-stu-id="37949-117">The Remote Desktop license server is not activated.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="322fc-118">2</span><span class="sxs-lookup"><span data-stu-id="322fc-118">2</span></span>
+<span data-ttu-id="37949-118">2</span><span class="sxs-lookup"><span data-stu-id="37949-118">2</span></span>
 </dt> <dd>
 
-<span data-ttu-id="322fc-119">發生未知的錯誤。</span><span class="sxs-lookup"><span data-stu-id="322fc-119">An unknown error occurred.</span></span> <span data-ttu-id="322fc-120">不知道是否啟用遠端桌面服務授權伺服器。</span><span class="sxs-lookup"><span data-stu-id="322fc-120">It is not known whether the Remote Desktop Services license server is activated.</span></span>
+<span data-ttu-id="37949-119">發生未知的錯誤。</span><span class="sxs-lookup"><span data-stu-id="37949-119">An unknown error occurred.</span></span> <span data-ttu-id="37949-120">不知道是否啟用遠端桌面服務授權伺服器。</span><span class="sxs-lookup"><span data-stu-id="37949-120">It is not known whether the Remote Desktop Services license server is activated.</span></span>
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="322fc-121">傳回值</span><span class="sxs-lookup"><span data-stu-id="322fc-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="37949-121">傳回值</span><span class="sxs-lookup"><span data-stu-id="37949-121">Return value</span></span>
 
-<span data-ttu-id="322fc-122">如果方法成功，則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="322fc-122">If the method succeeds, it returns zero.</span></span> <span data-ttu-id="322fc-123">如果方法失敗，則會傳回非零值。</span><span class="sxs-lookup"><span data-stu-id="322fc-123">If the method is unsuccessful, it returns a nonzero value.</span></span> <span data-ttu-id="322fc-124">如需錯誤碼清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md)。</span><span class="sxs-lookup"><span data-stu-id="322fc-124">For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).</span></span>
+<span data-ttu-id="37949-122">如果方法成功，則會傳回零。</span><span class="sxs-lookup"><span data-stu-id="37949-122">If the method succeeds, it returns zero.</span></span> <span data-ttu-id="37949-123">如果方法失敗，則會傳回非零值。</span><span class="sxs-lookup"><span data-stu-id="37949-123">If the method is unsuccessful, it returns a nonzero value.</span></span> <span data-ttu-id="37949-124">如需錯誤碼清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md)。</span><span class="sxs-lookup"><span data-stu-id="37949-124">For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="322fc-125">備註</span><span class="sxs-lookup"><span data-stu-id="322fc-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="37949-125">備註</span><span class="sxs-lookup"><span data-stu-id="37949-125">Remarks</span></span>
 
-<span data-ttu-id="322fc-126">您必須是 Administrators 群組的成員，才能呼叫這個方法。</span><span class="sxs-lookup"><span data-stu-id="322fc-126">You must be a member of the Administrators group to call this method.</span></span>
+<span data-ttu-id="37949-126">您必須是 Administrators 群組的成員，才能呼叫這個方法。</span><span class="sxs-lookup"><span data-stu-id="37949-126">You must be a member of the Administrators group to call this method.</span></span>
 
-<span data-ttu-id="322fc-127">受控物件格式 (MOF) 檔包含 Windows Management Instrumentation (WMI) 類別的定義。</span><span class="sxs-lookup"><span data-stu-id="322fc-127">Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes.</span></span> <span data-ttu-id="322fc-128">MOF 檔案不會安裝為 Microsoft Windows 軟體開發套件 (SDK) 的一部分。</span><span class="sxs-lookup"><span data-stu-id="322fc-128">MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK).</span></span> <span data-ttu-id="322fc-129">當您使用伺服器管理員新增相關聯的角色時，它們會安裝在伺服器上。</span><span class="sxs-lookup"><span data-stu-id="322fc-129">They are installed on the server when you add the associated role by using the Server Manager.</span></span> <span data-ttu-id="322fc-130">如需 MOF 檔案的詳細資訊，請參閱 [受控物件格式 (mof) ](/windows/desktop/WmiSdk/managed-object-format--mof-)。</span><span class="sxs-lookup"><span data-stu-id="322fc-130">For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).</span></span>
+<span data-ttu-id="37949-127">受控物件格式 (MOF) 檔包含 Windows Management Instrumentation (WMI) 類別的定義。</span><span class="sxs-lookup"><span data-stu-id="37949-127">Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes.</span></span> <span data-ttu-id="37949-128">MOF 檔案不會安裝為 Microsoft Windows 軟體開發套件 (SDK) 的一部分。</span><span class="sxs-lookup"><span data-stu-id="37949-128">MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK).</span></span> <span data-ttu-id="37949-129">當您使用伺服器管理員新增相關聯的角色時，它們會安裝在伺服器上。</span><span class="sxs-lookup"><span data-stu-id="37949-129">They are installed on the server when you add the associated role by using the Server Manager.</span></span> <span data-ttu-id="37949-130">如需 MOF 檔案的詳細資訊，請參閱 [受控物件格式 (mof) ](/windows/desktop/WmiSdk/managed-object-format--mof-)。</span><span class="sxs-lookup"><span data-stu-id="37949-130">For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="322fc-131">規格需求</span><span class="sxs-lookup"><span data-stu-id="322fc-131">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="37949-131">規格需求</span><span class="sxs-lookup"><span data-stu-id="37949-131">Requirements</span></span>
 
 
 
-| <span data-ttu-id="322fc-132">需求</span><span class="sxs-lookup"><span data-stu-id="322fc-132">Requirement</span></span> | <span data-ttu-id="322fc-133">值</span><span class="sxs-lookup"><span data-stu-id="322fc-133">Value</span></span> |
+| <span data-ttu-id="37949-132">需求</span><span class="sxs-lookup"><span data-stu-id="37949-132">Requirement</span></span> | <span data-ttu-id="37949-133">值</span><span class="sxs-lookup"><span data-stu-id="37949-133">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| <span data-ttu-id="322fc-134">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="322fc-134">Minimum supported client</span></span><br/> | <span data-ttu-id="322fc-135">都不支援</span><span class="sxs-lookup"><span data-stu-id="322fc-135">None supported</span></span><br/>                                                                 |
-| <span data-ttu-id="322fc-136">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="322fc-136">Minimum supported server</span></span><br/> | <span data-ttu-id="322fc-137">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="322fc-137">Windows Server 2008</span></span><br/>                                                            |
-| <span data-ttu-id="322fc-138">命名空間</span><span class="sxs-lookup"><span data-stu-id="322fc-138">Namespace</span></span><br/>                | <span data-ttu-id="322fc-139">Root\\CIMv2</span><span class="sxs-lookup"><span data-stu-id="322fc-139">Root\\CIMv2</span></span><br/>                                                                    |
-| <span data-ttu-id="322fc-140">MOF</span><span class="sxs-lookup"><span data-stu-id="322fc-140">MOF</span></span><br/>                      | <dl> <span data-ttu-id="322fc-141"><dt>TlsWmiProv mof</dt></span><span class="sxs-lookup"><span data-stu-id="322fc-141"><dt>TlsWmiProv.mof</dt></span></span> </dl> |
-| <span data-ttu-id="322fc-142">DLL</span><span class="sxs-lookup"><span data-stu-id="322fc-142">DLL</span></span><br/>                      | <dl> <span data-ttu-id="322fc-143"><dt>TlsWmiProv.dll</dt></span><span class="sxs-lookup"><span data-stu-id="322fc-143"><dt>TlsWmiProv.dll</dt></span></span> </dl> |
+| <span data-ttu-id="37949-134">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="37949-134">Minimum supported client</span></span><br/> | <span data-ttu-id="37949-135">都不支援</span><span class="sxs-lookup"><span data-stu-id="37949-135">None supported</span></span><br/>                                                                 |
+| <span data-ttu-id="37949-136">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="37949-136">Minimum supported server</span></span><br/> | <span data-ttu-id="37949-137">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="37949-137">Windows Server 2008</span></span><br/>                                                            |
+| <span data-ttu-id="37949-138">命名空間</span><span class="sxs-lookup"><span data-stu-id="37949-138">Namespace</span></span><br/>                | <span data-ttu-id="37949-139">Root\\CIMv2</span><span class="sxs-lookup"><span data-stu-id="37949-139">Root\\CIMv2</span></span><br/>                                                                    |
+| <span data-ttu-id="37949-140">MOF</span><span class="sxs-lookup"><span data-stu-id="37949-140">MOF</span></span><br/>                      | <dl> <span data-ttu-id="37949-141"><dt>TlsWmiProv mof</dt></span><span class="sxs-lookup"><span data-stu-id="37949-141"><dt>TlsWmiProv.mof</dt></span></span> </dl> |
+| <span data-ttu-id="37949-142">DLL</span><span class="sxs-lookup"><span data-stu-id="37949-142">DLL</span></span><br/>                      | <dl> <span data-ttu-id="37949-143"><dt>TlsWmiProv.dll</dt></span><span class="sxs-lookup"><span data-stu-id="37949-143"><dt>TlsWmiProv.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="322fc-144">另請參閱</span><span class="sxs-lookup"><span data-stu-id="322fc-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="37949-144">另請參閱</span><span class="sxs-lookup"><span data-stu-id="37949-144">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="322fc-145">**Win32 \_ TSLicenseServer**</span><span class="sxs-lookup"><span data-stu-id="322fc-145">**Win32\_TSLicenseServer**</span></span>](win32-tslicenseserver.md)
+[<span data-ttu-id="37949-145">**Win32 \_ TSLicenseServer**</span><span class="sxs-lookup"><span data-stu-id="37949-145">**Win32\_TSLicenseServer**</span></span>](win32-tslicenseserver.md)
 </dt> </dl>
 
  

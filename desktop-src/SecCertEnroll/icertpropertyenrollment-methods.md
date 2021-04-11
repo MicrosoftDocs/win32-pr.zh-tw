@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944815"
 ---
-# <a name="icertpropertyenrollment-methods"></a><span data-ttu-id="9c635-103">ICertPropertyEnrollment 方法</span><span class="sxs-lookup"><span data-stu-id="9c635-103">ICertPropertyEnrollment Methods</span></span>
+# <a name="icertpropertyenrollment-methods"></a><span data-ttu-id="36aee-103">ICertPropertyEnrollment 方法</span><span class="sxs-lookup"><span data-stu-id="36aee-103">ICertPropertyEnrollment Methods</span></span>
 
-<span data-ttu-id="9c635-104">[**ICertPropertyEnrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="9c635-104">The [**ICertPropertyEnrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment) interface exposes the following methods.</span></span>
+<span data-ttu-id="36aee-104">[**ICertPropertyEnrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="36aee-104">The [**ICertPropertyEnrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="9c635-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="9c635-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="36aee-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="36aee-105">In this section</span></span>
 
--   [<span data-ttu-id="9c635-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="9c635-106">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-initialize)
+-   [<span data-ttu-id="36aee-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="36aee-106">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-initialize)
 
  
 

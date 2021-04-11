@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850196"
 ---
-# <a name="handling-progress-messages-using-msisetexternalui"></a><span data-ttu-id="83bc6-103">使用 MsiSetExternalUI 處理進度訊息</span><span class="sxs-lookup"><span data-stu-id="83bc6-103">Handling Progress Messages Using MsiSetExternalUI</span></span>
+# <a name="handling-progress-messages-using-msisetexternalui"></a><span data-ttu-id="e6a14-103">使用 MsiSetExternalUI 處理進度訊息</span><span class="sxs-lookup"><span data-stu-id="e6a14-103">Handling Progress Messages Using MsiSetExternalUI</span></span>
 
-<span data-ttu-id="83bc6-104">下列範例示範如何編碼簡單的回呼處理常式，以便在安裝期間接收 Windows Installer 進度訊息。</span><span class="sxs-lookup"><span data-stu-id="83bc6-104">The following sample demonstrates how to code a simple callback handler to receive Windows Installer progress messages during an installation.</span></span>
+<span data-ttu-id="e6a14-104">下列範例示範如何編碼簡單的回呼處理常式，以便在安裝期間接收 Windows Installer 進度訊息。</span><span class="sxs-lookup"><span data-stu-id="e6a14-104">The following sample demonstrates how to code a simple callback handler to receive Windows Installer progress messages during an installation.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="83bc6-105">使用 [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) 搭配 INSTALLMESSAGE FILESINUSE 的訊息類型時 \_ ，傳送至外部 UI 處理常式函式的訊息不會包含使用中的檔案或 [FILESINUSE](filesinuse-dialog.md) 對話方塊所使用之視窗標題的任何資訊。</span><span class="sxs-lookup"><span data-stu-id="83bc6-105">When using [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) with a message type of INSTALLMESSAGE\_FILESINUSE, the message sent to the external UI handler function does not contain any information about files in use or window titles used by the [FilesInUse](filesinuse-dialog.md) dialog box.</span></span> <span data-ttu-id="83bc6-106">您應使用 [**MsiSetExternalUIRecord**](/windows/desktop/api/Msi/nf-msi-msisetexternaluirecord) 來取得資訊。</span><span class="sxs-lookup"><span data-stu-id="83bc6-106">You should use [**MsiSetExternalUIRecord**](/windows/desktop/api/Msi/nf-msi-msisetexternaluirecord) to obtain information.</span></span>
+> <span data-ttu-id="e6a14-105">使用 [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) 搭配 INSTALLMESSAGE FILESINUSE 的訊息類型時 \_ ，傳送至外部 UI 處理常式函式的訊息不會包含使用中的檔案或 [FILESINUSE](filesinuse-dialog.md) 對話方塊所使用之視窗標題的任何資訊。</span><span class="sxs-lookup"><span data-stu-id="e6a14-105">When using [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) with a message type of INSTALLMESSAGE\_FILESINUSE, the message sent to the external UI handler function does not contain any information about files in use or window titles used by the [FilesInUse](filesinuse-dialog.md) dialog box.</span></span> <span data-ttu-id="e6a14-106">您應使用 [**MsiSetExternalUIRecord**](/windows/desktop/api/Msi/nf-msi-msisetexternaluirecord) 來取得資訊。</span><span class="sxs-lookup"><span data-stu-id="e6a14-106">You should use [**MsiSetExternalUIRecord**](/windows/desktop/api/Msi/nf-msi-msisetexternaluirecord) to obtain information.</span></span>
 
  
 

@@ -31,19 +31,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851012"
 ---
-# <a name="vistacolinfo-class"></a><span data-ttu-id="afed2-103">VistaColInfo 類別</span><span class="sxs-lookup"><span data-stu-id="afed2-103">VistaColInfo class</span></span>
+# <a name="vistacolinfo-class"></a><span data-ttu-id="dde46-103">VistaColInfo 類別</span><span class="sxs-lookup"><span data-stu-id="dde46-103">VistaColInfo class</span></span>
 
-<span data-ttu-id="afed2-104">已新增至 Vista 版本 ESENT 的資料行資訊層級。</span><span class="sxs-lookup"><span data-stu-id="afed2-104">Column info levels that have been added to the Vista version of ESENT.</span></span>
+<span data-ttu-id="dde46-104">已新增至 Vista 版本 ESENT 的資料行資訊層級。</span><span class="sxs-lookup"><span data-stu-id="dde46-104">Column info levels that have been added to the Vista version of ESENT.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="afed2-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="afed2-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="dde46-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="dde46-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="afed2-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="afed2-106">System.Object</span></span>](/dotnet/api/system.object)  
-  <span data-ttu-id="afed2-107">VistaColInfo < a1/&gt;。</span><span class="sxs-lookup"><span data-stu-id="afed2-107">Microsoft.Isam.Esent.Interop.Vista.VistaColInfo</span></span>  
+[<span data-ttu-id="dde46-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="dde46-106">System.Object</span></span>](/dotnet/api/system.object)  
+  <span data-ttu-id="dde46-107">VistaColInfo < a1/&gt;。</span><span class="sxs-lookup"><span data-stu-id="dde46-107">Microsoft.Isam.Esent.Interop.Vista.VistaColInfo</span></span>  
 
-<span data-ttu-id="afed2-108">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="afed2-108">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
-<span data-ttu-id="afed2-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="afed2-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="dde46-108">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="dde46-108">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
+<span data-ttu-id="dde46-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="dde46-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="afed2-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="afed2-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dde46-110">Syntax</span><span class="sxs-lookup"><span data-stu-id="dde46-110">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -56,12 +56,12 @@ You do not need to declare an instance of a static class in order to access its 
 public static class VistaColInfo
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="afed2-111">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="afed2-111">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="dde46-111">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="dde46-111">Thread safety</span></span>
 
-<span data-ttu-id="afed2-112">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="afed2-112">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="afed2-113">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="afed2-113">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="dde46-112">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="dde46-112">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="dde46-113">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="dde46-113">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="afed2-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="afed2-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dde46-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dde46-114">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="afed2-115">參考</span><span class="sxs-lookup"><span data-stu-id="afed2-115">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="dde46-115">參考</span><span class="sxs-lookup"><span data-stu-id="dde46-115">Reference</span></span>
 
-[<span data-ttu-id="afed2-116">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="afed2-116">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)
+[<span data-ttu-id="dde46-116">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="dde46-116">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)

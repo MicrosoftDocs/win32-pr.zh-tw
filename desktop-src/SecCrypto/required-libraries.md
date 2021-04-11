@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850528"
 ---
-# <a name="required-libraries"></a><span data-ttu-id="89463-105">必要的程式庫</span><span class="sxs-lookup"><span data-stu-id="89463-105">Required Libraries</span></span>
+# <a name="required-libraries"></a><span data-ttu-id="f741f-105">必要的程式庫</span><span class="sxs-lookup"><span data-stu-id="f741f-105">Required Libraries</span></span>
 
-<span data-ttu-id="89463-106">連結 CryptoAPI 函數需要 Crypt32.dll 的可用性。</span><span class="sxs-lookup"><span data-stu-id="89463-106">Linking CryptoAPI functions requires the availability of Crypt32.lib.</span></span> <span data-ttu-id="89463-107">使用某些功能的程式可能也需要 Advapi32.dll .lib。</span><span class="sxs-lookup"><span data-stu-id="89463-107">Programs using some of the functions may also require Advapi32.lib.</span></span> <span data-ttu-id="89463-108">使用 Visual C++ 編譯器時，這些檔案應該會列在物件/程式庫模組中。</span><span class="sxs-lookup"><span data-stu-id="89463-108">When using the Visual C++ compiler, these files should be listed among the object/library modules.</span></span>
+<span data-ttu-id="f741f-106">連結 CryptoAPI 函數需要 Crypt32.dll 的可用性。</span><span class="sxs-lookup"><span data-stu-id="f741f-106">Linking CryptoAPI functions requires the availability of Crypt32.lib.</span></span> <span data-ttu-id="f741f-107">使用某些功能的程式可能也需要 Advapi32.dll .lib。</span><span class="sxs-lookup"><span data-stu-id="f741f-107">Programs using some of the functions may also require Advapi32.lib.</span></span> <span data-ttu-id="f741f-108">使用 Visual C++ 編譯器時，這些檔案應該會列在物件/程式庫模組中。</span><span class="sxs-lookup"><span data-stu-id="f741f-108">When using the Visual C++ compiler, these files should be listed among the object/library modules.</span></span>
 
  
 

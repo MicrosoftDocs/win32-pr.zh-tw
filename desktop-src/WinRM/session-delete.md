@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934107"
 ---
-# <a name="sessiondelete-method"></a><span data-ttu-id="06208-106">Session. Delete 方法</span><span class="sxs-lookup"><span data-stu-id="06208-106">Session.Delete method</span></span>
+# <a name="sessiondelete-method"></a><span data-ttu-id="2a5ee-106">Session. Delete 方法</span><span class="sxs-lookup"><span data-stu-id="2a5ee-106">Session.Delete method</span></span>
 
-<span data-ttu-id="06208-107">刪除資源 URI 中指定的資源。</span><span class="sxs-lookup"><span data-stu-id="06208-107">Deletes the resource specified in the resource URI.</span></span>
+<span data-ttu-id="2a5ee-107">刪除資源 URI 中指定的資源。</span><span class="sxs-lookup"><span data-stu-id="2a5ee-107">Deletes the resource specified in the resource URI.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="06208-108">語法</span><span class="sxs-lookup"><span data-stu-id="06208-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2a5ee-108">語法</span><span class="sxs-lookup"><span data-stu-id="2a5ee-108">Syntax</span></span>
 
 
 ```VB
@@ -40,31 +40,31 @@ Session.Delete( _
 
 
 
-## <a name="parameters"></a><span data-ttu-id="06208-109">參數</span><span class="sxs-lookup"><span data-stu-id="06208-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2a5ee-109">參數</span><span class="sxs-lookup"><span data-stu-id="2a5ee-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="06208-110">*resourceUri* \[在\]</span><span class="sxs-lookup"><span data-stu-id="06208-110">*resourceUri* \[in\]</span></span>
+<span data-ttu-id="2a5ee-110">*resourceUri* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2a5ee-110">*resourceUri* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="06208-111">要刪除之資源的 URI。</span><span class="sxs-lookup"><span data-stu-id="06208-111">The URI of the resource to be deleted.</span></span> <span data-ttu-id="06208-112">您也可以使用 [**ResourceLocator**](resourcelocator.md) 物件來指定資源。</span><span class="sxs-lookup"><span data-stu-id="06208-112">You can also use a [**ResourceLocator**](resourcelocator.md) object to specify the resource.</span></span>
+<span data-ttu-id="2a5ee-111">要刪除之資源的 URI。</span><span class="sxs-lookup"><span data-stu-id="2a5ee-111">The URI of the resource to be deleted.</span></span> <span data-ttu-id="2a5ee-112">您也可以使用 [**ResourceLocator**](resourcelocator.md) 物件來指定資源。</span><span class="sxs-lookup"><span data-stu-id="2a5ee-112">You can also use a [**ResourceLocator**](resourcelocator.md) object to specify the resource.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="06208-113">*旗標* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="06208-113">*flags* \[in, optional\]</span></span>
+<span data-ttu-id="2a5ee-113">*旗標* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="2a5ee-113">*flags* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="06208-114">保留供未來使用。</span><span class="sxs-lookup"><span data-stu-id="06208-114">Reserved for future use.</span></span> <span data-ttu-id="06208-115">必須設定為 0。</span><span class="sxs-lookup"><span data-stu-id="06208-115">Must be set to 0.</span></span>
+<span data-ttu-id="2a5ee-114">保留供未來使用。</span><span class="sxs-lookup"><span data-stu-id="2a5ee-114">Reserved for future use.</span></span> <span data-ttu-id="2a5ee-115">必須設定為 0。</span><span class="sxs-lookup"><span data-stu-id="2a5ee-115">Must be set to 0.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="06208-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="06208-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2a5ee-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="2a5ee-116">Return value</span></span>
 
-<span data-ttu-id="06208-117">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="06208-117">This method does not return a value.</span></span>
+<span data-ttu-id="2a5ee-117">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="2a5ee-117">This method does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="06208-118">備註</span><span class="sxs-lookup"><span data-stu-id="06208-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2a5ee-118">備註</span><span class="sxs-lookup"><span data-stu-id="2a5ee-118">Remarks</span></span>
 
-<span data-ttu-id="06208-119">下列語法用來呼叫這個方法。</span><span class="sxs-lookup"><span data-stu-id="06208-119">The following syntax is used to call this method.</span></span>
+<span data-ttu-id="2a5ee-119">下列語法用來呼叫這個方法。</span><span class="sxs-lookup"><span data-stu-id="2a5ee-119">The following syntax is used to call this method.</span></span>
 
 
 ```VB
@@ -73,9 +73,9 @@ session.Delete("<resourceUri>")
 
 
 
-## <a name="examples"></a><span data-ttu-id="06208-120">範例</span><span class="sxs-lookup"><span data-stu-id="06208-120">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="2a5ee-120">範例</span><span class="sxs-lookup"><span data-stu-id="2a5ee-120">Examples</span></span>
 
-<span data-ttu-id="06208-121">下列 VBScript 程式碼範例會刪除針對 HTTP 傳輸設定的接聽程式。</span><span class="sxs-lookup"><span data-stu-id="06208-121">The following VBScript code example deletes the listeners configured for HTTP transport.</span></span>
+<span data-ttu-id="2a5ee-121">下列 VBScript 程式碼範例會刪除針對 HTTP 傳輸設定的接聽程式。</span><span class="sxs-lookup"><span data-stu-id="2a5ee-121">The following VBScript code example deletes the listeners configured for HTTP transport.</span></span>
 
 
 ```VB
@@ -88,26 +88,26 @@ objSession.Delete(strResource)
 
 
 
-## <a name="requirements"></a><span data-ttu-id="06208-122">規格需求</span><span class="sxs-lookup"><span data-stu-id="06208-122">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2a5ee-122">規格需求</span><span class="sxs-lookup"><span data-stu-id="2a5ee-122">Requirements</span></span>
 
 
 
-| <span data-ttu-id="06208-123">需求</span><span class="sxs-lookup"><span data-stu-id="06208-123">Requirement</span></span> | <span data-ttu-id="06208-124">值</span><span class="sxs-lookup"><span data-stu-id="06208-124">Value</span></span> |
+| <span data-ttu-id="2a5ee-123">需求</span><span class="sxs-lookup"><span data-stu-id="2a5ee-123">Requirement</span></span> | <span data-ttu-id="2a5ee-124">值</span><span class="sxs-lookup"><span data-stu-id="2a5ee-124">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| <span data-ttu-id="06208-125">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="06208-125">Minimum supported client</span></span><br/> | <span data-ttu-id="06208-126">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="06208-126">Windows Vista</span></span><br/>                                                                 |
-| <span data-ttu-id="06208-127">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="06208-127">Minimum supported server</span></span><br/> | <span data-ttu-id="06208-128">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="06208-128">Windows Server 2008</span></span><br/>                                                           |
-| <span data-ttu-id="06208-129">標頭</span><span class="sxs-lookup"><span data-stu-id="06208-129">Header</span></span><br/>                   | <dl> <span data-ttu-id="06208-130"><dt>WSManDisp。h</dt></span><span class="sxs-lookup"><span data-stu-id="06208-130"><dt>WSManDisp.h</dt></span></span> </dl>   |
-| <span data-ttu-id="06208-131">Idl</span><span class="sxs-lookup"><span data-stu-id="06208-131">IDL</span></span><br/>                      | <dl> <span data-ttu-id="06208-132"><dt>WSManDisp .idl</dt></span><span class="sxs-lookup"><span data-stu-id="06208-132"><dt>WSManDisp.idl</dt></span></span> </dl> |
-| <span data-ttu-id="06208-133">程式庫</span><span class="sxs-lookup"><span data-stu-id="06208-133">Library</span></span><br/>                  | <dl> <span data-ttu-id="06208-134"><dt>WSManDisp .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="06208-134"><dt>WSManDisp.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="06208-135">DLL</span><span class="sxs-lookup"><span data-stu-id="06208-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="06208-136"><dt>WSMAuto.dll</dt></span><span class="sxs-lookup"><span data-stu-id="06208-136"><dt>WSMAuto.dll</dt></span></span> </dl>   |
+| <span data-ttu-id="2a5ee-125">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2a5ee-125">Minimum supported client</span></span><br/> | <span data-ttu-id="2a5ee-126">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="2a5ee-126">Windows Vista</span></span><br/>                                                                 |
+| <span data-ttu-id="2a5ee-127">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2a5ee-127">Minimum supported server</span></span><br/> | <span data-ttu-id="2a5ee-128">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="2a5ee-128">Windows Server 2008</span></span><br/>                                                           |
+| <span data-ttu-id="2a5ee-129">標頭</span><span class="sxs-lookup"><span data-stu-id="2a5ee-129">Header</span></span><br/>                   | <dl> <span data-ttu-id="2a5ee-130"><dt>WSManDisp。h</dt></span><span class="sxs-lookup"><span data-stu-id="2a5ee-130"><dt>WSManDisp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="2a5ee-131">Idl</span><span class="sxs-lookup"><span data-stu-id="2a5ee-131">IDL</span></span><br/>                      | <dl> <span data-ttu-id="2a5ee-132"><dt>WSManDisp .idl</dt></span><span class="sxs-lookup"><span data-stu-id="2a5ee-132"><dt>WSManDisp.idl</dt></span></span> </dl> |
+| <span data-ttu-id="2a5ee-133">程式庫</span><span class="sxs-lookup"><span data-stu-id="2a5ee-133">Library</span></span><br/>                  | <dl> <span data-ttu-id="2a5ee-134"><dt>WSManDisp .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="2a5ee-134"><dt>WSManDisp.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="2a5ee-135">DLL</span><span class="sxs-lookup"><span data-stu-id="2a5ee-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2a5ee-136"><dt>WSMAuto.dll</dt></span><span class="sxs-lookup"><span data-stu-id="2a5ee-136"><dt>WSMAuto.dll</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="06208-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="06208-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2a5ee-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2a5ee-137">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="06208-138">**工作階段**</span><span class="sxs-lookup"><span data-stu-id="06208-138">**Session**</span></span>](session.md)
+[<span data-ttu-id="2a5ee-138">**工作階段**</span><span class="sxs-lookup"><span data-stu-id="2a5ee-138">**Session**</span></span>](session.md)
 </dt> </dl>
 
  

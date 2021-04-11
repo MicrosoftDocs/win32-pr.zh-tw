@@ -31,24 +31,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945265"
 ---
-# <a name="esenttoomanysplitsexception-class"></a><span data-ttu-id="02bf4-103">EsentTooManySplitsException 類別</span><span class="sxs-lookup"><span data-stu-id="02bf4-103">EsentTooManySplitsException class</span></span>
+# <a name="esenttoomanysplitsexception-class"></a><span data-ttu-id="80f79-103">EsentTooManySplitsException 類別</span><span class="sxs-lookup"><span data-stu-id="80f79-103">EsentTooManySplitsException class</span></span>
 
-<span data-ttu-id="02bf4-104">JET_err 的基類。TooManySplits 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="02bf4-104">Base class for JET_err.TooManySplits exceptions.</span></span>
+<span data-ttu-id="80f79-104">JET_err 的基類。TooManySplits 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="80f79-104">Base class for JET_err.TooManySplits exceptions.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="02bf4-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="02bf4-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="80f79-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="80f79-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="02bf4-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="02bf4-106">System.Object</span></span>](/dotnet/api/system.object)  
-  [<span data-ttu-id="02bf4-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="02bf4-107">System.Exception</span></span>](/dotnet/api/system.exception)  
-    [<span data-ttu-id="02bf4-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="02bf4-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
-      [<span data-ttu-id="02bf4-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="02bf4-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
-        [<span data-ttu-id="02bf4-110">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="02bf4-110">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
-          [<span data-ttu-id="02bf4-111">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="02bf4-111">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
-            <span data-ttu-id="02bf4-112">EsentTooManySplitsException （.）</span><span class="sxs-lookup"><span data-stu-id="02bf4-112">Microsoft.Isam.Esent.Interop.EsentTooManySplitsException</span></span>  
+[<span data-ttu-id="80f79-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="80f79-106">System.Object</span></span>](/dotnet/api/system.object)  
+  [<span data-ttu-id="80f79-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="80f79-107">System.Exception</span></span>](/dotnet/api/system.exception)  
+    [<span data-ttu-id="80f79-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="80f79-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
+      [<span data-ttu-id="80f79-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="80f79-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
+        [<span data-ttu-id="80f79-110">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="80f79-110">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
+          [<span data-ttu-id="80f79-111">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="80f79-111">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
+            <span data-ttu-id="80f79-112">EsentTooManySplitsException （.）</span><span class="sxs-lookup"><span data-stu-id="80f79-112">Microsoft.Isam.Esent.Interop.EsentTooManySplitsException</span></span>  
 
-<span data-ttu-id="02bf4-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="02bf4-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="02bf4-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="02bf4-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="80f79-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="80f79-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="80f79-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="80f79-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="02bf4-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="02bf4-115">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="80f79-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="80f79-115">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -64,14 +64,14 @@ Dim instance As EsentTooManySplitsException
 public sealed class EsentTooManySplitsException : EsentObsoleteException
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="02bf4-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="02bf4-116">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="80f79-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="80f79-116">Thread safety</span></span>
 
-<span data-ttu-id="02bf4-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="02bf4-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="02bf4-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="02bf4-118">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="80f79-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="80f79-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="80f79-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="80f79-118">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="02bf4-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="02bf4-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="80f79-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="80f79-119">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="02bf4-120">參考</span><span class="sxs-lookup"><span data-stu-id="02bf4-120">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="80f79-120">參考</span><span class="sxs-lookup"><span data-stu-id="80f79-120">Reference</span></span>
 
-[<span data-ttu-id="02bf4-121">EsentTooManySplitsException 成員</span><span class="sxs-lookup"><span data-stu-id="02bf4-121">EsentTooManySplitsException members</span></span>](./esenttoomanysplitsexception-members.md)
+[<span data-ttu-id="80f79-121">EsentTooManySplitsException 成員</span><span class="sxs-lookup"><span data-stu-id="80f79-121">EsentTooManySplitsException members</span></span>](./esenttoomanysplitsexception-members.md)
 
-[<span data-ttu-id="02bf4-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="02bf4-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="80f79-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="80f79-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

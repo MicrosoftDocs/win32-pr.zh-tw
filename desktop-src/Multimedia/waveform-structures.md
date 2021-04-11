@@ -17,22 +17,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103933231"
 ---
-# <a name="waveform-structures"></a><span data-ttu-id="dd283-108">波形結構</span><span class="sxs-lookup"><span data-stu-id="dd283-108">Waveform Structures</span></span>
+# <a name="waveform-structures"></a><span data-ttu-id="8d8b9-108">波形結構</span><span class="sxs-lookup"><span data-stu-id="8d8b9-108">Waveform Structures</span></span>
 
--   [<span data-ttu-id="dd283-109">**PCMWAVEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="dd283-109">**PCMWAVEFORMAT**</span></span>](/windows/win32/api/mmreg/ns-mmreg-pcmwaveformat)
--   [<span data-ttu-id="dd283-110">**WAVEFILTER**</span><span class="sxs-lookup"><span data-stu-id="dd283-110">**WAVEFILTER**</span></span>](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter)
--   [<span data-ttu-id="dd283-111">**WAVEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="dd283-111">**WAVEFORMAT**</span></span>](/windows/win32/api/mmreg/ns-mmreg-waveformat)
--   [<span data-ttu-id="dd283-112">**WAVEFORMATEX**</span><span class="sxs-lookup"><span data-stu-id="dd283-112">**WAVEFORMATEX**</span></span>](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex)
--   [<span data-ttu-id="dd283-113">**WAVEFORMATEXTENSIBLE**</span><span class="sxs-lookup"><span data-stu-id="dd283-113">**WAVEFORMATEXTENSIBLE**</span></span>](/windows/win32/api/mmreg/ns-mmreg-waveformatextensible)
--   [<span data-ttu-id="dd283-114">**WAVEHDR**</span><span class="sxs-lookup"><span data-stu-id="dd283-114">**WAVEHDR**</span></span>](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr)
--   [<span data-ttu-id="dd283-115">**WAVEINCAPS**</span><span class="sxs-lookup"><span data-stu-id="dd283-115">**WAVEINCAPS**</span></span>](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)
--   [<span data-ttu-id="dd283-116">**WAVEOUTCAPS**</span><span class="sxs-lookup"><span data-stu-id="dd283-116">**WAVEOUTCAPS**</span></span>](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps)
+-   [<span data-ttu-id="8d8b9-109">**PCMWAVEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="8d8b9-109">**PCMWAVEFORMAT**</span></span>](/windows/win32/api/mmreg/ns-mmreg-pcmwaveformat)
+-   [<span data-ttu-id="8d8b9-110">**WAVEFILTER**</span><span class="sxs-lookup"><span data-stu-id="8d8b9-110">**WAVEFILTER**</span></span>](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter)
+-   [<span data-ttu-id="8d8b9-111">**WAVEFORMAT**</span><span class="sxs-lookup"><span data-stu-id="8d8b9-111">**WAVEFORMAT**</span></span>](/windows/win32/api/mmreg/ns-mmreg-waveformat)
+-   [<span data-ttu-id="8d8b9-112">**WAVEFORMATEX**</span><span class="sxs-lookup"><span data-stu-id="8d8b9-112">**WAVEFORMATEX**</span></span>](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex)
+-   [<span data-ttu-id="8d8b9-113">**WAVEFORMATEXTENSIBLE**</span><span class="sxs-lookup"><span data-stu-id="8d8b9-113">**WAVEFORMATEXTENSIBLE**</span></span>](/windows/win32/api/mmreg/ns-mmreg-waveformatextensible)
+-   [<span data-ttu-id="8d8b9-114">**WAVEHDR**</span><span class="sxs-lookup"><span data-stu-id="8d8b9-114">**WAVEHDR**</span></span>](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr)
+-   [<span data-ttu-id="8d8b9-115">**WAVEINCAPS**</span><span class="sxs-lookup"><span data-stu-id="8d8b9-115">**WAVEINCAPS**</span></span>](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)
+-   [<span data-ttu-id="8d8b9-116">**WAVEOUTCAPS**</span><span class="sxs-lookup"><span data-stu-id="8d8b9-116">**WAVEOUTCAPS**</span></span>](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps)
 
-## <a name="related-topics"></a><span data-ttu-id="dd283-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="dd283-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8d8b9-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="8d8b9-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="dd283-118">波形音訊參考</span><span class="sxs-lookup"><span data-stu-id="dd283-118">Waveform Audio Reference</span></span>](waveform-audio-reference.md)
+[<span data-ttu-id="8d8b9-118">波形音訊參考</span><span class="sxs-lookup"><span data-stu-id="8d8b9-118">Waveform Audio Reference</span></span>](waveform-audio-reference.md)
 </dt> </dl>
 
  

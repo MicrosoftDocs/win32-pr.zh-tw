@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849476"
 ---
-# <a name="locale_neutral"></a><span data-ttu-id="37043-103">地區設定 \_ 中性</span><span class="sxs-lookup"><span data-stu-id="37043-103">LOCALE\_NEUTRAL</span></span>
+# <a name="locale_neutral"></a><span data-ttu-id="ef211-103">地區設定 \_ 中性</span><span class="sxs-lookup"><span data-stu-id="ef211-103">LOCALE\_NEUTRAL</span></span>
 
-<span data-ttu-id="37043-104">中性地區設定。</span><span class="sxs-lookup"><span data-stu-id="37043-104">The neutral locale.</span></span> <span data-ttu-id="37043-105">呼叫 NLS Api 時，通常不會使用這個常數。</span><span class="sxs-lookup"><span data-stu-id="37043-105">This constant is generally not used when calling NLS APIs.</span></span> <span data-ttu-id="37043-106">請改為使用 [地區設定 \_ 系統 \_ 預設值](locale-system-default.md) 或 [地區設定 \_ 使用者 \_ 預設值](locale-user-default.md)。</span><span class="sxs-lookup"><span data-stu-id="37043-106">Instead, use either [LOCALE\_SYSTEM\_DEFAULT](locale-system-default.md) or [LOCALE\_USER\_DEFAULT](locale-user-default.md).</span></span> <span data-ttu-id="37043-107">地區設定中性的值 \_ 為0x0000。</span><span class="sxs-lookup"><span data-stu-id="37043-107">The value of LOCALE\_NEUTRAL is 0x0000.</span></span>
+<span data-ttu-id="ef211-104">中性地區設定。</span><span class="sxs-lookup"><span data-stu-id="ef211-104">The neutral locale.</span></span> <span data-ttu-id="ef211-105">呼叫 NLS Api 時，通常不會使用這個常數。</span><span class="sxs-lookup"><span data-stu-id="ef211-105">This constant is generally not used when calling NLS APIs.</span></span> <span data-ttu-id="ef211-106">請改為使用 [地區設定 \_ 系統 \_ 預設值](locale-system-default.md) 或 [地區設定 \_ 使用者 \_ 預設值](locale-user-default.md)。</span><span class="sxs-lookup"><span data-stu-id="ef211-106">Instead, use either [LOCALE\_SYSTEM\_DEFAULT](locale-system-default.md) or [LOCALE\_USER\_DEFAULT](locale-user-default.md).</span></span> <span data-ttu-id="ef211-107">地區設定中性的值 \_ 為0x0000。</span><span class="sxs-lookup"><span data-stu-id="ef211-107">The value of LOCALE\_NEUTRAL is 0x0000.</span></span>
 
  
 
