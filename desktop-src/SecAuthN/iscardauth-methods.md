@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "104115817"
 ---
-# <a name="iscardauth-methods"></a><span data-ttu-id="4ebe8-103">ISCardAuth 方法</span><span class="sxs-lookup"><span data-stu-id="4ebe8-103">ISCardAuth Methods</span></span>
+# <a name="iscardauth-methods"></a><span data-ttu-id="ea4fa-103">ISCardAuth 方法</span><span class="sxs-lookup"><span data-stu-id="ea4fa-103">ISCardAuth Methods</span></span>
 
-<span data-ttu-id="4ebe8-104">[**ISCardAuth**](iscardauth.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="4ebe8-104">The [**ISCardAuth**](iscardauth.md) interface exposes the following methods.</span></span>
+<span data-ttu-id="ea4fa-104">[**ISCardAuth**](iscardauth.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="ea4fa-104">The [**ISCardAuth**](iscardauth.md) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="4ebe8-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="4ebe8-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ea4fa-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="ea4fa-105">In this section</span></span>
 
--   [<span data-ttu-id="4ebe8-106">**應用程式 \_ 驗證方法**</span><span class="sxs-lookup"><span data-stu-id="4ebe8-106">**APP\_Auth Method**</span></span>](iscardauth-app-auth.md)
--   [<span data-ttu-id="4ebe8-107">**GetChallenge 方法**</span><span class="sxs-lookup"><span data-stu-id="4ebe8-107">**GetChallenge Method**</span></span>](iscardauth-getchallenge.md)
--   [<span data-ttu-id="4ebe8-108">**ICC \_ 驗證方法**</span><span class="sxs-lookup"><span data-stu-id="4ebe8-108">**ICC\_Auth Method**</span></span>](iscardauth-icc-auth.md)
--   [<span data-ttu-id="4ebe8-109">**使用者 \_ 驗證方法**</span><span class="sxs-lookup"><span data-stu-id="4ebe8-109">**User\_Auth Method**</span></span>](iscardauth-user-auth.md)
+-   [<span data-ttu-id="ea4fa-106">**應用程式 \_ 驗證方法**</span><span class="sxs-lookup"><span data-stu-id="ea4fa-106">**APP\_Auth Method**</span></span>](iscardauth-app-auth.md)
+-   [<span data-ttu-id="ea4fa-107">**GetChallenge 方法**</span><span class="sxs-lookup"><span data-stu-id="ea4fa-107">**GetChallenge Method**</span></span>](iscardauth-getchallenge.md)
+-   [<span data-ttu-id="ea4fa-108">**ICC \_ 驗證方法**</span><span class="sxs-lookup"><span data-stu-id="ea4fa-108">**ICC\_Auth Method**</span></span>](iscardauth-icc-auth.md)
+-   [<span data-ttu-id="ea4fa-109">**使用者 \_ 驗證方法**</span><span class="sxs-lookup"><span data-stu-id="ea4fa-109">**User\_Auth Method**</span></span>](iscardauth-user-auth.md)
 
  
 

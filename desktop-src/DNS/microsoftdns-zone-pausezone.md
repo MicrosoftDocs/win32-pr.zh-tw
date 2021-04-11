@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844076"
 ---
-# <a name="pausezone-method-of-the-microsoftdns_zone-class"></a><span data-ttu-id="540b0-106">MicrosoftDNS 區域類別的 PauseZone 方法 \_</span><span class="sxs-lookup"><span data-stu-id="540b0-106">PauseZone method of the MicrosoftDNS\_Zone class</span></span>
+# <a name="pausezone-method-of-the-microsoftdns_zone-class"></a><span data-ttu-id="9083d-106">MicrosoftDNS 區域類別的 PauseZone 方法 \_</span><span class="sxs-lookup"><span data-stu-id="9083d-106">PauseZone method of the MicrosoftDNS\_Zone class</span></span>
 
-<span data-ttu-id="540b0-107">**PauseZone** 方法會暫停 DNS 區域。</span><span class="sxs-lookup"><span data-stu-id="540b0-107">The **PauseZone** method pauses the DNS Zone.</span></span>
+<span data-ttu-id="9083d-107">**PauseZone** 方法會暫停 DNS 區域。</span><span class="sxs-lookup"><span data-stu-id="9083d-107">The **PauseZone** method pauses the DNS Zone.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="540b0-108">語法</span><span class="sxs-lookup"><span data-stu-id="540b0-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9083d-108">語法</span><span class="sxs-lookup"><span data-stu-id="9083d-108">Syntax</span></span>
 
 
 ```mof
@@ -36,62 +36,62 @@ void PauseZone();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="540b0-109">參數</span><span class="sxs-lookup"><span data-stu-id="540b0-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9083d-109">參數</span><span class="sxs-lookup"><span data-stu-id="9083d-109">Parameters</span></span>
 
-<span data-ttu-id="540b0-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="540b0-110">This method has no parameters.</span></span>
+<span data-ttu-id="9083d-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="9083d-110">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="540b0-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="540b0-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9083d-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="9083d-111">Return value</span></span>
 
-<span data-ttu-id="540b0-112">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="540b0-112">This method does not return a value.</span></span>
+<span data-ttu-id="9083d-112">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="9083d-112">This method does not return a value.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="540b0-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="540b0-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9083d-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="9083d-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="540b0-114">需求</span><span class="sxs-lookup"><span data-stu-id="540b0-114">Requirement</span></span> | <span data-ttu-id="540b0-115">值</span><span class="sxs-lookup"><span data-stu-id="540b0-115">Value</span></span> |
+| <span data-ttu-id="9083d-114">需求</span><span class="sxs-lookup"><span data-stu-id="9083d-114">Requirement</span></span> | <span data-ttu-id="9083d-115">值</span><span class="sxs-lookup"><span data-stu-id="9083d-115">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="540b0-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="540b0-116">Minimum supported client</span></span><br/> | <span data-ttu-id="540b0-117">都不支援</span><span class="sxs-lookup"><span data-stu-id="540b0-117">None supported</span></span><br/>                                                              |
-| <span data-ttu-id="540b0-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="540b0-118">Minimum supported server</span></span><br/> | <span data-ttu-id="540b0-119">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="540b0-119">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                   |
-| <span data-ttu-id="540b0-120">命名空間</span><span class="sxs-lookup"><span data-stu-id="540b0-120">Namespace</span></span><br/>                | <span data-ttu-id="540b0-121">根 \\ MicrosoftDNS</span><span class="sxs-lookup"><span data-stu-id="540b0-121">Root\\MicrosoftDNS</span></span><br/>                                                          |
-| <span data-ttu-id="540b0-122">MOF</span><span class="sxs-lookup"><span data-stu-id="540b0-122">MOF</span></span><br/>                      | <dl> <span data-ttu-id="540b0-123"><dt>Dnsprov mof</dt></span><span class="sxs-lookup"><span data-stu-id="540b0-123"><dt>Dnsprov.mof</dt></span></span> </dl> |
+| <span data-ttu-id="9083d-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9083d-116">Minimum supported client</span></span><br/> | <span data-ttu-id="9083d-117">都不支援</span><span class="sxs-lookup"><span data-stu-id="9083d-117">None supported</span></span><br/>                                                              |
+| <span data-ttu-id="9083d-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9083d-118">Minimum supported server</span></span><br/> | <span data-ttu-id="9083d-119">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9083d-119">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                   |
+| <span data-ttu-id="9083d-120">命名空間</span><span class="sxs-lookup"><span data-stu-id="9083d-120">Namespace</span></span><br/>                | <span data-ttu-id="9083d-121">根 \\ MicrosoftDNS</span><span class="sxs-lookup"><span data-stu-id="9083d-121">Root\\MicrosoftDNS</span></span><br/>                                                          |
+| <span data-ttu-id="9083d-122">MOF</span><span class="sxs-lookup"><span data-stu-id="9083d-122">MOF</span></span><br/>                      | <dl> <span data-ttu-id="9083d-123"><dt>Dnsprov mof</dt></span><span class="sxs-lookup"><span data-stu-id="9083d-123"><dt>Dnsprov.mof</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="540b0-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="540b0-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9083d-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9083d-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="540b0-125">**MicrosoftDNS \_ 區域**</span><span class="sxs-lookup"><span data-stu-id="540b0-125">**MicrosoftDNS\_Zone**</span></span>](microsoftdns-zone.md)
+[<span data-ttu-id="9083d-125">**MicrosoftDNS \_ 區域**</span><span class="sxs-lookup"><span data-stu-id="9083d-125">**MicrosoftDNS\_Zone**</span></span>](microsoftdns-zone.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-126">**MicrosoftDNS 區域類別的 AgeAllRecords 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-126">**AgeAllRecords Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-ageallrecords.md)
+[<span data-ttu-id="9083d-126">**MicrosoftDNS 區域類別的 AgeAllRecords 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-126">**AgeAllRecords Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-ageallrecords.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-127">**MicrosoftDNS 區域類別的 ChangeZoneType 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-127">**ChangeZoneType Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-changezonetype.md)
+[<span data-ttu-id="9083d-127">**MicrosoftDNS 區域類別的 ChangeZoneType 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-127">**ChangeZoneType Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-changezonetype.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-128">**MicrosoftDNS 區域類別的 CreateZone 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-128">**CreateZone Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-createzone.md)
+[<span data-ttu-id="9083d-128">**MicrosoftDNS 區域類別的 CreateZone 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-128">**CreateZone Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-createzone.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-129">**MicrosoftDNS 區域類別的 ForceRefresh 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-129">**ForceRefresh Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-forcerefresh.md)
+[<span data-ttu-id="9083d-129">**MicrosoftDNS 區域類別的 ForceRefresh 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-129">**ForceRefresh Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-forcerefresh.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-130">**MicrosoftDNS 區域類別的 GetDistinguishedName 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-130">**GetDistinguishedName Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-getdistinguishedname.md)
+[<span data-ttu-id="9083d-130">**MicrosoftDNS 區域類別的 GetDistinguishedName 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-130">**GetDistinguishedName Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-getdistinguishedname.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-131">**MicrosoftDNS 區域類別的 ReloadZone 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-131">**ReloadZone Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-reloadzone.md)
+[<span data-ttu-id="9083d-131">**MicrosoftDNS 區域類別的 ReloadZone 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-131">**ReloadZone Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-reloadzone.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-132">**MicrosoftDNS 區域類別的 ResetSecondaries 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-132">**ResetSecondaries Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-resetsecondaries.md)
+[<span data-ttu-id="9083d-132">**MicrosoftDNS 區域類別的 ResetSecondaries 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-132">**ResetSecondaries Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-resetsecondaries.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-133">**MicrosoftDNS 區域類別的 ResumeZone 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-133">**ResumeZone Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-resumezone.md)
+[<span data-ttu-id="9083d-133">**MicrosoftDNS 區域類別的 ResumeZone 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-133">**ResumeZone Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-resumezone.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-134">**MicrosoftDNS 區域類別的 UpdateFromDS 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-134">**UpdateFromDS Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-updatefromds.md)
+[<span data-ttu-id="9083d-134">**MicrosoftDNS 區域類別的 UpdateFromDS 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-134">**UpdateFromDS Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-updatefromds.md)
 </dt> <dt>
 
-[<span data-ttu-id="540b0-135">**MicrosoftDNS 區域類別的 WriteBackZone 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="540b0-135">**WriteBackZone Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-writebackzone.md)
+[<span data-ttu-id="9083d-135">**MicrosoftDNS 區域類別的 WriteBackZone 方法 \_**</span><span class="sxs-lookup"><span data-stu-id="9083d-135">**WriteBackZone Method of the MicrosoftDNS\_Zone Class**</span></span>](microsoftdns-zone-writebackzone.md)
 </dt> </dl>
 
  

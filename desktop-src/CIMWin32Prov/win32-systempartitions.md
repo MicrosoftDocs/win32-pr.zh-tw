@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847313"
 ---
-# <a name="win32_systempartitions-class"></a><span data-ttu-id="8fa56-103">Win32 \_ SystemPartitions 類別</span><span class="sxs-lookup"><span data-stu-id="8fa56-103">Win32\_SystemPartitions class</span></span>
+# <a name="win32_systempartitions-class"></a><span data-ttu-id="6a6ad-103">Win32 \_ SystemPartitions 類別</span><span class="sxs-lookup"><span data-stu-id="6a6ad-103">Win32\_SystemPartitions class</span></span>
 
-<span data-ttu-id="8fa56-104">**Win32 \_ SystemPartitions** 關聯 [WMI 類別](../wmisdk/retrieving-a-class.md)會關聯電腦系統和該系統上的磁碟分割。</span><span class="sxs-lookup"><span data-stu-id="8fa56-104">The **Win32\_SystemPartitions** association [WMI class](../wmisdk/retrieving-a-class.md) relates a computer system and a disk partition on that system.</span></span>
+<span data-ttu-id="6a6ad-104">**Win32 \_ SystemPartitions** 關聯 [WMI 類別](../wmisdk/retrieving-a-class.md)會關聯電腦系統和該系統上的磁碟分割。</span><span class="sxs-lookup"><span data-stu-id="6a6ad-104">The **Win32\_SystemPartitions** association [WMI class](../wmisdk/retrieving-a-class.md) relates a computer system and a disk partition on that system.</span></span>
 
-<span data-ttu-id="8fa56-105">下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="8fa56-105">The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.</span></span> <span data-ttu-id="8fa56-106">屬性和方法是以字母順序排列，而不是 MOF 順序。</span><span class="sxs-lookup"><span data-stu-id="8fa56-106">Properties and methods are in alphabetic order, not MOF order.</span></span>
+<span data-ttu-id="6a6ad-105">下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="6a6ad-105">The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.</span></span> <span data-ttu-id="6a6ad-106">屬性和方法是以字母順序排列，而不是 MOF 順序。</span><span class="sxs-lookup"><span data-stu-id="6a6ad-106">Properties and methods are in alphabetic order, not MOF order.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8fa56-107">語法</span><span class="sxs-lookup"><span data-stu-id="8fa56-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6a6ad-107">語法</span><span class="sxs-lookup"><span data-stu-id="6a6ad-107">Syntax</span></span>
 
 ``` syntax
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4F5-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
@@ -40,76 +40,76 @@ class Win32_SystemPartitions : Win32_SystemDevices
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="8fa56-108">成員</span><span class="sxs-lookup"><span data-stu-id="8fa56-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="6a6ad-108">成員</span><span class="sxs-lookup"><span data-stu-id="6a6ad-108">Members</span></span>
 
-<span data-ttu-id="8fa56-109">**Win32 \_ SystemPartitions** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="8fa56-109">The **Win32\_SystemPartitions** class has these types of members:</span></span>
+<span data-ttu-id="6a6ad-109">**Win32 \_ SystemPartitions** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="6a6ad-109">The **Win32\_SystemPartitions** class has these types of members:</span></span>
 
--   [<span data-ttu-id="8fa56-110">屬性</span><span class="sxs-lookup"><span data-stu-id="8fa56-110">Properties</span></span>](#properties)
+-   [<span data-ttu-id="6a6ad-110">屬性</span><span class="sxs-lookup"><span data-stu-id="6a6ad-110">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="8fa56-111">屬性</span><span class="sxs-lookup"><span data-stu-id="8fa56-111">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="6a6ad-111">屬性</span><span class="sxs-lookup"><span data-stu-id="6a6ad-111">Properties</span></span>
 
-<span data-ttu-id="8fa56-112">**Win32 \_ SystemPartitions** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="8fa56-112">The **Win32\_SystemPartitions** class has these properties.</span></span>
+<span data-ttu-id="6a6ad-112">**Win32 \_ SystemPartitions** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="6a6ad-112">The **Win32\_SystemPartitions** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="8fa56-113">**GroupComponent**</span><span class="sxs-lookup"><span data-stu-id="8fa56-113">**GroupComponent**</span></span>
+<span data-ttu-id="6a6ad-113">**GroupComponent**</span><span class="sxs-lookup"><span data-stu-id="6a6ad-113">**GroupComponent**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="8fa56-114">資料類型： **Win32 \_** 未執行</span><span class="sxs-lookup"><span data-stu-id="8fa56-114">Data type: **Win32\_ComputerSystem**</span></span>
+<span data-ttu-id="6a6ad-114">資料類型： **Win32 \_** 未執行</span><span class="sxs-lookup"><span data-stu-id="6a6ad-114">Data type: **Win32\_ComputerSystem**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="8fa56-115">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="8fa56-115">Access type: Read-only</span></span>
+<span data-ttu-id="6a6ad-115">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="6a6ad-115">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="8fa56-116">限定詞：覆 [**寫**](../wmisdk/standard-qualifiers.md) ( "GroupComponent" ) ， [**MAPPINGSTRINGS**](../wmisdk/standard-qualifiers.md) ( "WMI Win32 \| \_ " ) </span><span class="sxs-lookup"><span data-stu-id="8fa56-116">Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("GroupComponent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_ComputerSystem")</span></span>
+<span data-ttu-id="6a6ad-116">限定詞：覆 [**寫**](../wmisdk/standard-qualifiers.md) ( "GroupComponent" ) ， [**MAPPINGSTRINGS**](../wmisdk/standard-qualifiers.md) ( "WMI Win32 \| \_ " ) </span><span class="sxs-lookup"><span data-stu-id="6a6ad-116">Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("GroupComponent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_ComputerSystem")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="8fa56-117">此實例的參考，代表磁碟分割所在之電腦系統的屬性。</span><span class="sxs-lookup"><span data-stu-id="8fa56-117">Reference to the instance representing the properties of the computer system where the disk partition is located.</span></span>
+<span data-ttu-id="6a6ad-117">此實例的參考，代表磁碟分割所在之電腦系統的屬性。</span><span class="sxs-lookup"><span data-stu-id="6a6ad-117">Reference to the instance representing the properties of the computer system where the disk partition is located.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="8fa56-118">**PartComponent**</span><span class="sxs-lookup"><span data-stu-id="8fa56-118">**PartComponent**</span></span>
+<span data-ttu-id="6a6ad-118">**PartComponent**</span><span class="sxs-lookup"><span data-stu-id="6a6ad-118">**PartComponent**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="8fa56-119">資料類型： **Win32 \_ DiskPartition**</span><span class="sxs-lookup"><span data-stu-id="8fa56-119">Data type: **Win32\_DiskPartition**</span></span>
+<span data-ttu-id="6a6ad-119">資料類型： **Win32 \_ DiskPartition**</span><span class="sxs-lookup"><span data-stu-id="6a6ad-119">Data type: **Win32\_DiskPartition**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="8fa56-120">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="8fa56-120">Access type: Read-only</span></span>
+<span data-ttu-id="6a6ad-120">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="6a6ad-120">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="8fa56-121">限定詞：覆 [**寫**](../wmisdk/standard-qualifiers.md) ( "PartComponent" ) ， [**MAPPINGSTRINGS**](../wmisdk/standard-qualifiers.md) ( "WMI \| Win32 \_ DiskPartition" ) </span><span class="sxs-lookup"><span data-stu-id="8fa56-121">Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("PartComponent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_DiskPartition")</span></span>
+<span data-ttu-id="6a6ad-121">限定詞：覆 [**寫**](../wmisdk/standard-qualifiers.md) ( "PartComponent" ) ， [**MAPPINGSTRINGS**](../wmisdk/standard-qualifiers.md) ( "WMI \| Win32 \_ DiskPartition" ) </span><span class="sxs-lookup"><span data-stu-id="6a6ad-121">Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("PartComponent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_DiskPartition")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="8fa56-122">代表存在於電腦系統上的磁碟分割屬性之實例的參考。</span><span class="sxs-lookup"><span data-stu-id="8fa56-122">Reference to the instance representing the properties of a disk partition that exists on the computer system.</span></span>
+<span data-ttu-id="6a6ad-122">代表存在於電腦系統上的磁碟分割屬性之實例的參考。</span><span class="sxs-lookup"><span data-stu-id="6a6ad-122">Reference to the instance representing the properties of a disk partition that exists on the computer system.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="8fa56-123">備註</span><span class="sxs-lookup"><span data-stu-id="8fa56-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6a6ad-123">備註</span><span class="sxs-lookup"><span data-stu-id="6a6ad-123">Remarks</span></span>
 
-<span data-ttu-id="8fa56-124">**Win32 \_ SystemPartitions** 類別衍生自 [**win32 \_ SystemDevices**](win32-systemdevices.md)。</span><span class="sxs-lookup"><span data-stu-id="8fa56-124">The **Win32\_SystemPartitions** class is derived from [**Win32\_SystemDevices**](win32-systemdevices.md).</span></span>
+<span data-ttu-id="6a6ad-124">**Win32 \_ SystemPartitions** 類別衍生自 [**win32 \_ SystemDevices**](win32-systemdevices.md)。</span><span class="sxs-lookup"><span data-stu-id="6a6ad-124">The **Win32\_SystemPartitions** class is derived from [**Win32\_SystemDevices**](win32-systemdevices.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="8fa56-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="8fa56-125">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6a6ad-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="6a6ad-125">Requirements</span></span>
 
 
 
-| <span data-ttu-id="8fa56-126">需求</span><span class="sxs-lookup"><span data-stu-id="8fa56-126">Requirement</span></span> | <span data-ttu-id="8fa56-127">值</span><span class="sxs-lookup"><span data-stu-id="8fa56-127">Value</span></span> |
+| <span data-ttu-id="6a6ad-126">需求</span><span class="sxs-lookup"><span data-stu-id="6a6ad-126">Requirement</span></span> | <span data-ttu-id="6a6ad-127">值</span><span class="sxs-lookup"><span data-stu-id="6a6ad-127">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="8fa56-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8fa56-128">Minimum supported client</span></span><br/> | <span data-ttu-id="8fa56-129">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="8fa56-129">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="8fa56-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8fa56-130">Minimum supported server</span></span><br/> | <span data-ttu-id="8fa56-131">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="8fa56-131">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="8fa56-132">命名空間</span><span class="sxs-lookup"><span data-stu-id="8fa56-132">Namespace</span></span><br/>                | <span data-ttu-id="8fa56-133">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="8fa56-133">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="8fa56-134">MOF</span><span class="sxs-lookup"><span data-stu-id="8fa56-134">MOF</span></span><br/>                      | <dl> <span data-ttu-id="8fa56-135"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="8fa56-135"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="8fa56-136">DLL</span><span class="sxs-lookup"><span data-stu-id="8fa56-136">DLL</span></span><br/>                      | <dl> <span data-ttu-id="8fa56-137"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="8fa56-137"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="6a6ad-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6a6ad-128">Minimum supported client</span></span><br/> | <span data-ttu-id="6a6ad-129">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="6a6ad-129">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="6a6ad-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6a6ad-130">Minimum supported server</span></span><br/> | <span data-ttu-id="6a6ad-131">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="6a6ad-131">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="6a6ad-132">命名空間</span><span class="sxs-lookup"><span data-stu-id="6a6ad-132">Namespace</span></span><br/>                | <span data-ttu-id="6a6ad-133">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="6a6ad-133">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="6a6ad-134">MOF</span><span class="sxs-lookup"><span data-stu-id="6a6ad-134">MOF</span></span><br/>                      | <dl> <span data-ttu-id="6a6ad-135"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="6a6ad-135"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="6a6ad-136">DLL</span><span class="sxs-lookup"><span data-stu-id="6a6ad-136">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6a6ad-137"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="6a6ad-137"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="8fa56-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8fa56-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6a6ad-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6a6ad-138">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="8fa56-139">**Win32 \_ SystemDevices**</span><span class="sxs-lookup"><span data-stu-id="8fa56-139">**Win32\_SystemDevices**</span></span>](win32-systemdevices.md)
+[<span data-ttu-id="6a6ad-139">**Win32 \_ SystemDevices**</span><span class="sxs-lookup"><span data-stu-id="6a6ad-139">**Win32\_SystemDevices**</span></span>](win32-systemdevices.md)
 </dt> <dt>
 
-[<span data-ttu-id="8fa56-140">作業系統類別</span><span class="sxs-lookup"><span data-stu-id="8fa56-140">Operating System Classes</span></span>](./operating-system-classes.md)
+[<span data-ttu-id="6a6ad-140">作業系統類別</span><span class="sxs-lookup"><span data-stu-id="6a6ad-140">Operating System Classes</span></span>](./operating-system-classes.md)
 </dt> </dl>
 
  

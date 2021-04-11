@@ -24,15 +24,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843835"
 ---
-# <a name="ivmserialportcollectioncount-property"></a><span data-ttu-id="593d8-106">IVMSerialPortCollection：： Count 屬性</span><span class="sxs-lookup"><span data-stu-id="593d8-106">IVMSerialPortCollection::Count property</span></span>
+# <a name="ivmserialportcollectioncount-property"></a><span data-ttu-id="fab00-106">IVMSerialPortCollection：： Count 屬性</span><span class="sxs-lookup"><span data-stu-id="fab00-106">IVMSerialPortCollection::Count property</span></span>
 
-<span data-ttu-id="593d8-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="593d8-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="593d8-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="593d8-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
+<span data-ttu-id="fab00-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="fab00-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="fab00-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="fab00-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
 
-<span data-ttu-id="593d8-109">抓取此集合中的序列埠數目。</span><span class="sxs-lookup"><span data-stu-id="593d8-109">Retrieves the number of serial ports in this collection.</span></span>
+<span data-ttu-id="fab00-109">抓取此集合中的序列埠數目。</span><span class="sxs-lookup"><span data-stu-id="fab00-109">Retrieves the number of serial ports in this collection.</span></span>
 
-<span data-ttu-id="593d8-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="593d8-110">This property is read-only.</span></span>
+<span data-ttu-id="fab00-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="fab00-110">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="593d8-111">語法</span><span class="sxs-lookup"><span data-stu-id="593d8-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fab00-111">語法</span><span class="sxs-lookup"><span data-stu-id="fab00-111">Syntax</span></span>
 
 
 ```C++
@@ -43,41 +43,41 @@ HRESULT get_Count(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="593d8-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="593d8-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="fab00-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="fab00-112">Property value</span></span>
 
-<span data-ttu-id="593d8-113">序列埠的數目。</span><span class="sxs-lookup"><span data-stu-id="593d8-113">The number of serial ports.</span></span>
+<span data-ttu-id="fab00-113">序列埠的數目。</span><span class="sxs-lookup"><span data-stu-id="fab00-113">The number of serial ports.</span></span>
 
-## <a name="error-codes"></a><span data-ttu-id="593d8-114">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="593d8-114">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="fab00-114">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="fab00-114">Error codes</span></span>
 
 
 
-| <span data-ttu-id="593d8-115">名稱/值</span><span class="sxs-lookup"><span data-stu-id="593d8-115">Name/value</span></span>                                                                                                                                            | <span data-ttu-id="593d8-116">意義</span><span class="sxs-lookup"><span data-stu-id="593d8-116">Meaning</span></span>                                  |
+| <span data-ttu-id="fab00-115">名稱/值</span><span class="sxs-lookup"><span data-stu-id="fab00-115">Name/value</span></span>                                                                                                                                            | <span data-ttu-id="fab00-116">意義</span><span class="sxs-lookup"><span data-stu-id="fab00-116">Meaning</span></span>                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| <dl> <span data-ttu-id="593d8-117"><dt>S \_確定</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="593d8-117"><dt>S\_OK</dt> <dt>0</dt></span></span> </dl>               | <span data-ttu-id="593d8-118">作業成功。</span><span class="sxs-lookup"><span data-stu-id="593d8-118">The operation was successful.</span></span><br/> |
-| <dl> <span data-ttu-id="593d8-119"><dt>E \_指標</dt><dt>且顯示 0x80004003</dt></span><span class="sxs-lookup"><span data-stu-id="593d8-119"><dt>E\_POINTER</dt> <dt>0x80004003</dt></span></span> </dl> | <span data-ttu-id="593d8-120">參數為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="593d8-120">The parameter is **NULL**.</span></span><br/>    |
+| <dl> <span data-ttu-id="fab00-117"><dt>S \_確定</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="fab00-117"><dt>S\_OK</dt> <dt>0</dt></span></span> </dl>               | <span data-ttu-id="fab00-118">作業成功。</span><span class="sxs-lookup"><span data-stu-id="fab00-118">The operation was successful.</span></span><br/> |
+| <dl> <span data-ttu-id="fab00-119"><dt>E \_指標</dt><dt>且顯示 0x80004003</dt></span><span class="sxs-lookup"><span data-stu-id="fab00-119"><dt>E\_POINTER</dt> <dt>0x80004003</dt></span></span> </dl> | <span data-ttu-id="fab00-120">參數為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="fab00-120">The parameter is **NULL**.</span></span><br/>    |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="593d8-121">規格需求</span><span class="sxs-lookup"><span data-stu-id="593d8-121">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="fab00-121">規格需求</span><span class="sxs-lookup"><span data-stu-id="fab00-121">Requirements</span></span>
 
 
 
-| <span data-ttu-id="593d8-122">需求</span><span class="sxs-lookup"><span data-stu-id="593d8-122">Requirement</span></span> | <span data-ttu-id="593d8-123">值</span><span class="sxs-lookup"><span data-stu-id="593d8-123">Value</span></span> |
+| <span data-ttu-id="fab00-122">需求</span><span class="sxs-lookup"><span data-stu-id="fab00-122">Requirement</span></span> | <span data-ttu-id="fab00-123">值</span><span class="sxs-lookup"><span data-stu-id="fab00-123">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| <span data-ttu-id="593d8-124">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="593d8-124">Minimum supported client</span></span><br/> | <span data-ttu-id="593d8-125">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="593d8-125">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="593d8-126">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="593d8-126">Minimum supported server</span></span><br/> | <span data-ttu-id="593d8-127">都不支援</span><span class="sxs-lookup"><span data-stu-id="593d8-127">None supported</span></span><br/>                                                                     |
-| <span data-ttu-id="593d8-128">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="593d8-128">End of client support</span></span><br/>    | <span data-ttu-id="593d8-129">Windows 7</span><span class="sxs-lookup"><span data-stu-id="593d8-129">Windows 7</span></span><br/>                                                                          |
-| <span data-ttu-id="593d8-130">產品</span><span class="sxs-lookup"><span data-stu-id="593d8-130">Product</span></span><br/>                  | <span data-ttu-id="593d8-131">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="593d8-131">Windows Virtual PC</span></span><br/>                                                                 |
-| <span data-ttu-id="593d8-132">標頭</span><span class="sxs-lookup"><span data-stu-id="593d8-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="593d8-133"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="593d8-133"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
-| <span data-ttu-id="593d8-134">IID</span><span class="sxs-lookup"><span data-stu-id="593d8-134">IID</span></span><br/>                      | <span data-ttu-id="593d8-135">IID \_ IVMSerialPortCollection 定義為 dd3c6175-1f04-4341-9f85-104074880289</span><span class="sxs-lookup"><span data-stu-id="593d8-135">IID\_IVMSerialPortCollection is defined as dd3c6175-1f04-4341-9f85-104074880289</span></span><br/>    |
+| <span data-ttu-id="fab00-124">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="fab00-124">Minimum supported client</span></span><br/> | <span data-ttu-id="fab00-125">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="fab00-125">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="fab00-126">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="fab00-126">Minimum supported server</span></span><br/> | <span data-ttu-id="fab00-127">都不支援</span><span class="sxs-lookup"><span data-stu-id="fab00-127">None supported</span></span><br/>                                                                     |
+| <span data-ttu-id="fab00-128">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="fab00-128">End of client support</span></span><br/>    | <span data-ttu-id="fab00-129">Windows 7</span><span class="sxs-lookup"><span data-stu-id="fab00-129">Windows 7</span></span><br/>                                                                          |
+| <span data-ttu-id="fab00-130">產品</span><span class="sxs-lookup"><span data-stu-id="fab00-130">Product</span></span><br/>                  | <span data-ttu-id="fab00-131">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="fab00-131">Windows Virtual PC</span></span><br/>                                                                 |
+| <span data-ttu-id="fab00-132">標頭</span><span class="sxs-lookup"><span data-stu-id="fab00-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="fab00-133"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="fab00-133"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
+| <span data-ttu-id="fab00-134">IID</span><span class="sxs-lookup"><span data-stu-id="fab00-134">IID</span></span><br/>                      | <span data-ttu-id="fab00-135">IID \_ IVMSerialPortCollection 定義為 dd3c6175-1f04-4341-9f85-104074880289</span><span class="sxs-lookup"><span data-stu-id="fab00-135">IID\_IVMSerialPortCollection is defined as dd3c6175-1f04-4341-9f85-104074880289</span></span><br/>    |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="593d8-136">另請參閱</span><span class="sxs-lookup"><span data-stu-id="593d8-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fab00-136">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fab00-136">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="593d8-137">**IVMSerialPortCollection**</span><span class="sxs-lookup"><span data-stu-id="593d8-137">**IVMSerialPortCollection**</span></span>](ivmserialportcollection.md)
+[<span data-ttu-id="fab00-137">**IVMSerialPortCollection**</span><span class="sxs-lookup"><span data-stu-id="fab00-137">**IVMSerialPortCollection**</span></span>](ivmserialportcollection.md)
 </dt> </dl>
 
  

@@ -21,60 +21,60 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843660"
 ---
-# <a name="psm_isdialogmessage-message"></a><span data-ttu-id="c7bfe-105">PSM \_ ISDIALOGMESSAGE 訊息</span><span class="sxs-lookup"><span data-stu-id="c7bfe-105">PSM\_ISDIALOGMESSAGE message</span></span>
+# <a name="psm_isdialogmessage-message"></a><span data-ttu-id="8536b-105">PSM \_ ISDIALOGMESSAGE 訊息</span><span class="sxs-lookup"><span data-stu-id="8536b-105">PSM\_ISDIALOGMESSAGE message</span></span>
 
-<span data-ttu-id="c7bfe-106">將訊息傳遞至屬性工作表對話方塊，並指出對話方塊是否已處理訊息。</span><span class="sxs-lookup"><span data-stu-id="c7bfe-106">Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message.</span></span> <span data-ttu-id="c7bfe-107">您可以使用 [**PropSheet \_ IsDialogMessage**](/windows/desktop/api/Prsht/nf-prsht-propsheet_isdialogmessage) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="c7bfe-107">You can send this message explicitly or by using the [**PropSheet\_IsDialogMessage**](/windows/desktop/api/Prsht/nf-prsht-propsheet_isdialogmessage) macro.</span></span>
+<span data-ttu-id="8536b-106">將訊息傳遞至屬性工作表對話方塊，並指出對話方塊是否已處理訊息。</span><span class="sxs-lookup"><span data-stu-id="8536b-106">Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message.</span></span> <span data-ttu-id="8536b-107">您可以使用 [**PropSheet \_ IsDialogMessage**](/windows/desktop/api/Prsht/nf-prsht-propsheet_isdialogmessage) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="8536b-107">You can send this message explicitly or by using the [**PropSheet\_IsDialogMessage**](/windows/desktop/api/Prsht/nf-prsht-propsheet_isdialogmessage) macro.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="c7bfe-108">參數</span><span class="sxs-lookup"><span data-stu-id="c7bfe-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8536b-108">參數</span><span class="sxs-lookup"><span data-stu-id="8536b-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c7bfe-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="c7bfe-109">*wParam*</span></span> 
+<span data-ttu-id="8536b-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="8536b-109">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="c7bfe-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="c7bfe-110">Must be zero.</span></span>
+<span data-ttu-id="8536b-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="8536b-110">Must be zero.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="c7bfe-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="c7bfe-111">*lParam*</span></span> 
+<span data-ttu-id="8536b-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="8536b-111">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="c7bfe-112">訊息 [**結構的**](/windows/win32/api/winuser/ns-winuser-msg) 指標，其中包含要檢查的訊息。</span><span class="sxs-lookup"><span data-stu-id="c7bfe-112">Pointer to an [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) structure that contains the message to be checked.</span></span>
+<span data-ttu-id="8536b-112">訊息 [**結構的**](/windows/win32/api/winuser/ns-winuser-msg) 指標，其中包含要檢查的訊息。</span><span class="sxs-lookup"><span data-stu-id="8536b-112">Pointer to an [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) structure that contains the message to be checked.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="c7bfe-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="c7bfe-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8536b-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="8536b-113">Return value</span></span>
 
-<span data-ttu-id="c7bfe-114">如果已處理訊息，則傳回 **TRUE** ; 如果尚未處理訊息，則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="c7bfe-114">Returns **TRUE** if the message has been processed, or **FALSE** if the message has not been processed.</span></span>
+<span data-ttu-id="8536b-114">如果已處理訊息，則傳回 **TRUE** ; 如果尚未處理訊息，則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="8536b-114">Returns **TRUE** if the message has been processed, or **FALSE** if the message has not been processed.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c7bfe-115">備註</span><span class="sxs-lookup"><span data-stu-id="c7bfe-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8536b-115">備註</span><span class="sxs-lookup"><span data-stu-id="8536b-115">Remarks</span></span>
 
-<span data-ttu-id="c7bfe-116">您的訊息迴圈應該使用具有無訊息屬性工作表的 **PSM \_ ISDIALOGMESSAGE** 訊息，將訊息傳遞至 [屬性工作表] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="c7bfe-116">Your message loop should use the **PSM\_ISDIALOGMESSAGE** message with modeless property sheets to pass messages to the property sheet dialog box.</span></span> <span data-ttu-id="c7bfe-117">在支援 Unicode 的系統上，請使用 [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) 和 [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea) 函數的 Unicode 版本 (**GetMessageW** 和 **PeekMessageW**) 來取得訊息。</span><span class="sxs-lookup"><span data-stu-id="c7bfe-117">On systems that support Unicode, use the Unicode versions of the [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) and [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea) functions (**GetMessageW** and **PeekMessageW**) to retrieve messages.</span></span>
+<span data-ttu-id="8536b-116">您的訊息迴圈應該使用具有無訊息屬性工作表的 **PSM \_ ISDIALOGMESSAGE** 訊息，將訊息傳遞至 [屬性工作表] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="8536b-116">Your message loop should use the **PSM\_ISDIALOGMESSAGE** message with modeless property sheets to pass messages to the property sheet dialog box.</span></span> <span data-ttu-id="8536b-117">在支援 Unicode 的系統上，請使用 [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) 和 [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea) 函數的 Unicode 版本 (**GetMessageW** 和 **PeekMessageW**) 來取得訊息。</span><span class="sxs-lookup"><span data-stu-id="8536b-117">On systems that support Unicode, use the Unicode versions of the [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) and [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea) functions (**GetMessageW** and **PeekMessageW**) to retrieve messages.</span></span>
 
-<span data-ttu-id="c7bfe-118">如果傳回值指出已處理訊息，則不能將它傳遞給 [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) 或 [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) 函數。</span><span class="sxs-lookup"><span data-stu-id="c7bfe-118">If the return value indicates that the message was processed, it must not be passed to the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) or [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function.</span></span>
+<span data-ttu-id="8536b-118">如果傳回值指出已處理訊息，則不能將它傳遞給 [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) 或 [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) 函數。</span><span class="sxs-lookup"><span data-stu-id="8536b-118">If the return value indicates that the message was processed, it must not be passed to the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) or [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="c7bfe-119">使用 Aero wizard 樣式 ([**PSH \_ AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)) 時，不支援此訊息。</span><span class="sxs-lookup"><span data-stu-id="c7bfe-119">This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)).</span></span>
+> <span data-ttu-id="8536b-119">使用 Aero wizard 樣式 ([**PSH \_ AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)) 時，不支援此訊息。</span><span class="sxs-lookup"><span data-stu-id="8536b-119">This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2)).</span></span>
 
  
 
-## <a name="requirements"></a><span data-ttu-id="c7bfe-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="c7bfe-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8536b-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="8536b-120">Requirements</span></span>
 
 
 
-| <span data-ttu-id="c7bfe-121">需求</span><span class="sxs-lookup"><span data-stu-id="c7bfe-121">Requirement</span></span> | <span data-ttu-id="c7bfe-122">值</span><span class="sxs-lookup"><span data-stu-id="c7bfe-122">Value</span></span> |
+| <span data-ttu-id="8536b-121">需求</span><span class="sxs-lookup"><span data-stu-id="8536b-121">Requirement</span></span> | <span data-ttu-id="8536b-122">值</span><span class="sxs-lookup"><span data-stu-id="8536b-122">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="c7bfe-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c7bfe-123">Minimum supported client</span></span><br/> | <span data-ttu-id="c7bfe-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c7bfe-124">Windows Vista \[desktop apps only\]</span></span><br/>                                     |
-| <span data-ttu-id="c7bfe-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c7bfe-125">Minimum supported server</span></span><br/> | <span data-ttu-id="c7bfe-126">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c7bfe-126">Windows Server 2003 \[desktop apps only\]</span></span><br/>                               |
-| <span data-ttu-id="c7bfe-127">標頭</span><span class="sxs-lookup"><span data-stu-id="c7bfe-127">Header</span></span><br/>                   | <dl> <span data-ttu-id="c7bfe-128"><dt>Prsht.idl。h</dt></span><span class="sxs-lookup"><span data-stu-id="c7bfe-128"><dt>Prsht.h</dt></span></span> </dl> |
+| <span data-ttu-id="8536b-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8536b-123">Minimum supported client</span></span><br/> | <span data-ttu-id="8536b-124">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8536b-124">Windows Vista \[desktop apps only\]</span></span><br/>                                     |
+| <span data-ttu-id="8536b-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8536b-125">Minimum supported server</span></span><br/> | <span data-ttu-id="8536b-126">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8536b-126">Windows Server 2003 \[desktop apps only\]</span></span><br/>                               |
+| <span data-ttu-id="8536b-127">標頭</span><span class="sxs-lookup"><span data-stu-id="8536b-127">Header</span></span><br/>                   | <dl> <span data-ttu-id="8536b-128"><dt>Prsht.idl。h</dt></span><span class="sxs-lookup"><span data-stu-id="8536b-128"><dt>Prsht.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="c7bfe-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c7bfe-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8536b-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8536b-129">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c7bfe-130">**PropertySheet**</span><span class="sxs-lookup"><span data-stu-id="c7bfe-130">**PropertySheet**</span></span>](/windows/desktop/api/Prsht/nf-prsht-propertysheeta)
+[<span data-ttu-id="8536b-130">**PropertySheet**</span><span class="sxs-lookup"><span data-stu-id="8536b-130">**PropertySheet**</span></span>](/windows/desktop/api/Prsht/nf-prsht-propertysheeta)
 </dt> </dl>
 
  

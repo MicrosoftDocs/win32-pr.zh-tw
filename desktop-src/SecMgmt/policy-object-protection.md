@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690123"
 ---
-# <a name="policy-object-protection"></a><span data-ttu-id="55eb1-103">原則物件保護</span><span class="sxs-lookup"><span data-stu-id="55eb1-103">Policy Object Protection</span></span>
+# <a name="policy-object-protection"></a><span data-ttu-id="a759b-103">原則物件保護</span><span class="sxs-lookup"><span data-stu-id="a759b-103">Policy Object Protection</span></span>
 
-<span data-ttu-id="55eb1-104">[**原則**](policy-object.md)物件預設會使用下列設定來保護：</span><span class="sxs-lookup"><span data-stu-id="55eb1-104">The [**Policy**](policy-object.md) object is protected by default with the following settings:</span></span>
+<span data-ttu-id="a759b-104">[**原則**](policy-object.md)物件預設會使用下列設定來保護：</span><span class="sxs-lookup"><span data-stu-id="a759b-104">The [**Policy**](policy-object.md) object is protected by default with the following settings:</span></span>
 
--   <span data-ttu-id="55eb1-105">本機群組世界具有一般 \_ 執行存取權。</span><span class="sxs-lookup"><span data-stu-id="55eb1-105">The local group WORLD has GENERIC\_EXECUTE access.</span></span>
--   <span data-ttu-id="55eb1-106">已知的識別碼系統會授與原則 \_ 所有 \_ 存取權。</span><span class="sxs-lookup"><span data-stu-id="55eb1-106">The well-known ID System is granted POLICY\_ALL\_ACCESS.</span></span>
--   <span data-ttu-id="55eb1-107">本機群組本機系統 \_ 管理員具有一般 \_ 讀取、一般 \_ 寫入和一般 \_ 執行存取權。</span><span class="sxs-lookup"><span data-stu-id="55eb1-107">The local group LOCAL\_ADMIN has GENERIC\_READ, GENERIC\_WRITE, and GENERIC\_EXECUTE access.</span></span>
--   <span data-ttu-id="55eb1-108">群組本機 \_ 系統管理員會被指派為此物件的擁有者和主要群組。</span><span class="sxs-lookup"><span data-stu-id="55eb1-108">The group LOCAL\_ADMIN is assigned as owner and primary group of this object.</span></span>
+-   <span data-ttu-id="a759b-105">本機群組世界具有一般 \_ 執行存取權。</span><span class="sxs-lookup"><span data-stu-id="a759b-105">The local group WORLD has GENERIC\_EXECUTE access.</span></span>
+-   <span data-ttu-id="a759b-106">已知的識別碼系統會授與原則 \_ 所有 \_ 存取權。</span><span class="sxs-lookup"><span data-stu-id="a759b-106">The well-known ID System is granted POLICY\_ALL\_ACCESS.</span></span>
+-   <span data-ttu-id="a759b-107">本機群組本機系統 \_ 管理員具有一般 \_ 讀取、一般 \_ 寫入和一般 \_ 執行存取權。</span><span class="sxs-lookup"><span data-stu-id="a759b-107">The local group LOCAL\_ADMIN has GENERIC\_READ, GENERIC\_WRITE, and GENERIC\_EXECUTE access.</span></span>
+-   <span data-ttu-id="a759b-108">群組本機 \_ 系統管理員會被指派為此物件的擁有者和主要群組。</span><span class="sxs-lookup"><span data-stu-id="a759b-108">The group LOCAL\_ADMIN is assigned as owner and primary group of this object.</span></span>
 
-<span data-ttu-id="55eb1-109">無法建立或終結 [**原則**](policy-object.md) 物件。</span><span class="sxs-lookup"><span data-stu-id="55eb1-109">The [**Policy**](policy-object.md) object cannot be created or destroyed.</span></span>
+<span data-ttu-id="a759b-109">無法建立或終結 [**原則**](policy-object.md) 物件。</span><span class="sxs-lookup"><span data-stu-id="a759b-109">The [**Policy**](policy-object.md) object cannot be created or destroyed.</span></span>
 
  
 

@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843268"
 ---
-# <a name="systemmonitorshowscalelabels-property"></a><span data-ttu-id="572b0-106">SystemMonitor. ShowScaleLabels 屬性</span><span class="sxs-lookup"><span data-stu-id="572b0-106">SystemMonitor.ShowScaleLabels property</span></span>
+# <a name="systemmonitorshowscalelabels-property"></a><span data-ttu-id="f9162-106">SystemMonitor. ShowScaleLabels 屬性</span><span class="sxs-lookup"><span data-stu-id="f9162-106">SystemMonitor.ShowScaleLabels property</span></span>
 
-<span data-ttu-id="572b0-107">抓取或設定值，這個值會決定尺規標籤是否會顯示在圖形的垂直軸上。</span><span class="sxs-lookup"><span data-stu-id="572b0-107">Retrieves or sets a value that determines whether the scale labels are displayed on the vertical axis of the graph.</span></span>
+<span data-ttu-id="f9162-107">抓取或設定值，這個值會決定尺規標籤是否會顯示在圖形的垂直軸上。</span><span class="sxs-lookup"><span data-stu-id="f9162-107">Retrieves or sets a value that determines whether the scale labels are displayed on the vertical axis of the graph.</span></span>
 
-<span data-ttu-id="572b0-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="572b0-108">This property is read-only.</span></span>
+<span data-ttu-id="f9162-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="f9162-108">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="572b0-109">語法</span><span class="sxs-lookup"><span data-stu-id="572b0-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f9162-109">語法</span><span class="sxs-lookup"><span data-stu-id="f9162-109">Syntax</span></span>
 
 
 ```VB
@@ -38,33 +38,33 @@ Property ShowScaleLabels As Boolean
 
 
 
-## <a name="property-value"></a><span data-ttu-id="572b0-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="572b0-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="f9162-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="f9162-110">Property value</span></span>
 
-<span data-ttu-id="572b0-111">True 表示尺規標籤會顯示在圖形的垂直軸上;否則為 false。</span><span class="sxs-lookup"><span data-stu-id="572b0-111">True indicates that the scale labels are displayed on the vertical axis of the graph; otherwise, false.</span></span> <span data-ttu-id="572b0-112">這個屬性的預設值是 True。</span><span class="sxs-lookup"><span data-stu-id="572b0-112">The default value for this property is true.</span></span>
+<span data-ttu-id="f9162-111">True 表示尺規標籤會顯示在圖形的垂直軸上;否則為 false。</span><span class="sxs-lookup"><span data-stu-id="f9162-111">True indicates that the scale labels are displayed on the vertical axis of the graph; otherwise, false.</span></span> <span data-ttu-id="f9162-112">這個屬性的預設值是 True。</span><span class="sxs-lookup"><span data-stu-id="f9162-112">The default value for this property is true.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="572b0-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="572b0-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f9162-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="f9162-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="572b0-114">需求</span><span class="sxs-lookup"><span data-stu-id="572b0-114">Requirement</span></span> | <span data-ttu-id="572b0-115">值</span><span class="sxs-lookup"><span data-stu-id="572b0-115">Value</span></span> |
+| <span data-ttu-id="f9162-114">需求</span><span class="sxs-lookup"><span data-stu-id="f9162-114">Requirement</span></span> | <span data-ttu-id="f9162-115">值</span><span class="sxs-lookup"><span data-stu-id="f9162-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="572b0-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="572b0-116">Minimum supported client</span></span><br/> | <span data-ttu-id="572b0-117">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="572b0-117">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
-| <span data-ttu-id="572b0-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="572b0-118">Minimum supported server</span></span><br/> | <span data-ttu-id="572b0-119">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="572b0-119">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="572b0-120">DLL</span><span class="sxs-lookup"><span data-stu-id="572b0-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="572b0-121"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="572b0-121"><dt>Sysmon.ocx</dt></span></span> </dl> |
+| <span data-ttu-id="f9162-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f9162-116">Minimum supported client</span></span><br/> | <span data-ttu-id="f9162-117">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f9162-117">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                            |
+| <span data-ttu-id="f9162-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f9162-118">Minimum supported server</span></span><br/> | <span data-ttu-id="f9162-119">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f9162-119">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="f9162-120">DLL</span><span class="sxs-lookup"><span data-stu-id="f9162-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f9162-121"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="f9162-121"><dt>Sysmon.ocx</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="572b0-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="572b0-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f9162-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f9162-122">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="572b0-123">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="572b0-123">**SystemMonitor**</span></span>](systemmonitor.md)
+[<span data-ttu-id="f9162-123">**SystemMonitor**</span><span class="sxs-lookup"><span data-stu-id="f9162-123">**SystemMonitor**</span></span>](systemmonitor.md)
 </dt> <dt>
 
-[<span data-ttu-id="572b0-124">**SystemMonitor.MaximumScale**</span><span class="sxs-lookup"><span data-stu-id="572b0-124">**SystemMonitor.MaximumScale**</span></span>](systemmonitor-maximumscale.md)
+[<span data-ttu-id="f9162-124">**SystemMonitor.MaximumScale**</span><span class="sxs-lookup"><span data-stu-id="f9162-124">**SystemMonitor.MaximumScale**</span></span>](systemmonitor-maximumscale.md)
 </dt> <dt>
 
-<span data-ttu-id="572b0-125">**SystemMonitor.MinimumScale**</span><span class="sxs-lookup"><span data-stu-id="572b0-125">**SystemMonitor.MinimumScale**</span></span>
+<span data-ttu-id="f9162-125">**SystemMonitor.MinimumScale**</span><span class="sxs-lookup"><span data-stu-id="f9162-125">**SystemMonitor.MinimumScale**</span></span>
 </dt> </dl>
 
  

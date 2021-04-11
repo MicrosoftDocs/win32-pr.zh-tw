@@ -24,15 +24,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843420"
 ---
-# <a name="mdm_applocker_applicationlaunchrestrictions01_exe03-class"></a><span data-ttu-id="61aa8-105">MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03 類別</span><span class="sxs-lookup"><span data-stu-id="61aa8-105">MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03 class</span></span>
+# <a name="mdm_applocker_applicationlaunchrestrictions01_exe03-class"></a><span data-ttu-id="7d61d-105">MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03 類別</span><span class="sxs-lookup"><span data-stu-id="7d61d-105">MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03 class</span></span>
 
-<span data-ttu-id="61aa8-106">\[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。</span><span class="sxs-lookup"><span data-stu-id="61aa8-106">\[Some information relates to pre-released product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="61aa8-107">Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]</span><span class="sxs-lookup"><span data-stu-id="61aa8-107">Microsoft makes no warranties, express or implied, with respect to the information provided here.\]</span></span>
+<span data-ttu-id="7d61d-106">\[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。</span><span class="sxs-lookup"><span data-stu-id="7d61d-106">\[Some information relates to pre-released product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="7d61d-107">Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]</span><span class="sxs-lookup"><span data-stu-id="7d61d-107">Microsoft makes no warranties, express or implied, with respect to the information provided here.\]</span></span>
 
-<span data-ttu-id="61aa8-108">**MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03** 類別可讓您指定允許哪些 EXE 應用程式啟動。</span><span class="sxs-lookup"><span data-stu-id="61aa8-108">The **MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03** class allows you to specify which EXE applications are allowed to launch.</span></span>
+<span data-ttu-id="7d61d-108">**MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03** 類別可讓您指定允許哪些 EXE 應用程式啟動。</span><span class="sxs-lookup"><span data-stu-id="7d61d-108">The **MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03** class allows you to specify which EXE applications are allowed to launch.</span></span>
 
-<span data-ttu-id="61aa8-109">下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="61aa8-109">The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.</span></span>
+<span data-ttu-id="7d61d-109">下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="7d61d-109">The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="61aa8-110">語法</span><span class="sxs-lookup"><span data-stu-id="61aa8-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7d61d-110">語法</span><span class="sxs-lookup"><span data-stu-id="7d61d-110">Syntax</span></span>
 
 ``` syntax
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv")]
@@ -46,102 +46,102 @@ class MDM_AppLocker_ApplicationLaunchRestrictions01_EXE03
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="61aa8-111">成員</span><span class="sxs-lookup"><span data-stu-id="61aa8-111">Members</span></span>
+## <a name="members"></a><span data-ttu-id="7d61d-111">成員</span><span class="sxs-lookup"><span data-stu-id="7d61d-111">Members</span></span>
 
-<span data-ttu-id="61aa8-112">**MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="61aa8-112">The **MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03** class has these types of members:</span></span>
+<span data-ttu-id="7d61d-112">**MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="7d61d-112">The **MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03** class has these types of members:</span></span>
 
--   [<span data-ttu-id="61aa8-113">屬性</span><span class="sxs-lookup"><span data-stu-id="61aa8-113">Properties</span></span>](#properties)
+-   [<span data-ttu-id="7d61d-113">屬性</span><span class="sxs-lookup"><span data-stu-id="7d61d-113">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="61aa8-114">屬性</span><span class="sxs-lookup"><span data-stu-id="61aa8-114">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="7d61d-114">屬性</span><span class="sxs-lookup"><span data-stu-id="7d61d-114">Properties</span></span>
 
-<span data-ttu-id="61aa8-115">**MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="61aa8-115">The **MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03** class has these properties.</span></span>
+<span data-ttu-id="7d61d-115">**MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="7d61d-115">The **MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03** class has these properties.</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="61aa8-116">**EnforcementMode**</span><span class="sxs-lookup"><span data-stu-id="61aa8-116">**EnforcementMode**</span></span>](/windows/client-management/mdm/applocker-csp)
+[<span data-ttu-id="7d61d-116">**EnforcementMode**</span><span class="sxs-lookup"><span data-stu-id="7d61d-116">**EnforcementMode**</span></span>](/windows/client-management/mdm/applocker-csp)
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="61aa8-117">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="61aa8-117">Data type: **string**</span></span>
+<span data-ttu-id="7d61d-117">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="7d61d-117">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="61aa8-118">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="61aa8-118">Access type: Read/write</span></span>
+<span data-ttu-id="7d61d-118">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="7d61d-118">Access type: Read/write</span></span>
 </dt> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="61aa8-119">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="61aa8-119">**InstanceID**</span></span>
+<span data-ttu-id="7d61d-119">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="7d61d-119">**InstanceID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="61aa8-120">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="61aa8-120">Data type: **string**</span></span>
+<span data-ttu-id="7d61d-120">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="7d61d-120">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="61aa8-121">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="61aa8-121">Access type: Read-only</span></span>
+<span data-ttu-id="7d61d-121">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="7d61d-121">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="61aa8-122">限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)</span><span class="sxs-lookup"><span data-stu-id="61aa8-122">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)</span></span>
+<span data-ttu-id="7d61d-122">限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)</span><span class="sxs-lookup"><span data-stu-id="7d61d-122">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="61aa8-123">定義啟動可執行應用程式的限制。</span><span class="sxs-lookup"><span data-stu-id="61aa8-123">Defines restrictions for launching executable applications.</span></span>
+<span data-ttu-id="7d61d-123">定義啟動可執行應用程式的限制。</span><span class="sxs-lookup"><span data-stu-id="7d61d-123">Defines restrictions for launching executable applications.</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="61aa8-124">**NonInteractiveProcessEnforcement**</span><span class="sxs-lookup"><span data-stu-id="61aa8-124">**NonInteractiveProcessEnforcement**</span></span>](/windows/client-management/mdm/applocker-csp)
+[<span data-ttu-id="7d61d-124">**NonInteractiveProcessEnforcement**</span><span class="sxs-lookup"><span data-stu-id="7d61d-124">**NonInteractiveProcessEnforcement**</span></span>](/windows/client-management/mdm/applocker-csp)
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="61aa8-125">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="61aa8-125">Data type: **string**</span></span>
+<span data-ttu-id="7d61d-125">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="7d61d-125">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="61aa8-126">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="61aa8-126">Access type: Read/write</span></span>
+<span data-ttu-id="7d61d-126">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="7d61d-126">Access type: Read/write</span></span>
 </dt> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="61aa8-127">**ParentID**</span><span class="sxs-lookup"><span data-stu-id="61aa8-127">**ParentID**</span></span>
+<span data-ttu-id="7d61d-127">**ParentID**</span><span class="sxs-lookup"><span data-stu-id="7d61d-127">**ParentID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="61aa8-128">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="61aa8-128">Data type: **string**</span></span>
+<span data-ttu-id="7d61d-128">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="7d61d-128">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="61aa8-129">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="61aa8-129">Access type: Read-only</span></span>
+<span data-ttu-id="7d61d-129">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="7d61d-129">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="61aa8-130">限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)</span><span class="sxs-lookup"><span data-stu-id="61aa8-130">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)</span></span>
+<span data-ttu-id="7d61d-130">限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)</span><span class="sxs-lookup"><span data-stu-id="7d61d-130">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="61aa8-131">描述父節點的完整路徑。</span><span class="sxs-lookup"><span data-stu-id="61aa8-131">Describes the full path to the parent node.</span></span> <span data-ttu-id="61aa8-132">針對此類別，字串為 "./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*群組*"</span><span class="sxs-lookup"><span data-stu-id="61aa8-132">For this class, the string is "./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*Grouping*"</span></span>
+<span data-ttu-id="7d61d-131">描述父節點的完整路徑。</span><span class="sxs-lookup"><span data-stu-id="7d61d-131">Describes the full path to the parent node.</span></span> <span data-ttu-id="7d61d-132">針對此類別，字串為 "./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*群組*"</span><span class="sxs-lookup"><span data-stu-id="7d61d-132">For this class, the string is "./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/*Grouping*"</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="61aa8-133">**原則**</span><span class="sxs-lookup"><span data-stu-id="61aa8-133">**Policy**</span></span>](/windows/client-management/mdm/applocker-csp)
+[<span data-ttu-id="7d61d-133">**原則**</span><span class="sxs-lookup"><span data-stu-id="7d61d-133">**Policy**</span></span>](/windows/client-management/mdm/applocker-csp)
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="61aa8-134">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="61aa8-134">Data type: **string**</span></span>
+<span data-ttu-id="7d61d-134">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="7d61d-134">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="61aa8-135">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="61aa8-135">Access type: Read/write</span></span>
+<span data-ttu-id="7d61d-135">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="7d61d-135">Access type: Read/write</span></span>
 </dt> </dl>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="61aa8-136">規格需求</span><span class="sxs-lookup"><span data-stu-id="61aa8-136">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="7d61d-136">規格需求</span><span class="sxs-lookup"><span data-stu-id="7d61d-136">Requirements</span></span>
 
 
 
-| <span data-ttu-id="61aa8-137">需求</span><span class="sxs-lookup"><span data-stu-id="61aa8-137">Requirement</span></span> | <span data-ttu-id="61aa8-138">值</span><span class="sxs-lookup"><span data-stu-id="61aa8-138">Value</span></span> |
+| <span data-ttu-id="7d61d-137">需求</span><span class="sxs-lookup"><span data-stu-id="7d61d-137">Requirement</span></span> | <span data-ttu-id="7d61d-138">值</span><span class="sxs-lookup"><span data-stu-id="7d61d-138">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="61aa8-139">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="61aa8-139">Minimum supported client</span></span><br/> | <span data-ttu-id="61aa8-140">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="61aa8-140">Windows 10 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="61aa8-141">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="61aa8-141">Minimum supported server</span></span><br/> | <span data-ttu-id="61aa8-142">都不支援</span><span class="sxs-lookup"><span data-stu-id="61aa8-142">None supported</span></span><br/>                                                                      |
-| <span data-ttu-id="61aa8-143">命名空間</span><span class="sxs-lookup"><span data-stu-id="61aa8-143">Namespace</span></span><br/>                | <span data-ttu-id="61aa8-144">根 \\ CIMv2 \\ MDM \\ DMMap</span><span class="sxs-lookup"><span data-stu-id="61aa8-144">Root\\CIMv2\\MDM\\DMMap</span></span><br/>                                                             |
-| <span data-ttu-id="61aa8-145">MOF</span><span class="sxs-lookup"><span data-stu-id="61aa8-145">MOF</span></span><br/>                      | <dl> <span data-ttu-id="61aa8-146"><dt>DMWmiBridgeProv mof</dt></span><span class="sxs-lookup"><span data-stu-id="61aa8-146"><dt>DMWmiBridgeProv.mof</dt></span></span> </dl> |
-| <span data-ttu-id="61aa8-147">DLL</span><span class="sxs-lookup"><span data-stu-id="61aa8-147">DLL</span></span><br/>                      | <dl> <span data-ttu-id="61aa8-148"><dt>DMWmiBridgeProv.dll</dt></span><span class="sxs-lookup"><span data-stu-id="61aa8-148"><dt>DMWmiBridgeProv.dll</dt></span></span> </dl> |
+| <span data-ttu-id="7d61d-139">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7d61d-139">Minimum supported client</span></span><br/> | <span data-ttu-id="7d61d-140">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7d61d-140">Windows 10 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="7d61d-141">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7d61d-141">Minimum supported server</span></span><br/> | <span data-ttu-id="7d61d-142">都不支援</span><span class="sxs-lookup"><span data-stu-id="7d61d-142">None supported</span></span><br/>                                                                      |
+| <span data-ttu-id="7d61d-143">命名空間</span><span class="sxs-lookup"><span data-stu-id="7d61d-143">Namespace</span></span><br/>                | <span data-ttu-id="7d61d-144">根 \\ CIMv2 \\ MDM \\ DMMap</span><span class="sxs-lookup"><span data-stu-id="7d61d-144">Root\\CIMv2\\MDM\\DMMap</span></span><br/>                                                             |
+| <span data-ttu-id="7d61d-145">MOF</span><span class="sxs-lookup"><span data-stu-id="7d61d-145">MOF</span></span><br/>                      | <dl> <span data-ttu-id="7d61d-146"><dt>DMWmiBridgeProv mof</dt></span><span class="sxs-lookup"><span data-stu-id="7d61d-146"><dt>DMWmiBridgeProv.mof</dt></span></span> </dl> |
+| <span data-ttu-id="7d61d-147">DLL</span><span class="sxs-lookup"><span data-stu-id="7d61d-147">DLL</span></span><br/>                      | <dl> <span data-ttu-id="7d61d-148"><dt>DMWmiBridgeProv.dll</dt></span><span class="sxs-lookup"><span data-stu-id="7d61d-148"><dt>DMWmiBridgeProv.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="61aa8-149">另請參閱</span><span class="sxs-lookup"><span data-stu-id="61aa8-149">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7d61d-149">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7d61d-149">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="61aa8-150">使用 PowerShell 指令碼搭配 WMI 橋接器提供者</span><span class="sxs-lookup"><span data-stu-id="61aa8-150">Using PowerShell scripting with the WMI Bridge Provider</span></span>](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[<span data-ttu-id="7d61d-150">使用 PowerShell 指令碼搭配 WMI 橋接器提供者</span><span class="sxs-lookup"><span data-stu-id="7d61d-150">Using PowerShell scripting with the WMI Bridge Provider</span></span>](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  

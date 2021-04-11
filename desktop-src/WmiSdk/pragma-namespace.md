@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691520"
 ---
-# <a name="pragma-namespace"></a><span data-ttu-id="fc10f-104">pragma 命名空間</span><span class="sxs-lookup"><span data-stu-id="fc10f-104">pragma namespace</span></span>
+# <a name="pragma-namespace"></a><span data-ttu-id="2f580-104">pragma 命名空間</span><span class="sxs-lookup"><span data-stu-id="2f580-104">pragma namespace</span></span>
 
-<span data-ttu-id="fc10f-105">**Pragma 命名空間** 預處理器命令要求編譯器將 MOF 檔案載入指定為 *namespacepath* 的命名空間。</span><span class="sxs-lookup"><span data-stu-id="fc10f-105">The **pragma namespace** preprocessor command requests that the compiler load the MOF file into the namespace specified as *namespacepath*.</span></span> <span data-ttu-id="fc10f-106">如果同時使用 MOF 編譯器 **-n** namespace 參數和 **\# pragma namespace** *namespacepath* 命令，則命令優先于參數。</span><span class="sxs-lookup"><span data-stu-id="fc10f-106">If both the MOF compiler **-n** namespace switch and the **\#pragma namespace** *namespacepath* command are used, the command takes priority over the switch.</span></span>
+<span data-ttu-id="2f580-105">**Pragma 命名空間** 預處理器命令要求編譯器將 MOF 檔案載入指定為 *namespacepath* 的命名空間。</span><span class="sxs-lookup"><span data-stu-id="2f580-105">The **pragma namespace** preprocessor command requests that the compiler load the MOF file into the namespace specified as *namespacepath*.</span></span> <span data-ttu-id="2f580-106">如果同時使用 MOF 編譯器 **-n** namespace 參數和 **\# pragma namespace** *namespacepath* 命令，則命令優先于參數。</span><span class="sxs-lookup"><span data-stu-id="2f580-106">If both the MOF compiler **-n** namespace switch and the **\#pragma namespace** *namespacepath* command are used, the command takes priority over the switch.</span></span>
 
-<span data-ttu-id="fc10f-107">以下說明語法：</span><span class="sxs-lookup"><span data-stu-id="fc10f-107">The following describes the syntax:</span></span>
+<span data-ttu-id="2f580-107">以下說明語法：</span><span class="sxs-lookup"><span data-stu-id="2f580-107">The following describes the syntax:</span></span>
 
 
 ```mof
@@ -33,17 +33,17 @@ ms.locfileid: "103691520"
 
 
 
-<span data-ttu-id="fc10f-108">*\[ 命名 \] 空間* 是指定的命名空間。</span><span class="sxs-lookup"><span data-stu-id="fc10f-108">*\[Namespace\]* is the specified namespace.</span></span>
+<span data-ttu-id="2f580-108">*\[ 命名 \] 空間* 是指定的命名空間。</span><span class="sxs-lookup"><span data-stu-id="2f580-108">*\[Namespace\]* is the specified namespace.</span></span>
 
-<span data-ttu-id="fc10f-109">如果您未指定此命令或對等的命令列參數，MOF 編譯器預設會使用根 \\ 預設命名空間。</span><span class="sxs-lookup"><span data-stu-id="fc10f-109">If you do not specify this command or the equivalent command-line switch, the MOF compiler uses the root\\default namespace by default.</span></span>
+<span data-ttu-id="2f580-109">如果您未指定此命令或對等的命令列參數，MOF 編譯器預設會使用根 \\ 預設命名空間。</span><span class="sxs-lookup"><span data-stu-id="2f580-109">If you do not specify this command or the equivalent command-line switch, the MOF compiler uses the root\\default namespace by default.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fc10f-110">備註</span><span class="sxs-lookup"><span data-stu-id="fc10f-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2f580-110">備註</span><span class="sxs-lookup"><span data-stu-id="2f580-110">Remarks</span></span>
 
-<span data-ttu-id="fc10f-111">您可以要求用戶端腳本和應用程式使用加密的連接來進行驗證，方法是將 **RequiresEncryption** 限定詞新增至建立命名空間的 mof 檔案。</span><span class="sxs-lookup"><span data-stu-id="fc10f-111">You can require that client scripts and applications use an encrypted connection for authentication by adding the **RequiresEncryption** qualifier to the .mof file that creates the namespace.</span></span> <span data-ttu-id="fc10f-112">您也可以藉由新增這個屬性來修改現有的命名空間，然後再次編譯 MOF 檔案。</span><span class="sxs-lookup"><span data-stu-id="fc10f-112">You can also modify an existing namespace by adding this attribute and compile the MOF file again.</span></span> <span data-ttu-id="fc10f-113">如需如何使用 **RequiresEncryption** 的詳細資訊，請參閱 [要求命名空間的加密連接](requiring-an-encrypted-connection-to-a-namespace.md)。</span><span class="sxs-lookup"><span data-stu-id="fc10f-113">For more information about how to use **RequiresEncryption**, see [Requiring an Encrypted Connection to a Namespace](requiring-an-encrypted-connection-to-a-namespace.md).</span></span>
+<span data-ttu-id="2f580-111">您可以要求用戶端腳本和應用程式使用加密的連接來進行驗證，方法是將 **RequiresEncryption** 限定詞新增至建立命名空間的 mof 檔案。</span><span class="sxs-lookup"><span data-stu-id="2f580-111">You can require that client scripts and applications use an encrypted connection for authentication by adding the **RequiresEncryption** qualifier to the .mof file that creates the namespace.</span></span> <span data-ttu-id="2f580-112">您也可以藉由新增這個屬性來修改現有的命名空間，然後再次編譯 MOF 檔案。</span><span class="sxs-lookup"><span data-stu-id="2f580-112">You can also modify an existing namespace by adding this attribute and compile the MOF file again.</span></span> <span data-ttu-id="2f580-113">如需如何使用 **RequiresEncryption** 的詳細資訊，請參閱 [要求命名空間的加密連接](requiring-an-encrypted-connection-to-a-namespace.md)。</span><span class="sxs-lookup"><span data-stu-id="2f580-113">For more information about how to use **RequiresEncryption**, see [Requiring an Encrypted Connection to a Namespace](requiring-an-encrypted-connection-to-a-namespace.md).</span></span>
 
-## <a name="examples"></a><span data-ttu-id="fc10f-114">範例</span><span class="sxs-lookup"><span data-stu-id="fc10f-114">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="2f580-114">範例</span><span class="sxs-lookup"><span data-stu-id="2f580-114">Examples</span></span>
 
-<span data-ttu-id="fc10f-115">下列範例示範如何將類別或實例放在「根 \\ 測試」命名空間中。</span><span class="sxs-lookup"><span data-stu-id="fc10f-115">The following example shows how place classes or instances in the "Root\\Test" namespace.</span></span>
+<span data-ttu-id="2f580-115">下列範例示範如何將類別或實例放在「根 \\ 測試」命名空間中。</span><span class="sxs-lookup"><span data-stu-id="2f580-115">The following example shows how place classes or instances in the "Root\\Test" namespace.</span></span>
 
 
 ```mof
@@ -52,28 +52,28 @@ ms.locfileid: "103691520"
 
 
 
-## <a name="requirements"></a><span data-ttu-id="fc10f-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="fc10f-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2f580-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="2f580-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="fc10f-117">需求</span><span class="sxs-lookup"><span data-stu-id="fc10f-117">Requirement</span></span> | <span data-ttu-id="fc10f-118">值</span><span class="sxs-lookup"><span data-stu-id="fc10f-118">Value</span></span> |
+| <span data-ttu-id="2f580-117">需求</span><span class="sxs-lookup"><span data-stu-id="2f580-117">Requirement</span></span> | <span data-ttu-id="2f580-118">值</span><span class="sxs-lookup"><span data-stu-id="2f580-118">Value</span></span> |
 |-------------------------------------|--------------------------------|
-| <span data-ttu-id="fc10f-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="fc10f-119">Minimum supported client</span></span><br/> | <span data-ttu-id="fc10f-120">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="fc10f-120">Windows Vista</span></span><br/>       |
-| <span data-ttu-id="fc10f-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="fc10f-121">Minimum supported server</span></span><br/> | <span data-ttu-id="fc10f-122">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="fc10f-122">Windows Server 2008</span></span><br/> |
+| <span data-ttu-id="2f580-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2f580-119">Minimum supported client</span></span><br/> | <span data-ttu-id="2f580-120">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="2f580-120">Windows Vista</span></span><br/>       |
+| <span data-ttu-id="2f580-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2f580-121">Minimum supported server</span></span><br/> | <span data-ttu-id="2f580-122">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="2f580-122">Windows Server 2008</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="fc10f-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fc10f-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f580-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2f580-123">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="fc10f-124">設定命名空間安全描述項</span><span class="sxs-lookup"><span data-stu-id="fc10f-124">Setting Namepace Security Descriptors</span></span>](setting-namespace-security-descriptors.md)
+[<span data-ttu-id="2f580-124">設定命名空間安全描述項</span><span class="sxs-lookup"><span data-stu-id="2f580-124">Setting Namepace Security Descriptors</span></span>](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
-[<span data-ttu-id="fc10f-125">**標準 WMI 限定詞**</span><span class="sxs-lookup"><span data-stu-id="fc10f-125">**Standard WMI Qualifiers**</span></span>](standard-wmi-qualifiers.md)
+[<span data-ttu-id="2f580-125">**標準 WMI 限定詞**</span><span class="sxs-lookup"><span data-stu-id="2f580-125">**Standard WMI Qualifiers**</span></span>](standard-wmi-qualifiers.md)
 </dt> <dt>
 
-[<span data-ttu-id="fc10f-126">預處理器命令</span><span class="sxs-lookup"><span data-stu-id="fc10f-126">Preprocessor Commands</span></span>](preprocessor-commands.md)
+[<span data-ttu-id="2f580-126">預處理器命令</span><span class="sxs-lookup"><span data-stu-id="2f580-126">Preprocessor Commands</span></span>](preprocessor-commands.md)
 </dt> </dl>
 
  

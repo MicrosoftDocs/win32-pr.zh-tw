@@ -28,18 +28,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847054"
 ---
-# <a name="cim_redundancygroup-class"></a><span data-ttu-id="99344-103">CIM \_ RedundancyGroup 類別</span><span class="sxs-lookup"><span data-stu-id="99344-103">CIM\_RedundancyGroup class</span></span>
+# <a name="cim_redundancygroup-class"></a><span data-ttu-id="3e6da-103">CIM \_ RedundancyGroup 類別</span><span class="sxs-lookup"><span data-stu-id="3e6da-103">CIM\_RedundancyGroup class</span></span>
 
-<span data-ttu-id="99344-104">**CIM \_ RedundancyGroup** 類別代表 managed 系統專案的集合，這些元素表示匯總的元件會一起提供冗余。</span><span class="sxs-lookup"><span data-stu-id="99344-104">The **CIM\_RedundancyGroup** class represents a collection of managed system elements, which indicates that the aggregated components, together, provide redundancy.</span></span> <span data-ttu-id="99344-105">在冗余群組中匯總的所有元素都應該是相同物件類別的具現化。</span><span class="sxs-lookup"><span data-stu-id="99344-105">All elements aggregated in a redundancy group should be instantiations of the same object class.</span></span>
+<span data-ttu-id="3e6da-104">**CIM \_ RedundancyGroup** 類別代表 managed 系統專案的集合，這些元素表示匯總的元件會一起提供冗余。</span><span class="sxs-lookup"><span data-stu-id="3e6da-104">The **CIM\_RedundancyGroup** class represents a collection of managed system elements, which indicates that the aggregated components, together, provide redundancy.</span></span> <span data-ttu-id="3e6da-105">在冗余群組中匯總的所有元素都應該是相同物件類別的具現化。</span><span class="sxs-lookup"><span data-stu-id="3e6da-105">All elements aggregated in a redundancy group should be instantiations of the same object class.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="99344-106">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="99344-106">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="99344-107">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="99344-107">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
+> <span data-ttu-id="3e6da-106">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="3e6da-106">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="3e6da-107">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="3e6da-107">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
 
  
 
-<span data-ttu-id="99344-108">下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="99344-108">The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties.</span></span> <span data-ttu-id="99344-109">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="99344-109">Properties are listed in alphabetic order, not MOF order.</span></span>
+<span data-ttu-id="3e6da-108">下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="3e6da-108">The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties.</span></span> <span data-ttu-id="3e6da-109">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="3e6da-109">Properties are listed in alphabetic order, not MOF order.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="99344-110">語法</span><span class="sxs-lookup"><span data-stu-id="99344-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3e6da-110">語法</span><span class="sxs-lookup"><span data-stu-id="3e6da-110">Syntax</span></span>
 
 ``` syntax
 [Abstract, UUID("{4C3A040A-E3D1-11d2-8601-0000F8102E5F}"), AMENDMENT]
@@ -55,313 +55,313 @@ class CIM_RedundancyGroup : CIM_LogicalElement
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="99344-111">成員</span><span class="sxs-lookup"><span data-stu-id="99344-111">Members</span></span>
+## <a name="members"></a><span data-ttu-id="3e6da-111">成員</span><span class="sxs-lookup"><span data-stu-id="3e6da-111">Members</span></span>
 
-<span data-ttu-id="99344-112">**CIM \_ RedundancyGroup** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="99344-112">The **CIM\_RedundancyGroup** class has these types of members:</span></span>
+<span data-ttu-id="3e6da-112">**CIM \_ RedundancyGroup** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="3e6da-112">The **CIM\_RedundancyGroup** class has these types of members:</span></span>
 
--   [<span data-ttu-id="99344-113">屬性</span><span class="sxs-lookup"><span data-stu-id="99344-113">Properties</span></span>](#properties)
+-   [<span data-ttu-id="3e6da-113">屬性</span><span class="sxs-lookup"><span data-stu-id="3e6da-113">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="99344-114">屬性</span><span class="sxs-lookup"><span data-stu-id="99344-114">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="3e6da-114">屬性</span><span class="sxs-lookup"><span data-stu-id="3e6da-114">Properties</span></span>
 
-<span data-ttu-id="99344-115">**CIM \_ RedundancyGroup** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="99344-115">The **CIM\_RedundancyGroup** class has these properties.</span></span>
+<span data-ttu-id="3e6da-115">**CIM \_ RedundancyGroup** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="3e6da-115">The **CIM\_RedundancyGroup** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="99344-116">**標題**</span><span class="sxs-lookup"><span data-stu-id="99344-116">**Caption**</span></span>
+<span data-ttu-id="3e6da-116">**標題**</span><span class="sxs-lookup"><span data-stu-id="3e6da-116">**Caption**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="99344-117">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="99344-117">Data type: **string**</span></span>
+<span data-ttu-id="3e6da-117">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="3e6da-117">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-118">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="99344-118">Access type: Read-only</span></span>
+<span data-ttu-id="3e6da-118">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3e6da-118">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-119">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Caption" ) </span><span class="sxs-lookup"><span data-stu-id="99344-119">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")</span></span>
+<span data-ttu-id="3e6da-119">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Caption" ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-119">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="99344-120">物件的簡短文字描述。</span><span class="sxs-lookup"><span data-stu-id="99344-120">A short textual description of the object.</span></span>
+<span data-ttu-id="3e6da-120">物件的簡短文字描述。</span><span class="sxs-lookup"><span data-stu-id="3e6da-120">A short textual description of the object.</span></span>
 
-<span data-ttu-id="99344-121">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="99344-121">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="3e6da-121">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="3e6da-121">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="99344-122">**CreationClassName**</span><span class="sxs-lookup"><span data-stu-id="99344-122">**CreationClassName**</span></span>
+<span data-ttu-id="3e6da-122">**CreationClassName**</span><span class="sxs-lookup"><span data-stu-id="3e6da-122">**CreationClassName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="99344-123">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="99344-123">Data type: **string**</span></span>
+<span data-ttu-id="3e6da-123">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="3e6da-123">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-124">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="99344-124">Access type: Read-only</span></span>
+<span data-ttu-id="3e6da-124">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3e6da-124">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-125">限定詞： [**Key**](/windows/desktop/WmiSdk/key-qualifier)、 [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) </span><span class="sxs-lookup"><span data-stu-id="99344-125">Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)</span></span>
+<span data-ttu-id="3e6da-125">限定詞： [**Key**](/windows/desktop/WmiSdk/key-qualifier)、 [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) </span><span class="sxs-lookup"><span data-stu-id="3e6da-125">Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="99344-126">建立實例時所使用之類別或子類別的名稱。</span><span class="sxs-lookup"><span data-stu-id="99344-126">Name of the class or subclass used in the creation of an instance.</span></span> <span data-ttu-id="99344-127">搭配類別的其他索引鍵屬性使用時，此屬性可讓類別和其子類別的所有實例都能唯一識別。</span><span class="sxs-lookup"><span data-stu-id="99344-127">When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified.</span></span>
+<span data-ttu-id="3e6da-126">建立實例時所使用之類別或子類別的名稱。</span><span class="sxs-lookup"><span data-stu-id="3e6da-126">Name of the class or subclass used in the creation of an instance.</span></span> <span data-ttu-id="3e6da-127">搭配類別的其他索引鍵屬性使用時，此屬性可讓類別和其子類別的所有實例都能唯一識別。</span><span class="sxs-lookup"><span data-stu-id="3e6da-127">When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="99344-128">**說明**</span><span class="sxs-lookup"><span data-stu-id="99344-128">**Description**</span></span>
+<span data-ttu-id="3e6da-128">**說明**</span><span class="sxs-lookup"><span data-stu-id="3e6da-128">**Description**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="99344-129">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="99344-129">Data type: **string**</span></span>
+<span data-ttu-id="3e6da-129">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="3e6da-129">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="99344-130">Access type: Read-only</span></span>
+<span data-ttu-id="3e6da-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3e6da-130">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-131">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Description" ) </span><span class="sxs-lookup"><span data-stu-id="99344-131">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Description")</span></span>
+<span data-ttu-id="3e6da-131">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Description" ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-131">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Description")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="99344-132">物件的文字描述。</span><span class="sxs-lookup"><span data-stu-id="99344-132">A textual description of the object.</span></span>
+<span data-ttu-id="3e6da-132">物件的文字描述。</span><span class="sxs-lookup"><span data-stu-id="3e6da-132">A textual description of the object.</span></span>
 
-<span data-ttu-id="99344-133">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="99344-133">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="3e6da-133">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="3e6da-133">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="99344-134">**InstallDate**</span><span class="sxs-lookup"><span data-stu-id="99344-134">**InstallDate**</span></span>
+<span data-ttu-id="3e6da-134">**InstallDate**</span><span class="sxs-lookup"><span data-stu-id="3e6da-134">**InstallDate**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="99344-135">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="99344-135">Data type: **datetime**</span></span>
+<span data-ttu-id="3e6da-135">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="3e6da-135">Data type: **datetime**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-136">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="99344-136">Access type: Read-only</span></span>
+<span data-ttu-id="3e6da-136">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3e6da-136">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-137">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 元件 \| 001.5 ") ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) (" 安裝日期 ") </span><span class="sxs-lookup"><span data-stu-id="99344-137">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")</span></span>
+<span data-ttu-id="3e6da-137">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 元件 \| 001.5 ") ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) (" 安裝日期 ") </span><span class="sxs-lookup"><span data-stu-id="3e6da-137">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="99344-138">指出物件的安裝時間。</span><span class="sxs-lookup"><span data-stu-id="99344-138">Indicates when the object was installed.</span></span> <span data-ttu-id="99344-139">缺少值並不表示物件未安裝。</span><span class="sxs-lookup"><span data-stu-id="99344-139">Lack of a value does not indicate that the object is not installed.</span></span>
+<span data-ttu-id="3e6da-138">指出物件的安裝時間。</span><span class="sxs-lookup"><span data-stu-id="3e6da-138">Indicates when the object was installed.</span></span> <span data-ttu-id="3e6da-139">缺少值並不表示物件未安裝。</span><span class="sxs-lookup"><span data-stu-id="3e6da-139">Lack of a value does not indicate that the object is not installed.</span></span>
 
-<span data-ttu-id="99344-140">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="99344-140">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="3e6da-140">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="3e6da-140">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="99344-141">**名稱**</span><span class="sxs-lookup"><span data-stu-id="99344-141">**Name**</span></span>
+<span data-ttu-id="3e6da-141">**名稱**</span><span class="sxs-lookup"><span data-stu-id="3e6da-141">**Name**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="99344-142">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="99344-142">Data type: **string**</span></span>
+<span data-ttu-id="3e6da-142">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="3e6da-142">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-143">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="99344-143">Access type: Read-only</span></span>
+<span data-ttu-id="3e6da-143">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3e6da-143">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-144">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Name" ) </span><span class="sxs-lookup"><span data-stu-id="99344-144">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name")</span></span>
+<span data-ttu-id="3e6da-144">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Name" ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-144">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="99344-145">已知物件的標籤。</span><span class="sxs-lookup"><span data-stu-id="99344-145">Label by which the object is known.</span></span> <span data-ttu-id="99344-146">子類別化時，可以將這個屬性覆寫為索引鍵屬性。</span><span class="sxs-lookup"><span data-stu-id="99344-146">When subclassed, this property can be overridden to be a key property.</span></span>
+<span data-ttu-id="3e6da-145">已知物件的標籤。</span><span class="sxs-lookup"><span data-stu-id="3e6da-145">Label by which the object is known.</span></span> <span data-ttu-id="3e6da-146">子類別化時，可以將這個屬性覆寫為索引鍵屬性。</span><span class="sxs-lookup"><span data-stu-id="3e6da-146">When subclassed, this property can be overridden to be a key property.</span></span>
 
-<span data-ttu-id="99344-147">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="99344-147">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="3e6da-147">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="3e6da-147">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="99344-148">**RedundancyStatus**</span><span class="sxs-lookup"><span data-stu-id="99344-148">**RedundancyStatus**</span></span>
+<span data-ttu-id="3e6da-148">**RedundancyStatus**</span><span class="sxs-lookup"><span data-stu-id="3e6da-148">**RedundancyStatus**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="99344-149">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="99344-149">Data type: **uint16**</span></span>
+<span data-ttu-id="3e6da-149">資料類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="3e6da-149">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-150">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="99344-150">Access type: Read-only</span></span>
+<span data-ttu-id="3e6da-150">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3e6da-150">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="99344-151">有關冗余群組狀態的資訊。</span><span class="sxs-lookup"><span data-stu-id="99344-151">Information about the state of the redundancy group.</span></span>
+<span data-ttu-id="3e6da-151">有關冗余群組狀態的資訊。</span><span class="sxs-lookup"><span data-stu-id="3e6da-151">Information about the state of the redundancy group.</span></span>
 
 <dt>
 
 <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
 
-<span data-ttu-id="99344-152"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="99344-152"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
+<span data-ttu-id="3e6da-152"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) </span><span class="sxs-lookup"><span data-stu-id="3e6da-152"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="99344-153">不明。</span><span class="sxs-lookup"><span data-stu-id="99344-153">Unknown.</span></span>
+<span data-ttu-id="3e6da-153">不明。</span><span class="sxs-lookup"><span data-stu-id="3e6da-153">Unknown.</span></span>
 
 </dd> <dt>
 
 <span id="Other"></span><span id="other"></span><span id="OTHER"></span>
 
-<span data-ttu-id="99344-154"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="99344-154"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
+<span data-ttu-id="3e6da-154"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="3e6da-154"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="99344-155">其他。</span><span class="sxs-lookup"><span data-stu-id="99344-155">Other.</span></span>
+<span data-ttu-id="3e6da-155">其他。</span><span class="sxs-lookup"><span data-stu-id="3e6da-155">Other.</span></span>
 
 </dd> <dt>
 
 <span id="Fully_Redundant"></span><span id="fully_redundant"></span><span id="FULLY_REDUNDANT"></span>
 
-<span data-ttu-id="99344-156"><span id="Fully_Redundant"></span><span id="fully_redundant"></span><span id="FULLY_REDUNDANT"></span>**完全多餘** 的 (2) </span><span class="sxs-lookup"><span data-stu-id="99344-156"><span id="Fully_Redundant"></span><span id="fully_redundant"></span><span id="FULLY_REDUNDANT"></span>**Fully Redundant** (2)</span></span>
+<span data-ttu-id="3e6da-156"><span id="Fully_Redundant"></span><span id="fully_redundant"></span><span id="FULLY_REDUNDANT"></span>**完全多餘** 的 (2) </span><span class="sxs-lookup"><span data-stu-id="3e6da-156"><span id="Fully_Redundant"></span><span id="fully_redundant"></span><span id="FULLY_REDUNDANT"></span>**Fully Redundant** (2)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="99344-157">所有設定的冗余都可供使用。</span><span class="sxs-lookup"><span data-stu-id="99344-157">All of the configured redundancy is available.</span></span>
+<span data-ttu-id="3e6da-157">所有設定的冗余都可供使用。</span><span class="sxs-lookup"><span data-stu-id="3e6da-157">All of the configured redundancy is available.</span></span>
 
 </dd> <dt>
 
 <span id="Degraded_Redundancy"></span><span id="degraded_redundancy"></span><span id="DEGRADED_REDUNDANCY"></span>
 
-<span data-ttu-id="99344-158"><span id="Degraded_Redundancy"></span><span id="degraded_redundancy"></span><span id="DEGRADED_REDUNDANCY"></span>**降級的冗余** (3) </span><span class="sxs-lookup"><span data-stu-id="99344-158"><span id="Degraded_Redundancy"></span><span id="degraded_redundancy"></span><span id="DEGRADED_REDUNDANCY"></span>**Degraded Redundancy** (3)</span></span>
+<span data-ttu-id="3e6da-158"><span id="Degraded_Redundancy"></span><span id="degraded_redundancy"></span><span id="DEGRADED_REDUNDANCY"></span>**降級的冗余** (3) </span><span class="sxs-lookup"><span data-stu-id="3e6da-158"><span id="Degraded_Redundancy"></span><span id="degraded_redundancy"></span><span id="DEGRADED_REDUNDANCY"></span>**Degraded Redundancy** (3)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="99344-159">因為某些失敗，所以可使用較少的可用冗余量。</span><span class="sxs-lookup"><span data-stu-id="99344-159">Reduced amount of redundancy is available due to some failures.</span></span>
+<span data-ttu-id="3e6da-159">因為某些失敗，所以可使用較少的可用冗余量。</span><span class="sxs-lookup"><span data-stu-id="3e6da-159">Reduced amount of redundancy is available due to some failures.</span></span>
 
 </dd> <dt>
 
 <span id="Redundancy_Lost"></span><span id="redundancy_lost"></span><span id="REDUNDANCY_LOST"></span>
 
-<span data-ttu-id="99344-160"><span id="Redundancy_Lost"></span><span id="redundancy_lost"></span><span id="REDUNDANCY_LOST"></span>**遺失** (4) 的冗余</span><span class="sxs-lookup"><span data-stu-id="99344-160"><span id="Redundancy_Lost"></span><span id="redundancy_lost"></span><span id="REDUNDANCY_LOST"></span>**Redundancy Lost** (4)</span></span>
+<span data-ttu-id="3e6da-160"><span id="Redundancy_Lost"></span><span id="redundancy_lost"></span><span id="REDUNDANCY_LOST"></span>**遺失** (4) 的冗余</span><span class="sxs-lookup"><span data-stu-id="3e6da-160"><span id="Redundancy_Lost"></span><span id="redundancy_lost"></span><span id="REDUNDANCY_LOST"></span>**Redundancy Lost** (4)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="99344-161">因為有足夠的失敗次數，所以無法使用冗余。</span><span class="sxs-lookup"><span data-stu-id="99344-161">Redundancy is unavailable due to a sufficient number of failures.</span></span> <span data-ttu-id="99344-162">下一個失敗會導致整體失敗。</span><span class="sxs-lookup"><span data-stu-id="99344-162">The next failure will cause overall failure.</span></span>
+<span data-ttu-id="3e6da-161">因為有足夠的失敗次數，所以無法使用冗余。</span><span class="sxs-lookup"><span data-stu-id="3e6da-161">Redundancy is unavailable due to a sufficient number of failures.</span></span> <span data-ttu-id="3e6da-162">下一個失敗會導致整體失敗。</span><span class="sxs-lookup"><span data-stu-id="3e6da-162">The next failure will cause overall failure.</span></span>
 
 </dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="99344-163">**狀態**</span><span class="sxs-lookup"><span data-stu-id="99344-163">**Status**</span></span>
+<span data-ttu-id="3e6da-163">**狀態**</span><span class="sxs-lookup"><span data-stu-id="3e6da-163">**Status**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="99344-164">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="99344-164">Data type: **string**</span></span>
+<span data-ttu-id="3e6da-164">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="3e6da-164">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-165">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="99344-165">Access type: Read-only</span></span>
+<span data-ttu-id="3e6da-165">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="3e6da-165">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="99344-166">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Status" ) </span><span class="sxs-lookup"><span data-stu-id="99344-166">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Status")</span></span>
+<span data-ttu-id="3e6da-166">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Status" ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-166">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Status")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="99344-167">表示物件目前狀態的字串。</span><span class="sxs-lookup"><span data-stu-id="99344-167">String that indicates the current status of the object.</span></span> <span data-ttu-id="99344-168">您可以定義操作和非運作狀態。</span><span class="sxs-lookup"><span data-stu-id="99344-168">Operational and non-operational status can be defined.</span></span> <span data-ttu-id="99344-169">操作狀態可以包含「確定」、「降級」和「Pred 失敗」。</span><span class="sxs-lookup"><span data-stu-id="99344-169">Operational status can include "OK", "Degraded", and "Pred Fail".</span></span> <span data-ttu-id="99344-170">「Pred 失敗」表示專案正常運作，但正在預測失敗 (例如，啟用智慧型硬碟) 。</span><span class="sxs-lookup"><span data-stu-id="99344-170">"Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).</span></span>
+<span data-ttu-id="3e6da-167">表示物件目前狀態的字串。</span><span class="sxs-lookup"><span data-stu-id="3e6da-167">String that indicates the current status of the object.</span></span> <span data-ttu-id="3e6da-168">您可以定義操作和非運作狀態。</span><span class="sxs-lookup"><span data-stu-id="3e6da-168">Operational and non-operational status can be defined.</span></span> <span data-ttu-id="3e6da-169">操作狀態可以包含「確定」、「降級」和「Pred 失敗」。</span><span class="sxs-lookup"><span data-stu-id="3e6da-169">Operational status can include "OK", "Degraded", and "Pred Fail".</span></span> <span data-ttu-id="3e6da-170">「Pred 失敗」表示專案正常運作，但正在預測失敗 (例如，啟用智慧型硬碟) 。</span><span class="sxs-lookup"><span data-stu-id="3e6da-170">"Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).</span></span>
 
-<span data-ttu-id="99344-171">非操作狀態可能包括「錯誤」、「開始」、「正在停止」和「服務」。</span><span class="sxs-lookup"><span data-stu-id="99344-171">Non-operational status can include "Error", "Starting", "Stopping", and "Service".</span></span> <span data-ttu-id="99344-172">「服務」可以在磁片鏡像重新同步處理、重載使用者權限清單或其他系統管理工作時套用。</span><span class="sxs-lookup"><span data-stu-id="99344-172">"Service" can apply during disk mirror-resilvering, reloading a user permissions list, or other administrative work.</span></span> <span data-ttu-id="99344-173">並非所有這類工作都在線上，但是受控元素不是「確定」，也不是其中一個其他狀態。</span><span class="sxs-lookup"><span data-stu-id="99344-173">Not all such work is online, but the managed element is neither "OK" nor in one of the other states.</span></span>
+<span data-ttu-id="3e6da-171">非操作狀態可能包括「錯誤」、「開始」、「正在停止」和「服務」。</span><span class="sxs-lookup"><span data-stu-id="3e6da-171">Non-operational status can include "Error", "Starting", "Stopping", and "Service".</span></span> <span data-ttu-id="3e6da-172">「服務」可以在磁片鏡像重新同步處理、重載使用者權限清單或其他系統管理工作時套用。</span><span class="sxs-lookup"><span data-stu-id="3e6da-172">"Service" can apply during disk mirror-resilvering, reloading a user permissions list, or other administrative work.</span></span> <span data-ttu-id="3e6da-173">並非所有這類工作都在線上，但是受控元素不是「確定」，也不是其中一個其他狀態。</span><span class="sxs-lookup"><span data-stu-id="3e6da-173">Not all such work is online, but the managed element is neither "OK" nor in one of the other states.</span></span>
 
-<span data-ttu-id="99344-174">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="99344-174">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="3e6da-174">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="3e6da-174">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
-<span data-ttu-id="99344-175">包括下列值：</span><span class="sxs-lookup"><span data-stu-id="99344-175">Values include the following:</span></span>
+<span data-ttu-id="3e6da-175">包括下列值：</span><span class="sxs-lookup"><span data-stu-id="3e6da-175">Values include the following:</span></span>
 
 <dt>
 
 <span id="OK"></span><span id="ok"></span>
 
-<span data-ttu-id="99344-176">**確定** ( [確定] ) </span><span class="sxs-lookup"><span data-stu-id="99344-176">**OK** ("OK")</span></span>
+<span data-ttu-id="3e6da-176">**確定** ( [確定] ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-176">**OK** ("OK")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Error"></span><span id="error"></span><span id="ERROR"></span>
 
-<span data-ttu-id="99344-177">**錯誤** ( 「錯誤」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-177">**Error** ("Error")</span></span>
+<span data-ttu-id="3e6da-177">**錯誤** ( 「錯誤」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-177">**Error** ("Error")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>
 
-<span data-ttu-id="99344-178">**降級** ( 「降級」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-178">**Degraded** ("Degraded")</span></span>
+<span data-ttu-id="3e6da-178">**降級** ( 「降級」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-178">**Degraded** ("Degraded")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
 
-<span data-ttu-id="99344-179">**未知** 的 ( 「未知」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-179">**Unknown** ("Unknown")</span></span>
+<span data-ttu-id="3e6da-179">**未知** 的 ( 「未知」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-179">**Unknown** ("Unknown")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Pred_Fail"></span><span id="pred_fail"></span><span id="PRED_FAIL"></span>
 
-<span data-ttu-id="99344-180">**Pred 失敗** ( 「Pred 失敗」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-180">**Pred Fail** ("Pred Fail")</span></span>
+<span data-ttu-id="3e6da-180">**Pred 失敗** ( 「Pred 失敗」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-180">**Pred Fail** ("Pred Fail")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>
 
-<span data-ttu-id="99344-181">**開始** ( 「開始」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-181">**Starting** ("Starting")</span></span>
+<span data-ttu-id="3e6da-181">**開始** ( 「開始」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-181">**Starting** ("Starting")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>
 
-<span data-ttu-id="99344-182">**停止** ( 「正在停止」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-182">**Stopping** ("Stopping")</span></span>
+<span data-ttu-id="3e6da-182">**停止** ( 「正在停止」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-182">**Stopping** ("Stopping")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Service"></span><span id="service"></span><span id="SERVICE"></span>
 
-<span data-ttu-id="99344-183">**服務** ( 「服務」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-183">**Service** ("Service")</span></span>
+<span data-ttu-id="3e6da-183">**服務** ( 「服務」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-183">**Service** ("Service")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>
 
-<span data-ttu-id="99344-184">**壓力** ( 「壓力」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-184">**Stressed** ("Stressed")</span></span>
+<span data-ttu-id="3e6da-184">**壓力** ( 「壓力」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-184">**Stressed** ("Stressed")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="NonRecover"></span><span id="nonrecover"></span><span id="NONRECOVER"></span>
 
-<span data-ttu-id="99344-185">**NonRecover** ( "NonRecover" ) </span><span class="sxs-lookup"><span data-stu-id="99344-185">**NonRecover** ("NonRecover")</span></span>
+<span data-ttu-id="3e6da-185">**NonRecover** ( "NonRecover" ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-185">**NonRecover** ("NonRecover")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>
 
-<span data-ttu-id="99344-186">**沒有連絡人** ( 「沒有連絡人」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-186">**No Contact** ("No Contact")</span></span>
+<span data-ttu-id="3e6da-186">**沒有連絡人** ( 「沒有連絡人」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-186">**No Contact** ("No Contact")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Lost_Comm"></span><span id="lost_comm"></span><span id="LOST_COMM"></span>
 
-<span data-ttu-id="99344-187">**遺失的 comm** ( 「遺失的通訊」 ) </span><span class="sxs-lookup"><span data-stu-id="99344-187">**Lost Comm** ("Lost Comm")</span></span>
+<span data-ttu-id="3e6da-187">**遺失的 comm** ( 「遺失的通訊」 ) </span><span class="sxs-lookup"><span data-stu-id="3e6da-187">**Lost Comm** ("Lost Comm")</span></span>
 
 
-<span data-ttu-id="99344-188"></dt> <dd></dd> </dl>
+<span data-ttu-id="3e6da-188"></dt> <dd></dd> </dl>
 
-</dd> </dl></span><span class="sxs-lookup"><span data-stu-id="99344-188"></dt> <dd></dd> </dl>
+</dd> </dl></span><span class="sxs-lookup"><span data-stu-id="3e6da-188"></dt> <dd></dd> </dl>
 
 </dd> </dl></span></span>
 
-## <a name="remarks"></a><span data-ttu-id="99344-189">備註</span><span class="sxs-lookup"><span data-stu-id="99344-189">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3e6da-189">備註</span><span class="sxs-lookup"><span data-stu-id="3e6da-189">Remarks</span></span>
 
-<span data-ttu-id="99344-190">**Cim \_ RedundancyGroup** 類別衍生自 [**cim \_ LogicalElement**](cim-logicalelement.md)。</span><span class="sxs-lookup"><span data-stu-id="99344-190">The **CIM\_RedundancyGroup** class is derived from [**CIM\_LogicalElement**](cim-logicalelement.md).</span></span>
+<span data-ttu-id="3e6da-190">**Cim \_ RedundancyGroup** 類別衍生自 [**cim \_ LogicalElement**](cim-logicalelement.md)。</span><span class="sxs-lookup"><span data-stu-id="3e6da-190">The **CIM\_RedundancyGroup** class is derived from [**CIM\_LogicalElement**](cim-logicalelement.md).</span></span>
 
-<span data-ttu-id="99344-191">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="99344-191">WMI does not implement this class.</span></span>
+<span data-ttu-id="3e6da-191">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="3e6da-191">WMI does not implement this class.</span></span>
 
-<span data-ttu-id="99344-192">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="99344-192">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="99344-193">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="99344-193">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
+<span data-ttu-id="3e6da-192">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="3e6da-192">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="3e6da-193">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="3e6da-193">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="99344-194">規格需求</span><span class="sxs-lookup"><span data-stu-id="99344-194">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3e6da-194">規格需求</span><span class="sxs-lookup"><span data-stu-id="3e6da-194">Requirements</span></span>
 
 
 
-| <span data-ttu-id="99344-195">需求</span><span class="sxs-lookup"><span data-stu-id="99344-195">Requirement</span></span> | <span data-ttu-id="99344-196">值</span><span class="sxs-lookup"><span data-stu-id="99344-196">Value</span></span> |
+| <span data-ttu-id="3e6da-195">需求</span><span class="sxs-lookup"><span data-stu-id="3e6da-195">Requirement</span></span> | <span data-ttu-id="3e6da-196">值</span><span class="sxs-lookup"><span data-stu-id="3e6da-196">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="99344-197">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="99344-197">Minimum supported client</span></span><br/> | <span data-ttu-id="99344-198">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="99344-198">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="99344-199">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="99344-199">Minimum supported server</span></span><br/> | <span data-ttu-id="99344-200">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="99344-200">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="99344-201">命名空間</span><span class="sxs-lookup"><span data-stu-id="99344-201">Namespace</span></span><br/>                | <span data-ttu-id="99344-202">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="99344-202">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="99344-203">MOF</span><span class="sxs-lookup"><span data-stu-id="99344-203">MOF</span></span><br/>                      | <dl> <span data-ttu-id="99344-204"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="99344-204"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="99344-205">DLL</span><span class="sxs-lookup"><span data-stu-id="99344-205">DLL</span></span><br/>                      | <dl> <span data-ttu-id="99344-206"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="99344-206"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="3e6da-197">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3e6da-197">Minimum supported client</span></span><br/> | <span data-ttu-id="3e6da-198">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="3e6da-198">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="3e6da-199">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3e6da-199">Minimum supported server</span></span><br/> | <span data-ttu-id="3e6da-200">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="3e6da-200">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="3e6da-201">命名空間</span><span class="sxs-lookup"><span data-stu-id="3e6da-201">Namespace</span></span><br/>                | <span data-ttu-id="3e6da-202">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="3e6da-202">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="3e6da-203">MOF</span><span class="sxs-lookup"><span data-stu-id="3e6da-203">MOF</span></span><br/>                      | <dl> <span data-ttu-id="3e6da-204"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="3e6da-204"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="3e6da-205">DLL</span><span class="sxs-lookup"><span data-stu-id="3e6da-205">DLL</span></span><br/>                      | <dl> <span data-ttu-id="3e6da-206"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="3e6da-206"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="99344-207">另請參閱</span><span class="sxs-lookup"><span data-stu-id="99344-207">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3e6da-207">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3e6da-207">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="99344-208">**CIM \_ LogicalElement**</span><span class="sxs-lookup"><span data-stu-id="99344-208">**CIM\_LogicalElement**</span></span>](cim-logicalelement.md)
+[<span data-ttu-id="3e6da-208">**CIM \_ LogicalElement**</span><span class="sxs-lookup"><span data-stu-id="3e6da-208">**CIM\_LogicalElement**</span></span>](cim-logicalelement.md)
 </dt> </dl>
 
  

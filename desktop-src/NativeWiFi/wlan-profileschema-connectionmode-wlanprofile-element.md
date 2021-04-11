@@ -19,13 +19,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691555"
 ---
-# <a name="connectionmode-wlanprofile-element"></a><span data-ttu-id="5c99c-103">connectionMode (WLANProfile) 元素</span><span class="sxs-lookup"><span data-stu-id="5c99c-103">connectionMode (WLANProfile) Element</span></span>
+# <a name="connectionmode-wlanprofile-element"></a><span data-ttu-id="2cf92-103">connectionMode (WLANProfile) 元素</span><span class="sxs-lookup"><span data-stu-id="2cf92-103">connectionMode (WLANProfile) Element</span></span>
 
-<span data-ttu-id="5c99c-104">ConnectionMode (WLANProfile) 元素表示無線區域網路的連接是否應該自動或由使用者起始。</span><span class="sxs-lookup"><span data-stu-id="5c99c-104">The connectionMode (WLANProfile) element indicates whether connection to a wireless LAN should be automatic or initiated by user.</span></span>
+<span data-ttu-id="2cf92-104">ConnectionMode (WLANProfile) 元素表示無線區域網路的連接是否應該自動或由使用者起始。</span><span class="sxs-lookup"><span data-stu-id="2cf92-104">The connectionMode (WLANProfile) element indicates whether connection to a wireless LAN should be automatic or initiated by user.</span></span>
 
-<span data-ttu-id="5c99c-105">如果 [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) 設定為 ESS，此值可以是 auto 或 manual。</span><span class="sxs-lookup"><span data-stu-id="5c99c-105">If [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) is set to ESS, this value can be either auto or manual.</span></span> <span data-ttu-id="5c99c-106">如果這個元素不存在，則預設值為 auto。</span><span class="sxs-lookup"><span data-stu-id="5c99c-106">The default value is auto if this element is absent.</span></span>
+<span data-ttu-id="2cf92-105">如果 [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) 設定為 ESS，此值可以是 auto 或 manual。</span><span class="sxs-lookup"><span data-stu-id="2cf92-105">If [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) is set to ESS, this value can be either auto or manual.</span></span> <span data-ttu-id="2cf92-106">如果這個元素不存在，則預設值為 auto。</span><span class="sxs-lookup"><span data-stu-id="2cf92-106">The default value is auto if this element is absent.</span></span>
 
-<span data-ttu-id="5c99c-107">如果 [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) 設定為 IBSS，則這個值必須是手動。</span><span class="sxs-lookup"><span data-stu-id="5c99c-107">If [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) is set to IBSS, this value must be manual.</span></span>
+<span data-ttu-id="2cf92-107">如果 [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) 設定為 IBSS，則這個值必須是手動。</span><span class="sxs-lookup"><span data-stu-id="2cf92-107">If [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) is set to IBSS, this value must be manual.</span></span>
 
 ``` syntax
 <xs:element name="connectionMode">
@@ -44,53 +44,53 @@ ms.locfileid: "103691555"
 </xs:element>
 ```
 
-<span data-ttu-id="5c99c-108">**ConnectionMode** 元素是由 [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)元素定義。</span><span class="sxs-lookup"><span data-stu-id="5c99c-108">The **connectionMode** element is defined by the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element.</span></span>
+<span data-ttu-id="2cf92-108">**ConnectionMode** 元素是由 [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)元素定義。</span><span class="sxs-lookup"><span data-stu-id="2cf92-108">The **connectionMode** element is defined by the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="5c99c-109">備註</span><span class="sxs-lookup"><span data-stu-id="5c99c-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2cf92-109">備註</span><span class="sxs-lookup"><span data-stu-id="2cf92-109">Remarks</span></span>
 
-<span data-ttu-id="5c99c-110">下表描述列舉值。</span><span class="sxs-lookup"><span data-stu-id="5c99c-110">The following table describes the enumeration values.</span></span>
+<span data-ttu-id="2cf92-110">下表描述列舉值。</span><span class="sxs-lookup"><span data-stu-id="2cf92-110">The following table describes the enumeration values.</span></span>
 
 
 
-| <span data-ttu-id="5c99c-111">值</span><span class="sxs-lookup"><span data-stu-id="5c99c-111">Value</span></span>  | <span data-ttu-id="5c99c-112">描述</span><span class="sxs-lookup"><span data-stu-id="5c99c-112">Description</span></span>                                                                                                |
+| <span data-ttu-id="2cf92-111">值</span><span class="sxs-lookup"><span data-stu-id="2cf92-111">Value</span></span>  | <span data-ttu-id="2cf92-112">描述</span><span class="sxs-lookup"><span data-stu-id="2cf92-112">Description</span></span>                                                                                                |
 |--------|------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="5c99c-113">自動</span><span class="sxs-lookup"><span data-stu-id="5c99c-113">auto</span></span>   | <span data-ttu-id="5c99c-114">只要網路在範圍內，就應該自動起始無線網路的連接。</span><span class="sxs-lookup"><span data-stu-id="5c99c-114">The connection to the wireless network should be initiated automatically whenever the network is in range.</span></span> |
-| <span data-ttu-id="5c99c-115">manual</span><span class="sxs-lookup"><span data-stu-id="5c99c-115">manual</span></span> | <span data-ttu-id="5c99c-116">只有在使用者明確要求時，才會初始化無線網路的連接。</span><span class="sxs-lookup"><span data-stu-id="5c99c-116">The connection to the wireless network is only initated upon the explicit request of a user.</span></span>               |
+| <span data-ttu-id="2cf92-113">自動</span><span class="sxs-lookup"><span data-stu-id="2cf92-113">auto</span></span>   | <span data-ttu-id="2cf92-114">只要網路在範圍內，就應該自動起始無線網路的連接。</span><span class="sxs-lookup"><span data-stu-id="2cf92-114">The connection to the wireless network should be initiated automatically whenever the network is in range.</span></span> |
+| <span data-ttu-id="2cf92-115">manual</span><span class="sxs-lookup"><span data-stu-id="2cf92-115">manual</span></span> | <span data-ttu-id="2cf92-116">只有在使用者明確要求時，才會初始化無線網路的連接。</span><span class="sxs-lookup"><span data-stu-id="2cf92-116">The connection to the wireless network is only initated upon the explicit request of a user.</span></span>               |
 
 
 
  
 
-## <a name="examples"></a><span data-ttu-id="5c99c-117">範例</span><span class="sxs-lookup"><span data-stu-id="5c99c-117">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="2cf92-117">範例</span><span class="sxs-lookup"><span data-stu-id="2cf92-117">Examples</span></span>
 
-<span data-ttu-id="5c99c-118">若要查看使用 **connectionMode** 元素的範例設定檔，請參閱 [無線設定檔範例](wireless-profile-samples.md)。</span><span class="sxs-lookup"><span data-stu-id="5c99c-118">To view sample profiles that use the **connectionMode** element, see [Wireless Profile Samples](wireless-profile-samples.md).</span></span>
+<span data-ttu-id="2cf92-118">若要查看使用 **connectionMode** 元素的範例設定檔，請參閱 [無線設定檔範例](wireless-profile-samples.md)。</span><span class="sxs-lookup"><span data-stu-id="2cf92-118">To view sample profiles that use the **connectionMode** element, see [Wireless Profile Samples](wireless-profile-samples.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="5c99c-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="5c99c-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2cf92-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="2cf92-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="5c99c-120">需求</span><span class="sxs-lookup"><span data-stu-id="5c99c-120">Requirement</span></span> | <span data-ttu-id="5c99c-121">值</span><span class="sxs-lookup"><span data-stu-id="5c99c-121">Value</span></span> |
+| <span data-ttu-id="2cf92-120">需求</span><span class="sxs-lookup"><span data-stu-id="2cf92-120">Requirement</span></span> | <span data-ttu-id="2cf92-121">值</span><span class="sxs-lookup"><span data-stu-id="2cf92-121">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------|
-| <span data-ttu-id="5c99c-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5c99c-122">Minimum supported client</span></span><br/> | <span data-ttu-id="5c99c-123">Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5c99c-123">Windows Vista, Windows XP with SP3 \[desktop apps only\]</span></span><br/> |
-| <span data-ttu-id="5c99c-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5c99c-124">Minimum supported server</span></span><br/> | <span data-ttu-id="5c99c-125">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5c99c-125">Windows Server 2008 \[desktop apps only\]</span></span><br/>                |
-| <span data-ttu-id="5c99c-126">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="5c99c-126">Redistributable</span></span><br/>          | <span data-ttu-id="5c99c-127">適用于 Windows XP SP2 的無線區域網路 API</span><span class="sxs-lookup"><span data-stu-id="5c99c-127">Wireless LAN API for Windows XP with SP2</span></span><br/>                 |
+| <span data-ttu-id="2cf92-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2cf92-122">Minimum supported client</span></span><br/> | <span data-ttu-id="2cf92-123">Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2cf92-123">Windows Vista, Windows XP with SP3 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="2cf92-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2cf92-124">Minimum supported server</span></span><br/> | <span data-ttu-id="2cf92-125">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2cf92-125">Windows Server 2008 \[desktop apps only\]</span></span><br/>                |
+| <span data-ttu-id="2cf92-126">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="2cf92-126">Redistributable</span></span><br/>          | <span data-ttu-id="2cf92-127">適用于 Windows XP SP2 的無線區域網路 API</span><span class="sxs-lookup"><span data-stu-id="2cf92-127">Wireless LAN API for Windows XP with SP2</span></span><br/>                 |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="5c99c-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5c99c-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2cf92-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2cf92-128">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="5c99c-129">**架構中的元素定義內容**</span><span class="sxs-lookup"><span data-stu-id="5c99c-129">**Definition context of element in schema**</span></span>
+<span data-ttu-id="2cf92-129">**架構中的元素定義內容**</span><span class="sxs-lookup"><span data-stu-id="2cf92-129">**Definition context of element in schema**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="5c99c-130">**WLANProfile**</span><span class="sxs-lookup"><span data-stu-id="5c99c-130">**WLANProfile**</span></span>](wlan-profileschema-wlanprofile-element.md)
+[<span data-ttu-id="2cf92-130">**WLANProfile**</span><span class="sxs-lookup"><span data-stu-id="2cf92-130">**WLANProfile**</span></span>](wlan-profileschema-wlanprofile-element.md)
 </dt> <dt>
 
-<span data-ttu-id="5c99c-131">**架構實例中可能的直屬父元素**</span><span class="sxs-lookup"><span data-stu-id="5c99c-131">**Possible immediate parent element in schema instance**</span></span>
+<span data-ttu-id="2cf92-131">**架構實例中可能的直屬父元素**</span><span class="sxs-lookup"><span data-stu-id="2cf92-131">**Possible immediate parent element in schema instance**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="5c99c-132">**WLANProfile**</span><span class="sxs-lookup"><span data-stu-id="5c99c-132">**WLANProfile**</span></span>](wlan-profileschema-wlanprofile-element.md)
+[<span data-ttu-id="2cf92-132">**WLANProfile**</span><span class="sxs-lookup"><span data-stu-id="2cf92-132">**WLANProfile**</span></span>](wlan-profileschema-wlanprofile-element.md)
 </dt> </dl>
 
  

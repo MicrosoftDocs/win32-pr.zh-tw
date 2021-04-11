@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691124"
 ---
-# <a name="esentmultivaluedduplicateexception-constructor"></a><span data-ttu-id="a944b-103">EsentMultiValuedDuplicateException 函式</span><span class="sxs-lookup"><span data-stu-id="a944b-103">EsentMultiValuedDuplicateException constructor</span></span>
+# <a name="esentmultivaluedduplicateexception-constructor"></a><span data-ttu-id="d41a6-103">EsentMultiValuedDuplicateException 函式</span><span class="sxs-lookup"><span data-stu-id="d41a6-103">EsentMultiValuedDuplicateException constructor</span></span>
 
-<span data-ttu-id="a944b-104">初始化 EsentMultiValuedDuplicateException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="a944b-104">Initializes a new instance of the EsentMultiValuedDuplicateException class.</span></span>
+<span data-ttu-id="d41a6-104">初始化 EsentMultiValuedDuplicateException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="d41a6-104">Initializes a new instance of the EsentMultiValuedDuplicateException class.</span></span>
 
-<span data-ttu-id="a944b-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="a944b-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="a944b-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="a944b-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="d41a6-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="d41a6-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="d41a6-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="d41a6-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a944b-107">語法</span><span class="sxs-lookup"><span data-stu-id="a944b-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d41a6-107">語法</span><span class="sxs-lookup"><span data-stu-id="d41a6-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentMultiValuedDuplicateException()
 public EsentMultiValuedDuplicateException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="a944b-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a944b-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d41a6-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d41a6-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="a944b-109">參考</span><span class="sxs-lookup"><span data-stu-id="a944b-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="d41a6-109">參考</span><span class="sxs-lookup"><span data-stu-id="d41a6-109">Reference</span></span>
 
-[<span data-ttu-id="a944b-110">EsentMultiValuedDuplicateException 類別</span><span class="sxs-lookup"><span data-stu-id="a944b-110">EsentMultiValuedDuplicateException class</span></span>](./esentmultivaluedduplicateexception-class.md)
+[<span data-ttu-id="d41a6-110">EsentMultiValuedDuplicateException 類別</span><span class="sxs-lookup"><span data-stu-id="d41a6-110">EsentMultiValuedDuplicateException class</span></span>](./esentmultivaluedduplicateexception-class.md)
 
-[<span data-ttu-id="a944b-111">EsentMultiValuedDuplicateException 成員</span><span class="sxs-lookup"><span data-stu-id="a944b-111">EsentMultiValuedDuplicateException members</span></span>](./esentmultivaluedduplicateexception-members.md)
+[<span data-ttu-id="d41a6-111">EsentMultiValuedDuplicateException 成員</span><span class="sxs-lookup"><span data-stu-id="d41a6-111">EsentMultiValuedDuplicateException members</span></span>](./esentmultivaluedduplicateexception-members.md)
 
-[<span data-ttu-id="a944b-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="a944b-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="d41a6-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="d41a6-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

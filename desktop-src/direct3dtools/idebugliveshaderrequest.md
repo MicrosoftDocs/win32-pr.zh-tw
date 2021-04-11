@@ -24,27 +24,27 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103846396"
 ---
-# <a name="span-idvspixengineidebugliveshaderrequestspanidebugliveshaderrequest-interface"></a><span data-ttu-id="11930-104"><span id="vspixengine.idebugliveshaderrequest"></span>IDebugLiveShaderRequest 介面</span><span class="sxs-lookup"><span data-stu-id="11930-104"><span id="vspixengine.idebugliveshaderrequest"></span>IDebugLiveShaderRequest interface</span></span>
+# <a name="span-idvspixengineidebugliveshaderrequestspanidebugliveshaderrequest-interface"></a><span data-ttu-id="c96ea-104"><span id="vspixengine.idebugliveshaderrequest"></span>IDebugLiveShaderRequest 介面</span><span class="sxs-lookup"><span data-stu-id="c96ea-104"><span id="vspixengine.idebugliveshaderrequest"></span>IDebugLiveShaderRequest interface</span></span>
 
-<span data-ttu-id="11930-105">保留的。</span><span class="sxs-lookup"><span data-stu-id="11930-105">Reserved.</span></span> <span data-ttu-id="11930-106">要求即時調試著色器。</span><span class="sxs-lookup"><span data-stu-id="11930-106">Request to live debug a shader.</span></span>
+<span data-ttu-id="c96ea-105">保留的。</span><span class="sxs-lookup"><span data-stu-id="c96ea-105">Reserved.</span></span> <span data-ttu-id="c96ea-106">要求即時調試著色器。</span><span class="sxs-lookup"><span data-stu-id="c96ea-106">Request to live debug a shader.</span></span>
 
-## <a name="members"></a><span data-ttu-id="11930-107">成員</span><span class="sxs-lookup"><span data-stu-id="11930-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="c96ea-107">成員</span><span class="sxs-lookup"><span data-stu-id="c96ea-107">Members</span></span>
 
-<span data-ttu-id="11930-108">**IDebugLiveShaderRequest** 介面繼承自 [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown)介面。</span><span class="sxs-lookup"><span data-stu-id="11930-108">The **IDebugLiveShaderRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.</span></span> <span data-ttu-id="11930-109">**IDebugLiveShaderRequest** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="11930-109">**IDebugLiveShaderRequest** also has these types of members:</span></span>
+<span data-ttu-id="c96ea-108">**IDebugLiveShaderRequest** 介面繼承自 [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown)介面。</span><span class="sxs-lookup"><span data-stu-id="c96ea-108">The **IDebugLiveShaderRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.</span></span> <span data-ttu-id="c96ea-109">**IDebugLiveShaderRequest** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="c96ea-109">**IDebugLiveShaderRequest** also has these types of members:</span></span>
 
--   [<span data-ttu-id="11930-110">方法</span><span class="sxs-lookup"><span data-stu-id="11930-110">Methods</span></span>](#methods)
+-   [<span data-ttu-id="c96ea-110">方法</span><span class="sxs-lookup"><span data-stu-id="c96ea-110">Methods</span></span>](#methods)
 
-### <a name="span-idmethodsspanmethods"></a><span data-ttu-id="11930-111"><span id="methods"></span>方法</span><span class="sxs-lookup"><span data-stu-id="11930-111"><span id="methods"></span>Methods</span></span>
+### <a name="span-idmethodsspanmethods"></a><span data-ttu-id="c96ea-111"><span id="methods"></span>方法</span><span class="sxs-lookup"><span data-stu-id="c96ea-111"><span id="methods"></span>Methods</span></span>
 
-<span data-ttu-id="11930-112">**IDebugLiveShaderRequest** 介面具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="11930-112">The **IDebugLiveShaderRequest** interface has these methods.</span></span>
+<span data-ttu-id="c96ea-112">**IDebugLiveShaderRequest** 介面具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="c96ea-112">The **IDebugLiveShaderRequest** interface has these methods.</span></span>
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;"><span data-ttu-id="11930-113">方法</span><span class="sxs-lookup"><span data-stu-id="11930-113">Method</span></span></th><th style="text-align: left;"><span data-ttu-id="11930-114">描述</span><span class="sxs-lookup"><span data-stu-id="11930-114">Description</span></span></th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><span data-ttu-id="11930-115"><a href="/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></span><span class="sxs-lookup"><span data-stu-id="11930-115"><a href="/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></span></span></td><td style="text-align: left;"><p><span data-ttu-id="11930-116">在 GPU 上偵測著色器的要求 (即時調試) vs CPU (以追蹤為基礎的調試) 。</span><span class="sxs-lookup"><span data-stu-id="11930-116">Requests to debug a shader on the GPU (live debugging) vs CPU (trace-based debugging).</span></span></p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;"><span data-ttu-id="c96ea-113">方法</span><span class="sxs-lookup"><span data-stu-id="c96ea-113">Method</span></span></th><th style="text-align: left;"><span data-ttu-id="c96ea-114">描述</span><span class="sxs-lookup"><span data-stu-id="c96ea-114">Description</span></span></th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><span data-ttu-id="c96ea-115"><a href="/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></span><span class="sxs-lookup"><span data-stu-id="c96ea-115"><a href="/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></span></span></td><td style="text-align: left;"><p><span data-ttu-id="c96ea-116">在 GPU 上偵測著色器的要求 (即時調試) vs CPU (以追蹤為基礎的調試) 。</span><span class="sxs-lookup"><span data-stu-id="c96ea-116">Requests to debug a shader on the GPU (live debugging) vs CPU (trace-based debugging).</span></span></p></td></tr></tbody></table>
 
  
 
-## <a name="requirements"></a><span data-ttu-id="11930-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="11930-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c96ea-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="c96ea-117">Requirements</span></span>
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="11930-118">標頭</span><span class="sxs-lookup"><span data-stu-id="11930-118">Header</span></span></p></td><td><span data-ttu-id="11930-119">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="11930-119">Vspixengine.h</span></span></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="c96ea-118">標頭</span><span class="sxs-lookup"><span data-stu-id="c96ea-118">Header</span></span></p></td><td><span data-ttu-id="c96ea-119">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="c96ea-119">Vspixengine.h</span></span></td></tr></tbody></table>
 
  
 

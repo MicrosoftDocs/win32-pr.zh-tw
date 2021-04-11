@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692184"
 ---
-# <a name="swbemobjectcompareto_-method"></a><span data-ttu-id="9479e-104">SWbemObject. CompareTo \_ 方法</span><span class="sxs-lookup"><span data-stu-id="9479e-104">SWbemObject.CompareTo\_ method</span></span>
+# <a name="swbemobjectcompareto_-method"></a><span data-ttu-id="7a727-104">SWbemObject. CompareTo \_ 方法</span><span class="sxs-lookup"><span data-stu-id="7a727-104">SWbemObject.CompareTo\_ method</span></span>
 
-<span data-ttu-id="9479e-105">[**SWbemObject**](swbemobject.md)物件的 **CompareTo \_** 方法會比較兩個 **SWbemObject** 物件。</span><span class="sxs-lookup"><span data-stu-id="9479e-105">The **CompareTo\_** method of the [**SWbemObject**](swbemobject.md) object compares two **SWbemObject** objects.</span></span> <span data-ttu-id="9479e-106">根據 *iFlags* 參數中指定的值，這項比較會受限於某些條件約束。</span><span class="sxs-lookup"><span data-stu-id="9479e-106">This comparison is subject to certain constraints based on the values specified in the *iFlags* parameter.</span></span>
+<span data-ttu-id="7a727-105">[**SWbemObject**](swbemobject.md)物件的 **CompareTo \_** 方法會比較兩個 **SWbemObject** 物件。</span><span class="sxs-lookup"><span data-stu-id="7a727-105">The **CompareTo\_** method of the [**SWbemObject**](swbemobject.md) object compares two **SWbemObject** objects.</span></span> <span data-ttu-id="7a727-106">根據 *iFlags* 參數中指定的值，這項比較會受限於某些條件約束。</span><span class="sxs-lookup"><span data-stu-id="7a727-106">This comparison is subject to certain constraints based on the values specified in the *iFlags* parameter.</span></span>
 
-<span data-ttu-id="9479e-107">如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。</span><span class="sxs-lookup"><span data-stu-id="9479e-107">For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).</span></span>
+<span data-ttu-id="7a727-107">如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。</span><span class="sxs-lookup"><span data-stu-id="7a727-107">For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9479e-108">語法</span><span class="sxs-lookup"><span data-stu-id="9479e-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7a727-108">語法</span><span class="sxs-lookup"><span data-stu-id="7a727-108">Syntax</span></span>
 
 
 ```VB
@@ -41,153 +41,153 @@ bAreEqual = .CompareTo_( _
 
 
 
-## <a name="parameters"></a><span data-ttu-id="9479e-109">參數</span><span class="sxs-lookup"><span data-stu-id="9479e-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7a727-109">參數</span><span class="sxs-lookup"><span data-stu-id="7a727-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="9479e-110">*objwbemObject* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9479e-110">*objwbemObject* \[in\]</span></span>
+<span data-ttu-id="7a727-110">*objwbemObject* \[在\]</span><span class="sxs-lookup"><span data-stu-id="7a727-110">*objwbemObject* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9479e-111">必要。</span><span class="sxs-lookup"><span data-stu-id="9479e-111">Required.</span></span> <span data-ttu-id="9479e-112">此參數是 [**SWbemObject**](swbemobject.md) 物件。</span><span class="sxs-lookup"><span data-stu-id="9479e-112">This parameter is an [**SWbemObject**](swbemobject.md) object.</span></span> <span data-ttu-id="9479e-113">這是用來比較第一個物件的物件。</span><span class="sxs-lookup"><span data-stu-id="9479e-113">This is the object with which the first object is compared.</span></span> <span data-ttu-id="9479e-114">物件必須是有效的 **SWbemObject** 實例。</span><span class="sxs-lookup"><span data-stu-id="9479e-114">The object must be a valid **SWbemObject** instance.</span></span>
+<span data-ttu-id="7a727-111">必要。</span><span class="sxs-lookup"><span data-stu-id="7a727-111">Required.</span></span> <span data-ttu-id="7a727-112">此參數是 [**SWbemObject**](swbemobject.md) 物件。</span><span class="sxs-lookup"><span data-stu-id="7a727-112">This parameter is an [**SWbemObject**](swbemobject.md) object.</span></span> <span data-ttu-id="7a727-113">這是用來比較第一個物件的物件。</span><span class="sxs-lookup"><span data-stu-id="7a727-113">This is the object with which the first object is compared.</span></span> <span data-ttu-id="7a727-114">物件必須是有效的 **SWbemObject** 實例。</span><span class="sxs-lookup"><span data-stu-id="7a727-114">The object must be a valid **SWbemObject** instance.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="9479e-115">*iFlags* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="9479e-115">*iFlags* \[in, optional\]</span></span>
+<span data-ttu-id="7a727-115">*iFlags* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="7a727-115">*iFlags* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9479e-116">指定比較物件與其他物件時，所要考慮的物件特性。</span><span class="sxs-lookup"><span data-stu-id="9479e-116">Specifies the object characteristics to consider when comparing an object with other objects.</span></span> <span data-ttu-id="9479e-117">您可以使用 **wbemComparisonFlagIncludeAll** 來考慮所有功能 (這是預設) 或下列值的任何組合。</span><span class="sxs-lookup"><span data-stu-id="9479e-117">You can use **wbemComparisonFlagIncludeAll** to consider all features (this is the default), or any combination of the following values.</span></span>
+<span data-ttu-id="7a727-116">指定比較物件與其他物件時，所要考慮的物件特性。</span><span class="sxs-lookup"><span data-stu-id="7a727-116">Specifies the object characteristics to consider when comparing an object with other objects.</span></span> <span data-ttu-id="7a727-117">您可以使用 **wbemComparisonFlagIncludeAll** 來考慮所有功能 (這是預設) 或下列值的任何組合。</span><span class="sxs-lookup"><span data-stu-id="7a727-117">You can use **wbemComparisonFlagIncludeAll** to consider all features (this is the default), or any combination of the following values.</span></span>
 
 <dt>
 
 <span id="wbemComparisonFlagIncludeAll"></span><span id="wbemcomparisonflagincludeall"></span><span id="WBEMCOMPARISONFLAGINCLUDEALL"></span>
 
-<span data-ttu-id="9479e-118"><span id="wbemComparisonFlagIncludeAll"></span><span id="wbemcomparisonflagincludeall"></span><span id="WBEMCOMPARISONFLAGINCLUDEALL"></span>wbemComparisonFlagIncludeAll \* \* \* (0 (0x0) ) </span><span class="sxs-lookup"><span data-stu-id="9479e-118"><span id="wbemComparisonFlagIncludeAll"></span><span id="wbemcomparisonflagincludeall"></span><span id="WBEMCOMPARISONFLAGINCLUDEALL"></span>\*\*\*\*wbemComparisonFlagIncludeAll\*\*\*\* (0 (0x0))</span></span>
+<span data-ttu-id="7a727-118"><span id="wbemComparisonFlagIncludeAll"></span><span id="wbemcomparisonflagincludeall"></span><span id="WBEMCOMPARISONFLAGINCLUDEALL"></span>wbemComparisonFlagIncludeAll \* \* \* (0 (0x0) ) </span><span class="sxs-lookup"><span data-stu-id="7a727-118"><span id="wbemComparisonFlagIncludeAll"></span><span id="wbemcomparisonflagincludeall"></span><span id="WBEMCOMPARISONFLAGINCLUDEALL"></span>\*\*\*\*wbemComparisonFlagIncludeAll\*\*\*\* (0 (0x0))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="9479e-119">比較所有屬性、限定詞和種類。</span><span class="sxs-lookup"><span data-stu-id="9479e-119">Compares all properties, qualifiers, and flavors.</span></span>
+<span data-ttu-id="7a727-119">比較所有屬性、限定詞和種類。</span><span class="sxs-lookup"><span data-stu-id="7a727-119">Compares all properties, qualifiers, and flavors.</span></span>
 
 </dd> <dt>
 
 <span id="wbemComparisonFlagIgnoreObjectSource"></span><span id="wbemcomparisonflagignoreobjectsource"></span><span id="WBEMCOMPARISONFLAGIGNOREOBJECTSOURCE"></span>
 
-<span data-ttu-id="9479e-120"><span id="wbemComparisonFlagIgnoreObjectSource"></span><span id="wbemcomparisonflagignoreobjectsource"></span><span id="WBEMCOMPARISONFLAGIGNOREOBJECTSOURCE"></span>wbemComparisonFlagIgnoreObjectSource \* \* \* (2 (0x2) ) </span><span class="sxs-lookup"><span data-stu-id="9479e-120"><span id="wbemComparisonFlagIgnoreObjectSource"></span><span id="wbemcomparisonflagignoreobjectsource"></span><span id="WBEMCOMPARISONFLAGIGNOREOBJECTSOURCE"></span>\*\*\*\*wbemComparisonFlagIgnoreObjectSource\*\*\*\* (2 (0x2))</span></span>
+<span data-ttu-id="7a727-120"><span id="wbemComparisonFlagIgnoreObjectSource"></span><span id="wbemcomparisonflagignoreobjectsource"></span><span id="WBEMCOMPARISONFLAGIGNOREOBJECTSOURCE"></span>wbemComparisonFlagIgnoreObjectSource \* \* \* (2 (0x2) ) </span><span class="sxs-lookup"><span data-stu-id="7a727-120"><span id="wbemComparisonFlagIgnoreObjectSource"></span><span id="wbemcomparisonflagignoreobjectsource"></span><span id="WBEMCOMPARISONFLAGIGNOREOBJECTSOURCE"></span>\*\*\*\*wbemComparisonFlagIgnoreObjectSource\*\*\*\* (2 (0x2))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="9479e-121">使物件的來源（也就是伺服器及其來源的命名空間）與其他物件相比較，將會被忽略。</span><span class="sxs-lookup"><span data-stu-id="9479e-121">Causes the source of the objects, namely the server and the namespace they came from, to be ignored in comparison to other objects.</span></span>
+<span data-ttu-id="7a727-121">使物件的來源（也就是伺服器及其來源的命名空間）與其他物件相比較，將會被忽略。</span><span class="sxs-lookup"><span data-stu-id="7a727-121">Causes the source of the objects, namely the server and the namespace they came from, to be ignored in comparison to other objects.</span></span>
 
 </dd> <dt>
 
 <span id="wbemComparisonFlagIgnoreQualifiers"></span><span id="wbemcomparisonflagignorequalifiers"></span><span id="WBEMCOMPARISONFLAGIGNOREQUALIFIERS"></span>
 
-<span data-ttu-id="9479e-122"><span id="wbemComparisonFlagIgnoreQualifiers"></span><span id="wbemcomparisonflagignorequalifiers"></span><span id="WBEMCOMPARISONFLAGIGNOREQUALIFIERS"></span>wbemComparisonFlagIgnoreQualifiers \* \* \* (1 (0x1) ) </span><span class="sxs-lookup"><span data-stu-id="9479e-122"><span id="wbemComparisonFlagIgnoreQualifiers"></span><span id="wbemcomparisonflagignorequalifiers"></span><span id="WBEMCOMPARISONFLAGIGNOREQUALIFIERS"></span>\*\*\*\*wbemComparisonFlagIgnoreQualifiers\*\*\*\* (1 (0x1))</span></span>
+<span data-ttu-id="7a727-122"><span id="wbemComparisonFlagIgnoreQualifiers"></span><span id="wbemcomparisonflagignorequalifiers"></span><span id="WBEMCOMPARISONFLAGIGNOREQUALIFIERS"></span>wbemComparisonFlagIgnoreQualifiers \* \* \* (1 (0x1) ) </span><span class="sxs-lookup"><span data-stu-id="7a727-122"><span id="wbemComparisonFlagIgnoreQualifiers"></span><span id="wbemcomparisonflagignorequalifiers"></span><span id="WBEMCOMPARISONFLAGIGNOREQUALIFIERS"></span>\*\*\*\*wbemComparisonFlagIgnoreQualifiers\*\*\*\* (1 (0x1))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="9479e-123">使所有限定詞 (包括索引 **鍵** 和 **動態**) ，以進行比較。</span><span class="sxs-lookup"><span data-stu-id="9479e-123">Causes all qualifiers (including **Key** and **Dynamic**) to be ignored in comparison.</span></span>
+<span data-ttu-id="7a727-123">使所有限定詞 (包括索引 **鍵** 和 **動態**) ，以進行比較。</span><span class="sxs-lookup"><span data-stu-id="7a727-123">Causes all qualifiers (including **Key** and **Dynamic**) to be ignored in comparison.</span></span>
 
 </dd> <dt>
 
 <span id="wbemComparisonFlagIgnoreDefaultValues"></span><span id="wbemcomparisonflagignoredefaultvalues"></span><span id="WBEMCOMPARISONFLAGIGNOREDEFAULTVALUES"></span>
 
-<span data-ttu-id="9479e-124"><span id="wbemComparisonFlagIgnoreDefaultValues"></span><span id="wbemcomparisonflagignoredefaultvalues"></span><span id="WBEMCOMPARISONFLAGIGNOREDEFAULTVALUES"></span>wbemComparisonFlagIgnoreDefaultValues \* \* \* (4 (0x4) ) </span><span class="sxs-lookup"><span data-stu-id="9479e-124"><span id="wbemComparisonFlagIgnoreDefaultValues"></span><span id="wbemcomparisonflagignoredefaultvalues"></span><span id="WBEMCOMPARISONFLAGIGNOREDEFAULTVALUES"></span>\*\*\*\*wbemComparisonFlagIgnoreDefaultValues\*\*\*\* (4 (0x4))</span></span>
+<span data-ttu-id="7a727-124"><span id="wbemComparisonFlagIgnoreDefaultValues"></span><span id="wbemcomparisonflagignoredefaultvalues"></span><span id="WBEMCOMPARISONFLAGIGNOREDEFAULTVALUES"></span>wbemComparisonFlagIgnoreDefaultValues \* \* \* (4 (0x4) ) </span><span class="sxs-lookup"><span data-stu-id="7a727-124"><span id="wbemComparisonFlagIgnoreDefaultValues"></span><span id="wbemcomparisonflagignoredefaultvalues"></span><span id="WBEMCOMPARISONFLAGIGNOREDEFAULTVALUES"></span>\*\*\*\*wbemComparisonFlagIgnoreDefaultValues\*\*\*\* (4 (0x4))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="9479e-125">會忽略屬性的預設值。</span><span class="sxs-lookup"><span data-stu-id="9479e-125">Causes default values of properties to be ignored.</span></span> <span data-ttu-id="9479e-126">只有在比較類別時，此旗標才有意義。</span><span class="sxs-lookup"><span data-stu-id="9479e-126">This flag is only meaningful when comparing classes.</span></span>
+<span data-ttu-id="7a727-125">會忽略屬性的預設值。</span><span class="sxs-lookup"><span data-stu-id="7a727-125">Causes default values of properties to be ignored.</span></span> <span data-ttu-id="7a727-126">只有在比較類別時，此旗標才有意義。</span><span class="sxs-lookup"><span data-stu-id="7a727-126">This flag is only meaningful when comparing classes.</span></span>
 
 </dd> <dt>
 
 <span id="wbemComparisonFlagIgnoreFlavor"></span><span id="wbemcomparisonflagignoreflavor"></span><span id="WBEMCOMPARISONFLAGIGNOREFLAVOR"></span>
 
-<span data-ttu-id="9479e-127"><span id="wbemComparisonFlagIgnoreFlavor"></span><span id="wbemcomparisonflagignoreflavor"></span><span id="WBEMCOMPARISONFLAGIGNOREFLAVOR"></span>wbemComparisonFlagIgnoreFlavor \* \* \* (32 (0x20) ) </span><span class="sxs-lookup"><span data-stu-id="9479e-127"><span id="wbemComparisonFlagIgnoreFlavor"></span><span id="wbemcomparisonflagignoreflavor"></span><span id="WBEMCOMPARISONFLAGIGNOREFLAVOR"></span>\*\*\*\*wbemComparisonFlagIgnoreFlavor\*\*\*\* (32 (0x20))</span></span>
+<span data-ttu-id="7a727-127"><span id="wbemComparisonFlagIgnoreFlavor"></span><span id="wbemcomparisonflagignoreflavor"></span><span id="WBEMCOMPARISONFLAGIGNOREFLAVOR"></span>wbemComparisonFlagIgnoreFlavor \* \* \* (32 (0x20) ) </span><span class="sxs-lookup"><span data-stu-id="7a727-127"><span id="wbemComparisonFlagIgnoreFlavor"></span><span id="wbemcomparisonflagignoreflavor"></span><span id="WBEMCOMPARISONFLAGIGNOREFLAVOR"></span>\*\*\*\*wbemComparisonFlagIgnoreFlavor\*\*\*\* (32 (0x20))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="9479e-128">會忽略辨識符號的類別。</span><span class="sxs-lookup"><span data-stu-id="9479e-128">Causes qualifier flavors to be ignored.</span></span> <span data-ttu-id="9479e-129">此旗標會將限定詞值納入考慮，但會忽略類別差異，例如傳播規則和覆寫限制。</span><span class="sxs-lookup"><span data-stu-id="9479e-129">This flag takes qualifier values into account, but ignores flavor distinctions such as propagation rules and override restrictions.</span></span>
+<span data-ttu-id="7a727-128">會忽略辨識符號的類別。</span><span class="sxs-lookup"><span data-stu-id="7a727-128">Causes qualifier flavors to be ignored.</span></span> <span data-ttu-id="7a727-129">此旗標會將限定詞值納入考慮，但會忽略類別差異，例如傳播規則和覆寫限制。</span><span class="sxs-lookup"><span data-stu-id="7a727-129">This flag takes qualifier values into account, but ignores flavor distinctions such as propagation rules and override restrictions.</span></span>
 
 </dd> <dt>
 
 <span id="wbemComparisonFlagIgnoreCase"></span><span id="wbemcomparisonflagignorecase"></span><span id="WBEMCOMPARISONFLAGIGNORECASE"></span>
 
-<span data-ttu-id="9479e-130"><span id="wbemComparisonFlagIgnoreCase"></span><span id="wbemcomparisonflagignorecase"></span><span id="WBEMCOMPARISONFLAGIGNORECASE"></span>wbemComparisonFlagIgnoreCase \* \* \* (16 (0x10) ) </span><span class="sxs-lookup"><span data-stu-id="9479e-130"><span id="wbemComparisonFlagIgnoreCase"></span><span id="wbemcomparisonflagignorecase"></span><span id="WBEMCOMPARISONFLAGIGNORECASE"></span>\*\*\*\*wbemComparisonFlagIgnoreCase\*\*\*\* (16 (0x10))</span></span>
+<span data-ttu-id="7a727-130"><span id="wbemComparisonFlagIgnoreCase"></span><span id="wbemcomparisonflagignorecase"></span><span id="WBEMCOMPARISONFLAGIGNORECASE"></span>wbemComparisonFlagIgnoreCase \* \* \* (16 (0x10) ) </span><span class="sxs-lookup"><span data-stu-id="7a727-130"><span id="wbemComparisonFlagIgnoreCase"></span><span id="wbemcomparisonflagignorecase"></span><span id="WBEMCOMPARISONFLAGIGNORECASE"></span>\*\*\*\*wbemComparisonFlagIgnoreCase\*\*\*\* (16 (0x10))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="9479e-131">以不區分大小寫的方式來比較字串值。</span><span class="sxs-lookup"><span data-stu-id="9479e-131">Compares string values in a case-insensitive manner.</span></span> <span data-ttu-id="9479e-132">這同時適用于字串和限定詞值。</span><span class="sxs-lookup"><span data-stu-id="9479e-132">This applies both to strings and to qualifier values.</span></span> <span data-ttu-id="9479e-133">不論這個旗標是否指定，屬性和限定詞名稱都是以區分大小寫的方式比較。</span><span class="sxs-lookup"><span data-stu-id="9479e-133">Property and qualifier names are always compared in a case-insensitive manner whether this flag is specified or not.</span></span>
+<span data-ttu-id="7a727-131">以不區分大小寫的方式來比較字串值。</span><span class="sxs-lookup"><span data-stu-id="7a727-131">Compares string values in a case-insensitive manner.</span></span> <span data-ttu-id="7a727-132">這同時適用于字串和限定詞值。</span><span class="sxs-lookup"><span data-stu-id="7a727-132">This applies both to strings and to qualifier values.</span></span> <span data-ttu-id="7a727-133">不論這個旗標是否指定，屬性和限定詞名稱都是以區分大小寫的方式比較。</span><span class="sxs-lookup"><span data-stu-id="7a727-133">Property and qualifier names are always compared in a case-insensitive manner whether this flag is specified or not.</span></span>
 
 </dd> <dt>
 
 <span id="wbemComparisonFlagIgnoreClass"></span><span id="wbemcomparisonflagignoreclass"></span><span id="WBEMCOMPARISONFLAGIGNORECLASS"></span>
 
-<span data-ttu-id="9479e-134"><span id="wbemComparisonFlagIgnoreClass"></span><span id="wbemcomparisonflagignoreclass"></span><span id="WBEMCOMPARISONFLAGIGNORECLASS"></span>wbemComparisonFlagIgnoreClass \* \* \* (8 (0x8) ) </span><span class="sxs-lookup"><span data-stu-id="9479e-134"><span id="wbemComparisonFlagIgnoreClass"></span><span id="wbemcomparisonflagignoreclass"></span><span id="WBEMCOMPARISONFLAGIGNORECLASS"></span>\*\*\*\*wbemComparisonFlagIgnoreClass\*\*\*\* (8 (0x8))</span></span>
+<span data-ttu-id="7a727-134"><span id="wbemComparisonFlagIgnoreClass"></span><span id="wbemcomparisonflagignoreclass"></span><span id="WBEMCOMPARISONFLAGIGNORECLASS"></span>wbemComparisonFlagIgnoreClass \* \* \* (8 (0x8) ) </span><span class="sxs-lookup"><span data-stu-id="7a727-134"><span id="wbemComparisonFlagIgnoreClass"></span><span id="wbemcomparisonflagignoreclass"></span><span id="WBEMCOMPARISONFLAGIGNORECLASS"></span>\*\*\*\*wbemComparisonFlagIgnoreClass\*\*\*\* (8 (0x8))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="9479e-135">指示系統假設要比較的物件是相同類別的實例。</span><span class="sxs-lookup"><span data-stu-id="9479e-135">Instructs the system to assume that the objects being compared are instances of the same class.</span></span> <span data-ttu-id="9479e-136">因此，此旗標只會比較實例相關資訊。</span><span class="sxs-lookup"><span data-stu-id="9479e-136">Consequently, this flag compares instance-related information only.</span></span> <span data-ttu-id="9479e-137">使用這個旗標，將效能最佳化。</span><span class="sxs-lookup"><span data-stu-id="9479e-137">Use this flag to optimize performance.</span></span> <span data-ttu-id="9479e-138">如果物件不屬於相同類別，則結果不會定義。</span><span class="sxs-lookup"><span data-stu-id="9479e-138">If the objects are not of the same class, the results are undefined.</span></span>
+<span data-ttu-id="7a727-135">指示系統假設要比較的物件是相同類別的實例。</span><span class="sxs-lookup"><span data-stu-id="7a727-135">Instructs the system to assume that the objects being compared are instances of the same class.</span></span> <span data-ttu-id="7a727-136">因此，此旗標只會比較實例相關資訊。</span><span class="sxs-lookup"><span data-stu-id="7a727-136">Consequently, this flag compares instance-related information only.</span></span> <span data-ttu-id="7a727-137">使用這個旗標，將效能最佳化。</span><span class="sxs-lookup"><span data-stu-id="7a727-137">Use this flag to optimize performance.</span></span> <span data-ttu-id="7a727-138">如果物件不屬於相同類別，則結果不會定義。</span><span class="sxs-lookup"><span data-stu-id="7a727-138">If the objects are not of the same class, the results are undefined.</span></span>
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="9479e-139">傳回值</span><span class="sxs-lookup"><span data-stu-id="9479e-139">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7a727-139">傳回值</span><span class="sxs-lookup"><span data-stu-id="7a727-139">Return value</span></span>
 
-<span data-ttu-id="9479e-140">如果物件相符，這個方法會傳回 **TRUE** 的布林值。</span><span class="sxs-lookup"><span data-stu-id="9479e-140">This method returns the Boolean value of **TRUE** if the objects match.</span></span> <span data-ttu-id="9479e-141">如果物件不相符，則會傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="9479e-141">It returns **FALSE** if the objects do not match.</span></span>
+<span data-ttu-id="7a727-140">如果物件相符，這個方法會傳回 **TRUE** 的布林值。</span><span class="sxs-lookup"><span data-stu-id="7a727-140">This method returns the Boolean value of **TRUE** if the objects match.</span></span> <span data-ttu-id="7a727-141">如果物件不相符，則會傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="7a727-141">It returns **FALSE** if the objects do not match.</span></span>
 
-## <a name="error-codes"></a><span data-ttu-id="9479e-142">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="9479e-142">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="7a727-142">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="7a727-142">Error codes</span></span>
 
-<span data-ttu-id="9479e-143">**CompareTo \_** 方法完成後， **Err** 物件可能會包含下列清單中的其中一個錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="9479e-143">After the completion of the **CompareTo\_** method, the **Err** object may contain one of the error codes in the following list.</span></span>
+<span data-ttu-id="7a727-143">**CompareTo \_** 方法完成後， **Err** 物件可能會包含下列清單中的其中一個錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="7a727-143">After the completion of the **CompareTo\_** method, the **Err** object may contain one of the error codes in the following list.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="9479e-144">**wbemErrFailed** -2147749889 (0x80041001) </span><span class="sxs-lookup"><span data-stu-id="9479e-144">**wbemErrFailed** - 2147749889 (0x80041001)</span></span>
+<span data-ttu-id="7a727-144">**wbemErrFailed** -2147749889 (0x80041001) </span><span class="sxs-lookup"><span data-stu-id="7a727-144">**wbemErrFailed** - 2147749889 (0x80041001)</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9479e-145">未指定的錯誤。</span><span class="sxs-lookup"><span data-stu-id="9479e-145">Unspecified error.</span></span>
+<span data-ttu-id="7a727-145">未指定的錯誤。</span><span class="sxs-lookup"><span data-stu-id="7a727-145">Unspecified error.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="9479e-146">**wbemErrInvalidParameter** -2147749896 (0x80041008) </span><span class="sxs-lookup"><span data-stu-id="9479e-146">**wbemErrInvalidParameter** - 2147749896 (0x80041008)</span></span>
+<span data-ttu-id="7a727-146">**wbemErrInvalidParameter** -2147749896 (0x80041008) </span><span class="sxs-lookup"><span data-stu-id="7a727-146">**wbemErrInvalidParameter** - 2147749896 (0x80041008)</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9479e-147">指定的參數無效。</span><span class="sxs-lookup"><span data-stu-id="9479e-147">A specified parameter is not valid.</span></span>
+<span data-ttu-id="7a727-147">指定的參數無效。</span><span class="sxs-lookup"><span data-stu-id="7a727-147">A specified parameter is not valid.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="9479e-148">**wbemErrOutOfMemory** -2147749894 (0x80041006) </span><span class="sxs-lookup"><span data-stu-id="9479e-148">**wbemErrOutOfMemory** - 2147749894 (0x80041006)</span></span>
+<span data-ttu-id="7a727-148">**wbemErrOutOfMemory** -2147749894 (0x80041006) </span><span class="sxs-lookup"><span data-stu-id="7a727-148">**wbemErrOutOfMemory** - 2147749894 (0x80041006)</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9479e-149">記憶體不足，無法完成操作。</span><span class="sxs-lookup"><span data-stu-id="9479e-149">Not enough memory to complete the operation.</span></span>
+<span data-ttu-id="7a727-149">記憶體不足，無法完成操作。</span><span class="sxs-lookup"><span data-stu-id="7a727-149">Not enough memory to complete the operation.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="9479e-150">規格需求</span><span class="sxs-lookup"><span data-stu-id="9479e-150">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="7a727-150">規格需求</span><span class="sxs-lookup"><span data-stu-id="7a727-150">Requirements</span></span>
 
 
 
-| <span data-ttu-id="9479e-151">需求</span><span class="sxs-lookup"><span data-stu-id="9479e-151">Requirement</span></span> | <span data-ttu-id="9479e-152">值</span><span class="sxs-lookup"><span data-stu-id="9479e-152">Value</span></span> |
+| <span data-ttu-id="7a727-151">需求</span><span class="sxs-lookup"><span data-stu-id="7a727-151">Requirement</span></span> | <span data-ttu-id="7a727-152">值</span><span class="sxs-lookup"><span data-stu-id="7a727-152">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="9479e-153">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9479e-153">Minimum supported client</span></span><br/> | <span data-ttu-id="9479e-154">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="9479e-154">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="9479e-155">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9479e-155">Minimum supported server</span></span><br/> | <span data-ttu-id="9479e-156">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="9479e-156">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="9479e-157">標頭</span><span class="sxs-lookup"><span data-stu-id="9479e-157">Header</span></span><br/>                   | <dl> <span data-ttu-id="9479e-158"><dt>>wbemdisp.tlb。h</dt></span><span class="sxs-lookup"><span data-stu-id="9479e-158"><dt>Wbemdisp.h</dt></span></span> </dl>   |
-| <span data-ttu-id="9479e-159">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="9479e-159">Type library</span></span><br/>             | <dl> <span data-ttu-id="9479e-160"><dt>>wbemdisp.tlb .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="9479e-160"><dt>Wbemdisp.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="9479e-161">DLL</span><span class="sxs-lookup"><span data-stu-id="9479e-161">DLL</span></span><br/>                      | <dl> <span data-ttu-id="9479e-162"><dt>Wbemdisp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="9479e-162"><dt>Wbemdisp.dll</dt></span></span> </dl> |
-| <span data-ttu-id="9479e-163">CLSID</span><span class="sxs-lookup"><span data-stu-id="9479e-163">CLSID</span></span><br/>                    | <span data-ttu-id="9479e-164">CLSID \_ SWbemObject</span><span class="sxs-lookup"><span data-stu-id="9479e-164">CLSID\_SWbemObject</span></span><br/>                                                           |
-| <span data-ttu-id="9479e-165">IID</span><span class="sxs-lookup"><span data-stu-id="9479e-165">IID</span></span><br/>                      | <span data-ttu-id="9479e-166">IID \_ ISWbemObject</span><span class="sxs-lookup"><span data-stu-id="9479e-166">IID\_ISWbemObject</span></span><br/>                                                            |
+| <span data-ttu-id="7a727-153">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7a727-153">Minimum supported client</span></span><br/> | <span data-ttu-id="7a727-154">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="7a727-154">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="7a727-155">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7a727-155">Minimum supported server</span></span><br/> | <span data-ttu-id="7a727-156">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="7a727-156">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="7a727-157">標頭</span><span class="sxs-lookup"><span data-stu-id="7a727-157">Header</span></span><br/>                   | <dl> <span data-ttu-id="7a727-158"><dt>>wbemdisp.tlb。h</dt></span><span class="sxs-lookup"><span data-stu-id="7a727-158"><dt>Wbemdisp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="7a727-159">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="7a727-159">Type library</span></span><br/>             | <dl> <span data-ttu-id="7a727-160"><dt>>wbemdisp.tlb .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="7a727-160"><dt>Wbemdisp.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="7a727-161">DLL</span><span class="sxs-lookup"><span data-stu-id="7a727-161">DLL</span></span><br/>                      | <dl> <span data-ttu-id="7a727-162"><dt>Wbemdisp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="7a727-162"><dt>Wbemdisp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="7a727-163">CLSID</span><span class="sxs-lookup"><span data-stu-id="7a727-163">CLSID</span></span><br/>                    | <span data-ttu-id="7a727-164">CLSID \_ SWbemObject</span><span class="sxs-lookup"><span data-stu-id="7a727-164">CLSID\_SWbemObject</span></span><br/>                                                           |
+| <span data-ttu-id="7a727-165">IID</span><span class="sxs-lookup"><span data-stu-id="7a727-165">IID</span></span><br/>                      | <span data-ttu-id="7a727-166">IID \_ ISWbemObject</span><span class="sxs-lookup"><span data-stu-id="7a727-166">IID\_ISWbemObject</span></span><br/>                                                            |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="9479e-167">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9479e-167">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7a727-167">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7a727-167">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9479e-168">**SWbemObject**</span><span class="sxs-lookup"><span data-stu-id="9479e-168">**SWbemObject**</span></span>](swbemobject.md)
+[<span data-ttu-id="7a727-168">**SWbemObject**</span><span class="sxs-lookup"><span data-stu-id="7a727-168">**SWbemObject**</span></span>](swbemobject.md)
 </dt> </dl>
 
  

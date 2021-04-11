@@ -23,18 +23,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689035"
 ---
-# <a name="cim_aggregateredundancycomponent-class"></a><span data-ttu-id="d8aa4-103">CIM \_ AggregateRedundancyComponent 類別</span><span class="sxs-lookup"><span data-stu-id="d8aa4-103">CIM\_AggregateRedundancyComponent class</span></span>
+# <a name="cim_aggregateredundancycomponent-class"></a><span data-ttu-id="6ad70-103">CIM \_ AggregateRedundancyComponent 類別</span><span class="sxs-lookup"><span data-stu-id="6ad70-103">CIM\_AggregateRedundancyComponent class</span></span>
 
-<span data-ttu-id="d8aa4-104">**CIM \_ AggregateRedundancyComponent** 類別描述儲存體冗余群組中的匯總實體範圍。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-104">The **CIM\_AggregateRedundancyComponent** class describes the aggregate physical extent in a storage redundancy group.</span></span>
+<span data-ttu-id="6ad70-104">**CIM \_ AggregateRedundancyComponent** 類別描述儲存體冗余群組中的匯總實體範圍。</span><span class="sxs-lookup"><span data-stu-id="6ad70-104">The **CIM\_AggregateRedundancyComponent** class describes the aggregate physical extent in a storage redundancy group.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="d8aa4-105">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-105">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="d8aa4-106">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-106">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
+> <span data-ttu-id="6ad70-105">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="6ad70-105">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="6ad70-106">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="6ad70-106">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
 
  
 
-<span data-ttu-id="d8aa4-107">下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-107">The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.</span></span> <span data-ttu-id="d8aa4-108">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-108">Properties are listed in alphabetic order, not MOF order.</span></span>
+<span data-ttu-id="6ad70-107">下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="6ad70-107">The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.</span></span> <span data-ttu-id="6ad70-108">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="6ad70-108">Properties are listed in alphabetic order, not MOF order.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d8aa4-109">語法</span><span class="sxs-lookup"><span data-stu-id="d8aa4-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6ad70-109">語法</span><span class="sxs-lookup"><span data-stu-id="6ad70-109">Syntax</span></span>
 
 ``` syntax
 [Abstract, UUID("{154E66D8-DB35-11d2-85FC-0000F8102E5F}"), AMENDMENT]
@@ -45,77 +45,77 @@ class CIM_AggregateRedundancyComponent : CIM_RedundancyComponent
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="d8aa4-110">成員</span><span class="sxs-lookup"><span data-stu-id="d8aa4-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="6ad70-110">成員</span><span class="sxs-lookup"><span data-stu-id="6ad70-110">Members</span></span>
 
-<span data-ttu-id="d8aa4-111">**CIM \_ AggregateRedundancyComponent** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="d8aa4-111">The **CIM\_AggregateRedundancyComponent** class has these types of members:</span></span>
+<span data-ttu-id="6ad70-111">**CIM \_ AggregateRedundancyComponent** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="6ad70-111">The **CIM\_AggregateRedundancyComponent** class has these types of members:</span></span>
 
--   [<span data-ttu-id="d8aa4-112">屬性</span><span class="sxs-lookup"><span data-stu-id="d8aa4-112">Properties</span></span>](#properties)
+-   [<span data-ttu-id="6ad70-112">屬性</span><span class="sxs-lookup"><span data-stu-id="6ad70-112">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="d8aa4-113">屬性</span><span class="sxs-lookup"><span data-stu-id="d8aa4-113">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="6ad70-113">屬性</span><span class="sxs-lookup"><span data-stu-id="6ad70-113">Properties</span></span>
 
-<span data-ttu-id="d8aa4-114">**CIM \_ AggregateRedundancyComponent** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-114">The **CIM\_AggregateRedundancyComponent** class has these properties.</span></span>
+<span data-ttu-id="6ad70-114">**CIM \_ AggregateRedundancyComponent** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="6ad70-114">The **CIM\_AggregateRedundancyComponent** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="d8aa4-115">**GroupComponent**</span><span class="sxs-lookup"><span data-stu-id="d8aa4-115">**GroupComponent**</span></span>
+<span data-ttu-id="6ad70-115">**GroupComponent**</span><span class="sxs-lookup"><span data-stu-id="6ad70-115">**GroupComponent**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="d8aa4-116">資料類型： **CIM \_ StorageRedundancyGroup**</span><span class="sxs-lookup"><span data-stu-id="d8aa4-116">Data type: **CIM\_StorageRedundancyGroup**</span></span>
+<span data-ttu-id="6ad70-116">資料類型： **CIM \_ StorageRedundancyGroup**</span><span class="sxs-lookup"><span data-stu-id="6ad70-116">Data type: **CIM\_StorageRedundancyGroup**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d8aa4-117">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="d8aa4-117">Access type: Read-only</span></span>
+<span data-ttu-id="6ad70-117">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="6ad70-117">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d8aa4-118">限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "GroupComponent" ) </span><span class="sxs-lookup"><span data-stu-id="d8aa4-118">Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")</span></span>
+<span data-ttu-id="6ad70-118">限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "GroupComponent" ) </span><span class="sxs-lookup"><span data-stu-id="6ad70-118">Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="d8aa4-119">包含儲存體冗余群組的 [**CIM \_ StorageRedundancyGroup**](cim-storageredundancygroup.md) 。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-119">A [**CIM\_StorageRedundancyGroup**](cim-storageredundancygroup.md) that contains the storage redundancy group.</span></span>
+<span data-ttu-id="6ad70-119">包含儲存體冗余群組的 [**CIM \_ StorageRedundancyGroup**](cim-storageredundancygroup.md) 。</span><span class="sxs-lookup"><span data-stu-id="6ad70-119">A [**CIM\_StorageRedundancyGroup**](cim-storageredundancygroup.md) that contains the storage redundancy group.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8aa4-120">**PartComponent**</span><span class="sxs-lookup"><span data-stu-id="d8aa4-120">**PartComponent**</span></span>
+<span data-ttu-id="6ad70-120">**PartComponent**</span><span class="sxs-lookup"><span data-stu-id="6ad70-120">**PartComponent**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="d8aa4-121">資料類型： **CIM \_ AggregatePExtent**</span><span class="sxs-lookup"><span data-stu-id="d8aa4-121">Data type: **CIM\_AggregatePExtent**</span></span>
+<span data-ttu-id="6ad70-121">資料類型： **CIM \_ AggregatePExtent**</span><span class="sxs-lookup"><span data-stu-id="6ad70-121">Data type: **CIM\_AggregatePExtent**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d8aa4-122">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="d8aa4-122">Access type: Read-only</span></span>
+<span data-ttu-id="6ad70-122">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="6ad70-122">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d8aa4-123">限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "PartComponent" ) </span><span class="sxs-lookup"><span data-stu-id="d8aa4-123">Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")</span></span>
+<span data-ttu-id="6ad70-123">限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "PartComponent" ) </span><span class="sxs-lookup"><span data-stu-id="6ad70-123">Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="d8aa4-124">[**CIM \_ AggregatePExtent**](cim-aggregatepextent.md) ，包含參與冗余群組的匯總實體範圍。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-124">A [**CIM\_AggregatePExtent**](cim-aggregatepextent.md) that contains the aggregate physical extent participating in the redundancy group.</span></span>
+<span data-ttu-id="6ad70-124">[**CIM \_ AggregatePExtent**](cim-aggregatepextent.md) ，包含參與冗余群組的匯總實體範圍。</span><span class="sxs-lookup"><span data-stu-id="6ad70-124">A [**CIM\_AggregatePExtent**](cim-aggregatepextent.md) that contains the aggregate physical extent participating in the redundancy group.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="d8aa4-125">備註</span><span class="sxs-lookup"><span data-stu-id="d8aa4-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6ad70-125">備註</span><span class="sxs-lookup"><span data-stu-id="6ad70-125">Remarks</span></span>
 
-<span data-ttu-id="d8aa4-126">**Cim \_ AggregateRedundancyComponent** 類別衍生自 [**cim \_ RedundancyComponent**](cim-redundancycomponent.md)。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-126">The **CIM\_AggregateRedundancyComponent** class is derived from [**CIM\_RedundancyComponent**](cim-redundancycomponent.md).</span></span>
+<span data-ttu-id="6ad70-126">**Cim \_ AggregateRedundancyComponent** 類別衍生自 [**cim \_ RedundancyComponent**](cim-redundancycomponent.md)。</span><span class="sxs-lookup"><span data-stu-id="6ad70-126">The **CIM\_AggregateRedundancyComponent** class is derived from [**CIM\_RedundancyComponent**](cim-redundancycomponent.md).</span></span>
 
-<span data-ttu-id="d8aa4-127">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-127">WMI does not implement this class.</span></span>
+<span data-ttu-id="6ad70-127">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="6ad70-127">WMI does not implement this class.</span></span>
 
-<span data-ttu-id="d8aa4-128">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-128">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="d8aa4-129">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="d8aa4-129">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
+<span data-ttu-id="6ad70-128">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="6ad70-128">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="6ad70-129">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="6ad70-129">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="d8aa4-130">規格需求</span><span class="sxs-lookup"><span data-stu-id="d8aa4-130">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6ad70-130">規格需求</span><span class="sxs-lookup"><span data-stu-id="6ad70-130">Requirements</span></span>
 
 
 
-| <span data-ttu-id="d8aa4-131">需求</span><span class="sxs-lookup"><span data-stu-id="d8aa4-131">Requirement</span></span> | <span data-ttu-id="d8aa4-132">值</span><span class="sxs-lookup"><span data-stu-id="d8aa4-132">Value</span></span> |
+| <span data-ttu-id="6ad70-131">需求</span><span class="sxs-lookup"><span data-stu-id="6ad70-131">Requirement</span></span> | <span data-ttu-id="6ad70-132">值</span><span class="sxs-lookup"><span data-stu-id="6ad70-132">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="d8aa4-133">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d8aa4-133">Minimum supported client</span></span><br/> | <span data-ttu-id="d8aa4-134">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="d8aa4-134">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="d8aa4-135">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d8aa4-135">Minimum supported server</span></span><br/> | <span data-ttu-id="d8aa4-136">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="d8aa4-136">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="d8aa4-137">命名空間</span><span class="sxs-lookup"><span data-stu-id="d8aa4-137">Namespace</span></span><br/>                | <span data-ttu-id="d8aa4-138">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="d8aa4-138">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="d8aa4-139">MOF</span><span class="sxs-lookup"><span data-stu-id="d8aa4-139">MOF</span></span><br/>                      | <dl> <span data-ttu-id="d8aa4-140"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="d8aa4-140"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="d8aa4-141">DLL</span><span class="sxs-lookup"><span data-stu-id="d8aa4-141">DLL</span></span><br/>                      | <dl> <span data-ttu-id="d8aa4-142"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="d8aa4-142"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="6ad70-133">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6ad70-133">Minimum supported client</span></span><br/> | <span data-ttu-id="6ad70-134">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="6ad70-134">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="6ad70-135">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6ad70-135">Minimum supported server</span></span><br/> | <span data-ttu-id="6ad70-136">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="6ad70-136">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="6ad70-137">命名空間</span><span class="sxs-lookup"><span data-stu-id="6ad70-137">Namespace</span></span><br/>                | <span data-ttu-id="6ad70-138">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="6ad70-138">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="6ad70-139">MOF</span><span class="sxs-lookup"><span data-stu-id="6ad70-139">MOF</span></span><br/>                      | <dl> <span data-ttu-id="6ad70-140"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="6ad70-140"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="6ad70-141">DLL</span><span class="sxs-lookup"><span data-stu-id="6ad70-141">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6ad70-142"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="6ad70-142"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="d8aa4-143">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d8aa4-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6ad70-143">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6ad70-143">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d8aa4-144">**CIM \_ RedundancyComponent**</span><span class="sxs-lookup"><span data-stu-id="d8aa4-144">**CIM\_RedundancyComponent**</span></span>](cim-redundancycomponent.md)
+[<span data-ttu-id="6ad70-144">**CIM \_ RedundancyComponent**</span><span class="sxs-lookup"><span data-stu-id="6ad70-144">**CIM\_RedundancyComponent**</span></span>](cim-redundancycomponent.md)
 </dt> </dl>
 
  

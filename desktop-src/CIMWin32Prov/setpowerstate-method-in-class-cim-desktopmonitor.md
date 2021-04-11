@@ -21,16 +21,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847396"
 ---
-# <a name="setpowerstate-method-of-the-cim_desktopmonitor-class"></a><span data-ttu-id="10647-103">CIM DesktopMonitor 類別的 SetPowerState 方法 \_</span><span class="sxs-lookup"><span data-stu-id="10647-103">SetPowerState method of the CIM\_DesktopMonitor class</span></span>
+# <a name="setpowerstate-method-of-the-cim_desktopmonitor-class"></a><span data-ttu-id="824de-103">CIM DesktopMonitor 類別的 SetPowerState 方法 \_</span><span class="sxs-lookup"><span data-stu-id="824de-103">SetPowerState method of the CIM\_DesktopMonitor class</span></span>
 
-<span data-ttu-id="10647-104">**SetPowerState** 方法會設定邏輯裝置所需的電源狀態，以及何時應將裝置置於該狀態。</span><span class="sxs-lookup"><span data-stu-id="10647-104">The **SetPowerState** method sets the desired power state for a logical device and when the device should be put into that state.</span></span> <span data-ttu-id="10647-105">在子類別中，應該使用方法上的 **ValueMap** 辨識符號來指定可能的傳回碼集。</span><span class="sxs-lookup"><span data-stu-id="10647-105">In a subclass, the set of possible return codes should be specified using a **ValueMap** qualifier on the method.</span></span> <span data-ttu-id="10647-106">您也應該在子類別中，以 **值** 陣列限定詞的形式指定要轉譯之 **ValueMap** 內容的字串。</span><span class="sxs-lookup"><span data-stu-id="10647-106">The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier.</span></span> <span data-ttu-id="10647-107">這個方法繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="10647-107">This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="824de-104">**SetPowerState** 方法會設定邏輯裝置所需的電源狀態，以及何時應將裝置置於該狀態。</span><span class="sxs-lookup"><span data-stu-id="824de-104">The **SetPowerState** method sets the desired power state for a logical device and when the device should be put into that state.</span></span> <span data-ttu-id="824de-105">在子類別中，應該使用方法上的 **ValueMap** 辨識符號來指定可能的傳回碼集。</span><span class="sxs-lookup"><span data-stu-id="824de-105">In a subclass, the set of possible return codes should be specified using a **ValueMap** qualifier on the method.</span></span> <span data-ttu-id="824de-106">您也應該在子類別中，以 **值** 陣列限定詞的形式指定要轉譯之 **ValueMap** 內容的字串。</span><span class="sxs-lookup"><span data-stu-id="824de-106">The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier.</span></span> <span data-ttu-id="824de-107">這個方法繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。</span><span class="sxs-lookup"><span data-stu-id="824de-107">This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="10647-108">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="10647-108">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="10647-109">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="10647-109">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
+> <span data-ttu-id="824de-108">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="824de-108">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="824de-109">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="824de-109">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
 
  
 
-## <a name="syntax"></a><span data-ttu-id="10647-110">語法</span><span class="sxs-lookup"><span data-stu-id="10647-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="824de-110">語法</span><span class="sxs-lookup"><span data-stu-id="824de-110">Syntax</span></span>
 
 
 ```mof
@@ -42,98 +42,98 @@ uint32 SetPowerState(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="10647-111">參數</span><span class="sxs-lookup"><span data-stu-id="10647-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="824de-111">參數</span><span class="sxs-lookup"><span data-stu-id="824de-111">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="10647-112">*>powerstate* \[在\]</span><span class="sxs-lookup"><span data-stu-id="10647-112">*PowerState* \[in\]</span></span>
+<span data-ttu-id="824de-112">*>powerstate* \[在\]</span><span class="sxs-lookup"><span data-stu-id="824de-112">*PowerState* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10647-113">指定此邏輯裝置所需電源狀態的 **ValueMap** 值。</span><span class="sxs-lookup"><span data-stu-id="10647-113">A **ValueMap** value that specifies the desired power state for this logical device.</span></span>
+<span data-ttu-id="824de-113">指定此邏輯裝置所需電源狀態的 **ValueMap** 值。</span><span class="sxs-lookup"><span data-stu-id="824de-113">A **ValueMap** value that specifies the desired power state for this logical device.</span></span>
 
 <dt>
 
-<span data-ttu-id="10647-114">1</span><span class="sxs-lookup"><span data-stu-id="10647-114">1</span></span>
+<span data-ttu-id="824de-114">1</span><span class="sxs-lookup"><span data-stu-id="824de-114">1</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10647-115">完整功能。</span><span class="sxs-lookup"><span data-stu-id="10647-115">Full power.</span></span>
+<span data-ttu-id="824de-115">完整功能。</span><span class="sxs-lookup"><span data-stu-id="824de-115">Full power.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="10647-116">2</span><span class="sxs-lookup"><span data-stu-id="10647-116">2</span></span>
+<span data-ttu-id="824de-116">2</span><span class="sxs-lookup"><span data-stu-id="824de-116">2</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10647-117">省電低電源模式。</span><span class="sxs-lookup"><span data-stu-id="10647-117">Power save   low-power mode.</span></span>
+<span data-ttu-id="824de-117">省電低電源模式。</span><span class="sxs-lookup"><span data-stu-id="824de-117">Power save   low-power mode.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="10647-118">3</span><span class="sxs-lookup"><span data-stu-id="10647-118">3</span></span>
+<span data-ttu-id="824de-118">3</span><span class="sxs-lookup"><span data-stu-id="824de-118">3</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10647-119">省電待命。</span><span class="sxs-lookup"><span data-stu-id="10647-119">Power save   standby.</span></span>
+<span data-ttu-id="824de-119">省電待命。</span><span class="sxs-lookup"><span data-stu-id="824de-119">Power save   standby.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="10647-120">4</span><span class="sxs-lookup"><span data-stu-id="10647-120">4</span></span>
+<span data-ttu-id="824de-120">4</span><span class="sxs-lookup"><span data-stu-id="824de-120">4</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10647-121">省電。</span><span class="sxs-lookup"><span data-stu-id="10647-121">Power save   other.</span></span>
+<span data-ttu-id="824de-121">省電。</span><span class="sxs-lookup"><span data-stu-id="824de-121">Power save   other.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="10647-122">5</span><span class="sxs-lookup"><span data-stu-id="10647-122">5</span></span>
+<span data-ttu-id="824de-122">5</span><span class="sxs-lookup"><span data-stu-id="824de-122">5</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10647-123">電源週期。</span><span class="sxs-lookup"><span data-stu-id="10647-123">Power cycle.</span></span>
+<span data-ttu-id="824de-123">電源週期。</span><span class="sxs-lookup"><span data-stu-id="824de-123">Power cycle.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="10647-124">6</span><span class="sxs-lookup"><span data-stu-id="10647-124">6</span></span>
+<span data-ttu-id="824de-124">6</span><span class="sxs-lookup"><span data-stu-id="824de-124">6</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10647-125">關閉電源。</span><span class="sxs-lookup"><span data-stu-id="10647-125">Power off.</span></span>
+<span data-ttu-id="824de-125">關閉電源。</span><span class="sxs-lookup"><span data-stu-id="824de-125">Power off.</span></span>
 
 </dd> </dl> </dd> <dt>
 
-<span data-ttu-id="10647-126">*時間* \[在\]</span><span class="sxs-lookup"><span data-stu-id="10647-126">*Time* \[in\]</span></span>
+<span data-ttu-id="824de-126">*時間* \[在\]</span><span class="sxs-lookup"><span data-stu-id="824de-126">*Time* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="10647-127">指定何時應設定電源狀態，以做為一般日期時間值或做為間隔值， (在) 收到方法調用時的間隔開始時間。</span><span class="sxs-lookup"><span data-stu-id="10647-127">Specifies when the power state should be set, either as a regular date-time value or as an interval value (where the interval begins when the method invocation is received).</span></span> <span data-ttu-id="10647-128">當 *>powerstate* 參數等於 5 ( 「電源週期」 ) 時，時間參數會指出裝置應該重新開啟電源的 *時間* 。</span><span class="sxs-lookup"><span data-stu-id="10647-128">When the *PowerState* parameter is equal to 5 ("Power Cycle"), the *Time* parameter indicates when the device should power-on again.</span></span> <span data-ttu-id="10647-129">立即關閉電源。</span><span class="sxs-lookup"><span data-stu-id="10647-129">Power-off is immediate.</span></span>
+<span data-ttu-id="824de-127">指定何時應設定電源狀態，以做為一般日期時間值或做為間隔值， (在) 收到方法調用時的間隔開始時間。</span><span class="sxs-lookup"><span data-stu-id="824de-127">Specifies when the power state should be set, either as a regular date-time value or as an interval value (where the interval begins when the method invocation is received).</span></span> <span data-ttu-id="824de-128">當 *>powerstate* 參數等於 5 ( 「電源週期」 ) 時，時間參數會指出裝置應該重新開啟電源的 *時間* 。</span><span class="sxs-lookup"><span data-stu-id="824de-128">When the *PowerState* parameter is equal to 5 ("Power Cycle"), the *Time* parameter indicates when the device should power-on again.</span></span> <span data-ttu-id="824de-129">立即關閉電源。</span><span class="sxs-lookup"><span data-stu-id="824de-129">Power-off is immediate.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="10647-130">傳回值</span><span class="sxs-lookup"><span data-stu-id="10647-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="824de-130">傳回值</span><span class="sxs-lookup"><span data-stu-id="824de-130">Return value</span></span>
 
-<span data-ttu-id="10647-131">如果成功，則傳回 0 (零) 1 (一個) 如果不支援指定的 *>powerstate* 和 *時間* 要求，則傳回另一個值，如果發生任何其他錯誤，則傳回另一個值。</span><span class="sxs-lookup"><span data-stu-id="10647-131">Returns 0 (zero) if successful, 1 (one) if the specified *PowerState* and *Time* request is not supported, and another value if any other error occurred.</span></span>
+<span data-ttu-id="824de-131">如果成功，則傳回 0 (零) 1 (一個) 如果不支援指定的 *>powerstate* 和 *時間* 要求，則傳回另一個值，如果發生任何其他錯誤，則傳回另一個值。</span><span class="sxs-lookup"><span data-stu-id="824de-131">Returns 0 (zero) if successful, 1 (one) if the specified *PowerState* and *Time* request is not supported, and another value if any other error occurred.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="10647-132">備註</span><span class="sxs-lookup"><span data-stu-id="10647-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="824de-132">備註</span><span class="sxs-lookup"><span data-stu-id="824de-132">Remarks</span></span>
 
-<span data-ttu-id="10647-133">這個方法目前不是由 WMI 所執行。</span><span class="sxs-lookup"><span data-stu-id="10647-133">This method is currently not implemented by WMI.</span></span> <span data-ttu-id="10647-134">若要使用這個方法，您必須在自己的提供者中加以執行。</span><span class="sxs-lookup"><span data-stu-id="10647-134">To use this method, you must implement it in your own provider.</span></span>
+<span data-ttu-id="824de-133">這個方法目前不是由 WMI 所執行。</span><span class="sxs-lookup"><span data-stu-id="824de-133">This method is currently not implemented by WMI.</span></span> <span data-ttu-id="824de-134">若要使用這個方法，您必須在自己的提供者中加以執行。</span><span class="sxs-lookup"><span data-stu-id="824de-134">To use this method, you must implement it in your own provider.</span></span>
 
-<span data-ttu-id="10647-135">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="10647-135">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="10647-136">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="10647-136">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
+<span data-ttu-id="824de-135">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="824de-135">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="824de-136">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="824de-136">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="10647-137">規格需求</span><span class="sxs-lookup"><span data-stu-id="10647-137">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="824de-137">規格需求</span><span class="sxs-lookup"><span data-stu-id="824de-137">Requirements</span></span>
 
 
 
-| <span data-ttu-id="10647-138">需求</span><span class="sxs-lookup"><span data-stu-id="10647-138">Requirement</span></span> | <span data-ttu-id="10647-139">值</span><span class="sxs-lookup"><span data-stu-id="10647-139">Value</span></span> |
+| <span data-ttu-id="824de-138">需求</span><span class="sxs-lookup"><span data-stu-id="824de-138">Requirement</span></span> | <span data-ttu-id="824de-139">值</span><span class="sxs-lookup"><span data-stu-id="824de-139">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="10647-140">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="10647-140">Minimum supported client</span></span><br/> | <span data-ttu-id="10647-141">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="10647-141">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="10647-142">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="10647-142">Minimum supported server</span></span><br/> | <span data-ttu-id="10647-143">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="10647-143">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="10647-144">命名空間</span><span class="sxs-lookup"><span data-stu-id="10647-144">Namespace</span></span><br/>                | <span data-ttu-id="10647-145">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="10647-145">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="10647-146">MOF</span><span class="sxs-lookup"><span data-stu-id="10647-146">MOF</span></span><br/>                      | <dl> <span data-ttu-id="10647-147"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="10647-147"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="10647-148">DLL</span><span class="sxs-lookup"><span data-stu-id="10647-148">DLL</span></span><br/>                      | <dl> <span data-ttu-id="10647-149"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="10647-149"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="824de-140">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="824de-140">Minimum supported client</span></span><br/> | <span data-ttu-id="824de-141">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="824de-141">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="824de-142">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="824de-142">Minimum supported server</span></span><br/> | <span data-ttu-id="824de-143">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="824de-143">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="824de-144">命名空間</span><span class="sxs-lookup"><span data-stu-id="824de-144">Namespace</span></span><br/>                | <span data-ttu-id="824de-145">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="824de-145">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="824de-146">MOF</span><span class="sxs-lookup"><span data-stu-id="824de-146">MOF</span></span><br/>                      | <dl> <span data-ttu-id="824de-147"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="824de-147"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="824de-148">DLL</span><span class="sxs-lookup"><span data-stu-id="824de-148">DLL</span></span><br/>                      | <dl> <span data-ttu-id="824de-149"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="824de-149"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="10647-150">另請參閱</span><span class="sxs-lookup"><span data-stu-id="10647-150">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="824de-150">另請參閱</span><span class="sxs-lookup"><span data-stu-id="824de-150">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="10647-151">CIM \_ DesktopMonitor</span><span class="sxs-lookup"><span data-stu-id="10647-151">CIM\_DesktopMonitor</span></span>](setpowerstate-method-in-class-cim-desktopmonitor.md)
+[<span data-ttu-id="824de-151">CIM \_ DesktopMonitor</span><span class="sxs-lookup"><span data-stu-id="824de-151">CIM\_DesktopMonitor</span></span>](setpowerstate-method-in-class-cim-desktopmonitor.md)
 </dt> <dt>
 
-[<span data-ttu-id="10647-152">**CIM \_ DesktopMonitor**</span><span class="sxs-lookup"><span data-stu-id="10647-152">**CIM\_DesktopMonitor**</span></span>](cim-desktopmonitor.md)
+[<span data-ttu-id="824de-152">**CIM \_ DesktopMonitor**</span><span class="sxs-lookup"><span data-stu-id="824de-152">**CIM\_DesktopMonitor**</span></span>](cim-desktopmonitor.md)
 </dt> </dl>
 
  

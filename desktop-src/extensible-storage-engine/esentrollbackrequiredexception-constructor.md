@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691936"
 ---
-# <a name="esentrollbackrequiredexception-constructor"></a><span data-ttu-id="98f79-103">EsentRollbackRequiredException 函式</span><span class="sxs-lookup"><span data-stu-id="98f79-103">EsentRollbackRequiredException constructor</span></span>
+# <a name="esentrollbackrequiredexception-constructor"></a><span data-ttu-id="52850-103">EsentRollbackRequiredException 函式</span><span class="sxs-lookup"><span data-stu-id="52850-103">EsentRollbackRequiredException constructor</span></span>
 
-<span data-ttu-id="98f79-104">初始化 EsentRollbackRequiredException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="98f79-104">Initializes a new instance of the EsentRollbackRequiredException class.</span></span>
+<span data-ttu-id="52850-104">初始化 EsentRollbackRequiredException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="52850-104">Initializes a new instance of the EsentRollbackRequiredException class.</span></span>
 
-<span data-ttu-id="98f79-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="98f79-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="98f79-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="98f79-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="52850-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="52850-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="52850-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="52850-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="98f79-107">語法</span><span class="sxs-lookup"><span data-stu-id="98f79-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="52850-107">語法</span><span class="sxs-lookup"><span data-stu-id="52850-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentRollbackRequiredException()
 public EsentRollbackRequiredException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="98f79-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="98f79-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="52850-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="52850-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="98f79-109">參考</span><span class="sxs-lookup"><span data-stu-id="98f79-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="52850-109">參考</span><span class="sxs-lookup"><span data-stu-id="52850-109">Reference</span></span>
 
-[<span data-ttu-id="98f79-110">EsentRollbackRequiredException 類別</span><span class="sxs-lookup"><span data-stu-id="98f79-110">EsentRollbackRequiredException class</span></span>](./esentrollbackrequiredexception-class.md)
+[<span data-ttu-id="52850-110">EsentRollbackRequiredException 類別</span><span class="sxs-lookup"><span data-stu-id="52850-110">EsentRollbackRequiredException class</span></span>](./esentrollbackrequiredexception-class.md)
 
-[<span data-ttu-id="98f79-111">EsentRollbackRequiredException 成員</span><span class="sxs-lookup"><span data-stu-id="98f79-111">EsentRollbackRequiredException members</span></span>](./esentrollbackrequiredexception-members.md)
+[<span data-ttu-id="52850-111">EsentRollbackRequiredException 成員</span><span class="sxs-lookup"><span data-stu-id="52850-111">EsentRollbackRequiredException members</span></span>](./esentrollbackrequiredexception-members.md)
 
-[<span data-ttu-id="98f79-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="98f79-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="52850-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="52850-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

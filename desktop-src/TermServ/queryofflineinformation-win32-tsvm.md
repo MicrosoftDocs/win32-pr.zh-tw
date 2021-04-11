@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843844"
 ---
-# <a name="queryofflineinformation-method-of-the-win32_tsvm-class"></a><span data-ttu-id="481fd-106">Win32 TSVm 類別的 QueryOfflineInformation 方法 \_</span><span class="sxs-lookup"><span data-stu-id="481fd-106">QueryOfflineInformation method of the Win32\_TSVm class</span></span>
+# <a name="queryofflineinformation-method-of-the-win32_tsvm-class"></a><span data-ttu-id="dd64f-106">Win32 TSVm 類別的 QueryOfflineInformation 方法 \_</span><span class="sxs-lookup"><span data-stu-id="dd64f-106">QueryOfflineInformation method of the Win32\_TSVm class</span></span>
 
-<span data-ttu-id="481fd-107">)  (的虛擬桌面伺服器的屬性，但是只有在伺服器離線時，才會加以抓取。</span><span class="sxs-lookup"><span data-stu-id="481fd-107">Retrieves the properties of the current virtual desktop server (VDS), but only when the server is offline.</span></span>
+<span data-ttu-id="dd64f-107">)  (的虛擬桌面伺服器的屬性，但是只有在伺服器離線時，才會加以抓取。</span><span class="sxs-lookup"><span data-stu-id="dd64f-107">Retrieves the properties of the current virtual desktop server (VDS), but only when the server is offline.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="481fd-108">語法</span><span class="sxs-lookup"><span data-stu-id="481fd-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dd64f-108">語法</span><span class="sxs-lookup"><span data-stu-id="dd64f-108">Syntax</span></span>
 
 
 ```mof
@@ -47,110 +47,110 @@ uint32 QueryOfflineInformation(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="481fd-109">參數</span><span class="sxs-lookup"><span data-stu-id="481fd-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="dd64f-109">參數</span><span class="sxs-lookup"><span data-stu-id="dd64f-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="481fd-110">*組建* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="481fd-110">*Build* \[out\]</span></span>
+<span data-ttu-id="dd64f-110">*組建* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dd64f-110">*Build* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-111">成功時，會傳回 VDS 的組建版本。</span><span class="sxs-lookup"><span data-stu-id="481fd-111">On a success, returns the build version of the VDS.</span></span>
+<span data-ttu-id="dd64f-111">成功時，會傳回 VDS 的組建版本。</span><span class="sxs-lookup"><span data-stu-id="dd64f-111">On a success, returns the build version of the VDS.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="481fd-112">*CurrentVersion* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="481fd-112">*CurrentVersion* \[out\]</span></span>
+<span data-ttu-id="dd64f-112">*CurrentVersion* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dd64f-112">*CurrentVersion* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-113">成功時，會傳回 VDS 的目前版本。</span><span class="sxs-lookup"><span data-stu-id="481fd-113">On a success, returns the current version of the VDS.</span></span>
+<span data-ttu-id="dd64f-113">成功時，會傳回 VDS 的目前版本。</span><span class="sxs-lookup"><span data-stu-id="dd64f-113">On a success, returns the current version of the VDS.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="481fd-114">*InstallationType* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="481fd-114">*InstallationType* \[out\]</span></span>
+<span data-ttu-id="dd64f-114">*InstallationType* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dd64f-114">*InstallationType* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-115">成功時，會傳回 VDS 的安裝類型。</span><span class="sxs-lookup"><span data-stu-id="481fd-115">On a success, returns the installation type of the VDS.</span></span>
+<span data-ttu-id="dd64f-115">成功時，會傳回 VDS 的安裝類型。</span><span class="sxs-lookup"><span data-stu-id="dd64f-115">On a success, returns the installation type of the VDS.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="481fd-116">*EditionId* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="481fd-116">*EditionId* \[out\]</span></span>
+<span data-ttu-id="dd64f-116">*EditionId* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dd64f-116">*EditionId* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-117">成功時，會傳回 VDS 的版本識別碼。</span><span class="sxs-lookup"><span data-stu-id="481fd-117">On a success, returns the edition ID of the VDS.</span></span>
+<span data-ttu-id="dd64f-117">成功時，會傳回 VDS 的版本識別碼。</span><span class="sxs-lookup"><span data-stu-id="dd64f-117">On a success, returns the edition ID of the VDS.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="481fd-118">*SysPrepImageState* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="481fd-118">*SysPrepImageState* \[out\]</span></span>
+<span data-ttu-id="dd64f-118">*SysPrepImageState* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dd64f-118">*SysPrepImageState* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-119">成功時，會傳回 VDS 的系統準備映射狀態。</span><span class="sxs-lookup"><span data-stu-id="481fd-119">On success, returns the system prep image state of the VDS.</span></span>
+<span data-ttu-id="dd64f-119">成功時，會傳回 VDS 的系統準備映射狀態。</span><span class="sxs-lookup"><span data-stu-id="dd64f-119">On success, returns the system prep image state of the VDS.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="481fd-120">*SysPrepMode* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="481fd-120">*SysPrepMode* \[out\]</span></span>
+<span data-ttu-id="dd64f-120">*SysPrepMode* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dd64f-120">*SysPrepMode* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-121">成功時，會傳回 VDS 的系統準備模式。</span><span class="sxs-lookup"><span data-stu-id="481fd-121">On a success, returns the system prep mode of the VDS.</span></span>
+<span data-ttu-id="dd64f-121">成功時，會傳回 VDS 的系統準備模式。</span><span class="sxs-lookup"><span data-stu-id="dd64f-121">On a success, returns the system prep mode of the VDS.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="481fd-122">*ProcArch* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="481fd-122">*ProcArch* \[out\]</span></span>
+<span data-ttu-id="dd64f-122">*ProcArch* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dd64f-122">*ProcArch* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-123">成功時，會傳回表示處理器架構的值。</span><span class="sxs-lookup"><span data-stu-id="481fd-123">On a success, returns a value indicating the processor architecture.</span></span>
+<span data-ttu-id="dd64f-123">成功時，會傳回表示處理器架構的值。</span><span class="sxs-lookup"><span data-stu-id="dd64f-123">On a success, returns a value indicating the processor architecture.</span></span>
 
 <dt>
 
-<span data-ttu-id="481fd-124">0</span><span class="sxs-lookup"><span data-stu-id="481fd-124">0</span></span>
+<span data-ttu-id="dd64f-124">0</span><span class="sxs-lookup"><span data-stu-id="dd64f-124">0</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-125">x86</span><span class="sxs-lookup"><span data-stu-id="481fd-125">x86</span></span>
+<span data-ttu-id="dd64f-125">x86</span><span class="sxs-lookup"><span data-stu-id="dd64f-125">x86</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="481fd-126">1</span><span class="sxs-lookup"><span data-stu-id="481fd-126">1</span></span>
+<span data-ttu-id="dd64f-126">1</span><span class="sxs-lookup"><span data-stu-id="dd64f-126">1</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-127">amd64</span><span class="sxs-lookup"><span data-stu-id="481fd-127">amd64</span></span>
+<span data-ttu-id="dd64f-127">amd64</span><span class="sxs-lookup"><span data-stu-id="dd64f-127">amd64</span></span>
 
 </dd> </dl> </dd> <dt>
 
-<span data-ttu-id="481fd-128">*fIsVmbusCapable* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="481fd-128">*fIsVmbusCapable* \[out\]</span></span>
+<span data-ttu-id="dd64f-128">*fIsVmbusCapable* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dd64f-128">*fIsVmbusCapable* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-129">成功時，會指出系統是否支援 VMBus。</span><span class="sxs-lookup"><span data-stu-id="481fd-129">on a success, indicates whether the system is VMBus-capable.</span></span>
+<span data-ttu-id="dd64f-129">成功時，會指出系統是否支援 VMBus。</span><span class="sxs-lookup"><span data-stu-id="dd64f-129">on a success, indicates whether the system is VMBus-capable.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="481fd-130">*fIsRdvIcInstalled* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="481fd-130">*fIsRdvIcInstalled* \[out\]</span></span>
+<span data-ttu-id="dd64f-130">*fIsRdvIcInstalled* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="dd64f-130">*fIsRdvIcInstalled* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="481fd-131">成功時，表示是否已安裝 RDVIC。</span><span class="sxs-lookup"><span data-stu-id="481fd-131">On a success, indicates if RDVIC is installed.</span></span>
+<span data-ttu-id="dd64f-131">成功時，表示是否已安裝 RDVIC。</span><span class="sxs-lookup"><span data-stu-id="dd64f-131">On a success, indicates if RDVIC is installed.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="481fd-132">傳回值</span><span class="sxs-lookup"><span data-stu-id="481fd-132">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dd64f-132">傳回值</span><span class="sxs-lookup"><span data-stu-id="dd64f-132">Return value</span></span>
 
-<span data-ttu-id="481fd-133">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="481fd-133">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="481fd-134">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="481fd-134">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
+<span data-ttu-id="dd64f-133">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="dd64f-133">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="dd64f-134">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="dd64f-134">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="481fd-135">規格需求</span><span class="sxs-lookup"><span data-stu-id="481fd-135">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="dd64f-135">規格需求</span><span class="sxs-lookup"><span data-stu-id="dd64f-135">Requirements</span></span>
 
 
 
-| <span data-ttu-id="481fd-136">需求</span><span class="sxs-lookup"><span data-stu-id="481fd-136">Requirement</span></span> | <span data-ttu-id="481fd-137">值</span><span class="sxs-lookup"><span data-stu-id="481fd-137">Value</span></span> |
+| <span data-ttu-id="dd64f-136">需求</span><span class="sxs-lookup"><span data-stu-id="dd64f-136">Requirement</span></span> | <span data-ttu-id="dd64f-137">值</span><span class="sxs-lookup"><span data-stu-id="dd64f-137">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| <span data-ttu-id="481fd-138">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="481fd-138">Minimum supported client</span></span><br/> | <span data-ttu-id="481fd-139">都不支援</span><span class="sxs-lookup"><span data-stu-id="481fd-139">None supported</span></span><br/>                                                                  |
-| <span data-ttu-id="481fd-140">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="481fd-140">Minimum supported server</span></span><br/> | <span data-ttu-id="481fd-141">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="481fd-141">Windows Server 2012</span></span><br/>                                                             |
-| <span data-ttu-id="481fd-142">命名空間</span><span class="sxs-lookup"><span data-stu-id="481fd-142">Namespace</span></span><br/>                | <span data-ttu-id="481fd-143">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="481fd-143">Root\\CIMv2\\TerminalServices</span></span><br/>                                                   |
-| <span data-ttu-id="481fd-144">MOF</span><span class="sxs-lookup"><span data-stu-id="481fd-144">MOF</span></span><br/>                      | <dl> <span data-ttu-id="481fd-145"><dt>TSVmHost mof</dt></span><span class="sxs-lookup"><span data-stu-id="481fd-145"><dt>TSVmHost.mof</dt></span></span> </dl>    |
-| <span data-ttu-id="481fd-146">DLL</span><span class="sxs-lookup"><span data-stu-id="481fd-146">DLL</span></span><br/>                      | <dl> <span data-ttu-id="481fd-147"><dt>TSVmHostWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="481fd-147"><dt>TSVmHostWmi.dll</dt></span></span> </dl> |
+| <span data-ttu-id="dd64f-138">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="dd64f-138">Minimum supported client</span></span><br/> | <span data-ttu-id="dd64f-139">都不支援</span><span class="sxs-lookup"><span data-stu-id="dd64f-139">None supported</span></span><br/>                                                                  |
+| <span data-ttu-id="dd64f-140">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="dd64f-140">Minimum supported server</span></span><br/> | <span data-ttu-id="dd64f-141">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="dd64f-141">Windows Server 2012</span></span><br/>                                                             |
+| <span data-ttu-id="dd64f-142">命名空間</span><span class="sxs-lookup"><span data-stu-id="dd64f-142">Namespace</span></span><br/>                | <span data-ttu-id="dd64f-143">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="dd64f-143">Root\\CIMv2\\TerminalServices</span></span><br/>                                                   |
+| <span data-ttu-id="dd64f-144">MOF</span><span class="sxs-lookup"><span data-stu-id="dd64f-144">MOF</span></span><br/>                      | <dl> <span data-ttu-id="dd64f-145"><dt>TSVmHost mof</dt></span><span class="sxs-lookup"><span data-stu-id="dd64f-145"><dt>TSVmHost.mof</dt></span></span> </dl>    |
+| <span data-ttu-id="dd64f-146">DLL</span><span class="sxs-lookup"><span data-stu-id="dd64f-146">DLL</span></span><br/>                      | <dl> <span data-ttu-id="dd64f-147"><dt>TSVmHostWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="dd64f-147"><dt>TSVmHostWmi.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="481fd-148">另請參閱</span><span class="sxs-lookup"><span data-stu-id="481fd-148">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dd64f-148">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dd64f-148">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="481fd-149">**Win32 \_ TSVm**</span><span class="sxs-lookup"><span data-stu-id="481fd-149">**Win32\_TSVm**</span></span>](win32-tsvm.md)
+[<span data-ttu-id="dd64f-149">**Win32 \_ TSVm**</span><span class="sxs-lookup"><span data-stu-id="dd64f-149">**Win32\_TSVm**</span></span>](win32-tsvm.md)
 </dt> </dl>
 
  
