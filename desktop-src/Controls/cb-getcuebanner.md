@@ -21,51 +21,51 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843823"
 ---
-# <a name="cb_getcuebanner-message"></a><span data-ttu-id="17df6-105">CB \_ GETCUEBANNER 訊息</span><span class="sxs-lookup"><span data-stu-id="17df6-105">CB\_GETCUEBANNER message</span></span>
+# <a name="cb_getcuebanner-message"></a><span data-ttu-id="e83e3-105">CB \_ GETCUEBANNER 訊息</span><span class="sxs-lookup"><span data-stu-id="e83e3-105">CB\_GETCUEBANNER message</span></span>
 
-<span data-ttu-id="17df6-106">取得在下拉式方塊的編輯控制項中顯示的提示橫幅文字。</span><span class="sxs-lookup"><span data-stu-id="17df6-106">Gets the cue banner text displayed in the edit control of a combo box.</span></span> <span data-ttu-id="17df6-107">明確地傳送此訊息，或使用 [**ComboBox \_ GetCueBannerText**](/windows/desktop/api/Commctrl/nf-commctrl-combobox_getcuebannertext) 宏。</span><span class="sxs-lookup"><span data-stu-id="17df6-107">Send this message explicitly or by using the [**ComboBox\_GetCueBannerText**](/windows/desktop/api/Commctrl/nf-commctrl-combobox_getcuebannertext) macro.</span></span>
+<span data-ttu-id="e83e3-106">取得在下拉式方塊的編輯控制項中顯示的提示橫幅文字。</span><span class="sxs-lookup"><span data-stu-id="e83e3-106">Gets the cue banner text displayed in the edit control of a combo box.</span></span> <span data-ttu-id="e83e3-107">明確地傳送此訊息，或使用 [**ComboBox \_ GetCueBannerText**](/windows/desktop/api/Commctrl/nf-commctrl-combobox_getcuebannertext) 宏。</span><span class="sxs-lookup"><span data-stu-id="e83e3-107">Send this message explicitly or by using the [**ComboBox\_GetCueBannerText**](/windows/desktop/api/Commctrl/nf-commctrl-combobox_getcuebannertext) macro.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="17df6-108">參數</span><span class="sxs-lookup"><span data-stu-id="17df6-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e83e3-108">參數</span><span class="sxs-lookup"><span data-stu-id="e83e3-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="17df6-109">*wParam* \[在\]</span><span class="sxs-lookup"><span data-stu-id="17df6-109">*wParam* \[in\]</span></span>
+<span data-ttu-id="e83e3-109">*wParam* \[在\]</span><span class="sxs-lookup"><span data-stu-id="e83e3-109">*wParam* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="17df6-110">Unicode 字串緩衝區的指標，此緩衝區會接收提示橫幅文字。</span><span class="sxs-lookup"><span data-stu-id="17df6-110">A pointer to a Unicode string buffer that receives the cue banner text.</span></span> <span data-ttu-id="17df6-111">呼叫應用程式負責配置緩衝區的記憶體。</span><span class="sxs-lookup"><span data-stu-id="17df6-111">The calling application is responsible for allocating the memory for the buffer.</span></span> <span data-ttu-id="17df6-112">緩衝區大小必須等於 **WCHARs** 中的提示橫幅字串長度，再加上1表示終止的 **Null** **WCHAR**。</span><span class="sxs-lookup"><span data-stu-id="17df6-112">The buffer size must be equal to the length of the cue banner string in **WCHARs**, plus 1 for the terminating **NULL** **WCHAR**.</span></span>
+<span data-ttu-id="e83e3-110">Unicode 字串緩衝區的指標，此緩衝區會接收提示橫幅文字。</span><span class="sxs-lookup"><span data-stu-id="e83e3-110">A pointer to a Unicode string buffer that receives the cue banner text.</span></span> <span data-ttu-id="e83e3-111">呼叫應用程式負責配置緩衝區的記憶體。</span><span class="sxs-lookup"><span data-stu-id="e83e3-111">The calling application is responsible for allocating the memory for the buffer.</span></span> <span data-ttu-id="e83e3-112">緩衝區大小必須等於 **WCHARs** 中的提示橫幅字串長度，再加上1表示終止的 **Null** **WCHAR**。</span><span class="sxs-lookup"><span data-stu-id="e83e3-112">The buffer size must be equal to the length of the cue banner string in **WCHARs**, plus 1 for the terminating **NULL** **WCHAR**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="17df6-113">*lParam* \[在\]</span><span class="sxs-lookup"><span data-stu-id="17df6-113">*lParam* \[in\]</span></span>
+<span data-ttu-id="e83e3-113">*lParam* \[在\]</span><span class="sxs-lookup"><span data-stu-id="e83e3-113">*lParam* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="17df6-114">*LpcwText* 在 **WCHARs** 中所指向的緩衝區大小。</span><span class="sxs-lookup"><span data-stu-id="17df6-114">The size of the buffer pointed to by *lpcwText* in **WCHARs**.</span></span>
+<span data-ttu-id="e83e3-114">*LpcwText* 在 **WCHARs** 中所指向的緩衝區大小。</span><span class="sxs-lookup"><span data-stu-id="e83e3-114">The size of the buffer pointed to by *lpcwText* in **WCHARs**.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="17df6-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="17df6-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e83e3-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="e83e3-115">Return value</span></span>
 
-<span data-ttu-id="17df6-116">如果成功，則傳回1，否則會傳回錯誤值。</span><span class="sxs-lookup"><span data-stu-id="17df6-116">Returns 1 if successful, or an error value otherwise.</span></span>
+<span data-ttu-id="e83e3-116">如果成功，則傳回1，否則會傳回錯誤值。</span><span class="sxs-lookup"><span data-stu-id="e83e3-116">Returns 1 if successful, or an error value otherwise.</span></span>
 
-<span data-ttu-id="17df6-117">如果沒有要取得的提示橫幅文字，則傳回值為0。</span><span class="sxs-lookup"><span data-stu-id="17df6-117">If there is no cue banner text to get, the return value is 0.</span></span> <span data-ttu-id="17df6-118">如果呼叫的應用程式無法配置緩衝區，或在傳送此訊息之前設定 *lParam* ，則可能會產生未定義的行為，而且傳回值可能不可靠。</span><span class="sxs-lookup"><span data-stu-id="17df6-118">If the calling application fails to allocate a buffer, or set *lParam* before sending this message, undefined behavior may result and the return value may not be reliable.</span></span>
+<span data-ttu-id="e83e3-117">如果沒有要取得的提示橫幅文字，則傳回值為0。</span><span class="sxs-lookup"><span data-stu-id="e83e3-117">If there is no cue banner text to get, the return value is 0.</span></span> <span data-ttu-id="e83e3-118">如果呼叫的應用程式無法配置緩衝區，或在傳送此訊息之前設定 *lParam* ，則可能會產生未定義的行為，而且傳回值可能不可靠。</span><span class="sxs-lookup"><span data-stu-id="e83e3-118">If the calling application fails to allocate a buffer, or set *lParam* before sending this message, undefined behavior may result and the return value may not be reliable.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="17df6-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="17df6-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e83e3-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="e83e3-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="17df6-120">需求</span><span class="sxs-lookup"><span data-stu-id="17df6-120">Requirement</span></span> | <span data-ttu-id="17df6-121">值</span><span class="sxs-lookup"><span data-stu-id="17df6-121">Value</span></span> |
+| <span data-ttu-id="e83e3-120">需求</span><span class="sxs-lookup"><span data-stu-id="e83e3-120">Requirement</span></span> | <span data-ttu-id="e83e3-121">值</span><span class="sxs-lookup"><span data-stu-id="e83e3-121">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="17df6-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="17df6-122">Minimum supported client</span></span><br/> | <span data-ttu-id="17df6-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="17df6-123">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="17df6-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="17df6-124">Minimum supported server</span></span><br/> | <span data-ttu-id="17df6-125">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="17df6-125">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="17df6-126">標頭</span><span class="sxs-lookup"><span data-stu-id="17df6-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="17df6-127"><dt>CommCtrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="17df6-127"><dt>CommCtrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="e83e3-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e83e3-122">Minimum supported client</span></span><br/> | <span data-ttu-id="e83e3-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e83e3-123">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="e83e3-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e83e3-124">Minimum supported server</span></span><br/> | <span data-ttu-id="e83e3-125">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e83e3-125">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="e83e3-126">標頭</span><span class="sxs-lookup"><span data-stu-id="e83e3-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="e83e3-127"><dt>CommCtrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="e83e3-127"><dt>CommCtrl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="17df6-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="17df6-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e83e3-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e83e3-128">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="17df6-129">下拉式列示方塊功能</span><span class="sxs-lookup"><span data-stu-id="17df6-129">Combo Box Features</span></span>](combo-box-features.md)
+[<span data-ttu-id="e83e3-129">下拉式列示方塊功能</span><span class="sxs-lookup"><span data-stu-id="e83e3-129">Combo Box Features</span></span>](combo-box-features.md)
 </dt> </dl>
 
  

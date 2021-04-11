@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691176"
 ---
-# <a name="comm"></a><span data-ttu-id="72ef5-104">通訊</span><span class="sxs-lookup"><span data-stu-id="72ef5-104">comm</span></span>
+# <a name="comm"></a><span data-ttu-id="a64ef-104">通訊</span><span class="sxs-lookup"><span data-stu-id="a64ef-104">comm</span></span>
 
-<span data-ttu-id="72ef5-105">通訊裝置類別包含通訊埠。</span><span class="sxs-lookup"><span data-stu-id="72ef5-105">The comm device class consists of communications ports.</span></span> <span data-ttu-id="72ef5-106">您可以使用[檔案和](/windows/desktop/FileIO/file-management-functions)[通訊功能](/windows/desktop/DevIO/communications-functions)來存取這些裝置。</span><span class="sxs-lookup"><span data-stu-id="72ef5-106">You access these devices by using the [file](/windows/desktop/FileIO/file-management-functions) and [communications functions](/windows/desktop/DevIO/communications-functions).</span></span>
+<span data-ttu-id="a64ef-105">通訊裝置類別包含通訊埠。</span><span class="sxs-lookup"><span data-stu-id="a64ef-105">The comm device class consists of communications ports.</span></span> <span data-ttu-id="a64ef-106">您可以使用[檔案和](/windows/desktop/FileIO/file-management-functions)[通訊功能](/windows/desktop/DevIO/communications-functions)來存取這些裝置。</span><span class="sxs-lookup"><span data-stu-id="a64ef-106">You access these devices by using the [file](/windows/desktop/FileIO/file-management-functions) and [communications functions](/windows/desktop/DevIO/communications-functions).</span></span>
 
-<span data-ttu-id="72ef5-107">[**LineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid)函式會填滿 [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring)結構、將 **dwStringFormat** 成員設定為 STRINGFORMAT \_ ASCII 值，並附加以 null 終止的字串，以指定通訊裝置的名稱 (例如數據機名稱) 。</span><span class="sxs-lookup"><span data-stu-id="72ef5-107">The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) function fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring) structure, setting the **dwStringFormat** member to the STRINGFORMAT\_ASCII value and appending a null-terminated string that specifies the name of the communication device (such as the modem name).</span></span>
+<span data-ttu-id="a64ef-107">[**LineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid)函式會填滿 [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring)結構、將 **dwStringFormat** 成員設定為 STRINGFORMAT \_ ASCII 值，並附加以 null 終止的字串，以指定通訊裝置的名稱 (例如數據機名稱) 。</span><span class="sxs-lookup"><span data-stu-id="a64ef-107">The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) function fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring) structure, setting the **dwStringFormat** member to the STRINGFORMAT\_ASCII value and appending a null-terminated string that specifies the name of the communication device (such as the modem name).</span></span>
 
  
 

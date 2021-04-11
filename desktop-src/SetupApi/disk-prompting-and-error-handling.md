@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943659"
 ---
-# <a name="disk-prompting-and-error-handling"></a><span data-ttu-id="2e413-103">磁片提示和錯誤處理</span><span class="sxs-lookup"><span data-stu-id="2e413-103">Disk Prompting and Error Handling</span></span>
+# <a name="disk-prompting-and-error-handling"></a><span data-ttu-id="933a2-103">磁片提示和錯誤處理</span><span class="sxs-lookup"><span data-stu-id="933a2-103">Disk Prompting and Error Handling</span></span>
 
-<span data-ttu-id="2e413-104">有四個設定函數可提供基本功能，以提示使用者輸入新的來源磁片或建立錯誤對話方塊。</span><span class="sxs-lookup"><span data-stu-id="2e413-104">There are four setup functions that provide basic functionality to prompt the user for a new source disk or to create error dialog boxes.</span></span>
+<span data-ttu-id="933a2-104">有四個設定函數可提供基本功能，以提示使用者輸入新的來源磁片或建立錯誤對話方塊。</span><span class="sxs-lookup"><span data-stu-id="933a2-104">There are four setup functions that provide basic functionality to prompt the user for a new source disk or to create error dialog boxes.</span></span>
 
-<span data-ttu-id="2e413-105">有四個設定函數可提供基本功能，以提示使用者輸入新的來源磁片或建立錯誤對話方塊。</span><span class="sxs-lookup"><span data-stu-id="2e413-105">There are four setup functions that provide basic functionality to prompt the user for a new source disk or to create error dialog boxes.</span></span> <span data-ttu-id="2e413-106">下列各節說明這些對話方塊，以及如何在安裝應用程式和回呼常式中使用這些對話方塊：</span><span class="sxs-lookup"><span data-stu-id="2e413-106">The following sections describe these dialog boxes and how to use them in setup applications and in callback routines:</span></span>
+<span data-ttu-id="933a2-105">有四個設定函數可提供基本功能，以提示使用者輸入新的來源磁片或建立錯誤對話方塊。</span><span class="sxs-lookup"><span data-stu-id="933a2-105">There are four setup functions that provide basic functionality to prompt the user for a new source disk or to create error dialog boxes.</span></span> <span data-ttu-id="933a2-106">下列各節說明這些對話方塊，以及如何在安裝應用程式和回呼常式中使用這些對話方塊：</span><span class="sxs-lookup"><span data-stu-id="933a2-106">The following sections describe these dialog boxes and how to use them in setup applications and in callback routines:</span></span>
 
--   [<span data-ttu-id="2e413-107">關於磁片提示和錯誤處理</span><span class="sxs-lookup"><span data-stu-id="2e413-107">About Disk Prompting and Error Handling</span></span>](about-disk-prompting-and-error-handling.md)
--   [<span data-ttu-id="2e413-108">使用磁片提示和錯誤處理</span><span class="sxs-lookup"><span data-stu-id="2e413-108">Using Disk Prompting and Error Handling</span></span>](using-disk-prompting-and-error-handling.md)
--   [<span data-ttu-id="2e413-109">磁片提示和錯誤處理參考</span><span class="sxs-lookup"><span data-stu-id="2e413-109">Disk Prompting and Error Handling Reference</span></span>](disk-prompting-and-error-handling-reference.md)
+-   [<span data-ttu-id="933a2-107">關於磁片提示和錯誤處理</span><span class="sxs-lookup"><span data-stu-id="933a2-107">About Disk Prompting and Error Handling</span></span>](about-disk-prompting-and-error-handling.md)
+-   [<span data-ttu-id="933a2-108">使用磁片提示和錯誤處理</span><span class="sxs-lookup"><span data-stu-id="933a2-108">Using Disk Prompting and Error Handling</span></span>](using-disk-prompting-and-error-handling.md)
+-   [<span data-ttu-id="933a2-109">磁片提示和錯誤處理參考</span><span class="sxs-lookup"><span data-stu-id="933a2-109">Disk Prompting and Error Handling Reference</span></span>](disk-prompting-and-error-handling-reference.md)
 
  
 

@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943596"
 ---
-# <a name="esentmissingpatchpageexception-constructor"></a><span data-ttu-id="8317a-103">EsentMissingPatchPageException 函式</span><span class="sxs-lookup"><span data-stu-id="8317a-103">EsentMissingPatchPageException constructor</span></span>
+# <a name="esentmissingpatchpageexception-constructor"></a><span data-ttu-id="f18d9-103">EsentMissingPatchPageException 函式</span><span class="sxs-lookup"><span data-stu-id="f18d9-103">EsentMissingPatchPageException constructor</span></span>
 
-<span data-ttu-id="8317a-104">初始化 EsentMissingPatchPageException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="8317a-104">Initializes a new instance of the EsentMissingPatchPageException class.</span></span>
+<span data-ttu-id="f18d9-104">初始化 EsentMissingPatchPageException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="f18d9-104">Initializes a new instance of the EsentMissingPatchPageException class.</span></span>
 
-<span data-ttu-id="8317a-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="8317a-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="8317a-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8317a-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="f18d9-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="f18d9-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="f18d9-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f18d9-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8317a-107">語法</span><span class="sxs-lookup"><span data-stu-id="8317a-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f18d9-107">語法</span><span class="sxs-lookup"><span data-stu-id="f18d9-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentMissingPatchPageException()
 public EsentMissingPatchPageException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="8317a-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8317a-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f18d9-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f18d9-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="8317a-109">參考</span><span class="sxs-lookup"><span data-stu-id="8317a-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="f18d9-109">參考</span><span class="sxs-lookup"><span data-stu-id="f18d9-109">Reference</span></span>
 
-[<span data-ttu-id="8317a-110">EsentMissingPatchPageException 類別</span><span class="sxs-lookup"><span data-stu-id="8317a-110">EsentMissingPatchPageException class</span></span>](./esentmissingpatchpageexception-class.md)
+[<span data-ttu-id="f18d9-110">EsentMissingPatchPageException 類別</span><span class="sxs-lookup"><span data-stu-id="f18d9-110">EsentMissingPatchPageException class</span></span>](./esentmissingpatchpageexception-class.md)
 
-[<span data-ttu-id="8317a-111">EsentMissingPatchPageException 成員</span><span class="sxs-lookup"><span data-stu-id="8317a-111">EsentMissingPatchPageException members</span></span>](./esentmissingpatchpageexception-members.md)
+[<span data-ttu-id="f18d9-111">EsentMissingPatchPageException 成員</span><span class="sxs-lookup"><span data-stu-id="f18d9-111">EsentMissingPatchPageException members</span></span>](./esentmissingpatchpageexception-members.md)
 
-[<span data-ttu-id="8317a-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="8317a-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="f18d9-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="f18d9-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

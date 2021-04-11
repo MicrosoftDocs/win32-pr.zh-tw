@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690411"
 ---
-# <a name="event-objects-in-the-windows-sockets-2-spi"></a><span data-ttu-id="2ce8d-103">Windows 通訊端 2 SPI 中的事件物件</span><span class="sxs-lookup"><span data-stu-id="2ce8d-103">Event Objects in the Windows Sockets 2 SPI</span></span>
+# <a name="event-objects-in-the-windows-sockets-2-spi"></a><span data-ttu-id="a46a0-103">Windows 通訊端 2 SPI 中的事件物件</span><span class="sxs-lookup"><span data-stu-id="a46a0-103">Event Objects in the Windows Sockets 2 SPI</span></span>
 
-<span data-ttu-id="2ce8d-104">事件物件會在 Windows 通訊端2中引進，作為 Winsock 服務提供者和應用程式之間的一般同步處理機制。</span><span class="sxs-lookup"><span data-stu-id="2ce8d-104">Event objects are introduced in Windows Sockets 2 as a general synchronization mechanism between Winsock service providers and applications.</span></span> <span data-ttu-id="2ce8d-105">這些用途有許多用途，包括指出重迭作業的完成，以及一或多個網路事件的發生次數。</span><span class="sxs-lookup"><span data-stu-id="2ce8d-105">They are used for a number of purposes that include indicating the completion of overlapped operations and the occurrence of one or more network events.</span></span>
+<span data-ttu-id="a46a0-104">事件物件會在 Windows 通訊端2中引進，作為 Winsock 服務提供者和應用程式之間的一般同步處理機制。</span><span class="sxs-lookup"><span data-stu-id="a46a0-104">Event objects are introduced in Windows Sockets 2 as a general synchronization mechanism between Winsock service providers and applications.</span></span> <span data-ttu-id="a46a0-105">這些用途有許多用途，包括指出重迭作業的完成，以及一或多個網路事件的發生次數。</span><span class="sxs-lookup"><span data-stu-id="a46a0-105">They are used for a number of purposes that include indicating the completion of overlapped operations and the occurrence of one or more network events.</span></span>
 
  
 

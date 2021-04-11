@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943482"
 ---
-# <a name="idownloadprogresschangedcallback-methods"></a><span data-ttu-id="63621-103">IDownloadProgressChangedCallback 方法</span><span class="sxs-lookup"><span data-stu-id="63621-103">IDownloadProgressChangedCallback Methods</span></span>
+# <a name="idownloadprogresschangedcallback-methods"></a><span data-ttu-id="ea489-103">IDownloadProgressChangedCallback 方法</span><span class="sxs-lookup"><span data-stu-id="ea489-103">IDownloadProgressChangedCallback Methods</span></span>
 
-<span data-ttu-id="63621-104">[**IDownloadProgressChangedCallback**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadprogresschangedcallback)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="63621-104">The [**IDownloadProgressChangedCallback**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadprogresschangedcallback) interface defines the following method.</span></span>
+<span data-ttu-id="ea489-104">[**IDownloadProgressChangedCallback**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadprogresschangedcallback)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="ea489-104">The [**IDownloadProgressChangedCallback**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadprogresschangedcallback) interface defines the following method.</span></span>
 
 
 
-| <span data-ttu-id="63621-105">方法</span><span class="sxs-lookup"><span data-stu-id="63621-105">Method</span></span>                                                    | <span data-ttu-id="63621-106">描述</span><span class="sxs-lookup"><span data-stu-id="63621-106">Description</span></span>                                                                                                                                                                                |
+| <span data-ttu-id="ea489-105">方法</span><span class="sxs-lookup"><span data-stu-id="ea489-105">Method</span></span>                                                    | <span data-ttu-id="ea489-106">描述</span><span class="sxs-lookup"><span data-stu-id="ea489-106">Description</span></span>                                                                                                                                                                                |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="63621-107">**調用**</span><span class="sxs-lookup"><span data-stu-id="63621-107">**Invoke**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke) | <span data-ttu-id="63621-108">處理非同步下載進度的變更通知，此作業是藉由呼叫 [**IUpdateDownloader. BeginDownload**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-begindownload)所起始。</span><span class="sxs-lookup"><span data-stu-id="63621-108">Handles the notification of a change in the progress of an asynchronous download that was initiated by calling [**IUpdateDownloader.BeginDownload**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-begindownload).</span></span> |
+| [<span data-ttu-id="ea489-107">**調用**</span><span class="sxs-lookup"><span data-stu-id="ea489-107">**Invoke**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke) | <span data-ttu-id="ea489-108">處理非同步下載進度的變更通知，此作業是藉由呼叫 [**IUpdateDownloader. BeginDownload**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-begindownload)所起始。</span><span class="sxs-lookup"><span data-stu-id="ea489-108">Handles the notification of a change in the progress of an asynchronous download that was initiated by calling [**IUpdateDownloader.BeginDownload**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-begindownload).</span></span> |
 
 
 

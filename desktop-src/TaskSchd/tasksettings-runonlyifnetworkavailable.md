@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844060"
 ---
-# <a name="tasksettingsrunonlyifnetworkavailable-property"></a><span data-ttu-id="86591-106">TaskSettings. RunOnlyIfNetworkAvailable 屬性</span><span class="sxs-lookup"><span data-stu-id="86591-106">TaskSettings.RunOnlyIfNetworkAvailable property</span></span>
+# <a name="tasksettingsrunonlyifnetworkavailable-property"></a><span data-ttu-id="64545-106">TaskSettings. RunOnlyIfNetworkAvailable 屬性</span><span class="sxs-lookup"><span data-stu-id="64545-106">TaskSettings.RunOnlyIfNetworkAvailable property</span></span>
 
-<span data-ttu-id="86591-107">針對腳本，取得或設定布林值，指出工作排程器只有在有可用的網路時才會執行工作。</span><span class="sxs-lookup"><span data-stu-id="86591-107">For scripting, gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available.</span></span>
+<span data-ttu-id="64545-107">針對腳本，取得或設定布林值，指出工作排程器只有在有可用的網路時才會執行工作。</span><span class="sxs-lookup"><span data-stu-id="64545-107">For scripting, gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available.</span></span>
 
-<span data-ttu-id="86591-108">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="86591-108">This property is read/write.</span></span>
+<span data-ttu-id="64545-108">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="64545-108">This property is read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="86591-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="86591-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="64545-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="64545-109">Syntax</span></span>
 
 
 ```VB
@@ -38,32 +38,32 @@ TaskSettings.RunOnlyIfNetworkAvailable As Boolean
 
 
 
-## <a name="property-value"></a><span data-ttu-id="86591-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="86591-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="64545-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="64545-110">Property value</span></span>
 
-<span data-ttu-id="86591-111">若為 True，則屬性會指出工作排程器只有在有可用的網路時才會執行工作。</span><span class="sxs-lookup"><span data-stu-id="86591-111">If True, the property indicates that the Task Scheduler will run the task only when a network is available.</span></span> <span data-ttu-id="86591-112">預設值是 False。</span><span class="sxs-lookup"><span data-stu-id="86591-112">The default is False.</span></span>
+<span data-ttu-id="64545-111">若為 True，則屬性會指出工作排程器只有在有可用的網路時才會執行工作。</span><span class="sxs-lookup"><span data-stu-id="64545-111">If True, the property indicates that the Task Scheduler will run the task only when a network is available.</span></span> <span data-ttu-id="64545-112">預設值是 False。</span><span class="sxs-lookup"><span data-stu-id="64545-112">The default is False.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="86591-113">備註</span><span class="sxs-lookup"><span data-stu-id="86591-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="64545-113">備註</span><span class="sxs-lookup"><span data-stu-id="64545-113">Remarks</span></span>
 
-<span data-ttu-id="86591-114">讀取或寫入工作的 XML 時，此設定會在工作排程器架構的 [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) 元素中指定。</span><span class="sxs-lookup"><span data-stu-id="86591-114">When reading or writing XML for a task, this setting is specified in the [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) element of the Task Scheduler schema.</span></span>
+<span data-ttu-id="64545-114">讀取或寫入工作的 XML 時，此設定會在工作排程器架構的 [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) 元素中指定。</span><span class="sxs-lookup"><span data-stu-id="64545-114">When reading or writing XML for a task, this setting is specified in the [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) element of the Task Scheduler schema.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="86591-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="86591-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="64545-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="64545-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="86591-116">需求</span><span class="sxs-lookup"><span data-stu-id="86591-116">Requirement</span></span> | <span data-ttu-id="86591-117">值</span><span class="sxs-lookup"><span data-stu-id="86591-117">Value</span></span> |
+| <span data-ttu-id="64545-116">需求</span><span class="sxs-lookup"><span data-stu-id="64545-116">Requirement</span></span> | <span data-ttu-id="64545-117">值</span><span class="sxs-lookup"><span data-stu-id="64545-117">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="86591-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="86591-118">Minimum supported client</span></span><br/> | <span data-ttu-id="86591-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="86591-119">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
-| <span data-ttu-id="86591-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="86591-120">Minimum supported server</span></span><br/> | <span data-ttu-id="86591-121">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="86591-121">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="86591-122">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="86591-122">Type library</span></span><br/>             | <dl> <span data-ttu-id="86591-123"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="86591-123"><dt>Taskschd.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="86591-124">DLL</span><span class="sxs-lookup"><span data-stu-id="86591-124">DLL</span></span><br/>                      | <dl> <span data-ttu-id="86591-125"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="86591-125"><dt>Taskschd.dll</dt></span></span> </dl> |
+| <span data-ttu-id="64545-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="64545-118">Minimum supported client</span></span><br/> | <span data-ttu-id="64545-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="64545-119">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="64545-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="64545-120">Minimum supported server</span></span><br/> | <span data-ttu-id="64545-121">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="64545-121">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="64545-122">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="64545-122">Type library</span></span><br/>             | <dl> <span data-ttu-id="64545-123"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="64545-123"><dt>Taskschd.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="64545-124">DLL</span><span class="sxs-lookup"><span data-stu-id="64545-124">DLL</span></span><br/>                      | <dl> <span data-ttu-id="64545-125"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="64545-125"><dt>Taskschd.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="86591-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="86591-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="64545-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="64545-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="86591-127">工作排程器</span><span class="sxs-lookup"><span data-stu-id="86591-127">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="64545-127">工作排程器</span><span class="sxs-lookup"><span data-stu-id="64545-127">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> </dl>
 
  

@@ -21,45 +21,45 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843783"
 ---
-# <a name="tvm_setbkcolor-message"></a><span data-ttu-id="15ef1-105">TVM \_ SETBKCOLOR 訊息</span><span class="sxs-lookup"><span data-stu-id="15ef1-105">TVM\_SETBKCOLOR message</span></span>
+# <a name="tvm_setbkcolor-message"></a><span data-ttu-id="739d3-105">TVM \_ SETBKCOLOR 訊息</span><span class="sxs-lookup"><span data-stu-id="739d3-105">TVM\_SETBKCOLOR message</span></span>
 
-<span data-ttu-id="15ef1-106">設定控制項的背景色彩。</span><span class="sxs-lookup"><span data-stu-id="15ef1-106">Sets the background color of the control.</span></span> <span data-ttu-id="15ef1-107">您可以使用 [**TreeView \_ SetBkColor**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_setbkcolor) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="15ef1-107">You can send this message explicitly or by using the [**TreeView\_SetBkColor**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_setbkcolor) macro.</span></span>
+<span data-ttu-id="739d3-106">設定控制項的背景色彩。</span><span class="sxs-lookup"><span data-stu-id="739d3-106">Sets the background color of the control.</span></span> <span data-ttu-id="739d3-107">您可以使用 [**TreeView \_ SetBkColor**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_setbkcolor) 宏明確地傳送此訊息。</span><span class="sxs-lookup"><span data-stu-id="739d3-107">You can send this message explicitly or by using the [**TreeView\_SetBkColor**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_setbkcolor) macro.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="15ef1-108">參數</span><span class="sxs-lookup"><span data-stu-id="15ef1-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="739d3-108">參數</span><span class="sxs-lookup"><span data-stu-id="739d3-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="15ef1-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="15ef1-109">*wParam*</span></span> 
-</dt> <dd><span data-ttu-id="15ef1-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="15ef1-110">Must be zero.</span></span></dd> <dt>
+<span data-ttu-id="739d3-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="739d3-109">*wParam*</span></span> 
+</dt> <dd><span data-ttu-id="739d3-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="739d3-110">Must be zero.</span></span></dd> <dt>
 
-<span data-ttu-id="15ef1-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="15ef1-111">*lParam*</span></span> 
+<span data-ttu-id="739d3-111">*lParam*</span><span class="sxs-lookup"><span data-stu-id="739d3-111">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="15ef1-112">[**COLORREF**](/windows/desktop/gdi/colorref) 值，其中包含新的背景色彩。</span><span class="sxs-lookup"><span data-stu-id="15ef1-112">[**COLORREF**](/windows/desktop/gdi/colorref) value that contains the new background color.</span></span> <span data-ttu-id="15ef1-113">如果這個值是-1，控制項將會還原為使用背景色彩的系統色彩。</span><span class="sxs-lookup"><span data-stu-id="15ef1-113">If this value is -1, the control will revert to using the system color for the background color.</span></span>
+<span data-ttu-id="739d3-112">[**COLORREF**](/windows/desktop/gdi/colorref) 值，其中包含新的背景色彩。</span><span class="sxs-lookup"><span data-stu-id="739d3-112">[**COLORREF**](/windows/desktop/gdi/colorref) value that contains the new background color.</span></span> <span data-ttu-id="739d3-113">如果這個值是-1，控制項將會還原為使用背景色彩的系統色彩。</span><span class="sxs-lookup"><span data-stu-id="739d3-113">If this value is -1, the control will revert to using the system color for the background color.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="15ef1-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="15ef1-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="739d3-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="739d3-114">Return value</span></span>
 
-<span data-ttu-id="15ef1-115">傳回表示先前背景色彩的 [**COLORREF**](/windows/desktop/gdi/colorref) 值。</span><span class="sxs-lookup"><span data-stu-id="15ef1-115">Returns a [**COLORREF**](/windows/desktop/gdi/colorref) value that represents the previous background color.</span></span> <span data-ttu-id="15ef1-116">如果這個值是-1，表示控制項使用的是背景色彩的系統色彩。</span><span class="sxs-lookup"><span data-stu-id="15ef1-116">If this value is -1, the control was using the system color for the background color.</span></span>
+<span data-ttu-id="739d3-115">傳回表示先前背景色彩的 [**COLORREF**](/windows/desktop/gdi/colorref) 值。</span><span class="sxs-lookup"><span data-stu-id="739d3-115">Returns a [**COLORREF**](/windows/desktop/gdi/colorref) value that represents the previous background color.</span></span> <span data-ttu-id="739d3-116">如果這個值是-1，表示控制項使用的是背景色彩的系統色彩。</span><span class="sxs-lookup"><span data-stu-id="739d3-116">If this value is -1, the control was using the system color for the background color.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="15ef1-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="15ef1-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="739d3-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="739d3-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="15ef1-118">需求</span><span class="sxs-lookup"><span data-stu-id="15ef1-118">Requirement</span></span> | <span data-ttu-id="15ef1-119">值</span><span class="sxs-lookup"><span data-stu-id="15ef1-119">Value</span></span> |
+| <span data-ttu-id="739d3-118">需求</span><span class="sxs-lookup"><span data-stu-id="739d3-118">Requirement</span></span> | <span data-ttu-id="739d3-119">值</span><span class="sxs-lookup"><span data-stu-id="739d3-119">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="15ef1-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="15ef1-120">Minimum supported client</span></span><br/> | <span data-ttu-id="15ef1-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="15ef1-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="15ef1-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="15ef1-122">Minimum supported server</span></span><br/> | <span data-ttu-id="15ef1-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="15ef1-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="15ef1-124">標頭</span><span class="sxs-lookup"><span data-stu-id="15ef1-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="15ef1-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="15ef1-125"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="739d3-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="739d3-120">Minimum supported client</span></span><br/> | <span data-ttu-id="739d3-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="739d3-121">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="739d3-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="739d3-122">Minimum supported server</span></span><br/> | <span data-ttu-id="739d3-123">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="739d3-123">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="739d3-124">標頭</span><span class="sxs-lookup"><span data-stu-id="739d3-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="739d3-125"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="739d3-125"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="15ef1-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="15ef1-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="739d3-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="739d3-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="15ef1-127">**TVM \_ GETBKCOLOR**</span><span class="sxs-lookup"><span data-stu-id="15ef1-127">**TVM\_GETBKCOLOR**</span></span>](tvm-getbkcolor.md)
+[<span data-ttu-id="739d3-127">**TVM \_ GETBKCOLOR**</span><span class="sxs-lookup"><span data-stu-id="739d3-127">**TVM\_GETBKCOLOR**</span></span>](tvm-getbkcolor.md)
 </dt> </dl>
 
  

@@ -27,14 +27,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026303"
 ---
-# <a name="jet_recsizeequals-method-object"></a><span data-ttu-id="4e6c1-103">JET_RECSIZE。物件)  (Equals 方法</span><span class="sxs-lookup"><span data-stu-id="4e6c1-103">JET_RECSIZE.Equals method (Object)</span></span>
+# <a name="jet_recsizeequals-method-object"></a><span data-ttu-id="00021-103">JET_RECSIZE。物件)  (Equals 方法</span><span class="sxs-lookup"><span data-stu-id="00021-103">JET_RECSIZE.Equals method (Object)</span></span>
 
-<span data-ttu-id="4e6c1-104">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="4e6c1-104">Returns a value indicating whether this instance is equal to another instance.</span></span>
+<span data-ttu-id="00021-104">傳回值，這個值表示這個實例是否等於另一個實例。</span><span class="sxs-lookup"><span data-stu-id="00021-104">Returns a value indicating whether this instance is equal to another instance.</span></span>
 
-<span data-ttu-id="4e6c1-105">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="4e6c1-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
-<span data-ttu-id="4e6c1-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="4e6c1-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="00021-105">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="00021-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
+<span data-ttu-id="00021-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="00021-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4e6c1-107">語法</span><span class="sxs-lookup"><span data-stu-id="4e6c1-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="00021-107">語法</span><span class="sxs-lookup"><span data-stu-id="00021-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -55,26 +55,26 @@ public override bool Equals(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="4e6c1-108">參數</span><span class="sxs-lookup"><span data-stu-id="4e6c1-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="00021-108">參數</span><span class="sxs-lookup"><span data-stu-id="00021-108">Parameters</span></span>
 
-  - <span data-ttu-id="4e6c1-109">obj</span><span class="sxs-lookup"><span data-stu-id="4e6c1-109">obj</span></span>  
-    <span data-ttu-id="4e6c1-110">類型： [system.object](/dotnet/api/system.object)</span><span class="sxs-lookup"><span data-stu-id="4e6c1-110">Type: [System.Object](/dotnet/api/system.object)</span></span>  
+  - <span data-ttu-id="00021-109">obj</span><span class="sxs-lookup"><span data-stu-id="00021-109">obj</span></span>  
+    <span data-ttu-id="00021-110">類型： [system.object](/dotnet/api/system.object)</span><span class="sxs-lookup"><span data-stu-id="00021-110">Type: [System.Object](/dotnet/api/system.object)</span></span>  
     
-    <span data-ttu-id="4e6c1-111">與這個執行個體相互比較的物件。</span><span class="sxs-lookup"><span data-stu-id="4e6c1-111">An object to compare with this instance.</span></span>
+    <span data-ttu-id="00021-111">與這個執行個體相互比較的物件。</span><span class="sxs-lookup"><span data-stu-id="00021-111">An object to compare with this instance.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="4e6c1-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="4e6c1-112">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="00021-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="00021-112">Return value</span></span>
 
-<span data-ttu-id="4e6c1-113">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="4e6c1-113">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
-<span data-ttu-id="4e6c1-114">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="4e6c1-114">True if the two instances are equal.</span></span>  
+<span data-ttu-id="00021-113">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="00021-113">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
+<span data-ttu-id="00021-114">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="00021-114">True if the two instances are equal.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="4e6c1-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4e6c1-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="00021-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="00021-115">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="4e6c1-116">參考</span><span class="sxs-lookup"><span data-stu-id="4e6c1-116">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="00021-116">參考</span><span class="sxs-lookup"><span data-stu-id="00021-116">Reference</span></span>
 
-[<span data-ttu-id="4e6c1-117">JET_RECSIZE 結構</span><span class="sxs-lookup"><span data-stu-id="4e6c1-117">JET_RECSIZE structure</span></span>](./jet-recsize-structure2.md)
+[<span data-ttu-id="00021-117">JET_RECSIZE 結構</span><span class="sxs-lookup"><span data-stu-id="00021-117">JET_RECSIZE structure</span></span>](./jet-recsize-structure2.md)
 
-[<span data-ttu-id="4e6c1-118">JET_RECSIZE 成員</span><span class="sxs-lookup"><span data-stu-id="4e6c1-118">JET_RECSIZE members</span></span>](./jet-recsize-members.md)
+[<span data-ttu-id="00021-118">JET_RECSIZE 成員</span><span class="sxs-lookup"><span data-stu-id="00021-118">JET_RECSIZE members</span></span>](./jet-recsize-members.md)
 
-[<span data-ttu-id="4e6c1-119">等於多載</span><span class="sxs-lookup"><span data-stu-id="4e6c1-119">Equals overload</span></span>](./jet-recsize.equals-method.md)
+[<span data-ttu-id="00021-119">等於多載</span><span class="sxs-lookup"><span data-stu-id="00021-119">Equals overload</span></span>](./jet-recsize.equals-method.md)
 
-[<span data-ttu-id="4e6c1-120">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="4e6c1-120">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)
+[<span data-ttu-id="00021-120">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="00021-120">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)

@@ -23,9 +23,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843880"
 ---
-# <a name="ttn_getdispinfo-notification-code"></a><span data-ttu-id="93ba2-105">TTN \_ GETDISPINFO 通知碼</span><span class="sxs-lookup"><span data-stu-id="93ba2-105">TTN\_GETDISPINFO notification code</span></span>
+# <a name="ttn_getdispinfo-notification-code"></a><span data-ttu-id="7409c-105">TTN \_ GETDISPINFO 通知碼</span><span class="sxs-lookup"><span data-stu-id="7409c-105">TTN\_GETDISPINFO notification code</span></span>
 
-<span data-ttu-id="93ba2-106">由工具提示控制項傳送，以取得顯示工具提示視窗所需的資訊。</span><span class="sxs-lookup"><span data-stu-id="93ba2-106">Sent by a tooltip control to retrieve information needed to display a tooltip window.</span></span> <span data-ttu-id="93ba2-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="93ba2-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="7409c-106">由工具提示控制項傳送，以取得顯示工具提示視窗所需的資訊。</span><span class="sxs-lookup"><span data-stu-id="7409c-106">Sent by a tooltip control to retrieve information needed to display a tooltip window.</span></span> <span data-ttu-id="7409c-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="7409c-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -36,35 +36,35 @@ TTN_GETDISPINFO
 
 
 
-## <a name="parameters"></a><span data-ttu-id="93ba2-108">參數</span><span class="sxs-lookup"><span data-stu-id="93ba2-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7409c-108">參數</span><span class="sxs-lookup"><span data-stu-id="7409c-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="93ba2-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="93ba2-109">*lParam*</span></span> 
+<span data-ttu-id="7409c-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="7409c-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="93ba2-110">[**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa)結構的指標，此結構會識別需要文字的工具，並接收要求的資訊。</span><span class="sxs-lookup"><span data-stu-id="93ba2-110">Pointer to an [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) structure that identifies the tool that needs text and receives the requested information.</span></span>
+<span data-ttu-id="7409c-110">[**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa)結構的指標，此結構會識別需要文字的工具，並接收要求的資訊。</span><span class="sxs-lookup"><span data-stu-id="7409c-110">Pointer to an [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) structure that identifies the tool that needs text and receives the requested information.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="93ba2-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="93ba2-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7409c-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="7409c-111">Return value</span></span>
 
-<span data-ttu-id="93ba2-112">未使用此通知的傳回值。</span><span class="sxs-lookup"><span data-stu-id="93ba2-112">The return value for this notification is not used.</span></span>
+<span data-ttu-id="7409c-112">未使用此通知的傳回值。</span><span class="sxs-lookup"><span data-stu-id="7409c-112">The return value for this notification is not used.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="93ba2-113">備註</span><span class="sxs-lookup"><span data-stu-id="93ba2-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7409c-113">備註</span><span class="sxs-lookup"><span data-stu-id="7409c-113">Remarks</span></span>
 
-<span data-ttu-id="93ba2-114">填妥結構適當的成員，以將要求的資訊傳回給工具提示控制項。</span><span class="sxs-lookup"><span data-stu-id="93ba2-114">Fill the structure's appropriate members to return the requested information to the tooltip control.</span></span> <span data-ttu-id="93ba2-115">如果您的訊息處理常式將 [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa)結構的 **uFlags** 成員設定為 TTF \_ DI \_ SETITEM，則工具提示控制項會儲存資訊，而不會再次要求它。</span><span class="sxs-lookup"><span data-stu-id="93ba2-115">If your message handler sets the **uFlags** member of the [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) structure to TTF\_DI\_SETITEM, the tooltip control stores the information and will not request it again.</span></span>
+<span data-ttu-id="7409c-114">填妥結構適當的成員，以將要求的資訊傳回給工具提示控制項。</span><span class="sxs-lookup"><span data-stu-id="7409c-114">Fill the structure's appropriate members to return the requested information to the tooltip control.</span></span> <span data-ttu-id="7409c-115">如果您的訊息處理常式將 [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa)結構的 **uFlags** 成員設定為 TTF \_ DI \_ SETITEM，則工具提示控制項會儲存資訊，而不會再次要求它。</span><span class="sxs-lookup"><span data-stu-id="7409c-115">If your message handler sets the **uFlags** member of the [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) structure to TTF\_DI\_SETITEM, the tooltip control stores the information and will not request it again.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="93ba2-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="93ba2-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="7409c-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="7409c-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="93ba2-117">需求</span><span class="sxs-lookup"><span data-stu-id="93ba2-117">Requirement</span></span> | <span data-ttu-id="93ba2-118">值</span><span class="sxs-lookup"><span data-stu-id="93ba2-118">Value</span></span> |
+| <span data-ttu-id="7409c-117">需求</span><span class="sxs-lookup"><span data-stu-id="7409c-117">Requirement</span></span> | <span data-ttu-id="7409c-118">值</span><span class="sxs-lookup"><span data-stu-id="7409c-118">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="93ba2-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="93ba2-119">Minimum supported client</span></span><br/> | <span data-ttu-id="93ba2-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="93ba2-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="93ba2-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="93ba2-121">Minimum supported server</span></span><br/> | <span data-ttu-id="93ba2-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="93ba2-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="93ba2-123">標頭</span><span class="sxs-lookup"><span data-stu-id="93ba2-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="93ba2-124"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="93ba2-124"><dt>Commctrl.h</dt></span></span> </dl> |
-| <span data-ttu-id="93ba2-125">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="93ba2-125">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="93ba2-126">**TTN \_GETDISPINFOW** (Unicode) 和 **TTN \_ GETDISPINFOA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="93ba2-126">**TTN\_GETDISPINFOW** (Unicode) and **TTN\_GETDISPINFOA** (ANSI)</span></span><br/>           |
+| <span data-ttu-id="7409c-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7409c-119">Minimum supported client</span></span><br/> | <span data-ttu-id="7409c-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7409c-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="7409c-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7409c-121">Minimum supported server</span></span><br/> | <span data-ttu-id="7409c-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7409c-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="7409c-123">標頭</span><span class="sxs-lookup"><span data-stu-id="7409c-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="7409c-124"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="7409c-124"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="7409c-125">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="7409c-125">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="7409c-126">**TTN \_GETDISPINFOW** (Unicode) 和 **TTN \_ GETDISPINFOA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="7409c-126">**TTN\_GETDISPINFOW** (Unicode) and **TTN\_GETDISPINFOA** (ANSI)</span></span><br/>           |
 
 
 

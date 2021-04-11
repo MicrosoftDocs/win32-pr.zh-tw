@@ -24,40 +24,40 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103846212"
 ---
-# <a name="span-idvspixengineexperimenttriggerspanexperimenttrigger-structure"></a><span data-ttu-id="9843f-103"><span id="vspixengine.experimenttrigger"></span>ExperimentTrigger 結構</span><span class="sxs-lookup"><span data-stu-id="9843f-103"><span id="vspixengine.experimenttrigger"></span>ExperimentTrigger structure</span></span>
+# <a name="span-idvspixengineexperimenttriggerspanexperimenttrigger-structure"></a><span data-ttu-id="6045d-103"><span id="vspixengine.experimenttrigger"></span>ExperimentTrigger 結構</span><span class="sxs-lookup"><span data-stu-id="6045d-103"><span id="vspixengine.experimenttrigger"></span>ExperimentTrigger structure</span></span>
 
-<span data-ttu-id="9843f-104">代表實驗觸發程式資訊。</span><span class="sxs-lookup"><span data-stu-id="9843f-104">Represents experiment trigger information.</span></span>
+<span data-ttu-id="6045d-104">代表實驗觸發程式資訊。</span><span class="sxs-lookup"><span data-stu-id="6045d-104">Represents experiment trigger information.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9843f-105">語法</span><span class="sxs-lookup"><span data-stu-id="9843f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6045d-105">語法</span><span class="sxs-lookup"><span data-stu-id="6045d-105">Syntax</span></span>
 
 
 ```C++
 } ExperimentTrigger;
 ```
 
-## <a name="members"></a><span data-ttu-id="9843f-106">成員</span><span class="sxs-lookup"><span data-stu-id="9843f-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="6045d-106">成員</span><span class="sxs-lookup"><span data-stu-id="6045d-106">Members</span></span>
 
-<span data-ttu-id="9843f-107">**type**</span><span class="sxs-lookup"><span data-stu-id="9843f-107">**type**</span></span>  
-<span data-ttu-id="9843f-108">觸發 (capture) 的實驗類型。</span><span class="sxs-lookup"><span data-stu-id="9843f-108">The kind of experiment (capture) triggered.</span></span>
+<span data-ttu-id="6045d-107">**type**</span><span class="sxs-lookup"><span data-stu-id="6045d-107">**type**</span></span>  
+<span data-ttu-id="6045d-108">觸發 (capture) 的實驗類型。</span><span class="sxs-lookup"><span data-stu-id="6045d-108">The kind of experiment (capture) triggered.</span></span>
 
-<span data-ttu-id="9843f-109">**key**</span><span class="sxs-lookup"><span data-stu-id="9843f-109">**key**</span></span>  
-<span data-ttu-id="9843f-110">當 type 等於 EXPERIMENTTRIGGERTYPE：： KEY 時，用來觸發 capture 的索引鍵。</span><span class="sxs-lookup"><span data-stu-id="9843f-110">When type is equal to EXPERIMENTTRIGGERTYPE::KEY, the key used to trigger capture.</span></span>
+<span data-ttu-id="6045d-109">**key**</span><span class="sxs-lookup"><span data-stu-id="6045d-109">**key**</span></span>  
+<span data-ttu-id="6045d-110">當 type 等於 EXPERIMENTTRIGGERTYPE：： KEY 時，用來觸發 capture 的索引鍵。</span><span class="sxs-lookup"><span data-stu-id="6045d-110">When type is equal to EXPERIMENTTRIGGERTYPE::KEY, the key used to trigger capture.</span></span>
 
-<span data-ttu-id="9843f-111">**frameNumber**</span><span class="sxs-lookup"><span data-stu-id="9843f-111">**frameNumber**</span></span>  
-<span data-ttu-id="9843f-112">當 type 等於 EXPERIMENTTRIGGERTYPE：： FRAMENUMBER 時，將會觸發 capture 的框架編號。</span><span class="sxs-lookup"><span data-stu-id="9843f-112">When type is equal to EXPERIMENTTRIGGERTYPE::FRAMENUMBER, the frame number that will trigger capture.</span></span>
+<span data-ttu-id="6045d-111">**frameNumber**</span><span class="sxs-lookup"><span data-stu-id="6045d-111">**frameNumber**</span></span>  
+<span data-ttu-id="6045d-112">當 type 等於 EXPERIMENTTRIGGERTYPE：： FRAMENUMBER 時，將會觸發 capture 的框架編號。</span><span class="sxs-lookup"><span data-stu-id="6045d-112">When type is equal to EXPERIMENTTRIGGERTYPE::FRAMENUMBER, the frame number that will trigger capture.</span></span>
 
-<span data-ttu-id="9843f-113">**captureCount**</span><span class="sxs-lookup"><span data-stu-id="9843f-113">**captureCount**</span></span>  
-<span data-ttu-id="9843f-114">要捕捉的連續框架數目。</span><span class="sxs-lookup"><span data-stu-id="9843f-114">The number of sequential frames to capture.</span></span>
+<span data-ttu-id="6045d-113">**captureCount**</span><span class="sxs-lookup"><span data-stu-id="6045d-113">**captureCount**</span></span>  
+<span data-ttu-id="6045d-114">要捕捉的連續框架數目。</span><span class="sxs-lookup"><span data-stu-id="6045d-114">The number of sequential frames to capture.</span></span>
 
-<span data-ttu-id="9843f-115">**actionIID**</span><span class="sxs-lookup"><span data-stu-id="9843f-115">**actionIID**</span></span>  
-<span data-ttu-id="9843f-116">動作事件的識別碼 (螢幕擷取畫面、框架捕獲等) 。</span><span class="sxs-lookup"><span data-stu-id="9843f-116">The ID of the action event (screenshot, frame capture, etc).</span></span>
+<span data-ttu-id="6045d-115">**actionIID**</span><span class="sxs-lookup"><span data-stu-id="6045d-115">**actionIID**</span></span>  
+<span data-ttu-id="6045d-116">動作事件的識別碼 (螢幕擷取畫面、框架捕獲等) 。</span><span class="sxs-lookup"><span data-stu-id="6045d-116">The ID of the action event (screenshot, frame capture, etc).</span></span>
 
-<span data-ttu-id="9843f-117">**actionPlayload**</span><span class="sxs-lookup"><span data-stu-id="9843f-117">**actionPlayload**</span></span>  
-<span data-ttu-id="9843f-118">動作事件裝載的指標。</span><span class="sxs-lookup"><span data-stu-id="9843f-118">A pointer to the action event payload.</span></span>
+<span data-ttu-id="6045d-117">**actionPlayload**</span><span class="sxs-lookup"><span data-stu-id="6045d-117">**actionPlayload**</span></span>  
+<span data-ttu-id="6045d-118">動作事件裝載的指標。</span><span class="sxs-lookup"><span data-stu-id="6045d-118">A pointer to the action event payload.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="9843f-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="9843f-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6045d-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="6045d-119">Requirements</span></span>
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="9843f-120">標頭</span><span class="sxs-lookup"><span data-stu-id="9843f-120">Header</span></span></p></td><td><span data-ttu-id="9843f-121">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="9843f-121">Vspixengine.h</span></span></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="6045d-120">標頭</span><span class="sxs-lookup"><span data-stu-id="6045d-120">Header</span></span></p></td><td><span data-ttu-id="6045d-121">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="6045d-121">Vspixengine.h</span></span></td></tr></tbody></table>
 
  
 

@@ -21,49 +21,49 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843816"
 ---
-# <a name="em_pastespecial-message"></a><span data-ttu-id="2fd2e-104">EM \_ PASTESPECIAL 訊息</span><span class="sxs-lookup"><span data-stu-id="2fd2e-104">EM\_PASTESPECIAL message</span></span>
+# <a name="em_pastespecial-message"></a><span data-ttu-id="ab34d-104">EM \_ PASTESPECIAL 訊息</span><span class="sxs-lookup"><span data-stu-id="ab34d-104">EM\_PASTESPECIAL message</span></span>
 
-<span data-ttu-id="2fd2e-105">在 rich edit 控制項中貼上特定的剪貼簿格式。</span><span class="sxs-lookup"><span data-stu-id="2fd2e-105">Pastes a specific clipboard format in a rich edit control.</span></span>
+<span data-ttu-id="ab34d-105">在 rich edit 控制項中貼上特定的剪貼簿格式。</span><span class="sxs-lookup"><span data-stu-id="ab34d-105">Pastes a specific clipboard format in a rich edit control.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="2fd2e-106">參數</span><span class="sxs-lookup"><span data-stu-id="2fd2e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ab34d-106">參數</span><span class="sxs-lookup"><span data-stu-id="ab34d-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="2fd2e-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="2fd2e-107">*wParam*</span></span> 
+<span data-ttu-id="ab34d-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="ab34d-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="2fd2e-108">指定 [剪貼簿格式](/windows/desktop/dataxchg/clipboard-formats)。</span><span class="sxs-lookup"><span data-stu-id="2fd2e-108">Specifies the [Clipboard Formats](/windows/desktop/dataxchg/clipboard-formats).</span></span>
+<span data-ttu-id="ab34d-108">指定 [剪貼簿格式](/windows/desktop/dataxchg/clipboard-formats)。</span><span class="sxs-lookup"><span data-stu-id="ab34d-108">Specifies the [Clipboard Formats](/windows/desktop/dataxchg/clipboard-formats).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="2fd2e-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="2fd2e-109">*lParam*</span></span> 
+<span data-ttu-id="ab34d-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="ab34d-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="2fd2e-110">[**REPASTESPECIAL**](/windows/desktop/api/Richedit/ns-richedit-repastespecial)結構的指標或 **Null**。</span><span class="sxs-lookup"><span data-stu-id="2fd2e-110">Pointer to a [**REPASTESPECIAL**](/windows/desktop/api/Richedit/ns-richedit-repastespecial) structure or **NULL**.</span></span> <span data-ttu-id="2fd2e-111">如果要貼上物件，則會以所需的顯示外觀填入 **REPASTESPECIAL** 結構。</span><span class="sxs-lookup"><span data-stu-id="2fd2e-111">If an object is being pasted, the **REPASTESPECIAL** structure is filled in with the desired display aspect.</span></span> <span data-ttu-id="2fd2e-112">如果 *lParam* 為 **Null** 或 **dwAspect** 成員為零，則使用的顯示外觀將會是物件描述項的內容。</span><span class="sxs-lookup"><span data-stu-id="2fd2e-112">If *lParam* is **NULL** or the **dwAspect** member is zero, the display aspect used will be the contents of the object descriptor.</span></span>
+<span data-ttu-id="ab34d-110">[**REPASTESPECIAL**](/windows/desktop/api/Richedit/ns-richedit-repastespecial)結構的指標或 **Null**。</span><span class="sxs-lookup"><span data-stu-id="ab34d-110">Pointer to a [**REPASTESPECIAL**](/windows/desktop/api/Richedit/ns-richedit-repastespecial) structure or **NULL**.</span></span> <span data-ttu-id="ab34d-111">如果要貼上物件，則會以所需的顯示外觀填入 **REPASTESPECIAL** 結構。</span><span class="sxs-lookup"><span data-stu-id="ab34d-111">If an object is being pasted, the **REPASTESPECIAL** structure is filled in with the desired display aspect.</span></span> <span data-ttu-id="ab34d-112">如果 *lParam* 為 **Null** 或 **dwAspect** 成員為零，則使用的顯示外觀將會是物件描述項的內容。</span><span class="sxs-lookup"><span data-stu-id="ab34d-112">If *lParam* is **NULL** or the **dwAspect** member is zero, the display aspect used will be the contents of the object descriptor.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="2fd2e-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="2fd2e-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ab34d-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="ab34d-113">Return value</span></span>
 
-<span data-ttu-id="2fd2e-114">此訊息不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="2fd2e-114">This message does not return a value.</span></span>
+<span data-ttu-id="ab34d-114">此訊息不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="ab34d-114">This message does not return a value.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="2fd2e-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="2fd2e-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ab34d-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="ab34d-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2fd2e-116">需求</span><span class="sxs-lookup"><span data-stu-id="2fd2e-116">Requirement</span></span> | <span data-ttu-id="2fd2e-117">值</span><span class="sxs-lookup"><span data-stu-id="2fd2e-117">Value</span></span> |
+| <span data-ttu-id="ab34d-116">需求</span><span class="sxs-lookup"><span data-stu-id="ab34d-116">Requirement</span></span> | <span data-ttu-id="ab34d-117">值</span><span class="sxs-lookup"><span data-stu-id="ab34d-117">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="2fd2e-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2fd2e-118">Minimum supported client</span></span><br/> | <span data-ttu-id="2fd2e-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2fd2e-119">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="2fd2e-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2fd2e-120">Minimum supported server</span></span><br/> | <span data-ttu-id="2fd2e-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2fd2e-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="2fd2e-122">標頭</span><span class="sxs-lookup"><span data-stu-id="2fd2e-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="2fd2e-123"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="2fd2e-123"><dt>Richedit.h</dt></span></span> </dl> |
+| <span data-ttu-id="ab34d-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ab34d-118">Minimum supported client</span></span><br/> | <span data-ttu-id="ab34d-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ab34d-119">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="ab34d-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ab34d-120">Minimum supported server</span></span><br/> | <span data-ttu-id="ab34d-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ab34d-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="ab34d-122">標頭</span><span class="sxs-lookup"><span data-stu-id="ab34d-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="ab34d-123"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="ab34d-123"><dt>Richedit.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2fd2e-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2fd2e-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ab34d-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ab34d-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2fd2e-125">**REPASTESPECIAL**</span><span class="sxs-lookup"><span data-stu-id="2fd2e-125">**REPASTESPECIAL**</span></span>](/windows/desktop/api/Richedit/ns-richedit-repastespecial)
+[<span data-ttu-id="ab34d-125">**REPASTESPECIAL**</span><span class="sxs-lookup"><span data-stu-id="ab34d-125">**REPASTESPECIAL**</span></span>](/windows/desktop/api/Richedit/ns-richedit-repastespecial)
 </dt> </dl>
 
  

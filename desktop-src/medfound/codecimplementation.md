@@ -1,0 +1,35 @@
+---
+description: 編解碼器實行。
+ms.assetid: 5ec23f95-cc7d-4c16-979a-f1d2cc485bb0
+title: Codec 實作
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 201c0cb46fc61f117c9b45d059b102560986d5b7
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103847644"
+---
+# <a name="codec-implementation"></a><span data-ttu-id="671e6-103">Codec 實作</span><span class="sxs-lookup"><span data-stu-id="671e6-103">Codec implementation</span></span>
+
+<span data-ttu-id="671e6-104">Windows Media 音訊和影片編解碼器會實作為 COM 物件。</span><span class="sxs-lookup"><span data-stu-id="671e6-104">The Windows Media Audio and Video codecs are implemented as COM objects.</span></span> <span data-ttu-id="671e6-105">一般而言，編解碼器會實作為一對 COM 物件：一個用於編碼器，另一個用於解碼器。</span><span class="sxs-lookup"><span data-stu-id="671e6-105">Typically, a codec is implemented as a pair of COM objects: one for the encoder and one for the decoder.</span></span> <span data-ttu-id="671e6-106">編碼器)  (CLSID 的類別識別碼，而該編碼器具有不同的 CLSID。</span><span class="sxs-lookup"><span data-stu-id="671e6-106">The encoder has a class identifier (CLSID) and the decoder has a different CLSID.</span></span> <span data-ttu-id="671e6-107">例如，Windows Media 音訊9編解碼器的編碼器部分具有以常數 **clsid \_ CWMAEncMediaObject** 表示的 clsid，而該相同編解碼器的編碼器部分具有以常數 **CLSID \_ CWMADecMediaObject** 表示的 clsid。</span><span class="sxs-lookup"><span data-stu-id="671e6-107">For example, the encoder portion of the Windows Media Audio 9 codec has a CLSID represented by the constant **CLSID\_CWMAEncMediaObject**, and the decoder portion of that same codec has a CLSID represented by the constant **CLSID\_CWMADecMediaObject**.</span></span>
+
+<span data-ttu-id="671e6-108">在某些情況下，單一 COM 物件中包含一個以上的編碼器。</span><span class="sxs-lookup"><span data-stu-id="671e6-108">In some cases, more than one encoder is included in a single COM object.</span></span> <span data-ttu-id="671e6-109">例如，Windows Media 視訊9編碼器和 Windows Media 視訊9.1 編碼器都是相同 COM 物件的一部分。</span><span class="sxs-lookup"><span data-stu-id="671e6-109">For example, the Windows Media Video 9 encoder and the Windows Media Video 9.1 encoder are both part of the same COM object.</span></span> <span data-ttu-id="671e6-110">因此，它們都有相同的 CLSID，以常數 **CLSID \_ CWMV9EncMediaObject** 表示。</span><span class="sxs-lookup"><span data-stu-id="671e6-110">Consequently, they both have the same CLSID, which is represented by the constant **CLSID\_CWMV9EncMediaObject**.</span></span> <span data-ttu-id="671e6-111">同樣地，某些 COM 物件包含一個以上的解碼器。</span><span class="sxs-lookup"><span data-stu-id="671e6-111">Similarly, some COM objects include more than one decoder.</span></span>
+
+<span data-ttu-id="671e6-112">每個編碼器或解碼物件都會公開 [**IMediaObject**](/previous-versions/ms785953%28v%3dvs.85%29) 介面，讓物件可以作為 DirectX 媒體物件 (的) 和 [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) 介面，讓物件可以做為 (MFT) 媒體基礎轉換。</span><span class="sxs-lookup"><span data-stu-id="671e6-112">Each encoder or decoder object exposes the [**IMediaObject**](/previous-versions/ms785953%28v%3dvs.85%29) interface so that the object can be used as a DirectX Media Object (DMO) and the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).</span></span>
+
+<span data-ttu-id="671e6-113">對於大部分的編碼器而言，不論您是使用編碼器做為 SQL-DMO 或 MFT，您都可以使用相同的 CLSID 來建立編碼器的實例。</span><span class="sxs-lookup"><span data-stu-id="671e6-113">For most encoders, regardless of whether you use the encoder as a DMO or an MFT, you use the same CLSID to create an instance of the encoder.</span></span> <span data-ttu-id="671e6-114">例如，若要建立 Windows Media 視訊9編碼器的實例，您可以使用 **CLSID \_ CWMV9EncMediaObject**，不論您是想要使用編碼器做為一或 MFT。</span><span class="sxs-lookup"><span data-stu-id="671e6-114">For example, to create an instance of the Windows Media Video 9 encoder, you use **CLSID\_CWMV9EncMediaObject**, regardless of whether you intend to use the encoder as a DMO or an MFT.</span></span> <span data-ttu-id="671e6-115">同樣地，在大部分的解碼器中，不論您使用的是 SQL-DMO 或 MFT，每個解碼器都會有單一 CLSID。</span><span class="sxs-lookup"><span data-stu-id="671e6-115">Similarly, for most decoders, each decoder has a single CLSID regardless of whether you use the decoder as a DMO or an MFT.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="671e6-116">上述語句有一些例外狀況，說明如何針對 SQL-DMO 和 MFT 使用單一 CLSID。</span><span class="sxs-lookup"><span data-stu-id="671e6-116">There are some exceptions to the preceding statement about using a single CLSID for both the DMO and the MFT.</span></span> <span data-ttu-id="671e6-117">例如，當 MPEG 4 第2部分的 CLSID 作為一或一個 clsid 時，就會有一個 CLSID。</span><span class="sxs-lookup"><span data-stu-id="671e6-117">For example, the MPEG-4 Part 2 decoder has one CLSID when it is acting as a DMO and a different CLSID when it is acting as an MFT.</span></span>
+
+ 
+
+<span data-ttu-id="671e6-118">除了核心介面外，每個編碼器或編解碼器物件都會執行兩個類似的介面，以使用編解碼器屬性（ **IPropertyBag** 和 **IPropertyStore**）。</span><span class="sxs-lookup"><span data-stu-id="671e6-118">In addition to the core interfaces, each encoder or decoder object implements two similar interfaces for working with codec properties, **IPropertyBag** and **IPropertyStore**.</span></span> <span data-ttu-id="671e6-119">較舊版本的編碼器和解碼器物件使用 **IPropertyBag**，它會依包含屬性名稱的字串值來識別每個屬性。</span><span class="sxs-lookup"><span data-stu-id="671e6-119">Older versions of the encoder and decoder objects used **IPropertyBag**, which identifies each property by a string value containing a property name.</span></span> <span data-ttu-id="671e6-120">**IPropertyStore** 是較新的介面，用來識別具有唯一屬性索引鍵值的屬性。</span><span class="sxs-lookup"><span data-stu-id="671e6-120">**IPropertyStore** is a newer interface that identifies properties with a unique property key value.</span></span> <span data-ttu-id="671e6-121">已新增 **IPropertyStore** 的支援，以提供對 MFTs 的支援。</span><span class="sxs-lookup"><span data-stu-id="671e6-121">Support for **IPropertyStore** was added to provide support for MFTs.</span></span> <span data-ttu-id="671e6-122">大部分 **IPropertyBag** 的屬性名稱字串都有對應的 **IPropertyStore** 屬性索引鍵 GUID，而大部分的 guid 都有對應的 **IPropertyBag** 名稱字串，但有一些例外狀況。</span><span class="sxs-lookup"><span data-stu-id="671e6-122">Most **IPropertyBag** property name strings have a corresponding **IPropertyStore** property key GUID and most of the GUIDs have a corresponding **IPropertyBag** name string, with a few exceptions.</span></span>
+
+<span data-ttu-id="671e6-123">本檔會依屬性索引鍵常數列出屬性，但每個專案都包含屬性名稱字串常數，以便在適當時與 **IPropertyBag** 搭配使用。</span><span class="sxs-lookup"><span data-stu-id="671e6-123">This documentation lists the properties by property key constant, but each entry includes the property-name string constant for use with **IPropertyBag** when appropriate.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="671e6-124">相關主題</span><span class="sxs-lookup"><span data-stu-id="671e6-124">Related topics</span></span>
+
+[<span data-ttu-id="671e6-125">Windows Media 轉碼器</span><span class="sxs-lookup"><span data-stu-id="671e6-125">Windows Media Codecs</span></span>](windows-media-codecs.md)

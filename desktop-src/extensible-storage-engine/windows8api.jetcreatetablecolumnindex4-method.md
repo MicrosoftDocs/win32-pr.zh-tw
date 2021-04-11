@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691495"
 ---
-# <a name="windows8apijetcreatetablecolumnindex4-method"></a><span data-ttu-id="669c0-103">Windows8Api. JetCreateTableColumnIndex4 方法</span><span class="sxs-lookup"><span data-stu-id="669c0-103">Windows8Api.JetCreateTableColumnIndex4 method</span></span>
+# <a name="windows8apijetcreatetablecolumnindex4-method"></a><span data-ttu-id="8f852-103">Windows8Api. JetCreateTableColumnIndex4 方法</span><span class="sxs-lookup"><span data-stu-id="8f852-103">Windows8Api.JetCreateTableColumnIndex4 method</span></span>
 
-<span data-ttu-id="669c0-104">建立資料表，並在該資料表上加入資料行和索引。</span><span class="sxs-lookup"><span data-stu-id="669c0-104">Creates a table, adds columns, and indices on that table.</span></span> [<span data-ttu-id="669c0-105">JetCreateTableColumnIndex3 (JET_SESID、JET_DBID、JET_TABLECREATE) </span><span class="sxs-lookup"><span data-stu-id="669c0-105">JetCreateTableColumnIndex3(JET_SESID, JET_DBID, JET_TABLECREATE)</span></span>](./api.jetcreatetablecolumnindex3-method.md)
+<span data-ttu-id="8f852-104">建立資料表，並在該資料表上加入資料行和索引。</span><span class="sxs-lookup"><span data-stu-id="8f852-104">Creates a table, adds columns, and indices on that table.</span></span> [<span data-ttu-id="8f852-105">JetCreateTableColumnIndex3 (JET_SESID、JET_DBID、JET_TABLECREATE) </span><span class="sxs-lookup"><span data-stu-id="8f852-105">JetCreateTableColumnIndex3(JET_SESID, JET_DBID, JET_TABLECREATE)</span></span>](./api.jetcreatetablecolumnindex3-method.md)
 
-<span data-ttu-id="669c0-106">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="669c0-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="669c0-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="669c0-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="8f852-106">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="8f852-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="8f852-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8f852-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="669c0-108">語法</span><span class="sxs-lookup"><span data-stu-id="669c0-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8f852-108">語法</span><span class="sxs-lookup"><span data-stu-id="8f852-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -62,33 +62,33 @@ public static void JetCreateTableColumnIndex4(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="669c0-109">參數</span><span class="sxs-lookup"><span data-stu-id="669c0-109">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="8f852-109">參數</span><span class="sxs-lookup"><span data-stu-id="8f852-109">Parameters</span></span>
 
-  - <span data-ttu-id="669c0-110">sesid</span><span class="sxs-lookup"><span data-stu-id="669c0-110">sesid</span></span>  
-    <span data-ttu-id="669c0-111">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="669c0-111">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="8f852-110">sesid</span><span class="sxs-lookup"><span data-stu-id="8f852-110">sesid</span></span>  
+    <span data-ttu-id="8f852-111">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="8f852-111">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="669c0-112">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="669c0-112">The session to use.</span></span>
+    <span data-ttu-id="8f852-112">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="8f852-112">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="669c0-113">dbid</span><span class="sxs-lookup"><span data-stu-id="669c0-113">dbid</span></span>  
-    <span data-ttu-id="669c0-114">類型： [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="669c0-114">Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)</span></span>  
+  - <span data-ttu-id="8f852-113">dbid</span><span class="sxs-lookup"><span data-stu-id="8f852-113">dbid</span></span>  
+    <span data-ttu-id="8f852-114">類型： [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="8f852-114">Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)</span></span>  
     
-    <span data-ttu-id="669c0-115">要加入新資料表的資料庫。</span><span class="sxs-lookup"><span data-stu-id="669c0-115">The database to which to add the new table.</span></span>
+    <span data-ttu-id="8f852-115">要加入新資料表的資料庫。</span><span class="sxs-lookup"><span data-stu-id="8f852-115">The database to which to add the new table.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="669c0-116">tablecreate</span><span class="sxs-lookup"><span data-stu-id="669c0-116">tablecreate</span></span>  
-    <span data-ttu-id="669c0-117">類型： [Microsoft.Isam.Esent.Interop.JET_TABLECREATE](./jet-tablecreate-class.md)</span><span class="sxs-lookup"><span data-stu-id="669c0-117">Type: [Microsoft.Isam.Esent.Interop.JET_TABLECREATE](./jet-tablecreate-class.md)</span></span>  
+  - <span data-ttu-id="8f852-116">tablecreate</span><span class="sxs-lookup"><span data-stu-id="8f852-116">tablecreate</span></span>  
+    <span data-ttu-id="8f852-117">類型： [Microsoft.Isam.Esent.Interop.JET_TABLECREATE](./jet-tablecreate-class.md)</span><span class="sxs-lookup"><span data-stu-id="8f852-117">Type: [Microsoft.Isam.Esent.Interop.JET_TABLECREATE](./jet-tablecreate-class.md)</span></span>  
     
-    <span data-ttu-id="669c0-118">描述要建立之資料表的物件。</span><span class="sxs-lookup"><span data-stu-id="669c0-118">Object describing the table to create.</span></span>
+    <span data-ttu-id="8f852-118">描述要建立之資料表的物件。</span><span class="sxs-lookup"><span data-stu-id="8f852-118">Object describing the table to create.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="669c0-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="669c0-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8f852-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8f852-119">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="669c0-120">參考</span><span class="sxs-lookup"><span data-stu-id="669c0-120">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="8f852-120">參考</span><span class="sxs-lookup"><span data-stu-id="8f852-120">Reference</span></span>
 
-[<span data-ttu-id="669c0-121">Windows8Api 類別</span><span class="sxs-lookup"><span data-stu-id="669c0-121">Windows8Api class</span></span>](./windows8api-class.md)
+[<span data-ttu-id="8f852-121">Windows8Api 類別</span><span class="sxs-lookup"><span data-stu-id="8f852-121">Windows8Api class</span></span>](./windows8api-class.md)
 
-[<span data-ttu-id="669c0-122">Windows8Api 成員</span><span class="sxs-lookup"><span data-stu-id="669c0-122">Windows8Api members</span></span>](./windows8api-members.md)
+[<span data-ttu-id="8f852-122">Windows8Api 成員</span><span class="sxs-lookup"><span data-stu-id="8f852-122">Windows8Api members</span></span>](./windows8api-members.md)
 
-[<span data-ttu-id="669c0-123">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="669c0-123">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="8f852-123">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="8f852-123">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

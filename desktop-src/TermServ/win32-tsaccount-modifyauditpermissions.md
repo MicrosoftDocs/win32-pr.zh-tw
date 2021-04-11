@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844212"
 ---
-# <a name="modifyauditpermissions-method-of-the-win32_tsaccount-class"></a><span data-ttu-id="7ab0a-106">Win32 TSAccount 類別的 ModifyAuditPermissions 方法 \_</span><span class="sxs-lookup"><span data-stu-id="7ab0a-106">ModifyAuditPermissions method of the Win32\_TSAccount class</span></span>
+# <a name="modifyauditpermissions-method-of-the-win32_tsaccount-class"></a><span data-ttu-id="bc584-106">Win32 TSAccount 類別的 ModifyAuditPermissions 方法 \_</span><span class="sxs-lookup"><span data-stu-id="bc584-106">ModifyAuditPermissions method of the Win32\_TSAccount class</span></span>
 
-<span data-ttu-id="7ab0a-107">**ModifyAuditPermissions** 方法會準備為指定的帳號設定更細微的 audit 許可權集。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-107">The **ModifyAuditPermissions** method prepares to set a more granular set of audit permissions to the specified account.</span></span>
+<span data-ttu-id="bc584-107">**ModifyAuditPermissions** 方法會準備為指定的帳號設定更細微的 audit 許可權集。</span><span class="sxs-lookup"><span data-stu-id="bc584-107">The **ModifyAuditPermissions** method prepares to set a more granular set of audit permissions to the specified account.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7ab0a-108">語法</span><span class="sxs-lookup"><span data-stu-id="7ab0a-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bc584-108">語法</span><span class="sxs-lookup"><span data-stu-id="bc584-108">Syntax</span></span>
 
 
 ```mof
@@ -40,183 +40,183 @@ uint32 ModifyAuditPermissions(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="7ab0a-109">參數</span><span class="sxs-lookup"><span data-stu-id="7ab0a-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bc584-109">參數</span><span class="sxs-lookup"><span data-stu-id="bc584-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="7ab0a-110">*PermissionMask* \[在\]</span><span class="sxs-lookup"><span data-stu-id="7ab0a-110">*PermissionMask* \[in\]</span></span>
+<span data-ttu-id="bc584-110">*PermissionMask* \[在\]</span><span class="sxs-lookup"><span data-stu-id="bc584-110">*PermissionMask* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-111">要與指定的帳號相關聯的 [遠端桌面工作階段主機許可權](terminal-services-permissions.md) 集合。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-111">The set of [Remote Desktop Session Host Permissions](terminal-services-permissions.md) to associate with the specified account.</span></span> <span data-ttu-id="7ab0a-112">此參數的值是點陣圖，而且可以選取下列任何或所有的值。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-112">The value of this parameter is a bitmap, and any or all of the following values may be selected.</span></span>
+<span data-ttu-id="bc584-111">要與指定的帳號相關聯的 [遠端桌面工作階段主機許可權](terminal-services-permissions.md) 集合。</span><span class="sxs-lookup"><span data-stu-id="bc584-111">The set of [Remote Desktop Session Host Permissions](terminal-services-permissions.md) to associate with the specified account.</span></span> <span data-ttu-id="bc584-112">此參數的值是點陣圖，而且可以選取下列任何或所有的值。</span><span class="sxs-lookup"><span data-stu-id="bc584-112">The value of this parameter is a bitmap, and any or all of the following values may be selected.</span></span>
 
 <dt>
 
 <span id="WINSTATION_QUERY"></span><span id="winstation_query"></span>
 
-<span data-ttu-id="7ab0a-113"><span id="WINSTATION_QUERY"></span><span id="winstation_query"></span>**WINSTATION \_查詢** (0) </span><span class="sxs-lookup"><span data-stu-id="7ab0a-113"><span id="WINSTATION_QUERY"></span><span id="winstation_query"></span>**WINSTATION\_QUERY** (0)</span></span>
+<span data-ttu-id="bc584-113"><span id="WINSTATION_QUERY"></span><span id="winstation_query"></span>**WINSTATION \_查詢** (0) </span><span class="sxs-lookup"><span data-stu-id="bc584-113"><span id="WINSTATION_QUERY"></span><span id="winstation_query"></span>**WINSTATION\_QUERY** (0)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-114">查詢會話相關資訊的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-114">Permission to query information about a session.</span></span>
+<span data-ttu-id="bc584-114">查詢會話相關資訊的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-114">Permission to query information about a session.</span></span>
 
 </dd> <dt>
 
 <span id="WINSTATION_SET"></span><span id="winstation_set"></span>
 
-<span data-ttu-id="7ab0a-115"><span id="WINSTATION_SET"></span><span id="winstation_set"></span>**WINSTATION \_設定** (1) </span><span class="sxs-lookup"><span data-stu-id="7ab0a-115"><span id="WINSTATION_SET"></span><span id="winstation_set"></span>**WINSTATION\_SET** (1)</span></span>
+<span data-ttu-id="bc584-115"><span id="WINSTATION_SET"></span><span id="winstation_set"></span>**WINSTATION \_設定** (1) </span><span class="sxs-lookup"><span data-stu-id="bc584-115"><span id="WINSTATION_SET"></span><span id="winstation_set"></span>**WINSTATION\_SET** (1)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-116">修改連接參數的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-116">Permission to modify connection parameters.</span></span>
+<span data-ttu-id="bc584-116">修改連接參數的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-116">Permission to modify connection parameters.</span></span>
 
 </dd> <dt>
 
 <span id="WINSTATION_RESET"></span><span id="winstation_reset"></span>
 
-<span data-ttu-id="7ab0a-117"><span id="WINSTATION_RESET"></span><span id="winstation_reset"></span>**WINSTATION \_重設** (6) </span><span class="sxs-lookup"><span data-stu-id="7ab0a-117"><span id="WINSTATION_RESET"></span><span id="winstation_reset"></span>**WINSTATION\_RESET** (6)</span></span>
+<span data-ttu-id="bc584-117"><span id="WINSTATION_RESET"></span><span id="winstation_reset"></span>**WINSTATION \_重設** (6) </span><span class="sxs-lookup"><span data-stu-id="bc584-117"><span id="WINSTATION_RESET"></span><span id="winstation_reset"></span>**WINSTATION\_RESET** (6)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-118">重設或結束會話或連接的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-118">Permission to reset or end a session or connection.</span></span>
+<span data-ttu-id="bc584-118">重設或結束會話或連接的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-118">Permission to reset or end a session or connection.</span></span>
 
 </dd> <dt>
 
 <span id="WINSTATION_VIRTUAL___STANDARD_RIGHTS_REQUIRED"></span><span id="winstation_virtual___standard_rights_required"></span>
 
-<span data-ttu-id="7ab0a-119"><span id="WINSTATION_VIRTUAL___STANDARD_RIGHTS_REQUIRED"></span><span id="winstation_virtual___standard_rights_required"></span>**WINSTATION \_\| \_ \_ 需要虛擬標準許可權** (3) </span><span class="sxs-lookup"><span data-stu-id="7ab0a-119"><span id="WINSTATION_VIRTUAL___STANDARD_RIGHTS_REQUIRED"></span><span id="winstation_virtual___standard_rights_required"></span>**WINSTATION\_VIRTUAL \| STANDARD\_RIGHTS\_REQUIRED** (3)</span></span>
+<span data-ttu-id="bc584-119"><span id="WINSTATION_VIRTUAL___STANDARD_RIGHTS_REQUIRED"></span><span id="winstation_virtual___standard_rights_required"></span>**WINSTATION \_\| \_ \_ 需要虛擬標準許可權** (3) </span><span class="sxs-lookup"><span data-stu-id="bc584-119"><span id="WINSTATION_VIRTUAL___STANDARD_RIGHTS_REQUIRED"></span><span id="winstation_virtual___standard_rights_required"></span>**WINSTATION\_VIRTUAL \| STANDARD\_RIGHTS\_REQUIRED** (3)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-120">使用虛擬通道的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-120">Permission to use virtual channels.</span></span> <span data-ttu-id="7ab0a-121">虛擬通道可讓您從伺服器程式存取用戶端裝置。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-121">Virtual channels provide access from a server program to client devices.</span></span>
+<span data-ttu-id="bc584-120">使用虛擬通道的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-120">Permission to use virtual channels.</span></span> <span data-ttu-id="bc584-121">虛擬通道可讓您從伺服器程式存取用戶端裝置。</span><span class="sxs-lookup"><span data-stu-id="bc584-121">Virtual channels provide access from a server program to client devices.</span></span>
 
 </dd> <dt>
 
 <span id="WINSTATION_SHADOW"></span><span id="winstation_shadow"></span>
 
-<span data-ttu-id="7ab0a-122"><span id="WINSTATION_SHADOW"></span><span id="winstation_shadow"></span>**WINSTATION \_陰影** (4) </span><span class="sxs-lookup"><span data-stu-id="7ab0a-122"><span id="WINSTATION_SHADOW"></span><span id="winstation_shadow"></span>**WINSTATION\_SHADOW** (4)</span></span>
+<span data-ttu-id="bc584-122"><span id="WINSTATION_SHADOW"></span><span id="winstation_shadow"></span>**WINSTATION \_陰影** (4) </span><span class="sxs-lookup"><span data-stu-id="bc584-122"><span id="WINSTATION_SHADOW"></span><span id="winstation_shadow"></span>**WINSTATION\_SHADOW** (4)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-123">陰影或遠端控制另一個使用者會話的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-123">Permission to shadow or remotely control another user's session.</span></span>
+<span data-ttu-id="bc584-123">陰影或遠端控制另一個使用者會話的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-123">Permission to shadow or remotely control another user's session.</span></span>
 
 </dd> <dt>
 
 <span id="WINSTATION_LOGON"></span><span id="winstation_logon"></span>
 
-<span data-ttu-id="7ab0a-124"><span id="WINSTATION_LOGON"></span><span id="winstation_logon"></span>**WINSTATION \_登** 入 (5) </span><span class="sxs-lookup"><span data-stu-id="7ab0a-124"><span id="WINSTATION_LOGON"></span><span id="winstation_logon"></span>**WINSTATION\_LOGON** (5)</span></span>
+<span data-ttu-id="bc584-124"><span id="WINSTATION_LOGON"></span><span id="winstation_logon"></span>**WINSTATION \_登** 入 (5) </span><span class="sxs-lookup"><span data-stu-id="bc584-124"><span id="WINSTATION_LOGON"></span><span id="winstation_logon"></span>**WINSTATION\_LOGON** (5)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-125">登入伺服器上會話的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-125">Permission to log on to a session on the server.</span></span>
+<span data-ttu-id="bc584-125">登入伺服器上會話的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-125">Permission to log on to a session on the server.</span></span>
 
 </dd> <dt>
 
 <span id="WINSTATION_LOGOFF"></span><span id="winstation_logoff"></span>
 
-<span data-ttu-id="7ab0a-126"><span id="WINSTATION_LOGOFF"></span><span id="winstation_logoff"></span>**WINSTATION \_登出** (2) </span><span class="sxs-lookup"><span data-stu-id="7ab0a-126"><span id="WINSTATION_LOGOFF"></span><span id="winstation_logoff"></span>**WINSTATION\_LOGOFF** (2)</span></span>
+<span data-ttu-id="bc584-126"><span id="WINSTATION_LOGOFF"></span><span id="winstation_logoff"></span>**WINSTATION \_登出** (2) </span><span class="sxs-lookup"><span data-stu-id="bc584-126"><span id="WINSTATION_LOGOFF"></span><span id="winstation_logoff"></span>**WINSTATION\_LOGOFF** (2)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-127">從會話登出使用者的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-127">Permission to log off a user from a session.</span></span>
+<span data-ttu-id="bc584-127">從會話登出使用者的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-127">Permission to log off a user from a session.</span></span>
 
 </dd> <dt>
 
 <span id="WINSTATION_MSG"></span><span id="winstation_msg"></span>
 
-<span data-ttu-id="7ab0a-128"><span id="WINSTATION_MSG"></span><span id="winstation_msg"></span>**WINSTATION \_MSG** (7) </span><span class="sxs-lookup"><span data-stu-id="7ab0a-128"><span id="WINSTATION_MSG"></span><span id="winstation_msg"></span>**WINSTATION\_MSG** (7)</span></span>
+<span data-ttu-id="bc584-128"><span id="WINSTATION_MSG"></span><span id="winstation_msg"></span>**WINSTATION \_MSG** (7) </span><span class="sxs-lookup"><span data-stu-id="bc584-128"><span id="WINSTATION_MSG"></span><span id="winstation_msg"></span>**WINSTATION\_MSG** (7)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-129">將訊息傳送至另一個使用者會話的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-129">Permission to send a message to another user's session.</span></span>
+<span data-ttu-id="bc584-129">將訊息傳送至另一個使用者會話的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-129">Permission to send a message to another user's session.</span></span>
 
 </dd> <dt>
 
 <span id="WINSTATION_CONNECT"></span><span id="winstation_connect"></span>
 
-<span data-ttu-id="7ab0a-130"><span id="WINSTATION_CONNECT"></span><span id="winstation_connect"></span>**WINSTATION \_連接** (8) </span><span class="sxs-lookup"><span data-stu-id="7ab0a-130"><span id="WINSTATION_CONNECT"></span><span id="winstation_connect"></span>**WINSTATION\_CONNECT** (8)</span></span>
+<span data-ttu-id="bc584-130"><span id="WINSTATION_CONNECT"></span><span id="winstation_connect"></span>**WINSTATION \_連接** (8) </span><span class="sxs-lookup"><span data-stu-id="bc584-130"><span id="WINSTATION_CONNECT"></span><span id="winstation_connect"></span>**WINSTATION\_CONNECT** (8)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-131">連接到另一個會話的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-131">Permission to connect to another session.</span></span>
+<span data-ttu-id="bc584-131">連接到另一個會話的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-131">Permission to connect to another session.</span></span>
 
 </dd> <dt>
 
 <span id="WINSTATION_DISCONNECT"></span><span id="winstation_disconnect"></span>
 
-<span data-ttu-id="7ab0a-132"><span id="WINSTATION_DISCONNECT"></span><span id="winstation_disconnect"></span>**WINSTATION \_中斷** (9) 的連線</span><span class="sxs-lookup"><span data-stu-id="7ab0a-132"><span id="WINSTATION_DISCONNECT"></span><span id="winstation_disconnect"></span>**WINSTATION\_DISCONNECT** (9)</span></span>
+<span data-ttu-id="bc584-132"><span id="WINSTATION_DISCONNECT"></span><span id="winstation_disconnect"></span>**WINSTATION \_中斷** (9) 的連線</span><span class="sxs-lookup"><span data-stu-id="bc584-132"><span id="WINSTATION_DISCONNECT"></span><span id="winstation_disconnect"></span>**WINSTATION\_DISCONNECT** (9)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-133">中斷會話連接的許可權。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-133">Permission to disconnect a session.</span></span>
+<span data-ttu-id="bc584-133">中斷會話連接的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc584-133">Permission to disconnect a session.</span></span>
 
 </dd> </dl> </dd> <dt>
 
-<span data-ttu-id="7ab0a-134">*成功* \[在\]</span><span class="sxs-lookup"><span data-stu-id="7ab0a-134">*Success* \[in\]</span></span>
+<span data-ttu-id="bc584-134">*成功* \[在\]</span><span class="sxs-lookup"><span data-stu-id="bc584-134">*Success* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-135">指定是否允許或拒絕 *PermissionMask* 參數的值所指定的許可權集合。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-135">Specifies if the permission set specified by the value of the *PermissionMask* parameter is allowed or denied.</span></span>
+<span data-ttu-id="bc584-135">指定是否允許或拒絕 *PermissionMask* 參數的值所指定的許可權集合。</span><span class="sxs-lookup"><span data-stu-id="bc584-135">Specifies if the permission set specified by the value of the *PermissionMask* parameter is allowed or denied.</span></span>
 
 <dt>
 
 <span id="1"></span>
 
-<span data-ttu-id="7ab0a-136"><span id="1"></span>**1**</span><span class="sxs-lookup"><span data-stu-id="7ab0a-136"><span id="1"></span>**1**</span></span>
+<span data-ttu-id="bc584-136"><span id="1"></span>**1**</span><span class="sxs-lookup"><span data-stu-id="bc584-136"><span id="1"></span>**1**</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-137">允許指定的許可權集合。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-137">The specified permission set is allowed.</span></span>
+<span data-ttu-id="bc584-137">允許指定的許可權集合。</span><span class="sxs-lookup"><span data-stu-id="bc584-137">The specified permission set is allowed.</span></span>
 
 </dd> <dt>
 
 <span id="0"></span>
 
-<span data-ttu-id="7ab0a-138"><span id="0"></span>**0**</span><span class="sxs-lookup"><span data-stu-id="7ab0a-138"><span id="0"></span>**0**</span></span>
+<span data-ttu-id="bc584-138"><span id="0"></span>**0**</span><span class="sxs-lookup"><span data-stu-id="bc584-138"><span id="0"></span>**0**</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="7ab0a-139">已拒絕指定的許可權集合。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-139">The specified permission set is denied.</span></span>
+<span data-ttu-id="bc584-139">已拒絕指定的許可權集合。</span><span class="sxs-lookup"><span data-stu-id="bc584-139">The specified permission set is denied.</span></span>
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="7ab0a-140">傳回值</span><span class="sxs-lookup"><span data-stu-id="7ab0a-140">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bc584-140">傳回值</span><span class="sxs-lookup"><span data-stu-id="bc584-140">Return value</span></span>
 
-<span data-ttu-id="7ab0a-141">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-141">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="7ab0a-142">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-142">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
+<span data-ttu-id="bc584-141">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="bc584-141">Returns 0 on success, otherwise returns a WMI error code.</span></span> <span data-ttu-id="bc584-142">如需這些值的清單，請參閱 [遠端桌面服務 WMI 提供者錯誤碼](terminal-services-wmi-provider-error-codes.md) 。</span><span class="sxs-lookup"><span data-stu-id="bc584-142">Refer to [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md) for a list of these values.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7ab0a-143">備註</span><span class="sxs-lookup"><span data-stu-id="7ab0a-143">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc584-143">備註</span><span class="sxs-lookup"><span data-stu-id="bc584-143">Remarks</span></span>
 
-<span data-ttu-id="7ab0a-144">受控物件格式 (MOF) 檔包含 Windows Management Instrumentation (WMI) 類別的定義。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-144">Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes.</span></span> <span data-ttu-id="7ab0a-145">MOF 檔案不會安裝為 Microsoft Windows 軟體開發套件 (SDK) 的一部分。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-145">MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK).</span></span> <span data-ttu-id="7ab0a-146">當您使用伺服器管理員新增相關聯的角色時，它們會安裝在伺服器上。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-146">They are installed on the server when you add the associated role by using the Server Manager.</span></span> <span data-ttu-id="7ab0a-147">如需 MOF 檔案的詳細資訊，請參閱 [受控物件格式 (mof) ](/windows/desktop/WmiSdk/managed-object-format--mof-)。</span><span class="sxs-lookup"><span data-stu-id="7ab0a-147">For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).</span></span>
+<span data-ttu-id="bc584-144">受控物件格式 (MOF) 檔包含 Windows Management Instrumentation (WMI) 類別的定義。</span><span class="sxs-lookup"><span data-stu-id="bc584-144">Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes.</span></span> <span data-ttu-id="bc584-145">MOF 檔案不會安裝為 Microsoft Windows 軟體開發套件 (SDK) 的一部分。</span><span class="sxs-lookup"><span data-stu-id="bc584-145">MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK).</span></span> <span data-ttu-id="bc584-146">當您使用伺服器管理員新增相關聯的角色時，它們會安裝在伺服器上。</span><span class="sxs-lookup"><span data-stu-id="bc584-146">They are installed on the server when you add the associated role by using the Server Manager.</span></span> <span data-ttu-id="bc584-147">如需 MOF 檔案的詳細資訊，請參閱 [受控物件格式 (mof) ](/windows/desktop/WmiSdk/managed-object-format--mof-)。</span><span class="sxs-lookup"><span data-stu-id="bc584-147">For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="7ab0a-148">規格需求</span><span class="sxs-lookup"><span data-stu-id="7ab0a-148">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="bc584-148">規格需求</span><span class="sxs-lookup"><span data-stu-id="bc584-148">Requirements</span></span>
 
 
 
-| <span data-ttu-id="7ab0a-149">需求</span><span class="sxs-lookup"><span data-stu-id="7ab0a-149">Requirement</span></span> | <span data-ttu-id="7ab0a-150">值</span><span class="sxs-lookup"><span data-stu-id="7ab0a-150">Value</span></span> |
+| <span data-ttu-id="bc584-149">需求</span><span class="sxs-lookup"><span data-stu-id="bc584-149">Requirement</span></span> | <span data-ttu-id="bc584-150">值</span><span class="sxs-lookup"><span data-stu-id="bc584-150">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="7ab0a-151">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7ab0a-151">Minimum supported client</span></span><br/> | <span data-ttu-id="7ab0a-152">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="7ab0a-152">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="7ab0a-153">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7ab0a-153">Minimum supported server</span></span><br/> | <span data-ttu-id="7ab0a-154">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="7ab0a-154">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="7ab0a-155">命名空間</span><span class="sxs-lookup"><span data-stu-id="7ab0a-155">Namespace</span></span><br/>                | <span data-ttu-id="7ab0a-156">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="7ab0a-156">Root\\CIMv2\\TerminalServices</span></span><br/>                                                |
-| <span data-ttu-id="7ab0a-157">MOF</span><span class="sxs-lookup"><span data-stu-id="7ab0a-157">MOF</span></span><br/>                      | <dl> <span data-ttu-id="7ab0a-158"><dt>TSCfgWmi mof</dt></span><span class="sxs-lookup"><span data-stu-id="7ab0a-158"><dt>TSCfgWmi.mof</dt></span></span> </dl> |
-| <span data-ttu-id="7ab0a-159">DLL</span><span class="sxs-lookup"><span data-stu-id="7ab0a-159">DLL</span></span><br/>                      | <dl> <span data-ttu-id="7ab0a-160"><dt>TSCfgWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="7ab0a-160"><dt>TSCfgWmi.dll</dt></span></span> </dl> |
+| <span data-ttu-id="bc584-151">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="bc584-151">Minimum supported client</span></span><br/> | <span data-ttu-id="bc584-152">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="bc584-152">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="bc584-153">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="bc584-153">Minimum supported server</span></span><br/> | <span data-ttu-id="bc584-154">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="bc584-154">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="bc584-155">命名空間</span><span class="sxs-lookup"><span data-stu-id="bc584-155">Namespace</span></span><br/>                | <span data-ttu-id="bc584-156">根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway</span><span class="sxs-lookup"><span data-stu-id="bc584-156">Root\\CIMv2\\TerminalServices</span></span><br/>                                                |
+| <span data-ttu-id="bc584-157">MOF</span><span class="sxs-lookup"><span data-stu-id="bc584-157">MOF</span></span><br/>                      | <dl> <span data-ttu-id="bc584-158"><dt>TSCfgWmi mof</dt></span><span class="sxs-lookup"><span data-stu-id="bc584-158"><dt>TSCfgWmi.mof</dt></span></span> </dl> |
+| <span data-ttu-id="bc584-159">DLL</span><span class="sxs-lookup"><span data-stu-id="bc584-159">DLL</span></span><br/>                      | <dl> <span data-ttu-id="bc584-160"><dt>TSCfgWmi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="bc584-160"><dt>TSCfgWmi.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7ab0a-161">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7ab0a-161">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bc584-161">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bc584-161">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7ab0a-162">**Win32 \_ TSAccount**</span><span class="sxs-lookup"><span data-stu-id="7ab0a-162">**Win32\_TSAccount**</span></span>](win32-tsaccount.md)
+[<span data-ttu-id="bc584-162">**Win32 \_ TSAccount**</span><span class="sxs-lookup"><span data-stu-id="bc584-162">**Win32\_TSAccount**</span></span>](win32-tsaccount.md)
 </dt> </dl>
 
  

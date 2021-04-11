@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026277"
 ---
-# <a name="isearchjob-methods"></a><span data-ttu-id="41bec-103">ISearchJob 方法</span><span class="sxs-lookup"><span data-stu-id="41bec-103">ISearchJob Methods</span></span>
+# <a name="isearchjob-methods"></a><span data-ttu-id="23c4d-103">ISearchJob 方法</span><span class="sxs-lookup"><span data-stu-id="23c4d-103">ISearchJob Methods</span></span>
 
-<span data-ttu-id="41bec-104">[**ISearchJob**](/windows/desktop/api/Wuapi/nn-wuapi-isearchjob)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="41bec-104">The [**ISearchJob**](/windows/desktop/api/Wuapi/nn-wuapi-isearchjob) interface defines the following methods.</span></span>
+<span data-ttu-id="23c4d-104">[**ISearchJob**](/windows/desktop/api/Wuapi/nn-wuapi-isearchjob)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="23c4d-104">The [**ISearchJob**](/windows/desktop/api/Wuapi/nn-wuapi-isearchjob) interface defines the following methods.</span></span>
 
 
 
-| <span data-ttu-id="41bec-105">方法</span><span class="sxs-lookup"><span data-stu-id="41bec-105">Method</span></span>                                          | <span data-ttu-id="41bec-106">描述</span><span class="sxs-lookup"><span data-stu-id="41bec-106">Description</span></span>                                                                          |
+| <span data-ttu-id="23c4d-105">方法</span><span class="sxs-lookup"><span data-stu-id="23c4d-105">Method</span></span>                                          | <span data-ttu-id="23c4d-106">描述</span><span class="sxs-lookup"><span data-stu-id="23c4d-106">Description</span></span>                                                                          |
 |-------------------------------------------------|--------------------------------------------------------------------------------------|
-| [<span data-ttu-id="41bec-107">**清理**</span><span class="sxs-lookup"><span data-stu-id="41bec-107">**CleanUp**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-isearchjob-cleanup)           | <span data-ttu-id="41bec-108">等候非同步作業完成，然後釋放所有回呼。</span><span class="sxs-lookup"><span data-stu-id="41bec-108">Waits for an asynchronous operation to complete and then releases all the callbacks.</span></span> |
-| [<span data-ttu-id="41bec-109">**RequestAbort**</span><span class="sxs-lookup"><span data-stu-id="41bec-109">**RequestAbort**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-isearchjob-requestabort) | <span data-ttu-id="41bec-110">提出取消非同步搜尋的要求。</span><span class="sxs-lookup"><span data-stu-id="41bec-110">Makes a request to cancel an asynchronous search.</span></span>                                    |
+| [<span data-ttu-id="23c4d-107">**清理**</span><span class="sxs-lookup"><span data-stu-id="23c4d-107">**CleanUp**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-isearchjob-cleanup)           | <span data-ttu-id="23c4d-108">等候非同步作業完成，然後釋放所有回呼。</span><span class="sxs-lookup"><span data-stu-id="23c4d-108">Waits for an asynchronous operation to complete and then releases all the callbacks.</span></span> |
+| [<span data-ttu-id="23c4d-109">**RequestAbort**</span><span class="sxs-lookup"><span data-stu-id="23c4d-109">**RequestAbort**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-isearchjob-requestabort) | <span data-ttu-id="23c4d-110">提出取消非同步搜尋的要求。</span><span class="sxs-lookup"><span data-stu-id="23c4d-110">Makes a request to cancel an asynchronous search.</span></span>                                    |
 
 
 
