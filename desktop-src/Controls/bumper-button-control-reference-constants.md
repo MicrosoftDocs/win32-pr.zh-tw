@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853688"
 ---
-# <a name="button-control-constants"></a><span data-ttu-id="00680-103">按鈕控制項常數</span><span class="sxs-lookup"><span data-stu-id="00680-103">Button Control Constants</span></span>
+# <a name="button-control-constants"></a><span data-ttu-id="20ba4-103">按鈕控制項常數</span><span class="sxs-lookup"><span data-stu-id="20ba4-103">Button Control Constants</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="00680-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="00680-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="20ba4-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="20ba4-104">In This Section</span></span>
 
--   [<span data-ttu-id="00680-105">按鈕樣式</span><span class="sxs-lookup"><span data-stu-id="00680-105">Button Styles</span></span>](button-styles.md)
+-   [<span data-ttu-id="20ba4-105">按鈕樣式</span><span class="sxs-lookup"><span data-stu-id="20ba4-105">Button Styles</span></span>](button-styles.md)
 
  
 

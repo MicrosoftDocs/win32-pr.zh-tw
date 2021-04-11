@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853755"
 ---
-# <a name="combobox-control-constants"></a><span data-ttu-id="b0a15-103">ComboBox 控制項常數</span><span class="sxs-lookup"><span data-stu-id="b0a15-103">ComboBox Control Constants</span></span>
+# <a name="combobox-control-constants"></a><span data-ttu-id="2d78d-103">ComboBox 控制項常數</span><span class="sxs-lookup"><span data-stu-id="2d78d-103">ComboBox Control Constants</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="b0a15-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="b0a15-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2d78d-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="2d78d-104">In This Section</span></span>
 
--   [<span data-ttu-id="b0a15-105">下拉式列示方塊樣式</span><span class="sxs-lookup"><span data-stu-id="b0a15-105">Combo Box Styles</span></span>](combo-box-styles.md)
+-   [<span data-ttu-id="2d78d-105">下拉式列示方塊樣式</span><span class="sxs-lookup"><span data-stu-id="2d78d-105">Combo Box Styles</span></span>](combo-box-styles.md)
 
  
 
