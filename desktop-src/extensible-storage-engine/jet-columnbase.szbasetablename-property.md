@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695188"
 ---
-# <a name="jet_columnbaseszbasetablename-property"></a><span data-ttu-id="7942f-103">JET_COLUMNBASE szBaseTableName 屬性</span><span class="sxs-lookup"><span data-stu-id="7942f-103">JET_COLUMNBASE.szBaseTableName property</span></span>
+# <a name="jet_columnbaseszbasetablename-property"></a><span data-ttu-id="b3cf0-103">JET_COLUMNBASE szBaseTableName 屬性</span><span class="sxs-lookup"><span data-stu-id="b3cf0-103">JET_COLUMNBASE.szBaseTableName property</span></span>
 
-<span data-ttu-id="7942f-104">取得目前資料表繼承其 DDL 的資料表。</span><span class="sxs-lookup"><span data-stu-id="7942f-104">Gets the table from which the current table inherits its DDL.</span></span>
+<span data-ttu-id="b3cf0-104">取得目前資料表繼承其 DDL 的資料表。</span><span class="sxs-lookup"><span data-stu-id="b3cf0-104">Gets the table from which the current table inherits its DDL.</span></span>
 
-<span data-ttu-id="7942f-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="7942f-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="7942f-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="7942f-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="b3cf0-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="b3cf0-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="b3cf0-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="b3cf0-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7942f-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="7942f-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b3cf0-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="b3cf0-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,16 +58,16 @@ value = instance.szBaseTableName
 public string szBaseTableName { get; internal set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="7942f-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="7942f-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="b3cf0-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="b3cf0-108">Property value</span></span>
 
-<span data-ttu-id="7942f-109">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="7942f-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
+<span data-ttu-id="b3cf0-109">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="b3cf0-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="7942f-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7942f-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3cf0-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b3cf0-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="7942f-111">參考</span><span class="sxs-lookup"><span data-stu-id="7942f-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="b3cf0-111">參考</span><span class="sxs-lookup"><span data-stu-id="b3cf0-111">Reference</span></span>
 
-[<span data-ttu-id="7942f-112">JET_COLUMNBASE 類別</span><span class="sxs-lookup"><span data-stu-id="7942f-112">JET_COLUMNBASE class</span></span>](./jet-columnbase-class.md)
+[<span data-ttu-id="b3cf0-112">JET_COLUMNBASE 類別</span><span class="sxs-lookup"><span data-stu-id="b3cf0-112">JET_COLUMNBASE class</span></span>](./jet-columnbase-class.md)
 
-[<span data-ttu-id="7942f-113">JET_COLUMNBASE 成員</span><span class="sxs-lookup"><span data-stu-id="7942f-113">JET_COLUMNBASE members</span></span>](./jet-columnbase-members.md)
+[<span data-ttu-id="b3cf0-113">JET_COLUMNBASE 成員</span><span class="sxs-lookup"><span data-stu-id="b3cf0-113">JET_COLUMNBASE members</span></span>](./jet-columnbase-members.md)
 
-[<span data-ttu-id="7942f-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="7942f-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="b3cf0-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="b3cf0-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -22,42 +22,42 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843272"
 ---
-# <a name="logfileitem-object"></a><span data-ttu-id="b0858-106">LogFileItem 物件</span><span class="sxs-lookup"><span data-stu-id="b0858-106">LogFileItem object</span></span>
+# <a name="logfileitem-object"></a><span data-ttu-id="06145-106">LogFileItem 物件</span><span class="sxs-lookup"><span data-stu-id="06145-106">LogFileItem object</span></span>
 
-<span data-ttu-id="b0858-107">您可以使用這個類別來取出系統監視器控制項所存取的記錄檔路徑。</span><span class="sxs-lookup"><span data-stu-id="b0858-107">Use this class to retrieve the path of a log file accessed by the System Monitor control.</span></span>
+<span data-ttu-id="06145-107">您可以使用這個類別來取出系統監視器控制項所存取的記錄檔路徑。</span><span class="sxs-lookup"><span data-stu-id="06145-107">Use this class to retrieve the path of a log file accessed by the System Monitor control.</span></span>
 
-<span data-ttu-id="b0858-108">若要取出這個物件，請通話記錄檔 [**。**](systemmonitor-logfiles-item.md)</span><span class="sxs-lookup"><span data-stu-id="b0858-108">To retrieve this object, call [**LogFiles.Item**](systemmonitor-logfiles-item.md).</span></span>
+<span data-ttu-id="06145-108">若要取出這個物件，請通話記錄檔 [**。**](systemmonitor-logfiles-item.md)</span><span class="sxs-lookup"><span data-stu-id="06145-108">To retrieve this object, call [**LogFiles.Item**](systemmonitor-logfiles-item.md).</span></span>
 
-## <a name="members"></a><span data-ttu-id="b0858-109">成員</span><span class="sxs-lookup"><span data-stu-id="b0858-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="06145-109">成員</span><span class="sxs-lookup"><span data-stu-id="06145-109">Members</span></span>
 
-<span data-ttu-id="b0858-110">**LogFileItem** 物件具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="b0858-110">The **LogFileItem** object has these types of members:</span></span>
+<span data-ttu-id="06145-110">**LogFileItem** 物件具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="06145-110">The **LogFileItem** object has these types of members:</span></span>
 
--   [<span data-ttu-id="b0858-111">屬性</span><span class="sxs-lookup"><span data-stu-id="b0858-111">Properties</span></span>](#properties)
+-   [<span data-ttu-id="06145-111">屬性</span><span class="sxs-lookup"><span data-stu-id="06145-111">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="b0858-112">屬性</span><span class="sxs-lookup"><span data-stu-id="b0858-112">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="06145-112">屬性</span><span class="sxs-lookup"><span data-stu-id="06145-112">Properties</span></span>
 
-<span data-ttu-id="b0858-113">**LogFileItem** 物件具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="b0858-113">The **LogFileItem** object has these properties.</span></span>
+<span data-ttu-id="06145-113">**LogFileItem** 物件具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="06145-113">The **LogFileItem** object has these properties.</span></span>
 
 
 
-| <span data-ttu-id="b0858-114">屬性</span><span class="sxs-lookup"><span data-stu-id="b0858-114">Property</span></span>                                    | <span data-ttu-id="b0858-115">描述</span><span class="sxs-lookup"><span data-stu-id="b0858-115">Description</span></span>                                    |
+| <span data-ttu-id="06145-114">屬性</span><span class="sxs-lookup"><span data-stu-id="06145-114">Property</span></span>                                    | <span data-ttu-id="06145-115">描述</span><span class="sxs-lookup"><span data-stu-id="06145-115">Description</span></span>                                    |
 |:--------------------------------------------|:-----------------------------------------------|
-| [<span data-ttu-id="b0858-116">**路徑**</span><span class="sxs-lookup"><span data-stu-id="b0858-116">**Path**</span></span>](logfileitem-path.md)<br/> | <span data-ttu-id="b0858-117">抓取記錄檔的路徑。</span><span class="sxs-lookup"><span data-stu-id="b0858-117">Retrieves the path of the log file.</span></span><br/> |
+| [<span data-ttu-id="06145-116">**路徑**</span><span class="sxs-lookup"><span data-stu-id="06145-116">**Path**</span></span>](logfileitem-path.md)<br/> | <span data-ttu-id="06145-117">抓取記錄檔的路徑。</span><span class="sxs-lookup"><span data-stu-id="06145-117">Retrieves the path of the log file.</span></span><br/> |
 
 
 
  
 
-## <a name="requirements"></a><span data-ttu-id="b0858-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="b0858-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="06145-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="06145-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="b0858-119">需求</span><span class="sxs-lookup"><span data-stu-id="b0858-119">Requirement</span></span> | <span data-ttu-id="b0858-120">值</span><span class="sxs-lookup"><span data-stu-id="b0858-120">Value</span></span> |
+| <span data-ttu-id="06145-119">需求</span><span class="sxs-lookup"><span data-stu-id="06145-119">Requirement</span></span> | <span data-ttu-id="06145-120">值</span><span class="sxs-lookup"><span data-stu-id="06145-120">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="b0858-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b0858-121">Minimum supported client</span></span><br/> | <span data-ttu-id="b0858-122">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b0858-122">Windows XP \[desktop apps only\]</span></span><br/>                                           |
-| <span data-ttu-id="b0858-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b0858-123">Minimum supported server</span></span><br/> | <span data-ttu-id="b0858-124">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b0858-124">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="b0858-125">標頭</span><span class="sxs-lookup"><span data-stu-id="b0858-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="b0858-126"><dt>Isysmon。h</dt></span><span class="sxs-lookup"><span data-stu-id="b0858-126"><dt>Isysmon.h</dt></span></span> </dl>  |
-| <span data-ttu-id="b0858-127">DLL</span><span class="sxs-lookup"><span data-stu-id="b0858-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="b0858-128"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="b0858-128"><dt>Sysmon.ocx</dt></span></span> </dl> |
+| <span data-ttu-id="06145-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="06145-121">Minimum supported client</span></span><br/> | <span data-ttu-id="06145-122">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="06145-122">Windows XP \[desktop apps only\]</span></span><br/>                                           |
+| <span data-ttu-id="06145-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="06145-123">Minimum supported server</span></span><br/> | <span data-ttu-id="06145-124">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="06145-124">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="06145-125">標頭</span><span class="sxs-lookup"><span data-stu-id="06145-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="06145-126"><dt>Isysmon。h</dt></span><span class="sxs-lookup"><span data-stu-id="06145-126"><dt>Isysmon.h</dt></span></span> </dl>  |
+| <span data-ttu-id="06145-127">DLL</span><span class="sxs-lookup"><span data-stu-id="06145-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="06145-128"><dt>Sysmon .ocx</dt></span><span class="sxs-lookup"><span data-stu-id="06145-128"><dt>Sysmon.ocx</dt></span></span> </dl> |
 
 
 

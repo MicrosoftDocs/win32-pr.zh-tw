@@ -21,53 +21,53 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844120"
 ---
-# <a name="lb_resetcontent-message"></a><span data-ttu-id="f8c4a-104">LB \_ RESETCONTENT 訊息</span><span class="sxs-lookup"><span data-stu-id="f8c4a-104">LB\_RESETCONTENT message</span></span>
+# <a name="lb_resetcontent-message"></a><span data-ttu-id="82e1d-104">LB \_ RESETCONTENT 訊息</span><span class="sxs-lookup"><span data-stu-id="82e1d-104">LB\_RESETCONTENT message</span></span>
 
-<span data-ttu-id="f8c4a-105">從清單方塊中移除所有專案。</span><span class="sxs-lookup"><span data-stu-id="f8c4a-105">Removes all items from a list box.</span></span>
+<span data-ttu-id="82e1d-105">從清單方塊中移除所有專案。</span><span class="sxs-lookup"><span data-stu-id="82e1d-105">Removes all items from a list box.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="f8c4a-106">參數</span><span class="sxs-lookup"><span data-stu-id="f8c4a-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="82e1d-106">參數</span><span class="sxs-lookup"><span data-stu-id="82e1d-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="f8c4a-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="f8c4a-107">*wParam*</span></span> 
+<span data-ttu-id="82e1d-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="82e1d-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="f8c4a-108">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="f8c4a-108">Not used; must be zero.</span></span>
+<span data-ttu-id="82e1d-108">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="82e1d-108">Not used; must be zero.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="f8c4a-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="f8c4a-109">*lParam*</span></span> 
+<span data-ttu-id="82e1d-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="82e1d-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="f8c4a-110">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="f8c4a-110">Not used; must be zero.</span></span>
+<span data-ttu-id="82e1d-110">未使用;必須為零。</span><span class="sxs-lookup"><span data-stu-id="82e1d-110">Not used; must be zero.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="f8c4a-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="f8c4a-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="82e1d-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="82e1d-111">Return value</span></span>
 
-<span data-ttu-id="f8c4a-112">此訊息不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="f8c4a-112">This message does not return a value.</span></span>
+<span data-ttu-id="82e1d-112">此訊息不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="82e1d-112">This message does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f8c4a-113">備註</span><span class="sxs-lookup"><span data-stu-id="f8c4a-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="82e1d-113">備註</span><span class="sxs-lookup"><span data-stu-id="82e1d-113">Remarks</span></span>
 
-<span data-ttu-id="f8c4a-114">如果清單方塊有擁有者繪製的樣式，而不是 [**磅 \_ HASSTRINGS**](list-box-styles.md) 樣式，清單方塊的擁有者會收到清單方塊中每個專案的 [**WM \_ DELETEITEM**](wm-deleteitem.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="f8c4a-114">If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md) style, the owner of the list box receives a [**WM\_DELETEITEM**](wm-deleteitem.md) message for each item in the list box.</span></span>
+<span data-ttu-id="82e1d-114">如果清單方塊有擁有者繪製的樣式，而不是 [**磅 \_ HASSTRINGS**](list-box-styles.md) 樣式，清單方塊的擁有者會收到清單方塊中每個專案的 [**WM \_ DELETEITEM**](wm-deleteitem.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="82e1d-114">If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md) style, the owner of the list box receives a [**WM\_DELETEITEM**](wm-deleteitem.md) message for each item in the list box.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f8c4a-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="f8c4a-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="82e1d-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="82e1d-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f8c4a-116">需求</span><span class="sxs-lookup"><span data-stu-id="f8c4a-116">Requirement</span></span> | <span data-ttu-id="f8c4a-117">值</span><span class="sxs-lookup"><span data-stu-id="f8c4a-117">Value</span></span> |
+| <span data-ttu-id="82e1d-116">需求</span><span class="sxs-lookup"><span data-stu-id="82e1d-116">Requirement</span></span> | <span data-ttu-id="82e1d-117">值</span><span class="sxs-lookup"><span data-stu-id="82e1d-117">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="f8c4a-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f8c4a-118">Minimum supported client</span></span><br/> | <span data-ttu-id="f8c4a-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f8c4a-119">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="f8c4a-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f8c4a-120">Minimum supported server</span></span><br/> | <span data-ttu-id="f8c4a-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f8c4a-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="f8c4a-122">標頭</span><span class="sxs-lookup"><span data-stu-id="f8c4a-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="f8c4a-123"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="f8c4a-123"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="82e1d-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="82e1d-118">Minimum supported client</span></span><br/> | <span data-ttu-id="82e1d-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="82e1d-119">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="82e1d-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="82e1d-120">Minimum supported server</span></span><br/> | <span data-ttu-id="82e1d-121">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="82e1d-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="82e1d-122">標頭</span><span class="sxs-lookup"><span data-stu-id="82e1d-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="82e1d-123"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="82e1d-123"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f8c4a-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f8c4a-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="82e1d-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="82e1d-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f8c4a-125">**WM \_ DELETEITEM**</span><span class="sxs-lookup"><span data-stu-id="f8c4a-125">**WM\_DELETEITEM**</span></span>](wm-deleteitem.md)
+[<span data-ttu-id="82e1d-125">**WM \_ DELETEITEM**</span><span class="sxs-lookup"><span data-stu-id="82e1d-125">**WM\_DELETEITEM**</span></span>](wm-deleteitem.md)
 </dt> </dl>
 
  

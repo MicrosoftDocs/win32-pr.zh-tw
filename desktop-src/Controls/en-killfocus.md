@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843156"
 ---
-# <a name="en_killfocus-notification-code"></a><span data-ttu-id="88a28-105">EN \_ KILLFOCUS 通知碼</span><span class="sxs-lookup"><span data-stu-id="88a28-105">EN\_KILLFOCUS notification code</span></span>
+# <a name="en_killfocus-notification-code"></a><span data-ttu-id="73986-105">EN \_ KILLFOCUS 通知碼</span><span class="sxs-lookup"><span data-stu-id="73986-105">EN\_KILLFOCUS notification code</span></span>
 
-<span data-ttu-id="88a28-106">當編輯控制項失去鍵盤焦點時傳送。</span><span class="sxs-lookup"><span data-stu-id="88a28-106">Sent when an edit control loses the keyboard focus.</span></span> <span data-ttu-id="88a28-107">編輯控制項的父視窗會透過 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 訊息接收此通知碼。</span><span class="sxs-lookup"><span data-stu-id="88a28-107">The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.</span></span>
+<span data-ttu-id="73986-106">當編輯控制項失去鍵盤焦點時傳送。</span><span class="sxs-lookup"><span data-stu-id="73986-106">Sent when an edit control loses the keyboard focus.</span></span> <span data-ttu-id="73986-107">編輯控制項的父視窗會透過 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 訊息接收此通知碼。</span><span class="sxs-lookup"><span data-stu-id="73986-107">The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.</span></span>
 
 
 ```C++
@@ -35,56 +35,56 @@ EN_KILLFOCUS
 
 
 
-## <a name="parameters"></a><span data-ttu-id="88a28-108">參數</span><span class="sxs-lookup"><span data-stu-id="88a28-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="73986-108">參數</span><span class="sxs-lookup"><span data-stu-id="73986-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="88a28-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="88a28-109">*wParam*</span></span> 
+<span data-ttu-id="73986-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="73986-109">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="88a28-110">[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))包含編輯控制項的識別碼。</span><span class="sxs-lookup"><span data-stu-id="88a28-110">The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control.</span></span> <span data-ttu-id="88a28-111">[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))會指定通知碼。</span><span class="sxs-lookup"><span data-stu-id="88a28-111">The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.</span></span>
+<span data-ttu-id="73986-110">[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))包含編輯控制項的識別碼。</span><span class="sxs-lookup"><span data-stu-id="73986-110">The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control.</span></span> <span data-ttu-id="73986-111">[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))會指定通知碼。</span><span class="sxs-lookup"><span data-stu-id="73986-111">The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="88a28-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="88a28-112">*lParam*</span></span> 
+<span data-ttu-id="73986-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="73986-112">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="88a28-113">編輯控制項的控制碼。</span><span class="sxs-lookup"><span data-stu-id="88a28-113">Handle to the edit control.</span></span>
+<span data-ttu-id="73986-113">編輯控制項的控制碼。</span><span class="sxs-lookup"><span data-stu-id="73986-113">Handle to the edit control.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="88a28-114">備註</span><span class="sxs-lookup"><span data-stu-id="88a28-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="73986-114">備註</span><span class="sxs-lookup"><span data-stu-id="73986-114">Remarks</span></span>
 
-<span data-ttu-id="88a28-115">父視窗一律會收到此事件的 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 訊息，不需要以 [**EM \_ SETEVENTMASK**](em-seteventmask.md)傳送通知遮罩。</span><span class="sxs-lookup"><span data-stu-id="88a28-115">The parent window always receives a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message for this event, it does not require a notification mask sent with [**EM\_SETEVENTMASK**](em-seteventmask.md).</span></span>
+<span data-ttu-id="73986-115">父視窗一律會收到此事件的 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 訊息，不需要以 [**EM \_ SETEVENTMASK**](em-seteventmask.md)傳送通知遮罩。</span><span class="sxs-lookup"><span data-stu-id="73986-115">The parent window always receives a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message for this event, it does not require a notification mask sent with [**EM\_SETEVENTMASK**](em-seteventmask.md).</span></span>
 
-<span data-ttu-id="88a28-116">**Rich Edit：** Microsoft Rich Edit 1.0 和更新版本支援。</span><span class="sxs-lookup"><span data-stu-id="88a28-116">**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later.</span></span> <span data-ttu-id="88a28-117">如需有關豐富編輯版本與各種系統版本之相容性的詳細資訊，請參閱 [關於 Rich Edit 控制項](about-rich-edit-controls.md)。</span><span class="sxs-lookup"><span data-stu-id="88a28-117">For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).</span></span>
+<span data-ttu-id="73986-116">**Rich Edit：** Microsoft Rich Edit 1.0 和更新版本支援。</span><span class="sxs-lookup"><span data-stu-id="73986-116">**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later.</span></span> <span data-ttu-id="73986-117">如需有關豐富編輯版本與各種系統版本之相容性的詳細資訊，請參閱 [關於 Rich Edit 控制項](about-rich-edit-controls.md)。</span><span class="sxs-lookup"><span data-stu-id="73986-117">For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="88a28-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="88a28-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="73986-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="73986-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="88a28-119">需求</span><span class="sxs-lookup"><span data-stu-id="88a28-119">Requirement</span></span> | <span data-ttu-id="88a28-120">值</span><span class="sxs-lookup"><span data-stu-id="88a28-120">Value</span></span> |
+| <span data-ttu-id="73986-119">需求</span><span class="sxs-lookup"><span data-stu-id="73986-119">Requirement</span></span> | <span data-ttu-id="73986-120">值</span><span class="sxs-lookup"><span data-stu-id="73986-120">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="88a28-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="88a28-121">Minimum supported client</span></span><br/> | <span data-ttu-id="88a28-122">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="88a28-122">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="88a28-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="88a28-123">Minimum supported server</span></span><br/> | <span data-ttu-id="88a28-124">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="88a28-124">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="88a28-125">標頭</span><span class="sxs-lookup"><span data-stu-id="88a28-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="88a28-126"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="88a28-126"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="73986-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="73986-121">Minimum supported client</span></span><br/> | <span data-ttu-id="73986-122">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="73986-122">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="73986-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="73986-123">Minimum supported server</span></span><br/> | <span data-ttu-id="73986-124">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="73986-124">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="73986-125">標頭</span><span class="sxs-lookup"><span data-stu-id="73986-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="73986-126"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="73986-126"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="88a28-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="88a28-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="73986-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="73986-127">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="88a28-128">**參考**</span><span class="sxs-lookup"><span data-stu-id="88a28-128">**Reference**</span></span>
+<span data-ttu-id="73986-128">**參考**</span><span class="sxs-lookup"><span data-stu-id="73986-128">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="88a28-129">**EN \_ SETFOCUS**</span><span class="sxs-lookup"><span data-stu-id="88a28-129">**EN\_SETFOCUS**</span></span>](en-setfocus.md)
+[<span data-ttu-id="73986-129">**EN \_ SETFOCUS**</span><span class="sxs-lookup"><span data-stu-id="73986-129">**EN\_SETFOCUS**</span></span>](en-setfocus.md)
 </dt> <dt>
 
-<span data-ttu-id="88a28-130">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="88a28-130">**Other Resources**</span></span>
+<span data-ttu-id="73986-130">**其他資源**</span><span class="sxs-lookup"><span data-stu-id="73986-130">**Other Resources**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="88a28-131">**WM \_ 命令**</span><span class="sxs-lookup"><span data-stu-id="88a28-131">**WM\_COMMAND**</span></span>](/windows/desktop/menurc/wm-command)
+[<span data-ttu-id="73986-131">**WM \_ 命令**</span><span class="sxs-lookup"><span data-stu-id="73986-131">**WM\_COMMAND**</span></span>](/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  

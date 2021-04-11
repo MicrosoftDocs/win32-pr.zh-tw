@@ -11,49 +11,49 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691819"
 ---
-# <a name="mf_bytestream_last_modified_time-attribute"></a><span data-ttu-id="bb54d-103">MF \_ BYTESTREAM \_ 上次 \_ 修改 \_ 時間屬性</span><span class="sxs-lookup"><span data-stu-id="bb54d-103">MF\_BYTESTREAM\_LAST\_MODIFIED\_TIME attribute</span></span>
+# <a name="mf_bytestream_last_modified_time-attribute"></a><span data-ttu-id="3d4fb-103">MF \_ BYTESTREAM \_ 上次 \_ 修改 \_ 時間屬性</span><span class="sxs-lookup"><span data-stu-id="3d4fb-103">MF\_BYTESTREAM\_LAST\_MODIFIED\_TIME attribute</span></span>
 
-<span data-ttu-id="bb54d-104">指定上一次修改位元組資料流程的時間。</span><span class="sxs-lookup"><span data-stu-id="bb54d-104">Specifies when a byte stream was last modified.</span></span>
+<span data-ttu-id="3d4fb-104">指定上一次修改位元組資料流程的時間。</span><span class="sxs-lookup"><span data-stu-id="3d4fb-104">Specifies when a byte stream was last modified.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="bb54d-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="bb54d-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="3d4fb-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="3d4fb-105">Data type</span></span>
 
-<span data-ttu-id="bb54d-106">位元組陣列</span><span class="sxs-lookup"><span data-stu-id="bb54d-106">Byte array</span></span>
+<span data-ttu-id="3d4fb-106">位元組陣列</span><span class="sxs-lookup"><span data-stu-id="3d4fb-106">Byte array</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="bb54d-107">備註</span><span class="sxs-lookup"><span data-stu-id="bb54d-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3d4fb-107">備註</span><span class="sxs-lookup"><span data-stu-id="3d4fb-107">Remarks</span></span>
 
-<span data-ttu-id="bb54d-108">此屬性是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="bb54d-108">This attribute is optional.</span></span> <span data-ttu-id="bb54d-109">屬性的值是 [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) 結構。</span><span class="sxs-lookup"><span data-stu-id="bb54d-109">The value of the attribute is a [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure.</span></span>
+<span data-ttu-id="3d4fb-108">此屬性是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="3d4fb-108">This attribute is optional.</span></span> <span data-ttu-id="3d4fb-109">屬性的值是 [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) 結構。</span><span class="sxs-lookup"><span data-stu-id="3d4fb-109">The value of the attribute is a [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure.</span></span>
 
-<span data-ttu-id="bb54d-110">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="bb54d-110">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
+<span data-ttu-id="3d4fb-110">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="3d4fb-110">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="bb54d-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="bb54d-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3d4fb-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="3d4fb-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="bb54d-112">需求</span><span class="sxs-lookup"><span data-stu-id="bb54d-112">Requirement</span></span> | <span data-ttu-id="bb54d-113">值</span><span class="sxs-lookup"><span data-stu-id="bb54d-113">Value</span></span> |
+| <span data-ttu-id="3d4fb-112">需求</span><span class="sxs-lookup"><span data-stu-id="3d4fb-112">Requirement</span></span> | <span data-ttu-id="3d4fb-113">值</span><span class="sxs-lookup"><span data-stu-id="3d4fb-113">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="bb54d-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="bb54d-114">Minimum supported client</span></span><br/> | <span data-ttu-id="bb54d-115">Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="bb54d-115">Windows Vista \[desktop apps \| UWP apps\]</span></span><br/>                                                    |
-| <span data-ttu-id="bb54d-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="bb54d-116">Minimum supported server</span></span><br/> | <span data-ttu-id="bb54d-117">Windows Server 2008 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="bb54d-117">Windows Server 2008 \[desktop apps \| UWP apps\]</span></span><br/>                                              |
-| <span data-ttu-id="bb54d-118">標頭</span><span class="sxs-lookup"><span data-stu-id="bb54d-118">Header</span></span><br/>                   | <dl> <span data-ttu-id="bb54d-119"><dt>Mfobjects (包含 Mfidl) </dt></span><span class="sxs-lookup"><span data-stu-id="bb54d-119"><dt>Mfobjects.h (include Mfidl.h)</dt></span></span> </dl> |
+| <span data-ttu-id="3d4fb-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3d4fb-114">Minimum supported client</span></span><br/> | <span data-ttu-id="3d4fb-115">Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3d4fb-115">Windows Vista \[desktop apps \| UWP apps\]</span></span><br/>                                                    |
+| <span data-ttu-id="3d4fb-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3d4fb-116">Minimum supported server</span></span><br/> | <span data-ttu-id="3d4fb-117">Windows Server 2008 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3d4fb-117">Windows Server 2008 \[desktop apps \| UWP apps\]</span></span><br/>                                              |
+| <span data-ttu-id="3d4fb-118">標頭</span><span class="sxs-lookup"><span data-stu-id="3d4fb-118">Header</span></span><br/>                   | <dl> <span data-ttu-id="3d4fb-119"><dt>Mfobjects (包含 Mfidl) </dt></span><span class="sxs-lookup"><span data-stu-id="3d4fb-119"><dt>Mfobjects.h (include Mfidl.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="bb54d-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bb54d-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3d4fb-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3d4fb-120">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="bb54d-121">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="bb54d-121">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="3d4fb-121">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="3d4fb-121">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="bb54d-122">位元組資料流程屬性</span><span class="sxs-lookup"><span data-stu-id="bb54d-122">Byte Stream Attributes</span></span>](byte-stream-attributes.md)
+[<span data-ttu-id="3d4fb-122">位元組資料流程屬性</span><span class="sxs-lookup"><span data-stu-id="3d4fb-122">Byte Stream Attributes</span></span>](byte-stream-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="bb54d-123">**IMFAttributes：： GetBlob**</span><span class="sxs-lookup"><span data-stu-id="bb54d-123">**IMFAttributes::GetBlob**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob)
+[<span data-ttu-id="3d4fb-123">**IMFAttributes：： GetBlob**</span><span class="sxs-lookup"><span data-stu-id="3d4fb-123">**IMFAttributes::GetBlob**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob)
 </dt> <dt>
 
-[<span data-ttu-id="bb54d-124">**IMFAttributes：： SetBlob**</span><span class="sxs-lookup"><span data-stu-id="bb54d-124">**IMFAttributes::SetBlob**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setblob)
+[<span data-ttu-id="3d4fb-124">**IMFAttributes：： SetBlob**</span><span class="sxs-lookup"><span data-stu-id="3d4fb-124">**IMFAttributes::SetBlob**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setblob)
 </dt> <dt>
 
-[<span data-ttu-id="bb54d-125">**IMFByteStream**</span><span class="sxs-lookup"><span data-stu-id="bb54d-125">**IMFByteStream**</span></span>](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream)
+[<span data-ttu-id="3d4fb-125">**IMFByteStream**</span><span class="sxs-lookup"><span data-stu-id="3d4fb-125">**IMFByteStream**</span></span>](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream)
 </dt> </dl>
 
  

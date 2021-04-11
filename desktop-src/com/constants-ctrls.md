@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103842979"
 ---
-# <a name="constants-controls-and-property-pages"></a><span data-ttu-id="26434-103">常數 (控制項和屬性頁) </span><span class="sxs-lookup"><span data-stu-id="26434-103">Constants (Controls and Property Pages)</span></span>
+# <a name="constants-controls-and-property-pages"></a><span data-ttu-id="68eb0-103">常數 (控制項和屬性頁) </span><span class="sxs-lookup"><span data-stu-id="68eb0-103">Constants (Controls and Property Pages)</span></span>
 
-<span data-ttu-id="26434-104">下列常數可用來建立標準 COM 物件和屬性頁。</span><span class="sxs-lookup"><span data-stu-id="26434-104">The following constants are used to create standard COM objects and property pages.</span></span>
+<span data-ttu-id="68eb0-104">下列常數可用來建立標準 COM 物件和屬性頁。</span><span class="sxs-lookup"><span data-stu-id="68eb0-104">The following constants are used to create standard COM objects and property pages.</span></span>
 
--   [<span data-ttu-id="26434-105">**PICTYPE 常數**</span><span class="sxs-lookup"><span data-stu-id="26434-105">**PICTYPE Constants**</span></span>](pictype-constants.md)
+-   [<span data-ttu-id="68eb0-105">**PICTYPE 常數**</span><span class="sxs-lookup"><span data-stu-id="68eb0-105">**PICTYPE Constants**</span></span>](pictype-constants.md)
 
  
 

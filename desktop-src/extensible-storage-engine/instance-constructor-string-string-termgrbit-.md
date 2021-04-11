@@ -27,14 +27,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691328"
 ---
-# <a name="instance-constructor-string-string-termgrbit"></a><span data-ttu-id="13e4b-103">實例的函式 (字串、字串、TermGrbit) </span><span class="sxs-lookup"><span data-stu-id="13e4b-103">Instance constructor (String, String, TermGrbit)</span></span>
+# <a name="instance-constructor-string-string-termgrbit"></a><span data-ttu-id="f1932-103">實例的函式 (字串、字串、TermGrbit) </span><span class="sxs-lookup"><span data-stu-id="f1932-103">Instance constructor (String, String, TermGrbit)</span></span>
 
-<span data-ttu-id="13e4b-104">初始化實例類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="13e4b-104">Initializes a new instance of the Instance class.</span></span> <span data-ttu-id="13e4b-105">已配置但未初始化基礎 JET_INSTANCE。</span><span class="sxs-lookup"><span data-stu-id="13e4b-105">The underlying JET_INSTANCE is allocated, but not initialized.</span></span>
+<span data-ttu-id="f1932-104">初始化實例類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="f1932-104">Initializes a new instance of the Instance class.</span></span> <span data-ttu-id="f1932-105">已配置但未初始化基礎 JET_INSTANCE。</span><span class="sxs-lookup"><span data-stu-id="f1932-105">The underlying JET_INSTANCE is allocated, but not initialized.</span></span>
 
-<span data-ttu-id="13e4b-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="13e4b-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="13e4b-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="13e4b-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="f1932-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="f1932-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="f1932-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f1932-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="13e4b-108">語法</span><span class="sxs-lookup"><span data-stu-id="13e4b-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f1932-108">語法</span><span class="sxs-lookup"><span data-stu-id="f1932-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,35 +60,35 @@ public Instance(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="13e4b-109">參數</span><span class="sxs-lookup"><span data-stu-id="13e4b-109">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="f1932-109">參數</span><span class="sxs-lookup"><span data-stu-id="f1932-109">Parameters</span></span>
 
-  - <span data-ttu-id="13e4b-110">NAME</span><span class="sxs-lookup"><span data-stu-id="13e4b-110">name</span></span>  
-    <span data-ttu-id="13e4b-111">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="13e4b-111">Type: [System.String](/dotnet/api/system.string)</span></span>  
+  - <span data-ttu-id="f1932-110">NAME</span><span class="sxs-lookup"><span data-stu-id="f1932-110">name</span></span>  
+    <span data-ttu-id="f1932-111">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="f1932-111">Type: [System.String](/dotnet/api/system.string)</span></span>  
     
-    <span data-ttu-id="13e4b-112">執行個體的名稱。</span><span class="sxs-lookup"><span data-stu-id="13e4b-112">The name of the instance.</span></span> <span data-ttu-id="13e4b-113">這個字串在主控資料庫引擎的指定進程內必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="13e4b-113">This string must be unique within a given process hosting the database engine.</span></span>
+    <span data-ttu-id="f1932-112">執行個體的名稱。</span><span class="sxs-lookup"><span data-stu-id="f1932-112">The name of the instance.</span></span> <span data-ttu-id="f1932-113">這個字串在主控資料庫引擎的指定進程內必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="f1932-113">This string must be unique within a given process hosting the database engine.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="13e4b-114">displayName</span><span class="sxs-lookup"><span data-stu-id="13e4b-114">displayName</span></span>  
-    <span data-ttu-id="13e4b-115">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="13e4b-115">Type: [System.String](/dotnet/api/system.string)</span></span>  
+  - <span data-ttu-id="f1932-114">displayName</span><span class="sxs-lookup"><span data-stu-id="f1932-114">displayName</span></span>  
+    <span data-ttu-id="f1932-115">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="f1932-115">Type: [System.String](/dotnet/api/system.string)</span></span>  
     
-    <span data-ttu-id="13e4b-116">實例的顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="13e4b-116">A display name for the instance.</span></span> <span data-ttu-id="13e4b-117">這將用於 eventlog 專案中。</span><span class="sxs-lookup"><span data-stu-id="13e4b-117">This will be used in eventlog entries.</span></span>
+    <span data-ttu-id="f1932-116">實例的顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="f1932-116">A display name for the instance.</span></span> <span data-ttu-id="f1932-117">這將用於 eventlog 專案中。</span><span class="sxs-lookup"><span data-stu-id="f1932-117">This will be used in eventlog entries.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="13e4b-118">termGrbit</span><span class="sxs-lookup"><span data-stu-id="13e4b-118">termGrbit</span></span>  
-    <span data-ttu-id="13e4b-119">型別： [TermGrbit](./termgrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="13e4b-119">Type: [Microsoft.Isam.Esent.Interop.TermGrbit](./termgrbit-enumeration.md)</span></span>  
+  - <span data-ttu-id="f1932-118">termGrbit</span><span class="sxs-lookup"><span data-stu-id="f1932-118">termGrbit</span></span>  
+    <span data-ttu-id="f1932-119">型別： [TermGrbit](./termgrbit-enumeration.md) 。</span><span class="sxs-lookup"><span data-stu-id="f1932-119">Type: [Microsoft.Isam.Esent.Interop.TermGrbit](./termgrbit-enumeration.md)</span></span>  
     
-    <span data-ttu-id="13e4b-120">要在 JetTerm 階段使用的 TermGrbit。</span><span class="sxs-lookup"><span data-stu-id="13e4b-120">The TermGrbit to be used at JetTerm time.</span></span>
+    <span data-ttu-id="f1932-120">要在 JetTerm 階段使用的 TermGrbit。</span><span class="sxs-lookup"><span data-stu-id="f1932-120">The TermGrbit to be used at JetTerm time.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="13e4b-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="13e4b-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f1932-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f1932-121">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="13e4b-122">參考</span><span class="sxs-lookup"><span data-stu-id="13e4b-122">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="f1932-122">參考</span><span class="sxs-lookup"><span data-stu-id="f1932-122">Reference</span></span>
 
-[<span data-ttu-id="13e4b-123">Instance 類別</span><span class="sxs-lookup"><span data-stu-id="13e4b-123">Instance class</span></span>](./instance-class.md)
+[<span data-ttu-id="f1932-123">Instance 類別</span><span class="sxs-lookup"><span data-stu-id="f1932-123">Instance class</span></span>](./instance-class.md)
 
-[<span data-ttu-id="13e4b-124">實例成員</span><span class="sxs-lookup"><span data-stu-id="13e4b-124">Instance members</span></span>](./instance-members.md)
+[<span data-ttu-id="f1932-124">實例成員</span><span class="sxs-lookup"><span data-stu-id="f1932-124">Instance members</span></span>](./instance-members.md)
 
-[<span data-ttu-id="13e4b-125">實例多載</span><span class="sxs-lookup"><span data-stu-id="13e4b-125">Instance overload</span></span>](./instance-constructor.md)
+[<span data-ttu-id="f1932-125">實例多載</span><span class="sxs-lookup"><span data-stu-id="f1932-125">Instance overload</span></span>](./instance-constructor.md)
 
-[<span data-ttu-id="13e4b-126">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="13e4b-126">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="f1932-126">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="f1932-126">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

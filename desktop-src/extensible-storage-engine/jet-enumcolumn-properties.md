@@ -14,64 +14,64 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847998"
 ---
-# <a name="jet_enumcolumn-properties"></a><span data-ttu-id="2d7f1-103">JET_ENUMCOLUMN 屬性</span><span class="sxs-lookup"><span data-stu-id="2d7f1-103">JET_ENUMCOLUMN properties</span></span>
+# <a name="jet_enumcolumn-properties"></a><span data-ttu-id="570bd-103">JET_ENUMCOLUMN 屬性</span><span class="sxs-lookup"><span data-stu-id="570bd-103">JET_ENUMCOLUMN properties</span></span>
 
-<span data-ttu-id="2d7f1-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="2d7f1-104">Include protected members</span></span>  
-<span data-ttu-id="2d7f1-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="2d7f1-105">Include inherited members</span></span>  
+<span data-ttu-id="570bd-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="570bd-104">Include protected members</span></span>  
+<span data-ttu-id="570bd-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="570bd-105">Include inherited members</span></span>  
 
-<span data-ttu-id="2d7f1-106">[JET_ENUMCOLUMN](./jet-enumcolumn-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-106">The [JET_ENUMCOLUMN](./jet-enumcolumn-class.md) type exposes the following members.</span></span>
+<span data-ttu-id="570bd-106">[JET_ENUMCOLUMN](./jet-enumcolumn-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="570bd-106">The [JET_ENUMCOLUMN](./jet-enumcolumn-class.md) type exposes the following members.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="2d7f1-107">屬性</span><span class="sxs-lookup"><span data-stu-id="2d7f1-107">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="570bd-107">屬性</span><span class="sxs-lookup"><span data-stu-id="570bd-107">Properties</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="2d7f1-108">名稱</span><span class="sxs-lookup"><span data-stu-id="2d7f1-108">Name</span></span></th>
-<th><span data-ttu-id="2d7f1-109">描述</span><span class="sxs-lookup"><span data-stu-id="2d7f1-109">Description</span></span></th>
+<th><span data-ttu-id="570bd-108">名稱</span><span class="sxs-lookup"><span data-stu-id="570bd-108">Name</span></span></th>
+<th><span data-ttu-id="570bd-109">描述</span><span class="sxs-lookup"><span data-stu-id="570bd-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="2d7f1-111"><a href="dn335137(v=exchg.10).md">cbData</a></span><span class="sxs-lookup"><span data-stu-id="2d7f1-111"><a href="dn335137(v=exchg.10).md">cbData</a></span></span></td>
-<td><span data-ttu-id="2d7f1-112">取得為數據行列舉之值的大小。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-112">Gets the size of the value that was enumerated for the column.</span></span> <span data-ttu-id="2d7f1-113">只有當 <a href="dn335086(v=exchg.10).md">err</a> 等於 <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-113">This member is only used if <a href="dn335086(v=exchg.10).md">err</a> is equal to <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>.</span></span></td>
+<td><span data-ttu-id="570bd-111"><a href="dn335137(v=exchg.10).md">cbData</a></span><span class="sxs-lookup"><span data-stu-id="570bd-111"><a href="dn335137(v=exchg.10).md">cbData</a></span></span></td>
+<td><span data-ttu-id="570bd-112">取得為數據行列舉之值的大小。</span><span class="sxs-lookup"><span data-stu-id="570bd-112">Gets the size of the value that was enumerated for the column.</span></span> <span data-ttu-id="570bd-113">只有當 <a href="dn335086(v=exchg.10).md">err</a> 等於 <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="570bd-113">This member is only used if <a href="dn335086(v=exchg.10).md">err</a> is equal to <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>.</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="2d7f1-115"><a href="dn335085(v=exchg.10).md">cEnumColumnValue</a></span><span class="sxs-lookup"><span data-stu-id="2d7f1-115"><a href="dn335085(v=exchg.10).md">cEnumColumnValue</a></span></span></td>
-<td><span data-ttu-id="2d7f1-116">取得針對資料行列舉的資料行值數目。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-116">Gets the number of column values enumerated for the column.</span></span> <span data-ttu-id="2d7f1-117">只有在未<a href="hh557250(v=exchg.10).md">ColumnSingleValue</a> <a href="dn335086(v=exchg.10).md">err</a>時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-117">This member is only used if <a href="dn335086(v=exchg.10).md">err</a> is not <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>.</span></span></td>
+<td><span data-ttu-id="570bd-115"><a href="dn335085(v=exchg.10).md">cEnumColumnValue</a></span><span class="sxs-lookup"><span data-stu-id="570bd-115"><a href="dn335085(v=exchg.10).md">cEnumColumnValue</a></span></span></td>
+<td><span data-ttu-id="570bd-116">取得針對資料行列舉的資料行值數目。</span><span class="sxs-lookup"><span data-stu-id="570bd-116">Gets the number of column values enumerated for the column.</span></span> <span data-ttu-id="570bd-117">只有在未<a href="hh557250(v=exchg.10).md">ColumnSingleValue</a> <a href="dn335086(v=exchg.10).md">err</a>時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="570bd-117">This member is only used if <a href="dn335086(v=exchg.10).md">err</a> is not <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>.</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="2d7f1-119"><a href="dn335135(v=exchg.10).md">columnid</a></span><span class="sxs-lookup"><span data-stu-id="2d7f1-119"><a href="dn335135(v=exchg.10).md">columnid</a></span></span></td>
-<td><span data-ttu-id="2d7f1-120">取得已列舉的 columnid 識別碼。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-120">Gets the columnid ID that was enumerated.</span></span></td>
+<td><span data-ttu-id="570bd-119"><a href="dn335135(v=exchg.10).md">columnid</a></span><span class="sxs-lookup"><span data-stu-id="570bd-119"><a href="dn335135(v=exchg.10).md">columnid</a></span></span></td>
+<td><span data-ttu-id="570bd-120">取得已列舉的 columnid 識別碼。</span><span class="sxs-lookup"><span data-stu-id="570bd-120">Gets the columnid ID that was enumerated.</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="2d7f1-122"><a href="dn335086(v=exchg.10).md">犯 錯</a></span><span class="sxs-lookup"><span data-stu-id="2d7f1-122"><a href="dn335086(v=exchg.10).md">err</a></span></span></td>
-<td><span data-ttu-id="2d7f1-123">取得列舉所產生的資料行狀態碼。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-123">Gets the column status code that results from the enumeration.</span></span></td>
+<td><span data-ttu-id="570bd-122"><a href="dn335086(v=exchg.10).md">犯 錯</a></span><span class="sxs-lookup"><span data-stu-id="570bd-122"><a href="dn335086(v=exchg.10).md">err</a></span></span></td>
+<td><span data-ttu-id="570bd-123">取得列舉所產生的資料行狀態碼。</span><span class="sxs-lookup"><span data-stu-id="570bd-123">Gets the column status code that results from the enumeration.</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="2d7f1-125"><a href="dn335087(v=exchg.10).md">pvData</a></span><span class="sxs-lookup"><span data-stu-id="2d7f1-125"><a href="dn335087(v=exchg.10).md">pvData</a></span></span></td>
-<td><span data-ttu-id="2d7f1-126">取得為數據行列舉的值。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-126">Gets the value that was enumerated for the column.</span></span> <span data-ttu-id="2d7f1-127">只有當 <a href="dn335086(v=exchg.10).md">err</a> 等於 <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-127">This member is only used if <a href="dn335086(v=exchg.10).md">err</a> is equal to <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>.</span></span> <span data-ttu-id="2d7f1-128">這會指向傳遞給<a href="dn292148(v=exchg.10).md">JetEnumerateColumns (JET_SESID、JET_TABLEID、Int32、[]、int32、[]、JET_PFNREALLOC、IntPtr、int32、EnumerateColumnsGrbit) </a>的<a href="hh566077(v=exchg.10).md">JET_PFNREALLOC</a>配置器回呼所配置的記憶體。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-128">This points to memory allocated with the <a href="hh566077(v=exchg.10).md">JET_PFNREALLOC</a> allocator callback passed to <a href="dn292148(v=exchg.10).md">JetEnumerateColumns(JET_SESID, JET_TABLEID, Int32, [], Int32, [], JET_PFNREALLOC, IntPtr, Int32, EnumerateColumnsGrbit)</a>.</span></span> <span data-ttu-id="2d7f1-129">請記得在完成時釋放記憶體。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-129">Remember to release the memory when finished.</span></span></td>
+<td><span data-ttu-id="570bd-125"><a href="dn335087(v=exchg.10).md">pvData</a></span><span class="sxs-lookup"><span data-stu-id="570bd-125"><a href="dn335087(v=exchg.10).md">pvData</a></span></span></td>
+<td><span data-ttu-id="570bd-126">取得為數據行列舉的值。</span><span class="sxs-lookup"><span data-stu-id="570bd-126">Gets the value that was enumerated for the column.</span></span> <span data-ttu-id="570bd-127">只有當 <a href="dn335086(v=exchg.10).md">err</a> 等於 <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="570bd-127">This member is only used if <a href="dn335086(v=exchg.10).md">err</a> is equal to <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>.</span></span> <span data-ttu-id="570bd-128">這會指向傳遞給<a href="dn292148(v=exchg.10).md">JetEnumerateColumns (JET_SESID、JET_TABLEID、Int32、[]、int32、[]、JET_PFNREALLOC、IntPtr、int32、EnumerateColumnsGrbit) </a>的<a href="hh566077(v=exchg.10).md">JET_PFNREALLOC</a>配置器回呼所配置的記憶體。</span><span class="sxs-lookup"><span data-stu-id="570bd-128">This points to memory allocated with the <a href="hh566077(v=exchg.10).md">JET_PFNREALLOC</a> allocator callback passed to <a href="dn292148(v=exchg.10).md">JetEnumerateColumns(JET_SESID, JET_TABLEID, Int32, [], Int32, [], JET_PFNREALLOC, IntPtr, Int32, EnumerateColumnsGrbit)</a>.</span></span> <span data-ttu-id="570bd-129">請記得在完成時釋放記憶體。</span><span class="sxs-lookup"><span data-stu-id="570bd-129">Remember to release the memory when finished.</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="2d7f1-131"><a href="dn335089(v=exchg.10).md">rgEnumColumnValue</a></span><span class="sxs-lookup"><span data-stu-id="2d7f1-131"><a href="dn335089(v=exchg.10).md">rgEnumColumnValue</a></span></span></td>
-<td><span data-ttu-id="2d7f1-132">取得資料行的列舉資料行值。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-132">Gets the enumerated column values for the column.</span></span> <span data-ttu-id="2d7f1-133">只有在未<a href="hh557250(v=exchg.10).md">ColumnSingleValue</a> <a href="dn335086(v=exchg.10).md">err</a>時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="2d7f1-133">This member is only used if <a href="dn335086(v=exchg.10).md">err</a> is not <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>.</span></span></td>
+<td><span data-ttu-id="570bd-131"><a href="dn335089(v=exchg.10).md">rgEnumColumnValue</a></span><span class="sxs-lookup"><span data-stu-id="570bd-131"><a href="dn335089(v=exchg.10).md">rgEnumColumnValue</a></span></span></td>
+<td><span data-ttu-id="570bd-132">取得資料行的列舉資料行值。</span><span class="sxs-lookup"><span data-stu-id="570bd-132">Gets the enumerated column values for the column.</span></span> <span data-ttu-id="570bd-133">只有在未<a href="hh557250(v=exchg.10).md">ColumnSingleValue</a> <a href="dn335086(v=exchg.10).md">err</a>時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="570bd-133">This member is only used if <a href="dn335086(v=exchg.10).md">err</a> is not <a href="hh557250(v=exchg.10).md">ColumnSingleValue</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="2d7f1-134">頁首</span><span class="sxs-lookup"><span data-stu-id="2d7f1-134">Top</span></span>
+<span data-ttu-id="570bd-134">頁首</span><span class="sxs-lookup"><span data-stu-id="570bd-134">Top</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2d7f1-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2d7f1-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="570bd-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="570bd-135">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="2d7f1-136">參考</span><span class="sxs-lookup"><span data-stu-id="2d7f1-136">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="570bd-136">參考</span><span class="sxs-lookup"><span data-stu-id="570bd-136">Reference</span></span>
 
-[<span data-ttu-id="2d7f1-137">JET_ENUMCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="2d7f1-137">JET_ENUMCOLUMN class</span></span>](./jet-enumcolumn-class.md)
+[<span data-ttu-id="570bd-137">JET_ENUMCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="570bd-137">JET_ENUMCOLUMN class</span></span>](./jet-enumcolumn-class.md)
 
-[<span data-ttu-id="2d7f1-138">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="2d7f1-138">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="570bd-138">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="570bd-138">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

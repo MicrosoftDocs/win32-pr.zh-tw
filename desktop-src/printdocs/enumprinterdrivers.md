@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692904"
 ---
-# <a name="enumprinterdrivers-function"></a><span data-ttu-id="bfe71-103">EnumPrinterDrivers 函式</span><span class="sxs-lookup"><span data-stu-id="bfe71-103">EnumPrinterDrivers function</span></span>
+# <a name="enumprinterdrivers-function"></a><span data-ttu-id="9c4f5-103">EnumPrinterDrivers 函式</span><span class="sxs-lookup"><span data-stu-id="9c4f5-103">EnumPrinterDrivers function</span></span>
 
-<span data-ttu-id="bfe71-104">**EnumPrinterDrivers** 函式會列舉安裝在指定印表機伺服器上的印表機驅動程式。</span><span class="sxs-lookup"><span data-stu-id="bfe71-104">The **EnumPrinterDrivers** function enumerates the printer drivers installed on a specified printer server.</span></span>
+<span data-ttu-id="9c4f5-104">**EnumPrinterDrivers** 函式會列舉安裝在指定印表機伺服器上的印表機驅動程式。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-104">The **EnumPrinterDrivers** function enumerates the printer drivers installed on a specified printer server.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bfe71-105">語法</span><span class="sxs-lookup"><span data-stu-id="bfe71-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9c4f5-105">語法</span><span class="sxs-lookup"><span data-stu-id="9c4f5-105">Syntax</span></span>
 
 
 ```C++
@@ -44,44 +44,44 @@ BOOL EnumPrinterDrivers(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="bfe71-106">參數</span><span class="sxs-lookup"><span data-stu-id="bfe71-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9c4f5-106">參數</span><span class="sxs-lookup"><span data-stu-id="9c4f5-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="bfe71-107">*pName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="bfe71-107">*pName* \[in\]</span></span>
+<span data-ttu-id="9c4f5-107">*pName* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9c4f5-107">*pName* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="bfe71-108">以 null 結束的字串指標，指定用來列舉印表機驅動程式之伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="bfe71-108">A pointer to a null-terminated string that specifies the name of the server on which the printer drivers are enumerated.</span></span>
+<span data-ttu-id="9c4f5-108">以 null 結束的字串指標，指定用來列舉印表機驅動程式之伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-108">A pointer to a null-terminated string that specifies the name of the server on which the printer drivers are enumerated.</span></span>
 
-<span data-ttu-id="bfe71-109">如果 *pName* 為 **Null**，此函式會列舉本機印表機驅動程式。</span><span class="sxs-lookup"><span data-stu-id="bfe71-109">If *pName* is **NULL**, the function enumerates the local printer drivers.</span></span>
+<span data-ttu-id="9c4f5-109">如果 *pName* 為 **Null**，此函式會列舉本機印表機驅動程式。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-109">If *pName* is **NULL**, the function enumerates the local printer drivers.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="bfe71-110">*pEnvironment* \[在\]</span><span class="sxs-lookup"><span data-stu-id="bfe71-110">*pEnvironment* \[in\]</span></span>
+<span data-ttu-id="9c4f5-110">*pEnvironment* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9c4f5-110">*pEnvironment* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="bfe71-111">以 null 結束的字串指標，指定環境 (例如，Windows x86、Windows IA64、Windows x64 或 Windows NT R4000) 。</span><span class="sxs-lookup"><span data-stu-id="bfe71-111">A pointer to a null-terminated string that specifies the environment (for example, Windows x86, Windows IA64, Windows x64, or Windows NT R4000).</span></span> <span data-ttu-id="bfe71-112">如果這個參數為 **Null**，則函式會使用目前的呼叫端/用戶端環境 (不是目的地/伺服器) 。</span><span class="sxs-lookup"><span data-stu-id="bfe71-112">If this parameter is **NULL**, the function uses the current environment of the caller/client (not of the destination/server).</span></span>
+<span data-ttu-id="9c4f5-111">以 null 結束的字串指標，指定環境 (例如，Windows x86、Windows IA64、Windows x64 或 Windows NT R4000) 。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-111">A pointer to a null-terminated string that specifies the environment (for example, Windows x86, Windows IA64, Windows x64, or Windows NT R4000).</span></span> <span data-ttu-id="9c4f5-112">如果這個參數為 **Null**，則函式會使用目前的呼叫端/用戶端環境 (不是目的地/伺服器) 。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-112">If this parameter is **NULL**, the function uses the current environment of the caller/client (not of the destination/server).</span></span>
 
-<span data-ttu-id="bfe71-113">如果 *pEnvironment* 字串指定 "all"， **EnumPrinterDrivers** 會列舉安裝在指定伺服器上之所有平臺的印表機驅動程式。</span><span class="sxs-lookup"><span data-stu-id="bfe71-113">If the *pEnvironment* string specifies "all", **EnumPrinterDrivers** enumerates printer drivers for all platforms installed on the specified server.</span></span>
+<span data-ttu-id="9c4f5-113">如果 *pEnvironment* 字串指定 "all"， **EnumPrinterDrivers** 會列舉安裝在指定伺服器上之所有平臺的印表機驅動程式。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-113">If the *pEnvironment* string specifies "all", **EnumPrinterDrivers** enumerates printer drivers for all platforms installed on the specified server.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="bfe71-114">*層級* \[在\]</span><span class="sxs-lookup"><span data-stu-id="bfe71-114">*Level* \[in\]</span></span>
+<span data-ttu-id="9c4f5-114">*層級* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9c4f5-114">*Level* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="bfe71-115">*PDriverInfo* 緩衝區中傳回的資訊結構類型。</span><span class="sxs-lookup"><span data-stu-id="bfe71-115">The type of information structure returned in the *pDriverInfo* buffer.</span></span> <span data-ttu-id="bfe71-116">它可以是下列其中一項。</span><span class="sxs-lookup"><span data-stu-id="bfe71-116">It can be one of the following.</span></span>
+<span data-ttu-id="9c4f5-115">*PDriverInfo* 緩衝區中傳回的資訊結構類型。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-115">The type of information structure returned in the *pDriverInfo* buffer.</span></span> <span data-ttu-id="9c4f5-116">它可以是下列其中一項。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-116">It can be one of the following.</span></span>
 
 
 
-| <span data-ttu-id="bfe71-117">值</span><span class="sxs-lookup"><span data-stu-id="bfe71-117">Value</span></span>                                                                                                | <span data-ttu-id="bfe71-118">意義</span><span class="sxs-lookup"><span data-stu-id="bfe71-118">Meaning</span></span>                                             |
+| <span data-ttu-id="9c4f5-117">值</span><span class="sxs-lookup"><span data-stu-id="9c4f5-117">Value</span></span>                                                                                                | <span data-ttu-id="9c4f5-118">意義</span><span class="sxs-lookup"><span data-stu-id="9c4f5-118">Meaning</span></span>                                             |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| <span id="1"></span><dl> <span data-ttu-id="bfe71-119"><dt>**1**</dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-119"><dt>**1**</dt></span></span> </dl> | [<span data-ttu-id="bfe71-120">**驅動程式 \_ 資訊 \_ 1**</span><span class="sxs-lookup"><span data-stu-id="bfe71-120">**DRIVER\_INFO\_1**</span></span>](driver-info-1.md)<br/> |
-| <span id="2"></span><dl> <span data-ttu-id="bfe71-121"><dt>**2**</dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-121"><dt>**2**</dt></span></span> </dl> | [<span data-ttu-id="bfe71-122">**驅動程式 \_ 資訊 \_ 2**</span><span class="sxs-lookup"><span data-stu-id="bfe71-122">**DRIVER\_INFO\_2**</span></span>](driver-info-2.md)<br/> |
-| <span id="3"></span><dl> <span data-ttu-id="bfe71-123"><dt>**3**</dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-123"><dt>**3**</dt></span></span> </dl> | [<span data-ttu-id="bfe71-124">**驅動程式 \_ 資訊 \_ 3**</span><span class="sxs-lookup"><span data-stu-id="bfe71-124">**DRIVER\_INFO\_3**</span></span>](driver-info-3.md)<br/> |
-| <span id="4"></span><dl> <span data-ttu-id="bfe71-125"><dt>**4**</dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-125"><dt>**4**</dt></span></span> </dl> | [<span data-ttu-id="bfe71-126">**驅動程式 \_ 資訊 \_ 4**</span><span class="sxs-lookup"><span data-stu-id="bfe71-126">**DRIVER\_INFO\_4**</span></span>](driver-info-4.md)<br/> |
-| <span id="5"></span><dl> <span data-ttu-id="bfe71-127"><dt>**5**</dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-127"><dt>**5**</dt></span></span> </dl> | [<span data-ttu-id="bfe71-128">**驅動程式 \_ 資訊 \_ 5**</span><span class="sxs-lookup"><span data-stu-id="bfe71-128">**DRIVER\_INFO\_5**</span></span>](driver-info-5.md)<br/> |
-| <span id="6"></span><dl> <span data-ttu-id="bfe71-129"><dt>**6**</dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-129"><dt>**6**</dt></span></span> </dl> | [<span data-ttu-id="bfe71-130">**驅動程式 \_ 資訊 \_ 6**</span><span class="sxs-lookup"><span data-stu-id="bfe71-130">**DRIVER\_INFO\_6**</span></span>](driver-info-6.md)<br/> |
-| <span id="8"></span><dl> <span data-ttu-id="bfe71-131"><dt>**8**</dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-131"><dt>**8**</dt></span></span> </dl> | [<span data-ttu-id="bfe71-132">**驅動程式 \_ 資訊 \_ 8**</span><span class="sxs-lookup"><span data-stu-id="bfe71-132">**DRIVER\_INFO\_8**</span></span>](driver-info-8.md)<br/> |
+| <span id="1"></span><dl> <span data-ttu-id="9c4f5-119"><dt>**1**</dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-119"><dt>**1**</dt></span></span> </dl> | [<span data-ttu-id="9c4f5-120">**驅動程式 \_ 資訊 \_ 1**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-120">**DRIVER\_INFO\_1**</span></span>](driver-info-1.md)<br/> |
+| <span id="2"></span><dl> <span data-ttu-id="9c4f5-121"><dt>**2**</dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-121"><dt>**2**</dt></span></span> </dl> | [<span data-ttu-id="9c4f5-122">**驅動程式 \_ 資訊 \_ 2**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-122">**DRIVER\_INFO\_2**</span></span>](driver-info-2.md)<br/> |
+| <span id="3"></span><dl> <span data-ttu-id="9c4f5-123"><dt>**3**</dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-123"><dt>**3**</dt></span></span> </dl> | [<span data-ttu-id="9c4f5-124">**驅動程式 \_ 資訊 \_ 3**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-124">**DRIVER\_INFO\_3**</span></span>](driver-info-3.md)<br/> |
+| <span id="4"></span><dl> <span data-ttu-id="9c4f5-125"><dt>**4**</dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-125"><dt>**4**</dt></span></span> </dl> | [<span data-ttu-id="9c4f5-126">**驅動程式 \_ 資訊 \_ 4**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-126">**DRIVER\_INFO\_4**</span></span>](driver-info-4.md)<br/> |
+| <span id="5"></span><dl> <span data-ttu-id="9c4f5-127"><dt>**5**</dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-127"><dt>**5**</dt></span></span> </dl> | [<span data-ttu-id="9c4f5-128">**驅動程式 \_ 資訊 \_ 5**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-128">**DRIVER\_INFO\_5**</span></span>](driver-info-5.md)<br/> |
+| <span id="6"></span><dl> <span data-ttu-id="9c4f5-129"><dt>**6**</dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-129"><dt>**6**</dt></span></span> </dl> | [<span data-ttu-id="9c4f5-130">**驅動程式 \_ 資訊 \_ 6**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-130">**DRIVER\_INFO\_6**</span></span>](driver-info-6.md)<br/> |
+| <span id="8"></span><dl> <span data-ttu-id="9c4f5-131"><dt>**8**</dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-131"><dt>**8**</dt></span></span> </dl> | [<span data-ttu-id="9c4f5-132">**驅動程式 \_ 資訊 \_ 8**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-132">**DRIVER\_INFO\_8**</span></span>](driver-info-8.md)<br/> |
 
 
 
@@ -89,96 +89,96 @@ BOOL EnumPrinterDrivers(
 
 </dd> <dt>
 
-<span data-ttu-id="bfe71-133">*pDriverInfo* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="bfe71-133">*pDriverInfo* \[out\]</span></span>
+<span data-ttu-id="9c4f5-133">*pDriverInfo* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="9c4f5-133">*pDriverInfo* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="bfe71-134">接收驅動程式資訊結構陣列的緩衝區指標 \_ \_ \* ，如同 *層級* 所指定。</span><span class="sxs-lookup"><span data-stu-id="bfe71-134">A pointer to a buffer that receives an array of DRIVER\_INFO\_\* structures, as specified by *Level*.</span></span> <span data-ttu-id="bfe71-135">每個結構都包含描述可用印表機驅動程式的資料。</span><span class="sxs-lookup"><span data-stu-id="bfe71-135">Each structure contains data that describes an available printer driver.</span></span> <span data-ttu-id="bfe71-136">緩衝區必須夠大，才能接收結構的陣列，以及結構成員指向的任何字串或其他資料。</span><span class="sxs-lookup"><span data-stu-id="bfe71-136">The buffer must be large enough to receive the array of structures and any strings or other data to which the structure members point.</span></span>
+<span data-ttu-id="9c4f5-134">接收驅動程式資訊結構陣列的緩衝區指標 \_ \_ \* ，如同 *層級* 所指定。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-134">A pointer to a buffer that receives an array of DRIVER\_INFO\_\* structures, as specified by *Level*.</span></span> <span data-ttu-id="9c4f5-135">每個結構都包含描述可用印表機驅動程式的資料。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-135">Each structure contains data that describes an available printer driver.</span></span> <span data-ttu-id="9c4f5-136">緩衝區必須夠大，才能接收結構的陣列，以及結構成員指向的任何字串或其他資料。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-136">The buffer must be large enough to receive the array of structures and any strings or other data to which the structure members point.</span></span>
 
-<span data-ttu-id="bfe71-137">若要判斷所需的緩衝區大小，請呼叫 **EnumPrinterDrivers** ，並將 *cbBuf* 設定為零。</span><span class="sxs-lookup"><span data-stu-id="bfe71-137">To determine the required buffer size, call **EnumPrinterDrivers** with *cbBuf* set to zero.</span></span> <span data-ttu-id="bfe71-138">**EnumPrinterDrivers** 失敗， [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 傳回錯誤 \_ \_ 的緩衝區，而 *pcbNeeded* 參數會傳回保存結構及其資料陣列所需的緩衝區大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="bfe71-138">**EnumPrinterDrivers** fails, [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.</span></span>
+<span data-ttu-id="9c4f5-137">若要判斷所需的緩衝區大小，請呼叫 **EnumPrinterDrivers** ，並將 *cbBuf* 設定為零。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-137">To determine the required buffer size, call **EnumPrinterDrivers** with *cbBuf* set to zero.</span></span> <span data-ttu-id="9c4f5-138">**EnumPrinterDrivers** 失敗， [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 傳回錯誤 \_ \_ 的緩衝區，而 *pcbNeeded* 參數會傳回保存結構及其資料陣列所需的緩衝區大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-138">**EnumPrinterDrivers** fails, [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="bfe71-139">*cbBuf* \[在\]</span><span class="sxs-lookup"><span data-stu-id="bfe71-139">*cbBuf* \[in\]</span></span>
+<span data-ttu-id="9c4f5-139">*cbBuf* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9c4f5-139">*cbBuf* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="bfe71-140">*PDriverInfo* 所指向的緩衝區大小（以位元組為單位）</span><span class="sxs-lookup"><span data-stu-id="bfe71-140">The size, in bytes, of the buffer pointed to by *pDriverInfo*</span></span>
+<span data-ttu-id="9c4f5-140">*PDriverInfo* 所指向的緩衝區大小（以位元組為單位）</span><span class="sxs-lookup"><span data-stu-id="9c4f5-140">The size, in bytes, of the buffer pointed to by *pDriverInfo*</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="bfe71-141">*pcbNeeded* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="bfe71-141">*pcbNeeded* \[out\]</span></span>
+<span data-ttu-id="9c4f5-141">*pcbNeeded* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="9c4f5-141">*pcbNeeded* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="bfe71-142">變數的指標，此變數會接收在函式成功時複製到 *pDriverInfo* 緩衝區的位元組數目。</span><span class="sxs-lookup"><span data-stu-id="bfe71-142">A pointer to a variable that receives the number of bytes copied to the *pDriverInfo* buffer if the function succeeds.</span></span> <span data-ttu-id="bfe71-143">如果緩衝區太小，則函式會失敗，而變數會收到所需的位元組數目。</span><span class="sxs-lookup"><span data-stu-id="bfe71-143">If the buffer is too small, the function fails and the variable receives the number of bytes required.</span></span>
+<span data-ttu-id="9c4f5-142">變數的指標，此變數會接收在函式成功時複製到 *pDriverInfo* 緩衝區的位元組數目。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-142">A pointer to a variable that receives the number of bytes copied to the *pDriverInfo* buffer if the function succeeds.</span></span> <span data-ttu-id="9c4f5-143">如果緩衝區太小，則函式會失敗，而變數會收到所需的位元組數目。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-143">If the buffer is too small, the function fails and the variable receives the number of bytes required.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="bfe71-144">*pcReturned* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="bfe71-144">*pcReturned* \[out\]</span></span>
+<span data-ttu-id="9c4f5-144">*pcReturned* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="9c4f5-144">*pcReturned* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="bfe71-145">變數的指標，此變數會接收 *pDriverInfo* 緩衝區中傳回的結構數目。</span><span class="sxs-lookup"><span data-stu-id="bfe71-145">A pointer to a variable that receives the number of structures returned in the *pDriverInfo* buffer.</span></span> <span data-ttu-id="bfe71-146">這是安裝在指定列印伺服器上的印表機驅動程式數目。</span><span class="sxs-lookup"><span data-stu-id="bfe71-146">This is the number of printer drivers installed on the specified print server.</span></span>
+<span data-ttu-id="9c4f5-145">變數的指標，此變數會接收 *pDriverInfo* 緩衝區中傳回的結構數目。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-145">A pointer to a variable that receives the number of structures returned in the *pDriverInfo* buffer.</span></span> <span data-ttu-id="9c4f5-146">這是安裝在指定列印伺服器上的印表機驅動程式數目。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-146">This is the number of printer drivers installed on the specified print server.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="bfe71-147">傳回值</span><span class="sxs-lookup"><span data-stu-id="bfe71-147">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9c4f5-147">傳回值</span><span class="sxs-lookup"><span data-stu-id="9c4f5-147">Return value</span></span>
 
-<span data-ttu-id="bfe71-148">如果函式成功，則傳回值為非零值。</span><span class="sxs-lookup"><span data-stu-id="bfe71-148">If the function succeeds, the return value is a nonzero value.</span></span>
+<span data-ttu-id="9c4f5-148">如果函式成功，則傳回值為非零值。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-148">If the function succeeds, the return value is a nonzero value.</span></span>
 
-<span data-ttu-id="bfe71-149">如果此函式失敗，則傳回值為零。</span><span class="sxs-lookup"><span data-stu-id="bfe71-149">If the function fails, the return value is zero.</span></span>
+<span data-ttu-id="9c4f5-149">如果此函式失敗，則傳回值為零。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-149">If the function fails, the return value is zero.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="bfe71-150">備註</span><span class="sxs-lookup"><span data-stu-id="bfe71-150">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9c4f5-150">備註</span><span class="sxs-lookup"><span data-stu-id="9c4f5-150">Remarks</span></span>
 
 > [!Note]  
-> <span data-ttu-id="bfe71-151">這是封鎖或同步函式，可能不會立即傳回。</span><span class="sxs-lookup"><span data-stu-id="bfe71-151">This is a blocking or synchronous function and might not return immediately.</span></span> <span data-ttu-id="bfe71-152">此函式傳回的速度，取決於執行時間因素，例如網路狀態、列印伺服器設定，以及在撰寫應用程式時難以預測的印表機驅動程式執行因素。</span><span class="sxs-lookup"><span data-stu-id="bfe71-152">How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation factors that are difficult to predict when writing an application.</span></span> <span data-ttu-id="bfe71-153">從管理與使用者介面互動的執行緒呼叫這個函式，可能會讓應用程式看起來沒有回應。</span><span class="sxs-lookup"><span data-stu-id="bfe71-153">Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</span></span>
+> <span data-ttu-id="9c4f5-151">這是封鎖或同步函式，可能不會立即傳回。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-151">This is a blocking or synchronous function and might not return immediately.</span></span> <span data-ttu-id="9c4f5-152">此函式傳回的速度，取決於執行時間因素，例如網路狀態、列印伺服器設定，以及在撰寫應用程式時難以預測的印表機驅動程式執行因素。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-152">How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation factors that are difficult to predict when writing an application.</span></span> <span data-ttu-id="9c4f5-153">從管理與使用者介面互動的執行緒呼叫這個函式，可能會讓應用程式看起來沒有回應。</span><span class="sxs-lookup"><span data-stu-id="9c4f5-153">Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</span></span>
 
  
 
-## <a name="requirements"></a><span data-ttu-id="bfe71-154">規格需求</span><span class="sxs-lookup"><span data-stu-id="bfe71-154">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9c4f5-154">規格需求</span><span class="sxs-lookup"><span data-stu-id="9c4f5-154">Requirements</span></span>
 
 
 
-| <span data-ttu-id="bfe71-155">需求</span><span class="sxs-lookup"><span data-stu-id="bfe71-155">Requirement</span></span> | <span data-ttu-id="bfe71-156">值</span><span class="sxs-lookup"><span data-stu-id="bfe71-156">Value</span></span> |
+| <span data-ttu-id="9c4f5-155">需求</span><span class="sxs-lookup"><span data-stu-id="9c4f5-155">Requirement</span></span> | <span data-ttu-id="9c4f5-156">值</span><span class="sxs-lookup"><span data-stu-id="9c4f5-156">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="bfe71-157">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="bfe71-157">Minimum supported client</span></span><br/> | <span data-ttu-id="bfe71-158">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="bfe71-158">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                |
-| <span data-ttu-id="bfe71-159">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="bfe71-159">Minimum supported server</span></span><br/> | <span data-ttu-id="bfe71-160">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="bfe71-160">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                      |
-| <span data-ttu-id="bfe71-161">標頭</span><span class="sxs-lookup"><span data-stu-id="bfe71-161">Header</span></span><br/>                   | <dl> <span data-ttu-id="bfe71-162"><dt>Winspool.drv (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-162"><dt>Winspool.h (include Windows.h)</dt></span></span> </dl> |
-| <span data-ttu-id="bfe71-163">程式庫</span><span class="sxs-lookup"><span data-stu-id="bfe71-163">Library</span></span><br/>                  | <dl> <span data-ttu-id="bfe71-164"><dt>Winspool.drv .lib</dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-164"><dt>Winspool.lib</dt></span></span> </dl>                   |
-| <span data-ttu-id="bfe71-165">DLL</span><span class="sxs-lookup"><span data-stu-id="bfe71-165">DLL</span></span><br/>                      | <dl> <span data-ttu-id="bfe71-166"><dt>Winspool.drv. winspool.drv</dt></span><span class="sxs-lookup"><span data-stu-id="bfe71-166"><dt>Winspool.drv</dt></span></span> </dl>                   |
-| <span data-ttu-id="bfe71-167">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="bfe71-167">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="bfe71-168">**EnumPrinterDriversW** (Unicode) 和 **EnumPrinterDriversA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="bfe71-168">**EnumPrinterDriversW** (Unicode) and **EnumPrinterDriversA** (ANSI)</span></span><br/>                           |
+| <span data-ttu-id="9c4f5-157">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9c4f5-157">Minimum supported client</span></span><br/> | <span data-ttu-id="9c4f5-158">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9c4f5-158">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                |
+| <span data-ttu-id="9c4f5-159">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9c4f5-159">Minimum supported server</span></span><br/> | <span data-ttu-id="9c4f5-160">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9c4f5-160">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                      |
+| <span data-ttu-id="9c4f5-161">標頭</span><span class="sxs-lookup"><span data-stu-id="9c4f5-161">Header</span></span><br/>                   | <dl> <span data-ttu-id="9c4f5-162"><dt>Winspool.drv (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-162"><dt>Winspool.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="9c4f5-163">程式庫</span><span class="sxs-lookup"><span data-stu-id="9c4f5-163">Library</span></span><br/>                  | <dl> <span data-ttu-id="9c4f5-164"><dt>Winspool.drv .lib</dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-164"><dt>Winspool.lib</dt></span></span> </dl>                   |
+| <span data-ttu-id="9c4f5-165">DLL</span><span class="sxs-lookup"><span data-stu-id="9c4f5-165">DLL</span></span><br/>                      | <dl> <span data-ttu-id="9c4f5-166"><dt>Winspool.drv. winspool.drv</dt></span><span class="sxs-lookup"><span data-stu-id="9c4f5-166"><dt>Winspool.drv</dt></span></span> </dl>                   |
+| <span data-ttu-id="9c4f5-167">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="9c4f5-167">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="9c4f5-168">**EnumPrinterDriversW** (Unicode) 和 **EnumPrinterDriversA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="9c4f5-168">**EnumPrinterDriversW** (Unicode) and **EnumPrinterDriversA** (ANSI)</span></span><br/>                           |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="bfe71-169">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bfe71-169">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9c4f5-169">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9c4f5-169">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="bfe71-170">列印</span><span class="sxs-lookup"><span data-stu-id="bfe71-170">Printing</span></span>](printdocs-printing.md)
+[<span data-ttu-id="9c4f5-170">列印</span><span class="sxs-lookup"><span data-stu-id="9c4f5-170">Printing</span></span>](printdocs-printing.md)
 </dt> <dt>
 
-[<span data-ttu-id="bfe71-171">列印多工緩衝處理器 API 函式</span><span class="sxs-lookup"><span data-stu-id="bfe71-171">Print Spooler API Functions</span></span>](printing-and-print-spooler-functions.md)
+[<span data-ttu-id="9c4f5-171">列印多工緩衝處理器 API 函式</span><span class="sxs-lookup"><span data-stu-id="9c4f5-171">Print Spooler API Functions</span></span>](printing-and-print-spooler-functions.md)
 </dt> <dt>
 
-[<span data-ttu-id="bfe71-172">**AddPrinterDriver**</span><span class="sxs-lookup"><span data-stu-id="bfe71-172">**AddPrinterDriver**</span></span>](addprinterdriver.md)
+[<span data-ttu-id="9c4f5-172">**AddPrinterDriver**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-172">**AddPrinterDriver**</span></span>](addprinterdriver.md)
 </dt> <dt>
 
-[<span data-ttu-id="bfe71-173">**驅動程式 \_ 資訊 \_ 1**</span><span class="sxs-lookup"><span data-stu-id="bfe71-173">**DRIVER\_INFO\_1**</span></span>](driver-info-1.md)
+[<span data-ttu-id="9c4f5-173">**驅動程式 \_ 資訊 \_ 1**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-173">**DRIVER\_INFO\_1**</span></span>](driver-info-1.md)
 </dt> <dt>
 
-[<span data-ttu-id="bfe71-174">**驅動程式 \_ 資訊 \_ 2**</span><span class="sxs-lookup"><span data-stu-id="bfe71-174">**DRIVER\_INFO\_2**</span></span>](driver-info-2.md)
+[<span data-ttu-id="9c4f5-174">**驅動程式 \_ 資訊 \_ 2**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-174">**DRIVER\_INFO\_2**</span></span>](driver-info-2.md)
 </dt> <dt>
 
-[<span data-ttu-id="bfe71-175">**驅動程式 \_ 資訊 \_ 3**</span><span class="sxs-lookup"><span data-stu-id="bfe71-175">**DRIVER\_INFO\_3**</span></span>](driver-info-3.md)
+[<span data-ttu-id="9c4f5-175">**驅動程式 \_ 資訊 \_ 3**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-175">**DRIVER\_INFO\_3**</span></span>](driver-info-3.md)
 </dt> <dt>
 
-[<span data-ttu-id="bfe71-176">**驅動程式 \_ 資訊 \_ 4**</span><span class="sxs-lookup"><span data-stu-id="bfe71-176">**DRIVER\_INFO\_4**</span></span>](driver-info-4.md)
+[<span data-ttu-id="9c4f5-176">**驅動程式 \_ 資訊 \_ 4**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-176">**DRIVER\_INFO\_4**</span></span>](driver-info-4.md)
 </dt> <dt>
 
-[<span data-ttu-id="bfe71-177">**驅動程式 \_ 資訊 \_ 5**</span><span class="sxs-lookup"><span data-stu-id="bfe71-177">**DRIVER\_INFO\_5**</span></span>](driver-info-5.md)
+[<span data-ttu-id="9c4f5-177">**驅動程式 \_ 資訊 \_ 5**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-177">**DRIVER\_INFO\_5**</span></span>](driver-info-5.md)
 </dt> <dt>
 
-[<span data-ttu-id="bfe71-178">**驅動程式 \_ 資訊 \_ 6**</span><span class="sxs-lookup"><span data-stu-id="bfe71-178">**DRIVER\_INFO\_6**</span></span>](driver-info-6.md)
+[<span data-ttu-id="9c4f5-178">**驅動程式 \_ 資訊 \_ 6**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-178">**DRIVER\_INFO\_6**</span></span>](driver-info-6.md)
 </dt> <dt>
 
-[<span data-ttu-id="bfe71-179">**GetPrinterDriver**</span><span class="sxs-lookup"><span data-stu-id="bfe71-179">**GetPrinterDriver**</span></span>](getprinterdriver.md)
+[<span data-ttu-id="9c4f5-179">**GetPrinterDriver**</span><span class="sxs-lookup"><span data-stu-id="9c4f5-179">**GetPrinterDriver**</span></span>](getprinterdriver.md)
 </dt> </dl>
 
  

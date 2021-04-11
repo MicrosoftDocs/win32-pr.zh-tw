@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945235"
 ---
-# <a name="tsp-ui-dll-functions"></a><span data-ttu-id="a2525-103">TSP UI DLL 函式</span><span class="sxs-lookup"><span data-stu-id="a2525-103">TSP UI DLL Functions</span></span>
+# <a name="tsp-ui-dll-functions"></a><span data-ttu-id="b126c-103">TSP UI DLL 函式</span><span class="sxs-lookup"><span data-stu-id="b126c-103">TSP UI DLL Functions</span></span>
 
-<span data-ttu-id="a2525-104">本節說明電話語音服務提供者消費者介面 (UI) DLL 函式。</span><span class="sxs-lookup"><span data-stu-id="a2525-104">This section describes the Telephony Service Provider User Interface (UI) DLL functions.</span></span> <span data-ttu-id="a2525-105">TSP UI DLL 函數包括：</span><span class="sxs-lookup"><span data-stu-id="a2525-105">The TSP UI DLL functions include:</span></span>
+<span data-ttu-id="b126c-104">本節說明電話語音服務提供者消費者介面 (UI) DLL 函式。</span><span class="sxs-lookup"><span data-stu-id="b126c-104">This section describes the Telephony Service Provider User Interface (UI) DLL functions.</span></span> <span data-ttu-id="b126c-105">TSP UI DLL 函數包括：</span><span class="sxs-lookup"><span data-stu-id="b126c-105">The TSP UI DLL functions include:</span></span>
 
--   [<span data-ttu-id="a2525-106">**TSPI \_ providerFreeDialogInstance**</span><span class="sxs-lookup"><span data-stu-id="a2525-106">**TSPI\_providerFreeDialogInstance**</span></span>](/windows/win32/api/tspi/nf-tspi-tspi_providerfreedialoginstance)
--   [<span data-ttu-id="a2525-107">**TSPI \_ providerGenericDialogData**</span><span class="sxs-lookup"><span data-stu-id="a2525-107">**TSPI\_providerGenericDialogData**</span></span>](/windows/win32/api/tspi/nf-tspi-tspi_providergenericdialogdata)
--   [<span data-ttu-id="a2525-108">**TSPI \_ providerUIIdentify**</span><span class="sxs-lookup"><span data-stu-id="a2525-108">**TSPI\_providerUIIdentify**</span></span>](/windows/win32/api/tspi/nf-tspi-tspi_provideruiidentify)
+-   [<span data-ttu-id="b126c-106">**TSPI \_ providerFreeDialogInstance**</span><span class="sxs-lookup"><span data-stu-id="b126c-106">**TSPI\_providerFreeDialogInstance**</span></span>](/windows/win32/api/tspi/nf-tspi-tspi_providerfreedialoginstance)
+-   [<span data-ttu-id="b126c-107">**TSPI \_ providerGenericDialogData**</span><span class="sxs-lookup"><span data-stu-id="b126c-107">**TSPI\_providerGenericDialogData**</span></span>](/windows/win32/api/tspi/nf-tspi-tspi_providergenericdialogdata)
+-   [<span data-ttu-id="b126c-108">**TSPI \_ providerUIIdentify**</span><span class="sxs-lookup"><span data-stu-id="b126c-108">**TSPI\_providerUIIdentify**</span></span>](/windows/win32/api/tspi/nf-tspi-tspi_provideruiidentify)
 
  
 

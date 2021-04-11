@@ -23,9 +23,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843148"
 ---
-# <a name="hdn_itemchanging-notification-code"></a><span data-ttu-id="83081-105">HDN \_ ITEMCHANGING 通知碼</span><span class="sxs-lookup"><span data-stu-id="83081-105">HDN\_ITEMCHANGING notification code</span></span>
+# <a name="hdn_itemchanging-notification-code"></a><span data-ttu-id="061fe-105">HDN \_ ITEMCHANGING 通知碼</span><span class="sxs-lookup"><span data-stu-id="061fe-105">HDN\_ITEMCHANGING notification code</span></span>
 
-<span data-ttu-id="83081-106">通知標題控制項的父視窗，標題專案的屬性即將變更。</span><span class="sxs-lookup"><span data-stu-id="83081-106">Notifies a header control's parent window that the attributes of a header item are about to change.</span></span> <span data-ttu-id="83081-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="83081-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="061fe-106">通知標題控制項的父視窗，標題專案的屬性即將變更。</span><span class="sxs-lookup"><span data-stu-id="061fe-106">Notifies a header control's parent window that the attributes of a header item are about to change.</span></span> <span data-ttu-id="061fe-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="061fe-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -36,31 +36,31 @@ HDN_ITEMCHANGING
 
 
 
-## <a name="parameters"></a><span data-ttu-id="83081-108">參數</span><span class="sxs-lookup"><span data-stu-id="83081-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="061fe-108">參數</span><span class="sxs-lookup"><span data-stu-id="061fe-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="83081-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="83081-109">*lParam*</span></span> 
+<span data-ttu-id="061fe-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="061fe-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="83081-110">[**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera)結構的指標，其中包含標題控制項和標頭專案的相關資訊，包括即將變更的屬性。</span><span class="sxs-lookup"><span data-stu-id="83081-110">A pointer to an [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure that contains information about the header control and the header item, including the attributes that are about to change.</span></span>
+<span data-ttu-id="061fe-110">[**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera)結構的指標，其中包含標題控制項和標頭專案的相關資訊，包括即將變更的屬性。</span><span class="sxs-lookup"><span data-stu-id="061fe-110">A pointer to an [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) structure that contains information about the header control and the header item, including the attributes that are about to change.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="83081-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="83081-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="061fe-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="061fe-111">Return value</span></span>
 
-<span data-ttu-id="83081-112">傳回 **FALSE** 表示允許變更，或 **TRUE** 表示防止這些變更。</span><span class="sxs-lookup"><span data-stu-id="83081-112">Returns **FALSE** to allow the changes, or **TRUE** to prevent them.</span></span>
+<span data-ttu-id="061fe-112">傳回 **FALSE** 表示允許變更，或 **TRUE** 表示防止這些變更。</span><span class="sxs-lookup"><span data-stu-id="061fe-112">Returns **FALSE** to allow the changes, or **TRUE** to prevent them.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="83081-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="83081-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="061fe-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="061fe-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="83081-114">需求</span><span class="sxs-lookup"><span data-stu-id="83081-114">Requirement</span></span> | <span data-ttu-id="83081-115">值</span><span class="sxs-lookup"><span data-stu-id="83081-115">Value</span></span> |
+| <span data-ttu-id="061fe-114">需求</span><span class="sxs-lookup"><span data-stu-id="061fe-114">Requirement</span></span> | <span data-ttu-id="061fe-115">值</span><span class="sxs-lookup"><span data-stu-id="061fe-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="83081-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="83081-116">Minimum supported client</span></span><br/> | <span data-ttu-id="83081-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="83081-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="83081-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="83081-118">Minimum supported server</span></span><br/> | <span data-ttu-id="83081-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="83081-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="83081-120">標頭</span><span class="sxs-lookup"><span data-stu-id="83081-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="83081-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="83081-121"><dt>Commctrl.h</dt></span></span> </dl> |
-| <span data-ttu-id="83081-122">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="83081-122">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="83081-123">**HDN \_ITEMCHANGINGW** (Unicode) 和 **HDN \_ ITEMCHANGINGA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="83081-123">**HDN\_ITEMCHANGINGW** (Unicode) and **HDN\_ITEMCHANGINGA** (ANSI)</span></span><br/>         |
+| <span data-ttu-id="061fe-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="061fe-116">Minimum supported client</span></span><br/> | <span data-ttu-id="061fe-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="061fe-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="061fe-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="061fe-118">Minimum supported server</span></span><br/> | <span data-ttu-id="061fe-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="061fe-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="061fe-120">標頭</span><span class="sxs-lookup"><span data-stu-id="061fe-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="061fe-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="061fe-121"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="061fe-122">Unicode 與 ANSI 名稱</span><span class="sxs-lookup"><span data-stu-id="061fe-122">Unicode and ANSI names</span></span><br/>   | <span data-ttu-id="061fe-123">**HDN \_ITEMCHANGINGW** (Unicode) 和 **HDN \_ ITEMCHANGINGA** (ANSI) </span><span class="sxs-lookup"><span data-stu-id="061fe-123">**HDN\_ITEMCHANGINGW** (Unicode) and **HDN\_ITEMCHANGINGA** (ANSI)</span></span><br/>         |
 
 
 

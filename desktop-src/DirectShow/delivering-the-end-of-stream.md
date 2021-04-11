@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103845859"
 ---
-# <a name="delivering-the-end-of-stream"></a><span data-ttu-id="c4457-103">傳遞資料流程結尾</span><span class="sxs-lookup"><span data-stu-id="c4457-103">Delivering the End of Stream</span></span>
+# <a name="delivering-the-end-of-stream"></a><span data-ttu-id="5a5de-103">傳遞資料流程結尾</span><span class="sxs-lookup"><span data-stu-id="5a5de-103">Delivering the End of Stream</span></span>
 
-<span data-ttu-id="c4457-104">當輸入 pin 收到資料流程結束通知時，它會傳播呼叫下游。</span><span class="sxs-lookup"><span data-stu-id="c4457-104">When the input pin receives an end-of-stream notification, it propagates the call downstream.</span></span> <span data-ttu-id="c4457-105">從這個輸入 pin 接收資料的任何下游篩選也都應該取得資料流程結束通知。</span><span class="sxs-lookup"><span data-stu-id="c4457-105">Any downstream filters that receive data from this input pin should also get the end-of-stream notification.</span></span> <span data-ttu-id="c4457-106">同樣地，請採用資料流程鎖定而不是篩選鎖定。</span><span class="sxs-lookup"><span data-stu-id="c4457-106">Again, take the streaming lock and not the filter lock.</span></span> <span data-ttu-id="c4457-107">如果篩選準則有尚未傳遞的暫止資料，則篩選準則應該會在傳送資料流程結束通知之前立即傳遞。</span><span class="sxs-lookup"><span data-stu-id="c4457-107">If the filter has pending data that was not yet delivered, the filter should deliver it now, before it sends the end-of-stream notification.</span></span> <span data-ttu-id="c4457-108">它不應該在資料流程結尾之後傳送任何資料。</span><span class="sxs-lookup"><span data-stu-id="c4457-108">It should not send any data after the end of the stream.</span></span>
+<span data-ttu-id="5a5de-104">當輸入 pin 收到資料流程結束通知時，它會傳播呼叫下游。</span><span class="sxs-lookup"><span data-stu-id="5a5de-104">When the input pin receives an end-of-stream notification, it propagates the call downstream.</span></span> <span data-ttu-id="5a5de-105">從這個輸入 pin 接收資料的任何下游篩選也都應該取得資料流程結束通知。</span><span class="sxs-lookup"><span data-stu-id="5a5de-105">Any downstream filters that receive data from this input pin should also get the end-of-stream notification.</span></span> <span data-ttu-id="5a5de-106">同樣地，請採用資料流程鎖定而不是篩選鎖定。</span><span class="sxs-lookup"><span data-stu-id="5a5de-106">Again, take the streaming lock and not the filter lock.</span></span> <span data-ttu-id="5a5de-107">如果篩選準則有尚未傳遞的暫止資料，則篩選準則應該會在傳送資料流程結束通知之前立即傳遞。</span><span class="sxs-lookup"><span data-stu-id="5a5de-107">If the filter has pending data that was not yet delivered, the filter should deliver it now, before it sends the end-of-stream notification.</span></span> <span data-ttu-id="5a5de-108">它不應該在資料流程結尾之後傳送任何資料。</span><span class="sxs-lookup"><span data-stu-id="5a5de-108">It should not send any data after the end of the stream.</span></span>
 
 
 ```C++
@@ -35,13 +35,13 @@ HRESULT CMyInputPin::EndOfStream()
 
 
 
-<span data-ttu-id="c4457-109">[**CBaseOutputPin：:D eliverendofstream**](cbaseoutputpin-deliverendofstream.md)方法會在下游輸入 pin 上呼叫 [**IPin：： EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) 。</span><span class="sxs-lookup"><span data-stu-id="c4457-109">The [**CBaseOutputPin::DeliverEndOfStream**](cbaseoutputpin-deliverendofstream.md) method calls [**IPin::EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) on the downstream input pin.</span></span>
+<span data-ttu-id="5a5de-109">[**CBaseOutputPin：:D eliverendofstream**](cbaseoutputpin-deliverendofstream.md)方法會在下游輸入 pin 上呼叫 [**IPin：： EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) 。</span><span class="sxs-lookup"><span data-stu-id="5a5de-109">The [**CBaseOutputPin::DeliverEndOfStream**](cbaseoutputpin-deliverendofstream.md) method calls [**IPin::EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) on the downstream input pin.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="c4457-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="c4457-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="5a5de-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="5a5de-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c4457-111">執行緒和重要區段</span><span class="sxs-lookup"><span data-stu-id="c4457-111">Threads and Critical Sections</span></span>](threads-and-critical-sections.md)
+[<span data-ttu-id="5a5de-111">執行緒和重要區段</span><span class="sxs-lookup"><span data-stu-id="5a5de-111">Threads and Critical Sections</span></span>](threads-and-critical-sections.md)
 </dt> </dl>
 
  

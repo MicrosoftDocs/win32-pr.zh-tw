@@ -21,37 +21,37 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843139"
 ---
-# <a name="rb_minimizeband-message"></a><span data-ttu-id="d45d0-104">RB \_ MINIMIZEBAND 訊息</span><span class="sxs-lookup"><span data-stu-id="d45d0-104">RB\_MINIMIZEBAND message</span></span>
+# <a name="rb_minimizeband-message"></a><span data-ttu-id="3b776-104">RB \_ MINIMIZEBAND 訊息</span><span class="sxs-lookup"><span data-stu-id="3b776-104">RB\_MINIMIZEBAND message</span></span>
 
-<span data-ttu-id="d45d0-105">將 Rebar 控制項中的寬線大小調整為最小的大小。</span><span class="sxs-lookup"><span data-stu-id="d45d0-105">Resizes a band in a rebar control to its smallest size.</span></span>
+<span data-ttu-id="3b776-105">將 Rebar 控制項中的寬線大小調整為最小的大小。</span><span class="sxs-lookup"><span data-stu-id="3b776-105">Resizes a band in a rebar control to its smallest size.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="d45d0-106">參數</span><span class="sxs-lookup"><span data-stu-id="d45d0-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3b776-106">參數</span><span class="sxs-lookup"><span data-stu-id="3b776-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="d45d0-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="d45d0-107">*wParam*</span></span> 
+<span data-ttu-id="3b776-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="3b776-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="d45d0-108">以零為基底的寬線索引，可將其最小化。</span><span class="sxs-lookup"><span data-stu-id="d45d0-108">Zero-based index of the band to be minimized.</span></span>
+<span data-ttu-id="3b776-108">以零為基底的寬線索引，可將其最小化。</span><span class="sxs-lookup"><span data-stu-id="3b776-108">Zero-based index of the band to be minimized.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d45d0-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="d45d0-109">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="d45d0-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="d45d0-110">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="3b776-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="3b776-109">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="3b776-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="3b776-110">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="d45d0-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="d45d0-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3b776-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="3b776-111">Return value</span></span>
 
-<span data-ttu-id="d45d0-112">未使用傳回值。</span><span class="sxs-lookup"><span data-stu-id="d45d0-112">The return value is not used.</span></span>
+<span data-ttu-id="3b776-112">未使用傳回值。</span><span class="sxs-lookup"><span data-stu-id="3b776-112">The return value is not used.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="d45d0-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="d45d0-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3b776-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="3b776-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="d45d0-114">需求</span><span class="sxs-lookup"><span data-stu-id="d45d0-114">Requirement</span></span> | <span data-ttu-id="d45d0-115">值</span><span class="sxs-lookup"><span data-stu-id="d45d0-115">Value</span></span> |
+| <span data-ttu-id="3b776-114">需求</span><span class="sxs-lookup"><span data-stu-id="3b776-114">Requirement</span></span> | <span data-ttu-id="3b776-115">值</span><span class="sxs-lookup"><span data-stu-id="3b776-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="d45d0-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d45d0-116">Minimum supported client</span></span><br/> | <span data-ttu-id="d45d0-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d45d0-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="d45d0-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d45d0-118">Minimum supported server</span></span><br/> | <span data-ttu-id="d45d0-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d45d0-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="d45d0-120">標頭</span><span class="sxs-lookup"><span data-stu-id="d45d0-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="d45d0-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="d45d0-121"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="3b776-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3b776-116">Minimum supported client</span></span><br/> | <span data-ttu-id="3b776-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3b776-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="3b776-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3b776-118">Minimum supported server</span></span><br/> | <span data-ttu-id="3b776-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3b776-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="3b776-120">標頭</span><span class="sxs-lookup"><span data-stu-id="3b776-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="3b776-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="3b776-121"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

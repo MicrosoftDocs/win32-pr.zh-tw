@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945248"
 ---
-# <a name="ix509certificatetemplates-methods"></a><span data-ttu-id="2ec98-103">IX509CertificateTemplates 方法</span><span class="sxs-lookup"><span data-stu-id="2ec98-103">IX509CertificateTemplates Methods</span></span>
+# <a name="ix509certificatetemplates-methods"></a><span data-ttu-id="3f792-103">IX509CertificateTemplates 方法</span><span class="sxs-lookup"><span data-stu-id="3f792-103">IX509CertificateTemplates Methods</span></span>
 
-<span data-ttu-id="2ec98-104">[**IX509CertificateTemplates**](/windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplates)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="2ec98-104">The [**IX509CertificateTemplates**](/windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplates) interface exposes the following methods.</span></span>
+<span data-ttu-id="3f792-104">[**IX509CertificateTemplates**](/windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplates)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="3f792-104">The [**IX509CertificateTemplates**](/windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplates) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="2ec98-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="2ec98-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3f792-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="3f792-105">In this section</span></span>
 
--   [<span data-ttu-id="2ec98-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="2ec98-106">**Add Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-add)
--   [<span data-ttu-id="2ec98-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="2ec98-107">**Clear Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-clear)
--   [<span data-ttu-id="2ec98-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="2ec98-108">**Remove Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-remove)
+-   [<span data-ttu-id="3f792-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="3f792-106">**Add Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-add)
+-   [<span data-ttu-id="3f792-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="3f792-107">**Clear Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-clear)
+-   [<span data-ttu-id="3f792-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="3f792-108">**Remove Method**</span></span>](/windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-remove)
 
  
 

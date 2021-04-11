@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103933123"
 ---
-# <a name="opening-a-simple-device-by-using-the-device-name"></a><span data-ttu-id="cae85-104">使用裝置名稱開啟簡單的裝置</span><span class="sxs-lookup"><span data-stu-id="cae85-104">Opening a Simple Device by Using the Device Name</span></span>
+# <a name="opening-a-simple-device-by-using-the-device-name"></a><span data-ttu-id="8c174-104">使用裝置名稱開啟簡單的裝置</span><span class="sxs-lookup"><span data-stu-id="8c174-104">Opening a Simple Device by Using the Device Name</span></span>
 
-<span data-ttu-id="cae85-105">下列範例會使用 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 函式來指定裝置名稱，以開啟 CD 音訊裝置。</span><span class="sxs-lookup"><span data-stu-id="cae85-105">The following example opens a CD audio device by specifying the device name using the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.</span></span>
+<span data-ttu-id="8c174-105">下列範例會使用 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 函式來指定裝置名稱，以開啟 CD 音訊裝置。</span><span class="sxs-lookup"><span data-stu-id="8c174-105">The following example opens a CD audio device by specifying the device name using the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.</span></span>
 
 
 ```C++

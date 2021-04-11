@@ -13,9 +13,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "104092674"
 ---
-# <a name="opening-a-simple-device-by-using-the-device-type-constant"></a><span data-ttu-id="f7861-104">使用 Device-Type 常數開啟簡單的裝置</span><span class="sxs-lookup"><span data-stu-id="f7861-104">Opening a Simple Device by Using the Device-Type Constant</span></span>
+# <a name="opening-a-simple-device-by-using-the-device-type-constant"></a><span data-ttu-id="996e7-104">使用 Device-Type 常數開啟簡單的裝置</span><span class="sxs-lookup"><span data-stu-id="996e7-104">Opening a Simple Device by Using the Device-Type Constant</span></span>
 
-<span data-ttu-id="f7861-105">下列範例會使用 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 函式來指定裝置類型常數，以開啟 CD 音訊裝置。</span><span class="sxs-lookup"><span data-stu-id="f7861-105">The following example opens a CD audio device by specifying a device-type constant using the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.</span></span>
+<span data-ttu-id="996e7-105">下列範例會使用 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 函式來指定裝置類型常數，以開啟 CD 音訊裝置。</span><span class="sxs-lookup"><span data-stu-id="996e7-105">The following example opens a CD audio device by specifying a device-type constant using the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.</span></span>
 
 
 ```C++

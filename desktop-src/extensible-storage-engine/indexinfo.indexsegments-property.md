@@ -32,14 +32,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691352"
 ---
-# <a name="indexinfoindexsegments-property"></a><span data-ttu-id="db24c-103">IndexInfo. IndexSegments 屬性</span><span class="sxs-lookup"><span data-stu-id="db24c-103">IndexInfo.IndexSegments property</span></span>
+# <a name="indexinfoindexsegments-property"></a><span data-ttu-id="b9cd0-103">IndexInfo. IndexSegments 屬性</span><span class="sxs-lookup"><span data-stu-id="b9cd0-103">IndexInfo.IndexSegments property</span></span>
 
-<span data-ttu-id="db24c-104">取得索引的區段。</span><span class="sxs-lookup"><span data-stu-id="db24c-104">Gets the segments of the index.</span></span>
+<span data-ttu-id="b9cd0-104">取得索引的區段。</span><span class="sxs-lookup"><span data-stu-id="b9cd0-104">Gets the segments of the index.</span></span>
 
-<span data-ttu-id="db24c-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="db24c-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="db24c-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="db24c-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="b9cd0-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="b9cd0-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="b9cd0-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="b9cd0-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="db24c-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="db24c-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b9cd0-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="b9cd0-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -56,16 +56,16 @@ value = instance.IndexSegments
 public IList<IndexSegment> IndexSegments { get; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="db24c-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="db24c-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="b9cd0-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="b9cd0-108">Property value</span></span>
 
-<span data-ttu-id="db24c-109">類型： [system.object](/dotnet/api/system.collections.generic.ilist-1) 。\<[IndexSegment](./indexsegment-class.md)\></span><span class="sxs-lookup"><span data-stu-id="db24c-109">Type: [System.Collections.Generic.IList](/dotnet/api/system.collections.generic.ilist-1)\<[IndexSegment](./indexsegment-class.md)\></span></span>  
+<span data-ttu-id="b9cd0-109">類型： [system.object](/dotnet/api/system.collections.generic.ilist-1) 。\<[IndexSegment](./indexsegment-class.md)\></span><span class="sxs-lookup"><span data-stu-id="b9cd0-109">Type: [System.Collections.Generic.IList](/dotnet/api/system.collections.generic.ilist-1)\<[IndexSegment](./indexsegment-class.md)\></span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="db24c-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="db24c-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b9cd0-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b9cd0-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="db24c-111">參考</span><span class="sxs-lookup"><span data-stu-id="db24c-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="b9cd0-111">參考</span><span class="sxs-lookup"><span data-stu-id="b9cd0-111">Reference</span></span>
 
-[<span data-ttu-id="db24c-112">IndexInfo 類別</span><span class="sxs-lookup"><span data-stu-id="db24c-112">IndexInfo class</span></span>](./indexinfo-class.md)
+[<span data-ttu-id="b9cd0-112">IndexInfo 類別</span><span class="sxs-lookup"><span data-stu-id="b9cd0-112">IndexInfo class</span></span>](./indexinfo-class.md)
 
-[<span data-ttu-id="db24c-113">IndexInfo 成員</span><span class="sxs-lookup"><span data-stu-id="db24c-113">IndexInfo members</span></span>](./indexinfo-members.md)
+[<span data-ttu-id="b9cd0-113">IndexInfo 成員</span><span class="sxs-lookup"><span data-stu-id="b9cd0-113">IndexInfo members</span></span>](./indexinfo-members.md)
 
-[<span data-ttu-id="db24c-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="db24c-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="b9cd0-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="b9cd0-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

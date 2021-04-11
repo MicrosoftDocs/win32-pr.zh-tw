@@ -24,15 +24,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934943"
 ---
-# <a name="mdm_policy_config01_dataprotection02-class"></a><span data-ttu-id="c3c24-105">MDM \_ 原則 \_ Config01 \_ DataProtection02 類別</span><span class="sxs-lookup"><span data-stu-id="c3c24-105">MDM\_Policy\_Config01\_DataProtection02 class</span></span>
+# <a name="mdm_policy_config01_dataprotection02-class"></a><span data-ttu-id="65325-105">MDM \_ 原則 \_ Config01 \_ DataProtection02 類別</span><span class="sxs-lookup"><span data-stu-id="65325-105">MDM\_Policy\_Config01\_DataProtection02 class</span></span>
 
-<span data-ttu-id="c3c24-106">\[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。</span><span class="sxs-lookup"><span data-stu-id="c3c24-106">\[Some information relates to pre-released product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="c3c24-107">Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]</span><span class="sxs-lookup"><span data-stu-id="c3c24-107">Microsoft makes no warranties, express or implied, with respect to the information provided here.\]</span></span>
+<span data-ttu-id="65325-106">\[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。</span><span class="sxs-lookup"><span data-stu-id="65325-106">\[Some information relates to pre-released product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="65325-107">Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]</span><span class="sxs-lookup"><span data-stu-id="65325-107">Microsoft makes no warranties, express or implied, with respect to the information provided here.\]</span></span>
 
-<span data-ttu-id="c3c24-108">**MDM \_ Policy \_ Config01 \_ DataProtection02** 類別代表可用的資料保護原則。</span><span class="sxs-lookup"><span data-stu-id="c3c24-108">The **MDM\_Policy\_Config01\_DataProtection02** class represents the data protection policies available.</span></span>
+<span data-ttu-id="65325-108">**MDM \_ Policy \_ Config01 \_ DataProtection02** 類別代表可用的資料保護原則。</span><span class="sxs-lookup"><span data-stu-id="65325-108">The **MDM\_Policy\_Config01\_DataProtection02** class represents the data protection policies available.</span></span>
 
-<span data-ttu-id="c3c24-109">下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="c3c24-109">The following syntax is simplified from MOF code and includes all inherited properties.</span></span>
+<span data-ttu-id="65325-109">下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="65325-109">The following syntax is simplified from MOF code and includes all inherited properties.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c3c24-110">語法</span><span class="sxs-lookup"><span data-stu-id="c3c24-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="65325-110">語法</span><span class="sxs-lookup"><span data-stu-id="65325-110">Syntax</span></span>
 
 ``` syntax
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv")]
@@ -45,91 +45,91 @@ class MDM_Policy_Config01_DataProtection02
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="c3c24-111">成員</span><span class="sxs-lookup"><span data-stu-id="c3c24-111">Members</span></span>
+## <a name="members"></a><span data-ttu-id="65325-111">成員</span><span class="sxs-lookup"><span data-stu-id="65325-111">Members</span></span>
 
-<span data-ttu-id="c3c24-112">**MDM \_ Policy \_ Config01 \_ DataProtection02** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="c3c24-112">The **MDM\_Policy\_Config01\_DataProtection02** class has these types of members:</span></span>
+<span data-ttu-id="65325-112">**MDM \_ Policy \_ Config01 \_ DataProtection02** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="65325-112">The **MDM\_Policy\_Config01\_DataProtection02** class has these types of members:</span></span>
 
--   [<span data-ttu-id="c3c24-113">屬性</span><span class="sxs-lookup"><span data-stu-id="c3c24-113">Properties</span></span>](#properties)
+-   [<span data-ttu-id="65325-113">屬性</span><span class="sxs-lookup"><span data-stu-id="65325-113">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="c3c24-114">屬性</span><span class="sxs-lookup"><span data-stu-id="c3c24-114">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="65325-114">屬性</span><span class="sxs-lookup"><span data-stu-id="65325-114">Properties</span></span>
 
-<span data-ttu-id="c3c24-115">**MDM \_ Policy \_ Config01 \_ DataProtection02** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="c3c24-115">The **MDM\_Policy\_Config01\_DataProtection02** class has these properties.</span></span>
+<span data-ttu-id="65325-115">**MDM \_ Policy \_ Config01 \_ DataProtection02** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="65325-115">The **MDM\_Policy\_Config01\_DataProtection02** class has these properties.</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c3c24-116">AllowDirectMemoryAccess</span><span class="sxs-lookup"><span data-stu-id="c3c24-116">AllowDirectMemoryAccess</span></span>](/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess)
+[<span data-ttu-id="65325-116">AllowDirectMemoryAccess</span><span class="sxs-lookup"><span data-stu-id="65325-116">AllowDirectMemoryAccess</span></span>](/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess)
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="c3c24-117">資料類型： **sint32**</span><span class="sxs-lookup"><span data-stu-id="c3c24-117">Data type: **sint32**</span></span>
+<span data-ttu-id="65325-117">資料類型： **sint32**</span><span class="sxs-lookup"><span data-stu-id="65325-117">Data type: **sint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="c3c24-118">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="c3c24-118">Access type: Read/write</span></span>
+<span data-ttu-id="65325-118">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="65325-118">Access type: Read/write</span></span>
 </dt> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="c3c24-119">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="c3c24-119">**InstanceID**</span></span>
+<span data-ttu-id="65325-119">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="65325-119">**InstanceID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="c3c24-120">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="c3c24-120">Data type: **string**</span></span>
+<span data-ttu-id="65325-120">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="65325-120">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="c3c24-121">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="c3c24-121">Access type: Read-only</span></span>
+<span data-ttu-id="65325-121">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="65325-121">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="c3c24-122">限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)</span><span class="sxs-lookup"><span data-stu-id="c3c24-122">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)</span></span>
+<span data-ttu-id="65325-122">限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)</span><span class="sxs-lookup"><span data-stu-id="65325-122">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="c3c24-123">識別父節點的名稱。</span><span class="sxs-lookup"><span data-stu-id="c3c24-123">Identifies the name of the parent node.</span></span> <span data-ttu-id="c3c24-124">此類別的字串為 "DataProtection"。</span><span class="sxs-lookup"><span data-stu-id="c3c24-124">For this class, the string is "DataProtection".</span></span>
+<span data-ttu-id="65325-123">識別父節點的名稱。</span><span class="sxs-lookup"><span data-stu-id="65325-123">Identifies the name of the parent node.</span></span> <span data-ttu-id="65325-124">此類別的字串為 "DataProtection"。</span><span class="sxs-lookup"><span data-stu-id="65325-124">For this class, the string is "DataProtection".</span></span>
 
 </dd> <dt>
 
-[<span data-ttu-id="c3c24-125">LegacySelectiveWipeID</span><span class="sxs-lookup"><span data-stu-id="c3c24-125">LegacySelectiveWipeID</span></span>](/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-legacyselectivewipeid)
+[<span data-ttu-id="65325-125">LegacySelectiveWipeID</span><span class="sxs-lookup"><span data-stu-id="65325-125">LegacySelectiveWipeID</span></span>](/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-legacyselectivewipeid)
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="c3c24-126">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="c3c24-126">Data type: **string**</span></span>
+<span data-ttu-id="65325-126">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="65325-126">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="c3c24-127">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="c3c24-127">Access type: Read/write</span></span>
+<span data-ttu-id="65325-127">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="65325-127">Access type: Read/write</span></span>
 </dt> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="c3c24-128">**ParentID**</span><span class="sxs-lookup"><span data-stu-id="c3c24-128">**ParentID**</span></span>
+<span data-ttu-id="65325-128">**ParentID**</span><span class="sxs-lookup"><span data-stu-id="65325-128">**ParentID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="c3c24-129">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="c3c24-129">Data type: **string**</span></span>
+<span data-ttu-id="65325-129">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="65325-129">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="c3c24-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="c3c24-130">Access type: Read-only</span></span>
+<span data-ttu-id="65325-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="65325-130">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="c3c24-131">限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)</span><span class="sxs-lookup"><span data-stu-id="c3c24-131">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)</span></span>
+<span data-ttu-id="65325-131">限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)</span><span class="sxs-lookup"><span data-stu-id="65325-131">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="c3c24-132">描述父節點的完整路徑。</span><span class="sxs-lookup"><span data-stu-id="c3c24-132">Describes the full path to the parent node.</span></span> <span data-ttu-id="c3c24-133">此類別的字串為 "./Vendor/MSFT/Policy/Config"</span><span class="sxs-lookup"><span data-stu-id="c3c24-133">For this class, the string is "./Vendor/MSFT/Policy/Config"</span></span>
+<span data-ttu-id="65325-132">描述父節點的完整路徑。</span><span class="sxs-lookup"><span data-stu-id="65325-132">Describes the full path to the parent node.</span></span> <span data-ttu-id="65325-133">此類別的字串為 "./Vendor/MSFT/Policy/Config"</span><span class="sxs-lookup"><span data-stu-id="65325-133">For this class, the string is "./Vendor/MSFT/Policy/Config"</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="c3c24-134">規格需求</span><span class="sxs-lookup"><span data-stu-id="c3c24-134">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="65325-134">規格需求</span><span class="sxs-lookup"><span data-stu-id="65325-134">Requirements</span></span>
 
 
 
-| <span data-ttu-id="c3c24-135">需求</span><span class="sxs-lookup"><span data-stu-id="c3c24-135">Requirement</span></span> | <span data-ttu-id="c3c24-136">值</span><span class="sxs-lookup"><span data-stu-id="c3c24-136">Value</span></span> |
+| <span data-ttu-id="65325-135">需求</span><span class="sxs-lookup"><span data-stu-id="65325-135">Requirement</span></span> | <span data-ttu-id="65325-136">值</span><span class="sxs-lookup"><span data-stu-id="65325-136">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="c3c24-137">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c3c24-137">Minimum supported client</span></span><br/> | <span data-ttu-id="c3c24-138">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c3c24-138">Windows 10 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="c3c24-139">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c3c24-139">Minimum supported server</span></span><br/> | <span data-ttu-id="c3c24-140">都不支援</span><span class="sxs-lookup"><span data-stu-id="c3c24-140">None supported</span></span><br/>                                                                      |
-| <span data-ttu-id="c3c24-141">命名空間</span><span class="sxs-lookup"><span data-stu-id="c3c24-141">Namespace</span></span><br/>                | <span data-ttu-id="c3c24-142">根 \\ CIMv2 \\ MDM \\ DMMap</span><span class="sxs-lookup"><span data-stu-id="c3c24-142">Root\\CIMv2\\MDM\\DMMap</span></span><br/>                                                             |
-| <span data-ttu-id="c3c24-143">MOF</span><span class="sxs-lookup"><span data-stu-id="c3c24-143">MOF</span></span><br/>                      | <dl> <span data-ttu-id="c3c24-144"><dt>DMWmiBridgeProv mof</dt></span><span class="sxs-lookup"><span data-stu-id="c3c24-144"><dt>DMWmiBridgeProv.mof</dt></span></span> </dl> |
-| <span data-ttu-id="c3c24-145">DLL</span><span class="sxs-lookup"><span data-stu-id="c3c24-145">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c3c24-146"><dt>DMWmiBridgeProv.dll</dt></span><span class="sxs-lookup"><span data-stu-id="c3c24-146"><dt>DMWmiBridgeProv.dll</dt></span></span> </dl> |
+| <span data-ttu-id="65325-137">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="65325-137">Minimum supported client</span></span><br/> | <span data-ttu-id="65325-138">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="65325-138">Windows 10 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="65325-139">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="65325-139">Minimum supported server</span></span><br/> | <span data-ttu-id="65325-140">都不支援</span><span class="sxs-lookup"><span data-stu-id="65325-140">None supported</span></span><br/>                                                                      |
+| <span data-ttu-id="65325-141">命名空間</span><span class="sxs-lookup"><span data-stu-id="65325-141">Namespace</span></span><br/>                | <span data-ttu-id="65325-142">根 \\ CIMv2 \\ MDM \\ DMMap</span><span class="sxs-lookup"><span data-stu-id="65325-142">Root\\CIMv2\\MDM\\DMMap</span></span><br/>                                                             |
+| <span data-ttu-id="65325-143">MOF</span><span class="sxs-lookup"><span data-stu-id="65325-143">MOF</span></span><br/>                      | <dl> <span data-ttu-id="65325-144"><dt>DMWmiBridgeProv mof</dt></span><span class="sxs-lookup"><span data-stu-id="65325-144"><dt>DMWmiBridgeProv.mof</dt></span></span> </dl> |
+| <span data-ttu-id="65325-145">DLL</span><span class="sxs-lookup"><span data-stu-id="65325-145">DLL</span></span><br/>                      | <dl> <span data-ttu-id="65325-146"><dt>DMWmiBridgeProv.dll</dt></span><span class="sxs-lookup"><span data-stu-id="65325-146"><dt>DMWmiBridgeProv.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="c3c24-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c3c24-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="65325-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="65325-147">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c3c24-148">使用 PowerShell 指令碼搭配 WMI 橋接器提供者</span><span class="sxs-lookup"><span data-stu-id="c3c24-148">Using PowerShell scripting with the WMI Bridge Provider</span></span>](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[<span data-ttu-id="65325-148">使用 PowerShell 指令碼搭配 WMI 橋接器提供者</span><span class="sxs-lookup"><span data-stu-id="65325-148">Using PowerShell scripting with the WMI Bridge Provider</span></span>](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  

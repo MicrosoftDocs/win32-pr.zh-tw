@@ -21,61 +21,61 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844104"
 ---
-# <a name="lb_settabstops-message"></a><span data-ttu-id="74578-104">LB \_ SETTABSTOPS 訊息</span><span class="sxs-lookup"><span data-stu-id="74578-104">LB\_SETTABSTOPS message</span></span>
+# <a name="lb_settabstops-message"></a><span data-ttu-id="9ab34-104">LB \_ SETTABSTOPS 訊息</span><span class="sxs-lookup"><span data-stu-id="9ab34-104">LB\_SETTABSTOPS message</span></span>
 
-<span data-ttu-id="74578-105">設定清單方塊中的定位停駐點位置。</span><span class="sxs-lookup"><span data-stu-id="74578-105">Sets the tab-stop positions in a list box.</span></span>
+<span data-ttu-id="9ab34-105">設定清單方塊中的定位停駐點位置。</span><span class="sxs-lookup"><span data-stu-id="9ab34-105">Sets the tab-stop positions in a list box.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="74578-106">參數</span><span class="sxs-lookup"><span data-stu-id="74578-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9ab34-106">參數</span><span class="sxs-lookup"><span data-stu-id="9ab34-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="74578-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="74578-107">*wParam*</span></span> 
+<span data-ttu-id="9ab34-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="9ab34-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="74578-108">指定制表位的數目。</span><span class="sxs-lookup"><span data-stu-id="74578-108">Specifies the number of tab stops.</span></span>
+<span data-ttu-id="9ab34-108">指定制表位的數目。</span><span class="sxs-lookup"><span data-stu-id="9ab34-108">Specifies the number of tab stops.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="74578-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="74578-109">*lParam*</span></span> 
+<span data-ttu-id="9ab34-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="9ab34-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="74578-110">包含索引標籤之整數陣列的第一個成員指標。</span><span class="sxs-lookup"><span data-stu-id="74578-110">Pointer to the first member of an array of integers containing the tab stops.</span></span> <span data-ttu-id="74578-111">整數表示在清單方塊中選取之字型的平均字元寬度的季數。</span><span class="sxs-lookup"><span data-stu-id="74578-111">The integers represent the number of quarters of the average character width for the font that is selected into the list box.</span></span> <span data-ttu-id="74578-112">例如，4的 tab 鍵會放在1.0 個字元的單位，而索引標籤停止的位置則是1.5 個平均字元單位。</span><span class="sxs-lookup"><span data-stu-id="74578-112">For example, a tab stop of 4 is placed at 1.0 character units, and a tab stop of 6 is placed at 1.5 average character units.</span></span> <span data-ttu-id="74578-113">但是，如果清單方塊是對話方塊的一部分，則整數會在對話方塊範本單位中。</span><span class="sxs-lookup"><span data-stu-id="74578-113">However, if the list box is part of a dialog box, the integers are in dialog template units.</span></span> <span data-ttu-id="74578-114">定位停駐點必須以遞增順序排序;不允許反向索引標籤。</span><span class="sxs-lookup"><span data-stu-id="74578-114">The tab stops must be sorted in ascending order; backward tabs are not allowed.</span></span>
+<span data-ttu-id="9ab34-110">包含索引標籤之整數陣列的第一個成員指標。</span><span class="sxs-lookup"><span data-stu-id="9ab34-110">Pointer to the first member of an array of integers containing the tab stops.</span></span> <span data-ttu-id="9ab34-111">整數表示在清單方塊中選取之字型的平均字元寬度的季數。</span><span class="sxs-lookup"><span data-stu-id="9ab34-111">The integers represent the number of quarters of the average character width for the font that is selected into the list box.</span></span> <span data-ttu-id="9ab34-112">例如，4的 tab 鍵會放在1.0 個字元的單位，而索引標籤停止的位置則是1.5 個平均字元單位。</span><span class="sxs-lookup"><span data-stu-id="9ab34-112">For example, a tab stop of 4 is placed at 1.0 character units, and a tab stop of 6 is placed at 1.5 average character units.</span></span> <span data-ttu-id="9ab34-113">但是，如果清單方塊是對話方塊的一部分，則整數會在對話方塊範本單位中。</span><span class="sxs-lookup"><span data-stu-id="9ab34-113">However, if the list box is part of a dialog box, the integers are in dialog template units.</span></span> <span data-ttu-id="9ab34-114">定位停駐點必須以遞增順序排序;不允許反向索引標籤。</span><span class="sxs-lookup"><span data-stu-id="9ab34-114">The tab stops must be sorted in ascending order; backward tabs are not allowed.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="74578-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="74578-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9ab34-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="9ab34-115">Return value</span></span>
 
-<span data-ttu-id="74578-116">如果設定了所有指定的索引標籤，則傳回值為 **TRUE**;否則為 **FALSE**。</span><span class="sxs-lookup"><span data-stu-id="74578-116">If all the specified tabs are set, the return value is **TRUE**; otherwise, it is **FALSE**.</span></span>
+<span data-ttu-id="9ab34-116">如果設定了所有指定的索引標籤，則傳回值為 **TRUE**;否則為 **FALSE**。</span><span class="sxs-lookup"><span data-stu-id="9ab34-116">If all the specified tabs are set, the return value is **TRUE**; otherwise, it is **FALSE**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="74578-117">備註</span><span class="sxs-lookup"><span data-stu-id="74578-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9ab34-117">備註</span><span class="sxs-lookup"><span data-stu-id="9ab34-117">Remarks</span></span>
 
-<span data-ttu-id="74578-118">若要回應 **LB \_ SETTABSTOPS** 訊息，必須以 [**磅 \_ USETABSTOPS**](list-box-styles.md) 樣式建立清單方塊。</span><span class="sxs-lookup"><span data-stu-id="74578-118">To respond to the **LB\_SETTABSTOPS** message, the list box must have been created with the [**LBS\_USETABSTOPS**](list-box-styles.md) style.</span></span>
+<span data-ttu-id="9ab34-118">若要回應 **LB \_ SETTABSTOPS** 訊息，必須以 [**磅 \_ USETABSTOPS**](list-box-styles.md) 樣式建立清單方塊。</span><span class="sxs-lookup"><span data-stu-id="9ab34-118">To respond to the **LB\_SETTABSTOPS** message, the list box must have been created with the [**LBS\_USETABSTOPS**](list-box-styles.md) style.</span></span>
 
-<span data-ttu-id="74578-119">如果 *wParam* 為0，而 *lParam* 為 **Null**，則預設的 tab 鍵會停止為兩個對話方塊範本單位。</span><span class="sxs-lookup"><span data-stu-id="74578-119">If *wParam* is 0 and *lParam* is **NULL**, the default tab stop is two dialog template units.</span></span> <span data-ttu-id="74578-120">如果 *wParam* 是1，則清單方塊會以 *lParam* 所指定的距離分隔 tab 鍵。</span><span class="sxs-lookup"><span data-stu-id="74578-120">If *wParam* is 1, the list box will have tab stops separated by the distance specified by *lParam*.</span></span>
+<span data-ttu-id="9ab34-119">如果 *wParam* 為0，而 *lParam* 為 **Null**，則預設的 tab 鍵會停止為兩個對話方塊範本單位。</span><span class="sxs-lookup"><span data-stu-id="9ab34-119">If *wParam* is 0 and *lParam* is **NULL**, the default tab stop is two dialog template units.</span></span> <span data-ttu-id="9ab34-120">如果 *wParam* 是1，則清單方塊會以 *lParam* 所指定的距離分隔 tab 鍵。</span><span class="sxs-lookup"><span data-stu-id="9ab34-120">If *wParam* is 1, the list box will have tab stops separated by the distance specified by *lParam*.</span></span>
 
-<span data-ttu-id="74578-121">如果 *lParam* 指向一個以上的值，將會針對 *lParam* 中的每個值設定制表位，最多可達 *wParam* 所指定的數位。</span><span class="sxs-lookup"><span data-stu-id="74578-121">If *lParam* points to more than a single value, a tab stop will be set for each value in *lParam*, up to the number specified by *wParam*.</span></span>
+<span data-ttu-id="9ab34-121">如果 *lParam* 指向一個以上的值，將會針對 *lParam* 中的每個值設定制表位，最多可達 *wParam* 所指定的數位。</span><span class="sxs-lookup"><span data-stu-id="9ab34-121">If *lParam* points to more than a single value, a tab stop will be set for each value in *lParam*, up to the number specified by *wParam*.</span></span>
 
-<span data-ttu-id="74578-122">*LParam* 所指定的值位於對話方塊範本單位中，也就是對話方塊範本中使用的裝置獨立單位。</span><span class="sxs-lookup"><span data-stu-id="74578-122">The values specified by *lParam* are in dialog template units, which are the device-independent units used in dialog box templates.</span></span> <span data-ttu-id="74578-123">若要將度量從對話方塊範本單位轉換為螢幕單位 (圖元) ，請使用 [**MapDialogRect**](/windows/desktop/api/winuser/nf-winuser-mapdialogrect) 函數。</span><span class="sxs-lookup"><span data-stu-id="74578-123">To convert measurements from dialog template units to screen units (pixels), use the [**MapDialogRect**](/windows/desktop/api/winuser/nf-winuser-mapdialogrect) function.</span></span>
+<span data-ttu-id="9ab34-122">*LParam* 所指定的值位於對話方塊範本單位中，也就是對話方塊範本中使用的裝置獨立單位。</span><span class="sxs-lookup"><span data-stu-id="9ab34-122">The values specified by *lParam* are in dialog template units, which are the device-independent units used in dialog box templates.</span></span> <span data-ttu-id="9ab34-123">若要將度量從對話方塊範本單位轉換為螢幕單位 (圖元) ，請使用 [**MapDialogRect**](/windows/desktop/api/winuser/nf-winuser-mapdialogrect) 函數。</span><span class="sxs-lookup"><span data-stu-id="9ab34-123">To convert measurements from dialog template units to screen units (pixels), use the [**MapDialogRect**](/windows/desktop/api/winuser/nf-winuser-mapdialogrect) function.</span></span>
 
-<span data-ttu-id="74578-124">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *LParam* 所指向的緩衝區必須位於可寫入的記憶體中，即使訊息並未修改陣列也是一樣。</span><span class="sxs-lookup"><span data-stu-id="74578-124">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The buffer pointed to by *lParam* must reside in writable memory, even though the message does not modify the array.</span></span>
+<span data-ttu-id="9ab34-124">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *LParam* 所指向的緩衝區必須位於可寫入的記憶體中，即使訊息並未修改陣列也是一樣。</span><span class="sxs-lookup"><span data-stu-id="9ab34-124">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The buffer pointed to by *lParam* must reside in writable memory, even though the message does not modify the array.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="74578-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="74578-125">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9ab34-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="9ab34-125">Requirements</span></span>
 
 
 
-| <span data-ttu-id="74578-126">需求</span><span class="sxs-lookup"><span data-stu-id="74578-126">Requirement</span></span> | <span data-ttu-id="74578-127">值</span><span class="sxs-lookup"><span data-stu-id="74578-127">Value</span></span> |
+| <span data-ttu-id="9ab34-126">需求</span><span class="sxs-lookup"><span data-stu-id="9ab34-126">Requirement</span></span> | <span data-ttu-id="9ab34-127">值</span><span class="sxs-lookup"><span data-stu-id="9ab34-127">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="74578-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="74578-128">Minimum supported client</span></span><br/> | <span data-ttu-id="74578-129">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="74578-129">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="74578-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="74578-130">Minimum supported server</span></span><br/> | <span data-ttu-id="74578-131">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="74578-131">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="74578-132">標頭</span><span class="sxs-lookup"><span data-stu-id="74578-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="74578-133"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="74578-133"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="9ab34-128">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9ab34-128">Minimum supported client</span></span><br/> | <span data-ttu-id="9ab34-129">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9ab34-129">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="9ab34-130">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9ab34-130">Minimum supported server</span></span><br/> | <span data-ttu-id="9ab34-131">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9ab34-131">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="9ab34-132">標頭</span><span class="sxs-lookup"><span data-stu-id="9ab34-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="9ab34-133"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="9ab34-133"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="74578-134">另請參閱</span><span class="sxs-lookup"><span data-stu-id="74578-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9ab34-134">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9ab34-134">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="74578-135">**MapDialogRect**</span><span class="sxs-lookup"><span data-stu-id="74578-135">**MapDialogRect**</span></span>](/windows/desktop/api/winuser/nf-winuser-mapdialogrect)
+[<span data-ttu-id="9ab34-135">**MapDialogRect**</span><span class="sxs-lookup"><span data-stu-id="9ab34-135">**MapDialogRect**</span></span>](/windows/desktop/api/winuser/nf-winuser-mapdialogrect)
 </dt> </dl>
 
  
