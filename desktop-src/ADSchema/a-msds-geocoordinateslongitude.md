@@ -1,0 +1,75 @@
+---
+title: GeoCoordinates-經度屬性
+description: 定位服務的地理座標，具體而言，是指 microdegrees) 的辦公室或會議室 (的經度。
+ms.assetid: e2ac1833-9a5f-42fb-b338-e26937419f69
+ms.tgt_platform: multiple
+keywords:
+- GeoCoordinates-經度屬性 AD 架構
+- GeoCoordinatesLongitude 屬性 AD 架構
+topic_type:
+- apiref
+api_name:
+- ms-DS-GeoCoordinates-Longitude
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 036ff3b4088413f8641028c9c76e708a9a47c2ea
+ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "103845495"
+---
+# <a name="ms-ds-geocoordinates-longitude-attribute"></a>GeoCoordinates-經度屬性
+
+定位服務的地理座標，具體而言，是指 microdegrees) 的辦公室或會議室 (的經度。
+
+
+
+| 進入 | 值 |
+|-------------------|--------------------------------------|
+| CN                | GeoCoordinates-經度       |
+| Ldap-顯示名稱 | GeoCoordinatesLongitude         |
+| 大小              | \-                                   |
+| 更新許可權  | \-                                   |
+| 更新頻率  | \-                                   |
+| Attribute-Id      | 1.2.840.113556.1.4.2185              |
+| 系統識別碼-Guid    | 94c42110-bae4-4cea-8577-af813af5da25 |
+| Syntax            | [**間隔**](s-interval.md)       |
+
+
+
+## <a name="implementations"></a>實作
+
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## <a name="windows-server-2012"></a>Windows Server 2012
+
+
+
+| 進入 | 值 |
+|------------------------|------------------------------------------------------|
+| 連結識別碼                | \-                                                   |
+| MAPI-Id                | \-                                                   |
+| System-Only            | 否                                                |
+| 是-單一值       | 對                                                 |
+| 已編制索引             | 對                                                 |
+| 在通用類別目錄中      | 否                                                |
+| NT-Security-描述元 | O:BAG：不正確： S：                                         |
+| Range-Lower            | \-                                                   |
+| Range-Upper            | \-                                                   |
+| Search-Flags           | 0x00000001                                           |
+| System-Flags           | 0x00000000                                           |
+| 中使用的類別        | [**郵件收件者**](c-mailrecipient.md)<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+
