@@ -35,14 +35,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852831"
 ---
-# <a name="jet_pfndurablecommitcallback-delegate"></a><span data-ttu-id="1ef68-103">JET_PFNDURABLECOMMITCALLBACK 委派</span><span class="sxs-lookup"><span data-stu-id="1ef68-103">JET_PFNDURABLECOMMITCALLBACK delegate</span></span>
+# <a name="jet_pfndurablecommitcallback-delegate"></a><span data-ttu-id="d004d-103">JET_PFNDURABLECOMMITCALLBACK 委派</span><span class="sxs-lookup"><span data-stu-id="d004d-103">JET_PFNDURABLECOMMITCALLBACK delegate</span></span>
 
-<span data-ttu-id="1ef68-104">JET_paramDurableCommitCallback 的回呼。</span><span class="sxs-lookup"><span data-stu-id="1ef68-104">Callback for JET_paramDurableCommitCallback.</span></span>
+<span data-ttu-id="d004d-104">JET_paramDurableCommitCallback 的回呼。</span><span class="sxs-lookup"><span data-stu-id="d004d-104">Callback for JET_paramDurableCommitCallback.</span></span>
 
-<span data-ttu-id="1ef68-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="1ef68-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="1ef68-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="1ef68-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="d004d-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="d004d-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="d004d-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="d004d-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1ef68-107">語法</span><span class="sxs-lookup"><span data-stu-id="1ef68-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d004d-107">語法</span><span class="sxs-lookup"><span data-stu-id="d004d-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -63,33 +63,33 @@ public delegate JET_err JET_PFNDURABLECOMMITCALLBACK(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="1ef68-108">參數</span><span class="sxs-lookup"><span data-stu-id="1ef68-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="d004d-108">參數</span><span class="sxs-lookup"><span data-stu-id="d004d-108">Parameters</span></span>
 
-  - <span data-ttu-id="1ef68-109">instance</span><span class="sxs-lookup"><span data-stu-id="1ef68-109">instance</span></span>  
-    <span data-ttu-id="1ef68-110">類型： [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span><span class="sxs-lookup"><span data-stu-id="1ef68-110">Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span></span>  
+  - <span data-ttu-id="d004d-109">instance</span><span class="sxs-lookup"><span data-stu-id="d004d-109">instance</span></span>  
+    <span data-ttu-id="d004d-110">類型： [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span><span class="sxs-lookup"><span data-stu-id="d004d-110">Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span></span>  
     
-    <span data-ttu-id="1ef68-111">要使用的實例。</span><span class="sxs-lookup"><span data-stu-id="1ef68-111">Instance to use.</span></span>
+    <span data-ttu-id="d004d-111">要使用的實例。</span><span class="sxs-lookup"><span data-stu-id="d004d-111">Instance to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1ef68-112">pCommitIdSeen</span><span class="sxs-lookup"><span data-stu-id="1ef68-112">pCommitIdSeen</span></span>  
-    <span data-ttu-id="1ef68-113">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span><span class="sxs-lookup"><span data-stu-id="1ef68-113">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span></span>  
+  - <span data-ttu-id="d004d-112">pCommitIdSeen</span><span class="sxs-lookup"><span data-stu-id="d004d-112">pCommitIdSeen</span></span>  
+    <span data-ttu-id="d004d-113">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span><span class="sxs-lookup"><span data-stu-id="d004d-113">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)</span></span>  
     
-    <span data-ttu-id="1ef68-114">剛排清的認可識別碼。</span><span class="sxs-lookup"><span data-stu-id="1ef68-114">Commit-id that has just been flushed.</span></span>
+    <span data-ttu-id="d004d-114">剛排清的認可識別碼。</span><span class="sxs-lookup"><span data-stu-id="d004d-114">Commit-id that has just been flushed.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="1ef68-115">grbit</span><span class="sxs-lookup"><span data-stu-id="1ef68-115">grbit</span></span>  
-    <span data-ttu-id="1ef68-116">型別： [Windows8. DurableCommitCallbackGrbit](./durablecommitcallbackgrbit-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="1ef68-116">Type: [Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallbackGrbit](./durablecommitcallbackgrbit-enumeration.md)</span></span>  
+  - <span data-ttu-id="d004d-115">grbit</span><span class="sxs-lookup"><span data-stu-id="d004d-115">grbit</span></span>  
+    <span data-ttu-id="d004d-116">型別： [Windows8. DurableCommitCallbackGrbit](./durablecommitcallbackgrbit-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="d004d-116">Type: [Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallbackGrbit](./durablecommitcallbackgrbit-enumeration.md)</span></span>  
     
-    <span data-ttu-id="1ef68-117">目前已保留。</span><span class="sxs-lookup"><span data-stu-id="1ef68-117">Reserved currently.</span></span>
+    <span data-ttu-id="d004d-117">目前已保留。</span><span class="sxs-lookup"><span data-stu-id="d004d-117">Reserved currently.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="1ef68-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="1ef68-118">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="d004d-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="d004d-118">Return value</span></span>
 
-<span data-ttu-id="1ef68-119">類型： [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="1ef68-119">Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)</span></span>  
+<span data-ttu-id="d004d-119">類型： [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="d004d-119">Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="1ef68-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1ef68-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d004d-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d004d-120">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="1ef68-121">參考</span><span class="sxs-lookup"><span data-stu-id="1ef68-121">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="d004d-121">參考</span><span class="sxs-lookup"><span data-stu-id="d004d-121">Reference</span></span>
 
-[<span data-ttu-id="1ef68-122">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="1ef68-122">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="d004d-122">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="d004d-122">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

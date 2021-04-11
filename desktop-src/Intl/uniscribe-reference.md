@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945425"
 ---
-# <a name="uniscribe-reference"></a><span data-ttu-id="bf022-103">Uniscribe 參考</span><span class="sxs-lookup"><span data-stu-id="bf022-103">Uniscribe Reference</span></span>
+# <a name="uniscribe-reference"></a><span data-ttu-id="bceba-103">Uniscribe 參考</span><span class="sxs-lookup"><span data-stu-id="bceba-103">Uniscribe Reference</span></span>
 
-<span data-ttu-id="bf022-104">下列元素與 Uniscribe 印刷樣式和複雜的腳本處理相關聯：</span><span class="sxs-lookup"><span data-stu-id="bf022-104">The following elements are associated with Uniscribe typography and complex script processing:</span></span>
+<span data-ttu-id="bceba-104">下列元素與 Uniscribe 印刷樣式和複雜的腳本處理相關聯：</span><span class="sxs-lookup"><span data-stu-id="bceba-104">The following elements are associated with Uniscribe typography and complex script processing:</span></span>
 
--   [<span data-ttu-id="bf022-105">Uniscribe 函式</span><span class="sxs-lookup"><span data-stu-id="bf022-105">Uniscribe Functions</span></span>](uniscribe-functions.md)
--   [<span data-ttu-id="bf022-106">Uniscribe 結構</span><span class="sxs-lookup"><span data-stu-id="bf022-106">Uniscribe Structures</span></span>](uniscribe-structures.md)
--   [<span data-ttu-id="bf022-107">Uniscribe 列舉類型</span><span class="sxs-lookup"><span data-stu-id="bf022-107">Uniscribe Enumeration Types</span></span>](uniscribe-enumeration-types.md)
+-   [<span data-ttu-id="bceba-105">Uniscribe 函式</span><span class="sxs-lookup"><span data-stu-id="bceba-105">Uniscribe Functions</span></span>](uniscribe-functions.md)
+-   [<span data-ttu-id="bceba-106">Uniscribe 結構</span><span class="sxs-lookup"><span data-stu-id="bceba-106">Uniscribe Structures</span></span>](uniscribe-structures.md)
+-   [<span data-ttu-id="bceba-107">Uniscribe 列舉類型</span><span class="sxs-lookup"><span data-stu-id="bceba-107">Uniscribe Enumeration Types</span></span>](uniscribe-enumeration-types.md)
 
  
 

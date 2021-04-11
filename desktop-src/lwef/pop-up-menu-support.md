@@ -1,0 +1,32 @@
+---
+title: 快顯功能表支援
+description: 快顯功能表支援
+ms.assetid: a8a1cf91-c18a-497f-89a7-b47536eaca0a
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 890d7eab6595200cb00e8422644b10f39807bab2
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "104315037"
+---
+# <a name="pop-up-menu-support"></a><span data-ttu-id="7871b-103">快顯功能表支援</span><span class="sxs-lookup"><span data-stu-id="7871b-103">Pop-up Menu Support</span></span>
+
+<span data-ttu-id="7871b-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="7871b-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+
+<span data-ttu-id="7871b-105">Microsoft Agent 包含一個快顯功能表 (也稱為每個字元的內容功能表) 。</span><span class="sxs-lookup"><span data-stu-id="7871b-105">Microsoft Agent includes a pop-up menu (also known as a contextual menu) for each character.</span></span> <span data-ttu-id="7871b-106">當使用者以滑鼠右鍵按一下該字元時，伺服器會自動顯示此快顯功能表。</span><span class="sxs-lookup"><span data-stu-id="7871b-106">The server displays this pop-up menu automatically when a user right-clicks the character.</span></span> <span data-ttu-id="7871b-107">您可以藉由定義 [**命令**](/windows/desktop/lwef/the-commands-collection-object) 集合，將用戶端應用程式的命令新增至功能表中。</span><span class="sxs-lookup"><span data-stu-id="7871b-107">You can add commands for your client application to the menu by defining a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.</span></span> <span data-ttu-id="7871b-108">針對您定義之集合中的每個命令，您可以指定 [**標題**](caption-property.md) 和 [**可見**](visible-property.md) 的屬性。</span><span class="sxs-lookup"><span data-stu-id="7871b-108">For each command in the collection that you define, you can specify [**Caption**](caption-property.md) and [**Visible**](visible-property.md) properties.</span></span> <span data-ttu-id="7871b-109">當 **Visible** 屬性設定為 **True** 時，**標題** 就是出現在功能表中的文字。</span><span class="sxs-lookup"><span data-stu-id="7871b-109">The **Caption** is the text that appears in the menu when the **Visible** property is set to **True**.</span></span> <span data-ttu-id="7871b-110">您也可以使用 [ [**已啟用**](enabled-property.md) ] 屬性，在功能表中顯示 [已停用] 和 [啟用] 的命令 [**，以支援**](helpcontextid-property.md) 屬性的協助支援。</span><span class="sxs-lookup"><span data-stu-id="7871b-110">You can also use the [**Enabled**](enabled-property.md) property to display the command in the menu as disabled and the [**HelpContextID**](helpcontextid-property.md) to support Help support for the property.</span></span> <span data-ttu-id="7871b-111">藉由在 **標題** 文字設定的文字字元前面加上連字號 (&) ，定義功能表文字的存取金鑰。</span><span class="sxs-lookup"><span data-stu-id="7871b-111">Define the access key for the menu text by including an ampersand (&) before the text character of the **Caption** text setting.</span></span>
+
+<span data-ttu-id="7871b-112">伺服器會自動加入功能表命令以開啟 [語音命令] 視窗，並隱藏字元以及字元其他用戶端的 [**命令**](/windows/desktop/lwef/the-commands-collection-object) 標題，讓使用者能夠在用戶端之間切換。</span><span class="sxs-lookup"><span data-stu-id="7871b-112">The server automatically adds to the menu commands for opening the Voice Commands Window and hiding the character as well as the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) captions of other clients of the character to enable users to switch between clients.</span></span> <span data-ttu-id="7871b-113">伺服器會自動在功能表項目和用戶端所定義的功能表項目之間，新增分隔符號。</span><span class="sxs-lookup"><span data-stu-id="7871b-113">The server automatically adds a separator to the menu between its menu entries and those defined by the client.</span></span> <span data-ttu-id="7871b-114">只有當功能表中有要分隔的專案時，才會顯示分隔符號。</span><span class="sxs-lookup"><span data-stu-id="7871b-114">Separators appear only when there are items in the menu to separate.</span></span>
+
+<span data-ttu-id="7871b-115">若要移除功能表中的命令，請使用 [**remove**](remove-method.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="7871b-115">To remove commands from a menu, use the [**Remove**](remove-method.md) method.</span></span> <span data-ttu-id="7871b-116">請注意，功能表項目在顯示時不會變更。</span><span class="sxs-lookup"><span data-stu-id="7871b-116">Note that menu entries do not change while the menu displays.</span></span> <span data-ttu-id="7871b-117">如果您新增或移除命令或變更其屬性，當使用者重新顯示功能表時，功能表會顯示變更。</span><span class="sxs-lookup"><span data-stu-id="7871b-117">If you add or remove commands or change their properties, the menu displays the changes when the user redisplays the menu.</span></span>
+
+<span data-ttu-id="7871b-118">如果您想要為某個字元提供自己的快顯功能表服務，可以使用 [**AutoPopupMenu**](autopopupmenu-property.md) 屬性來關閉以滑鼠右鍵按一下動作的伺服器處理。</span><span class="sxs-lookup"><span data-stu-id="7871b-118">If you prefer to provide your own pop-up menu services for a character, you can use the [**AutoPopupMenu**](autopopupmenu-property.md) property to turn off server handling of the right-click action.</span></span> <span data-ttu-id="7871b-119">然後，您可以使用 [**Click**](click-event.md) 事件通知來建立您自己的功能表處理行為。</span><span class="sxs-lookup"><span data-stu-id="7871b-119">You can then use the [**Click**](click-event.md) event notification to create your own menu handling behavior.</span></span>
+
+<span data-ttu-id="7871b-120">當使用者從字元的快顯功能表或 [語音命令] 視窗中選取命令時，伺服器會觸發相關聯用戶端的 [**命令**](command-event.md) 事件，並使用 [**userinput>**](/windows/desktop/lwef/iagentuserinput) 物件傳回輸入的參數。</span><span class="sxs-lookup"><span data-stu-id="7871b-120">When the user selects a command from a character's pop-up menu or the Voice Commands Window, the server triggers the [**Command**](command-event.md) event of the associated client and passes back the parameters of the input using the [**UserInput**](/windows/desktop/lwef/iagentuserinput) object.</span></span>
+
+<span data-ttu-id="7871b-121">伺服器也會為字元的工作列圖示提供快顯功能表。</span><span class="sxs-lookup"><span data-stu-id="7871b-121">The server also provides a pop-up menu for the character's taskbar icon.</span></span> <span data-ttu-id="7871b-122">當字元可見時，在此功能表上按一下滑鼠右鍵，即可顯示與以滑鼠右鍵按一下字元所顯示的相同命令。</span><span class="sxs-lookup"><span data-stu-id="7871b-122">When the character is visible, right-clicking this menu displays the same commands as those displayed by right-clicking the character.</span></span> <span data-ttu-id="7871b-123">不過，隱藏字元時，只會包含伺服器提供的命令。</span><span class="sxs-lookup"><span data-stu-id="7871b-123">However, when the character is hidden, only the server-supplied commands are included.</span></span>
+
+ 
+
+ 
