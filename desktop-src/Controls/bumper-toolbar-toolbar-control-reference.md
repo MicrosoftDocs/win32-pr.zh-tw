@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853911"
 ---
-# <a name="toolbar-control-reference"></a><span data-ttu-id="4faea-103">Toolbar 控制項參考</span><span class="sxs-lookup"><span data-stu-id="4faea-103">Toolbar Control Reference</span></span>
+# <a name="toolbar-control-reference"></a><span data-ttu-id="770ea-103">Toolbar 控制項參考</span><span class="sxs-lookup"><span data-stu-id="770ea-103">Toolbar Control Reference</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="4faea-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="4faea-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="770ea-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="770ea-104">In This Section</span></span>
 
--   [<span data-ttu-id="4faea-105">Toolbar 控制項函數</span><span class="sxs-lookup"><span data-stu-id="4faea-105">Toolbar Control Functions</span></span>](bumper-toolbar-control-reference-functions.md)
--   [<span data-ttu-id="4faea-106">Toolbar 控制項訊息</span><span class="sxs-lookup"><span data-stu-id="4faea-106">Toolbar Control Messages</span></span>](bumper-toolbar-control-reference-messages.md)
--   [<span data-ttu-id="4faea-107">Toolbar 控制項通知</span><span class="sxs-lookup"><span data-stu-id="4faea-107">Toolbar Control Notifications</span></span>](bumper-toolbar-control-reference-notifications.md)
--   [<span data-ttu-id="4faea-108">Toolbar 控制項結構</span><span class="sxs-lookup"><span data-stu-id="4faea-108">Toolbar Control Structures</span></span>](bumper-toolbar-control-reference-structures.md)
--   [<span data-ttu-id="4faea-109">Toolbar 控制項常數</span><span class="sxs-lookup"><span data-stu-id="4faea-109">Toolbar Control Constants</span></span>](bumper-toolbar-control-reference-constants.md)
+-   [<span data-ttu-id="770ea-105">Toolbar 控制項函數</span><span class="sxs-lookup"><span data-stu-id="770ea-105">Toolbar Control Functions</span></span>](bumper-toolbar-control-reference-functions.md)
+-   [<span data-ttu-id="770ea-106">Toolbar 控制項訊息</span><span class="sxs-lookup"><span data-stu-id="770ea-106">Toolbar Control Messages</span></span>](bumper-toolbar-control-reference-messages.md)
+-   [<span data-ttu-id="770ea-107">Toolbar 控制項通知</span><span class="sxs-lookup"><span data-stu-id="770ea-107">Toolbar Control Notifications</span></span>](bumper-toolbar-control-reference-notifications.md)
+-   [<span data-ttu-id="770ea-108">Toolbar 控制項結構</span><span class="sxs-lookup"><span data-stu-id="770ea-108">Toolbar Control Structures</span></span>](bumper-toolbar-control-reference-structures.md)
+-   [<span data-ttu-id="770ea-109">Toolbar 控制項常數</span><span class="sxs-lookup"><span data-stu-id="770ea-109">Toolbar Control Constants</span></span>](bumper-toolbar-control-reference-constants.md)
 
  
 

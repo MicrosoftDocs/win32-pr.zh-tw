@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853888"
 ---
-# <a name="glevalpoint1-function"></a><span data-ttu-id="66e58-105">glEvalPoint1 函式</span><span class="sxs-lookup"><span data-stu-id="66e58-105">glEvalPoint1 function</span></span>
+# <a name="glevalpoint1-function"></a><span data-ttu-id="99a9b-105">glEvalPoint1 函式</span><span class="sxs-lookup"><span data-stu-id="99a9b-105">glEvalPoint1 function</span></span>
 
-<span data-ttu-id="66e58-106">[**GlEvalPoint1**](glevalpoint.md)和 **glEvalPoint2** 函數會產生和評估網格中的單一點。</span><span class="sxs-lookup"><span data-stu-id="66e58-106">The [**glEvalPoint1**](glevalpoint.md) and **glEvalPoint2** functions generate and evaluate a single point in a mesh.</span></span>
+<span data-ttu-id="99a9b-106">[**GlEvalPoint1**](glevalpoint.md)和 **glEvalPoint2** 函數會產生和評估網格中的單一點。</span><span class="sxs-lookup"><span data-stu-id="99a9b-106">The [**glEvalPoint1**](glevalpoint.md) and **glEvalPoint2** functions generate and evaluate a single point in a mesh.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="66e58-107">語法</span><span class="sxs-lookup"><span data-stu-id="66e58-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="99a9b-107">語法</span><span class="sxs-lookup"><span data-stu-id="99a9b-107">Syntax</span></span>
 
 
 ```C++
@@ -36,89 +36,89 @@ void glEvalPoint1(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="66e58-108">參數</span><span class="sxs-lookup"><span data-stu-id="66e58-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="99a9b-108">參數</span><span class="sxs-lookup"><span data-stu-id="99a9b-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="66e58-109">*i*</span><span class="sxs-lookup"><span data-stu-id="66e58-109">*i*</span></span> 
+<span data-ttu-id="99a9b-109">*i*</span><span class="sxs-lookup"><span data-stu-id="99a9b-109">*i*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="66e58-110">方格網域變數 *i* 的整數值。</span><span class="sxs-lookup"><span data-stu-id="66e58-110">The integer value for grid domain variable *i*.</span></span>
+<span data-ttu-id="99a9b-110">方格網域變數 *i* 的整數值。</span><span class="sxs-lookup"><span data-stu-id="99a9b-110">The integer value for grid domain variable *i*.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="66e58-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="66e58-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="99a9b-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="99a9b-111">Return value</span></span>
 
-<span data-ttu-id="66e58-112">此函式不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="66e58-112">This function does not return a value.</span></span>
+<span data-ttu-id="99a9b-112">此函式不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="99a9b-112">This function does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="66e58-113">備註</span><span class="sxs-lookup"><span data-stu-id="66e58-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="99a9b-113">備註</span><span class="sxs-lookup"><span data-stu-id="99a9b-113">Remarks</span></span>
 
-<span data-ttu-id="66e58-114">[**GlMapGrid**](glmapgrid-functions.md)和 [**glEvalMesh**](glevalmesh-functions.md)函式會以串聯方式使用，以有效率地產生和評估一連串的平均地圖定義域值。</span><span class="sxs-lookup"><span data-stu-id="66e58-114">The [**glMapGrid**](glmapgrid-functions.md) and [**glEvalMesh**](glevalmesh-functions.md) functions are used in tandem to efficiently generate and evaluate a series of evenly spaced map domain values.</span></span> <span data-ttu-id="66e58-115">您可以使用 **glEvalPoint** 來評估 **glEvalMesh** 所進行的相同 gridspace 中的單一方格點。</span><span class="sxs-lookup"><span data-stu-id="66e58-115">You can use **glEvalPoint** to evaluate a single grid point in the same gridspace that is traversed by **glEvalMesh**.</span></span> <span data-ttu-id="66e58-116">呼叫 [**glEvalPoint1**](glevalpoint.md) 相當於呼叫</span><span class="sxs-lookup"><span data-stu-id="66e58-116">Calling [**glEvalPoint1**](glevalpoint.md) is equivalent to calling</span></span>
+<span data-ttu-id="99a9b-114">[**GlMapGrid**](glmapgrid-functions.md)和 [**glEvalMesh**](glevalmesh-functions.md)函式會以串聯方式使用，以有效率地產生和評估一連串的平均地圖定義域值。</span><span class="sxs-lookup"><span data-stu-id="99a9b-114">The [**glMapGrid**](glmapgrid-functions.md) and [**glEvalMesh**](glevalmesh-functions.md) functions are used in tandem to efficiently generate and evaluate a series of evenly spaced map domain values.</span></span> <span data-ttu-id="99a9b-115">您可以使用 **glEvalPoint** 來評估 **glEvalMesh** 所進行的相同 gridspace 中的單一方格點。</span><span class="sxs-lookup"><span data-stu-id="99a9b-115">You can use **glEvalPoint** to evaluate a single grid point in the same gridspace that is traversed by **glEvalMesh**.</span></span> <span data-ttu-id="99a9b-116">呼叫 [**glEvalPoint1**](glevalpoint.md) 相當於呼叫</span><span class="sxs-lookup"><span data-stu-id="99a9b-116">Calling [**glEvalPoint1**](glevalpoint.md) is equivalent to calling</span></span>
 
-<span data-ttu-id="66e58-117">**glEvalCoord1** (*i* ？*u*  +*u* 1 ) ;</span><span class="sxs-lookup"><span data-stu-id="66e58-117">**glEvalCoord1** (*i* ?*u* +*u* 1 );</span></span>
+<span data-ttu-id="99a9b-117">**glEvalCoord1** (*i* ？*u*  +*u* 1 ) ;</span><span class="sxs-lookup"><span data-stu-id="99a9b-117">**glEvalCoord1** (*i* ?*u* +*u* 1 );</span></span>
 
-<span data-ttu-id="66e58-118">其中</span><span class="sxs-lookup"><span data-stu-id="66e58-118">where</span></span>
+<span data-ttu-id="99a9b-118">其中</span><span class="sxs-lookup"><span data-stu-id="99a9b-118">where</span></span>
 
-<span data-ttu-id="66e58-119">?*u* = (*u* 2 *u* 1 ) /*n*</span><span class="sxs-lookup"><span data-stu-id="66e58-119">?*u* = (*u* 2 *u* 1 )/*n*</span></span>
+<span data-ttu-id="99a9b-119">?*u* = (*u* 2 *u* 1 ) /*n*</span><span class="sxs-lookup"><span data-stu-id="99a9b-119">?*u* = (*u* 2 *u* 1 )/*n*</span></span>
 
-<span data-ttu-id="66e58-120">和 *n*、 *u* 1 和 *u* 2 是最近 **glMapGrid1** 函數的引數。</span><span class="sxs-lookup"><span data-stu-id="66e58-120">and *n*, *u* 1 , and *u* 2 are the arguments to the most recent **glMapGrid1** function.</span></span> <span data-ttu-id="66e58-121">其中一個絕對數值需求是，如果 *我* 是  =  *n*，則會從 (*i* 計算值？*u* + u1 ) 剛好是 *u* 2。</span><span class="sxs-lookup"><span data-stu-id="66e58-121">The one absolute numeric requirement is that if *i* = *n*, then the value computed from (*i* ?*u* + u1 ) is exactly *u* 2 .</span></span>
+<span data-ttu-id="99a9b-120">和 *n*、 *u* 1 和 *u* 2 是最近 **glMapGrid1** 函數的引數。</span><span class="sxs-lookup"><span data-stu-id="99a9b-120">and *n*, *u* 1 , and *u* 2 are the arguments to the most recent **glMapGrid1** function.</span></span> <span data-ttu-id="99a9b-121">其中一個絕對數值需求是，如果 *我* 是  =  *n*，則會從 (*i* 計算值？*u* + u1 ) 剛好是 *u* 2。</span><span class="sxs-lookup"><span data-stu-id="99a9b-121">The one absolute numeric requirement is that if *i* = *n*, then the value computed from (*i* ?*u* + u1 ) is exactly *u* 2 .</span></span>
 
-<span data-ttu-id="66e58-122">在二維案例中， **glEvalPoint2**，let</span><span class="sxs-lookup"><span data-stu-id="66e58-122">In the two-dimensional case, **glEvalPoint2**, let</span></span>
+<span data-ttu-id="99a9b-122">在二維案例中， **glEvalPoint2**，let</span><span class="sxs-lookup"><span data-stu-id="99a9b-122">In the two-dimensional case, **glEvalPoint2**, let</span></span>
 
-<span data-ttu-id="66e58-123">?*u* = (*u* 2 *u* 1 ) /*n*</span><span class="sxs-lookup"><span data-stu-id="66e58-123">?*u* = (*u* 2 *u* 1 )/*n*</span></span>
+<span data-ttu-id="99a9b-123">?*u* = (*u* 2 *u* 1 ) /*n*</span><span class="sxs-lookup"><span data-stu-id="99a9b-123">?*u* = (*u* 2 *u* 1 )/*n*</span></span>
 
-<span data-ttu-id="66e58-124">?*v* = (*v* 2 *v* 1 ) /*m*</span><span class="sxs-lookup"><span data-stu-id="66e58-124">?*v* = (*v* 2 *v* 1 )/*m*</span></span>
+<span data-ttu-id="99a9b-124">?*v* = (*v* 2 *v* 1 ) /*m*</span><span class="sxs-lookup"><span data-stu-id="99a9b-124">?*v* = (*v* 2 *v* 1 )/*m*</span></span>
 
-<span data-ttu-id="66e58-125">其中 *n*、 *u* 1、 *u* 2、 *m*、 *v* 1 和 *v* 2 是最新 **glMapGrid2** 函式的引數。</span><span class="sxs-lookup"><span data-stu-id="66e58-125">where *n*, *u* 1 , *u* 2 , *m*, *v* 1 , and *v* 2  are the arguments to the most recent **glMapGrid2** function.</span></span> <span data-ttu-id="66e58-126">然後， **glEvalPoint2** 函式相當於呼叫</span><span class="sxs-lookup"><span data-stu-id="66e58-126">Then the **glEvalPoint2** function is equivalent to calling</span></span>
+<span data-ttu-id="99a9b-125">其中 *n*、 *u* 1、 *u* 2、 *m*、 *v* 1 和 *v* 2 是最新 **glMapGrid2** 函式的引數。</span><span class="sxs-lookup"><span data-stu-id="99a9b-125">where *n*, *u* 1 , *u* 2 , *m*, *v* 1 , and *v* 2  are the arguments to the most recent **glMapGrid2** function.</span></span> <span data-ttu-id="99a9b-126">然後， **glEvalPoint2** 函式相當於呼叫</span><span class="sxs-lookup"><span data-stu-id="99a9b-126">Then the **glEvalPoint2** function is equivalent to calling</span></span>
 
-<span data-ttu-id="66e58-127">**glEvalCoord2** (*i* ？*u*  + *u* 1、 *j* ？*v*  + *v* 1 ) ;</span><span class="sxs-lookup"><span data-stu-id="66e58-127">**glEvalCoord2** (*i* ?*u* + *u* 1 , *j* ?*v* + *v* 1 );</span></span>
+<span data-ttu-id="99a9b-127">**glEvalCoord2** (*i* ？*u*  + *u* 1、 *j* ？*v*  + *v* 1 ) ;</span><span class="sxs-lookup"><span data-stu-id="99a9b-127">**glEvalCoord2** (*i* ?*u* + *u* 1 , *j* ?*v* + *v* 1 );</span></span>
 
-<span data-ttu-id="66e58-128">唯一的絕對數值需求是，如果 *我* 是 = *n*，則會從 (*i* 計算值？*u*  +  *u* 1 ) 完全是 u2，如果是 *j*  =  *m*，則是從 (*j* 計算的值？*v v*  +  \*\* 1 ) 正好是 *v* 2。</span><span class="sxs-lookup"><span data-stu-id="66e58-128">The only absolute numeric requirements are that if *i*=*n*, then the value computed from (*i* ?*u* + *u* 1 ) is exactly u2 , and if *j* = *m*, then the value computed from (*j* ?*v* + *v* 1  ) is exactly *v* 2 .</span></span>
+<span data-ttu-id="99a9b-128">唯一的絕對數值需求是，如果 *我* 是 = *n*，則會從 (*i* 計算值？*u*  +  *u* 1 ) 完全是 u2，如果是 *j*  =  *m*，則是從 (*j* 計算的值？*v v*  +  \*\* 1 ) 正好是 *v* 2。</span><span class="sxs-lookup"><span data-stu-id="99a9b-128">The only absolute numeric requirements are that if *i*=*n*, then the value computed from (*i* ?*u* + *u* 1 ) is exactly u2 , and if *j* = *m*, then the value computed from (*j* ?*v* + *v* 1  ) is exactly *v* 2 .</span></span>
 
-<span data-ttu-id="66e58-129">下列函式會取得 [**glEvalPoint1**](glevalpoint.md) 和 **glEvalPoint2** 的相關資訊：</span><span class="sxs-lookup"><span data-stu-id="66e58-129">The following functions retrieve information relating to [**glEvalPoint1**](glevalpoint.md) and **glEvalPoint2**:</span></span>
+<span data-ttu-id="99a9b-129">下列函式會取得 [**glEvalPoint1**](glevalpoint.md) 和 **glEvalPoint2** 的相關資訊：</span><span class="sxs-lookup"><span data-stu-id="99a9b-129">The following functions retrieve information relating to [**glEvalPoint1**](glevalpoint.md) and **glEvalPoint2**:</span></span>
 
-<span data-ttu-id="66e58-130">[](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)具有引數 GL \_ MAP1 \_ 方格 \_ 網域的 glGet</span><span class="sxs-lookup"><span data-stu-id="66e58-130">[**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) with argument GL\_MAP1\_GRID\_DOMAIN</span></span>
+<span data-ttu-id="99a9b-130">[](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)具有引數 GL \_ MAP1 \_ 方格 \_ 網域的 glGet</span><span class="sxs-lookup"><span data-stu-id="99a9b-130">[**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) with argument GL\_MAP1\_GRID\_DOMAIN</span></span>
 
-<span data-ttu-id="66e58-131">具有引數 GL \_ list.map2 \_ 方格 \_ 網域的 glGet</span><span class="sxs-lookup"><span data-stu-id="66e58-131">**glGet** with argument GL\_MAP2\_GRID\_DOMAIN</span></span>
+<span data-ttu-id="99a9b-131">具有引數 GL \_ list.map2 \_ 方格 \_ 網域的 glGet</span><span class="sxs-lookup"><span data-stu-id="99a9b-131">**glGet** with argument GL\_MAP2\_GRID\_DOMAIN</span></span>
 
-<span data-ttu-id="66e58-132">具有引數 GL \_ MAP1 \_ 方格 \_ 區段的 glGet</span><span class="sxs-lookup"><span data-stu-id="66e58-132">**glGet** with argument GL\_MAP1\_GRID\_SEGMENTS</span></span>
+<span data-ttu-id="99a9b-132">具有引數 GL \_ MAP1 \_ 方格 \_ 區段的 glGet</span><span class="sxs-lookup"><span data-stu-id="99a9b-132">**glGet** with argument GL\_MAP1\_GRID\_SEGMENTS</span></span>
 
-<span data-ttu-id="66e58-133">具有引數 GL \_ list.map2 \_ 方格 \_ 區段的 glGet</span><span class="sxs-lookup"><span data-stu-id="66e58-133">**glGet** with argument GL\_MAP2\_GRID\_SEGMENTS</span></span>
+<span data-ttu-id="99a9b-133">具有引數 GL \_ list.map2 \_ 方格 \_ 區段的 glGet</span><span class="sxs-lookup"><span data-stu-id="99a9b-133">**glGet** with argument GL\_MAP2\_GRID\_SEGMENTS</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="66e58-134">規格需求</span><span class="sxs-lookup"><span data-stu-id="66e58-134">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="99a9b-134">規格需求</span><span class="sxs-lookup"><span data-stu-id="99a9b-134">Requirements</span></span>
 
 
 
-| <span data-ttu-id="66e58-135">需求</span><span class="sxs-lookup"><span data-stu-id="66e58-135">Requirement</span></span> | <span data-ttu-id="66e58-136">值</span><span class="sxs-lookup"><span data-stu-id="66e58-136">Value</span></span> |
+| <span data-ttu-id="99a9b-135">需求</span><span class="sxs-lookup"><span data-stu-id="99a9b-135">Requirement</span></span> | <span data-ttu-id="99a9b-136">值</span><span class="sxs-lookup"><span data-stu-id="99a9b-136">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="66e58-137">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="66e58-137">Minimum supported client</span></span><br/> | <span data-ttu-id="66e58-138">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="66e58-138">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                              |
-| <span data-ttu-id="66e58-139">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="66e58-139">Minimum supported server</span></span><br/> | <span data-ttu-id="66e58-140">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="66e58-140">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="66e58-141">標頭</span><span class="sxs-lookup"><span data-stu-id="66e58-141">Header</span></span><br/>                   | <dl> <span data-ttu-id="66e58-142"><dt>Gl</dt></span><span class="sxs-lookup"><span data-stu-id="66e58-142"><dt>Gl.h</dt></span></span> </dl>         |
-| <span data-ttu-id="66e58-143">程式庫</span><span class="sxs-lookup"><span data-stu-id="66e58-143">Library</span></span><br/>                  | <dl> <span data-ttu-id="66e58-144"><dt>Opengl32 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="66e58-144"><dt>Opengl32.lib</dt></span></span> </dl> |
-| <span data-ttu-id="66e58-145">DLL</span><span class="sxs-lookup"><span data-stu-id="66e58-145">DLL</span></span><br/>                      | <dl> <span data-ttu-id="66e58-146"><dt>Opengl32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="66e58-146"><dt>Opengl32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="99a9b-137">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="99a9b-137">Minimum supported client</span></span><br/> | <span data-ttu-id="99a9b-138">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="99a9b-138">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                              |
+| <span data-ttu-id="99a9b-139">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="99a9b-139">Minimum supported server</span></span><br/> | <span data-ttu-id="99a9b-140">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="99a9b-140">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="99a9b-141">標頭</span><span class="sxs-lookup"><span data-stu-id="99a9b-141">Header</span></span><br/>                   | <dl> <span data-ttu-id="99a9b-142"><dt>Gl</dt></span><span class="sxs-lookup"><span data-stu-id="99a9b-142"><dt>Gl.h</dt></span></span> </dl>         |
+| <span data-ttu-id="99a9b-143">程式庫</span><span class="sxs-lookup"><span data-stu-id="99a9b-143">Library</span></span><br/>                  | <dl> <span data-ttu-id="99a9b-144"><dt>Opengl32 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="99a9b-144"><dt>Opengl32.lib</dt></span></span> </dl> |
+| <span data-ttu-id="99a9b-145">DLL</span><span class="sxs-lookup"><span data-stu-id="99a9b-145">DLL</span></span><br/>                      | <dl> <span data-ttu-id="99a9b-146"><dt>Opengl32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="99a9b-146"><dt>Opengl32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="66e58-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="66e58-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="99a9b-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="99a9b-147">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="66e58-148">**glEvalCoord**</span><span class="sxs-lookup"><span data-stu-id="66e58-148">**glEvalCoord**</span></span>](glevalcoord-functions.md)
+[<span data-ttu-id="99a9b-148">**glEvalCoord**</span><span class="sxs-lookup"><span data-stu-id="99a9b-148">**glEvalCoord**</span></span>](glevalcoord-functions.md)
 </dt> <dt>
 
-[<span data-ttu-id="66e58-149">**glEvalMesh**</span><span class="sxs-lookup"><span data-stu-id="66e58-149">**glEvalMesh**</span></span>](glevalmesh-functions.md)
+[<span data-ttu-id="99a9b-149">**glEvalMesh**</span><span class="sxs-lookup"><span data-stu-id="99a9b-149">**glEvalMesh**</span></span>](glevalmesh-functions.md)
 </dt> <dt>
 
-[<span data-ttu-id="66e58-150">**glGet**</span><span class="sxs-lookup"><span data-stu-id="66e58-150">**glGet**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)
+[<span data-ttu-id="99a9b-150">**glGet**</span><span class="sxs-lookup"><span data-stu-id="99a9b-150">**glGet**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)
 </dt> <dt>
 
-[<span data-ttu-id="66e58-151">**glMap1**</span><span class="sxs-lookup"><span data-stu-id="66e58-151">**glMap1**</span></span>](glmap1.md)
+[<span data-ttu-id="99a9b-151">**glMap1**</span><span class="sxs-lookup"><span data-stu-id="99a9b-151">**glMap1**</span></span>](glmap1.md)
 </dt> <dt>
 
-[<span data-ttu-id="66e58-152">**glMap2**</span><span class="sxs-lookup"><span data-stu-id="66e58-152">**glMap2**</span></span>](glmap2.md)
+[<span data-ttu-id="99a9b-152">**glMap2**</span><span class="sxs-lookup"><span data-stu-id="99a9b-152">**glMap2**</span></span>](glmap2.md)
 </dt> <dt>
 
-[<span data-ttu-id="66e58-153">**glMapGrid**</span><span class="sxs-lookup"><span data-stu-id="66e58-153">**glMapGrid**</span></span>](glmapgrid-functions.md)
+[<span data-ttu-id="99a9b-153">**glMapGrid**</span><span class="sxs-lookup"><span data-stu-id="99a9b-153">**glMapGrid**</span></span>](glmapgrid-functions.md)
 </dt> </dl>
 
  

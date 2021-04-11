@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945405"
 ---
-# <a name="getsignercert"></a><span data-ttu-id="05cfd-103">GetSignerCert</span><span class="sxs-lookup"><span data-stu-id="05cfd-103">GetSignerCert</span></span>
+# <a name="getsignercert"></a><span data-ttu-id="07b10-103">GetSignerCert</span><span class="sxs-lookup"><span data-stu-id="07b10-103">GetSignerCert</span></span>
 
-<span data-ttu-id="05cfd-104">**GetSignerCert** 函式會進行 (列舉) [*憑證存放區*](../secgloss/c-gly.md)中的憑證，直到找到簽章金鑰的憑證為止。</span><span class="sxs-lookup"><span data-stu-id="05cfd-104">The **GetSignerCert** function goes through (enumerates) the certificates in a [*certificate store*](../secgloss/c-gly.md) until a certificate with a signature key is found.</span></span> <span data-ttu-id="05cfd-105">如果找到憑證，則會傳回憑證的指標。</span><span class="sxs-lookup"><span data-stu-id="05cfd-105">If a certificate is found, a pointer to the certificate is returned.</span></span> <span data-ttu-id="05cfd-106">這段程式碼示範：</span><span class="sxs-lookup"><span data-stu-id="05cfd-106">This code demonstrates:</span></span>
+<span data-ttu-id="07b10-104">**GetSignerCert** 函式會進行 (列舉) [*憑證存放區*](../secgloss/c-gly.md)中的憑證，直到找到簽章金鑰的憑證為止。</span><span class="sxs-lookup"><span data-stu-id="07b10-104">The **GetSignerCert** function goes through (enumerates) the certificates in a [*certificate store*](../secgloss/c-gly.md) until a certificate with a signature key is found.</span></span> <span data-ttu-id="07b10-105">如果找到憑證，則會傳回憑證的指標。</span><span class="sxs-lookup"><span data-stu-id="07b10-105">If a certificate is found, a pointer to the certificate is returned.</span></span> <span data-ttu-id="07b10-106">這段程式碼示範：</span><span class="sxs-lookup"><span data-stu-id="07b10-106">This code demonstrates:</span></span>
 
--   <span data-ttu-id="05cfd-107">尋找具有憑證屬性的憑證。</span><span class="sxs-lookup"><span data-stu-id="05cfd-107">Finding a certificate with a certificate property.</span></span>
--   <span data-ttu-id="05cfd-108">正在檢查該屬性。</span><span class="sxs-lookup"><span data-stu-id="05cfd-108">Checking that property.</span></span>
--   <span data-ttu-id="05cfd-109">傳回找到屬性的憑證 [**\_ 內容**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) 指標。</span><span class="sxs-lookup"><span data-stu-id="05cfd-109">Returning a pointer to the [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) where the attribute was found.</span></span>
+-   <span data-ttu-id="07b10-107">尋找具有憑證屬性的憑證。</span><span class="sxs-lookup"><span data-stu-id="07b10-107">Finding a certificate with a certificate property.</span></span>
+-   <span data-ttu-id="07b10-108">正在檢查該屬性。</span><span class="sxs-lookup"><span data-stu-id="07b10-108">Checking that property.</span></span>
+-   <span data-ttu-id="07b10-109">傳回找到屬性的憑證 [**\_ 內容**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) 指標。</span><span class="sxs-lookup"><span data-stu-id="07b10-109">Returning a pointer to the [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) where the attribute was found.</span></span>
 
-<span data-ttu-id="05cfd-110">此程式碼會使用名為 **MyHandleError** 的錯誤處理常式。</span><span class="sxs-lookup"><span data-stu-id="05cfd-110">This code uses an error handler called **MyHandleError**.</span></span> <span data-ttu-id="05cfd-111">若要查看此錯誤處理常式的執行，請參閱 [**MyHandleError**](myhandleerror.md) 主題。</span><span class="sxs-lookup"><span data-stu-id="05cfd-111">To view the implementation for this error handler, see the [**MyHandleError**](myhandleerror.md) topic.</span></span>
+<span data-ttu-id="07b10-110">此程式碼會使用名為 **MyHandleError** 的錯誤處理常式。</span><span class="sxs-lookup"><span data-stu-id="07b10-110">This code uses an error handler called **MyHandleError**.</span></span> <span data-ttu-id="07b10-111">若要查看此錯誤處理常式的執行，請參閱 [**MyHandleError**](myhandleerror.md) 主題。</span><span class="sxs-lookup"><span data-stu-id="07b10-111">To view the implementation for this error handler, see the [**MyHandleError**](myhandleerror.md) topic.</span></span>
 
 
 ```C++

@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103688008"
 ---
-# <a name="eastern-europe"></a><span data-ttu-id="2ffe0-103">東歐</span><span class="sxs-lookup"><span data-stu-id="2ffe0-103">Eastern Europe</span></span>
+# <a name="eastern-europe"></a><span data-ttu-id="bdb16-103">東歐</span><span class="sxs-lookup"><span data-stu-id="bdb16-103">Eastern Europe</span></span>
 
-<span data-ttu-id="2ffe0-104">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="2ffe0-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="bdb16-104">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="bdb16-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="2ffe0-105">東部歐洲資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="2ffe0-105">The frequency indexes in the Eastern Europe tables are not suitable for use as channel numbers.</span></span>
+<span data-ttu-id="bdb16-105">東部歐洲資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="bdb16-105">The frequency indexes in the Eastern Europe tables are not suitable for use as channel numbers.</span></span>
 
-### <a name="eastern-europe-broadcast-assignments"></a><span data-ttu-id="2ffe0-106">東部歐洲廣播指派</span><span class="sxs-lookup"><span data-stu-id="2ffe0-106">Eastern Europe Broadcast Assignments</span></span>
+### <a name="eastern-europe-broadcast-assignments"></a><span data-ttu-id="bdb16-106">東部歐洲廣播指派</span><span class="sxs-lookup"><span data-stu-id="bdb16-106">Eastern Europe Broadcast Assignments</span></span>
 
 
 ```C++
@@ -99,7 +99,7 @@ ms.locfileid: "103688008"
 
 
 
-### <a name="eastern-europe-cable-assignments"></a><span data-ttu-id="2ffe0-107">東部歐洲纜線指派</span><span class="sxs-lookup"><span data-stu-id="2ffe0-107">Eastern Europe Cable Assignments</span></span>
+### <a name="eastern-europe-cable-assignments"></a><span data-ttu-id="bdb16-107">東部歐洲纜線指派</span><span class="sxs-lookup"><span data-stu-id="bdb16-107">Eastern Europe Cable Assignments</span></span>
 
 
 ```C++
@@ -168,11 +168,11 @@ ms.locfileid: "103688008"
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="2ffe0-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="2ffe0-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bdb16-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="bdb16-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2ffe0-109">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="2ffe0-109">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="bdb16-109">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="bdb16-109">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  

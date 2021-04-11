@@ -11,27 +11,27 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/03/2021
 ms.locfileid: "103945588"
 ---
-# <a name="disablemedia"></a><span data-ttu-id="19295-103">DisableMedia</span><span class="sxs-lookup"><span data-stu-id="19295-103">DisableMedia</span></span>
+# <a name="disablemedia"></a><span data-ttu-id="54132-103">DisableMedia</span><span class="sxs-lookup"><span data-stu-id="54132-103">DisableMedia</span></span>
 
-<span data-ttu-id="19295-104">如果每個使用者的 [系統原則](system-policy.md) 設定為 "1"，則執行某項產品之維護安裝的使用者和系統管理員，將無法使用 [流覽] 對話方塊來流覽其他可安裝產品來源的媒體來源，例如 cd-rom。</span><span class="sxs-lookup"><span data-stu-id="19295-104">If this per-user [system policy](system-policy.md) is set to "1", users and administrators running a maintenance installation of one product are prevented from using the Browse Dialog to browse media sources, such as CD-ROM, for the sources of other installable products.</span></span> <span data-ttu-id="19295-105">無論是否以較高的許可權進行安裝，都會防止流覽其他產品。</span><span class="sxs-lookup"><span data-stu-id="19295-105">Browsing for other products is prevented regardless of whether the installation is done with elevated privileges.</span></span> <span data-ttu-id="19295-106">如果使用者已正確標示媒體來源，則使用者仍然可以從媒體重新安裝產品。</span><span class="sxs-lookup"><span data-stu-id="19295-106">It is still possible for the user to reinstall the product from media if the user has a correctly labeled media source.</span></span>
+<span data-ttu-id="54132-104">如果每個使用者的 [系統原則](system-policy.md) 設定為 "1"，則執行某項產品之維護安裝的使用者和系統管理員，將無法使用 [流覽] 對話方塊來流覽其他可安裝產品來源的媒體來源，例如 cd-rom。</span><span class="sxs-lookup"><span data-stu-id="54132-104">If this per-user [system policy](system-policy.md) is set to "1", users and administrators running a maintenance installation of one product are prevented from using the Browse Dialog to browse media sources, such as CD-ROM, for the sources of other installable products.</span></span> <span data-ttu-id="54132-105">無論是否以較高的許可權進行安裝，都會防止流覽其他產品。</span><span class="sxs-lookup"><span data-stu-id="54132-105">Browsing for other products is prevented regardless of whether the installation is done with elevated privileges.</span></span> <span data-ttu-id="54132-106">如果使用者已正確標示媒體來源，則使用者仍然可以從媒體重新安裝產品。</span><span class="sxs-lookup"><span data-stu-id="54132-106">It is still possible for the user to reinstall the product from media if the user has a correctly labeled media source.</span></span>
 
-## <a name="registry-key"></a><span data-ttu-id="19295-107">登錄金鑰</span><span class="sxs-lookup"><span data-stu-id="19295-107">Registry Key</span></span>
+## <a name="registry-key"></a><span data-ttu-id="54132-107">登錄金鑰</span><span class="sxs-lookup"><span data-stu-id="54132-107">Registry Key</span></span>
 
-<span data-ttu-id="19295-108">**HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**</span><span class="sxs-lookup"><span data-stu-id="19295-108">**HKEY\_CURRENT\_USER**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**Installer**</span></span>
+<span data-ttu-id="54132-108">**HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**</span><span class="sxs-lookup"><span data-stu-id="54132-108">**HKEY\_CURRENT\_USER**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**Installer**</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="19295-109">資料類型</span><span class="sxs-lookup"><span data-stu-id="19295-109">Data Type</span></span>
+## <a name="data-type"></a><span data-ttu-id="54132-109">資料類型</span><span class="sxs-lookup"><span data-stu-id="54132-109">Data Type</span></span>
 
-<span data-ttu-id="19295-110">**REG \_ DWORD**</span><span class="sxs-lookup"><span data-stu-id="19295-110">**REG\_DWORD**</span></span>
+<span data-ttu-id="54132-110">**REG \_ DWORD**</span><span class="sxs-lookup"><span data-stu-id="54132-110">**REG\_DWORD**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="19295-111">備註</span><span class="sxs-lookup"><span data-stu-id="19295-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="54132-111">備註</span><span class="sxs-lookup"><span data-stu-id="54132-111">Remarks</span></span>
 
-<span data-ttu-id="19295-112">請注意， [**DISABLEMEDIA**](-disablemedia.md) 屬性與 DISABLEMEDIA 原則的效果不同。</span><span class="sxs-lookup"><span data-stu-id="19295-112">Note that the [**DISABLEMEDIA**](-disablemedia.md) property has a different effect than the DisableMedia policy.</span></span> <span data-ttu-id="19295-113">設定 DisableMedia 系統原則，只會停用流覽至媒體來源。</span><span class="sxs-lookup"><span data-stu-id="19295-113">Setting the DisableMedia system policy, only disables browsing to media sources.</span></span> <span data-ttu-id="19295-114">設定 **DISABLEMEDIA** 屬性可防止安裝程式將任何媒體來源（例如 cd-rom）註冊為產品的有效來源。</span><span class="sxs-lookup"><span data-stu-id="19295-114">Setting the **DISABLEMEDIA** property prevents the installer from registering any media source, such as a CD-ROM, as a valid source for the product.</span></span> <span data-ttu-id="19295-115">但是，如果已啟用流覽，使用者仍可流覽至媒體來源。</span><span class="sxs-lookup"><span data-stu-id="19295-115">If browsing is enabled however, a user may still browse to a media source.</span></span>
+<span data-ttu-id="54132-112">請注意， [**DISABLEMEDIA**](-disablemedia.md) 屬性與 DISABLEMEDIA 原則的效果不同。</span><span class="sxs-lookup"><span data-stu-id="54132-112">Note that the [**DISABLEMEDIA**](-disablemedia.md) property has a different effect than the DisableMedia policy.</span></span> <span data-ttu-id="54132-113">設定 DisableMedia 系統原則，只會停用流覽至媒體來源。</span><span class="sxs-lookup"><span data-stu-id="54132-113">Setting the DisableMedia system policy, only disables browsing to media sources.</span></span> <span data-ttu-id="54132-114">設定 **DISABLEMEDIA** 屬性可防止安裝程式將任何媒體來源（例如 cd-rom）註冊為產品的有效來源。</span><span class="sxs-lookup"><span data-stu-id="54132-114">Setting the **DISABLEMEDIA** property prevents the installer from registering any media source, such as a CD-ROM, as a valid source for the product.</span></span> <span data-ttu-id="54132-115">但是，如果已啟用流覽，使用者仍可流覽至媒體來源。</span><span class="sxs-lookup"><span data-stu-id="54132-115">If browsing is enabled however, a user may still browse to a media source.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="19295-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="19295-116">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="54132-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="54132-116">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="19295-117">來源復原</span><span class="sxs-lookup"><span data-stu-id="19295-117">Source Resiliency</span></span>](source-resiliency.md)
+[<span data-ttu-id="54132-117">來源復原</span><span class="sxs-lookup"><span data-stu-id="54132-117">Source Resiliency</span></span>](source-resiliency.md)
 </dt> </dl>
 
  

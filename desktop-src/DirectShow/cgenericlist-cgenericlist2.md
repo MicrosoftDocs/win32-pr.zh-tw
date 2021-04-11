@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/16/2021
 ms.locfileid: "103854100"
 ---
-# <a name="cgenericlistcgenericlist-constructor-wxlisth---pname-parameter"></a><span data-ttu-id="4d535-104">CGenericList. CGenericList 函式 (Wxlist .h) -pName 參數</span><span class="sxs-lookup"><span data-stu-id="4d535-104">CGenericList.CGenericList constructor (Wxlist.h) - pName parameter</span></span>
+# <a name="cgenericlistcgenericlist-constructor-wxlisth---pname-parameter"></a><span data-ttu-id="6c862-104">CGenericList. CGenericList 函式 (Wxlist .h) -pName 參數</span><span class="sxs-lookup"><span data-stu-id="6c862-104">CGenericList.CGenericList constructor (Wxlist.h) - pName parameter</span></span>
 
-<span data-ttu-id="4d535-105">函式方法。</span><span class="sxs-lookup"><span data-stu-id="4d535-105">Constructor method.</span></span>
+<span data-ttu-id="6c862-105">函式方法。</span><span class="sxs-lookup"><span data-stu-id="6c862-105">Constructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4d535-106">語法</span><span class="sxs-lookup"><span data-stu-id="4d535-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6c862-106">語法</span><span class="sxs-lookup"><span data-stu-id="6c862-106">Syntax</span></span>
 
 
 ```C++
@@ -38,33 +38,33 @@ CGenericList(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="4d535-107">參數</span><span class="sxs-lookup"><span data-stu-id="4d535-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6c862-107">參數</span><span class="sxs-lookup"><span data-stu-id="6c862-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="4d535-108">*pName*</span><span class="sxs-lookup"><span data-stu-id="4d535-108">*pName*</span></span> 
+<span data-ttu-id="6c862-108">*pName*</span><span class="sxs-lookup"><span data-stu-id="6c862-108">*pName*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="4d535-109">清單名稱的指標。</span><span class="sxs-lookup"><span data-stu-id="4d535-109">Pointer to the name of the list.</span></span>
+<span data-ttu-id="6c862-109">清單名稱的指標。</span><span class="sxs-lookup"><span data-stu-id="6c862-109">Pointer to the name of the list.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="4d535-110">備註</span><span class="sxs-lookup"><span data-stu-id="4d535-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6c862-110">備註</span><span class="sxs-lookup"><span data-stu-id="6c862-110">Remarks</span></span>
 
-<span data-ttu-id="4d535-111">為了提高效率， `CGenericList` 類別會維護清單節點的快取。</span><span class="sxs-lookup"><span data-stu-id="4d535-111">For efficiency, the `CGenericList` class maintains a cache of list nodes.</span></span> <span data-ttu-id="4d535-112">此版本的函式會使用預設快取大小。</span><span class="sxs-lookup"><span data-stu-id="4d535-112">This version of the constructor uses a default cache size.</span></span>
+<span data-ttu-id="6c862-111">為了提高效率， `CGenericList` 類別會維護清單節點的快取。</span><span class="sxs-lookup"><span data-stu-id="6c862-111">For efficiency, the `CGenericList` class maintains a cache of list nodes.</span></span> <span data-ttu-id="6c862-112">此版本的函式會使用預設快取大小。</span><span class="sxs-lookup"><span data-stu-id="6c862-112">This version of the constructor uses a default cache size.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="4d535-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="4d535-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6c862-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="6c862-113">Requirements</span></span>
 
-| <span data-ttu-id="4d535-114">需求</span><span class="sxs-lookup"><span data-stu-id="4d535-114">Requirement</span></span> | <span data-ttu-id="4d535-115">值</span><span class="sxs-lookup"><span data-stu-id="4d535-115">Value</span></span> |
+| <span data-ttu-id="6c862-114">需求</span><span class="sxs-lookup"><span data-stu-id="6c862-114">Requirement</span></span> | <span data-ttu-id="6c862-115">值</span><span class="sxs-lookup"><span data-stu-id="6c862-115">Value</span></span> |
 |-|-|
-| <span data-ttu-id="4d535-116">標頭</span><span class="sxs-lookup"><span data-stu-id="4d535-116">Header</span></span> | <span data-ttu-id="4d535-117">Wxlist (包含： .h) </span><span class="sxs-lookup"><span data-stu-id="4d535-117">Wxlist.h (include Streams.h)</span></span> |
-| <span data-ttu-id="4d535-118">程式庫</span><span class="sxs-lookup"><span data-stu-id="4d535-118">Library</span></span>| <span data-ttu-id="4d535-119"> (零售組建的 Strmbase .lib) ;Strmbasd (debug 組建) </span><span class="sxs-lookup"><span data-stu-id="4d535-119">Strmbase.lib (retail builds); Strmbasd.lib (debug builds)</span></span> |
+| <span data-ttu-id="6c862-116">標頭</span><span class="sxs-lookup"><span data-stu-id="6c862-116">Header</span></span> | <span data-ttu-id="6c862-117">Wxlist (包含： .h) </span><span class="sxs-lookup"><span data-stu-id="6c862-117">Wxlist.h (include Streams.h)</span></span> |
+| <span data-ttu-id="6c862-118">程式庫</span><span class="sxs-lookup"><span data-stu-id="6c862-118">Library</span></span>| <span data-ttu-id="6c862-119"> (零售組建的 Strmbase .lib) ;Strmbasd (debug 組建) </span><span class="sxs-lookup"><span data-stu-id="6c862-119">Strmbase.lib (retail builds); Strmbasd.lib (debug builds)</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="4d535-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4d535-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6c862-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6c862-120">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4d535-121">**CGenericList 類別**</span><span class="sxs-lookup"><span data-stu-id="4d535-121">**CGenericList Class**</span></span>](cgenericlist.md)
+[<span data-ttu-id="6c862-121">**CGenericList 類別**</span><span class="sxs-lookup"><span data-stu-id="6c862-121">**CGenericList Class**</span></span>](cgenericlist.md)
 </dt> </dl>
 
  

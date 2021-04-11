@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103945955"
 ---
-# <a name="image-list-structures"></a><span data-ttu-id="0af2d-103">影像清單結構</span><span class="sxs-lookup"><span data-stu-id="0af2d-103">Image List Structures</span></span>
+# <a name="image-list-structures"></a><span data-ttu-id="f10d7-103">影像清單結構</span><span class="sxs-lookup"><span data-stu-id="f10d7-103">Image List Structures</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="0af2d-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="0af2d-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f10d7-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="f10d7-104">In This Section</span></span>
 
--   [<span data-ttu-id="0af2d-105">**IMAGEINFO**</span><span class="sxs-lookup"><span data-stu-id="0af2d-105">**IMAGEINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-imageinfo)
--   [<span data-ttu-id="0af2d-106">**IMAGELISTDRAWPARAMS**</span><span class="sxs-lookup"><span data-stu-id="0af2d-106">**IMAGELISTDRAWPARAMS**</span></span>](/windows/win32/api/commctrl/ns-commctrl-imagelistdrawparams)
+-   [<span data-ttu-id="f10d7-105">**IMAGEINFO**</span><span class="sxs-lookup"><span data-stu-id="f10d7-105">**IMAGEINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-imageinfo)
+-   [<span data-ttu-id="f10d7-106">**IMAGELISTDRAWPARAMS**</span><span class="sxs-lookup"><span data-stu-id="f10d7-106">**IMAGELISTDRAWPARAMS**</span></span>](/windows/win32/api/commctrl/ns-commctrl-imagelistdrawparams)
 
  
 
