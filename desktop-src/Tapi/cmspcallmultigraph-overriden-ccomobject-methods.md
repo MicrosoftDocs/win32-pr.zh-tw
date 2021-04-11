@@ -11,23 +11,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849419"
 ---
-# <a name="cmspcallmultigraph-overriden-ccomobject-methods"></a><span data-ttu-id="fec5f-103">CMSPCallMultiGraph 覆寫的 CComObject 方法</span><span class="sxs-lookup"><span data-stu-id="fec5f-103">CMSPCallMultiGraph Overriden CComObject Methods</span></span>
+# <a name="cmspcallmultigraph-overriden-ccomobject-methods"></a><span data-ttu-id="72392-103">CMSPCallMultiGraph 覆寫的 CComObject 方法</span><span class="sxs-lookup"><span data-stu-id="72392-103">CMSPCallMultiGraph Overriden CComObject Methods</span></span>
 
 
 
-| <span data-ttu-id="fec5f-104">CMSPCallMultiGraph 覆寫的 CComObject 方法</span><span class="sxs-lookup"><span data-stu-id="fec5f-104">CMSPCallMultiGraph Overriden CComObject methods</span></span>         | <span data-ttu-id="fec5f-105">Description</span><span class="sxs-lookup"><span data-stu-id="fec5f-105">Description</span></span>                                                 |
+| <span data-ttu-id="72392-104">CMSPCallMultiGraph 覆寫的 CComObject 方法</span><span class="sxs-lookup"><span data-stu-id="72392-104">CMSPCallMultiGraph Overriden CComObject methods</span></span>         | <span data-ttu-id="72392-105">Description</span><span class="sxs-lookup"><span data-stu-id="72392-105">Description</span></span>                                                 |
 |---------------------------------------------------------|-------------------------------------------------------------|
-| <span data-ttu-id="fec5f-106">[**FinalRelease**](/previous-versions/windows/desktop/legacy/ms726566(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="fec5f-106">[**FinalRelease**](/previous-versions/windows/desktop/legacy/ms726566(v=vs.85))</span></span> | <span data-ttu-id="fec5f-107">釋放 call 物件對 address 物件的參考。</span><span class="sxs-lookup"><span data-stu-id="fec5f-107">Releases the call object's reference to the address object.</span></span> |
+| <span data-ttu-id="72392-106">[**FinalRelease**](/previous-versions/windows/desktop/legacy/ms726566(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="72392-106">[**FinalRelease**](/previous-versions/windows/desktop/legacy/ms726566(v=vs.85))</span></span> | <span data-ttu-id="72392-107">釋放 call 物件對 address 物件的參考。</span><span class="sxs-lookup"><span data-stu-id="72392-107">Releases the call object's reference to the address object.</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="fec5f-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="fec5f-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="72392-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="72392-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="fec5f-109">**CMSPCallMultiGraph**</span><span class="sxs-lookup"><span data-stu-id="fec5f-109">**CMSPCallMultiGraph**</span></span>](/windows/desktop/api/Mspcall/nl-mspcall-cmspcallmultigraph)
+[<span data-ttu-id="72392-109">**CMSPCallMultiGraph**</span><span class="sxs-lookup"><span data-stu-id="72392-109">**CMSPCallMultiGraph**</span></span>](/windows/desktop/api/Mspcall/nl-mspcall-cmspcallmultigraph)
 </dt> </dl>
 
  

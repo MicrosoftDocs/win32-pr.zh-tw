@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694132"
 ---
-# <a name="ix509attributes-properties"></a><span data-ttu-id="75694-103">IX509Attributes 屬性</span><span class="sxs-lookup"><span data-stu-id="75694-103">IX509Attributes Properties</span></span>
+# <a name="ix509attributes-properties"></a><span data-ttu-id="693b1-103">IX509Attributes 屬性</span><span class="sxs-lookup"><span data-stu-id="693b1-103">IX509Attributes Properties</span></span>
 
-<span data-ttu-id="75694-104">[**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="75694-104">The [**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes) interface exposes the following properties.</span></span>
+<span data-ttu-id="693b1-104">[**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="693b1-104">The [**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="75694-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="75694-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="693b1-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="693b1-105">In this section</span></span>
 
--   [<span data-ttu-id="75694-106">**\_NewEnum 屬性**</span><span class="sxs-lookup"><span data-stu-id="75694-106">**\_NewEnum Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get__newenum)
--   [<span data-ttu-id="75694-107">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="75694-107">**Count Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get_count)
--   [<span data-ttu-id="75694-108">**ItemByIndex 屬性**</span><span class="sxs-lookup"><span data-stu-id="75694-108">**ItemByIndex Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get_itembyindex)
+-   [<span data-ttu-id="693b1-106">**\_NewEnum 屬性**</span><span class="sxs-lookup"><span data-stu-id="693b1-106">**\_NewEnum Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get__newenum)
+-   [<span data-ttu-id="693b1-107">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="693b1-107">**Count Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get_count)
+-   [<span data-ttu-id="693b1-108">**ItemByIndex 屬性**</span><span class="sxs-lookup"><span data-stu-id="693b1-108">**ItemByIndex Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get_itembyindex)
 
  
 

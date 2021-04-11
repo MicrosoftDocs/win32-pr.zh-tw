@@ -11,37 +11,37 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103696426"
 ---
-# <a name="list-view-structures"></a><span data-ttu-id="f1265-103">清單視圖結構</span><span class="sxs-lookup"><span data-stu-id="f1265-103">List View Structures</span></span>
+# <a name="list-view-structures"></a><span data-ttu-id="bae73-103">清單視圖結構</span><span class="sxs-lookup"><span data-stu-id="bae73-103">List View Structures</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f1265-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="f1265-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bae73-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="bae73-104">In This Section</span></span>
 
--   [<span data-ttu-id="f1265-105">**LVBKIMAGE**</span><span class="sxs-lookup"><span data-stu-id="f1265-105">**LVBKIMAGE**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvbkimagea)
--   [<span data-ttu-id="f1265-106">**LVCOLUMN**</span><span class="sxs-lookup"><span data-stu-id="f1265-106">**LVCOLUMN**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvcolumna)
--   [<span data-ttu-id="f1265-107">**LVFINDINFO**</span><span class="sxs-lookup"><span data-stu-id="f1265-107">**LVFINDINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvfindinfoa)
--   [<span data-ttu-id="f1265-108">**LVFOOTERINFO**</span><span class="sxs-lookup"><span data-stu-id="f1265-108">**LVFOOTERINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvfooterinfo)
--   [<span data-ttu-id="f1265-109">**LVFOOTERITEM**</span><span class="sxs-lookup"><span data-stu-id="f1265-109">**LVFOOTERITEM**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvfooteritem)
--   [<span data-ttu-id="f1265-110">**LVGROUP**</span><span class="sxs-lookup"><span data-stu-id="f1265-110">**LVGROUP**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvgroup)
--   [<span data-ttu-id="f1265-111">**LVGROUPMETRICS**</span><span class="sxs-lookup"><span data-stu-id="f1265-111">**LVGROUPMETRICS**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvgroupmetrics)
--   [<span data-ttu-id="f1265-112">**LVHITTESTINFO**</span><span class="sxs-lookup"><span data-stu-id="f1265-112">**LVHITTESTINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvhittestinfo)
--   [<span data-ttu-id="f1265-113">**LVINSERTGROUPSORTED**</span><span class="sxs-lookup"><span data-stu-id="f1265-113">**LVINSERTGROUPSORTED**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted)
--   [<span data-ttu-id="f1265-114">**LVINSERTMARK**</span><span class="sxs-lookup"><span data-stu-id="f1265-114">**LVINSERTMARK**</span></span>](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark)
--   [<span data-ttu-id="f1265-115">**LVITEM**</span><span class="sxs-lookup"><span data-stu-id="f1265-115">**LVITEM**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvitema)
--   [<span data-ttu-id="f1265-116">**LVITEMINDEX**</span><span class="sxs-lookup"><span data-stu-id="f1265-116">**LVITEMINDEX**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvitemindex)
--   [<span data-ttu-id="f1265-117">**LVSETINFOTIP**</span><span class="sxs-lookup"><span data-stu-id="f1265-117">**LVSETINFOTIP**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvsetinfotip)
--   [<span data-ttu-id="f1265-118">**LVTILEINFO**</span><span class="sxs-lookup"><span data-stu-id="f1265-118">**LVTILEINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvtileinfo)
--   [<span data-ttu-id="f1265-119">**LVTILEVIEWINFO**</span><span class="sxs-lookup"><span data-stu-id="f1265-119">**LVTILEVIEWINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvtileviewinfo)
--   [<span data-ttu-id="f1265-120">**NMITEMACTI加值稅E**</span><span class="sxs-lookup"><span data-stu-id="f1265-120">**NMITEMACTIVATE**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmitemactivate)
--   [<span data-ttu-id="f1265-121">**NMLISTVIEW**</span><span class="sxs-lookup"><span data-stu-id="f1265-121">**NMLISTVIEW**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlistview)
--   [<span data-ttu-id="f1265-122">**NMLVCACHEHINT**</span><span class="sxs-lookup"><span data-stu-id="f1265-122">**NMLVCACHEHINT**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvcachehint)
--   [<span data-ttu-id="f1265-123">**NMLVCUSTOMDRAW**</span><span class="sxs-lookup"><span data-stu-id="f1265-123">**NMLVCUSTOMDRAW**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvcustomdraw)
--   [<span data-ttu-id="f1265-124">**NMLVDISPINFO**</span><span class="sxs-lookup"><span data-stu-id="f1265-124">**NMLVDISPINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa)
--   [<span data-ttu-id="f1265-125">**NMLVEMPTYMARKUP**</span><span class="sxs-lookup"><span data-stu-id="f1265-125">**NMLVEMPTYMARKUP**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvemptymarkup)
--   [<span data-ttu-id="f1265-126">**NMLVFINDITEM**</span><span class="sxs-lookup"><span data-stu-id="f1265-126">**NMLVFINDITEM**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvfinditema)
--   [<span data-ttu-id="f1265-127">**NMLVGETINFOTIP**</span><span class="sxs-lookup"><span data-stu-id="f1265-127">**NMLVGETINFOTIP**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvgetinfotipa)
--   [<span data-ttu-id="f1265-128">**NMLVKEYDOWN**</span><span class="sxs-lookup"><span data-stu-id="f1265-128">**NMLVKEYDOWN**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvkeydown)
--   [<span data-ttu-id="f1265-129">**NMLVLINK**</span><span class="sxs-lookup"><span data-stu-id="f1265-129">**NMLVLINK**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvlink)
--   [<span data-ttu-id="f1265-130">**NMLVODSTATECHANGE**</span><span class="sxs-lookup"><span data-stu-id="f1265-130">**NMLVODSTATECHANGE**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvodstatechange)
--   [<span data-ttu-id="f1265-131">**NMLVSCROLL**</span><span class="sxs-lookup"><span data-stu-id="f1265-131">**NMLVSCROLL**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvscroll)
+-   [<span data-ttu-id="bae73-105">**LVBKIMAGE**</span><span class="sxs-lookup"><span data-stu-id="bae73-105">**LVBKIMAGE**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvbkimagea)
+-   [<span data-ttu-id="bae73-106">**LVCOLUMN**</span><span class="sxs-lookup"><span data-stu-id="bae73-106">**LVCOLUMN**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvcolumna)
+-   [<span data-ttu-id="bae73-107">**LVFINDINFO**</span><span class="sxs-lookup"><span data-stu-id="bae73-107">**LVFINDINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvfindinfoa)
+-   [<span data-ttu-id="bae73-108">**LVFOOTERINFO**</span><span class="sxs-lookup"><span data-stu-id="bae73-108">**LVFOOTERINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvfooterinfo)
+-   [<span data-ttu-id="bae73-109">**LVFOOTERITEM**</span><span class="sxs-lookup"><span data-stu-id="bae73-109">**LVFOOTERITEM**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvfooteritem)
+-   [<span data-ttu-id="bae73-110">**LVGROUP**</span><span class="sxs-lookup"><span data-stu-id="bae73-110">**LVGROUP**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvgroup)
+-   [<span data-ttu-id="bae73-111">**LVGROUPMETRICS**</span><span class="sxs-lookup"><span data-stu-id="bae73-111">**LVGROUPMETRICS**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvgroupmetrics)
+-   [<span data-ttu-id="bae73-112">**LVHITTESTINFO**</span><span class="sxs-lookup"><span data-stu-id="bae73-112">**LVHITTESTINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvhittestinfo)
+-   [<span data-ttu-id="bae73-113">**LVINSERTGROUPSORTED**</span><span class="sxs-lookup"><span data-stu-id="bae73-113">**LVINSERTGROUPSORTED**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted)
+-   [<span data-ttu-id="bae73-114">**LVINSERTMARK**</span><span class="sxs-lookup"><span data-stu-id="bae73-114">**LVINSERTMARK**</span></span>](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark)
+-   [<span data-ttu-id="bae73-115">**LVITEM**</span><span class="sxs-lookup"><span data-stu-id="bae73-115">**LVITEM**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvitema)
+-   [<span data-ttu-id="bae73-116">**LVITEMINDEX**</span><span class="sxs-lookup"><span data-stu-id="bae73-116">**LVITEMINDEX**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvitemindex)
+-   [<span data-ttu-id="bae73-117">**LVSETINFOTIP**</span><span class="sxs-lookup"><span data-stu-id="bae73-117">**LVSETINFOTIP**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvsetinfotip)
+-   [<span data-ttu-id="bae73-118">**LVTILEINFO**</span><span class="sxs-lookup"><span data-stu-id="bae73-118">**LVTILEINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvtileinfo)
+-   [<span data-ttu-id="bae73-119">**LVTILEVIEWINFO**</span><span class="sxs-lookup"><span data-stu-id="bae73-119">**LVTILEVIEWINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-lvtileviewinfo)
+-   [<span data-ttu-id="bae73-120">**NMITEMACTI加值稅E**</span><span class="sxs-lookup"><span data-stu-id="bae73-120">**NMITEMACTIVATE**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmitemactivate)
+-   [<span data-ttu-id="bae73-121">**NMLISTVIEW**</span><span class="sxs-lookup"><span data-stu-id="bae73-121">**NMLISTVIEW**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlistview)
+-   [<span data-ttu-id="bae73-122">**NMLVCACHEHINT**</span><span class="sxs-lookup"><span data-stu-id="bae73-122">**NMLVCACHEHINT**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvcachehint)
+-   [<span data-ttu-id="bae73-123">**NMLVCUSTOMDRAW**</span><span class="sxs-lookup"><span data-stu-id="bae73-123">**NMLVCUSTOMDRAW**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvcustomdraw)
+-   [<span data-ttu-id="bae73-124">**NMLVDISPINFO**</span><span class="sxs-lookup"><span data-stu-id="bae73-124">**NMLVDISPINFO**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa)
+-   [<span data-ttu-id="bae73-125">**NMLVEMPTYMARKUP**</span><span class="sxs-lookup"><span data-stu-id="bae73-125">**NMLVEMPTYMARKUP**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvemptymarkup)
+-   [<span data-ttu-id="bae73-126">**NMLVFINDITEM**</span><span class="sxs-lookup"><span data-stu-id="bae73-126">**NMLVFINDITEM**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvfinditema)
+-   [<span data-ttu-id="bae73-127">**NMLVGETINFOTIP**</span><span class="sxs-lookup"><span data-stu-id="bae73-127">**NMLVGETINFOTIP**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvgetinfotipa)
+-   [<span data-ttu-id="bae73-128">**NMLVKEYDOWN**</span><span class="sxs-lookup"><span data-stu-id="bae73-128">**NMLVKEYDOWN**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvkeydown)
+-   [<span data-ttu-id="bae73-129">**NMLVLINK**</span><span class="sxs-lookup"><span data-stu-id="bae73-129">**NMLVLINK**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvlink)
+-   [<span data-ttu-id="bae73-130">**NMLVODSTATECHANGE**</span><span class="sxs-lookup"><span data-stu-id="bae73-130">**NMLVODSTATECHANGE**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvodstatechange)
+-   [<span data-ttu-id="bae73-131">**NMLVSCROLL**</span><span class="sxs-lookup"><span data-stu-id="bae73-131">**NMLVSCROLL**</span></span>](/windows/win32/api/commctrl/ns-commctrl-nmlvscroll)
 
  
 

@@ -31,24 +31,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852615"
 ---
-# <a name="esentcurrencystackoutofmemoryexception-class"></a><span data-ttu-id="24aec-103">EsentCurrencyStackOutOfMemoryException 類別</span><span class="sxs-lookup"><span data-stu-id="24aec-103">EsentCurrencyStackOutOfMemoryException class</span></span>
+# <a name="esentcurrencystackoutofmemoryexception-class"></a><span data-ttu-id="74882-103">EsentCurrencyStackOutOfMemoryException 類別</span><span class="sxs-lookup"><span data-stu-id="74882-103">EsentCurrencyStackOutOfMemoryException class</span></span>
 
-<span data-ttu-id="24aec-104">JET_err 的基類。CurrencyStackOutOfMemory 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="24aec-104">Base class for JET_err.CurrencyStackOutOfMemory exceptions.</span></span>
+<span data-ttu-id="74882-104">JET_err 的基類。CurrencyStackOutOfMemory 例外狀況。</span><span class="sxs-lookup"><span data-stu-id="74882-104">Base class for JET_err.CurrencyStackOutOfMemory exceptions.</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="24aec-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="24aec-105">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="74882-105">繼承階層</span><span class="sxs-lookup"><span data-stu-id="74882-105">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="24aec-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="24aec-106">System.Object</span></span>](/dotnet/api/system.object)  
-  [<span data-ttu-id="24aec-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="24aec-107">System.Exception</span></span>](/dotnet/api/system.exception)  
-    [<span data-ttu-id="24aec-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="24aec-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
-      [<span data-ttu-id="24aec-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="24aec-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
-        [<span data-ttu-id="24aec-110">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="24aec-110">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
-          [<span data-ttu-id="24aec-111">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="24aec-111">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
-            <span data-ttu-id="24aec-112">EsentCurrencyStackOutOfMemoryException （.）</span><span class="sxs-lookup"><span data-stu-id="24aec-112">Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException</span></span>  
+[<span data-ttu-id="74882-106">System.Object</span><span class="sxs-lookup"><span data-stu-id="74882-106">System.Object</span></span>](/dotnet/api/system.object)  
+  [<span data-ttu-id="74882-107">System.Exception</span><span class="sxs-lookup"><span data-stu-id="74882-107">System.Exception</span></span>](/dotnet/api/system.exception)  
+    [<span data-ttu-id="74882-108">EsentException。</span><span class="sxs-lookup"><span data-stu-id="74882-108">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
+      [<span data-ttu-id="74882-109">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="74882-109">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
+        [<span data-ttu-id="74882-110">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="74882-110">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
+          [<span data-ttu-id="74882-111">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="74882-111">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
+            <span data-ttu-id="74882-112">EsentCurrencyStackOutOfMemoryException （.）</span><span class="sxs-lookup"><span data-stu-id="74882-112">Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException</span></span>  
 
-<span data-ttu-id="24aec-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="24aec-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="24aec-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="24aec-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="74882-113">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="74882-113">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="74882-114">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="74882-114">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="24aec-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="24aec-115">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="74882-115">Syntax</span><span class="sxs-lookup"><span data-stu-id="74882-115">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -64,14 +64,14 @@ Dim instance As EsentCurrencyStackOutOfMemoryException
 public sealed class EsentCurrencyStackOutOfMemoryException : EsentObsoleteException
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="24aec-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="24aec-116">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="74882-116">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="74882-116">Thread safety</span></span>
 
-<span data-ttu-id="24aec-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="24aec-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="24aec-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="24aec-118">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="74882-117">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="74882-117">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="74882-118">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="74882-118">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="24aec-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="24aec-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="74882-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="74882-119">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="24aec-120">參考</span><span class="sxs-lookup"><span data-stu-id="24aec-120">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="74882-120">參考</span><span class="sxs-lookup"><span data-stu-id="74882-120">Reference</span></span>
 
-[<span data-ttu-id="24aec-121">EsentCurrencyStackOutOfMemoryException 成員</span><span class="sxs-lookup"><span data-stu-id="24aec-121">EsentCurrencyStackOutOfMemoryException members</span></span>](./esentcurrencystackoutofmemoryexception-members.md)
+[<span data-ttu-id="74882-121">EsentCurrencyStackOutOfMemoryException 成員</span><span class="sxs-lookup"><span data-stu-id="74882-121">EsentCurrencyStackOutOfMemoryException members</span></span>](./esentcurrencystackoutofmemoryexception-members.md)
 
-[<span data-ttu-id="24aec-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="24aec-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="74882-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="74882-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

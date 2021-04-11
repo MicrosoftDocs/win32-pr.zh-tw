@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103696390"
 ---
-# <a name="eaptype-element-v1-schema-connection-property"></a><span data-ttu-id="2e9a0-106">EapType 元素 (v1 架構連接屬性) </span><span class="sxs-lookup"><span data-stu-id="2e9a0-106">EapType Element (v1 schema connection property)</span></span>
+# <a name="eaptype-element-v1-schema-connection-property"></a><span data-ttu-id="55c6b-106">EapType 元素 (v1 架構連接屬性) </span><span class="sxs-lookup"><span data-stu-id="55c6b-106">EapType Element (v1 schema connection property)</span></span>
 
-<span data-ttu-id="2e9a0-107">**EapType** 元素會在 Eap 專案內捕獲特定方法的設定。</span><span class="sxs-lookup"><span data-stu-id="2e9a0-107">The **EapType** element captures method-specific configuration inside the Eap element.</span></span>
+<span data-ttu-id="55c6b-107">**EapType** 元素會在 Eap 專案內捕獲特定方法的設定。</span><span class="sxs-lookup"><span data-stu-id="55c6b-107">The **EapType** element captures method-specific configuration inside the Eap element.</span></span>
 
 ``` syntax
 <xs:element name="EapType"
@@ -31,29 +31,29 @@ ms.locfileid: "103696390"
  />
 ```
 
-## <a name="remarks"></a><span data-ttu-id="2e9a0-108">備註</span><span class="sxs-lookup"><span data-stu-id="2e9a0-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="55c6b-108">備註</span><span class="sxs-lookup"><span data-stu-id="55c6b-108">Remarks</span></span>
 
-<span data-ttu-id="2e9a0-109">**EapType** 元素是抽象的;每個方法都必須定義和使用實例檔中的衍生元素。</span><span class="sxs-lookup"><span data-stu-id="2e9a0-109">The **EapType** element is abstract; each method must define and use a derived element in the instance documents.</span></span>
+<span data-ttu-id="55c6b-109">**EapType** 元素是抽象的;每個方法都必須定義和使用實例檔中的衍生元素。</span><span class="sxs-lookup"><span data-stu-id="55c6b-109">The **EapType** element is abstract; each method must define and use a derived element in the instance documents.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="2e9a0-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="2e9a0-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="55c6b-110">規格需求</span><span class="sxs-lookup"><span data-stu-id="55c6b-110">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2e9a0-111">角色</span><span class="sxs-lookup"><span data-stu-id="2e9a0-111">Role</span></span> | <span data-ttu-id="2e9a0-112">最低支援作業系統版本</span><span class="sxs-lookup"><span data-stu-id="2e9a0-112">Minimum supported OS version</span></span> |
+| <span data-ttu-id="55c6b-111">角色</span><span class="sxs-lookup"><span data-stu-id="55c6b-111">Role</span></span> | <span data-ttu-id="55c6b-112">最低支援作業系統版本</span><span class="sxs-lookup"><span data-stu-id="55c6b-112">Minimum supported OS version</span></span> |
 |------|------------------------------|
-| <span data-ttu-id="2e9a0-113">用戶端</span><span class="sxs-lookup"><span data-stu-id="2e9a0-113">Client</span></span><br/> | <span data-ttu-id="2e9a0-114">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2e9a0-114">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="2e9a0-115">伺服器</span><span class="sxs-lookup"><span data-stu-id="2e9a0-115">Server</span></span><br/> | <span data-ttu-id="2e9a0-116">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2e9a0-116">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="55c6b-113">用戶端</span><span class="sxs-lookup"><span data-stu-id="55c6b-113">Client</span></span><br/> | <span data-ttu-id="55c6b-114">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="55c6b-114">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="55c6b-115">伺服器</span><span class="sxs-lookup"><span data-stu-id="55c6b-115">Server</span></span><br/> | <span data-ttu-id="55c6b-116">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="55c6b-116">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2e9a0-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2e9a0-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="55c6b-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="55c6b-117">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2e9a0-118">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="2e9a0-118">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="55c6b-118">EAPHost 和舊版架構</span><span class="sxs-lookup"><span data-stu-id="55c6b-118">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> <dt>
 
-[<span data-ttu-id="2e9a0-119">baseeapconnectionpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="2e9a0-119">baseeapconnectionpropertiesv1 Schema</span></span>](baseeapconnectionpropertiesv1schema-schema.md)
+[<span data-ttu-id="55c6b-119">baseeapconnectionpropertiesv1 架構</span><span class="sxs-lookup"><span data-stu-id="55c6b-119">baseeapconnectionpropertiesv1 Schema</span></span>](baseeapconnectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
  

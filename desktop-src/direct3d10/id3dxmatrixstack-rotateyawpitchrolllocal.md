@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/15/2021
 ms.locfileid: "103696856"
 ---
-# <a name="id3dxmatrixstackrotateyawpitchrolllocal-method-d3dx10h"></a><span data-ttu-id="57fc9-103">ID3DXMATRIXStack：： RotateYawPitchRollLocal 方法 (D3DX10 .h) </span><span class="sxs-lookup"><span data-stu-id="57fc9-103">ID3DXMATRIXStack::RotateYawPitchRollLocal method (D3DX10.h)</span></span>
+# <a name="id3dxmatrixstackrotateyawpitchrolllocal-method-d3dx10h"></a><span data-ttu-id="e68b3-103">ID3DXMATRIXStack：： RotateYawPitchRollLocal 方法 (D3DX10 .h) </span><span class="sxs-lookup"><span data-stu-id="e68b3-103">ID3DXMATRIXStack::RotateYawPitchRollLocal method (D3DX10.h)</span></span>
 
-<span data-ttu-id="57fc9-104">在任意軸周圍) 旋轉 (相對於物件的區域座標空間。</span><span class="sxs-lookup"><span data-stu-id="57fc9-104">Rotates (relative to the object's local coordinate space) around an arbitrary axis.</span></span>
+<span data-ttu-id="e68b3-104">在任意軸周圍) 旋轉 (相對於物件的區域座標空間。</span><span class="sxs-lookup"><span data-stu-id="e68b3-104">Rotates (relative to the object's local coordinate space) around an arbitrary axis.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="57fc9-105">語法</span><span class="sxs-lookup"><span data-stu-id="57fc9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e68b3-105">語法</span><span class="sxs-lookup"><span data-stu-id="e68b3-105">Syntax</span></span>
 
 
 ```C++
@@ -38,46 +38,46 @@ HRESULT RotateYawPitchRollLocal(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="57fc9-106">參數</span><span class="sxs-lookup"><span data-stu-id="57fc9-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e68b3-106">參數</span><span class="sxs-lookup"><span data-stu-id="e68b3-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="57fc9-107">*偏擺* \[在\]</span><span class="sxs-lookup"><span data-stu-id="57fc9-107">*Yaw* \[in\]</span></span>
+<span data-ttu-id="e68b3-107">*偏擺* \[在\]</span><span class="sxs-lookup"><span data-stu-id="e68b3-107">*Yaw* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="57fc9-108">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="57fc9-108">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="e68b3-108">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="e68b3-108">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="57fc9-109">以弧度為單位的 y 軸偏擺。</span><span class="sxs-lookup"><span data-stu-id="57fc9-109">The yaw around the y-axis in radians.</span></span>
+<span data-ttu-id="e68b3-109">以弧度為單位的 y 軸偏擺。</span><span class="sxs-lookup"><span data-stu-id="e68b3-109">The yaw around the y-axis in radians.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="57fc9-110">*推銷* \[在\]</span><span class="sxs-lookup"><span data-stu-id="57fc9-110">*Pitch* \[in\]</span></span>
+<span data-ttu-id="e68b3-110">*推銷* \[在\]</span><span class="sxs-lookup"><span data-stu-id="e68b3-110">*Pitch* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="57fc9-111">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="57fc9-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="e68b3-111">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="e68b3-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="57fc9-112">以弧度為單位的 X 軸左右間距。</span><span class="sxs-lookup"><span data-stu-id="57fc9-112">The pitch around the x-axis in radians.</span></span>
+<span data-ttu-id="e68b3-112">以弧度為單位的 X 軸左右間距。</span><span class="sxs-lookup"><span data-stu-id="e68b3-112">The pitch around the x-axis in radians.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="57fc9-113">*滾動* \[在\]</span><span class="sxs-lookup"><span data-stu-id="57fc9-113">*Roll* \[in\]</span></span>
+<span data-ttu-id="e68b3-113">*滾動* \[在\]</span><span class="sxs-lookup"><span data-stu-id="e68b3-113">*Roll* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="57fc9-114">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="57fc9-114">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="e68b3-114">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="e68b3-114">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="57fc9-115">以弧度為單位的 Z 軸左右滾動。</span><span class="sxs-lookup"><span data-stu-id="57fc9-115">The roll around the z-axis in radians.</span></span>
+<span data-ttu-id="e68b3-115">以弧度為單位的 Z 軸左右滾動。</span><span class="sxs-lookup"><span data-stu-id="e68b3-115">The roll around the z-axis in radians.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="57fc9-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="57fc9-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e68b3-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="e68b3-116">Return value</span></span>
 
-<span data-ttu-id="57fc9-117">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="57fc9-117">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
+<span data-ttu-id="e68b3-117">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="e68b3-117">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
 
-<span data-ttu-id="57fc9-118">如果方法成功，則傳回值為「D3D \_ 正常」。</span><span class="sxs-lookup"><span data-stu-id="57fc9-118">If the method succeeds, the return value is D3D\_OK.</span></span>
+<span data-ttu-id="e68b3-118">如果方法成功，則傳回值為「D3D \_ 正常」。</span><span class="sxs-lookup"><span data-stu-id="e68b3-118">If the method succeeds, the return value is D3D\_OK.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="57fc9-119">備註</span><span class="sxs-lookup"><span data-stu-id="57fc9-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e68b3-119">備註</span><span class="sxs-lookup"><span data-stu-id="e68b3-119">Remarks</span></span>
 
-<span data-ttu-id="57fc9-120">這個方法會使用計算的旋轉矩陣，將旋轉加入矩陣堆疊中，如下所示：</span><span class="sxs-lookup"><span data-stu-id="57fc9-120">This method adds the rotation to the matrix stack with the computed rotation matrix similar to the following:</span></span>
+<span data-ttu-id="e68b3-120">這個方法會使用計算的旋轉矩陣，將旋轉加入矩陣堆疊中，如下所示：</span><span class="sxs-lookup"><span data-stu-id="e68b3-120">This method adds the rotation to the matrix stack with the computed rotation matrix similar to the following:</span></span>
 
 
 ```
@@ -88,27 +88,27 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 
 
 
-<span data-ttu-id="57fc9-121">由於旋轉會靠左乘以矩陣堆疊，所以旋轉是相對於物件的本機座標空間。</span><span class="sxs-lookup"><span data-stu-id="57fc9-121">Because the rotation is left-multiplied to the matrix stack, the rotation is relative to the object's local coordinate space.</span></span>
+<span data-ttu-id="e68b3-121">由於旋轉會靠左乘以矩陣堆疊，所以旋轉是相對於物件的本機座標空間。</span><span class="sxs-lookup"><span data-stu-id="e68b3-121">Because the rotation is left-multiplied to the matrix stack, the rotation is relative to the object's local coordinate space.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="57fc9-122">規格需求</span><span class="sxs-lookup"><span data-stu-id="57fc9-122">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e68b3-122">規格需求</span><span class="sxs-lookup"><span data-stu-id="e68b3-122">Requirements</span></span>
 
 
 
-| <span data-ttu-id="57fc9-123">需求</span><span class="sxs-lookup"><span data-stu-id="57fc9-123">Requirement</span></span> | <span data-ttu-id="57fc9-124">值</span><span class="sxs-lookup"><span data-stu-id="57fc9-124">Value</span></span> |
+| <span data-ttu-id="e68b3-123">需求</span><span class="sxs-lookup"><span data-stu-id="e68b3-123">Requirement</span></span> | <span data-ttu-id="e68b3-124">值</span><span class="sxs-lookup"><span data-stu-id="e68b3-124">Value</span></span> |
 |--------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="57fc9-125">標頭</span><span class="sxs-lookup"><span data-stu-id="57fc9-125">Header</span></span><br/>  | <dl> <span data-ttu-id="57fc9-126"><dt>D3DX10。h</dt></span><span class="sxs-lookup"><span data-stu-id="57fc9-126"><dt>D3DX10.h</dt></span></span> </dl>   |
-| <span data-ttu-id="57fc9-127">程式庫</span><span class="sxs-lookup"><span data-stu-id="57fc9-127">Library</span></span><br/> | <dl> <span data-ttu-id="57fc9-128"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="57fc9-128"><dt>D3DX10.lib</dt></span></span> </dl> |
+| <span data-ttu-id="e68b3-125">標頭</span><span class="sxs-lookup"><span data-stu-id="e68b3-125">Header</span></span><br/>  | <dl> <span data-ttu-id="e68b3-126"><dt>D3DX10。h</dt></span><span class="sxs-lookup"><span data-stu-id="e68b3-126"><dt>D3DX10.h</dt></span></span> </dl>   |
+| <span data-ttu-id="e68b3-127">程式庫</span><span class="sxs-lookup"><span data-stu-id="e68b3-127">Library</span></span><br/> | <dl> <span data-ttu-id="e68b3-128"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="e68b3-128"><dt>D3DX10.lib</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="57fc9-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="57fc9-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e68b3-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e68b3-129">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="57fc9-130">ID3DXMatrixStack</span><span class="sxs-lookup"><span data-stu-id="57fc9-130">ID3DXMatrixStack</span></span>](d3d10-id3dxmatrixstack.md)
+[<span data-ttu-id="e68b3-130">ID3DXMatrixStack</span><span class="sxs-lookup"><span data-stu-id="e68b3-130">ID3DXMatrixStack</span></span>](d3d10-id3dxmatrixstack.md)
 </dt> <dt>
 
-[<span data-ttu-id="57fc9-131">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="57fc9-131">D3DX Interfaces</span></span>](d3d10-graphics-reference-d3dx10-interfaces.md)
+[<span data-ttu-id="e68b3-131">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="e68b3-131">D3DX Interfaces</span></span>](d3d10-graphics-reference-d3dx10-interfaces.md)
 </dt> </dl>
 
  

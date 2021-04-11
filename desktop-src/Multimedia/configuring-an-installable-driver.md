@@ -16,9 +16,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "104023306"
 ---
-# <a name="configuring-an-installable-driver"></a><span data-ttu-id="f5899-107">設定可安裝的驅動程式</span><span class="sxs-lookup"><span data-stu-id="f5899-107">Configuring an Installable Driver</span></span>
+# <a name="configuring-an-installable-driver"></a><span data-ttu-id="bd474-107">設定可安裝的驅動程式</span><span class="sxs-lookup"><span data-stu-id="bd474-107">Configuring an Installable Driver</span></span>
 
-<span data-ttu-id="f5899-108">若要指示可安裝的驅動程式來執行有用的工作，您必須使用 [OpenDriver](/windows/win32/api/mmiscapi/nf-mmiscapi-opendriver) 函式來開啟驅動程式，並使用 [SendDriverMessage](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) 函式來傳送訊息。</span><span class="sxs-lookup"><span data-stu-id="f5899-108">To direct an installable driver to carry out useful tasks, you must open the driver by using the [OpenDriver](/windows/win32/api/mmiscapi/nf-mmiscapi-opendriver) function and send it messages by using the [SendDriverMessage](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) function.</span></span> <span data-ttu-id="f5899-109">下列範例顯示如何指示驅動程式顯示其設定對話方塊。</span><span class="sxs-lookup"><span data-stu-id="f5899-109">The following example shows how to direct the driver to display its configuration dialog box.</span></span>
+<span data-ttu-id="bd474-108">若要指示可安裝的驅動程式來執行有用的工作，您必須使用 [OpenDriver](/windows/win32/api/mmiscapi/nf-mmiscapi-opendriver) 函式來開啟驅動程式，並使用 [SendDriverMessage](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) 函式來傳送訊息。</span><span class="sxs-lookup"><span data-stu-id="bd474-108">To direct an installable driver to carry out useful tasks, you must open the driver by using the [OpenDriver](/windows/win32/api/mmiscapi/nf-mmiscapi-opendriver) function and send it messages by using the [SendDriverMessage](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) function.</span></span> <span data-ttu-id="bd474-109">下列範例顯示如何指示驅動程式顯示其設定對話方塊。</span><span class="sxs-lookup"><span data-stu-id="bd474-109">The following example shows how to direct the driver to display its configuration dialog box.</span></span>
 
 
 ```C++

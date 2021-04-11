@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850296"
 ---
-# <a name="msvm_compatibilityvector-class"></a><span data-ttu-id="0b20a-103">Msvm \_ CompatibilityVector 類別</span><span class="sxs-lookup"><span data-stu-id="0b20a-103">Msvm\_CompatibilityVector class</span></span>
+# <a name="msvm_compatibilityvector-class"></a><span data-ttu-id="e0585-103">Msvm \_ CompatibilityVector 類別</span><span class="sxs-lookup"><span data-stu-id="e0585-103">Msvm\_CompatibilityVector class</span></span>
 
-<span data-ttu-id="0b20a-104">當虛擬機器在 VM 電腦系統上執行時， (VM)  (的相容性資訊，) 或在主機電腦系統上執行 (時的主機) 。</span><span class="sxs-lookup"><span data-stu-id="0b20a-104">References the compatibility info for a virtual machine (VM) (when run on a VM computer system) or a host (when run on a host computer system).</span></span>
+<span data-ttu-id="e0585-104">當虛擬機器在 VM 電腦系統上執行時， (VM)  (的相容性資訊，) 或在主機電腦系統上執行 (時的主機) 。</span><span class="sxs-lookup"><span data-stu-id="e0585-104">References the compatibility info for a virtual machine (VM) (when run on a VM computer system) or a host (when run on a host computer system).</span></span>
 
-<span data-ttu-id="0b20a-105">下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="0b20a-105">The following syntax is simplified from MOF code and includes all inherited properties.</span></span>
+<span data-ttu-id="e0585-105">下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="e0585-105">The following syntax is simplified from MOF code and includes all inherited properties.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0b20a-106">語法</span><span class="sxs-lookup"><span data-stu-id="0b20a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e0585-106">語法</span><span class="sxs-lookup"><span data-stu-id="e0585-106">Syntax</span></span>
 
 ``` syntax
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
@@ -41,209 +41,209 @@ class Msvm_CompatibilityVector
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="0b20a-107">成員</span><span class="sxs-lookup"><span data-stu-id="0b20a-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="e0585-107">成員</span><span class="sxs-lookup"><span data-stu-id="e0585-107">Members</span></span>
 
-<span data-ttu-id="0b20a-108">**Msvm \_ CompatibilityVector** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="0b20a-108">The **Msvm\_CompatibilityVector** class has these types of members:</span></span>
+<span data-ttu-id="e0585-108">**Msvm \_ CompatibilityVector** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="e0585-108">The **Msvm\_CompatibilityVector** class has these types of members:</span></span>
 
--   [<span data-ttu-id="0b20a-109">屬性</span><span class="sxs-lookup"><span data-stu-id="0b20a-109">Properties</span></span>](#properties)
+-   [<span data-ttu-id="e0585-109">屬性</span><span class="sxs-lookup"><span data-stu-id="e0585-109">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="0b20a-110">屬性</span><span class="sxs-lookup"><span data-stu-id="0b20a-110">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="e0585-110">屬性</span><span class="sxs-lookup"><span data-stu-id="e0585-110">Properties</span></span>
 
-<span data-ttu-id="0b20a-111">**Msvm \_ CompatibilityVector** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="0b20a-111">The **Msvm\_CompatibilityVector** class has these properties.</span></span>
+<span data-ttu-id="e0585-111">**Msvm \_ CompatibilityVector** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="e0585-111">The **Msvm\_CompatibilityVector** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="0b20a-112">**CompareOperation**</span><span class="sxs-lookup"><span data-stu-id="0b20a-112">**CompareOperation**</span></span>
+<span data-ttu-id="e0585-112">**CompareOperation**</span><span class="sxs-lookup"><span data-stu-id="e0585-112">**CompareOperation**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="0b20a-113">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="0b20a-113">Data type: **uint32**</span></span>
+<span data-ttu-id="e0585-113">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="e0585-113">Data type: **uint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="0b20a-114">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="0b20a-114">Access type: Read-only</span></span>
+<span data-ttu-id="e0585-114">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="e0585-114">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="0b20a-115">識別只有當兩個向量相容時，才會傳回 true 的比較運算。</span><span class="sxs-lookup"><span data-stu-id="0b20a-115">Identifies the comparison operation that will return true if and only if two vectors are compatible.</span></span> <span data-ttu-id="0b20a-116">VM 的資料位於比較的左側，而該主機的資料位於右邊的位置。</span><span class="sxs-lookup"><span data-stu-id="0b20a-116">The VM's data is on the left hand side of the comparison, and the host's data is on the right hand side.</span></span>
+<span data-ttu-id="e0585-115">識別只有當兩個向量相容時，才會傳回 true 的比較運算。</span><span class="sxs-lookup"><span data-stu-id="e0585-115">Identifies the comparison operation that will return true if and only if two vectors are compatible.</span></span> <span data-ttu-id="e0585-116">VM 的資料位於比較的左側，而該主機的資料位於右邊的位置。</span><span class="sxs-lookup"><span data-stu-id="e0585-116">The VM's data is on the left hand side of the comparison, and the host's data is on the right hand side.</span></span>
 
 <dt>
 
 <span id="Equal"></span><span id="equal"></span><span id="EQUAL"></span>
 
-<span data-ttu-id="0b20a-117">**等於** (0) </span><span class="sxs-lookup"><span data-stu-id="0b20a-117">**Equal** (0)</span></span>
+<span data-ttu-id="e0585-117">**等於** (0) </span><span class="sxs-lookup"><span data-stu-id="e0585-117">**Equal** (0)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Superset"></span><span id="superset"></span><span id="SUPERSET"></span>
 
-<span data-ttu-id="0b20a-118">**超集合** (1) </span><span class="sxs-lookup"><span data-stu-id="0b20a-118">**Superset** (1)</span></span>
+<span data-ttu-id="e0585-118">**超集合** (1) </span><span class="sxs-lookup"><span data-stu-id="e0585-118">**Superset** (1)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Subset"></span><span id="subset"></span><span id="SUBSET"></span>
 
-<span data-ttu-id="0b20a-119">**子集** (2) </span><span class="sxs-lookup"><span data-stu-id="0b20a-119">**Subset** (2)</span></span>
+<span data-ttu-id="e0585-119">**子集** (2) </span><span class="sxs-lookup"><span data-stu-id="e0585-119">**Subset** (2)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Disjoint"></span><span id="disjoint"></span><span id="DISJOINT"></span>
 
-<span data-ttu-id="0b20a-120">無 **交集** 的 (3) </span><span class="sxs-lookup"><span data-stu-id="0b20a-120">**Disjoint** (3)</span></span>
+<span data-ttu-id="e0585-120">無 **交集** 的 (3) </span><span class="sxs-lookup"><span data-stu-id="e0585-120">**Disjoint** (3)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="GreaterThan"></span><span id="greaterthan"></span><span id="GREATERTHAN"></span>
 
-<span data-ttu-id="0b20a-121">**GreaterThan** (4) </span><span class="sxs-lookup"><span data-stu-id="0b20a-121">**GreaterThan** (4)</span></span>
+<span data-ttu-id="e0585-121">**GreaterThan** (4) </span><span class="sxs-lookup"><span data-stu-id="e0585-121">**GreaterThan** (4)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="GreaterThanOrEqual"></span><span id="greaterthanorequal"></span><span id="GREATERTHANOREQUAL"></span>
 
-<span data-ttu-id="0b20a-122">**GreaterThanOrEqual** (5) </span><span class="sxs-lookup"><span data-stu-id="0b20a-122">**GreaterThanOrEqual** (5)</span></span>
+<span data-ttu-id="e0585-122">**GreaterThanOrEqual** (5) </span><span class="sxs-lookup"><span data-stu-id="e0585-122">**GreaterThanOrEqual** (5)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="LessThan"></span><span id="lessthan"></span><span id="LESSTHAN"></span>
 
-<span data-ttu-id="0b20a-123">**LessThan** (6) </span><span class="sxs-lookup"><span data-stu-id="0b20a-123">**LessThan** (6)</span></span>
+<span data-ttu-id="e0585-123">**LessThan** (6) </span><span class="sxs-lookup"><span data-stu-id="e0585-123">**LessThan** (6)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="LessThanOrEqual"></span><span id="lessthanorequal"></span><span id="LESSTHANOREQUAL"></span>
 
-<span data-ttu-id="0b20a-124">**LessThanOrEqual** (7) </span><span class="sxs-lookup"><span data-stu-id="0b20a-124">**LessThanOrEqual** (7)</span></span>
+<span data-ttu-id="e0585-124">**LessThanOrEqual** (7) </span><span class="sxs-lookup"><span data-stu-id="e0585-124">**LessThanOrEqual** (7)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Multiple"></span><span id="multiple"></span><span id="MULTIPLE"></span>
 
-<span data-ttu-id="0b20a-125">**多** (8) </span><span class="sxs-lookup"><span data-stu-id="0b20a-125">**Multiple** (8)</span></span>
+<span data-ttu-id="e0585-125">**多** (8) </span><span class="sxs-lookup"><span data-stu-id="e0585-125">**Multiple** (8)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Divisible"></span><span id="divisible"></span><span id="DIVISIBLE"></span>
 
-<span data-ttu-id="0b20a-126"> (9) **整除**</span><span class="sxs-lookup"><span data-stu-id="0b20a-126">**Divisible** (9)</span></span>
+<span data-ttu-id="e0585-126"> (9) **整除**</span><span class="sxs-lookup"><span data-stu-id="e0585-126">**Divisible** (9)</span></span>
 
 
 </dt> <dd></dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="0b20a-127">**CompatibilityInfo**</span><span class="sxs-lookup"><span data-stu-id="0b20a-127">**CompatibilityInfo**</span></span>
+<span data-ttu-id="e0585-127">**CompatibilityInfo**</span><span class="sxs-lookup"><span data-stu-id="e0585-127">**CompatibilityInfo**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="0b20a-128">資料類型： **uint64**</span><span class="sxs-lookup"><span data-stu-id="0b20a-128">Data type: **uint64**</span></span>
+<span data-ttu-id="e0585-128">資料類型： **uint64**</span><span class="sxs-lookup"><span data-stu-id="e0585-128">Data type: **uint64**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="0b20a-129">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="0b20a-129">Access type: Read-only</span></span>
+<span data-ttu-id="e0585-129">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="e0585-129">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="0b20a-130">用於比較的實際相容性屬性資料。</span><span class="sxs-lookup"><span data-stu-id="0b20a-130">The actual compatibility attribute data that is used for comparison.</span></span>
+<span data-ttu-id="e0585-130">用於比較的實際相容性屬性資料。</span><span class="sxs-lookup"><span data-stu-id="e0585-130">The actual compatibility attribute data that is used for comparison.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0b20a-131">**VectorId**</span><span class="sxs-lookup"><span data-stu-id="0b20a-131">**VectorId**</span></span>
+<span data-ttu-id="e0585-131">**VectorId**</span><span class="sxs-lookup"><span data-stu-id="e0585-131">**VectorId**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="0b20a-132">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="0b20a-132">Data type: **uint32**</span></span>
+<span data-ttu-id="e0585-132">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="e0585-132">Data type: **uint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="0b20a-133">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="0b20a-133">Access type: Read-only</span></span>
+<span data-ttu-id="e0585-133">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="e0585-133">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="0b20a-134">識別表示特定屬性的相容性向量。</span><span class="sxs-lookup"><span data-stu-id="0b20a-134">Identifies a compatibility vector that represents a specific attribute.</span></span> <span data-ttu-id="0b20a-135">這個屬性是用來比對主機和 VM 之間的對應向量。</span><span class="sxs-lookup"><span data-stu-id="0b20a-135">This property is used to match corresponding vectors between a host and a VM.</span></span>
+<span data-ttu-id="e0585-134">識別表示特定屬性的相容性向量。</span><span class="sxs-lookup"><span data-stu-id="e0585-134">Identifies a compatibility vector that represents a specific attribute.</span></span> <span data-ttu-id="e0585-135">這個屬性是用來比對主機和 VM 之間的對應向量。</span><span class="sxs-lookup"><span data-stu-id="e0585-135">This property is used to match corresponding vectors between a host and a VM.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="0b20a-136">備註</span><span class="sxs-lookup"><span data-stu-id="0b20a-136">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e0585-136">備註</span><span class="sxs-lookup"><span data-stu-id="e0585-136">Remarks</span></span>
 
-<span data-ttu-id="0b20a-137">[**Msvm \_ VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)類別的 [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)方法會傳回主機 (的 **Msvm \_ CompatibilityVector** 實例陣列，如果在主機) 上執行，或在 vm) 上執行，則為 vm (。</span><span class="sxs-lookup"><span data-stu-id="0b20a-137">The [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md) method of the [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md) class returns an array of **Msvm\_CompatibilityVector** instances for the host (if run on the host) or a VM (if run on the VM).</span></span> <span data-ttu-id="0b20a-138">清單中的每個 **Msvm \_ CompatibilityVector** 專案都會描述相容性屬性向量。</span><span class="sxs-lookup"><span data-stu-id="0b20a-138">Each **Msvm\_CompatibilityVector** entry in the list describes a compatibility attribute vector.</span></span> <span data-ttu-id="0b20a-139">若要讓 VM 與主機相容，其所有相容性屬性都必須與主機的屬性相容。</span><span class="sxs-lookup"><span data-stu-id="0b20a-139">For a VM to be compatible with a host, all of its compatibility attributes must be compatible with the host s attributes.</span></span>
+<span data-ttu-id="e0585-137">[**Msvm \_ VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)類別的 [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)方法會傳回主機 (的 **Msvm \_ CompatibilityVector** 實例陣列，如果在主機) 上執行，或在 vm) 上執行，則為 vm (。</span><span class="sxs-lookup"><span data-stu-id="e0585-137">The [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md) method of the [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md) class returns an array of **Msvm\_CompatibilityVector** instances for the host (if run on the host) or a VM (if run on the VM).</span></span> <span data-ttu-id="e0585-138">清單中的每個 **Msvm \_ CompatibilityVector** 專案都會描述相容性屬性向量。</span><span class="sxs-lookup"><span data-stu-id="e0585-138">Each **Msvm\_CompatibilityVector** entry in the list describes a compatibility attribute vector.</span></span> <span data-ttu-id="e0585-139">若要讓 VM 與主機相容，其所有相容性屬性都必須與主機的屬性相容。</span><span class="sxs-lookup"><span data-stu-id="e0585-139">For a VM to be compatible with a host, all of its compatibility attributes must be compatible with the host s attributes.</span></span>
 
-<span data-ttu-id="0b20a-140">每個 **Msvm \_ CompatibilityVector** 專案都有下列屬性：</span><span class="sxs-lookup"><span data-stu-id="0b20a-140">Each **Msvm\_CompatibilityVector** entry has these properties:</span></span>
+<span data-ttu-id="e0585-140">每個 **Msvm \_ CompatibilityVector** 專案都有下列屬性：</span><span class="sxs-lookup"><span data-stu-id="e0585-140">Each **Msvm\_CompatibilityVector** entry has these properties:</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="0b20a-141">**VectorId**</span><span class="sxs-lookup"><span data-stu-id="0b20a-141">**VectorId**</span></span>
+<span data-ttu-id="e0585-141">**VectorId**</span><span class="sxs-lookup"><span data-stu-id="e0585-141">**VectorId**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0b20a-142">唯一識別相容性向量。</span><span class="sxs-lookup"><span data-stu-id="0b20a-142">Uniquely identifies the compatibility vector.</span></span> <span data-ttu-id="0b20a-143">這是用來比對向量，以在主機和 VM 之間進行比較。</span><span class="sxs-lookup"><span data-stu-id="0b20a-143">This is used to match the vectors to compare between a host and a VM.</span></span>
+<span data-ttu-id="e0585-142">唯一識別相容性向量。</span><span class="sxs-lookup"><span data-stu-id="e0585-142">Uniquely identifies the compatibility vector.</span></span> <span data-ttu-id="e0585-143">這是用來比對向量，以在主機和 VM 之間進行比較。</span><span class="sxs-lookup"><span data-stu-id="e0585-143">This is used to match the vectors to compare between a host and a VM.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0b20a-144">**CompareOperation**</span><span class="sxs-lookup"><span data-stu-id="0b20a-144">**CompareOperation**</span></span>
+<span data-ttu-id="e0585-144">**CompareOperation**</span><span class="sxs-lookup"><span data-stu-id="e0585-144">**CompareOperation**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0b20a-145">識別判斷向量是否相容的比較運算。</span><span class="sxs-lookup"><span data-stu-id="0b20a-145">Identifies the comparison operation that determines whether the vectors are compatible.</span></span>
+<span data-ttu-id="e0585-145">識別判斷向量是否相容的比較運算。</span><span class="sxs-lookup"><span data-stu-id="e0585-145">Identifies the comparison operation that determines whether the vectors are compatible.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0b20a-146">**CompatibilityInfo**</span><span class="sxs-lookup"><span data-stu-id="0b20a-146">**CompatibilityInfo**</span></span>
+<span data-ttu-id="e0585-146">**CompatibilityInfo**</span><span class="sxs-lookup"><span data-stu-id="e0585-146">**CompatibilityInfo**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0b20a-147">包含實際的相容性屬性;這實際上是屬性承載 (例如處理器功能遮罩、快取行排清大小等等 ) </span><span class="sxs-lookup"><span data-stu-id="0b20a-147">Contains the actual compatibility attribute; This is effectively the attribute payload (e.g. processor feature mask, cache line flush size, etc.)</span></span>
+<span data-ttu-id="e0585-147">包含實際的相容性屬性;這實際上是屬性承載 (例如處理器功能遮罩、快取行排清大小等等 ) </span><span class="sxs-lookup"><span data-stu-id="e0585-147">Contains the actual compatibility attribute; This is effectively the attribute payload (e.g. processor feature mask, cache line flush size, etc.)</span></span>
 
 </dd> </dl>
 
-<span data-ttu-id="0b20a-148">針對 **CompareOperation** 所定義的作業集合只涉及基本的整數比較和位邏輯。</span><span class="sxs-lookup"><span data-stu-id="0b20a-148">The set of operations defined for **CompareOperation** just involve basic integer comparison and bitwise logic.</span></span> <span data-ttu-id="0b20a-149">這可讓 **CompatibilityInfo** 的實際內容保持不變。</span><span class="sxs-lookup"><span data-stu-id="0b20a-149">This enables the actual contents of **CompatibilityInfo** to remain opaque.</span></span> <span data-ttu-id="0b20a-150">作業集包括：</span><span class="sxs-lookup"><span data-stu-id="0b20a-150">The set of operations include:</span></span>
+<span data-ttu-id="e0585-148">針對 **CompareOperation** 所定義的作業集合只涉及基本的整數比較和位邏輯。</span><span class="sxs-lookup"><span data-stu-id="e0585-148">The set of operations defined for **CompareOperation** just involve basic integer comparison and bitwise logic.</span></span> <span data-ttu-id="e0585-149">這可讓 **CompatibilityInfo** 的實際內容保持不變。</span><span class="sxs-lookup"><span data-stu-id="e0585-149">This enables the actual contents of **CompatibilityInfo** to remain opaque.</span></span> <span data-ttu-id="e0585-150">作業集包括：</span><span class="sxs-lookup"><span data-stu-id="e0585-150">The set of operations include:</span></span>
 
 
 
-| <span data-ttu-id="0b20a-151">CompareOperation</span><span class="sxs-lookup"><span data-stu-id="0b20a-151">CompareOperation</span></span> | <span data-ttu-id="0b20a-152">Description</span><span class="sxs-lookup"><span data-stu-id="0b20a-152">Description</span></span>                                      | <span data-ttu-id="0b20a-153">虛擬虛擬的比較</span><span class="sxs-lookup"><span data-stu-id="0b20a-153">Pseudocode Comparison</span></span>                |
+| <span data-ttu-id="e0585-151">CompareOperation</span><span class="sxs-lookup"><span data-stu-id="e0585-151">CompareOperation</span></span> | <span data-ttu-id="e0585-152">Description</span><span class="sxs-lookup"><span data-stu-id="e0585-152">Description</span></span>                                      | <span data-ttu-id="e0585-153">虛擬虛擬的比較</span><span class="sxs-lookup"><span data-stu-id="e0585-153">Pseudocode Comparison</span></span>                |
 |------------------|--------------------------------------------------|--------------------------------------|
-| <span data-ttu-id="0b20a-154">VmCcEqual</span><span class="sxs-lookup"><span data-stu-id="0b20a-154">VmCcEqual</span></span>        | <span data-ttu-id="0b20a-155">VmAttr 必須等於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="0b20a-155">VmAttr must equal HostAttr</span></span>                       | <span data-ttu-id="0b20a-156">如果 (VmAttr = = HostAttr) </span><span class="sxs-lookup"><span data-stu-id="0b20a-156">If (VmAttr == HostAttr)</span></span>              |
-| <span data-ttu-id="0b20a-157">VmCcSuperSet</span><span class="sxs-lookup"><span data-stu-id="0b20a-157">VmCcSuperSet</span></span>     | <span data-ttu-id="0b20a-158">VmAttr 必須是 HostAttr 的超集合</span><span class="sxs-lookup"><span data-stu-id="0b20a-158">VmAttr must be a superset of HostAttr</span></span>            | <span data-ttu-id="0b20a-159">如果 ( (VmAttr & HostAttr) = = HostAttr) </span><span class="sxs-lookup"><span data-stu-id="0b20a-159">If ((VmAttr & HostAttr) == HostAttr)</span></span> |
-| <span data-ttu-id="0b20a-160">VmCcSubSet</span><span class="sxs-lookup"><span data-stu-id="0b20a-160">VmCcSubSet</span></span>       | <span data-ttu-id="0b20a-161">VmAttr 必須是 HostAttr 的子集</span><span class="sxs-lookup"><span data-stu-id="0b20a-161">VmAttr must be a subset of HostAttr</span></span>              | <span data-ttu-id="0b20a-162">如果 ( (VmAttr & HostAttr) = = VmAttr) </span><span class="sxs-lookup"><span data-stu-id="0b20a-162">If ((VmAttr & HostAttr) == VmAttr)</span></span>   |
-| <span data-ttu-id="0b20a-163">VmCcDisjointSet</span><span class="sxs-lookup"><span data-stu-id="0b20a-163">VmCcDisjointSet</span></span>  | <span data-ttu-id="0b20a-164">VmAttr 必須是 HostAttr 中的斷續集合</span><span class="sxs-lookup"><span data-stu-id="0b20a-164">VmAttr must be a disjoint set from HostAttr</span></span>      | <span data-ttu-id="0b20a-165">如果 ( (VmAttr & HostAttr) = = 0) </span><span class="sxs-lookup"><span data-stu-id="0b20a-165">If ((VmAttr & HostAttr) == 0)</span></span>        |
-| <span data-ttu-id="0b20a-166">VmCcGreater</span><span class="sxs-lookup"><span data-stu-id="0b20a-166">VmCcGreater</span></span>      | <span data-ttu-id="0b20a-167">VmAttr 必須大於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="0b20a-167">VmAttr must be greater than HostAttr</span></span>             | <span data-ttu-id="0b20a-168">如果 (VmAttr > HostAttr) </span><span class="sxs-lookup"><span data-stu-id="0b20a-168">If (VmAttr > HostAttr)</span></span>            |
-| <span data-ttu-id="0b20a-169">VmCcGreaterEqual</span><span class="sxs-lookup"><span data-stu-id="0b20a-169">VmCcGreaterEqual</span></span> | <span data-ttu-id="0b20a-170">VmAttr 必須大於或等於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="0b20a-170">VmAttr must be greater than or equal to HostAttr</span></span> | <span data-ttu-id="0b20a-171">如果 (VmAttr >= HostAttr) </span><span class="sxs-lookup"><span data-stu-id="0b20a-171">If (VmAttr >= HostAttr)</span></span>           |
-| <span data-ttu-id="0b20a-172">VmCcLess</span><span class="sxs-lookup"><span data-stu-id="0b20a-172">VmCcLess</span></span>         | <span data-ttu-id="0b20a-173">VmAttr 必須小於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="0b20a-173">VmAttr must be less than HostAttr</span></span>                | <span data-ttu-id="0b20a-174">如果 (VmAttr < HostAttr) </span><span class="sxs-lookup"><span data-stu-id="0b20a-174">If (VmAttr < HostAttr)</span></span>            |
-| <span data-ttu-id="0b20a-175">VmCcLessEqual</span><span class="sxs-lookup"><span data-stu-id="0b20a-175">VmCcLessEqual</span></span>    | <span data-ttu-id="0b20a-176">VmAttr 必須小於或等於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="0b20a-176">VmAttr must be less than or equal to HostAttr</span></span>    | <span data-ttu-id="0b20a-177">如果 (VmAttr <= HostAttr) </span><span class="sxs-lookup"><span data-stu-id="0b20a-177">If (VmAttr <= HostAttr)</span></span>           |
-| <span data-ttu-id="0b20a-178">VmCcMultiple</span><span class="sxs-lookup"><span data-stu-id="0b20a-178">VmCcMultiple</span></span>     | <span data-ttu-id="0b20a-179">VmAttr 必須是 HostAttr 的倍數</span><span class="sxs-lookup"><span data-stu-id="0b20a-179">VmAttr must be a multiple of HostAttr</span></span>            | <span data-ttu-id="0b20a-180">如果 ( (VmAttr% HostAttr) = = 0) </span><span class="sxs-lookup"><span data-stu-id="0b20a-180">If ((VmAttr % HostAttr) == 0)</span></span>        |
-| <span data-ttu-id="0b20a-181">VmCcDivisor</span><span class="sxs-lookup"><span data-stu-id="0b20a-181">VmCcDivisor</span></span>      | <span data-ttu-id="0b20a-182">VmAttr 必須是 HostAttr 的除數</span><span class="sxs-lookup"><span data-stu-id="0b20a-182">VmAttr must be a divisor of HostAttr</span></span>             | <span data-ttu-id="0b20a-183">如果 ( (HostAttr% VmAttr) = = 0) </span><span class="sxs-lookup"><span data-stu-id="0b20a-183">If ((HostAttr % VmAttr) == 0)</span></span>        |
+| <span data-ttu-id="e0585-154">VmCcEqual</span><span class="sxs-lookup"><span data-stu-id="e0585-154">VmCcEqual</span></span>        | <span data-ttu-id="e0585-155">VmAttr 必須等於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="e0585-155">VmAttr must equal HostAttr</span></span>                       | <span data-ttu-id="e0585-156">如果 (VmAttr = = HostAttr) </span><span class="sxs-lookup"><span data-stu-id="e0585-156">If (VmAttr == HostAttr)</span></span>              |
+| <span data-ttu-id="e0585-157">VmCcSuperSet</span><span class="sxs-lookup"><span data-stu-id="e0585-157">VmCcSuperSet</span></span>     | <span data-ttu-id="e0585-158">VmAttr 必須是 HostAttr 的超集合</span><span class="sxs-lookup"><span data-stu-id="e0585-158">VmAttr must be a superset of HostAttr</span></span>            | <span data-ttu-id="e0585-159">如果 ( (VmAttr & HostAttr) = = HostAttr) </span><span class="sxs-lookup"><span data-stu-id="e0585-159">If ((VmAttr & HostAttr) == HostAttr)</span></span> |
+| <span data-ttu-id="e0585-160">VmCcSubSet</span><span class="sxs-lookup"><span data-stu-id="e0585-160">VmCcSubSet</span></span>       | <span data-ttu-id="e0585-161">VmAttr 必須是 HostAttr 的子集</span><span class="sxs-lookup"><span data-stu-id="e0585-161">VmAttr must be a subset of HostAttr</span></span>              | <span data-ttu-id="e0585-162">如果 ( (VmAttr & HostAttr) = = VmAttr) </span><span class="sxs-lookup"><span data-stu-id="e0585-162">If ((VmAttr & HostAttr) == VmAttr)</span></span>   |
+| <span data-ttu-id="e0585-163">VmCcDisjointSet</span><span class="sxs-lookup"><span data-stu-id="e0585-163">VmCcDisjointSet</span></span>  | <span data-ttu-id="e0585-164">VmAttr 必須是 HostAttr 中的斷續集合</span><span class="sxs-lookup"><span data-stu-id="e0585-164">VmAttr must be a disjoint set from HostAttr</span></span>      | <span data-ttu-id="e0585-165">如果 ( (VmAttr & HostAttr) = = 0) </span><span class="sxs-lookup"><span data-stu-id="e0585-165">If ((VmAttr & HostAttr) == 0)</span></span>        |
+| <span data-ttu-id="e0585-166">VmCcGreater</span><span class="sxs-lookup"><span data-stu-id="e0585-166">VmCcGreater</span></span>      | <span data-ttu-id="e0585-167">VmAttr 必須大於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="e0585-167">VmAttr must be greater than HostAttr</span></span>             | <span data-ttu-id="e0585-168">如果 (VmAttr > HostAttr) </span><span class="sxs-lookup"><span data-stu-id="e0585-168">If (VmAttr > HostAttr)</span></span>            |
+| <span data-ttu-id="e0585-169">VmCcGreaterEqual</span><span class="sxs-lookup"><span data-stu-id="e0585-169">VmCcGreaterEqual</span></span> | <span data-ttu-id="e0585-170">VmAttr 必須大於或等於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="e0585-170">VmAttr must be greater than or equal to HostAttr</span></span> | <span data-ttu-id="e0585-171">如果 (VmAttr >= HostAttr) </span><span class="sxs-lookup"><span data-stu-id="e0585-171">If (VmAttr >= HostAttr)</span></span>           |
+| <span data-ttu-id="e0585-172">VmCcLess</span><span class="sxs-lookup"><span data-stu-id="e0585-172">VmCcLess</span></span>         | <span data-ttu-id="e0585-173">VmAttr 必須小於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="e0585-173">VmAttr must be less than HostAttr</span></span>                | <span data-ttu-id="e0585-174">如果 (VmAttr < HostAttr) </span><span class="sxs-lookup"><span data-stu-id="e0585-174">If (VmAttr < HostAttr)</span></span>            |
+| <span data-ttu-id="e0585-175">VmCcLessEqual</span><span class="sxs-lookup"><span data-stu-id="e0585-175">VmCcLessEqual</span></span>    | <span data-ttu-id="e0585-176">VmAttr 必須小於或等於 HostAttr</span><span class="sxs-lookup"><span data-stu-id="e0585-176">VmAttr must be less than or equal to HostAttr</span></span>    | <span data-ttu-id="e0585-177">如果 (VmAttr <= HostAttr) </span><span class="sxs-lookup"><span data-stu-id="e0585-177">If (VmAttr <= HostAttr)</span></span>           |
+| <span data-ttu-id="e0585-178">VmCcMultiple</span><span class="sxs-lookup"><span data-stu-id="e0585-178">VmCcMultiple</span></span>     | <span data-ttu-id="e0585-179">VmAttr 必須是 HostAttr 的倍數</span><span class="sxs-lookup"><span data-stu-id="e0585-179">VmAttr must be a multiple of HostAttr</span></span>            | <span data-ttu-id="e0585-180">如果 ( (VmAttr% HostAttr) = = 0) </span><span class="sxs-lookup"><span data-stu-id="e0585-180">If ((VmAttr % HostAttr) == 0)</span></span>        |
+| <span data-ttu-id="e0585-181">VmCcDivisor</span><span class="sxs-lookup"><span data-stu-id="e0585-181">VmCcDivisor</span></span>      | <span data-ttu-id="e0585-182">VmAttr 必須是 HostAttr 的除數</span><span class="sxs-lookup"><span data-stu-id="e0585-182">VmAttr must be a divisor of HostAttr</span></span>             | <span data-ttu-id="e0585-183">如果 ( (HostAttr% VmAttr) = = 0) </span><span class="sxs-lookup"><span data-stu-id="e0585-183">If ((HostAttr % VmAttr) == 0)</span></span>        |
 
 
 
  
 
-<span data-ttu-id="0b20a-184">SCVMM 必須執行下列步驟，以判斷 VM 是否與主機相容。</span><span class="sxs-lookup"><span data-stu-id="0b20a-184">SCVMM needs to do these steps to determine whether a VM is compatible with a host.</span></span>
+<span data-ttu-id="e0585-184">SCVMM 必須執行下列步驟，以判斷 VM 是否與主機相容。</span><span class="sxs-lookup"><span data-stu-id="e0585-184">SCVMM needs to do these steps to determine whether a VM is compatible with a host.</span></span>
 
-<span data-ttu-id="0b20a-185">**判斷 VM 是否與主機相容**</span><span class="sxs-lookup"><span data-stu-id="0b20a-185">**To determine whether a VM is compatible with a host**</span></span>
+<span data-ttu-id="e0585-185">**判斷 VM 是否與主機相容**</span><span class="sxs-lookup"><span data-stu-id="e0585-185">**To determine whether a VM is compatible with a host**</span></span>
 
-1.  <span data-ttu-id="0b20a-186">逐一查看 VM 的所有 **Msvm \_ CompatibilityVector** 元素。</span><span class="sxs-lookup"><span data-stu-id="0b20a-186">Iterate through all of the **Msvm\_CompatibilityVector** elements for the VM.</span></span>
-2.  <span data-ttu-id="0b20a-187">針對每個 **Msvm \_ CompatibilityVector** 專案，使用在 **CompareOperation** 中指定的相容性作業，將 VM 的硬體相容性向量與主機的對應相容性向量進行比較。</span><span class="sxs-lookup"><span data-stu-id="0b20a-187">For each **Msvm\_CompatibilityVector** element, use the compatibility operation specified in **CompareOperation** to compare the VM s hardware compatibility vector with the corresponding compatibility vector for the host.</span></span>
-3.  <span data-ttu-id="0b20a-188">如果 VM 中的所有 **Msvm \_ CompatibilityVector** 元素都被視為相容，則 vm 與主機 (相容) 的處理器功能觀點。</span><span class="sxs-lookup"><span data-stu-id="0b20a-188">If the all of the **Msvm\_CompatibilityVector** elements from the VM are deemed compatible, the VM is compatible with the host (from a processor feature perspective).</span></span>
+1.  <span data-ttu-id="e0585-186">逐一查看 VM 的所有 **Msvm \_ CompatibilityVector** 元素。</span><span class="sxs-lookup"><span data-stu-id="e0585-186">Iterate through all of the **Msvm\_CompatibilityVector** elements for the VM.</span></span>
+2.  <span data-ttu-id="e0585-187">針對每個 **Msvm \_ CompatibilityVector** 專案，使用在 **CompareOperation** 中指定的相容性作業，將 VM 的硬體相容性向量與主機的對應相容性向量進行比較。</span><span class="sxs-lookup"><span data-stu-id="e0585-187">For each **Msvm\_CompatibilityVector** element, use the compatibility operation specified in **CompareOperation** to compare the VM s hardware compatibility vector with the corresponding compatibility vector for the host.</span></span>
+3.  <span data-ttu-id="e0585-188">如果 VM 中的所有 **Msvm \_ CompatibilityVector** 元素都被視為相容，則 vm 與主機 (相容) 的處理器功能觀點。</span><span class="sxs-lookup"><span data-stu-id="e0585-188">If the all of the **Msvm\_CompatibilityVector** elements from the VM are deemed compatible, the VM is compatible with the host (from a processor feature perspective).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="0b20a-189">規格需求</span><span class="sxs-lookup"><span data-stu-id="0b20a-189">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e0585-189">規格需求</span><span class="sxs-lookup"><span data-stu-id="e0585-189">Requirements</span></span>
 
 
 
-| <span data-ttu-id="0b20a-190">需求</span><span class="sxs-lookup"><span data-stu-id="0b20a-190">Requirement</span></span> | <span data-ttu-id="0b20a-191">值</span><span class="sxs-lookup"><span data-stu-id="0b20a-191">Value</span></span> |
+| <span data-ttu-id="e0585-190">需求</span><span class="sxs-lookup"><span data-stu-id="e0585-190">Requirement</span></span> | <span data-ttu-id="e0585-191">值</span><span class="sxs-lookup"><span data-stu-id="e0585-191">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="0b20a-192">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="0b20a-192">Minimum supported client</span></span><br/> | <span data-ttu-id="0b20a-193">\[僅 Windows 8.1 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0b20a-193">Windows 8.1 \[desktop apps only\]</span></span><br/>                                                            |
-| <span data-ttu-id="0b20a-194">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="0b20a-194">Minimum supported server</span></span><br/> | <span data-ttu-id="0b20a-195">僅限 Windows Server 2012 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="0b20a-195">Windows Server 2012 R2 \[desktop apps only\]</span></span><br/>                                                 |
-| <span data-ttu-id="0b20a-196">命名空間</span><span class="sxs-lookup"><span data-stu-id="0b20a-196">Namespace</span></span><br/>                | <span data-ttu-id="0b20a-197">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="0b20a-197">Root\\Virtualization\\V2</span></span><br/>                                                                     |
-| <span data-ttu-id="0b20a-198">MOF</span><span class="sxs-lookup"><span data-stu-id="0b20a-198">MOF</span></span><br/>                      | <dl> <span data-ttu-id="0b20a-199"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="0b20a-199"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="0b20a-200">DLL</span><span class="sxs-lookup"><span data-stu-id="0b20a-200">DLL</span></span><br/>                      | <dl> <span data-ttu-id="0b20a-201"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="0b20a-201"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="e0585-192">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e0585-192">Minimum supported client</span></span><br/> | <span data-ttu-id="e0585-193">\[僅 Windows 8.1 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e0585-193">Windows 8.1 \[desktop apps only\]</span></span><br/>                                                            |
+| <span data-ttu-id="e0585-194">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e0585-194">Minimum supported server</span></span><br/> | <span data-ttu-id="e0585-195">僅限 Windows Server 2012 R2 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e0585-195">Windows Server 2012 R2 \[desktop apps only\]</span></span><br/>                                                 |
+| <span data-ttu-id="e0585-196">命名空間</span><span class="sxs-lookup"><span data-stu-id="e0585-196">Namespace</span></span><br/>                | <span data-ttu-id="e0585-197">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="e0585-197">Root\\Virtualization\\V2</span></span><br/>                                                                     |
+| <span data-ttu-id="e0585-198">MOF</span><span class="sxs-lookup"><span data-stu-id="e0585-198">MOF</span></span><br/>                      | <dl> <span data-ttu-id="e0585-199"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="e0585-199"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="e0585-200">DLL</span><span class="sxs-lookup"><span data-stu-id="e0585-200">DLL</span></span><br/>                      | <dl> <span data-ttu-id="e0585-201"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="e0585-201"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="0b20a-202">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0b20a-202">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e0585-202">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e0585-202">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="0b20a-203">**GetSystemCompatibilityVectors**</span><span class="sxs-lookup"><span data-stu-id="0b20a-203">**GetSystemCompatibilityVectors**</span></span>](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)
+[<span data-ttu-id="e0585-203">**GetSystemCompatibilityVectors**</span><span class="sxs-lookup"><span data-stu-id="e0585-203">**GetSystemCompatibilityVectors**</span></span>](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)
 </dt> <dt>
 
-[<span data-ttu-id="0b20a-204">**Msvm \_ VirtualSystemMigrationService**</span><span class="sxs-lookup"><span data-stu-id="0b20a-204">**Msvm\_VirtualSystemMigrationService**</span></span>](msvm-virtualsystemmigrationservice.md)
+[<span data-ttu-id="e0585-204">**Msvm \_ VirtualSystemMigrationService**</span><span class="sxs-lookup"><span data-stu-id="e0585-204">**Msvm\_VirtualSystemMigrationService**</span></span>](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
  

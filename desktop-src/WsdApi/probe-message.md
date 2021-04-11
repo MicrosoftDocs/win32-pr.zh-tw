@@ -11,25 +11,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104115020"
 ---
-# <a name="probe-message"></a><span data-ttu-id="862db-103">探查訊息</span><span class="sxs-lookup"><span data-stu-id="862db-103">Probe Message</span></span>
+# <a name="probe-message"></a><span data-ttu-id="db839-103">探查訊息</span><span class="sxs-lookup"><span data-stu-id="db839-103">Probe Message</span></span>
 
-<span data-ttu-id="862db-104">探查訊息是用戶端用來在網路上依服務類型搜尋服務的 WS-Discovery 訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-104">A Probe message is a WS-Discovery message used by a client to search for services on the network by service type.</span></span> <span data-ttu-id="862db-105">如需探查訊息的詳細資訊，請參閱 [WS 探索規格](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf)的5.2 節。</span><span class="sxs-lookup"><span data-stu-id="862db-105">For more information about Probe messages, see section 5.2 of the [WS-Discovery Specification](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf).</span></span>
+<span data-ttu-id="db839-104">探查訊息是用戶端用來在網路上依服務類型搜尋服務的 WS-Discovery 訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-104">A Probe message is a WS-Discovery message used by a client to search for services on the network by service type.</span></span> <span data-ttu-id="db839-105">如需探查訊息的詳細資訊，請參閱 [WS 探索規格](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf)的5.2 節。</span><span class="sxs-lookup"><span data-stu-id="db839-105">For more information about Probe messages, see section 5.2 of the [WS-Discovery Specification](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf).</span></span>
 
-<span data-ttu-id="862db-106">UDP 多播會將探查訊息傳送到埠3702。</span><span class="sxs-lookup"><span data-stu-id="862db-106">A Probe message is sent by UDP multicast to port 3702.</span></span> <span data-ttu-id="862db-107">不支援單播探查訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-107">Unicast Probe messages are not supported.</span></span>
+<span data-ttu-id="db839-106">UDP 多播會將探查訊息傳送到埠3702。</span><span class="sxs-lookup"><span data-stu-id="db839-106">A Probe message is sent by UDP multicast to port 3702.</span></span> <span data-ttu-id="db839-107">不支援單播探查訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-107">Unicast Probe messages are not supported.</span></span>
 
-<span data-ttu-id="862db-108">DPWS 用戶端會傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-108">DPWS clients send Probe messages.</span></span> <span data-ttu-id="862db-109">下列清單會顯示 WSDAPI 傳送探查訊息的案例。</span><span class="sxs-lookup"><span data-stu-id="862db-109">The following list shows scenarios in which WSDAPI will send a Probe message.</span></span>
+<span data-ttu-id="db839-108">DPWS 用戶端會傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-108">DPWS clients send Probe messages.</span></span> <span data-ttu-id="db839-109">下列清單會顯示 WSDAPI 傳送探查訊息的案例。</span><span class="sxs-lookup"><span data-stu-id="db839-109">The following list shows scenarios in which WSDAPI will send a Probe message.</span></span>
 
--   <span data-ttu-id="862db-110">函數探索用戶端傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-110">Function Discovery clients send Probe messages.</span></span>
--   <span data-ttu-id="862db-111">呼叫 [**IWSDiscoveryProvider：： SearchByAddress**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress) 的 WSDAPI 用戶端會傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-111">WSDAPI clients calling [**IWSDiscoveryProvider::SearchByAddress**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress) send Probe messages.</span></span>
--   <span data-ttu-id="862db-112">呼叫 [**IWSDiscoveryProvider：： SearchByType**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype) 的 WSDAPI 用戶端會傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-112">WSDAPI clients calling [**IWSDiscoveryProvider::SearchByType**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype) send Probe messages.</span></span>
--   <span data-ttu-id="862db-113">使用導向探索的應用程式會透過 HTTP 或 HTTPS 傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-113">Applications using directed discovery send Probe messages over HTTP or HTTPS.</span></span>
+-   <span data-ttu-id="db839-110">函數探索用戶端傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-110">Function Discovery clients send Probe messages.</span></span>
+-   <span data-ttu-id="db839-111">呼叫 [**IWSDiscoveryProvider：： SearchByAddress**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress) 的 WSDAPI 用戶端會傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-111">WSDAPI clients calling [**IWSDiscoveryProvider::SearchByAddress**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress) send Probe messages.</span></span>
+-   <span data-ttu-id="db839-112">呼叫 [**IWSDiscoveryProvider：： SearchByType**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype) 的 WSDAPI 用戶端會傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-112">WSDAPI clients calling [**IWSDiscoveryProvider::SearchByType**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype) send Probe messages.</span></span>
+-   <span data-ttu-id="db839-113">使用導向探索的應用程式會透過 HTTP 或 HTTPS 傳送探查訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-113">Applications using directed discovery send Probe messages over HTTP or HTTPS.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="862db-114">本主題說明 WSDAPI 用戶端和主機所產生的 DPWS 訊息範例。</span><span class="sxs-lookup"><span data-stu-id="862db-114">This topic shows a sample DPWS message generated by WSDAPI clients and hosts.</span></span> <span data-ttu-id="862db-115">WSDAPI 會剖析並接受其他不符合此範例的 DPWS 相容訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-115">WSDAPI will parse and accept other DPWS-compliant messages that do not conform to this sample.</span></span> <span data-ttu-id="862db-116">請勿使用此範例來確認 DPWS 互通性;請改用 [ [WSDAPI 基本互通性] 工具 (WSDBIT) ](https://msdn.microsoft.com/library/cc264250.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="862db-116">Do not use this sample to verify DPWS interoperability; use the [WSDAPI Basic Interoperability Tool (WSDBIT)](https://msdn.microsoft.com/library/cc264250.aspx) instead.</span></span>
+> <span data-ttu-id="db839-114">本主題說明 WSDAPI 用戶端和主機所產生的 DPWS 訊息範例。</span><span class="sxs-lookup"><span data-stu-id="db839-114">This topic shows a sample DPWS message generated by WSDAPI clients and hosts.</span></span> <span data-ttu-id="db839-115">WSDAPI 會剖析並接受其他不符合此範例的 DPWS 相容訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-115">WSDAPI will parse and accept other DPWS-compliant messages that do not conform to this sample.</span></span> <span data-ttu-id="db839-116">請勿使用此範例來確認 DPWS 互通性;請改用 [ [WSDAPI 基本互通性] 工具 (WSDBIT) ](https://msdn.microsoft.com/library/cc264250.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="db839-116">Do not use this sample to verify DPWS interoperability; use the [WSDAPI Basic Interoperability Tool (WSDBIT)](https://msdn.microsoft.com/library/cc264250.aspx) instead.</span></span>
 
  
 
-<span data-ttu-id="862db-117">下列 SOAP 訊息會顯示範例探查訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-117">The following SOAP message shows a sample Probe message.</span></span>
+<span data-ttu-id="db839-117">下列 SOAP 訊息會顯示範例探查訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-117">The following SOAP message shows a sample Probe message.</span></span>
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?>
@@ -56,7 +56,7 @@ ms.locfileid: "104115020"
 </soap:Body>
 ```
 
-<span data-ttu-id="862db-118">探查訊息具有下列焦點點。</span><span class="sxs-lookup"><span data-stu-id="862db-118">A Probe message has the following focus points.</span></span>
+<span data-ttu-id="db839-118">探查訊息具有下列焦點點。</span><span class="sxs-lookup"><span data-stu-id="db839-118">A Probe message has the following focus points.</span></span>
 
 
 
@@ -68,30 +68,30 @@ ms.locfileid: "104115020"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="862db-119">對焦點</span><span class="sxs-lookup"><span data-stu-id="862db-119">Focus point</span></span></th>
-<th><span data-ttu-id="862db-120">XML</span><span class="sxs-lookup"><span data-stu-id="862db-120">XML</span></span></th>
-<th><span data-ttu-id="862db-121">Description</span><span class="sxs-lookup"><span data-stu-id="862db-121">Description</span></span></th>
+<th><span data-ttu-id="db839-119">對焦點</span><span class="sxs-lookup"><span data-stu-id="db839-119">Focus point</span></span></th>
+<th><span data-ttu-id="db839-120">XML</span><span class="sxs-lookup"><span data-stu-id="db839-120">XML</span></span></th>
+<th><span data-ttu-id="db839-121">Description</span><span class="sxs-lookup"><span data-stu-id="db839-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="862db-122">探查</span><span class="sxs-lookup"><span data-stu-id="862db-122">Probe</span></span></td>
+<td><span data-ttu-id="db839-122">探查</span><span class="sxs-lookup"><span data-stu-id="db839-122">Probe</span></span></td>
 <td><pre class="syntax" data-space="preserve"><code><wsa:Action>
     https://schemas.xmlsoap.org/ws/2005/04/discovery/Probe
 </wsa:Action></code></pre></td>
-<td><span data-ttu-id="862db-123">探查 SOAP 動作會將訊息識別為探查訊息。</span><span class="sxs-lookup"><span data-stu-id="862db-123">The Probe SOAP action identifies the message as a Probe message.</span></span></td>
+<td><span data-ttu-id="db839-123">探查 SOAP 動作會將訊息識別為探查訊息。</span><span class="sxs-lookup"><span data-stu-id="db839-123">The Probe SOAP action identifies the message as a Probe message.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="862db-124">MessageID</span><span class="sxs-lookup"><span data-stu-id="862db-124">MessageID</span></span></td>
+<td><span data-ttu-id="db839-124">MessageID</span><span class="sxs-lookup"><span data-stu-id="db839-124">MessageID</span></span></td>
 <td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
 </wsa:MessageID></code></pre></td>
-<td><span data-ttu-id="862db-125">包含 <a href="probematches-message.md">ProbeMatches</a> 訊息中的 RelatesTo 元素所參考的訊息識別碼。</span><span class="sxs-lookup"><span data-stu-id="862db-125">Contains the message identifier, which is referenced by the RelatesTo element in a <a href="probematches-message.md">ProbeMatches</a> message.</span></span></td>
+<td><span data-ttu-id="db839-125">包含 <a href="probematches-message.md">ProbeMatches</a> 訊息中的 RelatesTo 元素所參考的訊息識別碼。</span><span class="sxs-lookup"><span data-stu-id="db839-125">Contains the message identifier, which is referenced by the RelatesTo element in a <a href="probematches-message.md">ProbeMatches</a> message.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="862db-126">類型</span><span class="sxs-lookup"><span data-stu-id="862db-126">Types</span></span></td>
+<td><span data-ttu-id="db839-126">類型</span><span class="sxs-lookup"><span data-stu-id="db839-126">Types</span></span></td>
 <td><pre class="syntax" data-space="preserve"><code><wsd:Types>wsdp:Device</wsd:Types></code></pre></td>
-<td><span data-ttu-id="862db-127">包含用戶端搜尋的 WS-Discovery 類型。</span><span class="sxs-lookup"><span data-stu-id="862db-127">Contains the WS-Discovery types for which the client is searching.</span></span> <span data-ttu-id="862db-128">這個元素不能是空的。</span><span class="sxs-lookup"><span data-stu-id="862db-128">This element should not be empty.</span></span></td>
+<td><span data-ttu-id="db839-127">包含用戶端搜尋的 WS-Discovery 類型。</span><span class="sxs-lookup"><span data-stu-id="db839-127">Contains the WS-Discovery types for which the client is searching.</span></span> <span data-ttu-id="db839-128">這個元素不能是空的。</span><span class="sxs-lookup"><span data-stu-id="db839-128">This element should not be empty.</span></span></td>
 </tr>
 </tbody>
 </table>
@@ -100,14 +100,14 @@ ms.locfileid: "104115020"
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="862db-129">相關主題</span><span class="sxs-lookup"><span data-stu-id="862db-129">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="db839-129">相關主題</span><span class="sxs-lookup"><span data-stu-id="db839-129">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="862db-130">探索和中繼資料交換訊息</span><span class="sxs-lookup"><span data-stu-id="862db-130">Discovery and Metadata Exchange Messages</span></span>](discovery-and-metadata-exchange-message-patterns.md)
+[<span data-ttu-id="db839-130">探索和中繼資料交換訊息</span><span class="sxs-lookup"><span data-stu-id="db839-130">Discovery and Metadata Exchange Messages</span></span>](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
-[<span data-ttu-id="862db-131">ProbeMatches 訊息</span><span class="sxs-lookup"><span data-stu-id="862db-131">ProbeMatches Message</span></span>](probematches-message.md)
+[<span data-ttu-id="db839-131">ProbeMatches 訊息</span><span class="sxs-lookup"><span data-stu-id="db839-131">ProbeMatches Message</span></span>](probematches-message.md)
 </dt> </dl>
 
  

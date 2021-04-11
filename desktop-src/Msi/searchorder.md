@@ -11,33 +11,33 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852931"
 ---
-# <a name="searchorder"></a><span data-ttu-id="883fa-103">SearchOrder</span><span class="sxs-lookup"><span data-stu-id="883fa-103">SearchOrder</span></span>
+# <a name="searchorder"></a><span data-ttu-id="56d09-103">SearchOrder</span><span class="sxs-lookup"><span data-stu-id="56d09-103">SearchOrder</span></span>
 
-<span data-ttu-id="883fa-104">設定 [每個使用者的 [系統原則](system-policy.md) ] 會指定安裝程式搜尋三種來源類型的順序。</span><span class="sxs-lookup"><span data-stu-id="883fa-104">Setting this per-user [system policy](system-policy.md) specifies the order in which the installer searches three types of sources.</span></span> <span data-ttu-id="883fa-105">來源的類型為：</span><span class="sxs-lookup"><span data-stu-id="883fa-105">The types of sources are:</span></span>
+<span data-ttu-id="56d09-104">設定 [每個使用者的 [系統原則](system-policy.md) ] 會指定安裝程式搜尋三種來源類型的順序。</span><span class="sxs-lookup"><span data-stu-id="56d09-104">Setting this per-user [system policy](system-policy.md) specifies the order in which the installer searches three types of sources.</span></span> <span data-ttu-id="56d09-105">來源的類型為：</span><span class="sxs-lookup"><span data-stu-id="56d09-105">The types of sources are:</span></span>
 
-<span data-ttu-id="883fa-106">"n" –網路</span><span class="sxs-lookup"><span data-stu-id="883fa-106">"n" – network</span></span>
+<span data-ttu-id="56d09-106">"n" –網路</span><span class="sxs-lookup"><span data-stu-id="56d09-106">"n" – network</span></span>
 
-<span data-ttu-id="883fa-107">"m" –媒體 (CD-ROM 或 DVD) </span><span class="sxs-lookup"><span data-stu-id="883fa-107">"m" – media (CD-ROM or DVD)</span></span>
+<span data-ttu-id="56d09-107">"m" –媒體 (CD-ROM 或 DVD) </span><span class="sxs-lookup"><span data-stu-id="56d09-107">"m" – media (CD-ROM or DVD)</span></span>
 
-<span data-ttu-id="883fa-108">"u" –統一資源定位器 (URL) </span><span class="sxs-lookup"><span data-stu-id="883fa-108">"u" – Uniform Resource Locator (URL)</span></span>
+<span data-ttu-id="56d09-108">"u" –統一資源定位器 (URL) </span><span class="sxs-lookup"><span data-stu-id="56d09-108">"u" – Uniform Resource Locator (URL)</span></span>
 
-<span data-ttu-id="883fa-109">例如，若要先搜尋網路來源、媒體來源第二個和 URL 來源，最後將此原則設定為 "nmu" 值。</span><span class="sxs-lookup"><span data-stu-id="883fa-109">For example, to search network sources first, media sources second, and URL sources last set this policy to a value of "nmu".</span></span> <span data-ttu-id="883fa-110">若要省略搜尋特定來源類型，請從值中省略對應的字母。</span><span class="sxs-lookup"><span data-stu-id="883fa-110">To omit searching for a particular source type, leave out the corresponding letter from the value.</span></span>
+<span data-ttu-id="56d09-109">例如，若要先搜尋網路來源、媒體來源第二個和 URL 來源，最後將此原則設定為 "nmu" 值。</span><span class="sxs-lookup"><span data-stu-id="56d09-109">For example, to search network sources first, media sources second, and URL sources last set this policy to a value of "nmu".</span></span> <span data-ttu-id="56d09-110">若要省略搜尋特定來源類型，請從值中省略對應的字母。</span><span class="sxs-lookup"><span data-stu-id="56d09-110">To omit searching for a particular source type, leave out the corresponding letter from the value.</span></span>
 
-<span data-ttu-id="883fa-111">如果未設定 SearchOrder，則預設搜尋順序為 [網路]、[媒體] 和 [URL]。</span><span class="sxs-lookup"><span data-stu-id="883fa-111">If SearchOrder is not set, the default search order is network, media, and then URL.</span></span>
+<span data-ttu-id="56d09-111">如果未設定 SearchOrder，則預設搜尋順序為 [網路]、[媒體] 和 [URL]。</span><span class="sxs-lookup"><span data-stu-id="56d09-111">If SearchOrder is not set, the default search order is network, media, and then URL.</span></span>
 
-## <a name="registry-key"></a><span data-ttu-id="883fa-112">登錄金鑰</span><span class="sxs-lookup"><span data-stu-id="883fa-112">Registry Key</span></span>
+## <a name="registry-key"></a><span data-ttu-id="56d09-112">登錄金鑰</span><span class="sxs-lookup"><span data-stu-id="56d09-112">Registry Key</span></span>
 
-<span data-ttu-id="883fa-113">**HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**</span><span class="sxs-lookup"><span data-stu-id="883fa-113">**HKEY\_CURRENT\_USER**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**Installer**</span></span>
+<span data-ttu-id="56d09-113">**HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**</span><span class="sxs-lookup"><span data-stu-id="56d09-113">**HKEY\_CURRENT\_USER**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**Installer**</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="883fa-114">資料類型</span><span class="sxs-lookup"><span data-stu-id="883fa-114">Data Type</span></span>
+## <a name="data-type"></a><span data-ttu-id="56d09-114">資料類型</span><span class="sxs-lookup"><span data-stu-id="56d09-114">Data Type</span></span>
 
-<span data-ttu-id="883fa-115">**REG \_ SZ**</span><span class="sxs-lookup"><span data-stu-id="883fa-115">**REG\_SZ**</span></span>
+<span data-ttu-id="56d09-115">**REG \_ SZ**</span><span class="sxs-lookup"><span data-stu-id="56d09-115">**REG\_SZ**</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="883fa-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="883fa-116">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="56d09-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="56d09-116">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="883fa-117">來源復原</span><span class="sxs-lookup"><span data-stu-id="883fa-117">Source Resiliency</span></span>](source-resiliency.md)
+[<span data-ttu-id="56d09-117">來源復原</span><span class="sxs-lookup"><span data-stu-id="56d09-117">Source Resiliency</span></span>](source-resiliency.md)
 </dt> </dl>
 
  

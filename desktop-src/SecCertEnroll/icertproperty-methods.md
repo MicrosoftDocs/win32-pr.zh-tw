@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944822"
 ---
-# <a name="icertproperty-methods"></a><span data-ttu-id="3712e-103">ICertProperty 方法</span><span class="sxs-lookup"><span data-stu-id="3712e-103">ICertProperty Methods</span></span>
+# <a name="icertproperty-methods"></a><span data-ttu-id="dad9f-103">ICertProperty 方法</span><span class="sxs-lookup"><span data-stu-id="dad9f-103">ICertProperty Methods</span></span>
 
-<span data-ttu-id="3712e-104">[**ICertProperty**](/windows/desktop/api/CertEnroll/nn-certenroll-icertproperty)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="3712e-104">The [**ICertProperty**](/windows/desktop/api/CertEnroll/nn-certenroll-icertproperty) interface exposes the following methods.</span></span>
+<span data-ttu-id="dad9f-104">[**ICertProperty**](/windows/desktop/api/CertEnroll/nn-certenroll-icertproperty)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="dad9f-104">The [**ICertProperty**](/windows/desktop/api/CertEnroll/nn-certenroll-icertproperty) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="3712e-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="3712e-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dad9f-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="dad9f-105">In this section</span></span>
 
--   [<span data-ttu-id="3712e-106">**InitializeDecode 方法**</span><span class="sxs-lookup"><span data-stu-id="3712e-106">**InitializeDecode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-initializedecode)
--   [<span data-ttu-id="3712e-107">**InitializeFromCertificate 方法**</span><span class="sxs-lookup"><span data-stu-id="3712e-107">**InitializeFromCertificate Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-initializefromcertificate)
--   [<span data-ttu-id="3712e-108">**RemoveFromCertificate 方法**</span><span class="sxs-lookup"><span data-stu-id="3712e-108">**RemoveFromCertificate Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-removefromcertificate)
--   [<span data-ttu-id="3712e-109">**SetValueOnCertificate 方法**</span><span class="sxs-lookup"><span data-stu-id="3712e-109">**SetValueOnCertificate Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-setvalueoncertificate)
+-   [<span data-ttu-id="dad9f-106">**InitializeDecode 方法**</span><span class="sxs-lookup"><span data-stu-id="dad9f-106">**InitializeDecode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-initializedecode)
+-   [<span data-ttu-id="dad9f-107">**InitializeFromCertificate 方法**</span><span class="sxs-lookup"><span data-stu-id="dad9f-107">**InitializeFromCertificate Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-initializefromcertificate)
+-   [<span data-ttu-id="dad9f-108">**RemoveFromCertificate 方法**</span><span class="sxs-lookup"><span data-stu-id="dad9f-108">**RemoveFromCertificate Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-removefromcertificate)
+-   [<span data-ttu-id="dad9f-109">**SetValueOnCertificate 方法**</span><span class="sxs-lookup"><span data-stu-id="dad9f-109">**SetValueOnCertificate Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-setvalueoncertificate)
 
  
 

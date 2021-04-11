@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944599"
 ---
-# <a name="managing-asynchronous-operations"></a><span data-ttu-id="99ac4-103">管理非同步作業</span><span class="sxs-lookup"><span data-stu-id="99ac4-103">Managing Asynchronous Operations</span></span>
+# <a name="managing-asynchronous-operations"></a><span data-ttu-id="82640-103">管理非同步作業</span><span class="sxs-lookup"><span data-stu-id="82640-103">Managing Asynchronous Operations</span></span>
 
-<span data-ttu-id="99ac4-104">\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) 會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]</span><span class="sxs-lookup"><span data-stu-id="99ac4-104">\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]</span></span>
+<span data-ttu-id="82640-104">\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) 會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]</span><span class="sxs-lookup"><span data-stu-id="82640-104">\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]</span></span>
 
-<span data-ttu-id="99ac4-105">接下來的程式碼範例會示範呼叫端如何與 async 物件搭配運作。</span><span class="sxs-lookup"><span data-stu-id="99ac4-105">The code example that follows demonstrates how a caller works with an async object.</span></span> <span data-ttu-id="99ac4-106">在這裡， **SynchronousCreateLun** 函式會使用指定的參數來呼叫非同步 [**IVdsSubSystem：： CreateLun**](/windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun) 方法。</span><span class="sxs-lookup"><span data-stu-id="99ac4-106">Here, the **SynchronousCreateLun** function calls the asynchronous [**IVdsSubSystem::CreateLun**](/windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun) method using the given parameters.</span></span> <span data-ttu-id="99ac4-107">函數會等候非同步 **CreateLun** 方法呼叫完成的非同步物件。</span><span class="sxs-lookup"><span data-stu-id="99ac4-107">The function will wait on the async object for the asynchronous **CreateLun** method call to finish.</span></span> <span data-ttu-id="99ac4-108">當 [**IVdsAsync：： Wait**](/windows/desktop/api/Vds/nf-vds-ivdsasync-wait) 方法傳回時， **SynchronousCreateLun** 會取得新建立之 LUN 的 [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) 介面，並將其傳回做為 out 引數。</span><span class="sxs-lookup"><span data-stu-id="99ac4-108">When the [**IVdsAsync::Wait**](/windows/desktop/api/Vds/nf-vds-ivdsasync-wait) method returns, **SynchronousCreateLun** gets the [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) interface for the newly created LUN and returns it as an out argument.</span></span>
+<span data-ttu-id="82640-105">接下來的程式碼範例會示範呼叫端如何與 async 物件搭配運作。</span><span class="sxs-lookup"><span data-stu-id="82640-105">The code example that follows demonstrates how a caller works with an async object.</span></span> <span data-ttu-id="82640-106">在這裡， **SynchronousCreateLun** 函式會使用指定的參數來呼叫非同步 [**IVdsSubSystem：： CreateLun**](/windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun) 方法。</span><span class="sxs-lookup"><span data-stu-id="82640-106">Here, the **SynchronousCreateLun** function calls the asynchronous [**IVdsSubSystem::CreateLun**](/windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun) method using the given parameters.</span></span> <span data-ttu-id="82640-107">函數會等候非同步 **CreateLun** 方法呼叫完成的非同步物件。</span><span class="sxs-lookup"><span data-stu-id="82640-107">The function will wait on the async object for the asynchronous **CreateLun** method call to finish.</span></span> <span data-ttu-id="82640-108">當 [**IVdsAsync：： Wait**](/windows/desktop/api/Vds/nf-vds-ivdsasync-wait) 方法傳回時， **SynchronousCreateLun** 會取得新建立之 LUN 的 [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) 介面，並將其傳回做為 out 引數。</span><span class="sxs-lookup"><span data-stu-id="82640-108">When the [**IVdsAsync::Wait**](/windows/desktop/api/Vds/nf-vds-ivdsasync-wait) method returns, **SynchronousCreateLun** gets the [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) interface for the newly created LUN and returns it as an out argument.</span></span>
 
 
 ```C++
@@ -94,23 +94,23 @@ HRESULT SynchronousCreateLun(
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="99ac4-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="99ac4-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="82640-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="82640-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="99ac4-110">使用 VDS</span><span class="sxs-lookup"><span data-stu-id="99ac4-110">Using VDS</span></span>](using-vds.md)
+[<span data-ttu-id="82640-110">使用 VDS</span><span class="sxs-lookup"><span data-stu-id="82640-110">Using VDS</span></span>](using-vds.md)
 </dt> <dt>
 
-[<span data-ttu-id="99ac4-111">Helper 物件</span><span class="sxs-lookup"><span data-stu-id="99ac4-111">Helper Objects</span></span>](helper-objects.md)
+[<span data-ttu-id="82640-111">Helper 物件</span><span class="sxs-lookup"><span data-stu-id="82640-111">Helper Objects</span></span>](helper-objects.md)
 </dt> <dt>
 
-[<span data-ttu-id="99ac4-112">**IVdsSubSystem::CreateLun**</span><span class="sxs-lookup"><span data-stu-id="99ac4-112">**IVdsSubSystem::CreateLun**</span></span>](/windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun)
+[<span data-ttu-id="82640-112">**IVdsSubSystem::CreateLun**</span><span class="sxs-lookup"><span data-stu-id="82640-112">**IVdsSubSystem::CreateLun**</span></span>](/windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun)
 </dt> <dt>
 
-[<span data-ttu-id="99ac4-113">**IVdsAsync：： Wait**</span><span class="sxs-lookup"><span data-stu-id="99ac4-113">**IVdsAsync::Wait**</span></span>](/windows/desktop/api/Vds/nf-vds-ivdsasync-wait)
+[<span data-ttu-id="82640-113">**IVdsAsync：： Wait**</span><span class="sxs-lookup"><span data-stu-id="82640-113">**IVdsAsync::Wait**</span></span>](/windows/desktop/api/Vds/nf-vds-ivdsasync-wait)
 </dt> <dt>
 
-[<span data-ttu-id="99ac4-114">**IVdsLun**</span><span class="sxs-lookup"><span data-stu-id="99ac4-114">**IVdsLun**</span></span>](/windows/desktop/api/Vds/nn-vds-ivdslun)
+[<span data-ttu-id="82640-114">**IVdsLun**</span><span class="sxs-lookup"><span data-stu-id="82640-114">**IVdsLun**</span></span>](/windows/desktop/api/Vds/nn-vds-ivdslun)
 </dt> </dl>
 
  

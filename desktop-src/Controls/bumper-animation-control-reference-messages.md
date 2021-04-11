@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103945921"
 ---
-# <a name="animation-control-messages"></a><span data-ttu-id="ef8ae-103">動畫控制項訊息</span><span class="sxs-lookup"><span data-stu-id="ef8ae-103">Animation Control Messages</span></span>
+# <a name="animation-control-messages"></a><span data-ttu-id="92af9-103">動畫控制項訊息</span><span class="sxs-lookup"><span data-stu-id="92af9-103">Animation Control Messages</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="ef8ae-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="ef8ae-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="92af9-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="92af9-104">In This Section</span></span>
 
--   [<span data-ttu-id="ef8ae-105">**\_>ISPLAYING**</span><span class="sxs-lookup"><span data-stu-id="ef8ae-105">**ACM\_ISPLAYING**</span></span>](acm-isplaying.md)
--   [<span data-ttu-id="ef8ae-106">**\_開啟的狀態**</span><span class="sxs-lookup"><span data-stu-id="ef8ae-106">**ACM\_OPEN**</span></span>](acm-open.md)
--   [<span data-ttu-id="ef8ae-107">**未通過的 \_ PLAY**</span><span class="sxs-lookup"><span data-stu-id="ef8ae-107">**ACM\_PLAY**</span></span>](acm-play.md)
--   [<span data-ttu-id="ef8ae-108">**進行中的 \_ 停止**</span><span class="sxs-lookup"><span data-stu-id="ef8ae-108">**ACM\_STOP**</span></span>](acm-stop.md)
+-   [<span data-ttu-id="92af9-105">**\_>ISPLAYING**</span><span class="sxs-lookup"><span data-stu-id="92af9-105">**ACM\_ISPLAYING**</span></span>](acm-isplaying.md)
+-   [<span data-ttu-id="92af9-106">**\_開啟的狀態**</span><span class="sxs-lookup"><span data-stu-id="92af9-106">**ACM\_OPEN**</span></span>](acm-open.md)
+-   [<span data-ttu-id="92af9-107">**未通過的 \_ PLAY**</span><span class="sxs-lookup"><span data-stu-id="92af9-107">**ACM\_PLAY**</span></span>](acm-play.md)
+-   [<span data-ttu-id="92af9-108">**進行中的 \_ 停止**</span><span class="sxs-lookup"><span data-stu-id="92af9-108">**ACM\_STOP**</span></span>](acm-stop.md)
 
  
 

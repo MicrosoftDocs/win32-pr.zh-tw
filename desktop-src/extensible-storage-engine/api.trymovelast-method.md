@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104115016"
 ---
-# <a name="apitrymovelast-method"></a><span data-ttu-id="c9613-103">TryMoveLast 方法</span><span class="sxs-lookup"><span data-stu-id="c9613-103">Api.TryMoveLast method</span></span>
+# <a name="apitrymovelast-method"></a><span data-ttu-id="48c39-103">TryMoveLast 方法</span><span class="sxs-lookup"><span data-stu-id="48c39-103">Api.TryMoveLast method</span></span>
 
-<span data-ttu-id="c9613-104">請嘗試移至資料表中的最後一筆記錄。</span><span class="sxs-lookup"><span data-stu-id="c9613-104">Try to move to the last record in the table.</span></span> <span data-ttu-id="c9613-105">如果資料表是空的，則會傳回 false，如果發生不同的錯誤，則會擲回例外狀況。</span><span class="sxs-lookup"><span data-stu-id="c9613-105">If the table is empty this returns false, if a different error is encountered an exception is thrown.</span></span>
+<span data-ttu-id="48c39-104">請嘗試移至資料表中的最後一筆記錄。</span><span class="sxs-lookup"><span data-stu-id="48c39-104">Try to move to the last record in the table.</span></span> <span data-ttu-id="48c39-105">如果資料表是空的，則會傳回 false，如果發生不同的錯誤，則會擲回例外狀況。</span><span class="sxs-lookup"><span data-stu-id="48c39-105">If the table is empty this returns false, if a different error is encountered an exception is thrown.</span></span>
 
-<span data-ttu-id="c9613-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c9613-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="c9613-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c9613-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="48c39-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="48c39-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="48c39-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="48c39-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c9613-108">語法</span><span class="sxs-lookup"><span data-stu-id="c9613-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="48c39-108">語法</span><span class="sxs-lookup"><span data-stu-id="48c39-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -62,31 +62,31 @@ public static bool TryMoveLast(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="c9613-109">參數</span><span class="sxs-lookup"><span data-stu-id="c9613-109">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="48c39-109">參數</span><span class="sxs-lookup"><span data-stu-id="48c39-109">Parameters</span></span>
 
-  - <span data-ttu-id="c9613-110">sesid</span><span class="sxs-lookup"><span data-stu-id="c9613-110">sesid</span></span>  
-    <span data-ttu-id="c9613-111">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="c9613-111">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="48c39-110">sesid</span><span class="sxs-lookup"><span data-stu-id="48c39-110">sesid</span></span>  
+    <span data-ttu-id="48c39-111">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="48c39-111">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="c9613-112">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="c9613-112">The session to use.</span></span>
+    <span data-ttu-id="48c39-112">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="48c39-112">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="c9613-113">tableid</span><span class="sxs-lookup"><span data-stu-id="c9613-113">tableid</span></span>  
-    <span data-ttu-id="c9613-114">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="c9613-114">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="48c39-113">tableid</span><span class="sxs-lookup"><span data-stu-id="48c39-113">tableid</span></span>  
+    <span data-ttu-id="48c39-114">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="48c39-114">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="c9613-115">要放置的游標。</span><span class="sxs-lookup"><span data-stu-id="c9613-115">The cursor to position.</span></span>
+    <span data-ttu-id="48c39-115">要放置的游標。</span><span class="sxs-lookup"><span data-stu-id="48c39-115">The cursor to position.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="c9613-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="c9613-116">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="48c39-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="48c39-116">Return value</span></span>
 
-<span data-ttu-id="c9613-117">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="c9613-117">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
-<span data-ttu-id="c9613-118">如果移動成功則為 True。</span><span class="sxs-lookup"><span data-stu-id="c9613-118">True if the move was successful.</span></span>  
+<span data-ttu-id="48c39-117">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="48c39-117">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
+<span data-ttu-id="48c39-118">如果移動成功則為 True。</span><span class="sxs-lookup"><span data-stu-id="48c39-118">True if the move was successful.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="c9613-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c9613-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48c39-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="48c39-119">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="c9613-120">參考</span><span class="sxs-lookup"><span data-stu-id="c9613-120">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="48c39-120">參考</span><span class="sxs-lookup"><span data-stu-id="48c39-120">Reference</span></span>
 
-[<span data-ttu-id="c9613-121">Api 類別</span><span class="sxs-lookup"><span data-stu-id="c9613-121">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="48c39-121">Api 類別</span><span class="sxs-lookup"><span data-stu-id="48c39-121">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="c9613-122">Api 成員</span><span class="sxs-lookup"><span data-stu-id="c9613-122">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="48c39-122">Api 成員</span><span class="sxs-lookup"><span data-stu-id="48c39-122">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="c9613-123">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c9613-123">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="48c39-123">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="48c39-123">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

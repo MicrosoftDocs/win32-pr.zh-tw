@@ -11,28 +11,28 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848709"
 ---
-# <a name="stream-subtype-guids"></a><span data-ttu-id="d19e1-104">資料流程子類型 Guid</span><span class="sxs-lookup"><span data-stu-id="d19e1-104">Stream Subtype GUIDs</span></span>
+# <a name="stream-subtype-guids"></a><span data-ttu-id="be391-104">資料流程子類型 Guid</span><span class="sxs-lookup"><span data-stu-id="be391-104">Stream Subtype GUIDs</span></span>
 
-<span data-ttu-id="d19e1-105">下列子類型 Guid 會定義在標頭檔 mfapi 中。</span><span class="sxs-lookup"><span data-stu-id="d19e1-105">The following subtype GUIDs are defined in the header file mfapi.h.</span></span> <span data-ttu-id="d19e1-106">若要指定子類型，請在媒體類型上設定 [ [**MF \_ MT \_ 子類型**](mf-mt-subtype-attribute.md) ] 屬性。</span><span class="sxs-lookup"><span data-stu-id="d19e1-106">To specify the subtype, set the [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md) attribute on the media type.</span></span>
+<span data-ttu-id="be391-105">下列子類型 Guid 會定義在標頭檔 mfapi 中。</span><span class="sxs-lookup"><span data-stu-id="be391-105">The following subtype GUIDs are defined in the header file mfapi.h.</span></span> <span data-ttu-id="be391-106">若要指定子類型，請在媒體類型上設定 [ [**MF \_ MT \_ 子類型**](mf-mt-subtype-attribute.md) ] 屬性。</span><span class="sxs-lookup"><span data-stu-id="be391-106">To specify the subtype, set the [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md) attribute on the media type.</span></span>
 
-<span data-ttu-id="d19e1-107">使用這些子類型時，請將 [ [MF \_ MT \_ 主要 \_ 類型](mf-mt-major-type-attribute.md) ] 屬性設定為 **MFMediaType \_ Stream**。</span><span class="sxs-lookup"><span data-stu-id="d19e1-107">When these subtypes are used, set the [MF\_MT\_MAJOR\_TYPE](mf-mt-major-type-attribute.md) attribute to **MFMediaType\_Stream**.</span></span>
+<span data-ttu-id="be391-107">使用這些子類型時，請將 [ [MF \_ MT \_ 主要 \_ 類型](mf-mt-major-type-attribute.md) ] 屬性設定為 **MFMediaType \_ Stream**。</span><span class="sxs-lookup"><span data-stu-id="be391-107">When these subtypes are used, set the [MF\_MT\_MAJOR\_TYPE](mf-mt-major-type-attribute.md) attribute to **MFMediaType\_Stream**.</span></span>
 
 
 
-| <span data-ttu-id="d19e1-108">GUID</span><span class="sxs-lookup"><span data-stu-id="d19e1-108">GUID</span></span>                               | <span data-ttu-id="d19e1-109">Description</span><span class="sxs-lookup"><span data-stu-id="d19e1-109">Description</span></span>              |
+| <span data-ttu-id="be391-108">GUID</span><span class="sxs-lookup"><span data-stu-id="be391-108">GUID</span></span>                               | <span data-ttu-id="be391-109">Description</span><span class="sxs-lookup"><span data-stu-id="be391-109">Description</span></span>              |
 |------------------------------------|--------------------------|
-| <span data-ttu-id="d19e1-110">**MFStreamFormat \_ MPEG2Program**</span><span class="sxs-lookup"><span data-stu-id="d19e1-110">**MFStreamFormat\_MPEG2Program**</span></span>   | <span data-ttu-id="d19e1-111">MPEG-2 程式資料流程</span><span class="sxs-lookup"><span data-stu-id="d19e1-111">MPEG-2 program stream</span></span>    |
-| <span data-ttu-id="d19e1-112">**MFStreamFormat \_ MPEG2Transport**</span><span class="sxs-lookup"><span data-stu-id="d19e1-112">**MFStreamFormat\_MPEG2Transport**</span></span> | <span data-ttu-id="d19e1-113">MPEG-2 傳輸串流。</span><span class="sxs-lookup"><span data-stu-id="d19e1-113">MPEG-2 transport stream.</span></span> |
+| <span data-ttu-id="be391-110">**MFStreamFormat \_ MPEG2Program**</span><span class="sxs-lookup"><span data-stu-id="be391-110">**MFStreamFormat\_MPEG2Program**</span></span>   | <span data-ttu-id="be391-111">MPEG-2 程式資料流程</span><span class="sxs-lookup"><span data-stu-id="be391-111">MPEG-2 program stream</span></span>    |
+| <span data-ttu-id="be391-112">**MFStreamFormat \_ MPEG2Transport**</span><span class="sxs-lookup"><span data-stu-id="be391-112">**MFStreamFormat\_MPEG2Transport**</span></span> | <span data-ttu-id="be391-113">MPEG-2 傳輸串流。</span><span class="sxs-lookup"><span data-stu-id="be391-113">MPEG-2 transport stream.</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="d19e1-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="d19e1-114">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="be391-114">相關主題</span><span class="sxs-lookup"><span data-stu-id="be391-114">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d19e1-115">媒體類型</span><span class="sxs-lookup"><span data-stu-id="d19e1-115">Media Types</span></span>](media-types.md)
+[<span data-ttu-id="be391-115">媒體類型</span><span class="sxs-lookup"><span data-stu-id="be391-115">Media Types</span></span>](media-types.md)
 </dt> </dl>
 
  

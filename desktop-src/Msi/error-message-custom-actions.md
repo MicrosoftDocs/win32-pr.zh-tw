@@ -11,21 +11,21 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848287"
 ---
-# <a name="error-message-custom-actions"></a><span data-ttu-id="beb36-104">錯誤訊息自訂動作</span><span class="sxs-lookup"><span data-stu-id="beb36-104">Error Message Custom Actions</span></span>
+# <a name="error-message-custom-actions"></a><span data-ttu-id="1c6d4-104">錯誤訊息自訂動作</span><span class="sxs-lookup"><span data-stu-id="1c6d4-104">Error Message Custom Actions</span></span>
 
-<span data-ttu-id="beb36-105">這種類型的自訂動作會顯示指定的錯誤訊息，並傳回失敗，並終止安裝。</span><span class="sxs-lookup"><span data-stu-id="beb36-105">This type of custom action displays a specified error message and returns failure, terminating the installation.</span></span> <span data-ttu-id="beb36-106">要顯示的錯誤訊息可提供為字串或 [錯誤資料表](error-table.md)中的索引。</span><span class="sxs-lookup"><span data-stu-id="beb36-106">The error message to be displayed can be supplied as a string or as an index into the [Error table](error-table.md).</span></span>
+<span data-ttu-id="1c6d4-105">這種類型的自訂動作會顯示指定的錯誤訊息，並傳回失敗，並終止安裝。</span><span class="sxs-lookup"><span data-stu-id="1c6d4-105">This type of custom action displays a specified error message and returns failure, terminating the installation.</span></span> <span data-ttu-id="1c6d4-106">要顯示的錯誤訊息可提供為字串或 [錯誤資料表](error-table.md)中的索引。</span><span class="sxs-lookup"><span data-stu-id="1c6d4-106">The error message to be displayed can be supplied as a string or as an index into the [Error table](error-table.md).</span></span>
 
 
 
-| <span data-ttu-id="beb36-107">自訂動作類型</span><span class="sxs-lookup"><span data-stu-id="beb36-107">Custom action type</span></span>                                 | <span data-ttu-id="beb36-108">Description</span><span class="sxs-lookup"><span data-stu-id="beb36-108">Description</span></span>                                                |
+| <span data-ttu-id="1c6d4-107">自訂動作類型</span><span class="sxs-lookup"><span data-stu-id="1c6d4-107">Custom action type</span></span>                                 | <span data-ttu-id="1c6d4-108">Description</span><span class="sxs-lookup"><span data-stu-id="1c6d4-108">Description</span></span>                                                |
 |----------------------------------------------------|------------------------------------------------------------|
-| [<span data-ttu-id="beb36-109">自訂動作類型19</span><span class="sxs-lookup"><span data-stu-id="beb36-109">Custom Action Type 19</span></span>](custom-action-type-19.md) | <span data-ttu-id="beb36-110">終止安裝並顯示錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="beb36-110">Terminates the installation and displays an error message.</span></span> |
+| [<span data-ttu-id="1c6d4-109">自訂動作類型19</span><span class="sxs-lookup"><span data-stu-id="1c6d4-109">Custom Action Type 19</span></span>](custom-action-type-19.md) | <span data-ttu-id="1c6d4-110">終止安裝並顯示錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="1c6d4-110">Terminates the installation and displays an error message.</span></span> |
 
 
 
  
 
-<span data-ttu-id="beb36-111">如需如何將每個自訂動作類型編碼至[CustomAction 資料表](customaction-table.md)的摘要，請參閱[所有自訂動作類型的「摘要清單](summary-list-of-all-custom-action-types.md)」一節。</span><span class="sxs-lookup"><span data-stu-id="beb36-111">See the section [Summary List of All Custom Action Types](summary-list-of-all-custom-action-types.md) for a summary of how to encode each of the custom action types into the [CustomAction table](customaction-table.md).</span></span>
+<span data-ttu-id="1c6d4-111">如需如何將每個自訂動作類型編碼至[CustomAction 資料表](customaction-table.md)的摘要，請參閱[所有自訂動作類型的「摘要清單](summary-list-of-all-custom-action-types.md)」一節。</span><span class="sxs-lookup"><span data-stu-id="1c6d4-111">See the section [Summary List of All Custom Action Types](summary-list-of-all-custom-action-types.md) for a summary of how to encode each of the custom action types into the [CustomAction table](customaction-table.md).</span></span>
 
  
 

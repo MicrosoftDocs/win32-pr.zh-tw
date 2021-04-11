@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849548"
 ---
-# <a name="jet_index_columncolumnid-property"></a><span data-ttu-id="b5461-103">JET_INDEX_COLUMN columnid 屬性</span><span class="sxs-lookup"><span data-stu-id="b5461-103">JET_INDEX_COLUMN.columnid property</span></span>
+# <a name="jet_index_columncolumnid-property"></a><span data-ttu-id="6d969-103">JET_INDEX_COLUMN columnid 屬性</span><span class="sxs-lookup"><span data-stu-id="6d969-103">JET_INDEX_COLUMN.columnid property</span></span>
 
-<span data-ttu-id="b5461-104">取得或設定要取得之資料行的資料行識別碼。</span><span class="sxs-lookup"><span data-stu-id="b5461-104">Gets or sets the column identifier for the column to retrieve.</span></span>
+<span data-ttu-id="6d969-104">取得或設定要取得之資料行的資料行識別碼。</span><span class="sxs-lookup"><span data-stu-id="6d969-104">Gets or sets the column identifier for the column to retrieve.</span></span>
 
-<span data-ttu-id="b5461-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="b5461-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="b5461-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="b5461-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="6d969-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6d969-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="6d969-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6d969-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b5461-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="b5461-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6d969-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="6d969-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.columnid = value
 public JET_COLUMNID columnid { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="b5461-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="b5461-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="6d969-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="6d969-108">Property value</span></span>
 
-<span data-ttu-id="b5461-109">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="b5461-109">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
+<span data-ttu-id="6d969-109">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="6d969-109">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="b5461-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b5461-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6d969-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6d969-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="b5461-111">參考</span><span class="sxs-lookup"><span data-stu-id="b5461-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="6d969-111">參考</span><span class="sxs-lookup"><span data-stu-id="6d969-111">Reference</span></span>
 
-[<span data-ttu-id="b5461-112">JET_INDEX_COLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="b5461-112">JET_INDEX_COLUMN class</span></span>](./jet-index-column-class.md)
+[<span data-ttu-id="6d969-112">JET_INDEX_COLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="6d969-112">JET_INDEX_COLUMN class</span></span>](./jet-index-column-class.md)
 
-[<span data-ttu-id="b5461-113">JET_INDEX_COLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="b5461-113">JET_INDEX_COLUMN members</span></span>](./jet-index-column-members.md)
+[<span data-ttu-id="6d969-113">JET_INDEX_COLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="6d969-113">JET_INDEX_COLUMN members</span></span>](./jet-index-column-members.md)
 
-[<span data-ttu-id="b5461-114">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="b5461-114">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="6d969-114">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="6d969-114">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

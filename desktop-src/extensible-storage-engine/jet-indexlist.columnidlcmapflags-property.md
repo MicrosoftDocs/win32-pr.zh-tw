@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850728"
 ---
-# <a name="jet_indexlistcolumnidlcmapflags-property"></a><span data-ttu-id="8fa8d-103">JET_INDEXLIST columnidLCMapFlags 屬性</span><span class="sxs-lookup"><span data-stu-id="8fa8d-103">JET_INDEXLIST.columnidLCMapFlags property</span></span>
+# <a name="jet_indexlistcolumnidlcmapflags-property"></a><span data-ttu-id="e7a79-103">JET_INDEXLIST columnidLCMapFlags 屬性</span><span class="sxs-lookup"><span data-stu-id="e7a79-103">JET_INDEXLIST.columnidLCMapFlags property</span></span>
 
-<span data-ttu-id="8fa8d-104">取得臨時表中的資料行 columnid，此資料表會儲存索引的 unicode 正規化旗標。</span><span class="sxs-lookup"><span data-stu-id="8fa8d-104">Gets the columnid of the column in the temporary table which stores the unicode normalization flags for the index.</span></span> <span data-ttu-id="8fa8d-105">資料行的類型為 [Long](./jet-coltyp-enumeration.md)。</span><span class="sxs-lookup"><span data-stu-id="8fa8d-105">The column is of type [Long](./jet-coltyp-enumeration.md).</span></span>
+<span data-ttu-id="e7a79-104">取得臨時表中的資料行 columnid，此資料表會儲存索引的 unicode 正規化旗標。</span><span class="sxs-lookup"><span data-stu-id="e7a79-104">Gets the columnid of the column in the temporary table which stores the unicode normalization flags for the index.</span></span> <span data-ttu-id="e7a79-105">資料行的類型為 [Long](./jet-coltyp-enumeration.md)。</span><span class="sxs-lookup"><span data-stu-id="e7a79-105">The column is of type [Long](./jet-coltyp-enumeration.md).</span></span>
 
-<span data-ttu-id="8fa8d-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="8fa8d-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="8fa8d-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8fa8d-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="e7a79-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e7a79-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="e7a79-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e7a79-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8fa8d-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="8fa8d-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e7a79-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="e7a79-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,16 +58,16 @@ value = instance.columnidLCMapFlags
 public JET_COLUMNID columnidLCMapFlags { get; internal set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="8fa8d-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="8fa8d-109">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="e7a79-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="e7a79-109">Property value</span></span>
 
-<span data-ttu-id="8fa8d-110">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="8fa8d-110">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
+<span data-ttu-id="e7a79-110">類型： [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="e7a79-110">Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="8fa8d-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8fa8d-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e7a79-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e7a79-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="8fa8d-112">參考</span><span class="sxs-lookup"><span data-stu-id="8fa8d-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="e7a79-112">參考</span><span class="sxs-lookup"><span data-stu-id="e7a79-112">Reference</span></span>
 
-[<span data-ttu-id="8fa8d-113">JET_INDEXLIST 類別</span><span class="sxs-lookup"><span data-stu-id="8fa8d-113">JET_INDEXLIST class</span></span>](./jet-indexlist-class.md)
+[<span data-ttu-id="e7a79-113">JET_INDEXLIST 類別</span><span class="sxs-lookup"><span data-stu-id="e7a79-113">JET_INDEXLIST class</span></span>](./jet-indexlist-class.md)
 
-[<span data-ttu-id="8fa8d-114">JET_INDEXLIST 成員</span><span class="sxs-lookup"><span data-stu-id="8fa8d-114">JET_INDEXLIST members</span></span>](./jet-indexlist-members.md)
+[<span data-ttu-id="e7a79-114">JET_INDEXLIST 成員</span><span class="sxs-lookup"><span data-stu-id="e7a79-114">JET_INDEXLIST members</span></span>](./jet-indexlist-members.md)
 
-[<span data-ttu-id="8fa8d-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="8fa8d-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="e7a79-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="e7a79-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103935085"
 ---
-# <a name="tdn_verification_clicked-notification-code"></a><span data-ttu-id="c25a3-105">TDN \_ 驗證已 \_ 按一下通知碼</span><span class="sxs-lookup"><span data-stu-id="c25a3-105">TDN\_VERIFICATION\_CLICKED notification code</span></span>
+# <a name="tdn_verification_clicked-notification-code"></a><span data-ttu-id="d4494-105">TDN \_ 驗證已 \_ 按一下通知碼</span><span class="sxs-lookup"><span data-stu-id="d4494-105">TDN\_VERIFICATION\_CLICKED notification code</span></span>
 
-<span data-ttu-id="c25a3-106">當使用者按一下工作對話方塊驗證核取方塊時，由工作對話方塊傳送。</span><span class="sxs-lookup"><span data-stu-id="c25a3-106">Sent by a task dialog when the user clicks the task dialog verification check box.</span></span> <span data-ttu-id="c25a3-107">此通知碼只會透過工作對話方塊回呼函式接收，此函式可以使用 [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) 方法來註冊。</span><span class="sxs-lookup"><span data-stu-id="c25a3-107">This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) method.</span></span>
+<span data-ttu-id="d4494-106">當使用者按一下工作對話方塊驗證核取方塊時，由工作對話方塊傳送。</span><span class="sxs-lookup"><span data-stu-id="d4494-106">Sent by a task dialog when the user clicks the task dialog verification check box.</span></span> <span data-ttu-id="d4494-107">此通知碼只會透過工作對話方塊回呼函式接收，此函式可以使用 [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) 方法來註冊。</span><span class="sxs-lookup"><span data-stu-id="d4494-107">This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) method.</span></span>
 
 
 ```C++
@@ -35,48 +35,48 @@ TDN_VERIFICATION_CLICKED
 
 
 
-## <a name="parameters"></a><span data-ttu-id="c25a3-108">參數</span><span class="sxs-lookup"><span data-stu-id="c25a3-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d4494-108">參數</span><span class="sxs-lookup"><span data-stu-id="d4494-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c25a3-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="c25a3-109">*wParam*</span></span> 
+<span data-ttu-id="d4494-109">*wParam*</span><span class="sxs-lookup"><span data-stu-id="d4494-109">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="c25a3-110">指定驗證核取方塊狀態的 **布林** 值。</span><span class="sxs-lookup"><span data-stu-id="c25a3-110">A **BOOL** that specifies the status of the verification checkbox.</span></span> <span data-ttu-id="c25a3-111">如果已核取 [驗證] 核取方塊，則為 **TRUE** ; 如果未核取，則為 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="c25a3-111">It is **TRUE** if the verification checkbox is checked, or **FALSE** if it is unchecked.</span></span>
+<span data-ttu-id="d4494-110">指定驗證核取方塊狀態的 **布林** 值。</span><span class="sxs-lookup"><span data-stu-id="d4494-110">A **BOOL** that specifies the status of the verification checkbox.</span></span> <span data-ttu-id="d4494-111">如果已核取 [驗證] 核取方塊，則為 **TRUE** ; 如果未核取，則為 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="d4494-111">It is **TRUE** if the verification checkbox is checked, or **FALSE** if it is unchecked.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="c25a3-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="c25a3-112">*lParam*</span></span> 
+<span data-ttu-id="d4494-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="d4494-112">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="c25a3-113">必須為零。</span><span class="sxs-lookup"><span data-stu-id="c25a3-113">Must be zero.</span></span>
+<span data-ttu-id="d4494-113">必須為零。</span><span class="sxs-lookup"><span data-stu-id="d4494-113">Must be zero.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="c25a3-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="c25a3-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d4494-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="d4494-114">Return value</span></span>
 
-<span data-ttu-id="c25a3-115">傳回值會被忽略。</span><span class="sxs-lookup"><span data-stu-id="c25a3-115">The return value is ignored.</span></span>
+<span data-ttu-id="d4494-115">傳回值會被忽略。</span><span class="sxs-lookup"><span data-stu-id="d4494-115">The return value is ignored.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="c25a3-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="c25a3-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="d4494-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="d4494-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="c25a3-117">需求</span><span class="sxs-lookup"><span data-stu-id="c25a3-117">Requirement</span></span> | <span data-ttu-id="c25a3-118">值</span><span class="sxs-lookup"><span data-stu-id="c25a3-118">Value</span></span> |
+| <span data-ttu-id="d4494-117">需求</span><span class="sxs-lookup"><span data-stu-id="d4494-117">Requirement</span></span> | <span data-ttu-id="d4494-118">值</span><span class="sxs-lookup"><span data-stu-id="d4494-118">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="c25a3-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c25a3-119">Minimum supported client</span></span><br/> | <span data-ttu-id="c25a3-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c25a3-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="c25a3-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c25a3-121">Minimum supported server</span></span><br/> | <span data-ttu-id="c25a3-122">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c25a3-122">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="c25a3-123">標頭</span><span class="sxs-lookup"><span data-stu-id="c25a3-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="c25a3-124"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="c25a3-124"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="d4494-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d4494-119">Minimum supported client</span></span><br/> | <span data-ttu-id="d4494-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d4494-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="d4494-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d4494-121">Minimum supported server</span></span><br/> | <span data-ttu-id="d4494-122">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d4494-122">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="d4494-123">標頭</span><span class="sxs-lookup"><span data-stu-id="d4494-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="d4494-124"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="d4494-124"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="c25a3-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c25a3-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d4494-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d4494-125">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c25a3-126">**參考**</span><span class="sxs-lookup"><span data-stu-id="c25a3-126">**Reference**</span></span>
+<span data-ttu-id="d4494-126">**參考**</span><span class="sxs-lookup"><span data-stu-id="d4494-126">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="c25a3-127">*TaskDialogCallbackProc*</span><span class="sxs-lookup"><span data-stu-id="c25a3-127">*TaskDialogCallbackProc*</span></span>](/windows/win32/api/commctrl/nc-commctrl-pftaskdialogcallback)
+[<span data-ttu-id="d4494-127">*TaskDialogCallbackProc*</span><span class="sxs-lookup"><span data-stu-id="d4494-127">*TaskDialogCallbackProc*</span></span>](/windows/win32/api/commctrl/nc-commctrl-pftaskdialogcallback)
 </dt> </dl>
 
  

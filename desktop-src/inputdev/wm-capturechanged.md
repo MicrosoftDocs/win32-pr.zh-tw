@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "104094355"
 ---
-# <a name="wm_capturechanged-message"></a><span data-ttu-id="02892-104">WM \_ CAPTURECHANGED 訊息</span><span class="sxs-lookup"><span data-stu-id="02892-104">WM\_CAPTURECHANGED message</span></span>
+# <a name="wm_capturechanged-message"></a><span data-ttu-id="b5469-104">WM \_ CAPTURECHANGED 訊息</span><span class="sxs-lookup"><span data-stu-id="b5469-104">WM\_CAPTURECHANGED message</span></span>
 
-<span data-ttu-id="02892-105">傳送至遺失滑鼠捕捉的視窗。</span><span class="sxs-lookup"><span data-stu-id="02892-105">Sent to the window that is losing the mouse capture.</span></span>
+<span data-ttu-id="b5469-105">傳送至遺失滑鼠捕捉的視窗。</span><span class="sxs-lookup"><span data-stu-id="b5469-105">Sent to the window that is losing the mouse capture.</span></span>
 
-<span data-ttu-id="02892-106">視窗會透過其 [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) 函數接收此訊息。</span><span class="sxs-lookup"><span data-stu-id="02892-106">A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.</span></span>
+<span data-ttu-id="b5469-106">視窗會透過其 [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) 函數接收此訊息。</span><span class="sxs-lookup"><span data-stu-id="b5469-106">A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.</span></span>
 
 
 ```C++
@@ -34,63 +34,63 @@ ms.locfileid: "104094355"
 
 
 
-## <a name="parameters"></a><span data-ttu-id="02892-107">參數</span><span class="sxs-lookup"><span data-stu-id="02892-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b5469-107">參數</span><span class="sxs-lookup"><span data-stu-id="b5469-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="02892-108">*wParam*</span><span class="sxs-lookup"><span data-stu-id="02892-108">*wParam*</span></span> 
+<span data-ttu-id="b5469-108">*wParam*</span><span class="sxs-lookup"><span data-stu-id="b5469-108">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="02892-109">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="02892-109">This parameter is not used.</span></span>
+<span data-ttu-id="b5469-109">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="b5469-109">This parameter is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="02892-110">*lParam*</span><span class="sxs-lookup"><span data-stu-id="02892-110">*lParam*</span></span> 
+<span data-ttu-id="b5469-110">*lParam*</span><span class="sxs-lookup"><span data-stu-id="b5469-110">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="02892-111">取得滑鼠捕捉的視窗控制碼。</span><span class="sxs-lookup"><span data-stu-id="02892-111">A handle to the window gaining the mouse capture.</span></span>
+<span data-ttu-id="b5469-111">取得滑鼠捕捉的視窗控制碼。</span><span class="sxs-lookup"><span data-stu-id="b5469-111">A handle to the window gaining the mouse capture.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="02892-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="02892-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b5469-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="b5469-112">Return value</span></span>
 
-<span data-ttu-id="02892-113">如果應用程式處理此訊息，則應該傳回零。</span><span class="sxs-lookup"><span data-stu-id="02892-113">An application should return zero if it processes this message.</span></span>
+<span data-ttu-id="b5469-113">如果應用程式處理此訊息，則應該傳回零。</span><span class="sxs-lookup"><span data-stu-id="b5469-113">An application should return zero if it processes this message.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="02892-114">備註</span><span class="sxs-lookup"><span data-stu-id="02892-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5469-114">備註</span><span class="sxs-lookup"><span data-stu-id="b5469-114">Remarks</span></span>
 
-<span data-ttu-id="02892-115">即使視窗呼叫 [**ReleaseCapture**](/windows/win32/api/winuser/nf-winuser-releasecapture) 本身，也會收到此訊息。</span><span class="sxs-lookup"><span data-stu-id="02892-115">A window receives this message even if it calls [**ReleaseCapture**](/windows/win32/api/winuser/nf-winuser-releasecapture) itself.</span></span> <span data-ttu-id="02892-116">應用程式不應該嘗試設定滑鼠捕捉以回應此訊息。</span><span class="sxs-lookup"><span data-stu-id="02892-116">An application should not attempt to set the mouse capture in response to this message.</span></span>
+<span data-ttu-id="b5469-115">即使視窗呼叫 [**ReleaseCapture**](/windows/win32/api/winuser/nf-winuser-releasecapture) 本身，也會收到此訊息。</span><span class="sxs-lookup"><span data-stu-id="b5469-115">A window receives this message even if it calls [**ReleaseCapture**](/windows/win32/api/winuser/nf-winuser-releasecapture) itself.</span></span> <span data-ttu-id="b5469-116">應用程式不應該嘗試設定滑鼠捕捉以回應此訊息。</span><span class="sxs-lookup"><span data-stu-id="b5469-116">An application should not attempt to set the mouse capture in response to this message.</span></span>
 
-<span data-ttu-id="02892-117">當它收到這則訊息時，視窗應該視需要重繪自己，以反映新的滑鼠捕捉狀態。</span><span class="sxs-lookup"><span data-stu-id="02892-117">When it receives this message, a window should redraw itself, if necessary, to reflect the new mouse-capture state.</span></span>
+<span data-ttu-id="b5469-117">當它收到這則訊息時，視窗應該視需要重繪自己，以反映新的滑鼠捕捉狀態。</span><span class="sxs-lookup"><span data-stu-id="b5469-117">When it receives this message, a window should redraw itself, if necessary, to reflect the new mouse-capture state.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="02892-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="02892-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b5469-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="b5469-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="02892-119">需求</span><span class="sxs-lookup"><span data-stu-id="02892-119">Requirement</span></span> | <span data-ttu-id="02892-120">值</span><span class="sxs-lookup"><span data-stu-id="02892-120">Value</span></span> |
+| <span data-ttu-id="b5469-119">需求</span><span class="sxs-lookup"><span data-stu-id="b5469-119">Requirement</span></span> | <span data-ttu-id="b5469-120">值</span><span class="sxs-lookup"><span data-stu-id="b5469-120">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="02892-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="02892-121">Minimum supported client</span></span><br/> | <span data-ttu-id="02892-122">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="02892-122">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                               |
-| <span data-ttu-id="02892-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="02892-123">Minimum supported server</span></span><br/> | <span data-ttu-id="02892-124">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="02892-124">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="02892-125">標頭</span><span class="sxs-lookup"><span data-stu-id="02892-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="02892-126"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="02892-126"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="b5469-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="b5469-121">Minimum supported client</span></span><br/> | <span data-ttu-id="b5469-122">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b5469-122">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                               |
+| <span data-ttu-id="b5469-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="b5469-123">Minimum supported server</span></span><br/> | <span data-ttu-id="b5469-124">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="b5469-124">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="b5469-125">標頭</span><span class="sxs-lookup"><span data-stu-id="b5469-125">Header</span></span><br/>                   | <dl> <span data-ttu-id="b5469-126"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="b5469-126"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="02892-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="02892-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b5469-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b5469-127">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="02892-128">**參考**</span><span class="sxs-lookup"><span data-stu-id="02892-128">**Reference**</span></span>
+<span data-ttu-id="b5469-128">**參考**</span><span class="sxs-lookup"><span data-stu-id="b5469-128">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="02892-129">**ReleaseCapture**</span><span class="sxs-lookup"><span data-stu-id="02892-129">**ReleaseCapture**</span></span>](/windows/win32/api/winuser/nf-winuser-releasecapture)
+[<span data-ttu-id="b5469-129">**ReleaseCapture**</span><span class="sxs-lookup"><span data-stu-id="b5469-129">**ReleaseCapture**</span></span>](/windows/win32/api/winuser/nf-winuser-releasecapture)
 </dt> <dt>
 
-[<span data-ttu-id="02892-130">**SetCapture**</span><span class="sxs-lookup"><span data-stu-id="02892-130">**SetCapture**</span></span>](/windows/win32/api/winuser/nf-winuser-setcapture)
+[<span data-ttu-id="b5469-130">**SetCapture**</span><span class="sxs-lookup"><span data-stu-id="b5469-130">**SetCapture**</span></span>](/windows/win32/api/winuser/nf-winuser-setcapture)
 </dt> <dt>
 
-<span data-ttu-id="02892-131">**概念**</span><span class="sxs-lookup"><span data-stu-id="02892-131">**Conceptual**</span></span>
+<span data-ttu-id="b5469-131">**概念**</span><span class="sxs-lookup"><span data-stu-id="b5469-131">**Conceptual**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="02892-132">滑鼠輸入</span><span class="sxs-lookup"><span data-stu-id="02892-132">Mouse Input</span></span>](mouse-input.md)
+[<span data-ttu-id="b5469-132">滑鼠輸入</span><span class="sxs-lookup"><span data-stu-id="b5469-132">Mouse Input</span></span>](mouse-input.md)
 </dt> </dl>
 
  

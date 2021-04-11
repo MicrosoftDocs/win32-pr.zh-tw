@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "104023241"
 ---
-# <a name="example-code-for-creating-an-external-crossref-object"></a><span data-ttu-id="064e2-105">建立外部交互參照物件的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="064e2-105">Example Code for Creating an External crossRef Object</span></span>
+# <a name="example-code-for-creating-an-external-crossref-object"></a><span data-ttu-id="c334a-105">建立外部交互參照物件的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="c334a-105">Example Code for Creating an External crossRef Object</span></span>
 
-<span data-ttu-id="064e2-106">下列 Visual Basic 程式碼範例示範如何建立外部 [**交叉引用**](/windows/desktop/ADSchema/c-crossref) 物件。</span><span class="sxs-lookup"><span data-stu-id="064e2-106">The following Visual Basic code example shows how to create an external [**crossRef**](/windows/desktop/ADSchema/c-crossref) object.</span></span>
+<span data-ttu-id="c334a-106">下列 Visual Basic 程式碼範例示範如何建立外部 [**交叉引用**](/windows/desktop/ADSchema/c-crossref) 物件。</span><span class="sxs-lookup"><span data-stu-id="c334a-106">The following Visual Basic code example shows how to create an external [**crossRef**](/windows/desktop/ADSchema/c-crossref) object.</span></span>
 
 
 ```VB

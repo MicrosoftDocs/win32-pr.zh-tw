@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852163"
 ---
-# <a name="math-input-classes-and-interfaces"></a><span data-ttu-id="0cdc8-103">數學輸入類別和介面</span><span class="sxs-lookup"><span data-stu-id="0cdc8-103">Math Input Classes and Interfaces</span></span>
+# <a name="math-input-classes-and-interfaces"></a><span data-ttu-id="8ddcd-103">數學輸入類別和介面</span><span class="sxs-lookup"><span data-stu-id="8ddcd-103">Math Input Classes and Interfaces</span></span>
 
-<span data-ttu-id="0cdc8-104">此區段包含用於數學輸入控制項的類別和介面。</span><span class="sxs-lookup"><span data-stu-id="0cdc8-104">This section contains the classes and interfaces that are used for the math input control.</span></span>
+<span data-ttu-id="8ddcd-104">此區段包含用於數學輸入控制項的類別和介面。</span><span class="sxs-lookup"><span data-stu-id="8ddcd-104">This section contains the classes and interfaces that are used for the math input control.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="0cdc8-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0cdc8-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8ddcd-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="8ddcd-105">In This Section</span></span>
 
 
 
-| <span data-ttu-id="0cdc8-106">介面</span><span class="sxs-lookup"><span data-stu-id="0cdc8-106">Interface</span></span>                                                     | <span data-ttu-id="0cdc8-107">描述</span><span class="sxs-lookup"><span data-stu-id="0cdc8-107">Description</span></span>                                                       |
+| <span data-ttu-id="8ddcd-106">介面</span><span class="sxs-lookup"><span data-stu-id="8ddcd-106">Interface</span></span>                                                     | <span data-ttu-id="8ddcd-107">描述</span><span class="sxs-lookup"><span data-stu-id="8ddcd-107">Description</span></span>                                                       |
 |---------------------------------------------------------------|-------------------------------------------------------------------|
-| [<span data-ttu-id="0cdc8-108">**\_IMathInputControlEvents**</span><span class="sxs-lookup"><span data-stu-id="0cdc8-108">**\_IMathInputControlEvents**</span></span>](/windows/win32/api/micaut/nn-micaut-_imathinputcontrolevents) | <span data-ttu-id="0cdc8-109">公開數學輸入控制事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="0cdc8-109">Exposes the math input control event handlers.</span></span>                    |
-| [<span data-ttu-id="0cdc8-110">**IMathInputControl**</span><span class="sxs-lookup"><span data-stu-id="0cdc8-110">**IMathInputControl**</span></span>](/windows/desktop/api/micaut/nn-micaut-imathinputcontrol)                | <span data-ttu-id="0cdc8-111">公開將筆墨輸入轉換成解讀的數學輸出的方法。</span><span class="sxs-lookup"><span data-stu-id="0cdc8-111">Exposes methods that turn ink input into interpreted math output.</span></span> |
+| [<span data-ttu-id="8ddcd-108">**\_IMathInputControlEvents**</span><span class="sxs-lookup"><span data-stu-id="8ddcd-108">**\_IMathInputControlEvents**</span></span>](/windows/win32/api/micaut/nn-micaut-_imathinputcontrolevents) | <span data-ttu-id="8ddcd-109">公開數學輸入控制事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="8ddcd-109">Exposes the math input control event handlers.</span></span>                    |
+| [<span data-ttu-id="8ddcd-110">**IMathInputControl**</span><span class="sxs-lookup"><span data-stu-id="8ddcd-110">**IMathInputControl**</span></span>](/windows/desktop/api/micaut/nn-micaut-imathinputcontrol)                | <span data-ttu-id="8ddcd-111">公開將筆墨輸入轉換成解讀的數學輸出的方法。</span><span class="sxs-lookup"><span data-stu-id="8ddcd-111">Exposes methods that turn ink input into interpreted math output.</span></span> |
 
 
 

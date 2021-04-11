@@ -11,35 +11,35 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104114500"
 ---
-# <a name="xmvectoru8-extensions"></a><span data-ttu-id="3234b-103">XMVECTORU8 延伸模組</span><span class="sxs-lookup"><span data-stu-id="3234b-103">XMVECTORU8 Extensions</span></span>
+# <a name="xmvectoru8-extensions"></a><span data-ttu-id="d099f-103">XMVECTORU8 延伸模組</span><span class="sxs-lookup"><span data-stu-id="d099f-103">XMVECTORU8 Extensions</span></span>
 
-<span data-ttu-id="3234b-104">[**XMVECTORU8**](xmvectoru8-data-type.md)類型支援使用 C/c + + 初始化運算式語法，將浮點值載入至 [**XMVECTOR**](xmvector-data-type.md)類型的實例。</span><span class="sxs-lookup"><span data-stu-id="3234b-104">The [**XMVECTORU8**](xmvectoru8-data-type.md) type supports the use of C/C++ initializer syntax to load floating-point values into an instance of [**XMVECTOR**](xmvector-data-type.md) type.</span></span>
+<span data-ttu-id="d099f-104">[**XMVECTORU8**](xmvectoru8-data-type.md)類型支援使用 C/c + + 初始化運算式語法，將浮點值載入至 [**XMVECTOR**](xmvector-data-type.md)類型的實例。</span><span class="sxs-lookup"><span data-stu-id="d099f-104">The [**XMVECTORU8**](xmvectoru8-data-type.md) type supports the use of C/C++ initializer syntax to load floating-point values into an instance of [**XMVECTOR**](xmvector-data-type.md) type.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="3234b-105">此處所列的功能只有在使用 c + + 進行開發時才可使用。</span><span class="sxs-lookup"><span data-stu-id="3234b-105">The features listed here are only available when developing with C++.</span></span>
+> <span data-ttu-id="d099f-105">此處所列的功能只有在使用 c + + 進行開發時才可使用。</span><span class="sxs-lookup"><span data-stu-id="d099f-105">The features listed here are only available when developing with C++.</span></span>
 
  
 
-## <a name="in-this-section"></a><span data-ttu-id="3234b-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="3234b-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d099f-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="d099f-106">In this section</span></span>
 
 
 
-| <span data-ttu-id="3234b-107">主題</span><span class="sxs-lookup"><span data-stu-id="3234b-107">Topic</span></span>                                                           | <span data-ttu-id="3234b-108">描述</span><span class="sxs-lookup"><span data-stu-id="3234b-108">Description</span></span>                                                                                          |
+| <span data-ttu-id="d099f-107">主題</span><span class="sxs-lookup"><span data-stu-id="d099f-107">Topic</span></span>                                                           | <span data-ttu-id="d099f-108">描述</span><span class="sxs-lookup"><span data-stu-id="d099f-108">Description</span></span>                                                                                          |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="3234b-109">XMVECTORU8 運算子</span><span class="sxs-lookup"><span data-stu-id="3234b-109">XMVECTORU8 Operators</span></span>](ovw-xmvectoru8-operators.md)<br/> | <span data-ttu-id="3234b-110">[**XMVECTORU8**](xmvectoru8-data-type.md)結構會公開下列運算子。</span><span class="sxs-lookup"><span data-stu-id="3234b-110">The [**XMVECTORU8**](xmvectoru8-data-type.md) structure exposes the following operators.</span></span><br/> |
+| [<span data-ttu-id="d099f-109">XMVECTORU8 運算子</span><span class="sxs-lookup"><span data-stu-id="d099f-109">XMVECTORU8 Operators</span></span>](ovw-xmvectoru8-operators.md)<br/> | <span data-ttu-id="d099f-110">[**XMVECTORU8**](xmvectoru8-data-type.md)結構會公開下列運算子。</span><span class="sxs-lookup"><span data-stu-id="d099f-110">The [**XMVECTORU8**](xmvectoru8-data-type.md) structure exposes the following operators.</span></span><br/> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="3234b-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="3234b-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d099f-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="d099f-111">Related topics</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="3234b-112">**類型**</span><span class="sxs-lookup"><span data-stu-id="3234b-112">**Types**</span></span>
+<span data-ttu-id="d099f-112">**類型**</span><span class="sxs-lookup"><span data-stu-id="d099f-112">**Types**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="3234b-113">**XMVECTORU8 資料類型**</span><span class="sxs-lookup"><span data-stu-id="3234b-113">**XMVECTORU8 Data Type**</span></span>](xmvectoru8-data-type.md)
+[<span data-ttu-id="d099f-113">**XMVECTORU8 資料類型**</span><span class="sxs-lookup"><span data-stu-id="d099f-113">**XMVECTORU8 Data Type**</span></span>](xmvectoru8-data-type.md)
 </dt> </dl>
 
  
