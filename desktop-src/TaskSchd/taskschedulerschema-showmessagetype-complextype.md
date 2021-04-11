@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934668"
 ---
-# <a name="showmessagetype-complex-type"></a><span data-ttu-id="5ea21-104">showMessageType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="5ea21-104">showMessageType Complex Type</span></span>
+# <a name="showmessagetype-complex-type"></a><span data-ttu-id="4ee74-104">showMessageType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="4ee74-104">showMessageType Complex Type</span></span>
 
-<span data-ttu-id="5ea21-105">定義代表顯示訊息方塊之動作的元素。</span><span class="sxs-lookup"><span data-stu-id="5ea21-105">Defines the elements that represent an action that shows a message box.</span></span>
+<span data-ttu-id="4ee74-105">定義代表顯示訊息方塊之動作的元素。</span><span class="sxs-lookup"><span data-stu-id="4ee74-105">Defines the elements that represent an action that shows a message box.</span></span>
 
 ``` syntax
 <xs:complexType name="showMessageType">
@@ -43,25 +43,25 @@ ms.locfileid: "103934668"
 </xs:complexType>
 ```
 
-## <a name="child-elements"></a><span data-ttu-id="5ea21-106">子元素</span><span class="sxs-lookup"><span data-stu-id="5ea21-106">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="4ee74-106">子元素</span><span class="sxs-lookup"><span data-stu-id="4ee74-106">Child elements</span></span>
 
 
 
-| <span data-ttu-id="5ea21-107">元素</span><span class="sxs-lookup"><span data-stu-id="5ea21-107">Element</span></span>                                                            | <span data-ttu-id="5ea21-108">類型</span><span class="sxs-lookup"><span data-stu-id="5ea21-108">Type</span></span>           | <span data-ttu-id="5ea21-109">Description</span><span class="sxs-lookup"><span data-stu-id="5ea21-109">Description</span></span>                                                               |
+| <span data-ttu-id="4ee74-107">元素</span><span class="sxs-lookup"><span data-stu-id="4ee74-107">Element</span></span>                                                            | <span data-ttu-id="4ee74-108">類型</span><span class="sxs-lookup"><span data-stu-id="4ee74-108">Type</span></span>           | <span data-ttu-id="4ee74-109">Description</span><span class="sxs-lookup"><span data-stu-id="4ee74-109">Description</span></span>                                                               |
 |--------------------------------------------------------------------|----------------|---------------------------------------------------------------------------|
-| [<span data-ttu-id="5ea21-110">**本文**</span><span class="sxs-lookup"><span data-stu-id="5ea21-110">**Body**</span></span>](taskschedulerschema-body-showmessagetype-element.md)   | <span data-ttu-id="5ea21-111">nonEmptyString</span><span class="sxs-lookup"><span data-stu-id="5ea21-111">nonEmptyString</span></span> | <span data-ttu-id="5ea21-112">指定要顯示在訊息方塊主體中的文字。</span><span class="sxs-lookup"><span data-stu-id="5ea21-112">Specifies the text to display in the body of the message box.</span></span> <br/> |
-| [<span data-ttu-id="5ea21-113">**標題**</span><span class="sxs-lookup"><span data-stu-id="5ea21-113">**Title**</span></span>](taskschedulerschema-title-showmessagetype-element.md) | <span data-ttu-id="5ea21-114">nonEmptyString</span><span class="sxs-lookup"><span data-stu-id="5ea21-114">nonEmptyString</span></span> | <span data-ttu-id="5ea21-115">指定訊息方塊的標題。</span><span class="sxs-lookup"><span data-stu-id="5ea21-115">Specifies the title of the message box.</span></span> <br/>                       |
+| [<span data-ttu-id="4ee74-110">**本文**</span><span class="sxs-lookup"><span data-stu-id="4ee74-110">**Body**</span></span>](taskschedulerschema-body-showmessagetype-element.md)   | <span data-ttu-id="4ee74-111">nonEmptyString</span><span class="sxs-lookup"><span data-stu-id="4ee74-111">nonEmptyString</span></span> | <span data-ttu-id="4ee74-112">指定要顯示在訊息方塊主體中的文字。</span><span class="sxs-lookup"><span data-stu-id="4ee74-112">Specifies the text to display in the body of the message box.</span></span> <br/> |
+| [<span data-ttu-id="4ee74-113">**標題**</span><span class="sxs-lookup"><span data-stu-id="4ee74-113">**Title**</span></span>](taskschedulerschema-title-showmessagetype-element.md) | <span data-ttu-id="4ee74-114">nonEmptyString</span><span class="sxs-lookup"><span data-stu-id="4ee74-114">nonEmptyString</span></span> | <span data-ttu-id="4ee74-115">指定訊息方塊的標題。</span><span class="sxs-lookup"><span data-stu-id="4ee74-115">Specifies the title of the message box.</span></span> <br/>                       |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="5ea21-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="5ea21-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4ee74-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="4ee74-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="5ea21-117">需求</span><span class="sxs-lookup"><span data-stu-id="5ea21-117">Requirement</span></span> | <span data-ttu-id="5ea21-118">值</span><span class="sxs-lookup"><span data-stu-id="5ea21-118">Value</span></span> |
+| <span data-ttu-id="4ee74-117">需求</span><span class="sxs-lookup"><span data-stu-id="4ee74-117">Requirement</span></span> | <span data-ttu-id="4ee74-118">值</span><span class="sxs-lookup"><span data-stu-id="4ee74-118">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="5ea21-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5ea21-119">Minimum supported client</span></span><br/> | <span data-ttu-id="5ea21-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5ea21-120">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="5ea21-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5ea21-121">Minimum supported server</span></span><br/> | <span data-ttu-id="5ea21-122">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5ea21-122">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="4ee74-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4ee74-119">Minimum supported client</span></span><br/> | <span data-ttu-id="4ee74-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4ee74-120">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="4ee74-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4ee74-121">Minimum supported server</span></span><br/> | <span data-ttu-id="4ee74-122">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4ee74-122">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 

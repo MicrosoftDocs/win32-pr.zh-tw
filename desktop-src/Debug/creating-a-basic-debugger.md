@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104025824"
 ---
-# <a name="creating-a-basic-debugger"></a><span data-ttu-id="16f02-104">建立基本偵錯工具</span><span class="sxs-lookup"><span data-stu-id="16f02-104">Creating a Basic Debugger</span></span>
+# <a name="creating-a-basic-debugger"></a><span data-ttu-id="8c430-104">建立基本偵錯工具</span><span class="sxs-lookup"><span data-stu-id="8c430-104">Creating a Basic Debugger</span></span>
 
-<span data-ttu-id="16f02-105">[執行中進程的調試](debugging-a-running-process.md) 程式描述將偵錯工具附加至執行中的進程。</span><span class="sxs-lookup"><span data-stu-id="16f02-105">[Debugging a Running Process](debugging-a-running-process.md) describes attaching the debugger to a running process.</span></span> <span data-ttu-id="16f02-106">[撰寫偵錯工具的主要迴圈](writing-the-debugger-s-main-loop.md) 會描述偵錯工具的主要執行迴圈中使用的函式。</span><span class="sxs-lookup"><span data-stu-id="16f02-106">[Writing the Debugger's Main Loop](writing-the-debugger-s-main-loop.md) describes the functions used in the debugger's main loop of execution.</span></span>
+<span data-ttu-id="8c430-105">[執行中進程的調試](debugging-a-running-process.md) 程式描述將偵錯工具附加至執行中的進程。</span><span class="sxs-lookup"><span data-stu-id="8c430-105">[Debugging a Running Process](debugging-a-running-process.md) describes attaching the debugger to a running process.</span></span> <span data-ttu-id="8c430-106">[撰寫偵錯工具的主要迴圈](writing-the-debugger-s-main-loop.md) 會描述偵錯工具的主要執行迴圈中使用的函式。</span><span class="sxs-lookup"><span data-stu-id="8c430-106">[Writing the Debugger's Main Loop](writing-the-debugger-s-main-loop.md) describes the functions used in the debugger's main loop of execution.</span></span>
 
-<span data-ttu-id="16f02-107">雖然大部分的偵錯工具都是用來建立偵錯工具，但有數個函式是設計用來在正在進行調試的進程中使用。</span><span class="sxs-lookup"><span data-stu-id="16f02-107">Although most of the debugging functions are used to create a debugger, several functions are designed for use in the process being debugged.</span></span> <span data-ttu-id="16f02-108">如需詳細資訊，請參閱 [使用偵錯工具進行通訊](communicating-with-the-debugger.md)。</span><span class="sxs-lookup"><span data-stu-id="16f02-108">For more information, see [Communicating with the Debugger](communicating-with-the-debugger.md).</span></span>
+<span data-ttu-id="8c430-107">雖然大部分的偵錯工具都是用來建立偵錯工具，但有數個函式是設計用來在正在進行調試的進程中使用。</span><span class="sxs-lookup"><span data-stu-id="8c430-107">Although most of the debugging functions are used to create a debugger, several functions are designed for use in the process being debugged.</span></span> <span data-ttu-id="8c430-108">如需詳細資訊，請參閱 [使用偵錯工具進行通訊](communicating-with-the-debugger.md)。</span><span class="sxs-lookup"><span data-stu-id="8c430-108">For more information, see [Communicating with the Debugger](communicating-with-the-debugger.md).</span></span>
 
  
 

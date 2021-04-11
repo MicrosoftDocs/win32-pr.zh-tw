@@ -11,20 +11,20 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104025988"
 ---
-# <a name="d3dx10compileeffectfromresource"></a><span data-ttu-id="81c00-104">D3DX10CompileEffectFromResource</span><span class="sxs-lookup"><span data-stu-id="81c00-104">D3DX10CompileEffectFromResource</span></span>
+# <a name="d3dx10compileeffectfromresource"></a><span data-ttu-id="ef691-104">D3DX10CompileEffectFromResource</span><span class="sxs-lookup"><span data-stu-id="ef691-104">D3DX10CompileEffectFromResource</span></span>
 
 > [!Note]  
-> <span data-ttu-id="81c00-105">我們建議您不要使用此舊版函式，而是使用 Fxc.exe 命令列編譯器或使用 [**D3DCompile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) API，以離線方式編譯。</span><span class="sxs-lookup"><span data-stu-id="81c00-105">Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) API.</span></span>
+> <span data-ttu-id="ef691-105">我們建議您不要使用此舊版函式，而是使用 Fxc.exe 命令列編譯器或使用 [**D3DCompile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) API，以離線方式編譯。</span><span class="sxs-lookup"><span data-stu-id="ef691-105">Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) API.</span></span>
 
  
 
-<span data-ttu-id="81c00-106">已取代。</span><span class="sxs-lookup"><span data-stu-id="81c00-106">Deprecated.</span></span> <span data-ttu-id="81c00-107">請參閱 [**D3DX10CompileFromResource**](d3dx10compilefromresource.md)。</span><span class="sxs-lookup"><span data-stu-id="81c00-107">See [**D3DX10CompileFromResource**](d3dx10compilefromresource.md).</span></span>
+<span data-ttu-id="ef691-106">已取代。</span><span class="sxs-lookup"><span data-stu-id="ef691-106">Deprecated.</span></span> <span data-ttu-id="ef691-107">請參閱 [**D3DX10CompileFromResource**](d3dx10compilefromresource.md)。</span><span class="sxs-lookup"><span data-stu-id="ef691-107">See [**D3DX10CompileFromResource**](d3dx10compilefromresource.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="81c00-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="81c00-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ef691-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="ef691-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="81c00-109">一般用途函數</span><span class="sxs-lookup"><span data-stu-id="81c00-109">General Purpose Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-general-purpose.md)
+[<span data-ttu-id="ef691-109">一般用途函數</span><span class="sxs-lookup"><span data-stu-id="ef691-109">General Purpose Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-general-purpose.md)
 </dt> </dl>
 
  
