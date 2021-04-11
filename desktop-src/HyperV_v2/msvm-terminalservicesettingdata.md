@@ -29,13 +29,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691456"
 ---
-# <a name="msvm_terminalservicesettingdata-class"></a><span data-ttu-id="18f58-103">Msvm \_ TerminalServiceSettingData 類別</span><span class="sxs-lookup"><span data-stu-id="18f58-103">Msvm\_TerminalServiceSettingData class</span></span>
+# <a name="msvm_terminalservicesettingdata-class"></a><span data-ttu-id="38853-103">Msvm \_ TerminalServiceSettingData 類別</span><span class="sxs-lookup"><span data-stu-id="38853-103">Msvm\_TerminalServiceSettingData class</span></span>
 
-<span data-ttu-id="18f58-104">代表主機上虛擬電腦終端機服務的設定。</span><span class="sxs-lookup"><span data-stu-id="18f58-104">Represents the settings for the virtual computer terminal services on a host.</span></span> <span data-ttu-id="18f58-105">無法直接修改這個類別的屬性。</span><span class="sxs-lookup"><span data-stu-id="18f58-105">The properties for this class cannot be modified directly.</span></span> <span data-ttu-id="18f58-106">用戶端必須呼叫 [**Msvm \_ TerminalService. ModifyServiceSettings**](modifyservicesettings-msvm-terminalservice.md) 方法來修改任何這些屬性。</span><span class="sxs-lookup"><span data-stu-id="18f58-106">The client must call the [**Msvm\_TerminalService.ModifyServiceSettings**](modifyservicesettings-msvm-terminalservice.md) method to modify any of these properties.</span></span>
+<span data-ttu-id="38853-104">代表主機上虛擬電腦終端機服務的設定。</span><span class="sxs-lookup"><span data-stu-id="38853-104">Represents the settings for the virtual computer terminal services on a host.</span></span> <span data-ttu-id="38853-105">無法直接修改這個類別的屬性。</span><span class="sxs-lookup"><span data-stu-id="38853-105">The properties for this class cannot be modified directly.</span></span> <span data-ttu-id="38853-106">用戶端必須呼叫 [**Msvm \_ TerminalService. ModifyServiceSettings**](modifyservicesettings-msvm-terminalservice.md) 方法來修改任何這些屬性。</span><span class="sxs-lookup"><span data-stu-id="38853-106">The client must call the [**Msvm\_TerminalService.ModifyServiceSettings**](modifyservicesettings-msvm-terminalservice.md) method to modify any of these properties.</span></span>
 
-<span data-ttu-id="18f58-107">下列語法已簡化受控物件格式 (MOF) 程式碼，並且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="18f58-107">The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.</span></span>
+<span data-ttu-id="38853-107">下列語法已簡化受控物件格式 (MOF) 程式碼，並且包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="38853-107">The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="18f58-108">語法</span><span class="sxs-lookup"><span data-stu-id="18f58-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="38853-108">語法</span><span class="sxs-lookup"><span data-stu-id="38853-108">Syntax</span></span>
 
 ``` syntax
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
@@ -53,153 +53,153 @@ class Msvm_TerminalServiceSettingData : CIM_SettingData
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="18f58-109">成員</span><span class="sxs-lookup"><span data-stu-id="18f58-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="38853-109">成員</span><span class="sxs-lookup"><span data-stu-id="38853-109">Members</span></span>
 
-<span data-ttu-id="18f58-110">**Msvm \_ TerminalServiceSettingData** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="18f58-110">The **Msvm\_TerminalServiceSettingData** class has these types of members:</span></span>
+<span data-ttu-id="38853-110">**Msvm \_ TerminalServiceSettingData** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="38853-110">The **Msvm\_TerminalServiceSettingData** class has these types of members:</span></span>
 
--   [<span data-ttu-id="18f58-111">屬性</span><span class="sxs-lookup"><span data-stu-id="18f58-111">Properties</span></span>](#properties)
+-   [<span data-ttu-id="38853-111">屬性</span><span class="sxs-lookup"><span data-stu-id="38853-111">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="18f58-112">屬性</span><span class="sxs-lookup"><span data-stu-id="18f58-112">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="38853-112">屬性</span><span class="sxs-lookup"><span data-stu-id="38853-112">Properties</span></span>
 
-<span data-ttu-id="18f58-113">**Msvm \_ TerminalServiceSettingData** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="18f58-113">The **Msvm\_TerminalServiceSettingData** class has these properties.</span></span>
+<span data-ttu-id="38853-113">**Msvm \_ TerminalServiceSettingData** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="38853-113">The **Msvm\_TerminalServiceSettingData** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="18f58-114">**AllowedHashAlgorithms**</span><span class="sxs-lookup"><span data-stu-id="18f58-114">**AllowedHashAlgorithms**</span></span>
+<span data-ttu-id="38853-114">**AllowedHashAlgorithms**</span><span class="sxs-lookup"><span data-stu-id="38853-114">**AllowedHashAlgorithms**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="18f58-115">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="18f58-115">Data type: **string** array</span></span>
+<span data-ttu-id="38853-115">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="38853-115">Data type: **string** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-116">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="18f58-116">Access type: Read-only</span></span>
+<span data-ttu-id="38853-116">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="38853-116">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="18f58-117">驗證同盟驗證權杖簽章所接受的雜湊演算法清單。</span><span class="sxs-lookup"><span data-stu-id="18f58-117">The list of hash algorithms accepted for verifying the signature of federated authentication tokens.</span></span>
+<span data-ttu-id="38853-117">驗證同盟驗證權杖簽章所接受的雜湊演算法清單。</span><span class="sxs-lookup"><span data-stu-id="38853-117">The list of hash algorithms accepted for verifying the signature of federated authentication tokens.</span></span>
 
-<span data-ttu-id="18f58-118">**Windows 8.1：** 在 Windows 8.1 和 Windows Server 2012 R2 之前，不支援這個值。</span><span class="sxs-lookup"><span data-stu-id="18f58-118">**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.</span></span>
+<span data-ttu-id="38853-118">**Windows 8.1：** 在 Windows 8.1 和 Windows Server 2012 R2 之前，不支援這個值。</span><span class="sxs-lookup"><span data-stu-id="38853-118">**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="18f58-119">**AuthCertificateHash**</span><span class="sxs-lookup"><span data-stu-id="18f58-119">**AuthCertificateHash**</span></span>
+<span data-ttu-id="38853-119">**AuthCertificateHash**</span><span class="sxs-lookup"><span data-stu-id="38853-119">**AuthCertificateHash**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="18f58-120">資料類型： **uint8** 陣列</span><span class="sxs-lookup"><span data-stu-id="18f58-120">Data type: **uint8** array</span></span>
+<span data-ttu-id="38853-120">資料類型： **uint8** 陣列</span><span class="sxs-lookup"><span data-stu-id="38853-120">Data type: **uint8** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-121">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="18f58-121">Access type: Read-only</span></span>
+<span data-ttu-id="38853-121">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="38853-121">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="18f58-122">要用於遠端驗證之憑證的雜湊。</span><span class="sxs-lookup"><span data-stu-id="18f58-122">The hash of the certificate to use for remote authentication.</span></span>
+<span data-ttu-id="38853-122">要用於遠端驗證之憑證的雜湊。</span><span class="sxs-lookup"><span data-stu-id="38853-122">The hash of the certificate to use for remote authentication.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="18f58-123">**標題**</span><span class="sxs-lookup"><span data-stu-id="18f58-123">**Caption**</span></span>
+<span data-ttu-id="38853-123">**標題**</span><span class="sxs-lookup"><span data-stu-id="38853-123">**Caption**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="18f58-124">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="18f58-124">Data type: **string**</span></span>
+<span data-ttu-id="38853-124">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="38853-124">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-125">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="18f58-125">Access type: Read-only</span></span>
+<span data-ttu-id="38853-125">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="38853-125">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="18f58-126">物件的簡短描述。</span><span class="sxs-lookup"><span data-stu-id="18f58-126">A short description of the object.</span></span> <span data-ttu-id="18f58-127">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="18f58-127">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+<span data-ttu-id="38853-126">物件的簡短描述。</span><span class="sxs-lookup"><span data-stu-id="38853-126">A short description of the object.</span></span> <span data-ttu-id="38853-127">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="38853-127">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="18f58-128">**說明**</span><span class="sxs-lookup"><span data-stu-id="18f58-128">**Description**</span></span>
+<span data-ttu-id="38853-128">**說明**</span><span class="sxs-lookup"><span data-stu-id="38853-128">**Description**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="18f58-129">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="18f58-129">Data type: **string**</span></span>
+<span data-ttu-id="38853-129">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="38853-129">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="18f58-130">Access type: Read-only</span></span>
+<span data-ttu-id="38853-130">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="38853-130">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="18f58-131">對物件的描述。</span><span class="sxs-lookup"><span data-stu-id="18f58-131">A description of the object.</span></span> <span data-ttu-id="18f58-132">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="18f58-132">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+<span data-ttu-id="38853-131">對物件的描述。</span><span class="sxs-lookup"><span data-stu-id="38853-131">A description of the object.</span></span> <span data-ttu-id="38853-132">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="38853-132">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="18f58-133">**DisableSelfSignedCertificateGeneration**</span><span class="sxs-lookup"><span data-stu-id="18f58-133">**DisableSelfSignedCertificateGeneration**</span></span>
+<span data-ttu-id="38853-133">**DisableSelfSignedCertificateGeneration**</span><span class="sxs-lookup"><span data-stu-id="38853-133">**DisableSelfSignedCertificateGeneration**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="18f58-134">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="18f58-134">Data type: **boolean**</span></span>
+<span data-ttu-id="38853-134">資料類型： **布林值**</span><span class="sxs-lookup"><span data-stu-id="38853-134">Data type: **boolean**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-135">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="18f58-135">Access type: Read-only</span></span>
+<span data-ttu-id="38853-135">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="38853-135">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="18f58-136">停用自我簽署憑證產生。</span><span class="sxs-lookup"><span data-stu-id="18f58-136">Disables self-signed certificate generation.</span></span>
+<span data-ttu-id="38853-136">停用自我簽署憑證產生。</span><span class="sxs-lookup"><span data-stu-id="38853-136">Disables self-signed certificate generation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="18f58-137">**ElementName**</span><span class="sxs-lookup"><span data-stu-id="18f58-137">**ElementName**</span></span>
+<span data-ttu-id="38853-137">**ElementName**</span><span class="sxs-lookup"><span data-stu-id="38853-137">**ElementName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="18f58-138">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="18f58-138">Data type: **string**</span></span>
+<span data-ttu-id="38853-138">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="38853-138">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-139">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="18f58-139">Access type: Read-only</span></span>
+<span data-ttu-id="38853-139">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="38853-139">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="18f58-140">物件的顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="18f58-140">A display name for the object.</span></span> <span data-ttu-id="18f58-141">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="18f58-141">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+<span data-ttu-id="38853-140">物件的顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="38853-140">A display name for the object.</span></span> <span data-ttu-id="38853-141">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="38853-141">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="18f58-142">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="18f58-142">**InstanceID**</span></span>
+<span data-ttu-id="38853-142">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="38853-142">**InstanceID**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="18f58-143">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="18f58-143">Data type: **string**</span></span>
+<span data-ttu-id="38853-143">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="38853-143">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-144">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="18f58-144">Access type: Read-only</span></span>
+<span data-ttu-id="38853-144">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="38853-144">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-145">限定詞：索引 **鍵**</span><span class="sxs-lookup"><span data-stu-id="18f58-145">Qualifiers: **Key**</span></span>
+<span data-ttu-id="38853-145">限定詞：索引 **鍵**</span><span class="sxs-lookup"><span data-stu-id="38853-145">Qualifiers: **Key**</span></span>
 </dt> </dl>
 
-<span data-ttu-id="18f58-146">唯一識別此類別的實例。</span><span class="sxs-lookup"><span data-stu-id="18f58-146">Uniquely identifies an instance of this class.</span></span> <span data-ttu-id="18f58-147">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="18f58-147">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+<span data-ttu-id="38853-146">唯一識別此類別的實例。</span><span class="sxs-lookup"><span data-stu-id="38853-146">Uniquely identifies an instance of this class.</span></span> <span data-ttu-id="38853-147">這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。</span><span class="sxs-lookup"><span data-stu-id="38853-147">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="18f58-148">**ListenerPort**</span><span class="sxs-lookup"><span data-stu-id="18f58-148">**ListenerPort**</span></span>
+<span data-ttu-id="38853-148">**ListenerPort**</span><span class="sxs-lookup"><span data-stu-id="38853-148">**ListenerPort**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="18f58-149">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="18f58-149">Data type: **uint32**</span></span>
+<span data-ttu-id="38853-149">資料類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="38853-149">Data type: **uint32**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-150">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="18f58-150">Access type: Read-only</span></span>
+<span data-ttu-id="38853-150">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="38853-150">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="18f58-151">將在其上進行初始遠端會話連接的網路埠。</span><span class="sxs-lookup"><span data-stu-id="18f58-151">The network port on which the initial remote session connection will be made.</span></span>
+<span data-ttu-id="38853-151">將在其上進行初始遠端會話連接的網路埠。</span><span class="sxs-lookup"><span data-stu-id="38853-151">The network port on which the initial remote session connection will be made.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="18f58-152">**TrustedIssuerCertificateHashes**</span><span class="sxs-lookup"><span data-stu-id="18f58-152">**TrustedIssuerCertificateHashes**</span></span>
+<span data-ttu-id="38853-152">**TrustedIssuerCertificateHashes**</span><span class="sxs-lookup"><span data-stu-id="38853-152">**TrustedIssuerCertificateHashes**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="18f58-153">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="18f58-153">Data type: **string** array</span></span>
+<span data-ttu-id="38853-153">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="38853-153">Data type: **string** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18f58-154">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="18f58-154">Access type: Read-only</span></span>
+<span data-ttu-id="38853-154">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="38853-154">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="18f58-155">驗證同盟驗證權杖簽章的受信任簽發者憑證雜湊清單。</span><span class="sxs-lookup"><span data-stu-id="18f58-155">The list of trusted issuer certificate hashes for verifying the signature of federated authentication tokens.</span></span>
+<span data-ttu-id="38853-155">驗證同盟驗證權杖簽章的受信任簽發者憑證雜湊清單。</span><span class="sxs-lookup"><span data-stu-id="38853-155">The list of trusted issuer certificate hashes for verifying the signature of federated authentication tokens.</span></span>
 
-<span data-ttu-id="18f58-156">**Windows 8.1：** 在 Windows 8.1 和 Windows Server 2012 R2 之前，不支援這個值。</span><span class="sxs-lookup"><span data-stu-id="18f58-156">**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.</span></span>
+<span data-ttu-id="38853-156">**Windows 8.1：** 在 Windows 8.1 和 Windows Server 2012 R2 之前，不支援這個值。</span><span class="sxs-lookup"><span data-stu-id="38853-156">**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="18f58-157">規格需求</span><span class="sxs-lookup"><span data-stu-id="18f58-157">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="38853-157">規格需求</span><span class="sxs-lookup"><span data-stu-id="38853-157">Requirements</span></span>
 
 
 
-| <span data-ttu-id="18f58-158">需求</span><span class="sxs-lookup"><span data-stu-id="18f58-158">Requirement</span></span> | <span data-ttu-id="18f58-159">值</span><span class="sxs-lookup"><span data-stu-id="18f58-159">Value</span></span> |
+| <span data-ttu-id="38853-158">需求</span><span class="sxs-lookup"><span data-stu-id="38853-158">Requirement</span></span> | <span data-ttu-id="38853-159">值</span><span class="sxs-lookup"><span data-stu-id="38853-159">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="18f58-160">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="18f58-160">Minimum supported client</span></span><br/> | <span data-ttu-id="18f58-161">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="18f58-161">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
-| <span data-ttu-id="18f58-162">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="18f58-162">Minimum supported server</span></span><br/> | <span data-ttu-id="18f58-163">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="18f58-163">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="18f58-164">命名空間</span><span class="sxs-lookup"><span data-stu-id="18f58-164">Namespace</span></span><br/>                | <span data-ttu-id="18f58-165">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="18f58-165">Root\\Virtualization\\V2</span></span><br/>                                                                     |
-| <span data-ttu-id="18f58-166">MOF</span><span class="sxs-lookup"><span data-stu-id="18f58-166">MOF</span></span><br/>                      | <dl> <span data-ttu-id="18f58-167"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="18f58-167"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="18f58-168">DLL</span><span class="sxs-lookup"><span data-stu-id="18f58-168">DLL</span></span><br/>                      | <dl> <span data-ttu-id="18f58-169"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="18f58-169"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="38853-160">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="38853-160">Minimum supported client</span></span><br/> | <span data-ttu-id="38853-161">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="38853-161">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
+| <span data-ttu-id="38853-162">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="38853-162">Minimum supported server</span></span><br/> | <span data-ttu-id="38853-163">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="38853-163">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="38853-164">命名空間</span><span class="sxs-lookup"><span data-stu-id="38853-164">Namespace</span></span><br/>                | <span data-ttu-id="38853-165">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="38853-165">Root\\Virtualization\\V2</span></span><br/>                                                                     |
+| <span data-ttu-id="38853-166">MOF</span><span class="sxs-lookup"><span data-stu-id="38853-166">MOF</span></span><br/>                      | <dl> <span data-ttu-id="38853-167"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="38853-167"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="38853-168">DLL</span><span class="sxs-lookup"><span data-stu-id="38853-168">DLL</span></span><br/>                      | <dl> <span data-ttu-id="38853-169"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="38853-169"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 

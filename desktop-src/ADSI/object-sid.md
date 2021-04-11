@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020796"
 ---
-# <a name="object-sid-winnt-provider"></a><span data-ttu-id="195f9-105"> (WinNT 提供者的物件 SID) </span><span class="sxs-lookup"><span data-stu-id="195f9-105">Object SID (WinNT Provider)</span></span>
+# <a name="object-sid-winnt-provider"></a><span data-ttu-id="6d303-105"> (WinNT 提供者的物件 SID) </span><span class="sxs-lookup"><span data-stu-id="6d303-105">Object SID (WinNT Provider)</span></span>
 
-<span data-ttu-id="195f9-106">您可以使用 **objectSID** 屬性來抓取使用者安全識別碼 (SID) 。</span><span class="sxs-lookup"><span data-stu-id="195f9-106">The user security identifier (SID) can be retrieved using the **objectSID** attribute.</span></span> <span data-ttu-id="195f9-107">**ObjectSID** 會以形成 SID 字串的 **變異** 字元陣列形式傳回。</span><span class="sxs-lookup"><span data-stu-id="195f9-107">The **objectSID** is returned as a **VARIANT** array of characters that form the SID string.</span></span>
+<span data-ttu-id="6d303-106">您可以使用 **objectSID** 屬性來抓取使用者安全識別碼 (SID) 。</span><span class="sxs-lookup"><span data-stu-id="6d303-106">The user security identifier (SID) can be retrieved using the **objectSID** attribute.</span></span> <span data-ttu-id="6d303-107">**ObjectSID** 會以形成 SID 字串的 **變異** 字元陣列形式傳回。</span><span class="sxs-lookup"><span data-stu-id="6d303-107">The **objectSID** is returned as a **VARIANT** array of characters that form the SID string.</span></span>
 
-## <a name="example-code"></a><span data-ttu-id="195f9-108">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="195f9-108">Example Code</span></span>
+## <a name="example-code"></a><span data-ttu-id="6d303-108">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="6d303-108">Example Code</span></span>
 
 
 ```VB

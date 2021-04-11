@@ -14,11 +14,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020850"
 ---
-# <a name="example-code-for-enumerating-the-acl-of-an-object-in-active-directory-domain-services"></a><span data-ttu-id="26152-104">列舉 Active Directory Domain Services 中物件之 ACL 的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="26152-104">Example Code for Enumerating the ACL of an Object in Active Directory Domain Services</span></span>
+# <a name="example-code-for-enumerating-the-acl-of-an-object-in-active-directory-domain-services"></a><span data-ttu-id="31edd-104">列舉 Active Directory Domain Services 中物件之 ACL 的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="31edd-104">Example Code for Enumerating the ACL of an Object in Active Directory Domain Services</span></span>
 
-<span data-ttu-id="26152-105">您可以使用下列程式碼範例，在 Active Directory Domain Services 中列舉物件 (ACL) 的存取控制清單。</span><span class="sxs-lookup"><span data-stu-id="26152-105">The following code examples can be used to enumerate the access control list (ACL) of an object in Active Directory Domain Services.</span></span>
+<span data-ttu-id="31edd-105">您可以使用下列程式碼範例，在 Active Directory Domain Services 中列舉物件 (ACL) 的存取控制清單。</span><span class="sxs-lookup"><span data-stu-id="31edd-105">The following code examples can be used to enumerate the access control list (ACL) of an object in Active Directory Domain Services.</span></span>
 
-<span data-ttu-id="26152-106">下列程式碼範例顯示列舉物件之受信任者的函式。</span><span class="sxs-lookup"><span data-stu-id="26152-106">The following code example shows a function that enumerates the trustees of an object .</span></span>
+<span data-ttu-id="31edd-106">下列程式碼範例顯示列舉物件之受信任者的函式。</span><span class="sxs-lookup"><span data-stu-id="31edd-106">The following code example shows a function that enumerates the trustees of an object .</span></span>
 
 
 ```C++
@@ -171,7 +171,7 @@ HRESULT EnumAccessInfo(IADs *pads)
 
 
 
-<span data-ttu-id="26152-107">下列程式碼範例顯示列舉物件之受信任者的函式。</span><span class="sxs-lookup"><span data-stu-id="26152-107">The following code example shows a function that enumerates the trustees of an object.</span></span>
+<span data-ttu-id="31edd-107">下列程式碼範例顯示列舉物件之受信任者的函式。</span><span class="sxs-lookup"><span data-stu-id="31edd-107">The following code example shows a function that enumerates the trustees of an object.</span></span>
 
 
 ```VB

@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691411"
 ---
-# <a name="ix509attributeclientid-properties"></a><span data-ttu-id="f39d0-103">IX509AttributeClientId 屬性</span><span class="sxs-lookup"><span data-stu-id="f39d0-103">IX509AttributeClientId Properties</span></span>
+# <a name="ix509attributeclientid-properties"></a><span data-ttu-id="ee225-103">IX509AttributeClientId 屬性</span><span class="sxs-lookup"><span data-stu-id="ee225-103">IX509AttributeClientId Properties</span></span>
 
-<span data-ttu-id="f39d0-104">[**IX509AttributeClientId**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="f39d0-104">The [**IX509AttributeClientId**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid) interface exposes the following properties.</span></span>
+<span data-ttu-id="ee225-104">[**IX509AttributeClientId**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="ee225-104">The [**IX509AttributeClientId**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f39d0-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="f39d0-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ee225-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="ee225-105">In this section</span></span>
 
--   [<span data-ttu-id="f39d0-106">**ClientId 屬性**</span><span class="sxs-lookup"><span data-stu-id="f39d0-106">**ClientId Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_clientid)
--   [<span data-ttu-id="f39d0-107">**MachineDnsName 屬性**</span><span class="sxs-lookup"><span data-stu-id="f39d0-107">**MachineDnsName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_machinednsname)
--   [<span data-ttu-id="f39d0-108">**ProcessName 屬性**</span><span class="sxs-lookup"><span data-stu-id="f39d0-108">**ProcessName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_processname)
--   [<span data-ttu-id="f39d0-109">**UserSamName 屬性**</span><span class="sxs-lookup"><span data-stu-id="f39d0-109">**UserSamName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_usersamname)
+-   [<span data-ttu-id="ee225-106">**ClientId 屬性**</span><span class="sxs-lookup"><span data-stu-id="ee225-106">**ClientId Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_clientid)
+-   [<span data-ttu-id="ee225-107">**MachineDnsName 屬性**</span><span class="sxs-lookup"><span data-stu-id="ee225-107">**MachineDnsName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_machinednsname)
+-   [<span data-ttu-id="ee225-108">**ProcessName 屬性**</span><span class="sxs-lookup"><span data-stu-id="ee225-108">**ProcessName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_processname)
+-   [<span data-ttu-id="ee225-109">**UserSamName 屬性**</span><span class="sxs-lookup"><span data-stu-id="ee225-109">**UserSamName Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_usersamname)
 
  
 

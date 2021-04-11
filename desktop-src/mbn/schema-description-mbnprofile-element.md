@@ -18,11 +18,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103690324"
 ---
-# <a name="description-mbnprofile-element"></a><span data-ttu-id="97412-103">描述 (MBNProfile) 元素</span><span class="sxs-lookup"><span data-stu-id="97412-103">Description (MBNProfile) Element</span></span>
+# <a name="description-mbnprofile-element"></a><span data-ttu-id="d3213-103">描述 (MBNProfile) 元素</span><span class="sxs-lookup"><span data-stu-id="d3213-103">Description (MBNProfile) Element</span></span>
 
-<span data-ttu-id="97412-104">**描述 (MBNProfile)** 元素包含設定檔的描述。</span><span class="sxs-lookup"><span data-stu-id="97412-104">The **Description (MBNProfile)** element contains a description of the profile.</span></span>
+<span data-ttu-id="d3213-104">**描述 (MBNProfile)** 元素包含設定檔的描述。</span><span class="sxs-lookup"><span data-stu-id="d3213-104">The **Description (MBNProfile)** element contains a description of the profile.</span></span>
 
-<span data-ttu-id="97412-105">長度最多為255個字元的字串。</span><span class="sxs-lookup"><span data-stu-id="97412-105">It is a string of length up to 255 characters.</span></span>
+<span data-ttu-id="d3213-105">長度最多為255個字元的字串。</span><span class="sxs-lookup"><span data-stu-id="d3213-105">It is a string of length up to 255 characters.</span></span>
 
 ``` syntax
 <xs:element name="Description"
@@ -30,33 +30,33 @@ ms.locfileid: "103690324"
  />
 ```
 
-<span data-ttu-id="97412-106">**Description** 元素是由 [**MBNProfile**](schema-mbnprofile-element.md)元素定義。</span><span class="sxs-lookup"><span data-stu-id="97412-106">The **Description** element is defined by the [**MBNProfile**](schema-mbnprofile-element.md) element.</span></span>
+<span data-ttu-id="d3213-106">**Description** 元素是由 [**MBNProfile**](schema-mbnprofile-element.md)元素定義。</span><span class="sxs-lookup"><span data-stu-id="d3213-106">The **Description** element is defined by the [**MBNProfile**](schema-mbnprofile-element.md) element.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="97412-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="97412-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="d3213-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="d3213-107">Requirements</span></span>
 
 
 
-| <span data-ttu-id="97412-108">需求</span><span class="sxs-lookup"><span data-stu-id="97412-108">Requirement</span></span> | <span data-ttu-id="97412-109">值</span><span class="sxs-lookup"><span data-stu-id="97412-109">Value</span></span> |
+| <span data-ttu-id="d3213-108">需求</span><span class="sxs-lookup"><span data-stu-id="d3213-108">Requirement</span></span> | <span data-ttu-id="d3213-109">值</span><span class="sxs-lookup"><span data-stu-id="d3213-109">Value</span></span> |
 |-------------------------------------|---------------------------------------------------|
-| <span data-ttu-id="97412-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="97412-110">Minimum supported client</span></span><br/> | <span data-ttu-id="97412-111">Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="97412-111">Windows 7 \[desktop apps \| UWP apps\]</span></span><br/> |
-| <span data-ttu-id="97412-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="97412-112">Minimum supported server</span></span><br/> | <span data-ttu-id="97412-113">都不支援</span><span class="sxs-lookup"><span data-stu-id="97412-113">None supported</span></span><br/>                         |
+| <span data-ttu-id="d3213-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d3213-110">Minimum supported client</span></span><br/> | <span data-ttu-id="d3213-111">Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d3213-111">Windows 7 \[desktop apps \| UWP apps\]</span></span><br/> |
+| <span data-ttu-id="d3213-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d3213-112">Minimum supported server</span></span><br/> | <span data-ttu-id="d3213-113">都不支援</span><span class="sxs-lookup"><span data-stu-id="d3213-113">None supported</span></span><br/>                         |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="97412-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="97412-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d3213-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d3213-114">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="97412-115">**架構中的元素定義內容**</span><span class="sxs-lookup"><span data-stu-id="97412-115">**Definition context of element in schema**</span></span>
+<span data-ttu-id="d3213-115">**架構中的元素定義內容**</span><span class="sxs-lookup"><span data-stu-id="d3213-115">**Definition context of element in schema**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="97412-116">**MBNProfile**</span><span class="sxs-lookup"><span data-stu-id="97412-116">**MBNProfile**</span></span>](schema-mbnprofile-element.md)
+[<span data-ttu-id="d3213-116">**MBNProfile**</span><span class="sxs-lookup"><span data-stu-id="d3213-116">**MBNProfile**</span></span>](schema-mbnprofile-element.md)
 </dt> <dt>
 
-<span data-ttu-id="97412-117">**架構實例中可能的直屬父元素**</span><span class="sxs-lookup"><span data-stu-id="97412-117">**Possible immediate parent element in schema instance**</span></span>
+<span data-ttu-id="d3213-117">**架構實例中可能的直屬父元素**</span><span class="sxs-lookup"><span data-stu-id="d3213-117">**Possible immediate parent element in schema instance**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="97412-118">**MBNProfile**</span><span class="sxs-lookup"><span data-stu-id="97412-118">**MBNProfile**</span></span>](schema-mbnprofile-element.md)
+[<span data-ttu-id="d3213-118">**MBNProfile**</span><span class="sxs-lookup"><span data-stu-id="d3213-118">**MBNProfile**</span></span>](schema-mbnprofile-element.md)
 </dt> </dl>
 
  
