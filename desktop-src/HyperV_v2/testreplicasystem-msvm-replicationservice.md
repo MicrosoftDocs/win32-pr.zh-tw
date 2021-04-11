@@ -1,0 +1,143 @@
+---
+description: 使用指定的快照集建立虛擬機器的新複本，以供測試之用。
+ms.assetid: 447f3c8f-8c57-4874-9466-91c6aea533bc
+title: Msvm_ReplicationService 類別的 TestReplicaSystem 方法
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Msvm_ReplicationService.TestReplicaSystem
+api_type:
+- COM
+api_location:
+- vmms.exe
+ms.openlocfilehash: 029130e619aa36d0aa9b9c1c85a877fb26e1b22b
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103851836"
+---
+# <a name="testreplicasystem-method-of-the-msvm_replicationservice-class"></a>Msvm ReplicationService 類別的 TestReplicaSystem 方法 \_
+
+使用指定的快照集建立虛擬機器的新複本，以供測試之用。
+
+## <a name="syntax"></a>語法
+
+
+```mof
+uint32 TestReplicaSystem(
+  [in]  CIM_ComputerSystem           REF ComputerSystem,
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ComputerSystem           REF ResultingSystem,
+  [out] CIM_ConcreteJob              REF Job
+);
+```
+
+
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+未進行 \[在\]
+</dt> <dd>
+
+[**CIM \_**](/windows/desktop/CIMWin32Prov/cim-computersystem)實例類型的參考，代表應測試複寫的虛擬機器。
+
+</dd> <dt>
+
+*SnapshotSettingData* \[在\]
+</dt> <dd>
+
+[**CIM \_ VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85))實例的參考，表示用來建立測試容錯移轉系統的快照集。 如果此參數為 **Null**，則會從最近的時間點執行容錯移轉。
+
+</dd> <dt>
+
+*ResultingSystem* \[擴展\]
+</dt> <dd>
+
+如果虛擬機器已成功定義，就會接收到代表新定義之測試虛擬機器之 [**CIM \_**](/windows/desktop/CIMWin32Prov/cim-computersystem) 系統類型實例的參考。 當不再需要此系統時，請呼叫 [**DestroySystem**](destroysystem-msvm-virtualsystemmanagementservice.md) 方法加以終結。
+
+</dd> <dt>
+
+*作業* \[擴展\]
+</dt> <dd>
+
+如果作業是以非同步方式執行，這個方法會傳回4096，而此參數會包含衍生自 [**CIM \_ ConcreteJob**](/previous-versions//cc136808(v=vs.85))之物件的參考。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+這個方法會傳回下列其中一個值。
+
+<dl> <dt>
+
+**已完成，沒有錯誤** (0) 
+</dt> <dt>
+
+**已檢查方法參數-工作已啟動** (4096) 
+</dt> <dt>
+
+**無法** (32768) 
+</dt> <dt>
+
+**拒絕存取** (32769) 
+</dt> <dt>
+
+**不支援** (32770) 
+</dt> <dt>
+
+**狀態未知** (32771) 
+</dt> <dt>
+
+**Timeout** (32772) 
+</dt> <dt>
+
+**不正確參數** (32773) 
+</dt> <dt>
+
+**系統正在使用中** (32774) 
+</dt> <dt>
+
+**此操作的狀態無效** (32775) 
+</dt> <dt>
+
+**不正確的資料類型** (32776) 
+</dt> <dt>
+
+**系統無法使用** (32777) 
+</dt> <dt>
+
+**記憶體不足** (32778) 
+</dt> <dt>
+
+**找不到** 檔案 (32779) 
+</dt> </dl>
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
+| MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**Msvm \_ ReplicationService**](msvm-replicationservice.md)
+</dt> </dl>
+
+ 
+
