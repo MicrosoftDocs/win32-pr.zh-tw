@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944461"
 ---
-# <a name="iscardlocate-methods"></a><span data-ttu-id="6adae-103">ISCardLocate 方法</span><span class="sxs-lookup"><span data-stu-id="6adae-103">ISCardLocate Methods</span></span>
+# <a name="iscardlocate-methods"></a><span data-ttu-id="ba37c-103">ISCardLocate 方法</span><span class="sxs-lookup"><span data-stu-id="ba37c-103">ISCardLocate Methods</span></span>
 
-<span data-ttu-id="6adae-104">[**ISCardLocate**](iscardlocate.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="6adae-104">The [**ISCardLocate**](iscardlocate.md) interface exposes the following methods.</span></span>
+<span data-ttu-id="ba37c-104">[**ISCardLocate**](iscardlocate.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="ba37c-104">The [**ISCardLocate**](iscardlocate.md) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="6adae-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="6adae-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ba37c-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="ba37c-105">In this section</span></span>
 
--   [<span data-ttu-id="6adae-106">**ConfigureCardNameSearch 方法**</span><span class="sxs-lookup"><span data-stu-id="6adae-106">**ConfigureCardNameSearch Method**</span></span>](iscardlocate-configurecardnamesearch.md)
--   [<span data-ttu-id="6adae-107">**FindCard 方法**</span><span class="sxs-lookup"><span data-stu-id="6adae-107">**FindCard Method**</span></span>](iscardlocate-findcard.md)
+-   [<span data-ttu-id="ba37c-106">**ConfigureCardNameSearch 方法**</span><span class="sxs-lookup"><span data-stu-id="ba37c-106">**ConfigureCardNameSearch Method**</span></span>](iscardlocate-configurecardnamesearch.md)
+-   [<span data-ttu-id="ba37c-107">**FindCard 方法**</span><span class="sxs-lookup"><span data-stu-id="ba37c-107">**FindCard Method**</span></span>](iscardlocate-findcard.md)
 
  
 

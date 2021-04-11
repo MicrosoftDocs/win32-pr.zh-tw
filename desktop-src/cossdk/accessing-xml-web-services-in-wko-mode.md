@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103688775"
 ---
-# <a name="accessing-xml-web-services-in-wko-mode"></a><span data-ttu-id="5d0b0-103">在 WKO 模式中存取 XML Web Service</span><span class="sxs-lookup"><span data-stu-id="5d0b0-103">Accessing XML Web Services in WKO Mode</span></span>
+# <a name="accessing-xml-web-services-in-wko-mode"></a><span data-ttu-id="04333-103">在 WKO 模式中存取 XML Web Service</span><span class="sxs-lookup"><span data-stu-id="04333-103">Accessing XML Web Services in WKO Mode</span></span>
 
-<span data-ttu-id="5d0b0-104">您可以存取及使用任何 XML web service，即使該 XML web service 不是使用 COM + 或甚至 Microsoft Windows 建立的，只要 XML Web Service 發行其語法的 WSDL 描述即可。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-104">You can access and use any XML web service, even if that XML web service was not created using COM+ or even Microsoft Windows, as long as the XML Web Service publishes a WSDL description of its syntax.</span></span> <span data-ttu-id="5d0b0-105">只要使用 soap： wsdl = URL 標記建立元件的實例，其中 URL 是您想要存取之 XML web service 的 WSDL 描述 URL。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-105">Just create an instance of the component by using the soap:wsdl=URL moniker, where URL is the URL of the WSDL description of the XML web service you want to access.</span></span> <span data-ttu-id="5d0b0-106">這是已知的物件 (存取 XML web service 的 WKO) 模式。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-106">This is the well-known object (WKO) mode of accessing XML web services.</span></span>
+<span data-ttu-id="04333-104">您可以存取及使用任何 XML web service，即使該 XML web service 不是使用 COM + 或甚至 Microsoft Windows 建立的，只要 XML Web Service 發行其語法的 WSDL 描述即可。</span><span class="sxs-lookup"><span data-stu-id="04333-104">You can access and use any XML web service, even if that XML web service was not created using COM+ or even Microsoft Windows, as long as the XML Web Service publishes a WSDL description of its syntax.</span></span> <span data-ttu-id="04333-105">只要使用 soap： wsdl = URL 標記建立元件的實例，其中 URL 是您想要存取之 XML web service 的 WSDL 描述 URL。</span><span class="sxs-lookup"><span data-stu-id="04333-105">Just create an instance of the component by using the soap:wsdl=URL moniker, where URL is the URL of the WSDL description of the XML web service you want to access.</span></span> <span data-ttu-id="04333-106">這是已知的物件 (存取 XML web service 的 WKO) 模式。</span><span class="sxs-lookup"><span data-stu-id="04333-106">This is the well-known object (WKO) mode of accessing XML web services.</span></span>
 
-<span data-ttu-id="5d0b0-107">您可以呼叫物件的方法，而不需要任何特殊考慮。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-107">The object's methods can be called without any special considerations.</span></span> <span data-ttu-id="5d0b0-108">XML web service 可透過 SOAP 查詢來存取，並以透明的方式解讀回應。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-108">The XML web service is accessed via a SOAP query, and the response is interpreted transparently.</span></span>
+<span data-ttu-id="04333-107">您可以呼叫物件的方法，而不需要任何特殊考慮。</span><span class="sxs-lookup"><span data-stu-id="04333-107">The object's methods can be called without any special considerations.</span></span> <span data-ttu-id="04333-108">XML web service 可透過 SOAP 查詢來存取，並以透明的方式解讀回應。</span><span class="sxs-lookup"><span data-stu-id="04333-108">The XML web service is accessed via a SOAP query, and the response is interpreted transparently.</span></span>
 
-## <a name="component-services-administrative-tool"></a><span data-ttu-id="5d0b0-109">元件服務系統管理工具</span><span class="sxs-lookup"><span data-stu-id="5d0b0-109">Component Services Administrative Tool</span></span>
+## <a name="component-services-administrative-tool"></a><span data-ttu-id="04333-109">元件服務系統管理工具</span><span class="sxs-lookup"><span data-stu-id="04333-109">Component Services Administrative Tool</span></span>
 
-<span data-ttu-id="5d0b0-110">不適用。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-110">Does not apply.</span></span>
+<span data-ttu-id="04333-110">不適用。</span><span class="sxs-lookup"><span data-stu-id="04333-110">Does not apply.</span></span>
 
-## <a name="visual-basic"></a><span data-ttu-id="5d0b0-111">Visual Basic</span><span class="sxs-lookup"><span data-stu-id="5d0b0-111">Visual Basic</span></span>
+## <a name="visual-basic"></a><span data-ttu-id="04333-111">Visual Basic</span><span class="sxs-lookup"><span data-stu-id="04333-111">Visual Basic</span></span>
 
-<span data-ttu-id="5d0b0-112">下列 Microsoft Visual Basic 程式碼片段說明如何在 WKO 模式中使用 XML web service。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-112">The following Microsoft Visual Basic code fragment illustrates the use of an XML web service in WKO mode.</span></span>
+<span data-ttu-id="04333-112">下列 Microsoft Visual Basic 程式碼片段說明如何在 WKO 模式中使用 XML web service。</span><span class="sxs-lookup"><span data-stu-id="04333-112">The following Microsoft Visual Basic code fragment illustrates the use of an XML web service in WKO mode.</span></span>
 
 
 ```VB
@@ -33,11 +33,11 @@ output = Obj.Method(input)
 
 
 
-<span data-ttu-id="5d0b0-113">在此程式碼片段中，說明如何使用已公開為 XML web service 的 COM + 應用程式元件，servername 是提供 XML web service 之伺服器的完整功能變數名稱;vroot 是公開 XML web service 的 IIS 虛擬根目錄;progID 是您想要使用之元件的 ProgID。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-113">In this code fragment, which illustrates the use of a component of a COM+ application that has been exposed as an XML web service, servername is the fully qualified domain name of the server offering the XML web service; vroot is the IIS virtual root directory from which the XML web service is exposed; and progID is the ProgID of the component you want to use.</span></span>
+<span data-ttu-id="04333-113">在此程式碼片段中，說明如何使用已公開為 XML web service 的 COM + 應用程式元件，servername 是提供 XML web service 之伺服器的完整功能變數名稱;vroot 是公開 XML web service 的 IIS 虛擬根目錄;progID 是您想要使用之元件的 ProgID。</span><span class="sxs-lookup"><span data-stu-id="04333-113">In this code fragment, which illustrates the use of a component of a COM+ application that has been exposed as an XML web service, servername is the fully qualified domain name of the server offering the XML web service; vroot is the IIS virtual root directory from which the XML web service is exposed; and progID is the ProgID of the component you want to use.</span></span>
 
-## <a name="cc"></a><span data-ttu-id="5d0b0-114">C/C++</span><span class="sxs-lookup"><span data-stu-id="5d0b0-114">C/C++</span></span>
+## <a name="cc"></a><span data-ttu-id="04333-114">C/C++</span><span class="sxs-lookup"><span data-stu-id="04333-114">C/C++</span></span>
 
-<span data-ttu-id="5d0b0-115">下列程式碼片段說明如何在 WKO 模式中使用 XML web service。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-115">The following code fragment illustrates the use of an XML web service in WKO mode.</span></span>
+<span data-ttu-id="04333-115">下列程式碼片段說明如何在 WKO 模式中使用 XML web service。</span><span class="sxs-lookup"><span data-stu-id="04333-115">The following code fragment illustrates the use of an XML web service in WKO mode.</span></span>
 
 
 ```C++
@@ -51,26 +51,26 @@ if (FAILED(hr)) throw(hr);
 
 
 
-<span data-ttu-id="5d0b0-116">在此程式碼片段中，說明如何使用已公開為 XML web service 的 COM + 應用程式元件，servername 是提供 XML web service 之伺服器的完整功能變數名稱;vroot 是公開 XML web service 的 IIS 虛擬根目錄;progID 是您想要使用之元件的 ProgID。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-116">In this code fragment, which illustrates the use of a component of a COM+ application that has been exposed as an XML web service, servername is the fully qualified domain name of the server offering the XML web service; vroot is the IIS virtual root directory from which the XML web service is exposed; and progID is the ProgID of the component you want to use.</span></span>
+<span data-ttu-id="04333-116">在此程式碼片段中，說明如何使用已公開為 XML web service 的 COM + 應用程式元件，servername 是提供 XML web service 之伺服器的完整功能變數名稱;vroot 是公開 XML web service 的 IIS 虛擬根目錄;progID 是您想要使用之元件的 ProgID。</span><span class="sxs-lookup"><span data-stu-id="04333-116">In this code fragment, which illustrates the use of a component of a COM+ application that has been exposed as an XML web service, servername is the fully qualified domain name of the server offering the XML web service; vroot is the IIS virtual root directory from which the XML web service is exposed; and progID is the ProgID of the component you want to use.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="5d0b0-117">備註</span><span class="sxs-lookup"><span data-stu-id="5d0b0-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="04333-117">備註</span><span class="sxs-lookup"><span data-stu-id="04333-117">Remarks</span></span>
 
-<span data-ttu-id="5d0b0-118">在 WKO 模式中第一次存取 XML web service 時，COM + 會產生 proxy 用戶端，並在背景中進行編譯。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-118">When an XML web service is first accessed in WKO mode, COM+ generates a proxy client and compiles it in the background.</span></span> <span data-ttu-id="5d0b0-119">此執行時間產生和在 WKO 模式中缺少持續連線，可大幅降低與 CAO 模式相比的效能。</span><span class="sxs-lookup"><span data-stu-id="5d0b0-119">This run-time generation and the lack of persistent connections in WKO mode results in significantly reduced performance in comparison to CAO mode.</span></span>
+<span data-ttu-id="04333-118">在 WKO 模式中第一次存取 XML web service 時，COM + 會產生 proxy 用戶端，並在背景中進行編譯。</span><span class="sxs-lookup"><span data-stu-id="04333-118">When an XML web service is first accessed in WKO mode, COM+ generates a proxy client and compiles it in the background.</span></span> <span data-ttu-id="04333-119">此執行時間產生和在 WKO 模式中缺少持續連線，可大幅降低與 CAO 模式相比的效能。</span><span class="sxs-lookup"><span data-stu-id="04333-119">This run-time generation and the lack of persistent connections in WKO mode results in significantly reduced performance in comparison to CAO mode.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="5d0b0-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="5d0b0-120">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="04333-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="04333-120">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="5d0b0-121">以 CAO 模式存取 XML Web Service</span><span class="sxs-lookup"><span data-stu-id="5d0b0-121">Accessing XML Web Services in CAO Mode</span></span>](accessing-xml-web-services-in-cao-mode.md)
+[<span data-ttu-id="04333-121">以 CAO 模式存取 XML Web Service</span><span class="sxs-lookup"><span data-stu-id="04333-121">Accessing XML Web Services in CAO Mode</span></span>](accessing-xml-web-services-in-cao-mode.md)
 </dt> <dt>
 
-[<span data-ttu-id="5d0b0-122">COM + SOAP 服務總覽</span><span class="sxs-lookup"><span data-stu-id="5d0b0-122">COM+ SOAP Service Overview</span></span>](com--soap-service-overview.md)
+[<span data-ttu-id="04333-122">COM + SOAP 服務總覽</span><span class="sxs-lookup"><span data-stu-id="04333-122">COM+ SOAP Service Overview</span></span>](com--soap-service-overview.md)
 </dt> <dt>
 
-[<span data-ttu-id="5d0b0-123">建立 XML Web Service</span><span class="sxs-lookup"><span data-stu-id="5d0b0-123">Creating XML Web Services</span></span>](creating-xml-web-services.md)
+[<span data-ttu-id="04333-123">建立 XML Web Service</span><span class="sxs-lookup"><span data-stu-id="04333-123">Creating XML Web Services</span></span>](creating-xml-web-services.md)
 </dt> <dt>
 
-[<span data-ttu-id="5d0b0-124">保護 XML Web Service</span><span class="sxs-lookup"><span data-stu-id="5d0b0-124">Securing XML Web Services</span></span>](securing-xml-web-services.md)
+[<span data-ttu-id="04333-124">保護 XML Web Service</span><span class="sxs-lookup"><span data-stu-id="04333-124">Securing XML Web Services</span></span>](securing-xml-web-services.md)
 </dt> </dl>
 
  

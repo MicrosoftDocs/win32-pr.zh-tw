@@ -12,12 +12,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "103933602"
 ---
-# <a name="binding-types-specific-to-active-directory"></a><span data-ttu-id="727b2-103">Active Directory 特定的系結類型</span><span class="sxs-lookup"><span data-stu-id="727b2-103">Binding Types Specific to Active Directory</span></span>
+# <a name="binding-types-specific-to-active-directory"></a><span data-ttu-id="a5ff1-103">Active Directory 特定的系結類型</span><span class="sxs-lookup"><span data-stu-id="a5ff1-103">Binding Types Specific to Active Directory</span></span>
 
-<span data-ttu-id="727b2-104">除了先前討論的 LDAP 系結之外，Active Directory 也引進了數個新概念來系結至物件。</span><span class="sxs-lookup"><span data-stu-id="727b2-104">In addition to the LDAP bindings discussed previously, Active Directory introduces several new concepts for binding to an object.</span></span> <span data-ttu-id="727b2-105">請參閱 [Active Directory Domain Services](/windows/desktop/AD/active-directory-domain-services) 檔中的下列主題：</span><span class="sxs-lookup"><span data-stu-id="727b2-105">See the following topics in the [Active Directory Domain Services](/windows/desktop/AD/active-directory-domain-services) documentation:</span></span>
+<span data-ttu-id="a5ff1-104">除了先前討論的 LDAP 系結之外，Active Directory 也引進了數個新概念來系結至物件。</span><span class="sxs-lookup"><span data-stu-id="a5ff1-104">In addition to the LDAP bindings discussed previously, Active Directory introduces several new concepts for binding to an object.</span></span> <span data-ttu-id="a5ff1-105">請參閱 [Active Directory Domain Services](/windows/desktop/AD/active-directory-domain-services) 檔中的下列主題：</span><span class="sxs-lookup"><span data-stu-id="a5ff1-105">See the following topics in the [Active Directory Domain Services](/windows/desktop/AD/active-directory-domain-services) documentation:</span></span>
 
--   [<span data-ttu-id="727b2-106">無伺服器系結和 RootDSE</span><span class="sxs-lookup"><span data-stu-id="727b2-106">Serverless Binding and RootDSE</span></span>](/windows/desktop/AD/serverless-binding-and-rootdse)
--   [<span data-ttu-id="727b2-107">系結至通用類別目錄</span><span class="sxs-lookup"><span data-stu-id="727b2-107">Binding to the Global Catalog</span></span>](/windows/desktop/AD/binding-to-the-global-catalog)
+-   [<span data-ttu-id="a5ff1-106">無伺服器系結和 RootDSE</span><span class="sxs-lookup"><span data-stu-id="a5ff1-106">Serverless Binding and RootDSE</span></span>](/windows/desktop/AD/serverless-binding-and-rootdse)
+-   [<span data-ttu-id="a5ff1-107">系結至通用類別目錄</span><span class="sxs-lookup"><span data-stu-id="a5ff1-107">Binding to the Global Catalog</span></span>](/windows/desktop/AD/binding-to-the-global-catalog)
 
  
 

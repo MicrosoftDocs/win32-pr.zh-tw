@@ -15,9 +15,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020743"
 ---
-# <a name="composing-the-spns-for-a-service-with-an-scp"></a><span data-ttu-id="51836-105">使用 SCP 撰寫服務的 Spn</span><span class="sxs-lookup"><span data-stu-id="51836-105">Composing the SPNs for a Service with an SCP</span></span>
+# <a name="composing-the-spns-for-a-service-with-an-scp"></a><span data-ttu-id="4aa5e-105">使用 SCP 撰寫服務的 Spn</span><span class="sxs-lookup"><span data-stu-id="4aa5e-105">Composing the SPNs for a Service with an SCP</span></span>
 
-<span data-ttu-id="51836-106">下列程式碼範例撰寫使用服務連接點 (SCP) 之服務的 SPN。</span><span class="sxs-lookup"><span data-stu-id="51836-106">The following code example composes an SPN for a service that uses a service connection point (SCP).</span></span> <span data-ttu-id="51836-107">傳回的 SPN 具有下列格式。</span><span class="sxs-lookup"><span data-stu-id="51836-107">The returned SPN has the following format.</span></span>
+<span data-ttu-id="4aa5e-106">下列程式碼範例撰寫使用服務連接點 (SCP) 之服務的 SPN。</span><span class="sxs-lookup"><span data-stu-id="4aa5e-106">The following code example composes an SPN for a service that uses a service connection point (SCP).</span></span> <span data-ttu-id="4aa5e-107">傳回的 SPN 具有下列格式。</span><span class="sxs-lookup"><span data-stu-id="4aa5e-107">The returned SPN has the following format.</span></span>
 
 
 ```C++
@@ -26,7 +26,7 @@ ms.locfileid: "104020743"
 
 
 
-<span data-ttu-id="51836-108">「 &lt; 服務類別」 &gt; 和「 &lt; 服務名稱」會 &gt; 對應至 *pszDNofSCP* 和 *pszServiceClass* 參數。</span><span class="sxs-lookup"><span data-stu-id="51836-108">"&lt;service class&gt;" and "&lt;service name&gt;" correspond to the *pszDNofSCP* and *pszServiceClass* parameters.</span></span> <span data-ttu-id="51836-109">「 &lt; 主機」 &gt; 預設為本機電腦的 DNS 名稱。</span><span class="sxs-lookup"><span data-stu-id="51836-109">"&lt;host&gt;" defaults to the DNS name of the local computer.</span></span>
+<span data-ttu-id="4aa5e-108">「 &lt; 服務類別」 &gt; 和「 &lt; 服務名稱」會 &gt; 對應至 *pszDNofSCP* 和 *pszServiceClass* 參數。</span><span class="sxs-lookup"><span data-stu-id="4aa5e-108">"&lt;service class&gt;" and "&lt;service name&gt;" correspond to the *pszDNofSCP* and *pszServiceClass* parameters.</span></span> <span data-ttu-id="4aa5e-109">「 &lt; 主機」 &gt; 預設為本機電腦的 DNS 名稱。</span><span class="sxs-lookup"><span data-stu-id="4aa5e-109">"&lt;host&gt;" defaults to the DNS name of the local computer.</span></span>
 
 
 ```C++

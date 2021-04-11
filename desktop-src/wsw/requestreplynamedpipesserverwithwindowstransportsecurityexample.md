@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104020758"
 ---
-# <a name="requestreplynamedpipesserverwithwindowstransportsecurityexample"></a><span data-ttu-id="ebf04-103">RequestReplyNamedPipesServerWithWindowsTransportSecurityExample</span><span class="sxs-lookup"><span data-stu-id="ebf04-103">RequestReplyNamedPipesServerWithWindowsTransportSecurityExample</span></span>
+# <a name="requestreplynamedpipesserverwithwindowstransportsecurityexample"></a><span data-ttu-id="1fcca-103">RequestReplyNamedPipesServerWithWindowsTransportSecurityExample</span><span class="sxs-lookup"><span data-stu-id="1fcca-103">RequestReplyNamedPipesServerWithWindowsTransportSecurityExample</span></span>
 
-<span data-ttu-id="ebf04-104">此範例顯示可接受通道的具名管道伺服器，並接收和回復具有 Windows SSPI 傳輸安全性所提供安全性的訊息。</span><span class="sxs-lookup"><span data-stu-id="ebf04-104">This example shows a named pipes server that accepts a channel, and receives and replies to messages with security provided by Windows SSPI transport security.</span></span>
+<span data-ttu-id="1fcca-104">此範例顯示可接受通道的具名管道伺服器，並接收和回復具有 Windows SSPI 傳輸安全性所提供安全性的訊息。</span><span class="sxs-lookup"><span data-stu-id="1fcca-104">This example shows a named pipes server that accepts a channel, and receives and replies to messages with security provided by Windows SSPI transport security.</span></span>
 
--   [<span data-ttu-id="ebf04-105">RequestReplyNamedPipesServerWithWindowsTransportSecurity .cpp</span><span class="sxs-lookup"><span data-stu-id="ebf04-105">RequestReplyNamedPipesServerWithWindowsTransportSecurity.cpp</span></span>](#requestreplynamedpipesserverwithwindowstransportsecuritycpp)
--   [<span data-ttu-id="ebf04-106">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="ebf04-106">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="ebf04-107">Makefile</span><span class="sxs-lookup"><span data-stu-id="ebf04-107">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="1fcca-105">RequestReplyNamedPipesServerWithWindowsTransportSecurity .cpp</span><span class="sxs-lookup"><span data-stu-id="1fcca-105">RequestReplyNamedPipesServerWithWindowsTransportSecurity.cpp</span></span>](#requestreplynamedpipesserverwithwindowstransportsecuritycpp)
+-   [<span data-ttu-id="1fcca-106">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="1fcca-106">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="1fcca-107">Makefile</span><span class="sxs-lookup"><span data-stu-id="1fcca-107">Makefile</span></span>](#makefile)
 
-## <a name="requestreplynamedpipesserverwithwindowstransportsecuritycpp"></a><span data-ttu-id="ebf04-108">RequestReplyNamedPipesServerWithWindowsTransportSecurity .cpp</span><span class="sxs-lookup"><span data-stu-id="ebf04-108">RequestReplyNamedPipesServerWithWindowsTransportSecurity.cpp</span></span>
+## <a name="requestreplynamedpipesserverwithwindowstransportsecuritycpp"></a><span data-ttu-id="1fcca-108">RequestReplyNamedPipesServerWithWindowsTransportSecurity .cpp</span><span class="sxs-lookup"><span data-stu-id="1fcca-108">RequestReplyNamedPipesServerWithWindowsTransportSecurity.cpp</span></span>
 
 
 ```C++
@@ -473,7 +473,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="ebf04-109">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="ebf04-109">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="1fcca-109">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="1fcca-109">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -584,7 +584,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="ebf04-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="ebf04-110">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="1fcca-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="1fcca-110">Makefile</span></span>
 
 ``` syntax
 #------------------------------------------------------------

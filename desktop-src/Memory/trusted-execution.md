@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103944056"
 ---
-# <a name="trusted-execution"></a><span data-ttu-id="1f7c3-105">受信任的執行</span><span class="sxs-lookup"><span data-stu-id="1f7c3-105">Trusted Execution</span></span>
+# <a name="trusted-execution"></a><span data-ttu-id="fb202-105">受信任的執行</span><span class="sxs-lookup"><span data-stu-id="fb202-105">Trusted Execution</span></span>
 
-<span data-ttu-id="1f7c3-106">記憶體保護區可用來建立受信任的執行環境。</span><span class="sxs-lookup"><span data-stu-id="1f7c3-106">Enclaves are used to create trusted execution environments.</span></span> <span data-ttu-id="1f7c3-107">記憶體保護區是程式碼的隔離區域，以及應用程式位址空間內的資料。</span><span class="sxs-lookup"><span data-stu-id="1f7c3-107">An enclave is an isolated region of code and data within the address space for an application.</span></span> <span data-ttu-id="1f7c3-108">只有在記憶體保護區中執行的程式碼可以存取相同記憶體保護區內的資料。</span><span class="sxs-lookup"><span data-stu-id="1f7c3-108">Only code that runs within the enclave can access data within the same enclave.</span></span>
+<span data-ttu-id="fb202-106">記憶體保護區可用來建立受信任的執行環境。</span><span class="sxs-lookup"><span data-stu-id="fb202-106">Enclaves are used to create trusted execution environments.</span></span> <span data-ttu-id="fb202-107">記憶體保護區是程式碼的隔離區域，以及應用程式位址空間內的資料。</span><span class="sxs-lookup"><span data-stu-id="fb202-107">An enclave is an isolated region of code and data within the address space for an application.</span></span> <span data-ttu-id="fb202-108">只有在記憶體保護區中執行的程式碼可以存取相同記憶體保護區內的資料。</span><span class="sxs-lookup"><span data-stu-id="fb202-108">Only code that runs within the enclave can access data within the same enclave.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="1f7c3-109">本節內容</span><span class="sxs-lookup"><span data-stu-id="1f7c3-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fb202-109">本節內容</span><span class="sxs-lookup"><span data-stu-id="fb202-109">In This Section</span></span>
 
--   [<span data-ttu-id="1f7c3-110">**信任的執行參考**</span><span class="sxs-lookup"><span data-stu-id="1f7c3-110">**Trusted Execution Reference**</span></span>](trusted-execution-reference.md)
+-   [<span data-ttu-id="fb202-110">**信任的執行參考**</span><span class="sxs-lookup"><span data-stu-id="fb202-110">**Trusted Execution Reference**</span></span>](trusted-execution-reference.md)
 
  
 

@@ -1,0 +1,97 @@
+---
+title: 擷取轉錄介面
+description: 擷取轉錄介面
+ms.assetid: 760610eb-e356-4b50-b865-53557ba9b815
+keywords:
+- Windows Media Player、CD 翻錄
+- Windows Media Player 物件模型，CD 翻錄
+- 物件模型、CD 翻錄
+- Windows Media Player ActiveX 控制項、CD 翻錄
+- ActiveX 控制項，CD 翻錄
+- Windows Media Player 的行動 ActiveX 控制項、CD 翻錄
+- Windows Media Player 行動電話、CD 翻錄
+- CD 翻錄，IWMPCdromRip 介面
+- 將 Cd、IWMPCdromRip 介面翻錄
+- IWMPCdromRip 介面
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 903fa285404700e35363a94239c79706e7af0e34
+ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/25/2020
+ms.locfileid: "103841963"
+---
+# <a name="retrieving-the-ripping-interface"></a><span data-ttu-id="be034-113">擷取轉錄介面</span><span class="sxs-lookup"><span data-stu-id="be034-113">Retrieving the Ripping Interface</span></span>
+
+<span data-ttu-id="be034-114">若要列舉使用者電腦上的 CD 磁片磁碟機，請使用 **IWMPCdromCollection** 介面。</span><span class="sxs-lookup"><span data-stu-id="be034-114">To enumerate the CD drives on the user's computer, use the **IWMPCdromCollection** interface.</span></span> <span data-ttu-id="be034-115">呼叫 [IWMPCore：： get \_ cdromCollection](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection)，以抓取這個介面的指標。</span><span class="sxs-lookup"><span data-stu-id="be034-115">Retrieve a pointer to this interface by calling [IWMPCore::get\_cdromCollection](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection).</span></span>
+
+<span data-ttu-id="be034-116">藉由使用 [get \_ count](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-get_count) 和 [item](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-item) 方法，您可以逐一查看集合，以取得使用者電腦上每個 CD 光碟機的 [IWMPCdrom](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdrom) 介面。</span><span class="sxs-lookup"><span data-stu-id="be034-116">By using the [get\_count](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-get_count) and [item](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-item) methods, you can iterate the collection to retrieve an [IWMPCdrom](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdrom) interface for each CD drive on the user's computer.</span></span>
+
+<span data-ttu-id="be034-117">**IWMPCdrom** 介面代表個別的 CD 光碟機。</span><span class="sxs-lookup"><span data-stu-id="be034-117">The **IWMPCdrom** interface represents an individual CD drive.</span></span> <span data-ttu-id="be034-118">開始將 CD 翻錄之前，您必須先透過 **IWMPCdrom** 指標呼叫 **QueryInterface** ，以取出 [IWMPCdromRip](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip)介面。</span><span class="sxs-lookup"><span data-stu-id="be034-118">Before you begin ripping a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve the [IWMPCdromRip](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip) interface.</span></span>
+
+<span data-ttu-id="be034-119">下列程式碼範例示範如何取出介面，以從特定磁片磁碟機翻錄 CD：</span><span class="sxs-lookup"><span data-stu-id="be034-119">The following code example demonstrates how to retrieve an interface for ripping a CD from a specific drive:</span></span>
+
+
+```C++
+HRESULT CMainDlg::GetCdromDriveCount (long &lDriveCount)
+{
+    HRESULT hr = m_spPlayer->get_cdromCollection(&m_spCdromCollection);
+
+    // Get the number of CDROM drives.
+    if (SUCCEEDED(hr))
+    {
+        hr = m_spCdromCollection->get_count(&lDriveCount);
+    }
+
+    return hr;
+}
+
+// lIndex refers to the index of the current drive,
+// which must be less than the value retrieved by
+// GetCdromDriveCount above.
+HRESULT CMainDlg::GetCdromRipInterface (long lIndex)
+{
+    // Get the IWMPCdrom interface.
+    m_spCdrom.Release();
+    HRESULT hr = m_spCdromCollection->item(lIndex, &m_spCdrom);
+    if (SUCCEEDED(hr))
+    {
+        // Get the IWMPCdromRip interface.
+        m_spCdromRip.Release();
+        hr = m_spCdrom->QueryInterface(&m_spCdromRip);
+    }
+
+    return hr;
+}
+
+```
+
+
+
+## <a name="related-topics"></a><span data-ttu-id="be034-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="be034-120">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="be034-121">**將 CD 翻錄**</span><span class="sxs-lookup"><span data-stu-id="be034-121">**Ripping a CD**</span></span>](ripping-a-cd.md)
+</dt> <dt>
+
+[<span data-ttu-id="be034-122">**啟動 Rip 進程**</span><span class="sxs-lookup"><span data-stu-id="be034-122">**Starting the Rip Process**</span></span>](starting-the-rip-process.md)
+</dt> <dt>
+
+[<span data-ttu-id="be034-123">**正在抓取 Rip 狀態**</span><span class="sxs-lookup"><span data-stu-id="be034-123">**Retrieving the Rip Status**</span></span>](retrieving-the-rip-status.md)
+</dt> <dt>
+
+[<span data-ttu-id="be034-124">**選取要進行翻錄的專案**</span><span class="sxs-lookup"><span data-stu-id="be034-124">**Selecting Items for Ripping**</span></span>](selecting-items-for-ripping.md)
+</dt> <dt>
+
+[<span data-ttu-id="be034-125">**IWMPCdromCollection 介面**</span><span class="sxs-lookup"><span data-stu-id="be034-125">**IWMPCdromCollection Interface**</span></span>](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

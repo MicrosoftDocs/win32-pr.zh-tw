@@ -1,0 +1,30 @@
+---
+title: 高對比參數
+description: 高對比參數表示使用者是否希望前景和背景視覺效果所使用的色彩之間有高對比。
+ms.assetid: ec89c4ce-4e8b-4e1f-a349-fbd47431d675
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2f1255e8a99b3cb253146e2fa2c019a879c4a1b6
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103933372"
+---
+# <a name="high-contrast-parameter"></a><span data-ttu-id="f0a1f-103">高對比參數</span><span class="sxs-lookup"><span data-stu-id="f0a1f-103">High contrast parameter</span></span>
+
+<span data-ttu-id="f0a1f-104">高對比參數表示使用者是否希望前景和背景視覺效果所使用的色彩之間有高對比。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-104">The high contrast parameter indicates whether the user wants a high contrast between the colors used for foreground and background visuals.</span></span>
+
+<span data-ttu-id="f0a1f-105">使用者可以使用主控台中的輕鬆存取中心來控制高對比參數的設定，或使用其他應用程式來自訂環境。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-105">The user controls the setting of the high contrast parameter by using the Ease of Access Center in Control Panel, or another application for customizing the environment.</span></span> <span data-ttu-id="f0a1f-106">應用程式會使用 **spi \_ GETHIGHCONTRAST** 和 **spi \_ SETHIGHCONTRAST** 旗標搭配 [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) 函式來取得和設定高對比參數。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-106">Applications use the **SPI\_GETHIGHCONTRAST** and **SPI\_SETHIGHCONTRAST** flags with the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function to get and set the high contrast parameter.</span></span>
+
+<span data-ttu-id="f0a1f-107">在初始化期間，以及處理 [**WM \_ SYSCOLORCHANGE**](/windows/desktop/gdi/wm-syscolorchange) 訊息時，應用程式應該判斷高對比參數的狀態。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-107">During initialization and when processing [**WM\_SYSCOLORCHANGE**](/windows/desktop/gdi/wm-syscolorchange) messages, applications should determine the state of the high contrast parameter.</span></span> <span data-ttu-id="f0a1f-108">為了進行這項判斷，應用程式應該使用 **SPI \_ GETHIGHCONTRAST** 旗標來呼叫 [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) ，以取得 [**systeminformation.highcontrast**](/windows/win32/api/winuser/ns-winuser-highcontrasta)結構。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-108">To make this determination, applications should call [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) with the **SPI\_GETHIGHCONTRAST** flag to obtain a [**HIGHCONTRAST**](/windows/win32/api/winuser/ns-winuser-highcontrasta) structure.</span></span> <span data-ttu-id="f0a1f-109">如果 **systeminformation.highcontrast** 結構的 **dwFlags** 成員已設定 **HCF \_ HIGHCONTRASTON** 位，則會啟用高對比功能，應用程式應該執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="f0a1f-109">If the **dwFlags** member of the **HIGHCONTRAST** structure has the **HCF\_HIGHCONTRASTON** bit set, then the high contrast feature is enabled, and applications should do the following:</span></span>
+
+-   <span data-ttu-id="f0a1f-110">將所有色彩對應到一對前景和背景色彩。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-110">Map all colors to a single pair of foreground and background colors.</span></span> <span data-ttu-id="f0a1f-111">您可以使用 [**GetSysColor**](/windows/desktop/api/winuser/nf-winuser-getsyscolor) 函式來決定適當的前景和背景色彩，方法是使用 **色彩 \_ WINDOWTEXT** 和 **色彩 \_ 視窗** 的組合，或 **色彩 \_ BTNTEXT** 和 **色彩 \_ BTNFACE** 的組合。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-111">Use the [**GetSysColor**](/windows/desktop/api/winuser/nf-winuser-getsyscolor) function to determine the appropriate foreground and background colors, using either a combination of **COLOR\_WINDOWTEXT** and **COLOR\_WINDOW** or a combination of **COLOR\_BTNTEXT** and **COLOR\_BTNFACE**.</span></span> <span data-ttu-id="f0a1f-112">**GetSysColor** 函式會透過主控台傳回使用者所選取的色彩。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-112">The **GetSysColor** function returns the colors selected by the user through the Control Panel.</span></span>
+-   <span data-ttu-id="f0a1f-113">略過通常會顯示在文字後方的任何點陣圖影像。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-113">Omit any bitmapped images that would typically be displayed behind text.</span></span> <span data-ttu-id="f0a1f-114">這類影像會以視覺方式分散到需要高對比的使用者。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-114">Such images are visually distracting to a user who needs high contrast.</span></span>
+-   <span data-ttu-id="f0a1f-115">通常會以多個色彩繪製的影像，應使用針對文字選取的前景和背景色彩來繪製。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-115">Images that would typically be drawn in multiple colors should be drawn using the foreground and background colors selected for text.</span></span>
+
+<span data-ttu-id="f0a1f-116">此外，應用程式也會使用 **spi \_ GETDISABLEOVERLAPPEDCONTENT** 和 **spi \_ SETDISABLEOVERLAPPEDCONTENT** 旗標搭配 [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) 函式來取得和設定重迭的內容參數。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-116">Also, applications use the **SPI\_GETDISABLEOVERLAPPEDCONTENT** and **SPI\_SETDISABLEOVERLAPPEDCONTENT** flags with the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function to get and set overlapped content parameter.</span></span> <span data-ttu-id="f0a1f-117">顯示功能（例如背景影像、紋理材質、檔上的水位線、Alpha 混色和透明度）可以降低前景與背景的對比，讓視力較低的使用者更難看到畫面上的物件。</span><span class="sxs-lookup"><span data-stu-id="f0a1f-117">Display features such as background images, textured backgrounds, water marks on documents, alpha blending, and transparency can reduce the contrast between the foreground and background, making it harder for users with low vision to see objects on the screen.</span></span> <span data-ttu-id="f0a1f-118">這個旗標可讓應用程式判斷是否已停用這類重迭的內容</span><span class="sxs-lookup"><span data-stu-id="f0a1f-118">This flag enables applications to determine whether such overlapped content has been disabled</span></span>
+
+ 
+
+ 

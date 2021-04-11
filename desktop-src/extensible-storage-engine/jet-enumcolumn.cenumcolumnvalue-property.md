@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689615"
 ---
-# <a name="jet_enumcolumncenumcolumnvalue-property"></a><span data-ttu-id="99966-103">JET_ENUMCOLUMN cEnumColumnValue 屬性</span><span class="sxs-lookup"><span data-stu-id="99966-103">JET_ENUMCOLUMN.cEnumColumnValue property</span></span>
+# <a name="jet_enumcolumncenumcolumnvalue-property"></a><span data-ttu-id="dbfa1-103">JET_ENUMCOLUMN cEnumColumnValue 屬性</span><span class="sxs-lookup"><span data-stu-id="dbfa1-103">JET_ENUMCOLUMN.cEnumColumnValue property</span></span>
 
-<span data-ttu-id="99966-104">取得針對資料行列舉的資料行值數目。</span><span class="sxs-lookup"><span data-stu-id="99966-104">Gets the number of column values enumerated for the column.</span></span> <span data-ttu-id="99966-105">只有在未[ColumnSingleValue](./jet-wrn-enumeration.md) [err](./jet-enumcolumn.err-property.md)時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="99966-105">This member is only used if [err](./jet-enumcolumn.err-property.md) is not [ColumnSingleValue](./jet-wrn-enumeration.md).</span></span>
+<span data-ttu-id="dbfa1-104">取得針對資料行列舉的資料行值數目。</span><span class="sxs-lookup"><span data-stu-id="dbfa1-104">Gets the number of column values enumerated for the column.</span></span> <span data-ttu-id="dbfa1-105">只有在未[ColumnSingleValue](./jet-wrn-enumeration.md) [err](./jet-enumcolumn.err-property.md)時，才會使用這個成員。</span><span class="sxs-lookup"><span data-stu-id="dbfa1-105">This member is only used if [err](./jet-enumcolumn.err-property.md) is not [ColumnSingleValue](./jet-wrn-enumeration.md).</span></span>
 
-<span data-ttu-id="99966-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="99966-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="99966-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="99966-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="dbfa1-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="dbfa1-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="dbfa1-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="dbfa1-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="99966-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="99966-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dbfa1-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="dbfa1-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,16 +58,16 @@ value = instance.cEnumColumnValue
 public int cEnumColumnValue { get; internal set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="99966-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="99966-109">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="dbfa1-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="dbfa1-109">Property value</span></span>
 
-<span data-ttu-id="99966-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="99966-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="dbfa1-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="dbfa1-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="99966-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="99966-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dbfa1-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dbfa1-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="99966-112">參考</span><span class="sxs-lookup"><span data-stu-id="99966-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="dbfa1-112">參考</span><span class="sxs-lookup"><span data-stu-id="dbfa1-112">Reference</span></span>
 
-[<span data-ttu-id="99966-113">JET_ENUMCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="99966-113">JET_ENUMCOLUMN class</span></span>](./jet-enumcolumn-class.md)
+[<span data-ttu-id="dbfa1-113">JET_ENUMCOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="dbfa1-113">JET_ENUMCOLUMN class</span></span>](./jet-enumcolumn-class.md)
 
-[<span data-ttu-id="99966-114">JET_ENUMCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="99966-114">JET_ENUMCOLUMN members</span></span>](./jet-enumcolumn-members.md)
+[<span data-ttu-id="dbfa1-114">JET_ENUMCOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="dbfa1-114">JET_ENUMCOLUMN members</span></span>](./jet-enumcolumn-members.md)
 
-[<span data-ttu-id="99966-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="99966-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="dbfa1-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="dbfa1-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

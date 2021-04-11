@@ -23,15 +23,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843728"
 ---
-# <a name="emailactionreplyto-property"></a><span data-ttu-id="aaceb-106">EmailAction ReplyTo 屬性</span><span class="sxs-lookup"><span data-stu-id="aaceb-106">EmailAction.ReplyTo property</span></span>
+# <a name="emailactionreplyto-property"></a><span data-ttu-id="db02a-106">EmailAction ReplyTo 屬性</span><span class="sxs-lookup"><span data-stu-id="db02a-106">EmailAction.ReplyTo property</span></span>
 
-<span data-ttu-id="aaceb-107">\[不再支援此物件。</span><span class="sxs-lookup"><span data-stu-id="aaceb-107">\[This object is no longer supported.</span></span> <span data-ttu-id="aaceb-108">請使用 IExecAction 搭配 powershell [**傳送 send-mailmessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) Cmdlet 作為因應措施。\]</span><span class="sxs-lookup"><span data-stu-id="aaceb-108">Please use IExecAction with the powershell [**Send-MailMessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.\]</span></span>
+<span data-ttu-id="db02a-107">\[不再支援此物件。</span><span class="sxs-lookup"><span data-stu-id="db02a-107">\[This object is no longer supported.</span></span> <span data-ttu-id="db02a-108">請使用 IExecAction 搭配 powershell [**傳送 send-mailmessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) Cmdlet 作為因應措施。\]</span><span class="sxs-lookup"><span data-stu-id="db02a-108">Please use IExecAction with the powershell [**Send-MailMessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.\]</span></span>
 
-<span data-ttu-id="aaceb-109">針對腳本，取得或設定要回復的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="aaceb-109">For scripting, gets or sets the email address that you want to reply to.</span></span>
+<span data-ttu-id="db02a-109">針對腳本，取得或設定要回復的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="db02a-109">For scripting, gets or sets the email address that you want to reply to.</span></span>
 
-<span data-ttu-id="aaceb-110">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="aaceb-110">This property is read/write.</span></span>
+<span data-ttu-id="db02a-110">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="db02a-110">This property is read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="aaceb-111">Syntax</span><span class="sxs-lookup"><span data-stu-id="aaceb-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="db02a-111">Syntax</span><span class="sxs-lookup"><span data-stu-id="db02a-111">Syntax</span></span>
 
 
 ```VB
@@ -40,33 +40,33 @@ EmailAction.ReplyTo As String
 
 
 
-## <a name="property-value"></a><span data-ttu-id="aaceb-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="aaceb-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="db02a-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="db02a-112">Property value</span></span>
 
-<span data-ttu-id="aaceb-113">您要回復的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="aaceb-113">The email address that you want to reply to.</span></span>
+<span data-ttu-id="db02a-113">您要回復的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="db02a-113">The email address that you want to reply to.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="aaceb-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="aaceb-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="db02a-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="db02a-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="aaceb-115">需求</span><span class="sxs-lookup"><span data-stu-id="aaceb-115">Requirement</span></span> | <span data-ttu-id="aaceb-116">值</span><span class="sxs-lookup"><span data-stu-id="aaceb-116">Value</span></span> |
+| <span data-ttu-id="db02a-115">需求</span><span class="sxs-lookup"><span data-stu-id="db02a-115">Requirement</span></span> | <span data-ttu-id="db02a-116">值</span><span class="sxs-lookup"><span data-stu-id="db02a-116">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="aaceb-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="aaceb-117">Minimum supported client</span></span><br/> | <span data-ttu-id="aaceb-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="aaceb-118">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
-| <span data-ttu-id="aaceb-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="aaceb-119">Minimum supported server</span></span><br/> | <span data-ttu-id="aaceb-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="aaceb-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="aaceb-121">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="aaceb-121">End of client support</span></span><br/>    | <span data-ttu-id="aaceb-122">Windows 7</span><span class="sxs-lookup"><span data-stu-id="aaceb-122">Windows 7</span></span><br/>                                                                    |
-| <span data-ttu-id="aaceb-123">伺服器支援結束</span><span class="sxs-lookup"><span data-stu-id="aaceb-123">End of server support</span></span><br/>    | <span data-ttu-id="aaceb-124">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="aaceb-124">Windows Server 2008 R2</span></span><br/>                                                       |
-| <span data-ttu-id="aaceb-125">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="aaceb-125">Type library</span></span><br/>             | <dl> <span data-ttu-id="aaceb-126"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="aaceb-126"><dt>Taskschd.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="aaceb-127">DLL</span><span class="sxs-lookup"><span data-stu-id="aaceb-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="aaceb-128"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="aaceb-128"><dt>Taskschd.dll</dt></span></span> </dl> |
+| <span data-ttu-id="db02a-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="db02a-117">Minimum supported client</span></span><br/> | <span data-ttu-id="db02a-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="db02a-118">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="db02a-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="db02a-119">Minimum supported server</span></span><br/> | <span data-ttu-id="db02a-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="db02a-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="db02a-121">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="db02a-121">End of client support</span></span><br/>    | <span data-ttu-id="db02a-122">Windows 7</span><span class="sxs-lookup"><span data-stu-id="db02a-122">Windows 7</span></span><br/>                                                                    |
+| <span data-ttu-id="db02a-123">伺服器支援結束</span><span class="sxs-lookup"><span data-stu-id="db02a-123">End of server support</span></span><br/>    | <span data-ttu-id="db02a-124">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="db02a-124">Windows Server 2008 R2</span></span><br/>                                                       |
+| <span data-ttu-id="db02a-125">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="db02a-125">Type library</span></span><br/>             | <dl> <span data-ttu-id="db02a-126"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="db02a-126"><dt>Taskschd.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="db02a-127">DLL</span><span class="sxs-lookup"><span data-stu-id="db02a-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="db02a-128"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="db02a-128"><dt>Taskschd.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="aaceb-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="aaceb-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="db02a-129">另請參閱</span><span class="sxs-lookup"><span data-stu-id="db02a-129">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="aaceb-130">**EmailAction**</span><span class="sxs-lookup"><span data-stu-id="aaceb-130">**EmailAction**</span></span>](emailaction.md)
+[<span data-ttu-id="db02a-130">**EmailAction**</span><span class="sxs-lookup"><span data-stu-id="db02a-130">**EmailAction**</span></span>](emailaction.md)
 </dt> <dt>
 
-[<span data-ttu-id="aaceb-131">工作排程器</span><span class="sxs-lookup"><span data-stu-id="aaceb-131">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="db02a-131">工作排程器</span><span class="sxs-lookup"><span data-stu-id="db02a-131">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> </dl>
 
  

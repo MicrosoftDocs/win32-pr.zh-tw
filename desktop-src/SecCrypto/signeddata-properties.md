@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692759"
 ---
-# <a name="signeddata-properties"></a><span data-ttu-id="78f19-103">SignedData 屬性</span><span class="sxs-lookup"><span data-stu-id="78f19-103">SignedData Properties</span></span>
+# <a name="signeddata-properties"></a><span data-ttu-id="b70e6-103">SignedData 屬性</span><span class="sxs-lookup"><span data-stu-id="b70e6-103">SignedData Properties</span></span>
 
-<span data-ttu-id="78f19-104">[**SignedData**](signeddata.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="78f19-104">The [**SignedData**](signeddata.md) object exposes the following properties.</span></span>
+<span data-ttu-id="b70e6-104">[**SignedData**](signeddata.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="b70e6-104">The [**SignedData**](signeddata.md) object exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="78f19-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="78f19-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b70e6-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b70e6-105">In this section</span></span>
 
--   [<span data-ttu-id="78f19-106">**憑證屬性**</span><span class="sxs-lookup"><span data-stu-id="78f19-106">**Certificates Property**</span></span>](signeddata-certificates.md)
--   [<span data-ttu-id="78f19-107">**Content 屬性**</span><span class="sxs-lookup"><span data-stu-id="78f19-107">**Content Property**</span></span>](signeddata-content.md)
--   [<span data-ttu-id="78f19-108">**簽署者屬性**</span><span class="sxs-lookup"><span data-stu-id="78f19-108">**Signers Property**</span></span>](signeddata-signers.md)
+-   [<span data-ttu-id="b70e6-106">**憑證屬性**</span><span class="sxs-lookup"><span data-stu-id="b70e6-106">**Certificates Property**</span></span>](signeddata-certificates.md)
+-   [<span data-ttu-id="b70e6-107">**Content 屬性**</span><span class="sxs-lookup"><span data-stu-id="b70e6-107">**Content Property**</span></span>](signeddata-content.md)
+-   [<span data-ttu-id="b70e6-108">**簽署者屬性**</span><span class="sxs-lookup"><span data-stu-id="b70e6-108">**Signers Property**</span></span>](signeddata-signers.md)
 
  
 

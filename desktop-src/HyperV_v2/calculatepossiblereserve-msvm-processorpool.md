@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103693056"
 ---
-# <a name="calculatepossiblereserve-method-of-the-msvm_processorpool-class"></a><span data-ttu-id="4a463-103">Msvm ProcessorPool 類別的 CalculatePossibleReserve 方法 \_</span><span class="sxs-lookup"><span data-stu-id="4a463-103">CalculatePossibleReserve method of the Msvm\_ProcessorPool class</span></span>
+# <a name="calculatepossiblereserve-method-of-the-msvm_processorpool-class"></a><span data-ttu-id="81cac-103">Msvm ProcessorPool 類別的 CalculatePossibleReserve 方法 \_</span><span class="sxs-lookup"><span data-stu-id="81cac-103">CalculatePossibleReserve method of the Msvm\_ProcessorPool class</span></span>
 
-<span data-ttu-id="4a463-104">這個方法是用來尋找實際的保留，而輸入參數是計算保留的虛擬機器處理器數目。</span><span class="sxs-lookup"><span data-stu-id="4a463-104">This method is used to find the actual reserve with the input parameter being the number of virtual machine processors for which the reserve is calculated.</span></span> <span data-ttu-id="4a463-105">這個方法是必要的，因為處理器資源的保留會高度依賴必須以平行方式排程的處理器數目。</span><span class="sxs-lookup"><span data-stu-id="4a463-105">This method is necessary because the reservation of processor resources is highly dependent on the number of processors which must be scheduled in parallel.</span></span>
+<span data-ttu-id="81cac-104">這個方法是用來尋找實際的保留，而輸入參數是計算保留的虛擬機器處理器數目。</span><span class="sxs-lookup"><span data-stu-id="81cac-104">This method is used to find the actual reserve with the input parameter being the number of virtual machine processors for which the reserve is calculated.</span></span> <span data-ttu-id="81cac-105">這個方法是必要的，因為處理器資源的保留會高度依賴必須以平行方式排程的處理器數目。</span><span class="sxs-lookup"><span data-stu-id="81cac-105">This method is necessary because the reservation of processor resources is highly dependent on the number of processors which must be scheduled in parallel.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4a463-106">語法</span><span class="sxs-lookup"><span data-stu-id="4a463-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="81cac-106">語法</span><span class="sxs-lookup"><span data-stu-id="81cac-106">Syntax</span></span>
 
 
 ```mof
@@ -35,48 +35,48 @@ uint32 CalculatePossibleReserve(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="4a463-107">參數</span><span class="sxs-lookup"><span data-stu-id="4a463-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="81cac-107">參數</span><span class="sxs-lookup"><span data-stu-id="81cac-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="4a463-108">*ProcessorCount* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4a463-108">*ProcessorCount* \[in\]</span></span>
+<span data-ttu-id="81cac-108">*ProcessorCount* \[在\]</span><span class="sxs-lookup"><span data-stu-id="81cac-108">*ProcessorCount* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4a463-109">類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="4a463-109">Type: **uint16**</span></span>
+<span data-ttu-id="81cac-109">類型： **uint16**</span><span class="sxs-lookup"><span data-stu-id="81cac-109">Type: **uint16**</span></span>
 
-<span data-ttu-id="4a463-110">計算保留的虛擬機器處理器數目。</span><span class="sxs-lookup"><span data-stu-id="4a463-110">The number of virtual machine processors for which the reserve is calculated.</span></span> <span data-ttu-id="4a463-111">這個屬性的最大值是主機電腦的邏輯處理器計數。</span><span class="sxs-lookup"><span data-stu-id="4a463-111">The maximum value for this property is the logical processor count for the host computer.</span></span>
+<span data-ttu-id="81cac-110">計算保留的虛擬機器處理器數目。</span><span class="sxs-lookup"><span data-stu-id="81cac-110">The number of virtual machine processors for which the reserve is calculated.</span></span> <span data-ttu-id="81cac-111">這個屬性的最大值是主機電腦的邏輯處理器計數。</span><span class="sxs-lookup"><span data-stu-id="81cac-111">The maximum value for this property is the logical processor count for the host computer.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="4a463-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="4a463-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="81cac-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="81cac-112">Return value</span></span>
 
-<span data-ttu-id="4a463-113">類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="4a463-113">Type: **uint32**</span></span>
+<span data-ttu-id="81cac-113">類型： **uint32**</span><span class="sxs-lookup"><span data-stu-id="81cac-113">Type: **uint32**</span></span>
 
-<span data-ttu-id="4a463-114">可能保留給虛擬機器的 CPU 資源數量。</span><span class="sxs-lookup"><span data-stu-id="4a463-114">The amount of CPU resources that may be reserved for a virtual machine.</span></span>
+<span data-ttu-id="81cac-114">可能保留給虛擬機器的 CPU 資源數量。</span><span class="sxs-lookup"><span data-stu-id="81cac-114">The amount of CPU resources that may be reserved for a virtual machine.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4a463-115">備註</span><span class="sxs-lookup"><span data-stu-id="4a463-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="81cac-115">備註</span><span class="sxs-lookup"><span data-stu-id="81cac-115">Remarks</span></span>
 
-<span data-ttu-id="4a463-116">存取 [**Msvm \_ ProcessorPool**](msvm-processorpool.md) 類別可能受 UAC 篩選所限制。</span><span class="sxs-lookup"><span data-stu-id="4a463-116">Access to the [**Msvm\_ProcessorPool**](msvm-processorpool.md) class might be restricted by UAC Filtering.</span></span> <span data-ttu-id="4a463-117">如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi)。</span><span class="sxs-lookup"><span data-stu-id="4a463-117">For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).</span></span>
+<span data-ttu-id="81cac-116">存取 [**Msvm \_ ProcessorPool**](msvm-processorpool.md) 類別可能受 UAC 篩選所限制。</span><span class="sxs-lookup"><span data-stu-id="81cac-116">Access to the [**Msvm\_ProcessorPool**](msvm-processorpool.md) class might be restricted by UAC Filtering.</span></span> <span data-ttu-id="81cac-117">如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi)。</span><span class="sxs-lookup"><span data-stu-id="81cac-117">For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="4a463-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="4a463-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="81cac-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="81cac-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="4a463-119">需求</span><span class="sxs-lookup"><span data-stu-id="4a463-119">Requirement</span></span> | <span data-ttu-id="4a463-120">值</span><span class="sxs-lookup"><span data-stu-id="4a463-120">Value</span></span> |
+| <span data-ttu-id="81cac-119">需求</span><span class="sxs-lookup"><span data-stu-id="81cac-119">Requirement</span></span> | <span data-ttu-id="81cac-120">值</span><span class="sxs-lookup"><span data-stu-id="81cac-120">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="4a463-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4a463-121">Minimum supported client</span></span><br/> | <span data-ttu-id="4a463-122">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4a463-122">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
-| <span data-ttu-id="4a463-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4a463-123">Minimum supported server</span></span><br/> | <span data-ttu-id="4a463-124">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4a463-124">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="4a463-125">命名空間</span><span class="sxs-lookup"><span data-stu-id="4a463-125">Namespace</span></span><br/>                | <span data-ttu-id="4a463-126">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="4a463-126">Root\\Virtualization\\V2</span></span><br/>                                                                     |
-| <span data-ttu-id="4a463-127">MOF</span><span class="sxs-lookup"><span data-stu-id="4a463-127">MOF</span></span><br/>                      | <dl> <span data-ttu-id="4a463-128"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="4a463-128"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="4a463-129">DLL</span><span class="sxs-lookup"><span data-stu-id="4a463-129">DLL</span></span><br/>                      | <dl> <span data-ttu-id="4a463-130"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="4a463-130"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="81cac-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="81cac-121">Minimum supported client</span></span><br/> | <span data-ttu-id="81cac-122">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="81cac-122">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
+| <span data-ttu-id="81cac-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="81cac-123">Minimum supported server</span></span><br/> | <span data-ttu-id="81cac-124">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="81cac-124">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="81cac-125">命名空間</span><span class="sxs-lookup"><span data-stu-id="81cac-125">Namespace</span></span><br/>                | <span data-ttu-id="81cac-126">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="81cac-126">Root\\Virtualization\\V2</span></span><br/>                                                                     |
+| <span data-ttu-id="81cac-127">MOF</span><span class="sxs-lookup"><span data-stu-id="81cac-127">MOF</span></span><br/>                      | <dl> <span data-ttu-id="81cac-128"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="81cac-128"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="81cac-129">DLL</span><span class="sxs-lookup"><span data-stu-id="81cac-129">DLL</span></span><br/>                      | <dl> <span data-ttu-id="81cac-130"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="81cac-130"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="4a463-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4a463-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="81cac-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="81cac-131">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4a463-132">**Msvm \_ ProcessorPool**</span><span class="sxs-lookup"><span data-stu-id="4a463-132">**Msvm\_ProcessorPool**</span></span>](msvm-processorpool.md)
+[<span data-ttu-id="81cac-132">**Msvm \_ ProcessorPool**</span><span class="sxs-lookup"><span data-stu-id="81cac-132">**Msvm\_ProcessorPool**</span></span>](msvm-processorpool.md)
 </dt> </dl>
 
  

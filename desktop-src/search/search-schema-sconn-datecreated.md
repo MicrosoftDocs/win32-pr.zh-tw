@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103689848"
 ---
-# <a name="datecreated-element-search-connector-schema"></a><span data-ttu-id="3045f-104">dateCreated 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="3045f-104">dateCreated Element (Search Connector Schema)</span></span>
+# <a name="datecreated-element-search-connector-schema"></a><span data-ttu-id="4beba-104">dateCreated 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="4beba-104">dateCreated Element (Search Connector Schema)</span></span>
 
-<span data-ttu-id="3045f-105">選擇性 <dateCreated> 元素會使用 ISO 8601 標準來識別建立此搜尋連接器的日期和時間。</span><span class="sxs-lookup"><span data-stu-id="3045f-105">The optional <dateCreated> element identifies the date and the time when this search connector was created, using the ISO 8601 standard.</span></span> <span data-ttu-id="3045f-106">它沒有任何子項目，而且沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="3045f-106">It has no child elements and no attributes.</span></span>
+<span data-ttu-id="4beba-105">選擇性 <dateCreated> 元素會使用 ISO 8601 標準來識別建立此搜尋連接器的日期和時間。</span><span class="sxs-lookup"><span data-stu-id="4beba-105">The optional <dateCreated> element identifies the date and the time when this search connector was created, using the ISO 8601 standard.</span></span> <span data-ttu-id="4beba-106">它沒有任何子項目，而且沒有任何屬性。</span><span class="sxs-lookup"><span data-stu-id="4beba-106">It has no child elements and no attributes.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3045f-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="3045f-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4beba-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="4beba-107">Syntax</span></span>
 
 
 ```
@@ -33,26 +33,26 @@ ms.locfileid: "103689848"
 
 
 
-## <a name="element-information"></a><span data-ttu-id="3045f-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="3045f-108">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="4beba-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="4beba-108">Element Information</span></span>
 
 
 
-| <span data-ttu-id="3045f-109">Parent 項目</span><span class="sxs-lookup"><span data-stu-id="3045f-109">Parent Element</span></span>                                                                                                   | <span data-ttu-id="3045f-110">子元素</span><span class="sxs-lookup"><span data-stu-id="3045f-110">Child Elements</span></span> |
+| <span data-ttu-id="4beba-109">Parent 項目</span><span class="sxs-lookup"><span data-stu-id="4beba-109">Parent Element</span></span>                                                                                                   | <span data-ttu-id="4beba-110">子元素</span><span class="sxs-lookup"><span data-stu-id="4beba-110">Child Elements</span></span> |
 |------------------------------------------------------------------------------------------------------------------|----------------|
-| [<span data-ttu-id="3045f-111">searchConnectorDescriptionType 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="3045f-111">searchConnectorDescriptionType Element (Search Connector Schema)</span></span>](search-schema-searchconnectordescription.md) |                |
+| [<span data-ttu-id="4beba-111">searchConnectorDescriptionType 元素 (搜尋連接器架構) </span><span class="sxs-lookup"><span data-stu-id="4beba-111">searchConnectorDescriptionType Element (Search Connector Schema)</span></span>](search-schema-searchconnectordescription.md) |                |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="3045f-112">備註</span><span class="sxs-lookup"><span data-stu-id="3045f-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4beba-112">備註</span><span class="sxs-lookup"><span data-stu-id="4beba-112">Remarks</span></span>
 
-<span data-ttu-id="3045f-113">此元素的值格式會遵循 ISO 8601 標準。</span><span class="sxs-lookup"><span data-stu-id="3045f-113">The format of the value of this element follows the ISO 8601 standard.</span></span> <span data-ttu-id="3045f-114">常見的用法是下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="3045f-114">A common use would be either of the following:</span></span>
+<span data-ttu-id="4beba-113">此元素的值格式會遵循 ISO 8601 標準。</span><span class="sxs-lookup"><span data-stu-id="4beba-113">The format of the value of this element follows the ISO 8601 standard.</span></span> <span data-ttu-id="4beba-114">常見的用法是下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="4beba-114">A common use would be either of the following:</span></span>
 
--   <span data-ttu-id="3045f-115">\[YYYY \] - \[ MM \] - \[ DD \] T \[ hh \] ： \[ mm \] ： \[ ss \] ± \[ hh \] ： \[ MM \] ( "1981-04-05T14：30： 30-05： 00" ) </span><span class="sxs-lookup"><span data-stu-id="3045f-115">\[YYYY\]-\[MM\]-\[DD\]T\[hh\]:\[mm\]:\[ss\]±\[hh\]:\[mm\] ("1981-04-05T14:30:30-05:00")</span></span>
--   <span data-ttu-id="3045f-116">\[YYYY \] \[ mm \] \[ DD \] T \[ HH \] \[ MM \] \[ ss \] Z ( "19810405T193030Z" ) </span><span class="sxs-lookup"><span data-stu-id="3045f-116">\[YYYY\]\[MM\]\[DD\]T\[hh\]\[mm\]\[ss\]Z ("19810405T193030Z")</span></span>
+-   <span data-ttu-id="4beba-115">\[YYYY \] - \[ MM \] - \[ DD \] T \[ hh \] ： \[ mm \] ： \[ ss \] ± \[ hh \] ： \[ MM \] ( "1981-04-05T14：30： 30-05： 00" ) </span><span class="sxs-lookup"><span data-stu-id="4beba-115">\[YYYY\]-\[MM\]-\[DD\]T\[hh\]:\[mm\]:\[ss\]±\[hh\]:\[mm\] ("1981-04-05T14:30:30-05:00")</span></span>
+-   <span data-ttu-id="4beba-116">\[YYYY \] \[ mm \] \[ DD \] T \[ HH \] \[ MM \] \[ ss \] Z ( "19810405T193030Z" ) </span><span class="sxs-lookup"><span data-stu-id="4beba-116">\[YYYY\]\[MM\]\[DD\]T\[hh\]\[mm\]\[ss\]Z ("19810405T193030Z")</span></span>
 
-## <a name="example"></a><span data-ttu-id="3045f-117">範例</span><span class="sxs-lookup"><span data-stu-id="3045f-117">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4beba-117">範例</span><span class="sxs-lookup"><span data-stu-id="4beba-117">Example</span></span>
 
 
 ```

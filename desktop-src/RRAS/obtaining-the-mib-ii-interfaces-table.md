@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933540"
 ---
-# <a name="obtaining-the-mib-ii-interfaces-table"></a><span data-ttu-id="65314-105">取得 MIB II 介面資料表</span><span class="sxs-lookup"><span data-stu-id="65314-105">Obtaining the MIB II Interfaces Table</span></span>
+# <a name="obtaining-the-mib-ii-interfaces-table"></a><span data-ttu-id="4093e-105">取得 MIB II 介面資料表</span><span class="sxs-lookup"><span data-stu-id="4093e-105">Obtaining the MIB II Interfaces Table</span></span>
 
-<span data-ttu-id="65314-106">下列程式碼會使用 [**MprAdminMIBEntryGet**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibentryget) ，從本機電腦取得 MIB II 介面資料表。</span><span class="sxs-lookup"><span data-stu-id="65314-106">The following code uses [**MprAdminMIBEntryGet**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibentryget) to obtain the MIB II interfaces table from the local machine.</span></span>
+<span data-ttu-id="4093e-106">下列程式碼會使用 [**MprAdminMIBEntryGet**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibentryget) ，從本機電腦取得 MIB II 介面資料表。</span><span class="sxs-lookup"><span data-stu-id="4093e-106">The following code uses [**MprAdminMIBEntryGet**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibentryget) to obtain the MIB II interfaces table from the local machine.</span></span>
 
 
 ```C++
@@ -112,17 +112,17 @@ int __cdecl main(){
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="65314-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="65314-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4093e-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="4093e-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="65314-108">**MIB 不 \_ 透明 \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="65314-108">**MIB\_OPAQUE\_INFO**</span></span>](/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_info)
+[<span data-ttu-id="4093e-108">**MIB 不 \_ 透明 \_ 資訊**</span><span class="sxs-lookup"><span data-stu-id="4093e-108">**MIB\_OPAQUE\_INFO**</span></span>](/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_info)
 </dt> <dt>
 
-[<span data-ttu-id="65314-109">**MIB 不 \_ 透明 \_ 查詢**</span><span class="sxs-lookup"><span data-stu-id="65314-109">**MIB\_OPAQUE\_QUERY**</span></span>](/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_query)
+[<span data-ttu-id="4093e-109">**MIB 不 \_ 透明 \_ 查詢**</span><span class="sxs-lookup"><span data-stu-id="4093e-109">**MIB\_OPAQUE\_QUERY**</span></span>](/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_query)
 </dt> <dt>
 
-[<span data-ttu-id="65314-110">**MprAdminMIBEntryGet**</span><span class="sxs-lookup"><span data-stu-id="65314-110">**MprAdminMIBEntryGet**</span></span>](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibentryget)
+[<span data-ttu-id="4093e-110">**MprAdminMIBEntryGet**</span><span class="sxs-lookup"><span data-stu-id="4093e-110">**MprAdminMIBEntryGet**</span></span>](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibentryget)
 </dt> </dl>
 
  

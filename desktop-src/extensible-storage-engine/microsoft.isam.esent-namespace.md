@@ -21,23 +21,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943526"
 ---
-# <a name="microsoftisamesent-namespace"></a><span data-ttu-id="5e48b-103">Microsoft Isam 命名空間</span><span class="sxs-lookup"><span data-stu-id="5e48b-103">Microsoft.Isam.Esent namespace</span></span>
+# <a name="microsoftisamesent-namespace"></a><span data-ttu-id="93559-103">Microsoft Isam 命名空間</span><span class="sxs-lookup"><span data-stu-id="93559-103">Microsoft.Isam.Esent namespace</span></span>
 
-## <a name="classes"></a><span data-ttu-id="5e48b-104">類別</span><span class="sxs-lookup"><span data-stu-id="5e48b-104">Classes</span></span>
+## <a name="classes"></a><span data-ttu-id="93559-104">類別</span><span class="sxs-lookup"><span data-stu-id="93559-104">Classes</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="5e48b-105">類別</span><span class="sxs-lookup"><span data-stu-id="5e48b-105">Class</span></span></th>
-<th><span data-ttu-id="5e48b-106">描述</span><span class="sxs-lookup"><span data-stu-id="5e48b-106">Description</span></span></th>
+<th><span data-ttu-id="93559-105">類別</span><span class="sxs-lookup"><span data-stu-id="93559-105">Class</span></span></th>
+<th><span data-ttu-id="93559-106">描述</span><span class="sxs-lookup"><span data-stu-id="93559-106">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="公用類別" alt="Public class" /></td>
-<td><span data-ttu-id="5e48b-108"><a href="dn292088(v=exchg.10).md">EsentException</a></span><span class="sxs-lookup"><span data-stu-id="5e48b-108"><a href="dn292088(v=exchg.10).md">EsentException</a></span></span></td>
-<td><span data-ttu-id="5e48b-109">ESENT 例外狀況的基類。</span><span class="sxs-lookup"><span data-stu-id="5e48b-109">Base class for ESENT exceptions.</span></span></td>
+<td><span data-ttu-id="93559-108"><a href="dn292088(v=exchg.10).md">EsentException</a></span><span class="sxs-lookup"><span data-stu-id="93559-108"><a href="dn292088(v=exchg.10).md">EsentException</a></span></span></td>
+<td><span data-ttu-id="93559-109">ESENT 例外狀況的基類。</span><span class="sxs-lookup"><span data-stu-id="93559-109">Base class for ESENT exceptions.</span></span></td>
 </tr>
 </tbody>
 </table>
