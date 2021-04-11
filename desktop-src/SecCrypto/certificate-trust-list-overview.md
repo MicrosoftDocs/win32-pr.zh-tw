@@ -1,0 +1,26 @@
+---
+description: 除了憑證和憑證撤銷清單 (CRL) ，CryptoAPI 憑證存放區也支援 (CTL) 的憑證信任清單。
+ms.assetid: b0f7e7ce-f981-4f3f-83a0-7792224ce0e3
+title: 憑證信任清單總覽
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 55bdbd8b5fdfe4b2d81f3faddb052c16ecf32428
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103851080"
+---
+# <a name="certificate-trust-list-overview"></a><span data-ttu-id="d96f9-103">憑證信任清單總覽</span><span class="sxs-lookup"><span data-stu-id="d96f9-103">Certificate Trust List Overview</span></span>
+
+<span data-ttu-id="d96f9-104">除了憑證和 [*憑證撤銷清單*](../secgloss/c-gly.md) (CRL) ， [*CryptoAPI*](../secgloss/c-gly.md) [*憑證存放區*](../secgloss/c-gly.md) 也支援 (CTL) 的 [*憑證信任清單*](../secgloss/c-gly.md) 。</span><span class="sxs-lookup"><span data-stu-id="d96f9-104">In addition to certificates and [*certificate revocation lists*](../secgloss/c-gly.md) (CRL), the [*CryptoAPI*](../secgloss/c-gly.md) [*certificate store*](../secgloss/c-gly.md) supports the [*certificate trust list*](../secgloss/c-gly.md) (CTL).</span></span> <span data-ttu-id="d96f9-105">CTL 是由受信任實體所簽署之預先定義的專案清單。</span><span class="sxs-lookup"><span data-stu-id="d96f9-105">A CTL is a predefined list of items signed by a trusted entity.</span></span> <span data-ttu-id="d96f9-106">CTL 是憑證的 [*雜湊*](../secgloss/h-gly.md) 清單或檔案名清單。</span><span class="sxs-lookup"><span data-stu-id="d96f9-106">A CTL is a list of [*hashes*](../secgloss/h-gly.md) of certificates or a list of file names.</span></span> <span data-ttu-id="d96f9-107">清單中的所有專案都會由受信任的簽署實體進行驗證和核准。</span><span class="sxs-lookup"><span data-stu-id="d96f9-107">All the items in the list are authenticated and approved by a trusted signing entity.</span></span> <span data-ttu-id="d96f9-108">[**CTL \_ 內容**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context)結構類似于憑證和 CRL 內容結構。</span><span class="sxs-lookup"><span data-stu-id="d96f9-108">A [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context) structure is similar to certificate and CRL context structures.</span></span> <span data-ttu-id="d96f9-109">CTL 內容可以保存到憑證存放區。</span><span class="sxs-lookup"><span data-stu-id="d96f9-109">A CTL context can be persisted to the certificate store.</span></span>
+
+<span data-ttu-id="d96f9-110">CryptoAPI CTL 是受信任實體簽署的專案清單。</span><span class="sxs-lookup"><span data-stu-id="d96f9-110">A CryptoAPI CTL is a list of items that has been signed by a trusted entity.</span></span> <span data-ttu-id="d96f9-111">專案清單可以是任何專案，例如憑證的雜湊清單或檔案名清單。</span><span class="sxs-lookup"><span data-stu-id="d96f9-111">The list of items could be anything, such as a list of hashes of certificates, or a list of file names.</span></span> <span data-ttu-id="d96f9-112">在大部分的情況下，CTL 是雜湊的憑證內容清單。</span><span class="sxs-lookup"><span data-stu-id="d96f9-112">In most cases, a CTL is a list of hashed certificate contexts.</span></span> <span data-ttu-id="d96f9-113">清單中的所有專案都會通過簽署實體的驗證和核准。</span><span class="sxs-lookup"><span data-stu-id="d96f9-113">All the items in the list are authenticated and approved by the signing entity.</span></span> <span data-ttu-id="d96f9-114">Ctl 的主要用途是使用 CTL 作為受信任 [*根憑證*](../secgloss/r-gly.md)的來源，以驗證已簽署的訊息。</span><span class="sxs-lookup"><span data-stu-id="d96f9-114">The primary use of CTLs is to verify signed Messages, using the CTL as a source of trusted [*root certificates*](../secgloss/r-gly.md).</span></span>
+
+<span data-ttu-id="d96f9-115">[**Ctl \_ 內容**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context)結構類似于憑證和 crl 內容結構; 不過，與憑證和 crl 內容結構不同的是， **Ctl \_ 內容** 結構包含 **hCryptMsg** 成員。</span><span class="sxs-lookup"><span data-stu-id="d96f9-115">The [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context) structure is similar to the certificate and CRL context structures; however, unlike the certificate and CRL context structures, the **CTL\_CONTEXT** structure contains a **hCryptMsg** member.</span></span> <span data-ttu-id="d96f9-116">這個控制碼是藉由呼叫任何傳回 **ctl \_ 內容** 結構的函式來開啟，讓您可以使用訊息函數來驗證 CTL 的簽章。</span><span class="sxs-lookup"><span data-stu-id="d96f9-116">This handle is opened by a call to any of the functions that return a **CTL\_CONTEXT** structure, making it possible to use the message functions to verify the CTL's signature.</span></span> <span data-ttu-id="d96f9-117">這是必要的驗證，以確保 CTL 不是惡意實體所種植的假 CTL。</span><span class="sxs-lookup"><span data-stu-id="d96f9-117">This verification is necessary to ensure that a CTL is not a bogus CTL planted by a rogue entity.</span></span>
+
+<span data-ttu-id="d96f9-118">如需建立已簽署 CTL 並將其儲存至憑證存放區的程式，請參閱 [建立、簽署和儲存 ctl](creating-signing-and-storing-a-ctl.md)。</span><span class="sxs-lookup"><span data-stu-id="d96f9-118">For procedures to create a signed CTL and save it to a certificate store, see [Creating, Signing, and Storing a CTL](creating-signing-and-storing-a-ctl.md).</span></span> <span data-ttu-id="d96f9-119">另請參閱 [驗證 CTL](verifying-a-ctl.md) 和使用 ctl 進行逐步驗證程式來 [驗證已簽署的訊息](verifying-signed-messages-by-using-ctls.md) 。</span><span class="sxs-lookup"><span data-stu-id="d96f9-119">Also see [Verifying a CTL](verifying-a-ctl.md) and [Verifying Signed Messages By Using CTLs](verifying-signed-messages-by-using-ctls.md) for step by step verification procedures.</span></span>
+
+ 
+
+ 

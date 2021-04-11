@@ -31,12 +31,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852011"
 ---
-# <a name="doublecolumnvalue-constructor"></a><span data-ttu-id="57b73-103">DoubleColumnValue 函式</span><span class="sxs-lookup"><span data-stu-id="57b73-103">DoubleColumnValue constructor</span></span>
+# <a name="doublecolumnvalue-constructor"></a><span data-ttu-id="41caf-103">DoubleColumnValue 函式</span><span class="sxs-lookup"><span data-stu-id="41caf-103">DoubleColumnValue constructor</span></span>
 
-<span data-ttu-id="57b73-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="57b73-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="57b73-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="57b73-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="41caf-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="41caf-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="41caf-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="41caf-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="57b73-106">語法</span><span class="sxs-lookup"><span data-stu-id="57b73-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="41caf-106">語法</span><span class="sxs-lookup"><span data-stu-id="41caf-106">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,12 +50,12 @@ Dim instance As New DoubleColumnValue()
 public DoubleColumnValue()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="57b73-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="57b73-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="41caf-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="41caf-107">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="57b73-108">參考</span><span class="sxs-lookup"><span data-stu-id="57b73-108">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="41caf-108">參考</span><span class="sxs-lookup"><span data-stu-id="41caf-108">Reference</span></span>
 
-[<span data-ttu-id="57b73-109">DoubleColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="57b73-109">DoubleColumnValue class</span></span>](./doublecolumnvalue-class.md)
+[<span data-ttu-id="41caf-109">DoubleColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="41caf-109">DoubleColumnValue class</span></span>](./doublecolumnvalue-class.md)
 
-[<span data-ttu-id="57b73-110">DoubleColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="57b73-110">DoubleColumnValue members</span></span>](./doublecolumnvalue-members.md)
+[<span data-ttu-id="41caf-110">DoubleColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="41caf-110">DoubleColumnValue members</span></span>](./doublecolumnvalue-members.md)
 
-[<span data-ttu-id="57b73-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="57b73-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="41caf-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="41caf-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
