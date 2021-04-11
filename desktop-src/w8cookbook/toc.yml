@@ -1,0 +1,179 @@
+- name: 適用于 Windows 的相容性操作手冊
+  href: windows-8-and-windows-server-8-compatibility-cookbook-portal.md
+  items:
+    - name: 簡介
+      href: introduction.md
+    - name: Windows 10
+      href: windows-10.md
+      items:
+        - name: 自 Windows 7 起的重要變更，以確保相容性
+          href: key-changes-since-windows-7-to-ensure-compatibility.md
+        - name: 如何確保合併生態系統的相容性
+          href: how-we-can-ensure-compatibility-of-the-combined-ecosystem.md
+          items:
+            - name: Windows 版本檢查
+              href: windows-version-check.md
+            - name: 未記載的 API
+              href: undocumented-apis.md
+            - name: 開發通用 Windows 平臺 (UWP) 應用程式
+              href: develop-universal-windows-platform-apps.md
+            - name: 如果未在視窗模式中執行，則會影響桌面應用程式功能
+              href: modern-desktop-app-functionality-is-impacted-if-not-run-in-windowed-mode.md
+            - name: Windows Update 上適用的圖形驅動程式可用性
+              href: availability-of-applicable-graphics-drivers-on-windows-update.md
+            - name: 將圖形驅動程式遷移至 Windows 10
+              href: graphics-driver-migration-to-windows-10.md
+            - name: 藍牙驅動程式
+              href: bluetooth-drivers.md
+            - name: SAM RPC 通訊協定的遠端呼叫僅限於本機系統管理員
+              href: remote-calls-to-the-sam-rpc-protocol-are-restricted-to-only-local-administrators.md
+            - name: 非 WHQL 簽署驅動程式的核心檢查
+              href: kernel-checks-for-non-whql-signed-drivers.md
+            - name: 具有 Credential Guard 的協力廠商安全性支援提供者
+              href: third-party-security-support-providers-with-credential-guard.md
+    - name: Windows 8.1
+      href: windows-8-1.md
+      items:
+        - name: Windows 市集應用程式
+          href: windows-store-apps.md
+        - name: 用戶端與伺服器相容性
+          href: windows-8-1-and-windows-server-2012-client-and-server-compatibility.md
+          items:
+            - name: Windows 8.1 中的作業系統版本變更
+              href: operating-system-version-changes-in-windows-8-1.md
+            - name: 隨選安裝的 Windows 元件
+              href: windows-components-installed-on-demand.md
+            - name: HTML 字型回溯行為
+              href: html-font-fallback-behavior.md
+            - name: Windows 8.1 只允許 HTTPs Uri，而非 HTTP Uri
+              href: windows-8-1-allows-only-https-uris--not-http-uris.md
+            - name: Windows 8.1 的滑鼠滾輪輸入
+              href: mousewheel-input-for-windows-8-1.md
+            - name: Windows 精確的觸控板裝置
+              href: windows-precision-touchpad-devices.md
+            - name: 適用于桌面應用程式的高 DPI Windows 8。1
+              href: high-dpi-for-desktop-apps-in-windows-8-1.md
+            - name: Edge UI 會在「內建」和「慣性」案例中隱藏
+              href: edge-ui-is-suppressed-in--in-out-in--and--inertia--scenarios.md
+            - name: '不支援從 Windows Store 應用程式呼叫 ImmSetConversionStatus () 或 ImmGetConversionStatus () '
+              href: calling-immsetconversionstatus---or-immgetconversionstatus---from-windows-store-apps-is-not-supported.md
+            - name: 輸入法模式模型從每位使用者變更為每個執行緒
+              href: ime-mode-model-changed-from-per-user-to-per-thread.md
+            - name: 簡體中文 IME 不支援輸入方法管理員 Api
+              href: input-method-manager-apis-are-not-supported-by-simplified-chinese-ime.md
+            - name: 某些東亞 IME 軟體輸入面板現在會傳送 vKey
+              href: some-east-asian-ime-software-input-panels-now-send-vkey.md
+        - name: 新功能和增強功能
+          href: new-features-and-enhancement-in-windows-8-1-and-windows-server-2012-r2.md
+          items:
+            - name: 'Windows 映像檔案開機 (的 WimBoot) '
+              href: windows-image-file-boot--wimboot-.md
+            - name: Web 應用程式 Proxy
+              href: web-application-proxy.md
+            - name: 追蹤檔案的修改範圍
+              href: tracking-modified-ranges-of-a-file.md
+            - name: 預留位置檔案
+              href: placeholder-files.md
+        - name: 工具、最佳作法和指導方針
+          href: tools--best-practices--and-guidance-for-windows-8-1-preview-and-windows-server-2012-r2.md
+          items:
+            - name: Microsoft 平臺就緒測試控管
+              href: windows-server-app-certification-kit--sck-.md
+            - name: 國際文字與字型指導方針
+              href: international-text-and-font-guidance.md
+            - name: Windows 應用程式認證套件
+              href: windows-app-certification-kit-for-windows-8-1-preview.md
+    - name: Windows 8
+      href: windows-8.md
+      items:
+        - name: 用戶端與伺服器相容性
+          href: windows-8-and-windows-server-2012-client-and-server-compatibility.md
+          items:
+            - name: 安全性應用程式偵測規則更新
+              href: security-app-detection-rules-update.md
+            - name: 判斷填充碼狀態
+              href: determining-shim-status.md
+            - name: 伺服器應用程式必須能夠在沒有伺服器圖形化 Shell 的情況下執行
+              href: server-apps-must-be-able-to-run-without-the-server-graphical-shell.md
+            - name: 遠端資料服務伺服器元件已在 Windows 8 中移除
+              href: remote-data-service-server-components-are-removed-in-windows-8.md
+            - name: 檔案類型和 URI 關聯模型
+              href: file-type-and-protocol-associations-model.md
+            - name: 桌面活動仲裁者
+              href: desktop-activity-moderator.md
+            - name: .NET Framework 4.5 是預設值，.NET Framework 3.5 是選擇性的
+              href: '-net-framework-4-5-is-default-and--net-framework-3-5-is-optional.md'
+            - name: 啟動預設的網頁瀏覽器或 Windows Store 應用程式之後，可能看不到桌面應用程式
+              href: desktop-apps-may-not-be-visible-after-launching-the-default-web-browser.md
+            - name: 高對比模式
+              href: high-contrast-mode.md
+            - name: 應用程式 (可執行檔) 資訊清單
+              href: application--executable--manifest.md
+            - name: 已取代佇列的目前模型
+              href: queued-present-model-is-being-deprecated.md
+            - name: Windows 8 的 PCA 案例
+              href: pca-scenarios-for-windows-8.md
+            - name: 已移除桌面小工具
+              href: desktop-gadgets-removed.md
+            - name: Advanced Format (4K) 磁片相容性更新
+              href: advanced-format--4k--disk-compatibility-update.md
+            - name: 精簡布建 Lun
+              href: thin-provisioning-of-luns.md
+            - name: 適用于 WINPE 和伺服器 SKU 的增強的存放區現在是選擇性的
+              href: enhanced-storage-is-now-optional-for-winpe-and-server-sku.md
+            - name: VDS 轉換至 Windows 儲存體管理 API
+              href: vds-is-transitioning-to-wmiv2-based-windows-storage-management-api.md
+            - name: 已移除本機磁片區的舊版 UI
+              href: volume-shadow-copy-service-ui-removed.md
+            - name: StorAHCI 取代 MSAHCI
+              href: storahci-replaces-msahci.md
+            - name: Windows 7 備份及還原已淘汰
+              href: windows-7-backup-and-restore-deprecated.md
+            - name: 卸載資料傳輸
+              href: offloaded-data-transfers.md
+            - name: 桌面視窗管理員是 Always On
+              href: desktop-window-manager-is-always-on.md
+            - name: Direct2D 不支援在 Internet Explorer 9 中轉譯為豐富的中繼檔
+              href: direct2d-does-not-support-rendering-to-rich-metafiles-in-internet-explorer-9.md
+            - name: DX9 舊版硬體支援的變更
+              href: changes-in-dx9-legacy-hardware-support.md
+            - name: MSAA 無法供 Windows Store 應用程式使用
+              href: msaa-is-not-available-to-appcontainer-apps.md
+            - name: NDIS 6.30 驅動程式的埠3已淘汰
+              href: port-3-is-deprecated-for-ndis-6-30-drivers.md
+        - name: 新功能和增強功能
+          href: new-features-and-enhancements.md
+          items:
+            - name: 早期啟動反惡意程式碼
+              href: secured-boot.md
+            - name: 核心模式驅動程式的安全開機功能簽署需求
+              href: secured-boot-signing-requirements-for-kernel-mode-drivers.md
+            - name: 測量開機
+              href: measured-boot.md
+            - name: 啟動應用程式
+              href: startup-apps.md
+            - name: 自動維護
+              href: automatic-maintenance.md
+            - name: 協力廠商輸入方法編輯器
+              href: third-party-input-method-editors.md
+            - name: 新的 API 可讓應用程式將 &quot; 修剪和取消對應 &quot; 提示傳送至存放裝置媒體
+              href: new-api-allows-apps-to-send--trim-and-unmap--hints-to-storage-media.md
+            - name: 多重路徑 i/o 現在支援擴充 SRBs
+              href: multipath-i-o-now-supports-extended-srbs.md
+            - name: 彈性檔案系統 (ReFS)
+              href: resilient-file-system--refs-.md
+            - name: 檔案伺服器 API 支援
+              href: file-server-api-support.md
+            - name: 新的檔案歷程記錄功能
+              href: new-file-history-feature.md
+            - name: 作業系統現在可控制磁片磁碟機的電源
+              href: operating-system-now-controls-power-to-optical-disk-drives.md
+            - name: USB 3.0 的支援
+              href: support-for-usb-3-0.md
+        - name: 工具、最佳作法和指導方針
+          href: tools--best-practices--and-guidance.md
+          items:
+            - name: Windows 評定工具組
+              href: windows-assessment-toolkit.md
+            - name: Windows 硬體認證套件
+              href: windows-hardware-certification-kit.md
