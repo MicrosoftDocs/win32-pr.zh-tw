@@ -1,0 +1,64 @@
+---
+description: 深入瞭解： EsentDiskException 的函式
+title: EsentDiskException 函式
+TOCTitle: 'EsentDiskException constructor '
+ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentDiskException.#ctor
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdiskexception.esentdiskexception(v=EXCHG.10)
+ms:contentKeyID: 55101515
+ms.date: 07/30/2014
+ms.topic: article
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.EsentDiskException.EsentDiskException
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+ms.openlocfilehash: afdaa1f0f54847fb5ea01308c046d16cc3483eb8
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104195177"
+---
+# <a name="esentdiskexception-constructor"></a><span data-ttu-id="b1357-103">EsentDiskException 函式</span><span class="sxs-lookup"><span data-stu-id="b1357-103">EsentDiskException constructor</span></span>
+
+<span data-ttu-id="b1357-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="b1357-104">Include protected members</span></span>  
+<span data-ttu-id="b1357-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="b1357-105">Include inherited members</span></span>  
+
+## <a name="overload-list"></a><span data-ttu-id="b1357-106">多載清單</span><span class="sxs-lookup"><span data-stu-id="b1357-106">Overload list</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th><span data-ttu-id="b1357-107">Name</span><span class="sxs-lookup"><span data-stu-id="b1357-107">Name</span></span></th>
+<th><span data-ttu-id="b1357-108">描述</span><span class="sxs-lookup"><span data-stu-id="b1357-108">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="受保護的方法" alt="Protected method" /></td>
+<td><span data-ttu-id="b1357-110"><a href="dn274189(v=exchg.10).md">EsentDiskException (SerializationInfo、StreamingCoNtext) </a></span><span class="sxs-lookup"><span data-stu-id="b1357-110"><a href="dn274189(v=exchg.10).md">EsentDiskException(SerializationInfo, StreamingContext)</a></span></span></td>
+<td><span data-ttu-id="b1357-111">初始化 EsentDiskException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="b1357-111">Initializes a new instance of the EsentDiskException class.</span></span> <span data-ttu-id="b1357-112">這個函式是用來將序列化的例外狀況還原序列化。</span><span class="sxs-lookup"><span data-stu-id="b1357-112">This constructor is used to deserialize a serialized exception.</span></span></td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="受保護的方法" alt="Protected method" /></td>
+<td><span data-ttu-id="b1357-114"><a href="dn274282(v=exchg.10).md">EsentDiskException (字串 JET_err) </a></span><span class="sxs-lookup"><span data-stu-id="b1357-114"><a href="dn274282(v=exchg.10).md">EsentDiskException(String, JET_err)</a></span></span></td>
+<td><span data-ttu-id="b1357-115">初始化 EsentDiskException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="b1357-115">Initializes a new instance of the EsentDiskException class.</span></span></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="b1357-116">頁首</span><span class="sxs-lookup"><span data-stu-id="b1357-116">Top</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="b1357-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b1357-117">See also</span></span>
+
+#### <a name="reference"></a><span data-ttu-id="b1357-118">參考</span><span class="sxs-lookup"><span data-stu-id="b1357-118">Reference</span></span>
+
+[<span data-ttu-id="b1357-119">EsentDiskException 類別</span><span class="sxs-lookup"><span data-stu-id="b1357-119">EsentDiskException class</span></span>](./esentdiskexception-class.md)
+
+[<span data-ttu-id="b1357-120">EsentDiskException 成員</span><span class="sxs-lookup"><span data-stu-id="b1357-120">EsentDiskException members</span></span>](./esentdiskexception-members.md)
+
+[<span data-ttu-id="b1357-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="b1357-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104115569"
 ---
-# <a name="peer-infrastructure-common-reference"></a><span data-ttu-id="07cbf-103">對等基礎結構一般參考</span><span class="sxs-lookup"><span data-stu-id="07cbf-103">Peer Infrastructure Common Reference</span></span>
+# <a name="peer-infrastructure-common-reference"></a><span data-ttu-id="d5ca5-103">對等基礎結構一般參考</span><span class="sxs-lookup"><span data-stu-id="d5ca5-103">Peer Infrastructure Common Reference</span></span>
 
-<span data-ttu-id="07cbf-104">對等基礎結構會使用下列常見的程式設計結構。</span><span class="sxs-lookup"><span data-stu-id="07cbf-104">The Peer Infrastructure uses the following common programming constructs.</span></span>
+<span data-ttu-id="d5ca5-104">對等基礎結構會使用下列常見的程式設計結構。</span><span class="sxs-lookup"><span data-stu-id="d5ca5-104">The Peer Infrastructure uses the following common programming constructs.</span></span>
 
--   [<span data-ttu-id="07cbf-105">一般函數</span><span class="sxs-lookup"><span data-stu-id="07cbf-105">Common Functions</span></span>](common-functions.md)
--   [<span data-ttu-id="07cbf-106">通用結構</span><span class="sxs-lookup"><span data-stu-id="07cbf-106">Common Structures</span></span>](common-structures.md)
--   [<span data-ttu-id="07cbf-107">一般常數</span><span class="sxs-lookup"><span data-stu-id="07cbf-107">Common Constants</span></span>](common-enumerations.md)
--   [<span data-ttu-id="07cbf-108">常見的傳回碼</span><span class="sxs-lookup"><span data-stu-id="07cbf-108">Common Return Codes</span></span>](common-return-codes.md)
+-   [<span data-ttu-id="d5ca5-105">一般函數</span><span class="sxs-lookup"><span data-stu-id="d5ca5-105">Common Functions</span></span>](common-functions.md)
+-   [<span data-ttu-id="d5ca5-106">通用結構</span><span class="sxs-lookup"><span data-stu-id="d5ca5-106">Common Structures</span></span>](common-structures.md)
+-   [<span data-ttu-id="d5ca5-107">一般常數</span><span class="sxs-lookup"><span data-stu-id="d5ca5-107">Common Constants</span></span>](common-enumerations.md)
+-   [<span data-ttu-id="d5ca5-108">常見的傳回碼</span><span class="sxs-lookup"><span data-stu-id="d5ca5-108">Common Return Codes</span></span>](common-return-codes.md)
 
  
 
