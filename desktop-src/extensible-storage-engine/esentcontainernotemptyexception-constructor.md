@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847715"
 ---
-# <a name="esentcontainernotemptyexception-constructor"></a><span data-ttu-id="16d2b-103">EsentContainerNotEmptyException 函式</span><span class="sxs-lookup"><span data-stu-id="16d2b-103">EsentContainerNotEmptyException constructor</span></span>
+# <a name="esentcontainernotemptyexception-constructor"></a><span data-ttu-id="c1a3d-103">EsentContainerNotEmptyException 函式</span><span class="sxs-lookup"><span data-stu-id="c1a3d-103">EsentContainerNotEmptyException constructor</span></span>
 
-<span data-ttu-id="16d2b-104">初始化 EsentContainerNotEmptyException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="16d2b-104">Initializes a new instance of the EsentContainerNotEmptyException class.</span></span>
+<span data-ttu-id="c1a3d-104">初始化 EsentContainerNotEmptyException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="c1a3d-104">Initializes a new instance of the EsentContainerNotEmptyException class.</span></span>
 
-<span data-ttu-id="16d2b-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="16d2b-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="16d2b-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="16d2b-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="c1a3d-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c1a3d-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="c1a3d-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c1a3d-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="16d2b-107">語法</span><span class="sxs-lookup"><span data-stu-id="16d2b-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c1a3d-107">語法</span><span class="sxs-lookup"><span data-stu-id="c1a3d-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentContainerNotEmptyException()
 public EsentContainerNotEmptyException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="16d2b-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="16d2b-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c1a3d-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c1a3d-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="16d2b-109">參考</span><span class="sxs-lookup"><span data-stu-id="16d2b-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="c1a3d-109">參考</span><span class="sxs-lookup"><span data-stu-id="c1a3d-109">Reference</span></span>
 
-[<span data-ttu-id="16d2b-110">EsentContainerNotEmptyException 類別</span><span class="sxs-lookup"><span data-stu-id="16d2b-110">EsentContainerNotEmptyException class</span></span>](./esentcontainernotemptyexception-class.md)
+[<span data-ttu-id="c1a3d-110">EsentContainerNotEmptyException 類別</span><span class="sxs-lookup"><span data-stu-id="c1a3d-110">EsentContainerNotEmptyException class</span></span>](./esentcontainernotemptyexception-class.md)
 
-[<span data-ttu-id="16d2b-111">EsentContainerNotEmptyException 成員</span><span class="sxs-lookup"><span data-stu-id="16d2b-111">EsentContainerNotEmptyException members</span></span>](./esentcontainernotemptyexception-members.md)
+[<span data-ttu-id="c1a3d-111">EsentContainerNotEmptyException 成員</span><span class="sxs-lookup"><span data-stu-id="c1a3d-111">EsentContainerNotEmptyException members</span></span>](./esentcontainernotemptyexception-members.md)
 
-[<span data-ttu-id="16d2b-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="16d2b-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="c1a3d-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="c1a3d-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

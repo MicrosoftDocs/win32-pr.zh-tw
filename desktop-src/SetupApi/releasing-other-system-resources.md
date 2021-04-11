@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849441"
 ---
-# <a name="releasing-other-system-resources"></a><span data-ttu-id="9f877-103">釋放其他系統資源</span><span class="sxs-lookup"><span data-stu-id="9f877-103">Releasing Other System Resources</span></span>
+# <a name="releasing-other-system-resources"></a><span data-ttu-id="34605-103">釋放其他系統資源</span><span class="sxs-lookup"><span data-stu-id="34605-103">Releasing Other System Resources</span></span>
 
-<span data-ttu-id="9f877-104">如果使用來源清單或記錄檔，則應呼叫 [**SetupFreeSourceList**](/windows/desktop/api/Setupapi/nf-setupapi-setupfreesourcelista) 或 [**SetupTerminateFileLog**](/windows/desktop/api/Setupapi/nf-setupapi-setupterminatefilelog)來釋放資源。</span><span class="sxs-lookup"><span data-stu-id="9f877-104">If a source list or log file was used, resources should be released by calling [**SetupFreeSourceList**](/windows/desktop/api/Setupapi/nf-setupapi-setupfreesourcelista) or [**SetupTerminateFileLog**](/windows/desktop/api/Setupapi/nf-setupapi-setupterminatefilelog).</span></span>
+<span data-ttu-id="34605-104">如果使用來源清單或記錄檔，則應呼叫 [**SetupFreeSourceList**](/windows/desktop/api/Setupapi/nf-setupapi-setupfreesourcelista) 或 [**SetupTerminateFileLog**](/windows/desktop/api/Setupapi/nf-setupapi-setupterminatefilelog)來釋放資源。</span><span class="sxs-lookup"><span data-stu-id="34605-104">If a source list or log file was used, resources should be released by calling [**SetupFreeSourceList**](/windows/desktop/api/Setupapi/nf-setupapi-setupfreesourcelista) or [**SetupTerminateFileLog**](/windows/desktop/api/Setupapi/nf-setupapi-setupterminatefilelog).</span></span>
 
  
 

@@ -17,26 +17,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/19/2020
 ms.locfileid: "103681425"
 ---
-# <a name="to-seek-by-time-using-the-asynchronous-reader"></a><span data-ttu-id="e1864-108">使用非同步讀取器依時間進行搜尋</span><span class="sxs-lookup"><span data-stu-id="e1864-108">To Seek By Time Using the Asynchronous Reader</span></span>
+# <a name="to-seek-by-time-using-the-asynchronous-reader"></a><span data-ttu-id="853f4-108">使用非同步讀取器依時間進行搜尋</span><span class="sxs-lookup"><span data-stu-id="853f4-108">To Seek By Time Using the Asynchronous Reader</span></span>
 
-<span data-ttu-id="e1864-109">如果您想要在 ASF 檔案中搜尋特定的呈現時間，必須正確設定檔案。</span><span class="sxs-lookup"><span data-stu-id="e1864-109">If you want to seek to a specific presentation time in an ASF file, the file must be properly configured.</span></span> <span data-ttu-id="e1864-110">根據預設，您只能搜尋音訊檔案，但必須先編制影片檔案的索引，才能進行搜尋。</span><span class="sxs-lookup"><span data-stu-id="e1864-110">You can seek in audio only files by default, but video files need to be indexed before seeking.</span></span> <span data-ttu-id="e1864-111">如果您不確定如何建立檔案，您可以藉 \_ 由呼叫 [**IWMHeaderInfo：： GetAttributeByName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname)來檢查檔案標頭中的 g wszWMSeekable 屬性。</span><span class="sxs-lookup"><span data-stu-id="e1864-111">If you are not sure about how a file has been created, you can check the g\_wszWMSeekable attribute in the header of the file by calling [**IWMHeaderInfo::GetAttributeByName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname).</span></span>
+<span data-ttu-id="853f4-109">如果您想要在 ASF 檔案中搜尋特定的呈現時間，必須正確設定檔案。</span><span class="sxs-lookup"><span data-stu-id="853f4-109">If you want to seek to a specific presentation time in an ASF file, the file must be properly configured.</span></span> <span data-ttu-id="853f4-110">根據預設，您只能搜尋音訊檔案，但必須先編制影片檔案的索引，才能進行搜尋。</span><span class="sxs-lookup"><span data-stu-id="853f4-110">You can seek in audio only files by default, but video files need to be indexed before seeking.</span></span> <span data-ttu-id="853f4-111">如果您不確定如何建立檔案，您可以藉 \_ 由呼叫 [**IWMHeaderInfo：： GetAttributeByName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname)來檢查檔案標頭中的 g wszWMSeekable 屬性。</span><span class="sxs-lookup"><span data-stu-id="853f4-111">If you are not sure about how a file has been created, you can check the g\_wszWMSeekable attribute in the header of the file by calling [**IWMHeaderInfo::GetAttributeByName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname).</span></span>
 
-<span data-ttu-id="e1864-112">若要使用非同步讀取器以展示時間來搜尋 ASF 檔案中的資料，請呼叫 [**IWMReader：： Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start)，然後將您想要讀取之檔案部分的所需時間和持續時間，傳遞為 *cnsStart* 和 *cnsDuration* 。</span><span class="sxs-lookup"><span data-stu-id="e1864-112">To seek to data in an ASF file by presentation time using the asynchronous reader, call [**IWMReader::Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start), passing the desired time and duration of the part of the file you want to read as *cnsStart* and *cnsDuration* respectively.</span></span>
+<span data-ttu-id="853f4-112">若要使用非同步讀取器以展示時間來搜尋 ASF 檔案中的資料，請呼叫 [**IWMReader：： Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start)，然後將您想要讀取之檔案部分的所需時間和持續時間，傳遞為 *cnsStart* 和 *cnsDuration* 。</span><span class="sxs-lookup"><span data-stu-id="853f4-112">To seek to data in an ASF file by presentation time using the asynchronous reader, call [**IWMReader::Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start), passing the desired time and duration of the part of the file you want to read as *cnsStart* and *cnsDuration* respectively.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="e1864-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="e1864-113">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="853f4-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="853f4-113">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e1864-114">**IWMReader 介面**</span><span class="sxs-lookup"><span data-stu-id="e1864-114">**IWMReader Interface**</span></span>](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
+[<span data-ttu-id="853f4-114">**IWMReader 介面**</span><span class="sxs-lookup"><span data-stu-id="853f4-114">**IWMReader Interface**</span></span>](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
 </dt> <dt>
 
-[<span data-ttu-id="e1864-115">**使用非同步讀取器讀取檔案**</span><span class="sxs-lookup"><span data-stu-id="e1864-115">**Reading Files with the Asynchronous Reader**</span></span>](reading-files-with-the-asynchronous-reader.md)
+[<span data-ttu-id="853f4-115">**使用非同步讀取器讀取檔案**</span><span class="sxs-lookup"><span data-stu-id="853f4-115">**Reading Files with the Asynchronous Reader**</span></span>](reading-files-with-the-asynchronous-reader.md)
 </dt> <dt>
 
-[<span data-ttu-id="e1864-116">**在播放時讀取中繼資料**</span><span class="sxs-lookup"><span data-stu-id="e1864-116">**Reading Metadata at Playback**</span></span>](reading-metadata-at-playback.md)
+[<span data-ttu-id="853f4-116">**在播放時讀取中繼資料**</span><span class="sxs-lookup"><span data-stu-id="853f4-116">**Reading Metadata at Playback**</span></span>](reading-metadata-at-playback.md)
 </dt> <dt>
 
-[<span data-ttu-id="e1864-117">**使用索引**</span><span class="sxs-lookup"><span data-stu-id="e1864-117">**Working with Indexes**</span></span>](working-with-indexes.md)
+[<span data-ttu-id="853f4-117">**使用索引**</span><span class="sxs-lookup"><span data-stu-id="853f4-117">**Working with Indexes**</span></span>](working-with-indexes.md)
 </dt> </dl>
 
  

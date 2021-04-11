@@ -18,30 +18,30 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691763"
 ---
-# <a name="boundingbox-constructors"></a><span data-ttu-id="e2cd2-103">BoundingBox 函式</span><span class="sxs-lookup"><span data-stu-id="e2cd2-103">BoundingBox constructors</span></span>
+# <a name="boundingbox-constructors"></a><span data-ttu-id="406e8-103">BoundingBox 函式</span><span class="sxs-lookup"><span data-stu-id="406e8-103">BoundingBox constructors</span></span>
 
-<span data-ttu-id="e2cd2-104">建立 `BoundingBox` 類別的執行個體。</span><span class="sxs-lookup"><span data-stu-id="e2cd2-104">Creates an instance of the `BoundingBox` class.</span></span>
+<span data-ttu-id="406e8-104">建立 `BoundingBox` 類別的執行個體。</span><span class="sxs-lookup"><span data-stu-id="406e8-104">Creates an instance of the `BoundingBox` class.</span></span>
 
-### <a name="overload-list"></a><span data-ttu-id="e2cd2-105">多載清單</span><span class="sxs-lookup"><span data-stu-id="e2cd2-105">Overload list</span></span>
+### <a name="overload-list"></a><span data-ttu-id="406e8-105">多載清單</span><span class="sxs-lookup"><span data-stu-id="406e8-105">Overload list</span></span>
 
 
 
-| <span data-ttu-id="e2cd2-106">建構函式</span><span class="sxs-lookup"><span data-stu-id="e2cd2-106">Constructor</span></span>                                                                 | <span data-ttu-id="e2cd2-107">描述</span><span class="sxs-lookup"><span data-stu-id="e2cd2-107">Description</span></span>                                                |
+| <span data-ttu-id="406e8-106">建構函式</span><span class="sxs-lookup"><span data-stu-id="406e8-106">Constructor</span></span>                                                                 | <span data-ttu-id="406e8-107">描述</span><span class="sxs-lookup"><span data-stu-id="406e8-107">Description</span></span>                                                |
 |:----------------------------------------------------------------------------|:-----------------------------------------------------------|
-| <span data-ttu-id="e2cd2-108">[**BoundingBox ()**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(boundingbox__))</span><span class="sxs-lookup"><span data-stu-id="e2cd2-108">[**BoundingBox ()**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(boundingbox__))</span></span>                                | <span data-ttu-id="e2cd2-109">建立 `BoundingBox` 類別的執行個體。</span><span class="sxs-lookup"><span data-stu-id="e2cd2-109">Creates an instance of the `BoundingBox` class.</span></span><br/> |
-| <span data-ttu-id="e2cd2-110">[**BoundingBox (const BoundingBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constboundingbox_))</span><span class="sxs-lookup"><span data-stu-id="e2cd2-110">[**BoundingBox (const BoundingBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constboundingbox_))</span></span>              | <span data-ttu-id="e2cd2-111">建立 `BoundingBox` 類別的執行個體。</span><span class="sxs-lookup"><span data-stu-id="e2cd2-111">Creates an instance of the `BoundingBox` class.</span></span><br/> |
-| <span data-ttu-id="e2cd2-112">[**BoundingBox (const XMFLOAT3&，const XMFLOAT3&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constxmfloat3__constxmfloat3_))</span><span class="sxs-lookup"><span data-stu-id="e2cd2-112">[**BoundingBox (const XMFLOAT3&,const XMFLOAT3&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constxmfloat3__constxmfloat3_))</span></span> | <span data-ttu-id="e2cd2-113">建立 `BoundingBox` 類別的執行個體。</span><span class="sxs-lookup"><span data-stu-id="e2cd2-113">Creates an instance of the `BoundingBox` class.</span></span><br/> |
+| <span data-ttu-id="406e8-108">[**BoundingBox ()**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(boundingbox__))</span><span class="sxs-lookup"><span data-stu-id="406e8-108">[**BoundingBox ()**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(boundingbox__))</span></span>                                | <span data-ttu-id="406e8-109">建立 `BoundingBox` 類別的執行個體。</span><span class="sxs-lookup"><span data-stu-id="406e8-109">Creates an instance of the `BoundingBox` class.</span></span><br/> |
+| <span data-ttu-id="406e8-110">[**BoundingBox (const BoundingBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constboundingbox_))</span><span class="sxs-lookup"><span data-stu-id="406e8-110">[**BoundingBox (const BoundingBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constboundingbox_))</span></span>              | <span data-ttu-id="406e8-111">建立 `BoundingBox` 類別的執行個體。</span><span class="sxs-lookup"><span data-stu-id="406e8-111">Creates an instance of the `BoundingBox` class.</span></span><br/> |
+| <span data-ttu-id="406e8-112">[**BoundingBox (const XMFLOAT3&，const XMFLOAT3&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constxmfloat3__constxmfloat3_))</span><span class="sxs-lookup"><span data-stu-id="406e8-112">[**BoundingBox (const XMFLOAT3&,const XMFLOAT3&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constxmfloat3__constxmfloat3_))</span></span> | <span data-ttu-id="406e8-113">建立 `BoundingBox` 類別的執行個體。</span><span class="sxs-lookup"><span data-stu-id="406e8-113">Creates an instance of the `BoundingBox` class.</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="e2cd2-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e2cd2-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="406e8-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="406e8-114">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="e2cd2-115">**參考**</span><span class="sxs-lookup"><span data-stu-id="e2cd2-115">**Reference**</span></span>
+<span data-ttu-id="406e8-115">**參考**</span><span class="sxs-lookup"><span data-stu-id="406e8-115">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="e2cd2-116">**BoundingBox**</span><span class="sxs-lookup"><span data-stu-id="e2cd2-116">**BoundingBox**</span></span>](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox)
+[<span data-ttu-id="406e8-116">**BoundingBox**</span><span class="sxs-lookup"><span data-stu-id="406e8-116">**BoundingBox**</span></span>](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox)
 </dt> </dl>
 
  

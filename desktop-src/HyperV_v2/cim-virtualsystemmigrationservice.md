@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849018"
 ---
-# <a name="cim_virtualsystemmigrationservice-class"></a><span data-ttu-id="411d5-104">CIM \_ VirtualSystemMigrationService 類別</span><span class="sxs-lookup"><span data-stu-id="411d5-104">CIM\_VirtualSystemMigrationService class</span></span>
+# <a name="cim_virtualsystemmigrationservice-class"></a><span data-ttu-id="65ef3-104">CIM \_ VirtualSystemMigrationService 類別</span><span class="sxs-lookup"><span data-stu-id="65ef3-104">CIM\_VirtualSystemMigrationService class</span></span>
 
-<span data-ttu-id="411d5-105">代表控制主機系統間虛擬系統移轉的服務。</span><span class="sxs-lookup"><span data-stu-id="411d5-105">Represents a service that controls the migration of virtual systems between host systems.</span></span> <span data-ttu-id="411d5-106">此類別也會確認暫止的遷移是否可能成功。</span><span class="sxs-lookup"><span data-stu-id="411d5-106">This class also verifies whether a pending migration is likely to succeed.</span></span>
+<span data-ttu-id="65ef3-105">代表控制主機系統間虛擬系統移轉的服務。</span><span class="sxs-lookup"><span data-stu-id="65ef3-105">Represents a service that controls the migration of virtual systems between host systems.</span></span> <span data-ttu-id="65ef3-106">此類別也會確認暫止的遷移是否可能成功。</span><span class="sxs-lookup"><span data-stu-id="65ef3-106">This class also verifies whether a pending migration is likely to succeed.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="411d5-107">語法</span><span class="sxs-lookup"><span data-stu-id="411d5-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="65ef3-107">語法</span><span class="sxs-lookup"><span data-stu-id="65ef3-107">Syntax</span></span>
 
 ``` syntax
 [Experimental, Abstract, Version("2.17.0"), UMLPackagePath("CIM::System::Virtualization"), AMENDMENT]
@@ -33,48 +33,48 @@ class CIM_VirtualSystemMigrationService : CIM_Service
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="411d5-108">成員</span><span class="sxs-lookup"><span data-stu-id="411d5-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="65ef3-108">成員</span><span class="sxs-lookup"><span data-stu-id="65ef3-108">Members</span></span>
 
-<span data-ttu-id="411d5-109">**CIM \_ VirtualSystemMigrationService** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="411d5-109">The **CIM\_VirtualSystemMigrationService** class has these types of members:</span></span>
+<span data-ttu-id="65ef3-109">**CIM \_ VirtualSystemMigrationService** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="65ef3-109">The **CIM\_VirtualSystemMigrationService** class has these types of members:</span></span>
 
--   [<span data-ttu-id="411d5-110">方法</span><span class="sxs-lookup"><span data-stu-id="411d5-110">Methods</span></span>](#methods)
+-   [<span data-ttu-id="65ef3-110">方法</span><span class="sxs-lookup"><span data-stu-id="65ef3-110">Methods</span></span>](#methods)
 
-### <a name="methods"></a><span data-ttu-id="411d5-111">方法</span><span class="sxs-lookup"><span data-stu-id="411d5-111">Methods</span></span>
+### <a name="methods"></a><span data-ttu-id="65ef3-111">方法</span><span class="sxs-lookup"><span data-stu-id="65ef3-111">Methods</span></span>
 
-<span data-ttu-id="411d5-112">**CIM \_ VirtualSystemMigrationService** 類別具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="411d5-112">The **CIM\_VirtualSystemMigrationService** class has these methods.</span></span>
+<span data-ttu-id="65ef3-112">**CIM \_ VirtualSystemMigrationService** 類別具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="65ef3-112">The **CIM\_VirtualSystemMigrationService** class has these methods.</span></span>
 
 
 
-| <span data-ttu-id="411d5-113">方法</span><span class="sxs-lookup"><span data-stu-id="411d5-113">Method</span></span>                                                                                                                     | <span data-ttu-id="411d5-114">描述</span><span class="sxs-lookup"><span data-stu-id="411d5-114">Description</span></span>                                                                                      |
+| <span data-ttu-id="65ef3-113">方法</span><span class="sxs-lookup"><span data-stu-id="65ef3-113">Method</span></span>                                                                                                                     | <span data-ttu-id="65ef3-114">描述</span><span class="sxs-lookup"><span data-stu-id="65ef3-114">Description</span></span>                                                                                      |
 |:---------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="411d5-115">**CheckVirtualSystemIsMigratableToHost**</span><span class="sxs-lookup"><span data-stu-id="411d5-115">**CheckVirtualSystemIsMigratableToHost**</span></span>](cim-virtualsystemmigrationservice-checkvirtualsystemismigratabletohost.md)     | <span data-ttu-id="411d5-116">確認暫止的虛擬系統移轉至主機是否可能成功。</span><span class="sxs-lookup"><span data-stu-id="411d5-116">Verifies whether a pending virtual system migration to a host is likely to succeed.</span></span><br/>   |
-| [<span data-ttu-id="411d5-117">**CheckVirtualSystemIsMigratableToSystem**</span><span class="sxs-lookup"><span data-stu-id="411d5-117">**CheckVirtualSystemIsMigratableToSystem**</span></span>](cim-virtualsystemmigrationservice-checkvirtualsystemismigratabletosystem.md) | <span data-ttu-id="411d5-118">確認暫止的虛擬系統移轉至系統是否可能成功。</span><span class="sxs-lookup"><span data-stu-id="411d5-118">Verifies whether a pending virtual system migration to a system is likely to succeed.</span></span><br/> |
-| [<span data-ttu-id="411d5-119">**MigrateVirtualSystemToHost**</span><span class="sxs-lookup"><span data-stu-id="411d5-119">**MigrateVirtualSystemToHost**</span></span>](cim-virtualsystemmigrationservice-migratevirtualsystemtohost.md)                         | <span data-ttu-id="411d5-120">將虛擬系統移轉至目標主機。</span><span class="sxs-lookup"><span data-stu-id="411d5-120">Migrates a virtual system to a target host.</span></span><br/>                                           |
-| [<span data-ttu-id="411d5-121">**MigrateVirtualSystemToSystem**</span><span class="sxs-lookup"><span data-stu-id="411d5-121">**MigrateVirtualSystemToSystem**</span></span>](cim-virtualsystemmigrationservice-migratevirtualsystemtosystem.md)                     | <span data-ttu-id="411d5-122">將虛擬系統移轉至目標系統。</span><span class="sxs-lookup"><span data-stu-id="411d5-122">Migrates a virtual system to target system.</span></span><br/>                                           |
+| [<span data-ttu-id="65ef3-115">**CheckVirtualSystemIsMigratableToHost**</span><span class="sxs-lookup"><span data-stu-id="65ef3-115">**CheckVirtualSystemIsMigratableToHost**</span></span>](cim-virtualsystemmigrationservice-checkvirtualsystemismigratabletohost.md)     | <span data-ttu-id="65ef3-116">確認暫止的虛擬系統移轉至主機是否可能成功。</span><span class="sxs-lookup"><span data-stu-id="65ef3-116">Verifies whether a pending virtual system migration to a host is likely to succeed.</span></span><br/>   |
+| [<span data-ttu-id="65ef3-117">**CheckVirtualSystemIsMigratableToSystem**</span><span class="sxs-lookup"><span data-stu-id="65ef3-117">**CheckVirtualSystemIsMigratableToSystem**</span></span>](cim-virtualsystemmigrationservice-checkvirtualsystemismigratabletosystem.md) | <span data-ttu-id="65ef3-118">確認暫止的虛擬系統移轉至系統是否可能成功。</span><span class="sxs-lookup"><span data-stu-id="65ef3-118">Verifies whether a pending virtual system migration to a system is likely to succeed.</span></span><br/> |
+| [<span data-ttu-id="65ef3-119">**MigrateVirtualSystemToHost**</span><span class="sxs-lookup"><span data-stu-id="65ef3-119">**MigrateVirtualSystemToHost**</span></span>](cim-virtualsystemmigrationservice-migratevirtualsystemtohost.md)                         | <span data-ttu-id="65ef3-120">將虛擬系統移轉至目標主機。</span><span class="sxs-lookup"><span data-stu-id="65ef3-120">Migrates a virtual system to a target host.</span></span><br/>                                           |
+| [<span data-ttu-id="65ef3-121">**MigrateVirtualSystemToSystem**</span><span class="sxs-lookup"><span data-stu-id="65ef3-121">**MigrateVirtualSystemToSystem**</span></span>](cim-virtualsystemmigrationservice-migratevirtualsystemtosystem.md)                     | <span data-ttu-id="65ef3-122">將虛擬系統移轉至目標系統。</span><span class="sxs-lookup"><span data-stu-id="65ef3-122">Migrates a virtual system to target system.</span></span><br/>                                           |
 
 
 
  
 
-## <a name="requirements"></a><span data-ttu-id="411d5-123">規格需求</span><span class="sxs-lookup"><span data-stu-id="411d5-123">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="65ef3-123">規格需求</span><span class="sxs-lookup"><span data-stu-id="65ef3-123">Requirements</span></span>
 
 
 
-| <span data-ttu-id="411d5-124">需求</span><span class="sxs-lookup"><span data-stu-id="411d5-124">Requirement</span></span> | <span data-ttu-id="411d5-125">值</span><span class="sxs-lookup"><span data-stu-id="411d5-125">Value</span></span> |
+| <span data-ttu-id="65ef3-124">需求</span><span class="sxs-lookup"><span data-stu-id="65ef3-124">Requirement</span></span> | <span data-ttu-id="65ef3-125">值</span><span class="sxs-lookup"><span data-stu-id="65ef3-125">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="411d5-126">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="411d5-126">Minimum supported client</span></span><br/> | <span data-ttu-id="411d5-127">Windows 8</span><span class="sxs-lookup"><span data-stu-id="411d5-127">Windows 8</span></span><br/>                                                                                    |
-| <span data-ttu-id="411d5-128">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="411d5-128">Minimum supported server</span></span><br/> | <span data-ttu-id="411d5-129">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="411d5-129">Windows Server 2012</span></span><br/>                                                                          |
-| <span data-ttu-id="411d5-130">命名空間</span><span class="sxs-lookup"><span data-stu-id="411d5-130">Namespace</span></span><br/>                | <span data-ttu-id="411d5-131">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="411d5-131">Root\\virtualization\\v2</span></span><br/>                                                                     |
-| <span data-ttu-id="411d5-132">MOF</span><span class="sxs-lookup"><span data-stu-id="411d5-132">MOF</span></span><br/>                      | <dl> <span data-ttu-id="411d5-133"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="411d5-133"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="411d5-134">DLL</span><span class="sxs-lookup"><span data-stu-id="411d5-134">DLL</span></span><br/>                      | <dl> <span data-ttu-id="411d5-135"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="411d5-135"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="65ef3-126">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="65ef3-126">Minimum supported client</span></span><br/> | <span data-ttu-id="65ef3-127">Windows 8</span><span class="sxs-lookup"><span data-stu-id="65ef3-127">Windows 8</span></span><br/>                                                                                    |
+| <span data-ttu-id="65ef3-128">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="65ef3-128">Minimum supported server</span></span><br/> | <span data-ttu-id="65ef3-129">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="65ef3-129">Windows Server 2012</span></span><br/>                                                                          |
+| <span data-ttu-id="65ef3-130">命名空間</span><span class="sxs-lookup"><span data-stu-id="65ef3-130">Namespace</span></span><br/>                | <span data-ttu-id="65ef3-131">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="65ef3-131">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="65ef3-132">MOF</span><span class="sxs-lookup"><span data-stu-id="65ef3-132">MOF</span></span><br/>                      | <dl> <span data-ttu-id="65ef3-133"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="65ef3-133"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="65ef3-134">DLL</span><span class="sxs-lookup"><span data-stu-id="65ef3-134">DLL</span></span><br/>                      | <dl> <span data-ttu-id="65ef3-135"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="65ef3-135"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="411d5-136">另請參閱</span><span class="sxs-lookup"><span data-stu-id="411d5-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="65ef3-136">另請參閱</span><span class="sxs-lookup"><span data-stu-id="65ef3-136">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="411d5-137">**CIM \_ 服務**</span><span class="sxs-lookup"><span data-stu-id="411d5-137">**CIM\_Service**</span></span>](cim-service.md)
+[<span data-ttu-id="65ef3-137">**CIM \_ 服務**</span><span class="sxs-lookup"><span data-stu-id="65ef3-137">**CIM\_Service**</span></span>](cim-service.md)
 </dt> </dl>
 
  

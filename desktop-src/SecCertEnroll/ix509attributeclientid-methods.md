@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848353"
 ---
-# <a name="ix509attributeclientid-methods"></a><span data-ttu-id="d2342-103">IX509AttributeClientId 方法</span><span class="sxs-lookup"><span data-stu-id="d2342-103">IX509AttributeClientId Methods</span></span>
+# <a name="ix509attributeclientid-methods"></a><span data-ttu-id="6a447-103">IX509AttributeClientId 方法</span><span class="sxs-lookup"><span data-stu-id="6a447-103">IX509AttributeClientId Methods</span></span>
 
-<span data-ttu-id="d2342-104">[**IX509AttributeClientId**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="d2342-104">The [**IX509AttributeClientId**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid) interface exposes the following methods.</span></span>
+<span data-ttu-id="6a447-104">[**IX509AttributeClientId**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="6a447-104">The [**IX509AttributeClientId**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="d2342-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d2342-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6a447-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="6a447-105">In this section</span></span>
 
--   [<span data-ttu-id="d2342-106">**InitializeDecode 方法**</span><span class="sxs-lookup"><span data-stu-id="d2342-106">**InitializeDecode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-initializedecode)
--   [<span data-ttu-id="d2342-107">**InitializeEncode 方法**</span><span class="sxs-lookup"><span data-stu-id="d2342-107">**InitializeEncode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-initializeencode)
+-   [<span data-ttu-id="6a447-106">**InitializeDecode 方法**</span><span class="sxs-lookup"><span data-stu-id="6a447-106">**InitializeDecode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-initializedecode)
+-   [<span data-ttu-id="6a447-107">**InitializeEncode 方法**</span><span class="sxs-lookup"><span data-stu-id="6a447-107">**InitializeEncode Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-initializeencode)
 
  
 

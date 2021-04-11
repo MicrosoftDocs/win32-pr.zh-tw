@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849554"
 ---
-# <a name="jet_errinfobasicerrcat-property"></a><span data-ttu-id="8f89d-103">JET_ERRINFOBASIC errcat 屬性</span><span class="sxs-lookup"><span data-stu-id="8f89d-103">JET_ERRINFOBASIC.errcat property</span></span>
+# <a name="jet_errinfobasicerrcat-property"></a><span data-ttu-id="3ea41-103">JET_ERRINFOBASIC errcat 屬性</span><span class="sxs-lookup"><span data-stu-id="3ea41-103">JET_ERRINFOBASIC.errcat property</span></span>
 
-<span data-ttu-id="8f89d-104">取得或設定錯誤的類別。</span><span class="sxs-lookup"><span data-stu-id="8f89d-104">Gets or sets the category of the error.</span></span>
+<span data-ttu-id="3ea41-104">取得或設定錯誤的類別。</span><span class="sxs-lookup"><span data-stu-id="3ea41-104">Gets or sets the category of the error.</span></span>
 
-<span data-ttu-id="8f89d-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="8f89d-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="8f89d-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8f89d-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="3ea41-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="3ea41-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="3ea41-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="3ea41-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8f89d-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="8f89d-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3ea41-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="3ea41-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.errcat = value
 public JET_ERRCAT errcat { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="8f89d-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="8f89d-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="3ea41-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="3ea41-108">Property value</span></span>
 
-<span data-ttu-id="8f89d-109">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_ERRCAT](./jet-errcat-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="8f89d-109">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_ERRCAT](./jet-errcat-enumeration.md)</span></span>  
+<span data-ttu-id="3ea41-109">類型： [Microsoft.Isam.Esent.Interop.Windows8.JET_ERRCAT](./jet-errcat-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="3ea41-109">Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_ERRCAT](./jet-errcat-enumeration.md)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="8f89d-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8f89d-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3ea41-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3ea41-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="8f89d-111">參考</span><span class="sxs-lookup"><span data-stu-id="8f89d-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="3ea41-111">參考</span><span class="sxs-lookup"><span data-stu-id="3ea41-111">Reference</span></span>
 
-[<span data-ttu-id="8f89d-112">JET_ERRINFOBASIC 類別</span><span class="sxs-lookup"><span data-stu-id="8f89d-112">JET_ERRINFOBASIC class</span></span>](./jet-errinfobasic-class.md)
+[<span data-ttu-id="3ea41-112">JET_ERRINFOBASIC 類別</span><span class="sxs-lookup"><span data-stu-id="3ea41-112">JET_ERRINFOBASIC class</span></span>](./jet-errinfobasic-class.md)
 
-[<span data-ttu-id="8f89d-113">JET_ERRINFOBASIC 成員</span><span class="sxs-lookup"><span data-stu-id="8f89d-113">JET_ERRINFOBASIC members</span></span>](./jet-errinfobasic-members.md)
+[<span data-ttu-id="3ea41-113">JET_ERRINFOBASIC 成員</span><span class="sxs-lookup"><span data-stu-id="3ea41-113">JET_ERRINFOBASIC members</span></span>](./jet-errinfobasic-members.md)
 
-[<span data-ttu-id="8f89d-114">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="8f89d-114">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="3ea41-114">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="3ea41-114">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

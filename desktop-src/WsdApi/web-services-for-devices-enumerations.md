@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849406"
 ---
-# <a name="web-services-on-devices-enumerations"></a><span data-ttu-id="456a3-103">裝置上的 Web 服務列舉</span><span class="sxs-lookup"><span data-stu-id="456a3-103">Web Services on Devices Enumerations</span></span>
+# <a name="web-services-on-devices-enumerations"></a><span data-ttu-id="ac9ed-103">裝置上的 Web 服務列舉</span><span class="sxs-lookup"><span data-stu-id="ac9ed-103">Web Services on Devices Enumerations</span></span>
 
-<span data-ttu-id="456a3-104">裝置上的 Web 服務程式設計介面會定義並使用下列列舉：</span><span class="sxs-lookup"><span data-stu-id="456a3-104">The Web Services on Devices programming interface defines and uses the following enumerations:</span></span>
+<span data-ttu-id="ac9ed-104">裝置上的 Web 服務程式設計介面會定義並使用下列列舉：</span><span class="sxs-lookup"><span data-stu-id="ac9ed-104">The Web Services on Devices programming interface defines and uses the following enumerations:</span></span>
 
--   [<span data-ttu-id="456a3-105">**WSD \_ 設定 \_ 參數 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="456a3-105">**WSD\_CONFIG\_PARAM\_TYPE**</span></span>](/windows/win32/api/wsdbase/ne-wsdbase-wsd_config_param_type)
--   [<span data-ttu-id="456a3-106">**WSD \_ 通訊協定 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="456a3-106">**WSD\_PROTOCOL\_TYPE**</span></span>](/windows/desktop/api/WsdTypes/ne-wsdtypes-wsd_protocol_type)
--   [<span data-ttu-id="456a3-107">**WSDEventType**</span><span class="sxs-lookup"><span data-stu-id="456a3-107">**WSDEventType**</span></span>](/windows/desktop/api/Wsdtypes/ne-wsdtypes-wsdeventtype)
--   [<span data-ttu-id="456a3-108">**WSDUdpMessageType**</span><span class="sxs-lookup"><span data-stu-id="456a3-108">**WSDUdpMessageType**</span></span>](/windows/desktop/api/Wsdbase/ne-wsdbase-wsdudpmessagetype)
+-   [<span data-ttu-id="ac9ed-105">**WSD \_ 設定 \_ 參數 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="ac9ed-105">**WSD\_CONFIG\_PARAM\_TYPE**</span></span>](/windows/win32/api/wsdbase/ne-wsdbase-wsd_config_param_type)
+-   [<span data-ttu-id="ac9ed-106">**WSD \_ 通訊協定 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="ac9ed-106">**WSD\_PROTOCOL\_TYPE**</span></span>](/windows/desktop/api/WsdTypes/ne-wsdtypes-wsd_protocol_type)
+-   [<span data-ttu-id="ac9ed-107">**WSDEventType**</span><span class="sxs-lookup"><span data-stu-id="ac9ed-107">**WSDEventType**</span></span>](/windows/desktop/api/Wsdtypes/ne-wsdtypes-wsdeventtype)
+-   [<span data-ttu-id="ac9ed-108">**WSDUdpMessageType**</span><span class="sxs-lookup"><span data-stu-id="ac9ed-108">**WSDUdpMessageType**</span></span>](/windows/desktop/api/Wsdbase/ne-wsdbase-wsdudpmessagetype)
 
  
 

@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848616"
 ---
-# <a name="swbemobjectset-methods"></a><span data-ttu-id="e1ea9-103">Swbemobjectset 搭配使用方法</span><span class="sxs-lookup"><span data-stu-id="e1ea9-103">SWbemObjectSet Methods</span></span>
+# <a name="swbemobjectset-methods"></a><span data-ttu-id="e170f-103">Swbemobjectset 搭配使用方法</span><span class="sxs-lookup"><span data-stu-id="e170f-103">SWbemObjectSet Methods</span></span>
 
-<span data-ttu-id="e1ea9-104">[**Swbemobjectset 搭配使用**](swbemobjectset.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="e1ea9-104">The [**SWbemObjectSet**](swbemobjectset.md) object exposes the following methods.</span></span>
+<span data-ttu-id="e170f-104">[**Swbemobjectset 搭配使用**](swbemobjectset.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="e170f-104">The [**SWbemObjectSet**](swbemobjectset.md) object exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="e1ea9-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="e1ea9-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e170f-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="e170f-105">In this section</span></span>
 
--   [<span data-ttu-id="e1ea9-106">**Item 方法**</span><span class="sxs-lookup"><span data-stu-id="e1ea9-106">**Item method**</span></span>](swbemobjectset-item.md)
--   [<span data-ttu-id="e1ea9-107">**ItemIndex 方法**</span><span class="sxs-lookup"><span data-stu-id="e1ea9-107">**ItemIndex method**</span></span>](swbemobjectset-itemindex.md)
+-   [<span data-ttu-id="e170f-106">**Item 方法**</span><span class="sxs-lookup"><span data-stu-id="e170f-106">**Item method**</span></span>](swbemobjectset-item.md)
+-   [<span data-ttu-id="e170f-107">**ItemIndex 方法**</span><span class="sxs-lookup"><span data-stu-id="e170f-107">**ItemIndex method**</span></span>](swbemobjectset-itemindex.md)
 
  
 

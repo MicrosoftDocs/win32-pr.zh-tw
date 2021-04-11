@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103846936"
 ---
-# <a name="error-handling-reference"></a><span data-ttu-id="68c42-103">錯誤處理參考</span><span class="sxs-lookup"><span data-stu-id="68c42-103">Error Handling Reference</span></span>
+# <a name="error-handling-reference"></a><span data-ttu-id="55b45-103">錯誤處理參考</span><span class="sxs-lookup"><span data-stu-id="55b45-103">Error Handling Reference</span></span>
 
-<span data-ttu-id="68c42-104">下列元素會與錯誤處理搭配使用。</span><span class="sxs-lookup"><span data-stu-id="68c42-104">The following elements are used with error handling.</span></span>
+<span data-ttu-id="55b45-104">下列元素會與錯誤處理搭配使用。</span><span class="sxs-lookup"><span data-stu-id="55b45-104">The following elements are used with error handling.</span></span>
 
--   [<span data-ttu-id="68c42-105">錯誤處理函數</span><span class="sxs-lookup"><span data-stu-id="68c42-105">Error Handling Functions</span></span>](error-handling-functions.md)
--   [<span data-ttu-id="68c42-106">錯誤處理結構</span><span class="sxs-lookup"><span data-stu-id="68c42-106">Error Handling Structures</span></span>](error-handling-structures.md)
--   [<span data-ttu-id="68c42-107">錯誤處理宏</span><span class="sxs-lookup"><span data-stu-id="68c42-107">Error Handling Macros</span></span>](error-handling-macro.md)
+-   [<span data-ttu-id="55b45-105">錯誤處理函數</span><span class="sxs-lookup"><span data-stu-id="55b45-105">Error Handling Functions</span></span>](error-handling-functions.md)
+-   [<span data-ttu-id="55b45-106">錯誤處理結構</span><span class="sxs-lookup"><span data-stu-id="55b45-106">Error Handling Structures</span></span>](error-handling-structures.md)
+-   [<span data-ttu-id="55b45-107">錯誤處理宏</span><span class="sxs-lookup"><span data-stu-id="55b45-107">Error Handling Macros</span></span>](error-handling-macro.md)
 
  
 

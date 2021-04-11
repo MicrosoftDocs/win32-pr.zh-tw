@@ -11,27 +11,27 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2020
 ms.locfileid: "103684261"
 ---
-# <a name="how-to-create-a-month-calendar-control"></a><span data-ttu-id="979bf-103">如何建立月曆控制項</span><span class="sxs-lookup"><span data-stu-id="979bf-103">How to Create a Month Calendar Control</span></span>
+# <a name="how-to-create-a-month-calendar-control"></a><span data-ttu-id="83c69-103">如何建立月曆控制項</span><span class="sxs-lookup"><span data-stu-id="83c69-103">How to Create a Month Calendar Control</span></span>
 
-<span data-ttu-id="979bf-104">本主題示範如何使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函式，以動態方式建立月曆控制項。</span><span class="sxs-lookup"><span data-stu-id="979bf-104">This topic demonstrates how to dynamically create a month calendar control by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function.</span></span>
+<span data-ttu-id="83c69-104">本主題示範如何使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函式，以動態方式建立月曆控制項。</span><span class="sxs-lookup"><span data-stu-id="83c69-104">This topic demonstrates how to dynamically create a month calendar control by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="979bf-105">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="979bf-105">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="83c69-105">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="83c69-105">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="979bf-106">技術</span><span class="sxs-lookup"><span data-stu-id="979bf-106">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="83c69-106">技術</span><span class="sxs-lookup"><span data-stu-id="83c69-106">Technologies</span></span>
 
--   [<span data-ttu-id="979bf-107">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="979bf-107">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="83c69-107">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="83c69-107">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="979bf-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="979bf-108">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="83c69-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="83c69-108">Prerequisites</span></span>
 
--   <span data-ttu-id="979bf-109">C/C++</span><span class="sxs-lookup"><span data-stu-id="979bf-109">C/C++</span></span>
--   <span data-ttu-id="979bf-110">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="979bf-110">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="83c69-109">C/C++</span><span class="sxs-lookup"><span data-stu-id="83c69-109">C/C++</span></span>
+-   <span data-ttu-id="83c69-110">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="83c69-110">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="979bf-111">指示</span><span class="sxs-lookup"><span data-stu-id="979bf-111">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="83c69-111">指示</span><span class="sxs-lookup"><span data-stu-id="83c69-111">Instructions</span></span>
 
 
-<span data-ttu-id="979bf-112">若要建立月曆控制項，請使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函式，將 [**MONTHCAL \_ 類別**](common-control-window-classes.md) 指定為 window 類別。</span><span class="sxs-lookup"><span data-stu-id="979bf-112">To create a month calendar control, use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying [**MONTHCAL\_CLASS**](common-control-window-classes.md) as the window class.</span></span> <span data-ttu-id="979bf-113">您必須先呼叫 [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex)函式來註冊視窗類別，並在伴隨的 [**InitCommonControlsEx**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex)結構中指定 **ICC \_ 日期 \_ 類別** 位。</span><span class="sxs-lookup"><span data-stu-id="979bf-113">You must first register the window class by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, specifying the **ICC\_DATE\_CLASSES** bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) structure.</span></span>
+<span data-ttu-id="83c69-112">若要建立月曆控制項，請使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函式，將 [**MONTHCAL \_ 類別**](common-control-window-classes.md) 指定為 window 類別。</span><span class="sxs-lookup"><span data-stu-id="83c69-112">To create a month calendar control, use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying [**MONTHCAL\_CLASS**](common-control-window-classes.md) as the window class.</span></span> <span data-ttu-id="83c69-113">您必須先呼叫 [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex)函式來註冊視窗類別，並在伴隨的 [**InitCommonControlsEx**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex)結構中指定 **ICC \_ 日期 \_ 類別** 位。</span><span class="sxs-lookup"><span data-stu-id="83c69-113">You must first register the window class by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, specifying the **ICC\_DATE\_CLASSES** bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) structure.</span></span>
 
-<span data-ttu-id="979bf-114">下列範例示範如何在現有的非強制回應對話方塊中建立月曆控制項。</span><span class="sxs-lookup"><span data-stu-id="979bf-114">The following example demonstrates how to create a month calendar control in an existing modeless dialog box.</span></span> <span data-ttu-id="979bf-115">請注意，傳遞給 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 的大小值都是零。</span><span class="sxs-lookup"><span data-stu-id="979bf-115">Note that the size values passed to [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) are all zeros.</span></span> <span data-ttu-id="979bf-116">因為所需的最小大小取決於控制項所使用的字型，所以此範例會使用 [**MonthCal \_ GetMinReqRect**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_getminreqrect) 宏來要求大小資訊，然後藉由呼叫 [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos)來調整控制項的大小。</span><span class="sxs-lookup"><span data-stu-id="979bf-116">Because the minimum required size depends on the font that the control uses, the example uses the [**MonthCal\_GetMinReqRect**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_getminreqrect) macro to request size information and then resizes the control by calling [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos).</span></span> <span data-ttu-id="979bf-117">如果您之後使用 [**WM \_ SETFONT**](/windows/desktop/winmsg/wm-setfont)來變更字型，控制項的維度將不會變更。</span><span class="sxs-lookup"><span data-stu-id="979bf-117">If you subsequently change the font with [**WM\_SETFONT**](/windows/desktop/winmsg/wm-setfont), the dimensions of the control will not change.</span></span> <span data-ttu-id="979bf-118">您必須再次呼叫 **MonthCal \_ GetMinReqRect** ，並調整控制項的大小以符合新的字型。</span><span class="sxs-lookup"><span data-stu-id="979bf-118">You must call **MonthCal\_GetMinReqRect** again and resize the control to fit the new font.</span></span>
+<span data-ttu-id="83c69-114">下列範例示範如何在現有的非強制回應對話方塊中建立月曆控制項。</span><span class="sxs-lookup"><span data-stu-id="83c69-114">The following example demonstrates how to create a month calendar control in an existing modeless dialog box.</span></span> <span data-ttu-id="83c69-115">請注意，傳遞給 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 的大小值都是零。</span><span class="sxs-lookup"><span data-stu-id="83c69-115">Note that the size values passed to [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) are all zeros.</span></span> <span data-ttu-id="83c69-116">因為所需的最小大小取決於控制項所使用的字型，所以此範例會使用 [**MonthCal \_ GetMinReqRect**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_getminreqrect) 宏來要求大小資訊，然後藉由呼叫 [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos)來調整控制項的大小。</span><span class="sxs-lookup"><span data-stu-id="83c69-116">Because the minimum required size depends on the font that the control uses, the example uses the [**MonthCal\_GetMinReqRect**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_getminreqrect) macro to request size information and then resizes the control by calling [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos).</span></span> <span data-ttu-id="83c69-117">如果您之後使用 [**WM \_ SETFONT**](/windows/desktop/winmsg/wm-setfont)來變更字型，控制項的維度將不會變更。</span><span class="sxs-lookup"><span data-stu-id="83c69-117">If you subsequently change the font with [**WM\_SETFONT**](/windows/desktop/winmsg/wm-setfont), the dimensions of the control will not change.</span></span> <span data-ttu-id="83c69-118">您必須再次呼叫 **MonthCal \_ GetMinReqRect** ，並調整控制項的大小以符合新的字型。</span><span class="sxs-lookup"><span data-stu-id="83c69-118">You must call **MonthCal\_GetMinReqRect** again and resize the control to fit the new font.</span></span>
 
 
 
@@ -112,17 +112,17 @@ HRESULT CreateMonthCalDialog(HWND hwndOwner)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="979bf-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="979bf-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="83c69-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="83c69-119">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="979bf-120">月曆控制項參考</span><span class="sxs-lookup"><span data-stu-id="979bf-120">Month Calendar Control Reference</span></span>](bumper-month-calendar-month-calendar-control-reference.md)
+[<span data-ttu-id="83c69-120">月曆控制項參考</span><span class="sxs-lookup"><span data-stu-id="83c69-120">Month Calendar Control Reference</span></span>](bumper-month-calendar-month-calendar-control-reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="979bf-121">關於 Month Calendar 控制項</span><span class="sxs-lookup"><span data-stu-id="979bf-121">About Month Calendar Controls</span></span>](month-calendar-controls.md)
+[<span data-ttu-id="83c69-121">關於 Month Calendar 控制項</span><span class="sxs-lookup"><span data-stu-id="83c69-121">About Month Calendar Controls</span></span>](month-calendar-controls.md)
 </dt> <dt>
 
-[<span data-ttu-id="979bf-122">使用月曆控制項</span><span class="sxs-lookup"><span data-stu-id="979bf-122">Using Month Calendar Controls</span></span>](using-month-calendar-controls.md)
+[<span data-ttu-id="83c69-122">使用月曆控制項</span><span class="sxs-lookup"><span data-stu-id="83c69-122">Using Month Calendar Controls</span></span>](using-month-calendar-controls.md)
 </dt> </dl>
 
  

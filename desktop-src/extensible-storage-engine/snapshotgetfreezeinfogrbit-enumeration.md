@@ -33,16 +33,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848213"
 ---
-# <a name="snapshotgetfreezeinfogrbit-enumeration"></a><span data-ttu-id="291f2-103">SnapshotGetFreezeInfoGrbit 列舉</span><span class="sxs-lookup"><span data-stu-id="291f2-103">SnapshotGetFreezeInfoGrbit enumeration</span></span>
+# <a name="snapshotgetfreezeinfogrbit-enumeration"></a><span data-ttu-id="f527c-103">SnapshotGetFreezeInfoGrbit 列舉</span><span class="sxs-lookup"><span data-stu-id="f527c-103">SnapshotGetFreezeInfoGrbit enumeration</span></span>
 
-<span data-ttu-id="291f2-104">[JetOSSnapshotGetFreezeInfo (JET_OSSNAPID、Int32、 \[ \] 、SnapshotGetFreezeInfoGrbit) ](./vistaapi.jetossnapshotgetfreezeinfo-method.md)的選項。</span><span class="sxs-lookup"><span data-stu-id="291f2-104">Options for [JetOSSnapshotGetFreezeInfo(JET_OSSNAPID, Int32, \[\], SnapshotGetFreezeInfoGrbit)](./vistaapi.jetossnapshotgetfreezeinfo-method.md).</span></span>
+<span data-ttu-id="f527c-104">[JetOSSnapshotGetFreezeInfo (JET_OSSNAPID、Int32、 \[ \] 、SnapshotGetFreezeInfoGrbit) ](./vistaapi.jetossnapshotgetfreezeinfo-method.md)的選項。</span><span class="sxs-lookup"><span data-stu-id="f527c-104">Options for [JetOSSnapshotGetFreezeInfo(JET_OSSNAPID, Int32, \[\], SnapshotGetFreezeInfoGrbit)](./vistaapi.jetossnapshotgetfreezeinfo-method.md).</span></span>
 
-<span data-ttu-id="291f2-105">此列舉有 [FlagsAttribute](/dotnet/api/system.flagsattribute) 屬性，因此其成員值可進行位元組合。</span><span class="sxs-lookup"><span data-stu-id="291f2-105">This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.</span></span>
+<span data-ttu-id="f527c-105">此列舉有 [FlagsAttribute](/dotnet/api/system.flagsattribute) 屬性，因此其成員值可進行位元組合。</span><span class="sxs-lookup"><span data-stu-id="f527c-105">This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.</span></span>
 
-<span data-ttu-id="291f2-106">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="291f2-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
-<span data-ttu-id="291f2-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="291f2-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="f527c-106">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="f527c-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
+<span data-ttu-id="f527c-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f527c-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="291f2-108">語法</span><span class="sxs-lookup"><span data-stu-id="291f2-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f527c-108">語法</span><span class="sxs-lookup"><span data-stu-id="f527c-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -57,28 +57,28 @@ Dim instance As SnapshotGetFreezeInfoGrbit
 public enum SnapshotGetFreezeInfoGrbit
 ```
 
-## <a name="members"></a><span data-ttu-id="291f2-109">成員</span><span class="sxs-lookup"><span data-stu-id="291f2-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="f527c-109">成員</span><span class="sxs-lookup"><span data-stu-id="f527c-109">Members</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="291f2-110">成員名稱</span><span class="sxs-lookup"><span data-stu-id="291f2-110">Member name</span></span></th>
-<th><span data-ttu-id="291f2-111">描述</span><span class="sxs-lookup"><span data-stu-id="291f2-111">Description</span></span></th>
+<th><span data-ttu-id="f527c-110">成員名稱</span><span class="sxs-lookup"><span data-stu-id="f527c-110">Member name</span></span></th>
+<th><span data-ttu-id="f527c-111">描述</span><span class="sxs-lookup"><span data-stu-id="f527c-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td></td>
-<td><span data-ttu-id="291f2-112">無</span><span class="sxs-lookup"><span data-stu-id="291f2-112">None</span></span></td>
-<td><span data-ttu-id="291f2-113">預設選項。</span><span class="sxs-lookup"><span data-stu-id="291f2-113">Default options.</span></span></td>
+<td><span data-ttu-id="f527c-112">無</span><span class="sxs-lookup"><span data-stu-id="f527c-112">None</span></span></td>
+<td><span data-ttu-id="f527c-113">預設選項。</span><span class="sxs-lookup"><span data-stu-id="f527c-113">Default options.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="see-also"></a><span data-ttu-id="291f2-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="291f2-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f527c-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f527c-114">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="291f2-115">參考</span><span class="sxs-lookup"><span data-stu-id="291f2-115">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="f527c-115">參考</span><span class="sxs-lookup"><span data-stu-id="f527c-115">Reference</span></span>
 
-[<span data-ttu-id="291f2-116">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="291f2-116">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)
+[<span data-ttu-id="f527c-116">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="f527c-116">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)

@@ -18,13 +18,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691707"
 ---
-# <a name="xmunibble4-operator--operators"></a><span data-ttu-id="d1dcc-103">XMUNIBBLE4 運算子 = 運算子</span><span class="sxs-lookup"><span data-stu-id="d1dcc-103">XMUNIBBLE4 operator = operators</span></span>
+# <a name="xmunibble4-operator--operators"></a><span data-ttu-id="631e9-103">XMUNIBBLE4 運算子 = 運算子</span><span class="sxs-lookup"><span data-stu-id="631e9-103">XMUNIBBLE4 operator = operators</span></span>
 
-<span data-ttu-id="d1dcc-104">將向量元件資料指派給目前的實例 `XMUNIBBLE4` 。</span><span class="sxs-lookup"><span data-stu-id="d1dcc-104">Assigns vector component data to the current instance of `XMUNIBBLE4`.</span></span>
+<span data-ttu-id="631e9-104">將向量元件資料指派給目前的實例 `XMUNIBBLE4` 。</span><span class="sxs-lookup"><span data-stu-id="631e9-104">Assigns vector component data to the current instance of `XMUNIBBLE4`.</span></span>
 
-<span data-ttu-id="d1dcc-105">將向量元件資料指派給目前的 [**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4)實例。</span><span class="sxs-lookup"><span data-stu-id="d1dcc-105">Assigns vector component data to the current instance of [**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4).</span></span>
+<span data-ttu-id="631e9-105">將向量元件資料指派給目前的 [**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4)實例。</span><span class="sxs-lookup"><span data-stu-id="631e9-105">Assigns vector component data to the current instance of [**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4).</span></span>
 
-### <a name="overload-list"></a><span data-ttu-id="d1dcc-106">多載清單</span><span class="sxs-lookup"><span data-stu-id="d1dcc-106">Overload list</span></span>
+### <a name="overload-list"></a><span data-ttu-id="631e9-106">多載清單</span><span class="sxs-lookup"><span data-stu-id="631e9-106">Overload list</span></span>
 
 
 
@@ -35,40 +35,40 @@ ms.locfileid: "103691707"
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;"><span data-ttu-id="d1dcc-107">運算子</span><span class="sxs-lookup"><span data-stu-id="d1dcc-107">Operator</span></span></th>
-<th style="text-align: left;"><span data-ttu-id="d1dcc-108">描述</span><span class="sxs-lookup"><span data-stu-id="d1dcc-108">Description</span></span></th>
+<th style="text-align: left;"><span data-ttu-id="631e9-107">運算子</span><span class="sxs-lookup"><span data-stu-id="631e9-107">Operator</span></span></th>
+<th style="text-align: left;"><span data-ttu-id="631e9-108">描述</span><span class="sxs-lookup"><span data-stu-id="631e9-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span data-ttu-id="d1dcc-109"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-operator-assign(uint16_t)"><strong>XMUNIBBLE4：： operator = (const uint16_t) </strong></a></span><span class="sxs-lookup"><span data-stu-id="d1dcc-109"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-operator-assign(uint16_t)"><strong>XMUNIBBLE4::operator = (const uint16_t)</strong></a></span></span></td>
-<td style="text-align: left;"><span data-ttu-id="d1dcc-110">將實例中封裝的向量元件資料指派 <code>uint16_t</code> 給目前的實例 <code>XMUNIBBLE4</code> 。</span><span class="sxs-lookup"><span data-stu-id="d1dcc-110">Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMUNIBBLE4</code>.</span></span> <br/>
+<td style="text-align: left;"><span data-ttu-id="631e9-109"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-operator-assign(uint16_t)"><strong>XMUNIBBLE4：： operator = (const uint16_t) </strong></a></span><span class="sxs-lookup"><span data-stu-id="631e9-109"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-operator-assign(uint16_t)"><strong>XMUNIBBLE4::operator = (const uint16_t)</strong></a></span></span></td>
+<td style="text-align: left;"><span data-ttu-id="631e9-110">將實例中封裝的向量元件資料指派 <code>uint16_t</code> 給目前的實例 <code>XMUNIBBLE4</code> 。</span><span class="sxs-lookup"><span data-stu-id="631e9-110">Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMUNIBBLE4</code>.</span></span> <br/>
 <blockquote>
 [!Note]<br />
-<span data-ttu-id="d1dcc-111">此運算子僅適用于 c + +。</span><span class="sxs-lookup"><span data-stu-id="d1dcc-111">This operator is only available under C++.</span></span>
+<span data-ttu-id="631e9-111">此運算子僅適用于 c + +。</span><span class="sxs-lookup"><span data-stu-id="631e9-111">This operator is only available under C++.</span></span>
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span data-ttu-id="d1dcc-112"><a href="/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize"><strong>XMUNIBBLE4：： operator = (const XMUNIBBLE4&) </strong></a></span><span class="sxs-lookup"><span data-stu-id="d1dcc-112"><a href="/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize"><strong>XMUNIBBLE4::operator = (const XMUNIBBLE4&)</strong></a></span></span></td>
-<td style="text-align: left;"><span data-ttu-id="d1dcc-113">將一個實例的向量元件資料指派 <code>XMUNIBBLE4</code> 給目前的實例 <code>XMUNIBBLE4</code> 。</span><span class="sxs-lookup"><span data-stu-id="d1dcc-113">Assigns the vector component data from one instance of <code>XMUNIBBLE4</code> to the current instance of <code>XMUNIBBLE4</code>.</span></span> <br/> <span data-ttu-id="d1dcc-114">這個運算子會將一個 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> 實例的向量元件資料指派給目前的實例 <code>XMUNIBBLE4</code> 。</span><span class="sxs-lookup"><span data-stu-id="d1dcc-114">This operator assigns the vector component data from one instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> to the current instance of <code>XMUNIBBLE4</code>.</span></span> <br/></td>
+<td style="text-align: left;"><span data-ttu-id="631e9-112"><a href="/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize"><strong>XMUNIBBLE4：： operator = (const XMUNIBBLE4&) </strong></a></span><span class="sxs-lookup"><span data-stu-id="631e9-112"><a href="/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize"><strong>XMUNIBBLE4::operator = (const XMUNIBBLE4&)</strong></a></span></span></td>
+<td style="text-align: left;"><span data-ttu-id="631e9-113">將一個實例的向量元件資料指派 <code>XMUNIBBLE4</code> 給目前的實例 <code>XMUNIBBLE4</code> 。</span><span class="sxs-lookup"><span data-stu-id="631e9-113">Assigns the vector component data from one instance of <code>XMUNIBBLE4</code> to the current instance of <code>XMUNIBBLE4</code>.</span></span> <br/> <span data-ttu-id="631e9-114">這個運算子會將一個 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> 實例的向量元件資料指派給目前的實例 <code>XMUNIBBLE4</code> 。</span><span class="sxs-lookup"><span data-stu-id="631e9-114">This operator assigns the vector component data from one instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> to the current instance of <code>XMUNIBBLE4</code>.</span></span> <br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="d1dcc-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d1dcc-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="631e9-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="631e9-115">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d1dcc-116">XMUNIBBLE4 運算子</span><span class="sxs-lookup"><span data-stu-id="d1dcc-116">XMUNIBBLE4 Operators</span></span>](ovw-xmunibble4-operators.md)
+[<span data-ttu-id="631e9-116">XMUNIBBLE4 運算子</span><span class="sxs-lookup"><span data-stu-id="631e9-116">XMUNIBBLE4 Operators</span></span>](ovw-xmunibble4-operators.md)
 </dt> <dt>
 
-<span data-ttu-id="d1dcc-117">**參考**</span><span class="sxs-lookup"><span data-stu-id="d1dcc-117">**Reference**</span></span>
+<span data-ttu-id="631e9-117">**參考**</span><span class="sxs-lookup"><span data-stu-id="631e9-117">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="d1dcc-118">**XMUNIBBLE4**</span><span class="sxs-lookup"><span data-stu-id="d1dcc-118">**XMUNIBBLE4**</span></span>](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4)
+[<span data-ttu-id="631e9-118">**XMUNIBBLE4**</span><span class="sxs-lookup"><span data-stu-id="631e9-118">**XMUNIBBLE4**</span></span>](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4)
 </dt> </dl>
 
  

@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843788"
 ---
-# <a name="rbn_childsize-notification-code"></a><span data-ttu-id="2d505-105">RBN \_ CHILDSIZE 通知碼</span><span class="sxs-lookup"><span data-stu-id="2d505-105">RBN\_CHILDSIZE notification code</span></span>
+# <a name="rbn_childsize-notification-code"></a><span data-ttu-id="90afe-105">RBN \_ CHILDSIZE 通知碼</span><span class="sxs-lookup"><span data-stu-id="90afe-105">RBN\_CHILDSIZE notification code</span></span>
 
-<span data-ttu-id="2d505-106">當調整寬線的子視窗大小時，由 Rebar 控制項傳送。</span><span class="sxs-lookup"><span data-stu-id="2d505-106">Sent by a rebar control when a band's child window is resized.</span></span> <span data-ttu-id="2d505-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="2d505-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="90afe-106">當調整寬線的子視窗大小時，由 Rebar 控制項傳送。</span><span class="sxs-lookup"><span data-stu-id="90afe-106">Sent by a rebar control when a band's child window is resized.</span></span> <span data-ttu-id="90afe-107">此通知碼會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。</span><span class="sxs-lookup"><span data-stu-id="90afe-107">This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -34,30 +34,30 @@ RBN_CHILDSIZE
 
 
 
-## <a name="parameters"></a><span data-ttu-id="2d505-108">參數</span><span class="sxs-lookup"><span data-stu-id="2d505-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="90afe-108">參數</span><span class="sxs-lookup"><span data-stu-id="90afe-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="2d505-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="2d505-109">*lParam*</span></span> 
+<span data-ttu-id="90afe-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="90afe-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="2d505-110">[**NMREBARCHILDSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchildsize)結構的指標，其中包含通知碼的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="2d505-110">Pointer to an [**NMREBARCHILDSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchildsize) structure that contains information about the notification code.</span></span>
+<span data-ttu-id="90afe-110">[**NMREBARCHILDSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchildsize)結構的指標，其中包含通知碼的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="90afe-110">Pointer to an [**NMREBARCHILDSIZE**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchildsize) structure that contains information about the notification code.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="2d505-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="2d505-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="90afe-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="90afe-111">Return value</span></span>
 
-<span data-ttu-id="2d505-112">未使用此通知的傳回值。</span><span class="sxs-lookup"><span data-stu-id="2d505-112">The return value for this notification is not used.</span></span>
+<span data-ttu-id="90afe-112">未使用此通知的傳回值。</span><span class="sxs-lookup"><span data-stu-id="90afe-112">The return value for this notification is not used.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="2d505-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="2d505-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="90afe-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="90afe-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2d505-114">需求</span><span class="sxs-lookup"><span data-stu-id="2d505-114">Requirement</span></span> | <span data-ttu-id="2d505-115">值</span><span class="sxs-lookup"><span data-stu-id="2d505-115">Value</span></span> |
+| <span data-ttu-id="90afe-114">需求</span><span class="sxs-lookup"><span data-stu-id="90afe-114">Requirement</span></span> | <span data-ttu-id="90afe-115">值</span><span class="sxs-lookup"><span data-stu-id="90afe-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="2d505-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2d505-116">Minimum supported client</span></span><br/> | <span data-ttu-id="2d505-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2d505-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="2d505-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2d505-118">Minimum supported server</span></span><br/> | <span data-ttu-id="2d505-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2d505-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="2d505-120">標頭</span><span class="sxs-lookup"><span data-stu-id="2d505-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="2d505-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="2d505-121"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="90afe-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="90afe-116">Minimum supported client</span></span><br/> | <span data-ttu-id="90afe-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="90afe-117">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="90afe-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="90afe-118">Minimum supported server</span></span><br/> | <span data-ttu-id="90afe-119">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="90afe-119">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="90afe-120">標頭</span><span class="sxs-lookup"><span data-stu-id="90afe-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="90afe-121"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="90afe-121"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

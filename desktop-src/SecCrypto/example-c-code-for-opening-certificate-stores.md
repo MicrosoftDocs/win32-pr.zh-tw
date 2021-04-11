@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848155"
 ---
-# <a name="example-c-code-for-opening-certificate-stores"></a><span data-ttu-id="9ac35-104">用於開啟憑證存放區的範例 C 程式碼</span><span class="sxs-lookup"><span data-stu-id="9ac35-104">Example C Code for Opening Certificate Stores</span></span>
+# <a name="example-c-code-for-opening-certificate-stores"></a><span data-ttu-id="d774c-104">用於開啟憑證存放區的範例 C 程式碼</span><span class="sxs-lookup"><span data-stu-id="d774c-104">Example C Code for Opening Certificate Stores</span></span>
 
-<span data-ttu-id="9ac35-105">下列範例會提供程式碼來開啟各種一般憑證存放區。</span><span class="sxs-lookup"><span data-stu-id="9ac35-105">The following examples provide code to open a variety of common certificate stores.</span></span> <span data-ttu-id="9ac35-106">這些範例是一系列的程式碼片段，並不是獨立的程式。</span><span class="sxs-lookup"><span data-stu-id="9ac35-106">These examples are a series of code fragments and are not stand-alone programs.</span></span>
+<span data-ttu-id="d774c-105">下列範例會提供程式碼來開啟各種一般憑證存放區。</span><span class="sxs-lookup"><span data-stu-id="d774c-105">The following examples provide code to open a variety of common certificate stores.</span></span> <span data-ttu-id="d774c-106">這些範例是一系列的程式碼片段，並不是獨立的程式。</span><span class="sxs-lookup"><span data-stu-id="d774c-106">These examples are a series of code fragments and are not stand-alone programs.</span></span>
 
-<span data-ttu-id="9ac35-107">下列範例會開啟 [我的系統] 存放區。</span><span class="sxs-lookup"><span data-stu-id="9ac35-107">The following example opens the My system store.</span></span>
+<span data-ttu-id="d774c-107">下列範例會開啟 [我的系統] 存放區。</span><span class="sxs-lookup"><span data-stu-id="d774c-107">The following example opens the My system store.</span></span>
 
 
 ```C++
@@ -50,7 +50,7 @@ else
 
 
 
-<span data-ttu-id="9ac35-108">下列範例會開啟記憶體存放區。</span><span class="sxs-lookup"><span data-stu-id="9ac35-108">The following example opens a memory store.</span></span>
+<span data-ttu-id="d774c-108">下列範例會開啟記憶體存放區。</span><span class="sxs-lookup"><span data-stu-id="d774c-108">The following example opens a memory store.</span></span>
 
 
 ```C++
@@ -78,7 +78,7 @@ else
 
 
 
-<span data-ttu-id="9ac35-109">下列範例會從磁片開啟存放區。</span><span class="sxs-lookup"><span data-stu-id="9ac35-109">The following example opens a store from disk.</span></span> <span data-ttu-id="9ac35-110">此範例會使用在 [建立 DACL](../secbp/creating-a-dacl.md)主題中定義的 **CreateMyDACL** 函式，以確保使用正確的 dacl 建立開啟的檔案。</span><span class="sxs-lookup"><span data-stu-id="9ac35-110">The example uses the **CreateMyDACL** function, defined in the [Creating a DACL](../secbp/creating-a-dacl.md) topic, to ensure the open file is created with a proper DACL.</span></span>
+<span data-ttu-id="d774c-109">下列範例會從磁片開啟存放區。</span><span class="sxs-lookup"><span data-stu-id="d774c-109">The following example opens a store from disk.</span></span> <span data-ttu-id="d774c-110">此範例會使用在 [建立 DACL](../secbp/creating-a-dacl.md)主題中定義的 **CreateMyDACL** 函式，以確保使用正確的 dacl 建立開啟的檔案。</span><span class="sxs-lookup"><span data-stu-id="d774c-110">The example uses the **CreateMyDACL** function, defined in the [Creating a DACL](../secbp/creating-a-dacl.md) topic, to ensure the open file is created with a proper DACL.</span></span>
 
 
 ```C++
@@ -164,7 +164,7 @@ if(!(CloseHandle(hFile)))
 
 
 
-<span data-ttu-id="9ac35-111">下列範例會使用 CERT \_ store >prov FILENAME 來開啟以檔案為基礎的存放區 \_ \_ 。</span><span class="sxs-lookup"><span data-stu-id="9ac35-111">The following example opens a file-based store using CERT\_STORE\_PROV\_FILENAME.</span></span>
+<span data-ttu-id="d774c-111">下列範例會使用 CERT \_ store >prov FILENAME 來開啟以檔案為基礎的存放區 \_ \_ 。</span><span class="sxs-lookup"><span data-stu-id="d774c-111">The following example opens a file-based store using CERT\_STORE\_PROV\_FILENAME.</span></span>
 
 
 ```C++
@@ -212,7 +212,7 @@ else
 
 
 
-<span data-ttu-id="9ac35-112">下列範例會開啟集合存放區。</span><span class="sxs-lookup"><span data-stu-id="9ac35-112">The following example opens a collection store.</span></span>
+<span data-ttu-id="d774c-112">下列範例會開啟集合存放區。</span><span class="sxs-lookup"><span data-stu-id="d774c-112">The following example opens a collection store.</span></span>
 
 
 ```C++
@@ -292,7 +292,7 @@ if(!(CertCloseStore(hCollectionStoreHandle, 0)))
 
 
 
-<span data-ttu-id="9ac35-113">下列範例會開啟註冊存放區。</span><span class="sxs-lookup"><span data-stu-id="9ac35-113">The following example opens a register store.</span></span>
+<span data-ttu-id="d774c-113">下列範例會開啟註冊存放區。</span><span class="sxs-lookup"><span data-stu-id="d774c-113">The following example opens a register store.</span></span>
 
 
 ```C++
@@ -320,7 +320,7 @@ if(!(CertCloseStore(hRegStore, 0)))
 
 
 
-<span data-ttu-id="9ac35-114">下列範例會根據 PKCS 7 訊息來開啟憑證存放區 \# 。</span><span class="sxs-lookup"><span data-stu-id="9ac35-114">The following example opens a certificate store based on a PKCS \#7 message.</span></span>
+<span data-ttu-id="d774c-114">下列範例會根據 PKCS 7 訊息來開啟憑證存放區 \# 。</span><span class="sxs-lookup"><span data-stu-id="d774c-114">The following example opens a certificate store based on a PKCS \#7 message.</span></span>
 
 
 ```C++

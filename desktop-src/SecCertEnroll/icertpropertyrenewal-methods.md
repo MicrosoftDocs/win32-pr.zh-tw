@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849872"
 ---
-# <a name="icertpropertyrenewal-methods"></a><span data-ttu-id="f90aa-103">ICertPropertyRenewal 方法</span><span class="sxs-lookup"><span data-stu-id="f90aa-103">ICertPropertyRenewal Methods</span></span>
+# <a name="icertpropertyrenewal-methods"></a><span data-ttu-id="b2140-103">ICertPropertyRenewal 方法</span><span class="sxs-lookup"><span data-stu-id="b2140-103">ICertPropertyRenewal Methods</span></span>
 
-<span data-ttu-id="f90aa-104">[**ICertPropertyRenewal**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyrenewal)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="f90aa-104">The [**ICertPropertyRenewal**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyrenewal) interface exposes the following methods.</span></span>
+<span data-ttu-id="b2140-104">[**ICertPropertyRenewal**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyrenewal)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="b2140-104">The [**ICertPropertyRenewal**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyrenewal) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f90aa-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="f90aa-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b2140-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b2140-105">In this section</span></span>
 
--   [<span data-ttu-id="f90aa-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="f90aa-106">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-initialize)
--   [<span data-ttu-id="f90aa-107">**InitializeFromCertificateHash 方法**</span><span class="sxs-lookup"><span data-stu-id="f90aa-107">**InitializeFromCertificateHash Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-initializefromcertificatehash)
+-   [<span data-ttu-id="b2140-106">**Initialize 方法**</span><span class="sxs-lookup"><span data-stu-id="b2140-106">**Initialize Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-initialize)
+-   [<span data-ttu-id="b2140-107">**InitializeFromCertificateHash 方法**</span><span class="sxs-lookup"><span data-stu-id="b2140-107">**InitializeFromCertificateHash Method**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-initializefromcertificatehash)
 
  
 

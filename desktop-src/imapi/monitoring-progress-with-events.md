@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103842208"
 ---
-# <a name="monitoring-progress-with-events"></a><span data-ttu-id="bc19c-104">監視事件的進度</span><span class="sxs-lookup"><span data-stu-id="bc19c-104">Monitoring Progress With Events</span></span>
+# <a name="monitoring-progress-with-events"></a><span data-ttu-id="f59b7-104">監視事件的進度</span><span class="sxs-lookup"><span data-stu-id="f59b7-104">Monitoring Progress With Events</span></span>
 
-<span data-ttu-id="bc19c-105">數個介面可讓您執行事件處理常式來接收進度資訊。</span><span class="sxs-lookup"><span data-stu-id="bc19c-105">Several interfaces let you implement an event handler to receive progress information.</span></span> <span data-ttu-id="bc19c-106">例如，事件物件可以附加至資料寫入器，以接收寫入作業的狀態。</span><span class="sxs-lookup"><span data-stu-id="bc19c-106">For example, an event object can be attached to the data writer to receive status of the write operation.</span></span>
+<span data-ttu-id="f59b7-105">數個介面可讓您執行事件處理常式來接收進度資訊。</span><span class="sxs-lookup"><span data-stu-id="f59b7-105">Several interfaces let you implement an event handler to receive progress information.</span></span> <span data-ttu-id="f59b7-106">例如，事件物件可以附加至資料寫入器，以接收寫入作業的狀態。</span><span class="sxs-lookup"><span data-stu-id="f59b7-106">For example, an event object can be attached to the data writer to receive status of the write operation.</span></span>
 
-<span data-ttu-id="bc19c-107">在腳本中，事件處理常式會實作為副程式。</span><span class="sxs-lookup"><span data-stu-id="bc19c-107">An event handler is implemented as a subroutine in a script.</span></span> <span data-ttu-id="bc19c-108">下列範例示範如何定義副程式，並使用 **wscript.echo. ConnectObject** 方法將事件處理常式連接到物件。</span><span class="sxs-lookup"><span data-stu-id="bc19c-108">The following example shows how to define the subroutine and use the **WScript.ConnectObject** method to connect the event handler to the object.</span></span>
+<span data-ttu-id="f59b7-107">在腳本中，事件處理常式會實作為副程式。</span><span class="sxs-lookup"><span data-stu-id="f59b7-107">An event handler is implemented as a subroutine in a script.</span></span> <span data-ttu-id="f59b7-108">下列範例示範如何定義副程式，並使用 **wscript.echo. ConnectObject** 方法將事件處理常式連接到物件。</span><span class="sxs-lookup"><span data-stu-id="f59b7-108">The following example shows how to define the subroutine and use the **WScript.ConnectObject** method to connect the event handler to the object.</span></span>
 
 
 ```VB
@@ -38,9 +38,9 @@ END SUB
 
 
 
-<span data-ttu-id="bc19c-109">針對事件處理常式名稱指定的名稱必須包含底線尾碼 ( " \_ " ) 。</span><span class="sxs-lookup"><span data-stu-id="bc19c-109">The name specified for the event handler name must contain the underscore suffix ("\_").</span></span> <span data-ttu-id="bc19c-110">若要形成副程式名稱，請將方法名稱串連至事件處理常式名稱。</span><span class="sxs-lookup"><span data-stu-id="bc19c-110">To form the subroutine name, concatenate the method name to the event handler name.</span></span> <span data-ttu-id="bc19c-111">例如，如果您使用 "dataWriterEvent \_ " 做為事件處理常式名稱，而方法名稱為 "update"，則副程式名稱會是 dataWriterEvent \_ Update。</span><span class="sxs-lookup"><span data-stu-id="bc19c-111">For example, if you use "dataWriterEvent\_" as the event handler name and the method name is "Update", the subroutine name would be dataWriterEvent\_Update.</span></span>
+<span data-ttu-id="f59b7-109">針對事件處理常式名稱指定的名稱必須包含底線尾碼 ( " \_ " ) 。</span><span class="sxs-lookup"><span data-stu-id="f59b7-109">The name specified for the event handler name must contain the underscore suffix ("\_").</span></span> <span data-ttu-id="f59b7-110">若要形成副程式名稱，請將方法名稱串連至事件處理常式名稱。</span><span class="sxs-lookup"><span data-stu-id="f59b7-110">To form the subroutine name, concatenate the method name to the event handler name.</span></span> <span data-ttu-id="f59b7-111">例如，如果您使用 "dataWriterEvent \_ " 做為事件處理常式名稱，而方法名稱為 "update"，則副程式名稱會是 dataWriterEvent \_ Update。</span><span class="sxs-lookup"><span data-stu-id="f59b7-111">For example, if you use "dataWriterEvent\_" as the event handler name and the method name is "Update", the subroutine name would be dataWriterEvent\_Update.</span></span>
 
-<span data-ttu-id="bc19c-112">下列範例顯示將事件處理常式連接到物件的替代方法。</span><span class="sxs-lookup"><span data-stu-id="bc19c-112">The following example shows an alternative approach to connecting the event handler to the object.</span></span>
+<span data-ttu-id="f59b7-112">下列範例顯示將事件處理常式連接到物件的替代方法。</span><span class="sxs-lookup"><span data-stu-id="f59b7-112">The following example shows an alternative approach to connecting the event handler to the object.</span></span>
 
 
 ```VB
@@ -57,9 +57,9 @@ END SUB
 
 
 
-<span data-ttu-id="bc19c-113">如果系統包含第二個要監視的燒錄裝置，您必須建立另一個 **MsftDiscFormat2Data** 物件和事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="bc19c-113">If a system contains a second burn device to monitor, you would need to create another **MsftDiscFormat2Data** object and event handler.</span></span>
+<span data-ttu-id="f59b7-113">如果系統包含第二個要監視的燒錄裝置，您必須建立另一個 **MsftDiscFormat2Data** 物件和事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="f59b7-113">If a system contains a second burn device to monitor, you would need to create another **MsftDiscFormat2Data** object and event handler.</span></span>
 
-<span data-ttu-id="bc19c-114">下列範例是 [以燒錄光碟影像](burning-a-disc.md) 範例為基礎。</span><span class="sxs-lookup"><span data-stu-id="bc19c-114">The following example builds on the [Burning a Disc Image](burning-a-disc.md) example.</span></span> <span data-ttu-id="bc19c-115">此範例會將 ISO 映像寫入空白光碟，並使用事件處理常式來提供進度更新。</span><span class="sxs-lookup"><span data-stu-id="bc19c-115">The example writes an ISO image to a blank disc and uses an event handler to give progress updates.</span></span>
+<span data-ttu-id="f59b7-114">下列範例是 [以燒錄光碟影像](burning-a-disc.md) 範例為基礎。</span><span class="sxs-lookup"><span data-stu-id="f59b7-114">The following example builds on the [Burning a Disc Image](burning-a-disc.md) example.</span></span> <span data-ttu-id="f59b7-115">此範例會將 ISO 映像寫入空白光碟，並使用事件處理常式來提供進度更新。</span><span class="sxs-lookup"><span data-stu-id="f59b7-115">The example writes an ISO image to a blank disc and uses an event handler to give progress updates.</span></span>
 
 
 ```VB
@@ -186,23 +186,23 @@ END SUB
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="bc19c-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="bc19c-116">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="f59b7-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="f59b7-116">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="bc19c-117">使用 IMAPI.EXE</span><span class="sxs-lookup"><span data-stu-id="bc19c-117">Using IMAPI</span></span>](using-imapi.md)
+[<span data-ttu-id="f59b7-117">使用 IMAPI.EXE</span><span class="sxs-lookup"><span data-stu-id="f59b7-117">Using IMAPI</span></span>](using-imapi.md)
 </dt> <dt>
 
-[<span data-ttu-id="bc19c-118">**IStream**</span><span class="sxs-lookup"><span data-stu-id="bc19c-118">**IStream**</span></span>](/windows/desktop/api/objidl/nn-objidl-istream)
+[<span data-ttu-id="f59b7-118">**IStream**</span><span class="sxs-lookup"><span data-stu-id="f59b7-118">**IStream**</span></span>](/windows/desktop/api/objidl/nn-objidl-istream)
 </dt> <dt>
 
-[<span data-ttu-id="bc19c-119">**IDiscMaster2**</span><span class="sxs-lookup"><span data-stu-id="bc19c-119">**IDiscMaster2**</span></span>](/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2)
+[<span data-ttu-id="f59b7-119">**IDiscMaster2**</span><span class="sxs-lookup"><span data-stu-id="f59b7-119">**IDiscMaster2**</span></span>](/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2)
 </dt> <dt>
 
-[<span data-ttu-id="bc19c-120">**IDiscFormat2Data**</span><span class="sxs-lookup"><span data-stu-id="bc19c-120">**IDiscFormat2Data**</span></span>](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data)
+[<span data-ttu-id="f59b7-120">**IDiscFormat2Data**</span><span class="sxs-lookup"><span data-stu-id="f59b7-120">**IDiscFormat2Data**</span></span>](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data)
 </dt> <dt>
 
-[<span data-ttu-id="bc19c-121">**IFileSystemImage**</span><span class="sxs-lookup"><span data-stu-id="bc19c-121">**IFileSystemImage**</span></span>](/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage)
+[<span data-ttu-id="f59b7-121">**IFileSystemImage**</span><span class="sxs-lookup"><span data-stu-id="f59b7-121">**IFileSystemImage**</span></span>](/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage)
 </dt> </dl>
 
  

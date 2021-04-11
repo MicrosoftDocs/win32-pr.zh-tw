@@ -1,0 +1,70 @@
+---
+description: 取得骨骼可充分影響的頂點數目。
+ms.assetid: 8da72346-348b-46e0-8244-abfb1dbe684f
+title: 'ID3DX10SkinInfo：： GetMaxBoneInfluences 方法 (D3DX10 .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- ID3DX10SkinInfo.GetMaxBoneInfluences
+api_type:
+- COM
+api_location:
+- D3DX10.lib
+- D3DX10.dll
+ms.openlocfilehash: 278b05ad57412908892e5b0ae062d563f1347802
+ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "104196273"
+---
+# <a name="id3dx10skininfogetmaxboneinfluences-method"></a><span data-ttu-id="db5ac-103">ID3DX10SkinInfo：： GetMaxBoneInfluences 方法</span><span class="sxs-lookup"><span data-stu-id="db5ac-103">ID3DX10SkinInfo::GetMaxBoneInfluences method</span></span>
+
+<span data-ttu-id="db5ac-104">取得骨骼可充分影響的頂點數目。</span><span class="sxs-lookup"><span data-stu-id="db5ac-104">Get the number of vertices a bone can maximally influence.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="db5ac-105">語法</span><span class="sxs-lookup"><span data-stu-id="db5ac-105">Syntax</span></span>
+
+
+```C++
+UINT GetMaxBoneInfluences();
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="db5ac-106">參數</span><span class="sxs-lookup"><span data-stu-id="db5ac-106">Parameters</span></span>
+
+<span data-ttu-id="db5ac-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="db5ac-107">This method has no parameters.</span></span>
+
+## <a name="return-value"></a><span data-ttu-id="db5ac-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="db5ac-108">Return value</span></span>
+
+<span data-ttu-id="db5ac-109">類型： **[ **UINT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="db5ac-109">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
+
+<span data-ttu-id="db5ac-110">骨骼可以充分影響的頂點數目。</span><span class="sxs-lookup"><span data-stu-id="db5ac-110">The number of vertices a bone can maximally influence.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="db5ac-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="db5ac-111">Requirements</span></span>
+
+
+
+| <span data-ttu-id="db5ac-112">需求</span><span class="sxs-lookup"><span data-stu-id="db5ac-112">Requirement</span></span> | <span data-ttu-id="db5ac-113">值</span><span class="sxs-lookup"><span data-stu-id="db5ac-113">Value</span></span> |
+|--------------------|---------------------------------------------------------------------------------------|
+| <span data-ttu-id="db5ac-114">標頭</span><span class="sxs-lookup"><span data-stu-id="db5ac-114">Header</span></span><br/>  | <dl> <span data-ttu-id="db5ac-115"><dt>D3DX10。h</dt></span><span class="sxs-lookup"><span data-stu-id="db5ac-115"><dt>D3DX10.h</dt></span></span> </dl>   |
+| <span data-ttu-id="db5ac-116">程式庫</span><span class="sxs-lookup"><span data-stu-id="db5ac-116">Library</span></span><br/> | <dl> <span data-ttu-id="db5ac-117"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="db5ac-117"><dt>D3DX10.lib</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="db5ac-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="db5ac-118">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="db5ac-119">ID3DX10SkinInfo</span><span class="sxs-lookup"><span data-stu-id="db5ac-119">ID3DX10SkinInfo</span></span>](id3dx10skininfo.md)
+</dt> <dt>
+
+[<span data-ttu-id="db5ac-120">D3DX 介面</span><span class="sxs-lookup"><span data-stu-id="db5ac-120">D3DX Interfaces</span></span>](d3d10-graphics-reference-d3dx10-interfaces.md)
+</dt> </dl>
+
+ 
+
+ 

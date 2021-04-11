@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848909"
 ---
-# <a name="certificates-methods"></a><span data-ttu-id="0742f-103">憑證方法</span><span class="sxs-lookup"><span data-stu-id="0742f-103">Certificates Methods</span></span>
+# <a name="certificates-methods"></a><span data-ttu-id="2e10a-103">憑證方法</span><span class="sxs-lookup"><span data-stu-id="2e10a-103">Certificates Methods</span></span>
 
-<span data-ttu-id="0742f-104">[**憑證**](certificates.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="0742f-104">The [**Certificates**](certificates.md) object exposes the following methods.</span></span>
+<span data-ttu-id="2e10a-104">[**憑證**](certificates.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="2e10a-104">The [**Certificates**](certificates.md) object exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="0742f-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0742f-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2e10a-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="2e10a-105">In this section</span></span>
 
--   [<span data-ttu-id="0742f-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="0742f-106">**Add Method**</span></span>](certificates-add.md)
--   [<span data-ttu-id="0742f-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="0742f-107">**Clear Method**</span></span>](certificates-clear.md)
--   [<span data-ttu-id="0742f-108">**Find 方法**</span><span class="sxs-lookup"><span data-stu-id="0742f-108">**Find Method**</span></span>](certificates-find.md)
--   [<span data-ttu-id="0742f-109">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="0742f-109">**Remove Method**</span></span>](certificates-remove.md)
--   [<span data-ttu-id="0742f-110">**Save 方法**</span><span class="sxs-lookup"><span data-stu-id="0742f-110">**Save Method**</span></span>](certificates-save.md)
--   [<span data-ttu-id="0742f-111">**Select 方法**</span><span class="sxs-lookup"><span data-stu-id="0742f-111">**Select Method**</span></span>](certificates-select.md)
+-   [<span data-ttu-id="2e10a-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="2e10a-106">**Add Method**</span></span>](certificates-add.md)
+-   [<span data-ttu-id="2e10a-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="2e10a-107">**Clear Method**</span></span>](certificates-clear.md)
+-   [<span data-ttu-id="2e10a-108">**Find 方法**</span><span class="sxs-lookup"><span data-stu-id="2e10a-108">**Find Method**</span></span>](certificates-find.md)
+-   [<span data-ttu-id="2e10a-109">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="2e10a-109">**Remove Method**</span></span>](certificates-remove.md)
+-   [<span data-ttu-id="2e10a-110">**Save 方法**</span><span class="sxs-lookup"><span data-stu-id="2e10a-110">**Save Method**</span></span>](certificates-save.md)
+-   [<span data-ttu-id="2e10a-111">**Select 方法**</span><span class="sxs-lookup"><span data-stu-id="2e10a-111">**Select Method**</span></span>](certificates-select.md)
 
  
 

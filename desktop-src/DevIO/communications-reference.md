@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847292"
 ---
-# <a name="communications-reference"></a><span data-ttu-id="579ed-103">通訊參考</span><span class="sxs-lookup"><span data-stu-id="579ed-103">Communications Reference</span></span>
+# <a name="communications-reference"></a><span data-ttu-id="14546-103">通訊參考</span><span class="sxs-lookup"><span data-stu-id="14546-103">Communications Reference</span></span>
 
-<span data-ttu-id="579ed-104">下列專案會搭配通訊資源使用。</span><span class="sxs-lookup"><span data-stu-id="579ed-104">The following elements are used with communications resources.</span></span>
+<span data-ttu-id="14546-104">下列專案會搭配通訊資源使用。</span><span class="sxs-lookup"><span data-stu-id="14546-104">The following elements are used with communications resources.</span></span>
 
--   [<span data-ttu-id="579ed-105">通訊功能</span><span class="sxs-lookup"><span data-stu-id="579ed-105">Communications Functions</span></span>](communications-functions.md)
--   [<span data-ttu-id="579ed-106">通訊控制代碼</span><span class="sxs-lookup"><span data-stu-id="579ed-106">Communications Control Codes</span></span>](communications-control-codes.md)
--   [<span data-ttu-id="579ed-107">通訊結構</span><span class="sxs-lookup"><span data-stu-id="579ed-107">Communications Structures</span></span>](communications-structures.md)
+-   [<span data-ttu-id="14546-105">通訊功能</span><span class="sxs-lookup"><span data-stu-id="14546-105">Communications Functions</span></span>](communications-functions.md)
+-   [<span data-ttu-id="14546-106">通訊控制代碼</span><span class="sxs-lookup"><span data-stu-id="14546-106">Communications Control Codes</span></span>](communications-control-codes.md)
+-   [<span data-ttu-id="14546-107">通訊結構</span><span class="sxs-lookup"><span data-stu-id="14546-107">Communications Structures</span></span>](communications-structures.md)
 
  
 

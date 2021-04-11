@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849302"
 ---
-# <a name="pnrp-reference"></a><span data-ttu-id="0dc7c-103">PNRP 參考</span><span class="sxs-lookup"><span data-stu-id="0dc7c-103">PNRP Reference</span></span>
+# <a name="pnrp-reference"></a><span data-ttu-id="51b3e-103">PNRP 參考</span><span class="sxs-lookup"><span data-stu-id="51b3e-103">PNRP Reference</span></span>
 
-<span data-ttu-id="0dc7c-104">下列檔說明使用 PNRP 命名空間提供者 API 時所要使用的函數和結構：</span><span class="sxs-lookup"><span data-stu-id="0dc7c-104">The following documentation describes the functions and structures to use when working with the PNRP Namespace Provider API:</span></span>
+<span data-ttu-id="51b3e-104">下列檔說明使用 PNRP 命名空間提供者 API 時所要使用的函數和結構：</span><span class="sxs-lookup"><span data-stu-id="51b3e-104">The following documentation describes the functions and structures to use when working with the PNRP Namespace Provider API:</span></span>
 
--   [<span data-ttu-id="0dc7c-105">PNRP 函數</span><span class="sxs-lookup"><span data-stu-id="0dc7c-105">PNRP Functions</span></span>](pnrp-functions.md)
--   [<span data-ttu-id="0dc7c-106">PNRP 結構</span><span class="sxs-lookup"><span data-stu-id="0dc7c-106">PNRP Structures</span></span>](pnrp-structures.md)
--   [<span data-ttu-id="0dc7c-107">PNRP 常數</span><span class="sxs-lookup"><span data-stu-id="0dc7c-107">PNRP Constants</span></span>](pnrp-constants.md)
--   [<span data-ttu-id="0dc7c-108">Winsock NSP 參考連結</span><span class="sxs-lookup"><span data-stu-id="0dc7c-108">Winsock NSP Reference Links</span></span>](winsock-nsp-reference-links.md)
+-   [<span data-ttu-id="51b3e-105">PNRP 函數</span><span class="sxs-lookup"><span data-stu-id="51b3e-105">PNRP Functions</span></span>](pnrp-functions.md)
+-   [<span data-ttu-id="51b3e-106">PNRP 結構</span><span class="sxs-lookup"><span data-stu-id="51b3e-106">PNRP Structures</span></span>](pnrp-structures.md)
+-   [<span data-ttu-id="51b3e-107">PNRP 常數</span><span class="sxs-lookup"><span data-stu-id="51b3e-107">PNRP Constants</span></span>](pnrp-constants.md)
+-   [<span data-ttu-id="51b3e-108">Winsock NSP 參考連結</span><span class="sxs-lookup"><span data-stu-id="51b3e-108">Winsock NSP Reference Links</span></span>](winsock-nsp-reference-links.md)
 
  
 

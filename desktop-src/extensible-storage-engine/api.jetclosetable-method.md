@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943307"
 ---
-# <a name="apijetclosetable-method"></a><span data-ttu-id="69bd9-103">JetCloseTable 方法</span><span class="sxs-lookup"><span data-stu-id="69bd9-103">Api.JetCloseTable method</span></span>
+# <a name="apijetclosetable-method"></a><span data-ttu-id="052a3-103">JetCloseTable 方法</span><span class="sxs-lookup"><span data-stu-id="052a3-103">Api.JetCloseTable method</span></span>
 
-<span data-ttu-id="69bd9-104">關閉開啟的資料表。</span><span class="sxs-lookup"><span data-stu-id="69bd9-104">Close an open table.</span></span>
+<span data-ttu-id="052a3-104">關閉開啟的資料表。</span><span class="sxs-lookup"><span data-stu-id="052a3-104">Close an open table.</span></span>
 
-<span data-ttu-id="69bd9-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="69bd9-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="69bd9-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="69bd9-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="052a3-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="052a3-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="052a3-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="052a3-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="69bd9-107">語法</span><span class="sxs-lookup"><span data-stu-id="69bd9-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="052a3-107">語法</span><span class="sxs-lookup"><span data-stu-id="052a3-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,26 +58,26 @@ public static void JetCloseTable(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="69bd9-108">參數</span><span class="sxs-lookup"><span data-stu-id="69bd9-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="052a3-108">參數</span><span class="sxs-lookup"><span data-stu-id="052a3-108">Parameters</span></span>
 
-  - <span data-ttu-id="69bd9-109">sesid</span><span class="sxs-lookup"><span data-stu-id="69bd9-109">sesid</span></span>  
-    <span data-ttu-id="69bd9-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="69bd9-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="052a3-109">sesid</span><span class="sxs-lookup"><span data-stu-id="052a3-109">sesid</span></span>  
+    <span data-ttu-id="052a3-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="052a3-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="69bd9-111">開啟資料表的會話。</span><span class="sxs-lookup"><span data-stu-id="69bd9-111">The session which opened the table.</span></span>
+    <span data-ttu-id="052a3-111">開啟資料表的會話。</span><span class="sxs-lookup"><span data-stu-id="052a3-111">The session which opened the table.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="69bd9-112">tableid</span><span class="sxs-lookup"><span data-stu-id="69bd9-112">tableid</span></span>  
-    <span data-ttu-id="69bd9-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="69bd9-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="052a3-112">tableid</span><span class="sxs-lookup"><span data-stu-id="052a3-112">tableid</span></span>  
+    <span data-ttu-id="052a3-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="052a3-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="69bd9-114">要關閉的資料表。</span><span class="sxs-lookup"><span data-stu-id="69bd9-114">The table to close.</span></span>
+    <span data-ttu-id="052a3-114">要關閉的資料表。</span><span class="sxs-lookup"><span data-stu-id="052a3-114">The table to close.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="69bd9-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="69bd9-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="052a3-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="052a3-115">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="69bd9-116">參考</span><span class="sxs-lookup"><span data-stu-id="69bd9-116">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="052a3-116">參考</span><span class="sxs-lookup"><span data-stu-id="052a3-116">Reference</span></span>
 
-[<span data-ttu-id="69bd9-117">Api 類別</span><span class="sxs-lookup"><span data-stu-id="69bd9-117">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="052a3-117">Api 類別</span><span class="sxs-lookup"><span data-stu-id="052a3-117">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="69bd9-118">Api 成員</span><span class="sxs-lookup"><span data-stu-id="69bd9-118">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="052a3-118">Api 成員</span><span class="sxs-lookup"><span data-stu-id="052a3-118">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="69bd9-119">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="69bd9-119">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="052a3-119">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="052a3-119">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

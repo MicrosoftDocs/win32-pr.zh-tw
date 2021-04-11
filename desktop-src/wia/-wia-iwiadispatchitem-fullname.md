@@ -20,13 +20,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849354"
 ---
-# <a name="itemfullname-property"></a><span data-ttu-id="aae18-104">專案 FullName 屬性</span><span class="sxs-lookup"><span data-stu-id="aae18-104">Item.FullName property</span></span>
+# <a name="itemfullname-property"></a><span data-ttu-id="2a711-104">專案 FullName 屬性</span><span class="sxs-lookup"><span data-stu-id="2a711-104">Item.FullName property</span></span>
 
-<span data-ttu-id="aae18-105">抓取專案顯示在 UI 中的完整名稱。</span><span class="sxs-lookup"><span data-stu-id="aae18-105">Retrieves the full name of the item as it appears in the UI.</span></span> <span data-ttu-id="aae18-106">唯讀。</span><span class="sxs-lookup"><span data-stu-id="aae18-106">Read-only.</span></span>
+<span data-ttu-id="2a711-105">抓取專案顯示在 UI 中的完整名稱。</span><span class="sxs-lookup"><span data-stu-id="2a711-105">Retrieves the full name of the item as it appears in the UI.</span></span> <span data-ttu-id="2a711-106">唯讀。</span><span class="sxs-lookup"><span data-stu-id="2a711-106">Read-only.</span></span>
 
-<span data-ttu-id="aae18-107">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="aae18-107">This property is read-only.</span></span>
+<span data-ttu-id="2a711-107">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="2a711-107">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="aae18-108">語法</span><span class="sxs-lookup"><span data-stu-id="aae18-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2a711-108">語法</span><span class="sxs-lookup"><span data-stu-id="2a711-108">Syntax</span></span>
 
 
 ```JScript
@@ -35,19 +35,19 @@ propVal = Item.FullName
 
 
 
-## <a name="property-value"></a><span data-ttu-id="aae18-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="aae18-109">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="2a711-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="2a711-109">Property value</span></span>
 
-<span data-ttu-id="aae18-110">接收名稱的字串。</span><span class="sxs-lookup"><span data-stu-id="aae18-110">String that receives the name.</span></span>
+<span data-ttu-id="2a711-110">接收名稱的字串。</span><span class="sxs-lookup"><span data-stu-id="2a711-110">String that receives the name.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="aae18-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="aae18-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2a711-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="2a711-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="aae18-112">需求</span><span class="sxs-lookup"><span data-stu-id="aae18-112">Requirement</span></span> | <span data-ttu-id="aae18-113">值</span><span class="sxs-lookup"><span data-stu-id="aae18-113">Value</span></span> |
+| <span data-ttu-id="2a711-112">需求</span><span class="sxs-lookup"><span data-stu-id="2a711-112">Requirement</span></span> | <span data-ttu-id="2a711-113">值</span><span class="sxs-lookup"><span data-stu-id="2a711-113">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="aae18-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="aae18-114">Minimum supported client</span></span><br/> | <span data-ttu-id="aae18-115">僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="aae18-115">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="aae18-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="aae18-116">Minimum supported server</span></span><br/> | <span data-ttu-id="aae18-117">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="aae18-117">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
-| <span data-ttu-id="aae18-118">DLL</span><span class="sxs-lookup"><span data-stu-id="aae18-118">DLL</span></span><br/>                      | <dl> <span data-ttu-id="aae18-119"><dt>Wiascr.dll (4.90 版或更新版本) </dt></span><span class="sxs-lookup"><span data-stu-id="aae18-119"><dt>Wiascr.dll (version 4.90 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="2a711-114">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2a711-114">Minimum supported client</span></span><br/> | <span data-ttu-id="2a711-115">僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2a711-115">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="2a711-116">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2a711-116">Minimum supported server</span></span><br/> | <span data-ttu-id="2a711-117">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2a711-117">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
+| <span data-ttu-id="2a711-118">DLL</span><span class="sxs-lookup"><span data-stu-id="2a711-118">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2a711-119"><dt>Wiascr.dll (4.90 版或更新版本) </dt></span><span class="sxs-lookup"><span data-stu-id="2a711-119"><dt>Wiascr.dll (version 4.90 or later)</dt></span></span> </dl> |
 
 
 

@@ -18,11 +18,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103691711"
 ---
-# <a name="xmcolor-operator--operators"></a><span data-ttu-id="621e4-103">XMCOLOR 運算子 = 運算子</span><span class="sxs-lookup"><span data-stu-id="621e4-103">XMCOLOR operator = operators</span></span>
+# <a name="xmcolor-operator--operators"></a><span data-ttu-id="e1a1d-103">XMCOLOR 運算子 = 運算子</span><span class="sxs-lookup"><span data-stu-id="e1a1d-103">XMCOLOR operator = operators</span></span>
 
-<span data-ttu-id="621e4-104">將向量元件資料指派給目前的 [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor)實例。</span><span class="sxs-lookup"><span data-stu-id="621e4-104">Assigns vector component data to the current instance of [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor).</span></span>
+<span data-ttu-id="e1a1d-104">將向量元件資料指派給目前的 [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor)實例。</span><span class="sxs-lookup"><span data-stu-id="e1a1d-104">Assigns vector component data to the current instance of [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor).</span></span>
 
-### <a name="overload-list"></a><span data-ttu-id="621e4-105">多載清單</span><span class="sxs-lookup"><span data-stu-id="621e4-105">Overload list</span></span>
+### <a name="overload-list"></a><span data-ttu-id="e1a1d-105">多載清單</span><span class="sxs-lookup"><span data-stu-id="e1a1d-105">Overload list</span></span>
 
 
 
@@ -33,26 +33,26 @@ ms.locfileid: "103691711"
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;"><span data-ttu-id="621e4-106">運算子</span><span class="sxs-lookup"><span data-stu-id="621e4-106">Operator</span></span></th>
-<th style="text-align: left;"><span data-ttu-id="621e4-107">描述</span><span class="sxs-lookup"><span data-stu-id="621e4-107">Description</span></span></th>
+<th style="text-align: left;"><span data-ttu-id="e1a1d-106">運算子</span><span class="sxs-lookup"><span data-stu-id="e1a1d-106">Operator</span></span></th>
+<th style="text-align: left;"><span data-ttu-id="e1a1d-107">描述</span><span class="sxs-lookup"><span data-stu-id="e1a1d-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span data-ttu-id="621e4-108"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-operator-assign(constuint32_t)">XMCOLOR：： operator = (const XMCOLOR&) </a></span><span class="sxs-lookup"><span data-stu-id="621e4-108"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-operator-assign(constuint32_t)">XMCOLOR::operator = (const XMCOLOR&)</a></span></span></td>
-<td style="text-align: left;"><span data-ttu-id="621e4-109">這個運算子會將一個 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a> 實例的向量元件資料指派給目前的 <strong>XMCOLOR</strong>實例。</span><span class="sxs-lookup"><span data-stu-id="621e4-109">This operator assigns the vector component data from one instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a> to the current instance of <strong>XMCOLOR</strong>.</span></span><br/>
+<td style="text-align: left;"><span data-ttu-id="e1a1d-108"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-operator-assign(constuint32_t)">XMCOLOR：： operator = (const XMCOLOR&) </a></span><span class="sxs-lookup"><span data-stu-id="e1a1d-108"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-operator-assign(constuint32_t)">XMCOLOR::operator = (const XMCOLOR&)</a></span></span></td>
+<td style="text-align: left;"><span data-ttu-id="e1a1d-109">這個運算子會將一個 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a> 實例的向量元件資料指派給目前的 <strong>XMCOLOR</strong>實例。</span><span class="sxs-lookup"><span data-stu-id="e1a1d-109">This operator assigns the vector component data from one instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a> to the current instance of <strong>XMCOLOR</strong>.</span></span><br/>
 <blockquote>
 [!Note]<br />
-<span data-ttu-id="621e4-110">此運算子僅適用于 c + +。</span><span class="sxs-lookup"><span data-stu-id="621e4-110">This operator is only available under C++.</span></span>
+<span data-ttu-id="e1a1d-110">此運算子僅適用于 c + +。</span><span class="sxs-lookup"><span data-stu-id="e1a1d-110">This operator is only available under C++.</span></span>
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span data-ttu-id="621e4-111"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-operator-assign(constuint32_t)">XMCOLOR：： operator = (const uint32_t) </a></span><span class="sxs-lookup"><span data-stu-id="621e4-111"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-operator-assign(constuint32_t)">XMCOLOR::operator = (const uint32_t)</a></span></span></td>
-<td style="text-align: left;"><span data-ttu-id="621e4-112">這個運算子會將實例中封裝的向量元件資料指派 <code>uint32_t</code> 給目前的 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a>實例。</span><span class="sxs-lookup"><span data-stu-id="621e4-112">This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a>.</span></span><br/>
+<td style="text-align: left;"><span data-ttu-id="e1a1d-111"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-operator-assign(constuint32_t)">XMCOLOR：： operator = (const uint32_t) </a></span><span class="sxs-lookup"><span data-stu-id="e1a1d-111"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-operator-assign(constuint32_t)">XMCOLOR::operator = (const uint32_t)</a></span></span></td>
+<td style="text-align: left;"><span data-ttu-id="e1a1d-112">這個運算子會將實例中封裝的向量元件資料指派 <code>uint32_t</code> 給目前的 <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a>實例。</span><span class="sxs-lookup"><span data-stu-id="e1a1d-112">This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a>.</span></span><br/>
 <blockquote>
 [!Note]<br />
-<span data-ttu-id="621e4-113">此運算子僅適用于 c + +。</span><span class="sxs-lookup"><span data-stu-id="621e4-113">This operator is only available under C++.</span></span>
+<span data-ttu-id="e1a1d-113">此運算子僅適用于 c + +。</span><span class="sxs-lookup"><span data-stu-id="e1a1d-113">This operator is only available under C++.</span></span>
 </blockquote>
 <br/></td>
 </tr>
@@ -61,17 +61,17 @@ ms.locfileid: "103691711"
 
 
 
-## <a name="see-also"></a><span data-ttu-id="621e4-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="621e4-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1a1d-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e1a1d-114">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="621e4-115">XMCOLOR 運算子</span><span class="sxs-lookup"><span data-stu-id="621e4-115">XMCOLOR Operators</span></span>](ovw-xmcolor-operators.md)
+[<span data-ttu-id="e1a1d-115">XMCOLOR 運算子</span><span class="sxs-lookup"><span data-stu-id="e1a1d-115">XMCOLOR Operators</span></span>](ovw-xmcolor-operators.md)
 </dt> <dt>
 
-<span data-ttu-id="621e4-116">**參考**</span><span class="sxs-lookup"><span data-stu-id="621e4-116">**Reference**</span></span>
+<span data-ttu-id="e1a1d-116">**參考**</span><span class="sxs-lookup"><span data-stu-id="e1a1d-116">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="621e4-117">**XMCOLOR**</span><span class="sxs-lookup"><span data-stu-id="621e4-117">**XMCOLOR**</span></span>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor)
+[<span data-ttu-id="e1a1d-117">**XMCOLOR**</span><span class="sxs-lookup"><span data-stu-id="e1a1d-117">**XMCOLOR**</span></span>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor)
 </dt> </dl>
 
  

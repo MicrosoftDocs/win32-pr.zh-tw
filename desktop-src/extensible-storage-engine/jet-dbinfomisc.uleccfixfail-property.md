@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104112112"
 ---
-# <a name="jet_dbinfomisculeccfixfail-property"></a><span data-ttu-id="19c81-103">JET_DBINFOMISC ulECCFixFail 屬性</span><span class="sxs-lookup"><span data-stu-id="19c81-103">JET_DBINFOMISC.ulECCFixFail property</span></span>
+# <a name="jet_dbinfomisculeccfixfail-property"></a><span data-ttu-id="3ca4f-103">JET_DBINFOMISC ulECCFixFail 屬性</span><span class="sxs-lookup"><span data-stu-id="3ca4f-103">JET_DBINFOMISC.ulECCFixFail property</span></span>
 
-<span data-ttu-id="19c81-104">取得遇到無法修正的一個位錯誤的次數。</span><span class="sxs-lookup"><span data-stu-id="19c81-104">Gets the number of times an uncorrectable one bit error was encountered.</span></span>
+<span data-ttu-id="3ca4f-104">取得遇到無法修正的一個位錯誤的次數。</span><span class="sxs-lookup"><span data-stu-id="3ca4f-104">Gets the number of times an uncorrectable one bit error was encountered.</span></span>
 
-<span data-ttu-id="19c81-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="19c81-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="19c81-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="19c81-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="3ca4f-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="3ca4f-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="3ca4f-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="3ca4f-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="19c81-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="19c81-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3ca4f-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="3ca4f-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,16 +58,16 @@ value = instance.ulECCFixFail
 public int ulECCFixFail { get; internal set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="19c81-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="19c81-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="3ca4f-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="3ca4f-108">Property value</span></span>
 
-<span data-ttu-id="19c81-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="19c81-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="3ca4f-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="3ca4f-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="19c81-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="19c81-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3ca4f-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3ca4f-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="19c81-111">參考</span><span class="sxs-lookup"><span data-stu-id="19c81-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="3ca4f-111">參考</span><span class="sxs-lookup"><span data-stu-id="3ca4f-111">Reference</span></span>
 
-[<span data-ttu-id="19c81-112">JET_DBINFOMISC 類別</span><span class="sxs-lookup"><span data-stu-id="19c81-112">JET_DBINFOMISC class</span></span>](./jet-dbinfomisc-class.md)
+[<span data-ttu-id="3ca4f-112">JET_DBINFOMISC 類別</span><span class="sxs-lookup"><span data-stu-id="3ca4f-112">JET_DBINFOMISC class</span></span>](./jet-dbinfomisc-class.md)
 
-[<span data-ttu-id="19c81-113">JET_DBINFOMISC 成員</span><span class="sxs-lookup"><span data-stu-id="19c81-113">JET_DBINFOMISC members</span></span>](./jet-dbinfomisc-members.md)
+[<span data-ttu-id="3ca4f-113">JET_DBINFOMISC 成員</span><span class="sxs-lookup"><span data-stu-id="3ca4f-113">JET_DBINFOMISC members</span></span>](./jet-dbinfomisc-members.md)
 
-[<span data-ttu-id="19c81-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="19c81-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="3ca4f-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="3ca4f-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

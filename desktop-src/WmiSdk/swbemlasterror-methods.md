@@ -12,15 +12,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692196"
 ---
-# <a name="swbemlasterror-methods"></a><span data-ttu-id="e033b-103">SWbemLastError 方法</span><span class="sxs-lookup"><span data-stu-id="e033b-103">SWbemLastError Methods</span></span>
+# <a name="swbemlasterror-methods"></a><span data-ttu-id="d0586-103">SWbemLastError 方法</span><span class="sxs-lookup"><span data-stu-id="d0586-103">SWbemLastError Methods</span></span>
 
-<span data-ttu-id="e033b-104">[**SWbemLastError**](swbemlasterror.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="e033b-104">The [**SWbemLastError**](swbemlasterror.md) object exposes the following methods.</span></span>
+<span data-ttu-id="d0586-104">[**SWbemLastError**](swbemlasterror.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="d0586-104">The [**SWbemLastError**](swbemlasterror.md) object exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="e033b-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="e033b-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d0586-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d0586-105">In this section</span></span>
 
--   [<span data-ttu-id="e033b-106">**Clone \_ 方法**</span><span class="sxs-lookup"><span data-stu-id="e033b-106">**Clone\_ method**</span></span>](swbemlasterror-clone-.md)
--   [<span data-ttu-id="e033b-107">**CompareTo \_ 方法**</span><span class="sxs-lookup"><span data-stu-id="e033b-107">**CompareTo\_ method**</span></span>](swbemlasterror-compareto-.md)
--   [<span data-ttu-id="e033b-108">**GetObjectText \_ 方法**</span><span class="sxs-lookup"><span data-stu-id="e033b-108">**GetObjectText\_ method**</span></span>](swbemlasterror-getobjecttext-.md)
+-   [<span data-ttu-id="d0586-106">**Clone \_ 方法**</span><span class="sxs-lookup"><span data-stu-id="d0586-106">**Clone\_ method**</span></span>](swbemlasterror-clone-.md)
+-   [<span data-ttu-id="d0586-107">**CompareTo \_ 方法**</span><span class="sxs-lookup"><span data-stu-id="d0586-107">**CompareTo\_ method**</span></span>](swbemlasterror-compareto-.md)
+-   [<span data-ttu-id="d0586-108">**GetObjectText \_ 方法**</span><span class="sxs-lookup"><span data-stu-id="d0586-108">**GetObjectText\_ method**</span></span>](swbemlasterror-getobjecttext-.md)
 
  
 

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849574"
 ---
-# <a name="tspi_linedropnoowner"></a><span data-ttu-id="68e1f-104">TSPI \_ lineDropNoOwner</span><span class="sxs-lookup"><span data-stu-id="68e1f-104">TSPI\_lineDropNoOwner</span></span>
+# <a name="tspi_linedropnoowner"></a><span data-ttu-id="e7e90-104">TSPI \_ lineDropNoOwner</span><span class="sxs-lookup"><span data-stu-id="e7e90-104">TSPI\_lineDropNoOwner</span></span>
 
-<span data-ttu-id="68e1f-105">**TSPI \_ lineDropNoOwner** 函數已淘汰。</span><span class="sxs-lookup"><span data-stu-id="68e1f-105">The **TSPI\_lineDropNoOwner** function is obsolete.</span></span> <span data-ttu-id="68e1f-106">如果無法識別初始擁有者，則 TAPI 不會再自動卸載呼叫，以便在用戶端/伺服器環境中容納跨多個用戶端電腦之呼叫的分散式控制。</span><span class="sxs-lookup"><span data-stu-id="68e1f-106">TAPI no longer automatically drops a call if no initial owner can be identified, in order to accommodate the distributed control of calls across multiple client machines in a client/server environment.</span></span>
+<span data-ttu-id="e7e90-105">**TSPI \_ lineDropNoOwner** 函數已淘汰。</span><span class="sxs-lookup"><span data-stu-id="e7e90-105">The **TSPI\_lineDropNoOwner** function is obsolete.</span></span> <span data-ttu-id="e7e90-106">如果無法識別初始擁有者，則 TAPI 不會再自動卸載呼叫，以便在用戶端/伺服器環境中容納跨多個用戶端電腦之呼叫的分散式控制。</span><span class="sxs-lookup"><span data-stu-id="e7e90-106">TAPI no longer automatically drops a call if no initial owner can be identified, in order to accommodate the distributed control of calls across multiple client machines in a client/server environment.</span></span>
 
  
 

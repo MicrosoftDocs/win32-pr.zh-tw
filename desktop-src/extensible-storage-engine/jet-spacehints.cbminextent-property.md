@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847703"
 ---
-# <a name="jet_spacehintscbminextent-property"></a><span data-ttu-id="d68f2-103">JET_SPACEHINTS cbMinExtent 屬性</span><span class="sxs-lookup"><span data-stu-id="d68f2-103">JET_SPACEHINTS.cbMinExtent property</span></span>
+# <a name="jet_spacehintscbminextent-property"></a><span data-ttu-id="80ed2-103">JET_SPACEHINTS cbMinExtent 屬性</span><span class="sxs-lookup"><span data-stu-id="80ed2-103">JET_SPACEHINTS.cbMinExtent property</span></span>
 
-<span data-ttu-id="d68f2-104">取得或設定覆寫 ulGrowth （如果太小）的值。</span><span class="sxs-lookup"><span data-stu-id="d68f2-104">Gets or sets the value that overrides ulGrowth if too small.</span></span> <span data-ttu-id="d68f2-105">這個值是以位元組為單位。</span><span class="sxs-lookup"><span data-stu-id="d68f2-105">This value is in bytes.</span></span>
+<span data-ttu-id="80ed2-104">取得或設定覆寫 ulGrowth （如果太小）的值。</span><span class="sxs-lookup"><span data-stu-id="80ed2-104">Gets or sets the value that overrides ulGrowth if too small.</span></span> <span data-ttu-id="80ed2-105">這個值是以位元組為單位。</span><span class="sxs-lookup"><span data-stu-id="80ed2-105">This value is in bytes.</span></span>
 
-<span data-ttu-id="d68f2-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="d68f2-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="d68f2-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="d68f2-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="80ed2-106">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="80ed2-106">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="80ed2-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="80ed2-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d68f2-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="d68f2-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="80ed2-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="80ed2-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.cbMinExtent = value
 public int cbMinExtent { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="d68f2-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="d68f2-109">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="80ed2-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="80ed2-109">Property value</span></span>
 
-<span data-ttu-id="d68f2-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="d68f2-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="80ed2-110">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="80ed2-110">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="d68f2-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d68f2-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="80ed2-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="80ed2-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="d68f2-112">參考</span><span class="sxs-lookup"><span data-stu-id="d68f2-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="80ed2-112">參考</span><span class="sxs-lookup"><span data-stu-id="80ed2-112">Reference</span></span>
 
-[<span data-ttu-id="d68f2-113">JET_SPACEHINTS 類別</span><span class="sxs-lookup"><span data-stu-id="d68f2-113">JET_SPACEHINTS class</span></span>](./jet-spacehints-class.md)
+[<span data-ttu-id="80ed2-113">JET_SPACEHINTS 類別</span><span class="sxs-lookup"><span data-stu-id="80ed2-113">JET_SPACEHINTS class</span></span>](./jet-spacehints-class.md)
 
-[<span data-ttu-id="d68f2-114">JET_SPACEHINTS 成員</span><span class="sxs-lookup"><span data-stu-id="d68f2-114">JET_SPACEHINTS members</span></span>](./jet-spacehints-members.md)
+[<span data-ttu-id="80ed2-114">JET_SPACEHINTS 成員</span><span class="sxs-lookup"><span data-stu-id="80ed2-114">JET_SPACEHINTS members</span></span>](./jet-spacehints-members.md)
 
-[<span data-ttu-id="d68f2-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="d68f2-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="80ed2-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="80ed2-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

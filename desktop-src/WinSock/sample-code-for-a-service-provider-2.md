@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692219"
 ---
-# <a name="sample-code-for-a-service-provider"></a><span data-ttu-id="473e5-103">服務提供者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="473e5-103">Sample Code for a Service Provider</span></span>
+# <a name="sample-code-for-a-service-provider"></a><span data-ttu-id="a9ecf-103">服務提供者的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="a9ecf-103">Sample Code for a Service Provider</span></span>
 
-<span data-ttu-id="473e5-104">本節包含的原始程式碼範例將示範如何使用新的、與通訊協定無關的 RNR 函式來執行 **GetXbyY** 函數。</span><span class="sxs-lookup"><span data-stu-id="473e5-104">This section contains a source code sample that demonstrates how to implement the **GetXbyY** functions using the new, protocol-independent RNR functions.</span></span> <span data-ttu-id="473e5-105">開發人員應該將這些功能實作為起點。</span><span class="sxs-lookup"><span data-stu-id="473e5-105">A developer should implement these functions as a starting point.</span></span> <span data-ttu-id="473e5-106">為了符合 Windows 通訊端規格，需要更多的功能。</span><span class="sxs-lookup"><span data-stu-id="473e5-106">To comply with the Windows Sockets specification, many more functions are needed.</span></span>
+<span data-ttu-id="a9ecf-104">本節包含的原始程式碼範例將示範如何使用新的、與通訊協定無關的 RNR 函式來執行 **GetXbyY** 函數。</span><span class="sxs-lookup"><span data-stu-id="a9ecf-104">This section contains a source code sample that demonstrates how to implement the **GetXbyY** functions using the new, protocol-independent RNR functions.</span></span> <span data-ttu-id="a9ecf-105">開發人員應該將這些功能實作為起點。</span><span class="sxs-lookup"><span data-stu-id="a9ecf-105">A developer should implement these functions as a starting point.</span></span> <span data-ttu-id="a9ecf-106">為了符合 Windows 通訊端規格，需要更多的功能。</span><span class="sxs-lookup"><span data-stu-id="a9ecf-106">To comply with the Windows Sockets specification, many more functions are needed.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="473e5-107">不保證會編譯下列程式碼。</span><span class="sxs-lookup"><span data-stu-id="473e5-107">The following code is not guaranteed to compile.</span></span>
+> <span data-ttu-id="a9ecf-107">不保證會編譯下列程式碼。</span><span class="sxs-lookup"><span data-stu-id="a9ecf-107">The following code is not guaranteed to compile.</span></span>
 
  
 

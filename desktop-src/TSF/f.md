@@ -12,7 +12,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103685426"
 ---
-# <a name="f-text-services-framework"></a><span data-ttu-id="0dbd9-103">F (文字服務架構) </span><span class="sxs-lookup"><span data-stu-id="0dbd9-103">F (Text Services Framework)</span></span>
+# <a name="f-text-services-framework"></a><span data-ttu-id="ab973-103">F (文字服務架構) </span><span class="sxs-lookup"><span data-stu-id="ab973-103">F (Text Services Framework)</span></span>
 
 <dl> <dt>
 

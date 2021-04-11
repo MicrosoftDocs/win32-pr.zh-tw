@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848135"
 ---
-# <a name="idownloadcompletedcallback-methods"></a><span data-ttu-id="b65f9-103">IDownloadCompletedCallback 方法</span><span class="sxs-lookup"><span data-stu-id="b65f9-103">IDownloadCompletedCallback Methods</span></span>
+# <a name="idownloadcompletedcallback-methods"></a><span data-ttu-id="420ac-103">IDownloadCompletedCallback 方法</span><span class="sxs-lookup"><span data-stu-id="420ac-103">IDownloadCompletedCallback Methods</span></span>
 
-<span data-ttu-id="b65f9-104">[**IDownloadCompletedCallback**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadcompletedcallback)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="b65f9-104">The [**IDownloadCompletedCallback**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadcompletedcallback) interface defines the following method.</span></span>
+<span data-ttu-id="420ac-104">[**IDownloadCompletedCallback**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadcompletedcallback)介面會定義下列方法。</span><span class="sxs-lookup"><span data-stu-id="420ac-104">The [**IDownloadCompletedCallback**](/windows/desktop/api/Wuapi/nn-wuapi-idownloadcompletedcallback) interface defines the following method.</span></span>
 
 
 
-| <span data-ttu-id="b65f9-105">方法</span><span class="sxs-lookup"><span data-stu-id="b65f9-105">Method</span></span>                                              | <span data-ttu-id="b65f9-106">描述</span><span class="sxs-lookup"><span data-stu-id="b65f9-106">Description</span></span>                                        |
+| <span data-ttu-id="420ac-105">方法</span><span class="sxs-lookup"><span data-stu-id="420ac-105">Method</span></span>                                              | <span data-ttu-id="420ac-106">描述</span><span class="sxs-lookup"><span data-stu-id="420ac-106">Description</span></span>                                        |
 |-----------------------------------------------------|----------------------------------------------------|
-| [<span data-ttu-id="b65f9-107">**調用**</span><span class="sxs-lookup"><span data-stu-id="b65f9-107">**Invoke**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-idownloadcompletedcallback-invoke) | <span data-ttu-id="b65f9-108">通知呼叫端下載已完成。</span><span class="sxs-lookup"><span data-stu-id="b65f9-108">Notifies the caller that the download is complete.</span></span> |
+| [<span data-ttu-id="420ac-107">**調用**</span><span class="sxs-lookup"><span data-stu-id="420ac-107">**Invoke**</span></span>](/windows/desktop/api/Wuapi/nf-wuapi-idownloadcompletedcallback-invoke) | <span data-ttu-id="420ac-108">通知呼叫端下載已完成。</span><span class="sxs-lookup"><span data-stu-id="420ac-108">Notifies the caller that the download is complete.</span></span> |
 
 
 

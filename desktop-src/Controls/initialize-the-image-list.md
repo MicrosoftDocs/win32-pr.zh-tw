@@ -11,26 +11,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/20/2020
 ms.locfileid: "104092554"
 ---
-# <a name="how-to-initialize-the-image-list"></a><span data-ttu-id="ff04d-103">如何初始化影像清單</span><span class="sxs-lookup"><span data-stu-id="ff04d-103">How to Initialize the Image List</span></span>
+# <a name="how-to-initialize-the-image-list"></a><span data-ttu-id="aad68-103">如何初始化影像清單</span><span class="sxs-lookup"><span data-stu-id="aad68-103">How to Initialize the Image List</span></span>
 
-<span data-ttu-id="ff04d-104">樹狀檢視控制項中的每個專案都可以有兩個相關聯的影像。</span><span class="sxs-lookup"><span data-stu-id="ff04d-104">Every item in a tree-view control can have two images associated with it.</span></span> <span data-ttu-id="ff04d-105">專案會在選取時顯示一個影像，另一個則不會顯示。</span><span class="sxs-lookup"><span data-stu-id="ff04d-105">An item displays one image when it is selected and the other when it is not.</span></span> <span data-ttu-id="ff04d-106">若要包含具有樹狀檢視專案的影像，請先使用 [影像](image-lists.md) 清單函式來建立影像清單，並在其中新增影像。</span><span class="sxs-lookup"><span data-stu-id="ff04d-106">To include images with tree-view items, first use the [Image Lists](image-lists.md) functions to create an image list and add images to it.</span></span> <span data-ttu-id="ff04d-107">然後使用 [**TVM \_ SETIMAGELIST**](tvm-setimagelist.md) 訊息，將影像清單與樹狀檢視控制項產生關聯。</span><span class="sxs-lookup"><span data-stu-id="ff04d-107">Then associate the image list with the tree-view control by using the [**TVM\_SETIMAGELIST**](tvm-setimagelist.md) message.</span></span>
+<span data-ttu-id="aad68-104">樹狀檢視控制項中的每個專案都可以有兩個相關聯的影像。</span><span class="sxs-lookup"><span data-stu-id="aad68-104">Every item in a tree-view control can have two images associated with it.</span></span> <span data-ttu-id="aad68-105">專案會在選取時顯示一個影像，另一個則不會顯示。</span><span class="sxs-lookup"><span data-stu-id="aad68-105">An item displays one image when it is selected and the other when it is not.</span></span> <span data-ttu-id="aad68-106">若要包含具有樹狀檢視專案的影像，請先使用 [影像](image-lists.md) 清單函式來建立影像清單，並在其中新增影像。</span><span class="sxs-lookup"><span data-stu-id="aad68-106">To include images with tree-view items, first use the [Image Lists](image-lists.md) functions to create an image list and add images to it.</span></span> <span data-ttu-id="aad68-107">然後使用 [**TVM \_ SETIMAGELIST**](tvm-setimagelist.md) 訊息，將影像清單與樹狀檢視控制項產生關聯。</span><span class="sxs-lookup"><span data-stu-id="aad68-107">Then associate the image list with the tree-view control by using the [**TVM\_SETIMAGELIST**](tvm-setimagelist.md) message.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="ff04d-108">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="ff04d-108">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="aad68-108">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="aad68-108">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="ff04d-109">技術</span><span class="sxs-lookup"><span data-stu-id="ff04d-109">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="aad68-109">技術</span><span class="sxs-lookup"><span data-stu-id="aad68-109">Technologies</span></span>
 
--   [<span data-ttu-id="ff04d-110">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="ff04d-110">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="aad68-110">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="aad68-110">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="ff04d-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="ff04d-111">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="aad68-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="aad68-111">Prerequisites</span></span>
 
--   <span data-ttu-id="ff04d-112">C/C++</span><span class="sxs-lookup"><span data-stu-id="ff04d-112">C/C++</span></span>
--   <span data-ttu-id="ff04d-113">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="ff04d-113">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="aad68-112">C/C++</span><span class="sxs-lookup"><span data-stu-id="aad68-112">C/C++</span></span>
+-   <span data-ttu-id="aad68-113">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="aad68-113">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="ff04d-114">指示</span><span class="sxs-lookup"><span data-stu-id="ff04d-114">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="aad68-114">指示</span><span class="sxs-lookup"><span data-stu-id="aad68-114">Instructions</span></span>
 
-### <a name="initialize-the-image-list"></a><span data-ttu-id="ff04d-115">初始化影像清單</span><span class="sxs-lookup"><span data-stu-id="ff04d-115">Initialize the Image List</span></span>
+### <a name="initialize-the-image-list"></a><span data-ttu-id="aad68-115">初始化影像清單</span><span class="sxs-lookup"><span data-stu-id="aad68-115">Initialize the Image List</span></span>
 
-<span data-ttu-id="ff04d-116">下列範例會建立影像清單、將三個位圖新增至清單，並將影像清單與樹狀檢視控制項產生關聯。</span><span class="sxs-lookup"><span data-stu-id="ff04d-116">The following example creates an image list, adds three bitmaps to the list, and associates the image list with a tree-view control.</span></span>
+<span data-ttu-id="aad68-116">下列範例會建立影像清單、將三個位圖新增至清單，並將影像清單與樹狀檢視控制項產生關聯。</span><span class="sxs-lookup"><span data-stu-id="aad68-116">The following example creates an image list, adds three bitmaps to the list, and associates the image list with a tree-view control.</span></span>
 
 
 ```C++
@@ -85,14 +85,14 @@ BOOL InitTreeViewImageLists(HWND hwndTV)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="ff04d-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="ff04d-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="aad68-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="aad68-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ff04d-118">使用 Tree-View 控制項</span><span class="sxs-lookup"><span data-stu-id="ff04d-118">Using Tree-View Controls</span></span>](using-treeview.md)
+[<span data-ttu-id="aad68-118">使用 Tree-View 控制項</span><span class="sxs-lookup"><span data-stu-id="aad68-118">Using Tree-View Controls</span></span>](using-treeview.md)
 </dt> <dt>
 
-[<span data-ttu-id="ff04d-119">CustDTv 範例說明 Tree-View 控制項中的自訂繪圖</span><span class="sxs-lookup"><span data-stu-id="ff04d-119">CustDTv sample illustrates custom draw in a Tree-View control</span></span>](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
+[<span data-ttu-id="aad68-119">CustDTv 範例說明 Tree-View 控制項中的自訂繪圖</span><span class="sxs-lookup"><span data-stu-id="aad68-119">CustDTv sample illustrates custom draw in a Tree-View control</span></span>](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
  

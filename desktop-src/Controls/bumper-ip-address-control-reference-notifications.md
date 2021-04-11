@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "104196030"
 ---
-# <a name="ip-address-notifications"></a><span data-ttu-id="fac99-103">IP 位址通知</span><span class="sxs-lookup"><span data-stu-id="fac99-103">IP Address Notifications</span></span>
+# <a name="ip-address-notifications"></a><span data-ttu-id="6bebd-103">IP 位址通知</span><span class="sxs-lookup"><span data-stu-id="6bebd-103">IP Address Notifications</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="fac99-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="fac99-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6bebd-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="6bebd-104">In This Section</span></span>
 
--   [<span data-ttu-id="fac99-105">IPN \_ FIELDCHANGED</span><span class="sxs-lookup"><span data-stu-id="fac99-105">IPN\_FIELDCHANGED</span></span>](ipn-fieldchanged.md)
+-   [<span data-ttu-id="6bebd-105">IPN \_ FIELDCHANGED</span><span class="sxs-lookup"><span data-stu-id="6bebd-105">IPN\_FIELDCHANGED</span></span>](ipn-fieldchanged.md)
 
  
 
