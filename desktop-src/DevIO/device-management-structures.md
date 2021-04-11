@@ -1,0 +1,75 @@
+---
+description: 下列結構適用于裝置管理：
+ms.assetid: 85ebbdca-94a0-4467-8d15-ee3a850e1cd9
+title: 裝置管理結構
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 677f4768678d1dfdfd0a4cc102eafb01b84eb49d
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103847473"
+---
+# <a name="device-management-structures"></a>裝置管理結構
+
+下列結構適用于裝置管理：
+
+## <a name="in-this-section"></a>本節內容
+
+
+
+| 主題                                                                                                        | 描述                                                                                                                                                                                                                                                    |
+|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**更改器 \_ 元素**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_element)<br/>                                                   | 表示已變更的元素。<br/>                                                                                                                                                                                                                       |
+| [**更改器 \_ 元素 \_ 清單**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_element_list)<br/>                                        | 代表單一類型專案的範圍，通常是針對諸如取得或初始化多個專案狀態的作業。<br/>                                                                                                        |
+| [**更換器 \_ 元素 \_ 狀態**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_element_status)<br/>                                    | 表示指定之元素的狀態。<br/>                                                                                                                                                                                                     |
+| [**變更器 \_ 元素 \_ 狀態 \_ 例如**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_element_status_ex)<br/>                             | 表示指定之元素的狀態。<br/>                                                                                                                                                                                                     |
+| [**更換 \_ EXCHANGE \_ 媒體**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_exchange_medium)<br/>                                  | 包含 IOCTL 變更 [**器 \_ \_ EXCHANGE \_ 中型**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_exchange_medium) 控制項程式碼用來將一段媒體移至目的地的資訊，以及一段最初在第一個目的地到第二個目的地的媒體。<br/> |
+| [**變更器 \_ 初始化 \_ 元素 \_ 狀態**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_initialize_element_status)<br/>             | 代表所有媒體交換器元件的狀態，或特定類型的指定專案。<br/>                                                                                                                                                 |
+| [**更換器 \_ 移動 \_ 媒體**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_move_medium)<br/>                                          | 包含 [**IOCTL \_ 轉換器 \_ 移動 \_**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_move_medium) 媒體控制項程式碼用來將媒體移至目的地的資訊。<br/>                                                                                        |
+| [**更換 \_ 產品 \_ 資料**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_product_data)<br/>                                        | 代表更換裝置的產品資料。 IOCTL 轉換器會使用它 [**來 \_ \_ 取得 \_ 產品 \_ 資料**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_get_product_data) 控制程式代碼。<br/>                                                                                          |
+| [**變更器 \_ 讀取 \_ 元素 \_ 狀態**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_read_element_status)<br/>                         | 包含 IOCTL 變更器 [**\_ 取得專案 \_ \_ \_ 狀態**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_get_element_status) 控制項程式碼所需的資訊，以判斷要抓取其狀態的元素。<br/>                                                        |
+| [**更換器 \_ 傳送 \_ 磁片區 \_ 標記 \_ 資訊**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_send_volume_tag_information)<br/>        | 包含 IOCTL 變更器 [**\_ \_ 查詢磁片區 \_ \_ 標記**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_query_volume_tags) 控制項程式碼用來判斷要抓取之磁片區資訊的資訊。<br/>                                                                 |
+| [**變更 \_ 集 \_ 存取權**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_set_access)<br/>                                            | 包含 IOCTL 變更器 [**\_ \_ 設定 \_ 訪問**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_set_access) 控制程式代碼所需的資訊，以設定裝置的插入/退出埠、大門或鍵盤的狀態。<br/>                                                               |
+| [**更換器 \_ 設定 \_ 位置**](/windows/desktop/api/WinIoCtl/ns-winioctl-changer_set_position)<br/>                                        | 包含 [**IOCTL 變更 \_ \_ 集 \_ 位置**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_set_position) 控制程式代碼所需的資訊，以將設定器的機器人傳輸機制設定為指定的專案位址。<br/>                                              |
+| [**類別 \_ 媒體 \_ 變更 \_ 內容**](/windows/desktop/api/WinIoCtl/ns-winioctl-class_media_change_context)<br/>                           | 包含與媒體變更事件相關聯的資訊。<br/>                                                                                                                                                                                          |
+| [**\_開發人員 \_ 廣播的 \_ 使用者**](/windows/win32/api/dbt/ns-dbt-_dev_broadcast_userdefined)<br/>                           | 包含使用者定義的事件，以及與 [DBT \_ 使用者](dbt-userdefined.md) 定義裝置事件相關聯的選擇性資料。<br/>                                                                                                                         |
+| [**開發 \_ 廣播 \_ DEVICEINTERFACE**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_deviceinterface_a)<br/>                      | 包含裝置類別的相關資訊。<br/>                                                                                                                                                                                                      |
+| [**開發 \_ 廣播 \_ 控制碼**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_handle)<br/>                                        | 包含檔案系統控制碼的相關資訊。<br/>                                                                                                                                                                                                    |
+| [**開發 \_ 廣播 \_ HDR**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_hdr)<br/>                                              | 作為透過 [**WM \_ DEVICECHANGE**](wm-devicechange.md) 訊息報告之裝置事件相關資訊的標準標頭。<br/>                                                                                                     |
+| [**開發 \_ 廣播 \_ OEM**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_oem)<br/>                                              | 包含 OEM 定義之裝置類型的相關資訊。<br/>                                                                                                                                                                                               |
+| [**開發 \_ 廣播 \_ 埠**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_port_a)<br/>                                            | 包含數據機、串列或平行埠的相關資訊。<br/>                                                                                                                                                                                       |
+| [**開發 \_ 廣播 \_ 磁片區**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_volume)<br/>                                        | 包含邏輯磁片區的相關資訊。<br/>                                                                                                                                                                                                        |
+| [**裝置 \_ 資料 \_ 集 \_ LB 布建 \_ \_ 狀態**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_data_set_lb_provisioning_state)<br/>       | IOCTL 儲存體之 **DeviceDsmAction \_ 配置** 動作的輸出結構 [**會 \_ \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) 控制程式代碼。<br/>                                                              |
+| [**裝置 \_ 資料 \_ 集 \_ 範圍**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_data_set_range)<br/>                                         | 提供與 IOCTL 儲存體搭配使用的資料集範圍資訊 [**\_ \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) 控制項程式碼。<br/>                                                                                |
+| [**裝置 \_ 資料 \_ 集 \_ 修復 \_ 參數**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_data_set_repair_parameters)<br/>                | 指定修復操作的參數。<br/>                                                                                                                                                                                                      |
+| [**裝置 \_ DSM \_ 通知 \_ 參數**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_notification_parameters)<br/>               | 包含 [**IOCTL 儲存體用來 \_ \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes)控制項程式碼之 **DeviceDsmAction \_ 通知** 動作的參數。<br/>                                                        |
+| [**裝置 \_ DSM \_ 卸載 \_ 讀取 \_ 參數**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_read_parameters)<br/>              | 包含適用于 IOCTL 儲存體之 **DeviceDsmAction \_ OffloadRead** 動作的參數 [**\_ \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) 控制項程式碼。<br/>                                                         |
+| [**裝置 \_ DSM \_ 卸載 \_ 寫入 \_ 參數**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_write_parameters)<br/>            | 指定卸載寫入作業的參數。<br/>                                                                                                                                                                                               |
+| [**裝置 \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_manage_data_set_attributes)<br/>                | IOCTL 儲存體的輸入結構會 [**\_ \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) 控制項程式碼。<br/>                                                                                                             |
+| [**裝置 \_ 管理 \_ 資料 \_ 集 \_ 屬性 \_ 輸出**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_manage_data_set_attributes_output)<br/> | IOCTL 儲存的輸出結構會 [**\_ \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) 控制項程式碼。<br/>                                                                                                            |
+| [**裝置 \_ 媒體 \_ 資訊**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_media_info)<br/>                                              | 提供裝置所支援媒體的相關資訊。<br/>                                                                                                                                                                                         |
+| [**取得 \_ 更換器 \_ 參數**](/windows/desktop/api/WinIoCtl/ns-winioctl-get_changer_parameters)<br/>                                    | 代表變更器的參數。<br/>                                                                                                                                                                                                             |
+| [**取得 \_ 媒體 \_ 類型**](/windows/desktop/api/WinIoCtl/ns-winioctl-get_media_types)<br/>                                                  | 包含裝置所支援之媒體類型的相關資訊。<br/>                                                                                                                                                                                   |
+| [**媒體 \_ 序號 \_ \_ 資料**](media-serial-number-data-str.md)<br/>                               | 包含 USB 裝置的序號。 它是由 [**IOCTL \_ 儲存體 \_ 取得 \_ 媒體 \_ 序號 \_**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_get_media_serial_number) 控制項程式碼所使用。<br/>                                                                             |
+| [**防止 \_ \_ 移除媒體**](/windows/desktop/api/WinIoCtl/ns-winioctl-prevent_media_removal)<br/>                                      | 提供卸載式媒體鎖定資料。 它是由 [**IOCTL \_ 儲存體 \_ 媒體 \_ 移除**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_media_removal) 控制項程式碼使用。<br/>                                                                                                        |
+| [**讀取 \_ 元素 \_ 位址 \_ 資訊**](/windows/desktop/api/WinIoCtl/ns-winioctl-read_element_address_info)<br/>                             | 表示磁片區標記資訊。 它是由 IOCTL 變更 [**器 \_ \_ 查詢 \_ 磁片區 \_ 標記**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_changer_query_volume_tags) 控制程式代碼所使用。<br/>                                                                                               |
+| [**儲存體 \_ 裝置 \_ 編號**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_device_number)<br/>                                          | 包含裝置的相關資訊。 此結構是由 [IOCTL \_ 儲存體 \_ 取得 \_ 裝置 \_ 編號](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_get_device_number) 控制程式代碼所使用。<br/>                                                                                         |
+| [**儲存體 \_ 熱插拔 \_ 資訊**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_hotplug_info)<br/>                                        | 提供裝置熱資訊的相關資訊。<br/>                                                                                                                                                                                     |
+| [**儲存體 \_ 卸載 \_ 讀取 \_ 輸出**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_read_output)<br/>                             | IOCTL 儲存體之 **DeviceDsmAction \_ OffloadRead** 動作的輸出結構 [**會 \_ \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) 控制項程式碼。<br/>                                                             |
+| [**儲存體 \_ 卸載 \_ 權杖**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_token)<br/>                                          | 用來表示卸載讀取和寫入作業之檔案部分的標記。<br/>                                                                                                                                                       |
+| [**儲存體 \_ 卸載 \_ 寫入 \_ 輸出**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_write_output)<br/>                           | IOCTL 儲存體之 **DeviceDsmAction \_ OffloadWrite** 動作的輸出結構 [**會 \_ \_ 管理 \_ 資料 \_ 集 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_manage_data_set_attributes) 控制項程式碼。<br/>                                                            |
+| [**儲存體 \_ 讀取 \_ 容量**](storage-read-capacity.md)<br/>                                          | 包含裝置大小的相關資訊。 這會從 [**IOCTL \_ 儲存體 \_ 讀取 \_ 容量**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_read_capacity) 控制程式代碼傳回。<br/>                                                                                      |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
