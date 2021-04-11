@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843312"
 ---
-# <a name="wsmancreateconnectionoptions-method"></a><span data-ttu-id="89f41-106">WSMan. CreateConnectionOptions 方法</span><span class="sxs-lookup"><span data-stu-id="89f41-106">WSMan.CreateConnectionOptions method</span></span>
+# <a name="wsmancreateconnectionoptions-method"></a><span data-ttu-id="38d6b-106">WSMan. CreateConnectionOptions 方法</span><span class="sxs-lookup"><span data-stu-id="38d6b-106">WSMan.CreateConnectionOptions method</span></span>
 
-<span data-ttu-id="89f41-107">建立 [**ConnectionOptions**](connectionoptions.md) 物件，這個物件會指定建立會話時使用的使用者名稱和密碼。</span><span class="sxs-lookup"><span data-stu-id="89f41-107">Creates a [**ConnectionOptions**](connectionoptions.md) object that specifies the user name and password used when creating a session.</span></span>
+<span data-ttu-id="38d6b-107">建立 [**ConnectionOptions**](connectionoptions.md) 物件，這個物件會指定建立會話時使用的使用者名稱和密碼。</span><span class="sxs-lookup"><span data-stu-id="38d6b-107">Creates a [**ConnectionOptions**](connectionoptions.md) object that specifies the user name and password used when creating a session.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="89f41-108">語法</span><span class="sxs-lookup"><span data-stu-id="89f41-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="38d6b-108">語法</span><span class="sxs-lookup"><span data-stu-id="38d6b-108">Syntax</span></span>
 
 
 ```VB
@@ -37,17 +37,17 @@ WSMan.CreateConnectionOptions()
 
 
 
-## <a name="parameters"></a><span data-ttu-id="89f41-109">參數</span><span class="sxs-lookup"><span data-stu-id="89f41-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="38d6b-109">參數</span><span class="sxs-lookup"><span data-stu-id="38d6b-109">Parameters</span></span>
 
-<span data-ttu-id="89f41-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="89f41-110">This method has no parameters.</span></span>
+<span data-ttu-id="38d6b-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="38d6b-110">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="89f41-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="89f41-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="38d6b-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="38d6b-111">Return value</span></span>
 
-<span data-ttu-id="89f41-112">用來指定使用者名稱和密碼組的 [**ConnectionOptions**](connectionoptions.md) 物件，用來識別要驗證的使用者。</span><span class="sxs-lookup"><span data-stu-id="89f41-112">A [**ConnectionOptions**](connectionoptions.md) object used to specify a user name and password pair that is used to identify a user for authentication.</span></span>
+<span data-ttu-id="38d6b-112">用來指定使用者名稱和密碼組的 [**ConnectionOptions**](connectionoptions.md) 物件，用來識別要驗證的使用者。</span><span class="sxs-lookup"><span data-stu-id="38d6b-112">A [**ConnectionOptions**](connectionoptions.md) object used to specify a user name and password pair that is used to identify a user for authentication.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="89f41-113">備註</span><span class="sxs-lookup"><span data-stu-id="89f41-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="38d6b-113">備註</span><span class="sxs-lookup"><span data-stu-id="38d6b-113">Remarks</span></span>
 
-<span data-ttu-id="89f41-114">下列語法用來呼叫這個方法。</span><span class="sxs-lookup"><span data-stu-id="89f41-114">The following syntax is used to call this method.</span></span>
+<span data-ttu-id="38d6b-114">下列語法用來呼叫這個方法。</span><span class="sxs-lookup"><span data-stu-id="38d6b-114">The following syntax is used to call this method.</span></span>
 
 
 ```VB
@@ -56,29 +56,29 @@ Set options = wsman.CreateConnectionOptions
 
 
 
-## <a name="requirements"></a><span data-ttu-id="89f41-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="89f41-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="38d6b-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="38d6b-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="89f41-116">需求</span><span class="sxs-lookup"><span data-stu-id="89f41-116">Requirement</span></span> | <span data-ttu-id="89f41-117">值</span><span class="sxs-lookup"><span data-stu-id="89f41-117">Value</span></span> |
+| <span data-ttu-id="38d6b-116">需求</span><span class="sxs-lookup"><span data-stu-id="38d6b-116">Requirement</span></span> | <span data-ttu-id="38d6b-117">值</span><span class="sxs-lookup"><span data-stu-id="38d6b-117">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| <span data-ttu-id="89f41-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="89f41-118">Minimum supported client</span></span><br/> | <span data-ttu-id="89f41-119">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="89f41-119">Windows Vista</span></span><br/>                                                                 |
-| <span data-ttu-id="89f41-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="89f41-120">Minimum supported server</span></span><br/> | <span data-ttu-id="89f41-121">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="89f41-121">Windows Server 2008</span></span><br/>                                                           |
-| <span data-ttu-id="89f41-122">標頭</span><span class="sxs-lookup"><span data-stu-id="89f41-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="89f41-123"><dt>WSManDisp。h</dt></span><span class="sxs-lookup"><span data-stu-id="89f41-123"><dt>WSManDisp.h</dt></span></span> </dl>   |
-| <span data-ttu-id="89f41-124">Idl</span><span class="sxs-lookup"><span data-stu-id="89f41-124">IDL</span></span><br/>                      | <dl> <span data-ttu-id="89f41-125"><dt>WSManDisp .idl</dt></span><span class="sxs-lookup"><span data-stu-id="89f41-125"><dt>WSManDisp.idl</dt></span></span> </dl> |
-| <span data-ttu-id="89f41-126">程式庫</span><span class="sxs-lookup"><span data-stu-id="89f41-126">Library</span></span><br/>                  | <dl> <span data-ttu-id="89f41-127"><dt>WSManDisp .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="89f41-127"><dt>WSManDisp.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="89f41-128">DLL</span><span class="sxs-lookup"><span data-stu-id="89f41-128">DLL</span></span><br/>                      | <dl> <span data-ttu-id="89f41-129"><dt>WSMAuto.dll</dt></span><span class="sxs-lookup"><span data-stu-id="89f41-129"><dt>WSMAuto.dll</dt></span></span> </dl>   |
+| <span data-ttu-id="38d6b-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="38d6b-118">Minimum supported client</span></span><br/> | <span data-ttu-id="38d6b-119">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="38d6b-119">Windows Vista</span></span><br/>                                                                 |
+| <span data-ttu-id="38d6b-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="38d6b-120">Minimum supported server</span></span><br/> | <span data-ttu-id="38d6b-121">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="38d6b-121">Windows Server 2008</span></span><br/>                                                           |
+| <span data-ttu-id="38d6b-122">標頭</span><span class="sxs-lookup"><span data-stu-id="38d6b-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="38d6b-123"><dt>WSManDisp。h</dt></span><span class="sxs-lookup"><span data-stu-id="38d6b-123"><dt>WSManDisp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="38d6b-124">Idl</span><span class="sxs-lookup"><span data-stu-id="38d6b-124">IDL</span></span><br/>                      | <dl> <span data-ttu-id="38d6b-125"><dt>WSManDisp .idl</dt></span><span class="sxs-lookup"><span data-stu-id="38d6b-125"><dt>WSManDisp.idl</dt></span></span> </dl> |
+| <span data-ttu-id="38d6b-126">程式庫</span><span class="sxs-lookup"><span data-stu-id="38d6b-126">Library</span></span><br/>                  | <dl> <span data-ttu-id="38d6b-127"><dt>WSManDisp .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="38d6b-127"><dt>WSManDisp.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="38d6b-128">DLL</span><span class="sxs-lookup"><span data-stu-id="38d6b-128">DLL</span></span><br/>                      | <dl> <span data-ttu-id="38d6b-129"><dt>WSMAuto.dll</dt></span><span class="sxs-lookup"><span data-stu-id="38d6b-129"><dt>WSMAuto.dll</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="89f41-130">另請參閱</span><span class="sxs-lookup"><span data-stu-id="89f41-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="38d6b-130">另請參閱</span><span class="sxs-lookup"><span data-stu-id="38d6b-130">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="89f41-131">**WSMan**</span><span class="sxs-lookup"><span data-stu-id="89f41-131">**WSMan**</span></span>](wsman.md)
+[<span data-ttu-id="38d6b-131">**WSMan**</span><span class="sxs-lookup"><span data-stu-id="38d6b-131">**WSMan**</span></span>](wsman.md)
 </dt> <dt>
 
-[<span data-ttu-id="89f41-132">**ConnectionOptions**</span><span class="sxs-lookup"><span data-stu-id="89f41-132">**ConnectionOptions**</span></span>](connectionoptions.md)
+[<span data-ttu-id="38d6b-132">**ConnectionOptions**</span><span class="sxs-lookup"><span data-stu-id="38d6b-132">**ConnectionOptions**</span></span>](connectionoptions.md)
 </dt> </dl>
 
  

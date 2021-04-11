@@ -21,9 +21,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843436"
 ---
-# <a name="en_saveclipboard-notification-code"></a><span data-ttu-id="34913-105">EN \_ SAVECLIPBOARD 通知碼</span><span class="sxs-lookup"><span data-stu-id="34913-105">EN\_SAVECLIPBOARD notification code</span></span>
+# <a name="en_saveclipboard-notification-code"></a><span data-ttu-id="6aa37-105">EN \_ SAVECLIPBOARD 通知碼</span><span class="sxs-lookup"><span data-stu-id="6aa37-105">EN\_SAVECLIPBOARD notification code</span></span>
 
-<span data-ttu-id="34913-106">通知 rich edit 控制項的父視窗，指出控制項正在關閉，且剪貼簿包含資訊。</span><span class="sxs-lookup"><span data-stu-id="34913-106">Notifies the rich edit control's parent window that the control is closing and the clipboard contains information.</span></span> <span data-ttu-id="34913-107">Rich edit 控制項會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送此通知碼。</span><span class="sxs-lookup"><span data-stu-id="34913-107">A rich edit control sends this notification code in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
+<span data-ttu-id="6aa37-106">通知 rich edit 控制項的父視窗，指出控制項正在關閉，且剪貼簿包含資訊。</span><span class="sxs-lookup"><span data-stu-id="6aa37-106">Notifies the rich edit control's parent window that the control is closing and the clipboard contains information.</span></span> <span data-ttu-id="6aa37-107">Rich edit 控制項會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送此通知碼。</span><span class="sxs-lookup"><span data-stu-id="6aa37-107">A rich edit control sends this notification code in the form of a [**WM\_NOTIFY**](wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -34,47 +34,47 @@ EN_SAVECLIPBOARD
 
 
 
-## <a name="parameters"></a><span data-ttu-id="34913-108">參數</span><span class="sxs-lookup"><span data-stu-id="34913-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6aa37-108">參數</span><span class="sxs-lookup"><span data-stu-id="6aa37-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="34913-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="34913-109">*lParam*</span></span> 
+<span data-ttu-id="6aa37-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="6aa37-109">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="34913-110">[**ENSAVECLIPBOARD**](/windows/desktop/api/Richedit/ns-richedit-ensaveclipboard)結構，其中包含剪貼簿資訊的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="34913-110">An [**ENSAVECLIPBOARD**](/windows/desktop/api/Richedit/ns-richedit-ensaveclipboard) structure that contains information about clipboard information.</span></span>
+<span data-ttu-id="6aa37-110">[**ENSAVECLIPBOARD**](/windows/desktop/api/Richedit/ns-richedit-ensaveclipboard)結構，其中包含剪貼簿資訊的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="6aa37-110">An [**ENSAVECLIPBOARD**](/windows/desktop/api/Richedit/ns-richedit-ensaveclipboard) structure that contains information about clipboard information.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="34913-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="34913-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6aa37-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="6aa37-111">Return value</span></span>
 
-<span data-ttu-id="34913-112">如果要讓剪貼簿可供其他應用程式使用，則傳回零。</span><span class="sxs-lookup"><span data-stu-id="34913-112">Return zero if the clipboard should be made available to other applications.</span></span>
+<span data-ttu-id="6aa37-112">如果要讓剪貼簿可供其他應用程式使用，則傳回零。</span><span class="sxs-lookup"><span data-stu-id="6aa37-112">Return zero if the clipboard should be made available to other applications.</span></span>
 
-<span data-ttu-id="34913-113">如果不應儲存剪貼簿，則傳回非零值。</span><span class="sxs-lookup"><span data-stu-id="34913-113">Return a nonzero value if the clipboard should not be saved.</span></span>
+<span data-ttu-id="6aa37-113">如果不應儲存剪貼簿，則傳回非零值。</span><span class="sxs-lookup"><span data-stu-id="6aa37-113">Return a nonzero value if the clipboard should not be saved.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="34913-114">備註</span><span class="sxs-lookup"><span data-stu-id="34913-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6aa37-114">備註</span><span class="sxs-lookup"><span data-stu-id="6aa37-114">Remarks</span></span>
 
-<span data-ttu-id="34913-115">父視窗一律會取得這個事件的 [**WM \_ 通知**](wm-notify.md) 訊息，不需要以 [**EM \_ SETEVENTMASK**](em-seteventmask.md)傳送通知遮罩。</span><span class="sxs-lookup"><span data-stu-id="34913-115">The parent window will always get a [**WM\_NOTIFY**](wm-notify.md) message for this event, it does not require a notification mask sent with [**EM\_SETEVENTMASK**](em-seteventmask.md).</span></span>
+<span data-ttu-id="6aa37-115">父視窗一律會取得這個事件的 [**WM \_ 通知**](wm-notify.md) 訊息，不需要以 [**EM \_ SETEVENTMASK**](em-seteventmask.md)傳送通知遮罩。</span><span class="sxs-lookup"><span data-stu-id="6aa37-115">The parent window will always get a [**WM\_NOTIFY**](wm-notify.md) message for this event, it does not require a notification mask sent with [**EM\_SETEVENTMASK**](em-seteventmask.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="34913-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="34913-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6aa37-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="6aa37-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="34913-117">需求</span><span class="sxs-lookup"><span data-stu-id="34913-117">Requirement</span></span> | <span data-ttu-id="34913-118">值</span><span class="sxs-lookup"><span data-stu-id="34913-118">Value</span></span> |
+| <span data-ttu-id="6aa37-117">需求</span><span class="sxs-lookup"><span data-stu-id="6aa37-117">Requirement</span></span> | <span data-ttu-id="6aa37-118">值</span><span class="sxs-lookup"><span data-stu-id="6aa37-118">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="34913-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="34913-119">Minimum supported client</span></span><br/> | <span data-ttu-id="34913-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="34913-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="34913-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="34913-121">Minimum supported server</span></span><br/> | <span data-ttu-id="34913-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="34913-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="34913-123">標頭</span><span class="sxs-lookup"><span data-stu-id="34913-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="34913-124"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="34913-124"><dt>Richedit.h</dt></span></span> </dl> |
+| <span data-ttu-id="6aa37-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6aa37-119">Minimum supported client</span></span><br/> | <span data-ttu-id="6aa37-120">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6aa37-120">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="6aa37-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6aa37-121">Minimum supported server</span></span><br/> | <span data-ttu-id="6aa37-122">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6aa37-122">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="6aa37-123">標頭</span><span class="sxs-lookup"><span data-stu-id="6aa37-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="6aa37-124"><dt>Richedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="6aa37-124"><dt>Richedit.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="34913-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="34913-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6aa37-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6aa37-125">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="34913-126">**參考**</span><span class="sxs-lookup"><span data-stu-id="34913-126">**Reference**</span></span>
+<span data-ttu-id="6aa37-126">**參考**</span><span class="sxs-lookup"><span data-stu-id="6aa37-126">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="34913-127">**ENSAVECLIPBOARD**</span><span class="sxs-lookup"><span data-stu-id="34913-127">**ENSAVECLIPBOARD**</span></span>](/windows/desktop/api/Richedit/ns-richedit-ensaveclipboard)
+[<span data-ttu-id="6aa37-127">**ENSAVECLIPBOARD**</span><span class="sxs-lookup"><span data-stu-id="6aa37-127">**ENSAVECLIPBOARD**</span></span>](/windows/desktop/api/Richedit/ns-richedit-ensaveclipboard)
 </dt> </dl>
 
  

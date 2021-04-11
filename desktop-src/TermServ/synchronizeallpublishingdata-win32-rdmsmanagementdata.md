@@ -24,11 +24,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685852"
 ---
-# <a name="synchronizeallpublishingdata-method-of-the-win32_rdmsmanagementdata-class"></a><span data-ttu-id="fdc99-106">Win32 RDMSManagementData 類別的 SynchronizeAllPublishingData 方法 \_</span><span class="sxs-lookup"><span data-stu-id="fdc99-106">SynchronizeAllPublishingData method of the Win32\_RDMSManagementData class</span></span>
+# <a name="synchronizeallpublishingdata-method-of-the-win32_rdmsmanagementdata-class"></a><span data-ttu-id="5cc3a-106">Win32 RDMSManagementData 類別的 SynchronizeAllPublishingData 方法 \_</span><span class="sxs-lookup"><span data-stu-id="5cc3a-106">SynchronizeAllPublishingData method of the Win32\_RDMSManagementData class</span></span>
 
-<span data-ttu-id="fdc99-107">同步處理遠端桌面管理服務 (RDMS) 的所有發佈資料。</span><span class="sxs-lookup"><span data-stu-id="fdc99-107">Synchronizes all publishing data for Remote Desktop Management Services (RDMS).</span></span>
+<span data-ttu-id="5cc3a-107">同步處理遠端桌面管理服務 (RDMS) 的所有發佈資料。</span><span class="sxs-lookup"><span data-stu-id="5cc3a-107">Synchronizes all publishing data for Remote Desktop Management Services (RDMS).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fdc99-108">語法</span><span class="sxs-lookup"><span data-stu-id="fdc99-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5cc3a-108">語法</span><span class="sxs-lookup"><span data-stu-id="5cc3a-108">Syntax</span></span>
 
 
 ```mof
@@ -37,33 +37,33 @@ uint32 SynchronizeAllPublishingData();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="fdc99-109">參數</span><span class="sxs-lookup"><span data-stu-id="fdc99-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5cc3a-109">參數</span><span class="sxs-lookup"><span data-stu-id="5cc3a-109">Parameters</span></span>
 
-<span data-ttu-id="fdc99-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="fdc99-110">This method has no parameters.</span></span>
+<span data-ttu-id="5cc3a-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="5cc3a-110">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="fdc99-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="fdc99-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5cc3a-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="5cc3a-111">Return value</span></span>
 
-<span data-ttu-id="fdc99-112">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="fdc99-112">Returns 0 on success, otherwise returns a WMI error code.</span></span>
+<span data-ttu-id="5cc3a-112">成功時傳回0，否則會傳回 WMI 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="5cc3a-112">Returns 0 on success, otherwise returns a WMI error code.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="fdc99-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="fdc99-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5cc3a-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="5cc3a-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="fdc99-114">需求</span><span class="sxs-lookup"><span data-stu-id="fdc99-114">Requirement</span></span> | <span data-ttu-id="fdc99-115">值</span><span class="sxs-lookup"><span data-stu-id="fdc99-115">Value</span></span> |
+| <span data-ttu-id="5cc3a-114">需求</span><span class="sxs-lookup"><span data-stu-id="5cc3a-114">Requirement</span></span> | <span data-ttu-id="5cc3a-115">值</span><span class="sxs-lookup"><span data-stu-id="5cc3a-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| <span data-ttu-id="fdc99-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="fdc99-116">Minimum supported client</span></span><br/> | <span data-ttu-id="fdc99-117">都不支援</span><span class="sxs-lookup"><span data-stu-id="fdc99-117">None supported</span></span><br/>                                                                   |
-| <span data-ttu-id="fdc99-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="fdc99-118">Minimum supported server</span></span><br/> | <span data-ttu-id="fdc99-119">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="fdc99-119">Windows Server 2012</span></span><br/>                                                              |
-| <span data-ttu-id="fdc99-120">命名空間</span><span class="sxs-lookup"><span data-stu-id="fdc99-120">Namespace</span></span><br/>                | <span data-ttu-id="fdc99-121">根 \\ CIMv2 \\ rdm</span><span class="sxs-lookup"><span data-stu-id="fdc99-121">Root\\CIMv2\\rdms</span></span><br/>                                                                |
-| <span data-ttu-id="fdc99-122">MOF</span><span class="sxs-lookup"><span data-stu-id="fdc99-122">MOF</span></span><br/>                      | <dl> <span data-ttu-id="fdc99-123"><dt>RDManagement mof</dt></span><span class="sxs-lookup"><span data-stu-id="fdc99-123"><dt>RDManagement.mof</dt></span></span> </dl> |
-| <span data-ttu-id="fdc99-124">DLL</span><span class="sxs-lookup"><span data-stu-id="fdc99-124">DLL</span></span><br/>                      | <dl> <span data-ttu-id="fdc99-125"><dt>RDMS.dll</dt></span><span class="sxs-lookup"><span data-stu-id="fdc99-125"><dt>RDMS.dll</dt></span></span> </dl>         |
+| <span data-ttu-id="5cc3a-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5cc3a-116">Minimum supported client</span></span><br/> | <span data-ttu-id="5cc3a-117">都不支援</span><span class="sxs-lookup"><span data-stu-id="5cc3a-117">None supported</span></span><br/>                                                                   |
+| <span data-ttu-id="5cc3a-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5cc3a-118">Minimum supported server</span></span><br/> | <span data-ttu-id="5cc3a-119">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="5cc3a-119">Windows Server 2012</span></span><br/>                                                              |
+| <span data-ttu-id="5cc3a-120">命名空間</span><span class="sxs-lookup"><span data-stu-id="5cc3a-120">Namespace</span></span><br/>                | <span data-ttu-id="5cc3a-121">根 \\ CIMv2 \\ rdm</span><span class="sxs-lookup"><span data-stu-id="5cc3a-121">Root\\CIMv2\\rdms</span></span><br/>                                                                |
+| <span data-ttu-id="5cc3a-122">MOF</span><span class="sxs-lookup"><span data-stu-id="5cc3a-122">MOF</span></span><br/>                      | <dl> <span data-ttu-id="5cc3a-123"><dt>RDManagement mof</dt></span><span class="sxs-lookup"><span data-stu-id="5cc3a-123"><dt>RDManagement.mof</dt></span></span> </dl> |
+| <span data-ttu-id="5cc3a-124">DLL</span><span class="sxs-lookup"><span data-stu-id="5cc3a-124">DLL</span></span><br/>                      | <dl> <span data-ttu-id="5cc3a-125"><dt>RDMS.dll</dt></span><span class="sxs-lookup"><span data-stu-id="5cc3a-125"><dt>RDMS.dll</dt></span></span> </dl>         |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="fdc99-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fdc99-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5cc3a-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5cc3a-126">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="fdc99-127">**Win32 \_ RDMSManagementData**</span><span class="sxs-lookup"><span data-stu-id="fdc99-127">**Win32\_RDMSManagementData**</span></span>](win32-rdmsmanagementdata.md)
+[<span data-ttu-id="5cc3a-127">**Win32 \_ RDMSManagementData**</span><span class="sxs-lookup"><span data-stu-id="5cc3a-127">**Win32\_RDMSManagementData**</span></span>](win32-rdmsmanagementdata.md)
 </dt> </dl>
 
  

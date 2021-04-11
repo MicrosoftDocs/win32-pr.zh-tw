@@ -22,11 +22,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103685784"
 ---
-# <a name="mpthreat_detection-enumeration"></a><span data-ttu-id="e9991-105">MPTHREAT \_ 偵測列舉</span><span class="sxs-lookup"><span data-stu-id="e9991-105">MPTHREAT\_DETECTION enumeration</span></span>
+# <a name="mpthreat_detection-enumeration"></a><span data-ttu-id="00f46-105">MPTHREAT \_ 偵測列舉</span><span class="sxs-lookup"><span data-stu-id="00f46-105">MPTHREAT\_DETECTION enumeration</span></span>
 
-<span data-ttu-id="e9991-106">可能是已知的錯誤威脅偵測類型。</span><span class="sxs-lookup"><span data-stu-id="e9991-106">Possible known bad threat detection types.</span></span>
+<span data-ttu-id="00f46-106">可能是已知的錯誤威脅偵測類型。</span><span class="sxs-lookup"><span data-stu-id="00f46-106">Possible known bad threat detection types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e9991-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="e9991-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="00f46-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="00f46-107">Syntax</span></span>
 
 
 ```C++
@@ -41,54 +41,54 @@ typedef enum tagMPTHREAT_DETECTION {
 
 
 
-## <a name="constants"></a><span data-ttu-id="e9991-108">常數</span><span class="sxs-lookup"><span data-stu-id="e9991-108">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="00f46-108">常數</span><span class="sxs-lookup"><span data-stu-id="00f46-108">Constants</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="e9991-109"><span id="MP_THREAT_DETECTION_CONCRETE"></span><span id="mp_threat_detection_concrete"></span>**MP \_ 威脅 \_ 偵測 \_ 實體**</span><span class="sxs-lookup"><span data-stu-id="e9991-109"><span id="MP_THREAT_DETECTION_CONCRETE"></span><span id="mp_threat_detection_concrete"></span>**MP\_THREAT\_DETECTION\_CONCRETE**</span></span>
+<span data-ttu-id="00f46-109"><span id="MP_THREAT_DETECTION_CONCRETE"></span><span id="mp_threat_detection_concrete"></span>**MP \_ 威脅 \_ 偵測 \_ 實體**</span><span class="sxs-lookup"><span data-stu-id="00f46-109"><span id="MP_THREAT_DETECTION_CONCRETE"></span><span id="mp_threat_detection_concrete"></span>**MP\_THREAT\_DETECTION\_CONCRETE**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e9991-110">經由具體簽章偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="e9991-110">Threat was detected via concrete signatures.</span></span>
+<span data-ttu-id="00f46-110">經由具體簽章偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="00f46-110">Threat was detected via concrete signatures.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e9991-111"><span id="MP_THREAT_DETECTION_HEURISTIC"></span><span id="mp_threat_detection_heuristic"></span>**MP \_ 威脅 \_ 偵測 \_ 啟發學習法**</span><span class="sxs-lookup"><span data-stu-id="e9991-111"><span id="MP_THREAT_DETECTION_HEURISTIC"></span><span id="mp_threat_detection_heuristic"></span>**MP\_THREAT\_DETECTION\_HEURISTIC**</span></span>
+<span data-ttu-id="00f46-111"><span id="MP_THREAT_DETECTION_HEURISTIC"></span><span id="mp_threat_detection_heuristic"></span>**MP \_ 威脅 \_ 偵測 \_ 啟發學習法**</span><span class="sxs-lookup"><span data-stu-id="00f46-111"><span id="MP_THREAT_DETECTION_HEURISTIC"></span><span id="mp_threat_detection_heuristic"></span>**MP\_THREAT\_DETECTION\_HEURISTIC**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e9991-112">透過啟發學習法偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="e9991-112">Threat was detected via heuristic.</span></span>
+<span data-ttu-id="00f46-112">透過啟發學習法偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="00f46-112">Threat was detected via heuristic.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e9991-113"><span id="MP_THREAT_DETECTION_GENERIC"></span><span id="mp_threat_detection_generic"></span>**MP \_ 威脅 \_ 偵測 \_ 泛型**</span><span class="sxs-lookup"><span data-stu-id="e9991-113"><span id="MP_THREAT_DETECTION_GENERIC"></span><span id="mp_threat_detection_generic"></span>**MP\_THREAT\_DETECTION\_GENERIC**</span></span>
+<span data-ttu-id="00f46-113"><span id="MP_THREAT_DETECTION_GENERIC"></span><span id="mp_threat_detection_generic"></span>**MP \_ 威脅 \_ 偵測 \_ 泛型**</span><span class="sxs-lookup"><span data-stu-id="00f46-113"><span id="MP_THREAT_DETECTION_GENERIC"></span><span id="mp_threat_detection_generic"></span>**MP\_THREAT\_DETECTION\_GENERIC**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e9991-114">透過泛型簽章偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="e9991-114">Threat was detected via generic signatures.</span></span>
+<span data-ttu-id="00f46-114">透過泛型簽章偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="00f46-114">Threat was detected via generic signatures.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e9991-115"><span id="MP_THREAT_DETECTION_SUSPICIOUS"></span><span id="mp_threat_detection_suspicious"></span>**MP \_ 威脅 \_ 偵測 \_ 可疑**</span><span class="sxs-lookup"><span data-stu-id="e9991-115"><span id="MP_THREAT_DETECTION_SUSPICIOUS"></span><span id="mp_threat_detection_suspicious"></span>**MP\_THREAT\_DETECTION\_SUSPICIOUS**</span></span>
+<span data-ttu-id="00f46-115"><span id="MP_THREAT_DETECTION_SUSPICIOUS"></span><span id="mp_threat_detection_suspicious"></span>**MP \_ 威脅 \_ 偵測 \_ 可疑**</span><span class="sxs-lookup"><span data-stu-id="00f46-115"><span id="MP_THREAT_DETECTION_SUSPICIOUS"></span><span id="mp_threat_detection_suspicious"></span>**MP\_THREAT\_DETECTION\_SUSPICIOUS**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e9991-116">透過行為監視偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="e9991-116">Threat was detected via behavior monitoring.</span></span>
+<span data-ttu-id="00f46-116">透過行為監視偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="00f46-116">Threat was detected via behavior monitoring.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e9991-117"><span id="MP_THREAT_DETECTION_FASTPATH"></span><span id="mp_threat_detection_fastpath"></span>**MP \_ 威脅 \_ 偵測 \_ FASTPATH**</span><span class="sxs-lookup"><span data-stu-id="e9991-117"><span id="MP_THREAT_DETECTION_FASTPATH"></span><span id="mp_threat_detection_fastpath"></span>**MP\_THREAT\_DETECTION\_FASTPATH**</span></span>
+<span data-ttu-id="00f46-117"><span id="MP_THREAT_DETECTION_FASTPATH"></span><span id="mp_threat_detection_fastpath"></span>**MP \_ 威脅 \_ 偵測 \_ FASTPATH**</span><span class="sxs-lookup"><span data-stu-id="00f46-117"><span id="MP_THREAT_DETECTION_FASTPATH"></span><span id="mp_threat_detection_fastpath"></span>**MP\_THREAT\_DETECTION\_FASTPATH**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="e9991-118">透過 fastpath 偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="e9991-118">Threat was detected via fastpath.</span></span>
+<span data-ttu-id="00f46-118">透過 fastpath 偵測到威脅。</span><span class="sxs-lookup"><span data-stu-id="00f46-118">Threat was detected via fastpath.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="e9991-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="e9991-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="00f46-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="00f46-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="e9991-120">需求</span><span class="sxs-lookup"><span data-stu-id="e9991-120">Requirement</span></span> | <span data-ttu-id="e9991-121">值</span><span class="sxs-lookup"><span data-stu-id="e9991-121">Value</span></span> |
+| <span data-ttu-id="00f46-120">需求</span><span class="sxs-lookup"><span data-stu-id="00f46-120">Requirement</span></span> | <span data-ttu-id="00f46-121">值</span><span class="sxs-lookup"><span data-stu-id="00f46-121">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="e9991-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e9991-122">Minimum supported client</span></span><br/> | <span data-ttu-id="e9991-123">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e9991-123">Windows 8 \[desktop apps only\]</span></span><br/>                                            |
-| <span data-ttu-id="e9991-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e9991-124">Minimum supported server</span></span><br/> | <span data-ttu-id="e9991-125">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e9991-125">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="e9991-126">標頭</span><span class="sxs-lookup"><span data-stu-id="e9991-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="e9991-127"><dt>MpClient。h</dt></span><span class="sxs-lookup"><span data-stu-id="e9991-127"><dt>MpClient.h</dt></span></span> </dl> |
+| <span data-ttu-id="00f46-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="00f46-122">Minimum supported client</span></span><br/> | <span data-ttu-id="00f46-123">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="00f46-123">Windows 8 \[desktop apps only\]</span></span><br/>                                            |
+| <span data-ttu-id="00f46-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="00f46-124">Minimum supported server</span></span><br/> | <span data-ttu-id="00f46-125">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="00f46-125">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="00f46-126">標頭</span><span class="sxs-lookup"><span data-stu-id="00f46-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="00f46-127"><dt>MpClient。h</dt></span><span class="sxs-lookup"><span data-stu-id="00f46-127"><dt>MpClient.h</dt></span></span> </dl> |
 
 
 

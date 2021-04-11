@@ -35,14 +35,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943527"
 ---
-# <a name="legacyfilenames-enumeration"></a><span data-ttu-id="f1b3f-103">LegacyFileNames 列舉</span><span class="sxs-lookup"><span data-stu-id="f1b3f-103">LegacyFileNames enumeration</span></span>
+# <a name="legacyfilenames-enumeration"></a><span data-ttu-id="61ef9-103">LegacyFileNames 列舉</span><span class="sxs-lookup"><span data-stu-id="61ef9-103">LegacyFileNames enumeration</span></span>
 
-<span data-ttu-id="f1b3f-104">LegacyFileNames 的選項</span><span class="sxs-lookup"><span data-stu-id="f1b3f-104">Options for LegacyFileNames</span></span>
+<span data-ttu-id="61ef9-104">LegacyFileNames 的選項</span><span class="sxs-lookup"><span data-stu-id="61ef9-104">Options for LegacyFileNames</span></span>
 
-<span data-ttu-id="f1b3f-105">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="f1b3f-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
-<span data-ttu-id="f1b3f-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f1b3f-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="61ef9-105">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="61ef9-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
+<span data-ttu-id="61ef9-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="61ef9-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f1b3f-107">語法</span><span class="sxs-lookup"><span data-stu-id="f1b3f-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="61ef9-107">語法</span><span class="sxs-lookup"><span data-stu-id="61ef9-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -55,33 +55,33 @@ Dim instance As LegacyFileNames
 public enum LegacyFileNames
 ```
 
-## <a name="members"></a><span data-ttu-id="f1b3f-108">成員</span><span class="sxs-lookup"><span data-stu-id="f1b3f-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="61ef9-108">成員</span><span class="sxs-lookup"><span data-stu-id="61ef9-108">Members</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="f1b3f-109">成員名稱</span><span class="sxs-lookup"><span data-stu-id="f1b3f-109">Member name</span></span></th>
-<th><span data-ttu-id="f1b3f-110">說明</span><span class="sxs-lookup"><span data-stu-id="f1b3f-110">Description</span></span></th>
+<th><span data-ttu-id="61ef9-109">成員名稱</span><span class="sxs-lookup"><span data-stu-id="61ef9-109">Member name</span></span></th>
+<th><span data-ttu-id="61ef9-110">說明</span><span class="sxs-lookup"><span data-stu-id="61ef9-110">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td></td>
-<td><span data-ttu-id="f1b3f-111">ESE98FileNames</span><span class="sxs-lookup"><span data-stu-id="f1b3f-111">ESE98FileNames</span></span></td>
-<td><span data-ttu-id="f1b3f-112">當這個選項存在時，database engine 將會針對其檔案使用下列命名慣例： o 交易記錄檔將會使用。記錄檔，其副檔名為 o 的檢查點檔案將會使用。副檔名的 .CHK</span><span class="sxs-lookup"><span data-stu-id="f1b3f-112">When this option is present then the database engine will use the following naming conventions for its files: o Transaction Log files will use .LOG for their file extension o Checkpoint files will use .CHK for their file extension</span></span></td>
+<td><span data-ttu-id="61ef9-111">ESE98FileNames</span><span class="sxs-lookup"><span data-stu-id="61ef9-111">ESE98FileNames</span></span></td>
+<td><span data-ttu-id="61ef9-112">當這個選項存在時，database engine 將會針對其檔案使用下列命名慣例： o 交易記錄檔將會使用。記錄檔，其副檔名為 o 的檢查點檔案將會使用。副檔名的 .CHK</span><span class="sxs-lookup"><span data-stu-id="61ef9-112">When this option is present then the database engine will use the following naming conventions for its files: o Transaction Log files will use .LOG for their file extension o Checkpoint files will use .CHK for their file extension</span></span></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><span data-ttu-id="f1b3f-113">EightDotThreeSoftCompat</span><span class="sxs-lookup"><span data-stu-id="f1b3f-113">EightDotThreeSoftCompat</span></span></td>
-<td><span data-ttu-id="f1b3f-114">盡可能保留8.3 命名語法。</span><span class="sxs-lookup"><span data-stu-id="f1b3f-114">Preserve the 8.3 naming syntax for as long as possible.</span></span> <span data-ttu-id="f1b3f-115"> (不應變更，請確保沒有記錄檔) </span><span class="sxs-lookup"><span data-stu-id="f1b3f-115">(this should not be changed, w/o ensuring there are no log files)</span></span></td>
+<td><span data-ttu-id="61ef9-113">EightDotThreeSoftCompat</span><span class="sxs-lookup"><span data-stu-id="61ef9-113">EightDotThreeSoftCompat</span></span></td>
+<td><span data-ttu-id="61ef9-114">盡可能保留8.3 命名語法。</span><span class="sxs-lookup"><span data-stu-id="61ef9-114">Preserve the 8.3 naming syntax for as long as possible.</span></span> <span data-ttu-id="61ef9-115"> (不應變更，請確保沒有記錄檔) </span><span class="sxs-lookup"><span data-stu-id="61ef9-115">(this should not be changed, w/o ensuring there are no log files)</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="see-also"></a><span data-ttu-id="f1b3f-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f1b3f-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="61ef9-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="61ef9-116">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="f1b3f-117">參考</span><span class="sxs-lookup"><span data-stu-id="f1b3f-117">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="61ef9-117">參考</span><span class="sxs-lookup"><span data-stu-id="61ef9-117">Reference</span></span>
 
-[<span data-ttu-id="f1b3f-118">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="f1b3f-118">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)
+[<span data-ttu-id="61ef9-118">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="61ef9-118">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)

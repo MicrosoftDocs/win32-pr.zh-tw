@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944324"
 ---
-# <a name="systemdevicesaudiodevicerawprocessingsupported"></a><span data-ttu-id="1fa1e-104">System.Devices.AudioDevice.RawProcessingSupported</span><span class="sxs-lookup"><span data-stu-id="1fa1e-104">System.Devices.AudioDevice.RawProcessingSupported</span></span>
+# <a name="systemdevicesaudiodevicerawprocessingsupported"></a><span data-ttu-id="4a610-104">System.Devices.AudioDevice.RawProcessingSupported</span><span class="sxs-lookup"><span data-stu-id="4a610-104">System.Devices.AudioDevice.RawProcessingSupported</span></span>
 
-<span data-ttu-id="1fa1e-105">音訊裝置的原始處理模式支援。</span><span class="sxs-lookup"><span data-stu-id="1fa1e-105">Raw processing mode support for the audio device.</span></span> <span data-ttu-id="1fa1e-106">如果 VARIANT \_ TRUE，表示裝置支援原始處理模式。</span><span class="sxs-lookup"><span data-stu-id="1fa1e-106">If VARIANT\_TRUE the device supports raw processing mode.</span></span>
+<span data-ttu-id="4a610-105">音訊裝置的原始處理模式支援。</span><span class="sxs-lookup"><span data-stu-id="4a610-105">Raw processing mode support for the audio device.</span></span> <span data-ttu-id="4a610-106">如果 VARIANT \_ TRUE，表示裝置支援原始處理模式。</span><span class="sxs-lookup"><span data-stu-id="4a610-106">If VARIANT\_TRUE the device supports raw processing mode.</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a><span data-ttu-id="1fa1e-107">Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、1507版、Windows 8。1</span><span class="sxs-lookup"><span data-stu-id="1fa1e-107">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a><span data-ttu-id="4a610-107">Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、1507版、Windows 8。1</span><span class="sxs-lookup"><span data-stu-id="4a610-107">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1</span></span>
 
 ```
 propertyDescription
@@ -31,54 +31,54 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a><span data-ttu-id="1fa1e-108">備註</span><span class="sxs-lookup"><span data-stu-id="1fa1e-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4a610-108">備註</span><span class="sxs-lookup"><span data-stu-id="4a610-108">Remarks</span></span>
 
-<span data-ttu-id="1fa1e-109">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="1fa1e-109">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="4a610-109">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="4a610-109">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="1fa1e-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="1fa1e-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4a610-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="4a610-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="1fa1e-111">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="1fa1e-111">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="4a610-111">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="4a610-111">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-112">searchInfo</span><span class="sxs-lookup"><span data-stu-id="1fa1e-112">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="4a610-112">searchInfo</span><span class="sxs-lookup"><span data-stu-id="4a610-112">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-113">labelInfo</span><span class="sxs-lookup"><span data-stu-id="1fa1e-113">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="4a610-113">labelInfo</span><span class="sxs-lookup"><span data-stu-id="4a610-113">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-114">typeInfo</span><span class="sxs-lookup"><span data-stu-id="1fa1e-114">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="4a610-114">typeInfo</span><span class="sxs-lookup"><span data-stu-id="4a610-114">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-115">displayInfo</span><span class="sxs-lookup"><span data-stu-id="1fa1e-115">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="4a610-115">displayInfo</span><span class="sxs-lookup"><span data-stu-id="4a610-115">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-116">stringFormat</span><span class="sxs-lookup"><span data-stu-id="1fa1e-116">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="4a610-116">stringFormat</span><span class="sxs-lookup"><span data-stu-id="4a610-116">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-117">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="1fa1e-117">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="4a610-117">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="4a610-117">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-118">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="1fa1e-118">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="4a610-118">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="4a610-118">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-119">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="1fa1e-119">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="4a610-119">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="4a610-119">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-120">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="1fa1e-120">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="4a610-120">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="4a610-120">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-121">drawControl</span><span class="sxs-lookup"><span data-stu-id="1fa1e-121">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="4a610-121">drawControl</span><span class="sxs-lookup"><span data-stu-id="4a610-121">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-122">editControl</span><span class="sxs-lookup"><span data-stu-id="1fa1e-122">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="4a610-122">editControl</span><span class="sxs-lookup"><span data-stu-id="4a610-122">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-123">filterControl</span><span class="sxs-lookup"><span data-stu-id="1fa1e-123">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="4a610-123">filterControl</span><span class="sxs-lookup"><span data-stu-id="4a610-123">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="1fa1e-124">queryControl</span><span class="sxs-lookup"><span data-stu-id="1fa1e-124">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="4a610-124">queryControl</span><span class="sxs-lookup"><span data-stu-id="4a610-124">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  

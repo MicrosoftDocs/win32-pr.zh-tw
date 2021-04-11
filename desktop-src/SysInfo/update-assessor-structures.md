@@ -11,16 +11,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943555"
 ---
-# <a name="update-assessor-structures"></a><span data-ttu-id="1dfc9-103">更新評估者結構</span><span class="sxs-lookup"><span data-stu-id="1dfc9-103">Update Assessor Structures</span></span>
+# <a name="update-assessor-structures"></a><span data-ttu-id="21ed4-103">更新評估者結構</span><span class="sxs-lookup"><span data-stu-id="21ed4-103">Update Assessor Structures</span></span>
 
-<span data-ttu-id="1dfc9-104">更新存取子提供者會使用下列函數。</span><span class="sxs-lookup"><span data-stu-id="1dfc9-104">The following functions are used by the Update Accessor provider.</span></span>
+<span data-ttu-id="21ed4-104">更新存取子提供者會使用下列函數。</span><span class="sxs-lookup"><span data-stu-id="21ed4-104">The following functions are used by the Update Accessor provider.</span></span>
 
 
 
-| <span data-ttu-id="1dfc9-105">函式</span><span class="sxs-lookup"><span data-stu-id="1dfc9-105">Function</span></span>                                         | <span data-ttu-id="1dfc9-106">描述</span><span class="sxs-lookup"><span data-stu-id="1dfc9-106">Description</span></span>                                                           |
+| <span data-ttu-id="21ed4-105">函式</span><span class="sxs-lookup"><span data-stu-id="21ed4-105">Function</span></span>                                         | <span data-ttu-id="21ed4-106">描述</span><span class="sxs-lookup"><span data-stu-id="21ed4-106">Description</span></span>                                                           |
 |--------------------------------------------------|-----------------------------------------------------------------------|
-| [<span data-ttu-id="1dfc9-107">**OSUpdateAssessment**</span><span class="sxs-lookup"><span data-stu-id="1dfc9-107">**OSUpdateAssessment**</span></span>](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) | <span data-ttu-id="1dfc9-108">定義目標裝置上作業系統的最新狀態。</span><span class="sxs-lookup"><span data-stu-id="1dfc9-108">Defines how up-to-date the OS on a targeted device is.</span></span>                |
-| [<span data-ttu-id="1dfc9-109">**Microsoft.intelligencepacks.updateassessment**</span><span class="sxs-lookup"><span data-stu-id="1dfc9-109">**UpdateAssessment**</span></span>](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment)   | <span data-ttu-id="1dfc9-110">包含的資訊會評估已安裝作業系統的最新狀態。</span><span class="sxs-lookup"><span data-stu-id="1dfc9-110">Contains information that assesses how up-to-date an installed OS is.</span></span> |
+| [<span data-ttu-id="21ed4-107">**OSUpdateAssessment**</span><span class="sxs-lookup"><span data-stu-id="21ed4-107">**OSUpdateAssessment**</span></span>](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) | <span data-ttu-id="21ed4-108">定義目標裝置上作業系統的最新狀態。</span><span class="sxs-lookup"><span data-stu-id="21ed4-108">Defines how up-to-date the OS on a targeted device is.</span></span>                |
+| [<span data-ttu-id="21ed4-109">**Microsoft.intelligencepacks.updateassessment**</span><span class="sxs-lookup"><span data-stu-id="21ed4-109">**UpdateAssessment**</span></span>](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment)   | <span data-ttu-id="21ed4-110">包含的資訊會評估已安裝作業系統的最新狀態。</span><span class="sxs-lookup"><span data-stu-id="21ed4-110">Contains information that assesses how up-to-date an installed OS is.</span></span> |
 
 
 

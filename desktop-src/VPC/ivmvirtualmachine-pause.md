@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843944"
 ---
-# <a name="ivmvirtualmachinepause-method"></a><span data-ttu-id="fc2c0-106">IVMVirtualMachine：:P ause 方法</span><span class="sxs-lookup"><span data-stu-id="fc2c0-106">IVMVirtualMachine::Pause method</span></span>
+# <a name="ivmvirtualmachinepause-method"></a><span data-ttu-id="bea39-106">IVMVirtualMachine：:P ause 方法</span><span class="sxs-lookup"><span data-stu-id="bea39-106">IVMVirtualMachine::Pause method</span></span>
 
-<span data-ttu-id="fc2c0-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="fc2c0-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="fc2c0-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
+<span data-ttu-id="bea39-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="bea39-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="bea39-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="bea39-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
 
-<span data-ttu-id="fc2c0-109">暫停虛擬機器 (VM) 。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-109">Pauses the virtual machine (VM).</span></span>
+<span data-ttu-id="bea39-109">暫停虛擬機器 (VM) 。</span><span class="sxs-lookup"><span data-stu-id="bea39-109">Pauses the virtual machine (VM).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fc2c0-110">語法</span><span class="sxs-lookup"><span data-stu-id="fc2c0-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bea39-110">語法</span><span class="sxs-lookup"><span data-stu-id="bea39-110">Syntax</span></span>
 
 
 ```C++
@@ -38,54 +38,54 @@ HRESULT Pause();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="fc2c0-111">參數</span><span class="sxs-lookup"><span data-stu-id="fc2c0-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bea39-111">參數</span><span class="sxs-lookup"><span data-stu-id="bea39-111">Parameters</span></span>
 
-<span data-ttu-id="fc2c0-112">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-112">This method has no parameters.</span></span>
+<span data-ttu-id="bea39-112">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="bea39-112">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="fc2c0-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="fc2c0-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bea39-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="bea39-113">Return value</span></span>
 
-<span data-ttu-id="fc2c0-114">這個方法可以傳回其中一個值。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-114">This method can return one of these values.</span></span>
+<span data-ttu-id="bea39-114">這個方法可以傳回其中一個值。</span><span class="sxs-lookup"><span data-stu-id="bea39-114">This method can return one of these values.</span></span>
 
 
 
-| <span data-ttu-id="fc2c0-115">傳回碼/值</span><span class="sxs-lookup"><span data-stu-id="fc2c0-115">Return code/value</span></span>                                                                                                                                                                          | <span data-ttu-id="fc2c0-116">Description</span><span class="sxs-lookup"><span data-stu-id="fc2c0-116">Description</span></span>                                                                  |
+| <span data-ttu-id="bea39-115">傳回碼/值</span><span class="sxs-lookup"><span data-stu-id="bea39-115">Return code/value</span></span>                                                                                                                                                                          | <span data-ttu-id="bea39-116">Description</span><span class="sxs-lookup"><span data-stu-id="bea39-116">Description</span></span>                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| <dl> <span data-ttu-id="fc2c0-117"><dt>**S \_確定**</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="fc2c0-117"><dt>**S\_OK**</dt> <dt>0</dt></span></span> </dl>                                                | <span data-ttu-id="fc2c0-118">作業成功。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-118">The operation was successful.</span></span><br/>                                     |
-| <dl> <span data-ttu-id="fc2c0-119"><dt>**E \_FAIL**</dt> <dt>0x80004005</dt></span><span class="sxs-lookup"><span data-stu-id="fc2c0-119"><dt>**E\_FAIL**</dt> <dt>0x80004005</dt></span></span> </dl>                                     | <span data-ttu-id="fc2c0-120">VM 已暫停。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-120">The VM is already paused.</span></span><br/>                                         |
-| <dl> <span data-ttu-id="fc2c0-121"><dt>**HRESULT \_從 \_ WIN32 (\_ \_ 拒絕存取錯誤)**</dt> <dt>0x80070005</dt></span><span class="sxs-lookup"><span data-stu-id="fc2c0-121"><dt>**HRESULT\_FROM\_WIN32(ERROR\_ACCESS\_DENIED)**</dt> <dt>0x80070005</dt></span></span> </dl> | <span data-ttu-id="fc2c0-122">呼叫端必須具有執行存取權限，才能暫停此 VM。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-122">The caller must have execute access permissions to pause this VM.</span></span><br/> |
-| <dl> <span data-ttu-id="fc2c0-123"><dt>**VM \_E \_ 0xA0040202 \_ 計時**</dt> <dt></dt></span><span class="sxs-lookup"><span data-stu-id="fc2c0-123"><dt>**VM\_E\_TIMED\_OUT**</dt> <dt>0xA0040202</dt></span></span> </dl>                           | <span data-ttu-id="fc2c0-124">作業未及時完成。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-124">The operation did not complete in a timely manner.</span></span><br/>                |
-| <dl> <span data-ttu-id="fc2c0-125"><dt>**VM \_E \_ VM \_ 未 \_**</dt>執行 <dt>0xA0040206</dt></span><span class="sxs-lookup"><span data-stu-id="fc2c0-125"><dt>**VM\_E\_VM\_NOT\_RUNNING**</dt> <dt>0xA0040206</dt></span></span> </dl>                     | <span data-ttu-id="fc2c0-126">虛擬機器未執行。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-126">The virtual machine is not running.</span></span><br/>                               |
-| <dl> <span data-ttu-id="fc2c0-127"><dt>**VM \_E \_ VM \_ 不明**</dt> <dt>0xA0040207</dt></span><span class="sxs-lookup"><span data-stu-id="fc2c0-127"><dt>**VM\_E\_VM\_UNKNOWN**</dt> <dt>0xA0040207</dt></span></span> </dl>                          | <span data-ttu-id="fc2c0-128">未知的設定。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-128">The configuration is unknown.</span></span><br/>                                     |
-| <dl> <span data-ttu-id="fc2c0-129"><dt>**會 \_E \_ 例外**</dt>狀況 <dt>0x80020009</dt></span><span class="sxs-lookup"><span data-stu-id="fc2c0-129"><dt>**DISP\_E\_EXCEPTION**</dt> <dt>0x80020009</dt></span></span> </dl>                          | <span data-ttu-id="fc2c0-130">已發生未預期的錯誤。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-130">An unexpected error has occurred.</span></span><br/>                                 |
+| <dl> <span data-ttu-id="bea39-117"><dt>**S \_確定**</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="bea39-117"><dt>**S\_OK**</dt> <dt>0</dt></span></span> </dl>                                                | <span data-ttu-id="bea39-118">作業成功。</span><span class="sxs-lookup"><span data-stu-id="bea39-118">The operation was successful.</span></span><br/>                                     |
+| <dl> <span data-ttu-id="bea39-119"><dt>**E \_FAIL**</dt> <dt>0x80004005</dt></span><span class="sxs-lookup"><span data-stu-id="bea39-119"><dt>**E\_FAIL**</dt> <dt>0x80004005</dt></span></span> </dl>                                     | <span data-ttu-id="bea39-120">VM 已暫停。</span><span class="sxs-lookup"><span data-stu-id="bea39-120">The VM is already paused.</span></span><br/>                                         |
+| <dl> <span data-ttu-id="bea39-121"><dt>**HRESULT \_從 \_ WIN32 (\_ \_ 拒絕存取錯誤)**</dt> <dt>0x80070005</dt></span><span class="sxs-lookup"><span data-stu-id="bea39-121"><dt>**HRESULT\_FROM\_WIN32(ERROR\_ACCESS\_DENIED)**</dt> <dt>0x80070005</dt></span></span> </dl> | <span data-ttu-id="bea39-122">呼叫端必須具有執行存取權限，才能暫停此 VM。</span><span class="sxs-lookup"><span data-stu-id="bea39-122">The caller must have execute access permissions to pause this VM.</span></span><br/> |
+| <dl> <span data-ttu-id="bea39-123"><dt>**VM \_E \_ 0xA0040202 \_ 計時**</dt> <dt></dt></span><span class="sxs-lookup"><span data-stu-id="bea39-123"><dt>**VM\_E\_TIMED\_OUT**</dt> <dt>0xA0040202</dt></span></span> </dl>                           | <span data-ttu-id="bea39-124">作業未及時完成。</span><span class="sxs-lookup"><span data-stu-id="bea39-124">The operation did not complete in a timely manner.</span></span><br/>                |
+| <dl> <span data-ttu-id="bea39-125"><dt>**VM \_E \_ VM \_ 未 \_**</dt>執行 <dt>0xA0040206</dt></span><span class="sxs-lookup"><span data-stu-id="bea39-125"><dt>**VM\_E\_VM\_NOT\_RUNNING**</dt> <dt>0xA0040206</dt></span></span> </dl>                     | <span data-ttu-id="bea39-126">虛擬機器未執行。</span><span class="sxs-lookup"><span data-stu-id="bea39-126">The virtual machine is not running.</span></span><br/>                               |
+| <dl> <span data-ttu-id="bea39-127"><dt>**VM \_E \_ VM \_ 不明**</dt> <dt>0xA0040207</dt></span><span class="sxs-lookup"><span data-stu-id="bea39-127"><dt>**VM\_E\_VM\_UNKNOWN**</dt> <dt>0xA0040207</dt></span></span> </dl>                          | <span data-ttu-id="bea39-128">未知的設定。</span><span class="sxs-lookup"><span data-stu-id="bea39-128">The configuration is unknown.</span></span><br/>                                     |
+| <dl> <span data-ttu-id="bea39-129"><dt>**會 \_E \_ 例外**</dt>狀況 <dt>0x80020009</dt></span><span class="sxs-lookup"><span data-stu-id="bea39-129"><dt>**DISP\_E\_EXCEPTION**</dt> <dt>0x80020009</dt></span></span> </dl>                          | <span data-ttu-id="bea39-130">已發生未預期的錯誤。</span><span class="sxs-lookup"><span data-stu-id="bea39-130">An unexpected error has occurred.</span></span><br/>                                 |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="fc2c0-131">備註</span><span class="sxs-lookup"><span data-stu-id="fc2c0-131">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bea39-131">備註</span><span class="sxs-lookup"><span data-stu-id="bea39-131">Remarks</span></span>
 
-<span data-ttu-id="fc2c0-132">**暫停** 不會儲存 VM 的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="fc2c0-132">**Pause** does not save the current state of the VM.</span></span>
+<span data-ttu-id="bea39-132">**暫停** 不會儲存 VM 的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="bea39-132">**Pause** does not save the current state of the VM.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="fc2c0-133">規格需求</span><span class="sxs-lookup"><span data-stu-id="fc2c0-133">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="bea39-133">規格需求</span><span class="sxs-lookup"><span data-stu-id="bea39-133">Requirements</span></span>
 
 
 
-| <span data-ttu-id="fc2c0-134">需求</span><span class="sxs-lookup"><span data-stu-id="fc2c0-134">Requirement</span></span> | <span data-ttu-id="fc2c0-135">值</span><span class="sxs-lookup"><span data-stu-id="fc2c0-135">Value</span></span> |
+| <span data-ttu-id="bea39-134">需求</span><span class="sxs-lookup"><span data-stu-id="bea39-134">Requirement</span></span> | <span data-ttu-id="bea39-135">值</span><span class="sxs-lookup"><span data-stu-id="bea39-135">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| <span data-ttu-id="fc2c0-136">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="fc2c0-136">Minimum supported client</span></span><br/> | <span data-ttu-id="fc2c0-137">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="fc2c0-137">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="fc2c0-138">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="fc2c0-138">Minimum supported server</span></span><br/> | <span data-ttu-id="fc2c0-139">都不支援</span><span class="sxs-lookup"><span data-stu-id="fc2c0-139">None supported</span></span><br/>                                                                     |
-| <span data-ttu-id="fc2c0-140">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="fc2c0-140">End of client support</span></span><br/>    | <span data-ttu-id="fc2c0-141">Windows 7</span><span class="sxs-lookup"><span data-stu-id="fc2c0-141">Windows 7</span></span><br/>                                                                          |
-| <span data-ttu-id="fc2c0-142">產品</span><span class="sxs-lookup"><span data-stu-id="fc2c0-142">Product</span></span><br/>                  | <span data-ttu-id="fc2c0-143">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="fc2c0-143">Windows Virtual PC</span></span><br/>                                                                 |
-| <span data-ttu-id="fc2c0-144">標頭</span><span class="sxs-lookup"><span data-stu-id="fc2c0-144">Header</span></span><br/>                   | <dl> <span data-ttu-id="fc2c0-145"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="fc2c0-145"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
-| <span data-ttu-id="fc2c0-146">IID</span><span class="sxs-lookup"><span data-stu-id="fc2c0-146">IID</span></span><br/>                      | <span data-ttu-id="fc2c0-147">IID \_ IVMVirtualMachine 定義為 f7092aa1-33ed-4f78-a59f-c00adfc2edd7</span><span class="sxs-lookup"><span data-stu-id="fc2c0-147">IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7</span></span><br/>          |
+| <span data-ttu-id="bea39-136">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="bea39-136">Minimum supported client</span></span><br/> | <span data-ttu-id="bea39-137">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="bea39-137">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="bea39-138">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="bea39-138">Minimum supported server</span></span><br/> | <span data-ttu-id="bea39-139">都不支援</span><span class="sxs-lookup"><span data-stu-id="bea39-139">None supported</span></span><br/>                                                                     |
+| <span data-ttu-id="bea39-140">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="bea39-140">End of client support</span></span><br/>    | <span data-ttu-id="bea39-141">Windows 7</span><span class="sxs-lookup"><span data-stu-id="bea39-141">Windows 7</span></span><br/>                                                                          |
+| <span data-ttu-id="bea39-142">產品</span><span class="sxs-lookup"><span data-stu-id="bea39-142">Product</span></span><br/>                  | <span data-ttu-id="bea39-143">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="bea39-143">Windows Virtual PC</span></span><br/>                                                                 |
+| <span data-ttu-id="bea39-144">標頭</span><span class="sxs-lookup"><span data-stu-id="bea39-144">Header</span></span><br/>                   | <dl> <span data-ttu-id="bea39-145"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="bea39-145"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
+| <span data-ttu-id="bea39-146">IID</span><span class="sxs-lookup"><span data-stu-id="bea39-146">IID</span></span><br/>                      | <span data-ttu-id="bea39-147">IID \_ IVMVirtualMachine 定義為 f7092aa1-33ed-4f78-a59f-c00adfc2edd7</span><span class="sxs-lookup"><span data-stu-id="bea39-147">IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7</span></span><br/>          |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="fc2c0-148">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fc2c0-148">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bea39-148">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bea39-148">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="fc2c0-149">**IVMVirtualMachine**</span><span class="sxs-lookup"><span data-stu-id="fc2c0-149">**IVMVirtualMachine**</span></span>](ivmvirtualmachine.md)
+[<span data-ttu-id="bea39-149">**IVMVirtualMachine**</span><span class="sxs-lookup"><span data-stu-id="bea39-149">**IVMVirtualMachine**</span></span>](ivmvirtualmachine.md)
 </dt> </dl>
 
  

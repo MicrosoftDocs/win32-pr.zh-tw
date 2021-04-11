@@ -11,24 +11,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944343"
 ---
-# <a name="cmspcallmultigraph-public-methods-called-by-mspaddress-object"></a><span data-ttu-id="61f97-103">CMSPCallMultiGraph 由 MSPAddress 物件呼叫的公用方法</span><span class="sxs-lookup"><span data-stu-id="61f97-103">CMSPCallMultiGraph Public Methods Called by MSPAddress Object</span></span>
+# <a name="cmspcallmultigraph-public-methods-called-by-mspaddress-object"></a><span data-ttu-id="79c0a-103">CMSPCallMultiGraph 由 MSPAddress 物件呼叫的公用方法</span><span class="sxs-lookup"><span data-stu-id="79c0a-103">CMSPCallMultiGraph Public Methods Called by MSPAddress Object</span></span>
 
 
 
-| <span data-ttu-id="61f97-104">CMSPCallMultiGraph 公用方法</span><span class="sxs-lookup"><span data-stu-id="61f97-104">CMSPCallMultiGraph public methods</span></span>               | <span data-ttu-id="61f97-105">Description</span><span class="sxs-lookup"><span data-stu-id="61f97-105">Description</span></span>                                                                                                                                |
+| <span data-ttu-id="79c0a-104">CMSPCallMultiGraph 公用方法</span><span class="sxs-lookup"><span data-stu-id="79c0a-104">CMSPCallMultiGraph public methods</span></span>               | <span data-ttu-id="79c0a-105">Description</span><span class="sxs-lookup"><span data-stu-id="79c0a-105">Description</span></span>                                                                                                                                |
 |-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="61f97-106">**Init**</span><span class="sxs-lookup"><span data-stu-id="61f97-106">**Init**</span></span>](/windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-init)         | <span data-ttu-id="61f97-107">由 MSP 位址物件呼叫 (在方法 [**CreateMSPCall**](/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall) 中) 初始化 MSP 呼叫物件。</span><span class="sxs-lookup"><span data-stu-id="61f97-107">Called by the MSP address object (in the method [**CreateMSPCall**](/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall)) to initialize the MSP call object.</span></span>    |
-| [<span data-ttu-id="61f97-108">**關閉**</span><span class="sxs-lookup"><span data-stu-id="61f97-108">**ShutDown**</span></span>](/windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-shutdown) | <span data-ttu-id="61f97-109">由 MSP 位址物件呼叫 (在方法 [**ShutdownMSPCall**](/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall) 中) 關閉 MSP 呼叫物件。</span><span class="sxs-lookup"><span data-stu-id="61f97-109">Called by the MSP address object (in the method [**ShutdownMSPCall**](/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall)) to shut down the MSP call object.</span></span> |
+| [<span data-ttu-id="79c0a-106">**Init**</span><span class="sxs-lookup"><span data-stu-id="79c0a-106">**Init**</span></span>](/windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-init)         | <span data-ttu-id="79c0a-107">由 MSP 位址物件呼叫 (在方法 [**CreateMSPCall**](/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall) 中) 初始化 MSP 呼叫物件。</span><span class="sxs-lookup"><span data-stu-id="79c0a-107">Called by the MSP address object (in the method [**CreateMSPCall**](/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall)) to initialize the MSP call object.</span></span>    |
+| [<span data-ttu-id="79c0a-108">**關閉**</span><span class="sxs-lookup"><span data-stu-id="79c0a-108">**ShutDown**</span></span>](/windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-shutdown) | <span data-ttu-id="79c0a-109">由 MSP 位址物件呼叫 (在方法 [**ShutdownMSPCall**](/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall) 中) 關閉 MSP 呼叫物件。</span><span class="sxs-lookup"><span data-stu-id="79c0a-109">Called by the MSP address object (in the method [**ShutdownMSPCall**](/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall)) to shut down the MSP call object.</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="61f97-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="61f97-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="79c0a-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="79c0a-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="61f97-111">**CMSPCallMultiGraph**</span><span class="sxs-lookup"><span data-stu-id="61f97-111">**CMSPCallMultiGraph**</span></span>](/windows/desktop/api/Mspcall/nl-mspcall-cmspcallmultigraph)
+[<span data-ttu-id="79c0a-111">**CMSPCallMultiGraph**</span><span class="sxs-lookup"><span data-stu-id="79c0a-111">**CMSPCallMultiGraph**</span></span>](/windows/desktop/api/Mspcall/nl-mspcall-cmspcallmultigraph)
 </dt> </dl>
 
  

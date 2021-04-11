@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943439"
 ---
-# <a name="disk-space-list-reference"></a><span data-ttu-id="8f670-103">Disk-Space 清單參考</span><span class="sxs-lookup"><span data-stu-id="8f670-103">Disk-Space List Reference</span></span>
+# <a name="disk-space-list-reference"></a><span data-ttu-id="2a86a-103">Disk-Space 清單參考</span><span class="sxs-lookup"><span data-stu-id="2a86a-103">Disk-Space List Reference</span></span>
 
-<span data-ttu-id="8f670-104">下列主題列出提供磁碟空間清單功能的資料類型和函數：</span><span class="sxs-lookup"><span data-stu-id="8f670-104">The following topics list the data types and functions that provide disk-space list functionality:</span></span>
+<span data-ttu-id="2a86a-104">下列主題列出提供磁碟空間清單功能的資料類型和函數：</span><span class="sxs-lookup"><span data-stu-id="2a86a-104">The following topics list the data types and functions that provide disk-space list functionality:</span></span>
 
--   [<span data-ttu-id="8f670-105">磁碟空間清單資料類型</span><span class="sxs-lookup"><span data-stu-id="8f670-105">Disk-Space List Data Types</span></span>](disk-space-list-data-types.md)
--   [<span data-ttu-id="8f670-106">磁碟空間清單功能</span><span class="sxs-lookup"><span data-stu-id="8f670-106">Disk-Space List Functions</span></span>](disk-space-list-functions.md)
+-   [<span data-ttu-id="2a86a-105">磁碟空間清單資料類型</span><span class="sxs-lookup"><span data-stu-id="2a86a-105">Disk-Space List Data Types</span></span>](disk-space-list-data-types.md)
+-   [<span data-ttu-id="2a86a-106">磁碟空間清單功能</span><span class="sxs-lookup"><span data-stu-id="2a86a-106">Disk-Space List Functions</span></span>](disk-space-list-functions.md)
 
  
 

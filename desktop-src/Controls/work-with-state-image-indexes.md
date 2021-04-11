@@ -11,26 +11,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/20/2020
 ms.locfileid: "103681455"
 ---
-# <a name="how-to-work-with-state-image-indexes"></a><span data-ttu-id="94d14-103">如何使用狀態影像索引</span><span class="sxs-lookup"><span data-stu-id="94d14-103">How to Work With State Image Indexes</span></span>
+# <a name="how-to-work-with-state-image-indexes"></a><span data-ttu-id="7a5db-103">如何使用狀態影像索引</span><span class="sxs-lookup"><span data-stu-id="7a5db-103">How to Work With State Image Indexes</span></span>
 
-<span data-ttu-id="94d14-104">通常會對如何在樹狀檢視控制項中設定和取出狀態影像索引產生混淆。</span><span class="sxs-lookup"><span data-stu-id="94d14-104">There is often confusion about how to set and retrieve the state image index in a tree-view control.</span></span> <span data-ttu-id="94d14-105">下列範例示範設定和抓取狀態影像索引的適當方法。</span><span class="sxs-lookup"><span data-stu-id="94d14-105">The following examples demonstrate the proper method for setting and retrieving the state image index.</span></span> <span data-ttu-id="94d14-106">這些範例假設樹狀檢視控制項中只有兩個狀態影像索引，未核取並核取。</span><span class="sxs-lookup"><span data-stu-id="94d14-106">The examples assume that there are only two state image indexes in the tree-view control, unchecked and checked.</span></span> <span data-ttu-id="94d14-107">如果您的應用程式包含兩個以上的應用程式，則必須修改這些函式來處理該案例。</span><span class="sxs-lookup"><span data-stu-id="94d14-107">If your application contains more than two, these functions will need to be modified to handle that case.</span></span>
+<span data-ttu-id="7a5db-104">通常會對如何在樹狀檢視控制項中設定和取出狀態影像索引產生混淆。</span><span class="sxs-lookup"><span data-stu-id="7a5db-104">There is often confusion about how to set and retrieve the state image index in a tree-view control.</span></span> <span data-ttu-id="7a5db-105">下列範例示範設定和抓取狀態影像索引的適當方法。</span><span class="sxs-lookup"><span data-stu-id="7a5db-105">The following examples demonstrate the proper method for setting and retrieving the state image index.</span></span> <span data-ttu-id="7a5db-106">這些範例假設樹狀檢視控制項中只有兩個狀態影像索引，未核取並核取。</span><span class="sxs-lookup"><span data-stu-id="7a5db-106">The examples assume that there are only two state image indexes in the tree-view control, unchecked and checked.</span></span> <span data-ttu-id="7a5db-107">如果您的應用程式包含兩個以上的應用程式，則必須修改這些函式來處理該案例。</span><span class="sxs-lookup"><span data-stu-id="7a5db-107">If your application contains more than two, these functions will need to be modified to handle that case.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="94d14-108">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="94d14-108">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="7a5db-108">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="7a5db-108">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="94d14-109">技術</span><span class="sxs-lookup"><span data-stu-id="94d14-109">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="7a5db-109">技術</span><span class="sxs-lookup"><span data-stu-id="7a5db-109">Technologies</span></span>
 
--   [<span data-ttu-id="94d14-110">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="94d14-110">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="7a5db-110">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="7a5db-110">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="94d14-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="94d14-111">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="7a5db-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="7a5db-111">Prerequisites</span></span>
 
--   <span data-ttu-id="94d14-112">C/C++</span><span class="sxs-lookup"><span data-stu-id="94d14-112">C/C++</span></span>
--   <span data-ttu-id="94d14-113">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="94d14-113">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="7a5db-112">C/C++</span><span class="sxs-lookup"><span data-stu-id="7a5db-112">C/C++</span></span>
+-   <span data-ttu-id="7a5db-113">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="7a5db-113">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="94d14-114">指示</span><span class="sxs-lookup"><span data-stu-id="94d14-114">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="7a5db-114">指示</span><span class="sxs-lookup"><span data-stu-id="7a5db-114">Instructions</span></span>
 
-### <a name="set-a-tree-view-items-check-state"></a><span data-ttu-id="94d14-115">設定 Tree-View 專案的檢查狀態</span><span class="sxs-lookup"><span data-stu-id="94d14-115">Set a Tree-View Item's Check State</span></span>
+### <a name="set-a-tree-view-items-check-state"></a><span data-ttu-id="7a5db-115">設定 Tree-View 專案的檢查狀態</span><span class="sxs-lookup"><span data-stu-id="7a5db-115">Set a Tree-View Item's Check State</span></span>
 
-<span data-ttu-id="94d14-116">下列範例示範如何設定樹狀檢視專案的檢查狀態。</span><span class="sxs-lookup"><span data-stu-id="94d14-116">The following example demonstrates how to set a tree-view item's check state.</span></span>
+<span data-ttu-id="7a5db-116">下列範例示範如何設定樹狀檢視專案的檢查狀態。</span><span class="sxs-lookup"><span data-stu-id="7a5db-116">The following example demonstrates how to set a tree-view item's check state.</span></span>
 
 
 ```C++
@@ -53,9 +53,9 @@ ms.locfileid: "103681455"
 
 
 
-### <a name="retrieve-a-tree-view-items-check-state"></a><span data-ttu-id="94d14-117">取得 Tree-View 專案的檢查狀態</span><span class="sxs-lookup"><span data-stu-id="94d14-117">Retrieve a Tree-View Item's Check State</span></span>
+### <a name="retrieve-a-tree-view-items-check-state"></a><span data-ttu-id="7a5db-117">取得 Tree-View 專案的檢查狀態</span><span class="sxs-lookup"><span data-stu-id="7a5db-117">Retrieve a Tree-View Item's Check State</span></span>
 
-<span data-ttu-id="94d14-118">下列範例示範如何取出樹狀檢視專案的檢查狀態。</span><span class="sxs-lookup"><span data-stu-id="94d14-118">The following example demonstrates how to retrieve a tree-view item's check state.</span></span>
+<span data-ttu-id="7a5db-118">下列範例示範如何取出樹狀檢視專案的檢查狀態。</span><span class="sxs-lookup"><span data-stu-id="7a5db-118">The following example demonstrates how to retrieve a tree-view item's check state.</span></span>
 
 
 ```C++
@@ -78,14 +78,14 @@ ms.locfileid: "103681455"
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="94d14-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="94d14-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7a5db-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="7a5db-119">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="94d14-120">使用 Tree-View 控制項</span><span class="sxs-lookup"><span data-stu-id="94d14-120">Using Tree-View Controls</span></span>](using-treeview.md)
+[<span data-ttu-id="7a5db-120">使用 Tree-View 控制項</span><span class="sxs-lookup"><span data-stu-id="7a5db-120">Using Tree-View Controls</span></span>](using-treeview.md)
 </dt> <dt>
 
-[<span data-ttu-id="94d14-121">CustDTv 範例說明 Tree-View 控制項中的自訂繪圖</span><span class="sxs-lookup"><span data-stu-id="94d14-121">CustDTv sample illustrates custom draw in a Tree-View control</span></span>](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
+[<span data-ttu-id="7a5db-121">CustDTv 範例說明 Tree-View 控制項中的自訂繪圖</span><span class="sxs-lookup"><span data-stu-id="7a5db-121">CustDTv sample illustrates custom draw in a Tree-View control</span></span>](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
  

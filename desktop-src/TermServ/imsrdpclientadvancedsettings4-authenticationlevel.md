@@ -46,13 +46,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843468"
 ---
-# <a name="imsrdpclientadvancedsettings4authenticationlevel-property"></a><span data-ttu-id="07b3c-114">IMsRdpClientAdvancedSettings4：： AuthenticationLevel 屬性</span><span class="sxs-lookup"><span data-stu-id="07b3c-114">IMsRdpClientAdvancedSettings4::AuthenticationLevel property</span></span>
+# <a name="imsrdpclientadvancedsettings4authenticationlevel-property"></a><span data-ttu-id="18574-114">IMsRdpClientAdvancedSettings4：： AuthenticationLevel 屬性</span><span class="sxs-lookup"><span data-stu-id="18574-114">IMsRdpClientAdvancedSettings4::AuthenticationLevel property</span></span>
 
-<span data-ttu-id="07b3c-115">指定要用於連接的驗證層級。</span><span class="sxs-lookup"><span data-stu-id="07b3c-115">Specifies the authentication level to use for the connection.</span></span>
+<span data-ttu-id="18574-115">指定要用於連接的驗證層級。</span><span class="sxs-lookup"><span data-stu-id="18574-115">Specifies the authentication level to use for the connection.</span></span>
 
-<span data-ttu-id="07b3c-116">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="07b3c-116">This property is read/write.</span></span>
+<span data-ttu-id="18574-116">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="18574-116">This property is read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="07b3c-117">Syntax</span><span class="sxs-lookup"><span data-stu-id="07b3c-117">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="18574-117">Syntax</span><span class="sxs-lookup"><span data-stu-id="18574-117">Syntax</span></span>
 
 
 ```C++
@@ -67,72 +67,72 @@ HRESULT get_AuthenticationLevel(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="07b3c-118">屬性值</span><span class="sxs-lookup"><span data-stu-id="07b3c-118">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="18574-118">屬性值</span><span class="sxs-lookup"><span data-stu-id="18574-118">Property value</span></span>
 
-<span data-ttu-id="07b3c-119">**AuthenticationLevel** 屬性的值。</span><span class="sxs-lookup"><span data-stu-id="07b3c-119">The value of the **AuthenticationLevel** property.</span></span>
+<span data-ttu-id="18574-119">**AuthenticationLevel** 屬性的值。</span><span class="sxs-lookup"><span data-stu-id="18574-119">The value of the **AuthenticationLevel** property.</span></span>
 
 <dt>
 
-<span data-ttu-id="07b3c-120">0</span><span class="sxs-lookup"><span data-stu-id="07b3c-120">0</span></span>
+<span data-ttu-id="18574-120">0</span><span class="sxs-lookup"><span data-stu-id="18574-120">0</span></span>
 </dt> <dd>
 
-<span data-ttu-id="07b3c-121">沒有伺服器的驗證。</span><span class="sxs-lookup"><span data-stu-id="07b3c-121">No authentication of the server.</span></span>
+<span data-ttu-id="18574-121">沒有伺服器的驗證。</span><span class="sxs-lookup"><span data-stu-id="18574-121">No authentication of the server.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="07b3c-122">1</span><span class="sxs-lookup"><span data-stu-id="07b3c-122">1</span></span>
+<span data-ttu-id="18574-122">1</span><span class="sxs-lookup"><span data-stu-id="18574-122">1</span></span>
 </dt> <dd>
 
-<span data-ttu-id="07b3c-123">需要伺服器驗證，且必須順利完成，連接才能繼續。</span><span class="sxs-lookup"><span data-stu-id="07b3c-123">Server authentication is required and must complete successfully for the connection to proceed.</span></span>
+<span data-ttu-id="18574-123">需要伺服器驗證，且必須順利完成，連接才能繼續。</span><span class="sxs-lookup"><span data-stu-id="18574-123">Server authentication is required and must complete successfully for the connection to proceed.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="07b3c-124">2</span><span class="sxs-lookup"><span data-stu-id="07b3c-124">2</span></span>
+<span data-ttu-id="18574-124">2</span><span class="sxs-lookup"><span data-stu-id="18574-124">2</span></span>
 </dt> <dd>
 
-<span data-ttu-id="07b3c-125">嘗試驗證服務器。</span><span class="sxs-lookup"><span data-stu-id="07b3c-125">Attempt authentication of the server.</span></span> <span data-ttu-id="07b3c-126">如果驗證失敗，系統將會提示使用者取消連線的選項，或在沒有伺服器驗證的情況下繼續進行。</span><span class="sxs-lookup"><span data-stu-id="07b3c-126">If authentication fails, the user will be prompted with the option to cancel the connection or to proceed without server authentication.</span></span>
+<span data-ttu-id="18574-125">嘗試驗證服務器。</span><span class="sxs-lookup"><span data-stu-id="18574-125">Attempt authentication of the server.</span></span> <span data-ttu-id="18574-126">如果驗證失敗，系統將會提示使用者取消連線的選項，或在沒有伺服器驗證的情況下繼續進行。</span><span class="sxs-lookup"><span data-stu-id="18574-126">If authentication fails, the user will be prompted with the option to cancel the connection or to proceed without server authentication.</span></span>
 
 </dd> </dl>
 
-## <a name="error-codes"></a><span data-ttu-id="07b3c-127">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="07b3c-127">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="18574-127">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="18574-127">Error codes</span></span>
 
-<span data-ttu-id="07b3c-128">如果成功，則傳回 **S \_ OK** 。</span><span class="sxs-lookup"><span data-stu-id="07b3c-128">Returns **S\_OK** if successful.</span></span>
+<span data-ttu-id="18574-128">如果成功，則傳回 **S \_ OK** 。</span><span class="sxs-lookup"><span data-stu-id="18574-128">Returns **S\_OK** if successful.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="07b3c-129">備註</span><span class="sxs-lookup"><span data-stu-id="07b3c-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="18574-129">備註</span><span class="sxs-lookup"><span data-stu-id="18574-129">Remarks</span></span>
 
-<span data-ttu-id="07b3c-130">如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。</span><span class="sxs-lookup"><span data-stu-id="07b3c-130">For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).</span></span>
+<span data-ttu-id="18574-130">如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。</span><span class="sxs-lookup"><span data-stu-id="18574-130">For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="07b3c-131">規格需求</span><span class="sxs-lookup"><span data-stu-id="07b3c-131">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="18574-131">規格需求</span><span class="sxs-lookup"><span data-stu-id="18574-131">Requirements</span></span>
 
 
 
-| <span data-ttu-id="07b3c-132">需求</span><span class="sxs-lookup"><span data-stu-id="07b3c-132">Requirement</span></span> | <span data-ttu-id="07b3c-133">值</span><span class="sxs-lookup"><span data-stu-id="07b3c-133">Value</span></span> |
+| <span data-ttu-id="18574-132">需求</span><span class="sxs-lookup"><span data-stu-id="18574-132">Requirement</span></span> | <span data-ttu-id="18574-133">值</span><span class="sxs-lookup"><span data-stu-id="18574-133">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="07b3c-134">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="07b3c-134">Minimum supported client</span></span><br/> | <span data-ttu-id="07b3c-135">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="07b3c-135">Windows Vista</span></span><br/>                                                                         |
-| <span data-ttu-id="07b3c-136">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="07b3c-136">Minimum supported server</span></span><br/> | <span data-ttu-id="07b3c-137">Windows Server 2008、Windows Server 2008 SP1</span><span class="sxs-lookup"><span data-stu-id="07b3c-137">Windows Server 2008, Windows Server 2008 with SP1</span></span><br/>                                     |
-| <span data-ttu-id="07b3c-138">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="07b3c-138">Type library</span></span><br/>             | <dl> <span data-ttu-id="07b3c-139"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="07b3c-139"><dt>MsTscAx.dll</dt></span></span> </dl>           |
-| <span data-ttu-id="07b3c-140">DLL</span><span class="sxs-lookup"><span data-stu-id="07b3c-140">DLL</span></span><br/>                      | <dl> <span data-ttu-id="07b3c-141"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="07b3c-141"><dt>MsTscAx.dll</dt></span></span> </dl>           |
-| <span data-ttu-id="07b3c-142">IID</span><span class="sxs-lookup"><span data-stu-id="07b3c-142">IID</span></span><br/>                      | <span data-ttu-id="07b3c-143">IID \_ IMsRdpClientAdvancedSettings4 定義為 FBA7F64E-7345-4405-AE50-FA4A763DC0DE</span><span class="sxs-lookup"><span data-stu-id="07b3c-143">IID\_IMsRdpClientAdvancedSettings4 is defined as FBA7F64E-7345-4405-AE50-FA4A763DC0DE</span></span><br/> |
+| <span data-ttu-id="18574-134">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="18574-134">Minimum supported client</span></span><br/> | <span data-ttu-id="18574-135">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="18574-135">Windows Vista</span></span><br/>                                                                         |
+| <span data-ttu-id="18574-136">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="18574-136">Minimum supported server</span></span><br/> | <span data-ttu-id="18574-137">Windows Server 2008、Windows Server 2008 SP1</span><span class="sxs-lookup"><span data-stu-id="18574-137">Windows Server 2008, Windows Server 2008 with SP1</span></span><br/>                                     |
+| <span data-ttu-id="18574-138">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="18574-138">Type library</span></span><br/>             | <dl> <span data-ttu-id="18574-139"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="18574-139"><dt>MsTscAx.dll</dt></span></span> </dl>           |
+| <span data-ttu-id="18574-140">DLL</span><span class="sxs-lookup"><span data-stu-id="18574-140">DLL</span></span><br/>                      | <dl> <span data-ttu-id="18574-141"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="18574-141"><dt>MsTscAx.dll</dt></span></span> </dl>           |
+| <span data-ttu-id="18574-142">IID</span><span class="sxs-lookup"><span data-stu-id="18574-142">IID</span></span><br/>                      | <span data-ttu-id="18574-143">IID \_ IMsRdpClientAdvancedSettings4 定義為 FBA7F64E-7345-4405-AE50-FA4A763DC0DE</span><span class="sxs-lookup"><span data-stu-id="18574-143">IID\_IMsRdpClientAdvancedSettings4 is defined as FBA7F64E-7345-4405-AE50-FA4A763DC0DE</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="07b3c-144">另請參閱</span><span class="sxs-lookup"><span data-stu-id="07b3c-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="18574-144">另請參閱</span><span class="sxs-lookup"><span data-stu-id="18574-144">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="07b3c-145">**IMsRdpClientAdvancedSettings5**</span><span class="sxs-lookup"><span data-stu-id="07b3c-145">**IMsRdpClientAdvancedSettings5**</span></span>](imsrdpclientadvancedsettings5.md)
+[<span data-ttu-id="18574-145">**IMsRdpClientAdvancedSettings5**</span><span class="sxs-lookup"><span data-stu-id="18574-145">**IMsRdpClientAdvancedSettings5**</span></span>](imsrdpclientadvancedsettings5.md)
 </dt> <dt>
 
-[<span data-ttu-id="07b3c-146">**IMsRdpClientAdvancedSettings6**</span><span class="sxs-lookup"><span data-stu-id="07b3c-146">**IMsRdpClientAdvancedSettings6**</span></span>](imsrdpclientadvancedsettings6.md)
+[<span data-ttu-id="18574-146">**IMsRdpClientAdvancedSettings6**</span><span class="sxs-lookup"><span data-stu-id="18574-146">**IMsRdpClientAdvancedSettings6**</span></span>](imsrdpclientadvancedsettings6.md)
 </dt> <dt>
 
-[<span data-ttu-id="07b3c-147">**IMsRdpClientAdvancedSettings7**</span><span class="sxs-lookup"><span data-stu-id="07b3c-147">**IMsRdpClientAdvancedSettings7**</span></span>](imsrdpclientadvancedsettings7.md)
+[<span data-ttu-id="18574-147">**IMsRdpClientAdvancedSettings7**</span><span class="sxs-lookup"><span data-stu-id="18574-147">**IMsRdpClientAdvancedSettings7**</span></span>](imsrdpclientadvancedsettings7.md)
 </dt> <dt>
 
-[<span data-ttu-id="07b3c-148">**IMsRdpClientAdvancedSettings8**</span><span class="sxs-lookup"><span data-stu-id="07b3c-148">**IMsRdpClientAdvancedSettings8**</span></span>](imsrdpclientadvancedsettings8.md)
+[<span data-ttu-id="18574-148">**IMsRdpClientAdvancedSettings8**</span><span class="sxs-lookup"><span data-stu-id="18574-148">**IMsRdpClientAdvancedSettings8**</span></span>](imsrdpclientadvancedsettings8.md)
 </dt> <dt>
 
-[<span data-ttu-id="07b3c-149">**IMsRdpClientAdvancedSettings4**</span><span class="sxs-lookup"><span data-stu-id="07b3c-149">**IMsRdpClientAdvancedSettings4**</span></span>](imsrdpclientadvancedsettings4.md)
+[<span data-ttu-id="18574-149">**IMsRdpClientAdvancedSettings4**</span><span class="sxs-lookup"><span data-stu-id="18574-149">**IMsRdpClientAdvancedSettings4**</span></span>](imsrdpclientadvancedsettings4.md)
 </dt> </dl>
 
  

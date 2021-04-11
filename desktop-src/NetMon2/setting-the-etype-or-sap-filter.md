@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943508"
 ---
-# <a name="setting-the-etype-or-sap-filter"></a><span data-ttu-id="064eb-103">設定 Etype 或 SAP 篩選器</span><span class="sxs-lookup"><span data-stu-id="064eb-103">Setting the Etype or SAP Filter</span></span>
+# <a name="setting-the-etype-or-sap-filter"></a><span data-ttu-id="882ba-103">設定 Etype 或 SAP 篩選器</span><span class="sxs-lookup"><span data-stu-id="882ba-103">Setting the Etype or SAP Filter</span></span>
 
-<span data-ttu-id="064eb-104">設定「捕獲篩選器」的 Etype 或 SAP 部分是「建立」篩選程式的第一個步驟。</span><span class="sxs-lookup"><span data-stu-id="064eb-104">Setting the Etype or SAP portion of the capture filter is the first step in the capture filter creation process.</span></span>
+<span data-ttu-id="882ba-104">設定「捕獲篩選器」的 Etype 或 SAP 部分是「建立」篩選程式的第一個步驟。</span><span class="sxs-lookup"><span data-stu-id="882ba-104">Setting the Etype or SAP portion of the capture filter is the first step in the capture filter creation process.</span></span>
 
-<span data-ttu-id="064eb-105">在下列範例中，capture 篩選器設定為只取出 IPX 流量：</span><span class="sxs-lookup"><span data-stu-id="064eb-105">In the following example, the capture filter is set to only retrieve IPX traffic:</span></span>
+<span data-ttu-id="882ba-105">在下列範例中，capture 篩選器設定為只取出 IPX 流量：</span><span class="sxs-lookup"><span data-stu-id="882ba-105">In the following example, the capture filter is set to only retrieve IPX traffic:</span></span>
 
 
 ```C++
@@ -34,7 +34,7 @@ rc = SetNPPEtypeSapFilter(m_hBlob,
 
 
 
-<span data-ttu-id="064eb-106">SAP 和 Etype 值通常會在 Rfc 中提供。</span><span class="sxs-lookup"><span data-stu-id="064eb-106">SAP and Etype values are usually available in RFCs.</span></span> <span data-ttu-id="064eb-107">SAP 和 Etype 值都可以位於陣列中。</span><span class="sxs-lookup"><span data-stu-id="064eb-107">Both SAP and Etype values can be in an array.</span></span>
+<span data-ttu-id="882ba-106">SAP 和 Etype 值通常會在 Rfc 中提供。</span><span class="sxs-lookup"><span data-stu-id="882ba-106">SAP and Etype values are usually available in RFCs.</span></span> <span data-ttu-id="882ba-107">SAP 和 Etype 值都可以位於陣列中。</span><span class="sxs-lookup"><span data-stu-id="882ba-107">Both SAP and Etype values can be in an array.</span></span>
 
  
 

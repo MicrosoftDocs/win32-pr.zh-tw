@@ -11,22 +11,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943723"
 ---
-# <a name="table-of-contents-parser-functions"></a><span data-ttu-id="f6c90-103">目錄剖析器函式</span><span class="sxs-lookup"><span data-stu-id="f6c90-103">Table of Contents Parser Functions</span></span>
+# <a name="table-of-contents-parser-functions"></a><span data-ttu-id="56c50-103">目錄剖析器函式</span><span class="sxs-lookup"><span data-stu-id="56c50-103">Table of Contents Parser Functions</span></span>
 
-<span data-ttu-id="f6c90-104">下列函式是在 WmCodecDsp 中宣告的，僅供內部使用。</span><span class="sxs-lookup"><span data-stu-id="f6c90-104">The following functions, which are declared in WmCodecDsp.h, are for internal use only.</span></span>
+<span data-ttu-id="56c50-104">下列函式是在 WmCodecDsp 中宣告的，僅供內部使用。</span><span class="sxs-lookup"><span data-stu-id="56c50-104">The following functions, which are declared in WmCodecDsp.h, are for internal use only.</span></span>
 
--   <span data-ttu-id="f6c90-105">**CreateFileIo**</span><span class="sxs-lookup"><span data-stu-id="f6c90-105">**CreateFileIo**</span></span>
--   <span data-ttu-id="f6c90-106">**CreateToc**</span><span class="sxs-lookup"><span data-stu-id="f6c90-106">**CreateToc**</span></span>
--   <span data-ttu-id="f6c90-107">**CreateTocCollection**</span><span class="sxs-lookup"><span data-stu-id="f6c90-107">**CreateTocCollection**</span></span>
--   <span data-ttu-id="f6c90-108">**CreateTocEntry**</span><span class="sxs-lookup"><span data-stu-id="f6c90-108">**CreateTocEntry**</span></span>
--   <span data-ttu-id="f6c90-109">**CreateTocEntryList**</span><span class="sxs-lookup"><span data-stu-id="f6c90-109">**CreateTocEntryList**</span></span>
--   <span data-ttu-id="f6c90-110">**CreateTocParser**</span><span class="sxs-lookup"><span data-stu-id="f6c90-110">**CreateTocParser**</span></span>
+-   <span data-ttu-id="56c50-105">**CreateFileIo**</span><span class="sxs-lookup"><span data-stu-id="56c50-105">**CreateFileIo**</span></span>
+-   <span data-ttu-id="56c50-106">**CreateToc**</span><span class="sxs-lookup"><span data-stu-id="56c50-106">**CreateToc**</span></span>
+-   <span data-ttu-id="56c50-107">**CreateTocCollection**</span><span class="sxs-lookup"><span data-stu-id="56c50-107">**CreateTocCollection**</span></span>
+-   <span data-ttu-id="56c50-108">**CreateTocEntry**</span><span class="sxs-lookup"><span data-stu-id="56c50-108">**CreateTocEntry**</span></span>
+-   <span data-ttu-id="56c50-109">**CreateTocEntryList**</span><span class="sxs-lookup"><span data-stu-id="56c50-109">**CreateTocEntryList**</span></span>
+-   <span data-ttu-id="56c50-110">**CreateTocParser**</span><span class="sxs-lookup"><span data-stu-id="56c50-110">**CreateTocParser**</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="f6c90-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="f6c90-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="56c50-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="56c50-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f6c90-112">目錄剖析器參考</span><span class="sxs-lookup"><span data-stu-id="f6c90-112">Table of Contents Parser Reference</span></span>](toc-parser-reference.md)
+[<span data-ttu-id="56c50-112">目錄剖析器參考</span><span class="sxs-lookup"><span data-stu-id="56c50-112">Table of Contents Parser Reference</span></span>](toc-parser-reference.md)
 </dt> </dl>
 
  

@@ -21,37 +21,37 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843247"
 ---
-# <a name="tb_getstate-message"></a><span data-ttu-id="8cbf4-104">TB \_ >getstate 訊息</span><span class="sxs-lookup"><span data-stu-id="8cbf4-104">TB\_GETSTATE message</span></span>
+# <a name="tb_getstate-message"></a><span data-ttu-id="80b02-104">TB \_ >getstate 訊息</span><span class="sxs-lookup"><span data-stu-id="80b02-104">TB\_GETSTATE message</span></span>
 
-<span data-ttu-id="8cbf4-105">抓取工具列中指定之按鈕的狀態相關資訊，例如是否已啟用、已按下或已核取。</span><span class="sxs-lookup"><span data-stu-id="8cbf4-105">Retrieves information about the state of the specified button in a toolbar, such as whether it is enabled, pressed, or checked.</span></span>
+<span data-ttu-id="80b02-105">抓取工具列中指定之按鈕的狀態相關資訊，例如是否已啟用、已按下或已核取。</span><span class="sxs-lookup"><span data-stu-id="80b02-105">Retrieves information about the state of the specified button in a toolbar, such as whether it is enabled, pressed, or checked.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="8cbf4-106">參數</span><span class="sxs-lookup"><span data-stu-id="8cbf4-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="80b02-106">參數</span><span class="sxs-lookup"><span data-stu-id="80b02-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="8cbf4-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="8cbf4-107">*wParam*</span></span> 
+<span data-ttu-id="80b02-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="80b02-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="8cbf4-108">要取得其資訊之按鈕的命令識別碼。</span><span class="sxs-lookup"><span data-stu-id="8cbf4-108">Command identifier of the button for which to retrieve information.</span></span>
+<span data-ttu-id="80b02-108">要取得其資訊之按鈕的命令識別碼。</span><span class="sxs-lookup"><span data-stu-id="80b02-108">Command identifier of the button for which to retrieve information.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="8cbf4-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="8cbf4-109">*lParam*</span></span> 
-</dt> <dd><span data-ttu-id="8cbf4-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="8cbf4-110">Must be zero.</span></span></dd> </dl>
+<span data-ttu-id="80b02-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="80b02-109">*lParam*</span></span> 
+</dt> <dd><span data-ttu-id="80b02-110">必須為零。</span><span class="sxs-lookup"><span data-stu-id="80b02-110">Must be zero.</span></span></dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="8cbf4-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="8cbf4-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="80b02-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="80b02-111">Return value</span></span>
 
-<span data-ttu-id="8cbf4-112">如果成功，則傳回按鈕狀態資訊，否則傳回-1。</span><span class="sxs-lookup"><span data-stu-id="8cbf4-112">Returns the button state information if successful, or -1 otherwise.</span></span> <span data-ttu-id="8cbf4-113">按鈕狀態資訊可以是 [ [**工具列按鈕狀態**](toolbar-button-states.md)] 中所列的值組合。</span><span class="sxs-lookup"><span data-stu-id="8cbf4-113">The button state information can be a combination of the values listed in [**Toolbar Button States**](toolbar-button-states.md).</span></span>
+<span data-ttu-id="80b02-112">如果成功，則傳回按鈕狀態資訊，否則傳回-1。</span><span class="sxs-lookup"><span data-stu-id="80b02-112">Returns the button state information if successful, or -1 otherwise.</span></span> <span data-ttu-id="80b02-113">按鈕狀態資訊可以是 [ [**工具列按鈕狀態**](toolbar-button-states.md)] 中所列的值組合。</span><span class="sxs-lookup"><span data-stu-id="80b02-113">The button state information can be a combination of the values listed in [**Toolbar Button States**](toolbar-button-states.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="8cbf4-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="8cbf4-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="80b02-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="80b02-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="8cbf4-115">需求</span><span class="sxs-lookup"><span data-stu-id="8cbf4-115">Requirement</span></span> | <span data-ttu-id="8cbf4-116">值</span><span class="sxs-lookup"><span data-stu-id="8cbf4-116">Value</span></span> |
+| <span data-ttu-id="80b02-115">需求</span><span class="sxs-lookup"><span data-stu-id="80b02-115">Requirement</span></span> | <span data-ttu-id="80b02-116">值</span><span class="sxs-lookup"><span data-stu-id="80b02-116">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="8cbf4-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8cbf4-117">Minimum supported client</span></span><br/> | <span data-ttu-id="8cbf4-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8cbf4-118">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="8cbf4-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8cbf4-119">Minimum supported server</span></span><br/> | <span data-ttu-id="8cbf4-120">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8cbf4-120">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="8cbf4-121">標頭</span><span class="sxs-lookup"><span data-stu-id="8cbf4-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="8cbf4-122"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="8cbf4-122"><dt>Commctrl.h</dt></span></span> </dl> |
+| <span data-ttu-id="80b02-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="80b02-117">Minimum supported client</span></span><br/> | <span data-ttu-id="80b02-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="80b02-118">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="80b02-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="80b02-119">Minimum supported server</span></span><br/> | <span data-ttu-id="80b02-120">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="80b02-120">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="80b02-121">標頭</span><span class="sxs-lookup"><span data-stu-id="80b02-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="80b02-122"><dt>Commctrl。h</dt></span><span class="sxs-lookup"><span data-stu-id="80b02-122"><dt>Commctrl.h</dt></span></span> </dl> |
 
 
 

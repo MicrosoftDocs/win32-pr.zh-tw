@@ -24,15 +24,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103843688"
 ---
-# <a name="ivmusbdevicedevicestring-property"></a><span data-ttu-id="76b48-106">IVMUSBDevice：:D eviceString 屬性</span><span class="sxs-lookup"><span data-stu-id="76b48-106">IVMUSBDevice::DeviceString property</span></span>
+# <a name="ivmusbdevicedevicestring-property"></a><span data-ttu-id="2d3a6-106">IVMUSBDevice：:D eviceString 屬性</span><span class="sxs-lookup"><span data-stu-id="2d3a6-106">IVMUSBDevice::DeviceString property</span></span>
 
-<span data-ttu-id="76b48-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="76b48-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="76b48-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="76b48-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
+<span data-ttu-id="2d3a6-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="2d3a6-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="2d3a6-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="2d3a6-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
 
-<span data-ttu-id="76b48-109">抓取 USB 裝置的名稱。</span><span class="sxs-lookup"><span data-stu-id="76b48-109">Retrieves the name of the USB device.</span></span>
+<span data-ttu-id="2d3a6-109">抓取 USB 裝置的名稱。</span><span class="sxs-lookup"><span data-stu-id="2d3a6-109">Retrieves the name of the USB device.</span></span>
 
-<span data-ttu-id="76b48-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="76b48-110">This property is read-only.</span></span>
+<span data-ttu-id="2d3a6-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="2d3a6-110">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="76b48-111">語法</span><span class="sxs-lookup"><span data-stu-id="76b48-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2d3a6-111">語法</span><span class="sxs-lookup"><span data-stu-id="2d3a6-111">Syntax</span></span>
 
 
 ```C++
@@ -43,41 +43,41 @@ HRESULT get_DeviceString(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="76b48-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="76b48-112">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="2d3a6-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="2d3a6-112">Property value</span></span>
 
-<span data-ttu-id="76b48-113">USB 裝置的名稱。</span><span class="sxs-lookup"><span data-stu-id="76b48-113">The name of the USB device.</span></span>
+<span data-ttu-id="2d3a6-113">USB 裝置的名稱。</span><span class="sxs-lookup"><span data-stu-id="2d3a6-113">The name of the USB device.</span></span>
 
-## <a name="error-codes"></a><span data-ttu-id="76b48-114">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="76b48-114">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="2d3a6-114">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="2d3a6-114">Error codes</span></span>
 
 
 
-| <span data-ttu-id="76b48-115">名稱/值</span><span class="sxs-lookup"><span data-stu-id="76b48-115">Name/value</span></span>                                                                                                                                            | <span data-ttu-id="76b48-116">意義</span><span class="sxs-lookup"><span data-stu-id="76b48-116">Meaning</span></span>                                       |
+| <span data-ttu-id="2d3a6-115">名稱/值</span><span class="sxs-lookup"><span data-stu-id="2d3a6-115">Name/value</span></span>                                                                                                                                            | <span data-ttu-id="2d3a6-116">意義</span><span class="sxs-lookup"><span data-stu-id="2d3a6-116">Meaning</span></span>                                       |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| <dl> <span data-ttu-id="76b48-117"><dt>S \_確定</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="76b48-117"><dt>S\_OK</dt> <dt>0</dt></span></span> </dl>               | <span data-ttu-id="76b48-118">已成功完成命令。</span><span class="sxs-lookup"><span data-stu-id="76b48-118">The method completed successfully.</span></span><br/> |
-| <dl> <span data-ttu-id="76b48-119"><dt>E \_指標</dt><dt>且顯示 0x80004003</dt></span><span class="sxs-lookup"><span data-stu-id="76b48-119"><dt>E\_POINTER</dt> <dt>0x80004003</dt></span></span> </dl> | <span data-ttu-id="76b48-120">參數為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="76b48-120">The parameter is **NULL**.</span></span><br/>         |
+| <dl> <span data-ttu-id="2d3a6-117"><dt>S \_確定</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="2d3a6-117"><dt>S\_OK</dt> <dt>0</dt></span></span> </dl>               | <span data-ttu-id="2d3a6-118">已成功完成命令。</span><span class="sxs-lookup"><span data-stu-id="2d3a6-118">The method completed successfully.</span></span><br/> |
+| <dl> <span data-ttu-id="2d3a6-119"><dt>E \_指標</dt><dt>且顯示 0x80004003</dt></span><span class="sxs-lookup"><span data-stu-id="2d3a6-119"><dt>E\_POINTER</dt> <dt>0x80004003</dt></span></span> </dl> | <span data-ttu-id="2d3a6-120">參數為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="2d3a6-120">The parameter is **NULL**.</span></span><br/>         |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="76b48-121">規格需求</span><span class="sxs-lookup"><span data-stu-id="76b48-121">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2d3a6-121">規格需求</span><span class="sxs-lookup"><span data-stu-id="2d3a6-121">Requirements</span></span>
 
 
 
-| <span data-ttu-id="76b48-122">需求</span><span class="sxs-lookup"><span data-stu-id="76b48-122">Requirement</span></span> | <span data-ttu-id="76b48-123">值</span><span class="sxs-lookup"><span data-stu-id="76b48-123">Value</span></span> |
+| <span data-ttu-id="2d3a6-122">需求</span><span class="sxs-lookup"><span data-stu-id="2d3a6-122">Requirement</span></span> | <span data-ttu-id="2d3a6-123">值</span><span class="sxs-lookup"><span data-stu-id="2d3a6-123">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| <span data-ttu-id="76b48-124">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="76b48-124">Minimum supported client</span></span><br/> | <span data-ttu-id="76b48-125">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="76b48-125">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="76b48-126">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="76b48-126">Minimum supported server</span></span><br/> | <span data-ttu-id="76b48-127">都不支援</span><span class="sxs-lookup"><span data-stu-id="76b48-127">None supported</span></span><br/>                                                                     |
-| <span data-ttu-id="76b48-128">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="76b48-128">End of client support</span></span><br/>    | <span data-ttu-id="76b48-129">Windows 7</span><span class="sxs-lookup"><span data-stu-id="76b48-129">Windows 7</span></span><br/>                                                                          |
-| <span data-ttu-id="76b48-130">產品</span><span class="sxs-lookup"><span data-stu-id="76b48-130">Product</span></span><br/>                  | <span data-ttu-id="76b48-131">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="76b48-131">Windows Virtual PC</span></span><br/>                                                                 |
-| <span data-ttu-id="76b48-132">標頭</span><span class="sxs-lookup"><span data-stu-id="76b48-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="76b48-133"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="76b48-133"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
-| <span data-ttu-id="76b48-134">IID</span><span class="sxs-lookup"><span data-stu-id="76b48-134">IID</span></span><br/>                      | <span data-ttu-id="76b48-135">IID \_ IVMUSBDevice 定義為 63C1258C-5721-4070-B86B-A6CE2AFEC0B3</span><span class="sxs-lookup"><span data-stu-id="76b48-135">IID\_IVMUSBDevice is defined as 63C1258C-5721-4070-B86B-A6CE2AFEC0B3</span></span><br/>               |
+| <span data-ttu-id="2d3a6-124">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2d3a6-124">Minimum supported client</span></span><br/> | <span data-ttu-id="2d3a6-125">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2d3a6-125">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="2d3a6-126">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2d3a6-126">Minimum supported server</span></span><br/> | <span data-ttu-id="2d3a6-127">都不支援</span><span class="sxs-lookup"><span data-stu-id="2d3a6-127">None supported</span></span><br/>                                                                     |
+| <span data-ttu-id="2d3a6-128">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="2d3a6-128">End of client support</span></span><br/>    | <span data-ttu-id="2d3a6-129">Windows 7</span><span class="sxs-lookup"><span data-stu-id="2d3a6-129">Windows 7</span></span><br/>                                                                          |
+| <span data-ttu-id="2d3a6-130">產品</span><span class="sxs-lookup"><span data-stu-id="2d3a6-130">Product</span></span><br/>                  | <span data-ttu-id="2d3a6-131">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="2d3a6-131">Windows Virtual PC</span></span><br/>                                                                 |
+| <span data-ttu-id="2d3a6-132">標頭</span><span class="sxs-lookup"><span data-stu-id="2d3a6-132">Header</span></span><br/>                   | <dl> <span data-ttu-id="2d3a6-133"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="2d3a6-133"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
+| <span data-ttu-id="2d3a6-134">IID</span><span class="sxs-lookup"><span data-stu-id="2d3a6-134">IID</span></span><br/>                      | <span data-ttu-id="2d3a6-135">IID \_ IVMUSBDevice 定義為 63C1258C-5721-4070-B86B-A6CE2AFEC0B3</span><span class="sxs-lookup"><span data-stu-id="2d3a6-135">IID\_IVMUSBDevice is defined as 63C1258C-5721-4070-B86B-A6CE2AFEC0B3</span></span><br/>               |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="76b48-136">另請參閱</span><span class="sxs-lookup"><span data-stu-id="76b48-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2d3a6-136">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2d3a6-136">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="76b48-137">**IVMUSBDevice**</span><span class="sxs-lookup"><span data-stu-id="76b48-137">**IVMUSBDevice**</span></span>](ivmusbdevice.md)
+[<span data-ttu-id="2d3a6-137">**IVMUSBDevice**</span><span class="sxs-lookup"><span data-stu-id="2d3a6-137">**IVMUSBDevice**</span></span>](ivmusbdevice.md)
 </dt> </dl>
 
  

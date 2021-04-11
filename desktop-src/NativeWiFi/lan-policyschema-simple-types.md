@@ -16,11 +16,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848183"
 ---
-# <a name="lan_policy-schema-simple-types"></a><span data-ttu-id="4dd13-103">LAN \_ 原則架構簡單類型</span><span class="sxs-lookup"><span data-stu-id="4dd13-103">LAN\_policy Schema Simple Types</span></span>
+# <a name="lan_policy-schema-simple-types"></a><span data-ttu-id="ef184-103">LAN \_ 原則架構簡單類型</span><span class="sxs-lookup"><span data-stu-id="ef184-103">LAN\_policy Schema Simple Types</span></span>
 
-<span data-ttu-id="4dd13-104">區域網路 \_ 原則架構定義了下列簡單類型：</span><span class="sxs-lookup"><span data-stu-id="4dd13-104">The LAN\_policy schema defines the following simple type:</span></span>
+<span data-ttu-id="ef184-104">區域網路 \_ 原則架構定義了下列簡單類型：</span><span class="sxs-lookup"><span data-stu-id="ef184-104">The LAN\_policy schema defines the following simple type:</span></span>
 
--   [<span data-ttu-id="4dd13-105">**nameType**</span><span class="sxs-lookup"><span data-stu-id="4dd13-105">**nameType**</span></span>](lan-policyschema-nametype-simpletype.md)
+-   [<span data-ttu-id="ef184-105">**nameType**</span><span class="sxs-lookup"><span data-stu-id="ef184-105">**nameType**</span></span>](lan-policyschema-nametype-simpletype.md)
 
  
 

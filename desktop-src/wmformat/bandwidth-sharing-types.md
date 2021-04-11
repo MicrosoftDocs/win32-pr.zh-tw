@@ -16,28 +16,28 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/19/2020
 ms.locfileid: "103681420"
 ---
-# <a name="bandwidth-sharing-types"></a><span data-ttu-id="389c4-107">頻寬共用類型</span><span class="sxs-lookup"><span data-stu-id="389c4-107">Bandwidth Sharing Types</span></span>
+# <a name="bandwidth-sharing-types"></a><span data-ttu-id="c7c22-107">頻寬共用類型</span><span class="sxs-lookup"><span data-stu-id="c7c22-107">Bandwidth Sharing Types</span></span>
 
-<span data-ttu-id="389c4-108">您可以使用頻寬共用類型來識別設定檔中頻寬共用物件的本質。</span><span class="sxs-lookup"><span data-stu-id="389c4-108">You can use bandwidth sharing types to identify the nature of a bandwidth sharing object in a profile.</span></span> <span data-ttu-id="389c4-109">頻寬共用類型可做為 [**IWMBandwidthSharing：： GetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype) 和 [**IWMBandwidthSharing：： >advanced.field.settype**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype)的參數。</span><span class="sxs-lookup"><span data-stu-id="389c4-109">Bandwidth sharing types are used as parameters for [**IWMBandwidthSharing::GetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype) and [**IWMBandwidthSharing::SetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype).</span></span>
+<span data-ttu-id="c7c22-108">您可以使用頻寬共用類型來識別設定檔中頻寬共用物件的本質。</span><span class="sxs-lookup"><span data-stu-id="c7c22-108">You can use bandwidth sharing types to identify the nature of a bandwidth sharing object in a profile.</span></span> <span data-ttu-id="c7c22-109">頻寬共用類型可做為 [**IWMBandwidthSharing：： GetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype) 和 [**IWMBandwidthSharing：： >advanced.field.settype**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype)的參數。</span><span class="sxs-lookup"><span data-stu-id="c7c22-109">Bandwidth sharing types are used as parameters for [**IWMBandwidthSharing::GetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype) and [**IWMBandwidthSharing::SetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype).</span></span>
 
-<span data-ttu-id="389c4-110">下表列出頻寬共用類型的識別碼。</span><span class="sxs-lookup"><span data-stu-id="389c4-110">The following table lists the identifiers for bandwidth sharing types.</span></span>
+<span data-ttu-id="c7c22-110">下表列出頻寬共用類型的識別碼。</span><span class="sxs-lookup"><span data-stu-id="c7c22-110">The following table lists the identifiers for bandwidth sharing types.</span></span>
 
 
 
-| <span data-ttu-id="389c4-111">頻寬共用類型常數</span><span class="sxs-lookup"><span data-stu-id="389c4-111">Bandwidth sharing type constant</span></span>      | <span data-ttu-id="389c4-112">GUID</span><span class="sxs-lookup"><span data-stu-id="389c4-112">GUID</span></span>                                 |
+| <span data-ttu-id="c7c22-111">頻寬共用類型常數</span><span class="sxs-lookup"><span data-stu-id="c7c22-111">Bandwidth sharing type constant</span></span>      | <span data-ttu-id="c7c22-112">GUID</span><span class="sxs-lookup"><span data-stu-id="c7c22-112">GUID</span></span>                                 |
 |--------------------------------------|--------------------------------------|
-| <span data-ttu-id="389c4-113">CLSID \_ WMBandwidthSharing \_ 專有</span><span class="sxs-lookup"><span data-stu-id="389c4-113">CLSID\_WMBandwidthSharing\_Exclusive</span></span> | <span data-ttu-id="389c4-114">af6060aa-5197-11d2-b6af-00c04fd908e9</span><span class="sxs-lookup"><span data-stu-id="389c4-114">af6060aa-5197-11d2-b6af-00c04fd908e9</span></span> |
-| <span data-ttu-id="389c4-115">CLSID \_ WMBandwidthSharing \_ 部分</span><span class="sxs-lookup"><span data-stu-id="389c4-115">CLSID\_WMBandwidthSharing\_Partial</span></span>   | <span data-ttu-id="389c4-116">af6060ab-5197-11d2-b6af-00c04fd908e9</span><span class="sxs-lookup"><span data-stu-id="389c4-116">af6060ab-5197-11d2-b6af-00c04fd908e9</span></span> |
+| <span data-ttu-id="c7c22-113">CLSID \_ WMBandwidthSharing \_ 專有</span><span class="sxs-lookup"><span data-stu-id="c7c22-113">CLSID\_WMBandwidthSharing\_Exclusive</span></span> | <span data-ttu-id="c7c22-114">af6060aa-5197-11d2-b6af-00c04fd908e9</span><span class="sxs-lookup"><span data-stu-id="c7c22-114">af6060aa-5197-11d2-b6af-00c04fd908e9</span></span> |
+| <span data-ttu-id="c7c22-115">CLSID \_ WMBandwidthSharing \_ 部分</span><span class="sxs-lookup"><span data-stu-id="c7c22-115">CLSID\_WMBandwidthSharing\_Partial</span></span>   | <span data-ttu-id="c7c22-116">af6060ab-5197-11d2-b6af-00c04fd908e9</span><span class="sxs-lookup"><span data-stu-id="c7c22-116">af6060ab-5197-11d2-b6af-00c04fd908e9</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="389c4-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="389c4-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c7c22-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="c7c22-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="389c4-118">**GUID 值**</span><span class="sxs-lookup"><span data-stu-id="389c4-118">**GUID Values**</span></span>](guid-values.md)
+[<span data-ttu-id="c7c22-118">**GUID 值**</span><span class="sxs-lookup"><span data-stu-id="c7c22-118">**GUID Values**</span></span>](guid-values.md)
 </dt> </dl>
 
  

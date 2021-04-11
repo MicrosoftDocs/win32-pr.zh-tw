@@ -16,14 +16,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848184"
 ---
-# <a name="lan_policy-schema"></a><span data-ttu-id="aff16-103">區域網路 \_ 原則架構</span><span class="sxs-lookup"><span data-stu-id="aff16-103">LAN\_policy Schema</span></span>
+# <a name="lan_policy-schema"></a><span data-ttu-id="4e21d-103">區域網路 \_ 原則架構</span><span class="sxs-lookup"><span data-stu-id="4e21d-103">LAN\_policy Schema</span></span>
 
-<span data-ttu-id="aff16-104">區域網路 \_ 原則架構定義有線 (LAN) 原則設定檔。</span><span class="sxs-lookup"><span data-stu-id="aff16-104">The LAN\_policy schema defines a wired (LAN) policy profile.</span></span>
+<span data-ttu-id="4e21d-104">區域網路 \_ 原則架構定義有線 (LAN) 原則設定檔。</span><span class="sxs-lookup"><span data-stu-id="4e21d-104">The LAN\_policy schema defines a wired (LAN) policy profile.</span></span>
 
-<span data-ttu-id="aff16-105">區域網路原則設定檔的根項目是 [**LANPolicy**](lan-policyschema-lanpolicy-element.md) 元素。</span><span class="sxs-lookup"><span data-stu-id="aff16-105">The root element of a LAN policy profile is the [**LANPolicy**](lan-policyschema-lanpolicy-element.md) element.</span></span> <span data-ttu-id="aff16-106">每個設定檔都只會有一個根項目。</span><span class="sxs-lookup"><span data-stu-id="aff16-106">Each profile has exactly one root element.</span></span> <span data-ttu-id="aff16-107">所有 LAN \_ 原則元素都在命名空間中 `https://www.microsoft.com/networking/LAN/policy/v1` 。</span><span class="sxs-lookup"><span data-stu-id="aff16-107">All LAN\_policy elements are in the namespace `https://www.microsoft.com/networking/LAN/policy/v1`.</span></span>
+<span data-ttu-id="4e21d-105">區域網路原則設定檔的根項目是 [**LANPolicy**](lan-policyschema-lanpolicy-element.md) 元素。</span><span class="sxs-lookup"><span data-stu-id="4e21d-105">The root element of a LAN policy profile is the [**LANPolicy**](lan-policyschema-lanpolicy-element.md) element.</span></span> <span data-ttu-id="4e21d-106">每個設定檔都只會有一個根項目。</span><span class="sxs-lookup"><span data-stu-id="4e21d-106">Each profile has exactly one root element.</span></span> <span data-ttu-id="4e21d-107">所有 LAN \_ 原則元素都在命名空間中 `https://www.microsoft.com/networking/LAN/policy/v1` 。</span><span class="sxs-lookup"><span data-stu-id="4e21d-107">All LAN\_policy elements are in the namespace `https://www.microsoft.com/networking/LAN/policy/v1`.</span></span>
 
--   [<span data-ttu-id="aff16-108">LAN \_ PolicySchema 元素</span><span class="sxs-lookup"><span data-stu-id="aff16-108">LAN\_policySchema Elements</span></span>](lan-policyschema-elements.md)
--   [<span data-ttu-id="aff16-109">LAN \_ PolicySchema 簡單類型</span><span class="sxs-lookup"><span data-stu-id="aff16-109">LAN\_policySchema Simple Types</span></span>](lan-policyschema-simple-types.md)
+-   [<span data-ttu-id="4e21d-108">LAN \_ PolicySchema 元素</span><span class="sxs-lookup"><span data-stu-id="4e21d-108">LAN\_policySchema Elements</span></span>](lan-policyschema-elements.md)
+-   [<span data-ttu-id="4e21d-109">LAN \_ PolicySchema 簡單類型</span><span class="sxs-lookup"><span data-stu-id="4e21d-109">LAN\_policySchema Simple Types</span></span>](lan-policyschema-simple-types.md)
 
  
 

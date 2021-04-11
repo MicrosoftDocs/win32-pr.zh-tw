@@ -22,34 +22,34 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847713"
 ---
-# <a name="jet_columnid"></a><span data-ttu-id="629bd-103">JET_COLUMNID</span><span class="sxs-lookup"><span data-stu-id="629bd-103">JET_COLUMNID</span></span>
+# <a name="jet_columnid"></a><span data-ttu-id="41692-103">JET_COLUMNID</span><span class="sxs-lookup"><span data-stu-id="41692-103">JET_COLUMNID</span></span>
 
 
-<span data-ttu-id="629bd-104">_**適用于：** Windows |Windows Server_</span><span class="sxs-lookup"><span data-stu-id="629bd-104">_**Applies to:** Windows | Windows Server_</span></span>
+<span data-ttu-id="41692-104">_**適用于：** Windows |Windows Server_</span><span class="sxs-lookup"><span data-stu-id="41692-104">_**Applies to:** Windows | Windows Server_</span></span>
 
-## <a name="jet_columnid"></a><span data-ttu-id="629bd-105">JET_COLUMNID</span><span class="sxs-lookup"><span data-stu-id="629bd-105">JET_COLUMNID</span></span>
+## <a name="jet_columnid"></a><span data-ttu-id="41692-105">JET_COLUMNID</span><span class="sxs-lookup"><span data-stu-id="41692-105">JET_COLUMNID</span></span>
 
-<span data-ttu-id="629bd-106">**JET_COLUMNID** 資料類型會識別資料表中的資料行。</span><span class="sxs-lookup"><span data-stu-id="629bd-106">The **JET_COLUMNID** data type identifies a column within a table.</span></span>
+<span data-ttu-id="41692-106">**JET_COLUMNID** 資料類型會識別資料表中的資料行。</span><span class="sxs-lookup"><span data-stu-id="41692-106">The **JET_COLUMNID** data type identifies a column within a table.</span></span>
 
 ```cpp
     typedef unsigned long JET_COLUMNID;
 ```
 
-### <a name="data-types"></a><span data-ttu-id="629bd-107">資料類型</span><span class="sxs-lookup"><span data-stu-id="629bd-107">Data Types</span></span>
+### <a name="data-types"></a><span data-ttu-id="41692-107">資料類型</span><span class="sxs-lookup"><span data-stu-id="41692-107">Data Types</span></span>
 
-<span data-ttu-id="629bd-108">JET_COLUMNID</span><span class="sxs-lookup"><span data-stu-id="629bd-108">JET_COLUMNID</span></span>
+<span data-ttu-id="41692-108">JET_COLUMNID</span><span class="sxs-lookup"><span data-stu-id="41692-108">JET_COLUMNID</span></span>
 
-<span data-ttu-id="629bd-109">識別資料表內的資料行。</span><span class="sxs-lookup"><span data-stu-id="629bd-109">Identifies a column within a table.</span></span>
+<span data-ttu-id="41692-109">識別資料表內的資料行。</span><span class="sxs-lookup"><span data-stu-id="41692-109">Identifies a column within a table.</span></span>
 
-### <a name="remarks"></a><span data-ttu-id="629bd-110">備註</span><span class="sxs-lookup"><span data-stu-id="629bd-110">Remarks</span></span>
+### <a name="remarks"></a><span data-ttu-id="41692-110">備註</span><span class="sxs-lookup"><span data-stu-id="41692-110">Remarks</span></span>
 
-<span data-ttu-id="629bd-111">資料行識別碼在單一資料表中是唯一的。</span><span class="sxs-lookup"><span data-stu-id="629bd-111">Column IDs are unique within a single table.</span></span> <span data-ttu-id="629bd-112">一旦已知資料行有特定的資料行識別碼，它一定會有該資料行識別碼。</span><span class="sxs-lookup"><span data-stu-id="629bd-112">Once a column is known to have a certain column ID, it will always have that column ID.</span></span> <span data-ttu-id="629bd-113">從備份還原將不會變更資料行識別碼的值。</span><span class="sxs-lookup"><span data-stu-id="629bd-113">Restore from backup will not change the value of a column ID.</span></span> <span data-ttu-id="629bd-114">但是，如果在特定資料表資料行之前刪除一或多個資料表資料行，則 compact 資料庫會接著變更資料行識別碼的值。</span><span class="sxs-lookup"><span data-stu-id="629bd-114">However, if one or more table columns, prior to a specific table column, are deleted, a compact database can then change the value of a column ID.</span></span>
+<span data-ttu-id="41692-111">資料行識別碼在單一資料表中是唯一的。</span><span class="sxs-lookup"><span data-stu-id="41692-111">Column IDs are unique within a single table.</span></span> <span data-ttu-id="41692-112">一旦已知資料行有特定的資料行識別碼，它一定會有該資料行識別碼。</span><span class="sxs-lookup"><span data-stu-id="41692-112">Once a column is known to have a certain column ID, it will always have that column ID.</span></span> <span data-ttu-id="41692-113">從備份還原將不會變更資料行識別碼的值。</span><span class="sxs-lookup"><span data-stu-id="41692-113">Restore from backup will not change the value of a column ID.</span></span> <span data-ttu-id="41692-114">但是，如果在特定資料表資料行之前刪除一或多個資料表資料行，則 compact 資料庫會接著變更資料行識別碼的值。</span><span class="sxs-lookup"><span data-stu-id="41692-114">However, if one or more table columns, prior to a specific table column, are deleted, a compact database can then change the value of a column ID.</span></span>
 
-<span data-ttu-id="629bd-115">在某些情況下，資料行識別碼是識別資料行的唯一方法。</span><span class="sxs-lookup"><span data-stu-id="629bd-115">In some cases, column IDs are the only means of identifying columns.</span></span> <span data-ttu-id="629bd-116">建立臨時表時，其資料行沒有名稱，但 create 函數會傳回資料行識別碼的陣列。</span><span class="sxs-lookup"><span data-stu-id="629bd-116">When a temporary table is created, its columns do not have names, but an array of column IDs is returned by the create function.</span></span>
+<span data-ttu-id="41692-115">在某些情況下，資料行識別碼是識別資料行的唯一方法。</span><span class="sxs-lookup"><span data-stu-id="41692-115">In some cases, column IDs are the only means of identifying columns.</span></span> <span data-ttu-id="41692-116">建立臨時表時，其資料行沒有名稱，但 create 函數會傳回資料行識別碼的陣列。</span><span class="sxs-lookup"><span data-stu-id="41692-116">When a temporary table is created, its columns do not have names, but an array of column IDs is returned by the create function.</span></span>
 
-<span data-ttu-id="629bd-117">不同資料表中的資料行可以有相同的資料行識別碼。</span><span class="sxs-lookup"><span data-stu-id="629bd-117">Columns in different tables can have the same column ID.</span></span>
+<span data-ttu-id="41692-117">不同資料表中的資料行可以有相同的資料行識別碼。</span><span class="sxs-lookup"><span data-stu-id="41692-117">Columns in different tables can have the same column ID.</span></span>
 
-### <a name="requirements"></a><span data-ttu-id="629bd-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="629bd-118">Requirements</span></span>
+### <a name="requirements"></a><span data-ttu-id="41692-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="41692-118">Requirements</span></span>
 
 <table>
 <colgroup>
@@ -58,16 +58,16 @@ ms.locfileid: "103847713"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="629bd-119"><strong>用戶端</strong></span><span class="sxs-lookup"><span data-stu-id="629bd-119"><strong>Client</strong></span></span></p></td>
-<td><p><span data-ttu-id="629bd-120">需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</span><span class="sxs-lookup"><span data-stu-id="629bd-120">Requires Windows Vista, Windows XP, or Windows 2000 Professional.</span></span></p></td>
+<td><p><span data-ttu-id="41692-119"><strong>用戶端</strong></span><span class="sxs-lookup"><span data-stu-id="41692-119"><strong>Client</strong></span></span></p></td>
+<td><p><span data-ttu-id="41692-120">需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</span><span class="sxs-lookup"><span data-stu-id="41692-120">Requires Windows Vista, Windows XP, or Windows 2000 Professional.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="629bd-121"><strong>伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="629bd-121"><strong>Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="629bd-122">需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</span><span class="sxs-lookup"><span data-stu-id="629bd-122">Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</span></span></p></td>
+<td><p><span data-ttu-id="41692-121"><strong>伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="41692-121"><strong>Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="41692-122">需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</span><span class="sxs-lookup"><span data-stu-id="41692-122">Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="629bd-123"><strong>標頭</strong></span><span class="sxs-lookup"><span data-stu-id="629bd-123"><strong>Header</strong></span></span></p></td>
-<td><p><span data-ttu-id="629bd-124">宣告于 Esent. h 中。</span><span class="sxs-lookup"><span data-stu-id="629bd-124">Declared in Esent.h.</span></span></p></td>
+<td><p><span data-ttu-id="41692-123"><strong>標頭</strong></span><span class="sxs-lookup"><span data-stu-id="41692-123"><strong>Header</strong></span></span></p></td>
+<td><p><span data-ttu-id="41692-124">宣告于 Esent. h 中。</span><span class="sxs-lookup"><span data-stu-id="41692-124">Declared in Esent.h.</span></span></p></td>
 </tr>
 </tbody>
 </table>

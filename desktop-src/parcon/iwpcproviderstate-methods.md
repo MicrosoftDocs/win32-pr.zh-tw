@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103944201"
 ---
-# <a name="iwpcproviderstate-methods"></a><span data-ttu-id="445a4-103">IWPCProviderState 方法</span><span class="sxs-lookup"><span data-stu-id="445a4-103">IWPCProviderState Methods</span></span>
+# <a name="iwpcproviderstate-methods"></a><span data-ttu-id="d5c42-103">IWPCProviderState 方法</span><span class="sxs-lookup"><span data-stu-id="d5c42-103">IWPCProviderState Methods</span></span>
 
-<span data-ttu-id="445a4-104">[**IWPCProviderState**](/windows/desktop/api/Wpcapi/nn-wpcapi-iwpcproviderstate)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="445a4-104">The [**IWPCProviderState**](/windows/desktop/api/Wpcapi/nn-wpcapi-iwpcproviderstate) interface exposes the following methods.</span></span>
+<span data-ttu-id="d5c42-104">[**IWPCProviderState**](/windows/desktop/api/Wpcapi/nn-wpcapi-iwpcproviderstate)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="d5c42-104">The [**IWPCProviderState**](/windows/desktop/api/Wpcapi/nn-wpcapi-iwpcproviderstate) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="445a4-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="445a4-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d5c42-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d5c42-105">In this section</span></span>
 
--   [<span data-ttu-id="445a4-106">**Disable 方法**</span><span class="sxs-lookup"><span data-stu-id="445a4-106">**Disable Method**</span></span>](/windows/desktop/api/Wpcapi/nf-wpcapi-iwpcproviderstate-disable)
--   [<span data-ttu-id="445a4-107">**Enable 方法**</span><span class="sxs-lookup"><span data-stu-id="445a4-107">**Enable Method**</span></span>](/windows/desktop/api/Wpcapi/nf-wpcapi-iwpcproviderstate-enable)
+-   [<span data-ttu-id="d5c42-106">**Disable 方法**</span><span class="sxs-lookup"><span data-stu-id="d5c42-106">**Disable Method**</span></span>](/windows/desktop/api/Wpcapi/nf-wpcapi-iwpcproviderstate-disable)
+-   [<span data-ttu-id="d5c42-107">**Enable 方法**</span><span class="sxs-lookup"><span data-stu-id="d5c42-107">**Enable Method**</span></span>](/windows/desktop/api/Wpcapi/nf-wpcapi-iwpcproviderstate-enable)
 
  
 

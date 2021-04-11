@@ -27,14 +27,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847846"
 ---
-# <a name="apijetgetsystemparameter-method-jet_instance-jet_sesid-jet_param-int32-string-int32"></a><span data-ttu-id="6b469-103">JetGetSystemParameter 方法 (JET_INSTANCE、JET_SESID、JET_param、Int32、String、Int32) </span><span class="sxs-lookup"><span data-stu-id="6b469-103">Api.JetGetSystemParameter method (JET_INSTANCE, JET_SESID, JET_param, Int32, String, Int32)</span></span>
+# <a name="apijetgetsystemparameter-method-jet_instance-jet_sesid-jet_param-int32-string-int32"></a><span data-ttu-id="12bec-103">JetGetSystemParameter 方法 (JET_INSTANCE、JET_SESID、JET_param、Int32、String、Int32) </span><span class="sxs-lookup"><span data-stu-id="12bec-103">Api.JetGetSystemParameter method (JET_INSTANCE, JET_SESID, JET_param, Int32, String, Int32)</span></span>
 
-<span data-ttu-id="6b469-104">取得資料庫設定選項。</span><span class="sxs-lookup"><span data-stu-id="6b469-104">Gets database configuration options.</span></span>
+<span data-ttu-id="12bec-104">取得資料庫設定選項。</span><span class="sxs-lookup"><span data-stu-id="12bec-104">Gets database configuration options.</span></span>
 
-<span data-ttu-id="6b469-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6b469-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="6b469-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6b469-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="12bec-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="12bec-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="12bec-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="12bec-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6b469-107">語法</span><span class="sxs-lookup"><span data-stu-id="6b469-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="12bec-107">語法</span><span class="sxs-lookup"><span data-stu-id="12bec-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -71,65 +71,65 @@ public static JET_wrn JetGetSystemParameter(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="6b469-108">參數</span><span class="sxs-lookup"><span data-stu-id="6b469-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="12bec-108">參數</span><span class="sxs-lookup"><span data-stu-id="12bec-108">Parameters</span></span>
 
-  - <span data-ttu-id="6b469-109">instance</span><span class="sxs-lookup"><span data-stu-id="6b469-109">instance</span></span>  
-    <span data-ttu-id="6b469-110">類型： [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span><span class="sxs-lookup"><span data-stu-id="6b469-110">Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span></span>  
+  - <span data-ttu-id="12bec-109">instance</span><span class="sxs-lookup"><span data-stu-id="12bec-109">instance</span></span>  
+    <span data-ttu-id="12bec-110">類型： [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span><span class="sxs-lookup"><span data-stu-id="12bec-110">Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)</span></span>  
     
-    <span data-ttu-id="6b469-111">要從中取出選項的實例。</span><span class="sxs-lookup"><span data-stu-id="6b469-111">The instance to retrieve the options from.</span></span>
+    <span data-ttu-id="12bec-111">要從中取出選項的實例。</span><span class="sxs-lookup"><span data-stu-id="12bec-111">The instance to retrieve the options from.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="6b469-112">sesid</span><span class="sxs-lookup"><span data-stu-id="6b469-112">sesid</span></span>  
-    <span data-ttu-id="6b469-113">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="6b469-113">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="12bec-112">sesid</span><span class="sxs-lookup"><span data-stu-id="12bec-112">sesid</span></span>  
+    <span data-ttu-id="12bec-113">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="12bec-113">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="6b469-114">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="6b469-114">The session to use.</span></span>
+    <span data-ttu-id="12bec-114">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="12bec-114">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="6b469-115">paramid</span><span class="sxs-lookup"><span data-stu-id="6b469-115">paramid</span></span>  
-    <span data-ttu-id="6b469-116">類型： [Microsoft.Isam.Esent.Interop.JET_param](./jet-param-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="6b469-116">Type: [Microsoft.Isam.Esent.Interop.JET_param](./jet-param-enumeration.md)</span></span>  
+  - <span data-ttu-id="12bec-115">paramid</span><span class="sxs-lookup"><span data-stu-id="12bec-115">paramid</span></span>  
+    <span data-ttu-id="12bec-116">類型： [Microsoft.Isam.Esent.Interop.JET_param](./jet-param-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="12bec-116">Type: [Microsoft.Isam.Esent.Interop.JET_param](./jet-param-enumeration.md)</span></span>  
     
-    <span data-ttu-id="6b469-117">要取得的參數。</span><span class="sxs-lookup"><span data-stu-id="6b469-117">The parameter to get.</span></span>
+    <span data-ttu-id="12bec-117">要取得的參數。</span><span class="sxs-lookup"><span data-stu-id="12bec-117">The parameter to get.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="6b469-118">paramValue</span><span class="sxs-lookup"><span data-stu-id="6b469-118">paramValue</span></span>  
-    <span data-ttu-id="6b469-119">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="6b469-119">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="12bec-118">paramValue</span><span class="sxs-lookup"><span data-stu-id="12bec-118">paramValue</span></span>  
+    <span data-ttu-id="12bec-119">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="12bec-119">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="6b469-120">如果值是整數，則傳回參數的值。</span><span class="sxs-lookup"><span data-stu-id="6b469-120">Returns the value of the parameter, if the value is an integer.</span></span>
+    <span data-ttu-id="12bec-120">如果值是整數，則傳回參數的值。</span><span class="sxs-lookup"><span data-stu-id="12bec-120">Returns the value of the parameter, if the value is an integer.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="6b469-121">paramString</span><span class="sxs-lookup"><span data-stu-id="6b469-121">paramString</span></span>  
-    <span data-ttu-id="6b469-122">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="6b469-122">Type: [System.String](/dotnet/api/system.string)</span></span>  
+  - <span data-ttu-id="12bec-121">paramString</span><span class="sxs-lookup"><span data-stu-id="12bec-121">paramString</span></span>  
+    <span data-ttu-id="12bec-122">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="12bec-122">Type: [System.String](/dotnet/api/system.string)</span></span>  
     
-    <span data-ttu-id="6b469-123">如果值為字串，則傳回參數的值。</span><span class="sxs-lookup"><span data-stu-id="6b469-123">Returns the value of the parameter, if the value is a string.</span></span>
+    <span data-ttu-id="12bec-123">如果值為字串，則傳回參數的值。</span><span class="sxs-lookup"><span data-stu-id="12bec-123">Returns the value of the parameter, if the value is a string.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="6b469-124">maxParam</span><span class="sxs-lookup"><span data-stu-id="6b469-124">maxParam</span></span>  
-    <span data-ttu-id="6b469-125">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="6b469-125">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="12bec-124">maxParam</span><span class="sxs-lookup"><span data-stu-id="12bec-124">maxParam</span></span>  
+    <span data-ttu-id="12bec-125">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="12bec-125">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="6b469-126">參數字串的大小上限。</span><span class="sxs-lookup"><span data-stu-id="6b469-126">The maximum size of the parameter string.</span></span>
+    <span data-ttu-id="12bec-126">參數字串的大小上限。</span><span class="sxs-lookup"><span data-stu-id="12bec-126">The maximum size of the parameter string.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="6b469-127">傳回值</span><span class="sxs-lookup"><span data-stu-id="6b469-127">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="12bec-127">傳回值</span><span class="sxs-lookup"><span data-stu-id="12bec-127">Return value</span></span>
 
-<span data-ttu-id="6b469-128">類型： [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="6b469-128">Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span></span>  
-<span data-ttu-id="6b469-129">ESENT 警告碼。</span><span class="sxs-lookup"><span data-stu-id="6b469-129">An ESENT warning code.</span></span>  
+<span data-ttu-id="12bec-128">類型： [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="12bec-128">Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span></span>  
+<span data-ttu-id="12bec-129">ESENT 警告碼。</span><span class="sxs-lookup"><span data-stu-id="12bec-129">An ESENT warning code.</span></span>  
 
-## <a name="remarks"></a><span data-ttu-id="6b469-130">備註</span><span class="sxs-lookup"><span data-stu-id="6b469-130">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="12bec-130">備註</span><span class="sxs-lookup"><span data-stu-id="12bec-130">Remarks</span></span>
 
-<span data-ttu-id="6b469-131">[ErrorToString](./jet-param-enumeration.md) 會傳入 paramValue 中的錯誤號碼，這就是為什麼它是 ref 參數，而不是 out 參數。</span><span class="sxs-lookup"><span data-stu-id="6b469-131">[ErrorToString](./jet-param-enumeration.md) passes in the error number in the paramValue, which is why it is a ref parameter and not an out parameter.</span></span>
+<span data-ttu-id="12bec-131">[ErrorToString](./jet-param-enumeration.md) 會傳入 paramValue 中的錯誤號碼，這就是為什麼它是 ref 參數，而不是 out 參數。</span><span class="sxs-lookup"><span data-stu-id="12bec-131">[ErrorToString](./jet-param-enumeration.md) passes in the error number in the paramValue, which is why it is a ref parameter and not an out parameter.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6b469-132">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6b469-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12bec-132">另請參閱</span><span class="sxs-lookup"><span data-stu-id="12bec-132">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="6b469-133">參考</span><span class="sxs-lookup"><span data-stu-id="6b469-133">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="12bec-133">參考</span><span class="sxs-lookup"><span data-stu-id="12bec-133">Reference</span></span>
 
-[<span data-ttu-id="6b469-134">Api 類別</span><span class="sxs-lookup"><span data-stu-id="6b469-134">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="12bec-134">Api 類別</span><span class="sxs-lookup"><span data-stu-id="12bec-134">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="6b469-135">Api 成員</span><span class="sxs-lookup"><span data-stu-id="6b469-135">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="12bec-135">Api 成員</span><span class="sxs-lookup"><span data-stu-id="12bec-135">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="6b469-136">JetGetSystemParameter 多載</span><span class="sxs-lookup"><span data-stu-id="6b469-136">JetGetSystemParameter overload</span></span>](./api.jetgetsystemparameter-method.md)
+[<span data-ttu-id="12bec-136">JetGetSystemParameter 多載</span><span class="sxs-lookup"><span data-stu-id="12bec-136">JetGetSystemParameter overload</span></span>](./api.jetgetsystemparameter-method.md)
 
-[<span data-ttu-id="6b469-137">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="6b469-137">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="12bec-137">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="12bec-137">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

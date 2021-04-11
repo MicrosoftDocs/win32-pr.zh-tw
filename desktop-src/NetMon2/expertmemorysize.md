@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847741"
 ---
-# <a name="expertmemorysize-function"></a><span data-ttu-id="61eab-103">ExpertMemorySize 函式</span><span class="sxs-lookup"><span data-stu-id="61eab-103">ExpertMemorySize function</span></span>
+# <a name="expertmemorysize-function"></a><span data-ttu-id="452c5-103">ExpertMemorySize 函式</span><span class="sxs-lookup"><span data-stu-id="452c5-103">ExpertMemorySize function</span></span>
 
-<span data-ttu-id="61eab-104">**ExpertMemorySize** 函數會傳回 [ExpertAllocMemory](expertallocmemory.md)函數所配置的記憶體數量。</span><span class="sxs-lookup"><span data-stu-id="61eab-104">The **ExpertMemorySize** function returns the amount of memory allocated by the [ExpertAllocMemory](expertallocmemory.md) function.</span></span>
+<span data-ttu-id="452c5-104">**ExpertMemorySize** 函數會傳回 [ExpertAllocMemory](expertallocmemory.md)函數所配置的記憶體數量。</span><span class="sxs-lookup"><span data-stu-id="452c5-104">The **ExpertMemorySize** function returns the amount of memory allocated by the [ExpertAllocMemory](expertallocmemory.md) function.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="61eab-105">語法</span><span class="sxs-lookup"><span data-stu-id="61eab-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="452c5-105">語法</span><span class="sxs-lookup"><span data-stu-id="452c5-105">Syntax</span></span>
 
 
 ```C++
@@ -36,43 +36,43 @@ SIZE_T WINAPI ExpertMemorySize(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="61eab-106">參數</span><span class="sxs-lookup"><span data-stu-id="61eab-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="452c5-106">參數</span><span class="sxs-lookup"><span data-stu-id="452c5-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="61eab-107">*hExpertKey* \[在\]</span><span class="sxs-lookup"><span data-stu-id="61eab-107">*hExpertKey* \[in\]</span></span>
+<span data-ttu-id="452c5-107">*hExpertKey* \[在\]</span><span class="sxs-lookup"><span data-stu-id="452c5-107">*hExpertKey* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="61eab-108">獨特的專家識別碼。</span><span class="sxs-lookup"><span data-stu-id="61eab-108">Unique expert identifier.</span></span> <span data-ttu-id="61eab-109">網路監視器在呼叫 [Run](run.md)函式時，將 *hExpertKey* 傳遞給專家。</span><span class="sxs-lookup"><span data-stu-id="61eab-109">Network Monitor passes *hExpertKey* to the expert when it calls the [Run](run.md) function.</span></span>
+<span data-ttu-id="452c5-108">獨特的專家識別碼。</span><span class="sxs-lookup"><span data-stu-id="452c5-108">Unique expert identifier.</span></span> <span data-ttu-id="452c5-109">網路監視器在呼叫 [Run](run.md)函式時，將 *hExpertKey* 傳遞給專家。</span><span class="sxs-lookup"><span data-stu-id="452c5-109">Network Monitor passes *hExpertKey* to the expert when it calls the [Run](run.md) function.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="61eab-110">*pOriginalMemory* \[在\]</span><span class="sxs-lookup"><span data-stu-id="61eab-110">*pOriginalMemory* \[in\]</span></span>
+<span data-ttu-id="452c5-110">*pOriginalMemory* \[在\]</span><span class="sxs-lookup"><span data-stu-id="452c5-110">*pOriginalMemory* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="61eab-111">[ExpertAllocMemory](expertallocmemory.md)所配置專家的記憶體位址指標。</span><span class="sxs-lookup"><span data-stu-id="61eab-111">Pointer to the memory address of the expert allocated by [ExpertAllocMemory](expertallocmemory.md).</span></span>
+<span data-ttu-id="452c5-111">[ExpertAllocMemory](expertallocmemory.md)所配置專家的記憶體位址指標。</span><span class="sxs-lookup"><span data-stu-id="452c5-111">Pointer to the memory address of the expert allocated by [ExpertAllocMemory](expertallocmemory.md).</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="61eab-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="61eab-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="452c5-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="452c5-112">Return value</span></span>
 
-<span data-ttu-id="61eab-113">函數會傳回配置的記憶體數量（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="61eab-113">The function returns the amount of allocated memory   in bytes.</span></span>
+<span data-ttu-id="452c5-113">函數會傳回配置的記憶體數量（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="452c5-113">The function returns the amount of allocated memory   in bytes.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="61eab-114">備註</span><span class="sxs-lookup"><span data-stu-id="61eab-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="452c5-114">備註</span><span class="sxs-lookup"><span data-stu-id="452c5-114">Remarks</span></span>
 
-<span data-ttu-id="61eab-115">如需 **ExpertMemorySize** 所傳回之 **大小 \_ T** 資料類型的相關資訊，請參閱資料類型。</span><span class="sxs-lookup"><span data-stu-id="61eab-115">For information on the **SIZE\_T** data type that **ExpertMemorySize** returns, see Data Types.</span></span>
+<span data-ttu-id="452c5-115">如需 **ExpertMemorySize** 所傳回之 **大小 \_ T** 資料類型的相關資訊，請參閱資料類型。</span><span class="sxs-lookup"><span data-stu-id="452c5-115">For information on the **SIZE\_T** data type that **ExpertMemorySize** returns, see Data Types.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="61eab-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="61eab-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="452c5-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="452c5-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="61eab-117">需求</span><span class="sxs-lookup"><span data-stu-id="61eab-117">Requirement</span></span> | <span data-ttu-id="61eab-118">值</span><span class="sxs-lookup"><span data-stu-id="61eab-118">Value</span></span> |
+| <span data-ttu-id="452c5-117">需求</span><span class="sxs-lookup"><span data-stu-id="452c5-117">Requirement</span></span> | <span data-ttu-id="452c5-118">值</span><span class="sxs-lookup"><span data-stu-id="452c5-118">Value</span></span> |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="61eab-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="61eab-119">Minimum supported client</span></span><br/> | <span data-ttu-id="61eab-120">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="61eab-120">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                           |
-| <span data-ttu-id="61eab-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="61eab-121">Minimum supported server</span></span><br/> | <span data-ttu-id="61eab-122">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="61eab-122">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                 |
-| <span data-ttu-id="61eab-123">標頭</span><span class="sxs-lookup"><span data-stu-id="61eab-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="61eab-124"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="61eab-124"><dt>Netmon.h</dt></span></span> </dl>  |
-| <span data-ttu-id="61eab-125">程式庫</span><span class="sxs-lookup"><span data-stu-id="61eab-125">Library</span></span><br/>                  | <dl> <span data-ttu-id="61eab-126"><dt>Nmapi .lib</dt></span><span class="sxs-lookup"><span data-stu-id="61eab-126"><dt>Nmapi.lib</dt></span></span> </dl> |
-| <span data-ttu-id="61eab-127">DLL</span><span class="sxs-lookup"><span data-stu-id="61eab-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="61eab-128"><dt>Nmapi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="61eab-128"><dt>Nmapi.dll</dt></span></span> </dl> |
+| <span data-ttu-id="452c5-119">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="452c5-119">Minimum supported client</span></span><br/> | <span data-ttu-id="452c5-120">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="452c5-120">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                           |
+| <span data-ttu-id="452c5-121">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="452c5-121">Minimum supported server</span></span><br/> | <span data-ttu-id="452c5-122">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="452c5-122">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="452c5-123">標頭</span><span class="sxs-lookup"><span data-stu-id="452c5-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="452c5-124"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="452c5-124"><dt>Netmon.h</dt></span></span> </dl>  |
+| <span data-ttu-id="452c5-125">程式庫</span><span class="sxs-lookup"><span data-stu-id="452c5-125">Library</span></span><br/>                  | <dl> <span data-ttu-id="452c5-126"><dt>Nmapi .lib</dt></span><span class="sxs-lookup"><span data-stu-id="452c5-126"><dt>Nmapi.lib</dt></span></span> </dl> |
+| <span data-ttu-id="452c5-127">DLL</span><span class="sxs-lookup"><span data-stu-id="452c5-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="452c5-128"><dt>Nmapi.dll</dt></span><span class="sxs-lookup"><span data-stu-id="452c5-128"><dt>Nmapi.dll</dt></span></span> </dl> |
 
 
 

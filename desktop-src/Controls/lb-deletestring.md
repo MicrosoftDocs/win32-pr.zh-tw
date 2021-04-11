@@ -21,64 +21,64 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844036"
 ---
-# <a name="lb_deletestring-message"></a><span data-ttu-id="716b8-104">LB \_ DELETESTRING 訊息</span><span class="sxs-lookup"><span data-stu-id="716b8-104">LB\_DELETESTRING message</span></span>
+# <a name="lb_deletestring-message"></a><span data-ttu-id="f595f-104">LB \_ DELETESTRING 訊息</span><span class="sxs-lookup"><span data-stu-id="f595f-104">LB\_DELETESTRING message</span></span>
 
-<span data-ttu-id="716b8-105">刪除清單方塊中的字串。</span><span class="sxs-lookup"><span data-stu-id="716b8-105">Deletes a string in a list box.</span></span>
+<span data-ttu-id="f595f-105">刪除清單方塊中的字串。</span><span class="sxs-lookup"><span data-stu-id="f595f-105">Deletes a string in a list box.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="716b8-106">參數</span><span class="sxs-lookup"><span data-stu-id="716b8-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f595f-106">參數</span><span class="sxs-lookup"><span data-stu-id="f595f-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="716b8-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="716b8-107">*wParam*</span></span> 
+<span data-ttu-id="f595f-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="f595f-107">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="716b8-108">要刪除之字串的以零為基底的索引。</span><span class="sxs-lookup"><span data-stu-id="716b8-108">The zero-based index of the string to be deleted.</span></span>
+<span data-ttu-id="f595f-108">要刪除之字串的以零為基底的索引。</span><span class="sxs-lookup"><span data-stu-id="f595f-108">The zero-based index of the string to be deleted.</span></span>
 
-<span data-ttu-id="716b8-109">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *wParam* 參數限制為16位值。</span><span class="sxs-lookup"><span data-stu-id="716b8-109">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values.</span></span> <span data-ttu-id="716b8-110">這表示清單方塊不能包含超過32767個專案。</span><span class="sxs-lookup"><span data-stu-id="716b8-110">This means list boxes cannot contain more than 32,767 items.</span></span> <span data-ttu-id="716b8-111">雖然限制專案數目，但清單方塊中專案的總大小（以位元組為單位）只受限於可用的記憶體。</span><span class="sxs-lookup"><span data-stu-id="716b8-111">Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.</span></span>
+<span data-ttu-id="f595f-109">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *wParam* 參數限制為16位值。</span><span class="sxs-lookup"><span data-stu-id="f595f-109">Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values.</span></span> <span data-ttu-id="f595f-110">這表示清單方塊不能包含超過32767個專案。</span><span class="sxs-lookup"><span data-stu-id="f595f-110">This means list boxes cannot contain more than 32,767 items.</span></span> <span data-ttu-id="f595f-111">雖然限制專案數目，但清單方塊中專案的總大小（以位元組為單位）只受限於可用的記憶體。</span><span class="sxs-lookup"><span data-stu-id="f595f-111">Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="716b8-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="716b8-112">*lParam*</span></span> 
+<span data-ttu-id="f595f-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="f595f-112">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="716b8-113">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="716b8-113">This parameter is not used.</span></span>
+<span data-ttu-id="f595f-113">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="f595f-113">This parameter is not used.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="716b8-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="716b8-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f595f-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="f595f-114">Return value</span></span>
 
-<span data-ttu-id="716b8-115">傳回值是清單中剩餘字串的計數。</span><span class="sxs-lookup"><span data-stu-id="716b8-115">The return value is a count of the strings remaining in the list.</span></span> <span data-ttu-id="716b8-116">\_如果 *wParam* 參數指定的索引大於清單中的專案數，則傳回值為 LB ERR。</span><span class="sxs-lookup"><span data-stu-id="716b8-116">The return value is LB\_ERR if the *wParam* parameter specifies an index greater than the number of items in the list.</span></span>
+<span data-ttu-id="f595f-115">傳回值是清單中剩餘字串的計數。</span><span class="sxs-lookup"><span data-stu-id="f595f-115">The return value is a count of the strings remaining in the list.</span></span> <span data-ttu-id="f595f-116">\_如果 *wParam* 參數指定的索引大於清單中的專案數，則傳回值為 LB ERR。</span><span class="sxs-lookup"><span data-stu-id="f595f-116">The return value is LB\_ERR if the *wParam* parameter specifies an index greater than the number of items in the list.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="716b8-117">備註</span><span class="sxs-lookup"><span data-stu-id="716b8-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f595f-117">備註</span><span class="sxs-lookup"><span data-stu-id="f595f-117">Remarks</span></span>
 
-<span data-ttu-id="716b8-118">如果應用程式建立具有主控描繪樣式但沒有 [**磅 \_ HASSTRINGS**](list-box-styles.md) 樣式的清單方塊，系統會將 [**WM \_ DELETEITEM**](wm-deleteitem.md) 訊息傳送給清單方塊的擁有者，讓應用程式可以釋出與該專案相關聯的任何其他資料。</span><span class="sxs-lookup"><span data-stu-id="716b8-118">If an application creates the list box with an owner-drawn style but without the [**LBS\_HASSTRINGS**](list-box-styles.md) style, the system sends a [**WM\_DELETEITEM**](wm-deleteitem.md) message to the owner of the list box so the application can free any additional data associated with the item.</span></span>
+<span data-ttu-id="f595f-118">如果應用程式建立具有主控描繪樣式但沒有 [**磅 \_ HASSTRINGS**](list-box-styles.md) 樣式的清單方塊，系統會將 [**WM \_ DELETEITEM**](wm-deleteitem.md) 訊息傳送給清單方塊的擁有者，讓應用程式可以釋出與該專案相關聯的任何其他資料。</span><span class="sxs-lookup"><span data-stu-id="f595f-118">If an application creates the list box with an owner-drawn style but without the [**LBS\_HASSTRINGS**](list-box-styles.md) style, the system sends a [**WM\_DELETEITEM**](wm-deleteitem.md) message to the owner of the list box so the application can free any additional data associated with the item.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="716b8-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="716b8-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f595f-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="f595f-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="716b8-120">需求</span><span class="sxs-lookup"><span data-stu-id="716b8-120">Requirement</span></span> | <span data-ttu-id="716b8-121">值</span><span class="sxs-lookup"><span data-stu-id="716b8-121">Value</span></span> |
+| <span data-ttu-id="f595f-120">需求</span><span class="sxs-lookup"><span data-stu-id="f595f-120">Requirement</span></span> | <span data-ttu-id="f595f-121">值</span><span class="sxs-lookup"><span data-stu-id="f595f-121">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="716b8-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="716b8-122">Minimum supported client</span></span><br/> | <span data-ttu-id="716b8-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="716b8-123">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="716b8-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="716b8-124">Minimum supported server</span></span><br/> | <span data-ttu-id="716b8-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="716b8-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="716b8-126">標頭</span><span class="sxs-lookup"><span data-stu-id="716b8-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="716b8-127"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="716b8-127"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="f595f-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f595f-122">Minimum supported client</span></span><br/> | <span data-ttu-id="f595f-123">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f595f-123">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="f595f-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f595f-124">Minimum supported server</span></span><br/> | <span data-ttu-id="f595f-125">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f595f-125">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="f595f-126">標頭</span><span class="sxs-lookup"><span data-stu-id="f595f-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="f595f-127"><dt>Winuser (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="f595f-127"><dt>Winuser.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="716b8-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="716b8-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f595f-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f595f-128">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="716b8-129">**參考**</span><span class="sxs-lookup"><span data-stu-id="716b8-129">**Reference**</span></span>
+<span data-ttu-id="f595f-129">**參考**</span><span class="sxs-lookup"><span data-stu-id="f595f-129">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="716b8-130">**LB \_ ADDSTRING**</span><span class="sxs-lookup"><span data-stu-id="716b8-130">**LB\_ADDSTRING**</span></span>](lb-addstring.md)
+[<span data-ttu-id="f595f-130">**LB \_ ADDSTRING**</span><span class="sxs-lookup"><span data-stu-id="f595f-130">**LB\_ADDSTRING**</span></span>](lb-addstring.md)
 </dt> <dt>
 
-[<span data-ttu-id="716b8-131">**LB \_ INSERTSTRING**</span><span class="sxs-lookup"><span data-stu-id="716b8-131">**LB\_INSERTSTRING**</span></span>](lb-insertstring.md)
+[<span data-ttu-id="f595f-131">**LB \_ INSERTSTRING**</span><span class="sxs-lookup"><span data-stu-id="f595f-131">**LB\_INSERTSTRING**</span></span>](lb-insertstring.md)
 </dt> <dt>
 
-[<span data-ttu-id="716b8-132">**WM \_ DELETEITEM**</span><span class="sxs-lookup"><span data-stu-id="716b8-132">**WM\_DELETEITEM**</span></span>](wm-deleteitem.md)
+[<span data-ttu-id="f595f-132">**WM \_ DELETEITEM**</span><span class="sxs-lookup"><span data-stu-id="f595f-132">**WM\_DELETEITEM**</span></span>](wm-deleteitem.md)
 </dt> </dl>
 
  

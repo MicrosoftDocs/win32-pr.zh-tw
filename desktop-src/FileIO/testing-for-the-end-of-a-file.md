@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943904"
 ---
-# <a name="testing-for-the-end-of-a-file"></a><span data-ttu-id="e6347-103">測試檔案尾</span><span class="sxs-lookup"><span data-stu-id="e6347-103">Testing for the End of a File</span></span>
+# <a name="testing-for-the-end-of-a-file"></a><span data-ttu-id="0fa44-103">測試檔案尾</span><span class="sxs-lookup"><span data-stu-id="0fa44-103">Testing for the End of a File</span></span>
 
-<span data-ttu-id="e6347-104">[**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile)函式會檢查檔案結尾條件 (EOF) 不同的同步和非同步讀取作業。</span><span class="sxs-lookup"><span data-stu-id="e6347-104">The [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) function checks for the end-of-file condition (EOF) differently for synchronous and asynchronous read operations.</span></span> <span data-ttu-id="e6347-105">當同步讀取作業到達檔案結尾時， **ReadFile** 會傳回 **TRUE** ，並將 *lpNumberOfBytesRead* 參數所指向的變數設定為零。</span><span class="sxs-lookup"><span data-stu-id="e6347-105">When a synchronous read operation gets to the end of a file, **ReadFile** returns **TRUE** and sets the variable pointed to by the *lpNumberOfBytesRead* parameter to zero.</span></span> <span data-ttu-id="e6347-106">非同步讀取作業可能會在起始呼叫 **ReadFile** 期間，或在後續非同步作業期間遇到檔案結尾，如果檔案指標以程式設計的方式在檔案結尾之外進行擴充。</span><span class="sxs-lookup"><span data-stu-id="e6347-106">An asynchronous read operation can encounter the end of a file during the initiating call to **ReadFile** or during subsequent asynchronous operations if the file pointer is programmatically advanced beyond the end of the file.</span></span>
+<span data-ttu-id="0fa44-104">[**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile)函式會檢查檔案結尾條件 (EOF) 不同的同步和非同步讀取作業。</span><span class="sxs-lookup"><span data-stu-id="0fa44-104">The [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) function checks for the end-of-file condition (EOF) differently for synchronous and asynchronous read operations.</span></span> <span data-ttu-id="0fa44-105">當同步讀取作業到達檔案結尾時， **ReadFile** 會傳回 **TRUE** ，並將 *lpNumberOfBytesRead* 參數所指向的變數設定為零。</span><span class="sxs-lookup"><span data-stu-id="0fa44-105">When a synchronous read operation gets to the end of a file, **ReadFile** returns **TRUE** and sets the variable pointed to by the *lpNumberOfBytesRead* parameter to zero.</span></span> <span data-ttu-id="0fa44-106">非同步讀取作業可能會在起始呼叫 **ReadFile** 期間，或在後續非同步作業期間遇到檔案結尾，如果檔案指標以程式設計的方式在檔案結尾之外進行擴充。</span><span class="sxs-lookup"><span data-stu-id="0fa44-106">An asynchronous read operation can encounter the end of a file during the initiating call to **ReadFile** or during subsequent asynchronous operations if the file pointer is programmatically advanced beyond the end of the file.</span></span>
 
-<span data-ttu-id="e6347-107">下列 c + + 範例顯示如何在同步讀取作業期間測試檔案尾。</span><span class="sxs-lookup"><span data-stu-id="e6347-107">The following C++ example shows how to test for the end of a file during a synchronous read operation.</span></span>
+<span data-ttu-id="0fa44-107">下列 c + + 範例顯示如何在同步讀取作業期間測試檔案尾。</span><span class="sxs-lookup"><span data-stu-id="0fa44-107">The following C++ example shows how to test for the end of a file during a synchronous read operation.</span></span>
 
 
 ```C++
@@ -31,9 +31,9 @@ ms.locfileid: "103943904"
 
 
 
-<span data-ttu-id="e6347-108">在非同步讀取作業期間測試檔案尾的測試，與類似的同步讀取作業稍微相關。</span><span class="sxs-lookup"><span data-stu-id="e6347-108">The test for end-of-file during an asynchronous read operation is slightly more involved than for a similar synchronous read operation.</span></span> <span data-ttu-id="e6347-109">非同步讀取作業的檔案結尾指標是當 [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) 傳回 **FALSE** ，而 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 傳回 **錯誤 \_ 處理常式 \_ EOF** 時。</span><span class="sxs-lookup"><span data-stu-id="e6347-109">The end-of-file indicator for asynchronous read operations is when [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) returns **FALSE** and [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR\_HANDLE\_EOF**.</span></span>
+<span data-ttu-id="0fa44-108">在非同步讀取作業期間測試檔案尾的測試，與類似的同步讀取作業稍微相關。</span><span class="sxs-lookup"><span data-stu-id="0fa44-108">The test for end-of-file during an asynchronous read operation is slightly more involved than for a similar synchronous read operation.</span></span> <span data-ttu-id="0fa44-109">非同步讀取作業的檔案結尾指標是當 [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) 傳回 **FALSE** ，而 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 傳回 **錯誤 \_ 處理常式 \_ EOF** 時。</span><span class="sxs-lookup"><span data-stu-id="0fa44-109">The end-of-file indicator for asynchronous read operations is when [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) returns **FALSE** and [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR\_HANDLE\_EOF**.</span></span>
 
-<span data-ttu-id="e6347-110">下列 c + + 範例顯示如何在非同步讀取作業期間測試檔案尾。</span><span class="sxs-lookup"><span data-stu-id="e6347-110">The following C++ example shows how to test for the end of file during an asynchronous read operation.</span></span>
+<span data-ttu-id="0fa44-110">下列 c + + 範例顯示如何在非同步讀取作業期間測試檔案尾。</span><span class="sxs-lookup"><span data-stu-id="0fa44-110">The following C++ example shows how to test for the end of file during an asynchronous read operation.</span></span>
 
 
 ```C++
@@ -300,7 +300,7 @@ int __cdecl _tmain(int argc, TCHAR *argv[])
 
 
 
-<span data-ttu-id="e6347-111">此範例程式碼的輸出如下所示。</span><span class="sxs-lookup"><span data-stu-id="e6347-111">The output from this sample code is as follows.</span></span>
+<span data-ttu-id="0fa44-111">此範例程式碼的輸出如下所示。</span><span class="sxs-lookup"><span data-stu-id="0fa44-111">The output from this sample code is as follows.</span></span>
 
 ``` syntax
 ReadFile operation is pending
