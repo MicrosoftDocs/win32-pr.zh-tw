@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847916"
 ---
-# <a name="using-dynamic-link-libraries"></a><span data-ttu-id="b0b6a-103">使用 Dynamic-Link 程式庫</span><span class="sxs-lookup"><span data-stu-id="b0b6a-103">Using Dynamic-Link Libraries</span></span>
+# <a name="using-dynamic-link-libraries"></a><span data-ttu-id="e96e8-103">使用 Dynamic-Link 程式庫</span><span class="sxs-lookup"><span data-stu-id="e96e8-103">Using Dynamic-Link Libraries</span></span>
 
-<span data-ttu-id="b0b6a-104">下列範例示範如何建立和使用 DLL。</span><span class="sxs-lookup"><span data-stu-id="b0b6a-104">The following examples demonstrate how to create and use a DLL.</span></span>
+<span data-ttu-id="e96e8-104">下列範例示範如何建立和使用 DLL。</span><span class="sxs-lookup"><span data-stu-id="e96e8-104">The following examples demonstrate how to create and use a DLL.</span></span>
 
--   [<span data-ttu-id="b0b6a-105">建立簡單的動態連結程式庫</span><span class="sxs-lookup"><span data-stu-id="b0b6a-105">Creating a simple dynamic-link library</span></span>](creating-a-simple-dynamic-link-library.md)
--   [<span data-ttu-id="b0b6a-106">使用載入時間動態連結</span><span class="sxs-lookup"><span data-stu-id="b0b6a-106">Using load-time dynamic linking</span></span>](using-load-time-dynamic-linking.md)
--   [<span data-ttu-id="b0b6a-107">使用執行時間動態連結</span><span class="sxs-lookup"><span data-stu-id="b0b6a-107">Using run-time dynamic linking</span></span>](using-run-time-dynamic-linking.md)
--   [<span data-ttu-id="b0b6a-108">使用動態連結程式庫中的共用記憶體</span><span class="sxs-lookup"><span data-stu-id="b0b6a-108">Using shared memory in a dynamic-link library</span></span>](using-shared-memory-in-a-dynamic-link-library.md)
--   [<span data-ttu-id="b0b6a-109">使用動態連結程式庫中的執行緒區域儲存區</span><span class="sxs-lookup"><span data-stu-id="b0b6a-109">Using thread local storage in a dynamic-link library</span></span>](using-thread-local-storage-in-a-dynamic-link-library.md)
+-   [<span data-ttu-id="e96e8-105">建立簡單的動態連結程式庫</span><span class="sxs-lookup"><span data-stu-id="e96e8-105">Creating a simple dynamic-link library</span></span>](creating-a-simple-dynamic-link-library.md)
+-   [<span data-ttu-id="e96e8-106">使用載入時間動態連結</span><span class="sxs-lookup"><span data-stu-id="e96e8-106">Using load-time dynamic linking</span></span>](using-load-time-dynamic-linking.md)
+-   [<span data-ttu-id="e96e8-107">使用執行時間動態連結</span><span class="sxs-lookup"><span data-stu-id="e96e8-107">Using run-time dynamic linking</span></span>](using-run-time-dynamic-linking.md)
+-   [<span data-ttu-id="e96e8-108">使用動態連結程式庫中的共用記憶體</span><span class="sxs-lookup"><span data-stu-id="e96e8-108">Using shared memory in a dynamic-link library</span></span>](using-shared-memory-in-a-dynamic-link-library.md)
+-   [<span data-ttu-id="e96e8-109">使用動態連結程式庫中的執行緒區域儲存區</span><span class="sxs-lookup"><span data-stu-id="e96e8-109">Using thread local storage in a dynamic-link library</span></span>](using-thread-local-storage-in-a-dynamic-link-library.md)
 
  
 

@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847731"
 ---
-# <a name="idelaydcconnect-method"></a><span data-ttu-id="df434-103">IDelaydC：： Connect 方法</span><span class="sxs-lookup"><span data-stu-id="df434-103">IDelaydC::Connect method</span></span>
+# <a name="idelaydcconnect-method"></a><span data-ttu-id="f9901-103">IDelaydC：： Connect 方法</span><span class="sxs-lookup"><span data-stu-id="f9901-103">IDelaydC::Connect method</span></span>
 
-<span data-ttu-id="df434-104">**Connect** 方法會使用指定的網路介面卡，將 NPP 連接到網路，並提供連線的設定資訊。</span><span class="sxs-lookup"><span data-stu-id="df434-104">The **Connect** method connects the NPP to the network by using a specified network interface card and provides configuration information about the connection.</span></span>
+<span data-ttu-id="f9901-104">**Connect** 方法會使用指定的網路介面卡，將 NPP 連接到網路，並提供連線的設定資訊。</span><span class="sxs-lookup"><span data-stu-id="f9901-104">The **Connect** method connects the NPP to the network by using a specified network interface card and provides configuration information about the connection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="df434-105">語法</span><span class="sxs-lookup"><span data-stu-id="df434-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f9901-105">語法</span><span class="sxs-lookup"><span data-stu-id="f9901-105">Syntax</span></span>
 
 
 ```C++
@@ -39,43 +39,43 @@ HRESULT STDMETHODCALLTYPE Connect(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="df434-106">參數</span><span class="sxs-lookup"><span data-stu-id="df434-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f9901-106">參數</span><span class="sxs-lookup"><span data-stu-id="f9901-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="df434-107">*hInputBlob* \[在\]</span><span class="sxs-lookup"><span data-stu-id="df434-107">*hInputBlob* \[in\]</span></span>
+<span data-ttu-id="f9901-107">*hInputBlob* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f9901-107">*hInputBlob* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df434-108">BLOB 的控制碼，指定您要連接的 NIC 以及該連接的設定資訊。</span><span class="sxs-lookup"><span data-stu-id="df434-108">Handle to the BLOB that specifies the NIC that you are connecting to and the configuration information about that connection.</span></span>
+<span data-ttu-id="f9901-108">BLOB 的控制碼，指定您要連接的 NIC 以及該連接的設定資訊。</span><span class="sxs-lookup"><span data-stu-id="f9901-108">Handle to the BLOB that specifies the NIC that you are connecting to and the configuration information about that connection.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df434-109">*StatusCallbackProc* \[在\]</span><span class="sxs-lookup"><span data-stu-id="df434-109">*StatusCallbackProc* \[in\]</span></span>
+<span data-ttu-id="f9901-109">*StatusCallbackProc* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f9901-109">*StatusCallbackProc* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df434-110">使用者回呼函式的位址，用來接收狀態更新（例如觸發程式）。</span><span class="sxs-lookup"><span data-stu-id="df434-110">Address of the user's callback function, which is used to receive status updates such as triggers.</span></span> <span data-ttu-id="df434-111">如果未使用回呼函式，請將此參數和 *UserCoNtext* 參數設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="df434-111">If no callback function is used, set this parameter and the *UserContext* parameter to **NULL**.</span></span>
+<span data-ttu-id="f9901-110">使用者回呼函式的位址，用來接收狀態更新（例如觸發程式）。</span><span class="sxs-lookup"><span data-stu-id="f9901-110">Address of the user's callback function, which is used to receive status updates such as triggers.</span></span> <span data-ttu-id="f9901-111">如果未使用回呼函式，請將此參數和 *UserCoNtext* 參數設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="f9901-111">If no callback function is used, set this parameter and the *UserContext* parameter to **NULL**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df434-112">*UserCoNtext* \[在\]</span><span class="sxs-lookup"><span data-stu-id="df434-112">*UserContext* \[in\]</span></span>
+<span data-ttu-id="f9901-112">*UserCoNtext* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f9901-112">*UserContext* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df434-113">呼叫使用者的回呼函數時傳遞的值。</span><span class="sxs-lookup"><span data-stu-id="df434-113">Value passed when the user's callback function is called.</span></span> <span data-ttu-id="df434-114">這個參數的值通常是 HWND 或 ' this ' 指標。</span><span class="sxs-lookup"><span data-stu-id="df434-114">The value of this parameter is typically either HWND or a 'this' pointer.</span></span> <span data-ttu-id="df434-115">如果未指定回呼函數，請將此參數和 *StatusCallbackProc* 參數設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="df434-115">If a callback function is not specified, set this parameter and the *StatusCallbackProc* parameter to **NULL**.</span></span>
+<span data-ttu-id="f9901-113">呼叫使用者的回呼函數時傳遞的值。</span><span class="sxs-lookup"><span data-stu-id="f9901-113">Value passed when the user's callback function is called.</span></span> <span data-ttu-id="f9901-114">這個參數的值通常是 HWND 或 ' this ' 指標。</span><span class="sxs-lookup"><span data-stu-id="f9901-114">The value of this parameter is typically either HWND or a 'this' pointer.</span></span> <span data-ttu-id="f9901-115">如果未指定回呼函數，請將此參數和 *StatusCallbackProc* 參數設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="f9901-115">If a callback function is not specified, set this parameter and the *StatusCallbackProc* parameter to **NULL**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="df434-116">*hErrorBlob* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="df434-116">*hErrorBlob* \[out\]</span></span>
+<span data-ttu-id="f9901-116">*hErrorBlob* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="f9901-116">*hErrorBlob* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="df434-117">錯誤 BLOB 的控制碼，其中包含其他錯誤資訊。</span><span class="sxs-lookup"><span data-stu-id="df434-117">Handle to an error BLOB that contains additional error information.</span></span>
+<span data-ttu-id="f9901-117">錯誤 BLOB 的控制碼，其中包含其他錯誤資訊。</span><span class="sxs-lookup"><span data-stu-id="f9901-117">Handle to an error BLOB that contains additional error information.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="df434-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="df434-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f9901-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="f9901-118">Return value</span></span>
 
-<span data-ttu-id="df434-119">如果此方法成功，則傳回值為 NMERR \_ SUCCESS。</span><span class="sxs-lookup"><span data-stu-id="df434-119">If this method is successful, the return value is NMERR\_SUCCESS.</span></span>
+<span data-ttu-id="f9901-119">如果此方法成功，則傳回值為 NMERR \_ SUCCESS。</span><span class="sxs-lookup"><span data-stu-id="f9901-119">If this method is successful, the return value is NMERR\_SUCCESS.</span></span>
 
-<span data-ttu-id="df434-120">如果此方法不成功，則傳回值會是下列其中一個錯誤碼 (其中包含內部 **IDelaydC：： Configure** 呼叫) 所傳回的錯誤：</span><span class="sxs-lookup"><span data-stu-id="df434-120">If the method is unsuccessful, the return value is one of the following error codes (which include those errors returned by the internal **IDelaydC::Configure** call):</span></span>
+<span data-ttu-id="f9901-120">如果此方法不成功，則傳回值會是下列其中一個錯誤碼 (其中包含內部 **IDelaydC：： Configure** 呼叫) 所傳回的錯誤：</span><span class="sxs-lookup"><span data-stu-id="f9901-120">If the method is unsuccessful, the return value is one of the following error codes (which include those errors returned by the internal **IDelaydC::Configure** call):</span></span>
 
 
 
@@ -86,55 +86,55 @@ HRESULT STDMETHODCALLTYPE Connect(
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="df434-121">傳回碼</span><span class="sxs-lookup"><span data-stu-id="df434-121">Return code</span></span></th>
-<th><span data-ttu-id="df434-122">Description</span><span class="sxs-lookup"><span data-stu-id="df434-122">Description</span></span></th>
+<th><span data-ttu-id="f9901-121">傳回碼</span><span class="sxs-lookup"><span data-stu-id="f9901-121">Return code</span></span></th>
+<th><span data-ttu-id="f9901-122">Description</span><span class="sxs-lookup"><span data-stu-id="f9901-122">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><dl> <span data-ttu-id="df434-123"><dt><strong>NMERR_ALREADY_CONNECTED</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-123"><dt><strong>NMERR_ALREADY_CONNECTED</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-124">NPP COM 物件的這個實例已連線到網路。</span><span class="sxs-lookup"><span data-stu-id="df434-124">This instance of the NPP COM object is already connected to the network.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-123"><dt><strong>NMERR_ALREADY_CONNECTED</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-123"><dt><strong>NMERR_ALREADY_CONNECTED</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-124">NPP COM 物件的這個實例已連線到網路。</span><span class="sxs-lookup"><span data-stu-id="f9901-124">This instance of the NPP COM object is already connected to the network.</span></span><br/></td>
 </tr>
 <tr class="even">
-<td><dl> <span data-ttu-id="df434-125"><dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-125"><dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-126">設定 BLOB 已損毀。</span><span class="sxs-lookup"><span data-stu-id="df434-126">The configuration BLOB is corrupt.</span></span> <span data-ttu-id="df434-127">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="df434-127">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-125"><dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-125"><dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-126">設定 BLOB 已損毀。</span><span class="sxs-lookup"><span data-stu-id="f9901-126">The configuration BLOB is corrupt.</span></span> <span data-ttu-id="f9901-127">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="f9901-127">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <span data-ttu-id="df434-128"><dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-128"><dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-129"><em>HInputBlob</em>所指定的輸入 BLOB 缺少執行這項作業所需的專案。</span><span class="sxs-lookup"><span data-stu-id="df434-129">The input BLOB specified by <em>hInputBlob</em> is missing an entry needed to perform this operation.</span></span> <span data-ttu-id="df434-130">此錯誤可能是由 <strong>IDelaydC：： Connect</strong> 或 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="df434-130">This error may be generated by the <strong>IDelaydC::Connect</strong> or <strong>IDelaydC::Configure</strong> call.</span></span> <span data-ttu-id="df434-131">查看 <em>hErrorBlob</em> 傳回的錯誤 BLOB，以判斷找不到哪個專案。</span><span class="sxs-lookup"><span data-stu-id="df434-131">Look at the error BLOB returned by <em>hErrorBlob</em> to determine which entry was not found.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-128"><dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-128"><dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-129"><em>HInputBlob</em>所指定的輸入 BLOB 缺少執行這項作業所需的專案。</span><span class="sxs-lookup"><span data-stu-id="f9901-129">The input BLOB specified by <em>hInputBlob</em> is missing an entry needed to perform this operation.</span></span> <span data-ttu-id="f9901-130">此錯誤可能是由 <strong>IDelaydC：： Connect</strong> 或 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="f9901-130">This error may be generated by the <strong>IDelaydC::Connect</strong> or <strong>IDelaydC::Configure</strong> call.</span></span> <span data-ttu-id="f9901-131">查看 <em>hErrorBlob</em> 傳回的錯誤 BLOB，以判斷找不到哪個專案。</span><span class="sxs-lookup"><span data-stu-id="f9901-131">Look at the error BLOB returned by <em>hErrorBlob</em> to determine which entry was not found.</span></span><br/></td>
 </tr>
 <tr class="even">
-<td><dl> <span data-ttu-id="df434-132"><dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-132"><dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-133">尚未呼叫 <strong>CreateBlob</strong> 函數。</span><span class="sxs-lookup"><span data-stu-id="df434-133">The <strong>CreateBlob</strong> function has not been called.</span></span> <span data-ttu-id="df434-134">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="df434-134">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-132"><dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-132"><dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-133">尚未呼叫 <strong>CreateBlob</strong> 函數。</span><span class="sxs-lookup"><span data-stu-id="f9901-133">The <strong>CreateBlob</strong> function has not been called.</span></span> <span data-ttu-id="f9901-134">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="f9901-134">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <span data-ttu-id="df434-135"><dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-135"><dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-136">字串不是以 null 結束。</span><span class="sxs-lookup"><span data-stu-id="df434-136">The string is not null-terminated.</span></span> <span data-ttu-id="df434-137">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="df434-137">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-135"><dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-135"><dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-136">字串不是以 null 結束。</span><span class="sxs-lookup"><span data-stu-id="f9901-136">The string is not null-terminated.</span></span> <span data-ttu-id="f9901-137">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="f9901-137">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
 </tr>
 <tr class="even">
-<td><dl> <span data-ttu-id="df434-138"><dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-138"><dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-139">輸入 BLOB 的觸發程式部分已損毀。</span><span class="sxs-lookup"><span data-stu-id="df434-139">The trigger portion of the input BLOB is corrupt.</span></span> <span data-ttu-id="df434-140">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="df434-140">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-138"><dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-138"><dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-139">輸入 BLOB 的觸發程式部分已損毀。</span><span class="sxs-lookup"><span data-stu-id="f9901-139">The trigger portion of the input BLOB is corrupt.</span></span> <span data-ttu-id="f9901-140">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="f9901-140">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <span data-ttu-id="df434-141"><dt><strong>NMERR_INVALID_BLOB</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-141"><dt><strong>NMERR_INVALID_BLOB</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-142"><em>HInputBlob</em>中指定的物件不是 BLOB。</span><span class="sxs-lookup"><span data-stu-id="df434-142">The object specified in <em>hInputBlob</em> is not a BLOB.</span></span> <span data-ttu-id="df434-143">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="df434-143">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-141"><dt><strong>NMERR_INVALID_BLOB</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-141"><dt><strong>NMERR_INVALID_BLOB</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-142"><em>HInputBlob</em>中指定的物件不是 BLOB。</span><span class="sxs-lookup"><span data-stu-id="f9901-142">The object specified in <em>hInputBlob</em> is not a BLOB.</span></span> <span data-ttu-id="f9901-143">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="f9901-143">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
 </tr>
 <tr class="even">
-<td><dl> <span data-ttu-id="df434-144"><dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-144"><dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-145">未在登錄中設定預設的 capture 目錄。</span><span class="sxs-lookup"><span data-stu-id="df434-145">The default capture directory was not set in the registry.</span></span> <span data-ttu-id="df434-146">使用下列路徑來設定 capture 目錄。</span><span class="sxs-lookup"><span data-stu-id="df434-146">Use the following path to set the capture directory.</span></span> <br/>
+<td><dl> <span data-ttu-id="f9901-144"><dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-144"><dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-145">未在登錄中設定預設的 capture 目錄。</span><span class="sxs-lookup"><span data-stu-id="f9901-145">The default capture directory was not set in the registry.</span></span> <span data-ttu-id="f9901-146">使用下列路徑來設定 capture 目錄。</span><span class="sxs-lookup"><span data-stu-id="f9901-146">Use the following path to set the capture directory.</span></span> <br/>
 <pre class="syntax" data-space="preserve"><code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\nm\Parameters\CapturePath</code></pre></td>
 </tr>
 <tr class="odd">
-<td><dl> <span data-ttu-id="df434-147"><dt><strong>NMERR_OUT_OF_MEMORY</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-147"><dt><strong>NMERR_OUT_OF_MEMORY</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-148">沒有可執行此作業的記憶體。</span><span class="sxs-lookup"><span data-stu-id="df434-148">No memory was available to perform this operation.</span></span> <span data-ttu-id="df434-149">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="df434-149">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-147"><dt><strong>NMERR_OUT_OF_MEMORY</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-147"><dt><strong>NMERR_OUT_OF_MEMORY</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-148">沒有可執行此作業的記憶體。</span><span class="sxs-lookup"><span data-stu-id="f9901-148">No memory was available to perform this operation.</span></span> <span data-ttu-id="f9901-149">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="f9901-149">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
 </tr>
 <tr class="even">
-<td><dl> <span data-ttu-id="df434-150"><dt><strong>NMERR_TIMEOUT</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-150"><dt><strong>NMERR_TIMEOUT</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-151">要求已超時。此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="df434-151">The request has timed out. This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-150"><dt><strong>NMERR_TIMEOUT</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-150"><dt><strong>NMERR_TIMEOUT</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-151">要求已超時。此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="f9901-151">The request has timed out. This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <span data-ttu-id="df434-152"><dt><strong>NMERR_UPLEVEL_BLOB</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="df434-152"><dt><strong>NMERR_UPLEVEL_BLOB</strong></dt> </span></span></dl></td>
-<td><span data-ttu-id="df434-153"><em>HInputBlob</em>中指定的 BLOB 版本號碼不正確。</span><span class="sxs-lookup"><span data-stu-id="df434-153">The version number of the BLOB specified in <em>hInputBlob</em> is incorrect.</span></span> <span data-ttu-id="df434-154">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="df434-154">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
+<td><dl> <span data-ttu-id="f9901-152"><dt><strong>NMERR_UPLEVEL_BLOB</strong></dt> </span><span class="sxs-lookup"><span data-stu-id="f9901-152"><dt><strong>NMERR_UPLEVEL_BLOB</strong></dt> </span></span></dl></td>
+<td><span data-ttu-id="f9901-153"><em>HInputBlob</em>中指定的 BLOB 版本號碼不正確。</span><span class="sxs-lookup"><span data-stu-id="f9901-153">The version number of the BLOB specified in <em>hInputBlob</em> is incorrect.</span></span> <span data-ttu-id="f9901-154">此錯誤是由 <strong>IDelaydC：： Configure</strong> 呼叫所產生。</span><span class="sxs-lookup"><span data-stu-id="f9901-154">This error is generated by the <strong>IDelaydC::Configure</strong> call.</span></span><br/></td>
 </tr>
 </tbody>
 </table>
@@ -143,53 +143,53 @@ HRESULT STDMETHODCALLTYPE Connect(
 
  
 
-## <a name="remarks"></a><span data-ttu-id="df434-155">備註</span><span class="sxs-lookup"><span data-stu-id="df434-155">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f9901-155">備註</span><span class="sxs-lookup"><span data-stu-id="f9901-155">Remarks</span></span>
 
-<span data-ttu-id="df434-156">呼叫 **Connect** 方法時，NPP 會使用 *hInputBlob* 所提供的 BLOB，自動呼叫 **IDelaydC：： Configure** 。</span><span class="sxs-lookup"><span data-stu-id="df434-156">When the **Connect** method is called, the NPP automatically calls **IDelaydC::Configure** by using the BLOB provided by *hInputBlob*.</span></span> <span data-ttu-id="df434-157">請注意， **IDelaydC：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IDelaydC：： Connect** 呼叫傳回。</span><span class="sxs-lookup"><span data-stu-id="df434-157">Note that any error codes returned by the call to **IDelaydC::Configure** are passed back and returned by the **IDelaydC::Connect** call.</span></span>
+<span data-ttu-id="f9901-156">呼叫 **Connect** 方法時，NPP 會使用 *hInputBlob* 所提供的 BLOB，自動呼叫 **IDelaydC：： Configure** 。</span><span class="sxs-lookup"><span data-stu-id="f9901-156">When the **Connect** method is called, the NPP automatically calls **IDelaydC::Configure** by using the BLOB provided by *hInputBlob*.</span></span> <span data-ttu-id="f9901-157">請注意， **IDelaydC：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IDelaydC：： Connect** 呼叫傳回。</span><span class="sxs-lookup"><span data-stu-id="f9901-157">Note that any error codes returned by the call to **IDelaydC::Configure** are passed back and returned by the **IDelaydC::Connect** call.</span></span>
 
-<span data-ttu-id="df434-158">您必須先呼叫這個方法，才能開始捕獲框架。</span><span class="sxs-lookup"><span data-stu-id="df434-158">This method must be called before you can start capturing frames.</span></span> <span data-ttu-id="df434-159">請注意，當您使用此方法連接到網路時，您必須繼續使用 **IDelaydC** 介面方法來捕捉畫面格。</span><span class="sxs-lookup"><span data-stu-id="df434-159">Note that when you connect to the network by using this method, you must continue to use the **IDelaydC** interface methods to capture frames.</span></span>
+<span data-ttu-id="f9901-158">您必須先呼叫這個方法，才能開始捕獲框架。</span><span class="sxs-lookup"><span data-stu-id="f9901-158">This method must be called before you can start capturing frames.</span></span> <span data-ttu-id="f9901-159">請注意，當您使用此方法連接到網路時，您必須繼續使用 **IDelaydC** 介面方法來捕捉畫面格。</span><span class="sxs-lookup"><span data-stu-id="f9901-159">Note that when you connect to the network by using this method, you must continue to use the **IDelaydC** interface methods to capture frames.</span></span>
 
-<span data-ttu-id="df434-160">您可以藉由呼叫 **GetNPPBlobFromUI**、 **GetNPPBlobTable** 和 **SelectNPPBlobFromTable** 來取得 *hInputBlob* 參數所指定的輸入 BLOB。</span><span class="sxs-lookup"><span data-stu-id="df434-160">The input BLOB specified by the *hInputBlob* parameter can be obtained by calling **GetNPPBlobFromUI**, **GetNPPBlobTable**, and **SelectNPPBlobFromTable**.</span></span>
+<span data-ttu-id="f9901-160">您可以藉由呼叫 **GetNPPBlobFromUI**、 **GetNPPBlobTable** 和 **SelectNPPBlobFromTable** 來取得 *hInputBlob* 參數所指定的輸入 BLOB。</span><span class="sxs-lookup"><span data-stu-id="f9901-160">The input BLOB specified by the *hInputBlob* parameter can be obtained by calling **GetNPPBlobFromUI**, **GetNPPBlobTable**, and **SelectNPPBlobFromTable**.</span></span>
 
-<span data-ttu-id="df434-161">*HErrorBlob* 中傳回的錯誤 BLOB 包含開發人員或應用程式可用於進行疑難排解的錯誤資訊。</span><span class="sxs-lookup"><span data-stu-id="df434-161">The error BLOB returned in *hErrorBlob* contains error information that the developer or the application can use for troubleshooting.</span></span> <span data-ttu-id="df434-162">*HErrorBlob* 所傳回的錯誤 BLOB 包含網路監視器無法在 *hInputBlob* 中指定的輸入 BLOB 中瞭解或尋找的專案。</span><span class="sxs-lookup"><span data-stu-id="df434-162">The error BLOB returned by *hErrorBlob* contains entries that Network Monitor could not understand or find in the input BLOB specified in *hInputBlob*.</span></span> <span data-ttu-id="df434-163">例如，如果傳回 NMERR \_ BLOB \_ 專案不存在，則會在 \_ \_ \_ 傳回的錯誤 BLOB 中包含網路監視器找不到的專案。</span><span class="sxs-lookup"><span data-stu-id="df434-163">For example, if NMERR\_BLOB\_ENTRY\_DOES\_NOT\_EXIST is returned, the entry Network Monitor could not find is included in the returned error BLOB.</span></span>
+<span data-ttu-id="f9901-161">*HErrorBlob* 中傳回的錯誤 BLOB 包含開發人員或應用程式可用於進行疑難排解的錯誤資訊。</span><span class="sxs-lookup"><span data-stu-id="f9901-161">The error BLOB returned in *hErrorBlob* contains error information that the developer or the application can use for troubleshooting.</span></span> <span data-ttu-id="f9901-162">*HErrorBlob* 所傳回的錯誤 BLOB 包含網路監視器無法在 *hInputBlob* 中指定的輸入 BLOB 中瞭解或尋找的專案。</span><span class="sxs-lookup"><span data-stu-id="f9901-162">The error BLOB returned by *hErrorBlob* contains entries that Network Monitor could not understand or find in the input BLOB specified in *hInputBlob*.</span></span> <span data-ttu-id="f9901-163">例如，如果傳回 NMERR \_ BLOB \_ 專案不存在，則會在 \_ \_ \_ 傳回的錯誤 BLOB 中包含網路監視器找不到的專案。</span><span class="sxs-lookup"><span data-stu-id="f9901-163">For example, if NMERR\_BLOB\_ENTRY\_DOES\_NOT\_EXIST is returned, the entry Network Monitor could not find is included in the returned error BLOB.</span></span>
 
 
 
-| <span data-ttu-id="df434-164">如需下列資訊</span><span class="sxs-lookup"><span data-stu-id="df434-164">For information about</span></span>                          | <span data-ttu-id="df434-165">請參閱</span><span class="sxs-lookup"><span data-stu-id="df434-165">See</span></span>                                                                          |
+| <span data-ttu-id="f9901-164">如需下列資訊</span><span class="sxs-lookup"><span data-stu-id="f9901-164">For information about</span></span>                          | <span data-ttu-id="f9901-165">請參閱</span><span class="sxs-lookup"><span data-stu-id="f9901-165">See</span></span>                                                                          |
 |------------------------------------------------|------------------------------------------------------------------------------|
-| <span data-ttu-id="df434-166">取得代表 NIC 的輸入 BLOB</span><span class="sxs-lookup"><span data-stu-id="df434-166">Obtaining the input BLOB that represents a NIC</span></span> | [<span data-ttu-id="df434-167">選取網路介面卡</span><span class="sxs-lookup"><span data-stu-id="df434-167">Selecting a Network Interface Card</span></span>](selecting-a-network-interface-card.md) |
+| <span data-ttu-id="f9901-166">取得代表 NIC 的輸入 BLOB</span><span class="sxs-lookup"><span data-stu-id="f9901-166">Obtaining the input BLOB that represents a NIC</span></span> | [<span data-ttu-id="f9901-167">選取網路介面卡</span><span class="sxs-lookup"><span data-stu-id="f9901-167">Selecting a Network Interface Card</span></span>](selecting-a-network-interface-card.md) |
 
 
 
  
 
-## <a name="requirements"></a><span data-ttu-id="df434-168">規格需求</span><span class="sxs-lookup"><span data-stu-id="df434-168">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f9901-168">規格需求</span><span class="sxs-lookup"><span data-stu-id="f9901-168">Requirements</span></span>
 
 
 
-| <span data-ttu-id="df434-169">需求</span><span class="sxs-lookup"><span data-stu-id="df434-169">Requirement</span></span> | <span data-ttu-id="df434-170">值</span><span class="sxs-lookup"><span data-stu-id="df434-170">Value</span></span> |
+| <span data-ttu-id="f9901-169">需求</span><span class="sxs-lookup"><span data-stu-id="f9901-169">Requirement</span></span> | <span data-ttu-id="f9901-170">值</span><span class="sxs-lookup"><span data-stu-id="f9901-170">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="df434-171">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="df434-171">Minimum supported client</span></span><br/> | <span data-ttu-id="df434-172">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="df434-172">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                                                               |
-| <span data-ttu-id="df434-173">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="df434-173">Minimum supported server</span></span><br/> | <span data-ttu-id="df434-174">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="df434-174">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                                                                     |
-| <span data-ttu-id="df434-175">標頭</span><span class="sxs-lookup"><span data-stu-id="df434-175">Header</span></span><br/>                   | <dl> <span data-ttu-id="df434-176"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="df434-176"><dt>Netmon.h</dt></span></span> </dl>                                                                      |
-| <span data-ttu-id="df434-177">DLL</span><span class="sxs-lookup"><span data-stu-id="df434-177">DLL</span></span><br/>                      | <dl> <span data-ttu-id="df434-178"><dt>Ndisnpp.dll;</dt><dt>Rmtnpp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="df434-178"><dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="f9901-171">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f9901-171">Minimum supported client</span></span><br/> | <span data-ttu-id="f9901-172">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f9901-172">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                                                               |
+| <span data-ttu-id="f9901-173">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f9901-173">Minimum supported server</span></span><br/> | <span data-ttu-id="f9901-174">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f9901-174">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                                                                     |
+| <span data-ttu-id="f9901-175">標頭</span><span class="sxs-lookup"><span data-stu-id="f9901-175">Header</span></span><br/>                   | <dl> <span data-ttu-id="f9901-176"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="f9901-176"><dt>Netmon.h</dt></span></span> </dl>                                                                      |
+| <span data-ttu-id="f9901-177">DLL</span><span class="sxs-lookup"><span data-stu-id="f9901-177">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f9901-178"><dt>Ndisnpp.dll;</dt><dt>Rmtnpp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f9901-178"><dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="df434-179">另請參閱</span><span class="sxs-lookup"><span data-stu-id="df434-179">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f9901-179">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f9901-179">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="df434-180">IDelaydC</span><span class="sxs-lookup"><span data-stu-id="df434-180">IDelaydC</span></span>](idelaydc.md)
+[<span data-ttu-id="f9901-180">IDelaydC</span><span class="sxs-lookup"><span data-stu-id="f9901-180">IDelaydC</span></span>](idelaydc.md)
 </dt> <dt>
 
-[<span data-ttu-id="df434-181">IDelaydC：： Configure</span><span class="sxs-lookup"><span data-stu-id="df434-181">IDelaydC::Configure</span></span>](idelaydc-configure.md)
+[<span data-ttu-id="f9901-181">IDelaydC：： Configure</span><span class="sxs-lookup"><span data-stu-id="f9901-181">IDelaydC::Configure</span></span>](idelaydc-configure.md)
 </dt> <dt>
 
-[<span data-ttu-id="df434-182">IDelaydC：:D isconnect</span><span class="sxs-lookup"><span data-stu-id="df434-182">IDelaydC::Disconnect</span></span>](idelaydc-disconnect.md)
+[<span data-ttu-id="f9901-182">IDelaydC：:D isconnect</span><span class="sxs-lookup"><span data-stu-id="f9901-182">IDelaydC::Disconnect</span></span>](idelaydc-disconnect.md)
 </dt> <dt>
 
-[<span data-ttu-id="df434-183">IDelaydC：： Start</span><span class="sxs-lookup"><span data-stu-id="df434-183">IDelaydC::Start</span></span>](idelaydc-start.md)
+[<span data-ttu-id="f9901-183">IDelaydC：： Start</span><span class="sxs-lookup"><span data-stu-id="f9901-183">IDelaydC::Start</span></span>](idelaydc-start.md)
 </dt> </dl>
 
  

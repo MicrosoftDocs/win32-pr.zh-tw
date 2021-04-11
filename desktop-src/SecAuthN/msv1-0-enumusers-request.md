@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847933"
 ---
-# <a name="msv1_0_enumusers_request"></a><span data-ttu-id="15a5c-103">MSV1 \_ 0 \_ ENUMUSERS \_ 要求</span><span class="sxs-lookup"><span data-stu-id="15a5c-103">MSV1\_0\_ENUMUSERS\_REQUEST</span></span>
+# <a name="msv1_0_enumusers_request"></a><span data-ttu-id="4875d-103">MSV1 \_ 0 \_ ENUMUSERS \_ 要求</span><span class="sxs-lookup"><span data-stu-id="4875d-103">MSV1\_0\_ENUMUSERS\_REQUEST</span></span>
 
-<span data-ttu-id="15a5c-104">MSV1 \_ 0 \_ ENUMUSERS \_ 要求結構已過時。</span><span class="sxs-lookup"><span data-stu-id="15a5c-104">The MSV1\_0\_ENUMUSERS\_REQUEST structure is obsolete.</span></span>
+<span data-ttu-id="4875d-104">MSV1 \_ 0 \_ ENUMUSERS \_ 要求結構已過時。</span><span class="sxs-lookup"><span data-stu-id="4875d-104">The MSV1\_0\_ENUMUSERS\_REQUEST structure is obsolete.</span></span>
 
-<span data-ttu-id="15a5c-105">若要取得已登入使用者的相關資訊，請參閱 [**NetWkstaUserEnum**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstauserenum) 函式。</span><span class="sxs-lookup"><span data-stu-id="15a5c-105">For retrieving information about logged on users, see the [**NetWkstaUserEnum**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstauserenum) function.</span></span>
+<span data-ttu-id="4875d-105">若要取得已登入使用者的相關資訊，請參閱 [**NetWkstaUserEnum**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstauserenum) 函式。</span><span class="sxs-lookup"><span data-stu-id="4875d-105">For retrieving information about logged on users, see the [**NetWkstaUserEnum**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstauserenum) function.</span></span>
 
  
 
