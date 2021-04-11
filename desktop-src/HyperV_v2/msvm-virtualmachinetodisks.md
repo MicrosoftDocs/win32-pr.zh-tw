@@ -22,13 +22,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847765"
 ---
-# <a name="msvm_virtualmachinetodisks-class"></a><span data-ttu-id="e5dae-103">Msvm \_ VirtualMachineToDisks 類別</span><span class="sxs-lookup"><span data-stu-id="e5dae-103">Msvm\_VirtualMachineToDisks class</span></span>
+# <a name="msvm_virtualmachinetodisks-class"></a><span data-ttu-id="d37dc-103">Msvm \_ VirtualMachineToDisks 類別</span><span class="sxs-lookup"><span data-stu-id="d37dc-103">Msvm\_VirtualMachineToDisks class</span></span>
 
-<span data-ttu-id="e5dae-104">將資料設定為以陣列形式傳遞至 [**Msvm \_ CollectionReferencePointExportSettingData**](msvm-collectionreferencepointexportsettingdata.md) 類別。</span><span class="sxs-lookup"><span data-stu-id="e5dae-104">Setting data to be passed as an array to the [**Msvm\_CollectionReferencePointExportSettingData**](msvm-collectionreferencepointexportsettingdata.md) class.</span></span>
+<span data-ttu-id="d37dc-104">將資料設定為以陣列形式傳遞至 [**Msvm \_ CollectionReferencePointExportSettingData**](msvm-collectionreferencepointexportsettingdata.md) 類別。</span><span class="sxs-lookup"><span data-stu-id="d37dc-104">Setting data to be passed as an array to the [**Msvm\_CollectionReferencePointExportSettingData**](msvm-collectionreferencepointexportsettingdata.md) class.</span></span>
 
-<span data-ttu-id="e5dae-105">下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="e5dae-105">The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.</span></span>
+<span data-ttu-id="d37dc-105">下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="d37dc-105">The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e5dae-106">語法</span><span class="sxs-lookup"><span data-stu-id="e5dae-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d37dc-106">語法</span><span class="sxs-lookup"><span data-stu-id="d37dc-106">Syntax</span></span>
 
 ``` syntax
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
@@ -39,55 +39,55 @@ class Msvm_VirtualMachineToDisks
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="e5dae-107">成員</span><span class="sxs-lookup"><span data-stu-id="e5dae-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="d37dc-107">成員</span><span class="sxs-lookup"><span data-stu-id="d37dc-107">Members</span></span>
 
-<span data-ttu-id="e5dae-108">**Msvm \_ VirtualMachineToDisks** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="e5dae-108">The **Msvm\_VirtualMachineToDisks** class has these types of members:</span></span>
+<span data-ttu-id="d37dc-108">**Msvm \_ VirtualMachineToDisks** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="d37dc-108">The **Msvm\_VirtualMachineToDisks** class has these types of members:</span></span>
 
--   [<span data-ttu-id="e5dae-109">屬性</span><span class="sxs-lookup"><span data-stu-id="e5dae-109">Properties</span></span>](#properties)
+-   [<span data-ttu-id="d37dc-109">屬性</span><span class="sxs-lookup"><span data-stu-id="d37dc-109">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="e5dae-110">屬性</span><span class="sxs-lookup"><span data-stu-id="e5dae-110">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="d37dc-110">屬性</span><span class="sxs-lookup"><span data-stu-id="d37dc-110">Properties</span></span>
 
-<span data-ttu-id="e5dae-111">**Msvm \_ VirtualMachineToDisks** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="e5dae-111">The **Msvm\_VirtualMachineToDisks** class has these properties.</span></span>
+<span data-ttu-id="d37dc-111">**Msvm \_ VirtualMachineToDisks** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="d37dc-111">The **Msvm\_VirtualMachineToDisks** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="e5dae-112">**DisksToExport**</span><span class="sxs-lookup"><span data-stu-id="e5dae-112">**DisksToExport**</span></span>
+<span data-ttu-id="d37dc-112">**DisksToExport**</span><span class="sxs-lookup"><span data-stu-id="d37dc-112">**DisksToExport**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="e5dae-113">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="e5dae-113">Data type: **string** array</span></span>
+<span data-ttu-id="d37dc-113">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="d37dc-113">Data type: **string** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="e5dae-114">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="e5dae-114">Access type: Read-only</span></span>
+<span data-ttu-id="d37dc-114">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="d37dc-114">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="e5dae-115">需要匯出資料之特定虛擬機器識別碼所屬磁片的 WMI 實例識別碼。</span><span class="sxs-lookup"><span data-stu-id="e5dae-115">The WMI instance IDs of the disks those belong to given Virtual Machine ID for which data needs to be exported.</span></span>
+<span data-ttu-id="d37dc-115">需要匯出資料之特定虛擬機器識別碼所屬磁片的 WMI 實例識別碼。</span><span class="sxs-lookup"><span data-stu-id="d37dc-115">The WMI instance IDs of the disks those belong to given Virtual Machine ID for which data needs to be exported.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e5dae-116">**VirtualMachineId**</span><span class="sxs-lookup"><span data-stu-id="e5dae-116">**VirtualMachineId**</span></span>
+<span data-ttu-id="d37dc-116">**VirtualMachineId**</span><span class="sxs-lookup"><span data-stu-id="d37dc-116">**VirtualMachineId**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="e5dae-117">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="e5dae-117">Data type: **string**</span></span>
+<span data-ttu-id="d37dc-117">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="d37dc-117">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="e5dae-118">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="e5dae-118">Access type: Read/write</span></span>
+<span data-ttu-id="d37dc-118">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="d37dc-118">Access type: Read/write</span></span>
 </dt> </dl>
 
-<span data-ttu-id="e5dae-119">與虛擬磁片相關聯的虛擬機器識別碼。</span><span class="sxs-lookup"><span data-stu-id="e5dae-119">A Virtual Machine ID that virtual disks are associated with.</span></span>
+<span data-ttu-id="d37dc-119">與虛擬磁片相關聯的虛擬機器識別碼。</span><span class="sxs-lookup"><span data-stu-id="d37dc-119">A Virtual Machine ID that virtual disks are associated with.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="e5dae-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="e5dae-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="d37dc-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="d37dc-120">Requirements</span></span>
 
 
 
-| <span data-ttu-id="e5dae-121">需求</span><span class="sxs-lookup"><span data-stu-id="e5dae-121">Requirement</span></span> | <span data-ttu-id="e5dae-122">值</span><span class="sxs-lookup"><span data-stu-id="e5dae-122">Value</span></span> |
+| <span data-ttu-id="d37dc-121">需求</span><span class="sxs-lookup"><span data-stu-id="d37dc-121">Requirement</span></span> | <span data-ttu-id="d37dc-122">值</span><span class="sxs-lookup"><span data-stu-id="d37dc-122">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="e5dae-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e5dae-123">Minimum supported client</span></span><br/> | <span data-ttu-id="e5dae-124">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e5dae-124">Windows 10 \[desktop apps only\]</span></span><br/>                                                             |
-| <span data-ttu-id="e5dae-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e5dae-125">Minimum supported server</span></span><br/> | <span data-ttu-id="e5dae-126">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="e5dae-126">Windows Server 2016</span></span><br/>                                                                          |
-| <span data-ttu-id="e5dae-127">命名空間</span><span class="sxs-lookup"><span data-stu-id="e5dae-127">Namespace</span></span><br/>                | <span data-ttu-id="e5dae-128">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="e5dae-128">Root\\virtualization\\v2</span></span><br/>                                                                     |
-| <span data-ttu-id="e5dae-129">MOF</span><span class="sxs-lookup"><span data-stu-id="e5dae-129">MOF</span></span><br/>                      | <dl> <span data-ttu-id="e5dae-130"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="e5dae-130"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="e5dae-131">DLL</span><span class="sxs-lookup"><span data-stu-id="e5dae-131">DLL</span></span><br/>                      | <dl> <span data-ttu-id="e5dae-132"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="e5dae-132"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="d37dc-123">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d37dc-123">Minimum supported client</span></span><br/> | <span data-ttu-id="d37dc-124">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d37dc-124">Windows 10 \[desktop apps only\]</span></span><br/>                                                             |
+| <span data-ttu-id="d37dc-125">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d37dc-125">Minimum supported server</span></span><br/> | <span data-ttu-id="d37dc-126">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="d37dc-126">Windows Server 2016</span></span><br/>                                                                          |
+| <span data-ttu-id="d37dc-127">命名空間</span><span class="sxs-lookup"><span data-stu-id="d37dc-127">Namespace</span></span><br/>                | <span data-ttu-id="d37dc-128">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="d37dc-128">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="d37dc-129">MOF</span><span class="sxs-lookup"><span data-stu-id="d37dc-129">MOF</span></span><br/>                      | <dl> <span data-ttu-id="d37dc-130"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="d37dc-130"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="d37dc-131">DLL</span><span class="sxs-lookup"><span data-stu-id="d37dc-131">DLL</span></span><br/>                      | <dl> <span data-ttu-id="d37dc-132"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="d37dc-132"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 

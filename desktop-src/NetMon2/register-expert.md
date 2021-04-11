@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848763"
 ---
-# <a name="register-expert-callback-function"></a><span data-ttu-id="d0795-104">註冊專家回呼函數</span><span class="sxs-lookup"><span data-stu-id="d0795-104">Register Expert callback function</span></span>
+# <a name="register-expert-callback-function"></a><span data-ttu-id="9fd79-104">註冊專家回呼函數</span><span class="sxs-lookup"><span data-stu-id="9fd79-104">Register Expert callback function</span></span>
 
-<span data-ttu-id="d0795-105">專家必須實行 **註冊** 專家功能。</span><span class="sxs-lookup"><span data-stu-id="d0795-105">The expert must implement the **Register** expert function.</span></span> <span data-ttu-id="d0795-106">網路監視器會呼叫 **註冊** 專家功能來取得專家的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="d0795-106">Network Monitor calls the **Register** expert function to obtain information about the expert.</span></span>
+<span data-ttu-id="9fd79-105">專家必須實行 **註冊** 專家功能。</span><span class="sxs-lookup"><span data-stu-id="9fd79-105">The expert must implement the **Register** expert function.</span></span> <span data-ttu-id="9fd79-106">網路監視器會呼叫 **註冊** 專家功能來取得專家的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="9fd79-106">Network Monitor calls the **Register** expert function to obtain information about the expert.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d0795-107">語法</span><span class="sxs-lookup"><span data-stu-id="d0795-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9fd79-107">語法</span><span class="sxs-lookup"><span data-stu-id="9fd79-107">Syntax</span></span>
 
 
 ```C++
@@ -35,36 +35,36 @@ BOOL WINAPI Register(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="d0795-108">參數</span><span class="sxs-lookup"><span data-stu-id="d0795-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9fd79-108">參數</span><span class="sxs-lookup"><span data-stu-id="9fd79-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="d0795-109">*pExpertInfo* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="d0795-109">*pExpertInfo* \[in, out\]</span></span>
+<span data-ttu-id="9fd79-109">*pExpertInfo* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="9fd79-109">*pExpertInfo* \[in, out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d0795-110">網路監視器配置之 [**EXPERTENUMINFO**](expertenuminfo.md) 結構的指標。</span><span class="sxs-lookup"><span data-stu-id="d0795-110">Pointer to an [**EXPERTENUMINFO**](expertenuminfo.md) structure that Network Monitor allocates.</span></span> <span data-ttu-id="d0795-111">專家會以所有要求的資訊填入結構。</span><span class="sxs-lookup"><span data-stu-id="d0795-111">The expert fills in the structure with all requested information.</span></span>
+<span data-ttu-id="9fd79-110">網路監視器配置之 [**EXPERTENUMINFO**](expertenuminfo.md) 結構的指標。</span><span class="sxs-lookup"><span data-stu-id="9fd79-110">Pointer to an [**EXPERTENUMINFO**](expertenuminfo.md) structure that Network Monitor allocates.</span></span> <span data-ttu-id="9fd79-111">專家會以所有要求的資訊填入結構。</span><span class="sxs-lookup"><span data-stu-id="9fd79-111">The expert fills in the structure with all requested information.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="d0795-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="d0795-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9fd79-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="9fd79-112">Return value</span></span>
 
-<span data-ttu-id="d0795-113">如果函式成功，則傳回值為 **TRUE**，而且函數會傳回要求的資訊。</span><span class="sxs-lookup"><span data-stu-id="d0795-113">If the function is successful, the return value is **TRUE**, and the function returns the requested information.</span></span>
+<span data-ttu-id="9fd79-113">如果函式成功，則傳回值為 **TRUE**，而且函數會傳回要求的資訊。</span><span class="sxs-lookup"><span data-stu-id="9fd79-113">If the function is successful, the return value is **TRUE**, and the function returns the requested information.</span></span>
 
-<span data-ttu-id="d0795-114">如果函式不成功，則傳回值為 **FALSE**。</span><span class="sxs-lookup"><span data-stu-id="d0795-114">If the function is unsuccessful, the return value is **FALSE**.</span></span>
+<span data-ttu-id="9fd79-114">如果函式不成功，則傳回值為 **FALSE**。</span><span class="sxs-lookup"><span data-stu-id="9fd79-114">If the function is unsuccessful, the return value is **FALSE**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d0795-115">備註</span><span class="sxs-lookup"><span data-stu-id="d0795-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9fd79-115">備註</span><span class="sxs-lookup"><span data-stu-id="9fd79-115">Remarks</span></span>
 
-<span data-ttu-id="d0795-116">[**EXPERTENUMINFO**](expertenuminfo.md)結構的 **版本** 成員必須為零。</span><span class="sxs-lookup"><span data-stu-id="d0795-116">The **Version** member of the [**EXPERTENUMINFO**](expertenuminfo.md) structure must be zero.</span></span>
+<span data-ttu-id="9fd79-116">[**EXPERTENUMINFO**](expertenuminfo.md)結構的 **版本** 成員必須為零。</span><span class="sxs-lookup"><span data-stu-id="9fd79-116">The **Version** member of the [**EXPERTENUMINFO**](expertenuminfo.md) structure must be zero.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="d0795-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="d0795-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9fd79-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="9fd79-117">Requirements</span></span>
 
 
 
-| <span data-ttu-id="d0795-118">需求</span><span class="sxs-lookup"><span data-stu-id="d0795-118">Requirement</span></span> | <span data-ttu-id="d0795-119">值</span><span class="sxs-lookup"><span data-stu-id="d0795-119">Value</span></span> |
+| <span data-ttu-id="9fd79-118">需求</span><span class="sxs-lookup"><span data-stu-id="9fd79-118">Requirement</span></span> | <span data-ttu-id="9fd79-119">值</span><span class="sxs-lookup"><span data-stu-id="9fd79-119">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| <span data-ttu-id="d0795-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d0795-120">Minimum supported client</span></span><br/> | <span data-ttu-id="d0795-121">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d0795-121">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                          |
-| <span data-ttu-id="d0795-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d0795-122">Minimum supported server</span></span><br/> | <span data-ttu-id="d0795-123">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d0795-123">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                |
-| <span data-ttu-id="d0795-124">標頭</span><span class="sxs-lookup"><span data-stu-id="d0795-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="d0795-125"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="d0795-125"><dt>Netmon.h</dt></span></span> </dl> |
+| <span data-ttu-id="9fd79-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9fd79-120">Minimum supported client</span></span><br/> | <span data-ttu-id="9fd79-121">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9fd79-121">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                          |
+| <span data-ttu-id="9fd79-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9fd79-122">Minimum supported server</span></span><br/> | <span data-ttu-id="9fd79-123">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="9fd79-123">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                |
+| <span data-ttu-id="9fd79-124">標頭</span><span class="sxs-lookup"><span data-stu-id="9fd79-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="9fd79-125"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="9fd79-125"><dt>Netmon.h</dt></span></span> </dl> |
 
 
 

@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849464"
 ---
-# <a name="router-configuration-reference"></a><span data-ttu-id="43288-103">路由器設定參考</span><span class="sxs-lookup"><span data-stu-id="43288-103">Router Configuration Reference</span></span>
+# <a name="router-configuration-reference"></a><span data-ttu-id="0f730-103">路由器設定參考</span><span class="sxs-lookup"><span data-stu-id="0f730-103">Router Configuration Reference</span></span>
 
-<span data-ttu-id="43288-104">下列檔說明使用路由器設定時所要使用的功能：</span><span class="sxs-lookup"><span data-stu-id="43288-104">The following documentation describes the functions to use when working with router configuration:</span></span>
+<span data-ttu-id="0f730-104">下列檔說明使用路由器設定時所要使用的功能：</span><span class="sxs-lookup"><span data-stu-id="0f730-104">The following documentation describes the functions to use when working with router configuration:</span></span>
 
--   [<span data-ttu-id="43288-105">路由器設定函數</span><span class="sxs-lookup"><span data-stu-id="43288-105">Router Configuration Functions</span></span>](router-configuration-functions.md)
+-   [<span data-ttu-id="0f730-105">路由器設定函數</span><span class="sxs-lookup"><span data-stu-id="0f730-105">Router Configuration Functions</span></span>](router-configuration-functions.md)
 
  
 

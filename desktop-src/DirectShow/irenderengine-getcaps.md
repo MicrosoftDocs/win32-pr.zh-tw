@@ -19,16 +19,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103845979"
 ---
-# <a name="irenderenginegetcaps-method"></a><span data-ttu-id="7ec74-103">IRenderEngine：： GetCaps 方法</span><span class="sxs-lookup"><span data-stu-id="7ec74-103">IRenderEngine::GetCaps method</span></span>
+# <a name="irenderenginegetcaps-method"></a><span data-ttu-id="38128-103">IRenderEngine：： GetCaps 方法</span><span class="sxs-lookup"><span data-stu-id="38128-103">IRenderEngine::GetCaps method</span></span>
 
 > [!Note]  
-> <span data-ttu-id="7ec74-104">\[廢棄。</span><span class="sxs-lookup"><span data-stu-id="7ec74-104">\[Deprecated.</span></span> <span data-ttu-id="7ec74-105">此 API 可能會從 Windows 的未來版本中移除。\]</span><span class="sxs-lookup"><span data-stu-id="7ec74-105">This API may be removed from future releases of Windows.\]</span></span>
+> <span data-ttu-id="38128-104">\[廢棄。</span><span class="sxs-lookup"><span data-stu-id="38128-104">\[Deprecated.</span></span> <span data-ttu-id="38128-105">此 API 可能會從 Windows 的未來版本中移除。\]</span><span class="sxs-lookup"><span data-stu-id="38128-105">This API may be removed from future releases of Windows.\]</span></span>
 
  
 
-<span data-ttu-id="7ec74-106">未實作。</span><span class="sxs-lookup"><span data-stu-id="7ec74-106">Not implemented.</span></span>
+<span data-ttu-id="38128-106">未實作。</span><span class="sxs-lookup"><span data-stu-id="38128-106">Not implemented.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7ec74-107">語法</span><span class="sxs-lookup"><span data-stu-id="7ec74-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="38128-107">語法</span><span class="sxs-lookup"><span data-stu-id="38128-107">Syntax</span></span>
 
 
 ```C++
@@ -40,45 +40,45 @@ HRESULT GetCaps(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="7ec74-108">參數</span><span class="sxs-lookup"><span data-stu-id="7ec74-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="38128-108">參數</span><span class="sxs-lookup"><span data-stu-id="38128-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="7ec74-109">*Index*</span><span class="sxs-lookup"><span data-stu-id="7ec74-109">*Index*</span></span> 
+<span data-ttu-id="38128-109">*Index*</span><span class="sxs-lookup"><span data-stu-id="38128-109">*Index*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="7ec74-110">保留的。</span><span class="sxs-lookup"><span data-stu-id="7ec74-110">Reserved.</span></span>
+<span data-ttu-id="38128-110">保留的。</span><span class="sxs-lookup"><span data-stu-id="38128-110">Reserved.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="7ec74-111">*pReturn*</span><span class="sxs-lookup"><span data-stu-id="7ec74-111">*pReturn*</span></span> 
+<span data-ttu-id="38128-111">*pReturn*</span><span class="sxs-lookup"><span data-stu-id="38128-111">*pReturn*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="7ec74-112">保留的。</span><span class="sxs-lookup"><span data-stu-id="7ec74-112">Reserved.</span></span>
+<span data-ttu-id="38128-112">保留的。</span><span class="sxs-lookup"><span data-stu-id="38128-112">Reserved.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="7ec74-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="7ec74-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="38128-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="38128-113">Return value</span></span>
 
-<span data-ttu-id="7ec74-114">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="7ec74-114">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="7ec74-115">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="7ec74-115">Otherwise, it returns an **HRESULT** error code.</span></span>
+<span data-ttu-id="38128-114">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="38128-114">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="38128-115">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="38128-115">Otherwise, it returns an **HRESULT** error code.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7ec74-116">備註</span><span class="sxs-lookup"><span data-stu-id="7ec74-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="38128-116">備註</span><span class="sxs-lookup"><span data-stu-id="38128-116">Remarks</span></span>
 
 > [!Note]  
-> <span data-ttu-id="7ec74-117">標頭檔 Qedit 與版本7以後的 Direct3D 標頭不相容。</span><span class="sxs-lookup"><span data-stu-id="7ec74-117">The header file Qedit.h is not compatible with Direct3D headers later than version 7.</span></span>
+> <span data-ttu-id="38128-117">標頭檔 Qedit 與版本7以後的 Direct3D 標頭不相容。</span><span class="sxs-lookup"><span data-stu-id="38128-117">The header file Qedit.h is not compatible with Direct3D headers later than version 7.</span></span>
 
  
 
 > [!Note]  
-> <span data-ttu-id="7ec74-118">若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。</span><span class="sxs-lookup"><span data-stu-id="7ec74-118">To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span></span> <span data-ttu-id="7ec74-119">在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。</span><span class="sxs-lookup"><span data-stu-id="7ec74-119">Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.</span></span>
+> <span data-ttu-id="38128-118">若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。</span><span class="sxs-lookup"><span data-stu-id="38128-118">To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span></span> <span data-ttu-id="38128-119">在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。</span><span class="sxs-lookup"><span data-stu-id="38128-119">Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.</span></span>
 
  
 
-## <a name="see-also"></a><span data-ttu-id="7ec74-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7ec74-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="38128-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="38128-120">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7ec74-121">**IRenderEngine 介面**</span><span class="sxs-lookup"><span data-stu-id="7ec74-121">**IRenderEngine Interface**</span></span>](irenderengine.md)
+[<span data-ttu-id="38128-121">**IRenderEngine 介面**</span><span class="sxs-lookup"><span data-stu-id="38128-121">**IRenderEngine Interface**</span></span>](irenderengine.md)
 </dt> </dl>
 
  

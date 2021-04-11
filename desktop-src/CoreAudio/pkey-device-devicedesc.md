@@ -11,34 +11,34 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103846960"
 ---
-# <a name="pkey_device_devicedesc"></a><span data-ttu-id="54816-103">PKEY \_ 裝置 \_ DeviceDesc</span><span class="sxs-lookup"><span data-stu-id="54816-103">PKEY\_Device\_DeviceDesc</span></span>
+# <a name="pkey_device_devicedesc"></a><span data-ttu-id="260d5-103">PKEY \_ 裝置 \_ DeviceDesc</span><span class="sxs-lookup"><span data-stu-id="260d5-103">PKEY\_Device\_DeviceDesc</span></span>
 
-<span data-ttu-id="54816-104">**PKEY \_ Device \_ DeviceDesc** 屬性包含端點裝置的裝置描述 (例如「喇叭」 ) 。</span><span class="sxs-lookup"><span data-stu-id="54816-104">The **PKEY\_Device\_DeviceDesc** property contains the device description of the endpoint device (for example, "Speakers").</span></span>
+<span data-ttu-id="260d5-104">**PKEY \_ Device \_ DeviceDesc** 屬性包含端點裝置的裝置描述 (例如「喇叭」 ) 。</span><span class="sxs-lookup"><span data-stu-id="260d5-104">The **PKEY\_Device\_DeviceDesc** property contains the device description of the endpoint device (for example, "Speakers").</span></span>
 
-<span data-ttu-id="54816-105">**PROPVARIANT** 結構的 **vt** 成員會設定為 vt \_ LPWSTR。</span><span class="sxs-lookup"><span data-stu-id="54816-105">The **vt** member of the **PROPVARIANT** structure is set to VT\_LPWSTR.</span></span>
+<span data-ttu-id="260d5-105">**PROPVARIANT** 結構的 **vt** 成員會設定為 vt \_ LPWSTR。</span><span class="sxs-lookup"><span data-stu-id="260d5-105">The **vt** member of the **PROPVARIANT** structure is set to VT\_LPWSTR.</span></span>
 
-<span data-ttu-id="54816-106">**PROPVARIANT** 結構的 **pwszVal** 成員指向以 null 終止的寬字元字串，其中包含裝置描述。</span><span class="sxs-lookup"><span data-stu-id="54816-106">The **pwszVal** member of the **PROPVARIANT** structure points to a null-terminated, wide-character string that contains the device description.</span></span>
+<span data-ttu-id="260d5-106">**PROPVARIANT** 結構的 **pwszVal** 成員指向以 null 終止的寬字元字串，其中包含裝置描述。</span><span class="sxs-lookup"><span data-stu-id="260d5-106">The **pwszVal** member of the **PROPVARIANT** structure points to a null-terminated, wide-character string that contains the device description.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="54816-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="54816-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="260d5-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="260d5-107">Requirements</span></span>
 
 
 
-| <span data-ttu-id="54816-108">需求</span><span class="sxs-lookup"><span data-stu-id="54816-108">Requirement</span></span> | <span data-ttu-id="54816-109">值</span><span class="sxs-lookup"><span data-stu-id="54816-109">Value</span></span> |
+| <span data-ttu-id="260d5-108">需求</span><span class="sxs-lookup"><span data-stu-id="260d5-108">Requirement</span></span> | <span data-ttu-id="260d5-109">值</span><span class="sxs-lookup"><span data-stu-id="260d5-109">Value</span></span> |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="54816-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="54816-110">Minimum supported client</span></span><br/> | <span data-ttu-id="54816-111">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="54816-111">Windows Vista \[desktop apps only\]</span></span><br/>                                                              |
-| <span data-ttu-id="54816-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="54816-112">Minimum supported server</span></span><br/> | <span data-ttu-id="54816-113">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="54816-113">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                        |
-| <span data-ttu-id="54816-114">標頭</span><span class="sxs-lookup"><span data-stu-id="54816-114">Header</span></span><br/>                   | <dl> <span data-ttu-id="54816-115"><dt>Functiondiscoverykeys \_ devpkey。h</dt></span><span class="sxs-lookup"><span data-stu-id="54816-115"><dt>Functiondiscoverykeys\_devpkey.h</dt></span></span> </dl> |
+| <span data-ttu-id="260d5-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="260d5-110">Minimum supported client</span></span><br/> | <span data-ttu-id="260d5-111">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="260d5-111">Windows Vista \[desktop apps only\]</span></span><br/>                                                              |
+| <span data-ttu-id="260d5-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="260d5-112">Minimum supported server</span></span><br/> | <span data-ttu-id="260d5-113">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="260d5-113">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                        |
+| <span data-ttu-id="260d5-114">標頭</span><span class="sxs-lookup"><span data-stu-id="260d5-114">Header</span></span><br/>                   | <dl> <span data-ttu-id="260d5-115"><dt>Functiondiscoverykeys \_ devpkey。h</dt></span><span class="sxs-lookup"><span data-stu-id="260d5-115"><dt>Functiondiscoverykeys\_devpkey.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="54816-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="54816-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="260d5-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="260d5-116">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="54816-117">核心音訊屬性</span><span class="sxs-lookup"><span data-stu-id="54816-117">Core Audio Properties</span></span>](core-audio-properties.md)
+[<span data-ttu-id="260d5-117">核心音訊屬性</span><span class="sxs-lookup"><span data-stu-id="260d5-117">Core Audio Properties</span></span>](core-audio-properties.md)
 </dt> <dt>
 
-[<span data-ttu-id="54816-118">裝置內容</span><span class="sxs-lookup"><span data-stu-id="54816-118">Device Properties</span></span>](device-properties.md)
+[<span data-ttu-id="260d5-118">裝置內容</span><span class="sxs-lookup"><span data-stu-id="260d5-118">Device Properties</span></span>](device-properties.md)
 </dt> </dl>
 
  

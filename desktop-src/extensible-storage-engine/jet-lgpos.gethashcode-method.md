@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103693920"
 ---
-# <a name="jet_lgposgethashcode-method"></a><span data-ttu-id="27363-103">JET_LGPOS。GetHashCode 方法</span><span class="sxs-lookup"><span data-stu-id="27363-103">JET_LGPOS.GetHashCode method</span></span>
+# <a name="jet_lgposgethashcode-method"></a><span data-ttu-id="45d03-103">JET_LGPOS。GetHashCode 方法</span><span class="sxs-lookup"><span data-stu-id="45d03-103">JET_LGPOS.GetHashCode method</span></span>
 
-<span data-ttu-id="27363-104">傳回這個執行個體的雜湊碼。</span><span class="sxs-lookup"><span data-stu-id="27363-104">Returns the hash code for this instance.</span></span>
+<span data-ttu-id="45d03-104">傳回這個執行個體的雜湊碼。</span><span class="sxs-lookup"><span data-stu-id="45d03-104">Returns the hash code for this instance.</span></span>
 
-<span data-ttu-id="27363-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="27363-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="27363-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="27363-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="45d03-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="45d03-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="45d03-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="45d03-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="27363-107">語法</span><span class="sxs-lookup"><span data-stu-id="27363-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="45d03-107">語法</span><span class="sxs-lookup"><span data-stu-id="45d03-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -54,17 +54,17 @@ returnValue = instance.GetHashCode()
 public override int GetHashCode()
 ```
 
-#### <a name="return-value"></a><span data-ttu-id="27363-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="27363-108">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="45d03-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="45d03-108">Return value</span></span>
 
-<span data-ttu-id="27363-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="27363-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
-<span data-ttu-id="27363-110">這個執行個體的雜湊碼。</span><span class="sxs-lookup"><span data-stu-id="27363-110">The hash code for this instance.</span></span>  
+<span data-ttu-id="45d03-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="45d03-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="45d03-110">這個執行個體的雜湊碼。</span><span class="sxs-lookup"><span data-stu-id="45d03-110">The hash code for this instance.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="27363-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="27363-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="45d03-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="45d03-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="27363-112">參考</span><span class="sxs-lookup"><span data-stu-id="27363-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="45d03-112">參考</span><span class="sxs-lookup"><span data-stu-id="45d03-112">Reference</span></span>
 
-[<span data-ttu-id="27363-113">JET_LGPOS 結構</span><span class="sxs-lookup"><span data-stu-id="27363-113">JET_LGPOS structure</span></span>](./jet-lgpos-structure2.md)
+[<span data-ttu-id="45d03-113">JET_LGPOS 結構</span><span class="sxs-lookup"><span data-stu-id="45d03-113">JET_LGPOS structure</span></span>](./jet-lgpos-structure2.md)
 
-[<span data-ttu-id="27363-114">JET_LGPOS 成員</span><span class="sxs-lookup"><span data-stu-id="27363-114">JET_LGPOS members</span></span>](./jet-lgpos-members.md)
+[<span data-ttu-id="45d03-114">JET_LGPOS 成員</span><span class="sxs-lookup"><span data-stu-id="45d03-114">JET_LGPOS members</span></span>](./jet-lgpos-members.md)
 
-[<span data-ttu-id="27363-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="27363-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="45d03-115">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="45d03-115">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

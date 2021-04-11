@@ -23,13 +23,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847587"
 ---
-# <a name="win32_pnpallocatedresource-class"></a><span data-ttu-id="23991-103">Win32 \_ PnPAllocatedResource 類別</span><span class="sxs-lookup"><span data-stu-id="23991-103">Win32\_PnPAllocatedResource class</span></span>
+# <a name="win32_pnpallocatedresource-class"></a><span data-ttu-id="bd98f-103">Win32 \_ PnPAllocatedResource 類別</span><span class="sxs-lookup"><span data-stu-id="bd98f-103">Win32\_PnPAllocatedResource class</span></span>
 
-<span data-ttu-id="23991-104">**Win32 \_ PnPAllocatedResource** 關聯 [WMI 類別](../wmisdk/retrieving-a-class.md)代表邏輯裝置與系統資源之間的關聯。</span><span class="sxs-lookup"><span data-stu-id="23991-104">The **Win32\_PnPAllocatedResource** association [WMI class](../wmisdk/retrieving-a-class.md) represents an association between logical devices and system resources.</span></span> <span data-ttu-id="23991-105">此類別是用來探索特定裝置使用中的資源，例如插斷要求 (IRQ) 或直接記憶體存取 (DMA) 通道。</span><span class="sxs-lookup"><span data-stu-id="23991-105">This class is used to discover the resources that are in-use by a specific device, such as an Interrupt ReQuest (IRQ) or a Direct Memory Access (DMA) channel.</span></span>
+<span data-ttu-id="bd98f-104">**Win32 \_ PnPAllocatedResource** 關聯 [WMI 類別](../wmisdk/retrieving-a-class.md)代表邏輯裝置與系統資源之間的關聯。</span><span class="sxs-lookup"><span data-stu-id="bd98f-104">The **Win32\_PnPAllocatedResource** association [WMI class](../wmisdk/retrieving-a-class.md) represents an association between logical devices and system resources.</span></span> <span data-ttu-id="bd98f-105">此類別是用來探索特定裝置使用中的資源，例如插斷要求 (IRQ) 或直接記憶體存取 (DMA) 通道。</span><span class="sxs-lookup"><span data-stu-id="bd98f-105">This class is used to discover the resources that are in-use by a specific device, such as an Interrupt ReQuest (IRQ) or a Direct Memory Access (DMA) channel.</span></span>
 
-<span data-ttu-id="23991-106">下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="23991-106">The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.</span></span> <span data-ttu-id="23991-107">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="23991-107">Properties are listed in alphabetic order, not MOF order.</span></span>
+<span data-ttu-id="bd98f-106">下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="bd98f-106">The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.</span></span> <span data-ttu-id="bd98f-107">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="bd98f-107">Properties are listed in alphabetic order, not MOF order.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="23991-108">語法</span><span class="sxs-lookup"><span data-stu-id="23991-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bd98f-108">語法</span><span class="sxs-lookup"><span data-stu-id="bd98f-108">Syntax</span></span>
 
 ``` syntax
 [Dynamic, Provider("CIMWin32"), UUID("970C0998-41FE-4275-B7D9-7DABAD3FBC4D"), AMENDMENT]
@@ -40,76 +40,76 @@ class Win32_PnPAllocatedResource : CIM_AllocatedResource
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="23991-109">成員</span><span class="sxs-lookup"><span data-stu-id="23991-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="bd98f-109">成員</span><span class="sxs-lookup"><span data-stu-id="bd98f-109">Members</span></span>
 
-<span data-ttu-id="23991-110">**Win32 \_ PnPAllocatedResource** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="23991-110">The **Win32\_PnPAllocatedResource** class has these types of members:</span></span>
+<span data-ttu-id="bd98f-110">**Win32 \_ PnPAllocatedResource** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="bd98f-110">The **Win32\_PnPAllocatedResource** class has these types of members:</span></span>
 
--   [<span data-ttu-id="23991-111">屬性</span><span class="sxs-lookup"><span data-stu-id="23991-111">Properties</span></span>](#properties)
+-   [<span data-ttu-id="bd98f-111">屬性</span><span class="sxs-lookup"><span data-stu-id="bd98f-111">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="23991-112">屬性</span><span class="sxs-lookup"><span data-stu-id="23991-112">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="bd98f-112">屬性</span><span class="sxs-lookup"><span data-stu-id="bd98f-112">Properties</span></span>
 
-<span data-ttu-id="23991-113">**Win32 \_ PnPAllocatedResource** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="23991-113">The **Win32\_PnPAllocatedResource** class has these properties.</span></span>
+<span data-ttu-id="bd98f-113">**Win32 \_ PnPAllocatedResource** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="bd98f-113">The **Win32\_PnPAllocatedResource** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="23991-114">**先行**</span><span class="sxs-lookup"><span data-stu-id="23991-114">**Antecedent**</span></span>
+<span data-ttu-id="bd98f-114">**先行**</span><span class="sxs-lookup"><span data-stu-id="bd98f-114">**Antecedent**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="23991-115">資料類型： **CIM \_ SystemResource**</span><span class="sxs-lookup"><span data-stu-id="23991-115">Data type: **CIM\_SystemResource**</span></span>
+<span data-ttu-id="bd98f-115">資料類型： **CIM \_ SystemResource**</span><span class="sxs-lookup"><span data-stu-id="bd98f-115">Data type: **CIM\_SystemResource**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="23991-116">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="23991-116">Access type: Read-only</span></span>
+<span data-ttu-id="bd98f-116">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bd98f-116">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="23991-117">限定詞： [**Key**](../wmisdk/key-qualifier.md)、 [**Override**](../wmisdk/standard-qualifiers.md) ( "Antecedent" ) 、 [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "cim \| CIM \_ SystemResource" ) </span><span class="sxs-lookup"><span data-stu-id="23991-117">Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Antecedent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("CIM\|CIM\_SystemResource")</span></span>
+<span data-ttu-id="bd98f-117">限定詞： [**Key**](../wmisdk/key-qualifier.md)、 [**Override**](../wmisdk/standard-qualifiers.md) ( "Antecedent" ) 、 [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "cim \| CIM \_ SystemResource" ) </span><span class="sxs-lookup"><span data-stu-id="bd98f-117">Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Antecedent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("CIM\|CIM\_SystemResource")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="23991-118">[**CIM \_ SystemResource**](cim-systemresource.md)實例的參考，代表可供邏輯裝置使用之系統資源的屬性。</span><span class="sxs-lookup"><span data-stu-id="23991-118">Reference to the [**CIM\_SystemResource**](cim-systemresource.md) instance that represents the properties of a system resource available to the logical device.</span></span> <span data-ttu-id="23991-119">這個屬性繼承自 [**CIM 相依 \_**](cim-dependency.md)性。</span><span class="sxs-lookup"><span data-stu-id="23991-119">This property is inherited from [**CIM\_Dependency**](cim-dependency.md).</span></span>
+<span data-ttu-id="bd98f-118">[**CIM \_ SystemResource**](cim-systemresource.md)實例的參考，代表可供邏輯裝置使用之系統資源的屬性。</span><span class="sxs-lookup"><span data-stu-id="bd98f-118">Reference to the [**CIM\_SystemResource**](cim-systemresource.md) instance that represents the properties of a system resource available to the logical device.</span></span> <span data-ttu-id="bd98f-119">這個屬性繼承自 [**CIM 相依 \_**](cim-dependency.md)性。</span><span class="sxs-lookup"><span data-stu-id="bd98f-119">This property is inherited from [**CIM\_Dependency**](cim-dependency.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="23991-120">**依賴**</span><span class="sxs-lookup"><span data-stu-id="23991-120">**Dependent**</span></span>
+<span data-ttu-id="bd98f-120">**依賴**</span><span class="sxs-lookup"><span data-stu-id="bd98f-120">**Dependent**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="23991-121">資料類型： **Win32 \_ PnPEntity**</span><span class="sxs-lookup"><span data-stu-id="23991-121">Data type: **Win32\_PnPEntity**</span></span>
+<span data-ttu-id="bd98f-121">資料類型： **Win32 \_ PnPEntity**</span><span class="sxs-lookup"><span data-stu-id="bd98f-121">Data type: **Win32\_PnPEntity**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="23991-122">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="23991-122">Access type: Read-only</span></span>
+<span data-ttu-id="bd98f-122">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="bd98f-122">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="23991-123">限定詞： [**Key**](../wmisdk/key-qualifier.md)、 [**Override**](../wmisdk/standard-qualifiers.md) ( 「相依」 ) 、 [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( 「cim \| CIM \_ LogicalDevice」 ) </span><span class="sxs-lookup"><span data-stu-id="23991-123">Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Dependent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("CIM\|CIM\_LogicalDevice")</span></span>
+<span data-ttu-id="bd98f-123">限定詞： [**Key**](../wmisdk/key-qualifier.md)、 [**Override**](../wmisdk/standard-qualifiers.md) ( 「相依」 ) 、 [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( 「cim \| CIM \_ LogicalDevice」 ) </span><span class="sxs-lookup"><span data-stu-id="bd98f-123">Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Dependent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("CIM\|CIM\_LogicalDevice")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="23991-124">[**Win32 \_ PnPEntity**](win32-pnpentity.md)實例的參考，該實例會使用指派給它的系統資源來表示邏輯裝置的屬性。</span><span class="sxs-lookup"><span data-stu-id="23991-124">Reference to the [**Win32\_PnPEntity**](win32-pnpentity.md) instance that represents the properties of the logical device using the system resources assigned to it.</span></span> <span data-ttu-id="23991-125">這個屬性繼承自 [**CIM 相依 \_**](cim-dependency.md)性。</span><span class="sxs-lookup"><span data-stu-id="23991-125">This property is inherited from [**CIM\_Dependency**](cim-dependency.md).</span></span>
+<span data-ttu-id="bd98f-124">[**Win32 \_ PnPEntity**](win32-pnpentity.md)實例的參考，該實例會使用指派給它的系統資源來表示邏輯裝置的屬性。</span><span class="sxs-lookup"><span data-stu-id="bd98f-124">Reference to the [**Win32\_PnPEntity**](win32-pnpentity.md) instance that represents the properties of the logical device using the system resources assigned to it.</span></span> <span data-ttu-id="bd98f-125">這個屬性繼承自 [**CIM 相依 \_**](cim-dependency.md)性。</span><span class="sxs-lookup"><span data-stu-id="bd98f-125">This property is inherited from [**CIM\_Dependency**](cim-dependency.md).</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="23991-126">備註</span><span class="sxs-lookup"><span data-stu-id="23991-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd98f-126">備註</span><span class="sxs-lookup"><span data-stu-id="bd98f-126">Remarks</span></span>
 
-<span data-ttu-id="23991-127">**Win32 \_ PnPAllocatedResource** 類別衍生自 [**CIM \_ AllocatedResource**](cim-allocatedresource.md)。</span><span class="sxs-lookup"><span data-stu-id="23991-127">The **Win32\_PnPAllocatedResource** class is derived from [**CIM\_AllocatedResource**](cim-allocatedresource.md).</span></span>
+<span data-ttu-id="bd98f-127">**Win32 \_ PnPAllocatedResource** 類別衍生自 [**CIM \_ AllocatedResource**](cim-allocatedresource.md)。</span><span class="sxs-lookup"><span data-stu-id="bd98f-127">The **Win32\_PnPAllocatedResource** class is derived from [**CIM\_AllocatedResource**](cim-allocatedresource.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="23991-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="23991-128">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="bd98f-128">規格需求</span><span class="sxs-lookup"><span data-stu-id="bd98f-128">Requirements</span></span>
 
 
 
-| <span data-ttu-id="23991-129">需求</span><span class="sxs-lookup"><span data-stu-id="23991-129">Requirement</span></span> | <span data-ttu-id="23991-130">值</span><span class="sxs-lookup"><span data-stu-id="23991-130">Value</span></span> |
+| <span data-ttu-id="bd98f-129">需求</span><span class="sxs-lookup"><span data-stu-id="bd98f-129">Requirement</span></span> | <span data-ttu-id="bd98f-130">值</span><span class="sxs-lookup"><span data-stu-id="bd98f-130">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="23991-131">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="23991-131">Minimum supported client</span></span><br/> | <span data-ttu-id="23991-132">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="23991-132">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="23991-133">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="23991-133">Minimum supported server</span></span><br/> | <span data-ttu-id="23991-134">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="23991-134">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="23991-135">命名空間</span><span class="sxs-lookup"><span data-stu-id="23991-135">Namespace</span></span><br/>                | <span data-ttu-id="23991-136">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="23991-136">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="23991-137">MOF</span><span class="sxs-lookup"><span data-stu-id="23991-137">MOF</span></span><br/>                      | <dl> <span data-ttu-id="23991-138"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="23991-138"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="23991-139">DLL</span><span class="sxs-lookup"><span data-stu-id="23991-139">DLL</span></span><br/>                      | <dl> <span data-ttu-id="23991-140"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="23991-140"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="bd98f-131">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="bd98f-131">Minimum supported client</span></span><br/> | <span data-ttu-id="bd98f-132">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="bd98f-132">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="bd98f-133">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="bd98f-133">Minimum supported server</span></span><br/> | <span data-ttu-id="bd98f-134">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="bd98f-134">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="bd98f-135">命名空間</span><span class="sxs-lookup"><span data-stu-id="bd98f-135">Namespace</span></span><br/>                | <span data-ttu-id="bd98f-136">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="bd98f-136">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="bd98f-137">MOF</span><span class="sxs-lookup"><span data-stu-id="bd98f-137">MOF</span></span><br/>                      | <dl> <span data-ttu-id="bd98f-138"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="bd98f-138"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="bd98f-139">DLL</span><span class="sxs-lookup"><span data-stu-id="bd98f-139">DLL</span></span><br/>                      | <dl> <span data-ttu-id="bd98f-140"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="bd98f-140"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="23991-141">另請參閱</span><span class="sxs-lookup"><span data-stu-id="23991-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bd98f-141">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bd98f-141">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="23991-142">**CIM \_ AllocatedResource**</span><span class="sxs-lookup"><span data-stu-id="23991-142">**CIM\_AllocatedResource**</span></span>](cim-allocatedresource.md)
+[<span data-ttu-id="bd98f-142">**CIM \_ AllocatedResource**</span><span class="sxs-lookup"><span data-stu-id="bd98f-142">**CIM\_AllocatedResource**</span></span>](cim-allocatedresource.md)
 </dt> <dt>
 
-[<span data-ttu-id="23991-143">電腦系統硬體類別</span><span class="sxs-lookup"><span data-stu-id="23991-143">Computer System Hardware Classes</span></span>](computer-system-hardware-classes.md)
+[<span data-ttu-id="bd98f-143">電腦系統硬體類別</span><span class="sxs-lookup"><span data-stu-id="bd98f-143">Computer System Hardware Classes</span></span>](computer-system-hardware-classes.md)
 </dt> </dl>
 
  

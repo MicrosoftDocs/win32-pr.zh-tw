@@ -32,18 +32,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847440"
 ---
-# <a name="cim_biosfeature-class"></a><span data-ttu-id="52156-103">CIM \_ BIOSFeature 類別</span><span class="sxs-lookup"><span data-stu-id="52156-103">CIM\_BIOSFeature class</span></span>
+# <a name="cim_biosfeature-class"></a><span data-ttu-id="695a6-103">CIM \_ BIOSFeature 類別</span><span class="sxs-lookup"><span data-stu-id="695a6-103">CIM\_BIOSFeature class</span></span>
 
-<span data-ttu-id="52156-104">**CIM \_ BIOSFeature** 類別代表用來啟動及設定電腦系統的低層級軟體的功能。</span><span class="sxs-lookup"><span data-stu-id="52156-104">The **CIM\_BIOSFeature** class represents the capabilities of the low-level software that is used to start and configure a computer system.</span></span>
+<span data-ttu-id="695a6-104">**CIM \_ BIOSFeature** 類別代表用來啟動及設定電腦系統的低層級軟體的功能。</span><span class="sxs-lookup"><span data-stu-id="695a6-104">The **CIM\_BIOSFeature** class represents the capabilities of the low-level software that is used to start and configure a computer system.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="52156-105">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="52156-105">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="52156-106">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="52156-106">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
+> <span data-ttu-id="695a6-105">DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。</span><span class="sxs-lookup"><span data-stu-id="695a6-105">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="695a6-106">WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。</span><span class="sxs-lookup"><span data-stu-id="695a6-106">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
 
  
 
-<span data-ttu-id="52156-107">下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="52156-107">The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.</span></span> <span data-ttu-id="52156-108">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="52156-108">Properties are listed in alphabetic order, not MOF order.</span></span>
+<span data-ttu-id="695a6-107">下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。</span><span class="sxs-lookup"><span data-stu-id="695a6-107">The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.</span></span> <span data-ttu-id="695a6-108">屬性會依字母順序列出，而不是依 MOF 順序列出。</span><span class="sxs-lookup"><span data-stu-id="695a6-108">Properties are listed in alphabetic order, not MOF order.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="52156-109">語法</span><span class="sxs-lookup"><span data-stu-id="52156-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="695a6-109">語法</span><span class="sxs-lookup"><span data-stu-id="695a6-109">Syntax</span></span>
 
 ``` syntax
 [UUID("{7D33100E-E3D3-11d2-8601-0000F8102E5F}"), Abstract, AMENDMENT]
@@ -63,307 +63,307 @@ class CIM_BIOSFeature : CIM_SoftwareFeature
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="52156-110">成員</span><span class="sxs-lookup"><span data-stu-id="52156-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="695a6-110">成員</span><span class="sxs-lookup"><span data-stu-id="695a6-110">Members</span></span>
 
-<span data-ttu-id="52156-111">**CIM \_ BIOSFeature** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="52156-111">The **CIM\_BIOSFeature** class has these types of members:</span></span>
+<span data-ttu-id="695a6-111">**CIM \_ BIOSFeature** 類別具有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="695a6-111">The **CIM\_BIOSFeature** class has these types of members:</span></span>
 
--   [<span data-ttu-id="52156-112">屬性</span><span class="sxs-lookup"><span data-stu-id="52156-112">Properties</span></span>](#properties)
+-   [<span data-ttu-id="695a6-112">屬性</span><span class="sxs-lookup"><span data-stu-id="695a6-112">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="52156-113">屬性</span><span class="sxs-lookup"><span data-stu-id="52156-113">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="695a6-113">屬性</span><span class="sxs-lookup"><span data-stu-id="695a6-113">Properties</span></span>
 
-<span data-ttu-id="52156-114">**CIM \_ BIOSFeature** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="52156-114">The **CIM\_BIOSFeature** class has these properties.</span></span>
+<span data-ttu-id="695a6-114">**CIM \_ BIOSFeature** 類別具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="695a6-114">The **CIM\_BIOSFeature** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="52156-115">**標題**</span><span class="sxs-lookup"><span data-stu-id="52156-115">**Caption**</span></span>
+<span data-ttu-id="695a6-115">**標題**</span><span class="sxs-lookup"><span data-stu-id="695a6-115">**Caption**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-116">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="52156-116">Data type: **string**</span></span>
+<span data-ttu-id="695a6-116">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="695a6-116">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-117">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-117">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-117">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-117">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-118">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Caption" ) </span><span class="sxs-lookup"><span data-stu-id="52156-118">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")</span></span>
+<span data-ttu-id="695a6-118">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Caption" ) </span><span class="sxs-lookup"><span data-stu-id="695a6-118">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-119">物件的簡短文字描述。</span><span class="sxs-lookup"><span data-stu-id="52156-119">A short textual description of the object.</span></span>
+<span data-ttu-id="695a6-119">物件的簡短文字描述。</span><span class="sxs-lookup"><span data-stu-id="695a6-119">A short textual description of the object.</span></span>
 
-<span data-ttu-id="52156-120">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-120">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="695a6-120">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-120">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="52156-121">**CharacteristicDescriptions**</span><span class="sxs-lookup"><span data-stu-id="52156-121">**CharacteristicDescriptions**</span></span>
+<span data-ttu-id="695a6-121">**CharacteristicDescriptions**</span><span class="sxs-lookup"><span data-stu-id="695a6-121">**CharacteristicDescriptions**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-122">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="52156-122">Data type: **string** array</span></span>
+<span data-ttu-id="695a6-122">資料類型： **字串** 陣列</span><span class="sxs-lookup"><span data-stu-id="695a6-122">Data type: **string** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-123">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-123">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-123">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-123">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-124">限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| BIOS 特性 \| 003.4 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ BIOSFeature**。**特性**") </span><span class="sxs-lookup"><span data-stu-id="52156-124">Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|BIOS Characteristic\|003.4"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_BIOSFeature**.**Characteristics**")</span></span>
+<span data-ttu-id="695a6-124">限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| BIOS 特性 \| 003.4 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ BIOSFeature**。**特性**") </span><span class="sxs-lookup"><span data-stu-id="695a6-124">Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|BIOS Characteristic\|003.4"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_BIOSFeature**.**Characteristics**")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-125">自由格式字串的陣列，提供 **特性** 陣列中所指出之 BIOS 功能的詳細說明。</span><span class="sxs-lookup"><span data-stu-id="52156-125">Array of free-form strings that provides detailed explanations of the BIOS features indicated in the **Characteristics** array.</span></span>
+<span data-ttu-id="695a6-125">自由格式字串的陣列，提供 **特性** 陣列中所指出之 BIOS 功能的詳細說明。</span><span class="sxs-lookup"><span data-stu-id="695a6-125">Array of free-form strings that provides detailed explanations of the BIOS features indicated in the **Characteristics** array.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="52156-126">此陣列中的每個專案都與 **特性** 陣列中的專案相關，該專案位於相同的索引。</span><span class="sxs-lookup"><span data-stu-id="52156-126">Each entry in this array is related to the entry in the **Characteristics** array, which is located at the same index.</span></span>
+> <span data-ttu-id="695a6-126">此陣列中的每個專案都與 **特性** 陣列中的專案相關，該專案位於相同的索引。</span><span class="sxs-lookup"><span data-stu-id="695a6-126">Each entry in this array is related to the entry in the **Characteristics** array, which is located at the same index.</span></span>
 
  
 
 </dd> <dt>
 
-<span data-ttu-id="52156-127">**特性**</span><span class="sxs-lookup"><span data-stu-id="52156-127">**Characteristics**</span></span>
+<span data-ttu-id="695a6-127">**特性**</span><span class="sxs-lookup"><span data-stu-id="695a6-127">**Characteristics**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-128">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="52156-128">Data type: **uint16** array</span></span>
+<span data-ttu-id="695a6-128">資料類型： **uint16** 陣列</span><span class="sxs-lookup"><span data-stu-id="695a6-128">Data type: **uint16** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-129">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-129">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-129">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-129">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-130">限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| BIOS 特性 \| 003.3 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ BIOSFeature**。**CharacteristicDescriptions**") </span><span class="sxs-lookup"><span data-stu-id="52156-130">Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|BIOS Characteristic\|003.3"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_BIOSFeature**.**CharacteristicDescriptions**")</span></span>
+<span data-ttu-id="695a6-130">限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| BIOS 特性 \| 003.3 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ BIOSFeature**。**CharacteristicDescriptions**") </span><span class="sxs-lookup"><span data-stu-id="695a6-130">Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|BIOS Characteristic\|003.3"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_BIOSFeature**.**CharacteristicDescriptions**")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-131">整數的陣列，指定 BIOS 所支援的功能。</span><span class="sxs-lookup"><span data-stu-id="52156-131">Array of integers that specifies the features supported by the BIOS.</span></span> <span data-ttu-id="52156-132">在 CIM 架構中，值3是不正確，因為它代表 DMI 中不支援任何 BIOS 功能。</span><span class="sxs-lookup"><span data-stu-id="52156-132">The value 3 is not valid in the CIM schema because it represents that no BIOS features are supported in DMI.</span></span> <span data-ttu-id="52156-133">在這種情況下，這個物件不應該具現化。</span><span class="sxs-lookup"><span data-stu-id="52156-133">In which case, this object should not be instantiated.</span></span>
+<span data-ttu-id="695a6-131">整數的陣列，指定 BIOS 所支援的功能。</span><span class="sxs-lookup"><span data-stu-id="695a6-131">Array of integers that specifies the features supported by the BIOS.</span></span> <span data-ttu-id="695a6-132">在 CIM 架構中，值3是不正確，因為它代表 DMI 中不支援任何 BIOS 功能。</span><span class="sxs-lookup"><span data-stu-id="695a6-132">The value 3 is not valid in the CIM schema because it represents that no BIOS features are supported in DMI.</span></span> <span data-ttu-id="695a6-133">在這種情況下，這個物件不應該具現化。</span><span class="sxs-lookup"><span data-stu-id="695a6-133">In which case, this object should not be instantiated.</span></span>
 
 <dt>
 
 <span id="Other"></span><span id="other"></span><span id="OTHER"></span>
 
-<span data-ttu-id="52156-134"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="52156-134"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
+<span data-ttu-id="695a6-134"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**其他** (1) </span><span class="sxs-lookup"><span data-stu-id="695a6-134"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-135">其他。</span><span class="sxs-lookup"><span data-stu-id="52156-135">Other.</span></span>
+<span data-ttu-id="695a6-135">其他。</span><span class="sxs-lookup"><span data-stu-id="695a6-135">Other.</span></span>
 
 </dd> <dt>
 
 <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
 
-<span data-ttu-id="52156-136"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (2) </span><span class="sxs-lookup"><span data-stu-id="52156-136"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (2)</span></span>
+<span data-ttu-id="695a6-136"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (2) </span><span class="sxs-lookup"><span data-stu-id="695a6-136"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (2)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-137">不明。</span><span class="sxs-lookup"><span data-stu-id="52156-137">Unknown.</span></span>
+<span data-ttu-id="695a6-137">不明。</span><span class="sxs-lookup"><span data-stu-id="695a6-137">Unknown.</span></span>
 
 </dd> <dt>
 
 <span id="Undefined"></span><span id="undefined"></span><span id="UNDEFINED"></span>
 
-<span data-ttu-id="52156-138"><span id="Undefined"></span><span id="undefined"></span><span id="UNDEFINED"></span>**未定義** (3) </span><span class="sxs-lookup"><span data-stu-id="52156-138"><span id="Undefined"></span><span id="undefined"></span><span id="UNDEFINED"></span>**Undefined** (3)</span></span>
+<span data-ttu-id="695a6-138"><span id="Undefined"></span><span id="undefined"></span><span id="UNDEFINED"></span>**未定義** (3) </span><span class="sxs-lookup"><span data-stu-id="695a6-138"><span id="Undefined"></span><span id="undefined"></span><span id="UNDEFINED"></span>**Undefined** (3)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-139">未定義。</span><span class="sxs-lookup"><span data-stu-id="52156-139">Undefined.</span></span>
+<span data-ttu-id="695a6-139">未定義。</span><span class="sxs-lookup"><span data-stu-id="695a6-139">Undefined.</span></span>
 
 </dd> <dt>
 
 <span id="ISA_Support"></span><span id="isa_support"></span><span id="ISA_SUPPORT"></span>
 
-<span data-ttu-id="52156-140"><span id="ISA_Support"></span><span id="isa_support"></span><span id="ISA_SUPPORT"></span>**ISA 支援** (4) </span><span class="sxs-lookup"><span data-stu-id="52156-140"><span id="ISA_Support"></span><span id="isa_support"></span><span id="ISA_SUPPORT"></span>**ISA Support** (4)</span></span>
+<span data-ttu-id="695a6-140"><span id="ISA_Support"></span><span id="isa_support"></span><span id="ISA_SUPPORT"></span>**ISA 支援** (4) </span><span class="sxs-lookup"><span data-stu-id="695a6-140"><span id="ISA_Support"></span><span id="isa_support"></span><span id="ISA_SUPPORT"></span>**ISA Support** (4)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-141">ISA 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-141">ISA support.</span></span>
+<span data-ttu-id="695a6-141">ISA 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-141">ISA support.</span></span>
 
 </dd> <dt>
 
 <span id="MCA_Support"></span><span id="mca_support"></span><span id="MCA_SUPPORT"></span>
 
-<span data-ttu-id="52156-142"><span id="MCA_Support"></span><span id="mca_support"></span><span id="MCA_SUPPORT"></span>**MCA 支援** (5) </span><span class="sxs-lookup"><span data-stu-id="52156-142"><span id="MCA_Support"></span><span id="mca_support"></span><span id="MCA_SUPPORT"></span>**MCA Support** (5)</span></span>
+<span data-ttu-id="695a6-142"><span id="MCA_Support"></span><span id="mca_support"></span><span id="MCA_SUPPORT"></span>**MCA 支援** (5) </span><span class="sxs-lookup"><span data-stu-id="695a6-142"><span id="MCA_Support"></span><span id="mca_support"></span><span id="MCA_SUPPORT"></span>**MCA Support** (5)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-143">MCA 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-143">MCA support.</span></span>
+<span data-ttu-id="695a6-143">MCA 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-143">MCA support.</span></span>
 
 </dd> <dt>
 
 <span id="EISA_Support"></span><span id="eisa_support"></span><span id="EISA_SUPPORT"></span>
 
-<span data-ttu-id="52156-144"><span id="EISA_Support"></span><span id="eisa_support"></span><span id="EISA_SUPPORT"></span>**EISA 支援** (6) </span><span class="sxs-lookup"><span data-stu-id="52156-144"><span id="EISA_Support"></span><span id="eisa_support"></span><span id="EISA_SUPPORT"></span>**EISA Support** (6)</span></span>
+<span data-ttu-id="695a6-144"><span id="EISA_Support"></span><span id="eisa_support"></span><span id="EISA_SUPPORT"></span>**EISA 支援** (6) </span><span class="sxs-lookup"><span data-stu-id="695a6-144"><span id="EISA_Support"></span><span id="eisa_support"></span><span id="EISA_SUPPORT"></span>**EISA Support** (6)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-145">EISA 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-145">EISA support.</span></span>
+<span data-ttu-id="695a6-145">EISA 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-145">EISA support.</span></span>
 
 </dd> <dt>
 
 <span id="PCI_Support"></span><span id="pci_support"></span><span id="PCI_SUPPORT"></span>
 
-<span data-ttu-id="52156-146"><span id="PCI_Support"></span><span id="pci_support"></span><span id="PCI_SUPPORT"></span>**PCI 支援** (7) </span><span class="sxs-lookup"><span data-stu-id="52156-146"><span id="PCI_Support"></span><span id="pci_support"></span><span id="PCI_SUPPORT"></span>**PCI Support** (7)</span></span>
+<span data-ttu-id="695a6-146"><span id="PCI_Support"></span><span id="pci_support"></span><span id="PCI_SUPPORT"></span>**PCI 支援** (7) </span><span class="sxs-lookup"><span data-stu-id="695a6-146"><span id="PCI_Support"></span><span id="pci_support"></span><span id="PCI_SUPPORT"></span>**PCI Support** (7)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-147">PCI 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-147">PCI support.</span></span>
+<span data-ttu-id="695a6-147">PCI 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-147">PCI support.</span></span>
 
 </dd> <dt>
 
 <span id="PCMCIA_Support"></span><span id="pcmcia_support"></span><span id="PCMCIA_SUPPORT"></span>
 
-<span data-ttu-id="52156-148"><span id="PCMCIA_Support"></span><span id="pcmcia_support"></span><span id="PCMCIA_SUPPORT"></span> (8) 的 **PCMCIA 支援**</span><span class="sxs-lookup"><span data-stu-id="52156-148"><span id="PCMCIA_Support"></span><span id="pcmcia_support"></span><span id="PCMCIA_SUPPORT"></span>**PCMCIA Support** (8)</span></span>
+<span data-ttu-id="695a6-148"><span id="PCMCIA_Support"></span><span id="pcmcia_support"></span><span id="PCMCIA_SUPPORT"></span> (8) 的 **PCMCIA 支援**</span><span class="sxs-lookup"><span data-stu-id="695a6-148"><span id="PCMCIA_Support"></span><span id="pcmcia_support"></span><span id="PCMCIA_SUPPORT"></span>**PCMCIA Support** (8)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-149">PCMCIA 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-149">PCMCIA support.</span></span>
+<span data-ttu-id="695a6-149">PCMCIA 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-149">PCMCIA support.</span></span>
 
 </dd> <dt>
 
 <span id="PnP_Support"></span><span id="pnp_support"></span><span id="PNP_SUPPORT"></span>
 
-<span data-ttu-id="52156-150"><span id="PnP_Support"></span><span id="pnp_support"></span><span id="PNP_SUPPORT"></span>**PnP 支援** (9) </span><span class="sxs-lookup"><span data-stu-id="52156-150"><span id="PnP_Support"></span><span id="pnp_support"></span><span id="PNP_SUPPORT"></span>**PnP Support** (9)</span></span>
+<span data-ttu-id="695a6-150"><span id="PnP_Support"></span><span id="pnp_support"></span><span id="PNP_SUPPORT"></span>**PnP 支援** (9) </span><span class="sxs-lookup"><span data-stu-id="695a6-150"><span id="PnP_Support"></span><span id="pnp_support"></span><span id="PNP_SUPPORT"></span>**PnP Support** (9)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-151">PnP 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-151">PnP support.</span></span>
+<span data-ttu-id="695a6-151">PnP 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-151">PnP support.</span></span>
 
 </dd> <dt>
 
 <span id="APM_Support"></span><span id="apm_support"></span><span id="APM_SUPPORT"></span>
 
-<span data-ttu-id="52156-152"><span id="APM_Support"></span><span id="apm_support"></span><span id="APM_SUPPORT"></span>**APM 支援** (10) </span><span class="sxs-lookup"><span data-stu-id="52156-152"><span id="APM_Support"></span><span id="apm_support"></span><span id="APM_SUPPORT"></span>**APM Support** (10)</span></span>
+<span data-ttu-id="695a6-152"><span id="APM_Support"></span><span id="apm_support"></span><span id="APM_SUPPORT"></span>**APM 支援** (10) </span><span class="sxs-lookup"><span data-stu-id="695a6-152"><span id="APM_Support"></span><span id="apm_support"></span><span id="APM_SUPPORT"></span>**APM Support** (10)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-153">APM 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-153">APM support.</span></span>
+<span data-ttu-id="695a6-153">APM 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-153">APM support.</span></span>
 
 </dd> <dt>
 
 <span id="Upgradeable_BIOS"></span><span id="upgradeable_bios"></span><span id="UPGRADEABLE_BIOS"></span>
 
-<span data-ttu-id="52156-154"><span id="Upgradeable_BIOS"></span><span id="upgradeable_bios"></span><span id="UPGRADEABLE_BIOS"></span>可 **升級的 BIOS** (11) </span><span class="sxs-lookup"><span data-stu-id="52156-154"><span id="Upgradeable_BIOS"></span><span id="upgradeable_bios"></span><span id="UPGRADEABLE_BIOS"></span>**Upgradeable BIOS** (11)</span></span>
+<span data-ttu-id="695a6-154"><span id="Upgradeable_BIOS"></span><span id="upgradeable_bios"></span><span id="UPGRADEABLE_BIOS"></span>可 **升級的 BIOS** (11) </span><span class="sxs-lookup"><span data-stu-id="695a6-154"><span id="Upgradeable_BIOS"></span><span id="upgradeable_bios"></span><span id="UPGRADEABLE_BIOS"></span>**Upgradeable BIOS** (11)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-155">可升級的 BIOS。</span><span class="sxs-lookup"><span data-stu-id="52156-155">Upgradeable BIOS.</span></span>
+<span data-ttu-id="695a6-155">可升級的 BIOS。</span><span class="sxs-lookup"><span data-stu-id="695a6-155">Upgradeable BIOS.</span></span>
 
 </dd> <dt>
 
 <span id="BIOS_Shadowing_Allowed"></span><span id="bios_shadowing_allowed"></span><span id="BIOS_SHADOWING_ALLOWED"></span>
 
-<span data-ttu-id="52156-156"><span id="BIOS_Shadowing_Allowed"></span><span id="bios_shadowing_allowed"></span><span id="BIOS_SHADOWING_ALLOWED"></span>允許 (12) 的 **BIOS 遮蔽**</span><span class="sxs-lookup"><span data-stu-id="52156-156"><span id="BIOS_Shadowing_Allowed"></span><span id="bios_shadowing_allowed"></span><span id="BIOS_SHADOWING_ALLOWED"></span>**BIOS Shadowing Allowed** (12)</span></span>
+<span data-ttu-id="695a6-156"><span id="BIOS_Shadowing_Allowed"></span><span id="bios_shadowing_allowed"></span><span id="BIOS_SHADOWING_ALLOWED"></span>允許 (12) 的 **BIOS 遮蔽**</span><span class="sxs-lookup"><span data-stu-id="695a6-156"><span id="BIOS_Shadowing_Allowed"></span><span id="bios_shadowing_allowed"></span><span id="BIOS_SHADOWING_ALLOWED"></span>**BIOS Shadowing Allowed** (12)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-157">允許 BIOS 遮蔽。</span><span class="sxs-lookup"><span data-stu-id="52156-157">BIOS shadowing allowed.</span></span>
+<span data-ttu-id="695a6-157">允許 BIOS 遮蔽。</span><span class="sxs-lookup"><span data-stu-id="695a6-157">BIOS shadowing allowed.</span></span>
 
 </dd> <dt>
 
 <span id="VL_VESA_Support"></span><span id="vl_vesa_support"></span><span id="VL_VESA_SUPPORT"></span>
 
-<span data-ttu-id="52156-158"><span id="VL_VESA_Support"></span><span id="vl_vesa_support"></span><span id="VL_VESA_SUPPORT"></span>**VL VESA 支援** (13) </span><span class="sxs-lookup"><span data-stu-id="52156-158"><span id="VL_VESA_Support"></span><span id="vl_vesa_support"></span><span id="VL_VESA_SUPPORT"></span>**VL VESA Support** (13)</span></span>
+<span data-ttu-id="695a6-158"><span id="VL_VESA_Support"></span><span id="vl_vesa_support"></span><span id="VL_VESA_SUPPORT"></span>**VL VESA 支援** (13) </span><span class="sxs-lookup"><span data-stu-id="695a6-158"><span id="VL_VESA_Support"></span><span id="vl_vesa_support"></span><span id="VL_VESA_SUPPORT"></span>**VL VESA Support** (13)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-159">VL VESA 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-159">VL VESA support.</span></span>
+<span data-ttu-id="695a6-159">VL VESA 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-159">VL VESA support.</span></span>
 
 </dd> <dt>
 
 <span id="ESCD_Support"></span><span id="escd_support"></span><span id="ESCD_SUPPORT"></span>
 
-<span data-ttu-id="52156-160"><span id="ESCD_Support"></span><span id="escd_support"></span><span id="ESCD_SUPPORT"></span>**ESCD 支援** (14) </span><span class="sxs-lookup"><span data-stu-id="52156-160"><span id="ESCD_Support"></span><span id="escd_support"></span><span id="ESCD_SUPPORT"></span>**ESCD Support** (14)</span></span>
+<span data-ttu-id="695a6-160"><span id="ESCD_Support"></span><span id="escd_support"></span><span id="ESCD_SUPPORT"></span>**ESCD 支援** (14) </span><span class="sxs-lookup"><span data-stu-id="695a6-160"><span id="ESCD_Support"></span><span id="escd_support"></span><span id="ESCD_SUPPORT"></span>**ESCD Support** (14)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-161">ESCD 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-161">ESCD support.</span></span>
+<span data-ttu-id="695a6-161">ESCD 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-161">ESCD support.</span></span>
 
 </dd> <dt>
 
 <span id="LS-120_Support"></span><span id="ls-120_support"></span><span id="LS-120_SUPPORT"></span>
 
-<span data-ttu-id="52156-162"><span id="LS-120_Support"></span><span id="ls-120_support"></span><span id="LS-120_SUPPORT"></span>**LS-120 支援** (15) </span><span class="sxs-lookup"><span data-stu-id="52156-162"><span id="LS-120_Support"></span><span id="ls-120_support"></span><span id="LS-120_SUPPORT"></span>**LS-120 Support** (15)</span></span>
+<span data-ttu-id="695a6-162"><span id="LS-120_Support"></span><span id="ls-120_support"></span><span id="LS-120_SUPPORT"></span>**LS-120 支援** (15) </span><span class="sxs-lookup"><span data-stu-id="695a6-162"><span id="LS-120_Support"></span><span id="ls-120_support"></span><span id="LS-120_SUPPORT"></span>**LS-120 Support** (15)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-163">LS-120 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-163">LS-120 support.</span></span>
+<span data-ttu-id="695a6-163">LS-120 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-163">LS-120 support.</span></span>
 
 </dd> <dt>
 
 <span id="ACPI_Support"></span><span id="acpi_support"></span><span id="ACPI_SUPPORT"></span>
 
-<span data-ttu-id="52156-164"><span id="ACPI_Support"></span><span id="acpi_support"></span><span id="ACPI_SUPPORT"></span>**ACPI 支援** (16) </span><span class="sxs-lookup"><span data-stu-id="52156-164"><span id="ACPI_Support"></span><span id="acpi_support"></span><span id="ACPI_SUPPORT"></span>**ACPI Support** (16)</span></span>
+<span data-ttu-id="695a6-164"><span id="ACPI_Support"></span><span id="acpi_support"></span><span id="ACPI_SUPPORT"></span>**ACPI 支援** (16) </span><span class="sxs-lookup"><span data-stu-id="695a6-164"><span id="ACPI_Support"></span><span id="acpi_support"></span><span id="ACPI_SUPPORT"></span>**ACPI Support** (16)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-165">ACPI 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-165">ACPI support.</span></span>
+<span data-ttu-id="695a6-165">ACPI 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-165">ACPI support.</span></span>
 
 </dd> <dt>
 
 <span id="I2O_Boot_Support"></span><span id="i2o_boot_support"></span><span id="I2O_BOOT_SUPPORT"></span>
 
-<span data-ttu-id="52156-166"><span id="I2O_Boot_Support"></span><span id="i2o_boot_support"></span><span id="I2O_BOOT_SUPPORT"></span>**I2O 開機支援** (17) </span><span class="sxs-lookup"><span data-stu-id="52156-166"><span id="I2O_Boot_Support"></span><span id="i2o_boot_support"></span><span id="I2O_BOOT_SUPPORT"></span>**I2O Boot Support** (17)</span></span>
+<span data-ttu-id="695a6-166"><span id="I2O_Boot_Support"></span><span id="i2o_boot_support"></span><span id="I2O_BOOT_SUPPORT"></span>**I2O 開機支援** (17) </span><span class="sxs-lookup"><span data-stu-id="695a6-166"><span id="I2O_Boot_Support"></span><span id="i2o_boot_support"></span><span id="I2O_BOOT_SUPPORT"></span>**I2O Boot Support** (17)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-167">I2O 開機支援。</span><span class="sxs-lookup"><span data-stu-id="52156-167">I2O boot support.</span></span>
+<span data-ttu-id="695a6-167">I2O 開機支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-167">I2O boot support.</span></span>
 
 </dd> <dt>
 
 <span id="USB_Legacy_Support"></span><span id="usb_legacy_support"></span><span id="USB_LEGACY_SUPPORT"></span>
 
-<span data-ttu-id="52156-168"><span id="USB_Legacy_Support"></span><span id="usb_legacy_support"></span><span id="USB_LEGACY_SUPPORT"></span>**USB 舊版支援** (18) </span><span class="sxs-lookup"><span data-stu-id="52156-168"><span id="USB_Legacy_Support"></span><span id="usb_legacy_support"></span><span id="USB_LEGACY_SUPPORT"></span>**USB Legacy Support** (18)</span></span>
+<span data-ttu-id="695a6-168"><span id="USB_Legacy_Support"></span><span id="usb_legacy_support"></span><span id="USB_LEGACY_SUPPORT"></span>**USB 舊版支援** (18) </span><span class="sxs-lookup"><span data-stu-id="695a6-168"><span id="USB_Legacy_Support"></span><span id="usb_legacy_support"></span><span id="USB_LEGACY_SUPPORT"></span>**USB Legacy Support** (18)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-169">USB 舊版支援。</span><span class="sxs-lookup"><span data-stu-id="52156-169">USB legacy support.</span></span>
+<span data-ttu-id="695a6-169">USB 舊版支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-169">USB legacy support.</span></span>
 
 </dd> <dt>
 
 <span id="AGP_Support"></span><span id="agp_support"></span><span id="AGP_SUPPORT"></span>
 
-<span data-ttu-id="52156-170"><span id="AGP_Support"></span><span id="agp_support"></span><span id="AGP_SUPPORT"></span>**AGP 支援** (19) </span><span class="sxs-lookup"><span data-stu-id="52156-170"><span id="AGP_Support"></span><span id="agp_support"></span><span id="AGP_SUPPORT"></span>**AGP Support** (19)</span></span>
+<span data-ttu-id="695a6-170"><span id="AGP_Support"></span><span id="agp_support"></span><span id="AGP_SUPPORT"></span>**AGP 支援** (19) </span><span class="sxs-lookup"><span data-stu-id="695a6-170"><span id="AGP_Support"></span><span id="agp_support"></span><span id="AGP_SUPPORT"></span>**AGP Support** (19)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-171">AGP 支援。</span><span class="sxs-lookup"><span data-stu-id="52156-171">AGP support.</span></span>
+<span data-ttu-id="695a6-171">AGP 支援。</span><span class="sxs-lookup"><span data-stu-id="695a6-171">AGP support.</span></span>
 
 </dd> <dt>
 
 <span id="PC_Card"></span><span id="pc_card"></span><span id="PC_CARD"></span>
 
-<span data-ttu-id="52156-172"><span id="PC_Card"></span><span id="pc_card"></span><span id="PC_CARD"></span>**PC 卡** (20) </span><span class="sxs-lookup"><span data-stu-id="52156-172"><span id="PC_Card"></span><span id="pc_card"></span><span id="PC_CARD"></span>**PC Card** (20)</span></span>
+<span data-ttu-id="695a6-172"><span id="PC_Card"></span><span id="pc_card"></span><span id="PC_CARD"></span>**PC 卡** (20) </span><span class="sxs-lookup"><span data-stu-id="695a6-172"><span id="PC_Card"></span><span id="pc_card"></span><span id="PC_CARD"></span>**PC Card** (20)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-173">電腦卡。</span><span class="sxs-lookup"><span data-stu-id="52156-173">PC card.</span></span>
+<span data-ttu-id="695a6-173">電腦卡。</span><span class="sxs-lookup"><span data-stu-id="695a6-173">PC card.</span></span>
 
 </dd> <dt>
 
 <span id="IR"></span><span id="ir"></span>
 
-<span data-ttu-id="52156-174"><span id="IR"></span><span id="ir"></span>**IR** (21) </span><span class="sxs-lookup"><span data-stu-id="52156-174"><span id="IR"></span><span id="ir"></span>**IR** (21)</span></span>
+<span data-ttu-id="695a6-174"><span id="IR"></span><span id="ir"></span>**IR** (21) </span><span class="sxs-lookup"><span data-stu-id="695a6-174"><span id="IR"></span><span id="ir"></span>**IR** (21)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-175">紅外。</span><span class="sxs-lookup"><span data-stu-id="52156-175">IR.</span></span>
+<span data-ttu-id="695a6-175">紅外。</span><span class="sxs-lookup"><span data-stu-id="695a6-175">IR.</span></span>
 
 </dd> <dt>
 
 <span id="1394"></span>
 
-<span data-ttu-id="52156-176"><span id="1394"></span>**1394** (22) </span><span class="sxs-lookup"><span data-stu-id="52156-176"><span id="1394"></span>**1394** (22)</span></span>
+<span data-ttu-id="695a6-176"><span id="1394"></span>**1394** (22) </span><span class="sxs-lookup"><span data-stu-id="695a6-176"><span id="1394"></span>**1394** (22)</span></span>
 
 
 </dt> <dd>
@@ -374,300 +374,300 @@ class CIM_BIOSFeature : CIM_SoftwareFeature
 
 <span id="I2C"></span><span id="i2c"></span>
 
-<span data-ttu-id="52156-177"><span id="I2C"></span><span id="i2c"></span>**I2C** (23) </span><span class="sxs-lookup"><span data-stu-id="52156-177"><span id="I2C"></span><span id="i2c"></span>**I2C** (23)</span></span>
+<span data-ttu-id="695a6-177"><span id="I2C"></span><span id="i2c"></span>**I2C** (23) </span><span class="sxs-lookup"><span data-stu-id="695a6-177"><span id="I2C"></span><span id="i2c"></span>**I2C** (23)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-178">I2c。</span><span class="sxs-lookup"><span data-stu-id="52156-178">I2C.</span></span>
+<span data-ttu-id="695a6-178">I2c。</span><span class="sxs-lookup"><span data-stu-id="695a6-178">I2C.</span></span>
 
 </dd> <dt>
 
 <span id="Smart_Battery"></span><span id="smart_battery"></span><span id="SMART_BATTERY"></span>
 
-<span data-ttu-id="52156-179"><span id="Smart_Battery"></span><span id="smart_battery"></span><span id="SMART_BATTERY"></span>**智慧型電池** (24) </span><span class="sxs-lookup"><span data-stu-id="52156-179"><span id="Smart_Battery"></span><span id="smart_battery"></span><span id="SMART_BATTERY"></span>**Smart Battery** (24)</span></span>
+<span data-ttu-id="695a6-179"><span id="Smart_Battery"></span><span id="smart_battery"></span><span id="SMART_BATTERY"></span>**智慧型電池** (24) </span><span class="sxs-lookup"><span data-stu-id="695a6-179"><span id="Smart_Battery"></span><span id="smart_battery"></span><span id="SMART_BATTERY"></span>**Smart Battery** (24)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-180">智慧型電池。</span><span class="sxs-lookup"><span data-stu-id="52156-180">Smart battery.</span></span>
+<span data-ttu-id="695a6-180">智慧型電池。</span><span class="sxs-lookup"><span data-stu-id="695a6-180">Smart battery.</span></span>
 
 </dd> <dt>
 
 <span id="PC-98"></span><span id="pc-98"></span>
 
-<span data-ttu-id="52156-181"><span id="PC-98"></span><span id="pc-98"></span>**PC-98** (160) </span><span class="sxs-lookup"><span data-stu-id="52156-181"><span id="PC-98"></span><span id="pc-98"></span>**PC-98** (160)</span></span>
+<span data-ttu-id="695a6-181"><span id="PC-98"></span><span id="pc-98"></span>**PC-98** (160) </span><span class="sxs-lookup"><span data-stu-id="695a6-181"><span id="PC-98"></span><span id="pc-98"></span>**PC-98** (160)</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="52156-182">電腦-98。</span><span class="sxs-lookup"><span data-stu-id="52156-182">PC-98.</span></span>
+<span data-ttu-id="695a6-182">電腦-98。</span><span class="sxs-lookup"><span data-stu-id="695a6-182">PC-98.</span></span>
 
 </dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="52156-183">**說明**</span><span class="sxs-lookup"><span data-stu-id="52156-183">**Description**</span></span>
+<span data-ttu-id="695a6-183">**說明**</span><span class="sxs-lookup"><span data-stu-id="695a6-183">**Description**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-184">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="52156-184">Data type: **string**</span></span>
+<span data-ttu-id="695a6-184">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="695a6-184">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-185">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-185">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-185">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-185">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-186">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Description" ) </span><span class="sxs-lookup"><span data-stu-id="52156-186">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Description")</span></span>
+<span data-ttu-id="695a6-186">限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Description" ) </span><span class="sxs-lookup"><span data-stu-id="695a6-186">Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Description")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-187">物件的文字描述。</span><span class="sxs-lookup"><span data-stu-id="52156-187">A textual description of the object.</span></span>
+<span data-ttu-id="695a6-187">物件的文字描述。</span><span class="sxs-lookup"><span data-stu-id="695a6-187">A textual description of the object.</span></span>
 
-<span data-ttu-id="52156-188">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-188">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="695a6-188">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-188">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="52156-189">**IdentifyingNumber**</span><span class="sxs-lookup"><span data-stu-id="52156-189">**IdentifyingNumber**</span></span>
+<span data-ttu-id="695a6-189">**IdentifyingNumber**</span><span class="sxs-lookup"><span data-stu-id="695a6-189">**IdentifyingNumber**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-190">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="52156-190">Data type: **string**</span></span>
+<span data-ttu-id="695a6-190">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="695a6-190">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-191">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-191">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-191">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-191">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-192">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**IdentifyingNumber**") ， [**Key**](/windows/desktop/WmiSdk/key-qualifier)， [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.4 ") </span><span class="sxs-lookup"><span data-stu-id="52156-192">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**IdentifyingNumber**"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.4")</span></span>
+<span data-ttu-id="695a6-192">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**IdentifyingNumber**") ， [**Key**](/windows/desktop/WmiSdk/key-qualifier)， [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.4 ") </span><span class="sxs-lookup"><span data-stu-id="695a6-192">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**IdentifyingNumber**"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.4")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-193">產品識別，例如軟體上的序號或硬體晶片上的骰子編號。</span><span class="sxs-lookup"><span data-stu-id="52156-193">Product identification, such as a serial number on software or a die number on a hardware chip.</span></span>
+<span data-ttu-id="695a6-193">產品識別，例如軟體上的序號或硬體晶片上的骰子編號。</span><span class="sxs-lookup"><span data-stu-id="695a6-193">Product identification, such as a serial number on software or a die number on a hardware chip.</span></span>
 
-<span data-ttu-id="52156-194">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-194">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
+<span data-ttu-id="695a6-194">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-194">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="52156-195">**InstallDate**</span><span class="sxs-lookup"><span data-stu-id="52156-195">**InstallDate**</span></span>
+<span data-ttu-id="695a6-195">**InstallDate**</span><span class="sxs-lookup"><span data-stu-id="695a6-195">**InstallDate**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-196">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="52156-196">Data type: **datetime**</span></span>
+<span data-ttu-id="695a6-196">資料類型： **datetime**</span><span class="sxs-lookup"><span data-stu-id="695a6-196">Data type: **datetime**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-197">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-197">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-197">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-197">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-198">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 元件 \| 001.5 ") ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) (" 安裝日期 ") </span><span class="sxs-lookup"><span data-stu-id="52156-198">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")</span></span>
+<span data-ttu-id="695a6-198">限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 元件 \| 001.5 ") ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) (" 安裝日期 ") </span><span class="sxs-lookup"><span data-stu-id="695a6-198">Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-199">指出物件的安裝時間。</span><span class="sxs-lookup"><span data-stu-id="52156-199">Indicates when the object was installed.</span></span> <span data-ttu-id="52156-200">缺少值並不表示物件未安裝。</span><span class="sxs-lookup"><span data-stu-id="52156-200">Lack of a value does not indicate that the object is not installed.</span></span>
+<span data-ttu-id="695a6-199">指出物件的安裝時間。</span><span class="sxs-lookup"><span data-stu-id="695a6-199">Indicates when the object was installed.</span></span> <span data-ttu-id="695a6-200">缺少值並不表示物件未安裝。</span><span class="sxs-lookup"><span data-stu-id="695a6-200">Lack of a value does not indicate that the object is not installed.</span></span>
 
-<span data-ttu-id="52156-201">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-201">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="695a6-201">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-201">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="52156-202">**名稱**</span><span class="sxs-lookup"><span data-stu-id="52156-202">**Name**</span></span>
+<span data-ttu-id="695a6-202">**名稱**</span><span class="sxs-lookup"><span data-stu-id="695a6-202">**Name**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-203">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="52156-203">Data type: **string**</span></span>
+<span data-ttu-id="695a6-203">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="695a6-203">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-204">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-204">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-204">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-204">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-205">限定詞： [**key**](/windows/desktop/WmiSdk/key-qualifier)、 [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) </span><span class="sxs-lookup"><span data-stu-id="52156-205">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)</span></span>
+<span data-ttu-id="695a6-205">限定詞： [**key**](/windows/desktop/WmiSdk/key-qualifier)、 [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) </span><span class="sxs-lookup"><span data-stu-id="695a6-205">Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-206">Name 屬性會定義物件在資料處理系統外部已知的標籤。</span><span class="sxs-lookup"><span data-stu-id="52156-206">The Name property defines the label by which the object is known to the world outside the data processing system.</span></span> <span data-ttu-id="52156-207">這個標籤是人類看得懂的名稱，可唯一識別元素命名空間內容中的元素。</span><span class="sxs-lookup"><span data-stu-id="52156-207">This label is a human-readable name that uniquely identifies the element in the context of the element's namespace.</span></span>
+<span data-ttu-id="695a6-206">Name 屬性會定義物件在資料處理系統外部已知的標籤。</span><span class="sxs-lookup"><span data-stu-id="695a6-206">The Name property defines the label by which the object is known to the world outside the data processing system.</span></span> <span data-ttu-id="695a6-207">這個標籤是人類看得懂的名稱，可唯一識別元素命名空間內容中的元素。</span><span class="sxs-lookup"><span data-stu-id="695a6-207">This label is a human-readable name that uniquely identifies the element in the context of the element's namespace.</span></span>
 
-<span data-ttu-id="52156-208">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-208">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
+<span data-ttu-id="695a6-208">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-208">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="52156-209">**ProductName**</span><span class="sxs-lookup"><span data-stu-id="52156-209">**ProductName**</span></span>
+<span data-ttu-id="695a6-209">**ProductName**</span><span class="sxs-lookup"><span data-stu-id="695a6-209">**ProductName**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-210">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="52156-210">Data type: **string**</span></span>
+<span data-ttu-id="695a6-210">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="695a6-210">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-211">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-211">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-211">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-211">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-212">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**Name**") ， [**Key**](/windows/desktop/WmiSdk/key-qualifier)， [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.2 ") </span><span class="sxs-lookup"><span data-stu-id="52156-212">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**Name**"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.2")</span></span>
+<span data-ttu-id="695a6-212">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**Name**") ， [**Key**](/windows/desktop/WmiSdk/key-qualifier)， [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.2 ") </span><span class="sxs-lookup"><span data-stu-id="695a6-212">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**Name**"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.2")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-213">常用的產品名稱。</span><span class="sxs-lookup"><span data-stu-id="52156-213">Commonly used product name.</span></span>
+<span data-ttu-id="695a6-213">常用的產品名稱。</span><span class="sxs-lookup"><span data-stu-id="695a6-213">Commonly used product name.</span></span>
 
-<span data-ttu-id="52156-214">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-214">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
+<span data-ttu-id="695a6-214">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-214">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="52156-215">**狀態**</span><span class="sxs-lookup"><span data-stu-id="52156-215">**Status**</span></span>
+<span data-ttu-id="695a6-215">**狀態**</span><span class="sxs-lookup"><span data-stu-id="695a6-215">**Status**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-216">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="52156-216">Data type: **string**</span></span>
+<span data-ttu-id="695a6-216">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="695a6-216">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-217">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-217">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-217">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-217">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-218">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Status" ) </span><span class="sxs-lookup"><span data-stu-id="52156-218">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Status")</span></span>
+<span data-ttu-id="695a6-218">限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Status" ) </span><span class="sxs-lookup"><span data-stu-id="695a6-218">Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Status")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-219">表示物件目前狀態的字串。</span><span class="sxs-lookup"><span data-stu-id="52156-219">String that indicates the current status of the object.</span></span> <span data-ttu-id="52156-220">您可以定義操作和非運作狀態。</span><span class="sxs-lookup"><span data-stu-id="52156-220">Operational and non-operational status can be defined.</span></span> <span data-ttu-id="52156-221">操作狀態可以包含「確定」、「降級」和「Pred 失敗」。</span><span class="sxs-lookup"><span data-stu-id="52156-221">Operational status can include "OK", "Degraded", and "Pred Fail".</span></span> <span data-ttu-id="52156-222">「Pred 失敗」表示專案正常運作，但正在預測失敗 (例如，啟用智慧型硬碟) 。</span><span class="sxs-lookup"><span data-stu-id="52156-222">"Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).</span></span>
+<span data-ttu-id="695a6-219">表示物件目前狀態的字串。</span><span class="sxs-lookup"><span data-stu-id="695a6-219">String that indicates the current status of the object.</span></span> <span data-ttu-id="695a6-220">您可以定義操作和非運作狀態。</span><span class="sxs-lookup"><span data-stu-id="695a6-220">Operational and non-operational status can be defined.</span></span> <span data-ttu-id="695a6-221">操作狀態可以包含「確定」、「降級」和「Pred 失敗」。</span><span class="sxs-lookup"><span data-stu-id="695a6-221">Operational status can include "OK", "Degraded", and "Pred Fail".</span></span> <span data-ttu-id="695a6-222">「Pred 失敗」表示專案正常運作，但正在預測失敗 (例如，啟用智慧型硬碟) 。</span><span class="sxs-lookup"><span data-stu-id="695a6-222">"Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).</span></span>
 
-<span data-ttu-id="52156-223">非操作狀態可能包括「錯誤」、「開始」、「正在停止」和「服務」。</span><span class="sxs-lookup"><span data-stu-id="52156-223">Non-operational status can include "Error", "Starting", "Stopping", and "Service".</span></span> <span data-ttu-id="52156-224">「服務」可以在磁片鏡像重新同步處理、重載使用者權限清單或其他系統管理工作時套用。</span><span class="sxs-lookup"><span data-stu-id="52156-224">"Service" can apply during disk mirror-resilvering, reloading a user permissions list, or other administrative work.</span></span> <span data-ttu-id="52156-225">並非所有這類工作都在線上，但是受控元素不是「確定」，也不是其中一個其他狀態。</span><span class="sxs-lookup"><span data-stu-id="52156-225">Not all such work is online, but the managed element is neither "OK" nor in one of the other states.</span></span>
+<span data-ttu-id="695a6-223">非操作狀態可能包括「錯誤」、「開始」、「正在停止」和「服務」。</span><span class="sxs-lookup"><span data-stu-id="695a6-223">Non-operational status can include "Error", "Starting", "Stopping", and "Service".</span></span> <span data-ttu-id="695a6-224">「服務」可以在磁片鏡像重新同步處理、重載使用者權限清單或其他系統管理工作時套用。</span><span class="sxs-lookup"><span data-stu-id="695a6-224">"Service" can apply during disk mirror-resilvering, reloading a user permissions list, or other administrative work.</span></span> <span data-ttu-id="695a6-225">並非所有這類工作都在線上，但是受控元素不是「確定」，也不是其中一個其他狀態。</span><span class="sxs-lookup"><span data-stu-id="695a6-225">Not all such work is online, but the managed element is neither "OK" nor in one of the other states.</span></span>
 
-<span data-ttu-id="52156-226">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-226">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
+<span data-ttu-id="695a6-226">這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-226">This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).</span></span>
 
-<span data-ttu-id="52156-227">包括下列值：</span><span class="sxs-lookup"><span data-stu-id="52156-227">Values include the following:</span></span>
+<span data-ttu-id="695a6-227">包括下列值：</span><span class="sxs-lookup"><span data-stu-id="695a6-227">Values include the following:</span></span>
 
 <dt>
 
 <span id="OK"></span><span id="ok"></span>
 
-<span data-ttu-id="52156-228">**確定** ( [確定] ) </span><span class="sxs-lookup"><span data-stu-id="52156-228">**OK** ("OK")</span></span>
+<span data-ttu-id="695a6-228">**確定** ( [確定] ) </span><span class="sxs-lookup"><span data-stu-id="695a6-228">**OK** ("OK")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Error"></span><span id="error"></span><span id="ERROR"></span>
 
-<span data-ttu-id="52156-229">**錯誤** ( 「錯誤」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-229">**Error** ("Error")</span></span>
+<span data-ttu-id="695a6-229">**錯誤** ( 「錯誤」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-229">**Error** ("Error")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>
 
-<span data-ttu-id="52156-230">**降級** ( 「降級」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-230">**Degraded** ("Degraded")</span></span>
+<span data-ttu-id="695a6-230">**降級** ( 「降級」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-230">**Degraded** ("Degraded")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
 
-<span data-ttu-id="52156-231">**未知** 的 ( 「未知」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-231">**Unknown** ("Unknown")</span></span>
+<span data-ttu-id="695a6-231">**未知** 的 ( 「未知」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-231">**Unknown** ("Unknown")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Pred_Fail"></span><span id="pred_fail"></span><span id="PRED_FAIL"></span>
 
-<span data-ttu-id="52156-232">**Pred 失敗** ( 「Pred 失敗」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-232">**Pred Fail** ("Pred Fail")</span></span>
+<span data-ttu-id="695a6-232">**Pred 失敗** ( 「Pred 失敗」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-232">**Pred Fail** ("Pred Fail")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>
 
-<span data-ttu-id="52156-233">**開始** ( 「開始」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-233">**Starting** ("Starting")</span></span>
+<span data-ttu-id="695a6-233">**開始** ( 「開始」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-233">**Starting** ("Starting")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>
 
-<span data-ttu-id="52156-234">**停止** ( 「正在停止」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-234">**Stopping** ("Stopping")</span></span>
+<span data-ttu-id="695a6-234">**停止** ( 「正在停止」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-234">**Stopping** ("Stopping")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Service"></span><span id="service"></span><span id="SERVICE"></span>
 
-<span data-ttu-id="52156-235">**服務** ( 「服務」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-235">**Service** ("Service")</span></span>
+<span data-ttu-id="695a6-235">**服務** ( 「服務」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-235">**Service** ("Service")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>
 
-<span data-ttu-id="52156-236">**壓力** ( 「壓力」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-236">**Stressed** ("Stressed")</span></span>
+<span data-ttu-id="695a6-236">**壓力** ( 「壓力」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-236">**Stressed** ("Stressed")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="NonRecover"></span><span id="nonrecover"></span><span id="NONRECOVER"></span>
 
-<span data-ttu-id="52156-237">**NonRecover** ( "NonRecover" ) </span><span class="sxs-lookup"><span data-stu-id="52156-237">**NonRecover** ("NonRecover")</span></span>
+<span data-ttu-id="695a6-237">**NonRecover** ( "NonRecover" ) </span><span class="sxs-lookup"><span data-stu-id="695a6-237">**NonRecover** ("NonRecover")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>
 
-<span data-ttu-id="52156-238">**沒有連絡人** ( 「沒有連絡人」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-238">**No Contact** ("No Contact")</span></span>
+<span data-ttu-id="695a6-238">**沒有連絡人** ( 「沒有連絡人」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-238">**No Contact** ("No Contact")</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Lost_Comm"></span><span id="lost_comm"></span><span id="LOST_COMM"></span>
 
-<span data-ttu-id="52156-239">**遺失的 comm** ( 「遺失的通訊」 ) </span><span class="sxs-lookup"><span data-stu-id="52156-239">**Lost Comm** ("Lost Comm")</span></span>
+<span data-ttu-id="695a6-239">**遺失的 comm** ( 「遺失的通訊」 ) </span><span class="sxs-lookup"><span data-stu-id="695a6-239">**Lost Comm** ("Lost Comm")</span></span>
 
 
 </dt> <dd></dd> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="52156-240">**廠商**</span><span class="sxs-lookup"><span data-stu-id="52156-240">**Vendor**</span></span>
+<span data-ttu-id="695a6-240">**廠商**</span><span class="sxs-lookup"><span data-stu-id="695a6-240">**Vendor**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-241">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="52156-241">Data type: **string**</span></span>
+<span data-ttu-id="695a6-241">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="695a6-241">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-242">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-242">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-242">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-242">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-243">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**廠商**") ， [**CIM \_ Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)， [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.1 ") </span><span class="sxs-lookup"><span data-stu-id="52156-243">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**Vendor**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.1")</span></span>
+<span data-ttu-id="695a6-243">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**廠商**") ， [**CIM \_ Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)， [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.1 ") </span><span class="sxs-lookup"><span data-stu-id="695a6-243">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**Vendor**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.1")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-244">產品供應商的名稱，其對應至「DMTF 解決方案交換標準」產品物件中的 **廠商** 屬性。</span><span class="sxs-lookup"><span data-stu-id="52156-244">Name of the product's supplier, which corresponds to the **Vendor** property in the product object of the DMTF Solution Exchange Standard.</span></span>
+<span data-ttu-id="695a6-244">產品供應商的名稱，其對應至「DMTF 解決方案交換標準」產品物件中的 **廠商** 屬性。</span><span class="sxs-lookup"><span data-stu-id="695a6-244">Name of the product's supplier, which corresponds to the **Vendor** property in the product object of the DMTF Solution Exchange Standard.</span></span>
 
-<span data-ttu-id="52156-245">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-245">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
+<span data-ttu-id="695a6-245">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-245">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="52156-246">**版本**</span><span class="sxs-lookup"><span data-stu-id="52156-246">**Version**</span></span>
+<span data-ttu-id="695a6-246">**版本**</span><span class="sxs-lookup"><span data-stu-id="695a6-246">**Version**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="52156-247">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="52156-247">Data type: **string**</span></span>
+<span data-ttu-id="695a6-247">資料類型： **字串**</span><span class="sxs-lookup"><span data-stu-id="695a6-247">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-248">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="52156-248">Access type: Read-only</span></span>
+<span data-ttu-id="695a6-248">存取類型：唯讀</span><span class="sxs-lookup"><span data-stu-id="695a6-248">Access type: Read-only</span></span>
 </dt> <dt>
 
-<span data-ttu-id="52156-249">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**Version**") 、 [**Key**](/windows/desktop/WmiSdk/key-qualifier)、 [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) 、 [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.3 ") </span><span class="sxs-lookup"><span data-stu-id="52156-249">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**Version**"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.3")</span></span>
+<span data-ttu-id="695a6-249">限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**Version**") 、 [**Key**](/windows/desktop/WmiSdk/key-qualifier)、 [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) 、 [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.3 ") </span><span class="sxs-lookup"><span data-stu-id="695a6-249">Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**Version**"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.3")</span></span>
 </dt> </dl>
 
-<span data-ttu-id="52156-250">產品版本資訊，對應至 [DMTF 解決方案交換標準] 產品物件中的 [ **版本** ] 屬性。</span><span class="sxs-lookup"><span data-stu-id="52156-250">Product version information, which corresponds to the **Version** property in the product object of the DMTF Solution Exchange Standard.</span></span>
+<span data-ttu-id="695a6-250">產品版本資訊，對應至 [DMTF 解決方案交換標準] 產品物件中的 [ **版本** ] 屬性。</span><span class="sxs-lookup"><span data-stu-id="695a6-250">Product version information, which corresponds to the **Version** property in the product object of the DMTF Solution Exchange Standard.</span></span>
 
-<span data-ttu-id="52156-251">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-251">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
+<span data-ttu-id="695a6-251">這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-251">This property is inherited from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="52156-252">備註</span><span class="sxs-lookup"><span data-stu-id="52156-252">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="695a6-252">備註</span><span class="sxs-lookup"><span data-stu-id="695a6-252">Remarks</span></span>
 
-<span data-ttu-id="52156-253">**Cim \_ BIOSFeature** 類別衍生自 [**cim \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="52156-253">The **CIM\_BIOSFeature** class is derived from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
+<span data-ttu-id="695a6-253">**Cim \_ BIOSFeature** 類別衍生自 [**cim \_ SoftwareFeature**](cim-softwarefeature.md)。</span><span class="sxs-lookup"><span data-stu-id="695a6-253">The **CIM\_BIOSFeature** class is derived from [**CIM\_SoftwareFeature**](cim-softwarefeature.md).</span></span>
 
-<span data-ttu-id="52156-254">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="52156-254">WMI does not implement this class.</span></span>
+<span data-ttu-id="695a6-254">WMI 不會執行這個類別。</span><span class="sxs-lookup"><span data-stu-id="695a6-254">WMI does not implement this class.</span></span>
 
-<span data-ttu-id="52156-255">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="52156-255">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="52156-256">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="52156-256">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
+<span data-ttu-id="695a6-255">此檔衍生自 DMTF 所發佈的 CIM 類別描述。</span><span class="sxs-lookup"><span data-stu-id="695a6-255">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="695a6-256">Microsoft 可能已進行變更，以更正次要錯誤、符合 Microsoft SDK 檔標準，或提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="695a6-256">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="52156-257">規格需求</span><span class="sxs-lookup"><span data-stu-id="52156-257">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="695a6-257">規格需求</span><span class="sxs-lookup"><span data-stu-id="695a6-257">Requirements</span></span>
 
 
 
-| <span data-ttu-id="52156-258">需求</span><span class="sxs-lookup"><span data-stu-id="52156-258">Requirement</span></span> | <span data-ttu-id="52156-259">值</span><span class="sxs-lookup"><span data-stu-id="52156-259">Value</span></span> |
+| <span data-ttu-id="695a6-258">需求</span><span class="sxs-lookup"><span data-stu-id="695a6-258">Requirement</span></span> | <span data-ttu-id="695a6-259">值</span><span class="sxs-lookup"><span data-stu-id="695a6-259">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="52156-260">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="52156-260">Minimum supported client</span></span><br/> | <span data-ttu-id="52156-261">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="52156-261">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="52156-262">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="52156-262">Minimum supported server</span></span><br/> | <span data-ttu-id="52156-263">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="52156-263">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="52156-264">命名空間</span><span class="sxs-lookup"><span data-stu-id="52156-264">Namespace</span></span><br/>                | <span data-ttu-id="52156-265">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="52156-265">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="52156-266">MOF</span><span class="sxs-lookup"><span data-stu-id="52156-266">MOF</span></span><br/>                      | <dl> <span data-ttu-id="52156-267"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="52156-267"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="52156-268">DLL</span><span class="sxs-lookup"><span data-stu-id="52156-268">DLL</span></span><br/>                      | <dl> <span data-ttu-id="52156-269"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="52156-269"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="695a6-260">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="695a6-260">Minimum supported client</span></span><br/> | <span data-ttu-id="695a6-261">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="695a6-261">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="695a6-262">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="695a6-262">Minimum supported server</span></span><br/> | <span data-ttu-id="695a6-263">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="695a6-263">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="695a6-264">命名空間</span><span class="sxs-lookup"><span data-stu-id="695a6-264">Namespace</span></span><br/>                | <span data-ttu-id="695a6-265">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="695a6-265">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="695a6-266">MOF</span><span class="sxs-lookup"><span data-stu-id="695a6-266">MOF</span></span><br/>                      | <dl> <span data-ttu-id="695a6-267"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="695a6-267"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="695a6-268">DLL</span><span class="sxs-lookup"><span data-stu-id="695a6-268">DLL</span></span><br/>                      | <dl> <span data-ttu-id="695a6-269"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="695a6-269"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="52156-270">另請參閱</span><span class="sxs-lookup"><span data-stu-id="52156-270">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="695a6-270">另請參閱</span><span class="sxs-lookup"><span data-stu-id="695a6-270">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="52156-271">**CIM \_ SoftwareFeature**</span><span class="sxs-lookup"><span data-stu-id="52156-271">**CIM\_SoftwareFeature**</span></span>](cim-softwarefeature.md)
+[<span data-ttu-id="695a6-271">**CIM \_ SoftwareFeature**</span><span class="sxs-lookup"><span data-stu-id="695a6-271">**CIM\_SoftwareFeature**</span></span>](cim-softwarefeature.md)
 </dt> </dl>
 
  

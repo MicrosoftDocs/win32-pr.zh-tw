@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849308"
 ---
-# <a name="identity-manager-reference-links"></a><span data-ttu-id="d0141-103">Identity Manager 參考連結</span><span class="sxs-lookup"><span data-stu-id="d0141-103">Identity Manager Reference Links</span></span>
+# <a name="identity-manager-reference-links"></a><span data-ttu-id="e149b-103">Identity Manager 參考連結</span><span class="sxs-lookup"><span data-stu-id="e149b-103">Identity Manager Reference Links</span></span>
 
-<span data-ttu-id="d0141-104">下列清單針對對等身分識別管理員 Api 所使用的 Api，識別實用 MSDN 參考頁面的連結：</span><span class="sxs-lookup"><span data-stu-id="d0141-104">The following list identifies links to useful MSDN reference pages for APIs used by the Peer Identity Manager APIs:</span></span>
+<span data-ttu-id="e149b-104">下列清單針對對等身分識別管理員 Api 所使用的 Api，識別實用 MSDN 參考頁面的連結：</span><span class="sxs-lookup"><span data-stu-id="e149b-104">The following list identifies links to useful MSDN reference pages for APIs used by the Peer Identity Manager APIs:</span></span>
 
--   [<span data-ttu-id="d0141-105">**CryptGetUserKey**</span><span class="sxs-lookup"><span data-stu-id="d0141-105">**CryptGetUserKey**</span></span>](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey)
--   [<span data-ttu-id="d0141-106">**CryptReleaseCoNtext**</span><span class="sxs-lookup"><span data-stu-id="d0141-106">**CryptReleaseContext**</span></span>](/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext)
+-   [<span data-ttu-id="e149b-105">**CryptGetUserKey**</span><span class="sxs-lookup"><span data-stu-id="e149b-105">**CryptGetUserKey**</span></span>](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey)
+-   [<span data-ttu-id="e149b-106">**CryptReleaseCoNtext**</span><span class="sxs-lookup"><span data-stu-id="e149b-106">**CryptReleaseContext**</span></span>](/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext)
 
  
 

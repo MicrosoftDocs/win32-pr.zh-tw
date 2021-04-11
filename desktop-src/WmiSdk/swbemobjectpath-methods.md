@@ -12,13 +12,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692175"
 ---
-# <a name="swbemobjectpath-methods"></a><span data-ttu-id="ccb09-103">SWbemObjectPath 方法</span><span class="sxs-lookup"><span data-stu-id="ccb09-103">SWbemObjectPath Methods</span></span>
+# <a name="swbemobjectpath-methods"></a><span data-ttu-id="c210c-103">SWbemObjectPath 方法</span><span class="sxs-lookup"><span data-stu-id="c210c-103">SWbemObjectPath Methods</span></span>
 
-<span data-ttu-id="ccb09-104">[**SWbemObjectPath**](swbemobjectpath.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="ccb09-104">The [**SWbemObjectPath**](swbemobjectpath.md) object exposes the following methods.</span></span>
+<span data-ttu-id="c210c-104">[**SWbemObjectPath**](swbemobjectpath.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="c210c-104">The [**SWbemObjectPath**](swbemobjectpath.md) object exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="ccb09-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="ccb09-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c210c-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c210c-105">In this section</span></span>
 
--   [<span data-ttu-id="ccb09-106">**SetAsSingleton 方法**</span><span class="sxs-lookup"><span data-stu-id="ccb09-106">**SetAsSingleton method**</span></span>](swbemobjectpath-setassingleton.md)
+-   [<span data-ttu-id="c210c-106">**SetAsSingleton 方法**</span><span class="sxs-lookup"><span data-stu-id="c210c-106">**SetAsSingleton method**</span></span>](swbemobjectpath-setassingleton.md)
 
  
 

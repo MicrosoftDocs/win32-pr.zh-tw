@@ -20,13 +20,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103693067"
 ---
-# <a name="deviceinfoport-property"></a><span data-ttu-id="49075-103">DeviceInfo. Port 屬性</span><span class="sxs-lookup"><span data-stu-id="49075-103">DeviceInfo.Port property</span></span>
+# <a name="deviceinfoport-property"></a><span data-ttu-id="ffc82-103">DeviceInfo. Port 屬性</span><span class="sxs-lookup"><span data-stu-id="ffc82-103">DeviceInfo.Port property</span></span>
 
-<span data-ttu-id="49075-104">抓取 Windows 映像取得 (WIA) 硬體裝置所連線的埠。</span><span class="sxs-lookup"><span data-stu-id="49075-104">Retrieves the port to which the Windows Image Acquisition (WIA) hardware device is connected.</span></span>
+<span data-ttu-id="ffc82-104">抓取 Windows 映像取得 (WIA) 硬體裝置所連線的埠。</span><span class="sxs-lookup"><span data-stu-id="ffc82-104">Retrieves the port to which the Windows Image Acquisition (WIA) hardware device is connected.</span></span>
 
-<span data-ttu-id="49075-105">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="49075-105">This property is read-only.</span></span>
+<span data-ttu-id="ffc82-105">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="ffc82-105">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="49075-106">語法</span><span class="sxs-lookup"><span data-stu-id="49075-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ffc82-106">語法</span><span class="sxs-lookup"><span data-stu-id="ffc82-106">Syntax</span></span>
 
 
 ```JScript
@@ -35,19 +35,19 @@ propVal = DeviceInfo.Port
 
 
 
-## <a name="property-value"></a><span data-ttu-id="49075-107">屬性值</span><span class="sxs-lookup"><span data-stu-id="49075-107">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="ffc82-107">屬性值</span><span class="sxs-lookup"><span data-stu-id="ffc82-107">Property value</span></span>
 
-<span data-ttu-id="49075-108">接收埠的字串。</span><span class="sxs-lookup"><span data-stu-id="49075-108">String that receives the port.</span></span>
+<span data-ttu-id="ffc82-108">接收埠的字串。</span><span class="sxs-lookup"><span data-stu-id="ffc82-108">String that receives the port.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="49075-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="49075-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ffc82-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="ffc82-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="49075-110">需求</span><span class="sxs-lookup"><span data-stu-id="49075-110">Requirement</span></span> | <span data-ttu-id="49075-111">值</span><span class="sxs-lookup"><span data-stu-id="49075-111">Value</span></span> |
+| <span data-ttu-id="ffc82-110">需求</span><span class="sxs-lookup"><span data-stu-id="ffc82-110">Requirement</span></span> | <span data-ttu-id="ffc82-111">值</span><span class="sxs-lookup"><span data-stu-id="ffc82-111">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="49075-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="49075-112">Minimum supported client</span></span><br/> | <span data-ttu-id="49075-113">僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="49075-113">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="49075-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="49075-114">Minimum supported server</span></span><br/> | <span data-ttu-id="49075-115">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="49075-115">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
-| <span data-ttu-id="49075-116">DLL</span><span class="sxs-lookup"><span data-stu-id="49075-116">DLL</span></span><br/>                      | <dl> <span data-ttu-id="49075-117"><dt>Wiascr.dll (4.90 版或更新版本) </dt></span><span class="sxs-lookup"><span data-stu-id="49075-117"><dt>Wiascr.dll (version 4.90 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="ffc82-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ffc82-112">Minimum supported client</span></span><br/> | <span data-ttu-id="ffc82-113">僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ffc82-113">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="ffc82-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ffc82-114">Minimum supported server</span></span><br/> | <span data-ttu-id="ffc82-115">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ffc82-115">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
+| <span data-ttu-id="ffc82-116">DLL</span><span class="sxs-lookup"><span data-stu-id="ffc82-116">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ffc82-117"><dt>Wiascr.dll (4.90 版或更新版本) </dt></span><span class="sxs-lookup"><span data-stu-id="ffc82-117"><dt>Wiascr.dll (version 4.90 or later)</dt></span></span> </dl> |
 
 
 

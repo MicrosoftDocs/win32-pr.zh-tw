@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "104196130"
 ---
-# <a name="rich-edit-constants"></a><span data-ttu-id="27c11-103">Rich Edit 常數</span><span class="sxs-lookup"><span data-stu-id="27c11-103">Rich Edit Constants</span></span>
+# <a name="rich-edit-constants"></a><span data-ttu-id="dc123-103">Rich Edit 常數</span><span class="sxs-lookup"><span data-stu-id="dc123-103">Rich Edit Constants</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="27c11-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="27c11-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dc123-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="dc123-104">In this section</span></span>
 
--   [<span data-ttu-id="27c11-105">**Rich Edit 控制項事件遮罩旗標**</span><span class="sxs-lookup"><span data-stu-id="27c11-105">**Rich Edit Control Event Mask Flags**</span></span>](rich-edit-control-event-mask-flags.md)
--   [<span data-ttu-id="27c11-106">**Rich Edit 控制項樣式**</span><span class="sxs-lookup"><span data-stu-id="27c11-106">**Rich Edit Control Styles**</span></span>](rich-edit-control-styles.md)
+-   [<span data-ttu-id="dc123-105">**Rich Edit 控制項事件遮罩旗標**</span><span class="sxs-lookup"><span data-stu-id="dc123-105">**Rich Edit Control Event Mask Flags**</span></span>](rich-edit-control-event-mask-flags.md)
+-   [<span data-ttu-id="dc123-106">**Rich Edit 控制項樣式**</span><span class="sxs-lookup"><span data-stu-id="dc123-106">**Rich Edit Control Styles**</span></span>](rich-edit-control-styles.md)
 
  
 

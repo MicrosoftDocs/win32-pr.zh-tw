@@ -18,32 +18,32 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848494"
 ---
-# <a name="boundingboxtransform-methods"></a><span data-ttu-id="9e54b-103">BoundingBox 轉換方法</span><span class="sxs-lookup"><span data-stu-id="9e54b-103">BoundingBox.Transform methods</span></span>
+# <a name="boundingboxtransform-methods"></a><span data-ttu-id="c0ba0-103">BoundingBox 轉換方法</span><span class="sxs-lookup"><span data-stu-id="c0ba0-103">BoundingBox.Transform methods</span></span>
 
-<span data-ttu-id="9e54b-104">轉換 BoundingBox。</span><span class="sxs-lookup"><span data-stu-id="9e54b-104">Transforms the BoundingBox.</span></span>
+<span data-ttu-id="c0ba0-104">轉換 BoundingBox。</span><span class="sxs-lookup"><span data-stu-id="c0ba0-104">Transforms the BoundingBox.</span></span>
 
-### <a name="overload-list"></a><span data-ttu-id="9e54b-105">多載清單</span><span class="sxs-lookup"><span data-stu-id="9e54b-105">Overload list</span></span>
+### <a name="overload-list"></a><span data-ttu-id="c0ba0-105">多載清單</span><span class="sxs-lookup"><span data-stu-id="c0ba0-105">Overload list</span></span>
 
 
 
-| <span data-ttu-id="9e54b-106">方法</span><span class="sxs-lookup"><span data-stu-id="9e54b-106">Method</span></span>                                                                                           | <span data-ttu-id="9e54b-107">描述</span><span class="sxs-lookup"><span data-stu-id="9e54b-107">Description</span></span>                            |
+| <span data-ttu-id="c0ba0-106">方法</span><span class="sxs-lookup"><span data-stu-id="c0ba0-106">Method</span></span>                                                                                           | <span data-ttu-id="c0ba0-107">描述</span><span class="sxs-lookup"><span data-stu-id="c0ba0-107">Description</span></span>                            |
 |:-------------------------------------------------------------------------------------------------|:---------------------------------------|
-| <span data-ttu-id="9e54b-108">[**BoundingBox：： Transform (BoundingBox&，XMMATRIX)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-transform(boundingbox__float_fxmvector_fxmvector))</span><span class="sxs-lookup"><span data-stu-id="9e54b-108">[**BoundingBox::Transform (BoundingBox&,XMMATRIX)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-transform(boundingbox__float_fxmvector_fxmvector))</span></span>                | <span data-ttu-id="9e54b-109">轉換 BoundingBox。</span><span class="sxs-lookup"><span data-stu-id="9e54b-109">Transforms the BoundingBox.</span></span><br/> |
-| <span data-ttu-id="9e54b-110">[**BoundingBox：： Transform (BoundingBox&、float、XMVECTOR、XMVECTOR)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-transform(boundingbox__float_fxmvector_fxmvector))</span><span class="sxs-lookup"><span data-stu-id="9e54b-110">[**BoundingBox::Transform (BoundingBox&,float,XMVECTOR,XMVECTOR)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-transform(boundingbox__float_fxmvector_fxmvector))</span></span> | <span data-ttu-id="9e54b-111">轉換 BoundingBox。</span><span class="sxs-lookup"><span data-stu-id="9e54b-111">Transforms the BoundingBox.</span></span><br/> |
+| <span data-ttu-id="c0ba0-108">[**BoundingBox：： Transform (BoundingBox&，XMMATRIX)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-transform(boundingbox__float_fxmvector_fxmvector))</span><span class="sxs-lookup"><span data-stu-id="c0ba0-108">[**BoundingBox::Transform (BoundingBox&,XMMATRIX)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-transform(boundingbox__float_fxmvector_fxmvector))</span></span>                | <span data-ttu-id="c0ba0-109">轉換 BoundingBox。</span><span class="sxs-lookup"><span data-stu-id="c0ba0-109">Transforms the BoundingBox.</span></span><br/> |
+| <span data-ttu-id="c0ba0-110">[**BoundingBox：： Transform (BoundingBox&、float、XMVECTOR、XMVECTOR)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-transform(boundingbox__float_fxmvector_fxmvector))</span><span class="sxs-lookup"><span data-stu-id="c0ba0-110">[**BoundingBox::Transform (BoundingBox&,float,XMVECTOR,XMVECTOR)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-transform(boundingbox__float_fxmvector_fxmvector))</span></span> | <span data-ttu-id="c0ba0-111">轉換 BoundingBox。</span><span class="sxs-lookup"><span data-stu-id="c0ba0-111">Transforms the BoundingBox.</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="9e54b-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9e54b-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c0ba0-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c0ba0-112">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9e54b-113">方法</span><span class="sxs-lookup"><span data-stu-id="9e54b-113">Methods</span></span>](boundingbox-methods.md)
+[<span data-ttu-id="c0ba0-113">方法</span><span class="sxs-lookup"><span data-stu-id="c0ba0-113">Methods</span></span>](boundingbox-methods.md)
 </dt> <dt>
 
-<span data-ttu-id="9e54b-114">**參考**</span><span class="sxs-lookup"><span data-stu-id="9e54b-114">**Reference**</span></span>
+<span data-ttu-id="c0ba0-114">**參考**</span><span class="sxs-lookup"><span data-stu-id="c0ba0-114">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="9e54b-115">**BoundingBox**</span><span class="sxs-lookup"><span data-stu-id="9e54b-115">**BoundingBox**</span></span>](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox)
+[<span data-ttu-id="c0ba0-115">**BoundingBox**</span><span class="sxs-lookup"><span data-stu-id="c0ba0-115">**BoundingBox**</span></span>](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox)
 </dt> </dl>
 
  

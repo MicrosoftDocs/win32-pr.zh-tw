@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103848078"
 ---
-# <a name="iinkanalyzerfindinkleafnodesforstrokes-method"></a><span data-ttu-id="f6838-103">IInkAnalyzer：： FindInkLeafNodesForStrokes 方法</span><span class="sxs-lookup"><span data-stu-id="f6838-103">IInkAnalyzer::FindInkLeafNodesForStrokes method</span></span>
+# <a name="iinkanalyzerfindinkleafnodesforstrokes-method"></a><span data-ttu-id="67d97-103">IInkAnalyzer：： FindInkLeafNodesForStrokes 方法</span><span class="sxs-lookup"><span data-stu-id="67d97-103">IInkAnalyzer::FindInkLeafNodesForStrokes method</span></span>
 
-<span data-ttu-id="f6838-104">抓取包含指定筆劃的筆墨分葉節點。</span><span class="sxs-lookup"><span data-stu-id="f6838-104">Retrieves the ink leaf nodes that contain the specified strokes.</span></span>
+<span data-ttu-id="67d97-104">抓取包含指定筆劃的筆墨分葉節點。</span><span class="sxs-lookup"><span data-stu-id="67d97-104">Retrieves the ink leaf nodes that contain the specified strokes.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f6838-105">語法</span><span class="sxs-lookup"><span data-stu-id="f6838-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="67d97-105">語法</span><span class="sxs-lookup"><span data-stu-id="67d97-105">Syntax</span></span>
 
 
 ```C++
@@ -37,91 +37,91 @@ HRESULT FindInkLeafNodesForStrokes(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="f6838-106">參數</span><span class="sxs-lookup"><span data-stu-id="f6838-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="67d97-106">參數</span><span class="sxs-lookup"><span data-stu-id="67d97-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="f6838-107">*ulStrokeIdsCount* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f6838-107">*ulStrokeIdsCount* \[in\]</span></span>
+<span data-ttu-id="67d97-107">*ulStrokeIdsCount* \[在\]</span><span class="sxs-lookup"><span data-stu-id="67d97-107">*ulStrokeIdsCount* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="f6838-108">傳入的筆觸識別碼數目。</span><span class="sxs-lookup"><span data-stu-id="f6838-108">The number of stroke identifiers passed in.</span></span>
+<span data-ttu-id="67d97-108">傳入的筆觸識別碼數目。</span><span class="sxs-lookup"><span data-stu-id="67d97-108">The number of stroke identifiers passed in.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="f6838-109">*plStrokeIds* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f6838-109">*plStrokeIds* \[in\]</span></span>
+<span data-ttu-id="67d97-109">*plStrokeIds* \[在\]</span><span class="sxs-lookup"><span data-stu-id="67d97-109">*plStrokeIds* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="f6838-110">筆觸識別碼的陣列。</span><span class="sxs-lookup"><span data-stu-id="f6838-110">An array of the stroke identifiers.</span></span>
+<span data-ttu-id="67d97-110">筆觸識別碼的陣列。</span><span class="sxs-lookup"><span data-stu-id="67d97-110">An array of the stroke identifiers.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="f6838-111">*ppCoNtextNodesFound* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="f6838-111">*ppContextNodesFound* \[out\]</span></span>
+<span data-ttu-id="67d97-111">*ppCoNtextNodesFound* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="67d97-111">*ppContextNodesFound* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="f6838-112">[**ICoNtextNode**](icontextnode.md)物件的集合，其中包含包含 *plStrokeIds* 陣列中識別碼之筆觸的所有筆墨分葉節點。</span><span class="sxs-lookup"><span data-stu-id="f6838-112">The collection of [**IContextNode**](icontextnode.md) objects that contain all the ink leaf nodes that contain the strokes with identifiers in the *plStrokeIds* array.</span></span>
+<span data-ttu-id="67d97-112">[**ICoNtextNode**](icontextnode.md)物件的集合，其中包含包含 *plStrokeIds* 陣列中識別碼之筆觸的所有筆墨分葉節點。</span><span class="sxs-lookup"><span data-stu-id="67d97-112">The collection of [**IContextNode**](icontextnode.md) objects that contain all the ink leaf nodes that contain the strokes with identifiers in the *plStrokeIds* array.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="f6838-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="f6838-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="67d97-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="67d97-113">Return value</span></span>
 
-<span data-ttu-id="f6838-114">如需傳回值的描述，請參閱 [類別和介面-筆跡分析](classes-and-interfaces---ink-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="f6838-114">For a description of the return values, see [Classes and Interfaces - Ink Analysis](classes-and-interfaces---ink-analysis.md).</span></span>
+<span data-ttu-id="67d97-114">如需傳回值的描述，請參閱 [類別和介面-筆跡分析](classes-and-interfaces---ink-analysis.md)。</span><span class="sxs-lookup"><span data-stu-id="67d97-114">For a description of the return values, see [Classes and Interfaces - Ink Analysis](classes-and-interfaces---ink-analysis.md).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f6838-115">備註</span><span class="sxs-lookup"><span data-stu-id="f6838-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="67d97-115">備註</span><span class="sxs-lookup"><span data-stu-id="67d97-115">Remarks</span></span>
 
 > [!Caution]  
-> <span data-ttu-id="f6838-116">若要避免記憶體流失，請在 *ppCoNtextNodesFound* 上呼叫 [**IUnknown：： Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) （當您不再需要使用物件時）。</span><span class="sxs-lookup"><span data-stu-id="f6838-116">To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodesFound* when you no longer need to use the object.</span></span>
+> <span data-ttu-id="67d97-116">若要避免記憶體流失，請在 *ppCoNtextNodesFound* 上呼叫 [**IUnknown：： Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) （當您不再需要使用物件時）。</span><span class="sxs-lookup"><span data-stu-id="67d97-116">To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodesFound* when you no longer need to use the object.</span></span>
 
  
 
-<span data-ttu-id="f6838-117">分葉節點不包含子節點。</span><span class="sxs-lookup"><span data-stu-id="f6838-117">Leaf nodes do not contain child nodes.</span></span> <span data-ttu-id="f6838-118">筆墨節點包含筆觸資料。</span><span class="sxs-lookup"><span data-stu-id="f6838-118">Ink nodes contain stroke data.</span></span> <span data-ttu-id="f6838-119">筆墨分葉節點的範例包括 InkWord、InkDrawing、andInkBullet [**ICoNtextNode**](icontextnode.md) 物件。</span><span class="sxs-lookup"><span data-stu-id="f6838-119">Examples of ink leaf nodes are InkWord, InkDrawing, andInkBullet [**IContextNode**](icontextnode.md) objects.</span></span> <span data-ttu-id="f6838-120">如需詳細資訊，請參閱 [內容節點類型](context-node-types.md)。</span><span class="sxs-lookup"><span data-stu-id="f6838-120">For more information, see [Context Node Types](context-node-types.md).</span></span>
+<span data-ttu-id="67d97-117">分葉節點不包含子節點。</span><span class="sxs-lookup"><span data-stu-id="67d97-117">Leaf nodes do not contain child nodes.</span></span> <span data-ttu-id="67d97-118">筆墨節點包含筆觸資料。</span><span class="sxs-lookup"><span data-stu-id="67d97-118">Ink nodes contain stroke data.</span></span> <span data-ttu-id="67d97-119">筆墨分葉節點的範例包括 InkWord、InkDrawing、andInkBullet [**ICoNtextNode**](icontextnode.md) 物件。</span><span class="sxs-lookup"><span data-stu-id="67d97-119">Examples of ink leaf nodes are InkWord, InkDrawing, andInkBullet [**IContextNode**](icontextnode.md) objects.</span></span> <span data-ttu-id="67d97-120">如需詳細資訊，請參閱 [內容節點類型](context-node-types.md)。</span><span class="sxs-lookup"><span data-stu-id="67d97-120">For more information, see [Context Node Types](context-node-types.md).</span></span>
 
-<span data-ttu-id="f6838-121">如果沒有任何節點包含指定的筆觸，則會傳回空的 [**ICoNtextNodes**](icontextnodes.md) 集合。</span><span class="sxs-lookup"><span data-stu-id="f6838-121">If no nodes contain the specified strokes, an empty [**IContextNodes**](icontextnodes.md) collection is returned.</span></span> <span data-ttu-id="f6838-122">同樣地，如果 *ulStrokeIdsCount* 為零，則會傳回空的 **ICoNtextNodes** 集合。</span><span class="sxs-lookup"><span data-stu-id="f6838-122">Similarly, if *ulStrokeIdsCount* is zero, an empty **IContextNodes** collection is returned.</span></span>
+<span data-ttu-id="67d97-121">如果沒有任何節點包含指定的筆觸，則會傳回空的 [**ICoNtextNodes**](icontextnodes.md) 集合。</span><span class="sxs-lookup"><span data-stu-id="67d97-121">If no nodes contain the specified strokes, an empty [**IContextNodes**](icontextnodes.md) collection is returned.</span></span> <span data-ttu-id="67d97-122">同樣地，如果 *ulStrokeIdsCount* 為零，則會傳回空的 **ICoNtextNodes** 集合。</span><span class="sxs-lookup"><span data-stu-id="67d97-122">Similarly, if *ulStrokeIdsCount* is zero, an empty **IContextNodes** collection is returned.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f6838-123">規格需求</span><span class="sxs-lookup"><span data-stu-id="f6838-123">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="67d97-123">規格需求</span><span class="sxs-lookup"><span data-stu-id="67d97-123">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f6838-124">需求</span><span class="sxs-lookup"><span data-stu-id="f6838-124">Requirement</span></span> | <span data-ttu-id="f6838-125">值</span><span class="sxs-lookup"><span data-stu-id="f6838-125">Value</span></span> |
+| <span data-ttu-id="67d97-124">需求</span><span class="sxs-lookup"><span data-stu-id="67d97-124">Requirement</span></span> | <span data-ttu-id="67d97-125">值</span><span class="sxs-lookup"><span data-stu-id="67d97-125">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="f6838-126">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f6838-126">Minimum supported client</span></span><br/> | <span data-ttu-id="f6838-127">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f6838-127">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                 |
-| <span data-ttu-id="f6838-128">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f6838-128">Minimum supported server</span></span><br/> | <span data-ttu-id="f6838-129">都不支援</span><span class="sxs-lookup"><span data-stu-id="f6838-129">None supported</span></span><br/>                                                                                     |
-| <span data-ttu-id="f6838-130">標頭</span><span class="sxs-lookup"><span data-stu-id="f6838-130">Header</span></span><br/>                   | <dl> <span data-ttu-id="f6838-131"><dt>IACom (也需要 IACom \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="f6838-131"><dt>IACom.h (also requires IACom\_i.c)</dt></span></span> </dl> |
-| <span data-ttu-id="f6838-132">DLL</span><span class="sxs-lookup"><span data-stu-id="f6838-132">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f6838-133"><dt>IACom.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f6838-133"><dt>IACom.dll</dt></span></span> </dl>                          |
+| <span data-ttu-id="67d97-126">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="67d97-126">Minimum supported client</span></span><br/> | <span data-ttu-id="67d97-127">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="67d97-127">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                 |
+| <span data-ttu-id="67d97-128">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="67d97-128">Minimum supported server</span></span><br/> | <span data-ttu-id="67d97-129">都不支援</span><span class="sxs-lookup"><span data-stu-id="67d97-129">None supported</span></span><br/>                                                                                     |
+| <span data-ttu-id="67d97-130">標頭</span><span class="sxs-lookup"><span data-stu-id="67d97-130">Header</span></span><br/>                   | <dl> <span data-ttu-id="67d97-131"><dt>IACom (也需要 IACom \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="67d97-131"><dt>IACom.h (also requires IACom\_i.c)</dt></span></span> </dl> |
+| <span data-ttu-id="67d97-132">DLL</span><span class="sxs-lookup"><span data-stu-id="67d97-132">DLL</span></span><br/>                      | <dl> <span data-ttu-id="67d97-133"><dt>IACom.dll</dt></span><span class="sxs-lookup"><span data-stu-id="67d97-133"><dt>IACom.dll</dt></span></span> </dl>                          |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f6838-134">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f6838-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="67d97-134">另請參閱</span><span class="sxs-lookup"><span data-stu-id="67d97-134">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f6838-135">**IInkAnalyzer**</span><span class="sxs-lookup"><span data-stu-id="f6838-135">**IInkAnalyzer**</span></span>](iinkanalyzer.md)
+[<span data-ttu-id="67d97-135">**IInkAnalyzer**</span><span class="sxs-lookup"><span data-stu-id="67d97-135">**IInkAnalyzer**</span></span>](iinkanalyzer.md)
 </dt> <dt>
 
-[<span data-ttu-id="f6838-136">**IInkAnalyzer：： FindInkLeafNodes 方法**</span><span class="sxs-lookup"><span data-stu-id="f6838-136">**IInkAnalyzer::FindInkLeafNodes Method**</span></span>](iinkanalyzer-findinkleafnodes.md)
+[<span data-ttu-id="67d97-136">**IInkAnalyzer：： FindInkLeafNodes 方法**</span><span class="sxs-lookup"><span data-stu-id="67d97-136">**IInkAnalyzer::FindInkLeafNodes Method**</span></span>](iinkanalyzer-findinkleafnodes.md)
 </dt> <dt>
 
-[<span data-ttu-id="f6838-137">**IInkAnalyzer：： FindLeafNodes 方法**</span><span class="sxs-lookup"><span data-stu-id="f6838-137">**IInkAnalyzer::FindLeafNodes Method**</span></span>](iinkanalyzer-findleafnodes.md)
+[<span data-ttu-id="67d97-137">**IInkAnalyzer：： FindLeafNodes 方法**</span><span class="sxs-lookup"><span data-stu-id="67d97-137">**IInkAnalyzer::FindLeafNodes Method**</span></span>](iinkanalyzer-findleafnodes.md)
 </dt> <dt>
 
-[<span data-ttu-id="f6838-138">**IInkAnalyzer：： FindNode 方法**</span><span class="sxs-lookup"><span data-stu-id="f6838-138">**IInkAnalyzer::FindNode Method**</span></span>](iinkanalyzer-findnode.md)
+[<span data-ttu-id="67d97-138">**IInkAnalyzer：： FindNode 方法**</span><span class="sxs-lookup"><span data-stu-id="67d97-138">**IInkAnalyzer::FindNode Method**</span></span>](iinkanalyzer-findnode.md)
 </dt> <dt>
 
-[<span data-ttu-id="f6838-139">**IInkAnalyzer：： FindNodesOfType 方法**</span><span class="sxs-lookup"><span data-stu-id="f6838-139">**IInkAnalyzer::FindNodesOfType Method**</span></span>](iinkanalyzer-findnodesoftype.md)
+[<span data-ttu-id="67d97-139">**IInkAnalyzer：： FindNodesOfType 方法**</span><span class="sxs-lookup"><span data-stu-id="67d97-139">**IInkAnalyzer::FindNodesOfType Method**</span></span>](iinkanalyzer-findnodesoftype.md)
 </dt> <dt>
 
-[<span data-ttu-id="f6838-140">**IInkAnalyzer：： FindNodesOfTypeForStrokes 方法**</span><span class="sxs-lookup"><span data-stu-id="f6838-140">**IInkAnalyzer::FindNodesOfTypeForStrokes Method**</span></span>](iinkanalyzer-findnodesoftypeforstrokes.md)
+[<span data-ttu-id="67d97-140">**IInkAnalyzer：： FindNodesOfTypeForStrokes 方法**</span><span class="sxs-lookup"><span data-stu-id="67d97-140">**IInkAnalyzer::FindNodesOfTypeForStrokes Method**</span></span>](iinkanalyzer-findnodesoftypeforstrokes.md)
 </dt> <dt>
 
-[<span data-ttu-id="f6838-141">**IInkAnalyzer：： FindNodesOfTypeInSubTree 方法**</span><span class="sxs-lookup"><span data-stu-id="f6838-141">**IInkAnalyzer::FindNodesOfTypeInSubTree Method**</span></span>](iinkanalyzer-findnodesoftypeinsubtree.md)
+[<span data-ttu-id="67d97-141">**IInkAnalyzer：： FindNodesOfTypeInSubTree 方法**</span><span class="sxs-lookup"><span data-stu-id="67d97-141">**IInkAnalyzer::FindNodesOfTypeInSubTree Method**</span></span>](iinkanalyzer-findnodesoftypeinsubtree.md)
 </dt> <dt>
 
-[<span data-ttu-id="f6838-142">**IInkAnalyzer：： FindNodesWithCallBack 方法**</span><span class="sxs-lookup"><span data-stu-id="f6838-142">**IInkAnalyzer::FindNodesWithCallBack Method**</span></span>](iinkanalyzer-findnodeswithcallback.md)
+[<span data-ttu-id="67d97-142">**IInkAnalyzer：： FindNodesWithCallBack 方法**</span><span class="sxs-lookup"><span data-stu-id="67d97-142">**IInkAnalyzer::FindNodesWithCallBack Method**</span></span>](iinkanalyzer-findnodeswithcallback.md)
 </dt> <dt>
 
-[<span data-ttu-id="f6838-143">**IInkAnalyzer：： FindNodesWithCallBackInSubTree 方法**</span><span class="sxs-lookup"><span data-stu-id="f6838-143">**IInkAnalyzer::FindNodesWithCallBackInSubTree Method**</span></span>](iinkanalyzer-findnodeswithcallbackinsubtree.md)
+[<span data-ttu-id="67d97-143">**IInkAnalyzer：： FindNodesWithCallBackInSubTree 方法**</span><span class="sxs-lookup"><span data-stu-id="67d97-143">**IInkAnalyzer::FindNodesWithCallBackInSubTree Method**</span></span>](iinkanalyzer-findnodeswithcallbackinsubtree.md)
 </dt> <dt>
 
-[<span data-ttu-id="f6838-144">筆跡分析參考</span><span class="sxs-lookup"><span data-stu-id="f6838-144">Ink Analysis Reference</span></span>](ink-analysis-reference.md)
+[<span data-ttu-id="67d97-144">筆跡分析參考</span><span class="sxs-lookup"><span data-stu-id="67d97-144">Ink Analysis Reference</span></span>](ink-analysis-reference.md)
 </dt> </dl>
 
  

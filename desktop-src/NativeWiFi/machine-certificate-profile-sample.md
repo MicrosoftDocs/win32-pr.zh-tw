@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849141"
 ---
-# <a name="machine-certificate-profile-sample"></a><span data-ttu-id="eafe0-103">電腦憑證設定檔範例</span><span class="sxs-lookup"><span data-stu-id="eafe0-103">Machine Certificate Profile Sample</span></span>
+# <a name="machine-certificate-profile-sample"></a><span data-ttu-id="6f4d1-103">電腦憑證設定檔範例</span><span class="sxs-lookup"><span data-stu-id="6f4d1-103">Machine Certificate Profile Sample</span></span>
 
-<span data-ttu-id="eafe0-104">此設定檔範例示範用來連線到網路的有線網路設定檔，該網路使用可延伸的驗證通訊協定傳輸層級安全性 (EAP-TLS) 儲存在本機電腦上以進行 802.1 X 驗證的憑證。</span><span class="sxs-lookup"><span data-stu-id="eafe0-104">This profile sample shows a wired network profile used to connect to a network that uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) certificates stored on the local machine for 802.1X authentication.</span></span> <span data-ttu-id="eafe0-105">若要查看使用儲存在智慧卡上之 EAP-TLS 憑證的設定檔，請參閱 [智慧卡憑證範例設定檔](smart-card-certificate-profile-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="eafe0-105">To see a profile that uses EAP-TLS certificates stored on a smart card, see [Smart Card Certificate Sample Profile](smart-card-certificate-profile-sample.md).</span></span>
+<span data-ttu-id="6f4d1-104">此設定檔範例示範用來連線到網路的有線網路設定檔，該網路使用可延伸的驗證通訊協定傳輸層級安全性 (EAP-TLS) 儲存在本機電腦上以進行 802.1 X 驗證的憑證。</span><span class="sxs-lookup"><span data-stu-id="6f4d1-104">This profile sample shows a wired network profile used to connect to a network that uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) certificates stored on the local machine for 802.1X authentication.</span></span> <span data-ttu-id="6f4d1-105">若要查看使用儲存在智慧卡上之 EAP-TLS 憑證的設定檔，請參閱 [智慧卡憑證範例設定檔](smart-card-certificate-profile-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="6f4d1-105">To see a profile that uses EAP-TLS certificates stored on a smart card, see [Smart Card Certificate Sample Profile](smart-card-certificate-profile-sample.md).</span></span>
 
-<span data-ttu-id="eafe0-106">此無線設定檔範例中使用的 EAPHost 設定衍生自 [eap-tls 連線屬性](../eaphost/eap-tls-connection-properties.md) 範例。</span><span class="sxs-lookup"><span data-stu-id="eafe0-106">The EAPHost configuration used in this wireless profile sample was derived from the [EAP-TLS Connection Properties](../eaphost/eap-tls-connection-properties.md) sample.</span></span>
+<span data-ttu-id="6f4d1-106">此無線設定檔範例中使用的 EAPHost 設定衍生自 [eap-tls 連線屬性](../eaphost/eap-tls-connection-properties.md) 範例。</span><span class="sxs-lookup"><span data-stu-id="6f4d1-106">The EAPHost configuration used in this wireless profile sample was derived from the [EAP-TLS Connection Properties](../eaphost/eap-tls-connection-properties.md) sample.</span></span>
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
@@ -59,11 +59,11 @@ ms.locfileid: "103849141"
 </LANProfile>
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="eafe0-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="eafe0-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6f4d1-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="6f4d1-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="eafe0-108">有線設定檔範例</span><span class="sxs-lookup"><span data-stu-id="eafe0-108">Wired Profile Samples</span></span>](wired-profile-samples.md)
+[<span data-ttu-id="6f4d1-108">有線設定檔範例</span><span class="sxs-lookup"><span data-stu-id="6f4d1-108">Wired Profile Samples</span></span>](wired-profile-samples.md)
 </dt> </dl>
 
  

@@ -13,16 +13,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695160"
 ---
-# <a name="n-wmi"></a><span data-ttu-id="72964-103">N (WMI) </span><span class="sxs-lookup"><span data-stu-id="72964-103">N (WMI)</span></span>
+# <a name="n-wmi"></a><span data-ttu-id="891fb-103">N (WMI) </span><span class="sxs-lookup"><span data-stu-id="891fb-103">N (WMI)</span></span>
 
-<span data-ttu-id="72964-104">[B](gloss-a.md) [C](gloss-c.md) [D](gloss-d.md) [E](gloss-e.md) [F](gloss-f.md) G [H](gloss-h.md) [I](gloss-i.md) J [K](gloss-k.md) [L](gloss-l.md) [M](gloss-m.md) N [O](gloss-o.md) [P](gloss-p.md) [Q](gloss-q.md) [R](gloss-r.md) [S](gloss-s.md) [T](gloss-t.md) [W](gloss-w.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="72964-104">[A](gloss-a.md) B [C](gloss-c.md) [D](gloss-d.md) [E](gloss-e.md) [F](gloss-f.md) G [H](gloss-h.md) [I](gloss-i.md) J [K](gloss-k.md) [L](gloss-l.md) [M](gloss-m.md) N [O](gloss-o.md) [P](gloss-p.md) [Q](gloss-q.md) [R](gloss-r.md) [S](gloss-s.md) [T](gloss-t.md) U V [W](gloss-w.md) X Y Z</span></span>
+<span data-ttu-id="891fb-104">[B](gloss-a.md) [C](gloss-c.md) [D](gloss-d.md) [E](gloss-e.md) [F](gloss-f.md) G [H](gloss-h.md) [I](gloss-i.md) J [K](gloss-k.md) [L](gloss-l.md) [M](gloss-m.md) N [O](gloss-o.md) [P](gloss-p.md) [Q](gloss-q.md) [R](gloss-r.md) [S](gloss-s.md) [T](gloss-t.md) [W](gloss-w.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="891fb-104">[A](gloss-a.md) B [C](gloss-c.md) [D](gloss-d.md) [E](gloss-e.md) [F](gloss-f.md) G [H](gloss-h.md) [I](gloss-i.md) J [K](gloss-k.md) [L](gloss-l.md) [M](gloss-m.md) N [O](gloss-o.md) [P](gloss-p.md) [Q](gloss-q.md) [R](gloss-r.md) [S](gloss-s.md) [T](gloss-t.md) U V [W](gloss-w.md) X Y Z</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="72964-105"><span id="wmi.gloss_namespace"></span><span id="WMI.GLOSS_NAMESPACE"></span>**命名 空間**</span><span class="sxs-lookup"><span data-stu-id="72964-105"><span id="wmi.gloss_namespace"></span><span id="WMI.GLOSS_NAMESPACE"></span>**namespace**</span></span>
+<span data-ttu-id="891fb-105"><span id="wmi.gloss_namespace"></span><span id="WMI.GLOSS_NAMESPACE"></span>**命名 空間**</span><span class="sxs-lookup"><span data-stu-id="891fb-105"><span id="wmi.gloss_namespace"></span><span id="WMI.GLOSS_NAMESPACE"></span>**namespace**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="72964-106">類別和實例的分類，可用來控制其範圍和可見度。</span><span class="sxs-lookup"><span data-stu-id="72964-106">A categorization of classes and instances used to control their scope and visibility.</span></span> <span data-ttu-id="72964-107">命名空間不是實體位置。</span><span class="sxs-lookup"><span data-stu-id="72964-107">Namespaces are not physical locations.</span></span> <span data-ttu-id="72964-108">它們更像包含特定類別和實例的邏輯資料庫。</span><span class="sxs-lookup"><span data-stu-id="72964-108">They are more like logical databases containing specific classes and instances.</span></span> <span data-ttu-id="72964-109">命名空間是以 [**\_ \_ 命名空間**](--namespace.md)系統類別或衍生自它的類別來表示。</span><span class="sxs-lookup"><span data-stu-id="72964-109">Namespaces are represented by the [**\_\_Namespace**](--namespace.md) system class or a class derived from it.</span></span>
+<span data-ttu-id="891fb-106">類別和實例的分類，可用來控制其範圍和可見度。</span><span class="sxs-lookup"><span data-stu-id="891fb-106">A categorization of classes and instances used to control their scope and visibility.</span></span> <span data-ttu-id="891fb-107">命名空間不是實體位置。</span><span class="sxs-lookup"><span data-stu-id="891fb-107">Namespaces are not physical locations.</span></span> <span data-ttu-id="891fb-108">它們更像包含特定類別和實例的邏輯資料庫。</span><span class="sxs-lookup"><span data-stu-id="891fb-108">They are more like logical databases containing specific classes and instances.</span></span> <span data-ttu-id="891fb-109">命名空間是以 [**\_ \_ 命名空間**](--namespace.md)系統類別或衍生自它的類別來表示。</span><span class="sxs-lookup"><span data-stu-id="891fb-109">Namespaces are represented by the [**\_\_Namespace**](--namespace.md) system class or a class derived from it.</span></span>
 
 </dd> </dl>
 

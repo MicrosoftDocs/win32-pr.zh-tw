@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943739"
 ---
-# <a name="instanceparameterseventsourcekey-property"></a><span data-ttu-id="0ad49-103">InstanceParameters. EventSourceKey 屬性</span><span class="sxs-lookup"><span data-stu-id="0ad49-103">InstanceParameters.EventSourceKey property</span></span>
+# <a name="instanceparameterseventsourcekey-property"></a><span data-ttu-id="e22b2-103">InstanceParameters. EventSourceKey 屬性</span><span class="sxs-lookup"><span data-stu-id="e22b2-103">InstanceParameters.EventSourceKey property</span></span>
 
-<span data-ttu-id="0ad49-104">取得或設定資料庫引擎為其事件記錄檔訊息所使用的事件記錄檔名稱。</span><span class="sxs-lookup"><span data-stu-id="0ad49-104">Gets or sets the name of the event log the database engine uses for its event log messages.</span></span> <span data-ttu-id="0ad49-105">依預設，所有事件記錄檔訊息都會移至應用程式事件記錄檔。</span><span class="sxs-lookup"><span data-stu-id="0ad49-105">By default, all event log messages will go to the Application event log.</span></span> <span data-ttu-id="0ad49-106">如果已設定另一個事件記錄檔的登錄機碼名稱，則會改為將事件記錄檔訊息移至該處。</span><span class="sxs-lookup"><span data-stu-id="0ad49-106">If the registry key name for another event log is configured then the event log messages will go there instead.</span></span>
+<span data-ttu-id="e22b2-104">取得或設定資料庫引擎為其事件記錄檔訊息所使用的事件記錄檔名稱。</span><span class="sxs-lookup"><span data-stu-id="e22b2-104">Gets or sets the name of the event log the database engine uses for its event log messages.</span></span> <span data-ttu-id="e22b2-105">依預設，所有事件記錄檔訊息都會移至應用程式事件記錄檔。</span><span class="sxs-lookup"><span data-stu-id="e22b2-105">By default, all event log messages will go to the Application event log.</span></span> <span data-ttu-id="e22b2-106">如果已設定另一個事件記錄檔的登錄機碼名稱，則會改為將事件記錄檔訊息移至該處。</span><span class="sxs-lookup"><span data-stu-id="e22b2-106">If the registry key name for another event log is configured then the event log messages will go there instead.</span></span>
 
-<span data-ttu-id="0ad49-107">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="0ad49-107">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="0ad49-108">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="0ad49-108">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="e22b2-107">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="e22b2-107">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="e22b2-108">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="e22b2-108">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0ad49-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="0ad49-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e22b2-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="e22b2-109">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.EventSourceKey = value
 public string EventSourceKey { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="0ad49-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="0ad49-110">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="e22b2-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="e22b2-110">Property value</span></span>
 
-<span data-ttu-id="0ad49-111">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="0ad49-111">Type: [System.String](/dotnet/api/system.string)</span></span>  
+<span data-ttu-id="e22b2-111">類型： [system.string](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="e22b2-111">Type: [System.String](/dotnet/api/system.string)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="0ad49-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0ad49-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e22b2-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e22b2-112">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="0ad49-113">參考</span><span class="sxs-lookup"><span data-stu-id="0ad49-113">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="e22b2-113">參考</span><span class="sxs-lookup"><span data-stu-id="e22b2-113">Reference</span></span>
 
-[<span data-ttu-id="0ad49-114">InstanceParameters 類別</span><span class="sxs-lookup"><span data-stu-id="0ad49-114">InstanceParameters class</span></span>](./instanceparameters-class.md)
+[<span data-ttu-id="e22b2-114">InstanceParameters 類別</span><span class="sxs-lookup"><span data-stu-id="e22b2-114">InstanceParameters class</span></span>](./instanceparameters-class.md)
 
-[<span data-ttu-id="0ad49-115">InstanceParameters 成員</span><span class="sxs-lookup"><span data-stu-id="0ad49-115">InstanceParameters members</span></span>](./instanceparameters-members.md)
+[<span data-ttu-id="e22b2-115">InstanceParameters 成員</span><span class="sxs-lookup"><span data-stu-id="e22b2-115">InstanceParameters members</span></span>](./instanceparameters-members.md)
 
-[<span data-ttu-id="0ad49-116">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="0ad49-116">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="e22b2-116">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="e22b2-116">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

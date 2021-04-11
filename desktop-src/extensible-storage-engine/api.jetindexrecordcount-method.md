@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694927"
 ---
-# <a name="apijetindexrecordcount-method"></a><span data-ttu-id="a4351-103">JetIndexRecordCount 方法</span><span class="sxs-lookup"><span data-stu-id="a4351-103">Api.JetIndexRecordCount method</span></span>
+# <a name="apijetindexrecordcount-method"></a><span data-ttu-id="4763d-103">JetIndexRecordCount 方法</span><span class="sxs-lookup"><span data-stu-id="4763d-103">Api.JetIndexRecordCount method</span></span>
 
-<span data-ttu-id="a4351-104">計算目前索引中的專案數，從目前的位置向前算。</span><span class="sxs-lookup"><span data-stu-id="a4351-104">Counts the number of entries in the current index from the current position forward.</span></span> <span data-ttu-id="a4351-105">目前的位置會包含在計數中。</span><span class="sxs-lookup"><span data-stu-id="a4351-105">The current position is included in the count.</span></span> <span data-ttu-id="a4351-106">如果目前索引超過多重值資料行，而且資料行的實例具有多個值，則計數可以大於資料表中的記錄總數。</span><span class="sxs-lookup"><span data-stu-id="a4351-106">The count can be greater than the total number of records in the table if the current index is over a multi-valued column and instances of the column have multiple-values.</span></span> <span data-ttu-id="a4351-107">如果資料表是空的，則會傳回計數的0。</span><span class="sxs-lookup"><span data-stu-id="a4351-107">If the table is empty, then 0 will be returned for the count.</span></span>
+<span data-ttu-id="4763d-104">計算目前索引中的專案數，從目前的位置向前算。</span><span class="sxs-lookup"><span data-stu-id="4763d-104">Counts the number of entries in the current index from the current position forward.</span></span> <span data-ttu-id="4763d-105">目前的位置會包含在計數中。</span><span class="sxs-lookup"><span data-stu-id="4763d-105">The current position is included in the count.</span></span> <span data-ttu-id="4763d-106">如果目前索引超過多重值資料行，而且資料行的實例具有多個值，則計數可以大於資料表中的記錄總數。</span><span class="sxs-lookup"><span data-stu-id="4763d-106">The count can be greater than the total number of records in the table if the current index is over a multi-valued column and instances of the column have multiple-values.</span></span> <span data-ttu-id="4763d-107">如果資料表是空的，則會傳回計數的0。</span><span class="sxs-lookup"><span data-stu-id="4763d-107">If the table is empty, then 0 will be returned for the count.</span></span>
 
-<span data-ttu-id="a4351-108">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="a4351-108">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="a4351-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="a4351-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="4763d-108">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="4763d-108">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="4763d-109">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="4763d-109">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a4351-110">語法</span><span class="sxs-lookup"><span data-stu-id="a4351-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4763d-110">語法</span><span class="sxs-lookup"><span data-stu-id="4763d-110">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -65,40 +65,40 @@ public static void JetIndexRecordCount(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="a4351-111">參數</span><span class="sxs-lookup"><span data-stu-id="a4351-111">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="4763d-111">參數</span><span class="sxs-lookup"><span data-stu-id="4763d-111">Parameters</span></span>
 
-  - <span data-ttu-id="a4351-112">sesid</span><span class="sxs-lookup"><span data-stu-id="a4351-112">sesid</span></span>  
-    <span data-ttu-id="a4351-113">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="a4351-113">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="4763d-112">sesid</span><span class="sxs-lookup"><span data-stu-id="4763d-112">sesid</span></span>  
+    <span data-ttu-id="4763d-113">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="4763d-113">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="a4351-114">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="a4351-114">The session to use.</span></span>
+    <span data-ttu-id="4763d-114">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="4763d-114">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="a4351-115">tableid</span><span class="sxs-lookup"><span data-stu-id="a4351-115">tableid</span></span>  
-    <span data-ttu-id="a4351-116">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="a4351-116">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="4763d-115">tableid</span><span class="sxs-lookup"><span data-stu-id="4763d-115">tableid</span></span>  
+    <span data-ttu-id="4763d-116">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="4763d-116">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="a4351-117">要計算記錄的資料指標。</span><span class="sxs-lookup"><span data-stu-id="a4351-117">The cursor to count the records in.</span></span>
+    <span data-ttu-id="4763d-117">要計算記錄的資料指標。</span><span class="sxs-lookup"><span data-stu-id="4763d-117">The cursor to count the records in.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="a4351-118">numRecords</span><span class="sxs-lookup"><span data-stu-id="a4351-118">numRecords</span></span>  
-    <span data-ttu-id="a4351-119">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="a4351-119">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="4763d-118">numRecords</span><span class="sxs-lookup"><span data-stu-id="4763d-118">numRecords</span></span>  
+    <span data-ttu-id="4763d-119">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="4763d-119">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="a4351-120">傳回記錄的數目。</span><span class="sxs-lookup"><span data-stu-id="a4351-120">Returns the number of records.</span></span>
+    <span data-ttu-id="4763d-120">傳回記錄的數目。</span><span class="sxs-lookup"><span data-stu-id="4763d-120">Returns the number of records.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="a4351-121">maxRecordsToCount</span><span class="sxs-lookup"><span data-stu-id="a4351-121">maxRecordsToCount</span></span>  
-    <span data-ttu-id="a4351-122">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="a4351-122">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="4763d-121">maxRecordsToCount</span><span class="sxs-lookup"><span data-stu-id="4763d-121">maxRecordsToCount</span></span>  
+    <span data-ttu-id="4763d-122">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="4763d-122">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="a4351-123">要計算的記錄數目上限。</span><span class="sxs-lookup"><span data-stu-id="a4351-123">The maximum number of records to count.</span></span> <span data-ttu-id="a4351-124">值為0表示計數是無限制的。</span><span class="sxs-lookup"><span data-stu-id="a4351-124">A value of 0 indicates that the count is unlimited.</span></span>
+    <span data-ttu-id="4763d-123">要計算的記錄數目上限。</span><span class="sxs-lookup"><span data-stu-id="4763d-123">The maximum number of records to count.</span></span> <span data-ttu-id="4763d-124">值為0表示計數是無限制的。</span><span class="sxs-lookup"><span data-stu-id="4763d-124">A value of 0 indicates that the count is unlimited.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a4351-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a4351-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4763d-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4763d-125">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="a4351-126">參考</span><span class="sxs-lookup"><span data-stu-id="a4351-126">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="4763d-126">參考</span><span class="sxs-lookup"><span data-stu-id="4763d-126">Reference</span></span>
 
-[<span data-ttu-id="a4351-127">Api 類別</span><span class="sxs-lookup"><span data-stu-id="a4351-127">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="4763d-127">Api 類別</span><span class="sxs-lookup"><span data-stu-id="4763d-127">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="a4351-128">Api 成員</span><span class="sxs-lookup"><span data-stu-id="a4351-128">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="4763d-128">Api 成員</span><span class="sxs-lookup"><span data-stu-id="4763d-128">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="a4351-129">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="a4351-129">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="4763d-129">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="4763d-129">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

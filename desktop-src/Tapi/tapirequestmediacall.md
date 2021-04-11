@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/03/2021
 ms.locfileid: "103696289"
 ---
-# <a name="tapirequestmediacall"></a><span data-ttu-id="12683-104">tapiRequestMediaCall</span><span class="sxs-lookup"><span data-stu-id="12683-104">tapiRequestMediaCall</span></span>
+# <a name="tapirequestmediacall"></a><span data-ttu-id="0a66b-104">tapiRequestMediaCall</span><span class="sxs-lookup"><span data-stu-id="0a66b-104">tapiRequestMediaCall</span></span>
 
-<span data-ttu-id="12683-105">**TapiRequestMediaCall** 函式永遠不會在任何版本的 TAPI 中執行。</span><span class="sxs-lookup"><span data-stu-id="12683-105">The **tapiRequestMediaCall** function was never implemented in any version of TAPI.</span></span> <span data-ttu-id="12683-106">此函式已過時，不應該使用。</span><span class="sxs-lookup"><span data-stu-id="12683-106">This function is obsolete and should not be used.</span></span>
+<span data-ttu-id="0a66b-105">**TapiRequestMediaCall** 函式永遠不會在任何版本的 TAPI 中執行。</span><span class="sxs-lookup"><span data-stu-id="0a66b-105">The **tapiRequestMediaCall** function was never implemented in any version of TAPI.</span></span> <span data-ttu-id="0a66b-106">此函式已過時，不應該使用。</span><span class="sxs-lookup"><span data-stu-id="0a66b-106">This function is obsolete and should not be used.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="12683-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="12683-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="0a66b-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="0a66b-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="12683-108">TAPI 2.2 參考總覽</span><span class="sxs-lookup"><span data-stu-id="12683-108">TAPI 2.2 Reference Overview</span></span>](tapi-2-2-reference.md)
+[<span data-ttu-id="0a66b-108">TAPI 2.2 參考總覽</span><span class="sxs-lookup"><span data-stu-id="0a66b-108">TAPI 2.2 Reference Overview</span></span>](tapi-2-2-reference.md)
 </dt> </dl>
 
  

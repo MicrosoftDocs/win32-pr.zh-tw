@@ -28,9 +28,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104022070"
 ---
-# <a name="create-content-key-example"></a><span data-ttu-id="533d3-119">建立內容金鑰範例</span><span class="sxs-lookup"><span data-stu-id="533d3-119">Create Content Key Example</span></span>
+# <a name="create-content-key-example"></a><span data-ttu-id="18bd3-119">建立內容金鑰範例</span><span class="sxs-lookup"><span data-stu-id="18bd3-119">Create Content Key Example</span></span>
 
-<span data-ttu-id="533d3-120">內容金鑰是用來加密 Windows Media DRM 匯入的媒體範例。</span><span class="sxs-lookup"><span data-stu-id="533d3-120">The content key is used to encrypt media samples for Windows Media DRM Import.</span></span> <span data-ttu-id="533d3-121">下列程式碼範例示範如何建立及初始化內容金鑰結構。</span><span class="sxs-lookup"><span data-stu-id="533d3-121">The following code example demonstrates how to create and initialize a content key structure.</span></span>
+<span data-ttu-id="18bd3-120">內容金鑰是用來加密 Windows Media DRM 匯入的媒體範例。</span><span class="sxs-lookup"><span data-stu-id="18bd3-120">The content key is used to encrypt media samples for Windows Media DRM Import.</span></span> <span data-ttu-id="18bd3-121">下列程式碼範例示範如何建立及初始化內容金鑰結構。</span><span class="sxs-lookup"><span data-stu-id="18bd3-121">The following code example demonstrates how to create and initialize a content key structure.</span></span>
 
 
 ```C++
@@ -112,11 +112,11 @@ EXIT:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="533d3-122">相關主題</span><span class="sxs-lookup"><span data-stu-id="533d3-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="18bd3-122">相關主題</span><span class="sxs-lookup"><span data-stu-id="18bd3-122">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="533d3-123">**DRM 匯入範例**</span><span class="sxs-lookup"><span data-stu-id="533d3-123">**DRM Import Examples**</span></span>](drm-import-examples.md)
+[<span data-ttu-id="18bd3-123">**DRM 匯入範例**</span><span class="sxs-lookup"><span data-stu-id="18bd3-123">**DRM Import Examples**</span></span>](drm-import-examples.md)
 </dt> </dl>
 
  

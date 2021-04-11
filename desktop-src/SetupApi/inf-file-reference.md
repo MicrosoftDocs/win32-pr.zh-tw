@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103693220"
 ---
-# <a name="inf-file-reference"></a><span data-ttu-id="59c54-103">INF 檔案參考</span><span class="sxs-lookup"><span data-stu-id="59c54-103">INF File Reference</span></span>
+# <a name="inf-file-reference"></a><span data-ttu-id="14ce1-103">INF 檔案參考</span><span class="sxs-lookup"><span data-stu-id="14ce1-103">INF File Reference</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="59c54-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="59c54-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="14ce1-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="14ce1-104">In this section</span></span>
 
--   [<span data-ttu-id="59c54-105">INF 檔案設定函數</span><span class="sxs-lookup"><span data-stu-id="59c54-105">INF File Setup Functions</span></span>](inf-file-setup-functions.md)
--   [<span data-ttu-id="59c54-106">INF 檔案的控制碼</span><span class="sxs-lookup"><span data-stu-id="59c54-106">Handle to an INF File</span></span>](handle-to-an-inf-file.md)
--   [<span data-ttu-id="59c54-107">INF 檔案結構</span><span class="sxs-lookup"><span data-stu-id="59c54-107">INF File Structures</span></span>](inf-file-structures.md)
--   [<span data-ttu-id="59c54-108">INF 檔案通知</span><span class="sxs-lookup"><span data-stu-id="59c54-108">INF File Notifications</span></span>](inf-file-notifications.md)
+-   [<span data-ttu-id="14ce1-105">INF 檔案設定函數</span><span class="sxs-lookup"><span data-stu-id="14ce1-105">INF File Setup Functions</span></span>](inf-file-setup-functions.md)
+-   [<span data-ttu-id="14ce1-106">INF 檔案的控制碼</span><span class="sxs-lookup"><span data-stu-id="14ce1-106">Handle to an INF File</span></span>](handle-to-an-inf-file.md)
+-   [<span data-ttu-id="14ce1-107">INF 檔案結構</span><span class="sxs-lookup"><span data-stu-id="14ce1-107">INF File Structures</span></span>](inf-file-structures.md)
+-   [<span data-ttu-id="14ce1-108">INF 檔案通知</span><span class="sxs-lookup"><span data-stu-id="14ce1-108">INF File Notifications</span></span>](inf-file-notifications.md)
 
  
 

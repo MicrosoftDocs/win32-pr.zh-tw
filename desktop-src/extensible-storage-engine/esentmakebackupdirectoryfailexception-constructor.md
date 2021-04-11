@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103692692"
 ---
-# <a name="esentmakebackupdirectoryfailexception-constructor"></a><span data-ttu-id="dbbf9-103">EsentMakeBackupDirectoryFailException 函式</span><span class="sxs-lookup"><span data-stu-id="dbbf9-103">EsentMakeBackupDirectoryFailException constructor</span></span>
+# <a name="esentmakebackupdirectoryfailexception-constructor"></a><span data-ttu-id="6a2d6-103">EsentMakeBackupDirectoryFailException 函式</span><span class="sxs-lookup"><span data-stu-id="6a2d6-103">EsentMakeBackupDirectoryFailException constructor</span></span>
 
-<span data-ttu-id="dbbf9-104">初始化 EsentMakeBackupDirectoryFailException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="dbbf9-104">Initializes a new instance of the EsentMakeBackupDirectoryFailException class.</span></span>
+<span data-ttu-id="6a2d6-104">初始化 EsentMakeBackupDirectoryFailException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="6a2d6-104">Initializes a new instance of the EsentMakeBackupDirectoryFailException class.</span></span>
 
-<span data-ttu-id="dbbf9-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="dbbf9-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="dbbf9-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="dbbf9-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="6a2d6-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6a2d6-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="6a2d6-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6a2d6-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="dbbf9-107">語法</span><span class="sxs-lookup"><span data-stu-id="dbbf9-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6a2d6-107">語法</span><span class="sxs-lookup"><span data-stu-id="6a2d6-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentMakeBackupDirectoryFailException()
 public EsentMakeBackupDirectoryFailException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="dbbf9-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="dbbf9-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6a2d6-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6a2d6-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="dbbf9-109">參考</span><span class="sxs-lookup"><span data-stu-id="dbbf9-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="6a2d6-109">參考</span><span class="sxs-lookup"><span data-stu-id="6a2d6-109">Reference</span></span>
 
-[<span data-ttu-id="dbbf9-110">EsentMakeBackupDirectoryFailException 類別</span><span class="sxs-lookup"><span data-stu-id="dbbf9-110">EsentMakeBackupDirectoryFailException class</span></span>](./esentmakebackupdirectoryfailexception-class.md)
+[<span data-ttu-id="6a2d6-110">EsentMakeBackupDirectoryFailException 類別</span><span class="sxs-lookup"><span data-stu-id="6a2d6-110">EsentMakeBackupDirectoryFailException class</span></span>](./esentmakebackupdirectoryfailexception-class.md)
 
-[<span data-ttu-id="dbbf9-111">EsentMakeBackupDirectoryFailException 成員</span><span class="sxs-lookup"><span data-stu-id="dbbf9-111">EsentMakeBackupDirectoryFailException members</span></span>](./esentmakebackupdirectoryfailexception-members.md)
+[<span data-ttu-id="6a2d6-111">EsentMakeBackupDirectoryFailException 成員</span><span class="sxs-lookup"><span data-stu-id="6a2d6-111">EsentMakeBackupDirectoryFailException members</span></span>](./esentmakebackupdirectoryfailexception-members.md)
 
-[<span data-ttu-id="dbbf9-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="dbbf9-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="6a2d6-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="6a2d6-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
