@@ -1,0 +1,29 @@
+---
+description: 映射裝置會以 Windows 影像取得 (WIA) 作為 WIA 專案物件的階層式樹狀結構， (IWiaItem 介面) 。
+ms.assetid: 5f3e56aa-8616-4574-882c-619caf54ca04
+title: 使用 WIA 裝置物件
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d1af755b243d322feac746620cb9dd9bd9965d1d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104113272"
+---
+# <a name="using-wia-device-objects"></a><span data-ttu-id="d941d-103">使用 WIA 裝置物件</span><span class="sxs-lookup"><span data-stu-id="d941d-103">Using WIA Device Objects</span></span>
+
+<span data-ttu-id="d941d-104">映射裝置會以 Windows 影像取得 (WIA) 作為 WIA 專案物件的階層式樹狀結構， ([**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) 介面) 。</span><span class="sxs-lookup"><span data-stu-id="d941d-104">An imaging device is represented in Windows Image Acquisition (WIA) as a hierarchical tree of WIA item objects ([**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) interfaces).</span></span> <span data-ttu-id="d941d-105">一般來說，這個專案樹狀結構的根目錄代表裝置本身，而樹狀結構上的其他專案則代表掃描器的影像、相機或掃描區域。</span><span class="sxs-lookup"><span data-stu-id="d941d-105">Typically, the root of this item tree represents the device itself, while the other items on the tree represent images, for a camera, or scanning regions, for a scanner.</span></span>
+
+<span data-ttu-id="d941d-106">應用程式會使用 WIA 裝置管理員來建立和列舉 WIA 裝置。</span><span class="sxs-lookup"><span data-stu-id="d941d-106">Applications use the WIA device manager to create and enumerate WIA devices.</span></span> <span data-ttu-id="d941d-107">下列各節說明如何建立和使用 WIA 裝置：</span><span class="sxs-lookup"><span data-stu-id="d941d-107">The following sections explain how to create and use WIA devices:</span></span>
+
+-   [<span data-ttu-id="d941d-108">選取裝置</span><span class="sxs-lookup"><span data-stu-id="d941d-108">Selecting a Device</span></span>](-wia-selecting-a-device.md)
+-   [<span data-ttu-id="d941d-109">WIA 攝影機裝置</span><span class="sxs-lookup"><span data-stu-id="d941d-109">WIA Camera Devices</span></span>](-wia-wia-camera-devices.md)
+-   [<span data-ttu-id="d941d-110">WIA 掃描器裝置</span><span class="sxs-lookup"><span data-stu-id="d941d-110">WIA Scanner Devices</span></span>](-wia-wia-scanner-devices.md)
+
+ 
+
+ 
+
+
+
