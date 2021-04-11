@@ -1,0 +1,27 @@
+---
+description: 設定音訊捕獲屬性
+ms.assetid: 81400072-91d7-4db4-86d3-d072663e691f
+title: 設定音訊捕獲屬性
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 31afe61d4641906391934bafe4c3acb8a911a9fe
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104187372"
+---
+# <a name="setting-audio-capture-properties"></a><span data-ttu-id="e9357-103">設定音訊捕獲屬性</span><span class="sxs-lookup"><span data-stu-id="e9357-103">Setting Audio Capture Properties</span></span>
+
+<span data-ttu-id="e9357-104">音訊捕獲篩選器上的每個輸入 pin 都會公開 [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer) 介面。</span><span class="sxs-lookup"><span data-stu-id="e9357-104">Each input pin on the Audio Capture Filter exposes the [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer) interface.</span></span> <span data-ttu-id="e9357-105">您可以使用此介面來啟用或停用特定的輸入，方法是呼叫釘選上的 [**IAMAudioInputMixer：:p ui \_ 啟用**](/windows/desktop/api/Strmif/nf-strmif-iamaudioinputmixer-put_enable) 方法。</span><span class="sxs-lookup"><span data-stu-id="e9357-105">Use this interface to enable or disable a particular input, by calling the [**IAMAudioInputMixer::put\_Enable**](/windows/desktop/api/Strmif/nf-strmif-iamaudioinputmixer-put_enable) method on the pin.</span></span> <span data-ttu-id="e9357-106">此外，也可以使用此介面來設定輸入的屬性，例如低音、高音和音量層級。</span><span class="sxs-lookup"><span data-stu-id="e9357-106">Also use this interface to set properties of an input, such as the bass, treble, and volume levels.</span></span> <span data-ttu-id="e9357-107">如果您要一次捕捉多個輸入，您可以透過篩選器本身的 **IAMAudioInputMixer** 介面，控制整體的低音、高音和音量層級。</span><span class="sxs-lookup"><span data-stu-id="e9357-107">If you are capturing multiple inputs at once, you can control the overall bass, treble, and volume levels through the **IAMAudioInputMixer** interface on the filter itself.</span></span>
+
+<span data-ttu-id="e9357-108">適用于 capture 的可用取樣率和音訊格式取決於驅動程式。</span><span class="sxs-lookup"><span data-stu-id="e9357-108">The available sampling rates and audio formats for capture are determined by the driver.</span></span> <span data-ttu-id="e9357-109">在音訊捕獲篩選器的輸出釘選上使用 [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) 介面，以列舉可用的取樣率和格式，並設定所需的格式。</span><span class="sxs-lookup"><span data-stu-id="e9357-109">Use the [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) interface on the Audio Capture Filter's output pin to enumerate the available sampling rates and formats and set the desired format.</span></span> <span data-ttu-id="e9357-110">篩選可將下游連接到任何接受輸出釘選媒體類型的篩選。</span><span class="sxs-lookup"><span data-stu-id="e9357-110">The filter can connect downstream to any filter that accepts the output pin's media type.</span></span>
+
+<span data-ttu-id="e9357-111">音訊捕獲篩選器也會公開 [**IAMBufferNegotiation**](/windows/desktop/api/Strmif/nn-strmif-iambuffernegotiation) 介面。</span><span class="sxs-lookup"><span data-stu-id="e9357-111">The Audio Capture Filter also exposes the [**IAMBufferNegotiation**](/windows/desktop/api/Strmif/nn-strmif-iambuffernegotiation) interface.</span></span> <span data-ttu-id="e9357-112">此介面適用于控制音訊預覽中的延遲量。</span><span class="sxs-lookup"><span data-stu-id="e9357-112">This interface is useful for controlling the amount of latency in audio preview.</span></span> <span data-ttu-id="e9357-113">根據預設，音訊捕獲篩選器會使用半秒的緩衝區大小。</span><span class="sxs-lookup"><span data-stu-id="e9357-113">By default, the Audio Capture filter uses a half-second buffer size.</span></span> <span data-ttu-id="e9357-114">此緩衝區大小最適合用於捕捉，但會導致半秒的預覽延遲。</span><span class="sxs-lookup"><span data-stu-id="e9357-114">This buffer size is optimal for capturing but causes a half-second preview delay.</span></span> <span data-ttu-id="e9357-115">若要減少延遲，請先呼叫 [**IAMBufferNegotiation：： SuggestAllocatorProperties**](/windows/desktop/api/Strmif/nf-strmif-iambuffernegotiation-suggestallocatorproperties) 方法，再連接音訊捕獲篩選器的輸出 pin。</span><span class="sxs-lookup"><span data-stu-id="e9357-115">To reduce the latency, call the [**IAMBufferNegotiation::SuggestAllocatorProperties**](/windows/desktop/api/Strmif/nf-strmif-iambuffernegotiation-suggestallocatorproperties) method before you connect the Audio Capture Filter's output pin.</span></span> <span data-ttu-id="e9357-116">這個方法會採用配置器 [**\_ 屬性**](/windows/win32/api/strmif/ns-strmif-allocator_properties) 結構的指標。</span><span class="sxs-lookup"><span data-stu-id="e9357-116">This method takes a pointer to the [**ALLOCATOR\_PROPERTIES**](/windows/win32/api/strmif/ns-strmif-allocator_properties) structure.</span></span> <span data-ttu-id="e9357-117">您可以使用 **cbBuffer** 成員來指定緩衝區大小（以位元組為單位）。</span><span class="sxs-lookup"><span data-stu-id="e9357-117">Use the **cbBuffer** member to specify the buffer size, in bytes.</span></span> <span data-ttu-id="e9357-118">80毫秒的緩衝區通常是安全的，但30或40毫秒的緩衝區可能已足夠。</span><span class="sxs-lookup"><span data-stu-id="e9357-118">An 80 millisecond buffer is generally safe, but buffers of 30 or 40 milliseconds might be sufficient.</span></span> <span data-ttu-id="e9357-119">如果緩衝區太小，則音效品質將會降低。</span><span class="sxs-lookup"><span data-stu-id="e9357-119">If the buffers are too small, the sound quality will be degraded.</span></span>
+
+ 
+
+ 
+
+
+

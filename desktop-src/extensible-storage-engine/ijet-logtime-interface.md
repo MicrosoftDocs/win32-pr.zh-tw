@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104114449"
 ---
-# <a name="ijet_logtime-interface"></a><span data-ttu-id="4d1c0-103">IJET_LOGTIME 介面</span><span class="sxs-lookup"><span data-stu-id="4d1c0-103">IJET_LOGTIME interface</span></span>
+# <a name="ijet_logtime-interface"></a><span data-ttu-id="fc9c2-103">IJET_LOGTIME 介面</span><span class="sxs-lookup"><span data-stu-id="fc9c2-103">IJET_LOGTIME interface</span></span>
 
-<span data-ttu-id="4d1c0-104">JET_LOGTIME 和 JET_BKLOGTIME 之間的通用方法介面。</span><span class="sxs-lookup"><span data-stu-id="4d1c0-104">Interface for common methods between JET_LOGTIME and JET_BKLOGTIME.</span></span>
+<span data-ttu-id="fc9c2-104">JET_LOGTIME 和 JET_BKLOGTIME 之間的通用方法介面。</span><span class="sxs-lookup"><span data-stu-id="fc9c2-104">Interface for common methods between JET_LOGTIME and JET_BKLOGTIME.</span></span>
 
-<span data-ttu-id="4d1c0-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="4d1c0-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="4d1c0-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="4d1c0-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="fc9c2-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="fc9c2-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="fc9c2-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="fc9c2-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4d1c0-107">語法</span><span class="sxs-lookup"><span data-stu-id="4d1c0-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fc9c2-107">語法</span><span class="sxs-lookup"><span data-stu-id="fc9c2-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,10 +52,10 @@ Dim instance As IJET_LOGTIME
 public interface IJET_LOGTIME : INullableJetStruct
 ```
 
-## <a name="see-also"></a><span data-ttu-id="4d1c0-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4d1c0-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc9c2-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fc9c2-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="4d1c0-109">參考</span><span class="sxs-lookup"><span data-stu-id="4d1c0-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="fc9c2-109">參考</span><span class="sxs-lookup"><span data-stu-id="fc9c2-109">Reference</span></span>
 
-[<span data-ttu-id="4d1c0-110">IJET_LOGTIME 成員</span><span class="sxs-lookup"><span data-stu-id="4d1c0-110">IJET_LOGTIME members</span></span>](./ijet-logtime-members.md)
+[<span data-ttu-id="fc9c2-110">IJET_LOGTIME 成員</span><span class="sxs-lookup"><span data-stu-id="fc9c2-110">IJET_LOGTIME members</span></span>](./ijet-logtime-members.md)
 
-[<span data-ttu-id="4d1c0-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="4d1c0-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="fc9c2-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="fc9c2-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

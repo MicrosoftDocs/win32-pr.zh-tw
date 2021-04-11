@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850763"
 ---
-# <a name="iwbembackuprestore-methods"></a><span data-ttu-id="0c301-103">IWbemBackupRestore 方法</span><span class="sxs-lookup"><span data-stu-id="0c301-103">IWbemBackupRestore Methods</span></span>
+# <a name="iwbembackuprestore-methods"></a><span data-ttu-id="c8e25-103">IWbemBackupRestore 方法</span><span class="sxs-lookup"><span data-stu-id="c8e25-103">IWbemBackupRestore Methods</span></span>
 
-<span data-ttu-id="0c301-104">[**IWbemBackupRestore**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbembackuprestore)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="0c301-104">The [**IWbemBackupRestore**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbembackuprestore) interface exposes the following methods.</span></span>
+<span data-ttu-id="c8e25-104">[**IWbemBackupRestore**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbembackuprestore)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="c8e25-104">The [**IWbemBackupRestore**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbembackuprestore) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="0c301-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0c301-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c8e25-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c8e25-105">In this section</span></span>
 
--   [<span data-ttu-id="0c301-106">**備份方法**</span><span class="sxs-lookup"><span data-stu-id="0c301-106">**Backup method**</span></span>](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-backup)
--   [<span data-ttu-id="0c301-107">**Restore 方法**</span><span class="sxs-lookup"><span data-stu-id="0c301-107">**Restore method**</span></span>](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-restore)
+-   [<span data-ttu-id="c8e25-106">**備份方法**</span><span class="sxs-lookup"><span data-stu-id="c8e25-106">**Backup method**</span></span>](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-backup)
+-   [<span data-ttu-id="c8e25-107">**Restore 方法**</span><span class="sxs-lookup"><span data-stu-id="c8e25-107">**Restore method**</span></span>](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-restore)
 
  
 

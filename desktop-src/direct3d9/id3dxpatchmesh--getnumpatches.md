@@ -21,11 +21,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/15/2021
 ms.locfileid: "103854084"
 ---
-# <a name="id3dxpatchmeshgetnumpatches-method"></a><span data-ttu-id="61c8f-103">ID3DXPatchMesh：： GetNumPatches 方法</span><span class="sxs-lookup"><span data-stu-id="61c8f-103">ID3DXPatchMesh::GetNumPatches method</span></span>
+# <a name="id3dxpatchmeshgetnumpatches-method"></a><span data-ttu-id="9dfc2-103">ID3DXPatchMesh：： GetNumPatches 方法</span><span class="sxs-lookup"><span data-stu-id="9dfc2-103">ID3DXPatchMesh::GetNumPatches method</span></span>
 
-<span data-ttu-id="61c8f-104">取得網格中的修補程式數目。</span><span class="sxs-lookup"><span data-stu-id="61c8f-104">Gets the number of patches in the mesh.</span></span>
+<span data-ttu-id="9dfc2-104">取得網格中的修補程式數目。</span><span class="sxs-lookup"><span data-stu-id="9dfc2-104">Gets the number of patches in the mesh.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="61c8f-105">語法</span><span class="sxs-lookup"><span data-stu-id="61c8f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9dfc2-105">語法</span><span class="sxs-lookup"><span data-stu-id="9dfc2-105">Syntax</span></span>
 
 
 ```C++
@@ -34,32 +34,32 @@ DWORD GetNumPatches();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="61c8f-106">參數</span><span class="sxs-lookup"><span data-stu-id="61c8f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9dfc2-106">參數</span><span class="sxs-lookup"><span data-stu-id="9dfc2-106">Parameters</span></span>
 
-<span data-ttu-id="61c8f-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="61c8f-107">This method has no parameters.</span></span>
+<span data-ttu-id="9dfc2-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="9dfc2-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="61c8f-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="61c8f-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9dfc2-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="9dfc2-108">Return value</span></span>
 
-<span data-ttu-id="61c8f-109">類型： **[ **DWORD**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="61c8f-109">Type: **[**DWORD**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="9dfc2-109">類型： **[ **DWORD**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="9dfc2-109">Type: **[**DWORD**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="61c8f-110">修補程式的數目。</span><span class="sxs-lookup"><span data-stu-id="61c8f-110">The number of patches.</span></span>
+<span data-ttu-id="9dfc2-110">修補程式的數目。</span><span class="sxs-lookup"><span data-stu-id="9dfc2-110">The number of patches.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="61c8f-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="61c8f-111">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9dfc2-111">規格需求</span><span class="sxs-lookup"><span data-stu-id="9dfc2-111">Requirements</span></span>
 
 
 
-| <span data-ttu-id="61c8f-112">需求</span><span class="sxs-lookup"><span data-stu-id="61c8f-112">Requirement</span></span> | <span data-ttu-id="61c8f-113">值</span><span class="sxs-lookup"><span data-stu-id="61c8f-113">Value</span></span> |
+| <span data-ttu-id="9dfc2-112">需求</span><span class="sxs-lookup"><span data-stu-id="9dfc2-112">Requirement</span></span> | <span data-ttu-id="9dfc2-113">值</span><span class="sxs-lookup"><span data-stu-id="9dfc2-113">Value</span></span> |
 |--------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="61c8f-114">標頭</span><span class="sxs-lookup"><span data-stu-id="61c8f-114">Header</span></span><br/>  | <dl> <span data-ttu-id="61c8f-115"><dt>D3DX9Mesh。h</dt></span><span class="sxs-lookup"><span data-stu-id="61c8f-115"><dt>D3DX9Mesh.h</dt></span></span> </dl> |
-| <span data-ttu-id="61c8f-116">程式庫</span><span class="sxs-lookup"><span data-stu-id="61c8f-116">Library</span></span><br/> | <dl> <span data-ttu-id="61c8f-117"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="61c8f-117"><dt>D3dx9.lib</dt></span></span> </dl>   |
+| <span data-ttu-id="9dfc2-114">標頭</span><span class="sxs-lookup"><span data-stu-id="9dfc2-114">Header</span></span><br/>  | <dl> <span data-ttu-id="9dfc2-115"><dt>D3DX9Mesh。h</dt></span><span class="sxs-lookup"><span data-stu-id="9dfc2-115"><dt>D3DX9Mesh.h</dt></span></span> </dl> |
+| <span data-ttu-id="9dfc2-116">程式庫</span><span class="sxs-lookup"><span data-stu-id="9dfc2-116">Library</span></span><br/> | <dl> <span data-ttu-id="9dfc2-117"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="9dfc2-117"><dt>D3dx9.lib</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="61c8f-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="61c8f-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9dfc2-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9dfc2-118">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="61c8f-119">ID3DXPatchMesh</span><span class="sxs-lookup"><span data-stu-id="61c8f-119">ID3DXPatchMesh</span></span>](id3dxpatchmesh.md)
+[<span data-ttu-id="9dfc2-119">ID3DXPatchMesh</span><span class="sxs-lookup"><span data-stu-id="9dfc2-119">ID3DXPatchMesh</span></span>](id3dxpatchmesh.md)
 </dt> </dl>
 
  

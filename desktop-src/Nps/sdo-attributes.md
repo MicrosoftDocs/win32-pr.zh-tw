@@ -12,24 +12,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/20/2020
 ms.locfileid: "103933312"
 ---
-# <a name="attributes-network-policy-server"></a><span data-ttu-id="3f4b0-103">網路原則伺服器 (的屬性) </span><span class="sxs-lookup"><span data-stu-id="3f4b0-103">Attributes (Network Policy Server)</span></span>
+# <a name="attributes-network-policy-server"></a><span data-ttu-id="a8a51-103">網路原則伺服器 (的屬性) </span><span class="sxs-lookup"><span data-stu-id="a8a51-103">Attributes (Network Policy Server)</span></span>
 
-<span data-ttu-id="3f4b0-104">在 SDO 電腦上操作 RADIUS 字典屬性時，請使用下列列舉類型。</span><span class="sxs-lookup"><span data-stu-id="3f4b0-104">Use the following enumeration types when manipulating RADIUS dictionary attributes on the SDO computer.</span></span>
+<span data-ttu-id="a8a51-104">在 SDO 電腦上操作 RADIUS 字典屬性時，請使用下列列舉類型。</span><span class="sxs-lookup"><span data-stu-id="a8a51-104">Use the following enumeration types when manipulating RADIUS dictionary attributes on the SDO computer.</span></span>
 
--   [<span data-ttu-id="3f4b0-105">**ATTRIBUTEFILTER**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-105">**ATTRIBUTEFILTER**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributefilter)
--   [<span data-ttu-id="3f4b0-106">**ATTRIBUTEID**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-106">**ATTRIBUTEID**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributeid)
--   [<span data-ttu-id="3f4b0-107">**ATTRIBUTEINFO**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-107">**ATTRIBUTEINFO**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributeinfo)
--   [<span data-ttu-id="3f4b0-108">**ATTRIBUTEPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-108">**ATTRIBUTEPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributeproperties)
--   [<span data-ttu-id="3f4b0-109">**ATTRIBUTERESTRICTIONS**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-109">**ATTRIBUTERESTRICTIONS**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributerestrictions)
--   [<span data-ttu-id="3f4b0-110">**ATTRIBUTESYNTAX**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-110">**ATTRIBUTESYNTAX**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributesyntax)
--   [<span data-ttu-id="3f4b0-111">**驗證 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-111">**AUTHENTICATION\_TYPE**</span></span>](/windows/desktop/api/SdoIas/ne-sdoias-authentication_type)
--   [<span data-ttu-id="3f4b0-112">**CLIENTPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-112">**CLIENTPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-clientproperties)
--   [<span data-ttu-id="3f4b0-113">**CONDITIONPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-113">**CONDITIONPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-conditionproperties)
--   [<span data-ttu-id="3f4b0-114">**DICTIONARYPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-114">**DICTIONARYPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties)
--   <span data-ttu-id="3f4b0-115">[**EAPWRAPPROPERTIES**](/previous-versions/ms717032(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="3f4b0-115">[**EAPWRAPPROPERTIES**](/previous-versions/ms717032(v=vs.85))</span></span>
--   [<span data-ttu-id="3f4b0-116">**IASCOMMONPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-116">**IASCOMMONPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
--   [<span data-ttu-id="3f4b0-117">**POLICYPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-117">**POLICYPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-policyproperties)
--   [<span data-ttu-id="3f4b0-118">**PROFILEPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="3f4b0-118">**PROFILEPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
+-   [<span data-ttu-id="a8a51-105">**ATTRIBUTEFILTER**</span><span class="sxs-lookup"><span data-stu-id="a8a51-105">**ATTRIBUTEFILTER**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributefilter)
+-   [<span data-ttu-id="a8a51-106">**ATTRIBUTEID**</span><span class="sxs-lookup"><span data-stu-id="a8a51-106">**ATTRIBUTEID**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributeid)
+-   [<span data-ttu-id="a8a51-107">**ATTRIBUTEINFO**</span><span class="sxs-lookup"><span data-stu-id="a8a51-107">**ATTRIBUTEINFO**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributeinfo)
+-   [<span data-ttu-id="a8a51-108">**ATTRIBUTEPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="a8a51-108">**ATTRIBUTEPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributeproperties)
+-   [<span data-ttu-id="a8a51-109">**ATTRIBUTERESTRICTIONS**</span><span class="sxs-lookup"><span data-stu-id="a8a51-109">**ATTRIBUTERESTRICTIONS**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributerestrictions)
+-   [<span data-ttu-id="a8a51-110">**ATTRIBUTESYNTAX**</span><span class="sxs-lookup"><span data-stu-id="a8a51-110">**ATTRIBUTESYNTAX**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-attributesyntax)
+-   [<span data-ttu-id="a8a51-111">**驗證 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="a8a51-111">**AUTHENTICATION\_TYPE**</span></span>](/windows/desktop/api/SdoIas/ne-sdoias-authentication_type)
+-   [<span data-ttu-id="a8a51-112">**CLIENTPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="a8a51-112">**CLIENTPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-clientproperties)
+-   [<span data-ttu-id="a8a51-113">**CONDITIONPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="a8a51-113">**CONDITIONPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-conditionproperties)
+-   [<span data-ttu-id="a8a51-114">**DICTIONARYPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="a8a51-114">**DICTIONARYPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties)
+-   <span data-ttu-id="a8a51-115">[**EAPWRAPPROPERTIES**](/previous-versions/ms717032(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="a8a51-115">[**EAPWRAPPROPERTIES**](/previous-versions/ms717032(v=vs.85))</span></span>
+-   [<span data-ttu-id="a8a51-116">**IASCOMMONPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="a8a51-116">**IASCOMMONPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
+-   [<span data-ttu-id="a8a51-117">**POLICYPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="a8a51-117">**POLICYPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-policyproperties)
+-   [<span data-ttu-id="a8a51-118">**PROFILEPROPERTIES**</span><span class="sxs-lookup"><span data-stu-id="a8a51-118">**PROFILEPROPERTIES**</span></span>](/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
 
  
 

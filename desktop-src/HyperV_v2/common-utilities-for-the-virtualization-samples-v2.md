@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850300"
 ---
-# <a name="common-utilities-for-the-virtualization-samples-v2"></a><span data-ttu-id="01786-103">虛擬化範例 (V2) 的常見公用程式</span><span class="sxs-lookup"><span data-stu-id="01786-103">Common utilities for the virtualization samples (V2)</span></span>
+# <a name="common-utilities-for-the-virtualization-samples-v2"></a><span data-ttu-id="5f1be-103">虛擬化範例 (V2) 的常見公用程式</span><span class="sxs-lookup"><span data-stu-id="5f1be-103">Common utilities for the virtualization samples (V2)</span></span>
 
-<span data-ttu-id="01786-104">某些 c # 虛擬化範例會使用下列公用程式。</span><span class="sxs-lookup"><span data-stu-id="01786-104">The following utilities are used by some of the C# virtualization samples.</span></span>
+<span data-ttu-id="5f1be-104">某些 c # 虛擬化範例會使用下列公用程式。</span><span class="sxs-lookup"><span data-stu-id="5f1be-104">The following utilities are used by some of the C# virtualization samples.</span></span>
 
 
 ```CSharp
