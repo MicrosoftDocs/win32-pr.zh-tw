@@ -1,0 +1,116 @@
+---
+title: 安裝線上商店外掛程式嚮導
+description: 安裝線上商店外掛程式嚮導
+ms.assetid: 75f7c279-4800-4146-8198-1dc76472237d
+keywords:
+- Windows Media Player 線上商店、外掛程式
+- 線上商店、外掛程式
+- 輸入1個線上商店、外掛程式
+- Windows Media Player 線上商店、外掛程式嚮導
+- 線上商店、外掛程式嚮導
+- 輸入1線上商店、外掛程式嚮導
+- Windows Media Player 線上商店，安裝外掛程式嚮導
+- 線上商店，安裝外掛程式嚮導
+- 輸入1個線上商店，安裝外掛程式 wizard
+- 外掛程式，Windows Media Player 線上商店
+- 外掛程式，線上商店
+- 外掛程式，請輸入1個線上商店
+- 外掛程式，安裝外掛程式 wizard
+- 外掛程式、外掛程式嚮導
+- Windows Media Player 外掛程式，請輸入1個線上商店
+- Windows Media Player 外掛程式，線上商店
+- Windows Media Player 外掛程式，Windows Media Player 線上商店
+- Windows Media Player 外掛程式，安裝外掛程式嚮導
+- Windows Media Player 外掛程式，外掛程式嚮導
+- 安裝外掛程式嚮導
+- 外掛程式嚮導
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 13d236c2160c5783f909430e6b49ef2e6361de22
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104021563"
+---
+# <a name="installing-the-online-store-plug-in-wizard"></a>安裝線上商店外掛程式嚮導
+
+若要設定開發環境以建立類型1線上商店外掛程式，您必須安裝下列專案：
+
+-   Microsoft Visual Studio 2005 或更新版本
+-   Windows Media Player 11 或更新版本
+-   Windows SDK，其中包含 Windows Media Player SDK
+-   線上商店外掛程式嚮導
+
+## <a name="installing-the-wizard"></a>安裝精靈
+
+使用下列步驟，在 Visual Studio 中安裝線上商店外掛程式 wizard。
+
+1.  找出安裝 Windows SDK 的資料夾。 展開資料夾以查看其子資料夾，並流覽至 [範例 \\ 多媒體 \\ WMP \\ 嚮導服務] \\ 。
+2.  找出下列三個檔案：
+    -   wmpservices .vsz
+    -   wmpservices 的 vsdir
+    -   wmpservices .ico
+3.  使用 [記事本] 之類的文字編輯器來編輯 wmpservices .vsz 檔。
+
+    尋找下列程式碼行：
+
+    ```
+    Wizard=VsWizard.<VsWizardEngine version goes here>
+    ```
+
+    
+
+    `<VsWizardEngine version goes here>`根據您已安裝的 Visual Studio 版本，變更為下列其中一個值。
+
+    
+
+    | 值              | Visual Studio 版本 |
+    |--------------------|-----------------------|
+    | VsWizardEngine 8。0 | Visual Studio 2005    |
+    | VsWizardEngine 9。0 | Visual Studio 2008    |
+
+    
+
+     
+
+    尋找下列程式碼行：
+
+    ```
+    Param="ABSOLUTE_PATH = <path to wmpservices directory goes here>"
+    ```
+
+    
+
+    切換 `<path to wmpservices directory goes here>` 至 wizard 檔案所在的路徑。
+
+    例如，假設您有 Visual Studio 2008，而您的 wizard 檔案位於這裡： C： \\ Program files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ 範例 \\ 多媒體 \\ WMP \\ 的 \\ 服務。 然後您的 wmpservices .vsz 檔案看起來會像這樣：
+
+    ```
+    VSWIZARD 7.0
+    Wizard=VsWizard.VsWizardEngine.9.0
+
+    Param="WIZARD_NAME = wmpservices"
+    Param="ABSOLUTE_PATH = C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\Multimedia\WMP\wizards\services"
+    Param="FALLBACK_LCID = 1033"
+    ```
+
+    
+
+4.  找出安裝 Visual Studio 的資料夾。 展開資料夾以查看其子資料夾，並尋找名為 vcprojects 的資料夾。
+5.  將步驟2中列出的三個檔案複製到 vcprojects 資料夾。 現在已安裝精靈。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[建立類型1線上商店的外掛程式](building-the-plug-in-for-a-type-1-online-store.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
