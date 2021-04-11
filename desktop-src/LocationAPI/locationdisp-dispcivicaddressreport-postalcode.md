@@ -1,0 +1,59 @@
+---
+description: 郵遞區號。
+ms.assetid: 91a137c0-70d8-4b3d-9872-035d633d1f7c
+title: LocationDisp. DispCivicAddressReport 屬性
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- LocationDisp.DispCivicAddressReport.PostalCode
+api_type:
+- COM
+api_location: ''
+ms.openlocfilehash: fdb9ff99acff0c6d07dd943a729d182fb8405d74
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104194105"
+---
+# <a name="locationdispdispcivicaddressreportpostalcode-property"></a>LocationDisp. DispCivicAddressReport 屬性
+
+\[位置 API 物件模型可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，若要從網站存取位置，請使用 [W3C 地理位置 API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85))。 若要從桌面應用程式存取位置，請使用 [**Windows. 地理位置**](/uwp/api/Windows.Devices.Geolocation) API。\]
+
+郵遞區號。
+
+這個屬性是唯讀的。
+
+## <a name="syntax"></a>語法
+
+
+```JScript
+strPostalCode = LocationDisp.DispCivicAddressReport.PostalCode
+```
+
+
+
+## <a name="property-value"></a>屬性值
+
+這個屬性是唯讀 **字串**。
+
+## <a name="examples"></a>範例
+
+如需如何使用此屬性的範例，請參閱 [簡單的市政位址報告範例](/uwp/api/Windows.Devices.Geolocation)。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|--------------------------------------------|
+| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/> |
+| 最低支援的伺服器<br/> | 都不支援<br/>                  |
+
+
+
+ 
+
