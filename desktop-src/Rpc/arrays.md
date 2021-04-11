@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/16/2021
 ms.locfileid: "103696884"
 ---
-# <a name="arrays-information-rpc"></a><span data-ttu-id="37c14-103"> (RPC) 的陣列資訊</span><span class="sxs-lookup"><span data-stu-id="37c14-103">Arrays information (RPC)</span></span>
+# <a name="arrays-information-rpc"></a><span data-ttu-id="3dd81-103"> (RPC) 的陣列資訊</span><span class="sxs-lookup"><span data-stu-id="3dd81-103">Arrays information (RPC)</span></span>
 
-<span data-ttu-id="37c14-104">如需陣列的詳細資訊，請參閱 [**MIDL 陣列**](/windows/desktop/Midl/midl-arrays)。</span><span class="sxs-lookup"><span data-stu-id="37c14-104">For information on arrays, see [**MIDL Arrays**](/windows/desktop/Midl/midl-arrays).</span></span>
+<span data-ttu-id="3dd81-104">如需陣列的詳細資訊，請參閱 [**MIDL 陣列**](/windows/desktop/Midl/midl-arrays)。</span><span class="sxs-lookup"><span data-stu-id="3dd81-104">For information on arrays, see [**MIDL Arrays**](/windows/desktop/Midl/midl-arrays).</span></span>
 
  
 

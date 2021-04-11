@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "104021976"
 ---
-# <a name="remote-access-service-administration"></a><span data-ttu-id="15162-103">遠端存取服務管理</span><span class="sxs-lookup"><span data-stu-id="15162-103">Remote Access Service Administration</span></span>
+# <a name="remote-access-service-administration"></a><span data-ttu-id="61efb-103">遠端存取服務管理</span><span class="sxs-lookup"><span data-stu-id="61efb-103">Remote Access Service Administration</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="15162-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="15162-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="61efb-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="61efb-104">In this section</span></span>
 
--   [<span data-ttu-id="15162-105">關於遠端存取服務管理</span><span class="sxs-lookup"><span data-stu-id="15162-105">About Remote Access Service Administration</span></span>](about-remote-access-service-administration.md)
--   [<span data-ttu-id="15162-106">遠端存取服務管理參考</span><span class="sxs-lookup"><span data-stu-id="15162-106">Remote Access Service Administration Reference</span></span>](remote-access-service-administration-reference.md)
--   [<span data-ttu-id="15162-107">RAS 伺服器管理參考</span><span class="sxs-lookup"><span data-stu-id="15162-107">RAS Server Administration Reference</span></span>](ras-server-administration-reference.md)
+-   [<span data-ttu-id="61efb-105">關於遠端存取服務管理</span><span class="sxs-lookup"><span data-stu-id="61efb-105">About Remote Access Service Administration</span></span>](about-remote-access-service-administration.md)
+-   [<span data-ttu-id="61efb-106">遠端存取服務管理參考</span><span class="sxs-lookup"><span data-stu-id="61efb-106">Remote Access Service Administration Reference</span></span>](remote-access-service-administration-reference.md)
+-   [<span data-ttu-id="61efb-107">RAS 伺服器管理參考</span><span class="sxs-lookup"><span data-stu-id="61efb-107">RAS Server Administration Reference</span></span>](ras-server-administration-reference.md)
 
  
 

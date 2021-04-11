@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110324"
 ---
-# <a name="asynctrace"></a><span data-ttu-id="84e6c-103">AsyncTrace</span><span class="sxs-lookup"><span data-stu-id="84e6c-103">AsyncTrace</span></span>
+# <a name="asynctrace"></a><span data-ttu-id="07de6-103">AsyncTrace</span><span class="sxs-lookup"><span data-stu-id="07de6-103">AsyncTrace</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="84e6c-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="84e6c-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="07de6-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="07de6-104">In this section</span></span>
 
--   [<span data-ttu-id="84e6c-105">**AsyncStringTrace**</span><span class="sxs-lookup"><span data-stu-id="84e6c-105">**AsyncStringTrace**</span></span>](-asyncstringtrace.md)
--   [<span data-ttu-id="84e6c-106">**InitAsyncTrace**</span><span class="sxs-lookup"><span data-stu-id="84e6c-106">**InitAsyncTrace**</span></span>](-initasynctrace.md)
--   [<span data-ttu-id="84e6c-107">**SetAsyncTraceParamsEx**</span><span class="sxs-lookup"><span data-stu-id="84e6c-107">**SetAsyncTraceParamsEx**</span></span>](-setasynctraceparamsex.md)
--   [<span data-ttu-id="84e6c-108">**TermAsyncTrace**</span><span class="sxs-lookup"><span data-stu-id="84e6c-108">**TermAsyncTrace**</span></span>](-termasynctrace.md)
+-   [<span data-ttu-id="07de6-105">**AsyncStringTrace**</span><span class="sxs-lookup"><span data-stu-id="07de6-105">**AsyncStringTrace**</span></span>](-asyncstringtrace.md)
+-   [<span data-ttu-id="07de6-106">**InitAsyncTrace**</span><span class="sxs-lookup"><span data-stu-id="07de6-106">**InitAsyncTrace**</span></span>](-initasynctrace.md)
+-   [<span data-ttu-id="07de6-107">**SetAsyncTraceParamsEx**</span><span class="sxs-lookup"><span data-stu-id="07de6-107">**SetAsyncTraceParamsEx**</span></span>](-setasynctraceparamsex.md)
+-   [<span data-ttu-id="07de6-108">**TermAsyncTrace**</span><span class="sxs-lookup"><span data-stu-id="07de6-108">**TermAsyncTrace**</span></span>](-termasynctrace.md)
 
  
 

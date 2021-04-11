@@ -1,0 +1,31 @@
+---
+title: 儲存使用者特定資訊
+description: 應用程式應在使用者特定位置中 儲存使用者專屬資訊 ，藉此與套用到所有使用者的全域資訊區隔。
+ms.assetid: 32bd1d24-1d2e-4c0a-acdb-0cc67f275e6e
+ms.tgt_platform: multiple
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 40c6236b7ba11a8b3149533e920b9b9413085d93
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104023640"
+---
+# <a name="storing-user-specific-information"></a><span data-ttu-id="09f1e-103">儲存使用者特定資訊</span><span class="sxs-lookup"><span data-stu-id="09f1e-103">Storing user-specific information</span></span>
+
+<span data-ttu-id="09f1e-104">在遠端桌面服務環境中，應用程式應該將使用者特定的資訊儲存在使用者特定的位置，與套用至所有使用者的全域資訊分開。</span><span class="sxs-lookup"><span data-stu-id="09f1e-104">In a Remote Desktop Services environment, applications should store user-specific information in user-specific locations, separately from global information that applies to all users.</span></span> <span data-ttu-id="09f1e-105">這項規則適用于儲存在登錄中的資訊，以及儲存在檔案中的資訊。</span><span class="sxs-lookup"><span data-stu-id="09f1e-105">This rule applies to information stored in the registry, as well as information stored in files.</span></span> <span data-ttu-id="09f1e-106">一般情況下，請不要假設一部電腦相當於一位使用者。</span><span class="sxs-lookup"><span data-stu-id="09f1e-106">In general, do not assume that one computer is equivalent to one user.</span></span>
+
+<span data-ttu-id="09f1e-107">在 **HKEY \_ CURRENT \_ user** 登錄機碼下儲存使用者特定的登錄資訊。</span><span class="sxs-lookup"><span data-stu-id="09f1e-107">Store user-specific registry information under the **HKEY\_CURRENT\_USER** registry key.</span></span> <span data-ttu-id="09f1e-108">遠端桌面服務當使用者登入時，會將目前使用者的個人登錄區載入 **HKEY 的 \_ 目前 \_ 使用者** 。</span><span class="sxs-lookup"><span data-stu-id="09f1e-108">Remote Desktop Services loads the current user's personal registry hive into **HKEY\_CURRENT\_USER** when the user logs on.</span></span> <span data-ttu-id="09f1e-109">當然，遠端桌面服務管理登錄，以確保每個登入的用戶端在 **HKEY \_ CURRENT \_ user** 下偵測到正確的使用者 hive。</span><span class="sxs-lookup"><span data-stu-id="09f1e-109">Of course, Remote Desktop Services manages the registry to ensure that each of the logged-on clients detects the correct user hive under **HKEY\_CURRENT\_USER**.</span></span> <span data-ttu-id="09f1e-110">如需登錄機碼的詳細資訊，請參閱登錄機[碼安全性和存取權限](/windows/desktop/SysInfo/registry-key-security-and-access-rights)和登錄[hive。](/windows/desktop/SysInfo/registry-hives)</span><span class="sxs-lookup"><span data-stu-id="09f1e-110">For more information about registry keys, see [Registry Key Security and Access Rights](/windows/desktop/SysInfo/registry-key-security-and-access-rights) and [Registry Hives](/windows/desktop/SysInfo/registry-hives).</span></span>
+
+<span data-ttu-id="09f1e-111">相反地，所有使用者都會共用 **HKEY \_ 本機 \_ 電腦** hive。</span><span class="sxs-lookup"><span data-stu-id="09f1e-111">In contrast, all users share the **HKEY\_LOCAL\_MACHINE** hive.</span></span> <span data-ttu-id="09f1e-112">使用 **HKEY \_ 本機 \_ 電腦** 來儲存電腦特定的資訊，而不是使用者特定的資訊。</span><span class="sxs-lookup"><span data-stu-id="09f1e-112">Use **HKEY\_LOCAL\_MACHINE** to store computer-specific information, not user-specific information.</span></span>
+
+<span data-ttu-id="09f1e-113">將使用者喜好設定檔案或其他使用者專屬檔案儲存在使用者的根目錄或使用者指定的目錄中。</span><span class="sxs-lookup"><span data-stu-id="09f1e-113">Store user-preference files or other user-specific files in the user's root directory or in a user-specified directory.</span></span> <span data-ttu-id="09f1e-114">此考慮適用于用來儲存暫存資訊的暫存檔案 (例如快取的資料) ，或將資料傳遞至另一個應用程式。</span><span class="sxs-lookup"><span data-stu-id="09f1e-114">This consideration applies to temporary files used to store interim information (such as cached data) or to pass data on to another application.</span></span> <span data-ttu-id="09f1e-115">使用者特定的暫存檔案也必須以個別使用者的方式儲存。</span><span class="sxs-lookup"><span data-stu-id="09f1e-115">User-specific temporary files must also be stored on a per-user basis.</span></span>
+
+<span data-ttu-id="09f1e-116">您可以使用 [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation) 函式搭配 CSIDL \_ 個人旗標，以取得使用者個人檔案目錄的位置。</span><span class="sxs-lookup"><span data-stu-id="09f1e-116">You can use the [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation) function with the CSIDL\_PERSONAL flag to get the location of the user's personal files directory.</span></span> <span data-ttu-id="09f1e-117">您也可以使用 [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) 函式來取出 Windows 目錄的路徑。</span><span class="sxs-lookup"><span data-stu-id="09f1e-117">You can also use the [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to retrieve the path of the Windows directory.</span></span> <span data-ttu-id="09f1e-118">在遠端桌面服務環境中，Windows 目錄保證每個使用者都是私用的。</span><span class="sxs-lookup"><span data-stu-id="09f1e-118">In a Remote Desktop Services environment, the Windows directory is guaranteed to be private for each user.</span></span> <span data-ttu-id="09f1e-119">請勿將使用者專屬的檔案儲存在系統目錄（例如 WINDOWS）下，或程式目錄（例如 Program Files）下。</span><span class="sxs-lookup"><span data-stu-id="09f1e-119">Do not store user-specific files under the system directory, such as WINDOWS, or program directory, such as Program Files.</span></span>
+
+<span data-ttu-id="09f1e-120">為了避免使用者的資訊和喜好設定之間的衝突，應用程式應該將每位使用者的暫存資訊儲存在使用者特定的暫存檔案中。</span><span class="sxs-lookup"><span data-stu-id="09f1e-120">To avoid conflicts among users' information and preferences, applications should store per-user temporary information in user-specific temporary files.</span></span> <span data-ttu-id="09f1e-121">使用者專屬的暫存檔案也會防止因檔案鎖定衝突而造成的應用程式失敗。</span><span class="sxs-lookup"><span data-stu-id="09f1e-121">User-specific temporary files also prevent application failures caused by file-locking conflicts.</span></span> <span data-ttu-id="09f1e-122">若要指定儲存暫存資訊的路徑，請使用 [**GetTempPath**](/windows/desktop/api/fileapi/nf-fileapi-gettemppatha) 函數。</span><span class="sxs-lookup"><span data-stu-id="09f1e-122">To specify the path for storing temporary information, use the [**GetTempPath**](/windows/desktop/api/fileapi/nf-fileapi-gettemppatha) function.</span></span>
+
+ 
+
+ 

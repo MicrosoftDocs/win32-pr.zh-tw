@@ -14,9 +14,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/17/2020
 ms.locfileid: "104023245"
 ---
-# <a name="example-code-for-binding-to-the-users-container"></a><span data-ttu-id="3f2d6-104">系結至使用者容器的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="3f2d6-104">Example Code for Binding to the User's Container</span></span>
+# <a name="example-code-for-binding-to-the-users-container"></a><span data-ttu-id="ae874-104">系結至使用者容器的範例程式碼</span><span class="sxs-lookup"><span data-stu-id="ae874-104">Example Code for Binding to the User's Container</span></span>
 
-<span data-ttu-id="3f2d6-105">下列 c + + 程式碼範例會系結至目前網域中的 users 容器，並傳回容器的和 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) 介面。</span><span class="sxs-lookup"><span data-stu-id="3f2d6-105">The following C++ code example binds to the users container in the current domain and return and [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) interface for the container.</span></span> <span data-ttu-id="3f2d6-106">如需有關系結至已知物件的詳細資訊，請參閱 [使用 WKGUID 系結至 Well-Known 物件](binding-to-well-known-objects-using-wkguid.md)。</span><span class="sxs-lookup"><span data-stu-id="3f2d6-106">For more information about binding to well-known objects, see [Binding to Well-Known Objects Using WKGUID](binding-to-well-known-objects-using-wkguid.md).</span></span>
+<span data-ttu-id="ae874-105">下列 c + + 程式碼範例會系結至目前網域中的 users 容器，並傳回容器的和 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) 介面。</span><span class="sxs-lookup"><span data-stu-id="ae874-105">The following C++ code example binds to the users container in the current domain and return and [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) interface for the container.</span></span> <span data-ttu-id="ae874-106">如需有關系結至已知物件的詳細資訊，請參閱 [使用 WKGUID 系結至 Well-Known 物件](binding-to-well-known-objects-using-wkguid.md)。</span><span class="sxs-lookup"><span data-stu-id="ae874-106">For more information about binding to well-known objects, see [Binding to Well-Known Objects Using WKGUID](binding-to-well-known-objects-using-wkguid.md).</span></span>
 
 
 ```C++
