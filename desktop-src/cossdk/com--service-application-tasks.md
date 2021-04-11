@@ -11,25 +11,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110393"
 ---
-# <a name="com-service-application-tasks"></a><span data-ttu-id="dfb6c-103">COM + 服務應用程式工作</span><span class="sxs-lookup"><span data-stu-id="dfb6c-103">COM+ Service Application Tasks</span></span>
+# <a name="com-service-application-tasks"></a><span data-ttu-id="0ef8b-103">COM + 服務應用程式工作</span><span class="sxs-lookup"><span data-stu-id="0ef8b-103">COM+ Service Application Tasks</span></span>
 
-<span data-ttu-id="dfb6c-104">本節中的下列主題提供逐步指示，說明如何將 COM + 應用程式設定為以服務應用程式的形式執行。</span><span class="sxs-lookup"><span data-stu-id="dfb6c-104">The following topics in this section provide step-by-step instructions for configuring a COM+ application to run as a service application.</span></span>
+<span data-ttu-id="0ef8b-104">本節中的下列主題提供逐步指示，說明如何將 COM + 應用程式設定為以服務應用程式的形式執行。</span><span class="sxs-lookup"><span data-stu-id="0ef8b-104">The following topics in this section provide step-by-step instructions for configuring a COM+ application to run as a service application.</span></span>
 
 
 
-| <span data-ttu-id="dfb6c-105">主題</span><span class="sxs-lookup"><span data-stu-id="dfb6c-105">Topic</span></span>                                                                                                                                | <span data-ttu-id="dfb6c-106">描述</span><span class="sxs-lookup"><span data-stu-id="dfb6c-106">Description</span></span>                                                                                                                |
+| <span data-ttu-id="0ef8b-105">主題</span><span class="sxs-lookup"><span data-stu-id="0ef8b-105">Topic</span></span>                                                                                                                                | <span data-ttu-id="0ef8b-106">描述</span><span class="sxs-lookup"><span data-stu-id="0ef8b-106">Description</span></span>                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="dfb6c-107">將 COM + 伺服器應用程式設定為服務應用程式</span><span class="sxs-lookup"><span data-stu-id="dfb6c-107">Configuring a COM+ Server Application as a Service Application</span></span>](configuring-a-com--server-application-as-a-service-application.md) | <span data-ttu-id="dfb6c-108">提供逐步指示，說明如何建立和設定 COM + 伺服器應用程式，以做為服務應用程式執行。</span><span class="sxs-lookup"><span data-stu-id="dfb6c-108">Provides step-by-step instructions for creating and configuring a COM+ server application to run as a service application.</span></span> |
+| [<span data-ttu-id="0ef8b-107">將 COM + 伺服器應用程式設定為服務應用程式</span><span class="sxs-lookup"><span data-stu-id="0ef8b-107">Configuring a COM+ Server Application as a Service Application</span></span>](configuring-a-com--server-application-as-a-service-application.md) | <span data-ttu-id="0ef8b-108">提供逐步指示，說明如何建立和設定 COM + 伺服器應用程式，以做為服務應用程式執行。</span><span class="sxs-lookup"><span data-stu-id="0ef8b-108">Provides step-by-step instructions for creating and configuring a COM+ server application to run as a service application.</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="dfb6c-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="dfb6c-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="0ef8b-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="0ef8b-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="dfb6c-110">COM + 服務應用程式概念</span><span class="sxs-lookup"><span data-stu-id="dfb6c-110">COM+ Service Application Concepts</span></span>](com--service-application-concepts.md)
+[<span data-ttu-id="0ef8b-110">COM + 服務應用程式概念</span><span class="sxs-lookup"><span data-stu-id="0ef8b-110">COM+ Service Application Concepts</span></span>](com--service-application-concepts.md)
 </dt> </dl>
 
  

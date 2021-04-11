@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110309"
 ---
-# <a name="baseflushappcompatcache-function"></a><span data-ttu-id="12780-103">BaseFlushAppcompatCache 函式</span><span class="sxs-lookup"><span data-stu-id="12780-103">BaseFlushAppcompatCache function</span></span>
+# <a name="baseflushappcompatcache-function"></a><span data-ttu-id="ee7f2-103">BaseFlushAppcompatCache 函式</span><span class="sxs-lookup"><span data-stu-id="ee7f2-103">BaseFlushAppcompatCache function</span></span>
 
-<span data-ttu-id="12780-104">清除應用程式相容性快取。</span><span class="sxs-lookup"><span data-stu-id="12780-104">Flushes the application compatibility cache.</span></span>
+<span data-ttu-id="ee7f2-104">清除應用程式相容性快取。</span><span class="sxs-lookup"><span data-stu-id="ee7f2-104">Flushes the application compatibility cache.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="12780-105">語法</span><span class="sxs-lookup"><span data-stu-id="12780-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ee7f2-105">語法</span><span class="sxs-lookup"><span data-stu-id="ee7f2-105">Syntax</span></span>
 
 
 ```C++
@@ -36,35 +36,35 @@ BOOL WINAPI BaseFlushAppcompatCache(void);
 
 
 
-## <a name="parameters"></a><span data-ttu-id="12780-106">參數</span><span class="sxs-lookup"><span data-stu-id="12780-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ee7f2-106">參數</span><span class="sxs-lookup"><span data-stu-id="ee7f2-106">Parameters</span></span>
 
-<span data-ttu-id="12780-107">此函式沒有參數。</span><span class="sxs-lookup"><span data-stu-id="12780-107">This function has no parameters.</span></span>
+<span data-ttu-id="ee7f2-107">此函式沒有參數。</span><span class="sxs-lookup"><span data-stu-id="ee7f2-107">This function has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="12780-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="12780-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ee7f2-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="ee7f2-108">Return value</span></span>
 
-<span data-ttu-id="12780-109">如果成功，函數會傳回 **TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="12780-109">The function returns **TRUE** if it succeeds and **FALSE** otherwise.</span></span>
+<span data-ttu-id="ee7f2-109">如果成功，函數會傳回 **TRUE** ，否則傳回 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="ee7f2-109">The function returns **TRUE** if it succeeds and **FALSE** otherwise.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="12780-110">備註</span><span class="sxs-lookup"><span data-stu-id="12780-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ee7f2-110">備註</span><span class="sxs-lookup"><span data-stu-id="ee7f2-110">Remarks</span></span>
 
-<span data-ttu-id="12780-111">呼叫端必須是系統管理員。</span><span class="sxs-lookup"><span data-stu-id="12780-111">The caller must be an administrator.</span></span>
+<span data-ttu-id="ee7f2-111">呼叫端必須是系統管理員。</span><span class="sxs-lookup"><span data-stu-id="ee7f2-111">The caller must be an administrator.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="12780-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="12780-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ee7f2-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="ee7f2-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="12780-113">需求</span><span class="sxs-lookup"><span data-stu-id="12780-113">Requirement</span></span> | <span data-ttu-id="12780-114">值</span><span class="sxs-lookup"><span data-stu-id="12780-114">Value</span></span> |
+| <span data-ttu-id="ee7f2-113">需求</span><span class="sxs-lookup"><span data-stu-id="ee7f2-113">Requirement</span></span> | <span data-ttu-id="ee7f2-114">值</span><span class="sxs-lookup"><span data-stu-id="ee7f2-114">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="12780-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="12780-115">Minimum supported client</span></span><br/> | <span data-ttu-id="12780-116">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="12780-116">Windows XP \[desktop apps only\]</span></span><br/>                                             |
-| <span data-ttu-id="12780-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="12780-117">Minimum supported server</span></span><br/> | <span data-ttu-id="12780-118">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="12780-118">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="12780-119">DLL</span><span class="sxs-lookup"><span data-stu-id="12780-119">DLL</span></span><br/>                      | <dl> <span data-ttu-id="12780-120"><dt>Kernel32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="12780-120"><dt>Kernel32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="ee7f2-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ee7f2-115">Minimum supported client</span></span><br/> | <span data-ttu-id="ee7f2-116">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ee7f2-116">Windows XP \[desktop apps only\]</span></span><br/>                                             |
+| <span data-ttu-id="ee7f2-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ee7f2-117">Minimum supported server</span></span><br/> | <span data-ttu-id="ee7f2-118">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ee7f2-118">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="ee7f2-119">DLL</span><span class="sxs-lookup"><span data-stu-id="ee7f2-119">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ee7f2-120"><dt>Kernel32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ee7f2-120"><dt>Kernel32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="12780-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="12780-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ee7f2-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ee7f2-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="12780-122">**ShimFlushCache**</span><span class="sxs-lookup"><span data-stu-id="12780-122">**ShimFlushCache**</span></span>](shimflushcache.md)
+[<span data-ttu-id="ee7f2-122">**ShimFlushCache**</span><span class="sxs-lookup"><span data-stu-id="ee7f2-122">**ShimFlushCache**</span></span>](shimflushcache.md)
 </dt> </dl>
 
  

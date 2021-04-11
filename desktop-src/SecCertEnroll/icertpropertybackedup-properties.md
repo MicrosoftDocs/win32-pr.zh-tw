@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103944817"
 ---
-# <a name="icertpropertybackedup-properties"></a><span data-ttu-id="04cdd-103">ICertPropertyBackedUp 屬性</span><span class="sxs-lookup"><span data-stu-id="04cdd-103">ICertPropertyBackedUp Properties</span></span>
+# <a name="icertpropertybackedup-properties"></a><span data-ttu-id="b9ac3-103">ICertPropertyBackedUp 屬性</span><span class="sxs-lookup"><span data-stu-id="b9ac3-103">ICertPropertyBackedUp Properties</span></span>
 
-<span data-ttu-id="04cdd-104">[**ICertPropertyBackedUp**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertybackedup)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="04cdd-104">The [**ICertPropertyBackedUp**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertybackedup) interface exposes the following properties.</span></span>
+<span data-ttu-id="b9ac3-104">[**ICertPropertyBackedUp**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertybackedup)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="b9ac3-104">The [**ICertPropertyBackedUp**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertybackedup) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="04cdd-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="04cdd-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b9ac3-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="b9ac3-105">In this section</span></span>
 
--   [<span data-ttu-id="04cdd-106">**BackedUpValue 屬性**</span><span class="sxs-lookup"><span data-stu-id="04cdd-106">**BackedUpValue Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-get_backedupvalue)
--   [<span data-ttu-id="04cdd-107">**BackedUpTime 屬性**</span><span class="sxs-lookup"><span data-stu-id="04cdd-107">**BackedUpTime Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-get_backeduptime)
+-   [<span data-ttu-id="b9ac3-106">**BackedUpValue 屬性**</span><span class="sxs-lookup"><span data-stu-id="b9ac3-106">**BackedUpValue Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-get_backedupvalue)
+-   [<span data-ttu-id="b9ac3-107">**BackedUpTime 屬性**</span><span class="sxs-lookup"><span data-stu-id="b9ac3-107">**BackedUpTime Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-get_backeduptime)
 
  
 
