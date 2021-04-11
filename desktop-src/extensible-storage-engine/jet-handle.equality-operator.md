@@ -32,14 +32,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695040"
 ---
-# <a name="jet_handleequality-operator"></a><span data-ttu-id="6e0d3-103">JET_HANDLE。等號比較運算子</span><span class="sxs-lookup"><span data-stu-id="6e0d3-103">JET_HANDLE.Equality operator</span></span>
+# <a name="jet_handleequality-operator"></a><span data-ttu-id="cf92c-103">JET_HANDLE。等號比較運算子</span><span class="sxs-lookup"><span data-stu-id="cf92c-103">JET_HANDLE.Equality operator</span></span>
 
-<span data-ttu-id="6e0d3-104">判斷 JET_HANDLE 的兩個指定實例是否相等。</span><span class="sxs-lookup"><span data-stu-id="6e0d3-104">Determines whether two specified instances of JET_HANDLE are equal.</span></span>
+<span data-ttu-id="cf92c-104">判斷 JET_HANDLE 的兩個指定實例是否相等。</span><span class="sxs-lookup"><span data-stu-id="cf92c-104">Determines whether two specified instances of JET_HANDLE are equal.</span></span>
 
-<span data-ttu-id="6e0d3-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="6e0d3-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="6e0d3-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6e0d3-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="cf92c-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="cf92c-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="cf92c-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="cf92c-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6e0d3-107">語法</span><span class="sxs-lookup"><span data-stu-id="6e0d3-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cf92c-107">語法</span><span class="sxs-lookup"><span data-stu-id="cf92c-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -62,31 +62,31 @@ public static bool operator ==(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="6e0d3-108">參數</span><span class="sxs-lookup"><span data-stu-id="6e0d3-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="cf92c-108">參數</span><span class="sxs-lookup"><span data-stu-id="cf92c-108">Parameters</span></span>
 
-  - <span data-ttu-id="6e0d3-109">lhs</span><span class="sxs-lookup"><span data-stu-id="6e0d3-109">lhs</span></span>  
-    <span data-ttu-id="6e0d3-110">類型： [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)</span><span class="sxs-lookup"><span data-stu-id="6e0d3-110">Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)</span></span>  
+  - <span data-ttu-id="cf92c-109">lhs</span><span class="sxs-lookup"><span data-stu-id="cf92c-109">lhs</span></span>  
+    <span data-ttu-id="cf92c-110">類型： [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)</span><span class="sxs-lookup"><span data-stu-id="cf92c-110">Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)</span></span>  
     
-    <span data-ttu-id="6e0d3-111">要比較的第一個執行個體。</span><span class="sxs-lookup"><span data-stu-id="6e0d3-111">The first instance to compare.</span></span>
+    <span data-ttu-id="cf92c-111">要比較的第一個執行個體。</span><span class="sxs-lookup"><span data-stu-id="cf92c-111">The first instance to compare.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="6e0d3-112">rhs</span><span class="sxs-lookup"><span data-stu-id="6e0d3-112">rhs</span></span>  
-    <span data-ttu-id="6e0d3-113">類型： [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)</span><span class="sxs-lookup"><span data-stu-id="6e0d3-113">Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)</span></span>  
+  - <span data-ttu-id="cf92c-112">rhs</span><span class="sxs-lookup"><span data-stu-id="cf92c-112">rhs</span></span>  
+    <span data-ttu-id="cf92c-113">類型： [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)</span><span class="sxs-lookup"><span data-stu-id="cf92c-113">Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)</span></span>  
     
-    <span data-ttu-id="6e0d3-114">要比較的第二個執行個體。</span><span class="sxs-lookup"><span data-stu-id="6e0d3-114">The second instance to compare.</span></span>
+    <span data-ttu-id="cf92c-114">要比較的第二個執行個體。</span><span class="sxs-lookup"><span data-stu-id="cf92c-114">The second instance to compare.</span></span>
 
-#### <a name="return-value"></a><span data-ttu-id="6e0d3-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="6e0d3-115">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="cf92c-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="cf92c-115">Return value</span></span>
 
-<span data-ttu-id="6e0d3-116">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="6e0d3-116">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
-<span data-ttu-id="6e0d3-117">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="6e0d3-117">True if the two instances are equal.</span></span>  
+<span data-ttu-id="cf92c-116">型別： [system.object](/dotnet/api/system.boolean)</span><span class="sxs-lookup"><span data-stu-id="cf92c-116">Type: [System.Boolean](/dotnet/api/system.boolean)</span></span>  
+<span data-ttu-id="cf92c-117">如果兩個實例相等，則為 True。</span><span class="sxs-lookup"><span data-stu-id="cf92c-117">True if the two instances are equal.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="6e0d3-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6e0d3-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cf92c-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cf92c-118">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="6e0d3-119">參考</span><span class="sxs-lookup"><span data-stu-id="6e0d3-119">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="cf92c-119">參考</span><span class="sxs-lookup"><span data-stu-id="cf92c-119">Reference</span></span>
 
-[<span data-ttu-id="6e0d3-120">JET_HANDLE 結構</span><span class="sxs-lookup"><span data-stu-id="6e0d3-120">JET_HANDLE structure</span></span>](./jet-handle-structure.md)
+[<span data-ttu-id="cf92c-120">JET_HANDLE 結構</span><span class="sxs-lookup"><span data-stu-id="cf92c-120">JET_HANDLE structure</span></span>](./jet-handle-structure.md)
 
-[<span data-ttu-id="6e0d3-121">JET_HANDLE 成員</span><span class="sxs-lookup"><span data-stu-id="6e0d3-121">JET_HANDLE members</span></span>](./jet-handle-members.md)
+[<span data-ttu-id="cf92c-121">JET_HANDLE 成員</span><span class="sxs-lookup"><span data-stu-id="cf92c-121">JET_HANDLE members</span></span>](./jet-handle-members.md)
 
-[<span data-ttu-id="6e0d3-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="6e0d3-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="cf92c-122">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="cf92c-122">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695663"
 ---
-# <a name="vistagrbitsindexnestedtable-field"></a><span data-ttu-id="4315b-103">VistaGrbits. IndexNestedTable 欄位</span><span class="sxs-lookup"><span data-stu-id="4315b-103">VistaGrbits.IndexNestedTable field</span></span>
+# <a name="vistagrbitsindexnestedtable-field"></a><span data-ttu-id="98a79-103">VistaGrbits. IndexNestedTable 欄位</span><span class="sxs-lookup"><span data-stu-id="98a79-103">VistaGrbits.IndexNestedTable field</span></span>
 
-<span data-ttu-id="4315b-104">多個多重值資料行的索引，但只含相同 itagSequence 的值。</span><span class="sxs-lookup"><span data-stu-id="4315b-104">Index over multiple multi-valued columns but only with values of same itagSequence.</span></span>
+<span data-ttu-id="98a79-104">多個多重值資料行的索引，但只含相同 itagSequence 的值。</span><span class="sxs-lookup"><span data-stu-id="98a79-104">Index over multiple multi-valued columns but only with values of same itagSequence.</span></span>
 
-<span data-ttu-id="4315b-105">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="4315b-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
-<span data-ttu-id="4315b-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="4315b-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="98a79-105">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="98a79-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
+<span data-ttu-id="98a79-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="98a79-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4315b-107">語法</span><span class="sxs-lookup"><span data-stu-id="4315b-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="98a79-107">語法</span><span class="sxs-lookup"><span data-stu-id="98a79-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = VistaGrbits.IndexNestedTable
 public const CreateIndexGrbit IndexNestedTable
 ```
 
-## <a name="see-also"></a><span data-ttu-id="4315b-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4315b-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="98a79-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="98a79-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="4315b-109">參考</span><span class="sxs-lookup"><span data-stu-id="4315b-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="98a79-109">參考</span><span class="sxs-lookup"><span data-stu-id="98a79-109">Reference</span></span>
 
-[<span data-ttu-id="4315b-110">VistaGrbits 類別</span><span class="sxs-lookup"><span data-stu-id="4315b-110">VistaGrbits class</span></span>](./vistagrbits-class.md)
+[<span data-ttu-id="98a79-110">VistaGrbits 類別</span><span class="sxs-lookup"><span data-stu-id="98a79-110">VistaGrbits class</span></span>](./vistagrbits-class.md)
 
-[<span data-ttu-id="4315b-111">VistaGrbits 成員</span><span class="sxs-lookup"><span data-stu-id="4315b-111">VistaGrbits members</span></span>](./vistagrbits-members.md)
+[<span data-ttu-id="98a79-111">VistaGrbits 成員</span><span class="sxs-lookup"><span data-stu-id="98a79-111">VistaGrbits members</span></span>](./vistagrbits-members.md)
 
-[<span data-ttu-id="4315b-112">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="4315b-112">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)
+[<span data-ttu-id="98a79-112">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="98a79-112">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)

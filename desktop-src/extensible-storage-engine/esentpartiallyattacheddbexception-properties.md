@@ -14,79 +14,79 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852607"
 ---
-# <a name="esentpartiallyattacheddbexception-properties"></a><span data-ttu-id="ffb99-103">EsentPartiallyAttachedDBException 屬性</span><span class="sxs-lookup"><span data-stu-id="ffb99-103">EsentPartiallyAttachedDBException properties</span></span>
+# <a name="esentpartiallyattacheddbexception-properties"></a><span data-ttu-id="e358d-103">EsentPartiallyAttachedDBException 屬性</span><span class="sxs-lookup"><span data-stu-id="e358d-103">EsentPartiallyAttachedDBException properties</span></span>
 
-<span data-ttu-id="ffb99-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="ffb99-104">Include protected members</span></span>  
-<span data-ttu-id="ffb99-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="ffb99-105">Include inherited members</span></span>  
+<span data-ttu-id="e358d-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="e358d-104">Include protected members</span></span>  
+<span data-ttu-id="e358d-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="e358d-105">Include inherited members</span></span>  
 
-<span data-ttu-id="ffb99-106">[EsentPartiallyAttachedDBException](./esentpartiallyattacheddbexception-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="ffb99-106">The [EsentPartiallyAttachedDBException](./esentpartiallyattacheddbexception-class.md) type exposes the following members.</span></span>
+<span data-ttu-id="e358d-106">[EsentPartiallyAttachedDBException](./esentpartiallyattacheddbexception-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="e358d-106">The [EsentPartiallyAttachedDBException](./esentpartiallyattacheddbexception-class.md) type exposes the following members.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="ffb99-107">屬性</span><span class="sxs-lookup"><span data-stu-id="ffb99-107">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="e358d-107">屬性</span><span class="sxs-lookup"><span data-stu-id="e358d-107">Properties</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="ffb99-108">名稱</span><span class="sxs-lookup"><span data-stu-id="ffb99-108">Name</span></span></th>
-<th><span data-ttu-id="ffb99-109">描述</span><span class="sxs-lookup"><span data-stu-id="ffb99-109">Description</span></span></th>
+<th><span data-ttu-id="e358d-108">名稱</span><span class="sxs-lookup"><span data-stu-id="e358d-108">Name</span></span></th>
+<th><span data-ttu-id="e358d-109">描述</span><span class="sxs-lookup"><span data-stu-id="e358d-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="ffb99-111"><a href="/dotnet/api/system.exception.data#System_Exception_Data">資料</a></span><span class="sxs-lookup"><span data-stu-id="ffb99-111"><a href="/dotnet/api/system.exception.data#System_Exception_Data">Data</a></span></span></td>
-<td><span data-ttu-id="ffb99-112"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="ffb99-112">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="e358d-111"><a href="/dotnet/api/system.exception.data#System_Exception_Data">資料</a></span><span class="sxs-lookup"><span data-stu-id="e358d-111"><a href="/dotnet/api/system.exception.data#System_Exception_Data">Data</a></span></span></td>
+<td><span data-ttu-id="e358d-112"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="e358d-112">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="ffb99-114"><a href="dn274313(v=exchg.10).md">錯誤</a></span><span class="sxs-lookup"><span data-stu-id="ffb99-114"><a href="dn274313(v=exchg.10).md">Error</a></span></span></td>
-<td><span data-ttu-id="ffb99-115">取得這個例外狀況的基礎 Esent 錯誤。</span><span class="sxs-lookup"><span data-stu-id="ffb99-115">Gets the underlying Esent error for this exception.</span></span> <span data-ttu-id="ffb99-116"> (繼承自 <a href="dn274314(v=exchg.10).md">EsentErrorException</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="ffb99-116">(Inherited from <a href="dn274314(v=exchg.10).md">EsentErrorException</a>.)</span></span></td>
+<td><span data-ttu-id="e358d-114"><a href="dn274313(v=exchg.10).md">錯誤</a></span><span class="sxs-lookup"><span data-stu-id="e358d-114"><a href="dn274313(v=exchg.10).md">Error</a></span></span></td>
+<td><span data-ttu-id="e358d-115">取得這個例外狀況的基礎 Esent 錯誤。</span><span class="sxs-lookup"><span data-stu-id="e358d-115">Gets the underlying Esent error for this exception.</span></span> <span data-ttu-id="e358d-116"> (繼承自 <a href="dn274314(v=exchg.10).md">EsentErrorException</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="e358d-116">(Inherited from <a href="dn274314(v=exchg.10).md">EsentErrorException</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="ffb99-118"><a href="/dotnet/api/system.exception.helplink#System_Exception_HelpLink">HelpLink</a></span><span class="sxs-lookup"><span data-stu-id="ffb99-118"><a href="/dotnet/api/system.exception.helplink#System_Exception_HelpLink">HelpLink</a></span></span></td>
-<td><span data-ttu-id="ffb99-119"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="ffb99-119">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="e358d-118"><a href="/dotnet/api/system.exception.helplink#System_Exception_HelpLink">HelpLink</a></span><span class="sxs-lookup"><span data-stu-id="e358d-118"><a href="/dotnet/api/system.exception.helplink#System_Exception_HelpLink">HelpLink</a></span></span></td>
+<td><span data-ttu-id="e358d-119"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="e358d-119">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="受保護的屬性" alt="Protected property" /></td>
-<td><span data-ttu-id="ffb99-121"><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></span><span class="sxs-lookup"><span data-stu-id="ffb99-121"><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></span></span></td>
-<td><span data-ttu-id="ffb99-122"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="ffb99-122">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="e358d-121"><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></span><span class="sxs-lookup"><span data-stu-id="e358d-121"><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></span></span></td>
+<td><span data-ttu-id="e358d-122"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="e358d-122">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="ffb99-124"><a href="/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a></span><span class="sxs-lookup"><span data-stu-id="ffb99-124"><a href="/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a></span></span></td>
-<td><span data-ttu-id="ffb99-125"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="ffb99-125">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="e358d-124"><a href="/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a></span><span class="sxs-lookup"><span data-stu-id="e358d-124"><a href="/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a></span></span></td>
+<td><span data-ttu-id="e358d-125"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="e358d-125">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="ffb99-127"><a href="/dotnet/api/system.exception.message#System_Exception_Message">訊息</a></span><span class="sxs-lookup"><span data-stu-id="ffb99-127"><a href="/dotnet/api/system.exception.message#System_Exception_Message">Message</a></span></span></td>
-<td><span data-ttu-id="ffb99-128"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="ffb99-128">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="e358d-127"><a href="/dotnet/api/system.exception.message#System_Exception_Message">訊息</a></span><span class="sxs-lookup"><span data-stu-id="e358d-127"><a href="/dotnet/api/system.exception.message#System_Exception_Message">Message</a></span></span></td>
+<td><span data-ttu-id="e358d-128"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="e358d-128">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="ffb99-130"><a href="/dotnet/api/system.exception.source#System_Exception_Source">來源</a></span><span class="sxs-lookup"><span data-stu-id="ffb99-130"><a href="/dotnet/api/system.exception.source#System_Exception_Source">Source</a></span></span></td>
-<td><span data-ttu-id="ffb99-131"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="ffb99-131">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="e358d-130"><a href="/dotnet/api/system.exception.source#System_Exception_Source">來源</a></span><span class="sxs-lookup"><span data-stu-id="e358d-130"><a href="/dotnet/api/system.exception.source#System_Exception_Source">Source</a></span></span></td>
+<td><span data-ttu-id="e358d-131"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="e358d-131">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="ffb99-133"><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></span><span class="sxs-lookup"><span data-stu-id="ffb99-133"><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></span></span></td>
-<td><span data-ttu-id="ffb99-134"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="ffb99-134">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="e358d-133"><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></span><span class="sxs-lookup"><span data-stu-id="e358d-133"><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></span></span></td>
+<td><span data-ttu-id="e358d-134"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="e358d-134">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="ffb99-136"><a href="/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">TargetSite</a></span><span class="sxs-lookup"><span data-stu-id="ffb99-136"><a href="/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">TargetSite</a></span></span></td>
-<td><span data-ttu-id="ffb99-137"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="ffb99-137">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+<td><span data-ttu-id="e358d-136"><a href="/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">TargetSite</a></span><span class="sxs-lookup"><span data-stu-id="e358d-136"><a href="/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">TargetSite</a></span></span></td>
+<td><span data-ttu-id="e358d-137"> (繼承自 <a href="/dotnet/api/system.exception">例外</a>狀況。 ) </span><span class="sxs-lookup"><span data-stu-id="e358d-137">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="ffb99-138">頁首</span><span class="sxs-lookup"><span data-stu-id="ffb99-138">Top</span></span>
+<span data-ttu-id="e358d-138">頁首</span><span class="sxs-lookup"><span data-stu-id="e358d-138">Top</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ffb99-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ffb99-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e358d-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e358d-139">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="ffb99-140">參考</span><span class="sxs-lookup"><span data-stu-id="ffb99-140">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="e358d-140">參考</span><span class="sxs-lookup"><span data-stu-id="e358d-140">Reference</span></span>
 
-[<span data-ttu-id="ffb99-141">EsentPartiallyAttachedDBException 類別</span><span class="sxs-lookup"><span data-stu-id="ffb99-141">EsentPartiallyAttachedDBException class</span></span>](./esentpartiallyattacheddbexception-class.md)
+[<span data-ttu-id="e358d-141">EsentPartiallyAttachedDBException 類別</span><span class="sxs-lookup"><span data-stu-id="e358d-141">EsentPartiallyAttachedDBException class</span></span>](./esentpartiallyattacheddbexception-class.md)
 
-[<span data-ttu-id="ffb99-142">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ffb99-142">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="e358d-142">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="e358d-142">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

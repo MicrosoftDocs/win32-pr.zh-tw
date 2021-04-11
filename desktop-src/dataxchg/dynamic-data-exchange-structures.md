@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "104035300"
 ---
-# <a name="dde-structures"></a><span data-ttu-id="fc7a5-104">DDE 結構</span><span class="sxs-lookup"><span data-stu-id="fc7a5-104">DDE Structures</span></span>
+# <a name="dde-structures"></a><span data-ttu-id="6e7d3-104">DDE 結構</span><span class="sxs-lookup"><span data-stu-id="6e7d3-104">DDE Structures</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="fc7a5-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="fc7a5-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6e7d3-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="6e7d3-105">In this section</span></span>
 
--   [<span data-ttu-id="fc7a5-106">**DDEACK**</span><span class="sxs-lookup"><span data-stu-id="fc7a5-106">**DDEACK**</span></span>](/windows/desktop/api/Dde/ns-dde-ddeack)
--   [<span data-ttu-id="fc7a5-107">**DDEADVISE**</span><span class="sxs-lookup"><span data-stu-id="fc7a5-107">**DDEADVISE**</span></span>](/windows/desktop/api/Dde/ns-dde-ddeadvise)
--   [<span data-ttu-id="fc7a5-108">**DDEDATA**</span><span class="sxs-lookup"><span data-stu-id="fc7a5-108">**DDEDATA**</span></span>](/windows/desktop/api/Dde/ns-dde-ddedata)
--   [<span data-ttu-id="fc7a5-109">**DDEPOKE**</span><span class="sxs-lookup"><span data-stu-id="fc7a5-109">**DDEPOKE**</span></span>](/windows/desktop/api/Dde/ns-dde-ddepoke)
--   [<span data-ttu-id="fc7a5-110">**HSZPAIR**</span><span class="sxs-lookup"><span data-stu-id="fc7a5-110">**HSZPAIR**</span></span>](/windows/win32/api/ddeml/ns-ddeml-hszpair)
+-   [<span data-ttu-id="6e7d3-106">**DDEACK**</span><span class="sxs-lookup"><span data-stu-id="6e7d3-106">**DDEACK**</span></span>](/windows/desktop/api/Dde/ns-dde-ddeack)
+-   [<span data-ttu-id="6e7d3-107">**DDEADVISE**</span><span class="sxs-lookup"><span data-stu-id="6e7d3-107">**DDEADVISE**</span></span>](/windows/desktop/api/Dde/ns-dde-ddeadvise)
+-   [<span data-ttu-id="6e7d3-108">**DDEDATA**</span><span class="sxs-lookup"><span data-stu-id="6e7d3-108">**DDEDATA**</span></span>](/windows/desktop/api/Dde/ns-dde-ddedata)
+-   [<span data-ttu-id="6e7d3-109">**DDEPOKE**</span><span class="sxs-lookup"><span data-stu-id="6e7d3-109">**DDEPOKE**</span></span>](/windows/desktop/api/Dde/ns-dde-ddepoke)
+-   [<span data-ttu-id="6e7d3-110">**HSZPAIR**</span><span class="sxs-lookup"><span data-stu-id="6e7d3-110">**HSZPAIR**</span></span>](/windows/win32/api/ddeml/ns-ddeml-hszpair)
 
  
 

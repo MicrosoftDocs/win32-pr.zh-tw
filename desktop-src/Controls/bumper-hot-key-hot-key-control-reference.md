@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "104035262"
 ---
-# <a name="hot-key-control-reference"></a><span data-ttu-id="0c66a-103">快速鍵控制參考</span><span class="sxs-lookup"><span data-stu-id="0c66a-103">Hot Key Control Reference</span></span>
+# <a name="hot-key-control-reference"></a><span data-ttu-id="dab48-103">快速鍵控制參考</span><span class="sxs-lookup"><span data-stu-id="dab48-103">Hot Key Control Reference</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="0c66a-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="0c66a-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dab48-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="dab48-104">In This Section</span></span>
 
--   [<span data-ttu-id="0c66a-105">快速鍵控制訊息</span><span class="sxs-lookup"><span data-stu-id="0c66a-105">Hot Key Control Messages</span></span>](bumper-hot-key-control-reference-messages.md)
+-   [<span data-ttu-id="dab48-105">快速鍵控制訊息</span><span class="sxs-lookup"><span data-stu-id="dab48-105">Hot Key Control Messages</span></span>](bumper-hot-key-control-reference-messages.md)
 
  
 

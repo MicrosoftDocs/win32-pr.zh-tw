@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695840"
 ---
-# <a name="scalar-data-constants"></a><span data-ttu-id="7a17a-103">純量資料常數</span><span class="sxs-lookup"><span data-stu-id="7a17a-103">Scalar Data Constants</span></span>
+# <a name="scalar-data-constants"></a><span data-ttu-id="dee91-103">純量資料常數</span><span class="sxs-lookup"><span data-stu-id="dee91-103">Scalar Data Constants</span></span>
 
-<span data-ttu-id="7a17a-104">針對可延伸的純量資料常數，服務提供者廠商可以在指定的範圍內定義新值。</span><span class="sxs-lookup"><span data-stu-id="7a17a-104">For extensible scalar data constants, a service-provider vendor can define new values in a specified range.</span></span> <span data-ttu-id="7a17a-105">因為大部分的資料常數都是 **DWORD**，所以範圍0X00000000 到0x7fffffff 通常會保留給一般未來的延伸模組，而透過0xffffffff 的0x80000000 則適用于供應商專屬的延伸模組。</span><span class="sxs-lookup"><span data-stu-id="7a17a-105">Because most data constants are **DWORD** s, the range 0x00000000 through 0x7FFFFFFF is typically reserved for common future extensions, while 0x80000000 through 0xFFFFFFFF is available for vendor-specific extensions.</span></span> <span data-ttu-id="7a17a-106">假設廠商會定義值，這些值是 API 所定義之資料類型的自然延伸。</span><span class="sxs-lookup"><span data-stu-id="7a17a-106">The assumption is that a vendor would define values that are natural extensions of the datatypes defined by the API.</span></span>
+<span data-ttu-id="dee91-104">針對可延伸的純量資料常數，服務提供者廠商可以在指定的範圍內定義新值。</span><span class="sxs-lookup"><span data-stu-id="dee91-104">For extensible scalar data constants, a service-provider vendor can define new values in a specified range.</span></span> <span data-ttu-id="dee91-105">因為大部分的資料常數都是 **DWORD**，所以範圍0X00000000 到0x7fffffff 通常會保留給一般未來的延伸模組，而透過0xffffffff 的0x80000000 則適用于供應商專屬的延伸模組。</span><span class="sxs-lookup"><span data-stu-id="dee91-105">Because most data constants are **DWORD** s, the range 0x00000000 through 0x7FFFFFFF is typically reserved for common future extensions, while 0x80000000 through 0xFFFFFFFF is available for vendor-specific extensions.</span></span> <span data-ttu-id="dee91-106">假設廠商會定義值，這些值是 API 所定義之資料類型的自然延伸。</span><span class="sxs-lookup"><span data-stu-id="dee91-106">The assumption is that a vendor would define values that are natural extensions of the datatypes defined by the API.</span></span>
 
  
 

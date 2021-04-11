@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852907"
 ---
-# <a name="ieaxisysteminstaller-methods"></a><span data-ttu-id="abb40-103">IeAxiSystemInstaller 方法</span><span class="sxs-lookup"><span data-stu-id="abb40-103">IeAxiSystemInstaller Methods</span></span>
+# <a name="ieaxisysteminstaller-methods"></a><span data-ttu-id="4fe98-103">IeAxiSystemInstaller 方法</span><span class="sxs-lookup"><span data-stu-id="4fe98-103">IeAxiSystemInstaller Methods</span></span>
 
-<span data-ttu-id="abb40-104">[**IeAxiSystemInstaller**](ieaxisysteminstaller.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="abb40-104">The [**IeAxiSystemInstaller**](ieaxisysteminstaller.md) interface exposes the following methods.</span></span>
+<span data-ttu-id="4fe98-104">[**IeAxiSystemInstaller**](ieaxisysteminstaller.md)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="4fe98-104">The [**IeAxiSystemInstaller**](ieaxisysteminstaller.md) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="abb40-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="abb40-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4fe98-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="4fe98-105">In this section</span></span>
 
--   [<span data-ttu-id="abb40-106">**InitializeSystemInstaller 方法**</span><span class="sxs-lookup"><span data-stu-id="abb40-106">**InitializeSystemInstaller Method**</span></span>](ieaxisysteminstaller-initializesysteminstaller.md)
+-   [<span data-ttu-id="4fe98-106">**InitializeSystemInstaller 方法**</span><span class="sxs-lookup"><span data-stu-id="4fe98-106">**InitializeSystemInstaller Method**</span></span>](ieaxisysteminstaller-initializesysteminstaller.md)
 
  
 

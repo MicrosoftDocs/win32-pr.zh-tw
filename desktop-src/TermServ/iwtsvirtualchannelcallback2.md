@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853707"
 ---
-# <a name="iwtsvirtualchannelcallback2-interface"></a><span data-ttu-id="212a9-106">IWTSVirtualChannelCallback2 介面</span><span class="sxs-lookup"><span data-stu-id="212a9-106">IWTSVirtualChannelCallback2 interface</span></span>
+# <a name="iwtsvirtualchannelcallback2-interface"></a><span data-ttu-id="8ea5d-106">IWTSVirtualChannelCallback2 介面</span><span class="sxs-lookup"><span data-stu-id="8ea5d-106">IWTSVirtualChannelCallback2 interface</span></span>
 
-<span data-ttu-id="212a9-107">不支援此介面。</span><span class="sxs-lookup"><span data-stu-id="212a9-107">This interface is not supported.</span></span>
+<span data-ttu-id="8ea5d-107">不支援此介面。</span><span class="sxs-lookup"><span data-stu-id="8ea5d-107">This interface is not supported.</span></span>
 
  
 

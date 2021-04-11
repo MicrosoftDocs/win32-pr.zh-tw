@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/23/2021
 ms.locfileid: "103853183"
 ---
-# <a name="getting-the-virtual-machine-dns-name"></a><span data-ttu-id="bb1ad-103">取得虛擬機器 DNS 名稱</span><span class="sxs-lookup"><span data-stu-id="bb1ad-103">Getting the virtual machine DNS name</span></span>
+# <a name="getting-the-virtual-machine-dns-name"></a><span data-ttu-id="9e46a-103">取得虛擬機器 DNS 名稱</span><span class="sxs-lookup"><span data-stu-id="9e46a-103">Getting the virtual machine DNS name</span></span>
 
-<span data-ttu-id="bb1ad-104">下列 c # 和 Visual Basic Scripting Edition (VBScript) 範例會取得虛擬機器的 DNS 名稱。</span><span class="sxs-lookup"><span data-stu-id="bb1ad-104">The following C# and Visual Basic Scripting Edition (VBScript) samples retrieve the DNS name of the virtual machine.</span></span>
+<span data-ttu-id="9e46a-104">下列 c # 和 Visual Basic Scripting Edition (VBScript) 範例會取得虛擬機器的 DNS 名稱。</span><span class="sxs-lookup"><span data-stu-id="9e46a-104">The following C# and Visual Basic Scripting Edition (VBScript) samples retrieve the DNS name of the virtual machine.</span></span>
 
-<span data-ttu-id="bb1ad-105">若要執行此範例程式碼，您必須安裝用戶端 integration services，而且用戶端作業系統必須正在執行。</span><span class="sxs-lookup"><span data-stu-id="bb1ad-105">To run this sample code, you must install the client integration services and the client operating system must be running.</span></span>
+<span data-ttu-id="9e46a-105">若要執行此範例程式碼，您必須安裝用戶端 integration services，而且用戶端作業系統必須正在執行。</span><span class="sxs-lookup"><span data-stu-id="9e46a-105">To run this sample code, you must install the client integration services and the client operating system must be running.</span></span>
 
 
 ```CSharp
@@ -270,10 +270,10 @@ Function Format1(myString, arg0)
 End Function
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="bb1ad-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="bb1ad-106">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9e46a-106">相關主題</span><span class="sxs-lookup"><span data-stu-id="9e46a-106">Related topics</span></span>
 
-[<span data-ttu-id="bb1ad-107">虛擬化範例 (V2) 的常見公用程式 </span><span class="sxs-lookup"><span data-stu-id="bb1ad-107">Common utilities for the virtualization samples (V2)</span></span>](common-utilities-for-the-virtualization-samples-v2.md)
+[<span data-ttu-id="9e46a-107">虛擬化範例 (V2) 的常見公用程式 </span><span class="sxs-lookup"><span data-stu-id="9e46a-107">Common utilities for the virtualization samples (V2)</span></span>](common-utilities-for-the-virtualization-samples-v2.md)
 
-[<span data-ttu-id="bb1ad-108">**Msvm \_**</span><span class="sxs-lookup"><span data-stu-id="bb1ad-108">**Msvm\_ComputerSystem**</span></span>](msvm-computersystem.md)
+[<span data-ttu-id="9e46a-108">**Msvm \_**</span><span class="sxs-lookup"><span data-stu-id="9e46a-108">**Msvm\_ComputerSystem**</span></span>](msvm-computersystem.md)
 
-[<span data-ttu-id="bb1ad-109">**Msvm \_ KvpExchangeComponent**</span><span class="sxs-lookup"><span data-stu-id="bb1ad-109">**Msvm\_KvpExchangeComponent**</span></span>](msvm-kvpexchangecomponent.md)
+[<span data-ttu-id="9e46a-109">**Msvm \_ KvpExchangeComponent**</span><span class="sxs-lookup"><span data-stu-id="9e46a-109">**Msvm\_KvpExchangeComponent**</span></span>](msvm-kvpexchangecomponent.md)

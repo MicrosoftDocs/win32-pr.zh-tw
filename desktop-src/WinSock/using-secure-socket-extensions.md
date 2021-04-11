@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945121"
 ---
-# <a name="using-secure-socket-extensions"></a><span data-ttu-id="384c0-103">使用安全通訊端擴充功能</span><span class="sxs-lookup"><span data-stu-id="384c0-103">Using Secure Socket Extensions</span></span>
+# <a name="using-secure-socket-extensions"></a><span data-ttu-id="84802-103">使用安全通訊端擴充功能</span><span class="sxs-lookup"><span data-stu-id="84802-103">Using Secure Socket Extensions</span></span>
 
-<span data-ttu-id="384c0-104">下列範例程式碼示範 Winsock 安全通訊端擴充功能的使用方式。</span><span class="sxs-lookup"><span data-stu-id="384c0-104">The following example code demonstrates the usage of the Winsock secure socket extension functions.</span></span>
+<span data-ttu-id="84802-104">下列範例程式碼示範 Winsock 安全通訊端擴充功能的使用方式。</span><span class="sxs-lookup"><span data-stu-id="84802-104">The following example code demonstrates the usage of the Winsock secure socket extension functions.</span></span>
 
-## <a name="securing-a-socket"></a><span data-ttu-id="384c0-105">保護通訊端</span><span class="sxs-lookup"><span data-stu-id="384c0-105">Securing a Socket</span></span>
+## <a name="securing-a-socket"></a><span data-ttu-id="84802-105">保護通訊端</span><span class="sxs-lookup"><span data-stu-id="84802-105">Securing a Socket</span></span>
 
 
 ```C++
@@ -194,7 +194,7 @@ Return Value:
 
 
 
-## <a name="querying-the-security-on-a-socket"></a><span data-ttu-id="384c0-106">查詢通訊端上的安全性</span><span class="sxs-lookup"><span data-stu-id="384c0-106">Querying the Security on a Socket</span></span>
+## <a name="querying-the-security-on-a-socket"></a><span data-ttu-id="84802-106">查詢通訊端上的安全性</span><span class="sxs-lookup"><span data-stu-id="84802-106">Querying the Security on a Socket</span></span>
 
 
 ```C++
@@ -278,35 +278,35 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="384c0-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="384c0-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="84802-107">相關主題</span><span class="sxs-lookup"><span data-stu-id="84802-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="384c0-108">關於 Windows 篩選平台</span><span class="sxs-lookup"><span data-stu-id="384c0-108">About Windows Filtering Platform</span></span>](../fwp/about-windows-filtering-platform.md)
+[<span data-ttu-id="84802-108">關於 Windows 篩選平台</span><span class="sxs-lookup"><span data-stu-id="84802-108">About Windows Filtering Platform</span></span>](../fwp/about-windows-filtering-platform.md)
 </dt> <dt>
 
-[<span data-ttu-id="384c0-109">使用安全通訊端延伸模組的 Advanced Winsock 範例</span><span class="sxs-lookup"><span data-stu-id="384c0-109">Advanced Winsock Samples Using Secure Socket Extensions</span></span>](advanced-winsock-samples-using-secure-socket-extensions.md)
+[<span data-ttu-id="84802-109">使用安全通訊端延伸模組的 Advanced Winsock 範例</span><span class="sxs-lookup"><span data-stu-id="84802-109">Advanced Winsock Samples Using Secure Socket Extensions</span></span>](advanced-winsock-samples-using-secure-socket-extensions.md)
 </dt> <dt>
 
-[<span data-ttu-id="384c0-110">應用層強制 (ALE) </span><span class="sxs-lookup"><span data-stu-id="384c0-110">Application Layer Enforcement (ALE)</span></span>](../fwp/application-layer-enforcement--ale-.md)
+[<span data-ttu-id="84802-110">應用層強制 (ALE) </span><span class="sxs-lookup"><span data-stu-id="84802-110">Application Layer Enforcement (ALE)</span></span>](../fwp/application-layer-enforcement--ale-.md)
 </dt> <dt>
 
-[<span data-ttu-id="384c0-111">IPsec 設定</span><span class="sxs-lookup"><span data-stu-id="384c0-111">IPsec Configuration</span></span>](../fwp/ipsec-configuration.md)
+[<span data-ttu-id="84802-111">IPsec 設定</span><span class="sxs-lookup"><span data-stu-id="84802-111">IPsec Configuration</span></span>](../fwp/ipsec-configuration.md)
 </dt> <dt>
 
-[<span data-ttu-id="384c0-112">IPsec 功能</span><span class="sxs-lookup"><span data-stu-id="384c0-112">IPsec Functions</span></span>](../fwp/fwp-ipsec-functions.md)
+[<span data-ttu-id="84802-112">IPsec 功能</span><span class="sxs-lookup"><span data-stu-id="84802-112">IPsec Functions</span></span>](../fwp/fwp-ipsec-functions.md)
 </dt> <dt>
 
-[<span data-ttu-id="384c0-113">安全性支援提供者介面 (SSPI)</span><span class="sxs-lookup"><span data-stu-id="384c0-113">Security Support Provider Interface (SSPI)</span></span>](../rpc/security-support-provider-interface-sspi-.md)
+[<span data-ttu-id="84802-113">安全性支援提供者介面 (SSPI)</span><span class="sxs-lookup"><span data-stu-id="84802-113">Security Support Provider Interface (SSPI)</span></span>](../rpc/security-support-provider-interface-sspi-.md)
 </dt> <dt>
 
-[<span data-ttu-id="384c0-114">Windows 篩選平台</span><span class="sxs-lookup"><span data-stu-id="384c0-114">Windows Filtering Platform</span></span>](../fwp/windows-filtering-platform-start-page.md)
+[<span data-ttu-id="84802-114">Windows 篩選平台</span><span class="sxs-lookup"><span data-stu-id="84802-114">Windows Filtering Platform</span></span>](../fwp/windows-filtering-platform-start-page.md)
 </dt> <dt>
 
-[<span data-ttu-id="384c0-115">Windows 篩選平台 API 函式</span><span class="sxs-lookup"><span data-stu-id="384c0-115">Windows Filtering Platform API Functions</span></span>](../fwp/fwp-functions.md)
+[<span data-ttu-id="84802-115">Windows 篩選平台 API 函式</span><span class="sxs-lookup"><span data-stu-id="84802-115">Windows Filtering Platform API Functions</span></span>](../fwp/fwp-functions.md)
 </dt> <dt>
 
-[<span data-ttu-id="384c0-116">Winsock 安全通訊端擴充功能</span><span class="sxs-lookup"><span data-stu-id="384c0-116">Winsock Secure Socket Extensions</span></span>](winsock-secure-socket-extensions.md)
+[<span data-ttu-id="84802-116">Winsock 安全通訊端擴充功能</span><span class="sxs-lookup"><span data-stu-id="84802-116">Winsock Secure Socket Extensions</span></span>](winsock-secure-socket-extensions.md)
 </dt> </dl>
 
  

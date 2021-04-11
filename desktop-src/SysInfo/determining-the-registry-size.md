@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103853107"
 ---
-# <a name="determining-the-registry-size"></a><span data-ttu-id="b93b0-103">判斷登錄大小</span><span class="sxs-lookup"><span data-stu-id="b93b0-103">Determining the Registry Size</span></span>
+# <a name="determining-the-registry-size"></a><span data-ttu-id="b0b7b-103">判斷登錄大小</span><span class="sxs-lookup"><span data-stu-id="b0b7b-103">Determining the Registry Size</span></span>
 
-<span data-ttu-id="b93b0-104">在 Windows 2000 上，安裝公用程式通常會檢查登錄的目前大小和大小上限，以判斷是否有足夠的可用空間來容納即將新增的新資料。</span><span class="sxs-lookup"><span data-stu-id="b93b0-104">On Windows 2000, it is common for an installation utility to check the current and maximum size of the registry to determine whether there is enough available space for the new data it will be adding.</span></span> <span data-ttu-id="b93b0-105">這個範例示範如何使用系統物件內的「% Registry 配額使用中」效能計數器，以程式設計方式執行此作業。</span><span class="sxs-lookup"><span data-stu-id="b93b0-105">This sample demonstrates how to do this programmatically using the "% Registry Quota In Use" performance counter within the System object.</span></span>
+<span data-ttu-id="b0b7b-104">在 Windows 2000 上，安裝公用程式通常會檢查登錄的目前大小和大小上限，以判斷是否有足夠的可用空間來容納即將新增的新資料。</span><span class="sxs-lookup"><span data-stu-id="b0b7b-104">On Windows 2000, it is common for an installation utility to check the current and maximum size of the registry to determine whether there is enough available space for the new data it will be adding.</span></span> <span data-ttu-id="b0b7b-105">這個範例示範如何使用系統物件內的「% Registry 配額使用中」效能計數器，以程式設計方式執行此作業。</span><span class="sxs-lookup"><span data-stu-id="b0b7b-105">This sample demonstrates how to do this programmatically using the "% Registry Quota In Use" performance counter within the System object.</span></span>
 
-<span data-ttu-id="b93b0-106">下列範例會使用效能資料協助程式 (PDH) 來取得計數器值;它必須與 Pdh 連結。</span><span class="sxs-lookup"><span data-stu-id="b93b0-106">The following sample uses performance data helper (PDH) to obtain the counter value; it must be linked with Pdh.lib.</span></span> <span data-ttu-id="b93b0-107">PDH 是一組高層級的 Api，用來取得效能資料。</span><span class="sxs-lookup"><span data-stu-id="b93b0-107">PDH is a high-level set of APIs used to obtain performance data.</span></span>
+<span data-ttu-id="b0b7b-106">下列範例會使用效能資料協助程式 (PDH) 來取得計數器值;它必須與 Pdh 連結。</span><span class="sxs-lookup"><span data-stu-id="b0b7b-106">The following sample uses performance data helper (PDH) to obtain the counter value; it must be linked with Pdh.lib.</span></span> <span data-ttu-id="b0b7b-107">PDH 是一組高層級的 Api，用來取得效能資料。</span><span class="sxs-lookup"><span data-stu-id="b0b7b-107">PDH is a high-level set of APIs used to obtain performance data.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="b93b0-108">不需要在 Windows Server 2003 或 Windows XP 上執行此登錄大小檢查，因為它們沒有登錄配額限制。</span><span class="sxs-lookup"><span data-stu-id="b93b0-108">It is not necessary to implement this registry size-check on Windows Server 2003 or Windows XP because they do not have a registry quota limit.</span></span>
+> <span data-ttu-id="b0b7b-108">不需要在 Windows Server 2003 或 Windows XP 上執行此登錄大小檢查，因為它們沒有登錄配額限制。</span><span class="sxs-lookup"><span data-stu-id="b0b7b-108">It is not necessary to implement this registry size-check on Windows Server 2003 or Windows XP because they do not have a registry quota limit.</span></span>
 
  
 

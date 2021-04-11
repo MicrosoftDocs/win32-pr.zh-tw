@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694127"
 ---
-# <a name="socket-groups-in-the-windows-sockets-2-spi"></a><span data-ttu-id="22106-103">Windows 通訊端 2 SPI 中的通訊端群組</span><span class="sxs-lookup"><span data-stu-id="22106-103">Socket Groups in the Windows Sockets 2 SPI</span></span>
+# <a name="socket-groups-in-the-windows-sockets-2-spi"></a><span data-ttu-id="b24bc-103">Windows 通訊端 2 SPI 中的通訊端群組</span><span class="sxs-lookup"><span data-stu-id="b24bc-103">Socket Groups in the Windows Sockets 2 SPI</span></span>
 
-<span data-ttu-id="22106-104">通訊端群組的所有使用都是保留的。</span><span class="sxs-lookup"><span data-stu-id="22106-104">All use of socket groups is reserved.</span></span>
+<span data-ttu-id="b24bc-104">通訊端群組的所有使用都是保留的。</span><span class="sxs-lookup"><span data-stu-id="b24bc-104">All use of socket groups is reserved.</span></span>
 
  
 

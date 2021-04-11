@@ -22,13 +22,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "104092671"
 ---
-# <a name="basicdevicecanwakedevices-property"></a><span data-ttu-id="889f9-106">BasicDevice. CanWakeDevices 屬性</span><span class="sxs-lookup"><span data-stu-id="889f9-106">BasicDevice.CanWakeDevices property</span></span>
+# <a name="basicdevicecanwakedevices-property"></a><span data-ttu-id="3a575-106">BasicDevice. CanWakeDevices 屬性</span><span class="sxs-lookup"><span data-stu-id="3a575-106">BasicDevice.CanWakeDevices property</span></span>
 
-<span data-ttu-id="889f9-107">取得值，這個值會指出裝置是否可以喚醒。</span><span class="sxs-lookup"><span data-stu-id="889f9-107">Gets a value that indicates if the device can wake.</span></span>
+<span data-ttu-id="3a575-107">取得值，這個值會指出裝置是否可以喚醒。</span><span class="sxs-lookup"><span data-stu-id="3a575-107">Gets a value that indicates if the device can wake.</span></span>
 
-<span data-ttu-id="889f9-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="889f9-108">This property is read-only.</span></span>
+<span data-ttu-id="3a575-108">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="3a575-108">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="889f9-109">語法</span><span class="sxs-lookup"><span data-stu-id="889f9-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3a575-109">語法</span><span class="sxs-lookup"><span data-stu-id="3a575-109">Syntax</span></span>
 
 
 ```C++
@@ -39,15 +39,15 @@ HRESULT get_CanWakeDevices(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="889f9-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="889f9-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="3a575-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="3a575-110">Property value</span></span>
 
-<span data-ttu-id="889f9-111">布林值的指標，如果裝置可以喚醒則為 **True** 。</span><span class="sxs-lookup"><span data-stu-id="889f9-111">A pointer to a boolean value that is **True** if the device can wake.</span></span>
+<span data-ttu-id="3a575-111">布林值的指標，如果裝置可以喚醒則為 **True** 。</span><span class="sxs-lookup"><span data-stu-id="3a575-111">A pointer to a boolean value that is **True** if the device can wake.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="889f9-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="889f9-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a575-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3a575-112">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="889f9-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="889f9-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span></span>
+<span data-ttu-id="3a575-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="3a575-113">[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))</span></span>
 </dt> </dl>
 
  

@@ -22,68 +22,68 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853627"
 ---
-# <a name="inapenforcementclientconnection2-interface"></a><span data-ttu-id="81735-106">INapEnforcementClientConnection2 介面</span><span class="sxs-lookup"><span data-stu-id="81735-106">INapEnforcementClientConnection2 interface</span></span>
+# <a name="inapenforcementclientconnection2-interface"></a><span data-ttu-id="8e52c-106">INapEnforcementClientConnection2 介面</span><span class="sxs-lookup"><span data-stu-id="8e52c-106">INapEnforcementClientConnection2 interface</span></span>
 
 > [!Note]  
-> <span data-ttu-id="81735-107">從 Windows 10 開始，無法使用網路存取保護平臺</span><span class="sxs-lookup"><span data-stu-id="81735-107">The Network Access Protection platform is not available starting with Windows 10</span></span>
+> <span data-ttu-id="8e52c-107">從 Windows 10 開始，無法使用網路存取保護平臺</span><span class="sxs-lookup"><span data-stu-id="8e52c-107">The Network Access Protection platform is not available starting with Windows 10</span></span>
 
  
 
-<span data-ttu-id="81735-108">**INapEnforcementClientConnection2** 提供允許用戶端連接管理的方法。</span><span class="sxs-lookup"><span data-stu-id="81735-108">The **INapEnforcementClientConnection2** provides methods that allow for client connection management.</span></span>
+<span data-ttu-id="8e52c-108">**INapEnforcementClientConnection2** 提供允許用戶端連接管理的方法。</span><span class="sxs-lookup"><span data-stu-id="8e52c-108">The **INapEnforcementClientConnection2** provides methods that allow for client connection management.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="81735-109">此介面會繼承 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md) 的所有方法，因此應該改用。</span><span class="sxs-lookup"><span data-stu-id="81735-109">This interface inherits all the methods of [**INapEnforcementClientConnection**](inapenforcementclientconnection.md) and should be used instead.</span></span>
+> <span data-ttu-id="8e52c-109">此介面會繼承 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md) 的所有方法，因此應該改用。</span><span class="sxs-lookup"><span data-stu-id="8e52c-109">This interface inherits all the methods of [**INapEnforcementClientConnection**](inapenforcementclientconnection.md) and should be used instead.</span></span>
 
  
 
-## <a name="members"></a><span data-ttu-id="81735-110">成員</span><span class="sxs-lookup"><span data-stu-id="81735-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="8e52c-110">成員</span><span class="sxs-lookup"><span data-stu-id="8e52c-110">Members</span></span>
 
-<span data-ttu-id="81735-111">**INapEnforcementClientConnection2** 介面繼承自 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)。</span><span class="sxs-lookup"><span data-stu-id="81735-111">The **INapEnforcementClientConnection2** interface inherits from [**INapEnforcementClientConnection**](inapenforcementclientconnection.md).</span></span> <span data-ttu-id="81735-112">**INapEnforcementClientConnection2** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="81735-112">**INapEnforcementClientConnection2** also has these types of members:</span></span>
+<span data-ttu-id="8e52c-111">**INapEnforcementClientConnection2** 介面繼承自 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)。</span><span class="sxs-lookup"><span data-stu-id="8e52c-111">The **INapEnforcementClientConnection2** interface inherits from [**INapEnforcementClientConnection**](inapenforcementclientconnection.md).</span></span> <span data-ttu-id="8e52c-112">**INapEnforcementClientConnection2** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="8e52c-112">**INapEnforcementClientConnection2** also has these types of members:</span></span>
 
--   [<span data-ttu-id="81735-113">方法</span><span class="sxs-lookup"><span data-stu-id="81735-113">Methods</span></span>](#methods)
+-   [<span data-ttu-id="8e52c-113">方法</span><span class="sxs-lookup"><span data-stu-id="8e52c-113">Methods</span></span>](#methods)
 
-### <a name="methods"></a><span data-ttu-id="81735-114">方法</span><span class="sxs-lookup"><span data-stu-id="81735-114">Methods</span></span>
+### <a name="methods"></a><span data-ttu-id="8e52c-114">方法</span><span class="sxs-lookup"><span data-stu-id="8e52c-114">Methods</span></span>
 
-<span data-ttu-id="81735-115">**INapEnforcementClientConnection2** 介面具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="81735-115">The **INapEnforcementClientConnection2** interface has these methods.</span></span>
+<span data-ttu-id="8e52c-115">**INapEnforcementClientConnection2** 介面具有這些方法。</span><span class="sxs-lookup"><span data-stu-id="8e52c-115">The **INapEnforcementClientConnection2** interface has these methods.</span></span>
 
 
 
-| <span data-ttu-id="81735-116">方法</span><span class="sxs-lookup"><span data-stu-id="81735-116">Method</span></span>                                                                                                              | <span data-ttu-id="81735-117">描述</span><span class="sxs-lookup"><span data-stu-id="81735-117">Description</span></span>                                                                      |
+| <span data-ttu-id="8e52c-116">方法</span><span class="sxs-lookup"><span data-stu-id="8e52c-116">Method</span></span>                                                                                                              | <span data-ttu-id="8e52c-117">描述</span><span class="sxs-lookup"><span data-stu-id="8e52c-117">Description</span></span>                                                                      |
 |:--------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [<span data-ttu-id="81735-118">**INapEnforcementClientConnection2::GetInstalledShvs**</span><span class="sxs-lookup"><span data-stu-id="81735-118">**INapEnforcementClientConnection2::GetInstalledShvs**</span></span>](inapenforcementclientconnection2-getinstalledshvs.md)     | <span data-ttu-id="81735-119">用來取得用戶端已安裝之 Shv 的識別碼。</span><span class="sxs-lookup"><span data-stu-id="81735-119">Used to get the IDs of the installed SHVs for the client.</span></span><br/>             |
-| [<span data-ttu-id="81735-120">**INapEnforcementClientConnection2::GetIsolationInfoEx**</span><span class="sxs-lookup"><span data-stu-id="81735-120">**INapEnforcementClientConnection2::GetIsolationInfoEx**</span></span>](inapenforcementclientconnection2-getisolationinfoex.md) | <span data-ttu-id="81735-121">用來取得用戶端的隔離資訊。</span><span class="sxs-lookup"><span data-stu-id="81735-121">Used to get the isolation information for the client.</span></span><br/>                 |
-| [<span data-ttu-id="81735-122">**INapEnforcementClientConnection2::SetInstalledShvs**</span><span class="sxs-lookup"><span data-stu-id="81735-122">**INapEnforcementClientConnection2::SetInstalledShvs**</span></span>](inapenforcementclientconnection2-setinstalledshvs.md)     | <span data-ttu-id="81735-123">供 NapAgent 用來設定用戶端已安裝的 SHV 識別碼。</span><span class="sxs-lookup"><span data-stu-id="81735-123">Used by the NapAgent to set the installed SHV IDs for the client.</span></span><br/>     |
-| [<span data-ttu-id="81735-124">**INapEnforcementClientConnection2::SetIsolationInfoEx**</span><span class="sxs-lookup"><span data-stu-id="81735-124">**INapEnforcementClientConnection2::SetIsolationInfoEx**</span></span>](inapenforcementclientconnection2-setisolationinfoex.md) | <span data-ttu-id="81735-125">供 NapAgent 用來設定用戶端的隔離資訊。</span><span class="sxs-lookup"><span data-stu-id="81735-125">Used by the NapAgent to set the isolation information for the client.</span></span><br/> |
+| [<span data-ttu-id="8e52c-118">**INapEnforcementClientConnection2::GetInstalledShvs**</span><span class="sxs-lookup"><span data-stu-id="8e52c-118">**INapEnforcementClientConnection2::GetInstalledShvs**</span></span>](inapenforcementclientconnection2-getinstalledshvs.md)     | <span data-ttu-id="8e52c-119">用來取得用戶端已安裝之 Shv 的識別碼。</span><span class="sxs-lookup"><span data-stu-id="8e52c-119">Used to get the IDs of the installed SHVs for the client.</span></span><br/>             |
+| [<span data-ttu-id="8e52c-120">**INapEnforcementClientConnection2::GetIsolationInfoEx**</span><span class="sxs-lookup"><span data-stu-id="8e52c-120">**INapEnforcementClientConnection2::GetIsolationInfoEx**</span></span>](inapenforcementclientconnection2-getisolationinfoex.md) | <span data-ttu-id="8e52c-121">用來取得用戶端的隔離資訊。</span><span class="sxs-lookup"><span data-stu-id="8e52c-121">Used to get the isolation information for the client.</span></span><br/>                 |
+| [<span data-ttu-id="8e52c-122">**INapEnforcementClientConnection2::SetInstalledShvs**</span><span class="sxs-lookup"><span data-stu-id="8e52c-122">**INapEnforcementClientConnection2::SetInstalledShvs**</span></span>](inapenforcementclientconnection2-setinstalledshvs.md)     | <span data-ttu-id="8e52c-123">供 NapAgent 用來設定用戶端已安裝的 SHV 識別碼。</span><span class="sxs-lookup"><span data-stu-id="8e52c-123">Used by the NapAgent to set the installed SHV IDs for the client.</span></span><br/>     |
+| [<span data-ttu-id="8e52c-124">**INapEnforcementClientConnection2::SetIsolationInfoEx**</span><span class="sxs-lookup"><span data-stu-id="8e52c-124">**INapEnforcementClientConnection2::SetIsolationInfoEx**</span></span>](inapenforcementclientconnection2-setisolationinfoex.md) | <span data-ttu-id="8e52c-125">供 NapAgent 用來設定用戶端的隔離資訊。</span><span class="sxs-lookup"><span data-stu-id="8e52c-125">Used by the NapAgent to set the isolation information for the client.</span></span><br/> |
 
 
 
  
 
-## <a name="requirements"></a><span data-ttu-id="81735-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="81735-126">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8e52c-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="8e52c-126">Requirements</span></span>
 
 
 
-| <span data-ttu-id="81735-127">需求</span><span class="sxs-lookup"><span data-stu-id="81735-127">Requirement</span></span> | <span data-ttu-id="81735-128">值</span><span class="sxs-lookup"><span data-stu-id="81735-128">Value</span></span> |
+| <span data-ttu-id="8e52c-127">需求</span><span class="sxs-lookup"><span data-stu-id="8e52c-127">Requirement</span></span> | <span data-ttu-id="8e52c-128">值</span><span class="sxs-lookup"><span data-stu-id="8e52c-128">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="81735-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="81735-129">Minimum supported client</span></span><br/> | <span data-ttu-id="81735-130">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="81735-130">Windows Vista \[desktop apps only\]</span></span><br/>                                                      |
-| <span data-ttu-id="81735-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="81735-131">Minimum supported server</span></span><br/> | <span data-ttu-id="81735-132">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="81735-132">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                |
-| <span data-ttu-id="81735-133">標頭</span><span class="sxs-lookup"><span data-stu-id="81735-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="81735-134"><dt>NapEnforcementClient。h</dt></span><span class="sxs-lookup"><span data-stu-id="81735-134"><dt>NapEnforcementClient.h</dt></span></span> </dl>   |
-| <span data-ttu-id="81735-135">Idl</span><span class="sxs-lookup"><span data-stu-id="81735-135">IDL</span></span><br/>                      | <dl> <span data-ttu-id="81735-136"><dt>NapEnforcementClient .idl</dt></span><span class="sxs-lookup"><span data-stu-id="81735-136"><dt>NapEnforcementClient.idl</dt></span></span> </dl> |
-| <span data-ttu-id="81735-137">DLL</span><span class="sxs-lookup"><span data-stu-id="81735-137">DLL</span></span><br/>                      | <dl> <span data-ttu-id="81735-138"><dt>Qagent.dll</dt></span><span class="sxs-lookup"><span data-stu-id="81735-138"><dt>Qagent.dll</dt></span></span> </dl>               |
+| <span data-ttu-id="8e52c-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8e52c-129">Minimum supported client</span></span><br/> | <span data-ttu-id="8e52c-130">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8e52c-130">Windows Vista \[desktop apps only\]</span></span><br/>                                                      |
+| <span data-ttu-id="8e52c-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8e52c-131">Minimum supported server</span></span><br/> | <span data-ttu-id="8e52c-132">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8e52c-132">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                |
+| <span data-ttu-id="8e52c-133">標頭</span><span class="sxs-lookup"><span data-stu-id="8e52c-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="8e52c-134"><dt>NapEnforcementClient。h</dt></span><span class="sxs-lookup"><span data-stu-id="8e52c-134"><dt>NapEnforcementClient.h</dt></span></span> </dl>   |
+| <span data-ttu-id="8e52c-135">Idl</span><span class="sxs-lookup"><span data-stu-id="8e52c-135">IDL</span></span><br/>                      | <dl> <span data-ttu-id="8e52c-136"><dt>NapEnforcementClient .idl</dt></span><span class="sxs-lookup"><span data-stu-id="8e52c-136"><dt>NapEnforcementClient.idl</dt></span></span> </dl> |
+| <span data-ttu-id="8e52c-137">DLL</span><span class="sxs-lookup"><span data-stu-id="8e52c-137">DLL</span></span><br/>                      | <dl> <span data-ttu-id="8e52c-138"><dt>Qagent.dll</dt></span><span class="sxs-lookup"><span data-stu-id="8e52c-138"><dt>Qagent.dll</dt></span></span> </dl>               |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="81735-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="81735-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e52c-139">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8e52c-139">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="81735-140">**INapEnforcementClientConnection**</span><span class="sxs-lookup"><span data-stu-id="81735-140">**INapEnforcementClientConnection**</span></span>](inapenforcementclientconnection.md)
+[<span data-ttu-id="8e52c-140">**INapEnforcementClientConnection**</span><span class="sxs-lookup"><span data-stu-id="8e52c-140">**INapEnforcementClientConnection**</span></span>](inapenforcementclientconnection.md)
 </dt> <dt>
 
-[<span data-ttu-id="81735-141">NAP 介面</span><span class="sxs-lookup"><span data-stu-id="81735-141">NAP Interfaces</span></span>](nap-interfaces.md)
+[<span data-ttu-id="8e52c-141">NAP 介面</span><span class="sxs-lookup"><span data-stu-id="8e52c-141">NAP Interfaces</span></span>](nap-interfaces.md)
 </dt> <dt>
 
-[<span data-ttu-id="81735-142">NAP 參考</span><span class="sxs-lookup"><span data-stu-id="81735-142">NAP Reference</span></span>](nap-reference.md)
+[<span data-ttu-id="8e52c-142">NAP 參考</span><span class="sxs-lookup"><span data-stu-id="8e52c-142">NAP Reference</span></span>](nap-reference.md)
 </dt> </dl>
 
  

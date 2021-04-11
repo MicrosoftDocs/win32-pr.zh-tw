@@ -31,12 +31,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694860"
 ---
-# <a name="esentbadslvsignatureexception-constructor"></a><span data-ttu-id="cd07c-103">EsentBadSLVSignatureException 函式</span><span class="sxs-lookup"><span data-stu-id="cd07c-103">EsentBadSLVSignatureException constructor</span></span>
+# <a name="esentbadslvsignatureexception-constructor"></a><span data-ttu-id="af01d-103">EsentBadSLVSignatureException 函式</span><span class="sxs-lookup"><span data-stu-id="af01d-103">EsentBadSLVSignatureException constructor</span></span>
 
-<span data-ttu-id="cd07c-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="cd07c-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="cd07c-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="cd07c-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="af01d-104">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="af01d-104">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="af01d-105">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="af01d-105">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cd07c-106">語法</span><span class="sxs-lookup"><span data-stu-id="cd07c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="af01d-106">語法</span><span class="sxs-lookup"><span data-stu-id="af01d-106">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,12 +50,12 @@ Dim instance As New EsentBadSLVSignatureException()
 public EsentBadSLVSignatureException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="cd07c-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cd07c-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="af01d-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="af01d-107">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="cd07c-108">參考</span><span class="sxs-lookup"><span data-stu-id="cd07c-108">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="af01d-108">參考</span><span class="sxs-lookup"><span data-stu-id="af01d-108">Reference</span></span>
 
-[<span data-ttu-id="cd07c-109">EsentBadSLVSignatureException 類別</span><span class="sxs-lookup"><span data-stu-id="cd07c-109">EsentBadSLVSignatureException class</span></span>](./esentbadslvsignatureexception-class.md)
+[<span data-ttu-id="af01d-109">EsentBadSLVSignatureException 類別</span><span class="sxs-lookup"><span data-stu-id="af01d-109">EsentBadSLVSignatureException class</span></span>](./esentbadslvsignatureexception-class.md)
 
-[<span data-ttu-id="cd07c-110">EsentBadSLVSignatureException 成員</span><span class="sxs-lookup"><span data-stu-id="cd07c-110">EsentBadSLVSignatureException members</span></span>](./esentbadslvsignatureexception-members.md)
+[<span data-ttu-id="af01d-110">EsentBadSLVSignatureException 成員</span><span class="sxs-lookup"><span data-stu-id="af01d-110">EsentBadSLVSignatureException members</span></span>](./esentbadslvsignatureexception-members.md)
 
-[<span data-ttu-id="cd07c-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="cd07c-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="af01d-111">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="af01d-111">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

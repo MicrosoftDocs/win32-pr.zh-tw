@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853635"
 ---
-# <a name="hot-key-control-messages"></a><span data-ttu-id="1ab49-103">快速鍵控制訊息</span><span class="sxs-lookup"><span data-stu-id="1ab49-103">Hot Key Control Messages</span></span>
+# <a name="hot-key-control-messages"></a><span data-ttu-id="a3c91-103">快速鍵控制訊息</span><span class="sxs-lookup"><span data-stu-id="a3c91-103">Hot Key Control Messages</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="1ab49-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="1ab49-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a3c91-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="a3c91-104">In This Section</span></span>
 
--   [<span data-ttu-id="1ab49-105">**HKM \_ GETHOTKEY**</span><span class="sxs-lookup"><span data-stu-id="1ab49-105">**HKM\_GETHOTKEY**</span></span>](hkm-gethotkey.md)
--   [<span data-ttu-id="1ab49-106">**HKM \_ SETHOTKEY**</span><span class="sxs-lookup"><span data-stu-id="1ab49-106">**HKM\_SETHOTKEY**</span></span>](hkm-sethotkey.md)
--   [<span data-ttu-id="1ab49-107">**HKM \_ SETRULES**</span><span class="sxs-lookup"><span data-stu-id="1ab49-107">**HKM\_SETRULES**</span></span>](hkm-setrules.md)
+-   [<span data-ttu-id="a3c91-105">**HKM \_ GETHOTKEY**</span><span class="sxs-lookup"><span data-stu-id="a3c91-105">**HKM\_GETHOTKEY**</span></span>](hkm-gethotkey.md)
+-   [<span data-ttu-id="a3c91-106">**HKM \_ SETHOTKEY**</span><span class="sxs-lookup"><span data-stu-id="a3c91-106">**HKM\_SETHOTKEY**</span></span>](hkm-sethotkey.md)
+-   [<span data-ttu-id="a3c91-107">**HKM \_ SETRULES**</span><span class="sxs-lookup"><span data-stu-id="a3c91-107">**HKM\_SETRULES**</span></span>](hkm-setrules.md)
 
  
 

@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853687"
 ---
-# <a name="syslink-control-messages"></a><span data-ttu-id="4fb08-103">SysLink 控制訊息</span><span class="sxs-lookup"><span data-stu-id="4fb08-103">SysLink Control Messages</span></span>
+# <a name="syslink-control-messages"></a><span data-ttu-id="4bee9-103">SysLink 控制訊息</span><span class="sxs-lookup"><span data-stu-id="4bee9-103">SysLink Control Messages</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="4fb08-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="4fb08-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4bee9-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="4bee9-104">In This Section</span></span>
 
--   [<span data-ttu-id="4fb08-105">**LM \_ GETIDEALHEIGHT**</span><span class="sxs-lookup"><span data-stu-id="4fb08-105">**LM\_GETIDEALHEIGHT**</span></span>](lm-getidealheight.md)
--   [<span data-ttu-id="4fb08-106">**LM \_ GETIDEALSIZE**</span><span class="sxs-lookup"><span data-stu-id="4fb08-106">**LM\_GETIDEALSIZE**</span></span>](lm-getidealsize.md)
--   [<span data-ttu-id="4fb08-107">**LM \_ GETITEM**</span><span class="sxs-lookup"><span data-stu-id="4fb08-107">**LM\_GETITEM**</span></span>](lm-getitem.md)
--   [<span data-ttu-id="4fb08-108">**LM \_ SYSTEM.WINDOWS.MEDIA.VISUALTREEHELPER.HITTEST**</span><span class="sxs-lookup"><span data-stu-id="4fb08-108">**LM\_HITTEST**</span></span>](lm-hittest.md)
--   [<span data-ttu-id="4fb08-109">**LM \_ SETITEM**</span><span class="sxs-lookup"><span data-stu-id="4fb08-109">**LM\_SETITEM**</span></span>](lm-setitem.md)
+-   [<span data-ttu-id="4bee9-105">**LM \_ GETIDEALHEIGHT**</span><span class="sxs-lookup"><span data-stu-id="4bee9-105">**LM\_GETIDEALHEIGHT**</span></span>](lm-getidealheight.md)
+-   [<span data-ttu-id="4bee9-106">**LM \_ GETIDEALSIZE**</span><span class="sxs-lookup"><span data-stu-id="4bee9-106">**LM\_GETIDEALSIZE**</span></span>](lm-getidealsize.md)
+-   [<span data-ttu-id="4bee9-107">**LM \_ GETITEM**</span><span class="sxs-lookup"><span data-stu-id="4bee9-107">**LM\_GETITEM**</span></span>](lm-getitem.md)
+-   [<span data-ttu-id="4bee9-108">**LM \_ SYSTEM.WINDOWS.MEDIA.VISUALTREEHELPER.HITTEST**</span><span class="sxs-lookup"><span data-stu-id="4bee9-108">**LM\_HITTEST**</span></span>](lm-hittest.md)
+-   [<span data-ttu-id="4bee9-109">**LM \_ SETITEM**</span><span class="sxs-lookup"><span data-stu-id="4bee9-109">**LM\_SETITEM**</span></span>](lm-setitem.md)
 
  
 

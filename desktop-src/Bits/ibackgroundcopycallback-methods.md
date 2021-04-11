@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "104035266"
 ---
-# <a name="ibackgroundcopycallback-methods-bits"></a><span data-ttu-id="5e255-104"> (BITS 的 IBackgroundCopyCallback 方法) </span><span class="sxs-lookup"><span data-stu-id="5e255-104">IBackgroundCopyCallback Methods (BITS)</span></span>
+# <a name="ibackgroundcopycallback-methods-bits"></a><span data-ttu-id="ccdca-104"> (BITS 的 IBackgroundCopyCallback 方法) </span><span class="sxs-lookup"><span data-stu-id="ccdca-104">IBackgroundCopyCallback Methods (BITS)</span></span>
 
-<span data-ttu-id="5e255-105">[**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="5e255-105">The [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface exposes the following methods.</span></span>
+<span data-ttu-id="ccdca-105">[**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback)介面會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="ccdca-105">The [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="5e255-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="5e255-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ccdca-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="ccdca-106">In this section</span></span>
 
--   [<span data-ttu-id="5e255-107">**JobError 方法**</span><span class="sxs-lookup"><span data-stu-id="5e255-107">**JobError Method**</span></span>](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror)
--   [<span data-ttu-id="5e255-108">**JobModification 方法**</span><span class="sxs-lookup"><span data-stu-id="5e255-108">**JobModification Method**</span></span>](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification)
--   [<span data-ttu-id="5e255-109">**JobTransferred 方法**</span><span class="sxs-lookup"><span data-stu-id="5e255-109">**JobTransferred Method**</span></span>](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred)
+-   [<span data-ttu-id="ccdca-107">**JobError 方法**</span><span class="sxs-lookup"><span data-stu-id="ccdca-107">**JobError Method**</span></span>](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror)
+-   [<span data-ttu-id="ccdca-108">**JobModification 方法**</span><span class="sxs-lookup"><span data-stu-id="ccdca-108">**JobModification Method**</span></span>](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification)
+-   [<span data-ttu-id="ccdca-109">**JobTransferred 方法**</span><span class="sxs-lookup"><span data-stu-id="ccdca-109">**JobTransferred Method**</span></span>](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred)
 
  
 

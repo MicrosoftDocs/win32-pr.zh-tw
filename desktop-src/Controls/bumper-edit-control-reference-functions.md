@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853703"
 ---
-# <a name="edit-control-functions"></a><span data-ttu-id="ef4e7-103">編輯控制函數</span><span class="sxs-lookup"><span data-stu-id="ef4e7-103">Edit Control Functions</span></span>
+# <a name="edit-control-functions"></a><span data-ttu-id="ffe16-103">編輯控制函數</span><span class="sxs-lookup"><span data-stu-id="ffe16-103">Edit Control Functions</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="ef4e7-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="ef4e7-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ffe16-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="ffe16-104">In this section</span></span>
 
--   [<span data-ttu-id="ef4e7-105">**EditWordBreakProc**</span><span class="sxs-lookup"><span data-stu-id="ef4e7-105">**EditWordBreakProc**</span></span>](/windows/win32/api/winuser/nc-winuser-editwordbreakproca)
+-   [<span data-ttu-id="ffe16-105">**EditWordBreakProc**</span><span class="sxs-lookup"><span data-stu-id="ffe16-105">**EditWordBreakProc**</span></span>](/windows/win32/api/winuser/nc-winuser-editwordbreakproca)
 
  
 

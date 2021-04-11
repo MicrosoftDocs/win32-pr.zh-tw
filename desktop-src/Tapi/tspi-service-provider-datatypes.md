@@ -11,19 +11,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103853072"
 ---
-# <a name="tspi-service-provider-datatypes"></a><span data-ttu-id="9c5c8-103">TSPI 服務提供者資料類型</span><span class="sxs-lookup"><span data-stu-id="9c5c8-103">TSPI Service Provider Datatypes</span></span>
+# <a name="tspi-service-provider-datatypes"></a><span data-ttu-id="01e1d-103">TSPI 服務提供者資料類型</span><span class="sxs-lookup"><span data-stu-id="01e1d-103">TSPI Service Provider Datatypes</span></span>
 
-<span data-ttu-id="9c5c8-104">本節包含下列 TSPI 服務提供者資料類型的參考：</span><span class="sxs-lookup"><span data-stu-id="9c5c8-104">This section contains a reference for the following TSPI service provider datatypes:</span></span>
+<span data-ttu-id="01e1d-104">本節包含下列 TSPI 服務提供者資料類型的參考：</span><span class="sxs-lookup"><span data-stu-id="01e1d-104">This section contains a reference for the following TSPI service provider datatypes:</span></span>
 
--   [<span data-ttu-id="9c5c8-105">**WINSPOOL.DRV \_ REQUESTID**</span><span class="sxs-lookup"><span data-stu-id="9c5c8-105">**DRV\_REQUESTID**</span></span>](drv-requestid.md)
--   [<span data-ttu-id="9c5c8-106">**HDRVCALL**</span><span class="sxs-lookup"><span data-stu-id="9c5c8-106">**HDRVCALL**</span></span>](hdrvline.md)
--   [<span data-ttu-id="9c5c8-107">**HDRVLINE**</span><span class="sxs-lookup"><span data-stu-id="9c5c8-107">**HDRVLINE**</span></span>](hdrvline.md)
--   [<span data-ttu-id="9c5c8-108">**HDRVPHONE**</span><span class="sxs-lookup"><span data-stu-id="9c5c8-108">**HDRVPHONE**</span></span>](hdrvphone.md)
--   [<span data-ttu-id="9c5c8-109">**HTAPICALL**</span><span class="sxs-lookup"><span data-stu-id="9c5c8-109">**HTAPICALL**</span></span>](htapicall.md)
--   [<span data-ttu-id="9c5c8-110">**HTAPILINE**</span><span class="sxs-lookup"><span data-stu-id="9c5c8-110">**HTAPILINE**</span></span>](htapiline.md)
--   [<span data-ttu-id="9c5c8-111">**HTAPIPHONE**</span><span class="sxs-lookup"><span data-stu-id="9c5c8-111">**HTAPIPHONE**</span></span>](htapiphone.md)
--   [<span data-ttu-id="9c5c8-112">**初始化 \_ 協商**</span><span class="sxs-lookup"><span data-stu-id="9c5c8-112">**INITIALIZE\_NEGOTIATION**</span></span>](initialize-negotiation.md)
--   [<span data-ttu-id="9c5c8-113">**TSPIMessage**</span><span class="sxs-lookup"><span data-stu-id="9c5c8-113">**TSPIMessage**</span></span>](tspimessage.md)
+-   [<span data-ttu-id="01e1d-105">**WINSPOOL.DRV \_ REQUESTID**</span><span class="sxs-lookup"><span data-stu-id="01e1d-105">**DRV\_REQUESTID**</span></span>](drv-requestid.md)
+-   [<span data-ttu-id="01e1d-106">**HDRVCALL**</span><span class="sxs-lookup"><span data-stu-id="01e1d-106">**HDRVCALL**</span></span>](hdrvline.md)
+-   [<span data-ttu-id="01e1d-107">**HDRVLINE**</span><span class="sxs-lookup"><span data-stu-id="01e1d-107">**HDRVLINE**</span></span>](hdrvline.md)
+-   [<span data-ttu-id="01e1d-108">**HDRVPHONE**</span><span class="sxs-lookup"><span data-stu-id="01e1d-108">**HDRVPHONE**</span></span>](hdrvphone.md)
+-   [<span data-ttu-id="01e1d-109">**HTAPICALL**</span><span class="sxs-lookup"><span data-stu-id="01e1d-109">**HTAPICALL**</span></span>](htapicall.md)
+-   [<span data-ttu-id="01e1d-110">**HTAPILINE**</span><span class="sxs-lookup"><span data-stu-id="01e1d-110">**HTAPILINE**</span></span>](htapiline.md)
+-   [<span data-ttu-id="01e1d-111">**HTAPIPHONE**</span><span class="sxs-lookup"><span data-stu-id="01e1d-111">**HTAPIPHONE**</span></span>](htapiphone.md)
+-   [<span data-ttu-id="01e1d-112">**初始化 \_ 協商**</span><span class="sxs-lookup"><span data-stu-id="01e1d-112">**INITIALIZE\_NEGOTIATION**</span></span>](initialize-negotiation.md)
+-   [<span data-ttu-id="01e1d-113">**TSPIMessage**</span><span class="sxs-lookup"><span data-stu-id="01e1d-113">**TSPIMessage**</span></span>](tspimessage.md)
 
  
 

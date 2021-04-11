@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103696382"
 ---
-# <a name="dialog-box-overviews"></a><span data-ttu-id="01e97-104">對話方塊總覽</span><span class="sxs-lookup"><span data-stu-id="01e97-104">Dialog Box Overviews</span></span>
+# <a name="dialog-box-overviews"></a><span data-ttu-id="56cb6-104">對話方塊總覽</span><span class="sxs-lookup"><span data-stu-id="56cb6-104">Dialog Box Overviews</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="01e97-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="01e97-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="56cb6-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="56cb6-105">In this section</span></span>
 
--   [<span data-ttu-id="01e97-106">關於對話方塊</span><span class="sxs-lookup"><span data-stu-id="01e97-106">About Dialog Boxes</span></span>](about-dialog-boxes.md)
--   [<span data-ttu-id="01e97-107">對話方塊程式設計考量</span><span class="sxs-lookup"><span data-stu-id="01e97-107">Dialog Box Programming Considerations</span></span>](dlgbox-programming-considerations.md)
--   [<span data-ttu-id="01e97-108">使用對話方塊</span><span class="sxs-lookup"><span data-stu-id="01e97-108">Using Dialog Boxes</span></span>](using-dialog-boxes.md)
+-   [<span data-ttu-id="56cb6-106">關於對話方塊</span><span class="sxs-lookup"><span data-stu-id="56cb6-106">About Dialog Boxes</span></span>](about-dialog-boxes.md)
+-   [<span data-ttu-id="56cb6-107">對話方塊程式設計考量</span><span class="sxs-lookup"><span data-stu-id="56cb6-107">Dialog Box Programming Considerations</span></span>](dlgbox-programming-considerations.md)
+-   [<span data-ttu-id="56cb6-108">使用對話方塊</span><span class="sxs-lookup"><span data-stu-id="56cb6-108">Using Dialog Boxes</span></span>](using-dialog-boxes.md)
 
  
 

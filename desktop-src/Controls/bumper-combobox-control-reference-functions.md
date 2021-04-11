@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853752"
 ---
-# <a name="combobox-control-functions"></a><span data-ttu-id="b6480-103">ComboBox 控制項函數</span><span class="sxs-lookup"><span data-stu-id="b6480-103">ComboBox Control Functions</span></span>
+# <a name="combobox-control-functions"></a><span data-ttu-id="4c6ef-103">ComboBox 控制項函數</span><span class="sxs-lookup"><span data-stu-id="4c6ef-103">ComboBox Control Functions</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="b6480-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="b6480-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4c6ef-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="4c6ef-104">In This Section</span></span>
 
--   [<span data-ttu-id="b6480-105">**DlgDirListComboBox**</span><span class="sxs-lookup"><span data-stu-id="b6480-105">**DlgDirListComboBox**</span></span>](/windows/desktop/api/Winuser/nf-winuser-dlgdirlistcomboboxa)
--   [<span data-ttu-id="b6480-106">**DlgDirSelectComboBoxEx**</span><span class="sxs-lookup"><span data-stu-id="b6480-106">**DlgDirSelectComboBoxEx**</span></span>](/windows/desktop/api/Winuser/nf-winuser-dlgdirselectcomboboxexa)
--   [<span data-ttu-id="b6480-107">**GetComboBoxInfo**</span><span class="sxs-lookup"><span data-stu-id="b6480-107">**GetComboBoxInfo**</span></span>](/windows/desktop/api/Winuser/nf-winuser-getcomboboxinfo)
+-   [<span data-ttu-id="4c6ef-105">**DlgDirListComboBox**</span><span class="sxs-lookup"><span data-stu-id="4c6ef-105">**DlgDirListComboBox**</span></span>](/windows/desktop/api/Winuser/nf-winuser-dlgdirlistcomboboxa)
+-   [<span data-ttu-id="4c6ef-106">**DlgDirSelectComboBoxEx**</span><span class="sxs-lookup"><span data-stu-id="4c6ef-106">**DlgDirSelectComboBoxEx**</span></span>](/windows/desktop/api/Winuser/nf-winuser-dlgdirselectcomboboxexa)
+-   [<span data-ttu-id="4c6ef-107">**GetComboBoxInfo**</span><span class="sxs-lookup"><span data-stu-id="4c6ef-107">**GetComboBoxInfo**</span></span>](/windows/desktop/api/Winuser/nf-winuser-getcomboboxinfo)
 
  
 

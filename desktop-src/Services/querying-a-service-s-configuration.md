@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852280"
 ---
-# <a name="querying-a-services-configuration"></a><span data-ttu-id="54f3f-103">查詢服務的設定</span><span class="sxs-lookup"><span data-stu-id="54f3f-103">Querying a Service's Configuration</span></span>
+# <a name="querying-a-services-configuration"></a><span data-ttu-id="71e3e-103">查詢服務的設定</span><span class="sxs-lookup"><span data-stu-id="71e3e-103">Querying a Service's Configuration</span></span>
 
-<span data-ttu-id="54f3f-104">[服務設定程式](service-configuration-programs.md)會使用 [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea)函式來取得具有 \_ \_ 已安裝服務物件之服務查詢設定存取權的控制碼。</span><span class="sxs-lookup"><span data-stu-id="54f3f-104">A [service configuration program](service-configuration-programs.md) uses the [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea) function to get a handle with SERVICE\_QUERY\_CONFIG access to an installed service object.</span></span> <span data-ttu-id="54f3f-105">然後，程式可以使用 [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) 和 [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a) 函式中的服務物件控制碼，來取得目前的服務設定。</span><span class="sxs-lookup"><span data-stu-id="54f3f-105">The program can then use the service object handle in the [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) and [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a) functions to retrieve the current configuration of the service.</span></span>
+<span data-ttu-id="71e3e-104">[服務設定程式](service-configuration-programs.md)會使用 [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea)函式來取得具有 \_ \_ 已安裝服務物件之服務查詢設定存取權的控制碼。</span><span class="sxs-lookup"><span data-stu-id="71e3e-104">A [service configuration program](service-configuration-programs.md) uses the [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea) function to get a handle with SERVICE\_QUERY\_CONFIG access to an installed service object.</span></span> <span data-ttu-id="71e3e-105">然後，程式可以使用 [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) 和 [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a) 函式中的服務物件控制碼，來取得目前的服務設定。</span><span class="sxs-lookup"><span data-stu-id="71e3e-105">The program can then use the service object handle in the [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) and [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a) functions to retrieve the current configuration of the service.</span></span>
 
-<span data-ttu-id="54f3f-106">在下列範例中，DoQuerySvc 函數會使用 [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) 和 [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a) 來取出設定資訊，然後將選取的資訊寫入主控台。</span><span class="sxs-lookup"><span data-stu-id="54f3f-106">In the following example, the DoQuerySvc function uses [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) and [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a) to retrieve configuration information, then writes selected information to the console.</span></span> <span data-ttu-id="54f3f-107">SzSvcName 變數是包含服務名稱的全域變數。</span><span class="sxs-lookup"><span data-stu-id="54f3f-107">The szSvcName variable is a global variable that contains the name of the service.</span></span> <span data-ttu-id="54f3f-108">如需設定此變數的完整範例，請參閱 [SvcConfig .cpp](svcconfig-cpp.md)。</span><span class="sxs-lookup"><span data-stu-id="54f3f-108">For the complete example that sets this variable, see [SvcConfig.cpp](svcconfig-cpp.md).</span></span>
+<span data-ttu-id="71e3e-106">在下列範例中，DoQuerySvc 函數會使用 [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) 和 [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a) 來取出設定資訊，然後將選取的資訊寫入主控台。</span><span class="sxs-lookup"><span data-stu-id="71e3e-106">In the following example, the DoQuerySvc function uses [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) and [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a) to retrieve configuration information, then writes selected information to the console.</span></span> <span data-ttu-id="71e3e-107">SzSvcName 變數是包含服務名稱的全域變數。</span><span class="sxs-lookup"><span data-stu-id="71e3e-107">The szSvcName variable is a global variable that contains the name of the service.</span></span> <span data-ttu-id="71e3e-108">如需設定此變數的完整範例，請參閱 [SvcConfig .cpp](svcconfig-cpp.md)。</span><span class="sxs-lookup"><span data-stu-id="71e3e-108">For the complete example that sets this variable, see [SvcConfig.cpp](svcconfig-cpp.md).</span></span>
 
 
 ```C++
@@ -155,14 +155,14 @@ cleanup:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="54f3f-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="54f3f-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="71e3e-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="71e3e-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="54f3f-110">服務設定</span><span class="sxs-lookup"><span data-stu-id="54f3f-110">Service Configuration</span></span>](service-configuration.md)
+[<span data-ttu-id="71e3e-110">服務設定</span><span class="sxs-lookup"><span data-stu-id="71e3e-110">Service Configuration</span></span>](service-configuration.md)
 </dt> <dt>
 
-[<span data-ttu-id="54f3f-111">完整的服務範例</span><span class="sxs-lookup"><span data-stu-id="54f3f-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
+[<span data-ttu-id="71e3e-111">完整的服務範例</span><span class="sxs-lookup"><span data-stu-id="71e3e-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
 </dt> </dl>
 
  

@@ -14,39 +14,39 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103693896"
 ---
-# <a name="table-type-conversions"></a><span data-ttu-id="1f36c-103">資料表類型轉換</span><span class="sxs-lookup"><span data-stu-id="1f36c-103">Table type conversions</span></span>
+# <a name="table-type-conversions"></a><span data-ttu-id="d5998-103">資料表類型轉換</span><span class="sxs-lookup"><span data-stu-id="d5998-103">Table type conversions</span></span>
 
-<span data-ttu-id="1f36c-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="1f36c-104">Include protected members</span></span>  
-<span data-ttu-id="1f36c-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="1f36c-105">Include inherited members</span></span>  
+<span data-ttu-id="d5998-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="d5998-104">Include protected members</span></span>  
+<span data-ttu-id="d5998-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="d5998-105">Include inherited members</span></span>  
 
-<span data-ttu-id="1f36c-106">[資料表](./table-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="1f36c-106">The [Table](./table-class.md) type exposes the following members.</span></span>
+<span data-ttu-id="d5998-106">[資料表](./table-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="d5998-106">The [Table](./table-class.md) type exposes the following members.</span></span>
 
-## <a name="operators"></a><span data-ttu-id="1f36c-107">運算子</span><span class="sxs-lookup"><span data-stu-id="1f36c-107">Operators</span></span>
+## <a name="operators"></a><span data-ttu-id="d5998-107">運算子</span><span class="sxs-lookup"><span data-stu-id="d5998-107">Operators</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="1f36c-108">Name</span><span class="sxs-lookup"><span data-stu-id="1f36c-108">Name</span></span></th>
-<th><span data-ttu-id="1f36c-109">描述</span><span class="sxs-lookup"><span data-stu-id="1f36c-109">Description</span></span></th>
+<th><span data-ttu-id="d5998-108">Name</span><span class="sxs-lookup"><span data-stu-id="d5998-108">Name</span></span></th>
+<th><span data-ttu-id="d5998-109">描述</span><span class="sxs-lookup"><span data-stu-id="d5998-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="公用運算子" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
-<td><span data-ttu-id="1f36c-112"><a href="dn351239(v=exchg.10).md">要 JET_TABLEID 的隱含 (資料表) </a></span><span class="sxs-lookup"><span data-stu-id="1f36c-112"><a href="dn351239(v=exchg.10).md">Implicit(Table to JET_TABLEID)</a></span></span></td>
-<td><span data-ttu-id="1f36c-113">從資料表到 JET_TABLEID 的隱含轉換運算子。</span><span class="sxs-lookup"><span data-stu-id="1f36c-113">Implicit conversion operator from a Table to a JET_TABLEID.</span></span> <span data-ttu-id="1f36c-114">這可讓資料表與預期 JET_TABLEID 的 Api 搭配使用。</span><span class="sxs-lookup"><span data-stu-id="1f36c-114">This allows a Table to be used with APIs which expect a JET_TABLEID.</span></span></td>
+<td><span data-ttu-id="d5998-112"><a href="dn351239(v=exchg.10).md">要 JET_TABLEID 的隱含 (資料表) </a></span><span class="sxs-lookup"><span data-stu-id="d5998-112"><a href="dn351239(v=exchg.10).md">Implicit(Table to JET_TABLEID)</a></span></span></td>
+<td><span data-ttu-id="d5998-113">從資料表到 JET_TABLEID 的隱含轉換運算子。</span><span class="sxs-lookup"><span data-stu-id="d5998-113">Implicit conversion operator from a Table to a JET_TABLEID.</span></span> <span data-ttu-id="d5998-114">這可讓資料表與預期 JET_TABLEID 的 Api 搭配使用。</span><span class="sxs-lookup"><span data-stu-id="d5998-114">This allows a Table to be used with APIs which expect a JET_TABLEID.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="1f36c-115">頁首</span><span class="sxs-lookup"><span data-stu-id="1f36c-115">Top</span></span>
+<span data-ttu-id="d5998-115">頁首</span><span class="sxs-lookup"><span data-stu-id="d5998-115">Top</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1f36c-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1f36c-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5998-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d5998-116">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="1f36c-117">參考</span><span class="sxs-lookup"><span data-stu-id="1f36c-117">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="d5998-117">參考</span><span class="sxs-lookup"><span data-stu-id="d5998-117">Reference</span></span>
 
-[<span data-ttu-id="1f36c-118">Table 類別</span><span class="sxs-lookup"><span data-stu-id="1f36c-118">Table class</span></span>](./table-class.md)
+[<span data-ttu-id="d5998-118">Table 類別</span><span class="sxs-lookup"><span data-stu-id="d5998-118">Table class</span></span>](./table-class.md)
 
-[<span data-ttu-id="1f36c-119">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="1f36c-119">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="d5998-119">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="d5998-119">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

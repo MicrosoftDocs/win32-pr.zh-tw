@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "103853731"
 ---
-# <a name="progress-bar-structures"></a><span data-ttu-id="01334-103">進度列結構</span><span class="sxs-lookup"><span data-stu-id="01334-103">Progress Bar Structures</span></span>
+# <a name="progress-bar-structures"></a><span data-ttu-id="3d2a8-103">進度列結構</span><span class="sxs-lookup"><span data-stu-id="3d2a8-103">Progress Bar Structures</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="01334-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="01334-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3d2a8-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="3d2a8-104">In This Section</span></span>
 
--   [<span data-ttu-id="01334-105">**PBRANGE**</span><span class="sxs-lookup"><span data-stu-id="01334-105">**PBRANGE**</span></span>](/windows/desktop/api/Commctrl/ns-commctrl-pbrange)
+-   [<span data-ttu-id="3d2a8-105">**PBRANGE**</span><span class="sxs-lookup"><span data-stu-id="3d2a8-105">**PBRANGE**</span></span>](/windows/desktop/api/Commctrl/ns-commctrl-pbrange)
 
  
 

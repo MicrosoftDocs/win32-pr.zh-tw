@@ -31,22 +31,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103695492"
 ---
-# <a name="esentslvpagesnotdeletedexception-class"></a><span data-ttu-id="4561d-103">EsentSLVPagesNotDeletedException 類別</span><span class="sxs-lookup"><span data-stu-id="4561d-103">EsentSLVPagesNotDeletedException class</span></span>
+# <a name="esentslvpagesnotdeletedexception-class"></a><span data-ttu-id="79d1e-103">EsentSLVPagesNotDeletedException 類別</span><span class="sxs-lookup"><span data-stu-id="79d1e-103">EsentSLVPagesNotDeletedException class</span></span>
 
-## <a name="inheritance-hierarchy"></a><span data-ttu-id="4561d-104">繼承階層</span><span class="sxs-lookup"><span data-stu-id="4561d-104">Inheritance hierarchy</span></span>
+## <a name="inheritance-hierarchy"></a><span data-ttu-id="79d1e-104">繼承階層</span><span class="sxs-lookup"><span data-stu-id="79d1e-104">Inheritance hierarchy</span></span>
 
-[<span data-ttu-id="4561d-105">System.Object</span><span class="sxs-lookup"><span data-stu-id="4561d-105">System.Object</span></span>](/dotnet/api/system.object)  
-  [<span data-ttu-id="4561d-106">System.Exception</span><span class="sxs-lookup"><span data-stu-id="4561d-106">System.Exception</span></span>](/dotnet/api/system.exception)  
-    [<span data-ttu-id="4561d-107">EsentException。</span><span class="sxs-lookup"><span data-stu-id="4561d-107">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
-      [<span data-ttu-id="4561d-108">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="4561d-108">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
-        [<span data-ttu-id="4561d-109">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="4561d-109">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
-          [<span data-ttu-id="4561d-110">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="4561d-110">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
-            <span data-ttu-id="4561d-111">EsentSLVPagesNotDeletedException （.）</span><span class="sxs-lookup"><span data-stu-id="4561d-111">Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedException</span></span>  
+[<span data-ttu-id="79d1e-105">System.Object</span><span class="sxs-lookup"><span data-stu-id="79d1e-105">System.Object</span></span>](/dotnet/api/system.object)  
+  [<span data-ttu-id="79d1e-106">System.Exception</span><span class="sxs-lookup"><span data-stu-id="79d1e-106">System.Exception</span></span>](/dotnet/api/system.exception)  
+    [<span data-ttu-id="79d1e-107">EsentException。</span><span class="sxs-lookup"><span data-stu-id="79d1e-107">Microsoft.Isam.Esent.EsentException</span></span>](./esentexception-class.md)  
+      [<span data-ttu-id="79d1e-108">EsentErrorException （.）</span><span class="sxs-lookup"><span data-stu-id="79d1e-108">Microsoft.Isam.Esent.Interop.EsentErrorException</span></span>](./esenterrorexception-class.md)  
+        [<span data-ttu-id="79d1e-109">EsentApiException （.）</span><span class="sxs-lookup"><span data-stu-id="79d1e-109">Microsoft.Isam.Esent.Interop.EsentApiException</span></span>](./esentapiexception-class.md)  
+          [<span data-ttu-id="79d1e-110">EsentObsoleteException （.）</span><span class="sxs-lookup"><span data-stu-id="79d1e-110">Microsoft.Isam.Esent.Interop.EsentObsoleteException</span></span>](./esentobsoleteexception-class.md)  
+            <span data-ttu-id="79d1e-111">EsentSLVPagesNotDeletedException （.）</span><span class="sxs-lookup"><span data-stu-id="79d1e-111">Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedException</span></span>  
 
-<span data-ttu-id="4561d-112">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="4561d-112">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="4561d-113">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="4561d-113">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="79d1e-112">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="79d1e-112">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="79d1e-113">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="79d1e-113">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4561d-114">Syntax</span><span class="sxs-lookup"><span data-stu-id="4561d-114">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="79d1e-114">Syntax</span><span class="sxs-lookup"><span data-stu-id="79d1e-114">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -62,14 +62,14 @@ Dim instance As EsentSLVPagesNotDeletedException
 public sealed class EsentSLVPagesNotDeletedException : EsentObsoleteException
 ```
 
-## <a name="thread-safety"></a><span data-ttu-id="4561d-115">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="4561d-115">Thread safety</span></span>
+## <a name="thread-safety"></a><span data-ttu-id="79d1e-115">執行緒安全</span><span class="sxs-lookup"><span data-stu-id="79d1e-115">Thread safety</span></span>
 
-<span data-ttu-id="4561d-116">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="4561d-116">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="4561d-117">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="4561d-117">Any instance members are not guaranteed to be thread safe.</span></span>
+<span data-ttu-id="79d1e-116">這個類型的任何公用靜態 (Visual Basic 中的 Shared) 成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="79d1e-116">Any public static (Shared in Visual Basic) members of this type are thread safe.</span></span> <span data-ttu-id="79d1e-117">並非所有的執行個體成員都是安全執行緒。</span><span class="sxs-lookup"><span data-stu-id="79d1e-117">Any instance members are not guaranteed to be thread safe.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4561d-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4561d-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="79d1e-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="79d1e-118">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="4561d-119">參考</span><span class="sxs-lookup"><span data-stu-id="4561d-119">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="79d1e-119">參考</span><span class="sxs-lookup"><span data-stu-id="79d1e-119">Reference</span></span>
 
-[<span data-ttu-id="4561d-120">EsentSLVPagesNotDeletedException 成員</span><span class="sxs-lookup"><span data-stu-id="4561d-120">EsentSLVPagesNotDeletedException members</span></span>](./esentslvpagesnotdeletedexception-members.md)
+[<span data-ttu-id="79d1e-120">EsentSLVPagesNotDeletedException 成員</span><span class="sxs-lookup"><span data-stu-id="79d1e-120">EsentSLVPagesNotDeletedException members</span></span>](./esentslvpagesnotdeletedexception-members.md)
 
-[<span data-ttu-id="4561d-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="4561d-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="79d1e-121">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="79d1e-121">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -11,44 +11,44 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103852820"
 ---
-# <a name="mf_mt_video_rotation-attribute"></a><span data-ttu-id="8fa7c-103">MF \_ MT \_ 影片 \_ 旋轉屬性</span><span class="sxs-lookup"><span data-stu-id="8fa7c-103">MF\_MT\_VIDEO\_ROTATION attribute</span></span>
+# <a name="mf_mt_video_rotation-attribute"></a><span data-ttu-id="8e09d-103">MF \_ MT \_ 影片 \_ 旋轉屬性</span><span class="sxs-lookup"><span data-stu-id="8e09d-103">MF\_MT\_VIDEO\_ROTATION attribute</span></span>
 
-<span data-ttu-id="8fa7c-104">以逆時針方向指定影片框架的旋轉。</span><span class="sxs-lookup"><span data-stu-id="8fa7c-104">Specifies the rotation of a video frame in the counter-clockwise direction.</span></span>
+<span data-ttu-id="8e09d-104">以逆時針方向指定影片框架的旋轉。</span><span class="sxs-lookup"><span data-stu-id="8e09d-104">Specifies the rotation of a video frame in the counter-clockwise direction.</span></span>
 
-## <a name="data-type"></a><span data-ttu-id="8fa7c-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="8fa7c-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="8e09d-105">資料類型</span><span class="sxs-lookup"><span data-stu-id="8e09d-105">Data type</span></span>
 
-<span data-ttu-id="8fa7c-106">**MFVideoRotationFormat** 儲存為 **UINT32**</span><span class="sxs-lookup"><span data-stu-id="8fa7c-106">**MFVideoRotationFormat** stored as **UINT32**</span></span>
+<span data-ttu-id="8e09d-106">**MFVideoRotationFormat** 儲存為 **UINT32**</span><span class="sxs-lookup"><span data-stu-id="8e09d-106">**MFVideoRotationFormat** stored as **UINT32**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8fa7c-107">備註</span><span class="sxs-lookup"><span data-stu-id="8fa7c-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8e09d-107">備註</span><span class="sxs-lookup"><span data-stu-id="8e09d-107">Remarks</span></span>
 
-<span data-ttu-id="8fa7c-108">掌上型裝置的影片（例如行動電話）通常會以90、180或270度旋轉。</span><span class="sxs-lookup"><span data-stu-id="8fa7c-108">Video from a handheld device, such as a mobile phone, is often rotated by 90, 180, or 270 degrees.</span></span> <span data-ttu-id="8fa7c-109">如果相機將方向以中繼資料的形式儲存在影片檔案中，則在播放時可以調整影像。</span><span class="sxs-lookup"><span data-stu-id="8fa7c-109">If the camera stores the orientation as metadata in the video file, the image can be adjusted at the time of playback.</span></span>
+<span data-ttu-id="8e09d-108">掌上型裝置的影片（例如行動電話）通常會以90、180或270度旋轉。</span><span class="sxs-lookup"><span data-stu-id="8e09d-108">Video from a handheld device, such as a mobile phone, is often rotated by 90, 180, or 270 degrees.</span></span> <span data-ttu-id="8e09d-109">如果相機將方向以中繼資料的形式儲存在影片檔案中，則在播放時可以調整影像。</span><span class="sxs-lookup"><span data-stu-id="8e09d-109">If the camera stores the orientation as metadata in the video file, the image can be adjusted at the time of playback.</span></span>
 
-<span data-ttu-id="8fa7c-110">如果此屬性設定為 **MFVideoRotationFormat \_ 90**，則表示內容已以逆時針方向旋轉90度。</span><span class="sxs-lookup"><span data-stu-id="8fa7c-110">If this attribute set to **MFVideoRotationFormat\_90**, it means that the content has been rotated 90 degrees in the counter-clockwise direction.</span></span> <span data-ttu-id="8fa7c-111">如果內容在順時針方向旋轉90度，則屬性值會是 **MFVideoRotationFormat \_ 270**。</span><span class="sxs-lookup"><span data-stu-id="8fa7c-111">If the content was rotated 90 degrees in the clockwise direction, the attribute value would be **MFVideoRotationFormat\_270**.</span></span>
+<span data-ttu-id="8e09d-110">如果此屬性設定為 **MFVideoRotationFormat \_ 90**，則表示內容已以逆時針方向旋轉90度。</span><span class="sxs-lookup"><span data-stu-id="8e09d-110">If this attribute set to **MFVideoRotationFormat\_90**, it means that the content has been rotated 90 degrees in the counter-clockwise direction.</span></span> <span data-ttu-id="8e09d-111">如果內容在順時針方向旋轉90度，則屬性值會是 **MFVideoRotationFormat \_ 270**。</span><span class="sxs-lookup"><span data-stu-id="8e09d-111">If the content was rotated 90 degrees in the clockwise direction, the attribute value would be **MFVideoRotationFormat\_270**.</span></span>
 
-<span data-ttu-id="8fa7c-112">此屬性支援的值會在 [**MFVideoRotationFormat**](/windows/desktop/api/mfapi/ne-mfapi-mfvideorotationformat)中列舉。</span><span class="sxs-lookup"><span data-stu-id="8fa7c-112">The supported values for this attribute are enumerated in [**MFVideoRotationFormat**](/windows/desktop/api/mfapi/ne-mfapi-mfvideorotationformat).</span></span>
+<span data-ttu-id="8e09d-112">此屬性支援的值會在 [**MFVideoRotationFormat**](/windows/desktop/api/mfapi/ne-mfapi-mfvideorotationformat)中列舉。</span><span class="sxs-lookup"><span data-stu-id="8e09d-112">The supported values for this attribute are enumerated in [**MFVideoRotationFormat**](/windows/desktop/api/mfapi/ne-mfapi-mfvideorotationformat).</span></span>
 
-<span data-ttu-id="8fa7c-113">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="8fa7c-113">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
+<span data-ttu-id="8e09d-113">這個屬性的 GUID 常數是從 mfuuid 匯出。</span><span class="sxs-lookup"><span data-stu-id="8e09d-113">The GUID constant for this attribute is exported from mfuuid.lib.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="8fa7c-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="8fa7c-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8e09d-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="8e09d-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="8fa7c-115">需求</span><span class="sxs-lookup"><span data-stu-id="8fa7c-115">Requirement</span></span> | <span data-ttu-id="8fa7c-116">值</span><span class="sxs-lookup"><span data-stu-id="8fa7c-116">Value</span></span> |
+| <span data-ttu-id="8e09d-115">需求</span><span class="sxs-lookup"><span data-stu-id="8e09d-115">Requirement</span></span> | <span data-ttu-id="8e09d-116">值</span><span class="sxs-lookup"><span data-stu-id="8e09d-116">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="8fa7c-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8fa7c-117">Minimum supported client</span></span><br/> | <span data-ttu-id="8fa7c-118">Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8fa7c-118">Windows 8 \[desktop apps \| UWP apps\]</span></span><br/>                                  |
-| <span data-ttu-id="8fa7c-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8fa7c-119">Minimum supported server</span></span><br/> | <span data-ttu-id="8fa7c-120">Windows Server 2012 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8fa7c-120">Windows Server 2012 \[desktop apps \| UWP apps\]</span></span><br/>                        |
-| <span data-ttu-id="8fa7c-121">標頭</span><span class="sxs-lookup"><span data-stu-id="8fa7c-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="8fa7c-122"><dt>Mfapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="8fa7c-122"><dt>Mfapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="8e09d-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8e09d-117">Minimum supported client</span></span><br/> | <span data-ttu-id="8e09d-118">Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8e09d-118">Windows 8 \[desktop apps \| UWP apps\]</span></span><br/>                                  |
+| <span data-ttu-id="8e09d-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8e09d-119">Minimum supported server</span></span><br/> | <span data-ttu-id="8e09d-120">Windows Server 2012 \[ desktop app \| UWP 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8e09d-120">Windows Server 2012 \[desktop apps \| UWP apps\]</span></span><br/>                        |
+| <span data-ttu-id="8e09d-121">標頭</span><span class="sxs-lookup"><span data-stu-id="8e09d-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="8e09d-122"><dt>Mfapi。h</dt></span><span class="sxs-lookup"><span data-stu-id="8e09d-122"><dt>Mfapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="8fa7c-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8fa7c-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e09d-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8e09d-123">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="8fa7c-124">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="8fa7c-124">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="8e09d-124">依字母順序排列的媒體基礎屬性清單</span><span class="sxs-lookup"><span data-stu-id="8e09d-124">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="8fa7c-125">媒體類型</span><span class="sxs-lookup"><span data-stu-id="8fa7c-125">Media Types</span></span>](media-types.md)
+[<span data-ttu-id="8e09d-125">媒體類型</span><span class="sxs-lookup"><span data-stu-id="8e09d-125">Media Types</span></span>](media-types.md)
 </dt> </dl>
 
  
