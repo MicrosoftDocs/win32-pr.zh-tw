@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "104027249"
 ---
-# <a name="msv1_0_changepassword_response"></a><span data-ttu-id="28125-103">MSV1 \_ 0 \_ CHANGEPASSWORD \_ 回應</span><span class="sxs-lookup"><span data-stu-id="28125-103">MSV1\_0\_CHANGEPASSWORD\_RESPONSE</span></span>
+# <a name="msv1_0_changepassword_response"></a><span data-ttu-id="4bc64-103">MSV1 \_ 0 \_ CHANGEPASSWORD \_ 回應</span><span class="sxs-lookup"><span data-stu-id="4bc64-103">MSV1\_0\_CHANGEPASSWORD\_RESPONSE</span></span>
 
-<span data-ttu-id="28125-104">MSV1 \_ 0 \_ CHANGEPASSWORD \_ 回應結構已過時。</span><span class="sxs-lookup"><span data-stu-id="28125-104">The MSV1\_0\_CHANGEPASSWORD\_RESPONSE structure is obsolete.</span></span>
+<span data-ttu-id="4bc64-104">MSV1 \_ 0 \_ CHANGEPASSWORD \_ 回應結構已過時。</span><span class="sxs-lookup"><span data-stu-id="4bc64-104">The MSV1\_0\_CHANGEPASSWORD\_RESPONSE structure is obsolete.</span></span>
 
-<span data-ttu-id="28125-105">如需密碼變更要求，請參閱 [**NetUserChangePassword**](/windows/win32/api/lmaccess/nf-lmaccess-netuserchangepassword)。</span><span class="sxs-lookup"><span data-stu-id="28125-105">For password change requests, see [**NetUserChangePassword**](/windows/win32/api/lmaccess/nf-lmaccess-netuserchangepassword).</span></span>
+<span data-ttu-id="4bc64-105">如需密碼變更要求，請參閱 [**NetUserChangePassword**](/windows/win32/api/lmaccess/nf-lmaccess-netuserchangepassword)。</span><span class="sxs-lookup"><span data-stu-id="4bc64-105">For password change requests, see [**NetUserChangePassword**](/windows/win32/api/lmaccess/nf-lmaccess-netuserchangepassword).</span></span>
 
  
 

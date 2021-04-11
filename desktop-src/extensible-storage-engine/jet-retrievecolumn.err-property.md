@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "104026846"
 ---
-# <a name="jet_retrievecolumnerr-property"></a><span data-ttu-id="b4b85-103">JET_RETRIEVECOLUMN err 屬性</span><span class="sxs-lookup"><span data-stu-id="b4b85-103">JET_RETRIEVECOLUMN.err property</span></span>
+# <a name="jet_retrievecolumnerr-property"></a><span data-ttu-id="07c18-103">JET_RETRIEVECOLUMN err 屬性</span><span class="sxs-lookup"><span data-stu-id="07c18-103">JET_RETRIEVECOLUMN.err property</span></span>
 
-<span data-ttu-id="b4b85-104">取得從資料行抓取傳回的警告。</span><span class="sxs-lookup"><span data-stu-id="b4b85-104">Gets the warning returned from the retrieval of the column.</span></span>
+<span data-ttu-id="07c18-104">取得從資料行抓取傳回的警告。</span><span class="sxs-lookup"><span data-stu-id="07c18-104">Gets the warning returned from the retrieval of the column.</span></span>
 
-<span data-ttu-id="b4b85-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="b4b85-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="b4b85-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="b4b85-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="07c18-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="07c18-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="07c18-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="07c18-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b4b85-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="b4b85-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="07c18-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="07c18-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,16 +58,16 @@ value = instance.err
 public JET_wrn err { get; private set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="b4b85-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="b4b85-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="07c18-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="07c18-108">Property value</span></span>
 
-<span data-ttu-id="b4b85-109">類型： [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="b4b85-109">Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span></span>  
+<span data-ttu-id="07c18-109">類型： [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="07c18-109">Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="b4b85-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b4b85-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="07c18-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="07c18-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="b4b85-111">參考</span><span class="sxs-lookup"><span data-stu-id="b4b85-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="07c18-111">參考</span><span class="sxs-lookup"><span data-stu-id="07c18-111">Reference</span></span>
 
-[<span data-ttu-id="b4b85-112">JET_RETRIEVECOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="b4b85-112">JET_RETRIEVECOLUMN class</span></span>](./jet-retrievecolumn-class.md)
+[<span data-ttu-id="07c18-112">JET_RETRIEVECOLUMN 類別</span><span class="sxs-lookup"><span data-stu-id="07c18-112">JET_RETRIEVECOLUMN class</span></span>](./jet-retrievecolumn-class.md)
 
-[<span data-ttu-id="b4b85-113">JET_RETRIEVECOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="b4b85-113">JET_RETRIEVECOLUMN members</span></span>](./jet-retrievecolumn-members.md)
+[<span data-ttu-id="07c18-113">JET_RETRIEVECOLUMN 成員</span><span class="sxs-lookup"><span data-stu-id="07c18-113">JET_RETRIEVECOLUMN members</span></span>](./jet-retrievecolumn-members.md)
 
-[<span data-ttu-id="b4b85-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="b4b85-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="07c18-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="07c18-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

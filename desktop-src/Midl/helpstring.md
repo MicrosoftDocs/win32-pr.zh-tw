@@ -19,9 +19,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103933128"
 ---
-# <a name="helpstring-attribute"></a><span data-ttu-id="b95fc-104">helpstring 屬性</span><span class="sxs-lookup"><span data-stu-id="b95fc-104">helpstring attribute</span></span>
+# <a name="helpstring-attribute"></a><span data-ttu-id="548b9-104">helpstring 屬性</span><span class="sxs-lookup"><span data-stu-id="548b9-104">helpstring attribute</span></span>
 
-<span data-ttu-id="b95fc-105">**\[ Helpstring \]** 屬性會指定用來描述所套用之元素的字元字串。</span><span class="sxs-lookup"><span data-stu-id="b95fc-105">The **\[helpstring\]** attribute specifies a character string that is used to describe the element to which it applies.</span></span> <span data-ttu-id="b95fc-106">您可以將 **\[ helpstring \]** 屬性套用至程式庫、importlib、介面、介面介面、模組或 coclass 語句、typedef、屬性和方法。</span><span class="sxs-lookup"><span data-stu-id="b95fc-106">You can apply the **\[helpstring\]** attribute to library, importlib, interface, dispinterface, module, or coclass statements, typedefs, properties, and methods.</span></span>
+<span data-ttu-id="548b9-105">**\[ Helpstring \]** 屬性會指定用來描述所套用之元素的字元字串。</span><span class="sxs-lookup"><span data-stu-id="548b9-105">The **\[helpstring\]** attribute specifies a character string that is used to describe the element to which it applies.</span></span> <span data-ttu-id="548b9-106">您可以將 **\[ helpstring \]** 屬性套用至程式庫、importlib、介面、介面介面、模組或 coclass 語句、typedef、屬性和方法。</span><span class="sxs-lookup"><span data-stu-id="548b9-106">You can apply the **\[helpstring\]** attribute to library, importlib, interface, dispinterface, module, or coclass statements, typedefs, properties, and methods.</span></span>
 
 ``` syntax
 [
@@ -36,57 +36,57 @@ element element-name
 [idl-statement, helpstring(help-text-string)]
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b95fc-107">參數</span><span class="sxs-lookup"><span data-stu-id="b95fc-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="548b9-107">參數</span><span class="sxs-lookup"><span data-stu-id="548b9-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="b95fc-108">*說明-文字字串*</span><span class="sxs-lookup"><span data-stu-id="b95fc-108">*help-text-string*</span></span> 
+<span data-ttu-id="548b9-108">*說明-文字字串*</span><span class="sxs-lookup"><span data-stu-id="548b9-108">*help-text-string*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="b95fc-109">以零結束的字元字串，其中包含解說文字。</span><span class="sxs-lookup"><span data-stu-id="b95fc-109">A zero-terminated string of characters containing help text.</span></span>
+<span data-ttu-id="548b9-109">以零結束的字元字串，其中包含解說文字。</span><span class="sxs-lookup"><span data-stu-id="548b9-109">A zero-terminated string of characters containing help text.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b95fc-110">*選用-屬性-清單*</span><span class="sxs-lookup"><span data-stu-id="b95fc-110">*optional-attribute-list*</span></span> 
+<span data-ttu-id="548b9-110">*選用-屬性-清單*</span><span class="sxs-lookup"><span data-stu-id="548b9-110">*optional-attribute-list*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="b95fc-111">零或多個 MIDL 屬性語句。</span><span class="sxs-lookup"><span data-stu-id="b95fc-111">Zero or more MIDL attribute statements.</span></span>
+<span data-ttu-id="548b9-111">零或多個 MIDL 屬性語句。</span><span class="sxs-lookup"><span data-stu-id="548b9-111">Zero or more MIDL attribute statements.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b95fc-112">*元素*</span><span class="sxs-lookup"><span data-stu-id="b95fc-112">*element*</span></span> 
+<span data-ttu-id="548b9-112">*元素*</span><span class="sxs-lookup"><span data-stu-id="548b9-112">*element*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="b95fc-113">下列其中一個指示詞： [**library**](library.md)、 **\[** [**importlib**](importlib.md) **\]** 、 [**interface**](interface.md)、 [\*\*\*\*](dispinterface.md)、 [**module、module**](module.md)、 [**typedef**](typedef.md)、 **method**、 **property** 或 [**coclass**](coclass.md)。</span><span class="sxs-lookup"><span data-stu-id="b95fc-113">One of the following directives: [**library**](library.md), **\[**[**importlib**](importlib.md)**\]**, [**interface**](interface.md), [**dispinterface**](dispinterface.md), [**module**](module.md), [**typedef**](typedef.md), **method**, **property**, or [**coclass**](coclass.md).</span></span>
+<span data-ttu-id="548b9-113">下列其中一個指示詞： [**library**](library.md)、 **\[** [**importlib**](importlib.md) **\]** 、 [**interface**](interface.md)、 [\*\*\*\*](dispinterface.md)、 [**module、module**](module.md)、 [**typedef**](typedef.md)、 **method**、 **property** 或 [**coclass**](coclass.md)。</span><span class="sxs-lookup"><span data-stu-id="548b9-113">One of the following directives: [**library**](library.md), **\[**[**importlib**](importlib.md)**\]**, [**interface**](interface.md), [**dispinterface**](dispinterface.md), [**module**](module.md), [**typedef**](typedef.md), **method**, **property**, or [**coclass**](coclass.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b95fc-114">*元素名稱*</span><span class="sxs-lookup"><span data-stu-id="b95fc-114">*element-name*</span></span> 
+<span data-ttu-id="548b9-114">*元素名稱*</span><span class="sxs-lookup"><span data-stu-id="548b9-114">*element-name*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="b95fc-115">其他軟體元件可用來描繪目前元素的名稱</span><span class="sxs-lookup"><span data-stu-id="b95fc-115">The name that other software components can use to delineate the current element</span></span>
+<span data-ttu-id="548b9-115">其他軟體元件可用來描繪目前元素的名稱</span><span class="sxs-lookup"><span data-stu-id="548b9-115">The name that other software components can use to delineate the current element</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b95fc-116">*definition*</span><span class="sxs-lookup"><span data-stu-id="b95fc-116">*definition*</span></span> 
+<span data-ttu-id="548b9-116">*definition*</span><span class="sxs-lookup"><span data-stu-id="548b9-116">*definition*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="b95fc-117">指定組成元素定義的語句。</span><span class="sxs-lookup"><span data-stu-id="b95fc-117">Specifies statements that make up the element definition.</span></span>
+<span data-ttu-id="548b9-117">指定組成元素定義的語句。</span><span class="sxs-lookup"><span data-stu-id="548b9-117">Specifies statements that make up the element definition.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b95fc-118">*idl 語句*</span><span class="sxs-lookup"><span data-stu-id="b95fc-118">*idl-statement*</span></span> 
+<span data-ttu-id="548b9-118">*idl 語句*</span><span class="sxs-lookup"><span data-stu-id="548b9-118">*idl-statement*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="b95fc-119">MIDL 介面定義語句，例如 [**propget**](propget.md) 或 [**propput**](propput.md)。</span><span class="sxs-lookup"><span data-stu-id="b95fc-119">A MIDL interface definition statement such as [**propget**](propget.md) or [**propput**](propput.md).</span></span>
+<span data-ttu-id="548b9-119">MIDL 介面定義語句，例如 [**propget**](propget.md) 或 [**propput**](propput.md)。</span><span class="sxs-lookup"><span data-stu-id="548b9-119">A MIDL interface definition statement such as [**propget**](propget.md) or [**propput**](propput.md).</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="b95fc-120">備註</span><span class="sxs-lookup"><span data-stu-id="b95fc-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="548b9-120">備註</span><span class="sxs-lookup"><span data-stu-id="548b9-120">Remarks</span></span>
 
-<span data-ttu-id="b95fc-121">使用 [**ITypeLib**](/windows/win32/api/oaidl/nn-oaidl-itypelib)和 [**ITypeInfo**](/windows/win32/api/oaidl/nn-oaidl-itypeinfo)介面中的 [**GetDocumentation**](/windows/win32/api/oaidl/nf-oaidl-itypelib-getdocumentation)函式來取出說明字串。</span><span class="sxs-lookup"><span data-stu-id="b95fc-121">Use the [**GetDocumentation**](/windows/win32/api/oaidl/nf-oaidl-itypelib-getdocumentation) functions in the [**ITypeLib**](/windows/win32/api/oaidl/nn-oaidl-itypelib) and [**ITypeInfo**](/windows/win32/api/oaidl/nn-oaidl-itypeinfo) interfaces to retrieve the help string.</span></span>
+<span data-ttu-id="548b9-121">使用 [**ITypeLib**](/windows/win32/api/oaidl/nn-oaidl-itypelib)和 [**ITypeInfo**](/windows/win32/api/oaidl/nn-oaidl-itypeinfo)介面中的 [**GetDocumentation**](/windows/win32/api/oaidl/nf-oaidl-itypelib-getdocumentation)函式來取出說明字串。</span><span class="sxs-lookup"><span data-stu-id="548b9-121">Use the [**GetDocumentation**](/windows/win32/api/oaidl/nf-oaidl-itypelib-getdocumentation) functions in the [**ITypeLib**](/windows/win32/api/oaidl/nn-oaidl-itypelib) and [**ITypeInfo**](/windows/win32/api/oaidl/nn-oaidl-itypeinfo) interfaces to retrieve the help string.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="b95fc-122">範例</span><span class="sxs-lookup"><span data-stu-id="b95fc-122">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="548b9-122">範例</span><span class="sxs-lookup"><span data-stu-id="548b9-122">Examples</span></span>
 
 ``` syntax
 [
@@ -112,38 +112,38 @@ library Lines
 };
 ```
 
-## <a name="see-also"></a><span data-ttu-id="b95fc-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b95fc-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="548b9-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="548b9-123">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b95fc-124">**圖書館**</span><span class="sxs-lookup"><span data-stu-id="b95fc-124">**library**</span></span>](library.md)
+[<span data-ttu-id="548b9-124">**圖書館**</span><span class="sxs-lookup"><span data-stu-id="548b9-124">**library**</span></span>](library.md)
 </dt> <dt>
 
-[<span data-ttu-id="b95fc-125">**importlib**</span><span class="sxs-lookup"><span data-stu-id="b95fc-125">**importlib**</span></span>](importlib.md)
+[<span data-ttu-id="548b9-125">**importlib**</span><span class="sxs-lookup"><span data-stu-id="548b9-125">**importlib**</span></span>](importlib.md)
 </dt> <dt>
 
-[<span data-ttu-id="b95fc-126">**介面**</span><span class="sxs-lookup"><span data-stu-id="b95fc-126">**interface**</span></span>](interface.md)
+[<span data-ttu-id="548b9-126">**介面**</span><span class="sxs-lookup"><span data-stu-id="548b9-126">**interface**</span></span>](interface.md)
 </dt> <dt>
 
-[<span data-ttu-id="b95fc-127">**dispinterface**</span><span class="sxs-lookup"><span data-stu-id="b95fc-127">**dispinterface**</span></span>](dispinterface.md)
+[<span data-ttu-id="548b9-127">**dispinterface**</span><span class="sxs-lookup"><span data-stu-id="548b9-127">**dispinterface**</span></span>](dispinterface.md)
 </dt> <dt>
 
-[<span data-ttu-id="b95fc-128">**模組**</span><span class="sxs-lookup"><span data-stu-id="b95fc-128">**module**</span></span>](module.md)
+[<span data-ttu-id="548b9-128">**模組**</span><span class="sxs-lookup"><span data-stu-id="548b9-128">**module**</span></span>](module.md)
 </dt> <dt>
 
-[<span data-ttu-id="b95fc-129">**coclass**</span><span class="sxs-lookup"><span data-stu-id="b95fc-129">**coclass**</span></span>](coclass.md)
+[<span data-ttu-id="548b9-129">**coclass**</span><span class="sxs-lookup"><span data-stu-id="548b9-129">**coclass**</span></span>](coclass.md)
 </dt> <dt>
 
-[<span data-ttu-id="b95fc-130">**著**</span><span class="sxs-lookup"><span data-stu-id="b95fc-130">**typedef**</span></span>](typedef.md)
+[<span data-ttu-id="548b9-130">**著**</span><span class="sxs-lookup"><span data-stu-id="548b9-130">**typedef**</span></span>](typedef.md)
 </dt> <dt>
 
-[<span data-ttu-id="b95fc-131">ODL 檔語法</span><span class="sxs-lookup"><span data-stu-id="b95fc-131">ODL File Syntax</span></span>](/previous-versions/windows/desktop/automat/odl-file-syntax)
+[<span data-ttu-id="548b9-131">ODL 檔語法</span><span class="sxs-lookup"><span data-stu-id="548b9-131">ODL File Syntax</span></span>](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[<span data-ttu-id="b95fc-132">ODL 檔案範例</span><span class="sxs-lookup"><span data-stu-id="b95fc-132">ODL File Example</span></span>](/previous-versions/windows/desktop/automat/odl-file-example)
+[<span data-ttu-id="548b9-132">ODL 檔案範例</span><span class="sxs-lookup"><span data-stu-id="548b9-132">ODL File Example</span></span>](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
-[<span data-ttu-id="b95fc-133">使用 MIDL 產生類型程式庫</span><span class="sxs-lookup"><span data-stu-id="b95fc-133">Generating a Type Library With MIDL</span></span>](generating-a-type-library-with-midl-2.md)
+[<span data-ttu-id="548b9-133">使用 MIDL 產生類型程式庫</span><span class="sxs-lookup"><span data-stu-id="548b9-133">Generating a Type Library With MIDL</span></span>](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
  

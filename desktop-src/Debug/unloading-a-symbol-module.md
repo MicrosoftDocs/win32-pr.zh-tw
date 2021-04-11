@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847301"
 ---
-# <a name="unloading-a-symbol-module"></a><span data-ttu-id="16b96-103">卸載符號模組</span><span class="sxs-lookup"><span data-stu-id="16b96-103">Unloading a Symbol Module</span></span>
+# <a name="unloading-a-symbol-module"></a><span data-ttu-id="416d4-103">卸載符號模組</span><span class="sxs-lookup"><span data-stu-id="416d4-103">Unloading a Symbol Module</span></span>
 
-<span data-ttu-id="16b96-104">下列程式碼會使用 [**SymUnloadModule64**](/windows/desktop/api/Dbghelp/nf-dbghelp-symunloadmodule)卸載 BaseOfDll 模組位址所參考的符號模組。</span><span class="sxs-lookup"><span data-stu-id="16b96-104">The following code unloads a symbol module referred to by the BaseOfDll module address using [**SymUnloadModule64**](/windows/desktop/api/Dbghelp/nf-dbghelp-symunloadmodule).</span></span>
+<span data-ttu-id="416d4-104">下列程式碼會使用 [**SymUnloadModule64**](/windows/desktop/api/Dbghelp/nf-dbghelp-symunloadmodule)卸載 BaseOfDll 模組位址所參考的符號模組。</span><span class="sxs-lookup"><span data-stu-id="416d4-104">The following code unloads a symbol module referred to by the BaseOfDll module address using [**SymUnloadModule64**](/windows/desktop/api/Dbghelp/nf-dbghelp-symunloadmodule).</span></span>
 
 
 ```C++
@@ -31,11 +31,11 @@ else
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="16b96-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="16b96-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="416d4-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="416d4-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="16b96-106">載入符號模組</span><span class="sxs-lookup"><span data-stu-id="16b96-106">Loading a Symbol Module</span></span>](loading-a-symbol-module.md)
+[<span data-ttu-id="416d4-106">載入符號模組</span><span class="sxs-lookup"><span data-stu-id="416d4-106">Loading a Symbol Module</span></span>](loading-a-symbol-module.md)
 </dt> </dl>
 
  

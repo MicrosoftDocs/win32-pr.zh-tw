@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103688783"
 ---
-# <a name="nfs"></a><span data-ttu-id="ce277-103">NFS</span><span class="sxs-lookup"><span data-stu-id="ce277-103">NFS</span></span>
+# <a name="nfs"></a><span data-ttu-id="19d78-103">NFS</span><span class="sxs-lookup"><span data-stu-id="19d78-103">NFS</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="ce277-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="ce277-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="19d78-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="19d78-104">In this section</span></span>
 
--   [<span data-ttu-id="ce277-105">**DA \_ GET \_ NFS \_ 屬性**</span><span class="sxs-lookup"><span data-stu-id="ce277-105">**DA\_GET\_NFS\_ATTRIBUTES**</span></span>](da-get-nfs-attributes.md)
+-   [<span data-ttu-id="19d78-105">**DA \_ GET \_ NFS \_ 屬性**</span><span class="sxs-lookup"><span data-stu-id="19d78-105">**DA\_GET\_NFS\_ATTRIBUTES**</span></span>](da-get-nfs-attributes.md)
 
  
 

@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847298"
 ---
-# <a name="using-error-handling"></a><span data-ttu-id="5c8ce-103">使用錯誤處理</span><span class="sxs-lookup"><span data-stu-id="5c8ce-103">Using Error Handling</span></span>
+# <a name="using-error-handling"></a><span data-ttu-id="0de17-103">使用錯誤處理</span><span class="sxs-lookup"><span data-stu-id="0de17-103">Using Error Handling</span></span>
 
-<span data-ttu-id="5c8ce-104">下列主題包含使用 [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 和 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函數的詳細資料：</span><span class="sxs-lookup"><span data-stu-id="5c8ce-104">The following topic contains details on using the [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) and [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) functions:</span></span>
+<span data-ttu-id="0de17-104">下列主題包含使用 [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 和 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函數的詳細資料：</span><span class="sxs-lookup"><span data-stu-id="0de17-104">The following topic contains details on using the [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) and [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) functions:</span></span>
 
--   [<span data-ttu-id="5c8ce-105">正在抓取 Last-Error 程式碼</span><span class="sxs-lookup"><span data-stu-id="5c8ce-105">Retrieving the Last-Error Code</span></span>](retrieving-the-last-error-code.md)
+-   [<span data-ttu-id="0de17-105">正在抓取 Last-Error 程式碼</span><span class="sxs-lookup"><span data-stu-id="0de17-105">Retrieving the Last-Error Code</span></span>](retrieving-the-last-error-code.md)
 
  
 

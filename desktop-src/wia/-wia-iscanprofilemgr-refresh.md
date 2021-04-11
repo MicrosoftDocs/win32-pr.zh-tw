@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943583"
 ---
-# <a name="iscanprofilemgrrefresh-method"></a><span data-ttu-id="7bcdd-103">IScanProfileMgr：： Refresh 方法</span><span class="sxs-lookup"><span data-stu-id="7bcdd-103">IScanProfileMgr::Refresh method</span></span>
+# <a name="iscanprofilemgrrefresh-method"></a><span data-ttu-id="e49fa-103">IScanProfileMgr：： Refresh 方法</span><span class="sxs-lookup"><span data-stu-id="e49fa-103">IScanProfileMgr::Refresh method</span></span>
 
-<span data-ttu-id="7bcdd-104">重新列舉系統中的所有掃描設定檔。</span><span class="sxs-lookup"><span data-stu-id="7bcdd-104">Re-enumerates all the scan profiles in the system.</span></span>
+<span data-ttu-id="e49fa-104">重新列舉系統中的所有掃描設定檔。</span><span class="sxs-lookup"><span data-stu-id="e49fa-104">Re-enumerates all the scan profiles in the system.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7bcdd-105">語法</span><span class="sxs-lookup"><span data-stu-id="7bcdd-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e49fa-105">語法</span><span class="sxs-lookup"><span data-stu-id="e49fa-105">Syntax</span></span>
 
 
 ```C++
@@ -33,41 +33,41 @@ HRESULT Refresh();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="7bcdd-106">參數</span><span class="sxs-lookup"><span data-stu-id="7bcdd-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e49fa-106">參數</span><span class="sxs-lookup"><span data-stu-id="e49fa-106">Parameters</span></span>
 
-<span data-ttu-id="7bcdd-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="7bcdd-107">This method has no parameters.</span></span>
+<span data-ttu-id="e49fa-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="e49fa-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="7bcdd-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="7bcdd-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e49fa-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="e49fa-108">Return value</span></span>
 
-<span data-ttu-id="7bcdd-109">類型： **HRESULT**</span><span class="sxs-lookup"><span data-stu-id="7bcdd-109">Type: **HRESULT**</span></span>
+<span data-ttu-id="e49fa-109">類型： **HRESULT**</span><span class="sxs-lookup"><span data-stu-id="e49fa-109">Type: **HRESULT**</span></span>
 
-<span data-ttu-id="7bcdd-110">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="7bcdd-110">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="7bcdd-111">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="7bcdd-111">Otherwise, it returns an **HRESULT** error code.</span></span>
+<span data-ttu-id="e49fa-110">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="e49fa-110">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="e49fa-111">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="e49fa-111">Otherwise, it returns an **HRESULT** error code.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7bcdd-112">備註</span><span class="sxs-lookup"><span data-stu-id="7bcdd-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e49fa-112">備註</span><span class="sxs-lookup"><span data-stu-id="e49fa-112">Remarks</span></span>
 
-<span data-ttu-id="7bcdd-113">當有一個以上的 [**IScanProfileMgr**](-wia-iscanprofilemgr.md) 物件可能同時建立或刪除設定檔時，請使用這個方法。</span><span class="sxs-lookup"><span data-stu-id="7bcdd-113">Use this method when more than one [**IScanProfileMgr**](-wia-iscanprofilemgr.md) object might be creating or deleting profiles at the same time.</span></span>
+<span data-ttu-id="e49fa-113">當有一個以上的 [**IScanProfileMgr**](-wia-iscanprofilemgr.md) 物件可能同時建立或刪除設定檔時，請使用這個方法。</span><span class="sxs-lookup"><span data-stu-id="e49fa-113">Use this method when more than one [**IScanProfileMgr**](-wia-iscanprofilemgr.md) object might be creating or deleting profiles at the same time.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="7bcdd-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="7bcdd-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e49fa-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="e49fa-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="7bcdd-115">需求</span><span class="sxs-lookup"><span data-stu-id="7bcdd-115">Requirement</span></span> | <span data-ttu-id="7bcdd-116">值</span><span class="sxs-lookup"><span data-stu-id="7bcdd-116">Value</span></span> |
+| <span data-ttu-id="e49fa-115">需求</span><span class="sxs-lookup"><span data-stu-id="e49fa-115">Requirement</span></span> | <span data-ttu-id="e49fa-116">值</span><span class="sxs-lookup"><span data-stu-id="e49fa-116">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| <span data-ttu-id="7bcdd-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7bcdd-117">Minimum supported client</span></span><br/> | <span data-ttu-id="7bcdd-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7bcdd-118">Windows Vista \[desktop apps only\]</span></span><br/>                                              |
-| <span data-ttu-id="7bcdd-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7bcdd-119">Minimum supported server</span></span><br/> | <span data-ttu-id="7bcdd-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7bcdd-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                        |
-| <span data-ttu-id="7bcdd-121">標頭</span><span class="sxs-lookup"><span data-stu-id="7bcdd-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="7bcdd-122"><dt>Scanprofilemgr。h</dt></span><span class="sxs-lookup"><span data-stu-id="7bcdd-122"><dt>Scanprofilemgr.h</dt></span></span> </dl> |
-| <span data-ttu-id="7bcdd-123">Idl</span><span class="sxs-lookup"><span data-stu-id="7bcdd-123">IDL</span></span><br/>                      | <dl> <span data-ttu-id="7bcdd-124"><dt>Scanprofiles .idl</dt></span><span class="sxs-lookup"><span data-stu-id="7bcdd-124"><dt>Scanprofiles.idl</dt></span></span> </dl> |
+| <span data-ttu-id="e49fa-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e49fa-117">Minimum supported client</span></span><br/> | <span data-ttu-id="e49fa-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e49fa-118">Windows Vista \[desktop apps only\]</span></span><br/>                                              |
+| <span data-ttu-id="e49fa-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e49fa-119">Minimum supported server</span></span><br/> | <span data-ttu-id="e49fa-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e49fa-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="e49fa-121">標頭</span><span class="sxs-lookup"><span data-stu-id="e49fa-121">Header</span></span><br/>                   | <dl> <span data-ttu-id="e49fa-122"><dt>Scanprofilemgr。h</dt></span><span class="sxs-lookup"><span data-stu-id="e49fa-122"><dt>Scanprofilemgr.h</dt></span></span> </dl> |
+| <span data-ttu-id="e49fa-123">Idl</span><span class="sxs-lookup"><span data-stu-id="e49fa-123">IDL</span></span><br/>                      | <dl> <span data-ttu-id="e49fa-124"><dt>Scanprofiles .idl</dt></span><span class="sxs-lookup"><span data-stu-id="e49fa-124"><dt>Scanprofiles.idl</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7bcdd-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7bcdd-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e49fa-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e49fa-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7bcdd-126">**IScanProfileMgr**</span><span class="sxs-lookup"><span data-stu-id="7bcdd-126">**IScanProfileMgr**</span></span>](-wia-iscanprofilemgr.md)
+[<span data-ttu-id="e49fa-126">**IScanProfileMgr**</span><span class="sxs-lookup"><span data-stu-id="e49fa-126">**IScanProfileMgr**</span></span>](-wia-iscanprofilemgr.md)
 </dt> <dt>
 
-[<span data-ttu-id="7bcdd-127">掃描設定檔架構</span><span class="sxs-lookup"><span data-stu-id="7bcdd-127">Scan Profile Schema</span></span>](-wia-scan-profile-schema.md)
+[<span data-ttu-id="e49fa-127">掃描設定檔架構</span><span class="sxs-lookup"><span data-stu-id="e49fa-127">Scan Profile Schema</span></span>](-wia-scan-profile-schema.md)
 </dt> </dl>
 
  

@@ -1,0 +1,25 @@
+---
+description: 執行 Microsoft Windows 的個人電腦通常有許多網路連線，例如多個網路介面卡 (NIC) 連線到不同的網路，或是實體網路連線與撥號連線。
+ms.assetid: 73a1999d-0c19-4f9d-8e47-07f819874535
+title: '網路定位知悉服務供應商 (NLA) '
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 91d3b5882b63539ce0299c9d4a2d93dc17ef2576
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104113028"
+---
+# <a name="network-location-awareness-service-provider-nla"></a><span data-ttu-id="09393-103">網路定位知悉服務供應商 (NLA) </span><span class="sxs-lookup"><span data-stu-id="09393-103">Network Location Awareness Service Provider (NLA)</span></span>
+
+<span data-ttu-id="09393-104">執行 Microsoft Windows 的個人電腦通常有許多網路連線，例如多個網路介面卡 (NIC) 連線到不同的網路，或是實體網路連線與撥號連線。</span><span class="sxs-lookup"><span data-stu-id="09393-104">Personal computers running Microsoft Windows often have numerous network connections, such as multiple network interface cards (NIC) connected to different networks, or a physical network connection and a dial-up connection.</span></span> <span data-ttu-id="09393-105">Windows 通訊端已可列舉可用的網路介面一段時間，但先前無法使用一些有關網路連線的重要資訊。</span><span class="sxs-lookup"><span data-stu-id="09393-105">Windows Sockets has been capable of enumerating available network interfaces for some time, but certain critical information about network connections was previously unavailable.</span></span> <span data-ttu-id="09393-106">這包括一些資訊，例如 Windows 電腦附加的邏輯網路，或多個介面是否連線到相同的網路。</span><span class="sxs-lookup"><span data-stu-id="09393-106">This includes information such as the logical network to which a Windows computer is attached or whether multiple interfaces are connected to the same network.</span></span>
+
+<span data-ttu-id="09393-107">網路定位知悉服務供應商（通常稱為 NLA）可讓 Windows 通訊端2應用程式識別 Windows 電腦附加的邏輯網路。</span><span class="sxs-lookup"><span data-stu-id="09393-107">The Network Location Awareness service provider, commonly referred to as NLA, enables Windows Sockets 2 applications to identify the logical network to which a Windows computer is attached.</span></span> <span data-ttu-id="09393-108">此外，NLA 還可讓 Windows 通訊端應用程式識別指定應用程式儲存特定資訊的實體網路介面。</span><span class="sxs-lookup"><span data-stu-id="09393-108">In addition, NLA enables Windows Sockets applications to identify to which physical network interface a given application has saved specific information.</span></span> <span data-ttu-id="09393-109">NLA 會實作為一般 Windows 通訊端2名稱解析服務提供者。</span><span class="sxs-lookup"><span data-stu-id="09393-109">NLA is implemented as a generic Windows Sockets 2 Name Resolution service provider.</span></span>
+
+ 
+
+ 
+
+
+

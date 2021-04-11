@@ -11,29 +11,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2020
 ms.locfileid: "103933760"
 ---
-# <a name="how-to-process-comboboxex-notifications"></a><span data-ttu-id="4c84b-103">如何處理 ComboBoxEx 通知</span><span class="sxs-lookup"><span data-stu-id="4c84b-103">How to Process ComboBoxEx Notifications</span></span>
+# <a name="how-to-process-comboboxex-notifications"></a><span data-ttu-id="deb04-103">如何處理 ComboBoxEx 通知</span><span class="sxs-lookup"><span data-stu-id="deb04-103">How to Process ComboBoxEx Notifications</span></span>
 
-<span data-ttu-id="4c84b-104">本主題將示範如何處理 ComboBoxEx 通知訊息。</span><span class="sxs-lookup"><span data-stu-id="4c84b-104">This topic demonstrates how to process ComboBoxEx notification messages.</span></span>
+<span data-ttu-id="deb04-104">本主題將示範如何處理 ComboBoxEx 通知訊息。</span><span class="sxs-lookup"><span data-stu-id="deb04-104">This topic demonstrates how to process ComboBoxEx notification messages.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="4c84b-105">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="4c84b-105">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="deb04-105">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="deb04-105">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="4c84b-106">技術</span><span class="sxs-lookup"><span data-stu-id="4c84b-106">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="deb04-106">技術</span><span class="sxs-lookup"><span data-stu-id="deb04-106">Technologies</span></span>
 
--   [<span data-ttu-id="4c84b-107">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="4c84b-107">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="deb04-107">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="deb04-107">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="4c84b-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="4c84b-108">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="deb04-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="deb04-108">Prerequisites</span></span>
 
--   <span data-ttu-id="4c84b-109">C/C++</span><span class="sxs-lookup"><span data-stu-id="4c84b-109">C/C++</span></span>
--   <span data-ttu-id="4c84b-110">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="4c84b-110">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="deb04-109">C/C++</span><span class="sxs-lookup"><span data-stu-id="deb04-109">C/C++</span></span>
+-   <span data-ttu-id="deb04-110">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="deb04-110">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="4c84b-111">指示</span><span class="sxs-lookup"><span data-stu-id="4c84b-111">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="deb04-111">指示</span><span class="sxs-lookup"><span data-stu-id="deb04-111">Instructions</span></span>
 
 
-<span data-ttu-id="4c84b-112">ComboBoxEx 控制項藉由傳送 [**WM \_ 通知**](wm-notify.md) 訊息，來通知其父視窗的事件。</span><span class="sxs-lookup"><span data-stu-id="4c84b-112">A ComboBoxEx control notifies its parent window of events by sending [**WM\_NOTIFY**](wm-notify.md) messages.</span></span> <span data-ttu-id="4c84b-113">它也會將它從它所包含的下拉式方塊接收的 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 通知訊息，傳遞給要處理的父視窗。</span><span class="sxs-lookup"><span data-stu-id="4c84b-113">It also passes the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) notification messages that it receives from the combo box contained within it to the parent window to be processed.</span></span> <span data-ttu-id="4c84b-114">因此，您的應用程式必須準備好處理從 ComboBoxEx 子下拉式方塊控制項轉送的 ComboBoxEx 和 **wm \_ 命令** 訊息中的 **wm \_ 通知** 訊息。</span><span class="sxs-lookup"><span data-stu-id="4c84b-114">Therefore, your application must be prepared to process **WM\_NOTIFY** messages from the ComboBoxEx and **WM\_COMMAND** messages that are forwarded from the ComboBoxEx child combo box control.</span></span>
+<span data-ttu-id="deb04-112">ComboBoxEx 控制項藉由傳送 [**WM \_ 通知**](wm-notify.md) 訊息，來通知其父視窗的事件。</span><span class="sxs-lookup"><span data-stu-id="deb04-112">A ComboBoxEx control notifies its parent window of events by sending [**WM\_NOTIFY**](wm-notify.md) messages.</span></span> <span data-ttu-id="deb04-113">它也會將它從它所包含的下拉式方塊接收的 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 通知訊息，傳遞給要處理的父視窗。</span><span class="sxs-lookup"><span data-stu-id="deb04-113">It also passes the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) notification messages that it receives from the combo box contained within it to the parent window to be processed.</span></span> <span data-ttu-id="deb04-114">因此，您的應用程式必須準備好處理從 ComboBoxEx 子下拉式方塊控制項轉送的 ComboBoxEx 和 **wm \_ 命令** 訊息中的 **wm \_ 通知** 訊息。</span><span class="sxs-lookup"><span data-stu-id="deb04-114">Therefore, your application must be prepared to process **WM\_NOTIFY** messages from the ComboBoxEx and **WM\_COMMAND** messages that are forwarded from the ComboBoxEx child combo box control.</span></span>
 
-<span data-ttu-id="4c84b-115">本節中的範例會呼叫對應的應用程式定義函數來處理這些訊息，以處理來自 ComboBoxEx 控制項的 [**wm \_ 通知**](wm-notify.md) 和 [**wm \_ 命令**](/windows/desktop/menurc/wm-command) 訊息。</span><span class="sxs-lookup"><span data-stu-id="4c84b-115">The example in this section handles the [**WM\_NOTIFY**](wm-notify.md) and [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) messages from a ComboBoxEx control by calling a corresponding application-defined function to process these messages.</span></span>
+<span data-ttu-id="deb04-115">本節中的範例會呼叫對應的應用程式定義函數來處理這些訊息，以處理來自 ComboBoxEx 控制項的 [**wm \_ 通知**](wm-notify.md) 和 [**wm \_ 命令**](/windows/desktop/menurc/wm-command) 訊息。</span><span class="sxs-lookup"><span data-stu-id="deb04-115">The example in this section handles the [**WM\_NOTIFY**](wm-notify.md) and [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) messages from a ComboBoxEx control by calling a corresponding application-defined function to process these messages.</span></span>
 
-## <a name="complete-example"></a><span data-ttu-id="4c84b-116">完整範例</span><span class="sxs-lookup"><span data-stu-id="4c84b-116">Complete example</span></span>
+## <a name="complete-example"></a><span data-ttu-id="deb04-116">完整範例</span><span class="sxs-lookup"><span data-stu-id="deb04-116">Complete example</span></span>
 
 
 ```C++
@@ -69,20 +69,20 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="4c84b-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="4c84b-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="deb04-117">相關主題</span><span class="sxs-lookup"><span data-stu-id="deb04-117">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4c84b-118">關於 ComboBoxEx 控制項</span><span class="sxs-lookup"><span data-stu-id="4c84b-118">About ComboBoxEx Controls</span></span>](comboboxex-controls.md)
+[<span data-ttu-id="deb04-118">關於 ComboBoxEx 控制項</span><span class="sxs-lookup"><span data-stu-id="deb04-118">About ComboBoxEx Controls</span></span>](comboboxex-controls.md)
 </dt> <dt>
 
-[<span data-ttu-id="4c84b-119">ComboBoxEx 控制項參考</span><span class="sxs-lookup"><span data-stu-id="4c84b-119">ComboBoxEx Control Reference</span></span>](bumper-comboboxex-comboboxex-control-reference.md)
+[<span data-ttu-id="deb04-119">ComboBoxEx 控制項參考</span><span class="sxs-lookup"><span data-stu-id="deb04-119">ComboBoxEx Control Reference</span></span>](bumper-comboboxex-comboboxex-control-reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="4c84b-120">使用 ComboBoxEx 控制項</span><span class="sxs-lookup"><span data-stu-id="4c84b-120">Using ComboBoxEx Controls</span></span>](/windows/desktop/Controls/using-comboboxex)
+[<span data-ttu-id="deb04-120">使用 ComboBoxEx 控制項</span><span class="sxs-lookup"><span data-stu-id="deb04-120">Using ComboBoxEx Controls</span></span>](/windows/desktop/Controls/using-comboboxex)
 </dt> <dt>
 
-[<span data-ttu-id="4c84b-121">ComboBoxEx</span><span class="sxs-lookup"><span data-stu-id="4c84b-121">ComboBoxEx</span></span>](comboboxex-control-reference.md)
+[<span data-ttu-id="deb04-121">ComboBoxEx</span><span class="sxs-lookup"><span data-stu-id="deb04-121">ComboBoxEx</span></span>](comboboxex-control-reference.md)
 </dt> </dl>
 
  

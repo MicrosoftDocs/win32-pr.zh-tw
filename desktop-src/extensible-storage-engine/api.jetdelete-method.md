@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847853"
 ---
-# <a name="apijetdelete-method"></a><span data-ttu-id="8e615-103">JetDelete 方法</span><span class="sxs-lookup"><span data-stu-id="8e615-103">Api.JetDelete method</span></span>
+# <a name="apijetdelete-method"></a><span data-ttu-id="62079-103">JetDelete 方法</span><span class="sxs-lookup"><span data-stu-id="62079-103">Api.JetDelete method</span></span>
 
-<span data-ttu-id="8e615-104">刪除資料庫資料表中的目前記錄。</span><span class="sxs-lookup"><span data-stu-id="8e615-104">Deletes the current record in a database table.</span></span>
+<span data-ttu-id="62079-104">刪除資料庫資料表中的目前記錄。</span><span class="sxs-lookup"><span data-stu-id="62079-104">Deletes the current record in a database table.</span></span>
 
-<span data-ttu-id="8e615-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="8e615-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="8e615-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="8e615-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="62079-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="62079-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="62079-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="62079-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8e615-107">語法</span><span class="sxs-lookup"><span data-stu-id="8e615-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="62079-107">語法</span><span class="sxs-lookup"><span data-stu-id="62079-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,26 +58,26 @@ public static void JetDelete(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="8e615-108">參數</span><span class="sxs-lookup"><span data-stu-id="8e615-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="62079-108">參數</span><span class="sxs-lookup"><span data-stu-id="62079-108">Parameters</span></span>
 
-  - <span data-ttu-id="8e615-109">sesid</span><span class="sxs-lookup"><span data-stu-id="8e615-109">sesid</span></span>  
-    <span data-ttu-id="8e615-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="8e615-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="62079-109">sesid</span><span class="sxs-lookup"><span data-stu-id="62079-109">sesid</span></span>  
+    <span data-ttu-id="62079-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="62079-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="8e615-111">開啟資料指標的會話。</span><span class="sxs-lookup"><span data-stu-id="8e615-111">The session that opened the cursor.</span></span>
+    <span data-ttu-id="62079-111">開啟資料指標的會話。</span><span class="sxs-lookup"><span data-stu-id="62079-111">The session that opened the cursor.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="8e615-112">tableid</span><span class="sxs-lookup"><span data-stu-id="8e615-112">tableid</span></span>  
-    <span data-ttu-id="8e615-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="8e615-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="62079-112">tableid</span><span class="sxs-lookup"><span data-stu-id="62079-112">tableid</span></span>  
+    <span data-ttu-id="62079-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="62079-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="8e615-114">資料庫資料表上的資料指標。</span><span class="sxs-lookup"><span data-stu-id="8e615-114">The cursor on a database table.</span></span> <span data-ttu-id="8e615-115">將會刪除目前的資料列。</span><span class="sxs-lookup"><span data-stu-id="8e615-115">The current row will be deleted.</span></span>
+    <span data-ttu-id="62079-114">資料庫資料表上的資料指標。</span><span class="sxs-lookup"><span data-stu-id="62079-114">The cursor on a database table.</span></span> <span data-ttu-id="62079-115">將會刪除目前的資料列。</span><span class="sxs-lookup"><span data-stu-id="62079-115">The current row will be deleted.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="8e615-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8e615-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="62079-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="62079-116">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="8e615-117">參考</span><span class="sxs-lookup"><span data-stu-id="8e615-117">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="62079-117">參考</span><span class="sxs-lookup"><span data-stu-id="62079-117">Reference</span></span>
 
-[<span data-ttu-id="8e615-118">Api 類別</span><span class="sxs-lookup"><span data-stu-id="8e615-118">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="62079-118">Api 類別</span><span class="sxs-lookup"><span data-stu-id="62079-118">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="8e615-119">Api 成員</span><span class="sxs-lookup"><span data-stu-id="8e615-119">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="62079-119">Api 成員</span><span class="sxs-lookup"><span data-stu-id="62079-119">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="8e615-120">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="8e615-120">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="62079-120">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="62079-120">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

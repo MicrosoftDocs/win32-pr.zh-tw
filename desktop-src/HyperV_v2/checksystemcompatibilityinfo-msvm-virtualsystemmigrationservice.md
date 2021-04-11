@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847772"
 ---
-# <a name="checksystemcompatibilityinfo-method-of-the-msvm_virtualsystemmigrationservice-class"></a><span data-ttu-id="d7729-103">Msvm VirtualSystemMigrationService 類別的 CheckSystemCompatibilityInfo 方法 \_</span><span class="sxs-lookup"><span data-stu-id="d7729-103">CheckSystemCompatibilityInfo method of the Msvm\_VirtualSystemMigrationService class</span></span>
+# <a name="checksystemcompatibilityinfo-method-of-the-msvm_virtualsystemmigrationservice-class"></a><span data-ttu-id="6aac1-103">Msvm VirtualSystemMigrationService 類別的 CheckSystemCompatibilityInfo 方法 \_</span><span class="sxs-lookup"><span data-stu-id="6aac1-103">CheckSystemCompatibilityInfo method of the Msvm\_VirtualSystemMigrationService class</span></span>
 
-<span data-ttu-id="d7729-104">檢查相容性資訊是否與主控電腦系統相容。</span><span class="sxs-lookup"><span data-stu-id="d7729-104">Checks the compatibility information for compatibility with the hosting computer system.</span></span>
+<span data-ttu-id="6aac1-104">檢查相容性資訊是否與主控電腦系統相容。</span><span class="sxs-lookup"><span data-stu-id="6aac1-104">Checks the compatibility information for compatibility with the hosting computer system.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d7729-105">語法</span><span class="sxs-lookup"><span data-stu-id="d7729-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6aac1-105">語法</span><span class="sxs-lookup"><span data-stu-id="6aac1-105">Syntax</span></span>
 
 
 ```mof
@@ -36,91 +36,91 @@ uint32 CheckSystemCompatibilityInfo(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="d7729-106">參數</span><span class="sxs-lookup"><span data-stu-id="d7729-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6aac1-106">參數</span><span class="sxs-lookup"><span data-stu-id="6aac1-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="d7729-107">*CompatibilityInfo* \[在\]</span><span class="sxs-lookup"><span data-stu-id="d7729-107">*CompatibilityInfo* \[in\]</span></span>
+<span data-ttu-id="6aac1-107">*CompatibilityInfo* \[在\]</span><span class="sxs-lookup"><span data-stu-id="6aac1-107">*CompatibilityInfo* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d7729-108">在主控電腦系統上呼叫 [**GetSystemCompatibilityInfo**](getsystemcompatibilityinfo-msvm-virtualsystemmigrationservice.md) 方法所取得的資料 blob。</span><span class="sxs-lookup"><span data-stu-id="d7729-108">A blob of data obtained by calling the [**GetSystemCompatibilityInfo**](getsystemcompatibilityinfo-msvm-virtualsystemmigrationservice.md) method on the hosting computer system.</span></span>
+<span data-ttu-id="6aac1-108">在主控電腦系統上呼叫 [**GetSystemCompatibilityInfo**](getsystemcompatibilityinfo-msvm-virtualsystemmigrationservice.md) 方法所取得的資料 blob。</span><span class="sxs-lookup"><span data-stu-id="6aac1-108">A blob of data obtained by calling the [**GetSystemCompatibilityInfo**](getsystemcompatibilityinfo-msvm-virtualsystemmigrationservice.md) method on the hosting computer system.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d7729-109">*原因* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="d7729-109">*Reasons* \[out\]</span></span>
+<span data-ttu-id="6aac1-109">*原因* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="6aac1-109">*Reasons* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d7729-110">字串陣列，這些字串會接收代表任何警告或錯誤之 [**Msvm \_ 錯誤**](msvm-error.md) 類別的內嵌實例。</span><span class="sxs-lookup"><span data-stu-id="d7729-110">An array of strings that receives the embedded instances of the [**Msvm\_Error**](msvm-error.md) class that represent any warnings or errors.</span></span>
+<span data-ttu-id="6aac1-110">字串陣列，這些字串會接收代表任何警告或錯誤之 [**Msvm \_ 錯誤**](msvm-error.md) 類別的內嵌實例。</span><span class="sxs-lookup"><span data-stu-id="6aac1-110">An array of strings that receives the embedded instances of the [**Msvm\_Error**](msvm-error.md) class that represent any warnings or errors.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="d7729-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="d7729-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6aac1-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="6aac1-111">Return value</span></span>
 
-<span data-ttu-id="d7729-112">這個方法會傳回下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="d7729-112">This method returns one of the following values.</span></span>
+<span data-ttu-id="6aac1-112">這個方法會傳回下列其中一個值。</span><span class="sxs-lookup"><span data-stu-id="6aac1-112">This method returns one of the following values.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="d7729-113">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="d7729-113">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="6aac1-113">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="6aac1-113">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-114">**已檢查方法參數-工作已啟動** (4096) </span><span class="sxs-lookup"><span data-stu-id="d7729-114">**Method Parameters Checked - Job Started** (4096)</span></span>
+<span data-ttu-id="6aac1-114">**已檢查方法參數-工作已啟動** (4096) </span><span class="sxs-lookup"><span data-stu-id="6aac1-114">**Method Parameters Checked - Job Started** (4096)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-115">**無法** (32768) </span><span class="sxs-lookup"><span data-stu-id="d7729-115">**Failed** (32768)</span></span>
+<span data-ttu-id="6aac1-115">**無法** (32768) </span><span class="sxs-lookup"><span data-stu-id="6aac1-115">**Failed** (32768)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-116">**拒絕存取** (32769) </span><span class="sxs-lookup"><span data-stu-id="d7729-116">**Access Denied** (32769)</span></span>
+<span data-ttu-id="6aac1-116">**拒絕存取** (32769) </span><span class="sxs-lookup"><span data-stu-id="6aac1-116">**Access Denied** (32769)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-117">**不支援** (32770) </span><span class="sxs-lookup"><span data-stu-id="d7729-117">**Not Supported** (32770)</span></span>
+<span data-ttu-id="6aac1-117">**不支援** (32770) </span><span class="sxs-lookup"><span data-stu-id="6aac1-117">**Not Supported** (32770)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-118">**狀態未知** (32771) </span><span class="sxs-lookup"><span data-stu-id="d7729-118">**Status is unknown** (32771)</span></span>
+<span data-ttu-id="6aac1-118">**狀態未知** (32771) </span><span class="sxs-lookup"><span data-stu-id="6aac1-118">**Status is unknown** (32771)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-119">**Timeout** (32772) </span><span class="sxs-lookup"><span data-stu-id="d7729-119">**Timeout** (32772)</span></span>
+<span data-ttu-id="6aac1-119">**Timeout** (32772) </span><span class="sxs-lookup"><span data-stu-id="6aac1-119">**Timeout** (32772)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-120">**不正確參數** (32773) </span><span class="sxs-lookup"><span data-stu-id="d7729-120">**Invalid parameter** (32773)</span></span>
+<span data-ttu-id="6aac1-120">**不正確參數** (32773) </span><span class="sxs-lookup"><span data-stu-id="6aac1-120">**Invalid parameter** (32773)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-121">**系統正在使用中** (32774) </span><span class="sxs-lookup"><span data-stu-id="d7729-121">**System is in use** (32774)</span></span>
+<span data-ttu-id="6aac1-121">**系統正在使用中** (32774) </span><span class="sxs-lookup"><span data-stu-id="6aac1-121">**System is in use** (32774)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-122">**此操作的狀態無效** (32775) </span><span class="sxs-lookup"><span data-stu-id="d7729-122">**Invalid state for this operation** (32775)</span></span>
+<span data-ttu-id="6aac1-122">**此操作的狀態無效** (32775) </span><span class="sxs-lookup"><span data-stu-id="6aac1-122">**Invalid state for this operation** (32775)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-123">**不正確的資料類型** (32776) </span><span class="sxs-lookup"><span data-stu-id="d7729-123">**Incorrect data type** (32776)</span></span>
+<span data-ttu-id="6aac1-123">**不正確的資料類型** (32776) </span><span class="sxs-lookup"><span data-stu-id="6aac1-123">**Incorrect data type** (32776)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-124">**系統無法使用** (32777) </span><span class="sxs-lookup"><span data-stu-id="d7729-124">**System is not available** (32777)</span></span>
+<span data-ttu-id="6aac1-124">**系統無法使用** (32777) </span><span class="sxs-lookup"><span data-stu-id="6aac1-124">**System is not available** (32777)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-125">**記憶體不足** (32778) </span><span class="sxs-lookup"><span data-stu-id="d7729-125">**Out of memory** (32778)</span></span>
+<span data-ttu-id="6aac1-125">**記憶體不足** (32778) </span><span class="sxs-lookup"><span data-stu-id="6aac1-125">**Out of memory** (32778)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="d7729-126">**不相容** (32784) </span><span class="sxs-lookup"><span data-stu-id="d7729-126">**Not compatible** (32784)</span></span>
+<span data-ttu-id="6aac1-126">**不相容** (32784) </span><span class="sxs-lookup"><span data-stu-id="6aac1-126">**Not compatible** (32784)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="d7729-127">規格需求</span><span class="sxs-lookup"><span data-stu-id="d7729-127">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6aac1-127">規格需求</span><span class="sxs-lookup"><span data-stu-id="6aac1-127">Requirements</span></span>
 
 
 
-| <span data-ttu-id="d7729-128">需求</span><span class="sxs-lookup"><span data-stu-id="d7729-128">Requirement</span></span> | <span data-ttu-id="d7729-129">值</span><span class="sxs-lookup"><span data-stu-id="d7729-129">Value</span></span> |
+| <span data-ttu-id="6aac1-128">需求</span><span class="sxs-lookup"><span data-stu-id="6aac1-128">Requirement</span></span> | <span data-ttu-id="6aac1-129">值</span><span class="sxs-lookup"><span data-stu-id="6aac1-129">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="d7729-130">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d7729-130">Minimum supported client</span></span><br/> | <span data-ttu-id="d7729-131">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d7729-131">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
-| <span data-ttu-id="d7729-132">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d7729-132">Minimum supported server</span></span><br/> | <span data-ttu-id="d7729-133">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="d7729-133">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="d7729-134">命名空間</span><span class="sxs-lookup"><span data-stu-id="d7729-134">Namespace</span></span><br/>                | <span data-ttu-id="d7729-135">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="d7729-135">Root\\Virtualization\\V2</span></span><br/>                                                                     |
-| <span data-ttu-id="d7729-136">MOF</span><span class="sxs-lookup"><span data-stu-id="d7729-136">MOF</span></span><br/>                      | <dl> <span data-ttu-id="d7729-137"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="d7729-137"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="d7729-138">DLL</span><span class="sxs-lookup"><span data-stu-id="d7729-138">DLL</span></span><br/>                      | <dl> <span data-ttu-id="d7729-139"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="d7729-139"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="6aac1-130">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6aac1-130">Minimum supported client</span></span><br/> | <span data-ttu-id="6aac1-131">\[僅 Windows 8 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6aac1-131">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
+| <span data-ttu-id="6aac1-132">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6aac1-132">Minimum supported server</span></span><br/> | <span data-ttu-id="6aac1-133">僅限 Windows Server 2012 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6aac1-133">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="6aac1-134">命名空間</span><span class="sxs-lookup"><span data-stu-id="6aac1-134">Namespace</span></span><br/>                | <span data-ttu-id="6aac1-135">根 \\ 虛擬化 \\ V2</span><span class="sxs-lookup"><span data-stu-id="6aac1-135">Root\\Virtualization\\V2</span></span><br/>                                                                     |
+| <span data-ttu-id="6aac1-136">MOF</span><span class="sxs-lookup"><span data-stu-id="6aac1-136">MOF</span></span><br/>                      | <dl> <span data-ttu-id="6aac1-137"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="6aac1-137"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="6aac1-138">DLL</span><span class="sxs-lookup"><span data-stu-id="6aac1-138">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6aac1-139"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="6aac1-139"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="d7729-140">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d7729-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6aac1-140">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6aac1-140">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d7729-141">**Msvm \_ VirtualSystemMigrationService**</span><span class="sxs-lookup"><span data-stu-id="d7729-141">**Msvm\_VirtualSystemMigrationService**</span></span>](msvm-virtualsystemmigrationservice.md)
+[<span data-ttu-id="6aac1-141">**Msvm \_ VirtualSystemMigrationService**</span><span class="sxs-lookup"><span data-stu-id="6aac1-141">**Msvm\_VirtualSystemMigrationService**</span></span>](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
  

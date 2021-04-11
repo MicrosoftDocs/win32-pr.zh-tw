@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104112593"
 ---
-# <a name="apijetdupsession-method"></a><span data-ttu-id="96529-103">JetDupSession 方法</span><span class="sxs-lookup"><span data-stu-id="96529-103">Api.JetDupSession method</span></span>
+# <a name="apijetdupsession-method"></a><span data-ttu-id="5acde-103">JetDupSession 方法</span><span class="sxs-lookup"><span data-stu-id="5acde-103">Api.JetDupSession method</span></span>
 
-<span data-ttu-id="96529-104">在與指定 sesid 相同的實例中，初始化新的 ESE 會話。</span><span class="sxs-lookup"><span data-stu-id="96529-104">Initialize a new ESE session in the same instance as the given sesid.</span></span>
+<span data-ttu-id="5acde-104">在與指定 sesid 相同的實例中，初始化新的 ESE 會話。</span><span class="sxs-lookup"><span data-stu-id="5acde-104">Initialize a new ESE session in the same instance as the given sesid.</span></span>
 
-<span data-ttu-id="96529-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="96529-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="96529-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="96529-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="5acde-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="5acde-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="5acde-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="5acde-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="96529-107">語法</span><span class="sxs-lookup"><span data-stu-id="96529-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5acde-107">語法</span><span class="sxs-lookup"><span data-stu-id="5acde-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -58,26 +58,26 @@ public static void JetDupSession(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="96529-108">參數</span><span class="sxs-lookup"><span data-stu-id="96529-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="5acde-108">參數</span><span class="sxs-lookup"><span data-stu-id="5acde-108">Parameters</span></span>
 
-  - <span data-ttu-id="96529-109">sesid</span><span class="sxs-lookup"><span data-stu-id="96529-109">sesid</span></span>  
-    <span data-ttu-id="96529-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="96529-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="5acde-109">sesid</span><span class="sxs-lookup"><span data-stu-id="5acde-109">sesid</span></span>  
+    <span data-ttu-id="5acde-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="5acde-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="96529-111">要複製的會話。</span><span class="sxs-lookup"><span data-stu-id="96529-111">The session to duplicate.</span></span>
+    <span data-ttu-id="5acde-111">要複製的會話。</span><span class="sxs-lookup"><span data-stu-id="5acde-111">The session to duplicate.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="96529-112">newSesid</span><span class="sxs-lookup"><span data-stu-id="96529-112">newSesid</span></span>  
-    <span data-ttu-id="96529-113">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="96529-113">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="5acde-112">newSesid</span><span class="sxs-lookup"><span data-stu-id="5acde-112">newSesid</span></span>  
+    <span data-ttu-id="5acde-113">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="5acde-113">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="96529-114">傳回新的會話。</span><span class="sxs-lookup"><span data-stu-id="96529-114">Returns the new session.</span></span>
+    <span data-ttu-id="5acde-114">傳回新的會話。</span><span class="sxs-lookup"><span data-stu-id="5acde-114">Returns the new session.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="96529-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="96529-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5acde-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5acde-115">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="96529-116">參考</span><span class="sxs-lookup"><span data-stu-id="96529-116">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="5acde-116">參考</span><span class="sxs-lookup"><span data-stu-id="5acde-116">Reference</span></span>
 
-[<span data-ttu-id="96529-117">Api 類別</span><span class="sxs-lookup"><span data-stu-id="96529-117">Api class</span></span>](./api-class.md)
+[<span data-ttu-id="5acde-117">Api 類別</span><span class="sxs-lookup"><span data-stu-id="5acde-117">Api class</span></span>](./api-class.md)
 
-[<span data-ttu-id="96529-118">Api 成員</span><span class="sxs-lookup"><span data-stu-id="96529-118">Api members</span></span>](./api-members.md)
+[<span data-ttu-id="5acde-118">Api 成員</span><span class="sxs-lookup"><span data-stu-id="5acde-118">Api members</span></span>](./api-members.md)
 
-[<span data-ttu-id="96529-119">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="96529-119">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="5acde-119">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="5acde-119">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

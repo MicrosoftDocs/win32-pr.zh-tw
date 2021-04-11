@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "104027581"
 ---
-# <a name="vistagrbitsindexdisallowtruncation-field"></a><span data-ttu-id="c5313-103">VistaGrbits. IndexDisallowTruncation 欄位</span><span class="sxs-lookup"><span data-stu-id="c5313-103">VistaGrbits.IndexDisallowTruncation field</span></span>
+# <a name="vistagrbitsindexdisallowtruncation-field"></a><span data-ttu-id="6dc43-103">VistaGrbits. IndexDisallowTruncation 欄位</span><span class="sxs-lookup"><span data-stu-id="6dc43-103">VistaGrbits.IndexDisallowTruncation field</span></span>
 
-<span data-ttu-id="c5313-104">指定此旗標將會導致索引的任何更新會導致截斷的金鑰因 [KeyTruncated](./jet-err-enumeration.md)而失敗。</span><span class="sxs-lookup"><span data-stu-id="c5313-104">Specifying this flag will cause any update to the index that would result in a truncated key to fail with [KeyTruncated](./jet-err-enumeration.md).</span></span> <span data-ttu-id="c5313-105">否則，將會以無訊息方式截斷金鑰。</span><span class="sxs-lookup"><span data-stu-id="c5313-105">Otherwise, keys will be silently truncated.</span></span>
+<span data-ttu-id="6dc43-104">指定此旗標將會導致索引的任何更新會導致截斷的金鑰因 [KeyTruncated](./jet-err-enumeration.md)而失敗。</span><span class="sxs-lookup"><span data-stu-id="6dc43-104">Specifying this flag will cause any update to the index that would result in a truncated key to fail with [KeyTruncated](./jet-err-enumeration.md).</span></span> <span data-ttu-id="6dc43-105">否則，將會以無訊息方式截斷金鑰。</span><span class="sxs-lookup"><span data-stu-id="6dc43-105">Otherwise, keys will be silently truncated.</span></span>
 
-<span data-ttu-id="c5313-106">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="c5313-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
-<span data-ttu-id="c5313-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="c5313-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="6dc43-106">**命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。  </span><span class="sxs-lookup"><span data-stu-id="6dc43-106">**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)</span></span>  
+<span data-ttu-id="6dc43-107">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="6dc43-107">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c5313-108">語法</span><span class="sxs-lookup"><span data-stu-id="c5313-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6dc43-108">語法</span><span class="sxs-lookup"><span data-stu-id="6dc43-108">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -53,12 +53,12 @@ value = VistaGrbits.IndexDisallowTruncation
 public const CreateIndexGrbit IndexDisallowTruncation
 ```
 
-## <a name="see-also"></a><span data-ttu-id="c5313-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c5313-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6dc43-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6dc43-109">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="c5313-110">參考</span><span class="sxs-lookup"><span data-stu-id="c5313-110">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="6dc43-110">參考</span><span class="sxs-lookup"><span data-stu-id="6dc43-110">Reference</span></span>
 
-[<span data-ttu-id="c5313-111">VistaGrbits 類別</span><span class="sxs-lookup"><span data-stu-id="c5313-111">VistaGrbits class</span></span>](./vistagrbits-class.md)
+[<span data-ttu-id="6dc43-111">VistaGrbits 類別</span><span class="sxs-lookup"><span data-stu-id="6dc43-111">VistaGrbits class</span></span>](./vistagrbits-class.md)
 
-[<span data-ttu-id="c5313-112">VistaGrbits 成員</span><span class="sxs-lookup"><span data-stu-id="c5313-112">VistaGrbits members</span></span>](./vistagrbits-members.md)
+[<span data-ttu-id="6dc43-112">VistaGrbits 成員</span><span class="sxs-lookup"><span data-stu-id="6dc43-112">VistaGrbits members</span></span>](./vistagrbits-members.md)
 
-[<span data-ttu-id="c5313-113">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="c5313-113">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)
+[<span data-ttu-id="6dc43-113">Microsoft.Isam.Esent.Interop.Vista namespace</span><span class="sxs-lookup"><span data-stu-id="6dc43-113">Microsoft.Isam.Esent.Interop.Vista namespace</span></span>](./microsoft.isam.esent.interop.vista-namespace.md)

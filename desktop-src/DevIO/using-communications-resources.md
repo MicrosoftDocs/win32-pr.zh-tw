@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847282"
 ---
-# <a name="using-communications-resources"></a><span data-ttu-id="3079f-103">使用通訊資源</span><span class="sxs-lookup"><span data-stu-id="3079f-103">Using Communications Resources</span></span>
+# <a name="using-communications-resources"></a><span data-ttu-id="2ced7-103">使用通訊資源</span><span class="sxs-lookup"><span data-stu-id="2ced7-103">Using Communications Resources</span></span>
 
-<span data-ttu-id="3079f-104">下列範例示範如何設定和監視通訊資源：</span><span class="sxs-lookup"><span data-stu-id="3079f-104">The following examples demonstrate configuring and monitoring a communications resource:</span></span>
+<span data-ttu-id="2ced7-104">下列範例示範如何設定和監視通訊資源：</span><span class="sxs-lookup"><span data-stu-id="2ced7-104">The following examples demonstrate configuring and monitoring a communications resource:</span></span>
 
--   [<span data-ttu-id="3079f-105">設定通訊資源</span><span class="sxs-lookup"><span data-stu-id="3079f-105">Configuring a Communications Resource</span></span>](configuring-a-communications-resource.md)
--   [<span data-ttu-id="3079f-106">監視通訊事件</span><span class="sxs-lookup"><span data-stu-id="3079f-106">Monitoring Communications Events</span></span>](monitoring-communications-events.md)
+-   [<span data-ttu-id="2ced7-105">設定通訊資源</span><span class="sxs-lookup"><span data-stu-id="2ced7-105">Configuring a Communications Resource</span></span>](configuring-a-communications-resource.md)
+-   [<span data-ttu-id="2ced7-106">監視通訊事件</span><span class="sxs-lookup"><span data-stu-id="2ced7-106">Monitoring Communications Events</span></span>](monitoring-communications-events.md)
 
  
 

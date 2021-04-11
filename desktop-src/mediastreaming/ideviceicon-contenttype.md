@@ -22,11 +22,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/19/2020
 ms.locfileid: "103842139"
 ---
-# <a name="ideviceiconcontenttype-method"></a><span data-ttu-id="b04a0-106">IDeviceIcon：： ContentType 方法</span><span class="sxs-lookup"><span data-stu-id="b04a0-106">IDeviceIcon::ContentType method</span></span>
+# <a name="ideviceiconcontenttype-method"></a><span data-ttu-id="e2319-106">IDeviceIcon：： ContentType 方法</span><span class="sxs-lookup"><span data-stu-id="e2319-106">IDeviceIcon::ContentType method</span></span>
 
-<span data-ttu-id="b04a0-107">抓取圖示的內容類型。</span><span class="sxs-lookup"><span data-stu-id="b04a0-107">Retrieves the content type of the icon.</span></span>
+<span data-ttu-id="e2319-107">抓取圖示的內容類型。</span><span class="sxs-lookup"><span data-stu-id="e2319-107">Retrieves the content type of the icon.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b04a0-108">語法</span><span class="sxs-lookup"><span data-stu-id="b04a0-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e2319-108">語法</span><span class="sxs-lookup"><span data-stu-id="e2319-108">Syntax</span></span>
 
 
 ```C++
@@ -37,36 +37,36 @@ HRESULT ContentType(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="b04a0-109">參數</span><span class="sxs-lookup"><span data-stu-id="b04a0-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e2319-109">參數</span><span class="sxs-lookup"><span data-stu-id="e2319-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="b04a0-110">*值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="b04a0-110">*value* \[out\]</span></span>
+<span data-ttu-id="e2319-110">*值* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="e2319-110">*value* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="b04a0-111">接收圖示內容類型的指標。</span><span class="sxs-lookup"><span data-stu-id="b04a0-111">Receives a pointer to the content type of the icon.</span></span>
+<span data-ttu-id="e2319-111">接收圖示內容類型的指標。</span><span class="sxs-lookup"><span data-stu-id="e2319-111">Receives a pointer to the content type of the icon.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="b04a0-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="b04a0-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e2319-112">傳回值</span><span class="sxs-lookup"><span data-stu-id="e2319-112">Return value</span></span>
 
-<span data-ttu-id="b04a0-113">方法會傳回 **HRESULT**。</span><span class="sxs-lookup"><span data-stu-id="b04a0-113">The method returns an **HRESULT**.</span></span> <span data-ttu-id="b04a0-114">可能的值包括 (但不限於) 下表中的這些值。</span><span class="sxs-lookup"><span data-stu-id="b04a0-114">Possible values include, but are not limited to, those in the following table.</span></span>
+<span data-ttu-id="e2319-113">方法會傳回 **HRESULT**。</span><span class="sxs-lookup"><span data-stu-id="e2319-113">The method returns an **HRESULT**.</span></span> <span data-ttu-id="e2319-114">可能的值包括 (但不限於) 下表中的這些值。</span><span class="sxs-lookup"><span data-stu-id="e2319-114">Possible values include, but are not limited to, those in the following table.</span></span>
 
 
 
-| <span data-ttu-id="b04a0-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="b04a0-115">Return code</span></span>                                                                          | <span data-ttu-id="b04a0-116">Description</span><span class="sxs-lookup"><span data-stu-id="b04a0-116">Description</span></span>                      |
+| <span data-ttu-id="e2319-115">傳回碼</span><span class="sxs-lookup"><span data-stu-id="e2319-115">Return code</span></span>                                                                          | <span data-ttu-id="e2319-116">Description</span><span class="sxs-lookup"><span data-stu-id="e2319-116">Description</span></span>                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
-| <dl> <span data-ttu-id="b04a0-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="b04a0-117"><dt>**S\_OK**</dt></span></span> </dl> | <span data-ttu-id="b04a0-118">此方法已成功。</span><span class="sxs-lookup"><span data-stu-id="b04a0-118">The method succeeded.</span></span><br/> |
+| <dl> <span data-ttu-id="e2319-117"><dt>**S \_ 確定**</dt></span><span class="sxs-lookup"><span data-stu-id="e2319-117"><dt>**S\_OK**</dt></span></span> </dl> | <span data-ttu-id="e2319-118">此方法已成功。</span><span class="sxs-lookup"><span data-stu-id="e2319-118">The method succeeded.</span></span><br/> |
 
 
 
  
 
-## <a name="see-also"></a><span data-ttu-id="b04a0-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b04a0-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e2319-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e2319-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b04a0-120">**IDeviceIcon**</span><span class="sxs-lookup"><span data-stu-id="b04a0-120">**IDeviceIcon**</span></span>](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-ideviceicon)
+[<span data-ttu-id="e2319-120">**IDeviceIcon**</span><span class="sxs-lookup"><span data-stu-id="e2319-120">**IDeviceIcon**</span></span>](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-ideviceicon)
 </dt> </dl>
 
  

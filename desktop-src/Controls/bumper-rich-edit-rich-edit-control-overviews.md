@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/09/2021
 ms.locfileid: "104035280"
 ---
-# <a name="rich-edit-control-overview"></a><span data-ttu-id="03f73-103">Rich Edit 控制項總覽</span><span class="sxs-lookup"><span data-stu-id="03f73-103">Rich Edit Control Overview</span></span>
+# <a name="rich-edit-control-overview"></a><span data-ttu-id="772d7-103">Rich Edit 控制項總覽</span><span class="sxs-lookup"><span data-stu-id="772d7-103">Rich Edit Control Overview</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="03f73-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="03f73-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="772d7-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="772d7-104">In this section</span></span>
 
--   [<span data-ttu-id="03f73-105">關於 Rich Edit 控制項</span><span class="sxs-lookup"><span data-stu-id="03f73-105">About Rich Edit Controls</span></span>](about-rich-edit-controls.md)
--   [<span data-ttu-id="03f73-106">使用 Rich Edit 控制項</span><span class="sxs-lookup"><span data-stu-id="03f73-106">Using Rich Edit Controls</span></span>](using-rich-edit-controls.md)
+-   [<span data-ttu-id="772d7-105">關於 Rich Edit 控制項</span><span class="sxs-lookup"><span data-stu-id="772d7-105">About Rich Edit Controls</span></span>](about-rich-edit-controls.md)
+-   [<span data-ttu-id="772d7-106">使用 Rich Edit 控制項</span><span class="sxs-lookup"><span data-stu-id="772d7-106">Using Rich Edit Controls</span></span>](using-rich-edit-controls.md)
 
  
 

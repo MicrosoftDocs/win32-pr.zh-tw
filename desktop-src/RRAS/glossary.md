@@ -13,15 +13,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103933856"
 ---
-# <a name="glossary-rras"></a><span data-ttu-id="a16f4-104"> (RRAS 的詞彙) </span><span class="sxs-lookup"><span data-stu-id="a16f4-104">Glossary (RRAS)</span></span>
+# <a name="glossary-rras"></a><span data-ttu-id="3c860-104"> (RRAS 的詞彙) </span><span class="sxs-lookup"><span data-stu-id="3c860-104">Glossary (RRAS)</span></span>
 
-<span data-ttu-id="a16f4-105">本詞彙包含 (RRAS) 的「路由及遠端存取服務」檔中所使用之詞彙的定義。</span><span class="sxs-lookup"><span data-stu-id="a16f4-105">This glossary contains definitions for terms used in the documentation of the Routing and Remote Access Services (RRAS).</span></span>
+<span data-ttu-id="3c860-105">本詞彙包含 (RRAS) 的「路由及遠端存取服務」檔中所使用之詞彙的定義。</span><span class="sxs-lookup"><span data-stu-id="3c860-105">This glossary contains definitions for terms used in the documentation of the Routing and Remote Access Services (RRAS).</span></span>
 
-<span data-ttu-id="a16f4-106">RRAS 會使用自己的條款集合。</span><span class="sxs-lookup"><span data-stu-id="a16f4-106">RRAS uses its own collection of terms.</span></span> <span data-ttu-id="a16f4-107">請仔細閱讀下列定義清單，以瞭解這些詞彙在 RRAS 檔中發生的意義。</span><span class="sxs-lookup"><span data-stu-id="a16f4-107">Please read the following list of definitions carefully in order to understand what is meant when these terms occur in the RRAS documentation.</span></span>
+<span data-ttu-id="3c860-106">RRAS 會使用自己的條款集合。</span><span class="sxs-lookup"><span data-stu-id="3c860-106">RRAS uses its own collection of terms.</span></span> <span data-ttu-id="3c860-107">請仔細閱讀下列定義清單，以瞭解這些詞彙在 RRAS 檔中發生的意義。</span><span class="sxs-lookup"><span data-stu-id="3c860-107">Please read the following list of definitions carefully in order to understand what is meant when these terms occur in the RRAS documentation.</span></span>
 
-<span data-ttu-id="a16f4-108">提供完整的路由條款清單超出本詞彙的範圍。</span><span class="sxs-lookup"><span data-stu-id="a16f4-108">Providing a comprehensive list of routing terms is outside the scope of this glossary.</span></span>
+<span data-ttu-id="3c860-108">提供完整的路由條款清單超出本詞彙的範圍。</span><span class="sxs-lookup"><span data-stu-id="3c860-108">Providing a comprehensive list of routing terms is outside the scope of this glossary.</span></span>
 
-<span data-ttu-id="a16f4-109">[](a-gly.md) [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F G H [I](i-gly.md) J K L M N O [P](p-gly.md) Q R [S](s-gly.md) T W X Y Z</span><span class="sxs-lookup"><span data-stu-id="a16f4-109">[A](a-gly.md) [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F G H [I](i-gly.md) J K L M N O [P](p-gly.md) Q R [S](s-gly.md) T U V W X Y Z</span></span>
+<span data-ttu-id="3c860-109">[](a-gly.md) [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F G H [I](i-gly.md) J K L M N O [P](p-gly.md) Q R [S](s-gly.md) T W X Y Z</span><span class="sxs-lookup"><span data-stu-id="3c860-109">[A](a-gly.md) [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F G H [I](i-gly.md) J K L M N O [P](p-gly.md) Q R [S](s-gly.md) T U V W X Y Z</span></span>
 
  
 

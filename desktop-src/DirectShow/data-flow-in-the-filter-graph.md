@@ -11,23 +11,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103846784"
 ---
-# <a name="data-flow-in-the-filter-graph"></a><span data-ttu-id="a7117-103">篩選圖形中的資料流程</span><span class="sxs-lookup"><span data-stu-id="a7117-103">Data Flow in the Filter Graph</span></span>
+# <a name="data-flow-in-the-filter-graph"></a><span data-ttu-id="9d54f-103">篩選圖形中的資料流程</span><span class="sxs-lookup"><span data-stu-id="9d54f-103">Data Flow in the Filter Graph</span></span>
 
-<span data-ttu-id="a7117-104">本節說明如何透過篩選圖形來移動媒體資料。</span><span class="sxs-lookup"><span data-stu-id="a7117-104">This section describes how media data moves through the filter graph.</span></span> <span data-ttu-id="a7117-105">您通常不需要知道這些詳細資料來撰寫 DirectShow 應用程式，不過在某些情況下，您可能會發現它很有説明。</span><span class="sxs-lookup"><span data-stu-id="a7117-105">Usually, you do not need to know these details to write a DirectShow application, although in some situations you may find it helpful.</span></span> <span data-ttu-id="a7117-106">如果您正在撰寫 DirectShow 篩選器，就必須瞭解這份材質。</span><span class="sxs-lookup"><span data-stu-id="a7117-106">If you are writing a DirectShow filter, you will need to understand this material.</span></span>
+<span data-ttu-id="9d54f-104">本節說明如何透過篩選圖形來移動媒體資料。</span><span class="sxs-lookup"><span data-stu-id="9d54f-104">This section describes how media data moves through the filter graph.</span></span> <span data-ttu-id="9d54f-105">您通常不需要知道這些詳細資料來撰寫 DirectShow 應用程式，不過在某些情況下，您可能會發現它很有説明。</span><span class="sxs-lookup"><span data-stu-id="9d54f-105">Usually, you do not need to know these details to write a DirectShow application, although in some situations you may find it helpful.</span></span> <span data-ttu-id="9d54f-106">如果您正在撰寫 DirectShow 篩選器，就必須瞭解這份材質。</span><span class="sxs-lookup"><span data-stu-id="9d54f-106">If you are writing a DirectShow filter, you will need to understand this material.</span></span>
 
-<span data-ttu-id="a7117-107">本節包含下列主題：</span><span class="sxs-lookup"><span data-stu-id="a7117-107">This section contains the following topics:</span></span>
+<span data-ttu-id="9d54f-107">本節包含下列主題：</span><span class="sxs-lookup"><span data-stu-id="9d54f-107">This section contains the following topics:</span></span>
 
--   [<span data-ttu-id="a7117-108">DirectShow 中的資料流程總覽</span><span class="sxs-lookup"><span data-stu-id="a7117-108">Overview of Data Flow in DirectShow</span></span>](overview-of-data-flow-in-directshow.md)
--   [<span data-ttu-id="a7117-109">傳輸</span><span class="sxs-lookup"><span data-stu-id="a7117-109">Transports</span></span>](transports.md)
--   [<span data-ttu-id="a7117-110">範例和配置器</span><span class="sxs-lookup"><span data-stu-id="a7117-110">Samples and Allocators</span></span>](samples-and-allocators.md)
--   [<span data-ttu-id="a7117-111">篩選狀態</span><span class="sxs-lookup"><span data-stu-id="a7117-111">Filter States</span></span>](filter-states.md)
--   [<span data-ttu-id="a7117-112">提取模型</span><span class="sxs-lookup"><span data-stu-id="a7117-112">Pull Model</span></span>](pull-model.md)
+-   [<span data-ttu-id="9d54f-108">DirectShow 中的資料流程總覽</span><span class="sxs-lookup"><span data-stu-id="9d54f-108">Overview of Data Flow in DirectShow</span></span>](overview-of-data-flow-in-directshow.md)
+-   [<span data-ttu-id="9d54f-109">傳輸</span><span class="sxs-lookup"><span data-stu-id="9d54f-109">Transports</span></span>](transports.md)
+-   [<span data-ttu-id="9d54f-110">範例和配置器</span><span class="sxs-lookup"><span data-stu-id="9d54f-110">Samples and Allocators</span></span>](samples-and-allocators.md)
+-   [<span data-ttu-id="9d54f-111">篩選狀態</span><span class="sxs-lookup"><span data-stu-id="9d54f-111">Filter States</span></span>](filter-states.md)
+-   [<span data-ttu-id="9d54f-112">提取模型</span><span class="sxs-lookup"><span data-stu-id="9d54f-112">Pull Model</span></span>](pull-model.md)
 
-## <a name="related-topics"></a><span data-ttu-id="a7117-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="a7117-113">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9d54f-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="9d54f-113">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a7117-114">篩選開發人員的資料流程</span><span class="sxs-lookup"><span data-stu-id="a7117-114">Data Flow for Filter Developers</span></span>](data-flow-for-filter-developers.md)
+[<span data-ttu-id="9d54f-114">篩選開發人員的資料流程</span><span class="sxs-lookup"><span data-stu-id="9d54f-114">Data Flow for Filter Developers</span></span>](data-flow-for-filter-developers.md)
 </dt> </dl>
 
  

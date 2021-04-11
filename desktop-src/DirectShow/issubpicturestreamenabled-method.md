@@ -11,34 +11,34 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103846640"
 ---
-# <a name="issubpicturestreamenabled-method"></a><span data-ttu-id="7688d-103">IsSubpictureStreamEnabled 方法</span><span class="sxs-lookup"><span data-stu-id="7688d-103">IsSubpictureStreamEnabled Method</span></span>
+# <a name="issubpicturestreamenabled-method"></a><span data-ttu-id="65841-103">IsSubpictureStreamEnabled 方法</span><span class="sxs-lookup"><span data-stu-id="65841-103">IsSubpictureStreamEnabled Method</span></span>
 
 > [!Note]  
-> <span data-ttu-id="7688d-104">此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。</span><span class="sxs-lookup"><span data-stu-id="7688d-104">This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.</span></span> <span data-ttu-id="7688d-105">它在後續版本中可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="7688d-105">It may be altered or unavailable in subsequent versions.</span></span>
+> <span data-ttu-id="65841-104">此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。</span><span class="sxs-lookup"><span data-stu-id="65841-104">This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.</span></span> <span data-ttu-id="65841-105">它在後續版本中可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="65841-105">It may be altered or unavailable in subsequent versions.</span></span>
 
  
 
-<span data-ttu-id="7688d-106">`IsSubpictureStreamEnabled`方法會抓取值，指出目前的標題中是否已啟用指定的子圖片資料流程。</span><span class="sxs-lookup"><span data-stu-id="7688d-106">The `IsSubpictureStreamEnabled` method retrieves a value indicating whether the specified subpicture stream is enabled in the current title.</span></span>
+<span data-ttu-id="65841-106">`IsSubpictureStreamEnabled`方法會抓取值，指出目前的標題中是否已啟用指定的子圖片資料流程。</span><span class="sxs-lookup"><span data-stu-id="65841-106">The `IsSubpictureStreamEnabled` method retrieves a value indicating whether the specified subpicture stream is enabled in the current title.</span></span>
 
 ``` syntax
 [ bEnabled = ] MSWebDVD.IsSubpictureStreamEnabled(iStream)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7688d-107">參數</span><span class="sxs-lookup"><span data-stu-id="7688d-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="65841-107">參數</span><span class="sxs-lookup"><span data-stu-id="65841-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="7688d-108"><span id="iStream"></span><span id="istream"></span><span id="ISTREAM"></span>*iStream*</span><span class="sxs-lookup"><span data-stu-id="7688d-108"><span id="iStream"></span><span id="istream"></span><span id="ISTREAM"></span>*iStream*</span></span>
+<span data-ttu-id="65841-108"><span id="iStream"></span><span id="istream"></span><span id="ISTREAM"></span>*iStream*</span><span class="sxs-lookup"><span data-stu-id="65841-108"><span id="iStream"></span><span id="istream"></span><span id="ISTREAM"></span>*iStream*</span></span>
 </dt> <dd>
 
-<span data-ttu-id="7688d-109">將子圖片資料流程指定為整數。</span><span class="sxs-lookup"><span data-stu-id="7688d-109">Specifies the subpicture stream as an Integer.</span></span>
+<span data-ttu-id="65841-109">將子圖片資料流程指定為整數。</span><span class="sxs-lookup"><span data-stu-id="65841-109">Specifies the subpicture stream as an Integer.</span></span>
 
 
 
-| <span data-ttu-id="7688d-110">值</span><span class="sxs-lookup"><span data-stu-id="7688d-110">Value</span></span>   | <span data-ttu-id="7688d-111">描述</span><span class="sxs-lookup"><span data-stu-id="7688d-111">Description</span></span>              |
+| <span data-ttu-id="65841-110">值</span><span class="sxs-lookup"><span data-stu-id="65841-110">Value</span></span>   | <span data-ttu-id="65841-111">描述</span><span class="sxs-lookup"><span data-stu-id="65841-111">Description</span></span>              |
 |---------|--------------------------|
-| <span data-ttu-id="7688d-112">0到31</span><span class="sxs-lookup"><span data-stu-id="7688d-112">0 to 31</span></span> | <span data-ttu-id="7688d-113">子圖片資料流程</span><span class="sxs-lookup"><span data-stu-id="7688d-113">subpicture stream</span></span>        |
-| <span data-ttu-id="7688d-114">63</span><span class="sxs-lookup"><span data-stu-id="7688d-114">63</span></span>      | <span data-ttu-id="7688d-115">靜音低位元速率串流</span><span class="sxs-lookup"><span data-stu-id="7688d-115">muted low-bitrate stream</span></span> |
+| <span data-ttu-id="65841-112">0到31</span><span class="sxs-lookup"><span data-stu-id="65841-112">0 to 31</span></span> | <span data-ttu-id="65841-113">子圖片資料流程</span><span class="sxs-lookup"><span data-stu-id="65841-113">subpicture stream</span></span>        |
+| <span data-ttu-id="65841-114">63</span><span class="sxs-lookup"><span data-stu-id="65841-114">63</span></span>      | <span data-ttu-id="65841-115">靜音低位元速率串流</span><span class="sxs-lookup"><span data-stu-id="65841-115">muted low-bitrate stream</span></span> |
 
 
 
@@ -46,13 +46,13 @@ ms.locfileid: "103846640"
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="7688d-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="7688d-116">Return Value</span></span>
+## <a name="return-value"></a><span data-ttu-id="65841-116">傳回值</span><span class="sxs-lookup"><span data-stu-id="65841-116">Return Value</span></span>
 
-<span data-ttu-id="7688d-117">傳回布林值，指出指定的音訊資料流程是否可在目前的標題中使用。</span><span class="sxs-lookup"><span data-stu-id="7688d-117">Returns a Boolean value indicating whether the specified audio stream is available in the current title.</span></span> <span data-ttu-id="7688d-118">True 表示它可供使用。</span><span class="sxs-lookup"><span data-stu-id="7688d-118">True means it is available.</span></span>
+<span data-ttu-id="65841-117">傳回布林值，指出指定的音訊資料流程是否可在目前的標題中使用。</span><span class="sxs-lookup"><span data-stu-id="65841-117">Returns a Boolean value indicating whether the specified audio stream is available in the current title.</span></span> <span data-ttu-id="65841-118">True 表示它可供使用。</span><span class="sxs-lookup"><span data-stu-id="65841-118">True means it is available.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7688d-119">備註</span><span class="sxs-lookup"><span data-stu-id="7688d-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="65841-119">備註</span><span class="sxs-lookup"><span data-stu-id="65841-119">Remarks</span></span>
 
-<span data-ttu-id="7688d-120">雖然光碟最多可包含32子圖片串流，但每個標題都不一定會有每個資料流程。</span><span class="sxs-lookup"><span data-stu-id="7688d-120">Although a disc can contain up to 32 subpicture streams, each stream is not necessarily available for each title.</span></span> <span data-ttu-id="7688d-121">在設定 [**CurrentSubpictureStream**](currentsubpicturestream-property.md) 屬性之前，請務必先確認是否有標題可用的資料流程。</span><span class="sxs-lookup"><span data-stu-id="7688d-121">Always verify that a stream is available for a title before setting the [**CurrentSubpictureStream**](currentsubpicturestream-property.md) property.</span></span>
+<span data-ttu-id="65841-120">雖然光碟最多可包含32子圖片串流，但每個標題都不一定會有每個資料流程。</span><span class="sxs-lookup"><span data-stu-id="65841-120">Although a disc can contain up to 32 subpicture streams, each stream is not necessarily available for each title.</span></span> <span data-ttu-id="65841-121">在設定 [**CurrentSubpictureStream**](currentsubpicturestream-property.md) 屬性之前，請務必先確認是否有標題可用的資料流程。</span><span class="sxs-lookup"><span data-stu-id="65841-121">Always verify that a stream is available for a title before setting the [**CurrentSubpictureStream**](currentsubpicturestream-property.md) property.</span></span>
 
  
 

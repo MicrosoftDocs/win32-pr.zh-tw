@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103847474"
 ---
-# <a name="device-management-enumeration-types"></a><span data-ttu-id="6ad63-103">裝置管理列舉類型</span><span class="sxs-lookup"><span data-stu-id="6ad63-103">Device Management Enumeration Types</span></span>
+# <a name="device-management-enumeration-types"></a><span data-ttu-id="4c7c4-103">裝置管理列舉類型</span><span class="sxs-lookup"><span data-stu-id="4c7c4-103">Device Management Enumeration Types</span></span>
 
-<span data-ttu-id="6ad63-104">下列列舉類型用於裝置管理：</span><span class="sxs-lookup"><span data-stu-id="6ad63-104">The following enumeration types are used with device management:</span></span>
+<span data-ttu-id="4c7c4-104">下列列舉類型用於裝置管理：</span><span class="sxs-lookup"><span data-stu-id="4c7c4-104">The following enumeration types are used with device management:</span></span>
 
 <dl>
 
-[<span data-ttu-id="6ad63-105">**元素類型**</span><span class="sxs-lookup"><span data-stu-id="6ad63-105">**ELEMENT TYPE**</span></span>](/windows/desktop/api/WinIoCtl/ne-winioctl-element_type)  
-[<span data-ttu-id="6ad63-106">**儲存體 \_ 匯流排 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="6ad63-106">**STORAGE\_BUS\_TYPE**</span></span>](/windows/win32/api/winioctl/ne-winioctl-storage_bus_type)  
-[<span data-ttu-id="6ad63-107">**儲存體 \_ 媒體 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="6ad63-107">**STORAGE\_MEDIA\_TYPE**</span></span>](/windows/desktop/api/WinIoCtl/ne-winioctl-storage_media_type)  
+[<span data-ttu-id="4c7c4-105">**元素類型**</span><span class="sxs-lookup"><span data-stu-id="4c7c4-105">**ELEMENT TYPE**</span></span>](/windows/desktop/api/WinIoCtl/ne-winioctl-element_type)  
+[<span data-ttu-id="4c7c4-106">**儲存體 \_ 匯流排 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="4c7c4-106">**STORAGE\_BUS\_TYPE**</span></span>](/windows/win32/api/winioctl/ne-winioctl-storage_bus_type)  
+[<span data-ttu-id="4c7c4-107">**儲存體 \_ 媒體 \_ 類型**</span><span class="sxs-lookup"><span data-stu-id="4c7c4-107">**STORAGE\_MEDIA\_TYPE**</span></span>](/windows/desktop/api/WinIoCtl/ne-winioctl-storage_media_type)  
 </dl>
 
  
