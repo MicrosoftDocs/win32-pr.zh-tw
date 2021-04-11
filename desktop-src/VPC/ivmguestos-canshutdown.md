@@ -1,0 +1,87 @@
+---
+title: 'IVMGuestOS CanShutdown 屬性 (VPCCOMInterfaces .h) '
+description: 指出是否可以完全關閉客體作業系統。
+ms.assetid: 239cba43-9494-4efd-a4c8-0bb47f476b81
+keywords:
+- CanShutdown 屬性 Virtual PC
+- CanShutdown 屬性 Virtual PC，IVMGuestOS 介面
+- IVMGuestOS 介面 Virtual PC，CanShutdown 屬性
+topic_type:
+- apiref
+api_name:
+- IVMGuestOS.CanShutdown
+- IVMGuestOS.get_CanShutdown
+api_location:
+- VPCCOMInterfaces.h
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 7f76e652b7a172da6f5a438f72b09443a13dcce2
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104317475"
+---
+# <a name="ivmguestoscanshutdown-property"></a><span data-ttu-id="5fcf6-106">IVMGuestOS：： CanShutdown 屬性</span><span class="sxs-lookup"><span data-stu-id="5fcf6-106">IVMGuestOS::CanShutdown property</span></span>
+
+<span data-ttu-id="5fcf6-107">\[Windows 8 不能再使用 Windows Virtual PC。</span><span class="sxs-lookup"><span data-stu-id="5fcf6-107">\[Windows Virtual PC is no longer available for use as of Windows 8.</span></span> <span data-ttu-id="5fcf6-108">請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]</span><span class="sxs-lookup"><span data-stu-id="5fcf6-108">Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]</span></span>
+
+<span data-ttu-id="5fcf6-109">指出是否可以完全關閉客體作業系統 (需要) 整合元件。</span><span class="sxs-lookup"><span data-stu-id="5fcf6-109">Indicates whether the guest operating system can be cleanly shut down (requires Integration Components).</span></span>
+
+<span data-ttu-id="5fcf6-110">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="5fcf6-110">This property is read-only.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="5fcf6-111">語法</span><span class="sxs-lookup"><span data-stu-id="5fcf6-111">Syntax</span></span>
+
+
+```C++
+HRESULT get_CanShutdown(
+  [out, retval] VARIANT_BOOL *canShutdown
+);
+```
+
+
+
+## <a name="property-value"></a><span data-ttu-id="5fcf6-112">屬性值</span><span class="sxs-lookup"><span data-stu-id="5fcf6-112">Property value</span></span>
+
+<span data-ttu-id="5fcf6-113">**變異 \_** 如果作業系統支援關機作業，則為 TRUE，否則為 **VARIANT \_ FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="5fcf6-113">**VARIANT\_TRUE** if the operating system supports the shutdown operation and **VARIANT\_FALSE** otherwise.</span></span>
+
+## <a name="error-codes"></a><span data-ttu-id="5fcf6-114">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="5fcf6-114">Error codes</span></span>
+
+
+
+| <span data-ttu-id="5fcf6-115">名稱/值</span><span class="sxs-lookup"><span data-stu-id="5fcf6-115">Name/value</span></span>                                                                                                                                                    | <span data-ttu-id="5fcf6-116">意義</span><span class="sxs-lookup"><span data-stu-id="5fcf6-116">Meaning</span></span>                                            |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| <dl> <span data-ttu-id="5fcf6-117"><dt>S \_確定</dt> <dt>0</dt></span><span class="sxs-lookup"><span data-stu-id="5fcf6-117"><dt>S\_OK</dt> <dt>0</dt></span></span> </dl>                       | <span data-ttu-id="5fcf6-118">作業成功。</span><span class="sxs-lookup"><span data-stu-id="5fcf6-118">The operation was successful.</span></span><br/>           |
+| <dl> <span data-ttu-id="5fcf6-119"><dt>S \_FALSE</dt> <dt>1</dt></span><span class="sxs-lookup"><span data-stu-id="5fcf6-119"><dt>S\_FALSE</dt> <dt>1</dt></span></span> </dl>                    | <span data-ttu-id="5fcf6-120">虛擬機器未開啟。</span><span class="sxs-lookup"><span data-stu-id="5fcf6-120">The virtual machine is not turned on.</span></span><br/>   |
+| <dl> <span data-ttu-id="5fcf6-121"><dt>E \_指標</dt><dt>且顯示 0x80004003</dt></span><span class="sxs-lookup"><span data-stu-id="5fcf6-121"><dt>E\_POINTER</dt> <dt>0x80004003</dt></span></span> </dl>         | <span data-ttu-id="5fcf6-122">參數為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="5fcf6-122">The parameter is **NULL**.</span></span><br/>              |
+| <dl> <span data-ttu-id="5fcf6-123"><dt>VM \_E \_ VM \_ 不明</dt> <dt>0xA0040207</dt></span><span class="sxs-lookup"><span data-stu-id="5fcf6-123"><dt>VM\_E\_VM\_UNKNOWN</dt> <dt>0xA0040207</dt></span></span> </dl> | <span data-ttu-id="5fcf6-124">找不到虛擬機器。</span><span class="sxs-lookup"><span data-stu-id="5fcf6-124">The virtual machine could not be found.</span></span><br/> |
+| <dl> <span data-ttu-id="5fcf6-125"><dt>會 \_E \_ 例外</dt>狀況 <dt>0x80020009</dt></span><span class="sxs-lookup"><span data-stu-id="5fcf6-125"><dt>DISP\_E\_EXCEPTION</dt> <dt>0x80020009</dt></span></span> </dl> | <span data-ttu-id="5fcf6-126">已發生未預期的錯誤。</span><span class="sxs-lookup"><span data-stu-id="5fcf6-126">An unexpected error has occurred.</span></span><br/>       |
+
+
+
+## <a name="requirements"></a><span data-ttu-id="5fcf6-127">規格需求</span><span class="sxs-lookup"><span data-stu-id="5fcf6-127">Requirements</span></span>
+
+
+
+| <span data-ttu-id="5fcf6-128">需求</span><span class="sxs-lookup"><span data-stu-id="5fcf6-128">Requirement</span></span> | <span data-ttu-id="5fcf6-129">值</span><span class="sxs-lookup"><span data-stu-id="5fcf6-129">Value</span></span> |
+|-------------------------------------|-----------------------------------------------------------------------------------------------|
+| <span data-ttu-id="5fcf6-130">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="5fcf6-130">Minimum supported client</span></span><br/> | <span data-ttu-id="5fcf6-131">\[僅限 Windows 7 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="5fcf6-131">Windows 7 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="5fcf6-132">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="5fcf6-132">Minimum supported server</span></span><br/> | <span data-ttu-id="5fcf6-133">都不支援</span><span class="sxs-lookup"><span data-stu-id="5fcf6-133">None supported</span></span><br/>                                                                     |
+| <span data-ttu-id="5fcf6-134">用戶端支援結束</span><span class="sxs-lookup"><span data-stu-id="5fcf6-134">End of client support</span></span><br/>    | <span data-ttu-id="5fcf6-135">Windows 7</span><span class="sxs-lookup"><span data-stu-id="5fcf6-135">Windows 7</span></span><br/>                                                                          |
+| <span data-ttu-id="5fcf6-136">產品</span><span class="sxs-lookup"><span data-stu-id="5fcf6-136">Product</span></span><br/>                  | <span data-ttu-id="5fcf6-137">Windows Virtual PC</span><span class="sxs-lookup"><span data-stu-id="5fcf6-137">Windows Virtual PC</span></span><br/>                                                                 |
+| <span data-ttu-id="5fcf6-138">標頭</span><span class="sxs-lookup"><span data-stu-id="5fcf6-138">Header</span></span><br/>                   | <dl> <span data-ttu-id="5fcf6-139"><dt>VPCCOMInterfaces。h</dt></span><span class="sxs-lookup"><span data-stu-id="5fcf6-139"><dt>VPCCOMInterfaces.h</dt></span></span> </dl> |
+| <span data-ttu-id="5fcf6-140">IID</span><span class="sxs-lookup"><span data-stu-id="5fcf6-140">IID</span></span><br/>                      | <span data-ttu-id="5fcf6-141">IID \_ IVMGuestOS 定義為99fea0db-4880-499a-b6d8-73dff9bc91be</span><span class="sxs-lookup"><span data-stu-id="5fcf6-141">IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be</span></span><br/>                 |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="5fcf6-142">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5fcf6-142">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="5fcf6-143">**IVMGuestOS**</span><span class="sxs-lookup"><span data-stu-id="5fcf6-143">**IVMGuestOS**</span></span>](ivmguestos.md)
+</dt> </dl>
+
+ 
+

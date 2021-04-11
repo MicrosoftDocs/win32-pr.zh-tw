@@ -11,35 +11,35 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2020
 ms.locfileid: "104024343"
 ---
-# <a name="how-to-create-a-multiple-selection-list-box"></a><span data-ttu-id="85824-103">如何建立 Multiple-Selection 清單方塊</span><span class="sxs-lookup"><span data-stu-id="85824-103">How to Create a Multiple-Selection List Box</span></span>
+# <a name="how-to-create-a-multiple-selection-list-box"></a><span data-ttu-id="2336f-103">如何建立 Multiple-Selection 清單方塊</span><span class="sxs-lookup"><span data-stu-id="2336f-103">How to Create a Multiple-Selection List Box</span></span>
 
-<span data-ttu-id="85824-104">本主題示範如何在多重選取清單方塊中顯示和存取目錄的內容。</span><span class="sxs-lookup"><span data-stu-id="85824-104">This topic demonstrates how to display and access the contents of a directory in a multiple-selection list box.</span></span> <span data-ttu-id="85824-105">在多重選取清單方塊中，使用者可以一次選取一個以上的專案。</span><span class="sxs-lookup"><span data-stu-id="85824-105">In a multiple-selection list box, the user can select more than one item at a time.</span></span>
+<span data-ttu-id="2336f-104">本主題示範如何在多重選取清單方塊中顯示和存取目錄的內容。</span><span class="sxs-lookup"><span data-stu-id="2336f-104">This topic demonstrates how to display and access the contents of a directory in a multiple-selection list box.</span></span> <span data-ttu-id="2336f-105">在多重選取清單方塊中，使用者可以一次選取一個以上的專案。</span><span class="sxs-lookup"><span data-stu-id="2336f-105">In a multiple-selection list box, the user can select more than one item at a time.</span></span>
 
-<span data-ttu-id="85824-106">本主題中的 c + + 程式碼範例可讓使用者查看目前目錄中的檔案清單、從清單中選取一組檔案，然後將它們刪除。</span><span class="sxs-lookup"><span data-stu-id="85824-106">The C++ code example in this topic enables a user to view a list of files in the current directory, select a group of files from the list, and delete them.</span></span>
+<span data-ttu-id="2336f-106">本主題中的 c + + 程式碼範例可讓使用者查看目前目錄中的檔案清單、從清單中選取一組檔案，然後將它們刪除。</span><span class="sxs-lookup"><span data-stu-id="2336f-106">The C++ code example in this topic enables a user to view a list of files in the current directory, select a group of files from the list, and delete them.</span></span>
 
-## <a name="what-you-need-to-know"></a><span data-ttu-id="85824-107">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="85824-107">What you need to know</span></span>
+## <a name="what-you-need-to-know"></a><span data-ttu-id="2336f-107">您必須知道的事項</span><span class="sxs-lookup"><span data-stu-id="2336f-107">What you need to know</span></span>
 
-### <a name="technologies"></a><span data-ttu-id="85824-108">技術</span><span class="sxs-lookup"><span data-stu-id="85824-108">Technologies</span></span>
+### <a name="technologies"></a><span data-ttu-id="2336f-108">技術</span><span class="sxs-lookup"><span data-stu-id="2336f-108">Technologies</span></span>
 
--   [<span data-ttu-id="85824-109">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="85824-109">Windows Controls</span></span>](window-controls.md)
+-   [<span data-ttu-id="2336f-109">Windows 控制項</span><span class="sxs-lookup"><span data-stu-id="2336f-109">Windows Controls</span></span>](window-controls.md)
 
-### <a name="prerequisites"></a><span data-ttu-id="85824-110">必要條件</span><span class="sxs-lookup"><span data-stu-id="85824-110">Prerequisites</span></span>
+### <a name="prerequisites"></a><span data-ttu-id="2336f-110">必要條件</span><span class="sxs-lookup"><span data-stu-id="2336f-110">Prerequisites</span></span>
 
--   <span data-ttu-id="85824-111">C/C++</span><span class="sxs-lookup"><span data-stu-id="85824-111">C/C++</span></span>
--   <span data-ttu-id="85824-112">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="85824-112">Windows User Interface Programming</span></span>
+-   <span data-ttu-id="2336f-111">C/C++</span><span class="sxs-lookup"><span data-stu-id="2336f-111">C/C++</span></span>
+-   <span data-ttu-id="2336f-112">Windows 消費者介面程式設計</span><span class="sxs-lookup"><span data-stu-id="2336f-112">Windows User Interface Programming</span></span>
 
-## <a name="instructions"></a><span data-ttu-id="85824-113">指示</span><span class="sxs-lookup"><span data-stu-id="85824-113">Instructions</span></span>
+## <a name="instructions"></a><span data-ttu-id="2336f-113">指示</span><span class="sxs-lookup"><span data-stu-id="2336f-113">Instructions</span></span>
 
 
-<span data-ttu-id="85824-114">目錄清單應用程式必須執行下列清單方塊相關工作：</span><span class="sxs-lookup"><span data-stu-id="85824-114">The directory listing application must perform the following list box–related tasks:</span></span>
+<span data-ttu-id="2336f-114">目錄清單應用程式必須執行下列清單方塊相關工作：</span><span class="sxs-lookup"><span data-stu-id="2336f-114">The directory listing application must perform the following list box–related tasks:</span></span>
 
--   <span data-ttu-id="85824-115">初始化清單方塊。</span><span class="sxs-lookup"><span data-stu-id="85824-115">Initialize the list box.</span></span>
--   <span data-ttu-id="85824-116">從清單方塊中取出使用者的選取專案。</span><span class="sxs-lookup"><span data-stu-id="85824-116">Retrieve the user's selections from the list box.</span></span>
--   <span data-ttu-id="85824-117">刪除選取的檔案之後，請從清單方塊中移除檔案名。</span><span class="sxs-lookup"><span data-stu-id="85824-117">Remove the file names from the list box after the selected files have been deleted.</span></span>
+-   <span data-ttu-id="2336f-115">初始化清單方塊。</span><span class="sxs-lookup"><span data-stu-id="2336f-115">Initialize the list box.</span></span>
+-   <span data-ttu-id="2336f-116">從清單方塊中取出使用者的選取專案。</span><span class="sxs-lookup"><span data-stu-id="2336f-116">Retrieve the user's selections from the list box.</span></span>
+-   <span data-ttu-id="2336f-117">刪除選取的檔案之後，請從清單方塊中移除檔案名。</span><span class="sxs-lookup"><span data-stu-id="2336f-117">Remove the file names from the list box after the selected files have been deleted.</span></span>
 
-<span data-ttu-id="85824-118">在下列 c + + 程式碼範例中，對話方塊 \_ 程式會使用 [**DlgDirList**](/windows/desktop/api/Winuser/nf-winuser-dlgdirlista) 函式來填滿目前目錄中所有檔案名稱的清單方塊， (IDC FILELIST) 初始化多重選取清單方塊。</span><span class="sxs-lookup"><span data-stu-id="85824-118">In the following C++ code example, the dialog box procedure initializes the multiple-selection list box (IDC\_FILELIST) by using the [**DlgDirList**](/windows/desktop/api/Winuser/nf-winuser-dlgdirlista) function to fill the list box with the names of all the files in the current directory.</span></span>
+<span data-ttu-id="2336f-118">在下列 c + + 程式碼範例中，對話方塊 \_ 程式會使用 [**DlgDirList**](/windows/desktop/api/Winuser/nf-winuser-dlgdirlista) 函式來填滿目前目錄中所有檔案名稱的清單方塊， (IDC FILELIST) 初始化多重選取清單方塊。</span><span class="sxs-lookup"><span data-stu-id="2336f-118">In the following C++ code example, the dialog box procedure initializes the multiple-selection list box (IDC\_FILELIST) by using the [**DlgDirList**](/windows/desktop/api/Winuser/nf-winuser-dlgdirlista) function to fill the list box with the names of all the files in the current directory.</span></span>
 
-<span data-ttu-id="85824-119">當使用者選取一組檔案，並選擇 [ **刪除** ] 按鈕時，對話方塊程式會傳送 [**LB \_ GETSELCOUNT**](lb-getselcount.md) 訊息，以抓取選取的檔案數目和 [**lb \_ GETSELITEMS**](lb-getselitems.md) 訊息，以抓取選取清單方塊專案的陣列。</span><span class="sxs-lookup"><span data-stu-id="85824-119">When the user selects a group of files and chooses the **Delete** button, the dialog box procedure sends the [**LB\_GETSELCOUNT**](lb-getselcount.md) message, to retrieve the number of files selected, and the [**LB\_GETSELITEMS**](lb-getselitems.md) message, to retrieve an array of selected list box items.</span></span> <span data-ttu-id="85824-120">刪除檔案之後，對話程式會藉由傳送 [**LB \_ DELETESTRING**](lb-deletestring.md) 訊息，從清單方塊中移除對應的專案。</span><span class="sxs-lookup"><span data-stu-id="85824-120">After deleting a file, the dialog procedure removes the corresponding item from the list box by sending the [**LB\_DELETESTRING**](lb-deletestring.md) message.</span></span>
+<span data-ttu-id="2336f-119">當使用者選取一組檔案，並選擇 [ **刪除** ] 按鈕時，對話方塊程式會傳送 [**LB \_ GETSELCOUNT**](lb-getselcount.md) 訊息，以抓取選取的檔案數目和 [**lb \_ GETSELITEMS**](lb-getselitems.md) 訊息，以抓取選取清單方塊專案的陣列。</span><span class="sxs-lookup"><span data-stu-id="2336f-119">When the user selects a group of files and chooses the **Delete** button, the dialog box procedure sends the [**LB\_GETSELCOUNT**](lb-getselcount.md) message, to retrieve the number of files selected, and the [**LB\_GETSELITEMS**](lb-getselitems.md) message, to retrieve an array of selected list box items.</span></span> <span data-ttu-id="2336f-120">刪除檔案之後，對話程式會藉由傳送 [**LB \_ DELETESTRING**](lb-deletestring.md) 訊息，從清單方塊中移除對應的專案。</span><span class="sxs-lookup"><span data-stu-id="2336f-120">After deleting a file, the dialog procedure removes the corresponding item from the list box by sending the [**LB\_DELETESTRING**](lb-deletestring.md) message.</span></span>
 
 
 
@@ -148,17 +148,17 @@ INT_PTR CALLBACK DlgDelFilesProc(HWND hDlg, UINT message,
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="85824-121">相關主題</span><span class="sxs-lookup"><span data-stu-id="85824-121">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2336f-121">相關主題</span><span class="sxs-lookup"><span data-stu-id="2336f-121">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="85824-122">清單方塊控制項參考</span><span class="sxs-lookup"><span data-stu-id="85824-122">List Box Control Reference</span></span>](bumper-list-box-list-box-control-reference.md)
+[<span data-ttu-id="2336f-122">清單方塊控制項參考</span><span class="sxs-lookup"><span data-stu-id="2336f-122">List Box Control Reference</span></span>](bumper-list-box-list-box-control-reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="85824-123">關於清單方塊</span><span class="sxs-lookup"><span data-stu-id="85824-123">About List Boxes</span></span>](about-list-boxes.md)
+[<span data-ttu-id="2336f-123">關於清單方塊</span><span class="sxs-lookup"><span data-stu-id="2336f-123">About List Boxes</span></span>](about-list-boxes.md)
 </dt> <dt>
 
-[<span data-ttu-id="85824-124">使用清單方塊</span><span class="sxs-lookup"><span data-stu-id="85824-124">Using List Boxes</span></span>](using-list-boxes.md)
+[<span data-ttu-id="2336f-124">使用清單方塊</span><span class="sxs-lookup"><span data-stu-id="2336f-124">Using List Boxes</span></span>](using-list-boxes.md)
 </dt> </dl>
 
  

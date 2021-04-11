@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "104027245"
 ---
-# <a name="icertpropertydescription-properties"></a><span data-ttu-id="2491b-103">ICertPropertyDescription 屬性</span><span class="sxs-lookup"><span data-stu-id="2491b-103">ICertPropertyDescription Properties</span></span>
+# <a name="icertpropertydescription-properties"></a><span data-ttu-id="d5454-103">ICertPropertyDescription 屬性</span><span class="sxs-lookup"><span data-stu-id="d5454-103">ICertPropertyDescription Properties</span></span>
 
-<span data-ttu-id="2491b-104">[**ICertPropertyDescription**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertydescription)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="2491b-104">The [**ICertPropertyDescription**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertydescription) interface exposes the following properties.</span></span>
+<span data-ttu-id="d5454-104">[**ICertPropertyDescription**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertydescription)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="d5454-104">The [**ICertPropertyDescription**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertydescription) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="2491b-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="2491b-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d5454-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d5454-105">In this section</span></span>
 
--   [<span data-ttu-id="2491b-106">**Description 屬性**</span><span class="sxs-lookup"><span data-stu-id="2491b-106">**Description Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertydescription-get_description)
+-   [<span data-ttu-id="d5454-106">**Description 屬性**</span><span class="sxs-lookup"><span data-stu-id="d5454-106">**Description Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-icertpropertydescription-get_description)
 
  
 

@@ -13,30 +13,30 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "104024492"
 ---
-# <a name="messages-touch-input"></a><span data-ttu-id="aad3e-104"> (觸控輸入的訊息) </span><span class="sxs-lookup"><span data-stu-id="aad3e-104">Messages (Touch Input)</span></span>
+# <a name="messages-touch-input"></a><span data-ttu-id="3bfcc-104"> (觸控輸入的訊息) </span><span class="sxs-lookup"><span data-stu-id="3bfcc-104">Messages (Touch Input)</span></span>
 
-<span data-ttu-id="aad3e-105">本節包含多點觸控輸入的訊息。</span><span class="sxs-lookup"><span data-stu-id="aad3e-105">This section contains messages for multitouch input.</span></span>
+<span data-ttu-id="3bfcc-105">本節包含多點觸控輸入的訊息。</span><span class="sxs-lookup"><span data-stu-id="3bfcc-105">This section contains messages for multitouch input.</span></span>
 
-<span data-ttu-id="aad3e-106">下列訊息用於多點觸控輸入。</span><span class="sxs-lookup"><span data-stu-id="aad3e-106">The following messages are used for multitouch input.</span></span>
+<span data-ttu-id="3bfcc-106">下列訊息用於多點觸控輸入。</span><span class="sxs-lookup"><span data-stu-id="3bfcc-106">The following messages are used for multitouch input.</span></span>
 
 
 
-| <span data-ttu-id="aad3e-107">訊息</span><span class="sxs-lookup"><span data-stu-id="aad3e-107">Message</span></span>                           | <span data-ttu-id="aad3e-108">描述</span><span class="sxs-lookup"><span data-stu-id="aad3e-108">Description</span></span>                                                                                                         |
+| <span data-ttu-id="3bfcc-107">訊息</span><span class="sxs-lookup"><span data-stu-id="3bfcc-107">Message</span></span>                           | <span data-ttu-id="3bfcc-108">描述</span><span class="sxs-lookup"><span data-stu-id="3bfcc-108">Description</span></span>                                                                                                         |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="aad3e-109">**WM \_ 觸控**</span><span class="sxs-lookup"><span data-stu-id="aad3e-109">**WM\_TOUCH**</span></span>](wm-touchdown.md) | <span data-ttu-id="aad3e-110">指出一或多個觸控點（例如手指或畫筆）已觸及觸控式的數位化板表面。</span><span class="sxs-lookup"><span data-stu-id="aad3e-110">Indicates that one or more touch points, such as a finger or pen, have touched a touch-sensitive digitizer surface.</span></span> |
+| [<span data-ttu-id="3bfcc-109">**WM \_ 觸控**</span><span class="sxs-lookup"><span data-stu-id="3bfcc-109">**WM\_TOUCH**</span></span>](wm-touchdown.md) | <span data-ttu-id="3bfcc-110">指出一或多個觸控點（例如手指或畫筆）已觸及觸控式的數位化板表面。</span><span class="sxs-lookup"><span data-stu-id="3bfcc-110">Indicates that one or more touch points, such as a finger or pen, have touched a touch-sensitive digitizer surface.</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="aad3e-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="aad3e-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3bfcc-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="3bfcc-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="aad3e-112">Windows Touch 輸入</span><span class="sxs-lookup"><span data-stu-id="aad3e-112">Windows Touch Input</span></span>](multi-touch-input.md)
+[<span data-ttu-id="3bfcc-112">Windows Touch 輸入</span><span class="sxs-lookup"><span data-stu-id="3bfcc-112">Windows Touch Input</span></span>](multi-touch-input.md)
 </dt> <dt>
 
-[<span data-ttu-id="aad3e-113">Windows Touch 輸入程式設計指南</span><span class="sxs-lookup"><span data-stu-id="aad3e-113">Windows Touch Input Programming Guide</span></span>](guide-multi-touch-input.md)
+[<span data-ttu-id="3bfcc-113">Windows Touch 輸入程式設計指南</span><span class="sxs-lookup"><span data-stu-id="3bfcc-113">Windows Touch Input Programming Guide</span></span>](guide-multi-touch-input.md)
 </dt> </dl>
 
  

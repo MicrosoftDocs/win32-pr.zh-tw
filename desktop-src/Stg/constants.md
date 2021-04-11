@@ -13,14 +13,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "104024470"
 ---
-# <a name="constants-structured-storage"></a><span data-ttu-id="ea1a9-105">常數 (結構化儲存體) </span><span class="sxs-lookup"><span data-stu-id="ea1a9-105">Constants (Structured Storage)</span></span>
+# <a name="constants-structured-storage"></a><span data-ttu-id="8d79e-105">常數 (結構化儲存體) </span><span class="sxs-lookup"><span data-stu-id="8d79e-105">Constants (Structured Storage)</span></span>
 
-<span data-ttu-id="ea1a9-106">結構化儲存區中的常數是一系列的命名值。</span><span class="sxs-lookup"><span data-stu-id="ea1a9-106">Constants, in Structured Storage, are a sequence of named values.</span></span> <span data-ttu-id="ea1a9-107">常數可讓您以自然語言來描述物件。</span><span class="sxs-lookup"><span data-stu-id="ea1a9-107">Constants allow objects to be described in natural language.</span></span>
+<span data-ttu-id="8d79e-106">結構化儲存區中的常數是一系列的命名值。</span><span class="sxs-lookup"><span data-stu-id="8d79e-106">Constants, in Structured Storage, are a sequence of named values.</span></span> <span data-ttu-id="8d79e-107">常數可讓您以自然語言來描述物件。</span><span class="sxs-lookup"><span data-stu-id="8d79e-107">Constants allow objects to be described in natural language.</span></span>
 
-<span data-ttu-id="ea1a9-108">下列各節將描述結構化儲存體常數：</span><span class="sxs-lookup"><span data-stu-id="ea1a9-108">The Structured Storage constants are described in the following sections:</span></span>
+<span data-ttu-id="8d79e-108">下列各節將描述結構化儲存體常數：</span><span class="sxs-lookup"><span data-stu-id="8d79e-108">The Structured Storage constants are described in the following sections:</span></span>
 
--   [<span data-ttu-id="ea1a9-109">PROPSETFLAG 常數</span><span class="sxs-lookup"><span data-stu-id="ea1a9-109">PROPSETFLAG Constants</span></span>](propsetflag-constants.md)
--   [<span data-ttu-id="ea1a9-110">STGM 常數</span><span class="sxs-lookup"><span data-stu-id="ea1a9-110">STGM Constants</span></span>](stgm-constants.md)
+-   [<span data-ttu-id="8d79e-109">PROPSETFLAG 常數</span><span class="sxs-lookup"><span data-stu-id="8d79e-109">PROPSETFLAG Constants</span></span>](propsetflag-constants.md)
+-   [<span data-ttu-id="8d79e-110">STGM 常數</span><span class="sxs-lookup"><span data-stu-id="8d79e-110">STGM Constants</span></span>](stgm-constants.md)
 
  
 
