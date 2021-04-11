@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103686540"
 ---
-# <a name="task-renderinginfotype-element"></a><span data-ttu-id="097f0-104">Task (RenderingInfoType) 元素</span><span class="sxs-lookup"><span data-stu-id="097f0-104">Task (RenderingInfoType) Element</span></span>
+# <a name="task-renderinginfotype-element"></a><span data-ttu-id="a92db-104">Task (RenderingInfoType) 元素</span><span class="sxs-lookup"><span data-stu-id="a92db-104">Task (RenderingInfoType) Element</span></span>
 
-<span data-ttu-id="097f0-105">事件中指定之工作的轉譯訊息字串。</span><span class="sxs-lookup"><span data-stu-id="097f0-105">The rendered message string of the task specified in the event.</span></span>
+<span data-ttu-id="a92db-105">事件中指定之工作的轉譯訊息字串。</span><span class="sxs-lookup"><span data-stu-id="a92db-105">The rendered message string of the task specified in the event.</span></span>
 
 ``` syntax
 <xs:element name="Task"
@@ -30,27 +30,27 @@ ms.locfileid: "103686540"
  />
 ```
 
-<span data-ttu-id="097f0-106">**Task** 專案是由 [**RenderingInfoType**](eventschema-renderingtype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="097f0-106">The **Task** element is defined by the [**RenderingInfoType**](eventschema-renderingtype-complextype.md) complex type.</span></span>
+<span data-ttu-id="a92db-106">**Task** 專案是由 [**RenderingInfoType**](eventschema-renderingtype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="a92db-106">The **Task** element is defined by the [**RenderingInfoType**](eventschema-renderingtype-complextype.md) complex type.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="097f0-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="097f0-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="a92db-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="a92db-107">Requirements</span></span>
 
 
 
-| <span data-ttu-id="097f0-108">需求</span><span class="sxs-lookup"><span data-stu-id="097f0-108">Requirement</span></span> | <span data-ttu-id="097f0-109">值</span><span class="sxs-lookup"><span data-stu-id="097f0-109">Value</span></span> |
+| <span data-ttu-id="a92db-108">需求</span><span class="sxs-lookup"><span data-stu-id="a92db-108">Requirement</span></span> | <span data-ttu-id="a92db-109">值</span><span class="sxs-lookup"><span data-stu-id="a92db-109">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="097f0-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="097f0-110">Minimum supported client</span></span><br/> | <span data-ttu-id="097f0-111">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="097f0-111">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="097f0-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="097f0-112">Minimum supported server</span></span><br/> | <span data-ttu-id="097f0-113">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="097f0-113">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="a92db-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a92db-110">Minimum supported client</span></span><br/> | <span data-ttu-id="a92db-111">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a92db-111">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="a92db-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a92db-112">Minimum supported server</span></span><br/> | <span data-ttu-id="a92db-113">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a92db-113">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="097f0-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="097f0-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a92db-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a92db-114">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="097f0-115">**父元素**</span><span class="sxs-lookup"><span data-stu-id="097f0-115">**Parent element**</span></span>
+<span data-ttu-id="a92db-115">**父元素**</span><span class="sxs-lookup"><span data-stu-id="a92db-115">**Parent element**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="097f0-116">**RenderingInfo (的事件)**</span><span class="sxs-lookup"><span data-stu-id="097f0-116">**RenderingInfo (EventType)**</span></span>](eventschema-renderinginfo-eventtype-element.md)
+[<span data-ttu-id="a92db-116">**RenderingInfo (的事件)**</span><span class="sxs-lookup"><span data-stu-id="a92db-116">**RenderingInfo (EventType)**</span></span>](eventschema-renderinginfo-eventtype-element.md)
 </dt> </dl>
 
  

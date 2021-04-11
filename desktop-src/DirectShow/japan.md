@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103687676"
 ---
-# <a name="japan"></a><span data-ttu-id="43b1d-103">日本</span><span class="sxs-lookup"><span data-stu-id="43b1d-103">Japan</span></span>
+# <a name="japan"></a><span data-ttu-id="75f51-103">日本</span><span class="sxs-lookup"><span data-stu-id="75f51-103">Japan</span></span>
 
-<span data-ttu-id="43b1d-104">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="43b1d-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="75f51-104">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="75f51-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="43b1d-105">日本資料表中的頻率索引適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="43b1d-105">The frequency indexes in the Japan tables are suitable for use as channel numbers.</span></span>
+<span data-ttu-id="75f51-105">日本資料表中的頻率索引適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="75f51-105">The frequency indexes in the Japan tables are suitable for use as channel numbers.</span></span>
 
-### <a name="japan-broadcast-assignments"></a><span data-ttu-id="43b1d-106">日本廣播指派</span><span class="sxs-lookup"><span data-stu-id="43b1d-106">Japan Broadcast Assignments</span></span>
+### <a name="japan-broadcast-assignments"></a><span data-ttu-id="75f51-106">日本廣播指派</span><span class="sxs-lookup"><span data-stu-id="75f51-106">Japan Broadcast Assignments</span></span>
 
 
 ```C++
@@ -91,7 +91,7 @@ ms.locfileid: "103687676"
 
 
 
-### <a name="japan-cable-assignments"></a><span data-ttu-id="43b1d-107">日本纜線指派</span><span class="sxs-lookup"><span data-stu-id="43b1d-107">Japan Cable Assignments</span></span>
+### <a name="japan-cable-assignments"></a><span data-ttu-id="75f51-107">日本纜線指派</span><span class="sxs-lookup"><span data-stu-id="75f51-107">Japan Cable Assignments</span></span>
 
 
 ```C++
@@ -214,13 +214,13 @@ ms.locfileid: "103687676"
 
 
 
-## <a name="revised-channel-assignments"></a><span data-ttu-id="43b1d-108">修改過的通道指派</span><span class="sxs-lookup"><span data-stu-id="43b1d-108">Revised Channel Assignments</span></span>
+## <a name="revised-channel-assignments"></a><span data-ttu-id="75f51-108">修改過的通道指派</span><span class="sxs-lookup"><span data-stu-id="75f51-108">Revised Channel Assignments</span></span>
 
-<span data-ttu-id="43b1d-109">下表列出需要 Windows XP Media Center Edition 1.1 和更新版本的有線通道指派。</span><span class="sxs-lookup"><span data-stu-id="43b1d-109">The following table lists cable channel assignments that require Windows XP Media Center Edition 1.1 and later.</span></span>
+<span data-ttu-id="75f51-109">下表列出需要 Windows XP Media Center Edition 1.1 和更新版本的有線通道指派。</span><span class="sxs-lookup"><span data-stu-id="75f51-109">The following table lists cable channel assignments that require Windows XP Media Center Edition 1.1 and later.</span></span>
 
-<span data-ttu-id="43b1d-110">此日本資料表中的頻率索引適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="43b1d-110">The frequency indexes in this Japan table are suitable for use as channel numbers.</span></span>
+<span data-ttu-id="75f51-110">此日本資料表中的頻率索引適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="75f51-110">The frequency indexes in this Japan table are suitable for use as channel numbers.</span></span>
 
-### <a name="japan-broadcast-assignments"></a><span data-ttu-id="43b1d-111">日本廣播指派</span><span class="sxs-lookup"><span data-stu-id="43b1d-111">Japan Broadcast Assignments</span></span>
+### <a name="japan-broadcast-assignments"></a><span data-ttu-id="75f51-111">日本廣播指派</span><span class="sxs-lookup"><span data-stu-id="75f51-111">Japan Broadcast Assignments</span></span>
 
 
 ```C++
@@ -294,11 +294,11 @@ ms.locfileid: "103687676"
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="43b1d-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="43b1d-112">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="75f51-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="75f51-112">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="43b1d-113">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="43b1d-113">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="75f51-113">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="75f51-113">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  

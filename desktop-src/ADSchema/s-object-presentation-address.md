@@ -20,29 +20,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/14/2020
 ms.locfileid: "103935180"
 ---
-# <a name="objectpresentation-address-syntax"></a><span data-ttu-id="b203f-104">物件 (呈現-位址) 語法</span><span class="sxs-lookup"><span data-stu-id="b203f-104">Object(Presentation-Address) syntax</span></span>
+# <a name="objectpresentation-address-syntax"></a><span data-ttu-id="41088-104">物件 (呈現-位址) 語法</span><span class="sxs-lookup"><span data-stu-id="41088-104">Object(Presentation-Address) syntax</span></span>
 
-<span data-ttu-id="b203f-105">字串，其中包含開放系統互相連線 (OSI) 呈現位址。</span><span class="sxs-lookup"><span data-stu-id="b203f-105">A string that contains Open Systems Interconnection (OSI) presentation addresses.</span></span>
+<span data-ttu-id="41088-105">字串，其中包含開放系統互相連線 (OSI) 呈現位址。</span><span class="sxs-lookup"><span data-stu-id="41088-105">A string that contains Open Systems Interconnection (OSI) presentation addresses.</span></span>
 
 
 
-| <span data-ttu-id="b203f-106">進入</span><span class="sxs-lookup"><span data-stu-id="b203f-106">Entry</span></span> | <span data-ttu-id="b203f-107">值</span><span class="sxs-lookup"><span data-stu-id="b203f-107">Value</span></span> |
+| <span data-ttu-id="41088-106">進入</span><span class="sxs-lookup"><span data-stu-id="41088-106">Entry</span></span> | <span data-ttu-id="41088-107">值</span><span class="sxs-lookup"><span data-stu-id="41088-107">Value</span></span> |
 |--------------|------------------------------------------------------------------------|
-| <span data-ttu-id="b203f-108">名稱</span><span class="sxs-lookup"><span data-stu-id="b203f-108">Name</span></span>         | <span data-ttu-id="b203f-109">Object(Presentation-Address)</span><span class="sxs-lookup"><span data-stu-id="b203f-109">Object(Presentation-Address)</span></span>                                           |
-| <span data-ttu-id="b203f-110">語法識別碼</span><span class="sxs-lookup"><span data-stu-id="b203f-110">Syntax ID</span></span>    | <span data-ttu-id="b203f-111">2.5.5.13</span><span class="sxs-lookup"><span data-stu-id="b203f-111">2.5.5.13</span></span>                                                               |
-| <span data-ttu-id="b203f-112">OM 識別碼</span><span class="sxs-lookup"><span data-stu-id="b203f-112">OM ID</span></span>        | <span data-ttu-id="b203f-113">127</span><span class="sxs-lookup"><span data-stu-id="b203f-113">127</span></span>                                                                    |
-| <span data-ttu-id="b203f-114">MAPI 類型</span><span class="sxs-lookup"><span data-stu-id="b203f-114">MAPI Type</span></span>    | \-                                                                     |
-| <span data-ttu-id="b203f-115">ADS 類型</span><span class="sxs-lookup"><span data-stu-id="b203f-115">ADS Type</span></span>     | <span data-ttu-id="b203f-116">ADSTYPE \_ CASE \_ 忽略 \_ 字串</span><span class="sxs-lookup"><span data-stu-id="b203f-116">ADSTYPE\_CASE\_IGNORE\_STRING</span></span>                                          |
-| <span data-ttu-id="b203f-117">Variant 類型</span><span class="sxs-lookup"><span data-stu-id="b203f-117">Variant Type</span></span> | <span data-ttu-id="b203f-118">VT \_ BSTR</span><span class="sxs-lookup"><span data-stu-id="b203f-118">VT\_BSTR</span></span>                                                               |
-| <span data-ttu-id="b203f-119">SDS 類型</span><span class="sxs-lookup"><span data-stu-id="b203f-119">SDS Type</span></span>     | [<span data-ttu-id="b203f-120">System.String</span><span class="sxs-lookup"><span data-stu-id="b203f-120">System.String</span></span>](/dotnet/api/system.string) |
+| <span data-ttu-id="41088-108">名稱</span><span class="sxs-lookup"><span data-stu-id="41088-108">Name</span></span>         | <span data-ttu-id="41088-109">Object(Presentation-Address)</span><span class="sxs-lookup"><span data-stu-id="41088-109">Object(Presentation-Address)</span></span>                                           |
+| <span data-ttu-id="41088-110">語法識別碼</span><span class="sxs-lookup"><span data-stu-id="41088-110">Syntax ID</span></span>    | <span data-ttu-id="41088-111">2.5.5.13</span><span class="sxs-lookup"><span data-stu-id="41088-111">2.5.5.13</span></span>                                                               |
+| <span data-ttu-id="41088-112">OM 識別碼</span><span class="sxs-lookup"><span data-stu-id="41088-112">OM ID</span></span>        | <span data-ttu-id="41088-113">127</span><span class="sxs-lookup"><span data-stu-id="41088-113">127</span></span>                                                                    |
+| <span data-ttu-id="41088-114">MAPI 類型</span><span class="sxs-lookup"><span data-stu-id="41088-114">MAPI Type</span></span>    | \-                                                                     |
+| <span data-ttu-id="41088-115">ADS 類型</span><span class="sxs-lookup"><span data-stu-id="41088-115">ADS Type</span></span>     | <span data-ttu-id="41088-116">ADSTYPE \_ CASE \_ 忽略 \_ 字串</span><span class="sxs-lookup"><span data-stu-id="41088-116">ADSTYPE\_CASE\_IGNORE\_STRING</span></span>                                          |
+| <span data-ttu-id="41088-117">Variant 類型</span><span class="sxs-lookup"><span data-stu-id="41088-117">Variant Type</span></span> | <span data-ttu-id="41088-118">VT \_ BSTR</span><span class="sxs-lookup"><span data-stu-id="41088-118">VT\_BSTR</span></span>                                                               |
+| <span data-ttu-id="41088-119">SDS 類型</span><span class="sxs-lookup"><span data-stu-id="41088-119">SDS Type</span></span>     | [<span data-ttu-id="41088-120">System.String</span><span class="sxs-lookup"><span data-stu-id="41088-120">System.String</span></span>](/dotnet/api/system.string) |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="b203f-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b203f-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="41088-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="41088-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b203f-122">System.String</span><span class="sxs-lookup"><span data-stu-id="b203f-122">System.String</span></span>](/dotnet/api/system.string)
+[<span data-ttu-id="41088-122">System.String</span><span class="sxs-lookup"><span data-stu-id="41088-122">System.String</span></span>](/dotnet/api/system.string)
 </dt> </dl>
 
  

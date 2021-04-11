@@ -12,23 +12,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103685414"
 ---
-# <a name="l-rpc"></a><span data-ttu-id="0c759-103">L (RPC) </span><span class="sxs-lookup"><span data-stu-id="0c759-103">L (RPC)</span></span>
+# <a name="l-rpc"></a><span data-ttu-id="b4f1f-103">L (RPC) </span><span class="sxs-lookup"><span data-stu-id="b4f1f-103">L (RPC)</span></span>
 
-<span data-ttu-id="0c759-104">[](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G [](v-glos.md) H [I](i-glos.md) J K L [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) [Q](q.md) [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [](u-glos.md) [W](w-glos.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="0c759-104">[A](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G H [I](i-glos.md) J K L [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) [Q](q.md) [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [U](u-glos.md) [V](v-glos.md) [W](w-glos.md) X Y Z</span></span>
+<span data-ttu-id="b4f1f-104">[](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G [](v-glos.md) H [I](i-glos.md) J K L [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) [Q](q.md) [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [](u-glos.md) [W](w-glos.md) X Y Z</span><span class="sxs-lookup"><span data-stu-id="b4f1f-104">[A](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G H [I](i-glos.md) J K L [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) [Q](q.md) [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [U](u-glos.md) [V](v-glos.md) [W](w-glos.md) X Y Z</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="0c759-105"><span id="_rpc_lrpc_glos"></span><span id="_RPC_LRPC_GLOS"></span>**本機遠端程序呼叫 (LRPC)**</span><span class="sxs-lookup"><span data-stu-id="0c759-105"><span id="_rpc_lrpc_glos"></span><span id="_RPC_LRPC_GLOS"></span>**local remote procedure call (LRPC)**</span></span>
+<span data-ttu-id="b4f1f-105"><span id="_rpc_lrpc_glos"></span><span id="_RPC_LRPC_GLOS"></span>**本機遠端程序呼叫 (LRPC)**</span><span class="sxs-lookup"><span data-stu-id="b4f1f-105"><span id="_rpc_lrpc_glos"></span><span id="_RPC_LRPC_GLOS"></span>**local remote procedure call (LRPC)**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0c759-106">在與呼叫進程相同的電腦上，遠端程序呼叫另一個進程。</span><span class="sxs-lookup"><span data-stu-id="0c759-106">Remote procedure call to another process on the same computer as the calling process.</span></span>
+<span data-ttu-id="b4f1f-106">在與呼叫進程相同的電腦上，遠端程序呼叫另一個進程。</span><span class="sxs-lookup"><span data-stu-id="b4f1f-106">Remote procedure call to another process on the same computer as the calling process.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="0c759-107"><span id="_rpc_locator_glos"></span><span id="_RPC_LOCATOR_GLOS"></span>**定位**</span><span class="sxs-lookup"><span data-stu-id="0c759-107"><span id="_rpc_locator_glos"></span><span id="_RPC_LOCATOR_GLOS"></span>**Locator**</span></span>
+<span data-ttu-id="b4f1f-107"><span id="_rpc_locator_glos"></span><span id="_RPC_LOCATOR_GLOS"></span>**定位**</span><span class="sxs-lookup"><span data-stu-id="b4f1f-107"><span id="_rpc_locator_glos"></span><span id="_RPC_LOCATOR_GLOS"></span>**Locator**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="0c759-108">Microsoft Windows 名稱-服務提供者。</span><span class="sxs-lookup"><span data-stu-id="0c759-108">Microsoft Windows name-service provider.</span></span> <span data-ttu-id="0c759-109">另請參閱 [*name service*](n-glos.md)。</span><span class="sxs-lookup"><span data-stu-id="0c759-109">See also [*name service*](n-glos.md).</span></span>
+<span data-ttu-id="b4f1f-108">Microsoft Windows 名稱-服務提供者。</span><span class="sxs-lookup"><span data-stu-id="b4f1f-108">Microsoft Windows name-service provider.</span></span> <span data-ttu-id="b4f1f-109">另請參閱 [*name service*](n-glos.md)。</span><span class="sxs-lookup"><span data-stu-id="b4f1f-109">See also [*name service*](n-glos.md).</span></span>
 
 </dd> </dl>
 

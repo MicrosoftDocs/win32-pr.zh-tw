@@ -11,28 +11,28 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "103687811"
 ---
-# <a name="playprevchapter-method"></a><span data-ttu-id="10df1-103">PlayPrevChapter 方法</span><span class="sxs-lookup"><span data-stu-id="10df1-103">PlayPrevChapter Method</span></span>
+# <a name="playprevchapter-method"></a><span data-ttu-id="c9d37-103">PlayPrevChapter 方法</span><span class="sxs-lookup"><span data-stu-id="c9d37-103">PlayPrevChapter Method</span></span>
 
 > [!Note]  
-> <span data-ttu-id="10df1-104">此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。</span><span class="sxs-lookup"><span data-stu-id="10df1-104">This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.</span></span> <span data-ttu-id="10df1-105">它在後續版本中可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="10df1-105">It may be altered or unavailable in subsequent versions.</span></span>
+> <span data-ttu-id="c9d37-104">此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。</span><span class="sxs-lookup"><span data-stu-id="c9d37-104">This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.</span></span> <span data-ttu-id="c9d37-105">它在後續版本中可能會變更或無法使用。</span><span class="sxs-lookup"><span data-stu-id="c9d37-105">It may be altered or unavailable in subsequent versions.</span></span>
 
  
 
-<span data-ttu-id="10df1-106">`PlayPrevChapter`方法會從目前標題中的上一章開始播放。</span><span class="sxs-lookup"><span data-stu-id="10df1-106">The `PlayPrevChapter` method starts playback from the previous chapter in the current title.</span></span>
+<span data-ttu-id="c9d37-106">`PlayPrevChapter`方法會從目前標題中的上一章開始播放。</span><span class="sxs-lookup"><span data-stu-id="c9d37-106">The `PlayPrevChapter` method starts playback from the previous chapter in the current title.</span></span>
 
 ``` syntax
 MSWebDVD.PlayPrevChapter()
 ```
 
-## <a name="return-value"></a><span data-ttu-id="10df1-107">傳回值</span><span class="sxs-lookup"><span data-stu-id="10df1-107">Return Value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c9d37-107">傳回值</span><span class="sxs-lookup"><span data-stu-id="c9d37-107">Return Value</span></span>
 
-<span data-ttu-id="10df1-108">沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="10df1-108">No return value.</span></span>
+<span data-ttu-id="c9d37-108">沒有傳回值。</span><span class="sxs-lookup"><span data-stu-id="c9d37-108">No return value.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="10df1-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="10df1-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c9d37-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c9d37-109">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="10df1-110">**PlayNextChapter**</span><span class="sxs-lookup"><span data-stu-id="10df1-110">**PlayNextChapter**</span></span>](playnextchapter-method.md)
+[<span data-ttu-id="c9d37-110">**PlayNextChapter**</span><span class="sxs-lookup"><span data-stu-id="c9d37-110">**PlayNextChapter**</span></span>](playnextchapter-method.md)
 </dt> </dl>
 
  
