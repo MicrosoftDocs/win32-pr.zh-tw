@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945455"
 ---
-# <a name="jet_tablecreatecbseparatelv-property"></a><span data-ttu-id="ea649-103">JET_TABLECREATE cbSeparateLV 屬性</span><span class="sxs-lookup"><span data-stu-id="ea649-103">JET_TABLECREATE.cbSeparateLV property</span></span>
+# <a name="jet_tablecreatecbseparatelv-property"></a><span data-ttu-id="bfd1d-103">JET_TABLECREATE cbSeparateLV 屬性</span><span class="sxs-lookup"><span data-stu-id="bfd1d-103">JET_TABLECREATE.cbSeparateLV property</span></span>
 
-<span data-ttu-id="ea649-104">取得或設定啟發式大小，以將內建的 LV 與主要記錄分開。</span><span class="sxs-lookup"><span data-stu-id="ea649-104">Gets or sets the heuristic size to separate a intrinsic LV from the primary record.</span></span>
+<span data-ttu-id="bfd1d-104">取得或設定啟發式大小，以將內建的 LV 與主要記錄分開。</span><span class="sxs-lookup"><span data-stu-id="bfd1d-104">Gets or sets the heuristic size to separate a intrinsic LV from the primary record.</span></span>
 
-<span data-ttu-id="ea649-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="ea649-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="ea649-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="ea649-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="bfd1d-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="bfd1d-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="bfd1d-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="bfd1d-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ea649-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="ea649-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bfd1d-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="bfd1d-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.cbSeparateLV = value
 public int cbSeparateLV { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="ea649-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="ea649-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="bfd1d-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="bfd1d-108">Property value</span></span>
 
-<span data-ttu-id="ea649-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="ea649-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="bfd1d-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="bfd1d-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="ea649-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ea649-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bfd1d-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bfd1d-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="ea649-111">參考</span><span class="sxs-lookup"><span data-stu-id="ea649-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="bfd1d-111">參考</span><span class="sxs-lookup"><span data-stu-id="bfd1d-111">Reference</span></span>
 
-[<span data-ttu-id="ea649-112">JET_TABLECREATE 類別</span><span class="sxs-lookup"><span data-stu-id="ea649-112">JET_TABLECREATE class</span></span>](./jet-tablecreate-class.md)
+[<span data-ttu-id="bfd1d-112">JET_TABLECREATE 類別</span><span class="sxs-lookup"><span data-stu-id="bfd1d-112">JET_TABLECREATE class</span></span>](./jet-tablecreate-class.md)
 
-[<span data-ttu-id="ea649-113">JET_TABLECREATE 成員</span><span class="sxs-lookup"><span data-stu-id="ea649-113">JET_TABLECREATE members</span></span>](./jet-tablecreate-members.md)
+[<span data-ttu-id="bfd1d-113">JET_TABLECREATE 成員</span><span class="sxs-lookup"><span data-stu-id="bfd1d-113">JET_TABLECREATE members</span></span>](./jet-tablecreate-members.md)
 
-[<span data-ttu-id="ea649-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ea649-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="bfd1d-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="bfd1d-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

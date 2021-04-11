@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/21/2020
 ms.locfileid: "104024078"
 ---
-# <a name="about-eap-and-eaphost"></a><span data-ttu-id="bad93-104">關於 EAP 和 EAPHost</span><span class="sxs-lookup"><span data-stu-id="bad93-104">About EAP and EAPHost</span></span>
+# <a name="about-eap-and-eaphost"></a><span data-ttu-id="584bb-104">關於 EAP 和 EAPHost</span><span class="sxs-lookup"><span data-stu-id="584bb-104">About EAP and EAPHost</span></span>
 
-## <a name="about-eaphost"></a><span data-ttu-id="bad93-105">關於 EAPHost</span><span class="sxs-lookup"><span data-stu-id="bad93-105">About EAPHost</span></span>
+## <a name="about-eaphost"></a><span data-ttu-id="584bb-105">關於 EAPHost</span><span class="sxs-lookup"><span data-stu-id="584bb-105">About EAPHost</span></span>
 
-<span data-ttu-id="bad93-106">根據 [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84063)，EAPHost 會 (eap) 狀態電腦和 eap 通訊協定架構來實行可延伸的驗證通訊協定。</span><span class="sxs-lookup"><span data-stu-id="bad93-106">EAPHost implements the Extensible Authentication Protocol (EAP) state machine and EAP protocol framework, as per [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84063).</span></span> <span data-ttu-id="bad93-107">如需詳細資訊，請參閱 [關於 EAPHost](about-eaphost.md)。</span><span class="sxs-lookup"><span data-stu-id="bad93-107">For more information, see [About EAPHost](about-eaphost.md).</span></span>
+<span data-ttu-id="584bb-106">根據 [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84063)，EAPHost 會 (eap) 狀態電腦和 eap 通訊協定架構來實行可延伸的驗證通訊協定。</span><span class="sxs-lookup"><span data-stu-id="584bb-106">EAPHost implements the Extensible Authentication Protocol (EAP) state machine and EAP protocol framework, as per [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84063).</span></span> <span data-ttu-id="584bb-107">如需詳細資訊，請參閱 [關於 EAPHost](about-eaphost.md)。</span><span class="sxs-lookup"><span data-stu-id="584bb-107">For more information, see [About EAPHost](about-eaphost.md).</span></span>
 
-## <a name="about-extensible-authentication-protocol"></a><span data-ttu-id="bad93-108">關於可延伸的驗證通訊協定</span><span class="sxs-lookup"><span data-stu-id="bad93-108">About Extensible Authentication Protocol</span></span>
+## <a name="about-extensible-authentication-protocol"></a><span data-ttu-id="584bb-108">關於可延伸的驗證通訊協定</span><span class="sxs-lookup"><span data-stu-id="584bb-108">About Extensible Authentication Protocol</span></span>
 
-<span data-ttu-id="bad93-109">EAP 是一種 Microsoft Windows 網路元件，可提供 (EAP) 基礎結構的可延伸驗證通訊協定。</span><span class="sxs-lookup"><span data-stu-id="bad93-109">EAP is a Microsoft Windows Networking component that provides an Extensible Authentication Protocol (EAP) infrastructure.</span></span> <span data-ttu-id="bad93-110">如需詳細資訊，請參閱 [關於 EAP](about-extensible-authentication-protocol.md)。</span><span class="sxs-lookup"><span data-stu-id="bad93-110">For more information, see [About EAP](about-extensible-authentication-protocol.md).</span></span>
+<span data-ttu-id="584bb-109">EAP 是一種 Microsoft Windows 網路元件，可提供 (EAP) 基礎結構的可延伸驗證通訊協定。</span><span class="sxs-lookup"><span data-stu-id="584bb-109">EAP is a Microsoft Windows Networking component that provides an Extensible Authentication Protocol (EAP) infrastructure.</span></span> <span data-ttu-id="584bb-110">如需詳細資訊，請參閱 [關於 EAP](about-extensible-authentication-protocol.md)。</span><span class="sxs-lookup"><span data-stu-id="584bb-110">For more information, see [About EAP](about-extensible-authentication-protocol.md).</span></span>
 
  
 

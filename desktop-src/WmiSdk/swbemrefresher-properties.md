@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/03/2021
 ms.locfileid: "103945638"
 ---
-# <a name="swbemrefresher-properties"></a><span data-ttu-id="aefaa-103">SWbemRefresher 屬性</span><span class="sxs-lookup"><span data-stu-id="aefaa-103">SWbemRefresher Properties</span></span>
+# <a name="swbemrefresher-properties"></a><span data-ttu-id="97ea9-103">SWbemRefresher 屬性</span><span class="sxs-lookup"><span data-stu-id="97ea9-103">SWbemRefresher Properties</span></span>
 
-<span data-ttu-id="aefaa-104">[**SWbemRefresher**](swbemrefresher.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="aefaa-104">The [**SWbemRefresher**](swbemrefresher.md) object exposes the following properties.</span></span>
+<span data-ttu-id="97ea9-104">[**SWbemRefresher**](swbemrefresher.md)物件會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="97ea9-104">The [**SWbemRefresher**](swbemrefresher.md) object exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="aefaa-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="aefaa-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="97ea9-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="97ea9-105">In this section</span></span>
 
--   [<span data-ttu-id="aefaa-106">**AutoReconnect 屬性**</span><span class="sxs-lookup"><span data-stu-id="aefaa-106">**AutoReconnect property**</span></span>](swbemrefresher-autoreconnect.md)
--   [<span data-ttu-id="aefaa-107">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="aefaa-107">**Count property**</span></span>](swbemrefresher-count.md)
+-   [<span data-ttu-id="97ea9-106">**AutoReconnect 屬性**</span><span class="sxs-lookup"><span data-stu-id="97ea9-106">**AutoReconnect property**</span></span>](swbemrefresher-autoreconnect.md)
+-   [<span data-ttu-id="97ea9-107">**Count 屬性**</span><span class="sxs-lookup"><span data-stu-id="97ea9-107">**Count property**</span></span>](swbemrefresher-count.md)
 
  
 

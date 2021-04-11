@@ -11,15 +11,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945313"
 ---
-# <a name="attributes-methods"></a><span data-ttu-id="0da32-103">Attributes 方法</span><span class="sxs-lookup"><span data-stu-id="0da32-103">Attributes Methods</span></span>
+# <a name="attributes-methods"></a><span data-ttu-id="eccaa-103">Attributes 方法</span><span class="sxs-lookup"><span data-stu-id="eccaa-103">Attributes Methods</span></span>
 
-<span data-ttu-id="0da32-104">[**Attributes**](attributes.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="0da32-104">The [**Attributes**](attributes.md) object exposes the following methods.</span></span>
+<span data-ttu-id="eccaa-104">[**Attributes**](attributes.md)物件會公開下列方法。</span><span class="sxs-lookup"><span data-stu-id="eccaa-104">The [**Attributes**](attributes.md) object exposes the following methods.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="0da32-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="0da32-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="eccaa-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="eccaa-105">In this section</span></span>
 
--   [<span data-ttu-id="0da32-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="0da32-106">**Add Method**</span></span>](attributes-add.md)
--   [<span data-ttu-id="0da32-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="0da32-107">**Clear Method**</span></span>](attributes-clear.md)
--   [<span data-ttu-id="0da32-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="0da32-108">**Remove Method**</span></span>](attributes-remove.md)
+-   [<span data-ttu-id="eccaa-106">**新增方法**</span><span class="sxs-lookup"><span data-stu-id="eccaa-106">**Add Method**</span></span>](attributes-add.md)
+-   [<span data-ttu-id="eccaa-107">**Clear 方法**</span><span class="sxs-lookup"><span data-stu-id="eccaa-107">**Clear Method**</span></span>](attributes-clear.md)
+-   [<span data-ttu-id="eccaa-108">**Remove 方法**</span><span class="sxs-lookup"><span data-stu-id="eccaa-108">**Remove Method**</span></span>](attributes-remove.md)
 
  
 

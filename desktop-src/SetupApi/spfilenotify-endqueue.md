@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945243"
 ---
-# <a name="spfilenotify_endqueue-message"></a><span data-ttu-id="7d4b6-103">SPFILENOTIFY \_ ENDQUEUE 訊息</span><span class="sxs-lookup"><span data-stu-id="7d4b6-103">SPFILENOTIFY\_ENDQUEUE message</span></span>
+# <a name="spfilenotify_endqueue-message"></a><span data-ttu-id="689ed-103">SPFILENOTIFY \_ ENDQUEUE 訊息</span><span class="sxs-lookup"><span data-stu-id="689ed-103">SPFILENOTIFY\_ENDQUEUE message</span></span>
 
-<span data-ttu-id="7d4b6-104">當所有已排入佇列的作業都完成時，會將 **SPFILENOTIFY \_ ENDQUEUE** 通知傳送至回呼常式。</span><span class="sxs-lookup"><span data-stu-id="7d4b6-104">The **SPFILENOTIFY\_ENDQUEUE** notification is sent to the callback routine when all of the queued operations have been completed.</span></span>
+<span data-ttu-id="689ed-104">當所有已排入佇列的作業都完成時，會將 **SPFILENOTIFY \_ ENDQUEUE** 通知傳送至回呼常式。</span><span class="sxs-lookup"><span data-stu-id="689ed-104">The **SPFILENOTIFY\_ENDQUEUE** notification is sent to the callback routine when all of the queued operations have been completed.</span></span>
 
 
 ```C++
@@ -25,54 +25,54 @@ SPFILENOTIFY_ENDQUEUE
 
 
 
-## <a name="parameters"></a><span data-ttu-id="7d4b6-105">參數</span><span class="sxs-lookup"><span data-stu-id="7d4b6-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="689ed-105">參數</span><span class="sxs-lookup"><span data-stu-id="689ed-105">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="7d4b6-106">*Param1*</span><span class="sxs-lookup"><span data-stu-id="7d4b6-106">*Param1*</span></span> 
+<span data-ttu-id="689ed-106">*Param1*</span><span class="sxs-lookup"><span data-stu-id="689ed-106">*Param1*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="7d4b6-107">如果已成功處理佇列，**則為 TRUE** ，否則為 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="7d4b6-107">**TRUE** if the queue was processed successfully, **FALSE** otherwise.</span></span>
+<span data-ttu-id="689ed-107">如果已成功處理佇列，**則為 TRUE** ，否則為 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="689ed-107">**TRUE** if the queue was processed successfully, **FALSE** otherwise.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="7d4b6-108">*Param2*</span><span class="sxs-lookup"><span data-stu-id="7d4b6-108">*Param2*</span></span> 
+<span data-ttu-id="689ed-108">*Param2*</span><span class="sxs-lookup"><span data-stu-id="689ed-108">*Param2*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="7d4b6-109">未使用的。</span><span class="sxs-lookup"><span data-stu-id="7d4b6-109">Unused.</span></span>
+<span data-ttu-id="689ed-109">未使用的。</span><span class="sxs-lookup"><span data-stu-id="689ed-109">Unused.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="7d4b6-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="7d4b6-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="689ed-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="689ed-110">Return value</span></span>
 
-<span data-ttu-id="7d4b6-111">傳回值會被忽略。</span><span class="sxs-lookup"><span data-stu-id="7d4b6-111">The return value is ignored.</span></span>
+<span data-ttu-id="689ed-111">傳回值會被忽略。</span><span class="sxs-lookup"><span data-stu-id="689ed-111">The return value is ignored.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="7d4b6-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="7d4b6-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="689ed-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="689ed-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="7d4b6-113">需求</span><span class="sxs-lookup"><span data-stu-id="7d4b6-113">Requirement</span></span> | <span data-ttu-id="7d4b6-114">值</span><span class="sxs-lookup"><span data-stu-id="7d4b6-114">Value</span></span> |
+| <span data-ttu-id="689ed-113">需求</span><span class="sxs-lookup"><span data-stu-id="689ed-113">Requirement</span></span> | <span data-ttu-id="689ed-114">值</span><span class="sxs-lookup"><span data-stu-id="689ed-114">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="7d4b6-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7d4b6-115">Minimum supported client</span></span><br/> | <span data-ttu-id="7d4b6-116">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7d4b6-116">Windows XP \[desktop apps only\]</span></span><br/>                                           |
-| <span data-ttu-id="7d4b6-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7d4b6-117">Minimum supported server</span></span><br/> | <span data-ttu-id="7d4b6-118">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7d4b6-118">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
-| <span data-ttu-id="7d4b6-119">標頭</span><span class="sxs-lookup"><span data-stu-id="7d4b6-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="7d4b6-120"><dt>Setupapi.log。h</dt></span><span class="sxs-lookup"><span data-stu-id="7d4b6-120"><dt>Setupapi.h</dt></span></span> </dl> |
+| <span data-ttu-id="689ed-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="689ed-115">Minimum supported client</span></span><br/> | <span data-ttu-id="689ed-116">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="689ed-116">Windows XP \[desktop apps only\]</span></span><br/>                                           |
+| <span data-ttu-id="689ed-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="689ed-117">Minimum supported server</span></span><br/> | <span data-ttu-id="689ed-118">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="689ed-118">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="689ed-119">標頭</span><span class="sxs-lookup"><span data-stu-id="689ed-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="689ed-120"><dt>Setupapi.log。h</dt></span><span class="sxs-lookup"><span data-stu-id="689ed-120"><dt>Setupapi.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7d4b6-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7d4b6-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="689ed-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="689ed-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7d4b6-122">概觀</span><span class="sxs-lookup"><span data-stu-id="7d4b6-122">Overview</span></span>](overview.md)
+[<span data-ttu-id="689ed-122">概觀</span><span class="sxs-lookup"><span data-stu-id="689ed-122">Overview</span></span>](overview.md)
 </dt> <dt>
 
-[<span data-ttu-id="7d4b6-123">通知</span><span class="sxs-lookup"><span data-stu-id="7d4b6-123">Notifications</span></span>](notifications.md)
+[<span data-ttu-id="689ed-123">通知</span><span class="sxs-lookup"><span data-stu-id="689ed-123">Notifications</span></span>](notifications.md)
 </dt> <dt>
 
-[<span data-ttu-id="7d4b6-124">**SetupCommitFileQueue**</span><span class="sxs-lookup"><span data-stu-id="7d4b6-124">**SetupCommitFileQueue**</span></span>](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea)
+[<span data-ttu-id="689ed-124">**SetupCommitFileQueue**</span><span class="sxs-lookup"><span data-stu-id="689ed-124">**SetupCommitFileQueue**</span></span>](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea)
 </dt> <dt>
 
-[<span data-ttu-id="7d4b6-125">**SetupDefaultQueueCallback**</span><span class="sxs-lookup"><span data-stu-id="7d4b6-125">**SetupDefaultQueueCallback**</span></span>](/windows/desktop/api/Setupapi/nf-setupapi-setupdefaultqueuecallbacka)
+[<span data-ttu-id="689ed-125">**SetupDefaultQueueCallback**</span><span class="sxs-lookup"><span data-stu-id="689ed-125">**SetupDefaultQueueCallback**</span></span>](/windows/desktop/api/Setupapi/nf-setupapi-setupdefaultqueuecallbacka)
 </dt> </dl>
 
  

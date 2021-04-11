@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945123"
 ---
-# <a name="starting-a-service"></a><span data-ttu-id="80a93-103">啟動服務</span><span class="sxs-lookup"><span data-stu-id="80a93-103">Starting a Service</span></span>
+# <a name="starting-a-service"></a><span data-ttu-id="297b7-103">啟動服務</span><span class="sxs-lookup"><span data-stu-id="297b7-103">Starting a Service</span></span>
 
-<span data-ttu-id="80a93-104">若要啟動服務， [服務控制程式](service-control-programs.md) 會開啟已安裝之資料庫的控制碼，然後指定 [**StartService**](/windows/desktop/api/Winsvc/nf-winsvc-startservicea) 函式呼叫中的控制碼。</span><span class="sxs-lookup"><span data-stu-id="80a93-104">To start a service, a [service control program](service-control-programs.md) opens a handle to an installed database and then specifies the handle in a call to the [**StartService**](/windows/desktop/api/Winsvc/nf-winsvc-startservicea) function.</span></span> <span data-ttu-id="80a93-105">啟動服務之後，程式會使用 [**QueryServiceStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex)函數所傳回之 [**服務 \_ 狀態 \_ 進程**](/windows/desktop/api/Winsvc/ns-winsvc-service_status_process)結構的成員來追蹤服務的進度。</span><span class="sxs-lookup"><span data-stu-id="80a93-105">After starting the service, the program uses the members of the [**SERVICE\_STATUS\_PROCESS**](/windows/desktop/api/Winsvc/ns-winsvc-service_status_process) structure returned by the [**QueryServiceStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex) function to track the progress of the service.</span></span>
+<span data-ttu-id="297b7-104">若要啟動服務， [服務控制程式](service-control-programs.md) 會開啟已安裝之資料庫的控制碼，然後指定 [**StartService**](/windows/desktop/api/Winsvc/nf-winsvc-startservicea) 函式呼叫中的控制碼。</span><span class="sxs-lookup"><span data-stu-id="297b7-104">To start a service, a [service control program](service-control-programs.md) opens a handle to an installed database and then specifies the handle in a call to the [**StartService**](/windows/desktop/api/Winsvc/nf-winsvc-startservicea) function.</span></span> <span data-ttu-id="297b7-105">啟動服務之後，程式會使用 [**QueryServiceStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex)函數所傳回之 [**服務 \_ 狀態 \_ 進程**](/windows/desktop/api/Winsvc/ns-winsvc-service_status_process)結構的成員來追蹤服務的進度。</span><span class="sxs-lookup"><span data-stu-id="297b7-105">After starting the service, the program uses the members of the [**SERVICE\_STATUS\_PROCESS**](/windows/desktop/api/Winsvc/ns-winsvc-service_status_process) structure returned by the [**QueryServiceStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex) function to track the progress of the service.</span></span>
 
-<span data-ttu-id="80a93-106">下列範例中的 DoStartSvc 函式顯示如何啟動服務。</span><span class="sxs-lookup"><span data-stu-id="80a93-106">The DoStartSvc function in the following example shows how to start a service.</span></span> <span data-ttu-id="80a93-107">SzSvcName 變數是全域變數，其中包含要啟動之服務的名稱。</span><span class="sxs-lookup"><span data-stu-id="80a93-107">The szSvcName variable is a global variable that contains the name of the service to be started.</span></span> <span data-ttu-id="80a93-108">如需設定此變數的完整範例，請參閱 [SvcControl .cpp](svccontrol-cpp.md)。</span><span class="sxs-lookup"><span data-stu-id="80a93-108">For the complete example that sets this variable, see [SvcControl.cpp](svccontrol-cpp.md).</span></span>
+<span data-ttu-id="297b7-106">下列範例中的 DoStartSvc 函式顯示如何啟動服務。</span><span class="sxs-lookup"><span data-stu-id="297b7-106">The DoStartSvc function in the following example shows how to start a service.</span></span> <span data-ttu-id="297b7-107">SzSvcName 變數是全域變數，其中包含要啟動之服務的名稱。</span><span class="sxs-lookup"><span data-stu-id="297b7-107">The szSvcName variable is a global variable that contains the name of the service to be started.</span></span> <span data-ttu-id="297b7-108">如需設定此變數的完整範例，請參閱 [SvcControl .cpp](svccontrol-cpp.md)。</span><span class="sxs-lookup"><span data-stu-id="297b7-108">For the complete example that sets this variable, see [SvcControl.cpp](svccontrol-cpp.md).</span></span>
 
 
 ```C++
@@ -247,14 +247,14 @@ VOID __stdcall DoStartSvc()
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="80a93-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="80a93-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="297b7-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="297b7-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="80a93-110">服務啟動</span><span class="sxs-lookup"><span data-stu-id="80a93-110">Service Startup</span></span>](service-startup.md)
+[<span data-ttu-id="297b7-110">服務啟動</span><span class="sxs-lookup"><span data-stu-id="297b7-110">Service Startup</span></span>](service-startup.md)
 </dt> <dt>
 
-[<span data-ttu-id="80a93-111">完整的服務範例</span><span class="sxs-lookup"><span data-stu-id="80a93-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
+[<span data-ttu-id="297b7-111">完整的服務範例</span><span class="sxs-lookup"><span data-stu-id="297b7-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
 </dt> </dl>
 
  

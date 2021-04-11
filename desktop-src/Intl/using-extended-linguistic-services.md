@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945422"
 ---
-# <a name="using-extended-linguistic-services"></a><span data-ttu-id="5731b-103">使用擴充語言服務</span><span class="sxs-lookup"><span data-stu-id="5731b-103">Using Extended Linguistic Services</span></span>
+# <a name="using-extended-linguistic-services"></a><span data-ttu-id="d1a62-103">使用擴充語言服務</span><span class="sxs-lookup"><span data-stu-id="d1a62-103">Using Extended Linguistic Services</span></span>
 
-<span data-ttu-id="5731b-104">您的應用程式可以使用 ELS 來存取任何預先定義的服務。</span><span class="sxs-lookup"><span data-stu-id="5731b-104">Your application can use ELS to access any of the predefined services.</span></span> <span data-ttu-id="5731b-105">本節包含下列主題，可用於開發 ELS 應用程式。</span><span class="sxs-lookup"><span data-stu-id="5731b-105">This section includes the following topics for use in developing ELS applications.</span></span>
+<span data-ttu-id="d1a62-104">您的應用程式可以使用 ELS 來存取任何預先定義的服務。</span><span class="sxs-lookup"><span data-stu-id="d1a62-104">Your application can use ELS to access any of the predefined services.</span></span> <span data-ttu-id="d1a62-105">本節包含下列主題，可用於開發 ELS 應用程式。</span><span class="sxs-lookup"><span data-stu-id="d1a62-105">This section includes the following topics for use in developing ELS applications.</span></span>
 
--   [<span data-ttu-id="5731b-106">列舉和釋放服務</span><span class="sxs-lookup"><span data-stu-id="5731b-106">Enumerating and Freeing Services</span></span>](enumerating-and-freeing-services.md)
--   [<span data-ttu-id="5731b-107">要求文字辨識</span><span class="sxs-lookup"><span data-stu-id="5731b-107">Requesting Text Recognition</span></span>](requesting-text-recognition.md)
--   [<span data-ttu-id="5731b-108">提供 ELS 服務的回呼</span><span class="sxs-lookup"><span data-stu-id="5731b-108">Providing Callbacks for ELS Services</span></span>](providing-callbacks-for-els-services.md)
+-   [<span data-ttu-id="d1a62-106">列舉和釋放服務</span><span class="sxs-lookup"><span data-stu-id="d1a62-106">Enumerating and Freeing Services</span></span>](enumerating-and-freeing-services.md)
+-   [<span data-ttu-id="d1a62-107">要求文字辨識</span><span class="sxs-lookup"><span data-stu-id="d1a62-107">Requesting Text Recognition</span></span>](requesting-text-recognition.md)
+-   [<span data-ttu-id="d1a62-108">提供 ELS 服務的回呼</span><span class="sxs-lookup"><span data-stu-id="d1a62-108">Providing Callbacks for ELS Services</span></span>](providing-callbacks-for-els-services.md)
 
  
 

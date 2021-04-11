@@ -12,25 +12,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945184"
 ---
-# <a name="wmi-events"></a><span data-ttu-id="d2401-104">WMI 事件</span><span class="sxs-lookup"><span data-stu-id="d2401-104">WMI Events</span></span>
+# <a name="wmi-events"></a><span data-ttu-id="59110-104">WMI 事件</span><span class="sxs-lookup"><span data-stu-id="59110-104">WMI Events</span></span>
 
-<span data-ttu-id="d2401-105">事件可能會由 WMI 或提供者報告。</span><span class="sxs-lookup"><span data-stu-id="d2401-105">Events may be reported by WMI or providers.</span></span> <span data-ttu-id="d2401-106">WMI 使用 [事件追蹤](/windows/desktop/ETW/event-tracing-portal) (ETW) 。</span><span class="sxs-lookup"><span data-stu-id="d2401-106">WMI uses [Event Tracing](/windows/desktop/ETW/event-tracing-portal) (ETW).</span></span> <span data-ttu-id="d2401-107">如需詳細資訊，請參閱 [追蹤 WMI 活動](tracing-wmi-activity.md)。</span><span class="sxs-lookup"><span data-stu-id="d2401-107">For more information, see [Tracing WMI Activity](tracing-wmi-activity.md).</span></span>
+<span data-ttu-id="59110-105">事件可能會由 WMI 或提供者報告。</span><span class="sxs-lookup"><span data-stu-id="59110-105">Events may be reported by WMI or providers.</span></span> <span data-ttu-id="59110-106">WMI 使用 [事件追蹤](/windows/desktop/ETW/event-tracing-portal) (ETW) 。</span><span class="sxs-lookup"><span data-stu-id="59110-106">WMI uses [Event Tracing](/windows/desktop/ETW/event-tracing-portal) (ETW).</span></span> <span data-ttu-id="59110-107">如需詳細資訊，請參閱 [追蹤 WMI 活動](tracing-wmi-activity.md)。</span><span class="sxs-lookup"><span data-stu-id="59110-107">For more information, see [Tracing WMI Activity](tracing-wmi-activity.md).</span></span>
 
 > [!Note]  
-> <span data-ttu-id="d2401-108">下列檔是專為開發人員和 IT 系統管理員所設計。</span><span class="sxs-lookup"><span data-stu-id="d2401-108">The following documentation is designed for developers and IT administrators.</span></span> <span data-ttu-id="d2401-109">如果您嘗試在家庭系統上解決 WMI 錯誤訊息，請參閱 [Microsoft 支援服務](https://support.microsoft.com/) 網站。</span><span class="sxs-lookup"><span data-stu-id="d2401-109">If you are attempting to resolve a WMI error message on your home system, please refer to the [Microsoft Support](https://support.microsoft.com/) website.</span></span>
+> <span data-ttu-id="59110-108">下列檔是專為開發人員和 IT 系統管理員所設計。</span><span class="sxs-lookup"><span data-stu-id="59110-108">The following documentation is designed for developers and IT administrators.</span></span> <span data-ttu-id="59110-109">如果您嘗試在家庭系統上解決 WMI 錯誤訊息，請參閱 [Microsoft 支援服務](https://support.microsoft.com/) 網站。</span><span class="sxs-lookup"><span data-stu-id="59110-109">If you are attempting to resolve a WMI error message on your home system, please refer to the [Microsoft Support](https://support.microsoft.com/) website.</span></span>
 
  
 
--   [<span data-ttu-id="d2401-110">**WMI 事件訊息**</span><span class="sxs-lookup"><span data-stu-id="d2401-110">**WMI Event Messages**</span></span>](wmi-event-messages.md)
+-   [<span data-ttu-id="59110-110">**WMI 事件訊息**</span><span class="sxs-lookup"><span data-stu-id="59110-110">**WMI Event Messages**</span></span>](wmi-event-messages.md)
 
-## <a name="related-topics"></a><span data-ttu-id="d2401-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="d2401-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="59110-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="59110-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d2401-112">WMI 參考</span><span class="sxs-lookup"><span data-stu-id="d2401-112">WMI Reference</span></span>](wmi-reference.md)
+[<span data-ttu-id="59110-112">WMI 參考</span><span class="sxs-lookup"><span data-stu-id="59110-112">WMI Reference</span></span>](wmi-reference.md)
 </dt> <dt>
 
-<span data-ttu-id="d2401-113">[WMI 疑難排解](wmi-troubleshooting.md) \(英文\)</span><span class="sxs-lookup"><span data-stu-id="d2401-113">[WMI Troubleshooting](wmi-troubleshooting.md)</span></span>
+<span data-ttu-id="59110-113">[WMI 疑難排解](wmi-troubleshooting.md) \(英文\)</span><span class="sxs-lookup"><span data-stu-id="59110-113">[WMI Troubleshooting](wmi-troubleshooting.md)</span></span>
 </dt> </dl>
 
  

@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945199"
 ---
-# <a name="example-c-program-creating-an-md5-hash-from-file-content"></a><span data-ttu-id="b2ab9-103">範例 C 程式：從檔案內容建立 MD5 雜湊</span><span class="sxs-lookup"><span data-stu-id="b2ab9-103">Example C Program: Creating an MD5 Hash from File Content</span></span>
+# <a name="example-c-program-creating-an-md5-hash-from-file-content"></a><span data-ttu-id="cd712-103">範例 C 程式：從檔案內容建立 MD5 雜湊</span><span class="sxs-lookup"><span data-stu-id="cd712-103">Example C Program: Creating an MD5 Hash from File Content</span></span>
 
-<span data-ttu-id="b2ab9-104">下列範例示範如何使用 CryptoAPI 來計算檔案內容的 [*MD5*](../secgloss/m-gly.md) 雜湊。</span><span class="sxs-lookup"><span data-stu-id="b2ab9-104">The following example demonstrates using CryptoAPI to compute the [*MD5*](../secgloss/m-gly.md) hash of the contents of a file.</span></span> <span data-ttu-id="b2ab9-105">這個範例會在執行時間指定的檔案內容上執行計算。</span><span class="sxs-lookup"><span data-stu-id="b2ab9-105">This example performs the computation on the contents of a file specified at run time.</span></span>
+<span data-ttu-id="cd712-104">下列範例示範如何使用 CryptoAPI 來計算檔案內容的 [*MD5*](../secgloss/m-gly.md) 雜湊。</span><span class="sxs-lookup"><span data-stu-id="cd712-104">The following example demonstrates using CryptoAPI to compute the [*MD5*](../secgloss/m-gly.md) hash of the contents of a file.</span></span> <span data-ttu-id="cd712-105">這個範例會在執行時間指定的檔案內容上執行計算。</span><span class="sxs-lookup"><span data-stu-id="cd712-105">This example performs the computation on the contents of a file specified at run time.</span></span>
 
 
 ```C++
