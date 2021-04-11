@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851100"
 ---
-# <a name="finding-the-owner-of-a-file-object-in-c"></a><span data-ttu-id="71bbc-103">在 c + + 中尋找檔案物件的擁有者</span><span class="sxs-lookup"><span data-stu-id="71bbc-103">Finding the Owner of a File Object in C++</span></span>
+# <a name="finding-the-owner-of-a-file-object-in-c"></a><span data-ttu-id="be9cb-103">在 c + + 中尋找檔案物件的擁有者</span><span class="sxs-lookup"><span data-stu-id="be9cb-103">Finding the Owner of a File Object in C++</span></span>
 
-<span data-ttu-id="71bbc-104">下列範例會使用 [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo) 和 [**LookupAccountSid**](/windows/desktop/api/Winbase/nf-winbase-lookupaccountsida) 函數來尋找和列印檔案擁有者的名稱。</span><span class="sxs-lookup"><span data-stu-id="71bbc-104">The following example uses the [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo) and [**LookupAccountSid**](/windows/desktop/api/Winbase/nf-winbase-lookupaccountsida) functions to find and print the name of the owner of a file.</span></span> <span data-ttu-id="71bbc-105">檔案存在於本機伺服器上的目前工作目錄中。</span><span class="sxs-lookup"><span data-stu-id="71bbc-105">The file exists in the current working directory on the local server.</span></span>
+<span data-ttu-id="be9cb-104">下列範例會使用 [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo) 和 [**LookupAccountSid**](/windows/desktop/api/Winbase/nf-winbase-lookupaccountsida) 函數來尋找和列印檔案擁有者的名稱。</span><span class="sxs-lookup"><span data-stu-id="be9cb-104">The following example uses the [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo) and [**LookupAccountSid**](/windows/desktop/api/Winbase/nf-winbase-lookupaccountsida) functions to find and print the name of the owner of a file.</span></span> <span data-ttu-id="be9cb-105">檔案存在於本機伺服器上的目前工作目錄中。</span><span class="sxs-lookup"><span data-stu-id="be9cb-105">The file exists in the current working directory on the local server.</span></span>
 
 
 ```C++

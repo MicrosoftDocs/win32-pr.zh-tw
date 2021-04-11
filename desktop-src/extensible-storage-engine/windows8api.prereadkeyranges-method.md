@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103943693"
 ---
-# <a name="windows8apiprereadkeyranges-method"></a><span data-ttu-id="19a39-103">Windows8Api. PrereadKeyRanges 方法</span><span class="sxs-lookup"><span data-stu-id="19a39-103">Windows8Api.PrereadKeyRanges method</span></span>
+# <a name="windows8apiprereadkeyranges-method"></a><span data-ttu-id="f2898-103">Windows8Api. PrereadKeyRanges 方法</span><span class="sxs-lookup"><span data-stu-id="f2898-103">Windows8Api.PrereadKeyRanges method</span></span>
 
-<span data-ttu-id="19a39-104">如果具有指定索引鍵範圍的記錄不在緩衝區快取中，則會啟動非同步讀取，以將記錄帶入資料庫緩衝區快取中。</span><span class="sxs-lookup"><span data-stu-id="19a39-104">If the records with the specified key ranges are not in the buffer cache then start asynchronous reads to bring the records into the database buffer cache.</span></span>
+<span data-ttu-id="f2898-104">如果具有指定索引鍵範圍的記錄不在緩衝區快取中，則會啟動非同步讀取，以將記錄帶入資料庫緩衝區快取中。</span><span class="sxs-lookup"><span data-stu-id="f2898-104">If the records with the specified key ranges are not in the buffer cache then start asynchronous reads to bring the records into the database buffer cache.</span></span>
 
-<span data-ttu-id="19a39-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="19a39-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
-<span data-ttu-id="19a39-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="19a39-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="f2898-105">**命名空間：**  [Microsoft Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="f2898-105">**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)</span></span>  
+<span data-ttu-id="f2898-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="f2898-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="19a39-107">語法</span><span class="sxs-lookup"><span data-stu-id="19a39-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f2898-107">語法</span><span class="sxs-lookup"><span data-stu-id="f2898-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -88,89 +88,89 @@ public static void PrereadKeyRanges(
 )
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="19a39-108">參數</span><span class="sxs-lookup"><span data-stu-id="19a39-108">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="f2898-108">參數</span><span class="sxs-lookup"><span data-stu-id="f2898-108">Parameters</span></span>
 
-  - <span data-ttu-id="19a39-109">sesid</span><span class="sxs-lookup"><span data-stu-id="19a39-109">sesid</span></span>  
-    <span data-ttu-id="19a39-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="19a39-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
+  - <span data-ttu-id="f2898-109">sesid</span><span class="sxs-lookup"><span data-stu-id="f2898-109">sesid</span></span>  
+    <span data-ttu-id="f2898-110">類型： [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="f2898-110">Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)</span></span>  
     
-    <span data-ttu-id="19a39-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="19a39-111">The session to use.</span></span>
+    <span data-ttu-id="f2898-111">要使用的會話。</span><span class="sxs-lookup"><span data-stu-id="f2898-111">The session to use.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-112">tableid</span><span class="sxs-lookup"><span data-stu-id="19a39-112">tableid</span></span>  
-    <span data-ttu-id="19a39-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="19a39-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
+  - <span data-ttu-id="f2898-112">tableid</span><span class="sxs-lookup"><span data-stu-id="f2898-112">tableid</span></span>  
+    <span data-ttu-id="f2898-113">類型： [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span><span class="sxs-lookup"><span data-stu-id="f2898-113">Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)</span></span>  
     
-    <span data-ttu-id="19a39-114">要針對其發出 prereads 的資料表。</span><span class="sxs-lookup"><span data-stu-id="19a39-114">The table to issue the prereads against.</span></span>
+    <span data-ttu-id="f2898-114">要針對其發出 prereads 的資料表。</span><span class="sxs-lookup"><span data-stu-id="f2898-114">The table to issue the prereads against.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-115">keysStart</span><span class="sxs-lookup"><span data-stu-id="19a39-115">keysStart</span></span>  
-    <span data-ttu-id="19a39-116">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="19a39-116">Type: \[\]</span></span>  
+  - <span data-ttu-id="f2898-115">keysStart</span><span class="sxs-lookup"><span data-stu-id="f2898-115">keysStart</span></span>  
+    <span data-ttu-id="f2898-116">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="f2898-116">Type: \[\]</span></span>  
     
-    <span data-ttu-id="19a39-117">要 preread 的索引鍵範圍開頭。</span><span class="sxs-lookup"><span data-stu-id="19a39-117">The start of key ranges to preread.</span></span>
+    <span data-ttu-id="f2898-117">要 preread 的索引鍵範圍開頭。</span><span class="sxs-lookup"><span data-stu-id="f2898-117">The start of key ranges to preread.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-118">keyStartLengths</span><span class="sxs-lookup"><span data-stu-id="19a39-118">keyStartLengths</span></span>  
-    <span data-ttu-id="19a39-119">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="19a39-119">Type: \[\]</span></span>  
+  - <span data-ttu-id="f2898-118">keyStartLengths</span><span class="sxs-lookup"><span data-stu-id="f2898-118">keyStartLengths</span></span>  
+    <span data-ttu-id="f2898-119">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="f2898-119">Type: \[\]</span></span>  
     
-    <span data-ttu-id="19a39-120">要 preread 的開始索引鍵長度。</span><span class="sxs-lookup"><span data-stu-id="19a39-120">The lengths of the start keys to preread.</span></span>
+    <span data-ttu-id="f2898-120">要 preread 的開始索引鍵長度。</span><span class="sxs-lookup"><span data-stu-id="f2898-120">The lengths of the start keys to preread.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-121">keysEnd</span><span class="sxs-lookup"><span data-stu-id="19a39-121">keysEnd</span></span>  
-    <span data-ttu-id="19a39-122">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="19a39-122">Type: \[\]</span></span>  
+  - <span data-ttu-id="f2898-121">keysEnd</span><span class="sxs-lookup"><span data-stu-id="f2898-121">keysEnd</span></span>  
+    <span data-ttu-id="f2898-122">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="f2898-122">Type: \[\]</span></span>  
     
-    <span data-ttu-id="19a39-123">要 preread 的主要 rangess 結尾。</span><span class="sxs-lookup"><span data-stu-id="19a39-123">The end of key rangess to preread.</span></span>
+    <span data-ttu-id="f2898-123">要 preread 的主要 rangess 結尾。</span><span class="sxs-lookup"><span data-stu-id="f2898-123">The end of key rangess to preread.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-124">keyEndLengths</span><span class="sxs-lookup"><span data-stu-id="19a39-124">keyEndLengths</span></span>  
-    <span data-ttu-id="19a39-125">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="19a39-125">Type: \[\]</span></span>  
+  - <span data-ttu-id="f2898-124">keyEndLengths</span><span class="sxs-lookup"><span data-stu-id="f2898-124">keyEndLengths</span></span>  
+    <span data-ttu-id="f2898-125">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="f2898-125">Type: \[\]</span></span>  
     
-    <span data-ttu-id="19a39-126">要 preread 的結束金鑰長度。</span><span class="sxs-lookup"><span data-stu-id="19a39-126">The lengths of the end keys to preread.</span></span>
+    <span data-ttu-id="f2898-126">要 preread 的結束金鑰長度。</span><span class="sxs-lookup"><span data-stu-id="f2898-126">The lengths of the end keys to preread.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-127">rangeIndex</span><span class="sxs-lookup"><span data-stu-id="19a39-127">rangeIndex</span></span>  
-    <span data-ttu-id="19a39-128">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="19a39-128">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="f2898-127">rangeIndex</span><span class="sxs-lookup"><span data-stu-id="f2898-127">rangeIndex</span></span>  
+    <span data-ttu-id="f2898-128">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="f2898-128">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="19a39-129">要讀取的陣列中第一個索引鍵範圍的索引。</span><span class="sxs-lookup"><span data-stu-id="19a39-129">The index of the first key range in the array to read.</span></span>
+    <span data-ttu-id="f2898-129">要讀取的陣列中第一個索引鍵範圍的索引。</span><span class="sxs-lookup"><span data-stu-id="f2898-129">The index of the first key range in the array to read.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-130">rangeCount</span><span class="sxs-lookup"><span data-stu-id="19a39-130">rangeCount</span></span>  
-    <span data-ttu-id="19a39-131">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="19a39-131">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="f2898-130">rangeCount</span><span class="sxs-lookup"><span data-stu-id="f2898-130">rangeCount</span></span>  
+    <span data-ttu-id="f2898-131">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="f2898-131">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="19a39-132">要 preread 的索引鍵範圍的最大數目。</span><span class="sxs-lookup"><span data-stu-id="19a39-132">The maximum number of key ranges to preread.</span></span>
+    <span data-ttu-id="f2898-132">要 preread 的索引鍵範圍的最大數目。</span><span class="sxs-lookup"><span data-stu-id="f2898-132">The maximum number of key ranges to preread.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-133">rangesPreread</span><span class="sxs-lookup"><span data-stu-id="19a39-133">rangesPreread</span></span>  
-    <span data-ttu-id="19a39-134">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="19a39-134">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+  - <span data-ttu-id="f2898-133">rangesPreread</span><span class="sxs-lookup"><span data-stu-id="f2898-133">rangesPreread</span></span>  
+    <span data-ttu-id="f2898-134">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="f2898-134">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
     
-    <span data-ttu-id="19a39-135">傳回實際 preread 的索引鍵數目。</span><span class="sxs-lookup"><span data-stu-id="19a39-135">Returns the number of keys actually preread.</span></span>
+    <span data-ttu-id="f2898-135">傳回實際 preread 的索引鍵數目。</span><span class="sxs-lookup"><span data-stu-id="f2898-135">Returns the number of keys actually preread.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-136">columnsPreread</span><span class="sxs-lookup"><span data-stu-id="19a39-136">columnsPreread</span></span>  
-    <span data-ttu-id="19a39-137">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="19a39-137">Type: \[\]</span></span>  
+  - <span data-ttu-id="f2898-136">columnsPreread</span><span class="sxs-lookup"><span data-stu-id="f2898-136">columnsPreread</span></span>  
+    <span data-ttu-id="f2898-137">類型： \[\]</span><span class="sxs-lookup"><span data-stu-id="f2898-137">Type: \[\]</span></span>  
     
-    <span data-ttu-id="19a39-138">要 preread 之 long 值資料行的資料行識別碼清單。</span><span class="sxs-lookup"><span data-stu-id="19a39-138">List of column ids for long value columns to preread.</span></span>
+    <span data-ttu-id="f2898-138">要 preread 之 long 值資料行的資料行識別碼清單。</span><span class="sxs-lookup"><span data-stu-id="f2898-138">List of column ids for long value columns to preread.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="19a39-139">grbit</span><span class="sxs-lookup"><span data-stu-id="19a39-139">grbit</span></span>  
-    <span data-ttu-id="19a39-140">型別： [Windows8. PrereadIndexRangesGrbit](./prereadindexrangesgrbit-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="19a39-140">Type: [Microsoft.Isam.Esent.Interop.Windows8.PrereadIndexRangesGrbit](./prereadindexrangesgrbit-enumeration.md)</span></span>  
+  - <span data-ttu-id="f2898-139">grbit</span><span class="sxs-lookup"><span data-stu-id="f2898-139">grbit</span></span>  
+    <span data-ttu-id="f2898-140">型別： [Windows8. PrereadIndexRangesGrbit](./prereadindexrangesgrbit-enumeration.md)</span><span class="sxs-lookup"><span data-stu-id="f2898-140">Type: [Microsoft.Isam.Esent.Interop.Windows8.PrereadIndexRangesGrbit](./prereadindexrangesgrbit-enumeration.md)</span></span>  
     
-    <span data-ttu-id="19a39-141">Preread 選項。</span><span class="sxs-lookup"><span data-stu-id="19a39-141">Preread options.</span></span> <span data-ttu-id="19a39-142">用來指定 preread 的方向。</span><span class="sxs-lookup"><span data-stu-id="19a39-142">Used to specify the direction of the preread.</span></span>
+    <span data-ttu-id="f2898-141">Preread 選項。</span><span class="sxs-lookup"><span data-stu-id="f2898-141">Preread options.</span></span> <span data-ttu-id="f2898-142">用來指定 preread 的方向。</span><span class="sxs-lookup"><span data-stu-id="f2898-142">Used to specify the direction of the preread.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="19a39-143">另請參閱</span><span class="sxs-lookup"><span data-stu-id="19a39-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f2898-143">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f2898-143">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="19a39-144">參考</span><span class="sxs-lookup"><span data-stu-id="19a39-144">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="f2898-144">參考</span><span class="sxs-lookup"><span data-stu-id="f2898-144">Reference</span></span>
 
-[<span data-ttu-id="19a39-145">Windows8Api 類別</span><span class="sxs-lookup"><span data-stu-id="19a39-145">Windows8Api class</span></span>](./windows8api-class.md)
+[<span data-ttu-id="f2898-145">Windows8Api 類別</span><span class="sxs-lookup"><span data-stu-id="f2898-145">Windows8Api class</span></span>](./windows8api-class.md)
 
-[<span data-ttu-id="19a39-146">Windows8Api 成員</span><span class="sxs-lookup"><span data-stu-id="19a39-146">Windows8Api members</span></span>](./windows8api-members.md)
+[<span data-ttu-id="f2898-146">Windows8Api 成員</span><span class="sxs-lookup"><span data-stu-id="f2898-146">Windows8Api members</span></span>](./windows8api-members.md)
 
-[<span data-ttu-id="19a39-147">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="19a39-147">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)
+[<span data-ttu-id="f2898-147">Windows8 命名空間。</span><span class="sxs-lookup"><span data-stu-id="f2898-147">Microsoft.Isam.Esent.Interop.Windows8 namespace</span></span>](./microsoft.isam.esent.interop.windows8-namespace.md)

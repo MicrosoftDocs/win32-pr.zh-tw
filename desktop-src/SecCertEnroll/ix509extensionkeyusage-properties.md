@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851091"
 ---
-# <a name="ix509extensionkeyusage-properties"></a><span data-ttu-id="9152c-103">IX509ExtensionKeyUsage 屬性</span><span class="sxs-lookup"><span data-stu-id="9152c-103">IX509ExtensionKeyUsage Properties</span></span>
+# <a name="ix509extensionkeyusage-properties"></a><span data-ttu-id="75955-103">IX509ExtensionKeyUsage 屬性</span><span class="sxs-lookup"><span data-stu-id="75955-103">IX509ExtensionKeyUsage Properties</span></span>
 
-<span data-ttu-id="9152c-104">[**IX509ExtensionKeyUsage**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionkeyusage)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="9152c-104">The [**IX509ExtensionKeyUsage**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionkeyusage) interface exposes the following properties.</span></span>
+<span data-ttu-id="75955-104">[**IX509ExtensionKeyUsage**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionkeyusage)介面會公開下列屬性。</span><span class="sxs-lookup"><span data-stu-id="75955-104">The [**IX509ExtensionKeyUsage**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionkeyusage) interface exposes the following properties.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="9152c-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="9152c-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="75955-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="75955-105">In this section</span></span>
 
--   [<span data-ttu-id="9152c-106">**KeyUsage 屬性**</span><span class="sxs-lookup"><span data-stu-id="9152c-106">**KeyUsage Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionkeyusage-get_keyusage)
+-   [<span data-ttu-id="75955-106">**KeyUsage 屬性**</span><span class="sxs-lookup"><span data-stu-id="75955-106">**KeyUsage Property**</span></span>](/windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionkeyusage-get_keyusage)
 
  
 

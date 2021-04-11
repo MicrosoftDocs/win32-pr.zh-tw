@@ -16,9 +16,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103851099"
 ---
-# <a name="getmultipletrusteeoperation-function"></a><span data-ttu-id="27426-103">GetMultipleTrusteeOperation 函式</span><span class="sxs-lookup"><span data-stu-id="27426-103">GetMultipleTrusteeOperation function</span></span>
+# <a name="getmultipletrusteeoperation-function"></a><span data-ttu-id="babb1-103">GetMultipleTrusteeOperation 函式</span><span class="sxs-lookup"><span data-stu-id="babb1-103">GetMultipleTrusteeOperation function</span></span>
 
-<span data-ttu-id="27426-104">不支援此函數。</span><span class="sxs-lookup"><span data-stu-id="27426-104">This function is not supported.</span></span>
+<span data-ttu-id="babb1-104">不支援此函數。</span><span class="sxs-lookup"><span data-stu-id="babb1-104">This function is not supported.</span></span>
 
  
 

@@ -14,160 +14,160 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104026345"
 ---
-# <a name="doublecolumnvalue-members"></a><span data-ttu-id="1f92f-103">DoubleColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="1f92f-103">DoubleColumnValue members</span></span>
+# <a name="doublecolumnvalue-members"></a><span data-ttu-id="56bc9-103">DoubleColumnValue 成員</span><span class="sxs-lookup"><span data-stu-id="56bc9-103">DoubleColumnValue members</span></span>
 
-<span data-ttu-id="1f92f-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="1f92f-104">Include protected members</span></span>  
-<span data-ttu-id="1f92f-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="1f92f-105">Include inherited members</span></span>  
+<span data-ttu-id="56bc9-104">包含受保護的成員</span><span class="sxs-lookup"><span data-stu-id="56bc9-104">Include protected members</span></span>  
+<span data-ttu-id="56bc9-105">包含繼承的成員</span><span class="sxs-lookup"><span data-stu-id="56bc9-105">Include inherited members</span></span>  
 
-<span data-ttu-id="1f92f-106">[雙](/dotnet/api/system.double)資料行值。</span><span class="sxs-lookup"><span data-stu-id="1f92f-106">A [Double](/dotnet/api/system.double) column value.</span></span>
+<span data-ttu-id="56bc9-106">[雙](/dotnet/api/system.double)資料行值。</span><span class="sxs-lookup"><span data-stu-id="56bc9-106">A [Double](/dotnet/api/system.double) column value.</span></span>
 
-<span data-ttu-id="1f92f-107">[DoubleColumnValue](./doublecolumnvalue-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="1f92f-107">The [DoubleColumnValue](./doublecolumnvalue-class.md) type exposes the following members.</span></span>
+<span data-ttu-id="56bc9-107">[DoubleColumnValue](./doublecolumnvalue-class.md)類型會公開下列成員。</span><span class="sxs-lookup"><span data-stu-id="56bc9-107">The [DoubleColumnValue](./doublecolumnvalue-class.md) type exposes the following members.</span></span>
 
-## <a name="constructors"></a><span data-ttu-id="1f92f-108">建構函式</span><span class="sxs-lookup"><span data-stu-id="1f92f-108">Constructors</span></span>
+## <a name="constructors"></a><span data-ttu-id="56bc9-108">建構函式</span><span class="sxs-lookup"><span data-stu-id="56bc9-108">Constructors</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="1f92f-109">名稱</span><span class="sxs-lookup"><span data-stu-id="1f92f-109">Name</span></span></th>
-<th><span data-ttu-id="1f92f-110">描述</span><span class="sxs-lookup"><span data-stu-id="1f92f-110">Description</span></span></th>
+<th><span data-ttu-id="56bc9-109">名稱</span><span class="sxs-lookup"><span data-stu-id="56bc9-109">Name</span></span></th>
+<th><span data-ttu-id="56bc9-110">描述</span><span class="sxs-lookup"><span data-stu-id="56bc9-110">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="1f92f-112"><a href="dn273974(v=exchg.10).md">DoubleColumnValue</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-112"><a href="dn273974(v=exchg.10).md">DoubleColumnValue</a></span></span></td>
+<td><span data-ttu-id="56bc9-112"><a href="dn273974(v=exchg.10).md">DoubleColumnValue</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-112"><a href="dn273974(v=exchg.10).md">DoubleColumnValue</a></span></span></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="1f92f-113">頁首</span><span class="sxs-lookup"><span data-stu-id="1f92f-113">Top</span></span>
+<span data-ttu-id="56bc9-113">頁首</span><span class="sxs-lookup"><span data-stu-id="56bc9-113">Top</span></span>
 
-## <a name="properties"></a><span data-ttu-id="1f92f-114">屬性</span><span class="sxs-lookup"><span data-stu-id="1f92f-114">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="56bc9-114">屬性</span><span class="sxs-lookup"><span data-stu-id="56bc9-114">Properties</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="1f92f-115">名稱</span><span class="sxs-lookup"><span data-stu-id="1f92f-115">Name</span></span></th>
-<th><span data-ttu-id="1f92f-116">描述</span><span class="sxs-lookup"><span data-stu-id="1f92f-116">Description</span></span></th>
+<th><span data-ttu-id="56bc9-115">名稱</span><span class="sxs-lookup"><span data-stu-id="56bc9-115">Name</span></span></th>
+<th><span data-ttu-id="56bc9-116">描述</span><span class="sxs-lookup"><span data-stu-id="56bc9-116">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="1f92f-118"><a href="dn334166(v=exchg.10).md">Columnid</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-118"><a href="dn334166(v=exchg.10).md">Columnid</a></span></span></td>
-<td><span data-ttu-id="1f92f-119">取得或設定要設定或取出的 columnid。</span><span class="sxs-lookup"><span data-stu-id="1f92f-119">Gets or sets the columnid to be set or retrieved.</span></span> <span data-ttu-id="1f92f-120"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-120">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-118"><a href="dn334166(v=exchg.10).md">Columnid</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-118"><a href="dn334166(v=exchg.10).md">Columnid</a></span></span></td>
+<td><span data-ttu-id="56bc9-119">取得或設定要設定或取出的 columnid。</span><span class="sxs-lookup"><span data-stu-id="56bc9-119">Gets or sets the columnid to be set or retrieved.</span></span> <span data-ttu-id="56bc9-120"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-120">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="1f92f-122"><a href="dn334212(v=exchg.10).md">錯誤</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-122"><a href="dn334212(v=exchg.10).md">Error</a></span></span></td>
-<td><span data-ttu-id="1f92f-123">取得藉由取得或設定此資料行所產生的警告。</span><span class="sxs-lookup"><span data-stu-id="1f92f-123">Gets the warning generated by retrieving or setting this column.</span></span> <span data-ttu-id="1f92f-124"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-124">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-122"><a href="dn334212(v=exchg.10).md">錯誤</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-122"><a href="dn334212(v=exchg.10).md">Error</a></span></span></td>
+<td><span data-ttu-id="56bc9-123">取得藉由取得或設定此資料行所產生的警告。</span><span class="sxs-lookup"><span data-stu-id="56bc9-123">Gets the warning generated by retrieving or setting this column.</span></span> <span data-ttu-id="56bc9-124"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-124">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="1f92f-126"><a href="dn334165(v=exchg.10).md">ItagSequence</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-126"><a href="dn334165(v=exchg.10).md">ItagSequence</a></span></span></td>
-<td><span data-ttu-id="1f92f-127">取得或設定資料行 itag 序列。</span><span class="sxs-lookup"><span data-stu-id="1f92f-127">Gets or sets the column itag sequence.</span></span> <span data-ttu-id="1f92f-128"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-128">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-126"><a href="dn334165(v=exchg.10).md">ItagSequence</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-126"><a href="dn334165(v=exchg.10).md">ItagSequence</a></span></span></td>
+<td><span data-ttu-id="56bc9-127">取得或設定資料行 itag 序列。</span><span class="sxs-lookup"><span data-stu-id="56bc9-127">Gets or sets the column itag sequence.</span></span> <span data-ttu-id="56bc9-128"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-128">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="1f92f-130"><a href="dn334225(v=exchg.10).md">長度</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-130"><a href="dn334225(v=exchg.10).md">Length</a></span></span></td>
-<td><span data-ttu-id="1f92f-131">取得資料行值的位元組長度，如果資料行是 null，則為零，否則會符合此固定大小資料行的大小。</span><span class="sxs-lookup"><span data-stu-id="1f92f-131">Gets the byte length of a column value, which is zero if column is null, otherwise it matches the Size for this fixed-size column.</span></span> <span data-ttu-id="1f92f-132"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-132">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-130"><a href="dn334225(v=exchg.10).md">長度</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-130"><a href="dn334225(v=exchg.10).md">Length</a></span></span></td>
+<td><span data-ttu-id="56bc9-131">取得資料行值的位元組長度，如果資料行是 null，則為零，否則會符合此固定大小資料行的大小。</span><span class="sxs-lookup"><span data-stu-id="56bc9-131">Gets the byte length of a column value, which is zero if column is null, otherwise it matches the Size for this fixed-size column.</span></span> <span data-ttu-id="56bc9-132"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-132">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="1f92f-134"><a href="dn334169(v=exchg.10).md">RetrieveGrbit</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-134"><a href="dn334169(v=exchg.10).md">RetrieveGrbit</a></span></span></td>
-<td><span data-ttu-id="1f92f-135">取得或設定資料行抓取選項。</span><span class="sxs-lookup"><span data-stu-id="1f92f-135">Gets or sets column retrieval options.</span></span> <span data-ttu-id="1f92f-136"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-136">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-134"><a href="dn334169(v=exchg.10).md">RetrieveGrbit</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-134"><a href="dn334169(v=exchg.10).md">RetrieveGrbit</a></span></span></td>
+<td><span data-ttu-id="56bc9-135">取得或設定資料行抓取選項。</span><span class="sxs-lookup"><span data-stu-id="56bc9-135">Gets or sets column retrieval options.</span></span> <span data-ttu-id="56bc9-136"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-136">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="1f92f-138"><a href="dn334215(v=exchg.10).md">SetGrbit</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-138"><a href="dn334215(v=exchg.10).md">SetGrbit</a></span></span></td>
-<td><span data-ttu-id="1f92f-139">取得或設定資料行更新選項。</span><span class="sxs-lookup"><span data-stu-id="1f92f-139">Gets or sets column update options.</span></span> <span data-ttu-id="1f92f-140"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-140">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-138"><a href="dn334215(v=exchg.10).md">SetGrbit</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-138"><a href="dn334215(v=exchg.10).md">SetGrbit</a></span></span></td>
+<td><span data-ttu-id="56bc9-139">取得或設定資料行更新選項。</span><span class="sxs-lookup"><span data-stu-id="56bc9-139">Gets or sets column update options.</span></span> <span data-ttu-id="56bc9-140"> (繼承自 <a href="dn334206(v=exchg.10).md">ColumnValue</a>。 ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-140">(Inherited from <a href="dn334206(v=exchg.10).md">ColumnValue</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="受保護的屬性" alt="Protected property" /></td>
-<td><span data-ttu-id="1f92f-142"><a href="dn273977(v=exchg.10).md">大小</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-142"><a href="dn273977(v=exchg.10).md">Size</a></span></span></td>
-<td><span data-ttu-id="1f92f-143">取得資料行中值的大小。</span><span class="sxs-lookup"><span data-stu-id="1f92f-143">Gets the size of the value in the column.</span></span> <span data-ttu-id="1f92f-144">這會針對可變大小的資料行傳回0， (即二進位和字串) 。</span><span class="sxs-lookup"><span data-stu-id="1f92f-144">This returns 0 for variable sized columns (i.e. binary and string).</span></span> <span data-ttu-id="1f92f-145"> (覆寫 <a href="dn334172(v=exchg.10).md">ColumnValue。大小</a>) </span><span class="sxs-lookup"><span data-stu-id="1f92f-145">(Overrides <a href="dn334172(v=exchg.10).md">ColumnValue.Size</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-142"><a href="dn273977(v=exchg.10).md">大小</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-142"><a href="dn273977(v=exchg.10).md">Size</a></span></span></td>
+<td><span data-ttu-id="56bc9-143">取得資料行中值的大小。</span><span class="sxs-lookup"><span data-stu-id="56bc9-143">Gets the size of the value in the column.</span></span> <span data-ttu-id="56bc9-144">這會針對可變大小的資料行傳回0， (即二進位和字串) 。</span><span class="sxs-lookup"><span data-stu-id="56bc9-144">This returns 0 for variable sized columns (i.e. binary and string).</span></span> <span data-ttu-id="56bc9-145"> (覆寫 <a href="dn334172(v=exchg.10).md">ColumnValue。大小</a>) </span><span class="sxs-lookup"><span data-stu-id="56bc9-145">(Overrides <a href="dn334172(v=exchg.10).md">ColumnValue.Size</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="1f92f-147"><a href="dn334180(v=exchg.10).md">值</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-147"><a href="dn334180(v=exchg.10).md">Value</a></span></span></td>
-<td><span data-ttu-id="1f92f-148">取得或設定結構中的值。</span><span class="sxs-lookup"><span data-stu-id="1f92f-148">Gets or sets the value in the struct.</span></span> <span data-ttu-id="1f92f-149"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-149">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-147"><a href="dn334180(v=exchg.10).md">值</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-147"><a href="dn334180(v=exchg.10).md">Value</a></span></span></td>
+<td><span data-ttu-id="56bc9-148">取得或設定結構中的值。</span><span class="sxs-lookup"><span data-stu-id="56bc9-148">Gets or sets the value in the struct.</span></span> <span data-ttu-id="56bc9-149"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-149">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="公用屬性" alt="Public property" /></td>
-<td><span data-ttu-id="1f92f-151"><a href="dn334226(v=exchg.10).md">ValueAsObject</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-151"><a href="dn334226(v=exchg.10).md">ValueAsObject</a></span></span></td>
-<td><span data-ttu-id="1f92f-152">取得資料行的最後一個設定或抓取值。</span><span class="sxs-lookup"><span data-stu-id="1f92f-152">Gets the last set or retrieved value of the column.</span></span> <span data-ttu-id="1f92f-153">此值會以泛型物件的形式傳回。</span><span class="sxs-lookup"><span data-stu-id="1f92f-153">The value is returned as a generic object.</span></span> <span data-ttu-id="1f92f-154"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-154">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-151"><a href="dn334226(v=exchg.10).md">ValueAsObject</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-151"><a href="dn334226(v=exchg.10).md">ValueAsObject</a></span></span></td>
+<td><span data-ttu-id="56bc9-152">取得資料行的最後一個設定或抓取值。</span><span class="sxs-lookup"><span data-stu-id="56bc9-152">Gets the last set or retrieved value of the column.</span></span> <span data-ttu-id="56bc9-153">此值會以泛型物件的形式傳回。</span><span class="sxs-lookup"><span data-stu-id="56bc9-153">The value is returned as a generic object.</span></span> <span data-ttu-id="56bc9-154"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-154">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="1f92f-155">頁首</span><span class="sxs-lookup"><span data-stu-id="1f92f-155">Top</span></span>
+<span data-ttu-id="56bc9-155">頁首</span><span class="sxs-lookup"><span data-stu-id="56bc9-155">Top</span></span>
 
-## <a name="methods"></a><span data-ttu-id="1f92f-156">方法</span><span class="sxs-lookup"><span data-stu-id="1f92f-156">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="56bc9-156">方法</span><span class="sxs-lookup"><span data-stu-id="56bc9-156">Methods</span></span>
 
 <table>
 <thead>
 <tr class="header">
 <th> </th>
-<th><span data-ttu-id="1f92f-157">名稱</span><span class="sxs-lookup"><span data-stu-id="1f92f-157">Name</span></span></th>
-<th><span data-ttu-id="1f92f-158">描述</span><span class="sxs-lookup"><span data-stu-id="1f92f-158">Description</span></span></th>
+<th><span data-ttu-id="56bc9-157">名稱</span><span class="sxs-lookup"><span data-stu-id="56bc9-157">Name</span></span></th>
+<th><span data-ttu-id="56bc9-158">描述</span><span class="sxs-lookup"><span data-stu-id="56bc9-158">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="受保護的方法" alt="Protected method" /></td>
-<td><span data-ttu-id="1f92f-160"><a href="dn334178(v=exchg.10).md">CheckDataCount</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-160"><a href="dn334178(v=exchg.10).md">CheckDataCount</a></span></span></td>
-<td><span data-ttu-id="1f92f-161">請確定已抓取的資料完全是結構所需的大小。</span><span class="sxs-lookup"><span data-stu-id="1f92f-161">Make sure the retrieved data is exactly the size needed for the structure.</span></span> <span data-ttu-id="1f92f-162">如果有不相符的，則會擲回例外狀況。</span><span class="sxs-lookup"><span data-stu-id="1f92f-162">An exception is thrown if there is a mismatch.</span></span> <span data-ttu-id="1f92f-163"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-163">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-160"><a href="dn334178(v=exchg.10).md">CheckDataCount</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-160"><a href="dn334178(v=exchg.10).md">CheckDataCount</a></span></span></td>
+<td><span data-ttu-id="56bc9-161">請確定已抓取的資料完全是結構所需的大小。</span><span class="sxs-lookup"><span data-stu-id="56bc9-161">Make sure the retrieved data is exactly the size needed for the structure.</span></span> <span data-ttu-id="56bc9-162">如果有不相符的，則會擲回例外狀況。</span><span class="sxs-lookup"><span data-stu-id="56bc9-162">An exception is thrown if there is a mismatch.</span></span> <span data-ttu-id="56bc9-163"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-163">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="1f92f-165"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">等於</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-165"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals</a></span></span></td>
-<td><span data-ttu-id="1f92f-166"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-166">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-165"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">等於</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-165"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals</a></span></span></td>
+<td><span data-ttu-id="56bc9-166"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-166">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="受保護的方法" alt="Protected method" /></td>
-<td><span data-ttu-id="1f92f-168"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">完成</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-168"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></span></span></td>
-<td><span data-ttu-id="1f92f-169"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-169">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-168"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">完成</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-168"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></span></span></td>
+<td><span data-ttu-id="56bc9-169"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-169">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="1f92f-171"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-171"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span></span></td>
-<td><span data-ttu-id="1f92f-172"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-172">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-171"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-171"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span></span></td>
+<td><span data-ttu-id="56bc9-172"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-172">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="1f92f-174"><a href="/dotnet/api/system.object.gettype#System_Object_GetType">GetType</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-174"><a href="/dotnet/api/system.object.gettype#System_Object_GetType">GetType</a></span></span></td>
-<td><span data-ttu-id="1f92f-175"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-175">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-174"><a href="/dotnet/api/system.object.gettype#System_Object_GetType">GetType</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-174"><a href="/dotnet/api/system.object.gettype#System_Object_GetType">GetType</a></span></span></td>
+<td><span data-ttu-id="56bc9-175"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-175">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="受保護的方法" alt="Protected method" /></td>
-<td><span data-ttu-id="1f92f-177"><a href="dn334203(v=exchg.10).md">GetValueFromBytes</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-177"><a href="dn334203(v=exchg.10).md">GetValueFromBytes</a></span></span></td>
-<td><span data-ttu-id="1f92f-178">從 ESENT 取出資料，將資料解碼，並設定 ColumnValue 物件中的值。</span><span class="sxs-lookup"><span data-stu-id="1f92f-178">Given data retrieved from ESENT, decode the data and set the value in the ColumnValue object.</span></span> <span data-ttu-id="1f92f-179"> (覆寫 <a href="dn334208(v=exchg.10).md">ColumnValue. GetValueFromBytes ( []，int32，int32，int32) </a>。 ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-179">(Overrides <a href="dn334208(v=exchg.10).md">ColumnValue.GetValueFromBytes([], Int32, Int32, Int32)</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-177"><a href="dn334203(v=exchg.10).md">GetValueFromBytes</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-177"><a href="dn334203(v=exchg.10).md">GetValueFromBytes</a></span></span></td>
+<td><span data-ttu-id="56bc9-178">從 ESENT 取出資料，將資料解碼，並設定 ColumnValue 物件中的值。</span><span class="sxs-lookup"><span data-stu-id="56bc9-178">Given data retrieved from ESENT, decode the data and set the value in the ColumnValue object.</span></span> <span data-ttu-id="56bc9-179"> (覆寫 <a href="dn334208(v=exchg.10).md">ColumnValue. GetValueFromBytes ( []，int32，int32，int32) </a>。 ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-179">(Overrides <a href="dn334208(v=exchg.10).md">ColumnValue.GetValueFromBytes([], Int32, Int32, Int32)</a>.)</span></span></td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="受保護的方法" alt="Protected method" /></td>
-<td><span data-ttu-id="1f92f-181"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-181"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></span></span></td>
-<td><span data-ttu-id="1f92f-182"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-182">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-181"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-181"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></span></span></td>
+<td><span data-ttu-id="56bc9-182"> (繼承自 <a href="/dotnet/api/system.object">Object</a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-182">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /></td>
-<td><span data-ttu-id="1f92f-184"><a href="dn334223(v=exchg.10).md">ToString</a></span><span class="sxs-lookup"><span data-stu-id="1f92f-184"><a href="dn334223(v=exchg.10).md">ToString</a></span></span></td>
-<td><span data-ttu-id="1f92f-185">取得這個物件的字串表示。</span><span class="sxs-lookup"><span data-stu-id="1f92f-185">Gets a string representation of this object.</span></span> <span data-ttu-id="1f92f-186"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="1f92f-186">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
+<td><span data-ttu-id="56bc9-184"><a href="dn334223(v=exchg.10).md">ToString</a></span><span class="sxs-lookup"><span data-stu-id="56bc9-184"><a href="dn334223(v=exchg.10).md">ToString</a></span></span></td>
+<td><span data-ttu-id="56bc9-185">取得這個物件的字串表示。</span><span class="sxs-lookup"><span data-stu-id="56bc9-185">Gets a string representation of this object.</span></span> <span data-ttu-id="56bc9-186"> (繼承自<a href="dn334171(v=exchg.10).md">ColumnValueOfStruct &lt; T &gt; </a>. ) </span><span class="sxs-lookup"><span data-stu-id="56bc9-186">(Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="1f92f-187">頁首</span><span class="sxs-lookup"><span data-stu-id="1f92f-187">Top</span></span>
+<span data-ttu-id="56bc9-187">頁首</span><span class="sxs-lookup"><span data-stu-id="56bc9-187">Top</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1f92f-188">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1f92f-188">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="56bc9-188">另請參閱</span><span class="sxs-lookup"><span data-stu-id="56bc9-188">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="1f92f-189">參考</span><span class="sxs-lookup"><span data-stu-id="1f92f-189">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="56bc9-189">參考</span><span class="sxs-lookup"><span data-stu-id="56bc9-189">Reference</span></span>
 
-[<span data-ttu-id="1f92f-190">DoubleColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="1f92f-190">DoubleColumnValue class</span></span>](./doublecolumnvalue-class.md)
+[<span data-ttu-id="56bc9-190">DoubleColumnValue 類別</span><span class="sxs-lookup"><span data-stu-id="56bc9-190">DoubleColumnValue class</span></span>](./doublecolumnvalue-class.md)
 
-[<span data-ttu-id="1f92f-191">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="1f92f-191">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="56bc9-191">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="56bc9-191">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
