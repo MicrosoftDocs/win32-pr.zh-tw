@@ -1,0 +1,3776 @@
+- name: Windows Installer
+  href: windows-installer-portal.md
+  items:
+    - name: Windows Installer 檔的藍圖
+      href: roadmap-to-windows-installer-documentation.md
+      items:
+        - name: Windows Installer 檔的以角色為基礎的指南
+          href: role-based-guide-to-windows-installer-documentation.md
+        - name: Windows Installer 資訊的其他來源
+          href: other-sources-of-windows-installer-information.md
+        - name: Windows Installer 最佳作法
+          href: windows-installer-best-practices.md
+    - name: Windows Installer 的新功能
+      href: what-s-new-in-windows-installer.md
+      items:
+        - name: Windows Installer 5.0 的新功能
+          href: what-s-new-in-windows-installer-5-0.md
+        - name: Windows Installer 4.5 中不支援
+          href: not-supported-in-windows-installer-4-5.md
+        - name: Windows Installer 4.0 中不支援
+          href: not-supported-in-windows-installer-4-0.md
+        - name: Windows Installer 3.1 中不支援
+          href: not-supported-in-windows-installer-version-3-1.md
+        - name: Windows Installer 3.0 中不支援
+          href: not-supported-in-windows-installer-version-3-0.md
+        - name: Windows Installer 2.0 中不支援
+          href: not-supported-in-windows-installer-version-2-0.md
+    - name: 關於 Windows Installer
+      href: about-windows-installer.md
+      items:
+        - name: Windows Installer 總覽
+          href: overview-of-windows-installer.md
+          items:
+            - name: 安裝套件
+              href: installation-package.md
+            - name: 元件和功能
+              href: components-and-features.md
+              items:
+                - name: Windows Installer 元件
+                  href: windows-installer-components.md
+                - name: Windows Installer 功能
+                  href: windows-installer-features.md
+            - name: 安裝機制
+              href: installation-mechanism.md
+            - name: 元件管理
+              href: component-management.md
+            - name: 廣告
+              href: advertisement.md
+              items:
+                - name: 廣告的平臺支援
+                  href: platform-support-of-advertisement.md
+            - name: 隨選安裝
+              href: installation-on-demand.md
+            - name: 災害復原
+              href: resiliency.md
+            - name: 自訂
+              href: customization.md
+        - name: 系統管理安裝
+          href: administrative-installation.md
+        - name: 復原安裝
+          href: rollback-installation.md
+        - name: 維護安裝
+          href: maintenance-installation.md
+        - name: Windows Installer 副檔名
+          href: windows-installer-file-extensions.md
+        - name: 命令列選項
+          href: command-line-options.md
+          items:
+            - name: 標準安裝程式命令列選項
+              href: standard-installer-command-line-options.md
+        - name: 系統重新開機
+          href: system-reboots.md
+          items:
+            - name: 重新開機要求的記錄
+              href: logging-of-reboot-requests.md
+        - name: 系統原則
+          href: system-policy.md
+          items:
+            - name: 使用者原則
+              href: user-policies.md
+              items:
+                - name: AlwaysInstallElevated
+                  href: alwaysinstallelevated.md
+                - name: DisableMedia
+                  href: disablemedia.md
+                - name: DisableRollback
+                  href: disablerollback.md
+                - name: SearchOrder
+                  href: searchorder.md
+                - name: TransformsAtSource 原則
+                  href: transformsatsource-policy.md
+            - name: 電腦原則
+              href: machine-policies.md
+              items:
+                - name: AllowLockdownBrowse
+                  href: allowlockdownbrowse.md
+                - name: AllowLockdownMedia
+                  href: allowlockdownmedia.md
+                - name: AllowLockdownPatch
+                  href: allowlockdownpatch.md
+                - name: 偵錯
+                  href: debug.md
+                - name: DisableAutomaticApplicationShutdown
+                  href: disableautomaticapplicationshutdown.md
+                - name: DisableBrowse
+                  href: disablebrowse.md
+                - name: DisableFlyWeightPatching
+                  href: disableflyweightpatching.md
+                - name: DisableLoggingFromPackage
+                  href: disableloggingfrompackage.md
+                - name: DisableLUAPatching
+                  href: disableluapatching.md
+                - name: DisableMSI
+                  href: disablemsi.md
+                - name: DisablePatch
+                  href: disablepatch.md
+                - name: DisablePatchUninstall
+                  href: disablepatchuninstall.md
+                - name: DisableSharedComponent
+                  href: disablesharedcomponent.md
+                - name: DisableUserInstalls
+                  href: disableuserinstalls.md
+                - name: EnableAdminTSRemote
+                  href: enableadmintsremote.md
+                - name: EnableUserControl
+                  href: enableusercontrol.md
+                - name: EnforceUpgradeComponentRules
+                  href: enforceupgradecomponentrules.md
+                - name: LimitSystemRestoreCheckpointing
+                  href: limitsystemrestorecheckpointing.md
+                - name: 記錄
+                  href: logging.md
+                - name: MaxPatchCacheSize
+                  href: maxpatchcachesize.md
+                - name: MsiDisableEmbeddedUI
+                  href: msidisableembeddedui.md
+                - name: SafeForScripting
+                  href: safeforscripting.md
+                - name: TransformsSecure 原則
+                  href: transformssecure-policy.md
+                - name: WinHttpAutoLogonLevel
+                  href: winhttpautologonlevel.md
+        - name: 來源復原
+          href: source-resiliency.md
+          items:
+            - name: 來源復原原則
+              href: source-resiliency-policy-windows-installer-version-2-0.md
+        - name: 使用 Windows Installer 和 Windows 資源保護
+          href: windows-resource-protection-on-windows-vista.md
+        - name: 系統還原點和 Windows Installer
+          href: system-restore-points-and-the-windows-installer.md
+        - name: 檔案版本控制規則
+          href: file-versioning-rules.md
+          items:
+            - name: 預設檔案版本控制
+              href: default-file-versioning.md
+              items:
+                - name: 這兩個檔案都有版本
+                  href: both-files-have-a-version.md
+                - name: 這兩個檔案都沒有版本
+                  href: neither-file-has-a-version.md
+                - name: 這兩個檔案都沒有具有檔案雜湊檢查的版本
+                  href: neither-file-has-a-version-with-file-hash-check.md
+                - name: 一個檔案有版本
+                  href: one-file-has-a-version.md
+        - name: 產品代碼
+          href: product-codes.md
+        - name: 封裝碼
+          href: package-codes.md
+        - name: 合併和轉換
+          href: merges-and-transforms.md
+        - name: 合格元件
+          href: qualified-components.md
+        - name: Windows Installer 記錄
+          href: windows-installer-logging.md
+          items:
+            - name: 一般記錄
+              href: normal-logging.md
+            - name: 事件記錄
+              href: event-logging.md
+            - name: 動作傳回值的記錄
+              href: logging-of-action-return-values.md
+            - name: 防止機密資訊寫入記錄檔
+              href: preventing-confidential-information-from-being-written-into-the-log-file.md
+        - name: 隨附檔案
+          href: companion-files.md
+        - name: 隔離的元件
+          href: isolated-components.md
+          items:
+            - name: 獨立元件的安裝
+              href: installation-of-isolated-components.md
+            - name: 重新安裝隔離的元件
+              href: reinstallation-of-isolated-components.md
+            - name: 移除隔離的元件
+              href: removal-of-isolated-components.md
+        - name: 安裝內容
+          href: installation-context.md
+    - name: 使用 Windows Installer
+      href: using-windows-installer.md
+      items:
+        - name: 將應用程式組織成元件
+          href: organizing-applications-into-components.md
+          items:
+            - name: 變更元件程式碼
+              href: changing-the-component-code.md
+            - name: 如果元件規則中斷，會發生什麼事？
+              href: what-happens-if-the-component-rules-are-broken.md
+            - name: 定義安裝程式元件
+              href: defining-installer-components.md
+        - name: 從網際網路下載安裝
+          href: downloading-an-installation-from-the-internet.md
+        - name: Multiple-Package 安裝
+          href: multiple-package-installations.md
+        - name: 並行安裝
+          href: concurrent-installations.md
+          items:
+            - name: 自訂動作類型7
+              href: custom-action-type-7.md
+            - name: 自訂動作類型23
+              href: custom-action-type-23.md
+            - name: 自訂動作類型39
+              href: custom-action-type-39.md
+            - name: ICE11
+              href: ice11.md
+            - name: _MSIExecute Mutex
+              href: '-msiexecute-mutex.md'
+            - name: __MsiPromptForCD Mutex
+              href: '--msipromptforcd-mutex.md'
+        - name: 使用 Windows Installer 設定新增/移除程式
+          href: configuring-add-remove-programs-with-windows-installer.md
+        - name: 使用封包和壓縮的來源
+          href: using-cabinets-and-compressed-sources.md
+          items:
+            - name: 壓縮和未壓縮的來源
+              href: compressed-and-uncompressed-sources.md
+            - name: 封包檔
+              href: cabinet-files.md
+            - name: 在安裝中包含封包檔
+              href: including-a-cabinet-file-in-an-installation.md
+            - name: 排序封包、檔案資料表和媒體資料表中的檔案序號
+              href: ordering-file-sequence-numbers-in-a-cabinet-file-table-and-media-table.md
+        - name: 使用限定元件
+          href: using-qualified-components.md
+        - name: 使用可轉移的元件
+          href: using-transitive-components.md
+        - name: 當地語系化 Windows Installer 套件
+          href: localizing-a-windows-installer-package.md
+          items:
+            - name: '程式字碼頁處理 (Windows Installer) '
+              href: code-page-handling-windows-installer-.md
+              items:
+                - name: 匯入和匯出資料表的字碼頁處理
+                  href: code-page-handling-of-imported-and-exported-tables.md
+                - name: 參數字串的字碼頁處理
+                  href: code-page-handling-of-parameter-strings.md
+            - name: 使用中性字碼頁建立資料庫
+              href: creating-a-database-with-a-neutral-code-page.md
+            - name: 將錯誤和 ActionText 表當地語系化
+              href: localizing-the-error-and-actiontext-tables.md
+            - name: 判斷安裝資料庫的字碼頁
+              href: determining-an-installation-database-s-code-page.md
+            - name: 將對話方塊所顯示的語言當地語系化
+              href: localizing-the-language-displayed-by-dialogs.md
+            - name: 設定資料庫的字碼頁
+              href: setting-the-code-page-of-a-database.md
+            - name: 準備 Windows Installer 套件以進行當地語系化
+              href: preparing-a-windows-installer-package-for-localization.md
+        - name: 搜尋現有的應用程式、檔案、登錄專案或 .ini 檔案專案
+          href: searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md
+          items:
+            - name: 搜尋檔案的所有固定磁片磁碟機
+              href: searching-all-fixed-drives-for-a-file.md
+            - name: 搜尋特定位置中的檔案
+              href: searching-for-a-file-in-a-specific-location.md
+            - name: 搜尋目錄和目錄中的檔案
+              href: searching-for-a-directory-and-a-file-in-the-directory.md
+            - name: 搜尋檔案並建立保存檔案路徑的屬性
+              href: searching-for-a-file-and-creating-a-property-holding-the-file-s-path.md
+            - name: 搜尋登錄專案，並建立保存登錄值的屬性
+              href: searching-for-a-registry-entry-and-creating-a-property-holding-the-value-of-the-registry.md
+        - name: 撰寫大型封裝
+          href: authoring-a-large-package.md
+        - name: 判斷安裝內容
+          href: determining-installation-context.md
+        - name: 檢查功能、元件、檔案的安裝
+          href: checking-the-installation-of-features-components-files.md
+        - name: 安裝期間的 CRC 檢查
+          href: crc-checking-during-an-installation.md
+        - name: 安裝永久元件、檔案、字型、登錄機碼
+          href: installing-permanent-components-files-fonts-registry-keys.md
+        - name: 移除擱置的檔案
+          href: removing-stranded-files.md
+        - name: 搜尋中斷的功能或元件
+          href: searching-for-a-broken-feature-or-component.md
+        - name: 取代現有的檔案
+          href: replacing-existing-files.md
+        - name: 編輯安裝程式快捷方式
+          href: editing-installer-shortcuts.md
+        - name: 安裝多個產品和修補程式實例
+          href: installing-multiple-instances-of-products-and-patches.md
+          items:
+            - name: 使用實例轉換撰寫多個實例
+              href: authoring-multiple-instances-with-instance-transforms.md
+            - name: 使用實例轉換安裝多個實例
+              href: installing-multiple-instances-with-instance-transforms.md
+        - name: 使用 Windows Installer 與終端機伺服器
+          href: using-windows-installer-with-a-terminal-server.md
+        - name: 控制特徵選取狀態
+          href: controlling-feature-selection-states.md
+        - name: 撰寫安全安裝的指導方針
+          href: guidelines-for-authoring-secure-installations.md
+          items:
+            - name: 保護自訂動作的指導方針
+              href: guidelines-for-securing-custom-actions.md
+            - name: 在鎖定的電腦上保護套件安全的指導方針
+              href: guidelines-for-securing-packages-on-locked-down-computers.md
+            - name: 保護資源
+              href: securing-resources-.md
+        - name: 使用隔離的元件
+          href: using-isolated-components.md
+          items:
+            - name: 將 COM 元件安裝至私用位置
+              href: installing-a-com-component-to-a-private-location.md
+            - name: 將非 COM 元件安裝至私用位置
+              href: installing-a-non-com-component-to-a-private-location.md
+            - name: 使現有封裝中的 COM 元件成為私用
+              href: make-a-com-component-in-an-existing-package-private.md
+            - name: 將現有封裝中的非 COM 元件設為私用
+              href: make-a-non-com-component-in-an-existing-package-private.md
+        - name: 判斷 Windows Installer 版本
+          href: determining-the-windows-installer-version.md
+        - name: 安裝具有 Windows Installer 的 COM + 應用程式
+          href: installing-a-com--application-with-the-windows-installer.md
+        - name: 在安裝或移除元件時新增或移除登錄機碼
+          href: adding-or-removing-registry-keys-on-the-installation-or-removal-of-components.md
+        - name: 新增和移除應用程式，而不在登錄中保留任何追蹤
+          href: adding-and-removing-an-application-and-leaving-no-trace-in-the-registry.md
+        - name: 減少 .msi 檔案的大小
+          href: reducing-the-size-of-an--msi-file.md
+        - name: 變更目錄的目標位置
+          href: changing-the-target-location-for-a-directory.md
+        - name: '在安裝期間隱藏 [取消] 按鈕'
+          href: hiding-the-cancel-button-during-an-installation.md
+        - name: 搭配使用 Windows Installer 與 UAC
+          href: using-windows-installer-with-uac.md
+          items:
+            - name: 封裝的指導方針
+              href: guidelines-for-packages.md
+            - name: 在不含 UAC 對話方塊的情況下撰寫套件
+              href: authoring-packages-without-the-uac-dialog-box.md
+            - name: 以較高的許可權安裝非系統管理員的封裝
+              href: installing-a-package-with-elevated-privileges-for-a-non-admin.md
+            - name: 廣告以較高的許可權安裝的 Per-User 應用程式
+              href: advertising-a-per-user-application-to-be-installed-with-elevated-privileges.md
+        - name: 搭配使用 Windows Installer 與重新開機管理員
+          href: using-windows-installer-with-restart-manager.md
+          items:
+            - name: 搭配外部 UI 使用重新開機管理員
+              href: using-restart-manager-with-an-external-ui-.md
+        - name: 搭配使用 Windows Installer 與 WMI
+          href: using-windows-installer-with-wmi.md
+        - name: 列舉元件
+          href: enumerating-components-.md
+        - name: 使用服務設定
+          href: using-services-configuration.md
+        - name: 單一套件撰寫
+          href: single-package-authoring.md
+    - name: Windows Installer 指南
+      href: windows-installer-guide.md
+      items:
+        - name: 數位簽章和 Windows Installer
+          href: digital-signatures-and-windows-installer.md
+          items:
+            - name: 數位簽章和外部封包檔
+              href: digital-signatures-and-external-cabinet-files.md
+            - name: Windows Installer 和軟體限制原則
+              href: windows-installer-and-software-restriction-policy.md
+            - name: 撰寫經過完整驗證的已簽署安裝
+              href: authoring-a-fully-verified-signed-installation.md
+              items:
+                - name: 使用自動化撰寫經過完整驗證的已簽署安裝
+                  href: authoring-a-fully-verified-signed-installation-using-automation.md
+        - name: 組件
+          href: assemblies.md
+          items:
+            - name: 將元件加入封裝中
+              href: adding-assemblies-to-a-package.md
+            - name: 安裝和移除元件
+              href: installing-and-removing-assemblies.md
+              items:
+                - name: Win32 元件的安裝
+                  href: installation-of-win32-assemblies.md
+                  items:
+                    - name: 共用組件
+                      href: shared-assemblies.md
+                    - name: 私用組件
+                      href: private-assemblies.md
+                    - name: 並存元件
+                      href: side-by-side-assemblies.md
+                    - name: 在 Windows XP 上安裝適用于並存共用的 Win32 元件
+                      href: installing-win32-assemblies-for-side-by-side-sharing-on-windows-xp.md
+                    - name: 在 Windows XP 上安裝 Win32 元件以私用應用程式
+                      href: installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp.md
+                - name: Common Language Runtime 元件的安裝
+                  href: installation-of-common-language-runtime-assemblies.md
+                  items:
+                    - name: 將元件安裝到全域組件快取
+                      href: installation-of-assemblies-to-the-global-assembly-cache.md
+                    - name: 全域組件快取中的元件回復
+                      href: rollback-of-assemblies-in-the-global-assembly-cache.md
+                    - name: 從全域組件快取移除元件
+                      href: removal-of-assemblies-from-the-global-assembly-cache.md
+            - name: 更新組件
+              href: updating-assemblies.md
+            - name: Common Language Runtime 元件的重新安裝模式
+              href: reinstallation-modes-of-common-language-runtime-assemblies.md
+            - name: Windows Installer 所寫入的元件登錄機碼
+              href: assembly-registry-keys-written-by-windows-installer-.md
+        - name: 使用者介面
+          href: user-interface.md
+          items:
+            - name: 關於消費者介面
+              href: about-the-user-interface.md
+              items:
+                - name: 消費者介面架構
+                  href: user-interface-schema.md
+                - name: 對話方塊總覽
+                  href: dialog-box-overview.md
+                - name: 控制項概觀
+                  href: controls-overview.md
+                - name: ControlEvent 總覽
+                  href: controlevent-overview.md
+                - name: 協助工具選項
+                  href: accessibility.md
+                  items:
+                    - name: 在選項按鈕中加入額外的文字
+                      href: adding-extra-text-to-radio-buttons.md
+                - name: 消費者介面 Wizard 行為
+                  href: user-interface-wizard-behavior.md
+                - name: 消費者介面層級
+                  href: user-interface-levels.md
+            - name: 使用使用者介面
+              href: using-the-user-interface.md
+              items:
+                - name: 加入控制項和文字
+                  href: adding-controls-and-text.md
+                - name: 撰寫 ProgressBar 控制項
+                  href: authoring-a-progressbar-control.md
+                - name: 撰寫磁片提示訊息
+                  href: authoring-disk-prompt-messages.md
+                - name: 撰寫條件，請稍候 .。。訊息方塊
+                  href: authoring-a-conditional-please-wait-------message-box.md
+                - name: 加入儲存在屬性中的文字
+                  href: adding-text-stored-in-a-property.md
+                - name: 預覽消費者介面
+                  href: previewing-the-user-interface.md
+                - name: 使用 MsiSetExternalUIRecord 監視安裝
+                  href: monitoring-an-installation-using-msisetexternaluirecord.md
+                - name: 使用 MsiSetExternalUI 監視安裝
+                  href: monitoring-an-installation-using-msisetexternalui.md
+                  items:
+                    - name: 使用 MsiSetExternalUI 處理進度訊息
+                      href: handling-progress-messages-using-msisetexternalui.md
+                    - name: 從外部消費者介面處理常式傳回值
+                      href: returning-values-from-an-external-user-interface-handler.md
+                    - name: 剖析 Windows Installer 訊息
+                      href: parsing-windows-installer-messages.md
+                - name: 使用 MsiProcessMessage 將訊息傳送至 Windows Installer
+                  href: sending-messages-to-windows-installer-using-msiprocessmessage.md
+                - name: 在非強制回應對話方塊上顯示公告欄
+                  href: displaying-billboards-on-a-modeless-dialog.md
+                - name: 使用內嵌 UI
+                  href: using-an-embedded-ui.md
+            - name: 使用者介面參考
+              href: user-interface-reference.md
+              items:
+                - name: 安裝程式單位
+                  href: installer-units.md
+                - name: 對話方塊
+                  href: dialog-boxes.md
+                  items:
+                    - name: 流覽對話方塊
+                      href: browse-dialog.md
+                    - name: 取消對話方塊
+                      href: cancel-dialog.md
+                    - name: DiskCost 對話方塊
+                      href: diskcost-dialog.md
+                    - name: 錯誤對話方塊
+                      href: error-dialog.md
+                    - name: 結束對話
+                      href: exit-dialog.md
+                    - name: FatalError 對話方塊
+                      href: fatalerror-dialog.md
+                    - name: FilesInUse 對話方塊
+                      href: filesinuse-dialog.md
+                    - name: Firstrun.cmd 對話方塊
+                      href: firstrun-dialog.md
+                    - name: LicenseAgreement 對話方塊
+                      href: licenseagreement-dialog.md
+                    - name: MsiRMFilesInUse 對話方塊
+                      href: msirmfilesinuse-dialog.md
+                    - name: 選取對話方塊
+                      href: selection-dialog.md
+                    - name: UserExit 對話方塊
+                      href: userexit-dialog.md
+                - name: 對話方塊樣式位
+                  href: dialog-style-bits.md
+                  items:
+                    - name: 雙向對話樣式位
+                      href: bidi-dialog-style-bit.md
+                    - name: 錯誤對話方塊樣式位
+                      href: error-dialog-style-bit.md
+                    - name: KeepModeless 對話方塊樣式位
+                      href: keepmodeless-dialog-style-bit.md
+                    - name: LeftScroll 對話方塊樣式位
+                      href: leftscroll-dialog-style-bit.md
+                    - name: 最小化對話方塊樣式位
+                      href: minimize-dialog-style-bit.md
+                    - name: 強制回應對話方塊樣式位
+                      href: modal-dialog-style-bit.md
+                    - name: RightAligned 對話方塊樣式位
+                      href: rightaligned-dialog-style-bit.md
+                    - name: RTLRO 對話方塊樣式位
+                      href: rtlro-dialog-style-bit.md
+                    - name: SysModal 對話方塊樣式位
+                      href: sysmodal-dialog-style-bit.md
+                    - name: TrackDiskSpace 對話方塊樣式位
+                      href: trackdiskspace-dialog-style-bit.md
+                    - name: UseCustomPalette 對話方塊樣式位
+                      href: usecustompalette-dialog-style-bit.md
+                    - name: 可見的對話方塊樣式位
+                      href: visible-dialog-style-bit.md
+                - name: 控制項
+                  href: controls.md
+                  items:
+                    - name: 佈告欄控制項
+                      href: billboard-control.md
+                    - name: 點陣圖控制項
+                      href: bitmap-control.md
+                    - name: CheckBox 控制項
+                      href: checkbox-control.md
+                    - name: ComboBox 控制項
+                      href: combobox-control.md
+                    - name: DirectoryCombo 控制項
+                      href: directorycombo-control.md
+                    - name: DirectoryList 控制項
+                      href: directorylist-control.md
+                    - name: 編輯控制項
+                      href: edit-control.md
+                    - name: GroupBox 控制項
+                      href: groupbox-control.md
+                    - name: 超連結控制項
+                      href: hyperlink-control.md
+                    - name: 圖示控制項
+                      href: icon-control.md
+                    - name: 線條控制項
+                      href: line-control.md
+                    - name: ListBox 控制項
+                      href: listbox-control.md
+                    - name: ListView 控制項
+                      href: listview-control.md
+                    - name: MaskedEdit 控制項
+                      href: maskededit-control.md
+                    - name: PathEdit 控制項
+                      href: pathedit-control.md
+                    - name: ProgressBar 控制項
+                      href: progressbar-control.md
+                    - name: 按鈕控制項
+                      href: pushbutton-control.md
+                    - name: RadioButtonGroup 控制項
+                      href: radiobuttongroup-control.md
+                    - name: ScrollableText 控制項
+                      href: scrollabletext-control.md
+                    - name: SelectionTree 控制項
+                      href: selectiontree-control.md
+                    - name: Text Control
+                      href: text-control.md
+                    - name: VolumeCostList 控制項
+                      href: volumecostlist-control.md
+                    - name: VolumeSelectCombo 控制項
+                      href: volumeselectcombo-control.md
+                - name: 控制項屬性
+                  href: control-attributes.md
+                  items:
+                    - name: 雙向控制項屬性
+                      href: bidi-control-attribute.md
+                    - name: BillboardName 控制項屬性
+                      href: billboardname-control-attribute.md
+                    - name: Bitmap 控制項屬性
+                      href: bitmap-control-attribute.md
+                    - name: CDROMVolume 控制項屬性
+                      href: cdromvolume-control-attribute.md
+                    - name: ComboList 控制項屬性
+                      href: combolist-control-attribute.md
+                    - name: ControlShowRollbackCost 控制項屬性
+                      href: controlshowrollbackcost-control-attribute.md
+                    - name: 啟用的控制項屬性
+                      href: enabled-control-attribute.md
+                    - name: ElevationShield 屬性
+                      href: elevationshield-attribute.md
+                    - name: FixedSize 控制項屬性
+                      href: fixedsize-control-attribute.md
+                    - name: FixedVolume 控制項屬性
+                      href: fixedvolume-control-attribute.md
+                    - name: FloppyVolume 控制項屬性
+                      href: floppyvolume-control-attribute.md
+                    - name: FormatSize 控制項屬性
+                      href: formatsize-control-attribute.md
+                    - name: HasBorder 控制項屬性
+                      href: hasborder-control-attribute.md
+                    - name: Icon 控制項屬性
+                      href: icon-control-attribute.md
+                    - name: IconSize 控制項屬性
+                      href: iconsize-control-attribute.md
+                    - name: 間接控制屬性
+                      href: indirect-control-attribute.md
+                    - name: IndirectPropertyName 控制項屬性
+                      href: indirectpropertyname-control-attribute.md
+                    - name: 整數控制項屬性
+                      href: integer-control-attribute.md
+                    - name: LeftScroll 控制項屬性
+                      href: leftscroll-control-attribute.md
+                    - name: 多行控制項屬性
+                      href: multiline-control-attribute.md
+                    - name: NoPrefix 控制項屬性
+                      href: noprefix-control-attribute.md
+                    - name: NoWrap 控制項屬性
+                      href: nowrap-control-attribute.md
+                    - name: 密碼控制屬性
+                      href: password-control-attribute.md
+                    - name: Position 控制項屬性
+                      href: position-control-attribute.md
+                    - name: 進度控制項屬性
+                      href: progress-control-attribute.md
+                    - name: Progress95 控制項屬性
+                      href: progress95-control-attribute.md
+                    - name: PropertyName 控制項屬性
+                      href: propertyname-control-attribute.md
+                    - name: PropertyValue 控制項屬性
+                      href: propertyvalue-control-attribute.md
+                    - name: PushLike 控制項屬性
+                      href: pushlike-control-attribute.md
+                    - name: RAMDiskVolume 控制項屬性
+                      href: ramdiskvolume-control-attribute.md
+                    - name: RemoteVolume 控制項屬性
+                      href: remotevolume-control-attribute.md
+                    - name: RemovableVolume 控制項屬性
+                      href: removablevolume-control-attribute.md
+                    - name: RightAligned 控制項屬性
+                      href: rightaligned-control-attribute.md
+                    - name: RTLRO 控制項屬性
+                      href: rtlro-control-attribute.md
+                    - name: 排序的控制項屬性
+                      href: sorted-control-attribute.md
+                    - name: 凹陷控制項屬性
+                      href: sunken-control-attribute.md
+                    - name: 文字控制項屬性
+                      href: text-control-attribute.md
+                    - name: TimeRemaining 控制項屬性
+                      href: timeremaining-control-attribute.md
+                    - name: 透明控制項屬性
+                      href: transparent-control-attribute.md
+                    - name: UsersLanguage 控制項屬性
+                      href: userslanguage-control-attribute.md
+                    - name: Visible 控制項屬性
+                      href: visible-control-attribute.md
+                - name: 控制項事件
+                  href: control-events.md
+                  items:
+                    - name: ActionData ControlEvent
+                      href: actiondata-controlevent.md
+                    - name: ActionText ControlEvent
+                      href: actiontext-controlevent.md
+                    - name: AddLocal ControlEvent
+                      href: addlocal-controlevent.md
+                    - name: AddSource ControlEvent
+                      href: addsource-controlevent.md
+                    - name: CheckExistingTargetPath ControlEvent
+                      href: checkexistingtargetpath-controlevent.md
+                    - name: CheckTargetPath ControlEvent
+                      href: checktargetpath-controlevent.md
+                    - name: IgnoreChange ControlEvent
+                      href: ignorechange-controlevent.md
+                    - name: DirectoryListNew ControlEvent
+                      href: directorylistnew-controlevent.md
+                    - name: DirectoryListOpen ControlEvent
+                      href: directorylistopen-controlevent.md
+                    - name: DirectoryListUp ControlEvent
+                      href: directorylistup-controlevent.md
+                    - name: Dataadapter.doaction ControlEvent
+                      href: doaction-controlevent.md
+                    - name: EnableRollback ControlEvent
+                      href: enablerollback-controlevent.md
+                    - name: EndDialog ControlEvent
+                      href: enddialog-controlevent.md
+                    - name: MsiLaunchApp ControlEvent
+                      href: msilaunchapp-controlevent.md
+                    - name: MsiPrint ControlEvent
+                      href: msiprint-controlevent.md
+                    - name: NewDialog ControlEvent
+                      href: newdialog-controlevent.md
+                    - name: 重新安裝 ControlEvent
+                      href: reinstall-controlevent.md
+                    - name: ReinstallMode ControlEvent
+                      href: reinstallmode-controlevent.md
+                    - name: 移除 ControlEvent
+                      href: remove-controlevent.md
+                    - name: 重設 ControlEvent
+                      href: reset-controlevent.md
+                    - name: RmShutdownAndRestart ControlEvent
+                      href: rmshutdownandrestart-controlevent.md
+                    - name: ScriptInProgress ControlEvent
+                      href: scriptinprogress-controlevent.md
+                    - name: SelectionAction ControlEvent
+                      href: selectionaction-controlevent.md
+                    - name: SelectionBrowse ControlEvent
+                      href: selectionbrowse-controlevent.md
+                    - name: SelectionDescription ControlEvent
+                      href: selectiondescription-controlevent.md
+                    - name: SelectionNoItems ControlEvent
+                      href: selectionnoitems-controlevent.md
+                    - name: SelectionPath ControlEvent
+                      href: selectionpath-controlevent.md
+                    - name: SelectionPathOn ControlEvent
+                      href: selectionpathon-controlevent.md
+                    - name: SelectionSize ControlEvent
+                      href: selectionsize-controlevent.md
+                    - name: SetInstallLevel ControlEvent
+                      href: setinstalllevel-controlevent.md
+                    - name: SetProgress ControlEvent
+                      href: setprogress-controlevent.md
+                    - name: SetProperty ControlEvent
+                      href: setproperty-controlevent.md
+                    - name: SetTargetPath ControlEvent
+                      href: settargetpath-controlevent.md
+                    - name: SpawnDialog ControlEvent
+                      href: spawndialog-controlevent.md
+                    - name: SpawnWaitDialog ControlEvent
+                      href: spawnwaitdialog-controlevent.md
+                    - name: TimeRemaining ControlEvent
+                      href: timeremaining-controlevent.md
+                    - name: ValidateProductID ControlEvent
+                      href: validateproductid-controlevent.md
+        - name: 標準動作
+          href: standard-actions.md
+          items:
+            - name: 關於標準動作
+              href: about-standard-actions.md
+              items:
+                - name: 動作執行順序
+                  href: action-execution-order.md
+                - name: 具有排序限制的動作
+                  href: actions-with-sequencing-restrictions.md
+                - name: 沒有排序限制的動作
+                  href: actions-without-sequencing-restrictions.md
+            - name: 使用標準動作
+              href: using-standard-actions.md
+              items:
+                - name: 發佈產品、功能和元件
+                  href: publishing-products-features-and-components.md
+                - name: 檔案搜尋
+                  href: file-searching.md
+                - name: 檔案成本
+                  href: file-costing.md
+                - name: 檔案安裝
+                  href: file-installation.md
+                - name: 修改登錄
+                  href: modifying-the-registry.md
+                - name: 執行動作
+                  href: running-actions.md
+            - name: 標準動作參考
+              href: standard-actions-reference.md
+              items:
+                - name: 管理動作
+                  href: admin-action.md
+                - name: 通告動作
+                  href: advertise-action.md
+                - name: AllocateRegistrySpace 動作
+                  href: allocateregistryspace-action.md
+                - name: AppSearch 動作
+                  href: appsearch-action.md
+                - name: BindImage 動作
+                  href: bindimage-action.md
+                - name: CCPSearch 動作
+                  href: ccpsearch-action.md
+                - name: CostFinalize 動作
+                  href: costfinalize-action.md
+                - name: CostInitialize 動作
+                  href: costinitialize-action.md
+                - name: CreateFolders 動作
+                  href: createfolders-action.md
+                - name: CreateShortcuts 動作
+                  href: createshortcuts-action.md
+                - name: DeleteServices 動作
+                  href: deleteservices-action.md
+                - name: DisableRollback 動作
+                  href: disablerollback-action.md
+                - name: DuplicateFiles 動作
+                  href: duplicatefiles-action.md
+                - name: ExecuteAction 動作
+                  href: executeaction-action.md
+                - name: FileCost 動作
+                  href: filecost-action.md
+                - name: FindRelatedProducts 動作
+                  href: findrelatedproducts-action.md
+                - name: ForceReboot 動作
+                  href: forcereboot-action.md
+                - name: 安裝動作
+                  href: install-action.md
+                - name: InstallAdminPackage 動作
+                  href: installadminpackage-action.md
+                - name: InstallExecute 動作
+                  href: installexecute-action.md
+                - name: InstallExecuteAgain 動作
+                  href: installexecuteagain-action.md
+                - name: InstallFiles 動作
+                  href: installfiles-action.md
+                - name: InstallFinalize 動作
+                  href: installfinalize-action.md
+                - name: InstallInitialize 動作
+                  href: installinitialize-action.md
+                - name: InstallODBC 動作
+                  href: installodbc-action.md
+                - name: InstallServices 動作
+                  href: installservices-action.md
+                - name: InstallSFPCatalogFile 動作
+                  href: installsfpcatalogfile-action.md
+                - name: InstallValidate 動作
+                  href: installvalidate-action.md
+                - name: IsolateComponents 動作
+                  href: isolatecomponents-action.md
+                - name: LaunchConditions 動作
+                  href: launchconditions-action.md
+                - name: MigrateFeatureStates 動作
+                  href: migratefeaturestates-action.md
+                - name: MoveFiles 動作
+                  href: movefiles-action.md
+                - name: MsiConfigureServices 動作
+                  href: msiconfigureservices-action.md
+                - name: MsiPublishAssemblies 動作
+                  href: msipublishassemblies-action.md
+                - name: MsiUnpublishAssemblies 動作
+                  href: msiunpublishassemblies-action.md
+                - name: PatchFiles 動作
+                  href: patchfiles-action.md
+                - name: ProcessComponents 動作
+                  href: processcomponents-action.md
+                - name: PublishComponents 動作
+                  href: publishcomponents-action.md
+                - name: PublishFeatures 動作
+                  href: publishfeatures-action.md
+                - name: PublishProduct 動作
+                  href: publishproduct-action.md
+                - name: RegisterClassInfo 動作
+                  href: registerclassinfo-action.md
+                - name: RegisterComPlus 動作
+                  href: registercomplus-action.md
+                - name: RegisterExtensionInfo 動作
+                  href: registerextensioninfo-action.md
+                - name: RegisterFonts 動作
+                  href: registerfonts-action.md
+                - name: RegisterMIMEInfo 動作
+                  href: registermimeinfo-action.md
+                - name: RegisterProduct 動作
+                  href: registerproduct-action.md
+                - name: RegisterProgIdInfo 動作
+                  href: registerprogidinfo-action.md
+                - name: RegisterTypeLibraries 動作
+                  href: registertypelibraries-action.md
+                - name: RegisterUser 動作
+                  href: registeruser-action.md
+                - name: RemoveDuplicateFiles 動作
+                  href: removeduplicatefiles-action.md
+                - name: RemoveEnvironmentStrings 動作
+                  href: removeenvironmentstrings-action.md
+                - name: RemoveExistingProducts 動作
+                  href: removeexistingproducts-action.md
+                - name: RemoveFiles 動作
+                  href: removefiles-action.md
+                - name: RemoveFolders 動作
+                  href: removefolders-action.md
+                - name: RemoveIniValues 動作
+                  href: removeinivalues-action.md
+                - name: RemoveODBC 動作
+                  href: removeodbc-action.md
+                - name: RemoveRegistryValues 動作
+                  href: removeregistryvalues-action.md
+                - name: RemoveShortcuts 動作
+                  href: removeshortcuts-action.md
+                - name: ResolveSource 動作
+                  href: resolvesource-action.md
+                - name: RMCCPSearch 動作
+                  href: rmccpsearch-action.md
+                - name: ScheduleReboot 動作
+                  href: schedulereboot-action.md
+                - name: SelfRegModules 動作
+                  href: selfregmodules-action.md
+                - name: SelfUnregModules 動作
+                  href: selfunregmodules-action.md
+                - name: 順序動作
+                  href: sequence-action.md
+                - name: SetODBCFolders 動作
+                  href: setodbcfolders-action.md
+                - name: StartServices 動作
+                  href: startservices-action.md
+                - name: StopServices 動作
+                  href: stopservices-action.md
+                - name: UnpublishComponents 動作
+                  href: unpublishcomponents-action.md
+                - name: UnpublishFeatures 動作
+                  href: unpublishfeatures-action.md
+                - name: UnregisterClassInfo 動作
+                  href: unregisterclassinfo-action.md
+                - name: UnregisterComPlus 動作
+                  href: unregistercomplus-action.md
+                - name: UnregisterExtensionInfo 動作
+                  href: unregisterextensioninfo-action.md
+                - name: UnregisterFonts 動作
+                  href: unregisterfonts-action.md
+                - name: UnregisterMIMEInfo 動作
+                  href: unregistermimeinfo-action.md
+                - name: UnregisterProgIdInfo 動作
+                  href: unregisterprogidinfo-action.md
+                - name: UnregisterTypeLibraries 動作
+                  href: unregistertypelibraries-action.md
+                - name: ValidateProductID 動作
+                  href: validateproductid-action.md
+                - name: WriteEnvironmentStrings 動作
+                  href: writeenvironmentstrings-action.md
+                - name: WriteIniValues 動作
+                  href: writeinivalues-action.md
+                - name: WriteRegistryValues 動作
+                  href: writeregistryvalues-action.md
+        - name: 自訂動作
+          href: custom-actions.md
+          items:
+            - name: 關於自訂動作
+              href: about-custom-actions.md
+              items:
+                - name: 自訂動作來源
+                  href: custom-action-sources.md
+                - name: 同步和非同步自訂動作
+                  href: synchronous-and-asynchronous-custom-actions.md
+                - name: 復原自訂動作
+                  href: rollback-custom-actions.md
+                - name: 認可自訂動作
+                  href: commit-custom-actions.md
+                - name: 延後執行自訂動作
+                  href: deferred-execution-custom-actions.md
+                - name: 可執行檔
+                  href: executable-files.md
+                - name: 動態連結程式庫
+                  href: dynamic-link-libraries.md
+                - name: 指令碼
+                  href: scripts.md
+                - name: 格式化的文本自訂動作
+                  href: formatted-text-custom-actions.md
+                - name: 錯誤訊息自訂動作
+                  href: error-message-custom-actions.md
+                - name: 自訂動作安全性
+                  href: custom-action-security.md
+            - name: 使用自訂動作
+              href: using-custom-actions.md
+              items:
+                - name: 叫用自訂動作
+                  href: invoking-custom-actions.md
+                - name: 排序自訂動作
+                  href: sequencing-custom-actions.md
+                - name: 取得順延強制自訂動作的內容資訊
+                  href: obtaining-context-information-for-deferred-execution-custom-actions.md
+                - name: 將自訂動作新增至 ProgressBar
+                  href: adding-custom-actions-to-the-progressbar.md
+                - name: 自訂動作的調試
+                  href: debugging-custom-actions.md
+                - name: 從自訂動作判斷 UI 層級
+                  href: determining-ui-level-from-a-custom-action.md
+                - name: 卸載自訂動作
+                  href: uninstalling-custom-actions.md
+                - name: 從自訂動作傳回錯誤訊息
+                  href: returning-error-messages-from-custom-actions.md
+                - name: 設定自訂動作的還原點
+                  href: setting-a-restore-point-from-a-custom-action.md
+                - name: 未在自訂動作中使用的函數
+                  href: functions-not-for-use-in-custom-actions.md
+                - name: 使用自訂動作變更系統狀態
+                  href: changing-the-system-state-using-a-custom-action.md
+                - name: 從自訂動作內部存取目前的安裝程式會話
+                  href: accessing-the-current-installer-session-from-inside-a-custom-action.md
+                - name: 從自訂動作內部存取資料庫或會話
+                  href: accessing-a-database-or-session-from-inside-a-custom-action.md
+                - name: 使用自訂動作在安裝結束時啟動已安裝的檔案
+                  href: using-a-custom-action-to-launch-an-installed-file-at-the-end-of-the-installation.md
+                  items:
+                    - name: 撰寫啟動自訂動作
+                      href: authoring-the-launch-custom-action.md
+                    - name: 將啟動新增至 CustomAction 和二進位資料表
+                      href: adding-launch-to-the-customaction-and-binary-tables.md
+                    - name: 在安裝結束時新增控制項事件以執行啟動
+                      href: adding-a-control-event-at-the-end-of-the-installation-to-run-launch.md
+                - name: 使用自訂動作在本機電腦上建立使用者帳戶
+                  href: using-a-custom-action-to-create-user-accounts-on-a-local-computer.md
+                  items:
+                    - name: 撰寫自訂動作
+                      href: authoring-the-custom-actions.md
+                    - name: 撰寫 CustomAction 資料表
+                      href: authoring-the-customaction-table.md
+                    - name: 新增自訂 CustomUserAccounts 資料表
+                      href: adding-a-custom-customuseraccounts-table.md
+                    - name: 撰寫 ActionText 和錯誤資料表
+                      href: authoring-the-actiontext-and-error-tables.md
+                    - name: 撰寫 InstallExecuteSequence 資料表
+                      href: authoring-the-installexecutesequence-table.md
+                    - name: 撰寫密碼輸入的消費者介面
+                      href: authoring-the-user-interface-for-password-input.md
+                    - name: 保護安裝的安全
+                      href: securing-the-installation.md
+                - name: 使用64位自訂動作
+                  href: using-64-bit-custom-actions.md
+            - name: 自訂動作參考
+              href: custom-action-reference.md
+              items:
+                - name: 自訂動作類型
+                  href: summary-list-of-all-custom-action-types.md
+                  items:
+                    - name: 自訂動作類型1
+                      href: custom-action-type-1.md
+                    - name: 自訂動作類型2
+                      href: custom-action-type-2.md
+                    - name: 自訂動作類型5
+                      href: custom-action-type-5.md
+                    - name: 自訂動作類型6
+                      href: custom-action-type-6.md
+                    - name: 自訂動作類型17
+                      href: custom-action-type-17.md
+                    - name: 自訂動作類型18
+                      href: custom-action-type-18.md
+                    - name: 自訂動作類型19
+                      href: custom-action-type-19.md
+                    - name: 自訂動作類型21
+                      href: custom-action-type-21.md
+                    - name: 自訂動作類型22
+                      href: custom-action-type-22.md
+                    - name: 自訂動作類型34
+                      href: custom-action-type-34.md
+                    - name: 自訂動作類型35
+                      href: custom-action-type-35.md
+                    - name: 自訂動作類型37
+                      href: custom-action-type-37.md
+                    - name: 自訂動作類型38
+                      href: custom-action-type-38.md
+                    - name: 自訂動作類型50
+                      href: custom-action-type-50.md
+                    - name: 自訂動作類型51
+                      href: custom-action-type-51.md
+                    - name: 自訂動作類型53
+                      href: custom-action-type-53.md
+                    - name: 自訂動作類型54
+                      href: custom-action-type-54.md
+                - name: 自訂動作執行排程選項
+                  href: custom-action-execution-scheduling-options.md
+                - name: 自訂動作隱藏目標選項
+                  href: custom-action-hidden-target-option.md
+                - name: 自訂動作 In-Script 執行選項
+                  href: custom-action-in-script-execution-options.md
+                - name: 自訂動作修補卸載選項
+                  href: custom-action-patch-uninstall-option.md
+                  items:
+                    - name: MsiTransformView
+                      href: msitransformview.md
+                - name: 自訂動作傳回處理選項
+                  href: custom-action-return-processing-options.md
+                - name: 自訂動作傳回值
+                  href: custom-action-return-values.md
+                - name: JScript 和 VBScript 自訂動作的傳回值
+                  href: return-values-of-jscript-and-vbscript-custom-actions.md
+        - name: 屬性
+          href: properties.md
+          items:
+            - name: 關於屬性
+              href: about-properties.md
+              items:
+                - name: 私用屬性
+                  href: private-properties.md
+                - name: 公用屬性
+                  href: public-properties.md
+                - name: 受限制的公用屬性
+                  href: restricted-public-properties.md
+                - name: 必要屬性
+                  href: required-properties.md
+                - name: 屬性優先順序的順序
+                  href: order-of-property-precedence.md
+            - name: 使用屬性
+              href: using-properties.md
+              items:
+                - name: 屬性名稱的限制
+                  href: restrictions-on-property-names.md
+                - name: 屬性值的初始化
+                  href: initialization-of-property-values.md
+                - name: 取得和設定屬性
+                  href: getting-and-setting-properties.md
+                - name: 在命令列上設定公用屬性值
+                  href: setting-public-property-values-on-the-command-line.md
+                - name: 清除安裝程式屬性
+                  href: clearing-an-installer-property.md
+                - name: 在條件陳述式中使用屬性
+                  href: using-properties-in-conditional-statements.md
+                - name: 使用路徑中的目錄屬性
+                  href: using-a-directory-property-in-a-path.md
+            - name: 屬性參考
+              href: property-reference.md
+              items:
+                - name: ACTION
+                  href: action.md
+                - name: ADDDEFAULT
+                  href: adddefault.md
+                - name: ADDLOCAL
+                  href: addlocal.md
+                - name: ADDSOURCE
+                  href: addsource.md
+                - name: AdminProperties
+                  href: adminproperties.md
+                - name: AdminToolsFolder
+                  href: admintoolsfolder.md
+                - name: AdminUser
+                  href: adminuser.md
+                - name: 通告
+                  href: advertise.md
+                - name: AFTERREBOOT
+                  href: afterreboot.md
+                - name: ALLUSERS
+                  href: allusers.md
+                - name: Alpha
+                  href: alpha.md
+                - name: AppDataFolder
+                  href: appdatafolder.md
+                - name: ARPAUTHORIZEDCDFPREFIX
+                  href: arpauthorizedcdfprefix.md
+                - name: ARPCOMMENTS
+                  href: arpcomments.md
+                - name: ARPCONTACT
+                  href: arpcontact.md
+                - name: ARPHELPLINK
+                  href: arphelplink.md
+                - name: ARPHELPTELEPHONE
+                  href: arphelptelephone.md
+                - name: ARPINSTALLLOCATION
+                  href: arpinstalllocation.md
+                - name: ARPNOMODIFY
+                  href: arpnomodify.md
+                - name: ARPNOREMOVE
+                  href: arpnoremove.md
+                - name: ARPNOREPAIR
+                  href: arpnorepair.md
+                - name: ARPPRODUCTICON
+                  href: arpproducticon.md
+                - name: ARPREADME
+                  href: arpreadme.md
+                - name: ARPSIZE
+                  href: arpsize.md
+                - name: ARPSYSTEMCOMPONENT
+                  href: arpsystemcomponent.md
+                - name: ARPURLINFOABOUT
+                  href: arpurlinfoabout.md
+                - name: ARPURLUPDATEINFO
+                  href: arpurlupdateinfo.md
+                - name: AVAILABLEFREEREG
+                  href: availablefreereg.md
+                - name: BorderSide
+                  href: borderside.md
+                - name: BorderTop
+                  href: bordertop.md
+                - name: CaptionHeight
+                  href: captionheight.md
+                - name: CCP_DRIVE
+                  href: ccp-drive.md
+                - name: ColorBits
+                  href: colorbits.md
+                - name: CommonAppDataFolder
+                  href: commonappdatafolder.md
+                - name: CommonFiles64Folder
+                  href: commonfiles64folder.md
+                - name: CommonFilesFolder
+                  href: commonfilesfolder.md
+                - name: COMPADDDEFAULT 屬性
+                  href: compadddefault.md
+                - name: COMPADDLOCAL
+                  href: compaddlocal.md
+                - name: COMPADDSOURCE
+                  href: compaddsource.md
+                - name: 名稱
+                  href: companyname.md
+                - name: ComputerName
+                  href: computername.md
+                - name: CostingComplete
+                  href: costingcomplete.md
+                - name: Date
+                  href: date.md
+                - name: DefaultUIFont
+                  href: defaultuifont.md
+                - name: DesktopFolder
+                  href: desktopfolder.md
+                - name: DISABLEADVTSHORTCUTS
+                  href: disableadvtshortcuts.md
+                - name: DISABLEMEDIA
+                  href: '-disablemedia.md'
+                - name: DISABLEROLLBACK
+                  href: '-disablerollback.md'
+                - name: DiskPrompt
+                  href: diskprompt.md
+                - name: EnableUserControl
+                  href: '-enableusercontrol.md'
+                - name: EXECUTEACTION
+                  href: executeaction.md
+                - name: EXECUTEMODE
+                  href: executemode.md
+                - name: FASTOEM
+                  href: fastoem.md
+                - name: FavoritesFolder
+                  href: favoritesfolder.md
+                - name: FILEADDDEFAULT
+                  href: fileadddefault.md
+                - name: FILEADDLOCAL
+                  href: fileaddlocal.md
+                - name: FILEADDSOURCE
+                  href: fileaddsource.md
+                - name: FontsFolder
+                  href: fontsfolder.md
+                - name: 已安裝
+                  href: installed.md
+                - name: INSTALLLEVEL
+                  href: installlevel.md
+                - name: Intel
+                  href: intel.md
+                - name: Intel64
+                  href: intel64.md
+                - name: IsAdminPackage
+                  href: isadminpackage.md
+                - name: LeftUnit
+                  href: leftunit.md
+                - name: LIMITUI
+                  href: limitui.md
+                - name: LocalAppDataFolder
+                  href: localappdatafolder.md
+                - name: LOGACTION
+                  href: logaction.md
+                - name: LogonUser
+                  href: logonuser.md
+                - name: 製造商
+                  href: manufacturer.md
+                - name: MEDIAPACKAGEPATH
+                  href: mediapackagepath.md
+                - name: MediaSourceDir
+                  href: mediasourcedir.md
+                - name: MSIARPSETTINGSIDENTIFIER
+                  href: msiarpsettingsidentifier.md
+                - name: MSICHECKCRCS
+                  href: msicheckcrcs.md
+                - name: MSIDEPLOYMENTCOMPLIANT
+                  href: msideploymentcompliant.md
+                - name: MSIDISABLEEEUI
+                  href: msidisableeeui.md
+                - name: MSIDISABLELUAPATCHING
+                  href: msidisableluapatching.md
+                - name: MSIDISABLERMRESTART
+                  href: msidisablermrestart.md
+                - name: MSIENFORCEUPGRADECOMPONENTRULES
+                  href: msienforceupgradecomponentrules.md
+                - name: MSIFASTINSTALL 屬性
+                  href: msifastinstall.md
+                - name: MsiHiddenProperties
+                  href: msihiddenproperties.md
+                - name: MSIINSTALLPERUSER 屬性
+                  href: msiinstallperuser.md
+                - name: MSIINSTANCEGUID
+                  href: msiinstanceguid.md
+                - name: MsiLogFileLocation
+                  href: msilogfilelocation.md
+                - name: MsiLogging
+                  href: msilogging.md
+                - name: MsiNetAssemblySupport
+                  href: msinetassemblysupport.md
+                - name: MSINEWINSTANCE
+                  href: msinewinstance.md
+                - name: MSINODISABLEMEDIA
+                  href: msinodisablemedia.md
+                - name: MsiNTProductType
+                  href: msintproducttype.md
+                - name: MsiNTSuiteBackOffice
+                  href: msintsuitebackoffice.md
+                - name: MsiNTSuiteDataCenter
+                  href: msintsuitedatacenter.md
+                - name: MsiNTSuiteEnterprise
+                  href: msintsuiteenterprise.md
+                - name: MsiNTSuitePersonal
+                  href: msintsuitepersonal.md
+                - name: MsiNTSuiteSmallBusiness
+                  href: msintsuitesmallbusiness.md
+                - name: MsiNTSuiteSmallBusinessRestricted
+                  href: msintsuitesmallbusinessrestricted.md
+                - name: MsiNTSuiteWebServer
+                  href: msintsuitewebserver.md
+                - name: MsiPatchRemovalList
+                  href: msipatchremovallist.md
+                - name: MSIPATCHREMOVE
+                  href: msipatchremove.md
+                - name: MSIRESTARTMANAGERCONTROL
+                  href: msirestartmanagercontrol.md
+                - name: MsiRestartManagerSessionKey
+                  href: msirestartmanagersessionkey.md
+                - name: MSIRMSHUTDOWN
+                  href: msirmshutdown.md
+                - name: MsiRunningElevated
+                  href: msirunningelevated-.md
+                - name: MsiSystemRebootPending
+                  href: msisystemrebootpending.md
+                - name: MsiTabletPC
+                  href: msitabletpc.md
+                - name: MsiUIHideCancel
+                  href: msiuihidecancel.md
+                - name: MsiUIProgressOnly
+                  href: msiuiprogressonly.md
+                - name: MsiUISourceResOnly
+                  href: msiuisourceresonly.md
+                - name: MSIUNINSTALLSUPERSEDEDCOMPONENTS
+                  href: msiuninstallsupersededcomponents.md
+                - name: MSIUSEREALADMINDETECTION
+                  href: msiuserealadmindetection.md
+                - name: MsiWin32AssemblySupport
+                  href: msiwin32assemblysupport.md
+                - name: Msix64
+                  href: msix64.md
+                - name: MyPicturesFolder
+                  href: mypicturesfolder.md
+                - name: NetHoodFolder 屬性
+                  href: nethoodfolder.md
+                - name: NOCOMPANYNAME
+                  href: nocompanyname.md
+                - name: NOUSERNAME
+                  href: nousername.md
+                - name: OLEAdvtSupport
+                  href: oleadvtsupport.md
+                - name: OriginalDatabase
+                  href: originaldatabase.md
+                - name: OutOfDiskSpace
+                  href: outofdiskspace.md
+                - name: OutOfNoRbDiskSpace
+                  href: outofnorbdiskspace.md
+                - name: ParentOriginalDatabase
+                  href: parentoriginaldatabase.md
+                - name: ParentProductCode
+                  href: parentproductcode.md
+                - name: PATCH
+                  href: patch.md
+                - name: PATCHNEWPACKAGECODE
+                  href: patchnewpackagecode.md
+                - name: PATCHNEWSUMMARYCOMMENTS
+                  href: patchnewsummarycomments.md
+                - name: PATCHNEWSUMMARYSUBJECT
+                  href: patchnewsummarysubject.md
+                - name: PersonalFolder
+                  href: personalfolder.md
+                - name: PhysicalMemory
+                  href: physicalmemory.md
+                - name: PIDKEY
+                  href: pidkey.md
+                - name: PIDTemplate
+                  href: pidtemplate.md
+                - name: 預選
+                  href: preselected.md
+                - name: PRIMARYFOLDER
+                  href: primaryfolder.md
+                - name: PrimaryVolumePath
+                  href: primaryvolumepath.md
+                - name: PrimaryVolumeSpaceAvailable
+                  href: primaryvolumespaceavailable.md
+                - name: PrimaryVolumeSpaceRemaining
+                  href: primaryvolumespaceremaining.md
+                - name: PrimaryVolumeSpaceRequired
+                  href: primaryvolumespacerequired.md
+                - name: PrintHoodFolder 屬性
+                  href: printhoodfolder.md
+                - name: 特殊權限
+                  href: privileged.md
+                - name: ProductCode
+                  href: productcode.md
+                - name: ProductID
+                  href: productid.md
+                - name: ProductLanguage
+                  href: productlanguage.md
+                - name: ProductName
+                  href: productname.md
+                - name: ProductState
+                  href: productstate.md
+                - name: ProductVersion
+                  href: productversion.md
+                - name: ProgramFiles64Folder
+                  href: programfiles64folder.md
+                - name: ProgramFilesFolder
+                  href: programfilesfolder.md
+                - name: ProgramMenuFolder
+                  href: programmenufolder.md
+                - name: PROMPTROLLBACKCOST
+                  href: promptrollbackcost.md
+                - name: 重新 啟動
+                  href: reboot.md
+                - name: REBOOTPROMPT
+                  href: rebootprompt.md
+                - name: RecentFolder 屬性
+                  href: recentfolder.md
+                - name: RedirectedDLLSupport
+                  href: redirecteddllsupport.md
+                - name: REINSTALL
+                  href: reinstall.md
+                - name: REINSTALLMODE
+                  href: reinstallmode.md
+                - name: RemoteAdminTS
+                  href: remoteadmints.md
+                - name: REMOVE
+                  href: remove.md
+                - name: ReplacedInUseFiles
+                  href: replacedinusefiles.md
+                - name: RestrictedUserControl
+                  href: restrictedusercontrol.md
+                - name: RESUME
+                  href: resume.md
+                - name: RollbackDisabled
+                  href: rollbackdisabled.md
+                - name: ROOTDRIVE
+                  href: rootdrive.md
+                - name: ScreenX
+                  href: screenx.md
+                - name: ScreenY
+                  href: screeny.md
+                - name: SecureCustomProperties
+                  href: securecustomproperties.md
+                - name: SendToFolder
+                  href: sendtofolder.md
+                - name: SEQUENCE
+                  href: sequence.md
+                - name: ServicePackLevel
+                  href: servicepacklevel.md
+                - name: ServicePackLevelMinor
+                  href: servicepacklevelminor.md
+                - name: SharedWindows
+                  href: sharedwindows.md
+                - name: ShellAdvtSupport
+                  href: shelladvtsupport.md
+                - name: SHORTFILENAMES
+                  href: shortfilenames.md
+                - name: SourceDir
+                  href: sourcedir.md
+                - name: SOURCELIST
+                  href: sourcelist.md
+                - name: StartMenuFolder
+                  href: startmenufolder.md
+                - name: StartupFolder
+                  href: startupfolder.md
+                - name: System16Folder
+                  href: system16folder.md
+                - name: System64Folder
+                  href: system64folder.md
+                - name: SystemFolder
+                  href: systemfolder.md
+                - name: SystemLanguageID
+                  href: systemlanguageid.md
+                - name: TARGETDIR
+                  href: targetdir.md
+                - name: TempFolder
+                  href: tempfolder.md
+                - name: TemplateFolder
+                  href: templatefolder.md
+                - name: TerminalServer
+                  href: terminalserver.md
+                - name: TextHeight
+                  href: textheight.md
+                - name: Time
+                  href: time.md
+                - name: 變換
+                  href: transforms.md
+                - name: TRANSFORMSATSOURCE
+                  href: transformsatsource.md
+                - name: TRANSFORMSSECURE
+                  href: transformssecure.md
+                - name: TTCSupport
+                  href: ttcsupport.md
+                - name: UILevel
+                  href: uilevel.md
+                - name: UpdateStarted
+                  href: updatestarted.md
+                - name: UpgradeCode
+                  href: upgradecode.md
+                - name: UPGRADINGPRODUCTCODE
+                  href: upgradingproductcode.md
+                - name: UserLanguageID
+                  href: userlanguageid.md
+                - name: USERNAME
+                  href: username.md
+                - name: UserSID
+                  href: usersid.md
+                - name: Version9X
+                  href: version9x.md
+                - name: VersionDatabase
+                  href: versiondatabase.md
+                - name: VersionMsi
+                  href: versionmsi.md
+                - name: VersionNT
+                  href: versionnt.md
+                - name: VersionNT64
+                  href: versionnt64.md
+                - name: VirtualMemory
+                  href: virtualmemory.md
+                - name: WindowsBuild
+                  href: windowsbuild.md
+                - name: WindowsFolder
+                  href: windowsfolder.md
+                - name: WindowsVolume
+                  href: windowsvolume.md
+            - name: 作業系統屬性值
+              href: operating-system-property-values.md
+            - name: 卸載登錄機碼
+              href: uninstall-registry-key.md
+        - name: 摘要資訊串流
+          href: summary-information-stream.md
+          items:
+            - name: 關於摘要資訊資料流程
+              href: about-the-summary-information-stream.md
+              items:
+                - name: 摘要資訊資料流程屬性集
+                  href: summary-information-stream-property-set.md
+                - name: 摘要屬性描述
+                  href: summary-property-descriptions.md
+            - name: 使用摘要資訊資料流程
+              href: using-the-summary-information-stream.md
+            - name: 摘要資訊資料流程參考
+              href: summary-information-stream-reference.md
+              items:
+                - name: 作者摘要
+                  href: author-summary.md
+                - name: 字元計數摘要
+                  href: character-count-summary.md
+                - name: 字碼頁摘要
+                  href: codepage-summary.md
+                - name: 批註摘要
+                  href: comments-summary.md
+                - name: 建立時間/日期摘要
+                  href: create-time-date-summary.md
+                - name: 建立應用程式摘要
+                  href: creating-application-summary.md
+                - name: 關鍵字摘要
+                  href: keywords-summary.md
+                - name: 上次列印的摘要
+                  href: last-printed-summary.md
+                - name: 上次儲存的摘要
+                  href: last-saved-by-summary.md
+                - name: 上次儲存的時間/日期摘要
+                  href: last-saved-time-date-summary.md
+                - name: 頁面計數摘要
+                  href: page-count-summary.md
+                - name: 修訂編號摘要
+                  href: revision-number-summary.md
+                - name: 安全性摘要
+                  href: security-summary.md
+                - name: 主題摘要
+                  href: subject-summary.md
+                - name: 範本摘要
+                  href: template-summary.md
+                - name: 標題摘要
+                  href: title-summary.md
+                - name: 字數統計摘要
+                  href: word-count-summary.md
+        - name: 修補和升級
+          href: patching-and-upgrades.md
+          items:
+            - name: 小型更新
+              href: small-updates.md
+              items:
+                - name: 建立小型更新修補程式
+                  href: creating-a-small-update-patch.md
+                - name: 藉由修補產品的本機安裝來套用小型更新
+                  href: applying-small-updates-by-patching-the-local-installation-of-the-product.md
+                - name: 重新安裝產品以套用小型更新
+                  href: applying-small-updates-by-reinstalling-the-product.md
+                - name: 藉由修補系統管理映射來套用小型更新
+                  href: applying-small-updates-by-patching-an-administrative-image.md
+            - name: 次要升級
+              href: minor-upgrades.md
+            - name: 主要升級
+              href: major-upgrades.md
+              items:
+                - name: 變更產品代碼
+                  href: changing-the-product-code.md
+                - name: 準備應用程式以進行未來的主要升級
+                  href: preparing-an-application-for-future-major-upgrades.md
+                - name: 防止舊套件安裝在較新的版本上
+                  href: preventing-an-old-package-from-installing-over-a-newer-version.md
+                - name: 使用 UpgradeCode
+                  href: using-an-upgradecode.md
+                - name: 藉由修補產品的本機安裝來套用主要升級
+                  href: applying-major-upgrades-by-patching-the-local-installation-of-the-product.md
+                - name: 藉由安裝產品來套用主要升級
+                  href: applying-major-upgrades-by-installing-the-product.md
+            - name: 修補
+              href: patching.md
+              items:
+                - name: 使用修補程式
+                  href: using-patches.md
+                  items:
+                    - name: 從網際網路下載並安裝修補程式
+                      href: downloading-and-installing-a-patch-from-the-internet.md
+                    - name: 修補初始安裝
+                      href: patching-initial-installations.md
+                    - name: 修補自訂應用程式
+                      href: patching-customized-applications.md
+                    - name: 防止 Patch 要求存取原始安裝來源
+                      href: preventing-a-patch-from-requiring-access-to-the-original-installation-source.md
+                    - name: 將修補程式資訊以 XML 形式解壓縮
+                      href: extracting-patch-information-as-xml.md
+                    - name: 列出可更新的檔案
+                      href: listing-the-files-that-can-be-updated.md
+                - name: 建立修補程式套件
+                  href: creating-a-patch-package.md
+                  items:
+                    - name: 修補套件
+                      href: patch-packages.md
+                    - name: 修補程式優化
+                      href: patch-optimization.md
+                    - name: 減少修補程式大小
+                      href: reducing-patch-size.md
+                - name: 安裝多個修補程式
+                  href: installing-multiple-patches.md
+                  items:
+                    - name: 排序修補程式
+                      href: sequencing-patches.md
+                    - name: 消除修補程式
+                      href: eliminating-patches.md
+                    - name: 多個修補範例
+                      href: multiple-patching-example.md
+                - name: 移除修補程式
+                  href: removing-patches.md
+                  items:
+                    - name: 可卸載修補程式
+                      href: uninstallable-patches.md
+                    - name: 卸載修補程式
+                      href: uninstalling-patches.md
+                    - name: 修補卸載自訂動作
+                      href: patch-uninstall-custom-actions.md
+            - name: 修補 Per-User 受控應用程式
+              href: patching-per-user-managed-applications.md
+              items:
+                - name: ' (UAC) 修補的使用者帳戶控制'
+                  href: user-account-control--uac--patching.md
+        - name: 資料庫轉換
+          href: database-transforms.md
+          items:
+            - name: 關於轉換
+              href: about-transforms.md
+              items:
+                - name: 內嵌轉換
+                  href: embedded-transforms.md
+                - name: 安全的轉換
+                  href: secured-transforms.md
+                  items:
+                    - name: 安全來源轉換
+                      href: secure-at-source-transforms.md
+                    - name: 安全-完整路徑轉換
+                      href: secure-full-path-transforms.md
+                - name: 不安全的轉換
+                  href: unsecured-transforms.md
+            - name: 使用轉換
+              href: using-transforms.md
+              items:
+                - name: 套用轉換
+                  href: applying-transforms.md
+                - name: 產生轉換
+                  href: generating-a-transform.md
+                - name: 使用轉換來新增資源
+                  href: using-transforms-to-add-resources.md
+        - name: 套件驗證
+          href: package-validation.md
+          items:
+            - name: 內部驗證
+              href: internal-validation.md
+            - name: String-Pool 驗證
+              href: string-pool-validation.md
+            - name: 內部一致性評估工具-Ices-003
+              href: internal-consistency-evaluators-ices.md
+              items:
+                - name: 使用內部一致性評估工具
+                  href: using-internal-consistency-evaluators.md
+                  items:
+                    - name: 打造冰
+                      href: building-an-ice.md
+                    - name: ICE 訊息指導方針
+                      href: ice-message-guidelines.md
+                    - name: C + + 中的範例 ICE
+                      href: sample-ice-in-c-.md
+                    - name: VBScript 中的範例 ICE
+                      href: sample-ice-in-vbscript.md
+                    - name: 建立 ICE 資料庫
+                      href: building-an-ice-database.md
+                    - name: 範例 .cub 檔案
+                      href: sample--cub-file.md
+                - name: ICE 參考
+                  href: ice-reference.md
+                  items:
+                    - name: ICE01
+                      href: ice01.md
+                    - name: ICE02
+                      href: ice02.md
+                    - name: ICE03
+                      href: ice03.md
+                    - name: ICE04
+                      href: ice04.md
+                    - name: ICE05
+                      href: ice05.md
+                    - name: ICE06
+                      href: ice06.md
+                    - name: ICE07
+                      href: ice07.md
+                    - name: ICE08
+                      href: ice08.md
+                    - name: ICE09
+                      href: ice09.md
+                    - name: ICE10
+                      href: ice10.md
+                    - name: ICE12
+                      href: ice12.md
+                    - name: ICE13
+                      href: ice13.md
+                    - name: ICE14
+                      href: ice14.md
+                    - name: ICE15
+                      href: ice15.md
+                    - name: ICE16
+                      href: ice16.md
+                    - name: ICE17
+                      href: ice17.md
+                    - name: ICE18
+                      href: ice18.md
+                    - name: ICE19
+                      href: ice19.md
+                    - name: ICE20
+                      href: ice20.md
+                    - name: ICE21
+                      href: ice21.md
+                    - name: ICE22
+                      href: ice22.md
+                    - name: ICE23
+                      href: ice23.md
+                    - name: ICE24
+                      href: ice24.md
+                    - name: ICE25
+                      href: ice25.md
+                    - name: ICE26
+                      href: ice26.md
+                    - name: ICE27
+                      href: ice27.md
+                    - name: ICE28
+                      href: ice28.md
+                    - name: ICE29
+                      href: ice29.md
+                    - name: ICE30
+                      href: ice30.md
+                    - name: ICE31
+                      href: ice31.md
+                    - name: ICE32
+                      href: ice32.md
+                    - name: ICE33
+                      href: ice33.md
+                    - name: ICE34
+                      href: ice34.md
+                    - name: ICE35
+                      href: ice35.md
+                    - name: ICE36
+                      href: ice36.md
+                    - name: ICE38
+                      href: ice38.md
+                    - name: ICE39
+                      href: ice39.md
+                    - name: ICE40
+                      href: ice40.md
+                    - name: ICE41
+                      href: ice41.md
+                    - name: ICE42
+                      href: ice42.md
+                    - name: ICE43
+                      href: ice43.md
+                    - name: ICE44
+                      href: ice44.md
+                    - name: ICE45
+                      href: ice45.md
+                    - name: ICE46
+                      href: ice46.md
+                    - name: ICE47
+                      href: ice47.md
+                    - name: ICE48
+                      href: ice48.md
+                    - name: ICE49
+                      href: ice49.md
+                    - name: ICE50
+                      href: ice50.md
+                    - name: ICE51
+                      href: ice51.md
+                    - name: ICE52
+                      href: ice52.md
+                    - name: ICE53
+                      href: ice53.md
+                    - name: ICE54
+                      href: ice54.md
+                    - name: ICE55
+                      href: ice55.md
+                    - name: ICE56
+                      href: ice56.md
+                    - name: ICE57
+                      href: ice57.md
+                    - name: ICE58
+                      href: ice58.md
+                    - name: ICE59
+                      href: ice59.md
+                    - name: ICE60
+                      href: ice60.md
+                    - name: ICE61
+                      href: ice61.md
+                    - name: ICE62
+                      href: ice62.md
+                    - name: ICE63
+                      href: ice63.md
+                    - name: ICE64
+                      href: ice64.md
+                    - name: ICE65
+                      href: ice65.md
+                    - name: ICE66
+                      href: ice66.md
+                    - name: ICE67
+                      href: ice67.md
+                    - name: ICE68
+                      href: ice68.md
+                    - name: ICE69
+                      href: ice69.md
+                    - name: ICE70
+                      href: ice70.md
+                    - name: ICE71
+                      href: ice71.md
+                    - name: ICE72
+                      href: ice72.md
+                    - name: ICE73
+                      href: ice73.md
+                    - name: ICE74
+                      href: ice74.md
+                    - name: ICE75
+                      href: ice75.md
+                    - name: ICE76
+                      href: ice76.md
+                    - name: ICE77
+                      href: ice77.md
+                    - name: ICE78
+                      href: ice78.md
+                    - name: ICE79
+                      href: ice79.md
+                    - name: ICE80
+                      href: ice80.md
+                    - name: ICE81
+                      href: ice81.md
+                    - name: ICE82
+                      href: ice82.md
+                    - name: ICE83
+                      href: ice83.md
+                    - name: ICE84
+                      href: ice84.md
+                    - name: ICE85
+                      href: ice85.md
+                    - name: ICE86
+                      href: ice86.md
+                    - name: ICE87
+                      href: ice87.md
+                    - name: ICE88
+                      href: ice88.md
+                    - name: ICE89
+                      href: ice89.md
+                    - name: ICE90
+                      href: ice90.md
+                    - name: ICE91
+                      href: ice91.md
+                    - name: ICE92
+                      href: ice92.md
+                    - name: ICE93
+                      href: ice93.md
+                    - name: ICE94
+                      href: ice94.md
+                    - name: ICE95
+                      href: ice95.md
+                    - name: ICE96
+                      href: ice96.md
+                    - name: ICE97
+                      href: ice97.md
+                    - name: ICE98
+                      href: ice98.md
+                    - name: ICE99
+                      href: ice99.md
+                    - name: ICE 100
+                      href: ice-100.md
+                    - name: ICE 101
+                      href: ice-101.md
+                    - name: ICE 102
+                      href: ice-102.md
+                    - name: ICE 103
+                      href: ice-103.md
+                    - name: ICE 104
+                      href: ice-104.md
+                    - name: ICE 105
+                      href: ice-105.md
+            - name: 驗證自動化
+              href: validation-automation.md
+              items:
+                - name: 使用 Evalcom2
+                  href: using-evalcom2.md
+                - name: EvalCom2 介面
+                  href: evalcom2-interfaces.md
+                  items:
+                    - name: IValidate
+                      href: /windows/desktop/api/evalcom2/nn-evalcom2-ivalidate
+                      items:
+                        - name: OpenDatabase 方法
+                          href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opendatabase
+                        - name: OpenCUB 方法
+                          href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opencub
+                        - name: CloseDatabase 方法
+                          href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-closedatabase
+                        - name: CloseCUB 方法
+                          href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-closecub
+                        - name: SetDisplay 方法
+                          href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setdisplay
+                        - name: SetStatus 方法
+                          href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setstatus
+                        - name: Validate 方法
+                          href: /windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-validate
+                        - name: 驗證回呼函數
+                          href: validation-callback-functions.md
+                          items:
+                            - name: LPDISPLAYVAL
+                              href: /windows/desktop/api/evalcom2/nc-evalcom2-lpdisplayval
+                            - name: LPEVALCOMCALLBACK
+                              href: /windows/desktop/api/evalcom2/nc-evalcom2-lpevalcomcallback
+        - name: 合併模組
+          href: merge-modules.md
+          items:
+            - name: 關於合併模組
+              href: about-merge-modules.md
+              items:
+                - name: 合併模組資料庫
+                  href: merge-module-database.md
+                - name: MergeModule.CABinet
+                  href: mergemodule-cabinet.md
+                - name: 多個語言合併模組
+                  href: multiple-language-merge-modules.md
+                - name: 可設定的合併模組
+                  href: configurable-merge-modules.md
+            - name: 使用合併模組
+              href: using-merge-modules.md
+              items:
+                - name: 撰寫合併模組
+                  href: authoring-merge-modules.md
+                  items:
+                    - name: 取得合併模組撰寫工具
+                      href: obtaining-merge-module-authoring-tools.md
+                    - name: 取得空白合併模組資料庫
+                      href: obtaining-blank-merge-module-databases.md
+                    - name: 命名合併模組資料庫中的主鍵
+                      href: naming-primary-keys-in-merge-module-databases.md
+                    - name: 撰寫合併模組元件資料表
+                      href: authoring-merge-module-component-tables.md
+                    - name: 參考合併模組中的功能
+                      href: referencing-features-in-merge-modules.md
+                    - name: 撰寫合併模組目錄資料表
+                      href: authoring-merge-module-directory-tables.md
+                    - name: 撰寫合併模組 FeatureComponents 資料表
+                      href: authoring-merge-module-featurecomponents-tables.md
+                    - name: 產生 MergeModule.CABinet 封包檔
+                      href: generating-mergemodule-cabinet-cabinet-files.md
+                    - name: 撰寫合併模組檔案資料表
+                      href: authoring-merge-module-file-tables.md
+                    - name: 撰寫 ModuleSignature 資料表
+                      href: authoring-modulesignature-tables.md
+                    - name: 撰寫 ModuleComponents 資料表
+                      href: authoring-modulecomponents-tables.md
+                    - name: 撰寫合併模組順序資料表
+                      href: authoring-merge-module-sequence-tables.md
+                    - name: 在合併模組中撰寫使用者介面
+                      href: authoring-user-interfaces-in-merge-modules.md
+                    - name: 撰寫合併模組登錄資料表
+                      href: authoring-merge-module-registry-tables.md
+                    - name: 撰寫合併模組摘要資訊資料流程
+                      href: authoring-merge-module-summary-information-streams.md
+                    - name: 驗證合併模組
+                      href: validating-merge-modules.md
+                    - name: 將讀我檔案資訊資料流程新增至合併模組
+                      href: adding-readme-information-streams-to-merge-modules.md
+                - name: 使用64位合併模組
+                  href: using-64-bit-merge-modules.md
+                - name: 撰寫多個語言合併模組
+                  href: authoring-multiple-language-merge-modules.md
+                  items:
+                    - name: 選擇多重語言合併模組的預設語言
+                      href: choosing-the-default-language-of-a-multiple-language-merge-module.md
+                    - name: 撰寫多個語言合併模組的語言轉換
+                      href: authoring-a-language-transform-for-a-multiple-language-merge-module.md
+                    - name: 排序多個語言合併模組 CAB 中的檔案順序
+                      href: ordering-the-file-sequence-in-the-cab-of-a-multiple-language-merge-module.md
+                - name: 套用合併模組
+                  href: applying-merge-modules.md
+                  items:
+                    - name: 使用 Automation 將合併模組合併至資料庫
+                      href: using-automation-to-merge-a-merge-module-into-a-database.md
+                    - name: 使用 API 將合併模組合併至資料庫
+                      href: using-the-api-to-merge-a-merge-module-into-a-database.md
+                    - name: 以特定語言開啟 Multiple-Language 合併模組
+                      href: opening-a-multiple-language-merge-module-in-a-specific-language.md
+                    - name: 將多個語言模組合併成相同的封裝多次
+                      href: merging-a-multiple-language-module-into-the-same-package-multiple-times.md
+                    - name: 將合併模組連接至多個功能
+                      href: connecting-a-merge-module-to-multiple-features.md
+                - name: 使用可設定的合併模組
+                  href: using-configurable-merge-modules.md
+                  items:
+                    - name: 建立可由終端使用者設定的合併模組
+                      href: creating-a-merge-module-that-can-be-configured-by-the-end-user.md
+                    - name: 套用可設定的合併模組與自訂
+                      href: applying-a-configurable-merge-module-with-customizations.md
+                    - name: 將模組設定功能新增至合併工具
+                      href: adding-module-configuration-capability-to-a-merge-tool.md
+            - name: 合併模組參考
+              href: merge-module-reference.md
+              items:
+                - name: 合併模組自動化
+                  href: merge-module-automation.md
+                  items:
+                    - name: Mergemod.dll 版本1.0 的物件模型
+                      href: object-model-for-mergemod-dll-version-1-0.md
+                    - name: Mergemod.dll 版本2.0 的物件模型
+                      href: object-model-for-mergemod-dll-version-2-0.md
+                    - name: Mergemod 物件
+                      href: mergemod-objects.md
+                      items:
+                        - name: ConfigurableItem 物件
+                          href: configurableitem-object.md
+                          items:
+                            - name: ConfigurableItem 物件)  (屬性屬性
+                              href: configurableitem-attributes.md
+                            - name: Context 屬性
+                              href: configurableitem-context.md
+                            - name: DefaultValue 屬性
+                              href: configurableitem-defaultvalue.md
+                            - name: 'Description 屬性 (ConfigurableItem 物件) '
+                              href: configurableitem-description.md
+                            - name: DisplayName 屬性
+                              href: configurableitem-displayname.md
+                            - name: Format 屬性
+                              href: configurableitem-format.md
+                            - name: HelpLocation 屬性
+                              href: configurableitem-helplocation.md
+                            - name: HelpKeyword 屬性
+                              href: configurableitem-helpkeyword.md
+                            - name: Name 屬性
+                              href: configurableitem-name.md
+                            - name: '類型屬性 (ConfigurableItem 物件) '
+                              href: configurableitem-type.md
+                        - name: ConfigureModule 物件
+                          href: configuremodule-object.md
+                          items:
+                            - name: ProvideTextData 方法
+                              href: configuremodule-providetextdata.md
+                            - name: ProvideIntegerData 方法
+                              href: configuremodule-provideintegerdata.md
+                        - name: Dependency 物件
+                          href: dependency-object.md
+                          items:
+                            - name: 'Language 屬性 (相依性物件) '
+                              href: dependency-language.md
+                            - name: Module 屬性
+                              href: dependency-module.md
+                            - name: 'Version 屬性 (相依性物件) '
+                              href: dependency-version.md
+                        - name: Error 物件
+                          href: error-object.md
+                          items:
+                            - name: DatabaseKeys 屬性
+                              href: error-databasekeys.md
+                            - name: DatabaseTable 屬性
+                              href: error-databasetable.md
+                            - name: 'Language 屬性 (Error 物件) '
+                              href: error-language.md
+                            - name: ModuleKeys 屬性
+                              href: error-modulekeys.md
+                            - name: ModuleTable 屬性
+                              href: error-moduletable.md
+                            - name: Path 屬性
+                              href: error-path.md
+                            - name: 'Type 屬性 (Error 物件) '
+                              href: error-type.md
+                        - name: GetFiles 物件
+                          href: getfiles-object.md
+                          items:
+                            - name: ModuleFiles 屬性
+                              href: getfiles-modulefiles.md
+                        - name: 合併物件
+                          href: merge-object.md
+                          items:
+                            - name: CloseDatabase 方法
+                              href: merge-closedatabase.md
+                            - name: CloseLog 方法
+                              href: merge-closelog.md
+                            - name: CloseModule 方法
+                              href: merge-closemodule.md
+                            - name: ConfigurableItems 屬性
+                              href: merge-configurableitems.md
+                            - name: Connect 方法
+                              href: merge-connect.md
+                            - name: CreateSourceImage 方法
+                              href: merge-createsourceimage.md
+                            - name: ' (合併物件) 的相依性屬性'
+                              href: merge-dependencies.md
+                            - name: Errors 屬性
+                              href: merge-errors.md
+                            - name: ExtractCAB 方法
+                              href: merge-extractcab.md
+                            - name: ExtractFiles 方法
+                              href: merge-extractfiles.md
+                            - name: ExtractFilesEx 方法
+                              href: merge-extractfilesex.md
+                            - name: Log 方法
+                              href: merge-log.md
+                            - name: 'Merge 方法 (Merge 物件) '
+                              href: merge-merge.md
+                            - name: MergeEx 方法
+                              href: merge-mergeex.md
+                            - name: ' (合併物件) 的 OpenDatabase 方法'
+                              href: merge-opendatabase.md
+                            - name: OpenLog 方法
+                              href: merge-openlog.md
+                            - name: OpenModule 方法
+                              href: merge-openmodule.md
+                    - name: Mergemod 介面
+                      href: mergemod-interfaces.md
+                      items:
+                        - name: IMsmConfigurableItem 介面
+                          href: /windows/desktop/api/mergemod/nn-mergemod-imsmconfigurableitem
+                          items:
+                            - name: get_Attributes 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_attributes
+                            - name: get_CoNtext 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_context
+                            - name: get_DefaultValue 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_defaultvalue
+                            - name: get_Description 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_description
+                            - name: get_DisplayName 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_displayname
+                            - name: get_Format 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_format
+                            - name: get_HelpLocation 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_helplocation
+                            - name: get_HelpKeyword 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_helpkeyword
+                            - name: get_Name 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_name
+                            - name: get_Type 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_type
+                        - name: IMsmConfigureModule 介面
+                          href: /windows/desktop/api/mergemod/nn-mergemod-imsmconfiguremodule
+                          items:
+                            - name: ProvideIntegerData 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfiguremodule-provideintegerdata
+                            - name: ProvideTextData 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmconfiguremodule-providetextdata
+                        - name: IMsmDependency 介面
+                          href: /windows/desktop/api/mergemod/nn-mergemod-imsmdependency
+                          items:
+                            - name: get_Language 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmdependency-get_language
+                            - name: get_Module 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmdependency-get_module
+                            - name: get_Version 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmdependency-get_version
+                        - name: IMsmError 介面
+                          href: /windows/desktop/api/mergemod/nn-mergemod-imsmerror
+                          items:
+                            - name: get_DatabaseKeys 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_databasekeys
+                            - name: get_DatabaseTable 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_databasetable
+                            - name: get_Language 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_language
+                            - name: get_ModuleKeys 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_modulekeys
+                            - name: get_ModuleTable 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_moduletable
+                            - name: get_Path 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_path
+                            - name: get_Type 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type
+                        - name: IMsmGetFiles 介面
+                          href: /windows/desktop/api/mergemod/nn-mergemod-imsmgetfiles
+                          items:
+                            - name: get_ModuleFiles 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmgetfiles-get_modulefiles
+                        - name: IMsmMerge 介面
+                          href: /windows/desktop/api/mergemod/nn-mergemod-imsmmerge
+                        - name: IMsmMerge2 介面
+                          href: /windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2
+                          items:
+                            - name: CloseDatabase 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase
+                            - name: CloseLog 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closelog
+                            - name: CloseModule 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closemodule
+                            - name: Connect 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect
+                            - name: CreateSourceImage 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-createsourceimage
+                            - name: ExtractCAB 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractcab
+                            - name: ExtractFiles 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-extractfiles
+                            - name: ExtractFilesEx 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-extractfilesex
+                            - name: get_ConfigurableItems 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-get_configurableitems
+                            - name: get_Dependencies 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_dependencies
+                            - name: get_Errors 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_errors
+                            - name: Log 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-log
+                            - name: Merge 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-merge
+                            - name: MergeEx 方法
+                              href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-mergeex
+                            - name: OpenDatabase 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-opendatabase
+                            - name: OpenLog 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openlog
+                            - name: OpenModule 方法
+                              href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openmodule
+                - name: 合併模組資料庫資料表
+                  href: merge-module-database-tables.md
+                  items:
+                    - name: ModuleSignature 資料表
+                      href: modulesignature-table.md
+                    - name: ModuleComponents 資料表
+                      href: modulecomponents-table.md
+                    - name: ModuleDependency 資料表
+                      href: moduledependency-table.md
+                    - name: ModuleExclusion 資料表
+                      href: moduleexclusion-table.md
+                    - name: ModuleAdminUISequence 資料表
+                      href: moduleadminuisequence-table.md
+                    - name: ModuleAdminExecuteSequence 資料表
+                      href: moduleadminexecutesequence-table.md
+                    - name: ModuleAdvtUISequence 資料表
+                      href: moduleadvtuisequence-table.md
+                    - name: ModuleAdvtExecuteSequence 資料表
+                      href: moduleadvtexecutesequence-table.md
+                    - name: ModuleIgnoreTable 資料表
+                      href: moduleignoretable-table.md
+                    - name: ModuleInstallUISequence 資料表
+                      href: moduleinstalluisequence-table.md
+                    - name: ModuleInstallExecuteSequence 資料表
+                      href: moduleinstallexecutesequence-table.md
+                    - name: ModuleSubstitution 資料表
+                      href: modulesubstitution-table.md
+                    - name: ModuleConfiguration 資料表
+                      href: moduleconfiguration-table.md
+                - name: 合併模組摘要資訊資料流程參考
+                  href: merge-module-summary-information-stream-reference.md
+                - name: Merge Module ICE 參考
+                  href: merge-module-ice-reference.md
+                  items:
+                    - name: ICEM01
+                      href: icem01.md
+                    - name: ICEM02
+                      href: icem02.md
+                    - name: ICEM03
+                      href: icem03.md
+                    - name: ICEM04
+                      href: icem04.md
+                    - name: ICEM05
+                      href: icem05.md
+                    - name: ICEM06
+                      href: icem06.md
+                    - name: ICEM07
+                      href: icem07.md
+                    - name: ICEM08
+                      href: icem08.md
+                    - name: ICEM09
+                      href: icem09.md
+                    - name: ICEM10
+                      href: icem10.md
+                    - name: ICEM11
+                      href: icem11.md
+                    - name: ICEM12
+                      href: icem12.md
+                    - name: ICEM13
+                      href: icem13.md
+                    - name: ICEM14
+                      href: icem14.md
+                - name: CMSM 特殊格式
+                  href: cmsm-special-format.md
+                - name: 語義類型
+                  href: semantic-types.md
+                  items:
+                    - name: 文字格式類型
+                      href: text-format-types.md
+                      items:
+                        - name: 任意文字類型
+                          href: arbitrary-text-type.md
+                        - name: RTF 類型
+                          href: rtf-type.md
+                        - name: 格式化類型
+                          href: formatted-type.md
+                        - name: 列舉類型
+                          href: enum-type.md
+                        - name: 識別碼類型
+                          href: identifier-type.md
+                    - name: 整數格式類型
+                      href: integer-format-types.md
+                      items:
+                        - name: 任意整數類型
+                          href: arbitrary-integer-type.md
+                    - name: 索引鍵格式類型
+                      href: key-format-types.md
+                      items:
+                        - name: 目錄類型
+                          href: directory-type.md
+                        - name: 檔案類型
+                          href: file-type.md
+                        - name: 屬性類型
+                          href: property-type.md
+                        - name: 對話方塊類型
+                          href: dialog-type.md
+                        - name: 二進位類型
+                          href: binary-type.md
+                        - name: 圖示類型
+                          href: icon-type.md
+                    - name: 位欄位格式類型
+                      href: bitfield-format-types.md
+                      items:
+                        - name: 任意位欄位類型
+                          href: arbitrary-bitfield-type.md
+                - name: 可設定的元件範例
+                  href: configurable-component-example.md
+        - name: Windows Installer 啟動載入
+          href: windows-installer-bootstrapping.md
+          items:
+            - name: 引導
+              href: bootstrapping.md
+            - name: 網際網路下載啟動載入
+              href: internet-download-bootstrapping.md
+        - name: 64位作業系統上的 Windows Installer
+          href: windows-installer-on-64-bit-operating-systems.md
+          items:
+            - name: 關於64位作業系統上的 Windows Installer
+              href: about-windows-installer-on-64-bit-operating-systems.md
+              items:
+                - name: 32位 Windows Installer 套件
+                  href: 32-bit-windows-installer-packages.md
+                - name: 64位 Windows Installer 套件
+                  href: 64-bit-windows-installer-packages.md
+            - name: 使用64位 Windows Installer 套件
+              href: using-64-bit-windows-installer-packages.md
+              items:
+                - name: 64位自訂動作
+                  href: 64-bit-custom-actions.md
+        - name: Windows Installer 和標誌需求
+          href: windows-installer-and-logo-requirements.md
+    - name: Windows Installer 範例
+      href: windows-installer-examples.md
+      items:
+        - name: 安裝範例
+          href: an-installation-example.md
+          items:
+            - name: 規劃安裝
+              href: planning-the-installation.md
+            - name: 匯入空白資料庫
+              href: importing-a-blank-database.md
+            - name: 指定目錄結構
+              href: specifying-directory-structure.md
+            - name: 指定元件
+              href: specifying-components.md
+            - name: 指定檔案和檔案屬性
+              href: specifying-files-and-file-attributes.md
+            - name: 指定來源媒體
+              href: specifying-source-media.md
+            - name: 指定功能
+              href: specifying-features.md
+            - name: 指定 Feature-Component 關聯性
+              href: specifying-feature-component-relationships.md
+            - name: 新增登錄資訊
+              href: adding-registry-information.md
+            - name: 指定快速鍵
+              href: specifying-shortcuts.md
+            - name: 指定屬性
+              href: specifying-properties.md
+            - name: 匯入 InstallExecuteSequence
+              href: importing-the-installexecutesequence.md
+            - name: 匯入 InstallUISequence
+              href: importing-the-installuisequence.md
+            - name: 匯入 AdminExecuteSequence
+              href: importing-the-adminexecutesequence.md
+            - name: 匯入 AdminUISequence
+              href: importing-the-adminuisequence.md
+            - name: 匯入 AdvtExecuteSequence
+              href: importing-the-advtexecutesequence.md
+            - name: 新增摘要資訊
+              href: adding-summary-information.md
+            - name: 匯入消費者介面
+              href: importing-the-user-interface.md
+            - name: 驗證安裝資料庫
+              href: validating-an-installation-database.md
+        - name: 升級範例
+          href: an-upgrade-example.md
+          items:
+            - name: 規劃主要升級
+              href: planning-a-major-upgrade.md
+            - name: 匯入原始安裝資料庫
+              href: importing-original-installation-database.md
+            - name: 更新升級的目錄結構
+              href: updating-directory-structure-for-an-upgrade.md
+            - name: 更新升級的檔案和檔案屬性
+              href: updating-files-and-file-attributes-for-an-upgrade.md
+            - name: 更新升級的元件
+              href: updating-components-for-an-upgrade.md
+            - name: 更新升級的功能
+              href: updating-features-for-an-upgrade.md
+            - name: 更新升級的快捷方式
+              href: updating-shortcuts-for-an-upgrade.md
+            - name: 更新升級的升級資料表
+              href: updating-upgrade-table-for-an-upgrade.md
+            - name: 更新升級的屬性
+              href: updating-properties-for-an-upgrade.md
+            - name: 更新升級的順序資料表
+              href: updating-sequence-tables-for-an-upgrade.md
+            - name: 更新升級的摘要資訊
+              href: updating-summary-information-for-an-upgrade.md
+            - name: 驗證安裝升級
+              href: validating-an-installation-upgrade.md
+        - name: 自訂轉換範例
+          href: a-customization-transform-example.md
+          items:
+            - name: 自訂原始資料庫
+              href: customizing-an-original-database.md
+            - name: 產生自訂轉換
+              href: generating-a-customization-transform.md
+            - name: 將摘要資訊加入自訂轉換
+              href: adding-summary-information-to-customization-transform.md
+            - name: 將自訂轉換內嵌為 Substorage
+              href: embedding-customization-transforms-as-substorage.md
+        - name: 小型更新修補範例
+          href: a-small-update-patching-example.md
+          items:
+            - name: 規劃小型更新修補程式
+              href: planning-a-small-update-patch.md
+            - name: 建立修補程式建立屬性檔
+              href: creating-a-patch-creation-properties-file.md
+            - name: 產生 Patch 封裝
+              href: generating-a-patch-package.md
+            - name: 將修補程式套件套用至本機安裝
+              href: applying-a-patch-package-to-a-local-installation.md
+            - name: 將修補套件套用至系統管理安裝
+              href: applying-a-patch-package-to-an-administrative-installation.md
+        - name: 資料庫和修補範例
+          href: a-database-and-patch-example.md
+        - name: 當地語系化範例
+          href: a-localization-example.md
+          items:
+            - name: 檢查安裝資料庫字碼頁
+              href: checking-the-installation-database-code-page.md
+            - name: 匯入當地語系化的錯誤和 ActionText 資料表
+              href: importing-localized-error-and-actiontext-tables.md
+            - name: 當地語系化資料庫資料行
+              href: localizing-database-columns.md
+            - name: 更新 ProductLanguage 和 ProductCode 屬性
+              href: updating-productlanguage-and-productcode-properties.md
+            - name: 更新摘要資訊資料流程
+              href: updating-a-summary-information-stream.md
+            - name: 新增當地語系化的資源
+              href: adding-localized-resources.md
+        - name: MUI 快捷方式範例
+          href: a-mui-shortcut-example.md
+        - name: 以 URL 為基礎的 Windows Installer 安裝範例
+          href: a-url-based-windows-installer-installation-example.md
+          items:
+            - name: 設定 Setup.exe 資源
+              href: configuring-the-setup-exe-resources.md
+            - name: 簽署 Setup.exe 和 MySetup.msi
+              href: sign-setup-exe-and-mysetup-msi.md
+            - name: 建立 Setup.exe 的 HTML 參考
+              href: establish-an-html-reference-to-setup-exe.md
+        - name: Windows Installer 腳本範例
+          href: windows-installer-scripting-examples.md
+          items:
+            - name: 列出產品、屬性、功能和元件
+              href: list-products-properties-features-and-components.md
+            - name: 匯入檔案
+              href: import-files.md
+            - name: 匯出檔案
+              href: export-files.md
+            - name: 管理 Substorages
+              href: manage-substorages.md
+            - name: 管理二進位資料流程
+              href: manage-binary-streams.md
+            - name: 合併兩個資料庫
+              href: merge-two-databases.md
+            - name: 產生轉換
+              href: generate-a-transform.md
+            - name: 套用轉換
+              href: apply-a-transform.md
+            - name: 查看轉換
+              href: view-a-transform.md
+            - name: 查看兩個資料庫之間的差異
+              href: view-differences-between-two-databases.md
+            - name: 查看安裝程式腳本
+              href: view-installer-script.md
+            - name: 管理摘要資訊
+              href: manage-summary-information.md
+            - name: 管理原則設定
+              href: manage-policy-settings.md
+            - name: 管理語言和字碼頁
+              href: manage-language-and-codepage.md
+            - name: 將 Unicode 檔案複製到 ANSI 檔案
+              href: copy-a-unicode-file-to-an-ansi-file.md
+            - name: 管理檔案大小和版本
+              href: manage-file-sizes-and-versions.md
+            - name: 產生檔案封包
+              href: generate-file-cabinet.md
+            - name: 執行 SQL 語句
+              href: execute-sql-statements.md
+            - name: 將 ANSI 檔案複製到資料庫欄位
+              href: copy-ansi-file-into-a-database-field.md
+            - name: 列出元件
+              href: list-components.md
+            - name: 列出功能
+              href: list-features.md
+            - name: 預覽消費者介面
+              href: preview-user-interface.md
+        - name: 單一套件撰寫範例
+          href: single-package-authoring-example.md
+    - name: Windows Installer 參考
+      href: windows-installer-reference.md
+      items:
+        - name: Automation 介面
+          href: automation-interface.md
+          items:
+            - name: 關於 Automation 介面
+              href: about-the-automation-interface.md
+            - name: 使用 Automation 介面
+              href: using-the-automation-interface.md
+            - name: Automation 介面參考
+              href: automation-interface-reference.md
+              items:
+                - name: 用戶端
+                  href: client.md
+                  items:
+                    - name: ProductCode 屬性
+                      href: client-productcode.md
+                    - name: ComponentCode 屬性
+                      href: client-componentcode.md
+                    - name: UserSID 屬性
+                      href: client-usersid.md
+                    - name: Context 屬性
+                      href: client-context.md
+                - name: ComponentInfo
+                  href: componentinfo.md
+                  items:
+                    - name: ComponentCode 屬性
+                      href: componentinfo-componentcode.md
+                    - name: Path 屬性
+                      href: componentinfo-path.md
+                    - name: State 屬性
+                      href: componentinfo-state.md
+                - name: 單元
+                  href: components.md
+                  items:
+                    - name: ComponentCode 屬性
+                      href: component-componentcode.md
+                    - name: UserSID 屬性
+                      href: component-usersid.md
+                    - name: Context 屬性
+                      href: component-context.md
+                - name: 資料庫物件
+                  href: database-object.md
+                  items:
+                    - name: ApplyTransform 方法
+                      href: database-applytransform.md
+                    - name: Commit 方法
+                      href: database-commit.md
+                    - name: CreateTransformSummaryInfo 方法
+                      href: database-createtransformsummaryinfo.md
+                    - name: DatabaseState 屬性
+                      href: database-databasestate.md
+                    - name: EnableUIPreview 方法
+                      href: database-enableuipreview.md
+                    - name: Export 方法
+                      href: database-export.md
+                    - name: 將方法
+                      href: database-generatetransform.md
+                    - name: 匯入方法
+                      href: database-import.md
+                    - name: Merge 方法
+                      href: database-merge.md
+                    - name: OpenView 方法
+                      href: database-openview.md
+                    - name: PrimaryKeys 屬性
+                      href: database-primarykeys.md
+                    - name: SummaryInformation 屬性
+                      href: database-summaryinformation.md
+                    - name: TablePersistent 屬性
+                      href: database-tablepersistent.md
+                - name: FeatureInfo 物件
+                  href: featureinfo-object.md
+                  items:
+                    - name: Attributes 屬性
+                      href: featureinfo-attributes.md
+                    - name: Description 屬性
+                      href: featureinfo-description.md
+                    - name: Title 屬性
+                      href: featureinfo-title.md
+                - name: 安裝程式物件
+                  href: installer-object.md
+                  items:
+                    - name: AddSource 方法
+                      href: installer-addsource.md
+                    - name: AdvertiseProduct 方法
+                      href: installer-advertiseproduct.md
+                    - name: AdvertiseScript 方法
+                      href: installer-advertisescript.md
+                    - name: ApplyPatch 方法
+                      href: installer-applypatch.md
+                    - name: ApplyMultiplePatches 方法
+                      href: installer-applymultiplepatches.md
+                    - name: ClearSourceList 方法
+                      href: installer-clearsourcelist.md
+                    - name: ClientsEx 屬性
+                      href: installer-clientsex.md
+                    - name: CollectUserInfo 方法
+                      href: installer-collectuserinfo.md
+                    - name: ComponentClients 屬性
+                      href: installer-componentclients.md
+                    - name: ComponentPath 屬性
+                      href: installer-componentpath.md
+                    - name: ComponentPathEx 屬性
+                      href: installer-componentpathex.md
+                    - name: ComponentQualifiers 屬性
+                      href: installer-componentqualifiers.md
+                    - name: 元件屬性
+                      href: installer-components.md
+                    - name: ComponentsEx 屬性
+                      href: installer-componentsex.md
+                    - name: ConfigureFeature 方法
+                      href: installer-configurefeature.md
+                    - name: ConfigureProduct 方法
+                      href: installer-configureproduct.md
+                    - name: CreateAdvertiseScript 方法
+                      href: installer-createadvertisescript.md
+                    - name: CreateRecord 方法
+                      href: installer-createrecord.md
+                    - name: EnableLog 方法
+                      href: installer-enablelog.md
+                    - name: 環境屬性
+                      href: installer-environment.md
+                    - name: ExtractPatchXMLData 方法
+                      href: installer-extractpatchxmldata.md
+                    - name: FeatureParent 屬性
+                      href: installer-featureparent.md
+                    - name: Features 屬性
+                      href: installer-features.md
+                    - name: FeatureState 屬性
+                      href: installer-featurestate.md
+                    - name: FeatureUsageCount 屬性
+                      href: installer-featureusagecount.md
+                    - name: FeatureUsageDate 屬性
+                      href: installer-featureusagedate.md
+                    - name: FileAttributes 屬性
+                      href: installer-fileattributes.md
+                    - name: Get-filehash 方法
+                      href: installer-filehash.md
+                    - name: FileSignatureInfo 方法
+                      href: installer-filesignatureinfo.md
+                    - name: FileSize 方法
+                      href: installer-filesize.md
+                    - name: FileVersion 方法
+                      href: installer-fileversion.md
+                    - name: ForceSourceListResolution 方法
+                      href: installer-forcesourcelistresolution.md
+                    - name: InstallProduct 方法
+                      href: installer-installproduct.md
+                    - name: LastErrorRecord 方法
+                      href: installer-lasterrorrecord.md
+                    - name: OpenPackage 方法
+                      href: installer-openpackage.md
+                    - name: OpenDatabase 方法
+                      href: installer-opendatabase.md
+                    - name: OpenProduct 方法
+                      href: installer-openproduct.md
+                    - name: 修補程式屬性
+                      href: installer-patches.md
+                    - name: PatchesEx 屬性
+                      href: installer-patchesex.md
+                    - name: PatchFiles 屬性
+                      href: installer-patchfiles.md
+                    - name: PatchInfo 屬性
+                      href: installer-patchinfo.md
+                    - name: PatchTransforms 屬性
+                      href: installer-patchtransforms.md
+                    - name: ProductInfo 屬性
+                      href: installer-productinfo.md
+                    - name: ProductInfoFromScript 屬性
+                      href: installer-productinfofromscript.md
+                    - name: ProductElevated 屬性
+                      href: installer-productelevated.md
+                    - name: ProductsEx 屬性
+                      href: installer-productsex.md
+                    - name: Products 屬性
+                      href: installer-products.md
+                    - name: ProductState 屬性方法
+                      href: installer-productstate-property.md
+                    - name: ProvideAssembly 方法
+                      href: installer-provideassembly.md
+                    - name: ProvideComponent 方法
+                      href: installer-providecomponent.md
+                    - name: ProvideQualifiedComponent 方法
+                      href: installer-providequalifiedcomponent.md
+                    - name: QualifierDescription 屬性
+                      href: installer-qualifierdescription.md
+                    - name: RegistryValue 方法
+                      href: installer-registryvalue.md
+                    - name: ReinstallFeature 方法
+                      href: installer-reinstallfeature.md
+                    - name: ReinstallProduct 方法
+                      href: installer-reinstallproduct.md
+                    - name: RelatedProducts 屬性
+                      href: installer-relatedproducts.md
+                    - name: RemovePatches 方法
+                      href: installer-removepatches.md
+                    - name: ShortcutTarget 屬性
+                      href: installer-shortcuttarget.md
+                    - name: SummaryInformation 屬性
+                      href: installer-summaryinformation.md
+                    - name: UILevel 屬性
+                      href: installer-uilevel.md
+                    - name: UseFeature 方法
+                      href: installer-usefeature.md
+                    - name: Version 屬性
+                      href: installer-version.md
+                - name: Patch 物件
+                  href: patch-object.md
+                  items:
+                    - name: SourceListAddMediaDisk 方法
+                      href: patch-sourcelistaddmediadisk.md
+                    - name: SourceListAddSource 方法
+                      href: patch-sourcelistaddsource.md
+                    - name: SourceListClearMediaDisk 方法
+                      href: patch-sourcelistclearmediadisk.md
+                    - name: SourceListClearSource 方法
+                      href: patch-sourcelistclearsource.md
+                    - name: SourceListClearAll 方法
+                      href: patch-sourcelistclearall.md
+                    - name: SourceListForceResolution 方法
+                      href: patch-sourcelistforceresolution.md
+                    - name: Context 屬性
+                      href: patch-context.md
+                    - name: MediaDisks 屬性
+                      href: patch-mediadisks.md
+                    - name: PatchCode 屬性
+                      href: patch-patchcode.md
+                    - name: PatchProperty 方法
+                      href: patch-patchproperty.md
+                    - name: ProductCode 屬性
+                      href: patch-productcode.md
+                    - name: SourceListInfo 屬性
+                      href: patch-sourcelistinfo.md
+                    - name: 來源屬性
+                      href: patch-sources.md
+                    - name: State 屬性
+                      href: patch-state.md
+                    - name: UserSid 屬性
+                      href: patch-usersid.md
+                - name: Product 物件
+                  href: product-object.md
+                  items:
+                    - name: SourceListAddMediaDisk 方法
+                      href: product-sourcelistaddmediadisk.md
+                    - name: SourceListAddSource 方法
+                      href: product-sourcelistaddsource.md
+                    - name: SourceListClearSource 方法
+                      href: product-sourcelistclearsource.md
+                    - name: SourceListClearAll 方法
+                      href: product-sourcelistclearall.md
+                    - name: SourceListClearMediaDisk 方法
+                      href: product-sourcelistclearmediadisk.md
+                    - name: SourceListForceResolution 方法
+                      href: product-sourcelistforceresolution.md
+                    - name: SourceListInfo 屬性
+                      href: product-sourcelistinfo.md
+                    - name: ComponentState 方法
+                      href: product-componentstate.md
+                    - name: ProductCode 屬性
+                      href: product-productcode.md
+                    - name: InstallProperty 方法
+                      href: product-installproperty.md
+                    - name: Context 屬性
+                      href: product-context.md
+                    - name: FeatureState 方法
+                      href: product-featurestate.md
+                    - name: MediaDisks 屬性
+                      href: product-mediadisks.md
+                    - name: 來源屬性
+                      href: product-sources.md
+                    - name: State 屬性
+                      href: product-state.md
+                    - name: UserSid 屬性
+                      href: product-usersid.md
+                - name: Record 物件
+                  href: record-object.md
+                  items:
+                    - name: ClearData 方法
+                      href: record-cleardata.md
+                    - name: DataSize 屬性
+                      href: record-datasize.md
+                    - name: FieldCount 屬性
+                      href: record-fieldcount.md
+                    - name: FormatText 方法
+                      href: record-formattext.md
+                    - name: IntegerData 屬性
+                      href: record-integerdata.md
+                    - name: IsNull 屬性
+                      href: record-isnull.md
+                    - name: ReadStream 方法
+                      href: record-readstream.md
+                    - name: SetStream 方法
+                      href: record-setstream.md
+                    - name: 至 convertfrom-stringdata 屬性
+                      href: record-stringdata.md
+                - name: RecordList 物件
+                  href: recordlist-object.md
+                  items:
+                    - name: Count 屬性
+                      href: recordlist-count.md
+                    - name: Item 屬性
+                      href: recordlist-item.md
+                - name: Session 物件
+                  href: session-object.md
+                  items:
+                    - name: ComponentCosts 屬性
+                      href: session-componentcosts.md
+                    - name: ComponentCurrentState 屬性
+                      href: session-componentcurrentstate.md
+                    - name: ComponentRequestState 屬性
+                      href: session-componentrequeststate.md
+                    - name: 資料庫屬性
+                      href: session-database.md
+                    - name: Dataadapter.doaction 方法
+                      href: session-doaction.md
+                    - name: EvaluateCondition 方法
+                      href: session-evaluatecondition.md
+                    - name: FeatureCost 屬性
+                      href: session-featurecost.md
+                    - name: FeatureCurrentState 屬性
+                      href: session-featurecurrentstate.md
+                    - name: FeatureInfo 方法
+                      href: session-featureinfo.md
+                    - name: FeatureRequestState 屬性
+                      href: session-featurerequeststate.md
+                    - name: FeatureValidStates 屬性
+                      href: session-featurevalidstates.md
+                    - name: FormatRecord 方法
+                      href: session-formatrecord.md
+                    - name: 安裝程式屬性
+                      href: session-installer.md
+                    - name: Language 屬性
+                      href: session-language.md
+                    - name: Message 方法
+                      href: session-message.md
+                    - name: Mode 屬性
+                      href: session-mode.md
+                    - name: ProductProperty 屬性
+                      href: session-productproperty.md
+                    - name: Property 屬性
+                      href: session-session.md
+                    - name: Sequence 方法
+                      href: session-sequence.md
+                    - name: SetInstallLevel 方法
+                      href: session-setinstalllevel.md
+                    - name: SourcePath 屬性
+                      href: session-sourcepath.md
+                    - name: TargetPath 屬性
+                      href: session-targetpath.md
+                    - name: VerifyDiskSpace 屬性
+                      href: session-verifydiskspace.md
+                - name: StringList 物件
+                  href: stringlist-object.md
+                  items:
+                    - name: Count 屬性
+                      href: stringlist-count.md
+                    - name: Item 屬性
+                      href: stringlist-item.md
+                - name: SummaryInfo 物件
+                  href: summaryinfo-object.md
+                  items:
+                    - name: 保存方法
+                      href: summaryinfo-persist.md
+                    - name: Property 屬性
+                      href: summaryinfo-summaryinfo.md
+                    - name: PropertyCount 屬性
+                      href: summaryinfo-propertycount.md
+                - name: UIPreview 物件
+                  href: uipreview-object.md
+                  items:
+                    - name: Property 屬性
+                      href: uipreview-property.md
+                    - name: ViewBillboard 方法
+                      href: uipreview-viewbillboard.md
+                    - name: ViewDialog 方法
+                      href: uipreview-viewdialog.md
+                - name: View 物件
+                  href: view-object.md
+                  items:
+                    - name: Close 方法
+                      href: view-close.md
+                    - name: ColumnInfo 屬性
+                      href: view-columninfo.md
+                    - name: Execute 方法
+                      href: view-execute.md
+                    - name: Fetch 方法
+                      href: view-fetch.md
+                    - name: GetError 方法
+                      href: view-geterror.md
+                    - name: Modify 方法
+                      href: view-modify.md
+        - name: 安裝程式函數
+          href: installer-functions.md
+          items:
+            - name: 關於安裝程式函數
+              href: about-installer-functions.md
+            - name: 使用安裝程式函數
+              href: using-installer-functions.md
+              items:
+                - name: 初始化應用程式
+                  href: initializing-an-application.md
+                - name: 取得應用程式資訊
+                  href: getting-application-information.md
+                - name: 要求功能
+                  href: requesting-a-feature.md
+                - name: 安裝應用程式
+                  href: installing-an-application.md
+                - name: 重新安裝功能或應用程式
+                  href: reinstalling-a-feature-or-application.md
+                - name: 移除已公告的應用程式
+                  href: removing-an-advertised-application.md
+                - name: 使用功能和元件
+                  href: working-with-features-and-components.md
+                - name: 安裝遺失的元件
+                  href: installing-a-missing-component.md
+                - name: 清查產品和修補程式
+                  href: inventory-products-and-patches-.md
+                - name: 管理安裝來源
+                  href: managing-installation-sources.md
+            - name: 安裝程式函數參考
+              href: installer-function-reference.md
+              items:
+                - name: MsiAdvertiseProduct
+                  href: /windows/desktop/api/Msi/nf-msi-msiadvertiseproducta
+                - name: MsiAdvertiseProductEx
+                  href: /windows/desktop/api/Msi/nf-msi-msiadvertiseproductexa
+                - name: MsiAdvertiseScript
+                  href: /windows/desktop/api/Msi/nf-msi-msiadvertisescripta
+                - name: MsiApplyPatch
+                  href: /windows/desktop/api/Msi/nf-msi-msiapplypatcha
+                - name: MsiApplyMultiplePatches
+                  href: /windows/desktop/api/Msi/nf-msi-msiapplymultiplepatchesa
+                - name: MsiBeginTransaction
+                  href: /windows/desktop/api/Msi/nf-msi-msibegintransactiona
+                - name: MsiCloseAllHandles
+                  href: /windows/desktop/api/Msi/nf-msi-msicloseallhandles
+                - name: MsiCloseHandle
+                  href: /windows/desktop/api/Msi/nf-msi-msiclosehandle
+                - name: MsiCollectUserInfo
+                  href: /windows/desktop/api/Msi/nf-msi-msicollectuserinfoa
+                - name: MsiConfigureFeature
+                  href: /windows/desktop/api/Msi/nf-msi-msiconfigurefeaturea
+                - name: MsiConfigureProduct
+                  href: /windows/desktop/api/Msi/nf-msi-msiconfigureproducta
+                - name: MsiConfigureProductEx
+                  href: /windows/desktop/api/Msi/nf-msi-msiconfigureproductexa
+                - name: MsiDetermineApplicablePatches
+                  href: /windows/desktop/api/Msi/nf-msi-msidetermineapplicablepatchesa
+                - name: MsiDeterminePatchSequence
+                  href: /windows/desktop/api/Msi/nf-msi-msideterminepatchsequencea
+                - name: MsiEnableLog
+                  href: /windows/desktop/api/Msi/nf-msi-msienableloga
+                - name: MsiEndTransaction
+                  href: /windows/desktop/api/Msi/nf-msi-msiendtransaction
+                - name: MsiEnumClients
+                  href: /windows/desktop/api/Msi/nf-msi-msienumclientsa
+                - name: MsiEnumClientsEx
+                  href: /windows/desktop/api/Msi/nf-msi-msienumclientsexa
+                - name: MsiEnumComponentQualifiers
+                  href: /windows/desktop/api/Msi/nf-msi-msienumcomponentqualifiersa
+                - name: MsiEnumComponents
+                  href: /windows/desktop/api/Msi/nf-msi-msienumcomponentsa
+                - name: MsiEnumComponentsEx
+                  href: /windows/desktop/api/Msi/nf-msi-msienumcomponentsexa
+                - name: MsiEnumFeatures
+                  href: /windows/desktop/api/Msi/nf-msi-msienumfeaturesa
+                - name: MsiEnumPatches
+                  href: /windows/desktop/api/Msi/nf-msi-msienumpatchesa
+                - name: MsiEnumPatchesEx
+                  href: /windows/desktop/api/Msi/nf-msi-msienumpatchesexa
+                - name: MsiEnumProducts
+                  href: /windows/desktop/api/Msi/nf-msi-msienumproductsa
+                - name: MsiEnumProductsEx
+                  href: /windows/desktop/api/Msi/nf-msi-msienumproductsexa
+                - name: MsiEnumRelatedProducts
+                  href: /windows/desktop/api/Msi/nf-msi-msienumrelatedproductsa
+                - name: MsiExtractPatchXMLData
+                  href: /windows/desktop/api/Msi/nf-msi-msiextractpatchxmldataa
+                - name: MsiGetComponentPath
+                  href: /windows/desktop/api/Msi/nf-msi-msigetcomponentpatha
+                - name: MsiGetComponentPathEx
+                  href: /windows/desktop/api/Msi/nf-msi-msigetcomponentpathexa
+                - name: MsiGetFeatureInfo
+                  href: /windows/desktop/api/Msi/nf-msi-msigetfeatureinfoa
+                - name: MsiGetFeatureUsage
+                  href: /windows/desktop/api/Msi/nf-msi-msigetfeatureusagea
+                - name: MsiGetFileHash
+                  href: /windows/desktop/api/Msi/nf-msi-msigetfilehasha
+                - name: MsiGetFileSignatureInformation
+                  href: /windows/desktop/api/Msi/nf-msi-msigetfilesignatureinformationa
+                - name: MsiGetFileVersion
+                  href: /windows/desktop/api/Msi/nf-msi-msigetfileversiona
+                - name: MsiGetPatchFileList
+                  href: /windows/desktop/api/Msi/nf-msi-msigetpatchfilelista
+                - name: MsiGetPatchInfo
+                  href: /windows/desktop/api/Msi/nf-msi-msigetpatchinfoa
+                - name: MsiGetPatchInfoEx
+                  href: /windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa
+                - name: MsiGetProductCode
+                  href: /windows/desktop/api/Msi/nf-msi-msigetproductcodea
+                - name: MsiGetProductInfo
+                  href: /windows/desktop/api/Msi/nf-msi-msigetproductinfoa
+                - name: MsiGetProductInfoEx
+                  href: /windows/desktop/api/Msi/nf-msi-msigetproductinfoexa
+                - name: MsiGetProductInfoFromScript
+                  href: /windows/desktop/api/Msi/nf-msi-msigetproductinfofromscripta
+                - name: MsiGetProductProperty
+                  href: /windows/desktop/api/Msi/nf-msi-msigetproductpropertya
+                - name: MsiGetShortcutTarget
+                  href: /windows/desktop/api/Msi/nf-msi-msigetshortcuttargeta
+                - name: MsiGetUserInfo
+                  href: /windows/desktop/api/Msi/nf-msi-msigetuserinfoa
+                - name: MsiInstallMissingComponent
+                  href: /windows/desktop/api/Msi/nf-msi-msiinstallmissingcomponenta
+                - name: MsiInstallMissingFile
+                  href: /windows/desktop/api/Msi/nf-msi-msiinstallmissingfilea
+                - name: MsiInstallProduct
+                  href: /windows/desktop/api/Msi/nf-msi-msiinstallproducta
+                - name: MsiIsProductElevated
+                  href: /windows/desktop/api/Msi/nf-msi-msiisproductelevateda
+                - name: MsiJoinTransaction
+                  href: /windows/desktop/api/Msi/nf-msi-msijointransaction
+                - name: MsiLocateComponent
+                  href: /windows/desktop/api/Msi/nf-msi-msilocatecomponenta
+                - name: MsiNotifySidChange
+                  href: /windows/desktop/api/Msi/nf-msi-msinotifysidchangea
+                - name: MsiOpenPackage
+                  href: /windows/desktop/api/Msi/nf-msi-msiopenpackagea
+                - name: MsiOpenPackageEx
+                  href: /windows/desktop/api/Msi/nf-msi-msiopenpackageexa
+                - name: MsiOpenProduct
+                  href: /windows/desktop/api/Msi/nf-msi-msiopenproducta
+                - name: MsiProcessAdvertiseScript
+                  href: /windows/desktop/api/Msi/nf-msi-msiprocessadvertisescripta
+                - name: MsiProvideAssembly
+                  href: /windows/desktop/api/Msi/nf-msi-msiprovideassemblya
+                - name: MsiProvideComponent
+                  href: /windows/desktop/api/Msi/nf-msi-msiprovidecomponenta
+                - name: MsiProvideQualifiedComponent
+                  href: /windows/desktop/api/Msi/nf-msi-msiprovidequalifiedcomponenta
+                - name: MsiProvideQualifiedComponentEx
+                  href: /windows/desktop/api/Msi/nf-msi-msiprovidequalifiedcomponentexa
+                - name: MsiQueryComponentState
+                  href: /windows/desktop/api/Msi/nf-msi-msiquerycomponentstatea
+                - name: MsiQueryFeatureState
+                  href: /windows/desktop/api/Msi/nf-msi-msiqueryfeaturestatea
+                - name: MsiQueryFeatureStateEx
+                  href: /windows/desktop/api/Msi/nf-msi-msiqueryfeaturestateexa
+                - name: MsiQueryProductState
+                  href: /windows/desktop/api/Msi/nf-msi-msiqueryproductstatea
+                - name: MsiReinstallFeature
+                  href: /windows/desktop/api/Msi/nf-msi-msireinstallfeaturea
+                - name: MsiReinstallProduct
+                  href: /windows/desktop/api/Msi/nf-msi-msireinstallproducta
+                - name: MsiRemovePatches
+                  href: /windows/desktop/api/Msi/nf-msi-msiremovepatchesa
+                - name: MsiSetExternalUI
+                  href: /windows/desktop/api/Msi/nf-msi-msisetexternaluia
+                - name: MsiSetExternalUIRecord
+                  href: /windows/desktop/api/Msi/nf-msi-msisetexternaluirecord
+                - name: MsiSetInternalUI
+                  href: /windows/desktop/api/Msi/nf-msi-msisetinternalui
+                - name: MsiSourceListAddMediaDisk
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistaddmediadiska
+                - name: MsiSourceListAddSource
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistaddsourcea
+                - name: MsiSourceListAddSourceEx
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistaddsourceexa
+                - name: MsiSourceListClearAll
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistclearalla
+                - name: MsiSourceListClearAllEx
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistclearallexa
+                - name: MsiSourceListClearSource
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistclearsourcea
+                - name: MsiSourceListClearMediaDisk
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistclearmediadiska
+                - name: MsiSourceListEnumSources
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistenumsourcesa
+                - name: MsiSourceListEnumMediaDisks
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistenummediadisksa
+                - name: MsiSourceListForceResolution
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistforceresolutiona
+                - name: MsiSourceListForceResolutionEx
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistforceresolutionexa
+                - name: MsiSourceListGetInfo
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistgetinfoa
+                - name: MsiSourceListSetInfo
+                  href: /windows/desktop/api/Msi/nf-msi-msisourcelistsetinfoa
+                - name: MsiUseFeature
+                  href: /windows/desktop/api/Msi/nf-msi-msiusefeaturea
+                - name: MsiUseFeatureEx
+                  href: /windows/desktop/api/Msi/nf-msi-msiusefeatureexa
+                - name: MsiVerifyPackage
+                  href: /windows/desktop/api/Msi/nf-msi-msiverifypackagea
+                - name: 初始化錯誤
+                  href: initialization-errors.md
+                - name: 顯示的錯誤訊息
+                  href: displayed-error-messages.md
+                - name: INSTALLUI_HANDLER
+                  href: /windows/desktop/api/Msi/nc-msi-installui_handlera
+                - name: INSTALLUI_HANDLER_RECORD
+                  href: /windows/desktop/api/msi/nc-msi-installui_handler_record
+        - name: 安裝程式結構
+          href: installer-structures.md
+          items:
+            - name: MSIFILEHASHINFO
+              href: /windows/win32/api/Msi/ns-msi-msifilehashinfo
+            - name: MSIPATCHSEQUENCEINFO
+              href: /windows/win32/api/Msi/ns-msi-msipatchsequenceinfoa
+        - name: 安裝程式資料庫
+          href: installer-database.md
+          items:
+            - name: 關於安裝程式資料庫
+              href: about-the-installer-database.md
+              items:
+                - name: 核心資料表群組
+                  href: core-tables-group.md
+                - name: 檔案資料表群組
+                  href: file-tables-group.md
+                - name: 登錄資料表群組
+                  href: registry-tables-group.md
+                - name: 系統資料表群組
+                  href: system-tables-group.md
+                - name: 定位器資料表群組
+                  href: locator-tables-group.md
+                - name: 程式資訊資料表群組
+                  href: program-information-tables-group.md
+                - name: 安裝程式資料表群組
+                  href: installation-procedure-tables-group.md
+                - name: 實體關聯性圖表圖例
+                  href: entity-relationship-diagram-legend.md
+                - name: 壓縮檔案
+                  href: text-archive-files.md
+                  items:
+                    - name: 封存檔案格式
+                      href: archive-file-format.md
+                    - name: 壓縮檔案中的 ASCII 資料
+                      href: ascii-data-in-text-archive-files.md
+                    - name: _ForceCodepage
+                      href: '-forcecodepage.md'
+                    - name: _SummaryInformation
+                      href: '-summaryinformation.md'
+            - name: 使用安裝程式資料庫
+              href: using-the-installer-database.md
+              items:
+                - name: 使用目錄資料表
+                  href: using-the-directory-table.md
+                - name: 使用順序資料表
+                  href: using-a-sequence-table.md
+                  items:
+                    - name: 順序資料表詳細範例
+                      href: sequence-table-detailed-example.md
+                    - name: 建議的 InstallUISequence
+                      href: suggested-installuisequence.md
+                    - name: 建議的 InstallExecuteSequence
+                      href: suggested-installexecutesequence.md
+                    - name: 建議的 AdminUISequence
+                      href: suggested-adminuisequence.md
+                    - name: 建議的 AdminExecuteSequence
+                      href: suggested-adminexecutesequence.md
+                    - name: 建議的 AdvtUISequence
+                      href: suggested-advtuisequence.md
+                    - name: 建議的 AdvtExecuteSequence
+                      href: suggested-advtexecutesequence.md
+                - name: 取得資料庫控制碼
+                  href: obtaining-a-database-handle.md
+                - name: 認可資料庫
+                  href: committing-databases.md
+                - name: 匯入和匯出
+                  href: importing-and-exporting.md
+                - name: 合併資料庫
+                  href: merging-databases.md
+                - name: 命名自訂資料表、屬性和動作
+                  href: naming-custom-tables-properties-and-actions.md
+                  items:
+                    - name: 資料表名稱
+                      href: table-names.md
+                - name: 資料流程的 OLE 限制
+                  href: ole-limitations-on-streams.md
+                - name: 使用查詢
+                  href: working-with-queries.md
+                  items:
+                    - name: 使用 SQL 和腳本的資料庫查詢範例
+                      href: examples-of-database-queries-using-sql-and-script.md
+                - name: 使用記錄
+                  href: working-with-records.md
+                - name: 使用 SQL 將二進位資料新增至資料表
+                  href: adding-binary-data-to-a-table-using-sql.md
+                - name: 使用資料夾位置
+                  href: working-with-folder-locations.md
+                - name: 指定自我註冊的順序
+                  href: specifying-the-order-of-self-registration.md
+                - name: 要在移除期間執行的調節動作
+                  href: conditioning-actions-to-run-during-removal.md
+                - name: 從程式呼叫資料庫函式
+                  href: calling-database-functions-from-programs.md
+                - name: 條件陳述式語法
+                  href: conditional-statement-syntax.md
+                  items:
+                    - name: 條件陳述式語法的範例
+                      href: examples-of-conditional-statement-syntax.md
+                - name: 資料行定義格式
+                  href: column-definition-format.md
+                - name: 判斷資料行是否為主要或外部索引鍵
+                  href: determining-whether-a-column-is-a-primary-or-external-key.md
+            - name: 安裝程式資料庫參考
+              href: installer-database-reference.md
+              items:
+                - name: 資料庫函數
+                  href: database-functions.md
+                  items:
+                    - name: SQL 語法
+                      href: sql-syntax.md
+                    - name: 傳遞 null 做為 Windows Installer 函數的引數
+                      href: passing-null-as-the-argument-of-windows-installer-functions.md
+                    - name: MsiCreateRecord
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msicreaterecord
+                    - name: MsiCreateTransformSummaryInfo
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa
+                    - name: MsiDatabaseApplyTransform
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseapplytransforma
+                    - name: MsiDatabaseCommit
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabasecommit
+                    - name: MsiDatabaseExport
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseexporta
+                    - name: MsiDatabaseGenerateTransform
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabasegeneratetransforma
+                    - name: MsiDatabaseGetPrimaryKeys
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa
+                    - name: MsiDatabaseImport
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta
+                    - name: MsiDatabaseIsTablePersistent
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseistablepersistenta
+                    - name: MsiDatabaseMerge
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea
+                    - name: MsiDatabaseOpenView
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidatabaseopenviewa
+                    - name: MsiDoAction
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msidoactiona
+                    - name: MsiEnableUIPreview
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msienableuipreview
+                    - name: MsiEnumComponentCosts
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msienumcomponentcostsa
+                    - name: MsiEvaluateCondition
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msievaluateconditiona
+                    - name: MsiFormatRecord
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiformatrecorda
+                    - name: MsiGetActiveDatabase
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetactivedatabase
+                    - name: MsiGetComponentState
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetcomponentstatea
+                    - name: MsiGetDatabaseState
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetdatabasestate
+                    - name: MsiGetFeatureCost
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturecosta
+                    - name: MsiGetFeatureState
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturestatea
+                    - name: MsiGetFeatureValidStates
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturevalidstatesa
+                    - name: MsiGetLanguage
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetlanguage
+                    - name: MsiGetLastErrorRecord
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetlasterrorrecord
+                    - name: MsiGetMode
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetmode
+                    - name: MsiGetProperty
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetpropertya
+                    - name: MsiGetSourcePath
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetsourcepatha
+                    - name: MsiGetSummaryInformation
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigetsummaryinformationa
+                    - name: MsiGetTargetPath
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msigettargetpatha
+                    - name: MsiOpenDatabase
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiopendatabasea
+                    - name: MsiPreviewBillboard
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msipreviewbillboarda
+                    - name: MsiPreviewDialog
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msipreviewdialoga
+                    - name: MsiProcessMessage
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage
+                    - name: MsiRecordClearData
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordcleardata
+                    - name: MsiRecordDataSize
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecorddatasize
+                    - name: MsiRecordGetFieldCount
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordgetfieldcount
+                    - name: MsiRecordGetInteger
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordgetinteger
+                    - name: MsiRecordGetString
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordgetstringa
+                    - name: MsiRecordIsNull
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordisnull
+                    - name: MsiRecordReadStream
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordreadstream
+                    - name: MsiRecordSetInteger
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordsetinteger
+                    - name: MsiRecordSetStream
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordsetstreama
+                    - name: MsiRecordSetString
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msirecordsetstringa
+                    - name: MsiSequence
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisequencea
+                    - name: MsiSetComponentState
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisetcomponentstatea
+                    - name: MsiSetFeatureAttributes
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisetfeatureattributesa
+                    - name: MsiSetFeatureState
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisetfeaturestatea
+                    - name: MsiSetInstallLevel
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisetinstalllevel
+                    - name: MsiSetMode
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisetmode
+                    - name: MsiSetProperty
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisetpropertya
+                    - name: MsiSetTargetPath
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisettargetpatha
+                    - name: MsiSummaryInfoGetProperty
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisummaryinfogetpropertya
+                    - name: MsiSummaryInfoGetPropertyCount
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisummaryinfogetpropertycount
+                    - name: MsiSummaryInfoPersist
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisummaryinfopersist
+                    - name: MsiSummaryInfoSetProperty
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msisummaryinfosetpropertya
+                    - name: MsiVerifyDiskSpace
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiverifydiskspace
+                    - name: MsiViewClose
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewclose
+                    - name: MsiViewExecute
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewexecute
+                    - name: MsiViewFetch
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewfetch
+                    - name: MsiViewGetColumnInfo
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewgetcolumninfo
+                    - name: MsiViewGetError
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewgeterrora
+                    - name: MsiViewModify
+                      href: /windows/desktop/api/Msiquery/nf-msiquery-msiviewmodify
+                - name: 資料庫資料表
+                  href: database-tables.md
+                  items:
+                    - name: 資料行資料類型
+                      href: column-data-types.md
+                      items:
+                        - name: Text
+                          href: text.md
+                        - name: UpperCase
+                          href: uppercase.md
+                        - name: LowerCase
+                          href: lowercase.md
+                        - name: 整數
+                          href: integer.md
+                        - name: DoubleInteger
+                          href: doubleinteger.md
+                        - name: 時間/日期
+                          href: time-date.md
+                        - name: 識別碼
+                          href: identifier.md
+                        - name: 屬性
+                          href: property.md
+                        - name: 檔案名稱
+                          href: filename.md
+                        - name: WildCardFilename
+                          href: wildcardfilename.md
+                        - name: 路徑
+                          href: path.md
+                        - name: 路徑
+                          href: paths.md
+                        - name: AnyPath
+                          href: anypath.md
+                        - name: DefaultDir
+                          href: defaultdir.md
+                        - name: RegPath
+                          href: regpath.md
+                        - name: 已格式化
+                          href: formatted.md
+                        - name: FormattedSDDLText
+                          href: formattedsddltext.md
+                        - name: 範本
+                          href: template.md
+                        - name: 條件
+                          href: condition.md
+                        - name: GUID
+                          href: guid.md
+                        - name: 版本
+                          href: version.md
+                        - name: 語言
+                          href: language.md
+                        - name: Binary
+                          href: binary.md
+                        - name: CustomSource
+                          href: customsource.md
+                        - name: 內閣
+                          href: cabinet.md
+                        - name: 快速鍵
+                          href: shortcut.md
+                    - name: _RowState 資料行
+                      href: '-rowstate-column.md'
+                    - name: ActionText 資料表
+                      href: actiontext-table.md
+                    - name: AdminExecuteSequence 資料表
+                      href: adminexecutesequence-table.md
+                    - name: AdminUISequence 資料表
+                      href: adminuisequence-table.md
+                    - name: AdvtExecuteSequence 資料表
+                      href: advtexecutesequence-table.md
+                    - name: AdvtUISequence 資料表
+                      href: advtuisequence-table.md
+                    - name: AppId 資料表
+                      href: appid-table.md
+                    - name: AppSearch 資料表
+                      href: appsearch-table.md
+                    - name: BBControl 資料表
+                      href: bbcontrol-table.md
+                    - name: 佈告欄資料表
+                      href: billboard-table.md
+                    - name: 二進位資料表
+                      href: binary-table.md
+                    - name: BindImage 資料表
+                      href: bindimage-table.md
+                    - name: CCPSearch 資料表
+                      href: ccpsearch-table.md
+                    - name: 核取方塊表格
+                      href: checkbox-table.md
+                    - name: 類別資料表
+                      href: class-table.md
+                    - name: ComboBox 資料表
+                      href: combobox-table.md
+                    - name: CompLocator 資料表
+                      href: complocator-table.md
+                    - name: Complus 資料表
+                      href: complus-table.md
+                    - name: 元件資料表
+                      href: component-table.md
+                    - name: 條件資料表
+                      href: condition-table.md
+                    - name: 控制資料表
+                      href: control-table.md
+                    - name: ControlCondition 資料表
+                      href: controlcondition-table.md
+                    - name: ControlEvent 資料表
+                      href: controlevent-table.md
+                    - name: CreateFolder 資料表
+                      href: createfolder-table.md
+                    - name: CustomAction 資料表
+                      href: customaction-table.md
+                    - name: 對話方塊資料表
+                      href: dialog-table.md
+                    - name: 目錄資料表
+                      href: directory-table.md
+                    - name: DrLocator 資料表
+                      href: drlocator-table.md
+                    - name: DuplicateFile 資料表
+                      href: duplicatefile-table.md
+                    - name: 環境資料表
+                      href: environment-table.md
+                    - name: 錯誤資料表
+                      href: error-table.md
+                    - name: EventMapping 資料表
+                      href: eventmapping-table.md
+                    - name: 延伸模組資料表
+                      href: extension-table.md
+                    - name: 功能資料表
+                      href: feature-table.md
+                    - name: FeatureComponents 資料表
+                      href: featurecomponents-table.md
+                    - name: FileTable
+                      href: file-table.md
+                    - name: FileSFPCatalog 資料表
+                      href: filesfpcatalog-table.md
+                    - name: 字型資料表
+                      href: font-table.md
+                    - name: 圖示表
+                      href: icon-table.md
+                    - name: IniFile 資料表
+                      href: inifile-table.md
+                    - name: IniLocator 資料表
+                      href: inilocator-table.md
+                    - name: InstallExecuteSequence 資料表
+                      href: installexecutesequence-table.md
+                    - name: InstallUISequence 資料表
+                      href: installuisequence-table.md
+                    - name: IsolatedComponent 資料表
+                      href: isolatedcomponent-table.md
+                    - name: LaunchCondition 資料表
+                      href: launchcondition-table.md
+                    - name: ListBox 資料表
+                      href: listbox-table.md
+                    - name: ListView 資料表
+                      href: listview-table.md
+                    - name: LockPermissions 資料表
+                      href: lockpermissions-table.md
+                    - name: 媒體資料表
+                      href: media-table.md
+                    - name: MIME 資料表
+                      href: mime-table.md
+                    - name: MoveFile 資料表
+                      href: movefile-table.md
+                    - name: MsiAssembly 資料表
+                      href: msiassembly-table.md
+                    - name: MsiAssemblyName 資料表
+                      href: msiassemblyname-table.md
+                    - name: MsiDigitalCertificate 資料表
+                      href: msidigitalcertificate-table.md
+                    - name: MsiDigitalSignature 資料表
+                      href: msidigitalsignature-table.md
+                    - name: MsiEmbeddedChainer 資料表
+                      href: msiembeddedchainer-table.md
+                    - name: MsiEmbeddedUI 資料表
+                      href: msiembeddedui-table.md
+                    - name: MsiFileHash 資料表
+                      href: msifilehash-table.md
+                    - name: MsiLockPermissionsEx 資料表
+                      href: msilockpermissionsex-table.md
+                    - name: MsiPackageCertificate 資料表
+                      href: msipackagecertificate-table.md
+                    - name: MsiPatchCertificate 資料表
+                      href: msipatchcertificate-table.md
+                    - name: MsiPatchHeaders 資料表
+                      href: msipatchheaders-table.md
+                    - name: MsiPatchMetadata 資料表
+                      href: msipatchmetadata-table.md
+                    - name: MsiPatchOldAssemblyFile 資料表
+                      href: msipatcholdassemblyfile-table.md
+                    - name: MsiPatchOldAssemblyName 資料表
+                      href: msipatcholdassemblyname-table.md
+                    - name: MsiPatchSequence 資料表
+                      href: msipatchsequence-table.md
+                    - name: MsiServiceConfig 資料表
+                      href: msiserviceconfig-table.md
+                    - name: MsiServiceConfigFailureActions 資料表
+                      href: msiserviceconfigfailureactions-table.md
+                    - name: MsiSFCBypass 資料表
+                      href: msisfcbypass-table.md
+                    - name: MsiShortcutProperty 資料表
+                      href: msishortcutproperty-table.md
+                    - name: ODBCAttribute 資料表
+                      href: odbcattribute-table.md
+                    - name: ODBCDataSource 資料表
+                      href: odbcdatasource-table.md
+                    - name: ODBCDriver 資料表
+                      href: odbcdriver-table.md
+                    - name: ODBCSourceAttribute 資料表
+                      href: odbcsourceattribute-table.md
+                    - name: ODBCTranslator 資料表
+                      href: odbctranslator-table.md
+                    - name: 修補資料表
+                      href: patch-table.md
+                    - name: PatchPackage 資料表
+                      href: patchpackage-table.md
+                    - name: ProgId 資料表
+                      href: progid-table.md
+                    - name: 屬性工作表
+                      href: property-table.md
+                    - name: PublishComponent 資料表
+                      href: publishcomponent-table.md
+                    - name: 選項按鈕資料表
+                      href: radiobutton-table.md
+                    - name: 登錄資料表
+                      href: registry-table.md
+                    - name: RegLocator 資料表
+                      href: reglocator-table.md
+                    - name: RemoveFile 資料表
+                      href: removefile-table.md
+                    - name: RemoveIniFile 資料表
+                      href: removeinifile-table.md
+                    - name: RemoveRegistry 資料表
+                      href: removeregistry-table.md
+                    - name: ReserveCost 資料表
+                      href: reservecost-table.md
+                    - name: SelfReg 資料表
+                      href: selfreg-table.md
+                    - name: ServiceControl 資料表
+                      href: servicecontrol-table.md
+                    - name: ServiceInstall 資料表
+                      href: serviceinstall-table.md
+                    - name: SFPCatalog 資料表
+                      href: sfpcatalog-table.md
+                    - name: 快速鍵資料表
+                      href: shortcut-table.md
+                    - name: 簽名表
+                      href: signature-table.md
+                    - name: 樣式表單
+                      href: textstyle-table.md
+                    - name: TypeLib 資料表
+                      href: typelib-table.md
+                    - name: UIText 資料表
+                      href: uitext-table.md
+                    - name: 升級資料表
+                      href: upgrade-table.md
+                    - name: 動詞資料表
+                      href: verb-table.md
+                    - name: _Columns 資料表
+                      href: '-columns-table.md'
+                    - name: _Storages 資料表
+                      href: '-storages-table.md'
+                    - name: _Streams 資料表
+                      href: '-streams-table.md'
+                    - name: _Tables 資料表
+                      href: '-tables-table.md'
+                    - name: _TransformView 資料表
+                      href: '-transformview-table.md'
+                    - name: _Validation 資料表
+                      href: '-validation-table.md'
+        - name: 已發行的版本、工具和可轉散發套件
+          href: released-versions-tools-and-redistributables.md
+          items:
+            - name: 適用于 Windows Installer 開發人員的 Windows SDK 元件
+              href: platform-sdk-components-for-windows-installer-developers.md
+            - name: Windows Installer 可轉散發套件
+              href: windows-installer-redistributables.md
+            - name: Windows Installer 的發行版本
+              href: released-versions-of-windows-installer.md
+            - name: Windows Installer 開發工具
+              href: windows-installer-development-tools.md
+              items:
+                - name: Instmsi.exe
+                  href: instmsi-exe.md
+                - name: Msicert.exe
+                  href: msicert-exe.md
+                - name: Msidb.exe
+                  href: msidb-exe.md
+                - name: Msifiler.exe
+                  href: msifiler-exe.md
+                - name: Msiinfo.exe
+                  href: msiinfo-exe.md
+                - name: Msimerg.exe
+                  href: msimerg-exe.md
+                - name: Msimsp.exe
+                  href: msimsp-exe.md
+                - name: Msistuff.exe
+                  href: msistuff-exe.md
+                - name: Msitool mak
+                  href: msitool-mak.md
+                - name: Msitran.exe
+                  href: msitran-exe.md
+                - name: Msival2.exe
+                  href: msival2-exe.md
+                - name: Msizap.exe
+                  href: msizap-exe.md
+                - name: Orca.exe
+                  href: orca-exe.md
+                - name: PATCHWIZ.DLL
+                  href: patchwiz-dll.md
+                  items:
+                    - name: '修補資訊快取 (PATCHWIZ.DLL) '
+                      href: patch-information-caching-patchwiz-dll-.md
+                    - name: 使用符號來減少二進位修補程式大小
+                      href: using-symbols-to-reduce-binary-patch-size.md
+                    - name: 修補選取的檔案區域
+                      href: patching-selected-regions-of-a-file.md
+                    - name: ' (PATCHWIZ.DLL) 產生修補程式順序資訊'
+                      href: generating-patch-sequence-information---patchwiz-dll-.md
+                    - name: 'UiCreatePatchPackageEx (Patchwiz.dll) '
+                      href: uicreatepatchpackageex--patchwiz-dll-.md
+                    - name: 'UiCreatePatchPackage (PATCHWIZ.DLL) '
+                      href: uicreatepatchpackage-patchwiz-dll-.md
+                    - name: UiCreatePatchPackage 的傳回值
+                      href: return-values-for-uicreatepatchpackage.md
+                    - name: '屬性資料表 (PATCHWIZ.DLL) '
+                      href: properties-table-patchwiz-dll-.md
+                    - name: 'ImageFamilies 資料表 (Patchwiz.dll) '
+                      href: imagefamilies-table-patchwiz-dll-.md
+                    - name: 'UpgradedImages 資料表 (PATCHWIZ.DLL) '
+                      href: upgradedimages-table-patchwiz-dll-.md
+                    - name: 'TargetImages 資料表 (PATCHWIZ.DLL) '
+                      href: targetimages-table-patchwiz-dll-.md
+                    - name: 'UpgradedFiles_OptionalData 資料表 (PATCHWIZ.DLL) '
+                      href: upgradedfiles-optionaldata-table-patchwiz-dll-.md
+                    - name: 'FamilyFileRanges 資料表 (PATCHWIZ.DLL) '
+                      href: familyfileranges-table-patchwiz-dll-.md
+                    - name: 'TargetFiles_OptionalData 資料表 (PATCHWIZ.DLL) '
+                      href: targetfiles-optionaldata-table-patchwiz-dll-.md
+                    - name: 'ExternalFiles 資料表 (PATCHWIZ.DLL) '
+                      href: externalfiles-table-patchwiz-dll-.md
+                    - name: 'UpgradedFilesToIgnore 資料表 (PATCHWIZ.DLL) '
+                      href: upgradedfilestoignore-table-patchwiz-dll-.md
+                    - name: 'PatchMetadata 資料表 (PATCHWIZ.DLL) '
+                      href: patchmetadata-table--patchwiz-dll-.md
+                    - name: 'PatchSequence 資料表 (PATCHWIZ.DLL) '
+                      href: patchsequence-table--patchwiz-dll-.md
+                - name: Wilogutl.exe
+                  href: wilogutl-exe.md
+        - name: 錯誤參考
+          href: errors-reference.md
+          items:
+            - name: Windows Installer 錯誤訊息
+              href: windows-installer-error-messages.md
+            - name: MsiExec.exe 並 InstMsi.exe 錯誤訊息
+              href: error-codes.md
+        - name: 詞彙
+          href: glossary.md
+          items:
+            - name: A
+              href: a-gly.md
+            - name: B
+              href: b-gly.md
+            - name: C
+              href: c-gly.md
+            - name: D
+              href: d-gly.md
+            - name: E
+              href: e-gly.md
+            - name: F
+              href: f-gly.md
+            - name: G
+              href: g-gly.md
+            - name: I
+              href: i-gly.md
+            - name: M
+              href: m-gly.md
+            - name: O
+              href: o-gly.md
+            - name: P
+              href: p-gly.md
+            - name: Q
+              href: q-gly.md
+            - name: R
+              href: r-gly.md
+            - name: S
+              href: s-gly.md
+            - name: T
+              href: t-gly.md
+            - name: U
+              href: u-gly.md
+            - name: V
+              href: v-gly.md
