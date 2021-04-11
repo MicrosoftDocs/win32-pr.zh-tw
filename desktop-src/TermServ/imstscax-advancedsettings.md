@@ -61,13 +61,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934368"
 ---
-# <a name="imstscaxadvancedsettings-property"></a><span data-ttu-id="ef28a-124">IMsTscAx：： AdvancedSettings 屬性</span><span class="sxs-lookup"><span data-stu-id="ef28a-124">IMsTscAx::AdvancedSettings property</span></span>
+# <a name="imstscaxadvancedsettings-property"></a><span data-ttu-id="f7e10-124">IMsTscAx：： AdvancedSettings 屬性</span><span class="sxs-lookup"><span data-stu-id="f7e10-124">IMsTscAx::AdvancedSettings property</span></span>
 
-<span data-ttu-id="ef28a-125">捕獲 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) 介面指標。</span><span class="sxs-lookup"><span data-stu-id="ef28a-125">Retrieves an [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) interface pointer.</span></span>
+<span data-ttu-id="f7e10-125">捕獲 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) 介面指標。</span><span class="sxs-lookup"><span data-stu-id="f7e10-125">Retrieves an [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) interface pointer.</span></span>
 
-<span data-ttu-id="ef28a-126">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="ef28a-126">This property is read-only.</span></span>
+<span data-ttu-id="f7e10-126">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="f7e10-126">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ef28a-127">語法</span><span class="sxs-lookup"><span data-stu-id="ef28a-127">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f7e10-127">語法</span><span class="sxs-lookup"><span data-stu-id="f7e10-127">Syntax</span></span>
 
 
 ```C++
@@ -78,64 +78,64 @@ HRESULT get_AdvancedSettings(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="ef28a-128">屬性值</span><span class="sxs-lookup"><span data-stu-id="ef28a-128">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="f7e10-128">屬性值</span><span class="sxs-lookup"><span data-stu-id="f7e10-128">Property value</span></span>
 
-<span data-ttu-id="ef28a-129">[**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md)介面指標。</span><span class="sxs-lookup"><span data-stu-id="ef28a-129">An [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) interface pointer.</span></span>
+<span data-ttu-id="f7e10-129">[**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md)介面指標。</span><span class="sxs-lookup"><span data-stu-id="f7e10-129">An [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) interface pointer.</span></span>
 
-## <a name="error-codes"></a><span data-ttu-id="ef28a-130">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="ef28a-130">Error codes</span></span>
+## <a name="error-codes"></a><span data-ttu-id="f7e10-130">錯誤碼</span><span class="sxs-lookup"><span data-stu-id="f7e10-130">Error codes</span></span>
 
-<span data-ttu-id="ef28a-131">如果成功，則傳回 **S \_ OK** 。</span><span class="sxs-lookup"><span data-stu-id="ef28a-131">Return **S\_OK** if successful.</span></span>
+<span data-ttu-id="f7e10-131">如果成功，則傳回 **S \_ OK** 。</span><span class="sxs-lookup"><span data-stu-id="f7e10-131">Return **S\_OK** if successful.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ef28a-132">備註</span><span class="sxs-lookup"><span data-stu-id="ef28a-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f7e10-132">備註</span><span class="sxs-lookup"><span data-stu-id="f7e10-132">Remarks</span></span>
 
-<span data-ttu-id="ef28a-133">如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。</span><span class="sxs-lookup"><span data-stu-id="ef28a-133">For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).</span></span>
+<span data-ttu-id="f7e10-133">如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。</span><span class="sxs-lookup"><span data-stu-id="f7e10-133">For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="ef28a-134">規格需求</span><span class="sxs-lookup"><span data-stu-id="ef28a-134">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f7e10-134">規格需求</span><span class="sxs-lookup"><span data-stu-id="f7e10-134">Requirements</span></span>
 
 
 
-| <span data-ttu-id="ef28a-135">需求</span><span class="sxs-lookup"><span data-stu-id="ef28a-135">Requirement</span></span> | <span data-ttu-id="ef28a-136">值</span><span class="sxs-lookup"><span data-stu-id="ef28a-136">Value</span></span> |
+| <span data-ttu-id="f7e10-135">需求</span><span class="sxs-lookup"><span data-stu-id="f7e10-135">Requirement</span></span> | <span data-ttu-id="f7e10-136">值</span><span class="sxs-lookup"><span data-stu-id="f7e10-136">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="ef28a-137">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ef28a-137">Minimum supported client</span></span><br/> | <span data-ttu-id="ef28a-138">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="ef28a-138">Windows Vista</span></span><br/>                                                               |
-| <span data-ttu-id="ef28a-139">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ef28a-139">Minimum supported server</span></span><br/> | <span data-ttu-id="ef28a-140">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="ef28a-140">Windows Server 2008</span></span><br/>                                                         |
-| <span data-ttu-id="ef28a-141">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="ef28a-141">Type library</span></span><br/>             | <dl> <span data-ttu-id="ef28a-142"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ef28a-142"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="ef28a-143">DLL</span><span class="sxs-lookup"><span data-stu-id="ef28a-143">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ef28a-144"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ef28a-144"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="ef28a-145">IID</span><span class="sxs-lookup"><span data-stu-id="ef28a-145">IID</span></span><br/>                      | <span data-ttu-id="ef28a-146">IID \_ IMsTscAx 定義為8C11EFAE-92C3-11D1-BC1E-00C04FA31489</span><span class="sxs-lookup"><span data-stu-id="ef28a-146">IID\_IMsTscAx is defined as 8C11EFAE-92C3-11D1-BC1E-00C04FA31489</span></span><br/>            |
+| <span data-ttu-id="f7e10-137">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f7e10-137">Minimum supported client</span></span><br/> | <span data-ttu-id="f7e10-138">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="f7e10-138">Windows Vista</span></span><br/>                                                               |
+| <span data-ttu-id="f7e10-139">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f7e10-139">Minimum supported server</span></span><br/> | <span data-ttu-id="f7e10-140">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="f7e10-140">Windows Server 2008</span></span><br/>                                                         |
+| <span data-ttu-id="f7e10-141">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="f7e10-141">Type library</span></span><br/>             | <dl> <span data-ttu-id="f7e10-142"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f7e10-142"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="f7e10-143">DLL</span><span class="sxs-lookup"><span data-stu-id="f7e10-143">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f7e10-144"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f7e10-144"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="f7e10-145">IID</span><span class="sxs-lookup"><span data-stu-id="f7e10-145">IID</span></span><br/>                      | <span data-ttu-id="f7e10-146">IID \_ IMsTscAx 定義為8C11EFAE-92C3-11D1-BC1E-00C04FA31489</span><span class="sxs-lookup"><span data-stu-id="f7e10-146">IID\_IMsTscAx is defined as 8C11EFAE-92C3-11D1-BC1E-00C04FA31489</span></span><br/>            |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="ef28a-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ef28a-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f7e10-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f7e10-147">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ef28a-148">**IMsRdpClient**</span><span class="sxs-lookup"><span data-stu-id="ef28a-148">**IMsRdpClient**</span></span>](imsrdpclient-interface.md)
+[<span data-ttu-id="f7e10-148">**IMsRdpClient**</span><span class="sxs-lookup"><span data-stu-id="f7e10-148">**IMsRdpClient**</span></span>](imsrdpclient-interface.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef28a-149">**IMsRdpClient2**</span><span class="sxs-lookup"><span data-stu-id="ef28a-149">**IMsRdpClient2**</span></span>](imsrdpclient2.md)
+[<span data-ttu-id="f7e10-149">**IMsRdpClient2**</span><span class="sxs-lookup"><span data-stu-id="f7e10-149">**IMsRdpClient2**</span></span>](imsrdpclient2.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef28a-150">**IMsRdpClient3**</span><span class="sxs-lookup"><span data-stu-id="ef28a-150">**IMsRdpClient3**</span></span>](imsrdpclient3.md)
+[<span data-ttu-id="f7e10-150">**IMsRdpClient3**</span><span class="sxs-lookup"><span data-stu-id="f7e10-150">**IMsRdpClient3**</span></span>](imsrdpclient3.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef28a-151">**IMsRdpClient4**</span><span class="sxs-lookup"><span data-stu-id="ef28a-151">**IMsRdpClient4**</span></span>](imsrdpclient4.md)
+[<span data-ttu-id="f7e10-151">**IMsRdpClient4**</span><span class="sxs-lookup"><span data-stu-id="f7e10-151">**IMsRdpClient4**</span></span>](imsrdpclient4.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef28a-152">**IMsRdpClient5**</span><span class="sxs-lookup"><span data-stu-id="ef28a-152">**IMsRdpClient5**</span></span>](imsrdpclient5.md)
+[<span data-ttu-id="f7e10-152">**IMsRdpClient5**</span><span class="sxs-lookup"><span data-stu-id="f7e10-152">**IMsRdpClient5**</span></span>](imsrdpclient5.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef28a-153">**IMsRdpClient6**</span><span class="sxs-lookup"><span data-stu-id="ef28a-153">**IMsRdpClient6**</span></span>](imsrdpclient6.md)
+[<span data-ttu-id="f7e10-153">**IMsRdpClient6**</span><span class="sxs-lookup"><span data-stu-id="f7e10-153">**IMsRdpClient6**</span></span>](imsrdpclient6.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef28a-154">**IMsRdpClient7**</span><span class="sxs-lookup"><span data-stu-id="ef28a-154">**IMsRdpClient7**</span></span>](imsrdpclient7.md)
+[<span data-ttu-id="f7e10-154">**IMsRdpClient7**</span><span class="sxs-lookup"><span data-stu-id="f7e10-154">**IMsRdpClient7**</span></span>](imsrdpclient7.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef28a-155">**IMsRdpClient8**</span><span class="sxs-lookup"><span data-stu-id="ef28a-155">**IMsRdpClient8**</span></span>](imsrdpclient8.md)
+[<span data-ttu-id="f7e10-155">**IMsRdpClient8**</span><span class="sxs-lookup"><span data-stu-id="f7e10-155">**IMsRdpClient8**</span></span>](imsrdpclient8.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef28a-156">**IMsRdpClient9**</span><span class="sxs-lookup"><span data-stu-id="ef28a-156">**IMsRdpClient9**</span></span>](imsrdpclient9.md)
+[<span data-ttu-id="f7e10-156">**IMsRdpClient9**</span><span class="sxs-lookup"><span data-stu-id="f7e10-156">**IMsRdpClient9**</span></span>](imsrdpclient9.md)
 </dt> <dt>
 
-[<span data-ttu-id="ef28a-157">**IMsTscAx**</span><span class="sxs-lookup"><span data-stu-id="ef28a-157">**IMsTscAx**</span></span>](imstscax-interface.md)
+[<span data-ttu-id="f7e10-157">**IMsTscAx**</span><span class="sxs-lookup"><span data-stu-id="f7e10-157">**IMsTscAx**</span></span>](imstscax-interface.md)
 </dt> </dl>
 
  

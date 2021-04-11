@@ -23,11 +23,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934136"
 ---
-# <a name="triggerenabled-property"></a><span data-ttu-id="c8f99-106">觸發程式。已啟用屬性</span><span class="sxs-lookup"><span data-stu-id="c8f99-106">Trigger.Enabled property</span></span>
+# <a name="triggerenabled-property"></a><span data-ttu-id="240d3-106">觸發程式。已啟用屬性</span><span class="sxs-lookup"><span data-stu-id="240d3-106">Trigger.Enabled property</span></span>
 
-<span data-ttu-id="c8f99-107">針對腳本，取得或設定布林值，指出是否已啟用觸發程式。</span><span class="sxs-lookup"><span data-stu-id="c8f99-107">For scripting, gets or sets a Boolean value that indicates whether the trigger is enabled.</span></span>
+<span data-ttu-id="240d3-107">針對腳本，取得或設定布林值，指出是否已啟用觸發程式。</span><span class="sxs-lookup"><span data-stu-id="240d3-107">For scripting, gets or sets a Boolean value that indicates whether the trigger is enabled.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c8f99-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="c8f99-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="240d3-108">Syntax</span><span class="sxs-lookup"><span data-stu-id="240d3-108">Syntax</span></span>
 
 
 ```VB
@@ -36,32 +36,32 @@ Trigger.Enabled As Boolean
 
 
 
-## <a name="property-value"></a><span data-ttu-id="c8f99-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="c8f99-109">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="240d3-109">屬性值</span><span class="sxs-lookup"><span data-stu-id="240d3-109">Property value</span></span>
 
-<span data-ttu-id="c8f99-110">如果觸發程式已啟用，則為 True;否則為 false。</span><span class="sxs-lookup"><span data-stu-id="c8f99-110">True if the trigger is enabled; otherwise, false.</span></span> <span data-ttu-id="c8f99-111">預設值是 true。</span><span class="sxs-lookup"><span data-stu-id="c8f99-111">The default is true.</span></span>
+<span data-ttu-id="240d3-110">如果觸發程式已啟用，則為 True;否則為 false。</span><span class="sxs-lookup"><span data-stu-id="240d3-110">True if the trigger is enabled; otherwise, false.</span></span> <span data-ttu-id="240d3-111">預設值是 true。</span><span class="sxs-lookup"><span data-stu-id="240d3-111">The default is true.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c8f99-112">備註</span><span class="sxs-lookup"><span data-stu-id="c8f99-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="240d3-112">備註</span><span class="sxs-lookup"><span data-stu-id="240d3-112">Remarks</span></span>
 
-<span data-ttu-id="c8f99-113">讀取或寫入工作的 XML 時，已啟用的屬性會使用工作排程器架構的 [**enabled**](taskschedulerschema-enabled-triggerbasetype-element.md) 元素來指定。</span><span class="sxs-lookup"><span data-stu-id="c8f99-113">When reading or writing XML for a task, the enabled property is specified using the [**Enabled**](taskschedulerschema-enabled-triggerbasetype-element.md) element of the Task Scheduler schema.</span></span>
+<span data-ttu-id="240d3-113">讀取或寫入工作的 XML 時，已啟用的屬性會使用工作排程器架構的 [**enabled**](taskschedulerschema-enabled-triggerbasetype-element.md) 元素來指定。</span><span class="sxs-lookup"><span data-stu-id="240d3-113">When reading or writing XML for a task, the enabled property is specified using the [**Enabled**](taskschedulerschema-enabled-triggerbasetype-element.md) element of the Task Scheduler schema.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="c8f99-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="c8f99-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="240d3-114">規格需求</span><span class="sxs-lookup"><span data-stu-id="240d3-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="c8f99-115">需求</span><span class="sxs-lookup"><span data-stu-id="c8f99-115">Requirement</span></span> | <span data-ttu-id="c8f99-116">值</span><span class="sxs-lookup"><span data-stu-id="c8f99-116">Value</span></span> |
+| <span data-ttu-id="240d3-115">需求</span><span class="sxs-lookup"><span data-stu-id="240d3-115">Requirement</span></span> | <span data-ttu-id="240d3-116">值</span><span class="sxs-lookup"><span data-stu-id="240d3-116">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="c8f99-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="c8f99-117">Minimum supported client</span></span><br/> | <span data-ttu-id="c8f99-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c8f99-118">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
-| <span data-ttu-id="c8f99-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="c8f99-119">Minimum supported server</span></span><br/> | <span data-ttu-id="c8f99-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="c8f99-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
-| <span data-ttu-id="c8f99-121">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="c8f99-121">Type library</span></span><br/>             | <dl> <span data-ttu-id="c8f99-122"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="c8f99-122"><dt>Taskschd.tlb</dt></span></span> </dl> |
-| <span data-ttu-id="c8f99-123">DLL</span><span class="sxs-lookup"><span data-stu-id="c8f99-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c8f99-124"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="c8f99-124"><dt>Taskschd.dll</dt></span></span> </dl> |
+| <span data-ttu-id="240d3-117">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="240d3-117">Minimum supported client</span></span><br/> | <span data-ttu-id="240d3-118">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="240d3-118">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="240d3-119">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="240d3-119">Minimum supported server</span></span><br/> | <span data-ttu-id="240d3-120">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="240d3-120">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="240d3-121">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="240d3-121">Type library</span></span><br/>             | <dl> <span data-ttu-id="240d3-122"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="240d3-122"><dt>Taskschd.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="240d3-123">DLL</span><span class="sxs-lookup"><span data-stu-id="240d3-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="240d3-124"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="240d3-124"><dt>Taskschd.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="c8f99-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c8f99-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="240d3-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="240d3-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c8f99-126">工作排程器</span><span class="sxs-lookup"><span data-stu-id="c8f99-126">Task Scheduler</span></span>](task-scheduler-start-page.md)
+[<span data-ttu-id="240d3-126">工作排程器</span><span class="sxs-lookup"><span data-stu-id="240d3-126">Task Scheduler</span></span>](task-scheduler-start-page.md)
 </dt> </dl>
 
  

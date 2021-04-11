@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934324"
 ---
-# <a name="keywords-channelpublishingtype-element"></a><span data-ttu-id="7baaf-104">關鍵字 (ChannelPublishingType) 元素</span><span class="sxs-lookup"><span data-stu-id="7baaf-104">keywords (ChannelPublishingType) Element</span></span>
+# <a name="keywords-channelpublishingtype-element"></a><span data-ttu-id="8cb41-104">關鍵字 (ChannelPublishingType) 元素</span><span class="sxs-lookup"><span data-stu-id="8cb41-104">keywords (ChannelPublishingType) Element</span></span>
 
-<span data-ttu-id="7baaf-105">位元遮罩，可決定寫入通道的事件分類。</span><span class="sxs-lookup"><span data-stu-id="7baaf-105">A bitmask that determines the category of events that are written to the channel.</span></span>
+<span data-ttu-id="8cb41-105">位元遮罩，可決定寫入通道的事件分類。</span><span class="sxs-lookup"><span data-stu-id="8cb41-105">A bitmask that determines the category of events that are written to the channel.</span></span>
 
 ``` syntax
 <xs:element name="keywords"
@@ -30,27 +30,27 @@ ms.locfileid: "103934324"
  />
 ```
 
-<span data-ttu-id="7baaf-106">**關鍵字** 元素是由 [**ChannelPublishingType**](eventmanifestschema-channelpublishingtype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="7baaf-106">The **keywords** element is defined by the [**ChannelPublishingType**](eventmanifestschema-channelpublishingtype-complextype.md) complex type.</span></span>
+<span data-ttu-id="8cb41-106">**關鍵字** 元素是由 [**ChannelPublishingType**](eventmanifestschema-channelpublishingtype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="8cb41-106">The **keywords** element is defined by the [**ChannelPublishingType**](eventmanifestschema-channelpublishingtype-complextype.md) complex type.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="7baaf-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="7baaf-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8cb41-107">規格需求</span><span class="sxs-lookup"><span data-stu-id="8cb41-107">Requirements</span></span>
 
 
 
-| <span data-ttu-id="7baaf-108">需求</span><span class="sxs-lookup"><span data-stu-id="7baaf-108">Requirement</span></span> | <span data-ttu-id="7baaf-109">值</span><span class="sxs-lookup"><span data-stu-id="7baaf-109">Value</span></span> |
+| <span data-ttu-id="8cb41-108">需求</span><span class="sxs-lookup"><span data-stu-id="8cb41-108">Requirement</span></span> | <span data-ttu-id="8cb41-109">值</span><span class="sxs-lookup"><span data-stu-id="8cb41-109">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="7baaf-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="7baaf-110">Minimum supported client</span></span><br/> | <span data-ttu-id="7baaf-111">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7baaf-111">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="7baaf-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="7baaf-112">Minimum supported server</span></span><br/> | <span data-ttu-id="7baaf-113">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="7baaf-113">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="8cb41-110">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="8cb41-110">Minimum supported client</span></span><br/> | <span data-ttu-id="8cb41-111">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8cb41-111">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="8cb41-112">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="8cb41-112">Minimum supported server</span></span><br/> | <span data-ttu-id="8cb41-113">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="8cb41-113">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7baaf-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7baaf-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8cb41-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8cb41-114">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="7baaf-115">**父元素**</span><span class="sxs-lookup"><span data-stu-id="7baaf-115">**Parent element**</span></span>
+<span data-ttu-id="8cb41-115">**父元素**</span><span class="sxs-lookup"><span data-stu-id="8cb41-115">**Parent element**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="7baaf-116">**發行 (ChannelType)**</span><span class="sxs-lookup"><span data-stu-id="7baaf-116">**publishing (ChannelType)**</span></span>](eventmanifestschema-publishing-channeltype-element.md)
+[<span data-ttu-id="8cb41-116">**發行 (ChannelType)**</span><span class="sxs-lookup"><span data-stu-id="8cb41-116">**publishing (ChannelType)**</span></span>](eventmanifestschema-publishing-channeltype-element.md)
 </dt> </dl>
 
  

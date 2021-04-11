@@ -37,13 +37,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934063"
 ---
-# <a name="imsrdpclient7remoteprogram2-property"></a><span data-ttu-id="a37a5-112">IMsRdpClient7：： RemoteProgram2 屬性</span><span class="sxs-lookup"><span data-stu-id="a37a5-112">IMsRdpClient7::RemoteProgram2 property</span></span>
+# <a name="imsrdpclient7remoteprogram2-property"></a><span data-ttu-id="aea70-112">IMsRdpClient7：： RemoteProgram2 屬性</span><span class="sxs-lookup"><span data-stu-id="aea70-112">IMsRdpClient7::RemoteProgram2 property</span></span>
 
-<span data-ttu-id="a37a5-113">抓取支援 [**ITSRemoteProgram2**](itsremoteprogram2.md) 介面的物件。</span><span class="sxs-lookup"><span data-stu-id="a37a5-113">Retrieves an object that supports the [**ITSRemoteProgram2**](itsremoteprogram2.md) interface.</span></span>
+<span data-ttu-id="aea70-113">抓取支援 [**ITSRemoteProgram2**](itsremoteprogram2.md) 介面的物件。</span><span class="sxs-lookup"><span data-stu-id="aea70-113">Retrieves an object that supports the [**ITSRemoteProgram2**](itsremoteprogram2.md) interface.</span></span>
 
-<span data-ttu-id="a37a5-114">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="a37a5-114">This property is read-only.</span></span>
+<span data-ttu-id="aea70-114">這個屬性是唯讀的。</span><span class="sxs-lookup"><span data-stu-id="aea70-114">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a37a5-115">語法</span><span class="sxs-lookup"><span data-stu-id="a37a5-115">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="aea70-115">語法</span><span class="sxs-lookup"><span data-stu-id="aea70-115">Syntax</span></span>
 
 
 ```C++
@@ -54,38 +54,38 @@ HRESULT get_RemoteProgram2(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="a37a5-116">屬性值</span><span class="sxs-lookup"><span data-stu-id="a37a5-116">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="aea70-116">屬性值</span><span class="sxs-lookup"><span data-stu-id="aea70-116">Property value</span></span>
 
-<span data-ttu-id="a37a5-117">接收物件之 [**ITSRemoteProgram2**](itsremoteprogram2.md) 介面指標的位址。</span><span class="sxs-lookup"><span data-stu-id="a37a5-117">The address of an [**ITSRemoteProgram2**](itsremoteprogram2.md) interface pointer that receives the object.</span></span>
+<span data-ttu-id="aea70-117">接收物件之 [**ITSRemoteProgram2**](itsremoteprogram2.md) 介面指標的位址。</span><span class="sxs-lookup"><span data-stu-id="aea70-117">The address of an [**ITSRemoteProgram2**](itsremoteprogram2.md) interface pointer that receives the object.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="a37a5-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="a37a5-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="aea70-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="aea70-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a37a5-119">需求</span><span class="sxs-lookup"><span data-stu-id="a37a5-119">Requirement</span></span> | <span data-ttu-id="a37a5-120">值</span><span class="sxs-lookup"><span data-stu-id="a37a5-120">Value</span></span> |
+| <span data-ttu-id="aea70-119">需求</span><span class="sxs-lookup"><span data-stu-id="aea70-119">Requirement</span></span> | <span data-ttu-id="aea70-120">值</span><span class="sxs-lookup"><span data-stu-id="aea70-120">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="a37a5-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a37a5-121">Minimum supported client</span></span><br/> | <span data-ttu-id="a37a5-122">Windows 7</span><span class="sxs-lookup"><span data-stu-id="a37a5-122">Windows 7</span></span><br/>                                                                   |
-| <span data-ttu-id="a37a5-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a37a5-123">Minimum supported server</span></span><br/> | <span data-ttu-id="a37a5-124">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="a37a5-124">Windows Server 2008 R2</span></span><br/>                                                      |
-| <span data-ttu-id="a37a5-125">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="a37a5-125">Type library</span></span><br/>             | <dl> <span data-ttu-id="a37a5-126"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="a37a5-126"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="a37a5-127">DLL</span><span class="sxs-lookup"><span data-stu-id="a37a5-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="a37a5-128"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="a37a5-128"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="a37a5-129">IID</span><span class="sxs-lookup"><span data-stu-id="a37a5-129">IID</span></span><br/>                      | <span data-ttu-id="a37a5-130">IID \_ IMsRdpClient7 定義為 b2a5b5ce-3461-444a-91d4-add26d070638</span><span class="sxs-lookup"><span data-stu-id="a37a5-130">IID\_IMsRdpClient7 is defined as b2a5b5ce-3461-444a-91d4-add26d070638</span></span><br/>       |
+| <span data-ttu-id="aea70-121">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="aea70-121">Minimum supported client</span></span><br/> | <span data-ttu-id="aea70-122">Windows 7</span><span class="sxs-lookup"><span data-stu-id="aea70-122">Windows 7</span></span><br/>                                                                   |
+| <span data-ttu-id="aea70-123">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="aea70-123">Minimum supported server</span></span><br/> | <span data-ttu-id="aea70-124">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="aea70-124">Windows Server 2008 R2</span></span><br/>                                                      |
+| <span data-ttu-id="aea70-125">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="aea70-125">Type library</span></span><br/>             | <dl> <span data-ttu-id="aea70-126"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="aea70-126"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="aea70-127">DLL</span><span class="sxs-lookup"><span data-stu-id="aea70-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="aea70-128"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="aea70-128"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="aea70-129">IID</span><span class="sxs-lookup"><span data-stu-id="aea70-129">IID</span></span><br/>                      | <span data-ttu-id="aea70-130">IID \_ IMsRdpClient7 定義為 b2a5b5ce-3461-444a-91d4-add26d070638</span><span class="sxs-lookup"><span data-stu-id="aea70-130">IID\_IMsRdpClient7 is defined as b2a5b5ce-3461-444a-91d4-add26d070638</span></span><br/>       |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a37a5-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a37a5-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aea70-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="aea70-131">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a37a5-132">**IMsRdpClient7**</span><span class="sxs-lookup"><span data-stu-id="a37a5-132">**IMsRdpClient7**</span></span>](imsrdpclient7.md)
+[<span data-ttu-id="aea70-132">**IMsRdpClient7**</span><span class="sxs-lookup"><span data-stu-id="aea70-132">**IMsRdpClient7**</span></span>](imsrdpclient7.md)
 </dt> <dt>
 
-[<span data-ttu-id="a37a5-133">**IMsRdpClient8**</span><span class="sxs-lookup"><span data-stu-id="a37a5-133">**IMsRdpClient8**</span></span>](imsrdpclient8.md)
+[<span data-ttu-id="aea70-133">**IMsRdpClient8**</span><span class="sxs-lookup"><span data-stu-id="aea70-133">**IMsRdpClient8**</span></span>](imsrdpclient8.md)
 </dt> <dt>
 
-[<span data-ttu-id="a37a5-134">**IMsRdpClient9**</span><span class="sxs-lookup"><span data-stu-id="a37a5-134">**IMsRdpClient9**</span></span>](imsrdpclient9.md)
+[<span data-ttu-id="aea70-134">**IMsRdpClient9**</span><span class="sxs-lookup"><span data-stu-id="aea70-134">**IMsRdpClient9**</span></span>](imsrdpclient9.md)
 </dt> <dt>
 
-[<span data-ttu-id="a37a5-135">**IMsRdpClient10**</span><span class="sxs-lookup"><span data-stu-id="a37a5-135">**IMsRdpClient10**</span></span>](imsrdpclient10.md)
+[<span data-ttu-id="aea70-135">**IMsRdpClient10**</span><span class="sxs-lookup"><span data-stu-id="aea70-135">**IMsRdpClient10**</span></span>](imsrdpclient10.md)
 </dt> </dl>
 
  

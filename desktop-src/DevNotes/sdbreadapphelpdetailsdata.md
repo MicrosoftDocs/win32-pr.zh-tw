@@ -20,11 +20,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103934310"
 ---
-# <a name="sdbreadapphelpdetailsdata-function"></a><span data-ttu-id="16243-103">SdbReadApphelpDetailsData 函式</span><span class="sxs-lookup"><span data-stu-id="16243-103">SdbReadApphelpDetailsData function</span></span>
+# <a name="sdbreadapphelpdetailsdata-function"></a><span data-ttu-id="2ba5e-103">SdbReadApphelpDetailsData 函式</span><span class="sxs-lookup"><span data-stu-id="2ba5e-103">SdbReadApphelpDetailsData function</span></span>
 
-<span data-ttu-id="16243-104">從 Apphelp 詳細資料資料庫中取出資料。</span><span class="sxs-lookup"><span data-stu-id="16243-104">Retrieves data from the Apphelp details database.</span></span>
+<span data-ttu-id="2ba5e-104">從 Apphelp 詳細資料資料庫中取出資料。</span><span class="sxs-lookup"><span data-stu-id="2ba5e-104">Retrieves data from the Apphelp details database.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="16243-105">語法</span><span class="sxs-lookup"><span data-stu-id="16243-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2ba5e-105">語法</span><span class="sxs-lookup"><span data-stu-id="2ba5e-105">Syntax</span></span>
 
 
 ```C++
@@ -36,37 +36,37 @@ BOOL WINAPI SdbReadApphelpDetailsData(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="16243-106">參數</span><span class="sxs-lookup"><span data-stu-id="16243-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2ba5e-106">參數</span><span class="sxs-lookup"><span data-stu-id="2ba5e-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="16243-107">*pdb* \[在\]</span><span class="sxs-lookup"><span data-stu-id="16243-107">*pdb* \[in\]</span></span>
+<span data-ttu-id="2ba5e-107">*pdb* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2ba5e-107">*pdb* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="16243-108">Apphelp details 資料庫 Apphelp 的控制碼。</span><span class="sxs-lookup"><span data-stu-id="16243-108">A handle to the Apphelp details database, Apphelp.sdb.</span></span>
+<span data-ttu-id="2ba5e-108">Apphelp details 資料庫 Apphelp 的控制碼。</span><span class="sxs-lookup"><span data-stu-id="2ba5e-108">A handle to the Apphelp details database, Apphelp.sdb.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="16243-109">*.pdata* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="16243-109">*pData* \[out\]</span></span>
+<span data-ttu-id="2ba5e-109">*.pdata* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="2ba5e-109">*pData* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="16243-110">[**APPHELP \_ 資料**](apphelp-data.md)結構。</span><span class="sxs-lookup"><span data-stu-id="16243-110">An [**APPHELP\_DATA**](apphelp-data.md) structure.</span></span>
+<span data-ttu-id="2ba5e-110">[**APPHELP \_ 資料**](apphelp-data.md)結構。</span><span class="sxs-lookup"><span data-stu-id="2ba5e-110">An [**APPHELP\_DATA**](apphelp-data.md) structure.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="16243-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="16243-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2ba5e-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="2ba5e-111">Return value</span></span>
 
-<span data-ttu-id="16243-112">當失敗時，函數會傳回 **TRUE** 或 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="16243-112">The function returns **TRUE** on success or **FALSE** on failure.</span></span>
+<span data-ttu-id="2ba5e-112">當失敗時，函數會傳回 **TRUE** 或 **FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="2ba5e-112">The function returns **TRUE** on success or **FALSE** on failure.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="16243-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="16243-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2ba5e-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="2ba5e-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="16243-114">需求</span><span class="sxs-lookup"><span data-stu-id="16243-114">Requirement</span></span> | <span data-ttu-id="16243-115">值</span><span class="sxs-lookup"><span data-stu-id="16243-115">Value</span></span> |
+| <span data-ttu-id="2ba5e-114">需求</span><span class="sxs-lookup"><span data-stu-id="2ba5e-114">Requirement</span></span> | <span data-ttu-id="2ba5e-115">值</span><span class="sxs-lookup"><span data-stu-id="2ba5e-115">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="16243-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="16243-116">Minimum supported client</span></span><br/> | <span data-ttu-id="16243-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="16243-117">Windows Vista \[desktop apps only\]</span></span><br/>                                         |
-| <span data-ttu-id="16243-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="16243-118">Minimum supported server</span></span><br/> | <span data-ttu-id="16243-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="16243-119">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                   |
-| <span data-ttu-id="16243-120">DLL</span><span class="sxs-lookup"><span data-stu-id="16243-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="16243-121"><dt>Apphelp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="16243-121"><dt>Apphelp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="2ba5e-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2ba5e-116">Minimum supported client</span></span><br/> | <span data-ttu-id="2ba5e-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2ba5e-117">Windows Vista \[desktop apps only\]</span></span><br/>                                         |
+| <span data-ttu-id="2ba5e-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2ba5e-118">Minimum supported server</span></span><br/> | <span data-ttu-id="2ba5e-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="2ba5e-119">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                   |
+| <span data-ttu-id="2ba5e-120">DLL</span><span class="sxs-lookup"><span data-stu-id="2ba5e-120">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2ba5e-121"><dt>Apphelp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="2ba5e-121"><dt>Apphelp.dll</dt></span></span> </dl> |
 
 
 

@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "103933871"
 ---
-# <a name="functions-controls-and-property-pages"></a><span data-ttu-id="ecacf-103">函數 (控制項和屬性頁) </span><span class="sxs-lookup"><span data-stu-id="ecacf-103">Functions (Controls and Property Pages)</span></span>
+# <a name="functions-controls-and-property-pages"></a><span data-ttu-id="4c523-103">函數 (控制項和屬性頁) </span><span class="sxs-lookup"><span data-stu-id="4c523-103">Functions (Controls and Property Pages)</span></span>
 
-<span data-ttu-id="ecacf-104">下列函式可用來建立標準 COM 物件和屬性頁。</span><span class="sxs-lookup"><span data-stu-id="ecacf-104">The following functions are used to create standard COM objects and property pages.</span></span>
+<span data-ttu-id="4c523-104">下列函式可用來建立標準 COM 物件和屬性頁。</span><span class="sxs-lookup"><span data-stu-id="4c523-104">The following functions are used to create standard COM objects and property pages.</span></span>
 
--   [<span data-ttu-id="ecacf-105">**OleCreatePropertyFrame**</span><span class="sxs-lookup"><span data-stu-id="ecacf-105">**OleCreatePropertyFrame**</span></span>](/windows/desktop/api/OleCtl/nf-olectl-olecreatepropertyframe)
--   [<span data-ttu-id="ecacf-106">**OleCreatePropertyFrameIndirect**</span><span class="sxs-lookup"><span data-stu-id="ecacf-106">**OleCreatePropertyFrameIndirect**</span></span>](/windows/desktop/api/OleCtl/nf-olectl-olecreatepropertyframeindirect)
--   [<span data-ttu-id="ecacf-107">**OleLoadPicturePath**</span><span class="sxs-lookup"><span data-stu-id="ecacf-107">**OleLoadPicturePath**</span></span>](/windows/desktop/api/OleCtl/nf-olectl-oleloadpicturepath)
--   [<span data-ttu-id="ecacf-108">**OleTranslateColor**</span><span class="sxs-lookup"><span data-stu-id="ecacf-108">**OleTranslateColor**</span></span>](/windows/desktop/api/OleCtl/nf-olectl-oletranslatecolor)
+-   [<span data-ttu-id="4c523-105">**OleCreatePropertyFrame**</span><span class="sxs-lookup"><span data-stu-id="4c523-105">**OleCreatePropertyFrame**</span></span>](/windows/desktop/api/OleCtl/nf-olectl-olecreatepropertyframe)
+-   [<span data-ttu-id="4c523-106">**OleCreatePropertyFrameIndirect**</span><span class="sxs-lookup"><span data-stu-id="4c523-106">**OleCreatePropertyFrameIndirect**</span></span>](/windows/desktop/api/OleCtl/nf-olectl-olecreatepropertyframeindirect)
+-   [<span data-ttu-id="4c523-107">**OleLoadPicturePath**</span><span class="sxs-lookup"><span data-stu-id="4c523-107">**OleLoadPicturePath**</span></span>](/windows/desktop/api/OleCtl/nf-olectl-oleloadpicturepath)
+-   [<span data-ttu-id="4c523-108">**OleTranslateColor**</span><span class="sxs-lookup"><span data-stu-id="4c523-108">**OleTranslateColor**</span></span>](/windows/desktop/api/OleCtl/nf-olectl-oletranslatecolor)
 
  
 
