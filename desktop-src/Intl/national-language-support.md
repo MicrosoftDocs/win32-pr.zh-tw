@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103945339"
 ---
-# <a name="national-language-support"></a><span data-ttu-id="4a488-103">國家語言支援</span><span class="sxs-lookup"><span data-stu-id="4a488-103">National Language Support</span></span>
+# <a name="national-language-support"></a><span data-ttu-id="c4d82-103">國家語言支援</span><span class="sxs-lookup"><span data-stu-id="c4d82-103">National Language Support</span></span>
 
-<span data-ttu-id="4a488-104"> (NLS) 函式的國家語言支援可協助應用程式支援世界各地使用者的不同語言和地區設定特定需求。</span><span class="sxs-lookup"><span data-stu-id="4a488-104">The National Language Support (NLS) functions help applications support the different language- and locale-specific needs of users around the world.</span></span> <span data-ttu-id="4a488-105">本總覽說明 NLS 函式，並說明如何在您的應用程式中使用它們。</span><span class="sxs-lookup"><span data-stu-id="4a488-105">This overview describes the NLS functions and explains how to use them in your applications.</span></span>
+<span data-ttu-id="c4d82-104"> (NLS) 函式的國家語言支援可協助應用程式支援世界各地使用者的不同語言和地區設定特定需求。</span><span class="sxs-lookup"><span data-stu-id="c4d82-104">The National Language Support (NLS) functions help applications support the different language- and locale-specific needs of users around the world.</span></span> <span data-ttu-id="c4d82-105">本總覽說明 NLS 函式，並說明如何在您的應用程式中使用它們。</span><span class="sxs-lookup"><span data-stu-id="c4d82-105">This overview describes the NLS functions and explains how to use them in your applications.</span></span>
 
--   [<span data-ttu-id="4a488-106">關於國家語言支援</span><span class="sxs-lookup"><span data-stu-id="4a488-106">About National Language Support</span></span>](about-national-language-support.md)
--   [<span data-ttu-id="4a488-107">使用國家語言支援</span><span class="sxs-lookup"><span data-stu-id="4a488-107">Using National Language Support</span></span>](using-national-language-support.md)
--   [<span data-ttu-id="4a488-108">國家語言支援參考</span><span class="sxs-lookup"><span data-stu-id="4a488-108">National Language Support Reference</span></span>](national-language-support-reference.md)
+-   [<span data-ttu-id="c4d82-106">關於國家語言支援</span><span class="sxs-lookup"><span data-stu-id="c4d82-106">About National Language Support</span></span>](about-national-language-support.md)
+-   [<span data-ttu-id="c4d82-107">使用國家語言支援</span><span class="sxs-lookup"><span data-stu-id="c4d82-107">Using National Language Support</span></span>](using-national-language-support.md)
+-   [<span data-ttu-id="c4d82-108">國家語言支援參考</span><span class="sxs-lookup"><span data-stu-id="c4d82-108">National Language Support Reference</span></span>](national-language-support-reference.md)
 
  
 
