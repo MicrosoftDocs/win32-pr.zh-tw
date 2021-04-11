@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103936087"
 ---
-# <a name="application-verifier-developer-notes"></a><span data-ttu-id="f7ffe-103">應用程式驗證器 (開發人員注意事項) </span><span class="sxs-lookup"><span data-stu-id="f7ffe-103">Application Verifier (Developer Notes)</span></span>
+# <a name="application-verifier-developer-notes"></a><span data-ttu-id="bd223-103">應用程式驗證器 (開發人員注意事項) </span><span class="sxs-lookup"><span data-stu-id="bd223-103">Application Verifier (Developer Notes)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f7ffe-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="f7ffe-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bd223-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="bd223-104">In this section</span></span>
 
--   [<span data-ttu-id="f7ffe-105">資源列舉</span><span class="sxs-lookup"><span data-stu-id="f7ffe-105">Resource Enumeration</span></span>](resource-enumeration.md)
--   [<span data-ttu-id="f7ffe-106">**VerifierIsPerUserSettingsEnabled**</span><span class="sxs-lookup"><span data-stu-id="f7ffe-106">**VerifierIsPerUserSettingsEnabled**</span></span>](/windows/desktop/api/Avrfsdk/nf-avrfsdk-verifierisperusersettingsenabled)
+-   [<span data-ttu-id="bd223-105">資源列舉</span><span class="sxs-lookup"><span data-stu-id="bd223-105">Resource Enumeration</span></span>](resource-enumeration.md)
+-   [<span data-ttu-id="bd223-106">**VerifierIsPerUserSettingsEnabled**</span><span class="sxs-lookup"><span data-stu-id="bd223-106">**VerifierIsPerUserSettingsEnabled**</span></span>](/windows/desktop/api/Avrfsdk/nf-avrfsdk-verifierisperusersettingsenabled)
 
  
 

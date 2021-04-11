@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849879"
 ---
-# <a name="enumerating-installed-providers"></a><span data-ttu-id="a947a-103">列舉已安裝的提供者</span><span class="sxs-lookup"><span data-stu-id="a947a-103">Enumerating Installed Providers</span></span>
+# <a name="enumerating-installed-providers"></a><span data-ttu-id="709da-103">列舉已安裝的提供者</span><span class="sxs-lookup"><span data-stu-id="709da-103">Enumerating Installed Providers</span></span>
 
-<span data-ttu-id="a947a-104">下列範例顯示如何使用憑證註冊 API 來列舉電腦上所安裝的提供者。</span><span class="sxs-lookup"><span data-stu-id="a947a-104">The following example shows how to use the Certificate Enrollment API to enumerate the providers installed on a computer.</span></span>
+<span data-ttu-id="709da-104">下列範例顯示如何使用憑證註冊 API 來列舉電腦上所安裝的提供者。</span><span class="sxs-lookup"><span data-stu-id="709da-104">The following example shows how to use the Certificate Enrollment API to enumerate the providers installed on a computer.</span></span>
 
 ``` syntax
 // enumeratinginstalledproviders.cpp : Defines the entry point for the console application.
@@ -114,11 +114,11 @@ HRESULT enumProviders(void)
 }
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="a947a-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="a947a-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="709da-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="709da-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a947a-106">瞭解密碼編譯提供者</span><span class="sxs-lookup"><span data-stu-id="a947a-106">Understanding Cryptographic Providers</span></span>](understanding-cryptographic-providers.md)
+[<span data-ttu-id="709da-106">瞭解密碼編譯提供者</span><span class="sxs-lookup"><span data-stu-id="709da-106">Understanding Cryptographic Providers</span></span>](understanding-cryptographic-providers.md)
 </dt> </dl>
 
  

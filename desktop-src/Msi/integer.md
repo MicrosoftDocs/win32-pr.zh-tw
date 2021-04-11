@@ -11,9 +11,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104112261"
 ---
-# <a name="integer"></a><span data-ttu-id="facac-104">整數</span><span class="sxs-lookup"><span data-stu-id="facac-104">Integer</span></span>
+# <a name="integer"></a><span data-ttu-id="a89bd-104">整數</span><span class="sxs-lookup"><span data-stu-id="a89bd-104">Integer</span></span>
 
-<span data-ttu-id="facac-105">整數資料類型是雙位元組整數值。</span><span class="sxs-lookup"><span data-stu-id="facac-105">The Integer data type is a two-byte integer value.</span></span> <span data-ttu-id="facac-106">除非另有限制，否則合法值的範圍是從–32767到 + 32767。</span><span class="sxs-lookup"><span data-stu-id="facac-106">Unless otherwise restricted, the range of legal values is from –32,767 to +32,767.</span></span>
+<span data-ttu-id="a89bd-105">整數資料類型是雙位元組整數值。</span><span class="sxs-lookup"><span data-stu-id="a89bd-105">The Integer data type is a two-byte integer value.</span></span> <span data-ttu-id="a89bd-106">除非另有限制，否則合法值的範圍是從–32767到 + 32767。</span><span class="sxs-lookup"><span data-stu-id="a89bd-106">Unless otherwise restricted, the range of legal values is from –32,767 to +32,767.</span></span>
 
  
 

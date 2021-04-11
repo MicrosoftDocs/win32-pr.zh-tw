@@ -1,0 +1,53 @@
+---
+description: 摘要存取挑戰的大小必須小於2048個位元組。
+ms.assetid: 16c6728a-966b-436f-902d-3e12368986b6
+title: 摘要挑戰的內容
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 97f90dd78ae28536f6e2d07882f69335975df14d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104112200"
+---
+# <a name="contents-of-a-digest-challenge"></a><span data-ttu-id="a9e47-103">摘要挑戰的內容</span><span class="sxs-lookup"><span data-stu-id="a9e47-103">Contents of a Digest Challenge</span></span>
+
+<span data-ttu-id="a9e47-104">摘要存取挑戰的大小必須小於2048個位元組。</span><span class="sxs-lookup"><span data-stu-id="a9e47-104">The size of a Digest Access challenge must be less than 2048 bytes.</span></span> <span data-ttu-id="a9e47-105">下列範例顯示指派給 szChallenge 字元字串的挑戰。</span><span class="sxs-lookup"><span data-stu-id="a9e47-105">The following example shows a challenge assigned to the character string szChallenge.</span></span>
+
+
+```C++
+szChallenge = "realm=\"Microsoft_Example_Forest\",";
+algorithm = "MD5-sess\", qop=\"auth\", nonce=\"0123456789abcdef\"";
+```
+
+
+
+> [!Note]  
+> <span data-ttu-id="a9e47-106">挑戰字串會以雙引號括住，且包含內嵌的雙引號。</span><span class="sxs-lookup"><span data-stu-id="a9e47-106">The challenge string is enclosed in double quotes and contains embedded double quotes.</span></span> <span data-ttu-id="a9e47-107">內嵌的雙引號前面必須加上 ( () 的反斜線) \\ 。</span><span class="sxs-lookup"><span data-stu-id="a9e47-107">Embedded double quotes must be preceded (escaped) with a backslash (\\).</span></span>
+
+ 
+
+<span data-ttu-id="a9e47-108">摘要挑戰可以包含下列指示詞。</span><span class="sxs-lookup"><span data-stu-id="a9e47-108">A Digest challenge can contain the following directives.</span></span>
+
+
+
+| <span data-ttu-id="a9e47-109">指示詞</span><span class="sxs-lookup"><span data-stu-id="a9e47-109">Directive</span></span>         | <span data-ttu-id="a9e47-110">Description</span><span class="sxs-lookup"><span data-stu-id="a9e47-110">Description</span></span>                                                                                                                                                                                                                                                                                            |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="a9e47-111">realm</span><span class="sxs-lookup"><span data-stu-id="a9e47-111">realm</span></span>             | <span data-ttu-id="a9e47-112">對用戶端所需之 [*認證*](/windows/desktop/SecGloss/c-gly) 的執行定義提示。</span><span class="sxs-lookup"><span data-stu-id="a9e47-112">An implementation-defined hint to the client about which [*credentials*](/windows/desktop/SecGloss/c-gly) are required.</span></span> <span data-ttu-id="a9e47-113">如果使用者提示輸入認證，用戶端應該向使用者顯示此資訊。</span><span class="sxs-lookup"><span data-stu-id="a9e47-113">The client should display this information to the user if it is prompting for credentials.</span></span>                                                  |
+| <span data-ttu-id="a9e47-114">演算法</span><span class="sxs-lookup"><span data-stu-id="a9e47-114">algorithm</span></span>         | <span data-ttu-id="a9e47-115">Microsoft Digest 支援 MD5 和 MD5 Ses 之始。</span><span class="sxs-lookup"><span data-stu-id="a9e47-115">Microsoft Digest supports MD5 and MD5-Sess.</span></span> <span data-ttu-id="a9e47-116">為了達到最佳效能，請使用 MD5-Ses 之始。</span><span class="sxs-lookup"><span data-stu-id="a9e47-116">For optimal performance, use MD5-Sess.</span></span>                                                                                                                                                                                                                     |
+| <span data-ttu-id="a9e47-117">qop</span><span class="sxs-lookup"><span data-stu-id="a9e47-117">qop</span></span>               | <span data-ttu-id="a9e47-118">這個指示詞可以設定為 auth、auth-int 或 auth。</span><span class="sxs-lookup"><span data-stu-id="a9e47-118">This directive can be set to auth, auth-int, or auth-conf.</span></span> <span data-ttu-id="a9e47-119">如需詳細資訊，請參閱 [保護品質和密碼](quality-of-protection-and-ciphers.md)。</span><span class="sxs-lookup"><span data-stu-id="a9e47-119">For more information, see [Quality of Protection and Ciphers](quality-of-protection-and-ciphers.md).</span></span>                                                                                                                                       |
+| <span data-ttu-id="a9e47-120">nonce</span><span class="sxs-lookup"><span data-stu-id="a9e47-120">nonce</span></span>             | <span data-ttu-id="a9e47-121">伺服器為每個挑戰產生的唯一編碼值。</span><span class="sxs-lookup"><span data-stu-id="a9e47-121">A unique encoded value generated by the server for each challenge.</span></span> <span data-ttu-id="a9e47-122">用戶端不得變更此值。</span><span class="sxs-lookup"><span data-stu-id="a9e47-122">This value must not be altered by the client.</span></span>                                                                                                                                                                                       |
+| <span data-ttu-id="a9e47-123">不透明</span><span class="sxs-lookup"><span data-stu-id="a9e47-123">opaque</span></span>            | <span data-ttu-id="a9e47-124">包含正在建立之 [*安全性內容*](/windows/desktop/SecGloss/s-gly) 的參考。</span><span class="sxs-lookup"><span data-stu-id="a9e47-124">Contains a reference for the [*security context*](/windows/desktop/SecGloss/s-gly) that is being established.</span></span> <span data-ttu-id="a9e47-125">如需詳細資訊，請參閱 [維護連接之間的安全性內容](maintaining-the-security-context-between-connections.md)。</span><span class="sxs-lookup"><span data-stu-id="a9e47-125">For more information, see [Maintaining the Security Context Between Connections](maintaining-the-security-context-between-connections.md).</span></span> |
+| <span data-ttu-id="a9e47-126">只有) 的加密 (SASL</span><span class="sxs-lookup"><span data-stu-id="a9e47-126">cipher(SASL only)</span></span> | <span data-ttu-id="a9e47-127">伺服器支援的密碼清單。</span><span class="sxs-lookup"><span data-stu-id="a9e47-127">The list of ciphers that the server supports.</span></span> <span data-ttu-id="a9e47-128">只有在 qop 指示詞指定驗證人員時，此專案才可以存在於 Digest SASL 挑戰中。</span><span class="sxs-lookup"><span data-stu-id="a9e47-128">This element can be present in a Digest SASL challenge only if the qop directive specifies auth-conf.</span></span> <span data-ttu-id="a9e47-129">如需詳細資訊，請參閱 [保護品質和密碼](quality-of-protection-and-ciphers.md)。</span><span class="sxs-lookup"><span data-stu-id="a9e47-129">For more information, see [Quality of Protection and Ciphers](quality-of-protection-and-ciphers.md).</span></span>                                              |
+| <span data-ttu-id="a9e47-130">字元集</span><span class="sxs-lookup"><span data-stu-id="a9e47-130">charset</span></span>           | <span data-ttu-id="a9e47-131">如果伺服器可以處理 UTF-8 編碼的使用者名稱和領域，則可以將這個指示詞設定為 utf-8。</span><span class="sxs-lookup"><span data-stu-id="a9e47-131">This directive can be set to utf-8 if the server can process UTF-8–encoded user names and realms.</span></span> <span data-ttu-id="a9e47-132">如果用戶端瞭解字元集指示詞，則可以使用 UTF-8 編碼的值來回應。</span><span class="sxs-lookup"><span data-stu-id="a9e47-132">If the client understands the charset directive, it can respond by using UTF-8–encoded values.</span></span>                                                                                                       |
+
+
+
+ 
+
+<span data-ttu-id="a9e47-133">Microsoft Digest 會為伺服器應用程式產生摘要挑戰字串。</span><span class="sxs-lookup"><span data-stu-id="a9e47-133">Microsoft Digest generates the Digest challenge string for server applications.</span></span> <span data-ttu-id="a9e47-134">如需詳細資訊，請參閱 [產生摘要挑戰](generating-the-digest-challenge.md)。</span><span class="sxs-lookup"><span data-stu-id="a9e47-134">For details, see [Generating the Digest Challenge](generating-the-digest-challenge.md).</span></span>
+
+ 
+
+ 

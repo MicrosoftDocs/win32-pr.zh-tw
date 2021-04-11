@@ -11,12 +11,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103936230"
 ---
-# <a name="word-breaker"></a><span data-ttu-id="f0132-103">斷詞工具</span><span class="sxs-lookup"><span data-stu-id="f0132-103">Word Breaker</span></span>
+# <a name="word-breaker"></a><span data-ttu-id="50168-103">斷詞工具</span><span class="sxs-lookup"><span data-stu-id="50168-103">Word Breaker</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f0132-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="f0132-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="50168-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="50168-104">In this section</span></span>
 
--   [<span data-ttu-id="f0132-105">**IWordInfo**</span><span class="sxs-lookup"><span data-stu-id="f0132-105">**IWordInfo**</span></span>](iwordinfo.md)
--   [<span data-ttu-id="f0132-106">WordInfo</span><span class="sxs-lookup"><span data-stu-id="f0132-106">WordInfo</span></span>](wordinfo-coclass.md)
+-   [<span data-ttu-id="50168-105">**IWordInfo**</span><span class="sxs-lookup"><span data-stu-id="50168-105">**IWordInfo**</span></span>](iwordinfo.md)
+-   [<span data-ttu-id="50168-106">WordInfo</span><span class="sxs-lookup"><span data-stu-id="50168-106">WordInfo</span></span>](wordinfo-coclass.md)
 
  
 

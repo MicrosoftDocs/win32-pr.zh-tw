@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849692"
 ---
-# <a name="how-to-load-a-bitmap-from-a-resource-windows-imaging-component"></a><span data-ttu-id="1f1a6-103">如何從資源 (Windows 影像處理元件) 載入點陣圖</span><span class="sxs-lookup"><span data-stu-id="1f1a6-103">How to Load a Bitmap from a Resource (Windows Imaging Component)</span></span>
+# <a name="how-to-load-a-bitmap-from-a-resource-windows-imaging-component"></a><span data-ttu-id="18059-103">如何從資源 (Windows 影像處理元件) 載入點陣圖</span><span class="sxs-lookup"><span data-stu-id="18059-103">How to Load a Bitmap from a Resource (Windows Imaging Component)</span></span>
 
-<span data-ttu-id="1f1a6-104">本主題示範如何從應用程式資源載入 [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) 。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-104">This topic demonstrates how to load an [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) from an application resource.</span></span>
+<span data-ttu-id="18059-104">本主題示範如何從應用程式資源載入 [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) 。</span><span class="sxs-lookup"><span data-stu-id="18059-104">This topic demonstrates how to load an [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) from an application resource.</span></span>
 
-1.  <span data-ttu-id="1f1a6-105">在應用程式資源定義 ( .rc) 檔案中，定義資源。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-105">In the application resource definition (.rc) file , define the resource.</span></span> <span data-ttu-id="1f1a6-106">下列範例會定義 `Image` 名為的資源 `IDR_SAMPLE_IMAGE` 。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-106">The following example defines an `Image` resource named `IDR_SAMPLE_IMAGE`.</span></span>
+1.  <span data-ttu-id="18059-105">在應用程式資源定義 ( .rc) 檔案中，定義資源。</span><span class="sxs-lookup"><span data-stu-id="18059-105">In the application resource definition (.rc) file , define the resource.</span></span> <span data-ttu-id="18059-106">下列範例會定義 `Image` 名為的資源 `IDR_SAMPLE_IMAGE` 。</span><span class="sxs-lookup"><span data-stu-id="18059-106">The following example defines an `Image` resource named `IDR_SAMPLE_IMAGE`.</span></span>
 
     ```C++
     IDR_SAMPLE_IMAGE IMAGE "turtle.jpg"
@@ -23,9 +23,9 @@ ms.locfileid: "103849692"
 
     
 
-    <span data-ttu-id="1f1a6-107">建立應用程式時，會將資源新增至應用程式的資源。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-107">The resource will be added to the application's resources when the application is built.</span></span>
+    <span data-ttu-id="18059-107">建立應用程式時，會將資源新增至應用程式的資源。</span><span class="sxs-lookup"><span data-stu-id="18059-107">The resource will be added to the application's resources when the application is built.</span></span>
 
-2.  <span data-ttu-id="1f1a6-108">從應用程式載入資源。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-108">Load the resource from the application.</span></span>
+2.  <span data-ttu-id="18059-108">從應用程式載入資源。</span><span class="sxs-lookup"><span data-stu-id="18059-108">Load the resource from the application.</span></span>
 
     ```C++
     HRESULT hr = S_OK;
@@ -59,7 +59,7 @@ ms.locfileid: "103849692"
 
     
 
-3.  <span data-ttu-id="1f1a6-109">鎖定資源並取得大小。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-109">Lock the resource and get the size.</span></span>
+3.  <span data-ttu-id="18059-109">鎖定資源並取得大小。</span><span class="sxs-lookup"><span data-stu-id="18059-109">Lock the resource and get the size.</span></span>
 
     ```C++
     // Lock the resource to retrieve memory pointer.
@@ -78,7 +78,7 @@ ms.locfileid: "103849692"
 
     
 
-4.  <span data-ttu-id="1f1a6-110">使用 [**CreateStream**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createstream) 方法來建立 [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) 物件，並使用映射記憶體指標將它初始化。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-110">Use the [**CreateStream**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createstream) method to create an [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) object and initialize it by using the image memory pointer.</span></span>
+4.  <span data-ttu-id="18059-110">使用 [**CreateStream**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createstream) 方法來建立 [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) 物件，並使用映射記憶體指標將它初始化。</span><span class="sxs-lookup"><span data-stu-id="18059-110">Use the [**CreateStream**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createstream) method to create an [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) object and initialize it by using the image memory pointer.</span></span>
 
     ```C++
     // Create a WIC stream to map onto the memory.
@@ -96,7 +96,7 @@ ms.locfileid: "103849692"
 
     
 
-5.  <span data-ttu-id="1f1a6-111">使用 [**CreateDecoderFromStream**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream)方法，從新的資料流程物件建立 [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) 。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-111">Create an [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) from the new stream object by using the [**CreateDecoderFromStream**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream) method.</span></span>
+5.  <span data-ttu-id="18059-111">使用 [**CreateDecoderFromStream**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream)方法，從新的資料流程物件建立 [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) 。</span><span class="sxs-lookup"><span data-stu-id="18059-111">Create an [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) from the new stream object by using the [**CreateDecoderFromStream**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream) method.</span></span>
 
     ```C++
     // Create a decoder for the stream.
@@ -111,7 +111,7 @@ ms.locfileid: "103849692"
 
     
 
-6.  <span data-ttu-id="1f1a6-112">從已解碼的影像取出 [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) 。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-112">Retrieve an [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) from the decoded image.</span></span>
+6.  <span data-ttu-id="18059-112">從已解碼的影像取出 [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) 。</span><span class="sxs-lookup"><span data-stu-id="18059-112">Retrieve an [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) from the decoded image.</span></span>
 
     ```C++
     // Retrieve the initial frame.
@@ -122,17 +122,17 @@ ms.locfileid: "103849692"
 
     
 
-    <span data-ttu-id="1f1a6-113">此程式碼只會抓取影像的第一個 (`0`) 畫面格。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-113">This code only retrieves the first (`0`) frame of the image.</span></span> <span data-ttu-id="1f1a6-114">若為多框架影像，請使用 [**GetFrameCount**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount) 來判斷影像中的框架數目。</span><span class="sxs-lookup"><span data-stu-id="1f1a6-114">For multi-framed images, use [**GetFrameCount**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount) to determine the number of frames in the image.</span></span>
+    <span data-ttu-id="18059-113">此程式碼只會抓取影像的第一個 (`0`) 畫面格。</span><span class="sxs-lookup"><span data-stu-id="18059-113">This code only retrieves the first (`0`) frame of the image.</span></span> <span data-ttu-id="18059-114">若為多框架影像，請使用 [**GetFrameCount**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount) 來判斷影像中的框架數目。</span><span class="sxs-lookup"><span data-stu-id="18059-114">For multi-framed images, use [**GetFrameCount**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount) to determine the number of frames in the image.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1f1a6-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1f1a6-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="18059-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="18059-115">See Also</span></span>
 
-[<span data-ttu-id="1f1a6-116">程式設計指南</span><span class="sxs-lookup"><span data-stu-id="1f1a6-116">Programming Guide</span></span>](-wic-programming-guide.md)
-
-
-[<span data-ttu-id="1f1a6-117">參考</span><span class="sxs-lookup"><span data-stu-id="1f1a6-117">Reference</span></span>](-wic-codec-reference.md)
+[<span data-ttu-id="18059-116">程式設計指南</span><span class="sxs-lookup"><span data-stu-id="18059-116">Programming Guide</span></span>](-wic-programming-guide.md)
 
 
-[<span data-ttu-id="1f1a6-118">範例</span><span class="sxs-lookup"><span data-stu-id="1f1a6-118">Samples</span></span>](-wic-samples.md)
+[<span data-ttu-id="18059-117">參考</span><span class="sxs-lookup"><span data-stu-id="18059-117">Reference</span></span>](-wic-codec-reference.md)
+
+
+[<span data-ttu-id="18059-118">範例</span><span class="sxs-lookup"><span data-stu-id="18059-118">Samples</span></span>](-wic-samples.md)
 
 
  

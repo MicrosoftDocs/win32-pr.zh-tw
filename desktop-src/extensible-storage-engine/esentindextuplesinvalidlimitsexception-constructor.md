@@ -31,14 +31,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103849394"
 ---
-# <a name="esentindextuplesinvalidlimitsexception-constructor"></a><span data-ttu-id="ccca8-103">EsentIndexTuplesInvalidLimitsException 函式</span><span class="sxs-lookup"><span data-stu-id="ccca8-103">EsentIndexTuplesInvalidLimitsException constructor</span></span>
+# <a name="esentindextuplesinvalidlimitsexception-constructor"></a><span data-ttu-id="65e61-103">EsentIndexTuplesInvalidLimitsException 函式</span><span class="sxs-lookup"><span data-stu-id="65e61-103">EsentIndexTuplesInvalidLimitsException constructor</span></span>
 
-<span data-ttu-id="ccca8-104">初始化 EsentIndexTuplesInvalidLimitsException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="ccca8-104">Initializes a new instance of the EsentIndexTuplesInvalidLimitsException class.</span></span>
+<span data-ttu-id="65e61-104">初始化 EsentIndexTuplesInvalidLimitsException 類別的新實例。</span><span class="sxs-lookup"><span data-stu-id="65e61-104">Initializes a new instance of the EsentIndexTuplesInvalidLimitsException class.</span></span>
 
-<span data-ttu-id="ccca8-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="ccca8-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="ccca8-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="ccca8-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="65e61-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="65e61-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="65e61-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="65e61-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ccca8-107">語法</span><span class="sxs-lookup"><span data-stu-id="ccca8-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="65e61-107">語法</span><span class="sxs-lookup"><span data-stu-id="65e61-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -52,12 +52,12 @@ Dim instance As New EsentIndexTuplesInvalidLimitsException()
 public EsentIndexTuplesInvalidLimitsException()
 ```
 
-## <a name="see-also"></a><span data-ttu-id="ccca8-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ccca8-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="65e61-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="65e61-108">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="ccca8-109">參考</span><span class="sxs-lookup"><span data-stu-id="ccca8-109">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="65e61-109">參考</span><span class="sxs-lookup"><span data-stu-id="65e61-109">Reference</span></span>
 
-[<span data-ttu-id="ccca8-110">EsentIndexTuplesInvalidLimitsException 類別</span><span class="sxs-lookup"><span data-stu-id="ccca8-110">EsentIndexTuplesInvalidLimitsException class</span></span>](./esentindextuplesinvalidlimitsexception-class.md)
+[<span data-ttu-id="65e61-110">EsentIndexTuplesInvalidLimitsException 類別</span><span class="sxs-lookup"><span data-stu-id="65e61-110">EsentIndexTuplesInvalidLimitsException class</span></span>](./esentindextuplesinvalidlimitsexception-class.md)
 
-[<span data-ttu-id="ccca8-111">EsentIndexTuplesInvalidLimitsException 成員</span><span class="sxs-lookup"><span data-stu-id="ccca8-111">EsentIndexTuplesInvalidLimitsException members</span></span>](./esentindextuplesinvalidlimitsexception-members.md)
+[<span data-ttu-id="65e61-111">EsentIndexTuplesInvalidLimitsException 成員</span><span class="sxs-lookup"><span data-stu-id="65e61-111">EsentIndexTuplesInvalidLimitsException members</span></span>](./esentindextuplesinvalidlimitsexception-members.md)
 
-[<span data-ttu-id="ccca8-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="ccca8-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="65e61-112">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="65e61-112">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

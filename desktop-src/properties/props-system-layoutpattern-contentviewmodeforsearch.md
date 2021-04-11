@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103850052"
 ---
-# <a name="systemlayoutpatterncontentviewmodeforsearch"></a><span data-ttu-id="35075-103">LayoutPattern. ContentViewModeForSearch</span><span class="sxs-lookup"><span data-stu-id="35075-103">System.LayoutPattern.ContentViewModeForSearch</span></span>
+# <a name="systemlayoutpatterncontentviewmodeforsearch"></a><span data-ttu-id="e9b98-103">LayoutPattern. ContentViewModeForSearch</span><span class="sxs-lookup"><span data-stu-id="e9b98-103">System.LayoutPattern.ContentViewModeForSearch</span></span>
 
-<span data-ttu-id="35075-104">識別內容視圖模式應該在搜尋內容中套用此專案的版面配置模式。</span><span class="sxs-lookup"><span data-stu-id="35075-104">Identifies the layout pattern that the content view mode should apply for this item in the context of searching.</span></span>
+<span data-ttu-id="e9b98-104">識別內容視圖模式應該在搜尋內容中套用此專案的版面配置模式。</span><span class="sxs-lookup"><span data-stu-id="e9b98-104">Identifies the layout pattern that the content view mode should apply for this item in the context of searching.</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a><span data-ttu-id="35075-105">Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7 版</span><span class="sxs-lookup"><span data-stu-id="35075-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a><span data-ttu-id="e9b98-105">Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7 版</span><span class="sxs-lookup"><span data-stu-id="e9b98-105">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7</span></span>
 
 ```
 propertyDescription
@@ -52,54 +52,54 @@ propertyDescription
             defineToken = LAYOUTPATTERN_CVMFS_DELTA
 ```
 
-## <a name="remarks"></a><span data-ttu-id="35075-106">備註</span><span class="sxs-lookup"><span data-stu-id="35075-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e9b98-106">備註</span><span class="sxs-lookup"><span data-stu-id="e9b98-106">Remarks</span></span>
 
-<span data-ttu-id="35075-107">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="35075-107">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="e9b98-107">PKEY 值定義于 Propkey 中。</span><span class="sxs-lookup"><span data-stu-id="e9b98-107">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="35075-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="35075-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e9b98-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="e9b98-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="35075-109">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="35075-109">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="e9b98-109">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="e9b98-109">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-110">searchInfo</span><span class="sxs-lookup"><span data-stu-id="35075-110">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="e9b98-110">searchInfo</span><span class="sxs-lookup"><span data-stu-id="e9b98-110">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-111">labelInfo</span><span class="sxs-lookup"><span data-stu-id="35075-111">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="e9b98-111">labelInfo</span><span class="sxs-lookup"><span data-stu-id="e9b98-111">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-112">typeInfo</span><span class="sxs-lookup"><span data-stu-id="35075-112">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="e9b98-112">typeInfo</span><span class="sxs-lookup"><span data-stu-id="e9b98-112">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-113">displayInfo</span><span class="sxs-lookup"><span data-stu-id="35075-113">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="e9b98-113">displayInfo</span><span class="sxs-lookup"><span data-stu-id="e9b98-113">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-114">stringFormat</span><span class="sxs-lookup"><span data-stu-id="35075-114">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="e9b98-114">stringFormat</span><span class="sxs-lookup"><span data-stu-id="e9b98-114">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-115">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="35075-115">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="e9b98-115">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="e9b98-115">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-116">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="35075-116">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="e9b98-116">>cultureinfo.numberformat</span><span class="sxs-lookup"><span data-stu-id="e9b98-116">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-117">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="35075-117">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="e9b98-117">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="e9b98-117">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-118">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="35075-118">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="e9b98-118">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="e9b98-118">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-119">drawControl</span><span class="sxs-lookup"><span data-stu-id="35075-119">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="e9b98-119">drawControl</span><span class="sxs-lookup"><span data-stu-id="e9b98-119">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-120">editControl</span><span class="sxs-lookup"><span data-stu-id="35075-120">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="e9b98-120">editControl</span><span class="sxs-lookup"><span data-stu-id="e9b98-120">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-121">filterControl</span><span class="sxs-lookup"><span data-stu-id="35075-121">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="e9b98-121">filterControl</span><span class="sxs-lookup"><span data-stu-id="e9b98-121">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="35075-122">queryControl</span><span class="sxs-lookup"><span data-stu-id="35075-122">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="e9b98-122">queryControl</span><span class="sxs-lookup"><span data-stu-id="e9b98-122">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  

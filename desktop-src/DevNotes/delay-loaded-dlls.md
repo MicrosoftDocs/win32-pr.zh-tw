@@ -11,13 +11,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103936403"
 ---
-# <a name="delay-loaded-dlls"></a><span data-ttu-id="f32e2-103">Delay-Loaded Dll</span><span class="sxs-lookup"><span data-stu-id="f32e2-103">Delay-Loaded DLLs</span></span>
+# <a name="delay-loaded-dlls"></a><span data-ttu-id="a8892-103">Delay-Loaded Dll</span><span class="sxs-lookup"><span data-stu-id="a8892-103">Delay-Loaded DLLs</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="f32e2-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="f32e2-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a8892-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="a8892-104">In this section</span></span>
 
--   [<span data-ttu-id="f32e2-105">**DelayLoadFailureHook**</span><span class="sxs-lookup"><span data-stu-id="f32e2-105">**DelayLoadFailureHook**</span></span>](delayloadfailurehook.md)
--   [<span data-ttu-id="f32e2-106">**ResolveDelayLoadedAPI**</span><span class="sxs-lookup"><span data-stu-id="f32e2-106">**ResolveDelayLoadedAPI**</span></span>](resolvedelayloadedapi.md)
--   [<span data-ttu-id="f32e2-107">**ResolveDelayLoadsFromDll**</span><span class="sxs-lookup"><span data-stu-id="f32e2-107">**ResolveDelayLoadsFromDll**</span></span>](resolvedelayloadsfromdll.md)
+-   [<span data-ttu-id="a8892-105">**DelayLoadFailureHook**</span><span class="sxs-lookup"><span data-stu-id="a8892-105">**DelayLoadFailureHook**</span></span>](delayloadfailurehook.md)
+-   [<span data-ttu-id="a8892-106">**ResolveDelayLoadedAPI**</span><span class="sxs-lookup"><span data-stu-id="a8892-106">**ResolveDelayLoadedAPI**</span></span>](resolvedelayloadedapi.md)
+-   [<span data-ttu-id="a8892-107">**ResolveDelayLoadsFromDll**</span><span class="sxs-lookup"><span data-stu-id="a8892-107">**ResolveDelayLoadsFromDll**</span></span>](resolvedelayloadsfromdll.md)
 
  
 
