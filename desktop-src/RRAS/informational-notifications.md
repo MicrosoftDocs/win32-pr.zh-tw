@@ -1,0 +1,28 @@
+---
+title: 語音總機
+description: 針對稱為「執行中狀態」的連接狀態，除非發生錯誤，否則通知處理常式不需要採取任何動作。
+ms.assetid: 3f5ea9e0-f75a-4b02-a0dc-86cb5012c242
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8d6223c808309fcac3afc563f02c160412c80c88
+ms.sourcegitcommit: dc13cc13522097188392392d85f99de48a213984
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "104462785"
+---
+# <a name="informational-notifications"></a><span data-ttu-id="3f4fa-103">語音總機</span><span class="sxs-lookup"><span data-stu-id="3f4fa-103">Informational Notifications</span></span>
+
+<span data-ttu-id="3f4fa-104">針對稱為「執行中狀態」的 [連接狀態](connection-states.md) ，除非發生錯誤，否則通知處理常式不需要採取任何動作。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-104">For the [connection states](connection-states.md) known as running states, no action is required of the notification handler unless an error occurs.</span></span> <span data-ttu-id="3f4fa-105">執行狀態會在 RAS 處理的連接作業部分期間發生，例如連接到必要的裝置、驗證使用者，以及等待遠端伺服器的回呼。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-105">Running states occur during the parts of the connection operation that RAS handles automatically, such as connecting to the necessary devices, authenticating the user, and waiting for a callback from the remote server.</span></span> <span data-ttu-id="3f4fa-106">通知只是用戶端的進度報表。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-106">The notification is simply a progress report to the client.</span></span>
+
+<span data-ttu-id="3f4fa-107">用戶端可以選擇將這些語音總機傳遞給使用者。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-107">The client can choose to pass these informational notifications on to the user.</span></span> <span data-ttu-id="3f4fa-108">在某些執行狀態下，用戶端可能會想要顯示其他資訊。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-108">In some running states, the client may want to display additional information.</span></span> <span data-ttu-id="3f4fa-109">例如，接收 RASCS ConnectDevice 通知的通知處理常式 \_ 可以呼叫 [**RasGetConnectStatus**](/windows/desktop/api/Ras/nf-ras-rasgetconnectstatusa) 函式，以取得所連接裝置的名稱和類型。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-109">For example, a notification handler that receives a RASCS\_ConnectDevice notification can call the [**RasGetConnectStatus**](/windows/desktop/api/Ras/nf-ras-rasgetconnectstatusa) function to get the name and type of the device being connected to.</span></span> <span data-ttu-id="3f4fa-110">另一個範例是用戶端收到 RASCS \_ 投射的通知。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-110">Another example is when the client receives a RASCS\_Projected notification.</span></span> <span data-ttu-id="3f4fa-111">當連接作業的 RAS 投影階段已完成時，就會發生這種情況。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-111">This occurs when the RAS projection phase of the connection operation has been completed.</span></span> <span data-ttu-id="3f4fa-112">用戶端可以呼叫 [**RasGetProjectionInfo**](/previous-versions/windows/embedded/ms897107(v=msdn.10)) 函數，以取得有關投射的其他資訊。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-112">The client can call the [**RasGetProjectionInfo**](/previous-versions/windows/embedded/ms897107(v=msdn.10)) function to get additional information about the projection.</span></span> <span data-ttu-id="3f4fa-113">用戶端可以使用這項資訊，通知使用者此連線可以使用的網路通訊協定。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-113">The client can use this information to notify the user as to which network protocols can be used by this connection.</span></span>
+
+<span data-ttu-id="3f4fa-114">您應該避免撰寫相依于特定告知性狀態之順序或出現位置的程式碼，因為這可能會因平臺而異。</span><span class="sxs-lookup"><span data-stu-id="3f4fa-114">You should avoid writing code that depends on the order or occurrence of particular informational states, because this may vary between platforms.</span></span>
+
+ 
+
+ 
+
+
+
+
