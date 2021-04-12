@@ -15,12 +15,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "104024490"
 ---
-# <a name="encoding-windows-web-services"></a><span data-ttu-id="45c44-107"> (Windows Web 服務) 編碼</span><span class="sxs-lookup"><span data-stu-id="45c44-107">Encoding (Windows Web Services)</span></span>
+# <a name="encoding-windows-web-services"></a><span data-ttu-id="d5dc7-107"> (Windows Web 服務) 編碼</span><span class="sxs-lookup"><span data-stu-id="d5dc7-107">Encoding (Windows Web Services)</span></span>
 
-<span data-ttu-id="45c44-108">編碼是 XML 和線性電傳格式之間的轉換。</span><span class="sxs-lookup"><span data-stu-id="45c44-108">Encoding is a transform between XML and a linear wire format.</span></span> <span data-ttu-id="45c44-109">解碼是反向轉換。</span><span class="sxs-lookup"><span data-stu-id="45c44-109">Decoding is the reverse transform.</span></span>
+<span data-ttu-id="d5dc7-108">編碼是 XML 和線性電傳格式之間的轉換。</span><span class="sxs-lookup"><span data-stu-id="d5dc7-108">Encoding is a transform between XML and a linear wire format.</span></span> <span data-ttu-id="d5dc7-109">解碼是反向轉換。</span><span class="sxs-lookup"><span data-stu-id="d5dc7-109">Decoding is the reverse transform.</span></span>
 
 
-<span data-ttu-id="45c44-110">編碼是使用 [**WS \_ 編碼**](/windows/desktop/api/WebServices/ne-webservices-ws_encoding) 常數來識別。</span><span class="sxs-lookup"><span data-stu-id="45c44-110">An encoding is identified using an [**WS\_ENCODING**](/windows/desktop/api/WebServices/ne-webservices-ws_encoding) constant.</span></span>
+<span data-ttu-id="d5dc7-110">編碼是使用 [**WS \_ 編碼**](/windows/desktop/api/WebServices/ne-webservices-ws_encoding) 常數來識別。</span><span class="sxs-lookup"><span data-stu-id="d5dc7-110">An encoding is identified using an [**WS\_ENCODING**](/windows/desktop/api/WebServices/ne-webservices-ws_encoding) constant.</span></span>
 
  
 

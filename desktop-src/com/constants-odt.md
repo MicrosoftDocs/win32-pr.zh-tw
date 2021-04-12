@@ -11,11 +11,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "104024419"
 ---
-# <a name="constants-ole-and-data-transfer"></a><span data-ttu-id="0a314-103"> (OLE 和資料傳輸) 的常數</span><span class="sxs-lookup"><span data-stu-id="0a314-103">Constants (OLE and Data Transfer)</span></span>
+# <a name="constants-ole-and-data-transfer"></a><span data-ttu-id="8a3c0-103"> (OLE 和資料傳輸) 的常數</span><span class="sxs-lookup"><span data-stu-id="8a3c0-103">Constants (OLE and Data Transfer)</span></span>
 
-<span data-ttu-id="0a314-104">下列常數用來執行複合檔案，並在應用程式之間執行資料傳輸。</span><span class="sxs-lookup"><span data-stu-id="0a314-104">The following constants are used to implement compound documents and perform data transfer between applications.</span></span>
+<span data-ttu-id="8a3c0-104">下列常數用來執行複合檔案，並在應用程式之間執行資料傳輸。</span><span class="sxs-lookup"><span data-stu-id="8a3c0-104">The following constants are used to implement compound documents and perform data transfer between applications.</span></span>
 
--   [<span data-ttu-id="0a314-105">**DROPEFFECT 常數**</span><span class="sxs-lookup"><span data-stu-id="0a314-105">**DROPEFFECT Constants**</span></span>](dropeffect-constants.md)
+-   [<span data-ttu-id="8a3c0-105">**DROPEFFECT 常數**</span><span class="sxs-lookup"><span data-stu-id="8a3c0-105">**DROPEFFECT Constants**</span></span>](dropeffect-constants.md)
 
  
 

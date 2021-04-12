@@ -12,14 +12,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "104024392"
 ---
-# <a name="u-text-services-framework"></a><span data-ttu-id="c020a-103">U (文字服務架構) </span><span class="sxs-lookup"><span data-stu-id="c020a-103">U (Text Services Framework)</span></span>
+# <a name="u-text-services-framework"></a><span data-ttu-id="9b0fe-103">U (文字服務架構) </span><span class="sxs-lookup"><span data-stu-id="9b0fe-103">U (Text Services Framework)</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c020a-104"><span id="_tsf_unicode_gly"></span><span id="_TSF_UNICODE_GLY"></span>**Unicode**</span><span class="sxs-lookup"><span data-stu-id="c020a-104"><span id="_tsf_unicode_gly"></span><span id="_TSF_UNICODE_GLY"></span>**Unicode**</span></span>
+<span data-ttu-id="9b0fe-104"><span id="_tsf_unicode_gly"></span><span id="_TSF_UNICODE_GLY"></span>**Unicode**</span><span class="sxs-lookup"><span data-stu-id="9b0fe-104"><span id="_tsf_unicode_gly"></span><span id="_TSF_UNICODE_GLY"></span>**Unicode**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="c020a-105">固定長度的16位字元編碼方法。</span><span class="sxs-lookup"><span data-stu-id="c020a-105">A fixed-length 16-bit character encoding method.</span></span>
+<span data-ttu-id="9b0fe-105">固定長度的16位字元編碼方法。</span><span class="sxs-lookup"><span data-stu-id="9b0fe-105">A fixed-length 16-bit character encoding method.</span></span>
 
 </dd> </dl>
 

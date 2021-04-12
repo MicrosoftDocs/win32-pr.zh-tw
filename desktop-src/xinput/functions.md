@@ -1,0 +1,29 @@
+---
+title: '函數 (程式設計參考) '
+description: 可用的 XInput 函式。
+ms.assetid: c1533555-9094-0030-f025-6f47e9002e1a
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5640892dbad3715e1f568128d0c6b67f53d5e9d4
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "104316956"
+---
+# <a name="functions-programming-reference"></a><span data-ttu-id="f8b2a-103">函數 (程式設計參考) </span><span class="sxs-lookup"><span data-stu-id="f8b2a-103">Functions (Programming Reference)</span></span>
+
+<span data-ttu-id="f8b2a-104">可用的 XInput 函式。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-104">Available XInput functions.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="f8b2a-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="f8b2a-105">In this section</span></span>
+
+| <span data-ttu-id="f8b2a-106">主題</span><span class="sxs-lookup"><span data-stu-id="f8b2a-106">Topic</span></span>                                                                                 | <span data-ttu-id="f8b2a-107">描述</span><span class="sxs-lookup"><span data-stu-id="f8b2a-107">Description</span></span>                                                                                                                                             |
+|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="f8b2a-108">**XInputEnable**</span><span class="sxs-lookup"><span data-stu-id="f8b2a-108">**XInputEnable**</span></span>](/windows/desktop/api/XInput/nf-xinput-xinputenable)<br/>                                       | <span data-ttu-id="f8b2a-109">設定 XInput 的報告狀態。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-109">Sets the reporting state of XInput.</span></span><br/>                                                                                                          |
+| [<span data-ttu-id="f8b2a-110">**XInputGetAudioDeviceIds**</span><span class="sxs-lookup"><span data-stu-id="f8b2a-110">**XInputGetAudioDeviceIds**</span></span>](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids)<br/>                 | <span data-ttu-id="f8b2a-111">抓取與連接至指定控制器之耳機相關聯的音效轉譯和音效捕捉音訊裝置識別碼。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-111">Retrieves the sound rendering and sound capture audio device IDs that are associated with the headset connected to the specified controller.</span></span><br/> |
+| [<span data-ttu-id="f8b2a-112">**XInputGetBatteryInformation**</span><span class="sxs-lookup"><span data-stu-id="f8b2a-112">**XInputGetBatteryInformation**</span></span>](/windows/desktop/api/XInput/nf-xinput-xinputgetbatteryinformation)<br/>         | <span data-ttu-id="f8b2a-113">抓取無線控制器的電池類型和充電狀態。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-113">Retrieves the battery type and charge status of a wireless controller.</span></span><br/>                                                                       |
+| [<span data-ttu-id="f8b2a-114">**XInputGetCapabilities**</span><span class="sxs-lookup"><span data-stu-id="f8b2a-114">**XInputGetCapabilities**</span></span>](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities)<br/>                     | <span data-ttu-id="f8b2a-115">抓取連接控制器的功能和功能。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-115">Retrieves the capabilities and features of a connected controller.</span></span><br/>                                                                           |
+| [<span data-ttu-id="f8b2a-116">**XInputGetDSoundAudioDeviceGuids**</span><span class="sxs-lookup"><span data-stu-id="f8b2a-116">**XInputGetDSoundAudioDeviceGuids**</span></span>](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids)<br/> | <span data-ttu-id="f8b2a-117">取得與連接至指定控制器之耳機相關聯的音效轉譯和音效捕捉裝置 Guid。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-117">Gets the sound rendering and sound capture device GUIDs that are associated with the headset connected to the specified controller.</span></span><br/>          |
+| [<span data-ttu-id="f8b2a-118">**XInputGetKeystroke**</span><span class="sxs-lookup"><span data-stu-id="f8b2a-118">**XInputGetKeystroke**</span></span>](/windows/desktop/api/XInput/nf-xinput-xinputgetkeystroke)<br/>                           | <span data-ttu-id="f8b2a-119">捕獲遊戲台輸入事件。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-119">Retrieves a gamepad input event.</span></span><br/>                                                                                                             |
+| [<span data-ttu-id="f8b2a-120">**XInputGetState**</span><span class="sxs-lookup"><span data-stu-id="f8b2a-120">**XInputGetState**</span></span>](/windows/desktop/api/XInput/nf-xinput-xinputgetstate)<br/>                                   | <span data-ttu-id="f8b2a-121">抓取指定之控制器的目前狀態。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-121">Retrieves the current state of the specified controller.</span></span><br/>                                                                                     |
+| [<span data-ttu-id="f8b2a-122">**XInputSetState**</span><span class="sxs-lookup"><span data-stu-id="f8b2a-122">**XInputSetState**</span></span>](/windows/desktop/api/XInput/nf-xinput-xinputsetstate)<br/>                                   | <span data-ttu-id="f8b2a-123">將資料傳送至連接的控制器。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-123">Sends data to a connected controller.</span></span> <span data-ttu-id="f8b2a-124">這個函式是用來啟用控制器的震動函數。</span><span class="sxs-lookup"><span data-stu-id="f8b2a-124">This function is used to activate the vibration function of a controller.</span></span><br/>                              |
