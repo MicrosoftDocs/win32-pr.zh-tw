@@ -1,0 +1,39 @@
+---
+description: 發生硬體或軟體例外時，處理器會在發生例外狀況的時間點停止執行，並將控制權轉移至系統。
+ms.assetid: 35a1b9bd-8da9-47e6-beda-e0b159bd840d
+title: 例外狀況分派
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e02b40aa132541fe88d692cbbf1881a8b620a209
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104109976"
+---
+# <a name="exception-dispatching"></a><span data-ttu-id="06b44-103">例外狀況分派</span><span class="sxs-lookup"><span data-stu-id="06b44-103">Exception Dispatching</span></span>
+
+<span data-ttu-id="06b44-104">發生硬體或軟體例外時，處理器會在發生例外狀況的時間點停止執行，並將控制權轉移至系統。</span><span class="sxs-lookup"><span data-stu-id="06b44-104">When a hardware or software exception occurs, the processor stops execution at the point at which the exception occurred and transfers control to the system.</span></span> <span data-ttu-id="06b44-105">首先，系統會儲存目前線程的電腦狀態，以及描述例外狀況的資訊。</span><span class="sxs-lookup"><span data-stu-id="06b44-105">First, the system saves both the machine state of the current thread and information that describes the exception.</span></span> <span data-ttu-id="06b44-106">系統接著會嘗試尋找例外狀況處理常式來處理例外狀況。</span><span class="sxs-lookup"><span data-stu-id="06b44-106">The system then attempts to find an exception handler to handle the exception.</span></span>
+
+<span data-ttu-id="06b44-107">發生例外狀況之執行緒的電腦狀態會儲存在 [**內容**](/windows/desktop/api/WinNT/ns-winnt-arm64_nt_context) 結構中。</span><span class="sxs-lookup"><span data-stu-id="06b44-107">The machine state of the thread in which the exception occurred is saved in a [**CONTEXT**](/windows/desktop/api/WinNT/ns-winnt-arm64_nt_context) structure.</span></span> <span data-ttu-id="06b44-108">這項資訊 (稱為 *內容記錄*) 可讓系統在例外狀況成功處理時，于例外狀況的位置繼續執行。</span><span class="sxs-lookup"><span data-stu-id="06b44-108">This information (called the *context record*) enables the system to continue execution at the point of the exception if the exception is successfully handled.</span></span> <span data-ttu-id="06b44-109">例外狀況的描述 (稱為例外狀況 **記錄**) 會儲存在例外狀況 [**\_ 記錄**](/windows/desktop/api/WinNT/ns-winnt-exception_record) 結構中。</span><span class="sxs-lookup"><span data-stu-id="06b44-109">The description of the exception (called the **exception record**) is saved in an [**EXCEPTION\_RECORD**](/windows/desktop/api/WinNT/ns-winnt-exception_record) structure.</span></span> <span data-ttu-id="06b44-110">因為它會將內容記錄的電腦相依資訊與例外狀況記錄的電腦獨立資訊分開儲存，所以例外狀況處理機制可移植至不同的平臺。</span><span class="sxs-lookup"><span data-stu-id="06b44-110">Because it stores the machine-dependent information of the context record separately from the machine-independent information of the exception record, the exception-handling mechanism is portable to different platforms.</span></span>
+
+<span data-ttu-id="06b44-111">您可以使用 [**GetExceptionInformation**](getexceptioninformation.md) 函式來取得內容和例外狀況記錄中的資訊，並可將其提供給因例外狀況而執行的任何例外狀況處理常式。</span><span class="sxs-lookup"><span data-stu-id="06b44-111">The information in both the context and exception records is available by means of the [**GetExceptionInformation**](getexceptioninformation.md) function, and can be made available to any exception handlers that are executed as a result of the exception.</span></span> <span data-ttu-id="06b44-112">例外狀況記錄包含下列資訊。</span><span class="sxs-lookup"><span data-stu-id="06b44-112">The exception record includes the following information.</span></span>
+
+-   <span data-ttu-id="06b44-113">識別例外狀況類型的例外狀況代碼。</span><span class="sxs-lookup"><span data-stu-id="06b44-113">An exception code that identifies the type of exception.</span></span>
+-   <span data-ttu-id="06b44-114">指出例外狀況是否可持續的旗標。</span><span class="sxs-lookup"><span data-stu-id="06b44-114">Flags indicating whether the exception is continuable.</span></span> <span data-ttu-id="06b44-115">任何在 noncontinuable 例外狀況之後繼續執行的嘗試都會產生另一個例外狀況。</span><span class="sxs-lookup"><span data-stu-id="06b44-115">Any attempt to continue execution after a noncontinuable exception generates another exception.</span></span>
+-   <span data-ttu-id="06b44-116">另一個例外狀況記錄的指標。</span><span class="sxs-lookup"><span data-stu-id="06b44-116">A pointer to another exception record.</span></span> <span data-ttu-id="06b44-117">這有助於在發生嵌套例外狀況時建立連結的例外狀況清單。</span><span class="sxs-lookup"><span data-stu-id="06b44-117">This facilitates creation of a linked list of exceptions if nested exceptions occur.</span></span>
+-   <span data-ttu-id="06b44-118">發生例外狀況的位址。</span><span class="sxs-lookup"><span data-stu-id="06b44-118">The address at which the exception occurred.</span></span>
+-   <span data-ttu-id="06b44-119">引數陣列，提供例外狀況的其他資訊。</span><span class="sxs-lookup"><span data-stu-id="06b44-119">An array of arguments that provide additional information about the exception.</span></span>
+
+<span data-ttu-id="06b44-120">當使用者模式程式碼中發生例外狀況時，系統會使用下列搜尋順序來尋找例外狀況處理常式：</span><span class="sxs-lookup"><span data-stu-id="06b44-120">When an exception occurs in user-mode code, the system uses the following search order to find an exception handler:</span></span>
+
+1.  <span data-ttu-id="06b44-121">如果正在調試進程，系統就會通知偵錯工具。</span><span class="sxs-lookup"><span data-stu-id="06b44-121">If the process is being debugged, the system notifies the debugger.</span></span> <span data-ttu-id="06b44-122">如需詳細資訊，請參閱 [偵錯工具例外狀況處理](debugger-exception-handling.md)。</span><span class="sxs-lookup"><span data-stu-id="06b44-122">For more information, see [Debugger Exception Handling](debugger-exception-handling.md).</span></span>
+2.  <span data-ttu-id="06b44-123">如果進程未進行調試，或相關聯的偵錯工具未處理例外狀況，則系統會藉由搜尋發生例外狀況之執行緒的堆疊框架，嘗試尋找以框架為基礎的例外狀況處理常式。</span><span class="sxs-lookup"><span data-stu-id="06b44-123">If the process is not being debugged, or if the associated debugger does not handle the exception, the system attempts to locate a frame-based exception handler by searching the stack frames of the thread in which the exception occurred.</span></span> <span data-ttu-id="06b44-124">系統會先搜尋目前的堆疊框架，然後以反向順序搜尋先前的堆疊框架。</span><span class="sxs-lookup"><span data-stu-id="06b44-124">The system searches the current stack frame first, then searches through preceding stack frames in reverse order.</span></span>
+3.  <span data-ttu-id="06b44-125">如果找不到以框架為基礎的處理常式，或沒有任何以框架為基礎的處理常式處理例外狀況，但進程正在進行調試，系統會第二次通知偵錯工具。</span><span class="sxs-lookup"><span data-stu-id="06b44-125">If no frame-based handler can be found, or no frame-based handler handles the exception, but the process is being debugged, the system notifies the debugger a second time.</span></span>
+4.  <span data-ttu-id="06b44-126">如果進程未進行調試，或相關聯的偵錯工具未處理例外狀況，則系統會根據例外狀況類型提供預設處理。</span><span class="sxs-lookup"><span data-stu-id="06b44-126">If the process is not being debugged, or if the associated debugger does not handle the exception, the system provides default handling based on the exception type.</span></span> <span data-ttu-id="06b44-127">針對大部分的例外狀況，預設動作是呼叫 [**ExitProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) 函數。</span><span class="sxs-lookup"><span data-stu-id="06b44-127">For most exceptions, the default action is to call the [**ExitProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) function.</span></span>
+
+<span data-ttu-id="06b44-128">當核心模式程式碼中發生例外狀況時，系統會在嘗試找出例外狀況處理常式的情況下，搜尋核心堆疊的堆疊框架。</span><span class="sxs-lookup"><span data-stu-id="06b44-128">When an exception occurs in kernel-mode code, the system searches the stack frames of the kernel stack in an attempt to locate an exception handler.</span></span> <span data-ttu-id="06b44-129">如果找不到處理程式，或沒有處理常式處理例外狀況，則系統會關閉，如同已呼叫 [**ExitWindows**](/windows/win32/api/winuser/nf-winuser-exitwindows) 函數。</span><span class="sxs-lookup"><span data-stu-id="06b44-129">If a handler cannot be located or no handler handles the exception, the system is shut down as if the [**ExitWindows**](/windows/win32/api/winuser/nf-winuser-exitwindows) function had been called.</span></span>
+
+ 
+
+ 
