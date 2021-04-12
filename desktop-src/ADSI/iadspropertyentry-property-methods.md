@@ -34,25 +34,25 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "103844292"
 ---
-# <a name="iadspropertyentry-property-methods"></a><span data-ttu-id="2e46f-104">IADsPropertyEntry 屬性方法</span><span class="sxs-lookup"><span data-stu-id="2e46f-104">IADsPropertyEntry Property Methods</span></span>
+# <a name="iadspropertyentry-property-methods"></a><span data-ttu-id="9d560-104">IADsPropertyEntry 屬性方法</span><span class="sxs-lookup"><span data-stu-id="9d560-104">IADsPropertyEntry Property Methods</span></span>
 
-<span data-ttu-id="2e46f-105">[**IADsPropertyEntry**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)介面的屬性方法會提供下列屬性的存取權。</span><span class="sxs-lookup"><span data-stu-id="2e46f-105">The property methods of the [**IADsPropertyEntry**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry) interface provide access to the following properties.</span></span> <span data-ttu-id="2e46f-106">如需屬性方法的詳細資訊，請參閱 [介面屬性方法](interface-property-methods.md)。</span><span class="sxs-lookup"><span data-stu-id="2e46f-106">For more information about property methods, see [Interface Property Methods](interface-property-methods.md).</span></span>
+<span data-ttu-id="9d560-105">[**IADsPropertyEntry**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)介面的屬性方法會提供下列屬性的存取權。</span><span class="sxs-lookup"><span data-stu-id="9d560-105">The property methods of the [**IADsPropertyEntry**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry) interface provide access to the following properties.</span></span> <span data-ttu-id="9d560-106">如需屬性方法的詳細資訊，請參閱 [介面屬性方法](interface-property-methods.md)。</span><span class="sxs-lookup"><span data-stu-id="9d560-106">For more information about property methods, see [Interface Property Methods](interface-property-methods.md).</span></span>
 
-## <a name="properties"></a><span data-ttu-id="2e46f-107">屬性</span><span class="sxs-lookup"><span data-stu-id="2e46f-107">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="9d560-107">屬性</span><span class="sxs-lookup"><span data-stu-id="9d560-107">Properties</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="2e46f-108">**ADsType**</span><span class="sxs-lookup"><span data-stu-id="2e46f-108">**ADsType**</span></span>
-<span data-ttu-id="2e46f-109"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="2e46f-109"></dt> <dd> <dl></span></span>
+<span data-ttu-id="9d560-108">**ADsType**</span><span class="sxs-lookup"><span data-stu-id="9d560-108">**ADsType**</span></span>
+<span data-ttu-id="9d560-109"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="9d560-109"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="2e46f-110">**Name** 屬性的資料類型。</span><span class="sxs-lookup"><span data-stu-id="2e46f-110">The data type of the **Name** property.</span></span> <span data-ttu-id="2e46f-111">資料類型的值定義于 [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) 列舉中。</span><span class="sxs-lookup"><span data-stu-id="2e46f-111">The values of the data type is defined in the [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) enumeration.</span></span>
+<span data-ttu-id="9d560-110">**Name** 屬性的資料類型。</span><span class="sxs-lookup"><span data-stu-id="9d560-110">The data type of the **Name** property.</span></span> <span data-ttu-id="9d560-111">資料類型的值定義于 [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) 列舉中。</span><span class="sxs-lookup"><span data-stu-id="9d560-111">The values of the data type is defined in the [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) enumeration.</span></span>
 
 <dt>
 
-<span data-ttu-id="2e46f-112">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="2e46f-112">Access type: Read/write</span></span>
+<span data-ttu-id="9d560-112">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="9d560-112">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="2e46f-113">編寫資料類型的腳本： **LONG**</span><span class="sxs-lookup"><span data-stu-id="2e46f-113">Scripting data type: **LONG**</span></span>
+<span data-ttu-id="9d560-113">編寫資料類型的腳本： **LONG**</span><span class="sxs-lookup"><span data-stu-id="9d560-113">Scripting data type: **LONG**</span></span>
 </dt> <dt>
 
 
@@ -70,17 +70,17 @@ HRESULT put_ADsType(
 
 </dt> </dl> </dd> <dt>
 
-<span data-ttu-id="2e46f-114">**ControlCode**</span><span class="sxs-lookup"><span data-stu-id="2e46f-114">**ControlCode**</span></span>
-<span data-ttu-id="2e46f-115"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="2e46f-115"></dt> <dd> <dl></span></span>
+<span data-ttu-id="9d560-114">**ControlCode**</span><span class="sxs-lookup"><span data-stu-id="9d560-114">**ControlCode**</span></span>
+<span data-ttu-id="9d560-115"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="9d560-115"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="2e46f-116">常數，指定要在已命名屬性上執行的作業。</span><span class="sxs-lookup"><span data-stu-id="2e46f-116">A constant that specifies the operation to be performed on the named property.</span></span> <span data-ttu-id="2e46f-117">此值定義于 [**ADS \_ 屬性 \_ 運算 \_**](/windows/win32/api/iads/ne-iads-ads_property_operation_enum) 列舉列舉中。</span><span class="sxs-lookup"><span data-stu-id="2e46f-117">The value is defined in the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/win32/api/iads/ne-iads-ads_property_operation_enum) enumeration.</span></span>
+<span data-ttu-id="9d560-116">常數，指定要在已命名屬性上執行的作業。</span><span class="sxs-lookup"><span data-stu-id="9d560-116">A constant that specifies the operation to be performed on the named property.</span></span> <span data-ttu-id="9d560-117">此值定義于 [**ADS \_ 屬性 \_ 運算 \_**](/windows/win32/api/iads/ne-iads-ads_property_operation_enum) 列舉列舉中。</span><span class="sxs-lookup"><span data-stu-id="9d560-117">The value is defined in the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/win32/api/iads/ne-iads-ads_property_operation_enum) enumeration.</span></span>
 
 <dt>
 
-<span data-ttu-id="2e46f-118">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="2e46f-118">Access type: Read/write</span></span>
+<span data-ttu-id="9d560-118">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="9d560-118">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="2e46f-119">編寫資料類型的腳本： **LONG**</span><span class="sxs-lookup"><span data-stu-id="2e46f-119">Scripting data type: **LONG**</span></span>
+<span data-ttu-id="9d560-119">編寫資料類型的腳本： **LONG**</span><span class="sxs-lookup"><span data-stu-id="9d560-119">Scripting data type: **LONG**</span></span>
 </dt> <dt>
 
 
@@ -98,17 +98,17 @@ HRESULT put_ControlCode(
 
 </dt> </dl> </dd> <dt>
 
-<span data-ttu-id="2e46f-120">**名稱**</span><span class="sxs-lookup"><span data-stu-id="2e46f-120">**Name**</span></span>
-<span data-ttu-id="2e46f-121"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="2e46f-121"></dt> <dd> <dl></span></span>
+<span data-ttu-id="9d560-120">**名稱**</span><span class="sxs-lookup"><span data-stu-id="9d560-120">**Name**</span></span>
+<span data-ttu-id="9d560-121"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="9d560-121"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="2e46f-122">屬性專案的名稱。</span><span class="sxs-lookup"><span data-stu-id="2e46f-122">Name of the property entry.</span></span> <span data-ttu-id="2e46f-123">這個名稱應該與架構中定義的屬性名稱相對應。</span><span class="sxs-lookup"><span data-stu-id="2e46f-123">This name should correspond to the name of an attribute as defined in the schema.</span></span>
+<span data-ttu-id="9d560-122">屬性專案的名稱。</span><span class="sxs-lookup"><span data-stu-id="9d560-122">Name of the property entry.</span></span> <span data-ttu-id="9d560-123">這個名稱應該與架構中定義的屬性名稱相對應。</span><span class="sxs-lookup"><span data-stu-id="9d560-123">This name should correspond to the name of an attribute as defined in the schema.</span></span>
 
 <dt>
 
-<span data-ttu-id="2e46f-124">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="2e46f-124">Access type: Read/write</span></span>
+<span data-ttu-id="9d560-124">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="9d560-124">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="2e46f-125">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="2e46f-125">Scripting data type: **BSTR**</span></span>
+<span data-ttu-id="9d560-125">腳本資料類型： **BSTR**</span><span class="sxs-lookup"><span data-stu-id="9d560-125">Scripting data type: **BSTR**</span></span>
 </dt> <dt>
 
 
@@ -126,17 +126,17 @@ HRESULT put_Name(
 
 </dt> </dl> </dd> <dt>
 
-<span data-ttu-id="2e46f-126">**值**</span><span class="sxs-lookup"><span data-stu-id="2e46f-126">**Values**</span></span>
-<span data-ttu-id="2e46f-127"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="2e46f-127"></dt> <dd> <dl></span></span>
+<span data-ttu-id="9d560-126">**值**</span><span class="sxs-lookup"><span data-stu-id="9d560-126">**Values**</span></span>
+<span data-ttu-id="9d560-127"></dt> <dd> <dl></span><span class="sxs-lookup"><span data-stu-id="9d560-127"></dt> <dd> <dl></span></span>
 
-<span data-ttu-id="2e46f-128">**VARIANT** 陣列。</span><span class="sxs-lookup"><span data-stu-id="2e46f-128">A **VARIANT** array.</span></span> <span data-ttu-id="2e46f-129">這個陣列中的每個元素都代表一個命名屬性的值。</span><span class="sxs-lookup"><span data-stu-id="2e46f-129">Each element in this array represents a value of the named property.</span></span> <span data-ttu-id="2e46f-130">這類屬性值是由執行 [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) 和 [**IADSPROPERTYVALUE2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) 介面的 ADSI 物件表示。</span><span class="sxs-lookup"><span data-stu-id="2e46f-130">Such property values are represented by ADSI objects implementing the [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) and [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) interfaces.</span></span> <span data-ttu-id="2e46f-131">因此， **VARIANT** 陣列會在執行 **IADsPropertyValue** 和 **IADsPropertyValue2** 介面的 ADSI 物件上，保存 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)介面的指標陣列。</span><span class="sxs-lookup"><span data-stu-id="2e46f-131">Therefore, the **VARIANT** array holds an array of pointers to the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface on the ADSI objects implementing the **IADsPropertyValue** and **IADsPropertyValue2** interfaces.</span></span>
+<span data-ttu-id="9d560-128">**VARIANT** 陣列。</span><span class="sxs-lookup"><span data-stu-id="9d560-128">A **VARIANT** array.</span></span> <span data-ttu-id="9d560-129">這個陣列中的每個元素都代表一個命名屬性的值。</span><span class="sxs-lookup"><span data-stu-id="9d560-129">Each element in this array represents a value of the named property.</span></span> <span data-ttu-id="9d560-130">這類屬性值是由執行 [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) 和 [**IADSPROPERTYVALUE2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) 介面的 ADSI 物件表示。</span><span class="sxs-lookup"><span data-stu-id="9d560-130">Such property values are represented by ADSI objects implementing the [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) and [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) interfaces.</span></span> <span data-ttu-id="9d560-131">因此， **VARIANT** 陣列會在執行 **IADsPropertyValue** 和 **IADsPropertyValue2** 介面的 ADSI 物件上，保存 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)介面的指標陣列。</span><span class="sxs-lookup"><span data-stu-id="9d560-131">Therefore, the **VARIANT** array holds an array of pointers to the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface on the ADSI objects implementing the **IADsPropertyValue** and **IADsPropertyValue2** interfaces.</span></span>
 
 <dt>
 
-<span data-ttu-id="2e46f-132">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="2e46f-132">Access type: Read/write</span></span>
+<span data-ttu-id="9d560-132">存取類型：讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="9d560-132">Access type: Read/write</span></span>
 </dt> <dt>
 
-<span data-ttu-id="2e46f-133">腳本資料類型： **VARIANT**</span><span class="sxs-lookup"><span data-stu-id="2e46f-133">Scripting data type: **VARIANT**</span></span>
+<span data-ttu-id="9d560-133">腳本資料類型： **VARIANT**</span><span class="sxs-lookup"><span data-stu-id="9d560-133">Scripting data type: **VARIANT**</span></span>
 </dt> <dt>
 
 
@@ -156,13 +156,13 @@ HRESULT put_Values(
 
  
 
-## <a name="remarks"></a><span data-ttu-id="2e46f-134">備註</span><span class="sxs-lookup"><span data-stu-id="2e46f-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9d560-134">備註</span><span class="sxs-lookup"><span data-stu-id="9d560-134">Remarks</span></span>
 
-<span data-ttu-id="2e46f-135">每個屬性方法都支援標準 **HRESULT** 傳回值，包括 S \_ OK。</span><span class="sxs-lookup"><span data-stu-id="2e46f-135">Each property method supports the standard **HRESULT** return values, including S\_OK.</span></span> <span data-ttu-id="2e46f-136">如需其他傳回值的詳細資訊，請參閱 [ADSI 錯誤碼](adsi-error-codes.md)。</span><span class="sxs-lookup"><span data-stu-id="2e46f-136">For more information about other return values, see [ADSI Error Codes](adsi-error-codes.md).</span></span>
+<span data-ttu-id="9d560-135">每個屬性方法都支援標準 **HRESULT** 傳回值，包括 S \_ OK。</span><span class="sxs-lookup"><span data-stu-id="9d560-135">Each property method supports the standard **HRESULT** return values, including S\_OK.</span></span> <span data-ttu-id="9d560-136">如需其他傳回值的詳細資訊，請參閱 [ADSI 錯誤碼](adsi-error-codes.md)。</span><span class="sxs-lookup"><span data-stu-id="9d560-136">For more information about other return values, see [ADSI Error Codes](adsi-error-codes.md).</span></span>
 
-## <a name="examples"></a><span data-ttu-id="2e46f-137">範例</span><span class="sxs-lookup"><span data-stu-id="2e46f-137">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="9d560-137">範例</span><span class="sxs-lookup"><span data-stu-id="9d560-137">Examples</span></span>
 
-<span data-ttu-id="2e46f-138">下列程式碼範例示範如何從快取中取出指名的屬性，並建立新的屬性專案。</span><span class="sxs-lookup"><span data-stu-id="2e46f-138">The following code example shows how to retrieve a named property from the cache and create a new property entry.</span></span>
+<span data-ttu-id="9d560-138">下列程式碼範例示範如何從快取中取出指名的屬性，並建立新的屬性專案。</span><span class="sxs-lookup"><span data-stu-id="9d560-138">The following code example shows how to retrieve a named property from the cache and create a new property entry.</span></span>
 
 
 ```VB
@@ -222,7 +222,7 @@ Cleanup:
 
 
 
-<span data-ttu-id="2e46f-139">下列程式碼範例示範如何從快取取得命名屬性。</span><span class="sxs-lookup"><span data-stu-id="2e46f-139">The following code example shows how to get a named property from a cache.</span></span>
+<span data-ttu-id="9d560-139">下列程式碼範例示範如何從快取取得命名屬性。</span><span class="sxs-lookup"><span data-stu-id="9d560-139">The following code example shows how to get a named property from a cache.</span></span>
 
 
 ```C++
@@ -285,43 +285,43 @@ Cleanup:
 
 
 
-## <a name="requirements"></a><span data-ttu-id="2e46f-140">規格需求</span><span class="sxs-lookup"><span data-stu-id="2e46f-140">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9d560-140">規格需求</span><span class="sxs-lookup"><span data-stu-id="9d560-140">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2e46f-141">需求</span><span class="sxs-lookup"><span data-stu-id="2e46f-141">Requirement</span></span> | <span data-ttu-id="2e46f-142">值</span><span class="sxs-lookup"><span data-stu-id="2e46f-142">Value</span></span> |
+| <span data-ttu-id="9d560-141">需求</span><span class="sxs-lookup"><span data-stu-id="9d560-141">Requirement</span></span> | <span data-ttu-id="9d560-142">值</span><span class="sxs-lookup"><span data-stu-id="9d560-142">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="2e46f-143">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2e46f-143">Minimum supported client</span></span><br/> | <span data-ttu-id="2e46f-144">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="2e46f-144">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="2e46f-145">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2e46f-145">Minimum supported server</span></span><br/> | <span data-ttu-id="2e46f-146">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="2e46f-146">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="2e46f-147">標頭</span><span class="sxs-lookup"><span data-stu-id="2e46f-147">Header</span></span><br/>                   | <dl> <span data-ttu-id="2e46f-148"><dt>Iads。h</dt></span><span class="sxs-lookup"><span data-stu-id="2e46f-148"><dt>Iads.h</dt></span></span> </dl>       |
-| <span data-ttu-id="2e46f-149">DLL</span><span class="sxs-lookup"><span data-stu-id="2e46f-149">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2e46f-150"><dt>Activeds.dll</dt></span><span class="sxs-lookup"><span data-stu-id="2e46f-150"><dt>Activeds.dll</dt></span></span> </dl> |
-| <span data-ttu-id="2e46f-151">IID</span><span class="sxs-lookup"><span data-stu-id="2e46f-151">IID</span></span><br/>                      | <span data-ttu-id="2e46f-152">IID \_ IADsPropertyEntry 定義為05792C8E-941F-11D0-8529-00C04FD8D503</span><span class="sxs-lookup"><span data-stu-id="2e46f-152">IID\_IADsPropertyEntry is defined as 05792C8E-941F-11D0-8529-00C04FD8D503</span></span><br/>    |
+| <span data-ttu-id="9d560-143">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9d560-143">Minimum supported client</span></span><br/> | <span data-ttu-id="9d560-144">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="9d560-144">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="9d560-145">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9d560-145">Minimum supported server</span></span><br/> | <span data-ttu-id="9d560-146">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="9d560-146">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="9d560-147">標頭</span><span class="sxs-lookup"><span data-stu-id="9d560-147">Header</span></span><br/>                   | <dl> <span data-ttu-id="9d560-148"><dt>Iads。h</dt></span><span class="sxs-lookup"><span data-stu-id="9d560-148"><dt>Iads.h</dt></span></span> </dl>       |
+| <span data-ttu-id="9d560-149">DLL</span><span class="sxs-lookup"><span data-stu-id="9d560-149">DLL</span></span><br/>                      | <dl> <span data-ttu-id="9d560-150"><dt>Activeds.dll</dt></span><span class="sxs-lookup"><span data-stu-id="9d560-150"><dt>Activeds.dll</dt></span></span> </dl> |
+| <span data-ttu-id="9d560-151">IID</span><span class="sxs-lookup"><span data-stu-id="9d560-151">IID</span></span><br/>                      | <span data-ttu-id="9d560-152">IID \_ IADsPropertyEntry 定義為05792C8E-941F-11D0-8529-00C04FD8D503</span><span class="sxs-lookup"><span data-stu-id="9d560-152">IID\_IADsPropertyEntry is defined as 05792C8E-941F-11D0-8529-00C04FD8D503</span></span><br/>    |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2e46f-153">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2e46f-153">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9d560-153">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9d560-153">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="2e46f-154">**ADS \_ 屬性 \_ 運算 \_ 列舉**</span><span class="sxs-lookup"><span data-stu-id="2e46f-154">**ADS\_PROPERTY\_OPERATION\_ENUM**</span></span>](/windows/win32/api/iads/ne-iads-ads_property_operation_enum)
+[<span data-ttu-id="9d560-154">**ADS \_ 屬性 \_ 運算 \_ 列舉**</span><span class="sxs-lookup"><span data-stu-id="9d560-154">**ADS\_PROPERTY\_OPERATION\_ENUM**</span></span>](/windows/win32/api/iads/ne-iads-ads_property_operation_enum)
 </dt> <dt>
 
-[<span data-ttu-id="2e46f-155">ADSI 錯誤碼</span><span class="sxs-lookup"><span data-stu-id="2e46f-155">ADSI Error Codes</span></span>](adsi-error-codes.md)
+[<span data-ttu-id="9d560-155">ADSI 錯誤碼</span><span class="sxs-lookup"><span data-stu-id="9d560-155">ADSI Error Codes</span></span>](adsi-error-codes.md)
 </dt> <dt>
 
-[<span data-ttu-id="2e46f-156">**ADSTYPEENUM**</span><span class="sxs-lookup"><span data-stu-id="2e46f-156">**ADSTYPEENUM**</span></span>](/windows/win32/api/iads/ne-iads-adstypeenum)
+[<span data-ttu-id="9d560-156">**ADSTYPEENUM**</span><span class="sxs-lookup"><span data-stu-id="9d560-156">**ADSTYPEENUM**</span></span>](/windows/win32/api/iads/ne-iads-adstypeenum)
 </dt> <dt>
 
-[<span data-ttu-id="2e46f-157">**IADsPropertyEntry**</span><span class="sxs-lookup"><span data-stu-id="2e46f-157">**IADsPropertyEntry**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)
+[<span data-ttu-id="9d560-157">**IADsPropertyEntry**</span><span class="sxs-lookup"><span data-stu-id="9d560-157">**IADsPropertyEntry**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)
 </dt> <dt>
 
-[<span data-ttu-id="2e46f-158">**IADsPropertyValue**</span><span class="sxs-lookup"><span data-stu-id="2e46f-158">**IADsPropertyValue**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue)
+[<span data-ttu-id="9d560-158">**IADsPropertyValue**</span><span class="sxs-lookup"><span data-stu-id="9d560-158">**IADsPropertyValue**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue)
 </dt> <dt>
 
-[<span data-ttu-id="2e46f-159">**IADsPropertyValue2**</span><span class="sxs-lookup"><span data-stu-id="2e46f-159">**IADsPropertyValue2**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2)
+[<span data-ttu-id="9d560-159">**IADsPropertyValue2**</span><span class="sxs-lookup"><span data-stu-id="9d560-159">**IADsPropertyValue2**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2)
 </dt> <dt>
 
-[<span data-ttu-id="2e46f-160">**IDispatch**</span><span class="sxs-lookup"><span data-stu-id="2e46f-160">**IDispatch**</span></span>](/windows/win32/api/oaidl/nn-oaidl-idispatch)
+[<span data-ttu-id="9d560-160">**IDispatch**</span><span class="sxs-lookup"><span data-stu-id="9d560-160">**IDispatch**</span></span>](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> </dl>
 
  

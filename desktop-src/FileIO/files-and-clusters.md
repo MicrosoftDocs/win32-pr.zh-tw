@@ -1,0 +1,49 @@
+---
+description: 檔案是檔案系統中，使用者可以存取和管理的資料單位。
+ms.assetid: 271bad79-c23b-45ee-938c-d17dae89db1a
+title: 檔案和叢集
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 75384900d5d487ab02bd19c13cc2c25e9a310b3e
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104192122"
+---
+# <a name="files-and-clusters"></a><span data-ttu-id="4f1e0-103">檔案和叢集</span><span class="sxs-lookup"><span data-stu-id="4f1e0-103">Files and Clusters</span></span>
+
+<span data-ttu-id="4f1e0-104">檔案 *是檔* 系統中，使用者可以存取和管理的資料單位。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-104">A *file* is a unit of data in the file system that a user can access and manage.</span></span> <span data-ttu-id="4f1e0-105">檔案的目錄中必須有唯一的名稱。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-105">A file must have a unique name in its directory.</span></span> <span data-ttu-id="4f1e0-106">它是由一或多個包含一組相關資料的位元組資料流程所組成，再加上一組屬性 (也稱為屬性，) 描述檔案或檔案中的資料。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-106">It consists of one or more streams of bytes that hold a set of related data, plus a set of attributes (also called properties) that describe the file or the data within the file.</span></span> <span data-ttu-id="4f1e0-107">檔案的建立時間是檔案屬性的範例。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-107">The creation time of a file is an example of a file attribute.</span></span>
+
+<span data-ttu-id="4f1e0-108">建立檔案時，會建立一個未命名的預設資料流程，以儲存在開啟時寫入檔案的所有資料。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-108">When a file is created, one unnamed default stream is created to store all data written to the file while it is open.</span></span> <span data-ttu-id="4f1e0-109">您也可以在檔案中建立額外的資料流程。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-109">You can also create additional streams within the file.</span></span> <span data-ttu-id="4f1e0-110">這些額外的資料流程稱為替代資料流程。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-110">These additional streams are referred to as alternate streams.</span></span> <span data-ttu-id="4f1e0-111">下圖描述具有預設資料流程和兩個替代資料流程的檔案。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-111">The following figure depicts a file with the default stream and two alternate streams.</span></span>
+
+![具有預設資料流程和兩個替代資料流程的檔案](images/fig1.png)
+
+<span data-ttu-id="4f1e0-113">檔案屬性不會儲存在具有檔案資料的資料流程中，但會儲存在其他位置並由作業系統管理。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-113">File attributes are not stored in the data streams with the file data, but are stored elsewhere and managed by the operating system.</span></span>
+
+<span data-ttu-id="4f1e0-114">所有檔案系統資料（包括系統啟動程式程式碼和目錄）都會由 NTFS 檔案系統儲存在檔案中。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-114">All file system data, including the system bootstrap code and directories, are stored by the NTFS file system in files.</span></span> <span data-ttu-id="4f1e0-115">其他檔案系統會將此資訊儲存在檔案系統外部的磁片區域中。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-115">Other file systems store this information in disk regions external to the file system.</span></span> <span data-ttu-id="4f1e0-116">將此資訊儲存在檔案中的優點是，Windows 可以輕鬆地尋找、存取和維護資訊。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-116">An advantage of storing this information in files is that Windows can locate, access, and maintain the information easily.</span></span> <span data-ttu-id="4f1e0-117">另外的優點是，這些檔案中的每一個都可能受到安全描述項的保護，而且在部分磁片損毀的情況下，它們可能很快就會重新放置到磁片的更安全的部分。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-117">Other advantages are that each of these files may be protected by a security descriptor and, in the case of partial disk corruption, they may be quickly relocated to a safer part of the disk.</span></span>
+
+<span data-ttu-id="4f1e0-118">所有支援之檔案系統的基本儲存體單位是一個 *叢集，也就是一組* 磁區。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-118">The fundamental storage unit of all supported file systems is a *cluster*, which is a group of sectors.</span></span> <span data-ttu-id="4f1e0-119">這可讓檔案系統將磁片資料的管理優化，而不受硬體磁碟控制卡設定的磁片磁區大小影響。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-119">This allows the file system to optimize the administration of disk data independently of the disk sector size set by the hardware disk controller.</span></span> <span data-ttu-id="4f1e0-120">如果要管理的磁片是大型的，且大量的資料會在單一作業中移動和組織，系統管理員可以調整叢集大小以容納這一點。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-120">If the disk to be administered is large and large amounts of data are moved and organized in a single operation, the administrator can adjust the cluster size to accommodate this.</span></span>
+
+<span data-ttu-id="4f1e0-121">Windows 會透過檔案 [物件](file-objects.md)、 [檔案控制代碼](file-handles.md)和檔案 [指標](file-pointers.md)來管理檔案。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-121">Windows manages files through [file objects](file-objects.md), [file handles](file-handles.md), and [file pointers](file-pointers.md).</span></span>
+
+<span data-ttu-id="4f1e0-122">如需檔案資料流程的詳細資訊，請參閱檔案 [資料流程](file-streams.md)。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-122">For more information on file streams, see [File Streams](file-streams.md).</span></span> <span data-ttu-id="4f1e0-123">如需叢集的詳細資訊，請參閱 [群集和範圍](clusters-and-extents.md)。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-123">For more information on clusters, see [Clusters and Extents](clusters-and-extents.md).</span></span> <span data-ttu-id="4f1e0-124">如需有關如何存取和管理檔案的詳細資訊，請參閱檔案 [管理](file-management.md) 和檔案 [管理參考](file-management-reference.md)。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-124">For more information on how to access and manage files, see [File Management](file-management.md) and [File Management Reference](file-management-reference.md).</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="4f1e0-125">本節內容</span><span class="sxs-lookup"><span data-stu-id="4f1e0-125">In this section</span></span>
+
+
+
+| <span data-ttu-id="4f1e0-126">主題</span><span class="sxs-lookup"><span data-stu-id="4f1e0-126">Topic</span></span>                                                       | <span data-ttu-id="4f1e0-127">描述</span><span class="sxs-lookup"><span data-stu-id="4f1e0-127">Description</span></span>                                                                                                                                                                                                                                                  |
+|-------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="4f1e0-128">檔案資料流程</span><span class="sxs-lookup"><span data-stu-id="4f1e0-128">File Streams</span></span>](file-streams.md)<br/>                 | <span data-ttu-id="4f1e0-129">在 NTFS 檔案系統中，資料流程包含寫入檔案的資料，並提供比屬性和屬性更多的檔案相關資訊。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-129">In the NTFS file system, streams contain the data that is written to a file, and that gives more information about a file than attributes and properties.</span></span><br/>                                                                                         |
+| [<span data-ttu-id="4f1e0-130">File 物件</span><span class="sxs-lookup"><span data-stu-id="4f1e0-130">File Objects</span></span>](file-objects.md)<br/>                 | <span data-ttu-id="4f1e0-131">檔案 *物件* 可作為核心和使用者模式進程之間的邏輯介面，以及位於實體磁片上的檔案資料。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-131">*File objects* function as the logical interface between kernel and user-mode processes and the file data that resides on the physical disk.</span></span><br/>                                                                                                      |
+| [<span data-ttu-id="4f1e0-132">檔案控制代碼</span><span class="sxs-lookup"><span data-stu-id="4f1e0-132">File Handles</span></span>](file-handles.md)<br/>                 | <span data-ttu-id="4f1e0-133">當使用 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 函式的進程開啟檔案時， *檔案控制代碼* 會與其相關聯，直到進程終止或使用 [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) 函數關閉控制碼為止。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-133">When a file is opened by a process using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function, a *file handle* is associated with it until either the process terminates or the handle is closed using the [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) function.</span></span><br/> |
+| [<span data-ttu-id="4f1e0-134">檔案指標</span><span class="sxs-lookup"><span data-stu-id="4f1e0-134">File Pointers</span></span>](file-pointers.md)<br/>               | <span data-ttu-id="4f1e0-135">檔案指標是64位的位移值，可指定要讀取的下一個位元組，或要接收下一個寫入位元組的位置。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-135">A file pointer is a 64-bit offset value that specifies the next byte to be read or the location to receive the next byte written.</span></span><br/>                                                                                                                 |
+| [<span data-ttu-id="4f1e0-136">叢集和延伸區</span><span class="sxs-lookup"><span data-stu-id="4f1e0-136">Clusters and Extents</span></span>](clusters-and-extents.md)<br/> | <span data-ttu-id="4f1e0-137">您可以從兩個不同的觀點參考叢集：在檔案和磁片區中。</span><span class="sxs-lookup"><span data-stu-id="4f1e0-137">Clusters may be referred to from two different perspectives: within the file and on the volume.</span></span><br/>                                                                                                                                                   |
+
+
+
+ 
+
+ 
+
