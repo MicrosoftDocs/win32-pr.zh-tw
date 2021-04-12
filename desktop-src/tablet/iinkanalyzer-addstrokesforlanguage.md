@@ -1,0 +1,172 @@
+---
+description: 將多個筆劃的筆觸資料新增至 IInkAnalyzer，並將指定的文化特性識別碼指派給筆觸。
+ms.assetid: 1274b24f-204b-4a84-a7c0-0205b6068ae8
+title: 'IInkAnalyzer：： AddStrokesForLanguage 方法 (IACom .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IInkAnalyzer.AddStrokesForLanguage
+api_type:
+- COM
+api_location:
+- IACom.dll
+ms.openlocfilehash: 7f1c8bde9f1fe9d9c7123fa3c40540d0fd2660ee
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104191411"
+---
+# <a name="iinkanalyzeraddstrokesforlanguage-method"></a>IInkAnalyzer：： AddStrokesForLanguage 方法
+
+將多個筆劃的筆觸資料新增至 [**IInkAnalyzer**](iinkanalyzer.md) ，並將指定的文化特性識別碼指派給筆觸。
+
+## <a name="syntax"></a>語法
+
+
+```C++
+HRESULT AddStrokesForLanguage(
+  [in]  ULONG        ulStrokeIdsCount,
+  [in]  LONG         *plIdofStrokesToAdd,
+  [in]  LONG         lStrokesLCID,
+  [in]  ULONG        ulStrokePacketDescriptionCount,
+  [in]  GUID         *pStrokePacketDescriptionGuids,
+  [in]  ULONG        *pulPacketDataCountPerStroke,
+  [in]  LONG         *plStrokePacketData,
+  [out] IContextNode **ppContextNodeStrokeAddedTo
+);
+```
+
+
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+*ulStrokeIdsCount* \[在\]
+</dt> <dd>
+
+要加入的筆劃數目。
+
+</dd> <dt>
+
+*plIdofStrokesToAdd* \[在\]
+</dt> <dd>
+
+包含筆觸識別碼的陣列。
+
+</dd> <dt>
+
+*lStrokesLCID* \[在\]
+</dt> <dd>
+
+值，表示要指派給筆劃的文化特性識別碼。
+
+</dd> <dt>
+
+*ulStrokePacketDescriptionCount* \[在\]
+</dt> <dd>
+
+每個封包中的屬性數目。
+
+</dd> <dt>
+
+*pStrokePacketDescriptionGuids* \[在\]
+</dt> <dd>
+
+陣列，包含封包屬性識別碼。
+
+</dd> <dt>
+
+*pulPacketDataCountPerStroke* \[在\]
+</dt> <dd>
+
+陣列，其中包含每個筆劃中的封包數目。
+
+</dd> <dt>
+
+*plStrokePacketData* \[在\]
+</dt> <dd>
+
+陣列，其中包含筆觸的封包資料。
+
+</dd> <dt>
+
+*ppCoNtextNodeStrokeAddedTo* \[擴展\]
+</dt> <dd>
+
+筆跡分析器新增筆劃的 [**ICoNtextNode**](icontextnode.md) 。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+如需傳回值的描述，請參閱 [類別和介面-筆跡分析](classes-and-interfaces---ink-analysis.md)。
+
+## <a name="remarks"></a>備註
+
+> [!Caution]  
+> 若要避免記憶體流失，請在 *ppCoNtextNodeStrokeAddedTo* 上呼叫 [**IUnknown：： Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) （當您不再需要使用物件時）。
+
+ 
+
+當 *ppCoNtextNodeStrokeAddedTo* 為 **Null** 時，表示呼叫端對方法的傳回值不感興趣。
+
+[**IInkAnalyzer**](iinkanalyzer.md)會將筆劃新增至類型 UnclassifiedInk 的 [**ICoNtextNode**](icontextnode.md) (請參閱) 的 [內容節點類型](context-node-types.md)。 此節點位於根節點的子節點集合中 (請參閱 [**IInkAnalyzer：： GetRootNode 方法**](iinkanalyzer-getrootnode.md) 和 [**ICoNtextNode：： GetSubNodes**](icontextnode-getsubnodes.md) 方法) 。
+
+[**IInkAnalyzer**](iinkanalyzer.md)會將 *lStrokeLCID* 文化特性識別碼指派給筆觸，然後將筆劃新增至筆墨分析器根節點下的第一個 UnclassifiedInk 內容節點，其中包含具有相同文化特性識別碼的筆觸。 如果筆墨分析器沒有具有相同文化特性識別碼的節點，它會在其根節點下建立新的 UnclassifiedInk 內容節點，並將筆劃加入新的 UnclassifiedInk 內容節點。
+
+*plStrokePacketData* 包含所有筆劃的封包資料。 *pStrokePacketDescriptionGuids* 包含 (guid) 的全域唯一識別碼，描述每個筆劃中每個點所包含的封包資料類型。 如需可用的封包屬性完整清單，請參閱 [PacketPropertyGuids 常數](packetpropertyguids-constants.md)。
+
+> [!Note]  
+> [**IInkAnalyzer：： AddStrokes 方法**](iinkanalyzer-addstrokes.md)的單一呼叫中只能新增具有相同封包描述的筆劃。
+
+ 
+
+這個方法會將中途區域擴展至區域目前值的聯集，以及加入之筆劃的周框方塊。
+
+如果 [**IInkAnalyzer**](iinkanalyzer.md)已包含與要加入之其中一個筆劃具有相同識別碼的筆劃，則 **IInkAnalyzer** 會傳回 **E \_ INVALIDARG** 的 **HRESULT** 。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
+| 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
+| DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**IInkAnalyzer**](iinkanalyzer.md)
+</dt> <dt>
+
+[**IInkAnalyzer：： AddStroke 方法**](iinkanalyzer-addstroke.md)
+</dt> <dt>
+
+[**IInkAnalyzer：： AddStrokeForLanguage 方法**](iinkanalyzer-addstrokeforlanguage.md)
+</dt> <dt>
+
+[**IInkAnalyzer：： AddStrokes 方法**](iinkanalyzer-addstrokes.md)
+</dt> <dt>
+
+[**IInkAnalyzer：： RemoveStroke 方法**](iinkanalyzer-removestroke.md)
+</dt> <dt>
+
+[**IInkAnalyzer：： RemoveStrokes 方法**](iinkanalyzer-removestrokes.md)
+</dt> <dt>
+
+[筆跡分析參考](ink-analysis-reference.md)
+</dt> </dl>
+
+ 
+
