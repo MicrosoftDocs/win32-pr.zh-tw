@@ -26,13 +26,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "104106091"
 ---
-# <a name="imsrdpclienttransportsettings3gatewayauthloginpage-property"></a><span data-ttu-id="80517-106">IMsRdpClientTransportSettings3：： GatewayAuthLoginPage 屬性</span><span class="sxs-lookup"><span data-stu-id="80517-106">IMsRdpClientTransportSettings3::GatewayAuthLoginPage property</span></span>
+# <a name="imsrdpclienttransportsettings3gatewayauthloginpage-property"></a><span data-ttu-id="455e3-106">IMsRdpClientTransportSettings3：： GatewayAuthLoginPage 屬性</span><span class="sxs-lookup"><span data-stu-id="455e3-106">IMsRdpClientTransportSettings3::GatewayAuthLoginPage property</span></span>
 
-<span data-ttu-id="80517-107">用來驗證使用者的登入網頁位址。</span><span class="sxs-lookup"><span data-stu-id="80517-107">The address of the login webpage to use to authenticate a user.</span></span>
+<span data-ttu-id="455e3-107">用來驗證使用者的登入網頁位址。</span><span class="sxs-lookup"><span data-stu-id="455e3-107">The address of the login webpage to use to authenticate a user.</span></span>
 
-<span data-ttu-id="80517-108">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="80517-108">This property is read/write.</span></span>
+<span data-ttu-id="455e3-108">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="455e3-108">This property is read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="80517-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="80517-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="455e3-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="455e3-109">Syntax</span></span>
 
 
 ```C++
@@ -47,28 +47,28 @@ HRESULT get_GatewayAuthLoginPage(
 
 
 
-## <a name="property-value"></a><span data-ttu-id="80517-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="80517-110">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="455e3-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="455e3-110">Property value</span></span>
 
-<span data-ttu-id="80517-111">新的登入網頁位址。</span><span class="sxs-lookup"><span data-stu-id="80517-111">The new login webpage address.</span></span>
+<span data-ttu-id="455e3-111">新的登入網頁位址。</span><span class="sxs-lookup"><span data-stu-id="455e3-111">The new login webpage address.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="80517-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="80517-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="455e3-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="455e3-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="80517-113">需求</span><span class="sxs-lookup"><span data-stu-id="80517-113">Requirement</span></span> | <span data-ttu-id="80517-114">值</span><span class="sxs-lookup"><span data-stu-id="80517-114">Value</span></span> |
+| <span data-ttu-id="455e3-113">需求</span><span class="sxs-lookup"><span data-stu-id="455e3-113">Requirement</span></span> | <span data-ttu-id="455e3-114">值</span><span class="sxs-lookup"><span data-stu-id="455e3-114">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="80517-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="80517-115">Minimum supported client</span></span><br/> | <span data-ttu-id="80517-116">Windows 7</span><span class="sxs-lookup"><span data-stu-id="80517-116">Windows 7</span></span><br/>                                                                   |
-| <span data-ttu-id="80517-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="80517-117">Minimum supported server</span></span><br/> | <span data-ttu-id="80517-118">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="80517-118">Windows Server 2008</span></span><br/>                                                         |
-| <span data-ttu-id="80517-119">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="80517-119">Type library</span></span><br/>             | <dl> <span data-ttu-id="80517-120"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="80517-120"><dt>MsTscAx.dll</dt></span></span> </dl> |
-| <span data-ttu-id="80517-121">DLL</span><span class="sxs-lookup"><span data-stu-id="80517-121">DLL</span></span><br/>                      | <dl> <span data-ttu-id="80517-122"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="80517-122"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="455e3-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="455e3-115">Minimum supported client</span></span><br/> | <span data-ttu-id="455e3-116">Windows 7</span><span class="sxs-lookup"><span data-stu-id="455e3-116">Windows 7</span></span><br/>                                                                   |
+| <span data-ttu-id="455e3-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="455e3-117">Minimum supported server</span></span><br/> | <span data-ttu-id="455e3-118">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="455e3-118">Windows Server 2008</span></span><br/>                                                         |
+| <span data-ttu-id="455e3-119">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="455e3-119">Type library</span></span><br/>             | <dl> <span data-ttu-id="455e3-120"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="455e3-120"><dt>MsTscAx.dll</dt></span></span> </dl> |
+| <span data-ttu-id="455e3-121">DLL</span><span class="sxs-lookup"><span data-stu-id="455e3-121">DLL</span></span><br/>                      | <dl> <span data-ttu-id="455e3-122"><dt>MsTscAx.dll</dt></span><span class="sxs-lookup"><span data-stu-id="455e3-122"><dt>MsTscAx.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="80517-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="80517-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="455e3-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="455e3-123">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="80517-124">**IMsRdpClientTransportSettings3**</span><span class="sxs-lookup"><span data-stu-id="80517-124">**IMsRdpClientTransportSettings3**</span></span>](imsrdpclienttransportsettings3.md)
+[<span data-ttu-id="455e3-124">**IMsRdpClientTransportSettings3**</span><span class="sxs-lookup"><span data-stu-id="455e3-124">**IMsRdpClientTransportSettings3**</span></span>](imsrdpclienttransportsettings3.md)
 </dt> </dl>
 
  

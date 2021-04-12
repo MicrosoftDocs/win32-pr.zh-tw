@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "104106037"
 ---
-# <a name="inputtypelisttype-complex-type"></a><span data-ttu-id="ce2b9-104">InputTypeListType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="ce2b9-104">InputTypeListType Complex Type</span></span>
+# <a name="inputtypelisttype-complex-type"></a><span data-ttu-id="ca39d-104">InputTypeListType 複雜類型</span><span class="sxs-lookup"><span data-stu-id="ca39d-104">InputTypeListType Complex Type</span></span>
 
-<span data-ttu-id="ce2b9-105">定義輸入類型的清單。</span><span class="sxs-lookup"><span data-stu-id="ce2b9-105">Defines a list of input types.</span></span>
+<span data-ttu-id="ca39d-105">定義輸入類型的清單。</span><span class="sxs-lookup"><span data-stu-id="ca39d-105">Defines a list of input types.</span></span>
 
 ``` syntax
 <xs:complexType name="InputTypeListType">
@@ -35,24 +35,24 @@ ms.locfileid: "104106037"
 </xs:complexType>
 ```
 
-## <a name="child-elements"></a><span data-ttu-id="ce2b9-106">子元素</span><span class="sxs-lookup"><span data-stu-id="ce2b9-106">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="ca39d-106">子元素</span><span class="sxs-lookup"><span data-stu-id="ca39d-106">Child elements</span></span>
 
 
 
-| <span data-ttu-id="ce2b9-107">元素</span><span class="sxs-lookup"><span data-stu-id="ce2b9-107">Element</span></span>                                                                | <span data-ttu-id="ce2b9-108">類型</span><span class="sxs-lookup"><span data-stu-id="ce2b9-108">Type</span></span>                                                           | <span data-ttu-id="ce2b9-109">Description</span><span class="sxs-lookup"><span data-stu-id="ce2b9-109">Description</span></span>                       |
+| <span data-ttu-id="ca39d-107">元素</span><span class="sxs-lookup"><span data-stu-id="ca39d-107">Element</span></span>                                                                | <span data-ttu-id="ca39d-108">類型</span><span class="sxs-lookup"><span data-stu-id="ca39d-108">Type</span></span>                                                           | <span data-ttu-id="ca39d-109">Description</span><span class="sxs-lookup"><span data-stu-id="ca39d-109">Description</span></span>                       |
 |------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------|
-| [<span data-ttu-id="ce2b9-110">**inType**</span><span class="sxs-lookup"><span data-stu-id="ce2b9-110">**inType**</span></span>](eventmanifestschema-intype-inputtypelisttype-element.md) | [<span data-ttu-id="ce2b9-111">**InputType**</span><span class="sxs-lookup"><span data-stu-id="ce2b9-111">**InputType**</span></span>](eventmanifestschema-inputtype-complextype.md) | <span data-ttu-id="ce2b9-112">定義輸入類型。</span><span class="sxs-lookup"><span data-stu-id="ce2b9-112">Defines an input type.</span></span><br/> |
+| [<span data-ttu-id="ca39d-110">**inType**</span><span class="sxs-lookup"><span data-stu-id="ca39d-110">**inType**</span></span>](eventmanifestschema-intype-inputtypelisttype-element.md) | [<span data-ttu-id="ca39d-111">**InputType**</span><span class="sxs-lookup"><span data-stu-id="ca39d-111">**InputType**</span></span>](eventmanifestschema-inputtype-complextype.md) | <span data-ttu-id="ca39d-112">定義輸入類型。</span><span class="sxs-lookup"><span data-stu-id="ca39d-112">Defines an input type.</span></span><br/> |
 
 
 
-## <a name="requirements"></a><span data-ttu-id="ce2b9-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="ce2b9-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ca39d-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="ca39d-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="ce2b9-114">需求</span><span class="sxs-lookup"><span data-stu-id="ce2b9-114">Requirement</span></span> | <span data-ttu-id="ce2b9-115">值</span><span class="sxs-lookup"><span data-stu-id="ce2b9-115">Value</span></span> |
+| <span data-ttu-id="ca39d-114">需求</span><span class="sxs-lookup"><span data-stu-id="ca39d-114">Requirement</span></span> | <span data-ttu-id="ca39d-115">值</span><span class="sxs-lookup"><span data-stu-id="ca39d-115">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="ce2b9-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ce2b9-116">Minimum supported client</span></span><br/> | <span data-ttu-id="ce2b9-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ce2b9-117">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="ce2b9-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ce2b9-118">Minimum supported server</span></span><br/> | <span data-ttu-id="ce2b9-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ce2b9-119">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="ca39d-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="ca39d-116">Minimum supported client</span></span><br/> | <span data-ttu-id="ca39d-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ca39d-117">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="ca39d-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="ca39d-118">Minimum supported server</span></span><br/> | <span data-ttu-id="ca39d-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="ca39d-119">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
