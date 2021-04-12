@@ -1,0 +1,46 @@
+---
+title: URL 的名字
+description: OLE 的「標記」架構提供一個方便的程式設計模型來處理 Url。
+ms.assetid: 8e0e2bad-9275-4b96-a96b-35d9c933ae31
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: eb2a63f63d14dfe51c0b8c5c3727637e12a51356
+ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "104195643"
+---
+# <a name="url-monikers"></a><span data-ttu-id="b8c94-103">URL 的名字</span><span class="sxs-lookup"><span data-stu-id="b8c94-103">URL Monikers</span></span>
+
+<span data-ttu-id="b8c94-104">OLE 的「標記」架構提供一個方便的程式設計模型來處理 Url。</span><span class="sxs-lookup"><span data-stu-id="b8c94-104">The OLE moniker architecture provides a convenient programming model for working with URLs.</span></span> <span data-ttu-id="b8c94-105">此標記架構透過 [**MkParseDisplayName**](/windows/desktop/api/Objbase/nf-objbase-mkparsedisplayname) 函式和 [**IParseDisplayName**](/windows/desktop/api/OleIdl/nn-oleidl-iparsedisplayname) 和 [**IMoniker**](/windows/desktop/api/ObjIdl/nn-objidl-imoniker) 介面，以及透過 [**IMoniker：： GetDisplayName**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-getdisplayname) 方法的可列印名稱，來支援可延伸且完整的名稱剖析。</span><span class="sxs-lookup"><span data-stu-id="b8c94-105">The moniker architecture supports extensible and complete name parsing through the [**MkParseDisplayName**](/windows/desktop/api/Objbase/nf-objbase-mkparsedisplayname) function and the [**IParseDisplayName**](/windows/desktop/api/OleIdl/nn-oleidl-iparsedisplayname) and [**IMoniker**](/windows/desktop/api/ObjIdl/nn-objidl-imoniker) interfaces, as well as printable names through the [**IMoniker::GetDisplayName**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-getdisplayname) method.</span></span> <span data-ttu-id="b8c94-106">**IMoniker** 介面是您實際使用所遇到之 url 的方式，而且建立符合標記架構的元件是實際延伸 URL 命名空間的方法。</span><span class="sxs-lookup"><span data-stu-id="b8c94-106">The **IMoniker** interface is the way you actually use URLs you encounter, and building components that fit into the moniker architecture is the way to actually extend URL namespaces in practice.</span></span>
+
+<span data-ttu-id="b8c94-107">系統提供的「標記」類別（URL 標記）提供建立和使用特定 Url 的架構。</span><span class="sxs-lookup"><span data-stu-id="b8c94-107">A system-provided moniker class, the URL moniker, provides a framework for building and using certain URLs.</span></span> <span data-ttu-id="b8c94-108">因為 Url 經常會看到跨高延遲網路的資源，所以 URL 標記可支援非同步和同步系結。</span><span class="sxs-lookup"><span data-stu-id="b8c94-108">Because URLs frequently see resources across high-latency networks, the URL moniker supports asynchronous as well as synchronous binding.</span></span> <span data-ttu-id="b8c94-109">URL 標記目前不支援 [非同步儲存體](/windows/desktop/Stg/asynchronous-storage)。</span><span class="sxs-lookup"><span data-stu-id="b8c94-109">The URL moniker does not currently support [asynchronous storage](/windows/desktop/Stg/asynchronous-storage).</span></span>
+
+<span data-ttu-id="b8c94-110">下圖顯示使用 URL 標記時所牽涉到的元件。</span><span class="sxs-lookup"><span data-stu-id="b8c94-110">The following diagram shows the components involved in using URL monikers.</span></span> <span data-ttu-id="b8c94-111">所有這些元件都應該很熟悉。</span><span class="sxs-lookup"><span data-stu-id="b8c94-111">All these components should be familiar.</span></span> <span data-ttu-id="b8c94-112"> (查看 [非同步名字](asynchronous-monikers.md)。 ) </span><span class="sxs-lookup"><span data-stu-id="b8c94-112">(See [Asynchronous Monikers](asynchronous-monikers.md).)</span></span>
+
+![顯示有關使用 U R L 的標記之元件的圖表。](images/bb10975a-9cb5-418e-872e-1e1add0b58ed.png)
+
+<span data-ttu-id="b8c94-114">如同所有的「標記」用戶端，URL 標記的使用者通常會建立並保存對標記的參考，以及系結 ([**IMoniker：： BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) 或 [**IMoniker：： BindToObject**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject)) 時所要使用的系結內容。</span><span class="sxs-lookup"><span data-stu-id="b8c94-114">Like all moniker clients, a user of URL Monikers typically creates and holds a reference to the moniker as well as to the bind context to be used during binding ([**IMoniker::BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) or [**IMoniker::BindToObject**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject)).</span></span> <span data-ttu-id="b8c94-115">若要支援非同步系結，用戶端可以實作為系結狀態的回呼物件，此物件會實 [**IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) 介面，並使用 [**RegisterBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775115(v=vs.85)) 函式向系結內容註冊該物件。</span><span class="sxs-lookup"><span data-stu-id="b8c94-115">To support asynchronous binding, the client can implement a bind-status-callback object, which implements the [**IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) interface, and register it with the bind context using the [**RegisterBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775115(v=vs.85)) function.</span></span> <span data-ttu-id="b8c94-116">這個物件會在呼叫 [**IBindStatusCallback：： OnStartBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775065(v=vs.85))期間接收傳輸的 [**IBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775071(v=vs.85))介面。</span><span class="sxs-lookup"><span data-stu-id="b8c94-116">This object will receive the transport's [**IBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775071(v=vs.85)) interface during calls to [**IBindStatusCallback::OnStartBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775065(v=vs.85)).</span></span>
+
+<span data-ttu-id="b8c94-117">URL 標記會識別剖析 URL 首碼所使用的通訊協定，然後從傳輸層抓取 [**IBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775071(v=vs.85)) 介面。</span><span class="sxs-lookup"><span data-stu-id="b8c94-117">The URL Moniker identifies the protocol being used by parsing the URL prefix and then retrieves the [**IBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775071(v=vs.85)) interface from the transport layer.</span></span> <span data-ttu-id="b8c94-118">用戶端會使用 **IBinding** 來支援系結作業的暫停、取消和優先順序。</span><span class="sxs-lookup"><span data-stu-id="b8c94-118">The client uses **IBinding** to support pausing, cancellation, and prioritization of the binding operation.</span></span> <span data-ttu-id="b8c94-119">回呼物件也會透過 [**IBindStatusCallback：： OnProgress**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775064(v=vs.85))、透過 [**IBindStatusCallback：： OnDataAvailable**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85))的資料可用性通知，以及有關系結狀態的各種其他傳輸層通知，接收進度通知。</span><span class="sxs-lookup"><span data-stu-id="b8c94-119">The callback object also receives progress notification through [**IBindStatusCallback::OnProgress**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775064(v=vs.85)), data availability notification through [**IBindStatusCallback::OnDataAvailable**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)), and various, other transport-layer notifications about the status of the binding.</span></span> <span data-ttu-id="b8c94-120">URL 的名字或特定傳輸層也可能會透過 **IBindStatusCallback：： QueryInterface** 要求用戶端提供的擴充資訊，讓用戶端能夠提供將影響系結作業的通訊協定特定資訊。</span><span class="sxs-lookup"><span data-stu-id="b8c94-120">The URL moniker or specific transport layers may also request extended information from the client through **IBindStatusCallback::QueryInterface**, allowing the client to provide protocol-specific information that will affect the bind operation.</span></span>
+
+<span data-ttu-id="b8c94-121">如需詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="b8c94-121">For more information, see the following topics:</span></span>
+
+-   [<span data-ttu-id="b8c94-122">回呼同步處理</span><span class="sxs-lookup"><span data-stu-id="b8c94-122">Callback Synchronization</span></span>](callback-synchronization.md)
+-   [<span data-ttu-id="b8c94-123">媒體類型的協商</span><span class="sxs-lookup"><span data-stu-id="b8c94-123">Media-Type Negotiation</span></span>](media-type-negotiation.md)
+-   [<span data-ttu-id="b8c94-124">URL 標記函數</span><span class="sxs-lookup"><span data-stu-id="b8c94-124">URL Moniker Functions</span></span>](url-moniker-api-functions.md)
+
+## <a name="related-topics"></a><span data-ttu-id="b8c94-125">相關主題</span><span class="sxs-lookup"><span data-stu-id="b8c94-125">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="b8c94-126">非同步名字</span><span class="sxs-lookup"><span data-stu-id="b8c94-126">Asynchronous Monikers</span></span>](asynchronous-monikers.md)
+</dt> <dt>
+
+<span data-ttu-id="b8c94-127">[關於 URL 的名字](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775149(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="b8c94-127">[About URL Monikers](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775149(v=vs.85))</span></span>
+</dt> </dl>
+
+ 
+
+ 
