@@ -1,0 +1,41 @@
+---
+title: RAS 使用者帳戶管理
+description: Windows NT 4.0 RAS 伺服器使用包含一組使用者帳戶相關資訊的使用者帳戶資料庫。
+ms.assetid: 653307f8-3b14-474a-9094-03a2d4c89092
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 521d090fc16e7d731525b79493119f3c604e043c
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104315382"
+---
+# <a name="ras-user-account-administration"></a><span data-ttu-id="59121-103">RAS 使用者帳戶管理</span><span class="sxs-lookup"><span data-stu-id="59121-103">RAS User Account Administration</span></span>
+
+<span data-ttu-id="59121-104">Windows NT 4.0 RAS 伺服器使用包含一組使用者帳戶相關資訊的使用者帳戶資料庫。</span><span class="sxs-lookup"><span data-stu-id="59121-104">A Windows NT 4.0 RAS server uses a user account database that contains information about a set of user accounts.</span></span> <span data-ttu-id="59121-105">此資訊包含使用者的 RAS 許可權，這是一組位旗標，可決定當使用者呼叫以連接時，RAS 伺服器的回應方式。</span><span class="sxs-lookup"><span data-stu-id="59121-105">The information includes a user's RAS privileges, which are a set of bit flags that determine how the RAS server responds when the user calls to connect.</span></span> <span data-ttu-id="59121-106">RAS 伺服器管理功能可讓您找出使用者帳戶資料庫，以及取得和設定使用者帳戶的 RAS 許可權。</span><span class="sxs-lookup"><span data-stu-id="59121-106">The RAS server administration functions enable you to locate the user account database, and to get and set the RAS privileges for user accounts.</span></span>
+
+<span data-ttu-id="59121-107">Windows NT 4.0 的 RAS 伺服器可以是 Windows NT/Windows 2000 網域的一部分，也可以是獨立的 Windows NT 伺服器或工作站，而不是網域的一部分。</span><span class="sxs-lookup"><span data-stu-id="59121-107">A Windows NT 4.0 RAS server can be part of a Windows NT/Windows 2000 domain, or it can be a stand-alone Windows NT Server or Workstation that is not part of a domain.</span></span> <span data-ttu-id="59121-108">若是屬於網域的伺服器，使用者帳戶資料庫會儲存在伺服器上，也就是主域控制站 (PDC) 。</span><span class="sxs-lookup"><span data-stu-id="59121-108">For a server that is part of a domain, the user account database is stored on the server that is the primary domain controller (PDC).</span></span> <span data-ttu-id="59121-109">獨立伺服器會儲存自己的本機使用者帳戶資料庫。</span><span class="sxs-lookup"><span data-stu-id="59121-109">A stand-alone server stores its own local user account database.</span></span> <span data-ttu-id="59121-110">若要取得儲存指定的 RAS 伺服器所使用的使用者帳戶資料庫之伺服器的名稱，您可以呼叫 [**RasAdminGetUserAccountServer**](rasadmingetuseraccountserver.md) 函數。</span><span class="sxs-lookup"><span data-stu-id="59121-110">To get the name of the server that stores the user account database used by a specified RAS server, you can call the [**RasAdminGetUserAccountServer**](rasadmingetuseraccountserver.md) function.</span></span> <span data-ttu-id="59121-111">然後，您可以在 [**NetQueryDisplayInformation**](/windows/win32/api/lmaccess/nf-lmaccess-netquerydisplayinformation) 函式的呼叫中使用使用者帳戶伺服器的名稱，以列舉使用者帳戶資料庫中的使用者。</span><span class="sxs-lookup"><span data-stu-id="59121-111">You can then use the name of the user account server in a call to the [**NetQueryDisplayInformation**](/windows/win32/api/lmaccess/nf-lmaccess-netquerydisplayinformation) function to enumerate the users in a user account database.</span></span> <span data-ttu-id="59121-112">您也可以在 [**RasAdminUserGetInfo**](rasadminusergetinfo.md) 和 [**RasAdminUserSetInfo**](rasadminusersetinfo.md) 函式的呼叫中使用伺服器名稱，以取得並設定所指定使用者帳戶的 RAS 許可權。</span><span class="sxs-lookup"><span data-stu-id="59121-112">You can also use the server name in calls to the [**RasAdminUserGetInfo**](rasadminusergetinfo.md) and [**RasAdminUserSetInfo**](rasadminusersetinfo.md) functions to get and set the RAS privileges for a specified user account.</span></span>
+
+<span data-ttu-id="59121-113">[**RasAdminUserGetInfo**](rasadminusergetinfo.md)和 [**RasAdminUserSetInfo**](rasadminusersetinfo.md)函式會使用 [**ras \_ 使用者 \_ 0**](ras-user-0-str.md)結構來指定使用者的 RAS 許可權和回撥電話號碼。</span><span class="sxs-lookup"><span data-stu-id="59121-113">The [**RasAdminUserGetInfo**](rasadminusergetinfo.md) and [**RasAdminUserSetInfo**](rasadminusersetinfo.md) functions use the [**RAS\_USER\_0**](ras-user-0-str.md) structure to specify a user's RAS privileges and call-back phone number.</span></span> <span data-ttu-id="59121-114">RAS 許可權會指出下列資訊：</span><span class="sxs-lookup"><span data-stu-id="59121-114">The RAS privileges indicate the following information:</span></span>
+
+-   <span data-ttu-id="59121-115">使用者是否可以對伺服器或伺服器所屬的網域進行遠端連線。</span><span class="sxs-lookup"><span data-stu-id="59121-115">Whether the user can make a remote connection to the server or the domain to which the server belongs.</span></span>
+-   <span data-ttu-id="59121-116">使用者是否可以透過回呼來建立連線，RAS 伺服器會在該伺服器上掛斷，然後再回呼給使用者以建立連線。</span><span class="sxs-lookup"><span data-stu-id="59121-116">Whether the user can establish a connection through a call-back, in which the RAS server hangs up and then calls back to the user to establish the connection.</span></span>
+
+<span data-ttu-id="59121-117">每個使用者帳戶會指定下列其中一個旗標，以指出使用者的回呼許可權。</span><span class="sxs-lookup"><span data-stu-id="59121-117">Each user account specifies one of the following flags to indicate the user's call-back privilege.</span></span>
+
+
+
+| <span data-ttu-id="59121-118">值</span><span class="sxs-lookup"><span data-stu-id="59121-118">Value</span></span>                      | <span data-ttu-id="59121-119">意義</span><span class="sxs-lookup"><span data-stu-id="59121-119">Meaning</span></span>                                                                                                                                                                                                                                                      |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="59121-120">RASPRIV \_ NoCallback</span><span class="sxs-lookup"><span data-stu-id="59121-120">RASPRIV\_NoCallback</span></span>        | <span data-ttu-id="59121-121">RAS 伺服器不會回呼使用者以建立連線。</span><span class="sxs-lookup"><span data-stu-id="59121-121">The RAS server will not call back the user to establish a connection.</span></span>                                                                                                                                                                                        |
+| <span data-ttu-id="59121-122">RASPRIV \_ AdminSetCallback</span><span class="sxs-lookup"><span data-stu-id="59121-122">RASPRIV\_AdminSetCallback</span></span>  | <span data-ttu-id="59121-123">當使用者呼叫時，RAS 伺服器會停止回應，並呼叫儲存在使用者帳戶資料庫中的預設回撥電話號碼。</span><span class="sxs-lookup"><span data-stu-id="59121-123">When the user calls, the RAS server hangs up and calls a preset call-back phone number stored in the user account database.</span></span> <span data-ttu-id="59121-124">[**RAS \_ USER \_ 0**](ras-user-0-str.md)結構的 **szPhoneNumber** 成員包含使用者的回撥電話號碼。</span><span class="sxs-lookup"><span data-stu-id="59121-124">The **szPhoneNumber** member of the [**RAS\_USER\_0**](ras-user-0-str.md) structure contains the user's call-back phone number.</span></span> |
+| <span data-ttu-id="59121-125">RASPRIV \_ CallerSetCallback</span><span class="sxs-lookup"><span data-stu-id="59121-125">RASPRIV\_CallerSetCallback</span></span> | <span data-ttu-id="59121-126">當使用者呼叫時，RAS 伺服器會提供指定回撥電話號碼的選項。</span><span class="sxs-lookup"><span data-stu-id="59121-126">When the user calls, the RAS server provides the option of specifying a call-back phone number.</span></span> <span data-ttu-id="59121-127">使用者也可以選擇立即連接，而不需要回呼。</span><span class="sxs-lookup"><span data-stu-id="59121-127">The user can also choose to connect immediately without a call back.</span></span> <span data-ttu-id="59121-128">**SzPhoneNumber** 成員包含使用者可覆寫的預設數位。</span><span class="sxs-lookup"><span data-stu-id="59121-128">The **szPhoneNumber** member contains a default number that the user can override.</span></span>      |
+
+
+
+ 
+
+ 
+
+ 
