@@ -1,0 +1,63 @@
+---
+description: 深入瞭解： EsentTableNotEmptyException 的函式
+title: EsentTableNotEmptyException 函式
+TOCTitle: 'EsentTableNotEmptyException constructor '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException.#ctor
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esenttablenotemptyexception.esenttablenotemptyexception(v=EXCHG.10)
+ms:contentKeyID: 55107373
+ms.date: 07/30/2014
+ms.topic: reference
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException.EsentTableNotEmptyException
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name:
+- Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException..ctor
+topic_type:
+- kbSyntax
+- apiref
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: 5abe32294105f281a8fe3f242419dffd2965cfe8
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104192855"
+---
+# <a name="esenttablenotemptyexception-constructor"></a>EsentTableNotEmptyException 函式
+
+初始化 EsentTableNotEmptyException 類別的新實例。
+
+**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)  
+**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。
+
+## <a name="syntax"></a>語法
+
+``` vb
+'Declaration
+Public Sub New
+'Usage
+
+Dim instance As New EsentTableNotEmptyException()
+```
+
+``` csharp
+public EsentTableNotEmptyException()
+```
+
+## <a name="see-also"></a>另請參閱
+
+#### <a name="reference"></a>參考
+
+[EsentTableNotEmptyException 類別](./esenttablenotemptyexception-class.md)
+
+[EsentTableNotEmptyException 成員](./esenttablenotemptyexception-members.md)
+
+[Microsoft. Esent 命名空間](./microsoft.isam.esent.interop-namespace.md)
