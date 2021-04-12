@@ -1,0 +1,55 @@
+---
+description: 設定 Demux 輸出圖釘
+ms.assetid: c53f3fe6-5588-4faf-ba5c-6a6cf7e16f3a
+title: 設定 Demux 輸出圖釘
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b56a24af3f49f26efe4ff6afad075a3cef61fcd1
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104109416"
+---
+# <a name="configuring-the-demux-output-pins"></a><span data-ttu-id="75341-103">設定 Demux 輸出圖釘</span><span class="sxs-lookup"><span data-stu-id="75341-103">Configuring the Demux Output Pins</span></span>
+
+<span data-ttu-id="75341-104">當 MPEG-2 demux 收到資料的封包時，它必須判斷哪個輸出圖釘應該剖析和傳遞資料。</span><span class="sxs-lookup"><span data-stu-id="75341-104">When the MPEG-2 demux receives a packet of data, it must determine which output pin should parse and deliver the data.</span></span> <span data-ttu-id="75341-105">在程式資料流程模式中，demux 會將串流識別碼對應至輸出圖釘。</span><span class="sxs-lookup"><span data-stu-id="75341-105">In program stream mode, the demux maps stream IDs to output pins.</span></span> <span data-ttu-id="75341-106">在傳輸資料流程模式中，它會將 Pid 對應到輸出圖釘。</span><span class="sxs-lookup"><span data-stu-id="75341-106">In transport stream mode, it maps PIDs to output pins.</span></span> <span data-ttu-id="75341-107">例如，在傳輸資料流程模式中，如果 PID 0x31 對應至 pin 0，則每個具有該 PID 編號的 TS 封包都會路由傳送至輸出 pin 0。</span><span class="sxs-lookup"><span data-stu-id="75341-107">For example, in transport stream mode, if PID 0x31 is mapped to pin 0, then every TS packet with that PID number is routed to output pin 0.</span></span> <span data-ttu-id="75341-108">如果 demux 收到的封包的資料流程識別碼或 PID 未對應到任何輸出釘選，則只會捨棄封包。</span><span class="sxs-lookup"><span data-stu-id="75341-108">If the demux receives a packet whose stream ID or PID is not mapped to any output pin, it simply discards the packet.</span></span>
+
+<span data-ttu-id="75341-109">在提取模式中，demux 會自動在檔案中建立音訊和影片串流的輸出圖釘，並將串流識別碼對應至圖釘。</span><span class="sxs-lookup"><span data-stu-id="75341-109">In pull mode, the demux automatically creates output pins for the audio and video streams in the file, and maps the stream IDs to the pins.</span></span>
+
+<span data-ttu-id="75341-110">在推送模式中，輸出圖釘必須由應用程式或其他篩選器設定。</span><span class="sxs-lookup"><span data-stu-id="75341-110">In push mode, the output pins must be configured by the application or by another filter.</span></span> <span data-ttu-id="75341-111">針對使用廣播驅動程式架構 (BDA) 的數位電視來源，網路提供者篩選器會使用 .TIF 篩選器來設定 demux。</span><span class="sxs-lookup"><span data-stu-id="75341-111">For digital television sources using the Broadcast Driver Architecture (BDA), the network provider filter works with the TIF filter to configure the demux.</span></span> <span data-ttu-id="75341-112">應用程式不需要執行任何動作。</span><span class="sxs-lookup"><span data-stu-id="75341-112">The application does not have to do anything.</span></span> <span data-ttu-id="75341-113">在其他情況下，應用程式必須設定輸出圖釘。</span><span class="sxs-lookup"><span data-stu-id="75341-113">In other scenarios, the application must configure the output pins.</span></span>
+
+<span data-ttu-id="75341-114">Demux 的開頭不是輸出圖釘。</span><span class="sxs-lookup"><span data-stu-id="75341-114">The demux starts with no output pins.</span></span> <span data-ttu-id="75341-115">若要建立輸出釘選，請在篩選準則上呼叫 [**IMpeg2Demultiplexer：： CreateOutputPin**](/windows/desktop/api/Strmif/nf-strmif-impeg2demultiplexer-createoutputpin) 方法。</span><span class="sxs-lookup"><span data-stu-id="75341-115">To create an output pin, call the [**IMpeg2Demultiplexer::CreateOutputPin**](/windows/desktop/api/Strmif/nf-strmif-impeg2demultiplexer-createoutputpin) method on the filter.</span></span> <span data-ttu-id="75341-116">這個方法會採用媒體類型和 pin 名稱，並傳回 **IPin** 指標。</span><span class="sxs-lookup"><span data-stu-id="75341-116">This method takes a media type and a pin name, and returns an **IPin** pointer.</span></span> <span data-ttu-id="75341-117">當 pin 連線到另一個篩選（通常是一個解碼器）時，就會使用該媒體類型，例如，將 [Demux 與基本資料流程搭配使用](using-the-demux-with-elementary-streams.md)的區段。</span><span class="sxs-lookup"><span data-stu-id="75341-117">The media type is used when the pin connects to another filter, typically a decoder—an example is given the section [Using the Demux with Elementary Streams](using-the-demux-with-elementary-streams.md).</span></span> <span data-ttu-id="75341-118">Pin 名稱可以是任何您喜歡的名稱，但不允許重複的 pin 名稱。</span><span class="sxs-lookup"><span data-stu-id="75341-118">The pin name can be anything you like, except that duplicate pin names are not allowed.</span></span>
+
+<span data-ttu-id="75341-119">接下來，將一個或多個串流識別碼或 Pid 指派給新的輸出 pin。</span><span class="sxs-lookup"><span data-stu-id="75341-119">Next, assign one or more stream IDs or PIDs to the new output pin.</span></span> <span data-ttu-id="75341-120">針對程式資料流程，查詢 **IMPEG2StreamIdMap** 的 pin，然後呼叫 [**IMPEG2StreamIdMap：： MapStreamId**](/windows/desktop/api/Strmif/nf-strmif-impeg2streamidmap-mapstreamid)。</span><span class="sxs-lookup"><span data-stu-id="75341-120">For program streams, query the pin for **IMPEG2StreamIdMap** and call [**IMPEG2StreamIdMap::MapStreamId**](/windows/desktop/api/Strmif/nf-strmif-impeg2streamidmap-mapstreamid).</span></span> <span data-ttu-id="75341-121">針對傳輸資料流程，查詢 **IMPEG2PIDMap** 的 pin，然後呼叫 [**IMPEG2PIDMap：： MapPID**](/previous-versions/windows/desktop/api/Bdaiface/nf-bdaiface-impeg2pidmap-mappid)。</span><span class="sxs-lookup"><span data-stu-id="75341-121">For transport streams, query the pin for **IMPEG2PIDMap** and call [**IMPEG2PIDMap::MapPID**](/previous-versions/windows/desktop/api/Bdaiface/nf-bdaiface-impeg2pidmap-mappid).</span></span>
+
+<span data-ttu-id="75341-122">Demux 可以剖析 TS 封包的方式有好幾種。</span><span class="sxs-lookup"><span data-stu-id="75341-122">There are several ways that the demux can parse TS packets.</span></span> <span data-ttu-id="75341-123">針對每個輸出圖釘，剖析方法是由 **MapPID** 方法的 *MediaSampleContent* 參數所決定。</span><span class="sxs-lookup"><span data-stu-id="75341-123">For each output pin, the parsing method is determined by the *MediaSampleContent* parameter to the **MapPID** method.</span></span>
+
+
+
+| <span data-ttu-id="75341-124">值</span><span class="sxs-lookup"><span data-stu-id="75341-124">Value</span></span>                     | <span data-ttu-id="75341-125">描述</span><span class="sxs-lookup"><span data-stu-id="75341-125">Description</span></span>                                                                                                                                                                                                                                                                                                                                                        |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="75341-126">媒體 \_ 基本 \_ 資料流程</span><span class="sxs-lookup"><span data-stu-id="75341-126">MEDIA\_ELEMENTARY\_STREAM</span></span> | <span data-ttu-id="75341-127">篩選準則會傳遞 PE 承載。</span><span class="sxs-lookup"><span data-stu-id="75341-127">The filter delivers PES payloads.</span></span> <span data-ttu-id="75341-128">在此模式中，篩選準則會 depacketizes PE 封包，因此下游篩選器會接收 ES 位元組資料流程，而不含 PE 封包標頭。</span><span class="sxs-lookup"><span data-stu-id="75341-128">In this mode, the filter depacketizes the PES packets, so the downstream filter receives the ES byte stream, without the PES packet headers.</span></span> <span data-ttu-id="75341-129">僅 (音訊和影片串流。 ) </span><span class="sxs-lookup"><span data-stu-id="75341-129">(Audio and video streams only.)</span></span>                                                                                                                                                     |
+| <span data-ttu-id="75341-130">媒體 \_ MPEG2 \_ PSI</span><span class="sxs-lookup"><span data-stu-id="75341-130">MEDIA\_MPEG2\_PSI</span></span>         | <span data-ttu-id="75341-131">篩選會提供完整的 PSI 區段，例如 PAT 資料表、PMT 資料表、貓資料表等等。</span><span class="sxs-lookup"><span data-stu-id="75341-131">The filter delivers complete PSI sections, such as PAT tables, PMT tables, CAT tables, and so forth.</span></span>                                                                                                                                                                                                                                                               |
+| <span data-ttu-id="75341-132">媒體 \_ 傳輸 \_ 承載</span><span class="sxs-lookup"><span data-stu-id="75341-132">MEDIA\_TRANSPORT\_PAYLOAD</span></span> | <span data-ttu-id="75341-133">篩選會從 TS 封包中解壓縮承載，並傳遞它們，而不需要進一步剖析。</span><span class="sxs-lookup"><span data-stu-id="75341-133">The filter extracts the payloads from the TS packets and delivers them without further parsing.</span></span> <span data-ttu-id="75341-134">針對基本資料流程，這表示 demux 會提供整個 PE 封包，包括 PE 封包標頭。</span><span class="sxs-lookup"><span data-stu-id="75341-134">For elementary streams, this means the demux will deliver entire PES packets, including the PES packet headers.</span></span>                                                                                                                                                    |
+| <span data-ttu-id="75341-135">媒體 \_ 傳輸封 \_ 包</span><span class="sxs-lookup"><span data-stu-id="75341-135">MEDIA\_TRANSPORT\_PACKET</span></span>  | <span data-ttu-id="75341-136">篩選會提供整個 TS 封包。</span><span class="sxs-lookup"><span data-stu-id="75341-136">The filter delivers entire TS packets.</span></span> <span data-ttu-id="75341-137">Demux 會根據其 Pid 路由傳送 TS 封包，但不會檢查或處理封包。</span><span class="sxs-lookup"><span data-stu-id="75341-137">The demux routes the TS packets according to their PIDs, but does not otherwise examine or process the packets.</span></span> <span data-ttu-id="75341-138">具有錯誤的封包不會被篩選掉。Demux 不會重新多工傳遞封包，而且產生的輸出資料流程不是相容的 MPEG-2 傳輸串流。</span><span class="sxs-lookup"><span data-stu-id="75341-138">Packets with errors are not filtered out. The demux does not re-multiplex the packets, and the resulting output stream is not a compliant MPEG-2 transport stream.</span></span> <span data-ttu-id="75341-139">這個 *模式稱為通過模式。*</span><span class="sxs-lookup"><span data-stu-id="75341-139">This mode is called *pass through* mode.</span></span> |
+
+
+
+ 
+
+<span data-ttu-id="75341-140">對於程式資料流程，demux 一律會傳遞 PE 承載。</span><span class="sxs-lookup"><span data-stu-id="75341-140">For program streams, the demux always delivers PES payloads.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="75341-141">相關主題</span><span class="sxs-lookup"><span data-stu-id="75341-141">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="75341-142">使用 MPEG-2 信號信號</span><span class="sxs-lookup"><span data-stu-id="75341-142">Using the MPEG-2 Demultiplexer</span></span>](using-the-mpeg-2-demultiplexer.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
