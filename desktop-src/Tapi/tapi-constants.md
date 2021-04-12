@@ -11,14 +11,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "103694943"
 ---
-# <a name="tapi-constants"></a><span data-ttu-id="2411d-103">TAPI 常數</span><span class="sxs-lookup"><span data-stu-id="2411d-103">TAPI Constants</span></span>
+# <a name="tapi-constants"></a><span data-ttu-id="ed13f-103">TAPI 常數</span><span class="sxs-lookup"><span data-stu-id="ed13f-103">TAPI Constants</span></span>
 
-<span data-ttu-id="2411d-104">本節包含下列 TAPI 常數的參考：</span><span class="sxs-lookup"><span data-stu-id="2411d-104">This section contains the reference for the following TAPI constants:</span></span>
+<span data-ttu-id="ed13f-104">本節包含下列 TAPI 常數的參考：</span><span class="sxs-lookup"><span data-stu-id="ed13f-104">This section contains the reference for the following TAPI constants:</span></span>
 
--   [<span data-ttu-id="2411d-105">撥置中心常數</span><span class="sxs-lookup"><span data-stu-id="2411d-105">Call Center Constants</span></span>](call-center-constants.md)
--   [<span data-ttu-id="2411d-106">線路裝置常數</span><span class="sxs-lookup"><span data-stu-id="2411d-106">Line Device Constants</span></span>](line-device-constants.md)
--   [<span data-ttu-id="2411d-107">手機裝置常數</span><span class="sxs-lookup"><span data-stu-id="2411d-107">Phone Device Constants</span></span>](phone-device-constants.md)
--   [<span data-ttu-id="2411d-108">TAPIERR \_ 常數</span><span class="sxs-lookup"><span data-stu-id="2411d-108">TAPIERR\_ Constants</span></span>](tapierr--constants.md)
+-   [<span data-ttu-id="ed13f-105">撥置中心常數</span><span class="sxs-lookup"><span data-stu-id="ed13f-105">Call Center Constants</span></span>](call-center-constants.md)
+-   [<span data-ttu-id="ed13f-106">線路裝置常數</span><span class="sxs-lookup"><span data-stu-id="ed13f-106">Line Device Constants</span></span>](line-device-constants.md)
+-   [<span data-ttu-id="ed13f-107">手機裝置常數</span><span class="sxs-lookup"><span data-stu-id="ed13f-107">Phone Device Constants</span></span>](phone-device-constants.md)
+-   [<span data-ttu-id="ed13f-108">TAPIERR \_ 常數</span><span class="sxs-lookup"><span data-stu-id="ed13f-108">TAPIERR\_ Constants</span></span>](tapierr--constants.md)
 
  
 
