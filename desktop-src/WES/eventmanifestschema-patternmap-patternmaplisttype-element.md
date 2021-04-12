@@ -20,9 +20,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "104024524"
 ---
-# <a name="patternmap-patternmaplisttype-element"></a><span data-ttu-id="3e20b-105">patternMap (PatternMapListType) 元素</span><span class="sxs-lookup"><span data-stu-id="3e20b-105">patternMap (PatternMapListType) Element</span></span>
+# <a name="patternmap-patternmaplisttype-element"></a><span data-ttu-id="24fc7-105">patternMap (PatternMapListType) 元素</span><span class="sxs-lookup"><span data-stu-id="24fc7-105">patternMap (PatternMapListType) Element</span></span>
 
-<span data-ttu-id="3e20b-106">定義兩個正則運算式之間的對應。</span><span class="sxs-lookup"><span data-stu-id="3e20b-106">Defines a mapping between two regular expressions.</span></span> <span data-ttu-id="3e20b-107">其中一個運算式可用來在訊息字串中尋找相符的字串，而另一個運算式則用來在服務將字串放回訊息字串之前變更字串。</span><span class="sxs-lookup"><span data-stu-id="3e20b-107">One expression is used to find a matching string in the message string, and the other is used to alter the string before the service places it back in the message string.</span></span>
+<span data-ttu-id="24fc7-106">定義兩個正則運算式之間的對應。</span><span class="sxs-lookup"><span data-stu-id="24fc7-106">Defines a mapping between two regular expressions.</span></span> <span data-ttu-id="24fc7-107">其中一個運算式可用來在訊息字串中尋找相符的字串，而另一個運算式則用來在服務將字串放回訊息字串之前變更字串。</span><span class="sxs-lookup"><span data-stu-id="24fc7-107">One expression is used to find a matching string in the message string, and the other is used to alter the string before the service places it back in the message string.</span></span>
 
 ``` syntax
 <xs:element name="patternMap"
@@ -30,27 +30,27 @@ ms.locfileid: "104024524"
  />
 ```
 
-<span data-ttu-id="3e20b-108">**PatternMap** 元素是由 [**PatternMapListType**](eventmanifestschema-patternmaplisttype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="3e20b-108">The **patternMap** element is defined by the [**PatternMapListType**](eventmanifestschema-patternmaplisttype-complextype.md) complex type.</span></span>
+<span data-ttu-id="24fc7-108">**PatternMap** 元素是由 [**PatternMapListType**](eventmanifestschema-patternmaplisttype-complextype.md)複雜型別定義。</span><span class="sxs-lookup"><span data-stu-id="24fc7-108">The **patternMap** element is defined by the [**PatternMapListType**](eventmanifestschema-patternmaplisttype-complextype.md) complex type.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="3e20b-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="3e20b-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="24fc7-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="24fc7-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="3e20b-110">需求</span><span class="sxs-lookup"><span data-stu-id="3e20b-110">Requirement</span></span> | <span data-ttu-id="3e20b-111">值</span><span class="sxs-lookup"><span data-stu-id="3e20b-111">Value</span></span> |
+| <span data-ttu-id="24fc7-110">需求</span><span class="sxs-lookup"><span data-stu-id="24fc7-110">Requirement</span></span> | <span data-ttu-id="24fc7-111">值</span><span class="sxs-lookup"><span data-stu-id="24fc7-111">Value</span></span> |
 |-------------------------------------|------------------------------------------------------|
-| <span data-ttu-id="3e20b-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="3e20b-112">Minimum supported client</span></span><br/> | <span data-ttu-id="3e20b-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3e20b-113">Windows Vista \[desktop apps only\]</span></span><br/>       |
-| <span data-ttu-id="3e20b-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="3e20b-114">Minimum supported server</span></span><br/> | <span data-ttu-id="3e20b-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="3e20b-115">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="24fc7-112">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="24fc7-112">Minimum supported client</span></span><br/> | <span data-ttu-id="24fc7-113">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="24fc7-113">Windows Vista \[desktop apps only\]</span></span><br/>       |
+| <span data-ttu-id="24fc7-114">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="24fc7-114">Minimum supported server</span></span><br/> | <span data-ttu-id="24fc7-115">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="24fc7-115">Windows Server 2008 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="3e20b-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3e20b-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="24fc7-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="24fc7-116">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="3e20b-117">**父元素**</span><span class="sxs-lookup"><span data-stu-id="3e20b-117">**Parent element**</span></span>
+<span data-ttu-id="24fc7-117">**父元素**</span><span class="sxs-lookup"><span data-stu-id="24fc7-117">**Parent element**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="3e20b-118">**patternMaps (NamedQueryType)**</span><span class="sxs-lookup"><span data-stu-id="3e20b-118">**patternMaps (NamedQueryType)**</span></span>](eventmanifestschema-patternmaps-namedquerytype-element.md)
+[<span data-ttu-id="24fc7-118">**patternMaps (NamedQueryType)**</span><span class="sxs-lookup"><span data-stu-id="24fc7-118">**patternMaps (NamedQueryType)**</span></span>](eventmanifestschema-patternmaps-namedquerytype-element.md)
 </dt> </dl>
 
  

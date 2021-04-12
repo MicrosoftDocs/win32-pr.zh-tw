@@ -1,0 +1,37 @@
+---
+description: 物件命名空間可保護命名物件免于未經授權的存取。
+ms.assetid: 6a84ec16-fa65-4cdd-861a-eccf5d0eee2b
+title: 物件命名空間
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5c3eed750bc91c128251cc66fd7f9ed167771150
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103849437"
+---
+# <a name="object-namespaces"></a><span data-ttu-id="bcd78-103">物件命名空間</span><span class="sxs-lookup"><span data-stu-id="bcd78-103">Object Namespaces</span></span>
+
+<span data-ttu-id="bcd78-104">*物件命名空間* 可保護命名物件免于未經授權的存取。</span><span class="sxs-lookup"><span data-stu-id="bcd78-104">An *object namespace* protects named objects from unauthorized access.</span></span> <span data-ttu-id="bcd78-105">建立私用命名空間可讓應用程式和服務建立更安全的環境。</span><span class="sxs-lookup"><span data-stu-id="bcd78-105">Creating a private namespace enables applications and services to build a more secure environment.</span></span>
+
+<span data-ttu-id="bcd78-106">進程可以使用 [**CreatePrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-createprivatenamespacea) 函式來建立私用命名空間。</span><span class="sxs-lookup"><span data-stu-id="bcd78-106">A process can create a private namespace using the [**CreatePrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-createprivatenamespacea) function.</span></span> <span data-ttu-id="bcd78-107">此函式會要求您指定 *界限* ，以定義如何隔離命名空間中的物件。</span><span class="sxs-lookup"><span data-stu-id="bcd78-107">This function requires that you specify a *boundary* that defines how the objects in the namespace are to be isolated.</span></span> <span data-ttu-id="bcd78-108">呼叫端必須在指定的界限內，才能成功建立作業。</span><span class="sxs-lookup"><span data-stu-id="bcd78-108">The caller must be within the specified boundary for the create operation to succeed.</span></span> <span data-ttu-id="bcd78-109">若要指定界限，請使用 [**CreateBoundaryDescriptor**](/windows/desktop/api/WinBase/nf-winbase-createboundarydescriptora) 和 [**AddSIDToBoundaryDescriptor**](/windows/win32/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor) 函數。</span><span class="sxs-lookup"><span data-stu-id="bcd78-109">To specify a boundary, use the [**CreateBoundaryDescriptor**](/windows/desktop/api/WinBase/nf-winbase-createboundarydescriptora) and [**AddSIDToBoundaryDescriptor**](/windows/win32/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor) functions.</span></span>
+
+<span data-ttu-id="bcd78-110">[**CreatePrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-createprivatenamespacea)的 *lpAliasPrefix* 參數會當做命名空間的名稱。</span><span class="sxs-lookup"><span data-stu-id="bcd78-110">The *lpAliasPrefix* parameter of [**CreatePrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-createprivatenamespacea) serves as the name of the namespace.</span></span> <span data-ttu-id="bcd78-111">每個命名空間都是由其名稱和界限來唯一識別。</span><span class="sxs-lookup"><span data-stu-id="bcd78-111">Each namespace is uniquely identified by its name and boundaries.</span></span> <span data-ttu-id="bcd78-112">系統支援多個具有相同名稱的私用命名空間，只要它們指定不同的界限即可。</span><span class="sxs-lookup"><span data-stu-id="bcd78-112">The system supports multiple private namespaces with the same name, as long as they specify different boundaries.</span></span>
+
+<span data-ttu-id="bcd78-113">假設進程要求建立命名空間 NS1，以定義包含兩個元素的界限：系統管理員 SID 和目前的會話編號。</span><span class="sxs-lookup"><span data-stu-id="bcd78-113">Suppose that a process requests the creation of a namespace, NS1, that defines a boundary containing two elements: the administrator SID and the current session number.</span></span> <span data-ttu-id="bcd78-114">如果進程是在指定會話的系統管理員帳戶下執行，就會建立命名空間。</span><span class="sxs-lookup"><span data-stu-id="bcd78-114">The namespace is created if the process is running under the Administrator account in the specified session.</span></span> <span data-ttu-id="bcd78-115">另一個進程可以使用 [**OpenPrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-openprivatenamespacea) 函式來存取此命名空間。</span><span class="sxs-lookup"><span data-stu-id="bcd78-115">Another process can access this namespace using the [**OpenPrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-openprivatenamespacea) function.</span></span> <span data-ttu-id="bcd78-116">如果此處理程式是開啟第一個進程所建立的命名空間，則指定的名稱和界限必須相符。</span><span class="sxs-lookup"><span data-stu-id="bcd78-116">Both the specified name and boundary must match if this process is to open the namespace created by the first process.</span></span> <span data-ttu-id="bcd78-117">請注意，處理常式可以開啟現有的命名空間，即使它不在界限內，除非使用 *lpPrivateNamespaceAttributes* 參數來限制存取命名空間。</span><span class="sxs-lookup"><span data-stu-id="bcd78-117">Note that a process can open an existing namespace even if it is not within the boundary unless the creator restricted access to the namespace using the *lpPrivateNamespaceAttributes* parameter.</span></span>
+
+<span data-ttu-id="bcd78-118">在這個命名空間中建立的物件具有格式 *首碼* \\ *objectname* 的名稱。</span><span class="sxs-lookup"><span data-stu-id="bcd78-118">The objects that are created in this namespace have names that are of the form *prefix*\\*objectname*.</span></span> <span data-ttu-id="bcd78-119">前置詞是由 [**CreatePrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-createprivatenamespacea)的 *lpAliasPrefix* 參數所指定的命名空間名稱。</span><span class="sxs-lookup"><span data-stu-id="bcd78-119">The prefix is the namespace name specified by the *lpAliasPrefix* parameter of [**CreatePrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-createprivatenamespacea).</span></span> <span data-ttu-id="bcd78-120">例如，若要在 NS1 命名空間中建立名為 MyEvent 的事件物件，請呼叫 [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) 函數，並將 *lpName* 參數設定為 ns1 \\ MyEvent。</span><span class="sxs-lookup"><span data-stu-id="bcd78-120">For example, to create an event object named MyEvent in the NS1 namespace, call the [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) function with the *lpName* parameter set to NS1\\MyEvent.</span></span>
+
+<span data-ttu-id="bcd78-121">建立命名空間的進程可以使用 [**ClosePrivateNamespace**](/windows/win32/api/namespaceapi/nf-namespaceapi-closeprivatenamespace) 函式來關閉命名空間的控制碼。</span><span class="sxs-lookup"><span data-stu-id="bcd78-121">The process that created the namespace can use the [**ClosePrivateNamespace**](/windows/win32/api/namespaceapi/nf-namespaceapi-closeprivatenamespace) function to close the handle to the namespace.</span></span> <span data-ttu-id="bcd78-122">當建立命名空間的進程終止時，控制碼也會關閉。</span><span class="sxs-lookup"><span data-stu-id="bcd78-122">The handle is also closed when the process that created the namespace terminates.</span></span> <span data-ttu-id="bcd78-123">在命名空間控制碼關閉之後，對 [**OpenPrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-openprivatenamespacea) 的後續呼叫會失敗，但命名空間中的物件上的所有作業都會成功。</span><span class="sxs-lookup"><span data-stu-id="bcd78-123">After the namespace handle is closed, subsequent calls to [**OpenPrivateNamespace**](/windows/desktop/api/WinBase/nf-winbase-openprivatenamespacea) fail, but all operations on objects in the namespace succeed.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="bcd78-124">相關主題</span><span class="sxs-lookup"><span data-stu-id="bcd78-124">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="bcd78-125">核心物件命名空間</span><span class="sxs-lookup"><span data-stu-id="bcd78-125">Kernel Object Namespaces</span></span>](../termserv/kernel-object-namespaces.md)
+</dt> </dl>
+
+ 
+
+ 
