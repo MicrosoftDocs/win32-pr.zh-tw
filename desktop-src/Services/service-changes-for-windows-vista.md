@@ -1,0 +1,45 @@
+---
+description: 服務模型已有重大變更，可改善服務的效能、可靠性、安全性、管理及管理。
+ms.assetid: b1c09468-51e1-4ffd-bf07-6faa9f9336dd
+title: Windows Vista 的服務變更
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e6ba96cc0c69e2bda4e19e7d093098c578e31c4b
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103847925"
+---
+# <a name="service-changes-for-windows-vista"></a>Windows Vista 的服務變更
+
+服務模型已有重大變更，可改善服務的效能、可靠性、安全性、管理及管理。
+
+下表摘要說明 Windows Vista 服務的增強功能。
+
+
+
+| 增強功能                                                                                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span id="Delayed_Auto-Start"></span><span id="delayed_auto-start"></span><span id="DELAYED_AUTO-START"></span>延遲的自動啟動<br/>                                                                 | 延遲的自動啟動服務會在系統啟動之後立即啟動。 這可改善系統啟動效能，同時仍提供這些服務的自動啟動。 若要設定延遲的自動啟動旗標，請使用服務設定 **\_ 延遲的 \_ \_ 自動 \_ 啟動 \_ 資訊** 來呼叫 [**ChangeServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a)函數。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| <span id="Failure_Detection_and_Recovery"></span><span id="failure_detection_and_recovery"></span><span id="FAILURE_DETECTION_AND_RECOVERY"></span>失敗偵測和復原<br/>                 | 如果服務失敗，服務控制管理員 (SCM) 可能會執行失敗的動作，例如重新開機服務，以嘗試從該失敗中復原。 若要設定失敗動作，請使用 **服務設定 \_ \_ 失敗 \_ 動作** 來呼叫 [**ChangeServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a) 。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| <span id="Preshutdown_Notifications"></span><span id="preshutdown_notifications"></span><span id="PRESHUTDOWN_NOTIFICATIONS"></span>Preshutdown 通知<br/>                                     | 服務可以在接收實際的關機通知之前註冊，以在其 [*HandlerEx*](/windows/desktop/api/WinSvc/nc-winsvc-lphandler_function_ex)函數中接收 **服務 \_ 控制項 \_ PRESHUTDOWN** 通知。 這可為服務提供冗長的關機程式，使其正常關機的時間更長。 若要設定超時值，請使用 **服務設定 \_ \_ PRESHUTDOWN \_ 資訊** 來呼叫 [**ChangeServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a) 。<br/>                                                                                                                                                                                                                                                                                                                                                                                                      |
+| <span id="Restricted_Network_Access"></span><span id="restricted_network_access"></span><span id="RESTRICTED_NETWORK_ACCESS"></span>限制的網路存取<br/>                                     | 您可以使用服務 Sid 來限制對埠、通訊協定或網路流量方向的存取。 若要限制服務的網路存取權，請使用 [**INetFwServiceRestriction**](/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction) 介面。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| <span id="Running_with_Least_Privilege"></span><span id="running_with_least_privilege"></span><span id="RUNNING_WITH_LEAST_PRIVILEGE"></span>以最低許可權執行<br/>                         | 服務可以在包含必要許可權的任何帳戶下執行 (LocalService、NetworkService、LocalSystem、網域帳戶或本機帳戶) ，以及藉由呼叫 [**ChangeServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a) 與 **服務設定 \_ \_ 所需的 \_ 許可權 \_ 資訊** 來指出所需的許可權。 SCM 會移除任何不需要的許可權。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <span id="Service_Isolation"></span><span id="service_isolation"></span><span id="SERVICE_ISOLATION"></span>服務隔離<br/>                                                                     | 服務可以隔離物件（例如檔案或登錄機碼），以使用包含服務 SID 的存取控制專案來保護它們的專屬用途。 將此 SID 指派給服務之後，服務擁有者可以修改物件的存取控制清單，以授與 SID 的存取權。 這可讓服務存取特定物件，而不需以高許可權帳戶執行或降低物件的安全性。 若要設定服務 SID，請使用 **服務設定 \_ \_ 服務 \_ Sid \_ 資訊** 來呼叫 [**ChangeServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a) 。<br/>                                                                                                                                                                                                                                     |
+| <span id="Service_State_Change_Notifications"></span><span id="service_state_change_notifications"></span><span id="SERVICE_STATE_CHANGE_NOTIFICATIONS"></span>服務狀態變更通知<br/> | 服務可以註冊，以便在服務建立、刪除或變更狀態時收到通知，方法是使用 [**NotifyServiceStatusChange**](/windows/desktop/api/Winsvc/nf-winsvc-notifyservicestatuschangea) 函數。 這比在迴圈中呼叫 [**QueryServiceStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex) 函數來輪詢狀態更有效率。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <span id="Session_0_Isolation"></span><span id="session_0_isolation"></span><span id="SESSION_0_ISOLATION"></span>會話0隔離<br/>                                                             | 服務一律在會話0中執行。 在 Windows Vista 之前，第一個登入的使用者也會指派給會話0。 現在，會話0是專門針對未與互動式使用者會話相關聯的服務和其他應用程式所保留。  (第一位登入的使用者連接到會話1時，登入的第二位使用者會連線到會話2，依此類推。 ) 會話0不支援與使用者互動的進程。<br/> 這種變更表示服務無法張貼或傳送訊息至應用程式，且應用程式無法將訊息傳送或張貼至服務。 此外，服務也無法直接顯示使用者介面專案，例如對話方塊。 服務可以使用 [**WTSSendMessage**](/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssendmessagea) 函數，在另一個會話中顯示對話方塊。<br/> |
+
+
+
+ 
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[服務](services.md)
+</dt> </dl>
+
+ 
+
