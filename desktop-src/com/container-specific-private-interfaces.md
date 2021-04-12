@@ -1,0 +1,24 @@
+---
+title: Container-Specific 私用介面
+description: Container-Specific 私用介面
+ms.assetid: 429cf71c-9b9d-4d0b-b5de-91fbe1dde3cf
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 25c6569a79e9f1801c6fd82543bc40408903c780
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104311300"
+---
+# <a name="container-specific-private-interfaces"></a><span data-ttu-id="5b404-103">Container-Specific 私用介面</span><span class="sxs-lookup"><span data-stu-id="5b404-103">Container-Specific Private Interfaces</span></span>
+
+<span data-ttu-id="5b404-104">某些容器會提供容器專屬的私用介面，以提供額外的功能或改善效能。</span><span class="sxs-lookup"><span data-stu-id="5b404-104">Some containers provide container-specific private interfaces for additional functionality or improved performance.</span></span> <span data-ttu-id="5b404-105">依賴這些容器特定介面的控制項，如果可能的話，就不會有這些容器特定介面的運作方式，因此控制項在不同的容器中會有作用。</span><span class="sxs-lookup"><span data-stu-id="5b404-105">Controls that rely on those container-specific interfaces should, if possible, work without those container-specific interfaces present so that the control functions in different containers.</span></span> <span data-ttu-id="5b404-106">例如，Visual Basic 會實作為控制項的字串格式功能提供的私用介面。</span><span class="sxs-lookup"><span data-stu-id="5b404-106">For example, Visual Basic implements private interfaces that provide string formatting functionality to controls.</span></span> <span data-ttu-id="5b404-107">如果控制項使用這些私用格式介面，如果無法使用這些介面，就應該能夠使用預設的格式化支援來執行。</span><span class="sxs-lookup"><span data-stu-id="5b404-107">If a control makes use of these private formatting interfaces, it should be able to run with default formatting support if these interfaces are not available.</span></span> <span data-ttu-id="5b404-108">如果控制項可在沒有私用介面的情況下運作，則應該採取適當的動作 (例如警告使用者的功能已減少) 但仍繼續運作。</span><span class="sxs-lookup"><span data-stu-id="5b404-108">If the control can function without the private interfaces, it should take appropriate action (such as warn the user of reduced functionality) but continue to work.</span></span> <span data-ttu-id="5b404-109">如果這不是一個選項，則元件類別應視需要註冊，如此一來，只有支援這項功能的容器可以裝載這些控制項。</span><span class="sxs-lookup"><span data-stu-id="5b404-109">If this is not an option, a component category should be registered as required so that only containers supporting this functionality can host these controls.</span></span>
+
+ 
+
+ 
+
+
+
+

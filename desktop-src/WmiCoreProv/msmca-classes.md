@@ -1,0 +1,50 @@
+---
+description: 公開機器檢查架構 (MCA) 的一組 WMI 類別。 系統抽象層 (SAL) 提供 MSMCA 類別中報告的所有事件。 Intel Corporation 開發和擁有 MCA。
+ms.assetid: 4e35f871-5bce-49ed-a3e8-d2d967e6e2dc
+title: MSMCA 類別
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 461d4c5c50ae5316c96c3dffc18af7b729cfa6e6
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104319799"
+---
+# <a name="msmca-classes"></a><span data-ttu-id="863fc-105">MSMCA 類別</span><span class="sxs-lookup"><span data-stu-id="863fc-105">MSMCA Classes</span></span>
+
+<span data-ttu-id="863fc-106">Microsoft 機器檢查架構 (MSMCA) 類別是一組 WMI 類別，可公開機器檢查架構 (MCA) 。</span><span class="sxs-lookup"><span data-stu-id="863fc-106">The Microsoft Machine Check Architecture (MSMCA) classes are a set of WMI classes that expose the Machine Check Architecture (MCA).</span></span> <span data-ttu-id="863fc-107">系統抽象層 (SAL) 提供 MSMCA 類別中報告的所有事件。</span><span class="sxs-lookup"><span data-stu-id="863fc-107">The System Abstraction Layer (SAL) provides all events reported in the MSMCA class.</span></span> <span data-ttu-id="863fc-108">Intel Corporation 開發和擁有 MCA。</span><span class="sxs-lookup"><span data-stu-id="863fc-108">The Intel Corporation develops and owns the MCA.</span></span>
+
+
+
+| <span data-ttu-id="863fc-109">類別</span><span class="sxs-lookup"><span data-stu-id="863fc-109">Class</span></span>                                                                               | <span data-ttu-id="863fc-110">描述</span><span class="sxs-lookup"><span data-stu-id="863fc-110">Description</span></span>                                                                                            |
+|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="863fc-111">**MSMCAEvent \_ CPUError**</span><span class="sxs-lookup"><span data-stu-id="863fc-111">**MSMCAEvent\_CPUError**</span></span>](msmcaevent-cpuerror.md)                                 | <span data-ttu-id="863fc-112">代表 CPU 錯誤事件。</span><span class="sxs-lookup"><span data-stu-id="863fc-112">Represents a CPU error event.</span></span>                                                                          |
+| [<span data-ttu-id="863fc-113">**MSMCAEvent \_ 標頭**</span><span class="sxs-lookup"><span data-stu-id="863fc-113">**MSMCAEvent\_Header**</span></span>](msmcaevent-header.md)                                     | <span data-ttu-id="863fc-114">代表所有 MSMCAEvent 類別使用的一般標頭。</span><span class="sxs-lookup"><span data-stu-id="863fc-114">Represents the common header that all MSMCAEvent classes use.</span></span>                                          |
+| [<span data-ttu-id="863fc-115">**MSMCAEvent \_ InvalidError**</span><span class="sxs-lookup"><span data-stu-id="863fc-115">**MSMCAEvent\_InvalidError**</span></span>](msmcaevent-invaliderror.md)                         | <span data-ttu-id="863fc-116">代表 (MCA) 無效錯誤的記憶體檢查架構。</span><span class="sxs-lookup"><span data-stu-id="863fc-116">Represents a Memory Check Architecture (MCA) invalid error.</span></span>                                            |
+| [<span data-ttu-id="863fc-117">**MSMCAEvent \_ MemoryError**</span><span class="sxs-lookup"><span data-stu-id="863fc-117">**MSMCAEvent\_MemoryError**</span></span>](msmcaevent-memoryerror.md)                           | <span data-ttu-id="863fc-118">表示 MCA 記憶體錯誤事件。</span><span class="sxs-lookup"><span data-stu-id="863fc-118">Represents an MCA memory error event.</span></span>                                                                  |
+| [<span data-ttu-id="863fc-119">**MSMCAEvent \_ MemoryPageRemoved**</span><span class="sxs-lookup"><span data-stu-id="863fc-119">**MSMCAEvent\_MemoryPageRemoved**</span></span>](msmcaevent-memorypageremoved.md)               | <span data-ttu-id="863fc-120">指出作業系統已移除實體頁面的記憶體。</span><span class="sxs-lookup"><span data-stu-id="863fc-120">Indicates that the operating system removed a physical page of memory.</span></span>                                 |
+| [<span data-ttu-id="863fc-121">**MSMCAEvent \_ PCIBusError**</span><span class="sxs-lookup"><span data-stu-id="863fc-121">**MSMCAEvent\_PCIBusError**</span></span>](msmcaevent-pcibuserror.md)                           | <span data-ttu-id="863fc-122">表示 MCA PCI 匯流排錯誤。</span><span class="sxs-lookup"><span data-stu-id="863fc-122">Represents an MCA PCI bus error.</span></span>                                                                       |
+| [<span data-ttu-id="863fc-123">**MSMCAEvent \_ PCIComponentError**</span><span class="sxs-lookup"><span data-stu-id="863fc-123">**MSMCAEvent\_PCIComponentError**</span></span>](msmcaevent-pcicomponenterror.md)               | <span data-ttu-id="863fc-124">表示 MCA PCI 元件錯誤。</span><span class="sxs-lookup"><span data-stu-id="863fc-124">Represents an MCA PCI component error.</span></span>                                                                 |
+| [<span data-ttu-id="863fc-125">**MSMCAEvent \_ PlatformSpecificError**</span><span class="sxs-lookup"><span data-stu-id="863fc-125">**MSMCAEvent\_PlatformSpecificError**</span></span>](msmcaevent-platformspecificerror.md)       | <span data-ttu-id="863fc-126">表示 MCA 平臺特定的錯誤。</span><span class="sxs-lookup"><span data-stu-id="863fc-126">Represents an MCA platform-specific error.</span></span>                                                             |
+| [<span data-ttu-id="863fc-127">**MSMCAEvent \_ SMBIOSError**</span><span class="sxs-lookup"><span data-stu-id="863fc-127">**MSMCAEvent\_SMBIOSError**</span></span>](msmcaevent-smbioserror.md)                           | <span data-ttu-id="863fc-128">表示 MCA 系統 bios 錯誤。</span><span class="sxs-lookup"><span data-stu-id="863fc-128">Represents an MCA system bios error.</span></span>                                                                   |
+| [<span data-ttu-id="863fc-129">**MSMCAEvent \_ SwitchToCMCPolling**</span><span class="sxs-lookup"><span data-stu-id="863fc-129">**MSMCAEvent\_SwitchToCMCPolling**</span></span>](msmcaevent-switchtocmcpolling.md)             | <span data-ttu-id="863fc-130">指出已將已更正的機器檢查處理切換為輪詢。</span><span class="sxs-lookup"><span data-stu-id="863fc-130">Indicates that the corrected machine check handling is switched to polling.</span></span>                            |
+| [<span data-ttu-id="863fc-131">**MSMCAEvent \_ SystemEventError**</span><span class="sxs-lookup"><span data-stu-id="863fc-131">**MSMCAEvent\_SystemEventError**</span></span>](msmcaevent-systemeventerror.md)                 | <span data-ttu-id="863fc-132">表示 MCA 系統事件錯誤。</span><span class="sxs-lookup"><span data-stu-id="863fc-132">Represents an MCA system event error.</span></span>                                                                  |
+| [<span data-ttu-id="863fc-133">**MSMCAInfo**</span><span class="sxs-lookup"><span data-stu-id="863fc-133">**MSMCAInfo**</span></span>](msmcainfo.md)                                                      | <span data-ttu-id="863fc-134">從中衍生所有機器檢查架構 (MCA) 提供者資料類別的抽象基類。</span><span class="sxs-lookup"><span data-stu-id="863fc-134">Abstract base class from which all Machine Check Architecture (MCA) provider data classes are derived.</span></span> |
+| [<span data-ttu-id="863fc-135">**MSMCAInfo \_ 專案**</span><span class="sxs-lookup"><span data-stu-id="863fc-135">**MSMCAInfo\_Entry**</span></span>](msmcainfo-entry.md)                                         | <span data-ttu-id="863fc-136">表示 MCA、已更正的機器檢查 (CMC) ，或更正的平臺錯誤 (CPE) 資訊專案。</span><span class="sxs-lookup"><span data-stu-id="863fc-136">Represents an MCA, Corrected Machine Check (CMC), or Corrected Platform Error (CPE) information entry.</span></span> |
+| [<span data-ttu-id="863fc-137">**MSMCAInfo \_ RawCMCEvent**</span><span class="sxs-lookup"><span data-stu-id="863fc-137">**MSMCAInfo\_RawCMCEvent**</span></span>](msmcainfo-rawcmcevent.md)                             | <span data-ttu-id="863fc-138">包含 CMC 事件。</span><span class="sxs-lookup"><span data-stu-id="863fc-138">Contains a CMC event.</span></span>                                                                                  |
+| [<span data-ttu-id="863fc-139">**MSMCAInfo \_ RawCorrectedPlatformEvent**</span><span class="sxs-lookup"><span data-stu-id="863fc-139">**MSMCAInfo\_RawCorrectedPlatformEvent**</span></span>](msmcainfo-rawcorrectedplatformevent.md) | <span data-ttu-id="863fc-140">包含已更正的平臺事件。</span><span class="sxs-lookup"><span data-stu-id="863fc-140">Contains a Corrected Platform Event.</span></span>                                                                   |
+| [<span data-ttu-id="863fc-141">**MSMCAInfo \_ RawMCAData**</span><span class="sxs-lookup"><span data-stu-id="863fc-141">**MSMCAInfo\_RawMCAData**</span></span>](msmcainfo-rawmcadata.md)                               | <span data-ttu-id="863fc-142">指定原始 MCA 記錄。</span><span class="sxs-lookup"><span data-stu-id="863fc-142">Specifies the raw MCA logs.</span></span>                                                                            |
+| [<span data-ttu-id="863fc-143">**MSMCAInfo \_ RawMCAEvent**</span><span class="sxs-lookup"><span data-stu-id="863fc-143">**MSMCAInfo\_RawMCAEvent**</span></span>](msmcainfo-rawmcaevent.md)                             | <span data-ttu-id="863fc-144">包含 MCA 事件。</span><span class="sxs-lookup"><span data-stu-id="863fc-144">Contains a MCA event.</span></span>                                                                                  |
+| [<span data-ttu-id="863fc-145">**>register-wmievent**</span><span class="sxs-lookup"><span data-stu-id="863fc-145">**WmiEvent**</span></span>](wmievent.md)                                                        | <span data-ttu-id="863fc-146">衍生所有 MCA 提供者事件類別的來源抽象基類。</span><span class="sxs-lookup"><span data-stu-id="863fc-146">Abstract base class from which all MCA provider event classes are derived.</span></span>                             |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
