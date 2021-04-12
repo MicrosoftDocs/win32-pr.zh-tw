@@ -1,0 +1,30 @@
+---
+description: 附件嵌入式管理單元延伸模組無法直接查詢安全性資料庫以取得資訊。 相反地，它必須使用 ISceSvcAttachmentData：：的安全性設定嵌入式管理單元來查詢這項資訊。
+ms.assetid: 1171beed-5b28-4f31-b33f-533e3c631b0d
+title: 從設定嵌入式管理單元取得資料
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9c888cef92a354f73f01e87fca12cee2567dab48
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104513753"
+---
+# <a name="getting-data-from-the-configuration-snap-ins"></a><span data-ttu-id="4287b-104">從設定嵌入式管理單元取得資料</span><span class="sxs-lookup"><span data-stu-id="4287b-104">Getting Data from the Configuration Snap-ins</span></span>
+
+<span data-ttu-id="4287b-105">附件嵌入式管理單元延伸模組無法直接查詢安全性資料庫以取得資訊。</span><span class="sxs-lookup"><span data-stu-id="4287b-105">The attachment snap-in extension has no way to directly query the security database to retrieve information.</span></span> <span data-ttu-id="4287b-106">相反地，它必須使用 [**ISceSvcAttachmentData：：**](/windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-getdata)的安全性設定嵌入式管理單元來查詢這項資訊。</span><span class="sxs-lookup"><span data-stu-id="4287b-106">Instead, it must query this information from the Security Configuration snap-ins using [**ISceSvcAttachmentData::GetData**](/windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-getdata).</span></span>
+
+<span data-ttu-id="4287b-107">附件嵌入式管理單元可以在初始化本身時取出所有資料，或在開啟其節點時取得資訊。</span><span class="sxs-lookup"><span data-stu-id="4287b-107">The attachment snap-in can retrieve all of the data when it initializes itself, or it can retrieve information when its node is opened.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="4287b-108">您必須使用 [**ISceSvcAttachmentData：： FreeBuffer**](/windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-freebuffer) 方法來釋出安全性設定嵌入式管理單元方法所配置的緩衝區 [**ISceSvcAttachmentData：：**](/windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-getdata)。</span><span class="sxs-lookup"><span data-stu-id="4287b-108">You must use the [**ISceSvcAttachmentData::FreeBuffer**](/windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-freebuffer) method to free the buffer allocated by the Security Configuration snap-in method [**ISceSvcAttachmentData::GetData**](/windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-getdata).</span></span>
+
+ 
+
+ 
+
+ 
+
+
+
