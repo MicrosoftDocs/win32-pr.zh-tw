@@ -1,0 +1,69 @@
+---
+title: File (attachmentsType) 元素
+description: 包含以電子郵件訊息中的附件形式傳送之檔案的路徑。
+ms.assetid: a53f591b-ac59-43b4-8cc2-661e76d307cc
+keywords:
+- File 元素工作排程器
+topic_type:
+- apiref
+api_name:
+- File
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: ed07d4b31f9054f6caefcff0585d9683faa90c7f
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104384362"
+---
+# <a name="file-attachmentstype-element"></a>File (attachmentsType) 元素
+
+包含以電子郵件訊息中的附件形式傳送之檔案的路徑。
+
+``` syntax
+<xs:element name="File"
+    type="nonEmptyString"
+ />
+```
+
+**File** 元素是由 [**attachmentsType**](taskschedulerschema-attachmentstype-complextype.md)複雜型別定義。
+
+## <a name="parent-element"></a>父元素
+
+
+
+| 元素                                                                                      | 衍生自                                                               | Description                                                     |
+|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------|
+| [**附件 (sendEmailType)**](taskschedulerschema-attachments-sendemailtype-element.md) | [**attachmentsType**](taskschedulerschema-attachmentstype-complextype.md) | 包含電子郵件訊息中的附件清單。<br/> |
+
+
+
+## <a name="remarks"></a>備註
+
+針對 c + + 開發，請參閱 [**IEmailAction 的附件屬性**](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_attachments)。
+
+如需腳本開發，請參閱 [**EmailAction。**](emailaction-attachments.md)
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|------------------------------------------------------|
+| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+
