@@ -1,0 +1,79 @@
+---
+description: 重設虛擬鍵盤。
+ms.assetid: 2a943dd8-3b94-4b20-8786-7f9d8b0aeaa6
+title: Msvm_SyntheticKeyboard 類別的 Reset 方法
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Msvm_SyntheticKeyboard.Reset
+api_type:
+- COM
+api_location:
+- vmms.exe
+ms.openlocfilehash: 05c5b8dbfba04eca6e0b118ae20f2ad172d324e8
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104191162"
+---
+# <a name="reset-method-of-the-msvm_synthetickeyboard-class"></a><span data-ttu-id="12de0-103">Msvm SyntheticKeyboard 類別的 Reset 方法 \_</span><span class="sxs-lookup"><span data-stu-id="12de0-103">Reset method of the Msvm\_SyntheticKeyboard class</span></span>
+
+<span data-ttu-id="12de0-104">重設虛擬鍵盤。</span><span class="sxs-lookup"><span data-stu-id="12de0-104">Resets the virtual keyboard.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="12de0-105">語法</span><span class="sxs-lookup"><span data-stu-id="12de0-105">Syntax</span></span>
+
+
+```mof
+uint32 Reset();
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="12de0-106">參數</span><span class="sxs-lookup"><span data-stu-id="12de0-106">Parameters</span></span>
+
+<span data-ttu-id="12de0-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="12de0-107">This method has no parameters.</span></span>
+
+## <a name="return-value"></a><span data-ttu-id="12de0-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="12de0-108">Return value</span></span>
+
+<span data-ttu-id="12de0-109">成功時，會傳回 0;否則，會傳回錯誤。</span><span class="sxs-lookup"><span data-stu-id="12de0-109">On success, returns 0; otherwise, returns an error.</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="12de0-110">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="12de0-110">**Completed with No Error** (0)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="12de0-111">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="12de0-111">**Not supported** (1)</span></span>
+</dt> </dl>
+
+## <a name="requirements"></a><span data-ttu-id="12de0-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="12de0-112">Requirements</span></span>
+
+
+
+| <span data-ttu-id="12de0-113">需求</span><span class="sxs-lookup"><span data-stu-id="12de0-113">Requirement</span></span> | <span data-ttu-id="12de0-114">值</span><span class="sxs-lookup"><span data-stu-id="12de0-114">Value</span></span> |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="12de0-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="12de0-115">Minimum supported client</span></span><br/> | <span data-ttu-id="12de0-116">\[僅 Windows 10 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="12de0-116">Windows 10 \[desktop apps only\]</span></span><br/>                                                             |
+| <span data-ttu-id="12de0-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="12de0-117">Minimum supported server</span></span><br/> | <span data-ttu-id="12de0-118">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="12de0-118">Windows Server 2016</span></span><br/>                                                                          |
+| <span data-ttu-id="12de0-119">命名空間</span><span class="sxs-lookup"><span data-stu-id="12de0-119">Namespace</span></span><br/>                | <span data-ttu-id="12de0-120">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="12de0-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="12de0-121">MOF</span><span class="sxs-lookup"><span data-stu-id="12de0-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="12de0-122"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="12de0-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="12de0-123">DLL</span><span class="sxs-lookup"><span data-stu-id="12de0-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="12de0-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="12de0-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="12de0-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="12de0-125">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="12de0-126">**Msvm \_ SyntheticKeyboard**</span><span class="sxs-lookup"><span data-stu-id="12de0-126">**Msvm\_SyntheticKeyboard**</span></span>](msvm-synthetickeyboard.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
