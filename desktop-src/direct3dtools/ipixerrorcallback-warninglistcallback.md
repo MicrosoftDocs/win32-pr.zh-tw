@@ -24,19 +24,19 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "104109052"
 ---
-# <a name="span-idvspixengineipixerrorcallback_warninglistcallbackspanipixerrorcallbackwarninglistcallback-method"></a><span data-ttu-id="023df-103"><span id="vspixengine.ipixerrorcallback_warninglistcallback"></span>IPixErrorCallback：： WarningListCallback 方法</span><span class="sxs-lookup"><span data-stu-id="023df-103"><span id="vspixengine.ipixerrorcallback_warninglistcallback"></span>IPixErrorCallback::WarningListCallback method</span></span>
+# <a name="span-idvspixengineipixerrorcallback_warninglistcallbackspanipixerrorcallbackwarninglistcallback-method"></a><span data-ttu-id="d8b48-103"><span id="vspixengine.ipixerrorcallback_warninglistcallback"></span>IPixErrorCallback：： WarningListCallback 方法</span><span class="sxs-lookup"><span data-stu-id="d8b48-103"><span id="vspixengine.ipixerrorcallback_warninglistcallback"></span>IPixErrorCallback::WarningListCallback method</span></span>
 
-<span data-ttu-id="023df-104">回呼，會通知主機相關要求所傳回的警告。</span><span class="sxs-lookup"><span data-stu-id="023df-104">A callback that notifies the host of warnings returned by the associated request.</span></span>
+<span data-ttu-id="d8b48-104">回呼，會通知主機相關要求所傳回的警告。</span><span class="sxs-lookup"><span data-stu-id="d8b48-104">A callback that notifies the host of warnings returned by the associated request.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="023df-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="023df-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d8b48-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="d8b48-105">Syntax</span></span>
 
 
 ```C++
 ```
 
-## <a name="span-idsee_alsospansee-also"></a><span data-ttu-id="023df-106"><span id="see_also"></span>另請參閱</span><span class="sxs-lookup"><span data-stu-id="023df-106"><span id="see_also"></span>See also</span></span>
+## <a name="span-idsee_alsospansee-also"></a><span data-ttu-id="d8b48-106"><span id="see_also"></span>另請參閱</span><span class="sxs-lookup"><span data-stu-id="d8b48-106"><span id="see_also"></span>See also</span></span>
 
-[<span data-ttu-id="023df-107">**IPixErrorCallback**</span><span class="sxs-lookup"><span data-stu-id="023df-107">**IPixErrorCallback**</span></span>](/windows/desktop/direct3dtools/ipixerrorcallback)
+[<span data-ttu-id="d8b48-107">**IPixErrorCallback**</span><span class="sxs-lookup"><span data-stu-id="d8b48-107">**IPixErrorCallback**</span></span>](/windows/desktop/direct3dtools/ipixerrorcallback)
 
  
 
