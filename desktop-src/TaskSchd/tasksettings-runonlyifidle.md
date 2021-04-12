@@ -1,0 +1,76 @@
+---
+title: TaskSettings. RunOnlyIfIdle 屬性
+description: 針對腳本，取得或設定布林值，指出工作排程器只有在電腦處於閒置狀態時，才會執行工作。
+ms.assetid: fca1d98e-0544-4301-a709-1e0dae762e07
+keywords:
+- RunOnlyIfIdle 屬性工作排程器
+- RunOnlyIfIdle 屬性工作排程器，TaskSettings 物件
+- TaskSettings 物件工作排程器、RunOnlyIfIdle 屬性
+topic_type:
+- apiref
+api_name:
+- TaskSettings.RunOnlyIfIdle
+api_location:
+- taskschd.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 8256b2a3d1dd96db9a8f29b49ce10f6c2fdb266d
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104384342"
+---
+# <a name="tasksettingsrunonlyifidle-property"></a><span data-ttu-id="07a3f-106">TaskSettings. RunOnlyIfIdle 屬性</span><span class="sxs-lookup"><span data-stu-id="07a3f-106">TaskSettings.RunOnlyIfIdle property</span></span>
+
+<span data-ttu-id="07a3f-107">針對腳本，取得或設定布林值，指出工作排程器只有在電腦處於閒置狀態時，才會執行工作。</span><span class="sxs-lookup"><span data-stu-id="07a3f-107">For scripting, gets or sets a Boolean value that indicates that the Task Scheduler will run the task only if the computer is in an idle condition.</span></span>
+
+<span data-ttu-id="07a3f-108">這是可讀寫的屬性。</span><span class="sxs-lookup"><span data-stu-id="07a3f-108">This property is read/write.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="07a3f-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="07a3f-109">Syntax</span></span>
+
+
+```VB
+TaskSettings.RunOnlyIfIdle As Boolean
+```
+
+
+
+## <a name="property-value"></a><span data-ttu-id="07a3f-110">屬性值</span><span class="sxs-lookup"><span data-stu-id="07a3f-110">Property value</span></span>
+
+<span data-ttu-id="07a3f-111">若為 True，則屬性會指出工作排程器只有在電腦處於閒置狀態時，才會執行工作。</span><span class="sxs-lookup"><span data-stu-id="07a3f-111">If True, the property indicates that the Task Scheduler will run the task only if the computer is in an idle condition.</span></span> <span data-ttu-id="07a3f-112">預設值是 False。</span><span class="sxs-lookup"><span data-stu-id="07a3f-112">The default is False.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="07a3f-113">備註</span><span class="sxs-lookup"><span data-stu-id="07a3f-113">Remarks</span></span>
+
+<span data-ttu-id="07a3f-114">讀取或寫入工作的 XML 時，此設定會在工作排程器架構的 [**RunOnlyIfIdle**](taskschedulerschema-runonlyifidle-settingstype-element.md) 元素中指定。</span><span class="sxs-lookup"><span data-stu-id="07a3f-114">When reading or writing XML for a task, this setting is specified in the [**RunOnlyIfIdle**](taskschedulerschema-runonlyifidle-settingstype-element.md) element of the Task Scheduler schema.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="07a3f-115">規格需求</span><span class="sxs-lookup"><span data-stu-id="07a3f-115">Requirements</span></span>
+
+
+
+| <span data-ttu-id="07a3f-116">需求</span><span class="sxs-lookup"><span data-stu-id="07a3f-116">Requirement</span></span> | <span data-ttu-id="07a3f-117">值</span><span class="sxs-lookup"><span data-stu-id="07a3f-117">Value</span></span> |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| <span data-ttu-id="07a3f-118">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="07a3f-118">Minimum supported client</span></span><br/> | <span data-ttu-id="07a3f-119">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="07a3f-119">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="07a3f-120">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="07a3f-120">Minimum supported server</span></span><br/> | <span data-ttu-id="07a3f-121">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="07a3f-121">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="07a3f-122">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="07a3f-122">Type library</span></span><br/>             | <dl> <span data-ttu-id="07a3f-123"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="07a3f-123"><dt>Taskschd.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="07a3f-124">DLL</span><span class="sxs-lookup"><span data-stu-id="07a3f-124">DLL</span></span><br/>                      | <dl> <span data-ttu-id="07a3f-125"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="07a3f-125"><dt>Taskschd.dll</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="07a3f-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="07a3f-126">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="07a3f-127">工作排程器</span><span class="sxs-lookup"><span data-stu-id="07a3f-127">Task Scheduler</span></span>](task-scheduler-start-page.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
