@@ -1,0 +1,74 @@
+---
+title: 'IPropertyFilter 介面 (WdsSharedIDL .h) '
+description: 公開用來篩選查詢的屬性。
+ms.assetid: 3760c413-931c-44f2-adaf-eb17df4015c3
+keywords:
+- IPropertyFilter 介面舊版 Windows 環境功能
+- IPropertyFilter 介面舊版 Windows 環境功能，說明
+topic_type:
+- apiref
+api_name:
+- IPropertyFilter
+api_location:
+- WdsSharedIDL.h
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: b4358ca7e111fd68beb68391ba7f08a9b8095d7b
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104508931"
+---
+# <a name="ipropertyfilter-interface"></a><span data-ttu-id="dbfe5-105">IPropertyFilter 介面</span><span class="sxs-lookup"><span data-stu-id="dbfe5-105">IPropertyFilter interface</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="dbfe5-106">Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-106">Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003.</span></span> <span data-ttu-id="dbfe5-107">在更新版本中，請改用 [WINDOWS SEARCH API](../search/-search-reference-entry-page.md) 。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-107">On later releases, use the [Windows Search API](../search/-search-reference-entry-page.md) instead.</span></span> 
+
+<span data-ttu-id="dbfe5-108">公開用來篩選查詢的屬性。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-108">Exposes properties used to filter the query.</span></span>
+
+## <a name="members"></a><span data-ttu-id="dbfe5-109">成員</span><span class="sxs-lookup"><span data-stu-id="dbfe5-109">Members</span></span>
+
+<span data-ttu-id="dbfe5-110">**IPropertyFilter** 介面繼承自 [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown)介面。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-110">The **IPropertyFilter** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.</span></span> <span data-ttu-id="dbfe5-111">**IPropertyFilter** 也有下列類型的成員：</span><span class="sxs-lookup"><span data-stu-id="dbfe5-111">**IPropertyFilter** also has these types of members:</span></span>
+
+-   [<span data-ttu-id="dbfe5-112">屬性</span><span class="sxs-lookup"><span data-stu-id="dbfe5-112">Properties</span></span>](#properties)
+
+### <a name="properties"></a><span data-ttu-id="dbfe5-113">屬性</span><span class="sxs-lookup"><span data-stu-id="dbfe5-113">Properties</span></span>
+
+<span data-ttu-id="dbfe5-114">**IPropertyFilter** 介面具有這些屬性。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-114">The **IPropertyFilter** interface has these properties.</span></span>
+
+
+
+| <span data-ttu-id="dbfe5-115">屬性</span><span class="sxs-lookup"><span data-stu-id="dbfe5-115">Property</span></span>                                                                                      | <span data-ttu-id="dbfe5-116">存取類型</span><span class="sxs-lookup"><span data-stu-id="dbfe5-116">Access type</span></span>           | <span data-ttu-id="dbfe5-117">Description</span><span class="sxs-lookup"><span data-stu-id="dbfe5-117">Description</span></span>                                                   |
+|:----------------------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------|
+| [<span data-ttu-id="dbfe5-118">**IPropertyFilter::IndexColumn**</span><span class="sxs-lookup"><span data-stu-id="dbfe5-118">**IPropertyFilter::IndexColumn**</span></span>](-search-2x-ipropertyfilter-indexcolumn.md)<br/>     | <span data-ttu-id="dbfe5-119">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dbfe5-119">Read/write</span></span><br/> | <span data-ttu-id="dbfe5-120">要篩選之屬性的索引資料行名稱。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-120">Indexed column name of the property to filter by.</span></span> <br/> |
+| [<span data-ttu-id="dbfe5-121">**IPropertyFilter::LogicOperator**</span><span class="sxs-lookup"><span data-stu-id="dbfe5-121">**IPropertyFilter::LogicOperator**</span></span>](-search-2x-ipropertyfilter-logicoperator.md)<br/> | <span data-ttu-id="dbfe5-122">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dbfe5-122">Read/write</span></span><br/> | <span data-ttu-id="dbfe5-123">套用篩選時要使用的邏輯運算子。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-123">Logic Operator to use when applying filter.</span></span> <br/>       |
+| [<span data-ttu-id="dbfe5-124">**IPropertyFilter::NestingDepth**</span><span class="sxs-lookup"><span data-stu-id="dbfe5-124">**IPropertyFilter::NestingDepth**</span></span>](-search-2x-ipropertyfilter-nestingdepth.md)<br/>   | <span data-ttu-id="dbfe5-125">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dbfe5-125">Read/write</span></span><br/> | <span data-ttu-id="dbfe5-126">篩選一組嵌套括弧內的深度。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-126">Filters depth within a nested set of parentheses.</span></span> <br/> |
+| [<span data-ttu-id="dbfe5-127">**IPropertyFilter：： Text**</span><span class="sxs-lookup"><span data-stu-id="dbfe5-127">**IPropertyFilter::Text**</span></span>](-search-2x-ipropertyfilter-text.md)<br/>                   | <span data-ttu-id="dbfe5-128">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dbfe5-128">Read/write</span></span><br/> | <span data-ttu-id="dbfe5-129">篩選準則的文字。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-129">Text of the filter.</span></span> <br/>                               |
+| [<span data-ttu-id="dbfe5-130">**IPropertyFilter：： UID**</span><span class="sxs-lookup"><span data-stu-id="dbfe5-130">**IPropertyFilter::UID**</span></span>](-search-2x-ipropertyfilter-uid.md)<br/>                     | <span data-ttu-id="dbfe5-131">讀取/寫入</span><span class="sxs-lookup"><span data-stu-id="dbfe5-131">Read/write</span></span><br/> | <span data-ttu-id="dbfe5-132">要篩選之屬性的 UID。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-132">UID fo the property to filter by.</span></span> <br/>                 |
+
+
+
+ 
+
+## <a name="remarks"></a><span data-ttu-id="dbfe5-133">備註</span><span class="sxs-lookup"><span data-stu-id="dbfe5-133">Remarks</span></span>
+
+<span data-ttu-id="dbfe5-134">這些屬性是用來篩選查詢。</span><span class="sxs-lookup"><span data-stu-id="dbfe5-134">These properties are used to filter the query.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="dbfe5-135">規格需求</span><span class="sxs-lookup"><span data-stu-id="dbfe5-135">Requirements</span></span>
+
+
+
+| <span data-ttu-id="dbfe5-136">需求</span><span class="sxs-lookup"><span data-stu-id="dbfe5-136">Requirement</span></span> | <span data-ttu-id="dbfe5-137">值</span><span class="sxs-lookup"><span data-stu-id="dbfe5-137">Value</span></span> |
+|-------------------------------------|-------------------------------------------------------------------------------------------|
+| <span data-ttu-id="dbfe5-138">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="dbfe5-138">Minimum supported client</span></span><br/> | <span data-ttu-id="dbfe5-139">僅限 Windows XP （含 SP2） \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="dbfe5-139">Windows XP with SP2 \[desktop apps only\]</span></span><br/>                                      |
+| <span data-ttu-id="dbfe5-140">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="dbfe5-140">Minimum supported server</span></span><br/> | <span data-ttu-id="dbfe5-141">僅限 Windows Server 2003 與 SP1 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="dbfe5-141">Windows Server 2003 with SP1 \[desktop apps only\]</span></span><br/>                             |
+| <span data-ttu-id="dbfe5-142">可轉散發套件</span><span class="sxs-lookup"><span data-stu-id="dbfe5-142">Redistributable</span></span><br/>          | <span data-ttu-id="dbfe5-143">Windows 桌面搜尋 (WDS) 3。0</span><span class="sxs-lookup"><span data-stu-id="dbfe5-143">Windows Desktop Search (WDS) 3.0</span></span><br/>                                               |
+| <span data-ttu-id="dbfe5-144">標頭</span><span class="sxs-lookup"><span data-stu-id="dbfe5-144">Header</span></span><br/>                   | <dl> <span data-ttu-id="dbfe5-145"><dt>WdsSharedIDL。h</dt></span><span class="sxs-lookup"><span data-stu-id="dbfe5-145"><dt>WdsSharedIDL.h</dt></span></span> </dl> |
+
+
+
+ 
+
