@@ -1,0 +1,35 @@
+---
+title: 正在抓取物件的 SACL
+description: Active Directory Domain Services 中物件的安全描述項可能包含 (SACL) 的系統存取控制清單。
+ms.assetid: b1da91a2-d9b0-48a3-9de5-1e588209032d
+ms.tgt_platform: multiple
+keywords:
+- SACL AD
+- SACL AD，正在抓取物件的 SACL
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 537846f2080aecdab8e22f5fce5bdfa36298fb74
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "104314611"
+---
+# <a name="retrieving-an-objects-sacl"></a><span data-ttu-id="5b257-105">正在抓取物件的 SACL</span><span class="sxs-lookup"><span data-stu-id="5b257-105">Retrieving an Object's SACL</span></span>
+
+<span data-ttu-id="5b257-106">Active Directory Domain Services 中物件的安全描述項可能包含 (SACL) 的系統存取控制清單。</span><span class="sxs-lookup"><span data-stu-id="5b257-106">The security descriptor of an object in Active Directory Domain Services may contain a system access-control list (SACL).</span></span> <span data-ttu-id="5b257-107">SACL 包含 (Ace) 的存取控制專案，指定在網域控制站的安全性事件記錄檔中產生審核記錄的存取嘗試類型。</span><span class="sxs-lookup"><span data-stu-id="5b257-107">A SACL contains access-control entries (ACEs) that specify the types of access attempts that generate audit records in the security event log of a domain controller.</span></span> <span data-ttu-id="5b257-108">請注意，SACL 只會在發生存取嘗試的網域控制站上產生記錄專案，而不是在包含物件複本的每個 DC 上產生記錄專案。</span><span class="sxs-lookup"><span data-stu-id="5b257-108">Be aware that a SACL generates log entries only on the domain controller where the access attempt occurred, not on every DC that contains a replica of the object.</span></span>
+
+<span data-ttu-id="5b257-109">若要設定或取得物件安全描述項中的 SACL，必須在要求之執行緒的存取權杖中啟用「 **SE \_ 安全性 \_ 名稱** 」許可權。</span><span class="sxs-lookup"><span data-stu-id="5b257-109">To set or get the SACL from an object security descriptor, the **SE\_SECURITY\_NAME** privilege must be enabled in the access token of the requesting thread.</span></span> <span data-ttu-id="5b257-110">系統管理員群組預設具有此許可權，而且可以指派給其他使用者或群組。</span><span class="sxs-lookup"><span data-stu-id="5b257-110">The administrators group has this privilege by default, and it can be assigned to other users or groups.</span></span> <span data-ttu-id="5b257-111">如需詳細資訊，請參閱 [SACL 訪問](/windows/desktop/SecAuthZ/sacl-access-right)許可權。</span><span class="sxs-lookup"><span data-stu-id="5b257-111">For more information, see [SACL Access Right](/windows/desktop/SecAuthZ/sacl-access-right).</span></span>
+
+<span data-ttu-id="5b257-112">若要取得並設定目錄物件的 SACL，請使用 [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) 介面。</span><span class="sxs-lookup"><span data-stu-id="5b257-112">To get and set the SACL of a directory object, use the [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) interface.</span></span> <span data-ttu-id="5b257-113">使用 c + +， [**IADsSecurityDescriptor：： get \_ SystemAcl**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) 方法會傳回 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 指標。</span><span class="sxs-lookup"><span data-stu-id="5b257-113">Using C++, the [**IADsSecurityDescriptor::get\_SystemAcl**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) method returns an [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pointer.</span></span> <span data-ttu-id="5b257-114">在該 **IDispatch** 指標上呼叫 **QueryInterface** 以取得 [**IADsAccessControlList**](/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist)介面，然後使用該介面上的方法來存取 SACL 中的個別 ace。</span><span class="sxs-lookup"><span data-stu-id="5b257-114">Call **QueryInterface** on that **IDispatch** pointer to get an [**IADsAccessControlList**](/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist) interface, and use the methods on that interface to access the individual ACEs in the SACL.</span></span> <span data-ttu-id="5b257-115">如需修改 SACL 的程式（類似于修改 DACL）的詳細資訊，請參閱 [設定物件的存取權限](setting-access-rights-on-an-object.md)。</span><span class="sxs-lookup"><span data-stu-id="5b257-115">For more information about the procedure for modifying a SACL, which is similar to that for modifying a DACL, see [Setting Access Rights on an Object](setting-access-rights-on-an-object.md).</span></span>
+
+<span data-ttu-id="5b257-116">若要列舉 SACL 中的 Ace，請使用 [**IADsAccessControlList：： get \_ \_ NewEnum**](/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-get__newenum)方法，它會傳回 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)指標。</span><span class="sxs-lookup"><span data-stu-id="5b257-116">To enumerate the ACEs in a SACL, use the [**IADsAccessControlList::get\_\_NewEnum**](/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-get__newenum) method, which returns an [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer.</span></span> <span data-ttu-id="5b257-117">呼叫該 **IUnknown** 指標上的 **QueryInterface** 來取得 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant)介面。</span><span class="sxs-lookup"><span data-stu-id="5b257-117">Call **QueryInterface** on that **IUnknown** pointer to get an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface.</span></span> <span data-ttu-id="5b257-118">使用 [**IEnumVARIANT：： Next**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-next) 方法來列舉 ACL 中的 ace。</span><span class="sxs-lookup"><span data-stu-id="5b257-118">Use the [**IEnumVARIANT::Next**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-next) method to enumerate the ACEs in the ACL.</span></span> <span data-ttu-id="5b257-119">每個 ACE 都會以包含 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)指標的 **VARIANT** 傳回：請注意， **vt** 成員是 **vt \_ 分派**。</span><span class="sxs-lookup"><span data-stu-id="5b257-119">Each ACE is returned as a **VARIANT** that contains an [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pointer; be aware that the **vt** member is **VT\_DISPATCH**.</span></span> <span data-ttu-id="5b257-120">在該 **IDispatch** 指標上呼叫 **QueryInterface** ，以取得 ACE 的 [**IADsAccessControlEntry**](/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry)介面。</span><span class="sxs-lookup"><span data-stu-id="5b257-120">Call **QueryInterface** on that **IDispatch** pointer to get an [**IADsAccessControlEntry**](/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry) interface for the ACE.</span></span> <span data-ttu-id="5b257-121">使用 **IADsAccessControlEntry** 介面方法來設定或取得 ACE 的元件。</span><span class="sxs-lookup"><span data-stu-id="5b257-121">Use the **IADsAccessControlEntry** interface methods to set or get the components of an ACE.</span></span>
+
+<span data-ttu-id="5b257-122">如需 Sacl 的詳細資訊，請參閱：</span><span class="sxs-lookup"><span data-stu-id="5b257-122">For more information about SACLs, see:</span></span>
+
+-   [<span data-ttu-id="5b257-123"> (Acl 的存取控制清單) </span><span class="sxs-lookup"><span data-stu-id="5b257-123">Access-Control Lists (ACLs)</span></span>](/windows/desktop/SecAuthZ/access-control-lists)
+-   [<span data-ttu-id="5b257-124">稽核產生</span><span class="sxs-lookup"><span data-stu-id="5b257-124">Audit Generation</span></span>](/windows/desktop/SecAuthZ/audit-generation)
+
+ 
+
+ 
