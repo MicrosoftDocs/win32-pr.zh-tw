@@ -1,0 +1,37 @@
+---
+description: 下列方法是由 IOCSPAdmin 介面所定義。 這裡不會顯示內容存取方法。 若要查看 IOCSPAdmin 的屬性，請參閱 IOCSPAdmin 的屬性。
+ms.assetid: cbe43e5d-cd1b-467c-a0fd-1ee7cc5adcf7
+title: IOCSPAdmin 的方法
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e9ecd14d2566c5e80e863ba06e38b2945492f59b
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104318515"
+---
+# <a name="methods-of-iocspadmin"></a><span data-ttu-id="5b74d-105">IOCSPAdmin 的方法</span><span class="sxs-lookup"><span data-stu-id="5b74d-105">Methods of IOCSPAdmin</span></span>
+
+<span data-ttu-id="5b74d-106">下列方法是由 [**IOCSPAdmin**](/windows/desktop/api/certadm/nn-certadm-iocspadmin) 介面所定義。</span><span class="sxs-lookup"><span data-stu-id="5b74d-106">The following methods are defined by the [**IOCSPAdmin**](/windows/desktop/api/certadm/nn-certadm-iocspadmin) interface.</span></span> <span data-ttu-id="5b74d-107">這裡不會顯示內容存取方法。</span><span class="sxs-lookup"><span data-stu-id="5b74d-107">The property access methods are not shown here.</span></span> <span data-ttu-id="5b74d-108">若要查看 **IOCSPAdmin** 的屬性，請參閱 [IOCSPAdmin 的屬性](properties-of-iocspadmin.md)。</span><span class="sxs-lookup"><span data-stu-id="5b74d-108">To see the properties for **IOCSPAdmin**, see [Properties of IOCSPAdmin](properties-of-iocspadmin.md).</span></span>
+
+
+
+| <span data-ttu-id="5b74d-109">方法</span><span class="sxs-lookup"><span data-stu-id="5b74d-109">Method</span></span>                                                              | <span data-ttu-id="5b74d-110">描述</span><span class="sxs-lookup"><span data-stu-id="5b74d-110">Description</span></span>                                                                                                                                                                                                                                                               |
+|---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="5b74d-111">**GetConfiguration**</span><span class="sxs-lookup"><span data-stu-id="5b74d-111">**GetConfiguration**</span></span>](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-getconfiguration)      | <span data-ttu-id="5b74d-112">連接至線上憑證狀態通訊協定 (OCSP) 回應程式伺服器，並使用伺服器的設定資訊來初始化 **OCSPAdmin** 物件。</span><span class="sxs-lookup"><span data-stu-id="5b74d-112">Connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an **OCSPAdmin** object with the configuration information from the server.</span></span>                                                                                                     |
+| [<span data-ttu-id="5b74d-113">**GetHashAlgorithms**</span><span class="sxs-lookup"><span data-stu-id="5b74d-113">**GetHashAlgorithms**</span></span>](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-gethashalgorithms)           | <span data-ttu-id="5b74d-114">取得雜湊演算法名稱的清單。</span><span class="sxs-lookup"><span data-stu-id="5b74d-114">Gets a list of hash algorithm names.</span></span> <span data-ttu-id="5b74d-115">回應者伺服器會使用其中一個已命名的演算法，來為指定的 [*憑證授權單位*](../secgloss/c-gly.md) 單位簽署 OCSP 回應 (CA) 設定。</span><span class="sxs-lookup"><span data-stu-id="5b74d-115">The responder server uses one of the named algorithms to sign OCSP responses for a given [*certification authority*](../secgloss/c-gly.md) (CA) configuration.</span></span> |
+| [<span data-ttu-id="5b74d-116">**GetMyRoles**</span><span class="sxs-lookup"><span data-stu-id="5b74d-116">**GetMyRoles**</span></span>](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-getmyroles)                  | <span data-ttu-id="5b74d-117">取得指定回應者伺服器上使用者的許可權角色存取遮罩。</span><span class="sxs-lookup"><span data-stu-id="5b74d-117">Gets the access mask of privilege roles for a user on a given responder server.</span></span>                                                                                                                                                                                           |
+| [<span data-ttu-id="5b74d-118">**GetSecurity**</span><span class="sxs-lookup"><span data-stu-id="5b74d-118">**GetSecurity**</span></span>](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-getsecurity)                       | <span data-ttu-id="5b74d-119">取得回應者伺服器的安全描述項資訊。</span><span class="sxs-lookup"><span data-stu-id="5b74d-119">Gets security descriptor information for a responder server.</span></span>                                                                                                                                                                                                              |
+| [<span data-ttu-id="5b74d-120">**GetSigningCertificates**</span><span class="sxs-lookup"><span data-stu-id="5b74d-120">**GetSigningCertificates**</span></span>](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-getsigningcertificates) | <span data-ttu-id="5b74d-121">取得指定 CA 憑證的回應者伺服器上可用的簽署憑證。</span><span class="sxs-lookup"><span data-stu-id="5b74d-121">Gets the signing certificates that are available on a responder server for a given CA certificate.</span></span>                                                                                                                                                                        |
+| [<span data-ttu-id="5b74d-122">**坪**</span><span class="sxs-lookup"><span data-stu-id="5b74d-122">**Ping**</span></span>](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-ping)                                     | <span data-ttu-id="5b74d-123">測試與回應者服務的 DCOM 連接。</span><span class="sxs-lookup"><span data-stu-id="5b74d-123">Tests a DCOM connection with a responder service.</span></span>                                                                                                                                                                                                                         |
+| [<span data-ttu-id="5b74d-124">**SetConfiguration**</span><span class="sxs-lookup"><span data-stu-id="5b74d-124">**SetConfiguration**</span></span>](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-setconfiguration)      | <span data-ttu-id="5b74d-125">更新具有設定變更的回應者服務。</span><span class="sxs-lookup"><span data-stu-id="5b74d-125">Updates a responder service with configuration changes.</span></span>                                                                                                                                                                                                                   |
+| [<span data-ttu-id="5b74d-126">**SetSecurity**</span><span class="sxs-lookup"><span data-stu-id="5b74d-126">**SetSecurity**</span></span>](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-setsecurity)                       | <span data-ttu-id="5b74d-127">更新 OCSP 回應程式伺服器的安全描述項資訊。</span><span class="sxs-lookup"><span data-stu-id="5b74d-127">Updates security descriptor information for an OCSP responder server.</span></span>                                                                                                                                                                                                     |
+
+
+
+ 
+
+ 
+
+ 
