@@ -33,14 +33,14 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104114440"
 ---
-# <a name="instanceparametersdbscanintervalmaxsec-property"></a><span data-ttu-id="fd3e1-103">InstanceParameters. DbScanIntervalMaxSec 屬性</span><span class="sxs-lookup"><span data-stu-id="fd3e1-103">InstanceParameters.DbScanIntervalMaxSec property</span></span>
+# <a name="instanceparametersdbscanintervalmaxsec-property"></a><span data-ttu-id="4abe0-103">InstanceParameters. DbScanIntervalMaxSec 屬性</span><span class="sxs-lookup"><span data-stu-id="4abe0-103">InstanceParameters.DbScanIntervalMaxSec property</span></span>
 
-<span data-ttu-id="fd3e1-104">取得或設定允許資料庫掃描完成的最大間隔（以秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="fd3e1-104">Gets or sets the maximum interval to allow the database scan to finish, in seconds.</span></span>
+<span data-ttu-id="4abe0-104">取得或設定允許資料庫掃描完成的最大間隔（以秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="4abe0-104">Gets or sets the maximum interval to allow the database scan to finish, in seconds.</span></span>
 
-<span data-ttu-id="fd3e1-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="fd3e1-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="fd3e1-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="fd3e1-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="4abe0-105">**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="4abe0-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="4abe0-106">**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。</span><span class="sxs-lookup"><span data-stu-id="4abe0-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fd3e1-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="fd3e1-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4abe0-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="4abe0-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -60,16 +60,16 @@ instance.DbScanIntervalMaxSec = value
 public int DbScanIntervalMaxSec { get; set; }
 ```
 
-#### <a name="property-value"></a><span data-ttu-id="fd3e1-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="fd3e1-108">Property value</span></span>
+#### <a name="property-value"></a><span data-ttu-id="4abe0-108">屬性值</span><span class="sxs-lookup"><span data-stu-id="4abe0-108">Property value</span></span>
 
-<span data-ttu-id="fd3e1-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="fd3e1-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
+<span data-ttu-id="4abe0-109">類型： [system.object](/dotnet/api/system.int32)</span><span class="sxs-lookup"><span data-stu-id="4abe0-109">Type: [System.Int32](/dotnet/api/system.int32)</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="fd3e1-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fd3e1-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4abe0-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4abe0-110">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="fd3e1-111">參考</span><span class="sxs-lookup"><span data-stu-id="fd3e1-111">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="4abe0-111">參考</span><span class="sxs-lookup"><span data-stu-id="4abe0-111">Reference</span></span>
 
-[<span data-ttu-id="fd3e1-112">InstanceParameters 類別</span><span class="sxs-lookup"><span data-stu-id="fd3e1-112">InstanceParameters class</span></span>](./instanceparameters-class.md)
+[<span data-ttu-id="4abe0-112">InstanceParameters 類別</span><span class="sxs-lookup"><span data-stu-id="4abe0-112">InstanceParameters class</span></span>](./instanceparameters-class.md)
 
-[<span data-ttu-id="fd3e1-113">InstanceParameters 成員</span><span class="sxs-lookup"><span data-stu-id="fd3e1-113">InstanceParameters members</span></span>](./instanceparameters-members.md)
+[<span data-ttu-id="4abe0-113">InstanceParameters 成員</span><span class="sxs-lookup"><span data-stu-id="4abe0-113">InstanceParameters members</span></span>](./instanceparameters-members.md)
 
-[<span data-ttu-id="fd3e1-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="fd3e1-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="4abe0-114">Microsoft. Esent 命名空間</span><span class="sxs-lookup"><span data-stu-id="4abe0-114">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
