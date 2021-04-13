@@ -1,0 +1,85 @@
+---
+description: 控制碼提供使用 ID3DXEffectCompiler 或 ID3DXEffect 參考技術、傳遞、注釋和參數的有效方式。
+ms.assetid: 2494ecf9-88a7-43dc-a75b-ed743b11993a
+title: '處理 (Direct3D 9) '
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d9e0dbbcbbc38685cae7c89b334bfb5458bc8386
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104510018"
+---
+# <a name="handles-direct3d-9"></a>處理 (Direct3D 9) 
+
+控制碼提供使用 [**ID3DXEffectCompiler**](id3dxeffectcompiler.md) 或 [**ID3DXEffect**](id3dxeffect.md)參考技術、傳遞、注釋和參數的有效方式。 當您呼叫表單 Get \[ 參數注釋函式 \| \| \| 技術 \| 傳遞 \] \[ ByName \| BySemantic \| \] 專案的函式時，就會動態產生它們。
+
+執行程式時，多次產生相同物件的控制碼，會每次都傳回相同的控制碼。 但是，當您多次執行程式時，請不要依賴控制碼保持不變。 另請注意， [**ID3DXEffect**](id3dxeffect.md) 和 [**ID3DXEffectCompiler**](id3dxeffectcompiler.md) 的不同實例所產生的控制碼將會不同。
+
+如果您看到標頭檔，您會發現 (D3DXHANDLEs) 的控制碼是以技術為字串指標。
+
+您傳遞至函式（例如 GetParameter \[ ByName \| 元素 \| BySemantic 或 GetAnnotation ByName）的控制碼 \] \[ \] 可以三種形式，如下所示：
+
+1.  函數所傳回的控制碼，例如 GetParameter \[ ByName \| Element \| BySemantic \] 。
+2.  字串，例如 MyVariableName、MyTechniqueName 或 MyArray \[ 0 \] 。
+3.  控制碼 = **Null**。 有四個案例。
+    -   如果它是方法傳回值，則方法無法找到控制碼。
+    -   如果傳入 **Null** 控制碼作為 GetParameter ByName 專案 BySemantic 的第一個 \[ 參數 \| ，函數會傳回 \| \] 最上層參數。 相反地，如果控制碼為非 **Null**，則函式會傳回由控制碼識別的結構成員或元素。
+    -   如果傳入 **Null** 控制碼做為 ValidateTechnique 的第一個引數或 IsParameterUsed 的第二個引數，則會驗證目前的技巧。
+    -   如果傳入 **Null** 控制碼做為 FindNextValidTechnique 的第一個引數，則搜尋有效的技巧會從效果的第一個技巧開始。
+
+效能提示：在您的應用程式開始時，執行初始化階段以從字串產生控制碼。 從該時間點開始，只使用控制碼。 傳遞字串而非產生的控制碼會變慢。
+
+## <a name="examples"></a>範例
+
+以下是使用 Get \[ 參數注釋函式 \| \| \| 技術 \| 傳遞 \] \[ ByName \| BySemantic 元素函 \| 式 \] 來產生控制碼的一些範例。
+
+
+```
+// Gets handle of second top-level parameter handle in the effect file
+h1 = GetParameter(NULL, 1);    
+
+// Gets handle of the third struct member of MyStruct
+h2 = GetParameter("MyStruct", 2); 
+
+// Gets handle of the third array element handle of MyArray
+h3 = GetParameterElement("MyArray", 2); 
+
+// Gets handle of first member of h1 (that is, the second top-level param)
+h4 = GetParameter(h1, 0);    
+
+// Gets handle of MyStruct.Data
+h5 = GetParameterByName("MyStruct", "Data");    
+// or 
+h6 = GetParameterByName(NULL, "MyStruct.Data");    
+
+// Gets handle of MyStruct.Data.SubData
+h7 = GetParameterByName("MyStruct.Data", "SubData"); 
+// or 
+h8 = GetParameterByName(NULL, "MyStruct.Data.SubData");
+
+// Gets handle of fifth annotation of h1 (that is, second top-level param)
+h9 = GetAnnotation(h1, 4);    
+
+// Gets handle of MyStruct's annotation, called Author
+h10 = GetAnnotationByName("MyStruct", "Author");  
+// or
+h11 = GetParameterByName(NULL, "MyStruct@Author"); 
+```
+
+
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[效果格式](dx9-graphics-reference-effects-file-format.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
