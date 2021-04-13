@@ -1,0 +1,35 @@
+---
+title: '連結屬性 (AD DS) '
+description: 連結的屬性是一組屬性，其中系統會根據另一個屬性上設定的值，在整個樹系中 (轉寄連結) ，來計算一個屬性的值 () 後置連結。
+ms.assetid: 31b7e8f5-e46d-4aff-9b17-c8dec7f19bae
+ms.tgt_platform: multiple
+keywords:
+- 連結的屬性廣告
+- 屬性 AD、連結
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: ee0e3f6706c797497fb1bb25ea82805385f9897e
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "104374928"
+---
+# <a name="linked-attributes-ad-ds"></a><span data-ttu-id="d6c5c-105">連結屬性 (AD DS) </span><span class="sxs-lookup"><span data-stu-id="d6c5c-105">Linked Attributes (AD DS)</span></span>
+
+<span data-ttu-id="d6c5c-106">連結的屬性是一組屬性，其中系統會根據另一個屬性上設定的值，在整個樹系中 (轉寄連結) ，來計算一個屬性的值 () 後置連結。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-106">Linked attributes are pairs of attributes in which the system calculates the values of one attribute (the back link) based on the values set on the other attribute (the forward link) throughout the forest.</span></span> <span data-ttu-id="d6c5c-107">任何物件實例上的後置連結值，都是由在對應的轉寄連結中設定物件之 DN 的所有物件的 DNs 所組成。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-107">A back-link value on any object instance consists of the DNs of all the objects that have the object's DN set in the corresponding forward link.</span></span> <span data-ttu-id="d6c5c-108">例如，「管理員」和「報表」是一組連結的屬性，其中經理是轉寄連結，而報表是「上一頁」連結。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-108">For example, "Manager" and "Reports" are a pair of linked attributes, where Manager is the forward link and Reports is the back link.</span></span> <span data-ttu-id="d6c5c-109">現在假設帳單是 Joe 的經理。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-109">Now suppose Bill is Joe's manager.</span></span> <span data-ttu-id="d6c5c-110">如果您將帳單的使用者物件的 DN 儲存在 Joe 的 user 物件的 "Manager" 屬性中，則 Joe 的 user 物件的 DN 會顯示在帳單的使用者物件的 "Reports" 屬性中。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-110">If you store the DN of Bill's user object in the "Manager" attribute of Joe's user object, then the DN of Joe's user object will show up in the "Reports" attribute of Bill's user object.</span></span>
+
+<span data-ttu-id="d6c5c-111">向前連結/後置連結配對是由兩個 [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema)定義的 [**linkID**](/windows/desktop/ADSchema/a-linkid)值所識別。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-111">A forward link/back link pair is identified by the [**linkID**](/windows/desktop/ADSchema/a-linkid) values of two [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) definitions.</span></span> <span data-ttu-id="d6c5c-112">轉寄連結的 **linkID** 是偶數、非零的值，而相關聯的上一頁連結的 **linkID** 則是轉寄 **linkID** 加1。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-112">The **linkID** of the forward link is an even, positive, nonzero value, and the **linkID** of the associated back link is the forward **linkID** plus one.</span></span> <span data-ttu-id="d6c5c-113">例如，"Manager" 的 **linkID** 是42，而 "Reports" 的 **linkID** 是43。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-113">For example, the **linkID** for "Manager" is 42 and the **linkID** for "Reports" is 43.</span></span>
+
+<span data-ttu-id="d6c5c-114">以下是定義一組新連結屬性的指導方針清單：</span><span class="sxs-lookup"><span data-stu-id="d6c5c-114">The following is a list of guidelines for defining a new pair of linked attributes:</span></span>
+
+-   <span data-ttu-id="d6c5c-115">[**LinkID**](/windows/desktop/ADSchema/a-linkid)值在所有 [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema)物件中都必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-115">The [**linkID**](/windows/desktop/ADSchema/a-linkid) values must be unique among all [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) objects.</span></span> <span data-ttu-id="d6c5c-116">若要避免衝突，您應該依照 [取得連結識別碼](obtaining-a-link-id.md)主題中的指示，自動產生 **linkID** 。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-116">To avoid conflicts, you should auto-generate the **linkID** by following the instructions in the topic [Obtaining a Link ID](obtaining-a-link-id.md).</span></span>
+-   <span data-ttu-id="d6c5c-117">[上一頁] 連結必須有對應的 [轉寄] 連結，也就是在建立對應的 [後置連結] 屬性之前，向前連結必須存在。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-117">A back link must have a corresponding forward link, that is, the forward link must exist before a corresponding back link attribute can be created.</span></span>
+-   <span data-ttu-id="d6c5c-118">後置連結一律是多值屬性。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-118">A back link is always a multi-valued attribute.</span></span> <span data-ttu-id="d6c5c-119">轉寄連結可以是單一值或多重值。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-119">A forward link can be single-valued or multi-valued.</span></span> <span data-ttu-id="d6c5c-120">如果有多對多關聯性，請使用多重值的向前連結。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-120">Use a multi-valued forward link when there is a many-to-many relationship.</span></span>
+-   <span data-ttu-id="d6c5c-121">轉寄連結的 [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) 值必須是2.5.5.1、2.5.5.7 或2.5.5.14。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-121">The [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) value of a forward link must be 2.5.5.1, 2.5.5.7, or 2.5.5.14.</span></span> <span data-ttu-id="d6c5c-122">這些值會對應至包含辨別名稱的語法，例如 [**(DS-DN)**](/windows/desktop/ADSchema/s-object-ds-dn) 語法的物件。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-122">These values correspond to syntaxes that contain a distinguished name, such as the [**Object(DS-DN)**](/windows/desktop/ADSchema/s-object-ds-dn) syntax.</span></span>
+-   <span data-ttu-id="d6c5c-123">後置連結的 [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) 值必須是2.5.5.1，也就是 [**(DS-DN)**](/windows/desktop/ADSchema/s-object-ds-dn) 語法的物件。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-123">The [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) value of a back link must be 2.5.5.1, which is the [**Object(DS-DN)**](/windows/desktop/ADSchema/s-object-ds-dn) syntax.</span></span>
+-   <span data-ttu-id="d6c5c-124">依照慣例，會將後置連結屬性新增至 [**最上層**](/windows/desktop/ADSchema/c-top)抽象類別的 [**mayContain**](/windows/desktop/ADSchema/a-maycontain)值。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-124">By convention, back link attributes are added to the [**mayContain**](/windows/desktop/ADSchema/a-maycontain) value of the [**top**](/windows/desktop/ADSchema/c-top) abstract class.</span></span> <span data-ttu-id="d6c5c-125">這可讓您從任何類別的物件讀取後置連結屬性，因為它們不會實際與物件一起儲存，而是根據轉寄連結值來計算。</span><span class="sxs-lookup"><span data-stu-id="d6c5c-125">This enables the back link attribute to be read from objects of any class because they are not actually stored with the object, but are calculated based on the forward link values.</span></span>
+
+ 
+
+ 
