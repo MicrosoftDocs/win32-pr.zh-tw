@@ -1,0 +1,415 @@
+---
+title: Win32_TSNetworkAdapterSetting 類別
+description: 定義 Win32 終端機類別的各種設定， \_ 包括與網路介面卡相關的屬性，以及允許的最大連接數目。
+ms.assetid: b8a757e6-801b-4349-902e-76596b06df1f
+ms.tgt_platform: multiple
+keywords:
+- Win32_TSNetworkAdapterSetting 類別遠端桌面服務
+- Win32_TSNetworkAdapterSetting 類別遠端桌面服務，描述
+topic_type:
+- apiref
+api_name:
+- Win32_TSNetworkAdapterSetting
+- Win32_TSNetworkAdapterSetting.Caption
+- Win32_TSNetworkAdapterSetting.Description
+- Win32_TSNetworkAdapterSetting.InstallDate
+- Win32_TSNetworkAdapterSetting.Name
+- Win32_TSNetworkAdapterSetting.Status
+- Win32_TSNetworkAdapterSetting.TerminalName
+- Win32_TSNetworkAdapterSetting.DeviceIDList
+- Win32_TSNetworkAdapterSetting.MaximumConnections
+- Win32_TSNetworkAdapterSetting.NetworkAdapterID
+- Win32_TSNetworkAdapterSetting.NetworkAdapterLanaID
+- Win32_TSNetworkAdapterSetting.NetworkAdapterList
+- Win32_TSNetworkAdapterSetting.NetworkAdapterName
+- Win32_TSNetworkAdapterSetting.PolicySourceMaximumConnections
+api_location:
+- TSCfgWmi.dll
+api_type:
+- DllExport
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 6f2f2f1ac7d6bf4b1fd3fb5f5a92fc4fd5260a92
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104465964"
+---
+# <a name="win32_tsnetworkadaptersetting-class"></a>Win32 \_ TSNetworkAdapterSetting 類別
+
+**Win32 \_ TSNetworkAdapterSetting** WMI 類別會定義 [**win32 \_ 終端**](win32-terminal.md)機類別的各種設定，包括與網路介面卡相關的屬性，以及允許的最大連接數目。
+
+下列語法簡化自 MOF 程式碼，並依字母順序包含所有定義和繼承的屬性。 如需方法的參考資訊，請參閱本主題稍後的方法表格。
+
+## <a name="syntax"></a>語法
+
+``` syntax
+[dynamic, provider("Win32_WIN32_TSNETWORKADAPTERSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
+class Win32_TSNetworkAdapterSetting : Win32_TerminalSetting
+{
+  string   Caption;
+  string   Description;
+  datetime InstallDate;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  string   DeviceIDList[];
+  uint32   MaximumConnections;
+  string   NetworkAdapterID;
+  uint32   NetworkAdapterLanaID;
+  string   NetworkAdapterList[];
+  string   NetworkAdapterName;
+  uint32   PolicySourceMaximumConnections;
+};
+```
+
+## <a name="members"></a>成員
+
+**Win32 \_ TSNetworkAdapterSetting** 類別具有下列類型的成員：
+
+-   [方法](#methods)
+-   [屬性](#properties)
+
+### <a name="methods"></a>方法
+
+**Win32 \_ TSNetworkAdapterSetting** 類別具有這些方法。
+
+
+
+| 方法                                                                                     | 描述                                                                                              |
+|:-------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|
+| [**SelectAllNetworkAdapters**](win32-tsnetworkadaptersetting-selectallnetworkadapters.md) | 選取所有網路介面卡。<br/>                                                                 |
+| [**SelectNetworkAdapterIP**](win32-tsnetworkadaptersetting-selectnetworkadapterip.md)     | 選取以介面卡的 IP 位址為基礎的網路介面卡。<br/>                                  |
+| [**SetNetworkAdapterLanaID**](setnetworkadapterlanaid-win32-tsnetworkadaptersetting.md)   | 指定要設定的網路介面卡 (LANA) 號碼的 NetBIOS 局域網路介面卡。<br/> |
+
+
+
+ 
+
+### <a name="properties"></a>屬性
+
+**Win32 \_ TSNetworkAdapterSetting** 類別具有這些屬性。
+
+<dl> <dt>
+
+**標題**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) 
+</dt> </dl>
+
+簡短描述 (物件的單行字串) 。
+
+這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。
+
+</dd> <dt>
+
+**說明**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+物件的描述。
+
+這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。
+
+</dd> <dt>
+
+**DeviceIDList**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+在 **NetworkAdapterList** 屬性陣列中傳回的實體網路介面卡順序傳回之可用裝置識別碼的字串陣列。 裝置識別碼值是 [**Win32 \_ NetworkAdapter**](/windows/desktop/CIMWin32Prov/win32-networkadapter)中的 **DeviceID** 屬性
+
+</dd> <dt>
+
+**InstallDate**
+</dt> <dd> <dl> <dt>
+
+資料類型： **datetime**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： [**Mappingstrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 元件 \| 001.5 ") 
+</dt> </dl>
+
+物件的安裝日期。 缺少值並不表示物件未安裝。
+
+這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。
+
+</dd> <dt>
+
+**MaximumConnections**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：讀取/寫入
+</dt> </dl>
+
+允許的最大連接數目。 值 **MAXINT** 代表不限數目的連接。
+
+</dd> <dt>
+
+**名稱**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+物件的名稱。
+
+這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。
+
+</dd> <dt>
+
+**NetworkAdapterID**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+GUID，代表要設定之網路介面卡的識別碼。 由所有零組成的 **GUID** 表示所有網路介面卡。
+
+</dd> <dt>
+
+**NetworkAdapterLanaID**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+NetBIOS 局域網路介面卡 (LANA) 用來識別指派給終端機之網路介面卡的網路介面卡編號。
+
+</dd> <dt>
+
+**NetworkAdapterList**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+可用實體網路介面卡的字串陣列和對應的裝置識別碼。 裝置識別碼是 [**Win32 \_ NetworkAdapter**](/windows/desktop/CIMWin32Prov/win32-networkadapter)中的 **DeviceID** 屬性。
+
+</dd> <dt>
+
+**NetworkAdapterName**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+要設定之網路介面卡的描述。 此值位於 [**Win32 \_ >networkadapterconfiguration**](/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration)中。
+
+</dd> <dt>
+
+**PolicySourceMaximumConnections**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+指出 **MaximumConnections** 屬性是由伺服器、群組原則或預設設定。
+
+<dt>
+
+0
+</dt> <dd>
+
+伺服器
+
+</dd> <dt>
+
+1
+</dt> <dd>
+
+群組原則
+
+</dd> <dt>
+
+2
+</dt> <dd>
+
+預設
+
+</dd> </dl>
+
+</dd> <dt>
+
+**狀態**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞： [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10) 
+</dt> </dl>
+
+物件的目前狀態。 您可以定義各種操作和 nonoperational 狀態。 作業狀態包括：「正常」、「降級」和「Pred 失敗」 (元素（例如啟用智慧的硬碟）可能會正常運作，但在不久的未來) 中預測失敗。 Nonoperational 狀態包括：「錯誤」、「開始」、「正在停止」和「服務」。 後者（「服務」）可以在磁片的鏡像重新同步處理期間套用，重載使用者權限清單或其他系統管理工作。 並非所有這類工作都是線上的，但受管理的元素並不是「確定」，也不是其中一個其他狀態。
+
+這個屬性繼承自 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md)。
+
+<dt>
+
+
+
+  ( [確定] ) 
+
+
+</dt> <dd></dd> <dt>
+
+
+
+  ( 「錯誤」 ) 
+
+
+</dt> <dd></dd> <dt>
+
+
+
+  ( 「降級」 ) 
+
+
+</dt> <dd></dd> <dt>
+
+
+
+  ( 「未知」 ) 
+
+
+</dt> <dd></dd> <dt>
+
+
+
+  ( 「Pred 失敗」 ) 
+
+
+</dt> <dd></dd> <dt>
+
+
+
+  ( 「開始」 ) 
+
+
+</dt> <dd></dd> <dt>
+
+
+
+  ( 「正在停止」 ) 
+
+
+</dt> <dd></dd> <dt>
+
+
+
+  ( "Service" ) 
+
+
+</dt> <dd></dd> </dl>
+
+</dd> <dt>
+
+**TerminalName**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+終端機的名稱。
+
+這個屬性繼承自 [**Win32 \_ TerminalSetting**](win32-terminalsetting.md)。
+
+</dd> </dl>
+
+## <a name="remarks"></a>備註
+
+請注意，與主控台會話相關聯的 Winstations 無法存取此類別的方法和屬性。 如果嘗試將 "Console" 指定為 TerminalName 屬性的值，則此物件的方法會傳回 **\_ \_ 不 \_ 支援的 WBEM E**。 如果視窗工作站嘗試呼叫此物件的方法來新增或修改 LocalSystem、LocalService 或 NetworkService 帳戶的安全性屬性，也會傳回此錯誤碼。
+
+若要連接到「根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway」命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic Scripting Edition (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
+
+
+```VB
+strComputer = "RemoteServer1" 
+Set objServices = GetObject( _
+    "winmgmts:{authenticationLevel=pktPrivacy}!Root/CIMv2/TerminalServices")
+```
+
+
+
+受控物件格式 (MOF) 檔包含 Windows Management Instrumentation (WMI) 類別的定義。 MOF 檔案不會安裝為 Microsoft Windows 軟體開發套件 (SDK) 的一部分。 當您使用伺服器管理員新增相關聯的角色時，它們會安裝在伺服器上。 如需 MOF 檔案的詳細資訊，請參閱 [受控物件格式 (mof) ](/windows/desktop/WmiSdk/managed-object-format--mof-)。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
+| 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
+| 命名空間<br/>                | 根 \\ CIMv2 \\ microsoft-windows-terminalservices-gateway<br/>                                                |
+| MOF<br/>                      | <dl> <dt>TSCfgWmi mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**Win32 \_ NetworkAdapter**](/windows/desktop/CIMWin32Prov/win32-networkadapter)
+</dt> <dt>
+
+[**Win32 \_ >networkadapterconfiguration**](/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration)
+</dt> <dt>
+
+[**Win32 \_ TerminalSetting**](win32-terminalsetting.md)
+</dt> <dt>
+
+[**Win32 \_ TSNetworkAdapterListSetting**](win32-tsnetworkadapterlistsetting.md)
+</dt> </dl>
+
+ 
+
