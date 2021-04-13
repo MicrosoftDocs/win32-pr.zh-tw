@@ -1,0 +1,127 @@
+---
+title: 在 Firefox 所顯示的網頁中處理事件
+description: 在 Firefox 所顯示的網頁中處理事件
+ms.assetid: 361c46ff-36e2-4497-a511-86b0439e9437
+keywords:
+- Windows Media Player 嵌入 ActiveX 控制項
+- Windows Media Player 物件模型，嵌入 ActiveX 控制項
+- 物件模型，嵌入 ActiveX 控制項
+- Windows Media Player 行動裝置，內嵌 ActiveX 控制項
+- Windows Media Player ActiveX 控制項，內嵌
+- Windows Media Player 的行動 ActiveX 控制項，內嵌
+- ActiveX 控制項，嵌入
+- Windows Media Player ActiveX 控制項、網頁
+- Windows Media Player 的行動 ActiveX 控制項、網頁
+- ActiveX 控制項，網頁
+- Windows Media Player 的 ActiveX 控制項，事件處理
+- Windows Media Player 的行動 ActiveX 控制項、事件處理
+- ActiveX 控制項，事件處理
+- 內嵌、網頁
+- 網頁嵌入、事件處理
+- Windows Media Player，Firefox
+- Windows Media Player 物件模型，Firefox
+- 物件模型，Firefox
+- Windows Media Player Mobile、Firefox
+- Windows Media Player ActiveX 控制項，Firefox
+- Windows Media Player Mobile ActiveX 控制項，Firefox
+- ActiveX 控制項、Firefox
+- Firefox，事件處理
+- 網頁內嵌、Firefox
+- 事件，Firefox
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 7b9659d1920ffc4d5e39f4cd44e15e24b08f6ddc
+ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "104311685"
+---
+# <a name="handling-events-in-a-web-page-displayed-by-firefox"></a><span data-ttu-id="8ebab-128">在 Firefox 所顯示的網頁中處理事件</span><span class="sxs-lookup"><span data-stu-id="8ebab-128">Handling Events in a Web Page Displayed by Firefox</span></span>
+
+<span data-ttu-id="8ebab-129">當您在網頁中內嵌 Windows Media Player 控制項時，您可以撰寫腳本來處理事件。</span><span class="sxs-lookup"><span data-stu-id="8ebab-129">When you embed the Windows Media Player control in a webpage, you can write script that handles events.</span></span> <span data-ttu-id="8ebab-130">如需播放程式控制項所引發的事件清單，請參閱 [Player 物件](player-object.md)。</span><span class="sxs-lookup"><span data-stu-id="8ebab-130">For a list of events raised by the Player control, see [Player Object](player-object.md).</span></span>
+
+<span data-ttu-id="8ebab-131">如果與內嵌播放機控制項相關聯的 mime 類型為 application/x-------您可以撰寫具有下列格式的事件處理常式：</span><span class="sxs-lookup"><span data-stu-id="8ebab-131">If the mime type associated with an embedded Player control is application/x-ms-wmp, you can write event handlers that have the following format:</span></span>
+
+
+```HTML
+<SCRIPT for="Player" language="jscript" event="EventName(Params)">
+  ...
+</SCRIPT>
+```
+
+
+
+<span data-ttu-id="8ebab-132">其中 *，事件名稱* 是 Windows Media Player 事件的名稱，而 *Params* 是事件的參數清單。</span><span class="sxs-lookup"><span data-stu-id="8ebab-132">where *EventName* is the name of a Windows Media Player event, and *Params* is a list of the event's parameters.</span></span> <span data-ttu-id="8ebab-133">例如，下列程式碼具有 [PlayStateChange](player-player-playstatechange.md) 事件的處理常式。</span><span class="sxs-lookup"><span data-stu-id="8ebab-133">For example, the following code has a handler for the [PlayStateChange](player-player-playstatechange.md) event.</span></span>
+
+
+```HTML
+<OBJECT id="Player" type="application/x-ms-wmp" width="300" height="200">
+  <PARAM name="URL" value="c:\MediaFiles\Seattle.wmv"/>
+</OBJECT>
+
+<P id="p1">...</P>
+
+<SCRIPT for="Player" event="PlayStateChange(NewState)">
+  document.getElementById("p1").innerHTML = "Play state: " + NewState;
+</SCRIPT>
+```
+
+
+
+<span data-ttu-id="8ebab-134">如果網頁上有數個 Player 控制項的實例，而且您使用上述範例所示的格式，則每個事件處理常式都會系結至播放機控制項的特定實例。</span><span class="sxs-lookup"><span data-stu-id="8ebab-134">If you have several instances of the Player control on a webpage and if you use the format shown in the preceeding example, then each event handler is tied to a specific instance of the Player control.</span></span> <span data-ttu-id="8ebab-135">在前面的範例中，只有當 id = "Player" 的控制項播放狀態變更時，才會呼叫事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="8ebab-135">In the preceeding example, the event handler is called only when the play state changes for the control that has id="Player".</span></span>
+
+<span data-ttu-id="8ebab-136">如果與內嵌播放機控制項相關聯的 mime 類型不是 application/x-ms-chap，您可以撰寫具有下列格式的事件處理常式：</span><span class="sxs-lookup"><span data-stu-id="8ebab-136">If the mime type associated with an embedded Player control is not application/x-ms-wmp, you can write event handlers that have the following format:</span></span>
+
+
+```HTML
+<SCRIPT language="jscript">
+  function OnDSEventNameEvt(Params)
+  {...}
+</SCRIPT>
+```
+
+
+
+<span data-ttu-id="8ebab-137">其中 *，事件名稱* 是 Windows Media Player 事件的名稱，而 *Params* 是事件的參數清單。</span><span class="sxs-lookup"><span data-stu-id="8ebab-137">where *EventName* is the name of a Windows Media Player event, and *Params* is a list of the event's parameters.</span></span> <span data-ttu-id="8ebab-138">例如，下列程式碼具有 **PlayStateChange** 事件的處理常式。</span><span class="sxs-lookup"><span data-stu-id="8ebab-138">For example, the following code has a handler for the **PlayStateChange** event.</span></span>
+
+
+```HTML
+<OBJECT id="Player" type="application/asx" width="300" height="200">
+  <PARAM name="URL" value="c:\MediaFiles\Test.asx"/>
+</OBJECT>
+
+<P id="p1">...</P>
+
+<SCRIPT>
+  function OnDSPlayStateChangeEvt(NewState)
+  {
+    p1.innerHTML = "Play state: " + NewState;
+  }
+</SCRIPT>
+
+```
+
+
+
+<span data-ttu-id="8ebab-139">如果網頁上有數個 Player 控制項的實例，而且您使用上述範例中所示的格式，則每個事件處理常式都會系結至播放機控制項的所有實例，並在頁面上的任何播放機控制項播放狀態變更時呼叫事件處理常式。</span><span class="sxs-lookup"><span data-stu-id="8ebab-139">If you have several instances of the Player control on a webpage and if you use the format shown in the preceeding example, then each event handler is tied to all instances of the Player control and the event handler is called when the play state changes for any Player control on the page.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="8ebab-140">如果 mime 類型不是 application/x-ms-chap， **DoubleClick** 事件就會傳送為 OnDSDblClickEvt (not OnDSDoubleClickEvt) ，以與 Player 控制項6.4 版相容。</span><span class="sxs-lookup"><span data-stu-id="8ebab-140">If the mime type is not application/x-ms-wmp, the **DoubleClick** event is sent as OnDSDblClickEvt (not OnDSDoubleClickEvt) for compatibility with version 6.4 of the Player control.</span></span>
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="8ebab-141">相關主題</span><span class="sxs-lookup"><span data-stu-id="8ebab-141">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="8ebab-142">**搭配 Firefox 使用 Windows Media Player 控制項**</span><span class="sxs-lookup"><span data-stu-id="8ebab-142">**Using the Windows Media Player Control with Firefox**</span></span>](using-the-windows-media-player-control-with-firefox.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
