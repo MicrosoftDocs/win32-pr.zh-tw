@@ -1,0 +1,140 @@
+---
+title: '如何確保您的應用程式在高 DPI 顯示器上正確顯示 (DirectWrite) '
+description: 描述如何建立在高 DPI 顯示器上適當顯示的視窗。
+ms.assetid: d174a337-c98e-46c7-86d2-c208900882d1
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 317eb3379963cec600ab9bac7deb3778f0874e59
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104315718"
+---
+# <a name="how-to-ensure-that-your-application-displays-properly-on-high-dpi-displays"></a><span data-ttu-id="14d14-103">如何確保您的應用程式在高 DPI 顯示器上正確顯示</span><span class="sxs-lookup"><span data-stu-id="14d14-103">How to Ensure That Your Application Displays Properly on High-DPI Displays</span></span>
+
+<span data-ttu-id="14d14-104">雖然 [DirectWrite](direct-write-portal.md) 能為您解決許多高 DPI 問題，但您應該採取兩個步驟，以確保應用程式在高 DPI 顯示器上正常運作：</span><span class="sxs-lookup"><span data-stu-id="14d14-104">Although [DirectWrite](direct-write-portal.md) addresses many high-DPI issues for you, there are two steps you should take to ensure that your application works properly on high-DPI displays:</span></span>
+
+-   [<span data-ttu-id="14d14-105">步驟1：建立 Windows 時使用系統 DPI</span><span class="sxs-lookup"><span data-stu-id="14d14-105">Step 1: Use the System DPI When Creating Windows</span></span>](#step-1-use-the-system-dpi-when-creating-windows)
+    -   [<span data-ttu-id="14d14-106">Direct2D</span><span class="sxs-lookup"><span data-stu-id="14d14-106">Direct2D</span></span>](#direct2d)
+    -   [<span data-ttu-id="14d14-107">GDI</span><span class="sxs-lookup"><span data-stu-id="14d14-107">GDI</span></span>](#gdi)
+-   [<span data-ttu-id="14d14-108">步驟2：宣告應用程式為 DPI 感知</span><span class="sxs-lookup"><span data-stu-id="14d14-108">Step 2: Declare That the Application is DPI-Aware</span></span>](#step-2-declare-that-the-application-is-dpi-aware)
+-   [<span data-ttu-id="14d14-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="14d14-109">Related topics</span></span>](#related-topics)
+
+## <a name="step-1-use-the-system-dpi-when-creating-windows"></a><span data-ttu-id="14d14-110">步驟1：建立 Windows 時使用系統 DPI</span><span class="sxs-lookup"><span data-stu-id="14d14-110">Step 1: Use the System DPI When Creating Windows</span></span>
+
+<span data-ttu-id="14d14-111">這可以透過使用 [Direct2D](../direct2d/direct2d-portal.md) 或使用 [GDI](../gdi/windows-gdi.md)來完成。</span><span class="sxs-lookup"><span data-stu-id="14d14-111">This can be done by using [Direct2D](../direct2d/direct2d-portal.md) or by using [GDI](../gdi/windows-gdi.md).</span></span>
+
+### <a name="direct2d"></a><span data-ttu-id="14d14-112">Direct2D</span><span class="sxs-lookup"><span data-stu-id="14d14-112">Direct2D</span></span>
+
+<span data-ttu-id="14d14-113">[**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)介面提供用來取得系統 DPI 的 [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi)方法。</span><span class="sxs-lookup"><span data-stu-id="14d14-113">The [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) interface provides the [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method for retrieving the system DPI.</span></span> <span data-ttu-id="14d14-114">它會以每英寸的點（DPI)  (DPI）提供顯示的水準和垂直尺寸。</span><span class="sxs-lookup"><span data-stu-id="14d14-114">It provides the horizontal and vertical dimensions of the display in dots per inch (DPI).</span></span> <span data-ttu-id="14d14-115">若要使用這些值來設定視窗的寬度，請使用下列公式：</span><span class="sxs-lookup"><span data-stu-id="14d14-115">To use these values to set the width of a window, use the following formula:</span></span>
+
+<span data-ttu-id="14d14-116"><*水準* >  \* DPI  <*寬度*（以圖元為單位）>/<*預設水準 DPI*></span><span class="sxs-lookup"><span data-stu-id="14d14-116"><*horizontal DPI*> \* <*width*, in pixels> / <*default horizontal DPI*></span></span>
+
+<span data-ttu-id="14d14-117">...其中， *水準 DPI* 是 GetDpi 所擷取的值，而 *預設的水準 DPI* 為96。</span><span class="sxs-lookup"><span data-stu-id="14d14-117">...where *horizontal DPI* is the value retrived by GetDpi and *default horizontal DPI* is 96.</span></span> <span data-ttu-id="14d14-118">公式類似于垂直大小：</span><span class="sxs-lookup"><span data-stu-id="14d14-118">The formula is similar for the vertical size:</span></span>
+
+<span data-ttu-id="14d14-119"><*垂直* >  \* DPI  <*高度*（以圖元為單位）>/<*預設垂直 DPI*></span><span class="sxs-lookup"><span data-stu-id="14d14-119"><*vertical DPI*> \* <*height*, in pixels> / <*default vertical DPI*></span></span>
+
+<span data-ttu-id="14d14-120">...其中， *垂直 DPI* 是 [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) 方法所抓取的值，而 *預設的垂直 DPI* 為96。</span><span class="sxs-lookup"><span data-stu-id="14d14-120">...where *vertical DPI* is the value retrieved by the [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method and *default vertical DPI* is 96.</span></span>
+
+<span data-ttu-id="14d14-121">下列程式碼會使用 [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) 方法來建立 640 x 480 視窗，並調整為系統 DPI。</span><span class="sxs-lookup"><span data-stu-id="14d14-121">The following code uses the [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method to create a 640 x 480 window, scaled to the system DPI.</span></span> <span data-ttu-id="14d14-122"> (在下列程式碼中， *m \_ SpD2DFactory* 是 [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) 實例的智慧型指標。 ) </span><span class="sxs-lookup"><span data-stu-id="14d14-122">(In the following code, *m\_spD2DFactory* is a smart pointer to an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) instance.)</span></span>
+
+
+```C++
+        // Because the CreateWindow function takes its size in pixels,
+        // obtain the system DPI and use it to scale the window size.
+        FLOAT dpiX, dpiY;
+
+        // The factory returns the current system DPI. This is also the value it will use
+        // to create its own windows.
+        m_pDirect2dFactory->GetDesktopDpi(&dpiX, &dpiY);
+
+
+        // Create the window.
+        m_hwnd = CreateWindow(
+            L"D2DDemoApp",
+            L"Direct2D Demo App",
+            WS_OVERLAPPEDWINDOW,
+            CW_USEDEFAULT,
+            CW_USEDEFAULT,
+            static_cast<UINT>(ceil(640.f * dpiX / 96.f)),
+            static_cast<UINT>(ceil(480.f * dpiY / 96.f)),
+            NULL,
+            NULL,
+            HINST_THISCOMPONENT,
+            this
+            );
+```
+
+
+
+### <a name="gdi"></a><span data-ttu-id="14d14-123">GDI</span><span class="sxs-lookup"><span data-stu-id="14d14-123">GDI</span></span>
+
+<span data-ttu-id="14d14-124">[GDI](interoperating-with-gdi.md) 提供用來抓取裝置資訊的 [**GetDeviceCaps**](/windows/win32/api/wingdi/nf-wingdi-getdevicecaps) 函式。</span><span class="sxs-lookup"><span data-stu-id="14d14-124">[GDI](interoperating-with-gdi.md) provides the [**GetDeviceCaps**](/windows/win32/api/wingdi/nf-wingdi-getdevicecaps) function for retrieving device information.</span></span> <span data-ttu-id="14d14-125">您可以藉由傳遞 *LOGPIXELSX* 和 *LOGPIXELSY* 索引值來取出 DPI 資訊。</span><span class="sxs-lookup"><span data-stu-id="14d14-125">You can retrieve DPI information by passing the *LOGPIXELSX* and *LOGPIXELSY* index values.</span></span> <span data-ttu-id="14d14-126">判斷視窗水準和垂直大小的公式與上述的 [Direct2D](../direct2d/direct2d-portal.md) 範例相同。</span><span class="sxs-lookup"><span data-stu-id="14d14-126">The formula for determining the horizontal and vertical size of a window is the same as with the [Direct2D](../direct2d/direct2d-portal.md) example above.</span></span>
+
+<span data-ttu-id="14d14-127">下列程式碼會使用 [**GetDeviceCaps**](/windows/win32/api/wingdi/nf-wingdi-getdevicecaps) 函式來建立 640 x 480 視窗，並調整為系統 DPI。</span><span class="sxs-lookup"><span data-stu-id="14d14-127">The following code uses the [**GetDeviceCaps**](/windows/win32/api/wingdi/nf-wingdi-getdevicecaps) function to create a 640 x 480 window, scaled to the system DPI.</span></span>
+
+
+```C++
+FLOAT dpiX, dpiY;
+
+HDC screen = GetDC(0);
+dpiX = static_cast<FLOAT>(GetDeviceCaps(screen, LOGPIXELSX));
+dpiY = static_cast<FLOAT>(GetDeviceCaps(screen, LOGPIXELSY));
+ReleaseDC(0, screen);
+
+hWnd = CreateWindow(
+         TEXT("DirectWriteApp"),
+         TEXT("DirectWrite Demo App"),
+         WS_OVERLAPPEDWINDOW,
+         CW_USEDEFAULT,
+         CW_USEDEFAULT,
+         static_cast<INT>(dpiX * 640.f / 96.f),
+         static_cast<INT>(dpiY * 480.f / 96.f),
+         NULL,
+         NULL,
+         hInstance,
+         NULL
+         );
+```
+
+
+
+## <a name="step-2-declare-that-the-application-is-dpi-aware"></a><span data-ttu-id="14d14-128">步驟2：宣告應用程式是 DPI-Aware</span><span class="sxs-lookup"><span data-stu-id="14d14-128">Step 2: Declare That the Application is DPI-Aware</span></span>
+
+<span data-ttu-id="14d14-129">當應用程式宣告本身為 DPI 感知時，它會指定應用程式在 DPI 設定上的運作方式，最高可達 200 DPI。</span><span class="sxs-lookup"><span data-stu-id="14d14-129">When an application declares itself to be DPI-aware, it is a statement specifying that the application behaves well at DPI settings up to 200 DPI.</span></span> <span data-ttu-id="14d14-130">在 Windows Vista 和 Windows 7 中，啟用 DPI 虛擬化時，不會調整非 DPI 感知的應用程式，而應用程式會從系統 Api （例如 [**GetSystemMetric**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) 函式）接收虛擬化資料。</span><span class="sxs-lookup"><span data-stu-id="14d14-130">In Windows Vista and Windows 7, when DPI virtualization is enabled, applications that are not DPI-aware are scaled, and applications receive virtualized data from the system APIs, such as the [**GetSystemMetric**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) function.</span></span> <span data-ttu-id="14d14-131">若要宣告您的應用程式為 DPI 感知，請完成下列步驟。</span><span class="sxs-lookup"><span data-stu-id="14d14-131">To declare that your application is DPI-aware, complete the following steps.</span></span>
+
+1.  <span data-ttu-id="14d14-132">建立名為 DeclareDPIAware 的檔案。</span><span class="sxs-lookup"><span data-stu-id="14d14-132">Create a file called DeclareDPIAware.manifest.</span></span>
+2.  <span data-ttu-id="14d14-133">將下列 xml 複製到檔案中，並加以儲存：</span><span class="sxs-lookup"><span data-stu-id="14d14-133">Copy the following xml into the file and save it:</span></span>
+    ```C++
+    <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+      <asmv3:application>
+        <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+          <dpiAware>true</dpiAware>
+        </asmv3:windowsSettings>
+      </asmv3:application>
+    </assembly>
+    ```
+
+    
+
+3.  <span data-ttu-id="14d14-134">在專案的 vcproj 檔案中，于 VisualStudioProject/Configuration 下的每個設定元素內新增下列專案：</span><span class="sxs-lookup"><span data-stu-id="14d14-134">In the project's .vcproj file, add the following entry inside each Configuration element under VisualStudioProject/Configurations:</span></span>
+    ```C++
+    <Tool
+        Name="VCManifestTool"
+        AdditionalManifestFiles="DeclareDPIAware.manifest"
+    />
+    ```
+
+    
+
+## <a name="related-topics"></a><span data-ttu-id="14d14-135">相關主題</span><span class="sxs-lookup"><span data-stu-id="14d14-135">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="14d14-136">Direct2D 和高 DPI</span><span class="sxs-lookup"><span data-stu-id="14d14-136">Direct2D and High-DPI</span></span>](../direct2d/direct2d-and-high-dpi.md)
+</dt> </dl>
+
+ 
+
+ 
