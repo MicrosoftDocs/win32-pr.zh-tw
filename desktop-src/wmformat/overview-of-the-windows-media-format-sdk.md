@@ -1,0 +1,63 @@
+---
+title: Windows Media Format SDK 總覽
+description: Windows Media Format SDK 總覽
+ms.assetid: 9e5d6254-6261-4ca8-84d6-38050c93db22
+keywords:
+- Windows Media Format SDK、ASF 檔案建立和編輯
+- Advanced Systems Format (ASF) 、檔案建立和編輯
+- ASF (Advanced 系統格式) 、檔案建立和編輯
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: eb4f58be5d377e44fc0f68c89ad580a554902c58
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104300248"
+---
+# <a name="overview-of-the-windows-media-format-sdk"></a>Windows Media Format SDK 總覽
+
+Windows Media Format SDK 包含物件，可在 ASF 檔案的存留期內的三個點執行工作：建立、編輯和播放。 某些應用程式（尤其是影片編輯的應用程式）會使用 Windows Media Format SDK 的廣泛功能來讀取 ASF 檔案的內容、改變該內容，並將結果寫入至新檔案。 不過，在建立、編輯和播放檔案的三個階段中，最簡單的方式是將此 SDK 視為最簡單的方法。
+
+## <a name="asf-file-creation-with-the-windows-media-format-sdk"></a>使用 Windows Media Format SDK 建立 ASF 檔案
+
+以 Windows Media Format SDK 撰寫 ASF 檔案的程式，在高階的過程中相當簡單。 檔案建立是由寫入器物件所管理。 您可以藉由指定要使用的設定檔物件，告訴寫入器物件您想要建立哪一種類型的檔案。 每個設定檔物件都包含一個 ASF 檔案的設定。 部分設定檔包含在此 SDK 中，而設定檔編輯支援是由許多物件提供。 當您設定要使用之寫入器物件的設定檔時，您可以開始將範例傳遞給寫入器進行處理。 在大部分的情況下，範例是一段未壓縮的音訊或影片，但範例可以是任何類型的資料。
+
+就內部而言，寫入器會執行三項主要工作。 首先，如果要壓縮範例所屬的資料流程，寫入器會與編解碼器 (壓縮程式) 的編碼部分進行通訊，以壓縮範例。 一旦範例的格式為設定檔所指定，寫入器就會將範例分成適當大小的封包，以透過網路進行串流處理。 最後，來自不同資料流程的資料會進行多工處理，或交錯，讓所有串流中具有類似呈現時間的樣本在 ASF 檔案的資料區段中接近另一個。
+
+寫入器物件不會實際寫入檔案本身。 它會與一個或多個稱為接收器的物件進行通訊，這會將資料從寫入器傳遞至其目的地。 在本機檔案的案例中，檔案接收會管理將資料寫入檔案的程式。 您也可以設定網路接收器，以在網路上傳遞 ASF 資料。 通常會使用一個以上的接收。 例如，應用程式可以跨網路串流檔案，並同時將複本儲存為本機磁片上的檔案。 藉由使用推播接收，您可以將寫入應用程式中的內容廣播到一或多部執行 Windows Media Services 的伺服器，然後將內容發佈給使用者。
+
+## <a name="asf-file-editing-with-the-windows-media-format-sdk-metadata-editing"></a>使用 Windows Media Format SDK 進行 ASF 檔案編輯 (中繼資料編輯) 
+
+編輯 ASF 檔案的 [資料] 區段內容包含重寫檔案。 Windows Media Format SDK 不提供任何會就地運算元據區段的物件。 針對簡單的編輯（例如串連兩個檔案，或從檔案中剪下內容），您可以在不解壓縮範例的情況下讀取範例，然後使用相同的標頭資訊將它們寫入至新檔案。 更複雜的編輯牽涉到變更用於新檔案的設定檔。
+
+Windows Media Format SDK 支援編輯部分的標頭區段，而不需要重寫檔案。 ASF 檔案的標頭包含許多不同類型的資料。 最常見的編輯是中繼資料屬性，其為名稱/值組，用來描述內容的各個層面，以及進行相關的人員。 您可以使用 Windows Media 格式 SDK 的中繼資料編輯器物件來編輯中繼資料。 這個物件會開啟一個 ASF 檔案，讓您變更標頭的部分內容、將變更寫入檔案，然後關閉檔案。 中繼資料編輯非常簡單，只需要簡單的方法呼叫來取得和設定值。
+
+## <a name="asf-file-reading-with-the-windows-media-format-sdk"></a>使用 Windows Media Format SDK 讀取的 ASF 檔案
+
+Windows Media Format SDK 提供兩個不同的物件來讀取 ASF 檔案： reader 物件和同步讀取器物件。 讀取器物件可在所有版本的 SDK 中使用，而同步讀取器物件需要 Windows Media Format 9 系列 SDK 或更新版本。 兩者之間的主要差異在於，讀取器物件會藉由將事件引發至回呼方法，將範例傳遞給您的應用程式，而同步讀取器會提供個別的範例來回應方法呼叫。
+
+若要使用 reader 物件，您必須執行數個回呼方法，以回應讀取器物件的狀態和範例訊息。 您可以設定讀取器來依您的需要傳遞內容、啟動讀取器，並等候範例訊息。 從 ASF 檔案抓取樣本的程式基本上是撰寫程式的反向處理。 讀取器物件會與解碼任何壓縮資料流程所需的編解碼器進行通訊，並將未壓縮的資料傳遞至您的應用程式。 您也可以將 reader 物件設定為以其壓縮狀態傳遞範例，讓您可以在新的檔案中包含先前編碼的資料流程。
+
+同步讀取器物件的運作方式與讀取器物件的方式大致相同。 但是，您必須個別向同步讀取器要求每個範例，而不是設定回呼。 使用同步讀取器只需要一個執行緒，而使用讀取器需要多個執行緒。 在某些情況下，同步讀取器物件有幾個優點，大部分是針對需要快速存取檔案的不同部分，並在檔案之間複製資料的內容編輯應用程式。 同步讀取器物件更容易使用，並可讓您輕鬆地搜尋 data 區段中的特定位置。 但是，同步讀取器不支援透過網路讀取檔案，也不支援數位版權管理。
+
+## <a name="other-operations-with-the-windows-media-format-sdk"></a>Windows Media Format SDK 的其他作業
+
+除了上述三個主要功能區之外，Windows Media Format SDK 還具有可執行其他與 ASF 檔案相關之作業的物件。 配置檔案管理員物件是用來建立和存取設定檔，並加以儲存。 索引子物件會在 ASF 檔案中建立索引物件，以允許在影片檔案中搜尋。 最後，reader 物件和寫入器物件支援數位版權管理，以保護內容建立者的智慧權利。
+
+**注意** ASF 檔案結構和這個 SDK 的目的，通常是要產生包含音訊和影片的數位媒體檔案，而且這份檔是以這一段結束的方式撰寫的。 不過，ASF 檔案結構也適用于其他類型的內容。 您可能會發現許多與音訊和影片無關的 ASF 檔案應用程式。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[**關於 Windows Media Format SDK**](about-the-windows-media-format-sdk.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
