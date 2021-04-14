@@ -1,0 +1,168 @@
+---
+title: 工作排程器架構元素
+description: 此處所列的元素是由工作排程器架構所定義。 讀取或寫入工作的 XML 時，會使用這些元素。
+ms.assetid: a4c983fd-ded8-47ad-830e-b7c9907b778f
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 1a78b277de7fb96782a562ca6fa7458bce417e4a
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104371819"
+---
+# <a name="task-scheduler-schema-elements"></a>工作排程器架構元素
+
+此處所列的元素是由工作排程器架構所定義。 讀取或寫入工作的 XML 時，會使用這些元素。
+
+本節中的主題包含元素的描述;在 XSD 中的定義方式，以及所有相關父系、子系和屬性的相關資訊。
+
+-   [**動作 (taskType)**](taskschedulerschema-actions-tasktype-element.md)
+-   [**AllowHardTerminate (settingsType)**](taskschedulerschema-allowhardterminate-settingstype-element.md)
+-   [**AllowStartOnDemand (settingsType)**](taskschedulerschema-allowstartondemand-settingstype-element.md)
+-   [**四月 (monthsType)**](taskschedulerschema-april-monthstype-element.md)
+-   [**引數 (execType)**](taskschedulerschema-arguments-exectype-element.md)
+-   [**附件 (sendMailType)**](taskschedulerschema-attachments-sendemailtype-element.md)
+-   [**八月 (monthsType)**](taskschedulerschema-august-monthstype-element.md)
+-   [**編寫 (registrationInfoType)**](taskschedulerschema-author-registrationinfotype-element.md)
+-   [**SendMailType) 主體 (**](taskschedulerschema-body-sendemailtype-element.md)
+-   [**ShowMessageType) 主體 (**](taskschedulerschema-body-showmessagetype-element.md)
+-   [**BootTrigger (triggerGroup)**](taskschedulerschema-boottrigger-triggergroup-element.md)
+-   [**密件副本 (sendMailType)**](taskschedulerschema-bcc-sendemailtype-element.md)
+-   [**CalendarTrigger (triggerGroup)**](taskschedulerschema-calendartrigger-triggergroup-element.md)
+-   [**Cc (sendMailType)**](taskschedulerschema-cc-sendemailtype-element.md)
+-   [**(comHandlerType) 的 ClassId**](taskschedulerschema-classid-comhandlertype-element.md)
+-   [**ComHandler (actionGroup)**](taskschedulerschema-comhandler-actiongroup-element.md)
+-   [**命令 (execType)**](taskschedulerschema-command-exectype-element.md)
+-   [**Count (restartType)**](taskschedulerschema-count-restarttype-element.md)
+-   [**資料 (comHandlerType)**](taskschedulerschema-data-comhandlertype-element.md)
+-   [**資料 (taskType)**](taskschedulerschema-data-tasktype-element.md)
+-   [**日期 (registrationInfoType)**](taskschedulerschema-date-registrationinfotype-element.md)
+-   [**DaysOfMonthType) Day (**](taskschedulerschema-day-daysofmonthtype-element.md)
+-   [**DaysInterval (dailyScheduleType)**](taskschedulerschema-daysinterval-dailyscheduletype-element.md)
+-   [**DaysOfMonth (monthlyScheduleType)**](taskschedulerschema-daysofmonth-monthlyscheduletype-element.md)
+-   [**DaysOfWeek (monthlyDayOfWeekScheduleType)**](taskschedulerschema-daysofweek-monthlydayofweekscheduletype-element.md)
+-   [**DaysOfWeek (weeklyScheduleType)**](taskschedulerschema-daysofweek-weeklyscheduletype-element.md)
+-   [**12月 (monthsType)**](taskschedulerschema-december-monthstype-element.md)
+-   [**延遲 (bootTriggerType)**](taskschedulerschema-delay-boottriggertype-element.md)
+-   [**延遲 (eventTriggerType)**](taskschedulerschema-delay-eventtriggertype-element.md)
+-   [**延遲 (logonTriggerType)**](taskschedulerschema-delay-logontriggertype-element.md)
+-   [**延遲 (registrationTriggerType)**](taskschedulerschema-delay-registrationtriggertype-element.md)
+-   [**延遲 (sessionStateChangeTriggerType)**](taskschedulerschema-delay-sessionstatechangetriggertype-element.md)
+-   [**DeleteExpiredTaskAfter (settingsType)**](taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md)
+-   [**描述 (registrationInfoType)**](taskschedulerschema-description-registrationinfotype-element.md)
+-   [**DisallowStartIfOnBatteries (settingsType)**](taskschedulerschema-disallowstartifonbatteries-settingstype-element.md)
+-   [**DisallowStartOnRemoteAppSession (settingsType)**](taskschedulerschema-disallowstartonremoteappsession-settingstype-element.md)
+-   [**DisplayName (principalType)**](taskschedulerschema-displayname-principaltype-element.md)
+-   [**檔 (registrationInfoType)**](taskschedulerschema-documentation-registrationinfotype-element.md)
+-   [**持續時間 (idleSettingsType)**](taskschedulerschema-duration-idlesettingstype-element.md)
+-   [**持續時間 (repetitionType)**](taskschedulerschema-duration-repetitiontype-element.md)
+-   [**已啟用 (settingsType)**](taskschedulerschema-enabled-settingstype-element.md)
+-   [**已啟用 (triggerBaseType)**](taskschedulerschema-enabled-triggerbasetype-element.md)
+-   [**EndBoundary (triggerBaseType)**](taskschedulerschema-endboundary-triggerbasetype-element.md)
+-   [**EventTrigger (triggerGroup)**](taskschedulerschema-eventtrigger-triggergroup-element.md)
+-   [**Exec (actionGroup)**](taskschedulerschema-exec-actiongroup-element.md)
+-   [**ExecutionTimeLimit (settingsType)**](taskschedulerschema-executiontimelimit-settingstype-element.md)
+-   [**ExecutionTimeLimit (triggerBaseType)**](taskschedulerschema-executiontimelimit-triggerbasetype-element.md)
+-   [**二月 (monthsType)**](taskschedulerschema-february-monthstype-element.md)
+-   [**File (attachmentsType)**](taskschedulerschema-file-attachmentstype-element.md)
+-   [**星期五 (daysOfWeekType)**](taskschedulerschema-friday-daysofweektype-element.md)
+-   [**從 (sendMailType)**](taskschedulerschema-from-sendemailtype-element.md)
+-   [**GroupId (principalType)**](taskschedulerschema-groupid-principaltype-element.md)
+-   [**HeaderFields (sendMailType)**](taskschedulerschema-headerfields-sendemailtype-element.md)
+-   [**HeaderField (headerFieldsType)**](taskschedulerschema-headerfield-headerfieldstype-element.md)
+-   [**隱藏的 (settingsType)**](taskschedulerschema-hidden-settingstype-element.md)
+-   [**IdleSettings (settingsType)**](taskschedulerschema-idlesettings-settingstype-element.md)
+-   [**IdleTrigger (triggerGroup)**](taskschedulerschema-idletrigger-triggergroup-element.md)
+-   [**識別碼 (networkSettingsType)**](taskschedulerschema-id-networksettingstype-element.md)
+-   [**間隔 (repetitionType)**](taskschedulerschema-interval-repetitiontype-element.md)
+-   [**間隔 (restartType)**](taskschedulerschema-interval-restarttype-element.md)
+-   [**1月 (monthsType)**](taskschedulerschema-january-monthstype-element.md)
+-   [**七月 (monthsType)**](taskschedulerschema-july-monthstype-element.md)
+-   [**六月 (monthsType)**](taskschedulerschema-june-monthstype-element.md)
+-   [**LogonTrigger (triggerGroup)**](taskschedulerschema-logontrigger-triggergroup-element.md)
+-   [**LogonType (principalType)**](taskschedulerschema-logontype-principaltype-element.md)
+-   [**三月 (monthsType)**](taskschedulerschema-march-monthstype-element.md)
+-   [**可能 (monthsType)**](taskschedulerschema-may-monthstype-element.md)
+-   [**星期一 (daysOfWeekType)**](taskschedulerschema-monday-daysofweektype-element.md)
+-   [**MonthlyDayOfWeekScheduleType) 的月份 (**](taskschedulerschema-months-monthlydayofweekscheduletype-element.md)
+-   [**MonthlyScheduleType) 的月份 (**](taskschedulerschema-months-monthlyscheduletype-element.md)
+-   [**MultipleInstancesPolicy (settingsType)**](taskschedulerschema-multipleinstancespolicy-settingstype-element.md)
+-   [**HeaderFieldType) 名稱 (**](taskschedulerschema-name-headerfieldtype-element.md)
+-   [**NetworkSettingsType) 名稱 (**](taskschedulerschema-name-networksettingstype-element.md)
+-   [**11月 (monthsType)**](taskschedulerschema-november-monthstype-element.md)
+-   [**十月 (monthsType)**](taskschedulerschema-october-monthstype-element.md)
+-   [**Principal (principalsType)**](taskschedulerschema-principal-principaltype-element.md)
+-   [**主體 (taskType)**](taskschedulerschema-principals-tasktype-element.md)
+-   [**ProcessTokenSidType (principalType)**](taskschedulerschema-processtokensidtype-principaltype-element.md)
+-   [**優先權 (settingsType)**](taskschedulerschema-priority-settingstype-element.md)
+-   [**許可權 (requiredPrivilegesType)**](taskschedulerschema-privilege-requiredprivilegestype-element.md)
+-   [**RandomDelay (calendarTriggerType)**](taskschedulerschema-randomdelay-calendartriggertype-element.md)
+-   [**RandomDelay (timeTriggerType)**](taskschedulerschema-randomdelay-timetriggertype-element.md)
+-   [**RegistrationInfo (taskType)**](taskschedulerschema-registrationinfo-tasktype-element.md)
+-   [**RegistrationTrigger (triggerGroup)**](taskschedulerschema-registrationtrigger-triggergroup-element.md)
+-   [**重複 (triggerBaseType)**](taskschedulerschema-repetition-triggerbasetype-element.md)
+-   [**RequiredPrivileges (requiredPrivilegesType)**](taskschedulerschema-requiredprivileges-requiredprivilegestype-element.md)
+-   [**ReplyTo (sendMailType)**](taskschedulerschema-replyto-sendemailtype-element.md)
+-   [**RestartOnFailure (settingsType)**](taskschedulerschema-restartonfailure-settingstype-element.md)
+-   [**RestartOnIdle (idleSettingsType)**](taskschedulerschema-restartonidle-idlesettingstype-element.md)
+-   [**RunLevel (principalType)**](taskschedulerschema-runlevel-principaltype-element.md)
+-   [**RunOnlyIfIdle (settingsType)**](taskschedulerschema-runonlyifidle-settingstype-element.md)
+-   [**RunOnlyIfNetworkAvailable (settingsType)**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md)
+-   [**星期六 (daysOfWeekType)**](taskschedulerschema-saturday-daysofweektype-element.md)
+-   [**ScheduleByDay (calendarTriggerType)**](taskschedulerschema-schedulebyday-calendartriggertype-element.md)
+-   [**ScheduleByMonthDayOfWeek (calendarTriggerType)**](taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md)
+-   [**ScheduleByMonth (calendarTriggerType)**](taskschedulerschema-schedulebymonth-calendartriggertype-element.md)
+-   [**ScheduleByWeek (calendarTriggerType)**](taskschedulerschema-schedulebyweek-calendartriggertype-element.md)
+-   [**SecurityDescriptor (registrationInfoType)**](taskschedulerschema-securitydescriptor-registrationinfotype-element.md)
+-   [**SendEmail (actionGroup) 元素**](taskschedulerschema-sendemail-actiongroup-element.md)
+-   [**MonthsType) 的九月 (**](taskschedulerschema-september-monthstype-element.md)
+-   [**SessionStateChangeTrigger (triggerGroup)**](taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md)
+-   [**伺服器 (sendMailType)**](taskschedulerschema-server-sendemailtype-element.md)
+-   [**設定 (taskType)**](taskschedulerschema-settings-tasktype-element.md)
+-   [**ShowMessage (actionGroup)**](taskschedulerschema-showmessage-actiongroup-element.md)
+-   [**來源 (registrationInfoType)**](taskschedulerschema-source-registrationinfotype-element.md)
+-   [**StartBoundary (triggerBaseType)**](taskschedulerschema-startboundary-triggerbasetype-element.md)
+-   [**StartWhenAvailable (settingsType)**](taskschedulerschema-startwhenavailable-settingstype-element.md)
+-   [**StateChange (sessionStateChangeTriggerType)**](taskschedulerschema-statechange-sessionstatechangetriggertype-element.md)
+-   [**StopAtDurationEnd (repetitionType)**](taskschedulerschema-stopatdurationend-repetitiontype-element.md)
+-   [**StopIfGoingOnBatteries (settingsType)**](taskschedulerschema-stopifgoingonbatteries-settingstype-element.md)
+-   [**StopOnIdleEnd (idleSettingsType)**](taskschedulerschema-terminateonidleend-idlesettingstype-element.md)
+-   [**Subject (sendMailType)**](taskschedulerschema-subject-sendemailtype-element.md)
+-   [**訂用帳戶 (eventTriggerType)**](taskschedulerschema-subscription-eventtriggertype-element.md)
+-   [**星期日 (daysOfWeekType)**](taskschedulerschema-sunday-daysofweektype-element.md)
+-   [**Task**](taskschedulerschema-task-element.md)
+-   [**星期四 (daysOfWeekType)**](taskschedulerschema-thursday-daysofweektype-element.md)
+-   [**TimeTrigger (triggerGroup)**](taskschedulerschema-timetrigger-triggergroup-element.md)
+-   [**標題 (showMessageType) 元素**](taskschedulerschema-title-showmessagetype-element.md)
+-   [**若要 (sendMailType)**](taskschedulerschema-to-sendemailtype-element.md)
+-   [**觸發程式 (taskType)**](taskschedulerschema-triggers-tasktype-element.md)
+-   [**星期二 (daysOfWeekType)**](taskschedulerschema-tuesday-daysofweektype-element.md)
+-   [**URI (registrationInfoType)**](taskschedulerschema-uri-registrationinfotype-element.md)
+-   [**UserId (logonTriggerType)**](taskschedulerschema-userid-logontriggertype-element.md)
+-   [**UserId (principalType)**](taskschedulerschema-userid-principaltype-element.md)
+-   [**UserId (sessionStateChangeTriggerType)**](taskschedulerschema-userid-sessionstatechangetriggertype-element.md)
+-   [**UseUnifiedSchedulingEngine (settingsType)**](taskschedulerschema-useunifiedschedulingengine-settingstype-element.md)
+-   [**ValueQueries (eventTriggerType)**](taskschedulerschema-valuequeries-eventtriggertype-element.md)
+-   [**值 (headerFieldType)**](taskschedulerschema-value-headerfieldtype-element.md)
+-   [**版本 (registrationInfoType)**](taskschedulerschema-version-registrationinfotype-element.md)
+-   [**WaitTimeout (idleSettingsType)**](taskschedulerschema-waittimeout-idlesettingstype-element.md)
+-   [**WakeToRun (settingsType)**](taskschedulerschema-waketorun-settingstype-element.md)
+-   [**星期三 (daysOfWeekType)**](taskschedulerschema-wednesday-daysofweektype-element.md)
+-   [**WeeksType)  (周**](taskschedulerschema-week-weekstype-element.md)
+-   [**WeeksInterval (weeklyScheduleType)**](taskschedulerschema-weeksinterval-weeklyscheduletype-element.md)
+-   [**MonthlyDayOfWeekScheduleType)  (周**](taskschedulerschema-weeks-monthlydayofweekscheduletype-element.md)
+-   [**WorkingDirectory (execType)**](taskschedulerschema-workingdirectory-exectype-element.md)
+
+ 
+
+ 
+
+
+
+

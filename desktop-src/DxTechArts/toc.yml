@@ -1,0 +1,75 @@
+- name: 技術文章
+  href: dx9-technical-articles.md
+  items:
+    - name: 適用于遊戲開發人員的64位程式設計
+      href: sixty-four-bit-programming-for-game-developers.md
+    - name: 遊戲開發人員的 Authenticode 簽署
+      href: authenticode-signing-for-game-developers.md
+    - name: 遊戲開發的最佳安全性作法
+      href: best-security-practices-in-game-development.md
+    - name: 重疊的陰影圖
+      href: cascaded-shadow-maps.md
+    - name: 在 Xbox 360 和 Windows 上針對多核心撰寫程式碼
+      href: coding-for-multiple-cores.md
+    - name: 改善陰影深度圖的常見技術
+      href: common-techniques-to-improve-shadow-depth-maps.md
+    - name: 損毀傾印分析
+      href: crash-dump-analysis.md
+    - name: 使用符號進行調試
+      href: debugging-with-symbols.md
+    - name: Direct3D 10 常見問題集
+      href: direct3d10-frequently-asked-questions.md
+    - name: DirectX 常見問題
+      href: directx-9-frequently-asked-questions.md
+    - name: 適用于遊戲開發人員的 DirectX 安裝
+      href: directx-setup-for-game-developers.md
+    - name: 停用遊戲中的快速鍵
+      href: disabling-shortcut-keys-in-games.md
+    - name: 遊戲計時與多核心處理器
+      href: game-timing-and-multicore-processors.md
+    - name: Windows 技術需求的遊戲
+      href: games-for-windows-technical-requirements-1-1-0006.md
+    - name: Windows 測試案例的遊戲
+      href: games-for-windows-test-requirements-1-0-0006.md
+    - name: 使用 Least-Privileged 使用者帳戶的遊戲
+      href: gaming-with-least-privileged-user-accounts.md
+    - name: 適用于遊戲的隨選安裝
+      href: install-on-demand-for-games.md
+    - name: 遊戲的安裝與維護
+      href: installation-and-maintenance-of-games.md
+    - name: Xbox 360 和 Microsoft Windows 的 Lockless 程式設計考量
+      href: lockless-programming.md
+    - name: 大量多人連線遊戲的安裝最佳做法
+      href: mmo-installation-best-practices.md
+    - name: 安裝和使用輸入法編輯器
+      href: installing-and-using-input-method-editors.md
+    - name: Windows 遊戲開發人員的10英尺體驗簡介
+      href: introduction-to-the-10-foot-experience-for-windows-game-developers.md
+    - name: 讓影片遊戲可供存取：商業理由和設計考慮
+      href: accessibility-best-practices.md
+    - name: 優化 Windows 遊戲的 DVD 效能
+      href: optimizing-dvd-performance-for-windows-games.md
+    - name: 在 Windows XP、Windows Vista 和 Windows 7 中修補遊戲軟體
+      href: patching-methods-in-windows-xp-and-vista.md
+    - name: 資源管理最佳作法
+      href: resource-management-best-practices.md
+    - name: 簡化遊戲安裝
+      href: simplifying-game-installation.md
+    - name: 利用 High-Definition 滑鼠移動
+      href: taking-advantage-of-high-dpi-mouse-movement.md
+    - name: Direct3D 轉換管線
+      href: the-direct3d-transformation-pipeline.md
+    - name: Windows 標題的主要問題
+      href: top-issues-for-windows-titles.md
+    - name: 製作更健全的 Windows 遊戲的最佳工具和技術
+      href: top-tools-and-techniques-for-making-more-robust-windows-games.md
+    - name: 遊戲開發人員的使用者帳戶控制
+      href: user-account-control-for-game-developers.md
+    - name: 在遊戲中使用輸入法編輯器
+      href: using-an-input-method-editor-in-a-game.md
+    - name: 適用于遊戲開發人員的 Windows 防火牆
+      href: games-and-firewalls.md
+    - name: 適用于遊戲開發人員的 Windows 遊戲瀏覽器
+      href: windows-game-explorer-integration.md
+    - name: 適用于遊戲開發人員的 Windows Installer
+      href: windows-installer-for-game-developers.md
