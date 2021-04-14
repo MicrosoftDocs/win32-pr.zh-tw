@@ -1,0 +1,42 @@
+---
+title: 在路由器層中執行的 ADSI 物件
+description: 下表提供 ADSI 路由器中所執行 COM 物件的簡短描述。
+ms.assetid: bd446e05-a15d-4354-9204-1df4e360497c
+ms.tgt_platform: multiple
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: af1fad496bbfea220dca0046cac40daf41120675
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104371851"
+---
+# <a name="adsi-objects-implemented-in-the-router-layer"></a><span data-ttu-id="dcc59-103">在路由器層中執行的 ADSI 物件</span><span class="sxs-lookup"><span data-stu-id="dcc59-103">ADSI Objects Implemented in the Router Layer</span></span>
+
+<span data-ttu-id="dcc59-104">下表提供 ADSI 路由器中所執行 COM 物件的簡短描述。</span><span class="sxs-lookup"><span data-stu-id="dcc59-104">The following table presents a brief description of the COM objects implemented in the ADSI router.</span></span>
+
+
+
+| <span data-ttu-id="dcc59-105">ADSI 物件</span><span class="sxs-lookup"><span data-stu-id="dcc59-105">ADSI Object</span></span>            | <span data-ttu-id="dcc59-106">Description</span><span class="sxs-lookup"><span data-stu-id="dcc59-106">Description</span></span>                                                         | <span data-ttu-id="dcc59-107">支援的介面</span><span class="sxs-lookup"><span data-stu-id="dcc59-107">Supported Interfaces</span></span>                                                                                                                                                                                                                                                                      |
+|------------------------|---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="dcc59-108">**AccessControlEntry**</span><span class="sxs-lookup"><span data-stu-id="dcc59-108">**AccessControlEntry**</span></span> | <span data-ttu-id="dcc59-109">ADSI 物件，代表 (ACE) 的存取控制專案。</span><span class="sxs-lookup"><span data-stu-id="dcc59-109">An ADSI object that represents an access control entry (ACE).</span></span>       | [<span data-ttu-id="dcc59-110">**IADsAccessControlEntry**</span><span class="sxs-lookup"><span data-stu-id="dcc59-110">**IADsAccessControlEntry**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry)                                                                                                                                                                                                                                  |
+| <span data-ttu-id="dcc59-111">**AccessControlList**</span><span class="sxs-lookup"><span data-stu-id="dcc59-111">**AccessControlList**</span></span>  | <span data-ttu-id="dcc59-112">ADSI 物件，代表 (ACL) 的存取控制清單。</span><span class="sxs-lookup"><span data-stu-id="dcc59-112">An ADSI object that represents an access control list (ACL).</span></span>        | [<span data-ttu-id="dcc59-113">**IADsAccessControlList**</span><span class="sxs-lookup"><span data-stu-id="dcc59-113">**IADsAccessControlList**</span></span>](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist)                                                                                                                                                                                                                                    |
+| <span data-ttu-id="dcc59-114">**ADsNamespaces**</span><span class="sxs-lookup"><span data-stu-id="dcc59-114">**ADsNamespaces**</span></span>      | <span data-ttu-id="dcc59-115">ADSI 物件，表示各種命名空間的容器。</span><span class="sxs-lookup"><span data-stu-id="dcc59-115">An ADSI object that represents the container of various namespaces.</span></span> | <dl> <span data-ttu-id="dcc59-116"><dt>[**IADs**](/windows/desktop/api/Iads/nn-iads-iads)</dt> <dt>[**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer)</dt> <dt>[**IADsNamespaces**](/windows/desktop/api/Iads/nn-iads-iadsnamespaces)</dt></span><span class="sxs-lookup"><span data-stu-id="dcc59-116"><dt>[**IADs**](/windows/desktop/api/Iads/nn-iads-iads)</dt> <dt>[**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer)</dt> <dt>[**IADsNamespaces**](/windows/desktop/api/Iads/nn-iads-iadsnamespaces)</dt></span></span> </dl> |
+| <span data-ttu-id="dcc59-117">**LargeInteger**</span><span class="sxs-lookup"><span data-stu-id="dcc59-117">**LargeInteger**</span></span>       | <span data-ttu-id="dcc59-118">代表大型整數的 ADSI 物件。</span><span class="sxs-lookup"><span data-stu-id="dcc59-118">An ADSI object that represents a large integer.</span></span>                     | [<span data-ttu-id="dcc59-119">**IADsLargeInteger**</span><span class="sxs-lookup"><span data-stu-id="dcc59-119">**IADsLargeInteger**</span></span>](/windows/desktop/api/Iads/nn-iads-iadslargeinteger)                                                                                                                                                                                                                                              |
+| <span data-ttu-id="dcc59-120">**PropertyEntry**</span><span class="sxs-lookup"><span data-stu-id="dcc59-120">**PropertyEntry**</span></span>      | <span data-ttu-id="dcc59-121">表示屬性專案的 ADSI 物件。</span><span class="sxs-lookup"><span data-stu-id="dcc59-121">An ADSI object that represents a property entry.</span></span>                    | [<span data-ttu-id="dcc59-122">**IADsPropertyEntry**</span><span class="sxs-lookup"><span data-stu-id="dcc59-122">**IADsPropertyEntry**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)                                                                                                                                                                                                                                            |
+| <span data-ttu-id="dcc59-123">**PropertyValue**</span><span class="sxs-lookup"><span data-stu-id="dcc59-123">**PropertyValue**</span></span>      | <span data-ttu-id="dcc59-124">表示屬性值的 ADSI 物件。</span><span class="sxs-lookup"><span data-stu-id="dcc59-124">An ADSI object that represents a property value.</span></span>                    | [<span data-ttu-id="dcc59-125">**IADsPropertyValue**</span><span class="sxs-lookup"><span data-stu-id="dcc59-125">**IADsPropertyValue**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue)                                                                                                                                                                                                                                            |
+| <span data-ttu-id="dcc59-126">**PropertyValue2**</span><span class="sxs-lookup"><span data-stu-id="dcc59-126">**PropertyValue2**</span></span>     | <span data-ttu-id="dcc59-127">表示屬性值的 ADSI 物件。</span><span class="sxs-lookup"><span data-stu-id="dcc59-127">An ADSI object that represents a property value.</span></span>                    | [<span data-ttu-id="dcc59-128">**IADsPropertyValue2**</span><span class="sxs-lookup"><span data-stu-id="dcc59-128">**IADsPropertyValue2**</span></span>](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2)                                                                                                                                                                                                                                          |
+| <span data-ttu-id="dcc59-129">**SecurityDescriptor**</span><span class="sxs-lookup"><span data-stu-id="dcc59-129">**SecurityDescriptor**</span></span> | <span data-ttu-id="dcc59-130">表示安全描述項的 ADSI 物件。</span><span class="sxs-lookup"><span data-stu-id="dcc59-130">An ADSI object that represents a security descriptor.</span></span>               | [<span data-ttu-id="dcc59-131">**IADsSecurityDescriptor**</span><span class="sxs-lookup"><span data-stu-id="dcc59-131">**IADsSecurityDescriptor**</span></span>](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)                                                                                                                                                                                                                                  |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
