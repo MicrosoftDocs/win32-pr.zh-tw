@@ -21,13 +21,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "104110496"
 ---
-# <a name="geteffectivepermission-method-of-the-win32_shortcutfile-class"></a><span data-ttu-id="f0bd8-103">Win32 ShortcutFile 類別的 GetEffectivePermission 方法 \_</span><span class="sxs-lookup"><span data-stu-id="f0bd8-103">GetEffectivePermission method of the Win32\_ShortcutFile class</span></span>
+# <a name="geteffectivepermission-method-of-the-win32_shortcutfile-class"></a><span data-ttu-id="2f868-103">Win32 ShortcutFile 類別的 GetEffectivePermission 方法 \_</span><span class="sxs-lookup"><span data-stu-id="2f868-103">GetEffectivePermission method of the Win32\_ShortcutFile class</span></span>
 
-<span data-ttu-id="f0bd8-104">**GetEffectivePermission** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)方法會判斷使用者是否擁有快捷方式檔案所在之檔案物件、目錄和共用的 *許可權* 參數中所指定的所有必要許可權（如果檔案或目錄位於共用上）。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-104">The **GetEffectivePermission** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method determines whether the user has all of the required permissions specified in the *Permissions* parameter for the file object, directory, and share where the shortcut file is located, if the file or directory is on a share.</span></span>
+<span data-ttu-id="2f868-104">**GetEffectivePermission** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)方法會判斷使用者是否擁有快捷方式檔案所在之檔案物件、目錄和共用的 *許可權* 參數中所指定的所有必要許可權（如果檔案或目錄位於共用上）。</span><span class="sxs-lookup"><span data-stu-id="2f868-104">The **GetEffectivePermission** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method determines whether the user has all of the required permissions specified in the *Permissions* parameter for the file object, directory, and share where the shortcut file is located, if the file or directory is on a share.</span></span>
 
-<span data-ttu-id="f0bd8-105">本主題使用受控物件格式 (MOF) 語法。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-105">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="f0bd8-106">如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-106">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
+<span data-ttu-id="2f868-105">本主題使用受控物件格式 (MOF) 語法。</span><span class="sxs-lookup"><span data-stu-id="2f868-105">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="2f868-106">如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。</span><span class="sxs-lookup"><span data-stu-id="2f868-106">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f0bd8-107">語法</span><span class="sxs-lookup"><span data-stu-id="f0bd8-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2f868-107">語法</span><span class="sxs-lookup"><span data-stu-id="2f868-107">Syntax</span></span>
 
 
 ```mof
@@ -38,198 +38,198 @@ boolean GetEffectivePermission(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="f0bd8-108">參數</span><span class="sxs-lookup"><span data-stu-id="f0bd8-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2f868-108">參數</span><span class="sxs-lookup"><span data-stu-id="2f868-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="f0bd8-109">*許可權* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f0bd8-109">*Permissions* \[in\]</span></span>
+<span data-ttu-id="2f868-109">*許可權* \[在\]</span><span class="sxs-lookup"><span data-stu-id="2f868-109">*Permissions* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-110">許可權的點陣圖。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-110">Bitmap of permissions.</span></span>
+<span data-ttu-id="2f868-110">許可權的點陣圖。</span><span class="sxs-lookup"><span data-stu-id="2f868-110">Bitmap of permissions.</span></span>
 
 <dt>
 
 <span id="FILE_READ_DATA__file__FILE_LIST_DIRECTORY__directory_"></span><span id="file_read_data__file__file_list_directory__directory_"></span><span id="FILE_READ_DATA__FILE__FILE_LIST_DIRECTORY__DIRECTORY_"></span>
 
-<span data-ttu-id="f0bd8-111"><span id="FILE_READ_DATA__file__FILE_LIST_DIRECTORY__directory_"></span><span id="file_read_data__file__file_list_directory__directory_"></span><span id="FILE_READ_DATA__FILE__FILE_LIST_DIRECTORY__DIRECTORY_"></span>**檔案 \_讀取 \_ 資料 (檔) 檔案 \_ 清單 \_ 目錄 (目錄)** (1 (0x1) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-111"><span id="FILE_READ_DATA__file__FILE_LIST_DIRECTORY__directory_"></span><span id="file_read_data__file__file_list_directory__directory_"></span><span id="FILE_READ_DATA__FILE__FILE_LIST_DIRECTORY__DIRECTORY_"></span>**FILE\_READ\_DATA (file) FILE\_LIST\_DIRECTORY (directory)** (1 (0x1))</span></span>
+<span data-ttu-id="2f868-111"><span id="FILE_READ_DATA__file__FILE_LIST_DIRECTORY__directory_"></span><span id="file_read_data__file__file_list_directory__directory_"></span><span id="FILE_READ_DATA__FILE__FILE_LIST_DIRECTORY__DIRECTORY_"></span>**檔案 \_讀取 \_ 資料 (檔) 檔案 \_ 清單 \_ 目錄 (目錄)** (1 (0x1) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-111"><span id="FILE_READ_DATA__file__FILE_LIST_DIRECTORY__directory_"></span><span id="file_read_data__file__file_list_directory__directory_"></span><span id="FILE_READ_DATA__FILE__FILE_LIST_DIRECTORY__DIRECTORY_"></span>**FILE\_READ\_DATA (file) FILE\_LIST\_DIRECTORY (directory)** (1 (0x1))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-112">授與從檔案讀取資料的許可權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-112">Grants the right to read data from the file.</span></span> <span data-ttu-id="f0bd8-113">若為目錄，此值會授與許可權來列出目錄的內容。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-113">For a directory, this value grants the right to list the contents of the directory.</span></span>
+<span data-ttu-id="2f868-112">授與從檔案讀取資料的許可權。</span><span class="sxs-lookup"><span data-stu-id="2f868-112">Grants the right to read data from the file.</span></span> <span data-ttu-id="2f868-113">若為目錄，此值會授與許可權來列出目錄的內容。</span><span class="sxs-lookup"><span data-stu-id="2f868-113">For a directory, this value grants the right to list the contents of the directory.</span></span>
 
 </dd> <dt>
 
 <span id="FILE_WRITE_DATA__file__FILE_ADD_FILE__directory_"></span><span id="file_write_data__file__file_add_file__directory_"></span><span id="FILE_WRITE_DATA__FILE__FILE_ADD_FILE__DIRECTORY_"></span>
 
-<span data-ttu-id="f0bd8-114"><span id="FILE_WRITE_DATA__file__FILE_ADD_FILE__directory_"></span><span id="file_write_data__file__file_add_file__directory_"></span><span id="FILE_WRITE_DATA__FILE__FILE_ADD_FILE__DIRECTORY_"></span>**檔案 \_寫入 \_ 資料 (檔案) 檔案 \_ 新增檔案 \_ (目錄)** (2 (0x2) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-114"><span id="FILE_WRITE_DATA__file__FILE_ADD_FILE__directory_"></span><span id="file_write_data__file__file_add_file__directory_"></span><span id="FILE_WRITE_DATA__FILE__FILE_ADD_FILE__DIRECTORY_"></span>**FILE\_WRITE\_DATA (file) FILE\_ADD\_FILE (directory)** (2 (0x2))</span></span>
+<span data-ttu-id="2f868-114"><span id="FILE_WRITE_DATA__file__FILE_ADD_FILE__directory_"></span><span id="file_write_data__file__file_add_file__directory_"></span><span id="FILE_WRITE_DATA__FILE__FILE_ADD_FILE__DIRECTORY_"></span>**檔案 \_寫入 \_ 資料 (檔案) 檔案 \_ 新增檔案 \_ (目錄)** (2 (0x2) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-114"><span id="FILE_WRITE_DATA__file__FILE_ADD_FILE__directory_"></span><span id="file_write_data__file__file_add_file__directory_"></span><span id="FILE_WRITE_DATA__FILE__FILE_ADD_FILE__DIRECTORY_"></span>**FILE\_WRITE\_DATA (file) FILE\_ADD\_FILE (directory)** (2 (0x2))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-115">授與將資料寫入檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-115">Grants the right to write data to the file.</span></span> <span data-ttu-id="f0bd8-116">若為目錄，此值會授與在目錄中建立檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-116">For a directory, this value grants the right to create a file in the directory.</span></span>
+<span data-ttu-id="2f868-115">授與將資料寫入檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="2f868-115">Grants the right to write data to the file.</span></span> <span data-ttu-id="2f868-116">若為目錄，此值會授與在目錄中建立檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="2f868-116">For a directory, this value grants the right to create a file in the directory.</span></span>
 
 </dd> <dt>
 
 <span id="FILE_APPEND_DATA__file__FILE_ADD_SUBDIRECTORY__directory_"></span><span id="file_append_data__file__file_add_subdirectory__directory_"></span><span id="FILE_APPEND_DATA__FILE__FILE_ADD_SUBDIRECTORY__DIRECTORY_"></span>
 
-<span data-ttu-id="f0bd8-117"><span id="FILE_APPEND_DATA__file__FILE_ADD_SUBDIRECTORY__directory_"></span><span id="file_append_data__file__file_add_subdirectory__directory_"></span><span id="FILE_APPEND_DATA__FILE__FILE_ADD_SUBDIRECTORY__DIRECTORY_"></span>**檔案 \_附加 \_ 資料 (檔) 檔案 \_ 新增 \_ 子目錄 (目錄)** (4 (0x4) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-117"><span id="FILE_APPEND_DATA__file__FILE_ADD_SUBDIRECTORY__directory_"></span><span id="file_append_data__file__file_add_subdirectory__directory_"></span><span id="FILE_APPEND_DATA__FILE__FILE_ADD_SUBDIRECTORY__DIRECTORY_"></span>**FILE\_APPEND\_DATA (file) FILE\_ADD\_SUBDIRECTORY (directory)** (4 (0x4))</span></span>
+<span data-ttu-id="2f868-117"><span id="FILE_APPEND_DATA__file__FILE_ADD_SUBDIRECTORY__directory_"></span><span id="file_append_data__file__file_add_subdirectory__directory_"></span><span id="FILE_APPEND_DATA__FILE__FILE_ADD_SUBDIRECTORY__DIRECTORY_"></span>**檔案 \_附加 \_ 資料 (檔) 檔案 \_ 新增 \_ 子目錄 (目錄)** (4 (0x4) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-117"><span id="FILE_APPEND_DATA__file__FILE_ADD_SUBDIRECTORY__directory_"></span><span id="file_append_data__file__file_add_subdirectory__directory_"></span><span id="FILE_APPEND_DATA__FILE__FILE_ADD_SUBDIRECTORY__DIRECTORY_"></span>**FILE\_APPEND\_DATA (file) FILE\_ADD\_SUBDIRECTORY (directory)** (4 (0x4))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-118">授與將資料附加至檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-118">Grants the right to append data to the file.</span></span> <span data-ttu-id="f0bd8-119">若為目錄，此值會授與建立子目錄的許可權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-119">For a directory, this value grants the right to create a subdirectory.</span></span>
+<span data-ttu-id="2f868-118">授與將資料附加至檔案的許可權。</span><span class="sxs-lookup"><span data-stu-id="2f868-118">Grants the right to append data to the file.</span></span> <span data-ttu-id="2f868-119">若為目錄，此值會授與建立子目錄的許可權。</span><span class="sxs-lookup"><span data-stu-id="2f868-119">For a directory, this value grants the right to create a subdirectory.</span></span>
 
 </dd> <dt>
 
 <span id="FILE_READ_EA"></span><span id="file_read_ea"></span>
 
-<span data-ttu-id="f0bd8-120"><span id="FILE_READ_EA"></span><span id="file_read_ea"></span>**檔案 \_讀取 \_ EA** (8 (0x8) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-120"><span id="FILE_READ_EA"></span><span id="file_read_ea"></span>**FILE\_READ\_EA** (8 (0x8))</span></span>
+<span data-ttu-id="2f868-120"><span id="FILE_READ_EA"></span><span id="file_read_ea"></span>**檔案 \_讀取 \_ EA** (8 (0x8) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-120"><span id="FILE_READ_EA"></span><span id="file_read_ea"></span>**FILE\_READ\_EA** (8 (0x8))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-121">授與讀取擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-121">Grants the right to read extended attributes.</span></span>
+<span data-ttu-id="2f868-121">授與讀取擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="2f868-121">Grants the right to read extended attributes.</span></span>
 
 </dd> <dt>
 
 <span id="FILE_WRITE_EA"></span><span id="file_write_ea"></span>
 
-<span data-ttu-id="f0bd8-122"><span id="FILE_WRITE_EA"></span><span id="file_write_ea"></span>**檔案 \_寫入 \_ EA** (16 (0x10) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-122"><span id="FILE_WRITE_EA"></span><span id="file_write_ea"></span>**FILE\_WRITE\_EA** (16 (0x10))</span></span>
+<span data-ttu-id="2f868-122"><span id="FILE_WRITE_EA"></span><span id="file_write_ea"></span>**檔案 \_寫入 \_ EA** (16 (0x10) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-122"><span id="FILE_WRITE_EA"></span><span id="file_write_ea"></span>**FILE\_WRITE\_EA** (16 (0x10))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-123">授予寫入擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-123">Grants the right to write extended attributes.</span></span>
+<span data-ttu-id="2f868-123">授予寫入擴充屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="2f868-123">Grants the right to write extended attributes.</span></span>
 
 </dd> <dt>
 
 <span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>
 
-<span data-ttu-id="f0bd8-124"><span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**檔案 \_執行 (檔) 檔案 \_ (目錄)** (32 (0x20) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-124"><span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)** (32 (0x20))</span></span>
+<span data-ttu-id="2f868-124"><span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**檔案 \_執行 (檔) 檔案 \_ (目錄)** (32 (0x20) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-124"><span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)** (32 (0x20))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-125">授與許可權來執行檔案。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-125">Grants the right to execute a file.</span></span> <span data-ttu-id="f0bd8-126">若為目錄，可以進行目錄的往返。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-126">For a directory, the directory can be traversed.</span></span>
+<span data-ttu-id="2f868-125">授與許可權來執行檔案。</span><span class="sxs-lookup"><span data-stu-id="2f868-125">Grants the right to execute a file.</span></span> <span data-ttu-id="2f868-126">若為目錄，可以進行目錄的往返。</span><span class="sxs-lookup"><span data-stu-id="2f868-126">For a directory, the directory can be traversed.</span></span>
 
 </dd> <dt>
 
 <span id="FILE_DELETE_CHILD__directory_"></span><span id="file_delete_child__directory_"></span><span id="FILE_DELETE_CHILD__DIRECTORY_"></span>
 
-<span data-ttu-id="f0bd8-127"><span id="FILE_DELETE_CHILD__directory_"></span><span id="file_delete_child__directory_"></span><span id="FILE_DELETE_CHILD__DIRECTORY_"></span>**檔案 \_刪除 \_ 子 (目錄)** (64 (0x40) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-127"><span id="FILE_DELETE_CHILD__directory_"></span><span id="file_delete_child__directory_"></span><span id="FILE_DELETE_CHILD__DIRECTORY_"></span>**FILE\_DELETE\_CHILD (directory)** (64 (0x40))</span></span>
+<span data-ttu-id="2f868-127"><span id="FILE_DELETE_CHILD__directory_"></span><span id="file_delete_child__directory_"></span><span id="FILE_DELETE_CHILD__DIRECTORY_"></span>**檔案 \_刪除 \_ 子 (目錄)** (64 (0x40) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-127"><span id="FILE_DELETE_CHILD__directory_"></span><span id="file_delete_child__directory_"></span><span id="FILE_DELETE_CHILD__DIRECTORY_"></span>**FILE\_DELETE\_CHILD (directory)** (64 (0x40))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-128">授與刪除目錄的許可權，以及其包含的所有檔案（即使檔案是唯讀的）。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-128">Grants the right to delete a directory and all of the files it contains, even if the files are read-only.</span></span>
+<span data-ttu-id="2f868-128">授與刪除目錄的許可權，以及其包含的所有檔案（即使檔案是唯讀的）。</span><span class="sxs-lookup"><span data-stu-id="2f868-128">Grants the right to delete a directory and all of the files it contains, even if the files are read-only.</span></span>
 
 </dd> <dt>
 
 <span id="FILE_READ_ATTRIBUTES"></span><span id="file_read_attributes"></span>
 
-<span data-ttu-id="f0bd8-129"><span id="FILE_READ_ATTRIBUTES"></span><span id="file_read_attributes"></span>**檔案 \_讀取 \_ 屬性** (128 (0x80) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-129"><span id="FILE_READ_ATTRIBUTES"></span><span id="file_read_attributes"></span>**FILE\_READ\_ATTRIBUTES** (128 (0x80))</span></span>
+<span data-ttu-id="2f868-129"><span id="FILE_READ_ATTRIBUTES"></span><span id="file_read_attributes"></span>**檔案 \_讀取 \_ 屬性** (128 (0x80) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-129"><span id="FILE_READ_ATTRIBUTES"></span><span id="file_read_attributes"></span>**FILE\_READ\_ATTRIBUTES** (128 (0x80))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-130">授與讀取檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-130">Grants the right to read file attributes.</span></span>
+<span data-ttu-id="2f868-130">授與讀取檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="2f868-130">Grants the right to read file attributes.</span></span>
 
 </dd> <dt>
 
 <span id="FILE_WRITE_ATTRIBUTES"></span><span id="file_write_attributes"></span>
 
-<span data-ttu-id="f0bd8-131"><span id="FILE_WRITE_ATTRIBUTES"></span><span id="file_write_attributes"></span>**檔案 \_將 \_ 屬性寫入** (256 (0x100) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-131"><span id="FILE_WRITE_ATTRIBUTES"></span><span id="file_write_attributes"></span>**FILE\_WRITE\_ATTRIBUTES** (256 (0x100))</span></span>
+<span data-ttu-id="2f868-131"><span id="FILE_WRITE_ATTRIBUTES"></span><span id="file_write_attributes"></span>**檔案 \_將 \_ 屬性寫入** (256 (0x100) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-131"><span id="FILE_WRITE_ATTRIBUTES"></span><span id="file_write_attributes"></span>**FILE\_WRITE\_ATTRIBUTES** (256 (0x100))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-132">授與變更檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-132">Grants the right to change file attributes.</span></span>
+<span data-ttu-id="2f868-132">授與變更檔案屬性的許可權。</span><span class="sxs-lookup"><span data-stu-id="2f868-132">Grants the right to change file attributes.</span></span>
 
 </dd> <dt>
 
 <span id="DELETE"></span><span id="delete"></span>
 
-<span data-ttu-id="f0bd8-133"><span id="DELETE"></span><span id="delete"></span>**刪除** (65536 (0x10000) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-133"><span id="DELETE"></span><span id="delete"></span>**DELETE** (65536 (0x10000))</span></span>
+<span data-ttu-id="2f868-133"><span id="DELETE"></span><span id="delete"></span>**刪除** (65536 (0x10000) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-133"><span id="DELETE"></span><span id="delete"></span>**DELETE** (65536 (0x10000))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-134">授與刪除存取權。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-134">Grants delete access.</span></span>
+<span data-ttu-id="2f868-134">授與刪除存取權。</span><span class="sxs-lookup"><span data-stu-id="2f868-134">Grants delete access.</span></span>
 
 </dd> <dt>
 
 <span id="READ_CONTROL"></span><span id="read_control"></span>
 
-<span data-ttu-id="f0bd8-135"><span id="READ_CONTROL"></span><span id="read_control"></span>**讀取 \_控制** (131072 (0x20000) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-135"><span id="READ_CONTROL"></span><span id="read_control"></span>**READ\_CONTROL** (131072 (0x20000))</span></span>
+<span data-ttu-id="2f868-135"><span id="READ_CONTROL"></span><span id="read_control"></span>**讀取 \_控制** (131072 (0x20000) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-135"><span id="READ_CONTROL"></span><span id="read_control"></span>**READ\_CONTROL** (131072 (0x20000))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-136">授與安全描述項和擁有者的讀取權限。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-136">Grants read access to the security descriptor and owner.</span></span>
+<span data-ttu-id="2f868-136">授與安全描述項和擁有者的讀取權限。</span><span class="sxs-lookup"><span data-stu-id="2f868-136">Grants read access to the security descriptor and owner.</span></span>
 
 </dd> <dt>
 
 <span id="WRITE_DAC"></span><span id="write_dac"></span>
 
-<span data-ttu-id="f0bd8-137"><span id="WRITE_DAC"></span><span id="write_dac"></span>**寫入 \_DAC** (262144 (0x40000) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-137"><span id="WRITE_DAC"></span><span id="write_dac"></span>**WRITE\_DAC** (262144 (0x40000))</span></span>
+<span data-ttu-id="2f868-137"><span id="WRITE_DAC"></span><span id="write_dac"></span>**寫入 \_DAC** (262144 (0x40000) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-137"><span id="WRITE_DAC"></span><span id="write_dac"></span>**WRITE\_DAC** (262144 (0x40000))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-138">授與任意存取控制清單 (DACL) 的寫入權限。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-138">Grants write access to the discretionary access control list (DACL).</span></span>
+<span data-ttu-id="2f868-138">授與任意存取控制清單 (DACL) 的寫入權限。</span><span class="sxs-lookup"><span data-stu-id="2f868-138">Grants write access to the discretionary access control list (DACL).</span></span>
 
 </dd> <dt>
 
 <span id="WRITE_OWNER"></span><span id="write_owner"></span>
 
-<span data-ttu-id="f0bd8-139"><span id="WRITE_OWNER"></span><span id="write_owner"></span>**寫入 \_擁有** 者 (524288 (0x80000) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-139"><span id="WRITE_OWNER"></span><span id="write_owner"></span>**WRITE\_OWNER** (524288 (0x80000))</span></span>
+<span data-ttu-id="2f868-139"><span id="WRITE_OWNER"></span><span id="write_owner"></span>**寫入 \_擁有** 者 (524288 (0x80000) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-139"><span id="WRITE_OWNER"></span><span id="write_owner"></span>**WRITE\_OWNER** (524288 (0x80000))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-140">指派寫入擁有者。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-140">Assigns the write owner.</span></span>
+<span data-ttu-id="2f868-140">指派寫入擁有者。</span><span class="sxs-lookup"><span data-stu-id="2f868-140">Assigns the write owner.</span></span>
 
 </dd> <dt>
 
 <span id="SYNCHRONIZE"></span><span id="synchronize"></span>
 
-<span data-ttu-id="f0bd8-141"><span id="SYNCHRONIZE"></span><span id="synchronize"></span>**同步處理** (1048576 (0x100000) ) </span><span class="sxs-lookup"><span data-stu-id="f0bd8-141"><span id="SYNCHRONIZE"></span><span id="synchronize"></span>**SYNCHRONIZE** (1048576 (0x100000))</span></span>
+<span data-ttu-id="2f868-141"><span id="SYNCHRONIZE"></span><span id="synchronize"></span>**同步處理** (1048576 (0x100000) ) </span><span class="sxs-lookup"><span data-stu-id="2f868-141"><span id="SYNCHRONIZE"></span><span id="synchronize"></span>**SYNCHRONIZE** (1048576 (0x100000))</span></span>
 
 
 </dt> <dd>
 
-<span data-ttu-id="f0bd8-142">同步存取，並允許進程等候物件進入已發出信號的狀態。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-142">Synchronizes access and allows a process to wait for an object to enter the signaled state.</span></span>
+<span data-ttu-id="2f868-142">同步存取，並允許進程等候物件進入已發出信號的狀態。</span><span class="sxs-lookup"><span data-stu-id="2f868-142">Synchronizes access and allows a process to wait for an object to enter the signaled state.</span></span>
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="f0bd8-143">傳回值</span><span class="sxs-lookup"><span data-stu-id="f0bd8-143">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2f868-143">傳回值</span><span class="sxs-lookup"><span data-stu-id="2f868-143">Return value</span></span>
 
-<span data-ttu-id="f0bd8-144">如果使用者具有指定的許可權，則傳回 **True** ; 如果使用者沒有指定的許可權，則傳回 **false** 。</span><span class="sxs-lookup"><span data-stu-id="f0bd8-144">Returns **True** if the user has the specified permissions, and **false** if the user does not have the specified permissions.</span></span>
+<span data-ttu-id="2f868-144">如果使用者具有指定的許可權，則傳回 **True** ; 如果使用者沒有指定的許可權，則傳回 **false** 。</span><span class="sxs-lookup"><span data-stu-id="2f868-144">Returns **True** if the user has the specified permissions, and **false** if the user does not have the specified permissions.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f0bd8-145">規格需求</span><span class="sxs-lookup"><span data-stu-id="f0bd8-145">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2f868-145">規格需求</span><span class="sxs-lookup"><span data-stu-id="2f868-145">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f0bd8-146">需求</span><span class="sxs-lookup"><span data-stu-id="f0bd8-146">Requirement</span></span> | <span data-ttu-id="f0bd8-147">值</span><span class="sxs-lookup"><span data-stu-id="f0bd8-147">Value</span></span> |
+| <span data-ttu-id="2f868-146">需求</span><span class="sxs-lookup"><span data-stu-id="2f868-146">Requirement</span></span> | <span data-ttu-id="2f868-147">值</span><span class="sxs-lookup"><span data-stu-id="2f868-147">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="f0bd8-148">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f0bd8-148">Minimum supported client</span></span><br/> | <span data-ttu-id="f0bd8-149">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="f0bd8-149">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="f0bd8-150">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f0bd8-150">Minimum supported server</span></span><br/> | <span data-ttu-id="f0bd8-151">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="f0bd8-151">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="f0bd8-152">命名空間</span><span class="sxs-lookup"><span data-stu-id="f0bd8-152">Namespace</span></span><br/>                | <span data-ttu-id="f0bd8-153">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="f0bd8-153">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="f0bd8-154">標頭</span><span class="sxs-lookup"><span data-stu-id="f0bd8-154">Header</span></span><br/>                   | <dl> <span data-ttu-id="f0bd8-155"><dt>Aclui。h</dt></span><span class="sxs-lookup"><span data-stu-id="f0bd8-155"><dt>Aclui.h</dt></span></span> </dl>      |
-| <span data-ttu-id="f0bd8-156">MOF</span><span class="sxs-lookup"><span data-stu-id="f0bd8-156">MOF</span></span><br/>                      | <dl> <span data-ttu-id="f0bd8-157"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="f0bd8-157"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="f0bd8-158">DLL</span><span class="sxs-lookup"><span data-stu-id="f0bd8-158">DLL</span></span><br/>                      | <dl> <span data-ttu-id="f0bd8-159"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f0bd8-159"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="2f868-148">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="2f868-148">Minimum supported client</span></span><br/> | <span data-ttu-id="2f868-149">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="2f868-149">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="2f868-150">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="2f868-150">Minimum supported server</span></span><br/> | <span data-ttu-id="2f868-151">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="2f868-151">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="2f868-152">命名空間</span><span class="sxs-lookup"><span data-stu-id="2f868-152">Namespace</span></span><br/>                | <span data-ttu-id="2f868-153">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="2f868-153">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="2f868-154">標頭</span><span class="sxs-lookup"><span data-stu-id="2f868-154">Header</span></span><br/>                   | <dl> <span data-ttu-id="2f868-155"><dt>Aclui。h</dt></span><span class="sxs-lookup"><span data-stu-id="2f868-155"><dt>Aclui.h</dt></span></span> </dl>      |
+| <span data-ttu-id="2f868-156">MOF</span><span class="sxs-lookup"><span data-stu-id="2f868-156">MOF</span></span><br/>                      | <dl> <span data-ttu-id="2f868-157"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="2f868-157"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="2f868-158">DLL</span><span class="sxs-lookup"><span data-stu-id="2f868-158">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2f868-159"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="2f868-159"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f0bd8-160">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f0bd8-160">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f868-160">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2f868-160">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="f0bd8-161">[作業系統類別](/previous-versions//aa392727(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="f0bd8-161">[Operating System Classes](/previous-versions//aa392727(v=vs.85))</span></span>
+<span data-ttu-id="2f868-161">[作業系統類別](/previous-versions//aa392727(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="2f868-161">[Operating System Classes](/previous-versions//aa392727(v=vs.85))</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="f0bd8-162">**Win32 \_ ShortcutFile**</span><span class="sxs-lookup"><span data-stu-id="f0bd8-162">**Win32\_ShortcutFile**</span></span>](win32-shortcutfile.md)
+[<span data-ttu-id="2f868-162">**Win32 \_ ShortcutFile**</span><span class="sxs-lookup"><span data-stu-id="2f868-162">**Win32\_ShortcutFile**</span></span>](win32-shortcutfile.md)
 </dt> </dl>
 
  
