@@ -1,0 +1,32 @@
+---
+description: 若要使用憑證進行安全性，必須驗證所收到的每個憑證的真實性和有效性。 這項驗證取決於信任的概念和信任 \[ 平臺軟體發展工具組 (SDK) 的委派 \] 。
+ms.assetid: e6cb0280-f531-40dc-bbb1-d8115d026e03
+title: 憑證鏈
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bea42b6788997a86aade6f89d0f35d92a74daafc
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104468932"
+---
+# <a name="certificate-chains"></a><span data-ttu-id="69915-104">憑證鏈</span><span class="sxs-lookup"><span data-stu-id="69915-104">Certificate Chains</span></span>
+
+<span data-ttu-id="69915-105">若要使用 [*憑證*](../secgloss/c-gly.md) 進行安全性，必須驗證所收到的每個憑證的真實性和有效性。</span><span class="sxs-lookup"><span data-stu-id="69915-105">To use [*certificates*](../secgloss/c-gly.md) for security, the authenticity and validity of each certificate received must be verified.</span></span> <span data-ttu-id="69915-106">這項驗證取決於信任和信任委派的概念;如需詳細資訊，請參閱 [信任](hierarchy-of-trust.md)階層。</span><span class="sxs-lookup"><span data-stu-id="69915-106">This verification depends upon the concept of trust and the delegation of trust; for more information, see [Hierarchy of Trust](hierarchy-of-trust.md).</span></span>
+
+<span data-ttu-id="69915-107">每個憑證都包含一個主旨欄位，以識別憑證發出的個人或群組。</span><span class="sxs-lookup"><span data-stu-id="69915-107">Every certificate contains a subject field that identifies the individual or group to which the certificate was issued.</span></span> <span data-ttu-id="69915-108">每個憑證也都包含一個簽發者欄位，該欄位會識別 (CA 的 [*憑證授權單位*](../secgloss/c-gly.md) 單位) 有權認證主體的身分識別。</span><span class="sxs-lookup"><span data-stu-id="69915-108">Every certificate also contains an issuer field that identifies the [*certification authority*](../secgloss/c-gly.md) (CA) empowered to certify the identity of the subject.</span></span>
+
+<span data-ttu-id="69915-109">憑證鏈包含認證憑證所識別之主體所需的所有憑證。</span><span class="sxs-lookup"><span data-stu-id="69915-109">A certificate chain consists of all the certificates needed to certify the subject identified by the end certificate.</span></span> <span data-ttu-id="69915-110">在實務上，這包括 end 憑證、中繼 Ca 的憑證，以及鏈中所有合作物件所信任的根 CA 憑證。</span><span class="sxs-lookup"><span data-stu-id="69915-110">In practice this includes the end certificate, the certificates of intermediate CAs, and the certificate of a root CA trusted by all parties in the chain.</span></span> <span data-ttu-id="69915-111">連鎖店中的每個中繼 CA 都會將 CA 所發行的憑證保存在信任階層中，位於其上方的一個層級。</span><span class="sxs-lookup"><span data-stu-id="69915-111">Every intermediate CA in the chain holds a certificate issued by the CA one level above it in the trust hierarchy.</span></span> <span data-ttu-id="69915-112">根 CA 會簽發憑證給自己。</span><span class="sxs-lookup"><span data-stu-id="69915-112">The root CA issues a certificate for itself.</span></span>
+
+<span data-ttu-id="69915-113">確認剛收到之憑證的真實性和有效性的程式，包括從原始的通用受信任 CA，透過任何中繼 Ca 檢查憑證鏈中的所有憑證，直到剛收到的憑證（稱為「結束」憑證）。</span><span class="sxs-lookup"><span data-stu-id="69915-113">The process of verifying the authenticity and validity of a newly received certificate involves checking all of the certificates in the chain of certificates from the original, universally trusted CA, through any intermediate CAs, down to the certificate just received which is called the end certificate.</span></span> <span data-ttu-id="69915-114">只有當憑證鏈中的每個憑證都正確發行且有效時，才可以信任新的憑證。</span><span class="sxs-lookup"><span data-stu-id="69915-114">A new certificate can only be trusted if each certificate in that certificate's chain is properly issued and valid.</span></span>
+
+<span data-ttu-id="69915-115">追蹤所有回復新終端憑證的憑證可能會變得很麻煩。</span><span class="sxs-lookup"><span data-stu-id="69915-115">Tracking all of the certificates that back a new end certificate can become cumbersome.</span></span> <span data-ttu-id="69915-116">因此， [*CryptoAPI*](../secgloss/c-gly.md) 2.0 技術所提供的函式會自動建立可取回任何指定之終端憑證的憑證鏈。</span><span class="sxs-lookup"><span data-stu-id="69915-116">Therefore, [*CryptoAPI*](../secgloss/c-gly.md) 2.0 technology provides functions that automate creating the chain of certificates that back any given end certificate.</span></span> <span data-ttu-id="69915-117">這些函式也會檢查並報告鏈中每個憑證的有效性。</span><span class="sxs-lookup"><span data-stu-id="69915-117">These functions also check and report on the validity of each certificate in a chain.</span></span>
+
+<span data-ttu-id="69915-118">[*CryptoAPI*](../secgloss/c-gly.md) 2.0 的鏈建立和檢查功能會使用連鎖引擎來建立和驗證憑證的鏈。</span><span class="sxs-lookup"><span data-stu-id="69915-118">The chain-building and checking functions of [*CryptoAPI*](../secgloss/c-gly.md) 2.0 use a chain engine to create and verify chains of certificates.</span></span> <span data-ttu-id="69915-119">連鎖引擎會為憑證鏈基礎結構定義存放區命名空間和快取分割。</span><span class="sxs-lookup"><span data-stu-id="69915-119">A chain engine defines a store namespace and cache partitioning for the Certificate Chaining Infrastructure.</span></span> <span data-ttu-id="69915-120">CryptoAPI 2.0 針對僅使用預設系統存放 (區的任何應用程式進程（例如，MY、Root、CA 和 Trust) ）提供預設的鏈引擎，以進行鏈建立和快取。</span><span class="sxs-lookup"><span data-stu-id="69915-120">CryptoAPI 2.0 provides a default chain engine for any application process that only uses default system stores (for example, MY, Root, CA, and Trust) for chain building and caching.</span></span> <span data-ttu-id="69915-121">應用程式可以藉由建立自己的鏈引擎來定義自己的存放區命名空間，或有自己的資料分割快取。</span><span class="sxs-lookup"><span data-stu-id="69915-121">An application can define its own store namespace or have its own partitioned cache by creating its own chain engine.</span></span> <span data-ttu-id="69915-122">若要達到最佳快取行為，建議您在應用程式啟動時建立單一鏈引擎，並在應用程式的整個存留期內使用該鏈引擎。</span><span class="sxs-lookup"><span data-stu-id="69915-122">To achieve optimal caching behavior, we recommend you create a single chain engine at application startup and use that chain engine throughout the lifetime of the application.</span></span>
+
+<span data-ttu-id="69915-123">如需函式的清單，請參閱 [憑證鏈驗證功能](cryptography-functions.md)。</span><span class="sxs-lookup"><span data-stu-id="69915-123">For a list of functions, see [Certificate Chain Verification Functions](cryptography-functions.md).</span></span> <span data-ttu-id="69915-124">如需建立憑證鏈並驗證憑證的程式，請參閱 [範例 C 程式：建立憑證鏈](example-c-program-creating-a-certificate-chain.md)。</span><span class="sxs-lookup"><span data-stu-id="69915-124">For a program that builds certificate chains and verifies certificates, see [Example C Program: Creating a Certificate Chain](example-c-program-creating-a-certificate-chain.md).</span></span>
+
+ 
+
+ 
