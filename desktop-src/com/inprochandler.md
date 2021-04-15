@@ -1,0 +1,47 @@
+---
+title: InprocHandler
+description: 指定應用程式是否使用自訂處理常式。
+ms.assetid: b371b331-148b-46f2-a21e-b88b285bcfc9
+keywords:
+- InprocHandler 登錄機碼 COM
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2a8c19089ece43496465351b44e9faa8793ba893
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104372446"
+---
+# <a name="inprochandler"></a>InprocHandler
+
+指定應用程式是否使用自訂處理常式。
+
+## <a name="registry-entry"></a>登錄項目
+
+```
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
+   {CLSID}
+      InprocHandler = handler.dll
+```
+
+## <a name="remarks"></a>備註
+
+這是 **REG \_ SZ** 值，可指定應用程式所使用的自訂處理常式。 如果未使用自訂處理常式，則應該將專案設定為 Ole32.dll。
+
+如果容器正在搜尋自訂處理常式的登錄，16位版本的優先順序會和16位容器相同，且32位版本的優先順序會與32位容器相同。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[**InprocHandler32**](inprochandler32.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
