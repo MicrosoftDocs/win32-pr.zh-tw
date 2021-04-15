@@ -1,0 +1,16 @@
+- name: 星形控制器輸入
+  href: radialcontroller-portal.md
+  items:
+    - name: 放射狀控制器介面
+      href: radial-controller-interfaces.md
+      items:
+        - name: IRadialControllerConfigurationInterop
+          href: /windows/desktop/api/RadialControllerInterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop
+          items:
+            - name: GetForWindow 方法
+              href: /windows/desktop/api/RadialControllerInterop/nf-radialcontrollerinterop-iradialcontrollerconfigurationinterop-getforwindow
+        - name: IRadialControllerInterop
+          href: /windows/desktop/api/RadialControllerInterop/nn-radialcontrollerinterop-iradialcontrollerinterop
+          items:
+            - name: CreateForWindow 方法
+              href: /windows/desktop/api/RadialControllerInterop/nf-radialcontrollerinterop-iradialcontrollerinterop-createforwindow
