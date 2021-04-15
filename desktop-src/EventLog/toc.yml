@@ -1,0 +1,97 @@
+- name: 事件記錄
+  href: event-logging.md
+  items:
+    - name: 關於事件記錄
+      href: about-event-logging.md
+      items:
+        - name: 事件類型
+          href: event-types.md
+        - name: 記錄指導方針
+          href: logging-guidelines.md
+        - name: 事件記錄元素
+          href: event-logging-elements.md
+          items:
+            - name: Eventlog 索引鍵
+              href: eventlog-key.md
+            - name: 事件來源
+              href: event-sources.md
+            - name: 事件類別
+              href: event-categories.md
+            - name: 事件識別碼
+              href: event-identifiers.md
+            - name: 訊息檔案
+              href: message-files.md
+              items:
+                - name: 訊息文字檔
+                  href: message-text-files.md
+                - name: 範例訊息文字檔
+                  href: sample-message-text-file.md
+            - name: 事件記錄檔記錄
+              href: event-log-records.md
+            - name: 事件資料
+              href: event-data.md
+        - name: 事件記錄作業
+          href: event-logging-operations.md
+        - name: 事件記錄模型
+          href: event-logging-model.md
+          items:
+            - name: 事件記錄檔格式
+              href: event-log-file-format.md
+            - name: 從事件記錄檔讀取
+              href: reading-from-the-event-log.md
+            - name: 查看事件記錄檔
+              href: viewing-the-event-log.md
+        - name: 事件記錄安全性
+          href: event-logging-security.md
+    - name: 使用事件記錄
+      href: using-event-logging.md
+      items:
+        - name: 查詢事件資訊
+          href: querying-for-event-source-messages.md
+        - name: 報告事件
+          href: reporting-an-event.md
+        - name: 接收事件通知
+          href: receiving-event-notification.md
+    - name: 事件記錄參考
+      href: event-logging-reference.md
+      items:
+        - name: 事件記錄功能
+          href: event-logging-functions.md
+          items:
+            - name: BackupEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-backupeventloga
+            - name: ClearEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-cleareventloga
+            - name: CloseEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-closeeventlog
+            - name: DeregisterEventSource
+              href: /windows/desktop/api/Winbase/nf-winbase-deregistereventsource
+            - name: GetEventLogInformation
+              href: /windows/desktop/api/Winbase/nf-winbase-geteventloginformation
+            - name: GetNumberOfEventLogRecords
+              href: /windows/desktop/api/Winbase/nf-winbase-getnumberofeventlogrecords
+            - name: GetOldestEventLogRecord
+              href: /windows/desktop/api/Winbase/nf-winbase-getoldesteventlogrecord
+            - name: NotifyChangeEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog
+            - name: OpenBackupEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-openbackupeventloga
+            - name: OpenEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-openeventloga
+            - name: ReadEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-readeventloga
+            - name: RegisterEventSource
+              href: /windows/desktop/api/Winbase/nf-winbase-registereventsourcea
+            - name: ReportEvent
+              href: /windows/desktop/api/Winbase/nf-winbase-reporteventa
+        - name: 事件記錄結構
+          href: event-logging-structures.md
+          items:
+            - name: ELF_EOF_RECORD
+              href: /previous-versions/windows/desktop/legacy/bb309022(v=vs.85)
+            - name: ELF_LOGFILE_HEADER
+              href: /previous-versions/windows/desktop/legacy/bb309024(v=vs.85)
+            - name: EVENTLOG_FULL_INFORMATION
+              href: /windows/win32/api/Winbase/ns-winbase-eventlog_full_information
+            - name: EVENTLOGRECORD
+              href: /windows/win32/api/Winnt/ns-winnt-eventlogrecord
