@@ -1,0 +1,122 @@
+---
+description: 以下是有關針對 Windows Vista SDK 所安裝的 Tablet PC 平臺元件進行開發的常見問題 (常見問題) 。
+ms.assetid: eb349493-a2b2-4b58-bcbc-ee09953c8dc8
+title: " (Tablet PC 的常見問題) "
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8722c00fa5aaf2b43494484fc015fa8b3e4c7826
+ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "104383446"
+---
+# <a name="frequently-asked-questions-about-developing-for-the-tablet-pc-platform"></a><span data-ttu-id="06cd2-103">針對 Tablet PC 平臺進行開發的常見問題</span><span class="sxs-lookup"><span data-stu-id="06cd2-103">Frequently Asked Questions about developing for the Tablet PC platform</span></span>
+
+<span data-ttu-id="06cd2-104">以下是有關針對 Windows Vista SDK 所安裝的 Tablet PC 平臺元件進行開發的常見問題 (常見問題) 。</span><span class="sxs-lookup"><span data-stu-id="06cd2-104">The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.</span></span>
+
+## <a name="q-can-i-use-the-ink-apis-or-controls-in-a-web-page"></a><span data-ttu-id="06cd2-105">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-105">Q.</span></span> <span data-ttu-id="06cd2-106">我可以在網頁中使用筆墨 Api 或控制項嗎？</span><span class="sxs-lookup"><span data-stu-id="06cd2-106">Can I use the Ink APIs or controls in a Web page?</span></span>
+
+<span data-ttu-id="06cd2-107">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-107">A.</span></span> <span data-ttu-id="06cd2-108">是。</span><span class="sxs-lookup"><span data-stu-id="06cd2-108">Yes.</span></span> <span data-ttu-id="06cd2-109">Tablet PC 受控程式庫支援部分信任的環境，也就是從網頁執行受管理的元件。</span><span class="sxs-lookup"><span data-stu-id="06cd2-109">The Tablet PC managed library supports partially trusted environments, namely execution of managed assemblies from web pages.</span></span>
+
+<span data-ttu-id="06cd2-110">此外，也支援使用 Windows Presentation Foundation 的應用程式的瀏覽器部署。</span><span class="sxs-lookup"><span data-stu-id="06cd2-110">There is also support for browser deployment of applications that use Windows Presentation Foundation.</span></span>
+
+## <a name="q-do-i-need-a-tablet-pc-to-develop-tablet-pc-applications"></a><span data-ttu-id="06cd2-111">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-111">Q.</span></span> <span data-ttu-id="06cd2-112">是否需要 Tablet PC 才能開發 Tablet PC 應用程式？</span><span class="sxs-lookup"><span data-stu-id="06cd2-112">Do I need a Tablet PC to develop Tablet PC applications?</span></span>
+
+<span data-ttu-id="06cd2-113">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-113">A.</span></span> <span data-ttu-id="06cd2-114">否，Windows SDK 安裝的 Tablet PC 平臺元件包含在桌上型電腦或膝上型電腦上開發 Tablet PC 軟體所需的擴充功能與公用程式。</span><span class="sxs-lookup"><span data-stu-id="06cd2-114">No, the Tablet PC platform components installed by the Windows SDK include the extensions and utilities needed to develop software for the Tablet PC on a desktop or laptop computer.</span></span> <span data-ttu-id="06cd2-115">您可以使用滑鼠或外部平板電腦進行手寫筆和手寫輸入。</span><span class="sxs-lookup"><span data-stu-id="06cd2-115">You can use a mouse or external tablet for pen and handwriting input.</span></span>
+
+<span data-ttu-id="06cd2-116">Windows SDK 安裝的 Tablet PC 平臺元件可以安裝在 Windows XP Professional 或 Windows Server 2003 上，但您的應用程式可使用較少的功能。</span><span class="sxs-lookup"><span data-stu-id="06cd2-116">The Tablet PC platform components installed by the Windows SDK can be installed on Windows XP Professional, or Windows Server 2003, but less functionality is available for your applications.</span></span> <span data-ttu-id="06cd2-117">在這些平臺上，您的應用程式可以使用 [**InkCollector**](inkcollector-class.md) 和 [**InkOverlay**](inkoverlay-class.md) 物件來收集筆墨，並且可以進行測試和調試。</span><span class="sxs-lookup"><span data-stu-id="06cd2-117">On these platforms, your application can collect ink with the [**InkCollector**](inkcollector-class.md) and [**InkOverlay**](inkoverlay-class.md) objects and can be tested and debugged.</span></span>
+
+<span data-ttu-id="06cd2-118">此外，只有當 Tablet PC 平臺元件是從 Windows SDK (或舊版 Tablet PC 開發工具組) ）安裝時， [InkEdit](inkedit-control-reference.md) 和 [InkPicture](inkpicture-control-reference.md) 控制項才能在這些作業系統上收集筆跡。這些應用程式不會在未安裝平臺元件的情況下，將應用程式中的筆墨收集至非 Tablet 電腦。</span><span class="sxs-lookup"><span data-stu-id="06cd2-118">Also, the [InkEdit](inkedit-control-reference.md) and [InkPicture](inkpicture-control-reference.md) controls can collect ink on these operating systems only if the Tablet PC platform components have been installed from the Windows SDK (or an older version of the Tablet PC Development Kit); they do not collect ink in applications that are redistributed to non-Tablet computers without the platform components installed.</span></span>
+
+## <a name="q-do-i-need-to-run-a-special-version-of-windows-to-do-handwriting-recognition"></a><span data-ttu-id="06cd2-119">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-119">Q.</span></span> <span data-ttu-id="06cd2-120">我是否需要執行特殊版本的 Windows 以執行手寫辨識？</span><span class="sxs-lookup"><span data-stu-id="06cd2-120">Do I need to run a special version of Windows to do handwriting recognition?</span></span>
+
+<span data-ttu-id="06cd2-121">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-121">A.</span></span> <span data-ttu-id="06cd2-122">否。</span><span class="sxs-lookup"><span data-stu-id="06cd2-122">No.</span></span> <span data-ttu-id="06cd2-123">雖然只有 Windows XP Tablet PC Edition 和特定版本的 Windows Vista 包含手寫辨識器，但您可以下載 [WINDOWS Xp TABLET Pc edition 2005 辨識器套件]( https://www.microsoft.com/downloads/details.aspx?FamilyId=080184DD-5E92-4464-B907-10762E9F918B&amp;displaylang=en) ，並將它安裝在 Windows xp Professional 或 windows Server 2003 上，以供開發之用。</span><span class="sxs-lookup"><span data-stu-id="06cd2-123">While only Windows XP Tablet PC Edition and certain versions of Windows Vista include handwriting recognizers, you can download the [Windows XP Tablet PC Edition 2005 Recognizer Pack]( https://www.microsoft.com/downloads/details.aspx?FamilyId=080184DD-5E92-4464-B907-10762E9F918B&amp;displaylang=en) and install it on Windows XP Professional or Windows Server 2003 for development purposes only.</span></span> <span data-ttu-id="06cd2-124">您不得將辨識器與您的應用程式一起轉散發。</span><span class="sxs-lookup"><span data-stu-id="06cd2-124">You may not redistribute the recognizers with your application.</span></span>
+
+## <a name="q-what-is-the-difference-between-windows-vista-and-tablet-pc-technology"></a><span data-ttu-id="06cd2-125">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-125">Q.</span></span> <span data-ttu-id="06cd2-126">Windows Vista 和 Tablet PC 技術之間有何差異？</span><span class="sxs-lookup"><span data-stu-id="06cd2-126">What is the difference between Windows Vista and Tablet PC Technology?</span></span>
+
+<span data-ttu-id="06cd2-127">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-127">A.</span></span> <span data-ttu-id="06cd2-128">Tablet Pc 會執行 Windows Vista 作業系統，並採用 Windows Vista 的所有功能，再加上 Tablet PC 特有的其他功能。</span><span class="sxs-lookup"><span data-stu-id="06cd2-128">Tablet PCs run the Windows Vista operating system, featuring all the functionality of Windows Vista plus additional features specific to the Tablet PC.</span></span> <span data-ttu-id="06cd2-129">這些 Tablet PC 技術功能可讓使用者使用畫筆、標注檔，以及使用數位筆跡建立手寫檔，來執行 Windows 和 Windows 應用程式。</span><span class="sxs-lookup"><span data-stu-id="06cd2-129">These Tablet PC Technology features enable users to run Windows and Windows applications by using a pen, annotating documents, and creating handwritten documents by using digital ink.</span></span> <span data-ttu-id="06cd2-130">Tablet PC 技術適用于大部分的 Windows Vista 版本，如果電腦上有可用的 Tablet PC 硬體，功能就會正常運作。</span><span class="sxs-lookup"><span data-stu-id="06cd2-130">Tablet PC Technology is available on most versions of Windows Vista, and if Tablet PC hardware is available on a computer, the features just work.</span></span>
+
+<span data-ttu-id="06cd2-131">對於舊版不支援筆墨的 Windows 作業系統，您可以轉散發並使用 Tablet PC 筆墨控制項來查看在 Tablet PC 上繪製的筆墨。</span><span class="sxs-lookup"><span data-stu-id="06cd2-131">For earlier versions of Windows operating systems that do not natively support ink, you can redistribute and use the Tablet PC ink controls to view ink drawn on a Tablet PC.</span></span>
+
+## <a name="q-what-is-the-difference-between-windows-xp-tablet-pc-edition-and-windows-xp-tablet-pc-edition-2005"></a><span data-ttu-id="06cd2-132">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-132">Q.</span></span> <span data-ttu-id="06cd2-133">Windows XP Tablet PC Edition 和 Windows XP Tablet PC Edition 2005 之間有何差異？</span><span class="sxs-lookup"><span data-stu-id="06cd2-133">What is the difference between Windows XP Tablet PC Edition and Windows XP Tablet PC Edition 2005?</span></span>
+
+<span data-ttu-id="06cd2-134">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-134">A.</span></span> <span data-ttu-id="06cd2-135">Windows XP Tablet PC Edition 2005 是 Windows XP Tablet PC Edition 的更新版本。</span><span class="sxs-lookup"><span data-stu-id="06cd2-135">Windows XP Tablet PC Edition 2005 is an updated version of Windows XP Tablet PC Edition.</span></span>
+
+## <a name="q-how-do-i-modify-my-application-to-run-on-a-tablet-pc"></a><span data-ttu-id="06cd2-136">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-136">Q.</span></span> <span data-ttu-id="06cd2-137">如何? 修改我的應用程式以在 Tablet PC 上執行嗎？</span><span class="sxs-lookup"><span data-stu-id="06cd2-137">How do I modify my application to run on a Tablet PC?</span></span>
+
+<span data-ttu-id="06cd2-138">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-138">A.</span></span> <span data-ttu-id="06cd2-139">在 Windows XP 桌上型電腦或具有可比較硬體的膝上型電腦上執行的 Microsoft Windows 應用程式，可以在 Tablet PC 上執行而不需要修改。</span><span class="sxs-lookup"><span data-stu-id="06cd2-139">Microsoft Windows applications that run on a Windows XP desktop or laptop computer with comparable hardware can run on a Tablet PC without modifications.</span></span>
+
+## <a name="q-i-understand-that-i-dont-need-to-make-any-changes-to-my-application-but-it-is-difficult-to-use-it-with-a-pen-and-speech-what-can-i-do-to-optimize-my-application-for-a-tablet-pc"></a><span data-ttu-id="06cd2-140">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-140">Q.</span></span> <span data-ttu-id="06cd2-141">我瞭解我不需要對我的應用程式進行任何變更，但很難使用畫筆和語音。</span><span class="sxs-lookup"><span data-stu-id="06cd2-141">I understand that I don't need to make any changes to my application, but it is difficult to use it with a pen and speech.</span></span> <span data-ttu-id="06cd2-142">我可以如何針對 Tablet PC 優化我的應用程式？</span><span class="sxs-lookup"><span data-stu-id="06cd2-142">What can I do to optimize my application for a Tablet PC?</span></span>
+
+<span data-ttu-id="06cd2-143">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-143">A.</span></span> <span data-ttu-id="06cd2-144">Tablet PC 平臺元件的 API 和筆墨控制項可以用來建立更適合畫筆和手寫輸入的使用者介面。</span><span class="sxs-lookup"><span data-stu-id="06cd2-144">The API and ink controls of the Tablet PC platform components can be used to create user interfaces that are better suited to pen and handwriting input.</span></span> <span data-ttu-id="06cd2-145">如需有關您可以改進應用程式之特定方法的詳細資訊，請參閱 [開發人員的行動電腦使用者經驗指導方針](/previous-versions//dd356056(v=vs.85))。</span><span class="sxs-lookup"><span data-stu-id="06cd2-145">For more information about specific ways you can improve your application, see [Mobile PC User Experience Guidelines for Developers](/previous-versions//dd356056(v=vs.85)).</span></span>
+
+## <a name="q-what-programming-languages-does-the-tablet-support"></a><span data-ttu-id="06cd2-146">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-146">Q.</span></span> <span data-ttu-id="06cd2-147">Tablet 支援哪些程式設計語言？</span><span class="sxs-lookup"><span data-stu-id="06cd2-147">What programming languages does the Tablet support?</span></span>
+
+<span data-ttu-id="06cd2-148">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-148">A.</span></span> <span data-ttu-id="06cd2-149">Windows Vista 中的 Tablet PC 技術支援 COM (c + +) 和 managed 程式庫 () 的 Visual Studio .NET 語言套件。</span><span class="sxs-lookup"><span data-stu-id="06cd2-149">Tablet PC Technology in Windows Vista supports COM (C++) and managed libraries (the suite of Visual Studio .NET languages).</span></span>
+
+<span data-ttu-id="06cd2-150">Tablet PC 技術也支援 Windows Presentation Foundation (WPF) 。</span><span class="sxs-lookup"><span data-stu-id="06cd2-150">The Tablet PC Technology also supports Windows Presentation Foundation (WPF).</span></span>
+
+## <a name="q-do-i-have-sample-code-that-demonstrates-tablet-platform-capabilities"></a><span data-ttu-id="06cd2-151">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-151">Q.</span></span> <span data-ttu-id="06cd2-152">我有示範平板電腦平臺功能的範例程式碼嗎？</span><span class="sxs-lookup"><span data-stu-id="06cd2-152">Do I have sample code that demonstrates Tablet platform capabilities?</span></span>
+
+<span data-ttu-id="06cd2-153">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-153">A.</span></span> <span data-ttu-id="06cd2-154">是的，COM 的範例程式碼和選取的受控語言都包含在 Windows Platform SDK 所安裝的 Tablet PC 平臺元件中。</span><span class="sxs-lookup"><span data-stu-id="06cd2-154">Yes, sample code for COM and selected managed languages is included in the Tablet PC platform components installed by the Windows Platform SDK.</span></span>
+
+<span data-ttu-id="06cd2-155">如需可用的範例應用程式，請參閱：</span><span class="sxs-lookup"><span data-stu-id="06cd2-155">For available sample applications, see:</span></span>
+
+- [<span data-ttu-id="06cd2-156">行動電腦和 Tablet PC 範例</span><span class="sxs-lookup"><span data-stu-id="06cd2-156">Mobile PC and Tablet PC Samples</span></span>](mobile-pc-and-tablet-pc-samples.md)
+- <span data-ttu-id="06cd2-157">[數位筆跡範例、Windows Presentation Foundation (WPF) ](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="06cd2-157">[Digital Ink Samples, Windows Presentation Foundation (WPF)](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))</span></span>
+- <span data-ttu-id="06cd2-158"><systemdrive>： \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ 範例 \\ 平板版</span><span class="sxs-lookup"><span data-stu-id="06cd2-158"><systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC</span></span>
+
+## <a name="q-whats-the-base-level-of-tablet-hardware-that-i-should-develop-for"></a><span data-ttu-id="06cd2-159">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-159">Q.</span></span> <span data-ttu-id="06cd2-160">我應開發的平板電腦硬體基本層級為何？</span><span class="sxs-lookup"><span data-stu-id="06cd2-160">What's the base level of Tablet hardware that I should develop for?</span></span>
+
+<span data-ttu-id="06cd2-161">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-161">A.</span></span> <span data-ttu-id="06cd2-162">一般情況下，您應該針對 Windows Vista 相容、舊版的系統設計。</span><span class="sxs-lookup"><span data-stu-id="06cd2-162">In general, you should design for a Windows Vista-compliant, legacy-free system.</span></span>
+
+## <a name="q-what-user-interface-guidelines-can-you-provide-for-tablet-applications"></a><span data-ttu-id="06cd2-163">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-163">Q.</span></span> <span data-ttu-id="06cd2-164">您可以為 Tablet 應用程式提供哪些使用者介面指導方針？</span><span class="sxs-lookup"><span data-stu-id="06cd2-164">What user interface guidelines can you provide for Tablet applications?</span></span>
+
+<span data-ttu-id="06cd2-165">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-165">A.</span></span> <span data-ttu-id="06cd2-166">從下拉式功能表方向到螢幕/數位板視差的問題，請參閱 Windows SDK 的行動電腦上的 [開發人員行動電腦使用者經驗指導方針](/previous-versions//dd356056(v=vs.85)) 一節中所述。</span><span class="sxs-lookup"><span data-stu-id="06cd2-166">Issues from drop-down menu orientation to screen/digitizer parallax are described in the [Mobile PC User Experience Guidelines for Developers](/previous-versions//dd356056(v=vs.85)) in the Mobile PC section of the Windows SDK.</span></span>
+
+## <a name="q-do-you-include-system-level-handwriting-gestures-for-commonly-used-keystrokes-can-i-create-my-own-gestures-for-use-when-an-application-is-running-or-has-focus"></a><span data-ttu-id="06cd2-167">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-167">Q.</span></span> <span data-ttu-id="06cd2-168">您是否包含常用按鍵的系統層級手寫手勢？</span><span class="sxs-lookup"><span data-stu-id="06cd2-168">Do you include system-level handwriting gestures for commonly used keystrokes?</span></span> <span data-ttu-id="06cd2-169">我可以建立自己的手勢，以在應用程式執行或焦點時使用嗎？</span><span class="sxs-lookup"><span data-stu-id="06cd2-169">Can I create my own gestures for use when an application is running or has focus?</span></span>
+
+<span data-ttu-id="06cd2-170">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-170">A.</span></span> <span data-ttu-id="06cd2-171">是，我們包含一組滑鼠事件的手勢。</span><span class="sxs-lookup"><span data-stu-id="06cd2-171">Yes, we include a set of gestures for mouse events.</span></span> <span data-ttu-id="06cd2-172">此外，您也可以建立要在應用程式中使用的手勢。</span><span class="sxs-lookup"><span data-stu-id="06cd2-172">In addition, you can create gestures for use in your application.</span></span> <span data-ttu-id="06cd2-173">如需筆勢的詳細資訊，請參閱 [使用手勢](using-gestures.md)。</span><span class="sxs-lookup"><span data-stu-id="06cd2-173">For more information about gestures, see [Using Gestures](using-gestures.md).</span></span>
+
+## <a name="q-how-can-i-determine-whether-my-application-is-running-on-a-tablet"></a><span data-ttu-id="06cd2-174">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-174">Q.</span></span> <span data-ttu-id="06cd2-175">如何判斷我的應用程式是否正在平板電腦上執行？</span><span class="sxs-lookup"><span data-stu-id="06cd2-175">How can I determine whether my application is running on a Tablet?</span></span>
+
+<span data-ttu-id="06cd2-176">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-176">A.</span></span> <span data-ttu-id="06cd2-177">使用 Windows GetSystemMetricsAPI，並傳入 SM \_ 平板電腦作為索引的值。</span><span class="sxs-lookup"><span data-stu-id="06cd2-177">Use the Windows GetSystemMetricsAPI and pass in SM\_TABLETPC as the value of the index.</span></span> <span data-ttu-id="06cd2-178">SM \_ 平板電腦定義于 Winuser 中。</span><span class="sxs-lookup"><span data-stu-id="06cd2-178">SM\_TABLETPC is defined in Winuser.h.</span></span> <span data-ttu-id="06cd2-179">SM \_ 平板電腦的值為86。</span><span class="sxs-lookup"><span data-stu-id="06cd2-179">The value of SM\_TABLETPC is 86.</span></span>
+
+<span data-ttu-id="06cd2-180">針對 web 程式開發，您應該讀取使用者 \_ 代理 \_ 字串環境變數。</span><span class="sxs-lookup"><span data-stu-id="06cd2-180">For web development, you should read the USER\_AGENT\_STRING environment variable.</span></span> <span data-ttu-id="06cd2-181">您可以存取此 ServerVariables 集合。</span><span class="sxs-lookup"><span data-stu-id="06cd2-181">You can access this Request.ServerVariables collection.</span></span>
+
+<span data-ttu-id="06cd2-182">如需如何在執行 Windows Vista 或 Windows XP Tablet PC Edition 的平板電腦上使用 GetSystemMetrics 的詳細資訊，請參閱 [判斷電腦是否為 TABLET pc](determining-whether-a-pc-is-a-tablet-pc.md)。</span><span class="sxs-lookup"><span data-stu-id="06cd2-182">For details of how to use GetSystemMetrics on Tablet PCs running either Windows Vista or Windows XP Tablet PC Edition, refer to [Determining Whether a PC is a Tablet PC](determining-whether-a-pc-is-a-tablet-pc.md).</span></span>
+
+## <a name="q-how-can-i-determine-whether-tablet-platform-components-are-available"></a><span data-ttu-id="06cd2-183">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-183">Q.</span></span> <span data-ttu-id="06cd2-184">如何判斷是否可以使用 Tablet platform 元件？</span><span class="sxs-lookup"><span data-stu-id="06cd2-184">How can I determine whether Tablet platform components are available?</span></span>
+
+<span data-ttu-id="06cd2-185">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-185">A.</span></span> <span data-ttu-id="06cd2-186">Tablet PC 平臺的某些部分可能安裝在非平板電腦版本的 Windows XP Professional、Windows Server 2003 和 Windows 2000 作業系統上。</span><span class="sxs-lookup"><span data-stu-id="06cd2-186">Certain parts of the Tablet PC platform may be installed on non-Tablet versions of the Windows XP Professional, Windows Server 2003, and Windows 2000 operating systems.</span></span>
+
+<span data-ttu-id="06cd2-187">若要判斷是否已安裝 API 的元件，正確的方式是嘗試建立物件或控制項的實例，並檢查它是否存在，然後再嘗試使用它。</span><span class="sxs-lookup"><span data-stu-id="06cd2-187">The proper way to determine if a component of the API is installed is to attempt to create an instance of an object or control and check that it exists before attempting to use it.</span></span>
+
+<span data-ttu-id="06cd2-188">例如，若要判斷 [**InkCollector**](inkcollector-class.md) 物件是否可供使用，請嘗試使用 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)來建立它。</span><span class="sxs-lookup"><span data-stu-id="06cd2-188">For example, to determine if the [**InkCollector**](inkcollector-class.md) object is available, attempt to create it using [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).</span></span>
+
+```C++
+IInkCollector* pIInkCollector = NULL;
+HRESULT hr = CoCreateInstance(CLSID_InkCollector,
+ NULL, CLSCTX_INPROC_SERVER, 
+ IID_IInkCollector,
+ (void **)&pIInkCollector);
+if (SUCCEEDED(hr)) 
+{ 
+  /* InkCollector is usable. */ 
+} else 
+{
+  /* InkCollector unavailable. */
+}
+```
+
+## <a name="q-how-do-i-run-the-tablet-input-service-on-server-skus"></a><span data-ttu-id="06cd2-189">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-189">Q.</span></span> <span data-ttu-id="06cd2-190">如何? 在伺服器 Sku 上執行平板電腦輸入服務？</span><span class="sxs-lookup"><span data-stu-id="06cd2-190">How do I run the Tablet Input Service on Server SKUs?</span></span>
+
+<span data-ttu-id="06cd2-191">A.</span><span class="sxs-lookup"><span data-stu-id="06cd2-191">A.</span></span> <span data-ttu-id="06cd2-192">TabletInputService 的設計是在安裝用戶端套件時，不會在伺服器 Sku 中自動執行。</span><span class="sxs-lookup"><span data-stu-id="06cd2-192">TabletInputService is designed not to run automatically in server SKUs when the client pack is installed.</span></span> <span data-ttu-id="06cd2-193">用戶端套件會安裝平臺中的所有元件，讓任何 Tablet 用戶端應用程式也可以在伺服器上執行。</span><span class="sxs-lookup"><span data-stu-id="06cd2-193">Client pack installs all of the components in the platform so any of the Tablet client applications can run on a server as well.</span></span> <span data-ttu-id="06cd2-194">Tablet 輸入服務會接聽是否已插入外部數位板的 PnP 通知。</span><span class="sxs-lookup"><span data-stu-id="06cd2-194">The Tablet Input Service listens for PnP notification that an external digitizer is plugged in.</span></span> <span data-ttu-id="06cd2-195">若要在伺服器上啟用平板電腦輸入服務，請使用系統組態公用程式。</span><span class="sxs-lookup"><span data-stu-id="06cd2-195">To enable the Tablet Input Service on a server, use the System Configuration Utility.</span></span>
+
+<span data-ttu-id="06cd2-196">從 [ **開始** ] 功能表選取 [ **執行**]。</span><span class="sxs-lookup"><span data-stu-id="06cd2-196">From the **Start** menu, select **Run**.</span></span> <span data-ttu-id="06cd2-197">輸入 "msconfig"，然後按 Enter。</span><span class="sxs-lookup"><span data-stu-id="06cd2-197">Type in "msconfig" and press Enter.</span></span> <span data-ttu-id="06cd2-198">選取 [ **服務** ] 索引標籤，尋找名為「隱藏輸入服務」的服務，選取旁邊的核取方塊， **然後按一下 [** 套用]。</span><span class="sxs-lookup"><span data-stu-id="06cd2-198">Select the **Services** tab, find the services named "HID Input Service", select the checkbox beside it, and then click **Apply**.</span></span> <span data-ttu-id="06cd2-199">關閉公用程式。</span><span class="sxs-lookup"><span data-stu-id="06cd2-199">Close the utility.</span></span>
+
+## <a name="q-more-faqs-and-other-resources"></a><span data-ttu-id="06cd2-200">Q.</span><span class="sxs-lookup"><span data-stu-id="06cd2-200">Q.</span></span> <span data-ttu-id="06cd2-201">更多常見問題和其他資源</span><span class="sxs-lookup"><span data-stu-id="06cd2-201">More FAQs and Other Resources</span></span>
+
+- [<span data-ttu-id="06cd2-202">Microsoft 開發人員中心</span><span class="sxs-lookup"><span data-stu-id="06cd2-202">Microsoft Developer Center</span></span>](https://developer.microsoft.com)
+- [<span data-ttu-id="06cd2-203">核心 Tablet PC 參考</span><span class="sxs-lookup"><span data-stu-id="06cd2-203">Core Tablet PC Reference</span></span>](./core-reference---tablet-pc-com-library.md)
