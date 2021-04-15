@@ -1,0 +1,1839 @@
+- name: 工作排程器
+  href: task-scheduler-start-page.md
+  items:
+    - name: 工作排程器的新功能
+      href: what-s-new-in-task-scheduler.md
+    - name: 關於工作排程器
+      href: about-the-task-scheduler.md
+      items:
+        - name: 工作
+          href: tasks.md
+        - name: 工作動作
+          href: task-actions.md
+        - name: 工作觸發程式
+          href: task-triggers.md
+          items:
+            - name: 觸發程式類型
+              href: trigger-types.md
+            - name: 觸發程式介面
+              href: trigger-interfaces.md
+            - name: 工作排程器1.0 觸發程式
+              href: task-scheduler-1-0-triggers.md
+              items:
+                - name: 工作排程器1.0 的觸發程式結構
+                  href: trigger-structures.md
+                - name: 工作排程器1.0 的閒置觸發程式
+                  href: idle-triggers.md
+        - name: 工作註冊資訊
+          href: task-registration-information.md
+        - name: 工作閒置條件
+          href: task-idle-conditions.md
+        - name: 工作的安全性內容
+          href: security-contexts-for-running-tasks.md
+        - name: 工作安全性強化
+          href: task-security-hardening.md
+        - name: 重複工作
+          href: repeating-a-task.md
+        - name: 自動維護
+          href: task-maintenence.md
+        - name: 工作排程器1.0 工作資訊
+          href: task-scheduler-1-0-task-informatation.md
+          items:
+            - name: 程式設計考量
+              href: programming-considerations.md
+            - name: 列舉工作
+              href: enumerating-tasks.md
+            - name: 排程的工作專案
+              href: scheduled-work-items.md
+              items:
+                - name: 加入工作專案
+                  href: adding-work-items.md
+                - name: 管理工作專案
+                  href: managing-work-items.md
+    - name: 使用工作排程器
+      href: using-the-task-scheduler.md
+      items:
+        - name: 在特定時間啟動可執行檔
+          href: starting-an-executable-at-a-spcific-time.md
+          items:
+            - name: 腳本)  (時間觸發程式範例
+              href: time-trigger-example--scripting-.md
+            - name: '時間觸發程式範例 (c + +) '
+              href: time-trigger-example--c---.md
+            - name: ' (XML) 的時間觸發程式範例'
+              href: time-trigger-example--xml-.md
+        - name: 每天啟動可執行檔
+          href: starting-an-executable-daily.md
+          items:
+            - name: ' (腳本) 的每日觸發程式範例'
+              href: daily-trigger-example--scripting-.md
+            - name: ' (c + +) 的每日觸發程式範例'
+              href: daily-trigger-example--c---.md
+            - name: ' (XML) 的每日觸發程式範例'
+              href: daily-trigger-example--xml-.md
+        - name: 在工作註冊時啟動可執行檔
+          href: starting-an-executable-when-a-task-is-registered.md
+          items:
+            - name: ' (腳本) 的註冊觸發程式範例'
+              href: registration-trigger-example--scripting-.md
+            - name: ' (c + +) 的註冊觸發程式範例'
+              href: registration-trigger-example--c---.md
+            - name: ' (XML) 的註冊觸發程式範例'
+              href: registration-trigger-example--xml-.md
+        - name: 每週啟動可執行檔
+          href: starting-an-executable-weekly.md
+          items:
+            - name: ' (腳本) 的每週觸發程式範例'
+              href: weekly-trigger-example--scripting-.md
+            - name: ' (c + +) 的每週觸發程式範例'
+              href: weekly-trigger-example--c---.md
+            - name: ' (XML) 的每週觸發程式範例'
+              href: weekly-trigger-example--xml-.md
+        - name: 當使用者登入時啟動可執行檔
+          href: starting-an-executable-when-a-user-logs-on.md
+          items:
+            - name: '登入觸發程式範例 (腳本) '
+              href: logon-trigger-example--scripting-.md
+            - name: ' (c + +) 的登入觸發程式範例'
+              href: logon-trigger-example--c---.md
+            - name: ' (XML) 的登入觸發程式範例'
+              href: logon-trigger-example--xml-.md
+        - name: 在系統開機時啟動可執行檔
+          href: starting-an-executable-on-system-boot.md
+          items:
+            - name: ' (腳本) 的開機觸發程式範例'
+              href: boot-trigger-example--scripting-.md
+            - name: ' (c + +) 的開機觸發程式範例'
+              href: boot-trigger-example--c---.md
+            - name: ' (XML) 的開機觸發程式範例'
+              href: boot-trigger-example--xml-.md
+        - name: 列舉工作和顯示工作資訊
+          href: enumerating-tasks-and-displaying-task-information.md
+          items:
+            - name: '顯示工作名稱和狀態 (腳本) '
+              href: displaying-task-names-and-state--scripting-.md
+            - name: '顯示工作名稱和狀態 (c + +) '
+              href: displaying-task-names-and-state--c---.md
+        - name: 工作排程器1.0 範例
+          href: task-scheduler-1-0-examples.md
+          items:
+            - name: 使用 NewWorkItem 範例建立工作
+              href: creating-a-task-using-newworkitem-example.md
+              items:
+                - name: C/c + + 程式碼範例：使用 NewWorkItem 建立工作
+                  href: c-c-code-example-creating-a-task-using-newworkitem.md
+            - name: 列舉工作範例
+              href: enumerating-tasks-example.md
+              items:
+                - name: C/c + + 程式碼範例：列舉工作
+                  href: c-c-code-example-enumerating-tasks.md
+            - name: 啟動工作範例
+              href: starting-a-task-example.md
+              items:
+                - name: C/c + + 程式碼範例：啟動工作
+                  href: c-c-code-example-starting-a-task.md
+            - name: 使用屬性頁編輯工作專案
+              href: editing-a-work-item-using-property-pages.md
+              items:
+                - name: C/c + + 程式碼範例：編輯工作專案
+                  href: c-c-code-example-editing-a-work-item.md
+            - name: 正在抓取工作專案屬性範例
+              href: retrieving-work-item-property-examples.md
+              items:
+                - name: C/c + + 程式碼範例：正在抓取工作帳戶資訊
+                  href: c-c-code-example-retrieving-task-account-information.md
+                - name: C/c + + 程式碼範例：抓取工作批註
+                  href: c-c-code-example-retrieving-a-task-comment.md
+                - name: C/c + + 程式碼範例：正在抓取工作建立者
+                  href: c-c-code-example-retrieving-the-task-creator.md
+                - name: C/c + + 程式碼範例：正在抓取工作結束代碼
+                  href: c-c-code-example-retrieving-task-exit-code.md
+                - name: C/c + + 程式碼範例：正在抓取工作閒置-等候時間
+                  href: c-c-code-example-retrieving-task-idle-wait-time.md
+                - name: C/c + + 程式碼範例：取出工作 MostRecentRun 時間
+                  href: c-c-code-example-retrieving-the-task-mostrecentrun-time.md
+                - name: C/c + + 程式碼範例：取出工作 NextRun 時間
+                  href: c-c-code-example-retrieving-the-task-nextrun-time.md
+                - name: C/c + + 程式碼範例：正在抓取工作執行時間
+                  href: c-c-code-example-retrieving-task-run-times.md
+                - name: C/c + + 程式碼範例：正在抓取工作狀態
+                  href: c-c-code-example-retrieving-task-status.md
+            - name: 設定工作專案屬性範例
+              href: setting-work-item-property-examples.md
+              items:
+                - name: C/c + + 程式碼範例：設定工作帳戶資訊
+                  href: c-c-code-example-setting-task-account-information.md
+                - name: C/c + + 程式碼範例：設定工作批註
+                  href: c-c-code-example-setting-task-comment.md
+            - name: 正在抓取工作屬性範例
+              href: retrieving-task-property-examples.md
+              items:
+                - name: C/c + + 程式碼範例：正在抓取工作應用程式名稱
+                  href: c-c-code-example-retrieving-the-task-application-name.md
+                - name: C/c + + 程式碼範例：正在抓取工作 MaxRunTime
+                  href: c-c-code-example-retrieving-the-task-maxruntime.md
+                - name: C/c + + 程式碼範例：正在抓取工作參數
+                  href: c-c-code-example-retrieving-task-parameters.md
+                - name: C/c + + 程式碼範例：正在抓取工作優先權
+                  href: c-c-code-example-retrieving-task-priority.md
+                - name: C/c + + 程式碼範例：取出工作工作目錄
+                  href: c-c-code-example-retrieving-the-task-working-directory.md
+            - name: 設定工作屬性範例
+              href: setting-task-property-examples.md
+              items:
+                - name: C/c + + 程式碼範例：設定應用程式名稱
+                  href: c-c-code-example-setting-application-name.md
+                - name: C/c + + 程式碼範例：設定 MaxRunTime
+                  href: c-c-code-example-setting-maxruntime.md
+                - name: C/c + + 程式碼範例：設定工作參數
+                  href: c-c-code-example-setting-task-parameters.md
+                - name: C/c + + 程式碼範例：設定工作優先順序
+                  href: c-c-code-example-setting-task-priority.md
+                - name: C/c + + 程式碼範例：設定工作目錄
+                  href: c-c-code-example-setting-working-directory.md
+            - name: 正在抓取工作頁面範例
+              href: retrieving-a-task-page-example.md
+              items:
+                - name: C/c + + 程式碼範例：取出工作頁面
+                  href: c-c-code-example-retrieving-a-task-page.md
+            - name: 建立新的觸發程式
+              href: creating-a-new-trigger.md
+              items:
+                - name: C/c + + 程式碼範例：建立工作觸發程式
+                  href: c-c-code-example-creating-a-task-trigger.md
+            - name: 建立閒置觸發程式範例
+              href: creating-an-idle-trigger-example.md
+              items:
+                - name: C/c + + 程式碼範例：建立閒置觸發程式
+                  href: c-c-code-example-creating-an-idle-trigger.md
+            - name: 終止工作範例
+              href: terminating-a-task-example.md
+              items:
+                - name: C/c + + 程式碼範例：終止工作
+                  href: c-c-code-example-terminating-a-task.md
+            - name: 正在抓取觸發字串範例
+              href: retrieving-trigger-strings-example.md
+              items:
+                - name: C/c + + 程式碼範例：正在抓取觸發字串
+                  href: c-c-code-example-retrieving-trigger-strings.md
+    - name: 工作排程器參考
+      href: task-scheduler-reference.md
+      items:
+        - name: 工作排程器腳本物件
+          href: task-scheduler-objects.md
+          items:
+            - name: 動作
+              href: action.md
+              items:
+                - name: Action.Id
+                  href: action-id.md
+                - name: 動作。類型
+                  href: action-type.md
+            - name: Actioncollection 動作
+              href: actioncollection.md
+              items:
+                - name: Actioncollection 動作。內容
+                  href: actioncollection-context.md
+                - name: Actioncollection 動作計數
+                  href: actioncollection-count.md
+                - name: Actioncollection 動作專案
+                  href: actioncollection-item.md
+                - name: ActionCollection.Xml文字
+                  href: actioncollection-xmltext.md
+                - name: Actioncollection 動作。 Clear
+                  href: actioncollection-clear.md
+                - name: Actioncollection 動作建立
+                  href: actioncollection-create.md
+                - name: Actioncollection 動作。移除
+                  href: actioncollection-remove.md
+            - name: BootTrigger
+              href: boottrigger.md
+              items:
+                - name: BootTrigger 延遲
+                  href: boottrigger-delay.md
+            - name: ComHandlerAction
+              href: comhandleraction.md
+              items:
+                - name: ComHandlerAction
+                  href: comhandleraction-classid.md
+                - name: ComHandlerAction 資料
+                  href: comhandleraction-data.md
+            - name: DailyTrigger
+              href: dailytrigger.md
+              items:
+                - name: DailyTrigger.DaysInterval
+                  href: dailytrigger-daysinterval.md
+                - name: DailyTrigger. RandomDelay
+                  href: dailytrigger-randomdelay.md
+            - name: EmailAction
+              href: emailaction.md
+              items:
+                - name: EmailAction 附件
+                  href: emailaction-attachments.md
+                - name: EmailAction 密件副本
+                  href: emailaction-bcc.md
+                - name: EmailAction
+                  href: emailaction-body.md
+                - name: EmailAction.Cc
+                  href: emailaction-cc.md
+                - name: EmailAction
+                  href: emailaction-from.md
+                - name: EmailAction.HeaderFields
+                  href: emailaction-headerfields.md
+                - name: EmailAction ReplyTo
+                  href: emailaction-replyto.md
+                - name: EmailAction 伺服器
+                  href: emailaction-server.md
+                - name: EmailAction 主題
+                  href: emailaction-subject.md
+                - name: EmailAction.To
+                  href: emailaction-to.md
+            - name: EventTrigger
+              href: eventtrigger.md
+              items:
+                - name: EventTrigger 延遲
+                  href: eventtrigger-delay.md
+                - name: EventTrigger 訂用帳戶
+                  href: eventtrigger-subscription.md
+                - name: EventTrigger. ValueQueries
+                  href: eventtrigger-valuequeries.md
+            - name: ExecAction
+              href: execaction.md
+              items:
+                - name: ExecAction. 引數
+                  href: execaction-arguments.md
+                - name: ExecAction 路徑
+                  href: execaction-path.md
+                - name: ExecAction. WorkingDirectory
+                  href: execaction-workingdirectory.md
+            - name: IdleSettings
+              href: idlesettings.md
+              items:
+                - name: IdleSettings. IdleDuration
+                  href: idlesettings-idleduration.md
+                - name: IdleSettings.RestartOnIdle
+                  href: idlesettings-restartonidle.md
+                - name: IdleSettings.StopOnIdleEnd
+                  href: idlesettings-stoponidleend.md
+                - name: IdleSettings. WaitTimeout
+                  href: idlesettings-waittimeout.md
+            - name: IdleTrigger
+              href: idletrigger.md
+            - name: LogonTrigger
+              href: logontrigger.md
+              items:
+                - name: LogonTrigger 延遲
+                  href: logontrigger-delay.md
+                - name: LogonTrigger。 UserId
+                  href: logontrigger-userid.md
+            - name: MonthlyDOWTrigger
+              href: monthlydowtrigger.md
+              items:
+                - name: MonthlyDOWTrigger. DaysOfWeek
+                  href: monthlydowtrigger-daysofweek.md
+                - name: MonthlyDOWTrigger.MonthsOfYear
+                  href: monthlydowtrigger-monthsofyear.md
+                - name: MonthlyDOWTrigger. RandomDelay
+                  href: monthlydowtrigger-randomdelay.md
+                - name: MonthlyDOWTrigger.RunOnLastWeekOfMonth
+                  href: monthlydowtrigger-runonlastweekofmonth.md
+                - name: MonthlyDOWTrigger.WeeksOfMonth
+                  href: monthlydowtrigger-weeksofmonth.md
+            - name: MonthlyTrigger
+              href: monthlytrigger.md
+              items:
+                - name: MonthlyTrigger.DaysOfMonth
+                  href: monthlytrigger-daysofmonth.md
+                - name: MonthlyTrigger.MonthsOfYear
+                  href: monthlytrigger-monthsofyear.md
+                - name: MonthlyTrigger. RandomDelay
+                  href: monthlytrigger-randomdelay.md
+                - name: MonthlyTrigger.RunOnLastDayOfMonth
+                  href: monthlytrigger-runonlastdayofmonth.md
+            - name: NetworkSettings
+              href: networksettings.md
+              items:
+                - name: NetworkSettings.Id
+                  href: networksettings-id.md
+                - name: NetworkSettings.Name
+                  href: networksettings-name.md
+            - name: 主體
+              href: principal.md
+              items:
+                - name: Principal. DisplayName
+                  href: principal-displayname.md
+                - name: Principal
+                  href: principal-groupid.md
+                - name: Principal.Id
+                  href: principal-id.md
+                - name: Principal. LogonType
+                  href: principal-logontype.md
+                - name: Principal。 UserId
+                  href: principal-userid.md
+                - name: Principal. RunLevel
+                  href: principal-runlevel.md
+            - name: RegisteredTask
+              href: registeredtask.md
+              items:
+                - name: RegisteredTask 定義
+                  href: registeredtask-definition.md
+                - name: RegisteredTask。已啟用
+                  href: registeredtask-enabled.md
+                - name: RegisteredTask.LastRunTime
+                  href: registeredtask-lastruntime.md
+                - name: RegisteredTask.LastTaskResult
+                  href: registeredtask-lasttaskresult.md
+                - name: RegisteredTask.Name
+                  href: registeredtask-name.md
+                - name: RegisteredTask.NextRunTime
+                  href: registeredtask-nextruntime.md
+                - name: RegisteredTask.NumberOfMissedRuns
+                  href: registeredtask-numberofmissedruns.md
+                - name: RegisteredTask 路徑
+                  href: registeredtask-path.md
+                - name: RegisteredTask。州
+                  href: registeredtask-state.md
+                - name: RegisteredTask.XML
+                  href: registeredtask-xml.md
+                - name: RegisteredTask.GetInstances
+                  href: registeredtask-getinstances.md
+                - name: RegisteredTask.GetRunTimes
+                  href: registeredtask-getruntimes.md
+                - name: RegisteredTask. GetSecurityDescriptor
+                  href: registeredtask-getsecuritydescriptor.md
+                - name: RegisteredTask。執行
+                  href: registeredtask-run.md
+                - name: RegisteredTask.RunEx
+                  href: registeredtask-runex.md
+                - name: RegisteredTask.SetSecurityDescriptor
+                  href: registeredtask-setsecuritydescriptor.md
+                - name: RegisteredTask。停止
+                  href: registeredtask-stop.md
+            - name: RegisteredTaskCollection
+              href: registeredtaskcollection.md
+              items:
+                - name: RegisteredTaskCollection 計數
+                  href: registeredtaskcollection-count.md
+                - name: RegisteredTaskCollection 專案
+                  href: registeredtaskcollection-item.md
+            - name: RegistrationInfo
+              href: registrationinfo.md
+              items:
+                - name: RegistrationInfo 作者
+                  href: registrationinfo-author.md
+                - name: RegistrationInfo。日期
+                  href: registrationinfo-date.md
+                - name: RegistrationInfo。描述
+                  href: registrationinfo-description.md
+                - name: RegistrationInfo.Documentation
+                  href: registrationinfo-documentation.md
+                - name: RegistrationInfo. SecurityDescriptor
+                  href: registrationinfo-securitydescriptor.md
+                - name: RegistrationInfo 來源
+                  href: registrationinfo-source.md
+                - name: RegistrationInfo URI
+                  href: registrationinfo-uri.md
+                - name: RegistrationInfo 版本
+                  href: registrationinfo-version.md
+                - name: RegistrationInfo.Xml文字
+                  href: registrationinfo-xmltext.md
+            - name: RegistrationTrigger
+              href: registrationtrigger.md
+              items:
+                - name: RegistrationTrigger 延遲
+                  href: registrationtrigger-delay.md
+            - name: RepetitionPattern
+              href: repetitionpattern.md
+              items:
+                - name: RepetitionPattern 持續時間
+                  href: repetitionpattern-duration.md
+                - name: RepetitionPattern。間隔
+                  href: repetitionpattern-interval.md
+                - name: RepetitionPattern.StopAtDurationEnd
+                  href: repetitionpattern-stopatdurationend.md
+            - name: RunningTask
+              href: runningtask.md
+              items:
+                - name: RunningTask.CurrentAction
+                  href: runningtask-currentaction.md
+                - name: RunningTask.EnginePID
+                  href: runningtask-enginepid.md
+                - name: RunningTask. InstanceGuid
+                  href: runningtask-instanceguid.md
+                - name: RunningTask.Name
+                  href: runningtask-name.md
+                - name: RunningTask 路徑
+                  href: runningtask-path.md
+                - name: RunningTask。州
+                  href: runningtask-state.md
+                - name: RunningTask。重新整理
+                  href: runningtask-refresh.md
+                - name: RunningTask。停止
+                  href: runningtask-stop.md
+            - name: RunningTaskCollection
+              href: runningtaskcollection.md
+              items:
+                - name: RunningTaskCollection 計數
+                  href: runningtaskcollection-count.md
+                - name: RunningTaskCollection 專案
+                  href: runningtaskcollection-item.md
+            - name: SessionStateChangeTrigger
+              href: sessionstatechangetrigger.md
+              items:
+                - name: SessionStateChangeTrigger 延遲
+                  href: sessionstatechangetrigger-delay.md
+                - name: SessionStateChangeTrigger. StateChange
+                  href: sessionstatechangetrigger-statechange.md
+                - name: SessionStateChangeTrigger。 UserId
+                  href: sessionstatechangetrigger-userid.md
+            - name: ShowMessageAction
+              href: showmessageaction.md
+              items:
+                - name: ShowMessageAction. MessageBody
+                  href: showmessageaction-messagebody.md
+                - name: ShowMessageAction 標題
+                  href: showmessageaction-title.md
+            - name: TaskDefinition
+              href: taskdefinition.md
+              items:
+                - name: TaskDefinition 動作
+                  href: taskdefinition-actions.md
+                - name: TaskDefinition 資料
+                  href: taskdefinition-data.md
+                - name: TaskDefinition 主體
+                  href: taskdefinition-principal.md
+                - name: TaskDefinition. RegistrationInfo
+                  href: taskdefinition-registrationinfo.md
+                - name: TaskDefinition 設定
+                  href: taskdefinition-settings.md
+                - name: TaskDefinition 觸發程式
+                  href: taskdefinition-triggers.md
+                - name: TaskDefinition.Xml文字
+                  href: taskdefinition-xmltext.md
+            - name: TaskFolder
+              href: taskfolder.md
+              items:
+                - name: TaskFolder. CreateFolder
+                  href: taskfolder-createfolder.md
+                - name: TaskFolder.DeleteFolder
+                  href: taskfolder-deletefolder.md
+                - name: TaskFolder.DeleteTask
+                  href: taskfolder-deletetask.md
+                - name: TaskFolder. GetFolder
+                  href: taskfolder-getfolder.md
+                - name: TaskFolder.GetFolders
+                  href: taskfolder-getfolders.md
+                - name: TaskFolder. GetSecurityDescriptor
+                  href: taskfolder-getsecuritydescriptor.md
+                - name: TaskFolder.GetTask
+                  href: taskfolder-gettask.md
+                - name: TaskFolder.GetTasks
+                  href: taskfolder-gettasks.md
+                - name: TaskFolder.Name
+                  href: taskfolder-name.md
+                - name: TaskFolder 路徑
+                  href: taskfolder-path.md
+                - name: TaskFolder.RegisterTask
+                  href: taskfolder-registertask.md
+                - name: TaskFolder. RegisterTaskDefinition
+                  href: taskfolder-registertaskdefinition.md
+                - name: TaskFolder.SetSecurityDescriptor
+                  href: taskfolder-setsecuritydescriptor.md
+            - name: TaskFolderCollection
+              href: taskfoldercollection.md
+              items:
+                - name: TaskFolderCollection 計數
+                  href: taskfoldercollection-count.md
+                - name: TaskFolderCollection 專案
+                  href: taskfoldercollection-item.md
+            - name: TaskNamedValueCollection
+              href: tasknamedvaluecollection.md
+              items:
+                - name: TaskNamedValueCollection。 Clear
+                  href: tasknamedvaluecollection-clear.md
+                - name: TaskNamedValueCollection 計數
+                  href: tasknamedvaluecollection-count.md
+                - name: TaskNamedValueCollection 建立
+                  href: tasknamedvaluecollection-create.md
+                - name: TaskNamedValueCollection 專案
+                  href: tasknamedvaluecollection-item.md
+                - name: TaskNamedValueCollection。移除
+                  href: tasknamedvaluecollection-remove.md
+            - name: TaskNamedValuePair
+              href: tasknamedvaluepair.md
+              items:
+                - name: TaskNamedValuePair.Name
+                  href: tasknamedvaluepair-name.md
+                - name: TaskNamedValuePair。值
+                  href: tasknamedvaluepair-value.md
+            - name: TaskService
+              href: taskservice.md
+              items:
+                - name: TaskService 連接
+                  href: taskservice-connect.md
+                - name: TaskService。已連線
+                  href: taskservice-connected.md
+                - name: TaskService. ConnectedDomain
+                  href: taskservice-connecteddomain.md
+                - name: TaskService. >connecteduser
+                  href: taskservice-connecteduser.md
+                - name: TaskService. GetFolder
+                  href: taskservice-getfolder.md
+                - name: TaskService. GetRunningTasks
+                  href: taskservice-getrunningtasks.md
+                - name: TaskService. HighestVersion
+                  href: taskservice-highestversion.md
+                - name: TaskService. NewTask
+                  href: taskservice-newtask.md
+                - name: TaskService. TargetServer
+                  href: taskservice-targetserver.md
+            - name: TaskSettings
+              href: tasksettings.md
+              items:
+                - name: TaskSettings.AllowDemandStart
+                  href: tasksettings-allowdemandstart.md
+                - name: TaskSettings.AllowHardTerminate
+                  href: tasksettings-allowhardterminate.md
+                - name: TaskSettings 相容性
+                  href: tasksettings-compatibility.md
+                - name: TaskSettings.DeleteExpiredTaskAfter
+                  href: tasksettings-deleteexpiredtaskafter.md
+                - name: TaskSettings.DisallowStartIfOnBatteries
+                  href: tasksettings-disallowstartifonbatteries.md
+                - name: TaskSettings。已啟用
+                  href: tasksettings-enabled.md
+                - name: TaskSettings.ExecutionTimeLimit
+                  href: tasksettings-executiontimelimit.md
+                - name: TaskSettings。隱藏
+                  href: tasksettings-hidden.md
+                - name: TaskSettings.IdleSettings
+                  href: tasksettings-idlesettings.md
+                - name: TaskSettings.MultipleInstances
+                  href: tasksettings-multipleinstances.md
+                - name: TaskSettings.NetworkSettings
+                  href: tasksettings-networksettings.md
+                - name: TaskSettings。優先順序
+                  href: tasksettings-priority.md
+                - name: TaskSettings.RestartCount
+                  href: tasksettings-restartcount.md
+                - name: TaskSettings.RestartInterval
+                  href: tasksettings-restartinterval.md
+                - name: TaskSettings.RunOnlyIfIdle
+                  href: tasksettings-runonlyifidle.md
+                - name: TaskSettings.RunOnlyIfNetworkAvailable
+                  href: tasksettings-runonlyifnetworkavailable.md
+                - name: TaskSettings.StartWhenAvailable
+                  href: tasksettings-startwhenavailable.md
+                - name: TaskSettings.StopIfGoingOnBatteries
+                  href: tasksettings-stopifgoingonbatteries.md
+                - name: TaskSettings. WakeToRun
+                  href: tasksettings-waketorun.md
+                - name: TaskSettings.Xml文字
+                  href: tasksettings-xmltext.md
+            - name: TaskVariables
+              href: taskvariables.md
+              items:
+                - name: TaskVariables. GetCoNtext
+                  href: taskvariables-getcontext.md
+                - name: TaskVariables. >getinput
+                  href: taskvariables-getinput.md
+                - name: TaskVariables. SetOutput
+                  href: taskvariables-setoutput.md
+            - name: TimeTrigger
+              href: timetrigger.md
+              items:
+                - name: TimeTrigger. RandomDelay
+                  href: timetrigger-randomdelay.md
+            - name: 觸發程序
+              href: trigger.md
+              items:
+                - name: 觸發程式。已啟用
+                  href: trigger-enabled.md
+                - name: EndBoundary
+                  href: trigger-endboundary.md
+                - name: Trigger.ExecutionTimeLimit
+                  href: trigger-executiontimelimit.md
+                - name: Trigger.Id
+                  href: trigger-id.md
+                - name: 觸發程式。重複
+                  href: trigger-repetition.md
+                - name: StartBoundary
+                  href: trigger-startboundary.md
+                - name: 觸發程式。類型
+                  href: trigger-type.md
+            - name: TriggerCollection
+              href: triggercollection.md
+              items:
+                - name: TriggerCollection 計數
+                  href: triggercollection-count.md
+                - name: TriggerCollection 專案
+                  href: triggercollection-item.md
+                - name: TriggerCollection。 Clear
+                  href: triggercollection-clear.md
+                - name: TriggerCollection 建立
+                  href: triggercollection-create.md
+                - name: TriggerCollection。移除
+                  href: triggercollection-remove.md
+            - name: WeeklyTrigger
+              href: weeklytrigger.md
+              items:
+                - name: WeeklyTrigger. DaysOfWeek
+                  href: weeklytrigger-daysofweek.md
+                - name: WeeklyTrigger. RandomDelay
+                  href: weeklytrigger-randomdelay.md
+                - name: WeeklyTrigger.WeeksInterval
+                  href: weeklytrigger-weeksinterval.md
+        - name: 工作排程器介面
+          href: task-scheduler-interfaces.md
+          items:
+            - name: 工作排程器1.0 介面
+              href: task-scheduler-1-0-interfaces.md
+              items:
+                - name: IEnumWorkItems
+                  href: /windows/desktop/api/Mstask/nn-mstask-ienumworkitems
+                  items:
+                    - name: IEnumWorkItems：： Clone
+                      href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-clone
+                    - name: IEnumWorkItems：： Next
+                      href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-next
+                    - name: IEnumWorkItems：： Reset
+                      href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-reset
+                    - name: IEnumWorkItems：： Skip
+                      href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-skip
+                - name: IProvideTaskPage
+                  href: /windows/desktop/api/Mstask/nn-mstask-iprovidetaskpage
+                  items:
+                    - name: 'IProvideTaskPage::GetPage'
+                      href: /windows/desktop/api/Mstask/nf-mstask-iprovidetaskpage-getpage
+                - name: IScheduledWorkItem
+                  href: /windows/desktop/api/Mstask/nn-mstask-ischeduledworkitem
+                  items:
+                    - name: IScheduledWorkItem：： CreateTrigger
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-createtrigger
+                    - name: 'IScheduledWorkItem：:D eleteTrigger'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-deletetrigger
+                    - name: 'IScheduledWorkItem::EditWorkItem'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-editworkitem
+                    - name: 'IScheduledWorkItem::GetAccountInformation'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getaccountinformation
+                    - name: 'IScheduledWorkItem::GetComment'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getcomment
+                    - name: 'IScheduledWorkItem::GetCreator'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getcreator
+                    - name: 'IScheduledWorkItem::GetErrorRetryCount'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-geterrorretrycount
+                    - name: 'IScheduledWorkItem::GetErrorRetryInterval'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-geterrorretryinterval
+                    - name: 'IScheduledWorkItem::GetExitCode'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getexitcode
+                    - name: IScheduledWorkItem：： GetFlags
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getflags
+                    - name: 'IScheduledWorkItem::GetIdleWait'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getidlewait
+                    - name: 'IScheduledWorkItem::GetMostRecentRunTime'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getmostrecentruntime
+                    - name: 'IScheduledWorkItem::GetNextRunTime'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getnextruntime
+                    - name: 'IScheduledWorkItem::GetRunTimes'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getruntimes
+                    - name: IScheduledWorkItem：： GetStatus
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getstatus
+                    - name: 'IScheduledWorkItem::GetTrigger'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-gettrigger
+                    - name: 'IScheduledWorkItem::GetTriggerCount'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-gettriggercount
+                    - name: 'IScheduledWorkItem::GetTriggerString'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-gettriggerstring
+                    - name: 'IScheduledWorkItem::GetWorkItemData'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getworkitemdata
+                    - name: IScheduledWorkItem：： Run
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-run
+                    - name: 'IScheduledWorkItem::SetAccountInformation'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setaccountinformation
+                    - name: 'IScheduledWorkItem::SetComment'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setcomment
+                    - name: 'IScheduledWorkItem::SetCreator'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setcreator
+                    - name: 'IScheduledWorkItem::SetErrorRetryCount'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-seterrorretrycount
+                    - name: 'IScheduledWorkItem::SetErrorRetryInterval'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-seterrorretryinterval
+                    - name: 'IScheduledWorkItem::SetFlags'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setflags
+                    - name: 'IScheduledWorkItem::SetIdleWait'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setidlewait
+                    - name: 'IScheduledWorkItem::SetWorkItemData'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setworkitemdata
+                    - name: IScheduledWorkItem：： Terminate
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-terminate
+                - name: ITask
+                  href: /windows/desktop/api/Mstask/nn-mstask-itask
+                  items:
+                    - name: ITask：： GetApplicationName
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getapplicationname
+                    - name: ITask：： GetMaxRunTime
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getmaxruntime
+                    - name: ITask：： GetParameters
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getparameters
+                    - name: ITask：： GetPriority
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getpriority
+                    - name: ITask：： GetTaskFlags
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-gettaskflags
+                    - name: ITask：： GetWorkingDirectory
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getworkingdirectory
+                    - name: ITask：： SetApplicationName
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setapplicationname
+                    - name: ITask：： SetMaxRunTime
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setmaxruntime
+                    - name: ITask：： SetParameters
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setparameters
+                    - name: ITask：： SetPriority
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setpriority
+                    - name: ITask：： SetTaskFlags
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-settaskflags
+                    - name: ITask：： SetWorkingDirectory
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setworkingdirectory
+                - name: ITaskScheduler
+                  href: /windows/desktop/api/Mstask/nn-mstask-itaskscheduler
+                  items:
+                    - name: ITaskScheduler：： Activate
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate
+                    - name: ITaskScheduler：： Azuretasks
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-addworkitem
+                    - name: 'ITaskScheduler：:D elete'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-delete
+                    - name: ITaskScheduler：： Enum
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-enum
+                    - name: 'ITaskScheduler::GetTargetComputer'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-gettargetcomputer
+                    - name: 'ITaskScheduler::IsOfType'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-isoftype
+                    - name: 'ITaskScheduler::NewWorkItem'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-newworkitem
+                    - name: 'ITaskScheduler::SetTargetComputer'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-settargetcomputer
+                - name: ITaskTrigger
+                  href: /windows/desktop/api/Mstask/nn-mstask-itasktrigger
+                  items:
+                    - name: 'ITaskTrigger::GetTrigger'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itasktrigger-gettrigger
+                    - name: 'ITaskTrigger::GetTriggerString'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itasktrigger-gettriggerstring
+                    - name: 'ITaskTrigger::SetTrigger'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itasktrigger-settrigger
+            - name: 工作排程器2.0 介面
+              href: task-scheduler-2-0-interfaces.md
+              items:
+                - name: IAction
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iaction
+                  items:
+                    - name: IAction 的 Id 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iaction-get_id
+                    - name: IAction 的 Type 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iaction-get_type
+                - name: IActionCollection
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iactioncollection
+                  items:
+                    - name: IActionCollection 的 CoNtext 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_context
+                    - name: IActionCollection 的 Count 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_count
+                    - name: IActionCollection 的 Item 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_item
+                    - name: IActionCollection 的 XmlText 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_xmltext
+                    - name: IActionCollection 的 _NewEnum 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get__newenum
+                    - name: IActionCollection：： Clear
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-clear
+                    - name: IActionCollection：： Create
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create
+                    - name: IActionCollection：： Remove
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-remove
+                - name: IBootTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iboottrigger
+                  items:
+                    - name: IBootTrigger 的 Delay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iboottrigger-get_delay
+                - name: IComHandlerAction
+                  href: /windows/desktop/api/taskschd/nn-taskschd-icomhandleraction
+                  items:
+                    - name: IComHandlerAction 的 ClassId 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_classid
+                    - name: IComHandlerAction 的資料屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data
+                - name: IDailyTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-idailytrigger
+                  items:
+                    - name: IDailyTrigger 的 DaysInterval 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-idailytrigger-get_daysinterval
+                    - name: IDailyTrigger 的 RandomDelay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-idailytrigger-get_randomdelay
+                - name: IEmailAction
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iemailaction
+                  items:
+                    - name: IEmailAction 的附件屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_attachments
+                    - name: IEmailAction 的密件副本屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc
+                    - name: IEmailAction 的 Body 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body
+                    - name: IEmailAction 的 Cc 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_cc
+                    - name: From IEmailAction 的屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_from
+                    - name: IEmailAction 的 HeaderFields 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_headerfields
+                    - name: IEmailAction 的 ReplyTo 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_replyto
+                    - name: IEmailAction 的伺服器屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_server
+                    - name: IEmailAction 的 Subject 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject
+                    - name: IEmailAction 的屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to
+                - name: IEventTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-ieventtrigger
+                  items:
+                    - name: IEventTrigger 的 Delay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_delay
+                    - name: IEventTrigger 的訂用帳戶屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_subscription
+                    - name: IEventTrigger 的 ValueQueries 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_valuequeries
+                - name: IExecAction
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iexecaction
+                  items:
+                    - name: IExecAction 的 Arguments 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments
+                    - name: IExecAction 的 Path 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_path
+                    - name: IExecAction 的 WorkingDirectory 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory
+                - name: IIdleSettings
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iidlesettings
+                  items:
+                    - name: IIdleSettings 的 IdleDuration 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_idleduration
+                    - name: IIdleSettings 的 RestartOnIdle 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_restartonidle
+                    - name: IIdleSettings 的 StopOnIdleEnd 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_stoponidleend
+                    - name: IIdleSettings 的 WaitTimeout 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_waittimeout
+                - name: IIdleTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iidletrigger
+                - name: ILogonTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-ilogontrigger
+                  items:
+                    - name: ILogonTrigger 的 Delay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ilogontrigger-get_delay
+                    - name: ILogonTrigger 的 UserId 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ilogontrigger-get_userid
+                - name: IMaintenanceSettings
+                  href: /windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings
+                  items:
+                    - name: 期限屬性
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_deadline
+                    - name: 專有屬性
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_exclusive
+                    - name: Period 屬性
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_period
+                - name: IMonthlyDOWTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger
+                  items:
+                    - name: IMonthlyDOWTrigger 的 DaysOfWeek 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_daysofweek
+                    - name: IMonthlyDOWTrigger 的 MonthsOfYear 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_monthsofyear
+                    - name: IMonthlyDOWTrigger 的 RandomDelay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_randomdelay
+                    - name: IMonthlyDOWTrigger 的 RunOnLastWeekOfMonth 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_runonlastweekofmonth
+                    - name: IMonthlyDOWTrigger 的 WeeksOfMonth 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_weeksofmonth
+                - name: IMonthlyTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger
+                  items:
+                    - name: IMonthlyTrigger 的 DaysOfMonth 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_daysofmonth
+                    - name: IMonthlyTrigger 的 MonthsOfYear 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_monthsofyear
+                    - name: IMonthlyTrigger 的 RandomDelay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_randomdelay
+                    - name: IMonthlyTrigger 的 RunOnLastDayOfMonth 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_runonlastdayofmonth
+                - name: INetworkSettings
+                  href: /windows/desktop/api/taskschd/nn-taskschd-inetworksettings
+                  items:
+                    - name: INetworkSettings 的 Id 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-inetworksettings-get_id
+                    - name: INetworkSettings 的 Name 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-inetworksettings-get_name
+                - name: IPrincipal
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iprincipal
+                  items:
+                    - name: IPrincipal 的 DisplayName 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_displayname
+                    - name: IPrincipal 的 GroupId 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_groupid
+                    - name: IPrincipal 的 Id 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_id
+                    - name: IPrincipal 的 LogonType 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_logontype
+                    - name: IPrincipal 的 UserId 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid
+                    - name: IPrincipal 的 RunLevel 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel
+                - name: IPrincipal2
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iprincipal2
+                  items:
+                    - name: AddRequiredPrivilege 方法
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-addrequiredprivilege
+                    - name: ProcessTokenSidType 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_processtokensidtype
+                    - name: RequiredPrivilege 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilege
+                    - name: RequiredPrivilegeCount 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilegecount
+                - name: IRegisteredTask
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iregisteredtask
+                  items:
+                    - name: IRegisteredTask 的 Definition 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_definition
+                    - name: IRegisteredTask 的 Enabled 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_enabled
+                    - name: IRegisteredTask 的 LastRunTime 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lastruntime
+                    - name: IRegisteredTask 的 LastTaskResult 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lasttaskresult
+                    - name: IRegisteredTask 的 Name 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_name
+                    - name: IRegisteredTask 的 NextRunTime 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_nextruntime
+                    - name: IRegisteredTask 的 NumberOfMissedRuns 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_numberofmissedruns
+                    - name: IRegisteredTask 的 Path 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_path
+                    - name: IRegisteredTask 的 State 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_state
+                    - name: IRegisteredTask 的 XML 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_xml
+                    - name: 'IRegisteredTask::GetInstances'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getinstances
+                    - name: 'IRegisteredTask::GetRunTimes'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getruntimes
+                    - name: IRegisteredTask：： GetSecurityDescriptor
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getsecuritydescriptor
+                    - name: IRegisteredTask：： Run
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run
+                    - name: 'IRegisteredTask::RunEx'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-runex
+                    - name: 'IRegisteredTask::SetSecurityDescriptor'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-setsecuritydescriptor
+                    - name: IRegisteredTask：： Stop
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-stop
+                - name: IRegisteredTaskCollection
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iregisteredtaskcollection
+                  items:
+                    - name: IRegisteredTaskCollection 的 Count 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtaskcollection-get_count
+                    - name: IRegisteredTaskCollection 的 Item 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtaskcollection-get_item
+                    - name: IRegisteredTaskCollection 的 _NewEnum 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtaskcollection-get__newenum
+                - name: IRegistrationInfo
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iregistrationinfo
+                  items:
+                    - name: IRegistrationInfo 的 Author 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_author
+                    - name: IRegistrationInfo 的 Date 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_date
+                    - name: IRegistrationInfo 的 Description 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_description
+                    - name: IRegistrationInfo 的檔案屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_documentation
+                    - name: IRegistrationInfo 的 SecurityDescriptor 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_securitydescriptor
+                    - name: IRegistrationInfo 的 Source 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_source
+                    - name: IRegistrationInfo 的 URI 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_uri
+                    - name: IRegistrationInfo 的 Version 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_version
+                    - name: IRegistrationInfo 的 XmlText 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_xmltext
+                - name: IRegistrationTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iregistrationtrigger
+                  items:
+                    - name: IRegistrationTrigger 的 Delay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationtrigger-get_delay
+                - name: IRepetitionPattern
+                  href: /windows/desktop/api/taskschd/nn-taskschd-irepetitionpattern
+                  items:
+                    - name: IRepetitionPattern 的 Duration 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irepetitionpattern-get_duration
+                    - name: IRepetitionPattern 的 Interval 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irepetitionpattern-get_interval
+                    - name: IRepetitionPattern 的 StopAtDurationEnd 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irepetitionpattern-get_stopatdurationend
+                - name: IRunningTask
+                  href: /windows/desktop/api/taskschd/nn-taskschd-irunningtask
+                  items:
+                    - name: IRunningTask 的 CurrentAction 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_currentaction
+                    - name: IRunningTask 的 EnginePID 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_enginepid
+                    - name: IRunningTask 的 InstanceGuid 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_instanceguid
+                    - name: IRunningTask 的 Name 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_name
+                    - name: IRunningTask 的 Path 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_path
+                    - name: IRunningTask 的 State 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_state
+                    - name: IRunningTask：： Refresh
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-refresh
+                    - name: IRunningTask：： Stop
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-stop
+                - name: IRunningTaskCollection
+                  href: /windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection
+                  items:
+                    - name: IRunningTaskCollection 的 Count 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtaskcollection-get_count
+                    - name: IRunningTaskCollection 的 Item 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtaskcollection-get_item
+                    - name: IRunningTaskCollection 的 _NewEnum 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtaskcollection-get__newenum
+                - name: ISessionStateChangeTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger
+                  items:
+                    - name: ISessionStateChangeTrigger 的 Delay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_delay
+                    - name: ISessionStateChangeTrigger 的 StateChange 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_statechange
+                    - name: ISessionStateChangeTrigger 的 UserId 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_userid
+                - name: IShowMessageAction
+                  href: /windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction
+                  items:
+                    - name: IShowMessageAction 的 MessageBody 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody
+                    - name: IShowMessageAction 的 Title 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_title
+                - name: ITaskDefinition
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskdefinition
+                  items:
+                    - name: ITaskDefinition 的 Actions 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_actions
+                    - name: ITaskDefinition 的資料屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_data
+                    - name: ITaskDefinition 的 Principal 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal
+                    - name: ITaskDefinition 的 RegistrationInfo 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_registrationinfo
+                    - name: ITaskDefinition 的 Settings 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings
+                    - name: ITaskDefinition 的 trigger 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_triggers
+                    - name: ITaskDefinition 的 XmlText 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_xmltext
+                - name: ITaskFolder
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskfolder
+                  items:
+                    - name: ITaskFolder 的 Name 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_name
+                    - name: ITaskFolder 的 Path 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_path
+                    - name: ITaskFolder：： CreateFolder
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-createfolder
+                    - name: 'ITaskFolder：:D eleteFolder'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletefolder
+                    - name: 'ITaskFolder：:D eleteTask'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletetask
+                    - name: ITaskFolder：： GetFolder
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolder
+                    - name: ITaskFolder：： GetFolders
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders
+                    - name: ITaskFolder：： GetSecurityDescriptor
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getsecuritydescriptor
+                    - name: ITaskFolder：： GetTask
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettask
+                    - name: ITaskFolder：： GetTasks
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettasks
+                    - name: ITaskFolder：： RegisterTask
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask
+                    - name: ITaskFolder：： RegisterTaskDefinition
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition
+                    - name: ITaskFolder：： SetSecurityDescriptor
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-setsecuritydescriptor
+                - name: ITaskFolderCollection
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskfoldercollection
+                  items:
+                    - name: ITaskFolderCollection 的 Count 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfoldercollection-get_count
+                    - name: ITaskFolderCollection 的 Item 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfoldercollection-get_item
+                    - name: ITaskFolderCollection 的 _NewEnum 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfoldercollection-get__newenum
+                - name: ITaskHandler
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskhandler
+                  items:
+                    - name: 'ITaskHandler：:P ause'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-pause
+                    - name: ITaskHandler：： Resume
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-resume
+                    - name: ITaskHandler：： Start
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-start
+                    - name: ITaskHandler：： Stop
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-stop
+                - name: ITaskHandlerStatus
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskhandlerstatus
+                  items:
+                    - name: ITaskHandlerStatus：： UpdateStatus
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus
+                    - name: ITaskHandlerStatus：： TaskCompleted
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-taskcompleted
+                - name: ITaskNamedValueCollection
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluecollection
+                  items:
+                    - name: ITaskNamedValueCollection 的 Count 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_count
+                    - name: ITaskNamedValueCollection 的 Item 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_item
+                    - name: ITaskNamedValueCollection 的 _NewEnum 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get__newenum
+                    - name: ITaskNamedValueCollection：： Clear
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-clear
+                    - name: ITaskNamedValueCollection：： Create
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-create
+                    - name: ITaskNamedValueCollection：： Remove
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-remove
+                - name: ITaskNamedValuePair
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluepair
+                  items:
+                    - name: ITaskNamedValuePair 的 Name 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluepair-get_name
+                    - name: ITaskNamedValuePair 的 Value 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluepair-get_value
+                - name: ITaskService
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskservice
+                  items:
+                    - name: ITaskService 的 Connected 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connected
+                    - name: ITaskService 的 ConnectedDomain 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connecteddomain
+                    - name: ITaskService 的 >connecteduser 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connecteduser
+                    - name: ITaskService 的 HighestVersion 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_highestversion
+                    - name: ITaskService 的 TargetServer 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver
+                    - name: ITaskService：： Connect
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect
+                    - name: ITaskService：： GetFolder
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-getfolder
+                    - name: ITaskService：： GetRunningTasks
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-getrunningtasks
+                    - name: ITaskService：： NewTask
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-newtask
+                - name: ITaskSettings
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings
+                  items:
+                    - name: ITaskSettings 的 AllowDemandStart 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowdemandstart
+                    - name: ITaskSettings 的 AllowHardTerminate 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowhardterminate
+                    - name: ITaskSettings 的相容性屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility
+                    - name: ITaskSettings 的 DeleteExpiredTaskAfter 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_deleteexpiredtaskafter
+                    - name: ITaskSettings 的 DisallowStartIfOnBatteries 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_disallowstartifonbatteries
+                    - name: ITaskSettings 的 Enabled 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_enabled
+                    - name: ITaskSettings 的 ExecutionTimeLimit 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_executiontimelimit
+                    - name: ITaskSettings 的 Hidden 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_hidden
+                    - name: ITaskSettings 的 IdleSettings 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_idlesettings
+                    - name: ITaskSettings 的 MultipleInstances 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_multipleinstances
+                    - name: ITaskSettings 的 NetworkSettings 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_networksettings
+                    - name: ITaskSettings 的 Priority 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_priority
+                    - name: ITaskSettings 的 RestartCount 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartcount
+                    - name: ITaskSettings 的 RestartInterval 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartinterval
+                    - name: ITaskSettings 的 RunOnlyIfIdle 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_runonlyifidle
+                    - name: ITaskSettings 的 RunOnlyIfNetworkAvailable 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_runonlyifnetworkavailable
+                    - name: ITaskSettings 的 StartWhenAvailable 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_startwhenavailable
+                    - name: ITaskSettings 的 StopIfGoingOnBatteries 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_stopifgoingonbatteries
+                    - name: ITaskSettings 的 WakeToRun 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_waketorun
+                    - name: ITaskSettings 的 XmlText 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_xmltext
+                - name: ITaskSettings2
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings2
+                  items:
+                    - name: DisallowStartOnRemoteAppSession 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings2-get_disallowstartonremoteappsession
+                    - name: UseUnifiedSchedulingEngine 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings2-get_useunifiedschedulingengine
+                - name: ITaskSettings3
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings3
+                  items:
+                    - name: CreateMantenanceSettings 方法
+                      href: /previous-versions/windows/desktop/legacy/hh832149(v=vs.85)
+                    - name: MaintenanceSettings 屬性
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings
+                    - name: Volatile 屬性
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_volatile
+                - name: ITaskVariables
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskvariables
+                  items:
+                    - name: ITaskVariables：： GetCoNtext
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getcontext
+                    - name: ITaskVariables：： >getinput
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getinput
+                    - name: ITaskVariables：： SetOutput
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskvariables-setoutput
+                - name: ITimeTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itimetrigger
+                  items:
+                    - name: ITimeTrigger 的 RandomDelay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itimetrigger-get_randomdelay
+                - name: ITrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itrigger
+                  items:
+                    - name: ITrigger 的 Enabled 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_enabled
+                    - name: ITrigger 的 EndBoundary 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_endboundary
+                    - name: ITrigger 的 ExecutionTimeLimit 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_executiontimelimit
+                    - name: ITrigger 的 Id 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_id
+                    - name: ITrigger 的重複屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_repetition
+                    - name: ITrigger 的 StartBoundary 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_startboundary
+                    - name: ITrigger 的 Type 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type
+                - name: ITriggerCollection
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itriggercollection
+                  items:
+                    - name: ITriggerCollection 的 Count 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get_count
+                    - name: ITriggerCollection 的 Item 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get_item
+                    - name: ITriggerCollection 的 _NewEnum 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get__newenum
+                    - name: ITriggerCollection：： Clear
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-clear
+                    - name: ITriggerCollection：： Create
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create
+                    - name: ITriggerCollection：： Remove
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-remove
+                - name: IWeeklyTrigger
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger
+                  items:
+                    - name: IWeeklyTrigger 的 DaysOfWeek 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_daysofweek
+                    - name: IWeeklyTrigger 的 RandomDelay 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_randomdelay
+                    - name: IWeeklyTrigger 的 WeeksInterval 屬性
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_weeksinterval
+        - name: 工作排程器結構和等位
+          href: task-scheduler-structures-and-unions.md
+          items:
+            - name: 每天
+              href: /windows/win32/api/Mstask/ns-mstask-daily
+            - name: MONTHLYDATE
+              href: /windows/win32/api/Mstask/ns-mstask-monthlydate
+            - name: MONTHLYDOW
+              href: /windows/win32/api/Mstask/ns-mstask-monthlydow
+            - name: TASK_TRIGGER
+              href: /windows/win32/api/Mstask/ns-mstask-task_trigger
+            - name: TRIGGER_TYPE_UNION
+              href: /windows/win32/api/Mstask/ns-mstask-trigger_type_union
+            - name: 每週
+              href: /windows/win32/api/Mstask/ns-mstask-weekly
+        - name: 工作排程器列舉類型
+          href: task-scheduler-enumerated-types.md
+          items:
+            - name: 工作排程器1.0 列舉類型
+              href: task-scheduler-1-0-enumerated-types.md
+              items:
+                - name: TASK_TRIGGER_TYPE
+                  href: /windows/win32/api/Mstask/ne-mstask-task_trigger_type
+                - name: TASKPAGE
+                  href: /windows/win32/api/Mstask/ne-mstask-taskpage
+            - name: 工作排程器2.0 列舉類型
+              href: task-scheduler-2-0-enumerated-types.md
+              items:
+                - name: TASK_ACTION_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_action_type
+                - name: TASK_COMPATIBILITY
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_compatibility
+                - name: TASK_CREATION
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_creation
+                - name: TASK_ENUM_FLAGS
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_enum_flags
+                - name: TASK_INSTANCES_POLICY
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_instances_policy
+                - name: TASK_LOGON_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_logon_type
+                - name: TASK_PROCESSTOKENSID_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_processtokensid_type
+                - name: TASK_RUNLEVEL_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_runlevel_type
+                - name: TASK_RUN_FLAGS
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_run_flags
+                - name: TASK_SESSION_STATE_CHANGE_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_session_state_change_type
+                - name: TASK_STATE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_state
+                - name: TASK_TRIGGER_TYPE2
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_trigger_type2
+        - name: 工作排程器架構
+          href: task-scheduler-schema.md
+          items:
+            - name: 工作排程器架構元素
+              href: task-scheduler-schema-elements.md
+              items:
+                - name: TaskType) 元素 (動作
+                  href: taskschedulerschema-actions-tasktype-element.md
+                - name: AllowHardTerminate (settingsType) 元素
+                  href: taskschedulerschema-allowhardterminate-settingstype-element.md
+                - name: AllowStartOnDemand (settingsType) 元素
+                  href: taskschedulerschema-allowstartondemand-settingstype-element.md
+                - name: 四月 (monthsType) 元素
+                  href: taskschedulerschema-april-monthstype-element.md
+                - name: 引數 (execType) 元素
+                  href: taskschedulerschema-arguments-exectype-element.md
+                - name: 附件 (sendEmailType) 元素
+                  href: taskschedulerschema-attachments-sendemailtype-element.md
+                - name: 八月 (monthsType) 元素
+                  href: taskschedulerschema-august-monthstype-element.md
+                - name: 編寫 (registrationInfoType) 元素
+                  href: taskschedulerschema-author-registrationinfotype-element.md
+                - name: SendEmailType) 元素的內文 (主體
+                  href: taskschedulerschema-body-sendemailtype-element.md
+                - name: ShowMessageType) 元素的內文 (主體
+                  href: taskschedulerschema-body-showmessagetype-element.md
+                - name: BootTrigger (bootTriggerType) 元素
+                  href: taskschedulerschema-boottrigger-triggergroup-element.md
+                - name: 密件副本 (sendEmailType) 元素
+                  href: taskschedulerschema-bcc-sendemailtype-element.md
+                - name: CalendarTrigger (calendarTriggerType) 元素
+                  href: taskschedulerschema-calendartrigger-triggergroup-element.md
+                - name: Cc (sendEmailType) 元素
+                  href: taskschedulerschema-cc-sendemailtype-element.md
+                - name: ' (comHandlerType) 元素的 ClassId'
+                  href: taskschedulerschema-classid-comhandlertype-element.md
+                - name: ComHandler (actionGroup) 元素
+                  href: taskschedulerschema-comhandler-actiongroup-element.md
+                - name: 命令 (execType) 元素
+                  href: taskschedulerschema-command-exectype-element.md
+                - name: Count (restartType) 元素
+                  href: taskschedulerschema-count-restarttype-element.md
+                - name: 資料 (comHandlerType) 元素
+                  href: taskschedulerschema-data-comhandlertype-element.md
+                - name: 資料 (taskType) 元素
+                  href: taskschedulerschema-data-tasktype-element.md
+                - name: 日期 (registrationInfoType) 元素
+                  href: taskschedulerschema-date-registrationinfotype-element.md
+                - name: Day (daysOfMonthType) 元素
+                  href: taskschedulerschema-day-daysofmonthtype-element.md
+                - name: DaysInterval (dailyScheduleType) 元素
+                  href: taskschedulerschema-daysinterval-dailyscheduletype-element.md
+                - name: DaysOfMonth (monthlyScheduleType) 元素
+                  href: taskschedulerschema-daysofmonth-monthlyscheduletype-element.md
+                - name: DaysOfWeek (monthlyDayOfWeekScheduleType) 元素
+                  href: taskschedulerschema-daysofweek-monthlydayofweekscheduletype-element.md
+                - name: DaysOfWeek (weeklyScheduleType) 元素
+                  href: taskschedulerschema-daysofweek-weeklyscheduletype-element.md
+                - name: 期限元素
+                  href: taskschedulerschema-deadline-element.md
+                - name: 12月 (monthsType) 元素
+                  href: taskschedulerschema-december-monthstype-element.md
+                - name: 延遲 (bootTriggerType) 元素
+                  href: taskschedulerschema-delay-boottriggertype-element.md
+                - name: 延遲 (eventTriggerType) 元素
+                  href: taskschedulerschema-delay-eventtriggertype-element.md
+                - name: 延遲 (logonTriggerType) 元素
+                  href: taskschedulerschema-delay-logontriggertype-element.md
+                - name: 延遲 (registrationTriggerType) 元素
+                  href: taskschedulerschema-delay-registrationtriggertype-element.md
+                - name: 延遲 (sessionStateChangeTriggerType) 元素
+                  href: taskschedulerschema-delay-sessionstatechangetriggertype-element.md
+                - name: DeleteExpiredTaskAfter (settingsType) 元素
+                  href: taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md
+                - name: 描述 (registrationInfoType) 元素
+                  href: taskschedulerschema-description-registrationinfotype-element.md
+                - name: DisallowStartIfOnBatteries (settingsType) 元素
+                  href: taskschedulerschema-disallowstartifonbatteries-settingstype-element.md
+                - name: DisallowStartOnRemoteAppSession (settingsType) 元素
+                  href: taskschedulerschema-disallowstartonremoteappsession-settingstype-element.md
+                - name: DisplayName (principalType) 元素
+                  href: taskschedulerschema-displayname-principaltype-element.md
+                - name: 檔 (registrationInfoType) 元素
+                  href: taskschedulerschema-documentation-registrationinfotype-element.md
+                - name: 持續時間 (idleSettingsType) 元素
+                  href: taskschedulerschema-duration-idlesettingstype-element.md
+                - name: 持續時間 (repetitionType) 元素
+                  href: taskschedulerschema-duration-repetitiontype-element.md
+                - name: 已啟用 (settingsType) 元素
+                  href: taskschedulerschema-enabled-settingstype-element.md
+                - name: 已啟用 (triggerBaseType) 元素
+                  href: taskschedulerschema-enabled-triggerbasetype-element.md
+                - name: EndBoundary (triggerBaseType) 元素
+                  href: taskschedulerschema-endboundary-triggerbasetype-element.md
+                - name: EventTrigger (triggerGroup) 元素
+                  href: taskschedulerschema-eventtrigger-triggergroup-element.md
+                - name: Exclusive 元素
+                  href: taskschedulerschema-exclusive-element.md
+                - name: Exec (actionGroup) 元素
+                  href: taskschedulerschema-exec-actiongroup-element.md
+                - name: ExecutionTimeLimit (settingsType) 元素
+                  href: taskschedulerschema-executiontimelimit-settingstype-element.md
+                - name: ExecutionTimeLimit (triggerBaseType) 元素
+                  href: taskschedulerschema-executiontimelimit-triggerbasetype-element.md
+                - name: MonthsType) 元素的二月 (
+                  href: taskschedulerschema-february-monthstype-element.md
+                - name: File (attachmentsType) 元素
+                  href: taskschedulerschema-file-attachmentstype-element.md
+                - name: 星期五 (daysOfWeekType) 元素
+                  href: taskschedulerschema-friday-daysofweektype-element.md
+                - name: 從 (sendEmailType) 元素
+                  href: taskschedulerschema-from-sendemailtype-element.md
+                - name: GroupId (principalType) 元素
+                  href: taskschedulerschema-groupid-principaltype-element.md
+                - name: HeaderFields (sendEmailType) 元素
+                  href: taskschedulerschema-headerfields-sendemailtype-element.md
+                - name: HeaderField (headerFieldsType) 元素
+                  href: taskschedulerschema-headerfield-headerfieldstype-element.md
+                - name: 隱藏的 (settingsType) 元素
+                  href: taskschedulerschema-hidden-settingstype-element.md
+                - name: IdleSettings (settingsType) 元素
+                  href: taskschedulerschema-idlesettings-settingstype-element.md
+                - name: IdleTrigger (triggerGroup) 元素
+                  href: taskschedulerschema-idletrigger-triggergroup-element.md
+                - name: Id (networkSettingsType) 元素
+                  href: taskschedulerschema-id-networksettingstype-element.md
+                - name: 間隔 (repetitionType) 元素
+                  href: taskschedulerschema-interval-repetitiontype-element.md
+                - name: 間隔 (restartType) 元素
+                  href: taskschedulerschema-interval-restarttype-element.md
+                - name: 1月 (monthsType) 元素
+                  href: taskschedulerschema-january-monthstype-element.md
+                - name: 七月 (monthsType) 元素
+                  href: taskschedulerschema-july-monthstype-element.md
+                - name: 六月 (monthsType) 元素
+                  href: taskschedulerschema-june-monthstype-element.md
+                - name: LogonTrigger (triggerGroup) 元素
+                  href: taskschedulerschema-logontrigger-triggergroup-element.md
+                - name: LogonType (principalType) 元素
+                  href: taskschedulerschema-logontype-principaltype-element.md
+                - name: MaintenanceSettings (maintenanceSettingsType) 元素
+                  href: taskschedulerschema-maintenancesettings-maintenancesettingstype-element.md
+                - name: 三月 (monthsType) 元素
+                  href: taskschedulerschema-march-monthstype-element.md
+                - name: 可 (monthsType) 元素
+                  href: taskschedulerschema-may-monthstype-element.md
+                - name: 星期一 (weeklyScheduleType) 元素
+                  href: taskschedulerschema-monday-daysofweektype-element.md
+                - name: MonthlyDayOfWeekScheduleType) 元素 (月份
+                  href: taskschedulerschema-months-monthlydayofweekscheduletype-element.md
+                - name: MonthlyScheduleType) 元素 (月份
+                  href: taskschedulerschema-months-monthlyscheduletype-element.md
+                - name: MultipleInstancesPolicy (multipleInstancesPolicyType) 元素
+                  href: taskschedulerschema-multipleinstancespolicy-settingstype-element.md
+                - name: HeaderFieldType) 專案的名稱 (
+                  href: taskschedulerschema-name-headerfieldtype-element.md
+                - name: NetworkSettingsType) 專案的名稱 (
+                  href: taskschedulerschema-name-networksettingstype-element.md
+                - name: NetworkProfileName (settingsType) 元素
+                  href: taskschedulerschema-networkprofilename-settingstype-element.md
+                - name: NetworkSettings (settingsType) 元素
+                  href: taskschedulerschema-networksettings-settingstype-element.md
+                - name: 11月 (monthsType) 元素
+                  href: taskschedulerschema-november-monthstype-element.md
+                - name: 十月 (monthsType) 元素
+                  href: taskschedulerschema-october-monthstype-element.md
+                - name: Period 元素
+                  href: taskschedulerschema-period-element.md
+                - name: Principal (principalType) 元素
+                  href: taskschedulerschema-principal-principaltype-element.md
+                - name: 主體 (taskType) 元素
+                  href: taskschedulerschema-principals-tasktype-element.md
+                - name: 許可權 (requiredPrivilegesType) 元素
+                  href: taskschedulerschema-privilege-requiredprivilegestype-element.md
+                - name: ProcessTokenSidType (principalType) 元素
+                  href: taskschedulerschema-processtokensidtype-principaltype-element.md
+                - name: 優先權 (settingsType) 元素
+                  href: taskschedulerschema-priority-settingstype-element.md
+                - name: RandomDelay (calendarTriggerType) 元素
+                  href: taskschedulerschema-randomdelay-calendartriggertype-element.md
+                - name: RandomDelay (timeTriggerType) 元素
+                  href: taskschedulerschema-randomdelay-timetriggertype-element.md
+                - name: RegistrationInfo (taskType) 元素
+                  href: taskschedulerschema-registrationinfo-tasktype-element.md
+                - name: RegistrationTrigger (registrationTriggerType) 元素
+                  href: taskschedulerschema-registrationtrigger-triggergroup-element.md
+                - name: 重複 (triggerBaseType) 元素
+                  href: taskschedulerschema-repetition-triggerbasetype-element.md
+                - name: ReplyTo (sendEmailType) 元素
+                  href: taskschedulerschema-replyto-sendemailtype-element.md
+                - name: RequiredPrivileges (requiredPrivilegesType) 元素
+                  href: taskschedulerschema-requiredprivileges-requiredprivilegestype-element.md
+                - name: RestartOnFailure (settingsType) 元素
+                  href: taskschedulerschema-restartonfailure-settingstype-element.md
+                - name: RestartOnIdle (idleSettingsType) 元素
+                  href: taskschedulerschema-restartonidle-idlesettingstype-element.md
+                - name: RunLevel (runLevelType) 元素
+                  href: taskschedulerschema-runlevel-principaltype-element.md
+                - name: RunOnlyIfIdle (settingsType) 元素
+                  href: taskschedulerschema-runonlyifidle-settingstype-element.md
+                - name: RunOnlyIfNetworkAvailable (settingsType) 元素
+                  href: taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md
+                - name: 星期六 (daysOfWeekType) 元素
+                  href: taskschedulerschema-saturday-daysofweektype-element.md
+                - name: ScheduleByDay (calendarTriggerType) 元素
+                  href: taskschedulerschema-schedulebyday-calendartriggertype-element.md
+                - name: ScheduleByMonthDayOfWeek (monthlyDayOfWeekScheduleType) 元素
+                  href: taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md
+                - name: ScheduleByMonth (calendarTriggerType) 元素
+                  href: taskschedulerschema-schedulebymonth-calendartriggertype-element.md
+                - name: ScheduleByWeek (calendarTriggerType) 元素
+                  href: taskschedulerschema-schedulebyweek-calendartriggertype-element.md
+                - name: SecurityDescriptor (registrationInfoType) 元素
+                  href: taskschedulerschema-securitydescriptor-registrationinfotype-element.md
+                - name: SendEmail (actionGroup) 元素
+                  href: taskschedulerschema-sendemail-actiongroup-element.md
+                - name: MonthsType) 元素的九月 (
+                  href: taskschedulerschema-september-monthstype-element.md
+                - name: 伺服器 (sendEmailType) 元素
+                  href: taskschedulerschema-server-sendemailtype-element.md
+                - name: SessionStateChangeTrigger (triggerGroup) 元素
+                  href: taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md
+                - name: ' (taskType) 元素設定'
+                  href: taskschedulerschema-settings-tasktype-element.md
+                - name: ShowMessage (actionGroup) 元素
+                  href: taskschedulerschema-showmessage-actiongroup-element.md
+                - name: 來源 (registrationInfoType) 元素
+                  href: taskschedulerschema-source-registrationinfotype-element.md
+                - name: StartBoundary (triggerBaseType) 元素
+                  href: taskschedulerschema-startboundary-triggerbasetype-element.md
+                - name: StartWhenAvailable (settingsType) 元素
+                  href: taskschedulerschema-startwhenavailable-settingstype-element.md
+                - name: StateChange (sessionStateChangeTriggerType) 元素
+                  href: taskschedulerschema-statechange-sessionstatechangetriggertype-element.md
+                - name: StopAtDurationEnd (repetitionType) 元素
+                  href: taskschedulerschema-stopatdurationend-repetitiontype-element.md
+                - name: StopIfGoingOnBatteries (settingsType) 元素
+                  href: taskschedulerschema-stopifgoingonbatteries-settingstype-element.md
+                - name: StopOnIdleEnd (idleSettingsType) 元素
+                  href: taskschedulerschema-terminateonidleend-idlesettingstype-element.md
+                - name: Subject (sendEmailType) 元素
+                  href: taskschedulerschema-subject-sendemailtype-element.md
+                - name: 訂用帳戶 (eventTriggerType) 元素
+                  href: taskschedulerschema-subscription-eventtriggertype-element.md
+                - name: 星期日 (daysOfWeekType) 元素
+                  href: taskschedulerschema-sunday-daysofweektype-element.md
+                - name: Task 項目
+                  href: taskschedulerschema-task-element.md
+                - name: 星期四 (daysOfWeekType) 元素
+                  href: taskschedulerschema-thursday-daysofweektype-element.md
+                - name: TimeTrigger (triggerGroup) 元素
+                  href: taskschedulerschema-timetrigger-triggergroup-element.md
+                - name: 標題 (showMessageType) 元素
+                  href: taskschedulerschema-title-showmessagetype-element.md
+                - name: ' (sendEmailType) 元素'
+                  href: taskschedulerschema-to-sendemailtype-element.md
+                - name: 觸發程式 (triggersType) 元素
+                  href: taskschedulerschema-triggers-tasktype-element.md
+                - name: 星期二 (daysOfWeekType) 元素
+                  href: taskschedulerschema-tuesday-daysofweektype-element.md
+                - name: URI (registrationInfoType) 元素
+                  href: taskschedulerschema-uri-registrationinfotype-element.md
+                - name: UserId (logonTriggerType) 元素
+                  href: taskschedulerschema-userid-logontriggertype-element.md
+                - name: UserId (principalType) 元素
+                  href: taskschedulerschema-userid-principaltype-element.md
+                - name: UserId (sessionStateChangeTriggerType) 元素
+                  href: taskschedulerschema-userid-sessionstatechangetriggertype-element.md
+                - name: UseUnifiedSchedulingEngine (settingsType) 元素
+                  href: taskschedulerschema-useunifiedschedulingengine-settingstype-element.md
+                - name: ValueQueries (eventTriggerType) 元素
+                  href: taskschedulerschema-valuequeries-eventtriggertype-element.md
+                - name: 值 (headerFieldType) 元素
+                  href: taskschedulerschema-value-headerfieldtype-element.md
+                - name: 值 (namedValues) 元素
+                  href: taskschedulerschema-value-namedvalues-element.md
+                - name: 版本 (registrationInfoType) 元素
+                  href: taskschedulerschema-version-registrationinfotype-element.md
+                - name: Volatile 元素
+                  href: taskschedulerschema-volatile-element.md
+                - name: WaitTimeout (idleSettingsType) 元素
+                  href: taskschedulerschema-waittimeout-idlesettingstype-element.md
+                - name: WakeToRun (settingsType) 元素
+                  href: taskschedulerschema-waketorun-settingstype-element.md
+                - name: 星期三 (daysOfWeekType) 元素
+                  href: taskschedulerschema-wednesday-daysofweektype-element.md
+                - name: WeeksType) 元素 (周
+                  href: taskschedulerschema-week-weekstype-element.md
+                - name: WeeksInterval (weeklyScheduleType) 元素
+                  href: taskschedulerschema-weeksinterval-weeklyscheduletype-element.md
+                - name: MonthlyDayOfWeekScheduleType) 元素 (周
+                  href: taskschedulerschema-weeks-monthlydayofweekscheduletype-element.md
+                - name: WorkingDirectory (execType) 元素
+                  href: taskschedulerschema-workingdirectory-exectype-element.md
+            - name: 工作排程器架構簡單類型
+              href: task-scheduler-schema-simple-types.md
+              items:
+                - name: dayOfMonthType 簡單類型
+                  href: taskschedulerschema-dayofmonthtype-simpletype.md
+                - name: guidType 簡單類型
+                  href: taskschedulerschema-guidtype-simpletype.md
+                - name: logonType 簡單類型
+                  href: taskschedulerschema-logontype-simpletype.md
+                - name: multipleInstancesPolicyType 簡單類型
+                  href: taskschedulerschema-multipleinstancespolicytype-simpletype.md
+                - name: nonEmptyString 簡單類型
+                  href: taskschedulerschema-nonemptystring-simpletype.md
+                - name: pathType 簡單類型
+                  href: taskschedulerschema-pathtype-simpletype.md
+                - name: priorityType 簡單類型
+                  href: taskschedulerschema-prioritytype-simpletype.md
+                - name: privilegeType 簡單類型
+                  href: taskschedulerschema-privilegetype-simpletype.md
+                - name: processTokenSidType 簡單類型
+                  href: taskschedulerschema-processtokensidtype-simpletype.md
+                - name: runlevelType 簡單類型
+                  href: taskschedulerschema-runleveltype-simpletype.md
+                - name: sessionStateChangeType 簡單類型
+                  href: taskschedulerschema-sessionstatechangetype-simpletype.md
+                - name: versionType 簡單類型
+                  href: taskschedulerschema-versiontype-simpletype.md
+                - name: weekType 簡單類型
+                  href: taskschedulerschema-weektype-simpletype.md
+            - name: 工作排程器架構複雜類型
+              href: task-scheduler-schema-complex-types.md
+              items:
+                - name: actionBaseType 複雜類型
+                  href: taskschedulerschema-actionbasetype-complextype.md
+                - name: actionsType 複雜類型
+                  href: taskschedulerschema-actionstype-complextype.md
+                - name: attachmentType 複雜類型
+                  href: taskschedulerschema-attachmentstype-complextype.md
+                - name: bootTriggerType 複雜類型
+                  href: taskschedulerschema-boottriggertype-complextype.md
+                - name: calendarTriggerType 複雜類型
+                  href: taskschedulerschema-calendartriggertype-complextype.md
+                - name: comHandlerType 複雜類型
+                  href: taskschedulerschema-comhandlertype-complextype.md
+                - name: dailyScheduleType 複雜類型
+                  href: taskschedulerschema-dailyscheduletype-complextype.md
+                - name: dataType 複雜型別
+                  href: taskschedulerschema-datatype-complextype.md
+                - name: daysOfMonthType 複雜類型
+                  href: taskschedulerschema-daysofmonthtype-complextype.md
+                - name: daysOfWeekType 複雜類型
+                  href: taskschedulerschema-daysofweektype-complextype.md
+                - name: eventTriggerType 複雜類型
+                  href: taskschedulerschema-eventtriggertype-complextype.md
+                - name: execType 複雜類型
+                  href: taskschedulerschema-exectype-complextype.md
+                - name: headerFieldsType 複雜類型
+                  href: taskschedulerschema-headerfieldstype-complextype.md
+                - name: headerFieldType 複雜類型
+                  href: taskschedulerschema-headerfieldtype-complextype.md
+                - name: idleSettingsType 複雜類型
+                  href: taskschedulerschema-idlesettingstype-complextype.md
+                - name: idleTriggerType 複雜類型
+                  href: taskschedulerschema-idletriggertype-complextype.md
+                - name: logonTriggerType 複雜類型
+                  href: taskschedulerschema-logontriggertype-complextype.md
+                - name: maintenanceSettingsType 複雜類型
+                  href: taskschedulerschema-maintenancesettingstype-complextype.md
+                - name: monthlyDayOfWeekScheduleType 複雜類型
+                  href: taskschedulerschema-monthlydayofweekscheduletype-complextype.md
+                - name: monthlyScheduleType 複雜類型
+                  href: taskschedulerschema-monthlyscheduletype-complextype.md
+                - name: monthsType 複雜類型
+                  href: taskschedulerschema-monthstype-complextype.md
+                - name: namedValues 複雜類型
+                  href: taskschedulerschema-namedvalues-complextype.md
+                - name: namedValue 複雜類型
+                  href: schema-namedvalue-complextype.md
+                - name: networkSettingsType 複雜類型
+                  href: taskschedulerschema-networksettingstype-complextype.md
+                - name: principalsType 複雜類型
+                  href: taskschedulerschema-principalstype-complextype.md
+                - name: principalType 複雜類型
+                  href: taskschedulerschema-principaltype-complextype.md
+                - name: registrationInfoType 複雜類型
+                  href: taskschedulerschema-registrationinfotype-complextype.md
+                - name: registrationTriggerType 複雜類型
+                  href: taskschedulerschema-registrationtriggertype-complextype.md
+                - name: repetitionType 複雜類型
+                  href: taskschedulerschema-repetitiontype-complextype.md
+                - name: requiredPrivilegesType 複雜類型
+                  href: taskschedulerschema-requiredprivilegestype-complextype.md
+                - name: restartType 複雜類型
+                  href: taskschedulerschema-restarttype-complextype.md
+                - name: sendMailType 複雜類型
+                  href: taskschedulerschema-sendemailtype-complextype.md
+                - name: sessionStateChangeTriggerType 複雜類型
+                  href: taskschedulerschema-sessionstatechangetriggertype-complextype.md
+                - name: settingsType 複雜類型
+                  href: taskschedulerschema-settingstype-complextype.md
+                - name: showMessageType 複雜類型
+                  href: taskschedulerschema-showmessagetype-complextype.md
+                - name: taskType 複雜類型
+                  href: taskschedulerschema-tasktype-complextype.md
+                - name: timeTriggerType 複雜類型
+                  href: taskschedulerschema-timetriggertype-complextype.md
+                - name: triggerBaseType 複雜類型
+                  href: taskschedulerschema-triggerbasetype-complextype.md
+                - name: triggersType 複雜類型
+                  href: taskschedulerschema-triggerstype-complextype.md
+                - name: weeklyScheduleType 複雜類型
+                  href: taskschedulerschema-weeklyscheduletype-complextype.md
+                - name: weeksType 複雜類型
+                  href: taskschedulerschema-weekstype-complextype.md
+            - name: 工作排程器架構群組
+              href: task-scheduler-schema-groups.md
+              items:
+                - name: actionGroup 群組
+                  href: taskschedulerschema-actiongroup-group.md
+                - name: triggerGroup 群組
+                  href: taskschedulerschema-triggergroup-group.md
+        - name: 工作排程器錯誤和成功常數
+          href: task-scheduler-error-and-success-constants.md
+        - name: Schtasks.exe
+          href: schtasks.md
+    - name: 工作排程器詞彙
+      href: task-scheduler-glossary.md
+      items:
+        - name: E
+          href: e.md
+        - name: I
+          href: i.md
+        - name: P
+          href: p.md
+        - name: S
+          href: s.md
+        - name: T
+          href: t.md
+        - name: W
+          href: w.md
