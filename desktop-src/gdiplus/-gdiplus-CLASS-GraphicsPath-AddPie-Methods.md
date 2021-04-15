@@ -1,0 +1,43 @@
+---
+description: 本主題列出 GraphicsPath 類別的 AddPie 方法。 如需 GraphicsPath 類別之方法的完整清單，請參閱 GraphicsPath。
+ms.assetid: 8327b2cc-855e-419e-82c1-2a424aef2838
+title: 'GraphicsPath. AddPie 方法 (Gdipluspath .h) '
+ms.date: 07/02/2019
+ms.topic: reference
+ms.openlocfilehash: 23a1a1d7cb2009bcc201e5d29af01ce2f57f1b6b
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104992494"
+---
+# <a name="graphicspathaddpie-methods"></a><span data-ttu-id="d827e-104">GraphicsPath. AddPie 方法</span><span class="sxs-lookup"><span data-stu-id="d827e-104">GraphicsPath.AddPie methods</span></span>
+
+<span data-ttu-id="d827e-105">本主題列出 [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) 類別的 AddPie 方法。</span><span class="sxs-lookup"><span data-stu-id="d827e-105">This topic lists the AddPie methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class.</span></span> <span data-ttu-id="d827e-106">如需 **GraphicsPath** 類別之方法的完整清單，請參閱 [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath)。</span><span class="sxs-lookup"><span data-stu-id="d827e-106">For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).</span></span>
+
+### <a name="overload-list"></a><span data-ttu-id="d827e-107">多載清單</span><span class="sxs-lookup"><span data-stu-id="d827e-107">Overload list</span></span>
+
+
+
+| <span data-ttu-id="d827e-108">方法</span><span class="sxs-lookup"><span data-stu-id="d827e-108">Method</span></span>                                                                                                                                                | <span data-ttu-id="d827e-109">描述</span><span class="sxs-lookup"><span data-stu-id="d827e-109">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                            |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="d827e-110">[**AddPie (Rect&、REAL、REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inconstrect__inreal_inreal))</span><span class="sxs-lookup"><span data-stu-id="d827e-110">[**AddPie(Rect&,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inconstrect__inreal_inreal))</span></span>                                      | <span data-ttu-id="d827e-111">[**GraphicsPath：： AddPie**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inconstrect__inreal_inreal))方法會將圓形圖新增至此路徑。</span><span class="sxs-lookup"><span data-stu-id="d827e-111">The [**GraphicsPath::AddPie**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inconstrect__inreal_inreal)) method adds a pie to this path.</span></span> <span data-ttu-id="d827e-112">弧形是橢圓形的一部分，而圓形圖是以橢圓形括住區域的一部分。</span><span class="sxs-lookup"><span data-stu-id="d827e-112">An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse.</span></span> <span data-ttu-id="d827e-113">圓形圖會以弧形和兩條線來系結， (邊緣) 從橢圓形的中心移至弧線的端點。</span><span class="sxs-lookup"><span data-stu-id="d827e-113">A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.</span></span><br/>                        |
+| <span data-ttu-id="d827e-114">[**AddPie (RectF&、REAL、REAL)**](/previous-versions//ms535598(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="d827e-114">[**AddPie(RectF&,REAL,REAL)**](/previous-versions//ms535598(v=vs.85))</span></span>                                    | <span data-ttu-id="d827e-115">[**GraphicsPath：： AddPie**](/previous-versions//ms535598(v=vs.85))方法會將圓形圖新增至此路徑。</span><span class="sxs-lookup"><span data-stu-id="d827e-115">The [**GraphicsPath::AddPie**](/previous-versions//ms535598(v=vs.85)) method adds a pie to this path.</span></span> <span data-ttu-id="d827e-116">弧形是橢圓形的一部分，而圓形圖是以橢圓形括住區域的一部分。</span><span class="sxs-lookup"><span data-stu-id="d827e-116">An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse.</span></span> <span data-ttu-id="d827e-117">圓形圖會以弧形和兩條線來系結， (邊緣) 從橢圓形的中心移至弧線的端點。</span><span class="sxs-lookup"><span data-stu-id="d827e-117">A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.</span></span><br/>                       |
+| <span data-ttu-id="d827e-118">[**AddPie (INT、INT、INT、INT、REAL、REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inint_inint_inint_inint_inreal_inreal))</span><span class="sxs-lookup"><span data-stu-id="d827e-118">[**AddPie(INT,INT,INT,INT,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inint_inint_inint_inint_inreal_inreal))</span></span>     | <span data-ttu-id="d827e-119">[**GraphicsPath：： AddPie**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inint_inint_inint_inint_inreal_inreal))方法會將圓形圖新增至此路徑。</span><span class="sxs-lookup"><span data-stu-id="d827e-119">The [**GraphicsPath::AddPie**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inint_inint_inint_inint_inreal_inreal)) method adds a pie to this path.</span></span> <span data-ttu-id="d827e-120">弧形是橢圓形的一部分，而圓形圖是以橢圓形括住區域的一部分。</span><span class="sxs-lookup"><span data-stu-id="d827e-120">An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse.</span></span> <span data-ttu-id="d827e-121">圓形圖會以弧形和兩條線來系結， (邊緣) 從橢圓形的中心移至弧線的端點。</span><span class="sxs-lookup"><span data-stu-id="d827e-121">A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.</span></span><br/> |
+| <span data-ttu-id="d827e-122">[**AddPie (REAL、REAL、REAL、REAL、real)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inreal_inreal_inreal_inreal_inreal_inreal))</span><span class="sxs-lookup"><span data-stu-id="d827e-122">[**AddPie(REAL,REAL,REAL,REAL,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inreal_inreal_inreal_inreal_inreal_inreal))</span></span> | <span data-ttu-id="d827e-123">[**GraphicsPath：： AddPie**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inreal_inreal_inreal_inreal_inreal_inreal))方法會將圓形圖新增至此路徑。</span><span class="sxs-lookup"><span data-stu-id="d827e-123">The [**GraphicsPath::AddPie**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inreal_inreal_inreal_inreal_inreal_inreal)) method adds a pie to this path.</span></span> <span data-ttu-id="d827e-124">弧形是橢圓形的一部分，而圓形圖是以橢圓形括住區域的一部分。</span><span class="sxs-lookup"><span data-stu-id="d827e-124">An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse.</span></span> <span data-ttu-id="d827e-125">圓形圖會以弧形和兩條線來系結， (邊緣) 從橢圓形的中心移至弧線的端點。</span><span class="sxs-lookup"><span data-stu-id="d827e-125">A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.</span></span><br/> |
+
+
+
+## <a name="requirements"></a><span data-ttu-id="d827e-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="d827e-126">Requirements</span></span>
+
+
+
+| <span data-ttu-id="d827e-127">需求</span><span class="sxs-lookup"><span data-stu-id="d827e-127">Requirement</span></span> | <span data-ttu-id="d827e-128">值</span><span class="sxs-lookup"><span data-stu-id="d827e-128">Value</span></span> |
+|-------------------|------------------------------------------------------------------------------------------|
+| <span data-ttu-id="d827e-129">標頭</span><span class="sxs-lookup"><span data-stu-id="d827e-129">Header</span></span><br/> | <dl> <span data-ttu-id="d827e-130"><dt>Gdipluspath。h</dt></span><span class="sxs-lookup"><span data-stu-id="d827e-130"><dt>Gdipluspath.h</dt></span></span> </dl> |
+
+
+
+ 
+
+ 
