@@ -1,0 +1,156 @@
+---
+description: 設定影片輸出格式
+ms.assetid: 1969072e-575e-49b4-88db-4c7e7a5a1c37
+title: 設定影片輸出格式
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d09ac64d7f43e6c39377277544867491a93a6f3e
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104569605"
+---
+# <a name="configure-the-video-output-format"></a><span data-ttu-id="cb3e6-103">設定影片輸出格式</span><span class="sxs-lookup"><span data-stu-id="cb3e6-103">Configure the Video Output Format</span></span>
+
+> [!Note]  
+> <span data-ttu-id="cb3e6-104">本主題所述的功能已被取代。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-104">The functionality described in this topic is deprecated.</span></span> <span data-ttu-id="cb3e6-105">若要設定捕獲裝置的輸出格式，應用程式應該在 *pmt* 參數中使用 [**IAMStreamConfig：： >iformatprovider.getformat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat)所傳回的 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type)結構。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-105">To configure a capture device's output format, an application should use the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure returned by [**IAMStreamConfig::GetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat) in the *pmt* parameter.</span></span>
+
+ 
+
+<span data-ttu-id="cb3e6-106">捕獲裝置可支援一系列的輸出格式。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-106">A capture device can support a range of output formats.</span></span> <span data-ttu-id="cb3e6-107">例如，裝置可能支援16位 RGB、32位 RGB 和 YUYV。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-107">For example, a device might support 16-bit RGB, 32-bit RGB, and YUYV.</span></span> <span data-ttu-id="cb3e6-108">在這些格式中，裝置可以支援一系列的框架大小。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-108">Within each of these formats, the device can support a range of frame sizes.</span></span>
+
+<span data-ttu-id="cb3e6-109">在 WDM 裝置中， [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) 介面是用來報告裝置支援的格式，以及設定格式。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-109">In a WDM device, the [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) interface is used to report which formats the device supports, and to set the format.</span></span> <span data-ttu-id="cb3e6-110"> (舊版 VFW 裝置時，請使用 [影片格式 VFW] 對話方塊（如 [顯示 VFW Capture 對話方塊](display-vfw-capture-dialog-boxes.md)中所述）。 ) **IAMStreamConfig** 介面會公開于 capture 篩選器的捕獲 pin、預覽 pin 或兩者上。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-110">(For legacy VFW devices, use the Video Format VFW dialog box, as described in [Display VFW Capture Dialog Boxes](display-vfw-capture-dialog-boxes.md).) The **IAMStreamConfig** interface is exposed on the capture filter's capture pin, preview pin, or both.</span></span> <span data-ttu-id="cb3e6-111">使用 [**ICaptureGraphBuilder2：： FindInterface**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-findinterface) 方法取得介面指標：</span><span class="sxs-lookup"><span data-stu-id="cb3e6-111">Use the [**ICaptureGraphBuilder2::FindInterface**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-findinterface) method to get the interface pointer:</span></span>
+
+
+```C++
+IAMStreamConfig *pConfig = NULL;
+hr = pBuild->FindInterface(
+    &PIN_CATEGORY_PREVIEW, // Preview pin.
+    0,    // Any media type.
+    pCap, // Pointer to the capture filter.
+    IID_IAMStreamConfig, (void**)&pConfig);
+```
+
+
+
+<span data-ttu-id="cb3e6-112">裝置具有所支援的媒體類型清單。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-112">The device has a list of media types that it supports.</span></span> <span data-ttu-id="cb3e6-113">針對每個媒體類型，裝置也會提供一組功能。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-113">For each media type, the device also provides a set of capabilities.</span></span> <span data-ttu-id="cb3e6-114">其中包括適用于該格式的畫面格大小範圍、裝置可以延展或縮減影像的程度，以及畫面播放速率的範圍。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-114">These include the range of frame sizes that are available for that format, how well the device can stretch or shrink the image, and the range of frame rates.</span></span>
+
+<span data-ttu-id="cb3e6-115">若要取得媒體類型的數目，請呼叫 [**IAMStreamConfig：： GetNumberOfCapabilities**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities) 方法。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-115">To get the number of media types, call the [**IAMStreamConfig::GetNumberOfCapabilities**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities) method.</span></span> <span data-ttu-id="cb3e6-116">方法會傳回兩個值：</span><span class="sxs-lookup"><span data-stu-id="cb3e6-116">The method returns two values:</span></span>
+
+-   <span data-ttu-id="cb3e6-117">媒體類型的數目。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-117">The number of media types.</span></span>
+-   <span data-ttu-id="cb3e6-118">保存功能資訊之結構的大小。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-118">The size of the structure that holds the capabilities information.</span></span>
+
+<span data-ttu-id="cb3e6-119">大小值是必要的，因為 [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) 介面同時用於音訊和影片 (，而且可以擴充至) 的其他媒體類型。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-119">The size value is necessary because the [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) interface is used for both audio and video (and could be extended to other media types).</span></span> <span data-ttu-id="cb3e6-120">針對影片，這些功能會使用 [**影片串流設定 \_ \_ \_ caps**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps) 結構來描述，而音訊則使用 [**音訊 \_ 串流 \_ 設定 \_ caps**](/windows/win32/api/strmif/ns-strmif-audio_stream_config_caps) 結構。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-120">For video, the capabilities are described using the [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps) structure, while audio uses the [**AUDIO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-audio_stream_config_caps) structure.</span></span>
+
+<span data-ttu-id="cb3e6-121">若要列舉媒體類型，請使用以零為基底的索引來呼叫 [**IAMStreamConfig：： GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) 方法。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-121">To enumerate the media types, call the [**IAMStreamConfig::GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method with a zero-based index.</span></span> <span data-ttu-id="cb3e6-122">**GetStreamCaps** 方法會傳回媒體類型和對應的功能結構：</span><span class="sxs-lookup"><span data-stu-id="cb3e6-122">The **GetStreamCaps** method returns a media type and the corresponding capability structure:</span></span>
+
+
+```C++
+int iCount = 0, iSize = 0;
+hr = pConfig->GetNumberOfCapabilities(&iCount, &iSize);
+
+// Check the size to make sure we pass in the correct structure.
+if (iSize == sizeof(VIDEO_STREAM_CONFIG_CAPS))
+{
+    // Use the video capabilities structure.
+
+    for (int iFormat = 0; iFormat < iCount; iFormat++)
+    {
+        VIDEO_STREAM_CONFIG_CAPS scc;
+        AM_MEDIA_TYPE *pmtConfig;
+        hr = pConfig->GetStreamCaps(iFormat, &pmtConfig, (BYTE*)&scc);
+        if (SUCCEEDED(hr))
+        {
+            /* Examine the format, and possibly use it. */
+
+            // Delete the media type when you are done.
+            DeleteMediaType(pmtConfig);
+        }
+}
+```
+
+
+
+<span data-ttu-id="cb3e6-123">請注意如何為 [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) 方法配置結構。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-123">Note how the structures are allocated for the [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method.</span></span> <span data-ttu-id="cb3e6-124">方法會配置媒體類型結構，而呼叫端會配置功能結構。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-124">The method allocates the media type structure, whereas the caller allocates the capabilities structure.</span></span> <span data-ttu-id="cb3e6-125">將功能結構強制轉型為位元組陣列指標。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-125">Coerce the capabilities structure to a byte array pointer.</span></span> <span data-ttu-id="cb3e6-126">當您完成媒體類型之後，請刪除 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type) 結構以及媒體類型的格式區塊。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-126">After you are done with the media type, delete the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure, along with the media type's format block.</span></span>
+
+<span data-ttu-id="cb3e6-127">您可以將裝置設定為使用 [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) 方法中傳回的格式。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-127">You can configure the device to use a format returned in the [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method.</span></span> <span data-ttu-id="cb3e6-128">只要以媒體類型呼叫 [**IAMStreamConfig：： SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) ：</span><span class="sxs-lookup"><span data-stu-id="cb3e6-128">Simply call [**IAMStreamConfig::SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) with the media type:</span></span>
+
+
+```C++
+hr = pConfig->SetFormat(pmtConfig);
+```
+
+
+
+<span data-ttu-id="cb3e6-129">如果未連接 pin，則會在連接時嘗試使用此格式。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-129">If the pin is not connected, it will attempt to use this format when it does connect.</span></span> <span data-ttu-id="cb3e6-130">如果已連接 pin，則會嘗試使用新的格式重新連接。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-130">If the pin is already connected, it attempts to reconnect using the new format.</span></span> <span data-ttu-id="cb3e6-131">在任一種情況下，下游篩選器可能會拒絕此格式。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-131">In either case, it is possible that the downstream filter will reject the format.</span></span>
+
+<span data-ttu-id="cb3e6-132">您也可以先修改媒體類型，再將它傳遞給 [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) 方法。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-132">You can also modify the media type before passing it to the [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) method.</span></span> <span data-ttu-id="cb3e6-133">這是 [**影片串流設定 \_ \_ \_ CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps) 結構的來源。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-133">This is where the [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps) structure comes in.</span></span> <span data-ttu-id="cb3e6-134">它描述所有變更媒體類型的有效方式。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-134">It describes all of the valid ways to change the media type.</span></span> <span data-ttu-id="cb3e6-135">若要使用這項資訊，您必須瞭解該特定媒體類型的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-135">To use this information, you must understand the details of that particular media type.</span></span>
+
+<span data-ttu-id="cb3e6-136">例如，假設 [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) 傳回24位 RGB 格式，框架大小為 320 x 240 圖元。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-136">For example, suppose that [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) returns a 24-bit RGB format, with a frame size of 320 x 240 pixels.</span></span> <span data-ttu-id="cb3e6-137">您可以藉由檢查媒體類型的主要類型、子類型和格式區塊，來取得這項資訊：</span><span class="sxs-lookup"><span data-stu-id="cb3e6-137">You can get this information by examining the major type, subtype, and format block of the media type:</span></span>
+
+
+```C++
+if ((pmtConfig.majortype == MEDIATYPE_Video) &&
+    (pmtConfig.subtype == MEDIASUBTYPE_RGB24) &&
+    (pmtConfig.formattype == FORMAT_VideoInfo) &&
+    (pmtConfig.cbFormat >= sizeof (VIDEOINFOHEADER)) &&
+    (pmtConfig.pbFormat != NULL))
+{
+    VIDEOINFOHEADER *pVih = (VIDEOINFOHEADER*)pmtConfig.pbFormat;
+    // pVih contains the detailed format information.
+    LONG lWidth = pVih->bmiHeader.biWidth;
+    LONG lHeight = pVih->bmiHeader.biHeight;
+}
+```
+
+
+
+<span data-ttu-id="cb3e6-138">[**影片 \_ 串流設定 \_ \_ CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps)結構會提供可用於此媒體類型的最小和最大寬度和高度。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-138">The [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps) structure gives the minimum and maximum width and height that can be used for this media type.</span></span> <span data-ttu-id="cb3e6-139">它也會提供「步驟」大小，以定義您可以調整寬度或高度的增量。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-139">It also gives you the "step" size, which defines the increments by which you can adjust the width or height.</span></span> <span data-ttu-id="cb3e6-140">例如，裝置可能會傳回下列內容：</span><span class="sxs-lookup"><span data-stu-id="cb3e6-140">For example, the device might return the following:</span></span>
+
+-   <span data-ttu-id="cb3e6-141">MinOutputSize： 160 x 120</span><span class="sxs-lookup"><span data-stu-id="cb3e6-141">MinOutputSize: 160 x 120</span></span>
+-   <span data-ttu-id="cb3e6-142">MaxOutputSize： 320 x 240</span><span class="sxs-lookup"><span data-stu-id="cb3e6-142">MaxOutputSize: 320 x 240</span></span>
+-   <span data-ttu-id="cb3e6-143">OutputGranularityX：8圖元 (水準步驟大小) </span><span class="sxs-lookup"><span data-stu-id="cb3e6-143">OutputGranularityX: 8 pixels (horizontal step size)</span></span>
+-   <span data-ttu-id="cb3e6-144">OutputGranularityY：8圖元 (垂直步驟大小) </span><span class="sxs-lookup"><span data-stu-id="cb3e6-144">OutputGranularityY: 8 pixels (vertical step size)</span></span>
+
+<span data-ttu-id="cb3e6-145">指定這些數位之後，您可以將寬度設定為範圍 (160、168、176、.。。304、312、320) 和高度至範圍 (120、128、136、.。。104、112、120) 。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-145">Given these numbers, you could set the width to anything in the range (160, 168, 176, ... 304, 312, 320) and the height to anything in the range (120, 128, 136, ... 104, 112, 120).</span></span> <span data-ttu-id="cb3e6-146">下圖說明此程序。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-146">The following diagram illustrates this process.</span></span>
+
+![影片格式大小](images/strmcap3.png)
+
+<span data-ttu-id="cb3e6-148">若要設定新的框架大小，請直接修改 [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps)中傳回的 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type)結構：</span><span class="sxs-lookup"><span data-stu-id="cb3e6-148">To set a new frame size, directly modify the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure returned in [**GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps):</span></span>
+
+
+```C++
+pVih->bmiHeader.biWidth = 160;
+pVih->bmiHeader.biHeight = 120;
+pVih->bmiHeader.biSizeImage = DIBSIZE(pVih->bmiHeader);
+```
+
+
+
+<span data-ttu-id="cb3e6-149">然後將媒體類型傳遞給 [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) 方法，如先前所述。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-149">Then pass the media type to the [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat) method, as described previously.</span></span>
+
+<span data-ttu-id="cb3e6-150">[**影片 \_ 串流設定 \_ \_ 帽**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps)的 **MinFrameInterval** 和 **MaxFrameInterval** 成員是每個影片框架的最小和最大長度，您可以依照下列方式轉譯為畫面播放速率：</span><span class="sxs-lookup"><span data-stu-id="cb3e6-150">The **MinFrameInterval** and **MaxFrameInterval** members of [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps) are the minimum and maximum length of each video frame, which you can translate into frame rates as follows:</span></span>
+
+`frames per second = 10,000,000 / frame duration`
+
+<span data-ttu-id="cb3e6-151">若要要求特定的畫面播放速率，請在媒體類型中修改 [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader)或 [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2)結構中的 **AvgTimePerFrame** 值。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-151">To request a particular frame rate, modify the value of **AvgTimePerFrame** in the [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) or [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structure in the media type.</span></span> <span data-ttu-id="cb3e6-152">裝置可能不支援最小值與最大值之間的每個可能值，因此驅動程式會使用最接近的值。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-152">The device may not support every possible value between the minimum and maximum, so the driver will use the closest value that it can.</span></span> <span data-ttu-id="cb3e6-153">若要查看驅動程式實際使用的值，請在呼叫 [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat)之後呼叫 [**IAMStreamConfig：： >iformatprovider.getformat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat) 。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-153">To see what value the driver actually used, call [**IAMStreamConfig::GetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat) after you call [**SetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-setformat).</span></span>
+
+<span data-ttu-id="cb3e6-154">某些驅動程式可能會針對 **MaxFrameInterval** 的值報告 **MAXLONGLONG** (0x7FFFFFFFFFFFFFFF) ，這表示沒有最大的持續時間。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-154">Some drivers may report **MAXLONGLONG** (0x7FFFFFFFFFFFFFFF) for the value of **MaxFrameInterval**, which in effect means there is no maximum duration.</span></span> <span data-ttu-id="cb3e6-155">不過，您可能會想要在應用程式中強制執行最小畫面播放速率，例如 1 fps。</span><span class="sxs-lookup"><span data-stu-id="cb3e6-155">However, you might want to enforce a minimum frame rate in your application, such as 1 fps.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="cb3e6-156">相關主題</span><span class="sxs-lookup"><span data-stu-id="cb3e6-156">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="cb3e6-157">關於媒體類型</span><span class="sxs-lookup"><span data-stu-id="cb3e6-157">About Media Types</span></span>](about-media-types.md)
+</dt> <dt>
+
+[<span data-ttu-id="cb3e6-158">設定影片捕獲裝置</span><span class="sxs-lookup"><span data-stu-id="cb3e6-158">Configuring a Video Capture Device</span></span>](configuring-a-video-capture-device.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
