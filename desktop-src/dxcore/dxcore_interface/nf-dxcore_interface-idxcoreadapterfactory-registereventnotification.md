@@ -1,0 +1,95 @@
+---
+title: IDXCoreAdapterFactory::RegisterEventNotification
+description: 註冊以接收 DXCore 介面卡或介面卡清單中特定條件的通知。
+ms.localizationpriority: low
+ms.topic: reference
+ms.date: 06/20/2019
+ms.openlocfilehash: 3643fbb01fc955049c297a577f18d4d276e73f46
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104463508"
+---
+# <a name="idxcoreadapterfactoryregistereventnotification-method"></a><span data-ttu-id="fd48d-103">IDXCoreAdapterFactory：： RegisterEventNotification 方法</span><span class="sxs-lookup"><span data-stu-id="fd48d-103">IDXCoreAdapterFactory::RegisterEventNotification method</span></span>
+
+<span data-ttu-id="fd48d-104">註冊以接收 DXCore 介面卡或介面卡清單中特定條件的通知。</span><span class="sxs-lookup"><span data-stu-id="fd48d-104">Registers to receive notifications of specific conditions from a DXCore adapter or adapter list.</span></span> <span data-ttu-id="fd48d-105">如需程式設計指引和程式碼範例，請參閱 [使用 DXCore 來列舉介面卡](../dxcore-enum-adapters.md)。</span><span class="sxs-lookup"><span data-stu-id="fd48d-105">For programming guidance, and code examples, see [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md).</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="fd48d-106">語法</span><span class="sxs-lookup"><span data-stu-id="fd48d-106">Syntax</span></span>
+
+```cpp
+virtual HRESULT STDMETHODCALLTYPE RegisterEventNotification(
+  _In_ IUnknown *dxCoreObject,
+  DXCoreNotificationType notificationType,
+  _In_ PFN_DXCORE_NOTIFICATION_CALLBACK callbackFunction,
+  _In_opt_ void *callbackContext,
+  _Out_ uint32_t *eventCookie) = 0;
+```
+
+## <a name="parameters"></a><span data-ttu-id="fd48d-107">參數</span><span class="sxs-lookup"><span data-stu-id="fd48d-107">Parameters</span></span>
+
+### <a name="dxcoreobject-in"></a><span data-ttu-id="fd48d-108">dxCoreObject [in]</span><span class="sxs-lookup"><span data-stu-id="fd48d-108">dxCoreObject [in]</span></span>
+
+<span data-ttu-id="fd48d-109">類型： **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***</span><span class="sxs-lookup"><span data-stu-id="fd48d-109">Type: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***</span></span>
+
+<span data-ttu-id="fd48d-110">DXCore 物件 ([IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md) 或 [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md)) 您要訂閱的通知。</span><span class="sxs-lookup"><span data-stu-id="fd48d-110">The DXCore object ([IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md) or [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md)) whose notifications you're subscribing to.</span></span>
+
+### <a name="notificationtype"></a><span data-ttu-id="fd48d-111">notificationType</span><span class="sxs-lookup"><span data-stu-id="fd48d-111">notificationType</span></span>
+
+<span data-ttu-id="fd48d-112">類型： **[DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md)**</span><span class="sxs-lookup"><span data-stu-id="fd48d-112">Type: **[DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md)**</span></span>
+
+<span data-ttu-id="fd48d-113">您要註冊的通知類型。</span><span class="sxs-lookup"><span data-stu-id="fd48d-113">The type of notification that you're registering for.</span></span> <span data-ttu-id="fd48d-114">請參閱 [DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md) 中的表格，以取得哪些類型適用于哪些類型的物件的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="fd48d-114">See the table in [DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md) for info about what types are valid with which kinds of objects.</span></span>
+
+### <a name="callbackfunction-in"></a><span data-ttu-id="fd48d-115">callbackFunction [in]</span><span class="sxs-lookup"><span data-stu-id="fd48d-115">callbackFunction [in]</span></span>
+
+<span data-ttu-id="fd48d-116">類型： **[PFN_DXCORE_NOTIFICATION_CALLBACK](./nc-dxcore_interface-pfn_dxcore_notification_callback.md)**</span><span class="sxs-lookup"><span data-stu-id="fd48d-116">Type: **[PFN_DXCORE_NOTIFICATION_CALLBACK](./nc-dxcore_interface-pfn_dxcore_notification_callback.md)**</span></span>
+
+<span data-ttu-id="fd48d-117">回呼函式的指標， (由您的應用程式所執行) ，由 DXCore 物件針對通知事件呼叫。</span><span class="sxs-lookup"><span data-stu-id="fd48d-117">A pointer to a callback function (implemented by your application), which is called by the DXCore object for notification events.</span></span> <span data-ttu-id="fd48d-118">如需函數的簽章，請參閱 [PFN_DXCORE_NOTIFICATION_CALLBACK](./nc-dxcore_interface-pfn_dxcore_notification_callback.md)。</span><span class="sxs-lookup"><span data-stu-id="fd48d-118">For the signature of the function, see [PFN_DXCORE_NOTIFICATION_CALLBACK](./nc-dxcore_interface-pfn_dxcore_notification_callback.md).</span></span>
+
+### <a name="callbackcontext-in"></a><span data-ttu-id="fd48d-119">callbackCoNtext [in]</span><span class="sxs-lookup"><span data-stu-id="fd48d-119">callbackContext [in]</span></span>
+
+<span data-ttu-id="fd48d-120">類型： **void \***</span><span class="sxs-lookup"><span data-stu-id="fd48d-120">Type: **void\***</span></span>
+
+<span data-ttu-id="fd48d-121">包含內容資訊之物件的選擇性指標。</span><span class="sxs-lookup"><span data-stu-id="fd48d-121">An optional pointer to an object containing context info.</span></span> <span data-ttu-id="fd48d-122">當通知引發時，這個物件會傳遞給您的回呼函數。</span><span class="sxs-lookup"><span data-stu-id="fd48d-122">This object is passed to your callback function when the notification is raised.</span></span>
+
+### <a name="eventcookie-out"></a><span data-ttu-id="fd48d-123">eventCookie [out]</span><span class="sxs-lookup"><span data-stu-id="fd48d-123">eventCookie [out]</span></span>
+
+<span data-ttu-id="fd48d-124">類型： **uint32_t \***</span><span class="sxs-lookup"><span data-stu-id="fd48d-124">Type: **uint32_t\***</span></span>
+
+<span data-ttu-id="fd48d-125">**Uint32_t** 值的指標。</span><span class="sxs-lookup"><span data-stu-id="fd48d-125">A pointer to a **uint32_t** value.</span></span> <span data-ttu-id="fd48d-126">如果成功，函式會將指標取值，並將值設定為代表此註冊的非零 cookie 值。</span><span class="sxs-lookup"><span data-stu-id="fd48d-126">If successful, the function dereferences the pointer and sets the value to a non-zero cookie value representing this registration.</span></span> <span data-ttu-id="fd48d-127">您可以使用此 cookie 值，藉由呼叫 [IDXCoreAdapterFactory：： UnregisterEventNotification](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md)從通知取消註冊。</span><span class="sxs-lookup"><span data-stu-id="fd48d-127">Use this cookie value to unregister from the notification by calling [IDXCoreAdapterFactory::UnregisterEventNotification](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md).</span></span> <span data-ttu-id="fd48d-128">請參閱 **備註**。</span><span class="sxs-lookup"><span data-stu-id="fd48d-128">See **Remarks**.</span></span>
+
+<span data-ttu-id="fd48d-129">如果不成功，則函式會將指標取值，並將值設為零，表示不正確 cookie 值。</span><span class="sxs-lookup"><span data-stu-id="fd48d-129">If unsuccessful, the function dereferences the pointer and sets the value to zero, which represents an invalid cookie value.</span></span>
+
+## <a name="returns"></a><span data-ttu-id="fd48d-130">傳回</span><span class="sxs-lookup"><span data-stu-id="fd48d-130">Returns</span></span>
+
+<span data-ttu-id="fd48d-131">類型： **[HRESULT](../../com/structure-of-com-error-codes.md)**</span><span class="sxs-lookup"><span data-stu-id="fd48d-131">Type: **[HRESULT](../../com/structure-of-com-error-codes.md)**</span></span>
+
+<span data-ttu-id="fd48d-132">如果函式成功，它會傳回 **S_OK**。</span><span class="sxs-lookup"><span data-stu-id="fd48d-132">If the function succeeds, it returns **S_OK**.</span></span> <span data-ttu-id="fd48d-133">否則，它會傳回 [**HRESULT**](../../com/structure-of-com-error-codes.md) [錯誤碼](../../com/com-error-codes-10.md)。</span><span class="sxs-lookup"><span data-stu-id="fd48d-133">Otherwise, it returns an [**HRESULT**](../../com/structure-of-com-error-codes.md) [error code](../../com/com-error-codes-10.md).</span></span>
+
+|<span data-ttu-id="fd48d-134">傳回值</span><span class="sxs-lookup"><span data-stu-id="fd48d-134">Return value</span></span>|<span data-ttu-id="fd48d-135">描述</span><span class="sxs-lookup"><span data-stu-id="fd48d-135">Description</span></span>|
+|-|-|
+|<span data-ttu-id="fd48d-136">DXGI_ERROR_INVALID_CALL</span><span class="sxs-lookup"><span data-stu-id="fd48d-136">DXGI_ERROR_INVALID_CALL</span></span>|<span data-ttu-id="fd48d-137"> (OS) 的作業系統不支援 *notificationType* 。</span><span class="sxs-lookup"><span data-stu-id="fd48d-137">*notificationType* is unsupported by the operating system (OS).</span></span>|
+|<span data-ttu-id="fd48d-138">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="fd48d-138">E_INVALIDARG</span></span>|<span data-ttu-id="fd48d-139">`nullptr` 提供給 *dxCoreObject*，或如果提供的 *notificationType* 和 *dxCoreObject* 組合無效，則為。</span><span class="sxs-lookup"><span data-stu-id="fd48d-139">`nullptr` was provided for *dxCoreObject*, or if an invalid *notificationType* and *dxCoreObject* combination was provided.</span></span>|
+|<span data-ttu-id="fd48d-140">E_POINTER</span><span class="sxs-lookup"><span data-stu-id="fd48d-140">E_POINTER</span></span>|<span data-ttu-id="fd48d-141">`nullptr` 是針對 *callbackFunction* 或 *eventCookie* 所提供。</span><span class="sxs-lookup"><span data-stu-id="fd48d-141">`nullptr` was provided for either *callbackFunction* or *eventCookie*.</span></span>|
+
+## <a name="remarks"></a><span data-ttu-id="fd48d-142">備註</span><span class="sxs-lookup"><span data-stu-id="fd48d-142">Remarks</span></span>
+
+<span data-ttu-id="fd48d-143">您可以使用 **RegisterEventNotification** 來註冊 [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md) 和 [IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md) 介面所引發的事件。</span><span class="sxs-lookup"><span data-stu-id="fd48d-143">You use **RegisterEventNotification** to register for events raised by [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md) and [IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md) interfaces.</span></span> <span data-ttu-id="fd48d-144">支援這些通知類型。</span><span class="sxs-lookup"><span data-stu-id="fd48d-144">These notification types are supported.</span></span>
+
+|[<span data-ttu-id="fd48d-145">DXCoreNotificationType</span><span class="sxs-lookup"><span data-stu-id="fd48d-145">DXCoreNotificationType</span></span>](./ne-dxcore_interface-dxcorenotificationtype.md)|<span data-ttu-id="fd48d-146">支援的 *dxCoreObject*</span><span class="sxs-lookup"><span data-stu-id="fd48d-146">Supported *dxCoreObject*</span></span>|<span data-ttu-id="fd48d-147">備註</span><span class="sxs-lookup"><span data-stu-id="fd48d-147">Notes</span></span>|
+|-|-|-|
+|<span data-ttu-id="fd48d-148">AdapterListStale</span><span class="sxs-lookup"><span data-stu-id="fd48d-148">AdapterListStale</span></span>|<span data-ttu-id="fd48d-149">**IDXCoreAdapterList**</span><span class="sxs-lookup"><span data-stu-id="fd48d-149">**IDXCoreAdapterList**</span></span>|<span data-ttu-id="fd48d-150">指出符合篩選準則的介面卡清單已變更。</span><span class="sxs-lookup"><span data-stu-id="fd48d-150">Indicates that the list of adapters meeting your filter criteria has changed.</span></span> <span data-ttu-id="fd48d-151">如果介面卡清單在註冊時已過時，則會立即呼叫您的回呼。</span><span class="sxs-lookup"><span data-stu-id="fd48d-151">If the adapter list is stale at the time of registration, then your callback is immediately called.</span></span> <span data-ttu-id="fd48d-152">每次註冊最多會發生一次此回呼。</span><span class="sxs-lookup"><span data-stu-id="fd48d-152">This callback occurs at most one time per registration.</span></span>|
+|<span data-ttu-id="fd48d-153">AdapterNoLongerValid</span><span class="sxs-lookup"><span data-stu-id="fd48d-153">AdapterNoLongerValid</span></span>|<span data-ttu-id="fd48d-154">**IDXCoreAdapter**</span><span class="sxs-lookup"><span data-stu-id="fd48d-154">**IDXCoreAdapter**</span></span>|<span data-ttu-id="fd48d-155">指出介面卡已不再有效。</span><span class="sxs-lookup"><span data-stu-id="fd48d-155">Indicates that the adapter is no longer valid.</span></span> <span data-ttu-id="fd48d-156">如果介面卡在註冊時無效，則會立即呼叫您的回呼。</span><span class="sxs-lookup"><span data-stu-id="fd48d-156">If the adapter is invalid at registration time, then your callback is immediately called.</span></span>|
+|<span data-ttu-id="fd48d-157">AdapterBudgetChange</span><span class="sxs-lookup"><span data-stu-id="fd48d-157">AdapterBudgetChange</span></span>|<span data-ttu-id="fd48d-158">**IDXCoreAdapter**</span><span class="sxs-lookup"><span data-stu-id="fd48d-158">**IDXCoreAdapter**</span></span>|<span data-ttu-id="fd48d-159">表示已發生記憶體預算事件，而且您應該使用[DXCoreAdapterState：：) AdapterMemoryBudget](./ne-dxcore_interface-dxcoreadapterstate.md)呼叫[IDXCoreAdapter：： QueryState](./nf-dxcore_interface-idxcoreadapter-querystate.md) (，以評估目前的記憶體預算狀態。</span><span class="sxs-lookup"><span data-stu-id="fd48d-159">Indicates that a memory budgeting event has occurred, and that you should call [IDXCoreAdapter::QueryState](./nf-dxcore_interface-idxcoreadapter-querystate.md) (with [DXCoreAdapterState::AdapterMemoryBudget](./ne-dxcore_interface-dxcoreadapterstate.md)) to evaluate the current memory budget state.</span></span> <span data-ttu-id="fd48d-160">註冊時，一律會發生初始回呼，讓您查詢初始狀態。</span><span class="sxs-lookup"><span data-stu-id="fd48d-160">Upon registration, an initial callback will always occur to allow you to query the initial state.</span></span>|
+|<span data-ttu-id="fd48d-161">AdapterHardwareContentProtectionTeardown</span><span class="sxs-lookup"><span data-stu-id="fd48d-161">AdapterHardwareContentProtectionTeardown</span></span>|<span data-ttu-id="fd48d-162">**IDXCoreAdapter**</span><span class="sxs-lookup"><span data-stu-id="fd48d-162">**IDXCoreAdapter**</span></span>|<span data-ttu-id="fd48d-163">指出您應該重新評估目前的加密會話狀態;例如，藉由呼叫 [ID3D11VideoCoNtext1：： CheckCryptoSessionStatus](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-checkcryptosessionstatus) 來判斷特定 [ID3D11CryptoSession](/windows/win32/api/d3d11/nn-d3d11-id3d11cryptosession) 介面之硬體清除的影響。</span><span class="sxs-lookup"><span data-stu-id="fd48d-163">Indicates that you should re-evaluate the current crypto session status; for example, by calling [ID3D11VideoContext1::CheckCryptoSessionStatus](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-checkcryptosessionstatus) to determine the impact of the hardware teardown for a specific [ID3D11CryptoSession](/windows/win32/api/d3d11/nn-d3d11-id3d11cryptosession) interface.</span></span> <span data-ttu-id="fd48d-164">註冊時，一律會發生初始回呼，讓您查詢初始狀態。</span><span class="sxs-lookup"><span data-stu-id="fd48d-164">Upon registration, an initial callback will always occur to allow you to query the initial state.</span></span>|
+
+<span data-ttu-id="fd48d-165">呼叫您在 *callbackFunction* 中提供的函式，會在偵測到的事件發生時，透過 DXCore 在背景執行緒上以非同步方式進行。</span><span class="sxs-lookup"><span data-stu-id="fd48d-165">A call to the function that you provide in *callbackFunction* is made asynchronously on a background thread by DXCore when the detected event occurs.</span></span> <span data-ttu-id="fd48d-166">不保證回呼的順序或時間有 &mdash; 多個回呼可能會以任何順序發生，甚至是同時進行。</span><span class="sxs-lookup"><span data-stu-id="fd48d-166">No guarantee is made as to the ordering or timing of callbacks&mdash;multiple callbacks may occur in any order, or even simultaneously.</span></span> <span data-ttu-id="fd48d-167">在 **RegisterEventNotification** 完成之前，您的回呼甚至可能會叫用。</span><span class="sxs-lookup"><span data-stu-id="fd48d-167">It's even possible for your callback to be invoked before **RegisterEventNotification** has completed.</span></span> <span data-ttu-id="fd48d-168">在此情況下，DXCore 會保證您的 *eventCookie* 會在呼叫回呼之前設定。</span><span class="sxs-lookup"><span data-stu-id="fd48d-168">In that case, DXCore guarantees that your *eventCookie* is set before your callback is called.</span></span> <span data-ttu-id="fd48d-169">特定註冊的多個回呼將依序序列化。</span><span class="sxs-lookup"><span data-stu-id="fd48d-169">Multiple callbacks for a specific registration will be serialized in order.</span></span>
+
+<span data-ttu-id="fd48d-170">回呼可能會在您呼叫 [UnregisterEventNotification](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md)時隨時發生，而且會完成。</span><span class="sxs-lookup"><span data-stu-id="fd48d-170">Callbacks may occur at any time until you call [UnregisterEventNotification](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md), and it completes.</span></span> <span data-ttu-id="fd48d-171">回呼會在自己的執行緒上執行，而且您可以在這些執行緒（包括 **UnregisterEventNotification**）上呼叫 DXCore API。</span><span class="sxs-lookup"><span data-stu-id="fd48d-171">Callbacks occur on their own threads, and you may make calls into the DXCore API on those threads, including **UnregisterEventNotification**.</span></span> <span data-ttu-id="fd48d-172">不過，您不能在這個執行緒上釋放 *dxCoreObject* 的最後一個參考。</span><span class="sxs-lookup"><span data-stu-id="fd48d-172">However, you must not release the last reference to the *dxCoreObject* on this thread.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="fd48d-173">在您終結傳遞給 **RegisterEventNotification** 的 *dxCoreObject* 引數所代表的 DXCore 物件之前，您必須使用 cookie 值，藉由呼叫 [IDXCoreAdapterFactory：： UnregisterEventNotification](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md)，從通知取消註冊該物件。</span><span class="sxs-lookup"><span data-stu-id="fd48d-173">Before you destroy the DXCore object represented by the *dxCoreObject* argument passed to **RegisterEventNotification**, you must use the cookie value to unregister that object from notifications by calling [IDXCoreAdapterFactory::UnregisterEventNotification](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md).</span></span> <span data-ttu-id="fd48d-174">如果您沒有這麼做，則在偵測到情況時，就會引發嚴重的例外狀況。</span><span class="sxs-lookup"><span data-stu-id="fd48d-174">If you don't do that, then a fatal exception is raised when the situation is detected.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="fd48d-175">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fd48d-175">See also</span></span>
+
+<span data-ttu-id="fd48d-176">[IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md)、 [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md)、 [IDXCoreAdapterFactory：： UnregisterEventNotification](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md)、 [DXCore 參考](../dxcore-reference.md)、 [使用 DXCore 來列舉介面卡](../dxcore-enum-adapters.md)</span><span class="sxs-lookup"><span data-stu-id="fd48d-176">[IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md), [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md), [IDXCoreAdapterFactory::UnregisterEventNotification](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md), [DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)</span></span>
