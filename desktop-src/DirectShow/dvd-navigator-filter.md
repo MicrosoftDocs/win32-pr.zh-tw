@@ -1,0 +1,115 @@
+---
+description: DVD 瀏覽器篩選
+ms.assetid: 3b2c01a2-d52c-4497-8fc9-d1113e8507e8
+title: DVD 瀏覽器篩選
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 53bb1c6f46e3dd846ffccda32fece2c2f04c8992
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104467725"
+---
+# <a name="dvd-navigator-filter"></a>DVD 瀏覽器篩選
+
+DVD 瀏覽器篩選器是 DVD-Video 播放篩選圖形的來源篩選。 它會開啟 DVD-Video 磁片區中所有必要的檔案、流覽線性 DVD-Video，然後剖析產生的 MPEG-2 程式串流、將資料流程分割成三種 (的影片、音訊、子圖片) 輸出圖釘。
+
+DVD 瀏覽器篩選器也會執行 [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2) 和 [**IDvdInfo2**](/windows/desktop/api/Strmif/nn-strmif-idvdinfo2) 介面，讓 DVD 播放應用程式控制 DVD-Video 播放。
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>篩選介面</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2"><strong>IDvdControl2</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-idvdinfo2"><strong>IDvdInfo2</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter"><strong>IFileSourceFilter</strong></a>、 <strong>ISpecifyPropertyPages</strong></td>
+</tr>
+<tr class="even">
+<td>輸入 Pin 媒體類型</td>
+<td>MEDIATYPE_Stream，MEDIASUBTYPE_MPEG2_PROGRAM</td>
+</tr>
+<tr class="odd">
+<td>輸入 Pin 介面</td>
+<td>不適用。</td>
+</tr>
+<tr class="even">
+<td>輸出 Pin 媒體類型</td>
+<td>基底類型：<br/>
+<ul>
+<li>影片： <strong>MEDIATYPE_DVD_ENCRYPTED_PACK</strong>、 <strong>MEDIASUBTYPE_MPEG2_VIDEO</strong></li>
+<li>音訊： <strong>MEDIATYPE_DVD_ENCRYPTED_PACK</strong>， <strong>MEDIASUBTYPE_DOLBY_AC3</strong></li>
+<li>子圖片： <strong>MEDIATYPE_DVD_ENCRYPTED_PACK</strong>、 <strong>MEDIASUBTYPE_DVD_SUBPICTURE</strong></li>
+</ul>
+擴充類型：<br/> 視訊：<br/>
+<ul>
+<li><strong>MEDIATYPE_DVD_ENCRYPTED_PACK</strong>， <strong>MEDIASUBTYPE_MPEG2_VIDEO</strong></li>
+<li><strong>MEDIATYPE_Video</strong>， <strong>MEDIASUBTYPE_MPEG2_VIDEO</strong></li>
+<li><strong>MEDIATYPE_MPEG2_PES</strong>， <strong>MEDIASUBTYPE_MPEG2_VIDEO</strong></li>
+</ul>
+音訊：<br/>
+<ul>
+<li><strong>MEDIATYPE_DVD_ENCRYPTED_PACK</strong>， <strong>MEDIASUBTYPE_DOLBY_AC3</strong></li>
+<li><strong>MEDIATYPE_Audio</strong>， <strong>MEDIASUBTYPE_DOLBY_AC3</strong></li>
+<li><strong>MEDIATYPE_MPEG2_PES</strong>， <strong>MEDIASUBTYPE_DOLBY_AC3</strong></li>
+</ul>
+子圖片<br/>
+<ul>
+<li><strong>MEDIATYPE_DVD_ENCRYPTED_PACK</strong>， <strong>MEDIASUBTYPE_DVD_SUBPICTURE</strong></li>
+<li><strong>MEDIATYPE_Video</strong>， <strong>MEDIASUBTYPE_DVD_SUBPICTURE</strong></li>
+<li><strong>MEDIATYPE_MPEG2_PES</strong>， <strong>MEDIASUBTYPE_DVD_SUBPICTURE</strong></li>
+</ul>
+若要啟用擴充類型，請呼叫 <a href="/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption"><strong>IDvdControl2：： SetOption</strong></a> ，並設定 <br/></td>
+</tr>
+<tr class="odd">
+<td>輸出 Pin 介面</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>、 <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a></td>
+</tr>
+<tr class="even">
+<td>篩選 CLSID</td>
+<td>CLSID_DVDNavigator</td>
+</tr>
+<tr class="odd">
+<td>屬性頁 CLSID</td>
+<td>沒有屬性頁。</td>
+</tr>
+<tr class="even">
+<td>可執行檔</td>
+<td>qdvd.dll</td>
+</tr>
+<tr class="odd">
+<td><a href="merit.md">優點</a></td>
+<td>MERIT_DO_NOT_USE</td>
+</tr>
+<tr class="even">
+<td><a href="filter-categories.md">篩選準則分類</a></td>
+<td>CLSID_LegacyAmFilterCategory</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[DirectShow 篩選](directshow-filters.md)
+</dt> <dt>
+
+[DVD 應用程式](dvd-applications.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
