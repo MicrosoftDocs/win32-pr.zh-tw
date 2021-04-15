@@ -1,0 +1,39 @@
+---
+description: 指標驗證宏
+ms.assetid: 53b080ba-d8cf-48a3-a895-2c14d54f7e21
+title: 指標驗證宏
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: dadf5fd2df1e4f7568d899ff93d4a401404830f0
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104467693"
+---
+# <a name="pointer-validation-macros"></a>指標驗證宏
+
+Microsoft DirectShow 提供數個宏來驗證指標。
+
+
+
+| 巨集                                                | Description                                                                   |
+|------------------------------------------------------|-------------------------------------------------------------------------------|
+| [**CheckPointer**](checkpointer.md)                 | 檢查指標是否為 **Null**。                                         |
+| [**ValidateReadPtr**](validatereadptr.md)           | 確認呼叫進程具有記憶體區塊的讀取權限。          |
+| [**ValidateReadWritePtr**](validatereadwriteptr.md) | 確認呼叫進程具有記憶體區塊的讀取/寫入存取權。    |
+| [**ValidateStringPtr**](validatestringptr.md)       | 確認呼叫進程具有字串的讀取存取權。                |
+| [**ValidateStringPtrA**](validatestringptra.md)     | 確認呼叫進程具有 ANSI 字串的讀取權限。          |
+| [**ValidateStringPtrW**](validatestringptrw.md)     | 確認呼叫進程具有寬字元字串的讀取權限。 |
+| [**ValidateWritePtr**](validatewriteptr.md)         | 確認呼叫進程具有記憶體區塊的寫入權限。         |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
