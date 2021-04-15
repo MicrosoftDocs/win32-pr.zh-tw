@@ -1,0 +1,302 @@
+- name: 觸控輸入
+  href: windows-touch-portal.md
+  items:
+    - name: 關於 Windows Touch
+      href: about-the-multi-touch-sdk.md
+    - name: 程式設計手冊
+      href: programming-guide.md
+      items:
+        - name: 架構概觀
+          href: architectural-overview.md
+        - name: 選擇正確的方法來 Windows Touch
+          href: choosing-the-right-approach-to-windows-touch.md
+        - name: 針對應用程式進行疑難排解
+          href: troubleshooting-applications.md
+        - name: Windows Touch 輸入
+          href: guide-multi-touch-input.md
+          items:
+            - name: 具有 Windows Touch 訊息的開始使用
+              href: getting-started-with-multi-touch-messages.md
+            - name: 偵測和追蹤多個觸控點
+              href: detecting-and-tracking-multiple-touch-points.md
+        - name: Windows Touch 手勢
+          href: guide-multi-touch-gestures.md
+          items:
+            - name: Windows Touch 手勢總覽
+              href: windows-touch-gestures-overview.md
+            - name: 使用 Windows Touch 手勢開始使用
+              href: getting-started-with-multi-touch-gestures.md
+            - name: 舊版支援移動捲軸
+              href: legacy-support-for-panning-with-scrollbars.md
+            - name: 改善單指移動體驗
+              href: improving-the-single-finger-panning-experience.md
+        - name: 操作和慣性
+          href: manipulation-and-inertia.md
+          items:
+            - name: 操作
+              href: getting-started-with-manipulations.md
+              items:
+                - name: 將操作支援新增至非受控碼
+                  href: adding-manipulation-support-in-unmanaged-code.md
+                - name: Advanced 操作
+                  href: advanced-manipulations.md
+                  items:
+                    - name: Advanced 操作總覽
+                      href: advanced-manipulations-overview.md
+                    - name: Advanced 擴充
+                      href: advanced-expansion.md
+                    - name: 先進旋轉
+                      href: advanced-rotation.md
+                    - name: Advanced 翻譯
+                      href: advanced-translation.md
+                - name: 單一手指旋轉
+                  href: single-finger-rotation.md
+            - name: 慣性
+              href: getting-started-with-inertia.md
+              items:
+                - name: 慣性機制
+                  href: inertia-mechanics.md
+                - name: 處理非受控碼中的慣性
+                  href: handling-inertia-in-unmanaged-code.md
+    - name: Windows Touch 範例
+      href: windows-touch-samples.md
+      items:
+        - name: 操作和慣性範例
+          href: manipulation-and-inertia-sample.md
+        - name: 'Windows Touch 手勢範例 (MTGestures) '
+          href: windows-touch-gesture-sample--mtgestures-.md
+        - name: 'C # 範例中的 Windows Touch 手勢 (MTGesturesCS) '
+          href: windows-touch-gestures-in-c--sample--mtgesturescs-.md
+        - name: 'Windows Touch 操作範例 (MTManipulation) '
+          href: windows-touch-manipulation-sample--mtmanipulation-.md
+        - name: 'Windows Touch (的 c + + 範例) '
+          href: windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md
+        - name: 'Windows Touch (的 c # 範例 ) '
+          href: windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md
+        - name: '使用即時手寫筆範例 (c + + 的 Windows Touch 便箋) '
+          href: windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md
+        - name: '使用 Real-Time 手寫筆範例 Windows Touch 的便箋 (c # ) '
+          href: windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md
+    - name: Windows Touch 程式設計參考
+      href: windows-touch-programming-reference.md
+      items:
+        - name: 界限意見反應
+          href: boundary-feedback.md
+          items:
+            - name: 函式
+              href: boundary-feedback-functions.md
+              items:
+                - name: BeginPanningFeedback
+                  href: /windows/desktop/api/uxtheme/nf-uxtheme-beginpanningfeedback
+                - name: EndPanningFeedback
+                  href: /windows/desktop/api/uxtheme/nf-uxtheme-endpanningfeedback
+                - name: UpdatePanningFeedback
+                  href: /windows/desktop/api/uxtheme/nf-uxtheme-updatepanningfeedback
+        - name: 慣性和操作
+          href: inertia-and-manipulation-reference.md
+          items:
+            - name: 類別和介面
+              href: intertmanip-classes-and-interfaces.md
+              items:
+                - name: _IManipulationEvents
+                  href: /windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents
+                  items:
+                    - name: 方法
+                      href: '-imanipulationevents-methods.md'
+                      items:
+                        - name: System.windows.uielement.manipulationstarted> 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted
+                        - name: System.windows.uielement.manipulationdelta> 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta
+                        - name: System.windows.uielement.manipulationcompleted> 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted
+                - name: IInertiaProcessor
+                  href: /windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor
+                  items:
+                    - name: 方法
+                      href: imanipulationprocessor-methods.md
+                      items:
+                        - name: Reset 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-reset
+                        - name: Process 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-process
+                        - name: ProcessTime 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-processtime
+                        - name: Complete 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete
+                        - name: CompleteTime 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-completetime
+                    - name: 屬性
+                      href: iinertiaprocessor-properties.md
+                      items:
+                        - name: InitialOriginX 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginx
+                        - name: InitialOriginY 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginy
+                        - name: InitialVelocityX 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityx
+                        - name: InitialVelocityY 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityy
+                        - name: InitialAngularVelocity 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialangularvelocity
+                        - name: InitialExpansionVelocity 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialexpansionvelocity
+                        - name: InitialRadius 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialradius
+                        - name: BoundaryLeft 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryleft
+                        - name: BoundaryTop 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarytop
+                        - name: BoundaryRight 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryright
+                        - name: BoundaryBottom 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarybottom
+                        - name: ElasticMarginLeft 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginleft
+                        - name: ElasticMarginTop 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmargintop
+                        - name: ElasticMarginRight 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginright
+                        - name: ElasticMarginBottom 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginbottom
+                        - name: DesiredAngularDeceleration 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration
+                        - name: DesiredRotation 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredrotation
+                        - name: DesiredExpansion 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansion
+                        - name: DesiredExpansionDeceleration 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansiondeceleration
+                        - name: DesiredDeceleration 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration
+                        - name: DesiredDisplacement 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddisplacement
+                        - name: InitialTimestamp 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialtimestamp
+                - name: IManipulationProcessor
+                  href: /windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor
+                  items:
+                    - name: 方法
+                      href: mtmethods.md
+                      items:
+                        - name: CompleteManipulation 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-completemanipulation
+                        - name: GetAngularVelocity 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getangularvelocity
+                        - name: GetExpansionVelocity 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getexpansionvelocity
+                        - name: GetVelocityX 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityx
+                        - name: GetVelocityY 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityy
+                        - name: ProcessDown 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdown
+                        - name: ProcessMove 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmove
+                        - name: ProcessUp 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup
+                        - name: ProcessDownWithTime 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime
+                        - name: ProcessMoveWithTime 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime
+                        - name: ProcessUpWithTime 方法
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime
+                    - name: 屬性
+                      href: mtproperties.md
+                      items:
+                        - name: MinimumScaleRotateRadius 屬性
+                          href: imanipulationprocessor-minimumscalerotateradius.md
+                        - name: PivotPointX 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx
+                        - name: PivotPointY 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy
+                        - name: PivotRadius 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius
+                        - name: SupportedManipulations 屬性
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_supportedmanipulations
+            - name: 常數
+              href: imanipulationprocessor-constants.md
+            - name: 列舉
+              href: rts-functions.md
+              items:
+                - name: MANIPULATION_PROCESSOR_MANIPULATIONS
+                  href: /windows/desktop/api/manipulations/ne-manipulations-manipulation_processor_manipulations
+        - name: Windows Touch 手勢
+          href: multi-touch-gestures.md
+          items:
+            - name: 常數
+              href: constants.md
+              items:
+                - name: Windows Touch 手勢
+                  href: windows-touch-gestures-constants.md
+            - name: 函式
+              href: mtgfunctions.md
+              items:
+                - name: CloseGestureInfoHandle
+                  href: /windows/desktop/api/winuser/nf-winuser-closegestureinfohandle
+                - name: GetGestureExtraArgs
+                  href: /windows/desktop/api/winuser/nf-winuser-getgestureextraargs
+                - name: GetGestureInfo
+                  href: /windows/desktop/api/winuser/nf-winuser-getgestureinfo
+                - name: GetGestureConfig
+                  href: /windows/desktop/api/winuser/nf-winuser-getgestureconfig
+                - name: SetGestureConfig
+                  href: /windows/desktop/api/winuser/nf-winuser-setgestureconfig
+            - name: 巨集
+              href: macros.md
+              items:
+                - name: GID_ROTATE_ANGLE_FROM_ARGUMENT
+                  href: /windows/desktop/api/winuser/nf-winuser-gid_rotate_angle_from_argument
+                - name: GID_ROTATE_ANGLE_TO_ARGUMENT
+                  href: /windows/desktop/api/winuser/nf-winuser-gid_rotate_angle_to_argument
+            - name: 通知
+              href: notifications.md
+              items:
+                - name: WM_GESTURE
+                  href: wm-gesture.md
+                - name: WM_GESTURENOTIFY
+                  href: wm-gesturenotify.md
+            - name: 結構
+              href: mtstructures.md
+              items:
+                - name: GESTURECONFIG
+                  href: /windows/win32/api/winuser/ns-winuser-gestureconfig
+                - name: GESTUREINFO
+                  href: /windows/win32/api/winuser/ns-winuser-gestureinfo
+                - name: GESTURENOTIFYSTRUCT
+                  href: /windows/win32/api/winuser/ns-winuser-gesturenotifystruct
+        - name: Windows Touch 輸入
+          href: multi-touch-input.md
+          items:
+            - name: 巨集
+              href: touch-macros.md
+              items:
+                - name: TOUCH_COORD_TO_PIXEL
+                  href: /windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel
+            - name: 函式
+              href: mtfunctions.md
+              items:
+                - name: CloseTouchInputHandle
+                  href: /windows/desktop/api/winuser/nf-winuser-closetouchinputhandle
+                - name: GetTouchInputInfo
+                  href: /windows/desktop/api/winuser/nf-winuser-gettouchinputinfo
+                - name: IsTouchWindow
+                  href: /windows/desktop/api/winuser/nf-winuser-istouchwindow
+                - name: RegisterTouchWindow
+                  href: /windows/desktop/api/winuser/nf-winuser-registertouchwindow
+                - name: UnregisterTouchWindow
+                  href: /windows/desktop/api/winuser/nf-winuser-unregistertouchwindow
+                - name: SendMessage、PostMessage 和相關函數
+                  href: sendmessage--postmessage--and-related-functions.md
+            - name: 訊息
+              href: messages.md
+              items:
+                - name: WM_TOUCH
+                  href: wm-touchdown.md
+            - name: 結構
+              href: structures.md
+              items:
+                - name: TOUCHINPUT
+                  href: /windows/win32/api/winuser/ns-winuser-touchinput
+    - name: Windows Touch 詞彙
+      href: glossary.md

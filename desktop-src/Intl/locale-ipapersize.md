@@ -11,18 +11,18 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "103849339"
 ---
-# <a name="locale_ipapersize"></a><span data-ttu-id="252f3-103">地區設定 \_ IPAPERSIZE</span><span class="sxs-lookup"><span data-stu-id="252f3-103">LOCALE\_IPAPERSIZE</span></span>
+# <a name="locale_ipapersize"></a><span data-ttu-id="56644-103">地區設定 \_ IPAPERSIZE</span><span class="sxs-lookup"><span data-stu-id="56644-103">LOCALE\_IPAPERSIZE</span></span>
 
-<span data-ttu-id="252f3-104">**Windows 2000：** 與地區設定相關聯的預設紙張大小。</span><span class="sxs-lookup"><span data-stu-id="252f3-104">**Windows 2000:** Default paper size associated with the locale.</span></span> <span data-ttu-id="252f3-105">大小通常具有下列其中一個值，不過它可以設定為任何由多工緩衝處理器理解的已定義紙張大小。</span><span class="sxs-lookup"><span data-stu-id="252f3-105">The size typically has one of the following values, although it can be set to any of the defined paper sizes that are understood by the spooler.</span></span>
+<span data-ttu-id="56644-104">**Windows 2000：** 與地區設定相關聯的預設紙張大小。</span><span class="sxs-lookup"><span data-stu-id="56644-104">**Windows 2000:** Default paper size associated with the locale.</span></span> <span data-ttu-id="56644-105">大小通常具有下列其中一個值，不過它可以設定為任何由多工緩衝處理器理解的已定義紙張大小。</span><span class="sxs-lookup"><span data-stu-id="56644-105">The size typically has one of the following values, although it can be set to any of the defined paper sizes that are understood by the spooler.</span></span>
 
 
 
-| <span data-ttu-id="252f3-106">值</span><span class="sxs-lookup"><span data-stu-id="252f3-106">Value</span></span> | <span data-ttu-id="252f3-107">意義</span><span class="sxs-lookup"><span data-stu-id="252f3-107">Meaning</span></span>   |
+| <span data-ttu-id="56644-106">值</span><span class="sxs-lookup"><span data-stu-id="56644-106">Value</span></span> | <span data-ttu-id="56644-107">意義</span><span class="sxs-lookup"><span data-stu-id="56644-107">Meaning</span></span>   |
 |-------|-----------|
-| <span data-ttu-id="252f3-108">1</span><span class="sxs-lookup"><span data-stu-id="252f3-108">1</span></span>     | <span data-ttu-id="252f3-109">美國信件</span><span class="sxs-lookup"><span data-stu-id="252f3-109">US Letter</span></span> |
-| <span data-ttu-id="252f3-110">5</span><span class="sxs-lookup"><span data-stu-id="252f3-110">5</span></span>     | <span data-ttu-id="252f3-111">美國法律</span><span class="sxs-lookup"><span data-stu-id="252f3-111">US legal</span></span>  |
-| <span data-ttu-id="252f3-112">8</span><span class="sxs-lookup"><span data-stu-id="252f3-112">8</span></span>     | <span data-ttu-id="252f3-113">A3</span><span class="sxs-lookup"><span data-stu-id="252f3-113">A3</span></span>        |
-| <span data-ttu-id="252f3-114">9</span><span class="sxs-lookup"><span data-stu-id="252f3-114">9</span></span>     | <span data-ttu-id="252f3-115">A4</span><span class="sxs-lookup"><span data-stu-id="252f3-115">A4</span></span>        |
+| <span data-ttu-id="56644-108">1</span><span class="sxs-lookup"><span data-stu-id="56644-108">1</span></span>     | <span data-ttu-id="56644-109">美國信件</span><span class="sxs-lookup"><span data-stu-id="56644-109">US Letter</span></span> |
+| <span data-ttu-id="56644-110">5</span><span class="sxs-lookup"><span data-stu-id="56644-110">5</span></span>     | <span data-ttu-id="56644-111">美國法律</span><span class="sxs-lookup"><span data-stu-id="56644-111">US legal</span></span>  |
+| <span data-ttu-id="56644-112">8</span><span class="sxs-lookup"><span data-stu-id="56644-112">8</span></span>     | <span data-ttu-id="56644-113">A3</span><span class="sxs-lookup"><span data-stu-id="56644-113">A3</span></span>        |
+| <span data-ttu-id="56644-114">9</span><span class="sxs-lookup"><span data-stu-id="56644-114">9</span></span>     | <span data-ttu-id="56644-115">A4</span><span class="sxs-lookup"><span data-stu-id="56644-115">A4</span></span>        |
 
 
 

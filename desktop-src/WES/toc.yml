@@ -1,0 +1,627 @@
+- name: Windows 事件記錄檔
+  href: windows-event-log.md
+  items:
+    - name: 新功能
+      href: what-s-new.md
+    - name: 使用 Windows 事件記錄檔
+      href: using-windows-event-log.md
+      items:
+        - name: 撰寫檢測資訊清單
+          href: writing-an-instrumentation-manifest.md
+          items:
+            - name: 識別提供者
+              href: identifying-the-provider.md
+            - name: 定義通道
+              href: defining-channels.md
+            - name: 定義嚴重性層級
+              href: defining-severity-levels.md
+            - name: 定義工作和作業碼
+              href: defining-tasks-and-opcodes.md
+            - name: 定義用來分類事件種類的關鍵字
+              href: defining-keywords-used-to-classify-types-of-events.md
+            - name: 定義篩選器
+              href: defining-filters.md
+            - name: 定義名稱/值對應
+              href: defining-name-value-mappings.md
+            - name: 定義事件資料範本
+              href: defining-event-data-templates.md
+            - name: 定義事件
+              href: defining-events.md
+            - name: 當地語系化訊息字串
+              href: localizing-message-strings.md
+        - name: 編譯檢測資訊清單
+          href: compiling-an-instrumentation-manifest.md
+        - name: 開發提供者
+          href: developing-a-provider.md
+        - name: 使用事件
+          href: consuming-events.md
+          items:
+            - name: 查詢事件
+              href: querying-for-events.md
+            - name: 訂閱事件
+              href: subscribing-to-events.md
+            - name: 轉譯事件
+              href: rendering-events.md
+              items:
+                - name: 格式化事件訊息
+                  href: formatting-event-messages.md
+            - name: 將事件加上書簽
+              href: bookmarking-events.md
+        - name: 取得和設定 Channel &apos; s 設定屬性
+          href: getting-and-setting-a-channel-s-configuration-properties.md
+        - name: 取得提供者的 &apos; 中繼資料
+          href: getting-a-provider-s-metadata-.md
+        - name: 存取遠端電腦
+          href: accessing-remote-computers.md
+        - name: 將事件儲存至記錄檔
+          href: saving-events-to-a-log-file.md
+    - name: Windows 事件記錄檔參考
+      href: windows-event-log-reference.md
+      items:
+        - name: EventManifest 架構
+          href: eventmanifestschema-schema.md
+          items:
+            - name: EventManifest 架構元素
+              href: eventmanifestschema-elements.md
+              items:
+                - name: autoBackup (ChannelLoggingType) 元素
+                  href: eventmanifestschema-autobackup-channelloggingtype-element.md
+                - name: 二元 (TemplateItemType) 元素
+                  href: eventmanifestschema-binary-templateitemtype-element.md
+                - name: 點陣圖 (MapType) 元素
+                  href: eventmanifestschema-bitmap-maptype-element.md
+                - name: bufferSize (ChannelPublishingType) 元素
+                  href: eventmanifestschema-buffersize-channelpublishingtype-element.md
+                - name: channel (ChannelListType) 元素
+                  href: eventmanifestschema-channel-channellisttype-element.md
+                - name: 通道 (MetadataType) 元素
+                  href: eventmanifestschema-channels-metadatatype-element.md
+                - name: 通道 (ProviderType) 元素
+                  href: eventmanifestschema-channels-providertype-element.md
+                - name: clockType (ChannelPublishingType) 元素
+                  href: eventmanifestschema-clocktype-channelpublishingtype-element.md
+                - name: controlGuid (ChannelPublishingType) 元素
+                  href: eventmanifestschema-controlguid-channelpublishingtype-element.md
+                - name: 資料 (StructDefinitionType) 元素
+                  href: eventmanifestschema-data-structdefinitiontype-element.md
+                - name: 資料 (TemplateItemType) 元素
+                  href: eventmanifestschema-data-templateitemtype-element.md
+                - name: 描述 (InputType) 元素
+                  href: eventmanifestschema-description-inputtype-element.md
+                - name: 事件 (DefinitionType) 元素
+                  href: eventmanifestschema-event-definitiontype-element.md
+                - name: 事件 (opcode) 元素
+                  href: eventmanifestschema-event-opcode-element.md
+                - name: 事件 (TaskEventDefinitionType) 元素
+                  href: eventmanifestschema-event-taskeventdefinitiontype-element.md
+                - name: 事件 (Instrumentationtype.event) 元素
+                  href: eventmanifestschema-events-instrumentationtype-element.md
+                - name: 事件 (ProviderType) 元素
+                  href: eventmanifestschema-events-providertype-element.md
+                - name: importChannel (ChannelListType) 元素
+                  href: eventmanifestschema-importchannel-channellisttype-element.md
+                - name: instrumentationManifest 元素
+                  href: eventmanifestschema-instrumentationmanifest-element.md
+                - name: 檢測 (instrumentationManifest) 元素
+                  href: eventmanifestschema-instrumentation-instrumentationmanifest-element.md
+                - name: inType (InputTypeListType) 元素
+                  href: eventmanifestschema-intype-inputtypelisttype-element.md
+                - name: inTypes (TypeListType) 元素
+                  href: eventmanifestschema-intypes-typelisttype-element.md
+                - name: 關鍵字 (KeywordListType) 元素
+                  href: eventmanifestschema-keyword-keywordlisttype-element.md
+                - name: 關鍵字 (ChannelPublishingType) 元素
+                  href: eventmanifestschema-keywords-channelpublishingtype-element.md
+                - name: 關鍵字 (MetadataType) 元素
+                  href: eventmanifestschema-keywords-metadatatype-element.md
+                - name: 關鍵字 (ProviderType) 元素
+                  href: eventmanifestschema-keywords-providertype-element.md
+                - name: ChannelPublishingType) 元素的延遲 (
+                  href: eventmanifestschema-latency-channelpublishingtype-element.md
+                - name: 層級 (ChannelPublishingType) 元素
+                  href: eventmanifestschema-level-channelpublishingtype-element.md
+                - name: 層級 (LevelListType) 元素
+                  href: eventmanifestschema-level-levellisttype-element.md
+                - name: 層級 (MetadataType) 元素
+                  href: eventmanifestschema-levels-metadatatype-element.md
+                - name: 層級 (ProviderType) 元素
+                  href: eventmanifestschema-levels-providertype-element.md
+                - name: 當地語系化 (instrumentationManifest) 元素
+                  href: eventmanifestschema-localization-instrumentationmanifest-element.md
+                - name: 記錄 (ChannelType) 元素
+                  href: eventmanifestschema-logging-channeltype-element.md
+                - name: map (BitMapType) 元素
+                  href: eventmanifestschema-map-bitmaptype-element.md
+                - name: map (PatternMapType) 元素
+                  href: eventmanifestschema-map-patternmaptype-element.md
+                - name: map (ValueMapType) 元素
+                  href: eventmanifestschema-map-valuemaptype-element.md
+                - name: maps (ProviderType) 元素
+                  href: eventmanifestschema-maps-providertype-element.md
+                - name: maxBuffers (ChannelPublishingType) 元素
+                  href: eventmanifestschema-maxbuffers-channelpublishingtype-element.md
+                - name: maxSize (ChannelLoggingType) 元素
+                  href: eventmanifestschema-maxsize-channelloggingtype-element.md
+                - name: message (messageTable) 元素
+                  href: eventmanifestschema-message-messagetable-element.md
+                - name: messageTable (EventsType) 元素
+                  href: eventmanifestschema-messagetable-instrumentationtype-element.md
+                - name: messageTable (MetadataType) 元素
+                  href: eventmanifestschema-messagetable-metadatatype-element.md
+                - name: 中繼資料 (instrumentationManifest) 元素
+                  href: eventmanifestschema-metadata-instrumentationmanifest-element.md
+                - name: minBuffers (ChannelPublishingType) 元素
+                  href: eventmanifestschema-minbuffers-channelpublishingtype-element.md
+                - name: namedQueries (MetadataType) 元素
+                  href: eventmanifestschema-namedqueries-metadatatype-element.md
+                - name: namedQueries (ProviderType) 元素
+                  href: eventmanifestschema-namedqueries-providertype-element.md
+                - name: opcode (OpcodeListType) 元素
+                  href: eventmanifestschema-opcode-opcodelisttype-element.md
+                - name: opcode (TaskEventDefinitionType) 元素
+                  href: eventmanifestschema-opcode-taskeventdefinitiontype-element.md
+                - name: opcode (MetadataType) 元素
+                  href: eventmanifestschema-opcodes-metadatatype-element.md
+                - name: opcode (ProviderType) 元素
+                  href: eventmanifestschema-opcodes-providertype-element.md
+                - name: opcode (TaskType) 元素
+                  href: eventmanifestschema-opcodes-tasktype-element.md
+                - name: outType (InputType) 元素
+                  href: eventmanifestschema-outtype-inputtype-element.md
+                - name: patternMap (PatternMapListType) 元素
+                  href: eventmanifestschema-patternmap-patternmaplisttype-element.md
+                - name: patternMaps (NamedQueryType) 元素
+                  href: eventmanifestschema-patternmaps-namedquerytype-element.md
+                - name: 提供者 (EventsType) 元素
+                  href: eventmanifestschema-provider-eventstype-element.md
+                - name: 發行 (ChannelType) 元素
+                  href: eventmanifestschema-publishing-channeltype-element.md
+                - name: 資源 (LocalizationType) 元素
+                  href: eventmanifestschema-resources-localizationtype-element.md
+                - name: 保留 (ChannelLoggingType) 元素
+                  href: eventmanifestschema-retention-channelloggingtype-element.md
+                - name: sidType (ChannelPublishingType) 元素
+                  href: eventmanifestschema-sidtype-channelpublishingtype-element.md
+                - name: 字串 (StringTableType) 元素
+                  href: eventmanifestschema-string-stringtabletype-element.md
+                - name: stringTable (LocalizationType) 元素
+                  href: eventmanifestschema-stringtable-localizationtype-element.md
+                - name: stringTable (資源) 元素
+                  href: eventmanifestschema-stringtable-resources-element.md
+                - name: 結構 (TemplateItemType) 元素
+                  href: eventmanifestschema-struct-templateitemtype-element.md
+                - name: task (DefinitionType) 元素
+                  href: eventmanifestschema-task-definitiontype-element.md
+                - name: task (TaskListType) 元素
+                  href: eventmanifestschema-task-tasklisttype-element.md
+                - name: 工作 (ProviderType) 元素
+                  href: eventmanifestschema-tasks-providertype-element.md
+                - name: 範本 (TemplateListType) 元素
+                  href: eventmanifestschema-template-templatelisttype-element.md
+                - name: 範本 (ProviderType) 元素
+                  href: eventmanifestschema-templates-providertype-element.md
+                - name: 類型 (MetadataType) 元素
+                  href: eventmanifestschema-types-metadatatype-element.md
+                - name: UserData (TemplateItemType) 元素
+                  href: eventmanifestschema-userdata-templateitemtype-element.md
+                - name: ' (MapType) 元素的 valueMap'
+                  href: eventmanifestschema-valuemap-maptype-element.md
+                - name: xmlType (XmlTypeListType) 元素
+                  href: eventmanifestschema-xmltype-xmltypelisttype-element.md
+                - name: xmlTypes (TypeListType) 元素
+                  href: eventmanifestschema-xmltypes-typelisttype-element.md
+            - name: EventManifest 架構簡單類型
+              href: eventmanifestschema-simple-types.md
+              items:
+                - name: CountType 簡單類型
+                  href: eventmanifestschema-counttype-simpletype.md
+                - name: CSymbolType 簡單類型
+                  href: eventmanifestschema-csymboltype-simpletype.md
+                - name: filePath 簡單類型
+                  href: eventmanifestschema-filepath-simpletype.md
+                - name: GUIDType 簡單類型
+                  href: eventmanifestschema-guidtype-simpletype.md
+                - name: HexInt8Type 簡單類型
+                  href: eventmanifestschema-hex8type-simpletype.md
+                - name: HexInt16Type 簡單類型
+                  href: eventmanifestschema-hex16type-simpletype.md
+                - name: HexInt32Type 簡單類型
+                  href: eventmanifestschema-hex32type-simpletype.md
+                - name: HexInt64Type 簡單類型
+                  href: eventmanifestschema-hex64type-simpletype.md
+                - name: UInt8Type 簡單類型
+                  href: eventmanifestschema-hexint8type-simpletype.md
+                - name: UInt16Type 簡單類型
+                  href: eventmanifestschema-hexint16type-simpletype.md
+                - name: UInt32Type 簡單類型
+                  href: eventmanifestschema-hexint32type-simpletype.md
+                - name: UInt64Type 簡單類型
+                  href: eventmanifestschema-hexint64type-simpletype.md
+                - name: LengthType 簡單類型
+                  href: eventmanifestschema-lengthtype-simpletype.md
+                - name: QNameList 簡單類型
+                  href: eventmanifestschema-qnamelist-simpletype.md
+                - name: strTableRef 簡單類型
+                  href: eventmanifestschema-strtableref-simpletype.md
+            - name: EventManifest 架構複雜類型
+              href: eventmanifestschema-complex-types.md
+              items:
+                - name: BitMapType 複雜類型
+                  href: eventmanifestschema-bitmaptype-complextype.md
+                - name: BitMapValueType 複雜類型
+                  href: eventmanifestschema-bitmapvaluetype-complextype.md
+                - name: ChannelListType 複雜類型
+                  href: eventmanifestschema-channellisttype-complextype.md
+                - name: ChannelLoggingType 複雜類型
+                  href: eventmanifestschema-channelloggingtype-complextype.md
+                - name: ChannelPublishingType 複雜類型
+                  href: eventmanifestschema-channelpublishingtype-complextype.md
+                - name: ChannelType 複雜類型
+                  href: eventmanifestschema-channeltype-complextype.md
+                - name: DataDefinitionType 複雜類型
+                  href: eventmanifestschema-datadefinitiontype-complextype.md
+                - name: DefinitionType 複雜類型
+                  href: eventmanifestschema-definitiontype-complextype.md
+                - name: EventDefinitionType 複雜類型
+                  href: eventmanifestschema-eventdefinitiontype-complextype.md
+                - name: EventsType 複雜類型
+                  href: eventmanifestschema-eventstype-complextype.md
+                - name: FilterListType 複雜類型
+                  href: eventmanifestschema-filterlisttype-complextype.md
+                - name: FilterType 複雜類型
+                  href: eventmanifestschema-filtertype-complextype.md
+                - name: ImportChannelType 複雜類型
+                  href: eventmanifestschema-importchanneltype-complextype.md
+                - name: InputType 複雜型別
+                  href: eventmanifestschema-inputtype-complextype.md
+                - name: InputTypeListType 複雜類型
+                  href: eventmanifestschema-inputtypelisttype-complextype.md
+                - name: InstrumentationManifestType 複雜類型
+                  href: eventmanifestschema-instrumentationmanifesttype-complextype.md
+                - name: Instrumentationtype.event 複雜類型
+                  href: eventmanifestschema-instrumentationtype-complextype.md
+                - name: KeywordListType 複雜類型
+                  href: eventmanifestschema-keywordlisttype-complextype.md
+                - name: KeywordType 複雜類型
+                  href: eventmanifestschema-keywordtype-complextype.md
+                - name: LevelListType 複雜類型
+                  href: eventmanifestschema-levellisttype-complextype.md
+                - name: LevelType 複雜類型
+                  href: eventmanifestschema-leveltype-complextype.md
+                - name: LocalizationType 複雜類型
+                  href: eventmanifestschema-localizationtype-complextype.md
+                - name: MapType 複雜類型
+                  href: eventmanifestschema-maptype-complextype.md
+                - name: MetadataType 複雜類型
+                  href: eventmanifestschema-metadatatype-complextype.md
+                - name: NamedQueryType 複雜類型
+                  href: eventmanifestschema-namedquerytype-complextype.md
+                - name: OpcodeListType 複雜類型
+                  href: eventmanifestschema-opcodelisttype-complextype.md
+                - name: OpcodeType 複雜類型
+                  href: eventmanifestschema-opcodetype-complextype.md
+                - name: OutputType 複雜型別
+                  href: eventmanifestschema-outputtype-complextype.md
+                - name: PatternMapListType 複雜類型
+                  href: eventmanifestschema-patternmaplisttype-complextype.md
+                - name: PatternMapType 複雜類型
+                  href: eventmanifestschema-patternmaptype-complextype.md
+                - name: PatternMapValueType 複雜類型
+                  href: eventmanifestschema-patternmapvaluetype-complextype.md
+                - name: ProviderType 複雜類型
+                  href: eventmanifestschema-providertype-complextype.md
+                - name: StringTableType 複雜類型
+                  href: eventmanifestschema-stringtabletype-complextype.md
+                - name: StructDefinitionType 複雜類型
+                  href: eventmanifestschema-structdefinitiontype-complextype.md
+                - name: TaskEventDefinitionType 複雜類型
+                  href: eventmanifestschema-taskeventdefinitiontype-complextype.md
+                - name: TaskListType 複雜類型
+                  href: eventmanifestschema-tasklisttype-complextype.md
+                - name: TaskType 複雜類型
+                  href: eventmanifestschema-tasktype-complextype.md
+                - name: TemplateItemType 複雜類型
+                  href: eventmanifestschema-templateitemtype-complextype.md
+                - name: TemplateListType 複雜類型
+                  href: eventmanifestschema-templatelisttype-complextype.md
+                - name: TypeListType 複雜類型
+                  href: eventmanifestschema-typelisttype-complextype.md
+                - name: ValueMapType 複雜類型
+                  href: eventmanifestschema-valuemaptype-complextype.md
+                - name: ValueMapValueType 複雜類型
+                  href: eventmanifestschema-valuemapvaluetype-complextype.md
+                - name: XmlType 複雜類型
+                  href: eventmanifestschema-xmltype-complextype.md
+                - name: XmlTypeListType 複雜類型
+                  href: eventmanifestschema-xmltypelisttype-complextype.md
+        - name: 事件結構描述
+          href: eventschema-schema.md
+          items:
+            - name: 事件架構元素
+              href: eventschema-elements.md
+              items:
+                - name: BinaryEventData (的事件) 元素
+                  href: eventschema-binaryeventdata-eventtype-element.md
+                - name: 二元 (EventDataType) 元素
+                  href: eventschema-binary-eventdatatype-element.md
+                - name: Channel (RenderingInfoType) 元素
+                  href: eventschema-channel-renderinginfotype-element.md
+                - name: Channel (SystemPropertiesType) 元素
+                  href: eventschema-channel-systempropertiestype-element.md
+                - name: ComplexData (EventDataType) 元素
+                  href: eventschema-complexdata-eventdatatype-element.md
+                - name: 元件 (DebugDataType) 元素
+                  href: eventschema-component-debugdatatype-element.md
+                - name: 電腦 (SystemPropertiesType) 元素
+                  href: eventschema-computer-systempropertiestype-element.md
+                - name: 相互關聯 (SystemPropertiesType) 元素
+                  href: eventschema-correlation-systempropertiestype-element.md
+                - name: DataItemName (ProcessingErrorDataType) 元素
+                  href: eventschema-dataitemname-processingerrordatatype-element.md
+                - name: 資料 (ComplexDataType) 元素
+                  href: eventschema-data-complexdatatype-element.md
+                - name: 資料 (EventDataType) 元素
+                  href: eventschema-data-eventdatatype-element.md
+                - name: DebugData (的事件) 元素
+                  href: eventschema-debugdata-eventtype-element.md
+                - name: ErrorCode (ProcessingErrorDataType) 元素
+                  href: eventschema-errorcode-processingerrordatatype-element.md
+                - name: Event 元素
+                  href: eventschema-event-element.md
+                - name: EventData (的事件) 元素
+                  href: eventschema-eventdata-eventtype-element.md
+                - name: EventID (SystemPropertiesType) 元素
+                  href: eventschema-eventid-systempropertiestype-element.md
+                - name: EventPayload (ProcessingErrorDataType) 元素
+                  href: eventschema-eventpayload-processingerrordatatype-element.md
+                - name: EventRecordID (SystemPropertiesType) 元素
+                  href: eventschema-eventrecordid-systempropertiestype-element.md
+                - name: 執行 (SystemPropertiesType) 元素
+                  href: eventschema-execution-systempropertiestype-element.md
+                - name: FileLine (DebugDataType) 元素
+                  href: eventschema-fileline-debugdatatype-element.md
+                - name: FlagName (DebugDataType) 元素
+                  href: eventschema-flagname-debugdatatype-element.md
+                - name: 函數 (DebugDataType) 元素
+                  href: eventschema-function-debugdatatype-element.md
+                - name: 關鍵字 (關鍵字) 元素
+                  href: eventschema-keyword-keywords-element.md
+                - name: 關鍵字 (RenderingInfoType) 元素
+                  href: eventschema-keywords-renderingtype-element.md
+                - name: 關鍵字 (SystemPropertiesType) 元素
+                  href: eventschema-keywords-systempropertiestype-element.md
+                - name: 層級 (RenderingInfoType) 元素
+                  href: eventschema-level-renderingtype-element.md
+                - name: 層級 (SystemPropertiesType) 元素
+                  href: eventschema-level-systempropertiestype-element.md
+                - name: LevelName (DebugDataType) 元素
+                  href: eventschema-levelname-debugdatatype-element.md
+                - name: Message (DebugDataType) 元素
+                  href: eventschema-message-debugdatatype-element.md
+                - name: Message (RenderingInfoType) 元素
+                  href: eventschema-message-renderingtype-element.md
+                - name: Opcode (RenderingInfoType) 元素
+                  href: eventschema-opcode-renderingtype-element.md
+                - name: Opcode (SystemPropertiesType) 元素
+                  href: eventschema-opcode-systempropertiestype-element.md
+                - name: ProcessingErrorData (的事件) 元素
+                  href: eventschema-processingerrordata-eventtype-element.md
+                - name: 提供者 (SystemPropertiesType) 元素
+                  href: eventschema-provider-systempropertiestype-element.md
+                - name: 提供者 (RenderingInfoType) 元素
+                  href: eventschema-publisher-renderinginfotype-element.md
+                - name: RenderingInfo (的事件) 元素
+                  href: eventschema-renderinginfo-eventtype-element.md
+                - name: 安全性 (SystemPropertiesType) 元素
+                  href: eventschema-security-systempropertiestype-element.md
+                - name: SequenceNumber (DebugDataType) 元素
+                  href: eventschema-sequencenumber-debugdatatype-element.md
+                - name: 子元件 (DebugDataType) 元素
+                  href: eventschema-subcomponent-debugdatatype-element.md
+                - name: 系統 (的) 元素
+                  href: eventschema-system-eventtype-element.md
+                - name: Task (RenderingInfoType) 元素
+                  href: eventschema-task-renderingtype-element.md
+                - name: Task (SystemPropertiesType) 元素
+                  href: eventschema-task-systempropertiestype-element.md
+                - name: TimeCreated (SystemPropertiesType) 元素
+                  href: eventschema-timecreated-systempropertiestype-element.md
+                - name: UserData (事件的) 元素
+                  href: eventschema-userdata-eventtype-element.md
+                - name: 版本 (SystemPropertiesType) 元素
+                  href: schema-version-systempropertiestype-element.md
+            - name: 事件架構簡單類型
+              href: eventschema-simple-types.md
+              items:
+                - name: GUIDType 簡單類型
+                  href: eventschema-guidtype-simpletype.md
+                - name: HexInt32Type 簡單類型
+                  href: eventschema-hexint32type-simpletype.md
+                - name: HexInt64Type 簡單類型
+                  href: eventschema-hexint64type-simpletype.md
+            - name: 事件架構複雜類型
+              href: eventschema-complex-types.md
+              items:
+                - name: ComplexDataType 複雜類型
+                  href: eventschema-complexdatatype-complextype.md
+                - name: DataType 複雜型別
+                  href: eventschema-datafieldtype-complextype.md
+                - name: DebugDataType 複雜類型
+                  href: eventschema-debugdatatype-complextype.md
+                - name: EventDataType 複雜類型
+                  href: eventschema-eventdatatype-complextype.md
+                - name: 事件種類複雜類型
+                  href: eventschema-eventtype-complextype.md
+                - name: ProcessingErrorDataType 複雜類型
+                  href: eventschema-processingerrordatatype-complextype.md
+                - name: RenderingInfoType 複雜類型
+                  href: eventschema-renderingtype-complextype.md
+                - name: SystemPropertiesType 複雜類型
+                  href: eventschema-systempropertiestype-complextype.md
+                - name: UserDataType 複雜類型
+                  href: eventschema-userdatatype-complextype.md
+        - name: 查詢架構
+          href: queryschema-schema.md
+          items:
+            - name: 查詢架構元素
+              href: queryschema-elements.md
+              items:
+                - name: Q u t 元素
+                  href: queryschema-querylist-element.md
+                - name: 查詢 (QueryListType) 元素
+                  href: queryschema-query-querylisttype-element.md
+                - name: 選取 (QueryType) 元素
+                  href: queryschema-select-querytype-element.md
+                - name: 隱藏 (QueryType) 元素
+                  href: queryschema-suppress-querytype-element.md
+            - name: 查詢架構複雜類型
+              href: queryschema-complex-types.md
+              items:
+                - name: QueryListType 複雜類型
+                  href: queryschema-querylisttype-complextype.md
+                - name: QueryType 複雜類型
+                  href: queryschema-querytype-complextype.md
+        - name: Windows 事件記錄檔常數
+          href: windows-event-log-constants.md
+        - name: Windows 事件記錄檔資料類型
+          href: windows-event-log-data-types.md
+        - name: Windows 事件記錄檔錯誤常數
+          href: windows-event-log-error-constants.md
+        - name: Windows 事件記錄檔列舉
+          href: windows-event-log-enumerations.md
+          items:
+            - name: EVT_CHANNEL_CLOCK_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_clock_type
+            - name: EVT_CHANNEL_CONFIG_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_config_property_id
+            - name: EVT_CHANNEL_ISOLATION_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_isolation_type
+            - name: EVT_CHANNEL_REFERENCE_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_reference_flags
+            - name: EVT_CHANNEL_SID_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_sid_type
+            - name: EVT_CHANNEL_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_type
+            - name: EVT_EVENT_METADATA_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_event_metadata_property_id
+            - name: EVT_EVENT_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_event_property_id
+            - name: EVT_EXPORTLOG_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_exportlog_flags
+            - name: EVT_FORMAT_MESSAGE_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_format_message_flags
+            - name: EVT_LOG_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_log_property_id
+            - name: EVT_LOGIN_CLASS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_login_class
+            - name: EVT_OPEN_LOG_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_open_log_flags
+            - name: EVT_PUBLISHER_METADATA_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_publisher_metadata_property_id
+            - name: EVT_QUERY_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_query_flags
+            - name: EVT_QUERY_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_query_property_id
+            - name: EVT_RENDER_CONTEXT_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_render_context_flags
+            - name: EVT_RENDER_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_render_flags
+            - name: EVT_RPC_LOGIN_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_rpc_login_flags
+            - name: EVT_SEEK_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_seek_flags
+            - name: EVT_SUBSCRIBE_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_subscribe_flags
+            - name: EVT_SUBSCRIBE_NOTIFY_ACTION
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_subscribe_notify_action
+            - name: EVT_SYSTEM_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_system_property_id
+            - name: EVT_VARIANT_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_variant_type
+        - name: Windows 事件記錄檔函數
+          href: windows-event-log-functions.md
+          items:
+            - name: EVT_SUBSCRIBE_CALLBACK
+              href: /windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback
+            - name: EvtArchiveExportedLog
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtarchiveexportedlog
+            - name: EvtCancel
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtcancel
+            - name: EvtClearLog
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtclearlog
+            - name: EvtClose
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtclose
+            - name: EvtCreateBookmark
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtcreatebookmark
+            - name: EvtCreateRenderCoNtext
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtcreaterendercontext
+            - name: EvtExportLog
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtexportlog
+            - name: EvtFormatMessage
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtformatmessage
+            - name: EvtGetChannelConfigProperty
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetchannelconfigproperty
+            - name: EvtGetEventInfo
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgeteventinfo
+            - name: EvtGetEventMetadataProperty
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgeteventmetadataproperty
+            - name: EvtGetExtendedStatus
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetextendedstatus
+            - name: EvtGetLogInfo
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetloginfo
+            - name: EvtGetObjectArrayProperty
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetobjectarrayproperty
+            - name: EvtGetObjectArraySize
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetobjectarraysize
+            - name: EvtGetPublisherMetadataProperty
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetpublishermetadataproperty
+            - name: EvtGetQueryInfo
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetqueryinfo
+            - name: EvtNext
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtnext
+            - name: EvtNextChannelPath
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtnextchannelpath
+            - name: EvtNextEventMetadata
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtnexteventmetadata
+            - name: EvtNextPublisherId
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtnextpublisherid
+            - name: EvtOpenChannelConfig
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenchannelconfig
+            - name: EvtOpenChannelEnum
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenchannelenum
+            - name: EvtOpenEventMetadataEnum
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopeneventmetadataenum
+            - name: EvtOpenLog
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenlog
+            - name: EvtOpenPublisherEnum
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenpublisherenum
+            - name: EvtOpenPublisherMetadata
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenpublishermetadata
+            - name: EvtOpenSession
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopensession
+            - name: EvtQuery
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtquery
+            - name: EvtRender
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtrender
+            - name: EvtSaveChannelConfig
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtsavechannelconfig
+            - name: EvtSeek
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtseek
+            - name: EvtSetChannelConfigProperty
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtsetchannelconfigproperty
+            - name: EvtSubscribe
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtsubscribe
+            - name: EvtUpdateBookmark
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtupdatebookmark
+        - name: Windows 事件記錄檔結構
+          href: windows-event-log-structures.md
+          items:
+            - name: EVT_RPC_LOGIN
+              href: /windows/win32/api/WinEvt/ns-winevt-evt_rpc_login
+            - name: EVT_VARIANT
+              href: /windows/win32/api/WinEvt/ns-winevt-evt_variant
+        - name: Windows 事件記錄檔工具
+          href: windows-event-log-tools.md
+          items:
+            - name: '訊息編譯器 (MC.exe) '
+              href: message-compiler--mc-exe-.md
